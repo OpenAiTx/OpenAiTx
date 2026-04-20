@@ -238,31 +238,31 @@ A Edição Corporativa resolve desafios centrais na colaboração de equipes ao 
 
 ## ✨ Demo Online
 
-**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+**🔗 [Cherry Studio Enterprise](https://enterprise.cherry-ai.com)**
 
 ## Comparação de Versões
 
-| Recurso           | Edição Comunitária                                                                 | Edição Empresarial                                                                                                                     |
-| :---------------- | :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| **Código Aberto** | ✅ Sim                                                                              | ⭕️ Parcialmente liberado para clientes                                                                                                 |
-| **Custo**         | [Licença AGPL-3.0](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file) | Compra / Taxa de Assinatura                                                                                                            |
-| **Backend Admin** | —                                                                                  | ● Acesso centralizado ao **Modelo**<br>● Gerenciamento de **Funcionários**<br>● **Base de Conhecimento** compartilhada<br>● Controle de **Acesso**<br>● Backup de **Dados** |
+| Recurso           | Edição Comunitária                                                                  | Edição Empresarial                                                                                                                      |
+| :---------------- | :--------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Código Aberto** | ✅ Sim                                                                              | ⭕️ Parcialmente liberado para clientes                                                                                                  |
+| **Custo**         | [Licença AGPL-3.0](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file) | Compra / Taxa de Assinatura                                                                                                             |
+| **Admin Backend** | —                                                                                  | ● Acesso Centralizado ao **Modelo**<br>● Gestão de **Funcionários**<br>● **Base de Conhecimento** Compartilhada<br>● Controle de **Acesso**<br>● Backup de **Dados** |
 | **Servidor**      | —                                                                                  | ✅ Implantação Privada Dedicada                                                                                                         |
 
 ## Obtenha a Edição Empresarial
 
-Acreditamos que a Edição Empresarial será o motor de produtividade de IA da sua equipe. Se você tem interesse na Cherry Studio Edição Empresarial e deseja saber mais, solicitar um orçamento ou agendar uma demonstração, entre em contato conosco.
+Acreditamos que a Edição Empresarial será o motor de produtividade em IA da sua equipe. Se você tem interesse na Cherry Studio Enterprise Edition e gostaria de saber mais, solicitar um orçamento ou agendar uma demonstração, fique à vontade para nos contatar.
 
-- **Para Negócios & Compras**:
+- **Para Consultas Comerciais & Compras**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Projetos Relacionados
 
-- [new-api](https://github.com/QuantumNous/new-api): O gateway LLM de nova geração e sistema de gerenciamento de ativos de IA, suporta múltiplos idiomas.
+- [new-api](https://github.com/QuantumNous/new-api): O gateway de próxima geração para LLM e sistema de gerenciamento de ativos de IA, suporta múltiplos idiomas.
 
-- [one-api](https://github.com/songquanpeng/one-api): Sistema de gerenciamento e distribuição de API para LLMs suportando modelos como OpenAI, Azure e Anthropic. Interface de API unificada, ideal para gerenciamento de chaves e distribuição secundária.
+- [one-api](https://github.com/songquanpeng/one-api): Sistema de gerenciamento e distribuição de API LLM que suporta modelos como OpenAI, Azure e Anthropic. Interface unificada, ideal para gestão de chaves e distribuição secundária.
 
-- [Poe](https://poe.com/): O Poe oferece acesso às melhores IAs em um só lugar. Explore GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs e milhões de outros.
+- [Poe](https://poe.com/): Poe oferece acesso à melhor IA, tudo em um só lugar. Explore GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs e milhões de outros.
 
 - [ublacklist](https://github.com/iorate/ublacklist): Bloqueia sites específicos de aparecerem nos resultados de busca do Google
 
@@ -327,6 +327,6 @@ Caso necessite de uma licença comercial que conceda isenção dos requisitos da
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

@@ -1,120 +1,100 @@
-
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">簡體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">韓國語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">印地語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">泰語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">法語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">德語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">西班牙語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">義大利語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">俄語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">葡萄牙語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">荷蘭語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">波蘭語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">阿拉伯語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">波斯語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">土耳其語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">越南語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">印尼語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italiano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
       </div>
     </div>
   </details>
 </div>
 
-# SparkyFitness - MyFitnessPal 的自架替代方案
+# SparkyFitness
 
-SparkyFitness 是一套全面的健身追蹤與管理應用程式，設計用於協助使用者監控營養、運動及身體數據。它提供每日進度追蹤、目標設定及詳細報告工具，助你維持健康生活方式。
+一個自架、隱私優先的 MyFitnessPal 替代方案。記錄營養、運動、身體指標和健康數據，同時完全掌控您的數據。
 
-文件： https://codewithcj.github.io/SparkyFitness
+![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ 功能
+SparkyFitness 是一個自架的健身追蹤平台，由以下組成：
 
-### 🍎 營養追蹤
+- 後端伺服器（API + 數據儲存）
+- 基於網頁的前端
+- 原生行動應用程式適用於 iOS 和 Android
 
-* **記錄您的每日餐點**
-* **建立並管理自訂食物和分類**
-* **透過互動式圖表檢視摘要並分析趨勢**
+它在您控制的基礎設施上儲存並管理健康資料，無需依賴第三方服務。
 
-### 💪 運動紀錄
+## 核心功能
 
-* **記錄您的運動活動**
-* **瀏覽並搜尋完整的運動資料庫**
-* **追蹤健身進展**
+- 營養、運動、補水、睡眠、斷食、心情與身體測量追蹤
+- 設定目標與每日檢查
+- 互動式圖表與長期報告
+- 多用戶檔案與家庭存取
+- 明亮與暗黑主題
+- OIDC、TOTP、Passkey、多重驗證等
 
-### 💧 飲水攝取監控
+## 健康與設備整合
 
-* **追蹤每日飲水目標**
-* **簡單快速地記錄飲水量**
+SparkyFitness 可從多個健康與健身平台同步資料：
 
-### 📏 身體測量
+- **Apple Health**（iOS）
+- **Google Health Connect**（Android）
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow**（部分測試）
+- **Hevy**（未測試）
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava**（部分測試）
 
-* **記錄身體指標**（例如體重、腰圍、手臂）
-* **新增自訂測量類型**
-* **以圖表視覺化進展**
+整合功能會自動將活動資料（如步數、運動、睡眠）及健康指標（如體重與身體測量）同步到您的 SparkyFitness 伺服器。
 
-### 🎯 目標設定
+## 選用 AI 功能（測試版）
 
-* **設定並管理健身與營養目標**
-* **長期追蹤進度**
+SparkyAI 提供對話介面以記錄資料與檢視進度。
 
-### 🗓️ 每日簽到
+- 透過聊天記錄食物、運動、身體數據與步數
+- 上傳食物圖片以自動記錄餐點
+- 保留對話歷史以便後續追蹤
 
-* **監控每日活動**
-* **透過習慣追蹤保持一致**
+注意：AI 功能目前處於測試階段。
 
-### 🤖 AI 營養教練（SparkyAI）
+## 快速開始（伺服器）
 
-* **透過聊天記錄食物、運動、身體數據及步數**
-* **上傳食物圖片自動記錄餐點**
-* **包含聊天紀錄及個人化指導**
-
-### 🔒 使用者驗證與個人檔案
-
-* **安全登入系統**
-* **切換使用者個人檔案**
-* **支援家庭存取與管理**
-
-### 📊 全面性報告
-
-* **產生營養與身體指標摘要**
-* **追蹤數週或數月的長期趨勢**
-
-### 🎨 可自訂主題
-
-* **切換明亮與深色模式**
-* **以極簡、無干擾介面設計**
-
-### 需要協助嗎？
-* **加入 Discord**
-  https://discord.gg/vcnMT5cPEA
-* **在討論區發文**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � 快速開始
-
-幾分鐘內即可啟動 SparkyFitness：
+使用 Docker Compose 可於數分鐘內啟動 SparkyFitness 伺服器。
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
@@ -122,21 +102,29 @@ docker compose pull && docker compose up -d
 # Access application at http://localhost:8080
 ```
 
-## 📖 文件說明
 
-完整的安裝指南、開發設置及使用說明，請參閱我們的詳細文件：
+## 🎥 視頻教學
 
-**👉 [SparkyFitness 文件網站](https://codewithcj.github.io/SparkyFitness)**
+[![觀看視頻](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
+
+快速 2 分鐘教學，展示如何安裝 SparkyFitness（自架健身追蹤器）。
+
+
+## 文件
+
+完整安裝指南、配置選項及開發文件，請參閱我們的 [文件網站](https://codewithcj.github.io/SparkyFitness/)。
 
 ### 快速連結
 
-- **[🚀 新手入門](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開發及正式環境的完整設置指南
-- **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署與設定
-- **[🔧 開發流程](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開發人員指南與貢獻流程  
-- **[📊 功能總覽](https://codewithcj.github.io/SparkyFitness/features/)** - 完整功能文件
-- **[🏗️ 架構設計](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術架構與設計
-- 請參閱 Wiki 以取得範例環境設置和行動應用程式配置。
+- **[安裝指南](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - 部署與配置
+- **[功能總覽](https://codewithcj.github.io/SparkyFitness/features)** - 完整功能文件
+- **[開發流程](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開發者指南與貢獻流程
+- **[iOS 應用資訊](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** 及 **[Android 應用資訊](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
 
+### 需要協助？
+
+- 在 Github 問題/討論區發帖。
+- 若需更快回應並獲得其他社群成員幫助，請 **[加入我們的 Discord](https://discord.gg/vcnMT5cPEA)**
 
 ## 星標歷史
 
@@ -150,14 +138,15 @@ docker compose pull && docker compose up -d
 
 ## 翻譯
 
+**[Weblate 翻譯](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="翻譯狀態" />
 </a>
 
-## 程式庫活動
+## 儲存庫活動
 
-![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析圖")
-
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析圖像")
 
 ## 貢獻者
 
@@ -165,23 +154,23 @@ docker compose pull && docker compose up -d
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ 已知問題 / 測試版功能 ⚠️
+## ⚠️ 已知問題 / 測試功能 ⚠️
 
-以下功能目前為測試版，可能尚未經過充分測試。請預期可能出現錯誤或功能不完整：
+SparkyFitness 正在積極開發中。
+版本間可能會發生重大變更。
 
-*   AI 聊天機器人
-*   多用戶支援
-*   家人與朋友存取
-*   Apple Health 資料整合
+- 不建議自動更新容器
+- 升級前請務必檢查發行說明
 
-本應用程式正在密集開發中。由於 Supabase 正在遷移至 PostgreSQL，可能有些功能無法如預期運作。直到應用程式穩定前，可能會引入重大變更（BREAKING CHANGES）。
-每次新版本發佈時，可能需要修改 Docker／環境變數。因此，不建議使用 Watchtower 或類似應用程式自動升級。請閱讀發佈說明以了解任何重大變更（BREAKING CHANGES）。
+以下功能目前處於測試階段，可能尚未徹底測試。請預期可能有錯誤或功能不完整：
 
-
+- AI 聊天機器人
+- 家庭與朋友存取
+- API 文件
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

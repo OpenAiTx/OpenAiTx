@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -14,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
@@ -29,92 +28,73 @@
   </details>
 </div>
 
-# SparkyFitness - البديل ذاتي الاستضافة لـ MyFitnessPal
+# SparkyFitness
 
-SparkyFitness هو تطبيق شامل لإدارة وتتبع اللياقة البدنية مصمم لمساعدة المستخدمين على مراقبة التغذية والتمارين وقياسات الجسم. يوفر أدوات لتتبع التقدم اليومي، تحديد الأهداف، والتقارير التحليلية لدعم نمط حياة صحي.
+بديل مستضاف ذاتياً يركز على الخصوصية لتطبيق MyFitnessPal. تابع التغذية، التمارين، قياسات الجسم، وبيانات الصحة مع الحفاظ على السيطرة الكاملة على بياناتك.
 
-الوثائق: https://codewithcj.github.io/SparkyFitness
+![لقطة شاشة](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ الميزات
+SparkyFitness هو منصة تتبع اللياقة البدنية مستضافة ذاتياً تتكون من:
 
-### 🍎 تتبع التغذية
+- خادم خلفي (واجهة برمجية + تخزين البيانات)
+- واجهة أمامية عبر الويب
+- تطبيقات جوال أصلية لنظامي iOS و Android
 
-* **سجل وجباتك اليومية**
-* **أنشئ وأدر أطعمتك وفئاتك المخصصة**
-* **اعرض الملخصات وحلل الاتجاهات باستخدام الرسوم البيانية التفاعلية**
+يقوم بتخزين وإدارة بيانات الصحة على بنية تحتية تتحكم بها أنت، دون الاعتماد على خدمات الطرف الثالث.
 
-### 💪 تسجيل التمارين الرياضية
+## الميزات الأساسية
 
-* **سجل تمارينك الرياضية**
-* **تصفح وابحث في قاعدة بيانات شاملة للتمارين**
-* **تتبع تقدم اللياقة البدنية مع مرور الوقت**
+- تتبع التغذية، التمارين، الترطيب، النوم، الصيام، المزاج وقياسات الجسم
+- تحديد الأهداف والمتابعة اليومية
+- مخططات تفاعلية وتقارير طويلة المدى
+- ملفات مستخدمين متعددة وإمكانية الوصول العائلي
+- سمات فاتحة وداكنة
+- OIDC، TOTP، Passkey، المصادقة متعددة العوامل وغيرها.
 
-### 💧 مراقبة شرب الماء
+## تكاملات الصحة والأجهزة
 
-* **تتبع أهداف الترطيب اليومية**
-* **تسجيل الماء بسرعة وسهولة**
+يمكن لـ SparkyFitness مزامنة البيانات من عدة منصات صحة ولياقة بدنية:
 
-### 📏 قياسات الجسم
+- **Apple Health** (iOS)
+- **Google Health Connect** (Android)
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow** (تم اختباره جزئياً)
+- **Hevy** (لم يتم اختباره)
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava** (تم اختباره جزئياً)
 
-* **سجل مقاييس الجسم** (مثل الوزن، الخصر، الذراعين)
-* **أضف أنواع قياسات مخصصة**
-* **عرض التقدم من خلال الرسوم البيانية**
+تقوم التكاملات بمزامنة بيانات النشاط تلقائياً مثل الخطوات والتمارين والنوم، بالإضافة إلى المقاييس الصحية مثل الوزن وقياسات الجسم، إلى خادم SparkyFitness الخاص بك.
 
-### 🎯 تحديد الأهداف
+## ميزات الذكاء الاصطناعي الاختيارية (تجريبية)
 
-* **حدد وأدر أهداف اللياقة والتغذية**
-* **تتبع التقدم مع مرور الوقت**
+يوفر SparkyAI واجهة محادثة لتسجيل البيانات ومراجعة التقدم.
 
-### 🗓️ تسجيل الدخول اليومي
+- تسجيل الطعام، التمارين، إحصاءات الجسم والخطوات عبر الدردشة
+- رفع صور الطعام للتسجيل التلقائي للوجبات
+- يحتفظ بسجل المحادثة للمتابعة لاحقًا
 
-* **راقب النشاط اليومي**
-* **حافظ على الاتساق في تتبع العادات**
+ملاحظة: ميزات الذكاء الاصطناعي حالياً في المرحلة التجريبية.
 
-### 🤖 مدرب التغذية الذكي (SparkyAI)
+## البدء السريع (الخادم)
 
-* **سجل الطعام، التمارين، بيانات الجسم، والخطوات عبر الدردشة**
-* **ارفع صور الطعام لتسجيل الوجبات تلقائياً**
-* **يشمل سجل الدردشة وإرشادات شخصية**
-
-### 🔒 المصادقة والملفات الشخصية للمستخدم
-
-* **نظام تسجيل دخول آمن**
-* **التبديل بين ملفات تعريف المستخدمين**
-* **دعم الوصول العائلي والإدارة**
-
-### 📊 تقارير شاملة
-
-* **إنشاء ملخصات للتغذية وقياسات الجسم**
-* **تتبع الاتجاهات طويلة المدى على مدى أسابيع أو أشهر**
-
-### 🎨 سمات قابلة للتخصيص
-
-* **التبديل بين الوضع الفاتح والداكن**
-* **تصميم بواجهة بسيطة وخالية من التشويش**
-
-### تحتاج المساعدة؟
-* **انضم إلى ديسكورد**
-  https://discord.gg/vcnMT5cPEA
-* **انشر في المناقشة**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � البدء السريع
-
-شغّل SparkyFitness خلال دقائق:
+قم بتشغيل خادم SparkyFitness خلال دقائق باستخدام Docker Compose.
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
@@ -122,33 +102,44 @@ docker compose pull && docker compose up -d
 # Access application at http://localhost:8080
 ```
 
-## 📖 التوثيق
 
-للحصول على أدلة التثبيت الكاملة، وإعداد بيئة التطوير، وتعليمات الاستخدام، يرجى زيارة وثائقنا الشاملة:
+## 🎥 فيديو تعليمي
 
-**👉 [موقع توثيق SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
+[![شاهد الفيديو](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
+
+دليل سريع لمدة دقيقتين يوضح كيفية تثبيت SparkyFitness (متتبع اللياقة البدنية المستضاف ذاتياً).
+
+
+
+## الوثائق
+
+للحصول على أدلة التثبيت الكاملة، وخيارات التكوين، ووثائق التطوير، يرجى زيارة [موقع الوثائق](https://codewithcj.github.io/SparkyFitness/).
 
 ### روابط سريعة
 
-- **[🚀 البدء السريع](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - دليل كامل لإعداد بيئة التطوير والإنتاج
-- **[🐳 دليل Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - النشر والإعداد باستخدام Docker
-- **[🔧 سير عمل التطوير](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - دليل المطورين وعملية المساهمة  
-- **[📊 نظرة عامة على الميزات](https://codewithcj.github.io/SparkyFitness/features/)** - توثيق كامل للميزات
-- **[🏗️ الهيكلية](https://codewithcj.github.io/SparkyFitness/app-overview)** - الهيكلية التقنية والتصميم
-- الرجاء الرجوع إلى الويكي لإعداد بيئة env النموذجية وإعداد تطبيق الهاتف المحمول.
+- **[دليل التثبيت](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - النشر والتكوينات
+- **[نظرة عامة على الميزات](https://codewithcj.github.io/SparkyFitness/features)** - وثائق الميزات الكاملة
+- **[سير عمل التطوير](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - دليل المطورين وعملية المساهمة
+- **[معلومات تطبيق iOS](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** و **[معلومات تطبيق Android](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
 
+### هل تحتاج إلى مساعدة؟
 
-## سجل النجوم
+- انشر في مناقشات أو مشاكل Github.
+- للحصول على استجابة أسرع والمساعدة من أعضاء المجتمع الآخرين **[انضم إلى Discord الخاص بنا](https://discord.gg/vcnMT5cPEA)**
+
+## تاريخ النجوم
 
 <a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
-    <img alt="مخطط سجل النجوم" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+    <img alt="مخطط تاريخ النجوم" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
   </picture>
 </a>
 
 ## الترجمات
+
+**[ترجمات Weblate](https://hosted.weblate.org/engage/sparkyfitness)**
 
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="حالة الترجمة" />
@@ -158,30 +149,29 @@ docker compose pull && docker compose up -d
 
 ![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "صورة تحليلات Repobeats")
 
-
 ## المساهمون
 
 <a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ المشاكل المعروفة / الميزات التجريبية ⚠️
+## ⚠️ المشاكل المعروفة / الميزات التجريبية ⚠️
 
-الميزات التالية حالياً في المرحلة التجريبية وربما لم يتم اختبارها بشكل كافٍ. يرجى توقع وجود أخطاء أو وظائف غير مكتملة:
+SparkyFitness تحت التطوير النشط.
+قد تحدث تغييرات جذرية بين الإصدارات.
 
-*   روبوت المحادثة الذكي (AI Chatbot)
-*   دعم تعدد المستخدمين
-*   وصول العائلة والأصدقاء
-*   دمج بيانات Apple Health
+- لا يُوصى بتحديث الحاويات تلقائيًا
+- يجب دائمًا مراجعة ملاحظات الإصدار قبل التحديث
 
-هذا التطبيق يخضع لتطوير مكثف. قد لا تعمل الأمور كما هو متوقع بسبب الانتقال من Supabase إلى PostgreSQL. قد يتم إدخال تغييرات جذرية حتى يصبح التطبيق مستقراً.
-قد تحتاج إلى تغيير متغيرات Docker/البيئة في الإصدارات الجديدة. لذلك، لا يُنصح بالترقية التلقائية باستخدام Watchtower أو تطبيقات مشابهة. اقرأ ملاحظات الإصدار لأي تغييرات جذرية.
+الميزات التالية حاليًا في مرحلة تجريبية وقد لا تكون قد تم اختبارها بشكل كافٍ. توقع حدوث أخطاء أو وظائف غير مكتملة:
 
-
+- روبوت الدردشة بالذكاء الاصطناعي
+- وصول العائلة والأصدقاء
+- توثيق واجهة برمجة التطبيقات (API)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

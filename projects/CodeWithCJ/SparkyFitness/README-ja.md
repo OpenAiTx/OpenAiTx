@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -14,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
@@ -29,114 +28,100 @@
   </details>
 </div>
 
-# SparkyFitness - MyFitnessPalのセルフホスト型代替
+# SparkyFitness
 
-SparkyFitnessは、ユーザーが栄養、運動、身体測定を管理・追跡できる包括的なフィットネストラッキング・管理アプリケーションです。日々の進捗管理、目標設定、健康的なライフスタイルを支援する詳細なレポート機能を提供します。
+自己ホスト型・プライバシー重視のMyFitnessPal代替アプリ。栄養・運動・身体指標・健康データを記録し、データの完全なコントロールを維持できます。
 
-ドキュメント: https://codewithcj.github.io/SparkyFitness
+![スクリーンショット](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ 主な機能
+SparkyFitnessは以下で構成される自己ホスト型フィットネストラッキングプラットフォームです：
 
-### 🍎 栄養トラッキング
+- バックエンドサーバー（API＋データストレージ）
+- ウェブベースのフロントエンド
+- iOSとAndroid向けのネイティブモバイルアプリ
 
-* **毎日の食事を記録する**
-* **カスタム食品やカテゴリの作成・管理**
-* **要約を表示し、インタラクティブなグラフで傾向を分析**
+インフラストラクチャを自分で管理し、サードパーティサービスに依存せずに健康データを保存・管理します。
 
-### 💪 運動記録
+## コア機能
 
-* **ワークアウトの記録**
-* **充実した運動データベースを閲覧・検索**
-* **フィットネスの進捗を時系列で追跡**
+- 栄養、運動、水分補給、睡眠、断食、気分、体測定のトラッキング
+- 目標設定と日々のチェックイン
+- インタラクティブなチャートと長期レポート
+- 複数ユーザープロファイルと家族アクセス
+- ライト・ダークテーマ
+- OIDC、TOTP、Passkey、MFAなど
 
-### 💧 水分摂取モニタリング
+## 健康＆デバイス連携
 
-* **毎日の水分摂取目標を追跡**
-* **シンプルで素早い水分記録**
+SparkyFitnessは複数の健康・フィットネスプラットフォームからデータ同期が可能です：
 
-### 📏 体の測定
+- **Apple Health**（iOS）
+- **Google Health Connect**（Android）
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow**（部分的にテスト済み）
+- **Hevy**（未テスト）
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava**（部分的にテスト済み）
 
-* **体の指標を記録**（例：体重、ウエスト、腕）
-* **カスタム測定タイプの追加**
-* **グラフで進捗を可視化**
+連携機能により、歩数、ワークアウト、睡眠などのアクティビティデータや、体重や体測定値などの健康指標が自動的にSparkyFitnessサーバーに同期されます。
 
-### 🎯 目標設定
+## オプションAI機能（ベータ版）
 
-* **フィットネスと栄養の目標設定・管理**
-* **進捗を時系列で追跡**
+SparkyAIはデータ記録と進捗確認のための会話型インターフェースを提供します。
 
-### 🗓️ 毎日のチェックイン
+- チャットで食事、運動、身体統計、歩数を記録
+- 食事画像をアップロードして自動的に食事記録
+- フォローアップのために会話履歴を保持
 
-* **毎日の活動を監視**
-* **習慣追跡で継続性を維持**
+注：AI 機能は現在ベータ版です。
 
-### 🤖 AI栄養コーチ（SparkyAI）
+## クイックスタート（サーバー）
 
-* **チャットで食事、運動、体の統計、歩数を記録**
-* **食事画像をアップロードして自動記録**
-* **チャット履歴と個別のアドバイス付き**
-
-### 🔒 ユーザー認証とプロフィール
-
-* **安全なログインシステム**
-* **ユーザープロファイルの切り替え**
-* **家族のアクセスと管理のサポート**
-
-### 📊 包括的なレポート
-
-* **栄養や身体指標のサマリー生成**
-* **数週間または数ヶ月単位で長期傾向を追跡**
-
-### 🎨 カスタマイズ可能なテーマ
-
-* **ライトモードとダークモードの切り替え**
-* **ミニマルで気が散らないインターフェース設計**
-
-### お困りですか？
-* **Discordに参加する**
-  https://discord.gg/vcnMT5cPEA
-* **ディスカッションに投稿する**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � クイックスタート
-
-SparkyFitnessを数分で起動できます:
+Docker Compose を使って数分で SparkyFitness サーバーを起動できます。
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
+## 🎥 ビデオチュートリアル
 
-## 📖 ドキュメント
+[![ビデオを見る](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
 
-インストールガイド、開発セットアップ、使用方法についての完全なガイドは、以下の包括的なドキュメントをご覧ください:
+SparkyFitness（セルフホスト型フィットネストラッカー）のインストール方法を2分で簡単に解説したチュートリアルです。
 
-**👉 [SparkyFitness ドキュメントサイト](https://codewithcj.github.io/SparkyFitness)**
+## ドキュメント
+
+インストールガイド、設定オプション、開発用ドキュメントの詳細は[ドキュメントサイト](https://codewithcj.github.io/SparkyFitness/)をご覧ください。
 
 ### クイックリンク
 
-- **[🚀 はじめに](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開発および本番環境のセットアップガイド
-- **[🐳 Docker ガイド](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker のデプロイと設定
-- **[🔧 開発ワークフロー](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開発者ガイドと貢献プロセス  
-- **[📊 機能概要](https://codewithcj.github.io/SparkyFitness/features/)** - 完全な機能ドキュメント
-- **[🏗️ アーキテクチャ](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術アーキテクチャと設計
-- サンプル環境セットアップやモバイルアプリの設定はWikiを参照してください。
+- **[インストールガイド](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - デプロイと設定方法
+- **[機能概要](https://codewithcj.github.io/SparkyFitness/features)** - 全機能の詳細ドキュメント
+- **[開発ワークフロー](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開発者向けガイドとコントリビューション手順
+- **[iOSアプリ情報](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** および **[Androidアプリ情報](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
 
+### サポートが必要ですか？
+
+- Githubのイシュー／ディスカッションに投稿してください。
+- より早い回答や他のコミュニティメンバーからのサポートを得るには **[Discordに参加](https://discord.gg/vcnMT5cPEA)** してください。
 
 ## スター履歴
 
@@ -150,14 +135,18 @@ docker compose pull && docker compose up -d
 
 ## 翻訳
 
+**[Weblate 翻訳](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
+
+
+
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="翻訳状況" />
 </a>
 
 ## リポジトリアクティビティ
 
-![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析画像")
-
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats分析画像")
 
 ## コントリビューター
 
@@ -165,23 +154,23 @@ docker compose pull && docker compose up -d
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ 既知の問題 / ベータ機能 ⚠️
+## ⚠️ 既知の問題 / ベータ機能 ⚠️
 
-以下の機能は現在ベータ版であり、十分にテストされていない可能性があります。バグや機能の不完全さが発生することがあります：
+SparkyFitnessは積極的に開発中です。
+リリース間で重大な変更が発生する可能性があります。
 
-*   AIチャットボット
-*   マルチユーザー対応
-*   家族・友人アクセス
-*   Apple Healthデータ連携
+- コンテナの自動アップデートは推奨されません
+- アップグレード前に必ずリリースノートを確認してください
 
-このアプリケーションは現在集中的に開発中です。SupabaseからPostgreSQLへの移行により、予期せぬ動作となる場合があります。安定するまで重大な変更（BREAKING CHANGES）が導入される可能性があります。
-新しいリリース時にはDockerや環境変数の変更が必要となる場合があります。そのため、Watchtowerなどによる自動アップグレードは推奨されません。重大な変更（BREAKING CHANGES）がある場合はリリースノートを必ずご確認ください。
+以下の機能は現在ベータ版であり、十分なテストが行われていない場合があります。バグや機能の不完全さが予想されます：
 
-
+- AIチャットボット
+- ファミリー＆フレンズアクセス
+- APIドキュメント
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

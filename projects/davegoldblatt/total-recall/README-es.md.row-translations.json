@@ -1,0 +1,1466 @@
+[
+  {
+    "row": 1,
+    "rowsha": "6FiSyjI4ZDocaXoRPxLns8j6zfO/Vq6qgv0va82x52U=",
+    "originContent": "# Total Recall",
+    "translatedContent": "# Total Recall"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "jFj7yxhov/Xnc+F4VpQe4VVdt+Fko7M1bK6+fwzAymM=",
+    "originContent": "A memory system for Claude Code that remembers what matters and forgets what doesn't.",
+    "translatedContent": "Un sistema de memoria para Claude Code que recuerda lo que importa y olvida lo que no."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "lR7GTMM3zAqvnZnIsrFEy15m6S/PY8nzenXxRU1vPnA=",
+    "originContent": "## The Problem",
+    "translatedContent": "## El Problema"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "TZ6GxEUlWMU34ALRfLlNeARvNLla6uUaeyGIC8yT4kk=",
+    "originContent": "Claude Code forgets everything between sessions. Every time you start a new conversation, it's like talking to someone with amnesia. You end up repeating yourself:",
+    "translatedContent": "Claude Code olvida todo entre sesiones. Cada vez que empiezas una nueva conversación, es como hablar con alguien con amnesia. Terminas repitiéndote:"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "hDPLJrYIVV4h/F8+BBjLss93bKeY8S7c71gfDOs2GOs=",
+    "originContent": "- \"We already tried that approach, it didn't work.\"",
+    "translatedContent": "- \"Ya intentamos ese enfoque, no funcionó.\""
+  },
+  {
+    "row": 10,
+    "rowsha": "70+8+wlwcojOab1Vdwg3W39Qy4MFJjREjEFB0D9KugU=",
+    "originContent": "- \"Don't touch the auth file.\"",
+    "translatedContent": "- \"No toques el archivo de autenticación.\""
+  },
+  {
+    "row": 11,
+    "rowsha": "ZyQOc29SLJXYI5lZ8JlX1qqYObhkgT1jH1v0NC636EY=",
+    "originContent": "- \"I prefer tabs over spaces.\"",
+    "translatedContent": "- \"Prefiero tabulaciones en lugar de espacios.\""
+  },
+  {
+    "row": 12,
+    "rowsha": "TYtIR0c6n4JGe+f915LazTgVOgKRFdPN/e86y2yhWrk=",
+    "originContent": "- \"The client's name is Sarah, not Sara.\"",
+    "translatedContent": "- \"El nombre del cliente es Sarah, no Sara.\""
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "xTbdN0mkYrwYog0sZ20JZEP7hcvSkZv7yTYFyglhy3U=",
+    "originContent": "This gets old fast.",
+    "translatedContent": "Esto se vuelve cansado rápido."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "/Ty+QheMF0pm7mne/6GvwTT7o+VPHMxHsC/yWJoXlgs=",
+    "originContent": "## What Total Recall Does",
+    "translatedContent": "## Qué Hace Total Recall"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "KPOxwwxaKf9NTM2yaHZtuJrMmvHZ86JiuFzV1aAEpKw=",
+    "originContent": "It gives Claude Code a notepad that carries over between sessions, but a *picky* notepad. Not everything goes in. Before anything gets saved permanently, it has to pass a simple test: **will this matter tomorrow?**",
+    "translatedContent": "Le da a Claude Code un bloc de notas que se mantiene entre sesiones, pero un bloc *quisquilloso*. No todo entra. Antes de que algo se guarde permanentemente, debe pasar una prueba simple: **¿importará esto mañana?**"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "tP7Wv1dm6Gobpq8HbmZvhBanwmVqaI0irwCB3YIagHk=",
+    "originContent": "A preference you'll have for months? Saved. A decision you made and why? Saved. The fact that you ran a test five minutes ago? Not saved. The system keeps itself clean so Claude isn't wading through junk to find what's relevant.",
+    "translatedContent": "¿Una preferencia que tendrás por meses? Guardada. ¿Una decisión que tomaste y por qué? Guardada. ¿El hecho de que hiciste una prueba hace cinco minutos? No guardado. El sistema se mantiene limpio para que Claude no tenga que buscar entre basura para encontrar lo relevante."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+    "originContent": "## How It Works",
+    "translatedContent": "## Cómo Funciona"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "MZg4+7wDTdBnWXr52nsyXBlmPVbCfPqk8Ijt+ibgm34=",
+    "originContent": "Think of it like a kitchen with four storage areas:",
+    "translatedContent": "Piénsalo como una cocina con cuatro áreas de almacenamiento:"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "Bwk0QcP0Pnrim9UGY873PIJK/PmOr0W0/cCyPJUMCdE=",
+    "originContent": "**Counter** (`CLAUDE.local.md`): The stuff you reach for every day. Loads automatically, every session. Kept small on purpose, around a page of text.",
+    "translatedContent": "**Mostrador** (`CLAUDE.local.md`): Las cosas que usas todos los días. Se carga automáticamente, cada sesión. Mantenido pequeño a propósito, alrededor de una página de texto."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "3ihmdmrKdTWsM3Fa2Hw1g0ZvtDLajjDs9QKKgLwI4js=",
+    "originContent": "**Pantry** (`memory/registers/`): Organized by category. Your preferences, key decisions, project details, people you work with. Claude checks here when it needs something specific.",
+    "translatedContent": "**Despensa** (`memory/registers/`): Organizada por categoría. Tus preferencias, decisiones clave, detalles del proyecto, personas con las que trabajas. Claude revisa aquí cuando necesita algo específico."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "XRMKGfBrM+EWgG+PojcL9a1F/3mj624As4WX2aq8dmE=",
+    "originContent": "**Daily notebook** (`memory/daily/`): Timestamped scratch notes from each day. Everything gets written here first. You decide later what's worth keeping permanently.",
+    "translatedContent": "**Cuaderno diario** (`memory/daily/`): Notas rápidas con fecha de cada día. Todo se escribe aquí primero. Tú decides después qué vale la pena conservar permanentemente."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "YqE7RN1YmLo/UajO6mQbdDGJRl6PO4d7Dw/gNUvAEJo=",
+    "originContent": "**Storage closet** (`memory/archive/`): Old stuff that's done or outdated. Still searchable, but never loaded automatically.",
+    "translatedContent": "**Armario de almacenamiento** (`memory/archive/`): Cosas viejas que ya terminaron o están obsoletas. Aún se pueden buscar, pero nunca se cargan automáticamente."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "xEs8LN8ewSux4KMUZzElGyzjVQo4dWfT7teIZI/RmH4=",
+    "originContent": "The key idea: **notes hit the daily notebook first, then you promote the keepers.** Claude doesn't get to decide on its own what's important enough to remember permanently. You do.",
+    "translatedContent": "La idea clave: **las notas van primero al cuaderno diario, luego tú promocionas las que quieres conservar.** Claude no decide solo qué es suficientemente importante para recordar permanentemente. Tú decides."
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## Inicio Rápido"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "wL9ujh5uP+Cx9wlenrM7xrlW3sspksGN0/xjLXFHW8c=",
+    "originContent": "### Install as a plugin (recommended)",
+    "translatedContent": "### Instalar como plugin (recomendado)"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "oMuaiaI+mhZrLnQ5UUqZ5eKpMsyxXmCmJkHEVseMD3Y=",
+    "originContent": "/plugin marketplace add davegoldblatt/recall-marketplace",
+    "translatedContent": "/plugin marketplace add davegoldblatt/recall-marketplace"
+  },
+  {
+    "row": 42,
+    "rowsha": "g0l58tBxOwmh7WBNFPWxcPXT96RrhqaOFpZwss3/AZE=",
+    "originContent": "/plugin install recall@recall-marketplace",
+    "translatedContent": "/plugin install recall@recall-marketplace"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "xIe5nhZDmKAA+RzUn0CzrBNK5JWPrzceqzQewMis+js=",
+    "originContent": "### Or install standalone",
+    "translatedContent": "### O instalar de forma independiente"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "dVJVcp/F1x7x3CLtNOspIzrdLg32LgyLBTWzI0u+UZQ=",
+    "originContent": "git clone https://github.com/davegoldblatt/total-recall.git",
+    "translatedContent": "git clone https://github.com/davegoldblatt/total-recall.git"
+  },
+  {
+    "row": 49,
+    "rowsha": "5VuJxZRy9thgDv/kmirnxLU5LVfcp5PXNzbiSAdKQrg=",
+    "originContent": "cd total-recall",
+    "translatedContent": "cd total-recall"
+  },
+  {
+    "row": 50,
+    "rowsha": "GsWOJP8Cn6QUNgFswpwBkqCqtKc6SQ5nqgTT/waXBjY=",
+    "originContent": "./install.sh /path/to/your/project",
+    "translatedContent": "./install.sh /path/to/your/project"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "efy6vuZpMrVlmcYu1sHnbU9U+20IH45LhvOHzFwa9qY=",
+    "originContent": "After installing, restart Claude Code or run `/hooks` to activate.",
+    "translatedContent": "Después de la instalación, reinicia Claude Code o ejecuta `/hooks` para activar."
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "4g0mVdB0Hn2qtYlp8U076+YgkAWMmL26WQCYTy3rnuQ=",
+    "originContent": "## Using It",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "guJNco4B3uii8EgPcez//TZX5u1CfdUpWd6Q56w9q6U=",
+    "originContent": "Here's your day-to-day:",
+    "translatedContent": "Aquí está tu día a día:"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "QQk0yHM0e5jHzdIlNhSlS1IoVmrYNUBGZQ7fAzypT4g=",
+    "originContent": "**Claude notices something worth remembering.** It writes to your daily notebook and tells you. You don't have to do anything.",
+    "translatedContent": "**Claude nota algo que vale la pena recordar.** Lo escribe en tu cuaderno diario y te lo dice. No tienes que hacer nada."
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "jtXOf8IiZChvl6PT+c7zmfAxvr/8nR7HJFTyijApml8=",
+    "originContent": "**You want Claude to remember something.** Just say \"remember this\" or use the write command:",
+    "translatedContent": "**Quieres que Claude recuerde algo.** Solo di \"recuerda esto\" o usa el comando de escritura:"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "nKy8LDJPDvpcE2C1Nz/vGNGUONBvHlf6zX1/MxfZd54=",
+    "originContent": "/recall-write Dave prefers concise error messages, no stack traces in prod",
+    "translatedContent": "/recall-write Dave prefers concise error messages, no stack traces in prod"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "uVJwqJKFQfxEVFi7bj3PPRzAUu2YEmkBjEXW+4GrTgo=",
+    "originContent": "**End of day (or whenever).** Review what piled up and promote the good stuff:",
+    "translatedContent": "**Fin del día (o cuando sea).** Revisa lo acumulado y promociona lo bueno:"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "nuE6Hp3fZuT3M4hJYsz0q1BIp8PpzZIRVesr+dNDCjI=",
+    "originContent": "/recall-promote",
+    "translatedContent": "/recall-promote"
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "pc9qo0YsJmGtamb/JAJaYLoZ8pVvSVCBRCtuK0GQ6nw=",
+    "originContent": "**Find something from last week.** Search across everything:",
+    "translatedContent": "**Encuentra algo de la semana pasada.** Busca en todo:"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "7U1eZaHwBDAaF/x6u5ov4XhXQRf6o1zbn9jCKoyVHQI=",
+    "originContent": "/recall-search authentication decision",
+    "translatedContent": "/recall-search authentication decision"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**Tú corriges a Claude.** La corrección se actualiza en todas partes a la vez: cuaderno diario, registros y contador. El mismo error no volverá a ocurrir."
+  },
+  {
+    "row": 79,
+    "rowsha": "YwOAFmsUC6p+vH3JwXZELyR+5TIgDBI3jqLySmpAn3Y=",
+    "originContent": "**You correct Claude.** The correction updates everywhere at once: daily notebook, registers, and the counter. The same mistake won't happen again.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Todos los Comandos"
+  },
+  {
+    "row": 81,
+    "rowsha": "lyA5lxHLhnt/Sm1O8kWkEd4ajOEQhzlR7cpXeSVcsBw=",
+    "originContent": "### All Commands",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| Comando | Qué hace |"
+  },
+  {
+    "row": 83,
+    "rowsha": "elHeqKS8Ep7dXnk/rJu5JLlNELS4YYR42T1sx+M7ips=",
+    "originContent": "| Command | What it does |",
+    "translatedContent": "|---|---|"
+  },
+  {
+    "row": 84,
+    "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+    "originContent": "|---|---|",
+    "translatedContent": "| `/recall-init` | Configura las carpetas de memoria por primera vez |"
+  },
+  {
+    "row": 85,
+    "rowsha": "fv9XHd1CjvqsFIP3L6XLsg6kYjIiyAqT8OqSgdpbTog=",
+    "originContent": "| `/recall-init` | Set up the memory folders for the first time |",
+    "translatedContent": "| `/recall-write <nota>` | Guarda una nota (verifica si vale la pena conservarla, sugiere dónde) |"
+  },
+  {
+    "row": 86,
+    "rowsha": "1PIq5aBC7KYoVR6Ssmw7TymnHLov6laNC47cnefdZW0=",
+    "originContent": "| `/recall-write <note>` | Save a note (checks if it's worth keeping, suggests where) |",
+    "translatedContent": "| `/recall-log <nota>` | Nota rápida en el cuaderno diario, sin preguntas |"
+  },
+  {
+    "row": 87,
+    "rowsha": "2mqA5qHfAHVGBTpdowzovwcCqOwiATw9sOCW/SqN/JE=",
+    "originContent": "| `/recall-log <note>` | Quick note to the daily notebook, no questions asked |",
+    "translatedContent": "| `/recall-search <consulta>` | Busca en todo |"
+  },
+  {
+    "row": 88,
+    "rowsha": "QkHphDiicW7jwwL7secX+bPhHFvmZmw9Bct0GQEIVEg=",
+    "originContent": "| `/recall-search <query>` | Search everything |",
+    "translatedContent": "| `/recall-promote` | Revisa notas diarias, mueve las importantes a registros |"
+  },
+  {
+    "row": 89,
+    "rowsha": "4GCgh6YxJOhRizVMpYyT4KTzbdsIX8CT2ADVB26tcF8=",
+    "originContent": "| `/recall-promote` | Review daily notes, move the keepers to registers |",
+    "translatedContent": "| `/recall-status` | Revisión de salud. ¿Todo funciona? |"
+  },
+  {
+    "row": 90,
+    "rowsha": "KbXp65Y3Ykpu1b+fiWY6MpmYsY4azvpOEN2d2l/yhYY=",
+    "originContent": "| `/recall-status` | Health check. Is everything working? |",
+    "translatedContent": "| `/recall-maintain` | Limpia entradas obsoletas o duplicadas |"
+  },
+  {
+    "row": 91,
+    "rowsha": "QLjkZ32hEmaouV1LO6eVkMxa+w4hUUsCehfsLjt3eXs=",
+    "originContent": "| `/recall-maintain` | Clean up stale or duplicate entries |",
+    "translatedContent": "| `/recall-forget <consulta>` | Marca algo como desactualizado |"
+  },
+  {
+    "row": 92,
+    "rowsha": "8o2iGaw59Yiy/WP8GH3aJL0ubjOkCdPEvRtsOnOidnA=",
+    "originContent": "| `/recall-forget <query>` | Mark something as outdated |",
+    "translatedContent": "| `/recall-context` | Muestra qué memoria tiene Claude cargada ahora |"
+  },
+  {
+    "row": 93,
+    "rowsha": "0Mylrl51OWT51T3vOGM1Qw5n4LuEdWSVV/CHwcDtRuI=",
+    "originContent": "| `/recall-context` | Show what memory Claude has loaded right now |",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si se instala como plugin, los comandos tienen espacio de nombres: `/recall:recall-write` en vez de `/recall-write`."
+  },
+  {
+    "row": 95,
+    "rowsha": "wR5CJS/P4Y8slnpDXwcs16XHZ+NEYK4G3W6o8xfJwXQ=",
+    "originContent": "If installed as a plugin, commands are namespaced: `/recall:recall-write` instead of `/recall-write`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## La Puerta de Escritura"
+  },
+  {
+    "row": 97,
+    "rowsha": "nbzJ5Fek+lqGVHPv08Ff1Wh7A8KQ8vYkfUjGSaXJnpY=",
+    "originContent": "## The Write Gate",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Esta es la idea central. Antes de que algo se promueva a memoria permanente, debe pasar al menos una de estas pruebas:"
+  },
+  {
+    "row": 99,
+    "rowsha": "PWSYd7W4sNbE/NxaD/rmm2YKhv5sUStGOa4p09PFW7E=",
+    "originContent": "This is the core idea. Before anything gets promoted to permanent memory, it has to pass at least one of these checks:",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **¿Cambiará cómo se comporta Claude la próxima vez?** (una preferencia, un límite, un patrón)"
+  },
+  {
+    "row": 101,
+    "rowsha": "XfUrX+NJ6ME153a2xmsg91EzTsybBFAIrpaPqO6xwkg=",
+    "originContent": "1. **Will it change how Claude behaves next time?** (a preference, a boundary, a pattern)",
+    "translatedContent": "2. **¿Es un compromiso en el que alguien confía?** (una fecha límite, un entregable, un seguimiento)"
+  },
+  {
+    "row": 102,
+    "rowsha": "iCApm+2W1X8McMHI3/VB8z2QFnfd4JegoMV/CezkeL0=",
+    "originContent": "2. **Is it a commitment someone's counting on?** (a deadline, a deliverable, a follow-up)",
+    "translatedContent": "3. **¿Es una decisión que vale la pena recordar el razonamiento?** (por qué escogiste X sobre Y)"
+  },
+  {
+    "row": 103,
+    "rowsha": "CxphoEjOJS9fKvVt0U7PkuzkLWjBRq8FLQWDyTWtjPg=",
+    "originContent": "3. **Is it a decision worth remembering the reasoning for?** (why you picked X over Y)",
+    "translatedContent": "4. **¿Es un hecho estable que volverá a surgir?** (no algo que cambiará mañana)"
+  },
+  {
+    "row": 104,
+    "rowsha": "d62twwZlsA2O+N2AR7T38W6EkjLdWbOZXjx0A1JxXNY=",
+    "originContent": "4. **Is it a stable fact that'll come up again?** (not something that'll be different tomorrow)",
+    "translatedContent": "5. **¿Dijiste explícitamente \"recuerda esto\"?**"
+  },
+  {
+    "row": 105,
+    "rowsha": "O1K03SkZlyyw3nXeVJCJaWJWgM7RRex+ayFRHwQZoHE=",
+    "originContent": "5. **Did you explicitly say \"remember this\"?**",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si ninguna es cierta, se queda en el cuaderno diario y eventualmente se elimina. Esto mantiene la memoria ligera. Sin cajón de basura."
+  },
+  {
+    "row": 107,
+    "rowsha": "Z+IortAcHG0xYRswjyQkqxRlDuXle+sQ8uhE8mhiC7w=",
+    "originContent": "If none of those are true, it stays in the daily notebook and eventually ages out. This keeps memory lean. No junk drawer.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Cuando Ocurren Correcciones"
+  },
+  {
+    "row": 109,
+    "rowsha": "mF6Dx1gWiJiW+jhs8BTaYhbPHw3MNEHdsmjVyMfe/bA=",
+    "originContent": "## When Corrections Happen",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si le dices a Claude que se equivocó, no solo dice \"lo siento\" y sigue. Actualiza el cuaderno diario, el registro relevante y el contador, todo en un solo paso. La información antigua se marca como reemplazada (no se elimina) para dejar un rastro de qué cambió y cuándo."
+  },
+  {
+    "row": 111,
+    "rowsha": "mEw1dcAOaQMsSepbaqBzzhsJqbIfKIp26OC9QqucA3E=",
+    "originContent": "If you tell Claude it got something wrong, it doesn't just say \"sorry\" and move on. It updates the daily notebook, the relevant register, and the counter, all in one shot. The old information gets marked as superseded (not deleted) so there's a trail of what changed and when.",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Qué se Carga Automáticamente"
+  },
+  {
+    "row": 113,
+    "rowsha": "SRRPf6YIchuC3ICjxgB/qPvsDLfLvarbDI/+dS/2xLI=",
+    "originContent": "## What Loads Automatically",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Solo dos cosas, cada sesión:"
+  },
+  {
+    "row": 115,
+    "rowsha": "VCS5tfF7v3EhfZ6fu539+KBfwsPmqUB9Kx23fDKtBFI=",
+    "originContent": "Only two things, every session:",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| Qué | Dónde | Cómo |"
+  },
+  {
+    "row": 117,
+    "rowsha": "9ciud8XnvJ5t6g3RSg1U4n4n1AKqteq9KUhb7ERAy40=",
+    "originContent": "| What | Where | How |",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+    "originContent": "|---|---|---|",
+    "translatedContent": "|---|---|---|"
+  },
+  {
+    "row": 119,
+    "rowsha": "JSPUL4EnRToUc7h+WQ5bzX9gBy1M8HpwAS+YYSnItcs=",
+    "originContent": "| The rules (write gate, correction protocol) | `rules/total-recall.md` | Claude Code loads all rules files automatically |",
+    "translatedContent": "| Las reglas (puerta de escritura, protocolo de corrección) | `rules/total-recall.md` | Claude Code carga todos los archivos de reglas automáticamente |"
+  },
+  {
+    "row": 120,
+    "rowsha": "Dg6Rk8astaAPHG2Uc2xyhHm8erifNu5ycuaesKWqg4M=",
+    "originContent": "| Counter / working memory | `CLAUDE.local.md` | Claude Code loads this automatically |",
+    "translatedContent": "| Memoria de trabajo / contador | `CLAUDE.local.md` | Claude Code carga esto automáticamente |"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "aEVc4HRAUPZ6xc6VJg/cCqJtfMuPtE37u4z4Kp6joXk=",
+    "originContent": "Everything else loads on demand: when you search, when it's relevant, or at session start via hooks.",
+    "translatedContent": "Todo lo demás se carga bajo demanda: cuando buscas, cuando es relevante, o al inicio de la sesión mediante hooks."
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "bfv6uMqO/8TGua3ajeL5s7AKeb9WgtbbUmgxo83mS+M=",
+    "originContent": "## Hooks",
+    "translatedContent": "## Hooks"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "jUBHct4io1t3f8DX836DXFPumvgFVv/t9+4Ku5+bc3E=",
+    "originContent": "Two things happen automatically in the background:",
+    "translatedContent": "Dos cosas ocurren automáticamente en segundo plano:"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "sX1EZJiR5DGoxDTt4XzaG0fx5h6Y35R5+0l6mqXGwXQ=",
+    "originContent": "**When a session starts:** Claude gets a summary of open items and recent daily notes. This is the \"here's where we left off\" briefing.",
+    "translatedContent": "**Cuando inicia una sesión:** Claude recibe un resumen de los ítems abiertos y las notas diarias recientes. Este es el informe de \"aquí es donde lo dejamos\"."
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "4u1O+Em3SpqJ3mru0oVl1xz3P30/TXRbm+P1oGJwDNY=",
+    "originContent": "**Before memory gets compacted:** A timestamp gets written to the daily notebook so there's a record. This one is silent. Claude doesn't see it, it's just bookkeeping.",
+    "translatedContent": "**Antes de que la memoria se compacte:** Se escribe una marca de tiempo en el cuaderno diario para que haya un registro. Esta acción es silenciosa. Claude no la ve, es solo para control administrativo."
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "hSeqKwqr8ygQIUMt8SORlFU1S6QYPMNgaQf0zkJMF/w=",
+    "originContent": "Both hooks fail safely. If something goes wrong, they don't block Claude Code from working.",
+    "translatedContent": "Ambos hooks fallan de forma segura. Si algo sale mal, no bloquean el funcionamiento de Claude Code."
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "1Fg5i8HpkF+UU9RF5HiJ/fTd4Zo8RNO2eFKdS0LN2Y8=",
+    "originContent": "Hooks use `$CLAUDE_PROJECT_DIR` (standalone) or `${CLAUDE_PLUGIN_ROOT}` (plugin) to resolve paths. No transcript parsing. The PreCompact hook only writes a timestamp marker to the daily log. It does not read or parse conversation transcripts.",
+    "translatedContent": "Los hooks usan `$CLAUDE_PROJECT_DIR` (modo independiente) o `${CLAUDE_PLUGIN_ROOT}` (plugin) para resolver rutas. No hay análisis de transcripciones. El hook PreCompact solo escribe una marca de tiempo en el registro diario. No lee ni analiza las transcripciones de conversación."
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+    "originContent": "## Architecture",
+    "translatedContent": "## Arquitectura"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "qJIUOcMJZ24kkGr1K73pghfe1X3UC6jAV47FqinsAto=",
+    "originContent": "For those who want the technical details.",
+    "translatedContent": "Para quienes quieran los detalles técnicos."
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 141,
+    "rowsha": "D+Wnao3QJMTKmyvyqbQEKCHpHGRE8YIiLPYjk1wRJMg=",
+    "originContent": "Conversation (ephemeral, compacted/discarded)",
+    "translatedContent": "Conversation (ephemeral, compacted/discarded)"
+  },
+  {
+    "row": 142,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 143,
+    "rowsha": "1c7ugwwEqjEeYRe5FHxdmi+dRB6IYkOW6w077DBo0SI=",
+    "originContent": "    v  WRITE GATE: \"Does this change future behavior?\"",
+    "translatedContent": "    v  WRITE GATE: \"Does this change future behavior?\""
+  },
+  {
+    "row": 144,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 145,
+    "rowsha": "zYfbGgbbhp7fTJfpz6YF8RiDq6tTF/2kDXvhBVXK2as=",
+    "originContent": "Daily Log (memory/daily/YYYY-MM-DD.md)",
+    "translatedContent": "Daily Log (memory/daily/YYYY-MM-DD.md)"
+  },
+  {
+    "row": 146,
+    "rowsha": "O8sZPqgwqJCAoDNSOrHjigNrcthWvsDf6fAGiTJcmh8=",
+    "originContent": "    All writes land here first. Raw, timestamped.",
+    "translatedContent": "    All writes land here first. Raw, timestamped."
+  },
+  {
+    "row": 147,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 148,
+    "rowsha": "Q96eUGUNhxsTUmmnGKKDHPW8jObpIlI3yqD0yxQkPgI=",
+    "originContent": "    v  PROMOTION: user-controlled via /recall-promote",
+    "translatedContent": "    v  PROMOTION: user-controlled via /recall-promote"
+  },
+  {
+    "row": 149,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 150,
+    "rowsha": "ELuPMuoF0qF+P/7/OHa7ycGAovoKQ8i6K3CvE6QlhXU=",
+    "originContent": "Registers (memory/registers/*.md)",
+    "translatedContent": "Registers (memory/registers/*.md)"
+  },
+  {
+    "row": 151,
+    "rowsha": "ykG/onW25lLCuKSFHSqIsJW7j0zhEiM8dGB7AD+nyiM=",
+    "originContent": "    Structured claims with metadata (confidence, evidence, last_verified)",
+    "translatedContent": "    Structured claims with metadata (confidence, evidence, last_verified)"
+  },
+  {
+    "row": 152,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 153,
+    "rowsha": "+YBy6o514DqJGedA0uG71x2HGVpUIhTU8ZktLJwfF8Q=",
+    "originContent": "    v  DISTILLATION: only what's essential for every session",
+    "translatedContent": "    v  DISTILLATION: only what's essential for every session"
+  },
+  {
+    "row": 154,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 155,
+    "rowsha": "LTtdGG0Ccb9Ym8bWEZscQtQ01PUnagiCSO47xw5yGYQ=",
+    "originContent": "Working Memory (CLAUDE.local.md)",
+    "translatedContent": "Working Memory (CLAUDE.local.md)"
+  },
+  {
+    "row": 156,
+    "rowsha": "3r4DvOl4pOFu4dsJgJCZSwz7ANlkA7An1rSuUCu3Ecg=",
+    "originContent": "    ~1500 words. Auto-loaded. The persistent \"personality.\"",
+    "translatedContent": "    ~1500 words. Auto-loaded. The persistent \"personality.\""
+  },
+  {
+    "row": 157,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 158,
+    "rowsha": "4ihZrm7kgmJP7MavfljgRWue6+/QFN5352MZC4fyDBY=",
+    "originContent": "    v  EXPIRY",
+    "translatedContent": "    v  EXPIRY"
+  },
+  {
+    "row": 159,
+    "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+    "originContent": "    |",
+    "translatedContent": "    |"
+  },
+  {
+    "row": 160,
+    "rowsha": "18TfVJXZ5+2orL0oRpedhY0s6pNZwAUQm2N1Y00+WuY=",
+    "originContent": "Archive (memory/archive/)",
+    "translatedContent": "Archive (memory/archive/)"
+  },
+  {
+    "row": 161,
+    "rowsha": "lRsBfzwMJmTunGYgMK4ODRp/ko0r7Joa0V0zwHdXN2M=",
+    "originContent": "    Searchable history. Never auto-loaded.",
+    "translatedContent": "    Searchable history. Never auto-loaded."
+  },
+  {
+    "row": 162,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "vRyoHnOIguFesoLi9cdC+F1dYhyrAsaVqt9DlKyIWtI=",
+    "originContent": "### Key Mechanisms",
+    "translatedContent": "### Mecanismos Clave"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "aTsaO1xYlgfapCwfAOAWT2TqAMhs4kbWZ4o4MdUtCNw=",
+    "originContent": "**Write Gate:** Filters out noise. Only behavior-changing facts, commitments, decisions, and explicit \"remember this\" requests pass through.",
+    "translatedContent": "**Puerta de Escritura:** Filtra el ruido. Solo pasan hechos que cambian comportamientos, compromisos, decisiones y solicitudes explícitas de \"recuerda esto\"."
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "jrXdLRvX+/jzaz47i1ctaNITTUWHALTkoM/q9paUrcI=",
+    "originContent": "**Daily Log First:** All writes land in the daily log. Promotion to registers is a separate step, controlled by the user. This prevents the model from prematurely solidifying inferences.",
+    "translatedContent": "**Registro Diario Primero:** Todas las escrituras aterrizan en el registro diario. La promoción a los registros es un paso separado, controlado por el usuario. Esto evita que el modelo solidifique inferencias prematuramente."
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "ffwLhHyJVkNpOdMKJ78bIC0wRDej3ETmI3x/uCsH2Fw=",
+    "originContent": "**Contradiction Protocol:** Never silently overwrites. Old claims are marked `[superseded]` with date and reason. The pattern of change is preserved.",
+    "translatedContent": "**Protocolo de Contradicción:** Nunca sobrescribe en silencio. Las afirmaciones antiguas se marcan como `[obsoletas]` con fecha y razón. Se preserva el patrón de cambio."
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "kS5QBr/hkuZ23cdT5jKUljMrtRfsF8X7AUs7rDHfEv0=",
+    "originContent": "**Correction Gate:** Human corrections get highest priority. One correction triggers writes to daily log + register + working memory.",
+    "translatedContent": "**Puerta de Corrección:** Las correcciones humanas tienen la máxima prioridad. Una corrección desencadena escrituras en el registro diario + registro + memoria de trabajo."
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "i4zsrIZUiKTlZAxS+4md8eeNknvaFxIRxbVVR7J3aGo=",
+    "originContent": "### File Structure",
+    "translatedContent": "### Estructura de Archivos"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "pgfHY5g5CGVya2fDaOSuscULVLFwubO9Yhfx7E7ew5w=",
+    "originContent": "**Plugin format** (installed via `/plugin install`):",
+    "translatedContent": "**Formato de plugin** (instalado mediante `/plugin install`):"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 179,
+    "rowsha": "XMyD/BDcg6s/hAyBrHiy9iBgYoeiMAanlg4xmNVdGLo=",
+    "originContent": "total-recall/                     # Plugin root",
+    "translatedContent": "total-recall/                     # Plugin root"
+  },
+  {
+    "row": 180,
+    "rowsha": "L27lHq0KVjOF90jCc4e1Vd3/ElvxA6eANWdlRroGU+s=",
+    "originContent": "├── .claude-plugin/",
+    "translatedContent": "├── .claude-plugin/"
+  },
+  {
+    "row": 181,
+    "rowsha": "rIXGRdyOybCJlfR9BHDXHh/afIm64FDcAqlN4HUWcA4=",
+    "originContent": "│   └── plugin.json               # Plugin manifest",
+    "translatedContent": "│   └── plugin.json               # Plugin manifest"
+  },
+  {
+    "row": 182,
+    "rowsha": "99+mH9VoHc//wi220uqKLDcnZpVDYG6gc2E2VMcamW8=",
+    "originContent": "├── skills/                       # Slash commands (namespaced)",
+    "translatedContent": "├── skills/                       # Slash commands (namespaced)"
+  },
+  {
+    "row": 183,
+    "rowsha": "0+d+zwp8xT2yD0JDJ7n0hxVRPaXUiaWGyxQ1quZH8Z4=",
+    "originContent": "│   ├── recall-write/SKILL.md",
+    "translatedContent": "│   ├── recall-write/SKILL.md"
+  },
+  {
+    "row": 184,
+    "rowsha": "2BRoWk/vi08Us/aaN8LxX84nCLv+SNvFlDYAGGF/ihc=",
+    "originContent": "│   ├── recall-search/SKILL.md",
+    "translatedContent": "│   ├── recall-search/SKILL.md"
+  },
+  {
+    "row": 185,
+    "rowsha": "rInvRRqhLbZ0t3AYblwgM9MfS8gMwUWZnHZ7fszbHcY=",
+    "originContent": "│   └── ...",
+    "translatedContent": "│   └── ..."
+  },
+  {
+    "row": 186,
+    "rowsha": "K6+c2gd8y08EYkUO2Sx1l0HuWB+9w6txuz3Ra+mt/cg=",
+    "originContent": "├── hooks/",
+    "translatedContent": "├── hooks/"
+  },
+  {
+    "row": 187,
+    "rowsha": "5P2nRuJNb6qymyzcGeHN3bvRV/fL66S1tg3ohlmIOcg=",
+    "originContent": "│   ├── hooks.json                # Hook configuration",
+    "translatedContent": "│   ├── hooks.json                # Hook configuration"
+  },
+  {
+    "row": 188,
+    "rowsha": "iXicTkKhmbcg+jQJLEx5cC510KwgtKdTFW90kZNRzPk=",
+    "originContent": "│   ├── session-start.sh",
+    "translatedContent": "│   ├── session-start.sh"
+  },
+  {
+    "row": 189,
+    "rowsha": "IeU377ifjwoaOfWzZSaqh1DJ2w5m2kfS9E4IRkzS07A=",
+    "originContent": "│   └── pre-compact.sh",
+    "translatedContent": "│   └── pre-compact.sh"
+  },
+  {
+    "row": 190,
+    "rowsha": "ihI+f4g6T9GZ3HrPfWIUyX5Yb8+bkk9EpTtht+xnot8=",
+    "originContent": "├── rules/",
+    "translatedContent": "├── rules/"
+  },
+  {
+    "row": 191,
+    "rowsha": "A/b25sa0wadKD5KIyjdYSQj8A8bmEK+Cl3Z85FLLVwk=",
+    "originContent": "│   └── total-recall.md           # Protocol (auto-loaded)",
+    "translatedContent": "│   └── total-recall.md           # Protocol (auto-loaded)"
+  },
+  {
+    "row": 192,
+    "rowsha": "bNdBlMdQ5HwYNpxNrtStz0blVHX8qEH9CEYHXG/F9TA=",
+    "originContent": "└── templates/                    # Scaffolding templates",
+    "translatedContent": "└── templates/                    # Scaffolding templates"
+  },
+  {
+    "row": 193,
+    "rowsha": "+V2yyt1ms4l7sVQg/dSRdjeAiMHWzm+16f1qRv86rVw=",
+    "originContent": "    ├── SCHEMA.md",
+    "translatedContent": "    ├── SCHEMA.md"
+  },
+  {
+    "row": 194,
+    "rowsha": "nMPsgREZoqIcZHMlZEGxrNvCsHAx+HzPw+0dpuyqdpI=",
+    "originContent": "    ├── CLAUDE.local.md",
+    "translatedContent": "    ├── CLAUDE.local.md"
+  },
+  {
+    "row": 195,
+    "rowsha": "Ce9gbJxzweyfH75qBbEiENhzAVolYaqntTuWfWPanYQ=",
+    "originContent": "    └── registers/",
+    "translatedContent": "    └── registers/"
+  },
+  {
+    "row": 196,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "7pYM49pAoqM6bEL2wVaS7eQRJuX2HhTex8QpA8zulQc=",
+    "originContent": "**Standalone format** (installed via `install.sh`):",
+    "translatedContent": "**Formato independiente** (instalado vía `install.sh`):"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 201,
+    "rowsha": "Oy7f65r/6Fjcpg25U9OxpeGABsm6aEodgEcTIHUNkZs=",
+    "originContent": "your-project/",
+    "translatedContent": "your-project/"
+  },
+  {
+    "row": 202,
+    "rowsha": "46VZJzhfzzs5RH7mEqPulH0JPfaim/ooKNbmxDQXJV4=",
+    "originContent": "├── .claude/",
+    "translatedContent": "├── .claude/"
+  },
+  {
+    "row": 203,
+    "rowsha": "YLROUfo/JZYteG+w1y/ymLl7YKq2+gU5sC0ZnpCzCRY=",
+    "originContent": "│   ├── commands/recall-*.md      # Slash commands",
+    "translatedContent": "│   ├── commands/recall-*.md      # Slash commands"
+  },
+  {
+    "row": 204,
+    "rowsha": "COfLeRDIc447jdXuynFvZbCyKP2BatVME5CGDRYEpJg=",
+    "originContent": "│   ├── rules/total-recall.md     # Protocol (auto-loaded)",
+    "translatedContent": "│   ├── rules/total-recall.md     # Protocol (auto-loaded)"
+  },
+  {
+    "row": 205,
+    "rowsha": "/MJrpqDHqnbnY9y1ThLQijQh7GCtHXAMyLY/YA3OzR4=",
+    "originContent": "│   ├── hooks/*.sh                # Hook scripts",
+    "translatedContent": "│   ├── hooks/*.sh                # Hook scripts"
+  },
+  {
+    "row": 206,
+    "rowsha": "rQgSeBBfQcFHKnmoGyeFfj0ed3ZQvQvdHjrFe45NTyM=",
+    "originContent": "│   └── settings.local.json       # Hook configuration",
+    "translatedContent": "│   └── settings.local.json       # Hook configuration"
+  },
+  {
+    "row": 207,
+    "rowsha": "I4cBMnj7MelCa+dqyb22S9QG1dI9mEXO6W6JTa4wnEQ=",
+    "originContent": "├── memory/",
+    "translatedContent": "├── memory/"
+  },
+  {
+    "row": 208,
+    "rowsha": "A/f/sb2lGEEOOx5nymBfp+X+X5JEMkxcD4cBs5NOruA=",
+    "originContent": "│   ├── SCHEMA.md",
+    "translatedContent": "│   ├── SCHEMA.md"
+  },
+  {
+    "row": 209,
+    "rowsha": "lp+mHcNUafwN2oMa2d8VPJcDZ0HCtfqGIB+CHL+sStw=",
+    "originContent": "│   ├── daily/YYYY-MM-DD.md",
+    "translatedContent": "│   ├── daily/YYYY-MM-DD.md"
+  },
+  {
+    "row": 210,
+    "rowsha": "Hq5FGM4XxvPOas9ft8qWW1OoXSIG74SsBvBcaAE5BhM=",
+    "originContent": "│   ├── registers/*.md",
+    "translatedContent": "│   ├── registers/*.md"
+  },
+  {
+    "row": 211,
+    "rowsha": "X/OXc/Bv/iSQrk1J4XzRpSwL0PBxJ4aaC1RQQqwVP0A=",
+    "originContent": "│   └── archive/",
+    "translatedContent": "│   └── archive/"
+  },
+  {
+    "row": 212,
+    "rowsha": "bVa71W9VlPTr2mbdvKF5Afv1Mons3/WOZhp1hMG34NE=",
+    "originContent": "├── CLAUDE.md",
+    "translatedContent": "├── CLAUDE.md"
+  },
+  {
+    "row": 213,
+    "rowsha": "eieQiTCp+T1EGiTk8emouSnzCKdLbIp60SmCpvq/QBo=",
+    "originContent": "└── CLAUDE.local.md               # Working memory (gitignored)",
+    "translatedContent": "└── CLAUDE.local.md               # Working memory (gitignored)"
+  },
+  {
+    "row": 214,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Comparado con Otras Herramientas de Memoria"
+  },
+  {
+    "row": 216,
+    "rowsha": "897BWGvhJkjssY1V7veE0AEHWKUCLvQDKWnvuNiirv4=",
+    "originContent": "### Compared to Other Memory Tools",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "|  | Total Recall | Herramientas de auto-ingesta |"
+  },
+  {
+    "row": 218,
+    "rowsha": "v35/Dpt0cRaYrXR9ElQYlpC0wLm5J9GJF7o8OX3rF6Q=",
+    "originContent": "|  | Total Recall | Auto-ingest tools |",
+    "translatedContent": "|---|---|---|"
+  },
+  {
+    "row": 219,
+    "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+    "originContent": "|---|---|---|",
+    "translatedContent": "| **Qué se guarda** | Solo lo que pasa la puerta de escritura | Todo |"
+  },
+  {
+    "row": 220,
+    "rowsha": "+Jgidzgz4+sYhHa2qo8wQpOF0J/Pv+Wio2iGxbewZqg=",
+    "originContent": "| **What gets saved** | Only what passes the write gate | Everything |",
+    "translatedContent": "| **Destino predeterminado** | Registro diario (promover después) | Almacenamiento permanente |"
+  },
+  {
+    "row": 221,
+    "rowsha": "hkLFNkAYYgTIZTAc9F/AuSQVUPLS9BEYs/ov/6l2rI8=",
+    "originContent": "| **Default destination** | Daily log (promote later) | Permanent storage |",
+    "translatedContent": "| **Costo de contexto** | ~1500 palabras de memoria de trabajo | Crece sin límite |"
+  },
+  {
+    "row": 222,
+    "rowsha": "84bwm12giMc6pl0ZU9Kaxm7dDXMT5w4lnt+slI4e9Uk=",
+    "originContent": "| **Context cost** | ~1500 words working memory | Grows unbounded |",
+    "translatedContent": "| **Correcciones** | Se propagan a todos los niveles inmediatamente | Varía |"
+  },
+  {
+    "row": 223,
+    "rowsha": "RSBPezDz+ZURr7s0JDV67WMJAu17cBvg0I8tKnZrbGY=",
+    "originContent": "| **Corrections** | Propagate to all tiers immediately | Varies |",
+    "translatedContent": "| **Control del usuario** | La promoción es explícita | Automático |"
+  },
+  {
+    "row": 224,
+    "rowsha": "335TB00Rb3fLO4SprihfqzKWtHflfygN/6lPKp41JCU=",
+    "originContent": "| **User control** | Promotion is explicit | Automatic |",
+    "translatedContent": "| **Arquitectura** | 4 niveles con metadatos | Plano o de 2 niveles |"
+  },
+  {
+    "row": 225,
+    "rowsha": "kftZXLOqpLaMyx4h719TuHiNySVqjbqKj4LYJxHJbaE=",
+    "originContent": "| **Architecture** | 4-tier with metadata | Flat or 2-tier |",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Privacidad"
+  },
+  {
+    "row": 227,
+    "rowsha": "5CXxgd9sBe1fOQ1/F5SqqJHQp4uKbD07gsJwweuoKSk=",
+    "originContent": "## Privacy",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Todo es local. Sin llamadas a la red, sin telemetría, sin servicios externos."
+  },
+  {
+    "row": 229,
+    "rowsha": "YktrRZMZ4CvnwW72G1dKWxGpypUWqfL5VXewZ+IdMHU=",
+    "originContent": "- Everything is local. No network calls, no telemetry, no external services.",
+    "translatedContent": "- Toda la memoria son archivos markdown simples que puedes leer y editar tú mismo."
+  },
+  {
+    "row": 230,
+    "rowsha": "WJ2h4LZb693v73JwbJiFgceX/ifhLW9sqAHr4UimCuk=",
+    "originContent": "- All memory is plain markdown files you can read and edit yourself.",
+    "translatedContent": "- `CLAUDE.local.md` está gitignoreado por defecto (es personal)."
+  },
+  {
+    "row": 231,
+    "rowsha": "C8lZfWZUjX2KGgN8UwH7g8CXkalQFEW52rcMtsKy5/A=",
+    "originContent": "- `CLAUDE.local.md` is gitignored by default (it's personal).",
+    "translatedContent": "- `memory/` está gitignoreado por defecto (puede contener notas personales)."
+  },
+  {
+    "row": 232,
+    "rowsha": "LII1Bbru4LNRYl9yd2Ze4qR3G4G9bbu+4kl5FMtgaEo=",
+    "originContent": "- `memory/` is gitignored by default (it can contain personal notes).",
+    "translatedContent": "- Los hooks nunca leen tus transcripciones de conversación."
+  },
+  {
+    "row": 233,
+    "rowsha": "Gn/aRDB64vCHJ9ZCAmC34/Cdem3F3X5sFXTAtgmCHos=",
+    "originContent": "- Hooks never read your conversation transcripts.",
+    "translatedContent": "- Para ver exactamente qué está pasando: revisa `hooks/*.sh` y `memory/`. Todo es texto plano."
+  },
+  {
+    "row": 234,
+    "rowsha": "M/0+KYFj0olMWuCfQL7g1GHl2SRSbGyI/v4dw0mtN3E=",
+    "originContent": "- To see exactly what's happening: check `hooks/*.sh` and `memory/`. It's all plain text.",
+    "translatedContent": "- Para desinstalar: elimina `memory/`, `CLAUDE.local.md` y las entradas de `.claude/` (o `/plugin uninstall recall`)."
+  },
+  {
+    "row": 235,
+    "rowsha": "kqmCFoHbalJh1kUcADmCfugCdkY+iEmRqUVRDhtzKkk=",
+    "originContent": "- To uninstall: delete `memory/`, `CLAUDE.local.md`, and the `.claude/` entries (or `/plugin uninstall recall`).",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Funciona Junto con Superpowers"
+  },
+  {
+    "row": 237,
+    "rowsha": "Ik4HtlJKaj9zgSGgmdcfOiOMoYgoLvcx2SYmY5vRkps=",
+    "originContent": "## Works Alongside Superpowers",
+    "translatedContent": ""
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si usas [Superpowers](https://github.com/obra/superpowers), no hay conflictos. Superpowers maneja *cómo* funciona Claude (metodología, TDD, planes). Total Recall maneja *qué* recuerda Claude. Trabajos diferentes, mismo proyecto."
+  },
+  {
+    "row": 239,
+    "rowsha": "+JJ8w32hnQL7DFlepWLw8xl1ZEbWI6r7cjCpG28PDEE=",
+    "originContent": "If you use [Superpowers](https://github.com/obra/superpowers), there are no conflicts. Superpowers handles *how* Claude works (methodology, TDD, plans). Total Recall handles *what* Claude remembers. Different jobs, same project.",
+    "translatedContent": ""
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Licencia"
+  },
+  {
+    "row": 241,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 243,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 ภาษา</summary>
@@ -14,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
@@ -29,92 +28,73 @@
   </details>
 </div>
 
-# SparkyFitness - ทางเลือกแบบโฮสต์เองของ MyFitnessPal
+# SparkyFitness
 
-SparkyFitness เป็นแอปพลิเคชันสำหรับติดตามและจัดการสุขภาพครบวงจร ออกแบบมาเพื่อช่วยให้ผู้ใช้ติดตามโภชนาการ การออกกำลังกาย และการวัดสัดส่วนร่างกาย มีเครื่องมือสำหรับติดตามความก้าวหน้าประจำวัน กำหนดเป้าหมาย และรายงานเชิงลึกเพื่อส่งเสริมไลฟ์สไตล์ที่ดีต่อสุขภาพ
+แพลตฟอร์มทางเลือกแบบโฮสต์เองที่เน้นความเป็นส่วนตัวสำหรับ MyFitnessPal ติดตามโภชนาการ การออกกำลังกาย ข้อมูลร่างกาย และสุขภาพ โดยคุณสามารถควบคุมข้อมูลของคุณได้อย่างเต็มที่
 
-เอกสาร: https://codewithcj.github.io/SparkyFitness
+![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ คุณสมบัติ
+SparkyFitness คือแพลตฟอร์มติดตามสุขภาพที่โฮสต์เอง ประกอบด้วย:
 
-### 🍎 การติดตามโภชนาการ
+- เซิร์ฟเวอร์ backend (API + การจัดเก็บข้อมูล)
+- ส่วนหน้าแบบเว็บ
+- แอปมือถือเนทีฟสำหรับ iOS และ Android
 
-* **บันทึกอาหารที่รับประทานประจำวันของคุณ**
-* **สร้างและจัดการอาหารและหมวดหมู่ที่กำหนดเอง**
-* **ดูสรุปและวิเคราะห์แนวโน้มด้วยกราฟแบบอินเทอร์แอคทีฟ**
+จัดเก็บและจัดการข้อมูลสุขภาพบนโครงสร้างพื้นฐานที่คุณควบคุมได้ โดยไม่ต้องพึ่งพาบริการจากบุคคลที่สาม
 
-### 💪 การบันทึกการออกกำลังกาย
+## ฟีเจอร์หลัก
 
-* **บันทึกกิจกรรมการออกกำลังกายของคุณ**
-* **เรียกดูและค้นหาฐานข้อมูลการออกกำลังกายที่ครอบคลุม**
-* **ติดตามความคืบหน้าด้านฟิตเนสตลอดเวลา**
+- ติดตามโภชนาการ การออกกำลังกาย การดื่มน้ำ การนอนหลับ การอดอาหาร อารมณ์ และการวัดร่างกาย
+- กำหนดเป้าหมายและเช็คอินประจำวัน
+- กราฟโต้ตอบและรายงานระยะยาว
+- โปรไฟล์ผู้ใช้หลายคนและการเข้าถึงสำหรับครอบครัว
+- ธีมสีสว่างและสีเข้ม
+- OIDC, TOTP, Passkey, MFA ฯลฯ
 
-### 💧 การติดตามการดื่มน้ำ
+## การเชื่อมต่อสุขภาพและอุปกรณ์
 
-* **ติดตามเป้าหมายการดื่มน้ำประจำวัน**
-* **บันทึกการดื่มน้ำได้ง่ายและรวดเร็ว**
+SparkyFitness สามารถซิงค์ข้อมูลจากแพลตฟอร์มสุขภาพและฟิตเนสหลายแห่ง:
 
-### 📏 การวัดสัดส่วนร่างกาย
+- **Apple Health** (iOS)
+- **Google Health Connect** (Android)
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow** (ทดสอบบางส่วน)
+- **Hevy** (ยังไม่ได้ทดสอบ)
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava** (ทดสอบบางส่วน)
 
-* **บันทึกข้อมูลสัดส่วนร่างกาย** (เช่น น้ำหนัก รอบเอว รอบแขน)
-* **เพิ่มประเภทการวัดที่กำหนดเอง**
-* **ดูความก้าวหน้าผ่านกราฟภาพ**
+การเชื่อมต่อจะซิงค์ข้อมูลกิจกรรมโดยอัตโนมัติ เช่น จำนวนก้าว การออกกำลังกาย และการนอนหลับ พร้อมกับข้อมูลสุขภาพ เช่น น้ำหนักและการวัดร่างกาย ไปยังเซิร์ฟเวอร์ SparkyFitness ของคุณ
 
-### 🎯 การตั้งเป้าหมาย
+## ฟีเจอร์ AI เสริม (เบต้า)
 
-* **ตั้งและจัดการเป้าหมายด้านฟิตเนสและโภชนาการ**
-* **ติดตามความคืบหน้าตลอดเวลา**
+SparkyAI มีอินเทอร์เฟซสนทนาเพื่อบันทึกข้อมูลและตรวจสอบความคืบหน้า
 
-### 🗓️ การเช็คอินประจำวัน
+- บันทึกอาหาร ออกกำลังกาย สถิติร่างกาย และก้าวเดินผ่านแชท
+- อัปโหลดรูปอาหารเพื่อบันทึกมื้ออาหารโดยอัตโนมัติ
+- เก็บประวัติการสนทนาเพื่อใช้งานต่อเนื่อง
 
-* **ตรวจสอบกิจกรรมประจำวัน**
-* **รักษาความสม่ำเสมอด้วยการติดตามนิสัย**
+หมายเหตุ: ฟีเจอร์ AI ขณะนี้อยู่ในช่วงเบต้า
 
-### 🤖 โค้ชโภชนาการ AI (SparkyAI)
+## เริ่มต้นอย่างรวดเร็ว (เซิร์ฟเวอร์)
 
-* **บันทึกอาหาร ออกกำลังกาย สถิติร่างกาย และจำนวนก้าวผ่านแชท**
-* **อัปโหลดรูปอาหารเพื่อบันทึกมื้ออาหารโดยอัตโนมัติ**
-* **มีประวัติแชทและคำแนะนำเฉพาะบุคคล**
-
-### 🔒 การยืนยันตัวตนและโปรไฟล์ผู้ใช้
-
-* **ระบบล็อกอินที่ปลอดภัย**
-* **สลับระหว่างโปรไฟล์ผู้ใช้**
-* **รองรับการเข้าถึงและจัดการสำหรับครอบครัว**
-
-### 📊 รายงานแบบครบถ้วน
-
-* **สร้างสรุปสำหรับข้อมูลโภชนาการและตัวชี้วัดร่างกาย**
-* **ติดตามแนวโน้มระยะยาวเป็นสัปดาห์หรือเดือน**
-
-### 🎨 ธีมที่ปรับแต่งได้
-
-* **สลับระหว่างโหมดสว่างและโหมดมืด**
-* **ออกแบบด้วยอินเทอร์เฟซแบบมินิมอล ปราศจากสิ่งรบกวน**
-
-### ต้องการความช่วยเหลือ?
-* **เข้าร่วม discord**
-  https://discord.gg/vcnMT5cPEA
-* **โพสต์ในกระทู้สนทนา**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � เริ่มต้นใช้งานอย่างรวดเร็ว
-
-เริ่มใช้งาน SparkyFitness ได้ภายในไม่กี่นาที:
+เริ่มต้นใช้งานเซิร์ฟเวอร์ SparkyFitness ภายในไม่กี่นาทีด้วย Docker Compose
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
@@ -122,42 +102,51 @@ docker compose pull && docker compose up -d
 # Access application at http://localhost:8080
 ```
 
-## 📖 เอกสารประกอบ
+## 🎥 วิดีโอสอนการใช้งาน
 
-สำหรับคู่มือการติดตั้งเต็มรูปแบบ การตั้งค่าการพัฒนา และคำแนะนำการใช้งาน กรุณาเยี่ยมชมเอกสารประกอบของเรา:
+[![ดูวิดีโอ](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
 
-**👉 [เว็บไซต์เอกสาร SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
+วิดีโอสอนสั้นๆ 2 นาที แสดงวิธีติดตั้ง SparkyFitness (เครื่องติดตามฟิตเนสแบบโฮสต์เอง)
+
+
+
+## เอกสารประกอบ
+
+สำหรับคู่มือการติดตั้งแบบเต็ม ตัวเลือกการตั้งค่า และเอกสารสำหรับนักพัฒนา กรุณาเยี่ยมชม [เว็บไซต์เอกสารของเรา](https://codewithcj.github.io/SparkyFitness/)
 
 ### ลิงก์ด่วน
 
-- **[🚀 เริ่มต้นใช้งาน](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - คู่มือการตั้งค่าสำหรับการพัฒนาและการใช้งานจริง
-- **[🐳 คู่มือ Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - การปรับใช้และตั้งค่า Docker
-- **[🔧 เวิร์กโฟลว์การพัฒนา](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - คู่มือสำหรับนักพัฒนาและกระบวนการมีส่วนร่วม  
-- **[📊 ภาพรวมคุณสมบัติ](https://codewithcj.github.io/SparkyFitness/features/)** - เอกสารประกอบคุณสมบัติทั้งหมด
-- **[🏗️ สถาปัตยกรรม](https://codewithcj.github.io/SparkyFitness/app-overview)** - สถาปัตยกรรมและการออกแบบทางเทคนิค
-- ดู WIiki สำหรับตัวอย่างการตั้งค่า env และการกำหนดค่าแอปมือถือ
+- **[คู่มือติดตั้ง](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - การปรับใช้และการตั้งค่าต่างๆ
+- **[ภาพรวมฟีเจอร์](https://codewithcj.github.io/SparkyFitness/features)** - เอกสารฟีเจอร์อย่างครบถ้วน
+- **[กระบวนการพัฒนา](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - คู่มือสำหรับนักพัฒนาและกระบวนการร่วมพัฒนา
+- **[ข้อมูลแอพ iOS](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** และ **[ข้อมูลแอพ Android](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
 
+### ต้องการความช่วยเหลือ?
 
-## ประวัติดาว
+- โพสต์ในหัวข้อปัญหาหรือการพูดคุยใน Github
+- หากต้องการการตอบกลับที่รวดเร็วและรับความช่วยเหลือจากสมาชิกชุมชนคนอื่นๆ **[เข้าร่วม Discord ของเรา](https://discord.gg/vcnMT5cPEA)**
+
+## ประวัติการกดดาว
 
 <a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
-    <img alt="กราฟประวัติดาว" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
   </picture>
 </a>
 
 ## การแปลภาษา
 
+**[การแปลบน Weblate](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="สถานะการแปล" />
 </a>
 
-## กิจกรรมในคลัง
+## กิจกรรมของคลังเก็บ
 
-![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "ภาพการวิเคราะห์ Repobeats")
-
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "ภาพวิเคราะห์ Repobeats")
 
 ## ผู้ร่วมพัฒนา
 
@@ -165,23 +154,23 @@ docker compose pull && docker compose up -d
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ ปัญหาที่ทราบ / ฟีเจอร์เบต้า ⚠️
+## ⚠️ ปัญหาที่ทราบแล้ว / ฟีเจอร์เบต้า ⚠️
 
-ฟีเจอร์ดังต่อไปนี้กำลังอยู่ในช่วงเบต้าและอาจยังไม่ได้รับการทดสอบอย่างละเอียด อาจพบข้อบกพร่องหรือฟังก์ชันที่ไม่สมบูรณ์:
+SparkyFitness กำลังอยู่ระหว่างการพัฒนาอย่างต่อเนื่อง
+อาจมีการเปลี่ยนแปลงที่ส่งผลกระทบระหว่างแต่ละเวอร์ชัน
 
-*   แชทบอท AI
-*   รองรับผู้ใช้หลายคน
-*   การเข้าถึงสำหรับครอบครัวและเพื่อน
-*   การเชื่อมต่อข้อมูล Apple Health
+- ไม่แนะนำให้ใช้การอัปเดตคอนเทนเนอร์แบบอัตโนมัติ
+- ควรตรวจสอบบันทึกการปล่อยทุกครั้งก่อนการอัปเกรด
 
-แอปพลิเคชันนี้อยู่ระหว่างการพัฒนาอย่างหนัก อาจเกิดการทำงานผิดปกติเนื่องจากการย้ายจาก Supabase ไปยัง PostgreSQL อาจมีการเปลี่ยนแปลงครั้งใหญ่ (BREAKING CHANGES) จนกว่าจะเสถียร
-คุณอาจต้องเปลี่ยนค่า Docker/ตัวแปรสภาพแวดล้อมสำหรับเวอร์ชันใหม่ ดังนั้นจึงไม่แนะนำให้ใช้การอัปเกรดอัตโนมัติผ่าน Watchtower หรือแอปคล้ายกัน กรุณาอ่านบันทึกประจำเวอร์ชันสำหรับการเปลี่ยนแปลงครั้งใหญ่ (BREAKING CHANGES)
+ฟีเจอร์ต่อไปนี้ยังอยู่ในสถานะเบต้าและอาจยังไม่ได้รับการทดสอบอย่างละเอียด คาดว่าจะพบข้อบกพร่องหรือฟังก์ชันที่ไม่สมบูรณ์:
 
-
+- AI Chatbot
+- การเข้าถึงสำหรับครอบครัว & เพื่อน
+- เอกสาร API
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

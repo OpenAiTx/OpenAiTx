@@ -238,33 +238,33 @@ L’Édition Entreprise répond aux principaux défis de la collaboration en éq
 
 ## ✨ Démo en ligne
 
-**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+**🔗 [Cherry Studio Enterprise](https://enterprise.cherry-ai.com)**
 
-## Comparaison des Versions
+## Comparaison des versions
 
-| Fonctionnalité    | Édition Communautaire                                                               | Édition Entreprise                                                                                                                      |
-| :---------------- | :---------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Oui                                                                               | ⭕️ Partiellement publiée pour les clients                                                                                               |
-| **Coût**          | [Licence AGPL-3.0](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file) | Achat / Abonnement                                                                                                                      |
-| **Back-end Admin**| —                                                                                   | ● Accès **centralisé** au Modèle<br>● Gestion des **employés**<br>● **Base de connaissances** partagée<br>● Contrôle des **accès**<br>● Sauvegarde des **données** |
-| **Serveur**       | —                                                                                   | ✅ Déploiement privé dédié                                                                                                              |
+| Fonctionnalité      | Édition Communautaire                                                                  | Édition Entreprise                                                                                                                      |
+| :------------------ | :------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open Source**     | ✅ Oui                                                                                  | ⭕️ Partiellement disponible pour les clients                                                                                             |
+| **Coût**            | [Licence AGPL-3.0](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file)   | Achat / Abonnement                                                                                                                      |
+| **Admin Backend**   | —                                                                                      | ● Accès **centralisé** aux modèles<br>● Gestion des **employés**<br>● Base de **connaissance** partagée<br>● Contrôle des **accès**<br>● Sauvegarde des **données** |
+| **Serveur**         | —                                                                                      | ✅ Déploiement privé dédié                                                                                                              |
 
-## Obtenir l’Édition Entreprise
+## Obtenir l'Édition Entreprise
 
-Nous pensons que l’Édition Entreprise deviendra le moteur de productivité IA de votre équipe. Si vous êtes intéressé par Cherry Studio Édition Entreprise et souhaitez en savoir plus, demander un devis ou planifier une démonstration, n’hésitez pas à nous contacter.
+Nous pensons que l'Édition Entreprise deviendra le moteur de productivité IA de votre équipe. Si vous êtes intéressé par Cherry Studio Enterprise Edition et souhaitez en savoir plus, demander un devis ou planifier une démo, n'hésitez pas à nous contacter.
 
-- **Pour les demandes commerciales et achats** :
+- **Pour les affaires & achats** :
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
-# 🔗 Projets Associés
+# 🔗 Projets associés
 
-- [new-api](https://github.com/QuantumNous/new-api) : La passerelle LLM de nouvelle génération et système de gestion d’actifs IA, supporte plusieurs langues.
+- [new-api](https://github.com/QuantumNous/new-api) : La passerelle LLM de nouvelle génération et système de gestion d’actifs IA, supportant plusieurs langues.
 
-- [one-api](https://github.com/songquanpeng/one-api) : Système de gestion et distribution d’API LLM prenant en charge les modèles principaux comme OpenAI, Azure et Anthropic. Interface API unifiée, adapté à la gestion des clés et à la distribution secondaire.
+- [one-api](https://github.com/songquanpeng/one-api) : Système de gestion et distribution d’API LLM prenant en charge les modèles principaux comme OpenAI, Azure et Anthropic. Dispose d’une interface API unifiée, idéale pour la gestion des clés et la distribution secondaire.
 
-- [Poe](https://poe.com/) : Poe vous donne accès au meilleur de l’IA, tout en un seul endroit. Explorez GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs, et des millions d’autres.
+- [Poe](https://poe.com/) : Poe vous donne accès aux meilleures IA, tout en un seul endroit. Découvrez GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs et des millions d’autres.
 
-- [ublacklist](https://github.com/iorate/ublacklist) : Bloque certains sites pour qu’ils n’apparaissent pas dans les résultats de recherche Google
+- [ublacklist](https://github.com/iorate/ublacklist) : Bloque certains sites dans les résultats de recherche Google
 
 # 🚀 Contributeurs
 
@@ -275,7 +275,7 @@ Nous pensons que l’Édition Entreprise deviendra le moteur de productivité IA
 
 # 📊 Statistiques GitHub
 
-![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg "Image analytique Repobeats")
+![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg "Repobeats analytics image")
 
 # ⭐️ Historique des étoiles
 
@@ -327,6 +327,6 @@ Si vous avez besoin d’une licence commerciale qui vous dispense des exigences 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

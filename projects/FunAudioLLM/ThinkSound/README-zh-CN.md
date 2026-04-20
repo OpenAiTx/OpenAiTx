@@ -11,8 +11,8 @@
   
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg" alt="NeurIPS 2025"/>
-<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS%202025-Main%20Conference-blue.svg" alt="NeurIPS 2025"/>
+  &nbsp;
   <a href="https://arxiv.org/pdf/2506.21448">
     <img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/>
   </a>
@@ -32,54 +32,82 @@
 
 <p align="center">
   如果你觉得这个项目有用，<br>
-  欢迎在 GitHub 上点个星 ⭐！
+  在 GitHub 上点一个星⭐将不胜感激！
 </p>
 
 ---
 
-**ThinkSound** 是一个统一的 Any2Audio 生成框架，结合了由思维链（Chain-of-Thought, CoT）推理指导的流匹配方法。
-PyTorch 实现的多模态音频生成与编辑：可根据视频、文本和音频生成或编辑音频，依托于多模态大语言模型（MLLMs）逐步推理。
+## 代码库结构
+该 **ThinkSound** GitHub 仓库在不同分支上托管了两个相关项目：
+
+| 分支 | 项目 | 文档 |
+|--------|---------|----------------|
+| **`master`** | **ThinkSound**（NeurIPS 2025）— 基于CoT引导流匹配的统一Any2Audio生成 | 本文件：**`README.md`** |
+| **`prismaudio`** | **PrismAudio** — 后续工作（ICLR 2026），基于多维CoT-RL的视频转音频 | [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) 分支的 **`README.md`** |
+
+如需使用 **ThinkSound**，请使用 **`master`** 分支（本README）。如需 **PrismAudio**，请切换至 **`prismaudio`** 分支并参阅对应 **`README.md`**。
+
+---
+
+**ThinkSound** 是一个统一的Any2Audio生成框架，采用链式思维（CoT）推理引导的流匹配。
+
+PyTorch实现的多模态音频生成与编辑工具：可从视频、文本、音频生成或编辑音频，依托多模态大语言模型（MLLM）逐步推理。
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 新闻
-- **2025.11.25** &nbsp; 🔥[PrismAudio 在线演示](http://prismaudio-project.github.io/)上线 - 立即体验！
-- **2025.11.25** &nbsp; 🔥[PrismAudio 论文](https://arxiv.org/pdf/2511.18833)已在 arXiv 发布，首个面向视频转音频生成的多维 CoT-RL 框架！
-- **2025.09.19** &nbsp; 🎉 ThinkSound 已被 **NeurIPS 2025 主会**录用！
-- **2025.09.01** &nbsp; 我们的 AudioCoT 数据集已开源并可在 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) 获取！
-- **2025.07.17** &nbsp; 🧠 已支持微调：训练及微调代码现已公开，配有详细使用说明，助您用自有数据定制扩展 ThinkSound。
-- **2025.07.15** &nbsp; 📦 安装与易用性简化：依赖已上架 PyPI，便于跨平台部署；Windows `.bat` 脚本自动化环境创建与脚本运行。
-- **2025.07.08** &nbsp;  🔧 重大更新：模型瘦身，优化内存与 GPU 占用，现已支持大规模高吞吐音频生成！
-- **2025.07.01** &nbsp; [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 及 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) 提供在线交互体验！
-- **2025.07.01** &nbsp; 推出推理脚本与网页界面；
-- **2025.06** &nbsp; [ThinkSound 论文](https://arxiv.org/pdf/2506.21448)已在 arXiv 发布！
-- **2025.06** &nbsp; [在线演示](http://thinksound-project.github.io/)已上线 - 立即试用！
+- **2026.03.24** &nbsp; 🔥 **PrismAudio** 已在本仓库 [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) 分支发布 — 安装与模型请见该分支 **`README.md`**。
+- **2026.01.26** &nbsp; 🎉 PrismAudio 被 **ICLR 2026主会** 接收（代码/文档见 `prismaudio`）。
+- **2025.11.25** &nbsp; 🔥 [在线 PrismAudio 演示](http://prismaudio-project.github.io/) 上线。
+- **2025.11.25** &nbsp; 🔥 [PrismAudio 论文](https://arxiv.org/pdf/2511.18833) 已上arXiv — 多维CoT-RL用于视频转音频。
+- **2025.09.19** &nbsp; 🎉 **ThinkSound** 被 **NeurIPS 2025主会** 接收！
+- **2025.09.01** &nbsp; 我们的 AudioCoT 数据集现已开源并可在 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) 获取！
+- **2025.07.17** &nbsp; 🧠 支持微调：训练与微调代码已公开，配有详细使用说明，助力你自定义并扩展ThinkSound。
+- **2025.07.15** &nbsp; 📦 安装与使用更便捷：依赖已上传至PyPI，支持跨平台快捷部署；Windows `.bat` 脚本自动创建环境并运行脚本。
+- **2025.07.08** &nbsp;  🔧 重大更新：模型更轻量，优化内存与GPU使用，现支持大规模高吞吐音频生成！
+- **2025.07.01** &nbsp; 在线演示已上线 [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 和 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound)！
+- **2025.07.01** &nbsp; 推出推理脚本及网页界面；
+- **2025.06** &nbsp; [ThinkSound 论文](https://arxiv.org/pdf/2506.21448) 发布在arXiv！
+- **2025.06** &nbsp; [在线演示](http://thinksound-project.github.io/) 已上线 — 立即体验！
 
 ---
 
 
-## 🚀 特性
+<div align="center">
 
-- **Any2Audio**：支持任意模态（视频、文本、音频或其组合）生成音频。
-- **视频转音频 SOTA**：在多项 V2A 基准上达到最先进效果。
-- **CoT 驱动推理**：通过 MLLM 的链式思维推理，实现可组合、可控的音频生成。
-- **交互式物体编辑**：通过点击视觉对象或文本指令，细化或编辑特定声音事件。
-- **统一框架**：单一基础模型同时支持生成、编辑与交互式流程。
+### 后续工作：PrismAudio（同仓库，`prismaudio` 分支）
+
+
+**PrismAudio** 是 ThinkSound (ICLR 2026) 的继任者，以新名称开发，但保留在本仓库的 **`prismaudio`** 分支中。安装、检查点和引用信息见该分支的 **[`README.md`](https://github.com/liuhuadai/ThinkSound/blob/prismaudio/README.md)**。
+
+👉 [`git checkout prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) 或在 GitHub 上打开该分支。
+
+</div>
+
+---
+
+
+## 🚀 功能
+
+- **Any2Audio**：从任意模态（视频、文本、音频或其组合）生成音频。
+- **视频转音频 SOTA**：在多项 V2A 基准测试中取得最先进的结果。
+- **CoT 驱动的推理**：通过 MLLMs 实现链式推理，实现可组合、可控的音频生成。
+- **交互式以对象为中心的编辑**：通过点击视觉对象或文本指令细化或编辑特定声音事件。
+- **统一框架**：一个基础模型支持生成、编辑和交互式工作流。
 
 ---
 
 ## ✨ 方法概述
 
-ThinkSound 将音频生成与编辑拆解为三个由 MLLM 链式思维（CoT）推理驱动的交互阶段：
+ThinkSound 将音频生成和编辑分解为三个交互阶段，均由基于 MLLM 的链式推理（CoT）指导：
 
-1. **拟音生成：** 从视频生成语义与时间对齐的基础音景。
-2. **基于物体的细化：** 通过点击或圈定视频中用户指定的对象，细化或添加声音。
-3. **目标音频编辑：** 利用高阶自然语言指令修改生成的音频。
-
+1. **拟音生成：** 从视频中生成语义和时间对齐的基础音景。
+2. **以对象为中心的细化：** 通过点击或视频中的区域，为用户指定的对象细化或添加声音。
+3. **目标音频编辑：** 使用高级自然语言指令修改生成的音频。
 
 ![ThinkSound 概览](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- 一个大规模的 CoT 注释数据集（**AudioCoT**）被用于训练推理模块和统一的音频基础模型。
+<!-- 一个大规模 CoT 注释数据集（**AudioCoT**）用于训练推理模块和统一音频基础模型。
 ![AudioCoT 流程](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -88,7 +116,8 @@ ThinkSound 将音频生成与编辑拆解为三个由 MLLM 链式思维（CoT）
 
 **环境准备：**
 ```bash
-git clone https://github.com/liuhuadai/ThinkSound.git
+# ThinkSound code: branch master. PrismAudio: clone with -b prismaudio (see README.md on that branch).
+git clone -b master https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
 conda create -n thinksound python=3.10
 conda activate thinksound
@@ -164,22 +193,11 @@ chmod +x scripts/eval_batch.sh
 ```bash
 python app.py
 ```
-
-
 ## 🏋️ 训练模型
 
-请参阅 [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
+参见 [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
 
 
----
-
-## 📝 待办事项与未来规划
-* - [ ] 发布更强大的基础模型，覆盖多个领域，提供更具吸引力和沉浸感的拟音创作
-* - [ ] 增加对更多模态和下游任务的支持
-* - [ ] 发布不同规模的模型
-* - [x] 开源 AudioCoT 数据集和自动化流程
-* - [x] 发布 ThinkSound 模型的训练脚本
-* - [x] 提供面向初学者的 Windows 快速入门 README
 ---
 
 
@@ -188,34 +206,36 @@ python app.py
 本项目采用 Apache 2.0 许可证发布。
 
 > **注意：**
-> 代码、模型和数据集仅用于**科研和教育目的**。
+> 本代码、模型和数据集**仅供科研与教育用途**。
 > **禁止商业用途。**
 > 如需商业授权，请联系作者。
 
 **📦 第三方组件**
 
 * **Stable Audio Open VAE**（由 Stability AI 提供）：
-  本仓库包含来自 [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) 的微调 VAE，遵循 [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md) 授权。
-  **商业使用和再分发需事先获得 Stability AI 的许可。**
+  本仓库包含来自 [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) 的微调 VAE，遵循 [Stability AI 社区许可证](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md)。
+  **商业使用和再分发需事先获得 Stability AI 许可。**
 
-* 📘 **所有其他代码和模型**均采用 Apache License 2.0 许可发布。
+* 📘 **所有其他代码和模型** 均按照 Apache License 2.0 发布。
 
 ---
 
-## 致谢
+## 鸣谢
 
 特别感谢：
 
 * **stable-audio-tools**（由 Stability AI 提供）：
-为音频生成提供了易用的框架，以及 VAE 模块和权重。
+  提供了音频生成易用的开发框架，以及 VAE 模块和权重。
 * **MMAudio**：
   在音频领域实现了 MM-DiT 主干网络。
 
 ---
 
+
+
 ## 📖 引用
 
-如果您在研究或工作中发现 ThinkSound 有用，请引用我们的论文：
+如果您在研究或工作中发现我们的项目有用，请引用我们的论文：
 
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
@@ -227,6 +247,15 @@ python app.py
       primaryClass={eess.AS},
       url={https://arxiv.org/abs/2506.21448}, 
 }
+@misc{liu2025prismaudiodecomposedchainofthoughtsmultidimensional,
+          title={PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation}, 
+          author={Huadai Liu and Kaicheng Luo and Wen Wang and Qian Chen and Peiwen Sun and Rongjie Huang and Xiangang Li and Jieping Ye and Wei Xue},
+          year={2025},
+          eprint={2511.18833},
+          archivePrefix={arXiv},
+          primaryClass={cs.SD},
+          url={https://arxiv.org/abs/2511.18833}, 
+    }
 ```
 
 ---
@@ -239,8 +268,9 @@ python app.py
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

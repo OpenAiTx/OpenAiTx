@@ -238,29 +238,29 @@ Enterprise Edition menjawab tantangan inti dalam kolaborasi tim dengan memusatka
 
 ## ✨ Demo Online
 
-**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+**🔗 [Cherry Studio Enterprise](https://enterprise.cherry-ai.com)**
 
 ## Perbandingan Versi
 
 | Fitur             | Community Edition                                                                    | Enterprise Edition                                                                                                                      |
 | :---------------- | :----------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Ya                                                                                 | ⭕️ Dirilis sebagian kepada pelanggan                                                                                                    |
+| **Open Source**   | ✅ Ya                                                                                 | ⭕️ Sebagian dirilis ke pelanggan                                                                                                        |
 | **Biaya**         | [Lisensi AGPL-3.0](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file) | Pembelian / Biaya Berlangganan                                                                                                          |
-| **Admin Backend** | —                                                                                    | ● Akses **Model** Terpusat<br>● Manajemen **Karyawan**<br>● **Knowledge Base** Bersama<br>● Kontrol **Akses**<br>● Cadangan **Data**    |
-| **Server**        | —                                                                                    | ✅ Penempatan Pribadi Khusus                                                                                                            |
+| **Admin Backend** | —                                                                                    | ● Akses **Model** Terpusat<br>● Manajemen **Karyawan**<br>● **Knowledge Base** Bersama<br>● Kontrol **Akses**<br>● Backup **Data**      |
+| **Server**        | —                                                                                    | ✅ Deployment Privat Khusus                                                                                                              |
 
 ## Dapatkan Enterprise Edition
 
-Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI untuk tim Anda. Jika Anda tertarik dengan Cherry Studio Enterprise Edition dan ingin mempelajari lebih lanjut, meminta penawaran, atau menjadwalkan demo, silakan hubungi kami.
+Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI tim Anda. Jika Anda tertarik dengan Cherry Studio Enterprise Edition dan ingin tahu lebih banyak, meminta penawaran, atau menjadwalkan demo, silakan hubungi kami.
 
 - **Untuk Pertanyaan Bisnis & Pembelian**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Proyek Terkait
 
-- [new-api](https://github.com/QuantumNous/new-api): Sistem gateway LLM generasi berikutnya dan manajemen aset AI mendukung berbagai bahasa.
+- [new-api](https://github.com/QuantumNous/new-api): Sistem gateway LLM generasi berikutnya dan manajemen aset AI yang mendukung banyak bahasa.
 
-- [one-api](https://github.com/songquanpeng/one-api): Sistem manajemen dan distribusi API LLM mendukung model utama seperti OpenAI, Azure, dan Anthropic. Memiliki antarmuka API terpadu, cocok untuk manajemen kunci dan distribusi sekunder.
+- [one-api](https://github.com/songquanpeng/one-api): Sistem manajemen dan distribusi API LLM yang mendukung model utama seperti OpenAI, Azure, dan Anthropic. Fitur antarmuka API terpadu, cocok untuk manajemen kunci dan distribusi sekunder.
 
 - [Poe](https://poe.com/): Poe memberi Anda akses ke AI terbaik, semuanya di satu tempat. Jelajahi GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs, dan jutaan lainnya.
 
@@ -277,7 +277,7 @@ Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI untuk tim An
 
 ![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg "Repobeats analytics image")
 
-# ⭐️ Riwayat Bintang
+# ⭐️ Riwayat Star
 
 <a href="https://www.star-history.com/#CherryHQ/cherry-studio&Date">
  <picture>
@@ -327,6 +327,6 @@ Jika Anda memerlukan lisensi komersial yang memberikan pengecualian dari persyar
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

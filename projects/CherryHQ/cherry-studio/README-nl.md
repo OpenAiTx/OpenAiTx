@@ -238,35 +238,35 @@ De Enterprise Edition pakt kernuitdagingen in team samenwerking aan door het beh
 
 ## ✨ Online Demo
 
-**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+**🔗 [Cherry Studio Enterprise](https://enterprise.cherry-ai.com)**
 
-## Versie Vergelijking
+## Versievergelijking
 
-| Functie           | Community Editie                                                                    | Enterprise Editie                                                                                                                      |
-| :---------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Ja                                                                               | ⭕️ Gedeeltelijk beschikbaar voor klanten                                                                                               |
+| Functie           | Community Edition                                                                    | Enterprise Edition                                                                                                                      |
+| :---------------- | :----------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open Source**   | ✅ Ja                                                                                | ⭕️ Gedeeltelijk vrijgegeven aan klanten                                                                                                |
 | **Kosten**        | [AGPL-3.0 Licentie](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file) | Aankoop / Abonnementsvergoeding                                                                                                        |
-| **Admin Backend** | —                                                                                   | ● Gecentraliseerde **Model** Toegang<br>● **Werknemer** Beheer<br>● Gedeelde **Kennisbank**<br>● **Toegangs**controle<br>● **Data** Backup |
-| **Server**        | —                                                                                   | ✅ Toegewijde Privé Implementatie                                                                                                      |
+| **Admin Backend** | —                                                                                    | ● Gecentraliseerde **Model** Toegang<br>● **Werknemers** Beheer<br>● Gedeelde **Kennisbank**<br>● **Toegangs**controle<br>● **Data** Back-up |
+| **Server**        | —                                                                                    | ✅ Toegewijde Private Implementatie                                                                                                     |
 
-## Verkrijg de Enterprise Editie
+## Verkrijg de Enterprise Edition
 
-Wij geloven dat de Enterprise Editie de AI-productiviteitsmotor van uw team zal worden. Als u geïnteresseerd bent in Cherry Studio Enterprise Edition en meer wilt weten, een offerte wilt aanvragen, of een demo wilt inplannen, neem dan gerust contact met ons op.
+Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van uw team zal worden. Heeft u interesse in Cherry Studio Enterprise Edition en wilt u meer weten, een offerte aanvragen of een demo plannen, neem dan gerust contact met ons op.
 
 - **Voor zakelijke aanvragen & aankoop**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Gerelateerde Projecten
 
-- [new-api](https://github.com/QuantumNous/new-api): Het volgende generatie LLM-gateway en AI-asset management systeem ondersteunt meerdere talen.
+- [new-api](https://github.com/QuantumNous/new-api): De volgende generatie LLM-gateway en AI-assetmanagementsysteem ondersteunt meerdere talen.
 
-- [one-api](https://github.com/songquanpeng/one-api): LLM API-beheer en distributiesysteem dat gangbare modellen zoals OpenAI, Azure en Anthropic ondersteunt. Beschikt over een uniforme API-interface, geschikt voor sleutelbeheer en secundaire distributie.
+- [one-api](https://github.com/songquanpeng/one-api): LLM API-beheer en distributiesysteem dat gangbare modellen ondersteunt zoals OpenAI, Azure en Anthropic. Beschikt over een uniforme API-interface, geschikt voor sleutelbeheer en secundaire distributie.
 
 - [Poe](https://poe.com/): Poe geeft je toegang tot de beste AI, allemaal op één plek. Ontdek GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs en miljoenen anderen.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Blokkeert specifieke sites uit de Google zoekresultaten
+- [ublacklist](https://github.com/iorate/ublacklist): Blokkeert specifieke sites in Google zoekresultaten
 
-# 🚀 Bijdragers
+# 🚀 Medewerkers
 
 <a href="https://github.com/CherryHQ/cherry-studio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CherryHQ/cherry-studio" />
@@ -275,9 +275,9 @@ Wij geloven dat de Enterprise Editie de AI-productiviteitsmotor van uw team zal 
 
 # 📊 GitHub Statistieken
 
-![Statistieken](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg "Repobeats analytics afbeelding")
+![Statistieken](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg "Repobeats analytics image")
 
-# ⭐️ Sterren Geschiedenis
+# ⭐️ Stergeschiedenis
 
 <a href="https://www.star-history.com/#CherryHQ/cherry-studio&Date">
  <picture>
@@ -327,6 +327,6 @@ Mocht u een commerciële licentie wensen die een uitzondering biedt op de AGPL-3
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

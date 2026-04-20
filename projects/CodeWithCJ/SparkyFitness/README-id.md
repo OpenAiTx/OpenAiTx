@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -14,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
@@ -29,128 +28,119 @@
   </details>
 </div>
 
-# SparkyFitness - Alternatif Selfhosted MyFitnessPal
+# SparkyFitness
 
-SparkyFitness adalah aplikasi manajemen dan pelacakan kebugaran yang komprehensif, dirancang untuk membantu pengguna memantau nutrisi, olahraga, dan pengukuran tubuh mereka. Aplikasi ini menyediakan alat untuk pelacakan kemajuan harian, penetapan tujuan, dan laporan mendalam guna mendukung gaya hidup sehat.
+Alternatif MyFitnessPal yang dihosting sendiri dengan privasi sebagai prioritas utama. Lacak nutrisi, olahraga, metrik tubuh, dan data kesehatan sambil tetap mengendalikan penuh data Anda.
 
-Dokumentasi: https://codewithcj.github.io/SparkyFitness
+![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ Fitur
+SparkyFitness adalah platform pelacakan kebugaran yang dihosting sendiri, terdiri dari:
 
-### 🍎 Pelacakan Nutrisi
+- Server backend (API + penyimpanan data)
+- Frontend berbasis web
+- Aplikasi mobile native untuk iOS dan Android
 
-* **Catat makanan harian Anda**
-* **Buat dan kelola makanan serta kategori khusus**
-* **Lihat ringkasan dan analisis tren dengan grafik interaktif**
+Menyimpan dan mengelola data kesehatan pada infrastruktur yang Anda kendalikan, tanpa bergantung pada layanan pihak ketiga.
 
-### 💪 Pencatatan Latihan
+## Fitur Inti
 
-* **Catat latihan Anda**
-* **Jelajahi dan cari basis data latihan yang komprehensif**
-* **Lacak perkembangan kebugaran dari waktu ke waktu**
+- Pelacakan nutrisi, olahraga, hidrasi, tidur, puasa, suasana hati, dan pengukuran tubuh
+- Penetapan tujuan dan pemeriksaan harian
+- Grafik interaktif dan laporan jangka panjang
+- Profil pengguna ganda dan akses keluarga
+- Tema terang dan gelap
+- OIDC, TOTP, Passkey, MFA dll.
 
-### 💧 Pemantauan Asupan Air
+## Integrasi Kesehatan & Perangkat
 
-* **Lacak target hidrasi harian**
-* **Pencatatan air yang mudah dan cepat**
+SparkyFitness dapat menyinkronkan data dari berbagai platform kesehatan dan kebugaran:
 
-### 📏 Pengukuran Tubuh
+- **Apple Health** (iOS)
+- **Google Health Connect** (Android)
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow** (uji sebagian)
+- **Hevy** (belum diuji)
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava** (uji sebagian)
 
-* **Catat metrik tubuh** (misal: berat badan, pinggang, lengan)
-* **Tambahkan jenis pengukuran khusus**
-* **Visualisasikan perkembangan melalui grafik**
+Integrasi secara otomatis menyinkronkan data aktivitas seperti langkah, latihan, dan tidur, bersama dengan metrik kesehatan seperti berat badan dan pengukuran tubuh, ke server SparkyFitness Anda.
 
-### 🎯 Penetapan Target
+## Fitur AI Opsional (Beta)
 
-* **Tetapkan dan kelola target kebugaran dan nutrisi**
-* **Lacak perkembangan dari waktu ke waktu**
+SparkyAI menyediakan antarmuka percakapan untuk mencatat data dan meninjau kemajuan.
 
-### 🗓️ Pemeriksaan Harian
+- Catat makanan, olahraga, statistik tubuh, dan langkah melalui chat
+- Unggah gambar makanan untuk pencatatan makanan otomatis
+- Menyimpan riwayat percakapan untuk tindak lanjut
 
-* **Pantau aktivitas harian**
-* **Tetap konsisten dengan pelacakan kebiasaan**
+Catatan: Fitur AI saat ini masih dalam versi beta.
 
-### 🤖 Pelatih Nutrisi AI (SparkyAI)
+## Mulai Cepat (Server)
 
-* **Catat makanan, latihan, statistik tubuh, dan langkah melalui chat**
-* **Unggah gambar makanan untuk pencatatan otomatis**
-* **Termasuk riwayat chat dan panduan yang dipersonalisasi**
-
-### 🔒 Autentikasi Pengguna & Profil
-
-* **Sistem login yang aman**
-* **Beralih antara profil pengguna**
-* **Dukungan untuk akses dan manajemen keluarga**
-
-### 📊 Laporan Komprehensif
-
-* **Buat ringkasan untuk nutrisi dan metrik tubuh**
-* **Lacak tren jangka panjang selama minggu atau bulan**
-
-### 🎨 Tema yang Dapat Disesuaikan
-
-* **Beralih antara mode terang dan gelap**
-* **Dirancang dengan antarmuka minimalis, bebas gangguan**
-
-### Butuh Bantuan?
-* **Bergabung dengan discord**
-  https://discord.gg/vcnMT5cPEA
-* **Tulis di diskusi**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � Mulai Cepat
-
-Jalankan SparkyFitness dalam hitungan menit:
+Jalankan server SparkyFitness dalam hitungan menit menggunakan Docker Compose.
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
+## 🎥 Tutorial Video
 
-## 📖 Dokumentasi
+[![Tonton videonya](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
 
-Untuk panduan instalasi lengkap, pengaturan pengembangan, dan instruksi penggunaan, kunjungi dokumentasi lengkap kami:
+Tutorial singkat 2 menit yang menunjukkan cara menginstal SparkyFitness (pelacak kebugaran self-hosted).
 
-**👉 [Situs Dokumentasi SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
+
+## Dokumentasi
+
+Untuk panduan instalasi lengkap, opsi konfigurasi, dan dokumentasi pengembangan, silakan kunjungi [Situs Dokumentasi](https://codewithcj.github.io/SparkyFitness/) kami.
 
 ### Tautan Cepat
 
-- **[🚀 Memulai](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Panduan pengaturan lengkap untuk pengembangan dan produksi
-- **[🐳 Panduan Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Penerapan dan konfigurasi Docker
-- **[🔧 Alur Kerja Pengembangan](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Panduan pengembang dan proses kontribusi  
-- **[📊 Ikhtisar Fitur](https://codewithcj.github.io/SparkyFitness/features/)** - Dokumentasi fitur lengkap
-- **[🏗️ Arsitektur](https://codewithcj.github.io/SparkyFitness/app-overview)** - Arsitektur teknis dan desain
-- Lihat Wiki untuk contoh pengaturan env dan konfigurasi Aplikasi Mobile.
+- **[Panduan Instalasi](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - Penyebaran dan konfigurasi
+- **[Gambaran Fitur](https://codewithcj.github.io/SparkyFitness/features)** - Dokumentasi fitur lengkap
+- **[Alur Kerja Pengembangan](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Panduan pengembang dan proses kontribusi
+- **[Info Aplikasi iOS](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** dan **[Info Aplikasi Android](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
 
+### Butuh Bantuan?
 
-## Riwayat Star
+- Posting di isu/diskusi Github.
+- Untuk respon lebih cepat dan mendapatkan bantuan dari anggota komunitas lain **[Gabung ke Discord kami](https://discord.gg/vcnMT5cPEA)**
+
+## Riwayat Bintang
 
 <a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
-    <img alt="Grafik Riwayat Star" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+    <img alt="Grafik Riwayat Bintang" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
   </picture>
 </a>
 
 ## Terjemahan
 
+**[Terjemahan Weblate](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
+
+
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="Status Terjemahan" />
 </a>
 
@@ -158,30 +148,29 @@ Untuk panduan instalasi lengkap, pengaturan pengembangan, dan instruksi pengguna
 
 ![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Gambar analitik Repobeats")
 
-
 ## Kontributor
 
 <a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ Masalah Diketahui / Fitur Beta ⚠️
+## ⚠️ Masalah Diketahui / Fitur Beta ⚠️
 
-Fitur-fitur berikut saat ini masih dalam versi beta dan mungkin belum diuji secara menyeluruh. Harap antisipasi kemungkinan bug atau fungsionalitas yang belum lengkap:
+SparkyFitness sedang dalam pengembangan aktif.
+Perubahan besar dapat terjadi di antara rilis.
 
-*   Chatbot AI
-*   Dukungan multi-pengguna
-*   Akses Keluarga & Teman
-*   Integrasi Data Apple Health
+- Kontainer yang memperbarui otomatis tidak disarankan
+- Selalu tinjau catatan rilis sebelum melakukan upgrade
 
-Aplikasi ini sedang dalam tahap pengembangan intensif. Beberapa hal mungkin tidak berjalan sesuai harapan karena migrasi dari Supabase ke PostgreSQL. PERUBAHAN BESAR mungkin akan diterapkan hingga aplikasi stabil.
-Anda mungkin perlu mengubah variabel Docker/lingkungan untuk rilis baru. Oleh karena itu, pembaruan otomatis menggunakan Watchtower atau aplikasi serupa tidak direkomendasikan. Bacalah catatan rilis untuk setiap PERUBAHAN BESAR.
+Fitur-fitur berikut saat ini dalam versi beta dan mungkin belum diuji secara menyeluruh. Harap waspadai potensi bug atau fungsionalitas yang belum lengkap:
 
-
+- AI Chatbot
+- Akses Keluarga & Teman
+- Dokumentasi API
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

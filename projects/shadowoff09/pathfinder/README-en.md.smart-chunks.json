@@ -1,0 +1,992 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🗺️ Pathfinder\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/shadowoff09/pathfinder/master/public/banner-readme.png\" alt=\"Pathfinder Banner\" width=\"1280\"/>\n  \n  A modern, interactive mapping application built with Next.js 15, MapboxGL, and TypeScript. Pathfinder provides a seamless mapping experience with features like real-time weather data, location search, and customizable map styles.\n\n  [Demo](https://link.shadowdev.xyz/r/m3tydbf12hb) · [Report Bug](https://github.com/shadowoff09/pathfinder/issues) · [Request Feature](https://github.com/shadowoff09/pathfinder/issues)\n</div>\n\n## ✨ Features\n\n- 🌓 Dark/Light mode support\n- 🏢 3D Building visualization\n- 🔍 Location search with autocomplete\n- 🌤️ Real-time weather information\n- 📍 Current location detection\n- 🛰️ Street/Satellite view toggle\n- 📱 Fully responsive design\n- ⌨️ Keyboard shortcuts support\n- 🎨 Modern UI with Tailwind CSS and shadcn/ui\n\n## 🚀 Getting Started\n\n### Prerequisites\n\n- Node.js 22+ \n- A Mapbox API key (get it from [Mapbox](https://www.mapbox.com/))\n- A OpenWeather API key (get it from [OpenWeather](https://openweathermap.org/api))\n- npm or yarn\n\n### Installation\n\n1. Clone the repository:",
+    "ContentSha": "qXDSondoRkiiAJM85TAsCignbZi4BrrKuwpykn+5Cls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🗺️ Pathfinder\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/shadowoff09/pathfinder/master/public/banner-readme.png\" alt=\"Pathfinder Banner\" width=\"1280\"/>\n  \n  A modern, interactive mapping application built with Next.js 15, MapboxGL, and TypeScript. Pathfinder provides a seamless mapping experience with features like real-time weather data, location search, and customizable map styles.\n\n  [Demo](https://link.shadowdev.xyz/r/m3tydbf12hb) · [Report Bug](https://github.com/shadowoff09/pathfinder/issues) · [Request Feature](https://github.com/shadowoff09/pathfinder/issues)\n</div>\n\n## ✨ Features\n\n- 🌓 Dark/Light mode support\n- 🏢 3D Building visualization\n- 🔍 Location search with autocomplete\n- 🌤️ Real-time weather information\n- 📍 Current location detection\n- 🛰️ Street/Satellite view toggle\n- 📱 Fully responsive design\n- ⌨️ Keyboard shortcuts support\n- 🎨 Modern UI with Tailwind CSS and shadcn/ui\n\n## 🚀 Getting Started\n\n### Prerequisites\n\n- Node.js 22+ \n- A Mapbox API key (get it from [Mapbox](https://www.mapbox.com/))\n- A OpenWeather API key (get it from [OpenWeather](https://openweathermap.org/api))\n- npm or yarn\n\n### Installation\n\n1. Clone the repository:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "r4LJwqw3UpGw6Gb0DLr761qWj9S3U4DSGmostWsnYRg=",
+        "originContent": "# 🗺️ Pathfinder",
+        "translatedContent": "# 🗺️ Pathfinder"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "FOTWjpd54N6QEiR1ut3Y8iTXPqu52NTpf0ADn/IhFgw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/shadowoff09/pathfinder/master/public/banner-readme.png\" alt=\"Pathfinder Banner\" width=\"1280\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/shadowoff09/pathfinder/master/public/banner-readme.png\" alt=\"Pathfinder Banner\" width=\"1280\"/>"
+      },
+      {
+        "row": 5,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 6,
+        "rowsha": "u5y6KGNRnmb6LJ2eyBTN1eN72yiM5DyLPdKpowIOPIg=",
+        "originContent": "  A modern, interactive mapping application built with Next.js 15, MapboxGL, and TypeScript. Pathfinder provides a seamless mapping experience with features like real-time weather data, location search, and customizable map styles.",
+        "translatedContent": "  A modern, interactive mapping application built with Next.js 15, MapboxGL, and TypeScript. Pathfinder provides a seamless mapping experience with features like real-time weather data, location search, and customizable map styles."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Oipj/kDwSWEbU0uTylHi623GipKtPxw/qrXzIFQ1JZI=",
+        "originContent": "  [Demo](https://link.shadowdev.xyz/r/m3tydbf12hb) · [Report Bug](https://github.com/shadowoff09/pathfinder/issues) · [Request Feature](https://github.com/shadowoff09/pathfinder/issues)",
+        "translatedContent": "  [Demo](https://link.shadowdev.xyz/r/m3tydbf12hb) · [Report Bug](https://github.com/shadowoff09/pathfinder/issues) · [Request Feature](https://github.com/shadowoff09/pathfinder/issues)"
+      },
+      {
+        "row": 9,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ Features"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "IcdXO4B0IyKtEoT5CtiMk2q9wdpkxgfT3RZ7Vf+DonU=",
+        "originContent": "- 🌓 Dark/Light mode support",
+        "translatedContent": "- 🌓 Dark/Light mode support"
+      },
+      {
+        "row": 14,
+        "rowsha": "1buDdOFjH7S23+sjitWjECy5jeVsy/b8xh4i72nCsns=",
+        "originContent": "- 🏢 3D Building visualization",
+        "translatedContent": "- 🏢 3D Building visualization"
+      },
+      {
+        "row": 15,
+        "rowsha": "m8yuKCP91QIY1eE5TNPuR6EmPBDoMGbY8ePw+3YWBA8=",
+        "originContent": "- 🔍 Location search with autocomplete",
+        "translatedContent": "- 🔍 Location search with autocomplete"
+      },
+      {
+        "row": 16,
+        "rowsha": "v9jcWkS9DR5zjw07y17r/Nmf53ejVCLSYMGWiVydlxc=",
+        "originContent": "- 🌤️ Real-time weather information",
+        "translatedContent": "- 🌤️ Real-time weather information"
+      },
+      {
+        "row": 17,
+        "rowsha": "sHpTpTUhpXuxQeEPKWOk+HdkmWJ/ZWl9JsVHx0hvD1o=",
+        "originContent": "- 📍 Current location detection",
+        "translatedContent": "- 📍 Current location detection"
+      },
+      {
+        "row": 18,
+        "rowsha": "U5jTVakbKgMdSu8QhNXhGEF9ATgYXciEqcCIZKoWD9g=",
+        "originContent": "- 🛰️ Street/Satellite view toggle",
+        "translatedContent": "- 🛰️ Street/Satellite view toggle"
+      },
+      {
+        "row": 19,
+        "rowsha": "WPqtnua0ZmBo+fKqwRZWKk+6QE7iWrqbY46t4uJsLYQ=",
+        "originContent": "- 📱 Fully responsive design",
+        "translatedContent": "- 📱 Fully responsive design"
+      },
+      {
+        "row": 20,
+        "rowsha": "YqnZDLJFtkuxOulb5+GFDzRn8CufFjNhouy3KjdtmrM=",
+        "originContent": "- ⌨️ Keyboard shortcuts support",
+        "translatedContent": "- ⌨️ Keyboard shortcuts support"
+      },
+      {
+        "row": 21,
+        "rowsha": "ss9NyMUiiGyVgeo4krgrj6NsedwQ8yoHnQlBa8Odxh8=",
+        "originContent": "- 🎨 Modern UI with Tailwind CSS and shadcn/ui",
+        "translatedContent": "- 🎨 Modern UI with Tailwind CSS and shadcn/ui"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "aKVJgV9gnSk4MAp/Su+G/EZ8/96Lvx8p89GEoOBOwkQ=",
+        "originContent": "## 🚀 Getting Started",
+        "translatedContent": "## 🚀 Getting Started"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### Prerequisites"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "2UyFI6aDlSEfsNMb65bWfWIO5b+xmtljqWwUFtFK58k=",
+        "originContent": "- Node.js 22+ ",
+        "translatedContent": "- Node.js 22+ "
+      },
+      {
+        "row": 28,
+        "rowsha": "ZT0pXyPH+rB289Xo9Cc98XzlNWl3MKXoGERLApejqOU=",
+        "originContent": "- A Mapbox API key (get it from [Mapbox](https://www.mapbox.com/))",
+        "translatedContent": "- A Mapbox API key (get it from [Mapbox](https://www.mapbox.com/))"
+      },
+      {
+        "row": 29,
+        "rowsha": "mdQMVaABtfSYbddprHMlZzQ/FTMR9FV4UCLRjjI6TL4=",
+        "originContent": "- A OpenWeather API key (get it from [OpenWeather](https://openweathermap.org/api))",
+        "translatedContent": "- A OpenWeather API key (get it from [OpenWeather](https://openweathermap.org/api))"
+      },
+      {
+        "row": 30,
+        "rowsha": "eqageo4ix0fkL5Neh3+Sxg5CEeDUNRWxnso9xNjrAts=",
+        "originContent": "- npm or yarn",
+        "translatedContent": "- npm or yarn"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### Installation"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. Clone the repository:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/shadowoff09/pathfinder.git\ncd pathfinder\n```",
+    "ContentSha": "XcSdPXHRR7N7qyBuLi6FIXfVXse+kAYTLfY5ehGYJOs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/shadowoff09/pathfinder.git\ncd pathfinder\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZFoNfn/gkyxOFfPGPFHWqAwyvWZnJEdC0SDB0TmjQIQ=",
+        "originContent": "git clone https://github.com/shadowoff09/pathfinder.git",
+        "translatedContent": "git clone https://github.com/shadowoff09/pathfinder.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "E3HeXE37uNv9UY3k8n1EezBqSFuL5tEsa5gDaHwzDLI=",
+        "originContent": "cd pathfinder",
+        "translatedContent": "cd pathfinder"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Install dependencies:",
+    "ContentSha": "7axmS9yAHWfFa5x86RXNal1TyqIcwHVkbg9dg4se5lk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Install dependencies:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Install dependencies:"
+      },
+      {
+        "row": 2,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nnpm install\n# or\nyarn install\n```",
+    "ContentSha": "FKlqWb6f89s833BKzXqX/yZSwPf5Km42vUyQgVzWvLE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install\n# or\nyarn install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+        "originContent": "# or",
+        "translatedContent": "# or"
+      },
+      {
+        "row": 4,
+        "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
+        "originContent": "yarn install",
+        "translatedContent": "yarn install"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. Set up environment variables:\n   - Copy the `.env.example` file to `.env.local`:",
+    "ContentSha": "690H3UE3wlIzDMFm2/XMXRf704aDrRjIWScneUQlNvU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. Set up environment variables:\n   - Copy the `.env.example` file to `.env.local`:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6ZjPIbrXyldxkVhN8MMUKjUSXC/Dkio2igDa2gjiiFg=",
+        "originContent": "3. Set up environment variables:",
+        "translatedContent": "3. Set up environment variables:"
+      },
+      {
+        "row": 3,
+        "rowsha": "JX5ht+IgnI9c59DuvVWVG4bm8OqIE+mCZenxDHwYek0=",
+        "originContent": "   - Copy the `.env.example` file to `.env.local`:",
+        "translatedContent": "   - Copy the `.env.example` file to `.env.local`:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "     ```bash\n     cp .env.example .env.local\n     ```",
+    "ContentSha": "t4+zlrZOQdukHkdvkWw/LUCTnQlIOYrzQEiYapeh4iM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "     ```bash\n     cp .env.example .env.local\n     ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8rf3aojVXUs5h1ZjFNhiJuhWusOD2WE7paAcCiWo11g=",
+        "originContent": "     ```bash",
+        "translatedContent": "     ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0nf5JWAykvURxPoWqAx+i8CLuFyilC5JmK1f2mN3RvA=",
+        "originContent": "     cp .env.example .env.local",
+        "translatedContent": "     cp .env.example .env.local"
+      },
+      {
+        "row": 3,
+        "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
+        "originContent": "     ```",
+        "translatedContent": "     ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "   - Open `.env.local` and add your Mapbox API key:",
+    "ContentSha": "NM36Zq+R4ZwSA6BYuLNjJxJBV8nMjhn8iFpYhG3osig=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   - Open `.env.local` and add your Mapbox API key:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NM36Zq+R4ZwSA6BYuLNjJxJBV8nMjhn8iFpYhG3osig=",
+        "originContent": "   - Open `.env.local` and add your Mapbox API key:",
+        "translatedContent": "   - Open `.env.local` and add your Mapbox API key:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "     ```env\n     NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token_here\n     NEXT_PUBLIC_WEATHER_API_KEY=your_weather_api_key_here\n     ```",
+    "ContentSha": "v1W1P2F8fI0WARhMt7xX6c8/k1xlUrsa4AC1Nve19eU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "     ```env\n     NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token_here\n     NEXT_PUBLIC_WEATHER_API_KEY=your_weather_api_key_here\n     ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uXwskScqzowbyQuNB0pQ17FN4MGu8BJXtxWvFsNTLE8=",
+        "originContent": "     ```env",
+        "translatedContent": "     ```env"
+      },
+      {
+        "row": 2,
+        "rowsha": "r3dgtKPVfab4m19DzkD32BCrDY4keOllPdKFIqtzRSo=",
+        "originContent": "     NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token_here",
+        "translatedContent": "     NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token_here"
+      },
+      {
+        "row": 3,
+        "rowsha": "saF1NeKlSwRWZ0AzIJtgjbA2TpDZeLeKwAr6TgFeNO0=",
+        "originContent": "     NEXT_PUBLIC_WEATHER_API_KEY=your_weather_api_key_here",
+        "translatedContent": "     NEXT_PUBLIC_WEATHER_API_KEY=your_weather_api_key_here"
+      },
+      {
+        "row": 4,
+        "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
+        "originContent": "     ```",
+        "translatedContent": "     ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "   - Get your API keys from:\n     - [Mapbox](https://www.mapbox.com/) - for map functionality\n     - [OpenWeather](https://openweathermap.org/api) - for weather data\n\n4. Start the development server:",
+    "ContentSha": "0DWDHSayn9/lL3I8Vm7qu9LPEAaRkYfXyHiL2xMbZdI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   - Get your API keys from:\n     - [Mapbox](https://www.mapbox.com/) - for map functionality\n     - [OpenWeather](https://openweathermap.org/api) - for weather data\n\n4. Start the development server:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bVqgraIhjuse//ZjZ93C9O52CxZ7JFi5h9jbHwd30ys=",
+        "originContent": "   - Get your API keys from:",
+        "translatedContent": "   - Get your API keys from:"
+      },
+      {
+        "row": 2,
+        "rowsha": "nLisi7gLjh7wMD9p/26fkn8IlQR//5H+isoJOMEJbi0=",
+        "originContent": "     - [Mapbox](https://www.mapbox.com/) - for map functionality",
+        "translatedContent": "     - [Mapbox](https://www.mapbox.com/) - for map functionality"
+      },
+      {
+        "row": 3,
+        "rowsha": "Eg3+8JAE6IoSJJL6PoXYE5rRIN4qvRrhke7Z3pNbskk=",
+        "originContent": "     - [OpenWeather](https://openweathermap.org/api) - for weather data",
+        "translatedContent": "     - [OpenWeather](https://openweathermap.org/api) - for weather data"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "WlM06SK2+MgM/aKf1I6xB/UKJ54RgbMiR3yxqhPrTD0=",
+        "originContent": "4. Start the development server:",
+        "translatedContent": "4. Start the development server:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nnpm run dev\n# or\nyarn dev\n```",
+    "ContentSha": "rCs1ULsap8AowtBs7BMZylJyBGXLwtv7moXWpdGRNBk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm run dev\n# or\nyarn dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+        "originContent": "npm run dev",
+        "translatedContent": "npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+        "originContent": "# or",
+        "translatedContent": "# or"
+      },
+      {
+        "row": 4,
+        "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
+        "originContent": "yarn dev",
+        "translatedContent": "yarn dev"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n5. Open [http://localhost:3000](http://localhost:3000) in your browser.\n\n## 🎮 Usage\n\n### Map Navigation\n- Pan: Click and drag\n- Zoom: Scroll or use the zoom controls\n- Rotate: Right-click and drag\n- Reset View: Press Ctrl+Q\n\n### Features\n- Search locations using the search bar\n- Toggle between street and satellite view\n- View 3D buildings in street view mode (zoom level 15+)\n- Check weather information (zoom level 14+)\n- Get current location with one click\n- Copy coordinates to clipboard\n\n## 🛠️ Built With\n\n- [Next.js 15](https://nextjs.org/) - React Framework\n- [TypeScript](https://www.typescriptlang.org/) - Type Safety\n- [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js) - Maps API\n- [Tailwind CSS](https://tailwindcss.com/) - Styling\n- [shadcn/ui](https://ui.shadcn.com/) - UI Components\n- [React Map GL](https://visgl.github.io/react-map-gl/) - React wrapper for Mapbox GL\n\n## 🤝 Contributing\n\nContributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.\n\n1. Fork the project\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## 📝 License\n",
+    "ContentSha": "RX5iZ9wb18/7/hvHYqk6ryOEPhGWGyKZI6yDupNsd3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n5. Open [http://localhost:3000](http://localhost:3000) in your browser.\n\n## 🎮 Usage\n\n### Map Navigation\n- Pan: Click and drag\n- Zoom: Scroll or use the zoom controls\n- Rotate: Right-click and drag\n- Reset View: Press Ctrl+Q\n\n### Features\n- Search locations using the search bar\n- Toggle between street and satellite view\n- View 3D buildings in street view mode (zoom level 15+)\n- Check weather information (zoom level 14+)\n- Get current location with one click\n- Copy coordinates to clipboard\n\n## 🛠️ Built With\n\n- [Next.js 15](https://nextjs.org/) - React Framework\n- [TypeScript](https://www.typescriptlang.org/) - Type Safety\n- [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js) - Maps API\n- [Tailwind CSS](https://tailwindcss.com/) - Styling\n- [shadcn/ui](https://ui.shadcn.com/) - UI Components\n- [React Map GL](https://visgl.github.io/react-map-gl/) - React wrapper for Mapbox GL\n\n## 🤝 Contributing\n\nContributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.\n\n1. Fork the project\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## 📝 License\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "04yxBiwNm+WQHd2NkAUTiew/sBMlYX3JnBeFsvUzPYI=",
+        "originContent": "5. Open [http://localhost:3000](http://localhost:3000) in your browser.",
+        "translatedContent": "5. Open [http://localhost:3000](http://localhost:3000) in your browser."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qRmdFaq109MaXe8KcxdTHGtUCQxJwi4jc9YjnrpfL0Q=",
+        "originContent": "## 🎮 Usage",
+        "translatedContent": "## 🎮 Usage"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "3JkH9OivdALtISubVe/WAlv7xmp/qtLyvRjEYjSeyHU=",
+        "originContent": "### Map Navigation",
+        "translatedContent": "### Map Navigation"
+      },
+      {
+        "row": 7,
+        "rowsha": "74fhcKckHQ//3k3NQaxb5P18hsI57fWD5weNk8v0O+Q=",
+        "originContent": "- Pan: Click and drag",
+        "translatedContent": "- Pan: Click and drag"
+      },
+      {
+        "row": 8,
+        "rowsha": "IqPegU6gG0Ny0emAEGYe3dPtTlPM00zyugeqEOBA4jM=",
+        "originContent": "- Zoom: Scroll or use the zoom controls",
+        "translatedContent": "- Zoom: Scroll or use the zoom controls"
+      },
+      {
+        "row": 9,
+        "rowsha": "0CUFFqdc6p8s/qDTIktfUpk6xrVDF/ZS8r4hs6Qrz8w=",
+        "originContent": "- Rotate: Right-click and drag",
+        "translatedContent": "- Rotate: Right-click and drag"
+      },
+      {
+        "row": 10,
+        "rowsha": "UFQJptAfdFswWh9acLG20GJIGC5T6AxrxL39MITscco=",
+        "originContent": "- Reset View: Press Ctrl+Q",
+        "translatedContent": "- Reset View: Press Ctrl+Q"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": "### Features"
+      },
+      {
+        "row": 13,
+        "rowsha": "FZZ3hJb+DrojBvPf/Xa7xB5NKK3Jm+TaAObnSDygGlE=",
+        "originContent": "- Search locations using the search bar",
+        "translatedContent": "- Search locations using the search bar"
+      },
+      {
+        "row": 14,
+        "rowsha": "a6GJCjuM79CgoSEAIG/ysZ/jzd2IQYxitorSnWg4MGs=",
+        "originContent": "- Toggle between street and satellite view",
+        "translatedContent": "- Toggle between street and satellite view"
+      },
+      {
+        "row": 15,
+        "rowsha": "uF0eWRVo4OnCDCNwOQhMFl4LjGkhlq7YzPvOK9Q/Cw8=",
+        "originContent": "- View 3D buildings in street view mode (zoom level 15+)",
+        "translatedContent": "- View 3D buildings in street view mode (zoom level 15+)"
+      },
+      {
+        "row": 16,
+        "rowsha": "vlD6hduAo5Cy5PEvNPH4gAbyZ89rnyP5MfpIsbkPkBI=",
+        "originContent": "- Check weather information (zoom level 14+)",
+        "translatedContent": "- Check weather information (zoom level 14+)"
+      },
+      {
+        "row": 17,
+        "rowsha": "5VeF6kSFpw+nhHv/R7MesVMcvKAusTJIbn3MC6qpm7E=",
+        "originContent": "- Get current location with one click",
+        "translatedContent": "- Get current location with one click"
+      },
+      {
+        "row": 18,
+        "rowsha": "QFHZA6vUhjs3OyO0pAZ2TeQeBdkE+kOKbwTDoZHszFE=",
+        "originContent": "- Copy coordinates to clipboard",
+        "translatedContent": "- Copy coordinates to clipboard"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "99T5Rdfn1bQJfxBoEBfEdYd7KRDV0crBJVlRzCW1JiQ=",
+        "originContent": "## 🛠️ Built With",
+        "translatedContent": "## 🛠️ Built With"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "sJqoTfah0HkrbCBJndQu7Jx/57tBw8hGoc+w6YRX02I=",
+        "originContent": "- [Next.js 15](https://nextjs.org/) - React Framework",
+        "translatedContent": "- [Next.js 15](https://nextjs.org/) - React Framework"
+      },
+      {
+        "row": 23,
+        "rowsha": "tW7Ev/LEk1vIShJwnlw64MjBNewDb0cuuAFJcAn27I4=",
+        "originContent": "- [TypeScript](https://www.typescriptlang.org/) - Type Safety",
+        "translatedContent": "- [TypeScript](https://www.typescriptlang.org/) - Type Safety"
+      },
+      {
+        "row": 24,
+        "rowsha": "rkHBCaraARZFddNi9zRauIab0G9kO1P7GFFJLlSmQGE=",
+        "originContent": "- [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js) - Maps API",
+        "translatedContent": "- [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js) - Maps API"
+      },
+      {
+        "row": 25,
+        "rowsha": "45UzbqzlLAHjeR5R3BEJKoxcOeupkBZIFbsHCkh5hU0=",
+        "originContent": "- [Tailwind CSS](https://tailwindcss.com/) - Styling",
+        "translatedContent": "- [Tailwind CSS](https://tailwindcss.com/) - Styling"
+      },
+      {
+        "row": 26,
+        "rowsha": "QMftaOPdforUUbGfbpFMI/kR6ajZiGx6Uo50VIQRYGs=",
+        "originContent": "- [shadcn/ui](https://ui.shadcn.com/) - UI Components",
+        "translatedContent": "- [shadcn/ui](https://ui.shadcn.com/) - UI Components"
+      },
+      {
+        "row": 27,
+        "rowsha": "+FQshyhug9nc5y2d8PW3KjGggQ8G2JIX8fZ0A/cJi50=",
+        "originContent": "- [React Map GL](https://visgl.github.io/react-map-gl/) - React wrapper for Mapbox GL",
+        "translatedContent": "- [React Map GL](https://visgl.github.io/react-map-gl/) - React wrapper for Mapbox GL"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 Contributing"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "7c/TWYz5v2GUS4femRNosTzqgWReP0CIyAXuFnIdaSo=",
+        "originContent": "Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.",
+        "translatedContent": "Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Gy1UUkfEf7DuBp2e7/X9jEZosjLy3M5MHww3viaN0IU=",
+        "originContent": "1. Fork the project",
+        "translatedContent": "1. Fork the project"
+      },
+      {
+        "row": 34,
+        "rowsha": "s+LHrla3MIG3jBlTFaKLH9IJ14QyGvW0ovKZhCha2iU=",
+        "originContent": "2. Create your feature branch (`git checkout -b feature/AmazingFeature`)",
+        "translatedContent": "2. Create your feature branch (`git checkout -b feature/AmazingFeature`)"
+      },
+      {
+        "row": 35,
+        "rowsha": "dXOjrJ7T4+aJI4ubpr7Sqkd1xBdWpfCermfTq9RqqV4=",
+        "originContent": "3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)",
+        "translatedContent": "3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)"
+      },
+      {
+        "row": 36,
+        "rowsha": "XzGyEDRWMNAB8wm0VJGSATxkYDVhZBrVVV6iPJon37Q=",
+        "originContent": "4. Push to the branch (`git push origin feature/AmazingFeature`)",
+        "translatedContent": "4. Push to the branch (`git push origin feature/AmazingFeature`)"
+      },
+      {
+        "row": 37,
+        "rowsha": "KG82QPX3QtVx4Nq3AUbZW8lzLhr+oyXux3dLBDN6RfY=",
+        "originContent": "5. Open a Pull Request",
+        "translatedContent": "5. Open a Pull Request"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "/bQvlvaRWY9zIHAn3VQUzqbCmwMTGIdxnaCzM+Hj0DA=",
+        "originContent": "## 📝 License",
+        "translatedContent": "## 📝 License"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 🙏 Acknowledgments\n\n- [Mapbox](https://www.mapbox.com/) for their excellent mapping platform\n- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components\n- [Vercel](https://vercel.com) for hosting and deployment\n\n## 📫 Contact\n\nX - [@shadowdev09](https://twitter.com/shadowdev09)\n\nPortfolio - [https://shadowdev.xyz](https://shadowdev.xyz)\n\n## 💖 Support the Project\n\nIf you enjoy using Pathfinder and would like to support its development, consider making a donation:\n\n- [Donate via PayPal](https://paypal.me/diogogaspar123)\n- [Donate via Ko-Fi](ko-fi.com/shadowoff09)\n- [GitHub Sponsors](https://github.com/sponsors/shadowoff09)\n\n\nYour contributions help keep the project alive and improve its features! Thank you for your support!\n\n---\n<a href=\"https://www.producthunt.com/posts/pathfinder-11?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pathfinder&#0045;11\" target=\"_blank\"><img src=\"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=915601&theme=dark&t=1740532963013\" alt=\"Pathfinder - Navigate&#0032;Your&#0032;World&#0044;&#0032;Beautifully | Product Hunt\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>\n\n⭐️ If you like this project, please give it a star!\n\n[![Stargazers over time](https://starchart.cc/shadowoff09/pathfinder.svg?variant=adaptive)](https://starchart.cc/shadowoff09/pathfinder)\n\n",
+    "ContentSha": "Yg9JM1SjtkMia3Mszo2DLIAy5Qm7kVrsBRlGRs/xWiY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 🙏 Acknowledgments\n\n- [Mapbox](https://www.mapbox.com/) for their excellent mapping platform\n- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components\n- [Vercel](https://vercel.com) for hosting and deployment\n\n## 📫 Contact\n\nX - [@shadowdev09](https://twitter.com/shadowdev09)\n\nPortfolio - [https://shadowdev.xyz](https://shadowdev.xyz)\n\n## 💖 Support the Project\n\nIf you enjoy using Pathfinder and would like to support its development, consider making a donation:\n\n- [Donate via PayPal](https://paypal.me/diogogaspar123)\n- [Donate via Ko-Fi](ko-fi.com/shadowoff09)\n- [GitHub Sponsors](https://github.com/sponsors/shadowoff09)\n\n\nYour contributions help keep the project alive and improve its features! Thank you for your support!\n\n---\n<a href=\"https://www.producthunt.com/posts/pathfinder-11?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pathfinder&#0045;11\" target=\"_blank\"><img src=\"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=915601&theme=dark&t=1740532963013\" alt=\"Pathfinder - Navigate&#0032;Your&#0032;World&#0044;&#0032;Beautifully | Product Hunt\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>\n\n⭐️ If you like this project, please give it a star!\n\n[![Stargazers over time](https://starchart.cc/shadowoff09/pathfinder.svg?variant=adaptive)](https://starchart.cc/shadowoff09/pathfinder)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qNOAwfAbnQ0oGAw8kiCxNmOxAO6HNOriMNTHzMq+bx0=",
+        "originContent": "## 🙏 Acknowledgments",
+        "translatedContent": "## 🙏 Acknowledgments"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tzni9u4eXwRfEhDIk8QoFabRvsmMAolos2EWi82i4+k=",
+        "originContent": "- [Mapbox](https://www.mapbox.com/) for their excellent mapping platform",
+        "translatedContent": "- [Mapbox](https://www.mapbox.com/) for their excellent mapping platform"
+      },
+      {
+        "row": 6,
+        "rowsha": "PXEdcId/i9fu6BH94oDmz7PcJApKfIMpcjmWLAvG6W0=",
+        "originContent": "- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components",
+        "translatedContent": "- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components"
+      },
+      {
+        "row": 7,
+        "rowsha": "+nXb2vx5KBTfXvBwcessRju4kzzwqezOSaTZHVhESCw=",
+        "originContent": "- [Vercel](https://vercel.com) for hosting and deployment",
+        "translatedContent": "- [Vercel](https://vercel.com) for hosting and deployment"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+UoRIMOZtRxxqzh+EoXIPwf5thKc9C5G0hhXB3X4tu8=",
+        "originContent": "## 📫 Contact",
+        "translatedContent": "## 📫 Contact"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "fEdji9Ji7Z5PjukumlWY4Ob9ZiOmSAPKwdCMYNeJ+xU=",
+        "originContent": "X - [@shadowdev09](https://twitter.com/shadowdev09)",
+        "translatedContent": "X - [@shadowdev09](https://twitter.com/shadowdev09)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ur7HQwMZbVdOcVczp02hPsfmIvD1m8sl7/jP6w4oyjs=",
+        "originContent": "Portfolio - [https://shadowdev.xyz](https://shadowdev.xyz)",
+        "translatedContent": "Portfolio - [https://shadowdev.xyz](https://shadowdev.xyz)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "VUxAJhuyMAdWDG/NkmNhFsLhRJ+5MFrrxUie6K79bnc=",
+        "originContent": "## 💖 Support the Project",
+        "translatedContent": "## 💖 Support the Project"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "lES9UzPtl2bqAnCRNrRkzIwdRyn+Qetno930YdKQAIU=",
+        "originContent": "If you enjoy using Pathfinder and would like to support its development, consider making a donation:",
+        "translatedContent": "If you enjoy using Pathfinder and would like to support its development, consider making a donation:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "P9DuuYZJA2wulgEVdk8yoyCjdqEfKcaONeWe08OE0gM=",
+        "originContent": "- [Donate via PayPal](https://paypal.me/diogogaspar123)",
+        "translatedContent": "- [Donate via PayPal](https://paypal.me/diogogaspar123)"
+      },
+      {
+        "row": 20,
+        "rowsha": "XDwGw2Umt/P57gX9CtPqTuNrFtGVuO40y69MT/Epa/s=",
+        "originContent": "- [Donate via Ko-Fi](ko-fi.com/shadowoff09)",
+        "translatedContent": "- [Donate via Ko-Fi](ko-fi.com/shadowoff09)"
+      },
+      {
+        "row": 21,
+        "rowsha": "SU+PwjsKwpE7laXsgvotlsl0oQw2QeWnMYM+v9ZVYMI=",
+        "originContent": "- [GitHub Sponsors](https://github.com/sponsors/shadowoff09)",
+        "translatedContent": "- [GitHub Sponsors](https://github.com/sponsors/shadowoff09)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "FzSeuHL6q88Id0PYvaH2z9PrNzBJBtkTjlQKNdwmxD4=",
+        "originContent": "Your contributions help keep the project alive and improve its features! Thank you for your support!",
+        "translatedContent": "Your contributions help keep the project alive and improve its features! Thank you for your support!"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "9VG8sjRAAb6xToIr59fL9YfUssQp/7tW1wB640WdToo=",
+        "originContent": "<a href=\"https://www.producthunt.com/posts/pathfinder-11?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pathfinder&#0045;11\" target=\"_blank\"><img src=\"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=915601&theme=dark&t=1740532963013\" alt=\"Pathfinder - Navigate&#0032;Your&#0032;World&#0044;&#0032;Beautifully | Product Hunt\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>",
+        "translatedContent": "<a href=\"https://www.producthunt.com/posts/pathfinder-11?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pathfinder&#0045;11\" target=\"_blank\"><img src=\"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=915601&theme=dark&t=1740532963013\" alt=\"Pathfinder - Navigate&#0032;Your&#0032;World&#0044;&#0032;Beautifully | Product Hunt\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "GBrSHUf3Wq/iae7ByV1Q92esr3lKJsiQgC2BUFwKmXs=",
+        "originContent": "⭐️ If you like this project, please give it a star!",
+        "translatedContent": "⭐️ If you like this project, please give it a star!"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "L7v8YNakCdDpU/Fsa+1EH+212VSOXRI6INHdw8YShVA=",
+        "originContent": "[![Stargazers over time](https://starchart.cc/shadowoff09/pathfinder.svg?variant=adaptive)](https://starchart.cc/shadowoff09/pathfinder)",
+        "translatedContent": "[![Stargazers over time](https://starchart.cc/shadowoff09/pathfinder.svg?variant=adaptive)](https://starchart.cc/shadowoff09/pathfinder)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

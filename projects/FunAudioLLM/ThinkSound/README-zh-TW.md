@@ -3,7 +3,7 @@
 <p align="center">
   🌐
   <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=en">English</a> |
-  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN">简体中文</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN">簡體中文</a> |
   <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW">繁體中文</a> |
   <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es">Español</a> |
   <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr">Français</a> |
@@ -11,8 +11,8 @@
   
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg" alt="NeurIPS 2025"/>
-<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS%202025-Main%20Conference-blue.svg" alt="NeurIPS 2025"/>
+  &nbsp;
   <a href="https://arxiv.org/pdf/2506.21448">
     <img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/>
   </a>
@@ -26,69 +26,98 @@
   </a>
   &nbsp;
   <a href="https://modelscope.cn/studios/iic/ThinkSound">
-    <img src="https://img.shields.io/badge/ModelScope-在线体验-green" alt="ModelScope"/>
+    <img src="https://img.shields.io/badge/ModelScope-在線體驗-green" alt="ModelScope"/>
   </a>
 </p>
 
 <p align="center">
-  如果您覺得這個項目有幫助，<br>
-  歡迎在 GitHub 上給予星標 ⭐ 支持！
+  如果您覺得這個專案有用，<br>
+  歡迎在 GitHub 上給我們一顆星 ⭐！
 </p>
 
 ---
 
-**ThinkSound** 是一個統一的 Any2Audio 生成框架，利用鏈式思維（Chain-of-Thought, CoT）推理引導的流匹配技術。
-PyTorch 實現的多模態音訊生成與編輯：可從影片、文字與音訊產生或編輯音訊，並由多模態大型語言模型（MLLMs）的逐步推理驅動。
+## 專案目錄結構
+
+這個 **ThinkSound** GitHub 儲存庫在不同分支上託管了兩個相關專案：
+
+| 分支 | 專案 | 文件 |
+|--------|---------|----------------|
+| **`master`** | **ThinkSound** (NeurIPS 2025) — 統一的 Any2Audio 生成，結合 CoT 引導的 flow matching | 本文件：**`README.md`** |
+| **`prismaudio`** | **PrismAudio** — 續作 (ICLR 2026)，以多維 CoT-RL 實現影像轉音訊 | [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) 分支下的 **`README.md`** |
+
+**ThinkSound** 請使用 **`master`** 分支（本 README）。如需 **PrismAudio**，請切換到 **`prismaudio`** 分支並參閱該分支的 **`README.md`**。
+
+---
+
+**ThinkSound** 是一個統一的 Any2Audio 生成框架，採用 Chain-of-Thought (CoT) 推理引導的 flow matching。
+
+PyTorch 實現的多模態音訊生成與編輯：可從影像、文字、音訊生成或編輯音訊，並由多模態大型語言模型（MLLMs）逐步推理驅動。
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 最新消息
-- **2025.11.25** &nbsp; 🔥[PrismAudio 線上示範](http://prismaudio-project.github.io/) 已上線 - 現在試用！
-- **2025.11.25** &nbsp; 🔥[PrismAudio 論文](https://arxiv.org/pdf/2511.18833) 已發佈於 arXiv，首創多維 CoT-RL 架構的影像轉音訊生成！
-- **2025.09.19** &nbsp; 🎉 ThinkSound 已被 **NeurIPS 2025 主會議** 接收！
-- **2025.09.01** &nbsp; 我們的 AudioCoT 資料集已開源，現可於 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) 取得！
-- **2025.07.17** &nbsp; 🧠 支援微調：訓練與微調程式碼現已公開，並附有詳細使用說明，協助你用自有資料自訂並擴充 ThinkSound。
-- **2025.07.15** &nbsp; 📦 安裝與使用更簡化：PyPI 依賴便於跨平台安裝；Windows `.bat` 腳本自動建立環境與執行腳本。
-- **2025.07.08** &nbsp;  🔧 重大更新：模型輕量化並優化記憶體與 GPU 使用，現支援大規模高吞吐音訊生成！
-- **2025.07.01** &nbsp; Hugging Face Spaces [線上示範](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 與 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) 提供互動體驗！
-- **2025.07.01** &nbsp; 發布推論腳本與網頁介面；
-- **2025.06** &nbsp; [ThinkSound 論文](https://arxiv.org/pdf/2506.21448) 已發佈於 arXiv！
-- **2025.06** &nbsp; [線上示範](http://thinksound-project.github.io/) 已上線 - 現在試用！
+- **2026.03.24** &nbsp; 🔥 **PrismAudio** 已於本倉庫 [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) 分支釋出 — 請參閱該分支 **`README.md`** 以瞭解安裝與模型。
+- **2026.01.26** &nbsp; 🎉 PrismAudio 入選 **ICLR 2026 主會議**（程式碼及文件於 `prismaudio` 分支）。
+- **2025.11.25** &nbsp; 🔥 [PrismAudio 線上展示](http://prismaudio-project.github.io/) 已上線。
+- **2025.11.25** &nbsp; 🔥 [PrismAudio 論文](https://arxiv.org/pdf/2511.18833) 發佈於 arXiv — 以多維 CoT-RL 實現影像轉音訊。
+- **2025.09.19** &nbsp; 🎉 **ThinkSound** 入選 **NeurIPS 2025 主會議**！
+- **2025.09.01** &nbsp; 我們的 AudioCoT 數據集現已開源，歡迎於 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) 下載！
+- **2025.07.17** &nbsp; 🧠 支援微調：訓練及微調程式碼公開，並附有清楚使用說明，助您以自有資料自訂與擴充 ThinkSound。
+- **2025.07.15** &nbsp; 📦 安裝與使用流程簡化：依賴包已上架 PyPI，輕鬆跨平台安裝；Windows `.bat` 腳本自動建立環境並執行腳本。
+- **2025.07.08** &nbsp;  🔧 重大更新：模型輕量化，並優化記憶體與 GPU 使用，支援大規模高吞吐量音訊生成！
+- **2025.07.01** &nbsp; 線上展示於 [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 及 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound)，可互動體驗！
+- **2025.07.01** &nbsp; 已釋出推論腳本及網頁介面；
+- **2025.06** &nbsp; [ThinkSound 論文](https://arxiv.org/pdf/2506.21448) 發佈於 arXiv！
+- **2025.06** &nbsp; [線上展示](http://thinksound-project.github.io/) 上線 — 歡迎立即體驗！
 
 ---
 
 
-## 🚀 特色功能
+<div align="center">
 
-- **Any2Audio**：由任意模態——影片、文字、音訊或其組合——生成音訊。
-- **Video-to-Audio SOTA**：多項 V2A 基準測試達到最新最強表現。
-- **CoT 驅動推理**：透過 MLLM 的 Chain-of-Thought 推理，實現組合性與可控音訊生成。
-- **互動式物件為中心編輯**：點選視覺物件或輸入文字指令，即可細緻修飾或編輯特定音效事件。
-- **統一式架構**：單一基礎模型支援生成、編輯與互動式工作流程。
+### 續作：PrismAudio（同倉庫，`prismaudio` 分支）
+**PrismAudio** 是 ThinkSound（ICLR 2026）的後繼版本，以新名稱開發，但仍保存在此存儲庫的 **`prismaudio`** 分支。安裝、檢查點和引用資訊請參見該分支下的 **[`README.md`](https://github.com/liuhuadai/ThinkSound/blob/prismaudio/README.md)**。
+
+👉 [`git checkout prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) 或在 GitHub 上開啟該分支。
+
+</div>
+
+---
+
+
+## 🚀 功能特點
+
+- **Any2Audio**：從任意模態（影片、文字、音訊或其組合）生成音訊。
+- **Video-to-Audio SOTA**：在多個 V2A 基準上達到最先進成果。
+- **CoT 驅動推理**：透過 MLLM 進行 Chain-of-Thought 推理，實現組合性與可控的音訊生成。
+- **互動式物件導向編輯**：透過點擊視覺物件或文字指令，精細編輯特定聲音事件。
+- **統一框架**：一個基礎模型支援生成、編輯與互動式工作流程。
 
 ---
 
 ## ✨ 方法概述
 
-ThinkSound 將音訊生成與編輯拆解為三個互動階段，皆由 MLLM 驅動的 Chain-of-Thought（CoT）推理指導：
+ThinkSound 將音訊生成與編輯分解為三個互動階段，全部由基於 MLLM 的 Chain-of-Thought（CoT）推理引導：
 
-1. **擬音生成**：根據影片產生語意與時間對齊的基礎音景。
-2. **以物件為中心的細化**：透過點選或標註影片中指定物件，細緻調整或新增音效。
-3. **目標導向音訊編輯**：利用高階自然語言指令修改已生成音訊。
+1. **Foley 生成：** 從影片生成語義與時間一致的基礎聲景。
+2. **物件導向精細化：** 透過點擊或影片中的區域，為指定物件精細化或添加聲音。
+3. **目標音訊編輯：** 使用高階自然語言指令修改生成的音訊。
 
-
-![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- 一個大規模的CoT註釋資料集（**AudioCoT**）被用來訓練推理模組以及統一的音訊基礎模型。
-![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
+![ThinkSound 概述](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
+<!-- 大規模 CoT 註釋資料集（**AudioCoT**）用於訓練推理模組與統一音訊基礎模型。
+![AudioCoT 流程](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
 
 ## ⚡ 快速開始
 
 **環境準備：**
+
 ```bash
-git clone https://github.com/liuhuadai/ThinkSound.git
+# ThinkSound code: branch master. PrismAudio: clone with -b prismaudio (see README.md on that branch).
+git clone -b master https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
 conda create -n thinksound python=3.10
 conda activate thinksound
@@ -164,8 +193,6 @@ chmod +x scripts/eval_batch.sh
 ```bash
 python app.py
 ```
-
-
 ## 🏋️ 訓練模型
 
 請參閱 [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
@@ -173,49 +200,42 @@ python app.py
 
 ---
 
-## 📝 待辦事項與未來規劃
-* - [ ] 發佈涵蓋多領域的更強大基礎模型，以提供更具吸引力和沉浸感的擬音創作
-* - [ ] 增加對其他模態與下游任務的支援
-* - [ ] 發佈不同規模的模型
-* - [x] 開源 AudioCoT 數據集與自動化流程
-* - [x] 發佈 ThinkSound 模型的訓練腳本
-* - [x] 提供適合初學者的 Windows 快速入門 README
----
-
 
 ## 📄 授權條款
 
-本專案以 Apache 2.0 授權條款釋出。
+本專案依照 Apache 2.0 授權條款釋出。
 
 > **注意：**
-> 本程式碼、模型與數據集**僅供研究與教育用途**。
-> **禁止商業使用。**
-> 如需商業授權，請聯絡作者。
+> 程式碼、模型與資料集**僅供學術研究與教育用途**。
+> **禁止商業用途。**
+> 若需商業授權，請聯絡作者。
 
 **📦 第三方元件**
 
 * **Stable Audio Open VAE**（由 Stability AI 提供）：
-  本倉庫包含來自 [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/)、經微調的 VAE，依據 [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md) 授權。
-  **商業使用及再分發需事先取得 Stability AI 的許可。**
+  本倉庫包含經微調的 VAE，來自 [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/)，並依據 [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md) 授權。
+  **商業使用與再發佈需事先取得 Stability AI 的許可。**
 
-* 📘 **所有其他程式碼與模型**皆採用 Apache License 2.0 釋出。
+* 📘 **其他所有程式碼與模型**均依據 Apache License 2.0 授權釋出。
 
 ---
 
-## 致謝
+## 鳴謝
 
 特別感謝：
 
 * **stable-audio-tools**（由 Stability AI 提供）：
-提供易於使用的音訊生成框架，以及 VAE 模組和權重。
+感謝其提供易於使用的音訊生成框架，以及 VAE 模組與權重。
 * **MMAudio**：
-  在音訊領域中實現了 MM-DiT 主幹架構。
+  感謝其在音訊領域實現 MM-DiT 主幹模型。
 
 ---
 
+
+
 ## 📖 引用
 
-如果您在研究或工作中覺得 ThinkSound 有幫助，請引用我們的論文：
+如果您在研究或工作中發現我們的專案有用，請引用我們的論文：
 
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
@@ -227,6 +247,15 @@ python app.py
       primaryClass={eess.AS},
       url={https://arxiv.org/abs/2506.21448}, 
 }
+@misc{liu2025prismaudiodecomposedchainofthoughtsmultidimensional,
+          title={PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation}, 
+          author={Huadai Liu and Kaicheng Luo and Wen Wang and Qian Chen and Peiwen Sun and Rongjie Huang and Xiangang Li and Jieping Ye and Wei Xue},
+          year={2025},
+          eprint={2511.18833},
+          archivePrefix={arXiv},
+          primaryClass={cs.SD},
+          url={https://arxiv.org/abs/2511.18833}, 
+    }
 ```
 
 ---
@@ -239,8 +268,9 @@ python app.py
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -14,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
@@ -29,92 +28,73 @@
   </details>
 </div>
 
-# SparkyFitness - MyFitnessPal'ın Kendin Barındır Alternatifi
+# SparkyFitness
 
-SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini takip etmelerine yardımcı olmak için tasarlanmış kapsamlı bir fitness takip ve yönetim uygulamasıdır. Günlük ilerleme takibi, hedef belirleme ve sağlıklı yaşamı destekleyen anlamlı raporlar sunar.
+Kendi sunucunuzda barındırabileceğiniz, gizliliğe öncelik veren MyFitnessPal alternatifidir. Beslenme, egzersiz, vücut ölçüleri ve sağlık verilerini takip edin ve verilerinizin kontrolü tamamen sizde olsun.
 
-Dokümanlar: https://codewithcj.github.io/SparkyFitness
+![Ekran Görüntüsü](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ Özellikler
+SparkyFitness aşağıdakilerden oluşan kendi sunucunuzda barındırılan bir fitness takip platformudur:
 
-### 🍎 Beslenme Takibi
+- Bir arka uç sunucusu (API + veri depolama)
+- Web tabanlı bir ön yüz
+- iOS ve Android için yerel mobil uygulamalar
 
-* **Günlük öğünlerinizi kaydedin**
-* **Özel yiyecekler ve kategoriler oluşturun ve yönetin**
-* **Özetleri görüntüleyin ve etkileşimli grafiklerle eğilimleri analiz edin**
+Sağlık verilerini, üçüncü parti hizmetlere bağlı kalmadan, kontrolünüzdeki altyapıda saklar ve yönetir.
 
-### 💪 Egzersiz Kaydı
+## Temel Özellikler
 
-* **Antrenmanlarınızı kaydedin**
-* **Kapsamlı egzersiz veritabanında göz atın ve arama yapın**
-* **Zaman içinde fitness ilerlemenizi takip edin**
+- Beslenme, egzersiz, su tüketimi, uyku, oruç, ruh hali ve vücut ölçümleri takibi
+- Hedef belirleme ve günlük kontrol
+- Etkileşimli grafikler ve uzun vadeli raporlar
+- Çoklu kullanıcı profilleri ve aile erişimi
+- Açık ve koyu temalar
+- OIDC, TOTP, Passkey, MFA vb.
 
-### 💧 Su Tüketimi Takibi
+## Sağlık & Cihaz Entegrasyonları
 
-* **Günlük su tüketimi hedeflerinizi izleyin**
-* **Basit ve hızlı su kaydı**
+SparkyFitness, birden fazla sağlık ve fitness platformundan veri senkronize edebilir:
 
-### 📏 Vücut Ölçümleri
+- **Apple Health** (iOS)
+- **Google Health Connect** (Android)
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow** (kısmen test edildi)
+- **Hevy** (test edilmedi)
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava** (kısmen test edildi)
 
-* **Vücut metriklerinizi kaydedin** (örn. kilo, bel, kol)
-* **Özel ölçüm türleri ekleyin**
-* **Grafiklerle ilerlemenizi görselleştirin**
+Entegrasyonlar, adım, antrenman, uyku gibi aktivite verilerini ve kilo, vücut ölçümleri gibi sağlık metriklerini otomatik olarak SparkyFitness sunucunuza senkronize eder.
 
-### 🎯 Hedef Belirleme
+## Opsiyonel Yapay Zeka Özellikleri (Beta)
 
-* **Fitness ve beslenme hedefleri belirleyin ve yönetin**
-* **Zaman içinde ilerlemeyi takip edin**
+SparkyAI, veri kaydı ve ilerleme incelemesi için sohbet tabanlı bir arayüz sunar.
 
-### 🗓️ Günlük Kontroller
+- Sohbet üzerinden yemek, egzersiz, vücut istatistikleri ve adım kaydı yapın
+- Otomatik öğün kaydı için yemek görsellerini yükleyin
+- Takipler için konuşma geçmişini saklar
 
-* **Günlük aktiviteleri izleyin**
-* **Alışkanlık takibi ile tutarlı kalın**
+Not: Yapay zeka özellikleri şu anda beta aşamasındadır.
 
-### 🤖 AI Beslenme Koçu (SparkyAI)
+## Hızlı Başlangıç (Sunucu)
 
-* **Sohbet üzerinden yemek, egzersiz, vücut istatistikleri ve adım kaydı yapın**
-* **Yemekleri otomatik olarak kaydetmek için yemek fotoğrafları yükleyin**
-* **Sohbet geçmişi ve kişiselleştirilmiş rehberlik içerir**
-
-### 🔒 Kullanıcı Kimlik Doğrulama & Profiller
-
-* **Güvenli giriş sistemi**
-* **Kullanıcı profilleri arasında geçiş yapın**
-* **Aile erişimi ve yönetimi desteği**
-
-### 📊 Kapsamlı Raporlar
-
-* **Beslenme ve vücut metrikleri için özetler oluşturun**
-* **Haftalar veya aylar boyunca uzun vadeli trendleri takip edin**
-
-### 🎨 Özelleştirilebilir Temalar
-
-* **Açık ve koyu mod arasında geçiş yapın**
-* **Minimal, dikkat dağıtmayan bir arayüz ile tasarlanmıştır**
-
-### Yardıma mı ihtiyacınız var?
-* **Discord'a katılın**
-  https://discord.gg/vcnMT5cPEA
-* **Tartışma bölümünde paylaşın**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � Hızlı Başlangıç
-
-SparkyFitness'ı dakikalar içinde çalıştırın:
+Docker Compose kullanarak dakikalar içinde bir SparkyFitness sunucusu çalıştırın.
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
@@ -122,21 +102,28 @@ docker compose pull && docker compose up -d
 # Access application at http://localhost:8080
 ```
 
-## 📖 Dokümantasyon
+## 🎥 Video Eğitim
 
-Tam kurulum rehberleri, geliştirme kurulumu ve kullanım talimatları için kapsamlı dokümantasyonumuzu ziyaret edin:
+[![Videoyu izle](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
 
-**👉 [SparkyFitness Dokümantasyon Sitesi](https://codewithcj.github.io/SparkyFitness)**
+SparkyFitness’in (kendi barındırılan fitness takipçisi) nasıl kurulacağını gösteren hızlı 2 dakikalık eğitim.
+
+
+## Dokümantasyon
+
+Tam kurulum kılavuzları, yapılandırma seçenekleri ve geliştirme belgeleri için lütfen [Dokümantasyon Sitemizi](https://codewithcj.github.io/SparkyFitness/) ziyaret edin.
 
 ### Hızlı Bağlantılar
 
-- **[🚀 Başlarken](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Geliştirme ve üretim için tam kurulum rehberi
-- **[🐳 Docker Rehberi](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker dağıtımı ve yapılandırması
-- **[🔧 Geliştirme Akışı](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Geliştirici rehberi ve katkı süreci  
-- **[📊 Özellikler Genel Bakış](https://codewithcj.github.io/SparkyFitness/features/)** - Tüm özelliklerin dökümantasyonu
-- **[🏗️ Mimari](https://codewithcj.github.io/SparkyFitness/app-overview)** - Teknik mimari ve tasarım
-- Örnek ortam kurulumu ve Mobil Uygulama yapılandırması için Wiki'ye bakın.
+- **[Kurulum Kılavuzu](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - Dağıtım ve yapılandırmalar
+- **[Özellikler Genel Bakış](https://codewithcj.github.io/SparkyFitness/features)** - Tüm özelliklerin belgeleri
+- **[Geliştirici İş Akışı](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Geliştirici rehberi ve katkı süreci
+- **[iOS Uygulama Bilgisi](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** ve **[Android Uygulama Bilgisi](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
 
+### Yardıma mı ihtiyacınız var?
+
+- Github issues/discussion bölümünde paylaşın.
+- Daha hızlı yanıt almak ve diğer topluluk üyelerinden yardım almak için **[Discord’a Katılın](https://discord.gg/vcnMT5cPEA)**
 
 ## Yıldız Geçmişi
 
@@ -150,14 +137,16 @@ Tam kurulum rehberleri, geliştirme kurulumu ve kullanım talimatları için kap
 
 ## Çeviriler
 
+**[Weblate Çevirileri](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
+
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="Çeviri durumu" />
 </a>
 
-## Depo aktivitesi
+## Depo etkinliği
 
-![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats analiz görseli")
-
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats analiz görüntüsü")
 
 ## Katkıda Bulunanlar
 
@@ -165,23 +154,23 @@ Tam kurulum rehberleri, geliştirme kurulumu ve kullanım talimatları için kap
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ Bilinen Sorunlar / Beta Özellikler ⚠️
+## ⚠️ Bilinen Sorunlar / Beta Özellikler ⚠️
 
-Aşağıdaki özellikler şu anda beta aşamasındadır ve kapsamlı bir şekilde test edilmemiş olabilir. Olası hatalar veya eksik işlevsellik bekleyin:
+SparkyFitness aktif olarak geliştirilmektedir.
+Sürüm değişiklikleri arasında uyumsuzluklar olabilir.
 
-*   AI Sohbet Botu
-*   Çoklu kullanıcı desteği
-*   Aile & Arkadaşlar erişimi
-*   Apple Health Verisi entegrasyonu
+- Otomatik güncellenen konteynerler önerilmez
+- Yükseltmeden önce her zaman sürüm notlarını inceleyin
 
-Bu uygulama yoğun geliştirme aşamasındadır. Supabase'den PostgreSQL'e geçiş nedeniyle işler beklediğiniz gibi çalışmayabilir. Uygulama kararlı hale gelene kadar ÖNEMLİ DEĞİŞİKLİKLER yapılabilir.
-Yeni sürümler için Docker/ortam değişkenlerini değiştirmeniz gerekebilir. Bu nedenle, Watchtower veya benzeri uygulamalarla otomatik güncelleme önerilmez. Herhangi bir ÖNEMLİ DEĞİŞİKLİK için sürüm notlarını okuyun.
+Aşağıdaki özellikler şu anda beta aşamasındadır ve kapsamlı bir şekilde test edilmemiş olabilir. Potansiyel hatalar veya eksik işlevler bekleyin:
 
-
+- AI Sohbet Botu
+- Aile & Arkadaş erişimi
+- API dokümantasyonu
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

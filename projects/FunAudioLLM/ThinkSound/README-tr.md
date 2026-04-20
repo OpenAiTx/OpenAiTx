@@ -11,8 +11,8 @@
   
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg" alt="NeurIPS 2025"/>
-<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS%202025-Main%20Conference-blue.svg" alt="NeurIPS 2025"/>
+  &nbsp;
   <a href="https://arxiv.org/pdf/2506.21448">
     <img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/>
   </a>
@@ -32,55 +32,83 @@
 
 <p align="center">
   Eğer bu projeyi faydalı bulduysanız,<br>
-  GitHub'da bir yıldız ⭐ bırakmanız çok memnuniyet verici olur!
+  GitHub'da bir yıldız ⭐ bırakırsanız çok memnun oluruz!
 </p>
 
 ---
 
-**ThinkSound**, Zincirleme-Düşünce (CoT) çıkarımıyla yönlendirilen akış eşleştirmesine sahip, birleşik bir Any2Audio üretim çerçevesidir.
+## Depo düzeni
+Bu **ThinkSound** GitHub deposu, iki ilgili projeyi ayrı dallarda barındırmaktadır:
 
-Multimodal ses üretimi ve düzenlemesi için PyTorch uygulaması: Video, metin ve sesten ses üretin veya düzenleyin; Multimodal Büyük Dil Modellerinin (MLLM'ler) adım adım akıl yürütmesiyle desteklenmektedir.
+| Dal | Proje | Dokümantasyon |
+|-----|-------|----------------|
+| **`master`** | **ThinkSound** (NeurIPS 2025) — CoT rehberli akış eşleştirme ile birleşik Any2Audio üretimi | Bu dosya: **`README.md`** |
+| **`prismaudio`** | **PrismAudio** — video'dan ses'e çok boyutlu CoT-RL ile devam eden çalışma (ICLR 2026) | [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) dalında **`README.md`** |
+
+**ThinkSound** için **`master`** dalını (bu README) kullanın. **PrismAudio** için ise **`prismaudio`** dalına geçip oradaki **`README.md`** dosyasını takip edin.
+
+---
+
+**ThinkSound**, Zincirleme Düşünce (CoT) akıl yürütme ile yönlendirilen akış eşleştirmeye sahip birleşik bir Any2Audio üretim çerçevesidir.
+
+Multimodal ses üretimi ve düzenlemesi için PyTorch uygulaması: video, metin ve sesten ses üretin veya düzenleyin; Multimodal Büyük Dil Modellerinin (MLLM) adım adım akıl yürütme yeteneğiyle desteklenir.
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 Haberler
-- **2025.11.25** &nbsp; 🔥[Online PrismAudio Demo](http://prismaudio-project.github.io/) yayında - hemen deneyin!
-- **2025.11.25** &nbsp; 🔥[PrismAudio makalesi](https://arxiv.org/pdf/2511.18833) arXiv'de yayınlandı, Video'dan Sese Üretim için ilk çok boyutlu CoT-RL çerçevesi!
-- **2025.09.19** &nbsp; 🎉 ThinkSound **NeurIPS 2025 Ana Konferansı**'na kabul edildi!
-- **2025.09.01** &nbsp; AudioCoT veri setimiz artık açık kaynaklı ve [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)'te mevcut!
-- **2025.07.17** &nbsp; 🧠 İnce ayar etkin: eğitim ve ince ayar kodları artık herkese açık, ThinkSound'u kendi verilerinizle özelleştirmeniz ve genişletmeniz için açık talimatlar içeriyor.
-- **2025.07.15** &nbsp; 📦 Kolay kurulum ve kullanılabilirlik: PyPI'deki bağımlılıklar sayesinde platformlar arası kolay kurulum; Windows `.bat` betikleri ortam oluşturma ve betik çalıştırmayı otomatikleştirir.
-- **2025.07.08** &nbsp;  🔧 Büyük güncelleme: model hafifletildi ve bellek ile GPU kullanımı optimize edildi, artık ölçeklenebilir yüksek verimli ses üretimi destekleniyor!
-- **2025.07.01** &nbsp; [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) ve [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) üzerinde çevrimiçi demo, etkileşimli deneyim için!
-- **2025.07.01** &nbsp; Çıkarım betikleri ve web arayüzü yayınlandı;
+- **2026.03.24** &nbsp; 🔥 **PrismAudio** aynı repoda [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) dalında yayınlandı — kurulum ve modeller için oradaki **`README.md`** dosyasına bakın.
+- **2026.01.26** &nbsp; 🎉 PrismAudio, **ICLR 2026 Ana Konferansı**'na kabul edildi (kod/dökümanlar `prismaudio` dalında).
+- **2025.11.25** &nbsp; 🔥 [Çevrimiçi PrismAudio Demo](http://prismaudio-project.github.io/) yayında.
+- **2025.11.25** &nbsp; 🔥 [PrismAudio makalesi](https://arxiv.org/pdf/2511.18833) arXiv'de — video'dan ses'e çok boyutlu CoT-RL.
+- **2025.09.19** &nbsp; 🎉 **ThinkSound**, **NeurIPS 2025 Ana Konferansı**'na kabul edildi!
+- **2025.09.01** &nbsp; AudioCoT veri setimiz artık açık kaynaklı ve [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) üzerinde erişilebilir!
+- **2025.07.17** &nbsp; 🧠 İnce ayar etkin: eğitim ve ince ayar kodu artık herkese açık, ThinkSound'u kendi verinizle özelleştirmeniz ve geliştirmeniz için net kullanım yönergeleriyle birlikte.
+- **2025.07.15** &nbsp; 📦 Kolay kurulum ve kullanım: PyPI bağımlılıkları ile kolay çapraz platform kurulum; Windows `.bat` betikleri ortam oluşturmayı ve betik çalıştırmayı otomatikleştirir.
+- **2025.07.08** &nbsp;  🔧 Büyük güncelleme: model hafifletildi ve bellek/GPU kullanımı optimize edildi, artık yüksek verimli ses üretimini destekliyor!
+- **2025.07.01** &nbsp; [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) ve [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) üzerinde çevrimiçi demo ile interaktif deneyim!
+- **2025.07.01** &nbsp; Çıkarım betikleri ve web arayüzü yayınlandı; 
 - **2025.06** &nbsp; [ThinkSound makalesi](https://arxiv.org/pdf/2506.21448) arXiv'de yayınlandı!
 - **2025.06** &nbsp; [Çevrimiçi Demo](http://thinksound-project.github.io/) yayında - hemen deneyin!
 
 ---
 
 
+<div align="center">
+
+### Devam Çalışması: PrismAudio (aynı repo, `prismaudio` dalı)
+
+
+**PrismAudio** ThinkSound'un (ICLR 2026) halefidir, yeni bir ad altında geliştirilmiş ancak bu depoda **`prismaudio`** dalında tutulmaktadır. Kurulum, kontrol noktaları ve atıf bilgileri için **[o dalın `README.md` dosyasına bakınız](https://github.com/liuhuadai/ThinkSound/blob/prismaudio/README.md)**.
+
+👉 [`git checkout prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) veya dalı GitHub'da açın.
+
+</div>
+
+---
+
+
 ## 🚀 Özellikler
 
-- **Any2Audio**: Rastgele modlardan — video, metin, ses veya bunların kombinasyonlarından — ses üretimi.
-- **Video'dan Sese SOTA**: Birçok V2A benchmark'ında son teknoloji sonuçlar elde eder.
-- **CoT Destekli Akıl Yürütme**: MLLM'ler aracılığıyla bileşen tabanlı ve kontrol edilebilir ses üretimi için Düşünce Zinciri akıl yürütmesi.
-- **Etkileşimli Nesne Merkezli Düzenleme**: Görsel nesnelere tıklayarak veya metin talimatları kullanarak belirli ses olaylarını düzenleyin veya iyileştirin.
-- **Birleşik Çerçeve**: Tek bir temel model üretim, düzenleme ve etkileşimli iş akışını destekler.
+- **Any2Audio**: İstenilen herhangi bir modaliteden — video, metin, ses veya bunların kombinasyonlarından — ses üretimi.
+- **Video'dan Sese SOTA**: Birden fazla V2A benchmark'ında son teknoloji (state-of-the-art) sonuçlara ulaşır.
+- **CoT-Tabanlı Akıl Yürütme**: MLLM'ler aracılığıyla birleşik ve kontrol edilebilir ses üretimi için Chain-of-Thought akıl yürütme.
+- **Etkileşimli Nesne Merkezli Düzenleme**: Görsel nesnelere tıklayarak veya metin talimatlarıyla belirli ses olaylarını iyileştirin veya düzenleyin.
+- **Birleşik Çerçeve**: Tek bir temel model; üretim, düzenleme ve etkileşimli iş akışını destekler.
 
 ---
 
 ## ✨ Yöntem Genel Bakış
 
-ThinkSound, ses üretimi ve düzenleme işini MLLM tabanlı Düşünce Zinciri (CoT) akıl yürütmesiyle yönlendirilen üç etkileşimli aşamaya ayırır:
+ThinkSound, ses üretimi ve düzenlemesini, tümü MLLM tabanlı Chain-of-Thought (CoT) akıl yürütmesi ile yönlendirilen üç etkileşimli aşamaya ayırır:
 
-1. **Foley Üretimi:** Videodan anlamsal ve zamansal olarak hizalanmış temel ses ortamları oluşturun.
-2. **Nesne Merkezli İyileştirme:** Videoda tıklamalar veya bölgeler aracılığıyla kullanıcı tarafından belirtilen nesneler için sesleri iyileştirin veya ekleyin.
-3. **Hedefe Yönelik Ses Düzenleme:** Üretilen sesi üst düzey doğal dil talimatlarıyla değiştirin.
+1. **Foley Üretimi:** Videodan, anlamca ve zamanca uyumlu temel ses manzaraları üretir.
+2. **Nesne Merkezli İyileştirme:** Videodaki belirli nesneler için tıklama veya bölge seçimiyle sesleri iyileştirin veya ekleyin.
+3. **Hedefli Ses Düzenleme:** Üretilen sesi, üst düzey doğal dil talimatlarıyla değiştirin.
 
-![ThinkSound Genel Bakış](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Büyük ölçekli CoT-etiketli bir veri kümesi (**AudioCoT**), hem akıl yürütme modülünü hem de birleşik ses temel modelini eğitmek için kullanılır.
-![AudioCoT İşlem Hattı](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
+![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
+<!-- Geniş ölçekli CoT-etiketli bir veri seti (**AudioCoT**), hem akıl yürütme modülünü hem de birleşik ses temel modelini eğitmek için kullanılır.
+![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
 
@@ -88,7 +116,8 @@ ThinkSound, ses üretimi ve düzenleme işini MLLM tabanlı Düşünce Zinciri (
 
 **Ortam Hazırlığı:**
 ```bash
-git clone https://github.com/liuhuadai/ThinkSound.git
+# ThinkSound code: branch master. PrismAudio: clone with -b prismaudio (see README.md on that branch).
+git clone -b master https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
 conda create -n thinksound python=3.10
 conda activate thinksound
@@ -164,58 +193,49 @@ Etkileşimli bir deneyim için Gradio web arayüzünü başlatın:
 ```bash
 python app.py
 ```
+## 🏋️ Modeli Eğit
 
-
-## 🏋️ Modeli Eğitme
-
-Bakınız [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
+[`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md) dosyasına bakın
 
 
 ---
 
-## 📝 TODO & Gelecek Planları
-* - [ ] Daha güçlü, çoklu alanları kapsayan bir temel model yayınlanarak daha ilgi çekici ve sürükleyici foley üretimi sağlanacak
-* - [ ] Ek modlar ve aşağı akış görevleri için destek eklenecek
-* - [ ] Farklı ölçeklerde modeller yayınlanacak
-* - [x] AudioCoT veri seti ve otomatikleştirilmiş boru hattı açık kaynak yapılacak
-* - [x] ThinkSound modelleri için eğitim betikleri yayınlanacak
-* - [x] Yeni başlayanlar için Windows hızlı başlangıç README'si hazırlanacak
----
 
 ## 📄 Lisans
 
-Bu proje Apache 2.0 Lisansı altında yayınlanmıştır.
+Bu proje Apache 2.0 Lisansı altında yayımlanmıştır.
 
 > **Not:**
-> Kod, modeller ve veri seti **sadece araştırma ve eğitim amaçlıdır**.
-> **Ticari kullanımına İZİN VERİLMEMEKTEDİR.**
-> Ticari lisanslama için lütfen yazarlarla iletişime geçiniz.
+> Kod, modeller ve veri seti **yalnızca araştırma ve eğitim amaçlıdır**.
+> **Ticari kullanım İZİN VERİLMEZ.**
+> Ticari lisanslama için lütfen yazarlarla iletişime geçin.
 
 **📦 Üçüncü Taraf Bileşenler**
 
 * **Stable Audio Open VAE** (Stability AI tarafından):
-  Bu depo, [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) adresinden ince ayarlanmış bir VAE içerir ve [Stability AI Topluluk Lisansı](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md) ile lisanslanmıştır.
-  **Ticari kullanım ve yeniden dağıtım için Stability AI'den önceden izin alınması gerekmektedir.**
+  Bu depo, [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) adresinden alınan ve [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md) ile lisanslanan ince ayarlı bir VAE içermektedir.
+  **Ticari kullanım ve yeniden dağıtım için Stability AI’dan önceden izin alınması gerekmektedir.**
 
-* 📘 **Diğer tüm kod ve modeller** Apache License 2.0 kapsamında yayınlanmıştır.
+* 📘 **Tüm diğer kod ve modeller** Apache Lisansı 2.0 altında yayımlanmıştır.
 
 ---
 
 ## Teşekkürler
 
-
 Çok teşekkürler:
 
 * **stable-audio-tools** (Stability AI tarafından):
-Ses üretimi için kolay kullanılabilir bir çerçeve sağladığı, ayrıca VAE modülünü ve ağırlıklarını sunduğu için.
+Ses üretimi için kolay kullanılabilen bir çerçeve sağladıkları ve VAE modülü ile ağırlıklarını sundukları için.
 * **MMAudio**:
   Ses alanında MM-DiT omurgasının uygulanması için.
 
 ---
 
+
+
 ## 📖 Atıf
 
-ThinkSound'u araştırmanızda veya çalışmalarınızda faydalı bulursanız, lütfen makalemize atıfta bulunun:
+Eğer projemizi araştırmanızda veya çalışmalarınızda faydalı bulduysanız, lütfen makalemize atıfta bulunun:
 
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
@@ -227,6 +247,15 @@ ThinkSound'u araştırmanızda veya çalışmalarınızda faydalı bulursanız, 
       primaryClass={eess.AS},
       url={https://arxiv.org/abs/2506.21448}, 
 }
+@misc{liu2025prismaudiodecomposedchainofthoughtsmultidimensional,
+          title={PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation}, 
+          author={Huadai Liu and Kaicheng Luo and Wen Wang and Qian Chen and Peiwen Sun and Rongjie Huang and Xiangang Li and Jieping Ye and Wei Xue},
+          year={2025},
+          eprint={2511.18833},
+          archivePrefix={arXiv},
+          primaryClass={cs.SD},
+          url={https://arxiv.org/abs/2511.18833}, 
+    }
 ```
 
 ---
@@ -239,8 +268,9 @@ ThinkSound'u araştırmanızda veya çalışmalarınızda faydalı bulursanız, 
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

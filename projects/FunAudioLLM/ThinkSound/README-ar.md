@@ -1,4 +1,4 @@
-<h1 align="center">ثينك ساوند</h1>
+<h1 align="center">ThinkSound</h1>
 
 <p align="center">
   🌐
@@ -11,8 +11,8 @@
   
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg" alt="NeurIPS 2025"/>
-<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS%202025-Main%20Conference-blue.svg" alt="NeurIPS 2025"/>
+  &nbsp;
   <a href="https://arxiv.org/pdf/2506.21448">
     <img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/>
   </a>
@@ -32,63 +32,92 @@
 
 <p align="center">
   إذا وجدت هذا المشروع مفيدًا،<br>
-  سيكون من الرائع وضع نجمة ⭐ على GitHub!
+  فإن وضع نجمة ⭐ على GitHub سيكون محل تقدير كبير!
 </p>
 
 ---
 
-**ثينك ساوند** هو إطار موحد لتوليد الصوت من أي مدخلات (Any2Audio) باستخدام مطابقة التدفق الموجهة بواسطة استدلال سلسلة الأفكار (CoT).
-تنفيذ PyTorch لتوليد وتحرير الصوت متعدد الوسائط: توليد أو تحرير الصوت من الفيديو أو النص أو الصوت، مدعوم بخطوات تفكير متسلسلة من نماذج اللغة الكبيرة متعددة الوسائط (MLLMs).
+## هيكلية المستودع
+يستضيف مستودع **ThinkSound** على GitHub مشروعين مرتبطين على فرعين منفصلين:
 
-![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
+| الفرع | المشروع | التوثيق |
+|--------|---------|----------------|
+| **`master`** | **ThinkSound** (NeurIPS 2025) — توليد Any2Audio موحد مع مطابقة تدفق موجهة بواسطة التفكير التسلسلي (CoT) | هذا الملف: **`README.md`** |
+| **`prismaudio`** | **PrismAudio** — عمل لاحق (ICLR 2026) لتحويل الفيديو إلى صوت باستخدام CoT-RL متعدد الأبعاد | **`README.md`** على فرع [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) |
+
+بالنسبة لـ **ThinkSound**، استخدم فرع **`master`** (هذا الملف README). بالنسبة لـ **PrismAudio**، انتقل إلى **`prismaudio`** واتبع **`README.md`** هناك.
+
+---
+
+**ThinkSound** هو إطار موحد لتوليد Any2Audio مع مطابقة تدفق موجهة بواسطة التفكير التسلسلي (CoT).
+
+تنفيذ PyTorch لتوليد وتحرير الصوت متعدد الوسائط: توليد أو تحرير الصوت من الفيديو أو النص أو الصوت، مدعوم بالتفكير خطوة بخطوة من نماذج اللغة الكبيرة متعددة الوسائط (MLLMs).
+
+![عرض توضيحي](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 الأخبار
-- **2025.11.25** &nbsp; 🔥[عرض PrismAudio التجريبي المباشر](http://prismaudio-project.github.io/) متوفر الآن - جربه الآن!
-- **2025.11.25** &nbsp; 🔥[ورقة PrismAudio](https://arxiv.org/pdf/2511.18833) صدرت على arXiv، أول إطار CoT-RL متعدد الأبعاد لتوليد الصوت من الفيديو!
-- **2025.09.19** &nbsp; 🎉 تم قبول ThinkSound في **المؤتمر الرئيسي NeurIPS 2025**!
-- **2025.09.01** &nbsp; مجموعة بيانات AudioCoT مفتوحة المصدر ومتاحة الآن على [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
-- **2025.07.17** &nbsp; 🧠 تفعيل التخصيص: الشيفرات الخاصة بالتدريب والتخصيص متاحة الآن مع تعليمات واضحة لمساعدتك على تخصيص وتوسيع ThinkSound ببياناتك الخاصة.
-- **2025.07.15** &nbsp; 📦 تبسيط التثبيت وسهولة الاستخدام: الاعتماديات متوفرة على PyPI لإعداد عبر الأنظمة بسهولة؛ سكريبتات Windows `.bat` لأتمتة إنشاء البيئة وتشغيل السكريبتات.
-- **2025.07.08** &nbsp;  🔧 تحديث رئيسي: تم تخفيف وزن النموذج وتحسين استخدام الذاكرة ومعالج الرسوميات، يدعم الآن توليد صوت عالي الإنتاجية على نطاق واسع!
-- **2025.07.01** &nbsp; عرض تجريبي مباشر على [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) و [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) لتجربة تفاعلية!
-- **2025.07.01** &nbsp; إصدار سكريبتات الاستدلال وواجهة الويب؛ 
-- **2025.06** &nbsp; [ورقة ThinkSound](https://arxiv.org/pdf/2506.21448) صدرت على arXiv!
-- **2025.06** &nbsp; [العرض التجريبي المباشر](http://thinksound-project.github.io/) متوفر الآن - جربه الآن!
+- **2026.03.24** &nbsp; 🔥 تم إصدار **PrismAudio** في نفس المستودع على فرع [`prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) — راجع **`README.md`** هناك للإعداد والنماذج.
+- **2026.01.26** &nbsp; 🎉 تم قبول PrismAudio في **المؤتمر الرئيسي ICLR 2026** (الشفرة/الوثائق على `prismaudio`).
+- **2025.11.25** &nbsp; 🔥 [عرض PrismAudio التجريبي عبر الإنترنت](http://prismaudio-project.github.io/) أصبح متاحاً.
+- **2025.11.25** &nbsp; 🔥 [ورقة PrismAudio](https://arxiv.org/pdf/2511.18833) على arXiv — CoT-RL متعدد الأبعاد لتحويل الفيديو إلى صوت.
+- **2025.09.19** &nbsp; 🎉 تم قبول **ThinkSound** في **المؤتمر الرئيسي NeurIPS 2025**!
+- **2025.09.01** &nbsp; تم فتح مصدر مجموعة بيانات AudioCoT وهي متاحة الآن على [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
+- **2025.07.17** &nbsp; 🧠 تمكين التخصيص: كود التدريب والتخصيص متاح الآن للجمهور مع تعليمات واضحة لمساعدتك على تخصيص وتوسيع ThinkSound ببياناتك الخاصة.
+- **2025.07.15** &nbsp; 📦 التثبيت والاستخدام أصبح أسهل: الاعتماديات متوفرة على PyPI لإعداد سهل عبر الأنظمة؛ نصوص `.bat` للويندوز لأتمتة إنشاء البيئة وتشغيل السكريبتات.
+- **2025.07.08** &nbsp;  🔧 تحديث رئيسي: تم تخفيف وزن النموذج وتحسين استهلاك الذاكرة وGPU، ويدعم الآن توليد صوتي عالي الإنتاجية على نطاق واسع!
+- **2025.07.01** &nbsp; عرض تجريبي عبر الإنترنت على [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) و[ModelScope](https://modelscope.cn/studios/iic/ThinkSound) لتجربة تفاعلية!
+- **2025.07.01** &nbsp; تم إصدار سكريبتات الاستدلال وواجهة الويب؛ 
+- **2025.06** &nbsp; تم إصدار [ورقة ThinkSound](https://arxiv.org/pdf/2506.21448) على arXiv!
+- **2025.06** &nbsp; [العرض التجريبي عبر الإنترنت](http://thinksound-project.github.io/) متاح الآن - جربه الآن!
+
+---
+
+
+<div align="center">
+
+### المتابعة: PrismAudio (نفس المستودع، فرع `prismaudio`)
+
+
+**PrismAudio** هو الجيل التالي من ThinkSound (ICLR 2026)، تم تطويره تحت اسم جديد ولكن تم الاحتفاظ به في هذا المستودع على الفرع **`prismaudio`**. التثبيت، نقاط التحقق، والاستشهاد العلمي موجودة في **[`README.md` على ذلك الفرع](https://github.com/liuhuadai/ThinkSound/blob/prismaudio/README.md)**.
+
+👉 [`git checkout prismaudio`](https://github.com/liuhuadai/ThinkSound/tree/prismaudio) أو افتح الفرع على GitHub.
+
+</div>
 
 ---
 
 
 ## 🚀 الميزات
 
-- **Any2Audio**: توليد الصوت من أي نوع من الوسائط — فيديو أو نص أو صوت أو مزيج منها.
-- **الريادة في تحويل الفيديو إلى صوت**: يحقق نتائج متقدمة على العديد من معايير V2A.
-- **تفكير مدفوع بسلسلة التفكير**: توليد صوت تركيبي وتحكمي مدفوع بسلسلة التفكير عبر MLLMs.
-- **تحرير تفاعلي مركز على الكائنات**: تنقيح أو تحرير أحداث صوتية محددة بالنقر على كائنات مرئية أو باستخدام تعليمات نصية.
-- **إطار موحد**: نموذج أساسي واحد يدعم التوليد والتحرير وسير العمل التفاعلي.
+- **Any2Audio**: توليد الصوت من أي وسائط — فيديو، نص، صوت، أو مزيج منها.
+- **أفضل أداء في تحويل الفيديو إلى صوت**: يحقق نتائج متقدمة على عدة معايير فيديو إلى صوت (V2A).
+- **الاستدلال القائم على سلسلة الأفكار (CoT)**: استدلال سلسلة الأفكار لتوليد صوت تركيبي وقابل للتحكم عبر MLLMs.
+- **تحرير تفاعلي مركز على الكائنات**: تحسين أو تعديل أحداث صوتية محددة بالنقر على كائنات بصرية أو باستخدام تعليمات نصية.
+- **إطار موحد**: نموذج أساس واحد يدعم التوليد، التحرير، وسير العمل التفاعلي.
 
 ---
 
 ## ✨ نظرة عامة على الطريقة
 
-يقوم ThinkSound بتقسيم توليد وتحرير الصوت إلى ثلاث مراحل تفاعلية، جميعها موجهة بتفكير سلسلة التفكير المعتمد على MLLM:
+يقوم ThinkSound بتقسيم عملية توليد وتحرير الصوت إلى ثلاث مراحل تفاعلية، جميعها موجهة باستدلال سلسلة الأفكار (CoT) القائم على MLLM:
 
-1. **توليد Foley:** إنشاء مشاهد صوتية أساسية متوافقة دلالياً وزمنياً مع الفيديو.
-2. **تنقيح مركز على الكائنات:** تنقيح أو إضافة أصوات لكائنات يحددها المستخدم عبر النقر أو تحديد مناطق في الفيديو.
-3. **تحرير صوتي موجه:** تعديل الصوت الناتج باستخدام تعليمات لغة طبيعية عالية المستوى.
-
+1. **توليد Foley:** توليد خلفيات صوتية أساسية متوافقة دلاليًا وزمنيًا من الفيديو.
+2. **التحسين المركز على الكائن:** تحسين أو إضافة أصوات لكائنات يحددها المستخدم عبر النقر أو تحديد مناطق في الفيديو.
+3. **تحرير الصوت المستهدف:** تعديل الصوت الناتج باستخدام تعليمات لغوية طبيعية عالية المستوى.
 
 ![نظرة عامة على ThinkSound](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- يتم استخدام مجموعة بيانات كبيرة الحجم مشروحة بطريقة السلسلة الفكرية (**AudioCoT**) لتدريب كل من وحدة الاستدلال ونموذج الأساس الموحد للصوت.
-![مسار عمل AudioCoT](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
+<!-- يتم استخدام مجموعة بيانات مشروحة على نطاق واسع بسلسلة الأفكار (**AudioCoT**) لتدريب كل من وحدة الاستدلال ونموذج الصوت الأساسي الموحد.
+![مخطط AudioCoT](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
 
-## ⚡ البداية السريعة
+## ⚡ البدء السريع
 
 **تحضير البيئة:**
 ```bash
-git clone https://github.com/liuhuadai/ThinkSound.git
+# ThinkSound code: branch master. PrismAudio: clone with -b prismaudio (see README.md on that branch).
+git clone -b master https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
 conda create -n thinksound python=3.10
 conda activate thinksound
@@ -165,7 +194,6 @@ chmod +x scripts/eval_batch.sh
 python app.py
 ```
 
-
 ## 🏋️ تدريب النموذج
 
 راجع [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
@@ -173,49 +201,41 @@ python app.py
 
 ---
 
-## 📝 المهام المستقبلية وخطط العمل
-* - [ ] إصدار نموذج أساسي أكثر قوة يغطي مجالات متعددة لتوفير إنشاء فولي أكثر جاذبية وانغماسًا
-* - [ ] إضافة دعم لأنماط إضافية ومهام لاحقة
-* - [ ] إصدار نماذج بمقاييس مختلفة
-* - [x] فتح مصدر مجموعة بيانات AudioCoT وخط الأنابيب المؤتمت
-* - [x] إصدار نصوص التدريب لنماذج ThinkSound
-* - [x] ملف README للبدء السريع في ويندوز للمبتدئين
----
 
+## 📄 الرخصة
 
-## 📄 الترخيص
-
-تم إصدار هذا المشروع بموجب ترخيص أباتشي 2.0.
+تم إصدار هذا المشروع بموجب رخصة أباتشي 2.0.
 
 > **ملاحظة:**
-> الكود، النماذج، ومجموعة البيانات **لأغراض البحث والتعليم فقط**.
+> الكود والنماذج ومجموعة البيانات **لأغراض البحث والتعليم فقط**.
 > **الاستخدام التجاري غير مسموح به.**
 > للحصول على ترخيص تجاري، يرجى التواصل مع المؤلفين.
 
 **📦 المكونات الخارجية**
 
-* **Stable Audio Open VAE** (بواسطة Stability AI):
-  يتضمن هذا المستودع نموذج VAE مضبوط بدقة من [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/)، ومرخص بموجب [ترخيص مجتمع Stability AI](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
+* **Stable Audio Open VAE** (من تطوير Stability AI):
+  يحتوي هذا المستودع على VAE تم تدريبه من [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/)، بموجب [رخصة مجتمع Stability AI](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
   **الاستخدام التجاري وإعادة التوزيع يتطلبان إذنًا مسبقًا من Stability AI.**
 
-* 📘 **جميع الكودات والنماذج الأخرى** تم إصدارها بموجب ترخيص أباتشي 2.0.
+* 📘 **جميع الشفرات والنماذج الأخرى** تم إصدارها بموجب رخصة أباتشي 2.0.
 
 ---
 
 ## الشكر والتقدير
 
-شكراً جزيلاً لـ:
+شكر خاص إلى:
 
-* **stable-audio-tools** (من قبل Stability AI):
-لتوفير إطار عمل سهل الاستخدام لتوليد الصوت، بالإضافة إلى وحدة VAE والأوزان.
+* **stable-audio-tools** (من Stability AI):
+  لتوفير إطار عمل سهل الاستخدام لتوليد الصوت، بالإضافة إلى وحدة VAE والأوزان.
 * **MMAudio**:
-  لتنفيذ العمود الفقري MM-DiT في مجال الصوت.
+  لتنفيذ العمود الفقري لـ MM-DiT في مجال الصوت.
 
 ---
 
-## 📖 الاقتباس
 
-إذا وجدت ThinkSound مفيداً في بحثك أو عملك، يرجى اقتباس ورقتنا:
+## 📖 الاستشهاد
+
+إذا وجدت مشروعنا مفيدًا في بحثك أو عملك، يرجى الاستشهاد بورقتنا البحثية:
 
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
@@ -227,6 +247,15 @@ python app.py
       primaryClass={eess.AS},
       url={https://arxiv.org/abs/2506.21448}, 
 }
+@misc{liu2025prismaudiodecomposedchainofthoughtsmultidimensional,
+          title={PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation}, 
+          author={Huadai Liu and Kaicheng Luo and Wen Wang and Qian Chen and Peiwen Sun and Rongjie Huang and Xiangang Li and Jieping Ye and Wei Xue},
+          year={2025},
+          eprint={2511.18833},
+          archivePrefix={arXiv},
+          primaryClass={cs.SD},
+          url={https://arxiv.org/abs/2511.18833}, 
+    }
 ```
 
 ---
@@ -239,8 +268,9 @@ python app.py
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

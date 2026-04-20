@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 زبان</summary>
@@ -11,110 +10,91 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">فرانسوی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">آلمانی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">اسپانیایی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">ایتالیایی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">روسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">پرتغالی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">هلندی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">لهستانی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">ترکی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">ویتنامی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">اندونزیایی</a></p>
       </div>
     </div>
   </details>
 </div>
 
-# SparkyFitness - جایگزین سلف‌ هاست شده برای MyFitnessPal
+# اسپارکی‌فیتنس
 
-SparkyFitness یک اپلیکیشن جامع مدیریت و ردیابی تناسب اندام است که برای کمک به کاربران در نظارت بر تغذیه، ورزش و اندازه‌گیری‌های بدن طراحی شده است. این برنامه ابزارهایی برای پیگیری پیشرفت روزانه، تعیین اهداف و ارائه گزارش‌های تحلیلی برای حمایت از سبک زندگی سالم فراهم می‌کند.
+یک جایگزین خودمیزبان و حریم‌خصوصی محور برای MyFitnessPal. تغذیه، ورزش، معیارهای بدن و داده‌های سلامتی را پیگیری کنید و کنترل کامل داده‌های خود را حفظ نمایید.
 
-مستندات: https://codewithcj.github.io/SparkyFitness
+![اسکرین‌شات](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ ویژگی‌ها
+اسپارکی‌فیتنس یک پلتفرم پیگیری تناسب اندام خودمیزبان است که از موارد زیر تشکیل شده است:
 
-### 🍎 ردیابی تغذیه
+- یک سرور پشتیبان (API + ذخیره‌سازی داده)
+- یک رابط کاربری مبتنی بر وب
+- اپلیکیشن‌های موبایل بومی برای iOS و اندروید
 
-* **وعده‌های غذایی روزانه خود را ثبت کنید**
-* **غذاها و دسته‌بندی‌های سفارشی ایجاد و مدیریت کنید**
-* **خلاصه‌ها را مشاهده و روندها را با نمودارهای تعاملی تحلیل کنید**
+داده‌های سلامت را در زیرساختی که خودتان کنترل می‌کنید ذخیره و مدیریت می‌کند، بدون وابستگی به سرویس‌های شخص ثالث.
 
-### 💪 ثبت تمرینات ورزشی
+## ویژگی‌های اصلی
 
-* **تمرینات خود را ثبت کنید**
-* **پایگاه داده جامع تمرینات را مرور و جستجو کنید**
-* **پیشرفت تناسب اندام را در طول زمان دنبال کنید**
+- ردیابی تغذیه، ورزش، هیدراسیون، خواب، روزه‌داری، خلق‌وخو و اندازه‌گیری‌های بدن
+- تعیین هدف و بررسی‌های روزانه
+- نمودارهای تعاملی و گزارش‌های بلندمدت
+- پروفایل‌های چند کاربره و دسترسی خانوادگی
+- تم‌های روشن و تیره
+- OIDC، TOTP، Passkey، MFA و غیره
 
-### 💧 پایش مصرف آب
+## یکپارچه‌سازی سلامت و دستگاه
 
-* **اهداف روزانه هیدراتاسیون را پیگیری کنید**
-* **ثبت آب مصرفی به سادگی و سرعت**
+SparkyFitness می‌تواند داده‌ها را از چندین پلتفرم سلامت و تناسب اندام همگام‌سازی کند:
 
-### 📏 اندازه‌گیری‌های بدن
+- **Apple Health** (iOS)
+- **Google Health Connect** (اندروید)
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow** (تست شده به طور جزئی)
+- **Hevy** (تست نشده)
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava** (تست شده به طور جزئی)
 
-* **پارامترهای بدن را ثبت کنید** (مانند وزن، دور کمر، دور بازو)
-* **انواع اندازه‌گیری سفارشی اضافه کنید**
-* **پیشرفت را از طریق نمودارها مشاهده کنید**
+یکپارچه‌سازی‌ها به طور خودکار داده‌های فعالیت مانند قدم‌ها، تمرینات و خواب را همراه با شاخص‌های سلامت نظیر وزن و اندازه‌گیری‌های بدن، به سرور SparkyFitness شما همگام‌سازی می‌کنند.
 
-### 🎯 تعیین هدف
+## ویژگی‌های اختیاری هوش مصنوعی (بتا)
 
-* **اهداف تناسب اندام و تغذیه را تعیین و مدیریت کنید**
-* **پیشرفت را در طول زمان دنبال کنید**
+SparkyAI یک رابط مکالمه‌ای برای ثبت داده و بررسی پیشرفت فراهم می‌کند.
 
-### 🗓️ بررسی‌های روزانه
+- ثبت غذا، ورزش، آمار بدن و قدم‌ها از طریق چت
+- بارگذاری تصاویر غذا برای ثبت خودکار وعده غذایی
+- تاریخچه مکالمات را برای پیگیری‌های بعدی حفظ می‌کند
 
-* **فعالیت روزانه را پایش کنید**
-* **با ردیابی عادات، پیوستگی خود را حفظ کنید**
+توجه: قابلیت‌های هوش مصنوعی در حال حاضر در نسخه بتا هستند.
 
-### 🤖 مربی تغذیه هوشمند (SparkyAI)
+## شروع سریع (سرور)
 
-* **غذا، تمرین، آمار بدن و قدم‌ها را از طریق چت ثبت کنید**
-* **تصاویر غذا را بارگذاری کنید تا وعده‌ها به صورت خودکار ثبت شوند**
-* **شامل تاریخچه چت و راهنمایی‌های شخصی‌سازی‌شده**
-
-### 🔒 احراز هویت کاربر و پروفایل‌ها
-
-* **سیستم ورود امن**
-* **تغییر بین پروفایل‌های کاربری**
-* **پشتیبانی از دسترسی و مدیریت خانواده**
-
-### 📊 گزارش‌های جامع
-
-* **ایجاد خلاصه‌هایی برای تغذیه و شاخص‌های بدنی**
-* **ردیابی روندهای بلندمدت در طول هفته‌ها یا ماه‌ها**
-
-### 🎨 قالب‌های قابل تنظیم
-
-* **تغییر بین حالت روشن و تاریک**
-* **طراحی شده با رابط کاربری مینیمال و بدون مزاحمت**
-
-### نیاز به کمک دارید؟
-* **به دیسکورد بپیوندید**
-  https://discord.gg/vcnMT5cPEA
-* **در بخش گفتگو مطرح کنید**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � شروع سریع
-
-راه‌اندازی SparkyFitness در چند دقیقه:
+یک سرور SparkyFitness را در عرض چند دقیقه با استفاده از Docker Compose اجرا کنید.
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
@@ -122,21 +102,29 @@ docker compose pull && docker compose up -d
 # Access application at http://localhost:8080
 ```
 
-## 📖 مستندات
 
-برای راهنمای کامل نصب، راه‌اندازی توسعه و دستورالعمل‌های استفاده، به مستندات جامع ما مراجعه کنید:
+## 🎥 آموزش ویدیویی
 
-**👉 [سایت مستندات SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
+[![تماشای ویدیو](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
+
+آموزش سریع ۲ دقیقه‌ای برای نصب SparkyFitness (ردیاب تناسب اندام خود میزبان).
+
+
+## مستندات
+
+برای راهنمای کامل نصب، گزینه‌های پیکربندی و مستندات توسعه، لطفاً به [سایت مستندات ما](https://codewithcj.github.io/SparkyFitness/) مراجعه کنید.
 
 ### لینک‌های سریع
 
-- **[🚀 شروع به کار](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - راهنمای کامل راه‌اندازی برای توسعه و تولید
-- **[🐳 راهنمای Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - راه‌اندازی و پیکربندی Docker
-- **[🔧 جریان کاری توسعه](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - راهنمای توسعه‌دهندگان و فرآیند مشارکت  
-- **[📊 مرور ویژگی‌ها](https://codewithcj.github.io/SparkyFitness/features/)** - مستندات کامل ویژگی‌ها
-- **[🏗️ معماری](https://codewithcj.github.io/SparkyFitness/app-overview)** - معماری فنی و طراحی
-- برای نمونه تنظیم محیط و پیکربندی اپ موبایل به ویکی مراجعه کنید.
+- **[راهنمای نصب](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - استقرار و پیکربندی‌ها
+- **[بررسی ویژگی‌ها](https://codewithcj.github.io/SparkyFitness/features)** - مستندات کامل ویژگی‌ها
+- **[گردش کار توسعه](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - راهنمای توسعه‌دهندگان و فرآیند مشارکت
+- **[اطلاعات اپلیکیشن iOS](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** و **[اطلاعات اپلیکیشن اندروید](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
 
+### نیاز به کمک دارید؟
+
+- در بخش مسائل/بحث‌های گیت‌هاب پست بگذارید.
+- برای پاسخ سریع‌تر و دریافت کمک از سایر اعضای جامعه **[به دیسکورد ما بپیوندید](https://discord.gg/vcnMT5cPEA)**
 
 ## تاریخچه ستاره‌ها
 
@@ -150,14 +138,15 @@ docker compose pull && docker compose up -d
 
 ## ترجمه‌ها
 
+**[ترجمه‌های Weblate](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="وضعیت ترجمه" />
 </a>
 
 ## فعالیت مخزن
 
-![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "تصویر تحلیلی Repobeats")
-
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "تصویر تحلیل Repobeats")
 
 ## مشارکت‌کنندگان
 
@@ -165,23 +154,23 @@ docker compose pull && docker compose up -d
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ مشکلات شناخته‌شده / ویژگی‌های بتا ⚠️
+## ⚠️ مشکلات شناخته‌شده / ویژگی‌های بتا ⚠️
 
-ویژگی‌های زیر در حال حاضر در حالت بتا هستند و ممکن است به طور کامل تست نشده باشند. انتظار وجود باگ یا عملکرد ناقص را داشته باشید:
+SparkyFitness در حال توسعه فعال است.
+تغییرات ناسازگار ممکن است بین نسخه‌ها رخ دهد.
 
-*   چت‌بات هوش مصنوعی
-*   پشتیبانی چندکاربره
-*   دسترسی خانواده و دوستان
-*   یکپارچه‌سازی داده‌های Apple Health
+- بروزرسانی خودکار کانتینرها توصیه نمی‌شود
+- همواره یادداشت‌های انتشار را قبل از ارتقا بررسی کنید
 
-این برنامه به شدت در حال توسعه است. به علت مهاجرت از Supabase به PostgreSQL ممکن است برخی بخش‌ها طبق انتظار عمل نکنند. تغییرات ناسازگار (BREAKING CHANGES) تا هنگام پایدار شدن برنامه ممکن است اعمال شود.
-ممکن است نیاز باشد برای نسخه‌های جدید متغیرهای داکر/محیط را تغییر دهید. بنابراین، ارتقای خودکار با استفاده از Watchtower یا نرم‌افزارهای مشابه توصیه نمی‌شود. برای هر گونه تغییر ناسازگار، یادداشت‌های انتشار را مطالعه نمایید.
+ویژگی‌های زیر در حال حاضر در نسخه بتا هستند و ممکن است به طور کامل تست نشده باشند. انتظار وجود اشکال یا عملکرد ناقص را داشته باشید:
 
-
+- چت‌بات هوش مصنوعی
+- دسترسی خانواده و دوستان
+- مستندات API
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

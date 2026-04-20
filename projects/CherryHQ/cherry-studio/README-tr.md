@@ -238,33 +238,33 @@ Kurumsal Sürüm, ekip iş birliğindeki temel zorlukları; AI kaynaklarını, b
 
 ## ✨ Çevrimiçi Demo
 
-**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+**🔗 [Cherry Studio Enterprise](https://enterprise.cherry-ai.com)**
 
 ## Sürüm Karşılaştırması
 
 | Özellik           | Community Edition                                                                    | Enterprise Edition                                                                                                                      |
 | :---------------- | :----------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Açık Kaynak**   | ✅ Evet                                                                               | ⭕️ Kısmen müşterilere sunulmuştur                                                                                                      |
+| **Açık Kaynak**   | ✅ Evet                                                                              | ⭕️ Kısmen müşterilere sunulmuştur                                                                                                      |
 | **Maliyet**       | [AGPL-3.0 Lisansı](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file) | Satın Alma / Abonelik Ücreti                                                                                                            |
-| **Yönetici Paneli** | —                                                                                  | ● Merkezi **Model** Erişimi<br>● **Çalışan** Yönetimi<br>● Paylaşılan **Bilgi Tabanı**<br>● **Erişim** Kontrolü<br>● **Veri** Yedekleme |
-| **Sunucu**        | —                                                                                    | ✅ Ayrılmış Özel Kurulum                                                                                                                |
+| **Yönetim Paneli**| —                                                                                    | ● Merkezi **Model** Erişimi<br>● **Çalışan** Yönetimi<br>● Paylaşımlı **Bilgi Tabanı**<br>● **Erişim** Kontrolü<br>● **Veri** Yedekleme  |
+| **Sunucu**        | —                                                                                    | ✅ Özel Ayrılmış Kurulum                                                                                                                |
 
 ## Enterprise Edition Edinin
 
-Enterprise Edition’ın ekibinizin AI verimlilik motoru olacağına inanıyoruz. Cherry Studio Enterprise Edition ile ilgileniyorsanız ve daha fazla bilgi almak, fiyat teklifi istemek veya demo planlamak istiyorsanız, lütfen bizimle iletişime geçin.
+Enterprise Edition'ın ekibinizin yapay zeka verimlilik motoru olacağına inanıyoruz. Cherry Studio Enterprise Edition ile ilgileniyorsanız ve daha fazla bilgi almak, fiyat teklifi istemek veya bir demo planlamak istiyorsanız, lütfen bizimle iletişime geçmekten çekinmeyin.
 
-- **İş Talepleri & Satın Alma İçin**:
+- **Ticari Talepler & Satın Alma İçin**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 İlgili Projeler
 
-- [new-api](https://github.com/QuantumNous/new-api): Çoklu dil desteği ile yeni nesil LLM geçidi ve AI varlık yönetim sistemi.
+- [new-api](https://github.com/QuantumNous/new-api): Yeni nesil LLM geçidi ve yapay zeka varlık yönetim sistemi, çoklu dil desteğiyle.
 
-- [one-api](https://github.com/songquanpeng/one-api): OpenAI, Azure ve Anthropic gibi ana akım modelleri destekleyen LLM API yönetim ve dağıtım sistemi. Birleşik API arayüzü, anahtar yönetimi ve ikincil dağıtım için uygundur.
+- [one-api](https://github.com/songquanpeng/one-api): OpenAI, Azure ve Anthropic gibi ana akım modelleri destekleyen LLM API yönetimi ve dağıtım sistemi. Birleşik API arayüzüyle, anahtar yönetimi ve ikincil dağıtıma uygundur.
 
-- [Poe](https://poe.com/): Poe, en iyi AI’lara tek bir yerde erişim sağlar. GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs ve milyonlarca diğerini keşfedin.
+- [Poe](https://poe.com/): Poe, en iyi yapay zekalara tek bir yerde erişim sağlar. GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs ve milyonlarcasını keşfedin.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Google arama sonuçlarında belirli siteleri engeller
+- [ublacklist](https://github.com/iorate/ublacklist): Belirli sitelerin Google arama sonuçlarında görünmesini engeller
 
 # 🚀 Katkıda Bulunanlar
 
@@ -275,7 +275,7 @@ Enterprise Edition’ın ekibinizin AI verimlilik motoru olacağına inanıyoruz
 
 # 📊 GitHub İstatistikleri
 
-![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg "Repobeats analytics image")
+![İstatistikler](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg "Repobeats analytics image")
 
 # ⭐️ Yıldız Geçmişi
 
@@ -327,6 +327,6 @@ AGPL-3.0 gerekliliklerinden muafiyet sağlayan ticari bir lisans talebiniz varsa
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

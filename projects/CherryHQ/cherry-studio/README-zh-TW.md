@@ -238,31 +238,31 @@ Cherry Studio 是一款支援多個 LLM 提供者的桌面客戶端，適用於 
 
 ## ✨ 線上演示
 
-**🔗 [Cherry Studio 企業版](https://www.cherry-ai.com/enterprise)**
+**🔗 [Cherry Studio 企業版](https://enterprise.cherry-ai.com)**
 
 ## 版本比較
 
-| 功能              | 社群版                                                                             | 企業版                                                                                                                        |
-| :---------------- | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| **開源**          | ✅ 是                                                                               | ⭕️ 部分釋出給客戶                                                                                                             |
-| **費用**          | [AGPL-3.0 授權](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file)  | 買斷 / 訂閱費用                                                                                                               |
-| **管理後台**      | —                                                                                  | ● 集中式 **模型** 存取<br>● **員工** 管理<br>● 共用 **知識庫**<br>● **權限** 控管<br>● **資料** 備份                         |
-| **伺服器**        | —                                                                                  | ✅ 專屬私有部署                                                                                                                |
+| 功能               | 社群版                                                                               | 企業版                                                                                                                                |
+| :---------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| **開源**           | ✅ 是                                                                                 | ⭕️ 部分開放予客戶                                                                                                                    |
+| **費用**           | [AGPL-3.0 授權](https://github.com/CherryHQ/cherry-studio?tab=AGPL-3.0-1-ov-file)   | 買斷 / 訂閱費用                                                                                                                      |
+| **管理後台**       | —                                                                                    | ● 集中式**模型**存取<br>● **員工**管理<br>● 共享**知識庫**<br>● **權限**控管<br>● **資料**備份     |
+| **伺服器**         | —                                                                                    | ✅ 專屬私有部署                                                                                                                      |
 
 ## 取得企業版
 
-我們相信企業版將成為您團隊的 AI 生產力引擎。如果您有興趣了解 Cherry Studio 企業版、索取報價或預約演示，歡迎隨時聯絡我們。
+我們相信企業版將成為您團隊的 AI 生產力引擎。如果您對 Cherry Studio 企業版感興趣並想了解更多、索取報價或預約演示，歡迎隨時聯絡我們。
 
-- **商務與購買聯絡**：
+- **業務諮詢與採購**：
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 相關專案
 
-- [new-api](https://github.com/QuantumNous/new-api)：新世代 LLM 閘道與 AI 資產管理系統，支援多種語言。
+- [new-api](https://github.com/QuantumNous/new-api)：新一代 LLM 門戶與 AI 資產管理系統，支援多語言。
 
-- [one-api](https://github.com/songquanpeng/one-api)：LLM API 管理與分發系統，支援 OpenAI、Azure、Anthropic 等主流模型。具統一 API 介面，適合金鑰管理與二次分發。
+- [one-api](https://github.com/songquanpeng/one-api)：支援 OpenAI、Azure、Anthropic 等主流模型的 LLM API 管理與分發系統。擁有統一 API 介面，適用於金鑰管理與二次分發。
 
-- [Poe](https://poe.com/)：Poe 讓你在同一平台存取最佳 AI，包括 GPT-5、Claude Opus 4.1、DeepSeek-R1、Veo 3、ElevenLabs 等數百萬模型。
+- [Poe](https://poe.com/)：Poe 匯集所有頂尖 AI 於一身。探索 GPT-5、Claude Opus 4.1、DeepSeek-R1、Veo 3、ElevenLabs 及數百萬種其他 AI。
 
 - [ublacklist](https://github.com/iorate/ublacklist)：阻擋特定網站出現在 Google 搜尋結果
 
@@ -327,6 +327,6 @@ Cherry Studio 社群版允許用於商業用途，但必須完全遵守 AGPL-3.0
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

@@ -1,0 +1,1700 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Total Recall\n\nA memory system for Claude Code that remembers what matters and forgets what doesn't.\n\n## The Problem\n\nClaude Code forgets everything between sessions. Every time you start a new conversation, it's like talking to someone with amnesia. You end up repeating yourself:\n\n- \"We already tried that approach, it didn't work.\"\n- \"Don't touch the auth file.\"\n- \"I prefer tabs over spaces.\"\n- \"The client's name is Sarah, not Sara.\"\n\nThis gets old fast.\n\n## What Total Recall Does\n\nIt gives Claude Code a notepad that carries over between sessions, but a *picky* notepad. Not everything goes in. Before anything gets saved permanently, it has to pass a simple test: **will this matter tomorrow?**\n\nA preference you'll have for months? Saved. A decision you made and why? Saved. The fact that you ran a test five minutes ago? Not saved. The system keeps itself clean so Claude isn't wading through junk to find what's relevant.\n\n## How It Works\n\nThink of it like a kitchen with four storage areas:\n\n**Counter** (`CLAUDE.local.md`): The stuff you reach for every day. Loads automatically, every session. Kept small on purpose, around a page of text.\n\n**Pantry** (`memory/registers/`): Organized by category. Your preferences, key decisions, project details, people you work with. Claude checks here when it needs something specific.\n\n**Daily notebook** (`memory/daily/`): Timestamped scratch notes from each day. Everything gets written here first. You decide later what's worth keeping permanently.\n\n**Storage closet** (`memory/archive/`): Old stuff that's done or outdated. Still searchable, but never loaded automatically.\n\nThe key idea: **notes hit the daily notebook first, then you promote the keepers.** Claude doesn't get to decide on its own what's important enough to remember permanently. You do.\n\n## Quick Start\n\n### Install as a plugin (recommended)\n",
+    "ContentSha": "ncPn9EP212vtp+PSNLAED3aXip2bJG9fyCm3SqCHPm4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Total Recall\n\nA memory system for Claude Code that remembers what matters and forgets what doesn't.\n\n## The Problem\n\nClaude Code forgets everything between sessions. Every time you start a new conversation, it's like talking to someone with amnesia. You end up repeating yourself:\n\n- \"We already tried that approach, it didn't work.\"\n- \"Don't touch the auth file.\"\n- \"I prefer tabs over spaces.\"\n- \"The client's name is Sarah, not Sara.\"\n\nThis gets old fast.\n\n## What Total Recall Does\n\nIt gives Claude Code a notepad that carries over between sessions, but a *picky* notepad. Not everything goes in. Before anything gets saved permanently, it has to pass a simple test: **will this matter tomorrow?**\n\nA preference you'll have for months? Saved. A decision you made and why? Saved. The fact that you ran a test five minutes ago? Not saved. The system keeps itself clean so Claude isn't wading through junk to find what's relevant.\n\n## How It Works\n\nThink of it like a kitchen with four storage areas:\n\n**Counter** (`CLAUDE.local.md`): The stuff you reach for every day. Loads automatically, every session. Kept small on purpose, around a page of text.\n\n**Pantry** (`memory/registers/`): Organized by category. Your preferences, key decisions, project details, people you work with. Claude checks here when it needs something specific.\n\n**Daily notebook** (`memory/daily/`): Timestamped scratch notes from each day. Everything gets written here first. You decide later what's worth keeping permanently.\n\n**Storage closet** (`memory/archive/`): Old stuff that's done or outdated. Still searchable, but never loaded automatically.\n\nThe key idea: **notes hit the daily notebook first, then you promote the keepers.** Claude doesn't get to decide on its own what's important enough to remember permanently. You do.\n\n## Quick Start\n\n### Install as a plugin (recommended)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6FiSyjI4ZDocaXoRPxLns8j6zfO/Vq6qgv0va82x52U=",
+        "originContent": "# Total Recall",
+        "translatedContent": "# Total Recall"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jFj7yxhov/Xnc+F4VpQe4VVdt+Fko7M1bK6+fwzAymM=",
+        "originContent": "A memory system for Claude Code that remembers what matters and forgets what doesn't.",
+        "translatedContent": "A memory system for Claude Code that remembers what matters and forgets what doesn't."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "lR7GTMM3zAqvnZnIsrFEy15m6S/PY8nzenXxRU1vPnA=",
+        "originContent": "## The Problem",
+        "translatedContent": "## The Problem"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "TZ6GxEUlWMU34ALRfLlNeARvNLla6uUaeyGIC8yT4kk=",
+        "originContent": "Claude Code forgets everything between sessions. Every time you start a new conversation, it's like talking to someone with amnesia. You end up repeating yourself:",
+        "translatedContent": "Claude Code forgets everything between sessions. Every time you start a new conversation, it's like talking to someone with amnesia. You end up repeating yourself:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "hDPLJrYIVV4h/F8+BBjLss93bKeY8S7c71gfDOs2GOs=",
+        "originContent": "- \"We already tried that approach, it didn't work.\"",
+        "translatedContent": "- \"We already tried that approach, it didn't work.\""
+      },
+      {
+        "row": 10,
+        "rowsha": "70+8+wlwcojOab1Vdwg3W39Qy4MFJjREjEFB0D9KugU=",
+        "originContent": "- \"Don't touch the auth file.\"",
+        "translatedContent": "- \"Don't touch the auth file.\""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZyQOc29SLJXYI5lZ8JlX1qqYObhkgT1jH1v0NC636EY=",
+        "originContent": "- \"I prefer tabs over spaces.\"",
+        "translatedContent": "- \"I prefer tabs over spaces.\""
+      },
+      {
+        "row": 12,
+        "rowsha": "TYtIR0c6n4JGe+f915LazTgVOgKRFdPN/e86y2yhWrk=",
+        "originContent": "- \"The client's name is Sarah, not Sara.\"",
+        "translatedContent": "- \"The client's name is Sarah, not Sara.\""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "xTbdN0mkYrwYog0sZ20JZEP7hcvSkZv7yTYFyglhy3U=",
+        "originContent": "This gets old fast.",
+        "translatedContent": "This gets old fast."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "/Ty+QheMF0pm7mne/6GvwTT7o+VPHMxHsC/yWJoXlgs=",
+        "originContent": "## What Total Recall Does",
+        "translatedContent": "## What Total Recall Does"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "KPOxwwxaKf9NTM2yaHZtuJrMmvHZ86JiuFzV1aAEpKw=",
+        "originContent": "It gives Claude Code a notepad that carries over between sessions, but a *picky* notepad. Not everything goes in. Before anything gets saved permanently, it has to pass a simple test: **will this matter tomorrow?**",
+        "translatedContent": "It gives Claude Code a notepad that carries over between sessions, but a *picky* notepad. Not everything goes in. Before anything gets saved permanently, it has to pass a simple test: **will this matter tomorrow?**"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "tP7Wv1dm6Gobpq8HbmZvhBanwmVqaI0irwCB3YIagHk=",
+        "originContent": "A preference you'll have for months? Saved. A decision you made and why? Saved. The fact that you ran a test five minutes ago? Not saved. The system keeps itself clean so Claude isn't wading through junk to find what's relevant.",
+        "translatedContent": "A preference you'll have for months? Saved. A decision you made and why? Saved. The fact that you ran a test five minutes ago? Not saved. The system keeps itself clean so Claude isn't wading through junk to find what's relevant."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## How It Works"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "MZg4+7wDTdBnWXr52nsyXBlmPVbCfPqk8Ijt+ibgm34=",
+        "originContent": "Think of it like a kitchen with four storage areas:",
+        "translatedContent": "Think of it like a kitchen with four storage areas:"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Bwk0QcP0Pnrim9UGY873PIJK/PmOr0W0/cCyPJUMCdE=",
+        "originContent": "**Counter** (`CLAUDE.local.md`): The stuff you reach for every day. Loads automatically, every session. Kept small on purpose, around a page of text.",
+        "translatedContent": "**Counter** (`CLAUDE.local.md`): The stuff you reach for every day. Loads automatically, every session. Kept small on purpose, around a page of text."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "3ihmdmrKdTWsM3Fa2Hw1g0ZvtDLajjDs9QKKgLwI4js=",
+        "originContent": "**Pantry** (`memory/registers/`): Organized by category. Your preferences, key decisions, project details, people you work with. Claude checks here when it needs something specific.",
+        "translatedContent": "**Pantry** (`memory/registers/`): Organized by category. Your preferences, key decisions, project details, people you work with. Claude checks here when it needs something specific."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "XRMKGfBrM+EWgG+PojcL9a1F/3mj624As4WX2aq8dmE=",
+        "originContent": "**Daily notebook** (`memory/daily/`): Timestamped scratch notes from each day. Everything gets written here first. You decide later what's worth keeping permanently.",
+        "translatedContent": "**Daily notebook** (`memory/daily/`): Timestamped scratch notes from each day. Everything gets written here first. You decide later what's worth keeping permanently."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "YqE7RN1YmLo/UajO6mQbdDGJRl6PO4d7Dw/gNUvAEJo=",
+        "originContent": "**Storage closet** (`memory/archive/`): Old stuff that's done or outdated. Still searchable, but never loaded automatically.",
+        "translatedContent": "**Storage closet** (`memory/archive/`): Old stuff that's done or outdated. Still searchable, but never loaded automatically."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "xEs8LN8ewSux4KMUZzElGyzjVQo4dWfT7teIZI/RmH4=",
+        "originContent": "The key idea: **notes hit the daily notebook first, then you promote the keepers.** Claude doesn't get to decide on its own what's important enough to remember permanently. You do.",
+        "translatedContent": "The key idea: **notes hit the daily notebook first, then you promote the keepers.** Claude doesn't get to decide on its own what's important enough to remember permanently. You do."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Quick Start"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "wL9ujh5uP+Cx9wlenrM7xrlW3sspksGN0/xjLXFHW8c=",
+        "originContent": "### Install as a plugin (recommended)",
+        "translatedContent": "### Install as a plugin (recommended)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n/plugin marketplace add davegoldblatt/recall-marketplace\n/plugin install recall@recall-marketplace\n```",
+    "ContentSha": "iKQy0sY664g/R4OQtOhyjG3EHZE6bF4LRUESyC4g/r8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/plugin marketplace add davegoldblatt/recall-marketplace\n/plugin install recall@recall-marketplace\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "oMuaiaI+mhZrLnQ5UUqZ5eKpMsyxXmCmJkHEVseMD3Y=",
+        "originContent": "/plugin marketplace add davegoldblatt/recall-marketplace",
+        "translatedContent": "/plugin marketplace add davegoldblatt/recall-marketplace"
+      },
+      {
+        "row": 3,
+        "rowsha": "g0l58tBxOwmh7WBNFPWxcPXT96RrhqaOFpZwss3/AZE=",
+        "originContent": "/plugin install recall@recall-marketplace",
+        "translatedContent": "/plugin install recall@recall-marketplace"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Or install standalone\n",
+    "ContentSha": "dnYLPOFoxfcEtNQNG+/W72PUSmtxhEddaZu8CS7Br6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Or install standalone\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Or install standalone"
+      },
+      {
+        "row": 2,
+        "rowsha": "xIe5nhZDmKAA+RzUn0CzrBNK5JWPrzceqzQewMis+js=",
+        "originContent": "### Or install standalone",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\ngit clone https://github.com/davegoldblatt/total-recall.git\ncd total-recall\n./install.sh /path/to/your/project\n```",
+    "ContentSha": "51awISOlOQwGs3x51lWC+PHdNg7foP23Tqujxco3nrQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone https://github.com/davegoldblatt/total-recall.git\ncd total-recall\n./install.sh /path/to/your/project\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "dVJVcp/F1x7x3CLtNOspIzrdLg32LgyLBTWzI0u+UZQ=",
+        "originContent": "git clone https://github.com/davegoldblatt/total-recall.git",
+        "translatedContent": "git clone https://github.com/davegoldblatt/total-recall.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "5VuJxZRy9thgDv/kmirnxLU5LVfcp5PXNzbiSAdKQrg=",
+        "originContent": "cd total-recall",
+        "translatedContent": "cd total-recall"
+      },
+      {
+        "row": 4,
+        "rowsha": "GsWOJP8Cn6QUNgFswpwBkqCqtKc6SQ5nqgTT/waXBjY=",
+        "originContent": "./install.sh /path/to/your/project",
+        "translatedContent": "./install.sh /path/to/your/project"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nAfter installing, restart Claude Code or run `/hooks` to activate.\n\n## Using It\n\nHere's your day-to-day:\n\n**Claude notices something worth remembering.** It writes to your daily notebook and tells you. You don't have to do anything.\n\n**You want Claude to remember something.** Just say \"remember this\" or use the write command:\n",
+    "ContentSha": "c5IXd64Muc8l06/4MBErb0iz5dj47b/LUlkkzLmgcbI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAfter installing, restart Claude Code or run `/hooks` to activate.\n\n## Using It\n\nHere's your day-to-day:\n\n**Claude notices something worth remembering.** It writes to your daily notebook and tells you. You don't have to do anything.\n\n**You want Claude to remember something.** Just say \"remember this\" or use the write command:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "efy6vuZpMrVlmcYu1sHnbU9U+20IH45LhvOHzFwa9qY=",
+        "originContent": "After installing, restart Claude Code or run `/hooks` to activate.",
+        "translatedContent": "After installing, restart Claude Code or run `/hooks` to activate."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "4g0mVdB0Hn2qtYlp8U076+YgkAWMmL26WQCYTy3rnuQ=",
+        "originContent": "## Using It",
+        "translatedContent": "## Using It"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "guJNco4B3uii8EgPcez//TZX5u1CfdUpWd6Q56w9q6U=",
+        "originContent": "Here's your day-to-day:",
+        "translatedContent": "Here's your day-to-day:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "QQk0yHM0e5jHzdIlNhSlS1IoVmrYNUBGZQ7fAzypT4g=",
+        "originContent": "**Claude notices something worth remembering.** It writes to your daily notebook and tells you. You don't have to do anything.",
+        "translatedContent": "**Claude notices something worth remembering.** It writes to your daily notebook and tells you. You don't have to do anything."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "jtXOf8IiZChvl6PT+c7zmfAxvr/8nR7HJFTyijApml8=",
+        "originContent": "**You want Claude to remember something.** Just say \"remember this\" or use the write command:",
+        "translatedContent": "**You want Claude to remember something.** Just say \"remember this\" or use the write command:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n/recall-write Dave prefers concise error messages, no stack traces in prod\n```",
+    "ContentSha": "fLjPQ9r4XVVOFUZ9giDa7S5BgYhh8riPUp4qbRgUUTQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/recall-write Dave prefers concise error messages, no stack traces in prod\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "nKy8LDJPDvpcE2C1Nz/vGNGUONBvHlf6zX1/MxfZd54=",
+        "originContent": "/recall-write Dave prefers concise error messages, no stack traces in prod",
+        "translatedContent": "/recall-write Dave prefers concise error messages, no stack traces in prod"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**End of day (or whenever).** Review what piled up and promote the good stuff:\n",
+    "ContentSha": "v1+I5o9iLVSNRwnSQxE1RWLluYVwcsgN/vT+SFwgJAQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**End of day (or whenever).** Review what piled up and promote the good stuff:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uVJwqJKFQfxEVFi7bj3PPRzAUu2YEmkBjEXW+4GrTgo=",
+        "originContent": "**End of day (or whenever).** Review what piled up and promote the good stuff:",
+        "translatedContent": "**End of day (or whenever).** Review what piled up and promote the good stuff:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n/recall-promote\n```",
+    "ContentSha": "HW1Jz5JgPF25dV9d38NuxEIn7kcX0bEdJG2wtAcSI5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/recall-promote\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "nuE6Hp3fZuT3M4hJYsz0q1BIp8PpzZIRVesr+dNDCjI=",
+        "originContent": "/recall-promote",
+        "translatedContent": "/recall-promote"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n**Find something from last week.** Search across everything:\n",
+    "ContentSha": "4cV7z3ZVijr124P9pG9ArbTtIqT/CATdcjiyzIsYbZo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Find something from last week.** Search across everything:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "pc9qo0YsJmGtamb/JAJaYLoZ8pVvSVCBRCtuK0GQ6nw=",
+        "originContent": "**Find something from last week.** Search across everything:",
+        "translatedContent": "**Find something from last week.** Search across everything:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n/recall-search authentication decision\n```",
+    "ContentSha": "Th4mv7D3e2iUipOIk+qQWKmXk86uMUT0hxTWuA/DxXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/recall-search authentication decision\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "7U1eZaHwBDAaF/x6u5ov4XhXQRf6o1zbn9jCKoyVHQI=",
+        "originContent": "/recall-search authentication decision",
+        "translatedContent": "/recall-search authentication decision"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n**You correct Claude.** The correction updates everywhere at once: daily notebook, registers, and the counter. The same mistake won't happen again.\n\n### All Commands\n\n| Command | What it does |\n|---|---|\n| `/recall-init` | Set up the memory folders for the first time |\n| `/recall-write <note>` | Save a note (checks if it's worth keeping, suggests where) |\n| `/recall-log <note>` | Quick note to the daily notebook, no questions asked |\n| `/recall-search <query>` | Search everything |\n| `/recall-promote` | Review daily notes, move the keepers to registers |\n| `/recall-status` | Health check. Is everything working? |\n| `/recall-maintain` | Clean up stale or duplicate entries |\n| `/recall-forget <query>` | Mark something as outdated |\n| `/recall-context` | Show what memory Claude has loaded right now |\n\nIf installed as a plugin, commands are namespaced: `/recall:recall-write` instead of `/recall-write`.\n\n## The Write Gate\n\nThis is the core idea. Before anything gets promoted to permanent memory, it has to pass at least one of these checks:\n\n1. **Will it change how Claude behaves next time?** (a preference, a boundary, a pattern)\n2. **Is it a commitment someone's counting on?** (a deadline, a deliverable, a follow-up)\n3. **Is it a decision worth remembering the reasoning for?** (why you picked X over Y)\n4. **Is it a stable fact that'll come up again?** (not something that'll be different tomorrow)\n5. **Did you explicitly say \"remember this\"?**\n\nIf none of those are true, it stays in the daily notebook and eventually ages out. This keeps memory lean. No junk drawer.\n\n## When Corrections Happen\n\nIf you tell Claude it got something wrong, it doesn't just say \"sorry\" and move on. It updates the daily notebook, the relevant register, and the counter, all in one shot. The old information gets marked as superseded (not deleted) so there's a trail of what changed and when.\n\n## What Loads Automatically\n\nOnly two things, every session:\n\n| What | Where | How |",
+    "ContentSha": "uu4tPzXnv2wwixZ82NQSu2nabzfORiWVrwoNv3JSlUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**You correct Claude.** The correction updates everywhere at once: daily notebook, registers, and the counter. The same mistake won't happen again.\n\n### All Commands\n\n| Command | What it does |\n|---|---|\n| `/recall-init` | Set up the memory folders for the first time |\n| `/recall-write <note>` | Save a note (checks if it's worth keeping, suggests where) |\n| `/recall-log <note>` | Quick note to the daily notebook, no questions asked |\n| `/recall-search <query>` | Search everything |\n| `/recall-promote` | Review daily notes, move the keepers to registers |\n| `/recall-status` | Health check. Is everything working? |\n| `/recall-maintain` | Clean up stale or duplicate entries |\n| `/recall-forget <query>` | Mark something as outdated |\n| `/recall-context` | Show what memory Claude has loaded right now |\n\nIf installed as a plugin, commands are namespaced: `/recall:recall-write` instead of `/recall-write`.\n\n## The Write Gate\n\nThis is the core idea. Before anything gets promoted to permanent memory, it has to pass at least one of these checks:\n\n1. **Will it change how Claude behaves next time?** (a preference, a boundary, a pattern)\n2. **Is it a commitment someone's counting on?** (a deadline, a deliverable, a follow-up)\n3. **Is it a decision worth remembering the reasoning for?** (why you picked X over Y)\n4. **Is it a stable fact that'll come up again?** (not something that'll be different tomorrow)\n5. **Did you explicitly say \"remember this\"?**\n\nIf none of those are true, it stays in the daily notebook and eventually ages out. This keeps memory lean. No junk drawer.\n\n## When Corrections Happen\n\nIf you tell Claude it got something wrong, it doesn't just say \"sorry\" and move on. It updates the daily notebook, the relevant register, and the counter, all in one shot. The old information gets marked as superseded (not deleted) so there's a trail of what changed and when.\n\n## What Loads Automatically\n\nOnly two things, every session:\n\n| What | Where | How |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YwOAFmsUC6p+vH3JwXZELyR+5TIgDBI3jqLySmpAn3Y=",
+        "originContent": "**You correct Claude.** The correction updates everywhere at once: daily notebook, registers, and the counter. The same mistake won't happen again.",
+        "translatedContent": "**You correct Claude.** The correction updates everywhere at once: daily notebook, registers, and the counter. The same mistake won't happen again."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lyA5lxHLhnt/Sm1O8kWkEd4ajOEQhzlR7cpXeSVcsBw=",
+        "originContent": "### All Commands",
+        "translatedContent": "### All Commands"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "elHeqKS8Ep7dXnk/rJu5JLlNELS4YYR42T1sx+M7ips=",
+        "originContent": "| Command | What it does |",
+        "translatedContent": "| Command | What it does |"
+      },
+      {
+        "row": 7,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 8,
+        "rowsha": "fv9XHd1CjvqsFIP3L6XLsg6kYjIiyAqT8OqSgdpbTog=",
+        "originContent": "| `/recall-init` | Set up the memory folders for the first time |",
+        "translatedContent": "| `/recall-init` | Set up the memory folders for the first time |"
+      },
+      {
+        "row": 9,
+        "rowsha": "1PIq5aBC7KYoVR6Ssmw7TymnHLov6laNC47cnefdZW0=",
+        "originContent": "| `/recall-write <note>` | Save a note (checks if it's worth keeping, suggests where) |",
+        "translatedContent": "| `/recall-write <note>` | Save a note (checks if it's worth keeping, suggests where) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "2mqA5qHfAHVGBTpdowzovwcCqOwiATw9sOCW/SqN/JE=",
+        "originContent": "| `/recall-log <note>` | Quick note to the daily notebook, no questions asked |",
+        "translatedContent": "| `/recall-log <note>` | Quick note to the daily notebook, no questions asked |"
+      },
+      {
+        "row": 11,
+        "rowsha": "QkHphDiicW7jwwL7secX+bPhHFvmZmw9Bct0GQEIVEg=",
+        "originContent": "| `/recall-search <query>` | Search everything |",
+        "translatedContent": "| `/recall-search <query>` | Search everything |"
+      },
+      {
+        "row": 12,
+        "rowsha": "4GCgh6YxJOhRizVMpYyT4KTzbdsIX8CT2ADVB26tcF8=",
+        "originContent": "| `/recall-promote` | Review daily notes, move the keepers to registers |",
+        "translatedContent": "| `/recall-promote` | Review daily notes, move the keepers to registers |"
+      },
+      {
+        "row": 13,
+        "rowsha": "KbXp65Y3Ykpu1b+fiWY6MpmYsY4azvpOEN2d2l/yhYY=",
+        "originContent": "| `/recall-status` | Health check. Is everything working? |",
+        "translatedContent": "| `/recall-status` | Health check. Is everything working? |"
+      },
+      {
+        "row": 14,
+        "rowsha": "QLjkZ32hEmaouV1LO6eVkMxa+w4hUUsCehfsLjt3eXs=",
+        "originContent": "| `/recall-maintain` | Clean up stale or duplicate entries |",
+        "translatedContent": "| `/recall-maintain` | Clean up stale or duplicate entries |"
+      },
+      {
+        "row": 15,
+        "rowsha": "8o2iGaw59Yiy/WP8GH3aJL0ubjOkCdPEvRtsOnOidnA=",
+        "originContent": "| `/recall-forget <query>` | Mark something as outdated |",
+        "translatedContent": "| `/recall-forget <query>` | Mark something as outdated |"
+      },
+      {
+        "row": 16,
+        "rowsha": "0Mylrl51OWT51T3vOGM1Qw5n4LuEdWSVV/CHwcDtRuI=",
+        "originContent": "| `/recall-context` | Show what memory Claude has loaded right now |",
+        "translatedContent": "| `/recall-context` | Show what memory Claude has loaded right now |"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "wR5CJS/P4Y8slnpDXwcs16XHZ+NEYK4G3W6o8xfJwXQ=",
+        "originContent": "If installed as a plugin, commands are namespaced: `/recall:recall-write` instead of `/recall-write`.",
+        "translatedContent": "If installed as a plugin, commands are namespaced: `/recall:recall-write` instead of `/recall-write`."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "nbzJ5Fek+lqGVHPv08Ff1Wh7A8KQ8vYkfUjGSaXJnpY=",
+        "originContent": "## The Write Gate",
+        "translatedContent": "## The Write Gate"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "PWSYd7W4sNbE/NxaD/rmm2YKhv5sUStGOa4p09PFW7E=",
+        "originContent": "This is the core idea. Before anything gets promoted to permanent memory, it has to pass at least one of these checks:",
+        "translatedContent": "This is the core idea. Before anything gets promoted to permanent memory, it has to pass at least one of these checks:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "XfUrX+NJ6ME153a2xmsg91EzTsybBFAIrpaPqO6xwkg=",
+        "originContent": "1. **Will it change how Claude behaves next time?** (a preference, a boundary, a pattern)",
+        "translatedContent": "1. **Will it change how Claude behaves next time?** (a preference, a boundary, a pattern)"
+      },
+      {
+        "row": 25,
+        "rowsha": "iCApm+2W1X8McMHI3/VB8z2QFnfd4JegoMV/CezkeL0=",
+        "originContent": "2. **Is it a commitment someone's counting on?** (a deadline, a deliverable, a follow-up)",
+        "translatedContent": "2. **Is it a commitment someone's counting on?** (a deadline, a deliverable, a follow-up)"
+      },
+      {
+        "row": 26,
+        "rowsha": "CxphoEjOJS9fKvVt0U7PkuzkLWjBRq8FLQWDyTWtjPg=",
+        "originContent": "3. **Is it a decision worth remembering the reasoning for?** (why you picked X over Y)",
+        "translatedContent": "3. **Is it a decision worth remembering the reasoning for?** (why you picked X over Y)"
+      },
+      {
+        "row": 27,
+        "rowsha": "d62twwZlsA2O+N2AR7T38W6EkjLdWbOZXjx0A1JxXNY=",
+        "originContent": "4. **Is it a stable fact that'll come up again?** (not something that'll be different tomorrow)",
+        "translatedContent": "4. **Is it a stable fact that'll come up again?** (not something that'll be different tomorrow)"
+      },
+      {
+        "row": 28,
+        "rowsha": "O1K03SkZlyyw3nXeVJCJaWJWgM7RRex+ayFRHwQZoHE=",
+        "originContent": "5. **Did you explicitly say \"remember this\"?**",
+        "translatedContent": "5. **Did you explicitly say \"remember this\"?**"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Z+IortAcHG0xYRswjyQkqxRlDuXle+sQ8uhE8mhiC7w=",
+        "originContent": "If none of those are true, it stays in the daily notebook and eventually ages out. This keeps memory lean. No junk drawer.",
+        "translatedContent": "If none of those are true, it stays in the daily notebook and eventually ages out. This keeps memory lean. No junk drawer."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "mF6Dx1gWiJiW+jhs8BTaYhbPHw3MNEHdsmjVyMfe/bA=",
+        "originContent": "## When Corrections Happen",
+        "translatedContent": "## When Corrections Happen"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "mEw1dcAOaQMsSepbaqBzzhsJqbIfKIp26OC9QqucA3E=",
+        "originContent": "If you tell Claude it got something wrong, it doesn't just say \"sorry\" and move on. It updates the daily notebook, the relevant register, and the counter, all in one shot. The old information gets marked as superseded (not deleted) so there's a trail of what changed and when.",
+        "translatedContent": "If you tell Claude it got something wrong, it doesn't just say \"sorry\" and move on. It updates the daily notebook, the relevant register, and the counter, all in one shot. The old information gets marked as superseded (not deleted) so there's a trail of what changed and when."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "SRRPf6YIchuC3ICjxgB/qPvsDLfLvarbDI/+dS/2xLI=",
+        "originContent": "## What Loads Automatically",
+        "translatedContent": "## What Loads Automatically"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "VCS5tfF7v3EhfZ6fu539+KBfwsPmqUB9Kx23fDKtBFI=",
+        "originContent": "Only two things, every session:",
+        "translatedContent": "Only two things, every session:"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9ciud8XnvJ5t6g3RSg1U4n4n1AKqteq9KUhb7ERAy40=",
+        "originContent": "| What | Where | How |",
+        "translatedContent": "| What | Where | How |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "|---|---|---|\n| The rules (write gate, correction protocol) | `rules/total-recall.md` | Claude Code loads all rules files automatically |\n| Counter / working memory | `CLAUDE.local.md` | Claude Code loads this automatically |\n\nEverything else loads on demand: when you search, when it's relevant, or at session start via hooks.\n\n## Hooks\n\nTwo things happen automatically in the background:\n\n**When a session starts:** Claude gets a summary of open items and recent daily notes. This is the \"here's where we left off\" briefing.\n\n**Before memory gets compacted:** A timestamp gets written to the daily notebook so there's a record. This one is silent. Claude doesn't see it, it's just bookkeeping.\n\nBoth hooks fail safely. If something goes wrong, they don't block Claude Code from working.\n\nHooks use `$CLAUDE_PROJECT_DIR` (standalone) or `${CLAUDE_PLUGIN_ROOT}` (plugin) to resolve paths. No transcript parsing. The PreCompact hook only writes a timestamp marker to the daily log. It does not read or parse conversation transcripts.\n\n## Architecture\n\nFor those who want the technical details.\n",
+    "ContentSha": "Y3dUnTBT6XEA55XrdV3IoQ6eNLeMsu2gL+Qc5rRa6L4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "|---|---|---|\n| The rules (write gate, correction protocol) | `rules/total-recall.md` | Claude Code loads all rules files automatically |\n| Counter / working memory | `CLAUDE.local.md` | Claude Code loads this automatically |\n\nEverything else loads on demand: when you search, when it's relevant, or at session start via hooks.\n\n## Hooks\n\nTwo things happen automatically in the background:\n\n**When a session starts:** Claude gets a summary of open items and recent daily notes. This is the \"here's where we left off\" briefing.\n\n**Before memory gets compacted:** A timestamp gets written to the daily notebook so there's a record. This one is silent. Claude doesn't see it, it's just bookkeeping.\n\nBoth hooks fail safely. If something goes wrong, they don't block Claude Code from working.\n\nHooks use `$CLAUDE_PROJECT_DIR` (standalone) or `${CLAUDE_PLUGIN_ROOT}` (plugin) to resolve paths. No transcript parsing. The PreCompact hook only writes a timestamp marker to the daily log. It does not read or parse conversation transcripts.\n\n## Architecture\n\nFor those who want the technical details.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+        "originContent": "|---|---|---|",
+        "translatedContent": "|---|---|---|"
+      },
+      {
+        "row": 2,
+        "rowsha": "JSPUL4EnRToUc7h+WQ5bzX9gBy1M8HpwAS+YYSnItcs=",
+        "originContent": "| The rules (write gate, correction protocol) | `rules/total-recall.md` | Claude Code loads all rules files automatically |",
+        "translatedContent": "| The rules (write gate, correction protocol) | `rules/total-recall.md` | Claude Code loads all rules files automatically |"
+      },
+      {
+        "row": 3,
+        "rowsha": "Dg6Rk8astaAPHG2Uc2xyhHm8erifNu5ycuaesKWqg4M=",
+        "originContent": "| Counter / working memory | `CLAUDE.local.md` | Claude Code loads this automatically |",
+        "translatedContent": "| Counter / working memory | `CLAUDE.local.md` | Claude Code loads this automatically |"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aEVc4HRAUPZ6xc6VJg/cCqJtfMuPtE37u4z4Kp6joXk=",
+        "originContent": "Everything else loads on demand: when you search, when it's relevant, or at session start via hooks.",
+        "translatedContent": "Everything else loads on demand: when you search, when it's relevant, or at session start via hooks."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "bfv6uMqO/8TGua3ajeL5s7AKeb9WgtbbUmgxo83mS+M=",
+        "originContent": "## Hooks",
+        "translatedContent": "## Hooks"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "jUBHct4io1t3f8DX836DXFPumvgFVv/t9+4Ku5+bc3E=",
+        "originContent": "Two things happen automatically in the background:",
+        "translatedContent": "Two things happen automatically in the background:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "sX1EZJiR5DGoxDTt4XzaG0fx5h6Y35R5+0l6mqXGwXQ=",
+        "originContent": "**When a session starts:** Claude gets a summary of open items and recent daily notes. This is the \"here's where we left off\" briefing.",
+        "translatedContent": "**When a session starts:** Claude gets a summary of open items and recent daily notes. This is the \"here's where we left off\" briefing."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "4u1O+Em3SpqJ3mru0oVl1xz3P30/TXRbm+P1oGJwDNY=",
+        "originContent": "**Before memory gets compacted:** A timestamp gets written to the daily notebook so there's a record. This one is silent. Claude doesn't see it, it's just bookkeeping.",
+        "translatedContent": "**Before memory gets compacted:** A timestamp gets written to the daily notebook so there's a record. This one is silent. Claude doesn't see it, it's just bookkeeping."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "hSeqKwqr8ygQIUMt8SORlFU1S6QYPMNgaQf0zkJMF/w=",
+        "originContent": "Both hooks fail safely. If something goes wrong, they don't block Claude Code from working.",
+        "translatedContent": "Both hooks fail safely. If something goes wrong, they don't block Claude Code from working."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "1Fg5i8HpkF+UU9RF5HiJ/fTd4Zo8RNO2eFKdS0LN2Y8=",
+        "originContent": "Hooks use `$CLAUDE_PROJECT_DIR` (standalone) or `${CLAUDE_PLUGIN_ROOT}` (plugin) to resolve paths. No transcript parsing. The PreCompact hook only writes a timestamp marker to the daily log. It does not read or parse conversation transcripts.",
+        "translatedContent": "Hooks use `$CLAUDE_PROJECT_DIR` (standalone) or `${CLAUDE_PLUGIN_ROOT}` (plugin) to resolve paths. No transcript parsing. The PreCompact hook only writes a timestamp marker to the daily log. It does not read or parse conversation transcripts."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "## Architecture"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "qJIUOcMJZ24kkGr1K73pghfe1X3UC6jAV47FqinsAto=",
+        "originContent": "For those who want the technical details.",
+        "translatedContent": "For those who want the technical details."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```\nConversation (ephemeral, compacted/discarded)\n    |\n    v  WRITE GATE: \"Does this change future behavior?\"\n    |\nDaily Log (memory/daily/YYYY-MM-DD.md)\n    All writes land here first. Raw, timestamped.\n    |\n    v  PROMOTION: user-controlled via /recall-promote\n    |\nRegisters (memory/registers/*.md)\n    Structured claims with metadata (confidence, evidence, last_verified)\n    |\n    v  DISTILLATION: only what's essential for every session\n    |\nWorking Memory (CLAUDE.local.md)\n    ~1500 words. Auto-loaded. The persistent \"personality.\"\n    |\n    v  EXPIRY\n    |\nArchive (memory/archive/)\n    Searchable history. Never auto-loaded.\n```",
+    "ContentSha": "0L0yppyNa2g4B4BnDVfY6UDV6niUdIuEMwd8yBsu+SQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nConversation (ephemeral, compacted/discarded)\n    |\n    v  WRITE GATE: \"Does this change future behavior?\"\n    |\nDaily Log (memory/daily/YYYY-MM-DD.md)\n    All writes land here first. Raw, timestamped.\n    |\n    v  PROMOTION: user-controlled via /recall-promote\n    |\nRegisters (memory/registers/*.md)\n    Structured claims with metadata (confidence, evidence, last_verified)\n    |\n    v  DISTILLATION: only what's essential for every session\n    |\nWorking Memory (CLAUDE.local.md)\n    ~1500 words. Auto-loaded. The persistent \"personality.\"\n    |\n    v  EXPIRY\n    |\nArchive (memory/archive/)\n    Searchable history. Never auto-loaded.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "D+Wnao3QJMTKmyvyqbQEKCHpHGRE8YIiLPYjk1wRJMg=",
+        "originContent": "Conversation (ephemeral, compacted/discarded)",
+        "translatedContent": "Conversation (ephemeral, compacted/discarded)"
+      },
+      {
+        "row": 3,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 4,
+        "rowsha": "1c7ugwwEqjEeYRe5FHxdmi+dRB6IYkOW6w077DBo0SI=",
+        "originContent": "    v  WRITE GATE: \"Does this change future behavior?\"",
+        "translatedContent": "    v  WRITE GATE: \"Does this change future behavior?\""
+      },
+      {
+        "row": 5,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 6,
+        "rowsha": "zYfbGgbbhp7fTJfpz6YF8RiDq6tTF/2kDXvhBVXK2as=",
+        "originContent": "Daily Log (memory/daily/YYYY-MM-DD.md)",
+        "translatedContent": "Daily Log (memory/daily/YYYY-MM-DD.md)"
+      },
+      {
+        "row": 7,
+        "rowsha": "O8sZPqgwqJCAoDNSOrHjigNrcthWvsDf6fAGiTJcmh8=",
+        "originContent": "    All writes land here first. Raw, timestamped.",
+        "translatedContent": "    All writes land here first. Raw, timestamped."
+      },
+      {
+        "row": 8,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 9,
+        "rowsha": "Q96eUGUNhxsTUmmnGKKDHPW8jObpIlI3yqD0yxQkPgI=",
+        "originContent": "    v  PROMOTION: user-controlled via /recall-promote",
+        "translatedContent": "    v  PROMOTION: user-controlled via /recall-promote"
+      },
+      {
+        "row": 10,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 11,
+        "rowsha": "ELuPMuoF0qF+P/7/OHa7ycGAovoKQ8i6K3CvE6QlhXU=",
+        "originContent": "Registers (memory/registers/*.md)",
+        "translatedContent": "Registers (memory/registers/*.md)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ykG/onW25lLCuKSFHSqIsJW7j0zhEiM8dGB7AD+nyiM=",
+        "originContent": "    Structured claims with metadata (confidence, evidence, last_verified)",
+        "translatedContent": "    Structured claims with metadata (confidence, evidence, last_verified)"
+      },
+      {
+        "row": 13,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 14,
+        "rowsha": "+YBy6o514DqJGedA0uG71x2HGVpUIhTU8ZktLJwfF8Q=",
+        "originContent": "    v  DISTILLATION: only what's essential for every session",
+        "translatedContent": "    v  DISTILLATION: only what's essential for every session"
+      },
+      {
+        "row": 15,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 16,
+        "rowsha": "LTtdGG0Ccb9Ym8bWEZscQtQ01PUnagiCSO47xw5yGYQ=",
+        "originContent": "Working Memory (CLAUDE.local.md)",
+        "translatedContent": "Working Memory (CLAUDE.local.md)"
+      },
+      {
+        "row": 17,
+        "rowsha": "3r4DvOl4pOFu4dsJgJCZSwz7ANlkA7An1rSuUCu3Ecg=",
+        "originContent": "    ~1500 words. Auto-loaded. The persistent \"personality.\"",
+        "translatedContent": "    ~1500 words. Auto-loaded. The persistent \"personality.\""
+      },
+      {
+        "row": 18,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 19,
+        "rowsha": "4ihZrm7kgmJP7MavfljgRWue6+/QFN5352MZC4fyDBY=",
+        "originContent": "    v  EXPIRY",
+        "translatedContent": "    v  EXPIRY"
+      },
+      {
+        "row": 20,
+        "rowsha": "ahMlSl1RG4uLFyGzW1Zd8Kq3WGZzf0vbJJoXb61yQe0=",
+        "originContent": "    |",
+        "translatedContent": "    |"
+      },
+      {
+        "row": 21,
+        "rowsha": "18TfVJXZ5+2orL0oRpedhY0s6pNZwAUQm2N1Y00+WuY=",
+        "originContent": "Archive (memory/archive/)",
+        "translatedContent": "Archive (memory/archive/)"
+      },
+      {
+        "row": 22,
+        "rowsha": "lRsBfzwMJmTunGYgMK4ODRp/ko0r7Joa0V0zwHdXN2M=",
+        "originContent": "    Searchable history. Never auto-loaded.",
+        "translatedContent": "    Searchable history. Never auto-loaded."
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### Key Mechanisms\n\n**Write Gate:** Filters out noise. Only behavior-changing facts, commitments, decisions, and explicit \"remember this\" requests pass through.\n\n**Daily Log First:** All writes land in the daily log. Promotion to registers is a separate step, controlled by the user. This prevents the model from prematurely solidifying inferences.\n\n**Contradiction Protocol:** Never silently overwrites. Old claims are marked `[superseded]` with date and reason. The pattern of change is preserved.\n\n**Correction Gate:** Human corrections get highest priority. One correction triggers writes to daily log + register + working memory.\n\n### File Structure\n\n**Plugin format** (installed via `/plugin install`):\n",
+    "ContentSha": "dUs3pMx9bVY4ev5bmwqFKPQQOzeACqYnc8sNsc/L0ZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Key Mechanisms\n\n**Write Gate:** Filters out noise. Only behavior-changing facts, commitments, decisions, and explicit \"remember this\" requests pass through.\n\n**Daily Log First:** All writes land in the daily log. Promotion to registers is a separate step, controlled by the user. This prevents the model from prematurely solidifying inferences.\n\n**Contradiction Protocol:** Never silently overwrites. Old claims are marked `[superseded]` with date and reason. The pattern of change is preserved.\n\n**Correction Gate:** Human corrections get highest priority. One correction triggers writes to daily log + register + working memory.\n\n### File Structure\n\n**Plugin format** (installed via `/plugin install`):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vRyoHnOIguFesoLi9cdC+F1dYhyrAsaVqt9DlKyIWtI=",
+        "originContent": "### Key Mechanisms",
+        "translatedContent": "### Key Mechanisms"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aTsaO1xYlgfapCwfAOAWT2TqAMhs4kbWZ4o4MdUtCNw=",
+        "originContent": "**Write Gate:** Filters out noise. Only behavior-changing facts, commitments, decisions, and explicit \"remember this\" requests pass through.",
+        "translatedContent": "**Write Gate:** Filters out noise. Only behavior-changing facts, commitments, decisions, and explicit \"remember this\" requests pass through."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "jrXdLRvX+/jzaz47i1ctaNITTUWHALTkoM/q9paUrcI=",
+        "originContent": "**Daily Log First:** All writes land in the daily log. Promotion to registers is a separate step, controlled by the user. This prevents the model from prematurely solidifying inferences.",
+        "translatedContent": "**Daily Log First:** All writes land in the daily log. Promotion to registers is a separate step, controlled by the user. This prevents the model from prematurely solidifying inferences."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ffwLhHyJVkNpOdMKJ78bIC0wRDej3ETmI3x/uCsH2Fw=",
+        "originContent": "**Contradiction Protocol:** Never silently overwrites. Old claims are marked `[superseded]` with date and reason. The pattern of change is preserved.",
+        "translatedContent": "**Contradiction Protocol:** Never silently overwrites. Old claims are marked `[superseded]` with date and reason. The pattern of change is preserved."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "kS5QBr/hkuZ23cdT5jKUljMrtRfsF8X7AUs7rDHfEv0=",
+        "originContent": "**Correction Gate:** Human corrections get highest priority. One correction triggers writes to daily log + register + working memory.",
+        "translatedContent": "**Correction Gate:** Human corrections get highest priority. One correction triggers writes to daily log + register + working memory."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "i4zsrIZUiKTlZAxS+4md8eeNknvaFxIRxbVVR7J3aGo=",
+        "originContent": "### File Structure",
+        "translatedContent": "### File Structure"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "pgfHY5g5CGVya2fDaOSuscULVLFwubO9Yhfx7E7ew5w=",
+        "originContent": "**Plugin format** (installed via `/plugin install`):",
+        "translatedContent": "**Plugin format** (installed via `/plugin install`):"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```\ntotal-recall/                     # Plugin root\n├── .claude-plugin/\n│   └── plugin.json               # Plugin manifest\n├── skills/                       # Slash commands (namespaced)\n│   ├── recall-write/SKILL.md\n│   ├── recall-search/SKILL.md\n│   └── ...\n├── hooks/\n│   ├── hooks.json                # Hook configuration\n│   ├── session-start.sh\n│   └── pre-compact.sh\n├── rules/\n│   └── total-recall.md           # Protocol (auto-loaded)\n└── templates/                    # Scaffolding templates\n    ├── SCHEMA.md\n    ├── CLAUDE.local.md\n    └── registers/\n```",
+    "ContentSha": "zu/Kn0avHWtNOt4AQUS7eq6ys+mOvsfVXLpYh7mEp4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ntotal-recall/                     # Plugin root\n├── .claude-plugin/\n│   └── plugin.json               # Plugin manifest\n├── skills/                       # Slash commands (namespaced)\n│   ├── recall-write/SKILL.md\n│   ├── recall-search/SKILL.md\n│   └── ...\n├── hooks/\n│   ├── hooks.json                # Hook configuration\n│   ├── session-start.sh\n│   └── pre-compact.sh\n├── rules/\n│   └── total-recall.md           # Protocol (auto-loaded)\n└── templates/                    # Scaffolding templates\n    ├── SCHEMA.md\n    ├── CLAUDE.local.md\n    └── registers/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "XMyD/BDcg6s/hAyBrHiy9iBgYoeiMAanlg4xmNVdGLo=",
+        "originContent": "total-recall/                     # Plugin root",
+        "translatedContent": "total-recall/                     # Plugin root"
+      },
+      {
+        "row": 3,
+        "rowsha": "L27lHq0KVjOF90jCc4e1Vd3/ElvxA6eANWdlRroGU+s=",
+        "originContent": "├── .claude-plugin/",
+        "translatedContent": "├── .claude-plugin/"
+      },
+      {
+        "row": 4,
+        "rowsha": "rIXGRdyOybCJlfR9BHDXHh/afIm64FDcAqlN4HUWcA4=",
+        "originContent": "│   └── plugin.json               # Plugin manifest",
+        "translatedContent": "│   └── plugin.json               # Plugin manifest"
+      },
+      {
+        "row": 5,
+        "rowsha": "99+mH9VoHc//wi220uqKLDcnZpVDYG6gc2E2VMcamW8=",
+        "originContent": "├── skills/                       # Slash commands (namespaced)",
+        "translatedContent": "├── skills/                       # Slash commands (namespaced)"
+      },
+      {
+        "row": 6,
+        "rowsha": "0+d+zwp8xT2yD0JDJ7n0hxVRPaXUiaWGyxQ1quZH8Z4=",
+        "originContent": "│   ├── recall-write/SKILL.md",
+        "translatedContent": "│   ├── recall-write/SKILL.md"
+      },
+      {
+        "row": 7,
+        "rowsha": "2BRoWk/vi08Us/aaN8LxX84nCLv+SNvFlDYAGGF/ihc=",
+        "originContent": "│   ├── recall-search/SKILL.md",
+        "translatedContent": "│   ├── recall-search/SKILL.md"
+      },
+      {
+        "row": 8,
+        "rowsha": "rInvRRqhLbZ0t3AYblwgM9MfS8gMwUWZnHZ7fszbHcY=",
+        "originContent": "│   └── ...",
+        "translatedContent": "│   └── ..."
+      },
+      {
+        "row": 9,
+        "rowsha": "K6+c2gd8y08EYkUO2Sx1l0HuWB+9w6txuz3Ra+mt/cg=",
+        "originContent": "├── hooks/",
+        "translatedContent": "├── hooks/"
+      },
+      {
+        "row": 10,
+        "rowsha": "5P2nRuJNb6qymyzcGeHN3bvRV/fL66S1tg3ohlmIOcg=",
+        "originContent": "│   ├── hooks.json                # Hook configuration",
+        "translatedContent": "│   ├── hooks.json                # Hook configuration"
+      },
+      {
+        "row": 11,
+        "rowsha": "iXicTkKhmbcg+jQJLEx5cC510KwgtKdTFW90kZNRzPk=",
+        "originContent": "│   ├── session-start.sh",
+        "translatedContent": "│   ├── session-start.sh"
+      },
+      {
+        "row": 12,
+        "rowsha": "IeU377ifjwoaOfWzZSaqh1DJ2w5m2kfS9E4IRkzS07A=",
+        "originContent": "│   └── pre-compact.sh",
+        "translatedContent": "│   └── pre-compact.sh"
+      },
+      {
+        "row": 13,
+        "rowsha": "ihI+f4g6T9GZ3HrPfWIUyX5Yb8+bkk9EpTtht+xnot8=",
+        "originContent": "├── rules/",
+        "translatedContent": "├── rules/"
+      },
+      {
+        "row": 14,
+        "rowsha": "A/b25sa0wadKD5KIyjdYSQj8A8bmEK+Cl3Z85FLLVwk=",
+        "originContent": "│   └── total-recall.md           # Protocol (auto-loaded)",
+        "translatedContent": "│   └── total-recall.md           # Protocol (auto-loaded)"
+      },
+      {
+        "row": 15,
+        "rowsha": "bNdBlMdQ5HwYNpxNrtStz0blVHX8qEH9CEYHXG/F9TA=",
+        "originContent": "└── templates/                    # Scaffolding templates",
+        "translatedContent": "└── templates/                    # Scaffolding templates"
+      },
+      {
+        "row": 16,
+        "rowsha": "+V2yyt1ms4l7sVQg/dSRdjeAiMHWzm+16f1qRv86rVw=",
+        "originContent": "    ├── SCHEMA.md",
+        "translatedContent": "    ├── SCHEMA.md"
+      },
+      {
+        "row": 17,
+        "rowsha": "nMPsgREZoqIcZHMlZEGxrNvCsHAx+HzPw+0dpuyqdpI=",
+        "originContent": "    ├── CLAUDE.local.md",
+        "translatedContent": "    ├── CLAUDE.local.md"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ce9gbJxzweyfH75qBbEiENhzAVolYaqntTuWfWPanYQ=",
+        "originContent": "    └── registers/",
+        "translatedContent": "    └── registers/"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n**Standalone format** (installed via `install.sh`):\n",
+    "ContentSha": "f14ZBlKlnzwDL8VwA+Tlm+2UletAt828FczKokyJivg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Standalone format** (installed via `install.sh`):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7pYM49pAoqM6bEL2wVaS7eQRJuX2HhTex8QpA8zulQc=",
+        "originContent": "**Standalone format** (installed via `install.sh`):",
+        "translatedContent": "**Standalone format** (installed via `install.sh`):"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```\nyour-project/\n├── .claude/\n│   ├── commands/recall-*.md      # Slash commands\n│   ├── rules/total-recall.md     # Protocol (auto-loaded)\n│   ├── hooks/*.sh                # Hook scripts\n│   └── settings.local.json       # Hook configuration\n├── memory/\n│   ├── SCHEMA.md\n│   ├── daily/YYYY-MM-DD.md\n│   ├── registers/*.md\n│   └── archive/\n├── CLAUDE.md\n└── CLAUDE.local.md               # Working memory (gitignored)\n```",
+    "ContentSha": "mLW566GtmnHiaff8q8yOIOCnRrMgxwkN50BkF/RnGnE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nyour-project/\n├── .claude/\n│   ├── commands/recall-*.md      # Slash commands\n│   ├── rules/total-recall.md     # Protocol (auto-loaded)\n│   ├── hooks/*.sh                # Hook scripts\n│   └── settings.local.json       # Hook configuration\n├── memory/\n│   ├── SCHEMA.md\n│   ├── daily/YYYY-MM-DD.md\n│   ├── registers/*.md\n│   └── archive/\n├── CLAUDE.md\n└── CLAUDE.local.md               # Working memory (gitignored)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oy7f65r/6Fjcpg25U9OxpeGABsm6aEodgEcTIHUNkZs=",
+        "originContent": "your-project/",
+        "translatedContent": "your-project/"
+      },
+      {
+        "row": 3,
+        "rowsha": "46VZJzhfzzs5RH7mEqPulH0JPfaim/ooKNbmxDQXJV4=",
+        "originContent": "├── .claude/",
+        "translatedContent": "├── .claude/"
+      },
+      {
+        "row": 4,
+        "rowsha": "YLROUfo/JZYteG+w1y/ymLl7YKq2+gU5sC0ZnpCzCRY=",
+        "originContent": "│   ├── commands/recall-*.md      # Slash commands",
+        "translatedContent": "│   ├── commands/recall-*.md      # Slash commands"
+      },
+      {
+        "row": 5,
+        "rowsha": "COfLeRDIc447jdXuynFvZbCyKP2BatVME5CGDRYEpJg=",
+        "originContent": "│   ├── rules/total-recall.md     # Protocol (auto-loaded)",
+        "translatedContent": "│   ├── rules/total-recall.md     # Protocol (auto-loaded)"
+      },
+      {
+        "row": 6,
+        "rowsha": "/MJrpqDHqnbnY9y1ThLQijQh7GCtHXAMyLY/YA3OzR4=",
+        "originContent": "│   ├── hooks/*.sh                # Hook scripts",
+        "translatedContent": "│   ├── hooks/*.sh                # Hook scripts"
+      },
+      {
+        "row": 7,
+        "rowsha": "rQgSeBBfQcFHKnmoGyeFfj0ed3ZQvQvdHjrFe45NTyM=",
+        "originContent": "│   └── settings.local.json       # Hook configuration",
+        "translatedContent": "│   └── settings.local.json       # Hook configuration"
+      },
+      {
+        "row": 8,
+        "rowsha": "I4cBMnj7MelCa+dqyb22S9QG1dI9mEXO6W6JTa4wnEQ=",
+        "originContent": "├── memory/",
+        "translatedContent": "├── memory/"
+      },
+      {
+        "row": 9,
+        "rowsha": "A/f/sb2lGEEOOx5nymBfp+X+X5JEMkxcD4cBs5NOruA=",
+        "originContent": "│   ├── SCHEMA.md",
+        "translatedContent": "│   ├── SCHEMA.md"
+      },
+      {
+        "row": 10,
+        "rowsha": "lp+mHcNUafwN2oMa2d8VPJcDZ0HCtfqGIB+CHL+sStw=",
+        "originContent": "│   ├── daily/YYYY-MM-DD.md",
+        "translatedContent": "│   ├── daily/YYYY-MM-DD.md"
+      },
+      {
+        "row": 11,
+        "rowsha": "Hq5FGM4XxvPOas9ft8qWW1OoXSIG74SsBvBcaAE5BhM=",
+        "originContent": "│   ├── registers/*.md",
+        "translatedContent": "│   ├── registers/*.md"
+      },
+      {
+        "row": 12,
+        "rowsha": "X/OXc/Bv/iSQrk1J4XzRpSwL0PBxJ4aaC1RQQqwVP0A=",
+        "originContent": "│   └── archive/",
+        "translatedContent": "│   └── archive/"
+      },
+      {
+        "row": 13,
+        "rowsha": "bVa71W9VlPTr2mbdvKF5Afv1Mons3/WOZhp1hMG34NE=",
+        "originContent": "├── CLAUDE.md",
+        "translatedContent": "├── CLAUDE.md"
+      },
+      {
+        "row": 14,
+        "rowsha": "eieQiTCp+T1EGiTk8emouSnzCKdLbIp60SmCpvq/QBo=",
+        "originContent": "└── CLAUDE.local.md               # Working memory (gitignored)",
+        "translatedContent": "└── CLAUDE.local.md               # Working memory (gitignored)"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n### Compared to Other Memory Tools\n\n|  | Total Recall | Auto-ingest tools |\n|---|---|---|\n| **What gets saved** | Only what passes the write gate | Everything |\n| **Default destination** | Daily log (promote later) | Permanent storage |\n| **Context cost** | ~1500 words working memory | Grows unbounded |\n| **Corrections** | Propagate to all tiers immediately | Varies |\n| **User control** | Promotion is explicit | Automatic |\n| **Architecture** | 4-tier with metadata | Flat or 2-tier |\n\n## Privacy\n\n- Everything is local. No network calls, no telemetry, no external services.\n- All memory is plain markdown files you can read and edit yourself.\n- `CLAUDE.local.md` is gitignored by default (it's personal).\n- `memory/` is gitignored by default (it can contain personal notes).\n- Hooks never read your conversation transcripts.\n- To see exactly what's happening: check `hooks/*.sh` and `memory/`. It's all plain text.\n- To uninstall: delete `memory/`, `CLAUDE.local.md`, and the `.claude/` entries (or `/plugin uninstall recall`).\n\n## Works Alongside Superpowers\n\nIf you use [Superpowers](https://github.com/obra/superpowers), there are no conflicts. Superpowers handles *how* Claude works (methodology, TDD, plans). Total Recall handles *what* Claude remembers. Different jobs, same project.\n\n## License\n\nMIT\n",
+    "ContentSha": "rGkVcJ5GSYO9JkEGV4uYVz/H+tNfyAyRQlW1tatZgK4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Compared to Other Memory Tools\n\n|  | Total Recall | Auto-ingest tools |\n|---|---|---|\n| **What gets saved** | Only what passes the write gate | Everything |\n| **Default destination** | Daily log (promote later) | Permanent storage |\n| **Context cost** | ~1500 words working memory | Grows unbounded |\n| **Corrections** | Propagate to all tiers immediately | Varies |\n| **User control** | Promotion is explicit | Automatic |\n| **Architecture** | 4-tier with metadata | Flat or 2-tier |\n\n## Privacy\n\n- Everything is local. No network calls, no telemetry, no external services.\n- All memory is plain markdown files you can read and edit yourself.\n- `CLAUDE.local.md` is gitignored by default (it's personal).\n- `memory/` is gitignored by default (it can contain personal notes).\n- Hooks never read your conversation transcripts.\n- To see exactly what's happening: check `hooks/*.sh` and `memory/`. It's all plain text.\n- To uninstall: delete `memory/`, `CLAUDE.local.md`, and the `.claude/` entries (or `/plugin uninstall recall`).\n\n## Works Alongside Superpowers\n\nIf you use [Superpowers](https://github.com/obra/superpowers), there are no conflicts. Superpowers handles *how* Claude works (methodology, TDD, plans). Total Recall handles *what* Claude remembers. Different jobs, same project.\n\n## License\n\nMIT\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "897BWGvhJkjssY1V7veE0AEHWKUCLvQDKWnvuNiirv4=",
+        "originContent": "### Compared to Other Memory Tools",
+        "translatedContent": "### Compared to Other Memory Tools"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "v35/Dpt0cRaYrXR9ElQYlpC0wLm5J9GJF7o8OX3rF6Q=",
+        "originContent": "|  | Total Recall | Auto-ingest tools |",
+        "translatedContent": "|  | Total Recall | Auto-ingest tools |"
+      },
+      {
+        "row": 5,
+        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+        "originContent": "|---|---|---|",
+        "translatedContent": "|---|---|---|"
+      },
+      {
+        "row": 6,
+        "rowsha": "+Jgidzgz4+sYhHa2qo8wQpOF0J/Pv+Wio2iGxbewZqg=",
+        "originContent": "| **What gets saved** | Only what passes the write gate | Everything |",
+        "translatedContent": "| **What gets saved** | Only what passes the write gate | Everything |"
+      },
+      {
+        "row": 7,
+        "rowsha": "hkLFNkAYYgTIZTAc9F/AuSQVUPLS9BEYs/ov/6l2rI8=",
+        "originContent": "| **Default destination** | Daily log (promote later) | Permanent storage |",
+        "translatedContent": "| **Default destination** | Daily log (promote later) | Permanent storage |"
+      },
+      {
+        "row": 8,
+        "rowsha": "84bwm12giMc6pl0ZU9Kaxm7dDXMT5w4lnt+slI4e9Uk=",
+        "originContent": "| **Context cost** | ~1500 words working memory | Grows unbounded |",
+        "translatedContent": "| **Context cost** | ~1500 words working memory | Grows unbounded |"
+      },
+      {
+        "row": 9,
+        "rowsha": "RSBPezDz+ZURr7s0JDV67WMJAu17cBvg0I8tKnZrbGY=",
+        "originContent": "| **Corrections** | Propagate to all tiers immediately | Varies |",
+        "translatedContent": "| **Corrections** | Propagate to all tiers immediately | Varies |"
+      },
+      {
+        "row": 10,
+        "rowsha": "335TB00Rb3fLO4SprihfqzKWtHflfygN/6lPKp41JCU=",
+        "originContent": "| **User control** | Promotion is explicit | Automatic |",
+        "translatedContent": "| **User control** | Promotion is explicit | Automatic |"
+      },
+      {
+        "row": 11,
+        "rowsha": "kftZXLOqpLaMyx4h719TuHiNySVqjbqKj4LYJxHJbaE=",
+        "originContent": "| **Architecture** | 4-tier with metadata | Flat or 2-tier |",
+        "translatedContent": "| **Architecture** | 4-tier with metadata | Flat or 2-tier |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "5CXxgd9sBe1fOQ1/F5SqqJHQp4uKbD07gsJwweuoKSk=",
+        "originContent": "## Privacy",
+        "translatedContent": "## Privacy"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "YktrRZMZ4CvnwW72G1dKWxGpypUWqfL5VXewZ+IdMHU=",
+        "originContent": "- Everything is local. No network calls, no telemetry, no external services.",
+        "translatedContent": "- Everything is local. No network calls, no telemetry, no external services."
+      },
+      {
+        "row": 16,
+        "rowsha": "WJ2h4LZb693v73JwbJiFgceX/ifhLW9sqAHr4UimCuk=",
+        "originContent": "- All memory is plain markdown files you can read and edit yourself.",
+        "translatedContent": "- All memory is plain markdown files you can read and edit yourself."
+      },
+      {
+        "row": 17,
+        "rowsha": "C8lZfWZUjX2KGgN8UwH7g8CXkalQFEW52rcMtsKy5/A=",
+        "originContent": "- `CLAUDE.local.md` is gitignored by default (it's personal).",
+        "translatedContent": "- `CLAUDE.local.md` is gitignored by default (it's personal)."
+      },
+      {
+        "row": 18,
+        "rowsha": "LII1Bbru4LNRYl9yd2Ze4qR3G4G9bbu+4kl5FMtgaEo=",
+        "originContent": "- `memory/` is gitignored by default (it can contain personal notes).",
+        "translatedContent": "- `memory/` is gitignored by default (it can contain personal notes)."
+      },
+      {
+        "row": 19,
+        "rowsha": "Gn/aRDB64vCHJ9ZCAmC34/Cdem3F3X5sFXTAtgmCHos=",
+        "originContent": "- Hooks never read your conversation transcripts.",
+        "translatedContent": "- Hooks never read your conversation transcripts."
+      },
+      {
+        "row": 20,
+        "rowsha": "M/0+KYFj0olMWuCfQL7g1GHl2SRSbGyI/v4dw0mtN3E=",
+        "originContent": "- To see exactly what's happening: check `hooks/*.sh` and `memory/`. It's all plain text.",
+        "translatedContent": "- To see exactly what's happening: check `hooks/*.sh` and `memory/`. It's all plain text."
+      },
+      {
+        "row": 21,
+        "rowsha": "kqmCFoHbalJh1kUcADmCfugCdkY+iEmRqUVRDhtzKkk=",
+        "originContent": "- To uninstall: delete `memory/`, `CLAUDE.local.md`, and the `.claude/` entries (or `/plugin uninstall recall`).",
+        "translatedContent": "- To uninstall: delete `memory/`, `CLAUDE.local.md`, and the `.claude/` entries (or `/plugin uninstall recall`)."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Ik4HtlJKaj9zgSGgmdcfOiOMoYgoLvcx2SYmY5vRkps=",
+        "originContent": "## Works Alongside Superpowers",
+        "translatedContent": "## Works Alongside Superpowers"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "+JJ8w32hnQL7DFlepWLw8xl1ZEbWI6r7cjCpG28PDEE=",
+        "originContent": "If you use [Superpowers](https://github.com/obra/superpowers), there are no conflicts. Superpowers handles *how* Claude works (methodology, TDD, plans). Total Recall handles *what* Claude remembers. Different jobs, same project.",
+        "translatedContent": "If you use [Superpowers](https://github.com/obra/superpowers), there are no conflicts. Superpowers handles *how* Claude works (methodology, TDD, plans). Total Recall handles *what* Claude remembers. Different jobs, same project."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

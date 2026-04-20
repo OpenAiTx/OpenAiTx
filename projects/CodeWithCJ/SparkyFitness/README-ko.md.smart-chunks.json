@@ -1,48 +1,579 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n# SparkyFitness - Selfhosted alternative of MyFitnessPal\n\nSparkyFitness is a comprehensive fitness tracking and management application designed to help users monitor their nutrition, exercise, and body measurements. It provides tools for daily progress tracking, goal setting, and insightful reports to support a healthy lifestyle.\n\nDocs: https://codewithcj.github.io/SparkyFitness\n\n## ✨ Features\n\n### 🍎 Nutrition Tracking",
-    "ContentSha": "ksrkKt+iEpF2YBSkpWWJ9X10QoY4F6RU63yLNm01urI=",
+    "Content": "<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it\">Italiano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n# SparkyFitness\n\nA self-hosted, privacy-first alternative to MyFitnessPal. Track nutrition, exercise, body metrics, and health data while keeping full control of your data.\n\n![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)\n\nSparkyFitness is a self-hosted fitness tracking platform made up of:\n\n- A backend server (API + data storage)\n- A web-based frontend",
+    "ContentSha": "K/4+DnlJq75ObWI+niq84/Ohd0A0sZ48gDxdLY13UB4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n# SparkyFitness - MyFitnessPal의 셀프호스팅 대안\n\nSparkyFitness는 사용자가 영양, 운동, 신체 측정값을 모니터링할 수 있도록 설계된 종합적인 피트니스 추적 및 관리 애플리케이션입니다. 이 앱은 건강한 라이프스타일을 지원하기 위해 일일 진행 상황 추적, 목표 설정, 통찰력 있는 리포트 도구를 제공합니다.\n\n문서: https://codewithcj.github.io/SparkyFitness\n\n## ✨ 기능\n\n### 🍎 영양 추적",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it\">Italiano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n# SparkyFitness\n\nMyFitnessPal의 자가 호스팅, 프라이버시 우선 대안입니다. 영양, 운동, 신체 지표, 건강 데이터를 추적하면서 데이터에 대한 완전한 통제권을 유지하세요.\n\n![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)\n\nSparkyFitness는 다음으로 구성된 자가 호스팅 피트니스 추적 플랫폼입니다:\n\n- 백엔드 서버(API + 데이터 저장소)\n- 웹 기반 프론트엔드",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "8YgP7V37PxyNScBtyTBHEQtRYW0a9im1qSfp10FGD6E=",
+        "originContent": "      <div align=\"right\">",
+        "translatedContent": "      <div align=\"right\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "yHU71f+ZcrudM9spt6ufdo1+4a40w6/5ZG1MX6wvMaM=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en\">English</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en\">English</a></p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "NiKwVocDhTTVVl1FBIADIM8jr9dme/cQ+x6q7HgOpRY=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN\">简体中文</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN\">简体中文</a></p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "UtTo6g9mik2mc9DoYsvnp41vVYK5todG8WCY9cfnSr0=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW\">繁體中文</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW\">繁體中文</a></p>"
+      },
+      {
+        "row": 9,
+        "rowsha": "1oUdvPYf8Siv0xF3nH1FoOYmTr6qnTJrWI/phY52yOE=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja\">日本語</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja\">日本語</a></p>"
+      },
+      {
+        "row": 10,
+        "rowsha": "uxrHzjpAwJ536utLs0TnZKHnm+375++Xu2lijJ1nYCU=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko\">한국어</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko\">한국어</a></p>"
+      },
+      {
+        "row": 11,
+        "rowsha": "OUOU/b9B2a09aMesZr8nGUkvqiTWeg731wP0i4jnWms=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi\">हिन्दी</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi\">हिन्दी</a></p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Y7dY2OzUMy2x6azfNxTGqxAD0gcN0n3eTMBYu+Asb5Q=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th\">ไทย</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th\">ไทย</a></p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "eMdiAmuZGz217Uhq8LdYvkPOjas6/PgCcHkwsHGVd2w=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr\">Français</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr\">Français</a></p>"
+      },
+      {
+        "row": 14,
+        "rowsha": "lk5FiCQFTK0IMSz2RmG4+28DYuKGWyyQao/34s/Iwac=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de\">Deutsch</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de\">Deutsch</a></p>"
+      },
+      {
+        "row": 15,
+        "rowsha": "NkkerpVInCTJ0eLQSMnUDeHEw1hXMmKJo+QLji14guI=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es\">Español</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es\">Español</a></p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "PdKMshgqDMIdzQERL+/nuwkDssl4NKQZt+9n7J9WchA=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it\">Italiano</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it\">Italiano</a></p>"
+      },
+      {
+        "row": 17,
+        "rowsha": "MtuSDA4v1iIxDE0Jd5bg4OV1mA/xpiSaHytd1YNw8wA=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru\">Русский</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru\">Русский</a></p>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Fm2Qht77CJQEot8Kvh83q+YBSeTKaoLq/AHWsHRZYQw=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt\">Português</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt\">Português</a></p>"
+      },
+      {
+        "row": 19,
+        "rowsha": "kLjqVPebS/EWsLTp6aGZJXb4apJHtFb1fvSz6Scd9Qk=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl\">Nederlands</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl\">Nederlands</a></p>"
+      },
+      {
+        "row": 20,
+        "rowsha": "8Z7UEpo7/LVkJ0lF33SJj3KLM8d0kzzsPdjU8wO4B3A=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl\">Polski</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl\">Polski</a></p>"
+      },
+      {
+        "row": 21,
+        "rowsha": "cnrNinFmRTpXFHVdmb85++HRqLBPd323fZNP4r2wPaY=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar\">العربية</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar\">العربية</a></p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "lvqOyFYTi/1N6BTF4G1y8f7PXU8US5H907VDw1+fUMk=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa\">فارسی</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa\">فارسی</a></p>"
+      },
+      {
+        "row": 23,
+        "rowsha": "iuv33BddJ7gcF3ul2x1pFvkjJVBGIoNTXHcBxA75v4A=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr\">Türkçe</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr\">Türkçe</a></p>"
+      },
+      {
+        "row": 24,
+        "rowsha": "SQiDdk8Ipehhk2awk5Sz5qxhElf5rDqquJilme66yHU=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi\">Tiếng Việt</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi\">Tiếng Việt</a></p>"
+      },
+      {
+        "row": 25,
+        "rowsha": "2ZGU3DTz3DioHpVdFEoOJjY0NlAdh/p+F0czCOgQ/tU=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id\">Bahasa Indonesia</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id\">Bahasa Indonesia</a></p>"
+      },
+      {
+        "row": 26,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "M92F8uulDU1gVIHyESawoWCgRMidA6BSjaDkEuBf17o=",
+        "originContent": "# SparkyFitness",
+        "translatedContent": "# SparkyFitness"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "CoGOISA4SUtGME35wV03DcRwP3qHXvcEKyHYIIfqjjM=",
+        "originContent": "A self-hosted, privacy-first alternative to MyFitnessPal. Track nutrition, exercise, body metrics, and health data while keeping full control of your data.",
+        "translatedContent": "MyFitnessPal의 자가 호스팅, 프라이버시 우선 대안입니다. 영양, 운동, 신체 지표, 건강 데이터를 추적하면서 데이터에 대한 완전한 통제권을 유지하세요."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "bhfs36lwOXH8lJNcpJIEEEeaRDhhEotYwkv60fvXVKg=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)",
+        "translatedContent": "![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "mlOyCWL5Ag1sR6nT9ZLNP+vIvTEijMO+ItF5AsbwV7M=",
+        "originContent": "SparkyFitness is a self-hosted fitness tracking platform made up of:",
+        "translatedContent": "SparkyFitness는 다음으로 구성된 자가 호스팅 피트니스 추적 플랫폼입니다:"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "XvXAzSI9F8XlIDzSpm5+T/TrCamB8FfMTecrtNqmAm4=",
+        "originContent": "- A backend server (API + data storage)",
+        "translatedContent": "- 백엔드 서버(API + 데이터 저장소)"
+      },
+      {
+        "row": 40,
+        "rowsha": "YfqAr+xrz+UxZHYnqC0sUQUT9a4NwUaW6yG/ckf+pTM=",
+        "originContent": "- A web-based frontend",
+        "translatedContent": "- 웹 기반 프론트엔드"
+      }
+    ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "\n* **Log your daily meals**\n* **Create and manage custom foods and categories**\n* **View summaries and analyze trends with interactive charts**\n\n### 💪 Exercise Logging\n\n* **Record your workouts**\n* **Browse and search a comprehensive exercise database**\n* **Track fitness progress over time**\n\n### 💧 Water Intake Monitoring\n\n* **Track daily hydration goals**\n* **Simple, quick water logging**\n\n### 📏 Body Measurements\n\n* **Record body metrics** (e.g. weight, waist, arms)\n* **Add custom measurement types**\n* **Visualize progress through charts**\n\n### 🎯 Goal Setting\n\n* **Set and manage fitness and nutrition goals**\n* **Track progress over time**\n\n### 🗓️ Daily Check-Ins\n\n* **Monitor daily activity**\n* **Stay consistent with habit tracking**\n\n### 🤖 AI Nutrition Coach (SparkyAI)\n\n* **Log food, exercise, body stats, and steps via chat**\n* **Upload food images to log meals automatically**\n* **Includes chat history and personalized guidance**\n\n### 🔒 User Authentication & Profiles\n",
-    "ContentSha": "gIVfsklczd0gMry6nVEj7V91GLAciUl9oFlOJChReXM=",
+    "Content": "- Native mobile apps for iOS and Android\n\nIt stores and manages health data on infrastructure you control, without relying on third party services.\n\n## Core Features\n\n- Nutrition, exercise, hydration, sleep, fasting, mood and body measurement tracking\n- Goal setting and daily check-ins\n- Interactive charts and long-term reports\n- Multiple user profiles and family access\n- Light and dark themes\n- OIDC, TOTP, Passkey, MFA etc.\n\n## Health & Device Integrations\n\nSparkyFitness can sync data from multiple health and fitness platforms:\n\n- **Apple Health** (iOS)\n- **Google Health Connect** (Android)\n- **Fitbit**\n- **Garmin Connect**\n- **Withings**\n- **Polar Flow** (partially tested)\n- **Hevy** (not tested)\n- **OpenFoodFacts**\n- **USDA**\n- **Fatsecret**\n- **Nutritioninx**\n- **Mealie**\n- **Tandoor**\n- **Strava** (partially tested)\n\nIntegrations automatically sync activity data such as steps, workouts, and sleep, along with health metrics like weight and body measurements, to your SparkyFitness server.\n\n## Optional AI Features (Beta)\n\nSparkyAI provides a conversational interface for logging data and reviewing progress.\n\n- Log food, exercise, body stats, and steps via chat\n- Upload food images for automatic meal logging",
+    "ContentSha": "itAYJz2hGVm4isqMEPin92ICzDVpcNSKPc6xtKuOMcg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n* **일일 식사 기록하기**\n* **맞춤 음식 및 카테고리 생성 및 관리**\n* **요약 보기 및 대화형 차트로 트렌드 분석**\n\n### 💪 운동 기록\n\n* **운동 기록하기**\n* **포괄적인 운동 데이터베이스 탐색 및 검색**\n* **시간 경과에 따른 운동 진행 추적**\n\n### 💧 수분 섭취 모니터링\n\n* **일일 수분 섭취 목표 추적**\n* **간편하고 빠른 물 섭취 기록**\n\n### 📏 신체 측정\n\n* **신체 지표 기록** (예: 체중, 허리, 팔)\n* **맞춤 측정 항목 추가**\n* **차트로 진행 상황 시각화**\n\n### 🎯 목표 설정\n\n* **피트니스 및 영양 목표 설정 및 관리**\n* **시간 경과에 따른 진행 상황 추적**\n\n### 🗓️ 일일 체크인\n\n* **일일 활동 모니터링**\n* **습관 추적으로 꾸준함 유지**\n\n### 🤖 AI 영양 코치 (SparkyAI)\n\n* **채팅을 통해 음식, 운동, 신체 지표, 걸음수 기록**\n* **음식 이미지를 업로드하여 자동으로 식사 기록**\n* **채팅 내역 및 개인 맞춤형 가이드 포함**\n\n### 🔒 사용자 인증 및 프로필\n",
+    "Translation": "- iOS 및 Android용 네이티브 모바일 앱\n\n타사 서비스에 의존하지 않고, 사용자가 관리하는 인프라에 건강 데이터를 저장하고 관리합니다.\n\n## 핵심 기능\n\n- 영양, 운동, 수분 섭취, 수면, 단식, 기분 및 신체 측정 추적\n- 목표 설정 및 일일 체크인\n- 대화형 차트 및 장기 보고서\n- 다중 사용자 프로필 및 가족 접근 권한\n- 라이트 및 다크 테마\n- OIDC, TOTP, 패스키, MFA 등\n\n## 건강 & 기기 통합\n\nSparkyFitness는 여러 건강 및 피트니스 플랫폼에서 데이터를 동기화할 수 있습니다:\n\n- **Apple Health** (iOS)\n- **Google Health Connect** (Android)\n- **Fitbit**\n- **Garmin Connect**\n- **Withings**\n- **Polar Flow** (부분적으로 테스트됨)\n- **Hevy** (테스트되지 않음)\n- **OpenFoodFacts**\n- **USDA**\n- **Fatsecret**\n- **Nutritioninx**\n- **Mealie**\n- **Tandoor**\n- **Strava** (부분적으로 테스트됨)\n\n통합 기능은 걸음 수, 운동, 수면과 같은 활동 데이터 및 체중, 신체 측정치 등 건강 지표를 SparkyFitness 서버에 자동으로 동기화합니다.\n\n## 선택적 AI 기능 (베타)\n\nSparkyAI는 데이터 기록 및 진행 상황 검토를 위한 대화형 인터페이스를 제공합니다.\n\n- 채팅을 통해 음식, 운동, 신체 통계, 걸음 수 기록\n- 자동 식사 기록을 위한 음식 이미지 업로드",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+ec6APfaG3+pjHbrmDK80gI5MkWluhttV5dfUmkbK2M=",
+        "originContent": "- Native mobile apps for iOS and Android",
+        "translatedContent": "- iOS 및 Android용 네이티브 모바일 앱"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "VoLlj2RdCR/jzKyPcbKAaqZ7vuRUlp0214ZijmDhp70=",
+        "originContent": "It stores and manages health data on infrastructure you control, without relying on third party services.",
+        "translatedContent": "타사 서비스에 의존하지 않고, 사용자가 관리하는 인프라에 건강 데이터를 저장하고 관리합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "WVf4b7oPiloMhGfUEdpGDGrt4Gysb1sXIrUavFTl+N0=",
+        "originContent": "## Core Features",
+        "translatedContent": "## 핵심 기능"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4o6Ro41eirag9Uw3WHG7quafVYq/MClId2OK21NJtRw=",
+        "originContent": "- Nutrition, exercise, hydration, sleep, fasting, mood and body measurement tracking",
+        "translatedContent": "- 영양, 운동, 수분 섭취, 수면, 단식, 기분 및 신체 측정 추적"
+      },
+      {
+        "row": 8,
+        "rowsha": "cTbV87SVOcXvm4uzP/nFwZqrvwAadU4Ny66hxIAjwzk=",
+        "originContent": "- Goal setting and daily check-ins",
+        "translatedContent": "- 목표 설정 및 일일 체크인"
+      },
+      {
+        "row": 9,
+        "rowsha": "m2nQGANKtPRwzju9XH1qH1GvSNUdC1W8WW0CUCfen4M=",
+        "originContent": "- Interactive charts and long-term reports",
+        "translatedContent": "- 대화형 차트 및 장기 보고서"
+      },
+      {
+        "row": 10,
+        "rowsha": "+/tBudA1NWBUEol1CJizgggUdxV5bhI/yuk2WzPG3nc=",
+        "originContent": "- Multiple user profiles and family access",
+        "translatedContent": "- 다중 사용자 프로필 및 가족 접근 권한"
+      },
+      {
+        "row": 11,
+        "rowsha": "c+4h/xjFaF7ZowUh2ZHlqea5ipe8gjQ0yVaDeT1+rs4=",
+        "originContent": "- Light and dark themes",
+        "translatedContent": "- 라이트 및 다크 테마"
+      },
+      {
+        "row": 12,
+        "rowsha": "VOwIqUDl6jfZLsqcglvlS2u8Z2o+0RpVLarMFjpaLYs=",
+        "originContent": "- OIDC, TOTP, Passkey, MFA etc.",
+        "translatedContent": "- OIDC, TOTP, 패스키, MFA 등"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wDXfKFp8bdCHan1aSNyhDCHK1XwY/0fWqzBMPhdetTM=",
+        "originContent": "## Health & Device Integrations",
+        "translatedContent": "## 건강 & 기기 통합"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "OsB2S/f4Xi/a9oBI5KaHKveXdnM1OmriwSQKOZ2Zh/0=",
+        "originContent": "SparkyFitness can sync data from multiple health and fitness platforms:",
+        "translatedContent": "SparkyFitness는 여러 건강 및 피트니스 플랫폼에서 데이터를 동기화할 수 있습니다:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "LZGB84Mx1QFhjPnWfRFfFD2ykOTucJSU9sm+z4HvtpY=",
+        "originContent": "- **Apple Health** (iOS)",
+        "translatedContent": "- **Apple Health** (iOS)"
+      },
+      {
+        "row": 19,
+        "rowsha": "sSZc34k24mIrWt2O5rTezPV+ZCYFGdeN7pRIe8PxnbM=",
+        "originContent": "- **Google Health Connect** (Android)",
+        "translatedContent": "- **Google Health Connect** (Android)"
+      },
+      {
+        "row": 20,
+        "rowsha": "VqYC4VfxJxS/2Y2ZfJ9QtJnFIe+2dk0xdXVJv4aV6b0=",
+        "originContent": "- **Fitbit**",
+        "translatedContent": "- **Fitbit**"
+      },
+      {
+        "row": 21,
+        "rowsha": "dSWiXllq5d41EZKq7Kp1fQYbCQ3Tc4wBwDOT3eGez/A=",
+        "originContent": "- **Garmin Connect**",
+        "translatedContent": "- **Garmin Connect**"
+      },
+      {
+        "row": 22,
+        "rowsha": "D8riSswXreTuzHuNMNvehpzqjsXTN7q6dC2GkWdalq4=",
+        "originContent": "- **Withings**",
+        "translatedContent": "- **Withings**"
+      },
+      {
+        "row": 23,
+        "rowsha": "subGiYow5WA+a9itFfOgNACsb4RrezTFf/GYSIGMDso=",
+        "originContent": "- **Polar Flow** (partially tested)",
+        "translatedContent": "- **Polar Flow** (부분적으로 테스트됨)"
+      },
+      {
+        "row": 24,
+        "rowsha": "wjvO14erRxLGVTIdeiPMvTvv7TYRFWiHYHFsfTWaps8=",
+        "originContent": "- **Hevy** (not tested)",
+        "translatedContent": "- **Hevy** (테스트되지 않음)"
+      },
+      {
+        "row": 25,
+        "rowsha": "Mi8ixV4jEF8VaRPqRkd2R0NNRH036f+Km/ypTMV2peU=",
+        "originContent": "- **OpenFoodFacts**",
+        "translatedContent": "- **OpenFoodFacts**"
+      },
+      {
+        "row": 26,
+        "rowsha": "SvCYZIY6ZTxBQ+vpYNdxCF7p4kFntLhlrINmJ3LzRNs=",
+        "originContent": "- **USDA**",
+        "translatedContent": "- **USDA**"
+      },
+      {
+        "row": 27,
+        "rowsha": "CqQQ4ZRNDMzmegvZZZLbSdVAA7tzcLt7mJ4tATanpgc=",
+        "originContent": "- **Fatsecret**",
+        "translatedContent": "- **Fatsecret**"
+      },
+      {
+        "row": 28,
+        "rowsha": "+iXpok8+k62vC1GWhGmfaapoxVbQS8vNGa2mrfwGNFs=",
+        "originContent": "- **Nutritioninx**",
+        "translatedContent": "- **Nutritioninx**"
+      },
+      {
+        "row": 29,
+        "rowsha": "9D5605VQnyCLfaWy3FhFwIn/MNZQeRoER/jvFXVeGMc=",
+        "originContent": "- **Mealie**",
+        "translatedContent": "- **Mealie**"
+      },
+      {
+        "row": 30,
+        "rowsha": "xlQoqqKTb4rXcu1HecWCqFlVeEE2PUz90xclQsnMzaU=",
+        "originContent": "- **Tandoor**",
+        "translatedContent": "- **Tandoor**"
+      },
+      {
+        "row": 31,
+        "rowsha": "iSp9JrKxCcc15KPEOPiKeSOz8pnZ3ITLsrxYgxFzjms=",
+        "originContent": "- **Strava** (partially tested)",
+        "translatedContent": "- **Strava** (부분적으로 테스트됨)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "ncvu//r/Y4DjmAP04S/urbYU0ZsBJ8o0K6K+rPK5HZE=",
+        "originContent": "Integrations automatically sync activity data such as steps, workouts, and sleep, along with health metrics like weight and body measurements, to your SparkyFitness server.",
+        "translatedContent": "통합 기능은 걸음 수, 운동, 수면과 같은 활동 데이터 및 체중, 신체 측정치 등 건강 지표를 SparkyFitness 서버에 자동으로 동기화합니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "m+gRkPMzml/Pv8oQH/taA9QGn5KcmvlJpB2HtpbUkns=",
+        "originContent": "## Optional AI Features (Beta)",
+        "translatedContent": "## 선택적 AI 기능 (베타)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "SVpux1Kk15dPYIYNWx6fLF3fqz4yjKXL7FVLu0Vv7qU=",
+        "originContent": "SparkyAI provides a conversational interface for logging data and reviewing progress.",
+        "translatedContent": "SparkyAI는 데이터 기록 및 진행 상황 검토를 위한 대화형 인터페이스를 제공합니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "rpfFo2xXiiaYxBo+lbgy0B/cb0ivjzwiLQYXYm8C0CE=",
+        "originContent": "- Log food, exercise, body stats, and steps via chat",
+        "translatedContent": "- 채팅을 통해 음식, 운동, 신체 통계, 걸음 수 기록"
+      },
+      {
+        "row": 40,
+        "rowsha": "wV8EpG/+Fc3Ibi2yf+bwTkYGWxu1cu7FVjz7CllwY6M=",
+        "originContent": "- Upload food images for automatic meal logging",
+        "translatedContent": "- 자동 식사 기록을 위한 음식 이미지 업로드"
+      }
+    ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
-    "Content": "* **Secure login system**\n* **Switch between user profiles**\n* **Support for family access and management**\n\n### 📊 Comprehensive Reports\n\n* **Generate summaries for nutrition and body metrics**\n* **Track long-term trends over weeks or months**\n\n### 🎨 Customizable Themes\n\n* **Switch between light and dark mode**\n* **Designed with a minimal, distraction-free interface**\n\n### Need Help?\n* **Join discord**\n  https://discord.gg/vcnMT5cPEA\n* **Post in discussion**\n\n\n![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)\n\n## � Quick Start\n\nGet SparkyFitness running in minutes:\n",
-    "ContentSha": "DAnNoSK6ZtleowGvx4HrshhN3ZxaxDMWqFFk2N6FiXw=",
+    "Content": "- Retains conversation history for follow ups\n\nNote: AI features are currently in beta.\n\n## Quick Start (Server)\n\nGet a SparkyFitness server running in minutes using Docker Compose.\n",
+    "ContentSha": "SiykOKOwRO3D3QoXkLGTh+ZFWWA7/H5bUimGtRE7HAQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "* **안전한 로그인 시스템**\n* **사용자 프로필 간 전환**\n* **가족 접근 및 관리 지원**\n\n### 📊 종합 보고서\n\n* **영양 및 신체 지표 요약 생성**\n* **수주 또는 수개월간의 장기 추세 추적**\n\n### 🎨 맞춤형 테마\n\n* **라이트 및 다크 모드 전환**\n* **최소화된, 집중을 방해하지 않는 인터페이스 디자인**\n\n### 도움이 필요하신가요?\n* **디스코드 참여하기**\n  https://discord.gg/vcnMT5cPEA\n* **토론에 게시하기**\n\n\n![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)\n\n## � 빠른 시작\n\nSparkyFitness를 몇 분 안에 실행하세요:\n",
+    "Translation": "- 후속 조치를 위해 대화 기록을 보존합니다\n\n참고: AI 기능은 현재 베타 버전입니다.\n\n## 빠른 시작 (서버)\n\nDocker Compose를 사용하여 몇 분 만에 SparkyFitness 서버를 실행하세요.\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jWuBh76T7eaivenZQ7SLfhd/XyWgudh+lD5YCyWugyM=",
+        "originContent": "- Retains conversation history for follow ups",
+        "translatedContent": "- 후속 조치를 위해 대화 기록을 보존합니다"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "e0B87VNCZP9a0Ek6++s5GHUaxdd5RxLLnNdEGSGJWF4=",
+        "originContent": "Note: AI features are currently in beta.",
+        "translatedContent": "참고: AI 기능은 현재 베타 버전입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hAkXDamonTue1D0bKYq3ipw/7CZO9rUbw9wALr3BL3k=",
+        "originContent": "## Quick Start (Server)",
+        "translatedContent": "## 빠른 시작 (서버)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "LLsGJPjpfcX+0r25A5QnzfcEJBsgJkyAUdkPhW52U7w=",
+        "originContent": "Get a SparkyFitness server running in minutes using Docker Compose.",
+        "translatedContent": "Docker Compose를 사용하여 몇 분 만에 SparkyFitness 서버를 실행하세요."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
     "Id": 4,
-    "Content": "```bash\n# 1. Create a new folder\nmkdir sparkyfitness && cd sparkyfitness\n\n# 2. Download Docker files only\ncurl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml\ncurl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example\n\n# 3. (Optional) Edit .env to customize your setup\n# e.g., update database credentials, ports, etc.\n# if you require Gamrin integration, uncomment Garmin section from compose file.\n\n# 4. Start the app\ndocker compose pull && docker compose up -d\n\n# Access application at http://localhost:8080\n```",
-    "ContentSha": "E2Y3x1ZAKn2+2hP2LrEmyEhPXAJtPCT32LZVCPbpOBE=",
+    "Content": "```bash\n# 1. Create a new folder\nmkdir sparkyfitness && cd sparkyfitness\n\n# 2. Download Docker files only\ncurl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml\ncurl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example\n\n# 3. (Optional) Edit .env to customize database credentials, ports, etc.\n\n# 4. Start the app\ndocker compose pull && docker compose up -d\n\n# Access application at http://localhost:8080\n```",
+    "ContentSha": "2I7lilvMzxfmTxWvQiVgsls0CByON2l1Ij1S7ffK/t8=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\n# 1. Create a new folder\nmkdir sparkyfitness && cd sparkyfitness\n\n# 2. Download Docker files only\ncurl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml\ncurl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example\n\n# 3. (Optional) Edit .env to customize your setup\n# e.g., update database credentials, ports, etc.\n# if you require Gamrin integration, uncomment Garmin section from compose file.\n\n# 4. Start the app\ndocker compose pull && docker compose up -d\n\n# Access application at http://localhost:8080\n```",
+    "Translation": "```bash\n# 1. Create a new folder\nmkdir sparkyfitness && cd sparkyfitness\n\n# 2. Download Docker files only\ncurl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml\ncurl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example\n\n# 3. (Optional) Edit .env to customize database credentials, ports, etc.\n\n# 4. Start the app\ndocker compose pull && docker compose up -d\n\n# Access application at http://localhost:8080\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -77,15 +608,15 @@
       },
       {
         "row": 6,
-        "rowsha": "Yvv06CDwCqOeGT2FNMcLz7XSsg9hIg+DETxvKrQKnII=",
-        "originContent": "curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml",
-        "translatedContent": "curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml"
+        "rowsha": "1r+tMDKaeHrAVpqaXY6jwxd/FjjNag/Tn5L19fzRfy0=",
+        "originContent": "curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml",
+        "translatedContent": "curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml"
       },
       {
         "row": 7,
-        "rowsha": "vy0xRhe0/50BOcCKnllr9AwUrsBf6/hKsbBu/Uff9AI=",
-        "originContent": "curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example",
-        "translatedContent": "curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example"
+        "rowsha": "lJWOodHm01HbDxK8mcfqc/OtRTCOrM2UgjXD4zuY4GU=",
+        "originContent": "curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example",
+        "translatedContent": "curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example"
       },
       {
         "row": 8,
@@ -95,54 +626,42 @@
       },
       {
         "row": 9,
-        "rowsha": "3Stw+aYszT63krrV7SLCce7d01+7+Y3J6OpUSynyf3A=",
-        "originContent": "# 3. (Optional) Edit .env to customize your setup",
-        "translatedContent": "# 3. (Optional) Edit .env to customize your setup"
+        "rowsha": "dujywJHeba+f8SqiTTHSkdpJYQbpIS0IrV1VYma0+7s=",
+        "originContent": "# 3. (Optional) Edit .env to customize database credentials, ports, etc.",
+        "translatedContent": "# 3. (Optional) Edit .env to customize database credentials, ports, etc."
       },
       {
         "row": 10,
-        "rowsha": "HqHpNJbduCXc9oNiV4xdjCiqVdsC2KzPFQj9P91dGdQ=",
-        "originContent": "# e.g., update database credentials, ports, etc.",
-        "translatedContent": "# e.g., update database credentials, ports, etc."
-      },
-      {
-        "row": 11,
-        "rowsha": "U5/J+MQDjjJQ6xJfxMzUkjkUyUMxn2bjvfkTpw7oxuA=",
-        "originContent": "# if you require Gamrin integration, uncomment Garmin section from compose file.",
-        "translatedContent": "# if you require Gamrin integration, uncomment Garmin section from compose file."
-      },
-      {
-        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 13,
+        "row": 11,
         "rowsha": "FSaTtrpyUQ+RAbQn4Z95zrDtGk9lVEwg4XvPZwU9Upk=",
         "originContent": "# 4. Start the app",
         "translatedContent": "# 4. Start the app"
       },
       {
-        "row": 14,
+        "row": 12,
         "rowsha": "spKC9qS/XevkmJvXZqo9h/oI9qAtVAL1gj9nR3BCstk=",
         "originContent": "docker compose pull && docker compose up -d",
         "translatedContent": "docker compose pull && docker compose up -d"
       },
       {
-        "row": 15,
+        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 16,
+        "row": 14,
         "rowsha": "6pjNlraGz6KiAQrtFzdPCJEQbpjgk9X38yqG1E2ayBI=",
         "originContent": "# Access application at http://localhost:8080",
         "translatedContent": "# Access application at http://localhost:8080"
       },
       {
-        "row": 17,
+        "row": 15,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -152,12 +671,12 @@
   },
   {
     "Id": 5,
-    "Content": "\n## 📖 Documentation\n\nFor complete installation guides, development setup, and usage instructions, visit our comprehensive documentation:\n\n**👉 [SparkyFitness Documentation Site](https://codewithcj.github.io/SparkyFitness)**\n\n### Quick Links\n\n- **[🚀 Getting Started](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Complete setup guide for development and production\n- **[🐳 Docker Guide](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker deployment and configuration\n- **[🔧 Development Workflow](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Developer guide and contribution process  \n- **[📊 Features Overview](https://codewithcj.github.io/SparkyFitness/features/)** - Complete feature documentation\n- **[🏗️ Architecture](https://codewithcj.github.io/SparkyFitness/app-overview)** - Technical architecture and design\n- Refer WIiki for sample env setup and Mobile App configuration.\n\n\n## Star History\n\n<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />\n    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />\n  </picture>\n</a>\n\n## Translations\n\n<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">\n<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"Translation status\" />\n</a>\n\n## Repository activity\n\n![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats analytics image\")\n\n\n## Contributors\n",
-    "ContentSha": "Lgau/llL46KmAz8R9E3BRxSKcMwmpg7eY1X3EunR724=",
+    "Content": "\n\n## 🎥 Video Tutorial\n\n[![Watch the video](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)\n\nQuick 2-minute tutorial showing how to install SparkyFitness (self-hosted fitness tracker).\n\n\n## Documentation\n\nFor full installation guides, configuration options, and development docs, please visit our [Documentation Site](https://codewithcj.github.io/SparkyFitness/).\n\n### Quick Links\n\n- **[Installation Guide](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - Deployment and configurations\n- **[Features Overview](https://codewithcj.github.io/SparkyFitness/features)** - Complete feature documentation\n- **[Development Workflow](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Developer guide and contribution process\n- **[iOS App Info](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** and **[Android App Info](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**\n\n### Need Help?\n\n- Post in Github issues/discussion.\n- For faster response and get help from other community memebers **[Join our Discord](https://discord.gg/vcnMT5cPEA)**\n\n## Star History\n\n<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />\n    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />\n  </picture>\n</a>\n\n## Translations\n\n**[Weblate Translations](https://hosted.weblate.org/engage/sparkyfitness)**\n\n<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">",
+    "ContentSha": "LI+CCZQR404G0JGAeHqtPcrdlAsEMeGLsjeiI3Q/SkQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n## 📖 문서\n\n전체 설치 가이드, 개발 환경 설정, 사용법 안내는 아래의 종합 문서를 참고하세요:\n\n**👉 [SparkyFitness 공식 문서 사이트](https://codewithcj.github.io/SparkyFitness)**\n\n### 빠른 링크\n\n- **[🚀 시작하기](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 개발 및 운영 환경 전체 설정 가이드\n- **[🐳 도커 가이드](https://codewithcj.github.io/SparkyFitness/developer/docker)** - 도커 배포 및 구성 안내\n- **[🔧 개발 워크플로우](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 개발자 가이드 및 기여 절차  \n- **[📊 기능 개요](https://codewithcj.github.io/SparkyFitness/features/)** - 전체 기능 문서\n- **[🏗️ 아키텍처](https://codewithcj.github.io/SparkyFitness/app-overview)** - 기술 아키텍처 및 설계\n- 샘플 환경 설정 및 모바일 앱 구성은 WIki를 참고하세요.\n\n\n## 별점 기록\n\n<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />\n    <img alt=\"별점 히스토리 차트\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />\n  </picture>\n</a>\n\n## 번역\n\n<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">\n<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"번역 상태\" />\n</a>\n\n## 저장소 활동\n\n![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats 분석 이미지\")\n\n\n## 기여자\n",
+    "Translation": "\n## 🎥 동영상 튜토리얼\n\n[![동영상 보기](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)\n\nSparkyFitness(자가 호스팅 피트니스 트래커) 설치 방법을 보여주는 2분짜리 빠른 튜토리얼입니다.\n\n\n## 문서\n\n전체 설치 가이드, 구성 옵션, 개발 문서는 [문서 사이트](https://codewithcj.github.io/SparkyFitness/)를 방문하세요.\n\n### 빠른 링크\n\n- **[설치 가이드](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - 배포 및 구성\n- **[기능 개요](https://codewithcj.github.io/SparkyFitness/features)** - 전체 기능 문서\n- **[개발 워크플로우](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 개발자 가이드 및 기여 프로세스\n- **[iOS 앱 정보](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** 및 **[Android 앱 정보](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**\n\n### 도움이 필요하신가요?\n\n- Github 이슈/토론에 글을 남기세요.\n- 더 빠른 답변과 다른 커뮤니티 멤버들의 도움을 원하시면 **[디스코드 참여](https://discord.gg/vcnMT5cPEA)**\n\n## 별점 이력\n\n<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />\n    <img alt=\"별점 이력 차트\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />\n  </picture>\n</a>\n\n## 번역\n\n**[Weblate 번역](https://hosted.weblate.org/engage/sparkyfitness)**\n\n<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -168,236 +687,236 @@
       },
       {
         "row": 2,
-        "rowsha": "SoE0pvlABUY6UusrLcAgNz4PkoTle0JWWhESnRMZ7Es=",
-        "originContent": "## 📖 Documentation",
-        "translatedContent": "## 📖 문서"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🎥 동영상 튜토리얼"
       },
       {
         "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "tERkMYZdYg0/Pjoh4Nn32HdNExbSoiyCJu4L04vCR9k=",
+        "originContent": "## 🎥 Video Tutorial",
         "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "9jFRAp+RSbHObKEUzCG2pq5LSfoNqAU+Gi0dB4WsEWk=",
-        "originContent": "For complete installation guides, development setup, and usage instructions, visit our comprehensive documentation:",
-        "translatedContent": "전체 설치 가이드, 개발 환경 설정, 사용법 안내는 아래의 종합 문서를 참고하세요:"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![동영상 보기](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)"
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "JmlDCAChC0x+ke4uouO+CSwKT/XVvvC/QlV53og3MfQ=",
+        "originContent": "[![Watch the video](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)",
         "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "T9vSF4etKUmih+TRX7WgIcMFLYi/q/SXxK92TrpXusw=",
-        "originContent": "**👉 [SparkyFitness Documentation Site](https://codewithcj.github.io/SparkyFitness)**",
-        "translatedContent": "**👉 [SparkyFitness 공식 문서 사이트](https://codewithcj.github.io/SparkyFitness)**"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "SparkyFitness(자가 호스팅 피트니스 트래커) 설치 방법을 보여주는 2분짜리 빠른 튜토리얼입니다."
       },
       {
         "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "6hLJYruAYd55FWHfwrtFTEJmYbGPQE5zj2KgAjiPuak=",
+        "originContent": "Quick 2-minute tutorial showing how to install SparkyFitness (self-hosted fitness tracker).",
         "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "Lsp/91GASdURrLo8JqcWQDEOG/Hv/2hWNItkMhpe1GY=",
-        "originContent": "### Quick Links",
-        "translatedContent": "### 빠른 링크"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "## 문서"
       },
       {
         "row": 10,
-        "rowsha": "lIubVOJE7jPZl/s8HNRghMqoyyVcNhBdcpalUQFUNW8=",
-        "originContent": "- **[🚀 Getting Started](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Complete setup guide for development and production",
-        "translatedContent": "- **[🚀 시작하기](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 개발 및 운영 환경 전체 설정 가이드"
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
       },
       {
         "row": 11,
-        "rowsha": "oPpCFy+T4OJ1FrcU67B9l1s9cx1ifp+KU8VwgIltKV4=",
-        "originContent": "- **[🐳 Docker Guide](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker deployment and configuration",
-        "translatedContent": "- **[🐳 도커 가이드](https://codewithcj.github.io/SparkyFitness/developer/docker)** - 도커 배포 및 구성 안내"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "전체 설치 가이드, 구성 옵션, 개발 문서는 [문서 사이트](https://codewithcj.github.io/SparkyFitness/)를 방문하세요."
       },
       {
         "row": 12,
-        "rowsha": "1QsHn8J337oXKtSv5xGbxjHhzaWoSYINs0UozJ9ev44=",
-        "originContent": "- **[🔧 Development Workflow](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Developer guide and contribution process  ",
-        "translatedContent": "- **[🔧 개발 워크플로우](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 개발자 가이드 및 기여 절차  "
+        "rowsha": "kzojUrvGpGWeTAwfWOsjNHngPUWb0W0tbwsbm332z7I=",
+        "originContent": "For full installation guides, configuration options, and development docs, please visit our [Documentation Site](https://codewithcj.github.io/SparkyFitness/).",
+        "translatedContent": ""
       },
       {
         "row": 13,
-        "rowsha": "gHut9c1YI1NGM/K2/TS1R7VqKIC8ZMrt3MXd7vj9gRk=",
-        "originContent": "- **[📊 Features Overview](https://codewithcj.github.io/SparkyFitness/features/)** - Complete feature documentation",
-        "translatedContent": "- **[📊 기능 개요](https://codewithcj.github.io/SparkyFitness/features/)** - 전체 기능 문서"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 빠른 링크"
       },
       {
         "row": 14,
-        "rowsha": "dQjy0cTPJRqiZDwATrcHbfD3oMVY+NLVcD578Y4hKzY=",
-        "originContent": "- **[🏗️ Architecture](https://codewithcj.github.io/SparkyFitness/app-overview)** - Technical architecture and design",
-        "translatedContent": "- **[🏗️ 아키텍처](https://codewithcj.github.io/SparkyFitness/app-overview)** - 기술 아키텍처 및 설계"
+        "rowsha": "Lsp/91GASdURrLo8JqcWQDEOG/Hv/2hWNItkMhpe1GY=",
+        "originContent": "### Quick Links",
+        "translatedContent": ""
       },
       {
         "row": 15,
-        "rowsha": "LF7BJIKdscHXbYFqtKI8IdQZldcv/6kSzYXyFtROv8Q=",
-        "originContent": "- Refer WIiki for sample env setup and Mobile App configuration.",
-        "translatedContent": "- 샘플 환경 설정 및 모바일 앱 구성은 WIki를 참고하세요."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **[설치 가이드](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - 배포 및 구성"
       },
       {
         "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "VPlwQt+c097aLQJTPhczthZFgauRZT8RYNaVwc7cxJk=",
+        "originContent": "- **[Installation Guide](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - Deployment and configurations",
+        "translatedContent": "- **[기능 개요](https://codewithcj.github.io/SparkyFitness/features)** - 전체 기능 문서"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "wkCi0y26A8SwMQUBLzxRCXa/sos8YN042+B9RAk181w=",
+        "originContent": "- **[Features Overview](https://codewithcj.github.io/SparkyFitness/features)** - Complete feature documentation",
+        "translatedContent": "- **[개발 워크플로우](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 개발자 가이드 및 기여 프로세스"
       },
       {
         "row": 18,
-        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
-        "originContent": "## Star History",
-        "translatedContent": "## 별점 기록"
+        "rowsha": "0uKfqTLrU06ozh4jKhRa9PLdQgjBroGmvLpfRShED4Q=",
+        "originContent": "- **[Development Workflow](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Developer guide and contribution process",
+        "translatedContent": "- **[iOS 앱 정보](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** 및 **[Android 앱 정보](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**"
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "cHzbXkQiE/jeJdm+cHhKXQKFBd4UTgv2eY2RKnh3/h4=",
+        "originContent": "- **[iOS App Info](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** and **[Android App Info](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**",
         "translatedContent": ""
       },
       {
         "row": 20,
-        "rowsha": "jfC/NFywtxHtVpA3mUd8f5LKqmKSw8ojB4sd+miDv9k=",
-        "originContent": "<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">",
-        "translatedContent": "<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 도움이 필요하신가요?"
       },
       {
         "row": 21,
-        "rowsha": "su5AYroNuuVkqEBm8k1TtT5+dCom7BoW2XwdJdXXDH8=",
-        "originContent": "  <picture>",
-        "translatedContent": "  <picture>"
+        "rowsha": "sV+ZuvSeuKWJN3WdYVWUboIYXzhcZefvX+ewsh0Jtds=",
+        "originContent": "### Need Help?",
+        "translatedContent": ""
       },
       {
         "row": 22,
-        "rowsha": "8iFYyZ1npYprvod3RI/fWF6M2TQuVBtr1c3ZWZRtz9E=",
-        "originContent": "    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />",
-        "translatedContent": "    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Github 이슈/토론에 글을 남기세요."
       },
       {
         "row": 23,
-        "rowsha": "4WKwOEcsjycyAhuUxcPSl+22GAWBIwLueMoZl5424Bk=",
-        "originContent": "    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />",
-        "translatedContent": "    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />"
+        "rowsha": "TGcISH9A5vqS0g4Uy0SFqzNAPvtYFJ+UjMYfyL9zKyc=",
+        "originContent": "- Post in Github issues/discussion.",
+        "translatedContent": "- 더 빠른 답변과 다른 커뮤니티 멤버들의 도움을 원하시면 **[디스코드 참여](https://discord.gg/vcnMT5cPEA)**"
       },
       {
         "row": 24,
-        "rowsha": "k5vpGYGV5v59AcWXR3bCRTd535pRF45gWocIR6lu+5I=",
-        "originContent": "    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />",
-        "translatedContent": "    <img alt=\"별점 히스토리 차트\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />"
+        "rowsha": "KYeY9HQhJ93dW1Y5drN5GubtsNMWIqLsx9GDGSR/61I=",
+        "originContent": "- For faster response and get help from other community memebers **[Join our Discord](https://discord.gg/vcnMT5cPEA)**",
+        "translatedContent": ""
       },
       {
         "row": 25,
-        "rowsha": "fwrOW0rZI7tz3dwkDxmwV2sRZJ0Cobqsz6oSx8gSbSE=",
-        "originContent": "  </picture>",
-        "translatedContent": "  </picture>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 별점 이력"
       },
       {
         "row": 26,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": ""
       },
       {
         "row": 27,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">"
       },
       {
         "row": 28,
-        "rowsha": "gzx7WSZWkBQyHmWVMxUTrBglg7GXBqyEWp53+d+3UaI=",
-        "originContent": "## Translations",
-        "translatedContent": "## 번역"
+        "rowsha": "jfC/NFywtxHtVpA3mUd8f5LKqmKSw8ojB4sd+miDv9k=",
+        "originContent": "<a href=\"https://star-history.com/#CodeWithCJ/SparkyFitness&Date\">",
+        "translatedContent": "  <picture>"
       },
       {
         "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "su5AYroNuuVkqEBm8k1TtT5+dCom7BoW2XwdJdXXDH8=",
+        "originContent": "  <picture>",
+        "translatedContent": "    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />"
       },
       {
         "row": 30,
-        "rowsha": "X0ViqPlui+6r45tFzMEQFEtYTqxwyie54HTeX7QZrr4=",
-        "originContent": "<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">",
-        "translatedContent": "<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">"
+        "rowsha": "8iFYyZ1npYprvod3RI/fWF6M2TQuVBtr1c3ZWZRtz9E=",
+        "originContent": "    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark\" />",
+        "translatedContent": "    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />"
       },
       {
         "row": 31,
-        "rowsha": "KOPBY5JLmP+rrLcqdaRrAoUo0yY8eiCqeijV674tfPs=",
-        "originContent": "<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"Translation status\" />",
-        "translatedContent": "<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"번역 상태\" />"
+        "rowsha": "4WKwOEcsjycyAhuUxcPSl+22GAWBIwLueMoZl5424Bk=",
+        "originContent": "    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" />",
+        "translatedContent": "    <img alt=\"별점 이력 차트\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />"
       },
       {
         "row": 32,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
+        "rowsha": "k5vpGYGV5v59AcWXR3bCRTd535pRF45gWocIR6lu+5I=",
+        "originContent": "    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date\" width=\"100%\" />",
+        "translatedContent": "  </picture>"
       },
       {
         "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fwrOW0rZI7tz3dwkDxmwV2sRZJ0Cobqsz6oSx8gSbSE=",
+        "originContent": "  </picture>",
+        "translatedContent": "</a>"
       },
       {
         "row": 34,
-        "rowsha": "smD+chciZknWxoy8vhoc+gLL6v0PG87Ka54aH++w2hY=",
-        "originContent": "## Repository activity",
-        "translatedContent": "## 저장소 활동"
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": ""
       },
       {
         "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "## 번역"
       },
       {
         "row": 36,
-        "rowsha": "+8q9DEp0r6cGOGeCjcDN+UUOtVsDTbgrNguYORBZPlE=",
-        "originContent": "![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats analytics image\")",
-        "translatedContent": "![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats 분석 이미지\")"
+        "rowsha": "gzx7WSZWkBQyHmWVMxUTrBglg7GXBqyEWp53+d+3UaI=",
+        "originContent": "## Translations",
+        "translatedContent": ""
       },
       {
         "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "**[Weblate 번역](https://hosted.weblate.org/engage/sparkyfitness)**"
       },
       {
         "row": 38,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "cmdzEePX5yi9R8cg/nnrbfHNPHD6+V5QRjjvUamTp2Y=",
+        "originContent": "**[Weblate Translations](https://hosted.weblate.org/engage/sparkyfitness)**",
         "translatedContent": ""
       },
       {
         "row": 39,
-        "rowsha": "GMscHjUCoBEPz56g0tY/7ter43HRnA3db4DiaL3El9Y=",
-        "originContent": "## Contributors",
-        "translatedContent": "## 기여자"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">"
       },
       {
         "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "X0ViqPlui+6r45tFzMEQFEtYTqxwyie54HTeX7QZrr4=",
+        "originContent": "<a href=\"https://hosted.weblate.org/engage/sparkyfitness/\">",
         "translatedContent": ""
       }
     ],
@@ -405,85 +924,85 @@
   },
   {
     "Id": 6,
-    "Content": "<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>\n</a>\n\n### ⚠️ Known Issues / Beta Features ⚠️\n\nThe following features are currently in beta and may not have been thoroughly tested. Expect potential bugs or incomplete functionality:\n\n*   AI Chatbot\n*   Multi-user support\n*   Family & Friends access\n*   Apple Health Data integration\n\nThis application is under heavy development. Things may not work as expected due to the Supabase to PostgreSQL migration. BREAKING CHANGES might be introduced until the application is stable.\nYou might need to change Docker/environment variables for new releases. Therefore, auto-upgrades using Watchtower or similar apps are not recommended. Read release notes for any BREAKING CHANGES.\n\n\n",
-    "ContentSha": "96ueKX8fVLUKe1Cm4/vMDwPZ3DhyLPEZGM+nbOlVaOE=",
+    "Content": "<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"Translation status\" />\n</a>\n\n## Repository activity\n\n![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats analytics image\")\n\n## Contributors\n\n<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>\n</a>\n\n## ⚠️ Known Issues / Beta Features ⚠️\n\nSparkyFitness is under active development.\nBreaking changes may occur between releases.\n\n- Auto-updating containers is not recommended\n- Always review release notes before upgrading\n\nThe following features are currently in beta and may not have been thoroughly tested. Expect potential bugs or incomplete functionality:\n\n- AI Chatbot\n- Family & Friends access\n- API documentation\n",
+    "ContentSha": "9G7V+t0SUHA3XnU7LMlWCRZ+Hurt7cXBwdzcqWiV0eA=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>\n</a>\n\n### ⚠️ 알려진 이슈 / 베타 기능 ⚠️\n\n아래 기능들은 현재 베타 상태이며 충분히 테스트되지 않았을 수 있습니다. 잠재적인 버그나 미완성 기능이 있을 수 있습니다:\n\n*   AI 챗봇\n*   다중 사용자 지원\n*   가족 및 친구 접근\n*   Apple Health 데이터 연동\n\n이 애플리케이션은 활발히 개발 중입니다. Supabase에서 PostgreSQL로의 마이그레이션으로 인해 예상대로 동작하지 않을 수 있습니다. 애플리케이션이 안정화될 때까지 파괴적인 변경(BREAKING CHANGES)이 도입될 수 있습니다.\n새 릴리스를 위해 Docker/환경 변수를 변경해야 할 수도 있습니다. 따라서 Watchtower나 유사 앱을 통한 자동 업그레이드는 권장하지 않습니다. 파괴적인 변경(BREAKING CHANGES)에 대해서는 릴리스 노트를 반드시 확인하세요.\n\n\n",
+    "Translation": "<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"Translation status\" />\n</a>\n\n## 저장소 활동\n\n![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats analytics image\")\n\n## 기여자\n\n<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>\n</a>\n\n## ⚠️ 알려진 문제 / 베타 기능 ⚠️\n\nSparkyFitness는 활발히 개발 중입니다.\n릴리스 간에 호환성 깨짐 현상이 발생할 수 있습니다.\n\n- 컨테이너의 자동 업데이트는 권장하지 않습니다\n- 업그레이드 전에 항상 릴리스 노트를 확인하세요\n\n다음 기능들은 현재 베타 버전이며 충분히 테스트되지 않았을 수 있습니다. 버그나 미완성 기능이 있을 수 있습니다:\n\n- AI 챗봇\n- 가족 및 친구 접근\n- API 문서\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "hFtt7NT6Yp6bbg7Hd8fQv9FvsVKo/lwNVHVMqgcemKw=",
-        "originContent": "<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">",
-        "translatedContent": "<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">"
+        "rowsha": "KOPBY5JLmP+rrLcqdaRrAoUo0yY8eiCqeijV674tfPs=",
+        "originContent": "<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"Translation status\" />",
+        "translatedContent": "<img src=\"https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg\" alt=\"Translation status\" />"
       },
       {
         "row": 2,
-        "rowsha": "7G+/o51JMT4hxvVjqWgpqIgiQOTtrYg9TmzyAn/jYmk=",
-        "originContent": "  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>",
-        "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>"
-      },
-      {
-        "row": 3,
         "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
         "originContent": "</a>",
         "translatedContent": "</a>"
       },
       {
-        "row": 4,
+        "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "smD+chciZknWxoy8vhoc+gLL6v0PG87Ka54aH++w2hY=",
+        "originContent": "## Repository activity",
+        "translatedContent": "## 저장소 활동"
       },
       {
         "row": 5,
-        "rowsha": "XMpjL9yim7j9tCzIqApZzDZ3beehSkcg1S3rHrBnRl4=",
-        "originContent": "### ⚠️ Known Issues / Beta Features ⚠️",
-        "translatedContent": "### ⚠️ 알려진 이슈 / 베타 기능 ⚠️"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "+8q9DEp0r6cGOGeCjcDN+UUOtVsDTbgrNguYORBZPlE=",
+        "originContent": "![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats analytics image\")",
+        "translatedContent": "![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg \"Repobeats analytics image\")"
       },
       {
         "row": 7,
-        "rowsha": "BA1rroRG8d1IPOcu7clbUfFRavppKw+Q0/647H8B8Fc=",
-        "originContent": "The following features are currently in beta and may not have been thoroughly tested. Expect potential bugs or incomplete functionality:",
-        "translatedContent": "아래 기능들은 현재 베타 상태이며 충분히 테스트되지 않았을 수 있습니다. 잠재적인 버그나 미완성 기능이 있을 수 있습니다:"
-      },
-      {
-        "row": 8,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 8,
+        "rowsha": "GMscHjUCoBEPz56g0tY/7ter43HRnA3db4DiaL3El9Y=",
+        "originContent": "## Contributors",
+        "translatedContent": "## 기여자"
+      },
+      {
         "row": 9,
-        "rowsha": "NlM6X3xmehtYQxDFh4rp296uuSRfD5UtrJLFI9PVbzU=",
-        "originContent": "*   AI Chatbot",
-        "translatedContent": "*   AI 챗봇"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "tqKIrfiMjCqzqR3fFxp/46YVXMBcvshvn7gbQyVf+H0=",
-        "originContent": "*   Multi-user support",
-        "translatedContent": "*   다중 사용자 지원"
+        "rowsha": "hFtt7NT6Yp6bbg7Hd8fQv9FvsVKo/lwNVHVMqgcemKw=",
+        "originContent": "<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">",
+        "translatedContent": "<a href=\"https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors\">"
       },
       {
         "row": 11,
-        "rowsha": "piLu+pE35VgV8JfICRXZDWpu5tLzjTqXoa0ArL58VS4=",
-        "originContent": "*   Family & Friends access",
-        "translatedContent": "*   가족 및 친구 접근"
+        "rowsha": "7G+/o51JMT4hxvVjqWgpqIgiQOTtrYg9TmzyAn/jYmk=",
+        "originContent": "  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>",
+        "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness\" width=\"100%\"/>"
       },
       {
         "row": 12,
-        "rowsha": "Nbs7fQdlT4YAc2NCkM7F+v1/h7GQcI2ifvwKR/gb8/A=",
-        "originContent": "*   Apple Health Data integration",
-        "translatedContent": "*   Apple Health 데이터 연동"
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
       },
       {
         "row": 13,
@@ -493,30 +1012,84 @@
       },
       {
         "row": 14,
-        "rowsha": "ynaxTgXW9p47UWwaX1IzBPRPqDQf0ddQn2VTuLeciqE=",
-        "originContent": "This application is under heavy development. Things may not work as expected due to the Supabase to PostgreSQL migration. BREAKING CHANGES might be introduced until the application is stable.",
-        "translatedContent": "이 애플리케이션은 활발히 개발 중입니다. Supabase에서 PostgreSQL로의 마이그레이션으로 인해 예상대로 동작하지 않을 수 있습니다. 애플리케이션이 안정화될 때까지 파괴적인 변경(BREAKING CHANGES)이 도입될 수 있습니다."
+        "rowsha": "CIUuOc2L4SWj003rk1/4u3SJEdKtW0JFQwSwpX3ehsg=",
+        "originContent": "## ⚠️ Known Issues / Beta Features ⚠️",
+        "translatedContent": "## ⚠️ 알려진 문제 / 베타 기능 ⚠️"
       },
       {
         "row": 15,
-        "rowsha": "LrLirXryFUQsew1WTqVwbXklVzpKvfo+r4qvDlkZEYQ=",
-        "originContent": "You might need to change Docker/environment variables for new releases. Therefore, auto-upgrades using Watchtower or similar apps are not recommended. Read release notes for any BREAKING CHANGES.",
-        "translatedContent": "새 릴리스를 위해 Docker/환경 변수를 변경해야 할 수도 있습니다. 따라서 Watchtower나 유사 앱을 통한 자동 업그레이드는 권장하지 않습니다. 파괴적인 변경(BREAKING CHANGES)에 대해서는 릴리스 노트를 반드시 확인하세요."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "3/OOpfWH1ECJ3JAsi562nfVq/XBytj+Mb0/2CWqHfXI=",
+        "originContent": "SparkyFitness is under active development.",
+        "translatedContent": "SparkyFitness는 활발히 개발 중입니다."
       },
       {
         "row": 17,
+        "rowsha": "nyMviFXQcW+Ft9qy3VfdZl//uIS8AqTDj5FloqGrMKk=",
+        "originContent": "Breaking changes may occur between releases.",
+        "translatedContent": "릴리스 간에 호환성 깨짐 현상이 발생할 수 있습니다."
+      },
+      {
+        "row": 18,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 18,
+        "row": 19,
+        "rowsha": "avgx4+JqUIUjDfsvpvFkk1uLPwIHifR00e0k+Z0WwYI=",
+        "originContent": "- Auto-updating containers is not recommended",
+        "translatedContent": "- 컨테이너의 자동 업데이트는 권장하지 않습니다"
+      },
+      {
+        "row": 20,
+        "rowsha": "mrUz5eLqroFfZ/32ayrQapZaxo7abAn7sowybSAgaTQ=",
+        "originContent": "- Always review release notes before upgrading",
+        "translatedContent": "- 업그레이드 전에 항상 릴리스 노트를 확인하세요"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "BA1rroRG8d1IPOcu7clbUfFRavppKw+Q0/647H8B8Fc=",
+        "originContent": "The following features are currently in beta and may not have been thoroughly tested. Expect potential bugs or incomplete functionality:",
+        "translatedContent": "다음 기능들은 현재 베타 버전이며 충분히 테스트되지 않았을 수 있습니다. 버그나 미완성 기능이 있을 수 있습니다:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "VSIYQOplOm5gLnuLgfacMZmo05YuW5sA5tBT7m5iMAg=",
+        "originContent": "- AI Chatbot",
+        "translatedContent": "- AI 챗봇"
+      },
+      {
+        "row": 25,
+        "rowsha": "6+VsvjDBQEpvjemaOcMLULQOucbXc8SQSUfYveej72g=",
+        "originContent": "- Family & Friends access",
+        "translatedContent": "- 가족 및 친구 접근"
+      },
+      {
+        "row": 26,
+        "rowsha": "sS+tpY+tGzscrHpLV4c97zDdIdwcmM5Srf/kHHaZDeE=",
+        "originContent": "- API documentation",
+        "translatedContent": "- API 문서"
+      },
+      {
+        "row": 27,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

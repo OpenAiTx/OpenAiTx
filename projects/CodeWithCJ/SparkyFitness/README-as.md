@@ -1,142 +1,128 @@
-
 <div align="right">
   <details>
     <summary >🌐 ভাষা</summary>
     <div>
       <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">ইংৰাজী</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">সহজ চীন</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">পৰম্পৰাগত চীন</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">জাপানী</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">কোৰিয়ান</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">হিন্দী</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">থাই</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">ফ্ৰান্সে</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">ফ্ৰেঞ্চ</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">জাৰ্মান</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">স্পেনীয়</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">স্পেনিছ</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">ইটালিয়ান</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">ৰাছিয়ান</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">পৰ্তুগীজ</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">ডাচ</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">পোলিশ</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">প’লিছ</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">আৰবী</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">ফাৰ্ছী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">তুৰ্কী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">ভিয়েতনামী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">ইণ্ডোনেছিয়ান</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">টাৰ্কিছ</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">ভিয়েটনামী</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">ইন্দোনেচিয়ান</a></p>
       </div>
     </div>
   </details>
 </div>
 
-# SparkyFitness - MyFitnessPal-ৰ Selfhosted বিকল্প
+# SparkyFitness
 
-SparkyFitness এটা ব্যাপক ফিটনেছ ট্রেকিং আৰু পৰিচালনা এপ্লিকেশন, যি ব্যৱহাৰকাৰীক পুষ্টি, ব্যায়াম, আৰু শৰীৰৰ মাপ নিয়ন্ত্ৰণ কৰাত সহায় কৰে। ই দৈনন্দিন অগ্ৰগতিৰ পৰ্যবেক্ষণ, লক্ষ্য নিৰ্ধাৰণ, আৰু স্বাস্থ্যকৰ জীৱনধাৰাৰ সহায়ত অৰ্থবোধক প্ৰতিবেদন দিবলৈ উপকৰণসমূহ প্ৰদান কৰে।
+এখন নিজা-হোষ্ট কৰা, গোপনীয়তাক প্ৰথম স্থান দিয়া MyFitnessPal ৰ বিকল্প। আপোনাৰ ডাটা সম্পূৰ্ণ নিয়ন্ত্ৰণ ৰাখি পুষ্টি, ব্যায়াম, দেহৰ মেট্ৰিক আৰু স্বাস্থ্য তথ্য ট্ৰেক কৰক।
 
-ডক্স: https://codewithcj.github.io/SparkyFitness
+![Screenshot](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ বৈশিষ্ট্যসমূহ
+SparkyFitness হৈছে এখন নিজা-হোষ্ট কৰা ফিটনেছ ট্ৰেকিং প্লাটফৰ্ম যি গঠিত হৈছে:
 
-### 🍎 পুষ্টি পৰ্যবেক্ষণ
+- এটা বেকএণ্ড ছাৰ্ভাৰ (API + ডাটা সংৰক্ষণ)
+- এটা ৱেব-ভিত্তিক ফ্ৰণ্টএণ্ড
+- iOS আৰু Android ৰ বাবে দেশজ ম'বাইল এপ্‌
 
-* **আপোনাৰ দৈনিক আহাৰৰ অভিলেখ ৰাখক**
-* **নিজস্ব খাদ্য আৰু শ্ৰেণীবোৰ সৃষ্টি কৰক আৰু পৰিচালনা কৰক**
-* **সংক্ষেপ চাওক আৰু ইন্টাৰেক্টিভ চাৰ্টৰ সহায়ত প্ৰৱণতা বিশ্লেষণ কৰক**
+এইটো আপোনাৰ নিয়ন্ত্ৰণৰ অবকাঠামোত স্বাস্থ্য তথ্য সংৰক্ষণ আৰু পৰিচালনা কৰে, বাহ্যিক তৃতীয় পক্ষৰ সেৱাত নিৰ্ভৰ নকৰে।
 
-### 💪 ব্যায়াম লগিং
+## মুখ্য বৈশিষ্ট্যবোৰ
 
-* **আপোনাৰ ব্যায়ামসমূহৰ ৰেকৰ্ড ৰাখক**
-* **বিস্তৃত ব্যায়াম ডেটাবেইচত চাৰ্চ আৰু সন্ধান কৰক**
-* **সময়চোৱাৰ সৈতে ফিটনেছ অগ্ৰগতি অনুসৰণ কৰক**
+- পুষ্টি, ব্যায়াম, জলীয়তা, শুই থকাৰ সময়, উপবাস, মনোভাৱ আৰু দেহৰ মাপ অনুসৰণ
+- লক্ষ্য নিৰ্ধাৰণ আৰু দৈনিক পৰ্যবেক্ষণ
+- আন্তঃক্রিয়াশীল চাৰ্ট আৰু দীঘলীয়া প্ৰতিবেদন
+- বহু ব্যৱহাৰকাৰী প্ৰফাইল আৰু পৰিয়ালিক প্ৰৱেশ
+- পোহৰ আৰু অন্ধকাৰ থীম
+- OIDC, TOTP, Passkey, MFA আদিসকল
 
-### 💧 পানী গ্ৰহণ পৰ্যবেক্ষণ
+## স্বাস্থ্য আৰু ডিভাইচ সংহতি
 
-* **দৈনিক পানী গ্ৰহণ লক্ষ্য অনুসৰণ কৰক**
-* **সহজ, তৎক্ষণাত পানী লগিং**
+SparkyFitness এ বহু স্বাস্থ্য আৰু ফিটনেছ প্লেটফৰ্মৰ পৰা ডেটা ছিংক কৰিব পাৰে:
 
-### 📏 শৰীৰৰ মাপ
+- **Apple Health** (iOS)
+- **Google Health Connect** (Android)
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow** (আংশিক পৰীক্ষিত)
+- **Hevy** (পৰীক্ষা কৰা হোৱা নাই)
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava** (আংশিক পৰীক্ষিত)
 
-* **শৰীৰৰ পৰিমাপ সংৰক্ষণ কৰক** (যেনে: ওজন, কোমৰ, বাহু)
-* **নিজস্ব মাপৰ ধৰণ যোগ কৰক**
-* **চাৰ্টৰ সহায়ত অগ্ৰগতি দৃশ্যায়ন কৰক**
+সংহতিসমূহে স্বয়ংক্ৰিয়ভাৱে পদক্ষেপ, ব্যায়াম, আৰু শুই থকাৰ সময়ৰ দৰে কৰ্যকলাপ ডেটা, লগতে ওজন আৰু দেহৰ মাপৰ দৰে স্বাস্থ্য সূচকবোৰ, আপোনাৰ SparkyFitness ছাৰ্ভাৰত ছিংক কৰে।
 
-### 🎯 লক্ষ্য নিৰ্ধাৰণ
+## ঐচ্ছিক AI বৈশিষ্ট্য (বেটা)
 
-* **ফিটনেছ আৰু পুষ্টি লক্ষ্য নিৰ্ধাৰণ আৰু পৰিচালনা কৰক**
-* **সময়চোৱাৰ সৈতে অগ্ৰগতি অনুসৰণ কৰক**
+SparkyAI এ ডেটা লগ কৰাৰ আৰু অগ্ৰগতি পৰ্যালোচনাৰ বাবে কথোপকথনমূলক ইন্টাৰফেচ প্ৰদান কৰে।
 
-### 🗓️ দৈনিক চেক-ইন
+- চেটৰ জৰিয়তে আহাৰ, ব্যায়াম, দেহৰ তথ্য আৰু পদক্ষেপ লগ কৰক
+- স্বয়ংক্ৰিয় আহাৰ লগিঙৰ বাবে আহাৰৰ ফটো আপল'ড কৰক
+- অনুসৰণৰ বাবে বাৰ্তালাপৰ ইতিহাস সংৰক্ষণ কৰে
 
-* **দৈনিক কাৰ্যকলাপ পৰ্যবেক্ষণ কৰক**
-* **অভ্যাস অনুসৰণৰ সহায়ত নিয়মিত থাকক**
+টোকা: AI বৈশিষ্ট্যসমূহ বৰ্তমান বিটা অৱস্থাত আছে।
 
-### 🤖 AI পুষ্টি কোচ (SparkyAI)
+## দ্ৰুত আৰম্ভণি (চাৰ্ভাৰ)
 
-* **চেটৰ সহায়ত খাদ্য, ব্যায়াম, শৰীৰৰ তথ্য আৰু পদক্ষেপ লগ কৰক**
-* **খাদ্যৰ ছবি আপলোড কৰি স্বয়ংক্ৰিয়ভাৱে আহাৰ লগ কৰক**
-* **চেট ইতিহাস আৰু ব্যক্তিগত পৰামৰ্শ অন্তর্ভুক্ত**
-
-### 🔒 ব্যৱহাৰকাৰী প্ৰমাণীকৰণ আৰু প্ৰ'ফাইলসমূহ
-
-* **সুৰক্ষিত লগইন ব্যৱস্থা**
-* **ব্যৱহাৰকাৰী প্ৰ'ফাইলসমূহৰ মাজত সলনি কৰক**
-* **পৰিয়ালৰ প্ৰৱেশ আৰু পৰিচালনাৰ সহায়তা**
-
-### 📊 বিস্তৃত প্ৰতিবেদনসমূহ
-
-* **পুষ্টি আৰু শৰীৰৰ পৰিমিতি বাবে চমু প্ৰতিবেদন তৈয়াৰ কৰক**
-* **সপ্তাহ বা মাহৰ ভিতৰত দীঘলীয়া প্ৰৱণতা অনুসৰণ কৰক**
-
-### 🎨 কাষ্টমাইজ কৰিব পৰা থীমসমূহ
-
-* **লাইট আৰু ডাৰ্ক ম'ডৰ মাজত সলনি কৰক**
-* **অত্যাধিক, মনোযোগ-নিৰ্বাচিত ইন্টাৰফেচৰ সৈতে ডিজাইন কৰা**
-
-### সহায়ৰ প্ৰয়োজন?
-* **Discordত যোগদান কৰক**
-  https://discord.gg/vcnMT5cPEA
-* **আলোচনাত পোষ্ট কৰক**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � দ্ৰুত আৰম্ভণি
-
-SparkyFitness কেই মিনিটত চলাও:
+ডকৰ কম্প'জ ব্যৱহাৰ কৰি কেইমিনিটতে এখন SparkyFitness চাৰ্ভাৰ চলাওক।
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
+## 🎥 ভিডিঅ’ টিউটৰিয়েল
 
-## 📖 নথিপত্ৰ
+[![ভিডিঅ’ চাওক](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
 
-সম্পূৰ্ণ ইনষ্টলেশ্যন গাইড, ডেভেলপমেন্ট ছেটআপ, আৰু ব্যৱহাৰৰ নিৰ্দেশনা বাবে আমাৰ বিস্তৃত নথিপত্ৰ চাওক:
+দু মিনিটৰ ছুটি টিউটৰিয়েল য’ত SparkyFitness (স্ব-হোষ্টেড ফিটনেছ ট্রেকাৰ) কেনেদৰে ইনষ্টল কৰিব দেখুৱোৱা হৈছে।
 
-**👉 [SparkyFitness নথিপত্ৰ সাইট](https://codewithcj.github.io/SparkyFitness)**
 
-### দ্ৰুত লিংকসমূহ
+## নথিপত্ৰ
 
-- **[🚀 আৰম্ভ কৰক](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - উন্নয়ন আৰু প্ৰডাকশ্যনৰ বাবে সম্পূৰ্ণ ছেটআপ গাইড
-- **[🐳 ডকাৰ গাইড](https://codewithcj.github.io/SparkyFitness/developer/docker)** - ডকাৰ ডিপ্লয়মেন্ট আৰু কনফিগাৰেচন
-- **[🔧 উন্নয়ন ৱাৰ্কফ্লো](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - ডেভেলপাৰ গাইড আৰু অৱদান প্ৰক্ৰিয়া  
-- **[📊 ফিচাৰসমূহৰ সংক্ষিপ্ত পৰ্যালোচনা](https://codewithcj.github.io/SparkyFitness/features/)** - সম্পূৰ্ণ ফিচাৰ নথিপত্ৰ
-- **[🏗️ স্থাপত্য](https://codewithcj.github.io/SparkyFitness/app-overview)** - প্ৰযুক্তিগত স্থাপত্য আৰু ডিজাইন
-- নমুনা পৰিবেশ ছেটআপ আৰু মোবাইল এপ কনফিগাৰেচন বাবে WIiki চাওক।
+সম্পূৰ্ণ ইনষ্টলেচন গাইড, কনফিগাৰেচন বিকল্প, আৰু ডেভেলপমেন্ট ডক্সৰ বাবে, অনুগ্ৰহ কৰি আমাৰ [নথিপত্ৰ ছাইট](https://codewithcj.github.io/SparkyFitness/) চাওক।
 
+### চুটি সংযোগসমূহ
+
+- **[ইনষ্টলেচন গাইড](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - ডিপ্লয়মেন্ট আৰু কনফিগাৰেচনসমূহ
+- **[বৈশিষ্ট্যসমূহৰ সংক্ষিপ্ত বিবৰণ](https://codewithcj.github.io/SparkyFitness/features)** - সম্পূৰ্ণ বৈশিষ্ট্য নথিপত্ৰ
+- **[ডেভেলপমেন্ট ৱাৰ্কফ্ল’](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - ডেভেলপাৰ গাইড আৰু অৱদান প্ৰক্ৰিয়া
+- **[iOS এপৰ তথ্য](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** আৰু **[Android এপৰ তথ্য](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
+
+### সহায়ৰ প্ৰয়োজন নেকি?
+
+- Github issues/discussion-ত পোস্ট কৰক।
+- দ্ৰুত উত্তৰৰ বাবে আৰু অন্য কমিউনিটী সদস্যৰ পৰা সহায় পাবলৈ **[আমাৰ Discord-ত যোগদান কৰক](https://discord.gg/vcnMT5cPEA)**
 
 ## ষ্টাৰ ইতিহাস
 
@@ -150,38 +136,41 @@ docker compose pull && docker compose up -d
 
 ## অনুবাদসমূহ
 
+**[Weblate অনুবাদসমূহ](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
+
+
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="অনুবাদ স্থিতি" />
 </a>
 
-## ৰিপ’জিট’ৰি কাৰ্যকলাপ
+## ৰেপ’জিটৰি ক্ৰিয়াকলাপ
 
 ![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats বিশ্লেষণ চিত্ৰ")
 
-
-## অৱদানকাৰী
+## অৱদানকাৰীসকল
 
 <a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ পৰিচিত সমস্যা / বিটা ফিচাৰ ⚠️
+## ⚠️ জনা সমস্যা / বিটা বৈশিষ্ট্যসমূহ ⚠️
 
-তলত উল্লেখ কৰা ফিচাৰসমূহ বৰ্তমান বিটা অৱস্থাত আছে আৰু সম্ভৱত সম্পূৰ্ণৰূপে পৰীক্ষা কৰা হোৱা নাই। সম্ভাৱ্য বাগ বা অপূৰ্ণ কাৰ্যক্ষমতাৰ আশা ৰাখক:
+SparkyFitness সদা উন্নয়নৰ অধীনত আছে।
+প্ৰত্যেক মুক্তিৰ মাজত ভাঙনি সলনি ঘটিব পাৰে।
 
-*   AI চেটবট
-*   বহু-ব্যৱহাৰকাৰী সমৰ্থন
-*   পৰিয়াল আৰু বন্ধুসকলৰ এক্সেছ
-*   এপল হেলথ ডাটা সংহতি
+- স্বচালিত আপডেট হোৱা কণ্টেইনাৰ ব্যৱহাৰ সুপারিশ কৰা নহয়
+- সদায় আপগ্ৰেড কৰাৰ আগতে মুক্তি টোকা পৰ্যালোচনা কৰক
 
-এই এপ্লিকেশ্যনটোত ব্যাপক উন্নয়ন চলি আছে। Supabase ৰ পৰা PostgreSQL লৈ স্থানান্তৰৰ বাবে বহু বস্তু আশা কৰা অনুসৰি কাম নকৰিব পাৰে। এপ্লিকেশ্যনটো স্থিৰ নোহোৱা পৰ্যন্ত BREAKING CHANGES আহিব পাৰে।
-নতুন সংস্কৰণৰ বাবে আপোনাক Docker/পৰিবেশ ভেৰিয়েব্লসমূহ সলনি কৰিব লগা হ’ব পাৰে। সেইবাবে, Watchtower বা অনুৰূপ এপ ব্যৱহাৰ কৰি অটো-আপগ্ৰেড সুপারিশ কৰা নহয়। BREAKING CHANGES ৰ বাবে মুক্তি টোকা পঢ়ক।
+তলত উল্লেখ কৰা বৈশিষ্ট্যসমূহ বৰ্তমানে বিটা অৱস্থাত আছে আৰু সম্ভৱত পৰ্যাপ্তভাৱে পৰীক্ষা কৰা হোৱা নাই। সম্ভাৱ্য বাগ বা অসম্পূৰ্ণ কাৰ্যক্ষমতা আশা কৰিব পাৰে:
 
-
+- AI চেটবট
+- পৰিয়াল আৰু বন্ধুসকলৰ প্ৰৱেশ
+- API নথিপত্ৰ
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---

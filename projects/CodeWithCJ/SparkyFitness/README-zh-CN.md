@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 语言</summary>
@@ -14,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
@@ -29,92 +28,73 @@
   </details>
 </div>
 
-# SparkyFitness - MyFitnessPal 的自托管替代方案
+# SparkyFitness
 
-SparkyFitness 是一款全面的健身跟踪与管理应用，旨在帮助用户监控营养、锻炼和身体数据。它提供每日进展跟踪、目标设定和有洞察力的报告工具，支持健康生活方式。
+一个自托管、隐私优先的 MyFitnessPal 替代方案。在完全控制自己数据的前提下，跟踪营养、锻炼、身体指标和健康数据。
 
-文档：https://codewithcj.github.io/SparkyFitness
+![截图](https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docs/public/web_screenshot.png)
 
-## ✨ 功能亮点
+SparkyFitness 是一个由以下部分组成的自托管健身追踪平台：
 
-### 🍎 营养追踪
-* **记录您的每日饮食**
-* **创建和管理自定义食物与类别**
-* **通过交互式图表查看摘要并分析趋势**
+- 后端服务器（API + 数据存储）
+- 基于 Web 的前端
+- 适用于 iOS 和 Android 的原生移动应用
 
-### 💪 运动记录
+它在您可控的基础设施上存储和管理健康数据，无需依赖第三方服务。
 
-* **记录您的锻炼**
-* **浏览和搜索全面的运动数据库**
-* **跟踪健身进展**
+## 核心功能
 
-### 💧 饮水摄入监控
+- 营养、锻炼、饮水、睡眠、禁食、情绪和身体测量跟踪
+- 目标设定与每日签到
+- 交互式图表和长期报告
+- 多用户档案和家庭访问
+- 浅色和深色主题
+- OIDC、TOTP、Passkey、多因素认证等
 
-* **跟踪每日饮水目标**
-* **简单快捷地记录饮水**
+## 健康与设备集成
 
-### 📏 身体测量
+SparkyFitness 可从多个健康与健身平台同步数据：
 
-* **记录身体指标**（如体重、腰围、臂围）
-* **添加自定义测量类型**
-* **通过图表可视化进展**
+- **Apple Health**（iOS）
+- **Google Health Connect**（Android）
+- **Fitbit**
+- **Garmin Connect**
+- **Withings**
+- **Polar Flow**（部分测试）
+- **Hevy**（未测试）
+- **OpenFoodFacts**
+- **USDA**
+- **Fatsecret**
+- **Nutritioninx**
+- **Mealie**
+- **Tandoor**
+- **Strava**（部分测试）
 
-### 🎯 目标设定
+集成会自动将步数、锻炼和睡眠等活动数据，以及体重和身体测量等健康指标，同步到您的 SparkyFitness 服务器。
 
-* **设定和管理健身与营养目标**
-* **跟踪进展情况**
+## 可选 AI 功能（测试版）
 
-### 🗓️ 每日签到
+SparkyAI 提供用于记录数据和回顾进展的对话界面。
 
-* **监控每日活动**
-* **通过习惯追踪保持一致性**
+- 通过聊天记录饮食、锻炼、身体数据和步数
+- 上传食物图片，实现自动膳食记录
+- 保留对话历史以便后续跟进
 
-### 🤖 AI营养教练（SparkyAI）
+注意：AI 功能目前处于测试阶段。
 
-* **通过聊天记录食物、锻炼、身体数据和步数**
-* **上传食物图片自动记录餐饮**
-* **包括聊天历史和个性化指导**
+## 快速开始（服务器）
 
-### 🔒 用户认证与个人资料
-
-
-* **安全登录系统**
-* **在用户资料之间切换**
-* **支持家庭访问和管理**
-
-### 📊 综合报告
-
-* **生成营养和身体指标摘要**
-* **跟踪数周或数月的长期趋势**
-
-### 🎨 可自定义主题
-
-* **切换浅色和深色模式**
-* **采用极简、无干扰界面设计**
-
-### 需要帮助？
-* **加入 Discord**
-  https://discord.gg/vcnMT5cPEA
-* **在讨论区发帖**
-
-
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## � 快速开始
-
-几分钟内让 SparkyFitness 运行起来：
+使用 Docker Compose 可在几分钟内部署 SparkyFitness 服务器。
 
 ```bash
 # 1. Create a new folder
 mkdir sparkyfitness && cd sparkyfitness
 
 # 2. Download Docker files only
-curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
-curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
+curl -L -o docker-compose.yml https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/docker-compose.prod.yml
+curl -L -o .env https://github.com/CodeWithCJ/SparkyFitness/releases/latest/download/default.env.example
 
-# 3. (Optional) Edit .env to customize your setup
-# e.g., update database credentials, ports, etc.
-# if you require Gamrin integration, uncomment Garmin section from compose file.
+# 3. (Optional) Edit .env to customize database credentials, ports, etc.
 
 # 4. Start the app
 docker compose pull && docker compose up -d
@@ -122,21 +102,28 @@ docker compose pull && docker compose up -d
 # Access application at http://localhost:8080
 ```
 
-## 📖 文档
+## 🎥 视频教程
 
-如需完整的安装指南、开发环境搭建和使用说明，请访问我们的综合文档：
+[![观看视频](https://img.youtube.com/vi/B13IiL2DeQc/maxresdefault.jpg)](https://www.youtube.com/watch?v=B13IiL2DeQc)
 
-**👉 [SparkyFitness 文档站点](https://codewithcj.github.io/SparkyFitness)**
+快速 2 分钟教程，演示如何安装 SparkyFitness（自托管健身追踪器）。
 
-### 快速链接
 
-- **[🚀 快速开始](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 开发与生产环境完整搭建指南
-- **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署与配置说明
-- **[🔧 开发工作流](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 开发者指南及贡献流程  
-- **[📊 功能概览](https://codewithcj.github.io/SparkyFitness/features/)** - 完整功能文档
-- **[🏗️ 架构](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技术架构与设计说明
-- 参考 Wiki 获取示例环境配置及移动端应用设置。
+## 文档
 
+如需完整的安装指南、配置选项和开发文档，请访问我们的[文档网站](https://codewithcj.github.io/SparkyFitness/)。
+
+### 快捷链接
+
+- **[安装指南](https://codewithcj.github.io/SparkyFitness/install/docker-compose)** - 部署与配置
+- **[功能概览](https://codewithcj.github.io/SparkyFitness/features)** - 完整功能文档
+- **[开发流程](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 开发者指南与贡献流程
+- **[iOS 应用信息](https://github.com/CodeWithCJ/SparkyFitness/wiki/Apple-Health-Integration)** 与 **[Android 应用信息](https://github.com/CodeWithCJ/SparkyFitness/wiki/Android-Mobile-App)**
+
+### 需要帮助？
+
+- 在 Github issues/discussion 发帖。
+- 想要更快获得响应并与社区成员互动，**[加入我们的 Discord](https://discord.gg/vcnMT5cPEA)**
 
 ## Star 历史
 
@@ -150,14 +137,16 @@ docker compose pull && docker compose up -d
 
 ## 翻译
 
+**[Weblate 翻译](https://hosted.weblate.org/engage/sparkyfitness)**
+
 <a href="https://hosted.weblate.org/engage/sparkyfitness/">
+
 <img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="翻译状态" />
 </a>
 
-## 仓库活动
+## 代码仓库活动
 
-![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析图片")
-
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析图像")
 
 ## 贡献者
 
@@ -165,23 +154,23 @@ docker compose pull && docker compose up -d
   <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
 </a>
 
-### ⚠️ 已知问题 / 测试版功能 ⚠️
+## ⚠️ 已知问题 / Beta 功能 ⚠️
 
-以下功能目前处于测试阶段，可能尚未经过充分测试。请预期可能存在的漏洞或功能不完整：
+SparkyFitness 正在积极开发中。
+版本间可能会有重大更改。
 
-*   AI 聊天机器人
-*   多用户支持
-*   家庭和朋友访问
-*   Apple Health 数据集成
+- 不推荐自动更新容器
+- 升级前请务必查看发布说明
 
-该应用正在密集开发中。由于 Supabase 到 PostgreSQL 的迁移，某些功能可能无法如预期工作。在应用程序稳定之前，可能会引入重大变更（BREAKING CHANGES）。
-您可能需要在新版本中更改 Docker/环境变量。因此，不建议使用 Watchtower 或类似应用进行自动升级。请阅读发布说明以了解任何重大变更（BREAKING CHANGES）。
+以下功能目前处于测试版，可能尚未经过充分测试。请预期可能存在缺陷或功能不完整：
 
-
+- AI 聊天机器人
+- 家庭和朋友访问
+- API 文档
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-20
 
 ---
