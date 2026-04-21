@@ -1,0 +1,668 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Mestgi4K6y7NB+nVaIPjq47dEjKc+LiBuSQiajpEt2o=",
+    "originContent": "# netevent",
+    "translatedContent": "# netevent"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "1SLLNy3fio4INJH0bi2l8D5h9UUkFlq6UTxb/JiAaIY=",
+    "originContent": "Netevent is a tool which can be used to share linux event devices with other",
+    "translatedContent": "Netevent는 리눅스 이벤트 장치를 다른"
+  },
+  {
+    "row": 4,
+    "rowsha": "7hKBbNt96wwOf+VThESlEu20DODR+i+pmZ52S+esMIo=",
+    "originContent": "machines (either via `/dev/uinput` or by implementing a client for the same",
+    "translatedContent": "기기와 공유할 수 있는 도구입니다 (`/dev/uinput`을 통해서든 동일한"
+  },
+  {
+    "row": 5,
+    "rowsha": "KhPr5EFjHt3C9vNjNUQf7O3gUfxPxIcKkbMKeywjoPw=",
+    "originContent": "protocol with other means).",
+    "translatedContent": "프로토콜의 클라이언트를 다른 수단으로 구현하든 상관없습니다)."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "0Rybh8qYWISU57U37Xg+Uo4AbBG6MSwknETY7swDEDo=",
+    "originContent": "Originally it simply dumped device capabilities to stdout and afterwards",
+    "translatedContent": "원래는 단순히 장치 기능을 stdout으로 출력하고 이후에는"
+  },
+  {
+    "row": 8,
+    "rowsha": "IaQ32aKBVwoUeK5tMGLQNwxje1lfM+VnZ+WGHRA/8/o=",
+    "originContent": "behaved like running `cat /dev/input/eventX` in one mode, and in the other",
+    "translatedContent": "한 모드에서는 `cat /dev/input/eventX`를 실행하는 것처럼 동작했고,"
+  },
+  {
+    "row": 9,
+    "rowsha": "HJk6FRkEYXBwNxvOQPe+DAcrHysma7RGwfzYvZqwMu4=",
+    "originContent": "passed the parsed capabilities to `/dev/uinput` and then passing events",
+    "translatedContent": "다른 모드에서는 파싱된 기능을 `/dev/uinput`에 전달한 후 이벤트를"
+  },
+  {
+    "row": 10,
+    "rowsha": "xoq/It1tfVydUFLhPLp9wPYe6Pal9qJNrNY1iL07hg8=",
+    "originContent": "through.",
+    "translatedContent": "전달했습니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "j2dmKix2fNDJue5thXa7IMtNG2bq7guaahBJ/aaaRFk=",
+    "originContent": "Since managing this for multiple devices can become tedious when having more",
+    "translatedContent": "여러 목적지가 있을 때 여러 장치를 관리하는 것이 번거로워질 수 있으므로"
+  },
+  {
+    "row": 13,
+    "rowsha": "wXHJtHi+Pglg7kQpDzMF1ShNylSr3NMgwoYWsprFe5M=",
+    "originContent": "than one destination (and since the original grab/toggle/hotkey mechanisms were",
+    "translatedContent": "(그리고 원래의 grab/toggle/hotkey 메커니즘이 이상하고 저의 개인 사용 사례에"
+  },
+  {
+    "row": 14,
+    "rowsha": "9fUV2lYNcsZ2fK7JSjQaUapgOTuuFcfngJv1DaKipJs=",
+    "originContent": "weird and literally targeted my personal use case), netevent2 now extends the",
+    "translatedContent": "맞춰져 있었기 때문에), netevent2는 이제"
+  },
+  {
+    "row": 15,
+    "rowsha": "jzvriIPDb6+h1EikU6rz7IC742YjwNQomQl56Pt89kI=",
+    "originContent": "protocol to contain packets which can contain more than one device and can add",
+    "translatedContent": "한 패킷에 여러 장치를 포함할 수 있고 장치를 실시간으로 추가 및"
+  },
+  {
+    "row": 16,
+    "rowsha": "0dQzJDs7BXwvnrhrd1Vf4DlaSIElW18ZQ1bFq76T6vQ=",
+    "originContent": "and remove devices on the fly.",
+    "translatedContent": "제거할 수 있는 패킷을 포함하도록 프로토콜을 확장했습니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "HIWqrdebx6qIdOl/IPI+ga/rj7/Irw3AS2+4Jaeq05A=",
+    "originContent": "The original `cat` like behavior (although currently without hotkey support)",
+    "translatedContent": "원래의 `cat`과 같은 동작(현재는 핫키 지원 없이)도 디버깅 용도로"
+  },
+  {
+    "row": 19,
+    "rowsha": "phasCELm0Z59XwLor0SwoKRixmYYANLsnmmfCyVqPNE=",
+    "originContent": "is also available for debugging purposes (and the `create` mode supports both",
+    "translatedContent": "사용 가능하며(`create` 모드는 두 프로토콜 버전을 모두 지원합니다)."
+  },
+  {
+    "row": 20,
+    "rowsha": "+rzdjcJQ7VmUofzKhfCqAl0E4oe3+p/sjfssA83HC8U=",
+    "originContent": "protocol versions).",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "주요 도구는 이제 명령 소켓(선택적으로 추상 유닉스 소켓)이 있는"
+  },
+  {
+    "row": 22,
+    "rowsha": "Aw1c7X/kIpx38mznrH258iD3XWhpy+Ltfay9sTzYQvE=",
+    "originContent": "The main tool is now the `netevent daemon` which has a command socket (an",
+    "translatedContent": "`netevent daemon`으로, 이를 통해 장치, 출력 및"
+  },
+  {
+    "row": 23,
+    "rowsha": "S4zYXczDN/he285chUSnCCHllJQPOMNBV5HnlG9xd84=",
+    "originContent": "optionally abstract unix socket) via which one can add devices, outputs and",
+    "translatedContent": "핫키를 실시간으로 추가할 수 있습니다. 아래 예제를 참조하십시오."
+  },
+  {
+    "row": 24,
+    "rowsha": "nXly65PkohztxCbKRCnUzg5IirM39i9fAJhQc0j94F8=",
+    "originContent": "hotkeys on the fly. See the examples below.",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 컴파일"
+  },
+  {
+    "row": 26,
+    "rowsha": "wRgwI3+CHRNenMnhXG+WoSHWo4ra0iOBLkgDLE5gBTk=",
+    "originContent": "## Compilation",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 선택사항: `./configure --prefix=/usr`"
+  },
+  {
+    "row": 28,
+    "rowsha": "KV5oi6GAjjvoJNphPTgHKpFnJ4CKX4bXf1ppg6V9DCg=",
+    "originContent": "* optionally: `./configure --prefix=/usr`",
+    "translatedContent": "* `make`"
+  },
+  {
+    "row": 29,
+    "rowsha": "kzhv77Ms2pad4kwdc3dgWgJGHL9ccGoAuLVr1ywrMk4=",
+    "originContent": "* `make`",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이전처럼 여전히 `make`만 실행해도 됩니다. 다만 일반적인"
+  },
+  {
+    "row": 31,
+    "rowsha": "RKPvaJhjTMlS6ld92IzSTMW85gHtVZne+BTGNsJJMbA=",
+    "originContent": "You can still just run `make` as before. However, to support the usual",
+    "translatedContent": "설치 워크플로우를 지원하고, `/dev/uinput`이 `UI_DEV_SETUP` `ioctl`로 확장된"
+  },
+  {
+    "row": 32,
+    "rowsha": "Q8z36xTtM3Ni7EIduBWKOSFXt1O1bwYy2kdlAh0WrOk=",
+    "originContent": "installation workflows, and to distinguish between systems with newer kernels",
+    "translatedContent": "최신 커널 시스템과 구분하기 위해,"
+  },
+  {
+    "row": 33,
+    "rowsha": "WlwEVSLc1J43Gyp0VdUqDQ9ikl1Ggnay9Z2w5j5RiN0=",
+    "originContent": "where `/dev/uinput` has been extended with a `UI_DEV_SETUP` `ioctl`, a",
+    "translatedContent": "`./configure` 스크립트가 추가되어 이를 검사하고 `config.h`"
+  },
+  {
+    "row": 34,
+    "rowsha": "JrIpZUTZnf7dwbf0ETrXvmSj4FU4tuMXALKUQGwJljo=",
+    "originContent": "`./configure` script has been added to check for this and create a `config.h`",
+    "translatedContent": "및 `config.mak`를 생성하며 PREFIX/BINDIR/... 설정을 포함합니다"
+  },
+  {
+    "row": 35,
+    "rowsha": "AOdOTyFhZd/xiHPBBu1U4q5KOnRXoe9sgV1XQdL6c50=",
+    "originContent": "as well as a `config.mak` for PREFIX/BINDIR/... (all of which can be passed as",
+    "translatedContent": "(이 모든 변수는 일반적인 `DESTDIR`과 함께 직접 `make`에 전달할 수도 있습니다)."
+  },
+  {
+    "row": 36,
+    "rowsha": "zRQ/eUR7XPUacv86IDNJAtgU7ae5iOHeTr2e0bnksV0=",
+    "originContent": "variables directly to `make` instead as well, along with the usual `DESTDIR`).",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 38,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `make install` 또는 `make DESTDIR=/my/staging/dir install`"
+  },
+  {
+    "row": 40,
+    "rowsha": "m0KjHf2g8uZUdu5anV3n2v5z7xYagA9CLeTV7tw4PXE=",
+    "originContent": "* `make install` or `make DESTDIR=/my/staging/dir install`",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는: 이전과 같이 `netevent` 바이너리를 아무 곳에나 두면 됩니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "lJXQQeSY6y4FbIvBOhh8M1KMkztdkr/IXNKF10xMgFI=",
+    "originContent": "Or: as previously, just put the `netevent` binary wherever.",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 44,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "아래 설정 스크립트에서 사용된 명령어에 대한 자세한 내용은 netevent(1)의 DAEMON COMMANDS 섹션을 참조하세요."
+  },
+  {
+    "row": 46,
+    "rowsha": "DKXwMn1ZgStyXRINboH+D6nTRPk3QqWL7EJDIZMOm+s=",
+    "originContent": "See the DAEMON COMMANDS section in netevent(1) for details on the commands used",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "iGdHWWwurXnzND9mcqzP1eBbQmo1ZNd81LFpKT6Z0Xo=",
+    "originContent": "in the setup scripts below.",
+    "translatedContent": "### 예제"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+    "originContent": "### Examples",
+    "translatedContent": "`examples/` 디렉토리를 참조하세요. 아래 setup-example을 읽어 핫키 라인을 장치에 맞게 조정하는 방법을 확인하세요."
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "t0Ookw1BYlBBrvhdGCh4717ONxZBTRCOazyhgni17SU=",
+    "originContent": "See the `examples/` directory. Read the setup-example below to see how to adapt",
+    "translatedContent": "#### 간단한 예제 설정: ssh를 통해 키보드 및 마우스 공유하기:"
+  },
+  {
+    "row": 52,
+    "rowsha": "F9gn7MK4GvlwkJrlFW6rvL2Sd02xNn4IQpy9k1sYj0k=",
+    "originContent": "the hotkey lines to work with your devices.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "호스트 측:"
+  },
+  {
+    "row": 54,
+    "rowsha": "oTlmH+1aXQhzlqlDhuwqaXaoLqKNILs3Fk6lVOC6+WA=",
+    "originContent": "#### Simple example setup: sharing keyboard & mouse with a machine via ssh:",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 준비: 사용자로서 이벤트 장치에 접근할 수 있는지 확인"
+  },
+  {
+    "row": 56,
+    "rowsha": "t/AJ1FiIoVrZPr04CCD+imtsOLKkQBKqqgdbU7YB6OM=",
+    "originContent": "Host side:",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    보통은 `gpasswd -a myuser input` 같은 명령을 실행합니다."
+  },
+  {
+    "row": 58,
+    "rowsha": "Hy+nW6xiYtxgl8xlHFYsqaKN2KzWjKQm8qbgY8A7PQg=",
+    "originContent": "* Preparation: Make sure we can access event devices as a user",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 1단계: 전달할 /dev/input/eventXY 장치를 결정합니다."
+  },
+  {
+    "row": 60,
+    "rowsha": "34S5BCpQ92B6EQcr6ZJ7VZmtx8GLD8hD9zMeRpnSHl8=",
+    "originContent": "    Usually this means running something like `gpasswd -a myuser input`",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    일관된 파일 이름을 위해 다음과 같이 사용하세요:"
+  },
+  {
+    "row": 62,
+    "rowsha": "s/dmY6xVTQkVUiu9KwK8JkDwqpKQSL4QeeZDwKkn2xU=",
+    "originContent": "* Step 1: Decide which /dev/input/eventXY devices to pass through.",
+    "translatedContent": "    `/dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd`"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    `/dev/input/by-id/usb-BestMouseEver-event-mouse`"
+  },
+  {
+    "row": 64,
+    "rowsha": "Rw32TgR6ysfXAlCiPOR5G8PJSvMesdBnASeCLDF3hlY=",
+    "originContent": "    For consistent file names use something like:",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "HM2gtcY+o6CYskO/aRq+Zcu0YflMTwCLWGhs/vJEcDg=",
+    "originContent": "    `/dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd`",
+    "translatedContent": "* 2단계: 핫키를 결정하고 해당 이벤트 코드를 찾습니다:"
+  },
+  {
+    "row": 66,
+    "rowsha": "cUVrgxT78WkPmXvsyGQ0erXdSgJqCUGGoXRIQ9yp344=",
+    "originContent": "    `/dev/input/by-id/usb-BestMouseEver-event-mouse`",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    위 예제에서는 키보드의 키를 사용하려고 합니다 (마우스 버튼이 엄청 많지 않은 한…)."
+  },
+  {
+    "row": 68,
+    "rowsha": "yWQURpIoBRcjEjfLL91QbwRrpIMs3w1k3mRIikmcjxM=",
+    "originContent": "* Step 2: Decide on a hotkey and find its event code:",
+    "translatedContent": "    `netevent`는 이벤트를 읽기 쉽게 덤프하는 데 사용할 수 있으며, 장치에서 `show` 서브커맨드를 실행하고 핫키로 사용할 키를 누릅니다."
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    이 명령을 입력하는 키보드가 같다면, netevent가 엔터 키 릴리즈를 감지하여 혼동하지 않도록 sleep을 미리 넣으세요."
+  },
+  {
+    "row": 70,
+    "rowsha": "6dE9rKTY/PNrn7Hr/TMdPINpdAQL9e7cTVUiS6c5mkg=",
+    "originContent": "    In the above example we want to use a key on the keyboard (unless you",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "rEgZ3zE7c1jYOUEgWn/3tsOZfVzEeV91FgZZYbUMC50=",
+    "originContent": "    have an insane amount of mouse buttons...).",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "pXrHqHm6i/Yf0K7JOT6vYIoig9ayBFzWoV39dRoU9NQ=",
+    "originContent": "    `netevent` can be used to dump events in a readable way, run the `show`",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "v17kq3eqRpP5IYsQGhJpLo+EqNVo/RDqbBRYWNzD1/A=",
+    "originContent": "    subcommand on the device and press the keys you want to use for hotkeys.",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "/MzxB66L/8O/8DJmtvDJHbdZPoDxXTlQqYq/B0eXVoc=",
+    "originContent": "    If this is the same keyboard you're typing in the command with , prepend a",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "pWfEW+oUKFx7imRJBfTVpcCKknjiW9u8ST0tVBx07es=",
+    "originContent": "    sleep to avoid confusion when netevent picks up the release of the enter",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "zw9tAErI+onCCUPMfX4e627puMkt33JHlG8+yWlHTb8=",
+    "originContent": "    key.",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 78,
+    "rowsha": "Z76cwCSQw893sDT17StWjLXt4EVmVcUIlxybQaaZgZM=",
+    "originContent": "    $ sleep 0.3 && netevent show /dev/input/by-id/usb-...-event-kbd",
+    "translatedContent": "    $ sleep 0.3 && netevent show /dev/input/by-id/usb-...-event-kbd"
+  },
+  {
+    "row": 79,
+    "rowsha": "URNoLBPYWaKSQZt/KxvE0Gpq5JwA/vdvzj2IwiWGV0M=",
+    "originContent": "    MSC:4:3829",
+    "translatedContent": "    MSC:4:3829"
+  },
+  {
+    "row": 80,
+    "rowsha": "wgI4SBdaWVCFWydnV3glRhDHQy7ZROmMNLNj4kPBhP4=",
+    "originContent": "    KEY:189:1",
+    "translatedContent": "    KEY:189:1"
+  },
+  {
+    "row": 81,
+    "rowsha": "5Seb9+2v8w8aYPzMiUzxKanxnFYsMPdZBQ101hs+ixI=",
+    "originContent": "    SYN:0:0",
+    "translatedContent": "    SYN:0:0"
+  },
+  {
+    "row": 82,
+    "rowsha": "URNoLBPYWaKSQZt/KxvE0Gpq5JwA/vdvzj2IwiWGV0M=",
+    "originContent": "    MSC:4:3829",
+    "translatedContent": "    MSC:4:3829"
+  },
+  {
+    "row": 83,
+    "rowsha": "JA2d+P9gXZVODvC4o0iQNij5lLihIHVyACsnKF/cPN4=",
+    "originContent": "    KEY:189:0",
+    "translatedContent": "    KEY:189:0"
+  },
+  {
+    "row": 84,
+    "rowsha": "5Seb9+2v8w8aYPzMiUzxKanxnFYsMPdZBQ101hs+ixI=",
+    "originContent": "    SYN:0:0",
+    "translatedContent": "    SYN:0:0"
+  },
+  {
+    "row": 85,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 3단계: 데몬용 설정 스크립트를 준비합니다:"
+  },
+  {
+    "row": 87,
+    "rowsha": "hdvCBrchIneZB8p5ffLQW213ihUuz+DhDTz5b64uqV8=",
+    "originContent": "* Step 3: Prepare a setup script for the daemon:",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 90,
+    "rowsha": "Pz5MmzEaXTukXlunfG9GbvDgK0dS+j72lB3k/WdMJrQ=",
+    "originContent": "    # file: netevent-setup.ne2",
+    "translatedContent": "    # file: netevent-setup.ne2"
+  },
+  {
+    "row": 91,
+    "rowsha": "zdlgjWmkw/DCmJ+jhVdGXm9xI4uOJy6CAY7WJS+/+a0=",
+    "originContent": "    # Add mouse & keyboard",
+    "translatedContent": "    # Add mouse & keyboard"
+  },
+  {
+    "row": 92,
+    "rowsha": "Dm+DpEa6eEG55KMx43sfoDjHuO2CMcaWe8eQPhM+evo=",
+    "originContent": "    device add mymouse /dev/input/by-id/usb-BestMouseEver-event-mouse",
+    "translatedContent": "    device add mymouse /dev/input/by-id/usb-BestMouseEver-event-mouse"
+  },
+  {
+    "row": 93,
+    "rowsha": "RIpowAZTI9cdje0nJBtuO4hMMLCqEXUcooq4j2110ww=",
+    "originContent": "    device add mykbd /dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd",
+    "translatedContent": "    device add mykbd /dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "p3ovggwVku9QJ8actpiN7TexA0fvBROeVRyxAXZgk9Y=",
+    "originContent": "    # Add toggle hotkey (on press, and ignore the release event)",
+    "translatedContent": "    # Add toggle hotkey (on press, and ignore the release event)"
+  },
+  {
+    "row": 96,
+    "rowsha": "/RG5I/QJs3MNGISc2+y0VrpYkdEpB6fMfjPyrGMZjl4=",
+    "originContent": "    hotkey add mykbd key:189:1 grab-devices toggle\\; write-events toggle",
+    "translatedContent": "    hotkey add mykbd key:189:1 grab-devices toggle\\; write-events toggle"
+  },
+  {
+    "row": 97,
+    "rowsha": "xGQgRE15s+23+jwpPuhcD5vrFpqNaYqynJOUuTc9yH8=",
+    "originContent": "    hotkey add mykbd key:189:0 nop",
+    "translatedContent": "    hotkey add mykbd key:189:0 nop"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "ATW07/a2jkpZEx//Cewxoci55xUb2T+U+t9btQ/jVyg=",
+    "originContent": "    # Connect to the two devices via password-less ssh",
+    "translatedContent": "    # Connect to the two devices via password-less ssh"
+  },
+  {
+    "row": 100,
+    "rowsha": "MWEsSQW6xYjtI8y4OtJgCMY4LtnHX/JDEMqWFAfoSe0=",
+    "originContent": "    output add myremote exec:ssh user@other-host netevent create",
+    "translatedContent": "    output add myremote exec:ssh user@other-host netevent create"
+  },
+  {
+    "row": 101,
+    "rowsha": "0xZVWojH7PViLmyJ3VpF/zkkXTSzt+rk+iuBWiYls4U=",
+    "originContent": "    # Select the output to write to",
+    "translatedContent": "    # Select the output to write to"
+  },
+  {
+    "row": 102,
+    "rowsha": "RAdjEl8PaIaeQAu4VkipjQeqywQ9cGVQnGNAfRD4eqw=",
+    "originContent": "    use myremote",
+    "translatedContent": "    use myremote"
+  },
+  {
+    "row": 103,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 4단계: netevent 데몬 실행:"
+  },
+  {
+    "row": 105,
+    "rowsha": "p4BMRxgdMbli+ZOupv0ZMfVE8ajlS8z0GG0OBfoAoq8=",
+    "originContent": "* Step 4: Run the netevent daemon:",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    `$ netevent daemon -s netevent-setup.ne2 netevent-command.sock`"
+  },
+  {
+    "row": 107,
+    "rowsha": "P7bQDgdlkDytlvkuTJjA1tPqV+RUKt79lli/rsJhCJ0=",
+    "originContent": "    `$ netevent daemon -s netevent-setup.ne2 netevent-command.sock`",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이제 소켓에 연결하여 데몬에 추가 명령을 보낼 수 있습니다."
+  },
+  {
+    "row": 109,
+    "rowsha": "8QnO+kHMl5/gB5bwM7CYZ3OF+LhGNeNUYJGpB5+licU=",
+    "originContent": "You can now send additional commands to the daemon by connecting to the socket.",
+    "translatedContent": "예를 들어 `socat READLINE UNIX-CONNECT:netevent-command.sock`을 통해 가능합니다."
+  },
+  {
+    "row": 110,
+    "rowsha": "S1tUFgMOm7F1oRO0+mviG+7zh4Kx4bbZGJTEGGOnEI8=",
+    "originContent": "For example via `socat READLINE UNIX-CONNECT:netevent-command.sock`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

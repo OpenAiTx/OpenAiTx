@@ -1,0 +1,746 @@
+[
+  {
+    "Id": 1,
+    "Content": "# netevent\n\nNetevent is a tool which can be used to share linux event devices with other\nmachines (either via `/dev/uinput` or by implementing a client for the same\nprotocol with other means).\n\nOriginally it simply dumped device capabilities to stdout and afterwards\nbehaved like running `cat /dev/input/eventX` in one mode, and in the other\npassed the parsed capabilities to `/dev/uinput` and then passing events\nthrough.\n\nSince managing this for multiple devices can become tedious when having more\nthan one destination (and since the original grab/toggle/hotkey mechanisms were\nweird and literally targeted my personal use case), netevent2 now extends the\nprotocol to contain packets which can contain more than one device and can add\nand remove devices on the fly.\n\nThe original `cat` like behavior (although currently without hotkey support)\nis also available for debugging purposes (and the `create` mode supports both\nprotocol versions).\n\nThe main tool is now the `netevent daemon` which has a command socket (an\noptionally abstract unix socket) via which one can add devices, outputs and\nhotkeys on the fly. See the examples below.\n\n## Compilation\n\n* optionally: `./configure --prefix=/usr`\n* `make`\n\nYou can still just run `make` as before. However, to support the usual\ninstallation workflows, and to distinguish between systems with newer kernels\nwhere `/dev/uinput` has been extended with a `UI_DEV_SETUP` `ioctl`, a\n`./configure` script has been added to check for this and create a `config.h`\nas well as a `config.mak` for PREFIX/BINDIR/... (all of which can be passed as\nvariables directly to `make` instead as well, along with the usual `DESTDIR`).\n\n## Installation\n\n* `make install` or `make DESTDIR=/my/staging/dir install`",
+    "ContentSha": "3d7n8Q7dlLtODDJ57cV5AdhWCQlwXbs1LWaIOuc1x7g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# netevent\n\nNetevent 是一个工具，可以用来与其他机器共享 Linux 事件设备（通过 `/dev/uinput` 或者通过其他方式实现相同协议的客户端）。\n\n最初它只是将设备功能输出到标准输出，然后在一种模式下表现得像运行 `cat /dev/input/eventX`，在另一种模式下将解析后的功能传递给 `/dev/uinput`，然后传递事件。\n\n由于当有多个目标时管理多个设备会变得繁琐（并且原有的抓取/切换/热键机制很怪异，且字面上针对我的个人使用场景），netevent2 现在扩展了协议，可以包含多设备的数据包，并且可以动态添加和移除设备。\n\n原始的类似 `cat` 的行为（尽管目前不支持热键）也可用于调试目的（`create` 模式支持两个协议版本）。\n\n现在的主要工具是 `netevent 守护进程`，它有一个命令套接字（可选的抽象 unix 套接字），通过它可以动态添加设备、输出和热键。见下方示例。\n\n## 编译\n\n* 可选：`./configure --prefix=/usr`\n* `make`\n\n你仍然可以像以前一样直接运行 `make`。不过，为了支持常见的安装流程，并区分内核较新、`/dev/uinput` 增加了 `UI_DEV_SETUP` `ioctl` 的系统，添加了一个 `./configure` 脚本来检测此项并生成 `config.h` 以及 `config.mak`，用于 PREFIX/BINDIR/...（所有这些也可以作为变量直接传递给 `make`，以及常用的 `DESTDIR`）。\n\n## 安装\n\n* `make install` 或者 `make DESTDIR=/my/staging/dir install`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Mestgi4K6y7NB+nVaIPjq47dEjKc+LiBuSQiajpEt2o=",
+        "originContent": "# netevent",
+        "translatedContent": "# netevent"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "1SLLNy3fio4INJH0bi2l8D5h9UUkFlq6UTxb/JiAaIY=",
+        "originContent": "Netevent is a tool which can be used to share linux event devices with other",
+        "translatedContent": "Netevent 是一个工具，可以用来与其他机器共享 Linux 事件设备（通过 `/dev/uinput` 或者通过其他方式实现相同协议的客户端）。"
+      },
+      {
+        "row": 4,
+        "rowsha": "7hKBbNt96wwOf+VThESlEu20DODR+i+pmZ52S+esMIo=",
+        "originContent": "machines (either via `/dev/uinput` or by implementing a client for the same",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "KhPr5EFjHt3C9vNjNUQf7O3gUfxPxIcKkbMKeywjoPw=",
+        "originContent": "protocol with other means).",
+        "translatedContent": "最初它只是将设备功能输出到标准输出，然后在一种模式下表现得像运行 `cat /dev/input/eventX`，在另一种模式下将解析后的功能传递给 `/dev/uinput`，然后传递事件。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0Rybh8qYWISU57U37Xg+Uo4AbBG6MSwknETY7swDEDo=",
+        "originContent": "Originally it simply dumped device capabilities to stdout and afterwards",
+        "translatedContent": "由于当有多个目标时管理多个设备会变得繁琐（并且原有的抓取/切换/热键机制很怪异，且字面上针对我的个人使用场景），netevent2 现在扩展了协议，可以包含多设备的数据包，并且可以动态添加和移除设备。"
+      },
+      {
+        "row": 8,
+        "rowsha": "IaQ32aKBVwoUeK5tMGLQNwxje1lfM+VnZ+WGHRA/8/o=",
+        "originContent": "behaved like running `cat /dev/input/eventX` in one mode, and in the other",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "HJk6FRkEYXBwNxvOQPe+DAcrHysma7RGwfzYvZqwMu4=",
+        "originContent": "passed the parsed capabilities to `/dev/uinput` and then passing events",
+        "translatedContent": "原始的类似 `cat` 的行为（尽管目前不支持热键）也可用于调试目的（`create` 模式支持两个协议版本）。"
+      },
+      {
+        "row": 10,
+        "rowsha": "xoq/It1tfVydUFLhPLp9wPYe6Pal9qJNrNY1iL07hg8=",
+        "originContent": "through.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "现在的主要工具是 `netevent 守护进程`，它有一个命令套接字（可选的抽象 unix 套接字），通过它可以动态添加设备、输出和热键。见下方示例。"
+      },
+      {
+        "row": 12,
+        "rowsha": "j2dmKix2fNDJue5thXa7IMtNG2bq7guaahBJ/aaaRFk=",
+        "originContent": "Since managing this for multiple devices can become tedious when having more",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "wXHJtHi+Pglg7kQpDzMF1ShNylSr3NMgwoYWsprFe5M=",
+        "originContent": "than one destination (and since the original grab/toggle/hotkey mechanisms were",
+        "translatedContent": "## 编译"
+      },
+      {
+        "row": 14,
+        "rowsha": "9fUV2lYNcsZ2fK7JSjQaUapgOTuuFcfngJv1DaKipJs=",
+        "originContent": "weird and literally targeted my personal use case), netevent2 now extends the",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "jzvriIPDb6+h1EikU6rz7IC742YjwNQomQl56Pt89kI=",
+        "originContent": "protocol to contain packets which can contain more than one device and can add",
+        "translatedContent": "* 可选：`./configure --prefix=/usr`"
+      },
+      {
+        "row": 16,
+        "rowsha": "0dQzJDs7BXwvnrhrd1Vf4DlaSIElW18ZQ1bFq76T6vQ=",
+        "originContent": "and remove devices on the fly.",
+        "translatedContent": "* `make`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "HIWqrdebx6qIdOl/IPI+ga/rj7/Irw3AS2+4Jaeq05A=",
+        "originContent": "The original `cat` like behavior (although currently without hotkey support)",
+        "translatedContent": "你仍然可以像以前一样直接运行 `make`。不过，为了支持常见的安装流程，并区分内核较新、`/dev/uinput` 增加了 `UI_DEV_SETUP` `ioctl` 的系统，添加了一个 `./configure` 脚本来检测此项并生成 `config.h` 以及 `config.mak`，用于 PREFIX/BINDIR/...（所有这些也可以作为变量直接传递给 `make`，以及常用的 `DESTDIR`）。"
+      },
+      {
+        "row": 19,
+        "rowsha": "phasCELm0Z59XwLor0SwoKRixmYYANLsnmmfCyVqPNE=",
+        "originContent": "is also available for debugging purposes (and the `create` mode supports both",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "+rzdjcJQ7VmUofzKhfCqAl0E4oe3+p/sjfssA83HC8U=",
+        "originContent": "protocol versions).",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Aw1c7X/kIpx38mznrH258iD3XWhpy+Ltfay9sTzYQvE=",
+        "originContent": "The main tool is now the `netevent daemon` which has a command socket (an",
+        "translatedContent": "* `make install` 或者 `make DESTDIR=/my/staging/dir install`"
+      },
+      {
+        "row": 23,
+        "rowsha": "S4zYXczDN/he285chUSnCCHllJQPOMNBV5HnlG9xd84=",
+        "originContent": "optionally abstract unix socket) via which one can add devices, outputs and",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "nXly65PkohztxCbKRCnUzg5IirM39i9fAJhQc0j94F8=",
+        "originContent": "hotkeys on the fly. See the examples below.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "wRgwI3+CHRNenMnhXG+WoSHWo4ra0iOBLkgDLE5gBTk=",
+        "originContent": "## Compilation",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "KV5oi6GAjjvoJNphPTgHKpFnJ4CKX4bXf1ppg6V9DCg=",
+        "originContent": "* optionally: `./configure --prefix=/usr`",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "kzhv77Ms2pad4kwdc3dgWgJGHL9ccGoAuLVr1ywrMk4=",
+        "originContent": "* `make`",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "RKPvaJhjTMlS6ld92IzSTMW85gHtVZne+BTGNsJJMbA=",
+        "originContent": "You can still just run `make` as before. However, to support the usual",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "Q8z36xTtM3Ni7EIduBWKOSFXt1O1bwYy2kdlAh0WrOk=",
+        "originContent": "installation workflows, and to distinguish between systems with newer kernels",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "WlwEVSLc1J43Gyp0VdUqDQ9ikl1Ggnay9Z2w5j5RiN0=",
+        "originContent": "where `/dev/uinput` has been extended with a `UI_DEV_SETUP` `ioctl`, a",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "JrIpZUTZnf7dwbf0ETrXvmSj4FU4tuMXALKUQGwJljo=",
+        "originContent": "`./configure` script has been added to check for this and create a `config.h`",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "AOdOTyFhZd/xiHPBBu1U4q5KOnRXoe9sgV1XQdL6c50=",
+        "originContent": "as well as a `config.mak` for PREFIX/BINDIR/... (all of which can be passed as",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "zRQ/eUR7XPUacv86IDNJAtgU7ae5iOHeTr2e0bnksV0=",
+        "originContent": "variables directly to `make` instead as well, along with the usual `DESTDIR`).",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "m0KjHf2g8uZUdu5anV3n2v5z7xYagA9CLeTV7tw4PXE=",
+        "originContent": "* `make install` or `make DESTDIR=/my/staging/dir install`",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nOr: as previously, just put the `netevent` binary wherever.\n\n## Usage\n\nSee the DAEMON COMMANDS section in netevent(1) for details on the commands used\nin the setup scripts below.\n\n### Examples\n\nSee the `examples/` directory. Read the setup-example below to see how to adapt\nthe hotkey lines to work with your devices.\n\n#### Simple example setup: sharing keyboard & mouse with a machine via ssh:\n\nHost side:\n\n* Preparation: Make sure we can access event devices as a user\n\n    Usually this means running something like `gpasswd -a myuser input`\n\n* Step 1: Decide which /dev/input/eventXY devices to pass through.\n\n    For consistent file names use something like:\n    `/dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd`\n    `/dev/input/by-id/usb-BestMouseEver-event-mouse`\n\n* Step 2: Decide on a hotkey and find its event code:\n\n    In the above example we want to use a key on the keyboard (unless you\n    have an insane amount of mouse buttons...).\n    `netevent` can be used to dump events in a readable way, run the `show`\n    subcommand on the device and press the keys you want to use for hotkeys.\n    If this is the same keyboard you're typing in the command with , prepend a\n    sleep to avoid confusion when netevent picks up the release of the enter\n    key.",
+    "ContentSha": "76RQne3fzFyD3uHfYwRer6T3/W3naaoKZuarNgk3Y6o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "或者：如前所述，只需将 `netevent` 二进制文件放置在任意位置。\n\n## 使用方法\n\n请参阅 netevent(1) 中的 DAEMON COMMANDS 部分，了解下面设置脚本中使用的命令详情。\n\n### 示例\n\n请查看 `examples/` 目录。阅读下面的 setup-example，了解如何调整热键行以适配您的设备。\n\n#### 简单示例设置：通过 ssh 与另一台机器共享键盘和鼠标：\n\n主机端：\n\n* 准备工作：确保我们可以以用户身份访问事件设备\n\n    通常这意味着运行类似 `gpasswd -a myuser input` 的命令\n\n* 第一步：确定要传递的 /dev/input/eventXY 设备。\n\n    为了文件名一致，可以使用类似以下路径：\n    `/dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd`\n    `/dev/input/by-id/usb-BestMouseEver-event-mouse`\n\n* 第二步：选择一个热键并找到其事件代码：\n\n    在上述示例中，我们希望使用键盘上的一个键（除非您拥有大量鼠标按钮...）。\n    可以使用 `netevent` 以可读方式导出事件，运行设备上的 `show` 子命令，然后按下您想用作热键的键。\n    如果您正在用同一键盘输入命令，请在运行前加一个 sleep，以避免 netevent 捕获回车键释放事件时产生混淆。\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "或者：如前所述，只需将 `netevent` 二进制文件放置在任意位置。"
+      },
+      {
+        "row": 2,
+        "rowsha": "lJXQQeSY6y4FbIvBOhh8M1KMkztdkr/IXNKF10xMgFI=",
+        "originContent": "Or: as previously, just put the `netevent` binary wherever.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "请参阅 netevent(1) 中的 DAEMON COMMANDS 部分，了解下面设置脚本中使用的命令详情。"
+      },
+      {
+        "row": 6,
+        "rowsha": "DKXwMn1ZgStyXRINboH+D6nTRPk3QqWL7EJDIZMOm+s=",
+        "originContent": "See the DAEMON COMMANDS section in netevent(1) for details on the commands used",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "iGdHWWwurXnzND9mcqzP1eBbQmo1ZNd81LFpKT6Z0Xo=",
+        "originContent": "in the setup scripts below.",
+        "translatedContent": "### 示例"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+        "originContent": "### Examples",
+        "translatedContent": "请查看 `examples/` 目录。阅读下面的 setup-example，了解如何调整热键行以适配您的设备。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "t0Ookw1BYlBBrvhdGCh4717ONxZBTRCOazyhgni17SU=",
+        "originContent": "See the `examples/` directory. Read the setup-example below to see how to adapt",
+        "translatedContent": "#### 简单示例设置：通过 ssh 与另一台机器共享键盘和鼠标："
+      },
+      {
+        "row": 12,
+        "rowsha": "F9gn7MK4GvlwkJrlFW6rvL2Sd02xNn4IQpy9k1sYj0k=",
+        "originContent": "the hotkey lines to work with your devices.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "主机端："
+      },
+      {
+        "row": 14,
+        "rowsha": "oTlmH+1aXQhzlqlDhuwqaXaoLqKNILs3Fk6lVOC6+WA=",
+        "originContent": "#### Simple example setup: sharing keyboard & mouse with a machine via ssh:",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 准备工作：确保我们可以以用户身份访问事件设备"
+      },
+      {
+        "row": 16,
+        "rowsha": "t/AJ1FiIoVrZPr04CCD+imtsOLKkQBKqqgdbU7YB6OM=",
+        "originContent": "Host side:",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    通常这意味着运行类似 `gpasswd -a myuser input` 的命令"
+      },
+      {
+        "row": 18,
+        "rowsha": "Hy+nW6xiYtxgl8xlHFYsqaKN2KzWjKQm8qbgY8A7PQg=",
+        "originContent": "* Preparation: Make sure we can access event devices as a user",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 第一步：确定要传递的 /dev/input/eventXY 设备。"
+      },
+      {
+        "row": 20,
+        "rowsha": "34S5BCpQ92B6EQcr6ZJ7VZmtx8GLD8hD9zMeRpnSHl8=",
+        "originContent": "    Usually this means running something like `gpasswd -a myuser input`",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    为了文件名一致，可以使用类似以下路径："
+      },
+      {
+        "row": 22,
+        "rowsha": "s/dmY6xVTQkVUiu9KwK8JkDwqpKQSL4QeeZDwKkn2xU=",
+        "originContent": "* Step 1: Decide which /dev/input/eventXY devices to pass through.",
+        "translatedContent": "    `/dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd`"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    `/dev/input/by-id/usb-BestMouseEver-event-mouse`"
+      },
+      {
+        "row": 24,
+        "rowsha": "Rw32TgR6ysfXAlCiPOR5G8PJSvMesdBnASeCLDF3hlY=",
+        "originContent": "    For consistent file names use something like:",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "HM2gtcY+o6CYskO/aRq+Zcu0YflMTwCLWGhs/vJEcDg=",
+        "originContent": "    `/dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd`",
+        "translatedContent": "* 第二步：选择一个热键并找到其事件代码："
+      },
+      {
+        "row": 26,
+        "rowsha": "cUVrgxT78WkPmXvsyGQ0erXdSgJqCUGGoXRIQ9yp344=",
+        "originContent": "    `/dev/input/by-id/usb-BestMouseEver-event-mouse`",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    在上述示例中，我们希望使用键盘上的一个键（除非您拥有大量鼠标按钮...）。"
+      },
+      {
+        "row": 28,
+        "rowsha": "yWQURpIoBRcjEjfLL91QbwRrpIMs3w1k3mRIikmcjxM=",
+        "originContent": "* Step 2: Decide on a hotkey and find its event code:",
+        "translatedContent": "    可以使用 `netevent` 以可读方式导出事件，运行设备上的 `show` 子命令，然后按下您想用作热键的键。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    如果您正在用同一键盘输入命令，请在运行前加一个 sleep，以避免 netevent 捕获回车键释放事件时产生混淆。"
+      },
+      {
+        "row": 30,
+        "rowsha": "6dE9rKTY/PNrn7Hr/TMdPINpdAQL9e7cTVUiS6c5mkg=",
+        "originContent": "    In the above example we want to use a key on the keyboard (unless you",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "rEgZ3zE7c1jYOUEgWn/3tsOZfVzEeV91FgZZYbUMC50=",
+        "originContent": "    have an insane amount of mouse buttons...).",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "pXrHqHm6i/Yf0K7JOT6vYIoig9ayBFzWoV39dRoU9NQ=",
+        "originContent": "    `netevent` can be used to dump events in a readable way, run the `show`",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "v17kq3eqRpP5IYsQGhJpLo+EqNVo/RDqbBRYWNzD1/A=",
+        "originContent": "    subcommand on the device and press the keys you want to use for hotkeys.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "/MzxB66L/8O/8DJmtvDJHbdZPoDxXTlQqYq/B0eXVoc=",
+        "originContent": "    If this is the same keyboard you're typing in the command with , prepend a",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "pWfEW+oUKFx7imRJBfTVpcCKknjiW9u8ST0tVBx07es=",
+        "originContent": "    sleep to avoid confusion when netevent picks up the release of the enter",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "zw9tAErI+onCCUPMfX4e627puMkt33JHlG8+yWlHTb8=",
+        "originContent": "    key.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "    ```\n    $ sleep 0.3 && netevent show /dev/input/by-id/usb-...-event-kbd\n    MSC:4:3829\n    KEY:189:1\n    SYN:0:0\n    MSC:4:3829\n    KEY:189:0\n    SYN:0:0\n    ```",
+    "ContentSha": "Q4UiRSUCjAVdbgFk5/5wmRDiNtA/ltijrZVgI5FSDWs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```\n    $ sleep 0.3 && netevent show /dev/input/by-id/usb-...-event-kbd\n    MSC:4:3829\n    KEY:189:1\n    SYN:0:0\n    MSC:4:3829\n    KEY:189:0\n    SYN:0:0\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z76cwCSQw893sDT17StWjLXt4EVmVcUIlxybQaaZgZM=",
+        "originContent": "    $ sleep 0.3 && netevent show /dev/input/by-id/usb-...-event-kbd",
+        "translatedContent": "    $ sleep 0.3 && netevent show /dev/input/by-id/usb-...-event-kbd"
+      },
+      {
+        "row": 3,
+        "rowsha": "URNoLBPYWaKSQZt/KxvE0Gpq5JwA/vdvzj2IwiWGV0M=",
+        "originContent": "    MSC:4:3829",
+        "translatedContent": "    MSC:4:3829"
+      },
+      {
+        "row": 4,
+        "rowsha": "wgI4SBdaWVCFWydnV3glRhDHQy7ZROmMNLNj4kPBhP4=",
+        "originContent": "    KEY:189:1",
+        "translatedContent": "    KEY:189:1"
+      },
+      {
+        "row": 5,
+        "rowsha": "5Seb9+2v8w8aYPzMiUzxKanxnFYsMPdZBQ101hs+ixI=",
+        "originContent": "    SYN:0:0",
+        "translatedContent": "    SYN:0:0"
+      },
+      {
+        "row": 6,
+        "rowsha": "URNoLBPYWaKSQZt/KxvE0Gpq5JwA/vdvzj2IwiWGV0M=",
+        "originContent": "    MSC:4:3829",
+        "translatedContent": "    MSC:4:3829"
+      },
+      {
+        "row": 7,
+        "rowsha": "JA2d+P9gXZVODvC4o0iQNij5lLihIHVyACsnKF/cPN4=",
+        "originContent": "    KEY:189:0",
+        "translatedContent": "    KEY:189:0"
+      },
+      {
+        "row": 8,
+        "rowsha": "5Seb9+2v8w8aYPzMiUzxKanxnFYsMPdZBQ101hs+ixI=",
+        "originContent": "    SYN:0:0",
+        "translatedContent": "    SYN:0:0"
+      },
+      {
+        "row": 9,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n* Step 3: Prepare a setup script for the daemon:\n",
+    "ContentSha": "xYmlJpN0bFsuqGQ3WOR9lfiA8bm/s+nJ3mTIBCBVq3U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* 步骤 3：为守护进程准备一个安装脚本：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hdvCBrchIneZB8p5ffLQW213ihUuz+DhDTz5b64uqV8=",
+        "originContent": "* Step 3: Prepare a setup script for the daemon:",
+        "translatedContent": "* 步骤 3：为守护进程准备一个安装脚本："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "    ```\n    # file: netevent-setup.ne2\n    # Add mouse & keyboard\n    device add mymouse /dev/input/by-id/usb-BestMouseEver-event-mouse\n    device add mykbd /dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd\n\n    # Add toggle hotkey (on press, and ignore the release event)\n    hotkey add mykbd key:189:1 grab-devices toggle\\; write-events toggle\n    hotkey add mykbd key:189:0 nop\n\n    # Connect to the two devices via password-less ssh\n    output add myremote exec:ssh user@other-host netevent create\n    # Select the output to write to\n    use myremote\n    ```",
+    "ContentSha": "Gt/ts/sJEkmBpvwYdTOA+RwTeeojXBTUshAh9h3ATEQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```\n    # file: netevent-setup.ne2\n    # Add mouse & keyboard\n    device add mymouse /dev/input/by-id/usb-BestMouseEver-event-mouse\n    device add mykbd /dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd\n\n    # Add toggle hotkey (on press, and ignore the release event)\n    hotkey add mykbd key:189:1 grab-devices toggle\\; write-events toggle\n    hotkey add mykbd key:189:0 nop\n\n    # Connect to the two devices via password-less ssh\n    output add myremote exec:ssh user@other-host netevent create\n    # Select the output to write to\n    use myremote\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Pz5MmzEaXTukXlunfG9GbvDgK0dS+j72lB3k/WdMJrQ=",
+        "originContent": "    # file: netevent-setup.ne2",
+        "translatedContent": "    # file: netevent-setup.ne2"
+      },
+      {
+        "row": 3,
+        "rowsha": "zdlgjWmkw/DCmJ+jhVdGXm9xI4uOJy6CAY7WJS+/+a0=",
+        "originContent": "    # Add mouse & keyboard",
+        "translatedContent": "    # Add mouse & keyboard"
+      },
+      {
+        "row": 4,
+        "rowsha": "Dm+DpEa6eEG55KMx43sfoDjHuO2CMcaWe8eQPhM+evo=",
+        "originContent": "    device add mymouse /dev/input/by-id/usb-BestMouseEver-event-mouse",
+        "translatedContent": "    device add mymouse /dev/input/by-id/usb-BestMouseEver-event-mouse"
+      },
+      {
+        "row": 5,
+        "rowsha": "RIpowAZTI9cdje0nJBtuO4hMMLCqEXUcooq4j2110ww=",
+        "originContent": "    device add mykbd /dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd",
+        "translatedContent": "    device add mykbd /dev/input/by-id/usb-MyAwesomeKeyboard-event-kbd"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "p3ovggwVku9QJ8actpiN7TexA0fvBROeVRyxAXZgk9Y=",
+        "originContent": "    # Add toggle hotkey (on press, and ignore the release event)",
+        "translatedContent": "    # Add toggle hotkey (on press, and ignore the release event)"
+      },
+      {
+        "row": 8,
+        "rowsha": "/RG5I/QJs3MNGISc2+y0VrpYkdEpB6fMfjPyrGMZjl4=",
+        "originContent": "    hotkey add mykbd key:189:1 grab-devices toggle\\; write-events toggle",
+        "translatedContent": "    hotkey add mykbd key:189:1 grab-devices toggle\\; write-events toggle"
+      },
+      {
+        "row": 9,
+        "rowsha": "xGQgRE15s+23+jwpPuhcD5vrFpqNaYqynJOUuTc9yH8=",
+        "originContent": "    hotkey add mykbd key:189:0 nop",
+        "translatedContent": "    hotkey add mykbd key:189:0 nop"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ATW07/a2jkpZEx//Cewxoci55xUb2T+U+t9btQ/jVyg=",
+        "originContent": "    # Connect to the two devices via password-less ssh",
+        "translatedContent": "    # Connect to the two devices via password-less ssh"
+      },
+      {
+        "row": 12,
+        "rowsha": "MWEsSQW6xYjtI8y4OtJgCMY4LtnHX/JDEMqWFAfoSe0=",
+        "originContent": "    output add myremote exec:ssh user@other-host netevent create",
+        "translatedContent": "    output add myremote exec:ssh user@other-host netevent create"
+      },
+      {
+        "row": 13,
+        "rowsha": "0xZVWojH7PViLmyJ3VpF/zkkXTSzt+rk+iuBWiYls4U=",
+        "originContent": "    # Select the output to write to",
+        "translatedContent": "    # Select the output to write to"
+      },
+      {
+        "row": 14,
+        "rowsha": "RAdjEl8PaIaeQAu4VkipjQeqywQ9cGVQnGNAfRD4eqw=",
+        "originContent": "    use myremote",
+        "translatedContent": "    use myremote"
+      },
+      {
+        "row": 15,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n* Step 4: Run the netevent daemon:\n\n    `$ netevent daemon -s netevent-setup.ne2 netevent-command.sock`\n\nYou can now send additional commands to the daemon by connecting to the socket.\nFor example via `socat READLINE UNIX-CONNECT:netevent-command.sock`.\n",
+    "ContentSha": "U0R5Y8YQaN0EWVk3fVqIwMcQzcQ07ffsgyfJ73thaD8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* 第4步：运行netevent守护进程：\n\n    `$ netevent daemon -s netevent-setup.ne2 netevent-command.sock`\n\n您现在可以通过连接到套接字向守护进程发送其他命令。\n例如通过`socat READLINE UNIX-CONNECT:netevent-command.sock`。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "p4BMRxgdMbli+ZOupv0ZMfVE8ajlS8z0GG0OBfoAoq8=",
+        "originContent": "* Step 4: Run the netevent daemon:",
+        "translatedContent": "* 第4步：运行netevent守护进程："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "P7bQDgdlkDytlvkuTJjA1tPqV+RUKt79lli/rsJhCJ0=",
+        "originContent": "    `$ netevent daemon -s netevent-setup.ne2 netevent-command.sock`",
+        "translatedContent": "    `$ netevent daemon -s netevent-setup.ne2 netevent-command.sock`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "8QnO+kHMl5/gB5bwM7CYZ3OF+LhGNeNUYJGpB5+licU=",
+        "originContent": "You can now send additional commands to the daemon by connecting to the socket.",
+        "translatedContent": "您现在可以通过连接到套接字向守护进程发送其他命令。"
+      },
+      {
+        "row": 7,
+        "rowsha": "S1tUFgMOm7F1oRO0+mviG+7zh4Kx4bbZGJTEGGOnEI8=",
+        "originContent": "For example via `socat READLINE UNIX-CONNECT:netevent-command.sock`.",
+        "translatedContent": "例如通过`socat READLINE UNIX-CONNECT:netevent-command.sock`。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
