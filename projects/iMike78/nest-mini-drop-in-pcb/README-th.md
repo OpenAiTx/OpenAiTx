@@ -38,82 +38,86 @@
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png" width="1000">
 
 เคล็ดลับ! หากคุณกำลังมองหาแผงวงจรพิมพ์ทดแทนแบบเดียวกันสำหรับ "Google Home Mini" (ลำโพงอัจฉริยะรุ่นแรกของ Google ที่ใช้พอร์ตชาร์จแบบ Micro-USB) กรุณาดูโปรเจกต์คู่กันที่ https://github.com/iMike78/home-mini-v1-drop-in-pcb
-ทั้งสองโปรเจกต์นี้เป็นโครงการฮาร์ดแวร์โอเพนซอร์สเต็มรูปแบบ โดยได้แรงบันดาลใจบางส่วนจาก [Onju Voice](https://github.com/justLV/onju-voice) แต่มีเป้าหมายเพื่อปฏิบัติตาม [มาตรฐานผู้ช่วยเสียงโอเพนซอร์สของ Open Home Foundation โดยอ้างอิง Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) สำหรับการออกแบบและข้อกำหนดของ PCB
 
-# ขอบเขตของโปรเจกต์
+**ประกาศล่วงหน้า!** แคมเปญคราวด์ฟันดิ้งสำหรับ "MiciMike Home Mini Drop-In PCB" (สำหรับ Google Home Mini รุ่นแรก) ขณะนี้ถูกขึ้นรายการในช่วงก่อนเปิดตัวบน Crowd Supply (ดูตัวอย่างโครงการเท่านั้น) หากประสบความสำเร็จจะมีแผนจัดแคมเปญสำหรับ Nest Mini ต่อไป สามารถตรวจสอบได้ที่นี่:
 
-เป้าหมายของโปรเจกต์และที่เก็บนี้ (ซึ่งคล้ายกับ [Onju Voice](https://github.com/justLV/onju-voice) แต่ใช้สัญญาอนุญาตฮาร์ดแวร์โอเพนซอร์สอย่างสมบูรณ์) คือออกแบบแผงวงจรพิมพ์ (PCB) ที่เป็นตัวแทนแบบ drop-in พร้อมทั้งแผนผังวงจรที่ใครๆ ก็สามารถสร้าง/ประกอบหรือสั่งซื้อจากผู้ผลิต PCB แบบครบวงจรได้ เพื่อใช้แทนแผงวงจรของ Google Nest Mini (รุ่นที่ 2)
+* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
 
-กลุ่มเป้าหมายหลักคือผู้ที่ต้องการดัดแปลง/นำ Google Nest Mini ลำโพงอัจฉริยะรุ่นเก่ากลับมาใช้ใหม่เป็นฮาร์ดแวร์โอเพนซอร์สสำหรับ [การควบคุมเสียง Home Assistant](https://www.home-assistant.io/voice_control/) และ/หรือใช้งานเป็นลำโพงเอาต์พุตสำหรับ [Music Assistant](https://www.music-assistant.io) (อย่างไรก็ตาม ฮาร์ดแวร์นี้สามารถนำไปใช้กับแอปพลิเคชันอื่นๆ ได้อีกด้วย เพียงเปลี่ยนเฟิร์มแวร์ เนื่องจากใช้แพลตฟอร์ม Espressif ESP32 ที่เป็นที่นิยม)
+ทั้งสองโครงการนี้เป็นฮาร์ดแวร์โอเพ่นซอร์สเต็มรูปแบบ ได้แรงบันดาลใจบางส่วนจาก [Onju Voice](https://github.com/justLV/onju-voice) แต่มีเป้าหมายให้เป็นไปตาม [มาตรฐานโอเพ่นวอยซ์แอสซิสแทนท์ของ Open Home Foundation โดยใช้ Home Assistant Voice Preview Edition เป็นแนวทางอ้างอิง](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) สำหรับการออกแบบและสเปก PCB
+
+# ขอบเขตโครงการ
+
+เป้าหมายของโครงการและที่เก็บนี้ (ซึ่งคล้ายกับ [Onju Voice](https://github.com/justLV/onju-voice) แต่ภายใต้ไลเซนส์ฮาร์ดแวร์โอเพ่นซอร์สเต็มรูปแบบ) คือออกแบบ PCB (แผงวงจรพิมพ์) ทดแทนแบบ drop-in พร้อมวงจรฮาร์ดแวร์ ที่ใครก็สามารถสร้าง/สั่งทำจากโรงงาน PCB ได้ในฐานะ PCB ทดแทนแบบ drop-in สำหรับ Google Nest Mini (รุ่นที่ 2)
+
+กลุ่มเป้าหมายหลักคือผู้ที่ต้องการดัดแปลง/นำลำโพงอัจฉริยะ Google Nest Mini เก่ามาใช้ใหม่เป็นฮาร์ดแวร์โอเพ่นซอร์สสำหรับ [ควบคุม Home Assistant ด้วยเสียง](https://www.home-assistant.io/voice_control/) และ/หรือเป็นเอาต์พุตลำโพงสำหรับ [Music Assistant](https://www.music-assistant.io) (แต่อุปกรณ์นี้อาจใช้กับแอปพลิเคชันอื่น ๆ ได้ด้วยเฟิร์มแวร์อื่น เนื่องจากใช้แพลตฟอร์ม Espressif ESP32 ที่นิยม)
 
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
 
-การออกแบบฮาร์ดแวร์จะ (คล้ายกับ [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) ผนวกรวม ESP32-S3 SoC สำหรับ WiFi, BLE และ [การตรวจจับคำปลุกในตัว](https://www.home-assistant.io/voice_control/about_wake_word/) (ด้วย [เฟิร์มแวร์ ESPHome แบบไม่ต้องเขียนโค้ด](https://esphome.io/)) + ชิป XMOS xCORE XU316 สำหรับประมวลผลเสียงขั้นสูง (ด้วยเฟิร์มแวร์เฉพาะ เพื่อจัดการสัญญาณไมโครโฟนให้เสียงพูดชัดเจนขึ้นผ่านอัลกอริทึม Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation และ Automatic Gain Control ที่ทำงานภายในเครื่อง)
+การออกแบบฮาร์ดแวร์นี้ (เช่นเดียวกับ [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) จะผสาน ESP32-S3 SoC สำหรับ WiFi, BLE และ [ตรวจจับคำปลุกแบบในตัว](https://www.home-assistant.io/voice_control/about_wake_word/) (ด้วย [เฟิร์มแวร์ ESPHome แบบไม่ต้องเขียนโค้ด](https://esphome.io/)) + ชิป XMOS xCORE XU316 สำหรับประมวลผลเสียงขั้นสูง (มีเฟิร์มแวร์เฉพาะเพื่อปรับปรุงไมค์สำหรับการรู้จำเสียงที่ดีขึ้น โดยประมวลผลในเครื่องสำหรับการตัดเสียงรบกวน การตัดเสียงสะท้อน การตัดสัญญาณรบกวน และการควบคุมขยายอัตโนมัติ)
 
-ในแง่ของฟังก์ชันการทำงานจะถูกออกแบบมาให้เข้ากันได้กับฮาร์ดแวร์อ้างอิง [Home Assistant Voice Preview Edition (หรือ Home Assistant Voice PE)](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) (ซึ่งเผยแพร่เป็นฮาร์ดแวร์โอเพนซอร์สโดย Open Home Foundation ร่วมกับ Nabu Casa) ความแตกต่างหลักจะเป็นข้อจำกัดจากตัวกล่องและส่วนประกอบของ Google Nest Mini (เช่น โปรเจกต์ nest-mini-drop-in-pcb จะจำกัดปุ่มและอินพุตเท่าที่ฮาร์ดแวร์ต้นฉบับของ Google มี)
+ในเชิงฟังก์ชันออกแบบให้ฮาร์ดแวร์เกือบเหมือนกับ [Home Assistant Voice Preview Edition (หรือ Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) ซึ่งถูกปล่อยเป็นดีไซน์ฮาร์ดแวร์โอเพ่นซอร์สโดย Open Home Foundation ร่วมกับ Nabu Casa ความแตกต่างหลักคือข้อจำกัดที่กำหนดโดยตัวกล่องและส่วนประกอบของ Google Nest Mini (เช่นการออกแบบ nest-mini-drop-in-pcb จะถูกจำกัดด้วยอินพุตทางกายภาพแบบเดียวกับอุปกรณ์ Google ดั้งเดิม)
 
-ดังนั้นขอบเขตของโปรเจกต์/ที่เก็บนี้จะไม่พัฒนาเฟิร์มแวร์ ESPHome ใหม่ หากต้องการฟีเจอร์ใหม่ กรุณาร่วมพัฒนากับโครงการ Home Assistant Voice Preview Edition และโค้ดต้นน้ำ ESPHome:
+ดังนั้นขอบเขตของโครงการ/ที่เก็บนี้ไม่ใช่เพื่อพัฒนาฟีเจอร์/ฟังก์ชันใหม่ให้กับเฟิร์มแวร์ ESPHome หากคุณต้องการสิ่งนี้ กรุณาติดตามพัฒนาเฟิร์มแวร์ Home Assistant Voice Preview Edition และโค้ดหลักของ ESPHome ที่อัปสตรีม:
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://github.com/esphome/esphome
       - https://github.com/esphome/feature-requests
 
-## ขอเชิญร่วมมือ
+## ขอความร่วมมือ
 
-หากคุณมีประสบการณ์กับการออกแบบเลย์เอาต์ PCB (โดยเฉพาะการเดินลายวงจร, การเทกราวด์, หรือเลย์เอาต์ดิจิทัล+อนาล็อกที่ไวต่อสัญญาณรบกวน) **ขอความร่วมมือจากคุณเป็นอย่างยิ่ง**! คุณสามารถเปิด issue ใหม่ เสนอคำแนะนำ/ร้องขอ หรือแสดงความคิดเห็นกับ issue เดิม หรือ fork repository นี้ได้เลย
+หากคุณมีประสบการณ์ด้านออกแบบเลย์เอาต์ PCB (โดยเฉพาะกับการเดินลายวงจร, การเทกราวด์, หรือการออกแบบดิจิทัล+แอนะล็อกที่ไวต่อสัญญาณรบกวน) **ขอความร่วมมือจากคุณเป็นอย่างยิ่ง**! สามารถเปิด issue ใหม่, เสนอแนะ/ขอฟีเจอร์, แสดงความคิดเห็น/ข้อเสนอแนะใน issue ที่มีอยู่ หรือ fork ที่เก็บนี้ได้เลย
 
-สำหรับข้อมูลแนวคิดเพิ่มเติมหรือร่วมพูดคุย อ่านและมีส่วนร่วมในหัวข้อฟอรั่มของ Home Assistant ดังนี้:
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแนวคิด/ไอเดียและร่วมแสดงความคิดเห็น สามารถดูและแสดงความคิดเห็นในกระทู้ Home Assistant community forum นี้ด้วย:
 
 - https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/
 
 ### สถานะปัจจุบัน
 
-- ✅ วาดวงจรเสร็จสมบูรณ์
-- ✅ วางตำแหน่งชิ้นส่วนเสร็จสมบูรณ์
-- ✅ เดินลายวงจรเสร็จสมบูรณ์
-- ✅ เทกราวด์ วางแผนการชีลด์ และพิจารณา EMI แล้ว
-- ⚠️ ชุดทดสอบแรกผิดพลาด 2 จุด - แก้ไขแล้ว
-- 🕓 รอชุดทดสอบที่ 2
+- ✅ วงจรเสร็จสมบูรณ์แล้ว
+- ✅ วางตำแหน่งอุปกรณ์แล้ว
+- ✅ เดินสายวงจรเสร็จแล้ว
+- ✅ เทกราวด์ กลยุทธ์การป้องกัน และการพิจารณา EMI เสร็จแล้ว
+- ⚠️ ชุดทดสอบแรกผิดพลาด 2 จุด - ได้รับการแก้ไขแล้ว
+- 🕓 กำลังรอชุดทดสอบที่สอง
 
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png" width="1000">
-
 
 ## เครื่องมือที่ใช้
 
 - 🛠️ KiCad 9
 - 🧰 SnapEDA / LCSC สำหรับการค้นหา footprint
 
-## ข้อมูลจำเพาะของฮาร์ดแวร์ที่ทราบ
+## สเปกฮาร์ดแวร์ที่ทราบ
 
-- PCB แบบ 4 เลเยอร์
-- ชิปเปล่า ESP32-S3R8 (ESP32-S3 สำหรับ WiFi, BLE, และการตรวจจับ wake-word บนบอร์ด)
+- PCB 4 ชั้น
+- ชิปเปล่า ESP32-S3R8 (ESP32-S3 สำหรับ WiFi, BLE และตรวจจับ wake-word ในตัว)
 - XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP สำหรับประมวลผลเสียง)
-- แฟลช SPI คู่ (ESP32 และ XMOS มีแฟลช SPI ของตนเอง)
-- บัส I²S คู่ (เพื่อให้สามารถใช้ I2S หลายอินเทอร์เฟซพร้อมกัน เช่น ส่งออกและรับเสียงพร้อมกัน)
-- MAX98357 สำหรับขับลำโพง (I2S Class-D Mono Audio Amplifier)
+- Dual SPI flash (เพราะ ESP32 และ XMOS มี SPI flash ของตัวเอง)
+- Dual I²S bus (รองรับ I2S หลายอินเทอร์เฟซพร้อมกัน เช่น ส่งออกเสียงและรับเสียงพร้อมกัน)
+- TAS5805M (TAS5805MPWPR) สำหรับขับลำโพง (I2S Class-D Mono Audio Amplifyer มี DSP config ผ่าน I2C)
 - ไมโครโฟน MEMS 2 ตัว (MMICT390200012 สองตัว ระยะห่างระหว่างไมค์ 68 มม.)
-- ไฟ LED RGB SK6812 จำนวน 6 ดวง
-- อินพุต USB-C แบบกำหนดเอง และไฟเข้า 14V (หมายเหตุ! ห้ามต่อ USB-C และแจ็คถังพร้อมกัน)
+- SK6812 RGB LED 6 ตัว
+- อินพุต USB-C และไฟ 14V แบบ custom (หมายเหตุ! USB-C กับ barrel-connector ห้ามเชื่อมต่อพร้อมกัน)
 
 ---
 
-> ⚠️ การแฟลชผ่าน USB-C ต้องถอดปลั๊กไฟหลัก 14V ออกก่อน ดูข้อความบน silkscreen ที่ PCB สำหรับรายละเอียด
+> ⚠️ การแฟลชผ่าน USB-C ต้องถอดอินพุตไฟหลัก 14V ออกก่อน ดูคำแนะนำบน silkscreen ที่ PCB สำหรับรายละเอียด
 
-## แหล่งอ้างอิง
+## แหล่งข้อมูลอ้างอิง
 
-### แหล่งข้อมูล Home Assistant Voice Preview Edition รวมถึงไฟล์ออกแบบ PCB
+### ทรัพยากร Home Assistant Voice Preview Edition รวมไฟล์ออกแบบ PCB
 - https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/
   - https://voice-pe.home-assistant.io/resources/
     - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files
       - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf
      
-#### เฟิร์มแวร์ ESPHome สำหรับ Home Assistant Voice PE (ซึ่งใช้ชิป ESP32-S3 + XMOS XU316 เหมือนกัน):
+#### เฟิร์มแวร์ ESPHome สำหรับ Home Assistant Voice PE (ใช้ ESP32-S3 + XMOS XU316 เหมือนกัน):
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://esphome.github.io/home-assistant-voice-pe/
 - https://voice-pe.home-assistant.io/
 
-### ชิป MCU XMOS xCORE DSP (XU316-1024-QF60B-C32)
+### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip
 
 - https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf
 - https://www.xmos.com/software-tools/
@@ -130,14 +134,15 @@
 ## ใบอนุญาต
 
 โครงการนี้ได้รับอนุญาตภายใต้ [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]
-ฮาร์ดแวร์ที่ถูกปรับแต่งจะต้องเผยแพร่ภายใต้ใบอนุญาตเดียวกันนี้ด้วย
+ฮาร์ดแวร์ที่ได้รับการดัดแปลงใด ๆ จะต้องถูกเผยแพร่ภายใต้ใบอนุญาตเดียวกันนี้ด้วย
 
-☕ หากคุณต้องการสนับสนุนโครงการนี้ สามารถ [ซื้อกาแฟให้ฉันที่ Ko-fi](https://ko-fi.com/imike78)!
+☕ หากคุณต้องการสนับสนุนโครงการนี้ สามารถ [ซื้อกาแฟให้ฉันบน Ko-fi](https://ko-fi.com/imike78) ได้เลย!
+
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-22
 
 ---

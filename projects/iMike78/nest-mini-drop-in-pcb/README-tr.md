@@ -38,21 +38,26 @@
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png" width="1000">
 
 İpucu! Eğer "Google Home Mini" (Google’ın ilk nesil, Micro-USB şarj portuna sahip akıllı hoparlör donanımı) için benzer bir drop-in PCB değiştirme kartı arıyorsanız, kardeş projeye https://github.com/iMike78/home-mini-v1-drop-in-pcb adresinden göz atabilirsiniz.
-Her ikisi de tamamen açık kaynaklı donanım projeleridir ve bazı kavramsal ilhamlarını [Onju Voice](https://github.com/justLV/onju-voice) projesinden alırken, PCB tasarımları ve teknik özellikler için [Open Home Foundation'ın açık sesli asistanlar standardı ile Home Assistant Voice Preview Edition referans alınarak](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) ilerlemeyi amaçlamaktadır.
+
+**Dikkat!** "MiciMike Home Mini Drop-In PCB" (1. nesil Google Home Mini) için yakında başlayacak kitlesel fonlama kampanyası şu anda Crowd Supply ön lansman aşamasında (proje önizlemesi yalnızca), ve bu başarılı olursa Nest Mini için eşleşen bir kampanya planlanacak, bu yüzden buradan göz atabilirsiniz:
+
+* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
+
+Her ikisi de tamamen açık kaynak donanım projeleridir ve bazı fikirlerini [Onju Voice](https://github.com/justLV/onju-voice) projesinden alırken [Open Home Foundation'ın açık sesli asistanlar standardı ve Home Assistant Voice Preview Edition referans alınarak](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) PCB tasarımları ve özelliklerini takip etmeyi amaçlamaktadır.
 
 # Proje kapsamı
 
-Bu projenin ve deposunun amacı ([Onju Voice](https://github.com/justLV/onju-voice) ile benzer ancak tamamen açık kaynaklı donanım lisansı altında), herkesin kendisinin yapabileceği/üretebileceği veya bir PCB üreticisinden sipariş edebileceği, Google Nest Mini (2. Nesil) için özel bir drop-in (yerine geçebilen) PCB (Baskılı Devre Kartı) ve donanım şematiklerini tasarlamaktır.
+Bu projenin ve depounun amacı ([Onju Voice](https://github.com/justLV/onju-voice) ile benzer fakat tamamen açık kaynak donanım lisansı altında) herkesin yapabileceği/üretebileceği veya tek bir PCB üreticisinden özel drop-in PCB olarak sipariş edebileceği bir drop-in yedek PCB (Baskılı Devre Kartı) ve donanım şemalarını tasarlamaktır; hedef donanım Google Nest Mini (2. Nesil)’dir.
 
-Bu proje öncelikle eski Google Nest Mini akıllı hoparlörlerini [Home Assistant için Sesli Kontrol](https://www.home-assistant.io/voice_control/) ve/veya [Music Assistant](https://www.music-assistant.io) ile medya oynatıcı hoparlör çıkışı olarak kullanmak ya da dönüştürmek isteyenleri hedeflemektedir, (donanım, popüler Espressif ESP32 platformuna dayandığı için muhtemelen başka uygulamalar ve farklı firmware ile de kullanılabilir).
+Bu öncelikle eski Google Nest Mini akıllı hoparlörlerini [Home Assistant ile Sesli Kontrol](https://www.home-assistant.io/voice_control/) ve/veya [Music Assistant](https://www.music-assistant.io) için medya oynatıcı hoparlör çıkışı olarak açık kaynak donanım haline getirmek isteyenleri hedeflemektedir, (donanım ayrıca popüler Espressif ESP32 platformuna dayandığı için farklı uygulamalar ve yazılımlarla da kullanılabilir).
 
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
 
-Donanım tasarımı, (tıpkı [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) gibi), WiFi, BLE ve [yerleşik uyandırma kelimesi algılama](https://www.home-assistant.io/voice_control/about_wake_word/) (kod yazmadan [ESPHome firmware](https://esphome.io/) ile) için bir ESP32-S3 SoC + gelişmiş ses işleme için XMOS xCORE XU316 çipi (mikrofon temizleme işlemini özel firmware ile offload ederek daha iyi sesli komut tanıma için gürültü azaltma, akustik yankı iptali, girişim iptali ve otomatik kazanç kontrolü gibi yerel algoritmalar kullanarak) entegre edecektir.
+Donanım tasarımı ([Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) ile benzer şekilde) WiFi, BLE ve [yerleşik uyandırma kelimesi algılama](https://www.home-assistant.io/voice_control/about_wake_word/) (kod gerektirmeyen [ESPHome firmware](https://esphome.io/) ile) için ESP32-S3 SoC ile, ileri seviye ses işleme için XMOS xCORE XU316 çipi ile entegre olacak (mikrofon temizliği için özel yazılım ile daha iyi ses tanıma yeteneği sağlamak amacıyla yerel çalışan Gürültü Bastırma, Akustik Yankı İptali, Parazit İptali ve Otomatik Kazanç Kontrolü algoritmaları ile).
 
-Fonksiyonel olarak, donanım büyük ölçüde [Home Assistant Voice Preview Edition (Home Assistant Voice PE)](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) referans tasarımı ile donanımsal olarak uyumlu olacak şekilde tasarlanmıştır (bu tasarım Open Home Foundation tarafından Nabu Casa ile işbirliğinde açık kaynaklı donanım olarak yayımlandı). Ana fark, Google Nest Mini muhafazası ve bileşenlerinin belirlediği sınırlamalardan kaynaklanacaktır (yani, nest-mini-drop-in-pcb proje donanım tasarımı, Google'ın orijinal donanımı ile aynı tür fiziksel kapasite girişleri ile sınırlı olacaktır).
+Fonksiyonellik açısından, donanım [Home Assistant Voice Preview Edition (diğer adıyla Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) referans tasarımına (Open Home Foundation tarafından Nabu Casa ile iş birliğiyle açık kaynak donanım olarak yayımlandı) büyük ölçüde donanım uyumlu olacak. Ana fark, Google Nest Mini kutusu ve bileşenlerinin belirlediği kısıtlamalardan kaynaklanacak, (yani nest-mini-drop-in-pcb proje donanım tasarımı, Google’ın orijinal donanımındakiyle aynı tür fiziksel kapasite girişleriyle sınırlı olacak).
 
-Bu nedenle, bu proje/deponun kapsamı ESPHome firmware için yeni özellikler/fonksiyonlar geliştirmek değildir; eğer bunu istiyorsanız, bunun yerine Home Assistant Voice Preview Edition firmware geliştirme ve upstream ESPHome ana koduna yönelmeniz gerekmektedir:
+Bu nedenle bu proje/depo kapsamı ESPHome firmware için yeni özellik/fonksiyonlar geliştirmek değildir, eğer bunu istiyorsanız Home Assistant Voice Preview Edition firmware geliştirmesine ve ana ESPHome koduna yönelmeniz gerekir:
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://github.com/esphome/esphome
@@ -60,44 +65,43 @@ Bu nedenle, bu proje/deponun kapsamı ESPHome firmware için yeni özellikler/fo
 
 ## İşbirliği talebi
 
-PCB yerleşim tasarımı konusunda deneyiminiz varsa (özellikle PCB yönlendirme, topraklama, veya gürültüye duyarlı dijital+analog yerleşimler ile ilgili), **yardımınız çok takdir edilecektir**! Lütfen yeni bir issue açmaktan, öneri/talep sunmaktan, mevcut issue'lara katkı ve geri bildirim eklemekten veya bu depoyu forkladığınızda özgürce hareket edin.
+PCB yerleşim tasarımı konusunda deneyiminiz varsa (ve özellikle PCB yönlendirme, ground pour, veya gürültüye duyarlı dijital+analog yerleşimler konusunda), **yardımınız çok değerli**! Lütfen yeni bir konu açın, öneri/istek gönderin, mevcut konulara katkı/geri bildirim ekleyin veya bu depoyu çatallayın.
 
-Kavram/fikir hakkında daha fazla bilgi almak ve katkı sağlamak için ilgili tartışmaya Home Assistant topluluk forumunda da göz atabilirsiniz:
+Kavram/fikir ile ilgili daha fazla bilgi için ve katkıda bulunmak için ilgili tartışmaya göz atmak için Home Assistant topluluk forumu başlığına da bakabilirsiniz:
 
 - https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/
 
 ### Mevcut durum
 
-- ✅ Şematik tamamlandı
+- ✅ Şema tamamlandı
 - ✅ Bileşen yerleşimi yapıldı
 - ✅ Yönlendirme tamamlandı
-- ✅ Toprak dökümü, koruma stratejisi ve EMI değerlendirmeleri tamamlandı
-- ⚠️ 1. test partisi iki hata nedeniyle başarısız oldu - düzeltildi
+- ✅ Ground pour, koruma stratejisi ve EMI değerlendirmeleri yapıldı
+- ⚠️ İlk test partisi iki hata nedeniyle başarısız oldu - düzeltildi
 - 🕓 2. test partisi bekleniyor
 
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png" width="1000">
 
-
 ## Kullanılan Araçlar
 
 - 🛠️ KiCad 9
-- 🧰 SnapEDA / LCSC (ayak izi bulmak için)
+- 🧰 SnapEDA / LCSC ayak izi bulma için
 
 ## Bilinen donanım özellikleri
 
 - 4 katmanlı PCB
-- ESP32-S3R8 çıplak çip (WiFi, BLE ve dahili uyandırma kelimesi algılama için ESP32-S3)
+- ESP32-S3R8 çıplak çip (ESP32-S3 WiFi, BLE ve gömülü uyanma kelimesi algılama için)
 - XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP ses işleme)
 - Çift SPI flash (çünkü ESP32 ve XMOS'un kendi SPI flash'ı var)
-- Çift I²S veri yolu (aynı anda I2S arayüzlerine izin verir, yani eşzamanlı ses çıkışı ve ses girişi)
-- MAX98357 hoparlör çıkışı için (I2S Sınıf-D Mono Ses Yükseltici)
-- 2x MEMS mikrofon (çift MMICT390200012, mikrofonlar arası mesafe 68mm)
+- Çift I²S veri yolu (aynı anda I2S arayüzleri için, yani eşzamanlı ses çıkışı ve girişi)
+- TAS5805M (TAS5805MPWPR) hoparlör çıkışı için (I2S Class-D Mono Ses Yükselteci, I2C üzerinden DSP ayarı)
+- 2x MEMS mikrofon (çift MMICT390200012, mikrofonlar arası 68mm mesafe)
 - 6x SK6812 RGB LED
 - Özel USB-C ve 14V güç girişi (Not! USB-C ve varil konnektörü aynı anda bağlanamaz)
 
 ---
 
-> ⚠️ USB-C üzerinden yazılım yüklemek için ana 14V güç girişinin bağlantısı kesilmelidir. Detaylar için PCB üzerindeki ipek baskı notuna bakınız.
+> ⚠️ USB-C ile yazılım yükleme için ana 14V güç girişinin bağlantısı kesilmelidir. Detaylar için PCB üzerindeki serigrafi notuna bakınız.
 
 ## Referanslar
 
@@ -107,13 +111,13 @@ Kavram/fikir hakkında daha fazla bilgi almak ve katkı sağlamak için ilgili t
     - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files
       - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf
      
-#### Home Assistant Voice PE için ESPHome ürün yazılımı (aynı ESP32-S3 + XMOS XU316 kombinasyonunu kullanır):
+#### Home Assistant Voice PE için ESPHome üretici yazılımı (aynı ESP32-S3 + XMOS XU316 kombinasyonunu kullanır):
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://esphome.github.io/home-assistant-voice-pe/
 - https://voice-pe.home-assistant.io/
 
-### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC çipi
+### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC yongası
 
 - https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf
 - https://www.xmos.com/software-tools/
@@ -121,7 +125,7 @@ Kavram/fikir hakkında daha fazla bilgi almak ve katkı sağlamak için ilgili t
   - https://www.xmos.com/usb-multichannel-audio/
   - https://www.xmos.com/xcore-ai
  
-#### Home Assistant Voice Preview Edition donanımı için ESPHome projesinden XMOS firmware'i:
+#### Home Assistant Voice Preview Edition donanımı için ESPHome projesinden XMOS üretici yazılımı:
 
 - https://github.com/esphome/voice-kit-xmos-firmware
   - https://github.com/esphome/xmos_fwk_rtos
@@ -129,15 +133,16 @@ Kavram/fikir hakkında daha fazla bilgi almak ve katkı sağlamak için ilgili t
 
 ## Lisans
 
-Bu proje [CERN Açık Donanım Lisansı Sürüm 2 - Güçlü Karşılıklı (CERN-OHL-S v2)] kapsamında lisanslanmıştır.
-Bu donanımın değiştirilmiş herhangi bir sürümü de aynı lisans altında dağıtılmalıdır.
+Bu proje [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)] kapsamında lisanslanmıştır.
+Bu donanımın değiştirilmiş herhangi bir versiyonu da aynı lisans altında dağıtılmalıdır.
 
 ☕ Bu projeyi desteklemek isterseniz, [Ko-fi üzerinden bana bir kahve ısmarlayabilirsiniz](https://ko-fi.com/imike78)!
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-22
 
 ---

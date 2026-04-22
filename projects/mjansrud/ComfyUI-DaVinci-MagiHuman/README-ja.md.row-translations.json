@@ -1,0 +1,716 @@
+[
+  {
+    "row": 1,
+    "rowsha": "BSYcMO+/nFRr0Tu9wagKFV039sVHDTmmOpQf1yrP7E4=",
+    "originContent": "Edit: This repo has been archived as i have not been able to generate good (enough) results with the model, i'll stick to LTX2.3 for now. ",
+    "translatedContent": "Edit: このリポジトリは、モデルで十分に良い結果を生成できなかったためアーカイブされました。現在はLTX2.3を使い続けています。  "
+  },
+  {
+    "row": 2,
+    "rowsha": "WEtjOexGOuArR79p/g76TlpHT5POjNsUPs1Q0qZSgu0=",
+    "originContent": "Feel free to keep working on it.",
+    "translatedContent": "引き続き作業を進めていただいて構いません。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "gFNGIMYaFU+ZdorPgT4l7oTksi24qO16TaLMR87stBU=",
+    "originContent": "Edit: OBS! This is still work in progress, do not expect it to work. ",
+    "translatedContent": "Edit: 注意！これはまだ作業中の段階であり、動作を期待しないでください。  "
+  },
+  {
+    "row": 5,
+    "rowsha": "GDg6GtR/RCllGjUaUUIzopf6HX17wRDlvLJtyEawofc=",
+    "originContent": "Im going away on easter holiday and have no time to look at it before im back.",
+    "translatedContent": "イースター休暇でしばらく離れるため、戻るまで確認できません。  "
+  },
+  {
+    "row": 6,
+    "rowsha": "pHDbr+0//YqU2VkYHEFDezCOHAfyzdUuLlsbFE/N7VQ=",
+    "originContent": "Feel free to fork it and continue the work, or wait for Kijai to release his version.",
+    "translatedContent": "フォークして作業を続けるか、Kijaiがリリースするバージョンを待ってください。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "/XJ+0nYy5+SICBN5zkltds3iqcsZVYoPgKo6rikWsNA=",
+    "originContent": "The code will (for now, will be changed later) automatically download the required text encoder and wan vae from huggingface, ",
+    "translatedContent": "コードは（現時点では、後で変更予定）必要なテキストエンコーダーとwan vaeをhuggingfaceから自動的にダウンロードします。  "
+  },
+  {
+    "row": 9,
+    "rowsha": "W6whbGlgnIlCUJy9b2jYbUukeZRiOp48KRZHLvE6fb4=",
+    "originContent": "expect it to take some time on the first run.",
+    "translatedContent": "初回実行時は時間がかかることを想定してください。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "/8rgRHT24Xc+hnH968w3M9LFre12+ANkICDFFWgmCSY=",
+    "originContent": "# ComfyUI-DaVinci-MagiHuman",
+    "translatedContent": "# ComfyUI-DaVinci-MagiHuman"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "w4l5EwLKm6aNg49MxcA8zqlBB+8JAFyk+/GXI5zeaRA=",
+    "originContent": "ComfyUI custom nodes for [daVinci-MagiHuman](https://huggingface.co/GAIR/daVinci-MagiHuman), a 15B parameter single-stream transformer for fast audio-video generation. Optimized for consumer GPUs (RTX 5090 32GB).",
+    "translatedContent": "[daVinci-MagiHuman](https://huggingface.co/GAIR/daVinci-MagiHuman)向けのComfyUIカスタムノード。15Bパラメータの単一ストリームトランスフォーマーによる高速な音声・映像生成用。消費者向けGPU（RTX 5090 32GB）に最適化。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特徴"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "XvXNIzuQ1kBN51TRnWdY0JYyfn3nmeOEawyzSuOWaTA=",
+    "originContent": "- **Block-level CPU/GPU swapping** — only 8 of 40 transformer layers on GPU at once (~6GB vs ~30GB)",
+    "translatedContent": "- **ブロック単位のCPU/GPUスワッピング** — 40層のトランスフォーマーのうちGPU上は8層のみ（約6GB対約30GB）  "
+  },
+  {
+    "row": 18,
+    "rowsha": "hBzoerLvDg6M3eDtAWkhl1dWiQ7s6fAUOR/irhT9uwo=",
+    "originContent": "- **Async CUDA prefetching** — next block transfers while current block computes",
+    "translatedContent": "- **非同期CUDAプリフェッチ** — 現ブロック計算中に次ブロック転送  "
+  },
+  {
+    "row": 19,
+    "rowsha": "5HBZQiRgTkkpZp5zDurtdRAA66Waohz8cLaUdYwyjg4=",
+    "originContent": "- **Distill mode** — 8-step generation without CFG (fastest)",
+    "translatedContent": "- **蒸留モード** — CFGなし8ステップ生成（最速）  "
+  },
+  {
+    "row": 20,
+    "rowsha": "TdUgf9qNNG7thz8l4iXrMDwgN+o7AQkOi2KFUiB0Vz4=",
+    "originContent": "- **1080p super-resolution** — latent-space upscaling from 256p base",
+    "translatedContent": "- **1080p超解像** — 256pベースからの潜在空間アップスケーリング  "
+  },
+  {
+    "row": 21,
+    "rowsha": "6bUQ1t2iny8lfM1UrNtXqOQJiMUoa0BSt+ZIv5ijxLs=",
+    "originContent": "- **TurboVAE decoder** — sliding window decode with output offload for 1080p",
+    "translatedContent": "- **TurboVAEデコーダ** — 出力オフロード付きスライディングウィンドウデコードで1080p対応  "
+  },
+  {
+    "row": 22,
+    "rowsha": "Gc8sCnylCVEYH5ZRAdRyk4wqIqE+PPksKbnO0DtVMZM=",
+    "originContent": "- **Audio + video** — single-stream joint generation",
+    "translatedContent": "- **音声＋映像** — 単一ストリームの共同生成"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "daHPBH0EPQJw1tOEeRaG1Pub2AUk3dx8+mRdPIM3PWk=",
+    "originContent": "## Nodes",
+    "translatedContent": "## ノード"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "uJMq48nuj+wkBomnjZiqvLJ4wi/X+fHvZrD2Ma4azjs=",
+    "originContent": "| Node | Description |",
+    "translatedContent": "| ノード | 説明 |"
+  },
+  {
+    "row": 27,
+    "rowsha": "E0a5l6U++MKlNLJbXgJB6DSfMfYy1KL1EHjo1imkim0=",
+    "originContent": "|------|-------------|",
+    "translatedContent": "|------|-------------|"
+  },
+  {
+    "row": 28,
+    "rowsha": "MJa8KAul0lTcHUm1zRsvkAIORCuLQRkln674xgk0AHA=",
+    "originContent": "| **DaVinci Model Loader** | Load distill/base/SR model with configurable `blocks_on_gpu` |",
+    "translatedContent": "| **DaVinci Model Loader** | `blocks_on_gpu`設定可能な蒸留/ベース/SRモデルのロード |"
+  },
+  {
+    "row": 29,
+    "rowsha": "3CGGbHGSSSTnIrbxzEt66jfP9bxM3sav8zxhlTW17ew=",
+    "originContent": "| **DaVinci TurboVAE Loader** | Load the fast decode-only VAE |",
+    "translatedContent": "| **DaVinci TurboVAE Loader** | 高速デコード専用VAEのロード |"
+  },
+  {
+    "row": 30,
+    "rowsha": "AYea8oo4XJkLau9k9ocTnEwg9wxzU9t5j8RplPNiags=",
+    "originContent": "| **DaVinci Text Encode** | Text prompt to embeddings (accepts external T5 encoder) |",
+    "translatedContent": "| **DaVinci Text Encode** | テキストプロンプトから埋め込みへ（外部T5エンコーダー使用可） |"
+  },
+  {
+    "row": 31,
+    "rowsha": "n/KlVYfakmmFoENHprytClaS97CCDT1bSwuYee12KTY=",
+    "originContent": "| **DaVinci Sampler** | Denoising loop (8 steps distill / 32 steps base) |",
+    "translatedContent": "| **DaVinci Sampler** | ノイズ除去ループ（蒸留8ステップ／ベース32ステップ） |"
+  },
+  {
+    "row": 32,
+    "rowsha": "OCG1hZF4W5W47PqCfOYQQ0HJFtWEc+w/OfqOnfnDN34=",
+    "originContent": "| **DaVinci Super Resolution** | Upscale 256p latent to 1080p with SR model |",
+    "translatedContent": "| **DaVinci Super Resolution** | 256p潜在空間をSRモデルで1080pにアップスケール |"
+  },
+  {
+    "row": 33,
+    "rowsha": "275pAS/vhdXZpr5WlBnSzr7rUGUQDl5L0pnFRV5lXQ0=",
+    "originContent": "| **DaVinci Decode** | TurboVAE latent-to-video with output offload |",
+    "translatedContent": "| **DaVinci Decode** | TurboVAEによる潜在空間から映像へのデコード（出力オフロード付き） |"
+  },
+  {
+    "row": 34,
+    "rowsha": "fEjdldeWfzl9pya1WxtqKcQ4wFIS5wgkeD/bFn4BH/w=",
+    "originContent": "| **DaVinci Video Output** | Save to mp4/webm via FFmpeg |",
+    "translatedContent": "| **DaVinci Video Output** | FFmpeg経由でmp4/webmとして保存 |"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "cTYADklGBMB3acVdo/DsTqhe75UI2IQLxx7IpudFt0I=",
+    "originContent": "## Workflow",
+    "translatedContent": "## ワークフロー"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "V/mIfSR9E1gGD5Ec+S6WUaLRzbdaLXDBW1+xBSFL1CA=",
+    "originContent": "Model Loader (distill, 8 blocks on GPU)",
+    "translatedContent": "Model Loader (distill, 8 blocks on GPU)"
+  },
+  {
+    "row": 40,
+    "rowsha": "cqZFGuRryDeNotrlMe8uLApj2ywpULRr+tosYMlj8qw=",
+    "originContent": "  → Text Encode",
+    "translatedContent": "  → Text Encode"
+  },
+  {
+    "row": 41,
+    "rowsha": "6rgjV/oCu5QS+F2gyOF8CmraDICRPxjU9/JAbXPCKUU=",
+    "originContent": "    → Sampler (256p, 8 steps)",
+    "translatedContent": "    → Sampler (256p, 8 steps)"
+  },
+  {
+    "row": 42,
+    "rowsha": "vHSkxeaAqspyR23yXMAZRSmTTLDsDzzKXbNlDlUd3ec=",
+    "originContent": "      → [optional] SR Model Loader (1080p_sr) → Super Resolution",
+    "translatedContent": "      → [optional] SR Model Loader (1080p_sr) → Super Resolution"
+  },
+  {
+    "row": 43,
+    "rowsha": "GGJGd/TTRU8OWrwCj2XF08cFTHQMcrH1aAFj8hFJtCc=",
+    "originContent": "        → TurboVAE Loader → Decode → Video Output",
+    "translatedContent": "        → TurboVAE Loader → Decode → Video Output"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 要件"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "1ygaewNkm92kWaOriY2dXjEPG9wPLBbwI04tYAqLhdI=",
+    "originContent": "- **GPU**: RTX 5090 (32GB) or better. 8 blocks on GPU works for 32GB VRAM.",
+    "translatedContent": "- **GPU**: RTX 5090（32GB）以上。32GB VRAMの場合、GPU上で8ブロックが動作します。"
+  },
+  {
+    "row": 49,
+    "rowsha": "6NTET8YWzSfMXbdRYGPfjrktMag741rcddBEG2ys1cs=",
+    "originContent": "- **RAM**: 64GB+ recommended (CPU offloading stores ~24GB of model weights in system RAM)",
+    "translatedContent": "- **RAM**: 64GB以上推奨（CPUオフロードでは約24GBのモデル重みをシステムRAMに保存します）"
+  },
+  {
+    "row": 50,
+    "rowsha": "vnmeY0evKKGOtzD/VilWpd1zc/XyppbBCzFZPA06+2o=",
+    "originContent": "- **CUDA**: CUDA-capable GPU with bf16 support",
+    "translatedContent": "- **CUDA**: bf16対応のCUDA対応GPU"
+  },
+  {
+    "row": 51,
+    "rowsha": "EXYlFnhKR+/UqfCMLPtuElDiRxF0Ahq9PkXlxoAc9b4=",
+    "originContent": "- **FFmpeg**: Required for video output",
+    "translatedContent": "- **FFmpeg**: 動画出力に必要"
+  },
+  {
+    "row": 52,
+    "rowsha": "OLC7IpgOQQWmF9OnWW47KiCT+zaj/fr7y911OfRfZKU=",
+    "originContent": "- **Python packages**: `safetensors`, `torch`, `numpy`",
+    "translatedContent": "- **Pythonパッケージ**: `safetensors`、`torch`、`numpy`"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "wCvG58YetbGJzKaTI1v0fY/xT83Uzn9qIzprd+f1SAw=",
+    "originContent": "## Model Setup",
+    "translatedContent": "## モデル設定"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "769fQZRJ0BVkcqjLBovLOVKJmJG+iAKU1J5bVuEekfA=",
+    "originContent": "Download model weights from [HuggingFace](https://huggingface.co/GAIR/daVinci-MagiHuman):",
+    "translatedContent": "[HuggingFace](https://huggingface.co/GAIR/daVinci-MagiHuman)からモデル重みをダウンロードしてください："
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 59,
+    "rowsha": "yCMmLhzNy9v/K8oFQKxKdkznyOVIFz23QsQEm5ufFtA=",
+    "originContent": "cd ComfyUI/models",
+    "translatedContent": "cd ComfyUI/models"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "V2JKvIERmiyIC6I3rrQzPLeglBiztxxHPJgsRi5mc9Q=",
+    "originContent": "# Clone without large files",
+    "translatedContent": "# Clone without large files"
+  },
+  {
+    "row": 62,
+    "rowsha": "E03WXUvhUSwXSNFgU44VoJTp089fMNj4HjG1lA7MJ1Q=",
+    "originContent": "GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/GAIR/daVinci-MagiHuman",
+    "translatedContent": "GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/GAIR/daVinci-MagiHuman"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "VYdrnJ2EC4HS1I7zG4sKqg+H7lcBNoUf58MGGVlulbg=",
+    "originContent": "cd daVinci-MagiHuman",
+    "translatedContent": "cd daVinci-MagiHuman"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "O0qoJmZF2PVRD/cz2DD/tYqlRuFGmHrDjcXEhCjNYvg=",
+    "originContent": "# Pull only what you need (skip 540p_sr if you only want 1080p)",
+    "translatedContent": "# Pull only what you need (skip 540p_sr if you only want 1080p)"
+  },
+  {
+    "row": 67,
+    "rowsha": "wpRK0gkjAHLVoiUQijaAO/kbdzG6zAMljFHxRFCg24w=",
+    "originContent": "git lfs pull --include=\"distill/*,turbo_vae/*\"        # ~61GB - base generation",
+    "translatedContent": "git lfs pull --include=\"distill/*,turbo_vae/*\"        # ~61GB - base generation"
+  },
+  {
+    "row": 68,
+    "rowsha": "Gd0fyX8WgcGip2X/YdKVqpQ1EmlDWWqoXROlPW8prNU=",
+    "originContent": "git lfs pull --include=\"1080p_sr/*\"                    # ~61GB - 1080p upscaling",
+    "translatedContent": "git lfs pull --include=\"1080p_sr/*\"                    # ~61GB - 1080p upscaling"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "期待されるディレクトリ構造:"
+  },
+  {
+    "row": 71,
+    "rowsha": "KgRJJta7tlsymBpZJPkunuJhHMmL8kD5OAkS8dB0RBk=",
+    "originContent": "Expected directory structure:",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "si7o0tDwACPV5UtdYgmSgJItA2BtDjU1j1x702szbR0=",
+    "originContent": "ComfyUI/models/daVinci-MagiHuman/",
+    "translatedContent": "ComfyUI/models/daVinci-MagiHuman/"
+  },
+  {
+    "row": 74,
+    "rowsha": "nBm8WgRVl5BTK4shITcorJmKA5Rua5yntKc5kd/KXmo=",
+    "originContent": "├── distill/          # 8-step distilled model (~61GB)",
+    "translatedContent": "├── distill/          # 8-step distilled model (~61GB)"
+  },
+  {
+    "row": 75,
+    "rowsha": "4BBwTXLpYF4NwJlamGhV4bUtxg6yRMCGpOSj28nRjXE=",
+    "originContent": "├── 1080p_sr/         # Super-resolution model (~61GB)",
+    "translatedContent": "├── 1080p_sr/         # Super-resolution model (~61GB)"
+  },
+  {
+    "row": 76,
+    "rowsha": "76COJLCG0Sjz71hYbEI6buduc6nByJe89+LnfO8G5x4=",
+    "originContent": "├── turbo_vae/        # Fast decoder (small)",
+    "translatedContent": "├── turbo_vae/        # Fast decoder (small)"
+  },
+  {
+    "row": 77,
+    "rowsha": "WJ62TlfOppCIwuPwMpq/xxxwShzr3in8dw6ZcFbQ/CY=",
+    "originContent": "├── base/             # Full 32-step model (optional, ~30GB)",
+    "translatedContent": "├── base/             # Full 32-step model (optional, ~30GB)"
+  },
+  {
+    "row": 78,
+    "rowsha": "RFgkxgm0yPFhld+ISvVG2JzLM0TtBlx1SG1F7d6JEDA=",
+    "originContent": "└── 540p_sr/          # 540p SR (optional, ~61GB)",
+    "translatedContent": "└── 540p_sr/          # 540p SR (optional, ~61GB)"
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## VRAM ガイド"
+  },
+  {
+    "row": 81,
+    "rowsha": "vN9j8GF9Do1Nhf/2iu/YmZgYRIB3TZ7qiA0rVMJN8eA=",
+    "originContent": "## VRAM Guide",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| `blocks_on_gpu` | VRAM 使用量 | 速度 | 推奨用途 |"
+  },
+  {
+    "row": 83,
+    "rowsha": "e2K1DBr2MPOtfVxrXWCy73XRM+UIOWovLXd17Qb4RzQ=",
+    "originContent": "| `blocks_on_gpu` | VRAM Usage | Speed | Recommended For |",
+    "translatedContent": "|-----------------|-----------|-------|-----------------|"
+  },
+  {
+    "row": 84,
+    "rowsha": "xE6FOGIOaui2tLQS28+AgpjW7CCMtJ3FIgh1SPME3cY=",
+    "originContent": "|-----------------|-----------|-------|-----------------|",
+    "translatedContent": "| 4 | 約3GB + オーバーヘッド | 最遅 | 16GB GPU |"
+  },
+  {
+    "row": 85,
+    "rowsha": "c1C2VyXqrcS7BD6aGFT2Vrdy1VtzeiS6LyPNxv02Kg0=",
+    "originContent": "| 4 | ~3GB + overhead | Slowest | 16GB GPUs |",
+    "translatedContent": "| 8 | 約6GB + オーバーヘッド | 良好 | 24-32GB GPU |"
+  },
+  {
+    "row": 86,
+    "rowsha": "qfJ2Re+WbwFh5lffobSRmDUs3ViElZwEm4LSrzDKqs8=",
+    "originContent": "| 8 | ~6GB + overhead | Good | 24-32GB GPUs |",
+    "translatedContent": "| 16 | 約12GB + オーバーヘッド | 高速 | 48GB GPU |"
+  },
+  {
+    "row": 87,
+    "rowsha": "6OhGeFUwknYa/OmJdOU/iEb9oSlVfIqdfKrPf37/Uw8=",
+    "originContent": "| 16 | ~12GB + overhead | Fast | 48GB GPUs |",
+    "translatedContent": "| 40 | 約30GB | 最速 | 80GB以上のGPU |"
+  },
+  {
+    "row": 88,
+    "rowsha": "4PMPK/TbFbv+eVY2bd6zem79yfEg/cgHjhK8hgQ+xl4=",
+    "originContent": "| 40 | ~30GB | Fastest | 80GB+ GPUs |",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## テキストエンコーダー"
+  },
+  {
+    "row": 90,
+    "rowsha": "O7vzI+QmjGUHa71KsxfRi3r03ODioVJHLvIaxiN6VrY=",
+    "originContent": "## Text Encoder",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "daVinci-MagiHuman は T5Gemma-9B をテキストエンコーダーとして使用します。**DaVinci Text Encode** ノードは現在以下を提供しています："
+  },
+  {
+    "row": 92,
+    "rowsha": "FdWkvSO34+dCdV94fijvxzbQ5sSzxbgrkn3BKaeyGso=",
+    "originContent": "daVinci-MagiHuman uses T5Gemma-9B as its text encoder. The **DaVinci Text Encode** node currently provides:",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **プレースホルダー埋め込み**（パイプラインのテスト用、ランダムノイズで意味のある出力は生成しません）"
+  },
+  {
+    "row": 94,
+    "rowsha": "ik7gHWhQDOvMAcqvpeepxFK1nKgwUbRBYx89svRS4ZQ=",
+    "originContent": "- **Placeholder embeddings** for pipeline testing (random noise — won't produce meaningful output)",
+    "translatedContent": "- **外部T5入力** — 他のエンコーダーノードから事前計算された T5 埋め込み（3584次元）を接続可能"
+  },
+  {
+    "row": 95,
+    "rowsha": "CruvtzzBtAPacqGoq9iZnTXh0goMcpb/8NQ0/W1BZ50=",
+    "originContent": "- **External T5 input** — connect pre-computed T5 embeddings (3584 dim) from another encoder node",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "実運用では、T5-XXL または T5Gemma エンコーダーノードを `t5_embeds` 入力に接続してください。"
+  },
+  {
+    "row": 97,
+    "rowsha": "NuO3PNrYAbPLGz6A4K96Vq190zEwQp0OXkK3SPDrRvk=",
+    "originContent": "For production use, connect a T5-XXL or T5Gemma encoder node to the `t5_embeds` input.",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## アーキテクチャ"
+  },
+  {
+    "row": 99,
+    "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+    "originContent": "## Architecture",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "モデルは映像と音声を同時に生成するシングルストリームトランスフォーマーです："
+  },
+  {
+    "row": 101,
+    "rowsha": "lBAhXpTe3RHVW7Si1alltAEK86MqpZIPL0pTV8tG+oQ=",
+    "originContent": "The model is a single-stream transformer that jointly generates video and audio:",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **15B パラメータ**, 40 トランスフォーマーレイヤー"
+  },
+  {
+    "row": 103,
+    "rowsha": "B627GZQoZ+GQNTIotWykRYjj1MOB+lvIwn1uUpiq/U4=",
+    "originContent": "- **15B parameters**, 40 transformer layers",
+    "translatedContent": "- **隠れ層サイズ**：5120、**GQA**：40 クエリ / 8 KV ヘッド、**ヘッド次元**：128"
+  },
+  {
+    "row": 104,
+    "rowsha": "monr6RpPUukGe4aajUU9RK2Xp/d4qLAkgquHdqj7DYE=",
+    "originContent": "- **Hidden size**: 5120, **GQA**: 40 query / 8 KV heads, **Head dim**: 128",
+    "translatedContent": "- **サンドイッチレイヤー**：0-3 と 36-39 はモダリティごとの正規化（映像/音声/テキスト）"
+  },
+  {
+    "row": 105,
+    "rowsha": "E1B/srPin427PMr1tO3LDvk0Z2z3gW1uprD8KfQMI4g=",
+    "originContent": "- **Sandwich layers**: 0-3 and 36-39 have per-modality norms (video/audio/text)",
+    "translatedContent": "- **共有レイヤー**：4-35 は統一処理を使用"
+  },
+  {
+    "row": 106,
+    "rowsha": "EYf0ISdEo1ch4zp7Kb28L4TJi/rS9YzLXFTE1ijVyCk=",
+    "originContent": "- **Shared layers**: 4-35 use unified processing",
+    "translatedContent": "- **タイムステップなし**：明示的なタイムステップ埋め込みなし — 入力からノイズ除去状態を推定"
+  },
+  {
+    "row": 107,
+    "rowsha": "qW1tPxH4c6tosUGArw0MVXf6fi14TcGJLqFPEGf4UyU=",
+    "originContent": "- **Timestep-free**: No explicit timestep embedding — infers denoising state from input",
+    "translatedContent": "- **ヘッドごとのゲーティング**：各アテンションヘッドに学習されたシグモイドゲート"
+  },
+  {
+    "row": 108,
+    "rowsha": "l2OFk66ASKCuQnJ90YGne/XVipteDsPUnxE+/a4kNTg=",
+    "originContent": "- **Per-head gating**: Learned sigmoid gates on each attention head",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## クレジット"
+  },
+  {
+    "row": 110,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [daVinci-MagiHuman](https://huggingface.co/GAIR/daVinci-MagiHuman) by SII-GAIR & Sand.ai"
+  },
+  {
+    "row": 112,
+    "rowsha": "2oJ6Lia3h2NhltpOzixdIdbNIpoNVyBSK/rdQI1vmLU=",
+    "originContent": "- [daVinci-MagiHuman](https://huggingface.co/GAIR/daVinci-MagiHuman) by SII-GAIR & Sand.ai",
+    "translatedContent": "- [MagiCompiler](https://github.com/SandAI-org/MagiCompiler) によるオペレーターフュージョン"
+  },
+  {
+    "row": 113,
+    "rowsha": "aOSgHzp2T6PLuYA7/kUTgoi8h+G4P6xSE52muMwKolo=",
+    "originContent": "- [MagiCompiler](https://github.com/SandAI-org/MagiCompiler) for operator fusion",
+    "translatedContent": "- Wan2.2 と TurboVAED をベースに構築"
+  },
+  {
+    "row": 114,
+    "rowsha": "IndnJu8FcuMuGmdr1bYVXb1PLVskFBEfufjP230dVZk=",
+    "originContent": "- Built upon Wan2.2 and TurboVAED",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 116,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Apache 2.0"
+  },
+  {
+    "row": 118,
+    "rowsha": "z5ieoULyA/UyIz+pRO4djVrP5vaHXk1hH1Fe4Qi6Jt8=",
+    "originContent": "Apache 2.0",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

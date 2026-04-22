@@ -1,0 +1,111 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Surge\n自用的 Surge 规则、脚本和模块\n\n### 通用配置文件\n[General.conf](https://github.com/BlueGrave/Surge/blob/master/General.conf) 参考 [@scomper](https://github.com/scomper/Surge) 和 [@DivineEngine](https://github.com/DivineEngine/Profiles/tree/master/Surge) 的配置文件注释\n\n### 规则文件\n自用的特殊规则\n- [AppleOS_Update.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/AppleOS_Update.list) 结合多个大佬的相关规则整理出来的各 Apple OS OTA 规则\n- [Mail.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/Mail.list) 解决 iOS Mail App 收件问题\n\n### 模块文件\n- [MyMoneyPro.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/MyMoneyPro.sgmodule) 屏蔽随手记专业版 App 开屏广告\n- [WhiteList.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/WhiteList.sgmodule) 排除 AdBlock 误伤，增加一些自用的特殊规则\n- [Cookie.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Cookie.sgmodule) 和 [Task.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Task.sgmodule) 自用的各 App 每日签到\n- [VIFOnly.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/VIFOnly.sgmodule) 开启兼容模式，避免 App 提示使用代理",
+    "ContentSha": "jMieAjl9tNsjJjOUuRlEg4cvYKStp9L+XCRaWdoyV6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Surge\nReglas, scripts y módulos de Surge para uso personal\n\n### Archivo de configuración general\n[General.conf](https://github.com/BlueGrave/Surge/blob/master/General.conf) Referencia los archivos de configuración comentados de [@scomper](https://github.com/scomper/Surge) y [@DivineEngine](https://github.com/DivineEngine/Profiles/tree/master/Surge)\n\n### Archivos de reglas\nReglas especiales para uso personal\n- [AppleOS_Update.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/AppleOS_Update.list) Reglas OTA para Apple OS combinadas y organizadas a partir de varios expertos\n- [Mail.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/Mail.list) Soluciona problemas de recepción en la app iOS Mail\n\n### Archivos de módulos\n- [MyMoneyPro.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/MyMoneyPro.sgmodule) Bloquea los anuncios de apertura de la app MyMoneyPro\n- [WhiteList.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/WhiteList.sgmodule) Excluye bloqueos erróneos de AdBlock y añade reglas especiales para uso personal\n- [Cookie.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Cookie.sgmodule) y [Task.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Task.sgmodule) Firmas diarias personalizadas para varias apps\n- [VIFOnly.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/VIFOnly.sgmodule) Activa modo compatible para evitar alertas de proxy en apps",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ytECF9/Gf/A2YCCV78xOQqP8w6dQme9xg1GkdTWjE4o=",
+        "originContent": "# Surge",
+        "translatedContent": "# Surge"
+      },
+      {
+        "row": 2,
+        "rowsha": "c/XwG9JUiZOrbp1UFrrZSlGgcP/K+v8TJ7dN+zZuLIw=",
+        "originContent": "自用的 Surge 规则、脚本和模块",
+        "translatedContent": "Reglas, scripts y módulos de Surge para uso personal"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "w/o69oXzi2TJCHZypSkkov+6hUbP4OScUIwwnODRH6s=",
+        "originContent": "### 通用配置文件",
+        "translatedContent": "### Archivo de configuración general"
+      },
+      {
+        "row": 5,
+        "rowsha": "eM8sond6E3AsNqHLtpsnGrA4Jgkr1flnillBxnLHhOg=",
+        "originContent": "[General.conf](https://github.com/BlueGrave/Surge/blob/master/General.conf) 参考 [@scomper](https://github.com/scomper/Surge) 和 [@DivineEngine](https://github.com/DivineEngine/Profiles/tree/master/Surge) 的配置文件注释",
+        "translatedContent": "[General.conf](https://github.com/BlueGrave/Surge/blob/master/General.conf) Referencia los archivos de configuración comentados de [@scomper](https://github.com/scomper/Surge) y [@DivineEngine](https://github.com/DivineEngine/Profiles/tree/master/Surge)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+6JGATFfoXC09zTmSdjbEcFuoAUkP78uIXhAAlzPQCY=",
+        "originContent": "### 规则文件",
+        "translatedContent": "### Archivos de reglas"
+      },
+      {
+        "row": 8,
+        "rowsha": "RyAK4HLeazcA9X9mxez5sgHMs91izL9Fbwl1yR9/fHs=",
+        "originContent": "自用的特殊规则",
+        "translatedContent": "Reglas especiales para uso personal"
+      },
+      {
+        "row": 9,
+        "rowsha": "4Tj+w8ELU1LKU2aGQCn6nGZ9rOwTDtX3Yg3wfuGg9BM=",
+        "originContent": "- [AppleOS_Update.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/AppleOS_Update.list) 结合多个大佬的相关规则整理出来的各 Apple OS OTA 规则",
+        "translatedContent": "- [AppleOS_Update.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/AppleOS_Update.list) Reglas OTA para Apple OS combinadas y organizadas a partir de varios expertos"
+      },
+      {
+        "row": 10,
+        "rowsha": "GEw1AwFDte7AiSq4/ElaKgjmcFpRMNQQ38FSYq4B/vk=",
+        "originContent": "- [Mail.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/Mail.list) 解决 iOS Mail App 收件问题",
+        "translatedContent": "- [Mail.list](https://github.com/BlueGrave/Surge/blob/master/Ruleset/Mail.list) Soluciona problemas de recepción en la app iOS Mail"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "u/AigEbCfzQ6LlFPYDoIWbSG1A8ChyYAzSYw+p+RFCk=",
+        "originContent": "### 模块文件",
+        "translatedContent": "### Archivos de módulos"
+      },
+      {
+        "row": 13,
+        "rowsha": "fHQUosWoUJP6YTAWEF5BvDIT8FQPfCOByBFCXPvlMGk=",
+        "originContent": "- [MyMoneyPro.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/MyMoneyPro.sgmodule) 屏蔽随手记专业版 App 开屏广告",
+        "translatedContent": "- [MyMoneyPro.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/MyMoneyPro.sgmodule) Bloquea los anuncios de apertura de la app MyMoneyPro"
+      },
+      {
+        "row": 14,
+        "rowsha": "8wAo7u8fcLyuIrcUqbt+D7+5c1/tdcpkVtaBRd9aJ6U=",
+        "originContent": "- [WhiteList.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/WhiteList.sgmodule) 排除 AdBlock 误伤，增加一些自用的特殊规则",
+        "translatedContent": "- [WhiteList.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/WhiteList.sgmodule) Excluye bloqueos erróneos de AdBlock y añade reglas especiales para uso personal"
+      },
+      {
+        "row": 15,
+        "rowsha": "BMp7Q8j/ao37E3yb5JFzHf1gT3vUhIOeYetsHYrzvOQ=",
+        "originContent": "- [Cookie.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Cookie.sgmodule) 和 [Task.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Task.sgmodule) 自用的各 App 每日签到",
+        "translatedContent": "- [Cookie.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Cookie.sgmodule) y [Task.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/Task.sgmodule) Firmas diarias personalizadas para varias apps"
+      },
+      {
+        "row": 16,
+        "rowsha": "+P41/i5g0msgKq/pCmtRb0Ug07LDQctMrJmVL0+ubTk=",
+        "originContent": "- [VIFOnly.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/VIFOnly.sgmodule) 开启兼容模式，避免 App 提示使用代理",
+        "translatedContent": "- [VIFOnly.sgmodule](https://github.com/BlueGrave/Surge/blob/master/Module/VIFOnly.sgmodule) Activa modo compatible para evitar alertas de proxy en apps"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
