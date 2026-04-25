@@ -1,0 +1,978 @@
+[
+  {
+    "Id": 1,
+    "Content": "# NotebookLM Pro Tree\n\nA Chrome extension that transforms Google's NotebookLM from a simple list into a robust Project Management Dashboard.\n\nStop scrolling through endless flat lists. Organize your sources into nested trees, manage complex projects with advanced tasks, multi-window workflows, and focus with Zen Mode.\n\n\n\n## Critical Warnings ⚠️\n\nUninstalling Deletes Data: This extension uses Local Storage for privacy and speed. If you remove/uninstall the extension, your folders and tasks will be deleted instantly by Chrome.\n\nSolution: Always use the Export button to save a backup JSON file before reinstalling or moving to a new computer.\n\nGoogle Updates & Reliability: This extension works by \"reading\" the NotebookLM website. If Google updates their website, this extension may break.\n\nDisclaimer: As this is a free, open-source project maintained in my spare time, I cannot guarantee immediate fixes if Google changes their code. Use this tool as a helpful enhancement, but keep your important data backed up.\n\n## Project Status & Disclaimer 🚧\nPlease Read: I am a Construction Project Manager, not a professional software developer. I built this tool because I needed it for my own daily workflow.\n\n\"Works on My Machine\": This update (v17.9) is stable for my personal use, but it has not been battle-tested on every possible browser configuration.\n\nExperimental Features: The multi-window system and DOM observers are complex. You may encounter bugs I haven't seen.\n\nFeedback: If you find a bug, please open an issue on GitHub!\n\n## New in v17.9: The Productivity Suite 🚀\nTransformed NotebookLM into a multi-window workspace. This update (consolidating v17.6–v17.9) brings major workflow improvements:\n\nPop-out Notes: Open any note in a floating window for side-by-side reference while you write. The pop-outs preserve formatting (read-only) and sync with your Light/Dark theme.\n\nSmart Tasks & Quick Capture: Select text in any note to instantly see a \"Create Task\" button. This creates a task linked directly to that source note.\n\nAdvanced Task Management: Organize tasks into Custom Sections (collapsible groups), add Due Dates with quick-select options, and include rich Descriptions.\n\nGraceful Stability: A new self-healing engine that disables specific broken features individually instead of crashing the whole extension if Google updates their code.\n\n## Features\n**Productivity & Workflow** 📋 ",
+    "ContentSha": "94IUUMNsjA6qonnK4tZzeR8xjhNuy2P5RNS9EuHgoF0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# NotebookLM Pro 树状图\n\n一个 Chrome 扩展，将谷歌的 NotebookLM 从简单列表转变为强大的项目管理仪表盘。\n\n停止在无尽的平面列表中滚动。将你的来源组织成嵌套树，使用高级任务、多窗口工作流管理复杂项目，并通过禅模式专注。\n\n\n\n## 重要警告 ⚠️\n\n卸载会删除数据：此扩展使用本地存储以保护隐私和提升速度。如果你移除/卸载扩展，Chrome 会立即删除你的文件夹和任务。\n\n解决方案：请务必使用导出按钮，在重新安装或迁移到新电脑前保存备份的 JSON 文件。\n\n谷歌更新与可靠性：此扩展通过“读取”NotebookLM 网站工作。如果谷歌更新了他们的网站，此扩展可能会失效。\n\n免责声明：由于这是一个免费开源项目，在我业余时间维护，我无法保证谷歌更改代码时能立即修复。请将此工具作为辅助增强，并保持重要数据备份。\n\n## 项目状态与免责声明 🚧\n请阅读：我是一名建设项目经理，不是专业软件开发者。我开发此工具是因为我日常工作流需要。\n\n“我的机器上能用”：此更新（v17.9）对我个人使用稳定，但尚未在所有浏览器配置下进行全面测试。\n\n实验功能：多窗口系统和 DOM 观察器较为复杂。你可能会遇到我未发现的错误。\n\n反馈：如果发现错误，请在 GitHub 上提交 issue！\n\n## v17.9 新功能：生产力套件 🚀\n将 NotebookLM 转变为多窗口工作区。本次更新（整合 v17.6–v17.9）带来重大工作流改进：\n\n弹出笔记：将任意笔记在浮动窗口中打开，方便写作时并排参考。弹出窗口保留格式（只读）并与明暗主题同步。\n\n智能任务与快速捕获：在任意笔记中选中文本，即刻显示“创建任务”按钮。此操作创建一个直接链接该源笔记的任务。\n\n高级任务管理：将任务组织进自定义分区（可折叠分组），添加带快速选择选项的截止日期，并包含丰富描述。\n\n优雅稳定性：新的自愈引擎，能单独禁用特定损坏的功能，而非因谷歌更新代码导致整个扩展崩溃。\n\n## 功能\n**生产力与工作流** 📋",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ba3PtHDcpjb/+PzE/0sgn0eXui1dmHFe+2i2CnU5dCY=",
+        "originContent": "# NotebookLM Pro Tree",
+        "translatedContent": "# NotebookLM Pro 树状图"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "vnpq1NYATYMmM97vFtznqNKIR7dEuFLOrfIwkXYB5Z0=",
+        "originContent": "A Chrome extension that transforms Google's NotebookLM from a simple list into a robust Project Management Dashboard.",
+        "translatedContent": "一个 Chrome 扩展，将谷歌的 NotebookLM 从简单列表转变为强大的项目管理仪表盘。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "68A4yH1r0LepJ/dA+mRLv1S8p/TI1b/AE2XcYmbFMQ4=",
+        "originContent": "Stop scrolling through endless flat lists. Organize your sources into nested trees, manage complex projects with advanced tasks, multi-window workflows, and focus with Zen Mode.",
+        "translatedContent": "停止在无尽的平面列表中滚动。将你的来源组织成嵌套树，使用高级任务、多窗口工作流管理复杂项目，并通过禅模式专注。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "AosE9vJ4kOkil8OUY+LDn8M9WlM6rDIWXfrIEzTmlug=",
+        "originContent": "## Critical Warnings ⚠️",
+        "translatedContent": "## 重要警告 ⚠️"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "5+HxL+s7Byv/Q5tJy7NhQCQ/UIPlAWL+BAEQVfvoAh0=",
+        "originContent": "Uninstalling Deletes Data: This extension uses Local Storage for privacy and speed. If you remove/uninstall the extension, your folders and tasks will be deleted instantly by Chrome.",
+        "translatedContent": "卸载会删除数据：此扩展使用本地存储以保护隐私和提升速度。如果你移除/卸载扩展，Chrome 会立即删除你的文件夹和任务。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "WRC5bMCvtF+frq0xP1UfitR3uPURrzeGjW8nvNUq5LM=",
+        "originContent": "Solution: Always use the Export button to save a backup JSON file before reinstalling or moving to a new computer.",
+        "translatedContent": "解决方案：请务必使用导出按钮，在重新安装或迁移到新电脑前保存备份的 JSON 文件。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "qbTGMAfP93K0uOJ+Cx+gLwOD1LJ4NLWKqfbkt9K6Ng0=",
+        "originContent": "Google Updates & Reliability: This extension works by \"reading\" the NotebookLM website. If Google updates their website, this extension may break.",
+        "translatedContent": "谷歌更新与可靠性：此扩展通过“读取”NotebookLM 网站工作。如果谷歌更新了他们的网站，此扩展可能会失效。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ee0NFCPnANaQ/VjhKVH2cpuYaOS6msjU/l/FKXRA1Bs=",
+        "originContent": "Disclaimer: As this is a free, open-source project maintained in my spare time, I cannot guarantee immediate fixes if Google changes their code. Use this tool as a helpful enhancement, but keep your important data backed up.",
+        "translatedContent": "免责声明：由于这是一个免费开源项目，在我业余时间维护，我无法保证谷歌更改代码时能立即修复。请将此工具作为辅助增强，并保持重要数据备份。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "VKU3W058IT+jHrkyBKlo7ui0q3Whys6lOSCIkP+0+J8=",
+        "originContent": "## Project Status & Disclaimer 🚧",
+        "translatedContent": "## 项目状态与免责声明 🚧"
+      },
+      {
+        "row": 20,
+        "rowsha": "nYgNbRuZpwcQXHrS8zXrWCrgOflLRrXgGsRUPU4zdeU=",
+        "originContent": "Please Read: I am a Construction Project Manager, not a professional software developer. I built this tool because I needed it for my own daily workflow.",
+        "translatedContent": "请阅读：我是一名建设项目经理，不是专业软件开发者。我开发此工具是因为我日常工作流需要。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "tqYbyWjBjJIkxyUbdK3VZTtwOtKJV7JITLEABUKahHs=",
+        "originContent": "\"Works on My Machine\": This update (v17.9) is stable for my personal use, but it has not been battle-tested on every possible browser configuration.",
+        "translatedContent": "“我的机器上能用”：此更新（v17.9）对我个人使用稳定，但尚未在所有浏览器配置下进行全面测试。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "7kdKYiJDoNeg0brHWKr4yqpVeBH+lUoxZU6RzYOTayE=",
+        "originContent": "Experimental Features: The multi-window system and DOM observers are complex. You may encounter bugs I haven't seen.",
+        "translatedContent": "实验功能：多窗口系统和 DOM 观察器较为复杂。你可能会遇到我未发现的错误。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "u3b+s6hPp/AnH5JLuEj5WnvuHKa0R/yVP29siSve3h4=",
+        "originContent": "Feedback: If you find a bug, please open an issue on GitHub!",
+        "translatedContent": "反馈：如果发现错误，请在 GitHub 上提交 issue！"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "FsMvNJW/ZbzTHc0a85sn2B1NUxKRKMoXUvf//Yzzmgs=",
+        "originContent": "## New in v17.9: The Productivity Suite 🚀",
+        "translatedContent": "## v17.9 新功能：生产力套件 🚀"
+      },
+      {
+        "row": 29,
+        "rowsha": "WMrfs3gxWAWMzOJm88rHiGAAmCJuwBCiVTZcgawiRKI=",
+        "originContent": "Transformed NotebookLM into a multi-window workspace. This update (consolidating v17.6–v17.9) brings major workflow improvements:",
+        "translatedContent": "将 NotebookLM 转变为多窗口工作区。本次更新（整合 v17.6–v17.9）带来重大工作流改进："
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "nLt9hCXVfx0ExgyihwTqMk3I2vVZ5lTeaTCApLYLGJg=",
+        "originContent": "Pop-out Notes: Open any note in a floating window for side-by-side reference while you write. The pop-outs preserve formatting (read-only) and sync with your Light/Dark theme.",
+        "translatedContent": "弹出笔记：将任意笔记在浮动窗口中打开，方便写作时并排参考。弹出窗口保留格式（只读）并与明暗主题同步。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "mfqWy0JLLQWldihowKgKRyRohEpwClFP24In8TE+PLk=",
+        "originContent": "Smart Tasks & Quick Capture: Select text in any note to instantly see a \"Create Task\" button. This creates a task linked directly to that source note.",
+        "translatedContent": "智能任务与快速捕获：在任意笔记中选中文本，即刻显示“创建任务”按钮。此操作创建一个直接链接该源笔记的任务。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ELLTX++uMu7gBXCF3Hgrk7erEY129I7Trf4R1ncp9jI=",
+        "originContent": "Advanced Task Management: Organize tasks into Custom Sections (collapsible groups), add Due Dates with quick-select options, and include rich Descriptions.",
+        "translatedContent": "高级任务管理：将任务组织进自定义分区（可折叠分组），添加带快速选择选项的截止日期，并包含丰富描述。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "2O9VFi6fcdTvPAS3nsG1UKJC5XJtNIS4kXASTR+DIHY=",
+        "originContent": "Graceful Stability: A new self-healing engine that disables specific broken features individually instead of crashing the whole extension if Google updates their code.",
+        "translatedContent": "优雅稳定性：新的自愈引擎，能单独禁用特定损坏的功能，而非因谷歌更新代码导致整个扩展崩溃。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 40,
+        "rowsha": "lngCuDg1nwXSfCHPHhkbNP/fb3hc/R5AUrCQtY4YoPg=",
+        "originContent": "**Productivity & Workflow** 📋 ",
+        "translatedContent": "**生产力与工作流** 📋"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n*   **Multi-Window Workflow** — Click the \"Pop-out\" icon on any note in the Studio panel to open it in a separate window. Perfect for dual-monitor setups.\n\n*   **Integrated Task Manager** — A complete project management tool built right into the interface:\n    *   **Sections:** Group tasks by phase (e.g., \"Research,\" \"Drafting,\" \"Review\").\n    *   **Smart Links:** Tasks created from notes include a \"Link\" icon that filters your view to the original source.\n    *   **Priorities:** Flag tasks (Red/Yellow/Blue) and sort by Priority or Due Date.\n\n*   **\"Zen Mode\"** — Toggle the UI to hide the AI chat and sidebars for a distraction-free reading/writing studio.\n\n\n **Organization** 📂\n\n*   **Nested Folders** — Create deep structures for Sources, Notes, and Generated Artifacts (Audio Overviews, FAQs, etc.).\n\n*   **Pinning** — Keep critical contracts or specs pinned to the top of your lists.\n\n*   **Color Coding** — Assign colors to folders for visual organization.\n\n*   **Bulk Select** — Master checkboxes to select/deselect all sources in a folder or the entire notebook instantly.\n\n\n**Deep Search** 🔍 \n\n*   **Content Indexing** — Search the actual text inside your notes, not just the titles.\n\n    > **Note:** Indexing happens passively when you open a note.\n\n*   **Smart Compression** — Uses LZ-String compression to store up to 5MB of search index data locally without impacting performance.\n\n\n**Reliability** 🛡️ \n\n*   **Local-First Architecture** — Zero network latency. All data lives on your device.\n\n*   **Graceful Degradation** — If a feature fails due to a website update, the rest of the extension keeps working.\n\n*   **Styled Dialogs** — Smooth, themed confirmation dialogs (no more jarring browser popups).\n\n> **Note:** Each notebook has its own independent data. Tasks and Folders created in \"Project A\" won't clutter \"Project B.\"",
+    "ContentSha": "i+FfEL6nO+s2ZdDQHM6PBLZd+R/6ZRC96Zdc3gI1tts=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "*   **多窗口工作流程** — 点击 Studio 面板中任意笔记的“弹出”图标，将其在独立窗口中打开。非常适合双显示器设置。\n\n*   **集成任务管理器** — 完整的项目管理工具内置于界面中：\n    *   **分区：** 按阶段分组任务（例如，“研究”、“草稿”、“审查”）。\n    *   **智能链接：** 由笔记创建的任务包含一个“链接”图标，可过滤视图至原始来源。\n    *   **优先级：** 标记任务（红/黄/蓝），并按优先级或截止日期排序。\n\n*   **“禅模式”** — 切换界面以隐藏 AI 聊天和侧边栏，打造无干扰的阅读/写作空间。\n\n\n **组织** 📂\n\n*   **嵌套文件夹** — 为来源、笔记和生成的产物（音频概览、常见问题等）创建深层结构。\n\n*   **固定** — 将重要合同或规范固定在列表顶部。\n\n*   **颜色编码** — 为文件夹分配颜色，实现视觉组织。\n\n*   **批量选择** — 主复选框可瞬间选择/取消选择文件夹或整个笔记本中的所有来源。\n\n\n**深度搜索** 🔍 \n\n*   **内容索引** — 搜索笔记中的实际文本，而不仅仅是标题。\n\n    > **注意：** 索引在打开笔记时被被动创建。\n\n*   **智能压缩** — 使用 LZ-String 压缩，在本地存储最多 5MB 的搜索索引数据而不影响性能。\n\n\n**可靠性** 🛡️ \n\n*   **本地优先架构** — 零网络延迟。所有数据存储于您的设备。\n\n*   **优雅降级** — 如果因网站更新导致某功能失效，扩展的其他部分仍能正常工作。\n\n*   **样式化对话框** — 流畅且主题化的确认对话框（不再有令人不适的浏览器弹窗）。\n\n> **注意：** 每个笔记本拥有独立数据。在“项目 A”中创建的任务和文件夹不会干扰“项目 B”。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **多窗口工作流程** — 点击 Studio 面板中任意笔记的“弹出”图标，将其在独立窗口中打开。非常适合双显示器设置。"
+      },
+      {
+        "row": 2,
+        "rowsha": "wCO8BeVZd9qHQ0/hAAzZld+bq9JFJKL9qz9UyV0Pbgo=",
+        "originContent": "*   **Multi-Window Workflow** — Click the \"Pop-out\" icon on any note in the Studio panel to open it in a separate window. Perfect for dual-monitor setups.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **集成任务管理器** — 完整的项目管理工具内置于界面中："
+      },
+      {
+        "row": 4,
+        "rowsha": "3rLW4UWmivTlWWtFxdoEhBQ8CZD+NQVTT269IEt7WOs=",
+        "originContent": "*   **Integrated Task Manager** — A complete project management tool built right into the interface:",
+        "translatedContent": "    *   **分区：** 按阶段分组任务（例如，“研究”、“草稿”、“审查”）。"
+      },
+      {
+        "row": 5,
+        "rowsha": "iUE60WFChPRJ6Bae7Cc29xu86lnvkQz/f1/akzeRpJY=",
+        "originContent": "    *   **Sections:** Group tasks by phase (e.g., \"Research,\" \"Drafting,\" \"Review\").",
+        "translatedContent": "    *   **智能链接：** 由笔记创建的任务包含一个“链接”图标，可过滤视图至原始来源。"
+      },
+      {
+        "row": 6,
+        "rowsha": "10ef7SIbT4Y3NCry5MPzXZOxhj2VjDcYuj+fiPeOG8k=",
+        "originContent": "    *   **Smart Links:** Tasks created from notes include a \"Link\" icon that filters your view to the original source.",
+        "translatedContent": "    *   **优先级：** 标记任务（红/黄/蓝），并按优先级或截止日期排序。"
+      },
+      {
+        "row": 7,
+        "rowsha": "7pj0Q+ggBpirFplNN/0oXb67lyNk9bQ2P+ut6E2CZCA=",
+        "originContent": "    *   **Priorities:** Flag tasks (Red/Yellow/Blue) and sort by Priority or Due Date.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **“禅模式”** — 切换界面以隐藏 AI 聊天和侧边栏，打造无干扰的阅读/写作空间。"
+      },
+      {
+        "row": 9,
+        "rowsha": "8C5WqGscIMH3ouBbfqQGldRNLqacfL6PV1xGm9KPCbo=",
+        "originContent": "*   **\"Zen Mode\"** — Toggle the UI to hide the AI chat and sidebars for a distraction-free reading/writing studio.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " **组织** 📂"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZrcO8eZr534+6FfVmKvX83yZt0J6j2atNj+D+p2qTJA=",
+        "originContent": " **Organization** 📂",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **嵌套文件夹** — 为来源、笔记和生成的产物（音频概览、常见问题等）创建深层结构。"
+      },
+      {
+        "row": 14,
+        "rowsha": "/nZm7jF7qIP6IQreZeNmVHBwCRqmJkctPJoEOUVgQ0I=",
+        "originContent": "*   **Nested Folders** — Create deep structures for Sources, Notes, and Generated Artifacts (Audio Overviews, FAQs, etc.).",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **固定** — 将重要合同或规范固定在列表顶部。"
+      },
+      {
+        "row": 16,
+        "rowsha": "+UHyaEB/wc/Dtq5bzukqbJW/CV1LVPQspazenI1AVdg=",
+        "originContent": "*   **Pinning** — Keep critical contracts or specs pinned to the top of your lists.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **颜色编码** — 为文件夹分配颜色，实现视觉组织。"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ep/QwWS4rXuRLdfhCADEtwuOdD82f7hBVvHvHOLnCRE=",
+        "originContent": "*   **Color Coding** — Assign colors to folders for visual organization.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **批量选择** — 主复选框可瞬间选择/取消选择文件夹或整个笔记本中的所有来源。"
+      },
+      {
+        "row": 20,
+        "rowsha": "4FiaQNg560H7RCQUg8tea2zxtwB1s1zVvIYgg6pae9k=",
+        "originContent": "*   **Bulk Select** — Master checkboxes to select/deselect all sources in a folder or the entire notebook instantly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**深度搜索** 🔍 "
+      },
+      {
+        "row": 23,
+        "rowsha": "AwiFYdcX3KSHREflFgktl8ZbqlaZR1WmWvWpqt7GCYE=",
+        "originContent": "**Deep Search** 🔍 ",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **内容索引** — 搜索笔记中的实际文本，而不仅仅是标题。"
+      },
+      {
+        "row": 25,
+        "rowsha": "R0nDBWaYiKze+hQHik3waHvtJUVmXuuo4F456DPWu40=",
+        "originContent": "*   **Content Indexing** — Search the actual text inside your notes, not just the titles.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    > **注意：** 索引在打开笔记时被被动创建。"
+      },
+      {
+        "row": 27,
+        "rowsha": "Znr3Kq2v4xg2Sv6LeVdmfx2mEp4+BkiVtEk+Ok9Ir6g=",
+        "originContent": "    > **Note:** Indexing happens passively when you open a note.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **智能压缩** — 使用 LZ-String 压缩，在本地存储最多 5MB 的搜索索引数据而不影响性能。"
+      },
+      {
+        "row": 29,
+        "rowsha": "RJJrtxttWSbFZZw9SHBKrT7EbtmGJ3ru+HtijIZHN3s=",
+        "originContent": "*   **Smart Compression** — Uses LZ-String compression to store up to 5MB of search index data locally without impacting performance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**可靠性** 🛡️ "
+      },
+      {
+        "row": 32,
+        "rowsha": "rLzkLPUTXAoHgw9FN1h8VLcl0kHZm/QVa0sjcbcH9NE=",
+        "originContent": "**Reliability** 🛡️ ",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **本地优先架构** — 零网络延迟。所有数据存储于您的设备。"
+      },
+      {
+        "row": 34,
+        "rowsha": "PPPvpzfq7Lx0r4mIZAkVqFFwHVmxqo+5d4lyt8wFmM0=",
+        "originContent": "*   **Local-First Architecture** — Zero network latency. All data lives on your device.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **优雅降级** — 如果因网站更新导致某功能失效，扩展的其他部分仍能正常工作。"
+      },
+      {
+        "row": 36,
+        "rowsha": "8+RNQZ0M0MU4wNSdSguEAX8rqbC1uwAJ5LZyDf0LPi8=",
+        "originContent": "*   **Graceful Degradation** — If a feature fails due to a website update, the rest of the extension keeps working.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **样式化对话框** — 流畅且主题化的确认对话框（不再有令人不适的浏览器弹窗）。"
+      },
+      {
+        "row": 38,
+        "rowsha": "v/4ghsnpPZ4hnhmcFRr2eLJYZ3/mPSUPPEFFwgVBaL8=",
+        "originContent": "*   **Styled Dialogs** — Smooth, themed confirmation dialogs (no more jarring browser popups).",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **注意：** 每个笔记本拥有独立数据。在“项目 A”中创建的任务和文件夹不会干扰“项目 B”。"
+      },
+      {
+        "row": 40,
+        "rowsha": "zc/VmKKAEXkdJnLU+WVbXO1LtH868h5HP+1bd9SdMho=",
+        "originContent": "> **Note:** Each notebook has its own independent data. Tasks and Folders created in \"Project A\" won't clutter \"Project B.\"",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n## Installation\n### Load Unpacked (Developer Mode)\n\n1.  Download or clone this repository.\n2.  Open Chrome and go to `chrome://extensions`.\n3.  Enable **Developer mode** (toggle in top right).\n4.  Click **Load unpacked**.\n5.  Select the folder containing these extension files.\n6.  Navigate to NotebookLM and start organizing!\n\n## Usage\nOnce installed, you'll see a new \"Project Dashboard\" interface injected into NotebookLM:\n\n*   **Quick Capture:** Highlight text in any note -> click the floating + button to turn it into a task.\n\n*   **Pop-out:** Hover over a note in the Studio panel -> click the New Window icon.\n\n*   **Task Details:** Click the Description icon on a task to add notes or context.\n\n*   **Bulk Actions:** Use the folder checkboxes to toggle multiple sources for the AI context window.\n\n*   **Export/Import:** Use these buttons to backup your structure or move it to a new computer.\n\n## Storage & Data Guide 💾 \n**Where Your Data Lives**\n\nBecause v17.9 prioritizes speed and privacy, your data lives on your device:\n\n*   **Local Storage:** Folders, Tasks, Settings, and Search Index.\n\n*   **No Auto-Sync:** Folders do not sync automatically between computers.\n\n*   **Moving Data:** To move your setup to a laptop, use the Export button to get a JSON file, then Import on the new machine.\n\n> **Warning:** If you clear Chrome's \"Site Data\" or \"Cookies,\" you will lose your folders. Export backups regularly.\n\n\n## Privacy & Security",
+    "ContentSha": "eKMe494a8F9O/sR3b2FAeg8J3B6+yeuZhq7iiUDYm0A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 安装\n### 加载已解压的扩展（开发者模式）\n\n1.  下载或克隆此代码库。\n2.  打开 Chrome，访问 `chrome://extensions`。\n3.  启用 **开发者模式**（右上角开关）。\n4.  点击 **加载已解压的扩展**。\n5.  选择包含这些扩展文件的文件夹。\n6.  进入 NotebookLM 开始整理吧！\n\n## 使用\n安装后，你将在 NotebookLM 中看到一个新的“项目仪表盘”界面：\n\n*   **快速捕获：** 在任意笔记中高亮文本 -> 点击悬浮的 + 按钮将其转为任务。\n\n*   **弹出窗口：** 在 Studio 面板悬停于某条笔记 -> 点击新窗口图标。\n\n*   **任务详情：** 点击任务上的描述图标添加笔记或上下文。\n\n*   **批量操作：** 使用文件夹复选框切换多个来源以供 AI 上下文窗口使用。\n\n*   **导出/导入：** 使用这些按钮备份你的结构，或迁移到新电脑。\n\n## 存储与数据指南 💾\n**你的数据存储在哪里**\n\n由于 v17.9 优先考虑速度和隐私，你的数据存储在你的设备上：\n\n*   **本地存储：** 文件夹、任务、设置和搜索索引。\n\n*   **无自动同步：** 文件夹不会在不同电脑间自动同步。\n\n*   **迁移数据：** 要将设置迁移到笔记本电脑，使用导出按钮获取 JSON 文件，然后在新设备上导入。\n\n> **警告：** 如果你清除了 Chrome 的“站点数据”或“Cookie”，将会丢失你的文件夹。请定期导出备份。\n\n## 隐私与安全\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 加载已解压的扩展（开发者模式）"
+      },
+      {
+        "row": 3,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XVSdHkOZPZfoDUANWnIFTNBpwDeqKevSO1vGHoEl16w=",
+        "originContent": "### Load Unpacked (Developer Mode)",
+        "translatedContent": "1.  下载或克隆此代码库。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2.  打开 Chrome，访问 `chrome://extensions`。"
+      },
+      {
+        "row": 6,
+        "rowsha": "VoOeycu1FsXoW47p6YpsVN8saSBMzHE/SuVH3bH+lA8=",
+        "originContent": "1.  Download or clone this repository.",
+        "translatedContent": "3.  启用 **开发者模式**（右上角开关）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "zTYbWWd5gOvV2em7PbyXQrPgeNTIADO+Zd5CCq4Z7No=",
+        "originContent": "2.  Open Chrome and go to `chrome://extensions`.",
+        "translatedContent": "4.  点击 **加载已解压的扩展**。"
+      },
+      {
+        "row": 8,
+        "rowsha": "l3agaFNV8WAVImFQXKR4gZgPLZfowklUgDvpH+ZMJZA=",
+        "originContent": "3.  Enable **Developer mode** (toggle in top right).",
+        "translatedContent": "5.  选择包含这些扩展文件的文件夹。"
+      },
+      {
+        "row": 9,
+        "rowsha": "pjgp84opeKOBQY+2QhfykkXflnQA6tFBjz2wxf4IcbY=",
+        "originContent": "4.  Click **Load unpacked**.",
+        "translatedContent": "6.  进入 NotebookLM 开始整理吧！"
+      },
+      {
+        "row": 10,
+        "rowsha": "0jbB0PyvC48rgWETi4hcLiCKFZ+F7fnzZ/l89RZlSCk=",
+        "originContent": "5.  Select the folder containing these extension files.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "H1F8+qLhlHe8yBVm9kxmxkYnP474TnPVYxxoi+q4hd4=",
+        "originContent": "6.  Navigate to NotebookLM and start organizing!",
+        "translatedContent": "## 使用"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "安装后，你将在 NotebookLM 中看到一个新的“项目仪表盘”界面："
+      },
+      {
+        "row": 13,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wASn9Q2wEteD8kM0kPUNI6vTsL/3Sm3cGCG4SN0S1DM=",
+        "originContent": "Once installed, you'll see a new \"Project Dashboard\" interface injected into NotebookLM:",
+        "translatedContent": "*   **快速捕获：** 在任意笔记中高亮文本 -> 点击悬浮的 + 按钮将其转为任务。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "zPSxjv/iS9Hqzai6JiDnWwLKZ4mIc2z/wycEVvxFoUk=",
+        "originContent": "*   **Quick Capture:** Highlight text in any note -> click the floating + button to turn it into a task.",
+        "translatedContent": "*   **弹出窗口：** 在 Studio 面板悬停于某条笔记 -> 点击新窗口图标。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "H8IQF0pTXM2YX5dnWcHNbTtNBkLKPYDQzM0PF/6fg8g=",
+        "originContent": "*   **Pop-out:** Hover over a note in the Studio panel -> click the New Window icon.",
+        "translatedContent": "*   **任务详情：** 点击任务上的描述图标添加笔记或上下文。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "4j1ejj/09d+cCzb3BJCVRRdWPhzYdXH0F57Ak2rEhjM=",
+        "originContent": "*   **Task Details:** Click the Description icon on a task to add notes or context.",
+        "translatedContent": "*   **批量操作：** 使用文件夹复选框切换多个来源以供 AI 上下文窗口使用。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "my6GcUcdH6QaLykytee3QJBBcZQivG/OyUyeOQbIOdo=",
+        "originContent": "*   **Bulk Actions:** Use the folder checkboxes to toggle multiple sources for the AI context window.",
+        "translatedContent": "*   **导出/导入：** 使用这些按钮备份你的结构，或迁移到新电脑。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "r1nM/z/ZY+7Zvz2OQiAEB3gMD+Gz660N8+PHJUnWuSk=",
+        "originContent": "*   **Export/Import:** Use these buttons to backup your structure or move it to a new computer.",
+        "translatedContent": "## 存储与数据指南 💾"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**你的数据存储在哪里**"
+      },
+      {
+        "row": 26,
+        "rowsha": "ONv3TiLZcJD6EUHhyTqKvdYgC70XWxmqloPWLmEOPzs=",
+        "originContent": "## Storage & Data Guide 💾 ",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "ahn5X+/su9MBT+TvDh5ILpYEWYWrT57yf9UIqRr7Du8=",
+        "originContent": "**Where Your Data Lives**",
+        "translatedContent": "由于 v17.9 优先考虑速度和隐私，你的数据存储在你的设备上："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "P/Ur2gD4ADs3/OlqdO+wQ1WmSA2BFtNGQ0ZRpoqudo0=",
+        "originContent": "Because v17.9 prioritizes speed and privacy, your data lives on your device:",
+        "translatedContent": "*   **本地存储：** 文件夹、任务、设置和搜索索引。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "PzF41S1h9XtkNrQ27UtRLXEyC6GrDEOuny8zQWTYECU=",
+        "originContent": "*   **Local Storage:** Folders, Tasks, Settings, and Search Index.",
+        "translatedContent": "*   **无自动同步：** 文件夹不会在不同电脑间自动同步。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "JS2ceu6FsBdHmeYteKsi+j8YQ2w8ax1D2eobNbDm+wU=",
+        "originContent": "*   **No Auto-Sync:** Folders do not sync automatically between computers.",
+        "translatedContent": "*   **迁移数据：** 要将设置迁移到笔记本电脑，使用导出按钮获取 JSON 文件，然后在新设备上导入。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "gfx+w/k97/t8jvIV7PSb4dfBWAu+s++ODvBEaaDJfYE=",
+        "originContent": "*   **Moving Data:** To move your setup to a laptop, use the Export button to get a JSON file, then Import on the new machine.",
+        "translatedContent": "> **警告：** 如果你清除了 Chrome 的“站点数据”或“Cookie”，将会丢失你的文件夹。请定期导出备份。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "MLzR2GvZhBsivmtYvYq3UcQCSHJke0SvD/QySXi8F8k=",
+        "originContent": "> **Warning:** If you clear Chrome's \"Site Data\" or \"Cookies,\" you will lose your folders. Export backups regularly.",
+        "translatedContent": "## 隐私与安全"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9r159v4wXE7EItDKsMnwrV0NAgux3M/p01TW2U3Y0Jc=",
+        "originContent": "## Privacy & Security",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "**This extension is Local-First:**\n\n*   **All data is stored in your browser's local storage.**\n\n*   **No analytics or usage data is sent to the developer.**\n\n*   **Open Source:** You can inspect the code to verify no data leaves your machine.\n\nSee [PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md) for details.\n\n## Known Limitations\n\n*   **Pop-out Editing:** Pop-out windows are currently Read-Only. You must use the main window to edit text.\n\n*   **Underlining:** Underlining content in a note is not persistent (this is a Google NotebookLM issue, not the extension).\n\n*   **Incognito:** The extension's memory system is disabled in Incognito mode.\n\n\n## Contributing\nFound a bug or have a feature request? Open an issue or submit a PR.\n\n## Author\nBenju66\n\n## License\nGPLv3 License\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\n\nNote: This ensures that any improvements made to this project must be shared back with the community.\n\n",
+    "ContentSha": "sW69CIbNEYlFLyyXbomygCjhkmWtS5YJ7XdYNyUAuIs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**此扩展是本地优先的：**\n\n*   **所有数据均存储在您浏览器的本地存储中。**\n\n*   **不会向开发者发送任何分析或使用数据。**\n\n*   **开源：** 您可以查看代码，确认没有数据离开您的设备。\n\n详情请参见 [PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md)。\n\n## 已知限制\n\n*   **弹出编辑：** 弹出窗口目前为只读。您必须使用主窗口编辑文本。\n\n*   **下划线：** 笔记中的下划线内容不会持久保存（这是 Google NotebookLM 的问题，不是扩展的问题）。\n\n*   **隐身模式：** 扩展的内存系统在隐身模式下被禁用。\n\n## 贡献\n发现错误或有功能请求？请提交 issue 或 PR。\n\n## 作者\nBenju66\n\n## 许可证\nGPLv3 许可证\n\n本程序是自由软件：您可以根据自由软件基金会发布的 GNU 通用公共许可证第 3 版或（您选择的）任何更高版本的条款重新发布和/或修改。\n\n注：这确保了对本项目所做的任何改进必须与社区共享。\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0AdFK911kbvx6LgHKL6lTaSPZX1OrTe3FoCKRdGU09g=",
+        "originContent": "**This extension is Local-First:**",
+        "translatedContent": "**此扩展是本地优先的：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dio8t0kfT9ykYG3C6xGCcV4arrXkXCOXAbCKpH8hPto=",
+        "originContent": "*   **All data is stored in your browser's local storage.**",
+        "translatedContent": "*   **所有数据均存储在您浏览器的本地存储中。**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "xWOIsHI8jZEh5DtI3m8VkjJdaJpd2FA8DpBUzGx8Xtk=",
+        "originContent": "*   **No analytics or usage data is sent to the developer.**",
+        "translatedContent": "*   **不会向开发者发送任何分析或使用数据。**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "zdT2ag+1sjH2+fkXg6zlWdO6qzywpss8UVtxh4NwKnE=",
+        "originContent": "*   **Open Source:** You can inspect the code to verify no data leaves your machine.",
+        "translatedContent": "*   **开源：** 您可以查看代码，确认没有数据离开您的设备。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IDpgNsbYAptJdgokqN2Phu9nyH3bSRFcv7kGhxKUgd4=",
+        "originContent": "See [PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md) for details.",
+        "translatedContent": "详情请参见 [PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md)。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "cFNzx8CkKIFXpwkyfY3TmDGcyJt9+2A2yVBpNVnr/cI=",
+        "originContent": "## Known Limitations",
+        "translatedContent": "## 已知限制"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Ltg7MDY/ZC49jAZ2s2G4G8oIHKSkvk97z8pbPHFVYIc=",
+        "originContent": "*   **Pop-out Editing:** Pop-out windows are currently Read-Only. You must use the main window to edit text.",
+        "translatedContent": "*   **弹出编辑：** 弹出窗口目前为只读。您必须使用主窗口编辑文本。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "vfy94WCDreiHZfwRNg25HXL8lxtv13/1PZ0khvFk3lU=",
+        "originContent": "*   **Underlining:** Underlining content in a note is not persistent (this is a Google NotebookLM issue, not the extension).",
+        "translatedContent": "*   **下划线：** 笔记中的下划线内容不会持久保存（这是 Google NotebookLM 的问题，不是扩展的问题）。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "JKgY/rYDLJPtOq0weiEsbnBG47J0/5UcX+Iw+3AE0jY=",
+        "originContent": "*   **Incognito:** The extension's memory system is disabled in Incognito mode.",
+        "translatedContent": "*   **隐身模式：** 扩展的内存系统在隐身模式下被禁用。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 20,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "发现错误或有功能请求？请提交 issue 或 PR。"
+      },
+      {
+        "row": 21,
+        "rowsha": "c+wXMYqwtUKCYNn6nIAKP4+gekS99LWUNnvqj9FFHrg=",
+        "originContent": "Found a bug or have a feature request? Open an issue or submit a PR.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 作者"
+      },
+      {
+        "row": 23,
+        "rowsha": "/lJ7vsDcUGNTwbzMlvGpyMrTh1D9NOPyP9aFA7E/nEw=",
+        "originContent": "## Author",
+        "translatedContent": "Benju66"
+      },
+      {
+        "row": 24,
+        "rowsha": "/4KRr0bkmniAtsSnmpD/n9ZQDhx7kO26kgEwswXWetc=",
+        "originContent": "Benju66",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 26,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "GPLv3 许可证"
+      },
+      {
+        "row": 27,
+        "rowsha": "a4CeBeq6Kg1CA1Rpq+vrrSRbbRkdHDmKGReQ5VTSIcs=",
+        "originContent": "GPLv3 License",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本程序是自由软件：您可以根据自由软件基金会发布的 GNU 通用公共许可证第 3 版或（您选择的）任何更高版本的条款重新发布和/或修改。"
+      },
+      {
+        "row": 29,
+        "rowsha": "F9KjWOeqUTT9n9VHzSc/ht1sJnpz2m1QWZtsxI4kLGs=",
+        "originContent": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "注：这确保了对本项目所做的任何改进必须与社区共享。"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "CuB1dJKi7lW/tfxb2/5cto5oR4mSgFdYRYRTud/5dds=",
+        "originContent": "Note: This ensures that any improvements made to this project must be shared back with the community.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

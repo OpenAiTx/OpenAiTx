@@ -1,0 +1,978 @@
+[
+  {
+    "Id": 1,
+    "Content": "# NotebookLM Pro Tree\n\nA Chrome extension that transforms Google's NotebookLM from a simple list into a robust Project Management Dashboard.\n\nStop scrolling through endless flat lists. Organize your sources into nested trees, manage complex projects with advanced tasks, multi-window workflows, and focus with Zen Mode.\n\n\n\n## Critical Warnings ⚠️\n\nUninstalling Deletes Data: This extension uses Local Storage for privacy and speed. If you remove/uninstall the extension, your folders and tasks will be deleted instantly by Chrome.\n\nSolution: Always use the Export button to save a backup JSON file before reinstalling or moving to a new computer.\n\nGoogle Updates & Reliability: This extension works by \"reading\" the NotebookLM website. If Google updates their website, this extension may break.\n\nDisclaimer: As this is a free, open-source project maintained in my spare time, I cannot guarantee immediate fixes if Google changes their code. Use this tool as a helpful enhancement, but keep your important data backed up.\n\n## Project Status & Disclaimer 🚧\nPlease Read: I am a Construction Project Manager, not a professional software developer. I built this tool because I needed it for my own daily workflow.\n\n\"Works on My Machine\": This update (v17.9) is stable for my personal use, but it has not been battle-tested on every possible browser configuration.\n\nExperimental Features: The multi-window system and DOM observers are complex. You may encounter bugs I haven't seen.\n\nFeedback: If you find a bug, please open an issue on GitHub!\n\n## New in v17.9: The Productivity Suite 🚀\nTransformed NotebookLM into a multi-window workspace. This update (consolidating v17.6–v17.9) brings major workflow improvements:\n\nPop-out Notes: Open any note in a floating window for side-by-side reference while you write. The pop-outs preserve formatting (read-only) and sync with your Light/Dark theme.\n\nSmart Tasks & Quick Capture: Select text in any note to instantly see a \"Create Task\" button. This creates a task linked directly to that source note.\n\nAdvanced Task Management: Organize tasks into Custom Sections (collapsible groups), add Due Dates with quick-select options, and include rich Descriptions.\n\nGraceful Stability: A new self-healing engine that disables specific broken features individually instead of crashing the whole extension if Google updates their code.\n\n## Features\n**Productivity & Workflow** 📋 ",
+    "ContentSha": "94IUUMNsjA6qonnK4tZzeR8xjhNuy2P5RNS9EuHgoF0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# NotebookLM Pro Tree\n\nGoogleのNotebookLMを単なるリストから強力なプロジェクト管理ダッシュボードに変えるChrome拡張機能。\n\n終わりのない平坦なリストをスクロールし続けるのはやめましょう。ソースをネストされたツリーに整理し、高度なタスク、マルチウィンドウワークフロー、Zenモードで集中して複雑なプロジェクトを管理します。\n\n## 重要な警告 ⚠️\n\nアンインストールするとデータが削除されます：この拡張機能はプライバシーと速度のためにローカルストレージを使用しています。拡張機能を削除・アンインストールすると、フォルダとタスクはChromeによって即座に削除されます。\n\n解決策：再インストールや新しいコンピュータへの移行前に、必ずエクスポートボタンでバックアップのJSONファイルを保存してください。\n\nGoogleの更新と信頼性：この拡張機能はNotebookLMのウェブサイトを「読み取る」ことで動作します。Googleがウェブサイトを更新すると、この拡張機能は動作しなくなる可能性があります。\n\n免責事項：これは私の空き時間に維持されている無料のオープンソースプロジェクトであり、Googleがコードを変更した場合に即座に修正できる保証はありません。このツールは便利な拡張として使用し、重要なデータは必ずバックアップを取ってください。\n\n## プロジェクトの状況と免責事項 🚧\nご一読ください：私は建設プロジェクトマネージャーであり、プロのソフトウェア開発者ではありません。このツールは自分の日々のワークフローのために作成しました。\n\n「私の環境で動作確認済み」：このアップデート（v17.9）は私個人の使用には安定していますが、すべてのブラウザ構成でテストされているわけではありません。\n\n実験的機能：マルチウィンドウシステムとDOMオブザーバーは複雑です。私が気づいていないバグに遭遇する可能性があります。\n\nフィードバック：バグを見つけたら、ぜひGitHubでイシューを開いてください！\n\n## v17.9の新機能：生産性スイート 🚀\nNotebookLMをマルチウィンドウワークスペースに変革。このアップデート（v17.6〜v17.9の統合）は大幅なワークフローの改善をもたらします：\n\nポップアウトノート：任意のノートを浮動ウィンドウで開き、執筆中に並べて参照可能。ポップアウトは書式を保持（読み取り専用）し、ライト/ダークテーマと同期します。\n\nスマートタスク＆クイックキャプチャ：任意のノート内でテキストを選択すると即座に「タスク作成」ボタンが表示されます。これにより、そのソースノートに直接リンクされたタスクが作成されます。\n\n高度なタスク管理：タスクをカスタムセクション（折りたたみ可能なグループ）に整理し、クイックセレクトオプション付きの期限を追加し、リッチな説明を含められます。\n\n優雅な安定性：Googleがコードを更新しても全体がクラッシュせず、壊れた機能を個別に無効化する新しい自己修復エンジン。\n\n## 機能\n**生産性＆ワークフロー** 📋\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ba3PtHDcpjb/+PzE/0sgn0eXui1dmHFe+2i2CnU5dCY=",
+        "originContent": "# NotebookLM Pro Tree",
+        "translatedContent": "# NotebookLM Pro Tree"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "vnpq1NYATYMmM97vFtznqNKIR7dEuFLOrfIwkXYB5Z0=",
+        "originContent": "A Chrome extension that transforms Google's NotebookLM from a simple list into a robust Project Management Dashboard.",
+        "translatedContent": "GoogleのNotebookLMを単なるリストから強力なプロジェクト管理ダッシュボードに変えるChrome拡張機能。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "68A4yH1r0LepJ/dA+mRLv1S8p/TI1b/AE2XcYmbFMQ4=",
+        "originContent": "Stop scrolling through endless flat lists. Organize your sources into nested trees, manage complex projects with advanced tasks, multi-window workflows, and focus with Zen Mode.",
+        "translatedContent": "終わりのない平坦なリストをスクロールし続けるのはやめましょう。ソースをネストされたツリーに整理し、高度なタスク、マルチウィンドウワークフロー、Zenモードで集中して複雑なプロジェクトを管理します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 重要な警告 ⚠️"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "AosE9vJ4kOkil8OUY+LDn8M9WlM6rDIWXfrIEzTmlug=",
+        "originContent": "## Critical Warnings ⚠️",
+        "translatedContent": "アンインストールするとデータが削除されます：この拡張機能はプライバシーと速度のためにローカルストレージを使用しています。拡張機能を削除・アンインストールすると、フォルダとタスクはChromeによって即座に削除されます。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "5+HxL+s7Byv/Q5tJy7NhQCQ/UIPlAWL+BAEQVfvoAh0=",
+        "originContent": "Uninstalling Deletes Data: This extension uses Local Storage for privacy and speed. If you remove/uninstall the extension, your folders and tasks will be deleted instantly by Chrome.",
+        "translatedContent": "解決策：再インストールや新しいコンピュータへの移行前に、必ずエクスポートボタンでバックアップのJSONファイルを保存してください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "WRC5bMCvtF+frq0xP1UfitR3uPURrzeGjW8nvNUq5LM=",
+        "originContent": "Solution: Always use the Export button to save a backup JSON file before reinstalling or moving to a new computer.",
+        "translatedContent": "Googleの更新と信頼性：この拡張機能はNotebookLMのウェブサイトを「読み取る」ことで動作します。Googleがウェブサイトを更新すると、この拡張機能は動作しなくなる可能性があります。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "qbTGMAfP93K0uOJ+Cx+gLwOD1LJ4NLWKqfbkt9K6Ng0=",
+        "originContent": "Google Updates & Reliability: This extension works by \"reading\" the NotebookLM website. If Google updates their website, this extension may break.",
+        "translatedContent": "免責事項：これは私の空き時間に維持されている無料のオープンソースプロジェクトであり、Googleがコードを変更した場合に即座に修正できる保証はありません。このツールは便利な拡張として使用し、重要なデータは必ずバックアップを取ってください。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ee0NFCPnANaQ/VjhKVH2cpuYaOS6msjU/l/FKXRA1Bs=",
+        "originContent": "Disclaimer: As this is a free, open-source project maintained in my spare time, I cannot guarantee immediate fixes if Google changes their code. Use this tool as a helpful enhancement, but keep your important data backed up.",
+        "translatedContent": "## プロジェクトの状況と免責事項 🚧"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ご一読ください：私は建設プロジェクトマネージャーであり、プロのソフトウェア開発者ではありません。このツールは自分の日々のワークフローのために作成しました。"
+      },
+      {
+        "row": 19,
+        "rowsha": "VKU3W058IT+jHrkyBKlo7ui0q3Whys6lOSCIkP+0+J8=",
+        "originContent": "## Project Status & Disclaimer 🚧",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "nYgNbRuZpwcQXHrS8zXrWCrgOflLRrXgGsRUPU4zdeU=",
+        "originContent": "Please Read: I am a Construction Project Manager, not a professional software developer. I built this tool because I needed it for my own daily workflow.",
+        "translatedContent": "「私の環境で動作確認済み」：このアップデート（v17.9）は私個人の使用には安定していますが、すべてのブラウザ構成でテストされているわけではありません。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "tqYbyWjBjJIkxyUbdK3VZTtwOtKJV7JITLEABUKahHs=",
+        "originContent": "\"Works on My Machine\": This update (v17.9) is stable for my personal use, but it has not been battle-tested on every possible browser configuration.",
+        "translatedContent": "実験的機能：マルチウィンドウシステムとDOMオブザーバーは複雑です。私が気づいていないバグに遭遇する可能性があります。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "7kdKYiJDoNeg0brHWKr4yqpVeBH+lUoxZU6RzYOTayE=",
+        "originContent": "Experimental Features: The multi-window system and DOM observers are complex. You may encounter bugs I haven't seen.",
+        "translatedContent": "フィードバック：バグを見つけたら、ぜひGitHubでイシューを開いてください！"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "u3b+s6hPp/AnH5JLuEj5WnvuHKa0R/yVP29siSve3h4=",
+        "originContent": "Feedback: If you find a bug, please open an issue on GitHub!",
+        "translatedContent": "## v17.9の新機能：生産性スイート 🚀"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "NotebookLMをマルチウィンドウワークスペースに変革。このアップデート（v17.6〜v17.9の統合）は大幅なワークフローの改善をもたらします："
+      },
+      {
+        "row": 28,
+        "rowsha": "FsMvNJW/ZbzTHc0a85sn2B1NUxKRKMoXUvf//Yzzmgs=",
+        "originContent": "## New in v17.9: The Productivity Suite 🚀",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "WMrfs3gxWAWMzOJm88rHiGAAmCJuwBCiVTZcgawiRKI=",
+        "originContent": "Transformed NotebookLM into a multi-window workspace. This update (consolidating v17.6–v17.9) brings major workflow improvements:",
+        "translatedContent": "ポップアウトノート：任意のノートを浮動ウィンドウで開き、執筆中に並べて参照可能。ポップアウトは書式を保持（読み取り専用）し、ライト/ダークテーマと同期します。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "nLt9hCXVfx0ExgyihwTqMk3I2vVZ5lTeaTCApLYLGJg=",
+        "originContent": "Pop-out Notes: Open any note in a floating window for side-by-side reference while you write. The pop-outs preserve formatting (read-only) and sync with your Light/Dark theme.",
+        "translatedContent": "スマートタスク＆クイックキャプチャ：任意のノート内でテキストを選択すると即座に「タスク作成」ボタンが表示されます。これにより、そのソースノートに直接リンクされたタスクが作成されます。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "mfqWy0JLLQWldihowKgKRyRohEpwClFP24In8TE+PLk=",
+        "originContent": "Smart Tasks & Quick Capture: Select text in any note to instantly see a \"Create Task\" button. This creates a task linked directly to that source note.",
+        "translatedContent": "高度なタスク管理：タスクをカスタムセクション（折りたたみ可能なグループ）に整理し、クイックセレクトオプション付きの期限を追加し、リッチな説明を含められます。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ELLTX++uMu7gBXCF3Hgrk7erEY129I7Trf4R1ncp9jI=",
+        "originContent": "Advanced Task Management: Organize tasks into Custom Sections (collapsible groups), add Due Dates with quick-select options, and include rich Descriptions.",
+        "translatedContent": "優雅な安定性：Googleがコードを更新しても全体がクラッシュせず、壊れた機能を個別に無効化する新しい自己修復エンジン。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "2O9VFi6fcdTvPAS3nsG1UKJC5XJtNIS4kXASTR+DIHY=",
+        "originContent": "Graceful Stability: A new self-healing engine that disables specific broken features individually instead of crashing the whole extension if Google updates their code.",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**生産性＆ワークフロー** 📋"
+      },
+      {
+        "row": 39,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "lngCuDg1nwXSfCHPHhkbNP/fb3hc/R5AUrCQtY4YoPg=",
+        "originContent": "**Productivity & Workflow** 📋 ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n*   **Multi-Window Workflow** — Click the \"Pop-out\" icon on any note in the Studio panel to open it in a separate window. Perfect for dual-monitor setups.\n\n*   **Integrated Task Manager** — A complete project management tool built right into the interface:\n    *   **Sections:** Group tasks by phase (e.g., \"Research,\" \"Drafting,\" \"Review\").\n    *   **Smart Links:** Tasks created from notes include a \"Link\" icon that filters your view to the original source.\n    *   **Priorities:** Flag tasks (Red/Yellow/Blue) and sort by Priority or Due Date.\n\n*   **\"Zen Mode\"** — Toggle the UI to hide the AI chat and sidebars for a distraction-free reading/writing studio.\n\n\n **Organization** 📂\n\n*   **Nested Folders** — Create deep structures for Sources, Notes, and Generated Artifacts (Audio Overviews, FAQs, etc.).\n\n*   **Pinning** — Keep critical contracts or specs pinned to the top of your lists.\n\n*   **Color Coding** — Assign colors to folders for visual organization.\n\n*   **Bulk Select** — Master checkboxes to select/deselect all sources in a folder or the entire notebook instantly.\n\n\n**Deep Search** 🔍 \n\n*   **Content Indexing** — Search the actual text inside your notes, not just the titles.\n\n    > **Note:** Indexing happens passively when you open a note.\n\n*   **Smart Compression** — Uses LZ-String compression to store up to 5MB of search index data locally without impacting performance.\n\n\n**Reliability** 🛡️ \n\n*   **Local-First Architecture** — Zero network latency. All data lives on your device.\n\n*   **Graceful Degradation** — If a feature fails due to a website update, the rest of the extension keeps working.\n\n*   **Styled Dialogs** — Smooth, themed confirmation dialogs (no more jarring browser popups).\n\n> **Note:** Each notebook has its own independent data. Tasks and Folders created in \"Project A\" won't clutter \"Project B.\"",
+    "ContentSha": "i+FfEL6nO+s2ZdDQHM6PBLZd+R/6ZRC96Zdc3gI1tts=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "*   **マルチウィンドウワークフロー** — Studioパネル内の任意のノートの「ポップアウト」アイコンをクリックすると、別ウィンドウで開きます。デュアルモニター環境に最適です。\n\n*   **統合タスクマネージャー** — インターフェースに組み込まれた完全なプロジェクト管理ツール：\n    *   **セクション:** タスクをフェーズごとにグループ化（例：「リサーチ」、「ドラフト作成」、「レビュー」）。\n    *   **スマートリンク:** ノートから作成されたタスクには「リンク」アイコンが付き、元のソースにフィルタリングされたビューを表示。\n    *   **優先度:** タスクにフラグ（赤／黄／青）を付け、優先度や期限で並べ替え。\n\n*   **「ゼンモード」** — UIを切り替え、AIチャットやサイドバーを非表示にして気を散らさずに読書／執筆が可能なスタジオ環境。\n\n \n **整理** 📂\n\n*   **ネストフォルダ** — ソース、ノート、生成アーティファクト（オーディオ概要、FAQなど）のための深い構造を作成。\n\n*   **ピン留め** — 重要な契約書や仕様書をリストの上部に固定。\n\n*   **カラーコーディング** — フォルダに色を割り当てて視覚的に整理。\n\n*   **一括選択** — マスターチェックボックスでフォルダ内またはノート全体のすべてのソースを瞬時に選択／解除。\n\n\n**深層検索** 🔍 \n\n*   **コンテンツインデックス** — タイトルだけでなくノート内の実際のテキストを検索。\n\n    > **注意:** インデックス作成はノートを開いた時に受動的に行われます。\n\n*   **スマート圧縮** — LZ-String圧縮を使用し、5MBまでの検索インデックスデータをローカルに保存し、パフォーマンスに影響なし。\n\n\n**信頼性** 🛡️ \n\n*   **ローカルファーストアーキテクチャ** — ネットワーク遅延ゼロ。全データはデバイス内に保存。\n\n*   **優雅な劣化** — ウェブサイトの更新により機能が失敗しても、拡張機能の他の部分は正常に動作し続けます。\n\n*   **スタイル付きダイアログ** — 滑らかでテーマ化された確認ダイアログ（ブラウザの不快なポップアップはなし）。\n\n> **注意:** 各ノートブックは独立したデータを持ちます。「プロジェクトA」で作成したタスクやフォルダが「プロジェクトB」を煩雑にしません。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **マルチウィンドウワークフロー** — Studioパネル内の任意のノートの「ポップアウト」アイコンをクリックすると、別ウィンドウで開きます。デュアルモニター環境に最適です。"
+      },
+      {
+        "row": 2,
+        "rowsha": "wCO8BeVZd9qHQ0/hAAzZld+bq9JFJKL9qz9UyV0Pbgo=",
+        "originContent": "*   **Multi-Window Workflow** — Click the \"Pop-out\" icon on any note in the Studio panel to open it in a separate window. Perfect for dual-monitor setups.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **統合タスクマネージャー** — インターフェースに組み込まれた完全なプロジェクト管理ツール："
+      },
+      {
+        "row": 4,
+        "rowsha": "3rLW4UWmivTlWWtFxdoEhBQ8CZD+NQVTT269IEt7WOs=",
+        "originContent": "*   **Integrated Task Manager** — A complete project management tool built right into the interface:",
+        "translatedContent": "    *   **セクション:** タスクをフェーズごとにグループ化（例：「リサーチ」、「ドラフト作成」、「レビュー」）。"
+      },
+      {
+        "row": 5,
+        "rowsha": "iUE60WFChPRJ6Bae7Cc29xu86lnvkQz/f1/akzeRpJY=",
+        "originContent": "    *   **Sections:** Group tasks by phase (e.g., \"Research,\" \"Drafting,\" \"Review\").",
+        "translatedContent": "    *   **スマートリンク:** ノートから作成されたタスクには「リンク」アイコンが付き、元のソースにフィルタリングされたビューを表示。"
+      },
+      {
+        "row": 6,
+        "rowsha": "10ef7SIbT4Y3NCry5MPzXZOxhj2VjDcYuj+fiPeOG8k=",
+        "originContent": "    *   **Smart Links:** Tasks created from notes include a \"Link\" icon that filters your view to the original source.",
+        "translatedContent": "    *   **優先度:** タスクにフラグ（赤／黄／青）を付け、優先度や期限で並べ替え。"
+      },
+      {
+        "row": 7,
+        "rowsha": "7pj0Q+ggBpirFplNN/0oXb67lyNk9bQ2P+ut6E2CZCA=",
+        "originContent": "    *   **Priorities:** Flag tasks (Red/Yellow/Blue) and sort by Priority or Due Date.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **「ゼンモード」** — UIを切り替え、AIチャットやサイドバーを非表示にして気を散らさずに読書／執筆が可能なスタジオ環境。"
+      },
+      {
+        "row": 9,
+        "rowsha": "8C5WqGscIMH3ouBbfqQGldRNLqacfL6PV1xGm9KPCbo=",
+        "originContent": "*   **\"Zen Mode\"** — Toggle the UI to hide the AI chat and sidebars for a distraction-free reading/writing studio.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " **整理** 📂"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZrcO8eZr534+6FfVmKvX83yZt0J6j2atNj+D+p2qTJA=",
+        "originContent": " **Organization** 📂",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **ネストフォルダ** — ソース、ノート、生成アーティファクト（オーディオ概要、FAQなど）のための深い構造を作成。"
+      },
+      {
+        "row": 14,
+        "rowsha": "/nZm7jF7qIP6IQreZeNmVHBwCRqmJkctPJoEOUVgQ0I=",
+        "originContent": "*   **Nested Folders** — Create deep structures for Sources, Notes, and Generated Artifacts (Audio Overviews, FAQs, etc.).",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **ピン留め** — 重要な契約書や仕様書をリストの上部に固定。"
+      },
+      {
+        "row": 16,
+        "rowsha": "+UHyaEB/wc/Dtq5bzukqbJW/CV1LVPQspazenI1AVdg=",
+        "originContent": "*   **Pinning** — Keep critical contracts or specs pinned to the top of your lists.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **カラーコーディング** — フォルダに色を割り当てて視覚的に整理。"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ep/QwWS4rXuRLdfhCADEtwuOdD82f7hBVvHvHOLnCRE=",
+        "originContent": "*   **Color Coding** — Assign colors to folders for visual organization.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **一括選択** — マスターチェックボックスでフォルダ内またはノート全体のすべてのソースを瞬時に選択／解除。"
+      },
+      {
+        "row": 20,
+        "rowsha": "4FiaQNg560H7RCQUg8tea2zxtwB1s1zVvIYgg6pae9k=",
+        "originContent": "*   **Bulk Select** — Master checkboxes to select/deselect all sources in a folder or the entire notebook instantly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**深層検索** 🔍 "
+      },
+      {
+        "row": 23,
+        "rowsha": "AwiFYdcX3KSHREflFgktl8ZbqlaZR1WmWvWpqt7GCYE=",
+        "originContent": "**Deep Search** 🔍 ",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **コンテンツインデックス** — タイトルだけでなくノート内の実際のテキストを検索。"
+      },
+      {
+        "row": 25,
+        "rowsha": "R0nDBWaYiKze+hQHik3waHvtJUVmXuuo4F456DPWu40=",
+        "originContent": "*   **Content Indexing** — Search the actual text inside your notes, not just the titles.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    > **注意:** インデックス作成はノートを開いた時に受動的に行われます。"
+      },
+      {
+        "row": 27,
+        "rowsha": "Znr3Kq2v4xg2Sv6LeVdmfx2mEp4+BkiVtEk+Ok9Ir6g=",
+        "originContent": "    > **Note:** Indexing happens passively when you open a note.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **スマート圧縮** — LZ-String圧縮を使用し、5MBまでの検索インデックスデータをローカルに保存し、パフォーマンスに影響なし。"
+      },
+      {
+        "row": 29,
+        "rowsha": "RJJrtxttWSbFZZw9SHBKrT7EbtmGJ3ru+HtijIZHN3s=",
+        "originContent": "*   **Smart Compression** — Uses LZ-String compression to store up to 5MB of search index data locally without impacting performance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**信頼性** 🛡️ "
+      },
+      {
+        "row": 32,
+        "rowsha": "rLzkLPUTXAoHgw9FN1h8VLcl0kHZm/QVa0sjcbcH9NE=",
+        "originContent": "**Reliability** 🛡️ ",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **ローカルファーストアーキテクチャ** — ネットワーク遅延ゼロ。全データはデバイス内に保存。"
+      },
+      {
+        "row": 34,
+        "rowsha": "PPPvpzfq7Lx0r4mIZAkVqFFwHVmxqo+5d4lyt8wFmM0=",
+        "originContent": "*   **Local-First Architecture** — Zero network latency. All data lives on your device.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **優雅な劣化** — ウェブサイトの更新により機能が失敗しても、拡張機能の他の部分は正常に動作し続けます。"
+      },
+      {
+        "row": 36,
+        "rowsha": "8+RNQZ0M0MU4wNSdSguEAX8rqbC1uwAJ5LZyDf0LPi8=",
+        "originContent": "*   **Graceful Degradation** — If a feature fails due to a website update, the rest of the extension keeps working.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **スタイル付きダイアログ** — 滑らかでテーマ化された確認ダイアログ（ブラウザの不快なポップアップはなし）。"
+      },
+      {
+        "row": 38,
+        "rowsha": "v/4ghsnpPZ4hnhmcFRr2eLJYZ3/mPSUPPEFFwgVBaL8=",
+        "originContent": "*   **Styled Dialogs** — Smooth, themed confirmation dialogs (no more jarring browser popups).",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **注意:** 各ノートブックは独立したデータを持ちます。「プロジェクトA」で作成したタスクやフォルダが「プロジェクトB」を煩雑にしません。"
+      },
+      {
+        "row": 40,
+        "rowsha": "zc/VmKKAEXkdJnLU+WVbXO1LtH868h5HP+1bd9SdMho=",
+        "originContent": "> **Note:** Each notebook has its own independent data. Tasks and Folders created in \"Project A\" won't clutter \"Project B.\"",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n## Installation\n### Load Unpacked (Developer Mode)\n\n1.  Download or clone this repository.\n2.  Open Chrome and go to `chrome://extensions`.\n3.  Enable **Developer mode** (toggle in top right).\n4.  Click **Load unpacked**.\n5.  Select the folder containing these extension files.\n6.  Navigate to NotebookLM and start organizing!\n\n## Usage\nOnce installed, you'll see a new \"Project Dashboard\" interface injected into NotebookLM:\n\n*   **Quick Capture:** Highlight text in any note -> click the floating + button to turn it into a task.\n\n*   **Pop-out:** Hover over a note in the Studio panel -> click the New Window icon.\n\n*   **Task Details:** Click the Description icon on a task to add notes or context.\n\n*   **Bulk Actions:** Use the folder checkboxes to toggle multiple sources for the AI context window.\n\n*   **Export/Import:** Use these buttons to backup your structure or move it to a new computer.\n\n## Storage & Data Guide 💾 \n**Where Your Data Lives**\n\nBecause v17.9 prioritizes speed and privacy, your data lives on your device:\n\n*   **Local Storage:** Folders, Tasks, Settings, and Search Index.\n\n*   **No Auto-Sync:** Folders do not sync automatically between computers.\n\n*   **Moving Data:** To move your setup to a laptop, use the Export button to get a JSON file, then Import on the new machine.\n\n> **Warning:** If you clear Chrome's \"Site Data\" or \"Cookies,\" you will lose your folders. Export backups regularly.\n\n\n## Privacy & Security",
+    "ContentSha": "eKMe494a8F9O/sR3b2FAeg8J3B6+yeuZhq7iiUDYm0A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## インストール\n### アンパックロード（開発者モード）\n\n1.  このリポジトリをダウンロードまたはクローンします。\n2.  Chromeを開き、`chrome://extensions` にアクセスします。\n3.  **開発者モード** を有効にします（右上のトグル）。\n4.  **アンパックロード** をクリックします。\n5.  この拡張機能のファイルが入っているフォルダを選択します。\n6.  NotebookLMに移動して整理を始めましょう！\n\n## 使い方\nインストール後、NotebookLMに新しい「プロジェクトダッシュボード」インターフェースが表示されます：\n\n*   **クイックキャプチャ：** 任意のノートでテキストをハイライト -> 浮かぶ＋ボタンをクリックしてタスクに変換。\n\n*   **ポップアウト：** Studioパネルのノートにホバー -> 新しいウィンドウアイコンをクリック。\n\n*   **タスク詳細：** タスクの説明アイコンをクリックしてノートやコンテキストを追加。\n\n*   **一括操作：** フォルダのチェックボックスを使って複数のソースをAIコンテキストウィンドウに切り替え。\n\n*   **エクスポート/インポート：** 構造をバックアップしたり新しいPCに移動するためのボタン。\n\n## ストレージとデータガイド 💾 \n**データの保存場所**\n\nv17.9は速度とプライバシーを優先しているため、データはデバイスに保存されます：\n\n*   **ローカルストレージ：** フォルダ、タスク、設定、検索インデックス。\n\n*   **自動同期なし：** フォルダはコンピューター間で自動的に同期されません。\n\n*   **データ移動：** 設定をノートパソコンに移す場合は、エクスポートボタンでJSONファイルを取得し、新しいマシンでインポートしてください。\n\n> **警告：** Chromeの「サイトデータ」や「クッキー」をクリアすると、フォルダが失われます。定期的にバックアップをエクスポートしてください。\n\n## プライバシーとセキュリティ\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### アンパックロード（開発者モード）"
+      },
+      {
+        "row": 3,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XVSdHkOZPZfoDUANWnIFTNBpwDeqKevSO1vGHoEl16w=",
+        "originContent": "### Load Unpacked (Developer Mode)",
+        "translatedContent": "1.  このリポジトリをダウンロードまたはクローンします。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2.  Chromeを開き、`chrome://extensions` にアクセスします。"
+      },
+      {
+        "row": 6,
+        "rowsha": "VoOeycu1FsXoW47p6YpsVN8saSBMzHE/SuVH3bH+lA8=",
+        "originContent": "1.  Download or clone this repository.",
+        "translatedContent": "3.  **開発者モード** を有効にします（右上のトグル）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "zTYbWWd5gOvV2em7PbyXQrPgeNTIADO+Zd5CCq4Z7No=",
+        "originContent": "2.  Open Chrome and go to `chrome://extensions`.",
+        "translatedContent": "4.  **アンパックロード** をクリックします。"
+      },
+      {
+        "row": 8,
+        "rowsha": "l3agaFNV8WAVImFQXKR4gZgPLZfowklUgDvpH+ZMJZA=",
+        "originContent": "3.  Enable **Developer mode** (toggle in top right).",
+        "translatedContent": "5.  この拡張機能のファイルが入っているフォルダを選択します。"
+      },
+      {
+        "row": 9,
+        "rowsha": "pjgp84opeKOBQY+2QhfykkXflnQA6tFBjz2wxf4IcbY=",
+        "originContent": "4.  Click **Load unpacked**.",
+        "translatedContent": "6.  NotebookLMに移動して整理を始めましょう！"
+      },
+      {
+        "row": 10,
+        "rowsha": "0jbB0PyvC48rgWETi4hcLiCKFZ+F7fnzZ/l89RZlSCk=",
+        "originContent": "5.  Select the folder containing these extension files.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "H1F8+qLhlHe8yBVm9kxmxkYnP474TnPVYxxoi+q4hd4=",
+        "originContent": "6.  Navigate to NotebookLM and start organizing!",
+        "translatedContent": "## 使い方"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "インストール後、NotebookLMに新しい「プロジェクトダッシュボード」インターフェースが表示されます："
+      },
+      {
+        "row": 13,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wASn9Q2wEteD8kM0kPUNI6vTsL/3Sm3cGCG4SN0S1DM=",
+        "originContent": "Once installed, you'll see a new \"Project Dashboard\" interface injected into NotebookLM:",
+        "translatedContent": "*   **クイックキャプチャ：** 任意のノートでテキストをハイライト -> 浮かぶ＋ボタンをクリックしてタスクに変換。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "zPSxjv/iS9Hqzai6JiDnWwLKZ4mIc2z/wycEVvxFoUk=",
+        "originContent": "*   **Quick Capture:** Highlight text in any note -> click the floating + button to turn it into a task.",
+        "translatedContent": "*   **ポップアウト：** Studioパネルのノートにホバー -> 新しいウィンドウアイコンをクリック。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "H8IQF0pTXM2YX5dnWcHNbTtNBkLKPYDQzM0PF/6fg8g=",
+        "originContent": "*   **Pop-out:** Hover over a note in the Studio panel -> click the New Window icon.",
+        "translatedContent": "*   **タスク詳細：** タスクの説明アイコンをクリックしてノートやコンテキストを追加。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "4j1ejj/09d+cCzb3BJCVRRdWPhzYdXH0F57Ak2rEhjM=",
+        "originContent": "*   **Task Details:** Click the Description icon on a task to add notes or context.",
+        "translatedContent": "*   **一括操作：** フォルダのチェックボックスを使って複数のソースをAIコンテキストウィンドウに切り替え。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "my6GcUcdH6QaLykytee3QJBBcZQivG/OyUyeOQbIOdo=",
+        "originContent": "*   **Bulk Actions:** Use the folder checkboxes to toggle multiple sources for the AI context window.",
+        "translatedContent": "*   **エクスポート/インポート：** 構造をバックアップしたり新しいPCに移動するためのボタン。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "r1nM/z/ZY+7Zvz2OQiAEB3gMD+Gz660N8+PHJUnWuSk=",
+        "originContent": "*   **Export/Import:** Use these buttons to backup your structure or move it to a new computer.",
+        "translatedContent": "## ストレージとデータガイド 💾 "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**データの保存場所**"
+      },
+      {
+        "row": 26,
+        "rowsha": "ONv3TiLZcJD6EUHhyTqKvdYgC70XWxmqloPWLmEOPzs=",
+        "originContent": "## Storage & Data Guide 💾 ",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "ahn5X+/su9MBT+TvDh5ILpYEWYWrT57yf9UIqRr7Du8=",
+        "originContent": "**Where Your Data Lives**",
+        "translatedContent": "v17.9は速度とプライバシーを優先しているため、データはデバイスに保存されます："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "P/Ur2gD4ADs3/OlqdO+wQ1WmSA2BFtNGQ0ZRpoqudo0=",
+        "originContent": "Because v17.9 prioritizes speed and privacy, your data lives on your device:",
+        "translatedContent": "*   **ローカルストレージ：** フォルダ、タスク、設定、検索インデックス。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "PzF41S1h9XtkNrQ27UtRLXEyC6GrDEOuny8zQWTYECU=",
+        "originContent": "*   **Local Storage:** Folders, Tasks, Settings, and Search Index.",
+        "translatedContent": "*   **自動同期なし：** フォルダはコンピューター間で自動的に同期されません。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "JS2ceu6FsBdHmeYteKsi+j8YQ2w8ax1D2eobNbDm+wU=",
+        "originContent": "*   **No Auto-Sync:** Folders do not sync automatically between computers.",
+        "translatedContent": "*   **データ移動：** 設定をノートパソコンに移す場合は、エクスポートボタンでJSONファイルを取得し、新しいマシンでインポートしてください。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "gfx+w/k97/t8jvIV7PSb4dfBWAu+s++ODvBEaaDJfYE=",
+        "originContent": "*   **Moving Data:** To move your setup to a laptop, use the Export button to get a JSON file, then Import on the new machine.",
+        "translatedContent": "> **警告：** Chromeの「サイトデータ」や「クッキー」をクリアすると、フォルダが失われます。定期的にバックアップをエクスポートしてください。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "MLzR2GvZhBsivmtYvYq3UcQCSHJke0SvD/QySXi8F8k=",
+        "originContent": "> **Warning:** If you clear Chrome's \"Site Data\" or \"Cookies,\" you will lose your folders. Export backups regularly.",
+        "translatedContent": "## プライバシーとセキュリティ"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9r159v4wXE7EItDKsMnwrV0NAgux3M/p01TW2U3Y0Jc=",
+        "originContent": "## Privacy & Security",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "**This extension is Local-First:**\n\n*   **All data is stored in your browser's local storage.**\n\n*   **No analytics or usage data is sent to the developer.**\n\n*   **Open Source:** You can inspect the code to verify no data leaves your machine.\n\nSee [PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md) for details.\n\n## Known Limitations\n\n*   **Pop-out Editing:** Pop-out windows are currently Read-Only. You must use the main window to edit text.\n\n*   **Underlining:** Underlining content in a note is not persistent (this is a Google NotebookLM issue, not the extension).\n\n*   **Incognito:** The extension's memory system is disabled in Incognito mode.\n\n\n## Contributing\nFound a bug or have a feature request? Open an issue or submit a PR.\n\n## Author\nBenju66\n\n## License\nGPLv3 License\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\n\nNote: This ensures that any improvements made to this project must be shared back with the community.\n\n",
+    "ContentSha": "sW69CIbNEYlFLyyXbomygCjhkmWtS5YJ7XdYNyUAuIs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**この拡張機能はローカルファーストです：**\n\n*   **すべてのデータはブラウザのローカルストレージに保存されます。**\n\n*   **開発者に解析や使用データは送信されません。**\n\n*   **オープンソース：** コードを検査して、データがマシンを離れないことを確認できます。\n\n詳細は[PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md)をご覧ください。\n\n## 既知の制限事項\n\n*   **ポップアウト編集：** ポップアウトウィンドウは現在読み取り専用です。テキスト編集はメインウィンドウで行う必要があります。\n\n*   **下線：** ノート内の下線は持続しません（これは拡張機能ではなくGoogle NotebookLMの問題です）。\n\n*   **シークレットモード：** 拡張機能のメモリシステムはシークレットモードで無効になります。\n\n\n## 貢献について\nバグを見つけた、または機能追加の要望がありますか？Issueを開くかPRを提出してください。\n\n## 作者\nBenju66\n\n## ライセンス\nGPLv3ライセンス\n\nこのプログラムはフリーソフトウェアです。自由ソフトウェア財団によって発行されたGNU一般公衆利用許諾契約書のバージョン3またはそれ以降のバージョンの条件の下で、再配布および改変が可能です。\n\n\n注：これは、このプロジェクトへのすべての改良がコミュニティに共有されなければならないことを保証します。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0AdFK911kbvx6LgHKL6lTaSPZX1OrTe3FoCKRdGU09g=",
+        "originContent": "**This extension is Local-First:**",
+        "translatedContent": "**この拡張機能はローカルファーストです：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dio8t0kfT9ykYG3C6xGCcV4arrXkXCOXAbCKpH8hPto=",
+        "originContent": "*   **All data is stored in your browser's local storage.**",
+        "translatedContent": "*   **すべてのデータはブラウザのローカルストレージに保存されます。**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "xWOIsHI8jZEh5DtI3m8VkjJdaJpd2FA8DpBUzGx8Xtk=",
+        "originContent": "*   **No analytics or usage data is sent to the developer.**",
+        "translatedContent": "*   **開発者に解析や使用データは送信されません。**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "zdT2ag+1sjH2+fkXg6zlWdO6qzywpss8UVtxh4NwKnE=",
+        "originContent": "*   **Open Source:** You can inspect the code to verify no data leaves your machine.",
+        "translatedContent": "*   **オープンソース：** コードを検査して、データがマシンを離れないことを確認できます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IDpgNsbYAptJdgokqN2Phu9nyH3bSRFcv7kGhxKUgd4=",
+        "originContent": "See [PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md) for details.",
+        "translatedContent": "詳細は[PRIVACY_POLICY.md](https://raw.githubusercontent.com/benju66/Notebook-Nest/main/PRIVACY_POLICY.md)をご覧ください。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "cFNzx8CkKIFXpwkyfY3TmDGcyJt9+2A2yVBpNVnr/cI=",
+        "originContent": "## Known Limitations",
+        "translatedContent": "## 既知の制限事項"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Ltg7MDY/ZC49jAZ2s2G4G8oIHKSkvk97z8pbPHFVYIc=",
+        "originContent": "*   **Pop-out Editing:** Pop-out windows are currently Read-Only. You must use the main window to edit text.",
+        "translatedContent": "*   **ポップアウト編集：** ポップアウトウィンドウは現在読み取り専用です。テキスト編集はメインウィンドウで行う必要があります。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "vfy94WCDreiHZfwRNg25HXL8lxtv13/1PZ0khvFk3lU=",
+        "originContent": "*   **Underlining:** Underlining content in a note is not persistent (this is a Google NotebookLM issue, not the extension).",
+        "translatedContent": "*   **下線：** ノート内の下線は持続しません（これは拡張機能ではなくGoogle NotebookLMの問題です）。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "JKgY/rYDLJPtOq0weiEsbnBG47J0/5UcX+Iw+3AE0jY=",
+        "originContent": "*   **Incognito:** The extension's memory system is disabled in Incognito mode.",
+        "translatedContent": "*   **シークレットモード：** 拡張機能のメモリシステムはシークレットモードで無効になります。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 貢献について"
+      },
+      {
+        "row": 21,
+        "rowsha": "c+wXMYqwtUKCYNn6nIAKP4+gekS99LWUNnvqj9FFHrg=",
+        "originContent": "Found a bug or have a feature request? Open an issue or submit a PR.",
+        "translatedContent": "バグを見つけた、または機能追加の要望がありますか？Issueを開くかPRを提出してください。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "/lJ7vsDcUGNTwbzMlvGpyMrTh1D9NOPyP9aFA7E/nEw=",
+        "originContent": "## Author",
+        "translatedContent": "## 作者"
+      },
+      {
+        "row": 24,
+        "rowsha": "/4KRr0bkmniAtsSnmpD/n9ZQDhx7kO26kgEwswXWetc=",
+        "originContent": "Benju66",
+        "translatedContent": "Benju66"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 27,
+        "rowsha": "a4CeBeq6Kg1CA1Rpq+vrrSRbbRkdHDmKGReQ5VTSIcs=",
+        "originContent": "GPLv3 License",
+        "translatedContent": "GPLv3ライセンス"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "F9KjWOeqUTT9n9VHzSc/ht1sJnpz2m1QWZtsxI4kLGs=",
+        "originContent": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.",
+        "translatedContent": "このプログラムはフリーソフトウェアです。自由ソフトウェア財団によって発行されたGNU一般公衆利用許諾契約書のバージョン3またはそれ以降のバージョンの条件の下で、再配布および改変が可能です。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "CuB1dJKi7lW/tfxb2/5cto5oR4mSgFdYRYRTud/5dds=",
+        "originContent": "Note: This ensures that any improvements made to this project must be shared back with the community.",
+        "translatedContent": "注：これは、このプロジェクトへのすべての改良がコミュニティに共有されなければならないことを保証します。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
