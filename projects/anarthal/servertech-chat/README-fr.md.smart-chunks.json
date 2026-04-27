@@ -1,0 +1,341 @@
+[
+  {
+    "Id": 1,
+    "Content": "# BoostServerTech Chat\n\nThis repository holds the code for a chat application written in C++.\n\nRead the full docs [here](https://anarthal.github.io/servertech-chat/).\n\n| Build                                                                                              | Docs                                                                                                                                            | Live server                     |\n| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |\n| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [Try it!](http://16.171.43.27/) |\n\n## The BoostServerTech project\n\nThis is the first of the [BoostServerTech projects](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M),\na collection of projects that showcase how C++ and Boost can be used for server-side code.\n\n## Architecture\n\nThe server is based on Boost.Beast, asynchronous (C++20 coroutines)\nand single-threaded. It requires C++20 to build. It uses Redis and MySQL for\npersistence.\n\nThe client is web-based and uses Next.js. It communicates with the server\nusing websockets.\n\nYou can read more about the architecture\n[in this section of the docs](https://anarthal.github.io/servertech-chat/01-architecture.html).\n\n## Local development\n\nYou can quickly run the chat application in localhost by using Docker Compose,\nby running in a terminal at the repo root:\n",
+    "ContentSha": "Vz91G82xAtxPXfmKDIsXwnsT4ZVjnnq1SVcA3pUV9R0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# BoostServerTech Chat\n\nCe dépôt contient le code d'une application de chat écrite en C++.\n\nLisez la documentation complète [ici](https://anarthal.github.io/servertech-chat/).\n\n| Build                                                                                              | Docs                                                                                                                                            | Serveur en ligne               |\n| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |\n| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [Essayez-le !](http://16.171.43.27/) |\n\n## Le projet BoostServerTech\n\nCeci est le premier des [projets BoostServerTech](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M),\nune collection de projets qui démontrent comment C++ et Boost peuvent être utilisés pour du code côté serveur.\n\n## Architecture\n\nLe serveur est basé sur Boost.Beast, asynchrone (coroutines C++20)\net mono-thread. Il nécessite C++20 pour être compilé. Il utilise Redis et MySQL pour\nla persistance.\n\nLe client est web-based et utilise Next.js. Il communique avec le serveur\nvia websockets.\n\nVous pouvez en lire davantage sur l'architecture\n[dans cette section de la documentation](https://anarthal.github.io/servertech-chat/01-architecture.html).\n\n## Développement local\n\nVous pouvez rapidement lancer l'application de chat en local en utilisant Docker Compose,\nen exécutant dans un terminal à la racine du dépôt :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2rQxEfcpkZP94FDnRRuM9swG2SDsgt+PkYRxDelOkyM=",
+        "originContent": "# BoostServerTech Chat",
+        "translatedContent": "# BoostServerTech Chat"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iwOLNlfCGJCs0oYGabF42d76gwNLm4U5irsPbnKSlA4=",
+        "originContent": "This repository holds the code for a chat application written in C++.",
+        "translatedContent": "Ce dépôt contient le code d'une application de chat écrite en C++."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "WbzQzY4Ttcqg7gXSB7afjwwrints3K04Ddq4ZLzM7UU=",
+        "originContent": "Read the full docs [here](https://anarthal.github.io/servertech-chat/).",
+        "translatedContent": "Lisez la documentation complète [ici](https://anarthal.github.io/servertech-chat/)."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "12M51KAe5g4YZcDx8/DIQQ+S3PbcVa3IpE5XHL5Dnx4=",
+        "originContent": "| Build                                                                                              | Docs                                                                                                                                            | Live server                     |",
+        "translatedContent": "| Build                                                                                              | Docs                                                                                                                                            | Serveur en ligne               |"
+      },
+      {
+        "row": 8,
+        "rowsha": "XL3xcwtWmHSprxJ4SbCDDnUn2OzIrm7p2DOzW4V+lE4=",
+        "originContent": "| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |",
+        "translatedContent": "| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |"
+      },
+      {
+        "row": 9,
+        "rowsha": "bJk3pKqTcBdkDzTVY4mQeBWT5O2FGzGG96PVCsZlmb4=",
+        "originContent": "| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [Try it!](http://16.171.43.27/) |",
+        "translatedContent": "| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [Essayez-le !](http://16.171.43.27/) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qzbYiow/eKnXqOHalzcP9AbSIEo5E6e9cA4qC3RlRCk=",
+        "originContent": "## The BoostServerTech project",
+        "translatedContent": "## Le projet BoostServerTech"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "NQGZ9K7FudfyiOQPJtkuB6BCeor3KKZHIyYjBhbLUUg=",
+        "originContent": "This is the first of the [BoostServerTech projects](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M),",
+        "translatedContent": "Ceci est le premier des [projets BoostServerTech](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M),"
+      },
+      {
+        "row": 14,
+        "rowsha": "gMAFpRaXmcZMIoi5DkRE/Jz/zaaRwhu0Ht1HYDKWE/s=",
+        "originContent": "a collection of projects that showcase how C++ and Boost can be used for server-side code.",
+        "translatedContent": "une collection de projets qui démontrent comment C++ et Boost peuvent être utilisés pour du code côté serveur."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "## Architecture"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "7egPtIcJ5cPIfAm1+dT3I8Ua6wKfovwoPbSswqTiNMY=",
+        "originContent": "The server is based on Boost.Beast, asynchronous (C++20 coroutines)",
+        "translatedContent": "Le serveur est basé sur Boost.Beast, asynchrone (coroutines C++20)"
+      },
+      {
+        "row": 19,
+        "rowsha": "tJzHZobEoBlYx+77xbVOM7In9zIPWgv7eYAd+OwgBtA=",
+        "originContent": "and single-threaded. It requires C++20 to build. It uses Redis and MySQL for",
+        "translatedContent": "et mono-thread. Il nécessite C++20 pour être compilé. Il utilise Redis et MySQL pour"
+      },
+      {
+        "row": 20,
+        "rowsha": "ufCfj3zJB2R9FXf4pUs0RRoTzqJnqpKY5sI99CdJedg=",
+        "originContent": "persistence.",
+        "translatedContent": "la persistance."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Os0H/5StjRbvnu3Dq6Rz9FWnMLCitSOSsqJuxbaa3pg=",
+        "originContent": "The client is web-based and uses Next.js. It communicates with the server",
+        "translatedContent": "Le client est web-based et utilise Next.js. Il communique avec le serveur"
+      },
+      {
+        "row": 23,
+        "rowsha": "UDkTCiYv4aIUNpU7/48vuPnXfjBE8LFSdDPaHxOufiw=",
+        "originContent": "using websockets.",
+        "translatedContent": "via websockets."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "CR9CWLfKVSuAGFBZLbT1p9CjMkFjaJLDpE6edSPpQcM=",
+        "originContent": "You can read more about the architecture",
+        "translatedContent": "Vous pouvez en lire davantage sur l'architecture"
+      },
+      {
+        "row": 26,
+        "rowsha": "r2UwIUMkbPP70YwRJGMytzSBELfzKFb/trq3rgtrlKU=",
+        "originContent": "[in this section of the docs](https://anarthal.github.io/servertech-chat/01-architecture.html).",
+        "translatedContent": "[dans cette section de la documentation](https://anarthal.github.io/servertech-chat/01-architecture.html)."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "0b+JIMa4TIqDiLpHnsiboUegw1A2b7BPP9HL+0Avuuw=",
+        "originContent": "## Local development",
+        "translatedContent": "## Développement local"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "a/7bm7HJmLtauiEiqpEA43iMqSHMQ6+U0TLA4NA83IQ=",
+        "originContent": "You can quickly run the chat application in localhost by using Docker Compose,",
+        "translatedContent": "Vous pouvez rapidement lancer l'application de chat en local en utilisant Docker Compose,"
+      },
+      {
+        "row": 31,
+        "rowsha": "49UTGVIMkgnac090venrZCA0bWSoVBzM5MAogFMdsRk=",
+        "originContent": "by running in a terminal at the repo root:",
+        "translatedContent": "en exécutant dans un terminal à la racine du dépôt :"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ndocker compose up --build\n```",
+    "ContentSha": "sA3ECiOT9uT+jWvywFNhcKsL/YEtOb8TtS3wPuCDhXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndocker compose up --build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "/zzSYhmW6naMPwMiwmbJgUeBjazIE6oQ0fEHvx85fYA=",
+        "originContent": "docker compose up --build",
+        "translatedContent": "docker compose up --build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nOr you can learn about how to set up a traditional development environment\n[here](https://anarthal.github.io/servertech-chat/02-local-dev.html).\n\n## Going live in minutes\n\nThis project features a CI/CD pipeline that can deploy your code to your server in\nminutes. All you need is a Linux server with SSH enabled, or an AWS account to create one.\nYou can find out more [here](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html).\n\n## Want to contribute?\n\nDrop us a message in [the cpplang Slack](https://cpplang.slack.com/archives/C06BRML5EFK)!\nContributors are more than welcome!\n",
+    "ContentSha": "YW2nV5NV0ShNyFicvVwLnLQVFjX+nNff8k9Z2g/eSSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nOu vous pouvez apprendre comment configurer un environnement de développement traditionnel\n[ici](https://anarthal.github.io/servertech-chat/02-local-dev.html).\n\n## Mise en ligne en quelques minutes\n\nCe projet comprend un pipeline CI/CD qui peut déployer votre code sur votre serveur en\nquelques minutes. Tout ce dont vous avez besoin est un serveur Linux avec SSH activé, ou un compte AWS pour en créer un.\nVous pouvez en savoir plus [ici](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html).\n\n## Vous voulez contribuer ?\n\nEnvoyez-nous un message dans [le Slack cpplang](https://cpplang.slack.com/archives/C06BRML5EFK) !\nLes contributeurs sont les bienvenus !\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "OwWw2Eycq6tIinoyGUeWuSMVPecN0Q18sMEW/8r0EhA=",
+        "originContent": "Or you can learn about how to set up a traditional development environment",
+        "translatedContent": "Ou vous pouvez apprendre comment configurer un environnement de développement traditionnel"
+      },
+      {
+        "row": 3,
+        "rowsha": "YpDdOGZmlUP6SDYMHtkdpJgP+2EZahhuKbyjv5v0jfA=",
+        "originContent": "[here](https://anarthal.github.io/servertech-chat/02-local-dev.html).",
+        "translatedContent": "[ici](https://anarthal.github.io/servertech-chat/02-local-dev.html)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U3/wjg92NgWy4cDIECHQxvM4xLsO9P+KaA0kix6iEQk=",
+        "originContent": "## Going live in minutes",
+        "translatedContent": "## Mise en ligne en quelques minutes"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "dPnh8S2l4I8HMVpWpULbIyGLgrIeef1TQYitaCPqhrc=",
+        "originContent": "This project features a CI/CD pipeline that can deploy your code to your server in",
+        "translatedContent": "Ce projet comprend un pipeline CI/CD qui peut déployer votre code sur votre serveur en"
+      },
+      {
+        "row": 8,
+        "rowsha": "Emmor5s7Oqq0LZfT7WB66yb+J68jFm0q8tcpyjXtrE4=",
+        "originContent": "minutes. All you need is a Linux server with SSH enabled, or an AWS account to create one.",
+        "translatedContent": "quelques minutes. Tout ce dont vous avez besoin est un serveur Linux avec SSH activé, ou un compte AWS pour en créer un."
+      },
+      {
+        "row": 9,
+        "rowsha": "K9DpaTGxoMCx+GVmCfF6I7w0+j5kjzOKf/BV3IyEnyw=",
+        "originContent": "You can find out more [here](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html).",
+        "translatedContent": "Vous pouvez en savoir plus [ici](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html)."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dky2N69wIWijDg9qdL8+ApWQQN5mz+/B0hSWYhDYOwk=",
+        "originContent": "## Want to contribute?",
+        "translatedContent": "## Vous voulez contribuer ?"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "cPal0MHE6AIKAetJ6CmvM5xnNTj8wHl0ZaUCvVzOgBU=",
+        "originContent": "Drop us a message in [the cpplang Slack](https://cpplang.slack.com/archives/C06BRML5EFK)!",
+        "translatedContent": "Envoyez-nous un message dans [le Slack cpplang](https://cpplang.slack.com/archives/C06BRML5EFK) !"
+      },
+      {
+        "row": 14,
+        "rowsha": "DE7WwPF1F+agiVSv/pDAvrjGzRU+pRMD39t0JA/C2ak=",
+        "originContent": "Contributors are more than welcome!",
+        "translatedContent": "Les contributeurs sont les bienvenus !"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

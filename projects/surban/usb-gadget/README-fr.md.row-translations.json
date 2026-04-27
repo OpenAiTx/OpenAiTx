@@ -1,0 +1,800 @@
+[
+  {
+    "row": 1,
+    "rowsha": "rBS7GfOMInV2Jii51s6O9syRQZ8ibmkP6k3pLuTxW0Y=",
+    "originContent": "usb-gadget",
+    "translatedContent": "usb-gadget"
+  },
+  {
+    "row": 2,
+    "rowsha": "NX9bkcad1nzUWI4CtR1/kdQwuPyagYfCc3c5IV95EU0=",
+    "originContent": "==========",
+    "translatedContent": "=========="
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "evdutQGKcj5g9jey3IVcMkLcC7z9pbD0xp2FfH77aG4=",
+    "originContent": "[![crates.io page](https://img.shields.io/crates/v/usb-gadget)](https://crates.io/crates/usb-gadget)",
+    "translatedContent": "[![page crates.io](https://img.shields.io/crates/v/usb-gadget)](https://crates.io/crates/usb-gadget)"
+  },
+  {
+    "row": 5,
+    "rowsha": "OyUd4hysZfJC+qJJXARivtZv3661uI7tNIoB5zF5BIc=",
+    "originContent": "[![docs.rs page](https://docs.rs/usb-gadget/badge.svg)](https://docs.rs/usb-gadget)",
+    "translatedContent": "[![page docs.rs](https://docs.rs/usb-gadget/badge.svg)](https://docs.rs/usb-gadget)"
+  },
+  {
+    "row": 6,
+    "rowsha": "6EFOelV9Bc4RQ0EbI7KG4ievYKDAXrisjyFznkYZZh0=",
+    "originContent": "[![Apache 2.0 license](https://img.shields.io/crates/l/usb-gadget)](https://github.com/surban/usb-gadget/blob/master/LICENSE)",
+    "translatedContent": "[![licence Apache 2.0](https://img.shields.io/crates/l/usb-gadget)](https://github.com/surban/usb-gadget/blob/master/LICENSE)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "okiXdVVJ/2jrwMPstCjaXI28W7HrAHalH85TiXAE+WM=",
+    "originContent": "This library allows implementation of USB peripherals, so called **USB gadgets**,",
+    "translatedContent": "Cette bibliothèque permet l’implémentation de périphériques USB, appelés **gadgets USB**,"
+  },
+  {
+    "row": 9,
+    "rowsha": "lgIq1/DPrU/URnvC5gWOIx5fYulb2J4/aIYxFoQrnv4=",
+    "originContent": "on Linux devices that have a USB device controller (UDC).",
+    "translatedContent": "sur des appareils Linux disposant d’un contrôleur de périphérique USB (UDC)."
+  },
+  {
+    "row": 10,
+    "rowsha": "jvEmsvBc/biWywSv52qg+6EAAR/4sWebe4y5mBAoT6E=",
+    "originContent": "Both, pre-defined USB functions and fully custom implementations of the USB",
+    "translatedContent": "Sont supportées à la fois des fonctions USB pré-définies et des implémentations entièrement personnalisées de l’interface USB."
+  },
+  {
+    "row": 11,
+    "rowsha": "MbfLi/MThtbIIfoW/4nRwyYBjUJWd8TDrmlBoc+c8gE=",
+    "originContent": "interface are supported.",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Les fonctions USB pré-définies suivantes, implémentées par des pilotes du noyau, sont disponibles :"
+  },
+  {
+    "row": 13,
+    "rowsha": "rZqhcVVG7XD0XvecjTWe7OP2e1y7lNWOqioZ07eqC8k=",
+    "originContent": "The following pre-defined USB functions, implemented by kernel drivers, are available:",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* interface réseau"
+  },
+  {
+    "row": 15,
+    "rowsha": "nCf94+bX8IkChtmo4IsdoBueTEwO3a+WmnCh84p2wws=",
+    "originContent": "* network interface",
+    "translatedContent": "    * CDC ECM"
+  },
+  {
+    "row": 16,
+    "rowsha": "blSJTEQScN6pJ4rBg/aoXDfoBuFhIn+1yYI0Q/gqDJA=",
+    "originContent": "    * CDC ECM",
+    "translatedContent": "    * CDC ECM (sous-ensemble)"
+  },
+  {
+    "row": 17,
+    "rowsha": "awm6ZJIOjxTVjdCR64duEvoW2ycIzQaExtDUCMdHdbY=",
+    "originContent": "    * CDC ECM (subset)",
+    "translatedContent": "    * CDC EEM"
+  },
+  {
+    "row": 18,
+    "rowsha": "sTxQEaKP8h4dSLSR2crLbT6SdjDL4wvk+jlR7Ij1ysI=",
+    "originContent": "    * CDC EEM",
+    "translatedContent": "    * CDC NCM"
+  },
+  {
+    "row": 19,
+    "rowsha": "6hLG8qkTqky/aWj2wX10MC+Ql6E8YfGzSiJHe9U8vBY=",
+    "originContent": "    * CDC NCM",
+    "translatedContent": "    * RNDIS"
+  },
+  {
+    "row": 20,
+    "rowsha": "dGfMP3GH7lApfPvGpmoMFEDUBPFECO4IcINxpkC9vsA=",
+    "originContent": "    * RNDIS",
+    "translatedContent": "* port série"
+  },
+  {
+    "row": 21,
+    "rowsha": "CrEWUBpv105so1lXs4XfCL7zO7/ekUwVFC7wRvdyHCo=",
+    "originContent": "* serial port",
+    "translatedContent": "    * CDC ACM"
+  },
+  {
+    "row": 22,
+    "rowsha": "rbSjSy+r/f34++fuZtV/hrhcHxSsdHZGL2O0ZSuR/ew=",
+    "originContent": "    * CDC ACM",
+    "translatedContent": "    * générique"
+  },
+  {
+    "row": 23,
+    "rowsha": "OS7b1xCbVq0FiLPIN9T5muD4jeVaja8iuhGq7tBIU+k=",
+    "originContent": "    * generic",
+    "translatedContent": "* périphérique d’interface humaine (HID)"
+  },
+  {
+    "row": 24,
+    "rowsha": "KNwziGhOrzAY5/fjQ9/OSXBYaG7M6w0PNwYU0n4t8z8=",
+    "originContent": "* human interface device (HID)",
+    "translatedContent": "* périphérique de stockage de masse (MSD)"
+  },
+  {
+    "row": 25,
+    "rowsha": "XXe82QsiwWF8Zb4VGwqSuM8hgPhDCPiuu7mOayJ0ETQ=",
+    "originContent": "* mass-storage device (MSD)",
+    "translatedContent": "* périphérique imprimante"
+  },
+  {
+    "row": 26,
+    "rowsha": "KKQ60Xl5x+tQJcDQCz9zI5KQCUv9OQ56uOu/TAZwSs8=",
+    "originContent": "* printer device",
+    "translatedContent": "* interface numérique d’instrument de musique (MIDI)"
+  },
+  {
+    "row": 27,
+    "rowsha": "AWmYXGFo8r6C0S1AS9TAymKn7QVSZ/O6BIKKhK7HE1c=",
+    "originContent": "* musical instrument digital interface (MIDI)",
+    "translatedContent": "* périphérique audio (UAC1 et UAC2)"
+  },
+  {
+    "row": 28,
+    "rowsha": "VwtOadNJnkPaf8CL6DI/6pa/vgXIJPm6v0ZdsuUn8WA=",
+    "originContent": "* audio device (UAC1 and UAC2)",
+    "translatedContent": "* périphérique vidéo (UVC)"
+  },
+  {
+    "row": 29,
+    "rowsha": "iEekieAzo8wpeTCK2JY3J0IKINhNtzpYc2LFu9kiWIY=",
+    "originContent": "* video device (UVC)",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "De plus, des fonctions USB entièrement personnalisées peuvent être implémentées en Rust en mode utilisateur."
+  },
+  {
+    "row": 31,
+    "rowsha": "zno33QJA9ywPZDk3ibnwGWCnqHNFqW1UUYKXb0GoUVY=",
+    "originContent": "In addition fully custom USB functions can be implemented in user-mode Rust code.",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Le support des descripteurs spécifiques au système d’exploitation et de WebUSB est également fourni."
+  },
+  {
+    "row": 33,
+    "rowsha": "EbQoIE2dxVbudm5QlDsG06R3k8YgwKzCcHSOzOr1da8=",
+    "originContent": "Support for OS-specific descriptors and WebUSB is also provided.",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Outil CLI"
+  },
+  {
+    "row": 35,
+    "rowsha": "ebrv3xXFEGxHiBkCH9kQr+vb1ZmaxrwUzRiqAPosyn4=",
+    "originContent": "CLI tool",
+    "translatedContent": "--------"
+  },
+  {
+    "row": 36,
+    "rowsha": "Nw2bcQYL6WjZfebekf/yAOTdc55OH9fW6YPZp8YL27A=",
+    "originContent": "--------",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "L’outil CLI `usb-gadget` permet de configurer des gadgets USB à partir de fichiers de configuration TOML"
+  },
+  {
+    "row": 38,
+    "rowsha": "aw82HNgDj0rJVW6UcwsUXztGDgpFy5nOupmvrP6mv2M=",
+    "originContent": "The `usb-gadget` CLI tool allows you to configure USB gadgets from TOML configuration",
+    "translatedContent": "sans écrire de code Rust."
+  },
+  {
+    "row": 39,
+    "rowsha": "SrBzAl4BryYRWTlEo2t4WYzpWzmUisLvm41cQvSLkZ4=",
+    "originContent": "files without writing any Rust code.",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### Installation"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "PRj0I6OSMdr74NcRozMr3sek14d8CbBRUWodgmpiuGM=",
+    "originContent": "    cargo install usb-gadget --features cli",
+    "translatedContent": "    cargo install usb-gadget --features cli"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": "### Utilisation"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "6LcakduaczZQCq0w63Dfehg4vFteQ2lx4/G2hO8LvHQ=",
+    "originContent": "Create a TOML configuration file describing your gadget, then use the CLI to manage it:",
+    "translatedContent": "Créez un fichier de configuration TOML décrivant votre gadget, puis utilisez la CLI pour le gérer :"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "uWqF5D2jGmDz+N/+iNKp4L35d0Vx3LuA5yb6/Dl+CIE=",
+    "originContent": "    usb-gadget up gadget.toml       # register and bind a gadget",
+    "translatedContent": "    usb-gadget up gadget.toml       # enregistrer et lier un gadget"
+  },
+  {
+    "row": 50,
+    "rowsha": "qaq5aGdjTR6sFuf4sTKzpnyr3Oo3TAHiASsMvuTERwM=",
+    "originContent": "    usb-gadget list                 # list registered gadgets",
+    "translatedContent": "    usb-gadget list                 # lister les gadgets enregistrés"
+  },
+  {
+    "row": 51,
+    "rowsha": "6YoppkqHFwsNsi47JY4+LFZR7mvyEcElLBKM6N/3cP8=",
+    "originContent": "    usb-gadget down my-gadget       # remove a gadget by name",
+    "translatedContent": "    usb-gadget down my-gadget       # supprimer un gadget par nom"
+  },
+  {
+    "row": 52,
+    "rowsha": "iFkSkVruycfanN2OoRHtAdo50go+CZTPMysvJCAr414=",
+    "originContent": "    usb-gadget down --all           # remove all gadgets",
+    "translatedContent": "    usb-gadget down --all           # supprimer tous les gadgets"
+  },
+  {
+    "row": 53,
+    "rowsha": "O0wJGslNDaYmb2z0T+jm50Ye8pM5kAkhgENqi0Jf7gc=",
+    "originContent": "    usb-gadget check gadget.toml    # validate a config file",
+    "translatedContent": "    usb-gadget check gadget.toml    # valider un fichier de configuration"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "wcypfzmIAvAGeIlc3G28WrQvmd6zW9WuZp/mtv3KkTE=",
+    "originContent": "You can also pass a directory to `up` or `check` to process all `.toml` files in it.",
+    "translatedContent": "Vous pouvez également passer un répertoire à `up` ou `check` pour traiter tous les fichiers `.toml` qu’il contient."
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "+nndK2lhNciFyVaWdulZsIytw6KNmUuMFet4vxTr70w=",
+    "originContent": "### Example configuration",
+    "translatedContent": "### Exemple de configuration"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 60,
+    "rowsha": "j4bpo/OYCHLNkU61858et2cXvqLD59m9juC1RfYFp8E=",
+    "originContent": "name = \"serial-debug\"",
+    "translatedContent": "name = \"serial-debug\""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "kl+saLFcmmgGn4M/O9lgDf3NUVgcKgsMcMPn6k2yvRE=",
+    "originContent": "[device]",
+    "translatedContent": "[device]"
+  },
+  {
+    "row": 63,
+    "rowsha": "vMEsX9ksewBmw+RR/SSqwOj4dH87CwP1py66+x/RREI=",
+    "originContent": "vendor = 0x1209",
+    "translatedContent": "vendor = 0x1209"
+  },
+  {
+    "row": 64,
+    "rowsha": "eYNLDfzxI1e0zIaRHI7a5B7wECZlvxC+zsWgBx9bVHY=",
+    "originContent": "product = 0x0002",
+    "translatedContent": "product = 0x0002"
+  },
+  {
+    "row": 65,
+    "rowsha": "n+q7wEfo8MFRM1yEfjMoR+93TIWJ96AZOaaYDanCZbs=",
+    "originContent": "manufacturer = \"Example Inc.\"",
+    "translatedContent": "manufacturer = \"Example Inc.\""
+  },
+  {
+    "row": 66,
+    "rowsha": "b+TCpXgrWgp0TDJgf29FX1UfyBETTOGyyQui2zrzg64=",
+    "originContent": "product_name = \"Debug Console\"",
+    "translatedContent": "product_name = \"Debug Console\""
+  },
+  {
+    "row": 67,
+    "rowsha": "NITWvyeIUtb+9w1M1RMuh9QHwIVKH3W38mX/he1omls=",
+    "originContent": "serial = \"0001\"",
+    "translatedContent": "serial = \"0001\""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "/niKuydNQEsizLkslDV5iw9Lr4LSL25/x89mT9KqQJQ=",
+    "originContent": "[[config]]",
+    "translatedContent": "[[config]]"
+  },
+  {
+    "row": 70,
+    "rowsha": "5dAkBidy3sBHheqnEzwPsF9j+NZmwgGEgsMBCoVvdks=",
+    "originContent": "description = \"Serial Config\"",
+    "translatedContent": "description = \"Serial Config\""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "HHhcuPK0LLhFaI53GQZvxmcW29eVfJTqNPm/Uh4c4JI=",
+    "originContent": "[[config.function]]",
+    "translatedContent": "[[config.function]]"
+  },
+  {
+    "row": 73,
+    "rowsha": "+oFrr3BiHFxz1ZnNhU2mww3cmyWQSwPXX006CilWrKk=",
+    "originContent": "type = \"serial\"",
+    "translatedContent": "type = \"serial\""
+  },
+  {
+    "row": 74,
+    "rowsha": "VYeQJkVafx8juK3SrJJ063DxUiY8m1ZIuiPQhDqgujc=",
+    "originContent": "class = \"acm\"",
+    "translatedContent": "class = \"acm\""
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "gDk9YpHxFZ7SYEZ3/AkP8+jdOTNhFmXJ/GRi4WyGaa0=",
+    "originContent": "Multiple functions can be combined in a single gadget by adding more `[[config.function]]`",
+    "translatedContent": "Plusieurs fonctions peuvent être combinées dans un seul gadget en ajoutant davantage d’entrées `[[config.function]]`. Exécutez `usb-gadget template --list` pour voir tous les modèles disponibles."
+  },
+  {
+    "row": 78,
+    "rowsha": "DbZLSSjAb9WpZEAifQ3g1TayW4uE57rdEXpC7gS35Ac=",
+    "originContent": "entries. Run `usb-gadget template --list` to see all available templates.",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Fonctionnalités"
+  },
+  {
+    "row": 80,
+    "rowsha": "VpfQPa703pz423yxF1X3E1ijK0rMqUkJqdRJ9xBA0t0=",
+    "originContent": "Features",
+    "translatedContent": "---------------"
+  },
+  {
+    "row": 81,
+    "rowsha": "Nw2bcQYL6WjZfebekf/yAOTdc55OH9fW6YPZp8YL27A=",
+    "originContent": "--------",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Cette crate propose les fonctionnalités optionnelles suivantes :"
+  },
+  {
+    "row": 83,
+    "rowsha": "UCCuwsEAqHSccE2BSspKzGkGCCIVHNSccoxOaN3AqqU=",
+    "originContent": "This crate provides the following optional features:",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `cli` : construit l’outil CLI `usb-gadget` pour configurer les gadgets à partir de fichiers TOML."
+  },
+  {
+    "row": 85,
+    "rowsha": "m5LSwSfn8DfQ9A/8vaJy396y14ADc1I3SiIB4NmjuCI=",
+    "originContent": "* `cli`: builds the `usb-gadget` CLI tool for configuring gadgets from TOML files.",
+    "translatedContent": "* `tokio` : active la prise en charge asynchrone pour les fonctions USB personnalisées sur la base du runtime Tokio."
+  },
+  {
+    "row": 86,
+    "rowsha": "YVvhKOnwVqWCULp8Ya3cHrtxDXiKCOpypaUL/9moIis=",
+    "originContent": "* `tokio`: enables async support for custom USB functions on top of the Tokio runtime.",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Exigences"
+  },
+  {
+    "row": 88,
+    "rowsha": "4M3Qf2onC4JpIXUQgi2qSs5XMwkTQnj3X14W7VmjWDs=",
+    "originContent": "Requirements",
+    "translatedContent": "---------"
+  },
+  {
+    "row": 89,
+    "rowsha": "FNRjaBTCOVFBIIC12Yl4Joa1sb1JGfDEzl1zl4V3KSU=",
+    "originContent": "------------",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "La version minimale de Rust prise en charge (MSRV) est la 1.77."
+  },
+  {
+    "row": 91,
+    "rowsha": "pT1S7aS8DcMtB8h8WukA5wLjTD0XNyogwB+9tDd11q0=",
+    "originContent": "The minimum supported Rust version (MSRV) is 1.77.",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Un contrôleur de périphérique USB (UDC) pris en charge par Linux est requis. En général, les PC standard *ne* comprennent *pas* d’UDC."
+  },
+  {
+    "row": 93,
+    "rowsha": "aD+UMjIht1raNXfF5BNWu+vlJmTc73GLvYOUD2tgKKs=",
+    "originContent": "A USB device controller (UDC) supported by Linux is required. Normally, standard",
+    "translatedContent": "Un Raspberry Pi 4 contient un UDC, qui est connecté à son port USB-C."
+  },
+  {
+    "row": 94,
+    "rowsha": "srHGEfOa4HMDey4Fxg7JPY2XcU1VKCbDXO5VtgLJpm8=",
+    "originContent": "PCs *do not* include an UDC.",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "UpzxMpyGvzrY3MBevaUEQT4v48dKXZ1EQppCm3owk+0=",
+    "originContent": "A Raspberry Pi 4 contains an UDC, which is connected to its USB-C port.",
+    "translatedContent": "Les options de configuration du noyau Linux suivantes doivent être activées pour une fonctionnalité complète :"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "XC2flgWPYTsQwSfApYxoO1mY+vP5vr1gMyFhiZdA/PY=",
+    "originContent": "The following Linux kernel configuration options should be enabled for full functionality:",
+    "translatedContent": "  * `CONFIG_USB_GADGET`"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS`"
+  },
+  {
+    "row": 99,
+    "rowsha": "KN3EnydHoQmapIdG6iwVuTJCMoXvseJCXelTX8fMZbk=",
+    "originContent": "  * `CONFIG_USB_GADGET`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_SERIAL`"
+  },
+  {
+    "row": 100,
+    "rowsha": "2AnCRgRV7mRd49FOYOyWpCqD8E/HAr1Mg43UyhgBKXw=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_ACM`"
+  },
+  {
+    "row": 101,
+    "rowsha": "wvQYjnPu2oK+5vqkyq4znTlOihF2+lGBMHxbrJaaWvc=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_SERIAL`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_NCM`"
+  },
+  {
+    "row": 102,
+    "rowsha": "5Nht24NcDDdYeOHbGeimr6uolU76JV0pyL7ITKHFP70=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_ACM`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_ECM`"
+  },
+  {
+    "row": 103,
+    "rowsha": "VfLRrDSKTBfjYmYifDTT3yYJbCGicZBgL5F6nTwTK5M=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_NCM`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_ECM_SUBSET`"
+  },
+  {
+    "row": 104,
+    "rowsha": "xPeIlgG8aAw0azK5naVk82P3QOTOGZcTkbSAAycI//c=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_ECM`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_RNDIS`"
+  },
+  {
+    "row": 105,
+    "rowsha": "eFCKM4EqNz2kaasdeV1SZxy3O2Urgfth3emudkx4Khg=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_ECM_SUBSET`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_EEM`"
+  },
+  {
+    "row": 106,
+    "rowsha": "nz4KQoHo1HwYgiMtlM1NyXe1BMUWdLI89JD/nmvDlnM=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_RNDIS`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_MASS_STORAGE`"
+  },
+  {
+    "row": 107,
+    "rowsha": "CyaNT1t7O570KyMD63VyizGIPo6POmIvGNeRuZylhYU=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_EEM`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_F_FS`"
+  },
+  {
+    "row": 108,
+    "rowsha": "485i8Dj48tAtFBjWUttVD3J0xIt2VgOdW9YnTvVkfP8=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_MASS_STORAGE`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_F_HID`"
+  },
+  {
+    "row": 109,
+    "rowsha": "MPfM7lYRovP4jhMNTisuo15Dh7uXt9kJJmnCEI8dFNw=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_F_FS`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_F_PRINTER`"
+  },
+  {
+    "row": 110,
+    "rowsha": "JShDg3oSIDraaIpkb5WLkd3QS/vdbX4xY92+cETrDpY=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_F_HID`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_F_MIDI`"
+  },
+  {
+    "row": 111,
+    "rowsha": "aSTiMvUyzaiYYK8sjA7nzLcLggWPhcPFuSKq/xSfmxE=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_F_PRINTER`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_F_UAC1`"
+  },
+  {
+    "row": 112,
+    "rowsha": "wJrRvB/S7qyGCbJQ1q7obo6IE/pspScSXJnViNUf2Sg=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_F_MIDI`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_F_UAC2`"
+  },
+  {
+    "row": 113,
+    "rowsha": "jB98jqR8cDtW7nbc8DG0Oz6p4sX9/+/rIYdbVBBRqT4=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_F_UAC1`",
+    "translatedContent": "  * `CONFIG_USB_CONFIGFS_F_UVC`"
+  },
+  {
+    "row": 114,
+    "rowsha": "E5ZdWW6X96cE7Jt1qzxnrvIEk1Vf9gn05t6/s1hpEFs=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_F_UAC2`",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "8PIpOP0cmsZr3xQ7Ub2IhCSL8xfj80NPQgtMbVc7V+0=",
+    "originContent": "  * `CONFIG_USB_CONFIGFS_F_UVC`",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "VS663p+TrIYdH5JBg8duTkHSeEVOFbK6gUR9reUhxKc=",
+    "originContent": "root permissions are required to configure USB gadgets on Linux and",
+    "translatedContent": "Les permissions root sont requises pour configurer les gadgets USB sous Linux et"
+  },
+  {
+    "row": 118,
+    "rowsha": "lx2tWo5MDqJdg5CP3qMT5ufE9YVNWV/WDKmC89feRaU=",
+    "originContent": "the `configfs` filesystem needs to be mounted.",
+    "translatedContent": "le système de fichiers `configfs` doit être monté."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "wBHWCXv7yOk2KArdzy4+fQbqIiP/1ZaXMZG4AKcDXDI=",
+    "originContent": "License",
+    "translatedContent": "Licence"
+  },
+  {
+    "row": 122,
+    "rowsha": "Edkl7N59G2qiwogd8VznuFU+f0i3guBhtljwUKZzAT8=",
+    "originContent": "-------",
+    "translatedContent": "-------"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "Kqs1+P4+my/ocv+01ju+jCLNO0cYuN6qz64jga3OSlw=",
+    "originContent": "usb-gadget is licensed under the [Apache 2.0 license].",
+    "translatedContent": "usb-gadget est sous licence [Apache 2.0]."
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "WEivAVbILjT0cVV2JEEgseg1IPKB+mGsioZIJ5u3fFI=",
+    "originContent": "[Apache 2.0 license]: https://github.com/surban/usb-gadget/blob/master/LICENSE",
+    "translatedContent": "[Apache 2.0 license]: https://github.com/surban/usb-gadget/blob/master/LICENSE"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "Mf5jc9xC1Lm1NVMDhJO4qTHY8e/vFmJQfI9CcSndSOM=",
+    "originContent": "### Contribution",
+    "translatedContent": "### Contribution"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "ehyEPmoQy5dzcVePeEF7Sof4mQiD9HZN9GNG0DQNgAY=",
+    "originContent": "Unless you explicitly state otherwise, any contribution intentionally submitted",
+    "translatedContent": "Sauf indication explicite contraire de votre part, toute contribution soumise"
+  },
+  {
+    "row": 131,
+    "rowsha": "llosImnL73/0Ojtj6dBhf7L9+CHlMCDwufSlM6859Kk=",
+    "originContent": "for inclusion in usb-gadget by you, shall be licensed as Apache 2.0, without any",
+    "translatedContent": "intentionnellement pour inclusion dans usb-gadget par vous, sera sous licence Apache 2.0, sans"
+  },
+  {
+    "row": 132,
+    "rowsha": "DzTIzeTv4U1RWQJqsBOsFtYld26MmfGGo7tCT9Fl+Is=",
+    "originContent": "additional terms or conditions.",
+    "translatedContent": "termes ou conditions supplémentaires."
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

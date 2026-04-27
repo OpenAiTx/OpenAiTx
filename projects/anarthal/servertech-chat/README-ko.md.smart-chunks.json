@@ -1,0 +1,341 @@
+[
+  {
+    "Id": 1,
+    "Content": "# BoostServerTech Chat\n\nThis repository holds the code for a chat application written in C++.\n\nRead the full docs [here](https://anarthal.github.io/servertech-chat/).\n\n| Build                                                                                              | Docs                                                                                                                                            | Live server                     |\n| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |\n| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [Try it!](http://16.171.43.27/) |\n\n## The BoostServerTech project\n\nThis is the first of the [BoostServerTech projects](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M),\na collection of projects that showcase how C++ and Boost can be used for server-side code.\n\n## Architecture\n\nThe server is based on Boost.Beast, asynchronous (C++20 coroutines)\nand single-threaded. It requires C++20 to build. It uses Redis and MySQL for\npersistence.\n\nThe client is web-based and uses Next.js. It communicates with the server\nusing websockets.\n\nYou can read more about the architecture\n[in this section of the docs](https://anarthal.github.io/servertech-chat/01-architecture.html).\n\n## Local development\n\nYou can quickly run the chat application in localhost by using Docker Compose,\nby running in a terminal at the repo root:\n",
+    "ContentSha": "Vz91G82xAtxPXfmKDIsXwnsT4ZVjnnq1SVcA3pUV9R0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# BoostServerTech 채팅\n\n이 저장소는 C++로 작성된 채팅 애플리케이션의 코드를 보관합니다.\n\n전체 문서는 [여기](https://anarthal.github.io/servertech-chat/)에서 읽을 수 있습니다.\n\n| 빌드                                                                                              | 문서                                                                                                                                            | 라이브 서버                     |\n| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |\n| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [사용해보기!](http://16.171.43.27/) |\n\n## BoostServerTech 프로젝트\n\n이것은 [BoostServerTech 프로젝트들](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M)의 첫 번째 프로젝트로,\nC++과 Boost가 서버 측 코드에 어떻게 사용될 수 있는지 보여주는 프로젝트 모음입니다.\n\n## 아키텍처\n\n서버는 Boost.Beast 기반이며, 비동기식(C++20 코루틴)이고 단일 스레드로 작동합니다.\n빌드에는 C++20이 필요합니다. 영속성(persistence)을 위해 Redis와 MySQL을 사용합니다.\n\n클라이언트는 웹 기반이며 Next.js를 사용합니다. 서버와는 웹소켓을 통해 통신합니다.\n\n아키텍처에 대해 더 자세히 알고 싶다면\n[문서의 이 섹션](https://anarthal.github.io/servertech-chat/01-architecture.html)을 참고하세요.\n\n## 로컬 개발\n\nDocker Compose를 사용하여 로컬호스트에서 채팅 애플리케이션을 빠르게 실행할 수 있습니다.\n저장소 루트에서 터미널에 다음 명령을 입력하세요:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2rQxEfcpkZP94FDnRRuM9swG2SDsgt+PkYRxDelOkyM=",
+        "originContent": "# BoostServerTech Chat",
+        "translatedContent": "# BoostServerTech 채팅"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iwOLNlfCGJCs0oYGabF42d76gwNLm4U5irsPbnKSlA4=",
+        "originContent": "This repository holds the code for a chat application written in C++.",
+        "translatedContent": "이 저장소는 C++로 작성된 채팅 애플리케이션의 코드를 보관합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "WbzQzY4Ttcqg7gXSB7afjwwrints3K04Ddq4ZLzM7UU=",
+        "originContent": "Read the full docs [here](https://anarthal.github.io/servertech-chat/).",
+        "translatedContent": "전체 문서는 [여기](https://anarthal.github.io/servertech-chat/)에서 읽을 수 있습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "12M51KAe5g4YZcDx8/DIQQ+S3PbcVa3IpE5XHL5Dnx4=",
+        "originContent": "| Build                                                                                              | Docs                                                                                                                                            | Live server                     |",
+        "translatedContent": "| 빌드                                                                                              | 문서                                                                                                                                            | 라이브 서버                     |"
+      },
+      {
+        "row": 8,
+        "rowsha": "XL3xcwtWmHSprxJ4SbCDDnUn2OzIrm7p2DOzW4V+lE4=",
+        "originContent": "| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |",
+        "translatedContent": "| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |"
+      },
+      {
+        "row": 9,
+        "rowsha": "bJk3pKqTcBdkDzTVY4mQeBWT5O2FGzGG96PVCsZlmb4=",
+        "originContent": "| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [Try it!](http://16.171.43.27/) |",
+        "translatedContent": "| ![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/build.yml/badge.svg) | [![Build Status](https://github.com/anarthal/servertech-chat/actions/workflows/doc.yml/badge.svg)](https://anarthal.github.io/servertech-chat/) | [사용해보기!](http://16.171.43.27/) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qzbYiow/eKnXqOHalzcP9AbSIEo5E6e9cA4qC3RlRCk=",
+        "originContent": "## The BoostServerTech project",
+        "translatedContent": "## BoostServerTech 프로젝트"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "NQGZ9K7FudfyiOQPJtkuB6BCeor3KKZHIyYjBhbLUUg=",
+        "originContent": "This is the first of the [BoostServerTech projects](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M),",
+        "translatedContent": "이것은 [BoostServerTech 프로젝트들](https://docs.google.com/document/d/1ZQrod1crs8EaNLLqSYIRMacwR3Rv0hC5l-gfL-jOp2M)의 첫 번째 프로젝트로,"
+      },
+      {
+        "row": 14,
+        "rowsha": "gMAFpRaXmcZMIoi5DkRE/Jz/zaaRwhu0Ht1HYDKWE/s=",
+        "originContent": "a collection of projects that showcase how C++ and Boost can be used for server-side code.",
+        "translatedContent": "C++과 Boost가 서버 측 코드에 어떻게 사용될 수 있는지 보여주는 프로젝트 모음입니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "## 아키텍처"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "7egPtIcJ5cPIfAm1+dT3I8Ua6wKfovwoPbSswqTiNMY=",
+        "originContent": "The server is based on Boost.Beast, asynchronous (C++20 coroutines)",
+        "translatedContent": "서버는 Boost.Beast 기반이며, 비동기식(C++20 코루틴)이고 단일 스레드로 작동합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "tJzHZobEoBlYx+77xbVOM7In9zIPWgv7eYAd+OwgBtA=",
+        "originContent": "and single-threaded. It requires C++20 to build. It uses Redis and MySQL for",
+        "translatedContent": "빌드에는 C++20이 필요합니다. 영속성(persistence)을 위해 Redis와 MySQL을 사용합니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "ufCfj3zJB2R9FXf4pUs0RRoTzqJnqpKY5sI99CdJedg=",
+        "originContent": "persistence.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "클라이언트는 웹 기반이며 Next.js를 사용합니다. 서버와는 웹소켓을 통해 통신합니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "Os0H/5StjRbvnu3Dq6Rz9FWnMLCitSOSsqJuxbaa3pg=",
+        "originContent": "The client is web-based and uses Next.js. It communicates with the server",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "UDkTCiYv4aIUNpU7/48vuPnXfjBE8LFSdDPaHxOufiw=",
+        "originContent": "using websockets.",
+        "translatedContent": "아키텍처에 대해 더 자세히 알고 싶다면"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[문서의 이 섹션](https://anarthal.github.io/servertech-chat/01-architecture.html)을 참고하세요."
+      },
+      {
+        "row": 25,
+        "rowsha": "CR9CWLfKVSuAGFBZLbT1p9CjMkFjaJLDpE6edSPpQcM=",
+        "originContent": "You can read more about the architecture",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "r2UwIUMkbPP70YwRJGMytzSBELfzKFb/trq3rgtrlKU=",
+        "originContent": "[in this section of the docs](https://anarthal.github.io/servertech-chat/01-architecture.html).",
+        "translatedContent": "## 로컬 개발"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "0b+JIMa4TIqDiLpHnsiboUegw1A2b7BPP9HL+0Avuuw=",
+        "originContent": "## Local development",
+        "translatedContent": "Docker Compose를 사용하여 로컬호스트에서 채팅 애플리케이션을 빠르게 실행할 수 있습니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "저장소 루트에서 터미널에 다음 명령을 입력하세요:"
+      },
+      {
+        "row": 30,
+        "rowsha": "a/7bm7HJmLtauiEiqpEA43iMqSHMQ6+U0TLA4NA83IQ=",
+        "originContent": "You can quickly run the chat application in localhost by using Docker Compose,",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "49UTGVIMkgnac090venrZCA0bWSoVBzM5MAogFMdsRk=",
+        "originContent": "by running in a terminal at the repo root:",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ndocker compose up --build\n```",
+    "ContentSha": "sA3ECiOT9uT+jWvywFNhcKsL/YEtOb8TtS3wPuCDhXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndocker compose up --build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "/zzSYhmW6naMPwMiwmbJgUeBjazIE6oQ0fEHvx85fYA=",
+        "originContent": "docker compose up --build",
+        "translatedContent": "docker compose up --build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nOr you can learn about how to set up a traditional development environment\n[here](https://anarthal.github.io/servertech-chat/02-local-dev.html).\n\n## Going live in minutes\n\nThis project features a CI/CD pipeline that can deploy your code to your server in\nminutes. All you need is a Linux server with SSH enabled, or an AWS account to create one.\nYou can find out more [here](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html).\n\n## Want to contribute?\n\nDrop us a message in [the cpplang Slack](https://cpplang.slack.com/archives/C06BRML5EFK)!\nContributors are more than welcome!\n",
+    "ContentSha": "YW2nV5NV0ShNyFicvVwLnLQVFjX+nNff8k9Z2g/eSSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또는 전통적인 개발 환경 설정 방법에 대해  \n[여기](https://anarthal.github.io/servertech-chat/02-local-dev.html)에서 배울 수 있습니다.  \n\n## 몇 분 만에 라이브로 전환하기  \n\n이 프로젝트는 코드를 몇 분 만에 서버에 배포할 수 있는 CI/CD 파이프라인을 제공합니다.  \n필요한 것은 SSH가 활성화된 Linux 서버나 AWS 계정을 통해 서버를 생성하는 것뿐입니다.  \n자세한 내용은 [여기](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html)에서 확인할 수 있습니다.  \n\n## 기여하고 싶으신가요?  \n\n[cpplang Slack](https://cpplang.slack.com/archives/C06BRML5EFK)에서 메시지를 남겨주세요!  \n기여자는 언제나 환영합니다!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또는 전통적인 개발 환경 설정 방법에 대해  "
+      },
+      {
+        "row": 2,
+        "rowsha": "OwWw2Eycq6tIinoyGUeWuSMVPecN0Q18sMEW/8r0EhA=",
+        "originContent": "Or you can learn about how to set up a traditional development environment",
+        "translatedContent": "[여기](https://anarthal.github.io/servertech-chat/02-local-dev.html)에서 배울 수 있습니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "YpDdOGZmlUP6SDYMHtkdpJgP+2EZahhuKbyjv5v0jfA=",
+        "originContent": "[here](https://anarthal.github.io/servertech-chat/02-local-dev.html).",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 몇 분 만에 라이브로 전환하기  "
+      },
+      {
+        "row": 5,
+        "rowsha": "U3/wjg92NgWy4cDIECHQxvM4xLsO9P+KaA0kix6iEQk=",
+        "originContent": "## Going live in minutes",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트는 코드를 몇 분 만에 서버에 배포할 수 있는 CI/CD 파이프라인을 제공합니다.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "dPnh8S2l4I8HMVpWpULbIyGLgrIeef1TQYitaCPqhrc=",
+        "originContent": "This project features a CI/CD pipeline that can deploy your code to your server in",
+        "translatedContent": "필요한 것은 SSH가 활성화된 Linux 서버나 AWS 계정을 통해 서버를 생성하는 것뿐입니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Emmor5s7Oqq0LZfT7WB66yb+J68jFm0q8tcpyjXtrE4=",
+        "originContent": "minutes. All you need is a Linux server with SSH enabled, or an AWS account to create one.",
+        "translatedContent": "자세한 내용은 [여기](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html)에서 확인할 수 있습니다.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "K9DpaTGxoMCx+GVmCfF6I7w0+j5kjzOKf/BV3IyEnyw=",
+        "originContent": "You can find out more [here](https://anarthal.github.io/servertech-chat/03-fork-modify-deploy.html).",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기여하고 싶으신가요?  "
+      },
+      {
+        "row": 11,
+        "rowsha": "dky2N69wIWijDg9qdL8+ApWQQN5mz+/B0hSWYhDYOwk=",
+        "originContent": "## Want to contribute?",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[cpplang Slack](https://cpplang.slack.com/archives/C06BRML5EFK)에서 메시지를 남겨주세요!  "
+      },
+      {
+        "row": 13,
+        "rowsha": "cPal0MHE6AIKAetJ6CmvM5xnNTj8wHl0ZaUCvVzOgBU=",
+        "originContent": "Drop us a message in [the cpplang Slack](https://cpplang.slack.com/archives/C06BRML5EFK)!",
+        "translatedContent": "기여자는 언제나 환영합니다!"
+      },
+      {
+        "row": 14,
+        "rowsha": "DE7WwPF1F+agiVSv/pDAvrjGzRU+pRMD39t0JA/C2ak=",
+        "originContent": "Contributors are more than welcome!",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
