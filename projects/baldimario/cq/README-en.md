@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # cq - High-Performance SQL Query Engine for CSV Files
 
  [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)
@@ -40,7 +72,7 @@ Features:
 
 ## Example SQL Files
 
-The repository includes example SQL files under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.
+The repository includes example SQL under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.
 
 ## Data & Features Overview
 
@@ -53,6 +85,6 @@ MIT License. See LICENSE file for details.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-28
 
 ---

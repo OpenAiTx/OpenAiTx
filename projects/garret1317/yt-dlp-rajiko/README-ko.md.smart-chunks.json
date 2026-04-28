@@ -1,0 +1,376 @@
+[
+  {
+    "Id": 1,
+    "Content": "# yt-dlp-rajiko\n\nimproved [radiko.jp](https://radiko.jp) extractor plugin for yt-dlp (fast and areafree)\n\n<p>yt-dlp-rajiko lets you download Japanese radio shows from <a href=\"https://radiko.jp\">radiko.jp</a> without a VPN, using <a href=\"https://github.com/yt-dlp/yt-dlp\">yt-dlp</a>.\nIt downloads quickly, and works for any participating station*, from anywhere in the world.<br>\n<small>*except NHK, but they have <a href=\"https://www.nhk.or.jp/radio/\">their own site</a> which is supported\nin yt-dlp proper</small></p>\n\n\n<p>Intended for personal archiving, not for commercial use. Please subscribe to radiko Premium if you are able.<br>\n<small>(It's Free Software, so this is just me asking nicely, not a hard requirement. but you should do it so that radiko can keep existing)<br>\n(also, if you get the timefree30 plan you can use it with yt-dlp :P)\n</small></p>\n\n### [日本語  🇯🇵](https://427738.xyz/yt-dlp-rajiko/index.ja.html)\n\n## Installation\n\n[Download the plugin bundle](https://427738.xyz/yt-dlp-rajiko/dl/yt_dlp_rajiko-latest.bundle.zip) or `pip install yt-dlp-rajiko`\n\n<p>Requires yt-dlp 2025.02.19 or newer.</p>\n\n<p>If you installed yt-dlp with pip, use the pip command above.\nIf you installed yt-dlp with <code>pipx</code>,\nuse <code>pipx inject yt-dlp yt-dlp-rajiko</code> to install the plugin in yt-dlp's environment.</p>\n\n<p>If you installed with the .exe/binary or any other method,\ndownload the bundle and place it in one of these locations: </p>\n\n<ul>\n\t<li><code>%appdata%\\yt-dlp\\plugins\\</code> (on Windows)</li>\n\t<li><code>~/.config/yt-dlp/plugins/</code> (on Linux and Mac)</li>\n\t<li>a <code>yt-dlp-plugins</code> folder next to your <code>yt-dlp.exe</code> <a href=\"https://427738.xyz/yt-dlp-rajiko/i/installation-pluginsfolder2.png\">(like this)</a><br>\n\t<li>anywhere else listed in <a href=\"https://github.com/yt-dlp/yt-dlp#installing-plugins\">the yt-dlp documentation</a>.</li>\n</ul>\n\n<p>You'll have to create those folders if they don't already exist.<br>\n<b>There is no need to extract the zip file.</b></p>\n",
+    "ContentSha": "khvPJPOOBwr+5gNR/keFaZUHIW2BgbFUgZO350xForE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# yt-dlp-rajiko\n\n향상된 [radiko.jp](https://radiko.jp) 추출기 플러그인 for yt-dlp (빠르고 지역 제한 없음)\n\n<p>yt-dlp-rajiko를 사용하면 <a href=\"https://radiko.jp\">radiko.jp</a>에서 VPN 없이 일본 라디오 방송을 다운로드할 수 있습니다. <a href=\"https://github.com/yt-dlp/yt-dlp\">yt-dlp</a>를 사용합니다.\n빠르게 다운로드하며 전 세계 어디서나 참여하는 모든 방송국*에서 작동합니다.<br>\n<small>*NHK 제외, 그러나 NHK는 <a href=\"https://www.nhk.or.jp/radio/\">자체 사이트</a>가 있으며 yt-dlp 자체에서 지원됩니다</small></p>\n\n<p>개인 저장용으로 의도되었으며 상업적 용도가 아닙니다. 가능하다면 radiko Premium에 가입해 주세요.<br>\n<small>(무료 소프트웨어이므로, 강제 사항이 아니라 저의 정중한 부탁입니다. radiko가 계속 존재할 수 있도록 꼭 해주세요)<br>\n(또한, timefree30 플랜을 사용하면 yt-dlp와 함께 사용할 수 있습니다 :P)\n</small></p>\n\n### [日本語  🇯🇵](https://427738.xyz/yt-dlp-rajiko/index.ja.html)\n\n## 설치\n\n[플러그인 번들 다운로드](https://427738.xyz/yt-dlp-rajiko/dl/yt_dlp_rajiko-latest.bundle.zip) 또는 `pip install yt-dlp-rajiko`\n\n<p>yt-dlp 2025.02.19 이상 버전이 필요합니다.</p>\n\n<p>pip로 yt-dlp를 설치했다면 위의 pip 명령어를 사용하세요.\n만약 <code>pipx</code>로 설치했다면,\n<code>pipx inject yt-dlp yt-dlp-rajiko</code>를 사용하여 yt-dlp 환경에 플러그인을 설치하세요.</p>\n\n<p>.exe/바이너리 또는 다른 방법으로 설치했다면,\n번들을 다운로드하여 아래 위치 중 하나에 넣으세요: </p>\n\n<ul>\n\t<li><code>%appdata%\\yt-dlp\\plugins\\</code> (Windows에서)</li>\n\t<li><code>~/.config/yt-dlp/plugins/</code> (Linux 및 Mac에서)</li>\n\t<li><code>yt-dlp.exe</code> 옆에 <code>yt-dlp-plugins</code> 폴더 생성 <a href=\"https://427738.xyz/yt-dlp-rajiko/i/installation-pluginsfolder2.png\">(이와 같이)</a><br>\n\t<li><a href=\"https://github.com/yt-dlp/yt-dlp#installing-plugins\">yt-dlp 문서</a>에 나열된 다른 위치</li>\n</ul>\n\n<p>해당 폴더가 없으면 직접 만들어야 합니다.<br>\n<b>zip 파일을 압축 해제할 필요가 없습니다.</b></p>\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "s84VUwiZNw8Khg5kSh66wt6pfliRxA2hcc6tDTn53cI=",
+        "originContent": "# yt-dlp-rajiko",
+        "translatedContent": "# yt-dlp-rajiko"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xaZSsScwcAUQt8pNnBRZ9r/Jyj0OR/GKaAYbGBLO6JI=",
+        "originContent": "improved [radiko.jp](https://radiko.jp) extractor plugin for yt-dlp (fast and areafree)",
+        "translatedContent": "향상된 [radiko.jp](https://radiko.jp) 추출기 플러그인 for yt-dlp (빠르고 지역 제한 없음)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ezebnvEXL2o+n5M6sBwU8Tu69VKpW8wakwPaoDax5Vw=",
+        "originContent": "<p>yt-dlp-rajiko lets you download Japanese radio shows from <a href=\"https://radiko.jp\">radiko.jp</a> without a VPN, using <a href=\"https://github.com/yt-dlp/yt-dlp\">yt-dlp</a>.",
+        "translatedContent": "<p>yt-dlp-rajiko를 사용하면 <a href=\"https://radiko.jp\">radiko.jp</a>에서 VPN 없이 일본 라디오 방송을 다운로드할 수 있습니다. <a href=\"https://github.com/yt-dlp/yt-dlp\">yt-dlp</a>를 사용합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "hCfu3W49PRDMzZd4jxfEMPObHMnGtynjKLlD55UHQSs=",
+        "originContent": "It downloads quickly, and works for any participating station*, from anywhere in the world.<br>",
+        "translatedContent": "빠르게 다운로드하며 전 세계 어디서나 참여하는 모든 방송국*에서 작동합니다.<br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "Nb4JIk7wtYlVuRJD9s+/OIvbvvAfbbsGdNkS4on/0Jg=",
+        "originContent": "<small>*except NHK, but they have <a href=\"https://www.nhk.or.jp/radio/\">their own site</a> which is supported",
+        "translatedContent": "<small>*NHK 제외, 그러나 NHK는 <a href=\"https://www.nhk.or.jp/radio/\">자체 사이트</a>가 있으며 yt-dlp 자체에서 지원됩니다</small></p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "APhIH04MA1p8t8aedQf1/H6d04w/L+trvKESpkyGA0M=",
+        "originContent": "in yt-dlp proper</small></p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p>개인 저장용으로 의도되었으며 상업적 용도가 아닙니다. 가능하다면 radiko Premium에 가입해 주세요.<br>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<small>(무료 소프트웨어이므로, 강제 사항이 아니라 저의 정중한 부탁입니다. radiko가 계속 존재할 수 있도록 꼭 해주세요)<br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "+L7hFxnMyWo3lwHa/UATgCbQpFQHezrML7eS7Hw/f/k=",
+        "originContent": "<p>Intended for personal archiving, not for commercial use. Please subscribe to radiko Premium if you are able.<br>",
+        "translatedContent": "(또한, timefree30 플랜을 사용하면 yt-dlp와 함께 사용할 수 있습니다 :P)"
+      },
+      {
+        "row": 12,
+        "rowsha": "GQqctken8sMEGjhoaW4ZIYdb4zu2Fpvq0wSQPZGkFsw=",
+        "originContent": "<small>(It's Free Software, so this is just me asking nicely, not a hard requirement. but you should do it so that radiko can keep existing)<br>",
+        "translatedContent": "</small></p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "8UNZ3ZbXlwE1PqvxsfuMGuIuXnLkkYM23KBAEfNZuog=",
+        "originContent": "(also, if you get the timefree30 plan you can use it with yt-dlp :P)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "QHC77D1tfuVooaJi5UWAxtc5Z3fJezLxyNGjTcwl4Mo=",
+        "originContent": "</small></p>",
+        "translatedContent": "### [日本語  🇯🇵](https://427738.xyz/yt-dlp-rajiko/index.ja.html)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "A/ZLljsE3WGXLapnV7VteottVtpNPJrqjTTpqMcWRqo=",
+        "originContent": "### [日本語  🇯🇵](https://427738.xyz/yt-dlp-rajiko/index.ja.html)",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "[플러그인 번들 다운로드](https://427738.xyz/yt-dlp-rajiko/dl/yt_dlp_rajiko-latest.bundle.zip) 또는 `pip install yt-dlp-rajiko`"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "x0/OS5jLsbS1kXm2rxoZneporLCM9hns/jEgw/bG8BM=",
+        "originContent": "[Download the plugin bundle](https://427738.xyz/yt-dlp-rajiko/dl/yt_dlp_rajiko-latest.bundle.zip) or `pip install yt-dlp-rajiko`",
+        "translatedContent": "<p>yt-dlp 2025.02.19 이상 버전이 필요합니다.</p>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "3owQimPChTUSbg9tGpskxJwWa2fNXPrJH3v38GhSYZQ=",
+        "originContent": "<p>Requires yt-dlp 2025.02.19 or newer.</p>",
+        "translatedContent": "<p>pip로 yt-dlp를 설치했다면 위의 pip 명령어를 사용하세요."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "만약 <code>pipx</code>로 설치했다면,"
+      },
+      {
+        "row": 24,
+        "rowsha": "ZkXBi10d+rwPQS1SH8D0zpoiUrEmkO0Ay+1to79HWDc=",
+        "originContent": "<p>If you installed yt-dlp with pip, use the pip command above.",
+        "translatedContent": "<code>pipx inject yt-dlp yt-dlp-rajiko</code>를 사용하여 yt-dlp 환경에 플러그인을 설치하세요.</p>"
+      },
+      {
+        "row": 25,
+        "rowsha": "yqQxHlP2QDhcIMTlQ7clqzsYsJtZp9pGDSIswmJJ4II=",
+        "originContent": "If you installed yt-dlp with <code>pipx</code>,",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "iWZSguyWjBO/kZBcGvuHw783V5cVS/nAD1+7FbnlMCk=",
+        "originContent": "use <code>pipx inject yt-dlp yt-dlp-rajiko</code> to install the plugin in yt-dlp's environment.</p>",
+        "translatedContent": "<p>.exe/바이너리 또는 다른 방법으로 설치했다면,"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "번들을 다운로드하여 아래 위치 중 하나에 넣으세요: </p>"
+      },
+      {
+        "row": 28,
+        "rowsha": "HL93+VPJxDMHdtMBVI33l5SRErq7jeRzxn9DSpYwydQ=",
+        "originContent": "<p>If you installed with the .exe/binary or any other method,",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "aWUyfCneLBNG2PHK5T44VGvXy90GqMo8ConBqxSwiNI=",
+        "originContent": "download the bundle and place it in one of these locations: </p>",
+        "translatedContent": "<ul>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "\t<li><code>%appdata%\\yt-dlp\\plugins\\</code> (Windows에서)</li>"
+      },
+      {
+        "row": 31,
+        "rowsha": "OYhBHnFsMsICEifoxTioM0B16t+CrEUsSHiWn/2NIkQ=",
+        "originContent": "<ul>",
+        "translatedContent": "\t<li><code>~/.config/yt-dlp/plugins/</code> (Linux 및 Mac에서)</li>"
+      },
+      {
+        "row": 32,
+        "rowsha": "Z0Ov0xPKm4eFxe5CcEPbCG65IgXfUrF0pDc+/xgEQnY=",
+        "originContent": "\t<li><code>%appdata%\\yt-dlp\\plugins\\</code> (on Windows)</li>",
+        "translatedContent": "\t<li><code>yt-dlp.exe</code> 옆에 <code>yt-dlp-plugins</code> 폴더 생성 <a href=\"https://427738.xyz/yt-dlp-rajiko/i/installation-pluginsfolder2.png\">(이와 같이)</a><br>"
+      },
+      {
+        "row": 33,
+        "rowsha": "PGP9B39XD+Tb/XCT5Dn7o7O9Qy9m/krSFzHmML54/Rg=",
+        "originContent": "\t<li><code>~/.config/yt-dlp/plugins/</code> (on Linux and Mac)</li>",
+        "translatedContent": "\t<li><a href=\"https://github.com/yt-dlp/yt-dlp#installing-plugins\">yt-dlp 문서</a>에 나열된 다른 위치</li>"
+      },
+      {
+        "row": 34,
+        "rowsha": "uYxAstgaGN7wsOFlwV8Smf3Nf01AP1s+VuRHHGg4TYw=",
+        "originContent": "\t<li>a <code>yt-dlp-plugins</code> folder next to your <code>yt-dlp.exe</code> <a href=\"https://427738.xyz/yt-dlp-rajiko/i/installation-pluginsfolder2.png\">(like this)</a><br>",
+        "translatedContent": "</ul>"
+      },
+      {
+        "row": 35,
+        "rowsha": "DieSPrgY3TDZTY0X5PUn+U5sc3NbQYHD7uX72RmjeGo=",
+        "originContent": "\t<li>anywhere else listed in <a href=\"https://github.com/yt-dlp/yt-dlp#installing-plugins\">the yt-dlp documentation</a>.</li>",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "NIhF2IBLXIleKik4Qj7Rey3EzTqtn5ZsE+DtiSI7L5A=",
+        "originContent": "</ul>",
+        "translatedContent": "<p>해당 폴더가 없으면 직접 만들어야 합니다.<br>"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<b>zip 파일을 압축 해제할 필요가 없습니다.</b></p>"
+      },
+      {
+        "row": 38,
+        "rowsha": "3z94sjk3wKfEV+o5lWS6gMDpsuaVobvd3vLINRSWQlE=",
+        "originContent": "<p>You'll have to create those folders if they don't already exist.<br>",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Lzmu/VEFWWUEhJgRrYIB8ngAmb5SQTyrm2WjvwrW6iI=",
+        "originContent": "<b>There is no need to extract the zip file.</b></p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "<p>You can check you've installed correctly by running <code>yt-dlp -v</code> and looking for the <code>[debug] Extractor Plugins:</code> or <code>[debug] Plugin directories:</code> lines. <a href=\"https://427738.xyz/yt-dlp-rajiko/i/plugincheck.png\">(like this)</a>\n</p>\n\nMore information about yt-dlp plugins is available from [yt-dlp's documentation](https://github.com/yt-dlp/yt-dlp#plugins).\n\n## More info\n\n[Please see the website for more information](https://427738.xyz/yt-dlp-rajiko/) (usage, contact methods, etc)\n\n[日本語訳もあります](https://427738.xyz/yt-dlp-rajiko/index.ja.html)\n\n## about this repository\n\nthis is just where the source code and bug tracker live. most of the info is on the website.\n\nGenerally you should use the release versions.\n`master` branch usually works, but should be considered experimental and may have bugs\n",
+    "ContentSha": "XqDOT5pZN9jd8yFtV2JJoF+f1L6bMifMk3hF+EffBH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p>설치가 제대로 되었는지 확인하려면 <code>yt-dlp -v</code>를 실행하고 <code>[debug] Extractor Plugins:</code> 또는 <code>[debug] Plugin directories:</code> 줄을 찾으세요. <a href=\"https://427738.xyz/yt-dlp-rajiko/i/plugincheck.png\">(이와 같이)</a>\n</p>\n\nyt-dlp 플러그인에 대한 자세한 정보는 [yt-dlp 문서](https://github.com/yt-dlp/yt-dlp#plugins)에서 확인할 수 있습니다.\n\n## 더 많은 정보\n\n[자세한 내용은 웹사이트를 참조하세요](https://427738.xyz/yt-dlp-rajiko/) (사용법, 연락 방법 등)\n\n[일본어 번역도 있습니다](https://427738.xyz/yt-dlp-rajiko/index.ja.html)\n\n## 이 저장소에 대하여\n\n여기는 소스 코드와 버그 트래커가 있는 곳입니다. 대부분의 정보는 웹사이트에 있습니다.\n\n일반적으로 릴리스 버전을 사용하는 것이 좋습니다.\n`master` 브랜치는 보통 작동하지만 실험적이며 버그가 있을 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "YzPBgBMSAYf+G+ab8Ee2L0Ls+MTUt/7PpVc5HIVgY5o=",
+        "originContent": "<p>You can check you've installed correctly by running <code>yt-dlp -v</code> and looking for the <code>[debug] Extractor Plugins:</code> or <code>[debug] Plugin directories:</code> lines. <a href=\"https://427738.xyz/yt-dlp-rajiko/i/plugincheck.png\">(like this)</a>",
+        "translatedContent": "<p>설치가 제대로 되었는지 확인하려면 <code>yt-dlp -v</code>를 실행하고 <code>[debug] Extractor Plugins:</code> 또는 <code>[debug] Plugin directories:</code> 줄을 찾으세요. <a href=\"https://427738.xyz/yt-dlp-rajiko/i/plugincheck.png\">(이와 같이)</a>"
+      },
+      {
+        "row": 2,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Gq6ZYUd4uQvEoo+xpBW2JOIZCg4gx42EIc6XkBETM8s=",
+        "originContent": "More information about yt-dlp plugins is available from [yt-dlp's documentation](https://github.com/yt-dlp/yt-dlp#plugins).",
+        "translatedContent": "yt-dlp 플러그인에 대한 자세한 정보는 [yt-dlp 문서](https://github.com/yt-dlp/yt-dlp#plugins)에서 확인할 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "QbNOHp31K6QRd2OeAIEm+2E6Q/h0IdfgUrno2TkXeQg=",
+        "originContent": "## More info",
+        "translatedContent": "## 더 많은 정보"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "OnMUbNwOGbWmqyOMbMrgSCrOa+pT0Ld4aD7niaQG1us=",
+        "originContent": "[Please see the website for more information](https://427738.xyz/yt-dlp-rajiko/) (usage, contact methods, etc)",
+        "translatedContent": "[자세한 내용은 웹사이트를 참조하세요](https://427738.xyz/yt-dlp-rajiko/) (사용법, 연락 방법 등)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "OJM6uoiaYnZq5dsX+P2ydAbqpRCeNsXb6LasolgABZo=",
+        "originContent": "[日本語訳もあります](https://427738.xyz/yt-dlp-rajiko/index.ja.html)",
+        "translatedContent": "[일본어 번역도 있습니다](https://427738.xyz/yt-dlp-rajiko/index.ja.html)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "gHBmNEyDCycoVvMtNWlSTfosIFP1b8tWsoQFbIHrSwo=",
+        "originContent": "## about this repository",
+        "translatedContent": "## 이 저장소에 대하여"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "d1XQVleNviND3880R6r/dSo4IXnrR2gjGQhGFdZuATE=",
+        "originContent": "this is just where the source code and bug tracker live. most of the info is on the website.",
+        "translatedContent": "여기는 소스 코드와 버그 트래커가 있는 곳입니다. 대부분의 정보는 웹사이트에 있습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Mq+HEodbsHAS/Kht/sr02bxXUDwlOKNDIznH4wPV70M=",
+        "originContent": "Generally you should use the release versions.",
+        "translatedContent": "일반적으로 릴리스 버전을 사용하는 것이 좋습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "aGvD+mtaVRjW/CGJ9uekqvgYEEaomaqATqlhYrYFp54=",
+        "originContent": "`master` branch usually works, but should be considered experimental and may have bugs",
+        "translatedContent": "`master` 브랜치는 보통 작동하지만 실험적이며 버그가 있을 수 있습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

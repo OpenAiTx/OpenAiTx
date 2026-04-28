@@ -1,0 +1,545 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# cq - High-Performance SQL Query Engine for CSV Files\n\n [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)\n\nA lightweight, fast SQL query processor written in C that enables executing SQL queries directly on CSV files without requiring a database. For full documentation, see the /doc directory.\n\n ![cq in action](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)\n",
+    "ContentSha": "sJ1MYD6gsnG5EpahWWsz+70fGTo7wtVVVIujacjUs+I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 भाषा</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# cq - CSV फ़ाइलों के लिए उच्च-प्रदर्शन SQL क्वेरी इंजन\n\n [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)\n\nएक हल्का, तेज़ SQL क्वेरी प्रोसेसर जो C में लिखा गया है और जो आपको बिना किसी डेटाबेस के सीधे CSV फ़ाइलों पर SQL क्वेरी निष्पादित करने में सक्षम बनाता है। पूर्ण दस्तावेज़ीकरण के लिए, /doc निर्देशिका देखें।\n\n ![cq का उपयोग करते हुए](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 भाषा</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "4fJfw5ifNsCA4ykYBkg03PdXL9BFOnRrLs53tdxKuxw=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "piaf7izaHjM1BoTUf4KI9RX2SDDzMkxS0P9ERq6Y8uc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "iwyfsVjpsqtaI5BctNkYaJh2CFbRAdWUlg+cUMPZiG0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "mAbKaYl9+fOsY+VBI2ytT5DBho2A+1rFo3Q4CSwbYV0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "hE/nV5GkdvisO6b+U7yLVA5vx2ruQsycjvrhIo1nflM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZUlrEmAH1EzXKVTPQTKN8uuwx17gElymTJn2s2ERxrU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "NW6wR80BQan4j9nqlsWDG7atclcPmH/4M2uIuWPe4/8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "yj0rnoFBFXhCAHS4w1qldngolgRE2ZmX5BB26NaTA9s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "/QhloRk5IQVdYY8KDA7mNLRYM/bzvts5LNqwnb2BZOg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "eHsB3+Wpt5jyhtkEqfBEFOhLqSOEsLXH+anjXFGJkTg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "KmgCx4p4sVu8cOoGYkgU6irlT4ITLvp1eSRQ8u5xgaU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "GKJwVKCTlKP1efdwKPR2KkknHs/WA1hUQN7K064L5z0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "E5ArC6jIbhHBsOVV6kToxWrxpehtnkCX+QEDk7OeHn4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "SYByY4jhTJU3mbDylpelkNr3G3kVjilk2FSUxgemhqc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "azQiJXywSqzt+JNyiE8X9fE59fdJMhHfp4jDYyO7NO8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "Rhsi4g95iu58kNbrRRacMVwla7Y09WWp7l+PWW5w5cg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "WCeeahw1Njk3VsCL9Smk4GN8E95iPa0UFFuLBm7GuoI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "CRk1waw235/yMXUA4ULYVRHFuAvpVLyGpyR1xLismQ8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "C8FvWYLnpeAd+QvB45ExFmZDHeq+f3trU1YTjQAv+ps=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "5IkGtsFZDdz8K6KiED/T7up4Eo7jXRKy/M5bOAq2+F8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 27,
+        "rowsha": "2Zw6bw5Z3dBIknywX04Cb3kbegwcZxERMYXSvmP3Sho=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=baldimario&project=cq&lang=as\">অসমীয়া</",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# cq - CSV फ़ाइलों के लिए उच्च-प्रदर्शन SQL क्वेरी इंजन"
+      },
+      {
+        "row": 33,
+        "rowsha": "1xU0y/Wf8vbipztrazdJ4xIj9p4WCJeRfFAdiJs01jc=",
+        "originContent": "# cq - High-Performance SQL Query Engine for CSV Files",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)"
+      },
+      {
+        "row": 35,
+        "rowsha": "ULG5SKa0x89AG4DAkO913gQy3wcjh2arg4R+y2KwmUo=",
+        "originContent": " [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "एक हल्का, तेज़ SQL क्वेरी प्रोसेसर जो C में लिखा गया है और जो आपको बिना किसी डेटाबेस के सीधे CSV फ़ाइलों पर SQL क्वेरी निष्पादित करने में सक्षम बनाता है। पूर्ण दस्तावेज़ीकरण के लिए, /doc निर्देशिका देखें।"
+      },
+      {
+        "row": 37,
+        "rowsha": "2ODI7HytnxIJNKys/2tU6rajztVQVMJfAk6hGAkg2PE=",
+        "originContent": "A lightweight, fast SQL query processor written in C that enables executing SQL queries directly on CSV files without requiring a database. For full documentation, see the /doc directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " ![cq का उपयोग करते हुए](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)"
+      },
+      {
+        "row": 39,
+        "rowsha": "Ti6j6O17BGmF9yquq+TELwA+QtstI92ngGRECDTBfkw=",
+        "originContent": " ![cq in action](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Documentation\n\n- Getting Started: `doc/GettingStarted.md`\n- Installation: `doc/Installation.md`\n- Command Line Interface: `doc/CLI.md`\n- **TUI (Terminal User Interface)**: `doc/TUI.md`\n- Architecture: `doc/Architecture.md`\n- Testing: `doc/Testing.md`\n- Roadmap: `doc/Roadmap.md`\n- Contributing: `doc/Contributing.md`\n\n## Quick Start\n\nBuild: `make`\n\n### Command Line\n\nRun a sample query:\n`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`\n\n### Terminal UI\n\nLaunch interactive TUI:\n`./build/cqtui data/`\n\nFeatures:\n- Browse and open CSV files as tables\n- Execute SQL queries interactively\n- Multi-tab interface for multiple tables\n- Keyboard-driven navigation\n- No external dependencies\n\n## Example SQL Files\n\nThe repository includes example SQL under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.\n\n## Data & Features Overview\n\n- See the /doc folder for detailed sections on data types, date formats, CSV format, and more.\n",
+    "ContentSha": "OYwEJ+2BIx9tlTwDeJvh4eqS2PnDM27tiPvSKekMk9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## दस्तावेज़ीकरण\n\n- शुरुआत करना: `doc/GettingStarted.md`\n- स्थापना: `doc/Installation.md`\n- कमांड लाइन इंटरफेस: `doc/CLI.md`\n- **TUI (टर्मिनल यूजर इंटरफेस)**: `doc/TUI.md`\n- वास्तुकला: `doc/Architecture.md`\n- परीक्षण: `doc/Testing.md`\n- रोडमैप: `doc/Roadmap.md`\n- योगदान: `doc/Contributing.md`\n\n## त्वरित शुरुआत\n\nनिर्माण करें: `make`\n\n### कमांड लाइन\n\nएक नमूना क्वेरी चलाएँ:\n`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`\n\n### टर्मिनल UI\n\nइंटरएक्टिव TUI शुरू करें:\n`./build/cqtui data/`\n\nविशेषताएँ:\n- CSV फ़ाइलों को टेबल के रूप में ब्राउज़ और खोलें\n- SQL क्वेरी को इंटरएक्टिव रूप से निष्पादित करें\n- कई टेबल के लिए मल्टी-टैब इंटरफेस\n- कीबोर्ड से संचालित नेविगेशन\n- कोई बाहरी निर्भरता नहीं\n\n## उदाहरण SQL फ़ाइलें\n\nरिपॉजिटरी में assets/ के अंतर्गत उदाहरण SQL फ़ाइलें शामिल हैं (example_between.sql, example_aggregation.sql, आदि)। विवरण के लिए assets/ देखें।\n\n## डेटा और विशेषताओं का अवलोकन\n\n- डेटा प्रकार, दिनांक प्रारूप, CSV प्रारूप और अन्य के विस्तृत अनुभागों के लिए /doc फ़ोल्डर देखें।\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## दस्तावेज़ीकरण"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "1OgcZZzdq/fZAKiJVN7tD6hkzwnuLkMMTAaoI3L+Liw=",
+        "originContent": "- Getting Started: `doc/GettingStarted.md`",
+        "translatedContent": "- शुरुआत करना: `doc/GettingStarted.md`"
+      },
+      {
+        "row": 4,
+        "rowsha": "TnWnuPDZj4eBMOjSlMhU/Jhiwjm8iKT4+/HIh8l6AA8=",
+        "originContent": "- Installation: `doc/Installation.md`",
+        "translatedContent": "- स्थापना: `doc/Installation.md`"
+      },
+      {
+        "row": 5,
+        "rowsha": "Nl0CYN7Lp9Re8+ua2eNSkxbKD4zz9+h+59dM88zJ3oU=",
+        "originContent": "- Command Line Interface: `doc/CLI.md`",
+        "translatedContent": "- कमांड लाइन इंटरफेस: `doc/CLI.md`"
+      },
+      {
+        "row": 6,
+        "rowsha": "Sv7o8WPUJNfVIbXtrIml6sOXHIoEIoPsv+1iqG1rml8=",
+        "originContent": "- **TUI (Terminal User Interface)**: `doc/TUI.md`",
+        "translatedContent": "- **TUI (टर्मिनल यूजर इंटरफेस)**: `doc/TUI.md`"
+      },
+      {
+        "row": 7,
+        "rowsha": "9Uwir2FnIAfjmRnPnzOhEf2Q6ixvIkDQ7VxYodcIdfM=",
+        "originContent": "- Architecture: `doc/Architecture.md`",
+        "translatedContent": "- वास्तुकला: `doc/Architecture.md`"
+      },
+      {
+        "row": 8,
+        "rowsha": "+MaSra75jcRSnDQOpl396BdzCiDDzDbN/K320xIEuBs=",
+        "originContent": "- Testing: `doc/Testing.md`",
+        "translatedContent": "- परीक्षण: `doc/Testing.md`"
+      },
+      {
+        "row": 9,
+        "rowsha": "+3U52HnAA3RsRsoudCjK6i9pAnPPx2Ehr2ewQBa+baU=",
+        "originContent": "- Roadmap: `doc/Roadmap.md`",
+        "translatedContent": "- रोडमैप: `doc/Roadmap.md`"
+      },
+      {
+        "row": 10,
+        "rowsha": "H6T77O8lhScs67aMOYTsxkNs3mAQzXoHsk3Byg8VUb4=",
+        "originContent": "- Contributing: `doc/Contributing.md`",
+        "translatedContent": "- योगदान: `doc/Contributing.md`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## त्वरित शुरुआत"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "uqp85BjAWWCGwEGto7bBGnLaNjwbtbv8ayU776EXmUY=",
+        "originContent": "Build: `make`",
+        "translatedContent": "निर्माण करें: `make`"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "JtaVECVO6OfR6Wx0mHN2kWDq14EuV9gT8Ki6u48/DvA=",
+        "originContent": "### Command Line",
+        "translatedContent": "### कमांड लाइन"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "TdNS9kK88D8Gvj1wmGSDIw4cgfVbHCKzcCpPO3PVnB8=",
+        "originContent": "Run a sample query:",
+        "translatedContent": "एक नमूना क्वेरी चलाएँ:"
+      },
+      {
+        "row": 19,
+        "rowsha": "Z3QLvUSprWVG1lLN7aP9nW8os014LRPdc4ido880dCg=",
+        "originContent": "`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`",
+        "translatedContent": "`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "jsggjFdg9lH8JBn8hvfv6FOXN71v48VQ4LM42AXetYc=",
+        "originContent": "### Terminal UI",
+        "translatedContent": "### टर्मिनल UI"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "cHmQNDQ/FD+H9P5DIwPBDWAen5HrVu7g+4QucFUI64U=",
+        "originContent": "Launch interactive TUI:",
+        "translatedContent": "इंटरएक्टिव TUI शुरू करें:"
+      },
+      {
+        "row": 24,
+        "rowsha": "vVYThuhlSgpgoQg1C15qP+RSpP+BeUrIH+9+LHh149c=",
+        "originContent": "`./build/cqtui data/`",
+        "translatedContent": "`./build/cqtui data/`"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "e4hgdvJgNoK8Q5OhPPLTjy7Cw+ICPXtZFjlH7tEw0fI=",
+        "originContent": "Features:",
+        "translatedContent": "विशेषताएँ:"
+      },
+      {
+        "row": 27,
+        "rowsha": "sdsrAAtKztltG22SoO4RXQ8L7Ix16TKVm+iKv3nfgK4=",
+        "originContent": "- Browse and open CSV files as tables",
+        "translatedContent": "- CSV फ़ाइलों को टेबल के रूप में ब्राउज़ और खोलें"
+      },
+      {
+        "row": 28,
+        "rowsha": "JgWqmi6MxYu8rV15546ClQFvp77yQNZktDERUROLhUc=",
+        "originContent": "- Execute SQL queries interactively",
+        "translatedContent": "- SQL क्वेरी को इंटरएक्टिव रूप से निष्पादित करें"
+      },
+      {
+        "row": 29,
+        "rowsha": "IzRyQM1/30w9MytOadhEPrVjOk/3zikvjidQDp/ujTA=",
+        "originContent": "- Multi-tab interface for multiple tables",
+        "translatedContent": "- कई टेबल के लिए मल्टी-टैब इंटरफेस"
+      },
+      {
+        "row": 30,
+        "rowsha": "btTm0JCeK1E8OQ5hILst4T7xcCFj1R37uy05SYKdcJI=",
+        "originContent": "- Keyboard-driven navigation",
+        "translatedContent": "- कीबोर्ड से संचालित नेविगेशन"
+      },
+      {
+        "row": 31,
+        "rowsha": "eqPpjx4xUW1xn5R8+4SYcWRwu6KfaD3jWDbCaTwFw8c=",
+        "originContent": "- No external dependencies",
+        "translatedContent": "- कोई बाहरी निर्भरता नहीं"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "MWly+fnYrAI6ZXCCF5+ibDmy20dJVJMzkI3E6NCZd/c=",
+        "originContent": "## Example SQL Files",
+        "translatedContent": "## उदाहरण SQL फ़ाइलें"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ubrBfiMcheWMHBXpF46Gs0GRUHdO1yea6K+WnALkwZQ=",
+        "originContent": "The repository includes example SQL under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.",
+        "translatedContent": "रिपॉजिटरी में assets/ के अंतर्गत उदाहरण SQL फ़ाइलें शामिल हैं (example_between.sql, example_aggregation.sql, आदि)। विवरण के लिए assets/ देखें।"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "mEF9IUKLRwf/P1ECSaFo0vAVAxUFQzEJaIkO414oqhg=",
+        "originContent": "## Data & Features Overview",
+        "translatedContent": "## डेटा और विशेषताओं का अवलोकन"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "ZJsxbkKx0oYRNo6gs/LGUf4jJlHFGEv9paqaJxRtcxg=",
+        "originContent": "- See the /doc folder for detailed sections on data types, date formats, CSV format, and more.",
+        "translatedContent": "- डेटा प्रकार, दिनांक प्रारूप, CSV प्रारूप और अन्य के विस्तृत अनुभागों के लिए /doc फ़ोल्डर देखें।"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## License\n\nMIT License. See LICENSE file for details.\n",
+    "ContentSha": "sYff+igziC1f6HlfaXAEdenA0vCFGgTHzTz7tMjJhTk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## लाइसेंस\n\nMIT लाइसेंस। विवरण के लिए LICENSE फ़ाइल देखें।\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## लाइसेंस"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "GysNTdsjLyMwfQtMM7Q+DZAXmgr55tWAw2qcNc6L5lE=",
+        "originContent": "MIT License. See LICENSE file for details.",
+        "translatedContent": "MIT लाइसेंस। विवरण के लिए LICENSE फ़ाइल देखें।"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
