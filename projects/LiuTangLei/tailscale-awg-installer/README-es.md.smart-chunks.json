@@ -1,0 +1,1663 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Tailscale with Amnezia-WG 2.0 (v1.88.2+)\n\n[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)\n\nEnhanced Tailscale client with Amnezia-WG 2.0 obfuscation: junk traffic, protocol signatures, and handshake/header masquerading to resist DPI and blocking. Until you enable AWG settings, it behaves like standard Tailscale.\n\nLanguages: [English](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)\n\nFor AWG v1.5 documentation, see [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md).\n\n## Installation\n\n| Platform | Command / Action |\n| --- | --- |\n| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |\n| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |\n| Windows (Admin PowerShell) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |\n| OpenWrt | See [OpenWrt Installation](#openwrt-installation) |\n| Android | Download APK from [releases](https://github.com/LiuTangLei/tailscale-android/releases) |\n\n- macOS: the installer uses CLI-only `tailscaled`. If the official Tailscale.app is detected, you'll be prompted to remove it to avoid conflicts.\n- Android currently supports AWG config sync only. Use the in-app Sync button.\n\n![Android AWG Sync Example](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)\n\n## Docker Compose\n\nThe repository includes `docker-compose.yml` for running `tailscaled` with AWG support.\n\n- State is stored in `./tailscale-state` next to the compose file, so node state and AWG settings survive container restarts and host reboots.\n- If you are upgrading from the old bind mount `/var/lib/tailscale:/var/lib/tailscale`, copy the existing state first:\n",
+    "ContentSha": "QxOnI4U6Uz0P0aEl7iMY7cCYoWpiGfiH/fWk/VNq0D8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Tailscale con Amnezia-WG 2.0 (v1.88.2+)\n\n[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)\n\nCliente Tailscale mejorado con ofuscación Amnezia-WG 2.0: tráfico basura, firmas de protocolo y disfraz de apretón de manos/cabecera para resistir DPI y bloqueos. Hasta que habilites las configuraciones AWG, se comporta como el Tailscale estándar.\n\nIdiomas: [English](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)\n\nPara la documentación de AWG v1.5, vea [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md).\n\n## Instalación\n\n| Plataforma | Comando / Acción |\n| --- | --- |\n| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |\n| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |\n| Windows (PowerShell Admin) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |\n| OpenWrt | Ver [Instalación en OpenWrt](#openwrt-installation) |\n| Android | Descargar APK desde [releases](https://github.com/LiuTangLei/tailscale-android/releases) |\n\n- macOS: el instalador usa solo CLI `tailscaled`. Si se detecta la app oficial Tailscale.app, se te pedirá eliminarla para evitar conflictos.\n- Android actualmente solo soporta sincronización de configuración AWG. Usa el botón Sincronizar dentro de la app.\n\n![Ejemplo de sincronización AWG en Android](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)\n\n## Docker Compose\n\nEl repositorio incluye `docker-compose.yml` para ejecutar `tailscaled` con soporte AWG.\n\n- El estado se guarda en `./tailscale-state` junto al archivo compose, por lo que el estado del nodo y las configuraciones AWG sobreviven a reinicios del contenedor y del host.\n- Si actualizas desde el antiguo montaje de enlace `/var/lib/tailscale:/var/lib/tailscale`, copia primero el estado existente:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1gTq504NVxh7mzAxhIhpzvcFWW7vljPXH69mvptD96U=",
+        "originContent": "# Tailscale with Amnezia-WG 2.0 (v1.88.2+)",
+        "translatedContent": "# Tailscale con Amnezia-WG 2.0 (v1.88.2+)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pDmBZIWez6CZk+gEbkn21cgIOW/w0gDr+BEBS+EFGsY=",
+        "originContent": "[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)",
+        "translatedContent": "[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)"
+      },
+      {
+        "row": 4,
+        "rowsha": "CL7MX3nmLw/dsnY1mguADqwO+8Azg8HuTu+m79vRo+A=",
+        "originContent": "[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)",
+        "translatedContent": "[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)"
+      },
+      {
+        "row": 5,
+        "rowsha": "l2CxmsqasFqQ4naqcO4/bfl9SGMSgaZX1VfQ19Em91c=",
+        "originContent": "[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lIkX4ya9/JuZf0iRhkxIk7phfOoJbVLfNsoX1RUluK4=",
+        "originContent": "Enhanced Tailscale client with Amnezia-WG 2.0 obfuscation: junk traffic, protocol signatures, and handshake/header masquerading to resist DPI and blocking. Until you enable AWG settings, it behaves like standard Tailscale.",
+        "translatedContent": "Cliente Tailscale mejorado con ofuscación Amnezia-WG 2.0: tráfico basura, firmas de protocolo y disfraz de apretón de manos/cabecera para resistir DPI y bloqueos. Hasta que habilites las configuraciones AWG, se comporta como el Tailscale estándar."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "23238t3X2NdkUFCSBg2qbaTxIgDgWFMLSP7Dp3CkUI4=",
+        "originContent": "Languages: [English](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)",
+        "translatedContent": "Idiomas: [English](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "gSZsx+P6lgXAaAcYWldqBP4ZTQrDpFl5HIqhDnEJglI=",
+        "originContent": "For AWG v1.5 documentation, see [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md).",
+        "translatedContent": "Para la documentación de AWG v1.5, vea [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md)."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "EtVg/oJt5dacNW3GvLl8G1evuXM0ptJv8juYQZ1OBFw=",
+        "originContent": "| Platform | Command / Action |",
+        "translatedContent": "| Plataforma | Comando / Acción |"
+      },
+      {
+        "row": 16,
+        "rowsha": "gx8R59cCa8JALkZK5nFKkyGPYiMhgFv7UznUi9VQ394=",
+        "originContent": "| --- | --- |",
+        "translatedContent": "| --- | --- |"
+      },
+      {
+        "row": 17,
+        "rowsha": "lTpevRQvrbSU50Jaw1/fEF6O4iIIisiwNlB8AmSHPdQ=",
+        "originContent": "| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |",
+        "translatedContent": "| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |"
+      },
+      {
+        "row": 18,
+        "rowsha": "kiEaf628QkSL+ZDoHED0nUIj+WihWRfI4QRAIW0eoIw=",
+        "originContent": "| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |",
+        "translatedContent": "| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |"
+      },
+      {
+        "row": 19,
+        "rowsha": "3nw1ofRgglCPC0xLLK6c68kF0v9NajACumgJXxjdZWE=",
+        "originContent": "| Windows (Admin PowerShell) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |",
+        "translatedContent": "| Windows (PowerShell Admin) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |"
+      },
+      {
+        "row": 20,
+        "rowsha": "6MfWpEoze4QZOag5soSEnCiEFd8VYmen7j7Dz/aan6o=",
+        "originContent": "| OpenWrt | See [OpenWrt Installation](#openwrt-installation) |",
+        "translatedContent": "| OpenWrt | Ver [Instalación en OpenWrt](#openwrt-installation) |"
+      },
+      {
+        "row": 21,
+        "rowsha": "xw1RZZ9vvIbSKldjIBHattw/7UjGEMsU+N+OwJfUx4A=",
+        "originContent": "| Android | Download APK from [releases](https://github.com/LiuTangLei/tailscale-android/releases) |",
+        "translatedContent": "| Android | Descargar APK desde [releases](https://github.com/LiuTangLei/tailscale-android/releases) |"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "BUvKPTvfCLCNGmJqZLDt+r8rLWhdJn+mkGop1FbaB3I=",
+        "originContent": "- macOS: the installer uses CLI-only `tailscaled`. If the official Tailscale.app is detected, you'll be prompted to remove it to avoid conflicts.",
+        "translatedContent": "- macOS: el instalador usa solo CLI `tailscaled`. Si se detecta la app oficial Tailscale.app, se te pedirá eliminarla para evitar conflictos."
+      },
+      {
+        "row": 24,
+        "rowsha": "prcnfw/pQJdFMQgTocx4Ho4a41tVtaokkyz7meOWBB4=",
+        "originContent": "- Android currently supports AWG config sync only. Use the in-app Sync button.",
+        "translatedContent": "- Android actualmente solo soporta sincronización de configuración AWG. Usa el botón Sincronizar dentro de la app."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "vXJsbwf55pd1WsZCvPFLy/e/6xt9iQgyeXRzonkvCOU=",
+        "originContent": "![Android AWG Sync Example](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)",
+        "translatedContent": "![Ejemplo de sincronización AWG en Android](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "JVdPOGhQTDFtOhCoxj/9OBUP+KuuP7uqioEjQNmkPwg=",
+        "originContent": "## Docker Compose",
+        "translatedContent": "## Docker Compose"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Gi6vxkps3YgOHzoasZ77hm62YKKE9RM8CqHOPb+MHtg=",
+        "originContent": "The repository includes `docker-compose.yml` for running `tailscaled` with AWG support.",
+        "translatedContent": "El repositorio incluye `docker-compose.yml` para ejecutar `tailscaled` con soporte AWG."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "VnVz/vGtfDU9rg+A549hvu94BKvRudOs/HgsFHNudjU=",
+        "originContent": "- State is stored in `./tailscale-state` next to the compose file, so node state and AWG settings survive container restarts and host reboots.",
+        "translatedContent": "- El estado se guarda en `./tailscale-state` junto al archivo compose, por lo que el estado del nodo y las configuraciones AWG sobreviven a reinicios del contenedor y del host."
+      },
+      {
+        "row": 33,
+        "rowsha": "Q1ikOtr0MN1fnusclGxBZRcCW4UgK3YbZIJSP+JcXMY=",
+        "originContent": "- If you are upgrading from the old bind mount `/var/lib/tailscale:/var/lib/tailscale`, copy the existing state first:",
+        "translatedContent": "- Si actualizas desde el antiguo montaje de enlace `/var/lib/tailscale:/var/lib/tailscale`, copia primero el estado existente:"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ndocker compose down\ncp -a /var/lib/tailscale ./tailscale-state\n# update docker-compose.yml\ndocker compose up -d\n```",
+    "ContentSha": "yyb0g4p7bITAFEdYmNvArY/FTvHaAYn2KbqmLBfmppU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker compose down\ncp -a /var/lib/tailscale ./tailscale-state\n# update docker-compose.yml\ndocker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "S1liYkd3uyFdM3h2rNNJle/dCrlxHntvv5PoefrDyeo=",
+        "originContent": "docker compose down",
+        "translatedContent": "docker compose down"
+      },
+      {
+        "row": 3,
+        "rowsha": "bcoEEVSAigg4tcoBLH7leW9haz+WSJWuiZNStOesapQ=",
+        "originContent": "cp -a /var/lib/tailscale ./tailscale-state",
+        "translatedContent": "cp -a /var/lib/tailscale ./tailscale-state"
+      },
+      {
+        "row": 4,
+        "rowsha": "W7LTFRILwArYhdOlURr/+AQvxyY4a5l028Tl6kDMRzk=",
+        "originContent": "# update docker-compose.yml",
+        "translatedContent": "# update docker-compose.yml"
+      },
+      {
+        "row": 5,
+        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+        "originContent": "docker compose up -d",
+        "translatedContent": "docker compose up -d"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nBasic flow:\n\n1. Start the service: `docker compose up -d`\n2. Authenticate inside the container: `docker compose exec tailscaled tailscale up`\n3. Run AWG commands the same way, for example: `docker compose exec tailscaled tailscale awg sync`\n\nIf you use Headscale, add `--login-server https://your-headscale-domain` to `tailscale up`.\n\nOptional host alias:\n",
+    "ContentSha": "uhvFbZx/mqVkfp6o8NKpO4GGca2q77EpJ730OurvwzI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nFlujo básico:\n\n1. Inicie el servicio: `docker compose up -d`\n2. Autentíquese dentro del contenedor: `docker compose exec tailscaled tailscale up`\n3. Ejecute los comandos AWG de la misma manera, por ejemplo: `docker compose exec tailscaled tailscale awg sync`\n\nSi utiliza Headscale, agregue `--login-server https://your-headscale-domain` a `tailscale up`.\n\nAlias opcional del host:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5jBdL+XQMl9rjrygJw2tu1qie6X1+p40uihWvi3KYDE=",
+        "originContent": "Basic flow:",
+        "translatedContent": "Flujo básico:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9neW0kr3wDUCb9yLLzPi1ovxZFgvudvog8mBpjl5Gp4=",
+        "originContent": "1. Start the service: `docker compose up -d`",
+        "translatedContent": "1. Inicie el servicio: `docker compose up -d`"
+      },
+      {
+        "row": 5,
+        "rowsha": "qxAVVivO3GAg7ZX8tvIkXkk/YOtYQV8k+be1J0y1cV8=",
+        "originContent": "2. Authenticate inside the container: `docker compose exec tailscaled tailscale up`",
+        "translatedContent": "2. Autentíquese dentro del contenedor: `docker compose exec tailscaled tailscale up`"
+      },
+      {
+        "row": 6,
+        "rowsha": "t6rWpd0sUkGPMwLXkoEc15IKNPS5lFpuRfkhQNX4UgY=",
+        "originContent": "3. Run AWG commands the same way, for example: `docker compose exec tailscaled tailscale awg sync`",
+        "translatedContent": "3. Ejecute los comandos AWG de la misma manera, por ejemplo: `docker compose exec tailscaled tailscale awg sync`"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "18imqI4uEHxFwibA2PP5k8vEqO0JNbFLvO0tUWrPkUg=",
+        "originContent": "If you use Headscale, add `--login-server https://your-headscale-domain` to `tailscale up`.",
+        "translatedContent": "Si utiliza Headscale, agregue `--login-server https://your-headscale-domain` a `tailscale up`."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "MY1ZYUxWgDYMnUHszfjLa8szFroX+/Z3BCtLdGN/slg=",
+        "originContent": "Optional host alias:",
+        "translatedContent": "Alias opcional del host:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nalias tailscale='docker exec -it tailscaled tailscale'\n```",
+    "ContentSha": "OXI2lb6FBuWoc7eOuudT4RHcoG+gnCNTEiq3nPHGdWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nalias tailscale='docker exec -it tailscaled tailscale'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "k3gc7uoSaXaBBYK9liSlU7MWRHcHGfYpT6UrwZTyctw=",
+        "originContent": "alias tailscale='docker exec -it tailscaled tailscale'",
+        "translatedContent": "alias tailscale='docker exec -it tailscaled tailscale'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThat alias only applies to the current shell. To keep it after reboot or a new terminal session, add it to `~/.bashrc` or `~/.zshrc` and reload your shell.\n\n## OpenWrt Installation\n\nDefault command:\n",
+    "ContentSha": "xy9ulImQdQO2A+Wopbbaj/x5bB/dfzZWqqjj0G2T9xI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEse alias solo se aplica a la shell actual. Para conservarlo después de un reinicio o una nueva sesión de terminal, agrégalo a `~/.bashrc` o `~/.zshrc` y recarga tu shell.\n\n## Instalación de OpenWrt\n\nComando predeterminado:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "H42Y6Mmg4zoT3XVID9AlCUJOGfvABXgqV+pyoxe9JYA=",
+        "originContent": "That alias only applies to the current shell. To keep it after reboot or a new terminal session, add it to `~/.bashrc` or `~/.zshrc` and reload your shell.",
+        "translatedContent": "Ese alias solo se aplica a la shell actual. Para conservarlo después de un reinicio o una nueva sesión de terminal, agrégalo a `~/.bashrc` o `~/.zshrc` y recarga tu shell."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GT9JaybK6RWjs4Txxpf3+BoxomRbbZU82HTLg/URrEo=",
+        "originContent": "## OpenWrt Installation",
+        "translatedContent": "## Instalación de OpenWrt"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "oRTzkeNzarXsSGkG7HfbEZ6nQJot2fSiTaet5cETOfQ=",
+        "originContent": "Default command:",
+        "translatedContent": "Comando predeterminado:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nwget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "ContentSha": "D0R/5E8w7hJDnpE8mJ3e+kc4bUgrCpon1y0MTvq1ql8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bBEoGF9Fqw6ytyEAEzBRQz09mObFdx9MWVBr/BjsWHU=",
+        "originContent": "wget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh",
+        "translatedContent": "wget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nMirror command for regions with restricted GitHub access:\n",
+    "ContentSha": "S6voxIyffgxR9hMIdfMXG/OYfVTD2aIqGRszGc5jTQs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nComando mirror para regiones con acceso restringido a GitHub:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EnAYD7A+505Xz3ntCvxdccwzs4/bJ/aR9g9VMAy5QbI=",
+        "originContent": "Mirror command for regions with restricted GitHub access:",
+        "translatedContent": "Comando mirror para regiones con acceso restringido a GitHub:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nwget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "ContentSha": "VaKJEyViMF283mKTdUwYLIBdYEUAfyBi5K4TijiEu3c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "wwqxLc+RDDu+BghUcAV9S3Lk1U0BQufn+Xwm83FUZtM=",
+        "originContent": "wget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh",
+        "translatedContent": "wget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThis script is forked from [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale).\n\n## Mirrors\n\nIf GitHub is slow or blocked, you can self-host a prefix mirror such as `https://your-mirror-site.com`:\n",
+    "ContentSha": "6JXlg38Dgesu7yeo4JPITQcqPhi/JyB6uFwdwQ9QVJA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEste script es un fork de [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale).\n\n## Espejos\n\nSi GitHub está lento o bloqueado, puedes alojar un espejo de prefijo como `https://tu-sitio-espejo.com`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y6NMEV7oucEaVG9wKiv038OyzE4mHVysU1HpgmREe6c=",
+        "originContent": "This script is forked from [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale).",
+        "translatedContent": "Este script es un fork de [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale)."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "q8oAr/FOrB84MlYNCh0sR3jXz0EOmQMsCsCpK73x3J4=",
+        "originContent": "## Mirrors",
+        "translatedContent": "## Espejos"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "E2yAtKo8kYsFgTyT8Cv97FkK81bSHHy8VfSAgmC3c1Q=",
+        "originContent": "If GitHub is slow or blocked, you can self-host a prefix mirror such as `https://your-mirror-site.com`:",
+        "translatedContent": "Si GitHub está lento o bloqueado, puedes alojar un espejo de prefijo como `https://tu-sitio-espejo.com`:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Linux\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com\n\n# macOS\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com\n```",
+    "ContentSha": "7BXYPvHiDuI4Rfhi+UqU3wewaOATK0buTZmq2ZZ6O+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Linux\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com\n\n# macOS\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pj6eYkEuhAuM5E8ZCLsEiIUaUlEkBhcEFaHAWFlK7WI=",
+        "originContent": "# Linux",
+        "translatedContent": "# Linux"
+      },
+      {
+        "row": 3,
+        "rowsha": "OVQ1keFk03qVhTM6BK2IurIyiKeKwL4jpFbnS+0J9Zk=",
+        "originContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com",
+        "translatedContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "D5wrC6UXe7biI3JRX8ojLq5QkT551gR3gO5iGuE/pcY=",
+        "originContent": "# macOS",
+        "translatedContent": "# macOS"
+      },
+      {
+        "row": 6,
+        "rowsha": "zSZbWQNxDn97DAbYLeg5uOh32mW9ZMqGnzw0bCAt6ag=",
+        "originContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com",
+        "translatedContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```powershell\n# Windows\n$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'\n```",
+    "ContentSha": "GGqKFC99JBmbUay2eSbLZBwYvTdZ6AluhuklhHoesD4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\n# Windows\n$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "6g77R+87Tp06hLhJBe/PKEv463ABlZJ6d0wOUUsUDY4=",
+        "originContent": "# Windows",
+        "translatedContent": "# Windows"
+      },
+      {
+        "row": 3,
+        "rowsha": "fSEgmGoPSaODOtGNrJgakVDhQ64vNIO369WkAa9ShLo=",
+        "originContent": "$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'",
+        "translatedContent": "$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nIf PowerShell blocks execution, use `Set-ExecutionPolicy RemoteSigned` or `Bypass -Scope Process`.\n\n## Quick Start\n\nTip: `tailscale amnezia-wg` is the same as `tailscale awg`.\n\n1. Log in:\n",
+    "ContentSha": "2OBCA6kWybHO8WNBXAMdgYZagMv8J2t+fUHLgqUeSns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi PowerShell bloquea la ejecución, use `Set-ExecutionPolicy RemoteSigned` o `Bypass -Scope Process`.\n\n## Inicio rápido\n\nConsejo: `tailscale amnezia-wg` es lo mismo que `tailscale awg`.\n\n1. Inicie sesión:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wNi7yYPdz5cNdJPx7K3sxaG8pECefI2063Ux50ICL0w=",
+        "originContent": "If PowerShell blocks execution, use `Set-ExecutionPolicy RemoteSigned` or `Bypass -Scope Process`.",
+        "translatedContent": "Si PowerShell bloquea la ejecución, use `Set-ExecutionPolicy RemoteSigned` o `Bypass -Scope Process`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Inicio rápido"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "9WDgFdCRfvn7SxiE0HRFQ7hiQZDirsjrJ6q7sKCzDHw=",
+        "originContent": "Tip: `tailscale amnezia-wg` is the same as `tailscale awg`.",
+        "translatedContent": "Consejo: `tailscale amnezia-wg` es lo mismo que `tailscale awg`."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6pbJmjoy/E66NSznEKrZrnxQCNFDVwHVLC3ULUhe1Jg=",
+        "originContent": "1. Log in:",
+        "translatedContent": "1. Inicie sesión:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# Official control server\ntailscale up\n\n# Headscale\ntailscale up --login-server https://your-headscale-domain\n```",
+    "ContentSha": "7PQsKSD0ZTy7r7YyeWWZ5GIk1q6/Cgns/JBiyOJk5EU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Official control server\ntailscale up\n\n# Headscale\ntailscale up --login-server https://your-headscale-domain\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "C5yVfB8ypJtKayeyUtgipHw5fXo2SdGub5DTjTSaHVo=",
+        "originContent": "# Official control server",
+        "translatedContent": "# Official control server"
+      },
+      {
+        "row": 3,
+        "rowsha": "BETwZ5EYxpVQ6k314eFITJNQVoicUfAgssUZ0aXqkWQ=",
+        "originContent": "tailscale up",
+        "translatedContent": "tailscale up"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "FPmTJ4U0N/a7ggBz2WsYiT/1Oiiybil8DYEwAHK+JsA=",
+        "originContent": "# Headscale",
+        "translatedContent": "# Headscale"
+      },
+      {
+        "row": 6,
+        "rowsha": "yyR8wpWYgfgJncsLiz5bP7c5AKP3KWPdFz/4WM+lqs0=",
+        "originContent": "tailscale up --login-server https://your-headscale-domain",
+        "translatedContent": "tailscale up --login-server https://your-headscale-domain"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n2. Configure AWG:\n",
+    "ContentSha": "jjiMH0ui7X0vXQySV3+UvtcRFbqOJLXAdR+j8WQFgl0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Configure AWG:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xoACKIaqHWsKrT1Z/GFKf59cL7zMRbtWObk37SlqJyo=",
+        "originContent": "2. Configure AWG:",
+        "translatedContent": "2. Configure AWG:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\ntailscale awg set\n```",
+    "ContentSha": "nCbTTkAAUlS7DauO1iO/z23QBSl0CqR72YNvzLKkLcI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale awg set\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z3qslWdVfCqbAyw3IfuxG9xjsXdL2gCm8c0PRya/QFo=",
+        "originContent": "tailscale awg set",
+        "translatedContent": "tailscale awg set"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nPress Enter at the auto-generation prompt to generate recommended values for everything except `i1`-`i5`.\n\n3. On other devices, sync the same AWG config from this already-configured node:\n\n- Desktop: run `tailscale awg sync` on the other device\n- Android: tap Sync in the app on the other device\n\n4. Verify or reset when needed:\n",
+    "ContentSha": "fDnS7UcZi1cHbfXIaMztGOWmkL+FhFPUyDEcBu59RTU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPresione Enter en el aviso de auto-generación para generar valores recomendados para todo excepto `i1`-`i5`.\n\n3. En otros dispositivos, sincronice la misma configuración AWG desde este nodo ya configurado:\n\n- Escritorio: ejecute `tailscale awg sync` en el otro dispositivo\n- Android: toque Sincronizar en la aplicación del otro dispositivo\n\n4. Verifique o restablezca cuando sea necesario:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JzezUEj8Fsdd7S4tyU9A8ODh7F46GEEz6qwTOFIXhYo=",
+        "originContent": "Press Enter at the auto-generation prompt to generate recommended values for everything except `i1`-`i5`.",
+        "translatedContent": "Presione Enter en el aviso de auto-generación para generar valores recomendados para todo excepto `i1`-`i5`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ck9aCBiJXd6UYomtMXyI+82R19EX0DD9GhqsMVpuoiM=",
+        "originContent": "3. On other devices, sync the same AWG config from this already-configured node:",
+        "translatedContent": "3. En otros dispositivos, sincronice la misma configuración AWG desde este nodo ya configurado:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "cbwemIrnwAUrbrL+uZPjIKoQbIikxHJPxeZC32gYKS4=",
+        "originContent": "- Desktop: run `tailscale awg sync` on the other device",
+        "translatedContent": "- Escritorio: ejecute `tailscale awg sync` en el otro dispositivo"
+      },
+      {
+        "row": 7,
+        "rowsha": "Lmu+Jqf4pl8VNGwtOsv/RGWF+39KALwsOZ6qZBX0u/E=",
+        "originContent": "- Android: tap Sync in the app on the other device",
+        "translatedContent": "- Android: toque Sincronizar en la aplicación del otro dispositivo"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1U8zZCOCtmxMDvzhJo27KiOyE2tdRoPaB5myMBA8c2M=",
+        "originContent": "4. Verify or reset when needed:",
+        "translatedContent": "4. Verifique o restablezca cuando sea necesario:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\ntailscale awg get\ntailscale awg reset\n```",
+    "ContentSha": "tbtwxPGbQKWoIZXUCWmVztXXq6QkoVMz2iPgdfXlkD0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale awg get\ntailscale awg reset\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "YZWPtPIsOwrcQI+t5t+VOGWe9+QimkIq5HwXba1aPLk=",
+        "originContent": "tailscale awg get",
+        "translatedContent": "tailscale awg get"
+      },
+      {
+        "row": 3,
+        "rowsha": "o++VsKznx0UdRVrxxKGfvA/dvA6JsXY3XF811FY66F8=",
+        "originContent": "tailscale awg reset",
+        "translatedContent": "tailscale awg reset"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## Configuration Presets\n\n| Goal | Example | Compatibility |\n| --- | --- | --- |\n| Basic junk traffic | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | Works with standard Tailscale peers |\n| Junk traffic + signatures | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | Works with standard Tailscale peers |\n| Handshake masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | All AWG nodes must use the same `s1`-`s4` |\n| Full masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | All AWG nodes must use the same `s1`-`s4` and `h1`-`h4` |\n| Full masquerading + signatures | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5` may differ per node; `s1`-`s4` and `h1`-`h4` must match |\n\n## Parameter Reference\n\n- `jc` with `jmin` and `jmax`: junk packet count and size range.\n- `i1`-`i5`: optional CPS (Custom Protocol Signature) chain for custom protocol-mimicking packets.\n- `s1`-`s4`: handshake padding or prefix fields; all AWG nodes must match.\n- `h1`-`h4`: header field ranges in the form `{\"min\": low, \"max\": high}`; either set all four or none. The ranges must not overlap, and all AWG nodes must match.\n\nVery large junk counts or long signature chains increase latency and bandwidth usage.\n\n## Platform Support\n\n| Platform | Arch | Status |\n| --- | --- | --- |\n| Linux | x86_64, ARM64 | ✅ Full |\n| macOS | Intel, Apple Silicon | ✅ Full |\n| Windows | x86_64, ARM64 | ✅ Installer |\n| OpenWrt | Various | ✅ Script |\n| Android | ARM64, ARM | ✅ APK (sync-only AWG) |\n\n## Advanced: CPS Protocol Signatures\n\nCPS means Custom Protocol Signature. It lets you assemble custom obfuscation packets that can imitate arbitrary protocol headers; it is not limited to one specific protocol.\n\nCPS format:\n",
+    "ContentSha": "bgOth3AY6xFtX6+Q8sv6fuHkyQgt43JrpRKs/hVYBZQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Preajustes de Configuración\n\n| Objetivo | Ejemplo | Compatibilidad |\n| --- | --- | --- |\n| Tráfico basura básico | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | Funciona con pares estándar de Tailscale |\n| Tráfico basura + firmas | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | Funciona con pares estándar de Tailscale |\n| Simulación de handshake | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | Todos los nodos AWG deben usar el mismo `s1`-`s4` |\n| Simulación completa | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | Todos los nodos AWG deben usar el mismo `s1`-`s4` y `h1`-`h4` |\n| Simulación completa + firmas | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5` pueden variar por nodo; `s1`-`s4` y `h1`-`h4` deben coincidir |\n\n## Referencia de Parámetros\n\n- `jc` con `jmin` y `jmax`: cuenta de paquetes basura y rango de tamaño.\n- `i1`-`i5`: cadena CPS opcional (Firma de Protocolo Personalizado) para paquetes que imitan protocolos personalizados.\n- `s1`-`s4`: campos de relleno o prefijo del handshake; todos los nodos AWG deben coincidir.\n- `h1`-`h4`: rangos de campos de encabezado en la forma `{\"min\": bajo, \"max\": alto}`; se deben establecer los cuatro o ninguno. Los rangos no deben superponerse y todos los nodos AWG deben coincidir.\n\nCuentas muy grandes de basura o cadenas largas de firmas aumentan la latencia y el uso de ancho de banda.\n\n## Soporte de Plataforma\n\n| Plataforma | Arquitectura | Estado |\n| --- | --- | --- |\n| Linux | x86_64, ARM64 | ✅ Completo |\n| macOS | Intel, Apple Silicon | ✅ Completo |\n| Windows | x86_64, ARM64 | ✅ Instalador |\n| OpenWrt | Varias | ✅ Script |\n| Android | ARM64, ARM | ✅ APK (AWG solo sincronización) |\n\n## Avanzado: Firmas de Protocolo CPS\n\nCPS significa Firma de Protocolo Personalizado. Permite ensamblar paquetes de ofuscación personalizados que pueden imitar encabezados de protocolos arbitrarios; no está limitado a un protocolo específico.\n\nFormato CPS:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "D4XYXL+ng+nHTG11UCNorsK3Z2XRT4kgQEBPEkYiMG8=",
+        "originContent": "## Configuration Presets",
+        "translatedContent": "## Preajustes de Configuración"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KaYWb9YOv4yWX4pH0AAhlm+W72Qigx5X+FSX/iuFFYs=",
+        "originContent": "| Goal | Example | Compatibility |",
+        "translatedContent": "| Objetivo | Ejemplo | Compatibilidad |"
+      },
+      {
+        "row": 5,
+        "rowsha": "uOxIVVYHvGICEmxdtkLxHPiYFR+28qoZ0uKK6hnX5TI=",
+        "originContent": "| --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- |"
+      },
+      {
+        "row": 6,
+        "rowsha": "Tyunrm6SYJ/daDwYg8LYuxaldwHQBYVzJi5tzJHDass=",
+        "originContent": "| Basic junk traffic | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | Works with standard Tailscale peers |",
+        "translatedContent": "| Tráfico basura básico | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | Funciona con pares estándar de Tailscale |"
+      },
+      {
+        "row": 7,
+        "rowsha": "ELnvKRBeENGsVW+BuEomgo6g9QmT3bWvQJgqU4tMHDE=",
+        "originContent": "| Junk traffic + signatures | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | Works with standard Tailscale peers |",
+        "translatedContent": "| Tráfico basura + firmas | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | Funciona con pares estándar de Tailscale |"
+      },
+      {
+        "row": 8,
+        "rowsha": "BTDa2yH9Hc02uE+QKotNJSeRT3zvUMPzfWcoBPbe6pM=",
+        "originContent": "| Handshake masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | All AWG nodes must use the same `s1`-`s4` |",
+        "translatedContent": "| Simulación de handshake | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | Todos los nodos AWG deben usar el mismo `s1`-`s4` |"
+      },
+      {
+        "row": 9,
+        "rowsha": "0EzSj9OZ9lWbDFmLoXeN1fn3Gi2pExBcdhKcWFPv8HI=",
+        "originContent": "| Full masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | All AWG nodes must use the same `s1`-`s4` and `h1`-`h4` |",
+        "translatedContent": "| Simulación completa | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | Todos los nodos AWG deben usar el mismo `s1`-`s4` y `h1`-`h4` |"
+      },
+      {
+        "row": 10,
+        "rowsha": "nzWdQCdy6twCETJn8TuD58UEpKW1Otf5t3fzPzVuti8=",
+        "originContent": "| Full masquerading + signatures | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5` may differ per node; `s1`-`s4` and `h1`-`h4` must match |",
+        "translatedContent": "| Simulación completa + firmas | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5` pueden variar por nodo; `s1`-`s4` y `h1`-`h4` deben coincidir |"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "JTRAOy83hSgAaUvmv6EXj/8TpBBRvn1/lvdgOrJpY+g=",
+        "originContent": "## Parameter Reference",
+        "translatedContent": "## Referencia de Parámetros"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "7HX0M/G9mAd95wzrVGvwvSpsdz3PFOolzWScuIPoAhU=",
+        "originContent": "- `jc` with `jmin` and `jmax`: junk packet count and size range.",
+        "translatedContent": "- `jc` con `jmin` y `jmax`: cuenta de paquetes basura y rango de tamaño."
+      },
+      {
+        "row": 15,
+        "rowsha": "W4sQaAMExPotG+YSKm9fZmAUTleXmCiBwaD6auxYsQo=",
+        "originContent": "- `i1`-`i5`: optional CPS (Custom Protocol Signature) chain for custom protocol-mimicking packets.",
+        "translatedContent": "- `i1`-`i5`: cadena CPS opcional (Firma de Protocolo Personalizado) para paquetes que imitan protocolos personalizados."
+      },
+      {
+        "row": 16,
+        "rowsha": "vre34egHu86kWXvKxjmhNLi9nT3EGReh7aB0z1IukTw=",
+        "originContent": "- `s1`-`s4`: handshake padding or prefix fields; all AWG nodes must match.",
+        "translatedContent": "- `s1`-`s4`: campos de relleno o prefijo del handshake; todos los nodos AWG deben coincidir."
+      },
+      {
+        "row": 17,
+        "rowsha": "GCx8aQ1bLy+COxyefK1TKGgMgfgcUBTKOOzlmjzqBXk=",
+        "originContent": "- `h1`-`h4`: header field ranges in the form `{\"min\": low, \"max\": high}`; either set all four or none. The ranges must not overlap, and all AWG nodes must match.",
+        "translatedContent": "- `h1`-`h4`: rangos de campos de encabezado en la forma `{\"min\": bajo, \"max\": alto}`; se deben establecer los cuatro o ninguno. Los rangos no deben superponerse y todos los nodos AWG deben coincidir."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "dm1+r9jp26kOFHhr9/Mn5zxOWlc5JjC67/1P9Yul4Wk=",
+        "originContent": "Very large junk counts or long signature chains increase latency and bandwidth usage.",
+        "translatedContent": "Cuentas muy grandes de basura o cadenas largas de firmas aumentan la latencia y el uso de ancho de banda."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "OPrmm6f4GDGUFZTHm3BqmRxfO/Wz9GrkUsClwCqXVNI=",
+        "originContent": "## Platform Support",
+        "translatedContent": "## Soporte de Plataforma"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "TYylo8woZxGj0X2GaX9B2aLhwdBqsdtWK4DzCTT9PnU=",
+        "originContent": "| Platform | Arch | Status |",
+        "translatedContent": "| Plataforma | Arquitectura | Estado |"
+      },
+      {
+        "row": 24,
+        "rowsha": "uOxIVVYHvGICEmxdtkLxHPiYFR+28qoZ0uKK6hnX5TI=",
+        "originContent": "| --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- |"
+      },
+      {
+        "row": 25,
+        "rowsha": "Q2Y0CGdStTunq/3ZIuW6G96EkC3Mhp5IOMh4dUHNs2k=",
+        "originContent": "| Linux | x86_64, ARM64 | ✅ Full |",
+        "translatedContent": "| Linux | x86_64, ARM64 | ✅ Completo |"
+      },
+      {
+        "row": 26,
+        "rowsha": "JdsPbraQ2jACQBIWl2WOuK7BNwVk8/TH0ucBuPovJbg=",
+        "originContent": "| macOS | Intel, Apple Silicon | ✅ Full |",
+        "translatedContent": "| macOS | Intel, Apple Silicon | ✅ Completo |"
+      },
+      {
+        "row": 27,
+        "rowsha": "qtpi2HECSFSW/iYRmrbcIVGI7iXI+/pt5rEl9AHu9hI=",
+        "originContent": "| Windows | x86_64, ARM64 | ✅ Installer |",
+        "translatedContent": "| Windows | x86_64, ARM64 | ✅ Instalador |"
+      },
+      {
+        "row": 28,
+        "rowsha": "z9hS8kfNDJFgFImbeIe7ihJPZt1NzbqknJIOml4Ccp0=",
+        "originContent": "| OpenWrt | Various | ✅ Script |",
+        "translatedContent": "| OpenWrt | Varias | ✅ Script |"
+      },
+      {
+        "row": 29,
+        "rowsha": "+mYaB40BZqRzDOrLvRxoLssQQ7ORp4cs2w9f83H1TkI=",
+        "originContent": "| Android | ARM64, ARM | ✅ APK (sync-only AWG) |",
+        "translatedContent": "| Android | ARM64, ARM | ✅ APK (AWG solo sincronización) |"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "R6/KWCNY0RJ+0UxMaJJ7UaPX/gKBcXxsUr8kl5xw9xw=",
+        "originContent": "## Advanced: CPS Protocol Signatures",
+        "translatedContent": "## Avanzado: Firmas de Protocolo CPS"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "P7BUJ7CknaZJuj5ZaUIP4clff5LHQvbO7OxJhEttcLg=",
+        "originContent": "CPS means Custom Protocol Signature. It lets you assemble custom obfuscation packets that can imitate arbitrary protocol headers; it is not limited to one specific protocol.",
+        "translatedContent": "CPS significa Firma de Protocolo Personalizado. Permite ensamblar paquetes de ofuscación personalizados que pueden imitar encabezados de protocolos arbitrarios; no está limitado a un protocolo específico."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "z9NzDBfMeiVzEZZifKY7L3nM4aUor0PHQqJ2HPAF5dQ=",
+        "originContent": "CPS format:",
+        "translatedContent": "Formato CPS:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```text\ni{n} = <tag1><tag2>...<tagN>\n```",
+    "ContentSha": "0rtE9OTZypt5ewyhAcLyX33TwkzKcaDKOlCW5jre0Vw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\ni{n} = <tag1><tag2>...<tagN>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "RwOabXDVN5BkUowEV3Tv5TREvTnllpzkimsIwy9eeEQ=",
+        "originContent": "i{n} = <tag1><tag2>...<tagN>",
+        "translatedContent": "i{n} = <tag1><tag2>...<tagN>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nTags:\n\n- `<b 0xHEX>`: static bytes\n- `<r N>`: secure random bytes\n- `<c>`: counter\n- `<t>`: timestamp\n\nExample:\n",
+    "ContentSha": "ZbzYvHaP5lMapI+3P4173YXTPZahlAGD+n/yc/P747E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEtiquetas:\n\n- `<b 0xHEX>`: bytes estáticos\n- `<r N>`: bytes aleatorios seguros\n- `<c>`: contador\n- `<t>`: marca de tiempo\n\nEjemplo:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hlZY+IjyxQIprPMcf09BLf5EEq2pgsRZGmewd01FvQI=",
+        "originContent": "Tags:",
+        "translatedContent": "Etiquetas:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UVPxL1G/uWLey3+UE+A5KXcmTxSp1ycxuADZ5KMYKqk=",
+        "originContent": "- `<b 0xHEX>`: static bytes",
+        "translatedContent": "- `<b 0xHEX>`: bytes estáticos"
+      },
+      {
+        "row": 5,
+        "rowsha": "CcsGZi7P2IzohdQ/vTdD9v8vimJaEGdGi7xzlUoHnJ4=",
+        "originContent": "- `<r N>`: secure random bytes",
+        "translatedContent": "- `<r N>`: bytes aleatorios seguros"
+      },
+      {
+        "row": 6,
+        "rowsha": "IQ8/+YULHIDST34fi0D8vL5lORR42YPc8U9y5ZDTHXc=",
+        "originContent": "- `<c>`: counter",
+        "translatedContent": "- `<c>`: contador"
+      },
+      {
+        "row": 7,
+        "rowsha": "AN1iCkYs1Oww6u+MvRfmgskwDt/RDERhyUEUxNT6Nwg=",
+        "originContent": "- `<t>`: timestamp",
+        "translatedContent": "- `<t>`: marca de tiempo"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Ejemplo:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```text\ni1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>\n```",
+    "ContentSha": "ZkB5p1PyIMD9yWNX350ZLLGQGsURKdhSYygZv0SAdhM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\ni1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "Jfh8VaqJpz37TbotsusTXDsPETJ8e1R7pLR0JdMF3uQ=",
+        "originContent": "i1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>",
+        "translatedContent": "i1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nIf `i1` is unset, `i2`-`i5` are skipped.\n\n## Troubleshooting\n\nVerify installation:\n",
+    "ContentSha": "JnG8AIQ5lArUqrtgx9qMlvCp/GuoILEH1BHzNOk9L6g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Si `i1` no está configurado, se omiten `i2`-`i5`.\n\n## Solución de problemas\n\nVerifique la instalación:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Si `i1` no está configurado, se omiten `i2`-`i5`."
+      },
+      {
+        "row": 2,
+        "rowsha": "Ez6rXkrQhInTJW54hDYlCg7lyQW3bVbR7G/l1Hora1o=",
+        "originContent": "If `i1` is unset, `i2`-`i5` are skipped.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Solución de problemas"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Verifique la instalación:"
+      },
+      {
+        "row": 6,
+        "rowsha": "392SdYkz0VRxXk1hWwYRneAsELh9OofEyN7ouhfj86o=",
+        "originContent": "Verify installation:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\ntailscale version\ntailscale awg get\n```",
+    "ContentSha": "WMUh/WpVtW51mUW7EpMtlDzeCjUePJC77No6pSgfdqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale version\ntailscale awg get\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pE6uy+RH8Iim6tda6DixPzJxIcLdboeRsApcDCk1ffA=",
+        "originContent": "tailscale version",
+        "translatedContent": "tailscale version"
+      },
+      {
+        "row": 3,
+        "rowsha": "YZWPtPIsOwrcQI+t5t+VOGWe9+QimkIq5HwXba1aPLk=",
+        "originContent": "tailscale awg get",
+        "translatedContent": "tailscale awg get"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nIf connectivity breaks, reset to standard WireGuard and start from a simple preset:\n",
+    "ContentSha": "JuEWtcqAURVArMIOuUlOSoy2g2ixKavTMIahKJhjfSE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi la conectividad se interrumpe, restablezca a WireGuard estándar y comience desde una configuración simple:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1tDVFx3kbD/BijGLGPD4JjW+bYTP9ToEmGpYtGZan/c=",
+        "originContent": "If connectivity breaks, reset to standard WireGuard and start from a simple preset:",
+        "translatedContent": "Si la conectividad se interrumpe, restablezca a WireGuard estándar y comience desde una configuración simple:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bash\ntailscale awg reset\ntailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'\nsudo journalctl -u tailscaled -f\n```",
+    "ContentSha": "V3sxGBQxcvk9d81NGOzcC3QvZ/fTtgwwKh0oXoSSwI8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale awg reset\ntailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'\nsudo journalctl -u tailscaled -f\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "o++VsKznx0UdRVrxxKGfvA/dvA6JsXY3XF811FY66F8=",
+        "originContent": "tailscale awg reset",
+        "translatedContent": "tailscale awg reset"
+      },
+      {
+        "row": 3,
+        "rowsha": "GXryk1O1NM50O9rgoEkijyk+xz4WHqZ5L7FSaA14Wto=",
+        "originContent": "tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'",
+        "translatedContent": "tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'"
+      },
+      {
+        "row": 4,
+        "rowsha": "p4vqiCM30Jlol0hnSZHJJhViGYi+o5cf9PKQu43Lbgk=",
+        "originContent": "sudo journalctl -u tailscaled -f",
+        "translatedContent": "sudo journalctl -u tailscaled -f"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nOn Windows PowerShell, prefer interactive setup to avoid JSON escaping issues:\n",
+    "ContentSha": "+o+j6L+YeINE0+ssKj+Dmg+jQpW99/1TlOVN6iwu1vY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEn Windows PowerShell, prefiera la configuración interactiva para evitar problemas de escape JSON:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KJ8wKdXtGyKg6tKfA0EKQSUyuh/a/piS6jbmfRVx1HQ=",
+        "originContent": "On Windows PowerShell, prefer interactive setup to avoid JSON escaping issues:",
+        "translatedContent": "En Windows PowerShell, prefiera la configuración interactiva para evitar problemas de escape JSON:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```powershell\ntailscale awg set\n```",
+    "ContentSha": "ZQqUFtJSxAMh7tZMT19lp7crCFsDbGYBynSfp45zSfY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\ntailscale awg set\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z3qslWdVfCqbAyw3IfuxG9xjsXdL2gCm8c0PRya/QFo=",
+        "originContent": "tailscale awg set",
+        "translatedContent": "tailscale awg set"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n## Links & Support\n\n- Releases: <https://github.com/LiuTangLei/tailscale/releases>\n- Android APK: <https://github.com/LiuTangLei/tailscale-android/releases>\n- Installer issues: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>\n- Amnezia-WG docs: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>\n\n## License\n\nBSD 3-Clause License, same as upstream Tailscale.\n",
+    "ContentSha": "8m34LIJHImugbs5BoCL4SXLXlJwTbaqyM5mQnLMFsWQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Enlaces y Soporte\n\n- Lanzamientos: <https://github.com/LiuTangLei/tailscale/releases>\n- APK para Android: <https://github.com/LiuTangLei/tailscale-android/releases>\n- Problemas con el instalador: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>\n- Documentación Amnezia-WG: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>\n\n## Licencia\n\nLicencia BSD de 3 cláusulas, igual que el Tailscale original.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Enlaces y Soporte"
+      },
+      {
+        "row": 2,
+        "rowsha": "sHS6s8osd5Bvm8+HNHWH0VnDFLRRSPMWx0T2Ivx9+3A=",
+        "originContent": "## Links & Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Lanzamientos: <https://github.com/LiuTangLei/tailscale/releases>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TUFwmODXPq01WRl939nGorg09y+5yot4ZGWkvZ9FfQw=",
+        "originContent": "- Releases: <https://github.com/LiuTangLei/tailscale/releases>",
+        "translatedContent": "- APK para Android: <https://github.com/LiuTangLei/tailscale-android/releases>"
+      },
+      {
+        "row": 5,
+        "rowsha": "frNLtwj6KAwPIVv22Hi+UNWMGbcmZnykTm+e+3Wnr0w=",
+        "originContent": "- Android APK: <https://github.com/LiuTangLei/tailscale-android/releases>",
+        "translatedContent": "- Problemas con el instalador: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>"
+      },
+      {
+        "row": 6,
+        "rowsha": "0NXDCPcTs+wguI+b3GG1b5g57Dcm0ZEqixNgt8dBJhM=",
+        "originContent": "- Installer issues: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>",
+        "translatedContent": "- Documentación Amnezia-WG: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>"
+      },
+      {
+        "row": 7,
+        "rowsha": "2Rd0eJThEWi52i2USdwygDNNupQeadidVovOm62DhyQ=",
+        "originContent": "- Amnezia-WG docs: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 9,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Licencia BSD de 3 cláusulas, igual que el Tailscale original."
+      },
+      {
+        "row": 11,
+        "rowsha": "FTzyBGRDeBd+RXu3YMAh0khBsz+hto0ZrKjd1A0caP4=",
+        "originContent": "BSD 3-Clause License, same as upstream Tailscale.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

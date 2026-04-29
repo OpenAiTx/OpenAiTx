@@ -1,10 +1,12 @@
 # पुस्तक
-पुस्तक सामग्री से संबंधित, जिसमें विभिन्न प्रकार की ट्यूटोरियल, उपन्यास, दार्शनिक ग्रंथ आदि हजारों किताबें शामिल हैं, लगातार अपडेट हो रही हैं
+पुस्तक सामग्री से संबंधित, जिसमें विभिन्न ट्यूटोरियल, उपन्यास, दार्शनिक महान कृतियाँ आदि हज़ारों प्रकार की पुस्तकें शामिल हैं, लगातार अपडेट हो रही हैं
+
+📢 **संसाधन लिंक चैनल**: [https://t.me/dabaziyuan](https://t.me/dabaziyuan) - नवीनतम पूर्ण संसाधन लिंक प्राप्त करें
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=id)
 
 ----------------
-# [202510](https://raw.githubusercontent.com/mswnlz/book/main/202510.md) [202508](https://raw.githubusercontent.com/mswnlz/book/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/book/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md)
+# [202603](https://raw.githubusercontent.com/mswnlz/book/main/202603.md) [202510](https://raw.githubusercontent.com/mswnlz/book/main/202510.md) [202508](https://raw.githubusercontent.com/mswnlz/book/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/book/main/202507.md) [202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md) [202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md)
 
 
 ---------------
@@ -41,6 +43,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-29
 
 ---

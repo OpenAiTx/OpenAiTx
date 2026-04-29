@@ -1,0 +1,386 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GdG9JvhNRAzigMCQcFcU3WON5NhnPz8t0ncLm1eHyFs=",
+    "originContent": "# <p align=center>synology-drive</p>",
+    "translatedContent": "# <p align=center>synology-drive</p>"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "9DerXIVxYdf2z07PfAqoiUL44l8+CLgh0vSzUQKTaKg=",
+    "originContent": "Unofficial RPM package of Synology Drive Client <https://www.synology.com>.",
+    "translatedContent": "Synology Drive 客户端的非官方 RPM 包 <https://www.synology.com>。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "KNBL3xhk6OT5AKS0wzDAa5CP9laAlHqB4qI9TntzaIE=",
+    "originContent": "Since the package provided by FlatHub is not 100% functional and the method of converting deb to rpm by Alien requires a lot of manipulation. I decided to create myself a clean and 100% functional RPM package for Synology Drive Client.",
+    "translatedContent": "由于 FlatHub 提供的包功能不完全，且通过 Alien 将 deb 转换为 rpm 需要大量操作。于是我决定自己制作一个干净且功能 100% 完整的 Synology Drive 客户端 RPM 包。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "t16VCk6ohul4yoUR0OvlP6z9KRZUIUH0ZniEydC5wkc=",
+    "originContent": "I have include the file explorer Nautilus as dependency in order to have access to the share menu and to have the file sync status indicator (like on Windows or Ubuntu).\\",
+    "translatedContent": "我包含了文件管理器 Nautilus 作为依赖，以便访问共享菜单并显示文件同步状态指示器（类似 Windows 或 Ubuntu）。\\"
+  },
+  {
+    "row": 8,
+    "rowsha": "ga8QSEKspHwzmkqRuWZM7AE/Mn9hfpO4JeRt5O4RF7A=",
+    "originContent": "I also have include a GNOME shell extension as dependency in order to see the tray icon (works natively with KDE).\\",
+    "translatedContent": "我还包含了一个 GNOME shell 扩展作为依赖，以便显示托盘图标（KDE 原生支持）。\\"
+  },
+  {
+    "row": 9,
+    "rowsha": "qod71jAD16c/M+j9Wst4gHV0BN8IjGGmAQ8B3Ey62Ao=",
+    "originContent": "I have build a second package for user's which didn't use GNOME. It does not contain the two dependencies mentioned above (they can be installed later if you want).",
+    "translatedContent": "我构建了第二个包，适用于不使用 GNOME 的用户。该包不包含上述两个依赖（如果需要可后续安装）。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 14,
+    "rowsha": "iYbrmqD1c4wb/BF38pBgmh6NkCT9QfwGkJ3+dKWxd90=",
+    "originContent": "If you have previously installed Synology Drive Client with Alien or Flatpak (i.e. from another source than my repo), please ensure that they are uninstalled.",
+    "translatedContent": "如果之前通过 Alien 或 Flatpak（即非我的仓库来源）安装过 Synology Drive 客户端，请确保先卸载。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "YKP4LaVNpx44vkhCvIdZGVwxCXVDf2WH1aAA2sNZix4=",
+    "originContent": "If you like the project, do not hesitate to star the repository to support me, thank you!",
+    "translatedContent": "如果喜欢该项目，欢迎给仓库点星以支持我，谢谢！"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "V10LkSuAw992ip8fCTN7GLK+A1spqdibCAMwBTOKdfI=",
+    "originContent": "### Method 1: install from COPR repo (recommended to get updates)",
+    "translatedContent": "### 方法 1：从 COPR 仓库安装（推荐，便于更新）"
+  },
+  {
+    "row": 19,
+    "rowsha": "TWTj8zbAi6wh5/P8f1gsEZKS24MsxqvzQHna3jsOFHU=",
+    "originContent": "Page link : [COPR package](https://copr.fedorainfracloud.org/coprs/emixampp/synology-drive/).",
+    "translatedContent": "页面链接：[COPR 包](https://copr.fedorainfracloud.org/coprs/emixampp/synology-drive/)。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "aNBRN1yj+0tfzq7xFz4xZBo6h7rCNZetQ2onTJ4gUYk=",
+    "originContent": "1. `sudo dnf copr enable emixampp/synology-drive`",
+    "translatedContent": "1. `sudo dnf copr enable emixampp/synology-drive`"
+  },
+  {
+    "row": 22,
+    "rowsha": "qHRIAXiXkFBNh1rirx/6T5FuYUvUBIqHZL5XnB10bXc=",
+    "originContent": "2. For GNOME: `sudo dnf --refresh install synology-drive`",
+    "translatedContent": "2. GNOME 桌面：`sudo dnf --refresh install synology-drive`"
+  },
+  {
+    "row": 23,
+    "rowsha": "1KPNmVPhYsj+zUNFacUeGJh9/c50sgRy8Z05ZoAZRQU=",
+    "originContent": "3. For other desktop environments: `sudo dnf --refresh install synology-drive-noextra`",
+    "translatedContent": "3. 其他桌面环境：`sudo dnf --refresh install synology-drive-noextra`"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Mzv+lthB3iHf7WUraqu/M7ybnBc8GvKxKbZvv9dgTTI=",
+    "originContent": "### Method 2: build the package locally (no update)",
+    "translatedContent": "### 方法 2：本地构建包（无更新）"
+  },
+  {
+    "row": 26,
+    "rowsha": "4iFTLDW4yD096eAPgRtBaaqtKt9lxQt/oaEg+Z04BnI=",
+    "originContent": "1. Install build tools : `sudo dnf install rpm-build rpmdevtools`",
+    "translatedContent": "1. 安装构建工具：`sudo dnf install rpm-build rpmdevtools`"
+  },
+  {
+    "row": 27,
+    "rowsha": "344J1bfrrJcfbv7G/5qJCWb+dQjukNOOyVtAQClqxZ0=",
+    "originContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`",
+    "translatedContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`"
+  },
+  {
+    "row": 28,
+    "rowsha": "brp8nw63gALkeQz6PqX+hlkQpo4I0+VrfF2GnSLVfQI=",
+    "originContent": "3. `cd synology-drive`",
+    "translatedContent": "3. `cd synology-drive`"
+  },
+  {
+    "row": 29,
+    "rowsha": "7LN86qeNTNkjjHsjT6IsssCpC4982MRHkCDY8yPveRo=",
+    "originContent": "4. Optional, if you want to change the version:",
+    "translatedContent": "4. 可选，若想更改版本："
+  },
+  {
+    "row": 30,
+    "rowsha": "kEm5B0z/mRp72FaXUs41mGA5Zwyev36+BlpWjWlsE94=",
+    "originContent": "   1. Consult the [release notes](https://www.synology.com/en-global/releaseNote/SynologyDriveClient) and choose the desired version (>= 3.2.1-13271)",
+    "translatedContent": "   1. 查阅 [发布说明](https://www.synology.com/en-global/releaseNote/SynologyDriveClient)，选择所需版本（>= 3.2.1-13271）"
+  },
+  {
+    "row": 31,
+    "rowsha": "CAkEU+fjVB/JPBTzIOIy6FoPzRAQ6kpNQXSfghTHTgQ=",
+    "originContent": "   2. Edit the two first lines of `synology-drive.spec` or `synology-drive-noextra.spec`, depending on whether you are running GNOME or another desktop environement. ",
+    "translatedContent": "   2. 编辑 `synology-drive.spec` 或 `synology-drive-noextra.spec` 的前两行，视是否使用 GNOME 或其他桌面环境而定。"
+  },
+  {
+    "row": 32,
+    "rowsha": "an/m1kyFKK8FhsHtvdaNfohUoT8glo3H6vKiEnAXqe4=",
+    "originContent": "5. For GNOME:",
+    "translatedContent": "5. GNOME 桌面："
+  },
+  {
+    "row": 33,
+    "rowsha": "oFi0Uyad2K+idMl83Xs8o/pvj4Ud+AfaVcrB1hZ9hRY=",
+    "originContent": "   1. `spectool -g -R synology-drive.spec`",
+    "translatedContent": "   1. `spectool -g -R synology-drive.spec`"
+  },
+  {
+    "row": 34,
+    "rowsha": "H3qiUMdyH+3wINXyNg9iuEtdTUyfamVHX00aPC7/pV4=",
+    "originContent": "   2. `rpmbuild -ba synology-drive.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive.spec`"
+  },
+  {
+    "row": 35,
+    "rowsha": "JYGriG2/keOBWZ7BIHSD5809VS6wHPhNV+4uofCUqXY=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.x86_64.rpm`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.x86_64.rpm`"
+  },
+  {
+    "row": 36,
+    "rowsha": "Fvw6X7CSm6UAqcDUwDDfoqCYlVAWFqQBRTAXIelgsns=",
+    "originContent": "6. For other desktop environments: ",
+    "translatedContent": "6. 其他桌面环境："
+  },
+  {
+    "row": 37,
+    "rowsha": "oYB8eUMxax69sXBIfRoLuSlibcQ+cY6lu/TvbRAIRag=",
+    "originContent": "   1. `spectool -g -R synology-drive-noextra.spec`",
+    "translatedContent": "   1. `spectool -g -R synology-drive-noextra.spec`"
+  },
+  {
+    "row": 38,
+    "rowsha": "XZAGDgl1uTt14yO6VPcMQitOxrcfChmA/0r6MOc66lU=",
+    "originContent": "   2. `rpmbuild -ba synology-drive-noextra.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive-noextra.spec`"
+  },
+  {
+    "row": 39,
+    "rowsha": "odn/DK3PIzr2ew297na9ZM1EDlEbET0FYlz9ZQpmOuo=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.x86_64.rpm`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.x86_64.rpm`"
+  },
+  {
+    "row": 40,
+    "rowsha": "oIGY/iIkklIk/vqN83irVG+jd4FijxbHlMmbY4b3LXI=",
+    "originContent": "7. Clean build root : `rm -r ~/rpmbuild`",
+    "translatedContent": "7. 清理构建目录：`rm -r ~/rpmbuild`"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 实验性：为 Aarch64/ARM64 处理器（例如 Apple Silicon，Qualcomm Snapdragon）本地构建软件包"
+  },
+  {
+    "row": 42,
+    "rowsha": "cFA/3jTC/2Cighq2sW8TMBCj2TiZG0s3ri0j/EH9BP4=",
+    "originContent": "### Experimental: build the package locally for Aarch64/ARM64 processors (e.g. Apple Silicon, Qualcomm Snapdragon)",
+    "translatedContent": "1. 安装构建工具 ：`sudo dnf install rpm-build rpmdevtools`"
+  },
+  {
+    "row": 43,
+    "rowsha": "4iFTLDW4yD096eAPgRtBaaqtKt9lxQt/oaEg+Z04BnI=",
+    "originContent": "1. Install build tools : `sudo dnf install rpm-build rpmdevtools`",
+    "translatedContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`"
+  },
+  {
+    "row": 44,
+    "rowsha": "344J1bfrrJcfbv7G/5qJCWb+dQjukNOOyVtAQClqxZ0=",
+    "originContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`",
+    "translatedContent": "3. `cd synology-drive`"
+  },
+  {
+    "row": 45,
+    "rowsha": "brp8nw63gALkeQz6PqX+hlkQpo4I0+VrfF2GnSLVfQI=",
+    "originContent": "3. `cd synology-drive`",
+    "translatedContent": "4. 可选，如果您想更改版本："
+  },
+  {
+    "row": 46,
+    "rowsha": "7LN86qeNTNkjjHsjT6IsssCpC4982MRHkCDY8yPveRo=",
+    "originContent": "4. Optional, if you want to change the version:",
+    "translatedContent": "   1. 查阅 [发行说明](https://www.synology.com/en-global/releaseNote/SynologyDriveClient) 并选择所需版本（>= 3.2.1-13271）"
+  },
+  {
+    "row": 47,
+    "rowsha": "kEm5B0z/mRp72FaXUs41mGA5Zwyev36+BlpWjWlsE94=",
+    "originContent": "   1. Consult the [release notes](https://www.synology.com/en-global/releaseNote/SynologyDriveClient) and choose the desired version (>= 3.2.1-13271)",
+    "translatedContent": "   2. 编辑 `synology-drive.spec` 或 `synology-drive-noextra.spec` 的前两行，具体取决于您使用的是 GNOME 还是其他桌面环境。"
+  },
+  {
+    "row": 48,
+    "rowsha": "CAkEU+fjVB/JPBTzIOIy6FoPzRAQ6kpNQXSfghTHTgQ=",
+    "originContent": "   2. Edit the two first lines of `synology-drive.spec` or `synology-drive-noextra.spec`, depending on whether you are running GNOME or another desktop environement. ",
+    "translatedContent": "5. 对于 GNOME："
+  },
+  {
+    "row": 49,
+    "rowsha": "an/m1kyFKK8FhsHtvdaNfohUoT8glo3H6vKiEnAXqe4=",
+    "originContent": "5. For GNOME:",
+    "translatedContent": "   1. `spectool -g -R synology-drive-aarch64.spec`"
+  },
+  {
+    "row": 50,
+    "rowsha": "QhvH4DVzF81pGq2IybQ4G1Qha5IPyh2lX0WdmztMifM=",
+    "originContent": "   1. `spectool -g -R synology-drive-aarch64.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive-aarch64.spec`"
+  },
+  {
+    "row": 51,
+    "rowsha": "XApWPCoZqntxpbW+8U8858OLYuk50krOiAbF7C8XLzA=",
+    "originContent": "   2. `rpmbuild -ba synology-drive-aarch64.spec`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.aarch64.rpm`"
+  },
+  {
+    "row": 52,
+    "rowsha": "jJWN0Cu2+zCyShA5DQisv8gJXIkJQlY5zgFHxXpxwf8=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.aarch64.rpm`",
+    "translatedContent": "6. 对于其他桌面环境："
+  },
+  {
+    "row": 53,
+    "rowsha": "Fvw6X7CSm6UAqcDUwDDfoqCYlVAWFqQBRTAXIelgsns=",
+    "originContent": "6. For other desktop environments: ",
+    "translatedContent": "   1. `spectool -g -R synology-drive-aarch64-noextra.spec`"
+  },
+  {
+    "row": 54,
+    "rowsha": "nTuRmTtic5WyN/lCGJly2haA21Z7EBQ5pEFyUOAsvcE=",
+    "originContent": "   1. `spectool -g -R synology-drive-aarch64-noextra.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive-aarch64-noextra.spec`"
+  },
+  {
+    "row": 55,
+    "rowsha": "e5gltby/s/aDrmnGRu3GeAc3KlzbzBaIKP0sNUu0RNA=",
+    "originContent": "   2. `rpmbuild -ba synology-drive-aarch64-noextra.spec`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.aarch64.rpm`"
+  },
+  {
+    "row": 56,
+    "rowsha": "mbUyhLRpTkwtueeGaxCg3J/deIfOsVinZRooWe6uqIE=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.aarch64.rpm`",
+    "translatedContent": "7. 清理构建根目录 ：`rm -r ~/rpmbuild`"
+  },
+  {
+    "row": 57,
+    "rowsha": "oIGY/iIkklIk/vqN83irVG+jd4FijxbHlMmbY4b3LXI=",
+    "originContent": "7. Clean build root : `rm -r ~/rpmbuild`",
+    "translatedContent": "**注意**_**：此方案使用 FEX 模拟器。如果您使用的是 QEMU 模拟器，可能会出现问题，因为 binfmt_misc 只允许为 x86_64 二进制文件注册一个模拟器。"
+  },
+  {
+    "row": 58,
+    "rowsha": "Pj27s6+iuDErwKXicVHkZc+2RaarRQppxjOyH5qpDCM=",
+    "originContent": "**Attention**_**: This solution uses the FEX emulator. If you are using the QEMU emulator it will probalby break because binfmt_misc allows only one emulator to register for x86_64 binaries.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 法律信息"
+  },
+  {
+    "row": 60,
+    "rowsha": "kCmKhdSv5FwA2ts5drYd6TDUUs7MIdKa1ZSFqMDIMcI=",
+    "originContent": "## Legal information",
+    "translatedContent": "请参阅 [LICENSE](https://github.com/EmixamPP/synology-drive/blob/main/LICENSE)。"
+  },
+  {
+    "row": 61,
+    "rowsha": "nY7SYWdGdpb9GVf9pR+JMksVUST0joLe77PNPS4Zu3I=",
+    "originContent": "Consult the [LICENSE](https://github.com/EmixamPP/synology-drive/blob/main/LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本项目已获得 Synology Inc. 授权。"
+  },
+  {
+    "row": 63,
+    "rowsha": "Ds92wnltnm9VrySdCUtYEJWiv3gy6IQh13fnSZsbO5I=",
+    "originContent": "This project has been authorized by Synology Inc.",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

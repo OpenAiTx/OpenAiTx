@@ -1,0 +1,386 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GdG9JvhNRAzigMCQcFcU3WON5NhnPz8t0ncLm1eHyFs=",
+    "originContent": "# <p align=center>synology-drive</p>",
+    "translatedContent": "# <p align=center>synology-drive</p>"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "9DerXIVxYdf2z07PfAqoiUL44l8+CLgh0vSzUQKTaKg=",
+    "originContent": "Unofficial RPM package of Synology Drive Client <https://www.synology.com>.",
+    "translatedContent": "비공식 Synology Drive 클라이언트 RPM 패키지 <https://www.synology.com>."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "KNBL3xhk6OT5AKS0wzDAa5CP9laAlHqB4qI9TntzaIE=",
+    "originContent": "Since the package provided by FlatHub is not 100% functional and the method of converting deb to rpm by Alien requires a lot of manipulation. I decided to create myself a clean and 100% functional RPM package for Synology Drive Client.",
+    "translatedContent": "FlatHub에서 제공하는 패키지가 100% 기능하지 않고 Alien으로 deb를 rpm으로 변환하는 방법이 많은 조작을 요구하기 때문에, 저는 직접 깨끗하고 100% 기능하는 Synology Drive 클라이언트용 RPM 패키지를 만들기로 결정했습니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "t16VCk6ohul4yoUR0OvlP6z9KRZUIUH0ZniEydC5wkc=",
+    "originContent": "I have include the file explorer Nautilus as dependency in order to have access to the share menu and to have the file sync status indicator (like on Windows or Ubuntu).\\",
+    "translatedContent": "공유 메뉴에 접근하고 파일 동기화 상태 표시기를 사용하기 위해 파일 탐색기 Nautilus를 의존성으로 포함시켰습니다 (Windows나 Ubuntu에서처럼).\\"
+  },
+  {
+    "row": 8,
+    "rowsha": "ga8QSEKspHwzmkqRuWZM7AE/Mn9hfpO4JeRt5O4RF7A=",
+    "originContent": "I also have include a GNOME shell extension as dependency in order to see the tray icon (works natively with KDE).\\",
+    "translatedContent": "트레이 아이콘을 보기 위해 GNOME 셸 확장도 의존성으로 포함시켰습니다 (KDE에서는 기본적으로 작동).\\"
+  },
+  {
+    "row": 9,
+    "rowsha": "qod71jAD16c/M+j9Wst4gHV0BN8IjGGmAQ8B3Ey62Ao=",
+    "originContent": "I have build a second package for user's which didn't use GNOME. It does not contain the two dependencies mentioned above (they can be installed later if you want).",
+    "translatedContent": "GNOME을 사용하지 않는 사용자용으로 두 가지 의존성이 없는 두 번째 패키지를 빌드했습니다 (나중에 원하면 설치할 수 있습니다)."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 14,
+    "rowsha": "iYbrmqD1c4wb/BF38pBgmh6NkCT9QfwGkJ3+dKWxd90=",
+    "originContent": "If you have previously installed Synology Drive Client with Alien or Flatpak (i.e. from another source than my repo), please ensure that they are uninstalled.",
+    "translatedContent": "이전에 Alien 또는 Flatpak (즉, 제 저장소가 아닌 다른 출처)으로 Synology Drive 클라이언트를 설치한 경우, 반드시 제거했는지 확인하세요."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "YKP4LaVNpx44vkhCvIdZGVwxCXVDf2WH1aAA2sNZix4=",
+    "originContent": "If you like the project, do not hesitate to star the repository to support me, thank you!",
+    "translatedContent": "프로젝트가 마음에 들면, 저를 지원하기 위해 저장소에 별점을 주는 것을 망설이지 마세요, 감사합니다!"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "V10LkSuAw992ip8fCTN7GLK+A1spqdibCAMwBTOKdfI=",
+    "originContent": "### Method 1: install from COPR repo (recommended to get updates)",
+    "translatedContent": "### 방법 1: COPR 저장소에서 설치 (업데이트를 받기에 권장)"
+  },
+  {
+    "row": 19,
+    "rowsha": "TWTj8zbAi6wh5/P8f1gsEZKS24MsxqvzQHna3jsOFHU=",
+    "originContent": "Page link : [COPR package](https://copr.fedorainfracloud.org/coprs/emixampp/synology-drive/).",
+    "translatedContent": "페이지 링크 : [COPR 패키지](https://copr.fedorainfracloud.org/coprs/emixampp/synology-drive/)."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "aNBRN1yj+0tfzq7xFz4xZBo6h7rCNZetQ2onTJ4gUYk=",
+    "originContent": "1. `sudo dnf copr enable emixampp/synology-drive`",
+    "translatedContent": "1. `sudo dnf copr enable emixampp/synology-drive`"
+  },
+  {
+    "row": 22,
+    "rowsha": "qHRIAXiXkFBNh1rirx/6T5FuYUvUBIqHZL5XnB10bXc=",
+    "originContent": "2. For GNOME: `sudo dnf --refresh install synology-drive`",
+    "translatedContent": "2. GNOME용: `sudo dnf --refresh install synology-drive`"
+  },
+  {
+    "row": 23,
+    "rowsha": "1KPNmVPhYsj+zUNFacUeGJh9/c50sgRy8Z05ZoAZRQU=",
+    "originContent": "3. For other desktop environments: `sudo dnf --refresh install synology-drive-noextra`",
+    "translatedContent": "3. 다른 데스크탑 환경용: `sudo dnf --refresh install synology-drive-noextra`"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Mzv+lthB3iHf7WUraqu/M7ybnBc8GvKxKbZvv9dgTTI=",
+    "originContent": "### Method 2: build the package locally (no update)",
+    "translatedContent": "### 방법 2: 로컬에서 패키지 빌드 (업데이트 없음)"
+  },
+  {
+    "row": 26,
+    "rowsha": "4iFTLDW4yD096eAPgRtBaaqtKt9lxQt/oaEg+Z04BnI=",
+    "originContent": "1. Install build tools : `sudo dnf install rpm-build rpmdevtools`",
+    "translatedContent": "1. 빌드 도구 설치 : `sudo dnf install rpm-build rpmdevtools`"
+  },
+  {
+    "row": 27,
+    "rowsha": "344J1bfrrJcfbv7G/5qJCWb+dQjukNOOyVtAQClqxZ0=",
+    "originContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`",
+    "translatedContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`"
+  },
+  {
+    "row": 28,
+    "rowsha": "brp8nw63gALkeQz6PqX+hlkQpo4I0+VrfF2GnSLVfQI=",
+    "originContent": "3. `cd synology-drive`",
+    "translatedContent": "3. `cd synology-drive`"
+  },
+  {
+    "row": 29,
+    "rowsha": "7LN86qeNTNkjjHsjT6IsssCpC4982MRHkCDY8yPveRo=",
+    "originContent": "4. Optional, if you want to change the version:",
+    "translatedContent": "4. 선택 사항, 버전을 변경하고 싶다면:"
+  },
+  {
+    "row": 30,
+    "rowsha": "kEm5B0z/mRp72FaXUs41mGA5Zwyev36+BlpWjWlsE94=",
+    "originContent": "   1. Consult the [release notes](https://www.synology.com/en-global/releaseNote/SynologyDriveClient) and choose the desired version (>= 3.2.1-13271)",
+    "translatedContent": "   1. [릴리즈 노트](https://www.synology.com/en-global/releaseNote/SynologyDriveClient)를 확인하고 원하는 버전(>= 3.2.1-13271)을 선택하세요."
+  },
+  {
+    "row": 31,
+    "rowsha": "CAkEU+fjVB/JPBTzIOIy6FoPzRAQ6kpNQXSfghTHTgQ=",
+    "originContent": "   2. Edit the two first lines of `synology-drive.spec` or `synology-drive-noextra.spec`, depending on whether you are running GNOME or another desktop environement. ",
+    "translatedContent": "   2. GNOME을 사용하는지 다른 데스크탑 환경인지에 따라 `synology-drive.spec` 또는 `synology-drive-noextra.spec`의 처음 두 줄을 편집하세요."
+  },
+  {
+    "row": 32,
+    "rowsha": "an/m1kyFKK8FhsHtvdaNfohUoT8glo3H6vKiEnAXqe4=",
+    "originContent": "5. For GNOME:",
+    "translatedContent": "5. GNOME용:"
+  },
+  {
+    "row": 33,
+    "rowsha": "oFi0Uyad2K+idMl83Xs8o/pvj4Ud+AfaVcrB1hZ9hRY=",
+    "originContent": "   1. `spectool -g -R synology-drive.spec`",
+    "translatedContent": "   1. `spectool -g -R synology-drive.spec`"
+  },
+  {
+    "row": 34,
+    "rowsha": "H3qiUMdyH+3wINXyNg9iuEtdTUyfamVHX00aPC7/pV4=",
+    "originContent": "   2. `rpmbuild -ba synology-drive.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive.spec`"
+  },
+  {
+    "row": 35,
+    "rowsha": "JYGriG2/keOBWZ7BIHSD5809VS6wHPhNV+4uofCUqXY=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.x86_64.rpm`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.x86_64.rpm`"
+  },
+  {
+    "row": 36,
+    "rowsha": "Fvw6X7CSm6UAqcDUwDDfoqCYlVAWFqQBRTAXIelgsns=",
+    "originContent": "6. For other desktop environments: ",
+    "translatedContent": "6. 다른 데스크탑 환경용:"
+  },
+  {
+    "row": 37,
+    "rowsha": "oYB8eUMxax69sXBIfRoLuSlibcQ+cY6lu/TvbRAIRag=",
+    "originContent": "   1. `spectool -g -R synology-drive-noextra.spec`",
+    "translatedContent": "   1. `spectool -g -R synology-drive-noextra.spec`"
+  },
+  {
+    "row": 38,
+    "rowsha": "XZAGDgl1uTt14yO6VPcMQitOxrcfChmA/0r6MOc66lU=",
+    "originContent": "   2. `rpmbuild -ba synology-drive-noextra.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive-noextra.spec`"
+  },
+  {
+    "row": 39,
+    "rowsha": "odn/DK3PIzr2ew297na9ZM1EDlEbET0FYlz9ZQpmOuo=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.x86_64.rpm`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.x86_64.rpm`"
+  },
+  {
+    "row": 40,
+    "rowsha": "oIGY/iIkklIk/vqN83irVG+jd4FijxbHlMmbY4b3LXI=",
+    "originContent": "7. Clean build root : `rm -r ~/rpmbuild`",
+    "translatedContent": "7. 빌드 루트 정리 : `rm -r ~/rpmbuild`"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 실험적: Aarch64/ARM64 프로세서(예: Apple Silicon, Qualcomm Snapdragon)용 패키지를 로컬에서 빌드하기"
+  },
+  {
+    "row": 42,
+    "rowsha": "cFA/3jTC/2Cighq2sW8TMBCj2TiZG0s3ri0j/EH9BP4=",
+    "originContent": "### Experimental: build the package locally for Aarch64/ARM64 processors (e.g. Apple Silicon, Qualcomm Snapdragon)",
+    "translatedContent": "1. 빌드 도구 설치 : `sudo dnf install rpm-build rpmdevtools`"
+  },
+  {
+    "row": 43,
+    "rowsha": "4iFTLDW4yD096eAPgRtBaaqtKt9lxQt/oaEg+Z04BnI=",
+    "originContent": "1. Install build tools : `sudo dnf install rpm-build rpmdevtools`",
+    "translatedContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`"
+  },
+  {
+    "row": 44,
+    "rowsha": "344J1bfrrJcfbv7G/5qJCWb+dQjukNOOyVtAQClqxZ0=",
+    "originContent": "2. `git clone https://github.com/EmixamPP/synology-drive.git`",
+    "translatedContent": "3. `cd synology-drive`"
+  },
+  {
+    "row": 45,
+    "rowsha": "brp8nw63gALkeQz6PqX+hlkQpo4I0+VrfF2GnSLVfQI=",
+    "originContent": "3. `cd synology-drive`",
+    "translatedContent": "4. 선택 사항, 버전을 변경하려는 경우:"
+  },
+  {
+    "row": 46,
+    "rowsha": "7LN86qeNTNkjjHsjT6IsssCpC4982MRHkCDY8yPveRo=",
+    "originContent": "4. Optional, if you want to change the version:",
+    "translatedContent": "   1. [릴리스 노트](https://www.synology.com/en-global/releaseNote/SynologyDriveClient)를 참고하고 원하는 버전(>= 3.2.1-13271)을 선택하세요."
+  },
+  {
+    "row": 47,
+    "rowsha": "kEm5B0z/mRp72FaXUs41mGA5Zwyev36+BlpWjWlsE94=",
+    "originContent": "   1. Consult the [release notes](https://www.synology.com/en-global/releaseNote/SynologyDriveClient) and choose the desired version (>= 3.2.1-13271)",
+    "translatedContent": "   2. GNOME 또는 다른 데스크탑 환경을 사용하는지에 따라 `synology-drive.spec` 또는 `synology-drive-noextra.spec`의 처음 두 줄을 편집하세요."
+  },
+  {
+    "row": 48,
+    "rowsha": "CAkEU+fjVB/JPBTzIOIy6FoPzRAQ6kpNQXSfghTHTgQ=",
+    "originContent": "   2. Edit the two first lines of `synology-drive.spec` or `synology-drive-noextra.spec`, depending on whether you are running GNOME or another desktop environement. ",
+    "translatedContent": "5. GNOME용:"
+  },
+  {
+    "row": 49,
+    "rowsha": "an/m1kyFKK8FhsHtvdaNfohUoT8glo3H6vKiEnAXqe4=",
+    "originContent": "5. For GNOME:",
+    "translatedContent": "   1. `spectool -g -R synology-drive-aarch64.spec`"
+  },
+  {
+    "row": 50,
+    "rowsha": "QhvH4DVzF81pGq2IybQ4G1Qha5IPyh2lX0WdmztMifM=",
+    "originContent": "   1. `spectool -g -R synology-drive-aarch64.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive-aarch64.spec`"
+  },
+  {
+    "row": 51,
+    "rowsha": "XApWPCoZqntxpbW+8U8858OLYuk50krOiAbF7C8XLzA=",
+    "originContent": "   2. `rpmbuild -ba synology-drive-aarch64.spec`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.aarch64.rpm`"
+  },
+  {
+    "row": 52,
+    "rowsha": "jJWN0Cu2+zCyShA5DQisv8gJXIkJQlY5zgFHxXpxwf8=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-*.aarch64.rpm`",
+    "translatedContent": "6. 기타 데스크탑 환경용:"
+  },
+  {
+    "row": 53,
+    "rowsha": "Fvw6X7CSm6UAqcDUwDDfoqCYlVAWFqQBRTAXIelgsns=",
+    "originContent": "6. For other desktop environments: ",
+    "translatedContent": "   1. `spectool -g -R synology-drive-aarch64-noextra.spec`"
+  },
+  {
+    "row": 54,
+    "rowsha": "nTuRmTtic5WyN/lCGJly2haA21Z7EBQ5pEFyUOAsvcE=",
+    "originContent": "   1. `spectool -g -R synology-drive-aarch64-noextra.spec`",
+    "translatedContent": "   2. `rpmbuild -ba synology-drive-aarch64-noextra.spec`"
+  },
+  {
+    "row": 55,
+    "rowsha": "e5gltby/s/aDrmnGRu3GeAc3KlzbzBaIKP0sNUu0RNA=",
+    "originContent": "   2. `rpmbuild -ba synology-drive-aarch64-noextra.spec`",
+    "translatedContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.aarch64.rpm`"
+  },
+  {
+    "row": 56,
+    "rowsha": "mbUyhLRpTkwtueeGaxCg3J/deIfOsVinZRooWe6uqIE=",
+    "originContent": "   3. `sudo dnf install ~/rpmbuild/RPMS/x86_64/synology-drive-noextra-*.aarch64.rpm`",
+    "translatedContent": "7. 빌드 루트 정리 : `rm -r ~/rpmbuild`"
+  },
+  {
+    "row": 57,
+    "rowsha": "oIGY/iIkklIk/vqN83irVG+jd4FijxbHlMmbY4b3LXI=",
+    "originContent": "7. Clean build root : `rm -r ~/rpmbuild`",
+    "translatedContent": "**주의**_**: 이 솔루션은 FEX 에뮬레이터를 사용합니다. QEMU 에뮬레이터를 사용하는 경우 binfmt_misc가 x86_64 바이너리에 대해 하나의 에뮬레이터만 등록할 수 있기 때문에 아마 작동하지 않을 수 있습니다."
+  },
+  {
+    "row": 58,
+    "rowsha": "Pj27s6+iuDErwKXicVHkZc+2RaarRQppxjOyH5qpDCM=",
+    "originContent": "**Attention**_**: This solution uses the FEX emulator. If you are using the QEMU emulator it will probalby break because binfmt_misc allows only one emulator to register for x86_64 binaries.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 법적 정보"
+  },
+  {
+    "row": 60,
+    "rowsha": "kCmKhdSv5FwA2ts5drYd6TDUUs7MIdKa1ZSFqMDIMcI=",
+    "originContent": "## Legal information",
+    "translatedContent": "[LICENSE](https://github.com/EmixamPP/synology-drive/blob/main/LICENSE)를 참고하세요."
+  },
+  {
+    "row": 61,
+    "rowsha": "nY7SYWdGdpb9GVf9pR+JMksVUST0joLe77PNPS4Zu3I=",
+    "originContent": "Consult the [LICENSE](https://github.com/EmixamPP/synology-drive/blob/main/LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 프로젝트는 Synology Inc.의 승인을 받았습니다."
+  },
+  {
+    "row": 63,
+    "rowsha": "Ds92wnltnm9VrySdCUtYEJWiv3gy6IQh13fnSZsbO5I=",
+    "originContent": "This project has been authorized by Synology Inc.",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

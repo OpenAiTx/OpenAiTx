@@ -1,0 +1,1663 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Tailscale with Amnezia-WG 2.0 (v1.88.2+)\n\n[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)\n\nEnhanced Tailscale client with Amnezia-WG 2.0 obfuscation: junk traffic, protocol signatures, and handshake/header masquerading to resist DPI and blocking. Until you enable AWG settings, it behaves like standard Tailscale.\n\nLanguages: [English](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)\n\nFor AWG v1.5 documentation, see [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md).\n\n## Installation\n\n| Platform | Command / Action |\n| --- | --- |\n| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |\n| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |\n| Windows (Admin PowerShell) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |\n| OpenWrt | See [OpenWrt Installation](#openwrt-installation) |\n| Android | Download APK from [releases](https://github.com/LiuTangLei/tailscale-android/releases) |\n\n- macOS: the installer uses CLI-only `tailscaled`. If the official Tailscale.app is detected, you'll be prompted to remove it to avoid conflicts.\n- Android currently supports AWG config sync only. Use the in-app Sync button.\n\n![Android AWG Sync Example](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)\n\n## Docker Compose\n\nThe repository includes `docker-compose.yml` for running `tailscaled` with AWG support.\n\n- State is stored in `./tailscale-state` next to the compose file, so node state and AWG settings survive container restarts and host reboots.\n- If you are upgrading from the old bind mount `/var/lib/tailscale:/var/lib/tailscale`, copy the existing state first:\n",
+    "ContentSha": "QxOnI4U6Uz0P0aEl7iMY7cCYoWpiGfiH/fWk/VNq0D8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Amnezia-WG 2.0 (v1.88.2+)와 함께하는 Tailscale\n\n[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)\n[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)\n\nAmnezia-WG 2.0 난독화 기능이 추가된 향상된 Tailscale 클라이언트: 잡음 트래픽, 프로토콜 서명, 핸드셰이크/헤더 위장으로 DPI 및 차단에 대응합니다. AWG 설정을 활성화하기 전까지는 표준 Tailscale처럼 동작합니다.\n\n언어: [영어](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)\n\nAWG v1.5 문서는 [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md)를 참조하세요.\n\n## 설치\n\n| 플랫폼 | 명령 / 동작 |\n| --- | --- |\n| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |\n| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |\n| Windows (관리자 PowerShell) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |\n| OpenWrt | [OpenWrt 설치](#openwrt-installation) 참조 |\n| Android | [릴리즈](https://github.com/LiuTangLei/tailscale-android/releases)에서 APK 다운로드 |\n\n- macOS: 설치 프로그램은 CLI 전용 `tailscaled`를 사용합니다. 공식 Tailscale.app이 감지되면 충돌 방지를 위해 제거하라는 메시지가 표시됩니다.\n- Android는 현재 AWG 설정 동기화만 지원합니다. 앱 내의 동기화 버튼을 사용하세요.\n\n![Android AWG Sync Example](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)\n\n## Docker Compose\n\n이 저장소에는 AWG 지원과 함께 `tailscaled`를 실행하기 위한 `docker-compose.yml`이 포함되어 있습니다.\n\n- 상태는 compose 파일 옆의 `./tailscale-state`에 저장되므로 노드 상태와 AWG 설정이 컨테이너 재시작 및 호스트 재부팅 시에도 유지됩니다.\n- 이전에 바인드 마운트 `/var/lib/tailscale:/var/lib/tailscale`을 사용 중이었다면 기존 상태를 먼저 복사하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1gTq504NVxh7mzAxhIhpzvcFWW7vljPXH69mvptD96U=",
+        "originContent": "# Tailscale with Amnezia-WG 2.0 (v1.88.2+)",
+        "translatedContent": "# Amnezia-WG 2.0 (v1.88.2+)와 함께하는 Tailscale"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pDmBZIWez6CZk+gEbkn21cgIOW/w0gDr+BEBS+EFGsY=",
+        "originContent": "[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)",
+        "translatedContent": "[![GitHub Release](https://img.shields.io/github/v/release/LiuTangLei/tailscale)](https://github.com/LiuTangLei/tailscale/releases/latest)"
+      },
+      {
+        "row": 4,
+        "rowsha": "CL7MX3nmLw/dsnY1mguADqwO+8Azg8HuTu+m79vRo+A=",
+        "originContent": "[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)",
+        "translatedContent": "[![Platform Support](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20OpenWrt%20|%20Android-blue)](https://github.com/LiuTangLei/tailscale/releases/latest)"
+      },
+      {
+        "row": 5,
+        "rowsha": "l2CxmsqasFqQ4naqcO4/bfl9SGMSgaZX1VfQ19Em91c=",
+        "originContent": "[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-BSD--3--Clause-green)](LICENSE)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lIkX4ya9/JuZf0iRhkxIk7phfOoJbVLfNsoX1RUluK4=",
+        "originContent": "Enhanced Tailscale client with Amnezia-WG 2.0 obfuscation: junk traffic, protocol signatures, and handshake/header masquerading to resist DPI and blocking. Until you enable AWG settings, it behaves like standard Tailscale.",
+        "translatedContent": "Amnezia-WG 2.0 난독화 기능이 추가된 향상된 Tailscale 클라이언트: 잡음 트래픽, 프로토콜 서명, 핸드셰이크/헤더 위장으로 DPI 및 차단에 대응합니다. AWG 설정을 활성화하기 전까지는 표준 Tailscale처럼 동작합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "23238t3X2NdkUFCSBg2qbaTxIgDgWFMLSP7Dp3CkUI4=",
+        "originContent": "Languages: [English](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)",
+        "translatedContent": "언어: [영어](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/README.md) | [中文](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-zh.md) | [فارسی](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-fa.md) | [Русский](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-ru.md)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "gSZsx+P6lgXAaAcYWldqBP4ZTQrDpFl5HIqhDnEJglI=",
+        "originContent": "For AWG v1.5 documentation, see [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md).",
+        "translatedContent": "AWG v1.5 문서는 [doc/README-awg-v1.5.md](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/README-awg-v1.5.md)를 참조하세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "EtVg/oJt5dacNW3GvLl8G1evuXM0ptJv8juYQZ1OBFw=",
+        "originContent": "| Platform | Command / Action |",
+        "translatedContent": "| 플랫폼 | 명령 / 동작 |"
+      },
+      {
+        "row": 16,
+        "rowsha": "gx8R59cCa8JALkZK5nFKkyGPYiMhgFv7UznUi9VQ394=",
+        "originContent": "| --- | --- |",
+        "translatedContent": "| --- | --- |"
+      },
+      {
+        "row": 17,
+        "rowsha": "lTpevRQvrbSU50Jaw1/fEF6O4iIIisiwNlB8AmSHPdQ=",
+        "originContent": "| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |",
+        "translatedContent": "| Linux | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh \\| bash` |"
+      },
+      {
+        "row": 18,
+        "rowsha": "kiEaf628QkSL+ZDoHED0nUIj+WihWRfI4QRAIW0eoIw=",
+        "originContent": "| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |",
+        "translatedContent": "| macOS* | `curl -fsSL https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh \\| bash` |"
+      },
+      {
+        "row": 19,
+        "rowsha": "3nw1ofRgglCPC0xLLK6c68kF0v9NajACumgJXxjdZWE=",
+        "originContent": "| Windows (Admin PowerShell) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |",
+        "translatedContent": "| Windows (관리자 PowerShell) | `iwr -useb https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1 \\| iex` |"
+      },
+      {
+        "row": 20,
+        "rowsha": "6MfWpEoze4QZOag5soSEnCiEFd8VYmen7j7Dz/aan6o=",
+        "originContent": "| OpenWrt | See [OpenWrt Installation](#openwrt-installation) |",
+        "translatedContent": "| OpenWrt | [OpenWrt 설치](#openwrt-installation) 참조 |"
+      },
+      {
+        "row": 21,
+        "rowsha": "xw1RZZ9vvIbSKldjIBHattw/7UjGEMsU+N+OwJfUx4A=",
+        "originContent": "| Android | Download APK from [releases](https://github.com/LiuTangLei/tailscale-android/releases) |",
+        "translatedContent": "| Android | [릴리즈](https://github.com/LiuTangLei/tailscale-android/releases)에서 APK 다운로드 |"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "BUvKPTvfCLCNGmJqZLDt+r8rLWhdJn+mkGop1FbaB3I=",
+        "originContent": "- macOS: the installer uses CLI-only `tailscaled`. If the official Tailscale.app is detected, you'll be prompted to remove it to avoid conflicts.",
+        "translatedContent": "- macOS: 설치 프로그램은 CLI 전용 `tailscaled`를 사용합니다. 공식 Tailscale.app이 감지되면 충돌 방지를 위해 제거하라는 메시지가 표시됩니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "prcnfw/pQJdFMQgTocx4Ho4a41tVtaokkyz7meOWBB4=",
+        "originContent": "- Android currently supports AWG config sync only. Use the in-app Sync button.",
+        "translatedContent": "- Android는 현재 AWG 설정 동기화만 지원합니다. 앱 내의 동기화 버튼을 사용하세요."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "vXJsbwf55pd1WsZCvPFLy/e/6xt9iQgyeXRzonkvCOU=",
+        "originContent": "![Android AWG Sync Example](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)",
+        "translatedContent": "![Android AWG Sync Example](https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/doc/sync1.jpg)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "JVdPOGhQTDFtOhCoxj/9OBUP+KuuP7uqioEjQNmkPwg=",
+        "originContent": "## Docker Compose",
+        "translatedContent": "## Docker Compose"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Gi6vxkps3YgOHzoasZ77hm62YKKE9RM8CqHOPb+MHtg=",
+        "originContent": "The repository includes `docker-compose.yml` for running `tailscaled` with AWG support.",
+        "translatedContent": "이 저장소에는 AWG 지원과 함께 `tailscaled`를 실행하기 위한 `docker-compose.yml`이 포함되어 있습니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "VnVz/vGtfDU9rg+A549hvu94BKvRudOs/HgsFHNudjU=",
+        "originContent": "- State is stored in `./tailscale-state` next to the compose file, so node state and AWG settings survive container restarts and host reboots.",
+        "translatedContent": "- 상태는 compose 파일 옆의 `./tailscale-state`에 저장되므로 노드 상태와 AWG 설정이 컨테이너 재시작 및 호스트 재부팅 시에도 유지됩니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "Q1ikOtr0MN1fnusclGxBZRcCW4UgK3YbZIJSP+JcXMY=",
+        "originContent": "- If you are upgrading from the old bind mount `/var/lib/tailscale:/var/lib/tailscale`, copy the existing state first:",
+        "translatedContent": "- 이전에 바인드 마운트 `/var/lib/tailscale:/var/lib/tailscale`을 사용 중이었다면 기존 상태를 먼저 복사하세요:"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ndocker compose down\ncp -a /var/lib/tailscale ./tailscale-state\n# update docker-compose.yml\ndocker compose up -d\n```",
+    "ContentSha": "yyb0g4p7bITAFEdYmNvArY/FTvHaAYn2KbqmLBfmppU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker compose down\ncp -a /var/lib/tailscale ./tailscale-state\n# update docker-compose.yml\ndocker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "S1liYkd3uyFdM3h2rNNJle/dCrlxHntvv5PoefrDyeo=",
+        "originContent": "docker compose down",
+        "translatedContent": "docker compose down"
+      },
+      {
+        "row": 3,
+        "rowsha": "bcoEEVSAigg4tcoBLH7leW9haz+WSJWuiZNStOesapQ=",
+        "originContent": "cp -a /var/lib/tailscale ./tailscale-state",
+        "translatedContent": "cp -a /var/lib/tailscale ./tailscale-state"
+      },
+      {
+        "row": 4,
+        "rowsha": "W7LTFRILwArYhdOlURr/+AQvxyY4a5l028Tl6kDMRzk=",
+        "originContent": "# update docker-compose.yml",
+        "translatedContent": "# update docker-compose.yml"
+      },
+      {
+        "row": 5,
+        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+        "originContent": "docker compose up -d",
+        "translatedContent": "docker compose up -d"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nBasic flow:\n\n1. Start the service: `docker compose up -d`\n2. Authenticate inside the container: `docker compose exec tailscaled tailscale up`\n3. Run AWG commands the same way, for example: `docker compose exec tailscaled tailscale awg sync`\n\nIf you use Headscale, add `--login-server https://your-headscale-domain` to `tailscale up`.\n\nOptional host alias:\n",
+    "ContentSha": "uhvFbZx/mqVkfp6o8NKpO4GGca2q77EpJ730OurvwzI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "기본 흐름:\n\n1. 서비스를 시작합니다: `docker compose up -d`\n2. 컨테이너 내부에서 인증합니다: `docker compose exec tailscaled tailscale up`\n3. AWG 명령어를 동일하게 실행합니다, 예를 들어: `docker compose exec tailscaled tailscale awg sync`\n\nHeadscale을 사용하는 경우, `tailscale up`에 `--login-server https://your-headscale-domain`을 추가하세요.\n\n선택적 호스트 별칭:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "기본 흐름:"
+      },
+      {
+        "row": 2,
+        "rowsha": "5jBdL+XQMl9rjrygJw2tu1qie6X1+p40uihWvi3KYDE=",
+        "originContent": "Basic flow:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 서비스를 시작합니다: `docker compose up -d`"
+      },
+      {
+        "row": 4,
+        "rowsha": "9neW0kr3wDUCb9yLLzPi1ovxZFgvudvog8mBpjl5Gp4=",
+        "originContent": "1. Start the service: `docker compose up -d`",
+        "translatedContent": "2. 컨테이너 내부에서 인증합니다: `docker compose exec tailscaled tailscale up`"
+      },
+      {
+        "row": 5,
+        "rowsha": "qxAVVivO3GAg7ZX8tvIkXkk/YOtYQV8k+be1J0y1cV8=",
+        "originContent": "2. Authenticate inside the container: `docker compose exec tailscaled tailscale up`",
+        "translatedContent": "3. AWG 명령어를 동일하게 실행합니다, 예를 들어: `docker compose exec tailscaled tailscale awg sync`"
+      },
+      {
+        "row": 6,
+        "rowsha": "t6rWpd0sUkGPMwLXkoEc15IKNPS5lFpuRfkhQNX4UgY=",
+        "originContent": "3. Run AWG commands the same way, for example: `docker compose exec tailscaled tailscale awg sync`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Headscale을 사용하는 경우, `tailscale up`에 `--login-server https://your-headscale-domain`을 추가하세요."
+      },
+      {
+        "row": 8,
+        "rowsha": "18imqI4uEHxFwibA2PP5k8vEqO0JNbFLvO0tUWrPkUg=",
+        "originContent": "If you use Headscale, add `--login-server https://your-headscale-domain` to `tailscale up`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "선택적 호스트 별칭:"
+      },
+      {
+        "row": 10,
+        "rowsha": "MY1ZYUxWgDYMnUHszfjLa8szFroX+/Z3BCtLdGN/slg=",
+        "originContent": "Optional host alias:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nalias tailscale='docker exec -it tailscaled tailscale'\n```",
+    "ContentSha": "OXI2lb6FBuWoc7eOuudT4RHcoG+gnCNTEiq3nPHGdWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nalias tailscale='docker exec -it tailscaled tailscale'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "k3gc7uoSaXaBBYK9liSlU7MWRHcHGfYpT6UrwZTyctw=",
+        "originContent": "alias tailscale='docker exec -it tailscaled tailscale'",
+        "translatedContent": "alias tailscale='docker exec -it tailscaled tailscale'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThat alias only applies to the current shell. To keep it after reboot or a new terminal session, add it to `~/.bashrc` or `~/.zshrc` and reload your shell.\n\n## OpenWrt Installation\n\nDefault command:\n",
+    "ContentSha": "xy9ulImQdQO2A+Wopbbaj/x5bB/dfzZWqqjj0G2T9xI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n그 별칭은 현재 쉘에만 적용됩니다. 재부팅이나 새 터미널 세션 이후에도 유지하려면 `~/.bashrc` 또는 `~/.zshrc`에 추가하고 쉘을 다시 로드하세요.\n\n## OpenWrt 설치\n\n기본 명령:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "H42Y6Mmg4zoT3XVID9AlCUJOGfvABXgqV+pyoxe9JYA=",
+        "originContent": "That alias only applies to the current shell. To keep it after reboot or a new terminal session, add it to `~/.bashrc` or `~/.zshrc` and reload your shell.",
+        "translatedContent": "그 별칭은 현재 쉘에만 적용됩니다. 재부팅이나 새 터미널 세션 이후에도 유지하려면 `~/.bashrc` 또는 `~/.zshrc`에 추가하고 쉘을 다시 로드하세요."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GT9JaybK6RWjs4Txxpf3+BoxomRbbZU82HTLg/URrEo=",
+        "originContent": "## OpenWrt Installation",
+        "translatedContent": "## OpenWrt 설치"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "oRTzkeNzarXsSGkG7HfbEZ6nQJot2fSiTaet5cETOfQ=",
+        "originContent": "Default command:",
+        "translatedContent": "기본 명령:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nwget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "ContentSha": "D0R/5E8w7hJDnpE8mJ3e+kc4bUgrCpon1y0MTvq1ql8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bBEoGF9Fqw6ytyEAEzBRQz09mObFdx9MWVBr/BjsWHU=",
+        "originContent": "wget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh",
+        "translatedContent": "wget -O /usr/bin/install.sh https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install_en.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nMirror command for regions with restricted GitHub access:\n",
+    "ContentSha": "S6voxIyffgxR9hMIdfMXG/OYfVTD2aIqGRszGc5jTQs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "제한된 GitHub 접근 권한이 있는 지역을 위한 미러 명령어:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "제한된 GitHub 접근 권한이 있는 지역을 위한 미러 명령어:"
+      },
+      {
+        "row": 2,
+        "rowsha": "EnAYD7A+505Xz3ntCvxdccwzs4/bJ/aR9g9VMAy5QbI=",
+        "originContent": "Mirror command for regions with restricted GitHub access:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nwget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "ContentSha": "VaKJEyViMF283mKTdUwYLIBdYEUAfyBi5K4TijiEu3c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "wwqxLc+RDDu+BghUcAV9S3Lk1U0BQufn+Xwm83FUZtM=",
+        "originContent": "wget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh",
+        "translatedContent": "wget -O /usr/bin/install.sh https://ghfast.top/https://raw.githubusercontent.com/LiuTangLei/openwrt-tailscale-awg/main/install.sh && chmod +x /usr/bin/install.sh && /usr/bin/install.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThis script is forked from [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale).\n\n## Mirrors\n\nIf GitHub is slow or blocked, you can self-host a prefix mirror such as `https://your-mirror-site.com`:\n",
+    "ContentSha": "6JXlg38Dgesu7yeo4JPITQcqPhi/JyB6uFwdwQ9QVJA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이 스크립트는 [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale)에서 포크되었습니다.\n\n## 미러\n\nGitHub이 느리거나 차단된 경우, `https://your-mirror-site.com`과 같은 프리픽스 미러를 자체 호스팅할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 스크립트는 [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale)에서 포크되었습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "Y6NMEV7oucEaVG9wKiv038OyzE4mHVysU1HpgmREe6c=",
+        "originContent": "This script is forked from [GuNanOvO/openwrt-tailscale](https://github.com/GuNanOvO/openwrt-tailscale).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 미러"
+      },
+      {
+        "row": 4,
+        "rowsha": "q8oAr/FOrB84MlYNCh0sR3jXz0EOmQMsCsCpK73x3J4=",
+        "originContent": "## Mirrors",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "GitHub이 느리거나 차단된 경우, `https://your-mirror-site.com`과 같은 프리픽스 미러를 자체 호스팅할 수 있습니다:"
+      },
+      {
+        "row": 6,
+        "rowsha": "E2yAtKo8kYsFgTyT8Cv97FkK81bSHHy8VfSAgmC3c1Q=",
+        "originContent": "If GitHub is slow or blocked, you can self-host a prefix mirror such as `https://your-mirror-site.com`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Linux\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com\n\n# macOS\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com\n```",
+    "ContentSha": "7BXYPvHiDuI4Rfhi+UqU3wewaOATK0buTZmq2ZZ6O+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Linux\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com\n\n# macOS\ncurl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pj6eYkEuhAuM5E8ZCLsEiIUaUlEkBhcEFaHAWFlK7WI=",
+        "originContent": "# Linux",
+        "translatedContent": "# Linux"
+      },
+      {
+        "row": 3,
+        "rowsha": "OVQ1keFk03qVhTM6BK2IurIyiKeKwL4jpFbnS+0J9Zk=",
+        "originContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com",
+        "translatedContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-linux.sh | bash -s -- --mirror https://your-mirror-site.com"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "D5wrC6UXe7biI3JRX8ojLq5QkT551gR3gO5iGuE/pcY=",
+        "originContent": "# macOS",
+        "translatedContent": "# macOS"
+      },
+      {
+        "row": 6,
+        "rowsha": "zSZbWQNxDn97DAbYLeg5uOh32mW9ZMqGnzw0bCAt6ag=",
+        "originContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com",
+        "translatedContent": "curl -fsSL https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-macos.sh | bash -s -- --mirror https://your-mirror-site.com"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```powershell\n# Windows\n$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'\n```",
+    "ContentSha": "GGqKFC99JBmbUay2eSbLZBwYvTdZ6AluhuklhHoesD4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\n# Windows\n$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "6g77R+87Tp06hLhJBe/PKEv463ABlZJ6d0wOUUsUDY4=",
+        "originContent": "# Windows",
+        "translatedContent": "# Windows"
+      },
+      {
+        "row": 3,
+        "rowsha": "fSEgmGoPSaODOtGNrJgakVDhQ64vNIO369WkAa9ShLo=",
+        "originContent": "$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'",
+        "translatedContent": "$scriptContent = (iwr -useb https://your-mirror-site.com/https://raw.githubusercontent.com/LiuTangLei/tailscale-awg-installer/main/install-windows.ps1).Content; $scriptBlock = [scriptblock]::Create($scriptContent); & $scriptBlock -MirrorPrefix 'https://your-mirror-site.com/'"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nIf PowerShell blocks execution, use `Set-ExecutionPolicy RemoteSigned` or `Bypass -Scope Process`.\n\n## Quick Start\n\nTip: `tailscale amnezia-wg` is the same as `tailscale awg`.\n\n1. Log in:\n",
+    "ContentSha": "2OBCA6kWybHO8WNBXAMdgYZagMv8J2t+fUHLgqUeSns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "PowerShell이 실행을 차단하는 경우 `Set-ExecutionPolicy RemoteSigned` 또는 `Bypass -Scope Process`를 사용하십시오.\n\n## 빠른 시작\n\n팁: `tailscale amnezia-wg`는 `tailscale awg`와 동일합니다.\n\n1. 로그인:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PowerShell이 실행을 차단하는 경우 `Set-ExecutionPolicy RemoteSigned` 또는 `Bypass -Scope Process`를 사용하십시오."
+      },
+      {
+        "row": 2,
+        "rowsha": "wNi7yYPdz5cNdJPx7K3sxaG8pECefI2063Ux50ICL0w=",
+        "originContent": "If PowerShell blocks execution, use `Set-ExecutionPolicy RemoteSigned` or `Bypass -Scope Process`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 빠른 시작"
+      },
+      {
+        "row": 4,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "팁: `tailscale amnezia-wg`는 `tailscale awg`와 동일합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "9WDgFdCRfvn7SxiE0HRFQ7hiQZDirsjrJ6q7sKCzDHw=",
+        "originContent": "Tip: `tailscale amnezia-wg` is the same as `tailscale awg`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 로그인:"
+      },
+      {
+        "row": 8,
+        "rowsha": "6pbJmjoy/E66NSznEKrZrnxQCNFDVwHVLC3ULUhe1Jg=",
+        "originContent": "1. Log in:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# Official control server\ntailscale up\n\n# Headscale\ntailscale up --login-server https://your-headscale-domain\n```",
+    "ContentSha": "7PQsKSD0ZTy7r7YyeWWZ5GIk1q6/Cgns/JBiyOJk5EU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Official control server\ntailscale up\n\n# Headscale\ntailscale up --login-server https://your-headscale-domain\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "C5yVfB8ypJtKayeyUtgipHw5fXo2SdGub5DTjTSaHVo=",
+        "originContent": "# Official control server",
+        "translatedContent": "# Official control server"
+      },
+      {
+        "row": 3,
+        "rowsha": "BETwZ5EYxpVQ6k314eFITJNQVoicUfAgssUZ0aXqkWQ=",
+        "originContent": "tailscale up",
+        "translatedContent": "tailscale up"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "FPmTJ4U0N/a7ggBz2WsYiT/1Oiiybil8DYEwAHK+JsA=",
+        "originContent": "# Headscale",
+        "translatedContent": "# Headscale"
+      },
+      {
+        "row": 6,
+        "rowsha": "yyR8wpWYgfgJncsLiz5bP7c5AKP3KWPdFz/4WM+lqs0=",
+        "originContent": "tailscale up --login-server https://your-headscale-domain",
+        "translatedContent": "tailscale up --login-server https://your-headscale-domain"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n2. Configure AWG:\n",
+    "ContentSha": "jjiMH0ui7X0vXQySV3+UvtcRFbqOJLXAdR+j8WQFgl0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. AWG 구성:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xoACKIaqHWsKrT1Z/GFKf59cL7zMRbtWObk37SlqJyo=",
+        "originContent": "2. Configure AWG:",
+        "translatedContent": "2. AWG 구성:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\ntailscale awg set\n```",
+    "ContentSha": "nCbTTkAAUlS7DauO1iO/z23QBSl0CqR72YNvzLKkLcI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale awg set\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z3qslWdVfCqbAyw3IfuxG9xjsXdL2gCm8c0PRya/QFo=",
+        "originContent": "tailscale awg set",
+        "translatedContent": "tailscale awg set"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nPress Enter at the auto-generation prompt to generate recommended values for everything except `i1`-`i5`.\n\n3. On other devices, sync the same AWG config from this already-configured node:\n\n- Desktop: run `tailscale awg sync` on the other device\n- Android: tap Sync in the app on the other device\n\n4. Verify or reset when needed:\n",
+    "ContentSha": "fDnS7UcZi1cHbfXIaMztGOWmkL+FhFPUyDEcBu59RTU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "자동 생성 프롬프트에서 Enter 키를 눌러 `i1`-`i5`를 제외한 모든 항목에 대한 권장 값을 생성합니다.\n\n3. 다른 장치에서, 이미 구성된 노드에서 동일한 AWG 구성을 동기화합니다:\n\n- 데스크톱: 다른 장치에서 `tailscale awg sync`를 실행합니다\n- 안드로이드: 다른 장치의 앱에서 동기화(Sync)를 탭합니다\n\n4. 필요에 따라 확인하거나 재설정합니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "자동 생성 프롬프트에서 Enter 키를 눌러 `i1`-`i5`를 제외한 모든 항목에 대한 권장 값을 생성합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "JzezUEj8Fsdd7S4tyU9A8ODh7F46GEEz6qwTOFIXhYo=",
+        "originContent": "Press Enter at the auto-generation prompt to generate recommended values for everything except `i1`-`i5`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 다른 장치에서, 이미 구성된 노드에서 동일한 AWG 구성을 동기화합니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "ck9aCBiJXd6UYomtMXyI+82R19EX0DD9GhqsMVpuoiM=",
+        "originContent": "3. On other devices, sync the same AWG config from this already-configured node:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 데스크톱: 다른 장치에서 `tailscale awg sync`를 실행합니다"
+      },
+      {
+        "row": 6,
+        "rowsha": "cbwemIrnwAUrbrL+uZPjIKoQbIikxHJPxeZC32gYKS4=",
+        "originContent": "- Desktop: run `tailscale awg sync` on the other device",
+        "translatedContent": "- 안드로이드: 다른 장치의 앱에서 동기화(Sync)를 탭합니다"
+      },
+      {
+        "row": 7,
+        "rowsha": "Lmu+Jqf4pl8VNGwtOsv/RGWF+39KALwsOZ6qZBX0u/E=",
+        "originContent": "- Android: tap Sync in the app on the other device",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. 필요에 따라 확인하거나 재설정합니다:"
+      },
+      {
+        "row": 9,
+        "rowsha": "1U8zZCOCtmxMDvzhJo27KiOyE2tdRoPaB5myMBA8c2M=",
+        "originContent": "4. Verify or reset when needed:",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\ntailscale awg get\ntailscale awg reset\n```",
+    "ContentSha": "tbtwxPGbQKWoIZXUCWmVztXXq6QkoVMz2iPgdfXlkD0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale awg get\ntailscale awg reset\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "YZWPtPIsOwrcQI+t5t+VOGWe9+QimkIq5HwXba1aPLk=",
+        "originContent": "tailscale awg get",
+        "translatedContent": "tailscale awg get"
+      },
+      {
+        "row": 3,
+        "rowsha": "o++VsKznx0UdRVrxxKGfvA/dvA6JsXY3XF811FY66F8=",
+        "originContent": "tailscale awg reset",
+        "translatedContent": "tailscale awg reset"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## Configuration Presets\n\n| Goal | Example | Compatibility |\n| --- | --- | --- |\n| Basic junk traffic | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | Works with standard Tailscale peers |\n| Junk traffic + signatures | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | Works with standard Tailscale peers |\n| Handshake masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | All AWG nodes must use the same `s1`-`s4` |\n| Full masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | All AWG nodes must use the same `s1`-`s4` and `h1`-`h4` |\n| Full masquerading + signatures | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5` may differ per node; `s1`-`s4` and `h1`-`h4` must match |\n\n## Parameter Reference\n\n- `jc` with `jmin` and `jmax`: junk packet count and size range.\n- `i1`-`i5`: optional CPS (Custom Protocol Signature) chain for custom protocol-mimicking packets.\n- `s1`-`s4`: handshake padding or prefix fields; all AWG nodes must match.\n- `h1`-`h4`: header field ranges in the form `{\"min\": low, \"max\": high}`; either set all four or none. The ranges must not overlap, and all AWG nodes must match.\n\nVery large junk counts or long signature chains increase latency and bandwidth usage.\n\n## Platform Support\n\n| Platform | Arch | Status |\n| --- | --- | --- |\n| Linux | x86_64, ARM64 | ✅ Full |\n| macOS | Intel, Apple Silicon | ✅ Full |\n| Windows | x86_64, ARM64 | ✅ Installer |\n| OpenWrt | Various | ✅ Script |\n| Android | ARM64, ARM | ✅ APK (sync-only AWG) |\n\n## Advanced: CPS Protocol Signatures\n\nCPS means Custom Protocol Signature. It lets you assemble custom obfuscation packets that can imitate arbitrary protocol headers; it is not limited to one specific protocol.\n\nCPS format:\n",
+    "ContentSha": "bgOth3AY6xFtX6+Q8sv6fuHkyQgt43JrpRKs/hVYBZQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 구성 프리셋\n\n| 목표 | 예시 | 호환성 |\n| --- | --- | --- |\n| 기본 정크 트래픽 | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | 표준 Tailscale 피어와 작동 |\n| 정크 트래픽 + 서명 | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | 표준 Tailscale 피어와 작동 |\n| 핸드셰이크 가장 | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | 모든 AWG 노드가 동일한 `s1`-`s4` 사용 |\n| 전체 가장 | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | 모든 AWG 노드가 동일한 `s1`-`s4` 및 `h1`-`h4` 사용 |\n| 전체 가장 + 서명 | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5`는 노드별로 다를 수 있음; `s1`-`s4` 및 `h1`-`h4`는 일치해야 함 |\n\n## 매개변수 참조\n\n- `jc`와 `jmin`, `jmax`: 정크 패킷 수와 크기 범위.\n- `i1`-`i5`: 선택적 CPS(사용자 정의 프로토콜 서명) 체인으로, 맞춤 프로토콜 흉내내기 패킷에 사용.\n- `s1`-`s4`: 핸드셰이크 패딩 또는 접두사 필드; 모든 AWG 노드가 일치해야 함.\n- `h1`-`h4`: `{\"min\": 낮은값, \"max\": 높은값}` 형식의 헤더 필드 범위; 네 개 모두 설정하거나 하나도 설정하지 않아야 함. 범위는 겹치면 안 되며, 모든 AWG 노드가 일치해야 함.\n\n매우 큰 정크 수나 긴 서명 체인은 지연과 대역폭 사용량을 증가시킴.\n\n## 플랫폼 지원\n\n| 플랫폼 | 아키텍처 | 상태 |\n| --- | --- | --- |\n| Linux | x86_64, ARM64 | ✅ 전체 지원 |\n| macOS | 인텔, 애플 실리콘 | ✅ 전체 지원 |\n| Windows | x86_64, ARM64 | ✅ 설치 프로그램 |\n| OpenWrt | 다양 | ✅ 스크립트 |\n| Android | ARM64, ARM | ✅ APK (동기화 전용 AWG) |\n\n## 고급: CPS 프로토콜 서명\n\nCPS는 사용자 정의 프로토콜 서명(Custom Protocol Signature)을 의미합니다. 임의 프로토콜 헤더를 흉내 낼 수 있는 맞춤 난독화 패킷을 조립할 수 있으며, 특정 프로토콜에 국한되지 않습니다.\n\nCPS 형식:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 구성 프리셋"
+      },
+      {
+        "row": 2,
+        "rowsha": "D4XYXL+ng+nHTG11UCNorsK3Z2XRT4kgQEBPEkYiMG8=",
+        "originContent": "## Configuration Presets",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 목표 | 예시 | 호환성 |"
+      },
+      {
+        "row": 4,
+        "rowsha": "KaYWb9YOv4yWX4pH0AAhlm+W72Qigx5X+FSX/iuFFYs=",
+        "originContent": "| Goal | Example | Compatibility |",
+        "translatedContent": "| --- | --- | --- |"
+      },
+      {
+        "row": 5,
+        "rowsha": "uOxIVVYHvGICEmxdtkLxHPiYFR+28qoZ0uKK6hnX5TI=",
+        "originContent": "| --- | --- | --- |",
+        "translatedContent": "| 기본 정크 트래픽 | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | 표준 Tailscale 피어와 작동 |"
+      },
+      {
+        "row": 6,
+        "rowsha": "Tyunrm6SYJ/daDwYg8LYuxaldwHQBYVzJi5tzJHDass=",
+        "originContent": "| Basic junk traffic | `tailscale awg set '{\"jc\":4,\"jmin\":64,\"jmax\":256}'` | Works with standard Tailscale peers |",
+        "translatedContent": "| 정크 트래픽 + 서명 | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | 표준 Tailscale 피어와 작동 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "ELnvKRBeENGsVW+BuEomgo6g9QmT3bWvQJgqU4tMHDE=",
+        "originContent": "| Junk traffic + signatures | `tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128,\"i1\":\"<b 0x40><r 12>\"}'` | Works with standard Tailscale peers |",
+        "translatedContent": "| 핸드셰이크 가장 | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | 모든 AWG 노드가 동일한 `s1`-`s4` 사용 |"
+      },
+      {
+        "row": 8,
+        "rowsha": "BTDa2yH9Hc02uE+QKotNJSeRT3zvUMPzfWcoBPbe6pM=",
+        "originContent": "| Handshake masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0}'` | All AWG nodes must use the same `s1`-`s4` |",
+        "translatedContent": "| 전체 가장 | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | 모든 AWG 노드가 동일한 `s1`-`s4` 및 `h1`-`h4` 사용 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "0EzSj9OZ9lWbDFmLoXeN1fn3Gi2pExBcdhKcWFPv8HI=",
+        "originContent": "| Full masquerading | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000}}'` | All AWG nodes must use the same `s1`-`s4` and `h1`-`h4` |",
+        "translatedContent": "| 전체 가장 + 서명 | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5`는 노드별로 다를 수 있음; `s1`-`s4` 및 `h1`-`h4`는 일치해야 함 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "nzWdQCdy6twCETJn8TuD58UEpKW1Otf5t3fzPzVuti8=",
+        "originContent": "| Full masquerading + signatures | `tailscale awg set '{\"s1\":10,\"s2\":15,\"s3\":8,\"s4\":0,\"h1\":{\"min\":100000,\"max\":200000},\"h2\":{\"min\":300000,\"max\":350000},\"h3\":{\"min\":400000,\"max\":450000},\"h4\":{\"min\":500000,\"max\":550000},\"i1\":\"<b 0xc0><r 32><c><t>\"}'` | `i1`-`i5` may differ per node; `s1`-`s4` and `h1`-`h4` must match |",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 매개변수 참조"
+      },
+      {
+        "row": 12,
+        "rowsha": "JTRAOy83hSgAaUvmv6EXj/8TpBBRvn1/lvdgOrJpY+g=",
+        "originContent": "## Parameter Reference",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `jc`와 `jmin`, `jmax`: 정크 패킷 수와 크기 범위."
+      },
+      {
+        "row": 14,
+        "rowsha": "7HX0M/G9mAd95wzrVGvwvSpsdz3PFOolzWScuIPoAhU=",
+        "originContent": "- `jc` with `jmin` and `jmax`: junk packet count and size range.",
+        "translatedContent": "- `i1`-`i5`: 선택적 CPS(사용자 정의 프로토콜 서명) 체인으로, 맞춤 프로토콜 흉내내기 패킷에 사용."
+      },
+      {
+        "row": 15,
+        "rowsha": "W4sQaAMExPotG+YSKm9fZmAUTleXmCiBwaD6auxYsQo=",
+        "originContent": "- `i1`-`i5`: optional CPS (Custom Protocol Signature) chain for custom protocol-mimicking packets.",
+        "translatedContent": "- `s1`-`s4`: 핸드셰이크 패딩 또는 접두사 필드; 모든 AWG 노드가 일치해야 함."
+      },
+      {
+        "row": 16,
+        "rowsha": "vre34egHu86kWXvKxjmhNLi9nT3EGReh7aB0z1IukTw=",
+        "originContent": "- `s1`-`s4`: handshake padding or prefix fields; all AWG nodes must match.",
+        "translatedContent": "- `h1`-`h4`: `{\"min\": 낮은값, \"max\": 높은값}` 형식의 헤더 필드 범위; 네 개 모두 설정하거나 하나도 설정하지 않아야 함. 범위는 겹치면 안 되며, 모든 AWG 노드가 일치해야 함."
+      },
+      {
+        "row": 17,
+        "rowsha": "GCx8aQ1bLy+COxyefK1TKGgMgfgcUBTKOOzlmjzqBXk=",
+        "originContent": "- `h1`-`h4`: header field ranges in the form `{\"min\": low, \"max\": high}`; either set all four or none. The ranges must not overlap, and all AWG nodes must match.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "매우 큰 정크 수나 긴 서명 체인은 지연과 대역폭 사용량을 증가시킴."
+      },
+      {
+        "row": 19,
+        "rowsha": "dm1+r9jp26kOFHhr9/Mn5zxOWlc5JjC67/1P9Yul4Wk=",
+        "originContent": "Very large junk counts or long signature chains increase latency and bandwidth usage.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 플랫폼 지원"
+      },
+      {
+        "row": 21,
+        "rowsha": "OPrmm6f4GDGUFZTHm3BqmRxfO/Wz9GrkUsClwCqXVNI=",
+        "originContent": "## Platform Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 플랫폼 | 아키텍처 | 상태 |"
+      },
+      {
+        "row": 23,
+        "rowsha": "TYylo8woZxGj0X2GaX9B2aLhwdBqsdtWK4DzCTT9PnU=",
+        "originContent": "| Platform | Arch | Status |",
+        "translatedContent": "| --- | --- | --- |"
+      },
+      {
+        "row": 24,
+        "rowsha": "uOxIVVYHvGICEmxdtkLxHPiYFR+28qoZ0uKK6hnX5TI=",
+        "originContent": "| --- | --- | --- |",
+        "translatedContent": "| Linux | x86_64, ARM64 | ✅ 전체 지원 |"
+      },
+      {
+        "row": 25,
+        "rowsha": "Q2Y0CGdStTunq/3ZIuW6G96EkC3Mhp5IOMh4dUHNs2k=",
+        "originContent": "| Linux | x86_64, ARM64 | ✅ Full |",
+        "translatedContent": "| macOS | 인텔, 애플 실리콘 | ✅ 전체 지원 |"
+      },
+      {
+        "row": 26,
+        "rowsha": "JdsPbraQ2jACQBIWl2WOuK7BNwVk8/TH0ucBuPovJbg=",
+        "originContent": "| macOS | Intel, Apple Silicon | ✅ Full |",
+        "translatedContent": "| Windows | x86_64, ARM64 | ✅ 설치 프로그램 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "qtpi2HECSFSW/iYRmrbcIVGI7iXI+/pt5rEl9AHu9hI=",
+        "originContent": "| Windows | x86_64, ARM64 | ✅ Installer |",
+        "translatedContent": "| OpenWrt | 다양 | ✅ 스크립트 |"
+      },
+      {
+        "row": 28,
+        "rowsha": "z9hS8kfNDJFgFImbeIe7ihJPZt1NzbqknJIOml4Ccp0=",
+        "originContent": "| OpenWrt | Various | ✅ Script |",
+        "translatedContent": "| Android | ARM64, ARM | ✅ APK (동기화 전용 AWG) |"
+      },
+      {
+        "row": 29,
+        "rowsha": "+mYaB40BZqRzDOrLvRxoLssQQ7ORp4cs2w9f83H1TkI=",
+        "originContent": "| Android | ARM64, ARM | ✅ APK (sync-only AWG) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 고급: CPS 프로토콜 서명"
+      },
+      {
+        "row": 31,
+        "rowsha": "R6/KWCNY0RJ+0UxMaJJ7UaPX/gKBcXxsUr8kl5xw9xw=",
+        "originContent": "## Advanced: CPS Protocol Signatures",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "CPS는 사용자 정의 프로토콜 서명(Custom Protocol Signature)을 의미합니다. 임의 프로토콜 헤더를 흉내 낼 수 있는 맞춤 난독화 패킷을 조립할 수 있으며, 특정 프로토콜에 국한되지 않습니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "P7BUJ7CknaZJuj5ZaUIP4clff5LHQvbO7OxJhEttcLg=",
+        "originContent": "CPS means Custom Protocol Signature. It lets you assemble custom obfuscation packets that can imitate arbitrary protocol headers; it is not limited to one specific protocol.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "CPS 형식:"
+      },
+      {
+        "row": 35,
+        "rowsha": "z9NzDBfMeiVzEZZifKY7L3nM4aUor0PHQqJ2HPAF5dQ=",
+        "originContent": "CPS format:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```text\ni{n} = <tag1><tag2>...<tagN>\n```",
+    "ContentSha": "0rtE9OTZypt5ewyhAcLyX33TwkzKcaDKOlCW5jre0Vw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\ni{n} = <tag1><tag2>...<tagN>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "RwOabXDVN5BkUowEV3Tv5TREvTnllpzkimsIwy9eeEQ=",
+        "originContent": "i{n} = <tag1><tag2>...<tagN>",
+        "translatedContent": "i{n} = <tag1><tag2>...<tagN>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nTags:\n\n- `<b 0xHEX>`: static bytes\n- `<r N>`: secure random bytes\n- `<c>`: counter\n- `<t>`: timestamp\n\nExample:\n",
+    "ContentSha": "ZbzYvHaP5lMapI+3P4173YXTPZahlAGD+n/yc/P747E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "태그:\n\n- `<b 0xHEX>`: 정적 바이트\n- `<r N>`: 보안 랜덤 바이트\n- `<c>`: 카운터\n- `<t>`: 타임스탬프\n\n예시:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "태그:"
+      },
+      {
+        "row": 2,
+        "rowsha": "hlZY+IjyxQIprPMcf09BLf5EEq2pgsRZGmewd01FvQI=",
+        "originContent": "Tags:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `<b 0xHEX>`: 정적 바이트"
+      },
+      {
+        "row": 4,
+        "rowsha": "UVPxL1G/uWLey3+UE+A5KXcmTxSp1ycxuADZ5KMYKqk=",
+        "originContent": "- `<b 0xHEX>`: static bytes",
+        "translatedContent": "- `<r N>`: 보안 랜덤 바이트"
+      },
+      {
+        "row": 5,
+        "rowsha": "CcsGZi7P2IzohdQ/vTdD9v8vimJaEGdGi7xzlUoHnJ4=",
+        "originContent": "- `<r N>`: secure random bytes",
+        "translatedContent": "- `<c>`: 카운터"
+      },
+      {
+        "row": 6,
+        "rowsha": "IQ8/+YULHIDST34fi0D8vL5lORR42YPc8U9y5ZDTHXc=",
+        "originContent": "- `<c>`: counter",
+        "translatedContent": "- `<t>`: 타임스탬프"
+      },
+      {
+        "row": 7,
+        "rowsha": "AN1iCkYs1Oww6u+MvRfmgskwDt/RDERhyUEUxNT6Nwg=",
+        "originContent": "- `<t>`: timestamp",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "예시:"
+      },
+      {
+        "row": 9,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```text\ni1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>\n```",
+    "ContentSha": "ZkB5p1PyIMD9yWNX350ZLLGQGsURKdhSYygZv0SAdhM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\ni1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "Jfh8VaqJpz37TbotsusTXDsPETJ8e1R7pLR0JdMF3uQ=",
+        "originContent": "i1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>",
+        "translatedContent": "i1 = <b 0xf6ab3267fa><c><b 0xf6ab><t><r 10>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nIf `i1` is unset, `i2`-`i5` are skipped.\n\n## Troubleshooting\n\nVerify installation:\n",
+    "ContentSha": "JnG8AIQ5lArUqrtgx9qMlvCp/GuoILEH1BHzNOk9L6g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`i1`가 설정되지 않은 경우, `i2`-`i5`는 건너뜁니다.\n\n## 문제 해결\n\n설치 확인:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`i1`가 설정되지 않은 경우, `i2`-`i5`는 건너뜁니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "Ez6rXkrQhInTJW54hDYlCg7lyQW3bVbR7G/l1Hora1o=",
+        "originContent": "If `i1` is unset, `i2`-`i5` are skipped.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 문제 해결"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "설치 확인:"
+      },
+      {
+        "row": 6,
+        "rowsha": "392SdYkz0VRxXk1hWwYRneAsELh9OofEyN7ouhfj86o=",
+        "originContent": "Verify installation:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\ntailscale version\ntailscale awg get\n```",
+    "ContentSha": "WMUh/WpVtW51mUW7EpMtlDzeCjUePJC77No6pSgfdqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale version\ntailscale awg get\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pE6uy+RH8Iim6tda6DixPzJxIcLdboeRsApcDCk1ffA=",
+        "originContent": "tailscale version",
+        "translatedContent": "tailscale version"
+      },
+      {
+        "row": 3,
+        "rowsha": "YZWPtPIsOwrcQI+t5t+VOGWe9+QimkIq5HwXba1aPLk=",
+        "originContent": "tailscale awg get",
+        "translatedContent": "tailscale awg get"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nIf connectivity breaks, reset to standard WireGuard and start from a simple preset:\n",
+    "ContentSha": "JuEWtcqAURVArMIOuUlOSoy2g2ixKavTMIahKJhjfSE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n연결이 끊기면 표준 WireGuard로 재설정하고 간단한 프리셋부터 시작하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1tDVFx3kbD/BijGLGPD4JjW+bYTP9ToEmGpYtGZan/c=",
+        "originContent": "If connectivity breaks, reset to standard WireGuard and start from a simple preset:",
+        "translatedContent": "연결이 끊기면 표준 WireGuard로 재설정하고 간단한 프리셋부터 시작하세요:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bash\ntailscale awg reset\ntailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'\nsudo journalctl -u tailscaled -f\n```",
+    "ContentSha": "V3sxGBQxcvk9d81NGOzcC3QvZ/fTtgwwKh0oXoSSwI8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntailscale awg reset\ntailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'\nsudo journalctl -u tailscaled -f\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "o++VsKznx0UdRVrxxKGfvA/dvA6JsXY3XF811FY66F8=",
+        "originContent": "tailscale awg reset",
+        "translatedContent": "tailscale awg reset"
+      },
+      {
+        "row": 3,
+        "rowsha": "GXryk1O1NM50O9rgoEkijyk+xz4WHqZ5L7FSaA14Wto=",
+        "originContent": "tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'",
+        "translatedContent": "tailscale awg set '{\"jc\":2,\"jmin\":64,\"jmax\":128}'"
+      },
+      {
+        "row": 4,
+        "rowsha": "p4vqiCM30Jlol0hnSZHJJhViGYi+o5cf9PKQu43Lbgk=",
+        "originContent": "sudo journalctl -u tailscaled -f",
+        "translatedContent": "sudo journalctl -u tailscaled -f"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nOn Windows PowerShell, prefer interactive setup to avoid JSON escaping issues:\n",
+    "ContentSha": "+o+j6L+YeINE0+ssKj+Dmg+jQpW99/1TlOVN6iwu1vY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nWindows PowerShell에서는 JSON 이스케이프 문제를 피하기 위해 대화형 설정을 선호합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KJ8wKdXtGyKg6tKfA0EKQSUyuh/a/piS6jbmfRVx1HQ=",
+        "originContent": "On Windows PowerShell, prefer interactive setup to avoid JSON escaping issues:",
+        "translatedContent": "Windows PowerShell에서는 JSON 이스케이프 문제를 피하기 위해 대화형 설정을 선호합니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```powershell\ntailscale awg set\n```",
+    "ContentSha": "ZQqUFtJSxAMh7tZMT19lp7crCFsDbGYBynSfp45zSfY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\ntailscale awg set\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z3qslWdVfCqbAyw3IfuxG9xjsXdL2gCm8c0PRya/QFo=",
+        "originContent": "tailscale awg set",
+        "translatedContent": "tailscale awg set"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n## Links & Support\n\n- Releases: <https://github.com/LiuTangLei/tailscale/releases>\n- Android APK: <https://github.com/LiuTangLei/tailscale-android/releases>\n- Installer issues: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>\n- Amnezia-WG docs: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>\n\n## License\n\nBSD 3-Clause License, same as upstream Tailscale.\n",
+    "ContentSha": "8m34LIJHImugbs5BoCL4SXLXlJwTbaqyM5mQnLMFsWQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 링크 및 지원\n\n- 릴리스: <https://github.com/LiuTangLei/tailscale/releases>\n- 안드로이드 APK: <https://github.com/LiuTangLei/tailscale-android/releases>\n- 설치 프로그램 문제: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>\n- Amnezia-WG 문서: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>\n\n## 라이선스\n\nBSD 3조항 라이선스, 업스트림 Tailscale과 동일합니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sHS6s8osd5Bvm8+HNHWH0VnDFLRRSPMWx0T2Ivx9+3A=",
+        "originContent": "## Links & Support",
+        "translatedContent": "## 링크 및 지원"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TUFwmODXPq01WRl939nGorg09y+5yot4ZGWkvZ9FfQw=",
+        "originContent": "- Releases: <https://github.com/LiuTangLei/tailscale/releases>",
+        "translatedContent": "- 릴리스: <https://github.com/LiuTangLei/tailscale/releases>"
+      },
+      {
+        "row": 5,
+        "rowsha": "frNLtwj6KAwPIVv22Hi+UNWMGbcmZnykTm+e+3Wnr0w=",
+        "originContent": "- Android APK: <https://github.com/LiuTangLei/tailscale-android/releases>",
+        "translatedContent": "- 안드로이드 APK: <https://github.com/LiuTangLei/tailscale-android/releases>"
+      },
+      {
+        "row": 6,
+        "rowsha": "0NXDCPcTs+wguI+b3GG1b5g57Dcm0ZEqixNgt8dBJhM=",
+        "originContent": "- Installer issues: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>",
+        "translatedContent": "- 설치 프로그램 문제: <https://github.com/LiuTangLei/tailscale-awg-installer/issues>"
+      },
+      {
+        "row": 7,
+        "rowsha": "2Rd0eJThEWi52i2USdwygDNNupQeadidVovOm62DhyQ=",
+        "originContent": "- Amnezia-WG docs: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>",
+        "translatedContent": "- Amnezia-WG 문서: <https://docs.amnezia.org/documentation/instructions/new-amneziawg-selfhosted/#how-to-extract-a-protocol-signature-for-amneziawg-manually>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "FTzyBGRDeBd+RXu3YMAh0khBsz+hto0ZrKjd1A0caP4=",
+        "originContent": "BSD 3-Clause License, same as upstream Tailscale.",
+        "translatedContent": "BSD 3조항 라이선스, 업스트림 Tailscale과 동일합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
