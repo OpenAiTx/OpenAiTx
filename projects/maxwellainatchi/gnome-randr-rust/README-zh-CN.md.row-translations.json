@@ -1,0 +1,176 @@
+[
+  {
+    "row": 1,
+    "rowsha": "kerLbkOvVyC035kyePd3Xq16DDrcEASgZjDOsOg1mX8=",
+    "originContent": "# gnome-randr-rust",
+    "translatedContent": "# gnome-randr-rust"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "iLMAQ3drlz+un6S1G0uFnIUqne3Z1sbp/3NhBVmLY8I=",
+    "originContent": "A reimplementation of `xrandr` for Gnome on Wayland, especially for systems that don't support `wlr-output-management-unstable-v1`  (e.g. Manjaro). Written ground-up in Rust for performance and fun. This is also my first project in rust, so any suggestions are welcome!",
+    "translatedContent": "Gnome 在 Wayland 上的 `xrandr` 重新实现，特别针对不支持 `wlr-output-management-unstable-v1` 的系统（例如 Manjaro）。完全用 Rust 从头编写，追求性能和乐趣。这也是我的第一个 Rust 项目，欢迎任何建议！"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+    "originContent": "> [!NOTE]  ",
+    "translatedContent": "> [!注意]  "
+  },
+  {
+    "row": 6,
+    "rowsha": "viODCJSj1XBmFMfPoPQ4fMFPJPsERpxiNCMVE9XepO0=",
+    "originContent": "> I currently am not able to maintain this, as I no longer have access to a working Linux machine. If someone is interested in maintaining, please let me know!",
+    "translatedContent": "> 我目前无法维护此项目，因为我不再有可用的 Linux 机器。如果有人有兴趣维护，请告诉我！"
+  },
+  {
+    "row": 7,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 8,
+    "rowsha": "zTG/Bnd9g4vp2w/yeKSaavvg5FEmqjzq8vSQl0fPOQg=",
+    "originContent": "> On Gnome 48+, try the [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) CLI that came with it, it's most likely to stay up to date.",
+    "translatedContent": "> 在 Gnome 48+ 上，试试随附的 [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) CLI，它很可能会保持更新。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "CqRjWO1gljJHfNCr5CO49IwabtUT112zBHQE7gq2glk=",
+    "originContent": "(For non-Gnome compositors, see display configuration links at https://arewewaylandyet.com/)",
+    "translatedContent": "（非 Gnome 合成器用户请参见 https://arewewaylandyet.com/ 上的显示配置链接）"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "hKyAdWCN7/dFTQeYUNxMQxvOsoD40oTZsfzpCmw8Doo=",
+    "originContent": "Installation requires `pkg-config` and `cargo`, part of the Rust toolchain. [Cargo/Rust installation instructions](https://doc.rust-lang.org/cargo/getting-started/installation.html).",
+    "translatedContent": "安装需要 `pkg-config` 和 `cargo`，它们是 Rust 工具链的一部分。[Cargo/Rust 安装说明](https://doc.rust-lang.org/cargo/getting-started/installation.html)。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "YEOWLEBCnkybWJUhBBmr+V+BWmZk0aTF6gY3KYGP2l0=",
+    "originContent": "To install this tool, run `cargo install gnome-randr`. A library is also exposed for use in other Rust programs.",
+    "translatedContent": "安装此工具，请运行 `cargo install gnome-randr`。此外，还暴露了一个库供其他 Rust 程序使用。"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Vx5Owz5qa7L9b/S+U4JWpAHeGR8POLOhJFB+9vo+Dms=",
+    "originContent": "## Method",
+    "translatedContent": "## 方法"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "4XTu3K9SvEtkdtoPXHUOAYsKMGIfwWLayQJN4izKbrU=",
+    "originContent": "`gnome-randr-rust` uses the `dbus` object `org.gnome.Mutter.DisplayConfig`. See https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig for the original proposal, although the specification listed there is somewhat out of date (checked via `dbus introspect` on Gnome shell 40.5). Gnome maintain the evolving XML file [here](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml).",
+    "translatedContent": "`gnome-randr-rust` 使用 `dbus` 对象 `org.gnome.Mutter.DisplayConfig`。详情见 https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig 的原始提案，尽管该规范有些过时（通过 Gnome shell 40.5 的 `dbus introspect` 检查）。Gnome 维护着不断演进的 XML 文件，见 [这里](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml)。"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "ymE9e4NkiN1Ljd4yF+H8Yhh5/zvrwQmEFqosAS0+sFY=",
+    "originContent": "The `GetCurrentState` method is used to list information about the displays, while `ApplyMonitorsConfig` is used to modify the current configuration.",
+    "translatedContent": "`GetCurrentState` 方法用于列出显示器信息，`ApplyMonitorsConfig` 用于修改当前配置。"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "NaJRDrVHctxosI47MxFQQk/pZoxStY0e5VA/kyOO268=",
+    "originContent": "## Inspiration",
+    "translatedContent": "## 灵感"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "7wjF18CkJuIykDyjEwBeK1r6qHYPVrZNE3VHXzQAQVM=",
+    "originContent": "This project was heavily inspired by `xrandr` (obviously) and also [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/). Sadly, `gnome-randr.py` appears to be broken as of my gnome version (40.5) when trying to modify display configurations. ",
+    "translatedContent": "该项目深受 `xrandr`（显而易见）以及 [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/) 启发。不幸的是，`gnome-randr.py` 在我使用的 Gnome 版本（40.5）中尝试修改显示配置时似乎已失效。"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "XLQnfB0Bx8IYiyOtLf1cUlXXNZ69o8VqU1CPULhKlNk=",
+    "originContent": "`gnome-randr.py` is also slower than my rust reimplementation: querying the python script takes about 30ms on my 3-monitor system, while the rust implementation takes about 3ms (`xrandr` takes about 1.5ms, but is also displaying different information due to limitations in `xrandr`'s bridge.)",
+    "translatedContent": "`gnome-randr.py` 也比我用 Rust 重新实现的版本慢：在我的三显示器系统上，查询 Python 脚本大约需 30ms，而 Rust 实现约为 3ms（`xrandr` 大约 1.5ms，但由于 `xrandr` 桥接的限制，显示的信息有所不同）。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

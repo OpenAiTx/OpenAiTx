@@ -1,0 +1,176 @@
+[
+  {
+    "row": 1,
+    "rowsha": "kerLbkOvVyC035kyePd3Xq16DDrcEASgZjDOsOg1mX8=",
+    "originContent": "# gnome-randr-rust",
+    "translatedContent": "# gnome-randr-rust"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "iLMAQ3drlz+un6S1G0uFnIUqne3Z1sbp/3NhBVmLY8I=",
+    "originContent": "A reimplementation of `xrandr` for Gnome on Wayland, especially for systems that don't support `wlr-output-management-unstable-v1`  (e.g. Manjaro). Written ground-up in Rust for performance and fun. This is also my first project in rust, so any suggestions are welcome!",
+    "translatedContent": "Una reimplementación de `xrandr` para Gnome en Wayland, especialmente para sistemas que no soportan `wlr-output-management-unstable-v1` (por ejemplo, Manjaro). Escrito desde cero en Rust para rendimiento y diversión. ¡Este también es mi primer proyecto en Rust, así que cualquier sugerencia es bienvenida!"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+    "originContent": "> [!NOTE]  ",
+    "translatedContent": "> [!NOTE]  "
+  },
+  {
+    "row": 6,
+    "rowsha": "viODCJSj1XBmFMfPoPQ4fMFPJPsERpxiNCMVE9XepO0=",
+    "originContent": "> I currently am not able to maintain this, as I no longer have access to a working Linux machine. If someone is interested in maintaining, please let me know!",
+    "translatedContent": "> Actualmente no puedo mantener esto, ya que ya no tengo acceso a una máquina Linux funcional. Si alguien está interesado en mantenerlo, ¡por favor avísenme!"
+  },
+  {
+    "row": 7,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 8,
+    "rowsha": "zTG/Bnd9g4vp2w/yeKSaavvg5FEmqjzq8vSQl0fPOQg=",
+    "originContent": "> On Gnome 48+, try the [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) CLI that came with it, it's most likely to stay up to date.",
+    "translatedContent": "> En Gnome 48+, prueben el CLI [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) que viene con él, es muy probable que se mantenga actualizado."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "CqRjWO1gljJHfNCr5CO49IwabtUT112zBHQE7gq2glk=",
+    "originContent": "(For non-Gnome compositors, see display configuration links at https://arewewaylandyet.com/)",
+    "translatedContent": "(Para compositores no Gnome, ver enlaces de configuración de pantalla en https://arewewaylandyet.com/)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "hKyAdWCN7/dFTQeYUNxMQxvOsoD40oTZsfzpCmw8Doo=",
+    "originContent": "Installation requires `pkg-config` and `cargo`, part of the Rust toolchain. [Cargo/Rust installation instructions](https://doc.rust-lang.org/cargo/getting-started/installation.html).",
+    "translatedContent": "La instalación requiere `pkg-config` y `cargo`, parte del conjunto de herramientas de Rust. [Instrucciones de instalación de Cargo/Rust](https://doc.rust-lang.org/cargo/getting-started/installation.html)."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "YEOWLEBCnkybWJUhBBmr+V+BWmZk0aTF6gY3KYGP2l0=",
+    "originContent": "To install this tool, run `cargo install gnome-randr`. A library is also exposed for use in other Rust programs.",
+    "translatedContent": "Para instalar esta herramienta, ejecute `cargo install gnome-randr`. También se expone una biblioteca para uso en otros programas Rust."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Vx5Owz5qa7L9b/S+U4JWpAHeGR8POLOhJFB+9vo+Dms=",
+    "originContent": "## Method",
+    "translatedContent": "## Método"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "4XTu3K9SvEtkdtoPXHUOAYsKMGIfwWLayQJN4izKbrU=",
+    "originContent": "`gnome-randr-rust` uses the `dbus` object `org.gnome.Mutter.DisplayConfig`. See https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig for the original proposal, although the specification listed there is somewhat out of date (checked via `dbus introspect` on Gnome shell 40.5). Gnome maintain the evolving XML file [here](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml).",
+    "translatedContent": "`gnome-randr-rust` usa el objeto `dbus` `org.gnome.Mutter.DisplayConfig`. Vea https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig para la propuesta original, aunque la especificación listada allí está algo desactualizada (verificado mediante `dbus introspect` en Gnome shell 40.5). Gnome mantiene el archivo XML en evolución [aquí](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml)."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "ymE9e4NkiN1Ljd4yF+H8Yhh5/zvrwQmEFqosAS0+sFY=",
+    "originContent": "The `GetCurrentState` method is used to list information about the displays, while `ApplyMonitorsConfig` is used to modify the current configuration.",
+    "translatedContent": "El método `GetCurrentState` se usa para listar información sobre las pantallas, mientras que `ApplyMonitorsConfig` se usa para modificar la configuración actual."
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "NaJRDrVHctxosI47MxFQQk/pZoxStY0e5VA/kyOO268=",
+    "originContent": "## Inspiration",
+    "translatedContent": "## Inspiración"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "7wjF18CkJuIykDyjEwBeK1r6qHYPVrZNE3VHXzQAQVM=",
+    "originContent": "This project was heavily inspired by `xrandr` (obviously) and also [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/). Sadly, `gnome-randr.py` appears to be broken as of my gnome version (40.5) when trying to modify display configurations. ",
+    "translatedContent": "Este proyecto fue fuertemente inspirado por `xrandr` (obviamente) y también por [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/). Lamentablemente, `gnome-randr.py` parece estar roto en mi versión de gnome (40.5) al intentar modificar configuraciones de pantalla."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "XLQnfB0Bx8IYiyOtLf1cUlXXNZ69o8VqU1CPULhKlNk=",
+    "originContent": "`gnome-randr.py` is also slower than my rust reimplementation: querying the python script takes about 30ms on my 3-monitor system, while the rust implementation takes about 3ms (`xrandr` takes about 1.5ms, but is also displaying different information due to limitations in `xrandr`'s bridge.)",
+    "translatedContent": "`gnome-randr.py` también es más lento que mi reimplementación en rust: la consulta al script python toma alrededor de 30ms en mi sistema de 3 monitores, mientras que la implementación en rust toma alrededor de 3ms (`xrandr` toma alrededor de 1.5ms, pero también muestra información diferente debido a limitaciones en el puente de `xrandr`)."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

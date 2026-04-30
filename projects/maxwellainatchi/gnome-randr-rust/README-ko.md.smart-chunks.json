@@ -1,0 +1,189 @@
+[
+  {
+    "Id": 1,
+    "Content": "# gnome-randr-rust\n\nA reimplementation of `xrandr` for Gnome on Wayland, especially for systems that don't support `wlr-output-management-unstable-v1`  (e.g. Manjaro). Written ground-up in Rust for performance and fun. This is also my first project in rust, so any suggestions are welcome!\n\n> [!NOTE]  \n> I currently am not able to maintain this, as I no longer have access to a working Linux machine. If someone is interested in maintaining, please let me know!\n>\n> On Gnome 48+, try the [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) CLI that came with it, it's most likely to stay up to date.\n\n(For non-Gnome compositors, see display configuration links at https://arewewaylandyet.com/)\n\n## Installation\n\nInstallation requires `pkg-config` and `cargo`, part of the Rust toolchain. [Cargo/Rust installation instructions](https://doc.rust-lang.org/cargo/getting-started/installation.html).\n\nTo install this tool, run `cargo install gnome-randr`. A library is also exposed for use in other Rust programs.\n\n## Method\n\n`gnome-randr-rust` uses the `dbus` object `org.gnome.Mutter.DisplayConfig`. See https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig for the original proposal, although the specification listed there is somewhat out of date (checked via `dbus introspect` on Gnome shell 40.5). Gnome maintain the evolving XML file [here](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml).\n\nThe `GetCurrentState` method is used to list information about the displays, while `ApplyMonitorsConfig` is used to modify the current configuration.\n\n## Inspiration\n\nThis project was heavily inspired by `xrandr` (obviously) and also [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/). Sadly, `gnome-randr.py` appears to be broken as of my gnome version (40.5) when trying to modify display configurations. \n\n`gnome-randr.py` is also slower than my rust reimplementation: querying the python script takes about 30ms on my 3-monitor system, while the rust implementation takes about 3ms (`xrandr` takes about 1.5ms, but is also displaying different information due to limitations in `xrandr`'s bridge.)\n",
+    "ContentSha": "6JmafmVc8O9t2+KkuATztlPFAgBvYpIVkHaV3u5zdvU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# gnome-randr-rust\n\nWayland에서 Gnome용 `xrandr`의 재구현으로, 특히 `wlr-output-management-unstable-v1`를 지원하지 않는 시스템(e.g. Manjaro)을 위해 설계되었습니다. 성능과 재미를 위해 Rust로 처음부터 작성되었습니다. 이것은 저의 첫 Rust 프로젝트이기도 하니, 어떤 제안이라도 환영합니다!\n\n> [!NOTE]  \n> 현재 작동하는 리눅스 머신에 접근할 수 없어 유지보수를 할 수 없습니다. 유지보수에 관심 있는 분이 있으면 알려주세요!\n>\n> Gnome 48+에서는 기본 제공되는 [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) CLI를 사용해 보세요. 이 도구가 가장 최신 상태로 유지될 가능성이 높습니다.\n\n(비-Gnome 컴포지터의 경우, https://arewewaylandyet.com/ 에서 디스플레이 구성 링크를 참조하세요.)\n\n## 설치\n\n설치에는 Rust 툴체인의 일부인 `pkg-config`와 `cargo`가 필요합니다. [Cargo/Rust 설치 안내](https://doc.rust-lang.org/cargo/getting-started/installation.html).\n\n이 도구를 설치하려면 `cargo install gnome-randr`를 실행하세요. 다른 Rust 프로그램에서 사용할 수 있도록 라이브러리도 공개되어 있습니다.\n\n## 방법\n\n`gnome-randr-rust`는 `dbus` 객체 `org.gnome.Mutter.DisplayConfig`를 사용합니다. 원래 제안서는 https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig 를 참고하세요. 다만, 거기에 나와 있는 명세는 다소 오래된 상태입니다(Gnome shell 40.5에서 `dbus introspect`로 확인). Gnome은 진화하는 XML 파일을 [여기](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml)에서 관리합니다.\n\n`GetCurrentState` 메서드는 디스플레이 정보를 나열하는 데 사용되고, `ApplyMonitorsConfig`는 현재 구성을 수정하는 데 사용됩니다.\n\n## 영감\n\n이 프로젝트는 `xrandr`(당연히)와 [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/)에서 많은 영감을 받았습니다. 안타깝게도 `gnome-randr.py`는 제 Gnome 버전(40.5)에서는 디스플레이 구성을 수정하려 할 때 작동하지 않는 것으로 보입니다.\n\n`gnome-randr.py`는 또한 제 Rust 재구현보다 느립니다: 제 3모니터 시스템에서 파이썬 스크립트 쿼리는 약 30ms가 걸리지만, Rust 구현은 약 3ms가 걸립니다(`xrandr`는 약 1.5ms가 걸리지만, `xrandr` 브리지의 한계로 인해 다른 정보를 표시합니다).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kerLbkOvVyC035kyePd3Xq16DDrcEASgZjDOsOg1mX8=",
+        "originContent": "# gnome-randr-rust",
+        "translatedContent": "# gnome-randr-rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iLMAQ3drlz+un6S1G0uFnIUqne3Z1sbp/3NhBVmLY8I=",
+        "originContent": "A reimplementation of `xrandr` for Gnome on Wayland, especially for systems that don't support `wlr-output-management-unstable-v1`  (e.g. Manjaro). Written ground-up in Rust for performance and fun. This is also my first project in rust, so any suggestions are welcome!",
+        "translatedContent": "Wayland에서 Gnome용 `xrandr`의 재구현으로, 특히 `wlr-output-management-unstable-v1`를 지원하지 않는 시스템(e.g. Manjaro)을 위해 설계되었습니다. 성능과 재미를 위해 Rust로 처음부터 작성되었습니다. 이것은 저의 첫 Rust 프로젝트이기도 하니, 어떤 제안이라도 환영합니다!"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+        "originContent": "> [!NOTE]  ",
+        "translatedContent": "> [!NOTE]  "
+      },
+      {
+        "row": 6,
+        "rowsha": "viODCJSj1XBmFMfPoPQ4fMFPJPsERpxiNCMVE9XepO0=",
+        "originContent": "> I currently am not able to maintain this, as I no longer have access to a working Linux machine. If someone is interested in maintaining, please let me know!",
+        "translatedContent": "> 현재 작동하는 리눅스 머신에 접근할 수 없어 유지보수를 할 수 없습니다. 유지보수에 관심 있는 분이 있으면 알려주세요!"
+      },
+      {
+        "row": 7,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 8,
+        "rowsha": "zTG/Bnd9g4vp2w/yeKSaavvg5FEmqjzq8vSQl0fPOQg=",
+        "originContent": "> On Gnome 48+, try the [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) CLI that came with it, it's most likely to stay up to date.",
+        "translatedContent": "> Gnome 48+에서는 기본 제공되는 [gdctl](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/doc/man/gdctl.rst) CLI를 사용해 보세요. 이 도구가 가장 최신 상태로 유지될 가능성이 높습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CqRjWO1gljJHfNCr5CO49IwabtUT112zBHQE7gq2glk=",
+        "originContent": "(For non-Gnome compositors, see display configuration links at https://arewewaylandyet.com/)",
+        "translatedContent": "(비-Gnome 컴포지터의 경우, https://arewewaylandyet.com/ 에서 디스플레이 구성 링크를 참조하세요.)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hKyAdWCN7/dFTQeYUNxMQxvOsoD40oTZsfzpCmw8Doo=",
+        "originContent": "Installation requires `pkg-config` and `cargo`, part of the Rust toolchain. [Cargo/Rust installation instructions](https://doc.rust-lang.org/cargo/getting-started/installation.html).",
+        "translatedContent": "설치에는 Rust 툴체인의 일부인 `pkg-config`와 `cargo`가 필요합니다. [Cargo/Rust 설치 안내](https://doc.rust-lang.org/cargo/getting-started/installation.html)."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "YEOWLEBCnkybWJUhBBmr+V+BWmZk0aTF6gY3KYGP2l0=",
+        "originContent": "To install this tool, run `cargo install gnome-randr`. A library is also exposed for use in other Rust programs.",
+        "translatedContent": "이 도구를 설치하려면 `cargo install gnome-randr`를 실행하세요. 다른 Rust 프로그램에서 사용할 수 있도록 라이브러리도 공개되어 있습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Vx5Owz5qa7L9b/S+U4JWpAHeGR8POLOhJFB+9vo+Dms=",
+        "originContent": "## Method",
+        "translatedContent": "## 방법"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "4XTu3K9SvEtkdtoPXHUOAYsKMGIfwWLayQJN4izKbrU=",
+        "originContent": "`gnome-randr-rust` uses the `dbus` object `org.gnome.Mutter.DisplayConfig`. See https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig for the original proposal, although the specification listed there is somewhat out of date (checked via `dbus introspect` on Gnome shell 40.5). Gnome maintain the evolving XML file [here](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml).",
+        "translatedContent": "`gnome-randr-rust`는 `dbus` 객체 `org.gnome.Mutter.DisplayConfig`를 사용합니다. 원래 제안서는 https://wiki.gnome.org/Initiatives/Wayland/Gaps/DisplayConfig 를 참고하세요. 다만, 거기에 나와 있는 명세는 다소 오래된 상태입니다(Gnome shell 40.5에서 `dbus introspect`로 확인). Gnome은 진화하는 XML 파일을 [여기](https://gitlab.gnome.org/GNOME/mutter/-/blob/main/data/dbus-interfaces/org.gnome.Mutter.DisplayConfig.xml)에서 관리합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ymE9e4NkiN1Ljd4yF+H8Yhh5/zvrwQmEFqosAS0+sFY=",
+        "originContent": "The `GetCurrentState` method is used to list information about the displays, while `ApplyMonitorsConfig` is used to modify the current configuration.",
+        "translatedContent": "`GetCurrentState` 메서드는 디스플레이 정보를 나열하는 데 사용되고, `ApplyMonitorsConfig`는 현재 구성을 수정하는 데 사용됩니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "NaJRDrVHctxosI47MxFQQk/pZoxStY0e5VA/kyOO268=",
+        "originContent": "## Inspiration",
+        "translatedContent": "## 영감"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "7wjF18CkJuIykDyjEwBeK1r6qHYPVrZNE3VHXzQAQVM=",
+        "originContent": "This project was heavily inspired by `xrandr` (obviously) and also [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/). Sadly, `gnome-randr.py` appears to be broken as of my gnome version (40.5) when trying to modify display configurations. ",
+        "translatedContent": "이 프로젝트는 `xrandr`(당연히)와 [`gnome-randr`](https://gitlab.com/Oschowa/gnome-randr/)에서 많은 영감을 받았습니다. 안타깝게도 `gnome-randr.py`는 제 Gnome 버전(40.5)에서는 디스플레이 구성을 수정하려 할 때 작동하지 않는 것으로 보입니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "XLQnfB0Bx8IYiyOtLf1cUlXXNZ69o8VqU1CPULhKlNk=",
+        "originContent": "`gnome-randr.py` is also slower than my rust reimplementation: querying the python script takes about 30ms on my 3-monitor system, while the rust implementation takes about 3ms (`xrandr` takes about 1.5ms, but is also displaying different information due to limitations in `xrandr`'s bridge.)",
+        "translatedContent": "`gnome-randr.py`는 또한 제 Rust 재구현보다 느립니다: 제 3모니터 시스템에서 파이썬 스크립트 쿼리는 약 30ms가 걸리지만, Rust 구현은 약 3ms가 걸립니다(`xrandr`는 약 1.5ms가 걸리지만, `xrandr` 브리지의 한계로 인해 다른 정보를 표시합니다)."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
