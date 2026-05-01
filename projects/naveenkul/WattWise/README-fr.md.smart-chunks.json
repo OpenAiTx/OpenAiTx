@@ -1,0 +1,1519 @@
+[
+  {
+    "Id": 1,
+    "Content": "# WattWise\n\nA lightweight CLI tool for monitoring power usage from smart plugs in real-time, either directly or through Home Assistant.\n\n## Demo\n\n![WattWise Demo](/media/WattWise_demo.gif)\n\n## Features\n\n- Monitor real-time power usage with wattage and current (amperes)\n- Multiple connection options:\n  - Connect directly to TP-Link Kasa smart plugs\n  - Connect through Home Assistant\n- Dynamic color-coded power display (green < 300W, yellow 300-1200W, red > 1200W)\n- Continuous monitoring with charts and historical data\n- Simple command-line interface\n\n## Installation\n\n### Via pip\n",
+    "ContentSha": "XCC4EW94m9ky3HrgKkqXy85+T0AXNKzka5xFrRgqAqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# WattWise\n\nUn outil CLI léger pour surveiller la consommation d'énergie des prises intelligentes en temps réel, soit directement, soit via Home Assistant.\n\n## Démo\n\n![Démo WattWise](/media/WattWise_demo.gif)\n\n## Fonctionnalités\n\n- Surveille la consommation d'énergie en temps réel avec la puissance en watts et le courant (ampères)\n- Plusieurs options de connexion :\n  - Connexion directe aux prises intelligentes TP-Link Kasa\n  - Connexion via Home Assistant\n- Affichage dynamique de la puissance avec code couleur (vert < 300W, jaune 300-1200W, rouge > 1200W)\n- Surveillance continue avec graphiques et données historiques\n- Interface en ligne de commande simple\n\n## Installation\n\n### Via pip\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TSMEth9AucmgHeVJdxT49JhuqfljMqCu8ayLaUse2I8=",
+        "originContent": "# WattWise",
+        "translatedContent": "# WattWise"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "OvZLmoas7iO9qQpZsg4H9zm/q17NVArb8B+ZAVzsnXM=",
+        "originContent": "A lightweight CLI tool for monitoring power usage from smart plugs in real-time, either directly or through Home Assistant.",
+        "translatedContent": "Un outil CLI léger pour surveiller la consommation d'énergie des prises intelligentes en temps réel, soit directement, soit via Home Assistant."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": "## Démo"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "9uoPLcJZMAGxMC6Hs206iRdoReVXpdq/xC8Sq1Xo36U=",
+        "originContent": "![WattWise Demo](/media/WattWise_demo.gif)",
+        "translatedContent": "![Démo WattWise](/media/WattWise_demo.gif)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "5ndya8yLADDxom84muUITkNsI8SkbBn4JXAKSiM/EbM=",
+        "originContent": "- Monitor real-time power usage with wattage and current (amperes)",
+        "translatedContent": "- Surveille la consommation d'énergie en temps réel avec la puissance en watts et le courant (ampères)"
+      },
+      {
+        "row": 12,
+        "rowsha": "1nFnOwzLZ8jjfbOcK/LEIOnaOgaH0qquvYxqw2/lfXI=",
+        "originContent": "- Multiple connection options:",
+        "translatedContent": "- Plusieurs options de connexion :"
+      },
+      {
+        "row": 13,
+        "rowsha": "vyWYzBW5pfP2/+CrgieU1F6snp9bZ6puchY80MD0xfw=",
+        "originContent": "  - Connect directly to TP-Link Kasa smart plugs",
+        "translatedContent": "  - Connexion directe aux prises intelligentes TP-Link Kasa"
+      },
+      {
+        "row": 14,
+        "rowsha": "zoS2hFaKqCA0nIwoQgo+2hChUMlKgjrXAwmXpaBdlBA=",
+        "originContent": "  - Connect through Home Assistant",
+        "translatedContent": "  - Connexion via Home Assistant"
+      },
+      {
+        "row": 15,
+        "rowsha": "nSww8g082/fQf+VXnopzv5TNCiBgorQUjydYoM57Nxw=",
+        "originContent": "- Dynamic color-coded power display (green < 300W, yellow 300-1200W, red > 1200W)",
+        "translatedContent": "- Affichage dynamique de la puissance avec code couleur (vert < 300W, jaune 300-1200W, rouge > 1200W)"
+      },
+      {
+        "row": 16,
+        "rowsha": "QwdsxNowbWZtnFI8hwqqj84GbbJROsc9rgeLLxMrQ8g=",
+        "originContent": "- Continuous monitoring with charts and historical data",
+        "translatedContent": "- Surveillance continue avec graphiques et données historiques"
+      },
+      {
+        "row": 17,
+        "rowsha": "gxId6MmCEjyj7JtZe9lZEPtRx29vLKOw+e/oCRUrmtc=",
+        "originContent": "- Simple command-line interface",
+        "translatedContent": "- Interface en ligne de commande simple"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "ihfz8fawEqoVavANj+3LmZxAZzkNrb1JfPVBnVFZuAo=",
+        "originContent": "### Via pip",
+        "translatedContent": "### Via pip"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install .\n\n```",
+    "ContentSha": "4gYSwzVWxiHOdP8uI3fvxtH4Dqa4mOAA3vETApNd+0M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install .\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "k3I9coeZqczLnzk5xV6iCASIR/kOdsIaN1sm5FVLfdg=",
+        "originContent": "pip install .",
+        "translatedContent": "pip install ."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Using Docker\n",
+    "ContentSha": "oZuS2YuuxrltXs4Vq0emPMyGvc8cSF+DPMk/De4ts5I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Utilisation de Docker\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/l0GwEB3zVnrGze/TJGK8CQJJmv0PirFxMAyY9fzQaw=",
+        "originContent": "### Using Docker",
+        "translatedContent": "### Utilisation de Docker"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# 1. Build the Docker image (from project directory)\ndocker build -t wattwise .\n\n# 2. Create directories for persistence (first time only)\nmkdir -p ~/.config/wattwise\nmkdir -p ~/.local/share/wattwise\n\n# 3. First time setup: Configure a data source\n# Configure Home Assistant\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise config ha\n\n# OR Configure Kasa smart plug\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise config kasa\n\n# Optional: Add additional devices (multi-device config)\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50\n\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise devices add --name \"Server\" --type homeassistant \\\n    --host http://homeassistant.local:8123 \\\n    --token $HA_TOKEN \\\n    --entity-id sensor.server_power \\\n    --current-entity-id sensor.server_current\n\n# 4. Run a single check with Docker\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise\n\n# 5. Run with continuous monitoring\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise --watch\n\n# 6. If you have permission issues, you can fix them with:\nsudo chown -R $USER:$USER ~/.config/wattwise ~/.local/share/wattwise\nchmod -R u+rw ~/.config/wattwise ~/.local/share/wattwise\n\n# Or using the built-in command:\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise config fix-permissions\n```",
+    "ContentSha": "eWXWspoVWXg5MCILkMm4jk/YFEk9SwWnloYKntu4ZoI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 1. Build the Docker image (from project directory)\ndocker build -t wattwise .\n\n# 2. Create directories for persistence (first time only)\nmkdir -p ~/.config/wattwise\nmkdir -p ~/.local/share/wattwise\n\n# 3. First time setup: Configure a data source\n# Configure Home Assistant\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise config ha\n\n# OR Configure Kasa smart plug\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise config kasa\n\n# Optional: Add additional devices (multi-device config)\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50\n\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise devices add --name \"Server\" --type homeassistant \\\n    --host http://homeassistant.local:8123 \\\n    --token $HA_TOKEN \\\n    --entity-id sensor.server_power \\\n    --current-entity-id sensor.server_current\n\n# 4. Run a single check with Docker\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise\n\n# 5. Run with continuous monitoring\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise --watch\n\n# 6. If you have permission issues, you can fix them with:\nsudo chown -R $USER:$USER ~/.config/wattwise ~/.local/share/wattwise\nchmod -R u+rw ~/.config/wattwise ~/.local/share/wattwise\n\n# Or using the built-in command:\ndocker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise config fix-permissions\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Qeek7b7KI2ImunaACuLzcugAgy8M3lFVpiH9fTi+i9E=",
+        "originContent": "# 1. Build the Docker image (from project directory)",
+        "translatedContent": "# 1. Build the Docker image (from project directory)"
+      },
+      {
+        "row": 3,
+        "rowsha": "rHhZwB4hCNsk/M+S4QJbOgi3xMtsJKAobR149t3H1mw=",
+        "originContent": "docker build -t wattwise .",
+        "translatedContent": "docker build -t wattwise ."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "R+fz/GnxzXyo4UVooY2YU/yx64VZzMa0+KoMD0AyQns=",
+        "originContent": "# 2. Create directories for persistence (first time only)",
+        "translatedContent": "# 2. Create directories for persistence (first time only)"
+      },
+      {
+        "row": 6,
+        "rowsha": "kdrdSu65QwGKNE0SbIIF/N3kbkVL8/BxHRM3XQ6BYpc=",
+        "originContent": "mkdir -p ~/.config/wattwise",
+        "translatedContent": "mkdir -p ~/.config/wattwise"
+      },
+      {
+        "row": 7,
+        "rowsha": "R/qwXSZbOOcBqC/5FDeI0OMjjAILATTD0YQT+LC+hzw=",
+        "originContent": "mkdir -p ~/.local/share/wattwise",
+        "translatedContent": "mkdir -p ~/.local/share/wattwise"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yoiqzBEul1Oev24hCZlZAgsdyamFxIRSaPRAhs6Aoq8=",
+        "originContent": "# 3. First time setup: Configure a data source",
+        "translatedContent": "# 3. First time setup: Configure a data source"
+      },
+      {
+        "row": 10,
+        "rowsha": "2yPAZ7L26llV89qpWqx0AhAfLSsE2v5tmYKHqHPujb8=",
+        "originContent": "# Configure Home Assistant",
+        "translatedContent": "# Configure Home Assistant"
+      },
+      {
+        "row": 11,
+        "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+        "originContent": "docker run -it --rm --network host \\",
+        "translatedContent": "docker run -it --rm --network host \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "iscQ64FUucEWrwrJ+tywA63wsoU/smCH7TkIMnlRSQo=",
+        "originContent": "  wattwise config ha",
+        "translatedContent": "  wattwise config ha"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "hRjVZgwtmsZBEXM+0zSmRYm3E3dZpoUSXNQIurWIBms=",
+        "originContent": "# OR Configure Kasa smart plug",
+        "translatedContent": "# OR Configure Kasa smart plug"
+      },
+      {
+        "row": 17,
+        "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+        "originContent": "docker run -it --rm --network host \\",
+        "translatedContent": "docker run -it --rm --network host \\"
+      },
+      {
+        "row": 18,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 19,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 20,
+        "rowsha": "hQtBAIYTzhuz9ATg7n1nxKrPRulhXGpWfRa93cqlXOs=",
+        "originContent": "  wattwise config kasa",
+        "translatedContent": "  wattwise config kasa"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "i9e8IViTFxdh8KDUwfx+RudYYZ2osLX7MjBLeaJJhE0=",
+        "originContent": "# Optional: Add additional devices (multi-device config)",
+        "translatedContent": "# Optional: Add additional devices (multi-device config)"
+      },
+      {
+        "row": 23,
+        "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+        "originContent": "docker run -it --rm --network host \\",
+        "translatedContent": "docker run -it --rm --network host \\"
+      },
+      {
+        "row": 24,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 25,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 26,
+        "rowsha": "4Hh/7lcgYdAnKEk/xtRIt3MokgeTIuazxA8BnRzrsxA=",
+        "originContent": "  wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50",
+        "translatedContent": "  wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+        "originContent": "docker run -it --rm --network host \\",
+        "translatedContent": "docker run -it --rm --network host \\"
+      },
+      {
+        "row": 29,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 30,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 31,
+        "rowsha": "wdvxtbKWalSWKexaq+mOgkiitrETOxmG+jVwAKC9Fk8=",
+        "originContent": "  wattwise devices add --name \"Server\" --type homeassistant \\",
+        "translatedContent": "  wattwise devices add --name \"Server\" --type homeassistant \\"
+      },
+      {
+        "row": 32,
+        "rowsha": "THDR7xBoqMdb9nOPiPPYkMqtoRW07QF8kXe5dA7UlIg=",
+        "originContent": "    --host http://homeassistant.local:8123 \\",
+        "translatedContent": "    --host http://homeassistant.local:8123 \\"
+      },
+      {
+        "row": 33,
+        "rowsha": "lUbLTJyT3kKUW+NBRU303RW0jdkvT+aPyF3VKkaebAc=",
+        "originContent": "    --token $HA_TOKEN \\",
+        "translatedContent": "    --token $HA_TOKEN \\"
+      },
+      {
+        "row": 34,
+        "rowsha": "b3bUL2f99+QjQ98t4c63PvIalNoPFdhLn5VLEYoJ2eA=",
+        "originContent": "    --entity-id sensor.server_power \\",
+        "translatedContent": "    --entity-id sensor.server_power \\"
+      },
+      {
+        "row": 35,
+        "rowsha": "ZFZnluHPJSjNsjJyySbR2bLSLKkMV85YWqIX1XmfdP8=",
+        "originContent": "    --current-entity-id sensor.server_current",
+        "translatedContent": "    --current-entity-id sensor.server_current"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Aa+6smQL1XgtOJt8+UdAbcUTfZd0qxvYdZZUmhHa/r8=",
+        "originContent": "# 4. Run a single check with Docker",
+        "translatedContent": "# 4. Run a single check with Docker"
+      },
+      {
+        "row": 38,
+        "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+        "originContent": "docker run -it --rm --network host \\",
+        "translatedContent": "docker run -it --rm --network host \\"
+      },
+      {
+        "row": 39,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 40,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 41,
+        "rowsha": "nnNZfuogESSPYpfQjYOgNxv/ViAKUodtrN9pVmCTWH0=",
+        "originContent": "  wattwise",
+        "translatedContent": "  wattwise"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "hzTx+cMXDs+eEukJWQA8SgD1UCRlYrgb9ZfzjsakWyg=",
+        "originContent": "# 5. Run with continuous monitoring",
+        "translatedContent": "# 5. Run with continuous monitoring"
+      },
+      {
+        "row": 44,
+        "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+        "originContent": "docker run -it --rm --network host \\",
+        "translatedContent": "docker run -it --rm --network host \\"
+      },
+      {
+        "row": 45,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 46,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 47,
+        "rowsha": "5JDZbwciMiegYaMpQ5z2CCHbMjJzlaFvn6TmEuEyxa0=",
+        "originContent": "  wattwise --watch",
+        "translatedContent": "  wattwise --watch"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "FgHnhZXioe+kQm/xEledDUjbIRiTb9j1JxdQNONHARY=",
+        "originContent": "# 6. If you have permission issues, you can fix them with:",
+        "translatedContent": "# 6. If you have permission issues, you can fix them with:"
+      },
+      {
+        "row": 50,
+        "rowsha": "EqHYXAiNkKm2k9sPbXryDGSz/QAR/lK2ykNyqudt9B4=",
+        "originContent": "sudo chown -R $USER:$USER ~/.config/wattwise ~/.local/share/wattwise",
+        "translatedContent": "sudo chown -R $USER:$USER ~/.config/wattwise ~/.local/share/wattwise"
+      },
+      {
+        "row": 51,
+        "rowsha": "H69OSz0y95D2Tbb3TGfil8fmHDtsR9HaWKyikbI2mrE=",
+        "originContent": "chmod -R u+rw ~/.config/wattwise ~/.local/share/wattwise",
+        "translatedContent": "chmod -R u+rw ~/.config/wattwise ~/.local/share/wattwise"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "Hm2Tqm8U2mTHSTg9Sgq1Q+k5uDRg+nLEzjaEopdzOLk=",
+        "originContent": "# Or using the built-in command:",
+        "translatedContent": "# Or using the built-in command:"
+      },
+      {
+        "row": 54,
+        "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+        "originContent": "docker run -it --rm --network host \\",
+        "translatedContent": "docker run -it --rm --network host \\"
+      },
+      {
+        "row": 55,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 56,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 57,
+        "rowsha": "E4MYSrYz+JHFEg0QiIkVvvdh5xoi0SzbrsyB97bUod4=",
+        "originContent": "  wattwise config fix-permissions",
+        "translatedContent": "  wattwise config fix-permissions"
+      },
+      {
+        "row": 58,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Uninstallation\n\n### Complete Uninstallation\n\nFor a quick and complete removal of WattWise including Docker containers, images, and all configuration:\n",
+    "ContentSha": "A7jgG2Ol0VonVfE/qYavLrPd36ryvUOOQVCRa06K2ek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Désinstallation\n\n### Désinstallation complète\n\nPour une suppression rapide et complète de WattWise incluant les conteneurs Docker, les images et toute la configuration :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "loEZZtAi5Rtgx/JqVrYEsjQfmjQQCWWDxicdLpOBmqY=",
+        "originContent": "## Uninstallation",
+        "translatedContent": "## Désinstallation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KCum0/UcnkCr1IIcQCou2PYunmR6GO72IxdjBRHV9B4=",
+        "originContent": "### Complete Uninstallation",
+        "translatedContent": "### Désinstallation complète"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "O5eH/LmShL9rOhsG61oUMdtVj2Kpqba7VhTQibDjGz8=",
+        "originContent": "For a quick and complete removal of WattWise including Docker containers, images, and all configuration:",
+        "translatedContent": "Pour une suppression rapide et complète de WattWise incluant les conteneurs Docker, les images et toute la configuration :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Make the script executable (first time only)\nchmod +x clean_uninstall.sh\n\n# Run the uninstallation script\n./clean_uninstall.sh\n```",
+    "ContentSha": "6KHDa3k2fDaiVikuzb7qeFF1U5zuTU+AVCCIi2UfDeU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Make the script executable (first time only)\nchmod +x clean_uninstall.sh\n\n# Run the uninstallation script\n./clean_uninstall.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "QGLXCGuH21A0ZKxxZ75rpwRjCYTURtQQJLWOBD/SC9I=",
+        "originContent": "# Make the script executable (first time only)",
+        "translatedContent": "# Make the script executable (first time only)"
+      },
+      {
+        "row": 3,
+        "rowsha": "WllZF1JA0xZiPvIkGPAkIPUHAj59FwjoKsb0LuNbgqI=",
+        "originContent": "chmod +x clean_uninstall.sh",
+        "translatedContent": "chmod +x clean_uninstall.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nNlTYydSy3uB1e76ZTxai5HH2QkB2GpmgU9q1HAXq0A=",
+        "originContent": "# Run the uninstallation script",
+        "translatedContent": "# Run the uninstallation script"
+      },
+      {
+        "row": 6,
+        "rowsha": "LB8Pe1fpatQKDWoAp9v39O74P2wxlErqy7c1XW/1kSg=",
+        "originContent": "./clean_uninstall.sh",
+        "translatedContent": "./clean_uninstall.sh"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThis script will remove all WattWise Docker containers, the Docker image, configuration files, and data. It will also detect and offer to uninstall any pip installation of WattWise.\n\n### Manual Uninstallation\n\n#### Via pip\n",
+    "ContentSha": "o83uNDUT5FO2+xGhNMHo5vSZypKmGPZ/r+5r4+thlO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCe script supprimera tous les conteneurs Docker WattWise, l’image Docker, les fichiers de configuration et les données. Il détectera également toute installation de WattWise via pip et proposera de la désinstaller.\n\n### Désinstallation manuelle\n\n#### Via pip\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vtltOmhXSr/Z0+N8s9ia5iV/D4Ci85K3cPjbOX0ns0M=",
+        "originContent": "This script will remove all WattWise Docker containers, the Docker image, configuration files, and data. It will also detect and offer to uninstall any pip installation of WattWise.",
+        "translatedContent": "Ce script supprimera tous les conteneurs Docker WattWise, l’image Docker, les fichiers de configuration et les données. Il détectera également toute installation de WattWise via pip et proposera de la désinstaller."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZTha2tYNsIPt5sBxfej2teW0GRgYbZFbQwgsWhoEG7Y=",
+        "originContent": "### Manual Uninstallation",
+        "translatedContent": "### Désinstallation manuelle"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yx5ccHdoxdhSpXJuaChc229Gfabk7nSnaP4MPtmxqmU=",
+        "originContent": "#### Via pip",
+        "translatedContent": "#### Via pip"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# Uninstall the package\npip uninstall wattwise\n\n# Remove configuration files if desired\nrm -rf ~/.config/wattwise\nrm -rf ~/.local/share/wattwise\n```",
+    "ContentSha": "CV0BjR4OzxqFAy3Pdi76mYq4kNK4JtzZlWe9iNuNRXc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Uninstall the package\npip uninstall wattwise\n\n# Remove configuration files if desired\nrm -rf ~/.config/wattwise\nrm -rf ~/.local/share/wattwise\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zuXqdk0qOYL1UVKaNPBKJsRJfBpnA8jFri1hl0HPJyU=",
+        "originContent": "# Uninstall the package",
+        "translatedContent": "# Uninstall the package"
+      },
+      {
+        "row": 3,
+        "rowsha": "vZlO9zGSxcFpIGdPJRfGyfl25p50RHpKolrssgkJ4do=",
+        "originContent": "pip uninstall wattwise",
+        "translatedContent": "pip uninstall wattwise"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nQdoLKquXBKVb2kZFWOBf7EHyrHFrEAL4C7CXPjOfoo=",
+        "originContent": "# Remove configuration files if desired",
+        "translatedContent": "# Remove configuration files if desired"
+      },
+      {
+        "row": 6,
+        "rowsha": "xYJnlXW7ukPvoLIg7bWRIMe7TESBlbMQoqlQXj0661I=",
+        "originContent": "rm -rf ~/.config/wattwise",
+        "translatedContent": "rm -rf ~/.config/wattwise"
+      },
+      {
+        "row": 7,
+        "rowsha": "/tt2knYZVRvSkAqXuBQGxaFw6zPsezFJ99dhVUdcjrU=",
+        "originContent": "rm -rf ~/.local/share/wattwise",
+        "translatedContent": "rm -rf ~/.local/share/wattwise"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n#### Docker\n",
+    "ContentSha": "AGWkq98B18vL9Q/BdJJ8tJmYeR3oyDPqotJYBmEmwBU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Docker\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WgjQLSFJn0PZ2pd1mN1s6iXZqYvCpmdLiXlAZp+TrXA=",
+        "originContent": "#### Docker",
+        "translatedContent": "#### Docker"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Remove the Docker image\ndocker rmi wattwise\n\n# Remove local configuration if desired\nrm -rf ~/.config/wattwise\nrm -rf ~/.local/share/wattwise\n```",
+    "ContentSha": "VZJZZS+kO2DDFDmfqnXfROaAR9457IzQJHS0DPKOIV4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Remove the Docker image\ndocker rmi wattwise\n\n# Remove local configuration if desired\nrm -rf ~/.config/wattwise\nrm -rf ~/.local/share/wattwise\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "4m05cRSCq31Pg2lP8dIeh9AACWIVcjeBnNOzxkrmP+U=",
+        "originContent": "# Remove the Docker image",
+        "translatedContent": "# Remove the Docker image"
+      },
+      {
+        "row": 3,
+        "rowsha": "TvxiFfY6yXPEVPpiHtDfVIlkc0KdDbvXI9fMfF07ie8=",
+        "originContent": "docker rmi wattwise",
+        "translatedContent": "docker rmi wattwise"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wLQaD56+61HlfpDUv65+dmbURu4mnUmS66H41GF9lN4=",
+        "originContent": "# Remove local configuration if desired",
+        "translatedContent": "# Remove local configuration if desired"
+      },
+      {
+        "row": 6,
+        "rowsha": "xYJnlXW7ukPvoLIg7bWRIMe7TESBlbMQoqlQXj0661I=",
+        "originContent": "rm -rf ~/.config/wattwise",
+        "translatedContent": "rm -rf ~/.config/wattwise"
+      },
+      {
+        "row": 7,
+        "rowsha": "/tt2knYZVRvSkAqXuBQGxaFw6zPsezFJ99dhVUdcjrU=",
+        "originContent": "rm -rf ~/.local/share/wattwise",
+        "translatedContent": "rm -rf ~/.local/share/wattwise"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Basic Usage\n\n### First Time Setup\n",
+    "ContentSha": "0MV3esMBMqsWWXJ8ukUsfK3B0P5wsbKHKFXWcGDEbGQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Utilisation de base\n\n### Première configuration\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Lh+CO4+XL4trbaDGaAT86mzGQ5FCSAp1i4b5+mSZVOk=",
+        "originContent": "## Basic Usage",
+        "translatedContent": "## Utilisation de base"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "uJxVuTHsL5DlXSSztJo/A/bP6aJWili8lvpJvfxK2is=",
+        "originContent": "### First Time Setup",
+        "translatedContent": "### Première configuration"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n# Configure Home Assistant connection\nwattwise config ha\n\n# OR Configure Kasa smart plug\nwattwise config kasa\n```",
+    "ContentSha": "fswOjYnkkfAKGKXoseDA20nrYwxoZbTh4eypVUJs7hQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Configure Home Assistant connection\nwattwise config ha\n\n# OR Configure Kasa smart plug\nwattwise config kasa\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "u7/hIKnZTi+0dhxB6t9C2zLqyG0SlY3ksG2lqPOv6/0=",
+        "originContent": "# Configure Home Assistant connection",
+        "translatedContent": "# Configure Home Assistant connection"
+      },
+      {
+        "row": 3,
+        "rowsha": "YpYsCeK85Se0E0b5Xg6cgBSFJnyC4QKwkgM/byyn/2c=",
+        "originContent": "wattwise config ha",
+        "translatedContent": "wattwise config ha"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hRjVZgwtmsZBEXM+0zSmRYm3E3dZpoUSXNQIurWIBms=",
+        "originContent": "# OR Configure Kasa smart plug",
+        "translatedContent": "# OR Configure Kasa smart plug"
+      },
+      {
+        "row": 6,
+        "rowsha": "mYf3yJYj21NyO0poQD3KVaUE/eYzVboBcbas1uPlY/k=",
+        "originContent": "wattwise config kasa",
+        "translatedContent": "wattwise config kasa"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Monitoring\n",
+    "ContentSha": "MSn37JmIDMZw5HiUmyZHYKj6iA1eAWVqiBMOT4+woXA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Surveillance\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "u/AaFMs7LlEangAz0tS1RwX2mgR7YdtNKhmRCrtDlKw=",
+        "originContent": "### Monitoring",
+        "translatedContent": "### Surveillance"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# Quick power view (single reading)\nwattwise\n\n# To discover the kasa devices on your local network\nwattwise --discover\n\n# Continuous monitoring with charts\nwattwise --watch\n\n# Monitor current (amperes) as well\nwattwise --current --watch\n\n# Set refresh interval (seconds)\nwattwise --watch --interval 5\n\n# Output only raw watt value (for scripting use)\nwattwise --raw\n\n# Continuous raw monitoring (output a new value every second)\nwattwise --raw --watch\n\n# Specify data source manually\nwattwise --source homeassistant\nwattwise --source kasa\n\n# Manage multiple devices\nwattwise devices list\nwattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50\nwattwise devices add --name \"Server\" --type homeassistant \\\n  --host http://homeassistant.local:8123 \\\n  --token $HA_TOKEN \\\n  --entity-id sensor.server_power \\\n  --current-entity-id sensor.server_current\nwattwise --device \"PC\"\n```",
+    "ContentSha": "2hoBl3lUSfWIBeoLrs6TBwaGJNjfrWmIxVaV4sG+zkg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Quick power view (single reading)\nwattwise\n\n# To discover the kasa devices on your local network\nwattwise --discover\n\n# Continuous monitoring with charts\nwattwise --watch\n\n# Monitor current (amperes) as well\nwattwise --current --watch\n\n# Set refresh interval (seconds)\nwattwise --watch --interval 5\n\n# Output only raw watt value (for scripting use)\nwattwise --raw\n\n# Continuous raw monitoring (output a new value every second)\nwattwise --raw --watch\n\n# Specify data source manually\nwattwise --source homeassistant\nwattwise --source kasa\n\n# Manage multiple devices\nwattwise devices list\nwattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50\nwattwise devices add --name \"Server\" --type homeassistant \\\n  --host http://homeassistant.local:8123 \\\n  --token $HA_TOKEN \\\n  --entity-id sensor.server_power \\\n  --current-entity-id sensor.server_current\nwattwise --device \"PC\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "WvEAIhE0MyOGvxrK48aO9WANaI1g+/4+fNyU38Um4qc=",
+        "originContent": "# Quick power view (single reading)",
+        "translatedContent": "# Quick power view (single reading)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Xl3cBDCHbVlAVuxu4//1Vs9XJY4fEVAoS4jKnVhmuWQ=",
+        "originContent": "wattwise",
+        "translatedContent": "wattwise"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ycLjTirz5JPaqLdt2mBndBHU7JfXj++x9pC8YdKVE28=",
+        "originContent": "# To discover the kasa devices on your local network",
+        "translatedContent": "# To discover the kasa devices on your local network"
+      },
+      {
+        "row": 6,
+        "rowsha": "Zqi67SctR+hz6zQuIamEP9qZm815T1B/FP/xTsX+CmQ=",
+        "originContent": "wattwise --discover",
+        "translatedContent": "wattwise --discover"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "WWXHLgs+8u/7pVDR7OByZH9GfgwdYULWYdiUCLC1tdo=",
+        "originContent": "# Continuous monitoring with charts",
+        "translatedContent": "# Continuous monitoring with charts"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZAGctJEUEvxVgIclFffsaOQas27vAywMeNtQX7FT2hg=",
+        "originContent": "wattwise --watch",
+        "translatedContent": "wattwise --watch"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "gQUtxF3m6CMEm4ovtkMq3OU6nV9XcOOWQKLgcv/Vge8=",
+        "originContent": "# Monitor current (amperes) as well",
+        "translatedContent": "# Monitor current (amperes) as well"
+      },
+      {
+        "row": 12,
+        "rowsha": "1v2/QmeZLjp/4OBxGGb0aulrpGj8KmLbxo1qCC+iTWA=",
+        "originContent": "wattwise --current --watch",
+        "translatedContent": "wattwise --current --watch"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "zGukN1MhnqBj+7WzIHMtoOmbdPoueoBcLwFp0bUN9P4=",
+        "originContent": "# Set refresh interval (seconds)",
+        "translatedContent": "# Set refresh interval (seconds)"
+      },
+      {
+        "row": 15,
+        "rowsha": "LeA9zm0HEwc3T8jXawGt/FEY/iAZ2Z4+TTFflYQKAGQ=",
+        "originContent": "wattwise --watch --interval 5",
+        "translatedContent": "wattwise --watch --interval 5"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "WuwtWAuxC6MbYhMwjU/+1aPBgvAqThTcBV5aO3qLZ6g=",
+        "originContent": "# Output only raw watt value (for scripting use)",
+        "translatedContent": "# Output only raw watt value (for scripting use)"
+      },
+      {
+        "row": 18,
+        "rowsha": "ujJxAMGDN2IUdCbgOuyIWK1FhO2RMlNv2HHe7fcz5po=",
+        "originContent": "wattwise --raw",
+        "translatedContent": "wattwise --raw"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "BsXPGB2pFw4ZqCShFI0fYDSOkXgc27ikNZJp1ErgM5Y=",
+        "originContent": "# Continuous raw monitoring (output a new value every second)",
+        "translatedContent": "# Continuous raw monitoring (output a new value every second)"
+      },
+      {
+        "row": 21,
+        "rowsha": "NE3pwz9Gk40y/HWVgLG8tI6AfKPW666k67duGTfqlQA=",
+        "originContent": "wattwise --raw --watch",
+        "translatedContent": "wattwise --raw --watch"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "zPtOTkJWi3nl3DyRTX+n8t74TBA6I8PdreQwCUVmw6s=",
+        "originContent": "# Specify data source manually",
+        "translatedContent": "# Specify data source manually"
+      },
+      {
+        "row": 24,
+        "rowsha": "dDfiPA+h47v+z9m3gy8kAp3Pc1qhnjP3kSDltVrd4T8=",
+        "originContent": "wattwise --source homeassistant",
+        "translatedContent": "wattwise --source homeassistant"
+      },
+      {
+        "row": 25,
+        "rowsha": "lehtY+oS3mtbamLFNwMVABgBMgpQat/aBmHzdOWlR9s=",
+        "originContent": "wattwise --source kasa",
+        "translatedContent": "wattwise --source kasa"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "rzvQX7oBWfl0sou51zGEKnpGz85VAoSnjdWXs9YpM6M=",
+        "originContent": "# Manage multiple devices",
+        "translatedContent": "# Manage multiple devices"
+      },
+      {
+        "row": 28,
+        "rowsha": "7zkEyiwG7lqstUku77h34L2j4sz0VRY7KF20f7FwjjU=",
+        "originContent": "wattwise devices list",
+        "translatedContent": "wattwise devices list"
+      },
+      {
+        "row": 29,
+        "rowsha": "drry0L42iSlRFYeo48a/wrLJlXyfPKNjUPBwgpihVEo=",
+        "originContent": "wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50",
+        "translatedContent": "wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50"
+      },
+      {
+        "row": 30,
+        "rowsha": "lV0fXThlWg7HUIJbMTRS/bPBiCp/RKS1yfUUGsMT0/k=",
+        "originContent": "wattwise devices add --name \"Server\" --type homeassistant \\",
+        "translatedContent": "wattwise devices add --name \"Server\" --type homeassistant \\"
+      },
+      {
+        "row": 31,
+        "rowsha": "oq4J211EvRglXAqN8tzYfxmWNWOrPRqOh/wuixK1HWU=",
+        "originContent": "  --host http://homeassistant.local:8123 \\",
+        "translatedContent": "  --host http://homeassistant.local:8123 \\"
+      },
+      {
+        "row": 32,
+        "rowsha": "oaYvHBkx8OVgeS5Sc/U7oyoSkynFaTbv9t88cJO55D0=",
+        "originContent": "  --token $HA_TOKEN \\",
+        "translatedContent": "  --token $HA_TOKEN \\"
+      },
+      {
+        "row": 33,
+        "rowsha": "O17xmMgLhdRJnaVJIbpC0MmJT4PHCOMDyV2STG7X9ak=",
+        "originContent": "  --entity-id sensor.server_power \\",
+        "translatedContent": "  --entity-id sensor.server_power \\"
+      },
+      {
+        "row": 34,
+        "rowsha": "joXiTdkCpCmQkYCHIsEmIEwH5jDlEuVONGHHIUqH20E=",
+        "originContent": "  --current-entity-id sensor.server_current",
+        "translatedContent": "  --current-entity-id sensor.server_current"
+      },
+      {
+        "row": 35,
+        "rowsha": "M0NqVkDBCsjKBeTZI2kb7K9ohz7fKNmKS4zvSJxutic=",
+        "originContent": "wattwise --device \"PC\"",
+        "translatedContent": "wattwise --device \"PC\""
+      },
+      {
+        "row": 36,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Requirements\n\n- Python 3.11 or later\n- A TP-Link Kasa smart plug connected to your equipment\n- Optional: Home Assistant setup with the Kasa integration\n\n## Configuration\n\nConfiguration is stored in `~/.config/wattwise/config.yaml` and includes:\n- Home Assistant connection details (URL, token, entity IDs)\n- Kasa device details (IP address)\n- Authentication tokens are stored securely\n\n## Docker Usage Tips\n\n### Create an Alias for Easy Use\n\nYou can create a bash alias for easier usage:\n",
+    "ContentSha": "Mw8nt6OvtjYzrjymLumrWrkRTfMDRcqrzbAnTXiMaq0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Exigences\n\n- Python 3.11 ou version ultérieure\n- Une prise intelligente TP-Link Kasa connectée à votre équipement\n- Optionnel : Configuration de Home Assistant avec l'intégration Kasa\n\n## Configuration\n\nLa configuration est stockée dans `~/.config/wattwise/config.yaml` et comprend :\n- Les détails de connexion à Home Assistant (URL, token, identifiants des entités)\n- Les détails de l'appareil Kasa (adresse IP)\n- Les tokens d'authentification sont stockés de manière sécurisée\n\n## Conseils d'utilisation de Docker\n\n### Créer un alias pour une utilisation facile\n\nVous pouvez créer un alias bash pour une utilisation plus simple :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Exigences"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KPFfVYuI9YiUWz7wgFKCwj1QpHeGlCtX8HS3M/Q7UIo=",
+        "originContent": "- Python 3.11 or later",
+        "translatedContent": "- Python 3.11 ou version ultérieure"
+      },
+      {
+        "row": 5,
+        "rowsha": "HDw4OG1s6hFSnVsrwzccOmrUi4/3QLD0TZ68WyCA5u0=",
+        "originContent": "- A TP-Link Kasa smart plug connected to your equipment",
+        "translatedContent": "- Une prise intelligente TP-Link Kasa connectée à votre équipement"
+      },
+      {
+        "row": 6,
+        "rowsha": "J2JR5gitq+55y64uTikoodnJE08ke41BpuqzIx5p5TM=",
+        "originContent": "- Optional: Home Assistant setup with the Kasa integration",
+        "translatedContent": "- Optionnel : Configuration de Home Assistant avec l'intégration Kasa"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## Configuration"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ZtOedLWjOMEL+e8LY/29uUKOU6SADVPdKGUFppHrnRA=",
+        "originContent": "Configuration is stored in `~/.config/wattwise/config.yaml` and includes:",
+        "translatedContent": "La configuration est stockée dans `~/.config/wattwise/config.yaml` et comprend :"
+      },
+      {
+        "row": 11,
+        "rowsha": "1bT0NRsqCe4OD1EQGSYaq45kjBcMjnHuaKxeYlwGXuY=",
+        "originContent": "- Home Assistant connection details (URL, token, entity IDs)",
+        "translatedContent": "- Les détails de connexion à Home Assistant (URL, token, identifiants des entités)"
+      },
+      {
+        "row": 12,
+        "rowsha": "TPg7N108MSlJEH4EjV1tzlzIeVWftQIbASnAOnGB0LU=",
+        "originContent": "- Kasa device details (IP address)",
+        "translatedContent": "- Les détails de l'appareil Kasa (adresse IP)"
+      },
+      {
+        "row": 13,
+        "rowsha": "EdBynVN6UR6pYLbnARpA6HkRZ2BlfV85bYbvTQWzjpE=",
+        "originContent": "- Authentication tokens are stored securely",
+        "translatedContent": "- Les tokens d'authentification sont stockés de manière sécurisée"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "mD5bwF6g22r/ua6hTaUlJzEEmSDta9OMq3Z5wvUFCKY=",
+        "originContent": "## Docker Usage Tips",
+        "translatedContent": "## Conseils d'utilisation de Docker"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "FFfz2ZKKeJ5Ik7lTIigdcORjt3C5UW6wCIrfciSOmUw=",
+        "originContent": "### Create an Alias for Easy Use",
+        "translatedContent": "### Créer un alias pour une utilisation facile"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "CZ7At6PodTr3K8VbXV4NvPf+Q6KuAhGKOc72vFfg0KU=",
+        "originContent": "You can create a bash alias for easier usage:",
+        "translatedContent": "Vous pouvez créer un alias bash pour une utilisation plus simple :"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\n# Add to your .bashrc or .zshrc file\nalias wattwise='docker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise'\n\n# After creating the alias, you can use it just like the normal command:\nwattwise  # Single reading\nwattwise --watch  # Continuous monitoring\nwattwise config fix-permissions  # Fix directory permissions\nwattwise --device \"PC\"  # Target a specific configured device\n```",
+    "ContentSha": "VeFkg/o+Qx871GOeKD3bhiQDjnm0cr/wZRkOFgRHFSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Add to your .bashrc or .zshrc file\nalias wattwise='docker run -it --rm --network host \\\n  -v ~/.config/wattwise:/root/.config/wattwise \\\n  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\\n  wattwise'\n\n# After creating the alias, you can use it just like the normal command:\nwattwise  # Single reading\nwattwise --watch  # Continuous monitoring\nwattwise config fix-permissions  # Fix directory permissions\nwattwise --device \"PC\"  # Target a specific configured device\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "UOB8EJdq1FPr0lhhRJ+VG3dNLcf9TTaDYC1Z1SW1E/g=",
+        "originContent": "# Add to your .bashrc or .zshrc file",
+        "translatedContent": "# Add to your .bashrc or .zshrc file"
+      },
+      {
+        "row": 3,
+        "rowsha": "nXbDX/VubPOaJBQorTwncgk4E3u+RTVvMQeqQ3kbk8c=",
+        "originContent": "alias wattwise='docker run -it --rm --network host \\",
+        "translatedContent": "alias wattwise='docker run -it --rm --network host \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+        "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+        "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+        "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+        "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "mDfdaMY1fFeLP31Kce6UL7KGdY7Fi7cYkobRHZhcOxg=",
+        "originContent": "  wattwise'",
+        "translatedContent": "  wattwise'"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "a6Yy2OBRKkfFr1bMhweuWCd88VoUF4GFdtx53IPq67A=",
+        "originContent": "# After creating the alias, you can use it just like the normal command:",
+        "translatedContent": "# After creating the alias, you can use it just like the normal command:"
+      },
+      {
+        "row": 9,
+        "rowsha": "L3rcZsVZuQSXda3cdi3Ym9tlmamQdyPutOKQ2V58BO0=",
+        "originContent": "wattwise  # Single reading",
+        "translatedContent": "wattwise  # Single reading"
+      },
+      {
+        "row": 10,
+        "rowsha": "NwM12qdR5sdmkv2vNqLRxMUtfcNabUp3LG55rcevvus=",
+        "originContent": "wattwise --watch  # Continuous monitoring",
+        "translatedContent": "wattwise --watch  # Continuous monitoring"
+      },
+      {
+        "row": 11,
+        "rowsha": "UtOu/jqhXc3O0W7qwN/jhn26gi2G3bVztMbZpEvl2N0=",
+        "originContent": "wattwise config fix-permissions  # Fix directory permissions",
+        "translatedContent": "wattwise config fix-permissions  # Fix directory permissions"
+      },
+      {
+        "row": 12,
+        "rowsha": "3lNssluvD6ii1xPK+gp8W/RyUatnTfQSxHGbxrBh0DI=",
+        "originContent": "wattwise --device \"PC\"  # Target a specific configured device",
+        "translatedContent": "wattwise --device \"PC\"  # Target a specific configured device"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n## License\n\nMIT\n",
+    "ContentSha": "CRheEjOCyHQDRWFfjZlfYv6OUzdqsmYaGU2wBmjIn9I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## License\n\nMIT\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

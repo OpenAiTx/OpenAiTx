@@ -1,0 +1,35 @@
+搜索cloudflare workers VLESS 可以找到自建免费节点的教程,不需要任何费用,不需要服务器,但是需要点动手能力.  
+不定期更新便宜的直连VPN机场,最实惠的中转VPN梯子,最稳定的IEPL专线代理节点.  
+根据需求选择,稳定性:IEPL>中转>直连，多备用几家机场,反正很多就几块钱1年,防止在高峰时段失联......  
+
+
+##  机场推荐表格  
+
+| 连接线路 | 国家地区 | 月套餐 | 季年套餐 | 长期套餐 | 流媒体解锁 | 设备数限制 | 带宽限制 | 机场直达 |  
+| :-------: | :------: | :------: | :-----------: | :---------: | :---------: | :-------: | :-------: | :-------: |  
+| IEPL/住宅IP | 香港/美/日/新/英/台 | 0.3$/100G/月 | 未知 | 无 | 支持 | 无限制 | 1G | [Mitce](https://mitce.com/aff.php?aff=4336) |  
+| IELP线路 | 覆盖很广 | 8元/800G/月 | 自选12个月 | 50/1000G | 支持 | 不限 | 不限 | [极速云](https://w4.rouhe88.com/#/register?code=4fZIbOdQ) |  
+| 直连线路 | 未知 | 13元/年/100G/月 | 未知 | 无 | 支持 | 无限制 | 1G | [FSCloud](https://dash.996cloud.top/#/register?code=qEnheQes) |  
+| 中转线路 | 据说80个节点 | 3元/50G/月 | 自选12个月 | 40/500G | 支持 | 未知 | 未知 | [飞兔云](https://www.xn--9kq10e0y7h.site/index.html?register=MslOHEtF) |  
+| 直连线路7.5折优惠码：duanwu888 | 40多个国家地区 | 10元/120G/月 | 自选 | 100G/29元 | 支持 | 不限 | 不限 | [易连云](https://easylink.ppspeed.me/#/register?code=MGMV4hjE) |  
+| 中转线路 | 丰富 | 5元/100G/月 | 自选 | 无 | 支持 | 不限 | 未知 | [吃瓜云](https://chiguayun.club/#/register?code=YPXBe1ef) |  
+| 部分IEPL | 低套餐11个国家或地区 | 9.8元/90G/月 | 适配 | 100元/120GB | 支持 | 无 | 未知 | [高端：穿云箭](https://rocket123.uk/#/register?code=0AWCsSwR) |  
+
+
+**说明：**  
+
+* 表格中部分机场的月套餐价格为每月最低价，具体价格以机场官网为准。  
+* 部分机场的设备数限制、带宽限制等信息可能存在偏差，请以机场官网为准。  
+* 表格中提供的机场直达链接为注册链接，注册时可以使用相应的推荐码获取优惠。  
+* 以上信息仅供参考，建议您在选择机场时仔细阅读机场的官网信息，并根据自己的实际需求选择合适的机场。  
+
+
+![image](https://github.com/chouniu666/vpn/assets/71626935/379dc05d-b1ae-488d-ab48-a77f3cf8cbcb)
+
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-01
+
+---

@@ -1,5 +1,7 @@
 # filmy
-Zasoby medialne, filmy, dokumenty, muzyka, koncerty itp., aktualizowane na bieżąco
+Zasoby mediów filmowych, filmy, dokumenty, muzyka, koncerty itp., aktualizowane na bieżąco
+
+📢 **Kanał z linkami do zasobów**: [https://t.me/dabaziyuan](https://t.me/dabaziyuan) - Uzyskaj najnowsze pełne linki do zasobów
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=id)
 
@@ -11,7 +13,7 @@ Zasoby medialne, filmy, dokumenty, muzyka, koncerty itp., aktualizowane na bież
 
 
 -------
-# [202510](https://raw.githubusercontent.com/mswnlz/movies/main/202510.md) [202508](https://raw.githubusercontent.com/mswnlz/movies/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/movies/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md)
+# [202603](https://raw.githubusercontent.com/mswnlz/movies/main/202603.md) [202510](https://raw.githubusercontent.com/mswnlz/movies/main/202510.md) [202508](https://raw.githubusercontent.com/mswnlz/movies/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/movies/main/202507.md) [202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md) [202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md)
 
 
 ---------------
@@ -48,6 +50,6 @@ Zasoby medialne, filmy, dokumenty, muzyka, koncerty itp., aktualizowane na bież
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-01
 
 ---

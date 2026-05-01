@@ -1,0 +1,1298 @@
+[
+  {
+    "row": 1,
+    "rowsha": "TSMEth9AucmgHeVJdxT49JhuqfljMqCu8ayLaUse2I8=",
+    "originContent": "# WattWise",
+    "translatedContent": "# WattWise"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "OvZLmoas7iO9qQpZsg4H9zm/q17NVArb8B+ZAVzsnXM=",
+    "originContent": "A lightweight CLI tool for monitoring power usage from smart plugs in real-time, either directly or through Home Assistant.",
+    "translatedContent": "スマートプラグからの電力使用量をリアルタイムで監視するための軽量CLIツールで、直接またはHome Assistantを通じて使用可能。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": "## デモ"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "9uoPLcJZMAGxMC6Hs206iRdoReVXpdq/xC8Sq1Xo36U=",
+    "originContent": "![WattWise Demo](/media/WattWise_demo.gif)",
+    "translatedContent": "![WattWise Demo](/media/WattWise_demo.gif)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特長"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "5ndya8yLADDxom84muUITkNsI8SkbBn4JXAKSiM/EbM=",
+    "originContent": "- Monitor real-time power usage with wattage and current (amperes)",
+    "translatedContent": "- ワット数と電流（アンペア）によるリアルタイムの電力使用量監視"
+  },
+  {
+    "row": 12,
+    "rowsha": "1nFnOwzLZ8jjfbOcK/LEIOnaOgaH0qquvYxqw2/lfXI=",
+    "originContent": "- Multiple connection options:",
+    "translatedContent": "- 複数の接続オプション："
+  },
+  {
+    "row": 13,
+    "rowsha": "vyWYzBW5pfP2/+CrgieU1F6snp9bZ6puchY80MD0xfw=",
+    "originContent": "  - Connect directly to TP-Link Kasa smart plugs",
+    "translatedContent": "  - TP-Link Kasaスマートプラグへの直接接続"
+  },
+  {
+    "row": 14,
+    "rowsha": "zoS2hFaKqCA0nIwoQgo+2hChUMlKgjrXAwmXpaBdlBA=",
+    "originContent": "  - Connect through Home Assistant",
+    "translatedContent": "  - Home Assistant経由での接続"
+  },
+  {
+    "row": 15,
+    "rowsha": "nSww8g082/fQf+VXnopzv5TNCiBgorQUjydYoM57Nxw=",
+    "originContent": "- Dynamic color-coded power display (green < 300W, yellow 300-1200W, red > 1200W)",
+    "translatedContent": "- 動的な色分けされた電力表示（緑 < 300W、黄 300-1200W、赤 > 1200W）"
+  },
+  {
+    "row": 16,
+    "rowsha": "QwdsxNowbWZtnFI8hwqqj84GbbJROsc9rgeLLxMrQ8g=",
+    "originContent": "- Continuous monitoring with charts and historical data",
+    "translatedContent": "- チャートと履歴データによる継続的な監視"
+  },
+  {
+    "row": 17,
+    "rowsha": "gxId6MmCEjyj7JtZe9lZEPtRx29vLKOw+e/oCRUrmtc=",
+    "originContent": "- Simple command-line interface",
+    "translatedContent": "- シンプルなコマンドラインインターフェース"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "ihfz8fawEqoVavANj+3LmZxAZzkNrb1JfPVBnVFZuAo=",
+    "originContent": "### Via pip",
+    "translatedContent": "### pip経由"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 24,
+    "rowsha": "k3I9coeZqczLnzk5xV6iCASIR/kOdsIaN1sm5FVLfdg=",
+    "originContent": "pip install .",
+    "translatedContent": "pip install ."
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "/l0GwEB3zVnrGze/TJGK8CQJJmv0PirFxMAyY9fzQaw=",
+    "originContent": "### Using Docker",
+    "translatedContent": "### Dockerの使用方法"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 31,
+    "rowsha": "Qeek7b7KI2ImunaACuLzcugAgy8M3lFVpiH9fTi+i9E=",
+    "originContent": "# 1. Build the Docker image (from project directory)",
+    "translatedContent": "# 1. Build the Docker image (from project directory)"
+  },
+  {
+    "row": 32,
+    "rowsha": "rHhZwB4hCNsk/M+S4QJbOgi3xMtsJKAobR149t3H1mw=",
+    "originContent": "docker build -t wattwise .",
+    "translatedContent": "docker build -t wattwise ."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "R+fz/GnxzXyo4UVooY2YU/yx64VZzMa0+KoMD0AyQns=",
+    "originContent": "# 2. Create directories for persistence (first time only)",
+    "translatedContent": "# 2. Create directories for persistence (first time only)"
+  },
+  {
+    "row": 35,
+    "rowsha": "kdrdSu65QwGKNE0SbIIF/N3kbkVL8/BxHRM3XQ6BYpc=",
+    "originContent": "mkdir -p ~/.config/wattwise",
+    "translatedContent": "mkdir -p ~/.config/wattwise"
+  },
+  {
+    "row": 36,
+    "rowsha": "R/qwXSZbOOcBqC/5FDeI0OMjjAILATTD0YQT+LC+hzw=",
+    "originContent": "mkdir -p ~/.local/share/wattwise",
+    "translatedContent": "mkdir -p ~/.local/share/wattwise"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "yoiqzBEul1Oev24hCZlZAgsdyamFxIRSaPRAhs6Aoq8=",
+    "originContent": "# 3. First time setup: Configure a data source",
+    "translatedContent": "# 3. First time setup: Configure a data source"
+  },
+  {
+    "row": 39,
+    "rowsha": "2yPAZ7L26llV89qpWqx0AhAfLSsE2v5tmYKHqHPujb8=",
+    "originContent": "# Configure Home Assistant",
+    "translatedContent": "# Configure Home Assistant"
+  },
+  {
+    "row": 40,
+    "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+    "originContent": "docker run -it --rm --network host \\",
+    "translatedContent": "docker run -it --rm --network host \\"
+  },
+  {
+    "row": 41,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 42,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 43,
+    "rowsha": "iscQ64FUucEWrwrJ+tywA63wsoU/smCH7TkIMnlRSQo=",
+    "originContent": "  wattwise config ha",
+    "translatedContent": "  wattwise config ha"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "hRjVZgwtmsZBEXM+0zSmRYm3E3dZpoUSXNQIurWIBms=",
+    "originContent": "# OR Configure Kasa smart plug",
+    "translatedContent": "# OR Configure Kasa smart plug"
+  },
+  {
+    "row": 46,
+    "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+    "originContent": "docker run -it --rm --network host \\",
+    "translatedContent": "docker run -it --rm --network host \\"
+  },
+  {
+    "row": 47,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 48,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 49,
+    "rowsha": "hQtBAIYTzhuz9ATg7n1nxKrPRulhXGpWfRa93cqlXOs=",
+    "originContent": "  wattwise config kasa",
+    "translatedContent": "  wattwise config kasa"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "i9e8IViTFxdh8KDUwfx+RudYYZ2osLX7MjBLeaJJhE0=",
+    "originContent": "# Optional: Add additional devices (multi-device config)",
+    "translatedContent": "# Optional: Add additional devices (multi-device config)"
+  },
+  {
+    "row": 52,
+    "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+    "originContent": "docker run -it --rm --network host \\",
+    "translatedContent": "docker run -it --rm --network host \\"
+  },
+  {
+    "row": 53,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 54,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 55,
+    "rowsha": "4Hh/7lcgYdAnKEk/xtRIt3MokgeTIuazxA8BnRzrsxA=",
+    "originContent": "  wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50",
+    "translatedContent": "  wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+    "originContent": "docker run -it --rm --network host \\",
+    "translatedContent": "docker run -it --rm --network host \\"
+  },
+  {
+    "row": 58,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 59,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 60,
+    "rowsha": "wdvxtbKWalSWKexaq+mOgkiitrETOxmG+jVwAKC9Fk8=",
+    "originContent": "  wattwise devices add --name \"Server\" --type homeassistant \\",
+    "translatedContent": "  wattwise devices add --name \"Server\" --type homeassistant \\"
+  },
+  {
+    "row": 61,
+    "rowsha": "THDR7xBoqMdb9nOPiPPYkMqtoRW07QF8kXe5dA7UlIg=",
+    "originContent": "    --host http://homeassistant.local:8123 \\",
+    "translatedContent": "    --host http://homeassistant.local:8123 \\"
+  },
+  {
+    "row": 62,
+    "rowsha": "lUbLTJyT3kKUW+NBRU303RW0jdkvT+aPyF3VKkaebAc=",
+    "originContent": "    --token $HA_TOKEN \\",
+    "translatedContent": "    --token $HA_TOKEN \\"
+  },
+  {
+    "row": 63,
+    "rowsha": "b3bUL2f99+QjQ98t4c63PvIalNoPFdhLn5VLEYoJ2eA=",
+    "originContent": "    --entity-id sensor.server_power \\",
+    "translatedContent": "    --entity-id sensor.server_power \\"
+  },
+  {
+    "row": 64,
+    "rowsha": "ZFZnluHPJSjNsjJyySbR2bLSLKkMV85YWqIX1XmfdP8=",
+    "originContent": "    --current-entity-id sensor.server_current",
+    "translatedContent": "    --current-entity-id sensor.server_current"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "Aa+6smQL1XgtOJt8+UdAbcUTfZd0qxvYdZZUmhHa/r8=",
+    "originContent": "# 4. Run a single check with Docker",
+    "translatedContent": "# 4. Run a single check with Docker"
+  },
+  {
+    "row": 67,
+    "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+    "originContent": "docker run -it --rm --network host \\",
+    "translatedContent": "docker run -it --rm --network host \\"
+  },
+  {
+    "row": 68,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 69,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 70,
+    "rowsha": "nnNZfuogESSPYpfQjYOgNxv/ViAKUodtrN9pVmCTWH0=",
+    "originContent": "  wattwise",
+    "translatedContent": "  wattwise"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "hzTx+cMXDs+eEukJWQA8SgD1UCRlYrgb9ZfzjsakWyg=",
+    "originContent": "# 5. Run with continuous monitoring",
+    "translatedContent": "# 5. Run with continuous monitoring"
+  },
+  {
+    "row": 73,
+    "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+    "originContent": "docker run -it --rm --network host \\",
+    "translatedContent": "docker run -it --rm --network host \\"
+  },
+  {
+    "row": 74,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 75,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 76,
+    "rowsha": "5JDZbwciMiegYaMpQ5z2CCHbMjJzlaFvn6TmEuEyxa0=",
+    "originContent": "  wattwise --watch",
+    "translatedContent": "  wattwise --watch"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "FgHnhZXioe+kQm/xEledDUjbIRiTb9j1JxdQNONHARY=",
+    "originContent": "# 6. If you have permission issues, you can fix them with:",
+    "translatedContent": "# 6. If you have permission issues, you can fix them with:"
+  },
+  {
+    "row": 79,
+    "rowsha": "EqHYXAiNkKm2k9sPbXryDGSz/QAR/lK2ykNyqudt9B4=",
+    "originContent": "sudo chown -R $USER:$USER ~/.config/wattwise ~/.local/share/wattwise",
+    "translatedContent": "sudo chown -R $USER:$USER ~/.config/wattwise ~/.local/share/wattwise"
+  },
+  {
+    "row": 80,
+    "rowsha": "H69OSz0y95D2Tbb3TGfil8fmHDtsR9HaWKyikbI2mrE=",
+    "originContent": "chmod -R u+rw ~/.config/wattwise ~/.local/share/wattwise",
+    "translatedContent": "chmod -R u+rw ~/.config/wattwise ~/.local/share/wattwise"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "Hm2Tqm8U2mTHSTg9Sgq1Q+k5uDRg+nLEzjaEopdzOLk=",
+    "originContent": "# Or using the built-in command:",
+    "translatedContent": "# Or using the built-in command:"
+  },
+  {
+    "row": 83,
+    "rowsha": "1PEZkn+lgSfZc99roIKyWI9FoFwqBjWHFckACEczu9c=",
+    "originContent": "docker run -it --rm --network host \\",
+    "translatedContent": "docker run -it --rm --network host \\"
+  },
+  {
+    "row": 84,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 85,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 86,
+    "rowsha": "E4MYSrYz+JHFEg0QiIkVvvdh5xoi0SzbrsyB97bUod4=",
+    "originContent": "  wattwise config fix-permissions",
+    "translatedContent": "  wattwise config fix-permissions"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "loEZZtAi5Rtgx/JqVrYEsjQfmjQQCWWDxicdLpOBmqY=",
+    "originContent": "## Uninstallation",
+    "translatedContent": "## アンインストール"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "KCum0/UcnkCr1IIcQCou2PYunmR6GO72IxdjBRHV9B4=",
+    "originContent": "### Complete Uninstallation",
+    "translatedContent": "### 完全なアンインストール"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "O5eH/LmShL9rOhsG61oUMdtVj2Kpqba7VhTQibDjGz8=",
+    "originContent": "For a quick and complete removal of WattWise including Docker containers, images, and all configuration:",
+    "translatedContent": "Dockerコンテナ、イメージ、およびすべての設定を含むWattWiseの迅速かつ完全な削除には："
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 96,
+    "rowsha": "QGLXCGuH21A0ZKxxZ75rpwRjCYTURtQQJLWOBD/SC9I=",
+    "originContent": "# Make the script executable (first time only)",
+    "translatedContent": "# Make the script executable (first time only)"
+  },
+  {
+    "row": 97,
+    "rowsha": "WllZF1JA0xZiPvIkGPAkIPUHAj59FwjoKsb0LuNbgqI=",
+    "originContent": "chmod +x clean_uninstall.sh",
+    "translatedContent": "chmod +x clean_uninstall.sh"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "nNlTYydSy3uB1e76ZTxai5HH2QkB2GpmgU9q1HAXq0A=",
+    "originContent": "# Run the uninstallation script",
+    "translatedContent": "# Run the uninstallation script"
+  },
+  {
+    "row": 100,
+    "rowsha": "LB8Pe1fpatQKDWoAp9v39O74P2wxlErqy7c1XW/1kSg=",
+    "originContent": "./clean_uninstall.sh",
+    "translatedContent": "./clean_uninstall.sh"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このスクリプトはすべてのWattWise Dockerコンテナ、Dockerイメージ、設定ファイル、およびデータを削除します。また、WattWiseのpipインストールを検出し、アンインストールを提案します。"
+  },
+  {
+    "row": 103,
+    "rowsha": "vtltOmhXSr/Z0+N8s9ia5iV/D4Ci85K3cPjbOX0ns0M=",
+    "originContent": "This script will remove all WattWise Docker containers, the Docker image, configuration files, and data. It will also detect and offer to uninstall any pip installation of WattWise.",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 手動アンインストール"
+  },
+  {
+    "row": 105,
+    "rowsha": "ZTha2tYNsIPt5sBxfej2teW0GRgYbZFbQwgsWhoEG7Y=",
+    "originContent": "### Manual Uninstallation",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### pip経由で"
+  },
+  {
+    "row": 107,
+    "rowsha": "yx5ccHdoxdhSpXJuaChc229Gfabk7nSnaP4MPtmxqmU=",
+    "originContent": "#### Via pip",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 110,
+    "rowsha": "zuXqdk0qOYL1UVKaNPBKJsRJfBpnA8jFri1hl0HPJyU=",
+    "originContent": "# Uninstall the package",
+    "translatedContent": "# Uninstall the package"
+  },
+  {
+    "row": 111,
+    "rowsha": "vZlO9zGSxcFpIGdPJRfGyfl25p50RHpKolrssgkJ4do=",
+    "originContent": "pip uninstall wattwise",
+    "translatedContent": "pip uninstall wattwise"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "nQdoLKquXBKVb2kZFWOBf7EHyrHFrEAL4C7CXPjOfoo=",
+    "originContent": "# Remove configuration files if desired",
+    "translatedContent": "# Remove configuration files if desired"
+  },
+  {
+    "row": 114,
+    "rowsha": "xYJnlXW7ukPvoLIg7bWRIMe7TESBlbMQoqlQXj0661I=",
+    "originContent": "rm -rf ~/.config/wattwise",
+    "translatedContent": "rm -rf ~/.config/wattwise"
+  },
+  {
+    "row": 115,
+    "rowsha": "/tt2knYZVRvSkAqXuBQGxaFw6zPsezFJ99dhVUdcjrU=",
+    "originContent": "rm -rf ~/.local/share/wattwise",
+    "translatedContent": "rm -rf ~/.local/share/wattwise"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "WgjQLSFJn0PZ2pd1mN1s6iXZqYvCpmdLiXlAZp+TrXA=",
+    "originContent": "#### Docker",
+    "translatedContent": "#### Docker"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 121,
+    "rowsha": "4m05cRSCq31Pg2lP8dIeh9AACWIVcjeBnNOzxkrmP+U=",
+    "originContent": "# Remove the Docker image",
+    "translatedContent": "# Remove the Docker image"
+  },
+  {
+    "row": 122,
+    "rowsha": "TvxiFfY6yXPEVPpiHtDfVIlkc0KdDbvXI9fMfF07ie8=",
+    "originContent": "docker rmi wattwise",
+    "translatedContent": "docker rmi wattwise"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "wLQaD56+61HlfpDUv65+dmbURu4mnUmS66H41GF9lN4=",
+    "originContent": "# Remove local configuration if desired",
+    "translatedContent": "# Remove local configuration if desired"
+  },
+  {
+    "row": 125,
+    "rowsha": "xYJnlXW7ukPvoLIg7bWRIMe7TESBlbMQoqlQXj0661I=",
+    "originContent": "rm -rf ~/.config/wattwise",
+    "translatedContent": "rm -rf ~/.config/wattwise"
+  },
+  {
+    "row": 126,
+    "rowsha": "/tt2knYZVRvSkAqXuBQGxaFw6zPsezFJ99dhVUdcjrU=",
+    "originContent": "rm -rf ~/.local/share/wattwise",
+    "translatedContent": "rm -rf ~/.local/share/wattwise"
+  },
+  {
+    "row": 127,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "Lh+CO4+XL4trbaDGaAT86mzGQ5FCSAp1i4b5+mSZVOk=",
+    "originContent": "## Basic Usage",
+    "translatedContent": "## 基本的な使い方"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "uJxVuTHsL5DlXSSztJo/A/bP6aJWili8lvpJvfxK2is=",
+    "originContent": "### First Time Setup",
+    "translatedContent": "### 初回設定"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 134,
+    "rowsha": "u7/hIKnZTi+0dhxB6t9C2zLqyG0SlY3ksG2lqPOv6/0=",
+    "originContent": "# Configure Home Assistant connection",
+    "translatedContent": "# Configure Home Assistant connection"
+  },
+  {
+    "row": 135,
+    "rowsha": "YpYsCeK85Se0E0b5Xg6cgBSFJnyC4QKwkgM/byyn/2c=",
+    "originContent": "wattwise config ha",
+    "translatedContent": "wattwise config ha"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "hRjVZgwtmsZBEXM+0zSmRYm3E3dZpoUSXNQIurWIBms=",
+    "originContent": "# OR Configure Kasa smart plug",
+    "translatedContent": "# OR Configure Kasa smart plug"
+  },
+  {
+    "row": 138,
+    "rowsha": "mYf3yJYj21NyO0poQD3KVaUE/eYzVboBcbas1uPlY/k=",
+    "originContent": "wattwise config kasa",
+    "translatedContent": "wattwise config kasa"
+  },
+  {
+    "row": 139,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "u/AaFMs7LlEangAz0tS1RwX2mgR7YdtNKhmRCrtDlKw=",
+    "originContent": "### Monitoring",
+    "translatedContent": "### 監視"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 144,
+    "rowsha": "WvEAIhE0MyOGvxrK48aO9WANaI1g+/4+fNyU38Um4qc=",
+    "originContent": "# Quick power view (single reading)",
+    "translatedContent": "# Quick power view (single reading)"
+  },
+  {
+    "row": 145,
+    "rowsha": "Xl3cBDCHbVlAVuxu4//1Vs9XJY4fEVAoS4jKnVhmuWQ=",
+    "originContent": "wattwise",
+    "translatedContent": "wattwise"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "ycLjTirz5JPaqLdt2mBndBHU7JfXj++x9pC8YdKVE28=",
+    "originContent": "# To discover the kasa devices on your local network",
+    "translatedContent": "# To discover the kasa devices on your local network"
+  },
+  {
+    "row": 148,
+    "rowsha": "Zqi67SctR+hz6zQuIamEP9qZm815T1B/FP/xTsX+CmQ=",
+    "originContent": "wattwise --discover",
+    "translatedContent": "wattwise --discover"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "WWXHLgs+8u/7pVDR7OByZH9GfgwdYULWYdiUCLC1tdo=",
+    "originContent": "# Continuous monitoring with charts",
+    "translatedContent": "# Continuous monitoring with charts"
+  },
+  {
+    "row": 151,
+    "rowsha": "ZAGctJEUEvxVgIclFffsaOQas27vAywMeNtQX7FT2hg=",
+    "originContent": "wattwise --watch",
+    "translatedContent": "wattwise --watch"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "gQUtxF3m6CMEm4ovtkMq3OU6nV9XcOOWQKLgcv/Vge8=",
+    "originContent": "# Monitor current (amperes) as well",
+    "translatedContent": "# Monitor current (amperes) as well"
+  },
+  {
+    "row": 154,
+    "rowsha": "1v2/QmeZLjp/4OBxGGb0aulrpGj8KmLbxo1qCC+iTWA=",
+    "originContent": "wattwise --current --watch",
+    "translatedContent": "wattwise --current --watch"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "zGukN1MhnqBj+7WzIHMtoOmbdPoueoBcLwFp0bUN9P4=",
+    "originContent": "# Set refresh interval (seconds)",
+    "translatedContent": "# Set refresh interval (seconds)"
+  },
+  {
+    "row": 157,
+    "rowsha": "LeA9zm0HEwc3T8jXawGt/FEY/iAZ2Z4+TTFflYQKAGQ=",
+    "originContent": "wattwise --watch --interval 5",
+    "translatedContent": "wattwise --watch --interval 5"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "WuwtWAuxC6MbYhMwjU/+1aPBgvAqThTcBV5aO3qLZ6g=",
+    "originContent": "# Output only raw watt value (for scripting use)",
+    "translatedContent": "# Output only raw watt value (for scripting use)"
+  },
+  {
+    "row": 160,
+    "rowsha": "ujJxAMGDN2IUdCbgOuyIWK1FhO2RMlNv2HHe7fcz5po=",
+    "originContent": "wattwise --raw",
+    "translatedContent": "wattwise --raw"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "BsXPGB2pFw4ZqCShFI0fYDSOkXgc27ikNZJp1ErgM5Y=",
+    "originContent": "# Continuous raw monitoring (output a new value every second)",
+    "translatedContent": "# Continuous raw monitoring (output a new value every second)"
+  },
+  {
+    "row": 163,
+    "rowsha": "NE3pwz9Gk40y/HWVgLG8tI6AfKPW666k67duGTfqlQA=",
+    "originContent": "wattwise --raw --watch",
+    "translatedContent": "wattwise --raw --watch"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "zPtOTkJWi3nl3DyRTX+n8t74TBA6I8PdreQwCUVmw6s=",
+    "originContent": "# Specify data source manually",
+    "translatedContent": "# Specify data source manually"
+  },
+  {
+    "row": 166,
+    "rowsha": "dDfiPA+h47v+z9m3gy8kAp3Pc1qhnjP3kSDltVrd4T8=",
+    "originContent": "wattwise --source homeassistant",
+    "translatedContent": "wattwise --source homeassistant"
+  },
+  {
+    "row": 167,
+    "rowsha": "lehtY+oS3mtbamLFNwMVABgBMgpQat/aBmHzdOWlR9s=",
+    "originContent": "wattwise --source kasa",
+    "translatedContent": "wattwise --source kasa"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "rzvQX7oBWfl0sou51zGEKnpGz85VAoSnjdWXs9YpM6M=",
+    "originContent": "# Manage multiple devices",
+    "translatedContent": "# Manage multiple devices"
+  },
+  {
+    "row": 170,
+    "rowsha": "7zkEyiwG7lqstUku77h34L2j4sz0VRY7KF20f7FwjjU=",
+    "originContent": "wattwise devices list",
+    "translatedContent": "wattwise devices list"
+  },
+  {
+    "row": 171,
+    "rowsha": "drry0L42iSlRFYeo48a/wrLJlXyfPKNjUPBwgpihVEo=",
+    "originContent": "wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50",
+    "translatedContent": "wattwise devices add --name \"PC\" --type kasa --ip 192.168.1.50"
+  },
+  {
+    "row": 172,
+    "rowsha": "lV0fXThlWg7HUIJbMTRS/bPBiCp/RKS1yfUUGsMT0/k=",
+    "originContent": "wattwise devices add --name \"Server\" --type homeassistant \\",
+    "translatedContent": "wattwise devices add --name \"Server\" --type homeassistant \\"
+  },
+  {
+    "row": 173,
+    "rowsha": "oq4J211EvRglXAqN8tzYfxmWNWOrPRqOh/wuixK1HWU=",
+    "originContent": "  --host http://homeassistant.local:8123 \\",
+    "translatedContent": "  --host http://homeassistant.local:8123 \\"
+  },
+  {
+    "row": 174,
+    "rowsha": "oaYvHBkx8OVgeS5Sc/U7oyoSkynFaTbv9t88cJO55D0=",
+    "originContent": "  --token $HA_TOKEN \\",
+    "translatedContent": "  --token $HA_TOKEN \\"
+  },
+  {
+    "row": 175,
+    "rowsha": "O17xmMgLhdRJnaVJIbpC0MmJT4PHCOMDyV2STG7X9ak=",
+    "originContent": "  --entity-id sensor.server_power \\",
+    "translatedContent": "  --entity-id sensor.server_power \\"
+  },
+  {
+    "row": 176,
+    "rowsha": "joXiTdkCpCmQkYCHIsEmIEwH5jDlEuVONGHHIUqH20E=",
+    "originContent": "  --current-entity-id sensor.server_current",
+    "translatedContent": "  --current-entity-id sensor.server_current"
+  },
+  {
+    "row": 177,
+    "rowsha": "M0NqVkDBCsjKBeTZI2kb7K9ohz7fKNmKS4zvSJxutic=",
+    "originContent": "wattwise --device \"PC\"",
+    "translatedContent": "wattwise --device \"PC\""
+  },
+  {
+    "row": 178,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 要件"
+  },
+  {
+    "row": 180,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Python 3.11 以降"
+  },
+  {
+    "row": 182,
+    "rowsha": "KPFfVYuI9YiUWz7wgFKCwj1QpHeGlCtX8HS3M/Q7UIo=",
+    "originContent": "- Python 3.11 or later",
+    "translatedContent": "- 機器に接続された TP-Link Kasa スマートプラグ"
+  },
+  {
+    "row": 183,
+    "rowsha": "HDw4OG1s6hFSnVsrwzccOmrUi4/3QLD0TZ68WyCA5u0=",
+    "originContent": "- A TP-Link Kasa smart plug connected to your equipment",
+    "translatedContent": "- 任意：Kasa統合を使用したHome Assistantのセットアップ"
+  },
+  {
+    "row": 184,
+    "rowsha": "J2JR5gitq+55y64uTikoodnJE08ke41BpuqzIx5p5TM=",
+    "originContent": "- Optional: Home Assistant setup with the Kasa integration",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 設定"
+  },
+  {
+    "row": 186,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "設定は `~/.config/wattwise/config.yaml` に保存され、以下を含みます："
+  },
+  {
+    "row": 188,
+    "rowsha": "ZtOedLWjOMEL+e8LY/29uUKOU6SADVPdKGUFppHrnRA=",
+    "originContent": "Configuration is stored in `~/.config/wattwise/config.yaml` and includes:",
+    "translatedContent": "- Home Assistantの接続情報（URL、トークン、エンティティID）"
+  },
+  {
+    "row": 189,
+    "rowsha": "1bT0NRsqCe4OD1EQGSYaq45kjBcMjnHuaKxeYlwGXuY=",
+    "originContent": "- Home Assistant connection details (URL, token, entity IDs)",
+    "translatedContent": "- Kasaデバイスの詳細（IPアドレス）"
+  },
+  {
+    "row": 190,
+    "rowsha": "TPg7N108MSlJEH4EjV1tzlzIeVWftQIbASnAOnGB0LU=",
+    "originContent": "- Kasa device details (IP address)",
+    "translatedContent": "- 認証トークンは安全に保存されます"
+  },
+  {
+    "row": 191,
+    "rowsha": "EdBynVN6UR6pYLbnARpA6HkRZ2BlfV85bYbvTQWzjpE=",
+    "originContent": "- Authentication tokens are stored securely",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Docker使用のヒント"
+  },
+  {
+    "row": 193,
+    "rowsha": "mD5bwF6g22r/ua6hTaUlJzEEmSDta9OMq3Z5wvUFCKY=",
+    "originContent": "## Docker Usage Tips",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 簡単に使うためのエイリアス作成"
+  },
+  {
+    "row": 195,
+    "rowsha": "FFfz2ZKKeJ5Ik7lTIigdcORjt3C5UW6wCIrfciSOmUw=",
+    "originContent": "### Create an Alias for Easy Use",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "より簡単に使えるようにbashエイリアスを作成できます："
+  },
+  {
+    "row": 197,
+    "rowsha": "CZ7At6PodTr3K8VbXV4NvPf+Q6KuAhGKOc72vFfg0KU=",
+    "originContent": "You can create a bash alias for easier usage:",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 200,
+    "rowsha": "UOB8EJdq1FPr0lhhRJ+VG3dNLcf9TTaDYC1Z1SW1E/g=",
+    "originContent": "# Add to your .bashrc or .zshrc file",
+    "translatedContent": "# Add to your .bashrc or .zshrc file"
+  },
+  {
+    "row": 201,
+    "rowsha": "nXbDX/VubPOaJBQorTwncgk4E3u+RTVvMQeqQ3kbk8c=",
+    "originContent": "alias wattwise='docker run -it --rm --network host \\",
+    "translatedContent": "alias wattwise='docker run -it --rm --network host \\"
+  },
+  {
+    "row": 202,
+    "rowsha": "s0HfM/tO/bHVCbIq2fw6qtgMsAMUTgNKyz8e9icXi2U=",
+    "originContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\",
+    "translatedContent": "  -v ~/.config/wattwise:/root/.config/wattwise \\"
+  },
+  {
+    "row": 203,
+    "rowsha": "mCYgpmu8XXyeyppDUTttcjJEz1bvH0W4iRY4bTsit3g=",
+    "originContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\",
+    "translatedContent": "  -v ~/.local/share/wattwise:/root/.local/share/wattwise \\"
+  },
+  {
+    "row": 204,
+    "rowsha": "mDfdaMY1fFeLP31Kce6UL7KGdY7Fi7cYkobRHZhcOxg=",
+    "originContent": "  wattwise'",
+    "translatedContent": "  wattwise'"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "a6Yy2OBRKkfFr1bMhweuWCd88VoUF4GFdtx53IPq67A=",
+    "originContent": "# After creating the alias, you can use it just like the normal command:",
+    "translatedContent": "# After creating the alias, you can use it just like the normal command:"
+  },
+  {
+    "row": 207,
+    "rowsha": "L3rcZsVZuQSXda3cdi3Ym9tlmamQdyPutOKQ2V58BO0=",
+    "originContent": "wattwise  # Single reading",
+    "translatedContent": "wattwise  # Single reading"
+  },
+  {
+    "row": 208,
+    "rowsha": "NwM12qdR5sdmkv2vNqLRxMUtfcNabUp3LG55rcevvus=",
+    "originContent": "wattwise --watch  # Continuous monitoring",
+    "translatedContent": "wattwise --watch  # Continuous monitoring"
+  },
+  {
+    "row": 209,
+    "rowsha": "UtOu/jqhXc3O0W7qwN/jhn26gi2G3bVztMbZpEvl2N0=",
+    "originContent": "wattwise config fix-permissions  # Fix directory permissions",
+    "translatedContent": "wattwise config fix-permissions  # Fix directory permissions"
+  },
+  {
+    "row": 210,
+    "rowsha": "3lNssluvD6ii1xPK+gp8W/RyUatnTfQSxHGbxrBh0DI=",
+    "originContent": "wattwise --device \"PC\"  # Target a specific configured device",
+    "translatedContent": "wattwise --device \"PC\"  # Target a specific configured device"
+  },
+  {
+    "row": 211,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
