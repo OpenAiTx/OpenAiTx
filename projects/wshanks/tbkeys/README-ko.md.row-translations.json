@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "rowsha": "iq+kPoRVStjg6UBaGKBdQNgjJ1spRWUMUDu+Q8GOXjg=",
+    "originContent": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)",
+    "translatedContent": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "zSFXiR1bcwm9G8Kr8x1fIHUYKmCJqYsx34eDaAr4iOY=",
+    "originContent": "# <a name=\"intro\"></a>tbkeys",
+    "translatedContent": "# <a name=\"intro\"></a>tbkeys"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "+2UFgA+O0m7+DhI7nLX9ZoDjTIA6s0GAjb5FN4+1uFg=",
+    "originContent": "`tbkeys` is an add-on for Thunderbird that uses [Mousetrap](https://craig.is/killing/mice) to bind key sequences to custom commands.",
+    "translatedContent": "`tbkeys`는 [Mousetrap](https://craig.is/killing/mice)을 사용하여 키 시퀀스를 사용자 명령에 바인딩하는 Thunderbird용 애드온입니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "ZZpVG4ErgRwsyfsiJWHiHFMX1yqELkxuiGOvqeJGVuk=",
+    "originContent": "- Download the tbkeys.xpi file from one of the releases listed on the [GitHub releases page](https://github.com/willsALMANJ/tbkeys/releases).",
+    "translatedContent": "- [GitHub 릴리스 페이지](https://github.com/willsALMANJ/tbkeys/releases)에 나열된 릴리스 중 하나에서 tbkeys.xpi 파일을 다운로드합니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "vBucR5pm66giBA0SE6xzIAXCgWT6B4saBUe6Uk/Xf+M=",
+    "originContent": "- Open the Add-ons Manager in Thunderbird (Tools->Add-ons).",
+    "translatedContent": "- Thunderbird에서 애드온 관리자(도구->애드온)를 엽니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "T+5ewlCM/xhUKF4m+lX1+SL7cDESs8Gg2yywpkY5R48=",
+    "originContent": "- Click on the gear icon in the upper right and choose \"Install Add-on From File...\" and then select the downloaded tbkeys.xpi file.",
+    "translatedContent": "- 우측 상단의 톱니바퀴 아이콘을 클릭하고 \"파일에서 애드온 설치...\"를 선택한 후 다운로드한 tbkeys.xpi 파일을 선택합니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "YoenvvAKWXw4QPwyOUCKMOo++hjfBjQEVNtWO4onz7Q=",
+    "originContent": "- The add-on will self-update from the GitHub releases page when future updates are released.",
+    "translatedContent": "- 애드온은 추후 업데이트가 릴리스되면 GitHub 릴리스 페이지에서 자동으로 업데이트됩니다."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "uKIePFE/v7LKLf7yvtbEurQxHGgpD3Q7zf7YWRJlNm0=",
+    "originContent": "The [tbkeys-lite](#tbkeys-lite) version of the addon can also be installed from addons.thunderbird.net by searching for \"tbkeys-lite\" in the Thunderbird addons manager or by downloading the xpi file from [this page](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/) and following the steps above.",
+    "translatedContent": "[addons.thunderbird.net](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/)에서 \"tbkeys-lite\"를 검색하여 Thunderbird 애드온 관리자에서 설치하거나 위 페이지에서 xpi 파일을 다운로드하고 위 단계를 따라 설치할 수도 있습니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "6JnczJ4lnqktjf9eY6UQu0keITnpHx8FL1Sstc7Ckrs=",
+    "originContent": "## Default key bindings",
+    "translatedContent": "## 기본 키 바인딩"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "6P/uQcSrh+M7HHwsKei789EaO1zHt1L5ikFCUIMIwRs=",
+    "originContent": "The default key bindings for the main window are modeled on GMail's key bindings.",
+    "translatedContent": "기본 키 바인딩은 메인 창에서 GMail의 키 바인딩을 모델로 합니다."
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "ou+34qxZqtJzukyikOxU/QeHYDsHIyf5a+mqjZb5r+k=",
+    "originContent": "| Key | Function                                          |",
+    "translatedContent": "| 키 | 기능                                             |"
+  },
+  {
+    "row": 21,
+    "rowsha": "cdRnclJtb/OEnk/aGzKiTr9UU4hrkgTv08mCDCxgUNk=",
+    "originContent": "| --- | ------------------------------------------------- |",
+    "translatedContent": "| --- | ------------------------------------------------- |"
+  },
+  {
+    "row": 22,
+    "rowsha": "kXq9atu2wE78rA9xv3acecOSHtTfHg+gpYywEl7Hy8s=",
+    "originContent": "| c   | Compose new message                               |",
+    "translatedContent": "| c   | 새 메시지 작성                                  |"
+  },
+  {
+    "row": 23,
+    "rowsha": "FbZ9SLuo+1sy0e4iUMzK42nnA9C0mtIuy0c0xyLXJVM=",
+    "originContent": "| r   | Reply                                             |",
+    "translatedContent": "| r   | 답장                                             |"
+  },
+  {
+    "row": 24,
+    "rowsha": "NJYTgo1sJIU4ZP3ksuHK6xOOmhRtFFqzXi0UeTljxEA=",
+    "originContent": "| a   | Reply all                                         |",
+    "translatedContent": "| a   | 모두에게 답장                                   |"
+  },
+  {
+    "row": 25,
+    "rowsha": "gz4atjlMq/hBQf82BiSCTsX8G3M0DIUq7cHjy9v9Arw=",
+    "originContent": "| f   | Forward                                           |",
+    "translatedContent": "| f   | 전달                                             |"
+  },
+  {
+    "row": 26,
+    "rowsha": "uU9A5ZCK+qxuCdR5XD9UMdwvuJywfT6yfGbq8//f0uU=",
+    "originContent": "| #   | Delete                                            |",
+    "translatedContent": "| #   | 삭제                                             |"
+  },
+  {
+    "row": 27,
+    "rowsha": "X6hW7gXQGI2a6cD+Gc61Bd30Ss8g43xlhh3whSlyzEU=",
+    "originContent": "| u   | Refresh mail. If a message tab is open, close it. |",
+    "translatedContent": "| u   | 메일 새로 고침. 메시지 탭이 열려 있으면 닫음.      |"
+  },
+  {
+    "row": 28,
+    "rowsha": "qzzLHIt+h/rAkhu/Qh6IyhLXq4rqwkVO054HI43IM2g=",
+    "originContent": "| j   | Next message                                      |",
+    "translatedContent": "| j   | 다음 메시지                                      |"
+  },
+  {
+    "row": 29,
+    "rowsha": "V7Kz1xEfW1SrzjWSlPXdqDg6eMA+3yAwt5+AtkShQRo=",
+    "originContent": "| k   | Previous message                                  |",
+    "translatedContent": "| k   | 이전 메시지                                     |"
+  },
+  {
+    "row": 30,
+    "rowsha": "wl1UBhLG81PpBpTAhsLgu3ed8f6j4yXhsxTrBrXSq/A=",
+    "originContent": "| o   | Open message                                      |",
+    "translatedContent": "| o   | 메시지 열기                                     |"
+  },
+  {
+    "row": 31,
+    "rowsha": "bacEE5BuDx9SqdVOg5cMhsDTyv9VycNhnIr1Pkhmb+w=",
+    "originContent": "| x   | Archive message                                   |",
+    "translatedContent": "| x   | 메시지 보관                                     |"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "Cl+sU3r7lA0D7oxQMbF0qkkBGU423cpZwrHlY+EIxbM=",
+    "originContent": "## Customizing key bindings",
+    "translatedContent": "## 키 바인딩 사용자 지정"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "GbAqt77K+FqnTQj3ZlUlv48gIwG3VKVBBuSZgJ8TxYY=",
+    "originContent": "To customize key bindings, modify the \"key bindings\" entries in the add-on's preferences pane which can be accessed from the add-on's entry in the Add-ons Manager (\"Add-ons\" in the Thunderbird menu).",
+    "translatedContent": "키 바인딩을 사용자 지정하려면 애드온 관리자에서 애드온 항목의 환경설정 창에 있는 \"키 바인딩\" 항목을 수정하세요 (\"Thunderbird 메뉴 -> 애드온\")."
+  },
+  {
+    "row": 36,
+    "rowsha": "cxtyXw+we/assHekQ/RFfvPehIw4ZsLG+XiflYmlrIk=",
+    "originContent": "Here are some things to consider when setting key bindings:",
+    "translatedContent": "키 바인딩 설정 시 고려할 사항은 다음과 같습니다:"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "uQGyi+3XMfaeLe4WeE6qN0pzA+WLwbgUb9PW9DQGwOg=",
+    "originContent": "- The \"key bindings\" entry should be a JSON object mapping key bindings (with Mousetrap syntax as described [here](https://craig.is/killing/mice)) to a valid command (see the [Command syntax](#command-syntax)) section.",
+    "translatedContent": "- \"키 바인딩\" 항목은 키 바인딩(Mousetrap 문법, 자세한 내용은 [여기](https://craig.is/killing/mice) 참조)을 유효한 명령어([명령어 문법](#command-syntax) 섹션 참조)에 매핑하는 JSON 객체여야 합니다."
+  },
+  {
+    "row": 39,
+    "rowsha": "AiEcvn5Ab/8W+5UmUAqqUUWn+g0yhdD5YdwhFcWRZgA=",
+    "originContent": "- There are separate fields in the preferences page for setting key bindings for the main Thunderbird window and the compose window.",
+    "translatedContent": "- 환경설정 페이지에는 메인 Thunderbird 창과 작성 창 각각에 대해 키 바인딩을 설정하는 별도의 필드가 있습니다."
+  },
+  {
+    "row": 40,
+    "rowsha": "nCVlgW9Mrv9pkbw2rLyOaYhSsDb7V6WAR6N5gLAqzPE=",
+    "originContent": "  Key bindings do not fire in other windows.",
+    "translatedContent": "  키 바인딩은 다른 창에서는 작동하지 않습니다."
+  },
+  {
+    "row": 41,
+    "rowsha": "tAjlS+w+iouIs0KrJ7zIITyuSJwcR5RtNi4kbtZ7C0I=",
+    "originContent": "- Key bindings do not fire in text input fields unless the first key combo includes a modifier other than `shift`.",
+    "translatedContent": "- 텍스트 입력 필드에서는 첫 번째 키 조합에 `shift` 이외의 수정자가 포함되지 않으면 키 바인딩이 작동하지 않습니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "GrSVv30WVyopEfNh78ao+HjHZEo+/NHhuIZcehR4+Yw=",
+    "originContent": "- The preferences page will not allow invalid JSON to be submitted, but it does not sanity check the key bindings otherwise.",
+    "translatedContent": "- 환경설정 페이지는 유효하지 않은 JSON 제출을 허용하지 않지만, 키 바인딩에 대해서는 별도의 유효성 검사를 하지 않습니다."
+  },
+  {
+    "row": 43,
+    "rowsha": "t/3mtSniflVZZV6KsBD52U6h2YJcnQEgz6BQMyckXic=",
+    "originContent": "- This [old wiki page about Keyconfig](http://kb.mozillazine.org/Keyconfig_extension:_Thunderbird) also has some commands that are still valid.",
+    "translatedContent": "- 이 [Keyconfig에 관한 오래된 위키 페이지](http://kb.mozillazine.org/Keyconfig_extension:_Thunderbird)에도 여전히 유효한 일부 명령어가 있습니다."
+  },
+  {
+    "row": 44,
+    "rowsha": "BQ2CqEZVdE6m//OKsRFjhOkcwJTD+QXhlknyCecC4zo=",
+    "originContent": "- The Developer Toolbox (Tools->Developer Tools->Developer Toolbox in the menu) can be useful for poking around at the UI to find the name of an element to call a function on.",
+    "translatedContent": "- 개발자 도구 상자(메뉴에서 도구->개발자 도구->개발자 도구 상자)는 UI를 조사하여 함수 호출 대상 요소 이름을 찾는 데 유용할 수 있습니다."
+  },
+  {
+    "row": 45,
+    "rowsha": "ZwvwPan1N2Y9oaLIVN54xhFAob9U4/WH6JzUA2gJBwg=",
+    "originContent": "- Defining a key sequence (meaning multiple keys in succession) where the first key combination in the sequence is the same as a built-in shortcut (like `ctrl+j ctrl+k`) is not supported.",
+    "translatedContent": "- 시퀀스 키(연속된 여러 키)에서 첫 번째 키 조합이 내장 단축키와 동일한 경우(예: `ctrl+j ctrl+k`)는 지원하지 않습니다."
+  },
+  {
+    "row": 46,
+    "rowsha": "cJ8xhi6PJTZ2lx0GDo5M1z7YMjNhayKWIKaXzOCB/FQ=",
+    "originContent": "  Single keys with modifiers may be mapped to override the built-in shortcuts but not sequences.",
+    "translatedContent": "  수정자가 포함된 단일 키는 내장 단축키를 덮어쓸 수 있으나 시퀀스는 불가능합니다."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "7lcu2oJZIGHk7u0EgS3vu/VT1MheMiQrWLHIhoLlNQs=",
+    "originContent": "### Command syntax",
+    "translatedContent": "### 명령어 문법"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "Z0ADjJiW8XJ76F2YfOL7f9XTsGG84Ta8+QKn3nVAFdI=",
+    "originContent": "A few different styles of commands can be specified for key bindings.",
+    "translatedContent": "키 바인딩에 대해 몇 가지 다른 스타일의 명령어를 지정할 수 있습니다."
+  },
+  {
+    "row": 51,
+    "rowsha": "Fs742TYZkpZC7IuYcZp/JU41kK1wNlXGR/skH733zrw=",
+    "originContent": "They are:",
+    "translatedContent": "다음과 같습니다:"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "A/mWPk0NcYFrDmSODHUZyp+gr3UbWy38Sog2p9zSABM=",
+    "originContent": "- **Simple commands**: These commands follow the format `cmd:<command_name>` where `<command_name>` is a command that Thunderbird can execute with `goDoCommand()`.",
+    "translatedContent": "- **단순 명령어**: 이 명령어는 `cmd:<command_name>` 형식을 따르며, `<command_name>`은 Thunderbird가 `goDoCommand()`로 실행할 수 있는 명령어입니다."
+  },
+  {
+    "row": 54,
+    "rowsha": "xqT4KBhgjnl62ia4IEBn/FM6sPGO6SO4lot5s+GPu1s=",
+    "originContent": "  Most command names can be found in [the main command set file](https://hg.mozilla.org/comm-central/file/tip/mail/base/content/mainCommandSet.inc.xhtml) of the Thunderbird source code.",
+    "translatedContent": "  대부분의 명령어 이름은 Thunderbird 소스 코드의 [주요 명령어 세트 파일](https://hg.mozilla.org/comm-central/file/tip/mail/base/content/mainCommandSet.inc.xhtml)에서 찾을 수 있습니다."
+  },
+  {
+    "row": 55,
+    "rowsha": "G3DLLKvyGMzGTtvPKF0H4NKTwbaWQaJPbbwOVuQy3aM=",
+    "originContent": "- **Simple function calls**: These commands follow the format `func:<func_name>` where `<func_name>` is a function defined on the Thunderbird window object.",
+    "translatedContent": "- **단순 함수 호출**: 이 명령어는 `func:<func_name>` 형식을 따르며, `<func_name>`은 Thunderbird 창 객체에 정의된 함수 이름입니다."
+  },
+  {
+    "row": 56,
+    "rowsha": "Igxg4A5p/X/oiN3feXM9gnaIP8k+STDlyV+PLuvmYC8=",
+    "originContent": "  That function is called without any arguments.",
+    "translatedContent": "  해당 함수는 인자 없이 호출됩니다."
+  },
+  {
+    "row": 57,
+    "rowsha": "LRMHIt4bxQvbGjzohnLRGjOcbEPlnuoRIIcQrMor0Jo=",
+    "originContent": "- **Custom function calls**: These commands follow the format `tbkeys:<func_name>` where `<func_name>` is the name of a custom function written in tbkeys.",
+    "translatedContent": "- **사용자 정의 함수 호출**: 이 명령어는 `tbkeys:<func_name>` 형식을 따르며, `<func_name>`은 tbkeys에서 작성한 사용자 정의 함수 이름입니다."
+  },
+  {
+    "row": 58,
+    "rowsha": "3mZheWSKvMJEdA+Cx2pEtY/5WgqQ/2Jfj6HvHz6pLSY=",
+    "originContent": "  Currently, the only available custom function is `closeMessageAndRefresh` which closes the open tab if it is not the first tab and then refreshes all accounts.",
+    "translatedContent": "  현재 사용 가능한 사용자 정의 함수는 `closeMessageAndRefresh`뿐이며, 이는 첫 번째 탭이 아닌 경우 열린 탭을 닫고 모든 계정을 새로 고칩니다."
+  },
+  {
+    "row": 59,
+    "rowsha": "8CxVocFDUWhJVEMhVo9VT/0rl16dsPPtDVADrl1tHk8=",
+    "originContent": "  This behavior mimics the behavior of the GMail keybinding `u`.",
+    "translatedContent": "  이 동작은 GMail 키 바인딩의 `u`와 유사합니다."
+  },
+  {
+    "row": 60,
+    "rowsha": "UKPFSxqIJc9SV/nZtXSCWLfkCLNm4xfE0E8PSp0f3aE=",
+    "originContent": "- **Unset binding**: These entries simply contain the text `unset`.",
+    "translatedContent": "- **바인딩 해제**: 이 항목은 단순히 `unset` 텍스트를 포함합니다."
+  },
+  {
+    "row": 61,
+    "rowsha": "83YpzSlexUMKK+K8i+zchl5fB9vLuCxeyOfc92BjL4w=",
+    "originContent": "  When an `unset` keybinding is triggered, nothing happens.",
+    "translatedContent": "  `unset` 키 바인딩이 트리거되면 아무 동작도 하지 않습니다."
+  },
+  {
+    "row": 62,
+    "rowsha": "7kV0bZznNQsmMa+wMva1BD2Zkh9Qxof7YEspbl1Tt5Y=",
+    "originContent": "  This can be useful unbinding built-in Thunderbird key bindings which you do not wish to trigger by accident.",
+    "translatedContent": "  이는 실수로 실행하고 싶지 않은 내장 Thunderbird 키 바인딩을 해제할 때 유용할 수 있습니다."
+  },
+  {
+    "row": 63,
+    "rowsha": "0IYf0t9+BqMoizACz6uW3FZS8podNJXnW+u22XLopp4=",
+    "originContent": "- **MailExtension messages**: These commands follow the format `memsg:<extensionID>:<message>` where `<extensionID>` is the ID of the Thunderbird extension to which to send a message and `<message>` is a string message to send to the extension using the `browser.runtime.sendMessage()` MailExtension API.",
+    "translatedContent": "- **MailExtension 메시지**: 이 명령어는 `memsg:<extensionID>:<message>` 형식을 따르며, `<extensionID>`는 메시지를 보낼 Thunderbird 확장 프로그램 ID이고, `<message>`는 `browser.runtime.sendMessage()` MailExtension API를 사용하여 확장 프로그램에 보낼 문자열 메시지입니다."
+  },
+  {
+    "row": 64,
+    "rowsha": "2Qu2jDpDMgOQHsYGMNwFiZD96dS732h3KQEnZeUCBgg=",
+    "originContent": "  Currently, only string messages are supported because `tbkeys` stores its commands as strings, though that restriction could possibly be relaxed in the future.",
+    "translatedContent": "  현재는 `tbkeys`가 명령어를 문자열로 저장하기 때문에 문자열 메시지만 지원하며, 이 제한은 향후 완화될 수 있습니다."
+  },
+  {
+    "row": 65,
+    "rowsha": "6yET9qGeEGc3UUhNcsifUU3FRNbXElMCVZijqXHx1EI=",
+    "originContent": "- <a name=\"eval\"></a>**Eval commands**: These entries may contain arbitrary javascript code on which tbkeys will call `eval()` when the key binding is triggered.",
+    "translatedContent": "- <a name=\"eval\"></a>**Eval 명령어**: 이 항목은 tbkeys가 키 바인딩이 트리거될 때 `eval()`을 호출하는 임의의 자바스크립트 코드를 포함할 수 있습니다."
+  },
+  {
+    "row": 66,
+    "rowsha": "MV7/HZqIVWwglNHa/VMZkVihgZ60qS80riO3pX+ms64=",
+    "originContent": "  Any entry not matching the prefixes of the other command types is treated as an eval command.",
+    "translatedContent": "  다른 명령어 유형의 접두사와 일치하지 않는 모든 항목은 eval 명령어로 처리됩니다."
+  },
+  {
+    "row": 67,
+    "rowsha": "BNfmLU5MLpWqfxFQQQmuxkWpOkDFAmm04iljwG9zPuY=",
+    "originContent": "  **NOTE:** eval commands are not available in tbkeys-lite and will function the same as unset commands instead.",
+    "translatedContent": "  **참고:** eval 명령어는 tbkeys-lite에서는 사용할 수 없으며, 대신 unset 명령어와 동일하게 동작합니다."
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "n9YQzP99onZU7mrYvAsRl3LJeE+WdVS1w1/KN+g/Xbc=",
+    "originContent": "## Common key bindings",
+    "translatedContent": "## 일반적인 키 바인딩"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "aJucfkzm+i7v9UO+iuI5j4pB9jKpzs8Iw51itz0CcAQ=",
+    "originContent": "Here are some examples of eval commands for commonly desired key bindings:",
+    "translatedContent": "다음은 일반적으로 원하는 키 바인딩에 대한 eval 명령어 예시입니다:"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "2eMxfnJr78N91SD/Vpd5L2O6IrBkmPuJzQ7ozbJYbqk=",
+    "originContent": "- **Next tab**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(1, true)`",
+    "translatedContent": "- **다음 탭**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(1, true)`"
+  },
+  {
+    "row": 74,
+    "rowsha": "sG5xxs+akysTtpe469dQSPL3xZ/UCX291RUOazDfYD0=",
+    "originContent": "- **Previous tab**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(-1, true)`",
+    "translatedContent": "- **이전 탭**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(-1, true)`"
+  },
+  {
+    "row": 75,
+    "rowsha": "bUNl/9yaRIM+OzXasMrvoeHsrOMHqJ5/k1Cn1hl7zN4=",
+    "originContent": "- **Close tab**: `func:CloseTabOrWindow`",
+    "translatedContent": "- **탭 닫기**: `func:CloseTabOrWindow`"
+  },
+  {
+    "row": 76,
+    "rowsha": "ShGvUvqg2H8fTniXx3t8kpNbZ4QmiGs2lGXv+YBjF6w=",
+    "originContent": "- **Scroll message list down**: `window.document.getElementById('threadTree').scrollByLines(1)`",
+    "translatedContent": "- **메시지 목록 아래로 스크롤**: `window.document.getElementById('threadTree').scrollByLines(1)`"
+  },
+  {
+    "row": 77,
+    "rowsha": "vhsFsiFewtWkVx1eR47eSRaXOXkSunNVwPMem0aOSro=",
+    "originContent": "- **Scroll message list up**: `window.document.getElementById('threadTree').scrollByLines(-1)`",
+    "translatedContent": "- **메시지 목록 위로 스크롤**: `window.document.getElementById('threadTree').scrollByLines(-1)`"
+  },
+  {
+    "row": 78,
+    "rowsha": "VTDGNw72lcUR3bpnMFScfiS+/F7GCziZcHi+QQOcOmg=",
+    "originContent": "- **Scroll message body down**:",
+    "translatedContent": "- **메시지 본문 아래로 스크롤**:"
+  },
+  {
+    "row": 79,
+    "rowsha": "fTGeMS0Y71QQ8B3lgg0Pek+ojwBgb179aOVaz52Ssx0=",
+    "originContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, 100)`",
+    "translatedContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, 100)`"
+  },
+  {
+    "row": 80,
+    "rowsha": "QQ/f/UmoLH1ENwHlbjS1DiJcmzq7sSaBgwWOdURliD4=",
+    "originContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, 100)`",
+    "translatedContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, 100)`"
+  },
+  {
+    "row": 81,
+    "rowsha": "KcIsOkUCf/UmkEVmGoWL31C54K4N2fZj40/ZSK+8R3c=",
+    "originContent": "- **Scroll message body up**:",
+    "translatedContent": "- **메시지 본문 위로 스크롤**:"
+  },
+  {
+    "row": 82,
+    "rowsha": "yIA4XmI/5lEQqJrWNwz8/9vo+CksGha+n9NcFOlMR4o=",
+    "originContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, -100)`",
+    "translatedContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, -100)`"
+  },
+  {
+    "row": 83,
+    "rowsha": "nlotFJQLxlhW+Wr3vNorhrHFi31U3T5ztwzuyMSG7aw=",
+    "originContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, -100)`",
+    "translatedContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, -100)`"
+  },
+  {
+    "row": 84,
+    "rowsha": "fPApOywnEtFZpWXRLGNQfQK3uaZFvbYXwfg+p2vf8fQ=",
+    "originContent": "- **Create new folder**: `window.goDoCommand('cmd_newFolder')`",
+    "translatedContent": "- **새 폴더 만들기**: `window.goDoCommand('cmd_newFolder')`"
+  },
+  {
+    "row": 85,
+    "rowsha": "f3MPnT2X8NoLYQR3r2BwWwtu8JsJjCUHeWKmKo0v2Xk=",
+    "originContent": "- **Subscribe to feed**: `window.openSubscriptionsDialog(window.GetSelectedMsgFolders()[0])`",
+    "translatedContent": "- **피드 구독하기**: `window.openSubscriptionsDialog(window.GetSelectedMsgFolders()[0])`"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "WjDGe51Pesy6OfPDIQJjshTO5cGgWnPkjlsG5h5eTPI=",
+    "originContent": "## Unsetting default key bindings",
+    "translatedContent": "## 기본 키 바인딩 해제"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "cTAr6jJoshvyC5t2Lp+7CHJrh/SIQrConmucEhmTesk=",
+    "originContent": "The \"Unset singles\" button in the preferences pane can be used to unset Thunderbird's default single key bindings in the main window.",
+    "translatedContent": "환경설정 창의 \"Unset singles\" 버튼은 메인 창에서 Thunderbird의 기본 단일 키 바인딩을 해제하는 데 사용할 수 있습니다."
+  },
+  {
+    "row": 90,
+    "rowsha": "cfz3WMlGI8z/udnh5XTA9N5wcEEAn9CmkdnS+WzPf1k=",
+    "originContent": "This function set all of Thunderbird's default single key shortcuts to `unset` unless they are currently set in tbkey's preferences (that is, it won't overwrite tbkeys' existing settings for single key shortcuts).",
+    "translatedContent": "이 기능은 tbkey 환경설정에 현재 설정되어 있지 않은 경우를 제외하고 Thunderbird의 기본 단일 키 단축키를 모두 `unset`으로 설정합니다(즉, tbkeys의 기존 단일 키 단축키 설정을 덮어쓰지 않습니다)."
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "sL64bW1IVqwsaAwHh8d26Mc4tAYZm0wOdlkq7BQiNVo=",
+    "originContent": "## <a name=\"tbkeys-lite\"></a>tbkeys and tbkeys-lite",
+    "translatedContent": "## <a name=\"tbkeys-lite\"></a>tbkeys와 tbkeys-lite"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "1g2FjsfAMJye89MGtPohFCpSm07uGPRwyjNi4A2ukhg=",
+    "originContent": "tbkeys-lite is a version of tbkeys with the ability to execute arbitrary javascript removed.",
+    "translatedContent": "tbkeys-lite는 임의의 자바스크립트 실행 기능이 제거된 tbkeys 버전입니다."
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "XbLTL4whtL41YwNIWKZ7CPuVYsdzmWLqVffl15DYRWI=",
+    "originContent": "## Security, privacy, and implementation",
+    "translatedContent": "## 보안, 개인정보 보호 및 구현"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "6PgOCkvsLkVHfih7tKsx/Ml1nyDDfPsFibzVl83MDmg=",
+    "originContent": "Before installation, Thunderbird will prompt about the extension requiring permission to \"Have full, unrestricted access to Thunderbird, and your computer.\"",
+    "translatedContent": "설치 전, Thunderbird는 확장 기능이 \"Thunderbird 및 컴퓨터에 대한 완전하고 무제한적인 접근 권한\"을 요구한다고 알립니다."
+  },
+  {
+    "row": 99,
+    "rowsha": "tNIRYH15a3mwh4795imnU0Q/j1d3FidLg0COoF0/jMI=",
+    "originContent": "The reason for this permission request is that tbkeys must inject a key listener into the Thunderbird user interface in order to listen for key bindings.",
+    "translatedContent": "이 권한 요청의 이유는 tbkeys가 키 바인딩을 감지하기 위해 Thunderbird 사용자 인터페이스에 키 리스너를 주입해야 하기 때문입니다."
+  },
+  {
+    "row": 100,
+    "rowsha": "7870nx3OQv/Zgp3hNg7PmCp4f3kfR7QoTx0OyyZlZ5s=",
+    "originContent": "To do this, tbkeys uses the older Thunderbird extension interface that predates MailExtensions.",
+    "translatedContent": "이를 위해 tbkeys는 MailExtensions 이전의 구형 Thunderbird 확장 인터페이스를 사용합니다."
+  },
+  {
+    "row": 101,
+    "rowsha": "CqeJXP7+NDeKCE+PTRA0H9JRp0l+QvRlgT7SYZsBLxc=",
+    "originContent": "This interface is what all extensions used prior to Thunderbird 68.",
+    "translatedContent": "이 인터페이스는 Thunderbird 68 이전 모든 확장 기능이 사용하던 방식입니다."
+  },
+  {
+    "row": 102,
+    "rowsha": "XBko5DuKOHDJIIG73pS8BcZWQpytTSDqe2qI9dZOfqI=",
+    "originContent": "The new MailExtensions APIs which provide tighter control on what extensions can do do not have a keyboard shortcut API.",
+    "translatedContent": "확장 기능이 할 수 있는 일을 더 엄격히 제한하는 새로운 MailExtensions API에는 키보드 단축키 API가 포함되어 있지 않습니다."
+  },
+  {
+    "row": 103,
+    "rowsha": "dKt6R3NmxwM7JCbhC9kv80vGSWXtrruvmKST66emHfQ=",
+    "originContent": "If you are interested in seeing a keyboard shortcut API added to Thunderbird, please consider contributing code to the project.",
+    "translatedContent": "Thunderbird에 키보드 단축키 API 추가에 관심이 있으시면 프로젝트에 코드 기여를 고려해 주세요."
+  },
+  {
+    "row": 104,
+    "rowsha": "bWv8Ugpr5hO3zy7cdSdLIAlmzeDCUeyX5DAh++XZgDA=",
+    "originContent": "Perhaps [this ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=1591730) in the Thunderbird issue tracker could be a starting point.",
+    "translatedContent": "아마도 [이 티켓](https://bugzilla.mozilla.org/show_bug.cgi?id=1591730)이 Thunderbird 이슈 트래커에서 출발점이 될 수 있습니다."
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "jG4MsUaAgBwzz7dy1hYoIDw0bFbZsEeqPutA8BOMTwg=",
+    "originContent": "To discuss the security considerations related to tbkeys further, it is necessary to review its implementation.",
+    "translatedContent": "tbkeys와 관련된 보안 문제를 더 논의하려면 구현 방식을 검토할 필요가 있습니다."
+  },
+  {
+    "row": 107,
+    "rowsha": "JknVxDwvow/r9bIfqtHRUXXwzCjxVx3AIyEkFcoBlKY=",
+    "originContent": "As mentioned in the [intro](#intro), tbkeys relies on the Mousetrap library for managing the keybindings.",
+    "translatedContent": "[소개](#intro)에서 언급했듯이, tbkeys는 키 바인딩 관리를 위해 Mousetrap 라이브러리를 사용합니다."
+  },
+  {
+    "row": 108,
+    "rowsha": "b2KF/LChLc1vkgAgH8XoM9KvItlTRO9tnul+eQVioIA=",
+    "originContent": "The bulk of the logic of tbkeys is in [implementation.js](https://raw.githubusercontent.com/wshanks/tbkeys/main/addon/implementation.js) which is a [MailExtension experiment](https://developer.thunderbird.net/add-ons/mailextensions/experiments).",
+    "translatedContent": "tbkeys의 주요 로직은 [implementation.js](https://raw.githubusercontent.com/wshanks/tbkeys/main/addon/implementation.js)에 있으며, 이는 [MailExtension 실험](https://developer.thunderbird.net/add-ons/mailextensions/experiments)입니다."
+  },
+  {
+    "row": 109,
+    "rowsha": "xytCnwQlWXTLZ/uRxZ2rB00/TEBQCJEKlopKcxewb/g=",
+    "originContent": "`implementation.js` sets up the experiment API which can be called by tbkey's standard (restricted in scope) MailExtension to bind keyboard shortcuts to functions (including a null function for unbinding) and to messages to send to other extensions.",
+    "translatedContent": "`implementation.js`는 tbkey의 표준(범위가 제한된) MailExtension에서 호출할 수 있는 실험 API를 설정하여 키보드 단축키를 함수에 바인딩(바인딩 해제를 위한 null 함수 포함)하고 다른 확장에 보낼 메시지로 바인딩할 수 있게 합니다."
+  },
+  {
+    "row": 110,
+    "rowsha": "BCwUAyOrC54tgzYs9NVL3fftSfmd+r8mXO38i3NmHXo=",
+    "originContent": "`implementation.js` also loads Mousetrap into each Thunderbird window, tweaks the conditions upon which Mousetrap captures a key even to account for Thunderbird specific UI elements, and defines the function that executes what the user specifies for each key binding.",
+    "translatedContent": "`implementation.js`는 또한 각 Thunderbird 창에 Mousetrap을 로드하고, Thunderbird 특정 UI 요소를 고려하여 Mousetrap이 키 이벤트를 캡처하는 조건을 조정하며, 사용자가 각 키 바인딩에 지정한 동작을 실행하는 함수를 정의합니다."
+  },
+  {
+    "row": 111,
+    "rowsha": "g978HjlYnriX9XIVl1tGO8LXW6uUAyGCltD3ljFc2C0=",
+    "originContent": "That is all that `implementation.js` does.",
+    "translatedContent": "`implementation.js`가 하는 일은 여기까지입니다."
+  },
+  {
+    "row": 112,
+    "rowsha": "WBE8KnSfUHBoXVjYxFEvR4Q50CHExbgQti0d0fYMae0=",
+    "originContent": "It does not access the local file system or any message data and does not access the network.",
+    "translatedContent": "로컬 파일 시스템이나 메시지 데이터에 접근하지 않으며 네트워크에도 접근하지 않습니다."
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "ya3haeYU7bKsHxPSAohZx0YA4Bxz3rCKLkbtgUHdduI=",
+    "originContent": "One of the command modes tbkeys supports is [eval](#eval).",
+    "translatedContent": "tbkeys가 지원하는 명령 모드 중 하나는 [eval](#eval)입니다."
+  },
+  {
+    "row": 115,
+    "rowsha": "2V0wprSM22Nx7HXR0UcC+aywR/rMH435jJm/5Q+oMp8=",
+    "originContent": "This mode uses `eval()` to execute arbitrary code provided by the user in `implementation.js` with full access to Thunderbird's internals.",
+    "translatedContent": "이 모드는 `implementation.js`에서 `eval()`을 사용하여 사용자가 제공한 임의 코드를 Thunderbird 내부에 완전 접근 권한으로 실행합니다."
+  },
+  {
+    "row": 116,
+    "rowsha": "5ww/DwDIwyabPpmByzImqpVYs+1TU8GppWGFwC+KZ6I=",
+    "originContent": "If one does not need to bind to arbitrary code, perhaps there is some security gained by using [tbkeys-lite](#tbkeys-lite) which does not support eval commands.",
+    "translatedContent": "임의 코드 바인딩이 필요하지 않다면 eval 명령을 지원하지 않는 [tbkeys-lite](#tbkeys-lite)를 사용하는 것이 보안상 이점이 있을 수 있습니다."
+  },
+  {
+    "row": 117,
+    "rowsha": "01FjK6/3HpkOWTtOmYDH7czyTDBmD7iRZW5RNRLpmDA=",
+    "originContent": "tbkeys-lite is the version published on [Thunderbird's Add-ons page](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/).",
+    "translatedContent": "tbkeys-lite는 [Thunderbird 부가기능 페이지](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/)에 게시된 버전입니다."
+  },
+  {
+    "row": 118,
+    "rowsha": "L6HW63JlCl8XwjYOEhnhmy90HydsODZp3ngsQoLAMZE=",
+    "originContent": "Add-ons published there undergo an independent manual review.",
+    "translatedContent": "그곳에 게시된 부가기능은 독립적인 수동 검토를 거칩니다."
+  },
+  {
+    "row": 119,
+    "rowsha": "Oni4NtSIUv+b3DRPtW4W4HeGtFWjK0jCFjEJUMVU/0I=",
+    "originContent": "Having that barrier of review between yourself and the developer provides an added layer of security.",
+    "translatedContent": "개발자와 사용자 사이에 그러한 검토 장벽이 존재하는 것은 추가적인 보안 계층을 제공합니다."
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

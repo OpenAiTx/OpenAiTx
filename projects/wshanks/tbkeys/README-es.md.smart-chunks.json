@@ -1,0 +1,761 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)\n\n# <a name=\"intro\"></a>tbkeys\n\n`tbkeys` is an add-on for Thunderbird that uses [Mousetrap](https://craig.is/killing/mice) to bind key sequences to custom commands.\n\n## Install\n\n- Download the tbkeys.xpi file from one of the releases listed on the [GitHub releases page](https://github.com/willsALMANJ/tbkeys/releases).\n- Open the Add-ons Manager in Thunderbird (Tools->Add-ons).\n- Click on the gear icon in the upper right and choose \"Install Add-on From File...\" and then select the downloaded tbkeys.xpi file.\n- The add-on will self-update from the GitHub releases page when future updates are released.\n\nThe [tbkeys-lite](#tbkeys-lite) version of the addon can also be installed from addons.thunderbird.net by searching for \"tbkeys-lite\" in the Thunderbird addons manager or by downloading the xpi file from [this page](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/) and following the steps above.\n\n## Default key bindings\n\nThe default key bindings for the main window are modeled on GMail's key bindings.\n\n| Key | Function                                          |\n| --- | ------------------------------------------------- |\n| c   | Compose new message                               |\n| r   | Reply                                             |\n| a   | Reply all                                         |\n| f   | Forward                                           |\n| #   | Delete                                            |\n| u   | Refresh mail. If a message tab is open, close it. |\n| j   | Next message                                      |\n| k   | Previous message                                  |\n| o   | Open message                                      |\n| x   | Archive message                                   |\n\n## Customizing key bindings\n\nTo customize key bindings, modify the \"key bindings\" entries in the add-on's preferences pane which can be accessed from the add-on's entry in the Add-ons Manager (\"Add-ons\" in the Thunderbird menu).\nHere are some things to consider when setting key bindings:\n\n- The \"key bindings\" entry should be a JSON object mapping key bindings (with Mousetrap syntax as described [here](https://craig.is/killing/mice)) to a valid command (see the [Command syntax](#command-syntax)) section.\n- There are separate fields in the preferences page for setting key bindings for the main Thunderbird window and the compose window.\n  Key bindings do not fire in other windows.",
+    "ContentSha": "JhosRUsSfECDBmxmDVvhsN+9R/fntm1gjQEHm7dZZCY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Pacto de Colaboradores](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)\n\n# <a name=\"intro\"></a>tbkeys\n\n`tbkeys` es un complemento para Thunderbird que utiliza [Mousetrap](https://craig.is/killing/mice) para asignar secuencias de teclas a comandos personalizados.\n\n## Instalación\n\n- Descargue el archivo tbkeys.xpi desde una de las versiones listadas en la [página de lanzamientos de GitHub](https://github.com/willsALMANJ/tbkeys/releases).\n- Abra el Administrador de Complementos en Thunderbird (Herramientas->Complementos).\n- Haga clic en el icono de engranaje en la parte superior derecha y elija \"Instalar complemento desde archivo...\" y luego seleccione el archivo tbkeys.xpi descargado.\n- El complemento se actualizará automáticamente desde la página de lanzamientos de GitHub cuando se publiquen futuras actualizaciones.\n\nLa versión [tbkeys-lite](#tbkeys-lite) del complemento también puede instalarse desde addons.thunderbird.net buscando \"tbkeys-lite\" en el administrador de complementos de Thunderbird o descargando el archivo xpi desde [esta página](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/) y siguiendo los pasos anteriores.\n\n## Asignaciones de teclas por defecto\n\nLas asignaciones de teclas por defecto para la ventana principal están modeladas según las asignaciones de teclas de GMail.\n\n| Tecla | Función                                          |\n| --- | ------------------------------------------------- |\n| c   | Redactar nuevo mensaje                            |\n| r   | Responder                                        |\n| a   | Responder a todos                               |\n| f   | Reenviar                                         |\n| #   | Eliminar                                         |\n| u   | Actualizar correo. Si hay una pestaña de mensaje abierta, ciérrala. |\n| j   | Mensaje siguiente                                |\n| k   | Mensaje anterior                                 |\n| o   | Abrir mensaje                                    |\n| x   | Archivar mensaje                                 |\n\n## Personalización de asignaciones de teclas\n\nPara personalizar las asignaciones de teclas, modifique las entradas de \"key bindings\" en el panel de preferencias del complemento que puede accederse desde la entrada del complemento en el Administrador de Complementos (\"Complementos\" en el menú de Thunderbird).\nAquí hay algunas consideraciones al configurar las asignaciones de teclas:\n\n- La entrada \"key bindings\" debe ser un objeto JSON que mapee las asignaciones de teclas (con la sintaxis de Mousetrap como se describe [aquí](https://craig.is/killing/mice)) a un comando válido (ver la sección [Sintaxis de comandos](#command-syntax)).\n- Hay campos separados en la página de preferencias para configurar asignaciones de teclas para la ventana principal de Thunderbird y la ventana de redacción.\n  Las asignaciones de teclas no se activan en otras ventanas.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iq+kPoRVStjg6UBaGKBdQNgjJ1spRWUMUDu+Q8GOXjg=",
+        "originContent": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)",
+        "translatedContent": "[![Pacto de Colaboradores](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "zSFXiR1bcwm9G8Kr8x1fIHUYKmCJqYsx34eDaAr4iOY=",
+        "originContent": "# <a name=\"intro\"></a>tbkeys",
+        "translatedContent": "# <a name=\"intro\"></a>tbkeys"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+2UFgA+O0m7+DhI7nLX9ZoDjTIA6s0GAjb5FN4+1uFg=",
+        "originContent": "`tbkeys` is an add-on for Thunderbird that uses [Mousetrap](https://craig.is/killing/mice) to bind key sequences to custom commands.",
+        "translatedContent": "`tbkeys` es un complemento para Thunderbird que utiliza [Mousetrap](https://craig.is/killing/mice) para asignar secuencias de teclas a comandos personalizados."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ZZpVG4ErgRwsyfsiJWHiHFMX1yqELkxuiGOvqeJGVuk=",
+        "originContent": "- Download the tbkeys.xpi file from one of the releases listed on the [GitHub releases page](https://github.com/willsALMANJ/tbkeys/releases).",
+        "translatedContent": "- Descargue el archivo tbkeys.xpi desde una de las versiones listadas en la [página de lanzamientos de GitHub](https://github.com/willsALMANJ/tbkeys/releases)."
+      },
+      {
+        "row": 10,
+        "rowsha": "vBucR5pm66giBA0SE6xzIAXCgWT6B4saBUe6Uk/Xf+M=",
+        "originContent": "- Open the Add-ons Manager in Thunderbird (Tools->Add-ons).",
+        "translatedContent": "- Abra el Administrador de Complementos en Thunderbird (Herramientas->Complementos)."
+      },
+      {
+        "row": 11,
+        "rowsha": "T+5ewlCM/xhUKF4m+lX1+SL7cDESs8Gg2yywpkY5R48=",
+        "originContent": "- Click on the gear icon in the upper right and choose \"Install Add-on From File...\" and then select the downloaded tbkeys.xpi file.",
+        "translatedContent": "- Haga clic en el icono de engranaje en la parte superior derecha y elija \"Instalar complemento desde archivo...\" y luego seleccione el archivo tbkeys.xpi descargado."
+      },
+      {
+        "row": 12,
+        "rowsha": "YoenvvAKWXw4QPwyOUCKMOo++hjfBjQEVNtWO4onz7Q=",
+        "originContent": "- The add-on will self-update from the GitHub releases page when future updates are released.",
+        "translatedContent": "- El complemento se actualizará automáticamente desde la página de lanzamientos de GitHub cuando se publiquen futuras actualizaciones."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "uKIePFE/v7LKLf7yvtbEurQxHGgpD3Q7zf7YWRJlNm0=",
+        "originContent": "The [tbkeys-lite](#tbkeys-lite) version of the addon can also be installed from addons.thunderbird.net by searching for \"tbkeys-lite\" in the Thunderbird addons manager or by downloading the xpi file from [this page](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/) and following the steps above.",
+        "translatedContent": "La versión [tbkeys-lite](#tbkeys-lite) del complemento también puede instalarse desde addons.thunderbird.net buscando \"tbkeys-lite\" en el administrador de complementos de Thunderbird o descargando el archivo xpi desde [esta página](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/) y siguiendo los pasos anteriores."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "6JnczJ4lnqktjf9eY6UQu0keITnpHx8FL1Sstc7Ckrs=",
+        "originContent": "## Default key bindings",
+        "translatedContent": "## Asignaciones de teclas por defecto"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "6P/uQcSrh+M7HHwsKei789EaO1zHt1L5ikFCUIMIwRs=",
+        "originContent": "The default key bindings for the main window are modeled on GMail's key bindings.",
+        "translatedContent": "Las asignaciones de teclas por defecto para la ventana principal están modeladas según las asignaciones de teclas de GMail."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ou+34qxZqtJzukyikOxU/QeHYDsHIyf5a+mqjZb5r+k=",
+        "originContent": "| Key | Function                                          |",
+        "translatedContent": "| Tecla | Función                                          |"
+      },
+      {
+        "row": 21,
+        "rowsha": "cdRnclJtb/OEnk/aGzKiTr9UU4hrkgTv08mCDCxgUNk=",
+        "originContent": "| --- | ------------------------------------------------- |",
+        "translatedContent": "| --- | ------------------------------------------------- |"
+      },
+      {
+        "row": 22,
+        "rowsha": "kXq9atu2wE78rA9xv3acecOSHtTfHg+gpYywEl7Hy8s=",
+        "originContent": "| c   | Compose new message                               |",
+        "translatedContent": "| c   | Redactar nuevo mensaje                            |"
+      },
+      {
+        "row": 23,
+        "rowsha": "FbZ9SLuo+1sy0e4iUMzK42nnA9C0mtIuy0c0xyLXJVM=",
+        "originContent": "| r   | Reply                                             |",
+        "translatedContent": "| r   | Responder                                        |"
+      },
+      {
+        "row": 24,
+        "rowsha": "NJYTgo1sJIU4ZP3ksuHK6xOOmhRtFFqzXi0UeTljxEA=",
+        "originContent": "| a   | Reply all                                         |",
+        "translatedContent": "| a   | Responder a todos                               |"
+      },
+      {
+        "row": 25,
+        "rowsha": "gz4atjlMq/hBQf82BiSCTsX8G3M0DIUq7cHjy9v9Arw=",
+        "originContent": "| f   | Forward                                           |",
+        "translatedContent": "| f   | Reenviar                                         |"
+      },
+      {
+        "row": 26,
+        "rowsha": "uU9A5ZCK+qxuCdR5XD9UMdwvuJywfT6yfGbq8//f0uU=",
+        "originContent": "| #   | Delete                                            |",
+        "translatedContent": "| #   | Eliminar                                         |"
+      },
+      {
+        "row": 27,
+        "rowsha": "X6hW7gXQGI2a6cD+Gc61Bd30Ss8g43xlhh3whSlyzEU=",
+        "originContent": "| u   | Refresh mail. If a message tab is open, close it. |",
+        "translatedContent": "| u   | Actualizar correo. Si hay una pestaña de mensaje abierta, ciérrala. |"
+      },
+      {
+        "row": 28,
+        "rowsha": "qzzLHIt+h/rAkhu/Qh6IyhLXq4rqwkVO054HI43IM2g=",
+        "originContent": "| j   | Next message                                      |",
+        "translatedContent": "| j   | Mensaje siguiente                                |"
+      },
+      {
+        "row": 29,
+        "rowsha": "V7Kz1xEfW1SrzjWSlPXdqDg6eMA+3yAwt5+AtkShQRo=",
+        "originContent": "| k   | Previous message                                  |",
+        "translatedContent": "| k   | Mensaje anterior                                 |"
+      },
+      {
+        "row": 30,
+        "rowsha": "wl1UBhLG81PpBpTAhsLgu3ed8f6j4yXhsxTrBrXSq/A=",
+        "originContent": "| o   | Open message                                      |",
+        "translatedContent": "| o   | Abrir mensaje                                    |"
+      },
+      {
+        "row": 31,
+        "rowsha": "bacEE5BuDx9SqdVOg5cMhsDTyv9VycNhnIr1Pkhmb+w=",
+        "originContent": "| x   | Archive message                                   |",
+        "translatedContent": "| x   | Archivar mensaje                                 |"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Cl+sU3r7lA0D7oxQMbF0qkkBGU423cpZwrHlY+EIxbM=",
+        "originContent": "## Customizing key bindings",
+        "translatedContent": "## Personalización de asignaciones de teclas"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "GbAqt77K+FqnTQj3ZlUlv48gIwG3VKVBBuSZgJ8TxYY=",
+        "originContent": "To customize key bindings, modify the \"key bindings\" entries in the add-on's preferences pane which can be accessed from the add-on's entry in the Add-ons Manager (\"Add-ons\" in the Thunderbird menu).",
+        "translatedContent": "Para personalizar las asignaciones de teclas, modifique las entradas de \"key bindings\" en el panel de preferencias del complemento que puede accederse desde la entrada del complemento en el Administrador de Complementos (\"Complementos\" en el menú de Thunderbird)."
+      },
+      {
+        "row": 36,
+        "rowsha": "cxtyXw+we/assHekQ/RFfvPehIw4ZsLG+XiflYmlrIk=",
+        "originContent": "Here are some things to consider when setting key bindings:",
+        "translatedContent": "Aquí hay algunas consideraciones al configurar las asignaciones de teclas:"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "uQGyi+3XMfaeLe4WeE6qN0pzA+WLwbgUb9PW9DQGwOg=",
+        "originContent": "- The \"key bindings\" entry should be a JSON object mapping key bindings (with Mousetrap syntax as described [here](https://craig.is/killing/mice)) to a valid command (see the [Command syntax](#command-syntax)) section.",
+        "translatedContent": "- La entrada \"key bindings\" debe ser un objeto JSON que mapee las asignaciones de teclas (con la sintaxis de Mousetrap como se describe [aquí](https://craig.is/killing/mice)) a un comando válido (ver la sección [Sintaxis de comandos](#command-syntax))."
+      },
+      {
+        "row": 39,
+        "rowsha": "AiEcvn5Ab/8W+5UmUAqqUUWn+g0yhdD5YdwhFcWRZgA=",
+        "originContent": "- There are separate fields in the preferences page for setting key bindings for the main Thunderbird window and the compose window.",
+        "translatedContent": "- Hay campos separados en la página de preferencias para configurar asignaciones de teclas para la ventana principal de Thunderbird y la ventana de redacción."
+      },
+      {
+        "row": 40,
+        "rowsha": "nCVlgW9Mrv9pkbw2rLyOaYhSsDb7V6WAR6N5gLAqzPE=",
+        "originContent": "  Key bindings do not fire in other windows.",
+        "translatedContent": "  Las asignaciones de teclas no se activan en otras ventanas."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Key bindings do not fire in text input fields unless the first key combo includes a modifier other than `shift`.\n- The preferences page will not allow invalid JSON to be submitted, but it does not sanity check the key bindings otherwise.\n- This [old wiki page about Keyconfig](http://kb.mozillazine.org/Keyconfig_extension:_Thunderbird) also has some commands that are still valid.\n- The Developer Toolbox (Tools->Developer Tools->Developer Toolbox in the menu) can be useful for poking around at the UI to find the name of an element to call a function on.\n- Defining a key sequence (meaning multiple keys in succession) where the first key combination in the sequence is the same as a built-in shortcut (like `ctrl+j ctrl+k`) is not supported.\n  Single keys with modifiers may be mapped to override the built-in shortcuts but not sequences.\n\n### Command syntax\n\nA few different styles of commands can be specified for key bindings.\nThey are:\n\n- **Simple commands**: These commands follow the format `cmd:<command_name>` where `<command_name>` is a command that Thunderbird can execute with `goDoCommand()`.\n  Most command names can be found in [the main command set file](https://hg.mozilla.org/comm-central/file/tip/mail/base/content/mainCommandSet.inc.xhtml) of the Thunderbird source code.\n- **Simple function calls**: These commands follow the format `func:<func_name>` where `<func_name>` is a function defined on the Thunderbird window object.\n  That function is called without any arguments.\n- **Custom function calls**: These commands follow the format `tbkeys:<func_name>` where `<func_name>` is the name of a custom function written in tbkeys.\n  Currently, the only available custom function is `closeMessageAndRefresh` which closes the open tab if it is not the first tab and then refreshes all accounts.\n  This behavior mimics the behavior of the GMail keybinding `u`.\n- **Unset binding**: These entries simply contain the text `unset`.\n  When an `unset` keybinding is triggered, nothing happens.\n  This can be useful unbinding built-in Thunderbird key bindings which you do not wish to trigger by accident.\n- **MailExtension messages**: These commands follow the format `memsg:<extensionID>:<message>` where `<extensionID>` is the ID of the Thunderbird extension to which to send a message and `<message>` is a string message to send to the extension using the `browser.runtime.sendMessage()` MailExtension API.\n  Currently, only string messages are supported because `tbkeys` stores its commands as strings, though that restriction could possibly be relaxed in the future.\n- <a name=\"eval\"></a>**Eval commands**: These entries may contain arbitrary javascript code on which tbkeys will call `eval()` when the key binding is triggered.\n  Any entry not matching the prefixes of the other command types is treated as an eval command.\n  **NOTE:** eval commands are not available in tbkeys-lite and will function the same as unset commands instead.\n\n## Common key bindings\n\nHere are some examples of eval commands for commonly desired key bindings:\n\n- **Next tab**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(1, true)`\n- **Previous tab**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(-1, true)`\n- **Close tab**: `func:CloseTabOrWindow`\n- **Scroll message list down**: `window.document.getElementById('threadTree').scrollByLines(1)`\n- **Scroll message list up**: `window.document.getElementById('threadTree').scrollByLines(-1)`\n- **Scroll message body down**:\n  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, 100)`\n  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, 100)`",
+    "ContentSha": "uc7tYyrXPjPob7mfDoEKPadLv1OUPpJR1hd+y/H0jHc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Las combinaciones de teclas no se activan en los campos de entrada de texto a menos que la primera combinación de teclas incluya un modificador distinto de `shift`.\n- La página de preferencias no permitirá enviar JSON no válido, pero no verifica la coherencia de las combinaciones de teclas de otro modo.\n- Esta [antigua página wiki sobre Keyconfig](http://kb.mozillazine.org/Keyconfig_extension:_Thunderbird) también tiene algunos comandos que aún son válidos.\n- La Caja de Herramientas para Desarrolladores (Herramientas->Herramientas para Desarrolladores->Caja de Herramientas para Desarrolladores en el menú) puede ser útil para explorar la interfaz y encontrar el nombre de un elemento para llamar a una función.\n- No se admite definir una secuencia de teclas (es decir, varias teclas sucesivas) donde la primera combinación de la secuencia sea igual a un atajo integrado (como `ctrl+j ctrl+k`).\n  Las teclas simples con modificadores pueden mapearse para sobrescribir los atajos integrados pero no secuencias.\n\n### Sintaxis de comandos\n\nSe pueden especificar varios estilos diferentes de comandos para las combinaciones de teclas.\nEstos son:\n\n- **Comandos simples**: Estos comandos siguen el formato `cmd:<nombre_comando>` donde `<nombre_comando>` es un comando que Thunderbird puede ejecutar con `goDoCommand()`.\n  La mayoría de los nombres de comandos se encuentran en [el archivo principal de conjunto de comandos](https://hg.mozilla.org/comm-central/file/tip/mail/base/content/mainCommandSet.inc.xhtml) del código fuente de Thunderbird.\n- **Llamadas simples a funciones**: Estos comandos siguen el formato `func:<nombre_función>` donde `<nombre_función>` es una función definida en el objeto ventana de Thunderbird.\n  Esa función se llama sin argumentos.\n- **Llamadas a funciones personalizadas**: Estos comandos siguen el formato `tbkeys:<nombre_función>` donde `<nombre_función>` es el nombre de una función personalizada escrita en tbkeys.\n  Actualmente, la única función personalizada disponible es `closeMessageAndRefresh` que cierra la pestaña abierta si no es la primera pestaña y luego actualiza todas las cuentas.\n  Este comportamiento imita el comportamiento del atajo `u` de GMail.\n- **Desasignar combinación**: Estas entradas simplemente contienen el texto `unset`.\n  Cuando se activa una combinación `unset`, no ocurre nada.\n  Esto puede ser útil para desasignar atajos integrados de Thunderbird que no desea activar por accidente.\n- **Mensajes de MailExtension**: Estos comandos siguen el formato `memsg:<IDextensión>:<mensaje>` donde `<IDextensión>` es el ID de la extensión de Thunderbird a la que enviar un mensaje y `<mensaje>` es un mensaje en forma de cadena para enviar a la extensión usando la API `browser.runtime.sendMessage()` de MailExtension.\n  Actualmente, solo se admiten mensajes en forma de cadena porque `tbkeys` almacena sus comandos como cadenas, aunque esa restricción podría relajarse en el futuro.\n- <a name=\"eval\"></a>**Comandos eval**: Estas entradas pueden contener código javascript arbitrario sobre el cual tbkeys llamará `eval()` cuando se active la combinación.\n  Cualquier entrada que no coincida con los prefijos de los otros tipos de comandos se trata como un comando eval.\n  **NOTA:** los comandos eval no están disponibles en tbkeys-lite y funcionarán igual que los comandos unset.\n\n## Combinaciones comunes\n\nAquí algunos ejemplos de comandos eval para combinaciones de teclas comunes:\n\n- **Siguiente pestaña**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(1, true)`\n- **Pestaña anterior**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(-1, true)`\n- **Cerrar pestaña**: `func:CloseTabOrWindow`\n- **Desplazar lista de mensajes hacia abajo**: `window.document.getElementById('threadTree').scrollByLines(1)`\n- **Desplazar lista de mensajes hacia arriba**: `window.document.getElementById('threadTree').scrollByLines(-1)`\n- **Desplazar cuerpo del mensaje hacia abajo**:\n  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, 100)`\n  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, 100)`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tAjlS+w+iouIs0KrJ7zIITyuSJwcR5RtNi4kbtZ7C0I=",
+        "originContent": "- Key bindings do not fire in text input fields unless the first key combo includes a modifier other than `shift`.",
+        "translatedContent": "- Las combinaciones de teclas no se activan en los campos de entrada de texto a menos que la primera combinación de teclas incluya un modificador distinto de `shift`."
+      },
+      {
+        "row": 2,
+        "rowsha": "GrSVv30WVyopEfNh78ao+HjHZEo+/NHhuIZcehR4+Yw=",
+        "originContent": "- The preferences page will not allow invalid JSON to be submitted, but it does not sanity check the key bindings otherwise.",
+        "translatedContent": "- La página de preferencias no permitirá enviar JSON no válido, pero no verifica la coherencia de las combinaciones de teclas de otro modo."
+      },
+      {
+        "row": 3,
+        "rowsha": "t/3mtSniflVZZV6KsBD52U6h2YJcnQEgz6BQMyckXic=",
+        "originContent": "- This [old wiki page about Keyconfig](http://kb.mozillazine.org/Keyconfig_extension:_Thunderbird) also has some commands that are still valid.",
+        "translatedContent": "- Esta [antigua página wiki sobre Keyconfig](http://kb.mozillazine.org/Keyconfig_extension:_Thunderbird) también tiene algunos comandos que aún son válidos."
+      },
+      {
+        "row": 4,
+        "rowsha": "BQ2CqEZVdE6m//OKsRFjhOkcwJTD+QXhlknyCecC4zo=",
+        "originContent": "- The Developer Toolbox (Tools->Developer Tools->Developer Toolbox in the menu) can be useful for poking around at the UI to find the name of an element to call a function on.",
+        "translatedContent": "- La Caja de Herramientas para Desarrolladores (Herramientas->Herramientas para Desarrolladores->Caja de Herramientas para Desarrolladores en el menú) puede ser útil para explorar la interfaz y encontrar el nombre de un elemento para llamar a una función."
+      },
+      {
+        "row": 5,
+        "rowsha": "ZwvwPan1N2Y9oaLIVN54xhFAob9U4/WH6JzUA2gJBwg=",
+        "originContent": "- Defining a key sequence (meaning multiple keys in succession) where the first key combination in the sequence is the same as a built-in shortcut (like `ctrl+j ctrl+k`) is not supported.",
+        "translatedContent": "- No se admite definir una secuencia de teclas (es decir, varias teclas sucesivas) donde la primera combinación de la secuencia sea igual a un atajo integrado (como `ctrl+j ctrl+k`)."
+      },
+      {
+        "row": 6,
+        "rowsha": "cJ8xhi6PJTZ2lx0GDo5M1z7YMjNhayKWIKaXzOCB/FQ=",
+        "originContent": "  Single keys with modifiers may be mapped to override the built-in shortcuts but not sequences.",
+        "translatedContent": "  Las teclas simples con modificadores pueden mapearse para sobrescribir los atajos integrados pero no secuencias."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "7lcu2oJZIGHk7u0EgS3vu/VT1MheMiQrWLHIhoLlNQs=",
+        "originContent": "### Command syntax",
+        "translatedContent": "### Sintaxis de comandos"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Z0ADjJiW8XJ76F2YfOL7f9XTsGG84Ta8+QKn3nVAFdI=",
+        "originContent": "A few different styles of commands can be specified for key bindings.",
+        "translatedContent": "Se pueden especificar varios estilos diferentes de comandos para las combinaciones de teclas."
+      },
+      {
+        "row": 11,
+        "rowsha": "Fs742TYZkpZC7IuYcZp/JU41kK1wNlXGR/skH733zrw=",
+        "originContent": "They are:",
+        "translatedContent": "Estos son:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "A/mWPk0NcYFrDmSODHUZyp+gr3UbWy38Sog2p9zSABM=",
+        "originContent": "- **Simple commands**: These commands follow the format `cmd:<command_name>` where `<command_name>` is a command that Thunderbird can execute with `goDoCommand()`.",
+        "translatedContent": "- **Comandos simples**: Estos comandos siguen el formato `cmd:<nombre_comando>` donde `<nombre_comando>` es un comando que Thunderbird puede ejecutar con `goDoCommand()`."
+      },
+      {
+        "row": 14,
+        "rowsha": "xqT4KBhgjnl62ia4IEBn/FM6sPGO6SO4lot5s+GPu1s=",
+        "originContent": "  Most command names can be found in [the main command set file](https://hg.mozilla.org/comm-central/file/tip/mail/base/content/mainCommandSet.inc.xhtml) of the Thunderbird source code.",
+        "translatedContent": "  La mayoría de los nombres de comandos se encuentran en [el archivo principal de conjunto de comandos](https://hg.mozilla.org/comm-central/file/tip/mail/base/content/mainCommandSet.inc.xhtml) del código fuente de Thunderbird."
+      },
+      {
+        "row": 15,
+        "rowsha": "G3DLLKvyGMzGTtvPKF0H4NKTwbaWQaJPbbwOVuQy3aM=",
+        "originContent": "- **Simple function calls**: These commands follow the format `func:<func_name>` where `<func_name>` is a function defined on the Thunderbird window object.",
+        "translatedContent": "- **Llamadas simples a funciones**: Estos comandos siguen el formato `func:<nombre_función>` donde `<nombre_función>` es una función definida en el objeto ventana de Thunderbird."
+      },
+      {
+        "row": 16,
+        "rowsha": "Igxg4A5p/X/oiN3feXM9gnaIP8k+STDlyV+PLuvmYC8=",
+        "originContent": "  That function is called without any arguments.",
+        "translatedContent": "  Esa función se llama sin argumentos."
+      },
+      {
+        "row": 17,
+        "rowsha": "LRMHIt4bxQvbGjzohnLRGjOcbEPlnuoRIIcQrMor0Jo=",
+        "originContent": "- **Custom function calls**: These commands follow the format `tbkeys:<func_name>` where `<func_name>` is the name of a custom function written in tbkeys.",
+        "translatedContent": "- **Llamadas a funciones personalizadas**: Estos comandos siguen el formato `tbkeys:<nombre_función>` donde `<nombre_función>` es el nombre de una función personalizada escrita en tbkeys."
+      },
+      {
+        "row": 18,
+        "rowsha": "3mZheWSKvMJEdA+Cx2pEtY/5WgqQ/2Jfj6HvHz6pLSY=",
+        "originContent": "  Currently, the only available custom function is `closeMessageAndRefresh` which closes the open tab if it is not the first tab and then refreshes all accounts.",
+        "translatedContent": "  Actualmente, la única función personalizada disponible es `closeMessageAndRefresh` que cierra la pestaña abierta si no es la primera pestaña y luego actualiza todas las cuentas."
+      },
+      {
+        "row": 19,
+        "rowsha": "8CxVocFDUWhJVEMhVo9VT/0rl16dsPPtDVADrl1tHk8=",
+        "originContent": "  This behavior mimics the behavior of the GMail keybinding `u`.",
+        "translatedContent": "  Este comportamiento imita el comportamiento del atajo `u` de GMail."
+      },
+      {
+        "row": 20,
+        "rowsha": "UKPFSxqIJc9SV/nZtXSCWLfkCLNm4xfE0E8PSp0f3aE=",
+        "originContent": "- **Unset binding**: These entries simply contain the text `unset`.",
+        "translatedContent": "- **Desasignar combinación**: Estas entradas simplemente contienen el texto `unset`."
+      },
+      {
+        "row": 21,
+        "rowsha": "83YpzSlexUMKK+K8i+zchl5fB9vLuCxeyOfc92BjL4w=",
+        "originContent": "  When an `unset` keybinding is triggered, nothing happens.",
+        "translatedContent": "  Cuando se activa una combinación `unset`, no ocurre nada."
+      },
+      {
+        "row": 22,
+        "rowsha": "7kV0bZznNQsmMa+wMva1BD2Zkh9Qxof7YEspbl1Tt5Y=",
+        "originContent": "  This can be useful unbinding built-in Thunderbird key bindings which you do not wish to trigger by accident.",
+        "translatedContent": "  Esto puede ser útil para desasignar atajos integrados de Thunderbird que no desea activar por accidente."
+      },
+      {
+        "row": 23,
+        "rowsha": "0IYf0t9+BqMoizACz6uW3FZS8podNJXnW+u22XLopp4=",
+        "originContent": "- **MailExtension messages**: These commands follow the format `memsg:<extensionID>:<message>` where `<extensionID>` is the ID of the Thunderbird extension to which to send a message and `<message>` is a string message to send to the extension using the `browser.runtime.sendMessage()` MailExtension API.",
+        "translatedContent": "- **Mensajes de MailExtension**: Estos comandos siguen el formato `memsg:<IDextensión>:<mensaje>` donde `<IDextensión>` es el ID de la extensión de Thunderbird a la que enviar un mensaje y `<mensaje>` es un mensaje en forma de cadena para enviar a la extensión usando la API `browser.runtime.sendMessage()` de MailExtension."
+      },
+      {
+        "row": 24,
+        "rowsha": "2Qu2jDpDMgOQHsYGMNwFiZD96dS732h3KQEnZeUCBgg=",
+        "originContent": "  Currently, only string messages are supported because `tbkeys` stores its commands as strings, though that restriction could possibly be relaxed in the future.",
+        "translatedContent": "  Actualmente, solo se admiten mensajes en forma de cadena porque `tbkeys` almacena sus comandos como cadenas, aunque esa restricción podría relajarse en el futuro."
+      },
+      {
+        "row": 25,
+        "rowsha": "6yET9qGeEGc3UUhNcsifUU3FRNbXElMCVZijqXHx1EI=",
+        "originContent": "- <a name=\"eval\"></a>**Eval commands**: These entries may contain arbitrary javascript code on which tbkeys will call `eval()` when the key binding is triggered.",
+        "translatedContent": "- <a name=\"eval\"></a>**Comandos eval**: Estas entradas pueden contener código javascript arbitrario sobre el cual tbkeys llamará `eval()` cuando se active la combinación."
+      },
+      {
+        "row": 26,
+        "rowsha": "MV7/HZqIVWwglNHa/VMZkVihgZ60qS80riO3pX+ms64=",
+        "originContent": "  Any entry not matching the prefixes of the other command types is treated as an eval command.",
+        "translatedContent": "  Cualquier entrada que no coincida con los prefijos de los otros tipos de comandos se trata como un comando eval."
+      },
+      {
+        "row": 27,
+        "rowsha": "BNfmLU5MLpWqfxFQQQmuxkWpOkDFAmm04iljwG9zPuY=",
+        "originContent": "  **NOTE:** eval commands are not available in tbkeys-lite and will function the same as unset commands instead.",
+        "translatedContent": "  **NOTA:** los comandos eval no están disponibles en tbkeys-lite y funcionarán igual que los comandos unset."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "n9YQzP99onZU7mrYvAsRl3LJeE+WdVS1w1/KN+g/Xbc=",
+        "originContent": "## Common key bindings",
+        "translatedContent": "## Combinaciones comunes"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "aJucfkzm+i7v9UO+iuI5j4pB9jKpzs8Iw51itz0CcAQ=",
+        "originContent": "Here are some examples of eval commands for commonly desired key bindings:",
+        "translatedContent": "Aquí algunos ejemplos de comandos eval para combinaciones de teclas comunes:"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "2eMxfnJr78N91SD/Vpd5L2O6IrBkmPuJzQ7ozbJYbqk=",
+        "originContent": "- **Next tab**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(1, true)`",
+        "translatedContent": "- **Siguiente pestaña**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(1, true)`"
+      },
+      {
+        "row": 34,
+        "rowsha": "sG5xxs+akysTtpe469dQSPL3xZ/UCX291RUOazDfYD0=",
+        "originContent": "- **Previous tab**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(-1, true)`",
+        "translatedContent": "- **Pestaña anterior**: `window.document.getElementById('tabmail-tabs').advanceSelectedTab(-1, true)`"
+      },
+      {
+        "row": 35,
+        "rowsha": "bUNl/9yaRIM+OzXasMrvoeHsrOMHqJ5/k1Cn1hl7zN4=",
+        "originContent": "- **Close tab**: `func:CloseTabOrWindow`",
+        "translatedContent": "- **Cerrar pestaña**: `func:CloseTabOrWindow`"
+      },
+      {
+        "row": 36,
+        "rowsha": "ShGvUvqg2H8fTniXx3t8kpNbZ4QmiGs2lGXv+YBjF6w=",
+        "originContent": "- **Scroll message list down**: `window.document.getElementById('threadTree').scrollByLines(1)`",
+        "translatedContent": "- **Desplazar lista de mensajes hacia abajo**: `window.document.getElementById('threadTree').scrollByLines(1)`"
+      },
+      {
+        "row": 37,
+        "rowsha": "vhsFsiFewtWkVx1eR47eSRaXOXkSunNVwPMem0aOSro=",
+        "originContent": "- **Scroll message list up**: `window.document.getElementById('threadTree').scrollByLines(-1)`",
+        "translatedContent": "- **Desplazar lista de mensajes hacia arriba**: `window.document.getElementById('threadTree').scrollByLines(-1)`"
+      },
+      {
+        "row": 38,
+        "rowsha": "VTDGNw72lcUR3bpnMFScfiS+/F7GCziZcHi+QQOcOmg=",
+        "originContent": "- **Scroll message body down**:",
+        "translatedContent": "- **Desplazar cuerpo del mensaje hacia abajo**:"
+      },
+      {
+        "row": 39,
+        "rowsha": "fTGeMS0Y71QQ8B3lgg0Pek+ojwBgb179aOVaz52Ssx0=",
+        "originContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, 100)`",
+        "translatedContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, 100)`"
+      },
+      {
+        "row": 40,
+        "rowsha": "QQ/f/UmoLH1ENwHlbjS1DiJcmzq7sSaBgwWOdURliD4=",
+        "originContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, 100)`",
+        "translatedContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, 100)`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "- **Scroll message body up**:\n  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, -100)`\n  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, -100)`\n- **Create new folder**: `window.goDoCommand('cmd_newFolder')`\n- **Subscribe to feed**: `window.openSubscriptionsDialog(window.GetSelectedMsgFolders()[0])`\n\n## Unsetting default key bindings\n\nThe \"Unset singles\" button in the preferences pane can be used to unset Thunderbird's default single key bindings in the main window.\nThis function set all of Thunderbird's default single key shortcuts to `unset` unless they are currently set in tbkey's preferences (that is, it won't overwrite tbkeys' existing settings for single key shortcuts).\n\n## <a name=\"tbkeys-lite\"></a>tbkeys and tbkeys-lite\n\ntbkeys-lite is a version of tbkeys with the ability to execute arbitrary javascript removed.\n\n## Security, privacy, and implementation\n\nBefore installation, Thunderbird will prompt about the extension requiring permission to \"Have full, unrestricted access to Thunderbird, and your computer.\"\nThe reason for this permission request is that tbkeys must inject a key listener into the Thunderbird user interface in order to listen for key bindings.\nTo do this, tbkeys uses the older Thunderbird extension interface that predates MailExtensions.\nThis interface is what all extensions used prior to Thunderbird 68.\nThe new MailExtensions APIs which provide tighter control on what extensions can do do not have a keyboard shortcut API.\nIf you are interested in seeing a keyboard shortcut API added to Thunderbird, please consider contributing code to the project.\nPerhaps [this ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=1591730) in the Thunderbird issue tracker could be a starting point.\n\nTo discuss the security considerations related to tbkeys further, it is necessary to review its implementation.\nAs mentioned in the [intro](#intro), tbkeys relies on the Mousetrap library for managing the keybindings.\nThe bulk of the logic of tbkeys is in [implementation.js](https://raw.githubusercontent.com/wshanks/tbkeys/main/addon/implementation.js) which is a [MailExtension experiment](https://developer.thunderbird.net/add-ons/mailextensions/experiments).\n`implementation.js` sets up the experiment API which can be called by tbkey's standard (restricted in scope) MailExtension to bind keyboard shortcuts to functions (including a null function for unbinding) and to messages to send to other extensions.\n`implementation.js` also loads Mousetrap into each Thunderbird window, tweaks the conditions upon which Mousetrap captures a key even to account for Thunderbird specific UI elements, and defines the function that executes what the user specifies for each key binding.\nThat is all that `implementation.js` does.\nIt does not access the local file system or any message data and does not access the network.\n\nOne of the command modes tbkeys supports is [eval](#eval).\nThis mode uses `eval()` to execute arbitrary code provided by the user in `implementation.js` with full access to Thunderbird's internals.\nIf one does not need to bind to arbitrary code, perhaps there is some security gained by using [tbkeys-lite](#tbkeys-lite) which does not support eval commands.\ntbkeys-lite is the version published on [Thunderbird's Add-ons page](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/).\nAdd-ons published there undergo an independent manual review.\nHaving that barrier of review between yourself and the developer provides an added layer of security.\n",
+    "ContentSha": "BcxtZc6JYlWA4R/ruPJaBIC51m0tYX6FHLE1pPbb65Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Desplazar el cuerpo del mensaje hacia arriba**:\n  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, -100)`\n  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, -100)`\n- **Crear nueva carpeta**: `window.goDoCommand('cmd_newFolder')`\n- **Suscribirse a un feed**: `window.openSubscriptionsDialog(window.GetSelectedMsgFolders()[0])`\n\n## Desactivar atajos de teclado predeterminados\n\nEl botón \"Desactivar individuales\" en el panel de preferencias puede usarse para desactivar los atajos de tecla simples predeterminados de Thunderbird en la ventana principal.\nEsta función establece todos los atajos de tecla simples predeterminados de Thunderbird en `desactivado` a menos que ya estén configurados en las preferencias de tbkeys (es decir, no sobrescribirá las configuraciones existentes de tbkeys para atajos simples).\n\n## <a name=\"tbkeys-lite\"></a>tbkeys y tbkeys-lite\n\ntbkeys-lite es una versión de tbkeys con la capacidad de ejecutar javascript arbitrario eliminada.\n\n## Seguridad, privacidad e implementación\n\nAntes de la instalación, Thunderbird mostrará un aviso sobre que la extensión requiere permiso para \"Tener acceso completo y sin restricciones a Thunderbird y a su computadora.\"\nLa razón de esta solicitud de permiso es que tbkeys debe inyectar un listener de teclas en la interfaz de usuario de Thunderbird para escuchar los atajos de teclado.\nPara ello, tbkeys utiliza la interfaz de extensión antigua de Thunderbird que precede a MailExtensions.\nEsta interfaz es la que usaban todas las extensiones antes de Thunderbird 68.\nLas nuevas APIs de MailExtensions, que proporcionan un control más estricto sobre lo que las extensiones pueden hacer, no cuentan con una API para atajos de teclado.\nSi está interesado en que se agregue una API de atajos de teclado a Thunderbird, por favor considere contribuir con código al proyecto.\nQuizás [este ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=1591730) en el rastreador de incidencias de Thunderbird podría ser un punto de partida.\n\nPara discutir más a fondo las consideraciones de seguridad relacionadas con tbkeys, es necesario revisar su implementación.\nComo se menciona en la [introducción](#intro), tbkeys depende de la biblioteca Mousetrap para gestionar los atajos de teclado.\nLa mayor parte de la lógica de tbkeys está en [implementation.js](https://raw.githubusercontent.com/wshanks/tbkeys/main/addon/implementation.js), que es un [experimento de MailExtension](https://developer.thunderbird.net/add-ons/mailextensions/experiments).\n`implementation.js` configura la API del experimento que puede ser llamada por la MailExtension estándar (de alcance restringido) de tbkeys para enlazar atajos de teclado a funciones (incluyendo una función nula para desactivar atajos) y para enviar mensajes a otras extensiones.\n`implementation.js` también carga Mousetrap en cada ventana de Thunderbird, ajusta las condiciones bajo las cuales Mousetrap captura un evento de tecla para tener en cuenta elementos específicos de la interfaz de Thunderbird, y define la función que ejecuta lo que el usuario especifica para cada atajo de teclado.\nEso es todo lo que hace `implementation.js`.\nNo accede al sistema de archivos local ni a datos de mensajes y no accede a la red.\n\nUno de los modos de comando que tbkeys soporta es [eval](#eval).\nEste modo usa `eval()` para ejecutar código arbitrario proporcionado por el usuario en `implementation.js` con acceso completo a los internos de Thunderbird.\nSi no se necesita enlazar a código arbitrario, tal vez se gane algo de seguridad usando [tbkeys-lite](#tbkeys-lite) que no soporta comandos eval.\ntbkeys-lite es la versión publicada en la [página de complementos de Thunderbird](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/).\nLos complementos publicados allí pasan por una revisión manual independiente.\nTener esa barrera de revisión entre usted y el desarrollador proporciona una capa adicional de seguridad.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KcIsOkUCf/UmkEVmGoWL31C54K4N2fZj40/ZSK+8R3c=",
+        "originContent": "- **Scroll message body up**:",
+        "translatedContent": "- **Desplazar el cuerpo del mensaje hacia arriba**:"
+      },
+      {
+        "row": 2,
+        "rowsha": "yIA4XmI/5lEQqJrWNwz8/9vo+CksGha+n9NcFOlMR4o=",
+        "originContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, -100)`",
+        "translatedContent": "  - v115+: `window.gTabmail.currentAboutMessage.getMessagePaneBrowser().contentWindow.scrollBy(0, -100)`"
+      },
+      {
+        "row": 3,
+        "rowsha": "nlotFJQLxlhW+Wr3vNorhrHFi31U3T5ztwzuyMSG7aw=",
+        "originContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, -100)`",
+        "translatedContent": "  - v102: `window.document.getElementById('messagepane').contentDocument.documentElement.getElementsByTagName('body')[0].scrollBy(0, -100)`"
+      },
+      {
+        "row": 4,
+        "rowsha": "fPApOywnEtFZpWXRLGNQfQK3uaZFvbYXwfg+p2vf8fQ=",
+        "originContent": "- **Create new folder**: `window.goDoCommand('cmd_newFolder')`",
+        "translatedContent": "- **Crear nueva carpeta**: `window.goDoCommand('cmd_newFolder')`"
+      },
+      {
+        "row": 5,
+        "rowsha": "f3MPnT2X8NoLYQR3r2BwWwtu8JsJjCUHeWKmKo0v2Xk=",
+        "originContent": "- **Subscribe to feed**: `window.openSubscriptionsDialog(window.GetSelectedMsgFolders()[0])`",
+        "translatedContent": "- **Suscribirse a un feed**: `window.openSubscriptionsDialog(window.GetSelectedMsgFolders()[0])`"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "WjDGe51Pesy6OfPDIQJjshTO5cGgWnPkjlsG5h5eTPI=",
+        "originContent": "## Unsetting default key bindings",
+        "translatedContent": "## Desactivar atajos de teclado predeterminados"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cTAr6jJoshvyC5t2Lp+7CHJrh/SIQrConmucEhmTesk=",
+        "originContent": "The \"Unset singles\" button in the preferences pane can be used to unset Thunderbird's default single key bindings in the main window.",
+        "translatedContent": "El botón \"Desactivar individuales\" en el panel de preferencias puede usarse para desactivar los atajos de tecla simples predeterminados de Thunderbird en la ventana principal."
+      },
+      {
+        "row": 10,
+        "rowsha": "cfz3WMlGI8z/udnh5XTA9N5wcEEAn9CmkdnS+WzPf1k=",
+        "originContent": "This function set all of Thunderbird's default single key shortcuts to `unset` unless they are currently set in tbkey's preferences (that is, it won't overwrite tbkeys' existing settings for single key shortcuts).",
+        "translatedContent": "Esta función establece todos los atajos de tecla simples predeterminados de Thunderbird en `desactivado` a menos que ya estén configurados en las preferencias de tbkeys (es decir, no sobrescribirá las configuraciones existentes de tbkeys para atajos simples)."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "sL64bW1IVqwsaAwHh8d26Mc4tAYZm0wOdlkq7BQiNVo=",
+        "originContent": "## <a name=\"tbkeys-lite\"></a>tbkeys and tbkeys-lite",
+        "translatedContent": "## <a name=\"tbkeys-lite\"></a>tbkeys y tbkeys-lite"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "1g2FjsfAMJye89MGtPohFCpSm07uGPRwyjNi4A2ukhg=",
+        "originContent": "tbkeys-lite is a version of tbkeys with the ability to execute arbitrary javascript removed.",
+        "translatedContent": "tbkeys-lite es una versión de tbkeys con la capacidad de ejecutar javascript arbitrario eliminada."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "XbLTL4whtL41YwNIWKZ7CPuVYsdzmWLqVffl15DYRWI=",
+        "originContent": "## Security, privacy, and implementation",
+        "translatedContent": "## Seguridad, privacidad e implementación"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "6PgOCkvsLkVHfih7tKsx/Ml1nyDDfPsFibzVl83MDmg=",
+        "originContent": "Before installation, Thunderbird will prompt about the extension requiring permission to \"Have full, unrestricted access to Thunderbird, and your computer.\"",
+        "translatedContent": "Antes de la instalación, Thunderbird mostrará un aviso sobre que la extensión requiere permiso para \"Tener acceso completo y sin restricciones a Thunderbird y a su computadora.\""
+      },
+      {
+        "row": 19,
+        "rowsha": "tNIRYH15a3mwh4795imnU0Q/j1d3FidLg0COoF0/jMI=",
+        "originContent": "The reason for this permission request is that tbkeys must inject a key listener into the Thunderbird user interface in order to listen for key bindings.",
+        "translatedContent": "La razón de esta solicitud de permiso es que tbkeys debe inyectar un listener de teclas en la interfaz de usuario de Thunderbird para escuchar los atajos de teclado."
+      },
+      {
+        "row": 20,
+        "rowsha": "7870nx3OQv/Zgp3hNg7PmCp4f3kfR7QoTx0OyyZlZ5s=",
+        "originContent": "To do this, tbkeys uses the older Thunderbird extension interface that predates MailExtensions.",
+        "translatedContent": "Para ello, tbkeys utiliza la interfaz de extensión antigua de Thunderbird que precede a MailExtensions."
+      },
+      {
+        "row": 21,
+        "rowsha": "CqeJXP7+NDeKCE+PTRA0H9JRp0l+QvRlgT7SYZsBLxc=",
+        "originContent": "This interface is what all extensions used prior to Thunderbird 68.",
+        "translatedContent": "Esta interfaz es la que usaban todas las extensiones antes de Thunderbird 68."
+      },
+      {
+        "row": 22,
+        "rowsha": "XBko5DuKOHDJIIG73pS8BcZWQpytTSDqe2qI9dZOfqI=",
+        "originContent": "The new MailExtensions APIs which provide tighter control on what extensions can do do not have a keyboard shortcut API.",
+        "translatedContent": "Las nuevas APIs de MailExtensions, que proporcionan un control más estricto sobre lo que las extensiones pueden hacer, no cuentan con una API para atajos de teclado."
+      },
+      {
+        "row": 23,
+        "rowsha": "dKt6R3NmxwM7JCbhC9kv80vGSWXtrruvmKST66emHfQ=",
+        "originContent": "If you are interested in seeing a keyboard shortcut API added to Thunderbird, please consider contributing code to the project.",
+        "translatedContent": "Si está interesado en que se agregue una API de atajos de teclado a Thunderbird, por favor considere contribuir con código al proyecto."
+      },
+      {
+        "row": 24,
+        "rowsha": "bWv8Ugpr5hO3zy7cdSdLIAlmzeDCUeyX5DAh++XZgDA=",
+        "originContent": "Perhaps [this ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=1591730) in the Thunderbird issue tracker could be a starting point.",
+        "translatedContent": "Quizás [este ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=1591730) en el rastreador de incidencias de Thunderbird podría ser un punto de partida."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "jG4MsUaAgBwzz7dy1hYoIDw0bFbZsEeqPutA8BOMTwg=",
+        "originContent": "To discuss the security considerations related to tbkeys further, it is necessary to review its implementation.",
+        "translatedContent": "Para discutir más a fondo las consideraciones de seguridad relacionadas con tbkeys, es necesario revisar su implementación."
+      },
+      {
+        "row": 27,
+        "rowsha": "JknVxDwvow/r9bIfqtHRUXXwzCjxVx3AIyEkFcoBlKY=",
+        "originContent": "As mentioned in the [intro](#intro), tbkeys relies on the Mousetrap library for managing the keybindings.",
+        "translatedContent": "Como se menciona en la [introducción](#intro), tbkeys depende de la biblioteca Mousetrap para gestionar los atajos de teclado."
+      },
+      {
+        "row": 28,
+        "rowsha": "b2KF/LChLc1vkgAgH8XoM9KvItlTRO9tnul+eQVioIA=",
+        "originContent": "The bulk of the logic of tbkeys is in [implementation.js](https://raw.githubusercontent.com/wshanks/tbkeys/main/addon/implementation.js) which is a [MailExtension experiment](https://developer.thunderbird.net/add-ons/mailextensions/experiments).",
+        "translatedContent": "La mayor parte de la lógica de tbkeys está en [implementation.js](https://raw.githubusercontent.com/wshanks/tbkeys/main/addon/implementation.js), que es un [experimento de MailExtension](https://developer.thunderbird.net/add-ons/mailextensions/experiments)."
+      },
+      {
+        "row": 29,
+        "rowsha": "xytCnwQlWXTLZ/uRxZ2rB00/TEBQCJEKlopKcxewb/g=",
+        "originContent": "`implementation.js` sets up the experiment API which can be called by tbkey's standard (restricted in scope) MailExtension to bind keyboard shortcuts to functions (including a null function for unbinding) and to messages to send to other extensions.",
+        "translatedContent": "`implementation.js` configura la API del experimento que puede ser llamada por la MailExtension estándar (de alcance restringido) de tbkeys para enlazar atajos de teclado a funciones (incluyendo una función nula para desactivar atajos) y para enviar mensajes a otras extensiones."
+      },
+      {
+        "row": 30,
+        "rowsha": "BCwUAyOrC54tgzYs9NVL3fftSfmd+r8mXO38i3NmHXo=",
+        "originContent": "`implementation.js` also loads Mousetrap into each Thunderbird window, tweaks the conditions upon which Mousetrap captures a key even to account for Thunderbird specific UI elements, and defines the function that executes what the user specifies for each key binding.",
+        "translatedContent": "`implementation.js` también carga Mousetrap en cada ventana de Thunderbird, ajusta las condiciones bajo las cuales Mousetrap captura un evento de tecla para tener en cuenta elementos específicos de la interfaz de Thunderbird, y define la función que ejecuta lo que el usuario especifica para cada atajo de teclado."
+      },
+      {
+        "row": 31,
+        "rowsha": "g978HjlYnriX9XIVl1tGO8LXW6uUAyGCltD3ljFc2C0=",
+        "originContent": "That is all that `implementation.js` does.",
+        "translatedContent": "Eso es todo lo que hace `implementation.js`."
+      },
+      {
+        "row": 32,
+        "rowsha": "WBE8KnSfUHBoXVjYxFEvR4Q50CHExbgQti0d0fYMae0=",
+        "originContent": "It does not access the local file system or any message data and does not access the network.",
+        "translatedContent": "No accede al sistema de archivos local ni a datos de mensajes y no accede a la red."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "ya3haeYU7bKsHxPSAohZx0YA4Bxz3rCKLkbtgUHdduI=",
+        "originContent": "One of the command modes tbkeys supports is [eval](#eval).",
+        "translatedContent": "Uno de los modos de comando que tbkeys soporta es [eval](#eval)."
+      },
+      {
+        "row": 35,
+        "rowsha": "2V0wprSM22Nx7HXR0UcC+aywR/rMH435jJm/5Q+oMp8=",
+        "originContent": "This mode uses `eval()` to execute arbitrary code provided by the user in `implementation.js` with full access to Thunderbird's internals.",
+        "translatedContent": "Este modo usa `eval()` para ejecutar código arbitrario proporcionado por el usuario en `implementation.js` con acceso completo a los internos de Thunderbird."
+      },
+      {
+        "row": 36,
+        "rowsha": "5ww/DwDIwyabPpmByzImqpVYs+1TU8GppWGFwC+KZ6I=",
+        "originContent": "If one does not need to bind to arbitrary code, perhaps there is some security gained by using [tbkeys-lite](#tbkeys-lite) which does not support eval commands.",
+        "translatedContent": "Si no se necesita enlazar a código arbitrario, tal vez se gane algo de seguridad usando [tbkeys-lite](#tbkeys-lite) que no soporta comandos eval."
+      },
+      {
+        "row": 37,
+        "rowsha": "01FjK6/3HpkOWTtOmYDH7czyTDBmD7iRZW5RNRLpmDA=",
+        "originContent": "tbkeys-lite is the version published on [Thunderbird's Add-ons page](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/).",
+        "translatedContent": "tbkeys-lite es la versión publicada en la [página de complementos de Thunderbird](https://addons.thunderbird.net/en-US/thunderbird/addon/tbkeys-lite/)."
+      },
+      {
+        "row": 38,
+        "rowsha": "L6HW63JlCl8XwjYOEhnhmy90HydsODZp3ngsQoLAMZE=",
+        "originContent": "Add-ons published there undergo an independent manual review.",
+        "translatedContent": "Los complementos publicados allí pasan por una revisión manual independiente."
+      },
+      {
+        "row": 39,
+        "rowsha": "Oni4NtSIUv+b3DRPtW4W4HeGtFWjK0jCFjEJUMVU/0I=",
+        "originContent": "Having that barrier of review between yourself and the developer provides an added layer of security.",
+        "translatedContent": "Tener esa barrera de revisión entre usted y el desarrollador proporciona una capa adicional de seguridad."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
