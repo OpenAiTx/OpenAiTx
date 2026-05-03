@@ -1,0 +1,834 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Xenity Engine\n\nXenity Engine is a crossplatform game engine based on GameObjects and Components for PlayStation Portable, PsVita, PS3 and Windows.\n\n[Xenity Scripting Documentation](https://fewnity.github.io/Xenity-Engine/script_api_reference/scripting_api_reference.html)\n\nI'm planning to work on a new engine, to fix most of the big problems of this engine.<br>\nSo I probably won't add new feature to this engine.<br>\nBut pull requests are still welcomed, new features, refactor, bug fixes, optimizations or improve documentations, everything is good to take!\nIf you want to improve the engine, here is the [TODO list](https://github.com/Fewnity/Xenity-Engine/blob/crossplatform/TODO.md).\n\n![image](https://github.com/Fewnity/Xenity-Engine/assets/39272935/df59e12e-b989-4b0d-93b1-4f95fac7c91f)\n\n![gif](https://github.com/user-attachments/assets/7568e868-e41c-4495-bde7-56bb7b6bc54d)\n\n[Game samples](https://fewnity.github.io/Xenity-Engine/game_project_samples/game_project_samples.html) are available to download!\n\n### Supported platforms:<br>\n✔️ Supported<br>\n🚧 Work In Progress<br>\n\n| Status | Platform |\n|-|-|\n✔️ | Windows\n✔️ | PlayStation Portable\n✔️ | PlayStation Vita\n✔️ | PlayStation 3\n🚧 | Linux (The UI is a bit glitchy, missing audio and build system)\n\nFeatures:\n\n- [X] Basic 2D\n- [X] Basic 3D\n- [X] 2D Audio\n- [ ] 3D Audio\n- [X] Skyboxes\n- [X] Scenes\n- [ ] Animations\n- [X] 3D Physics\n- [ ] 2D Physics",
+    "ContentSha": "s4uoGYBY/Cemnsit57+wciMIMr8meVTyvs5eljscQV8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Xenity Engine\n\nXenity Engine is a crossplatform game engine based on GameObjects and Components for PlayStation Portable, PsVita, PS3 and Windows.\n\n[Xenity Scripting Documentation](https://fewnity.github.io/Xenity-Engine/script_api_reference/scripting_api_reference.html)\n\nI'm planning to work on a new engine, to fix most of the big problems of this engine.<br>\nSo I probably won't add new feature to this engine.<br>\nBut pull requests are still welcomed, new features, refactor, bug fixes, optimizations or improve documentations, everything is good to take!\nIf you want to improve the engine, here is the [TODO list](https://github.com/Fewnity/Xenity-Engine/blob/crossplatform/TODO.md).\n\n![image](https://github.com/Fewnity/Xenity-Engine/assets/39272935/df59e12e-b989-4b0d-93b1-4f95fac7c91f)\n\n![gif](https://github.com/user-attachments/assets/7568e868-e41c-4495-bde7-56bb7b6bc54d)\n\n[Game samples](https://fewnity.github.io/Xenity-Engine/game_project_samples/game_project_samples.html) are available to download!\n\n### Supported platforms:<br>\n✔️ Supported<br>\n🚧 Work In Progress<br>\n\n| Status | Platform |\n|-|-|\n✔️ | Windows\n✔️ | PlayStation Portable\n✔️ | PlayStation Vita\n✔️ | PlayStation 3\n🚧 | Linux (The UI is a bit glitchy, missing audio and build system)\n\nFeatures:\n\n- [X] Basic 2D\n- [X] Basic 3D\n- [X] 2D Audio\n- [ ] 3D Audio\n- [X] Skyboxes\n- [X] Scenes\n- [ ] Animations\n- [X] 3D Physics\n- [ ] 2D Physics",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bD1GBwOuFvpAW7UR8P17/S8xzDFZHOUibiyM0VDJK94=",
+        "originContent": "# Xenity Engine",
+        "translatedContent": "# Xenity Engine"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "fB8G25WPpodZUpVF0CiI33v8iYSF6TJ9VM8WEEXstLM=",
+        "originContent": "Xenity Engine is a crossplatform game engine based on GameObjects and Components for PlayStation Portable, PsVita, PS3 and Windows.",
+        "translatedContent": "Xenity Engine is a crossplatform game engine based on GameObjects and Components for PlayStation Portable, PsVita, PS3 and Windows."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "j8QSwTGKSqmuqifOjzXY6YKHl6O2dX2IxpGS/MvNuX0=",
+        "originContent": "[Xenity Scripting Documentation](https://fewnity.github.io/Xenity-Engine/script_api_reference/scripting_api_reference.html)",
+        "translatedContent": "[Xenity Scripting Documentation](https://fewnity.github.io/Xenity-Engine/script_api_reference/scripting_api_reference.html)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lVu6JyTu4hKqSlHxooAtGLQte/IoRwJ1JM6Ot5ZBTvk=",
+        "originContent": "I'm planning to work on a new engine, to fix most of the big problems of this engine.<br>",
+        "translatedContent": "I'm planning to work on a new engine, to fix most of the big problems of this engine.<br>"
+      },
+      {
+        "row": 8,
+        "rowsha": "BQclrfD8WOY/ny8MhsrhkMrEGK9JKzPRpJPtE2p9KA0=",
+        "originContent": "So I probably won't add new feature to this engine.<br>",
+        "translatedContent": "So I probably won't add new feature to this engine.<br>"
+      },
+      {
+        "row": 9,
+        "rowsha": "opS7IlNn0khbXq4Nl5m819ISWx639qY81GT7PL2QQuQ=",
+        "originContent": "But pull requests are still welcomed, new features, refactor, bug fixes, optimizations or improve documentations, everything is good to take!",
+        "translatedContent": "But pull requests are still welcomed, new features, refactor, bug fixes, optimizations or improve documentations, everything is good to take!"
+      },
+      {
+        "row": 10,
+        "rowsha": "QDV2rWWuc92k3L5QOdK+KRhhVCDtPZ9qxaYrDTWnN+w=",
+        "originContent": "If you want to improve the engine, here is the [TODO list](https://github.com/Fewnity/Xenity-Engine/blob/crossplatform/TODO.md).",
+        "translatedContent": "If you want to improve the engine, here is the [TODO list](https://github.com/Fewnity/Xenity-Engine/blob/crossplatform/TODO.md)."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "CnzQeroAu93VJ27Akphgl5GusXvH3cieWM13RQqxELQ=",
+        "originContent": "![image](https://github.com/Fewnity/Xenity-Engine/assets/39272935/df59e12e-b989-4b0d-93b1-4f95fac7c91f)",
+        "translatedContent": "![image](https://github.com/Fewnity/Xenity-Engine/assets/39272935/df59e12e-b989-4b0d-93b1-4f95fac7c91f)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "G09EeVHI7j7xjIYeqidKSxIeaceyVR84I2bHb07Mlbo=",
+        "originContent": "![gif](https://github.com/user-attachments/assets/7568e868-e41c-4495-bde7-56bb7b6bc54d)",
+        "translatedContent": "![gif](https://github.com/user-attachments/assets/7568e868-e41c-4495-bde7-56bb7b6bc54d)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "dmFcBBeHd4rkr43RVUq/FEPN3uIfU3aS6Bvk/ZEbskY=",
+        "originContent": "[Game samples](https://fewnity.github.io/Xenity-Engine/game_project_samples/game_project_samples.html) are available to download!",
+        "translatedContent": "[Game samples](https://fewnity.github.io/Xenity-Engine/game_project_samples/game_project_samples.html) are available to download!"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "tv+JxX8djgsXmMJOosaonDBcVpOqdoeHY6Q1JY2JE9M=",
+        "originContent": "### Supported platforms:<br>",
+        "translatedContent": "### Supported platforms:<br>"
+      },
+      {
+        "row": 19,
+        "rowsha": "h67bsWNoW7+bcpP5INh6tpc/xsMve6R9szIssL/EQvI=",
+        "originContent": "✔️ Supported<br>",
+        "translatedContent": "✔️ Supported<br>"
+      },
+      {
+        "row": 20,
+        "rowsha": "vUtQPNHZx0Ye8w1rGEk5gRQcRt4jezACSzcxz4xSTzI=",
+        "originContent": "🚧 Work In Progress<br>",
+        "translatedContent": "🚧 Work In Progress<br>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "r12qcPFv5zn6xcQXpCRLpSzsiYxh4ekKrYW11QK6nE0=",
+        "originContent": "| Status | Platform |",
+        "translatedContent": "| Status | Platform |"
+      },
+      {
+        "row": 23,
+        "rowsha": "+5QQecUylGn+PBQIsstEbf8nTvbBQIwGJlO8roLHucU=",
+        "originContent": "|-|-|",
+        "translatedContent": "|-|-|"
+      },
+      {
+        "row": 24,
+        "rowsha": "iPPW7+HdpZX5vltxZ4/1JNbnesMVlJu4bG63Qt6gv2c=",
+        "originContent": "✔️ | Windows",
+        "translatedContent": "✔️ | Windows"
+      },
+      {
+        "row": 25,
+        "rowsha": "P2xfoZesqlFfPorWlgsFtZgY2cUYDsswxCu0VuKZUro=",
+        "originContent": "✔️ | PlayStation Portable",
+        "translatedContent": "✔️ | PlayStation Portable"
+      },
+      {
+        "row": 26,
+        "rowsha": "akIxP2eLT6NR1j3qdH8ebr/UoQdWmeDaKV+qG1Rfctk=",
+        "originContent": "✔️ | PlayStation Vita",
+        "translatedContent": "✔️ | PlayStation Vita"
+      },
+      {
+        "row": 27,
+        "rowsha": "BX6rbZuNvNlbJzVOkULUlt78Ci7UftkifMeckB+ajos=",
+        "originContent": "✔️ | PlayStation 3",
+        "translatedContent": "✔️ | PlayStation 3"
+      },
+      {
+        "row": 28,
+        "rowsha": "YqrHVpa8Tl7UeuOv+0+Fy9K3scEevkmzklU5zCpt1F0=",
+        "originContent": "🚧 | Linux (The UI is a bit glitchy, missing audio and build system)",
+        "translatedContent": "🚧 | Linux (The UI is a bit glitchy, missing audio and build system)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "e4hgdvJgNoK8Q5OhPPLTjy7Cw+ICPXtZFjlH7tEw0fI=",
+        "originContent": "Features:",
+        "translatedContent": "Features:"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "8QUyHNdhDjLlTxjG4W3GyleDu78JYLRNrwqvPodyFPc=",
+        "originContent": "- [X] Basic 2D",
+        "translatedContent": "- [X] Basic 2D"
+      },
+      {
+        "row": 33,
+        "rowsha": "N/nJehcui/VkbEn9vLXjRcjlINGWKnFbVmaItlhXzHQ=",
+        "originContent": "- [X] Basic 3D",
+        "translatedContent": "- [X] Basic 3D"
+      },
+      {
+        "row": 34,
+        "rowsha": "3lefHHe7UUO4Jo8/mnwjyLu/wam4HsqsxKhsgBCWn0M=",
+        "originContent": "- [X] 2D Audio",
+        "translatedContent": "- [X] 2D Audio"
+      },
+      {
+        "row": 35,
+        "rowsha": "fAUtu4k6iVE92YaH5dBPEFrSSScZfA5WmfclcT/Aijs=",
+        "originContent": "- [ ] 3D Audio",
+        "translatedContent": "- [ ] 3D Audio"
+      },
+      {
+        "row": 36,
+        "rowsha": "06u468zJPVx5nFGytmtdPmQX9jbCcKXO9Z7RVO7wwtA=",
+        "originContent": "- [X] Skyboxes",
+        "translatedContent": "- [X] Skyboxes"
+      },
+      {
+        "row": 37,
+        "rowsha": "PhGpfUihOQwUnhO+qgZHfz2OJgUFFdW/VtCRKKioKFQ=",
+        "originContent": "- [X] Scenes",
+        "translatedContent": "- [X] Scenes"
+      },
+      {
+        "row": 38,
+        "rowsha": "3Y5rLrptemF2Zex2V4b1zg0cDfU2DFhI28a7x2XIdoE=",
+        "originContent": "- [ ] Animations",
+        "translatedContent": "- [ ] Animations"
+      },
+      {
+        "row": 39,
+        "rowsha": "BsQLOcsRrXVD0tZui1PBmR2TcJhnIqCCIxlRbNJrobI=",
+        "originContent": "- [X] 3D Physics",
+        "translatedContent": "- [X] 3D Physics"
+      },
+      {
+        "row": 40,
+        "rowsha": "sJKRWbewM9ERqY2cD6Cj8sjUPoTpjj2AxvekN5hdQ1o=",
+        "originContent": "- [ ] 2D Physics",
+        "translatedContent": "- [ ] 2D Physics"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- [X] C++ Hot Reloading\n\n> [!WARNING]\n> The engine is not perfect. So you may encounter problems during game development like:\n> - Deleting Meta files will have repercussions on your project. Variables that reference the files will be emptied.\n> - Duplicating a meta file will cause problems, each meta file has a unique file id in it.\n> - Audio works \"fine\" with 44100Hz but on PS3 you need to use 48000Hz audio.\n\n> [!NOTE]\n> If you want to compile a game in the editor, you have to set `Compiler path` in the `Engine Settings` menu (Window->Engine Settings).<br>\n> `Compiler path` is by default `C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build`, change this if your Visual Studio installation/version is different.<br>\n> You can set the `PPSSPP location` for Build And Run for PSP builds.\n\n## How to use the editor\n### How to play the game in the editor\n- Compile the game in \"Game->Compile Game\"\n- Click on the play button\n### How to build the game\n- Open the Build Settings menu in \"File->Build Settings\"\n- Select the platform\n- Click on build\n(For PSP, PS3 and PsVita, you will need Docker Desktop installed and configured).\n\n## Docker Setup\nDocker Desktop is needed to compile PSP, PS3 and PsVita games.<br>\nDownload Docker Desktop: https://www.docker.com/products/docker-desktop/\n\nThen finish the docker install in Xenity. Go in \"Window->Docker Configuration\", the process can take several minutes especially if you have a slow computer or a slow internet connection. (The editor will freeze).\n\n## Compatible files\nImages: `.png .jpg .bmp, .tga`\n\nAudio: `.wav .mp3` (Please use 44100Hz audio except on PS3, you have to use 48000Hz audio)\n\nMesh: `.obj .fbx`\n\nFont: `.ttf`\n\n## How to compile the engine in Visual Studio\n- Set the project `Xenity_Engine_Executable` as startup project.",
+    "ContentSha": "SYe5Pfn4u8U0upwNq3orv48kJ03EyT3nFhyTPIZK/68=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [X] C++ Hot Reloading\n\n> [!WARNING]\n> The engine is not perfect. So you may encounter problems during game development like:\n> - Deleting Meta files will have repercussions on your project. Variables that reference the files will be emptied.\n> - Duplicating a meta file will cause problems, each meta file has a unique file id in it.\n> - Audio works \"fine\" with 44100Hz but on PS3 you need to use 48000Hz audio.\n\n> [!NOTE]\n> If you want to compile a game in the editor, you have to set `Compiler path` in the `Engine Settings` menu (Window->Engine Settings).<br>\n> `Compiler path` is by default `C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build`, change this if your Visual Studio installation/version is different.<br>\n> You can set the `PPSSPP location` for Build And Run for PSP builds.\n\n## How to use the editor\n### How to play the game in the editor\n- Compile the game in \"Game->Compile Game\"\n- Click on the play button\n### How to build the game\n- Open the Build Settings menu in \"File->Build Settings\"\n- Select the platform\n- Click on build\n(For PSP, PS3 and PsVita, you will need Docker Desktop installed and configured).\n\n## Docker Setup\nDocker Desktop is needed to compile PSP, PS3 and PsVita games.<br>\nDownload Docker Desktop: https://www.docker.com/products/docker-desktop/\n\nThen finish the docker install in Xenity. Go in \"Window->Docker Configuration\", the process can take several minutes especially if you have a slow computer or a slow internet connection. (The editor will freeze).\n\n## Compatible files\nImages: `.png .jpg .bmp, .tga`\n\nAudio: `.wav .mp3` (Please use 44100Hz audio except on PS3, you have to use 48000Hz audio)\n\nMesh: `.obj .fbx`\n\nFont: `.ttf`\n\n## How to compile the engine in Visual Studio\n- Set the project `Xenity_Engine_Executable` as startup project.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dSgCXDf5lwi68S/5zp89cp0FzOhUjfiBkFY2EkptABI=",
+        "originContent": "- [X] C++ Hot Reloading",
+        "translatedContent": "- [X] C++ Hot Reloading"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 4,
+        "rowsha": "Iw2GuLEnwjfRTwZq5VUey96TeXsPB+F9ddOvD380wEY=",
+        "originContent": "> The engine is not perfect. So you may encounter problems during game development like:",
+        "translatedContent": "> The engine is not perfect. So you may encounter problems during game development like:"
+      },
+      {
+        "row": 5,
+        "rowsha": "Y8ljnIDjsgehewEc+flYi4XQVvdLotXh0ub2pBUOCzA=",
+        "originContent": "> - Deleting Meta files will have repercussions on your project. Variables that reference the files will be emptied.",
+        "translatedContent": "> - Deleting Meta files will have repercussions on your project. Variables that reference the files will be emptied."
+      },
+      {
+        "row": 6,
+        "rowsha": "ARwhR+kqsEb7GeBQStRe7AA2dnTp+x37iSJCVAQLmMs=",
+        "originContent": "> - Duplicating a meta file will cause problems, each meta file has a unique file id in it.",
+        "translatedContent": "> - Duplicating a meta file will cause problems, each meta file has a unique file id in it."
+      },
+      {
+        "row": 7,
+        "rowsha": "Bs5QYcSSVV1knEjtTDqGApa7hzA05AwRGchksOIgdaA=",
+        "originContent": "> - Audio works \"fine\" with 44100Hz but on PS3 you need to use 48000Hz audio.",
+        "translatedContent": "> - Audio works \"fine\" with 44100Hz but on PS3 you need to use 48000Hz audio."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 10,
+        "rowsha": "8+3VG2FLiZGWUdiEHggUAL5vLWso69isrImHiiYKqtk=",
+        "originContent": "> If you want to compile a game in the editor, you have to set `Compiler path` in the `Engine Settings` menu (Window->Engine Settings).<br>",
+        "translatedContent": "> If you want to compile a game in the editor, you have to set `Compiler path` in the `Engine Settings` menu (Window->Engine Settings).<br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "TwM7+/1E4ENhoR0PEwWBP6BGtD8sJzICHJ75hgh3DNo=",
+        "originContent": "> `Compiler path` is by default `C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build`, change this if your Visual Studio installation/version is different.<br>",
+        "translatedContent": "> `Compiler path` is by default `C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build`, change this if your Visual Studio installation/version is different.<br>"
+      },
+      {
+        "row": 12,
+        "rowsha": "JB0nvusURF72wZW7W/VhddN3MNwhnBgG2kIbTe/7KTw=",
+        "originContent": "> You can set the `PPSSPP location` for Build And Run for PSP builds.",
+        "translatedContent": "> You can set the `PPSSPP location` for Build And Run for PSP builds."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "8n2YLSm+WCKQPPJJh6TOcAMEwOr3P0Bw3tQt8dO6kbI=",
+        "originContent": "## How to use the editor",
+        "translatedContent": "## How to use the editor"
+      },
+      {
+        "row": 15,
+        "rowsha": "KBQZUJhDqh2bi9IOGvZwR9kjZro864GK2alRezNSchg=",
+        "originContent": "### How to play the game in the editor",
+        "translatedContent": "### How to play the game in the editor"
+      },
+      {
+        "row": 16,
+        "rowsha": "4kbNjogcDSMNctamqnsrITTUmBAvYElSUZPEoozaQg0=",
+        "originContent": "- Compile the game in \"Game->Compile Game\"",
+        "translatedContent": "- Compile the game in \"Game->Compile Game\""
+      },
+      {
+        "row": 17,
+        "rowsha": "twIUZhXrAo8U3WOSpDsuWUBey2aHjDIbknxFKcjp6vA=",
+        "originContent": "- Click on the play button",
+        "translatedContent": "- Click on the play button"
+      },
+      {
+        "row": 18,
+        "rowsha": "llveVCGMlszzoYw6bkHDPWdmd8N4WTTe7hofAKU6YHk=",
+        "originContent": "### How to build the game",
+        "translatedContent": "### How to build the game"
+      },
+      {
+        "row": 19,
+        "rowsha": "V2PGulVVjdMN40I0XJa1bXvFl47bcaM+1SXC2uMpNOg=",
+        "originContent": "- Open the Build Settings menu in \"File->Build Settings\"",
+        "translatedContent": "- Open the Build Settings menu in \"File->Build Settings\""
+      },
+      {
+        "row": 20,
+        "rowsha": "T8zGk1axFL1USez9LivhXjsirtj3wRs9PwldexUO+Aw=",
+        "originContent": "- Select the platform",
+        "translatedContent": "- Select the platform"
+      },
+      {
+        "row": 21,
+        "rowsha": "j5k3W+bMH+wL6YRKRbXSedmGM8A/Mkbzs03/s/MbM7I=",
+        "originContent": "- Click on build",
+        "translatedContent": "- Click on build"
+      },
+      {
+        "row": 22,
+        "rowsha": "NRLWbKR4hyuhMNlS7nYf88HWqdKtqSMEw9d0MLc9c94=",
+        "originContent": "(For PSP, PS3 and PsVita, you will need Docker Desktop installed and configured).",
+        "translatedContent": "(For PSP, PS3 and PsVita, you will need Docker Desktop installed and configured)."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "o7Ph7T5+0lhuT4cVFYn2PaY1QR7mjhjzY7QOr/Dr2TU=",
+        "originContent": "## Docker Setup",
+        "translatedContent": "## Docker Setup"
+      },
+      {
+        "row": 25,
+        "rowsha": "9fbTv/m3axdw0IIMZZtWvBkhf0iLi0WjSEApfUPBug8=",
+        "originContent": "Docker Desktop is needed to compile PSP, PS3 and PsVita games.<br>",
+        "translatedContent": "Docker Desktop is needed to compile PSP, PS3 and PsVita games.<br>"
+      },
+      {
+        "row": 26,
+        "rowsha": "nPJWmURJUiE8XuuwwVGNRIJtbtMaEl2Alsl6u+dlkmM=",
+        "originContent": "Download Docker Desktop: https://www.docker.com/products/docker-desktop/",
+        "translatedContent": "Download Docker Desktop: https://www.docker.com/products/docker-desktop/"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "mw3iQSjAUlsmlEgBYfQj26u7yBUTUwT+dV2b8atAOWE=",
+        "originContent": "Then finish the docker install in Xenity. Go in \"Window->Docker Configuration\", the process can take several minutes especially if you have a slow computer or a slow internet connection. (The editor will freeze).",
+        "translatedContent": "Then finish the docker install in Xenity. Go in \"Window->Docker Configuration\", the process can take several minutes especially if you have a slow computer or a slow internet connection. (The editor will freeze)."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "tBJX1buluIBB86vtUqc+r9xgvDFQk6ZsiK+JqsV5fGQ=",
+        "originContent": "## Compatible files",
+        "translatedContent": "## Compatible files"
+      },
+      {
+        "row": 31,
+        "rowsha": "kOlGZfLRTTZGwfqZaUgh2OHYygrTRZAcfg4oMeRWnE0=",
+        "originContent": "Images: `.png .jpg .bmp, .tga`",
+        "translatedContent": "Images: `.png .jpg .bmp, .tga`"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "5+kC18RjPVdGzbJQ1tPKXtII90CbCv6CxXK7yjSAn2Y=",
+        "originContent": "Audio: `.wav .mp3` (Please use 44100Hz audio except on PS3, you have to use 48000Hz audio)",
+        "translatedContent": "Audio: `.wav .mp3` (Please use 44100Hz audio except on PS3, you have to use 48000Hz audio)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "S4+uW9O9uRCk+yVh+3zavwKnUii19FHyGlz+hFolX7c=",
+        "originContent": "Mesh: `.obj .fbx`",
+        "translatedContent": "Mesh: `.obj .fbx`"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "/RzWpHHYqUntChD+2Ad6lpTc2Fu11OzqTETQyhRxob8=",
+        "originContent": "Font: `.ttf`",
+        "translatedContent": "Font: `.ttf`"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "34jxxgQ1uck9Ou9jiP7TRmUsB8PZXxatAiXHSLfpRgM=",
+        "originContent": "## How to compile the engine in Visual Studio",
+        "translatedContent": "## How to compile the engine in Visual Studio"
+      },
+      {
+        "row": 40,
+        "rowsha": "Y7sGYMTgMwJDmTOCGOG14YV0W/1a9OkdPOOoHsdOsp8=",
+        "originContent": "- Set the project `Xenity_Engine_Executable` as startup project.",
+        "translatedContent": "- Set the project `Xenity_Engine_Executable` as startup project."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "- Compile `Engine` configuration then `Editor` to generate all dll files.\n\n## How the engine internally works\n\nWhen a project/game is loaded, the engine will make a list of all existing files. Each file has an unique Id.\nClasses that are originally a file like `Texture`, `Audio Clip`, `Mesh Data` and more, inherit from `File Reference` to have a pointer to their file.\n\nSome classes like `Component`, `GameObject`, `Vector3` and more, inherit from `Reflective`. This allow to access their variables without knowing the base class. This is used by the Inspector to see and modify data and used to save/load their data in/from a file.\n\n## Contact\nIf you need help, you can open an Issue or contact me.\n\nEmail: `fewnity@gmail.com`<br>\nDiscord: `fewnity`\n\n## License\n\nThe code of this repository is under the MIT license.\n\n## Game Consoles SDKs\n\nhttps://github.com/Fewnity/Xenity-Engine-SDK\n\n## Used libraries\nStb (used: stb_image 2.23 (later versions do not work on PSP), stb_image_resize 0.97, stb_image_write 1.16): https://github.com/nothings/stb\n\ndrmp3 v0.6.40 & drwav v0.13.17: https://github.com/mackron/dr_libs\n\nJSON for Modern C++ v3.11.3: https://github.com/nlohmann/json\n\nGLM (slightly modified for PS2): https://github.com/g-truc/glm\n\nBullet 2.82 (slightly modified to fix compilation): https://code.google.com/archive/p/bullet/downloads\n\n### Windows specific:\nAssimp (79d451b): https://github.com/assimp/assimp/\n<br>`cmake CMakeLists.txt -DASSIMP_BUILD_ZLIB=ON -DASSIMP_NO_EXPORT=ON -DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_BUILD_ASSIMP_VIEW=OFF -DASSIMP_INJECT_DEBUG_POSTFIX=OFF -DASSIMP_INSTALL=OFF -DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_OBJ_IMPORTER=ON -DASSIMP_BUILD_FBX_IMPORTER=ON -DCMAKE_BUILD_TYPE=Release`\n`cmake --build . --config Release`\n\nFreeType (v2.13.2): https://github.com/ubawurinna/freetype-windows-binaries/",
+    "ContentSha": "L/4GALCWCyo8rZOrUI7kV4in3+UYGzE0Ej3gf2pahio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Compile `Engine` configuration then `Editor` to generate all dll files.\n\n## How the engine internally works\n\nWhen a project/game is loaded, the engine will make a list of all existing files. Each file has a unique Id.\nClasses that are originally a file like `Texture`, `Audio Clip`, `Mesh Data` and more, inherit from `File Reference` to have a pointer to their file.\n\nSome classes like `Component`, `GameObject`, `Vector3` and more, inherit from `Reflective`. This allows access to their variables without knowing the base class. This is used by the Inspector to see and modify data and used to save/load their data in/from a file.\n\n## Contact\nIf you need help, you can open an Issue or contact me.\n\nEmail: `fewnity@gmail.com`<br>\nDiscord: `fewnity`\n\n## License\n\nThe code of this repository is under the MIT license.\n\n## Game Consoles SDKs\n\nhttps://github.com/Fewnity/Xenity-Engine-SDK\n\n## Used libraries\nStb (used: stb_image 2.23 (later versions do not work on PSP), stb_image_resize 0.97, stb_image_write 1.16): https://github.com/nothings/stb\n\ndrmp3 v0.6.40 & drwav v0.13.17: https://github.com/mackron/dr_libs\n\nJSON for Modern C++ v3.11.3: https://github.com/nlohmann/json\n\nGLM (slightly modified for PS2): https://github.com/g-truc/glm\n\nBullet 2.82 (slightly modified to fix compilation): https://code.google.com/archive/p/bullet/downloads\n\n### Windows specific:\nAssimp (79d451b): https://github.com/assimp/assimp/\n<br>`cmake CMakeLists.txt -DASSIMP_BUILD_ZLIB=ON -DASSIMP_NO_EXPORT=ON -DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_BUILD_ASSIMP_VIEW=OFF -DASSIMP_INJECT_DEBUG_POSTFIX=OFF -DASSIMP_INSTALL=OFF -DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_OBJ_IMPORTER=ON -DASSIMP_BUILD_FBX_IMPORTER=ON -DCMAKE_BUILD_TYPE=Release`\n`cmake --build . --config Release`\n\nFreeType (v2.13.2): https://github.com/ubawurinna/freetype-windows-binaries/",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "G/iX0Ct0ZIxn1MphBA1jcNX9rIPIm+xd6Ju0kiVqhM0=",
+        "originContent": "- Compile `Engine` configuration then `Editor` to generate all dll files.",
+        "translatedContent": "- Compile `Engine` configuration then `Editor` to generate all dll files."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "b69SCM7B8RosfDOGJpAWPDE2ZUeR6KyYHwBpvw9o0nI=",
+        "originContent": "## How the engine internally works",
+        "translatedContent": "## How the engine internally works"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "WX58BgJErNDvHreXwpfZMw50PV2J58kgWOAs0Z2zSWI=",
+        "originContent": "When a project/game is loaded, the engine will make a list of all existing files. Each file has an unique Id.",
+        "translatedContent": "When a project/game is loaded, the engine will make a list of all existing files. Each file has a unique Id."
+      },
+      {
+        "row": 6,
+        "rowsha": "Xs9Hx9dEbaHI1rWxtZR3lsNXMxXwzvrIL2WODLcrxWw=",
+        "originContent": "Classes that are originally a file like `Texture`, `Audio Clip`, `Mesh Data` and more, inherit from `File Reference` to have a pointer to their file.",
+        "translatedContent": "Classes that are originally a file like `Texture`, `Audio Clip`, `Mesh Data` and more, inherit from `File Reference` to have a pointer to their file."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "mLhohJ34aCB4Zx/oa0nz13cj33GlBxuBJqmRtCG8tnY=",
+        "originContent": "Some classes like `Component`, `GameObject`, `Vector3` and more, inherit from `Reflective`. This allow to access their variables without knowing the base class. This is used by the Inspector to see and modify data and used to save/load their data in/from a file.",
+        "translatedContent": "Some classes like `Component`, `GameObject`, `Vector3` and more, inherit from `Reflective`. This allows access to their variables without knowing the base class. This is used by the Inspector to see and modify data and used to save/load their data in/from a file."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+        "originContent": "## Contact",
+        "translatedContent": "## Contact"
+      },
+      {
+        "row": 11,
+        "rowsha": "kh0xsZknkKgUhXXZGrGKnJOcIMzAl0l7ArRow2S7IL8=",
+        "originContent": "If you need help, you can open an Issue or contact me.",
+        "translatedContent": "If you need help, you can open an Issue or contact me."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yBfxjlKRdElVjAg0+RQOk0NdaKPz2Sbzobike0EinmM=",
+        "originContent": "Email: `fewnity@gmail.com`<br>",
+        "translatedContent": "Email: `fewnity@gmail.com`<br>"
+      },
+      {
+        "row": 14,
+        "rowsha": "S3+2TMTYy0Z1f7pZk73IvwBRy9g4gJ/apuWapc0UDd8=",
+        "originContent": "Discord: `fewnity`",
+        "translatedContent": "Discord: `fewnity`"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "zDXshoAzZ8SfXE/+2ASZidUAlp0Ap0WvJFsfoPtt/dw=",
+        "originContent": "The code of this repository is under the MIT license.",
+        "translatedContent": "The code of this repository is under the MIT license."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Xw322/AVcBZTS12F11f1c3jD5GJ6wrfcmO7gN7pEziM=",
+        "originContent": "## Game Consoles SDKs",
+        "translatedContent": "## Game Consoles SDKs"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "KbzJnTFiVabV+4GjnH9grs0/C9DPv0UzbK1AEasO94w=",
+        "originContent": "https://github.com/Fewnity/Xenity-Engine-SDK",
+        "translatedContent": "https://github.com/Fewnity/Xenity-Engine-SDK"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "CqYi9hA7nBAE1i8+m0xuHCVSU3i8VlkhGkugmB1DQx8=",
+        "originContent": "## Used libraries",
+        "translatedContent": "## Used libraries"
+      },
+      {
+        "row": 25,
+        "rowsha": "q4VCSIfrHejooPKTQIiyIb0vV/0eBSFOslxSDDQ8MXo=",
+        "originContent": "Stb (used: stb_image 2.23 (later versions do not work on PSP), stb_image_resize 0.97, stb_image_write 1.16): https://github.com/nothings/stb",
+        "translatedContent": "Stb (used: stb_image 2.23 (later versions do not work on PSP), stb_image_resize 0.97, stb_image_write 1.16): https://github.com/nothings/stb"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "B+UtTDxvWavDLaYYNaX5phf0Rh9Ztdwk5JYPuzH4yMs=",
+        "originContent": "drmp3 v0.6.40 & drwav v0.13.17: https://github.com/mackron/dr_libs",
+        "translatedContent": "drmp3 v0.6.40 & drwav v0.13.17: https://github.com/mackron/dr_libs"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "SqfmYoCM1izyW/43TOXrcPT4JK4ScwCpLpxczvFx+UI=",
+        "originContent": "JSON for Modern C++ v3.11.3: https://github.com/nlohmann/json",
+        "translatedContent": "JSON for Modern C++ v3.11.3: https://github.com/nlohmann/json"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "DY1Wyl0DwJlgSF1yq9UxRlT2lzQGDHuSCTQ/aWO8jwc=",
+        "originContent": "GLM (slightly modified for PS2): https://github.com/g-truc/glm",
+        "translatedContent": "GLM (slightly modified for PS2): https://github.com/g-truc/glm"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "imz5Xjrk4AMwqNyoKJeyIn9oEvcoxlAzxhQLIr4BcJ8=",
+        "originContent": "Bullet 2.82 (slightly modified to fix compilation): https://code.google.com/archive/p/bullet/downloads",
+        "translatedContent": "Bullet 2.82 (slightly modified to fix compilation): https://code.google.com/archive/p/bullet/downloads"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ngFYzatG4WOljPDJGaJ4vz2DT0ZoxjWqq9rgof0ZMlI=",
+        "originContent": "### Windows specific:",
+        "translatedContent": "### Windows specific:"
+      },
+      {
+        "row": 36,
+        "rowsha": "mtyhMxEi2HYifheh67RFYM8bHwJKf+C4bY8si9KxtTM=",
+        "originContent": "Assimp (79d451b): https://github.com/assimp/assimp/",
+        "translatedContent": "Assimp (79d451b): https://github.com/assimp/assimp/"
+      },
+      {
+        "row": 37,
+        "rowsha": "aYkXhVuY/yDI9KOccU1Ba15BLFSi2dI/+Bj258UCv3g=",
+        "originContent": "<br>`cmake CMakeLists.txt -DASSIMP_BUILD_ZLIB=ON -DASSIMP_NO_EXPORT=ON -DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_BUILD_ASSIMP_VIEW=OFF -DASSIMP_INJECT_DEBUG_POSTFIX=OFF -DASSIMP_INSTALL=OFF -DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_OBJ_IMPORTER=ON -DASSIMP_BUILD_FBX_IMPORTER=ON -DCMAKE_BUILD_TYPE=Release`",
+        "translatedContent": "<br>`cmake CMakeLists.txt -DASSIMP_BUILD_ZLIB=ON -DASSIMP_NO_EXPORT=ON -DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_BUILD_ASSIMP_VIEW=OFF -DASSIMP_INJECT_DEBUG_POSTFIX=OFF -DASSIMP_INSTALL=OFF -DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT=OFF -DASSIMP_BUILD_OBJ_IMPORTER=ON -DASSIMP_BUILD_FBX_IMPORTER=ON -DCMAKE_BUILD_TYPE=Release`"
+      },
+      {
+        "row": 38,
+        "rowsha": "5V0Nngjr0fbf6tXXMFMTn2r8hTsnkoV+to73vMFCVVQ=",
+        "originContent": "`cmake --build . --config Release`",
+        "translatedContent": "`cmake --build . --config Release`"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "inCqtVC8ylb2m1JUms1jjHhh7MnSZwZCJ/suTmxs6o0=",
+        "originContent": "FreeType (v2.13.2): https://github.com/ubawurinna/freetype-windows-binaries/",
+        "translatedContent": "FreeType (v2.13.2): https://github.com/ubawurinna/freetype-windows-binaries/"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\nImGui Docking branch (1.91.8 WIP): https://github.com/ocornut/imgui\n\nSDL (3.2): https://github.com/libsdl-org/SDL\n\nGlad v2.0.8 (gl 4.6 compatibilty mode): https://gen.glad.sh/\n\n### PsVita specific: \nVitaGL (029ddbe): (Compiled with HAVE_GLSL_SUPPORT=1 flag enabled, NO_DEBUG=1 for release and HAVE_SHARK_LOG=1 LOG_ERRORS=2 for debug) https://github.com/Rinnegatamante/vitaGL\n",
+    "ContentSha": "jU9RoiPqIyljiskSSWClVK6jkZa2CRl8YK0ge0Dw2Do=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "ImGui Docking branch (1.91.8 WIP): https://github.com/ocornut/imgui\n\nSDL (3.2): https://github.com/libsdl-org/SDL\n\nGlad v2.0.8 (gl 4.6 compatibility mode): https://gen.glad.sh/\n\n### PsVita specific: \nVitaGL (029ddbe): (Compiled with HAVE_GLSL_SUPPORT=1 flag enabled, NO_DEBUG=1 for release and HAVE_SHARK_LOG=1 LOG_ERRORS=2 for debug) https://github.com/Rinnegatamante/vitaGL\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ImGui Docking branch (1.91.8 WIP): https://github.com/ocornut/imgui"
+      },
+      {
+        "row": 2,
+        "rowsha": "2H07eTg9xxGfL+wxvrw6rumIl18uTmKdUTfVKMIhmgY=",
+        "originContent": "ImGui Docking branch (1.91.8 WIP): https://github.com/ocornut/imgui",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "SDL (3.2): https://github.com/libsdl-org/SDL"
+      },
+      {
+        "row": 4,
+        "rowsha": "T2YF+dfWsnPId+nNk2q+EjNuznZZhn9Iq11ZWYlb8Fc=",
+        "originContent": "SDL (3.2): https://github.com/libsdl-org/SDL",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Glad v2.0.8 (gl 4.6 compatibility mode): https://gen.glad.sh/"
+      },
+      {
+        "row": 6,
+        "rowsha": "ooEk/qrxwwd3/62XfdH5WXe+UuA+NcYbSjdG+Nmpgnc=",
+        "originContent": "Glad v2.0.8 (gl 4.6 compatibilty mode): https://gen.glad.sh/",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### PsVita specific: "
+      },
+      {
+        "row": 8,
+        "rowsha": "8BG2p6yIGy/Fl9ik9Qkpl77htIJo96G668BEO82UJWA=",
+        "originContent": "### PsVita specific: ",
+        "translatedContent": "VitaGL (029ddbe): (Compiled with HAVE_GLSL_SUPPORT=1 flag enabled, NO_DEBUG=1 for release and HAVE_SHARK_LOG=1 LOG_ERRORS=2 for debug) https://github.com/Rinnegatamante/vitaGL"
+      },
+      {
+        "row": 9,
+        "rowsha": "I1kZvOWPlW8Z0oqgpEHgN3V4i+c/iK2NGGIcgcRYAKg=",
+        "originContent": "VitaGL (029ddbe): (Compiled with HAVE_GLSL_SUPPORT=1 flag enabled, NO_DEBUG=1 for release and HAVE_SHARK_LOG=1 LOG_ERRORS=2 for debug) https://github.com/Rinnegatamante/vitaGL",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

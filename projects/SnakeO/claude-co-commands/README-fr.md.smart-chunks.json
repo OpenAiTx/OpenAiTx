@@ -1,0 +1,887 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Claude Co-Commands Plugin\n\n3 collaboration commands for Claude Code that use the [Codex MCP server](https://github.com/openai/codex) to generate parallel plans, validate plans, and brainstorm ideas.\n\n## Commands\n\n| Command | Description | When to Use |\n|---------|-------------|-------------|\n| `/co-brainstorm` | Bounce ideas off Codex | Want fast alternative ideas, critiques, and perspectives |\n| `/co-plan` | Generate a parallel plan via Codex | Want a second opinion on your planning approach |\n| `/co-validate` | Get a staff engineer review of your plan | Want critical feedback before finalizing a plan |\n\n## Prerequisites\n\n- [Node.js](https://nodejs.org/) (for `npx`)\n- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)\n\n## Installation\n\n### Option 1: Plugin Marketplace (Recommended)\n",
+    "ContentSha": "1lrt2H2i/4vbgEWYHbVi5rxQtq1YQ9jSXmomchhPS5E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Plugin Claude Co-Commands\n\n3 commandes de collaboration pour Claude Code qui utilisent le [serveur Codex MCP](https://github.com/openai/codex) pour générer des plans parallèles, valider des plans et brainstormer des idées.\n\n## Commandes\n\n| Commande | Description | Quand l'utiliser |\n|---------|-------------|-------------|\n| `/co-brainstorm` | Échanger des idées avec Codex | Voulez des idées alternatives rapides, des critiques et des perspectives |\n| `/co-plan` | Générer un plan parallèle via Codex | Voulez un second avis sur votre approche de planification |\n| `/co-validate` | Obtenir une revue d’ingénieur senior de votre plan | Voulez un retour critique avant de finaliser un plan |\n\n## Prérequis\n\n- [Node.js](https://nodejs.org/) (pour `npx`)\n- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)\n\n## Installation\n\n### Option 1 : Marketplace de plugins (Recommandé)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XkWfssF5qlgB8EmJU2swnXJTGyM3wEDqxzGqU4GHI9s=",
+        "originContent": "# Claude Co-Commands Plugin",
+        "translatedContent": "# Plugin Claude Co-Commands"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "UKb2HRYa0oMSfNkcqthtSTgy9SjHL3hL48ZnWeZOpQ0=",
+        "originContent": "3 collaboration commands for Claude Code that use the [Codex MCP server](https://github.com/openai/codex) to generate parallel plans, validate plans, and brainstorm ideas.",
+        "translatedContent": "3 commandes de collaboration pour Claude Code qui utilisent le [serveur Codex MCP](https://github.com/openai/codex) pour générer des plans parallèles, valider des plans et brainstormer des idées."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Ns0/K7RU9XVl6PUU96nA+wrpbChH7IrI4frOC/D2l4Q=",
+        "originContent": "## Commands",
+        "translatedContent": "## Commandes"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "t5v7RXM7lVJFNDW+xcVPClhNuZg2bHBukL0jeWMzQug=",
+        "originContent": "| Command | Description | When to Use |",
+        "translatedContent": "| Commande | Description | Quand l'utiliser |"
+      },
+      {
+        "row": 8,
+        "rowsha": "UgbPb0aEh/zFLO5Qfi417cD6PkW2N3Hcyfw42d+kSKU=",
+        "originContent": "|---------|-------------|-------------|",
+        "translatedContent": "|---------|-------------|-------------|"
+      },
+      {
+        "row": 9,
+        "rowsha": "b7piYA/wKyz6VceToAOkc4/rQZxy7vUmE82LNqhTmHI=",
+        "originContent": "| `/co-brainstorm` | Bounce ideas off Codex | Want fast alternative ideas, critiques, and perspectives |",
+        "translatedContent": "| `/co-brainstorm` | Échanger des idées avec Codex | Voulez des idées alternatives rapides, des critiques et des perspectives |"
+      },
+      {
+        "row": 10,
+        "rowsha": "l169zDFyR0owepoY6vW+YTrGv1/Nsziwb2VTO/cmhNc=",
+        "originContent": "| `/co-plan` | Generate a parallel plan via Codex | Want a second opinion on your planning approach |",
+        "translatedContent": "| `/co-plan` | Générer un plan parallèle via Codex | Voulez un second avis sur votre approche de planification |"
+      },
+      {
+        "row": 11,
+        "rowsha": "CFcz2WiRDPuBW2F/kLagw0c1hhaS7iVYVKrwSn0pXr8=",
+        "originContent": "| `/co-validate` | Get a staff engineer review of your plan | Want critical feedback before finalizing a plan |",
+        "translatedContent": "| `/co-validate` | Obtenir une revue d’ingénieur senior de votre plan | Voulez un retour critique avant de finaliser un plan |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## Prérequis"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "FV1jf8+vO/cQGu2k+4LIkG4UuDbHTnREQDs5jTZz0gk=",
+        "originContent": "- [Node.js](https://nodejs.org/) (for `npx`)",
+        "translatedContent": "- [Node.js](https://nodejs.org/) (pour `npx`)"
+      },
+      {
+        "row": 16,
+        "rowsha": "vScuP8h5excqRLZBh7A0A5P/JShC4OVoT+R/ideD+S8=",
+        "originContent": "- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)",
+        "translatedContent": "- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "n7b7dQwkWcBsXqYjwYnElge0KUTIFGhgzm3bmIWy0ZI=",
+        "originContent": "### Option 1: Plugin Marketplace (Recommended)",
+        "translatedContent": "### Option 1 : Marketplace de plugins (Recommandé)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# Add the marketplace\n/plugin marketplace add SnakeO/claude-co-commands\n\n# Install the plugin\n/plugin install co-commands@snakeo-co-commands\n```",
+    "ContentSha": "tb8xSI5jpbAebZpky7eVUUHbO5wA2JNLOJI2EAoqNuI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Add the marketplace\n/plugin marketplace add SnakeO/claude-co-commands\n\n# Install the plugin\n/plugin install co-commands@snakeo-co-commands\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jcwzs/d8lF/w5GanyRWOi1JXArfmGz+U5kXOO6tZaxc=",
+        "originContent": "# Add the marketplace",
+        "translatedContent": "# Add the marketplace"
+      },
+      {
+        "row": 3,
+        "rowsha": "wsB6B+r0Uyfek3cUQP0crKm3kVOrINnjzMzk0xfR33g=",
+        "originContent": "/plugin marketplace add SnakeO/claude-co-commands",
+        "translatedContent": "/plugin marketplace add SnakeO/claude-co-commands"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wcbkuz9Nq+a8jlYZe2R6hmBWyGGaqXGk1bI/GmUjBgw=",
+        "originContent": "# Install the plugin",
+        "translatedContent": "# Install the plugin"
+      },
+      {
+        "row": 6,
+        "rowsha": "nl8M42zsebRRHnCNIwmQSaTFYIBppXFsgwIi4EchVhs=",
+        "originContent": "/plugin install co-commands@snakeo-co-commands",
+        "translatedContent": "/plugin install co-commands@snakeo-co-commands"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Option 2: Git Clone\n",
+    "ContentSha": "k6SRpBJZSRm7YJfDloxQVd5itkKtMzTgdKfN7HXSwvw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Option 2 : Cloner avec Git\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6e6dYg2i73urZiOAj+hbKh5G4XqypeYmhsJR6m6fZRY=",
+        "originContent": "### Option 2: Git Clone",
+        "translatedContent": "### Option 2 : Cloner avec Git"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/SnakeO/claude-co-commands.git\n# Copy skill folders to ~/.claude/skills/\ncp -r claude-co-commands/plugins/co-commands/skills/* ~/.claude/skills/\n```",
+    "ContentSha": "iWHrnndFAhqt4a4PGUgp035Vlp/Kph0rq10ONns/Sqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/SnakeO/claude-co-commands.git\n# Copy skill folders to ~/.claude/skills/\ncp -r claude-co-commands/plugins/co-commands/skills/* ~/.claude/skills/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "n++IHnyZEXiaXmitv924gbK4iDzVXUdeNgPZ0VfNfXo=",
+        "originContent": "git clone https://github.com/SnakeO/claude-co-commands.git",
+        "translatedContent": "git clone https://github.com/SnakeO/claude-co-commands.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "/VQVAXFRSWoKCftK/OnkZD5WQxixwMApMbhPPGRphWQ=",
+        "originContent": "# Copy skill folders to ~/.claude/skills/",
+        "translatedContent": "# Copy skill folders to ~/.claude/skills/"
+      },
+      {
+        "row": 4,
+        "rowsha": "MZDG+rBDhAWG59COPwQ7Jc2QmWzR96Hsl3PFUJwMcaw=",
+        "originContent": "cp -r claude-co-commands/plugins/co-commands/skills/* ~/.claude/skills/",
+        "translatedContent": "cp -r claude-co-commands/plugins/co-commands/skills/* ~/.claude/skills/"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Option 3: Manual Copy\n\nCopy `plugins/co-commands/skills/` contents to `~/.claude/skills/`.\n\n## MCP Server Setup (Required)\n\nThese commands require the Codex MCP server.\n\n### Option A: CLI (Recommended)\n",
+    "ContentSha": "85tiAJCZhMKe1kLbIBWMBRfxzgfwTM+eGUpk92PndO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Option 3 : Copie manuelle\n\nCopiez le contenu de `plugins/co-commands/skills/` dans `~/.claude/skills/`.\n\n## Configuration du serveur MCP (Requise)\n\nCes commandes nécessitent le serveur Codex MCP.\n\n### Option A : CLI (Recommandé)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Fkhk7+2tZKBvAnZoAi17PBm4Wi62owv+M8XMm68hSTo=",
+        "originContent": "### Option 3: Manual Copy",
+        "translatedContent": "### Option 3 : Copie manuelle"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wj8igMhTnaAMmPpMbYr1rUFg0MyjSNIkuLc202afsb8=",
+        "originContent": "Copy `plugins/co-commands/skills/` contents to `~/.claude/skills/`.",
+        "translatedContent": "Copiez le contenu de `plugins/co-commands/skills/` dans `~/.claude/skills/`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Ba/rmuPEkN8IhwdbY2PaRMBNXD/WMn9u1AR989sS08c=",
+        "originContent": "## MCP Server Setup (Required)",
+        "translatedContent": "## Configuration du serveur MCP (Requise)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "n7OQorqhf6DpaWz2gxDmEL8mdLhzKGZTAkIp1zA9ywQ=",
+        "originContent": "These commands require the Codex MCP server.",
+        "translatedContent": "Ces commandes nécessitent le serveur Codex MCP."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "XFlgCSJ5NYQpCzTTg+4luuqTL+cmDA7M/AvKzDb/YZE=",
+        "originContent": "### Option A: CLI (Recommended)",
+        "translatedContent": "### Option A : CLI (Recommandé)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nclaude mcp add validate-plans-and-brainstorm-ideas -- npx -y @openai/codex mcp-server\n```",
+    "ContentSha": "6p2iEFrEhtVPYiD4cMtFVYh5q9nbk+jPBeRYnCd9lxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaude mcp add validate-plans-and-brainstorm-ideas -- npx -y @openai/codex mcp-server\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xS4235CcOGzxNiyrNeWSauejVrCklR1O1sZMNvGblcA=",
+        "originContent": "claude mcp add validate-plans-and-brainstorm-ideas -- npx -y @openai/codex mcp-server",
+        "translatedContent": "claude mcp add validate-plans-and-brainstorm-ideas -- npx -y @openai/codex mcp-server"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Option B: Manual\n\nAdd this to the `mcpServers` object in `~/.claude.json`:\n",
+    "ContentSha": "7BUNLorlQojx19+5B4diCfTJ5i1TW4+Sw63k6WlXrPU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Option B : Manuel\n\nAjoutez ceci à l'objet `mcpServers` dans `~/.claude.json` :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PtCVY0kll35emsNJmVEtpJ4MkKhQusZCmyDLFVjzOTo=",
+        "originContent": "### Option B: Manual",
+        "translatedContent": "### Option B : Manuel"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "e4g7YcxjthVvXqKFAsdqjhUhTaCoIDYed5Rkz6v0yFA=",
+        "originContent": "Add this to the `mcpServers` object in `~/.claude.json`:",
+        "translatedContent": "Ajoutez ceci à l'objet `mcpServers` dans `~/.claude.json` :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```json\n\"validate-plans-and-brainstorm-ideas\": {\n  \"command\": \"npx\",\n  \"args\": [\"-y\", \"@openai/codex\", \"mcp-server\"]\n}\n```",
+    "ContentSha": "fKfuHE8aU9JQVX9o++GFNoechki0E/9gWTZWv2P8LAM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n\"validate-plans-and-brainstorm-ideas\": {\n  \"command\": \"npx\",\n  \"args\": [\"-y\", \"@openai/codex\", \"mcp-server\"]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "JB5bATDexd41nJtzKS3IrjIEDTldg4n+VgoGWEKfTQ8=",
+        "originContent": "\"validate-plans-and-brainstorm-ideas\": {",
+        "translatedContent": "\"validate-plans-and-brainstorm-ideas\": {"
+      },
+      {
+        "row": 3,
+        "rowsha": "RGMsLX7GE4OqJB43peaKE6ib3R0h11gdvorC5wkHj7s=",
+        "originContent": "  \"command\": \"npx\",",
+        "translatedContent": "  \"command\": \"npx\","
+      },
+      {
+        "row": 4,
+        "rowsha": "RVUQ+z0sD/b654RQMTUCQW8Xkh9zKN+VfuNuHykOxgY=",
+        "originContent": "  \"args\": [\"-y\", \"@openai/codex\", \"mcp-server\"]",
+        "translatedContent": "  \"args\": [\"-y\", \"@openai/codex\", \"mcp-server\"]"
+      },
+      {
+        "row": 5,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nIf you already have entries in `mcpServers`, merge this as an additional key. Do not overwrite existing servers.\n\n### Verify\n\n1. Restart Claude Code (if you edited `~/.claude.json` manually).\n2. Run `claude mcp list` to confirm the server is registered.\n3. Test with `/co-brainstorm test idea` and confirm it triggers the MCP call.\n\n## Command Details\n\n### `/co-brainstorm`\n\nStarts an interactive brainstorming session with Codex. Pass your topic or question as the argument.\n",
+    "ContentSha": "8gnTHKK8NzdaegwZZFXdpZyg0AmIZSquvXvKC+teDtg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi vous avez déjà des entrées dans `mcpServers`, fusionnez ceci en tant que clé supplémentaire. Ne remplacez pas les serveurs existants.\n\n### Vérifier\n\n1. Redémarrez Claude Code (si vous avez modifié `~/.claude.json` manuellement).\n2. Exécutez `claude mcp list` pour confirmer que le serveur est enregistré.\n3. Testez avec `/co-brainstorm test idea` et confirmez que cela déclenche l'appel MCP.\n\n## Détails de la commande\n\n### `/co-brainstorm`\n\nDémarre une session de brainstorming interactive avec Codex. Passez votre sujet ou question en argument.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5x+rMsPtmLFanNsWPUx6qS9hTfBEhIEQizPeyZqmMUA=",
+        "originContent": "If you already have entries in `mcpServers`, merge this as an additional key. Do not overwrite existing servers.",
+        "translatedContent": "Si vous avez déjà des entrées dans `mcpServers`, fusionnez ceci en tant que clé supplémentaire. Ne remplacez pas les serveurs existants."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "i0/bJYtZ3y0WWNIMiMMrihlQCjphecIdN0BcXDrqWj0=",
+        "originContent": "### Verify",
+        "translatedContent": "### Vérifier"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "tCrlUqO3/SyW/zqmaNougAqblxlNaE0kT8etPjkMs/c=",
+        "originContent": "1. Restart Claude Code (if you edited `~/.claude.json` manually).",
+        "translatedContent": "1. Redémarrez Claude Code (si vous avez modifié `~/.claude.json` manuellement)."
+      },
+      {
+        "row": 7,
+        "rowsha": "RMgDW5LsFfuO8IXh66vEmgpinWxqAcJgvNGYqU0yW7s=",
+        "originContent": "2. Run `claude mcp list` to confirm the server is registered.",
+        "translatedContent": "2. Exécutez `claude mcp list` pour confirmer que le serveur est enregistré."
+      },
+      {
+        "row": 8,
+        "rowsha": "9pQsLOW2wO6fM+taczv4ccH29LEtnPV6sK3vrZp8KKg=",
+        "originContent": "3. Test with `/co-brainstorm test idea` and confirm it triggers the MCP call.",
+        "translatedContent": "3. Testez avec `/co-brainstorm test idea` et confirmez que cela déclenche l'appel MCP."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "PAXqI4WeNoclmEWzchtu3MPa6WSH/lzy8/ZjzxAZfqM=",
+        "originContent": "## Command Details",
+        "translatedContent": "## Détails de la commande"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "XR4sLa+wkP+4XBqxDeMFsgaUM+Ionb+Hkz7iBYSu7gw=",
+        "originContent": "### `/co-brainstorm`",
+        "translatedContent": "### `/co-brainstorm`"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "jEXnZeZtWZ/E6cx1Z/Pg27bRRl2twAw/aHgD/jgfE50=",
+        "originContent": "Starts an interactive brainstorming session with Codex. Pass your topic or question as the argument.",
+        "translatedContent": "Démarre une session de brainstorming interactive avec Codex. Passez votre sujet ou question en argument."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n/co-brainstorm how should we structure the authentication system\n```",
+    "ContentSha": "EMxh1OB/ioziVHmVt8Uv2peT/Krx1TJG3g3J8HvEQlc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/co-brainstorm how should we structure the authentication system\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "oBcb4P7GD6m3tQ6oWc9XXo1Q8AMLlaUxRwXWAjs7lUU=",
+        "originContent": "/co-brainstorm how should we structure the authentication system",
+        "translatedContent": "/co-brainstorm how should we structure the authentication system"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nSupports follow-up conversation to dig deeper into ideas.\n\n### `/co-plan`\n\nGenerates an alternative plan in the background while you continue your own planning. Pass your task description as the argument.\n",
+    "ContentSha": "ea2PakmhJw2LY8Fbc8MXLxo+MIib4eaBqu5oI/PyQpE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSupports follow-up conversation to dig deeper into ideas.\n\n### `/co-plan`\n\nGenerates an alternative plan in the background while you continue your own planning. Pass your task description as the argument.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dzeyC4r6LdDR258JSkNqxu3szOn2/NoP/fqktoQp4s0=",
+        "originContent": "Supports follow-up conversation to dig deeper into ideas.",
+        "translatedContent": "Supports follow-up conversation to dig deeper into ideas."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "rwWhZG3pRUyklaV0dw8H07iMHcWRQlwC6jkcBlhE/m4=",
+        "originContent": "### `/co-plan`",
+        "translatedContent": "### `/co-plan`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "wZ8pM/RwOo5A+TSLpfYgzbF4jWlin2hNZlvPqJ3+7k4=",
+        "originContent": "Generates an alternative plan in the background while you continue your own planning. Pass your task description as the argument.",
+        "translatedContent": "Generates an alternative plan in the background while you continue your own planning. Pass your task description as the argument."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n/co-plan add user authentication with OAuth2 support\n```",
+    "ContentSha": "vh8JvtzzBEbucg/xU5+WIkPnV+IbbNMdOSh0disA3v0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/co-plan add user authentication with OAuth2 support\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "VDkAQ34NJQtFmTiNZIUwIJhO928o1raoXfnCu49zw+g=",
+        "originContent": "/co-plan add user authentication with OAuth2 support",
+        "translatedContent": "/co-plan add user authentication with OAuth2 support"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nCompare the Codex plan against yours to catch missed approaches, simpler alternatives, or overlooked edge cases.\n\n### `/co-validate`\n\nSends your plan to Codex for a staff-engineer-style review. Pass the path to your plan file.\n",
+    "ContentSha": "awcTTwEGOUktJq1LknWQm3YDdj1DVAZxTVE91i4HCaM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nComparez le plan Codex avec le vôtre pour détecter les approches manquées, les alternatives plus simples ou les cas limites négligés.\n\n### `/co-validate`\n\nEnvoie votre plan à Codex pour une revue de type ingénieur principal. Passez le chemin vers votre fichier de plan.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JUYYA8EBvyYtN0mbDTGJjOae9DVdxf8aggURGvX6Rno=",
+        "originContent": "Compare the Codex plan against yours to catch missed approaches, simpler alternatives, or overlooked edge cases.",
+        "translatedContent": "Comparez le plan Codex avec le vôtre pour détecter les approches manquées, les alternatives plus simples ou les cas limites négligés."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lyfy2kEMs9ezPnA6XRHaCAUwQkcCv+4q5bLTFekzvYQ=",
+        "originContent": "### `/co-validate`",
+        "translatedContent": "### `/co-validate`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "9MrT0lcA2OHcFltHzKmGBAlHTdzkX3heYY0FXI/R3+U=",
+        "originContent": "Sends your plan to Codex for a staff-engineer-style review. Pass the path to your plan file.",
+        "translatedContent": "Envoie votre plan à Codex pour une revue de type ingénieur principal. Passez le chemin vers votre fichier de plan."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n/co-validate .claude/plans/my-plan.md\n```",
+    "ContentSha": "3yBK+dSrfJzEraha0RFUbUMtaE6W/CHeqWbL18UqYCI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/co-validate .claude/plans/my-plan.md\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Lh5OC3WgarxCPW6F4CtMvhg06oMXHKDiKm3GSIoJ4mY=",
+        "originContent": "/co-validate .claude/plans/my-plan.md",
+        "translatedContent": "/co-validate .claude/plans/my-plan.md"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nReturns critical issues, simplification opportunities, and alternative approaches. Supports back-and-forth discussion.\n\n## Troubleshooting\n\n| Problem | Solution |\n|---------|----------|\n| `npx: command not found` | Install [Node.js](https://nodejs.org/) which includes npm/npx |\n| MCP tool not found in session | Verify the server name is exactly `validate-plans-and-brainstorm-ideas` in `~/.claude.json` |\n| JSON parse errors in `~/.claude.json` | Validate your JSON (check commas and braces) |\n| Commands not appearing after install | Restart Claude Code and verify skill folders exist |\n\n## License\n\nMIT\n",
+    "ContentSha": "IbsoAR4mk64uumouYgkgJtFGJKjFUlyoXe9mjIU3B4M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nRenvoie les problèmes critiques, les opportunités de simplification et les approches alternatives. Prend en charge les discussions aller-retour.\n\n## Dépannage\n\n| Problème | Solution |\n|---------|----------|\n| `npx: command not found` | Installez [Node.js](https://nodejs.org/) qui inclut npm/npx |\n| Outil MCP introuvable dans la session | Vérifiez que le nom du serveur est exactement `validate-plans-and-brainstorm-ideas` dans `~/.claude.json` |\n| Erreurs d'analyse JSON dans `~/.claude.json` | Validez votre JSON (vérifiez les virgules et les accolades) |\n| Commandes n'apparaissant pas après l'installation | Redémarrez Claude Code et vérifiez que les dossiers de compétences existent |\n\n## Licence\n\nMIT\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "L8uDJI4Qmb38jq1yPLmgxelMc4SZ0ctm0terqnuB44s=",
+        "originContent": "Returns critical issues, simplification opportunities, and alternative approaches. Supports back-and-forth discussion.",
+        "translatedContent": "Renvoie les problèmes critiques, les opportunités de simplification et les approches alternatives. Prend en charge les discussions aller-retour."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## Dépannage"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kEHR3sk0IugMtMOZiKn84ifjzXRR2lRRbfgKDZp9eCs=",
+        "originContent": "| Problem | Solution |",
+        "translatedContent": "| Problème | Solution |"
+      },
+      {
+        "row": 7,
+        "rowsha": "lIQUII+f16C/ARLkcpvEgYE7ilz89Tl6TFHSqTcXh/Q=",
+        "originContent": "|---------|----------|",
+        "translatedContent": "|---------|----------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "MAeD0bDH8lja5zTLYwF5NRNWDwJVNw9BtkQ0Khmbt0o=",
+        "originContent": "| `npx: command not found` | Install [Node.js](https://nodejs.org/) which includes npm/npx |",
+        "translatedContent": "| `npx: command not found` | Installez [Node.js](https://nodejs.org/) qui inclut npm/npx |"
+      },
+      {
+        "row": 9,
+        "rowsha": "X90a3r+wtDUaOm8hyQXzZixF/PFFFiWWvtuE3sdU3C4=",
+        "originContent": "| MCP tool not found in session | Verify the server name is exactly `validate-plans-and-brainstorm-ideas` in `~/.claude.json` |",
+        "translatedContent": "| Outil MCP introuvable dans la session | Vérifiez que le nom du serveur est exactement `validate-plans-and-brainstorm-ideas` dans `~/.claude.json` |"
+      },
+      {
+        "row": 10,
+        "rowsha": "AzdAuRfJ2RdrwCX6qa16xiJd9DYjaAJGDcFPB3xhVJs=",
+        "originContent": "| JSON parse errors in `~/.claude.json` | Validate your JSON (check commas and braces) |",
+        "translatedContent": "| Erreurs d'analyse JSON dans `~/.claude.json` | Validez votre JSON (vérifiez les virgules et les accolades) |"
+      },
+      {
+        "row": 11,
+        "rowsha": "HhRonvCwYE93hlNTtLD4igHvHfpSYhNbLolHJhffD+I=",
+        "originContent": "| Commands not appearing after install | Restart Claude Code and verify skill folders exist |",
+        "translatedContent": "| Commandes n'apparaissant pas après l'installation | Redémarrez Claude Code et vérifiez que les dossiers de compétences existent |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

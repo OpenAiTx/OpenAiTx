@@ -1,0 +1,692 @@
+[
+  {
+    "row": 1,
+    "rowsha": "XkWfssF5qlgB8EmJU2swnXJTGyM3wEDqxzGqU4GHI9s=",
+    "originContent": "# Claude Co-Commands Plugin",
+    "translatedContent": "# Claude 协同命令插件"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "UKb2HRYa0oMSfNkcqthtSTgy9SjHL3hL48ZnWeZOpQ0=",
+    "originContent": "3 collaboration commands for Claude Code that use the [Codex MCP server](https://github.com/openai/codex) to generate parallel plans, validate plans, and brainstorm ideas.",
+    "translatedContent": "3 个适用于 Claude Code 的协作命令，使用 [Codex MCP 服务器](https://github.com/openai/codex) 生成并行计划、验证计划和头脑风暴想法。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Ns0/K7RU9XVl6PUU96nA+wrpbChH7IrI4frOC/D2l4Q=",
+    "originContent": "## Commands",
+    "translatedContent": "## 命令"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "t5v7RXM7lVJFNDW+xcVPClhNuZg2bHBukL0jeWMzQug=",
+    "originContent": "| Command | Description | When to Use |",
+    "translatedContent": "| 命令 | 描述 | 适用场景 |"
+  },
+  {
+    "row": 8,
+    "rowsha": "UgbPb0aEh/zFLO5Qfi417cD6PkW2N3Hcyfw42d+kSKU=",
+    "originContent": "|---------|-------------|-------------|",
+    "translatedContent": "|---------|-------------|-------------|"
+  },
+  {
+    "row": 9,
+    "rowsha": "b7piYA/wKyz6VceToAOkc4/rQZxy7vUmE82LNqhTmHI=",
+    "originContent": "| `/co-brainstorm` | Bounce ideas off Codex | Want fast alternative ideas, critiques, and perspectives |",
+    "translatedContent": "| `/co-brainstorm` | 与 Codex 交流想法 | 需要快速获得替代方案、批评和视角 |"
+  },
+  {
+    "row": 10,
+    "rowsha": "l169zDFyR0owepoY6vW+YTrGv1/Nsziwb2VTO/cmhNc=",
+    "originContent": "| `/co-plan` | Generate a parallel plan via Codex | Want a second opinion on your planning approach |",
+    "translatedContent": "| `/co-plan` | 通过 Codex 生成并行计划 | 需要对你的计划方法获取第二意见 |"
+  },
+  {
+    "row": 11,
+    "rowsha": "CFcz2WiRDPuBW2F/kLagw0c1hhaS7iVYVKrwSn0pXr8=",
+    "originContent": "| `/co-validate` | Get a staff engineer review of your plan | Want critical feedback before finalizing a plan |",
+    "translatedContent": "| `/co-validate` | 获取资深工程师对计划的审查 | 计划定稿前需要关键反馈 |"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## 前提条件"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "FV1jf8+vO/cQGu2k+4LIkG4UuDbHTnREQDs5jTZz0gk=",
+    "originContent": "- [Node.js](https://nodejs.org/) (for `npx`)",
+    "translatedContent": "- [Node.js](https://nodejs.org/)（用于 `npx`）"
+  },
+  {
+    "row": 16,
+    "rowsha": "vScuP8h5excqRLZBh7A0A5P/JShC4OVoT+R/ideD+S8=",
+    "originContent": "- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)",
+    "translatedContent": "- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "n7b7dQwkWcBsXqYjwYnElge0KUTIFGhgzm3bmIWy0ZI=",
+    "originContent": "### Option 1: Plugin Marketplace (Recommended)",
+    "translatedContent": "### 选项 1：插件市场（推荐）"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 23,
+    "rowsha": "jcwzs/d8lF/w5GanyRWOi1JXArfmGz+U5kXOO6tZaxc=",
+    "originContent": "# Add the marketplace",
+    "translatedContent": "# Add the marketplace"
+  },
+  {
+    "row": 24,
+    "rowsha": "wsB6B+r0Uyfek3cUQP0crKm3kVOrINnjzMzk0xfR33g=",
+    "originContent": "/plugin marketplace add SnakeO/claude-co-commands",
+    "translatedContent": "/plugin marketplace add SnakeO/claude-co-commands"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "wcbkuz9Nq+a8jlYZe2R6hmBWyGGaqXGk1bI/GmUjBgw=",
+    "originContent": "# Install the plugin",
+    "translatedContent": "# Install the plugin"
+  },
+  {
+    "row": 27,
+    "rowsha": "nl8M42zsebRRHnCNIwmQSaTFYIBppXFsgwIi4EchVhs=",
+    "originContent": "/plugin install co-commands@snakeo-co-commands",
+    "translatedContent": "/plugin install co-commands@snakeo-co-commands"
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "6e6dYg2i73urZiOAj+hbKh5G4XqypeYmhsJR6m6fZRY=",
+    "originContent": "### Option 2: Git Clone",
+    "translatedContent": "### 选项 2：Git 克隆"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 33,
+    "rowsha": "n++IHnyZEXiaXmitv924gbK4iDzVXUdeNgPZ0VfNfXo=",
+    "originContent": "git clone https://github.com/SnakeO/claude-co-commands.git",
+    "translatedContent": "git clone https://github.com/SnakeO/claude-co-commands.git"
+  },
+  {
+    "row": 34,
+    "rowsha": "/VQVAXFRSWoKCftK/OnkZD5WQxixwMApMbhPPGRphWQ=",
+    "originContent": "# Copy skill folders to ~/.claude/skills/",
+    "translatedContent": "# Copy skill folders to ~/.claude/skills/"
+  },
+  {
+    "row": 35,
+    "rowsha": "MZDG+rBDhAWG59COPwQ7Jc2QmWzR96Hsl3PFUJwMcaw=",
+    "originContent": "cp -r claude-co-commands/plugins/co-commands/skills/* ~/.claude/skills/",
+    "translatedContent": "cp -r claude-co-commands/plugins/co-commands/skills/* ~/.claude/skills/"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "Fkhk7+2tZKBvAnZoAi17PBm4Wi62owv+M8XMm68hSTo=",
+    "originContent": "### Option 3: Manual Copy",
+    "translatedContent": "### 选项 3：手动复制"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "wj8igMhTnaAMmPpMbYr1rUFg0MyjSNIkuLc202afsb8=",
+    "originContent": "Copy `plugins/co-commands/skills/` contents to `~/.claude/skills/`.",
+    "translatedContent": "将 `plugins/co-commands/skills/` 内容复制到 `~/.claude/skills/`。"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "Ba/rmuPEkN8IhwdbY2PaRMBNXD/WMn9u1AR989sS08c=",
+    "originContent": "## MCP Server Setup (Required)",
+    "translatedContent": "## MCP 服务器设置（必需）"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "n7OQorqhf6DpaWz2gxDmEL8mdLhzKGZTAkIp1zA9ywQ=",
+    "originContent": "These commands require the Codex MCP server.",
+    "translatedContent": "这些命令需要 Codex MCP 服务器。"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "XFlgCSJ5NYQpCzTTg+4luuqTL+cmDA7M/AvKzDb/YZE=",
+    "originContent": "### Option A: CLI (Recommended)",
+    "translatedContent": "### 选项 A：命令行界面（推荐）"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 49,
+    "rowsha": "xS4235CcOGzxNiyrNeWSauejVrCklR1O1sZMNvGblcA=",
+    "originContent": "claude mcp add validate-plans-and-brainstorm-ideas -- npx -y @openai/codex mcp-server",
+    "translatedContent": "claude mcp add validate-plans-and-brainstorm-ideas -- npx -y @openai/codex mcp-server"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "PtCVY0kll35emsNJmVEtpJ4MkKhQusZCmyDLFVjzOTo=",
+    "originContent": "### Option B: Manual",
+    "translatedContent": "### 选项 B：手动"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "e4g7YcxjthVvXqKFAsdqjhUhTaCoIDYed5Rkz6v0yFA=",
+    "originContent": "Add this to the `mcpServers` object in `~/.claude.json`:",
+    "translatedContent": "将此添加到 `~/.claude.json` 中的 `mcpServers` 对象："
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 57,
+    "rowsha": "JB5bATDexd41nJtzKS3IrjIEDTldg4n+VgoGWEKfTQ8=",
+    "originContent": "\"validate-plans-and-brainstorm-ideas\": {",
+    "translatedContent": "\"validate-plans-and-brainstorm-ideas\": {"
+  },
+  {
+    "row": 58,
+    "rowsha": "RGMsLX7GE4OqJB43peaKE6ib3R0h11gdvorC5wkHj7s=",
+    "originContent": "  \"command\": \"npx\",",
+    "translatedContent": "  \"command\": \"npx\","
+  },
+  {
+    "row": 59,
+    "rowsha": "RVUQ+z0sD/b654RQMTUCQW8Xkh9zKN+VfuNuHykOxgY=",
+    "originContent": "  \"args\": [\"-y\", \"@openai/codex\", \"mcp-server\"]",
+    "translatedContent": "  \"args\": [\"-y\", \"@openai/codex\", \"mcp-server\"]"
+  },
+  {
+    "row": 60,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您已经在 `mcpServers` 中有条目，请将此作为附加键合并。不要覆盖现有服务器。"
+  },
+  {
+    "row": 63,
+    "rowsha": "5x+rMsPtmLFanNsWPUx6qS9hTfBEhIEQizPeyZqmMUA=",
+    "originContent": "If you already have entries in `mcpServers`, merge this as an additional key. Do not overwrite existing servers.",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 验证"
+  },
+  {
+    "row": 65,
+    "rowsha": "i0/bJYtZ3y0WWNIMiMMrihlQCjphecIdN0BcXDrqWj0=",
+    "originContent": "### Verify",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 重启 Claude Code（如果您手动编辑了 `~/.claude.json`）。"
+  },
+  {
+    "row": 67,
+    "rowsha": "tCrlUqO3/SyW/zqmaNougAqblxlNaE0kT8etPjkMs/c=",
+    "originContent": "1. Restart Claude Code (if you edited `~/.claude.json` manually).",
+    "translatedContent": "2. 运行 `claude mcp list` 以确认服务器已注册。"
+  },
+  {
+    "row": 68,
+    "rowsha": "RMgDW5LsFfuO8IXh66vEmgpinWxqAcJgvNGYqU0yW7s=",
+    "originContent": "2. Run `claude mcp list` to confirm the server is registered.",
+    "translatedContent": "3. 使用 `/co-brainstorm test idea` 进行测试，确认它触发了 MCP 调用。"
+  },
+  {
+    "row": 69,
+    "rowsha": "9pQsLOW2wO6fM+taczv4ccH29LEtnPV6sK3vrZp8KKg=",
+    "originContent": "3. Test with `/co-brainstorm test idea` and confirm it triggers the MCP call.",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 命令详情"
+  },
+  {
+    "row": 71,
+    "rowsha": "PAXqI4WeNoclmEWzchtu3MPa6WSH/lzy8/ZjzxAZfqM=",
+    "originContent": "## Command Details",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### `/co-brainstorm`"
+  },
+  {
+    "row": 73,
+    "rowsha": "XR4sLa+wkP+4XBqxDeMFsgaUM+Ionb+Hkz7iBYSu7gw=",
+    "originContent": "### `/co-brainstorm`",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "启动与 Codex 的交互式头脑风暴会话。将您的主题或问题作为参数传递。"
+  },
+  {
+    "row": 75,
+    "rowsha": "jEXnZeZtWZ/E6cx1Z/Pg27bRRl2twAw/aHgD/jgfE50=",
+    "originContent": "Starts an interactive brainstorming session with Codex. Pass your topic or question as the argument.",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "oBcb4P7GD6m3tQ6oWc9XXo1Q8AMLlaUxRwXWAjs7lUU=",
+    "originContent": "/co-brainstorm how should we structure the authentication system",
+    "translatedContent": "/co-brainstorm how should we structure the authentication system"
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "dzeyC4r6LdDR258JSkNqxu3szOn2/NoP/fqktoQp4s0=",
+    "originContent": "Supports follow-up conversation to dig deeper into ideas.",
+    "translatedContent": "Supports follow-up conversation to dig deeper into ideas."
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "rwWhZG3pRUyklaV0dw8H07iMHcWRQlwC6jkcBlhE/m4=",
+    "originContent": "### `/co-plan`",
+    "translatedContent": "### `/co-plan`"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "wZ8pM/RwOo5A+TSLpfYgzbF4jWlin2hNZlvPqJ3+7k4=",
+    "originContent": "Generates an alternative plan in the background while you continue your own planning. Pass your task description as the argument.",
+    "translatedContent": "Generates an alternative plan in the background while you continue your own planning. Pass your task description as the argument."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "VDkAQ34NJQtFmTiNZIUwIJhO928o1raoXfnCu49zw+g=",
+    "originContent": "/co-plan add user authentication with OAuth2 support",
+    "translatedContent": "/co-plan add user authentication with OAuth2 support"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "JUYYA8EBvyYtN0mbDTGJjOae9DVdxf8aggURGvX6Rno=",
+    "originContent": "Compare the Codex plan against yours to catch missed approaches, simpler alternatives, or overlooked edge cases.",
+    "translatedContent": "将 Codex 计划与您的计划进行比较，以发现遗漏的方法、更简单的替代方案或被忽视的边缘情况。"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "lyfy2kEMs9ezPnA6XRHaCAUwQkcCv+4q5bLTFekzvYQ=",
+    "originContent": "### `/co-validate`",
+    "translatedContent": "### `/co-validate`"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "9MrT0lcA2OHcFltHzKmGBAlHTdzkX3heYY0FXI/R3+U=",
+    "originContent": "Sends your plan to Codex for a staff-engineer-style review. Pass the path to your plan file.",
+    "translatedContent": "将您的计划发送给 Codex，进行类似资深工程师的审查。传递您的计划文件路径。"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "Lh5OC3WgarxCPW6F4CtMvhg06oMXHKDiKm3GSIoJ4mY=",
+    "originContent": "/co-validate .claude/plans/my-plan.md",
+    "translatedContent": "/co-validate .claude/plans/my-plan.md"
+  },
+  {
+    "row": 99,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "返回关键问题、简化机会和替代方法。支持来回讨论。"
+  },
+  {
+    "row": 101,
+    "rowsha": "L8uDJI4Qmb38jq1yPLmgxelMc4SZ0ctm0terqnuB44s=",
+    "originContent": "Returns critical issues, simplification opportunities, and alternative approaches. Supports back-and-forth discussion.",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 故障排除"
+  },
+  {
+    "row": 103,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 问题 | 解决方案 |"
+  },
+  {
+    "row": 105,
+    "rowsha": "kEHR3sk0IugMtMOZiKn84ifjzXRR2lRRbfgKDZp9eCs=",
+    "originContent": "| Problem | Solution |",
+    "translatedContent": "|---------|----------|"
+  },
+  {
+    "row": 106,
+    "rowsha": "lIQUII+f16C/ARLkcpvEgYE7ilz89Tl6TFHSqTcXh/Q=",
+    "originContent": "|---------|----------|",
+    "translatedContent": "| `npx: command not found` | 安装包含 npm/npx 的 [Node.js](https://nodejs.org/) |"
+  },
+  {
+    "row": 107,
+    "rowsha": "MAeD0bDH8lja5zTLYwF5NRNWDwJVNw9BtkQ0Khmbt0o=",
+    "originContent": "| `npx: command not found` | Install [Node.js](https://nodejs.org/) which includes npm/npx |",
+    "translatedContent": "| 会话中找不到 MCP 工具 | 确认 `~/.claude.json` 中服务器名称完全是 `validate-plans-and-brainstorm-ideas` |"
+  },
+  {
+    "row": 108,
+    "rowsha": "X90a3r+wtDUaOm8hyQXzZixF/PFFFiWWvtuE3sdU3C4=",
+    "originContent": "| MCP tool not found in session | Verify the server name is exactly `validate-plans-and-brainstorm-ideas` in `~/.claude.json` |",
+    "translatedContent": "| `~/.claude.json` 中的 JSON 解析错误 | 验证您的 JSON（检查逗号和大括号） |"
+  },
+  {
+    "row": 109,
+    "rowsha": "AzdAuRfJ2RdrwCX6qa16xiJd9DYjaAJGDcFPB3xhVJs=",
+    "originContent": "| JSON parse errors in `~/.claude.json` | Validate your JSON (check commas and braces) |",
+    "translatedContent": "| 安装后命令未出现 | 重启 Claude Code 并确认技能文件夹存在 |"
+  },
+  {
+    "row": 110,
+    "rowsha": "HhRonvCwYE93hlNTtLD4igHvHfpSYhNbLolHJhffD+I=",
+    "originContent": "| Commands not appearing after install | Restart Claude Code and verify skill folders exist |",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 112,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 114,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
