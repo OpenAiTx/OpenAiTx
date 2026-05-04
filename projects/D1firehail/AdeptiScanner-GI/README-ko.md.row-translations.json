@@ -1,0 +1,632 @@
+[
+  {
+    "row": 1,
+    "rowsha": "A1AAMxAF1av1C2BazJ0dLUCQ+DTLUjJzaxQerCYiEiM=",
+    "originContent": "# AdeptiScanner-GI",
+    "translatedContent": "# AdeptiScanner-GI"
+  },
+  {
+    "row": 2,
+    "rowsha": "HRda46WEWpfoatdYHUOpYGpOPk0iw7veClModUKJ7eg=",
+    "originContent": "OCR-based inventory scanner for Genshin Impact, with both a manual and automatic mode.",
+    "translatedContent": "원신(Genshin Impact)용 OCR 기반 인벤토리 스캐너로, 수동 모드와 자동 모드를 모두 지원합니다."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "eARtAzrNcVFIXg1mIKu5sgcGu7IVGByqjzk0dgaRa2k=",
+    "originContent": "### _Please read instructions below before using. Download link for the latest version can be found [here](https://github.com/D1firehail/AdeptiScanner-GI/releases)_",
+    "translatedContent": "### _사용 전에 아래 지침을 반드시 읽어주세요. 최신 버전 다운로드 링크는 [여기](https://github.com/D1firehail/AdeptiScanner-GI/releases)에서 확인할 수 있습니다._"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "wQqyS4Ac1fqv7oLnbfJYWjjDvtyvwu1wyapM2qlllwc=",
+    "originContent": "AdeptiScanner requires some tools produced by Microsoft to work, they're commonly used in games so you're likely to already have them.",
+    "translatedContent": "AdeptiScanner는 마이크로소프트에서 제공하는 몇 가지 도구를 필요로 하며, 이들은 게임에서 흔히 사용되므로 이미 설치되어 있을 가능성이 높습니다.  "
+  },
+  {
+    "row": 7,
+    "rowsha": "nA763pri9bkdv4dgjZOMWKRq1ExcPfIjnmriBx1ZPk8=",
+    "originContent": " - If the scanner throws an error on startup, you may be missing them. [Download links for their installers can be found here](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). ***You need both x86 and x64***",
+    "translatedContent": " - 스캐너가 시작 시 오류를 발생시키면 해당 도구가 없을 수 있습니다. [설치 파일 다운로드 링크는 여기](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022)에서 찾을 수 있습니다. ***x86과 x64 둘 다 필요합니다***"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "ZFmbqFRDLYP6RXxIA1b1L6vpKrc3myldNSFBNT4nw8k=",
+    "originContent": "## Warnings and important notes",
+    "translatedContent": "## 경고 및 중요 참고 사항"
+  },
+  {
+    "row": 10,
+    "rowsha": "eXfNRNkJatHBbAd5iKnVD9frFWmdPpV/PsEM5atFbuk=",
+    "originContent": "- ***For the automated scanning mode of this program to work, it needs to run as admin.***",
+    "translatedContent": "- ***이 프로그램의 자동 스캔 모드가 작동하려면 관리자 권한으로 실행해야 합니다.***"
+  },
+  {
+    "row": 11,
+    "rowsha": "amOJLfxynEXXyq2YLWS9sJTQHFWGUMmpzMSVsci8hd0=",
+    "originContent": "- While using the auto mode, the program will take control of your mouse. You can press escape during the scan to pause it. Do not move or use your mouse during auto unless paused.",
+    "translatedContent": "- 자동 모드 사용 시 프로그램이 마우스를 제어합니다. 스캔 중에 ESC 키를 눌러 일시정지할 수 있습니다. 일시정지 상태가 아니면 마우스를 움직이거나 사용하지 마세요."
+  },
+  {
+    "row": 12,
+    "rowsha": "dfbmN40zulWTKafs8CUzVAdT/vJMP/Ilrv3mwDkR5vs=",
+    "originContent": "- According to my interpretation of the [Genshin TOS](https://genshin.mihoyo.com/en/company/terms), use of this scanner should be allowed as I do not believe it causes an unfair competitive advantage. To my knowledge, nobody has gotten in trouble for the use of this or similar programs so far, but if you're worried about it I suggest avoiding the auto mode.",
+    "translatedContent": "- [원신 이용 약관(Genshin TOS)](https://genshin.mihoyo.com/en/company/terms)을 제 해석에 따르면, 이 스캐너의 사용은 부당한 경쟁 우위를 제공하지 않으므로 허용되어야 한다고 생각합니다. 제가 아는 한, 이 프로그램이나 유사 프로그램 사용으로 인해 문제를 겪은 사람은 없지만, 걱정된다면 자동 모드 사용을 피하는 것이 좋습니다."
+  },
+  {
+    "row": 13,
+    "rowsha": "3HnEus8vqFqWOvkN9J2GQ5Eszz8SmLPY8GFSjILxo08=",
+    "originContent": "- AdeptiScanner relies on specific colour values to identify the contents of the image",
+    "translatedContent": "- AdeptiScanner는 이미지 내 색상 값을 기반으로 내용을 식별합니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "E9f6qt13JsYKyLyOZzGuvPw+bLoAgGa9jRzzeIXy4Ls=",
+    "originContent": "    - Anything that changes in-game colours can mess up the results. Examples of programs/features that can interfere is Reshade, Windows Night Light, F.lux, Nvidia Filters and Colourblind compensation tools.",
+    "translatedContent": "    - 게임 내 색상을 변경하는 모든 요소가 결과에 영향을 줄 수 있습니다. 예를 들어 Reshade, Windows 야간 모드, F.lux, Nvidia 필터 및 색맹 보정 도구 등이 해당됩니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "xAZcuNZZbBZH2LioCT+7lR2S0M3b4aPK5b5CP3PNIeY=",
+    "originContent": "    - Image sharpening also affects colours in this way. The most common example of this is \"Radeon Image Sharpening\" in AMD Radeon Software.",
+    "translatedContent": "    - 이미지 선명도 조정도 색상에 영향을 미칩니다. 가장 흔한 예는 AMD Radeon 소프트웨어의 \"Radeon Image Sharpening\"입니다."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "y9KZ06e2+teXcUHxyWrkdrJIAWDUSMfebOgZS/YUEuM=",
+    "originContent": "## Updating for a new version",
+    "translatedContent": "## 새 버전 업데이트 방법"
+  },
+  {
+    "row": 18,
+    "rowsha": "kukcKeoNhjINY7bSb9a36pQ39LLiPvg3CQc1O2GoGcQ=",
+    "originContent": "- There's an optional in-app update checker, which can notify you of game data updates and scanner updates",
+    "translatedContent": "- 앱 내 선택적 업데이트 검사기가 있어 게임 데이터 업데이트 및 스캐너 업데이트를 알릴 수 있습니다."
+  },
+  {
+    "row": 19,
+    "rowsha": "GtZJCVgliHixjz2HGKVj+2+43IhTwWv/PXGyhcpRUUQ=",
+    "originContent": "  - Game data updates can be handled with a single click",
+    "translatedContent": "  - 게임 데이터 업데이트는 한 번의 클릭으로 처리할 수 있습니다."
+  },
+  {
+    "row": 20,
+    "rowsha": "NNpWAj9qREfXGPSKFJYwI/MWZjC5UTNP65vgjnzS8A4=",
+    "originContent": "  - Scanner updates will open the download page for the new version, and export your settings so the new version can import them next time you run it",
+    "translatedContent": "  - 스캐너 업데이트는 새 버전 다운로드 페이지를 열고 설정을 내보내 다음 실행 시 새 버전이 이를 가져올 수 있게 합니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "Nxmh5DurCp1bI6n+SO1peEwdC4jCw0YxTemiDHKiYzE=",
+    "originContent": "- You can manually update game data by replacing the `ArtifactInfo.json` file inside `ScannerFiles`with an updated one. Latest version can be found [here](https://raw.githubusercontent.com/D1firehail/AdeptiScanner-GI/master/AdeptiScanner%20GI/ScannerFiles/ArtifactInfo.json)",
+    "translatedContent": "- `ScannerFiles` 폴더 내 `ArtifactInfo.json` 파일을 최신 버전으로 교체하여 게임 데이터를 수동으로 업데이트할 수도 있습니다. 최신 버전은 [여기](https://raw.githubusercontent.com/D1firehail/AdeptiScanner-GI/master/AdeptiScanner%20GI/ScannerFiles/ArtifactInfo.json)에서 확인하세요."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "bgtwRYYRAXz9ljg/tSts1g5+lOBwgUSQMKjr1kDi+BE=",
+    "originContent": "## Weapon Mode",
+    "translatedContent": "## 무기 모드"
+  },
+  {
+    "row": 24,
+    "rowsha": "jjQrepSnrk4n7HGGdIKoXMKh8JUxx/yMO9yQTn0cbo0=",
+    "originContent": "- Weapon mode is used the same way as regular (Artifact) mode",
+    "translatedContent": "- 무기 모드는 일반(성유물) 모드와 동일하게 사용합니다."
+  },
+  {
+    "row": 25,
+    "rowsha": "KnL2Rlre5g5G++h2orwJF6Wliba5wHUVQHvGGGSSGZQ=",
+    "originContent": "- Sorting your weapon list by level is recommended, to avoid missing low-rarity weapons you actually care about",
+    "translatedContent": "- 레벨별로 무기 목록을 정렬하는 것을 권장하며, 실제로 필요한 낮은 희귀도의 무기를 놓치는 것을 방지할 수 있습니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "CiD/+/4yN6cfp6UTNL9OFWA38nM2gInhTDmhKV6pfqc=",
+    "originContent": "- When using Auto functionality in weapon mode, the scan will stop when ***all*** weapons on a page are identical to an already scanned one, as opposed to when ***one*** is for artifact mode",
+    "translatedContent": "- 무기 모드에서 자동 기능을 사용할 경우, 한 페이지 내 무기 ***모두***가 이미 스캔된 무기와 동일할 때 스캔이 중지됩니다. (성유물 모드에서는 ***하나***만 동일해도 중지)"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "gCv0FFwGbud1Sy3Pfm3g5RRnDCBb9cZCeSF1HKfMvBY=",
+    "originContent": "## Character import via enka.network",
+    "translatedContent": "## enka.network를 통한 캐릭터 불러오기"
+  },
+  {
+    "row": 29,
+    "rowsha": "A2Diuz9M4u5UCgi8FxI/ShdwSNAZMbJ8Sgq/mg0zGTU=",
+    "originContent": "1. (optional) Scan your artifacts and/or weapons",
+    "translatedContent": "1. (선택 사항) 성유물 및/또는 무기를 스캔합니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "VPfjEFrsaUc5+6NrM5yDHimDmVFws2PoXlSlwSXYpps=",
+    "originContent": "   - This lets AdeptiScanner show which characters you own but haven't imported yet",
+    "translatedContent": "   - 이를 통해 AdeptiScanner가 아직 불러오지 않은 보유 캐릭터를 표시할 수 있습니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "Jr74G8ju5CjuT4QA++7BMYPzFP7mquxBVFBJ9WBTLr8=",
+    "originContent": "2. Make sure your profile showcase is set to show character details",
+    "translatedContent": "2. 프로필 쇼케이스가 캐릭터 상세 정보를 표시하도록 설정되어 있는지 확인합니다."
+  },
+  {
+    "row": 32,
+    "rowsha": "XZ7FO/eKPEkK8nBi663rSgllJ/VFtyy1KLW5q9qV5LA=",
+    "originContent": "   - If you changed this setting, exit to title screen and then go back in to quickly refresh your showcase data",
+    "translatedContent": "   - 이 설정을 변경했다면, 타이틀 화면으로 나갔다가 다시 들어가 쇼케이스 데이터를 빠르게 새로 고칩니다."
+  },
+  {
+    "row": 33,
+    "rowsha": "ibL1Kvh01FMqOH34ZZ4soQiAKIS3ZD3xAedsFBWXZ/8=",
+    "originContent": "3. Open the `Characters` tab in AdeptiScanner, enter your UID and click Fetch",
+    "translatedContent": "3. AdeptiScanner에서 `Characters` 탭을 열고 UID를 입력한 뒤 Fetch 버튼을 클릭합니다."
+  },
+  {
+    "row": 34,
+    "rowsha": "g37xcAcQwBdRKAWzajfgJ61vZLQaY50f1U8QTRVLzco=",
+    "originContent": "4. Change your showcased characters and repeat from step 3.",
+    "translatedContent": "4. 쇼케이스 캐릭터를 변경하고 3단계부터 반복합니다."
+  },
+  {
+    "row": 35,
+    "rowsha": "eORou3NOIBMcG69fZo7JEzwZ5X6J7jYDiIMlorVpflk=",
+    "originContent": "   - If you followed step 1, the text box below the Fetch button should show a list of characters you've yet to import but own according to your artifact/weapon scan results",
+    "translatedContent": "   - 1단계를 수행했다면, Fetch 버튼 아래 텍스트 박스에 아직 불러오지 않았지만 스캔 결과에 따라 보유 중인 캐릭터 목록이 표시됩니다."
+  },
+  {
+    "row": 36,
+    "rowsha": "FVuP+u2FDtdHbiPEvECsS1HIyqtVo0qrUssgf5gCPy0=",
+    "originContent": "   - You can exit to title screen and then go back in to quickly refresh your showcase data",
+    "translatedContent": "   - 타이틀 화면으로 나갔다가 다시 들어가 쇼케이스 데이터를 빠르게 새로 고칠 수 있습니다."
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 스캔 준비 방법"
+  },
+  {
+    "row": 39,
+    "rowsha": "l7IN9y6iUOhr5L5mvf2ANff6dGlqi8VV9lws8WY4eS4=",
+    "originContent": "## How to prepare for scanning",
+    "translatedContent": "1. 게임을 1600x900 해상도의 창 모드로 설정하는 것을 권장하지만 필수는 아닙니다."
+  },
+  {
+    "row": 40,
+    "rowsha": "F0czMAQPgeog/agMsU4rsaXkwJXLMs7PUpf/u+5nXVI=",
+    "originContent": "1. Setting the game to windowed mode with a resolution of 1600x900 is recommended, but not required",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "OdStWdVNhU2U4WmwGkhHhPEqnBnJ/qJ5lTY+/Vr/3ZM=",
+    "originContent": "   - Other aspect ratios and resolutions are likely to work, but not tested to the same degree",
+    "translatedContent": "   - 다른 화면 비율과 해상도도 작동할 가능성이 있지만 동일한 정도로 테스트되지 않았습니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "+YlYE6MPqDO75lwm6EejWtua9nE2ZmNrp0JzYN2VBDk=",
+    "originContent": "   - Fullscreen mode works, but requires the `Advanced ` -> `Process handle features` setting to be enabled (**Enabled by default**)",
+    "translatedContent": "   - 전체 화면 모드는 작동하지만 `고급` -> `프로세스 핸들 기능` 설정을 활성화해야 합니다 (**기본값으로 활성화됨**)."
+  },
+  {
+    "row": 43,
+    "rowsha": "uEireL6pZ3NhXlZ/gCnHKiIKUZgxo9/XiclkfAlVRKA=",
+    "originContent": "2. Open the artifact section on your main backpack and select a 5 star artifact with a full length item description",
+    "translatedContent": "2. 메인 가방에서 유물 섹션을 열고 전체 길이 아이템 설명이 있는 5성 유물을 선택하세요."
+  },
+  {
+    "row": 44,
+    "rowsha": "/dq8O0kzpxBBmuSvhFxxWktjG1+YA6S3jc+s1YLgM3o=",
+    "originContent": "3. Press \"Capture\"",
+    "translatedContent": "3. \"캡처\"를 누르세요."
+  },
+  {
+    "row": 45,
+    "rowsha": "iWawJxLKxOu8f8O1f1XEIXay4sfFz9hM73mesJPx7U8=",
+    "originContent": "    - Make sure the preview matches the good example, if it doesn't, try moving your camera around a bit in-game to change the background and repeat again from step 2 ![something like this](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/Capture-example.png?raw=true)",
+    "translatedContent": "    - 미리보기가 좋은 예와 일치하는지 확인하세요. 일치하지 않으면 게임 내에서 카메라를 약간 움직여 배경을 변경한 후 2단계부터 다시 시도하세요 ![이와 비슷함](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/Capture-example.png?raw=true)"
+  },
+  {
+    "row": 46,
+    "rowsha": "mu+uUV2xa9VL8uPCwTR5+lfxRj0gnioDozGMrEyLBss=",
+    "originContent": "5. Enter your in-game name / traveler name in the `Traveler Name` text box.",
+    "translatedContent": "5. `여행자 이름` 텍스트 상자에 게임 내 이름/여행자 이름을 입력하세요."
+  },
+  {
+    "row": 47,
+    "rowsha": "TDJMp6O1ZEU+ynEZ3RPhqUtxAb1Ccd9UnlEAzXyOrbY=",
+    "originContent": "    - Not entering this will cause any scanned artifacts that are equipped on your Traveler to be incorrectly detected as either equipped on the wrong character or not equipped at all",
+    "translatedContent": "    - 입력하지 않으면 장착된 유물이 잘못된 캐릭터에게 장착된 것으로 인식되거나 전혀 장착되지 않은 것으로 잘못 감지될 수 있습니다."
+  },
+  {
+    "row": 48,
+    "rowsha": "aLqKs08FLIMMxtg0qZvNeFqhSX5qK7bFz0IAhKxPItM=",
+    "originContent": "    - There is an equivalent setting for Wanderer name",
+    "translatedContent": "    - 방랑자 이름에 대한 동등한 설정도 있습니다."
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "JwQk85d01KcjB3zw15UAPwVD310HLW5muGZvI3fsSsQ=",
+    "originContent": "You're now ready for manual or automatic artifact scanning",
+    "translatedContent": "이제 수동 또는 자동 유물 스캔 준비가 완료되었습니다."
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "faDnT7Y18PiQSDnmBjzXr0vmxxHip0hOpq1pNriKx28=",
+    "originContent": "### Manual scanning",
+    "translatedContent": "### 수동 스캔"
+  },
+  {
+    "row": 53,
+    "rowsha": "Jatm4lPIyC2NBKYRBNcvwTGiFzFDxSOuNIU5va/wqq4=",
+    "originContent": "1. Follow the instructions under `How to prepare for scanning`. Do not move the game window and do not cover the captured area while scanning",
+    "translatedContent": "1. `스캔 준비 방법` 지침을 따르세요. 스캔 중에는 게임 창을 이동하거나 캡처 영역을 가리지 마세요."
+  },
+  {
+    "row": 54,
+    "rowsha": "HyY2mXtfcrchEFkwEuzIA1lnWRe1Nu5EvUy69vF8z6Y=",
+    "originContent": "2. Select the artifact you wish to scan and press the `Read Stats` button",
+    "translatedContent": "2. 스캔할 유물을 선택하고 `통계 읽기` 버튼을 누르세요."
+  },
+  {
+    "row": 55,
+    "rowsha": "eIBitwl9aUYCKuKsPEt3ebz1mVfb2nxNov1zijSe/M4=",
+    "originContent": "    - The scanner is mainly tested for 4 and 5 star artifacts. While it has the information about all tiers of artifacts, it may be unable to read some lower tier ones",
+    "translatedContent": "    - 스캐너는 주로 4성 및 5성 유물에 대해 테스트되었습니다. 모든 등급의 유물 정보를 가지고 있지만 낮은 등급의 일부는 읽지 못할 수 있습니다."
+  },
+  {
+    "row": 56,
+    "rowsha": "ZYKsVqQdgiMHMg4mVD0NxYdiBz24sG5KL9E0OCVLeGE=",
+    "originContent": "3. Repeat step 2 for every artifact you wish to manually scan",
+    "translatedContent": "3. 수동으로 스캔할 모든 유물에 대해 2단계를 반복하세요."
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "MFT9Mrp9glgqDyH1lPY907l8krgqoyimYFPyTYO7gA4=",
+    "originContent": "### Automated scanning",
+    "translatedContent": "### 자동 스캔"
+  },
+  {
+    "row": 59,
+    "rowsha": "EmfmN6E1iUbAFD71VCLOZtlU2N4kweSmbnR4RCHobWI=",
+    "originContent": "- While using the auto mode, the program will take control of your mouse. You can press escape during the scan to pause it.",
+    "translatedContent": "- 자동 모드 사용 시 프로그램이 마우스를 제어합니다. 스캔 중에 ESC 키를 눌러 일시 중지할 수 있습니다."
+  },
+  {
+    "row": 60,
+    "rowsha": "x86LNWqP5+AJ2R1gTlXc5nF9+L8N26G8HzkxkTA5ojU=",
+    "originContent": "- Do not move or use your mouse during auto unless paused.",
+    "translatedContent": "- 일시 중지 상태가 아니면 마우스를 이동하거나 사용하지 마세요."
+  },
+  {
+    "row": 61,
+    "rowsha": "JmlvUbk81sLHTqHiTP+N5tXW+v4Pp/FO4rGH9h6Mb+A=",
+    "originContent": "- Automated scanning will only work properly if this program is being run as admin",
+    "translatedContent": "- 자동 스캔은 관리자 권한으로 실행할 때만 제대로 작동합니다."
+  },
+  {
+    "row": 62,
+    "rowsha": "jWqiMp9rzuYCFahdr/CQxD4cgZ6n3Q0REN20bdMTP88=",
+    "originContent": "- Automated scanning will scroll through your entire artifact inventory, filtering is applied on export",
+    "translatedContent": "- 자동 스캔은 전체 유물 인벤토리를 스크롤하며, 내보내기 시 필터가 적용됩니다."
+  },
+  {
+    "row": 63,
+    "rowsha": "qXBMutp4PWNLPShxgqjiiwJWhfDfPcl+xY3yjfkc5m8=",
+    "originContent": "1. Follow the instructions under `How to prepare for scanning`",
+    "translatedContent": "1. `스캔 준비 방법` 지침을 따르세요."
+  },
+  {
+    "row": 64,
+    "rowsha": "IPQxczzVpNG1skqSG5TU8E8pyHT+gG+il5APZRF/hHI=",
+    "originContent": "2. Scroll your artifact list so the **stars** for the **top row** and the **white/beige label** for the **bottom row** are **both fully visible** with some margin. ![something like this](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/scroll-example.png?raw=true)",
+    "translatedContent": "2. 유물 목록을 스크롤하여 **상단 행의 별**과 **하단 행의 흰색/베이지색 라벨**이 **둘 다 완전히 보이도록** 약간의 여유를 두세요. ![이와 비슷함](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/scroll-example.png?raw=true)"
+  },
+  {
+    "row": 65,
+    "rowsha": "/470Rbt8DBsUEEyD/5IObA9iyj5mzC2oKBCzXbseFjc=",
+    "originContent": "3. Press the `Start Auto` button",
+    "translatedContent": "3. `자동 시작` 버튼을 누르세요."
+  },
+  {
+    "row": 66,
+    "rowsha": "gyvEVUXCFsPJ4FYaOxFXIRt0+9k+ZUtzG61lnWnhpaU=",
+    "originContent": "    - During the scan, you can press the escape button on your keyboard to pause it",
+    "translatedContent": "    - 스캔 중에 키보드의 ESC 버튼을 눌러 일시 중지할 수 있습니다."
+  },
+  {
+    "row": 67,
+    "rowsha": "qHJsmr875KD1Z+gRGrhKL0tuJMEHbQBFMaKMDd1QZvE=",
+    "originContent": "    - `Resume` will make the scanner resume the scan",
+    "translatedContent": "    - `재개` 버튼은 스캐너가 스캔을 다시 시작하게 합니다."
+  },
+  {
+    "row": 68,
+    "rowsha": "rO5AgmernZuGwoEBn59sRgwVAG2eSmcqE3zTAxzUbXk=",
+    "originContent": "    - `Stop after processing` will make the scanner stop scrolling through new artifacts immediately, but finish processing all scanned ones",
+    "translatedContent": "    - `처리 후 중지`는 새 유물 스크롤을 즉시 멈추고 스캔된 유물 처리만 완료합니다."
+  },
+  {
+    "row": 69,
+    "rowsha": "upvm0ozAySKAd3XTZ5rp4b4t17LApfKudZ7IrVYQRC8=",
+    "originContent": "    - `Stop now` will make the scanner immediately exit automated scanning, not saving any scanner artifacts",
+    "translatedContent": "    - `즉시 중지`는 스캐너가 즉시 자동 스캔을 종료하며 스캔된 유물을 저장하지 않습니다."
+  },
+  {
+    "row": 70,
+    "rowsha": "VxSUyu7uEK1cCD++6Rao82B3jz52gM9nBKptxkqhXMA=",
+    "originContent": "4. The scanner will automatically stop once it thinks it's done scrolling through the artifact list or finds an artifact with identical stats to a previous one.",
+    "translatedContent": "4. 스캐너는 유물 목록 스크롤이 끝났거나 이전과 동일한 통계의 유물을 발견하면 자동으로 멈춥니다."
+  },
+  {
+    "row": 71,
+    "rowsha": "w9j0EBHtc0vs6BfvIpEC5W0zOsS/Ecwx0Jz1m+15T+Q=",
+    "originContent": "   - If this happens too early (for example, due to two artifacts being identical), you can manually scroll to the next screen and press `Start Auto`. Results of the previous run is not automatically deleted.",
+    "translatedContent": "   - 너무 일찍 멈추면(예: 동일한 유물이 두 개 이상 있을 때) 수동으로 다음 화면으로 스크롤한 후 `자동 시작`을 누르세요. 이전 결과는 자동으로 삭제되지 않습니다."
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "eFX+ViHFf4yH8Z5S65pylmKCKR4ggxLbjU1og326xTA=",
+    "originContent": "### Exporting results",
+    "translatedContent": "### 결과 내보내기"
+  },
+  {
+    "row": 74,
+    "rowsha": "XBK9v9HcH8DxCsTzrpITr08eNzHS7qHLPyDXlqaaSFE=",
+    "originContent": "1. Scan artifacts using manual, automatic scanning or a combination of the two",
+    "translatedContent": "1. 수동, 자동 스캔 또는 두 방식을 조합하여 유물을 스캔하세요."
+  },
+  {
+    "row": 75,
+    "rowsha": "MqFON4fe9oomGaCdvT/xjftDMXTn2LNO+WKwa60ye64=",
+    "originContent": "2. Configure the `Export Filters` section according to your wishes",
+    "translatedContent": "2. `내보내기 필터` 섹션을 원하는 대로 구성하세요."
+  },
+  {
+    "row": 76,
+    "rowsha": "eWD43pT2pZk9CZ+DolBHQx5+0KEkUlTTIp4BRFXtk2M=",
+    "originContent": "    - You can use a template file that everything except artifact details will be copied from. To do this, place a GOOD-format json in the `ScannerFiles` folder and rename it to `ExportTemplate.json`    ",
+    "translatedContent": "    - 아티팩트 세부 정보 외 모든 내용이 복사될 GOOD 형식 템플릿 파일을 사용할 수 있습니다. 이를 위해 `ScannerFiles` 폴더에 GOOD 형식 JSON을 넣고 이름을 `ExportTemplate.json`으로 변경하세요."
+  },
+  {
+    "row": 77,
+    "rowsha": "t5BTYMz2Q61GlUcfZwR4Z081ZyP6g7Alrn5jWtfkElA=",
+    "originContent": "    - If you wish, you can combine the artifacts of multiple GOOD-format jsons with the `Advanced` -> `Load Artifact File` button. There is no duplicate detection when doing this",
+    "translatedContent": "    - 원한다면 여러 GOOD 형식 JSON의 유물을 `고급` -> `유물 파일 불러오기` 버튼으로 결합할 수 있습니다. 이때 중복 감지는 없습니다."
+  },
+  {
+    "row": 78,
+    "rowsha": "Faz23yEm0uZASAzi/OehQfetaw7ywu2gARqhwUv1GSk=",
+    "originContent": "3. Press the `Export Results` button, your results will be placed in a timestamped file in the `ScannerFiles` folder",
+    "translatedContent": "3. `결과 내보내기` 버튼을 누르면 결과가 타임스탬프가 붙은 파일로 `ScannerFiles` 폴더에 저장됩니다."
+  },
+  {
+    "row": 79,
+    "rowsha": "xb+JcP+ct4kDHMM0tMyRrx+O4vPGA74sXEI5Bt8ohcU=",
+    "originContent": "    - You can change your export filters and press the export button more than once if you so wish, each export will appear as a separate file",
+    "translatedContent": "    - 내보내기 필터를 변경하고 내보내기 버튼을 여러 번 눌러도 되며, 각 내보내기는 별도의 파일로 나타납니다."
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "uPPo4lnquMh+wUl9ujiFinRv95AB9F9RxKe9sNQ5AsY=",
+    "originContent": "## Special information when not running as admin or without Process handle features",
+    "translatedContent": "## 관리자 권한 없이 실행하거나 프로세스 핸들 기능이 없을 때의 특별 정보"
+  },
+  {
+    "row": 82,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 83,
+    "rowsha": "L84jRw/NI/FGwhm+Tj9B4E9o8waJhZ0uCkCud3PrkFA=",
+    "originContent": "  <summary> Click to expand</summary>",
+    "translatedContent": "  <summary> 클릭하여 확장</summary>"
+  },
+  {
+    "row": 84,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 85,
+    "rowsha": "KRurjdMjFpbu+iJdhtNGnsa06CCg1i5LjOdGd9Ybiks=",
+    "originContent": "### Under these conditions, the following extra requirements apply",
+    "translatedContent": "### 이러한 조건에서는 다음과 같은 추가 요구 사항이 적용됩니다"
+  },
+  {
+    "row": 86,
+    "rowsha": "vXtIWc5q+Ml4Fa/UqNy2mzsvkLcjR2heo8g5reM/88c=",
+    "originContent": "- Fullscreen-mode genshin is not supported",
+    "translatedContent": "- 전체화면 모드의 원신은 지원되지 않습니다"
+  },
+  {
+    "row": 87,
+    "rowsha": "L2rrwtIk3zNWHUXt6bBkgHNRLiMmZrO3L3XdsQUTRKk=",
+    "originContent": "- The capture process cannot automatically switch focus to the game, as such the game window must not be covered during the capture process or any other feature that scans the game window",
+    "translatedContent": "- 캡처 프로세스가 자동으로 게임에 포커스를 전환할 수 없으므로, 캡처 프로세스나 게임 창을 스캔하는 기타 기능 동안 게임 창이 가려지면 안 됩니다"
+  },
+  {
+    "row": 88,
+    "rowsha": "liNA7ONd9So20RFMMtua4LR9rHwpqnYD8pgAuuJoh3s=",
+    "originContent": "- To capture the game, it must be on your primary monitor, cover the middle of said screen , and have a visible white window header (can be \"faked\" using notepad or similar)",
+    "translatedContent": "- 게임을 캡처하려면 기본 모니터에 있어야 하며, 화면 중앙을 덮고 흰색 창 헤더가 보여야 합니다 (메모장 등으로 \"가짜\"로 만들 수 있음)"
+  },
+  {
+    "row": 89,
+    "rowsha": "OiqmCxYM2PeWblF3iMLSf0tPKBpu7bwW/j6GBD+2b2Y=",
+    "originContent": "- Example image of meeting these conditions on a 1080p monitor ",
+    "translatedContent": "- 1080p 모니터에서 이러한 조건을 만족하는 예제 이미지"
+  },
+  {
+    "row": 90,
+    "rowsha": "ctHgx7DqwHQaaBK10jHam7Y38dzNnDi+DM7naHSwtsc=",
+    "originContent": "![Example window position for 1080p monitor](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/1080p-example.png?raw=true)",
+    "translatedContent": "![1080p 모니터용 창 위치 예제](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/1080p-example.png?raw=true)"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "/0u1auFjoVBKnUL5fl4OGR7zVls9xt0FJozgNitAjWA=",
+    "originContent": "## How to contact",
+    "translatedContent": "## 연락 방법"
+  },
+  {
+    "row": 95,
+    "rowsha": "KXEo0Wz5xeR4c0PZkLZ660nGtkTtTNxv3jYrohwUyfA=",
+    "originContent": "- Create an issue or pull request on this repo",
+    "translatedContent": "- 이 저장소에 이슈 또는 풀 리퀘스트를 생성하세요"
+  },
+  {
+    "row": 96,
+    "rowsha": "6N5eCqwp5824p+anbqbhg4KE+dhupouXPDyb61EFHbA=",
+    "originContent": "- I haven't created a discord, as I have no idea how much interest there will be. If one is needed in the future I'll create one",
+    "translatedContent": "- 관심이 얼마나 있을지 몰라 Discord 서버를 만들지 않았습니다. 필요하면 나중에 만들 예정입니다"
+  },
+  {
+    "row": 97,
+    "rowsha": "/Wb1+E/A+kxYRV0Pg2wfIU/ENeqzl+AlyPiwBtpB3FI=",
+    "originContent": "- I'm in the community-created [Genshin Dev Discord](https://discord.gg/CnmeBYSHaC), same username as on here",
+    "translatedContent": "- 커뮤니티에서 만든 [원신 개발자 Discord](https://discord.gg/CnmeBYSHaC)에 있으며, 여기 사용자명과 같습니다"
+  },
+  {
+    "row": 98,
+    "rowsha": "PXb1uiNL3znyMvR34plcY0TDb4mbj/C8u3phM2mlg9Q=",
+    "originContent": "- I'm also in the [Genshin Optimizer Discord](https://discord.com/invite/CXUbQXyfUs). Feel free to @ me for smaller issues, but for longer things it's better to stick to the Genshin Dev discord or DMing me",
+    "translatedContent": "- 또한 [원신 옵티마이저 Discord](https://discord.com/invite/CXUbQXyfUs)에도 있습니다. 작은 문제는 저를 @해도 되지만, 긴 내용은 원신 개발자 Discord나 DM으로 연락하는 것이 좋습니다"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+    "originContent": "## Acknowledgements",
+    "translatedContent": "## 감사의 말"
+  },
+  {
+    "row": 101,
+    "rowsha": "M3zPlvEQdr06D9yC4SOKoReceiguHdsXIA0vhYgDos4=",
+    "originContent": "- Character importing relies on the API [Enka.Network](https://enka.network/)",
+    "translatedContent": "- 캐릭터 임포팅은 API [Enka.Network](https://enka.network/)에 의존합니다"
+  },
+  {
+    "row": 102,
+    "rowsha": "7Zqu11XXyWIiD/OJ24f3UKjRORVmO+f5K2Cc0CBshQ0=",
+    "originContent": "- Some functions used are heavily based on code from [WFInfo](https://github.com/WFCD/WFinfo), an OCR-based companion program for Warframe",
+    "translatedContent": "- 일부 기능은 워프레임용 OCR 기반 동반 프로그램인 [WFInfo](https://github.com/WFCD/WFinfo)의 코드를 많이 참고했습니다"
+  },
+  {
+    "row": 103,
+    "rowsha": "svFzso9ssbCfjFJnPP8o8fjeu9JYhGv66rKbNAWc1Zg=",
+    "originContent": "- The tesseract model used was trained and provided by the creator of [this similar program](https://github.com/Andrewthe13th/Genshin_Scanner)",
+    "translatedContent": "- 사용된 테서랙트 모델은 [이 유사 프로그램](https://github.com/Andrewthe13th/Genshin_Scanner) 제작자가 훈련 및 제공했습니다"
+  },
+  {
+    "row": 104,
+    "rowsha": "fq4c1HpneXHOdfrfKabgwoI/9NaQ0Pq4T05uiPqCmqA=",
+    "originContent": "- The main purpose of this scanner is to more easily import your artifacts into [Genshin Optimizer](https://frzyc.github.io/genshin-optimizer/), but it should be compatible with any other program that uses the GOOD format",
+    "translatedContent": "- 이 스캐너의 주요 목적은 아티팩트를 [원신 옵티마이저](https://frzyc.github.io/genshin-optimizer/)에 더 쉽게 임포트하기 위함이지만, GOOD 포맷을 사용하는 다른 프로그램과도 호환되어야 합니다"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

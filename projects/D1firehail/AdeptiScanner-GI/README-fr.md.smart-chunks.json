@@ -1,0 +1,671 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AdeptiScanner-GI\nOCR-based inventory scanner for Genshin Impact, with both a manual and automatic mode.\n\n### _Please read instructions below before using. Download link for the latest version can be found [here](https://github.com/D1firehail/AdeptiScanner-GI/releases)_\n\nAdeptiScanner requires some tools produced by Microsoft to work, they're commonly used in games so you're likely to already have them.\n - If the scanner throws an error on startup, you may be missing them. [Download links for their installers can be found here](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). ***You need both x86 and x64***\n\n## Warnings and important notes\n- ***For the automated scanning mode of this program to work, it needs to run as admin.***\n- While using the auto mode, the program will take control of your mouse. You can press escape during the scan to pause it. Do not move or use your mouse during auto unless paused.\n- According to my interpretation of the [Genshin TOS](https://genshin.mihoyo.com/en/company/terms), use of this scanner should be allowed as I do not believe it causes an unfair competitive advantage. To my knowledge, nobody has gotten in trouble for the use of this or similar programs so far, but if you're worried about it I suggest avoiding the auto mode.\n- AdeptiScanner relies on specific colour values to identify the contents of the image\n    - Anything that changes in-game colours can mess up the results. Examples of programs/features that can interfere is Reshade, Windows Night Light, F.lux, Nvidia Filters and Colourblind compensation tools.\n    - Image sharpening also affects colours in this way. The most common example of this is \"Radeon Image Sharpening\" in AMD Radeon Software.\n\n## Updating for a new version\n- There's an optional in-app update checker, which can notify you of game data updates and scanner updates\n  - Game data updates can be handled with a single click\n  - Scanner updates will open the download page for the new version, and export your settings so the new version can import them next time you run it\n- You can manually update game data by replacing the `ArtifactInfo.json` file inside `ScannerFiles`with an updated one. Latest version can be found [here](https://raw.githubusercontent.com/D1firehail/AdeptiScanner-GI/master/AdeptiScanner%20GI/ScannerFiles/ArtifactInfo.json)\n\n## Weapon Mode\n- Weapon mode is used the same way as regular (Artifact) mode\n- Sorting your weapon list by level is recommended, to avoid missing low-rarity weapons you actually care about\n- When using Auto functionality in weapon mode, the scan will stop when ***all*** weapons on a page are identical to an already scanned one, as opposed to when ***one*** is for artifact mode\n\n## Character import via enka.network\n1. (optional) Scan your artifacts and/or weapons\n   - This lets AdeptiScanner show which characters you own but haven't imported yet\n2. Make sure your profile showcase is set to show character details\n   - If you changed this setting, exit to title screen and then go back in to quickly refresh your showcase data\n3. Open the `Characters` tab in AdeptiScanner, enter your UID and click Fetch\n4. Change your showcased characters and repeat from step 3.\n   - If you followed step 1, the text box below the Fetch button should show a list of characters you've yet to import but own according to your artifact/weapon scan results\n   - You can exit to title screen and then go back in to quickly refresh your showcase data\n\n\n## How to prepare for scanning\n1. Setting the game to windowed mode with a resolution of 1600x900 is recommended, but not required",
+    "ContentSha": "67noLAQxfIJ90vpAfqp/n8F0g2d3YNYEC3N1CTa4teA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AdeptiScanner-GI  \nScanner d'inventaire basé sur la reconnaissance optique de caractères (OCR) pour Genshin Impact, avec un mode manuel et un mode automatique.  \n\n### _Veuillez lire les instructions ci-dessous avant d'utiliser. Le lien de téléchargement de la dernière version se trouve [ici](https://github.com/D1firehail/AdeptiScanner-GI/releases)_  \n\nAdeptiScanner nécessite certains outils produits par Microsoft pour fonctionner, ils sont couramment utilisés dans les jeux, vous les avez donc probablement déjà.  \n - Si le scanner génère une erreur au démarrage, il se peut que vous ne les ayez pas. [Les liens de téléchargement pour leurs installateurs se trouvent ici](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). ***Vous avez besoin des versions x86 et x64***  \n\n## Avertissements et notes importantes  \n- ***Pour que le mode de scan automatisé de ce programme fonctionne, il doit être exécuté en tant qu’administrateur.***  \n- Lors de l'utilisation du mode auto, le programme prendra le contrôle de votre souris. Vous pouvez appuyer sur Échap pendant le scan pour le mettre en pause. Ne déplacez pas et n’utilisez pas votre souris pendant l’auto sauf si le scan est en pause.  \n- Selon mon interprétation des [CGU de Genshin](https://genshin.mihoyo.com/en/company/terms), l’utilisation de ce scanner devrait être autorisée car je ne pense pas qu’il confère un avantage compétitif déloyal. À ma connaissance, personne n’a eu de problème pour l’utilisation de ce programme ou de programmes similaires jusqu’à présent, mais si vous avez des doutes, je vous suggère d’éviter le mode auto.  \n- AdeptiScanner s’appuie sur des valeurs de couleur spécifiques pour identifier le contenu de l’image  \n    - Tout ce qui modifie les couleurs dans le jeu peut fausser les résultats. Des exemples de programmes/fonctionnalités pouvant interférer sont Reshade, Windows Night Light, F.lux, les filtres Nvidia et les outils de compensation pour daltoniens.  \n    - Le renforcement de l’image affecte aussi les couleurs de cette manière. L’exemple le plus courant est le « Radeon Image Sharpening » dans le logiciel AMD Radeon.  \n\n## Mise à jour pour une nouvelle version  \n- Il existe un vérificateur de mise à jour optionnel dans l’application, qui peut vous notifier des mises à jour des données du jeu et du scanner  \n  - Les mises à jour des données du jeu peuvent être effectuées d’un simple clic  \n  - Les mises à jour du scanner ouvriront la page de téléchargement de la nouvelle version et exporteront vos paramètres pour que la nouvelle version puisse les importer lors de son prochain lancement  \n- Vous pouvez mettre à jour manuellement les données du jeu en remplaçant le fichier `ArtifactInfo.json` dans `ScannerFiles` par une version mise à jour. La dernière version se trouve [ici](https://raw.githubusercontent.com/D1firehail/AdeptiScanner-GI/master/AdeptiScanner%20GI/ScannerFiles/ArtifactInfo.json)  \n\n## Mode Arme  \n- Le mode arme s’utilise de la même manière que le mode régulier (Artifact)  \n- Il est recommandé de trier votre liste d’armes par niveau, afin d’éviter de manquer des armes de faible rareté qui vous intéressent réellement  \n- En utilisant la fonctionnalité Auto en mode arme, le scan s’arrêtera lorsque ***toutes*** les armes d’une page seront identiques à une arme déjà scannée, contrairement au mode artifact où il s’arrête lorsqu’***une seule*** est identique  \n\n## Importation de personnages via enka.network  \n1. (optionnel) Scannez vos artefacts et/ou armes  \n   - Cela permet à AdeptiScanner d’afficher les personnages que vous possédez mais que vous n’avez pas encore importés  \n2. Assurez-vous que votre vitrine de profil est configurée pour afficher les détails des personnages  \n   - Si vous avez modifié ce paramètre, quittez vers l’écran titre puis revenez pour rafraîchir rapidement les données de la vitrine  \n3. Ouvrez l’onglet `Characters` dans AdeptiScanner, saisissez votre UID et cliquez sur Fetch  \n4. Changez vos personnages exposés et répétez à partir de l’étape 3.  \n   - Si vous avez suivi l’étape 1, la zone de texte sous le bouton Fetch devrait afficher une liste des personnages que vous n’avez pas encore importés mais que vous possédez selon les résultats de vos scans d’artefacts/armes  \n   - Vous pouvez quitter vers l’écran titre puis revenir pour rafraîchir rapidement les données de la vitrine  \n\n## Comment préparer le scan  \n1. Il est recommandé de mettre le jeu en mode fenêtré avec une résolution de 1600x900, mais ce n’est pas obligatoire  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "A1AAMxAF1av1C2BazJ0dLUCQ+DTLUjJzaxQerCYiEiM=",
+        "originContent": "# AdeptiScanner-GI",
+        "translatedContent": "# AdeptiScanner-GI  "
+      },
+      {
+        "row": 2,
+        "rowsha": "HRda46WEWpfoatdYHUOpYGpOPk0iw7veClModUKJ7eg=",
+        "originContent": "OCR-based inventory scanner for Genshin Impact, with both a manual and automatic mode.",
+        "translatedContent": "Scanner d'inventaire basé sur la reconnaissance optique de caractères (OCR) pour Genshin Impact, avec un mode manuel et un mode automatique.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "eARtAzrNcVFIXg1mIKu5sgcGu7IVGByqjzk0dgaRa2k=",
+        "originContent": "### _Please read instructions below before using. Download link for the latest version can be found [here](https://github.com/D1firehail/AdeptiScanner-GI/releases)_",
+        "translatedContent": "### _Veuillez lire les instructions ci-dessous avant d'utiliser. Le lien de téléchargement de la dernière version se trouve [ici](https://github.com/D1firehail/AdeptiScanner-GI/releases)_  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "wQqyS4Ac1fqv7oLnbfJYWjjDvtyvwu1wyapM2qlllwc=",
+        "originContent": "AdeptiScanner requires some tools produced by Microsoft to work, they're commonly used in games so you're likely to already have them.",
+        "translatedContent": "AdeptiScanner nécessite certains outils produits par Microsoft pour fonctionner, ils sont couramment utilisés dans les jeux, vous les avez donc probablement déjà.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "nA763pri9bkdv4dgjZOMWKRq1ExcPfIjnmriBx1ZPk8=",
+        "originContent": " - If the scanner throws an error on startup, you may be missing them. [Download links for their installers can be found here](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). ***You need both x86 and x64***",
+        "translatedContent": " - Si le scanner génère une erreur au démarrage, il se peut que vous ne les ayez pas. [Les liens de téléchargement pour leurs installateurs se trouvent ici](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). ***Vous avez besoin des versions x86 et x64***  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ZFmbqFRDLYP6RXxIA1b1L6vpKrc3myldNSFBNT4nw8k=",
+        "originContent": "## Warnings and important notes",
+        "translatedContent": "## Avertissements et notes importantes  "
+      },
+      {
+        "row": 10,
+        "rowsha": "eXfNRNkJatHBbAd5iKnVD9frFWmdPpV/PsEM5atFbuk=",
+        "originContent": "- ***For the automated scanning mode of this program to work, it needs to run as admin.***",
+        "translatedContent": "- ***Pour que le mode de scan automatisé de ce programme fonctionne, il doit être exécuté en tant qu’administrateur.***  "
+      },
+      {
+        "row": 11,
+        "rowsha": "amOJLfxynEXXyq2YLWS9sJTQHFWGUMmpzMSVsci8hd0=",
+        "originContent": "- While using the auto mode, the program will take control of your mouse. You can press escape during the scan to pause it. Do not move or use your mouse during auto unless paused.",
+        "translatedContent": "- Lors de l'utilisation du mode auto, le programme prendra le contrôle de votre souris. Vous pouvez appuyer sur Échap pendant le scan pour le mettre en pause. Ne déplacez pas et n’utilisez pas votre souris pendant l’auto sauf si le scan est en pause.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "dfbmN40zulWTKafs8CUzVAdT/vJMP/Ilrv3mwDkR5vs=",
+        "originContent": "- According to my interpretation of the [Genshin TOS](https://genshin.mihoyo.com/en/company/terms), use of this scanner should be allowed as I do not believe it causes an unfair competitive advantage. To my knowledge, nobody has gotten in trouble for the use of this or similar programs so far, but if you're worried about it I suggest avoiding the auto mode.",
+        "translatedContent": "- Selon mon interprétation des [CGU de Genshin](https://genshin.mihoyo.com/en/company/terms), l’utilisation de ce scanner devrait être autorisée car je ne pense pas qu’il confère un avantage compétitif déloyal. À ma connaissance, personne n’a eu de problème pour l’utilisation de ce programme ou de programmes similaires jusqu’à présent, mais si vous avez des doutes, je vous suggère d’éviter le mode auto.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "3HnEus8vqFqWOvkN9J2GQ5Eszz8SmLPY8GFSjILxo08=",
+        "originContent": "- AdeptiScanner relies on specific colour values to identify the contents of the image",
+        "translatedContent": "- AdeptiScanner s’appuie sur des valeurs de couleur spécifiques pour identifier le contenu de l’image  "
+      },
+      {
+        "row": 14,
+        "rowsha": "E9f6qt13JsYKyLyOZzGuvPw+bLoAgGa9jRzzeIXy4Ls=",
+        "originContent": "    - Anything that changes in-game colours can mess up the results. Examples of programs/features that can interfere is Reshade, Windows Night Light, F.lux, Nvidia Filters and Colourblind compensation tools.",
+        "translatedContent": "    - Tout ce qui modifie les couleurs dans le jeu peut fausser les résultats. Des exemples de programmes/fonctionnalités pouvant interférer sont Reshade, Windows Night Light, F.lux, les filtres Nvidia et les outils de compensation pour daltoniens.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "xAZcuNZZbBZH2LioCT+7lR2S0M3b4aPK5b5CP3PNIeY=",
+        "originContent": "    - Image sharpening also affects colours in this way. The most common example of this is \"Radeon Image Sharpening\" in AMD Radeon Software.",
+        "translatedContent": "    - Le renforcement de l’image affecte aussi les couleurs de cette manière. L’exemple le plus courant est le « Radeon Image Sharpening » dans le logiciel AMD Radeon.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "y9KZ06e2+teXcUHxyWrkdrJIAWDUSMfebOgZS/YUEuM=",
+        "originContent": "## Updating for a new version",
+        "translatedContent": "## Mise à jour pour une nouvelle version  "
+      },
+      {
+        "row": 18,
+        "rowsha": "kukcKeoNhjINY7bSb9a36pQ39LLiPvg3CQc1O2GoGcQ=",
+        "originContent": "- There's an optional in-app update checker, which can notify you of game data updates and scanner updates",
+        "translatedContent": "- Il existe un vérificateur de mise à jour optionnel dans l’application, qui peut vous notifier des mises à jour des données du jeu et du scanner  "
+      },
+      {
+        "row": 19,
+        "rowsha": "GtZJCVgliHixjz2HGKVj+2+43IhTwWv/PXGyhcpRUUQ=",
+        "originContent": "  - Game data updates can be handled with a single click",
+        "translatedContent": "  - Les mises à jour des données du jeu peuvent être effectuées d’un simple clic  "
+      },
+      {
+        "row": 20,
+        "rowsha": "NNpWAj9qREfXGPSKFJYwI/MWZjC5UTNP65vgjnzS8A4=",
+        "originContent": "  - Scanner updates will open the download page for the new version, and export your settings so the new version can import them next time you run it",
+        "translatedContent": "  - Les mises à jour du scanner ouvriront la page de téléchargement de la nouvelle version et exporteront vos paramètres pour que la nouvelle version puisse les importer lors de son prochain lancement  "
+      },
+      {
+        "row": 21,
+        "rowsha": "Nxmh5DurCp1bI6n+SO1peEwdC4jCw0YxTemiDHKiYzE=",
+        "originContent": "- You can manually update game data by replacing the `ArtifactInfo.json` file inside `ScannerFiles`with an updated one. Latest version can be found [here](https://raw.githubusercontent.com/D1firehail/AdeptiScanner-GI/master/AdeptiScanner%20GI/ScannerFiles/ArtifactInfo.json)",
+        "translatedContent": "- Vous pouvez mettre à jour manuellement les données du jeu en remplaçant le fichier `ArtifactInfo.json` dans `ScannerFiles` par une version mise à jour. La dernière version se trouve [ici](https://raw.githubusercontent.com/D1firehail/AdeptiScanner-GI/master/AdeptiScanner%20GI/ScannerFiles/ArtifactInfo.json)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "bgtwRYYRAXz9ljg/tSts1g5+lOBwgUSQMKjr1kDi+BE=",
+        "originContent": "## Weapon Mode",
+        "translatedContent": "## Mode Arme  "
+      },
+      {
+        "row": 24,
+        "rowsha": "jjQrepSnrk4n7HGGdIKoXMKh8JUxx/yMO9yQTn0cbo0=",
+        "originContent": "- Weapon mode is used the same way as regular (Artifact) mode",
+        "translatedContent": "- Le mode arme s’utilise de la même manière que le mode régulier (Artifact)  "
+      },
+      {
+        "row": 25,
+        "rowsha": "KnL2Rlre5g5G++h2orwJF6Wliba5wHUVQHvGGGSSGZQ=",
+        "originContent": "- Sorting your weapon list by level is recommended, to avoid missing low-rarity weapons you actually care about",
+        "translatedContent": "- Il est recommandé de trier votre liste d’armes par niveau, afin d’éviter de manquer des armes de faible rareté qui vous intéressent réellement  "
+      },
+      {
+        "row": 26,
+        "rowsha": "CiD/+/4yN6cfp6UTNL9OFWA38nM2gInhTDmhKV6pfqc=",
+        "originContent": "- When using Auto functionality in weapon mode, the scan will stop when ***all*** weapons on a page are identical to an already scanned one, as opposed to when ***one*** is for artifact mode",
+        "translatedContent": "- En utilisant la fonctionnalité Auto en mode arme, le scan s’arrêtera lorsque ***toutes*** les armes d’une page seront identiques à une arme déjà scannée, contrairement au mode artifact où il s’arrête lorsqu’***une seule*** est identique  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "gCv0FFwGbud1Sy3Pfm3g5RRnDCBb9cZCeSF1HKfMvBY=",
+        "originContent": "## Character import via enka.network",
+        "translatedContent": "## Importation de personnages via enka.network  "
+      },
+      {
+        "row": 29,
+        "rowsha": "A2Diuz9M4u5UCgi8FxI/ShdwSNAZMbJ8Sgq/mg0zGTU=",
+        "originContent": "1. (optional) Scan your artifacts and/or weapons",
+        "translatedContent": "1. (optionnel) Scannez vos artefacts et/ou armes  "
+      },
+      {
+        "row": 30,
+        "rowsha": "VPfjEFrsaUc5+6NrM5yDHimDmVFws2PoXlSlwSXYpps=",
+        "originContent": "   - This lets AdeptiScanner show which characters you own but haven't imported yet",
+        "translatedContent": "   - Cela permet à AdeptiScanner d’afficher les personnages que vous possédez mais que vous n’avez pas encore importés  "
+      },
+      {
+        "row": 31,
+        "rowsha": "Jr74G8ju5CjuT4QA++7BMYPzFP7mquxBVFBJ9WBTLr8=",
+        "originContent": "2. Make sure your profile showcase is set to show character details",
+        "translatedContent": "2. Assurez-vous que votre vitrine de profil est configurée pour afficher les détails des personnages  "
+      },
+      {
+        "row": 32,
+        "rowsha": "XZ7FO/eKPEkK8nBi663rSgllJ/VFtyy1KLW5q9qV5LA=",
+        "originContent": "   - If you changed this setting, exit to title screen and then go back in to quickly refresh your showcase data",
+        "translatedContent": "   - Si vous avez modifié ce paramètre, quittez vers l’écran titre puis revenez pour rafraîchir rapidement les données de la vitrine  "
+      },
+      {
+        "row": 33,
+        "rowsha": "ibL1Kvh01FMqOH34ZZ4soQiAKIS3ZD3xAedsFBWXZ/8=",
+        "originContent": "3. Open the `Characters` tab in AdeptiScanner, enter your UID and click Fetch",
+        "translatedContent": "3. Ouvrez l’onglet `Characters` dans AdeptiScanner, saisissez votre UID et cliquez sur Fetch  "
+      },
+      {
+        "row": 34,
+        "rowsha": "g37xcAcQwBdRKAWzajfgJ61vZLQaY50f1U8QTRVLzco=",
+        "originContent": "4. Change your showcased characters and repeat from step 3.",
+        "translatedContent": "4. Changez vos personnages exposés et répétez à partir de l’étape 3.  "
+      },
+      {
+        "row": 35,
+        "rowsha": "eORou3NOIBMcG69fZo7JEzwZ5X6J7jYDiIMlorVpflk=",
+        "originContent": "   - If you followed step 1, the text box below the Fetch button should show a list of characters you've yet to import but own according to your artifact/weapon scan results",
+        "translatedContent": "   - Si vous avez suivi l’étape 1, la zone de texte sous le bouton Fetch devrait afficher une liste des personnages que vous n’avez pas encore importés mais que vous possédez selon les résultats de vos scans d’artefacts/armes  "
+      },
+      {
+        "row": 36,
+        "rowsha": "FVuP+u2FDtdHbiPEvECsS1HIyqtVo0qrUssgf5gCPy0=",
+        "originContent": "   - You can exit to title screen and then go back in to quickly refresh your showcase data",
+        "translatedContent": "   - Vous pouvez quitter vers l’écran titre puis revenir pour rafraîchir rapidement les données de la vitrine  "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Comment préparer le scan  "
+      },
+      {
+        "row": 39,
+        "rowsha": "l7IN9y6iUOhr5L5mvf2ANff6dGlqi8VV9lws8WY4eS4=",
+        "originContent": "## How to prepare for scanning",
+        "translatedContent": "1. Il est recommandé de mettre le jeu en mode fenêtré avec une résolution de 1600x900, mais ce n’est pas obligatoire  "
+      },
+      {
+        "row": 40,
+        "rowsha": "F0czMAQPgeog/agMsU4rsaXkwJXLMs7PUpf/u+5nXVI=",
+        "originContent": "1. Setting the game to windowed mode with a resolution of 1600x900 is recommended, but not required",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   - Other aspect ratios and resolutions are likely to work, but not tested to the same degree\n   - Fullscreen mode works, but requires the `Advanced ` -> `Process handle features` setting to be enabled (**Enabled by default**)\n2. Open the artifact section on your main backpack and select a 5 star artifact with a full length item description\n3. Press \"Capture\"\n    - Make sure the preview matches the good example, if it doesn't, try moving your camera around a bit in-game to change the background and repeat again from step 2 ![something like this](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/Capture-example.png?raw=true)\n5. Enter your in-game name / traveler name in the `Traveler Name` text box.\n    - Not entering this will cause any scanned artifacts that are equipped on your Traveler to be incorrectly detected as either equipped on the wrong character or not equipped at all\n    - There is an equivalent setting for Wanderer name\n\nYou're now ready for manual or automatic artifact scanning\n\n### Manual scanning\n1. Follow the instructions under `How to prepare for scanning`. Do not move the game window and do not cover the captured area while scanning\n2. Select the artifact you wish to scan and press the `Read Stats` button\n    - The scanner is mainly tested for 4 and 5 star artifacts. While it has the information about all tiers of artifacts, it may be unable to read some lower tier ones\n3. Repeat step 2 for every artifact you wish to manually scan\n\n### Automated scanning\n- While using the auto mode, the program will take control of your mouse. You can press escape during the scan to pause it.\n- Do not move or use your mouse during auto unless paused.\n- Automated scanning will only work properly if this program is being run as admin\n- Automated scanning will scroll through your entire artifact inventory, filtering is applied on export\n1. Follow the instructions under `How to prepare for scanning`\n2. Scroll your artifact list so the **stars** for the **top row** and the **white/beige label** for the **bottom row** are **both fully visible** with some margin. ![something like this](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/scroll-example.png?raw=true)\n3. Press the `Start Auto` button\n    - During the scan, you can press the escape button on your keyboard to pause it\n    - `Resume` will make the scanner resume the scan\n    - `Stop after processing` will make the scanner stop scrolling through new artifacts immediately, but finish processing all scanned ones\n    - `Stop now` will make the scanner immediately exit automated scanning, not saving any scanner artifacts\n4. The scanner will automatically stop once it thinks it's done scrolling through the artifact list or finds an artifact with identical stats to a previous one.\n   - If this happens too early (for example, due to two artifacts being identical), you can manually scroll to the next screen and press `Start Auto`. Results of the previous run is not automatically deleted.\n\n### Exporting results\n1. Scan artifacts using manual, automatic scanning or a combination of the two\n2. Configure the `Export Filters` section according to your wishes\n    - You can use a template file that everything except artifact details will be copied from. To do this, place a GOOD-format json in the `ScannerFiles` folder and rename it to `ExportTemplate.json`    \n    - If you wish, you can combine the artifacts of multiple GOOD-format jsons with the `Advanced` -> `Load Artifact File` button. There is no duplicate detection when doing this\n3. Press the `Export Results` button, your results will be placed in a timestamped file in the `ScannerFiles` folder\n    - You can change your export filters and press the export button more than once if you so wish, each export will appear as a separate file\n",
+    "ContentSha": "q7I3RcXKgCd/iUwum5PFeVNbM2s1oF9S44mD+tSg3uk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   - D'autres rapports d'aspect et résolutions sont susceptibles de fonctionner, mais n'ont pas été testés avec le même degré\n   - Le mode plein écran fonctionne, mais nécessite que l'option `Avancé` -> `Gérer les fonctionnalités du processus` soit activée (**Activé par défaut**)\n2. Ouvrez la section artefacts dans votre sac à dos principal et sélectionnez un artefact 5 étoiles avec une description d'objet complète\n3. Appuyez sur \"Capturer\"\n    - Assurez-vous que l'aperçu correspond au bon exemple, sinon, essayez de déplacer un peu votre caméra dans le jeu pour changer l'arrière-plan et répétez à partir de l'étape 2 ![quelque chose comme ça](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/Capture-example.png?raw=true)\n5. Entrez votre nom en jeu / nom de voyageur dans la zone de texte `Nom du voyageur`.\n    - Ne pas entrer ce nom entraînera une détection incorrecte des artefacts scannés équipés sur votre Voyageur, soit comme équipés sur un mauvais personnage, soit comme non équipés du tout\n    - Il existe un paramètre équivalent pour le nom du Vagabond\n\nVous êtes maintenant prêt pour le scan manuel ou automatique des artefacts\n\n### Scan manuel\n1. Suivez les instructions sous `Comment se préparer au scan`. Ne déplacez pas la fenêtre du jeu et ne couvrez pas la zone capturée pendant le scan\n2. Sélectionnez l'artefact que vous souhaitez scanner et appuyez sur le bouton `Lire les statistiques`\n    - Le scanner est principalement testé pour les artefacts 4 et 5 étoiles. Bien qu'il ait les informations sur tous les niveaux d'artefacts, il peut être incapable de lire certains de niveau inférieur\n3. Répétez l'étape 2 pour chaque artefact que vous souhaitez scanner manuellement\n\n### Scan automatisé\n- En mode automatique, le programme prendra le contrôle de votre souris. Vous pouvez appuyer sur Échap pendant le scan pour le mettre en pause.\n- Ne déplacez pas et n'utilisez pas votre souris pendant l'auto sauf si c'est en pause.\n- Le scan automatisé ne fonctionnera correctement que si ce programme est exécuté en tant qu'administrateur\n- Le scan automatisé fera défiler l'ensemble de votre inventaire d'artefacts, un filtrage est appliqué à l'exportation\n1. Suivez les instructions sous `Comment se préparer au scan`\n2. Faites défiler votre liste d'artefacts de manière à ce que les **étoiles** de la **rangée du haut** et l'**étiquette blanche/beige** de la **rangée du bas** soient **toutes deux entièrement visibles** avec une marge. ![quelque chose comme ça](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/scroll-example.png?raw=true)\n3. Appuyez sur le bouton `Démarrer Auto`\n    - Pendant le scan, vous pouvez appuyer sur la touche Échap de votre clavier pour le mettre en pause\n    - `Reprendre` fera reprendre le scan par le scanner\n    - `Arrêter après traitement` fera arrêter le scanner de défiler dans les nouveaux artefacts immédiatement, mais finira de traiter tous les artefacts scannés\n    - `Arrêter maintenant` fera quitter immédiatement le scan automatisé, sans enregistrer aucun artefact scanné\n4. Le scanner s'arrêtera automatiquement une fois qu'il pense avoir fini de défiler la liste d'artefacts ou trouver un artefact avec des statistiques identiques à un précédent.\n   - Si cela arrive trop tôt (par exemple, à cause de deux artefacts identiques), vous pouvez faire défiler manuellement vers l'écran suivant et appuyer sur `Démarrer Auto`. Les résultats de la session précédente ne sont pas supprimés automatiquement.\n\n### Exportation des résultats\n1. Scannez des artefacts en mode manuel, automatique ou une combinaison des deux\n2. Configurez la section `Filtres d'export` selon vos souhaits\n    - Vous pouvez utiliser un fichier modèle dont tout sauf les détails des artefacts sera copié. Pour cela, placez un json au format GOOD dans le dossier `ScannerFiles` et renommez-le en `ExportTemplate.json`    \n    - Si vous le souhaitez, vous pouvez combiner les artefacts de plusieurs jsons au format GOOD avec le bouton `Avancé` -> `Charger fichier d'artefact`. Il n'y a pas de détection de doublons dans ce cas\n3. Appuyez sur le bouton `Exporter les résultats`, vos résultats seront placés dans un fichier horodaté dans le dossier `ScannerFiles`\n    - Vous pouvez modifier vos filtres d'export et appuyer plusieurs fois sur le bouton d'export si vous le souhaitez, chaque export apparaîtra comme un fichier distinct\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OdStWdVNhU2U4WmwGkhHhPEqnBnJ/qJ5lTY+/Vr/3ZM=",
+        "originContent": "   - Other aspect ratios and resolutions are likely to work, but not tested to the same degree",
+        "translatedContent": "   - D'autres rapports d'aspect et résolutions sont susceptibles de fonctionner, mais n'ont pas été testés avec le même degré"
+      },
+      {
+        "row": 2,
+        "rowsha": "+YlYE6MPqDO75lwm6EejWtua9nE2ZmNrp0JzYN2VBDk=",
+        "originContent": "   - Fullscreen mode works, but requires the `Advanced ` -> `Process handle features` setting to be enabled (**Enabled by default**)",
+        "translatedContent": "   - Le mode plein écran fonctionne, mais nécessite que l'option `Avancé` -> `Gérer les fonctionnalités du processus` soit activée (**Activé par défaut**)"
+      },
+      {
+        "row": 3,
+        "rowsha": "uEireL6pZ3NhXlZ/gCnHKiIKUZgxo9/XiclkfAlVRKA=",
+        "originContent": "2. Open the artifact section on your main backpack and select a 5 star artifact with a full length item description",
+        "translatedContent": "2. Ouvrez la section artefacts dans votre sac à dos principal et sélectionnez un artefact 5 étoiles avec une description d'objet complète"
+      },
+      {
+        "row": 4,
+        "rowsha": "/dq8O0kzpxBBmuSvhFxxWktjG1+YA6S3jc+s1YLgM3o=",
+        "originContent": "3. Press \"Capture\"",
+        "translatedContent": "3. Appuyez sur \"Capturer\""
+      },
+      {
+        "row": 5,
+        "rowsha": "iWawJxLKxOu8f8O1f1XEIXay4sfFz9hM73mesJPx7U8=",
+        "originContent": "    - Make sure the preview matches the good example, if it doesn't, try moving your camera around a bit in-game to change the background and repeat again from step 2 ![something like this](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/Capture-example.png?raw=true)",
+        "translatedContent": "    - Assurez-vous que l'aperçu correspond au bon exemple, sinon, essayez de déplacer un peu votre caméra dans le jeu pour changer l'arrière-plan et répétez à partir de l'étape 2 ![quelque chose comme ça](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/Capture-example.png?raw=true)"
+      },
+      {
+        "row": 6,
+        "rowsha": "mu+uUV2xa9VL8uPCwTR5+lfxRj0gnioDozGMrEyLBss=",
+        "originContent": "5. Enter your in-game name / traveler name in the `Traveler Name` text box.",
+        "translatedContent": "5. Entrez votre nom en jeu / nom de voyageur dans la zone de texte `Nom du voyageur`."
+      },
+      {
+        "row": 7,
+        "rowsha": "TDJMp6O1ZEU+ynEZ3RPhqUtxAb1Ccd9UnlEAzXyOrbY=",
+        "originContent": "    - Not entering this will cause any scanned artifacts that are equipped on your Traveler to be incorrectly detected as either equipped on the wrong character or not equipped at all",
+        "translatedContent": "    - Ne pas entrer ce nom entraînera une détection incorrecte des artefacts scannés équipés sur votre Voyageur, soit comme équipés sur un mauvais personnage, soit comme non équipés du tout"
+      },
+      {
+        "row": 8,
+        "rowsha": "aLqKs08FLIMMxtg0qZvNeFqhSX5qK7bFz0IAhKxPItM=",
+        "originContent": "    - There is an equivalent setting for Wanderer name",
+        "translatedContent": "    - Il existe un paramètre équivalent pour le nom du Vagabond"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "JwQk85d01KcjB3zw15UAPwVD310HLW5muGZvI3fsSsQ=",
+        "originContent": "You're now ready for manual or automatic artifact scanning",
+        "translatedContent": "Vous êtes maintenant prêt pour le scan manuel ou automatique des artefacts"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "faDnT7Y18PiQSDnmBjzXr0vmxxHip0hOpq1pNriKx28=",
+        "originContent": "### Manual scanning",
+        "translatedContent": "### Scan manuel"
+      },
+      {
+        "row": 13,
+        "rowsha": "Jatm4lPIyC2NBKYRBNcvwTGiFzFDxSOuNIU5va/wqq4=",
+        "originContent": "1. Follow the instructions under `How to prepare for scanning`. Do not move the game window and do not cover the captured area while scanning",
+        "translatedContent": "1. Suivez les instructions sous `Comment se préparer au scan`. Ne déplacez pas la fenêtre du jeu et ne couvrez pas la zone capturée pendant le scan"
+      },
+      {
+        "row": 14,
+        "rowsha": "HyY2mXtfcrchEFkwEuzIA1lnWRe1Nu5EvUy69vF8z6Y=",
+        "originContent": "2. Select the artifact you wish to scan and press the `Read Stats` button",
+        "translatedContent": "2. Sélectionnez l'artefact que vous souhaitez scanner et appuyez sur le bouton `Lire les statistiques`"
+      },
+      {
+        "row": 15,
+        "rowsha": "eIBitwl9aUYCKuKsPEt3ebz1mVfb2nxNov1zijSe/M4=",
+        "originContent": "    - The scanner is mainly tested for 4 and 5 star artifacts. While it has the information about all tiers of artifacts, it may be unable to read some lower tier ones",
+        "translatedContent": "    - Le scanner est principalement testé pour les artefacts 4 et 5 étoiles. Bien qu'il ait les informations sur tous les niveaux d'artefacts, il peut être incapable de lire certains de niveau inférieur"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZYKsVqQdgiMHMg4mVD0NxYdiBz24sG5KL9E0OCVLeGE=",
+        "originContent": "3. Repeat step 2 for every artifact you wish to manually scan",
+        "translatedContent": "3. Répétez l'étape 2 pour chaque artefact que vous souhaitez scanner manuellement"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "MFT9Mrp9glgqDyH1lPY907l8krgqoyimYFPyTYO7gA4=",
+        "originContent": "### Automated scanning",
+        "translatedContent": "### Scan automatisé"
+      },
+      {
+        "row": 19,
+        "rowsha": "EmfmN6E1iUbAFD71VCLOZtlU2N4kweSmbnR4RCHobWI=",
+        "originContent": "- While using the auto mode, the program will take control of your mouse. You can press escape during the scan to pause it.",
+        "translatedContent": "- En mode automatique, le programme prendra le contrôle de votre souris. Vous pouvez appuyer sur Échap pendant le scan pour le mettre en pause."
+      },
+      {
+        "row": 20,
+        "rowsha": "x86LNWqP5+AJ2R1gTlXc5nF9+L8N26G8HzkxkTA5ojU=",
+        "originContent": "- Do not move or use your mouse during auto unless paused.",
+        "translatedContent": "- Ne déplacez pas et n'utilisez pas votre souris pendant l'auto sauf si c'est en pause."
+      },
+      {
+        "row": 21,
+        "rowsha": "JmlvUbk81sLHTqHiTP+N5tXW+v4Pp/FO4rGH9h6Mb+A=",
+        "originContent": "- Automated scanning will only work properly if this program is being run as admin",
+        "translatedContent": "- Le scan automatisé ne fonctionnera correctement que si ce programme est exécuté en tant qu'administrateur"
+      },
+      {
+        "row": 22,
+        "rowsha": "jWqiMp9rzuYCFahdr/CQxD4cgZ6n3Q0REN20bdMTP88=",
+        "originContent": "- Automated scanning will scroll through your entire artifact inventory, filtering is applied on export",
+        "translatedContent": "- Le scan automatisé fera défiler l'ensemble de votre inventaire d'artefacts, un filtrage est appliqué à l'exportation"
+      },
+      {
+        "row": 23,
+        "rowsha": "qXBMutp4PWNLPShxgqjiiwJWhfDfPcl+xY3yjfkc5m8=",
+        "originContent": "1. Follow the instructions under `How to prepare for scanning`",
+        "translatedContent": "1. Suivez les instructions sous `Comment se préparer au scan`"
+      },
+      {
+        "row": 24,
+        "rowsha": "IPQxczzVpNG1skqSG5TU8E8pyHT+gG+il5APZRF/hHI=",
+        "originContent": "2. Scroll your artifact list so the **stars** for the **top row** and the **white/beige label** for the **bottom row** are **both fully visible** with some margin. ![something like this](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/scroll-example.png?raw=true)",
+        "translatedContent": "2. Faites défiler votre liste d'artefacts de manière à ce que les **étoiles** de la **rangée du haut** et l'**étiquette blanche/beige** de la **rangée du bas** soient **toutes deux entièrement visibles** avec une marge. ![quelque chose comme ça](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/scroll-example.png?raw=true)"
+      },
+      {
+        "row": 25,
+        "rowsha": "/470Rbt8DBsUEEyD/5IObA9iyj5mzC2oKBCzXbseFjc=",
+        "originContent": "3. Press the `Start Auto` button",
+        "translatedContent": "3. Appuyez sur le bouton `Démarrer Auto`"
+      },
+      {
+        "row": 26,
+        "rowsha": "gyvEVUXCFsPJ4FYaOxFXIRt0+9k+ZUtzG61lnWnhpaU=",
+        "originContent": "    - During the scan, you can press the escape button on your keyboard to pause it",
+        "translatedContent": "    - Pendant le scan, vous pouvez appuyer sur la touche Échap de votre clavier pour le mettre en pause"
+      },
+      {
+        "row": 27,
+        "rowsha": "qHJsmr875KD1Z+gRGrhKL0tuJMEHbQBFMaKMDd1QZvE=",
+        "originContent": "    - `Resume` will make the scanner resume the scan",
+        "translatedContent": "    - `Reprendre` fera reprendre le scan par le scanner"
+      },
+      {
+        "row": 28,
+        "rowsha": "rO5AgmernZuGwoEBn59sRgwVAG2eSmcqE3zTAxzUbXk=",
+        "originContent": "    - `Stop after processing` will make the scanner stop scrolling through new artifacts immediately, but finish processing all scanned ones",
+        "translatedContent": "    - `Arrêter après traitement` fera arrêter le scanner de défiler dans les nouveaux artefacts immédiatement, mais finira de traiter tous les artefacts scannés"
+      },
+      {
+        "row": 29,
+        "rowsha": "upvm0ozAySKAd3XTZ5rp4b4t17LApfKudZ7IrVYQRC8=",
+        "originContent": "    - `Stop now` will make the scanner immediately exit automated scanning, not saving any scanner artifacts",
+        "translatedContent": "    - `Arrêter maintenant` fera quitter immédiatement le scan automatisé, sans enregistrer aucun artefact scanné"
+      },
+      {
+        "row": 30,
+        "rowsha": "VxSUyu7uEK1cCD++6Rao82B3jz52gM9nBKptxkqhXMA=",
+        "originContent": "4. The scanner will automatically stop once it thinks it's done scrolling through the artifact list or finds an artifact with identical stats to a previous one.",
+        "translatedContent": "4. Le scanner s'arrêtera automatiquement une fois qu'il pense avoir fini de défiler la liste d'artefacts ou trouver un artefact avec des statistiques identiques à un précédent."
+      },
+      {
+        "row": 31,
+        "rowsha": "w9j0EBHtc0vs6BfvIpEC5W0zOsS/Ecwx0Jz1m+15T+Q=",
+        "originContent": "   - If this happens too early (for example, due to two artifacts being identical), you can manually scroll to the next screen and press `Start Auto`. Results of the previous run is not automatically deleted.",
+        "translatedContent": "   - Si cela arrive trop tôt (par exemple, à cause de deux artefacts identiques), vous pouvez faire défiler manuellement vers l'écran suivant et appuyer sur `Démarrer Auto`. Les résultats de la session précédente ne sont pas supprimés automatiquement."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "eFX+ViHFf4yH8Z5S65pylmKCKR4ggxLbjU1og326xTA=",
+        "originContent": "### Exporting results",
+        "translatedContent": "### Exportation des résultats"
+      },
+      {
+        "row": 34,
+        "rowsha": "XBK9v9HcH8DxCsTzrpITr08eNzHS7qHLPyDXlqaaSFE=",
+        "originContent": "1. Scan artifacts using manual, automatic scanning or a combination of the two",
+        "translatedContent": "1. Scannez des artefacts en mode manuel, automatique ou une combinaison des deux"
+      },
+      {
+        "row": 35,
+        "rowsha": "MqFON4fe9oomGaCdvT/xjftDMXTn2LNO+WKwa60ye64=",
+        "originContent": "2. Configure the `Export Filters` section according to your wishes",
+        "translatedContent": "2. Configurez la section `Filtres d'export` selon vos souhaits"
+      },
+      {
+        "row": 36,
+        "rowsha": "eWD43pT2pZk9CZ+DolBHQx5+0KEkUlTTIp4BRFXtk2M=",
+        "originContent": "    - You can use a template file that everything except artifact details will be copied from. To do this, place a GOOD-format json in the `ScannerFiles` folder and rename it to `ExportTemplate.json`    ",
+        "translatedContent": "    - Vous pouvez utiliser un fichier modèle dont tout sauf les détails des artefacts sera copié. Pour cela, placez un json au format GOOD dans le dossier `ScannerFiles` et renommez-le en `ExportTemplate.json`    "
+      },
+      {
+        "row": 37,
+        "rowsha": "t5BTYMz2Q61GlUcfZwR4Z081ZyP6g7Alrn5jWtfkElA=",
+        "originContent": "    - If you wish, you can combine the artifacts of multiple GOOD-format jsons with the `Advanced` -> `Load Artifact File` button. There is no duplicate detection when doing this",
+        "translatedContent": "    - Si vous le souhaitez, vous pouvez combiner les artefacts de plusieurs jsons au format GOOD avec le bouton `Avancé` -> `Charger fichier d'artefact`. Il n'y a pas de détection de doublons dans ce cas"
+      },
+      {
+        "row": 38,
+        "rowsha": "Faz23yEm0uZASAzi/OehQfetaw7ywu2gARqhwUv1GSk=",
+        "originContent": "3. Press the `Export Results` button, your results will be placed in a timestamped file in the `ScannerFiles` folder",
+        "translatedContent": "3. Appuyez sur le bouton `Exporter les résultats`, vos résultats seront placés dans un fichier horodaté dans le dossier `ScannerFiles`"
+      },
+      {
+        "row": 39,
+        "rowsha": "xb+JcP+ct4kDHMM0tMyRrx+O4vPGA74sXEI5Bt8ohcU=",
+        "originContent": "    - You can change your export filters and press the export button more than once if you so wish, each export will appear as a separate file",
+        "translatedContent": "    - Vous pouvez modifier vos filtres d'export et appuyer plusieurs fois sur le bouton d'export si vous le souhaitez, chaque export apparaîtra comme un fichier distinct"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## Special information when not running as admin or without Process handle features\n<details>\n  <summary> Click to expand</summary>\n  \n### Under these conditions, the following extra requirements apply\n- Fullscreen-mode genshin is not supported\n- The capture process cannot automatically switch focus to the game, as such the game window must not be covered during the capture process or any other feature that scans the game window\n- To capture the game, it must be on your primary monitor, cover the middle of said screen , and have a visible white window header (can be \"faked\" using notepad or similar)\n- Example image of meeting these conditions on a 1080p monitor \n![Example window position for 1080p monitor](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/1080p-example.png?raw=true)\n\n</details>\n\n## How to contact\n- Create an issue or pull request on this repo\n- I haven't created a discord, as I have no idea how much interest there will be. If one is needed in the future I'll create one\n- I'm in the community-created [Genshin Dev Discord](https://discord.gg/CnmeBYSHaC), same username as on here\n- I'm also in the [Genshin Optimizer Discord](https://discord.com/invite/CXUbQXyfUs). Feel free to @ me for smaller issues, but for longer things it's better to stick to the Genshin Dev discord or DMing me\n\n## Acknowledgements\n- Character importing relies on the API [Enka.Network](https://enka.network/)\n- Some functions used are heavily based on code from [WFInfo](https://github.com/WFCD/WFinfo), an OCR-based companion program for Warframe\n- The tesseract model used was trained and provided by the creator of [this similar program](https://github.com/Andrewthe13th/Genshin_Scanner)\n- The main purpose of this scanner is to more easily import your artifacts into [Genshin Optimizer](https://frzyc.github.io/genshin-optimizer/), but it should be compatible with any other program that uses the GOOD format\n",
+    "ContentSha": "wyO5XydD27rxKrCiiv8XIWPho21/HKKzeCgSZpdUZ6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Informations spéciales lorsque vous ne lancez pas en tant qu’administrateur ou sans les fonctionnalités de gestion de processus  \n<details>  \n  <summary> Cliquez pour développer</summary>  \n  \n### Dans ces conditions, les exigences supplémentaires suivantes s’appliquent  \n- Le mode plein écran de Genshin n’est pas pris en charge  \n- Le processus de capture ne peut pas automatiquement basculer le focus vers le jeu, ainsi la fenêtre du jeu ne doit pas être couverte pendant le processus de capture ou toute autre fonction qui analyse la fenêtre du jeu  \n- Pour capturer le jeu, il doit être sur votre écran principal, couvrir le milieu de cet écran, et avoir un en-tête de fenêtre blanc visible (cela peut être « simulé » en utilisant le bloc-notes ou un programme similaire)  \n- Exemple d’image respectant ces conditions sur un écran 1080p  \n![Exemple de position de fenêtre pour écran 1080p](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/1080p-example.png?raw=true)  \n  \n</details>  \n  \n## Comment contacter  \n- Créez un problème (issue) ou une demande de fusion (pull request) sur ce dépôt  \n- Je n’ai pas créé de Discord, car je ne sais pas encore quel intérêt cela suscitera. Si cela devient nécessaire à l’avenir, j’en créerai un  \n- Je suis dans le Discord communautaire [Genshin Dev Discord](https://discord.gg/CnmeBYSHaC), même nom d’utilisateur qu’ici  \n- Je suis aussi dans le [Genshin Optimizer Discord](https://discord.com/invite/CXUbQXyfUs). N’hésitez pas à me mentionner pour des petits problèmes, mais pour des sujets plus longs, il vaut mieux utiliser le Discord Genshin Dev ou m’envoyer un message privé  \n  \n## Remerciements  \n- L’importation des personnages repose sur l’API [Enka.Network](https://enka.network/)  \n- Certaines fonctions utilisées sont fortement basées sur le code de [WFInfo](https://github.com/WFCD/WFinfo), un programme compagnon OCR pour Warframe  \n- Le modèle tesseract utilisé a été entraîné et fourni par le créateur de [ce programme similaire](https://github.com/Andrewthe13th/Genshin_Scanner)  \n- Le but principal de ce scanner est de faciliter l’importation de vos artefacts dans [Genshin Optimizer](https://frzyc.github.io/genshin-optimizer/), mais il devrait être compatible avec tout autre programme utilisant le format GOOD\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uPPo4lnquMh+wUl9ujiFinRv95AB9F9RxKe9sNQ5AsY=",
+        "originContent": "## Special information when not running as admin or without Process handle features",
+        "translatedContent": "## Informations spéciales lorsque vous ne lancez pas en tant qu’administrateur ou sans les fonctionnalités de gestion de processus  "
+      },
+      {
+        "row": 2,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>  "
+      },
+      {
+        "row": 3,
+        "rowsha": "L84jRw/NI/FGwhm+Tj9B4E9o8waJhZ0uCkCud3PrkFA=",
+        "originContent": "  <summary> Click to expand</summary>",
+        "translatedContent": "  <summary> Cliquez pour développer</summary>  "
+      },
+      {
+        "row": 4,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 5,
+        "rowsha": "KRurjdMjFpbu+iJdhtNGnsa06CCg1i5LjOdGd9Ybiks=",
+        "originContent": "### Under these conditions, the following extra requirements apply",
+        "translatedContent": "### Dans ces conditions, les exigences supplémentaires suivantes s’appliquent  "
+      },
+      {
+        "row": 6,
+        "rowsha": "vXtIWc5q+Ml4Fa/UqNy2mzsvkLcjR2heo8g5reM/88c=",
+        "originContent": "- Fullscreen-mode genshin is not supported",
+        "translatedContent": "- Le mode plein écran de Genshin n’est pas pris en charge  "
+      },
+      {
+        "row": 7,
+        "rowsha": "L2rrwtIk3zNWHUXt6bBkgHNRLiMmZrO3L3XdsQUTRKk=",
+        "originContent": "- The capture process cannot automatically switch focus to the game, as such the game window must not be covered during the capture process or any other feature that scans the game window",
+        "translatedContent": "- Le processus de capture ne peut pas automatiquement basculer le focus vers le jeu, ainsi la fenêtre du jeu ne doit pas être couverte pendant le processus de capture ou toute autre fonction qui analyse la fenêtre du jeu  "
+      },
+      {
+        "row": 8,
+        "rowsha": "liNA7ONd9So20RFMMtua4LR9rHwpqnYD8pgAuuJoh3s=",
+        "originContent": "- To capture the game, it must be on your primary monitor, cover the middle of said screen , and have a visible white window header (can be \"faked\" using notepad or similar)",
+        "translatedContent": "- Pour capturer le jeu, il doit être sur votre écran principal, couvrir le milieu de cet écran, et avoir un en-tête de fenêtre blanc visible (cela peut être « simulé » en utilisant le bloc-notes ou un programme similaire)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "OiqmCxYM2PeWblF3iMLSf0tPKBpu7bwW/j6GBD+2b2Y=",
+        "originContent": "- Example image of meeting these conditions on a 1080p monitor ",
+        "translatedContent": "- Exemple d’image respectant ces conditions sur un écran 1080p  "
+      },
+      {
+        "row": 10,
+        "rowsha": "ctHgx7DqwHQaaBK10jHam7Y38dzNnDi+DM7naHSwtsc=",
+        "originContent": "![Example window position for 1080p monitor](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/1080p-example.png?raw=true)",
+        "translatedContent": "![Exemple de position de fenêtre pour écran 1080p](https://github.com/D1firehail/AdeptiScanner-GI/blob/master/1080p-example.png?raw=true)  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  "
+      },
+      {
+        "row": 12,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  "
+      },
+      {
+        "row": 14,
+        "rowsha": "/0u1auFjoVBKnUL5fl4OGR7zVls9xt0FJozgNitAjWA=",
+        "originContent": "## How to contact",
+        "translatedContent": "## Comment contacter  "
+      },
+      {
+        "row": 15,
+        "rowsha": "KXEo0Wz5xeR4c0PZkLZ660nGtkTtTNxv3jYrohwUyfA=",
+        "originContent": "- Create an issue or pull request on this repo",
+        "translatedContent": "- Créez un problème (issue) ou une demande de fusion (pull request) sur ce dépôt  "
+      },
+      {
+        "row": 16,
+        "rowsha": "6N5eCqwp5824p+anbqbhg4KE+dhupouXPDyb61EFHbA=",
+        "originContent": "- I haven't created a discord, as I have no idea how much interest there will be. If one is needed in the future I'll create one",
+        "translatedContent": "- Je n’ai pas créé de Discord, car je ne sais pas encore quel intérêt cela suscitera. Si cela devient nécessaire à l’avenir, j’en créerai un  "
+      },
+      {
+        "row": 17,
+        "rowsha": "/Wb1+E/A+kxYRV0Pg2wfIU/ENeqzl+AlyPiwBtpB3FI=",
+        "originContent": "- I'm in the community-created [Genshin Dev Discord](https://discord.gg/CnmeBYSHaC), same username as on here",
+        "translatedContent": "- Je suis dans le Discord communautaire [Genshin Dev Discord](https://discord.gg/CnmeBYSHaC), même nom d’utilisateur qu’ici  "
+      },
+      {
+        "row": 18,
+        "rowsha": "PXb1uiNL3znyMvR34plcY0TDb4mbj/C8u3phM2mlg9Q=",
+        "originContent": "- I'm also in the [Genshin Optimizer Discord](https://discord.com/invite/CXUbQXyfUs). Feel free to @ me for smaller issues, but for longer things it's better to stick to the Genshin Dev discord or DMing me",
+        "translatedContent": "- Je suis aussi dans le [Genshin Optimizer Discord](https://discord.com/invite/CXUbQXyfUs). N’hésitez pas à me mentionner pour des petits problèmes, mais pour des sujets plus longs, il vaut mieux utiliser le Discord Genshin Dev ou m’envoyer un message privé  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "## Remerciements  "
+      },
+      {
+        "row": 21,
+        "rowsha": "M3zPlvEQdr06D9yC4SOKoReceiguHdsXIA0vhYgDos4=",
+        "originContent": "- Character importing relies on the API [Enka.Network](https://enka.network/)",
+        "translatedContent": "- L’importation des personnages repose sur l’API [Enka.Network](https://enka.network/)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "7Zqu11XXyWIiD/OJ24f3UKjRORVmO+f5K2Cc0CBshQ0=",
+        "originContent": "- Some functions used are heavily based on code from [WFInfo](https://github.com/WFCD/WFinfo), an OCR-based companion program for Warframe",
+        "translatedContent": "- Certaines fonctions utilisées sont fortement basées sur le code de [WFInfo](https://github.com/WFCD/WFinfo), un programme compagnon OCR pour Warframe  "
+      },
+      {
+        "row": 23,
+        "rowsha": "svFzso9ssbCfjFJnPP8o8fjeu9JYhGv66rKbNAWc1Zg=",
+        "originContent": "- The tesseract model used was trained and provided by the creator of [this similar program](https://github.com/Andrewthe13th/Genshin_Scanner)",
+        "translatedContent": "- Le modèle tesseract utilisé a été entraîné et fourni par le créateur de [ce programme similaire](https://github.com/Andrewthe13th/Genshin_Scanner)  "
+      },
+      {
+        "row": 24,
+        "rowsha": "fq4c1HpneXHOdfrfKabgwoI/9NaQ0Pq4T05uiPqCmqA=",
+        "originContent": "- The main purpose of this scanner is to more easily import your artifacts into [Genshin Optimizer](https://frzyc.github.io/genshin-optimizer/), but it should be compatible with any other program that uses the GOOD format",
+        "translatedContent": "- Le but principal de ce scanner est de faciliter l’importation de vos artefacts dans [Genshin Optimizer](https://frzyc.github.io/genshin-optimizer/), mais il devrait être compatible avec tout autre programme utilisant le format GOOD"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
