@@ -40,7 +40,7 @@ ASMRoner, Go diliyle yazılmış, asmr.one sesli eserlerini aramak, indirmek, se
 ## 🚀 Hızlı Başlangıç
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,6 +67,12 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
@@ -78,26 +84,28 @@ go build -o asmroner
 | ![Ayarlar](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Arama](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
 | **İndir** | **Senkronize Et** |
 | ![İndir](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Senkronize Et](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **Senkronize İndir** | **İstatistik** |
-| ![Senkronize İndir](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![İstatistik](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **Senkronize İndirme** | **İstatistik** |
+| ![Senkronize İndirme](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![İstatistik](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **Web Arayüzü** | **Web Arayüzü 2** |
 | ![Web Arayüzü](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Web Arayüzü 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **export Arayüzü** | **export Arayüzü 2** |
+| ![export Arayüzü](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![export Arayüzü 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
 <summary><b>✨ Özellikler</b></summary>
 
-- **Arama**: Tekli/çoklu RJID, gelişmiş arama sözdizimi, CSV/JSON çıktı
-- **İndirme**: Tekli/çoklu/popüler içerik indirme, otomatik hız limiti, tekrar deneme, üstel geri çekilme
-- **Senkronizasyon**: Meta veri eşitleme, toplu indirme kontrolü, durum takibi, başarısızlıkta tekrar deneme
-- **Web Arayüzü**: Görsel gezinme, tarayıcıda oynatma, duyarlı tasarım
-- **Ayarlar**: Etkileşimli başlatma, proxy, hız limiti, jitter gibi gelişmiş ayarlar desteği
+- **Arama**: Tekli/Toplu RJID, gelişmiş arama sözdizimi, sonuçları CSV/JSON olarak dışa aktarma
+- **İndirme**: Tekli/Toplu/Popüler eserleri indirme, otomatik hız sınırlama, tekrar deneme, üstel geri çekilme
+- **Senkronizasyon**: Meta veri senkronizasyonu, toplu indirme kontrolü, durum takibi, başarısızlıkta tekrar deneme
+- **Web Arayüzü**: Görsel tarama, tarayıcıda oynatma, duyarlı tasarım
+- **Ayarlar**: Etkileşimli başlatma, proxy desteği, hız sınırlama, jitter gibi gelişmiş ayarlar
 
 </details>
 
 <details>
-<summary><b>⚙️ Yapılandırma Dosyası Açıklaması</b></summary>
+<summary><b>⚙️ Konfigürasyon Dosyası Açıklaması</b></summary>
 
-Yapılandırma dosyası yolu: `~/.asmroner/config.toml` (TOML formatı)
+Konfigürasyon dosyası yolu: `~/.asmroner/config.toml` (TOML formatında)
 
 ```toml
 [user]
@@ -131,12 +139,13 @@ download_jitter_max = 5000
 |-------|---------|----------|
 | `search` | `-c` | Arama sonucu sayısı (varsayılan 10) |
 | `search download` | `-d`, `-s` | İndirme dizini, indirme sayısı |
-| `search export` | `-f`, `-n` | Dışa aktarma dosya adı (.csv/.json), dışa aktarma sayısı |
+| `search export` | `-f`, `-n` | Dışa aktarılan dosya adı (.csv/.json), dışa aktarılan sayısı |
 | `download` | `-d`, `-n` | İndirme dizini, hot100 sayısı |
 | `sync download` | `-d` | İndirme dizini |
-| `sync retry` | `-d` | Başarısız dosyaların bulunduğu dizin |
-| `sync export` | `-s`, `-f` | Durum (failed/success), dışa aktarma dosyası |
+| `sync retry` | `-d` | Hatalı dosyaların dizini |
+| `sync export` | `-s`, `-f` | Durum (failed/success), dışa aktarılan dosya |
 | `listen` | `-p` | Port (varsayılan 9999) |
+| `export` | `-o`, `-n` | Dışa aktarma dizini, hot100 sayısı |
 
 </details>
 
@@ -162,54 +171,56 @@ asmroner/
 <details>
 <summary><b>🛠 Teknoloji Yığını</b></summary>
 
-| Bileşen | Kullanım Amacı |
+| Bileşen | Amaç |
 |------|------|
-| Cobra + Viper | CLI Çerçevesi + Konfigürasyon Yönetimi |
-| GORM + SQLite | Veri Kalıcılığı |
-| Resty | HTTP İstemcisi (HTTP/SOCKS5 proxy desteği) |
-| Pond | Eşzamanlı İş Havuzu |
-| x/time/rate | Jeton Kovası Sınırlaması |
-| Gin | Web Servisi |
-| Tailwind + Plyr | Ön Yüz Arayüzü + Ses Oynatıcı |
+| Cobra + Viper | CLI çerçevesi + yapılandırma yönetimi |
+| GORM + SQLite | Veri kalıcılığı |
+| Resty | HTTP istemcisi (HTTP/SOCKS5 proxy desteği) |
+| Pond | Eşzamanlı iş havuzu |
+| x/time/rate | Jeton kovası hız sınırlaması |
+| Gin | Web servisi |
+| Tailwind + Plyr | Ön uç arayüzü + ses oynatma |
 
 </details>
 
 <details>
-<summary><b>🔧 Sıkça Sorulan Sorular</b></summary>
+<summary><b>🔧 Sık Sorulan Sorular</b></summary>
 
 **Yapılandırma dosyası bulunamadı** → `./asmroner config` komutunu çalıştırarak başlatın
 
-**İndirme başarısız (stream error)** → Program otomatik olarak tekrar deneyecek; hala başarısız olursa, `sync retry` ile tekrar deneyin veya `.asmroner-data/download_errors.log` dosyasını kontrol edin
+**İndirme başarısız (stream error)** → Program otomatik olarak tekrar deneyecektir; yine başarısız olursa, `sync retry` ile tekrar deneyin veya `.asmroner-data/download_errors.log` dosyasını kontrol edin
 
-**Web arayüzüne erişilemiyor** → Portun kullanımda olmadığından emin olun, gerekirse `-p` ile farklı bir port belirtin
+**Web arayüzüne erişilemiyor** → Portun kullanımda olmadığından emin olun, başka bir port belirtmek için `-p` kullanın
 
-**Arama sonucu boş** → Sorgu sözdizimini kontrol edin, koşulları basitleştirmeyi deneyin
+**Arama sonucu boş** → Sorgu sözdizimini kontrol edin, şartları basitleştirmeyi deneyin
+
+**export komutuna uygun indirme yöntemi** → [guide](/dist/guide.pdf) belgesine bakın
 
 </details>
 
 ## 🤝 Katkı
 
-Pull Request göndermekten çekinmeyin! Fork → Yeni dal oluştur → Değişiklikleri gönder → PR aç.
+Pull Request göndermeye hoş geldiniz! Forkla → Yeni dal oluştur → Değişiklikleri gönder → PR başlat.
 
 ## 📄 Lisans
 
 Bu proje MIT lisansı ile lisanslanmıştır, ayrıntılar için [LICENSE](/LICENSE) dosyasına bakınız.
 
-## 🙏 Teşekkürler
 
+## 🙏 致谢
 
-- Özellikle [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider) projesine çok teşekkürler
-- Tüm katkıda bulunanlara ve kullanıcılara teşekkürler!
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — Her gece farklı bir kız kardeşle uykuya dal :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*Son güncelleme: Şubat 2026*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

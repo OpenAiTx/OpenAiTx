@@ -40,7 +40,7 @@ ASMRoner é uma ferramenta de linha de comando em Go para pesquisar, baixar, sin
 ## 🚀 Início Rápido
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,6 +67,12 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
@@ -76,21 +82,23 @@ go build -o asmroner
 | Configuração | Pesquisa |
 |:---:|:---:|
 | ![Configuração](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Pesquisa](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
-| **Download** | **Sincronizar** |
-| ![Download](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Sincronizar](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **Sincronizar Download** | **Estatísticas** |
-| ![Sincronizar Download](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Estatísticas](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **Download** | **Sincronização** |
+| ![Download](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Sincronização](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
+| **Download Sincronizado** | **Estatísticas** |
+| ![Download Sincronizado](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Estatísticas](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **Interface Web** | **Interface Web 2** |
 | ![Interface Web](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Interface Web 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Interface exportar** | **Interface exportar 2** |
+| ![Interface exportar](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![Interface exportar 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
 <summary><b>✨ Funcionalidades</b></summary>
 
-- **Pesquisa**: Pesquisa única/em lote por RJID, sintaxe avançada, exportação de resultados CSV/JSON
-- **Download**: Download único/em lote/de obras populares, limitação automática, retentativas, backoff exponencial
-- **Sincronizar**: Sincronização de metadados, controle de download em lote, rastreamento de status, retentativa de falhas
+- **Pesquisa**: Pesquisa única/em lote por RJID, sintaxe de pesquisa avançada, exportação de resultados em CSV/JSON
+- **Download**: Download único/em lote/dos mais populares, limitação automática, tentativas automáticas, recuo exponencial
+- **Sincronização**: Sincronização de metadados, controle de download em lote, rastreamento de status, tentativas automáticas de falha
 - **Interface Web**: Navegação visual, reprodução no navegador, design responsivo
-- **Configuração**: Inicialização interativa, suporte a proxy, limitação de taxa, jitter e configurações avançadas
+- **Configuração**: Inicialização interativa, suporte a proxy, limitação, jitter e outras configurações avançadas
 
 </details>
 
@@ -124,23 +132,24 @@ download_jitter_max = 5000
 </details>
 
 <details>
-<summary><b>📋 Referência Rápida de Opções de Comando</b></summary>
+<summary><b>📋 Consulta rápida de opções de comando</b></summary>
 
 | Comando | Opção | Descrição |
 |---------|-------|-----------|
-| `search` | `-c` | Quantidade de resultados da busca (padrão 10) |
+| `search` | `-c` | Quantidade de resultados da pesquisa (padrão 10) |
 | `search download` | `-d`, `-s` | Diretório de download, quantidade de downloads |
-| `search export` | `-f`, `-n` | Nome do arquivo exportado (.csv/.json), quantidade de exportação |
+| `search export` | `-f`, `-n` | Nome do arquivo exportado (.csv/.json), quantidade exportada |
 | `download` | `-d`, `-n` | Diretório de download, quantidade hot100 |
 | `sync download` | `-d` | Diretório de download |
 | `sync retry` | `-d` | Diretório dos arquivos com falha |
-| `sync export` | `-s`, `-f` | Status (failed/success), arquivo de exportação |
+| `sync export` | `-s`, `-f` | Status (failed/success), arquivo exportado |
 | `listen` | `-p` | Porta (padrão 9999) |
+| `export` | `-o`, `-n` | Diretório exportado, quantidade hot100 |
 
 </details>
 
 <details>
-<summary><b>📁 Estrutura do Projeto</b></summary>
+<summary><b>📁 Estrutura do projeto</b></summary>
 
 
 ```
@@ -162,15 +171,15 @@ asmroner/
 <details>
 <summary><b>🛠 Stack Tecnológico</b></summary>
 
-| Componente | Finalidade |
+| Componente | Uso |
 |------|------|
 | Cobra + Viper | Framework CLI + Gerenciamento de Configuração |
-| GORM + SQLite | Persistência de dados |
+| GORM + SQLite | Persistência de Dados |
 | Resty | Cliente HTTP (suporta proxy HTTP/SOCKS5) |
-| Pond | Pool de trabalho concorrente |
-| x/time/rate | Limite de taxa com token bucket |
+| Pond | Pool de Trabalho Concorrente |
+| x/time/rate | Limitação de taxa por token bucket |
 | Gin | Serviço Web |
-| Tailwind + Plyr | Interface frontend + Reprodução de áudio |
+| Tailwind + Plyr | Interface Front-end + Reprodução de Áudio |
 
 </details>
 
@@ -179,37 +188,39 @@ asmroner/
 
 **Arquivo de configuração não encontrado** → Execute `./asmroner config` para inicializar
 
-**Falha ao baixar (stream error)** → O programa irá tentar novamente automaticamente; se ainda falhar, use `sync retry` para tentar novamente, ou verifique `.asmroner-data/download_errors.log`
+**Falha no download (stream error)** → O programa tentará novamente automaticamente; se ainda falhar, use `sync retry` ou verifique `.asmroner-data/download_errors.log`
 
-**Interface Web inacessível** → Verifique se a porta está livre, tente especificar outra porta com `-p`
+**Interface web inacessível** → Certifique-se de que a porta não está em uso, tente especificar outra porta com `-p`
 
-**Resultados de busca vazios** → Verifique a sintaxe da consulta, tente simplificar as condições
+**Resultados de busca vazios** → Verifique a sintaxe da consulta e tente simplificar as condições
+
+**Método de download para o comando export** → Consulte o [guia](/dist/guide.pdf) 
 
 </details>
 
 ## 🤝 Contribuição
 
-Pull Requests são bem-vindos! Fork → Nova branch → Submeter alterações → Abrir PR.
+Pull Requests são bem-vindos! Faça um fork → crie um novo branch → envie alterações → abra um PR.
 
 ## 📄 Licença
 
-Este projeto utiliza a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](/LICENSE).
+Este projeto adota a licença MIT, veja mais detalhes no arquivo [LICENSE](/LICENSE).
+
 
 ## 🙏 Agradecimentos
 
-
-- Agradecimentos especiais ao [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- Agradecimento especial ao [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
 - Obrigado a todos os colaboradores e usuários!
 
 ---
 
-**ASMRoner** — Toda noite uma irmã diferente para te acompanhar até o sono :)
+**ASMRoner** — Toda noite uma menina diferente para te acompanhar até o sono :)
 
 *Última atualização: fevereiro de 2026*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

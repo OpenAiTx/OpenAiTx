@@ -40,7 +40,7 @@ ASMRoner ist ein Kommandozeilen-Tool in Go, mit dem Sie asmr.one-Audios suchen, 
 ## 🚀 Schnellstart
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,6 +67,12 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
@@ -82,22 +88,24 @@ go build -o asmroner
 | ![Synchronisierter Download](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statistik](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **Web-Oberfläche** | **Web-Oberfläche 2** |
 | ![Web-Oberfläche](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Web-Oberfläche 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Export-Oberfläche** | **Export-Oberfläche 2** |
+| ![Export-Oberfläche](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![Export-Oberfläche 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
 <summary><b>✨ Funktionsmerkmale</b></summary>
 
-- **Suche**: Einzel-/Batch-RJID, erweiterte Suchsyntax, Export von Ergebnissen als CSV/JSON
-- **Download**: Einzel-/Batch-/Top-Downloads, automatische Drosselung, Wiederholungen, exponentielles Backoff
-- **Synchronisieren**: Metadaten-Sync, Batch-Download-Kontrolle, Status-Tracking, Fehlerwiederholung
+- **Suche**: Einzelne/mehrere RJIDs, erweiterte Suchsyntax, Export von Ergebnissen als CSV/JSON
+- **Download**: Einzel-/Massen-/Trend-Download, automatische Drosselung, Wiederholung, exponentielles Backoff
+- **Synchronisation**: Metadaten-Synchronisation, Steuerung des Massen-Downloads, Statusverfolgung, Wiederholung bei Fehlern
 - **Web-Oberfläche**: Visuelle Ansicht, Wiedergabe im Browser, responsives Design
-- **Konfiguration**: Interaktive Initialisierung, Unterstützung für Proxy, Drosselung, Jitter und weitere erweiterte Optionen
+- **Konfiguration**: Interaktive Initialisierung, Unterstützung für Proxy, Drosselung, Jitter und weitere erweiterte Einstellungen
 
 </details>
 
 <details>
 <summary><b>⚙️ Konfigurationsdatei-Erklärung</b></summary>
 
-Pfad der Konfigurationsdatei: `~/.asmroner/config.toml` (TOML-Format)
+Pfad zur Konfigurationsdatei: `~/.asmroner/config.toml` (TOML-Format)
 
 ```toml
 [user]
@@ -125,18 +133,19 @@ download_jitter_max = 5000
 </details>
 
 <details>
-<summary><b>📋 Befehlsoptionen Schnellreferenz</b></summary>
+<summary><b>📋 Befehlsoptionen Schnellübersicht</b></summary>
 
 | Befehl | Option | Beschreibung |
 |--------|--------|--------------|
 | `search` | `-c` | Anzahl der Suchergebnisse (Standard 10) |
-| `search download` | `-d`, `-s` | Download-Verzeichnis, Anzahl der Downloads |
-| `search export` | `-f`, `-n` | Exportdateiname (.csv/.json), Anzahl der Exporte |
-| `download` | `-d`, `-n` | Download-Verzeichnis, hot100 Anzahl |
+| `search download` | `-d`, `-s` | Download-Verzeichnis, Download-Anzahl |
+| `search export` | `-f`, `-n` | Exportdateiname (.csv/.json), Exportanzahl |
+| `download` | `-d`, `-n` | Download-Verzeichnis, hot100-Anzahl |
 | `sync download` | `-d` | Download-Verzeichnis |
 | `sync retry` | `-d` | Verzeichnis der fehlgeschlagenen Dateien |
 | `sync export` | `-s`, `-f` | Status (failed/success), Exportdatei |
 | `listen` | `-p` | Port (Standard 9999) |
+| `export` | `-o`, `-n` | Exportverzeichnis, hot100-Anzahl |
 
 </details>
 
@@ -167,49 +176,51 @@ asmroner/
 |------|------|
 | Cobra + Viper | CLI-Framework + Konfigurationsmanagement |
 | GORM + SQLite | Datenpersistenz |
-| Resty | HTTP-Client (unterstützt HTTP/SOCKS5 Proxy) |
-| Pond | Parallel-Arbeits-Pool |
+| Resty | HTTP-Client (unterstützt HTTP/SOCKS5-Proxy) |
+| Pond | Nebenläufiger Arbeits-Pool |
 | x/time/rate | Token-Bucket-Rate-Limiting |
-| Gin | Webdienst |
-| Tailwind + Plyr | Frontend-Interface + Audiowiedergabe |
+| Gin | Web-Service |
+| Tailwind + Plyr | Frontend-Oberfläche + Audiowiedergabe |
 
 </details>
 
 <details>
 <summary><b>🔧 Häufige Fragen</b></summary>
 
-**Konfigurationsdatei nicht gefunden** → Führen Sie `./asmroner config` zur Initialisierung aus
+**Konfigurationsdatei nicht gefunden** → Führe `./asmroner config` zur Initialisierung aus
 
-**Download fehlgeschlagen (stream error)** → Das Programm versucht es automatisch erneut; falls weiterhin Fehler, nutzen Sie `sync retry` oder prüfen Sie `.asmroner-data/download_errors.log`
+**Download fehlgeschlagen (stream error)** → Das Programm versucht es automatisch erneut; falls weiterhin fehlgeschlagen, verwende `sync retry` oder prüfe `.asmroner-data/download_errors.log`
 
-**Web-Oberfläche nicht erreichbar** → Prüfen Sie, ob der Port frei ist, versuchen Sie `-p`, um einen anderen Port anzugeben
+**Web-Oberfläche nicht erreichbar** → Stelle sicher, dass der Port frei ist, versuche anderen Port mit `-p` anzugeben
 
-**Keine Suchergebnisse** → Überprüfen Sie die Suchsyntax, versuchen Sie die Bedingungen zu vereinfachen
+**Leere Suchergebnisse** → Überprüfe die Suchsyntax, vereinfache ggf. die Bedingungen
+
+**Export-Befehl und zugehörige Downloadmethoden** → Siehe [guide](/dist/guide.pdf) 
 
 </details>
 
 ## 🤝 Beitrag
 
-Pull Requests sind willkommen! Fork → Neuen Branch erstellen → Änderungen committen → PR eröffnen.
+Pull Requests sind willkommen! Fork → neuen Branch erstellen → Änderungen commiten → PR eröffnen.
 
 ## 📄 Lizenz
 
-Dieses Projekt verwendet die MIT-Lizenz, Details finden Sie in der Datei [LICENSE](/LICENSE).
+Dieses Projekt steht unter der MIT-Lizenz. Details siehe [LICENSE](/LICENSE) Datei.
 
-## 🙏 Danksagung
+## 🙏 致谢
 
-- Besonderer Dank an [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- Danke an alle Mitwirkenden und Nutzer!
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — Jeden Abend begleitet dich eine andere Schwester in den Schlaf :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*Letzte Aktualisierung: Februar 2026*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

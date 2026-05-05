@@ -40,7 +40,7 @@ ASMRoner adalah alat baris perintah berbasis Go untuk mencari, mengunduh, menyin
 ## 🚀 Mulai Cepat
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,6 +67,12 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
@@ -78,26 +84,28 @@ go build -o asmroner
 | ![Pengaturan](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Pencarian](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
 | **Unduh** | **Sinkronisasi** |
 | ![Unduh](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Sinkronisasi](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **Unduh Sinkronisasi** | **Statistik** |
-| ![Unduh Sinkronisasi](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statistik](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **Sinkronisasi & Unduh** | **Statistik** |
+| ![Sinkronisasi & Unduh](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statistik](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **Antarmuka Web** | **Antarmuka Web 2** |
 | ![Antarmuka Web](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Antarmuka Web 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Antarmuka export** | **Antarmuka export 2** |
+| ![Antarmuka export](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![Antarmuka export 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
-<summary><b>✨ Fitur Utama</b></summary>
+<summary><b>✨ Fitur dan Keunggulan</b></summary>
 
 - **Pencarian**: RJID tunggal/massal, sintaks pencarian lanjutan, ekspor hasil ke CSV/JSON
-- **Unduhan**: Unduhan tunggal/massal/karya populer, pembatasan otomatis, percobaan ulang, backoff eksponensial
-- **Sinkronisasi**: Sinkronisasi metadata, kontrol unduhan massal, pelacakan status, percobaan ulang gagal
-- **Antarmuka Web**: Penjelajahan visual, pemutaran di dalam browser, desain responsif
-- **Pengaturan**: Inisialisasi interaktif, dukungan proxy, pembatasan, jitter, dan pengaturan lanjutan lainnya
+- **Unduh**: Unduh karya tunggal/massal/populer, pembatasan otomatis, coba ulang, eksponensial backoff
+- **Sinkronisasi**: Sinkronisasi metadata, kontrol unduhan massal, pelacakan status, coba ulang jika gagal
+- **Antarmuka Web**: Penjelajahan visual, pemutaran dalam browser, desain responsif
+- **Pengaturan**: Inisialisasi interaktif, mendukung proxy, pembatasan, jitter, dan konfigurasi lanjutan lainnya
 
 </details>
 
 <details>
-<summary><b>⚙️ Penjelasan File Konfigurasi</b></summary>
+<summary><b>⚙️ Penjelasan Berkas Konfigurasi</b></summary>
 
-Path file konfigurasi: `~/.asmroner/config.toml` (format TOML)
+Lokasi berkas konfigurasi: `~/.asmroner/config.toml` (format TOML)
 
 ```toml
 [user]
@@ -121,27 +129,28 @@ download_qps = 0.2
 download_jitter_min = 2000
 download_jitter_max = 5000
 ```
-
 </details>
 
 <details>
-<summary><b>📋 Ringkasan Opsi Perintah</b></summary>
+<summary><b>📋 Tinjauan Cepat Opsi Perintah</b></summary>
 
 | Perintah | Opsi | Keterangan |
-|----------|------|-----------|
+|------|------|------|
 | `search` | `-c` | Jumlah hasil pencarian (default 10) |
-| `search download` | `-d`, `-s` | Direktori unduhan, jumlah unduhan |
+| `search download` | `-d`, `-s` | Direktori unduh, jumlah unduhan |
 | `search export` | `-f`, `-n` | Nama file ekspor (.csv/.json), jumlah ekspor |
-| `download` | `-d`, `-n` | Direktori unduhan, jumlah hot100 |
-| `sync download` | `-d` | Direktori unduhan |
+| `download` | `-d`, `-n` | Direktori unduh, jumlah hot100 |
+| `sync download` | `-d` | Direktori unduh |
 | `sync retry` | `-d` | Direktori file gagal |
 | `sync export` | `-s`, `-f` | Status (failed/success), file ekspor |
 | `listen` | `-p` | Port (default 9999) |
+| `export` | `-o`, `-n` | Direktori ekspor, jumlah hot100 |
 
 </details>
 
 <details>
 <summary><b>📁 Struktur Proyek</b></summary>
+
 
 ```
 asmroner/
@@ -164,7 +173,7 @@ asmroner/
 
 | Komponen | Kegunaan |
 |------|------|
-| Cobra + Viper | Kerangka CLI + Manajemen Konfigurasi |
+| Cobra + Viper | Framework CLI + Manajemen Konfigurasi |
 | GORM + SQLite | Persistensi Data |
 | Resty | Klien HTTP (mendukung proxy HTTP/SOCKS5) |
 | Pond | Pool Pekerja Konkuren |
@@ -175,41 +184,43 @@ asmroner/
 </details>
 
 <details>
-<summary><b>🔧 FAQ</b></summary>
+<summary><b>🔧 Masalah Umum</b></summary>
 
 **File konfigurasi tidak ditemukan** → Jalankan `./asmroner config` untuk inisialisasi
 
-**Gagal mengunduh (stream error)** → Program akan mencoba ulang secara otomatis; jika masih gagal, gunakan `sync retry` untuk mencoba lagi, atau cek `.asmroner-data/download_errors.log`
+**Gagal mengunduh (stream error)** → Program akan mencoba ulang otomatis; jika masih gagal, gunakan `sync retry` untuk mencoba ulang, atau cek `.asmroner-data/download_errors.log`
 
-**Antarmuka web tidak dapat diakses** → Pastikan port tidak digunakan, coba tentukan port lain dengan `-p`
+**Antarmuka web tidak dapat diakses** → Pastikan port tidak digunakan, coba gunakan `-p` untuk menentukan port lain
 
-**Hasil pencarian kosong** → Periksa sintaks kueri, coba sederhanakan kondisi
+**Hasil pencarian kosong** → Periksa sintaks query, coba sederhanakan kondisi
+
+**Metode unduh untuk perintah export** → Lihat [guide](/dist/guide.pdf) 
 
 </details>
 
 ## 🤝 Kontribusi
 
-Silakan ajukan Pull Request! Fork → Buat cabang baru → Komit perubahan → Buka PR.
+Silakan ajukan Pull Request! Fork → Buat cabang baru → Komit perubahan → Ajukan PR.
 
 ## 📄 Lisensi
 
-Proyek ini menggunakan Lisensi MIT, silakan lihat file [LICENSE](/LICENSE) untuk detailnya.
-
-## 🙏 Ucapan Terima Kasih
+Proyek ini menggunakan lisensi MIT, lihat detailnya pada file [LICENSE](/LICENSE).
 
 
-- Terima kasih khusus kepada [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- Terima kasih kepada semua kontributor dan pengguna!
+## 🙏 致谢
+
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — Setiap malam ada saudari berbeda yang menemani tidurmu :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*Pembaruan terakhir: Februari 2026*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

@@ -40,7 +40,7 @@ ASMRoner is een Go-commandoregeltool voor het zoeken, downloaden, synchroniseren
 ## 🚀 Snel aan de slag
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,6 +67,12 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
@@ -78,19 +84,21 @@ go build -o asmroner
 | ![Configuratie](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Zoeken](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
 | **Downloaden** | **Synchroniseren** |
 | ![Downloaden](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Synchroniseren](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **Gesynchroniseerd downloaden** | **Statistieken** |
-| ![Gesynchroniseerd downloaden](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statistieken](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
-| **Webinterface** | **Webinterface 2** |
-| ![Webinterface](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Webinterface2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Synchronisatie-download** | **Statistieken** |
+| ![Synchronisatie-download](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statistieken](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **Web-interface** | **Web-interface 2** |
+| ![Web-interface](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Web-interface 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Export-interface** | **Export-interface 2** |
+| ![Export-interface](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![Export-interface 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
-<summary><b>✨ Functies</b></summary>
+<summary><b>✨ Functies & Kenmerken</b></summary>
 
-- **Zoeken**: Enkele/meervoudige RJID, geavanceerde zoeksyntaxis, resultaten exporteren als CSV/JSON
-- **Downloaden**: Enkelvoudig/meervoudig/downloaden van populaire werken, automatische snelheidslimiet, herhalen, exponentiële backoff
-- **Synchroniseren**: Synchronisatie van metadata, batch downloadbeheer, statusvolging, opnieuw proberen bij mislukking
-- **Webinterface**: Visueel browsen, afspelen in browser, responsief ontwerp
-- **Configuratie**: Interactieve initialisatie, ondersteuning voor proxy, snelheidslimiet, jitter en andere geavanceerde instellingen
+- **Zoeken**: Enkelvoudig/bulk RJID, geavanceerde zoekopdrachten, resultaten exporteren naar CSV/JSON
+- **Downloaden**: Enkelvoudig/bulk/download van populaire werken, automatische snelheidsbeperking, herhalingen, exponentiële back-off
+- **Synchroniseren**: Metagegevens-synchronisatie, bulk downloadbeheer, status tracking, herhaalde pogingen bij fouten
+- **Web-interface**: Visueel bladeren, afspelen in browser, responsief ontwerp
+- **Configuratie**: Interactieve setup, ondersteuning voor proxy, snelheidsbeperking, jitter en andere geavanceerde opties
 
 </details>
 
@@ -121,27 +129,28 @@ download_qps = 0.2
 download_jitter_min = 2000
 download_jitter_max = 5000
 ```
-
 </details>
 
 <details>
-<summary><b>📋 Sneloverzicht van opdrachtopties</b></summary>
+<summary><b>📋 Overzicht van commandoregelopties</b></summary>
 
-| Opdracht | Optie | Uitleg |
-|------|------|------|
+| Commando | Optie | Beschrijving |
+|----------|-------|--------------|
 | `search` | `-c` | Aantal zoekresultaten (standaard 10) |
 | `search download` | `-d`, `-s` | Downloadmap, aantal downloads |
-| `search export` | `-f`, `-n` | Exportbestand (.csv/.json), exportaantal |
-| `download` | `-d`, `-n` | Downloadmap, hot100-aantal |
+| `search export` | `-f`, `-n` | Bestandsnaam voor export (.csv/.json), aantal exporten |
+| `download` | `-d`, `-n` | Downloadmap, hot100 aantal |
 | `sync download` | `-d` | Downloadmap |
 | `sync retry` | `-d` | Map met mislukte bestanden |
 | `sync export` | `-s`, `-f` | Status (failed/success), exportbestand |
 | `listen` | `-p` | Poort (standaard 9999) |
+| `export` | `-o`, `-n` | Exportmap, hot100 aantal |
 
 </details>
 
 <details>
 <summary><b>📁 Projectstructuur</b></summary>
+
 
 ```
 asmroner/
@@ -160,56 +169,58 @@ asmroner/
 </details>
 
 <details>
-<summary><b>🛠 Technische stack</b></summary>
+<summary><b>🛠 Technische Stack</b></summary>
 
 | Component | Doel |
-|------|------|
+|-----------|------|
 | Cobra + Viper | CLI-framework + configuratiebeheer |
 | GORM + SQLite | Gegevenspersistentie |
 | Resty | HTTP-client (ondersteunt HTTP/SOCKS5 proxy) |
-| Pond | Concurrerende werkpool |
+| Pond | Concurrentie werkpool |
 | x/time/rate | Token bucket rate limiting |
-| Gin | Webservice |
+| Gin | Webdienst |
 | Tailwind + Plyr | Frontend-interface + audioweergave |
 
 </details>
 
 <details>
-<summary><b>🔧 Veelgestelde vragen</b></summary>
+<summary><b>🔧 Veelgestelde Vragen</b></summary>
 
-**Configuratiebestand niet gevonden** → Voer `./asmroner config` uit voor initialisatie
+**Configuratiebestand niet gevonden** → Voer `./asmroner config` uit om te initialiseren
 
-**Download mislukt (stream error)** → Het programma probeert automatisch opnieuw; lukt het nog niet, probeer `sync retry` opnieuw, of bekijk `.asmroner-data/download_errors.log`
+**Download mislukt (stream error)** → Het programma probeert automatisch opnieuw; als het nog mislukt, gebruik `sync retry` of bekijk `.asmroner-data/download_errors.log`
 
-**Webinterface niet toegankelijk** → Controleer of de poort niet in gebruik is, probeer `-p` om een andere poort op te geven
+**Webinterface niet bereikbaar** → Controleer of de poort vrij is, probeer eventueel een andere poort met `-p`
 
 **Geen zoekresultaten** → Controleer de query-syntax, probeer de voorwaarden te vereenvoudigen
+
+**Downloadmethode voor het export-commando** → Zie [gids](/dist/guide.pdf) 
 
 </details>
 
 ## 🤝 Bijdragen
 
-Pull Requests zijn welkom! Fork → Nieuwe branch → Wijzigingen doorvoeren → Open een PR.
+Pull Requests zijn welkom! Fork → nieuwe branch → wijzigingen committen → PR openen.
 
 ## 📄 Licentie
 
 Dit project gebruikt de MIT-licentie, zie het [LICENSE](/LICENSE) bestand voor details.
 
-## 🙏 Dankwoord
 
+## 🙏 致谢
 
-- Speciale dank aan [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- Dank aan alle bijdragers en gebruikers!
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — Elke avond een ander meisje dat je in slaap begeleidt :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*Laatste update: februari 2026*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

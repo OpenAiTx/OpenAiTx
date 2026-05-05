@@ -40,7 +40,7 @@ ASMRoner 是一款 Go 語言命令列工具，用於搜尋、下載、同步 asm
 ## 🚀 快速開始
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,10 +67,15 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
-
 ## 📸 截圖
 
 | 設定 | 搜尋 |
@@ -82,14 +87,16 @@ go build -o asmroner
 | ![同步下載](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![統計](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **Web 介面** | **Web 介面 2** |
 | ![Web介面](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Web介面2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **export 介面** | **export 介面 2** |
+| ![export介面](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![export介面2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
 <summary><b>✨ 功能特性</b></summary>
 
-- **搜尋**：單個／批次 RJID、高級搜尋語法、結果匯出 CSV/JSON
-- **下載**：單個／批次／熱門作品下載，自動限速、重試、指數退避
+- **搜尋**：單個/批次 RJID、高級搜尋語法、結果匯出 CSV/JSON
+- **下載**：單個/批次/熱門作品下載，自動限速、重試、指數退避
 - **同步**：中繼資料同步、批次下載控制、狀態追蹤、失敗重試
-- **Web 介面**：視覺化瀏覽、瀏覽器內播放、響應式設計
+- **Web 介面**：可視化瀏覽、瀏覽器內播放、響應式設計
 - **設定**：互動式初始化，支援代理、限速、抖動等進階設定
 
 </details>
@@ -98,6 +105,7 @@ go build -o asmroner
 <summary><b>⚙️ 設定檔說明</b></summary>
 
 設定檔路徑：`~/.asmroner/config.toml`（TOML 格式）
+
 
 ```toml
 [user]
@@ -135,7 +143,8 @@ download_jitter_max = 5000
 | `sync download` | `-d` | 下載目錄 |
 | `sync retry` | `-d` | 失敗檔案所在目錄 |
 | `sync export` | `-s`, `-f` | 狀態（failed/success）、匯出檔案 |
-| `listen` | `-p` | 連接埠（預設 9999） |
+| `listen` | `-p` | 埠號（預設 9999） |
+| `export` | `-o`, `-n` | 匯出目錄、hot100數量 |
 
 </details>
 
@@ -160,7 +169,7 @@ asmroner/
 </details>
 
 <details>
-<summary><b>🛠 技術棧</b></summary>
+<summary><b>🛠 技術堆疊</b></summary>
 
 | 組件 | 用途 |
 |------|------|
@@ -179,27 +188,29 @@ asmroner/
 
 **找不到配置文件** → 執行 `./asmroner config` 初始化
 
-**下載失敗（stream error）** → 程式會自動重試；若仍失敗，請用 `sync retry` 重試，或查看 `.asmroner-data/download_errors.log`
+**下載失敗（stream error）** → 程式會自動重試；若仍失敗，使用 `sync retry` 重試，或查看 `.asmroner-data/download_errors.log`
 
-**Web 介面無法訪問** → 確認埠未被占用，嘗試用 `-p` 指定其他埠
+**Web 介面無法訪問** → 確認埠口未被佔用，嘗試用 `-p` 指定其他埠口
 
 **搜尋結果為空** → 檢查查詢語法，嘗試簡化條件
+
+**export 指令配套的下載方式** → 參考[guide](/dist/guide.pdf) 
 
 </details>
 
 ## 🤝 貢獻
 
-歡迎提交 Pull Request！Fork → 新建分支 → 提交更改 → 發起 PR。
+歡迎提交 Pull Request！Fork → 新建分支 → 提交更改 → 開啟 PR。
 
-## 📄 許可證
+## 📄 授權條款
 
-本專案採用 MIT 許可證，詳情請參閱 [LICENSE](/LICENSE) 檔案。
+本專案採用 MIT 授權，詳情請參閱 [LICENSE](/LICENSE) 檔案。
+
 
 ## 🙏 致謝
 
-
 - 特別感謝 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- 感謝所有貢獻者和使用者！
+- 感謝所有貢獻者和用戶！
 
 ---
 
@@ -210,6 +221,6 @@ asmroner/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

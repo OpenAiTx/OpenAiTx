@@ -40,7 +40,7 @@ ASMRoner هو أداة سطر أوامر مكتوبة بلغة Go، تُستخد
 ## 🚀 البدء السريع
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,37 +67,45 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
-## 📸 لقطات شاشة
+
+## 📸 لقطات الشاشة
 
 | الإعدادات | البحث |
 |:---:|:---:|
 | ![الإعدادات](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![البحث](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
-| **التنزيل** | **المزامنة** |
+| **تنزيل** | **مزامنة** |
 | ![التنزيل](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![المزامنة](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
 | **تنزيل متزامن** | **إحصائيات** |
-| ![تنزيل متزامن](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![إحصائيات](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| ![التنزيل المتزامن](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![الإحصائيات](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **واجهة الويب** | **واجهة الويب 2** |
 | ![واجهة الويب](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![واجهة الويب 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **واجهة export** | **واجهة export 2** |
+| ![واجهة export](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![واجهة export 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
 <summary><b>✨ الميزات</b></summary>
 
-- **البحث**: بحث فردي/جماعي برقم RJID، صياغة بحث متقدمة، تصدير النتائج إلى CSV/JSON
-- **التنزيل**: تنزيل فردي/جماعي/للأعمال الشائعة، تحديد السرعة تلقائيًا، إعادة المحاولة، تراجع أسي
-- **المزامنة**: مزامنة البيانات الوصفية، التحكم في التنزيلات الجماعية، تتبع الحالة، إعادة المحاولة عند الفشل
+- **البحث**: بحث فردي/مجمع برقم RJID، صيغ بحث متقدمة، تصدير النتائج إلى CSV/JSON
+- **التنزيل**: تنزيل فردي/مجمع/الأعمال الشائعة، تحديد تلقائي للسرعة، إعادة المحاولة، تراجع أسي
+- **المزامنة**: مزامنة البيانات الوصفية، التحكم في التنزيل المجمع، تتبع الحالة، إعادة محاولة الفشل
 - **واجهة الويب**: تصفح مرئي، تشغيل داخل المتصفح، تصميم متجاوب
-- **الإعدادات**: تهيئة تفاعلية، دعم البروكسي، تحديد السرعة، إعدادات متقدمة مثل الجيتّر
+- **الإعدادات**: تهيئة تفاعلية، دعم البروكسي، تحديد السرعة، التذبذب والإعدادات المتقدمة
 
 </details>
 
 <details>
 <summary><b>⚙️ شرح ملف الإعدادات</b></summary>
 
-مسار ملف الإعدادات: `~/.asmroner/config.toml` (بتنسيق TOML)
-
+مسار ملف الإعدادات: `~/.asmroner/config.toml` (صيغة TOML)
 
 ```toml
 [user]
@@ -121,27 +129,28 @@ download_qps = 0.2
 download_jitter_min = 2000
 download_jitter_max = 5000
 ```
-
 </details>
 
 <details>
-<summary><b>📋 قائمة خيارات الأوامر السريعة</b></summary>
+<summary><b>📋 مرجع سريع لخيارات الأوامر</b></summary>
 
 | الأمر | الخيار | الشرح |
-|-------|-------|------|
+|-------|-------|-------|
 | `search` | `-c` | عدد نتائج البحث (الافتراضي 10) |
-| `search download` | `-d`, `-s` | دليل التنزيل، عدد التنزيلات |
+| `search download` | `-d`, `-s` | مجلد التنزيل، عدد التنزيلات |
 | `search export` | `-f`, `-n` | اسم ملف التصدير (.csv/.json)، عدد التصدير |
-| `download` | `-d`, `-n` | دليل التنزيل، عدد hot100 |
-| `sync download` | `-d` | دليل التنزيل |
-| `sync retry` | `-d` | دليل الملفات الفاشلة |
+| `download` | `-d`, `-n` | مجلد التنزيل، عدد hot100 |
+| `sync download` | `-d` | مجلد التنزيل |
+| `sync retry` | `-d` | مجلد الملفات الفاشلة |
 | `sync export` | `-s`, `-f` | الحالة (failed/success)، ملف التصدير |
 | `listen` | `-p` | المنفذ (الافتراضي 9999) |
+| `export` | `-o`, `-n` | مجلد التصدير، عدد hot100 |
 
 </details>
 
 <details>
 <summary><b>📁 هيكل المشروع</b></summary>
+
 
 ```
 asmroner/
@@ -160,15 +169,15 @@ asmroner/
 </details>
 
 <details>
-<summary><b>🛠 المكدس التقني</b></summary>
+<summary><b>🛠 التقنية المستخدمة</b></summary>
 
-| المكون | الاستخدام |
-|--------|----------|
+| المكون | الغرض |
+|------|------|
 | Cobra + Viper | إطار CLI + إدارة الإعدادات |
-| GORM + SQLite | حفظ البيانات |
-| Resty | عميل HTTP (يدعم وكيل HTTP/SOCKS5) |
-| Pond | مسبح أعمال متزامنة |
-| x/time/rate | تحديد المعدل بطريقة دلو الرموز |
+| GORM + SQLite | تخزين البيانات الدائم |
+| Resty | عميل HTTP (يدعم بروكسي HTTP/SOCKS5) |
+| Pond | تجمع عمل متوازي |
+| x/time/rate | تحديد السرعة بطريقة دلو الرموز |
 | Gin | خدمة الويب |
 | Tailwind + Plyr | واجهة أمامية + تشغيل الصوتيات |
 
@@ -177,39 +186,41 @@ asmroner/
 <details>
 <summary><b>🔧 الأسئلة الشائعة</b></summary>
 
-**لم يتم العثور على ملف الإعدادات** → شغّل `./asmroner config` للتهيئة
+**ملف الإعدادات غير موجود** → شغل الأمر `./asmroner config` للتهيئة
 
-**فشل التحميل (stream error)** → البرنامج سيعيد المحاولة تلقائيًا؛ إذا استمر الفشل، استخدم `sync retry` أو تحقق من `.asmroner-data/download_errors.log`
+**فشل التحميل (stream error)** → البرنامج سيعيد المحاولة تلقائياً؛ إذا استمر الفشل، استخدم `sync retry` لإعادة المحاولة، أو راجع `.asmroner-data/download_errors.log`
 
-**تعذر الوصول إلى واجهة الويب** → تأكد أن المنفذ غير مستخدم، وحاول تحديد منفذ آخر باستخدام `-p`
+**تعذر الوصول إلى واجهة الويب** → تأكد أن المنفذ غير مستخدم، وحاول استخدام الخيار `-p` لتحديد منفذ آخر
 
-**نتائج البحث فارغة** → تحقق من صياغة الاستعلام وحاول تبسيط الشروط
+**نتائج البحث فارغة** → تحقق من صياغة الاستعلام وجرب تبسيط الشروط
+
+**طريقة التحميل المرتبطة بتعليمة export** → راجع [guide](/dist/guide.pdf)
 
 </details>
 
 ## 🤝 المساهمة
 
-مرحبًا بتقديم Pull Request! Fork → أنشئ فرعًا جديدًا → قدّم التعديلات → افتح PR.
+نرحب بإرسال طلبات السحب (Pull Request)! قم بعمل Fork → أنشئ فرعًا جديدًا → قدم التعديلات → افتح PR.
 
 ## 📄 الرخصة
 
-يستخدم هذا المشروع رخصة MIT. لمزيد من التفاصيل، يرجى مراجعة ملف [LICENSE](/LICENSE).
-
-## 🙏 الشكر والتقدير
+هذا المشروع مرخص تحت رخصة MIT، للمزيد من التفاصيل راجع ملف [LICENSE](/LICENSE).
 
 
-- شكر خاص لـ [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- شكرًا لجميع المساهمين والمستخدمين!
+## 🙏 致谢
+
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — كل ليلة هناك أخت مختلفة ترافقك للنوم :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*آخر تحديث: فبراير 2026*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

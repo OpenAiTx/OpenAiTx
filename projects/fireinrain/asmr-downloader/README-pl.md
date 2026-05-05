@@ -40,7 +40,7 @@ ASMRoner to narzędzie wiersza poleceń napisane w Go, służące do wyszukiwani
 ## 🚀 Szybki start
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,6 +67,12 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
@@ -78,24 +84,26 @@ go build -o asmroner
 | ![Konfiguracja](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Wyszukiwanie](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
 | **Pobieranie** | **Synchronizacja** |
 | ![Pobieranie](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Synchronizacja](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **Pobieranie z synchronizacją** | **Statystyki** |
-| ![Pobieranie z synchronizacją](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statystyki](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **Synchronizacja i pobieranie** | **Statystyki** |
+| ![Synchronizacja i pobieranie](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statystyki](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **Interfejs Web** | **Interfejs Web 2** |
 | ![Interfejs Web](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Interfejs Web 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Interfejs export** | **Interfejs export 2** |
+| ![Interfejs export](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![Interfejs export 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
-<summary><b>✨ Cechy funkcjonalne</b></summary>
+<summary><b>✨ Funkcje</b></summary>
 
-- **Wyszukiwanie**: pojedynczy/zbiorczy RJID, zaawansowana składnia wyszukiwania, eksport wyników do CSV/JSON
-- **Pobieranie**: pobieranie pojedynczych/zbiorczych/popularnych pozycji, automatyczne ograniczanie przepustowości, ponawianie, wykładnicze opóźnianie
-- **Synchronizacja**: synchronizacja metadanych, kontrola pobierania zbiorczego, śledzenie statusu, ponawianie nieudanych prób
-- **Interfejs Web**: wizualna przeglądarka, odtwarzanie w przeglądarce, responsywny design
-- **Konfiguracja**: interaktywna inicjalizacja, wsparcie dla proxy, ograniczania przepustowości, jitter i innych zaawansowanych ustawień
+- **Wyszukiwanie**: pojedyncze/zbiorcze RJID, zaawansowana składnia wyszukiwania, eksport wyników do CSV/JSON
+- **Pobieranie**: pojedyncze/zbiorcze/pobieranie popularnych prac, automatyczne ograniczanie przepustowości, ponawianie, wykładnicze opóźnienie
+- **Synchronizacja**: synchronizacja metadanych, kontrola zbiorczego pobierania, śledzenie statusu, ponawianie w przypadku błędów
+- **Interfejs Web**: wizualne przeglądanie, odtwarzanie w przeglądarce, responsywny design
+- **Konfiguracja**: interaktywna inicjalizacja, obsługa proxy, ograniczanie przepustowości, jitter i inne zaawansowane ustawienia
 
 </details>
 
 <details>
-<summary><b>⚙️ Opis pliku konfiguracyjnego</b></summary>
+<summary><b>⚙️ Wyjaśnienie pliku konfiguracyjnego</b></summary>
 
 Ścieżka pliku konfiguracyjnego: `~/.asmroner/config.toml` (format TOML)
 
@@ -124,18 +132,19 @@ download_jitter_max = 5000
 </details>
 
 <details>
-<summary><b>📋 Szybka ściągawka opcji poleceń</b></summary>
+<summary><b>📋 Szybka ściąga opcji poleceń</b></summary>
 
-| Polecenie | Opcje | Opis |
+| Polecenie | Opcja | Opis |
 |------|------|------|
 | `search` | `-c` | Liczba wyników wyszukiwania (domyślnie 10) |
 | `search download` | `-d`, `-s` | Katalog pobierania, liczba pobrań |
-| `search export` | `-f`, `-n` | Nazwa pliku eksportu (.csv/.json), liczba eksportów |
+| `search export` | `-f`, `-n` | Nazwa pliku eksportu (.csv/.json), liczba eksportowanych pozycji |
 | `download` | `-d`, `-n` | Katalog pobierania, liczba hot100 |
 | `sync download` | `-d` | Katalog pobierania |
 | `sync retry` | `-d` | Katalog z nieudanymi plikami |
 | `sync export` | `-s`, `-f` | Status (failed/success), plik eksportu |
 | `listen` | `-p` | Port (domyślnie 9999) |
+| `export` | `-o`, `-n` | Katalog eksportu, liczba hot100 |
 
 </details>
 
@@ -163,53 +172,55 @@ asmroner/
 <summary><b>🛠 Stos technologiczny</b></summary>
 
 | Komponent | Zastosowanie |
-|------|------|
+|-----------|--------------|
 | Cobra + Viper | Framework CLI + zarządzanie konfiguracją |
 | GORM + SQLite | Trwałość danych |
-| Resty | Klient HTTP (wsparcie dla proxy HTTP/SOCKS5) |
-| Pond | Współbieżna pula zadań |
+| Resty | Klient HTTP (obsługuje HTTP/SOCKS5 proxy) |
+| Pond | Pool współbieżnych zadań |
 | x/time/rate | Ograniczanie przepustowości token bucket |
-| Gin | Serwer WWW |
-| Tailwind + Plyr | Interfejs frontendowy + odtwarzanie audio |
+| Gin | Serwis webowy |
+| Tailwind + Plyr | Interfejs frontend + odtwarzanie audio |
 
 </details>
 
 <details>
-<summary><b>🔧 Najczęstsze pytania</b></summary>
+<summary><b>🔧 Częste pytania</b></summary>
 
-**Nie znaleziono pliku konfiguracyjnego** → Uruchom `./asmroner config`, aby zainicjować
+**Plik konfiguracyjny nie znaleziony** → Uruchom `./asmroner config` aby zainicjować
 
-**Błąd pobierania (stream error)** → Program automatycznie ponowi próbę; jeśli nadal się nie uda, użyj `sync retry` lub sprawdź `.asmroner-data/download_errors.log`
+**Błąd pobierania (stream error)** → Program automatycznie ponowi próbę; jeśli nadal nie działa, użyj `sync retry`, lub sprawdź `.asmroner-data/download_errors.log`
 
-**Brak dostępu do interfejsu WWW** → Upewnij się, że port nie jest zajęty, spróbuj określić inny port za pomocą `-p`
+**Brak dostępu do interfejsu web** → Upewnij się, że port nie jest zajęty, spróbuj użyć `-p`, aby wybrać inny port
 
 **Brak wyników wyszukiwania** → Sprawdź składnię zapytania, spróbuj uprościć warunki
+
+**Sposób pobierania dla polecenia export** → Zobacz [guide](/dist/guide.pdf)
 
 </details>
 
 ## 🤝 Wkład
 
-Zachęcamy do przesyłania Pull Requestów! Fork → utwórz nową gałąź → wprowadź zmiany → otwórz PR.
+Zachęcamy do przesyłania Pull Requestów! Fork → nowa gałąź → wprowadź zmiany → otwórz PR.
 
 ## 📄 Licencja
 
-Projekt udostępniany na licencji MIT, szczegóły w pliku [LICENSE](/LICENSE).
-
-## 🙏 Podziękowania
+Projekt jest objęty licencją MIT, szczegóły w pliku [LICENSE](/LICENSE).
 
 
-- Specjalne podziękowania dla [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- Dziękujemy wszystkim współtwórcom i użytkownikom!
+## 🙏 致谢
+
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — Każdego wieczoru inna dziewczyna towarzyszy Ci przy zasypianiu :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*Ostatnia aktualizacja: luty 2026*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

@@ -40,7 +40,7 @@ ASMRoner è uno strumento da linea di comando scritto in Go, progettato per cerc
 ## 🚀 Guida rapida
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,6 +67,12 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
@@ -76,28 +82,30 @@ go build -o asmroner
 | Configurazione | Ricerca |
 |:---:|:---:|
 | ![Configurazione](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Ricerca](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
-| **Download** | **Sincronizza** |
-| ![Download](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Sincronizza](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **Download Sincronizzato** | **Statistiche** |
-| ![Download Sincronizzato](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statistiche](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **Download** | **Sincronizzazione** |
+| ![Download](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Sincronizzazione](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
+| **Download sincronizzato** | **Statistiche** |
+| ![Download sincronizzato](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Statistiche](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **Interfaccia Web** | **Interfaccia Web 2** |
 | ![Interfaccia Web](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Interfaccia Web 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Interfaccia export** | **Interfaccia export 2** |
+| ![Interfaccia export](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![Interfaccia export 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
-<summary><b>✨ Caratteristiche principali</b></summary>
+<summary><b>✨ Funzionalità</b></summary>
 
-- **Ricerca**: Ricerca singola/multipla per RJID, sintassi avanzata, esportazione risultati in CSV/JSON
-- **Download**: Download singolo/multiplo/opere popolari, limitazione automatica, retry, backoff esponenziale
-- **Sincronizzazione**: Sincronizzazione metadati, controllo download di massa, tracciamento stato, retry su errore
+- **Ricerca**: RJID singolo/multiplo, sintassi di ricerca avanzata, esportazione dei risultati in CSV/JSON
+- **Download**: Download singolo/multiplo/popolari, limitazione automatica, retry, backoff esponenziale
+- **Sincronizzazione**: Sincronizzazione metadata, controllo download multipli, tracciamento stato, retry su fallimento
 - **Interfaccia Web**: Navigazione visuale, riproduzione nel browser, design responsivo
-- **Configurazione**: Inizializzazione interattiva, supporto proxy, limitazione, jitter e altre impostazioni avanzate
+- **Configurazione**: Inizializzazione interattiva, supporto proxy, limitazione, jitter e altre configurazioni avanzate
 
 </details>
 
 <details>
-<summary><b>⚙️ Descrizione file di configurazione</b></summary>
+<summary><b>⚙️ Descrizione del file di configurazione</b></summary>
 
-Percorso file di configurazione: `~/.asmroner/config.toml` (formato TOML)
+Percorso del file di configurazione: `~/.asmroner/config.toml` (formato TOML)
 
 ```toml
 [user]
@@ -121,27 +129,28 @@ download_qps = 0.2
 download_jitter_min = 2000
 download_jitter_max = 5000
 ```
-
 </details>
 
 <details>
-<summary><b>📋 Riepilogo opzioni dei comandi</b></summary>
+<summary><b>📋 Riepilogo opzioni comando</b></summary>
 
-| Comando | Opzioni | Descrizione |
+| Comando | Opzione | Descrizione |
 |---------|---------|-------------|
-| `search` | `-c` | Numero risultati ricerca (predefinito 10) |
-| `search download` | `-d`, `-s` | Directory download, numero download |
-| `search export` | `-f`, `-n` | Nome file esportazione (.csv/.json), numero esportazione |
-| `download` | `-d`, `-n` | Directory download, quantità hot100 |
-| `sync download` | `-d` | Directory download |
-| `sync retry` | `-d` | Directory file falliti |
+| `search` | `-c` | Numero dei risultati della ricerca (predefinito 10) |
+| `search download` | `-d`, `-s` | Directory di download, numero di download |
+| `search export` | `-f`, `-n` | Nome file di esportazione (.csv/.json), numero di esportazione |
+| `download` | `-d`, `-n` | Directory di download, quantità hot100 |
+| `sync download` | `-d` | Directory di download |
+| `sync retry` | `-d` | Directory dei file falliti |
 | `sync export` | `-s`, `-f` | Stato (failed/success), file di esportazione |
-| `listen` | `-p` | Porta (predefinita 9999) |
+| `listen` | `-p` | Porta (predefinito 9999) |
+| `export` | `-o`, `-n` | Directory di esportazione, quantità hot100 |
 
 </details>
 
 <details>
 <summary><b>📁 Struttura del progetto</b></summary>
+
 
 ```
 asmroner/
@@ -160,56 +169,58 @@ asmroner/
 </details>
 
 <details>
-<summary><b>🛠 Stack Tecnologico</b></summary>
+<summary><b>🛠 Stack Tecnico</b></summary>
 
 | Componente | Utilizzo |
 |------|------|
-| Cobra + Viper | Framework CLI + Gestione configurazione |
+| Cobra + Viper | Framework CLI + Gestione configurazioni |
 | GORM + SQLite | Persistenza dei dati |
 | Resty | Client HTTP (supporta proxy HTTP/SOCKS5) |
-| Pond | Worker pool concorrente |
-| x/time/rate | Limitazione della velocità a token bucket |
+| Pond | Pool di lavoro concorrente |
+| x/time/rate | Rate limiting a secchiello di token |
 | Gin | Servizio Web |
 | Tailwind + Plyr | Interfaccia frontend + Riproduzione audio |
 
 </details>
 
 <details>
-<summary><b>🔧 Domande frequenti</b></summary>
+<summary><b>🔧 Domande Frequenti</b></summary>
 
-**File di configurazione non trovato** → Esegui `./asmroner config` per inizializzare
+**File di configurazione non trovato** → Eseguire `./asmroner config` per inizializzare
 
-**Download fallito (stream error)** → Il programma ritenterà automaticamente; se ancora fallisce, usa `sync retry` o controlla `.asmroner-data/download_errors.log`
+**Download fallito (stream error)** → Il programma riprova automaticamente; se continua a fallire, riprovare con `sync retry` o consultare `.asmroner-data/download_errors.log`
 
-**Interfaccia Web non accessibile** → Verifica che la porta non sia occupata, prova a specificare un'altra porta con `-p`
+**Interfaccia web non accessibile** → Verificare che la porta non sia occupata, provare a specificare un'altra porta con `-p`
 
-**Risultato di ricerca vuoto** → Controlla la sintassi della query, prova a semplificare le condizioni
+**Nessun risultato di ricerca** → Controllare la sintassi della query, provare a semplificare le condizioni
+
+**Metodo di download per il comando export** → Fare riferimento alla [guida](/dist/guide.pdf)
 
 </details>
 
 ## 🤝 Contribuire
 
-Sono benvenute Pull Request! Fai un fork → crea un nuovo branch → invia le modifiche → apri una PR.
+Sono benvenuti i Pull Request! Fork → Nuovo branch → Invia modifiche → Apri PR.
 
 ## 📄 Licenza
 
-Questo progetto è rilasciato sotto licenza MIT, per dettagli consulta il file [LICENSE](/LICENSE).
-
-## 🙏 Ringraziamenti
+Questo progetto è distribuito con licenza MIT, per maggiori dettagli consultare il file [LICENSE](/LICENSE).
 
 
-- Un ringraziamento speciale a [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- Grazie a tutti i collaboratori e agli utenti!
+## 🙏 致谢
+
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — Ogni sera una ragazza diversa ti accompagna nel sonno :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*Ultimo aggiornamento: febbraio 2026*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

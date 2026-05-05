@@ -40,7 +40,7 @@ ASMRoner یک ابزار خط فرمان نوشته‌شده با زبان Go ا
 ## 🚀 شروع سریع
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,37 +67,45 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
+
 ## 📸 اسکرین‌شات
 
-| پیکربندی | جستجو |
+| تنظیمات | جستجو |
 |:---:|:---:|
-| ![پیکربندی](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![جستجو](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
+| ![تنظیمات](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![جستجو](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
 | **دانلود** | **همگام‌سازی** |
 | ![دانلود](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![همگام‌سازی](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **دانلود همگام‌سازی‌شده** | **آمار** |
-| ![دانلود همگام‌سازی‌شده](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![آمار](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **دانلود همگام** | **آمار** |
+| ![دانلود همگام](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![آمار](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
 | **رابط وب** | **رابط وب ۲** |
 | ![رابط وب](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![رابط وب ۲](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **رابط export** | **رابط export ۲** |
+| ![رابط export](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![رابط export ۲](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
 <summary><b>✨ ویژگی‌های عملکردی</b></summary>
 
-- **جستجو**: جستجوی RJID تکی/گروهی، دستورات جستجوی پیشرفته، خروجی نتایج به CSV/JSON
-- **دانلود**: دانلود تکی/گروهی/محبوب، محدودیت خودکار سرعت، تلاش مجدد، تأخیر نمایی
-- **همگام‌سازی**: همگام‌سازی متادیتا، کنترل دانلود گروهی، پیگیری وضعیت، تلاش مجدد در صورت شکست
+- **جستجو**: RJID تکی/گروهی، دستور جستجوی پیشرفته، خروجی نتایج به CSV/JSON
+- **دانلود**: دانلود تکی/گروهی/آثار محبوب، محدودیت خودکار سرعت، تلاش مجدد، عقب‌نشینی نمایی
+- **همگام‌سازی**: همگام‌سازی متادیتا، کنترل دانلود گروهی، پیگیری وضعیت، تلاش مجدد در خطا
 - **رابط وب**: مرور بصری، پخش در مرورگر، طراحی واکنش‌گرا
-- **پیکربندی**: راه‌اندازی تعاملی، پشتیبانی از پراکسی، محدودیت سرعت، لرزش و سایر تنظیمات پیشرفته
+- **تنظیمات**: راه‌اندازی تعاملی، پشتیبانی از پراکسی، محدودیت سرعت، اعمال jitter و تنظیمات پیشرفته دیگر
 
 </details>
 
 <details>
-<summary><b>⚙️ توضیح فایل پیکربندی</b></summary>
+<summary><b>⚙️ توضیحات فایل تنظیمات</b></summary>
 
-مسیر فایل پیکربندی: `~/.asmroner/config.toml` (فرمت TOML)
-
+مسیر فایل تنظیمات: `~/.asmroner/config.toml` (فرمت TOML)
 
 ```toml
 [user]
@@ -127,8 +135,8 @@ download_jitter_max = 5000
 <details>
 <summary><b>📋 مرور سریع گزینه‌های دستوری</b></summary>
 
-| دستور | گزینه | توضیح |
-|------|------|------|
+| دستور | گزینه | توضیحات |
+|-------|-------|---------|
 | `search` | `-c` | تعداد نتایج جستجو (پیش‌فرض ۱۰) |
 | `search download` | `-d`, `-s` | مسیر دانلود، تعداد دانلود |
 | `search export` | `-f`, `-n` | نام فایل خروجی (.csv/.json)، تعداد خروجی |
@@ -137,6 +145,7 @@ download_jitter_max = 5000
 | `sync retry` | `-d` | مسیر فایل‌های ناموفق |
 | `sync export` | `-s`, `-f` | وضعیت (failed/success)، فایل خروجی |
 | `listen` | `-p` | پورت (پیش‌فرض ۹۹۹۹) |
+| `export` | `-o`, `-n` | مسیر خروجی، تعداد hot100 |
 
 </details>
 
@@ -160,56 +169,58 @@ asmroner/
 </details>
 
 <details>
-<summary><b>🛠 پشته فنی</b></summary>
+<summary><b>🛠 فناوری مورد استفاده</b></summary>
 
 | مؤلفه | کاربرد |
 |------|------|
 | Cobra + Viper | چارچوب CLI + مدیریت پیکربندی |
-| GORM + SQLite | ماندگاری داده‌ها |
+| GORM + SQLite | پایداری داده‌ها |
 | Resty | کلاینت HTTP (پشتیبانی از پراکسی HTTP/SOCKS5) |
-| Pond | استخر کاری همزمان |
-| x/time/rate | محدودسازی نرخ با سطل توکن |
+| Pond | استخر کار همزمان |
+| x/time/rate | محدودسازی سرعت به روش سطل توکن |
 | Gin | سرویس وب |
-| Tailwind + Plyr | رابط کاربری فرانت‌اند + پخش صوت |
+| Tailwind + Plyr | رابط کاربری فرانت‌اند + پخش صوتی |
 
 </details>
 
 <details>
 <summary><b>🔧 سوالات متداول</b></summary>
 
-**فایل پیکربندی پیدا نشد** → دستور `./asmroner config` را برای مقداردهی اولیه اجرا کنید
+**فایل پیکربندی پیدا نشد** → اجرای `./asmroner config` برای مقداردهی اولیه
 
-**دانلود ناموفق (stream error)** → برنامه به صورت خودکار تلاش مجدد می‌کند؛ اگر همچنان شکست خورد، با `sync retry` مجدداً تلاش کنید یا فایل `.asmroner-data/download_errors.log` را بررسی نمایید
+**دانلود ناموفق (stream error)** → برنامه به طور خودکار تلاش مجدد می‌کند؛ اگر هنوز شکست خورد، با `sync retry` دوباره تلاش کنید یا فایل `.asmroner-data/download_errors.log` را بررسی نمایید
 
-**عدم دسترسی به رابط وب** → مطمئن شوید پورت اشغال نشده است، با گزینه `-p` پورت دیگری را امتحان کنید
+**عدم دسترسی به رابط وب** → مطمئن شوید پورت اشغال نشده و با گزینه `-p` پورت دیگری را امتحان کنید
 
-**نتیجه جستجو خالی است** → سینتکس جستجو را بررسی و شرایط را ساده‌تر کنید
+**نتیجه جستجو خالی است** → نحو جستجو را بررسی کرده و شرایط را ساده‌تر کنید
+
+**روش دانلود متناسب با دستور export** → به [راهنما](/dist/guide.pdf) مراجعه کنید
 
 </details>
 
 ## 🤝 مشارکت
 
-ارسال Pull Request خوش‌آمدید! Fork → ایجاد شاخه جدید → ارسال تغییرات → باز کردن PR.
+ارسال Pull Request خوشامد می‌گوییم! Fork → ایجاد شاخه جدید → ارسال تغییرات → ایجاد PR.
 
 ## 📄 مجوز
 
-این پروژه تحت مجوز MIT منتشر شده است، برای جزئیات به فایل [LICENSE](/LICENSE) مراجعه کنید.
-
-## 🙏 قدردانی
+این پروژه تحت مجوز MIT ارائه شده است. جزئیات بیشتر در فایل [LICENSE](/LICENSE) موجود است.
 
 
-- تشکر ویژه از [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- از تمامی مشارکت‌کنندگان و کاربران سپاسگزاریم!
+## 🙏 致谢
+
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — هر شب با خواهرهای متفاوتی در کنارتان به خواب بروید :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*آخرین به‌روزرسانی: فوریه ۲۰۲۶*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

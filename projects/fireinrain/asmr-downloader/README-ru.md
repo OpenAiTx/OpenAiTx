@@ -40,7 +40,7 @@ ASMRoner — это инструмент командной строки на Go
 ## 🚀 Быстрый старт
 
 ```bash
-git clone https://github.com/fireinrain/asmroner.git && cd asmroner
+https://github.com/MIKANOoOo/asmr-downloader.git && cd asmroner
 go build -o asmroner
 ./asmroner config   # 交互式初始化配置
 ```
@@ -67,37 +67,45 @@ go build -o asmroner
 ./asmroner sync retry -d ./downloads
 ./asmroner sync report
 
+  # 导出单个作品或指定数量热门榜链接 & 导出到指定目录
+./asmroner export RJ01544940 -o ./downloads
+./asmroner export hot100 -n 20 -o ./downloads
+./asmroner export hot100 -n 10 -o ./downloads
+更多内容参考常见问题中的guide
+
 # Web 播放界面
 ./asmroner listen -p 8080 ./syncdata
 ```
 
 ## 📸 Скриншоты
 
-| Настройки | Поиск |
+| Конфигурация | Поиск |
 |:---:|:---:|
-| ![Настройки](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Поиск](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
+| ![Конфигурация](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/config.png) | ![Поиск](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/search.png) |
 | **Загрузка** | **Синхронизация** |
 | ![Загрузка](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/download.png) | ![Синхронизация](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync.png) |
-| **Синхронная загрузка** | **Статистика** |
-| ![Синхронная загрузка](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Статистика](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
-| **Web-интерфейс** | **Web-интерфейс 2** |
-| ![Web-интерфейс](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Web-интерфейс 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **Синхронизация и загрузка** | **Статистика** |
+| ![Синхронизация и загрузка](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-down.png) | ![Статистика](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/sync-report.png) |
+| **Web интерфейс** | **Web интерфейс 2** |
+| ![Web интерфейс](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen.png) | ![Web интерфейс 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/listen2.png) |
+| **export интерфейс** | **export интерфейс 2** |
+| ![export интерфейс](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export1.png) | ![export интерфейс 2](https://raw.githubusercontent.com/fireinrain/asmr-downloader/v2/dist/export2.png) |
 
 <details>
-<summary><b>✨ Особенности</b></summary>
+<summary><b>✨ Характеристики</b></summary>
 
-- **Поиск**: одиночный/пакетный RJID, расширенный синтаксис поиска, экспорт результатов в CSV/JSON
-- **Загрузка**: одиночная/пакетная/популярные загрузки, авто-ограничение скорости, повторные попытки, экспоненциальная задержка
-- **Синхронизация**: синхронизация метаданных, контроль пакетной загрузки, отслеживание статусов, повторные попытки при ошибках
-- **Web-интерфейс**: визуальный просмотр, воспроизведение в браузере, адаптивный дизайн
-- **Настройки**: интерактивная инициализация, поддержка прокси, ограничение скорости, джиттер и другие расширенные параметры
+- **Поиск**: одиночный/массовый RJID, расширенный поисковый синтаксис, экспорт результатов в CSV/JSON
+- **Загрузка**: одиночная/массовая/популярные загрузки, автоматическое ограничение скорости, повторные попытки, экспоненциальное отступление
+- **Синхронизация**: синхронизация метаданных, массовый контроль загрузки, отслеживание состояния, повторные попытки при ошибках
+- **Web интерфейс**: визуальный просмотр, воспроизведение в браузере, адаптивный дизайн
+- **Конфигурация**: интерактивная инициализация, поддержка прокси, ограничения скорости, jitter и другие расширенные настройки
 
 </details>
 
 <details>
 <summary><b>⚙️ Описание конфигурационного файла</b></summary>
 
-Путь к файлу конфигурации: `~/.asmroner/config.toml` (формат TOML)
+Путь к конфигурационному файлу: `~/.asmroner/config.toml` (формат TOML)
 
 ```toml
 [user]
@@ -125,7 +133,7 @@ download_jitter_max = 5000
 </details>
 
 <details>
-<summary><b>📋 Быстрый справочник по опциям команд</b></summary>
+<summary><b>📋 Быстрая справка по опциям команд</b></summary>
 
 | Команда | Опция | Описание |
 |---------|-------|----------|
@@ -134,9 +142,10 @@ download_jitter_max = 5000
 | `search export` | `-f`, `-n` | Имя экспортируемого файла (.csv/.json), количество экспорта |
 | `download` | `-d`, `-n` | Каталог загрузки, количество hot100 |
 | `sync download` | `-d` | Каталог загрузки |
-| `sync retry` | `-d` | Каталог файлов с ошибками |
+| `sync retry` | `-d` | Каталог с неудавшимися файлами |
 | `sync export` | `-s`, `-f` | Статус (failed/success), экспортируемый файл |
 | `listen` | `-p` | Порт (по умолчанию 9999) |
+| `export` | `-o`, `-n` | Каталог экспорта, количество hot100 |
 
 </details>
 
@@ -163,14 +172,14 @@ asmroner/
 <summary><b>🛠 Технологический стек</b></summary>
 
 | Компонент | Назначение |
-|-----------|------------|
+|-----------|-----------|
 | Cobra + Viper | CLI-фреймворк + управление конфигурацией |
-| GORM + SQLite | Сохранение данных |
+| GORM + SQLite | Хранение данных |
 | Resty | HTTP-клиент (поддержка HTTP/SOCKS5 прокси) |
-| Pond | Пул потоков для параллелизма |
+| Pond | Пул параллельных задач |
 | x/time/rate | Ограничение скорости по токен-бакету |
 | Gin | Веб-сервис |
-| Tailwind + Plyr | Фронтенд-интерфейс + аудиоплеер |
+| Tailwind + Plyr | Фронтенд-интерфейс + воспроизведение аудио |
 
 </details>
 
@@ -179,37 +188,39 @@ asmroner/
 
 **Файл конфигурации не найден** → Запустите `./asmroner config` для инициализации
 
-**Ошибка загрузки (stream error)** → Программа повторит попытку автоматически; если не удалось, используйте `sync retry` для повторной попытки или проверьте `.asmroner-data/download_errors.log`
+**Сбой загрузки (stream error)** → Программа автоматически повторяет попытку; если ошибка сохраняется, используйте `sync retry` для повторной попытки или проверьте `.asmroner-data/download_errors.log`
 
-**Веб-интерфейс недоступен** → Убедитесь, что порт не занят, попробуйте указать другой порт через `-p`
+**Веб-интерфейс недоступен** → Убедитесь, что порт не занят, попробуйте задать другой порт через `-p`
 
 **Результаты поиска пусты** → Проверьте синтаксис запроса, попробуйте упростить условия
+
+**Сопутствующий способ загрузки для export-команды** → См. [guide](/dist/guide.pdf)
 
 </details>
 
 ## 🤝 Вклад
 
-Добро пожаловать с Pull Request! Fork → создайте ветку → внесите изменения → откройте PR.
+Добро пожаловать к отправке Pull Request! Fork → создание новой ветки → внесение изменений → открытие PR.
 
 ## 📄 Лицензия
 
-Проект использует лицензию MIT, подробности в файле [LICENSE](/LICENSE).
-
-## 🙏 Благодарности
+Этот проект использует лицензию MIT, подробности смотрите в файле [LICENSE](/LICENSE).
 
 
-- Особая благодарность [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
-- Спасибо всем участникам и пользователям!
+## 🙏 致谢
+
+- 特别感谢 [go-asmr-spider](https://github.com/DiheChen/go-asmr-spider)
+- 感谢所有贡献者和用户！
 
 ---
 
-**ASMRoner** — Каждую ночь тебя убаюкивает новая милая девушка :)
+**ASMRoner** — 每天晚上都有不同的妹妹陪你入睡 :)
 
-*Последнее обновление: февраль 2026 г.*
+*最后更新：2026 年 2 月*
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-05
 
 ---

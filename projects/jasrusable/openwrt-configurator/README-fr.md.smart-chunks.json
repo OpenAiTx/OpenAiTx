@@ -1,0 +1,1739 @@
+[
+  {
+    "Id": 1,
+    "Content": "# OpenWrt Configurator\n\nOpenWrt Configurator is a CLI tool and corresponding JSON config file which lets you specify the entire state of your network including UCI configuration, packages and firmware versions in a single UCI-like JSON config file which can be provisioned to your OpenWrt devices using OpenWrt Configurator.\n",
+    "ContentSha": "w82GV5EPPUiSzLjuPavaWKqnMQeKBzC4k+ETCNK1UA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# OpenWrt Configurator\n\nOpenWrt Configurator est un outil CLI et un fichier de configuration JSON correspondant qui vous permet de spécifier l'état complet de votre réseau, y compris la configuration UCI, les paquets et les versions du firmware dans un seul fichier de configuration JSON de type UCI pouvant être déployé sur vos appareils OpenWrt à l'aide d'OpenWrt Configurator.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LR1eypfL1RqNTVuKpIIesjcR0aeKhk6Ke8tRkaGg+Xw=",
+        "originContent": "# OpenWrt Configurator",
+        "translatedContent": "# OpenWrt Configurator"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "orbdeFEusDo30JfjCH2YNIXX1QFIEMAeS2Q7qJzbmZk=",
+        "originContent": "OpenWrt Configurator is a CLI tool and corresponding JSON config file which lets you specify the entire state of your network including UCI configuration, packages and firmware versions in a single UCI-like JSON config file which can be provisioned to your OpenWrt devices using OpenWrt Configurator.",
+        "translatedContent": "OpenWrt Configurator est un outil CLI et un fichier de configuration JSON correspondant qui vous permet de spécifier l'état complet de votre réseau, y compris la configuration UCI, les paquets et les versions du firmware dans un seul fichier de configuration JSON de type UCI pouvant être déployé sur vos appareils OpenWrt à l'aide d'OpenWrt Configurator."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\n$ openwrt-configurator provision ./network-config.json\n```",
+    "ContentSha": "jZz7OwaCl4oitJbrafedOzrVDsmgBbV67DScbcjlEXA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ openwrt-configurator provision ./network-config.json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "FPwB4eTbVwBruCBOB5zTLezRKsVCE6CV2Vb4OKPaRUE=",
+        "originContent": "$ openwrt-configurator provision ./network-config.json",
+        "translatedContent": "$ openwrt-configurator provision ./network-config.json"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThe JSON config file can be conditionally composed with `.if` and/or `.overrides` keys, and implements light abstractions over device ethernet ports and Wi-Fi radios to seamlessly support configuration for multiple devices, different device models/types, as well as different device roles (Router, switch, dump-ap etc) from a single JSON config file.\n",
+    "ContentSha": "eM1RBQ6yJLbc7dpJjzz4pw366vQgQ0tvSZrrsnD0qEU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLe fichier de configuration JSON peut être composé de manière conditionnelle avec les clés `.if` et/ou `.overrides`, et implémente de légères abstractions sur les ports Ethernet des appareils et les radios Wi-Fi pour prendre en charge de manière transparente la configuration de plusieurs appareils, différents modèles/types d'appareils, ainsi que différents rôles d'appareils (routeur, commutateur, point d'accès dump, etc.) à partir d'un seul fichier de configuration JSON.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xpB6l6FKoBg5B7eENck1c5jIs4MdyEsdU9dmT1i35aQ=",
+        "originContent": "The JSON config file can be conditionally composed with `.if` and/or `.overrides` keys, and implements light abstractions over device ethernet ports and Wi-Fi radios to seamlessly support configuration for multiple devices, different device models/types, as well as different device roles (Router, switch, dump-ap etc) from a single JSON config file.",
+        "translatedContent": "Le fichier de configuration JSON peut être composé de manière conditionnelle avec les clés `.if` et/ou `.overrides`, et implémente de légères abstractions sur les ports Ethernet des appareils et les radios Wi-Fi pour prendre en charge de manière transparente la configuration de plusieurs appareils, différents modèles/types d'appareils, ainsi que différents rôles d'appareils (routeur, commutateur, point d'accès dump, etc.) à partir d'un seul fichier de configuration JSON."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```json\n  \"interface\": [\n    {\n      \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router.\n      \".name\": \"wan\",\n      \"device\": \"eth0\",\n      \"proto\": \"pppoe\",\n      \"username\": \"me@pppoe.com\",\n      \"password\": \"123\"\n    },\n    {\n      \".name\": \"lan\",\n      \"device\": \"br-lan.1\",\n      \".overrides\": [\n        {\n          \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router.\n          \"override\": {\n            \"proto\": \"static\",\n            \"ipaddr\": \"10.0.0.1\",\n            \"netmask\": \"255.255.0.0\"\n          }\n        },\n        {\n          \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices.\n          \"override\": {\n            \"proto\": \"dhcp\"\n          }\n        }\n      ]\n    },\n  ]\n```",
+    "ContentSha": "+wgF9rWQft8V4ueGzOSzIq0V2fqqM8ORddtsj8BVMIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n  \"interface\": [\n    {\n      \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router.\n      \".name\": \"wan\",\n      \"device\": \"eth0\",\n      \"proto\": \"pppoe\",\n      \"username\": \"me@pppoe.com\",\n      \"password\": \"123\"\n    },\n    {\n      \".name\": \"lan\",\n      \"device\": \"br-lan.1\",\n      \".overrides\": [\n        {\n          \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router.\n          \"override\": {\n            \"proto\": \"static\",\n            \"ipaddr\": \"10.0.0.1\",\n            \"netmask\": \"255.255.0.0\"\n          }\n        },\n        {\n          \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices.\n          \"override\": {\n            \"proto\": \"dhcp\"\n          }\n        }\n      ]\n    },\n  ]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "FjUTzrpttFZWtGXeU6mXOwAXt3nJbMml0WPesXHMTNE=",
+        "originContent": "  \"interface\": [",
+        "translatedContent": "  \"interface\": ["
+      },
+      {
+        "row": 3,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 4,
+        "rowsha": "Po/XayvZSZZNq5ReWnwl3sCOGiFItqyTh/LlX3VSww0=",
+        "originContent": "      \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router.",
+        "translatedContent": "      \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router."
+      },
+      {
+        "row": 5,
+        "rowsha": "HZWyAbc/9xsdToKy1o9iYNfVlMTJwLCIfTZsJZfkG7c=",
+        "originContent": "      \".name\": \"wan\",",
+        "translatedContent": "      \".name\": \"wan\","
+      },
+      {
+        "row": 6,
+        "rowsha": "q098YIFroRQ5IkErk7YoHtJCr9bMDcY3m5DmqIeB8JE=",
+        "originContent": "      \"device\": \"eth0\",",
+        "translatedContent": "      \"device\": \"eth0\","
+      },
+      {
+        "row": 7,
+        "rowsha": "eRlckWL27EFkV09RQBeTYCt+er+/dUs0v+Xmz5s8oAA=",
+        "originContent": "      \"proto\": \"pppoe\",",
+        "translatedContent": "      \"proto\": \"pppoe\","
+      },
+      {
+        "row": 8,
+        "rowsha": "JZoRbP6IaMEBBhc0TIK5R0lRawhnQpKsUBWQW14PbKo=",
+        "originContent": "      \"username\": \"me@pppoe.com\",",
+        "translatedContent": "      \"username\": \"me@pppoe.com\","
+      },
+      {
+        "row": 9,
+        "rowsha": "CHMzXXfGVqyslz20AV6JDmhCMtH91br2/PST90iGqQA=",
+        "originContent": "      \"password\": \"123\"",
+        "translatedContent": "      \"password\": \"123\""
+      },
+      {
+        "row": 10,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 11,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 12,
+        "rowsha": "NXhxTVeprNS4qWxlrd99WkrJ99OVEe5oYUC2259zHuA=",
+        "originContent": "      \".name\": \"lan\",",
+        "translatedContent": "      \".name\": \"lan\","
+      },
+      {
+        "row": 13,
+        "rowsha": "+bAMVaS19YKl8auFOLu/taBWLyfSV1kZ0vu6Z8CudEA=",
+        "originContent": "      \"device\": \"br-lan.1\",",
+        "translatedContent": "      \"device\": \"br-lan.1\","
+      },
+      {
+        "row": 14,
+        "rowsha": "GLezGnofPCnE+wviY7TNWvpEouoea4czUElp6gNcv3I=",
+        "originContent": "      \".overrides\": [",
+        "translatedContent": "      \".overrides\": ["
+      },
+      {
+        "row": 15,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 16,
+        "rowsha": "5za3mp8e9u+mKeUkOv7TfdN96Vm5AvZDKowAY/Wmano=",
+        "originContent": "          \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router.",
+        "translatedContent": "          \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router."
+      },
+      {
+        "row": 17,
+        "rowsha": "9ICH4QwR0dke5/flQ+4PJBZvWgXM7+Tk/+iamkGebAo=",
+        "originContent": "          \"override\": {",
+        "translatedContent": "          \"override\": {"
+      },
+      {
+        "row": 18,
+        "rowsha": "2vbdhB+hh5DIuC0LxvKpbnjgBrD0RqSC1sj2JJeShuE=",
+        "originContent": "            \"proto\": \"static\",",
+        "translatedContent": "            \"proto\": \"static\","
+      },
+      {
+        "row": 19,
+        "rowsha": "BYZVgT5qfOJ4sLMEdv+fLanAz/9Nhtke0xcQ4a1qfWc=",
+        "originContent": "            \"ipaddr\": \"10.0.0.1\",",
+        "translatedContent": "            \"ipaddr\": \"10.0.0.1\","
+      },
+      {
+        "row": 20,
+        "rowsha": "poW6e7n1t2w6t3MgshBeYPCiPpxThjMsc6Q6DZmu/a4=",
+        "originContent": "            \"netmask\": \"255.255.0.0\"",
+        "translatedContent": "            \"netmask\": \"255.255.0.0\""
+      },
+      {
+        "row": 21,
+        "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+        "originContent": "          }",
+        "translatedContent": "          }"
+      },
+      {
+        "row": 22,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 23,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 24,
+        "rowsha": "otoA/wOahqaiov9k9N376gbcrVFsd11A6WtWixGcx+g=",
+        "originContent": "          \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices.",
+        "translatedContent": "          \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices."
+      },
+      {
+        "row": 25,
+        "rowsha": "9ICH4QwR0dke5/flQ+4PJBZvWgXM7+Tk/+iamkGebAo=",
+        "originContent": "          \"override\": {",
+        "translatedContent": "          \"override\": {"
+      },
+      {
+        "row": 26,
+        "rowsha": "PWa2Kistxkg4QsA8NNyWsfMZs7UC9Qc0zj9866TXSac=",
+        "originContent": "            \"proto\": \"dhcp\"",
+        "translatedContent": "            \"proto\": \"dhcp\""
+      },
+      {
+        "row": 27,
+        "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+        "originContent": "          }",
+        "translatedContent": "          }"
+      },
+      {
+        "row": 28,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 29,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 30,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 31,
+        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+        "originContent": "  ]",
+        "translatedContent": "  ]"
+      },
+      {
+        "row": 32,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Features\n\n- Store all network config for all devices in a single UCI-like JSON config file (UCI config, packages, firmware versions and more).\n- Conditionally compose your JSON file to support multiple OpenWrt devices, different device models/types, and different roles (Routers, switches and dump-ap's etc).\n- Light abstractions over ethernet ports and WiFi radios to keep multi-device configuration simple.\n- Strict config syntax validation and logical error checking for configuration to prevent invalid configuration.\n- Convert your JSON file into UCI commands for each of your OpenWrt devices.\n- Provision your JSON file to your OpenWrt devices.\n- JSON file migrations to keep your JSON file up-to-date with any UCI configuration changes/updates.\n- Build and flash sysupgrade images to your OpenWrt devices based on your JSON config file.\n\n## Getting started\n\n1. Download OpenWrt Configurator from the [GitHub Releases page](https://github.com/jasrusable/openwrt-configurator/releases).\n\n2. Download a [sample configuration file](https://github.com/jasrusable/openwrt-configurator/tree/main/sampleConfigs).\n\n3. Adjust your configuration file as needed.\n\n4. Print and inspect your device UCI commands.\n",
+    "ContentSha": "/Dd9InXNxlkVm4omkltcmSiExC0MxFfjEcpyvMxFfcQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Fonctionnalités\n\n- Stockez toute la configuration réseau de tous les appareils dans un seul fichier de configuration JSON de type UCI (configuration UCI, paquets, versions du firmware et plus).\n- Composez conditionnellement votre fichier JSON pour prendre en charge plusieurs appareils OpenWrt, différents modèles/types d'appareils, et différents rôles (routeurs, commutateurs et points d'accès dump, etc.).\n- Abstractions légères sur les ports Ethernet et les radios WiFi pour garder la configuration multi-appareils simple.\n- Validation stricte de la syntaxe de la configuration et vérification des erreurs logiques pour éviter une configuration invalide.\n- Convertissez votre fichier JSON en commandes UCI pour chacun de vos appareils OpenWrt.\n- Provisionnez votre fichier JSON sur vos appareils OpenWrt.\n- Migrations de fichiers JSON pour maintenir votre fichier JSON à jour avec les changements/mises à jour de la configuration UCI.\n- Construisez et flashez des images sysupgrade sur vos appareils OpenWrt basées sur votre fichier de configuration JSON.\n\n## Pour commencer\n\n1. Téléchargez OpenWrt Configurator depuis la [page des releases GitHub](https://github.com/jasrusable/openwrt-configurator/releases).\n\n2. Téléchargez un [fichier de configuration exemple](https://github.com/jasrusable/openwrt-configurator/tree/main/sampleConfigs).\n\n3. Ajustez votre fichier de configuration selon vos besoins.\n\n4. Imprimez et inspectez les commandes UCI de votre appareil.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 2,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Stockez toute la configuration réseau de tous les appareils dans un seul fichier de configuration JSON de type UCI (configuration UCI, paquets, versions du firmware et plus)."
+      },
+      {
+        "row": 4,
+        "rowsha": "FfBPkDRfjm9jpjLCSd/rXsZc7vuUu8OYnJ3MNt1+7+I=",
+        "originContent": "- Store all network config for all devices in a single UCI-like JSON config file (UCI config, packages, firmware versions and more).",
+        "translatedContent": "- Composez conditionnellement votre fichier JSON pour prendre en charge plusieurs appareils OpenWrt, différents modèles/types d'appareils, et différents rôles (routeurs, commutateurs et points d'accès dump, etc.)."
+      },
+      {
+        "row": 5,
+        "rowsha": "LHz18i1CygL9pROeXw1tEOh0MVA5CJ5iaaZPS80juQo=",
+        "originContent": "- Conditionally compose your JSON file to support multiple OpenWrt devices, different device models/types, and different roles (Routers, switches and dump-ap's etc).",
+        "translatedContent": "- Abstractions légères sur les ports Ethernet et les radios WiFi pour garder la configuration multi-appareils simple."
+      },
+      {
+        "row": 6,
+        "rowsha": "JpGlFrfhEXLJ28Nvv6DTCiaqXZvEp6T657fHDCUiXy4=",
+        "originContent": "- Light abstractions over ethernet ports and WiFi radios to keep multi-device configuration simple.",
+        "translatedContent": "- Validation stricte de la syntaxe de la configuration et vérification des erreurs logiques pour éviter une configuration invalide."
+      },
+      {
+        "row": 7,
+        "rowsha": "zdm5CE7BtZnlNTFPx/AqKlY1y6DIWv2vu9BfyIZEh58=",
+        "originContent": "- Strict config syntax validation and logical error checking for configuration to prevent invalid configuration.",
+        "translatedContent": "- Convertissez votre fichier JSON en commandes UCI pour chacun de vos appareils OpenWrt."
+      },
+      {
+        "row": 8,
+        "rowsha": "9BNWhGTYxVXz7PngPtu8BSnLdMtXz4gMhNU1qm1h4UI=",
+        "originContent": "- Convert your JSON file into UCI commands for each of your OpenWrt devices.",
+        "translatedContent": "- Provisionnez votre fichier JSON sur vos appareils OpenWrt."
+      },
+      {
+        "row": 9,
+        "rowsha": "o3cTJ3XSph6K2UNZJkiAHLSl5jzZG+sn+/DKUCmdX4Q=",
+        "originContent": "- Provision your JSON file to your OpenWrt devices.",
+        "translatedContent": "- Migrations de fichiers JSON pour maintenir votre fichier JSON à jour avec les changements/mises à jour de la configuration UCI."
+      },
+      {
+        "row": 10,
+        "rowsha": "/wpFNnkR8MMMhj3l/dmVpaS2+2wkqCjgyu9vYohQEYs=",
+        "originContent": "- JSON file migrations to keep your JSON file up-to-date with any UCI configuration changes/updates.",
+        "translatedContent": "- Construisez et flashez des images sysupgrade sur vos appareils OpenWrt basées sur votre fichier de configuration JSON."
+      },
+      {
+        "row": 11,
+        "rowsha": "7AtOdCoHE4aZ30DOFnheB3yZ7LpAaFO1xAGKnOio/a4=",
+        "originContent": "- Build and flash sysupgrade images to your OpenWrt devices based on your JSON config file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Pour commencer"
+      },
+      {
+        "row": 13,
+        "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+        "originContent": "## Getting started",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Téléchargez OpenWrt Configurator depuis la [page des releases GitHub](https://github.com/jasrusable/openwrt-configurator/releases)."
+      },
+      {
+        "row": 15,
+        "rowsha": "SfeN8LNcZncB5z/yYTrS1YBe1h8EdsB+UAPEDPLA26k=",
+        "originContent": "1. Download OpenWrt Configurator from the [GitHub Releases page](https://github.com/jasrusable/openwrt-configurator/releases).",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Téléchargez un [fichier de configuration exemple](https://github.com/jasrusable/openwrt-configurator/tree/main/sampleConfigs)."
+      },
+      {
+        "row": 17,
+        "rowsha": "GMRzWF6csA0uWbhmv9fcGSg4sQbWBCkPF3WsWYM6aUQ=",
+        "originContent": "2. Download a [sample configuration file](https://github.com/jasrusable/openwrt-configurator/tree/main/sampleConfigs).",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Ajustez votre fichier de configuration selon vos besoins."
+      },
+      {
+        "row": 19,
+        "rowsha": "Sc77pEaBSWA/JreiEeLlVjEK/NMAw8v/Kvo+gOW2Cxg=",
+        "originContent": "3. Adjust your configuration file as needed.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. Imprimez et inspectez les commandes UCI de votre appareil."
+      },
+      {
+        "row": 21,
+        "rowsha": "7uwpafnAxRlUQMdoadWK6YbCLBU1VmRkae22QJsABAk=",
+        "originContent": "4. Print and inspect your device UCI commands.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\n$ openwrt-configurator print-uci-commands ./network-config.json\n# device my-ap\napk del --rdepends firewall firewall4\nuci set system.system0=system\nuci set system.system0.hostname='my-ap'\nuci set system.system0.timezone='Africa/Johannesburg'\nuci set network.switch0=switch\nuci set network.switch0.name='switch0'\nuci set network.switch0.reset='1'\nuci set network.switch0.enable_vlan='1'\n...\n```",
+    "ContentSha": "ao8DITAi3szkILRj8sqZ1iUPPbhUaqflAt7ALNju6do=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ openwrt-configurator print-uci-commands ./network-config.json\n# device my-ap\napk del --rdepends firewall firewall4\nuci set system.system0=system\nuci set system.system0.hostname='my-ap'\nuci set system.system0.timezone='Africa/Johannesburg'\nuci set network.switch0=switch\nuci set network.switch0.name='switch0'\nuci set network.switch0.reset='1'\nuci set network.switch0.enable_vlan='1'\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "rEasVO+H1slHJb+PXbzwvfl0dO7cyIhtBKKtDKdgYOk=",
+        "originContent": "$ openwrt-configurator print-uci-commands ./network-config.json",
+        "translatedContent": "$ openwrt-configurator print-uci-commands ./network-config.json"
+      },
+      {
+        "row": 3,
+        "rowsha": "r8dKWeihtMgYbikL4i2B/xKJ/0UnDDmSPHhgAoqbUKA=",
+        "originContent": "# device my-ap",
+        "translatedContent": "# device my-ap"
+      },
+      {
+        "row": 4,
+        "rowsha": "KhzxqAslhs20rrzdtScVKdEFkTpN+kzI5O6o7Kkayl0=",
+        "originContent": "apk del --rdepends firewall firewall4",
+        "translatedContent": "apk del --rdepends firewall firewall4"
+      },
+      {
+        "row": 5,
+        "rowsha": "F+7DW15wQ7phGsajTA7dGOgdXnmopdszwYFRgtuMnIg=",
+        "originContent": "uci set system.system0=system",
+        "translatedContent": "uci set system.system0=system"
+      },
+      {
+        "row": 6,
+        "rowsha": "UtOVP2mACcCwEet0RVVjii5AKp2hm6pICv+JFBtsIWc=",
+        "originContent": "uci set system.system0.hostname='my-ap'",
+        "translatedContent": "uci set system.system0.hostname='my-ap'"
+      },
+      {
+        "row": 7,
+        "rowsha": "r6xHtJSKCR0vkvhD8vZ1sVUW7JKzfDqtxhXLq1XpkK0=",
+        "originContent": "uci set system.system0.timezone='Africa/Johannesburg'",
+        "translatedContent": "uci set system.system0.timezone='Africa/Johannesburg'"
+      },
+      {
+        "row": 8,
+        "rowsha": "nhO9EDT1Kf3pXRIkGObghcE4umBE/AOjpsFk89KDFNk=",
+        "originContent": "uci set network.switch0=switch",
+        "translatedContent": "uci set network.switch0=switch"
+      },
+      {
+        "row": 9,
+        "rowsha": "0PIwpn7/zHxeAt9Qc1Mq567188fymwsFComZ6Tih4yk=",
+        "originContent": "uci set network.switch0.name='switch0'",
+        "translatedContent": "uci set network.switch0.name='switch0'"
+      },
+      {
+        "row": 10,
+        "rowsha": "cH0TpfsUu8dCiHDvs1B/3sYMLRu5uuYHyZCxTWkemTw=",
+        "originContent": "uci set network.switch0.reset='1'",
+        "translatedContent": "uci set network.switch0.reset='1'"
+      },
+      {
+        "row": 11,
+        "rowsha": "cNW4kF2P/K4t+bqF/lcekBiBweO3KwviZGOqUwoLX+c=",
+        "originContent": "uci set network.switch0.enable_vlan='1'",
+        "translatedContent": "uci set network.switch0.enable_vlan='1'"
+      },
+      {
+        "row": 12,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n> Note: For this command to work, SSH details need to be correctly configured in the `provisioning_config` sections for each of your devices.\n\n5. Provision configuration to your devices (Implemented with SSH).\n",
+    "ContentSha": "jpiw5B5sStKbTaUbHNd1+A3IvprtzdLBRf10RL6iJaM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> Remarque : Pour que cette commande fonctionne, les détails SSH doivent être correctement configurés dans les sections `provisioning_config` pour chacun de vos appareils.\n\n5. Provisionnez la configuration sur vos appareils (implémenté avec SSH).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KzTsZiq4O6dniUR1N6gBULElFbyzbnvDBb9XiIZHskg=",
+        "originContent": "> Note: For this command to work, SSH details need to be correctly configured in the `provisioning_config` sections for each of your devices.",
+        "translatedContent": "> Remarque : Pour que cette commande fonctionne, les détails SSH doivent être correctement configurés dans les sections `provisioning_config` pour chacun de vos appareils."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "zjy1ekShZTBksECurIQ+lHpA9Ipg2cnsDk8uTjJ03Vc=",
+        "originContent": "5. Provision configuration to your devices (Implemented with SSH).",
+        "translatedContent": "5. Provisionnez la configuration sur vos appareils (implémenté avec SSH)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh\n$ openwrt-configurator provision ./network-config.json\nProvisioning device \"my-ap\" @ root@10.0.0.218\nConnecting over SSH...\nConnected.\nVerifying device...\nVerified.\nSetting configuration...\nConfiguration set.\nProvisioning completed.\n...\n```",
+    "ContentSha": "PN/lVhX4yOhFdv/ourKhS4NZqZWymucx0DzlK+RX1xM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ openwrt-configurator provision ./network-config.json\nProvisioning device \"my-ap\" @ root@10.0.0.218\nConnecting over SSH...\nConnected.\nVerifying device...\nVerified.\nSetting configuration...\nConfiguration set.\nProvisioning completed.\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "FPwB4eTbVwBruCBOB5zTLezRKsVCE6CV2Vb4OKPaRUE=",
+        "originContent": "$ openwrt-configurator provision ./network-config.json",
+        "translatedContent": "$ openwrt-configurator provision ./network-config.json"
+      },
+      {
+        "row": 3,
+        "rowsha": "vkbnquY3bDsQhIaTPde/Oo7tDVbdPo4rmqxycle26U8=",
+        "originContent": "Provisioning device \"my-ap\" @ root@10.0.0.218",
+        "translatedContent": "Provisioning device \"my-ap\" @ root@10.0.0.218"
+      },
+      {
+        "row": 4,
+        "rowsha": "IcmqiiljAx/FAPvbiLjt/eSgUoU+kDsYhASE4UKHU0s=",
+        "originContent": "Connecting over SSH...",
+        "translatedContent": "Connecting over SSH..."
+      },
+      {
+        "row": 5,
+        "rowsha": "WmH2MIxOirV1MITz5BKYYvIWLqJPz7XuoE2WLimb/0M=",
+        "originContent": "Connected.",
+        "translatedContent": "Connected."
+      },
+      {
+        "row": 6,
+        "rowsha": "Qi842cyTQRKquJpnXlefYfR51WgK/U4yDmZkGd7e8KY=",
+        "originContent": "Verifying device...",
+        "translatedContent": "Verifying device..."
+      },
+      {
+        "row": 7,
+        "rowsha": "v6dAn3ZGldMTGZ8Esf2tQ6jOz/D1SZl3AuA1L7ySs7I=",
+        "originContent": "Verified.",
+        "translatedContent": "Verified."
+      },
+      {
+        "row": 8,
+        "rowsha": "PEMvhE8YNkummYePKt+x9s1ny4fA4P7d8cn3QtUMVT8=",
+        "originContent": "Setting configuration...",
+        "translatedContent": "Setting configuration..."
+      },
+      {
+        "row": 9,
+        "rowsha": "SWxKRVqX3PjdPBO/Zj0uh0oN5h9ep7QNVSYRIqLMzfE=",
+        "originContent": "Configuration set.",
+        "translatedContent": "Configuration set."
+      },
+      {
+        "row": 10,
+        "rowsha": "WqnRMVPb67z3UJSZNu4tCmiAXMVBok6c4YQxkDfBDbU=",
+        "originContent": "Provisioning completed.",
+        "translatedContent": "Provisioning completed."
+      },
+      {
+        "row": 11,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n> Note: For this command to work, SSH details need to be correctly configured in the `provisioning_config` sections for each of your devices.\n\n## How it works\n\n1. Add your devices to the JSON config file.\n",
+    "ContentSha": "nRyAUk6OHYvYYqpNQ/6mlx0QmNx76Z7EiqVVGToS0hk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> Remarque : Pour que cette commande fonctionne, les détails SSH doivent être correctement configurés dans les sections `provisioning_config` pour chacun de vos appareils.\n\n## Comment ça fonctionne\n\n1. Ajoutez vos appareils dans le fichier de configuration JSON.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KzTsZiq4O6dniUR1N6gBULElFbyzbnvDBb9XiIZHskg=",
+        "originContent": "> Note: For this command to work, SSH details need to be correctly configured in the `provisioning_config` sections for each of your devices.",
+        "translatedContent": "> Remarque : Pour que cette commande fonctionne, les détails SSH doivent être correctement configurés dans les sections `provisioning_config` pour chacun de vos appareils."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+        "originContent": "## How it works",
+        "translatedContent": "## Comment ça fonctionne"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZOTeO78tp0cFvuhpAJnxAV/YCKp0i/n7kxoDKYL9VRE=",
+        "originContent": "1. Add your devices to the JSON config file.",
+        "translatedContent": "1. Ajoutez vos appareils dans le fichier de configuration JSON."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```json\n  \"devices\": [\n    {\n      \"model_id\": \"ubnt,edgerouter-x\",\n      \"ipaddr\": \"10.0.0.1\",\n      \"tags\": { \"role\": \"router\" }, // Give the Edgerouter a tag with role of \"router\".\n      \"hostname\": \"my-router\",\n      \"provisioning_config\": {\n        \"ssh_auth\": {\n          \"username\": \"root\",\n          \"password\": \"123\"\n        }\n      }\n    },\n    {\n      \"model_id\": \"tplink,eap245-v3\",\n      \"ipaddr\": \"10.0.0.218\",\n      \"tags\": { \"role\": \"ap\" }, // Give the EAP245 a tag with role of \"ap\".\n      \"hostname\": \"my-ap\",\n      \"provisioning_config\": {\n        \"ssh_auth\": {\n          \"username\": \"root\",\n          \"password\": \"123\"\n        }\n      }\n    }\n  ],\n```",
+    "ContentSha": "zy+JdE+3c5qjb4dC1o9u2RJNUOkou4fYoB1yc9aqkdY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n  \"devices\": [\n    {\n      \"model_id\": \"ubnt,edgerouter-x\",\n      \"ipaddr\": \"10.0.0.1\",\n      \"tags\": { \"role\": \"router\" }, // Give the Edgerouter a tag with role of \"router\".\n      \"hostname\": \"my-router\",\n      \"provisioning_config\": {\n        \"ssh_auth\": {\n          \"username\": \"root\",\n          \"password\": \"123\"\n        }\n      }\n    },\n    {\n      \"model_id\": \"tplink,eap245-v3\",\n      \"ipaddr\": \"10.0.0.218\",\n      \"tags\": { \"role\": \"ap\" }, // Give the EAP245 a tag with role of \"ap\".\n      \"hostname\": \"my-ap\",\n      \"provisioning_config\": {\n        \"ssh_auth\": {\n          \"username\": \"root\",\n          \"password\": \"123\"\n        }\n      }\n    }\n  ],\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "vOualcBBRHRQ+W3pRH2yPjClhIYCj4ooRxj3Rf6wxGY=",
+        "originContent": "  \"devices\": [",
+        "translatedContent": "  \"devices\": ["
+      },
+      {
+        "row": 3,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 4,
+        "rowsha": "phRdG4hWeRswiay5Gv+k/s21Yd+Vzf49HFOtoIZpPVE=",
+        "originContent": "      \"model_id\": \"ubnt,edgerouter-x\",",
+        "translatedContent": "      \"model_id\": \"ubnt,edgerouter-x\","
+      },
+      {
+        "row": 5,
+        "rowsha": "yqGqiCJgKMUjDNTJHUh2OMz64cZCBznb+lfD/uwJBQE=",
+        "originContent": "      \"ipaddr\": \"10.0.0.1\",",
+        "translatedContent": "      \"ipaddr\": \"10.0.0.1\","
+      },
+      {
+        "row": 6,
+        "rowsha": "a/GBCRLLecXNy8lHUinxqqGkcWzgFg1vlmoM4w9EdNg=",
+        "originContent": "      \"tags\": { \"role\": \"router\" }, // Give the Edgerouter a tag with role of \"router\".",
+        "translatedContent": "      \"tags\": { \"role\": \"router\" }, // Give the Edgerouter a tag with role of \"router\"."
+      },
+      {
+        "row": 7,
+        "rowsha": "zzCzkmT0V1eKoNqPnBbG6fEyhrSZ0V/QucGSNLwpI5A=",
+        "originContent": "      \"hostname\": \"my-router\",",
+        "translatedContent": "      \"hostname\": \"my-router\","
+      },
+      {
+        "row": 8,
+        "rowsha": "RQRXAmtxy0DV4de67kB+pSsCsL5Cr7FnGB8c3oPbos8=",
+        "originContent": "      \"provisioning_config\": {",
+        "translatedContent": "      \"provisioning_config\": {"
+      },
+      {
+        "row": 9,
+        "rowsha": "8HkYtN/ocwuUWeycJ7gJyIv1jyyh05QsNWTgEwodGZE=",
+        "originContent": "        \"ssh_auth\": {",
+        "translatedContent": "        \"ssh_auth\": {"
+      },
+      {
+        "row": 10,
+        "rowsha": "vKneJR+edz5xjC4v/djTORiaoLCooZ4peHCGFm9DJd0=",
+        "originContent": "          \"username\": \"root\",",
+        "translatedContent": "          \"username\": \"root\","
+      },
+      {
+        "row": 11,
+        "rowsha": "APkA8s3rTUQjtfANc4olHCgDBl0/ICQlx66Bs96TR9k=",
+        "originContent": "          \"password\": \"123\"",
+        "translatedContent": "          \"password\": \"123\""
+      },
+      {
+        "row": 12,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 13,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 14,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 15,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 16,
+        "rowsha": "3s/L0dx1JMWC9KINwdLu1iCVAAG6OTEOqOvTlpZ3u5A=",
+        "originContent": "      \"model_id\": \"tplink,eap245-v3\",",
+        "translatedContent": "      \"model_id\": \"tplink,eap245-v3\","
+      },
+      {
+        "row": 17,
+        "rowsha": "TsYdaDVYrKtSHy7yBape0acDZMHwpzhvteefD1UGEsI=",
+        "originContent": "      \"ipaddr\": \"10.0.0.218\",",
+        "translatedContent": "      \"ipaddr\": \"10.0.0.218\","
+      },
+      {
+        "row": 18,
+        "rowsha": "JP5JylMNt8zKiwnh5c5aVMdYpKMNRe9akfeTU17Mdzo=",
+        "originContent": "      \"tags\": { \"role\": \"ap\" }, // Give the EAP245 a tag with role of \"ap\".",
+        "translatedContent": "      \"tags\": { \"role\": \"ap\" }, // Give the EAP245 a tag with role of \"ap\"."
+      },
+      {
+        "row": 19,
+        "rowsha": "AmeWXnN7xAFF6ddHLDomBxQAihNNHDV6ZXwuv9nyxkE=",
+        "originContent": "      \"hostname\": \"my-ap\",",
+        "translatedContent": "      \"hostname\": \"my-ap\","
+      },
+      {
+        "row": 20,
+        "rowsha": "RQRXAmtxy0DV4de67kB+pSsCsL5Cr7FnGB8c3oPbos8=",
+        "originContent": "      \"provisioning_config\": {",
+        "translatedContent": "      \"provisioning_config\": {"
+      },
+      {
+        "row": 21,
+        "rowsha": "8HkYtN/ocwuUWeycJ7gJyIv1jyyh05QsNWTgEwodGZE=",
+        "originContent": "        \"ssh_auth\": {",
+        "translatedContent": "        \"ssh_auth\": {"
+      },
+      {
+        "row": 22,
+        "rowsha": "vKneJR+edz5xjC4v/djTORiaoLCooZ4peHCGFm9DJd0=",
+        "originContent": "          \"username\": \"root\",",
+        "translatedContent": "          \"username\": \"root\","
+      },
+      {
+        "row": 23,
+        "rowsha": "APkA8s3rTUQjtfANc4olHCgDBl0/ICQlx66Bs96TR9k=",
+        "originContent": "          \"password\": \"123\"",
+        "translatedContent": "          \"password\": \"123\""
+      },
+      {
+        "row": 24,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 25,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 26,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 27,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 28,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n2. Specify which packages you wanted installed or uninstalled on your devices.\n",
+    "ContentSha": "ZHydUxJPQdhf1J6Qt8wFhhO+U+GEIJBUa1PCkTvNGK4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Spécifiez quels paquets vous souhaitez installer ou désinstaller sur vos appareils.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "b5RVViC8e1ftTlBdvdZihCwrCv5TLucZ2bbxbYsoiog=",
+        "originContent": "2. Specify which packages you wanted installed or uninstalled on your devices.",
+        "translatedContent": "2. Spécifiez quels paquets vous souhaitez installer ou désinstaller sur vos appareils."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```json\n  \"package_profiles\": [\n    {\n      \".if\": \"device.tag.role == 'router'\", // Install sqm and https-dns-proxy on the router.\n      \"packages\": [\n        \"sqm-scripts\",\n        \"luci-app-sqm\",\n        \"https-dns-proxy\",\n        \"luci-app-https-dns-proxy\"\n      ]\n    },\n    {\n      \".if\": \"device.tag.role == 'ap'\", // Uninstall firewall packages from ap's.\n      \"packages\": [\"-firewall\", \"-firewall4\"]\n    }\n  ],\n```",
+    "ContentSha": "H3AgM/LbGoTAHRJqjMi5yEU5/G6E6Oml+O88mxwduAs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n  \"package_profiles\": [\n    {\n      \".if\": \"device.tag.role == 'router'\", // Install sqm and https-dns-proxy on the router.\n      \"packages\": [\n        \"sqm-scripts\",\n        \"luci-app-sqm\",\n        \"https-dns-proxy\",\n        \"luci-app-https-dns-proxy\"\n      ]\n    },\n    {\n      \".if\": \"device.tag.role == 'ap'\", // Uninstall firewall packages from ap's.\n      \"packages\": [\"-firewall\", \"-firewall4\"]\n    }\n  ],\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "iADpcc6XzGJ5yXX4IZcHCICm3wKCxSly8AWJZJxxrBQ=",
+        "originContent": "  \"package_profiles\": [",
+        "translatedContent": "  \"package_profiles\": ["
+      },
+      {
+        "row": 3,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 4,
+        "rowsha": "EHNPeKEXa8iK+2YWrIRAL+8KSMJodTxCCr7095nC7Aw=",
+        "originContent": "      \".if\": \"device.tag.role == 'router'\", // Install sqm and https-dns-proxy on the router.",
+        "translatedContent": "      \".if\": \"device.tag.role == 'router'\", // Install sqm and https-dns-proxy on the router."
+      },
+      {
+        "row": 5,
+        "rowsha": "+zQKGMbTlJKLL6Vdo52magFrAoLgq/MRXaGGg3KRtJk=",
+        "originContent": "      \"packages\": [",
+        "translatedContent": "      \"packages\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "t7qWB/zRM45M6LtAiU+tDW5hpZGbM6WnfmM/hDUK6tQ=",
+        "originContent": "        \"sqm-scripts\",",
+        "translatedContent": "        \"sqm-scripts\","
+      },
+      {
+        "row": 7,
+        "rowsha": "ns8eaPwjxLaQ2mJwZZpTs3jB9kqW/UdshYwjBMYP0wg=",
+        "originContent": "        \"luci-app-sqm\",",
+        "translatedContent": "        \"luci-app-sqm\","
+      },
+      {
+        "row": 8,
+        "rowsha": "K5g1smLaHoA+Ml7wdkdHtP0jw+yL/0q5cT6zmnkqlrk=",
+        "originContent": "        \"https-dns-proxy\",",
+        "translatedContent": "        \"https-dns-proxy\","
+      },
+      {
+        "row": 9,
+        "rowsha": "1PGvF8+6IrQYz3+pec3kumB7flxj4iVyu0yawMUMOmY=",
+        "originContent": "        \"luci-app-https-dns-proxy\"",
+        "translatedContent": "        \"luci-app-https-dns-proxy\""
+      },
+      {
+        "row": 10,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 11,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 12,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 13,
+        "rowsha": "fnCumdMxW2UjY+XSATuPgvJPEk0/m9ZaKTnHOiiyE68=",
+        "originContent": "      \".if\": \"device.tag.role == 'ap'\", // Uninstall firewall packages from ap's.",
+        "translatedContent": "      \".if\": \"device.tag.role == 'ap'\", // Uninstall firewall packages from ap's."
+      },
+      {
+        "row": 14,
+        "rowsha": "mRtp/0msqACgXrx9Kqnztx5AVezucUHmdgjgejTghn4=",
+        "originContent": "      \"packages\": [\"-firewall\", \"-firewall4\"]",
+        "translatedContent": "      \"packages\": [\"-firewall\", \"-firewall4\"]"
+      },
+      {
+        "row": 15,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 16,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n3. Specify your UCI configuration in JSON, and add `.if` and/or `.overrides` keys to apply configuration conditionally.\n",
+    "ContentSha": "VM0vzts3Si5xjOzu1g8a6tCvzeEVcZcAY7GNXaCq2LE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Spécifiez votre configuration UCI en JSON, et ajoutez les clés `.if` et/ou `.overrides` pour appliquer la configuration de manière conditionnelle.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Spécifiez votre configuration UCI en JSON, et ajoutez les clés `.if` et/ou `.overrides` pour appliquer la configuration de manière conditionnelle."
+      },
+      {
+        "row": 2,
+        "rowsha": "WuEYJ8gxFZxM5U4hSsEa3WK8D5HeXcaMb6wEaJ2eh8E=",
+        "originContent": "3. Specify your UCI configuration in JSON, and add `.if` and/or `.overrides` keys to apply configuration conditionally.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```json\n  \"config\": {\n    \"dropbear\": {\n      \"dropbear\": [\n        {\n          \"PasswordAuth\": \"on\",\n          \"RootPasswordAuth\": \"on\",\n          \"Port\": 22,\n          \"BannerFile\": \"/etc/banner\"\n        }\n      ]\n    },\n    \"system\": {\n      \"system\": [\n        {\n          \"timezone\": \"Africa/Johannesburg\"\n        }\n      ]\n    },\n    \"interface\": [\n      {\n        \".name\": \"loopback\",\n        \"device\": \"lo\",\n        \"proto\": \"static\",\n        \"ipaddr\": \"127.0.0.1\",\n        \"netmask\": \"255.0.0.0\"\n      },\n      {\n        \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router.\n        \".name\": \"wan\",\n        \"device\": \"eth0\",\n        \"proto\": \"pppoe\",\n        \"username\": \"me@pppoe.com\",\n        \"password\": \"123\"\n      },\n      {\n        \".name\": \"lan\",\n        \"device\": \"br-lan.1\",\n        \".overrides\": [\n          {\n            \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router.\n            \"override\": {\n              \"proto\": \"static\",\n              \"ipaddr\": \"10.0.0.1\",\n              \"netmask\": \"255.255.0.0\"\n            }\n          },\n          {\n            \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices.\n            \"override\": {\n              \"proto\": \"dhcp\"\n            }\n          }\n        ]\n      }\n    ],\n    \"wireless\": {\n      \".if\": \"device.tag.role == 'ap'\", // Applies the entire \"wireless\" object to only devices with the \"ap\" tag set.\n      \"wifi-device\": [\n        {\n          \".name\": \"radio0\",\n          \"band\": \"2g\"\n        },\n        {\n          \".name\": \"radio1\",\n          \"band\": \"5g\"\n        }\n      ],\n      \"wifi-iface\": [\n        {\n          \"mode\": \"ap\",\n          \"device\": [\"radio0\", \"radio1\"],\n          \"network\": \"lan\",\n          \"ssid\": \"my-ssid\",\n          \"encryption\": \"psk2\",\n          \"key\": \"123456789\"\n        },\n        {\n          \"mode\": \"ap\",\n          \"device\": [\"radio0\", \"radio1\"],\n          \"network\": \"guest\",\n          \"ssid\": \"my-ssid-guest\",\n          \"encryption\": \"none\"\n        }\n      ]\n    }\n  }\n```",
+    "ContentSha": "Xd31F8rF1ew3jVMkJGeWJyZUcehHsYVNtiSG9Onoc5s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n  \"config\": {\n    \"dropbear\": {\n      \"dropbear\": [\n        {\n          \"PasswordAuth\": \"on\",\n          \"RootPasswordAuth\": \"on\",\n          \"Port\": 22,\n          \"BannerFile\": \"/etc/banner\"\n        }\n      ]\n    },\n    \"system\": {\n      \"system\": [\n        {\n          \"timezone\": \"Africa/Johannesburg\"\n        }\n      ]\n    },\n    \"interface\": [\n      {\n        \".name\": \"loopback\",\n        \"device\": \"lo\",\n        \"proto\": \"static\",\n        \"ipaddr\": \"127.0.0.1\",\n        \"netmask\": \"255.0.0.0\"\n      },\n      {\n        \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router.\n        \".name\": \"wan\",\n        \"device\": \"eth0\",\n        \"proto\": \"pppoe\",\n        \"username\": \"me@pppoe.com\",\n        \"password\": \"123\"\n      },\n      {\n        \".name\": \"lan\",\n        \"device\": \"br-lan.1\",\n        \".overrides\": [\n          {\n            \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router.\n            \"override\": {\n              \"proto\": \"static\",\n              \"ipaddr\": \"10.0.0.1\",\n              \"netmask\": \"255.255.0.0\"\n            }\n          },\n          {\n            \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices.\n            \"override\": {\n              \"proto\": \"dhcp\"\n            }\n          }\n        ]\n      }\n    ],\n    \"wireless\": {\n      \".if\": \"device.tag.role == 'ap'\", // Applies the entire \"wireless\" object to only devices with the \"ap\" tag set.\n      \"wifi-device\": [\n        {\n          \".name\": \"radio0\",\n          \"band\": \"2g\"\n        },\n        {\n          \".name\": \"radio1\",\n          \"band\": \"5g\"\n        }\n      ],\n      \"wifi-iface\": [\n        {\n          \"mode\": \"ap\",\n          \"device\": [\"radio0\", \"radio1\"],\n          \"network\": \"lan\",\n          \"ssid\": \"my-ssid\",\n          \"encryption\": \"psk2\",\n          \"key\": \"123456789\"\n        },\n        {\n          \"mode\": \"ap\",\n          \"device\": [\"radio0\", \"radio1\"],\n          \"network\": \"guest\",\n          \"ssid\": \"my-ssid-guest\",\n          \"encryption\": \"none\"\n        }\n      ]\n    }\n  }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "ky7yQuYarQmi4o9E9bvePgN3TVbApvVOABXwuM4jevY=",
+        "originContent": "  \"config\": {",
+        "translatedContent": "  \"config\": {"
+      },
+      {
+        "row": 3,
+        "rowsha": "LUtAaszhNbxds/YmgqC0BoT8nDGbNkkswlZGD5C4Gy8=",
+        "originContent": "    \"dropbear\": {",
+        "translatedContent": "    \"dropbear\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "kIPJjYqe9MMGSHJPmLUd+dcCyat1tek3hk48E66ksYY=",
+        "originContent": "      \"dropbear\": [",
+        "translatedContent": "      \"dropbear\": ["
+      },
+      {
+        "row": 5,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 6,
+        "rowsha": "M4slaveWR4IVtJ3AOXuzEszD2F9ImlMJNNiUx/EgHHE=",
+        "originContent": "          \"PasswordAuth\": \"on\",",
+        "translatedContent": "          \"PasswordAuth\": \"on\","
+      },
+      {
+        "row": 7,
+        "rowsha": "+4CCl2PIAG2LgtB68ONuL+x4LeKYuYPGS52xSxDYmlc=",
+        "originContent": "          \"RootPasswordAuth\": \"on\",",
+        "translatedContent": "          \"RootPasswordAuth\": \"on\","
+      },
+      {
+        "row": 8,
+        "rowsha": "wSaKuPNrXIk4016LHrbOyGdLji4VrDq8oIlTEapMSW0=",
+        "originContent": "          \"Port\": 22,",
+        "translatedContent": "          \"Port\": 22,"
+      },
+      {
+        "row": 9,
+        "rowsha": "tKxTIB6EMLnZyILBlE1+CYq41N8/PTkVnN5HXFugtl8=",
+        "originContent": "          \"BannerFile\": \"/etc/banner\"",
+        "translatedContent": "          \"BannerFile\": \"/etc/banner\""
+      },
+      {
+        "row": 10,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 11,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 12,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 13,
+        "rowsha": "HqmdeyEVz9buMgpOXB8I0cMS8qjuPJGsiDWkXcWIKzg=",
+        "originContent": "    \"system\": {",
+        "translatedContent": "    \"system\": {"
+      },
+      {
+        "row": 14,
+        "rowsha": "BxlsPGXNQblzEzsuaDQQbrfY2tawv5gizbxFEGF9X7g=",
+        "originContent": "      \"system\": [",
+        "translatedContent": "      \"system\": ["
+      },
+      {
+        "row": 15,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 16,
+        "rowsha": "02EQuzCmOA4bMvO6PQu5PYehNqDbGVeOeORAGaAMMgE=",
+        "originContent": "          \"timezone\": \"Africa/Johannesburg\"",
+        "translatedContent": "          \"timezone\": \"Africa/Johannesburg\""
+      },
+      {
+        "row": 17,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 18,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 19,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 20,
+        "rowsha": "1dUzKhdXD5ynunaq32h1m/Dfzfa2dSJGWnFzn0/mq4c=",
+        "originContent": "    \"interface\": [",
+        "translatedContent": "    \"interface\": ["
+      },
+      {
+        "row": 21,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 22,
+        "rowsha": "pYJ3nYvje0ChUcNl5sm8bcC5ti4BJHgJ6Mgb1dSSfZM=",
+        "originContent": "        \".name\": \"loopback\",",
+        "translatedContent": "        \".name\": \"loopback\","
+      },
+      {
+        "row": 23,
+        "rowsha": "rofmPTA88nIykxFP0MoK3snRqPN6ovzgtnkfPG+bPW4=",
+        "originContent": "        \"device\": \"lo\",",
+        "translatedContent": "        \"device\": \"lo\","
+      },
+      {
+        "row": 24,
+        "rowsha": "B+xsFuxcGd3bhTswFHA2HbVHoqUZPvazBzbA11/7Lvk=",
+        "originContent": "        \"proto\": \"static\",",
+        "translatedContent": "        \"proto\": \"static\","
+      },
+      {
+        "row": 25,
+        "rowsha": "D1aWDUNaLcJIOyLn4jvRdyOhyX9Iu075U9tqbQNVz6Y=",
+        "originContent": "        \"ipaddr\": \"127.0.0.1\",",
+        "translatedContent": "        \"ipaddr\": \"127.0.0.1\","
+      },
+      {
+        "row": 26,
+        "rowsha": "svPayZCrjI9CQfx4DeupjrrvN8o+dceTdL92ytSyg/A=",
+        "originContent": "        \"netmask\": \"255.0.0.0\"",
+        "translatedContent": "        \"netmask\": \"255.0.0.0\""
+      },
+      {
+        "row": 27,
+        "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+        "originContent": "      },",
+        "translatedContent": "      },"
+      },
+      {
+        "row": 28,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 29,
+        "rowsha": "/MyTFy2PNv+oYEd1LW3o91KV1qo1VaojdCWu1n1Nmu8=",
+        "originContent": "        \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router.",
+        "translatedContent": "        \".if\": \"device.tag.role == 'router'\", // Apply the pppoe interface to only the router."
+      },
+      {
+        "row": 30,
+        "rowsha": "LY2oRfDjTQNpME3A0koXRocEp3VUFEIvNELFRGAL45A=",
+        "originContent": "        \".name\": \"wan\",",
+        "translatedContent": "        \".name\": \"wan\","
+      },
+      {
+        "row": 31,
+        "rowsha": "gljDDbLsevSn2eJYkd+ezoVZXwGTTvjK3qTSX2qjOZ0=",
+        "originContent": "        \"device\": \"eth0\",",
+        "translatedContent": "        \"device\": \"eth0\","
+      },
+      {
+        "row": 32,
+        "rowsha": "9tjKSRTWKuu9gnpaVHUwPgKLR6kT6Hpv2JYLutvIYds=",
+        "originContent": "        \"proto\": \"pppoe\",",
+        "translatedContent": "        \"proto\": \"pppoe\","
+      },
+      {
+        "row": 33,
+        "rowsha": "WVjcz0tWzXiyL1GBPPLf2sFkaSre1NhhQAy+vQYtxg8=",
+        "originContent": "        \"username\": \"me@pppoe.com\",",
+        "translatedContent": "        \"username\": \"me@pppoe.com\","
+      },
+      {
+        "row": 34,
+        "rowsha": "QN1XNH96G768OaMTkG9DRGIfq77JyqXj7ikz+0E0twE=",
+        "originContent": "        \"password\": \"123\"",
+        "translatedContent": "        \"password\": \"123\""
+      },
+      {
+        "row": 35,
+        "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+        "originContent": "      },",
+        "translatedContent": "      },"
+      },
+      {
+        "row": 36,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 37,
+        "rowsha": "zhG/IAtY3rl1NXJd3juNDQcomI5ECkpCx1kaM8rARaE=",
+        "originContent": "        \".name\": \"lan\",",
+        "translatedContent": "        \".name\": \"lan\","
+      },
+      {
+        "row": 38,
+        "rowsha": "LBQshWqM/QtsG6xo3Pjd90t0NrFY/44wnJcziIGgQf8=",
+        "originContent": "        \"device\": \"br-lan.1\",",
+        "translatedContent": "        \"device\": \"br-lan.1\","
+      },
+      {
+        "row": 39,
+        "rowsha": "cVYvu6JYZigz1wm4xrdAW2qa0z5K3FiPdv7KG3Q6maU=",
+        "originContent": "        \".overrides\": [",
+        "translatedContent": "        \".overrides\": ["
+      },
+      {
+        "row": 40,
+        "rowsha": "jDCd96Ge0v7+/ljCWQOX10iZI4/17fzHwg6LvQHu2o4=",
+        "originContent": "          {",
+        "translatedContent": "          {"
+      },
+      {
+        "row": 41,
+        "rowsha": "dezuEPfVUH/anBLZiQOgQiYppfOYfkKHsyWMudOGp20=",
+        "originContent": "            \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router.",
+        "translatedContent": "            \".if\": \"device.tag.role == 'router'\", // Apply a static ip to only the router."
+      },
+      {
+        "row": 42,
+        "rowsha": "IuOUWs/c0WyAff2maAF/YjEC8WzF/QGZ6iFVq/r5Mq8=",
+        "originContent": "            \"override\": {",
+        "translatedContent": "            \"override\": {"
+      },
+      {
+        "row": 43,
+        "rowsha": "HoZM/pt4F3bbmp9VY8D3s4wiySG1x09K/GES0Ofwj+g=",
+        "originContent": "              \"proto\": \"static\",",
+        "translatedContent": "              \"proto\": \"static\","
+      },
+      {
+        "row": 44,
+        "rowsha": "vmpg1JQ+CFWldwRB7r/eUXThIErxpFQviJbZlZWJkyA=",
+        "originContent": "              \"ipaddr\": \"10.0.0.1\",",
+        "translatedContent": "              \"ipaddr\": \"10.0.0.1\","
+      },
+      {
+        "row": 45,
+        "rowsha": "Q7yHECS48jHfNww7iyt/FSNrMz6+T7rn8bFsuBRan5Y=",
+        "originContent": "              \"netmask\": \"255.255.0.0\"",
+        "translatedContent": "              \"netmask\": \"255.255.0.0\""
+      },
+      {
+        "row": 46,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 47,
+        "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+        "originContent": "          },",
+        "translatedContent": "          },"
+      },
+      {
+        "row": 48,
+        "rowsha": "jDCd96Ge0v7+/ljCWQOX10iZI4/17fzHwg6LvQHu2o4=",
+        "originContent": "          {",
+        "translatedContent": "          {"
+      },
+      {
+        "row": 49,
+        "rowsha": "dg+pjeTRXBQ396nv91Tlxo8+tPNoGiFO0ZEatKqKDN4=",
+        "originContent": "            \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices.",
+        "translatedContent": "            \".if\": \"device.tag.role != 'router'\", // Apply dhcp to all non-router devices."
+      },
+      {
+        "row": 50,
+        "rowsha": "IuOUWs/c0WyAff2maAF/YjEC8WzF/QGZ6iFVq/r5Mq8=",
+        "originContent": "            \"override\": {",
+        "translatedContent": "            \"override\": {"
+      },
+      {
+        "row": 51,
+        "rowsha": "5QxkkABZMYIcF3u6POPnVBLi2aDiWPr5K5Dcydv3EgU=",
+        "originContent": "              \"proto\": \"dhcp\"",
+        "translatedContent": "              \"proto\": \"dhcp\""
+      },
+      {
+        "row": 52,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 53,
+        "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+        "originContent": "          }",
+        "translatedContent": "          }"
+      },
+      {
+        "row": 54,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 55,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 56,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 57,
+        "rowsha": "1gWbz4g6XKCitNgLTN1jX/7oDPhpGv45hLaXjJTm39o=",
+        "originContent": "    \"wireless\": {",
+        "translatedContent": "    \"wireless\": {"
+      },
+      {
+        "row": 58,
+        "rowsha": "BCqCZf9y+7dmppr+PpVpDXK/hRdRVeSpkLOZQsU2D7Q=",
+        "originContent": "      \".if\": \"device.tag.role == 'ap'\", // Applies the entire \"wireless\" object to only devices with the \"ap\" tag set.",
+        "translatedContent": "      \".if\": \"device.tag.role == 'ap'\", // Applies the entire \"wireless\" object to only devices with the \"ap\" tag set."
+      },
+      {
+        "row": 59,
+        "rowsha": "YN/EIl+ZGi63dZmggrNPAdtzg42EwwpCtd2d9MiYsSg=",
+        "originContent": "      \"wifi-device\": [",
+        "translatedContent": "      \"wifi-device\": ["
+      },
+      {
+        "row": 60,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 61,
+        "rowsha": "hFudSyYXvDnp3b2urj94To6+Cztm+eqamnGAZbxYUpI=",
+        "originContent": "          \".name\": \"radio0\",",
+        "translatedContent": "          \".name\": \"radio0\","
+      },
+      {
+        "row": 62,
+        "rowsha": "Gj5EColdoFvc0fZea31eGaNDCDKmweTdNP64x8sklc0=",
+        "originContent": "          \"band\": \"2g\"",
+        "translatedContent": "          \"band\": \"2g\""
+      },
+      {
+        "row": 63,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 64,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 65,
+        "rowsha": "G6cBDRSa/F5UBZQRGvxrUUHx1qyaLNa8Mn05PMoLDVs=",
+        "originContent": "          \".name\": \"radio1\",",
+        "translatedContent": "          \".name\": \"radio1\","
+      },
+      {
+        "row": 66,
+        "rowsha": "X4EjFlfYEG61ISYX37jFV15NHQmaTs39/XdH0UG1sE0=",
+        "originContent": "          \"band\": \"5g\"",
+        "translatedContent": "          \"band\": \"5g\""
+      },
+      {
+        "row": 67,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 68,
+        "rowsha": "8K9r02+tM+/3fDviTOH199SVi9/KU+cHxWq+FcmFrtM=",
+        "originContent": "      ],",
+        "translatedContent": "      ],"
+      },
+      {
+        "row": 69,
+        "rowsha": "s6B0/hEIAHhHwUS8qmZkvWTfSGYrHr4wE1wRFreYef8=",
+        "originContent": "      \"wifi-iface\": [",
+        "translatedContent": "      \"wifi-iface\": ["
+      },
+      {
+        "row": 70,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 71,
+        "rowsha": "59ilWmGCEvqFZjFLl6xkEGpuh3KPVSnZVEEOsHR4HhY=",
+        "originContent": "          \"mode\": \"ap\",",
+        "translatedContent": "          \"mode\": \"ap\","
+      },
+      {
+        "row": 72,
+        "rowsha": "MC3Cpu4O3h0ZpV/hkVnC2IuQJz3+1XUFmcJ2aG2xS+0=",
+        "originContent": "          \"device\": [\"radio0\", \"radio1\"],",
+        "translatedContent": "          \"device\": [\"radio0\", \"radio1\"],"
+      },
+      {
+        "row": 73,
+        "rowsha": "RVWvJadBPZuhPb5mdygiKoR2GPyzQwLHuIAHlSxKio4=",
+        "originContent": "          \"network\": \"lan\",",
+        "translatedContent": "          \"network\": \"lan\","
+      },
+      {
+        "row": 74,
+        "rowsha": "95YBS0unYcy9TXAfowh7n/Lh2HVLLm/8Wowj+5F+q3U=",
+        "originContent": "          \"ssid\": \"my-ssid\",",
+        "translatedContent": "          \"ssid\": \"my-ssid\","
+      },
+      {
+        "row": 75,
+        "rowsha": "B+1VEV0SBfCllGhnSvh+8lXUrtr85KW/64gp3hCZQaY=",
+        "originContent": "          \"encryption\": \"psk2\",",
+        "translatedContent": "          \"encryption\": \"psk2\","
+      },
+      {
+        "row": 76,
+        "rowsha": "non7L0d+63mynav7KBW9OWqgqB87xecTV0uyN8ipKDk=",
+        "originContent": "          \"key\": \"123456789\"",
+        "translatedContent": "          \"key\": \"123456789\""
+      },
+      {
+        "row": 77,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 78,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 79,
+        "rowsha": "59ilWmGCEvqFZjFLl6xkEGpuh3KPVSnZVEEOsHR4HhY=",
+        "originContent": "          \"mode\": \"ap\",",
+        "translatedContent": "          \"mode\": \"ap\","
+      },
+      {
+        "row": 80,
+        "rowsha": "MC3Cpu4O3h0ZpV/hkVnC2IuQJz3+1XUFmcJ2aG2xS+0=",
+        "originContent": "          \"device\": [\"radio0\", \"radio1\"],",
+        "translatedContent": "          \"device\": [\"radio0\", \"radio1\"],"
+      },
+      {
+        "row": 81,
+        "rowsha": "MmTdA8bKBsG9uWkiDwYtCglhdye9TXITyZ4veJ15KsQ=",
+        "originContent": "          \"network\": \"guest\",",
+        "translatedContent": "          \"network\": \"guest\","
+      },
+      {
+        "row": 82,
+        "rowsha": "PaFIPiFK6m6SCU7yV+7fV7xbQNuTnbDhMc3DNMJOAnE=",
+        "originContent": "          \"ssid\": \"my-ssid-guest\",",
+        "translatedContent": "          \"ssid\": \"my-ssid-guest\","
+      },
+      {
+        "row": 83,
+        "rowsha": "IhrEr18f69ZJEaKp8thhfeyyphbNT2RYNGync1zXCy8=",
+        "originContent": "          \"encryption\": \"none\"",
+        "translatedContent": "          \"encryption\": \"none\""
+      },
+      {
+        "row": 84,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 85,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 86,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 87,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 88,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Roadmap\n\n### Short-term\n\n- Improve README.md and add more documentation.\n- Add more configuration validation and error checking.\n- Improve error handling and messages.\n- Add more sample configurations.\n- Support firmware building and flashing.\n\n### Long-term\n\n- Configuration migrations.\n- Reduce CLI executable size.\n- Web UI for building configuration.\n",
+    "ContentSha": "xfRh3UMnxG8KVkSh3jaMlyjc71FV8DCsXYX6/E+1SbM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Feuille de route\n\n### Court terme\n\n- Améliorer le README.md et ajouter plus de documentation.\n- Ajouter plus de validation de configuration et de vérification des erreurs.\n- Améliorer la gestion des erreurs et les messages.\n- Ajouter plus d’exemples de configurations.\n- Supporter la compilation et le flashage du firmware.\n\n### Long terme\n\n- Migrations de configuration.\n- Réduire la taille de l’exécutable CLI.\n- Interface web pour la création de configuration.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+        "originContent": "## Roadmap",
+        "translatedContent": "## Feuille de route"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UaWMOZQDz6bTnNmU8ahYmLuS3IyEDbPIiPcS2glpHig=",
+        "originContent": "### Short-term",
+        "translatedContent": "### Court terme"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kI9yAJ13nxXZOk0nN/hTmcHTnXd8kOMCF7g7COYWAY4=",
+        "originContent": "- Improve README.md and add more documentation.",
+        "translatedContent": "- Améliorer le README.md et ajouter plus de documentation."
+      },
+      {
+        "row": 7,
+        "rowsha": "lLPd4uU2zqJ2dt+B1PMeQDmbOA74oQ2w+Cwbx0j9ot4=",
+        "originContent": "- Add more configuration validation and error checking.",
+        "translatedContent": "- Ajouter plus de validation de configuration et de vérification des erreurs."
+      },
+      {
+        "row": 8,
+        "rowsha": "Rui8MQbqizd3rA5WyfAivte3xMR6gz4ywYnWZNcWSnU=",
+        "originContent": "- Improve error handling and messages.",
+        "translatedContent": "- Améliorer la gestion des erreurs et les messages."
+      },
+      {
+        "row": 9,
+        "rowsha": "jfsU9pLISQzeITJd5YekzdDi95jQ4H/cOVSN88TyuvQ=",
+        "originContent": "- Add more sample configurations.",
+        "translatedContent": "- Ajouter plus d’exemples de configurations."
+      },
+      {
+        "row": 10,
+        "rowsha": "OY5dPrFuSRLZbmPlsvK8tFOyQT9L5i1uotMf7ywNff8=",
+        "originContent": "- Support firmware building and flashing.",
+        "translatedContent": "- Supporter la compilation et le flashage du firmware."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "GJebkfKKb+T7c34E8y+FdwWmkVO1mi8kYaXuRTGeW2s=",
+        "originContent": "### Long-term",
+        "translatedContent": "### Long terme"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "1ZZI4+Ayb4+HEKegHkHr5NlIoqg8CXRHJajdD2W1GmA=",
+        "originContent": "- Configuration migrations.",
+        "translatedContent": "- Migrations de configuration."
+      },
+      {
+        "row": 15,
+        "rowsha": "i+0VmeHnn7krqo3UvpJZ1aQ8R3uh1X++AeA1SRlmaV0=",
+        "originContent": "- Reduce CLI executable size.",
+        "translatedContent": "- Réduire la taille de l’exécutable CLI."
+      },
+      {
+        "row": 16,
+        "rowsha": "SkY4epolCGVxUG5ibEGz5PU2JmBsNkJsAD4wrbhUX80=",
+        "originContent": "- Web UI for building configuration.",
+        "translatedContent": "- Interface web pour la création de configuration."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
