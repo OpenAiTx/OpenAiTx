@@ -1,265 +1,189 @@
 
-<div align="right">
-  <details>
-    <summary >🌐 Bahasa</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Bahasa Indonesia</a>
-      </div>
-    </div>
-  </details>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" alt="OpenSpot Logo" width="120" />
+  <h1>OpenSpot Music</h1>
+  <p><strong>Streaming & unduh musik berkualitas tinggi, gratis, tanpa iklan, tanpa login.</strong></p>
+
+  <p>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/releases/latest"><img src="https://img.shields.io/github/v/release/BlackHatDevX/openspot-music-app?style=for-the-badge&color=6366f1" alt="Rilis Terbaru" /></a>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers"><img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f59e0b" alt="Bintang" /></a>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members"><img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=10b981" alt="Fork" /></a>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/issues"><img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ef4444" alt="Isu" /></a>
+    <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="Lisensi" /></a>
+  </p>
 </div>
 
-# OpenSpot Music 🎶
-
-<p align="center">
- <img width="100" alt="Logo OpenSpot" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
-</p>
-
-<h3 align="center">Gerbang Anda Menuju Musik Tanpa Batas - Streaming Musik Lintas Platform</h3>
-
-<p align="center">
-  <strong>Streaming dan unduh musik berkualitas tinggi secara gratis di semua perangkat Anda, tanpa iklan dan tanpa perlu login.</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers">
-    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Stars">
-  </a>
-  <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members">
-    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="Forks">
-  </a>
-  <a href="https://github.com/BlackHatDevX/openspot-music-app/issues">
-    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Issues">
-  </a>
-</p>
-
----
-
-## 📱📺 Dua Aplikasi Hebat, Satu Repository
-
-Repository ini berisi **dua aplikasi streaming musik lengkap**:
-
-### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **Platform**: Android, iOS(Dalam Pengembangan)
-- **Lokasi**: `openspot-music-mobile/`
-- **Fitur**: Pengalaman mobile native dengan unduhan offline, pemutaran di latar belakang, dan penyimpanan status yang persisten
-
-### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **Platform**: macOS, Windows(Dalam Pengembangan), Linux(Dalam Pengembangan)
-- **Lokasi**: `openspot-music-electron/`
-- **Fitur**: Antarmuka desktop yang dioptimalkan dengan kontrol audio global, manajemen jendela, dan penyimpanan lokal
+<details>
+  <summary>🌐 Bahasa</summary>
+  <div align="center">
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">English</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-CN">简体中文</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-TW">繁體中文</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ja">日本語</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ko">한국어</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=hi">हिन्दी</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=th">ไทย</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Français</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Deutsch</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Español</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Italiano</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Русский</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Português</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">Nederlands</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">Polski</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ar">العربية</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">فارسی</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Türkçe</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Tiếng Việt</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Bahasa Indonesia</a>
+  </div>
+</details>
 
 ---
 
-### 📢 Bergabunglah di Channel Telegram Kami
+<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
 
-Dapatkan informasi terbaru tentang **rilis versi**, dan **pengumuman penting** di channel Telegram resmi Openspot.
-
-[![Bergabunglah dengan kami di Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
-
+<div align="center">
 
 ---
 
+# 📦 Unduhan
 
-## 📱 Aplikasi Mobile (React Native + Expo)
+<br>
 
-### Cuplikan Layar
+### 📱 **Mobile**
 
-![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+🔹 **Android**
+👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
 
+🔹 **iOS**
+🚧 [Tidak Ditandatangani] 👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Panduan Instalasi**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
 
+<br>
 
-### Tautan Unduhan
+---
 
-- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
-- **iOS**: [Dibutuhkan Maintainer](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
+### 🖥️ **Desktop**
 
-### Pengaturan Pengembangan
+🍎 **macOS (Apple Silicon)**
+👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
 
 ```bash
-cd openspot-music-app
-cd openspot-music-mobile/
-npm install
-npx expo start
-```
-### Bangun untuk Produksi
-
-
-```bash
-cd openspot-music-app/
-
-# Development Build
-eas build --platform android --profile development
-
-# Preview Build (APK)
-eas build --platform android --profile preview
-
-# Production Build
-eas build --platform android --profile production
+# Run the below command after moving app to applications
+xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 ```
 
----
+🪟 **Windows**
+👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
 
-## 🖥️ Aplikasi Desktop (Electron + React)
+🐧 **Linux (Debian/Ubuntu)**
+👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
 
-### Tangkapan Layar
+<br>
 
-![Aplikasi macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
-### Tautan Unduhan
-
-- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
-- Jalankan ini jika Anda mengalami masalah aplikasi rusak setelah instalasi.
-  ```bash
-  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: [Segera Hadir!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
-- **Linux DEB**: [Segera Hadir!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
-
-### Pengaturan Pengembangan
-
-```bash
-cd openspot-music-app/
-cd openspot-music-electron/
-npm install
-npm run electron-dev
-```
-
-### Build untuk Produksi
-
-```bash
-cd openspot-music-app/
-cd openspot-music-electron/
-npm run build
-npm run electron-pack
----
-
-## ✨ Fitur Utama (Kedua Aplikasi)
-
-- **🎵 Streaming Berkualitas Tinggi**: Dengarkan lagu favorit Anda dengan kualitas terbaik
-- **💾 Unduhan Offline**: Simpan musik langsung ke perangkat Anda untuk didengarkan secara offline
-- **❤️ Suka & Koleksi**: Bangun koleksi pribadi Anda dengan menyukai lagu-lagu
-- **🔄 Pemutaran Latar Belakang**: Tetap mendengarkan sambil menggunakan aplikasi lain
-- **🚫 Tidak Perlu Login**: Langsung pakai! Tidak perlu akun atau pendaftaran
-- **💾 Status Persisten**: Lagu yang Anda sukai dan yang baru saja diputar akan tersimpan meski aplikasi di-restart
-- **🎨 Antarmuka yang Indah**: Tampilan bersih dan modern yang dirancang khusus untuk setiap platform
-- **🆓 Sepenuhnya Gratis & Tanpa Iklan**: Nikmati musik tanpa gangguan dan tanpa biaya atau iklan
+</div>
 
 ---
 
-## 💻 Stack Teknologi
+## ✨ Fitur
 
-### Aplikasi Mobile
-- **Framework**: [React Native](https://reactnative.dev/) dengan [Expo](https://expo.dev/)
-- **Navigasi**: [Expo Router](https://expo.github.io/router/)
-- **Audio**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
-- **Build**: [EAS Build](https://docs.expo.dev/build/introduction/)
-- **Pengambilan Lokasi**: [IPinfo API](https://github.com/ipinfo)
+<div align="center">
 
-### Aplikasi Desktop
-- **Framework**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
-- **UI**: [Material-UI](https://mui.com/)
-- **State**: React Context + useReducer
-- **Penyimpanan**: [electron-store](https://github.com/sindresorhus/electron-store)
-- **Build**: [electron-builder](https://www.electron.build/)
+🎧 **Streaming Berkualitas Tinggi**   ·   📥 **Unduhan Offline**   ·   ❤️ **Suka & Playlist Kustom**  
+🔄 **Pemutaran Latar Belakang**   ·   🚫 **Tanpa Login**   ·   🆓 **100% Gratis & Tanpa Iklan**
 
-### Bersama
-- **Bahasa**: [TypeScript](https://www.typescriptlang.org/)
-- **Package Manager**: npm/yarn
+</div>
+
+### 🌍 Bahasa yang Didukung (i18n)
+| 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
+|------------|------------|------------|------------|----------|------------|------------|--------|------------|
+
+*Bahasa lain segera hadir — kontribusi sangat diterima!*
+
 
 ---
 
-### Konfigurasi Lingkungan
+### 🎨 Tampilan & Nuansa
+- **UI Baru** – desain bersih, modern dengan transisi yang mulus
+- **Mini Player** – pemutar mini bergaya kapsul di perangkat yang kompatibel (OnePlus, dll.)
+- **Tema** – Mode gelap, mode terang, dan mode otomatis
 
-Proyek ini membutuhkan satu variabel lingkungan agar dapat berfungsi dengan benar.
+### 🎼 Pengalaman Musik
+- **Pencarian** – temukan lagu, playlist publik, album, dan artis
+- **Mendengarkan Offline** – unduh lagu dan putar tanpa internet
+- **Playlist Kustom** – buat, kelola, dan atur koleksi Anda sendiri
+- **Lagu Tren** – lagu tren berbasis wilayah didukung oleh IPinfo
+- **Album & Playlist Artis** – penjelajahan diskografi lengkap kini didukung
 
-- Template tersedia di file [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template).
-- **Nilai** yang diperlukan untuk melengkapi file `.env` Anda dibagikan pada **pesan tersemat** di **saluran Telegram resmi** kami: [@openspot_music](https://t.me/openspot_music).
-
----
-
-## 🚀 Mulai Cepat
-
-### Untuk Pengembangan Mobile
-```bash
-
-
-
-
-git clone https://github.com/BlackHatDevX/openspot-music-app.git
-cd openspot-music-app/
-cd openspot-music-mobile/
-npm install
-npx expo start
-```
-
-### Untuk Pengembangan Desktop
-```bash
-git clone https://github.com/BlackHatDevX/openspot-music-app.git
-cd openspot-music-app/
-cd openspot-music-electron/
-npm install
-npm run electron-dev
-```
+### ⚡ Performa & Stabilitas
+- **API YouTube yang Ditingkatkan** – streaming lebih andal
+- **Peningkatan Pemutaran** – performa lebih lancar, perbaikan bug durasi dan pemutaran latar belakang
+- **Kontrol Headset & Lockscreen** – kontrol notifikasi tanpa hambatan
+- **Paginated Artist Songs** – semua lagu dimuat secara lengkap
 
 ---
 
-## 🙌 Kontributor
+## 📖 Ringkasan
 
-Terima kasih banyak kepada orang-orang luar biasa ini yang telah membuat proyek ini menjadi mungkin:
+Monorepo ini menghadirkan **dua aplikasi streaming musik yang benar-benar independen** dibangun dengan teknologi mutakhir:
 
-- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Kontribusi inti, integrasi API, dan tulang punggung utama dari proyek
+| Aplikasi | Platform | Framework | Lokasi |
+|----------|----------|-----------|--------|
+| 📱 **Mobile** | Android, iOS *(segera hadir)* | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux *(segera hadir)* | Tauri + React | `openspot-desktop/` |
 
-## 📞 Komunitas & Dukungan
+Kedua aplikasi berbagi inti streaming yang sama, memberikan pengalaman mendengarkan yang mulus di seluruh perangkat Anda.
 
-- **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **Isu**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+---
 
-## 👤 Penulis & Kontak
+## 🧰 Stack Teknologi
+
+### 📱 Mobile
+`React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
+
+### 🖥️ Desktop
+`Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
+
+### 📊 Komposisi Kode
+![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
+![JavaScript](https://img.shields.io/badge/JavaScript-2.6%25-F7DF1E?style=flat-square&logo=javascript)  
+![CSS](https://img.shields.io/badge/CSS-1.2%25-1572B6?style=flat-square&logo=css3)  
+![HTML](https://img.shields.io/badge/HTML-0.5%25-E34F26?style=flat-square&logo=html5)
+
+---
+
+## 🌍 Komunitas & Dukungan
+
+- 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
+- 🐛 **Masalah**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+
+---
+
+## 👤 Penulis
 
 **Jash Gro**
 
-- **LinkedIn**: [https://linkedin.com/in/jash-gro/](https://linkedin.com/in/jash-gro/)
-- **Portofolio**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
-- **Telegram**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
-- **GitHub**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
+[![GitHub](https://img.shields.io/badge/BlackHatDevX-181717?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX)  
+[![LinkedIn](https://img.shields.io/badge/jash--gro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jash-gro/)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
+
 
 ## 📄 Lisensi
 
-Proyek ini bersifat open-source dan dilisensikan di bawah MIT License. Lihat file `LICENSE` untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah **MIT License** – lihat berkas [LICENSE](./LICENSE) untuk detailnya.
 
 ---
 
-<p align="center">
-  <strong>⭐ Jika Anda suka dengan proyek ini, beri bintang! ⭐</strong>
+<div align="center">
+  <strong>⭐ Jika Anda menikmati OpenSpot Music, beri bintang – itu sangat membantu!</strong>
   <br />
-  <em>Dukungan Anda membantu kami terus mengembangkan aplikasi musik gratis yang luar biasa untuk semua orang.</em>
-</p> 
+  <em>Dukungan Anda membuat musik tetap mengalun untuk semua orang.</em>
+</div>
 
-
-```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
 
 ---

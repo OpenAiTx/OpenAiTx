@@ -1,0 +1,644 @@
+[
+  {
+    "row": 1,
+    "rowsha": "q1q0PAPj6nkgmImC9P+qC4+HQbMffpS4DA5tZSRmKbU=",
+    "originContent": "## DruidJS — A JavaScript Library for Dimensionality Reduction.",
+    "translatedContent": "## DruidJS — 차원 축소를 위한 자바스크립트 라이브러리."
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "8GteSeRdFB9sk2+eq6D6NtdKGmczgdSK64xE2LD5wag=",
+    "originContent": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/icon.svg\" width=80 align=\"left\" hspace=\"10\" vspace=\"6\"></a>",
+    "translatedContent": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/icon.svg\" width=80 align=\"left\" hspace=\"10\" vspace=\"6\"></a>"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "0SO/dDH3qLM58/7QtPV3MypOw7s79T99I+oHdj74Xfw=",
+    "originContent": "DruidJS is a JavaScript library for dimensionality reduction.",
+    "translatedContent": "DruidJS는 차원 축소를 위한 자바스크립트 라이브러리입니다.  "
+  },
+  {
+    "row": 6,
+    "rowsha": "OnCBd5NpiKzA/pc+5LiU73xzhLmwEIQ5sP+Q+AEfzSo=",
+    "originContent": "With dimesionality reduction you can project high-dimensional data to a lower dimensionality while keeping method-specific properties of the data.",
+    "translatedContent": "차원 축소를 통해 고차원 데이터를 데이터의 메서드별 특성을 유지하면서 저차원으로 투영할 수 있습니다.  "
+  },
+  {
+    "row": 7,
+    "rowsha": "OrqJ9w61G7GQlnuTPq/TVvKh4JcK75eIcZDC7KFqTkQ=",
+    "originContent": "DruidJS makes it easy to project a dataset with the implemented dimensionality reduction methods.",
+    "translatedContent": "DruidJS는 구현된 차원 축소 방법들로 데이터셋을 쉽게 투영할 수 있게 합니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "YUHzZ2ESsSV/QbAho8txi5IMfgcItClWIyq5truGor0=",
+    "originContent": "![Codecov](https://img.shields.io/codecov/c/github/saehm/DruidJS)",
+    "translatedContent": "![Codecov](https://img.shields.io/codecov/c/github/saehm/DruidJS)"
+  },
+  {
+    "row": 12,
+    "rowsha": "X7Yy6lWPSLTgf7n+h3uKP0rNPagBPkK3CQmDAwzI0NU=",
+    "originContent": "![NPM Downloads](https://img.shields.io/npm/dw/%40saehrimnir%2Fdruidjs)",
+    "translatedContent": "![NPM Downloads](https://img.shields.io/npm/dw/%40saehrimnir%2Fdruidjs)"
+  },
+  {
+    "row": 13,
+    "rowsha": "MzSvzsUq8dh9ziIbtCcV/3KCN8uPufdebnSi+Nomruk=",
+    "originContent": "![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saehm/DruidJS/release.yml?event=build-and-test)",
+    "translatedContent": "![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saehm/DruidJS/release.yml?event=build-and-test)"
+  },
+  {
+    "row": 14,
+    "rowsha": "nYUCYl88Tvo7hGVUZT2dsB2/IG0hPTFF9zjn5YC7QOc=",
+    "originContent": "[![License](https://img.shields.io/github/license/saehm/DruidJS)](https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/LICENCE)",
+    "translatedContent": "[![License](https://img.shields.io/github/license/saehm/DruidJS)](https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/LICENCE)"
+  },
+  {
+    "row": 15,
+    "rowsha": "cQr8av0iPwyZj0Fo0YUsCWzVjXY4f+xPE5bPu8nQp3U=",
+    "originContent": "[![DOI:10.1109/VIS47514.2020.00029](https://img.shields.io/badge/DOI-10.1109%2FVIS47514.2020.00029-blue)](https://doi.org/10.1109/VIS47514.2020.00029)",
+    "translatedContent": "[![DOI:10.1109/VIS47514.2020.00029](https://img.shields.io/badge/DOI-10.1109%2FVIS47514.2020.00029-blue)](https://doi.org/10.1109/VIS47514.2020.00029)"
+  },
+  {
+    "row": 16,
+    "rowsha": "OrE4iTMD8RAA3dO/ZEbhwzRK4rkglx4vY1awssptVT8=",
+    "originContent": "### Resources",
+    "translatedContent": "### 자료들"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 19,
+    "rowsha": "tQKfIfjYIQwgtdEkATezu3EjPrFO/gNxQSzYnRK8rmg=",
+    "originContent": "@inproceedings{cutura2020druid,",
+    "translatedContent": "@inproceedings{cutura2020druid,"
+  },
+  {
+    "row": 20,
+    "rowsha": "INlzFO+0XkEnkC2/azLzZKDk2YJ8jnBALFmDemwz02o=",
+    "originContent": "  title={{DRUIDJS — A JavaScript Library for Dimensionality Reduction}},",
+    "translatedContent": "  title={{DRUIDJS — A JavaScript Library for Dimensionality Reduction}},"
+  },
+  {
+    "row": 21,
+    "rowsha": "+vhwNHkRR9qSP9PZsTH0Vz53UEpqX0k83f/+uFk6aOw=",
+    "originContent": "  author={Cutura, Rene and Kralj, Christoph and Sedlmair, Michael},",
+    "translatedContent": "  author={Cutura, Rene and Kralj, Christoph and Sedlmair, Michael},"
+  },
+  {
+    "row": 22,
+    "rowsha": "toVbW9I8MLbfIqkUNBl8bCFcwbTJiEXqtoRkUUZxHew=",
+    "originContent": "  booktitle={2020 IEEE Visualization Conference (VIS)},",
+    "translatedContent": "  booktitle={2020 IEEE Visualization Conference (VIS)},"
+  },
+  {
+    "row": 23,
+    "rowsha": "sP2FkcurUoYCasCCy+Kg7CraG/ue6l0E9sB/ZcCmgLc=",
+    "originContent": "  pages={111--115},",
+    "translatedContent": "  pages={111--115},"
+  },
+  {
+    "row": 24,
+    "rowsha": "tWUMP/J7ttdzpcJ31RNjdz/kygiYYT4emxnk9UrD81A=",
+    "originContent": "  year={2020},",
+    "translatedContent": "  year={2020},"
+  },
+  {
+    "row": 25,
+    "rowsha": "9Hfv4nT468GMOcLLDRYiC872ATBuopr8BNVdeXRMKKo=",
+    "originContent": "  organization={IEEE}",
+    "translatedContent": "  organization={IEEE}"
+  },
+  {
+    "row": 26,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [문서](https://saehm.github.io/DruidJS/index.html)"
+  },
+  {
+    "row": 29,
+    "rowsha": "aWWfHeorWwuZHzrA+VXhDvlUwQ6cfXccDKrtPHOmfEY=",
+    "originContent": "- [Documentation](https://saehm.github.io/DruidJS/index.html)",
+    "translatedContent": "- [데모](https://renecutura.eu/druid_demo)"
+  },
+  {
+    "row": 30,
+    "rowsha": "Pl6aC9r84u3PDcv0sma8TQcHgEKVACGNBLILrWzRmzs=",
+    "originContent": "- [Demo](https://renecutura.eu/druid_demo)",
+    "translatedContent": "- [컨퍼런스 강연](https://youtu.be/bi6FfsWV_9k?t=2463) [IEEEVIS2020](http://ieeevis.org/year/2020/welcome)"
+  },
+  {
+    "row": 31,
+    "rowsha": "9Dxu66Cr2RNIXmHkQqvecZZjFvegoP1PzLin65nKdDI=",
+    "originContent": "- [Conference Talk](https://youtu.be/bi6FfsWV_9k?t=2463) [IEEEVIS2020](http://ieeevis.org/year/2020/welcome)",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 설치"
+  },
+  {
+    "row": 33,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "npm을 사용하는 경우, `npm install @saehrimnir/druidjs`로 설치하고 다음과 같이 사용하십시오."
+  },
+  {
+    "row": 35,
+    "rowsha": "wZnLptIfIuS2vJQFGG39nbQB5TGcmXOHYNKhlDNkSdo=",
+    "originContent": "If you use npm, install with `npm install @saehrimnir/druidjs`, and use it with",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 38,
+    "rowsha": "pY1xPKCrk+75KIQDMEHs2Gp/kXAf/WeE2JYXQ3r5sjE=",
+    "originContent": "import * as druid from \"@saehrimnir/druidjs\";",
+    "translatedContent": "import * as druid from \"@saehrimnir/druidjs\";"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "zHRwffGnpBY76tmPUwUd42glVE8MmtviO/CIYS6ZsPk=",
+    "originContent": "Otherwise download the files [here](https://github.com/saehm/DruidJS/releases/latest), or use for instance [unpkg](https://unpkg.com/@saehrimnir/druidjs) this way:",
+    "translatedContent": "그렇지 않으면 [여기](https://github.com/saehm/DruidJS/releases/latest)에서 파일을 다운로드하거나, 예를 들어 [unpkg](https://unpkg.com/@saehrimnir/druidjs)를 다음과 같이 사용하세요:"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 44,
+    "rowsha": "v+z16d6rDAjSOuznhevgx7O4bhiotEHaYePer8ZVxD0=",
+    "originContent": "<script src=\"https://unpkg.com/@saehrimnir/druidjs\"></script>",
+    "translatedContent": "<script src=\"https://unpkg.com/@saehrimnir/druidjs\"></script>"
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 행렬"
+  },
+  {
+    "row": 47,
+    "rowsha": "k0mA1vwI0wpnahSfjJ5J+cVNstxtnneSFYy0918aCuI=",
+    "originContent": "### Matrix",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "DruidJS는 내부적으로 데이터를 저장하기 위해 Matrix 클래스를 사용합니다. 예를 들어 `from` 함수를 사용하여 `druid.Matrix` 객체를 생성하여 사용할 수 있습니다:"
+  },
+  {
+    "row": 49,
+    "rowsha": "RLmL2J04KBAQ2CgQYTILCpLa3awuKJMxi4CM94st5xw=",
+    "originContent": "DruidJS uses internally the Matrix class for storing data. You can use it by creating a `druid.Matrix` object for instance with the function `from`, in example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 52,
+    "rowsha": "c7BQWFMhBwfYG5WuQgc0mCxllGAFYDTZsAW72IF/ABU=",
+    "originContent": "import * as druid from '@saehrimnir/druidjs';",
+    "translatedContent": "import * as druid from '@saehrimnir/druidjs';"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "F3qR8K2yF7zqFtEU7V6uEXwI0G7NA04UgZwEMNbgpvY=",
+    "originContent": "let data = [[...], [...], ...];",
+    "translatedContent": "let data = [[...], [...], ...];"
+  },
+  {
+    "row": 55,
+    "rowsha": "llFfYqgb45LBI97KihRjRM52gZ2VRHWqlKMh8Ayd+IA=",
+    "originContent": "let matrix = druid.Matrix.from(data);",
+    "translatedContent": "let matrix = druid.Matrix.from(data);"
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "zImQgp+W46tZN/yGC19JJsSlVETwwe2pmwgsYQTNBxw=",
+    "originContent": "You can create a `druid.Matrix` object programmatically by:",
+    "translatedContent": "다음과 같이 프로그래밍 방식으로 `druid.Matrix` 객체를 생성할 수 있습니다:"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 61,
+    "rowsha": "YD763iqshFLdhQvidq/kExpp0965QoK/veRQkLELQ6U=",
+    "originContent": "let fn = (row, col) => (row == col ? 1 : 0);",
+    "translatedContent": "let fn = (row, col) => (row == col ? 1 : 0);"
+  },
+  {
+    "row": 62,
+    "rowsha": "RcTtJeB4Y7/B3h9km1VJmwL5tIKM0/YsUQsSoqwrYbQ=",
+    "originContent": "let matrix = new druid.Matrix(rows, columns, fn);",
+    "translatedContent": "let matrix = new druid.Matrix(rows, columns, fn);"
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "w1hbak6cxej/V/i/jTLTY1paLPFokYJjkyShHKF9gYQ=",
+    "originContent": "If `rows == columns`, then `matrix` would be a identity matrix.",
+    "translatedContent": "만약 `rows == columns` 이면, `matrix` 는 항등 행렬이 됩니다."
+  },
+  {
+    "row": 66,
+    "rowsha": "O6MhiZM2PL1tYlHUeHOg1u2hU18kB7kieJp8MWymOj8=",
+    "originContent": "A shortcut for a identity matrix is:",
+    "translatedContent": "항등 행렬의 단축 표기법은 다음과 같습니다:"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 69,
+    "rowsha": "lC1RO4tlM8ch1+UQAkT+gGjaKtqtEIUkBmvJIrKgChs=",
+    "originContent": "let matrix = new druid.Matrix(rows, columns, \"I\");",
+    "translatedContent": "let matrix = new druid.Matrix(rows, columns, \"I\");"
+  },
+  {
+    "row": 70,
+    "rowsha": "U8nX4/7qeeOEVKc5G5zp7nhH9hdP7onP55ivPRofMTg=",
+    "originContent": "// or",
+    "translatedContent": "// or"
+  },
+  {
+    "row": 71,
+    "rowsha": "Q+2KcV7+DM0eYW108p+iV/99gYnbKhxIrrgvFj1hupo=",
+    "originContent": "let matrix = new druid.Matrix(rows, columnbs, \"identity\");",
+    "translatedContent": "let matrix = new druid.Matrix(rows, columnbs, \"identity\");"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "행렬을 생성하는 더 많은 단축키가 있습니다:"
+  },
+  {
+    "row": 74,
+    "rowsha": "A/QucXmffOMmA4u1Vn0HGuxhvCTvu52mWQ2CahH0aV4=",
+    "originContent": "There are more shortcuts for creating matrices:",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 77,
+    "rowsha": "DFv20ZZQq8FsPjCxCULdzJrZHrWL3aSSfL6/dnOpJXQ=",
+    "originContent": "let matrix = new druid.Matrix(3, 3, \"zeros\"); // matrix would be a 3x3 matrix with zeroes",
+    "translatedContent": "let matrix = new druid.Matrix(3, 3, \"zeros\"); // matrix would be a 3x3 matrix with zeroes"
+  },
+  {
+    "row": 78,
+    "rowsha": "qofZFPfKAGEk8ZBc0DORmwtLfqvT/slTdKh2tiwhpmk=",
+    "originContent": "let matrix = new druid.Matrix(3, 3, \"center\"); // matrix would be a 3x3 center matrix;",
+    "translatedContent": "let matrix = new druid.Matrix(3, 3, \"center\"); // matrix would be a 3x3 center matrix;"
+  },
+  {
+    "row": 79,
+    "rowsha": "MSVFtrZlAtmJeHngJsxu4U2KxVJDjr579FPRoQUoAkE=",
+    "originContent": "let number = 12;",
+    "translatedContent": "let number = 12;"
+  },
+  {
+    "row": 80,
+    "rowsha": "mmpxnaXX9w0KHVbtB5XnSIDpa8vRXQJcBadzB8XLW3M=",
+    "originContent": "let matrix = new druid.Matrix(3, 3, number); // matrix would b a 3x3 matrix filled with 'number'",
+    "translatedContent": "let matrix = new druid.Matrix(3, 3, number); // matrix would b a 3x3 matrix filled with 'number'"
+  },
+  {
+    "row": 81,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "t3ntAqBAOFvQWUixLjNQnlq0+7Y5K75x3F7YSZY4KPM=",
+    "originContent": "If you want to use a `druid.Matrix` object, for instance, with [d3](https://d3js.org), you can use either the `to2dArray` property, the `iterate_rows` generator function, or just use the `druid.Matrix` object as an iterable (works with d3 since version 6).",
+    "translatedContent": "예를 들어 [d3](https://d3js.org)와 함께 `druid.Matrix` 객체를 사용하려면, `to2dArray` 속성, `iterate_rows` 제너레이터 함수, 또는 단순히 `druid.Matrix` 객체를 반복 가능(iterable)으로 사용하면 됩니다(버전 6부터 d3에서 작동)."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 86,
+    "rowsha": "jLBA8YbS2E8xbhdWBiAPRaUTfFbs3K2gMFQdYfDIpEo=",
+    "originContent": "let data = await d3.csv(\"data.csv\");",
+    "translatedContent": "let data = await d3.csv(\"data.csv\");"
+  },
+  {
+    "row": 87,
+    "rowsha": "llFfYqgb45LBI97KihRjRM52gZ2VRHWqlKMh8Ayd+IA=",
+    "originContent": "let matrix = druid.Matrix.from(data);",
+    "translatedContent": "let matrix = druid.Matrix.from(data);"
+  },
+  {
+    "row": 88,
+    "rowsha": "pYkud9yuw0d3Ztlhc7fmfCiCOgADklsej8gH9rXrUTY=",
+    "originContent": "d3.selectAll(\"datapoints\").data(matrix.to2dArray); //...",
+    "translatedContent": "d3.selectAll(\"datapoints\").data(matrix.to2dArray); //..."
+  },
+  {
+    "row": 89,
+    "rowsha": "E3cP6LJ58uzsxZ5ZbGccnVw9qnA8BH6EWjd4Lq6Agp4=",
+    "originContent": "d3.selectAll(\"datapoints\").data(matrix.iterate_rows()); //...",
+    "translatedContent": "d3.selectAll(\"datapoints\").data(matrix.iterate_rows()); //..."
+  },
+  {
+    "row": 90,
+    "rowsha": "DSW6BUT0jMwYrqFkd6kBQdzbway9SlJd++QwW6oMZ7U=",
+    "originContent": "d3.selectAll(\"datapoints\").data(matrix); //...",
+    "translatedContent": "d3.selectAll(\"datapoints\").data(matrix); //..."
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "dNWJeVlh2BJAQNAWFS8Q4e2wU7it8ZkgF3IgK6Vgutk=",
+    "originContent": "### DR methods",
+    "translatedContent": "### DR methods"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "ZPyPmfZHxeoy8vTUTn5q9oJ0hG+92WgBCjzzwzORFnU=",
+    "originContent": "#### Transform",
+    "translatedContent": "#### Transform"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "6AoCRphYFMAeMWNosI52A8/CQyHTPXkARrh4PHrR2K8=",
+    "originContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs)",
+    "translatedContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs)"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "8FTyKCnXQTZBuoJsQJiwCvYDMibiJHqcow1t4V6duEc=",
+    "originContent": "#### Generator",
+    "translatedContent": "#### Generator"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "m7xvoNAPT2sd5OJ3kPLDEA/gpoZAGH8MYpIqBWKb0KI=",
+    "originContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs/2)",
+    "translatedContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs/2)"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "3dE7ccYrRmdyZe9rQSrbcse00KbKGIcFyQKPO26SlKw=",
+    "originContent": "#### TopoMap Example",
+    "translatedContent": "#### TopoMap Example"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "wUEirurI/pzsdhOX42x88WI+Iuc4xZKKGOzx9YGX3Vk=",
+    "originContent": "[Example](https://observablehq.com/@saehrimnir/topomap)",
+    "translatedContent": "[Example](https://observablehq.com/@saehrimnir/topomap)"
+  },
+  {
+    "row": 106,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

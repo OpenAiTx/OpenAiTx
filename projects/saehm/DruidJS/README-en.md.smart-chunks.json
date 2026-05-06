@@ -1,0 +1,865 @@
+[
+  {
+    "Id": 1,
+    "Content": "## DruidJS — A JavaScript Library for Dimensionality Reduction.\n\n<a href=\"#\"><img src=\"https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/icon.svg\" width=80 align=\"left\" hspace=\"10\" vspace=\"6\"></a>\n\nDruidJS is a JavaScript library for dimensionality reduction.\nWith dimesionality reduction you can project high-dimensional data to a lower dimensionality while keeping method-specific properties of the data.\nDruidJS makes it easy to project a dataset with the implemented dimensionality reduction methods.\n\n<br>\n\n![Codecov](https://img.shields.io/codecov/c/github/saehm/DruidJS)\n![NPM Downloads](https://img.shields.io/npm/dw/%40saehrimnir%2Fdruidjs)\n![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saehm/DruidJS/release.yml?event=build-and-test)\n[![License](https://img.shields.io/github/license/saehm/DruidJS)](https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/LICENCE)\n[![DOI:10.1109/VIS47514.2020.00029](https://img.shields.io/badge/DOI-10.1109%2FVIS47514.2020.00029-blue)](https://doi.org/10.1109/VIS47514.2020.00029)\n### Resources\n",
+    "ContentSha": "kLoCn9G8HgmaXSAHmE2RhwyUeYr3SSEd7xwtC4Sry2Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## DruidJS — A JavaScript Library for Dimensionality Reduction.\n\n<a href=\"#\"><img src=\"https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/icon.svg\" width=80 align=\"left\" hspace=\"10\" vspace=\"6\"></a>\n\nDruidJS is a JavaScript library for dimensionality reduction.\nWith dimensionality reduction you can project high-dimensional data to a lower dimensionality while keeping method-specific properties of the data.\nDruidJS makes it easy to project a dataset with the implemented dimensionality reduction methods.\n\n<br>\n\n![Codecov](https://img.shields.io/codecov/c/github/saehm/DruidJS)\n![NPM Downloads](https://img.shields.io/npm/dw/%40saehrimnir%2Fdruidjs)\n![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saehm/DruidJS/release.yml?event=build-and-test)\n[![License](https://img.shields.io/github/license/saehm/DruidJS)](https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/LICENCE)\n[![DOI:10.1109/VIS47514.2020.00029](https://img.shields.io/badge/DOI-10.1109%2FVIS47514.2020.00029-blue)](https://doi.org/10.1109/VIS47514.2020.00029)\n### Resources\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "q1q0PAPj6nkgmImC9P+qC4+HQbMffpS4DA5tZSRmKbU=",
+        "originContent": "## DruidJS — A JavaScript Library for Dimensionality Reduction.",
+        "translatedContent": "## DruidJS — A JavaScript Library for Dimensionality Reduction."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "8GteSeRdFB9sk2+eq6D6NtdKGmczgdSK64xE2LD5wag=",
+        "originContent": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/icon.svg\" width=80 align=\"left\" hspace=\"10\" vspace=\"6\"></a>",
+        "translatedContent": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/icon.svg\" width=80 align=\"left\" hspace=\"10\" vspace=\"6\"></a>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0SO/dDH3qLM58/7QtPV3MypOw7s79T99I+oHdj74Xfw=",
+        "originContent": "DruidJS is a JavaScript library for dimensionality reduction.",
+        "translatedContent": "DruidJS is a JavaScript library for dimensionality reduction."
+      },
+      {
+        "row": 6,
+        "rowsha": "OnCBd5NpiKzA/pc+5LiU73xzhLmwEIQ5sP+Q+AEfzSo=",
+        "originContent": "With dimesionality reduction you can project high-dimensional data to a lower dimensionality while keeping method-specific properties of the data.",
+        "translatedContent": "With dimensionality reduction you can project high-dimensional data to a lower dimensionality while keeping method-specific properties of the data."
+      },
+      {
+        "row": 7,
+        "rowsha": "OrqJ9w61G7GQlnuTPq/TVvKh4JcK75eIcZDC7KFqTkQ=",
+        "originContent": "DruidJS makes it easy to project a dataset with the implemented dimensionality reduction methods.",
+        "translatedContent": "DruidJS makes it easy to project a dataset with the implemented dimensionality reduction methods."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "YUHzZ2ESsSV/QbAho8txi5IMfgcItClWIyq5truGor0=",
+        "originContent": "![Codecov](https://img.shields.io/codecov/c/github/saehm/DruidJS)",
+        "translatedContent": "![Codecov](https://img.shields.io/codecov/c/github/saehm/DruidJS)"
+      },
+      {
+        "row": 12,
+        "rowsha": "X7Yy6lWPSLTgf7n+h3uKP0rNPagBPkK3CQmDAwzI0NU=",
+        "originContent": "![NPM Downloads](https://img.shields.io/npm/dw/%40saehrimnir%2Fdruidjs)",
+        "translatedContent": "![NPM Downloads](https://img.shields.io/npm/dw/%40saehrimnir%2Fdruidjs)"
+      },
+      {
+        "row": 13,
+        "rowsha": "MzSvzsUq8dh9ziIbtCcV/3KCN8uPufdebnSi+Nomruk=",
+        "originContent": "![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saehm/DruidJS/release.yml?event=build-and-test)",
+        "translatedContent": "![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saehm/DruidJS/release.yml?event=build-and-test)"
+      },
+      {
+        "row": 14,
+        "rowsha": "nYUCYl88Tvo7hGVUZT2dsB2/IG0hPTFF9zjn5YC7QOc=",
+        "originContent": "[![License](https://img.shields.io/github/license/saehm/DruidJS)](https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/LICENCE)",
+        "translatedContent": "[![License](https://img.shields.io/github/license/saehm/DruidJS)](https://raw.githubusercontent.com/saehm/DruidJS/refs/heads/master/LICENCE)"
+      },
+      {
+        "row": 15,
+        "rowsha": "cQr8av0iPwyZj0Fo0YUsCWzVjXY4f+xPE5bPu8nQp3U=",
+        "originContent": "[![DOI:10.1109/VIS47514.2020.00029](https://img.shields.io/badge/DOI-10.1109%2FVIS47514.2020.00029-blue)](https://doi.org/10.1109/VIS47514.2020.00029)",
+        "translatedContent": "[![DOI:10.1109/VIS47514.2020.00029](https://img.shields.io/badge/DOI-10.1109%2FVIS47514.2020.00029-blue)](https://doi.org/10.1109/VIS47514.2020.00029)"
+      },
+      {
+        "row": 16,
+        "rowsha": "OrE4iTMD8RAA3dO/ZEbhwzRK4rkglx4vY1awssptVT8=",
+        "originContent": "### Resources",
+        "translatedContent": "### Resources"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n@inproceedings{cutura2020druid,\n  title={{DRUIDJS — A JavaScript Library for Dimensionality Reduction}},\n  author={Cutura, Rene and Kralj, Christoph and Sedlmair, Michael},\n  booktitle={2020 IEEE Visualization Conference (VIS)},\n  pages={111--115},\n  year={2020},\n  organization={IEEE}\n}\n```",
+    "ContentSha": "Dk4HiGDkqwCKHu4RmLRmHQh9/SrjSVdOog8d6T4VRy0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@inproceedings{cutura2020druid,\n  title={{DRUIDJS — A JavaScript Library for Dimensionality Reduction}},\n  author={Cutura, Rene and Kralj, Christoph and Sedlmair, Michael},\n  booktitle={2020 IEEE Visualization Conference (VIS)},\n  pages={111--115},\n  year={2020},\n  organization={IEEE}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "tQKfIfjYIQwgtdEkATezu3EjPrFO/gNxQSzYnRK8rmg=",
+        "originContent": "@inproceedings{cutura2020druid,",
+        "translatedContent": "@inproceedings{cutura2020druid,"
+      },
+      {
+        "row": 3,
+        "rowsha": "INlzFO+0XkEnkC2/azLzZKDk2YJ8jnBALFmDemwz02o=",
+        "originContent": "  title={{DRUIDJS — A JavaScript Library for Dimensionality Reduction}},",
+        "translatedContent": "  title={{DRUIDJS — A JavaScript Library for Dimensionality Reduction}},"
+      },
+      {
+        "row": 4,
+        "rowsha": "+vhwNHkRR9qSP9PZsTH0Vz53UEpqX0k83f/+uFk6aOw=",
+        "originContent": "  author={Cutura, Rene and Kralj, Christoph and Sedlmair, Michael},",
+        "translatedContent": "  author={Cutura, Rene and Kralj, Christoph and Sedlmair, Michael},"
+      },
+      {
+        "row": 5,
+        "rowsha": "toVbW9I8MLbfIqkUNBl8bCFcwbTJiEXqtoRkUUZxHew=",
+        "originContent": "  booktitle={2020 IEEE Visualization Conference (VIS)},",
+        "translatedContent": "  booktitle={2020 IEEE Visualization Conference (VIS)},"
+      },
+      {
+        "row": 6,
+        "rowsha": "sP2FkcurUoYCasCCy+Kg7CraG/ue6l0E9sB/ZcCmgLc=",
+        "originContent": "  pages={111--115},",
+        "translatedContent": "  pages={111--115},"
+      },
+      {
+        "row": 7,
+        "rowsha": "tWUMP/J7ttdzpcJ31RNjdz/kygiYYT4emxnk9UrD81A=",
+        "originContent": "  year={2020},",
+        "translatedContent": "  year={2020},"
+      },
+      {
+        "row": 8,
+        "rowsha": "9Hfv4nT468GMOcLLDRYiC872ATBuopr8BNVdeXRMKKo=",
+        "originContent": "  organization={IEEE}",
+        "translatedContent": "  organization={IEEE}"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n- [Documentation](https://saehm.github.io/DruidJS/index.html)\n- [Demo](https://renecutura.eu/druid_demo)\n- [Conference Talk](https://youtu.be/bi6FfsWV_9k?t=2463) [IEEEVIS2020](http://ieeevis.org/year/2020/welcome)\n\n### Installation\n\nIf you use npm, install with `npm install @saehrimnir/druidjs`, and use it with\n",
+    "ContentSha": "CrZ+uLCFVCt3QM29bR5QtsrZ4M53vJnaXwNxeBRoNvw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [Documentation](https://saehm.github.io/DruidJS/index.html)\n- [Demo](https://renecutura.eu/druid_demo)\n- [Conference Talk](https://youtu.be/bi6FfsWV_9k?t=2463) [IEEEVIS2020](http://ieeevis.org/year/2020/welcome)\n\n### Installation\n\nIf you use npm, install with `npm install @saehrimnir/druidjs`, and use it with\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Documentation](https://saehm.github.io/DruidJS/index.html)"
+      },
+      {
+        "row": 2,
+        "rowsha": "aWWfHeorWwuZHzrA+VXhDvlUwQ6cfXccDKrtPHOmfEY=",
+        "originContent": "- [Documentation](https://saehm.github.io/DruidJS/index.html)",
+        "translatedContent": "- [Demo](https://renecutura.eu/druid_demo)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Pl6aC9r84u3PDcv0sma8TQcHgEKVACGNBLILrWzRmzs=",
+        "originContent": "- [Demo](https://renecutura.eu/druid_demo)",
+        "translatedContent": "- [Conference Talk](https://youtu.be/bi6FfsWV_9k?t=2463) [IEEEVIS2020](http://ieeevis.org/year/2020/welcome)"
+      },
+      {
+        "row": 4,
+        "rowsha": "9Dxu66Cr2RNIXmHkQqvecZZjFvegoP1PzLin65nKdDI=",
+        "originContent": "- [Conference Talk](https://youtu.be/bi6FfsWV_9k?t=2463) [IEEEVIS2020](http://ieeevis.org/year/2020/welcome)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Installation"
+      },
+      {
+        "row": 6,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "If you use npm, install with `npm install @saehrimnir/druidjs`, and use it with"
+      },
+      {
+        "row": 8,
+        "rowsha": "wZnLptIfIuS2vJQFGG39nbQB5TGcmXOHYNKhlDNkSdo=",
+        "originContent": "If you use npm, install with `npm install @saehrimnir/druidjs`, and use it with",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```js\nimport * as druid from \"@saehrimnir/druidjs\";\n```",
+    "ContentSha": "9EnIH5hvrV/CoCTX9fGlPiQg2+SQwXGV3fYOUC4wWvc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport * as druid from \"@saehrimnir/druidjs\";\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "pY1xPKCrk+75KIQDMEHs2Gp/kXAf/WeE2JYXQ3r5sjE=",
+        "originContent": "import * as druid from \"@saehrimnir/druidjs\";",
+        "translatedContent": "import * as druid from \"@saehrimnir/druidjs\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOtherwise download the files [here](https://github.com/saehm/DruidJS/releases/latest), or use for instance [unpkg](https://unpkg.com/@saehrimnir/druidjs) this way:\n",
+    "ContentSha": "SxV0HspkN8MgQDMwjB7nrYnzv+cY8v94tnv6zIqVztM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nOtherwise download the files [here](https://github.com/saehm/DruidJS/releases/latest), or use for instance [unpkg](https://unpkg.com/@saehrimnir/druidjs) this way:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zHRwffGnpBY76tmPUwUd42glVE8MmtviO/CIYS6ZsPk=",
+        "originContent": "Otherwise download the files [here](https://github.com/saehm/DruidJS/releases/latest), or use for instance [unpkg](https://unpkg.com/@saehrimnir/druidjs) this way:",
+        "translatedContent": "Otherwise download the files [here](https://github.com/saehm/DruidJS/releases/latest), or use for instance [unpkg](https://unpkg.com/@saehrimnir/druidjs) this way:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```html\n<script src=\"https://unpkg.com/@saehrimnir/druidjs\"></script>\n```",
+    "ContentSha": "eSF2Xe7EwDCv0WZix7JPhlBg2QortFlOBGe/1wRNNtk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<script src=\"https://unpkg.com/@saehrimnir/druidjs\"></script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "v+z16d6rDAjSOuznhevgx7O4bhiotEHaYePer8ZVxD0=",
+        "originContent": "<script src=\"https://unpkg.com/@saehrimnir/druidjs\"></script>",
+        "translatedContent": "<script src=\"https://unpkg.com/@saehrimnir/druidjs\"></script>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Matrix\n\nDruidJS uses internally the Matrix class for storing data. You can use it by creating a `druid.Matrix` object for instance with the function `from`, in example:\n",
+    "ContentSha": "Ub2Lr6ewAlkYcBEyNF/lQjibAKNh3TusBQNONtBqngA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Matrix\n\nDruidJS internally uses the Matrix class for storing data. You can use it by creating a `druid.Matrix` object, for example with the function `from`, as follows:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "k0mA1vwI0wpnahSfjJ5J+cVNstxtnneSFYy0918aCuI=",
+        "originContent": "### Matrix",
+        "translatedContent": "### Matrix"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RLmL2J04KBAQ2CgQYTILCpLa3awuKJMxi4CM94st5xw=",
+        "originContent": "DruidJS uses internally the Matrix class for storing data. You can use it by creating a `druid.Matrix` object for instance with the function `from`, in example:",
+        "translatedContent": "DruidJS internally uses the Matrix class for storing data. You can use it by creating a `druid.Matrix` object, for example with the function `from`, as follows:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```js\nimport * as druid from '@saehrimnir/druidjs';\n\nlet data = [[...], [...], ...];\nlet matrix = druid.Matrix.from(data);\n```",
+    "ContentSha": "mMfdExyxG2oFmZAQvZI/fmFkwJdxILweejeA1owWekU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport * as druid from '@saehrimnir/druidjs';\n\nlet data = [[...], [...], ...];\nlet matrix = druid.Matrix.from(data);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "c7BQWFMhBwfYG5WuQgc0mCxllGAFYDTZsAW72IF/ABU=",
+        "originContent": "import * as druid from '@saehrimnir/druidjs';",
+        "translatedContent": "import * as druid from '@saehrimnir/druidjs';"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "F3qR8K2yF7zqFtEU7V6uEXwI0G7NA04UgZwEMNbgpvY=",
+        "originContent": "let data = [[...], [...], ...];",
+        "translatedContent": "let data = [[...], [...], ...];"
+      },
+      {
+        "row": 5,
+        "rowsha": "llFfYqgb45LBI97KihRjRM52gZ2VRHWqlKMh8Ayd+IA=",
+        "originContent": "let matrix = druid.Matrix.from(data);",
+        "translatedContent": "let matrix = druid.Matrix.from(data);"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nYou can create a `druid.Matrix` object programmatically by:\n",
+    "ContentSha": "/9RFqO8xbvNAtaAKLto6oUOF/6AGExkWSYqseD9QnGY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "You can create a `druid.Matrix` object programmatically by:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You can create a `druid.Matrix` object programmatically by:"
+      },
+      {
+        "row": 2,
+        "rowsha": "zImQgp+W46tZN/yGC19JJsSlVETwwe2pmwgsYQTNBxw=",
+        "originContent": "You can create a `druid.Matrix` object programmatically by:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\nlet fn = (row, col) => (row == col ? 1 : 0);\nlet matrix = new druid.Matrix(rows, columns, fn);\n```",
+    "ContentSha": "RAOZ+iD7eZnNY8OxsOBKjKBMBvA4MVFUG9wFrNsIm/Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nlet fn = (row, col) => (row == col ? 1 : 0);\nlet matrix = new druid.Matrix(rows, columns, fn);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "YD763iqshFLdhQvidq/kExpp0965QoK/veRQkLELQ6U=",
+        "originContent": "let fn = (row, col) => (row == col ? 1 : 0);",
+        "translatedContent": "let fn = (row, col) => (row == col ? 1 : 0);"
+      },
+      {
+        "row": 3,
+        "rowsha": "RcTtJeB4Y7/B3h9km1VJmwL5tIKM0/YsUQsSoqwrYbQ=",
+        "originContent": "let matrix = new druid.Matrix(rows, columns, fn);",
+        "translatedContent": "let matrix = new druid.Matrix(rows, columns, fn);"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nIf `rows == columns`, then `matrix` would be a identity matrix.\nA shortcut for a identity matrix is:\n",
+    "ContentSha": "bRLxtKm2NtOfxhaX9Lu2trbS/5AWkKEJebcjnAagHH8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nIf `rows == columns`, then `matrix` would be an identity matrix.\nA shortcut for an identity matrix is:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "w1hbak6cxej/V/i/jTLTY1paLPFokYJjkyShHKF9gYQ=",
+        "originContent": "If `rows == columns`, then `matrix` would be a identity matrix.",
+        "translatedContent": "If `rows == columns`, then `matrix` would be an identity matrix."
+      },
+      {
+        "row": 3,
+        "rowsha": "O6MhiZM2PL1tYlHUeHOg1u2hU18kB7kieJp8MWymOj8=",
+        "originContent": "A shortcut for a identity matrix is:",
+        "translatedContent": "A shortcut for an identity matrix is:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```js\nlet matrix = new druid.Matrix(rows, columns, \"I\");\n// or\nlet matrix = new druid.Matrix(rows, columnbs, \"identity\");\n```",
+    "ContentSha": "V7hY/8rTYhWmoPQNQBkMokwpw5IwX+hsJ1wAvWJ6es0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nlet matrix = new druid.Matrix(rows, columns, \"I\");\n// or\nlet matrix = new druid.Matrix(rows, columnbs, \"identity\");\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "lC1RO4tlM8ch1+UQAkT+gGjaKtqtEIUkBmvJIrKgChs=",
+        "originContent": "let matrix = new druid.Matrix(rows, columns, \"I\");",
+        "translatedContent": "let matrix = new druid.Matrix(rows, columns, \"I\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "U8nX4/7qeeOEVKc5G5zp7nhH9hdP7onP55ivPRofMTg=",
+        "originContent": "// or",
+        "translatedContent": "// or"
+      },
+      {
+        "row": 4,
+        "rowsha": "Q+2KcV7+DM0eYW108p+iV/99gYnbKhxIrrgvFj1hupo=",
+        "originContent": "let matrix = new druid.Matrix(rows, columnbs, \"identity\");",
+        "translatedContent": "let matrix = new druid.Matrix(rows, columnbs, \"identity\");"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nThere are more shortcuts for creating matrices:\n",
+    "ContentSha": "KvswOFX5beNo3X/igeMD1jkbF9ZZh7QzFnBTK1H5gnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "There are more shortcuts for creating matrices:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "There are more shortcuts for creating matrices:"
+      },
+      {
+        "row": 2,
+        "rowsha": "A/QucXmffOMmA4u1Vn0HGuxhvCTvu52mWQ2CahH0aV4=",
+        "originContent": "There are more shortcuts for creating matrices:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```js\nlet matrix = new druid.Matrix(3, 3, \"zeros\"); // matrix would be a 3x3 matrix with zeroes\nlet matrix = new druid.Matrix(3, 3, \"center\"); // matrix would be a 3x3 center matrix;\nlet number = 12;\nlet matrix = new druid.Matrix(3, 3, number); // matrix would b a 3x3 matrix filled with 'number'\n```",
+    "ContentSha": "G14myBz3Zr9Z0w40QWkFUWxnHBoPqnmc5n8E7H/fzbc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nlet matrix = new druid.Matrix(3, 3, \"zeros\"); // matrix would be a 3x3 matrix with zeroes\nlet matrix = new druid.Matrix(3, 3, \"center\"); // matrix would be a 3x3 center matrix;\nlet number = 12;\nlet matrix = new druid.Matrix(3, 3, number); // matrix would b a 3x3 matrix filled with 'number'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "DFv20ZZQq8FsPjCxCULdzJrZHrWL3aSSfL6/dnOpJXQ=",
+        "originContent": "let matrix = new druid.Matrix(3, 3, \"zeros\"); // matrix would be a 3x3 matrix with zeroes",
+        "translatedContent": "let matrix = new druid.Matrix(3, 3, \"zeros\"); // matrix would be a 3x3 matrix with zeroes"
+      },
+      {
+        "row": 3,
+        "rowsha": "qofZFPfKAGEk8ZBc0DORmwtLfqvT/slTdKh2tiwhpmk=",
+        "originContent": "let matrix = new druid.Matrix(3, 3, \"center\"); // matrix would be a 3x3 center matrix;",
+        "translatedContent": "let matrix = new druid.Matrix(3, 3, \"center\"); // matrix would be a 3x3 center matrix;"
+      },
+      {
+        "row": 4,
+        "rowsha": "MSVFtrZlAtmJeHngJsxu4U2KxVJDjr579FPRoQUoAkE=",
+        "originContent": "let number = 12;",
+        "translatedContent": "let number = 12;"
+      },
+      {
+        "row": 5,
+        "rowsha": "mmpxnaXX9w0KHVbtB5XnSIDpa8vRXQJcBadzB8XLW3M=",
+        "originContent": "let matrix = new druid.Matrix(3, 3, number); // matrix would b a 3x3 matrix filled with 'number'",
+        "translatedContent": "let matrix = new druid.Matrix(3, 3, number); // matrix would b a 3x3 matrix filled with 'number'"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nIf you want to use a `druid.Matrix` object, for instance, with [d3](https://d3js.org), you can use either the `to2dArray` property, the `iterate_rows` generator function, or just use the `druid.Matrix` object as an iterable (works with d3 since version 6).\n",
+    "ContentSha": "QWdzUT0iW++qYyGVqiwTMPzySrwTEyxFbjtBfsV6gmY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "If you want to use a `druid.Matrix` object, for instance, with [d3](https://d3js.org), you can use either the `to2dArray` property, the `iterate_rows` generator function, or just use the `druid.Matrix` object as an iterable (works with d3 since version 6).\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "If you want to use a `druid.Matrix` object, for instance, with [d3](https://d3js.org), you can use either the `to2dArray` property, the `iterate_rows` generator function, or just use the `druid.Matrix` object as an iterable (works with d3 since version 6)."
+      },
+      {
+        "row": 2,
+        "rowsha": "t3ntAqBAOFvQWUixLjNQnlq0+7Y5K75x3F7YSZY4KPM=",
+        "originContent": "If you want to use a `druid.Matrix` object, for instance, with [d3](https://d3js.org), you can use either the `to2dArray` property, the `iterate_rows` generator function, or just use the `druid.Matrix` object as an iterable (works with d3 since version 6).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```js\nlet data = await d3.csv(\"data.csv\");\nlet matrix = druid.Matrix.from(data);\nd3.selectAll(\"datapoints\").data(matrix.to2dArray); //...\nd3.selectAll(\"datapoints\").data(matrix.iterate_rows()); //...\nd3.selectAll(\"datapoints\").data(matrix); //...\n```",
+    "ContentSha": "EAauvi4jT3WNTVrxEtDHA5LGVTAQeiA+3aPwwDs3UFQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nlet data = await d3.csv(\"data.csv\");\nlet matrix = druid.Matrix.from(data);\nd3.selectAll(\"datapoints\").data(matrix.to2dArray); //...\nd3.selectAll(\"datapoints\").data(matrix.iterate_rows()); //...\nd3.selectAll(\"datapoints\").data(matrix); //...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "jLBA8YbS2E8xbhdWBiAPRaUTfFbs3K2gMFQdYfDIpEo=",
+        "originContent": "let data = await d3.csv(\"data.csv\");",
+        "translatedContent": "let data = await d3.csv(\"data.csv\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "llFfYqgb45LBI97KihRjRM52gZ2VRHWqlKMh8Ayd+IA=",
+        "originContent": "let matrix = druid.Matrix.from(data);",
+        "translatedContent": "let matrix = druid.Matrix.from(data);"
+      },
+      {
+        "row": 4,
+        "rowsha": "pYkud9yuw0d3Ztlhc7fmfCiCOgADklsej8gH9rXrUTY=",
+        "originContent": "d3.selectAll(\"datapoints\").data(matrix.to2dArray); //...",
+        "translatedContent": "d3.selectAll(\"datapoints\").data(matrix.to2dArray); //..."
+      },
+      {
+        "row": 5,
+        "rowsha": "E3cP6LJ58uzsxZ5ZbGccnVw9qnA8BH6EWjd4Lq6Agp4=",
+        "originContent": "d3.selectAll(\"datapoints\").data(matrix.iterate_rows()); //...",
+        "translatedContent": "d3.selectAll(\"datapoints\").data(matrix.iterate_rows()); //..."
+      },
+      {
+        "row": 6,
+        "rowsha": "DSW6BUT0jMwYrqFkd6kBQdzbway9SlJd++QwW6oMZ7U=",
+        "originContent": "d3.selectAll(\"datapoints\").data(matrix); //...",
+        "translatedContent": "d3.selectAll(\"datapoints\").data(matrix); //..."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### DR methods\n\n#### Transform\n\n[Example](https://observablehq.com/@saehrimnir/hello-druidjs)\n\n#### Generator\n\n[Example](https://observablehq.com/@saehrimnir/hello-druidjs/2)\n\n#### TopoMap Example\n\n[Example](https://observablehq.com/@saehrimnir/topomap)\n...\n",
+    "ContentSha": "qNndEjWz2kuzt1KCD3tWm8VtRmR49rKqpkIVckUfgzc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### DR methods\n\n#### Transform\n\n[Example](https://observablehq.com/@saehrimnir/hello-druidjs)\n\n#### Generator\n\n[Example](https://observablehq.com/@saehrimnir/hello-druidjs/2)\n\n#### TopoMap Example\n\n[Example](https://observablehq.com/@saehrimnir/topomap)\n...\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dNWJeVlh2BJAQNAWFS8Q4e2wU7it8ZkgF3IgK6Vgutk=",
+        "originContent": "### DR methods",
+        "translatedContent": "### DR methods"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZPyPmfZHxeoy8vTUTn5q9oJ0hG+92WgBCjzzwzORFnU=",
+        "originContent": "#### Transform",
+        "translatedContent": "#### Transform"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6AoCRphYFMAeMWNosI52A8/CQyHTPXkARrh4PHrR2K8=",
+        "originContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs)",
+        "translatedContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "8FTyKCnXQTZBuoJsQJiwCvYDMibiJHqcow1t4V6duEc=",
+        "originContent": "#### Generator",
+        "translatedContent": "#### Generator"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "m7xvoNAPT2sd5OJ3kPLDEA/gpoZAGH8MYpIqBWKb0KI=",
+        "originContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs/2)",
+        "translatedContent": "[Example](https://observablehq.com/@saehrimnir/hello-druidjs/2)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "3dE7ccYrRmdyZe9rQSrbcse00KbKGIcFyQKPO26SlKw=",
+        "originContent": "#### TopoMap Example",
+        "translatedContent": "#### TopoMap Example"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wUEirurI/pzsdhOX42x88WI+Iuc4xZKKGOzx9YGX3Vk=",
+        "originContent": "[Example](https://observablehq.com/@saehrimnir/topomap)",
+        "translatedContent": "[Example](https://observablehq.com/@saehrimnir/topomap)"
+      },
+      {
+        "row": 15,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

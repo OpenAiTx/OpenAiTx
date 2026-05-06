@@ -1,265 +1,189 @@
 
-<div align="right">
-  <details>
-    <summary >🌐 言語</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Bahasa Indonesia</a>
-      </div>
-    </div>
-  </details>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" alt="OpenSpot ロゴ" width="120" />
+  <h1>OpenSpot Music</h1>
+  <p><strong>高音質の音楽をストリーミング＆ダウンロード、無料、広告なし、ログイン不要。</strong></p>
+
+  <p>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/releases/latest"><img src="https://img.shields.io/github/v/release/BlackHatDevX/openspot-music-app?style=for-the-badge&color=6366f1" alt="最新リリース" /></a>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers"><img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f59e0b" alt="スター" /></a>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members"><img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=10b981" alt="フォーク" /></a>
+    <a href="https://github.com/BlackHatDevX/openspot-music-app/issues"><img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ef4444" alt="課題" /></a>
+    <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="ライセンス" /></a>
+  </p>
 </div>
 
-# OpenSpot Music 🎶
-
-<p align="center">
- <img width="100" alt="OpenSpotロゴ" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
-</p>
-
-<h3 align="center">あなたの無限の音楽へのゲートウェイ - クロスプラットフォーム音楽ストリーミング</h3>
-
-<p align="center">
-  <strong>すべてのデバイスで高品質な音楽を無料でストリーミング＆ダウンロード、広告なし・ログイン不要。</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers">
-    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="スター">
-  </a>
-  <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members">
-    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="フォーク">
-  </a>
-  <a href="https://github.com/BlackHatDevX/openspot-music-app/issues">
-    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="イシュー">
-  </a>
-</p>
-
----
-
-## 📱📺 2つの素晴らしいアプリが1つのリポジトリに
-
-このリポジトリには**2つの完全な音楽ストリーミングアプリケーション**が含まれています:
-
-### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **対応プラットフォーム**: Android, iOS(開発中)
-- **ディレクトリ**: `openspot-music-mobile/`
-- **特徴**: オフラインダウンロード、バックグラウンド再生、永続的な状態管理によるネイティブモバイル体験
-
-### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **対応プラットフォーム**: macOS, Windows(開発中), Linux(開発中)
-- **ディレクトリ**: `openspot-music-electron/`
-- **特徴**: グローバルオーディオコントロール、ウィンドウ管理、ローカルストレージ対応のデスクトップ最適化インターフェース
+<details>
+  <summary>🌐 言語</summary>
+  <div align="center">
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">English</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-CN">简体中文</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-TW">繁體中文</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ja">日本語</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ko">한국어</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=hi">हिन्दी</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=th">ไทย</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Français</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Deutsch</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Español</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Italiano</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Русский</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Português</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">Nederlands</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">Polski</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ar">العربية</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">فارسی</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Türkçe</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Tiếng Việt</a> |
+    <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Bahasa Indonesia</a>
+  </div>
+</details>
 
 ---
 
-### 📢 Telegramチャンネルに参加しよう
+<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
 
-公式Openspot Telegramチャンネルで**バージョンリリース**や**重要なお知らせ**を随時配信中です。
-
-[![Telegramで参加](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
-
+<div align="center">
 
 ---
 
+# 📦 ダウンロード
 
-## 📱 モバイルアプリ (React Native + Expo)
+<br>
 
-### スクリーンショット
+### 📱 **モバイル**
 
-![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+🔹 **Android**
+👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
 
+🔹 **iOS**
+🚧 [署名なし] 👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**インストールガイド**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
 
+<br>
 
-### ダウンロードリンク
+---
 
-- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
-- **iOS**: [メンテナー募集中](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
+### 🖥️ **デスクトップ**
 
-### 開発セットアップ
+🍎 **macOS (Apple Silicon)**
+👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
 
 ```bash
-cd openspot-music-app
-cd openspot-music-mobile/
-npm install
-npx expo start
+# Run the below command after moving app to applications
+xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 ```
-### 本番環境向けビルド
+
+🪟 **Windows**
+👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
+
+🐧 **Linux (Debian/Ubuntu)**
+👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
+
+<br>
 
 
-```bash
-cd openspot-music-app/
-
-# Development Build
-eas build --platform android --profile development
-
-# Preview Build (APK)
-eas build --platform android --profile preview
-
-# Production Build
-eas build --platform android --profile production
-```
+</div>
 
 ---
 
-## 🖥️ デスクトップアプリ（Electron + React）
+## ✨ 機能
 
-### スクリーンショット
+<div align="center">
 
-![macOS アプリ](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
+🎧 **高品質ストリーミング**   ·   📥 **オフラインダウンロード**   ·   ❤️ **お気に入り & カスタムプレイリスト**  
+🔄 **バックグラウンド再生**   ·   🚫 **ログイン不要**   ·   🆓 **完全無料 & 広告なし**
 
-### ダウンロードリンク
+</div>
 
-- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
-- インストール後にアプリが破損している問題が発生した場合は、これを実行してください。
-  ```bash
-  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: [近日公開予定！](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
-- **Linux DEB**: [近日公開予定！](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
+### 🌍 対応言語 (i18n)
+| 🇩🇪 ドイツ語 | 🇺🇸 英語 | 🇪🇸 スペイン語 | 🇫🇷 フランス語 | 🇮🇱 ヘブライ語 | 🇮🇳 ヒンディー語 | 🇷🇺 ロシア語 | 🇨🇳 中国語 | 🇹🇷 トルコ語 |
+|------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-### 開発環境のセットアップ
-
-```bash
-cd openspot-music-app/
-cd openspot-music-electron/
-npm install
-npm run electron-dev
-```
-
-### 本番環境用のビルド
-
-```bash
-cd openspot-music-app/
-cd openspot-music-electron/
-npm run build
-npm run electron-pack
-```
-
----
-
-## ✨ 主な機能（両アプリ共通）
-
-- **🎵 高音質ストリーミング**：お気に入りのトラックを最高の音質で再生
-- **💾 オフラインダウンロード**：音楽をデバイスに直接保存してオフライン再生
-- **❤️ いいね＆コレクション**：楽曲に「いいね」して自分だけのコレクションを作成
-- **🔄 バックグラウンド再生**：他のアプリを使いながら音楽を継続再生
-- **🚫 ログイン不要**：すぐに利用開始！アカウント登録やサインアップは不要
-- **💾 永続的な状態保存**：いいねした曲や最近再生したトラックはアプリ再起動後も保存
-- **🎨 美しいUI**：各プラットフォーム向けに設計されたクリーンでモダンなインターフェース
-- **🆓 完全無料＆広告なし**：費用も広告もなく、音楽を中断されずに楽しめます
-
----
-
-
-## 💻 技術スタック
-
-### モバイルアプリ
-- **フレームワーク**：[React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
-- **ナビゲーション**：[Expo Router](https://expo.github.io/router/)
-- **オーディオ**：[Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
-- **ビルド**：[EAS Build](https://docs.expo.dev/build/introduction/)
-- **ロケーション取得**：[IPinfo API](https://github.com/ipinfo)
-
-### デスクトップアプリ
-- **フレームワーク**：[Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
-- **UI**：[Material-UI](https://mui.com/)
-- **状態管理**：React Context + useReducer
-- **ストレージ**：[electron-store](https://github.com/sindresorhus/electron-store)
-- **ビルド**：[electron-builder](https://www.electron.build/)
-
-### 共通
-- **言語**：[TypeScript](https://www.typescriptlang.org/)
-- **パッケージマネージャ**：npm/yarn
-
----
-
-### 環境構成
-
-このプロジェクトを正しく動作させるには、1つの環境変数が必要です。
-
-- テンプレートは [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) ファイル内に用意されています。
-- 必要な **値** は、**公式Telegramチャンネル**の**ピン留めメッセージ**内で共有されています：[ @openspot_music](https://t.me/openspot_music)。
+*近日中にさらに多くの言語が追加予定 — 貢献も歓迎！*
 
 
 ---
 
-## 🚀 クイックスタート
+### 🎨 ルック＆フィール
+- **刷新されたUI** – クリーンでモダンなデザイン、スムーズな遷移
+- **ミニプレイヤー** – 対応デバイス（OnePlusなど）でカプセル型ミニプレイヤー
+- **テーマ設定** – ダークモード、ライトモード、自動モード
 
-### モバイル開発の場合
-```bash
-git clone https://github.com/BlackHatDevX/openspot-music-app.git
-cd openspot-music-app/
-cd openspot-music-mobile/
-npm install
-npx expo start
-```
+### 🎼 音楽体験
+- **検索** – 曲、公的プレイリスト、アルバム、アーティストを探す
+- **オフライン再生** – トラックをダウンロードし、インターネットなしで再生
+- **カスタムプレイリスト** – 自分のコレクションを作成、管理、整理
+- **トレンドソング** – IPinfoによる地域別トレンドトラック
+- **アーティストアルバム＆プレイリスト** – 全ディスコグラフィの閲覧が可能に
 
-### デスクトップ開発の場合
-```bash
-git clone https://github.com/BlackHatDevX/openspot-music-app.git
-cd openspot-music-app/
-cd openspot-music-electron/
-npm install
-npm run electron-dev
-```
+### ⚡ パフォーマンスと安定性
+- **YouTube API改善** – より信頼性の高いストリーミング
+- **再生アップグレード** – より滑らかな動作、再生時間とバックグラウンド再生のバグ修正
+- **ヘッドセット＆ロック画面コントロール** – シームレスな通知操作
+- **ページネーション付きアーティスト曲** – 全曲が完全に読み込まれる
 
 ---
 
-## 🙌 貢献者
+## 📖 概要
 
-このプロジェクトを可能にしてくれた素晴らしい方々に心より感謝します:
+このモノレポは**最新技術で構築された完全に独立した音楽ストリーミングアプリを2つ提供**します：
 
-- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – コア貢献、API統合、プロジェクト全体の基盤
+| アプリ | プラットフォーム | フレームワーク | ロケーション |
+|--------|-----------------|----------------|--------------|
+| 📱 **モバイル** | Android, iOS *(近日公開)* | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **デスクトップ** | macOS, Windows/Linux *(近日公開)* | Tauri + React | `openspot-desktop/` |
 
-## 📞 コミュニティ & サポート
+両アプリは同じ強力なストリーミングコアを共有し、全デバイスでシームレスなリスニング体験を実現します。
 
-- **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **Issues**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+---
 
-## 👤 作者 & 連絡先
+## 🧰 技術スタック
+
+### 📱 モバイル
+`React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
+
+### 🖥️ デスクトップ
+`Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
+
+### 📊 コード構成
+![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
+![JavaScript](https://img.shields.io/badge/JavaScript-2.6%25-F7DF1E?style=flat-square&logo=javascript)  
+![CSS](https://img.shields.io/badge/CSS-1.2%25-1572B6?style=flat-square&logo=css3)  
+![HTML](https://img.shields.io/badge/HTML-0.5%25-E34F26?style=flat-square&logo=html5)
+
+---
+
+## 🌍 コミュニティ & サポート
+
+- 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
+- 🐛 **問題報告**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+
+---
+
+## 👤 作者
 
 **Jash Gro**
 
-- **LinkedIn**: [https://linkedin.com/in/jash-gro/](https://linkedin.com/in/jash-gro/)
-- **ポートフォリオ**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
-- **Telegram**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
-- **GitHub**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
+[![GitHub](https://img.shields.io/badge/BlackHatDevX-181717?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX)  
+[![LinkedIn](https://img.shields.io/badge/jash--gro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jash-gro/)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
+
 
 ## 📄 ライセンス
 
-このプロジェクトはオープンソースであり、MITライセンスの下で提供されています。詳細は `LICENSE` ファイルをご確認ください。
+このプロジェクトは **MIT ライセンス** の下でライセンスされています – 詳細は [LICENSE](./LICENSE) ファイルをご覧ください。
 
 ---
 
-<p align="center">
-  <strong>⭐ このプロジェクトが気に入ったら、ぜひスターをお願いします！ ⭐</strong>
+<div align="center">
+  <strong>⭐ OpenSpot Music を気に入ったらスターを付けてください – とても励みになります！</strong>
   <br />
-  <em>皆様のご支援が、誰もが使える素晴らしい無料音楽アプリ開発の励みになります。</em>
-</p> 
+  <em>あなたのサポートが、みんなのために音楽を流し続けます。</em>
+</div>
 
-
-```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
 
 ---

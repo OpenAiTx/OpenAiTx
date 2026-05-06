@@ -1,0 +1,1617 @@
+[
+  {
+    "Id": 1,
+    "Content": "# MCP REST API Tester\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![NPM Package](https://img.shields.io/npm/v/dkmaker-mcp-rest-api.svg)](https://www.npmjs.com/package/dkmaker-mcp-rest-api)\n\nA TypeScript-based MCP server that enables testing of REST APIs through Claude, Cline and other MCP clients. This tool allows you to test and interact with any REST API endpoints directly from your development environment.\n\n<a href=\"https://glama.ai/mcp/servers/izr2sp4rqo\">\n  <img width=\"380\" height=\"200\" src=\"https://glama.ai/mcp/servers/izr2sp4rqo/badge?refresh=1234\" />\n</a>\n\n## Installation\n\nInstall the package globally:",
+    "ContentSha": "FSBcuUybNFIC4XzIGRv1ImKzOf4D3/Habjeve0oNuY8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Testeur API REST MCP\n[![Licence : MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Package NPM](https://img.shields.io/npm/v/dkmaker-mcp-rest-api.svg)](https://www.npmjs.com/package/dkmaker-mcp-rest-api)\n\nUn serveur MCP basé sur TypeScript qui permet de tester les API REST via Claude, Cline et d'autres clients MCP. Cet outil vous permet de tester et d'interagir avec n'importe quel point de terminaison API REST directement depuis votre environnement de développement.\n\n<a href=\"https://glama.ai/mcp/servers/izr2sp4rqo\">\n  <img width=\"380\" height=\"200\" src=\"https://glama.ai/mcp/servers/izr2sp4rqo/badge?refresh=1234\" />\n</a>\n\n## Installation\n\nInstallez le package globalement :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mvQIO/fgz1fZv9uigSGEQSo33LnWsigvVXpYgJ+JIBQ=",
+        "originContent": "# MCP REST API Tester",
+        "translatedContent": "# Testeur API REST MCP"
+      },
+      {
+        "row": 2,
+        "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        "translatedContent": "[![Licence : MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 3,
+        "rowsha": "HI0WENE2lgAUDY6c1kFgyDkBGW+jxDkkj9rXYnjWo9g=",
+        "originContent": "[![NPM Package](https://img.shields.io/npm/v/dkmaker-mcp-rest-api.svg)](https://www.npmjs.com/package/dkmaker-mcp-rest-api)",
+        "translatedContent": "[![Package NPM](https://img.shields.io/npm/v/dkmaker-mcp-rest-api.svg)](https://www.npmjs.com/package/dkmaker-mcp-rest-api)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0G5JXlV16iBKuiU4abH8GJ5odAPbeAMp6xPTfB7Dw3k=",
+        "originContent": "A TypeScript-based MCP server that enables testing of REST APIs through Claude, Cline and other MCP clients. This tool allows you to test and interact with any REST API endpoints directly from your development environment.",
+        "translatedContent": "Un serveur MCP basé sur TypeScript qui permet de tester les API REST via Claude, Cline et d'autres clients MCP. Cet outil vous permet de tester et d'interagir avec n'importe quel point de terminaison API REST directement depuis votre environnement de développement."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "SByERkcsmsnKTH162+nMklXfl/a6A0JiNTbYVYwLVIo=",
+        "originContent": "<a href=\"https://glama.ai/mcp/servers/izr2sp4rqo\">",
+        "translatedContent": "<a href=\"https://glama.ai/mcp/servers/izr2sp4rqo\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "tk1m6WgOGTkM10ch9JBuEJOoCSeieFwUlKwkeHrOU1M=",
+        "originContent": "  <img width=\"380\" height=\"200\" src=\"https://glama.ai/mcp/servers/izr2sp4rqo/badge?refresh=1234\" />",
+        "translatedContent": "  <img width=\"380\" height=\"200\" src=\"https://glama.ai/mcp/servers/izr2sp4rqo/badge?refresh=1234\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "f7akZFQpZT+s41V5zX3UqfuLtTcHVdcD5/Ew+HDjBXs=",
+        "originContent": "Install the package globally:",
+        "translatedContent": "Installez le package globalement :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpm install -g dkmaker-mcp-rest-api\n```",
+    "ContentSha": "40BDwIc9Ib49S7kH9SWsa2gaOKCg30zaUhQ2TwD2oUU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install -g dkmaker-mcp-rest-api\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "u6Lcv0hYdIT8bjfNOSElJ02nttX7IU53OutNLxXRzd8=",
+        "originContent": "npm install -g dkmaker-mcp-rest-api",
+        "translatedContent": "npm install -g dkmaker-mcp-rest-api"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Configuration\n\n### Cline Custom Instructions\n\nTo ensure Cline understands how to effectively use this tool, add the following to your Cline custom instructions (Settings > Custom Instructions):\n",
+    "ContentSha": "HcwbfInDiOM3r0/HPpG6Bht8eqMzON2dvFeRK5aGqMM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Configuration\n\n### Instructions personnalisées pour Cline\n\nPour garantir que Cline comprenne comment utiliser efficacement cet outil, ajoutez ce qui suit à vos instructions personnalisées pour Cline (Paramètres > Instructions personnalisées) :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## Configuration"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IKQttpfOiSsgX0aQdbOmQXrtz5Y6W+kbwAeaEXJGBGA=",
+        "originContent": "### Cline Custom Instructions",
+        "translatedContent": "### Instructions personnalisées pour Cline"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "AVlLO2NEy94YgpWzRyNOD+Cmof6HHc1KLIlJvceyIRA=",
+        "originContent": "To ensure Cline understands how to effectively use this tool, add the following to your Cline custom instructions (Settings > Custom Instructions):",
+        "translatedContent": "Pour garantir que Cline comprenne comment utiliser efficacement cet outil, ajoutez ce qui suit à vos instructions personnalisées pour Cline (Paramètres > Instructions personnalisées) :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```markdown\n# REST API Testing Instructions\n\nThe `test_request` tool enables testing, debugging, and interacting with REST API endpoints. The tool provides comprehensive request/response information and handles authentication automatically.\n\n## When to Use\n\n- Testing specific API endpoints\n- Debugging API responses\n- Verifying API functionality\n- Checking response times\n- Validating request/response formats\n- Testing local development servers\n- Testing API sequences\n- Verifying error handling\n\n## Key Features\n\n- Supports GET, POST, PUT, DELETE, PATCH methods\n- Handles authentication (Basic, Bearer, API Key)\n- Normalizes endpoints automatically\n- Provides detailed response information\n- Configurable SSL verification and response limits\n\n## Resources\n\nThe following resources provide detailed documentation:\n\n- examples: Usage examples and common patterns\n- response-format: Response structure and fields\n- config: Configuration options and setup guide\n\nAccess these resources to understand usage, response formats, and configuration options.\n\n## Important Notes\n\n- Review API implementation for expected behavior\n- Handle sensitive data appropriately\n- Consider rate limits and API constraints\n- Restart server after configuration changes\n```",
+    "ContentSha": "fS4ox0OByWVI6+RUjY7CgsCIdc56hGhy/tTsO37VrZU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```markdown\n# REST API Testing Instructions\n\nThe `test_request` tool enables testing, debugging, and interacting with REST API endpoints. The tool provides comprehensive request/response information and handles authentication automatically.\n\n## When to Use\n\n- Testing specific API endpoints\n- Debugging API responses\n- Verifying API functionality\n- Checking response times\n- Validating request/response formats\n- Testing local development servers\n- Testing API sequences\n- Verifying error handling\n\n## Key Features\n\n- Supports GET, POST, PUT, DELETE, PATCH methods\n- Handles authentication (Basic, Bearer, API Key)\n- Normalizes endpoints automatically\n- Provides detailed response information\n- Configurable SSL verification and response limits\n\n## Resources\n\nThe following resources provide detailed documentation:\n\n- examples: Usage examples and common patterns\n- response-format: Response structure and fields\n- config: Configuration options and setup guide\n\nAccess these resources to understand usage, response formats, and configuration options.\n\n## Important Notes\n\n- Review API implementation for expected behavior\n- Handle sensitive data appropriately\n- Consider rate limits and API constraints\n- Restart server after configuration changes\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MHyWpNKr1KkVzz3IATBcRRAPua4ryYTWUlvrChR4qPU=",
+        "originContent": "```markdown",
+        "translatedContent": "```markdown"
+      },
+      {
+        "row": 2,
+        "rowsha": "dnfseMo2PcRQjAOZY0RcPaNG9uKjAs1X6C0SaGnYJwM=",
+        "originContent": "# REST API Testing Instructions",
+        "translatedContent": "# REST API Testing Instructions"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "shlAGG4iJRM9GUXDrbJzZLiOl5QOYhoVUMvaKr7/kbU=",
+        "originContent": "The `test_request` tool enables testing, debugging, and interacting with REST API endpoints. The tool provides comprehensive request/response information and handles authentication automatically.",
+        "translatedContent": "The `test_request` tool enables testing, debugging, and interacting with REST API endpoints. The tool provides comprehensive request/response information and handles authentication automatically."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "B5M9WI5BPnM9ao3SPCqNCh0fIqNRQ4tYTDuxxcphCmU=",
+        "originContent": "## When to Use",
+        "translatedContent": "## When to Use"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "jFCdP8AeBIBglUke91RUnYW/1g8/cat9rV3DG+gnDdU=",
+        "originContent": "- Testing specific API endpoints",
+        "translatedContent": "- Testing specific API endpoints"
+      },
+      {
+        "row": 9,
+        "rowsha": "PMmfTDLktn+z0rZj2u+uJIqTeCrC2b+f93X1jF8EQVA=",
+        "originContent": "- Debugging API responses",
+        "translatedContent": "- Debugging API responses"
+      },
+      {
+        "row": 10,
+        "rowsha": "85OoOm+nj+LqvTkr6Yz8xesHHM2KU3HsOxTBsMoKHsA=",
+        "originContent": "- Verifying API functionality",
+        "translatedContent": "- Verifying API functionality"
+      },
+      {
+        "row": 11,
+        "rowsha": "uwDwW2+OmYcq2kpINyws9lw+CH9VUWxQnbXe9Qh20wI=",
+        "originContent": "- Checking response times",
+        "translatedContent": "- Checking response times"
+      },
+      {
+        "row": 12,
+        "rowsha": "pb3Rmt4fSsOtIQFDlfaaCiBRCqG4H7qO+VJK0S8AySE=",
+        "originContent": "- Validating request/response formats",
+        "translatedContent": "- Validating request/response formats"
+      },
+      {
+        "row": 13,
+        "rowsha": "BBR4AfuN58aHmcOWuaqJGdnAf9YHBFXg4gA7OsFeXxo=",
+        "originContent": "- Testing local development servers",
+        "translatedContent": "- Testing local development servers"
+      },
+      {
+        "row": 14,
+        "rowsha": "JgdmgMqTXDJ7jNHXggotK7Uwou/AJpvzSyyb/r0Fcs4=",
+        "originContent": "- Testing API sequences",
+        "translatedContent": "- Testing API sequences"
+      },
+      {
+        "row": 15,
+        "rowsha": "JdilXlClY2jzpLrExxr2ROhK2qij83j36htdzWn6nn4=",
+        "originContent": "- Verifying error handling",
+        "translatedContent": "- Verifying error handling"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+        "originContent": "## Key Features",
+        "translatedContent": "## Key Features"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GvdZcbBXSmMR7qh5fM6y3iPatoe5dU3iKpBzsONq/dM=",
+        "originContent": "- Supports GET, POST, PUT, DELETE, PATCH methods",
+        "translatedContent": "- Supports GET, POST, PUT, DELETE, PATCH methods"
+      },
+      {
+        "row": 20,
+        "rowsha": "JQJLc0irdDnYjMorj3CbXV4O7QdGs0W8PpgDKEVHmw4=",
+        "originContent": "- Handles authentication (Basic, Bearer, API Key)",
+        "translatedContent": "- Handles authentication (Basic, Bearer, API Key)"
+      },
+      {
+        "row": 21,
+        "rowsha": "Qun/myqwISmUxnbtFlQDcQZSSIPKmXAEb3mN5GihTww=",
+        "originContent": "- Normalizes endpoints automatically",
+        "translatedContent": "- Normalizes endpoints automatically"
+      },
+      {
+        "row": 22,
+        "rowsha": "IUMKSe5nxxrx5Itw6dQcXQdpRbCP9GQhnn6aP4dXQjo=",
+        "originContent": "- Provides detailed response information",
+        "translatedContent": "- Provides detailed response information"
+      },
+      {
+        "row": 23,
+        "rowsha": "SLbpG+zYknlYS9guPIRFDHKPQnXv80ASgdavncG+zpI=",
+        "originContent": "- Configurable SSL verification and response limits",
+        "translatedContent": "- Configurable SSL verification and response limits"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "dcYhHej4lR6AN9ECiePl0Bd7ihcrWTNFAGtbQqjgjg4=",
+        "originContent": "## Resources",
+        "translatedContent": "## Resources"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "0W+aJwTomKjyTryyUdb8cnTMhOg0g/jHX5/esN0TJG4=",
+        "originContent": "The following resources provide detailed documentation:",
+        "translatedContent": "The following resources provide detailed documentation:"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "ZMBNcz7+GZI5MpkTOfaFL+C2wtYDr+BQdJPKRKaq9lA=",
+        "originContent": "- examples: Usage examples and common patterns",
+        "translatedContent": "- examples: Usage examples and common patterns"
+      },
+      {
+        "row": 30,
+        "rowsha": "iwWTzHBfw7FymkM7yOkMsoxIqZ+b1La+IVV/e+j7AUI=",
+        "originContent": "- response-format: Response structure and fields",
+        "translatedContent": "- response-format: Response structure and fields"
+      },
+      {
+        "row": 31,
+        "rowsha": "62/X5TuQ/vzOMsJhpKgavliXDuTcbckGp4eSj2qT1Q0=",
+        "originContent": "- config: Configuration options and setup guide",
+        "translatedContent": "- config: Configuration options and setup guide"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "JyjFEGxhX6hQq4aXWp/4Ow21O+kHpDFfetHKS4w6F2I=",
+        "originContent": "Access these resources to understand usage, response formats, and configuration options.",
+        "translatedContent": "Access these resources to understand usage, response formats, and configuration options."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "6QrU0Rp4zGeF2yCYOlov/tPOcX7uI/JtFRk0T2N3Zr4=",
+        "originContent": "## Important Notes",
+        "translatedContent": "## Important Notes"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "KW0UVR7BS42T8P8r0eH6Fx/0dajf8GTwjftBCj7hZfU=",
+        "originContent": "- Review API implementation for expected behavior",
+        "translatedContent": "- Review API implementation for expected behavior"
+      },
+      {
+        "row": 38,
+        "rowsha": "1K/naGvyrvocj6/QOH5B1jPOeTeZBMidAPl9M+7hnH4=",
+        "originContent": "- Handle sensitive data appropriately",
+        "translatedContent": "- Handle sensitive data appropriately"
+      },
+      {
+        "row": 39,
+        "rowsha": "R1i4PSyVUxWahoHGRjhuk8z07nmCsZjLe/o5PCNV9YE=",
+        "originContent": "- Consider rate limits and API constraints",
+        "translatedContent": "- Consider rate limits and API constraints"
+      },
+      {
+        "row": 40,
+        "rowsha": "KsfG28RbLoRr6MDUGEPz8Jkd0SQP1JPPquOy2WEOYKw=",
+        "originContent": "- Restart server after configuration changes",
+        "translatedContent": "- Restart server after configuration changes"
+      },
+      {
+        "row": 41,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### MCP Server Configuration\n\nWhile these instructions are for Cline, the server should work with any MCP implementation. Configure based on your operating system:\n\n### Windows\n⚠️ **IMPORTANT**: Due to a known issue with Windows path resolution ([issue #40](https://github.com/modelcontextprotocol/servers/issues/40)), you must use the full path instead of %APPDATA%.\n\nAdd to `C:\\Users\\<YourUsername>\\AppData\\Roaming\\Code\\User\\globalStorage\\saoudrizwan.claude-dev\\settings\\cline_mcp_settings.json`:",
+    "ContentSha": "nLy31zr0IR4l0aJn2Ku0gDXimq4t9UX0nBq3uaG56bo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Configuration du serveur MCP\n\nBien que ces instructions soient pour Cline, le serveur devrait fonctionner avec toute implémentation MCP. Configurez selon votre système d'exploitation :\n\n### Windows\n⚠️ **IMPORTANT** : En raison d’un problème connu avec la résolution des chemins sous Windows ([problème #40](https://github.com/modelcontextprotocol/servers/issues/40)), vous devez utiliser le chemin complet au lieu de %APPDATA%.\n\nAjoutez dans `C:\\Users\\<VotreNomUtilisateur>\\AppData\\Roaming\\Code\\User\\globalStorage\\saoudrizwan.claude-dev\\settings\\cline_mcp_settings.json` :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rzYqzY/9CRInD63+E9pZAsyF9NQ1DPFGWNoTR5+cmbY=",
+        "originContent": "### MCP Server Configuration",
+        "translatedContent": "### Configuration du serveur MCP"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WsR/6k3r0oKRxU+6AwtJvZad4Jm1b71/TF9O3nZcKmo=",
+        "originContent": "While these instructions are for Cline, the server should work with any MCP implementation. Configure based on your operating system:",
+        "translatedContent": "Bien que ces instructions soient pour Cline, le serveur devrait fonctionner avec toute implémentation MCP. Configurez selon votre système d'exploitation :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 7,
+        "rowsha": "KhQistBYDa2SUlnuYpOaXtUyBgZaLbEb9Qq1LPMaACo=",
+        "originContent": "⚠️ **IMPORTANT**: Due to a known issue with Windows path resolution ([issue #40](https://github.com/modelcontextprotocol/servers/issues/40)), you must use the full path instead of %APPDATA%.",
+        "translatedContent": "⚠️ **IMPORTANT** : En raison d’un problème connu avec la résolution des chemins sous Windows ([problème #40](https://github.com/modelcontextprotocol/servers/issues/40)), vous devez utiliser le chemin complet au lieu de %APPDATA%."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "n68jPdIidw0/gA6ffXx10AUF2EsKbUZpMqJE+iPHqrg=",
+        "originContent": "Add to `C:\\Users\\<YourUsername>\\AppData\\Roaming\\Code\\User\\globalStorage\\saoudrizwan.claude-dev\\settings\\cline_mcp_settings.json`:",
+        "translatedContent": "Ajoutez dans `C:\\Users\\<VotreNomUtilisateur>\\AppData\\Roaming\\Code\\User\\globalStorage\\saoudrizwan.claude-dev\\settings\\cline_mcp_settings.json` :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```json\n{\n  \"mcpServers\": {\n    \"rest-api\": {\n      \"command\": \"node\",\n      \"args\": [\n        \"C:/Users/<YourUsername>/AppData/Roaming/npm/node_modules/dkmaker-mcp-rest-api/build/index.js\"\n      ],\n      \"env\": {\n        \"REST_BASE_URL\": \"https://api.example.com\",\n        // Basic Auth\n        \"AUTH_BASIC_USERNAME\": \"your-username\",\n        \"AUTH_BASIC_PASSWORD\": \"your-password\",\n        // OR Bearer Token\n        \"AUTH_BEARER\": \"your-token\",\n        // OR API Key\n        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\",\n        \"AUTH_APIKEY_VALUE\": \"your-api-key\",\n        // SSL Verification (enabled by default)\n        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates\n        // Response Size Limit (optional, defaults to 10000 bytes)\n        \"REST_RESPONSE_SIZE_LIMIT\": \"10000\", // Maximum response size in bytes\n        // Custom Headers (optional)\n        \"HEADER_X-API-Version\": \"2.0\",\n        \"HEADER_Custom-Client\": \"my-client\",\n        \"HEADER_Accept\": \"application/json\"\n      }\n    }\n  }\n}\n```",
+    "ContentSha": "FAUGz6yK7K4JN8UHqERQ3nd18v6GcrtFNmHI7YOtWHc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"mcpServers\": {\n    \"rest-api\": {\n      \"command\": \"node\",\n      \"args\": [\n        \"C:/Users/<YourUsername>/AppData/Roaming/npm/node_modules/dkmaker-mcp-rest-api/build/index.js\"\n      ],\n      \"env\": {\n        \"REST_BASE_URL\": \"https://api.example.com\",\n        // Basic Auth\n        \"AUTH_BASIC_USERNAME\": \"your-username\",\n        \"AUTH_BASIC_PASSWORD\": \"your-password\",\n        // OR Bearer Token\n        \"AUTH_BEARER\": \"your-token\",\n        // OR API Key\n        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\",\n        \"AUTH_APIKEY_VALUE\": \"your-api-key\",\n        // SSL Verification (enabled by default)\n        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates\n        // Response Size Limit (optional, defaults to 10000 bytes)\n        \"REST_RESPONSE_SIZE_LIMIT\": \"10000\", // Maximum response size in bytes\n        // Custom Headers (optional)\n        \"HEADER_X-API-Version\": \"2.0\",\n        \"HEADER_Custom-Client\": \"my-client\",\n        \"HEADER_Accept\": \"application/json\"\n      }\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+        "originContent": "  \"mcpServers\": {",
+        "translatedContent": "  \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "KpD/XyHrtHMCvC9dyPOSC2Ci7EIeA8GoUnh2NCauBOk=",
+        "originContent": "    \"rest-api\": {",
+        "translatedContent": "    \"rest-api\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "OIzG+JUq9LfLZMfZS0P6tV+fRrTCP9JetXrOrobdnLA=",
+        "originContent": "      \"command\": \"node\",",
+        "translatedContent": "      \"command\": \"node\","
+      },
+      {
+        "row": 6,
+        "rowsha": "TfExGQ5HW8iiFZcWVpa6B1FvNcJjE9dlx18VUEtMDFo=",
+        "originContent": "      \"args\": [",
+        "translatedContent": "      \"args\": ["
+      },
+      {
+        "row": 7,
+        "rowsha": "BHp8iTDAXCZ9+J2wltyvy93dhQdWg7S24YwpsNbslFI=",
+        "originContent": "        \"C:/Users/<YourUsername>/AppData/Roaming/npm/node_modules/dkmaker-mcp-rest-api/build/index.js\"",
+        "translatedContent": "        \"C:/Users/<YourUsername>/AppData/Roaming/npm/node_modules/dkmaker-mcp-rest-api/build/index.js\""
+      },
+      {
+        "row": 8,
+        "rowsha": "8K9r02+tM+/3fDviTOH199SVi9/KU+cHxWq+FcmFrtM=",
+        "originContent": "      ],",
+        "translatedContent": "      ],"
+      },
+      {
+        "row": 9,
+        "rowsha": "KCt3f/t8XKXl6Az1UZA2aZO78CIP9Drb2LKKIKd3pfE=",
+        "originContent": "      \"env\": {",
+        "translatedContent": "      \"env\": {"
+      },
+      {
+        "row": 10,
+        "rowsha": "vbiLsEh0ExjlIGFlowVB+sr+UCgHSa7GVqTNPr/Q4Os=",
+        "originContent": "        \"REST_BASE_URL\": \"https://api.example.com\",",
+        "translatedContent": "        \"REST_BASE_URL\": \"https://api.example.com\","
+      },
+      {
+        "row": 11,
+        "rowsha": "2PlVHmUi0jhpHKMX6NziCikIF5cbF40qsenVatH1hP8=",
+        "originContent": "        // Basic Auth",
+        "translatedContent": "        // Basic Auth"
+      },
+      {
+        "row": 12,
+        "rowsha": "xYKQUeR4HZ6rJ3QCT45IREzlCBy5c5KLy3mD+mnOOlQ=",
+        "originContent": "        \"AUTH_BASIC_USERNAME\": \"your-username\",",
+        "translatedContent": "        \"AUTH_BASIC_USERNAME\": \"your-username\","
+      },
+      {
+        "row": 13,
+        "rowsha": "XITGa13kfmlMk2BPoimXbskGV0jqcP4pXLUqr3DfBxQ=",
+        "originContent": "        \"AUTH_BASIC_PASSWORD\": \"your-password\",",
+        "translatedContent": "        \"AUTH_BASIC_PASSWORD\": \"your-password\","
+      },
+      {
+        "row": 14,
+        "rowsha": "mNzGQE5lz5a2o9KR8Hm9t70uCZL1vNRv2bPDeWZFD6w=",
+        "originContent": "        // OR Bearer Token",
+        "translatedContent": "        // OR Bearer Token"
+      },
+      {
+        "row": 15,
+        "rowsha": "ja9bpay12Dgu1x2U9tfPjEdZFcFqLF+nY7CibmDKfio=",
+        "originContent": "        \"AUTH_BEARER\": \"your-token\",",
+        "translatedContent": "        \"AUTH_BEARER\": \"your-token\","
+      },
+      {
+        "row": 16,
+        "rowsha": "9R40G4CkGNaiQf5CXmPaoqHH+pGwJtpGbPDNbO5p0/Y=",
+        "originContent": "        // OR API Key",
+        "translatedContent": "        // OR API Key"
+      },
+      {
+        "row": 17,
+        "rowsha": "2kyEkN4SyP82sgipSmpXYKGdJoSg9fWYWJFe3XGDQs8=",
+        "originContent": "        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\",",
+        "translatedContent": "        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\","
+      },
+      {
+        "row": 18,
+        "rowsha": "QhrBKE4pZDMqg8dqm3VO2U05lAFOwEuGjmVtVpLTPm8=",
+        "originContent": "        \"AUTH_APIKEY_VALUE\": \"your-api-key\",",
+        "translatedContent": "        \"AUTH_APIKEY_VALUE\": \"your-api-key\","
+      },
+      {
+        "row": 19,
+        "rowsha": "7tduYByYS+Sn/+2tPmF5mpHdbujNI5GUMnGPb4DCXF8=",
+        "originContent": "        // SSL Verification (enabled by default)",
+        "translatedContent": "        // SSL Verification (enabled by default)"
+      },
+      {
+        "row": 20,
+        "rowsha": "QXReAfMmjsWYxdjQ2gn1Pw+Y4Pc55jWgByh4oZOulAg=",
+        "originContent": "        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates",
+        "translatedContent": "        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates"
+      },
+      {
+        "row": 21,
+        "rowsha": "m2q3WCCmG0Cyb/nyzn2+xAWP5PlWA2VIqhLkfneQVL8=",
+        "originContent": "        // Response Size Limit (optional, defaults to 10000 bytes)",
+        "translatedContent": "        // Response Size Limit (optional, defaults to 10000 bytes)"
+      },
+      {
+        "row": 22,
+        "rowsha": "coXGiJW01JM9ANTODZ2zhkd7Y5NngSmrX1LTjFFh2v4=",
+        "originContent": "        \"REST_RESPONSE_SIZE_LIMIT\": \"10000\", // Maximum response size in bytes",
+        "translatedContent": "        \"REST_RESPONSE_SIZE_LIMIT\": \"10000\", // Maximum response size in bytes"
+      },
+      {
+        "row": 23,
+        "rowsha": "jiz7nD14FeqdRcysN5/RWUx2MiPuiVqP2neelRUUjNg=",
+        "originContent": "        // Custom Headers (optional)",
+        "translatedContent": "        // Custom Headers (optional)"
+      },
+      {
+        "row": 24,
+        "rowsha": "ZbZyxlZsMiGCeJbZsNo9sGhoQUgP+DycSb+UVqNxTA4=",
+        "originContent": "        \"HEADER_X-API-Version\": \"2.0\",",
+        "translatedContent": "        \"HEADER_X-API-Version\": \"2.0\","
+      },
+      {
+        "row": 25,
+        "rowsha": "ciFB5//ENMzgExSXS7q8Fzds9yG543POKIqyFS3xoxk=",
+        "originContent": "        \"HEADER_Custom-Client\": \"my-client\",",
+        "translatedContent": "        \"HEADER_Custom-Client\": \"my-client\","
+      },
+      {
+        "row": 26,
+        "rowsha": "j7bLdPnSPUDMO23ELVWn04jNL44+SoAfAGYf1SV1+Cc=",
+        "originContent": "        \"HEADER_Accept\": \"application/json\"",
+        "translatedContent": "        \"HEADER_Accept\": \"application/json\""
+      },
+      {
+        "row": 27,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 28,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 29,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 30,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 31,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### macOS\nAdd to `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`:",
+    "ContentSha": "wLgXPXLqJAIsf3UEbT+iWhrfcGxHSnh8n44kL0lH6BQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### macOS\nAjouter à `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json` :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+        "originContent": "### macOS",
+        "translatedContent": "### macOS"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ymr28M8EA8Xml9cbd4ToUoLA+TlPF3CeJymClbtuRAo=",
+        "originContent": "Add to `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`:",
+        "translatedContent": "Ajouter à `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json` :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```json\n{\n  \"mcpServers\": {\n    \"rest-api\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dkmaker-mcp-rest-api\"\n      ],\n      \"env\": {\n        \"REST_BASE_URL\": \"https://api.example.com\",\n        // Basic Auth\n        \"AUTH_BASIC_USERNAME\": \"your-username\",\n        \"AUTH_BASIC_PASSWORD\": \"your-password\",\n        // OR Bearer Token\n        \"AUTH_BEARER\": \"your-token\",\n        // OR API Key\n        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\",\n        \"AUTH_APIKEY_VALUE\": \"your-api-key\",\n        // SSL Verification (enabled by default)\n        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates\n        // Custom Headers (optional)\n        \"HEADER_X-API-Version\": \"2.0\",\n        \"HEADER_Custom-Client\": \"my-client\",\n        \"HEADER_Accept\": \"application/json\"\n      }\n    }\n  }\n}\n```",
+    "ContentSha": "4j+NZX3g+Co/ppZyG6l3kLBEtiKP+cYKnbXEwK4Or9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"mcpServers\": {\n    \"rest-api\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"dkmaker-mcp-rest-api\"\n      ],\n      \"env\": {\n        \"REST_BASE_URL\": \"https://api.example.com\",\n        // Basic Auth\n        \"AUTH_BASIC_USERNAME\": \"your-username\",\n        \"AUTH_BASIC_PASSWORD\": \"your-password\",\n        // OR Bearer Token\n        \"AUTH_BEARER\": \"your-token\",\n        // OR API Key\n        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\",\n        \"AUTH_APIKEY_VALUE\": \"your-api-key\",\n        // SSL Verification (enabled by default)\n        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates\n        // Custom Headers (optional)\n        \"HEADER_X-API-Version\": \"2.0\",\n        \"HEADER_Custom-Client\": \"my-client\",\n        \"HEADER_Accept\": \"application/json\"\n      }\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+        "originContent": "  \"mcpServers\": {",
+        "translatedContent": "  \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "KpD/XyHrtHMCvC9dyPOSC2Ci7EIeA8GoUnh2NCauBOk=",
+        "originContent": "    \"rest-api\": {",
+        "translatedContent": "    \"rest-api\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+        "originContent": "      \"command\": \"npx\",",
+        "translatedContent": "      \"command\": \"npx\","
+      },
+      {
+        "row": 6,
+        "rowsha": "TfExGQ5HW8iiFZcWVpa6B1FvNcJjE9dlx18VUEtMDFo=",
+        "originContent": "      \"args\": [",
+        "translatedContent": "      \"args\": ["
+      },
+      {
+        "row": 7,
+        "rowsha": "wwz102CAJQDCW/GIDCnfElMOPy/JydRMezlgQ1U/20A=",
+        "originContent": "        \"-y\",",
+        "translatedContent": "        \"-y\","
+      },
+      {
+        "row": 8,
+        "rowsha": "+jHc+9Guyx5Er3Q5KXUNqYsykXp0sPRmb+S+5Dx8Va8=",
+        "originContent": "        \"dkmaker-mcp-rest-api\"",
+        "translatedContent": "        \"dkmaker-mcp-rest-api\""
+      },
+      {
+        "row": 9,
+        "rowsha": "8K9r02+tM+/3fDviTOH199SVi9/KU+cHxWq+FcmFrtM=",
+        "originContent": "      ],",
+        "translatedContent": "      ],"
+      },
+      {
+        "row": 10,
+        "rowsha": "KCt3f/t8XKXl6Az1UZA2aZO78CIP9Drb2LKKIKd3pfE=",
+        "originContent": "      \"env\": {",
+        "translatedContent": "      \"env\": {"
+      },
+      {
+        "row": 11,
+        "rowsha": "vbiLsEh0ExjlIGFlowVB+sr+UCgHSa7GVqTNPr/Q4Os=",
+        "originContent": "        \"REST_BASE_URL\": \"https://api.example.com\",",
+        "translatedContent": "        \"REST_BASE_URL\": \"https://api.example.com\","
+      },
+      {
+        "row": 12,
+        "rowsha": "2PlVHmUi0jhpHKMX6NziCikIF5cbF40qsenVatH1hP8=",
+        "originContent": "        // Basic Auth",
+        "translatedContent": "        // Basic Auth"
+      },
+      {
+        "row": 13,
+        "rowsha": "xYKQUeR4HZ6rJ3QCT45IREzlCBy5c5KLy3mD+mnOOlQ=",
+        "originContent": "        \"AUTH_BASIC_USERNAME\": \"your-username\",",
+        "translatedContent": "        \"AUTH_BASIC_USERNAME\": \"your-username\","
+      },
+      {
+        "row": 14,
+        "rowsha": "XITGa13kfmlMk2BPoimXbskGV0jqcP4pXLUqr3DfBxQ=",
+        "originContent": "        \"AUTH_BASIC_PASSWORD\": \"your-password\",",
+        "translatedContent": "        \"AUTH_BASIC_PASSWORD\": \"your-password\","
+      },
+      {
+        "row": 15,
+        "rowsha": "mNzGQE5lz5a2o9KR8Hm9t70uCZL1vNRv2bPDeWZFD6w=",
+        "originContent": "        // OR Bearer Token",
+        "translatedContent": "        // OR Bearer Token"
+      },
+      {
+        "row": 16,
+        "rowsha": "ja9bpay12Dgu1x2U9tfPjEdZFcFqLF+nY7CibmDKfio=",
+        "originContent": "        \"AUTH_BEARER\": \"your-token\",",
+        "translatedContent": "        \"AUTH_BEARER\": \"your-token\","
+      },
+      {
+        "row": 17,
+        "rowsha": "9R40G4CkGNaiQf5CXmPaoqHH+pGwJtpGbPDNbO5p0/Y=",
+        "originContent": "        // OR API Key",
+        "translatedContent": "        // OR API Key"
+      },
+      {
+        "row": 18,
+        "rowsha": "2kyEkN4SyP82sgipSmpXYKGdJoSg9fWYWJFe3XGDQs8=",
+        "originContent": "        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\",",
+        "translatedContent": "        \"AUTH_APIKEY_HEADER_NAME\": \"X-API-Key\","
+      },
+      {
+        "row": 19,
+        "rowsha": "QhrBKE4pZDMqg8dqm3VO2U05lAFOwEuGjmVtVpLTPm8=",
+        "originContent": "        \"AUTH_APIKEY_VALUE\": \"your-api-key\",",
+        "translatedContent": "        \"AUTH_APIKEY_VALUE\": \"your-api-key\","
+      },
+      {
+        "row": 20,
+        "rowsha": "7tduYByYS+Sn/+2tPmF5mpHdbujNI5GUMnGPb4DCXF8=",
+        "originContent": "        // SSL Verification (enabled by default)",
+        "translatedContent": "        // SSL Verification (enabled by default)"
+      },
+      {
+        "row": 21,
+        "rowsha": "QXReAfMmjsWYxdjQ2gn1Pw+Y4Pc55jWgByh4oZOulAg=",
+        "originContent": "        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates",
+        "translatedContent": "        \"REST_ENABLE_SSL_VERIFY\": \"false\", // Set to false to disable SSL verification for self-signed certificates"
+      },
+      {
+        "row": 22,
+        "rowsha": "jiz7nD14FeqdRcysN5/RWUx2MiPuiVqP2neelRUUjNg=",
+        "originContent": "        // Custom Headers (optional)",
+        "translatedContent": "        // Custom Headers (optional)"
+      },
+      {
+        "row": 23,
+        "rowsha": "ZbZyxlZsMiGCeJbZsNo9sGhoQUgP+DycSb+UVqNxTA4=",
+        "originContent": "        \"HEADER_X-API-Version\": \"2.0\",",
+        "translatedContent": "        \"HEADER_X-API-Version\": \"2.0\","
+      },
+      {
+        "row": 24,
+        "rowsha": "ciFB5//ENMzgExSXS7q8Fzds9yG543POKIqyFS3xoxk=",
+        "originContent": "        \"HEADER_Custom-Client\": \"my-client\",",
+        "translatedContent": "        \"HEADER_Custom-Client\": \"my-client\","
+      },
+      {
+        "row": 25,
+        "rowsha": "j7bLdPnSPUDMO23ELVWn04jNL44+SoAfAGYf1SV1+Cc=",
+        "originContent": "        \"HEADER_Accept\": \"application/json\"",
+        "translatedContent": "        \"HEADER_Accept\": \"application/json\""
+      },
+      {
+        "row": 26,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 27,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 28,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 29,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 30,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nNote: Replace the environment variables with your actual values. Only configure one authentication method at a time:\n1. Basic Authentication (username/password)\n2. Bearer Token (if Basic Auth is not configured)\n3. API Key (if neither Basic Auth nor Bearer Token is configured)\n\n## Features\n\n- Test REST API endpoints with different HTTP methods\n- Support for GET, POST, PUT, DELETE, and PATCH requests\n- Detailed response information including status, headers, and body\n- Custom Headers:\n  - Global headers via HEADER_* environment variables\n  - Case-insensitive prefix (HEADER_, header_, HeAdEr_)\n  - Case preservation for header names\n  - Priority-based application (per-request > auth > custom)\n- Request body handling for POST/PUT methods\n- Response Size Management:\n  - Automatic response size limiting (default: 10KB/10000 bytes)\n  - Configurable size limit via REST_RESPONSE_SIZE_LIMIT environment variable\n  - Clear truncation metadata when responses exceed limit\n  - Preserves response structure while only truncating body content\n\n- SSL Certificate Verification:\n  - Enabled by default for secure operation\n  - Can be disabled for self-signed certificates or development environments\n  - Control via REST_ENABLE_SSL_VERIFY environment variable\n- Multiple authentication methods:\n  - Basic Authentication (username/password)\n  - Bearer Token Authentication\n  - API Key Authentication (custom header)\n\n## Usage Examples\n\nOnce installed and configured, you can use the REST API Tester through Cline to test your API endpoints:\n",
+    "ContentSha": "XgXZMJMjulmJhjyveXSgcMdaPSyNS4MsCh22v2RvtzE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Note : Remplacez les variables d'environnement par vos valeurs réelles. Configurez une seule méthode d'authentification à la fois :\n1. Authentification Basique (nom d'utilisateur/mot de passe)\n2. Jeton Bearer (si l'authentification basique n'est pas configurée)\n3. Clé API (si ni l'authentification basique ni le jeton Bearer ne sont configurés)\n\n## Fonctionnalités\n\n- Tester les points d'accès REST API avec différentes méthodes HTTP\n- Support des requêtes GET, POST, PUT, DELETE et PATCH\n- Informations détaillées sur la réponse incluant statut, en-têtes et corps\n- En-têtes personnalisés :\n  - En-têtes globaux via les variables d'environnement HEADER_*\n  - Préfixe insensible à la casse (HEADER_, header_, HeAdEr_)\n  - Conservation de la casse des noms d'en-têtes\n  - Application prioritaire (par requête > auth > personnalisé)\n- Gestion du corps de la requête pour les méthodes POST/PUT\n- Gestion de la taille des réponses :\n  - Limitation automatique de la taille de réponse (par défaut : 10Ko/10000 octets)\n  - Limite configurable via la variable d'environnement REST_RESPONSE_SIZE_LIMIT\n  - Effacement des métadonnées de troncature lorsque les réponses dépassent la limite\n  - Conservation de la structure de la réponse tout en tronquant uniquement le contenu du corps\n\n- Vérification du certificat SSL :\n  - Activée par défaut pour une opération sécurisée\n  - Peut être désactivée pour les certificats auto-signés ou les environnements de développement\n  - Contrôle via la variable d'environnement REST_ENABLE_SSL_VERIFY\n- Plusieurs méthodes d'authentification :\n  - Authentification Basique (nom d'utilisateur/mot de passe)\n  - Authentification par jeton Bearer\n  - Authentification par clé API (en-tête personnalisé)\n\n## Exemples d'utilisation\n\nUne fois installé et configuré, vous pouvez utiliser le Testeur REST API via Cline pour tester vos points d'accès API :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Note : Remplacez les variables d'environnement par vos valeurs réelles. Configurez une seule méthode d'authentification à la fois :"
+      },
+      {
+        "row": 2,
+        "rowsha": "eMVLUit9agdBH87zyoBkrn5SzUMlUse7hFPJc5JxqRk=",
+        "originContent": "Note: Replace the environment variables with your actual values. Only configure one authentication method at a time:",
+        "translatedContent": "1. Authentification Basique (nom d'utilisateur/mot de passe)"
+      },
+      {
+        "row": 3,
+        "rowsha": "4okr+Kg2kSRRl9ESj/TBGesy/+cNz+WJG0n1FXnLDFU=",
+        "originContent": "1. Basic Authentication (username/password)",
+        "translatedContent": "2. Jeton Bearer (si l'authentification basique n'est pas configurée)"
+      },
+      {
+        "row": 4,
+        "rowsha": "5VR8FN7h2mfF5cWCZ4QgZrLEVOBZdWOv6yHkput5RwE=",
+        "originContent": "2. Bearer Token (if Basic Auth is not configured)",
+        "translatedContent": "3. Clé API (si ni l'authentification basique ni le jeton Bearer ne sont configurés)"
+      },
+      {
+        "row": 5,
+        "rowsha": "BwawLwp7SnKHEW2bhX0PfDEjCL/18XoUI4v3kAcqamU=",
+        "originContent": "3. API Key (if neither Basic Auth nor Bearer Token is configured)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Tester les points d'accès REST API avec différentes méthodes HTTP"
+      },
+      {
+        "row": 9,
+        "rowsha": "NtmjyBhpBmZpH48Nx5fgq1DzRa+uPOS6b6Q2I91ZSug=",
+        "originContent": "- Test REST API endpoints with different HTTP methods",
+        "translatedContent": "- Support des requêtes GET, POST, PUT, DELETE et PATCH"
+      },
+      {
+        "row": 10,
+        "rowsha": "nsIDNw5i38xTr7zrRJnxC8CDP1EsAQlaCV7/9jPTIi4=",
+        "originContent": "- Support for GET, POST, PUT, DELETE, and PATCH requests",
+        "translatedContent": "- Informations détaillées sur la réponse incluant statut, en-têtes et corps"
+      },
+      {
+        "row": 11,
+        "rowsha": "z7C4+z3mqqbHOBLLNHFuCaketqDiI3KyzJPb5FpeZIA=",
+        "originContent": "- Detailed response information including status, headers, and body",
+        "translatedContent": "- En-têtes personnalisés :"
+      },
+      {
+        "row": 12,
+        "rowsha": "1Lur+kiDBh86CAEYmfqxXhTXNi5iiBERe/Dqx6XbQ3A=",
+        "originContent": "- Custom Headers:",
+        "translatedContent": "  - En-têtes globaux via les variables d'environnement HEADER_*"
+      },
+      {
+        "row": 13,
+        "rowsha": "E4ITDu4qXRQhW3XnpBDqap8fAFFbwAnOEOp5DOW/sZo=",
+        "originContent": "  - Global headers via HEADER_* environment variables",
+        "translatedContent": "  - Préfixe insensible à la casse (HEADER_, header_, HeAdEr_)"
+      },
+      {
+        "row": 14,
+        "rowsha": "HccB5PYaAgCHFQxgZc8rer9TlqJkf1G0V1QFAVm5jDQ=",
+        "originContent": "  - Case-insensitive prefix (HEADER_, header_, HeAdEr_)",
+        "translatedContent": "  - Conservation de la casse des noms d'en-têtes"
+      },
+      {
+        "row": 15,
+        "rowsha": "k93RNFs5lo29X+MK99exJ/FBNBRXVEi1E/uq1BgeBvg=",
+        "originContent": "  - Case preservation for header names",
+        "translatedContent": "  - Application prioritaire (par requête > auth > personnalisé)"
+      },
+      {
+        "row": 16,
+        "rowsha": "IUIVrP1JmRZ1C4Q3SZNKDLckuuORmVHnoS9X3i3INTQ=",
+        "originContent": "  - Priority-based application (per-request > auth > custom)",
+        "translatedContent": "- Gestion du corps de la requête pour les méthodes POST/PUT"
+      },
+      {
+        "row": 17,
+        "rowsha": "AIH7huQWGAnO417xah8IBiTsf2tiUkscJMtCB1MAvTM=",
+        "originContent": "- Request body handling for POST/PUT methods",
+        "translatedContent": "- Gestion de la taille des réponses :"
+      },
+      {
+        "row": 18,
+        "rowsha": "aZnb9QogM60QKbWoXICSyhFaMO2IKhUDobOvuvoRDaQ=",
+        "originContent": "- Response Size Management:",
+        "translatedContent": "  - Limitation automatique de la taille de réponse (par défaut : 10Ko/10000 octets)"
+      },
+      {
+        "row": 19,
+        "rowsha": "LL/WvWbqZsdlgsu8mMpnbbQHB63lkdmAOmZUMbqCKKo=",
+        "originContent": "  - Automatic response size limiting (default: 10KB/10000 bytes)",
+        "translatedContent": "  - Limite configurable via la variable d'environnement REST_RESPONSE_SIZE_LIMIT"
+      },
+      {
+        "row": 20,
+        "rowsha": "31nReTKL8y7q2rP4VvuHc8k77N69xM8qu9Rz+ZnIgWE=",
+        "originContent": "  - Configurable size limit via REST_RESPONSE_SIZE_LIMIT environment variable",
+        "translatedContent": "  - Effacement des métadonnées de troncature lorsque les réponses dépassent la limite"
+      },
+      {
+        "row": 21,
+        "rowsha": "A1gO4LyXQdO9LbbxOsfZHxrPYuT3d0kdtSLfMVFNs2g=",
+        "originContent": "  - Clear truncation metadata when responses exceed limit",
+        "translatedContent": "  - Conservation de la structure de la réponse tout en tronquant uniquement le contenu du corps"
+      },
+      {
+        "row": 22,
+        "rowsha": "EGac6/12haPRzn+FgeP/yvorWU7mgWXO/bSdt8oqgbY=",
+        "originContent": "  - Preserves response structure while only truncating body content",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Vérification du certificat SSL :"
+      },
+      {
+        "row": 24,
+        "rowsha": "BeiuelRG0dnDKGXj4At5GTmsj+DxFZnBPbw0sWYRpBk=",
+        "originContent": "- SSL Certificate Verification:",
+        "translatedContent": "  - Activée par défaut pour une opération sécurisée"
+      },
+      {
+        "row": 25,
+        "rowsha": "WfFhzcJkzMTG+/G4jZZmDXra3+aIwYAPGslx1icnDAc=",
+        "originContent": "  - Enabled by default for secure operation",
+        "translatedContent": "  - Peut être désactivée pour les certificats auto-signés ou les environnements de développement"
+      },
+      {
+        "row": 26,
+        "rowsha": "3F40igxQ/a/jCtaf913kFbJYiPC8pJxhALkJsQWOvuc=",
+        "originContent": "  - Can be disabled for self-signed certificates or development environments",
+        "translatedContent": "  - Contrôle via la variable d'environnement REST_ENABLE_SSL_VERIFY"
+      },
+      {
+        "row": 27,
+        "rowsha": "rHDnRyiulg2txTQAjSu8fTQ7MRk6nGfOJXH93+Ua0bk=",
+        "originContent": "  - Control via REST_ENABLE_SSL_VERIFY environment variable",
+        "translatedContent": "- Plusieurs méthodes d'authentification :"
+      },
+      {
+        "row": 28,
+        "rowsha": "RwkYW400ZYCvxzMsnAJkfuj/LvQT2SLjcqpFaCyQHJw=",
+        "originContent": "- Multiple authentication methods:",
+        "translatedContent": "  - Authentification Basique (nom d'utilisateur/mot de passe)"
+      },
+      {
+        "row": 29,
+        "rowsha": "h7scSQ62qSl4dxfCVT+v2mBU5SHjjuaE/kW/aEQRMSs=",
+        "originContent": "  - Basic Authentication (username/password)",
+        "translatedContent": "  - Authentification par jeton Bearer"
+      },
+      {
+        "row": 30,
+        "rowsha": "Slsj/OnWjk221CcqyuHepD/6cp+/khemBDtl0GgnjSc=",
+        "originContent": "  - Bearer Token Authentication",
+        "translatedContent": "  - Authentification par clé API (en-tête personnalisé)"
+      },
+      {
+        "row": 31,
+        "rowsha": "l0ddsU5o3kq/Bq+Gujtw03xw4HQWwK7/FoOrMWlDZG0=",
+        "originContent": "  - API Key Authentication (custom header)",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Exemples d'utilisation"
+      },
+      {
+        "row": 33,
+        "rowsha": "S26wdEyXDtbwhsw5/RfwoNc6EYkI3moIDhrEDjveQB0=",
+        "originContent": "## Usage Examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Une fois installé et configuré, vous pouvez utiliser le Testeur REST API via Cline pour tester vos points d'accès API :"
+      },
+      {
+        "row": 35,
+        "rowsha": "pmj7Hw8qzGHQQe8U9MWQcVS9ELgISK4Nhi88Cxw7mgg=",
+        "originContent": "Once installed and configured, you can use the REST API Tester through Cline to test your API endpoints:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```typescript\n// Test a GET endpoint\nuse_mcp_tool('rest-api', 'test_request', {\n  \"method\": \"GET\",\n  \"endpoint\": \"/users\"\n});\n\n// Test a POST endpoint with body\nuse_mcp_tool('rest-api', 'test_request', {\n  \"method\": \"POST\",\n  \"endpoint\": \"/users\",\n  \"body\": {\n    \"name\": \"John Doe\",\n    \"email\": \"john@example.com\"\n  }\n});\n\n// Test with custom headers\nuse_mcp_tool('rest-api', 'test_request', {\n  \"method\": \"GET\",\n  \"endpoint\": \"/products\",\n  \"headers\": {\n    \"Accept-Language\": \"en-US\",\n    \"X-Custom-Header\": \"custom-value\"\n  }\n});\n```",
+    "ContentSha": "oCQG+dlLwgrwc8G8ygv2HyE+aDrVsLwSOlnF6HZagg8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\n// Test a GET endpoint\nuse_mcp_tool('rest-api', 'test_request', {\n  \"method\": \"GET\",\n  \"endpoint\": \"/users\"\n});\n\n// Test a POST endpoint with body\nuse_mcp_tool('rest-api', 'test_request', {\n  \"method\": \"POST\",\n  \"endpoint\": \"/users\",\n  \"body\": {\n    \"name\": \"John Doe\",\n    \"email\": \"john@example.com\"\n  }\n});\n\n// Test with custom headers\nuse_mcp_tool('rest-api', 'test_request', {\n  \"method\": \"GET\",\n  \"endpoint\": \"/products\",\n  \"headers\": {\n    \"Accept-Language\": \"en-US\",\n    \"X-Custom-Header\": \"custom-value\"\n  }\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "zvDoJ6SnXybhV5wP2sJ/bZAE+VtvDw/htrQmFOMXQRw=",
+        "originContent": "// Test a GET endpoint",
+        "translatedContent": "// Test a GET endpoint"
+      },
+      {
+        "row": 3,
+        "rowsha": "wLh9chVPdXsDRNE+hjb2hAbcCMMSj3CgHJZNMAaWZ1o=",
+        "originContent": "use_mcp_tool('rest-api', 'test_request', {",
+        "translatedContent": "use_mcp_tool('rest-api', 'test_request', {"
+      },
+      {
+        "row": 4,
+        "rowsha": "4ULxfU6U8qDeQYpKvi6jMs+zWHc82h2GHSSED6PuUmc=",
+        "originContent": "  \"method\": \"GET\",",
+        "translatedContent": "  \"method\": \"GET\","
+      },
+      {
+        "row": 5,
+        "rowsha": "T2hX3F19QBt8ARTydBHQKOwf/eB8P2cUaSI2d168STs=",
+        "originContent": "  \"endpoint\": \"/users\"",
+        "translatedContent": "  \"endpoint\": \"/users\""
+      },
+      {
+        "row": 6,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "rmC3xi5BOTjC3yoE8nUxVklzYlXVOJFTThpLQC+Jb1w=",
+        "originContent": "// Test a POST endpoint with body",
+        "translatedContent": "// Test a POST endpoint with body"
+      },
+      {
+        "row": 9,
+        "rowsha": "wLh9chVPdXsDRNE+hjb2hAbcCMMSj3CgHJZNMAaWZ1o=",
+        "originContent": "use_mcp_tool('rest-api', 'test_request', {",
+        "translatedContent": "use_mcp_tool('rest-api', 'test_request', {"
+      },
+      {
+        "row": 10,
+        "rowsha": "hlbArUN98CuEURpVrG9xDc2attnN3sviMe52oyLQptc=",
+        "originContent": "  \"method\": \"POST\",",
+        "translatedContent": "  \"method\": \"POST\","
+      },
+      {
+        "row": 11,
+        "rowsha": "N5sBJN13u5XkOwtr6iITLsw5bJ7uI2YN6VJ919FYyjM=",
+        "originContent": "  \"endpoint\": \"/users\",",
+        "translatedContent": "  \"endpoint\": \"/users\","
+      },
+      {
+        "row": 12,
+        "rowsha": "L9E/T9bG/32dDshB8bV1fUwrRsuXe3am5p25WS3uPDQ=",
+        "originContent": "  \"body\": {",
+        "translatedContent": "  \"body\": {"
+      },
+      {
+        "row": 13,
+        "rowsha": "2RlfHM7qx4Fj5z61wGEF+1TpngXvmPs1T+zGiD26s9U=",
+        "originContent": "    \"name\": \"John Doe\",",
+        "translatedContent": "    \"name\": \"John Doe\","
+      },
+      {
+        "row": 14,
+        "rowsha": "mqOI/Auv52AfQbBATd+TJO8dil/8TmmHBkf/1Ap1jfM=",
+        "originContent": "    \"email\": \"john@example.com\"",
+        "translatedContent": "    \"email\": \"john@example.com\""
+      },
+      {
+        "row": 15,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 16,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Q8dtwjtuhTSHyPYVajOO1WLbw+V+XLj5n9N72vDy7II=",
+        "originContent": "// Test with custom headers",
+        "translatedContent": "// Test with custom headers"
+      },
+      {
+        "row": 19,
+        "rowsha": "wLh9chVPdXsDRNE+hjb2hAbcCMMSj3CgHJZNMAaWZ1o=",
+        "originContent": "use_mcp_tool('rest-api', 'test_request', {",
+        "translatedContent": "use_mcp_tool('rest-api', 'test_request', {"
+      },
+      {
+        "row": 20,
+        "rowsha": "4ULxfU6U8qDeQYpKvi6jMs+zWHc82h2GHSSED6PuUmc=",
+        "originContent": "  \"method\": \"GET\",",
+        "translatedContent": "  \"method\": \"GET\","
+      },
+      {
+        "row": 21,
+        "rowsha": "fh/6VMYjJEi5uRhOMtBoxMhFtwzpervJkLKF2623pEg=",
+        "originContent": "  \"endpoint\": \"/products\",",
+        "translatedContent": "  \"endpoint\": \"/products\","
+      },
+      {
+        "row": 22,
+        "rowsha": "Z7fQCg9y1aejdD2kqQK3jZvz+dVw1kRp5tt8ZDtEllA=",
+        "originContent": "  \"headers\": {",
+        "translatedContent": "  \"headers\": {"
+      },
+      {
+        "row": 23,
+        "rowsha": "BfHVsJAsY03yJhsCFjjCMsB9TCFeAfhSqAmTkT0skpo=",
+        "originContent": "    \"Accept-Language\": \"en-US\",",
+        "translatedContent": "    \"Accept-Language\": \"en-US\","
+      },
+      {
+        "row": 24,
+        "rowsha": "AeDj9biStgrOEVO/qE1IfKq34gBCLTqklx3WPUBlBdE=",
+        "originContent": "    \"X-Custom-Header\": \"custom-value\"",
+        "translatedContent": "    \"X-Custom-Header\": \"custom-value\""
+      },
+      {
+        "row": 25,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 26,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Development\n\n1. Clone the repository:",
+    "ContentSha": "SKlE6iTNlFNEfVYdgPFXNWYPrhJ10lrTzswxWjS+IVI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Développement\n\n1. Clonez le dépôt :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## Développement"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. Clonez le dépôt :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\ngit clone https://github.com/zenturacp/mcp-rest-api.git\ncd mcp-rest-api\n```",
+    "ContentSha": "QREFBG2dfsn5VfK2p2BiuWMFOwHEEHXKDyIA8pxC8CA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/zenturacp/mcp-rest-api.git\ncd mcp-rest-api\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "W5XYMBKNZQLlInIEh6LrOfXC0dlG+/mROW1XiAxW+zU=",
+        "originContent": "git clone https://github.com/zenturacp/mcp-rest-api.git",
+        "translatedContent": "git clone https://github.com/zenturacp/mcp-rest-api.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "naKgu63HZnVoFEfqqKiG+iF6u8duq0AsY7EWRi0r/co=",
+        "originContent": "cd mcp-rest-api",
+        "translatedContent": "cd mcp-rest-api"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n2. Install dependencies:",
+    "ContentSha": "7axmS9yAHWfFa5x86RXNal1TyqIcwHVkbg9dg4se5lk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Installer les dépendances :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": "2. Installer les dépendances :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\nnpm install\n```",
+    "ContentSha": "61pQ/Fja9zY+MRdm6d0xrWHYXeOM3qnlkhFYQhpctLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n3. Build the project:",
+    "ContentSha": "5AAp44HaKOOs+OgsTRr2yuYOPrHP3MKz0jftcrjE6w8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Construisez le projet :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Construisez le projet :"
+      },
+      {
+        "row": 2,
+        "rowsha": "RrVLtDQgVKxcX2VARhIl6KMi5N6luf2kEpGqiYL2tSg=",
+        "originContent": "3. Build the project:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\nnpm run build\n```",
+    "ContentSha": "Y6j143vv3isbCp8LHtAiWwMleP7De1/5H/GwMbV45Ko=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm run build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FsDkMFrCE9/zn8grabbgiu64dY4zzXLXxAl1KnDp8FQ=",
+        "originContent": "npm run build",
+        "translatedContent": "npm run build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nFor development with auto-rebuild:",
+    "ContentSha": "CEH/0sWWeiCuv9B+iAMTpFIb3+uZEqX/HdzRTkLkHTU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPour le développement avec reconstruction automatique :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+7qrqbGa/qYg6S8CPtrSlodPtT/1j9ZZ7qkc4ls3d9I=",
+        "originContent": "For development with auto-rebuild:",
+        "translatedContent": "Pour le développement avec reconstruction automatique :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\nnpm run watch\n```",
+    "ContentSha": "QYdjMa2nzR+fz56i84y78S3P+QaUBLx81RkTLf2WpYk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm run watch\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "s0M12JRt9hq1j4CuVzS4aKw0VaKYZquwH+b5pvuiHYM=",
+        "originContent": "npm run watch",
+        "translatedContent": "npm run watch"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n",
+    "ContentSha": "7r6ylGcAAyspCapM81JbtYzdmSNUIaQLl/P8Ga3d95w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Licence\n\nCe projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
