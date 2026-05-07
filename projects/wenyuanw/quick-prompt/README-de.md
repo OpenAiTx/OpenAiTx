@@ -34,90 +34,95 @@
   <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Eine leistungsstarke Browser-Erweiterung, die sich auf das Management und die schnelle Eingabe von Prompts konzentriert. Sie hilft Benutzern, eine Prompt-Bibliothek zu erstellen, zu verwalten und zu organisieren und voreingestellte Prompt-Inhalte schnell in jedes Eingabefeld auf Webseiten einzufügen, um die Arbeitseffizienz zu steigern.
+Eine leistungsstarke Browser-Erweiterung, die sich auf das Management und die schnelle Eingabe von Prompts konzentriert. Sie hilft Nutzern dabei, eine Prompt-Bibliothek zu erstellen, zu verwalten und zu organisieren und voreingestellte Prompt-Inhalte schnell in jedes beliebige Eingabefeld einer Webseite einzufügen, um die Arbeitseffizienz zu steigern.
 
-> Da Browser-Erweiterungen nur im Web verwendet werden können, wurde ein funktionsgleiches [Raycast-Plugin](https://github.com/wenyuanw/quick-prompt-raycast) als Open Source veröffentlicht, das mit dem Datenformat der Browser-Erweiterung kompatibel ist und eine nahtlose Migration über identische JSON-Daten ermöglicht.
+## ✨ Funktionen und Merkmale
 
-## ✨ Funktionsmerkmale
+- 📚 **Prompt-Verwaltung**: Erstelle, bearbeite und verwalte deine Prompt-Bibliothek bequem
+- 🚀 **Schnelleingabe**: Trigger den Prompt-Auswahldialog in jedem Webseiteneingabefeld schnell mit `/p`
+- ⌨️ Konfigurierbare Tastenkombinationen zum Öffnen des Prompt-Auswahldialogs & Speichern ausgewählten Texts als Prompt werden unterstützt
+- 📑 Unterstützung für das direkte Speichern ausgewählten Texts als Prompt über das Rechtsklick-Menü
+- 🎯 Unterstützung für benutzerdefinierte Prompts, einschließlich Kategorien, Titel, Inhalt, Anhängen, Tags und Variablen
+- 🧑‍💻 **Variablenunterstützung**: In Prompts können Variablen im Format `{{Variablenname}}` verwendet werden, beim Einfügen können konkrete Werte angegeben werden
+- 💾 **Datensicherung**: Exportiere und importiere deine Prompt-Bibliothek zur einfachen Migration und Sicherung geräteübergreifend
+- 🔗 **Cloud-Synchronisierung**: Prompt-Bibliothek unterstützt WebDAV-Synchronisierung, Notion-Datenbank, Gitee/GitHub Gist-Synchronisierung
+- 🔍 Unterstützung für Suche und Filterung von Prompts
+- 🌙 Automatische Anpassung an das helle oder dunkle Systemdesign
 
-- 📚 **Prompt-Verwaltung**: Einfaches Erstellen, Bearbeiten und Verwalten deiner Prompt-Bibliothek
-- 🚀 **Schnelle Eingabe**: Schneller Zugriff auf den Prompt-Auswahlbereich durch `/p` in jedem Web-Eingabefeld
-- ⌨️ Konfigurierbare Tastenkombinationen zum Öffnen des Prompt-Auswahlbereichs & Speichern von ausgewähltem Text als Prompt
-- 📑 Kontextmenü-Unterstützung zum direkten Speichern von ausgewähltem Text als Prompt
-- 🎯 Unterstützung für benutzerdefinierte Prompts, inklusive Kategorien, Titel, Inhalt, Tags und Variablen
-- 🧑‍💻 **Variablenunterstützung**: Prompts können Variablen im Format `{{Variablenname}}` enthalten, beim Verwenden können konkrete Werte eingetragen werden
-- 💾 **Daten-Backup**: Export und Import der Prompt-Bibliothek zur einfachen Geräteübertragung und Sicherung
-- 🔗 **Cloud-Synchronisation**: Prompt-Bibliothek kann mit einer Notion-Datenbank oder Gitee/GitHub Gist synchronisiert werden
-- 🔍 Unterstützung für Such- und Filterfunktionen in den Prompts
-- 🌙 Automatische Anpassung an das helle oder dunkle System-Theme
+## 🚀 Anwendungshinweise
 
-## 🚀 Anleitung
-
-1. **Schnelle Aktivierung**: Gib `/p` in einem beliebigen Texteingabefeld einer Webseite ein, um den Prompt-Auswahlbereich zu öffnen
-2. **Tastenkombination für Auswahlbereich**: Öffne den Prompt-Auswahlbereich mit `Ctrl+Shift+P` (Windows/Linux) oder `Command+Shift+P` (macOS)
-3. **Prompt auswählen**: Klicke im Auswahlbereich auf den gewünschten Prompt, er wird automatisch in das aktuelle Eingabefeld eingefügt
-4. **Prompt schnell speichern**: Nach Markieren eines beliebigen Textes speichere ihn mit `Ctrl+Shift+S` (Windows/Linux) oder `Command+Shift+S` (macOS) als Prompt
-5. **Speichern per Kontextmenü**: Markiere beliebigen Text, klicke mit der rechten Maustaste und wähle "Prompt speichern", um den ausgewählten Inhalt als Prompt zu speichern
-6. **Prompt-Bibliothek exportieren**: Klicke im Verwaltungsbereich auf die Schaltfläche "Exportieren", um alle Prompts als JSON-Datei lokal zu speichern
-7. **Prompt-Bibliothek importieren**: Klicke im Verwaltungsbereich auf die Schaltfläche "Importieren", um Prompts aus einer lokalen JSON-Datei zu importieren (Unterstützt Zusammenführen oder Überschreiben vorhandener Prompts)
+1. **Schnelltrigger**: Gib `/p` in ein beliebiges Texteingabefeld einer Webseite ein, um den Prompt-Auswahldialog zu öffnen
+2. **Auswahldialog per Shortcut öffnen**: Öffne den Prompt-Auswahldialog mit `Ctrl+Shift+P` (Windows/Linux) oder `Command+Shift+P` (macOS)
+3. **Prompt auswählen**: Klicke im eingeblendeten Auswahldialog auf den gewünschten Prompt, dieser wird automatisch ins aktuelle Eingabefeld eingefügt
+4. **Prompt schnell speichern**: Markiere beliebigen Text und speichere ihn mit `Ctrl+Shift+S` (Windows/Linux) oder `Command+Shift+S` (macOS) als Prompt
+5. **Rechtsklick-Menü speichern**: Markiere beliebigen Text, klicke mit der rechten Maustaste und wähle „Als Prompt speichern“, um den Text als Prompt zu speichern
+6. **Prompt-Bibliothek exportieren**: Klicke im Verwaltungsbereich auf „Exportieren“, um alle Prompts als JSON-Datei lokal zu speichern
+7. **Prompt-Bibliothek importieren**: Klicke im Verwaltungsbereich auf „Importieren“, um Prompts aus einer lokalen JSON-Datei zu importieren (Unterstützt Zusammenführen oder Überschreiben bestehender Prompts)
 
 ## 📸 Interface-Vorschau
 
 Quick Prompt bietet eine intuitive und benutzerfreundliche Oberfläche, mit der du Prompts einfach verwalten und verwenden kannst.
 
-### Prompt-Auswahlbereich
+### Prompt-Auswahldialog
 
-![Prompt-Auswahlbereich](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
+![Prompt-Auswahldialog](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
 
-![Prompt-Auswahlbereich](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
+![Prompt-Auswahldialog](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Durch das `/p`-Kürzel oder eine Tastenkombination kannst du in jedem Eingabefeld blitzschnell den Prompt-Auswahlbereich öffnen und bequem Prompts auswählen und einfügen.
+Mit dem `/p`-Schnellbefehl oder Tastenkürzel kannst du in jedem Eingabefeld schnell den Prompt-Auswahldialog öffnen, um bequem die benötigten Prompts auszuwählen und einzufügen.
 
 ### Prompt-Verwaltungsseite
 
 ![Prompt-Verwaltung](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Im Verwaltungsbereich kannst du neue Prompts erstellen, vorhandene Prompts bearbeiten, Tags hinzufügen und die Kategorien verwalten. Die Oberfläche ist klar strukturiert und einfach zu bedienen.
+Auf der Verwaltungsseite kannst du neue Prompts erstellen, bestehende Prompts bearbeiten, Tags hinzufügen und die Kategorien verwalten. Die Oberfläche ist übersichtlich und die Bedienung einfach.
 
-### Speichern über das Rechtsklick-Menü
+### Rechtsklick-Menü speichern
 
-![Speichern über das Rechtsklick-Menü](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Rechtsklick-Menü speichern](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Wählen Sie einfach einen beliebigen Text auf der Webseite aus, klicken Sie mit der rechten Maustaste und speichern Sie ihn schnell als Prompt, um die Arbeitseffizienz zu steigern.
+Wählen Sie einfach beliebigen Text auf einer Webseite aus und klicken Sie mit der rechten Maustaste, um ihn schnell als Prompt zu speichern und die Arbeitseffizienz zu steigern.
 
-### Eingabe von Prompt-Variablen
+### Prompt-Variablen Eingabe
 
-![Prompt-Variablen-Popup](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![Prompt-Variablen Popup](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Prompts unterstützen die Konfiguration von Variablen, nach Auswahl erscheint ein Popup zur Eingabe des entsprechenden Variablenwerts.
+Prompts unterstützen die Konfiguration von Variablen. Nach Auswahl erscheint ein Popup zur Eingabe des jeweiligen Variablenwerts.
 
 ## ⚙️ Benutzerdefinierte Konfiguration
 
-1. Klicken Sie auf das Erweiterungssymbol und dann auf die Schaltfläche „Prompts verwalten“
+1. Klicken Sie auf das Erweiterungssymbol und anschließend auf die Schaltfläche „Prompts verwalten“
 2. Auf der Verwaltungsseite können Sie:
    - Neue Prompts hinzufügen
    - Bestehende Prompts bearbeiten
    - Nicht benötigte Prompts löschen
-   - Prompts mit Tags zur Kategorisierung versehen
-   - Die Prompt-Bibliothek zur Sicherung exportieren
+   - Prompts mit Tags kategorisieren
+   - Prompt-Bibliothek exportieren, um ein Backup zu erstellen
    - Eine zuvor gesicherte Prompt-Bibliothek importieren
 
 ## 📦 Installationsanleitung
 
-### Installation aus dem App Store
+### Installation über den App Store
 
-Jetzt im Chrome Web Store verfügbar! [Hier klicken, um herunterzuladen und zu installieren](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-App%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome App Store">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-Add-ons%20Store-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox Add-ons Store">
+  </a>
+</p>
 
-### Von GitHub Releases beziehen
+### Von GitHub Releases herunterladen
 
 1. Besuchen Sie die [GitHub Releases Seite](https://github.com/wenyuanw/quick-prompt/releases)
-2. Laden Sie das neueste fertig gebaute Plugin-Paket herunter
+2. Laden Sie das neueste, fertig gebaute Plugin-Paket herunter
 3. Entpacken Sie die heruntergeladene Datei
-4. Installieren Sie die gebaute Erweiterung gemäß der Anleitung unten
+4. Installieren Sie die erstellte Erweiterung gemäß den folgenden Anweisungen
 
 ### Aus dem Quellcode bauen
 
-1. Repository klonen
+1. Klonen Sie das Repository
    ```bash
    git clone https://github.com/wenyuanw/quick-prompt.git
    cd quick-prompt
@@ -186,6 +191,6 @@ Vielen Dank an alle Entwickler, die zum Projekt beitragen!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

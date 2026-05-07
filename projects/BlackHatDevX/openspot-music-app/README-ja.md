@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **モバイル**
+<!-- プラットフォームバッジ -->
 
-🔹 **Android**
-👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [署名なし] 👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**インストールガイド**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- テキストCTA -->
+<h3>
+ ダウンロード 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">こちら</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **デスクトップ**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**今すぐダウンロード**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
-## ✨ 機能
+## ✨ 特徴
 
 <div align="center">
 
-🎧 **高品質ストリーミング**   ·   📥 **オフラインダウンロード**   ·   ❤️ **お気に入り & カスタムプレイリスト**  
-🔄 **バックグラウンド再生**   ·   🚫 **ログイン不要**   ·   🆓 **完全無料 & 広告なし**
+🎧 **高音質ストリーミング**   ·   📥 **オフラインダウンロード**   ·   ❤️ **いいね＆カスタムプレイリスト**  
+🔄 **バックグラウンド再生**   ·   🚫 **ログイン不要**   ·   🆓 **完全無料＆広告なし**
 
 </div>
 
@@ -99,41 +102,41 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 ドイツ語 | 🇺🇸 英語 | 🇪🇸 スペイン語 | 🇫🇷 フランス語 | 🇮🇱 ヘブライ語 | 🇮🇳 ヒンディー語 | 🇷🇺 ロシア語 | 🇨🇳 中国語 | 🇹🇷 トルコ語 |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*近日中にさらに多くの言語が追加予定 — 貢献も歓迎！*
+*さらに多くの言語を近日追加予定 — コントリビューション歓迎！*
 
 
 ---
 
 ### 🎨 ルック＆フィール
-- **刷新されたUI** – クリーンでモダンなデザイン、スムーズな遷移
-- **ミニプレイヤー** – 対応デバイス（OnePlusなど）でカプセル型ミニプレイヤー
-- **テーマ設定** – ダークモード、ライトモード、自動モード
+- **刷新されたUI** – クリーンでモダンなデザイン、スムーズなトランジション
+- **ミニプレーヤー** – 対応デバイス（OnePlusなど）でカプセル型ミニプレーヤー
+- **テーマ** – ダークモード、ライトモード、自動モード
 
 ### 🎼 音楽体験
-- **検索** – 曲、公的プレイリスト、アルバム、アーティストを探す
-- **オフライン再生** – トラックをダウンロードし、インターネットなしで再生
-- **カスタムプレイリスト** – 自分のコレクションを作成、管理、整理
-- **トレンドソング** – IPinfoによる地域別トレンドトラック
-- **アーティストアルバム＆プレイリスト** – 全ディスコグラフィの閲覧が可能に
+- **検索** – 楽曲、公開プレイリスト、アルバム、アーティストを検索
+- **オフライン再生** – 曲をダウンロードしてインターネットなしで再生
+- **カスタムプレイリスト** – 独自のコレクションを作成・管理・整理
+- **トレンド曲** – IPinfoによる地域別トレンドトラック
+- **アーティストのアルバム＆プレイリスト** – 全ディスコグラフィーの閲覧が可能
 
-### ⚡ パフォーマンスと安定性
-- **YouTube API改善** – より信頼性の高いストリーミング
-- **再生アップグレード** – より滑らかな動作、再生時間とバックグラウンド再生のバグ修正
-- **ヘッドセット＆ロック画面コントロール** – シームレスな通知操作
-- **ページネーション付きアーティスト曲** – 全曲が完全に読み込まれる
+### ⚡ パフォーマンス & 安定性
+- **YouTube APIの改善** – より信頼性の高いストリーミング
+- **再生機能のアップグレード** – なめらかなパフォーマンス、再生時間とバックグラウンド再生のバグ修正
+- **ヘッドセット & ロック画面コントロール** – シームレスな通知コントロール
+- **アーティスト曲のページング** – 全曲が完全に読み込まれる
 
 ---
 
 ## 📖 概要
 
-このモノレポは**最新技術で構築された完全に独立した音楽ストリーミングアプリを2つ提供**します：
+このモノレポジトリは、**最先端技術で構築された2つの完全に独立した音楽ストリーミングアプリ**を提供します。
 
 | アプリ | プラットフォーム | フレームワーク | ロケーション |
-|--------|-----------------|----------------|--------------|
+|--------|------------------|----------------|---------------|
 | 📱 **モバイル** | Android, iOS *(近日公開)* | React Native + Expo | `openspot-mobile/` |
 | 🖥️ **デスクトップ** | macOS, Windows/Linux *(近日公開)* | Tauri + React | `openspot-desktop/` |
 
-両アプリは同じ強力なストリーミングコアを共有し、全デバイスでシームレスなリスニング体験を実現します。
+両アプリは同じ強力なストリーミングコアを共有し、すべてのデバイスでシームレスなリスニング体験を提供します。
 
 ---
 
@@ -171,12 +174,12 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ## 📄 ライセンス
 
-このプロジェクトは **MIT ライセンス** の下でライセンスされています – 詳細は [LICENSE](./LICENSE) ファイルをご覧ください。
+このプロジェクトは **MITライセンス** の下で提供されています。詳細は [LICENSE](./LICENSE) ファイルをご覧ください。
 
 ---
 
 <div align="center">
-  <strong>⭐ OpenSpot Music を気に入ったらスターを付けてください – とても励みになります！</strong>
+  <strong>⭐ OpenSpot Musicを気に入ったらスターをお願いします – とても励みになります！</strong>
   <br />
   <em>あなたのサポートが、みんなのために音楽を流し続けます。</em>
 </div>
@@ -184,6 +187,6 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

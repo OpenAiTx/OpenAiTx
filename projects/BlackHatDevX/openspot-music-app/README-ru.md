@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **Мобильные устройства**
+<!-- Значки платформ -->
 
-🔹 **Android**
-👉 [**Скачать сейчас**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [Без подписи] 👉 [**Скачать сейчас**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Руководство по установке**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Текстовый CTA -->
+<h3>
+ Скачать 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">ЗДЕСЬ</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Настольные ПК**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Скачать сейчас**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Скачать сейчас**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Скачать сейчас**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ Возможности
 
 <div align="center">
 
-🎧 **Потоковое воспроизведение высокого качества**   ·   📥 **Оффлайн загрузки**   ·   ❤️ **Лайки и пользовательские плейлисты**  
-🔄 **Фоновое воспроизведение**   ·   🚫 **Вход не требуется**   ·   🆓 **100% бесплатно и без рекламы**
+🎧 **Потоковое вещание высокого качества**   ·   📥 **Оффлайн-загрузки**   ·   ❤️ **Лайки и пользовательские плейлисты**  
+🔄 **Воспроизведение в фоне**   ·   🚫 **Вход не требуется**   ·   🆓 **100% бесплатно и без рекламы**
 
 </div>
 
@@ -99,41 +102,41 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Скоро появятся новые языки — приветствуются ваши предложения!*
+*Скоро появятся новые языки — приглашаем к сотрудничеству!*
 
 
 ---
 
-### 🎨 Внешний вид
+### 🎨 Внешний вид и ощущения
 - **Обновленный интерфейс** – чистый, современный дизайн с плавными переходами
-- **Мини-плеер** – мини-плеер в стиле капсулы на совместимых устройствах (OnePlus и др.)
-- **Темы** – темный режим, светлый режим и автоматический режим
+- **Мини-плеер** – мини-плеер в виде капсулы на совместимых устройствах (OnePlus и др.)
+- **Темы** – тёмная, светлая и автоматическая темы
 
 ### 🎼 Музыкальный опыт
-- **Поиск** – поиск песен, публичных плейлистов, альбомов и исполнителей
-- **Оффлайн прослушивание** – скачивайте треки и слушайте их без интернета
-- **Пользовательские плейлисты** – создавайте, управляйте и организуйте собственные коллекции
-- **Популярные песни** – региональные тренды треков на базе IPinfo
+- **Поиск** – находите песни, публичные плейлисты, альбомы и исполнителей
+- **Оффлайн-прослушивание** – скачивайте треки и слушайте их без интернета
+- **Пользовательские плейлисты** – создавайте, управляйте и организуйте свои коллекции
+- **Популярные песни** – региональные тренды на основе IPinfo
 - **Альбомы и плейлисты исполнителей** – теперь поддерживается просмотр полной дискографии
 
 ### ⚡ Производительность и стабильность
-- **Улучшенный YouTube API** – более надёжное воспроизведение
-- **Обновления воспроизведения** – более плавная работа, исправлены ошибки с длительностью и фоновым воспроизведением
-- **Управление с гарнитуры и экрана блокировки** – бесшовные уведомления для управления
-- **Постраничная загрузка песен исполнителя** – все песни загружаются полностью
+- **Улучшенный YouTube API** – более надёжный стриминг
+- **Апгрейды воспроизведения** – более плавная работа, исправлены ошибки длительности и фонового воспроизведения
+- **Управление через гарнитуру и экран блокировки** – бесшовное управление уведомлениями
+- **Пагинированные песни артиста** – все песни загружаются полностью
 
 ---
 
 ## 📖 Обзор
 
-Этот монорепозиторий предоставляет **две полностью независимые музыкальные стриминговые платформы**, построенные с использованием современных технологий:
+Этот монорепозиторий содержит **две полностью независимые музыкальные стриминговые платформы**, построенные на передовых технологиях:
 
 | Приложение | Платформы | Фреймворк | Расположение |
 |------------|-----------|-----------|--------------|
 | 📱 **Мобильное** | Android, iOS *(скоро)* | React Native + Expo | `openspot-mobile/` |
 | 🖥️ **Десктоп** | macOS, Windows/Linux *(скоро)* | Tauri + React | `openspot-desktop/` |
 
-Оба приложения используют один и тот же мощный потоковый движок, обеспечивая бесшовный опыт прослушивания на всех устройствах.
+Обе платформы используют общий мощный стриминговый ядро, обеспечивая бесшовный опыт прослушивания на всех ваших устройствах.
 
 ---
 
@@ -143,7 +146,7 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
 
 ### 🖥️ Десктоп
-`Tauri` · `React` · `Material‑UI` · `React Context + useReducer`
+`Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
 ### 📊 Состав кода
 ![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
@@ -171,12 +174,12 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ## 📄 Лицензия
 
-Этот проект лицензирован под **MIT License** – см. файл [LICENSE](./LICENSE) для подробностей.
+Этот проект распространяется по лицензии **MIT License** – подробности смотрите в файле [LICENSE](./LICENSE).
 
 ---
 
 <div align="center">
-  <strong>⭐ Если вам нравится OpenSpot Music, поставьте звезду — это действительно помогает!</strong>
+  <strong>⭐ Если вам нравится OpenSpot Music, поставьте звезду – это очень помогает!</strong>
   <br />
   <em>Ваша поддержка помогает музыке звучать для всех.</em>
 </div>
@@ -184,6 +187,6 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

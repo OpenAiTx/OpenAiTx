@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **Mobil**
+<!-- Platform Rozetleri -->
 
-🔹 **Android**
-👉 [**Şimdi İndir**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [İmzalanmamış] 👉 [**Şimdi İndir**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Kurulum Rehberi**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Metin CTA -->
+<h3>
+ İndir 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">BURADA</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Masaüstü**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Şimdi İndir**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Şimdi İndir**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Şimdi İndir**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ Özellikler
 
 <div align="center">
 
-🎧 **Yüksek Kaliteli Yayın**   ·   📥 **Çevrimdışı İndirmeler**   ·   ❤️ **Beğeniler & Özel Çalma Listeleri**  
-🔄 **Arka Planda Oynatma**   ·   🚫 **Giriş Gerektirmez**   ·   🆓 **%100 Ücretsiz & Reklamsız**
+🎧 **Yüksek Kaliteli Akış**   ·   📥 **Çevrimdışı İndirme**   ·   ❤️ **Beğeniler & Kişisel Oynatma Listeleri**  
+🔄 **Arka Planda Çalma**   ·   🚫 **Giriş Gerekmez**   ·   🆓 **%100 Ücretsiz & Reklamsız**
 
 </div>
 
@@ -99,41 +102,41 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Daha fazla dil yakında gelecek — katkılarınızı bekliyoruz!*
+*Daha fazla dil yakında eklenecek — katkılarınızı bekliyoruz!*
 
 
 ---
 
-### 🎨 Görünüm ve Hissiyat
+### 🎨 Görünüm & Hissiyat
 - **Yenilenen Arayüz** – temiz, modern tasarım ve akıcı geçişler
-- **Mini Çalar** – uyumlu cihazlarda kapsül tarzı mini çalar (OnePlus vb.)
-- **Temalar** – Karanlık mod, Aydınlık mod ve Otomatik mod
+- **Mini Oynatıcı** – kapsül tarzı mini oynatıcı, uyumlu cihazlarda (OnePlus vb.)
+- **Tema** – Karanlık mod, Aydınlık mod ve Otomatik mod
 
 ### 🎼 Müzik Deneyimi
-- **Arama** – şarkı, genel çalma listesi, albüm ve sanatçı bul
-- **Çevrimdışı Dinleme** – şarkıları indirip internetsiz dinle
-- **Özel Çalma Listeleri** – kendi koleksiyonlarınızı oluşturun, yönetin ve organize edin
-- **Trend Şarkılar** – IPinfo destekli bölgeye göre trend parçalar
-- **Sanatçı Albümleri ve Çalma Listeleri** – tam diskografi gezintisi artık destekleniyor
+- **Arama** – şarkı, halka açık oynatma listeleri, albüm ve sanatçı bul
+- **Çevrimdışı Dinleme** – şarkıları indirip internetsiz dinleyin
+- **Kişisel Oynatma Listeleri** – kendi koleksiyonlarını oluştur, yönet ve düzenle
+- **Trend Şarkılar** – IPinfo destekli bölgeye göre popüler parçalar
+- **Sanatçı Albümleri & Oynatma Listeleri** – tam diskografi gezintisi artık destekleniyor
 
 ### ⚡ Performans & Kararlılık
-- **Geliştirilmiş YouTube API** – daha güvenilir akış
-- **Oynatma Yükseltmeleri** – daha akıcı performans, düzeltildi süre ve arka plan oynatma hataları
-- **Kulaklık & Kilit Ekranı Kontrolleri** – sorunsuz bildirim kontrolleri
-- **Sayfalanmış Sanatçı Şarkıları** – tüm şarkılar tamamen yükleniyor
+- **Geliştirilmiş YouTube API** – daha güvenilir yayın
+- **Oynatma Yükseltmeleri** – daha akıcı performans, düzeltilmiş süre ve arka plan oynatma hataları
+- **Kulaklık & Kilit Ekranı Kontrolleri** – kesintisiz bildirim kontrolleri
+- **Sayfalandırılmış Sanatçı Şarkıları** – tüm şarkılar tamamen yüklenir
 
 ---
 
 ## 📖 Genel Bakış
 
-Bu monorepo, **iki tamamen bağımsız müzik akış uygulaması** sunar ve son teknoloji ile geliştirilmiştir:
+Bu monorepo, **iki tamamen bağımsız müzik akış uygulaması** sunar ve en yeni teknolojilerle inşa edilmiştir:
 
 | Uygulama | Platformlar | Çerçeve | Konum |
-|----------|-------------|---------|-------|
+|----------|-------------|---------|--------|
 | 📱 **Mobil** | Android, iOS *(yakında)* | React Native + Expo | `openspot-mobile/` |
 | 🖥️ **Masaüstü** | macOS, Windows/Linux *(yakında)* | Tauri + React | `openspot-desktop/` |
 
-Her iki uygulama da aynı güçlü akış çekirdeğini paylaşır ve tüm cihazlarınızda sorunsuz bir dinleme deneyimi sağlar.
+Her iki uygulama da aynı güçlü yayın çekirdeğini paylaşır ve tüm cihazlarınızda kusursuz bir dinleme deneyimi sunar.
 
 ---
 
@@ -156,7 +159,7 @@ Her iki uygulama da aynı güçlü akış çekirdeğini paylaşır ve tüm cihaz
 ## 🌍 Topluluk & Destek
 
 - 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
-- 🐛 **Hatalar**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 🐛 **Sorunlar**: [GitHub Sorunları](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
@@ -171,12 +174,12 @@ Her iki uygulama da aynı güçlü akış çekirdeğini paylaşır ve tüm cihaz
 
 ## 📄 Lisans
 
-Bu proje **MIT Lisansı** altında lisanslanmıştır – ayrıntılar için [LICENSE](./LICENSE) dosyasına bakınız.
+Bu proje **MIT Lisansı** ile lisanslanmıştır – detaylar için [LİSANS](./LICENSE) dosyasına bakınız.
 
 ---
 
 <div align="center">
-  <strong>⭐ OpenSpot Music'i beğendiyseniz bir yıldız bırakın – gerçekten yardımcı olur!</strong>
+  <strong>⭐ OpenSpot Music'i beğendiyseniz bir yıldız bırakın – gerçekten çok yardımcı olur!</strong>
   <br />
   <em>Desteğiniz müziğin herkes için devam etmesini sağlıyor.</em>
 </div>
@@ -184,6 +187,6 @@ Bu proje **MIT Lisansı** altında lisanslanmıştır – ayrıntılar için [LI
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

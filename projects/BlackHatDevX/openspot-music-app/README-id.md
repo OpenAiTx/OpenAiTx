@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **Mobile**
+<!-- Platform Badges -->
 
-🔹 **Android**
-👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [Tidak Ditandatangani] 👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Panduan Instalasi**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Teks CTA -->
+<h3>
+ Unduh 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">DI SINI</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Desktop**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Unduh Sekarang**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ Fitur
 
 <div align="center">
 
 🎧 **Streaming Berkualitas Tinggi**   ·   📥 **Unduhan Offline**   ·   ❤️ **Suka & Playlist Kustom**  
-🔄 **Pemutaran Latar Belakang**   ·   🚫 **Tanpa Login**   ·   🆓 **100% Gratis & Tanpa Iklan**
+🔄 **Putar di Latar Belakang**   ·   🚫 **Tanpa Login**   ·   🆓 **100% Gratis & Bebas Iklan**
 
 </div>
 
@@ -99,41 +102,41 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Bahasa lain segera hadir — kontribusi sangat diterima!*
+*Lebih banyak bahasa akan segera hadir — kontribusi sangat diterima!*
 
 
 ---
 
 ### 🎨 Tampilan & Nuansa
-- **UI Baru** – desain bersih, modern dengan transisi yang mulus
+- **UI Diperbarui** – desain bersih dan modern dengan transisi mulus
 - **Mini Player** – pemutar mini bergaya kapsul di perangkat yang kompatibel (OnePlus, dll.)
-- **Tema** – Mode gelap, mode terang, dan mode otomatis
+- **Tema** – Mode Gelap, Mode Terang, dan Mode Otomatis
 
 ### 🎼 Pengalaman Musik
-- **Pencarian** – temukan lagu, playlist publik, album, dan artis
-- **Mendengarkan Offline** – unduh lagu dan putar tanpa internet
+- **Cari** – temukan lagu, playlist publik, album, dan artis
+- **Dengarkan Offline** – unduh lagu dan putar tanpa internet
 - **Playlist Kustom** – buat, kelola, dan atur koleksi Anda sendiri
-- **Lagu Tren** – lagu tren berbasis wilayah didukung oleh IPinfo
+- **Lagu Trending** – lagu trending berdasarkan wilayah didukung oleh IPinfo
 - **Album & Playlist Artis** – penjelajahan diskografi lengkap kini didukung
 
 ### ⚡ Performa & Stabilitas
 - **API YouTube yang Ditingkatkan** – streaming lebih andal
-- **Peningkatan Pemutaran** – performa lebih lancar, perbaikan bug durasi dan pemutaran latar belakang
+- **Peningkatan Pemutaran** – performa lebih halus, perbaikan bug durasi dan pemutaran latar belakang
 - **Kontrol Headset & Lockscreen** – kontrol notifikasi tanpa hambatan
 - **Paginated Artist Songs** – semua lagu dimuat secara lengkap
 
 ---
 
-## 📖 Ringkasan
+## 📖 Ikhtisar
 
-Monorepo ini menghadirkan **dua aplikasi streaming musik yang benar-benar independen** dibangun dengan teknologi mutakhir:
+Monorepo ini menghadirkan **dua aplikasi streaming musik independen** yang dibangun dengan teknologi mutakhir:
 
 | Aplikasi | Platform | Framework | Lokasi |
 |----------|----------|-----------|--------|
-| 📱 **Mobile** | Android, iOS *(segera hadir)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Desktop** | macOS, Windows/Linux *(segera hadir)* | Tauri + React | `openspot-desktop/` |
+| 📱 **Mobile** | Android, iOS *(segera)* | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux *(segera)* | Tauri + React | `openspot-desktop/` |
 
-Kedua aplikasi berbagi inti streaming yang sama, memberikan pengalaman mendengarkan yang mulus di seluruh perangkat Anda.
+Kedua aplikasi berbagi inti streaming yang sama, memberikan pengalaman mendengarkan yang mulus di semua perangkat Anda.
 
 ---
 
@@ -171,12 +174,12 @@ Kedua aplikasi berbagi inti streaming yang sama, memberikan pengalaman mendengar
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah **MIT License** – lihat berkas [LICENSE](./LICENSE) untuk detailnya.
+Proyek ini dilisensikan di bawah **MIT License** – lihat file [LICENSE](./LICENSE) untuk detailnya.
 
 ---
 
 <div align="center">
-  <strong>⭐ Jika Anda menikmati OpenSpot Music, beri bintang – itu sangat membantu!</strong>
+  <strong>⭐ Jika Anda menikmati OpenSpot Music, beri bintang – ini sangat membantu!</strong>
   <br />
   <em>Dukungan Anda membuat musik tetap mengalun untuk semua orang.</em>
 </div>
@@ -184,6 +187,6 @@ Proyek ini dilisensikan di bawah **MIT License** – lihat berkas [LICENSE](./LI
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

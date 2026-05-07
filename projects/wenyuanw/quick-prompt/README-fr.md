@@ -31,39 +31,37 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Logo Quick Prompt" width="128" style="background: transparent;">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Une extension de navigateur puissante, axée sur la gestion des prompts et la saisie rapide. Elle aide les utilisateurs à créer, gérer et organiser une bibliothèque de prompts, et à insérer rapidement des contenus prédéfinis dans n’importe quel champ de saisie sur une page web, augmentant ainsi l’efficacité au travail.
-
-> Comme l’extension navigateur ne fonctionne que sur le web, un [plugin Raycast](https://github.com/wenyuanw/quick-prompt-raycast) avec les mêmes fonctionnalités a été publié en open source, compatible avec le format des données de l’extension navigateur, permettant une migration transparente via les mêmes données JSON.
+Une extension de navigateur puissante, axée sur la gestion des prompts et la saisie rapide. Elle aide les utilisateurs à créer, gérer et organiser une bibliothèque de prompts, et à insérer rapidement du contenu prédéfini dans n'importe quel champ de saisie sur une page web, pour améliorer la productivité.
 
 ## ✨ Fonctionnalités
 
-- 📚 **Gestion des prompts** : Créez, éditez et gérez facilement votre bibliothèque de prompts
-- 🚀 **Saisie rapide** : Déclenchez rapidement le sélecteur de prompts dans n'importe quel champ de saisie web avec `/p`
-- ⌨️ Prise en charge du raccourci clavier pour ouvrir le sélecteur de prompts & enregistrer le texte sélectionné comme prompt
-- 📑 Prise en charge de l'enregistrement direct du texte sélectionné comme prompt via le menu clic droit
-- 🎯 Prise en charge des prompts personnalisés, incluant catégories, titres, contenu, étiquettes et variables
-- 🧑‍💻 **Support des variables** : Utilisez des variables au format `{{nom_variable}}` dans vos prompts et renseignez leur valeur lors de l’utilisation
-- 💾 **Sauvegarde des données** : Exportez et importez votre bibliothèque de prompts pour faciliter la migration et la sauvegarde multi-appareils
-- 🔗 **Synchronisation cloud** : Synchronisez votre bibliothèque de prompts avec une base de données Notion ou Gitee/GitHub Gist
-- 🔍 Fonction de recherche et de filtrage des prompts
-- 🌙 S'adapte automatiquement au thème clair ou sombre du système
+- 📚 **Gestion des prompts** : Créez, modifiez et gérez facilement votre bibliothèque de prompts
+- 🚀 **Saisie rapide** : Déclenchez le sélecteur de prompts dans n'importe quel champ de saisie web avec `/p`
+- ⌨️ Prise en charge de la configuration de raccourcis clavier pour ouvrir le sélecteur de prompts & sauvegarder le texte sélectionné comme prompt
+- 📑 Prise en charge du menu contextuel pour sauvegarder directement le texte sélectionné comme prompt
+- 🎯 Prise en charge de prompts personnalisés, incluant catégories, titre, contenu, pièces jointes, tags et variables
+- 🧑‍💻 **Support des variables** : Vous pouvez utiliser des variables au format `{{nom_variable}}` dans les prompts, à renseigner lors de l’utilisation
+- 💾 **Sauvegarde des données** : Exportez et importez votre bibliothèque de prompts, facilitant la migration et la sauvegarde entre appareils
+- 🔗 **Synchronisation cloud** : La bibliothèque de prompts prend en charge la synchronisation WebDAV, base de données Notion, Gitee/GitHub Gist
+- 🔍 Prise en charge de la recherche et du filtrage des prompts
+- 🌙 S’adapte automatiquement au thème clair/sombre du système
 
-## 🚀 Guide d’utilisation
+## 🚀 Mode d’emploi
 
-1. **Déclenchement rapide** : Saisissez `/p` dans tout champ de texte sur une page web pour ouvrir le sélecteur de prompts
+1. **Déclenchement rapide** : Saisissez `/p` dans un champ de texte sur n’importe quelle page web pour ouvrir le sélecteur de prompts
 2. **Ouvrir le sélecteur avec un raccourci** : Utilisez `Ctrl+Shift+P` (Windows/Linux) ou `Command+Shift+P` (macOS) pour ouvrir le sélecteur de prompts
-3. **Sélectionner un prompt** : Cliquez sur le prompt souhaité dans le sélecteur pour l'insérer automatiquement dans le champ de saisie actif
-4. **Enregistrer rapidement un prompt** : Sélectionnez du texte, puis utilisez `Ctrl+Shift+S` (Windows/Linux) ou `Command+Shift+S` (macOS) pour l’enregistrer comme prompt
-5. **Enregistrement via clic droit** : Sélectionnez du texte, faites un clic droit et choisissez « Enregistrer ce prompt » pour sauvegarder le contenu sélectionné
-6. **Exporter la bibliothèque de prompts** : Cliquez sur le bouton « Exporter » dans la page de gestion pour sauvegarder tous les prompts en un fichier JSON local
-7. **Importer la bibliothèque de prompts** : Cliquez sur le bouton « Importer » dans la page de gestion et sélectionnez un fichier JSON pour ajouter ou remplacer vos prompts existants
+3. **Choisir un prompt** : Cliquez sur le prompt souhaité dans le sélecteur, il sera inséré automatiquement dans le champ de saisie actuel
+4. **Sauvegarde rapide de prompt** : Sélectionnez un texte puis utilisez `Ctrl+Shift+S` (Windows/Linux) ou `Command+Shift+S` (macOS) pour le sauvegarder comme prompt
+5. **Sauvegarder depuis le menu contextuel** : Sélectionnez un texte, faites un clic droit et choisissez "Sauvegarder ce prompt" pour enregistrer le contenu sélectionné comme prompt
+6. **Exporter la bibliothèque de prompts** : Cliquez sur le bouton "Exporter" dans la page de gestion pour sauvegarder tous les prompts en fichier JSON local
+7. **Importer la bibliothèque de prompts** : Cliquez sur le bouton "Importer" dans la page de gestion pour importer des prompts depuis un fichier JSON local (fusion ou remplacement possible)
 
 ## 📸 Aperçu de l’interface
 
-Quick Prompt offre une interface utilisateur claire et intuitive pour gérer et utiliser vos prompts facilement.
+Quick Prompt propose une interface utilisateur intuitive et conviviale pour gérer et utiliser vos prompts en toute simplicité.
 
 ### Sélecteur de prompts
 
@@ -71,25 +69,25 @@ Quick Prompt offre une interface utilisateur claire et intuitive pour gérer et 
 
 ![Sélecteur de prompts](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Utilisez la commande `/p` ou le raccourci clavier pour ouvrir instantanément le sélecteur de prompts dans n'importe quel champ de saisie et insérer facilement le prompt désiré.
+Avec la commande rapide `/p` ou le raccourci clavier, vous pouvez ouvrir le sélecteur de prompts dans n’importe quel champ de saisie pour choisir et insérer facilement le prompt désiré.
 
 ### Page de gestion des prompts
 
 ![Gestion des prompts](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Sur la page de gestion, vous pouvez créer de nouveaux prompts, éditer les prompts existants, ajouter des étiquettes et gérer les catégories. L’interface est simple et ergonomique.
+Dans la page de gestion, vous pouvez créer de nouveaux prompts, éditer ceux existants, ajouter des tags et gérer les catégories. L’interface est claire et simple d’utilisation.
 
-### Enregistrement via le menu contextuel
+### Sauvegarde via menu contextuel
 
-![Enregistrement via le menu contextuel](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Menu contextuel Enregistrer](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Sélectionnez simplement n'importe quel texte sur la page web, faites un clic droit pour l'enregistrer rapidement comme prompt, améliorant ainsi votre efficacité.
+Il suffit de sélectionner n'importe quel texte sur la page web, puis de cliquer avec le bouton droit pour le sauvegarder rapidement comme un prompt, afin d'améliorer votre efficacité au travail.
 
-### Saisie de variables pour le prompt
+### Saisie de variables de prompt
 
-![Fenêtre contextuelle de variables de prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![Fenêtre pop-up des variables de prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Les prompts prennent en charge la configuration de variables, une fenêtre s'affiche pour saisir les valeurs correspondantes après sélection.
+Les prompts prennent en charge la configuration de variables, qui peuvent être saisies dans une fenêtre pop-up après sélection.
 
 ## ⚙️ Configuration personnalisée
 
@@ -99,23 +97,30 @@ Les prompts prennent en charge la configuration de variables, une fenêtre s'aff
    - Modifier les prompts existants
    - Supprimer les prompts inutiles
    - Ajouter des étiquettes aux prompts pour les classer
-   - Exporter la bibliothèque de prompts pour sauvegarde
-   - Importer une bibliothèque de prompts précédemment sauvegardée
+   - Exporter la bibliothèque de prompts pour la sauvegarde
+   - Importer une bibliothèque de prompts sauvegardée précédemment
 
 ## 📦 Guide d'installation
 
-### Installation depuis la boutique d'applications
+### Installation depuis le magasin d'applications
 
-Disponible dès maintenant sur le Chrome Web Store ! [Cliquez ici pour télécharger et installer](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-Boutique%20d'applications-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Boutique d'applications Chrome">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-Boutique%20des%20modules%20complémentaires-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Boutique des modules complémentaires Firefox">
+  </a>
+</p>
 
 ### Obtenir depuis GitHub Releases
 
 1. Rendez-vous sur la [page GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)
-2. Téléchargez le dernier paquet de l’extension compilée
+2. Téléchargez le dernier paquet du module précompilé
 3. Décompressez le fichier téléchargé
-4. Suivez les instructions ci-dessous pour installer l’extension compilée
+4. Installez l'extension construite en suivant les instructions ci-dessous
 
-### Compilation à partir du code source
+### Compiler à partir du code source
 
 1. Clonez le dépôt
    ```bash
@@ -186,6 +191,6 @@ Merci à tous les développeurs ayant contribué au projet !
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

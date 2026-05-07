@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **Mobile**
+<!-- Badges de plateforme -->
 
-🔹 **Android**
-👉 [**Télécharger maintenant**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [Non signé] 👉 [**Télécharger maintenant**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Guide d'installation**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Texte CTA -->
+<h3>
+ Télécharger 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">ICI</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Bureau**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Télécharger maintenant**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Télécharger maintenant**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Télécharger maintenant**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ Fonctionnalités
 
 <div align="center">
 
-🎧 **Streaming haute qualité**   ·   📥 **Téléchargements hors ligne**   ·   ❤️ **Favoris & playlists personnalisées**  
-🔄 **Lecture en arrière-plan**   ·   🚫 **Aucune connexion requise**   ·   🆓 **100% gratuit & sans pub**
+🎧 **Streaming Haute Qualité**   ·   📥 **Téléchargements Hors Ligne**   ·   ❤️ **Likes & Playlists Personnalisées**  
+🔄 **Lecture en Arrière-plan**   ·   🚫 **Aucune Connexion Requise**   ·   🆓 **100% Gratuit & Sans Publicité**
 
 </div>
 
@@ -99,34 +102,34 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Plus de langues bientôt disponibles — contributions bienvenues !*
+*D'autres langues arrivent bientôt — contributions bienvenues !*
 
 
 ---
 
-### 🎨 Apparence & ergonomie
-- **Interface repensée** – design épuré, moderne avec transitions fluides
-- **Mini lecteur** – mini lecteur style capsule sur les appareils compatibles (OnePlus, etc.)
+### 🎨 Apparence & Expérience
+- **UI repensée** – design épuré et moderne avec transitions fluides
+- **Mini Lecteur** – mini lecteur en forme de capsule sur appareils compatibles (OnePlus, etc.)
 - **Thèmes** – Mode sombre, mode clair et mode automatique
 
 ### 🎼 Expérience musicale
 - **Recherche** – trouvez des chansons, playlists publiques, albums et artistes
-- **Écoute hors ligne** – téléchargez des titres et écoutez-les sans internet
-- **Listes de lecture personnalisées** – créez, gérez et organisez vos propres collections
-- **Morceaux tendances** – morceaux tendances par région alimentés par IPinfo
-- **Albums & Listes de lecture d’artistes** – navigation complète dans la discographie désormais prise en charge
+- **Écoute hors ligne** – téléchargez des morceaux et écoutez-les sans connexion internet
+- **Playlists personnalisées** – créez, gérez et organisez vos propres collections
+- **Chansons tendance** – morceaux populaires par région grâce à IPinfo
+- **Albums & Playlists d'artistes** – navigation complète dans la discographie désormais prise en charge
 
-### ⚡ Performance & Stabilité
+### ⚡ Performance et Stabilité
 - **API YouTube améliorée** – streaming plus fiable
-- **Améliorations de la lecture** – performance plus fluide, corrections des bugs de durée et de lecture en arrière-plan
-- **Contrôles casque & écran verrouillé** – contrôles de notification sans faille
+- **Améliorations de lecture** – performance plus fluide, correction des bugs de durée et de lecture en arrière-plan
+- **Contrôles casque & écran verrouillé** – commandes de notification transparentes
 - **Chansons d’artiste paginées** – tous les morceaux se chargent complètement
 
 ---
 
 ## 📖 Aperçu
 
-Ce monorepo fournit **deux applications de streaming musical totalement indépendantes** construites avec des technologies de pointe :
+Ce monorepo propose **deux applications de streaming musical totalement indépendantes** construites avec des technologies de pointe :
 
 | Application | Plateformes | Framework | Emplacement |
 |-------------|-------------|-----------|-------------|
@@ -137,7 +140,7 @@ Les deux applications partagent le même moteur de streaming puissant, vous offr
 
 ---
 
-## 🧰 Pile Technologique
+## 🧰 Pile technique
 
 ### 📱 Mobile
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -156,7 +159,7 @@ Les deux applications partagent le même moteur de streaming puissant, vous offr
 ## 🌍 Communauté & Support
 
 - 💬 **Telegram** : [@openspot_music](https://t.me/openspot_music)
-- 🐛 **Problèmes** : [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 🐛 **Problèmes** : [Problèmes GitHub](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
@@ -176,14 +179,14 @@ Ce projet est sous licence **MIT License** – voir le fichier [LICENSE](./LICEN
 ---
 
 <div align="center">
-  <strong>⭐ Si vous aimez OpenSpot Music, laissez une étoile – cela aide vraiment !</strong>
+  <strong>⭐ Si vous appréciez OpenSpot Music, laissez une étoile – cela aide vraiment !</strong>
   <br />
-  <em>Votre soutien permet à la musique de continuer pour tous.</em>
+  <em>Votre soutien fait vivre la musique pour tous.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

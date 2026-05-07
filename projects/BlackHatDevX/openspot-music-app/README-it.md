@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **Mobile**
+<!-- Badge delle piattaforme -->
 
-🔹 **Android**
-👉 [**Scarica ora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [Non firmato] 👉 [**Scarica ora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Guida all'installazione**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Testo CTA -->
+<h3>
+ Scarica 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">QUI</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Desktop**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Scarica ora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Scarica Ora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Scarica Ora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ Funzionalità
 
 <div align="center">
 
-🎧 **Streaming di Alta Qualità**   ·   📥 **Download Offline**   ·   ❤️ **Mi piace & Playlist Personalizzate**  
-🔄 **Riproduzione in Background**   ·   🚫 **Nessun Login Necessario**   ·   🆓 **100% Gratis & Senza Pubblicità**
+🎧 **Streaming ad Alta Qualità**   ·   📥 **Download Offline**   ·   ❤️ **Like & Playlist Personalizzate**  
+🔄 **Riproduzione in Background**   ·   🚫 **Nessun Login Richiesto**   ·   🆓 **100% Gratis & Senza Pubblicità**
 
 </div>
 
@@ -99,41 +102,41 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Presto disponibili altre lingue — contributi benvenuti!*
+*Altre lingue in arrivo — contributi benvenuti!*
 
 
 ---
 
-### 🎨 Aspetto & Stile
-- **Interfaccia rinnovata** – design pulito, moderno e transizioni fluide
+### 🎨 Aspetto & Design
+- **UI Rivisitata** – design pulito e moderno con transizioni fluide
 - **Mini Player** – mini player in stile capsula su dispositivi compatibili (OnePlus, ecc.)
-- **Temi** – Modalità scura, modalità chiara e modalità automatica
+- **Temi** – Modalità Scura, Modalità Chiara e Modalità Automatica
 
 ### 🎼 Esperienza Musicale
-- **Ricerca** – trova brani, playlist pubbliche, album e artisti
-- **Ascolto Offline** – scarica tracce e riproducile senza internet
-- **Playlist personalizzate** – crea, gestisci e organizza le tue raccolte
-- **Canzoni di tendenza** – brani di tendenza in base alla regione alimentati da IPinfo
-- **Album e Playlist degli artisti** – supportata la navigazione nella discografia completa
+- **Ricerca** – trova canzoni, playlist pubbliche, album e artisti
+- **Ascolto Offline** – scarica brani e ascoltali senza internet
+- **Playlist Personalizzate** – crea, gestisci e organizza le tue raccolte
+- **Canzoni di Tendenza** – brani di tendenza basati sulla regione tramite IPinfo
+- **Album & Playlist Artisti** – ora supportata la navigazione completa della discografia
 
 ### ⚡ Prestazioni & Stabilità
 - **API YouTube migliorata** – streaming più affidabile
-- **Migliorie alla riproduzione** – prestazioni più fluide, risolti bug sulla durata e sul playback in background
-- **Controlli cuffie & schermo bloccato** – controlli tramite notifiche senza interruzioni
-- **Canzoni degli artisti paginati** – tutti i brani vengono caricati completamente
+- **Migliorie alla riproduzione** – prestazioni più fluide, risolti bug sulla durata e sulla riproduzione in background
+- **Controlli cuffie & schermo bloccato** – controlli sulle notifiche senza interruzioni
+- **Paginazione brani artista** – tutti i brani vengono caricati completamente
 
 ---
 
 ## 📖 Panoramica
 
-Questo monorepo offre **due app di streaming musicale completamente indipendenti** costruite con tecnologie all'avanguardia:
+Questo monorepo offre **due app di streaming musicale completamente indipendenti** costruite con tecnologie all’avanguardia:
 
 | App | Piattaforme | Framework | Percorso |
 |-----|-------------|-----------|----------|
 | 📱 **Mobile** | Android, iOS *(in arrivo)* | React Native + Expo | `openspot-mobile/` |
 | 🖥️ **Desktop** | macOS, Windows/Linux *(in arrivo)* | Tauri + React | `openspot-desktop/` |
 
-Entrambe le app condividono lo stesso potente core di streaming, offrendo un'esperienza di ascolto senza interruzioni su tutti i tuoi dispositivi.
+Entrambe le app condividono lo stesso potente core di streaming, offrendo un’esperienza di ascolto senza interruzioni su tutti i tuoi dispositivi.
 
 ---
 
@@ -143,7 +146,7 @@ Entrambe le app condividono lo stesso potente core di streaming, offrendo un'esp
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
 
 ### 🖥️ Desktop
-`Tauri` · `React` · `Material‑UI` · `React Context + useReducer`
+`Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
 ### 📊 Composizione del codice
 ![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
@@ -156,7 +159,7 @@ Entrambe le app condividono lo stesso potente core di streaming, offrendo un'esp
 ## 🌍 Comunità & Supporto
 
 - 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
-- 🐛 **Segnalazione problemi**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 🐛 **Problemi**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
@@ -171,19 +174,19 @@ Entrambe le app condividono lo stesso potente core di streaming, offrendo un'esp
 
 ## 📄 Licenza
 
-Questo progetto è concesso in licenza sotto la **MIT License** – consulta il file [LICENSE](./LICENSE) per i dettagli.
+Questo progetto è concesso sotto licenza **MIT License** – vedi il file [LICENSE](./LICENSE) per i dettagli.
 
 ---
 
 <div align="center">
   <strong>⭐ Se ti piace OpenSpot Music, lascia una stella – aiuta davvero!</strong>
   <br />
-  <em>Il tuo supporto mantiene la musica per tutti.</em>
+  <em>Il tuo supporto mantiene la musica attiva per tutti.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

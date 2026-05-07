@@ -1,121 +1,126 @@
-# پرامپت سریع
+# پرسش سریع
 
 <div align="right">
   <details>
     <summary >🌐 زبان</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en">انگلیسی</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">ژاپنی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">کره‌ای</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">هندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">تایلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr">فرانسوی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de">آلمانی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es">اسپانیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it">ایتالیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru">روسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt">پرتغالی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl">هلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl">لهستانی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">عربی</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr">ترکی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi">ویتنامی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id">اندونزیایی</a>
       </div>
     </div>
   </details>
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="لوگوی پرامپت سریع" width="128" style="background: transparent;">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="لوگوی پرسش سریع" width="128" style="background: transparent;">
 </p>
 
-یک افزونه قدرتمند مرورگر که بر مدیریت و ورود سریع پرامپت‌ها تمرکز دارد. این افزونه به کاربران کمک می‌کند تا بانک پرامپت‌ها را ایجاد، مدیریت و سازماندهی کنند و در هر کادر ورودی وب، محتوای پرامپت‌های از پیش تعیین شده را به سرعت وارد کنند تا بهره‌وری را افزایش دهند.
-
-> از آنجا که افزونه مرورگر فقط برای نسخه وب قابل استفاده است، یک افزونه مشابه [Raycast](https://github.com/wenyuanw/quick-prompt-raycast) با عملکرد یکسان به صورت متن باز ارائه شده است که با فرمت داده افزونه مرورگر سازگار بوده و امکان انتقال بی‌وقفه داده‌ها با همان JSON را فراهم می‌کند.
+یک افزونه قدرتمند مرورگر که بر مدیریت و ورود سریع پرسش‌ها تمرکز دارد. این افزونه به کاربران کمک می‌کند تا بانک پرسش‌های خود را ایجاد، مدیریت و سازماندهی کنند و محتوای پرسش‌های آماده را در هر کادر ورودی وب‌سایت به سرعت درج نمایند تا بهره‌وری را افزایش دهد.
 
 ## ✨ ویژگی‌های اصلی
 
-- 📚 **مدیریت پرامپت**: به راحتی کتابخانه پرامپت‌های خود را ایجاد، ویرایش و مدیریت کنید
-- 🚀 **ورود سریع**: با وارد کردن `/p` در هر کادر متنی صفحات وب، انتخابگر پرامپت را به سرعت فعال کنید
-- ⌨️ پشتیبانی از پیکربندی کلید میانبر برای باز کردن انتخابگر پرامپت و ذخیره متن انتخابی به عنوان پرامپت
-- 📑 پشتیبانی از ذخیره مستقیم متن انتخابی به عنوان پرامپت از طریق منوی راست کلیک
-- 🎯 پشتیبانی از پرامپت‌های سفارشی شامل دسته‌بندی، عنوان، محتوا، برچسب و متغیرها
-- 🧑‍💻 **پشتیبانی از متغیر**: امکان استفاده از متغیر با فرمت `{{متغیر}}` در پرامپت و وارد کردن مقدار هنگام استفاده
-- 💾 **پشتیبان‌گیری داده**: پشتیبانی از خروجی و ورودی کتابخانه پرامپت برای مهاجرت و پشتیبان‌گیری بین دستگاه‌ها
-- 🔗 **همگام‌سازی ابری**: پشتیبانی از همگام‌سازی کتابخانه پرامپت با پایگاه داده Notion یا Gitee/GitHub Gist
-- 🔍 پشتیبانی از جستجو و فیلتر پرامپت‌ها
-- 🌙 تطبیق خودکار با تم روشن و تاریک سیستم
+- 📚 **مدیریت پریمپت‌ها**: به راحتی کتابخانه پریمپت‌های خود را ایجاد، ویرایش و مدیریت کنید
+- 🚀 **ورود سریع**: با استفاده از `/p` در هر کادر ورودی وب، انتخابگر پریمپت را به سرعت فراخوانی کنید
+- ⌨️ پشتیبانی از پیکربندی کلیدهای میانبر برای باز کردن انتخابگر پریمپت و ذخیره متن انتخابی به عنوان پریمپت
+- 📑 پشتیبانی از ذخیره مستقیم متن انتخاب‌شده به عنوان پریمپت از طریق منوی راست‌کلیک
+- 🎯 پشتیبانی از پریمپت‌های سفارشی، شامل دسته‌بندی، عنوان، محتوا، پیوست، برچسب و متغیر
+- 🧑‍💻 **پشتیبانی از متغیرها**: در پریمپت‌ها می‌توانید از متغیر با فرمت `{{نام متغیر}}` استفاده کنید و هنگام استفاده مقدار دلخواه وارد کنید
+- 💾 **پشتیبان‌گیری داده**: پشتیبانی از خروجی و وارد کردن کتابخانه پریمپت برای انتقال و پشتیبان‌گیری بین دستگاه‌ها
+- 🔗 **همگام‌سازی ابری**: کتابخانه پریمپت از همگام‌سازی با WebDAV، پایگاه داده Notion، و همگام‌سازی Gitee/GitHub Gist پشتیبانی می‌کند
+- 🔍 پشتیبانی از جستجو و فیلتر پریمپت‌ها
+- 🌙 تطبیق خودکار با تم روشن یا تاریک سیستم
 
 ## 🚀 روش استفاده
 
-1. **فعال‌سازی سریع**: با وارد کردن `/p` در کادر متنی هر صفحه وب انتخابگر پرامپت را فعال کنید
-2. **باز کردن انتخابگر با کلید میانبر**: با `Ctrl+Shift+P` (ویندوز/لینوکس) یا `Command+Shift+P` (مک) انتخابگر پرامپت را باز کنید
-3. **انتخاب پرامپت**: روی پرامپت مورد نیاز در انتخابگر کلیک کنید تا به طور خودکار در کادر متنی فعلی درج شود
-4. **ذخیره سریع پرامپت**: با انتخاب هر متنی و فشردن `Ctrl+Shift+S` (ویندوز/لینوکس) یا `Command+Shift+S` (مک) آن را به سرعت به پرامپت ذخیره کنید
-5. **ذخیره با منوی راست کلیک**: با انتخاب هر متن و راست کلیک و انتخاب "ذخیره این پرامپت"، محتوای انتخاب شده به عنوان پرامپت ذخیره می‌شود
-6. **خروجی گرفتن از کتابخانه پرامپت**: در صفحه مدیریت روی دکمه "خروجی" کلیک کنید تا همه پرامپت‌ها را به صورت فایل JSON ذخیره نمایید
-7. **ورود کتابخانه پرامپت**: در صفحه مدیریت روی دکمه "ورود" کلیک کنید و پرامپت‌ها را از فایل JSON وارد کنید (پشتیبانی از ادغام یا بازنویسی پرامپت‌های فعلی)
+1. **فراخوانی سریع**: با وارد کردن `/p` در هر کادر متنی وب، انتخابگر پریمپت را فعال کنید
+2. **باز کردن انتخابگر با میانبر**: با `Ctrl+Shift+P` (ویندوز/لینوکس) یا `Command+Shift+P` (مک) انتخابگر پریمپت را باز کنید
+3. **انتخاب پریمپت**: روی پریمپت مورد نظر در انتخابگر کلیک کنید تا به طور خودکار در کادر ورودی فعلی درج شود
+4. **ذخیره سریع پریمپت**: پس از انتخاب هر متنی، با `Ctrl+Shift+S` (ویندوز/لینوکس) یا `Command+Shift+S` (مک) آن را سریعاً به عنوان پریمپت ذخیره کنید
+5. **ذخیره با منوی راست‌کلیک**: پس از انتخاب متن، کلیک راست کرده و گزینه "ذخیره این پریمپت" را انتخاب کنید تا متن به عنوان پریمپت ذخیره شود
+6. **خروجی گرفتن از کتابخانه پریمپت**: در صفحه مدیریت روی دکمه "خروجی" کلیک کنید تا همه پریمپت‌ها به صورت فایل JSON در دستگاه شما ذخیره شود
+7. **وارد کردن کتابخانه پریمپت**: در صفحه مدیریت روی دکمه "وارد کردن" کلیک کنید و از فایل JSON محلی پریمپت‌ها را وارد نمایید (پشتیبانی از ادغام یا جایگزینی پریمپت‌های فعلی)
 
 ## 📸 پیش‌نمایش رابط کاربری
 
-Quick Prompt یک رابط کاربری بصری و کاربرپسند ارائه می‌دهد تا مدیریت و استفاده از پرامپت‌ها را آسان کند.
+Quick Prompt یک رابط کاربری شهودی و دوستانه ارائه می‌دهد تا بتوانید به راحتی پریمپت‌های خود را مدیریت و استفاده کنید.
 
-### انتخابگر پرامپت
+### انتخابگر پریمپت
 
-![انتخابگر پرامپت](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
+![انتخابگر پریمپت](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
 
-![انتخابگر پرامپت](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
+![انتخابگر پریمپت](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-با استفاده از دستور میانبر `/p` یا کلید میانبر، می‌توانید در هر کادر متنی به سرعت انتخابگر پرامپت را اجرا کرده و به راحتی پرامپت مورد نظر را انتخاب و درج کنید.
+با دستور سریع `/p` یا کلید میانبر می‌توانید انتخابگر پریمپت را در هر کادر ورودی به سرعت باز کرده و پریمپت موردنظر را انتخاب و درج کنید.
 
-### صفحه مدیریت پرامپت
+### صفحه مدیریت پریمپت
 
-![مدیریت پرامپت](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
+![مدیریت پریمپت](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-در صفحه مدیریت، می‌توانید پرامپت جدید بسازید، پرامپت‌های موجود را ویرایش کنید، برچسب اضافه کنید و دسته‌بندی‌ها را مدیریت نمایید. رابط کاربری ساده و عملیات سریع است.
+در صفحه مدیریت می‌توانید پریمپت جدید بسازید، پریمپت‌های قبلی را ویرایش کنید، برچسب اضافه کنید و دسته‌بندی انجام دهید. رابط کاربری ساده و عملیات آسان است.
 
-### ذخیره از منوی راست کلیک
+### ذخیره با منوی راست‌کلیک
 
-![ذخیره از منوی راست کلیک](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![منوی راست‌کلیک ذخیره‌سازی](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-فقط کافیست هر متنی را در صفحه وب انتخاب کرده و با راست کلیک، آن را به سرعت به عنوان یک پرامپت ذخیره کنید تا بهره‌وری افزایش یابد.
+کافیست هر متنی را در صفحه وب انتخاب کنید و با راست‌کلیک آن را به سرعت به عنوان یک عبارت راهنما ذخیره کنید تا بهره‌وری کاری افزایش یابد.
 
-### ورودی متغیرهای پرامپت
+### ورودی متغیرهای عبارت راهنما
 
-![پنجره متغیرهای پرامپت](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![پنجره متغیرهای عبارت راهنما](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-پرامپت‌ها پشتیبانی از متغیر دارند و پس از انتخاب، پنجره‌ای برای ورود مقدار متغیر باز می‌شود.
+عبارت راهنما قابلیت پیکربندی متغیر را دارد، پس از انتخاب پنجره‌ای برای وارد کردن مقدار متغیر باز می‌شود.
 
-## ⚙️ تنظیمات سفارشی
+## ⚙️ پیکربندی سفارشی
 
-1. روی آیکون افزونه کلیک کنید، سپس دکمه "مدیریت پرامپت‌ها" را فشار دهید
+1. روی آیکون افزونه کلیک کنید، سپس دکمه "مدیریت عبارت‌های راهنما" را بزنید.
 2. در صفحه مدیریت، شما می‌توانید:
-   - پرامپت جدیدی اضافه کنید
-   - پرامپت‌های موجود را ویرایش کنید
-   - پرامپت‌های غیرضروری را حذف کنید
-   - به پرامپت‌ها برچسب اضافه کنید برای دسته‌بندی
-   - کتابخانه پرامپت را برای پشتیبان‌گیری صادر کنید
-   - کتابخانه پرامپت پشتیبان قبلی را وارد کنید
+   - عبارت راهنمای جدید اضافه کنید
+   - عبارات راهنمای موجود را ویرایش کنید
+   - عبارات راهنمای غیرضروری را حذف کنید
+   - برای دسته‌بندی عبارات راهنما، برچسب اضافه کنید
+   - بانک عبارات راهنما را برای پشتیبان‌گیری صادر کنید
+   - بانک عبارات راهنمای قبلی را وارد کنید
 
 ## 📦 راهنمای نصب
 
-### نصب از فروشگاه برنامه
+### نصب از فروشگاه برنامه‌ها
 
-در حال حاضر در فروشگاه افزونه Chrome منتشر شده است! [برای دانلود و نصب کلیک کنید](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="فروشگاه برنامه Chrome">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D9%81%D8%B2%D9%88%D9%86%D9%87%E2%80%8C%D9%87%D8%A7-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="فروشگاه افزونه Firefox">
+  </a>
+</p>
 
 ### دریافت از GitHub Releases
 
-1. به [صفحه GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases) بروید
-2. آخرین نسخه افزونه ساخته‌شده را دانلود کنید
+1. به [صفحه GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases) مراجعه کنید
+2. جدیدترین نسخه بسته افزونه را دانلود کنید
 3. فایل دانلود شده را از حالت فشرده خارج کنید
-4. طبق راهنمای زیر، افزونه ساخته‌شده را نصب کنید
+4. طبق دستورالعمل زیر، افزونه ساخته‌شده را نصب کنید
 
-### ساخت از روی سورس
+### ساخت از روی کد منبع
 
 1. مخزن را کلون کنید
    ```bash
@@ -186,6 +191,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

@@ -34,71 +34,69 @@
   <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Uma poderosa extensão de navegador focada em gerenciamento de prompts e entrada rápida. Ajuda os usuários a criar, gerenciar e organizar bibliotecas de prompts, além de inserir rapidamente conteúdos de Prompt pré-definidos em qualquer campo de texto na web, aumentando a eficiência do trabalho.
-
-> Como a extensão do navegador só pode ser usada na web, foi lançado um [plugin Raycast](https://github.com/wenyuanw/quick-prompt-raycast) de código aberto com as mesmas funcionalidades, compatível com o formato de dados da extensão do navegador e suporta migração perfeita usando o mesmo arquivo JSON.
+Uma poderosa extensão de navegador focada em gerenciamento de prompts e entrada rápida. Ajuda os usuários a criar, gerenciar e organizar uma biblioteca de prompts, inserindo rapidamente conteúdos pré-definidos em qualquer campo de entrada de página web, aumentando a eficiência do trabalho.
 
 ## ✨ Funcionalidades
 
-- 📚 **Gerenciamento de Prompt**: Crie, edite e gerencie facilmente sua biblioteca de prompts
+- 📚 **Gerenciamento de prompts**: Crie, edite e gerencie facilmente sua biblioteca de prompts
 - 🚀 **Entrada rápida**: Acione o seletor de prompts rapidamente em qualquer campo de texto da web digitando `/p`
-- ⌨️ Suporta configuração de atalho para abrir o seletor de prompts e salvar texto selecionado como prompt
-- 📑 Suporta salvar texto selecionado como prompt diretamente pelo menu do botão direito
-- 🎯 Suporta prompts personalizados, incluindo categoria, título, conteúdo, tags e variáveis
-- 🧑‍💻 **Suporte a Variáveis**: Use variáveis no formato `{{nome_da_variável}}` nos prompts e preencha valores ao usar
-- 💾 **Backup de Dados**: Suporta exportação e importação da biblioteca de prompts, facilitando migração e backup entre dispositivos
-- 🔗 **Sincronização em Nuvem**: Suporta sincronização da biblioteca de prompts com banco de dados Notion ou Gitee/GitHub Gist
-- 🔍 Suporta busca e filtragem de prompts
-- 🌙 Adapta automaticamente ao tema claro/escuro do sistema
+- ⌨️ Suporte para configurar atalho de teclado para abrir o seletor de prompts e salvar o texto selecionado como prompt
+- 📑 Suporte ao menu de contexto (botão direito) para salvar texto selecionado diretamente como prompt
+- 🎯 Suporta prompts personalizados, incluindo categorias, títulos, conteúdo, anexos, tags e variáveis
+- 🧑‍💻 **Suporte a variáveis**: No prompt, é possível usar variáveis no formato `{{nome_da_variável}}`, preenchendo valores ao utilizar
+- 💾 **Backup de dados**: Suporte para exportar e importar a biblioteca de prompts, facilitando migração e backup entre dispositivos
+- 🔗 **Sincronização na nuvem**: Biblioteca de prompts com suporte a sincronização via WebDAV, banco de dados Notion, Gitee/GitHub Gist
+- 🔍 Suporte à busca e filtragem de prompts
+- 🌙 Adaptação automática ao tema claro/escuro do sistema
 
-## 🚀 Como Usar
+## 🚀 Como usar
 
-1. **Acionamento rápido**: Digite `/p` em qualquer campo de texto da web para abrir o seletor de prompts
-2. **Abrir seletor por atalho**: Use `Ctrl+Shift+P` (Windows/Linux) ou `Command+Shift+P` (macOS) para abrir o seletor de prompts
-3. **Selecionar prompt**: Clique no prompt desejado no seletor exibido, ele será inserido automaticamente no campo de texto atual
-4. **Salvar prompt rapidamente**: Após selecionar qualquer texto, use `Ctrl+Shift+S` (Windows/Linux) ou `Command+Shift+S` (macOS) para salvar como prompt
-5. **Salvar pelo menu do botão direito**: Após selecionar texto, clique com o botão direito e escolha "Salvar este prompt" para guardar o conteúdo selecionado como prompt
-6. **Exportar biblioteca de prompts**: Na página de gerenciamento, clique no botão "Exportar" para salvar todos os prompts em um arquivo JSON local
-7. **Importar biblioteca de prompts**: Na página de gerenciamento, clique no botão "Importar" para adicionar prompts de um arquivo JSON local (suporta mesclar ou substituir prompts existentes)
+1. **Acionamento rápido**: Digite `/p` em qualquer campo de texto de uma página web para abrir o seletor de prompts
+2. **Atalho para abrir o seletor**: Use `Ctrl+Shift+P` (Windows/Linux) ou `Command+Shift+P` (macOS) para abrir o seletor de prompts
+3. **Selecionar prompt**: Clique no prompt desejado no seletor exibido; ele será inserido automaticamente no campo de texto atual
+4. **Salvar prompt rapidamente**: Após selecionar qualquer texto, use `Ctrl+Shift+S` (Windows/Linux) ou `Command+Shift+S` (macOS) para salvar rapidamente como prompt
+5. **Salvar via menu do botão direito**: Após selecionar texto, clique com o botão direito e escolha "Salvar este prompt" para salvar o conteúdo selecionado como prompt
+6. **Exportar biblioteca de prompts**: Na página de gerenciamento, clique no botão "Exportar" para salvar todos os prompts em um arquivo JSON localmente
+7. **Importar biblioteca de prompts**: Na página de gerenciamento, clique em "Importar" para trazer prompts de um arquivo JSON local (suporte a mesclar ou substituir prompts existentes)
 
-## 📸 Visualização da Interface
+## 📸 Pré-visualização da interface
 
-Quick Prompt oferece uma interface de usuário intuitiva e amigável para você gerenciar e utilizar prompts facilmente.
+Quick Prompt oferece uma interface intuitiva e amigável para facilitar o gerenciamento e uso de prompts.
 
-### Seletor de Prompts
+### Seletor de prompts
 
 ![Seletor de Prompts](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
 
 ![Seletor de Prompts](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Use o comando rápido `/p` ou o atalho para abrir rapidamente o seletor de prompts em qualquer campo de texto, facilitando a escolha e inserção do prompt necessário.
+Use o atalho `/p` ou as teclas de atalho para abrir rapidamente o seletor de prompts em qualquer campo de texto, facilitando a escolha e inserção do prompt desejado.
 
-### Página de Gerenciamento de Prompts
+### Página de gerenciamento de prompts
 
 ![Gerenciamento de Prompts](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Na página de gerenciamento, você pode criar novos prompts, editar existentes, adicionar tags e fazer a gestão por categorias. A interface é clara e fácil de usar.
+Na página de gerenciamento, você pode criar novos prompts, editar existentes, adicionar tags e gerenciar categorias. A interface é simples e fácil de usar.
 
-### Salvar pelo menu do botão direito
+### Salvar via menu do botão direito
 
-![Salvar pelo menu do botão direito](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Menu de contexto salvar](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Basta selecionar qualquer texto na página web, clicar com o botão direito e salvá-lo rapidamente como um prompt, aumentando a eficiência do trabalho.
+Basta selecionar qualquer texto na página da web, clicar com o botão direito e salvá-lo rapidamente como um prompt, aumentando a eficiência do trabalho.
 
 ### Entrada de variáveis do prompt
 
 ![Janela de variáveis do prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Os prompts suportam configuração de variáveis, e após selecionar, uma janela será exibida para inserir o valor correspondente.
+Os prompts suportam a configuração de variáveis. Após selecionar, uma janela pop-up solicitará o valor da variável correspondente.
 
-## ⚙️ Configuração personalizada
+## ⚙️ Configuração Personalizada
 
 1. Clique no ícone da extensão e depois no botão "Gerenciar Prompts"
 2. Na página de gerenciamento, você pode:
    - Adicionar novos prompts
    - Editar prompts existentes
-   - Excluir prompts indesejados
-   - Adicionar tags aos prompts para classificar
+   - Excluir prompts desnecessários
+   - Adicionar etiquetas aos prompts para categorizá-los
    - Exportar a biblioteca de prompts para backup
    - Importar uma biblioteca de prompts previamente salva
 
@@ -106,14 +104,21 @@ Os prompts suportam configuração de variáveis, e após selecionar, uma janela
 
 ### Instalar pela loja de aplicativos
 
-Já disponível na Chrome Web Store! [Clique aqui para baixar e instalar](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-Loja%20de%20Aplicativos-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Loja de Aplicativos">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-Loja%20de%20Extens%C3%B5es-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox Loja de Extensões">
+  </a>
+</p>
 
-### Baixar pelo GitHub Releases
+### Obter pelo GitHub Releases
 
 1. Acesse a [página do GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)
-2. Baixe o pacote do plugin já compilado na versão mais recente
+2. Baixe o pacote do plugin já compilado mais recente
 3. Extraia o arquivo baixado
-4. Instale a extensão compilada seguindo as instruções abaixo
+4. Instale a extensão já construída conforme as instruções abaixo
 
 ### Compilar a partir do código-fonte
 
@@ -186,6 +191,6 @@ Agradecemos a todos os desenvolvedores que contribuíram para este projeto!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

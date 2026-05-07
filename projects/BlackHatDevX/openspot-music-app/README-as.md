@@ -38,7 +38,6 @@
   </div>
 </details>
 
-
 ---
 
 <img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
@@ -51,89 +50,93 @@
 
 <br>
 
-### 📱 **ম'বাইল**
+<!-- প্লেটফৰ্ম ব্যাজসমূহ -->
 
-🔹 **এণ্ড্ৰইড**
-👉 [**এতিয়াই ডাউনলোড কৰক**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [চাইন কৰা হোৱা নাই] 👉 [**এতিয়াই ডাউনলোড কৰক**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**ইনষ্টলেশ্বন গাইড**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- পাঠ্য CTA -->
+
+<h3>
+ ডাউনলোড কৰক 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">ইয়াত</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **ডেক্সটপ**
-
-🍎 **মেকঅ'এছ (এপল চিলিকন)**
-👉 [**এতিয়াই ডাউনলোড কৰক**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**এতিয়া ডাউনলোড কৰক**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**এতিয়া ডাউনলোড কৰক**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ বৈশিষ্ট্যসমূহ
 
 <div align="center">
 
-🎧 **উচ্চ-গুণগত মানৰ ষ্ট্ৰিমিং**   ·   📥 **অফলাইন ডাউনলোড**   ·   ❤️ **পছন্দ আৰু কাষ্টম প্লেলিষ্ট**  
-🔄 **পটভূমিত প্লে**   ·   🚫 **লগইনৰ প্ৰয়োজন নাই**   ·   🆓 **১০০% বিনামূলীয়া আৰু বিজ্ঞাপনহীন**
+🎧 **উচ্চ-গুণমানৰ ষ্ট্ৰিমিং**   ·   📥 **অফলাইন ডাউনলোড**   ·   ❤️ **পচন্দ আৰু কাষ্টম প্লেলিষ্ট**  
+🔄 **পটভূমিত প্লে**   ·   🚫 **লগিনৰ প্ৰয়োজন নাই**   ·   🆓 **১০০% মুকলি আৰু বিজ্ঞাপন-মুক্ত**
 
 </div>
 
 ### 🌍 সমৰ্থিত ভাষাসমূহ (i18n)
-| 🇩🇪 Deutsch | 🇺🇸 ইংলিশ | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
+| 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*অধিক ভাষা শীঘ্ৰে আহি আছে — অৱদান স্বাগতম!*
-
+*অতি শীঘ্ৰে অধিক ভাষা আহি আছে — আপোনাৰ অৱদান স্বাগতম!*
 
 ---
 
-### 🎨 চেহেৰা আৰু অনুভূতি
-- **পুনঃনৱীকৃত UI** – পৰিষ্কাৰ, আধুনিক ডিজাইন আৰু মসৃণ স্থানান্তৰ
-- **মিনি প্লেয়াৰ** – কেপচুল-স্টাইল মিনি প্লেয়াৰ সমৰ্থিত ডিভাইচত (OnePlus, আদি)
-- **থিমিং** – ডাৰ্ক মোড, লাইট মোড, আৰু অটো মোড
+### 🎨 ৰূপ আৰু অনুভৱ
+- **পুনঃনৱীকৃত UI** – পৰিষ্কাৰ, আধুনিক ডিজাইন আৰু মসৃণ স্থানান্তৰণ
+- **মিনি প্লেয়াৰ** – অনুকূল ডিভাইচত কেপচুল-শৈলীৰ মিনি প্লেয়াৰ (OnePlus, আদিত)
+- **থিমিং** – ডাৰ্ক ম'ড, লাইট ম'ড, আৰু অটো ম'ড
 
 ### 🎼 সংগীত অভিজ্ঞতা
-- **সন্ধান** – গান, ৰাজহুৱা প্লেলিষ্ট, এলবাম, আৰু শিল্পী বিচাৰি উলিওৱা
-- **অফলাইন শুনা** – গান ডাউনলোড কৰক আৰু ইণ্টাৰনেট নাথাকিলেও বাজাও
-- **কাষ্টম প্লেলিষ্ট** – নিজৰ সংগ্ৰহ সৃষ্টি, পৰিচালনা আৰু সংগঠিত কৰক
-- **ট্ৰেণ্ডিং গীত** – অঞ্চলভিত্তিক ট্ৰেণ্ডিং গানসমূহ IPinfo দ্বাৰা চালিত
-- **শিল্পীৰ এলবাম আৰু প্লেলিষ্ট** – সম্পূৰ্ণ ডিস্ক’গ্ৰাফী চাবলৈ এতিয়া সমৰ্থিত
+- **সন্ধান** – গান, ৰাজহুৱা প্লেলিষ্ট, এলবাম, আৰু শিল্পী বিচাৰক
+- **অফলাইন শুনা** – গান ডাউনলোড কৰক আৰু ইণ্টাৰনেট নথকাকৈ বজাওক
+- **কাষ্টম প্লেলিষ্ট** – নিজৰ সংগ্ৰহ সৃষ্টি, পৰিচালনা, আৰু সংগঠিত কৰক
+- **ট্ৰেণ্ডিং গানসমূহ** – IPinfo দ্বাৰা শক্তিপ্ৰাপ্ত অঞ্চলভিত্তিক ট্ৰেণ্ডিং গানসমূহ
+- **শিল্পীৰ এলবাম আৰু প্লেলিষ্ট** – সম্পূৰ্ণ ডিস্কগ্ৰাফি বিচাৰক এতিয়া সমৰ্থিত
+
 
 ### ⚡ কাৰ্যক্ষমতা আৰু স্থিৰতা
-- **উন্নত YouTube API** – অধিক নিৰ্ভৰযোগ্য ষ্ট্রীমিং
-- **প্লেবেক আপগ্ৰেড** – অধিক মচকীয়া কাৰ্য, স্থায়ী দৈৰ্ঘ্য আৰু পটভূমি প্লেবেক বাগ সমাধান
-- **হেডসেট আৰু লকস্ক্ৰীন নিয়ন্ত্ৰণ** – সহজ নটিফিকেশ্বন নিয়ন্ত্ৰণ
-- **পেজিনেটেড শিল্পী গীত** – সকলো গান সম্পূৰ্ণৰূপে লোড হয়
+- **YouTube API উন্নয়ন** – অধিক নিৰ্ভৰযোগ্য ষ্ট্ৰিমিং
+- **প্লেবেক উন্নয়ন** – অধিক মচলা কাৰ্যক্ষমতা, স্থায়ী সময় আৰু পটভূমি প্লেবেক বাগ ফিক্স
+- **হেডছেট আৰু লকস্ক্ৰীন নিয়ন্ত্ৰণ** – মসৃণ জাননী নিয়ন্ত্ৰণ
+- **পৃষ্ঠাবদ্ধ শিল্পী গীত** – সকলো গীত সম্পূৰ্ণৰূপে লোড হয়
 
 ---
 
 ## 📖 পৰ্যালোচনা
 
-এই মন’ৰিপ’য়ে **দুটা সম্পূৰ্ণ স্বতন্ত্ৰ সংগীত ষ্ট্রীমিং এপ** আধুনিক প্ৰযুক্তিৰে নিৰ্মাণ কৰা আগবঢ়ায়:
+এই মনোৰিপ'ৱে আধুনিক প্ৰযুক্তিৰে নিৰ্মিত **দুটি সম্পূৰ্ণ স্বতন্ত্ৰ সংগীত ষ্ট্ৰিমিং এপ্লিকেশ্যন** যোগান ধৰে:
 
-| এপ | প্লেটফৰ্ম | ফ্ৰেমৱৰ্ক | অৱস্থান |
+| এপ | প্লেটফৰ্ম | ফ্ৰেমৱাৰ্ক | অৱস্থান |
 |-----|-----------|-----------|----------|
 | 📱 **ম'বাইল** | Android, iOS *(আহি আছে)* | React Native + Expo | `openspot-mobile/` |
 | 🖥️ **ডেস্কটপ** | macOS, Windows/Linux *(আহি আছে)* | Tauri + React | `openspot-desktop/` |
 
-উভয় এপে একে শক্তিশালী ষ্ট্রীমিং ক'ৰ শ্বেয়াৰ কৰে, যিয়ে আপোনাক সকলো ডিভাইচত এক নিৰবিচ্ছিন্ন সংগীতানুভৱ দিয়ে।
+উভয় এপে একে শক্তিশালী ষ্ট্ৰিমিং কোৰ ব্যৱহাৰ কৰে, যাৰ দ্বাৰা আপোনাৰ সকলো ডিভাইচত একসাৰ শুনাৰ অভিজ্ঞতা পাব।
 
 ---
 
@@ -145,7 +148,7 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 ### 🖥️ ডেস্কটপ
 `Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
-### 📊 ক'ডৰ সংমিশ্ৰণ
+### 📊 কোৰ সংযোজন
 ![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-2.6%25-F7DF1E?style=flat-square&logo=javascript)  
 ![CSS](https://img.shields.io/badge/CSS-1.2%25-1572B6?style=flat-square&logo=css3)  
@@ -153,10 +156,10 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ---
 
-## 🌍 সমুদায় আৰু সহায়
+## 🌍 সমাজ আৰু সহায়
 
-- 💬 **টেলিগ্ৰাম**: [@openspot_music](https://t.me/openspot_music)
-- 🐛 **সমস্যাসমূহ**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
@@ -169,21 +172,21 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 [![Portfolio](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
 
 
-## 📄 লাইচেঞ্চ
+## 📄 লাইচেন্স
 
-এই প্ৰকল্পটো **MIT License**-ৰ অধীনত লাইচেঞ্চ কৰা হৈছে – বিৱৰণৰ বাবে [LICENSE](./LICENSE) ফাইলটো চাওক।
+এই প্ৰকল্পটো **MIT License**-ত লাইচেন্স কৰা হৈছে – [LICENSE](./LICENSE) ফাইলত বিৱৰণ চাওক।
 
 ---
 
 <div align="center">
-  <strong>⭐ OpenSpot Music আপোনাৰ ভাল লাগিলে এটা ষ্টাৰ দিয়ক – ই যথেষ্ট সহায় কৰে!</strong>
+  <strong>⭐ যদি আপুনি OpenSpot Music উপভোগ কৰে, এটা ষ্টাৰ দিয়ক – ইয়াৰে যথেষ্ট সহায় হয়!</strong>
   <br />
-  <em>আপোনাৰ সহায়তাই সকলোৰে বাবে সংগীত বজাই ৰাখে।</em>
+  <em>আপোনাৰ সহায়ে সংগীত সকলোৰে বাবে বজাই ৰাখে।</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

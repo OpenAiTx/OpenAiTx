@@ -50,48 +50,51 @@
 
 <br>
 
-### 📱 **मोबाइल**
+<!-- प्लेटफ़ॉर्म बैज -->
 
-🔹 **एंड्रॉइड**
-👉 [**अब डाउनलोड करें**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [असाइन नहीं] 👉 [**अब डाउनलोड करें**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**इंस्टॉलेशन गाइड**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- टेक्स्ट CTA -->
+
+<h3>
+ डाउनलोड करें 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">यहाँ</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **डेस्कटॉप**
-
-🍎 **macOS (एप्पल सिलिकॉन)**
-👉 [**अब डाउनलोड करें**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **विंडोज**
-👉 [**अभी डाउनलोड करें**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **लिनक्स (डेबियन/उबुन्टू)**
-👉 [**अभी डाउनलोड करें**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
-## ✨ फीचर्स
+## ✨ विशेषताएँ
 
 <div align="center">
 
-🎧 **हाई-क्वालिटी स्ट्रीमिंग** · 📥 **ऑफ़लाइन डाउनलोड्स** · ❤️ **लाइक्स और कस्टम प्लेलिस्ट्स**  
-🔄 **बैकग्राउंड प्ले** · 🚫 **लॉगिन की आवश्यकता नहीं** · 🆓 **100% फ्री और विज्ञापन रहित**
+🎧 **उच्च गुणवत्ता स्ट्रीमिंग**   ·   📥 **ऑफलाइन डाउनलोड्स**   ·   ❤️ **पसंदीदा और कस्टम प्लेलिस्ट्स**  
+🔄 **बैकग्राउंड प्ले**   ·   🚫 **लॉगिन की आवश्यकता नहीं**   ·   🆓 **100% मुफ्त और विज्ञापन-मुक्त**
 
 </div>
 
@@ -99,45 +102,45 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*जल्द ही और भाषाएँ उपलब्ध होंगी — योगदान आमंत्रित हैं!*
-
+*अधिक भाषाएँ जल्द आ रही हैं — योगदान आमंत्रित हैं!*
 
 ---
 
 ### 🎨 लुक और फील
-- **पुनः डिज़ाइन की गई यूआई** – साफ, आधुनिक डिज़ाइन और स्मूद ट्रांजिशन
-- **मिनी प्लेयर** – अनुकूल डिवाइसों (OnePlus आदि) के लिए कैप्सूल-शैली मिनी प्लेयर
+- **नवीन UI** – साफ, आधुनिक डिजाइन और स्मूद ट्रांजिशन
+- **मिनी प्लेयर** – कैप्सूल-स्टाइल मिनी प्लेयर (वनप्लस आदि डिवाइस पर उपलब्ध)
 - **थीमिंग** – डार्क मोड, लाइट मोड और ऑटो मोड
 
-### 🎼 म्यूज़िक अनुभव
-- **सर्च** – गाने, सार्वजनिक प्लेलिस्ट्स, एलबम्स और कलाकार खोजें
-- **ऑफ़लाइन सुनना** – ट्रैक्स डाउनलोड करें और बिना इंटरनेट के चलाएँ
-- **कस्टम प्लेलिस्ट्स** – अपनी खुद की कलेक्शन बनाएं, प्रबंधित करें और व्यवस्थित करें
-- **ट्रेंडिंग गाने** – IPinfo द्वारा संचालित क्षेत्रीय ट्रेंडिंग ट्रैक्स
-- **आर्टिस्ट एल्बम्स और प्लेलिस्ट्स** – अब पूरी डिस्कोग्राफी ब्राउज़िंग समर्थित
+### 🎼 संगीत अनुभव
+- **खोज** – गीत, सार्वजनिक प्लेलिस्ट्स, एल्बम्स और कलाकार खोजें
+- **ऑफलाइन सुनना** – ट्रैक डाउनलोड करें और बिना इंटरनेट सुनें
+- **कस्टम प्लेलिस्ट्स** – अपनी कलेक्शन बनाएं, प्रबंधित करें और व्यवस्थित करें
+- **ट्रेंडिंग गीत** – क्षेत्र-आधारित ट्रेंडिंग ट्रैक IPinfo द्वारा संचालित
+- **कलाकार एल्बम्स और प्लेलिस्ट्स** – पूरी डिस्कोग्राफी ब्राउज़िंग अब उपलब्ध
 
-### ⚡ प्रदर्शन एवं स्थिरता
-- **सुधारित YouTube API** – और अधिक विश्वसनीय स्ट्रीमिंग
-- **प्लेबैक अपग्रेड्स** – अधिक स्मूद प्रदर्शन, ड्यूरेशन और बैकग्राउंड प्लेबैक बग्स ठीक किए
-- **हेडसेट और लॉकस्क्रीन कंट्रोल्स** – सहज नोटिफिकेशन कंट्रोल्स
-- **पेजिनेटेड आर्टिस्ट गाने** – सभी गाने पूरी तरह लोड होते हैं
+
+### ⚡ प्रदर्शन और स्थिरता
+- **सुधारित YouTube API** – अधिक विश्वसनीय स्ट्रीमिंग
+- **प्लेबैक अपग्रेड्स** – अधिक स्मूद प्रदर्शन, ड्यूरेशन और बैकग्राउंड प्लेबैक बग्स को ठीक किया
+- **हेडसेट एवं लॉकस्क्रीन नियंत्रण** – निर्बाध नोटिफिकेशन नियंत्रण
+- **पैजिनेटेड आर्टिस्ट सॉन्ग्स** – सभी गाने पूरी तरह लोड होते हैं
 
 ---
 
 ## 📖 अवलोकन
 
-यह मोनोरिपो **दो पूर्णतः स्वतंत्र म्यूजिक स्ट्रीमिंग ऐप्स** अत्याधुनिक तकनीकों के साथ प्रदान करता है:
+यह मोनोरिपो **दो पूरी तरह स्वतंत्र म्यूजिक स्ट्रीमिंग ऐप्स** प्रदान करता है, जो अत्याधुनिक तकनीकों से बने हैं:
 
-| ऐप | प्लेटफार्म | फ्रेमवर्क | स्थान |
+| ऐप | प्लेटफॉर्म्स | फ्रेमवर्क | स्थान |
 |-----|-----------|-----------|----------|
-| 📱 **मोबाइल** | एंड्रॉयड, iOS *(जल्द आ रहा है)* | React Native + Expo | `openspot-mobile/` |
+| 📱 **मोबाइल** | एंड्रॉइड, iOS *(जल्द आ रहा है)* | React Native + Expo | `openspot-mobile/` |
 | 🖥️ **डेस्कटॉप** | macOS, Windows/Linux *(जल्द आ रहा है)* | Tauri + React | `openspot-desktop/` |
 
-दोनों ऐप्स एक ही शक्तिशाली स्ट्रीमिंग कोर साझा करते हैं, जिससे सभी डिवाइस पर आपको एक समान श्रोता अनुभव मिलता है।
+दोनों ऐप्स एक ही शक्तिशाली स्ट्रीमिंग कोर साझा करते हैं, जिससे आपको अपने सभी डिवाइस पर एक समान अनुभव मिलता है।
 
 ---
 
-## 🧰 तकनीकी स्टैक
+## 🧰 टेक स्टैक
 
 ### 📱 मोबाइल
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -153,7 +156,7 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ---
 
-## 🌍 समुदाय एवं सहायता
+## 🌍 समुदाय और सहायता
 
 - 💬 **टेलीग्राम**: [@openspot_music](https://t.me/openspot_music)
 - 🐛 **समस्याएँ**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
@@ -171,19 +174,19 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ## 📄 लाइसेंस
 
-यह परियोजना **MIT लाइसेंस** के अंतर्गत लाइसेंस प्राप्त है – विवरण के लिए [LICENSE](./LICENSE) फाइल देखें।
+यह प्रोजेक्ट **MIT लाइसेंस** के तहत लाइसेंस प्राप्त है – अधिक जानकारी के लिए [LICENSE](./LICENSE) फ़ाइल देखें।
 
 ---
 
 <div align="center">
-  <strong>⭐ यदि आपको OpenSpot Music पसंद है, तो एक स्टार दें – यह वास्तव में मदद करता है!</strong>
+  <strong>⭐ यदि आपको OpenSpot Music पसंद आए, तो एक स्टार दें – यह वास्तव में मदद करता है!</strong>
   <br />
-  <em>आपका समर्थन सभी के लिए संगीत को जीवित रखता है।</em>
+  <em>आपका समर्थन सभी के लिए संगीत बजाए रखता है।</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

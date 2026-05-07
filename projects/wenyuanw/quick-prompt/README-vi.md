@@ -34,90 +34,95 @@
   <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Một tiện ích mở rộng trình duyệt mạnh mẽ, tập trung vào quản lý và nhập nhanh các Prompt. Hỗ trợ người dùng tạo, quản lý và tổ chức thư viện Prompt, đồng thời nhanh chóng chèn nội dung Prompt đã thiết lập vào bất kỳ ô nhập liệu nào trên trang web, nâng cao hiệu suất công việc.
-
-> Do tiện ích trình duyệt chỉ dùng được trên web, nên đã mã nguồn mở một [plugin Raycast](https://github.com/wenyuanw/quick-prompt-raycast) có chức năng tương tự, tương thích với định dạng dữ liệu của plugin trình duyệt, hỗ trợ di chuyển dữ liệu liền mạch qua cùng một tệp JSON.
+Một tiện ích mở rộng trình duyệt mạnh mẽ, tập trung vào quản lý prompt và nhập liệu nhanh. Hỗ trợ người dùng tạo, quản lý và tổ chức thư viện prompt, đồng thời chèn nhanh nội dung Prompt đã thiết lập vào bất kỳ ô nhập liệu nào trên web, nâng cao hiệu suất làm việc.
 
 ## ✨ Tính năng nổi bật
 
 - 📚 **Quản lý Prompt**: Tạo, chỉnh sửa và quản lý thư viện prompt của bạn một cách tiện lợi
-- 🚀 **Nhập nhanh**: Gõ `/p` trong bất kỳ ô nhập liệu nào trên trang web để nhanh chóng kích hoạt bộ chọn prompt
-- ⌨️ Hỗ trợ cấu hình phím tắt để mở bộ chọn prompt & lưu văn bản đã chọn thành prompt
-- 📑 Hỗ trợ lưu trực tiếp văn bản đã chọn thành prompt qua menu chuột phải
-- 🎯 Hỗ trợ tùy chỉnh prompt, bao gồm phân loại, tiêu đề, nội dung, nhãn và biến số
-- 🧑‍💻 **Hỗ trợ biến số**: Có thể sử dụng biến dưới dạng `{{tên_biến}}` trong prompt, điền giá trị cụ thể khi sử dụng
-- 💾 **Sao lưu dữ liệu**: Hỗ trợ xuất và nhập thư viện prompt, tiện lợi cho việc sao lưu và chuyển thiết bị
-- 🔗 **Đồng bộ đám mây**: Hỗ trợ đồng bộ thư viện prompt với cơ sở dữ liệu Notion hoặc Gitee/GitHub Gist
-- 🔍 Hỗ trợ chức năng tìm kiếm và lọc prompt
-- 🌙 Tự động thích ứng với chủ đề sáng tối của hệ thống
+- 🚀 **Nhập liệu nhanh**: Dùng `/p` để nhanh chóng kích hoạt bộ chọn prompt trong bất kỳ ô nhập trên trang web
+- ⌨️ Hỗ trợ cấu hình phím tắt để mở bộ chọn prompt & lưu nhanh văn bản đã chọn thành prompt
+- 📑 Hỗ trợ menu chuột phải để lưu trực tiếp văn bản đã chọn thành prompt
+- 🎯 Hỗ trợ tùy chỉnh prompt, bao gồm phân loại, tiêu đề, nội dung, tệp đính kèm, nhãn và biến số
+- 🧑‍💻 **Hỗ trợ biến số**: Có thể sử dụng biến số dưới dạng `{{tên biến}}` trong prompt, khi dùng có thể điền giá trị cụ thể
+- 💾 **Sao lưu dữ liệu**: Hỗ trợ xuất/nhập thư viện prompt, thuận tiện cho việc chuyển đổi thiết bị và sao lưu
+- 🔗 **Đồng bộ đám mây**: Thư viện prompt hỗ trợ đồng bộ WebDAV, cơ sở dữ liệu Notion, Gitee/GitHub Gist
+- 🔍 Hỗ trợ tìm kiếm và lọc prompt
+- 🌙 Tự động thích ứng với chế độ sáng/tối của hệ thống
 
-## 🚀 Hướng dẫn sử dụng
+## 🚀 Cách sử dụng
 
-1. **Kích hoạt nhanh**: Gõ `/p` trong ô nhập liệu văn bản ở bất kỳ trang web nào để mở bộ chọn prompt
+1. **Kích hoạt nhanh**: Nhập `/p` trong bất kỳ ô nhập văn bản nào trên trang web để bật bộ chọn prompt
 2. **Phím tắt mở bộ chọn**: Dùng `Ctrl+Shift+P` (Windows/Linux) hoặc `Command+Shift+P` (macOS) để mở bộ chọn prompt
-3. **Chọn prompt**: Nhấp vào prompt mong muốn trong bộ chọn hiện ra, nó sẽ tự động chèn vào ô nhập liệu hiện tại
-4. **Lưu nhanh prompt**: Chọn đoạn văn bản bất kỳ, dùng `Ctrl+Shift+S` (Windows/Linux) hoặc `Command+Shift+S` (macOS) để lưu nhanh thành prompt
-5. **Menu chuột phải lưu prompt**: Chọn đoạn văn bản, nhấp chuột phải và chọn "Lưu prompt này" để lưu thành prompt
-6. **Xuất thư viện prompt**: Trong trang quản lý, nhấp nút "Xuất" để lưu toàn bộ prompt dưới dạng tệp JSON về máy
-7. **Nhập thư viện prompt**: Trong trang quản lý, nhấp nút "Nhập" để nhập prompt từ tệp JSON (hỗ trợ ghép hoặc ghi đè prompt hiện có)
+3. **Chọn prompt**: Nhấp vào prompt mong muốn trong bộ chọn, prompt sẽ tự động chèn vào ô nhập hiện tại
+4. **Lưu prompt nhanh**: Sau khi chọn văn bản, nhấn `Ctrl+Shift+S` (Windows/Linux) hoặc `Command+Shift+S` (macOS) để lưu nhanh thành prompt
+5. **Menu chuột phải lưu prompt**: Sau khi chọn văn bản, nhấp chuột phải và chọn "Lưu prompt này" để lưu nội dung đã chọn thành prompt
+6. **Xuất thư viện prompt**: Nhấn nút "Xuất" ở trang quản lý để lưu toàn bộ prompt dưới dạng tệp JSON về máy
+7. **Nhập thư viện prompt**: Nhấn nút "Nhập" ở trang quản lý để nhập prompt từ tệp JSON (hỗ trợ gộp hoặc ghi đè prompt hiện có)
 
 ## 📸 Xem trước giao diện
 
-Quick Prompt cung cấp giao diện trực quan, thân thiện giúp bạn quản lý và sử dụng prompt dễ dàng.
+Quick Prompt cung cấp giao diện trực quan, thân thiện giúp bạn dễ dàng quản lý và sử dụng prompt.
 
-### Bộ chọn Prompt
+### Bộ chọn prompt
 
-![Bộ chọn Prompt](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
+![Bộ chọn prompt](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
 
-![Bộ chọn Prompt](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
+![Bộ chọn prompt](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Dùng lệnh nhanh `/p` hoặc phím tắt để mở nhanh bộ chọn prompt trong bất kỳ ô nhập liệu nào, giúp bạn dễ dàng chọn và chèn prompt cần thiết.
+Sử dụng lệnh nhanh `/p` hoặc phím tắt để bật bộ chọn prompt trong bất kỳ ô nhập nào, giúp bạn dễ dàng chọn và chèn prompt mong muốn.
 
-### Trang quản lý Prompt
+### Trang quản lý prompt
 
-![Quản lý Prompt](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
+![Quản lý prompt](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Trên trang quản lý, bạn có thể tạo prompt mới, chỉnh sửa prompt hiện có, thêm nhãn và quản lý phân loại. Giao diện tối giản, thao tác thuận tiện.
+Trong trang quản lý, bạn có thể tạo mới, chỉnh sửa prompt, thêm nhãn và phân loại prompt. Giao diện đơn giản, dễ thao tác.
 
-### Lưu từ menu chuột phải
+### Lưu prompt qua menu chuột phải
 
-![Lưu từ menu chuột phải](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Lưu bằng menu chuột phải](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Chỉ cần chọn bất kỳ đoạn văn bản nào trên trang web, nhấp chuột phải là có thể nhanh chóng lưu thành câu nhắc, giúp nâng cao hiệu quả làm việc.
+Chỉ cần chọn bất kỳ đoạn văn bản nào trên trang web, nhấp chuột phải để nhanh chóng lưu lại dưới dạng prompt, nâng cao hiệu suất làm việc.
 
-### Nhập biến câu nhắc
+### Nhập biến cho prompt
 
-![Cửa sổ nhập biến câu nhắc](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![Cửa sổ nhập biến prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Câu nhắc hỗ trợ cấu hình biến, sau khi chọn sẽ hiện cửa sổ nhập giá trị biến tương ứng.
+Prompt hỗ trợ cấu hình biến, sau khi chọn sẽ hiện cửa sổ để nhập giá trị biến tương ứng.
 
-## ⚙️ Cấu hình tùy chỉnh
+## ⚙️ Cấu hình tuỳ chỉnh
 
-1. Nhấp vào biểu tượng tiện ích, sau đó nhấp vào nút "Quản lý câu nhắc"
-2. Tại trang quản lý, bạn có thể:
-   - Thêm câu nhắc mới
-   - Chỉnh sửa câu nhắc hiện có
-   - Xóa câu nhắc không cần thiết
-   - Thêm nhãn cho câu nhắc để phân loại
-   - Xuất thư viện câu nhắc để sao lưu
-   - Nhập thư viện câu nhắc đã sao lưu trước đó
+1. Nhấp vào biểu tượng tiện ích, sau đó nhấn nút "Quản lý prompt"
+2. Trong trang quản lý, bạn có thể:
+   - Thêm prompt mới
+   - Chỉnh sửa prompt hiện tại
+   - Xoá prompt không cần thiết
+   - Gắn nhãn để phân loại prompt
+   - Xuất thư viện prompt để sao lưu
+   - Nhập lại thư viện prompt đã sao lưu trước đó
 
 ## 📦 Hướng dẫn cài đặt
 
 ### Cài đặt từ cửa hàng ứng dụng
 
-Đã có mặt trên Chrome Web Store! [Nhấn vào đây để tải và cài đặt](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome 应用商店">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-%E9%99%84%E5%8A%A0%E7%BB%84%E4%BB%B6%E5%95%86%E5%BA%97-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox 附加组件商店">
+  </a>
+</p>
 
 ### Tải từ GitHub Releases
 
-1. Truy cập [Trang GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)
-2. Tải về gói tiện ích phiên bản mới nhất đã được xây dựng sẵn
-3. Giải nén file đã tải về
-4. Làm theo hướng dẫn bên dưới để cài đặt tiện ích đã xây dựng
+1. Truy cập [trang GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)
+2. Tải về gói tiện ích bản dựng mới nhất
+3. Giải nén file vừa tải
+4. Làm theo hướng dẫn bên dưới để cài đặt tiện ích đã được xây dựng
 
 ### Xây dựng từ mã nguồn
 
-1. Clone kho lưu trữ
+1. Sao chép kho lưu trữ
    ```bash
    git clone https://github.com/wenyuanw/quick-prompt.git
    cd quick-prompt
@@ -186,6 +191,6 @@ Cảm ơn tất cả các nhà phát triển đã đóng góp cho dự án!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

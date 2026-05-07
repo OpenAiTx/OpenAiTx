@@ -51,47 +51,50 @@
 
 <br>
 
-### 📱 **Mobilne**
+<!-- Platform Badges -->
 
-🔹 **Android**
-👉 [**Pobierz teraz**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [Niepodpisana] 👉 [**Pobierz teraz**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Instrukcja instalacji**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Tekst CTA -->
+<h3>
+ Pobierz 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">TUTAJ</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Desktop**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Pobierz teraz**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Pobierz teraz**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Pobierz teraz**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
 ## ✨ Funkcje
 
 <div align="center">
 
-🎧 **Strumieniowanie wysokiej jakości**   ·   📥 **Pobieranie offline**   ·   ❤️ **Polubienia i własne playlisty**  
-🔄 **Odtwarzanie w tle**   ·   🚫 **Brak wymaganego logowania**   ·   🆓 **100% za darmo i bez reklam**
+🎧 **Streaming wysokiej jakości**   ·   📥 **Pobieranie offline**   ·   ❤️ **Polubienia & Własne playlisty**  
+🔄 **Odtwarzanie w tle**   ·   🚫 **Brak wymogu logowania**   ·   🆓 **100% Darmowe i bez reklam**
 
 </div>
 
@@ -99,34 +102,34 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Więcej języków wkrótce — zachęcamy do współtworzenia!*
+*Więcej języków już wkrótce — zapraszamy do współpracy!*
+
 
 ---
 
-### 🎨 Wygląd i odczucia
-- **Odświeżony interfejs** – czysty, nowoczesny wygląd z płynnymi przejściami
-- **Mini odtwarzacz** – kapsułowy mini odtwarzacz na kompatybilnych urządzeniach (OnePlus itp.)
-- **Motywy** – tryb ciemny, jasny i automatyczny
+### 🎨 Wygląd i styl
+- **Odświeżony interfejs** – czysty, nowoczesny design z płynnymi przejściami
+- **Mini odtwarzacz** – kapsułowy mini odtwarzacz na kompatybilnych urządzeniach (OnePlus, itd.)
+- **Motywy** – Tryb ciemny, jasny oraz automatyczny
 
 ### 🎼 Doświadczenie muzyczne
 - **Wyszukiwanie** – znajdź utwory, publiczne playlisty, albumy i wykonawców
-- **Słuchanie offline** – pobieraj utwory i odtwarzaj je bez internetu
+- **Słuchanie offline** – pobieraj utwory i słuchaj bez internetu
+- **Własne playlisty** – twórz, zarządzaj i organizuj swoje kolekcje
+- **Popularne utwory** – trendy regionalne zasilane przez IPinfo
+- **Albumy i playlisty wykonawców** – pełna dyskografia teraz dostępna
 
-- **Własne playlisty** – twórz, zarządzaj i organizuj własne kolekcje
-- **Popularne utwory** – utwory na topie w regionie dzięki IPinfo
-- **Albumy i playlisty artystów** – pełne przeglądanie dyskografii już dostępne
-
-### ⚡ Wydajność i stabilność
-- **Ulepszone API YouTube** – bardziej niezawodne streamowanie
+### ⚡ Wydajność i Stabilność
+- **Ulepszony YouTube API** – bardziej niezawodne strumieniowanie
 - **Usprawnienia odtwarzania** – płynniejsze działanie, naprawione błędy długości i odtwarzania w tle
-- **Sterowanie słuchawkami i ekranem blokady** – płynna obsługa powiadomień
-- **Paginacja utworów artysty** – wszystkie utwory ładują się w całości
+- **Sterowanie zestawem słuchawkowym i ekranem blokady** – płynna kontrola przez powiadomienia
+- **Stronicowane utwory wykonawców** – wszystkie utwory ładują się w całości
 
 ---
 
 ## 📖 Przegląd
 
-Ten monorepo zawiera **dwie w pełni niezależne aplikacje do streamingu muzyki** zbudowane w oparciu o najnowocześniejsze technologie:
+To monorepo dostarcza **dwie całkowicie niezależne aplikacje do streamingu muzyki** zbudowane przy użyciu najnowocześniejszych technologii:
 
 | Aplikacja | Platformy | Framework | Lokalizacja |
 |-----------|-----------|-----------|-------------|
@@ -139,7 +142,7 @@ Obie aplikacje korzystają z tego samego, wydajnego silnika streamingu, zapewnia
 
 ## 🧰 Stos technologiczny
 
-### 📱 Mobile
+### 📱 Mobilna
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
 
 ### 🖥️ Desktop
@@ -171,7 +174,7 @@ Obie aplikacje korzystają z tego samego, wydajnego silnika streamingu, zapewnia
 
 ## 📄 Licencja
 
-Ten projekt jest licencjonowany na warunkach **Licencji MIT** – szczegóły w pliku [LICENSE](./LICENSE).
+Ten projekt jest objęty licencją **MIT License** – zobacz plik [LICENSE](./LICENSE) po szczegóły.
 
 ---
 
@@ -184,6 +187,6 @@ Ten projekt jest licencjonowany na warunkach **Licencji MIT** – szczegóły w 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

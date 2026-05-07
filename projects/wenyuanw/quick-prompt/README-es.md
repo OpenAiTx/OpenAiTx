@@ -34,90 +34,95 @@
   <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Una potente extensión de navegador centrada en la gestión de prompts y la entrada rápida. Ayuda a los usuarios a crear, gestionar y organizar su biblioteca de prompts, además de insertar rápidamente contenido predefinido en cualquier campo de texto web, mejorando la eficiencia del trabajo.
+Una poderosa extensión de navegador, enfocada en la gestión y entrada rápida de prompts. Ayuda a los usuarios a crear, gestionar y organizar una biblioteca de prompts, e insertar rápidamente el contenido de prompts predefinidos en cualquier campo de entrada de una página web, mejorando la eficiencia laboral.
 
-> Debido a que la extensión del navegador solo puede utilizarse en la web, se ha publicado un [complemento de Raycast](https://github.com/wenyuanw/quick-prompt-raycast) con las mismas funciones, compatible con el formato de datos de la extensión y que permite la migración sin problemas usando los mismos datos JSON.
+## ✨ Funcionalidades
 
-## ✨ Características
-
-- 📚 **Gestión de prompts**: Crea, edita y administra fácilmente tu biblioteca de prompts
-- 🚀 **Entrada rápida**: Activa rápidamente el selector de prompts en cualquier cuadro de texto web con `/p`
-- ⌨️ Soporta la configuración de atajos de teclado para abrir el selector de prompts y guardar texto seleccionado como prompt
-- 📑 Soporta guardar directamente texto seleccionado como prompt desde el menú contextual
-- 🎯 Soporta prompts personalizados, incluyendo categorías, títulos, contenido, etiquetas y variables
-- 🧑‍💻 **Soporte de variables**: Puedes usar variables en el formato `{{nombre_variable}}` en los prompts y rellenar valores al usarlos
-- 💾 **Respaldo de datos**: Soporta exportación e importación de la biblioteca de prompts para facilitar migración y respaldo entre dispositivos
-- 🔗 **Sincronización en la nube**: Soporta sincronizar la biblioteca de prompts con bases de datos de Notion o Gitee/GitHub Gist
-- 🔍 Soporta función de búsqueda y filtrado de prompts
+- 📚 **Gestión de frases de aviso**: crea, edita y gestiona fácilmente tu biblioteca de frases de aviso
+- 🚀 **Entrada rápida**: usa `/p` en cualquier campo de texto de una web para activar el selector de frases de aviso
+- ⌨️ Soporta configuración de atajos para abrir el selector de frases de aviso y guardar el texto seleccionado como frase de aviso
+- 📑 Soporta guardar directamente el texto seleccionado como frase de aviso desde el menú contextual
+- 🎯 Soporta frases de aviso personalizadas, incluyendo categorías, título, contenido, archivos adjuntos, etiquetas y variables
+- 🧑‍💻 **Soporte de variables**: puedes usar variables en formato `{{nombreVariable}}` en las frases de aviso y rellenar valores específicos al usarlas
+- 💾 **Respaldo de datos**: soporta exportar e importar la biblioteca de frases de aviso, facilitando la migración y el respaldo entre dispositivos
+- 🔗 **Sincronización en la nube**: la biblioteca de frases de aviso soporta sincronización WebDAV, base de datos Notion, Gitee/GitHub Gist
+- 🔍 Soporta búsqueda y filtrado de frases de aviso
 - 🌙 Se adapta automáticamente al tema claro/oscuro del sistema
 
-## 🚀 Cómo usar
+## 🚀 Método de uso
 
-1. **Activación rápida**: Escribe `/p` en cualquier cuadro de texto de una página web para activar el selector de prompts
-2. **Atajo para abrir el selector**: Usa `Ctrl+Shift+P` (Windows/Linux) o `Command+Shift+P` (macOS) para abrir el selector de prompts
-3. **Seleccionar prompt**: Haz clic en el prompt deseado en el selector emergente y se insertará automáticamente en el cuadro de texto actual
-4. **Guardar prompt rápidamente**: Selecciona cualquier texto y usa `Ctrl+Shift+S` (Windows/Linux) o `Command+Shift+S` (macOS) para guardarlo rápidamente como prompt
-5. **Guardar desde menú contextual**: Selecciona cualquier texto, haz clic derecho y elige "Guardar este prompt" para guardar el contenido seleccionado como prompt
-6. **Exportar biblioteca de prompts**: Haz clic en el botón "Exportar" en la página de gestión para guardar todos los prompts en un archivo JSON localmente
-7. **Importar biblioteca de prompts**: Haz clic en el botón "Importar" en la página de gestión para importar prompts desde un archivo JSON local (soporta fusionar o sobrescribir los prompts existentes)
+1. **Activación rápida**: escribe `/p` en cualquier campo de texto de una web para activar el selector de frases de aviso
+2. **Atajo para abrir el selector**: usa `Ctrl+Shift+P` (Windows/Linux) o `Command+Shift+P` (macOS) para abrir el selector de frases de aviso
+3. **Selecciona una frase de aviso**: haz clic en la frase de aviso deseada desde el selector emergente y se insertará automáticamente en el campo de entrada actual
+4. **Guardar frase de aviso rápidamente**: selecciona cualquier texto y usa `Ctrl+Shift+S` (Windows/Linux) o `Command+Shift+S` (macOS) para guardarlo como frase de aviso
+5. **Guardar desde el menú contextual**: selecciona cualquier texto, haz clic derecho y elige "Guardar esta frase de aviso" para guardar el contenido seleccionado
+6. **Exportar biblioteca de frases de aviso**: haz clic en el botón "Exportar" en la página de gestión para guardar todas las frases de aviso como archivo JSON local
+7. **Importar biblioteca de frases de aviso**: haz clic en el botón "Importar" en la página de gestión para importar frases de aviso desde un archivo JSON local (soporta fusión o reemplazo de frases existentes)
 
 ## 📸 Vista previa de la interfaz
 
-Quick Prompt ofrece una interfaz de usuario intuitiva y amigable para que gestiones y uses tus prompts fácilmente.
+Quick Prompt ofrece una interfaz de usuario intuitiva y amigable para que gestiones y uses frases de aviso fácilmente.
 
-### Selector de prompts
+### Selector de frases de aviso
 
-![Selector de prompts](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
+![Selector de frases de aviso](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
 
-![Selector de prompts](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
+![Selector de frases de aviso](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Utiliza el comando rápido `/p` o el atajo de teclado para invocar rápidamente el selector de prompts en cualquier cuadro de texto y así seleccionar e insertar fácilmente el prompt que necesites.
+Usa el comando rápido `/p` o el atajo de teclado para activar rápidamente el selector de frases de aviso en cualquier campo de entrada, permitiéndote elegir e insertar fácilmente la frase de aviso que necesites.
 
-### Página de gestión de prompts
+### Página de gestión de frases de aviso
 
-![Gestión de prompts](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
+![Gestión de frases de aviso](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-En la página de gestión puedes crear nuevos prompts, editar los existentes, añadir etiquetas y gestionar categorías. La interfaz es clara y las operaciones son sencillas.
+En la página de gestión puedes crear nuevas frases de aviso, editar las existentes, añadir etiquetas y gestionar categorías. La interfaz es sencilla y fácil de usar.
 
 ### Guardar desde el menú contextual
 
 ![Guardar desde el menú contextual](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Solo selecciona cualquier texto en la página web y haz clic derecho para guardarlo rápidamente como un prompt, mejorando la eficiencia laboral.
+Solo selecciona cualquier texto en la página web, haz clic derecho y guárdalo rápidamente como un prompt para mejorar la eficiencia en el trabajo.
 
-### Entrada de variables en el prompt
+### Entrada de variables del prompt
 
-![Ventana emergente de variables en el prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![Ventana emergente de variables del prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Los prompts admiten la configuración de variables, y al seleccionarlos se muestra una ventana emergente para ingresar los valores correspondientes.
+Los prompts permiten configurar variables; tras seleccionarlo, aparecerá una ventana emergente para ingresar los valores correspondientes.
 
 ## ⚙️ Configuración personalizada
 
-1. Haz clic en el ícono de la extensión y luego en el botón "Gestionar prompts"
+1. Haz clic en el icono de la extensión y luego en el botón "Gestionar prompts"
 2. En la página de gestión, puedes:
-   - Añadir nuevos prompts
+   - Agregar nuevos prompts
    - Editar prompts existentes
    - Eliminar prompts innecesarios
-   - Agregar etiquetas a los prompts para clasificarlos
-   - Exportar la biblioteca de prompts para hacer copias de seguridad
+   - Añadir etiquetas a los prompts para clasificarlos
+   - Exportar la biblioteca de prompts para respaldo
    - Importar una biblioteca de prompts previamente respaldada
 
 ## 📦 Guía de instalación
 
 ### Instalar desde la tienda de aplicaciones
 
-¡Ya disponible en la Chrome Web Store! [Haz clic aquí para descargar e instalar](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-Tienda%20de%20aplicaciones-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tienda de aplicaciones de Chrome">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-Tienda%20de%20complementos-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Tienda de complementos de Firefox">
+  </a>
+</p>
 
 ### Obtener desde GitHub Releases
 
 1. Visita la [página de GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)
-2. Descarga el paquete de la extensión ya compilado más reciente
+2. Descarga el paquete del plugin ya compilado en su última versión
 3. Descomprime el archivo descargado
-4. Instala la extensión compilada siguiendo las instrucciones a continuación
+4. Instale la extensión construida siguiendo las instrucciones a continuación
 
-### Compilar desde el código fuente
+### Compilación desde el código fuente
 
-1. Clona el repositorio
+1. Clone el repositorio
    ```bash
    git clone https://github.com/wenyuanw/quick-prompt.git
    cd quick-prompt
@@ -186,6 +191,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

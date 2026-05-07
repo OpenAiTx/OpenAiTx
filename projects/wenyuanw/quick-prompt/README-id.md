@@ -31,34 +31,32 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Logo Quick Prompt" width="128" style="background: transparent;">
 </p>
 
-Ekstensi browser yang kuat, berfokus pada manajemen prompt dan input cepat. Membantu pengguna membuat, mengelola, dan mengorganisir pustaka prompt, serta dengan cepat memasukkan konten Prompt yang telah diatur sebelumnya ke dalam kotak input di halaman web mana pun, sehingga meningkatkan efisiensi kerja.
-
-> Karena ekstensi browser hanya dapat digunakan di web, sebuah [plugin Raycast](https://github.com/wenyuanw/quick-prompt-raycast) dengan fungsi yang sama telah di-open source, kompatibel dengan format data ekstensi browser, dan mendukung migrasi tanpa hambatan menggunakan data JSON yang sama.
+Ekstensi browser yang kuat, berfokus pada manajemen prompt dan input cepat. Membantu pengguna membuat, mengelola, dan mengorganisasi pustaka prompt, serta dengan cepat memasukkan konten Prompt yang telah disetel di kotak input pada halaman web mana pun, meningkatkan efisiensi kerja.
 
 ## ✨ Fitur Utama
 
-- 📚 **Manajemen Prompt**: Mudah membuat, mengedit, dan mengelola pustaka prompt Anda
-- 🚀 **Input Cepat**: Ketik `/p` di kolom input teks mana pun pada situs web untuk memunculkan pemilih prompt dengan cepat
-- ⌨️ Mendukung pengaturan pintasan keyboard untuk membuka pemilih prompt & menyimpan teks yang dipilih sebagai prompt
-- 📑 Mendukung penyimpanan langsung teks yang dipilih sebagai prompt melalui menu klik kanan
-- 🎯 Mendukung prompt kustom, termasuk kategori, judul, konten, tag, dan variabel
-- 🧑‍💻 **Dukungan Variabel**: Prompt dapat menggunakan format variabel `{{NamaVariabel}}`, nilai dapat diisi saat digunakan
-- 💾 **Cadangan Data**: Mendukung ekspor dan impor pustaka prompt, memudahkan migrasi dan pencadangan antar perangkat
-- 🔗 **Sinkronisasi Cloud**: Mendukung sinkronisasi pustaka prompt ke database Notion atau Gitee/GitHub Gist
-- 🔍 Mendukung fitur pencarian dan filter prompt
-- 🌙 Otomatis menyesuaikan dengan tema terang dan gelap sistem
+- 📚 **Manajemen Prompt**: Membuat, mengedit, dan mengelola pustaka prompt Anda dengan mudah
+- 🚀 **Input Cepat**: Di kolom input teks manapun di web, ketik `/p` untuk memicu pemilih prompt dengan cepat
+- ⌨️ Mendukung konfigurasi shortcut keyboard untuk membuka pemilih prompt & menyimpan teks yang dipilih sebagai prompt
+- 📑 Mendukung menu klik kanan untuk langsung menyimpan teks yang dipilih sebagai prompt
+- 🎯 Mendukung prompt yang dapat dikustomisasi, termasuk kategori, judul, konten, lampiran, label, dan variabel
+- 🧑‍💻 **Dukungan Variabel**: Di dalam prompt dapat menggunakan variabel dengan format `{{nama_variabel}}`, yang bisa diisi nilainya saat digunakan
+- 💾 **Backup Data**: Mendukung ekspor dan impor pustaka prompt, memudahkan migrasi dan backup antar perangkat
+- 🔗 **Sinkronisasi Cloud**: Pustaka prompt mendukung sinkronisasi WebDAV, database Notion, Gitee/GitHub Gist
+- 🔍 Mendukung fungsi pencarian dan filter prompt
+- 🌙 Secara otomatis menyesuaikan dengan tema terang/gelap sistem
 
 ## 🚀 Cara Penggunaan
 
-1. **Pemicu Cepat**: Ketik `/p` di kolom input teks situs web mana pun untuk memunculkan pemilih prompt
-2. **Buka Pemilih dengan Pintasan**: Gunakan `Ctrl+Shift+P` (Windows/Linux) atau `Command+Shift+P` (macOS) untuk membuka pemilih prompt
-3. **Pilih Prompt**: Klik prompt yang diinginkan pada pemilih, prompt akan otomatis dimasukkan ke kolom input aktif
-4. **Simpan Prompt Cepat**: Setelah memilih teks, gunakan `Ctrl+Shift+S` (Windows/Linux) atau `Command+Shift+S` (macOS) untuk menyimpan sebagai prompt dengan cepat
-5. **Simpan Melalui Menu Klik Kanan**: Setelah memilih teks, klik kanan dan pilih "Simpan Prompt Ini" untuk menyimpan konten yang dipilih sebagai prompt
-6. **Ekspor Pustaka Prompt**: Pada halaman manajemen, klik tombol "Ekspor" untuk mengekspor semua prompt ke file JSON dan simpan ke lokal
+1. **Pemicu Cepat**: Pada kolom input teks di halaman web manapun, ketik `/p` untuk memunculkan pemilih prompt
+2. **Shortcut untuk Membuka Pemilih**: Tekan `Ctrl+Shift+P` (Windows/Linux) atau `Command+Shift+P` (macOS) untuk membuka pemilih prompt
+3. **Pilih Prompt**: Klik prompt yang diinginkan pada pemilih yang muncul, maka otomatis akan dimasukkan ke kolom input saat ini
+4. **Simpan Prompt Cepat**: Pilih teks apapun, lalu tekan `Ctrl+Shift+S` (Windows/Linux) atau `Command+Shift+S` (macOS) untuk menyimpannya sebagai prompt
+5. **Simpan Lewat Menu Klik Kanan**: Pilih teks apapun, klik kanan dan pilih "Simpan Prompt Ini" untuk menyimpan teks terpilih sebagai prompt
+6. **Ekspor Pustaka Prompt**: Pada halaman manajemen, klik tombol "Ekspor" untuk menyimpan seluruh prompt sebagai file JSON ke lokal
 7. **Impor Pustaka Prompt**: Pada halaman manajemen, klik tombol "Impor" untuk mengimpor prompt dari file JSON lokal (mendukung penggabungan atau menimpa prompt yang ada)
 
 ## 📸 Pratinjau Antarmuka
@@ -71,53 +69,60 @@ Quick Prompt menyediakan antarmuka pengguna yang intuitif dan ramah, memudahkan 
 
 ![Pemilih Prompt](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Gunakan perintah cepat `/p` atau pintasan keyboard untuk memunculkan pemilih prompt di kolom input mana pun, sehingga Anda dapat dengan mudah memilih dan memasukkan prompt yang dibutuhkan.
+Gunakan perintah cepat `/p` atau shortcut keyboard di kolom input manapun untuk memunculkan pemilih prompt, sehingga Anda dapat memilih dan memasukkan prompt yang diinginkan dengan mudah.
 
 ### Halaman Manajemen Prompt
 
 ![Manajemen Prompt](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Di halaman manajemen, Anda dapat membuat prompt baru, mengedit prompt yang ada, menambahkan tag, serta mengelola kategori. Antarmuka sederhana dan mudah digunakan.
+Di halaman manajemen, Anda dapat membuat prompt baru, mengedit prompt yang sudah ada, menambah label, serta mengelola kategori. Antarmuka sederhana dan mudah dioperasikan.
 
-### Simpan dari Menu Klik Kanan
+### Simpan Lewat Menu Klik Kanan
 
-![Simpan dari Menu Klik Kanan](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Menu Klik Kanan Simpan](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Cukup pilih teks apa pun di halaman web, klik kanan dan langsung simpan sebagai prompt untuk meningkatkan efisiensi kerja.
+Cukup pilih teks apa pun di halaman web, lalu klik kanan untuk langsung menyimpannya sebagai prompt, sehingga meningkatkan efisiensi kerja.
 
 ### Input Variabel Prompt
 
 ![Popup Variabel Prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Prompt mendukung konfigurasi variabel, setelah dipilih akan muncul popup untuk memasukkan nilai variabel yang sesuai.
+Prompt mendukung konfigurasi variabel, setelah dipilih akan muncul pop-up untuk memasukkan nilai variabel yang sesuai.
 
 ## ⚙️ Konfigurasi Kustom
 
 1. Klik ikon ekstensi, lalu klik tombol "Kelola Prompt"
-2. Di halaman manajemen, Anda dapat:
+2. Di halaman pengelolaan, Anda dapat:
    - Menambahkan prompt baru
    - Mengedit prompt yang sudah ada
    - Menghapus prompt yang tidak diperlukan
    - Menambahkan label pada prompt untuk pengelompokan
-   - Mengekspor database prompt untuk cadangan
-   - Mengimpor database prompt yang telah dicadangkan sebelumnya
+   - Mengekspor pustaka prompt untuk pencadangan
+   - Mengimpor pustaka prompt yang telah dicadangkan sebelumnya
 
 ## 📦 Panduan Instalasi
 
 ### Instal dari Toko Aplikasi
 
-Sekarang sudah tersedia di Chrome Web Store! [Klik di sini untuk mengunduh dan memasang](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-Toko%20Aplikasi-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Toko Aplikasi Chrome">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-Toko%20Addon-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Toko Addon Firefox">
+  </a>
+</p>
 
 ### Dapatkan dari GitHub Releases
 
 1. Kunjungi [halaman GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)
-2. Unduh paket ekstensi versi terbaru yang telah dibangun
+2. Unduh paket ekstensi versi terbaru yang sudah dibangun
 3. Ekstrak file yang telah diunduh
-4. Instal ekstensi yang sudah dibangun sesuai petunjuk di bawah
+4. Instal ekstensi yang telah dibangun sesuai petunjuk di bawah ini
 
-### Build dari Sumber Kode
+### Membangun dari kode sumber
 
-1. Kloning repositori
+1. Klon repositori
    ```bash
    git clone https://github.com/wenyuanw/quick-prompt.git
    cd quick-prompt
@@ -186,6 +191,6 @@ Terima kasih kepada semua pengembang yang telah berkontribusi pada proyek ini!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

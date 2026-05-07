@@ -1,4 +1,4 @@
-# Hızlı Komut
+# Quick Prompt
 
 <div align="right">
   <details>
@@ -31,91 +31,96 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Hızlı Komut Logosu" width="128" style="background: transparent;">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Güçlü bir tarayıcı uzantısı, prompt yönetimi ve hızlı girişe odaklanır. Kullanıcıların prompt kütüphanesi oluşturmasına, yönetmesine ve düzenlemesine yardımcı olur ve herhangi bir web sayfasındaki giriş kutusuna önceden ayarlanmış Prompt içeriğini hızlıca ekleyerek iş verimliliğini artırır.
-
-> Tarayıcı eklentisi yalnızca web üzerinde kullanılabildiği için, aynı işlevlere sahip [Raycast eklentisi](https://github.com/wenyuanw/quick-prompt-raycast) açık kaynak olarak sunulmuştur; tarayıcı eklentisi veri formatı ile uyumludur ve aynı JSON verisiyle sorunsuz geçişi destekler.
+Güçlü bir tarayıcı uzantısı; prompt yönetimi ve hızlı girdi üzerine odaklanır. Kullanıcıların prompt kütüphanesi oluşturmasını, yönetmesini ve düzenlemesini sağlar; ayrıca her türlü web sayfasındaki giriş kutularına önceden ayarlanmış Prompt içeriklerini hızlıca ekleyerek iş verimliliğini artırır.
 
 ## ✨ Özellikler
 
-- 📚 **İpucu Yönetimi**: İpucu kütüphanenizi kolayca oluşturun, düzenleyin ve yönetin
-- 🚀 **Hızlı Giriş**: Herhangi bir web sayfasındaki giriş kutusunda `/p` yazarak hızlıca ipucu seçiciye erişin
-- ⌨️ Kısayol tuşlarıyla ipucu seçiciyi açmayı ve seçili metni ipucu olarak kaydetmeyi destekler
-- 📑 Sağ tık menüsüyle seçili metni doğrudan ipucu olarak kaydetmeyi destekler
-- 🎯 Kategori, başlık, içerik, etiket ve değişken içeren özel ipucular oluşturmayı destekler
-- 🧑‍💻 **Değişken Desteği**: İpucunda `{{değişkenAdı}}` biçiminde değişkenler kullanılabilir, kullanırken değer girilebilir
-- 💾 **Veri Yedekleme**: İpucu kütüphanesini dışa ve içe aktarmayı destekler, cihazlar arası taşımayı ve yedeklemeyi kolaylaştırır
-- 🔗 **Bulut Senkronizasyonu**: İpucu kütüphanesini Notion veritabanı ya da Gitee/GitHub Gist ile eşitlemeyi destekler
-- 🔍 İpucu arama ve filtreleme özelliğini destekler
-- 🌙 Sistem karanlık/açık teması ile otomatik uyum sağlar
+- 📚 **Prompt Yönetimi**: Prompt kitaplığınızı kolayca oluşturun, düzenleyin ve yönetin
+- 🚀 **Hızlı Giriş**: Herhangi bir web sayfası giriş kutusunda `/p` ile prompt seçiciye hızlıca erişin
+- ⌨️ Kısayol tuşları ile prompt seçici açma & seçilen metni prompt olarak kaydetme desteği
+- 📑 Sağ tık menüsü ile seçili metni doğrudan prompt olarak kaydetme desteği
+- 🎯 Özelleştirilebilir promptlar; kategori, başlık, içerik, ek dosya, etiket ve değişken tanımlama desteği
+- 🧑‍💻 **Değişken Desteği**: Prompt içinde `{{değişken_adı}}` formatında değişken kullanılabilir, kullanırken değer girilebilir
+- 💾 **Veri Yedekleme**: Prompt kitaplığı dışa ve içe aktarılabilir; cihazlar arası taşıma ve yedekleme kolaylığı
+- 🔗 **Bulut Senkronizasyonu**: Prompt kitaplığı WebDAV senkronizasyonu, Notion veritabanı, Gitee/GitHub Gist senkronizasyonu desteği
+- 🔍 Prompt arama ve filtreleme özelliği desteği
+- 🌙 Sistemin aydınlık/karanlık temasına otomatik uyum
 
 ## 🚀 Kullanım Yöntemi
 
-1. **Hızlı Tetikleme**: Herhangi bir web sayfasındaki metin giriş kutusuna `/p` yazarak ipucu seçiciyi açın
-2. **Kısayol ile Seçici Açma**: `Ctrl+Shift+P` (Windows/Linux) veya `Command+Shift+P` (macOS) ile ipucu seçiciyi açın
-3. **İpucu Seçimi**: Açılan seçicide istediğiniz ipucuya tıklayın, otomatik olarak mevcut giriş kutusuna eklenir
-4. **Hızlı İpucu Kaydetme**: Herhangi bir metni seçin, ardından `Ctrl+Shift+S` (Windows/Linux) veya `Command+Shift+S` (macOS) ile hızlıca ipucu olarak kaydedin
-5. **Sağ Tıkla Kaydet**: Herhangi bir metni seçin, sağ tıklayın ve "Bu ipucunu kaydet"i seçin, seçili metin ipucu olarak kaydedilir
-6. **İpucu Kütüphanesi Dışa Aktarma**: Yönetim sayfasında "Dışa Aktar" düğmesine tıklayarak tüm ipuçlarını JSON dosyası olarak bilgisayarınıza kaydedin
-7. **İpucu Kütüphanesi İçe Aktarma**: Yönetim sayfasında "İçe Aktar" düğmesine tıklayarak yerel JSON dosyanızdan ipucularınızı içe aktarın (mevcut ipuçları ile birleştirme veya üzerine yazma desteği)
+1. **Hızlı Erişim**: Herhangi bir web sayfası metin giriş kutusunda `/p` yazarak prompt seçiciyi açın
+2. **Kısayol ile Açma**: `Ctrl+Shift+P` (Windows/Linux) veya `Command+Shift+P` (macOS) ile prompt seçiciyi açın
+3. **Prompt Seçimi**: Açılan seçiciden istediğiniz prompta tıklayın, otomatik olarak mevcut giriş kutusuna eklenir
+4. **Promptı Hızlı Kaydetme**: Herhangi bir metni seçtikten sonra `Ctrl+Shift+S` (Windows/Linux) veya `Command+Shift+S` (macOS) ile prompt olarak kaydedin
+5. **Sağ Tık Menüsüyle Kaydetme**: Metni seçtikten sonra sağ tıklayıp "Bu promptı kaydet" seçeneğini tıklayın, seçilen içerik prompt olarak kaydedilir
+6. **Prompt Kitaplığını Dışa Aktarma**: Yönetim sayfasında "Dışa Aktar" butonuna tıklayın, tüm promptları JSON dosyası olarak yerel bilgisayara kaydedin
+7. **Prompt Kitaplığını İçe Aktarma**: Yönetim sayfasında "İçe Aktar" butonuna tıklayın, yerel JSON dosyasından promptları içe aktarın (mevcut promptlarla birleştirme veya üzerine yazma desteği)
 
 ## 📸 Arayüz Önizlemesi
 
-Quick Prompt, ipuçlarını kolayca yönetip kullanmanızı sağlayan sezgisel ve kullanıcı dostu bir arayüz sunar.
+Quick Prompt, kolay yönetim ve kullanım için sezgisel ve kullanıcı dostu bir arayüz sunar.
 
-### İpucu Seçici
+### Prompt Seçici
 
-![提示词选择器](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
+![Prompt Seçici](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
 
-![提示词选择器](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
+![Prompt Seçici](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-`/p` kısayol komutu veya kısayol tuşu ile herhangi bir giriş kutusunda hızlıca ipucu seçiciyi açabilir, ihtiyacınız olan ipucunu kolayca seçip ekleyebilirsiniz.
+`/p` hızlı komutu veya kısayol ile herhangi bir giriş kutusunda prompt seçiciyi açabilir ve ihtiyacınız olan promptları kolayca seçip ekleyebilirsiniz.
 
-### İpucu Yönetim Sayfası
+### Prompt Yönetim Sayfası
 
-![提示词管理](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
+![Prompt Yönetimi](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Yönetim sayfasında yeni ipucu oluşturabilir, mevcut ipuçlarını düzenleyebilir, etiket ekleyebilir ve kategori yönetimi yapabilirsiniz. Arayüz sade ve kullanımı kolaydır.
+Yönetim sayfasında yeni promptlar oluşturabilir, mevcutları düzenleyebilir, etiket ekleyebilir ve kategorilere göre yönetebilirsiniz. Arayüz sade ve kullanımı kolaydır.
 
-### Sağ Tıklama Menüsünden Kaydetme
+### Sağ Tık Menüsüyle Kaydetme
 
-![Sağ Tıklama Menüsünden Kaydetme](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Sağ Tık Menüsünden Kaydetme](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Web sayfasındaki herhangi bir metni seçip sağ tıklayarak hızlıca bunu bir ipucu olarak kaydedebilirsiniz, böylece iş verimliliğiniz artar.
+Web sayfasında herhangi bir metni seçin, sağ tıklayın ve onu hızlıca bir istem olarak kaydedin, iş verimliliğinizi artırın.
 
-### İpucu Değişken Girişi
+### İstem Değişkeni Girişi
 
-![İpucu Değişken Giriş Penceresi](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![İstem Değişkeni Açılır Penceresi](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-İpucunda değişken yapılandırmasını destekler, seçtikten sonra uygun değişken değerini girmeniz için bir pencere açılır.
+İstemler değişken yapılandırmasını destekler, seçtikten sonra ilgili değişken değerini açılır pencerede girin.
 
-## ⚙️ Özelleştirilebilir Yapılandırma
+## ⚙️ Özelleştirilmiş Yapılandırma
 
-1. Uzantı simgesine tıklayın, ardından "İpuçlarını Yönet" butonuna tıklayın
+1. Eklenti simgesine tıklayın ve ardından "İstemleri Yönet" düğmesine basın
 2. Yönetim sayfasında şunları yapabilirsiniz:
-   - Yeni ipucu ekleyebilirsiniz
-   - Mevcut ipuçlarını düzenleyebilirsiniz
-   - Gereksiz ipuçlarını silebilirsiniz
-   - İpuçlarını etiketlerle kategorize edebilirsiniz
-   - İpucu kütüphanesini dışa aktarıp yedekleyebilirsiniz
-   - Önceden yedeklenmiş ipucu kütüphanesini içe aktarabilirsiniz
+   - Yeni istemler ekleyin
+   - Mevcut istemleri düzenleyin
+   - Gereksiz istemleri silin
+   - İstemlere etiket ekleyerek sınıflandırın
+   - İstem kitaplığını dışa aktararak yedekleyin
+   - Daha önce yedeklenen istem kitaplığını içe aktarın
 
 ## 📦 Kurulum Rehberi
 
 ### Uygulama Mağazasından Kurulum
 
-Artık Chrome Web Mağazasında mevcut! [Kurmak için buraya tıklayın](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-Uygulama%20Mağazası-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Uygulama Mağazası">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-Eklenti%20Mağazası-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox Eklenti Mağazası">
+  </a>
+</p>
 
-### GitHub Releases Üzerinden Edinin
+### GitHub Releases'tan Edinme
 
-1. [GitHub Releases Sayfası](https://github.com/wenyuanw/quick-prompt/releases) adresini ziyaret edin
-2. En son sürümdeki derlenmiş eklenti paketini indirin
+1. [GitHub Releases sayfasını](https://github.com/wenyuanw/quick-prompt/releases) ziyaret edin
+2. En son sürümün derlenmiş eklenti paketini indirin
 3. İndirilen dosyayı çıkarın
-4. Aşağıdaki talimatları izleyerek derlenmiş uzantıyı kurun
+4. Aşağıdaki talimatlara göre derlenmiş uzantıyı yükleyin
 
-### Kaynaktan Derleme
+### Kaynak koddan derleme
 
 1. Depoyu klonlayın
    ```bash
@@ -186,6 +191,6 @@ Projeye katkıda bulunan tüm geliştiricilere teşekkürler!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

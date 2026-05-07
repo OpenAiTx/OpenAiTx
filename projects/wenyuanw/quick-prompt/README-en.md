@@ -34,36 +34,34 @@
   <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-A powerful browser extension focused on prompt management and quick input. It helps users create, manage, and organize a prompt library, and quickly insert preset prompt content into any webpage input box, improving work efficiency.
-
-> Since browser extensions can only be used on the web, an open-source [Raycast plugin](https://github.com/wenyuanw/quick-prompt-raycast) with the same functionality is also available, compatible with the browser extension data format and supporting seamless migration via the same JSON data.
+A powerful browser extension focused on prompt management and fast input. Helps users create, manage, and organize their prompt library, and quickly insert preset Prompt content in any web page input box to improve work efficiency.
 
 ## ✨ Features
 
 - 📚 **Prompt Management**: Easily create, edit, and manage your prompt library
-- 🚀 **Quick Input**: Instantly trigger the prompt selector in any web page input box with `/p`
+- 🚀 **Quick Input**: Instantly trigger the prompt selector in any web input field with `/p`
 - ⌨️ Supports configuring hotkeys to open the prompt selector & save selected text as a prompt
-- 📑 Supports right-click menu to directly save selected text as a prompt
-- 🎯 Supports custom prompts, including categories, titles, content, tags, and variables
-- 🧑‍💻 **Variable Support**: Use variables in the format `{{variableName}}` in prompts, and fill in specific values when using
-- 💾 **Data Backup**: Supports exporting and importing the prompt library for easy migration and backup across devices
-- 🔗 **Cloud Sync**: Supports syncing prompt library with Notion database or Gitee/GitHub Gist
-- 🔍 Supports prompt search and filter functions
-- 🌙 Automatically adapts to system light/dark theme
+- 📑 Supports saving selected text as a prompt directly via the right-click menu
+- 🎯 Supports custom prompts, including categories, titles, content, attachments, tags, and variables
+- 🧑‍💻 **Variable Support**: Prompts can use variables in the `{{variable_name}}` format, which can be filled in with specific values as needed
+- 💾 **Data Backup**: Supports export and import of the prompt library for easy device migration and backup
+- 🔗 **Cloud Sync**: Prompt library supports WebDAV sync, Notion database, and Gitee/GitHub Gist synchronization
+- 🔍 Supports searching and filtering of prompts
+- 🌙 Automatically adapts to the system's light or dark theme
 
 ## 🚀 How to Use
 
-1. **Quick Trigger**: Enter `/p` in any text input box on a webpage to trigger the prompt selector
-2. **Hotkey to Open Selector**: Use `Ctrl+Shift+P` (Windows/Linux) or `Command+Shift+P` (macOS) to open the prompt selector
-3. **Select Prompt**: Click the desired prompt from the pop-up selector and it will automatically insert into the current input box
-4. **Quickly Save Prompt**: After selecting any text, use `Ctrl+Shift+S` (Windows/Linux) or `Command+Shift+S` (macOS) to quickly save as a prompt
-5. **Right-click Menu Save**: After selecting any text, right-click and choose "Save this prompt" to save the selected content as a prompt
-6. **Export Prompt Library**: Click the "Export" button in the management page to export all prompts as a JSON file to your local device
-7. **Import Prompt Library**: Click the "Import" button in the management page to import prompts from a local JSON file (supports merging or overwriting existing prompts)
+1. **Quick Trigger**: Type `/p` in any text input field on any webpage to trigger the prompt selector
+2. **Open Selector with Hotkey**: Use `Ctrl+Shift+P` (Windows/Linux) or `Command+Shift+P` (macOS) to open the prompt selector
+3. **Select a Prompt**: Click your desired prompt from the pop-up selector to automatically insert it into the current input field
+4. **Quickly Save Prompt**: After selecting any text, use `Ctrl+Shift+S` (Windows/Linux) or `Command+Shift+S` (macOS) to quickly save it as a prompt
+5. **Save via Right-Click Menu**: After selecting any text, right-click and choose "Save this Prompt" to save the selected content as a prompt
+6. **Export Prompt Library**: Click the "Export" button on the management page to export all prompts as a JSON file to your local device
+7. **Import Prompt Library**: Click the "Import" button on the management page to import prompts from a local JSON file (supports merging or overwriting existing prompts)
 
 ## 📸 Interface Preview
 
-Quick Prompt provides an intuitive and user-friendly interface for easy prompt management and usage.
+Quick Prompt offers an intuitive and user-friendly interface, making prompt management and usage easy.
 
 ### Prompt Selector
 
@@ -71,51 +69,58 @@ Quick Prompt provides an intuitive and user-friendly interface for easy prompt m
 
 ![Prompt Selector](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Use the `/p` quick command or hotkey in any input box to quickly bring up the prompt selector, allowing you to easily pick and insert the prompts you need.
+Use the `/p` command or hotkey to quickly bring up the prompt selector in any input field, allowing you to easily pick and insert the prompt you need.
 
 ### Prompt Management Page
 
 ![Prompt Management](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-On the management page, you can create new prompts, edit existing prompts, add tags, and manage categories. The interface is clean and straightforward, making operations easy.
+On the management page, you can create new prompts, edit existing prompts, add tags, and manage categories. The interface is clear and straightforward, making operations convenient.
 
-### Right-Click Menu Save
+### Save via Right-Click Menu
 
-![Right-Click Menu Save](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Right-click menu save](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Simply select any text on the webpage, right-click, and you can quickly save it as a prompt, improving your work efficiency.
+Simply select any text on the webpage and right-click to quickly save it as a prompt, boosting your work efficiency.
 
-### Prompt Variable Input
+### Prompt variable input
 
-![Prompt Variable Popup](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![Prompt variable popup](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Prompts support variable configuration; after selection, a popup will appear for you to input the corresponding variable values.
+Prompts support variable configuration, and after selection, a popup will appear for inputting the corresponding variable values.
 
-## ⚙️ Custom Configuration
+## ⚙️ Custom configuration
 
 1. Click the extension icon, then click the "Manage Prompts" button
 2. On the management page, you can:
    - Add new prompts
    - Edit existing prompts
    - Delete unnecessary prompts
-   - Add tags to categorize prompts
+   - Add tags to prompts for classification
    - Export the prompt library for backup
-   - Import a previously backed-up prompt library
+   - Import previously backed up prompt libraries
 
 ## 📦 Installation Guide
 
-### Install from Extension Store
+### Install from App Stores
 
-Now available on the Chrome Web Store! [Click here to download and install](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+<p>
+  <a href="https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd">
+    <img src="https://img.shields.io/badge/Chrome-App%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome App Store">
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/quick-prompt/">
+    <img src="https://img.shields.io/badge/Firefox-Add-ons%20Store-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox Add-ons Store">
+  </a>
+</p>
 
 ### Get from GitHub Releases
 
 1. Visit the [GitHub Releases page](https://github.com/wenyuanw/quick-prompt/releases)
-2. Download the latest version of the built extension package
+2. Download the latest built plugin package
 3. Extract the downloaded file
-4. Follow the instructions below to install the built extension
+4. Install the built extension according to the instructions below
 
-### Build from Source
+### Build from source
 
 1. Clone the repository
    ```bash
@@ -186,6 +191,6 @@ Thanks to all the developers who contributed to the project!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---

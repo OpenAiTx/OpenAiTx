@@ -51,46 +51,49 @@
 
 <br>
 
-### 📱 **Mobile**
+<!-- Ícones das Plataformas -->
 
-🔹 **Android**
-👉 [**Baixar Agora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.apk)
+<p>
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/macOS-333333?style=for-the-badge&logo=apple&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blackhatdevx.github.io/openspot-music-app/">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </a>
+</p>
 
-🔹 **iOS**
-🚧 [Não assinado] 👉 [**Baixar Agora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.ipa) | [**Guia de Instalação**](https://github.com/BlackHatDevX/openspot-music-app/blob/main/IOS_INSTALLATION.md)
+<br>
+
+<!-- Texto CTA -->
+<h3>
+ Baixar 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">AQUI</a>
+</h3>
 
 <br>
 
 ---
-
-### 🖥️ **Desktop**
-
-🍎 **macOS (Apple Silicon)**
-👉 [**Baixar Agora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.dmg)
-
-```bash
-# Run the below command after moving app to applications
-xattr -rd com.apple.quarantine /Applications/OpenSpot.app
-```
-
-🪟 **Windows**
-👉 [**Baixar Agora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.exe)
-
-🐧 **Linux (Debian/Ubuntu)**
-👉 [**Baixar Agora**](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v3.1.4/OpenSpot-3.1.4-release.deb)
-
-<br>
-
 
 </div>
 
----
 
-## ✨ Recursos
+## ✨ Funcionalidades
 
 <div align="center">
 
-🎧 **Streaming de Alta Qualidade**   ·   📥 **Downloads Offline**   ·   ❤️ **Curtidas & Playlists Personalizadas**  
+🎧 **Streaming em Alta Qualidade**   ·   📥 **Downloads Offline**   ·   ❤️ **Curtidas & Playlists Personalizadas**  
 🔄 **Reprodução em Segundo Plano**   ·   🚫 **Sem Necessidade de Login**   ·   🆓 **100% Grátis & Sem Anúncios**
 
 </div>
@@ -104,23 +107,23 @@ xattr -rd com.apple.quarantine /Applications/OpenSpot.app
 
 ---
 
-### 🎨 Visual & Experiência
-- **UI Remodelada** – design limpo, moderno e transições suaves
-- **Mini Player** – mini player estilo cápsula em dispositivos compatíveis (OnePlus, etc.)
-- **Temas** – Modo escuro, Modo claro e Modo automático
+### 🎨 Aparência & Estilo
+- **UI Reformulada** – design limpo e moderno com transições suaves
+- **Mini Player** – mini player em cápsula em dispositivos compatíveis (OnePlus, etc.)
+- **Temas** – Modo escuro, modo claro e modo automático
 
 ### 🎼 Experiência Musical
 - **Busca** – encontre músicas, playlists públicas, álbuns e artistas
-- **Escuta Offline** – baixe faixas e ouça sem internet
-- **Playlists Personalizadas** – crie, gerencie e organize suas próprias coleções
-- **Músicas em Alta** – faixas em tendência por região alimentadas pelo IPinfo
-- **Álbuns e Playlists de Artistas** – navegação completa pela discografia agora suportada
+- **Audição Offline** – baixe faixas e ouça sem internet
+- **Playlists Personalizadas** – crie, gerencie e organize suas coleções
+- **Músicas em Alta** – faixas em alta por região via IPinfo
+- **Álbuns & Playlists de Artistas** – navegação pela discografia completa agora suportada
 
 ### ⚡ Desempenho & Estabilidade
 - **API do YouTube Aprimorada** – streaming mais confiável
-- **Aprimoramentos de Reprodução** – desempenho mais suave, correção de bugs de duração e reprodução em segundo plano
-- **Controles de Fone de Ouvido & Tela de Bloqueio** – controles de notificação integrados
-- **Paginação de Músicas de Artistas** – todas as músicas carregam completamente
+- **Melhorias na Reprodução** – desempenho mais suave, correção de bugs de duração e reprodução em segundo plano
+- **Controles de Fone de Ouvido & Tela de Bloqueio** – controles de notificação contínuos
+- **Páginas de Músicas de Artistas** – todas as músicas carregam completamente
 
 ---
 
@@ -133,7 +136,7 @@ Este monorepo entrega **dois aplicativos de streaming de música totalmente inde
 | 📱 **Mobile** | Android, iOS *(em breve)* | React Native + Expo | `openspot-mobile/` |
 | 🖥️ **Desktop** | macOS, Windows/Linux *(em breve)* | Tauri + React | `openspot-desktop/` |
 
-Ambos os apps compartilham o mesmo núcleo de streaming poderoso, proporcionando uma experiência de audição contínua em todos os seus dispositivos.
+Ambos os aplicativos compartilham o mesmo núcleo de streaming poderoso, proporcionando uma experiência de audição contínua em todos os seus dispositivos.
 
 ---
 
@@ -166,7 +169,7 @@ Ambos os apps compartilham o mesmo núcleo de streaming poderoso, proporcionando
 
 [![GitHub](https://img.shields.io/badge/BlackHatDevX-181717?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX)  
 [![LinkedIn](https://img.shields.io/badge/jash--gro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jash-gro/)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
+[![Portfólio](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
 
 
 ## 📄 Licença
@@ -176,7 +179,7 @@ Este projeto está licenciado sob a **Licença MIT** – veja o arquivo [LICENSE
 ---
 
 <div align="center">
-  <strong>⭐ Se você gosta do OpenSpot Music, deixe uma estrela – isso realmente ajuda!</strong>
+  <strong>⭐ Se você gostou do OpenSpot Music, deixe uma estrela – isso realmente ajuda!</strong>
   <br />
   <em>Seu apoio mantém a música tocando para todos.</em>
 </div>
@@ -184,6 +187,6 @@ Este projeto está licenciado sob a **Licença MIT** – veja o arquivo [LICENSE
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
 
 ---
