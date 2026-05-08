@@ -813,14 +813,42 @@ python scripts/paper_figures/plot_EO_grid.py \
 
 </details>
 
+<details>
+<summary><b>DINOv2 PCA特徴の可視化：</b></summary>
+
+```bash
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/cars.jpg
+```
+
+</details>
+
+<details>
+<summary><b>SAM2 AMG 機能の可視化:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/cars.jpg
+```
+
+</details>
+
+
+## ⭐ スター履歴
+
+<a href="https://www.star-history.com/?repos=miquel-espinosa%2Fno-time-to-train&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+   <img alt="スター履歴チャート" src="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+ </picture>
+</a>
 
 
 
+## 📚 引用
 
-
-## 📚 Citation
-
-If you use this work, please cite us:
+この成果物を利用する場合は、以下のように引用してください：
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -835,6 +863,6 @@ If you use this work, please cite us:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-08
 
 ---

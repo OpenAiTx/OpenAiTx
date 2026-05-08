@@ -1,0 +1,272 @@
+[
+  {
+    "row": 1,
+    "rowsha": "BLuvpWCdrxHru3qTCGrsGZqTsuxshxcL7tn3zHovc+s=",
+    "originContent": "# Action Hero",
+    "translatedContent": "# 액션 히어로"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "lwEOAh5rW8SN1aUBDIomNfi9+9mt7QZCyS057ZugQ80=",
+    "originContent": "## What is Action Hero?",
+    "translatedContent": "## 액션 히어로란?"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "C6zZiTiKaRXqUx2vFBHnNuOHP+zLbSXvHJpw+iZZpA8=",
+    "originContent": "Action Hero is a sidecar style utility to assist with creating least privilege IAM Policies for AWS.",
+    "translatedContent": "액션 히어로는 AWS용 최소 권한 IAM 정책을 생성하는 데 도움을 주는 사이드카 스타일 유틸리티입니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "Gy4gWFSswj13rrM63GybGgk8ww5DODDL/DjZ2UE64Z4=",
+    "originContent": "## Why is it needed?",
+    "translatedContent": "## 왜 필요한가?"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "RvrQ3GDso9GSKHjlSo8OQIVSlZn3z+FgIuv8QBQBV44=",
+    "originContent": "Commonly developers begin creating infrastructure as code with more permissive roles that have administrative access to rapidly iterate. However, trying to create a more finely scoped set of permissions can be painful and time consuming.",
+    "translatedContent": "일반적으로 개발자는 신속한 반복을 위해 관리자 권한이 있는 더 넓은 권한의 역할로 인프라를 코드로 작성하기 시작합니다. 그러나 더 세밀하게 범위가 지정된 권한 집합을 만들려고 하면 고통스럽고 시간이 많이 소요될 수 있습니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "/ISSgplC66VRaphNenk56zgbuYgdua9Kh3fhMwkwSfU=",
+    "originContent": "Action Hero provides a means to capture all required permissions during the more permissive iterations to make it easier to create an IAM role with just the required permissions.",
+    "translatedContent": "액션 히어로는 더 넓은 권한 반복 중에 필요한 모든 권한을 캡처할 수 있는 수단을 제공하여 필요한 권한만 가진 IAM 역할을 쉽게 만들 수 있도록 합니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "yr57TqElHtwjXcJf3z7vIOjG+gIgOGwCk8iSckpPsXc=",
+    "originContent": "## How does it work?",
+    "translatedContent": "## 어떻게 작동하는가?"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "NzMyGo3fuCvKqiNQEJlNxjzqLosy25lwdybFsFLkQCg=",
+    "originContent": "Action Hero uses a feature of the AWS SDK known as Client Side Monitoring. This feature sends AWS API calls to a local udp port (31000 by default)",
+    "translatedContent": "액션 히어로는 AWS SDK의 클라이언트 사이드 모니터링 기능을 사용합니다. 이 기능은 AWS API 호출을 로컬 UDP 포트(기본값 31000)로 전송합니다."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "Dzso2Qp4Gz1Xk2UZe7kAoVt5IteWFIzAD8EmYoj8S8o=",
+    "originContent": "Summit Route discusses the feature in this [post](https://summitroute.com/blog/2020/05/25/client_side_monitoring/) (which was the inspiration for this tool)",
+    "translatedContent": "서밋 루트는 이 기능에 대해 이 [포스트](https://summitroute.com/blog/2020/05/25/client_side_monitoring/)에서 설명합니다(이 도구의 영감이 된 글입니다)."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## 사전 조건"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "eG6C7vKZ1I0QJ17CFou+P+gEPHy+chCnVbMX0Xmw894=",
+    "originContent": "As discussed in the above post ``export AWS_CSM_ENABLED=true`` must be run in the shell or set in a profile where the tool using the SDK will be run. For example if you're using terraform it would need to be exported in the shell that the plan/apply would be run from",
+    "translatedContent": "위 포스트에서 논의된 것처럼 ``export AWS_CSM_ENABLED=true``를 셸에서 실행하거나 SDK를 사용하는 도구가 실행되는 프로파일에 설정해야 합니다. 예를 들어 테라폼을 사용하는 경우 계획/적용을 실행하는 셸에서 이 값을 내보내야 합니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "WQSarpi2tN5CS6A22tmIJYKFf/KfH/BjekFomIcvl2s=",
+    "originContent": "The environment variable ``AWS_CSM_PORT`` can also be used to override the port CSM actions are sent to, and what port Action Hero listens on. This would need to be exported in both shells if used.",
+    "translatedContent": "환경 변수 ``AWS_CSM_PORT``는 CSM 액션이 전송되는 포트와 액션 히어로가 수신하는 포트를 재정의하는 데 사용할 수 있습니다. 사용 시 두 셸 모두에서 내보내야 합니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "eprj6xG9x6kZQt14uBO0Cl+Nv1xPgxWyDkmS7nXIEz0=",
+    "originContent": "Binaries are available from the [releases](https://github.com/princespaghetti/actionhero/releases) page",
+    "translatedContent": "바이너리는 [릴리스](https://github.com/princespaghetti/actionhero/releases) 페이지에서 사용할 수 있습니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "4D8UM4gs2WWstYtoWig6PTVMF0iI4hcEN3wij/DzpjY=",
+    "originContent": "A docker image is also available from [docker hub](https://hub.docker.com/r/princespaghetti/actionhero)",
+    "translatedContent": "도커 이미지는 [도커 허브](https://hub.docker.com/r/princespaghetti/actionhero)에서도 이용 가능합니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "bFuR7DmYX+QA4sIcHZ0XmfzGjN3BEkVql+g7hKqUhY0=",
+    "originContent": "## Running Action Hero",
+    "translatedContent": "## 액션 히어로 실행"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "0DImwSoowxOFI6X7Ox676Ug5Ss3PFA5IXUr/qt/g5rM=",
+    "originContent": "In a seperate terminal from where you are using the SDK run the binary",
+    "translatedContent": "SDK를 사용하는 터미널과는 별도의 터미널에서 바이너리를 실행하세요."
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "avZaTmsQH2js0aU7yvc6pFdN3P+vXP6wBrUuiwlm9uU=",
+    "originContent": "``./actionhero``",
+    "translatedContent": "``./actionhero``"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "JdUlUEwgJBF7ztrqlZPQGcLOMikLvlOV93WMZia+NeU=",
+    "originContent": "Alternatively you can use a docker run command",
+    "translatedContent": "또는 도커 실행 명령어를 사용할 수 있습니다."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "P+zAWOCjxTVaugCv323wsyxf92SKv1m1lzsmyl4vfTM=",
+    "originContent": "``docker run -e \"IN_DOCKER=True\" -p 127.0.0.1:31000:31000/udp --rm princespaghetti/actionhero:latest``",
+    "translatedContent": "``docker run -e \"IN_DOCKER=True\" -p 127.0.0.1:31000:31000/udp --rm princespaghetti/actionhero:latest``"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "BZ6LCuEaPprCpKUGF+lZdUUVdaTbixeQprUKy3fHZHA=",
+    "originContent": "Ctrl+C can be used to terminate the process safely",
+    "translatedContent": "Ctrl+C는 프로세스를 안전하게 종료하는 데 사용할 수 있습니다"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "q0ZHs6ialf3DADZSTvcA1AKPNYIOaqpg4cr97tfvucA=",
+    "originContent": "## Walkthrough",
+    "translatedContent": "## 안내"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "SUjT8snN/Gap/cyJOXozKa0SBtzv9zgvwzTqqAnLBAA=",
+    "originContent": "Please see this [blog post](https://dev.to/prince_of_pasta/action-hero-to-the-rescue-creating-least-privilege-aws-iam-policies-53o2) for sample usage of the tool.",
+    "translatedContent": "도구의 샘플 사용법은 이 [블로그 게시물](https://dev.to/prince_of_pasta/action-hero-to-the-rescue-creating-least-privilege-aws-iam-policies-53o2)을 참조하세요."
+  }
+]

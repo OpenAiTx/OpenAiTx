@@ -808,17 +808,45 @@ python scripts/paper_figures/plot_EO_grid.py \
   --dataset ISAID \
   --shots 1
 ```
+</details>
+
+<details>
+<summary><b>Wizualizacja cech PCA DINOv2:</b></summary>
+
+
+```bash
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/cars.jpg
+```
+
+</details>
+
+<details>
+<summary><b>Wizualizacja cech SAM2 AMG:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/cars.jpg
+```
 
 </details>
 
 
+## ⭐ Historia Gwiazdek
+
+<a href="https://www.star-history.com/?repos=miquel-espinosa%2Fno-time-to-train&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+   <img alt="Wykres historii gwiazdek" src="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+ </picture>
+</a>
 
 
 
+## 📚 Cytowanie
 
-## 📚 Citation
-
-If you use this work, please cite us:
+Jeśli korzystasz z tej pracy, prosimy o cytowanie:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -833,6 +861,6 @@ If you use this work, please cite us:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-08
 
 ---

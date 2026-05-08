@@ -808,17 +808,45 @@ python scripts/paper_figures/plot_EO_grid.py \
   --dataset ISAID \
   --shots 1
 ```
+</details>
+
+<details>
+<summary><b>DINOv2 PCA বৈশিষ্ট্য দৃশ্যায়ন:</b></summary>
+
+
+```bash
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/cars.jpg
+```
 
 </details>
 
+<details>
+<summary><b>SAM2 AMG ফিচাৰ ভিজুৱেলাইজেচন:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/cars.jpg
+```
+</details>
+
+
+## ⭐ ষ্টাৰ ইতিহাস
+
+<a href="https://www.star-history.com/?repos=miquel-espinosa%2Fno-time-to-train&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+   <img alt="ষ্টাৰ ইতিহাস চাৰ্ট" src="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+ </picture>
+</a>
 
 
 
+## 📚 উদ্ধৃতি
 
+আপুনি যদি এই কাম ব্যৱহাৰ কৰে, অনুগ্ৰহ কৰি আমাক উদ্ধৃত কৰক:
 
-## 📚 Citation
-
-If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -833,6 +861,6 @@ If you use this work, please cite us:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-08
 
 ---

@@ -810,17 +810,45 @@ python scripts/paper_figures/plot_EO_grid.py \
   --dataset ISAID \
   --shots 1
 ```
+</details>
+
+<details>
+<summary><b>DINOv2 PCA 특징 시각화:</b></summary>
+
+
+```bash
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/cars.jpg
+```
 
 </details>
 
+<details>
+<summary><b>SAM2 AMG 기능 시각화:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/cars.jpg
+```
+</details>
+
+
+## ⭐ Star History
+
+<a href="https://www.star-history.com/?repos=miquel-espinosa%2Fno-time-to-train&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+ </picture>
+</a>
 
 
 
+## 📚 인용
 
+이 작업을 사용하셨다면, 다음과 같이 인용해 주세요:
 
-## 📚 Citation
-
-If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -835,6 +863,6 @@ If you use this work, please cite us:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-08
 
 ---

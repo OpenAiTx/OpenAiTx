@@ -813,8 +813,36 @@ python scripts/paper_figures/plot_EO_grid.py \
 
 </details>
 
+<details>
+<summary><b>DINOv2 PCA feature visualization:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_dinov2_pca.py --image example_images/cars.jpg
+```
+
+</details>
+
+<details>
+<summary><b>SAM2 AMG feature visualization:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/giraffe.jpg
+python scripts/paper_figures/plot_sam2_amg.py --image example_images/cars.jpg
+```
+
+</details>
 
 
+## ⭐ Star History
+
+<a href="https://www.star-history.com/?repos=miquel-espinosa%2Fno-time-to-train&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=miquel-espinosa/no-time-to-train&type=date&legend=top-left" />
+ </picture>
+</a>
 
 
 
@@ -835,6 +863,6 @@ If you use this work, please cite us:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-08
 
 ---

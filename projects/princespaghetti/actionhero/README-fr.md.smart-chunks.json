@@ -1,0 +1,298 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Action Hero\n\n## What is Action Hero?\n\nAction Hero is a sidecar style utility to assist with creating least privilege IAM Policies for AWS.\n\n## Why is it needed?\n\nCommonly developers begin creating infrastructure as code with more permissive roles that have administrative access to rapidly iterate. However, trying to create a more finely scoped set of permissions can be painful and time consuming.\n\nAction Hero provides a means to capture all required permissions during the more permissive iterations to make it easier to create an IAM role with just the required permissions.\n\n## How does it work?\n\nAction Hero uses a feature of the AWS SDK known as Client Side Monitoring. This feature sends AWS API calls to a local udp port (31000 by default)\n\nSummit Route discusses the feature in this [post](https://summitroute.com/blog/2020/05/25/client_side_monitoring/) (which was the inspiration for this tool)\n\n## Prerequisites\n\nAs discussed in the above post ``export AWS_CSM_ENABLED=true`` must be run in the shell or set in a profile where the tool using the SDK will be run. For example if you're using terraform it would need to be exported in the shell that the plan/apply would be run from\n\nThe environment variable ``AWS_CSM_PORT`` can also be used to override the port CSM actions are sent to, and what port Action Hero listens on. This would need to be exported in both shells if used.\n\n## Installation\n\nBinaries are available from the [releases](https://github.com/princespaghetti/actionhero/releases) page\n\nA docker image is also available from [docker hub](https://hub.docker.com/r/princespaghetti/actionhero)\n\n## Running Action Hero\n\nIn a seperate terminal from where you are using the SDK run the binary\n\n``./actionhero``\n\nAlternatively you can use a docker run command\n\n``docker run -e \"IN_DOCKER=True\" -p 127.0.0.1:31000:31000/udp --rm princespaghetti/actionhero:latest``\n",
+    "ContentSha": "H0qBHVSv7M58THzp5U5Hgs1QdcHEkBtI3jaJ6cCKS3g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Action Hero\n\n## Qu'est-ce qu'Action Hero ?\n\nAction Hero est un utilitaire de type sidecar pour aider à créer des politiques IAM à moindre privilège pour AWS.\n\n## Pourquoi est-il nécessaire ?\n\nLes développeurs commencent souvent à créer l'infrastructure en tant que code avec des rôles plus permissifs disposant d'un accès administrateur pour itérer rapidement. Cependant, essayer de créer un ensemble de permissions plus finement ciblé peut être fastidieux et prendre du temps.\n\nAction Hero fournit un moyen de capturer toutes les permissions requises pendant les itérations plus permissives afin de faciliter la création d'un rôle IAM avec uniquement les permissions nécessaires.\n\n## Comment cela fonctionne-t-il ?\n\nAction Hero utilise une fonctionnalité du SDK AWS connue sous le nom de Client Side Monitoring. Cette fonctionnalité envoie les appels API AWS à un port UDP local (31000 par défaut)\n\nSummit Route discute de cette fonctionnalité dans ce [post](https://summitroute.com/blog/2020/05/25/client_side_monitoring/) (qui a été l'inspiration pour cet outil)\n\n## Prérequis\n\nComme indiqué dans le post ci-dessus, ``export AWS_CSM_ENABLED=true`` doit être exécuté dans le shell ou défini dans un profil où l'outil utilisant le SDK sera lancé. Par exemple, si vous utilisez terraform, cela devra être exporté dans le shell d'où le plan/apply sera exécuté.\n\nLa variable d'environnement ``AWS_CSM_PORT`` peut également être utilisée pour remplacer le port vers lequel les actions CSM sont envoyées, et sur lequel Action Hero écoute. Cela devra être exporté dans les deux shells si utilisé.\n\n## Installation\n\nLes binaires sont disponibles sur la page des [releases](https://github.com/princespaghetti/actionhero/releases)\n\nUne image docker est également disponible sur [docker hub](https://hub.docker.com/r/princespaghetti/actionhero)\n\n## Exécution d'Action Hero\n\nDans un terminal séparé de celui où vous utilisez le SDK, lancez le binaire\n\n``./actionhero``\n\nAlternativement, vous pouvez utiliser une commande docker run\n\n``docker run -e \"IN_DOCKER=True\" -p 127.0.0.1:31000:31000/udp --rm princespaghetti/actionhero:latest``\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BLuvpWCdrxHru3qTCGrsGZqTsuxshxcL7tn3zHovc+s=",
+        "originContent": "# Action Hero",
+        "translatedContent": "# Action Hero"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "lwEOAh5rW8SN1aUBDIomNfi9+9mt7QZCyS057ZugQ80=",
+        "originContent": "## What is Action Hero?",
+        "translatedContent": "## Qu'est-ce qu'Action Hero ?"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "C6zZiTiKaRXqUx2vFBHnNuOHP+zLbSXvHJpw+iZZpA8=",
+        "originContent": "Action Hero is a sidecar style utility to assist with creating least privilege IAM Policies for AWS.",
+        "translatedContent": "Action Hero est un utilitaire de type sidecar pour aider à créer des politiques IAM à moindre privilège pour AWS."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Gy4gWFSswj13rrM63GybGgk8ww5DODDL/DjZ2UE64Z4=",
+        "originContent": "## Why is it needed?",
+        "translatedContent": "## Pourquoi est-il nécessaire ?"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "RvrQ3GDso9GSKHjlSo8OQIVSlZn3z+FgIuv8QBQBV44=",
+        "originContent": "Commonly developers begin creating infrastructure as code with more permissive roles that have administrative access to rapidly iterate. However, trying to create a more finely scoped set of permissions can be painful and time consuming.",
+        "translatedContent": "Les développeurs commencent souvent à créer l'infrastructure en tant que code avec des rôles plus permissifs disposant d'un accès administrateur pour itérer rapidement. Cependant, essayer de créer un ensemble de permissions plus finement ciblé peut être fastidieux et prendre du temps."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "/ISSgplC66VRaphNenk56zgbuYgdua9Kh3fhMwkwSfU=",
+        "originContent": "Action Hero provides a means to capture all required permissions during the more permissive iterations to make it easier to create an IAM role with just the required permissions.",
+        "translatedContent": "Action Hero fournit un moyen de capturer toutes les permissions requises pendant les itérations plus permissives afin de faciliter la création d'un rôle IAM avec uniquement les permissions nécessaires."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yr57TqElHtwjXcJf3z7vIOjG+gIgOGwCk8iSckpPsXc=",
+        "originContent": "## How does it work?",
+        "translatedContent": "## Comment cela fonctionne-t-il ?"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "NzMyGo3fuCvKqiNQEJlNxjzqLosy25lwdybFsFLkQCg=",
+        "originContent": "Action Hero uses a feature of the AWS SDK known as Client Side Monitoring. This feature sends AWS API calls to a local udp port (31000 by default)",
+        "translatedContent": "Action Hero utilise une fonctionnalité du SDK AWS connue sous le nom de Client Side Monitoring. Cette fonctionnalité envoie les appels API AWS à un port UDP local (31000 par défaut)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Dzso2Qp4Gz1Xk2UZe7kAoVt5IteWFIzAD8EmYoj8S8o=",
+        "originContent": "Summit Route discusses the feature in this [post](https://summitroute.com/blog/2020/05/25/client_side_monitoring/) (which was the inspiration for this tool)",
+        "translatedContent": "Summit Route discute de cette fonctionnalité dans ce [post](https://summitroute.com/blog/2020/05/25/client_side_monitoring/) (qui a été l'inspiration pour cet outil)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## Prérequis"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "eG6C7vKZ1I0QJ17CFou+P+gEPHy+chCnVbMX0Xmw894=",
+        "originContent": "As discussed in the above post ``export AWS_CSM_ENABLED=true`` must be run in the shell or set in a profile where the tool using the SDK will be run. For example if you're using terraform it would need to be exported in the shell that the plan/apply would be run from",
+        "translatedContent": "Comme indiqué dans le post ci-dessus, ``export AWS_CSM_ENABLED=true`` doit être exécuté dans le shell ou défini dans un profil où l'outil utilisant le SDK sera lancé. Par exemple, si vous utilisez terraform, cela devra être exporté dans le shell d'où le plan/apply sera exécuté."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "WQSarpi2tN5CS6A22tmIJYKFf/KfH/BjekFomIcvl2s=",
+        "originContent": "The environment variable ``AWS_CSM_PORT`` can also be used to override the port CSM actions are sent to, and what port Action Hero listens on. This would need to be exported in both shells if used.",
+        "translatedContent": "La variable d'environnement ``AWS_CSM_PORT`` peut également être utilisée pour remplacer le port vers lequel les actions CSM sont envoyées, et sur lequel Action Hero écoute. Cela devra être exporté dans les deux shells si utilisé."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "eprj6xG9x6kZQt14uBO0Cl+Nv1xPgxWyDkmS7nXIEz0=",
+        "originContent": "Binaries are available from the [releases](https://github.com/princespaghetti/actionhero/releases) page",
+        "translatedContent": "Les binaires sont disponibles sur la page des [releases](https://github.com/princespaghetti/actionhero/releases)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "4D8UM4gs2WWstYtoWig6PTVMF0iI4hcEN3wij/DzpjY=",
+        "originContent": "A docker image is also available from [docker hub](https://hub.docker.com/r/princespaghetti/actionhero)",
+        "translatedContent": "Une image docker est également disponible sur [docker hub](https://hub.docker.com/r/princespaghetti/actionhero)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "bFuR7DmYX+QA4sIcHZ0XmfzGjN3BEkVql+g7hKqUhY0=",
+        "originContent": "## Running Action Hero",
+        "translatedContent": "## Exécution d'Action Hero"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "0DImwSoowxOFI6X7Ox676Ug5Ss3PFA5IXUr/qt/g5rM=",
+        "originContent": "In a seperate terminal from where you are using the SDK run the binary",
+        "translatedContent": "Dans un terminal séparé de celui où vous utilisez le SDK, lancez le binaire"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "avZaTmsQH2js0aU7yvc6pFdN3P+vXP6wBrUuiwlm9uU=",
+        "originContent": "``./actionhero``",
+        "translatedContent": "``./actionhero``"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "JdUlUEwgJBF7ztrqlZPQGcLOMikLvlOV93WMZia+NeU=",
+        "originContent": "Alternatively you can use a docker run command",
+        "translatedContent": "Alternativement, vous pouvez utiliser une commande docker run"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "P+zAWOCjxTVaugCv323wsyxf92SKv1m1lzsmyl4vfTM=",
+        "originContent": "``docker run -e \"IN_DOCKER=True\" -p 127.0.0.1:31000:31000/udp --rm princespaghetti/actionhero:latest``",
+        "translatedContent": "``docker run -e \"IN_DOCKER=True\" -p 127.0.0.1:31000:31000/udp --rm princespaghetti/actionhero:latest``"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Ctrl+C can be used to terminate the process safely\n\n## Walkthrough\n\nPlease see this [blog post](https://dev.to/prince_of_pasta/action-hero-to-the-rescue-creating-least-privilege-aws-iam-policies-53o2) for sample usage of the tool.",
+    "ContentSha": "sMLYYk6xr81I0NT/t6aPUWuvd+pqFVW29V6Kk86Te6s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Ctrl+C peut être utilisé pour terminer le processus en toute sécurité\n\n## Guide pas à pas\n\nVeuillez consulter ce [article de blog](https://dev.to/prince_of_pasta/action-hero-to-the-rescue-creating-least-privilege-aws-iam-policies-53o2) pour un exemple d'utilisation de l'outil.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BZ6LCuEaPprCpKUGF+lZdUUVdaTbixeQprUKy3fHZHA=",
+        "originContent": "Ctrl+C can be used to terminate the process safely",
+        "translatedContent": "Ctrl+C peut être utilisé pour terminer le processus en toute sécurité"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "q0ZHs6ialf3DADZSTvcA1AKPNYIOaqpg4cr97tfvucA=",
+        "originContent": "## Walkthrough",
+        "translatedContent": "## Guide pas à pas"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "SUjT8snN/Gap/cyJOXozKa0SBtzv9zgvwzTqqAnLBAA=",
+        "originContent": "Please see this [blog post](https://dev.to/prince_of_pasta/action-hero-to-the-rescue-creating-least-privilege-aws-iam-policies-53o2) for sample usage of the tool.",
+        "translatedContent": "Veuillez consulter ce [article de blog](https://dev.to/prince_of_pasta/action-hero-to-the-rescue-creating-least-privilege-aws-iam-policies-53o2) pour un exemple d'utilisation de l'outil."
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
