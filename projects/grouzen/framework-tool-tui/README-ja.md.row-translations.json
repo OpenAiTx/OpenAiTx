@@ -1,0 +1,1124 @@
+[
+  {
+    "row": 1,
+    "rowsha": "L3O821esutqYrUM9SIvmCwjqjNvsTfiQ/rgxVqAkbWs=",
+    "originContent": "# Framework System TUI",
+    "translatedContent": "# フレームワークシステムTUI"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "9Kl2Wbr6QI/NDvKpyMkVZRlIbfRLn4OAt5/eHfp3jN4=",
+    "originContent": "![Rust](https://img.shields.io/badge/lang-rust-orange) ![ratatui](https://img.shields.io/badge/ui-ratatui-blue) ![Framework Laptop](https://img.shields.io/badge/hardware-Framework--Laptop-success)  ",
+    "translatedContent": "![Rust](https://img.shields.io/badge/lang-rust-orange) ![ratatui](https://img.shields.io/badge/ui-ratatui-blue) ![Framework Laptop](https://img.shields.io/badge/hardware-Framework--Laptop-success)  "
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y52ZtnPyD2wOP/ZrNQ4L3vN+EUTY/LhB2MgYwAH+WqY=",
+    "originContent": "A snappy TUI dashboard for controlling and monitoring your Framework Laptop hardware — charging, privacy, lighting, USB PD ports, and more.",
+    "translatedContent": "Framework Laptopのハードウェアを制御および監視するためのスナッピーなTUIダッシュボード — 充電、プライバシー、照明、USB PDポートなど。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "gXFDlpvNe1XZj8U7BthviQZArJYEe9gethPAk3k5T70=",
+    "originContent": "![demo](/docs/screenshots/demo-v0.7.2.gif)",
+    "translatedContent": "![demo](/docs/screenshots/demo-v0.7.2.gif)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "6uSAib3s1ONsmEDmCZKYmgSg5eQ/4DebPvRJeXvU94Y=",
+    "originContent": "## :octocat: Features",
+    "translatedContent": "## :octocat: 特徴"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "p77tS9K0uIQxieYtuUAbUmaK3Q7YGhPC2s1wFrUCWB0=",
+    "originContent": "### Framework Laptop Hardware",
+    "translatedContent": "### Framework Laptop ハードウェア"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "1V+7/bpu90qq3y0aAvh9km9CYcLvUdXzylRnxkSqXVE=",
+    "originContent": "- [x] **Live battery and charge status** with limits and charging controls",
+    "translatedContent": "- [x] **ライブバッテリーおよび充電状況**（制限および充電制御付き）"
+  },
+  {
+    "row": 14,
+    "rowsha": "qCyiPNqgfSBMz+6Focs4iNtkc1gVhOaJ5aUClfQ61ok=",
+    "originContent": "- [x] **Privacy toggles** for microphone & camera",
+    "translatedContent": "- [x] **マイク＆カメラのプライバシートグル**"
+  },
+  {
+    "row": 15,
+    "rowsha": "wdhO/34TouatfpY0WYwsHjQ890onkbqyw28migvMGh8=",
+    "originContent": "- [ ] **Input Deck Mode** selector (Framework 16)",
+    "translatedContent": "- [ ] **Input Deckモード**セレクター（Framework 16）"
+  },
+  {
+    "row": 16,
+    "rowsha": "HnzjxsQwngitU0nGOQx5cre9U2MmwUwXE2Vt3H+Ad/c=",
+    "originContent": "- [x] **Keyboard & Fingerprint brightness** controls",
+    "translatedContent": "- [x] **キーボード＆指紋照明**制御"
+  },
+  {
+    "row": 17,
+    "rowsha": "fvv0v6p4Y6Ek/wWngbos6mQ2J0YIm1WAAgOgxbr1GqE=",
+    "originContent": "- [x] **USB PD port monitoring**",
+    "translatedContent": "- [x] **USB PDポート監視**"
+  },
+  {
+    "row": 18,
+    "rowsha": "KJMwNTCfoGF/AukDPpwFgt45e7uUuSK3BMmeeVpQ7EU=",
+    "originContent": "- [x] **Fan RPM**",
+    "translatedContent": "- [x] **ファン回転数（RPM）**"
+  },
+  {
+    "row": 19,
+    "rowsha": "Tp42tyMeU79s6MiU7rHqEPgDXWv7/VOPIRDa0dgIe0w=",
+    "originContent": "- [ ] **Thermal info:** CPU/GPU temperatures",
+    "translatedContent": "- [ ] **熱情報:** CPU/GPU温度"
+  },
+  {
+    "row": 20,
+    "rowsha": "37qhyODPilfKGeX8XvczW4h6C70OTCzvocpfWI2w8Ko=",
+    "originContent": "- [x] **System info:** BIOS details",
+    "translatedContent": "- [x] **システム情報:** BIOS詳細"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "AlXZEhyGTixzafo5zPNClfsvMJ4Jb/y+7ie1nqvW98I=",
+    "originContent": "### :dvd: Binaries",
+    "translatedContent": "### :dvd: バイナリ"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "EdjXmzEXPF8ccJAPaQEx8gULIaXp3kegkVKKyelh7jY=",
+    "originContent": "The pre-compiled binaries for Linux, Windows, and FreeBSD are available for download on the [Releases](https://github.com/grouzen/framework-tool-tui/releases) page",
+    "translatedContent": "Linux、Windows、FreeBSD向けの事前コンパイル済みバイナリは[Releases](https://github.com/grouzen/framework-tool-tui/releases)ページからダウンロード可能です。"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "Cr3NWuYBc5chpBzu/FcPlmyu/G7hH31CZrVUOSbvTZA=",
+    "originContent": "### :memo: From source",
+    "translatedContent": "### :memo: ソースから"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "Av6NA3a48gBbDWG79hWOyqL/I3YQzag4kCXddc/jFJE=",
+    "originContent": "Requires [Rust](https://rustup.rs/) (Edition 2024) and a Framework laptop.",
+    "translatedContent": "[ Rust](https://rustup.rs/)（Edition 2024）およびFramework Laptopが必要です。"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 33,
+    "rowsha": "Q5Wmx9fDwu7n3JyPUvoV2W/q6ibMqx6RrLR1uiX7IdY=",
+    "originContent": "git clone https://github.com/grouzen/framework-tool-tui.git",
+    "translatedContent": "git clone https://github.com/grouzen/framework-tool-tui.git"
+  },
+  {
+    "row": 34,
+    "rowsha": "A9aHb4MNH//SKhSvM62D+5hoEXsiUJtODQUrfIq9mt8=",
+    "originContent": "cd framework-tool-tui",
+    "translatedContent": "cd framework-tool-tui"
+  },
+  {
+    "row": 35,
+    "rowsha": "QbRskjoJo1EyPe3xomSnbIj+llmIagYeZojksq7EuPs=",
+    "originContent": "cargo build --release",
+    "translatedContent": "cargo build --release"
+  },
+  {
+    "row": 36,
+    "rowsha": "9mW/fzxwfAHaef0H+FTEI92JrK+lj6guoMEzdkxnWGM=",
+    "originContent": "# or via cargo install",
+    "translatedContent": "# or via cargo install"
+  },
+  {
+    "row": 37,
+    "rowsha": "UrfYV89HEr7Y2LOJNzJS2dfNsaKrBlUdCgPrc5ar/XM=",
+    "originContent": "cargo install --path .",
+    "translatedContent": "cargo install --path ."
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "mgwipY9sxihW7Bul0HPtjfri5dctslxl3U92eRn8NcY=",
+    "originContent": "### :penguin: Linux distros",
+    "translatedContent": "### :penguin: Linux ディストリビューション"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "JTs4cZXT0zpIF0iYMGd0Tvew8tWJDC2PdP3GJFau2u4=",
+    "originContent": "#### Gentoo linux",
+    "translatedContent": "#### Gentoo linux"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "wZ+VizW6rA8j0/ShakQMLJMNVLBugZm8Z+eT0ps6MzM=",
+    "originContent": "It is available via official [Gentoo packages](https://packages.gentoo.org/packages/app-laptop/framework-tool-tui) or the [lamdness](https://github.com/grouzen/lamdness-overlay/tree/main/app-laptop/framework-tool-tui) overlay",
+    "translatedContent": "公式の [Gentoo パッケージ](https://packages.gentoo.org/packages/app-laptop/framework-tool-tui) または [lamdness](https://github.com/grouzen/lamdness-overlay/tree/main/app-laptop/framework-tool-tui) オーバーレイで利用可能です"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 47,
+    "rowsha": "FkG48BcZciBT0yT0nN4VpciNTWmVn7jainzTrrC+rog=",
+    "originContent": "# Official gentoo repository",
+    "translatedContent": "# Official gentoo repository"
+  },
+  {
+    "row": 48,
+    "rowsha": "E3G957eKMrrU3SSt1xXwaU2Kl2o1FUnXEkclqNVJLAE=",
+    "originContent": "sudo emerge -av app-laptop/framework-tool-tui",
+    "translatedContent": "sudo emerge -av app-laptop/framework-tool-tui"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "RT9Si2rhJtcLdkCRkYTJ9tlp4HMFdR8j2xeASTW4isE=",
+    "originContent": "# or via lamdness overlay",
+    "translatedContent": "# or via lamdness overlay"
+  },
+  {
+    "row": 51,
+    "rowsha": "p2gpz0eW2s8bbGgxcRgaMfz/RDLL+RWI4OGtXp06l2o=",
+    "originContent": "sudo eselect repository enable lamdness",
+    "translatedContent": "sudo eselect repository enable lamdness"
+  },
+  {
+    "row": 52,
+    "rowsha": "wCnJMFhKPV+lGsBHqVzRt1pn3qOuHS8I4QsEaWfwwsc=",
+    "originContent": "sudo emaint -r lamdness sync",
+    "translatedContent": "sudo emaint -r lamdness sync"
+  },
+  {
+    "row": 53,
+    "rowsha": "E3G957eKMrrU3SSt1xXwaU2Kl2o1FUnXEkclqNVJLAE=",
+    "originContent": "sudo emerge -av app-laptop/framework-tool-tui",
+    "translatedContent": "sudo emerge -av app-laptop/framework-tool-tui"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "dUE95hH2gs5As+vEXepzY2wzqeSryYb3VJBVaEdxuVA=",
+    "originContent": "#### Arch linux",
+    "translatedContent": "#### Arch linux"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "jdSBC4cCBrNvUDPuLRWyhPjf5EFMbjfMR65/1nhkIT0=",
+    "originContent": "It is available via [AUR](https://aur.archlinux.org/packages/framework-tool-tui) or [archlinuxcn](https://github.com/archlinuxcn/repo/tree/master/archlinuxcn/framework-tool-tui)",
+    "translatedContent": "[AUR](https://aur.archlinux.org/packages/framework-tool-tui) または [archlinuxcn](https://github.com/archlinuxcn/repo/tree/master/archlinuxcn/framework-tool-tui) を通じて利用可能です。"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 61,
+    "rowsha": "pSILHRKhRjQyanUBv3DEiFPC9s4lHc96SOflOZ3hAqc=",
+    "originContent": "[yay/paru] -S framework-tool-tui # Install from AUR",
+    "translatedContent": "[yay/paru] -S framework-tool-tui # Install from AUR"
+  },
+  {
+    "row": 62,
+    "rowsha": "3C17R5H6/sAPFYtTUYhNMfsp3GUxVPv8Myizz17X3VA=",
+    "originContent": "sudo pacman -S framework-tool-tui # Install from archlinuxcn",
+    "translatedContent": "sudo pacman -S framework-tool-tui # Install from archlinuxcn"
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "Hs+jSUoKInW87nwWttx0xxoaLMDGLZWrA7kgg+lqNqE=",
+    "originContent": "#### NixOS linux",
+    "translatedContent": "#### NixOS linux"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "NCleW+Tttl9aAT/Oo9lf0WivprU6pHkr3yfSjehm/Gw=",
+    "originContent": "It is available via official [NixOS packages](https://search.nixos.org/packages?query=framework-tool-tui):",
+    "translatedContent": "公式の[NixOSパッケージ](https://search.nixos.org/packages?query=framework-tool-tui)から利用可能です："
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 70,
+    "rowsha": "7LZ+SatKT0h7uoMqdTcHfCauEX5j5hb+ibvMh3UQcvg=",
+    "originContent": "nix-shell -p framework-tool-tui # Install temporarily",
+    "translatedContent": "nix-shell -p framework-tool-tui # Install temporarily"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "SsPp5GzO74f5K8rkOL5walsPaLBnycPvGyXpvZB93Gs=",
+    "originContent": "# Add to the NixOS configuration or use nix profile to install permanently",
+    "translatedContent": "# Add to the NixOS configuration or use nix profile to install permanently"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "+Nt5WLwZytEtK3UuWSIQ/vjSqLh4gPSSPnS2guLRBAc=",
+    "originContent": "#### :beer: Homebrew for Linux",
+    "translatedContent": "#### :beer: Linux用Homebrew"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "ZEHejaQq+jot2F+sJYdW+TOLTR26LwG/x7f7/PvQ34s=",
+    "originContent": "Available via the [`framework-tool-tui` formula](https://formulae.brew.sh/formula/framework-tool-tui)",
+    "translatedContent": "[`framework-tool-tui` フォーミュラ](https://formulae.brew.sh/formula/framework-tool-tui)で利用可能"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 80,
+    "rowsha": "hAqZQzh+XO7TA5WwSaRboL0fyfo+MSf0mbvl/nWQBN8=",
+    "originContent": "brew install framework-tool-tui",
+    "translatedContent": "brew install framework-tool-tui"
+  },
+  {
+    "row": 81,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "tXP3LzcKN9+KpMYfzOIxWAmyW1TUptg8oCpnRV5dDHc=",
+    "originContent": "### 😈 FreeBSD",
+    "translatedContent": "### 😈 FreeBSD"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "nanqwUlpQ+tU8oDIQ1lyvsMPso1PO0cV4/xjH4K5PM0=",
+    "originContent": "It is available in [FreeBSD ports](https://www.freshports.org/sysutils/framework-tool-tui/)",
+    "translatedContent": "[FreeBSD ports](https://www.freshports.org/sysutils/framework-tool-tui/)で利用可能です。"
+  },
+  {
+    "row": 87,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 88,
+    "rowsha": "AybkBn+YDilfH+sXTfh+WEqmYtk88DIle4kEnwzhZzc=",
+    "originContent": "pkg install framework-tool-tui",
+    "translatedContent": "pkg install framework-tool-tui"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "maDyrCFx2VNCjuWynrGQlAQc/L+be6vx5CLJ5icNnUY=",
+    "originContent": "For now, you can install it [From Source](#memo-from-source) or [From Pre-built Binaries](#dvd-binaries)",
+    "translatedContent": "現時点では、[ソースから](#memo-from-source)または[事前構築済みバイナリから](#dvd-binaries)インストールできます。"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "XbOcIvTmZ3PqBAlNFybT/26XPmAEpE1GgYGkcArUi28=",
+    "originContent": "## :man: Run",
+    "translatedContent": "## :man: 実行"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "IxAqlUlG7V5ML/hZCiNTjvc9LOgUN2IWGgZxC4tQWlw=",
+    "originContent": "It needs to be running with root privileges to access hardware controls.",
+    "translatedContent": "ハードウェア制御にアクセスするために、root権限で実行する必要があります。"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 100,
+    "rowsha": "vasvXdG0wnGkcu2NQVzTVBqjsuKKfZoGgfqJqyaFMug=",
+    "originContent": "sudo framework-tool-tui",
+    "translatedContent": "sudo framework-tool-tui"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "5jv/9J+ljCXcbVwuPhzYYphhA18Ieg5lOlIG0XqeNWU=",
+    "originContent": "## :pencil: Architecture",
+    "translatedContent": "## :pencil: アーキテクチャ"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "WmNGaJUdbMf0TG8ViIJD/xgSGxEqSttsutYYSFYg+xI=",
+    "originContent": "See [ARCHITECTURE.md](https://raw.githubusercontent.com/grouzen/framework-tool-tui/main/docs/ARCHITECTURE.md) for full technical breakdown.  ",
+    "translatedContent": "完全な技術的内訳については[ARCHITECTURE.md](https://raw.githubusercontent.com/grouzen/framework-tool-tui/main/docs/ARCHITECTURE.md)を参照してください。  "
+  },
+  {
+    "row": 106,
+    "rowsha": "FiRVZh4n5CRqa7sC+b0QTnjjh6XFy57D/cnZcOu2SGw=",
+    "originContent": "- Hardware polling via [`framework_lib`](https://github.com/FrameworkComputer/framework-system)",
+    "translatedContent": "- ハードウェアポーリングは[`framework_lib`](https://github.com/FrameworkComputer/framework-system)を使用"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "8s5y8uRj71TFdOpCBGR4epDbLLV1fKznKY+dkR1oyqI=",
+    "originContent": "## :handshake: Contributing",
+    "translatedContent": "## :handshake: コントリビュート"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "juk6cLUgEB2u3fLwhZEe1Pq0AgO6YN5GpP0L8vdfW9c=",
+    "originContent": "Pull requests welcome! For bug reports or feature requests, see Issues.",
+    "translatedContent": "プルリクエスト歓迎！バグ報告や機能要望はIssuesを参照してください。"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "jY/edJio1GkgVs8GtuDVd9XAL1sYxLccv935lp/jLJk=",
+    "originContent": "### Check your code before pushing",
+    "translatedContent": "### プッシュ前にコードをチェック"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "Bcda2rMOqvxnEvuTZCjUtI8ATGGKRgO17Lawlg4yxz8=",
+    "originContent": "It is recommended to run `cargo make check-all` before commiting and pushing to your feature branch.",
+    "translatedContent": "コミットとプッシュの前に`cargo make check-all`を実行することを推奨します。"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "E+/e0gB+qjoVXWW48eUP9dHcgqkiKFKMnhyUFReO1pQ=",
+    "originContent": "This requires [cargo make](https://github.com/sagiegurari/cargo-make) runner to be installed on your system:",
+    "translatedContent": "これはシステムに[cargo make](https://github.com/sagiegurari/cargo-make)ランナーがインストールされている必要があります："
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 119,
+    "rowsha": "7SMB5GGsSzBdbMHPHR1pAe2uNXSvP5qb+p6SezWuDwA=",
+    "originContent": "cargo install --force cargo-make",
+    "translatedContent": "cargo install --force cargo-make"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "+2HuXID0G8aiRPwabVGdaJs0BOvXY8OnJ1RePgkFHyM=",
+    "originContent": "### Commit Message Convention",
+    "translatedContent": "### コミットメッセージの規約"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "zbqdX/a4Cy+Nf1LWuJwGMUalXzSuyHcg5S17mAVzh8E=",
+    "originContent": "This project uses [Conventional Commits](https://www.conventionalcommits.org/) for automated versioning and changelog generation. Please format your commit messages as:",
+    "translatedContent": "本プロジェクトでは、自動バージョニングと変更履歴生成のために[Conventional Commits](https://www.conventionalcommits.org/)を使用しています。コミットメッセージは以下の形式で記述してください:"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 127,
+    "rowsha": "YQPL/+COyaTM1xP4mfQMh/FAVXb3fOeNgvLoTfVlyJU=",
+    "originContent": "<type>: <description>",
+    "translatedContent": "<type>: <description>"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "IZwNND4s7/eMjE8zBYY5ETXPy6x9feOZhllGPWCuVGc=",
+    "originContent": "[optional body]",
+    "translatedContent": "[optional body]"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "IxGbl0Xp2uEhjm1LeRiDW6+qm5KaybKCVXDmKRRzSDw=",
+    "originContent": "**Common types:**",
+    "translatedContent": "**一般的なタイプ:**"
+  },
+  {
+    "row": 133,
+    "rowsha": "Zpj7irlIdpa7VewlvZwSmAhhCty427MHYnlXWhcatUI=",
+    "originContent": "- `feat:` - New feature (triggers minor version bump)",
+    "translatedContent": "- `feat:` - 新機能（マイナーバージョンアップをトリガー）"
+  },
+  {
+    "row": 134,
+    "rowsha": "DqV3pqOk+6igB3k/FGTlU5rxeJtb6BKUxAUPVNyK7SY=",
+    "originContent": "- `fix:` - Bug fix (triggers patch version bump)",
+    "translatedContent": "- `fix:` - バグ修正（パッチバージョンアップをトリガー）"
+  },
+  {
+    "row": 135,
+    "rowsha": "l0j9O1tSr0Yznv+BfO5poLq/GCan0mrP7W6CRvOBEMs=",
+    "originContent": "- `docs:` - Documentation changes",
+    "translatedContent": "- `docs:` - ドキュメントの変更"
+  },
+  {
+    "row": 136,
+    "rowsha": "kYefJ2rZHkzvlrzt3jfE4PH8kTgKlDL/LTx4OAAcOPk=",
+    "originContent": "- `refactor:` - Code refactoring",
+    "translatedContent": "- `refactor:` - コードのリファクタリング"
+  },
+  {
+    "row": 137,
+    "rowsha": "2A5xX4WEUFNgDUeOLdRGyEgHWcBbVVpqE2DymE1Yk5I=",
+    "originContent": "- `test:` - Adding or updating tests",
+    "translatedContent": "- `test:` - テストの追加または更新"
+  },
+  {
+    "row": 138,
+    "rowsha": "wCCKRZWmQCxg8B0pIdnycMDv2O0Zxk0UyD0sAnSlyrk=",
+    "originContent": "- `chore:` - Maintenance tasks",
+    "translatedContent": "- `chore:` - メンテナンス作業"
+  },
+  {
+    "row": 139,
+    "rowsha": "NX3tk3k/s75vXsrhIlJb30Keos0A5F+58gc0Oy98xGQ=",
+    "originContent": "- `ci:` - CI/CD changes",
+    "translatedContent": "- `ci:` - CI/CDの変更"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "ugAtXnsX4W5FlPLPw/LlcjAhxgmcaysUmVW7oTBYKxg=",
+    "originContent": "**Examples:**",
+    "translatedContent": "**例:**"
+  },
+  {
+    "row": 142,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 143,
+    "rowsha": "lrR8XoPAJzW3JkS5VIIHeDpKvyJJbA63hmx7Ep+33G8=",
+    "originContent": "feat: add thermal monitoring support",
+    "translatedContent": "feat: add thermal monitoring support"
+  },
+  {
+    "row": 144,
+    "rowsha": "waCGY/ReQXT19ydIJLK0CwayLR7Uv/uoF4Lf6Kq/fBQ=",
+    "originContent": "fix: correct battery percentage calculation",
+    "translatedContent": "fix: correct battery percentage calculation"
+  },
+  {
+    "row": 145,
+    "rowsha": "v+bDiWomS8QVPBl/9um0pAfiN4RdcsA/ajnc0Mcm1eM=",
+    "originContent": "docs: update installation instructions",
+    "translatedContent": "docs: update installation instructions"
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "N/FJWtaK8/M1k7whthdeukM2B95OyGVUdrk9omUxrqs=",
+    "originContent": "For breaking changes, add `!` after the type or include `BREAKING CHANGE:` in the footer:",
+    "translatedContent": "破壊的変更の場合は、タイプの後に `!` を追加するか、フッターに `BREAKING CHANGE:` を含めてください:"
+  },
+  {
+    "row": 149,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 150,
+    "rowsha": "xvUjoQrBcwnhp/Sjx6W7LuQGX6Jt/yKddFsXoEZcyAE=",
+    "originContent": "feat!: redesign UI layout",
+    "translatedContent": "feat!: redesign UI layout"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "1UhdmrzxqmllAtmcJJnC2IhEHCkGxGuOBdZAlOXDxh0=",
+    "originContent": "### Technical stack",
+    "translatedContent": "### 技術スタック"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "TGb6zk/t99s1wFGEo9KfD3FT+ha0ANE3hy9ABHFk4eU=",
+    "originContent": "- [ratatui](https://ratatui.rs)",
+    "translatedContent": "- [ratatui](https://ratatui.rs)"
+  },
+  {
+    "row": 156,
+    "rowsha": "7xS1Dbc0WL9ieTVBfnfzS6icicKDyBngcCxz+PYBAao=",
+    "originContent": "- [tokio](https://tokio.rs)",
+    "translatedContent": "- [tokio](https://tokio.rs)"
+  },
+  {
+    "row": 157,
+    "rowsha": "SVXuhcImmcaECAXtel2YH8ADuTu+mkqAu3Oqs4hJJiI=",
+    "originContent": "- [framework_lib](https://github.com/FrameworkComputer/framework-system/tree/main/framework_lib)",
+    "translatedContent": "- [framework_lib](https://github.com/FrameworkComputer/framework-system/tree/main/framework_lib)"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "ux4MeBCaboi55CyVGtQvXNMglaW+6dEBxntBPIdhJZc=",
+    "originContent": "## :judge: License",
+    "translatedContent": "## :judge: ライセンス"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+    "originContent": "MIT License",
+    "translatedContent": "MIT License"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "Pwfwd7wwK1YnF3HgASHPvrgD+ItwbAFsBHRUPj/Q38Q=",
+    "originContent": "Copyright (c) 2025 Mykhailo Nedokushev",
+    "translatedContent": "Copyright (c) 2025 Mykhailo Nedokushev"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "6ygdewCoVnearKfR7FGXp2NGz0d0vZZ/lMRTkwkHaog=",
+    "originContent": "Permission is hereby granted, free of charge, to any person obtaining a copy",
+    "translatedContent": "Permission is hereby granted, free of charge, to any person obtaining a copy"
+  },
+  {
+    "row": 167,
+    "rowsha": "tB6IBZRBlGdDbRUpcPNnEASfdOCGi6OVvavIByTSt9Q=",
+    "originContent": "of this software and associated documentation files (the \"Software\"), to deal",
+    "translatedContent": "of this software and associated documentation files (the \"Software\"), to deal"
+  },
+  {
+    "row": 168,
+    "rowsha": "qVeJMVdSBNt5caouhRNwg0dCuXZ0vq5F3wtlaAWeffI=",
+    "originContent": "in the Software without restriction, including without limitation the rights",
+    "translatedContent": "in the Software without restriction, including without limitation the rights"
+  },
+  {
+    "row": 169,
+    "rowsha": "cQWjY7xQ66jpP2dtuwvRRWSnldQwGLaGMNrpD3N/1bU=",
+    "originContent": "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+    "translatedContent": "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell"
+  },
+  {
+    "row": 170,
+    "rowsha": "EOduAtLdwPqRWQ5lJJ27tXL9njInefim7qIo7ykIfDw=",
+    "originContent": "copies of the Software, and to permit persons to whom the Software is",
+    "translatedContent": "copies of the Software, and to permit persons to whom the Software is"
+  },
+  {
+    "row": 171,
+    "rowsha": "yyuTUVyg3VCFD9PhSRvwbDI1IZwo8VyU39LMiocdVvs=",
+    "originContent": "furnished to do so, subject to the following conditions:",
+    "translatedContent": "furnished to do so, subject to the following conditions:"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "2T6mDcJBdisYMKaqGZeyXXtS+TBSXP5ga9O4qrwlGJM=",
+    "originContent": "The above copyright notice and this permission notice shall be included in all",
+    "translatedContent": "The above copyright notice and this permission notice shall be included in all"
+  },
+  {
+    "row": 174,
+    "rowsha": "WF2w9fp99xXGvWkAfCZJ48tiQQ27cd4jLoOV2W/ii7s=",
+    "originContent": "copies or substantial portions of the Software.",
+    "translatedContent": "copies or substantial portions of the Software."
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "WNq4iXJWd93FonCgffg5XjP0LHjB005/rO7dHFEfBMQ=",
+    "originContent": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR",
+    "translatedContent": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+  },
+  {
+    "row": 177,
+    "rowsha": "tH5wC51OBORnBEi7OQZ+0siGPIrV5z8Dfde/mrDydOA=",
+    "originContent": "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,",
+    "translatedContent": "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+  },
+  {
+    "row": 178,
+    "rowsha": "/1019OAyTISZuBmAx9pLfEMX++Qj8KPJPK5Et6pnBb8=",
+    "originContent": "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE",
+    "translatedContent": "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE"
+  },
+  {
+    "row": 179,
+    "rowsha": "bcSYy9bifbENokMc/MMukEKKUvAifo52S48A8MxW5Bs=",
+    "originContent": "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER",
+    "translatedContent": "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER"
+  },
+  {
+    "row": 180,
+    "rowsha": "y2S6grz9x1yNaNplcVngDXV/K+rs8D8qzCg7BrK/i0s=",
+    "originContent": "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+    "translatedContent": "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,"
+  },
+  {
+    "row": 181,
+    "rowsha": "FEQpFvEsO27s3/hIhTddi6j1At/huhtAF8dpa3LcOaE=",
+    "originContent": "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE",
+    "translatedContent": "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE"
+  },
+  {
+    "row": 182,
+    "rowsha": "2EKUEweHqGAPrmh06ntaxm75mKmb6Jasj34Acdz+wGM=",
+    "originContent": "SOFTWARE.",
+    "translatedContent": "SOFTWARE."
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "T9yICet88o8MYsaOc9lQNBQDcvRPuRhDnKhrdlrJP48=",
+    "originContent": "See [LICENSE](LICENSE) and [Cargo.toml](https://raw.githubusercontent.com/grouzen/framework-tool-tui/main/Cargo.toml:1) for license & dependencies.",
+    "translatedContent": "ライセンスおよび依存関係については、[LICENSE](LICENSE) および [Cargo.toml](https://raw.githubusercontent.com/grouzen/framework-tool-tui/main/Cargo.toml:1) を参照してください。"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
