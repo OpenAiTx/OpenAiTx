@@ -1,0 +1,1393 @@
+[
+  {
+    "Id": 1,
+    "Content": "<h1 align=\"center\">\n  Learning the language of protein-protein interactions \n</h1>\n\n## 🌿 Overview of MINT\n\nMINT (Multimeric INteraction Transformer) is a Protein Language Model (PLM) designed for **contextual and scalable** modeling of interacting protein sequences. Trained on a large, curated set of **96 million protein-protein interactions (PPIs)** from the STRING database, MINT outperforms existing PLMs across diverse tasks and protein types, including:\n\n- Binding affinity prediction\n- Mutational effect estimation\n- Complex protein assembly modeling\n- Antibody-antigen interaction modeling\n- T cell receptor–epitope binding prediction\n\n🔬 **Why MINT?**\n\n✅ First PLM to be trained on large-scale PPI data\n\n✅ State-of-the-art performance across multiple PPI tasks\n\n✅ Scalable and adaptable for diverse protein interactions\n\n## 🖥️ Installation \n\n1. Create a new [conda](https://docs.anaconda.com/miniconda/install/) environment from the provided `enviroment.yml` file. \n",
+    "ContentSha": "cDbB4qOYBVkALK6ZoDXfAdcqJJwmINGvS3TNcCinIcA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h1 align=\"center\">\n  Learning the language of protein-protein interactions \n</h1>\n\n## 🌿 Overview of MINT\n\nMINT (Multimeric INteraction Transformer) is a Protein Language Model (PLM) designed for **contextual and scalable** modeling of interacting protein sequences. Trained on a large, curated set of **96 million protein-protein interactions (PPIs)** from the STRING database, MINT outperforms existing PLMs across diverse tasks and protein types, including:\n\n- Binding affinity prediction\n- Mutational effect estimation\n- Complex protein assembly modeling\n- Antibody-antigen interaction modeling\n- T cell receptor–epitope binding prediction\n\n🔬 **Why MINT?**\n\n✅ First PLM to be trained on large-scale PPI data\n\n✅ State-of-the-art performance across multiple PPI tasks\n\n✅ Scalable and adaptable for diverse protein interactions\n\n## 🖥️ Installation \n\n1. Create a new [conda](https://docs.anaconda.com/miniconda/install/) environment from the provided `enviroment.yml` file. \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KxBpkukaXgEZWw7xxhGlTSRDVJakr4sBw+2/l9R7Xgs=",
+        "originContent": "<h1 align=\"center\">",
+        "translatedContent": "<h1 align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "gVXa++/2YgefDyxA0v5oHcMZkmGtWKwOJP0NHYlir7Y=",
+        "originContent": "  Learning the language of protein-protein interactions ",
+        "translatedContent": "  Learning the language of protein-protein interactions "
+      },
+      {
+        "row": 3,
+        "rowsha": "jx7VTIaGwMtwY3ZiSh8xEG0MuMzGD34Xs/9PCAcDvw8=",
+        "originContent": "</h1>",
+        "translatedContent": "</h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "MsUWo4PvnP5XmzDE8ukjpqJG6xsMbF/x2G8aF7UAlR0=",
+        "originContent": "## 🌿 Overview of MINT",
+        "translatedContent": "## 🌿 Overview of MINT"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "dEnl9PWrAdYAbRJFP6c4ku/CzAtLQtvBLRSnotTZiVo=",
+        "originContent": "MINT (Multimeric INteraction Transformer) is a Protein Language Model (PLM) designed for **contextual and scalable** modeling of interacting protein sequences. Trained on a large, curated set of **96 million protein-protein interactions (PPIs)** from the STRING database, MINT outperforms existing PLMs across diverse tasks and protein types, including:",
+        "translatedContent": "MINT (Multimeric INteraction Transformer) is a Protein Language Model (PLM) designed for **contextual and scalable** modeling of interacting protein sequences. Trained on a large, curated set of **96 million protein-protein interactions (PPIs)** from the STRING database, MINT outperforms existing PLMs across diverse tasks and protein types, including:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "XHHESZxVuvXtm6oNBAOtXPPy3WJFfxI0rTy4xhjEr5c=",
+        "originContent": "- Binding affinity prediction",
+        "translatedContent": "- Binding affinity prediction"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZllnG/ULcw21YoLEkM2Uw5rAFqRpD2NiDFJtWQjpVCE=",
+        "originContent": "- Mutational effect estimation",
+        "translatedContent": "- Mutational effect estimation"
+      },
+      {
+        "row": 11,
+        "rowsha": "l5PO/u6H5hP8m3iUSQf4iA+9xZgJdpg5tLULDUPgfxE=",
+        "originContent": "- Complex protein assembly modeling",
+        "translatedContent": "- Complex protein assembly modeling"
+      },
+      {
+        "row": 12,
+        "rowsha": "K0VdseYH/6RHgD6brnie1V1U25IVQi4IYKc8c53XWao=",
+        "originContent": "- Antibody-antigen interaction modeling",
+        "translatedContent": "- Antibody-antigen interaction modeling"
+      },
+      {
+        "row": 13,
+        "rowsha": "em+GejZmHnS36Qu2E9QW1ssn7XoO9ZyoA01FJOHFE3Q=",
+        "originContent": "- T cell receptor–epitope binding prediction",
+        "translatedContent": "- T cell receptor–epitope binding prediction"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "K++6oCWJAhYRf0iKQNOo2UmJFAWWG9hcKJpq6mTi9OA=",
+        "originContent": "🔬 **Why MINT?**",
+        "translatedContent": "🔬 **Why MINT?**"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "QKbju1+7xmahnvNDYdVwxNrA9ygcZs27TXE+iRz8NoA=",
+        "originContent": "✅ First PLM to be trained on large-scale PPI data",
+        "translatedContent": "✅ First PLM to be trained on large-scale PPI data"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "T92w5QIv6k71OEsk+srY9Wk/Pwg5u2zqtIumS5ahnHY=",
+        "originContent": "✅ State-of-the-art performance across multiple PPI tasks",
+        "translatedContent": "✅ State-of-the-art performance across multiple PPI tasks"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "GhUHQPTkkiOfS09deQNtFk9NzNkjAC+ArHzLbUpTLfo=",
+        "originContent": "✅ Scalable and adaptable for diverse protein interactions",
+        "translatedContent": "✅ Scalable and adaptable for diverse protein interactions"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "X2Ay6XyENQQiY1DqKrLr+zPELR201ZrDGV4b7f0+ihk=",
+        "originContent": "## 🖥️ Installation ",
+        "translatedContent": "## 🖥️ Installation "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "oa/6DiMhkP/i3ZmXWC+J9Jc3pHfDionFlfHKaO1hNPM=",
+        "originContent": "1. Create a new [conda](https://docs.anaconda.com/miniconda/install/) environment from the provided `enviroment.yml` file. ",
+        "translatedContent": "1. Create a new [conda](https://docs.anaconda.com/miniconda/install/) environment from the provided `enviroment.yml` file. "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nconda env create --name mint --file=environment.yml\n```",
+    "ContentSha": "ISS9oWygqVltgpMMp5b+hJ6asCkfqqkIXF7yfvIhTg0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nconda env create --name mint --file=environment.yml\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "xPaiNtU4eAu/UJ9OybcCPMtpzqC8JmFxgKKG2OktIBI=",
+        "originContent": "conda env create --name mint --file=environment.yml",
+        "translatedContent": "conda env create --name mint --file=environment.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Activate the enviroment and install the package from source.\n",
+    "ContentSha": "/rUKVsJM8kfx6d/JHxQMZXa+Pbgi0sGJMCFSrnDPc/8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Activate the environment and install the package from source.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Activate the environment and install the package from source."
+      },
+      {
+        "row": 2,
+        "rowsha": "ZC77dC4YnhhwtIUoAvYNKXe2pLd++QVUTX/id+yJM3o=",
+        "originContent": "2. Activate the enviroment and install the package from source.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nconda activate mint\npip install -e .\n```",
+    "ContentSha": "jDxhogKd/THC7DplAaM4vg+4ZSA3TfU7HLK3Vzg03CI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nconda activate mint\npip install -e .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "EYyKB9czbGeqyEOZyc1Z9faqa9jV1sQIxQRYzYTs7ew=",
+        "originContent": "conda activate mint",
+        "translatedContent": "conda activate mint"
+      },
+      {
+        "row": 3,
+        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+        "originContent": "pip install -e .",
+        "translatedContent": "pip install -e ."
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. Check if you are able to import the package.\n",
+    "ContentSha": "iv5ZXW9AyNkqrN7s7IZxG2FJBwhceHC4a3Zk8cbQSIE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Check if you are able to import the package.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Check if you are able to import the package."
+      },
+      {
+        "row": 2,
+        "rowsha": "mXcHkWLQiQUJe5AX20UHw3SlbWH8Vyu0QEwH/53EsfI=",
+        "originContent": "3. Check if you are able to import the package.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\npython -c \"import mint; print('Success')\" \n```",
+    "ContentSha": "WF4jtmtZZHpkXkBZiV+HUKIfO8LeizalR9GWwEPN+0c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython -c \"import mint; print('Success')\" \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "qK9zOt8T7zqdg+wL0ZOe/KaluYArQsEy56QZ8MmIIiI=",
+        "originContent": "python -c \"import mint; print('Success')\" ",
+        "translatedContent": "python -c \"import mint; print('Success')\" "
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4. Download the model checkpoint and note the file path where it is stored.\n",
+    "ContentSha": "+qld5trdI4ISEjWDreMWbNXRWx/tn/Pg4XYvzwvsoB4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. Download the model checkpoint and note the file path where it is stored.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. Download the model checkpoint and note the file path where it is stored."
+      },
+      {
+        "row": 2,
+        "rowsha": "2Hkh03CjFOPUgACnO7CkiIncxMZwVQK6gKOd5nfUOp4=",
+        "originContent": "4. Download the model checkpoint and note the file path where it is stored.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nwget https://huggingface.co/varunullanat2012/mint/resolve/main/mint.ckpt\n```",
+    "ContentSha": "w3WD0Zy59VL3oz3Pm4k30g9PI+6eHLlhkP3tGo+okns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nwget https://huggingface.co/varunullanat2012/mint/resolve/main/mint.ckpt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Wt2VOozdEsi3GT2zMS3kjypXG66VyB/SiLphTvJU0xM=",
+        "originContent": "wget https://huggingface.co/varunullanat2012/mint/resolve/main/mint.ckpt",
+        "translatedContent": "wget https://huggingface.co/varunullanat2012/mint/resolve/main/mint.ckpt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 🚀 How to use \n\n### Generating embeddings\n\nWe suggest generating embeddings from a CSV file containing the interacting sequences like this one [here](https://raw.githubusercontent.com/VarunUllanat/mint/main/./data/protein_sequences.csv). Next, simply execute the following code to get average embeddings over all input sequences. \n",
+    "ContentSha": "PvkBcHCHK+P3iIrFtKm6/oarmoWxQ1t7K70YFhk1s9w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🚀 How to use \n\n### Generating embeddings\n\nWe suggest generating embeddings from a CSV file containing the interacting sequences like this one [here](https://raw.githubusercontent.com/VarunUllanat/mint/main/./data/protein_sequences.csv). Next, simply execute the following code to get average embeddings over all input sequences. \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4mkUd3azQUbTDbKt6cRVi9LU4RnvQaPq9khYqUQtLSQ=",
+        "originContent": "## 🚀 How to use ",
+        "translatedContent": "## 🚀 How to use "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lwucQUWg1OsRjhcbi1xJLv+qIG5mgkoUdpxKCycxBas=",
+        "originContent": "### Generating embeddings",
+        "translatedContent": "### Generating embeddings"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "KogjVxcBoyP8LzJX00O0YWg2WKUY57u7IO0vo41RaWk=",
+        "originContent": "We suggest generating embeddings from a CSV file containing the interacting sequences like this one [here](https://raw.githubusercontent.com/VarunUllanat/mint/main/./data/protein_sequences.csv). Next, simply execute the following code to get average embeddings over all input sequences. ",
+        "translatedContent": "We suggest generating embeddings from a CSV file containing the interacting sequences like this one [here](https://raw.githubusercontent.com/VarunUllanat/mint/main/./data/protein_sequences.csv). Next, simply execute the following code to get average embeddings over all input sequences. "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nimport torch\nfrom mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper\n\ncfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config\ndevice = 'cuda:0' # GPU device\ncheckpoint_path = '' # Where you stored the model checkpoint\n\ndataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')\nloader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) \n\nwrapper = MINTWrapper(cfg, checkpoint_path, device=device)\n\nchains, chain_ids = next(iter(loader)) # Get the first batch\nchains = chains.to(device)\nchain_ids = chain_ids.to(device)\nembeddings = wrapper(chains, chain_ids)  # Generate embeddings\nprint(embeddings.shape) # Should be of shape (2, 1280)\n```",
+    "ContentSha": "0gFM8QQhB4C14AWoAchSUxdTA7ZtjafYTx83dPg+Unw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nimport torch\nfrom mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper\n\ncfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config\ndevice = 'cuda:0' # GPU device\ncheckpoint_path = '' # Where you stored the model checkpoint\n\ndataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')\nloader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) \n\nwrapper = MINTWrapper(cfg, checkpoint_path, device=device)\n\nchains, chain_ids = next(iter(loader)) # Get the first batch\nchains = chains.to(device)\nchain_ids = chain_ids.to(device)\nembeddings = wrapper(chains, chain_ids)  # Generate embeddings\nprint(embeddings.shape) # Should be of shape (2, 1280)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zxBw06FvJLIw2Dd3RSqpYlDRFQTGQfTrh4zBDzR9Gvo=",
+        "originContent": "import torch",
+        "translatedContent": "import torch"
+      },
+      {
+        "row": 3,
+        "rowsha": "vnU23jKxUN/M8GaRwJKhftwdP0+N+RTB16q7S4N3tg8=",
+        "originContent": "from mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper",
+        "translatedContent": "from mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tnkeMLnMJsHDofPMWL/aAlBKXDPTslR8zjVqPfWTtqk=",
+        "originContent": "cfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config",
+        "translatedContent": "cfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config"
+      },
+      {
+        "row": 6,
+        "rowsha": "ULaU8oaQb+OkrEqU5qmb8Udzg3ivJa91oLGU2BnvDqE=",
+        "originContent": "device = 'cuda:0' # GPU device",
+        "translatedContent": "device = 'cuda:0' # GPU device"
+      },
+      {
+        "row": 7,
+        "rowsha": "QLomxGbQxCwnxtqwM34pUyaZTWoHJ/mQSO+8Aa65fBQ=",
+        "originContent": "checkpoint_path = '' # Where you stored the model checkpoint",
+        "translatedContent": "checkpoint_path = '' # Where you stored the model checkpoint"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "vojIr7ox29w9lJmruyKsHK/SqMyli4BphWzJSIWsPrc=",
+        "originContent": "dataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')",
+        "translatedContent": "dataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')"
+      },
+      {
+        "row": 10,
+        "rowsha": "VVUVyRtTeVzOkiDVtVXsg8u0Vi30M9q69z6iISwBXxs=",
+        "originContent": "loader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) ",
+        "translatedContent": "loader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Zp2sxoLNVhxFv0wp2VAoHa78Y0ZtC3p33n3PoLBpN5A=",
+        "originContent": "wrapper = MINTWrapper(cfg, checkpoint_path, device=device)",
+        "translatedContent": "wrapper = MINTWrapper(cfg, checkpoint_path, device=device)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "PykTPxZt5VwOT2ASAVbBhdpdTyxA6O/18Oxe7g6kAKo=",
+        "originContent": "chains, chain_ids = next(iter(loader)) # Get the first batch",
+        "translatedContent": "chains, chain_ids = next(iter(loader)) # Get the first batch"
+      },
+      {
+        "row": 15,
+        "rowsha": "VRrhGzNg1OGpOEi5SnqslJSqSzArFYKfOkBbtbHeIjE=",
+        "originContent": "chains = chains.to(device)",
+        "translatedContent": "chains = chains.to(device)"
+      },
+      {
+        "row": 16,
+        "rowsha": "ScER8MEVpPaINDTAGrZYvqACL9sHPJP1eUYujuLkaHA=",
+        "originContent": "chain_ids = chain_ids.to(device)",
+        "translatedContent": "chain_ids = chain_ids.to(device)"
+      },
+      {
+        "row": 17,
+        "rowsha": "+sdR06q8o/12Fa9TC5v8sNRv9jDFu0fw2sbJqNjtdQc=",
+        "originContent": "embeddings = wrapper(chains, chain_ids)  # Generate embeddings",
+        "translatedContent": "embeddings = wrapper(chains, chain_ids)  # Generate embeddings"
+      },
+      {
+        "row": 18,
+        "rowsha": "4nt17NIliL2nFfYXPP6oPdCPEgvuFZeIZnrSEW9oEWs=",
+        "originContent": "print(embeddings.shape) # Should be of shape (2, 1280)",
+        "translatedContent": "print(embeddings.shape) # Should be of shape (2, 1280)"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nHowever, we **recommend** using the `sep_chains=True` argument in the wrapper class for maximum performance on downstream tasks. This gets the sequence-level embedding for **all sequences**, and returns it concatenated in the same order as the input. \n",
+    "ContentSha": "3AtJr57Pm09EOM5ZXiTrf4qdnL6KjBAmaf4d1JQcdG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "However, we **recommend** using the `sep_chains=True` argument in the wrapper class for maximum performance on downstream tasks. This obtains the sequence-level embedding for **all sequences**, and returns it concatenated in the same order as the input.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "However, we **recommend** using the `sep_chains=True` argument in the wrapper class for maximum performance on downstream tasks. This obtains the sequence-level embedding for **all sequences**, and returns it concatenated in the same order as the input."
+      },
+      {
+        "row": 2,
+        "rowsha": "s9tPyJ2NLonUsl4rGTvvAb/B3qFLtc5ezrLmgsbBQFE=",
+        "originContent": "However, we **recommend** using the `sep_chains=True` argument in the wrapper class for maximum performance on downstream tasks. This gets the sequence-level embedding for **all sequences**, and returns it concatenated in the same order as the input. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\nwrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)\n\nchains, chain_ids = next(iter(loader)) # Get the first batch\nchains = chains.to(device)\nchain_ids = chain_ids.to(device)\nembeddings = wrapper(chains, chain_ids)  # Generate embeddings\nprint(embeddings.shape) # Should be of shape (2, 2560)\n```",
+    "ContentSha": "9NRiO43Y7S/XE+K+MUdWJQey7sht+OcZtz5S9OVO/WY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nwrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)\n\nchains, chain_ids = next(iter(loader)) # Get the first batch\nchains = chains.to(device)\nchain_ids = chain_ids.to(device)\nembeddings = wrapper(chains, chain_ids)  # Generate embeddings\nprint(embeddings.shape) # Should be of shape (2, 2560)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "dAeXTWFIK2hab5w10oiGcEsRW28QEVbN7JEEd+a7V+c=",
+        "originContent": "wrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)",
+        "translatedContent": "wrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PykTPxZt5VwOT2ASAVbBhdpdTyxA6O/18Oxe7g6kAKo=",
+        "originContent": "chains, chain_ids = next(iter(loader)) # Get the first batch",
+        "translatedContent": "chains, chain_ids = next(iter(loader)) # Get the first batch"
+      },
+      {
+        "row": 5,
+        "rowsha": "VRrhGzNg1OGpOEi5SnqslJSqSzArFYKfOkBbtbHeIjE=",
+        "originContent": "chains = chains.to(device)",
+        "translatedContent": "chains = chains.to(device)"
+      },
+      {
+        "row": 6,
+        "rowsha": "ScER8MEVpPaINDTAGrZYvqACL9sHPJP1eUYujuLkaHA=",
+        "originContent": "chain_ids = chain_ids.to(device)",
+        "translatedContent": "chain_ids = chain_ids.to(device)"
+      },
+      {
+        "row": 7,
+        "rowsha": "+sdR06q8o/12Fa9TC5v8sNRv9jDFu0fw2sbJqNjtdQc=",
+        "originContent": "embeddings = wrapper(chains, chain_ids)  # Generate embeddings",
+        "translatedContent": "embeddings = wrapper(chains, chain_ids)  # Generate embeddings"
+      },
+      {
+        "row": 8,
+        "rowsha": "zYU/5q1i18swdF72RzQZbsqr7dyBJCSZEYZszL2v41E=",
+        "originContent": "print(embeddings.shape) # Should be of shape (2, 2560)",
+        "translatedContent": "print(embeddings.shape) # Should be of shape (2, 2560)"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Binary PPI classification\n\nWe provide code and a [model checkpoint](https://huggingface.co/varunullanat2012/mint/blob/main/bernett_mlp.pth) to predict whether two input sequences interact or not. The downstream model, which is an MLP, is trained using the gold-standard data from [Bernett et al.](./downstream/GeneralPPI/ppi). \n",
+    "ContentSha": "JIOFwrpM741N3/aaK75Fts9NJEMMYRGNeyXsho8ir88=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Binary PPI classification\n\nWe provide code and a [model checkpoint](https://huggingface.co/varunullanat2012/mint/blob/main/bernett_mlp.pth) to predict whether two input sequences interact or not. The downstream model, which is an MLP, is trained using the gold-standard data from [Bernett et al.](./downstream/GeneralPPI/ppi). \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FIJZr/I1Usl6K509IXIs8+84DvMSF2YQNJVfEHIJYRo=",
+        "originContent": "### Binary PPI classification",
+        "translatedContent": "### Binary PPI classification"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "kOLSv3TyUplWEmz/ETe/gysF927BWVdDpOWKTecpJcY=",
+        "originContent": "We provide code and a [model checkpoint](https://huggingface.co/varunullanat2012/mint/blob/main/bernett_mlp.pth) to predict whether two input sequences interact or not. The downstream model, which is an MLP, is trained using the gold-standard data from [Bernett et al.](./downstream/GeneralPPI/ppi). ",
+        "translatedContent": "We provide code and a [model checkpoint](https://huggingface.co/varunullanat2012/mint/blob/main/bernett_mlp.pth) to predict whether two input sequences interact or not. The downstream model, which is an MLP, is trained using the gold-standard data from [Bernett et al.](./downstream/GeneralPPI/ppi). "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\nimport torch\nfrom mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper\nfrom mint.helpers.predict import SimpleMLP\n\ncfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config\ndevice = 'cuda:0' # GPU device\ncheckpoint_path = 'mint.ckpt' # Where you stored the model checkpoint\nmlp_checkpoint_path = 'bernett_mlp.pth' # Where you stored the Bernett MLP checkpoint\n\ndataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')\nloader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) \n\nwrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)\n\n# Generate embeddings \nchains, chain_ids = next(iter(loader)) \nchains = chains.to(device)\nchain_ids = chain_ids.to(device)\nembeddings = wrapper(chains, chain_ids) # Should be of shape (2, 2560)\n\n# Predict using trained MLP\nmodel = SimpleMLP() \nmlp_checkpoint = torch.load(mlp_checkpoint_path)\nmodel.load_state_dict(mlp_checkpoint)\nmodel.eval()\nmodel.to(device)\n\npredictions = torch.sigmoid(model(embeddings)) # Should be of shape (2, 1)\nprint(predictions) # Probability of interaction (0 is no, 1 is yes)\n```",
+    "ContentSha": "cqFRZme94CLIHjb902zygTiFfYGncWINECq1xI4VzLo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nimport torch\nfrom mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper\nfrom mint.helpers.predict import SimpleMLP\n\ncfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config\ndevice = 'cuda:0' # GPU device\ncheckpoint_path = 'mint.ckpt' # Where you stored the model checkpoint\nmlp_checkpoint_path = 'bernett_mlp.pth' # Where you stored the Bernett MLP checkpoint\n\ndataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')\nloader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) \n\nwrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)\n\n# Generate embeddings \nchains, chain_ids = next(iter(loader)) \nchains = chains.to(device)\nchain_ids = chain_ids.to(device)\nembeddings = wrapper(chains, chain_ids) # Should be of shape (2, 2560)\n\n# Predict using trained MLP\nmodel = SimpleMLP() \nmlp_checkpoint = torch.load(mlp_checkpoint_path)\nmodel.load_state_dict(mlp_checkpoint)\nmodel.eval()\nmodel.to(device)\n\npredictions = torch.sigmoid(model(embeddings)) # Should be of shape (2, 1)\nprint(predictions) # Probability of interaction (0 is no, 1 is yes)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zxBw06FvJLIw2Dd3RSqpYlDRFQTGQfTrh4zBDzR9Gvo=",
+        "originContent": "import torch",
+        "translatedContent": "import torch"
+      },
+      {
+        "row": 3,
+        "rowsha": "vnU23jKxUN/M8GaRwJKhftwdP0+N+RTB16q7S4N3tg8=",
+        "originContent": "from mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper",
+        "translatedContent": "from mint.helpers.extract import load_config, CSVDataset, CollateFn, MINTWrapper"
+      },
+      {
+        "row": 4,
+        "rowsha": "5fUKivAn+/W5IOB9U+/IjMclSlehZZVheHIS4tzO2xI=",
+        "originContent": "from mint.helpers.predict import SimpleMLP",
+        "translatedContent": "from mint.helpers.predict import SimpleMLP"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "tnkeMLnMJsHDofPMWL/aAlBKXDPTslR8zjVqPfWTtqk=",
+        "originContent": "cfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config",
+        "translatedContent": "cfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config"
+      },
+      {
+        "row": 7,
+        "rowsha": "ULaU8oaQb+OkrEqU5qmb8Udzg3ivJa91oLGU2BnvDqE=",
+        "originContent": "device = 'cuda:0' # GPU device",
+        "translatedContent": "device = 'cuda:0' # GPU device"
+      },
+      {
+        "row": 8,
+        "rowsha": "ZiLtK1FxVBX17Ng8sZ58vs0xGZR+3Y0SdBG8BPJdgGE=",
+        "originContent": "checkpoint_path = 'mint.ckpt' # Where you stored the model checkpoint",
+        "translatedContent": "checkpoint_path = 'mint.ckpt' # Where you stored the model checkpoint"
+      },
+      {
+        "row": 9,
+        "rowsha": "/qVCDvIww7ijnSKdUYiTpitps6MQq5CmK6GjQwL7VNg=",
+        "originContent": "mlp_checkpoint_path = 'bernett_mlp.pth' # Where you stored the Bernett MLP checkpoint",
+        "translatedContent": "mlp_checkpoint_path = 'bernett_mlp.pth' # Where you stored the Bernett MLP checkpoint"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "vojIr7ox29w9lJmruyKsHK/SqMyli4BphWzJSIWsPrc=",
+        "originContent": "dataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')",
+        "translatedContent": "dataset = CSVDataset('data/protein_sequences.csv', 'Protein_Sequence_1', 'Protein_Sequence_2')"
+      },
+      {
+        "row": 12,
+        "rowsha": "VVUVyRtTeVzOkiDVtVXsg8u0Vi30M9q69z6iISwBXxs=",
+        "originContent": "loader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) ",
+        "translatedContent": "loader = torch.utils.data.DataLoader(dataset, batch_size=2, collate_fn=CollateFn(512), shuffle=False) "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "dAeXTWFIK2hab5w10oiGcEsRW28QEVbN7JEEd+a7V+c=",
+        "originContent": "wrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)",
+        "translatedContent": "wrapper = MINTWrapper(cfg, checkpoint_path, sep_chains=True, device=device)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "KFjq+0PbduM0oFFpGks2iTxG7D3BZhMfXPer/HKfu48=",
+        "originContent": "# Generate embeddings ",
+        "translatedContent": "# Generate embeddings "
+      },
+      {
+        "row": 17,
+        "rowsha": "ZbFYAxP4uTA6IOcLrzUJS4YOUdKbjWJCVyVCXnTsYCo=",
+        "originContent": "chains, chain_ids = next(iter(loader)) ",
+        "translatedContent": "chains, chain_ids = next(iter(loader)) "
+      },
+      {
+        "row": 18,
+        "rowsha": "VRrhGzNg1OGpOEi5SnqslJSqSzArFYKfOkBbtbHeIjE=",
+        "originContent": "chains = chains.to(device)",
+        "translatedContent": "chains = chains.to(device)"
+      },
+      {
+        "row": 19,
+        "rowsha": "ScER8MEVpPaINDTAGrZYvqACL9sHPJP1eUYujuLkaHA=",
+        "originContent": "chain_ids = chain_ids.to(device)",
+        "translatedContent": "chain_ids = chain_ids.to(device)"
+      },
+      {
+        "row": 20,
+        "rowsha": "ug/wrWpeT+/NOFlshQZWZrjlu9QrMiO2lJYQJZJUpH4=",
+        "originContent": "embeddings = wrapper(chains, chain_ids) # Should be of shape (2, 2560)",
+        "translatedContent": "embeddings = wrapper(chains, chain_ids) # Should be of shape (2, 2560)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "2+aIizqSNS3grDaeJEehoFUCQBBTiQ+73dKcNJTfadY=",
+        "originContent": "# Predict using trained MLP",
+        "translatedContent": "# Predict using trained MLP"
+      },
+      {
+        "row": 23,
+        "rowsha": "bVXfRQLgmHIKyDPaPoeLzCQoCDfndqrMkoYf/y+V9Jc=",
+        "originContent": "model = SimpleMLP() ",
+        "translatedContent": "model = SimpleMLP() "
+      },
+      {
+        "row": 24,
+        "rowsha": "mL0ywQMDA4OGXgeF0E0HxMA2lY99BDwxNN5ZzHnkZJ4=",
+        "originContent": "mlp_checkpoint = torch.load(mlp_checkpoint_path)",
+        "translatedContent": "mlp_checkpoint = torch.load(mlp_checkpoint_path)"
+      },
+      {
+        "row": 25,
+        "rowsha": "g80XmNL8HWcHbSb88hHO+AW6ge4E93trz/+39S73KV8=",
+        "originContent": "model.load_state_dict(mlp_checkpoint)",
+        "translatedContent": "model.load_state_dict(mlp_checkpoint)"
+      },
+      {
+        "row": 26,
+        "rowsha": "Rb8BDIlFyFgkAmRJUXN5SNzGHNqPQYy0y4z4W64hAZs=",
+        "originContent": "model.eval()",
+        "translatedContent": "model.eval()"
+      },
+      {
+        "row": 27,
+        "rowsha": "OsDjFe8En/dL+1tDlWmFkPCg4PFgSgCazKECcMrI9Bw=",
+        "originContent": "model.to(device)",
+        "translatedContent": "model.to(device)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "FIWz4JWrDWGm0K4TCoPMHRlaENQNlYL4H9G21qmpbAE=",
+        "originContent": "predictions = torch.sigmoid(model(embeddings)) # Should be of shape (2, 1)",
+        "translatedContent": "predictions = torch.sigmoid(model(embeddings)) # Should be of shape (2, 1)"
+      },
+      {
+        "row": 30,
+        "rowsha": "6XTtCufH2qIBrjZw+tE2sktKwPG0X3EdjFiUOU193U0=",
+        "originContent": "print(predictions) # Probability of interaction (0 is no, 1 is yes)",
+        "translatedContent": "print(predictions) # Probability of interaction (0 is no, 1 is yes)"
+      },
+      {
+        "row": 31,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Finetuning \n\nTo finetune our model on a new supervised dataset, simply set the `freeze_percent` parameter to anything other than 1. Setting it to 0.5 means the last 50% of the model layers can be trained. For example, \n",
+    "ContentSha": "3HzXdiUcUU4GflW1CBp1X5jSWnHBp3mXPOYT2LJ3iDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Finetuning \n\nTo finetune our model on a new supervised dataset, simply set the `freeze_percent` parameter to anything other than 1. Setting it to 0.5 means the last 50% of the model layers can be trained. For example, \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KnbF3yUDUQB7+a3CJSoHOIMSe4nN6JBqjBTfcRWNrgQ=",
+        "originContent": "### Finetuning ",
+        "translatedContent": "### Finetuning "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "C4sCKQdZa6RvpRw51673LKAqkJPI/dkMeVEnp0VKHjA=",
+        "originContent": "To finetune our model on a new supervised dataset, simply set the `freeze_percent` parameter to anything other than 1. Setting it to 0.5 means the last 50% of the model layers can be trained. For example, ",
+        "translatedContent": "To finetune our model on a new supervised dataset, simply set the `freeze_percent` parameter to anything other than 1. Setting it to 0.5 means the last 50% of the model layers can be trained. For example, "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\nimport torch\nfrom mint.helpers.extract import MINTWrapper\n\ncfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config\ndevice = 'cuda:0' # GPU device\ncheckpoint_path = '' # path where you stored the model checkpoint\n\nwrapper = MINTWrapper(cfg, checkpoint_path, freeze_percent=0.5, device=device)\nfor name, param in wrapper.model.named_parameters():\n    print(f\"Parameter: {name}, Trainable: {param.requires_grad}\")\n```",
+    "ContentSha": "z8xwE5ahDucIv3QBHLcQVYZ4jrzae2FY7ZjWeYS9Fa4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nimport torch\nfrom mint.helpers.extract import MINTWrapper\n\ncfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config\ndevice = 'cuda:0' # GPU device\ncheckpoint_path = '' # path where you stored the model checkpoint\n\nwrapper = MINTWrapper(cfg, checkpoint_path, freeze_percent=0.5, device=device)\nfor name, param in wrapper.model.named_parameters():\n    print(f\"Parameter: {name}, Trainable: {param.requires_grad}\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zxBw06FvJLIw2Dd3RSqpYlDRFQTGQfTrh4zBDzR9Gvo=",
+        "originContent": "import torch",
+        "translatedContent": "import torch"
+      },
+      {
+        "row": 3,
+        "rowsha": "7B/AtCDks4STM2TGWnsgjUWcKhCGgMFQebi3mkIpkZg=",
+        "originContent": "from mint.helpers.extract import MINTWrapper",
+        "translatedContent": "from mint.helpers.extract import MINTWrapper"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tnkeMLnMJsHDofPMWL/aAlBKXDPTslR8zjVqPfWTtqk=",
+        "originContent": "cfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config",
+        "translatedContent": "cfg = load_config(\"data/esm2_t33_650M_UR50D.json\") # model config"
+      },
+      {
+        "row": 6,
+        "rowsha": "ULaU8oaQb+OkrEqU5qmb8Udzg3ivJa91oLGU2BnvDqE=",
+        "originContent": "device = 'cuda:0' # GPU device",
+        "translatedContent": "device = 'cuda:0' # GPU device"
+      },
+      {
+        "row": 7,
+        "rowsha": "csyoMjfvWiZlvszEICZIiqVqZiloCG7sPEn+r22Fe6U=",
+        "originContent": "checkpoint_path = '' # path where you stored the model checkpoint",
+        "translatedContent": "checkpoint_path = '' # path where you stored the model checkpoint"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "VrZSsMtu39ioYxPIOWcdTzEqGrW3AuQqjdswk6RmxF0=",
+        "originContent": "wrapper = MINTWrapper(cfg, checkpoint_path, freeze_percent=0.5, device=device)",
+        "translatedContent": "wrapper = MINTWrapper(cfg, checkpoint_path, freeze_percent=0.5, device=device)"
+      },
+      {
+        "row": 10,
+        "rowsha": "p3uj6On2tAO9+XeHAERKyey1vGjONEccZWO02WESNWE=",
+        "originContent": "for name, param in wrapper.model.named_parameters():",
+        "translatedContent": "for name, param in wrapper.model.named_parameters():"
+      },
+      {
+        "row": 11,
+        "rowsha": "E6YbVfM7hrqaYp1FD9CVX17zEhK6DLJHus8uGrrTul0=",
+        "originContent": "    print(f\"Parameter: {name}, Trainable: {param.requires_grad}\")",
+        "translatedContent": "    print(f\"Parameter: {name}, Trainable: {param.requires_grad}\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Pre-training on STRING-DB \n\nThis section outlines the steps required to pretrain MINT on PPIs from STRING-DB. First, to create the train-validation splits we used, first download `protein.physical.links.v12.0.txt.gz` and `protein.sequences.v12.0.fa.gz` from [STRING-DB](https://stringdb-downloads.org/download/). \n\nThen, run the following commands to cluster the sequences using a 50% sequence similarity threshold using [mmseqs](https://github.com/soedinglab/MMseqs2).\n",
+    "ContentSha": "ykemd/QHsUV5WF9iFCvQsfRjMJE9FA4Ipt5nZRvpy/Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Pre-training on STRING-DB \n\nThis section outlines the steps required to pretrain MINT on PPIs from STRING-DB. First, to create the train-validation splits we used, first download `protein.physical.links.v12.0.txt.gz` and `protein.sequences.v12.0.fa.gz` from [STRING-DB](https://stringdb-downloads.org/download/). \n\nThen, run the following commands to cluster the sequences using a 50% sequence similarity threshold using [mmseqs](https://github.com/soedinglab/MMseqs2).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BAg5hJmU8l2Gu6j2/G4KGUkAD6I1CnQQ2X3e4Ygs5zQ=",
+        "originContent": "### Pre-training on STRING-DB ",
+        "translatedContent": "### Pre-training on STRING-DB "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hFyYWF/+9YhvBs+layZKV8ekwvIKgJ1H2KXR4Uw+bBk=",
+        "originContent": "This section outlines the steps required to pretrain MINT on PPIs from STRING-DB. First, to create the train-validation splits we used, first download `protein.physical.links.v12.0.txt.gz` and `protein.sequences.v12.0.fa.gz` from [STRING-DB](https://stringdb-downloads.org/download/). ",
+        "translatedContent": "This section outlines the steps required to pretrain MINT on PPIs from STRING-DB. First, to create the train-validation splits we used, first download `protein.physical.links.v12.0.txt.gz` and `protein.sequences.v12.0.fa.gz` from [STRING-DB](https://stringdb-downloads.org/download/). "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PHcq2hxm2WtbKw9/+8g856qTg+SSZ/ncVsk9ybhn+Ws=",
+        "originContent": "Then, run the following commands to cluster the sequences using a 50% sequence similarity threshold using [mmseqs](https://github.com/soedinglab/MMseqs2).",
+        "translatedContent": "Then, run the following commands to cluster the sequences using a 50% sequence similarity threshold using [mmseqs](https://github.com/soedinglab/MMseqs2)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\nmmseqs createdb protein.sequences.v12.0.fa DB100\nmmseqs cluster DB100 clu50 /tmp/mmseqs --min-seq-id 0.50 --remove-tmp-files\nmmseqs createtsv DB100 DB100 clu50 clu50.tsv\n```",
+    "ContentSha": "U1kkFQFbPYrpN9xN4hghgDkh+Egja1Uw28zz1AFPpEE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmmseqs createdb protein.sequences.v12.0.fa DB100\nmmseqs cluster DB100 clu50 /tmp/mmseqs --min-seq-id 0.50 --remove-tmp-files\nmmseqs createtsv DB100 DB100 clu50 clu50.tsv\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Vg4hz6FaCcmglaVANBQ7Qjuc5b3SYVR3nQs5ayFHgVI=",
+        "originContent": "mmseqs createdb protein.sequences.v12.0.fa DB100",
+        "translatedContent": "mmseqs createdb protein.sequences.v12.0.fa DB100"
+      },
+      {
+        "row": 3,
+        "rowsha": "KFElvj+dzLI3t4nc3WUzVapBWf9b1QjKUyhNwnC7Bhg=",
+        "originContent": "mmseqs cluster DB100 clu50 /tmp/mmseqs --min-seq-id 0.50 --remove-tmp-files",
+        "translatedContent": "mmseqs cluster DB100 clu50 /tmp/mmseqs --min-seq-id 0.50 --remove-tmp-files"
+      },
+      {
+        "row": 4,
+        "rowsha": "nZSK3pIQW+JLMkmQBWyWJEPSO2Gg1EkuI+zBUW9gCJo=",
+        "originContent": "mmseqs createtsv DB100 DB100 clu50 clu50.tsv",
+        "translatedContent": "mmseqs createtsv DB100 DB100 clu50 clu50.tsv"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nThen, run `stringdb.py`, ensuring that the filepaths in that script match the paths where you stored the `protein.sequences.v12.0.fa`, `clu50.tsv` (output of the previous step), and `protein.physical.links.full.v12.0.txt.gz` files. \n\nFinally, run the training like this:\n",
+    "ContentSha": "Qww3reYusBXuBmh+H8JhGdl2lqTHA9EXYwHdpa4WTAg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nThen, run `stringdb.py`, ensuring that the filepaths in that script match the paths where you stored the `protein.sequences.v12.0.fa`, `clu50.tsv` (output of the previous step), and `protein.physical.links.full.v12.0.txt.gz` files. \n\nFinally, run the training like this:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SSXNqXSRq10V/ecrFNrKuALjdK+AKO96o5WLu+CPnzg=",
+        "originContent": "Then, run `stringdb.py`, ensuring that the filepaths in that script match the paths where you stored the `protein.sequences.v12.0.fa`, `clu50.tsv` (output of the previous step), and `protein.physical.links.full.v12.0.txt.gz` files. ",
+        "translatedContent": "Then, run `stringdb.py`, ensuring that the filepaths in that script match the paths where you stored the `protein.sequences.v12.0.fa`, `clu50.tsv` (output of the previous step), and `protein.physical.links.full.v12.0.txt.gz` files. "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+gv0RzYPZ4fdX3iIF5eutk2cXB1xSJ5f5kIrz45208Q=",
+        "originContent": "Finally, run the training like this:",
+        "translatedContent": "Finally, run the training like this:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```\npython train.py --batch_size 2 --crop_len 512 --model 650M --val_check_interval 320000 --accumulate_grad 32 --run_name 650M_nofreeze_filtered --copy_weights --wandb --dataset_split filtered\n```",
+    "ContentSha": "xe9DPICvAD+MgyotMzFuz0GBPkMXZMYxpEp6c6qa8tI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train.py --batch_size 2 --crop_len 512 --model 650M --val_check_interval 320000 --accumulate_grad 32 --run_name 650M_nofreeze_filtered --copy_weights --wandb --dataset_split filtered\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "DYdP9Fem7PIkFVLU7FvQ3N4aiLEvOd7G+ZXbkkbYqMo=",
+        "originContent": "python train.py --batch_size 2 --crop_len 512 --model 650M --val_check_interval 320000 --accumulate_grad 32 --run_name 650M_nofreeze_filtered --copy_weights --wandb --dataset_split filtered",
+        "translatedContent": "python train.py --batch_size 2 --crop_len 512 --model 650M --val_check_interval 320000 --accumulate_grad 32 --run_name 650M_nofreeze_filtered --copy_weights --wandb --dataset_split filtered"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Examples \n\nWe provide several examples highlighting the use cases of MINT on various supervised tasks and different protein types in the `downstream` folder. \n\n1. [Predict whether two proteins interact or not](./downstream/GeneralPPI/ppi)\n2. [Predict the binding affinity of protein complexes](./downstream/GeneralPPI/pdb-bind)\n3. [Predict whether two proteins interact or not after mutation](./downstream/GeneralPPI/mutational-ppi)\n4. [Predict the difference in binding affinity in protein complexes upon mutation](./downstream/GeneralPPI/SKEMPI_v2)\n\n\n## 📝 Citing \n",
+    "ContentSha": "SrrQnHJI3v+QxHimZN7ylLNrxDar/9sSv0p1BFLkSX8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Examples \n\nWe provide several examples highlighting the use cases of MINT on various supervised tasks and different protein types in the `downstream` folder. \n\n1. [Predict whether two proteins interact or not](./downstream/GeneralPPI/ppi)\n2. [Predict the binding affinity of protein complexes](./downstream/GeneralPPI/pdb-bind)\n3. [Predict whether two proteins interact or not after mutation](./downstream/GeneralPPI/mutational-ppi)\n4. [Predict the difference in binding affinity in protein complexes upon mutation](./downstream/GeneralPPI/SKEMPI_v2)\n\n\n## 📝 Citing \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "U6HJ6OUa2PVYA/dDj2ujQxDhptbhVerhe7Mn1l9rNX4=",
+        "originContent": "### Examples ",
+        "translatedContent": "### Examples "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "xo/H0qk4POSBnEQtCml6IZDeLV4xmXueWioqk/9rwfc=",
+        "originContent": "We provide several examples highlighting the use cases of MINT on various supervised tasks and different protein types in the `downstream` folder. ",
+        "translatedContent": "We provide several examples highlighting the use cases of MINT on various supervised tasks and different protein types in the `downstream` folder. "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SJ1UeFUbpYGH43q05rmZjxACuUeplTy0QuMgK/gd74g=",
+        "originContent": "1. [Predict whether two proteins interact or not](./downstream/GeneralPPI/ppi)",
+        "translatedContent": "1. [Predict whether two proteins interact or not](./downstream/GeneralPPI/ppi)"
+      },
+      {
+        "row": 7,
+        "rowsha": "jlaSQ0Z2KNabNGrBhQOs1QPpb3Q6MTf4hwmEUUWAXjs=",
+        "originContent": "2. [Predict the binding affinity of protein complexes](./downstream/GeneralPPI/pdb-bind)",
+        "translatedContent": "2. [Predict the binding affinity of protein complexes](./downstream/GeneralPPI/pdb-bind)"
+      },
+      {
+        "row": 8,
+        "rowsha": "qQu/l/AUUJ2Ab/+3s46YYMGcmJNuu36YbW8ZaTdqkHc=",
+        "originContent": "3. [Predict whether two proteins interact or not after mutation](./downstream/GeneralPPI/mutational-ppi)",
+        "translatedContent": "3. [Predict whether two proteins interact or not after mutation](./downstream/GeneralPPI/mutational-ppi)"
+      },
+      {
+        "row": 9,
+        "rowsha": "rfk0xMu2URt5cyk2Lu33aw2l4Poeg6Yp9x4PGdOLhGc=",
+        "originContent": "4. [Predict the difference in binding affinity in protein complexes upon mutation](./downstream/GeneralPPI/SKEMPI_v2)",
+        "translatedContent": "4. [Predict the difference in binding affinity in protein complexes upon mutation](./downstream/GeneralPPI/SKEMPI_v2)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ve1BfDny4sDznGEYRVhk4SzZjBt9tXZZWetsWOUikc0=",
+        "originContent": "## 📝 Citing ",
+        "translatedContent": "## 📝 Citing "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```\n@article{ullanat2026learning,\n  title={Learning the language of protein-protein interactions},\n  author={Ullanat, Varun and Jing, Bowen and Sledzieski, Samuel and Berger, Bonnie},\n  journal={Nature Communications},\n  year={2026},\n  publisher={Nature Publishing Group UK London}\n}\n```",
+    "ContentSha": "hKCwdeNtqUuSJmEi8AA0aESecUgT+9mU+cRmigR3teU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@article{ullanat2026learning,\n  title={Learning the language of protein-protein interactions},\n  author={Ullanat, Varun and Jing, Bowen and Sledzieski, Samuel and Berger, Bonnie},\n  journal={Nature Communications},\n  year={2026},\n  publisher={Nature Publishing Group UK London}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OL5q/ER856o9RoemfRJtfyytSYs8hE1+kYWTZf1qVxc=",
+        "originContent": "@article{ullanat2026learning,",
+        "translatedContent": "@article{ullanat2026learning,"
+      },
+      {
+        "row": 3,
+        "rowsha": "F1OGVdXU4zRktbB739hIV49GHpMu9rje1cBHzJu3FHw=",
+        "originContent": "  title={Learning the language of protein-protein interactions},",
+        "translatedContent": "  title={Learning the language of protein-protein interactions},"
+      },
+      {
+        "row": 4,
+        "rowsha": "kFQFoVenv6awLX+5yusSIUXbluG8Gi+BTcuNzqiTZno=",
+        "originContent": "  author={Ullanat, Varun and Jing, Bowen and Sledzieski, Samuel and Berger, Bonnie},",
+        "translatedContent": "  author={Ullanat, Varun and Jing, Bowen and Sledzieski, Samuel and Berger, Bonnie},"
+      },
+      {
+        "row": 5,
+        "rowsha": "wkn0C+j2+OkJPTfWl/kBFW/z2qNH97muVe4JCkQFqSc=",
+        "originContent": "  journal={Nature Communications},",
+        "translatedContent": "  journal={Nature Communications},"
+      },
+      {
+        "row": 6,
+        "rowsha": "DPC8lipgWMRxYg4MfjPyb4VXEhE3+AusEO/Gx4fk6Ss=",
+        "originContent": "  year={2026},",
+        "translatedContent": "  year={2026},"
+      },
+      {
+        "row": 7,
+        "rowsha": "JUg5L95u4edcOPzmFWu4FZ+Y6HXv4Fzjf9Z4+fDF6pg=",
+        "originContent": "  publisher={Nature Publishing Group UK London}",
+        "translatedContent": "  publisher={Nature Publishing Group UK London}"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
