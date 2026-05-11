@@ -1,0 +1,1501 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Raindrop.io MCP Server\n\n[![smithery badge](https://smithery.ai/badge/@adeze/raindrop-mcp)](https://smithery.ai/server/@adeze/raindrop-mcp)\n[![npm version](https://badge.fury.io/js/%40adeze%2Fraindrop-mcp.svg)](https://www.npmjs.com/package/@adeze/raindrop-mcp)\n[![Claude Desktop MCPB](https://img.shields.io/badge/Claude%20Desktop-MCPB-5B61FF?logo=claude&logoColor=white)](https://github.com/adeze/raindrop-mcp/releases)\n\nConnect Raindrop.io to your AI assistant with a simple MCP server. Use it to organize, search, and manage bookmarks with natural language.\n\n## What it can do\n\n- Create, update, and delete collections and bookmarks\n- Search bookmarks by tags, domain, type, date, and more\n- Manage tags (list, rename, merge, delete)\n- Read highlights from bookmarks\n- Bulk edit bookmarks in a collection\n- Audit broken links and duplicates, and manage trash\n\n## Tools\n\n- **diagnostics** - Server diagnostic information and library health metrics\n- **collection_list** - List all collections as a flat list\n- **get_collection_tree** - Hierarchical view of collections with full breadcrumb paths\n- **collection_manage** - Create, update, or delete collections\n- **bookmark_search** - Advanced search with filters, tags, and pagination\n- **bookmark_manage** - Create, update, or delete bookmarks\n- **get_raindrop** - Fetch a single bookmark by ID\n- **list_raindrops** - List bookmarks for a collection with pagination\n- **get_suggestions** - AI-powered organization advice (tags/collections) for a URL or bookmark\n- **suggest_tags** - Suggest relevant tags from bookmark metadata using AI-assisted analysis\n- **bulk_edit_raindrops** - Bulk update, move, or remove bookmarks in a specific collection\n- **tag_manage** - Rename, merge, or delete tags\n- **highlight_manage** - Create, update, or delete highlights\n- **library_audit** - Scan library for broken links, duplicates, and untagged items\n- **empty_trash** - Permanently empty the trash (requires confirmation)\n- **cleanup_collections** - Remove empty collections (requires confirmation)\n- **remove_duplicates** - Find and remove duplicate bookmarks with safe confirmation flow\n\n## Install\n\n### Quick Start (One-Liners)",
+    "ContentSha": "chIhXgyCKWEIGi+UQk5hGMmH0MMFkoBLQHkR1NqDN7U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Raindrop.io MCP 服务器\n\n[![smithery 徽章](https://smithery.ai/badge/@adeze/raindrop-mcp)](https://smithery.ai/server/@adeze/raindrop-mcp)\n[![npm 版本](https://badge.fury.io/js/%40adeze%2Fraindrop-mcp.svg)](https://www.npmjs.com/package/@adeze/raindrop-mcp)\n[![Claude 桌面 MCPB](https://img.shields.io/badge/Claude%20Desktop-MCPB-5B61FF?logo=claude&logoColor=white)](https://github.com/adeze/raindrop-mcp/releases)\n\n使用简单的 MCP 服务器将 Raindrop.io 连接到您的 AI 助手。通过自然语言组织、搜索和管理书签。\n\n## 它能做什么\n\n- 创建、更新和删除集合及书签\n- 按标签、域名、类型、日期等搜索书签\n- 管理标签（列出、重命名、合并、删除）\n- 阅读书签中的高亮内容\n- 批量编辑集合中的书签\n- 审计断链和重复项，管理回收站\n\n## 工具\n\n- **diagnostics** - 服务器诊断信息和库健康指标\n- **collection_list** - 以扁平列表形式列出所有集合\n- **get_collection_tree** - 以层级视图显示集合及完整面包屑路径\n- **collection_manage** - 创建、更新或删除集合\n- **bookmark_search** - 支持筛选、标签和分页的高级搜索\n- **bookmark_manage** - 创建、更新或删除书签\n- **get_raindrop** - 通过 ID 获取单个书签\n- **list_raindrops** - 分页列出某集合的书签\n- **get_suggestions** - 针对 URL 或书签的 AI 驱动组织建议（标签/集合）\n- **suggest_tags** - 通过 AI 辅助分析从书签元数据建议相关标签\n- **bulk_edit_raindrops** - 批量更新、移动或移除指定集合中的书签\n- **tag_manage** - 重命名、合并或删除标签\n- **highlight_manage** - 创建、更新或删除高亮\n- **library_audit** - 扫描库中的断链、重复和无标签项\n- **empty_trash** - 永久清空回收站（需确认）\n- **cleanup_collections** - 删除空集合（需确认）\n- **remove_duplicates** - 查找并删除重复书签，带安全确认流程\n\n## 安装\n\n### 快速开始（一行命令）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GYEJfUTc3LVEgqUa8GcM9r+zXyQXSp8k+hxzxScNfCw=",
+        "originContent": "# Raindrop.io MCP Server",
+        "translatedContent": "# Raindrop.io MCP 服务器"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ldKVgQVzFkPYvb7v/52uAzSsPD6jR6EF7yTzhdLpaUE=",
+        "originContent": "[![smithery badge](https://smithery.ai/badge/@adeze/raindrop-mcp)](https://smithery.ai/server/@adeze/raindrop-mcp)",
+        "translatedContent": "[![smithery 徽章](https://smithery.ai/badge/@adeze/raindrop-mcp)](https://smithery.ai/server/@adeze/raindrop-mcp)"
+      },
+      {
+        "row": 4,
+        "rowsha": "EY+itZBp8v/kVGolKxt9YHSmnHNCvfjeprvr3qUyU+k=",
+        "originContent": "[![npm version](https://badge.fury.io/js/%40adeze%2Fraindrop-mcp.svg)](https://www.npmjs.com/package/@adeze/raindrop-mcp)",
+        "translatedContent": "[![npm 版本](https://badge.fury.io/js/%40adeze%2Fraindrop-mcp.svg)](https://www.npmjs.com/package/@adeze/raindrop-mcp)"
+      },
+      {
+        "row": 5,
+        "rowsha": "vy/CawO3hX17dRz5P/kplPmEQf4HaQLc2Ed5DkZr8DM=",
+        "originContent": "[![Claude Desktop MCPB](https://img.shields.io/badge/Claude%20Desktop-MCPB-5B61FF?logo=claude&logoColor=white)](https://github.com/adeze/raindrop-mcp/releases)",
+        "translatedContent": "[![Claude 桌面 MCPB](https://img.shields.io/badge/Claude%20Desktop-MCPB-5B61FF?logo=claude&logoColor=white)](https://github.com/adeze/raindrop-mcp/releases)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "xuzyCVZvttsbyM6VYZIHBm/lKzm/cc0pVJlfpBRd89E=",
+        "originContent": "Connect Raindrop.io to your AI assistant with a simple MCP server. Use it to organize, search, and manage bookmarks with natural language.",
+        "translatedContent": "使用简单的 MCP 服务器将 Raindrop.io 连接到您的 AI 助手。通过自然语言组织、搜索和管理书签。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "bBytSq8no/wRZ9PCquCxo+mD2csDdSByLFGm++P2xHw=",
+        "originContent": "## What it can do",
+        "translatedContent": "## 它能做什么"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "QtPQQu9pQE0vQ+2p5T/l8+b80WQHK2opXJVTiLCL5OQ=",
+        "originContent": "- Create, update, and delete collections and bookmarks",
+        "translatedContent": "- 创建、更新和删除集合及书签"
+      },
+      {
+        "row": 12,
+        "rowsha": "BSUq6A3SGJXQvKG26HZXiKp1fuw9k/pFo+HB80p2TOo=",
+        "originContent": "- Search bookmarks by tags, domain, type, date, and more",
+        "translatedContent": "- 按标签、域名、类型、日期等搜索书签"
+      },
+      {
+        "row": 13,
+        "rowsha": "llagxgEL1edw6Jukaqgk59g+h/hhbaXUkmwWD6M7RN8=",
+        "originContent": "- Manage tags (list, rename, merge, delete)",
+        "translatedContent": "- 管理标签（列出、重命名、合并、删除）"
+      },
+      {
+        "row": 14,
+        "rowsha": "/yy7U6ASx42bL05E+f6qNzEmdp9n95vgnuRT9AbX6Sk=",
+        "originContent": "- Read highlights from bookmarks",
+        "translatedContent": "- 阅读书签中的高亮内容"
+      },
+      {
+        "row": 15,
+        "rowsha": "nrwaGZn6UyUWriqiMI67sONYpM5zBxpXFQ1Czf4axJc=",
+        "originContent": "- Bulk edit bookmarks in a collection",
+        "translatedContent": "- 批量编辑集合中的书签"
+      },
+      {
+        "row": 16,
+        "rowsha": "8KVGQlgyvilSD4AtNPXCBAvVaJysgQ32GXliJcyMydo=",
+        "originContent": "- Audit broken links and duplicates, and manage trash",
+        "translatedContent": "- 审计断链和重复项，管理回收站"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "CydzS0b79+8mTX3P9FBaCLh3NxcUH6yHLsxNHGhspUw=",
+        "originContent": "## Tools",
+        "translatedContent": "## 工具"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "5Ly6muiLigYE/9V+lrWjwkweGH1VoDj+KAvppJ99m1w=",
+        "originContent": "- **diagnostics** - Server diagnostic information and library health metrics",
+        "translatedContent": "- **diagnostics** - 服务器诊断信息和库健康指标"
+      },
+      {
+        "row": 21,
+        "rowsha": "YS2DScE478mzlfrn8f1a1zzu7QXAsWGy/ABy3DPI+ww=",
+        "originContent": "- **collection_list** - List all collections as a flat list",
+        "translatedContent": "- **collection_list** - 以扁平列表形式列出所有集合"
+      },
+      {
+        "row": 22,
+        "rowsha": "1OfltWeHjVWLh6xtkosWEyKEGhGS74MUSOYnNAAc+RQ=",
+        "originContent": "- **get_collection_tree** - Hierarchical view of collections with full breadcrumb paths",
+        "translatedContent": "- **get_collection_tree** - 以层级视图显示集合及完整面包屑路径"
+      },
+      {
+        "row": 23,
+        "rowsha": "hjVqf5hoBW/tXX+JEI0m51W5k54WQQi+dmSsQ6Ahi8k=",
+        "originContent": "- **collection_manage** - Create, update, or delete collections",
+        "translatedContent": "- **collection_manage** - 创建、更新或删除集合"
+      },
+      {
+        "row": 24,
+        "rowsha": "vbMnq9WFXkem8G6IPT9eCagF+oyh8p8iug3H+9WcV3I=",
+        "originContent": "- **bookmark_search** - Advanced search with filters, tags, and pagination",
+        "translatedContent": "- **bookmark_search** - 支持筛选、标签和分页的高级搜索"
+      },
+      {
+        "row": 25,
+        "rowsha": "DExEgb2Io57SIl8iEr7sfTI+g4HUodI+tGbD3YY1JUQ=",
+        "originContent": "- **bookmark_manage** - Create, update, or delete bookmarks",
+        "translatedContent": "- **bookmark_manage** - 创建、更新或删除书签"
+      },
+      {
+        "row": 26,
+        "rowsha": "ShXL5hIczeiOpJEcVKLO/ns7KL7IJ3VoNFIdAe3ksA8=",
+        "originContent": "- **get_raindrop** - Fetch a single bookmark by ID",
+        "translatedContent": "- **get_raindrop** - 通过 ID 获取单个书签"
+      },
+      {
+        "row": 27,
+        "rowsha": "CGpc0zwxvvjNDTu5ItzroUgQMQu+PDtWM8ClDGiwHZ8=",
+        "originContent": "- **list_raindrops** - List bookmarks for a collection with pagination",
+        "translatedContent": "- **list_raindrops** - 分页列出某集合的书签"
+      },
+      {
+        "row": 28,
+        "rowsha": "8f7UnWSiYtpLdobUxP2e4TOwZbGOwdxfTKjv9DYCv/0=",
+        "originContent": "- **get_suggestions** - AI-powered organization advice (tags/collections) for a URL or bookmark",
+        "translatedContent": "- **get_suggestions** - 针对 URL 或书签的 AI 驱动组织建议（标签/集合）"
+      },
+      {
+        "row": 29,
+        "rowsha": "vNLH8ZuAty3Uv1bNGCdCTihlGz9xPCI5WaMoeISgEec=",
+        "originContent": "- **suggest_tags** - Suggest relevant tags from bookmark metadata using AI-assisted analysis",
+        "translatedContent": "- **suggest_tags** - 通过 AI 辅助分析从书签元数据建议相关标签"
+      },
+      {
+        "row": 30,
+        "rowsha": "IChXz8ozAiRLFDmpMTBaGNOJ8PtbQVbKFnEyvLuEdU0=",
+        "originContent": "- **bulk_edit_raindrops** - Bulk update, move, or remove bookmarks in a specific collection",
+        "translatedContent": "- **bulk_edit_raindrops** - 批量更新、移动或移除指定集合中的书签"
+      },
+      {
+        "row": 31,
+        "rowsha": "nzQ+TaWLgjS+m+YYmnI7rEcBmYecbjAZ3taQhi17NwQ=",
+        "originContent": "- **tag_manage** - Rename, merge, or delete tags",
+        "translatedContent": "- **tag_manage** - 重命名、合并或删除标签"
+      },
+      {
+        "row": 32,
+        "rowsha": "AqowkjPaGlygd+087qNoTUH1nqe9FMjwhZMEMw2ja9w=",
+        "originContent": "- **highlight_manage** - Create, update, or delete highlights",
+        "translatedContent": "- **highlight_manage** - 创建、更新或删除高亮"
+      },
+      {
+        "row": 33,
+        "rowsha": "/M231MBMrzEPOctbnjgD2tx827kfLikTZzpwenhVxJo=",
+        "originContent": "- **library_audit** - Scan library for broken links, duplicates, and untagged items",
+        "translatedContent": "- **library_audit** - 扫描库中的断链、重复和无标签项"
+      },
+      {
+        "row": 34,
+        "rowsha": "35k8ZSbuJgXQenjpq0jH2m41zQHQIS3RichCd/0D0Bw=",
+        "originContent": "- **empty_trash** - Permanently empty the trash (requires confirmation)",
+        "translatedContent": "- **empty_trash** - 永久清空回收站（需确认）"
+      },
+      {
+        "row": 35,
+        "rowsha": "vqFzN81AZE/noFCZLXfMyuUWVtNbh/qEAeIYp27+wjE=",
+        "originContent": "- **cleanup_collections** - Remove empty collections (requires confirmation)",
+        "translatedContent": "- **cleanup_collections** - 删除空集合（需确认）"
+      },
+      {
+        "row": 36,
+        "rowsha": "+uI49VZd5cTZ1ew4rOBcpCprlT3DB8Ielwe8b1Ur4LY=",
+        "originContent": "- **remove_duplicates** - Find and remove duplicate bookmarks with safe confirmation flow",
+        "translatedContent": "- **remove_duplicates** - 查找并删除重复书签，带安全确认流程"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "6eD+2IsgQW8rPD+Res1WYZHKSKHinvKdQB1raUoN4v8=",
+        "originContent": "### Quick Start (One-Liners)",
+        "translatedContent": "### 快速开始（一行命令）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n| Tool               | One-Liner Command                                                  |\n| :----------------- | :----------------------------------------------------------------- |\n| **Gemini CLI**     | `gemini extensions install https://github.com/adeze/raindrop-mcp`  |\n| **Codex CLI**      | `codex mcp add raindrop -- npx -y @adeze/raindrop-mcp`             |\n| **Claude Code**    | `claude mcp add raindrop -- npx -y @adeze/raindrop-mcp`            |\n| **GitHub Copilot** | `gh copilot config mcp add raindrop -- npx -y @adeze/raindrop-mcp` |\n| **Vercel Skills**  | `npx skills add adeze/raindrop-mcp`                                |\n\n> **Note**: For tools adding an MCP server via `npx`, you must have the `RAINDROP_ACCESS_TOKEN` environment variable set in your shell or the tool's environment config.\n\n### Vercel Skills (npx skills)\n\nThis project is compatible with the [Vercel Skills](https://github.com/vercel/skills) system. All necessary manifests are present:\n\n- `manifest.json`: Standard MCP manifest for server definition.\n- `SKILL.md`: Standardized skill description for agent discovery.\n- `mcp.json`: Root configuration for MCP clients and registries.\n\nTo add this server to your local skill directory:\n",
+    "ContentSha": "prN3BKvSCBJY2CHWP+IYU0Gohkty58OEP8ssiaRc8rM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| 工具               | 一行命令                                                         |\n| :----------------- | :---------------------------------------------------------------- |\n| **Gemini CLI**     | `gemini extensions install https://github.com/adeze/raindrop-mcp`  |\n| **Codex CLI**      | `codex mcp add raindrop -- npx -y @adeze/raindrop-mcp`             |\n| **Claude Code**    | `claude mcp add raindrop -- npx -y @adeze/raindrop-mcp`            |\n| **GitHub Copilot** | `gh copilot config mcp add raindrop -- npx -y @adeze/raindrop-mcp` |\n| **Vercel Skills**  | `npx skills add adeze/raindrop-mcp`                                |\n\n> **注意**：对于通过 `npx` 添加 MCP 服务器的工具，您必须在 shell 或工具的环境配置中设置 `RAINDROP_ACCESS_TOKEN` 环境变量。\n\n### Vercel Skills (npx skills)\n\n该项目兼容 [Vercel Skills](https://github.com/vercel/skills) 系统。所有必要的清单文件均已包含：\n\n- `manifest.json`：用于服务器定义的标准 MCP 清单。\n- `SKILL.md`：用于代理发现的标准化技能描述。\n- `mcp.json`：MCP 客户端和注册表的根配置。\n\n要将此服务器添加到您的本地技能目录：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 工具               | 一行命令                                                         |"
+      },
+      {
+        "row": 2,
+        "rowsha": "EFomoTLJkIknrStekfVr9Xu8JzxbPvK223/LLtJ6ZQk=",
+        "originContent": "| Tool               | One-Liner Command                                                  |",
+        "translatedContent": "| :----------------- | :---------------------------------------------------------------- |"
+      },
+      {
+        "row": 3,
+        "rowsha": "tzZgnb16PKywfb+a/tWj/Te0zqRz8vG8Se6dIzss1Mo=",
+        "originContent": "| :----------------- | :----------------------------------------------------------------- |",
+        "translatedContent": "| **Gemini CLI**     | `gemini extensions install https://github.com/adeze/raindrop-mcp`  |"
+      },
+      {
+        "row": 4,
+        "rowsha": "tab4m2GNz1cthMtIf2N2ujc6yjimFgpiukQ+VE0PEeo=",
+        "originContent": "| **Gemini CLI**     | `gemini extensions install https://github.com/adeze/raindrop-mcp`  |",
+        "translatedContent": "| **Codex CLI**      | `codex mcp add raindrop -- npx -y @adeze/raindrop-mcp`             |"
+      },
+      {
+        "row": 5,
+        "rowsha": "TcaFc8WCd/ISBUEYYm/D3/1kLMCUXBlMoH8fQIA2pQA=",
+        "originContent": "| **Codex CLI**      | `codex mcp add raindrop -- npx -y @adeze/raindrop-mcp`             |",
+        "translatedContent": "| **Claude Code**    | `claude mcp add raindrop -- npx -y @adeze/raindrop-mcp`            |"
+      },
+      {
+        "row": 6,
+        "rowsha": "GvcPLl9LQvY4057/iJTUzGRe3+ti81WaP2PsGBjoinE=",
+        "originContent": "| **Claude Code**    | `claude mcp add raindrop -- npx -y @adeze/raindrop-mcp`            |",
+        "translatedContent": "| **GitHub Copilot** | `gh copilot config mcp add raindrop -- npx -y @adeze/raindrop-mcp` |"
+      },
+      {
+        "row": 7,
+        "rowsha": "m1reo1i2R0mCF5zmKdZg4OZrAh3wdliPYbxzdLjmOks=",
+        "originContent": "| **GitHub Copilot** | `gh copilot config mcp add raindrop -- npx -y @adeze/raindrop-mcp` |",
+        "translatedContent": "| **Vercel Skills**  | `npx skills add adeze/raindrop-mcp`                                |"
+      },
+      {
+        "row": 8,
+        "rowsha": "sDiVhTWw1JUCDWXYjqUees3c3pTvIotmOtnO+m2i3R8=",
+        "originContent": "| **Vercel Skills**  | `npx skills add adeze/raindrop-mcp`                                |",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **注意**：对于通过 `npx` 添加 MCP 服务器的工具，您必须在 shell 或工具的环境配置中设置 `RAINDROP_ACCESS_TOKEN` 环境变量。"
+      },
+      {
+        "row": 10,
+        "rowsha": "Q7u/kAhM6kfmF/qP7nl8mhCdqZnxvzDPoC9azORaH0Y=",
+        "originContent": "> **Note**: For tools adding an MCP server via `npx`, you must have the `RAINDROP_ACCESS_TOKEN` environment variable set in your shell or the tool's environment config.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Vercel Skills (npx skills)"
+      },
+      {
+        "row": 12,
+        "rowsha": "cjJDGJqlGh+TIg/HVYUszJQUYWoIpG7HpdiE5W7a7g8=",
+        "originContent": "### Vercel Skills (npx skills)",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "该项目兼容 [Vercel Skills](https://github.com/vercel/skills) 系统。所有必要的清单文件均已包含："
+      },
+      {
+        "row": 14,
+        "rowsha": "BrpQ0t+d9+gmdug2K3pMTrFY/5bjc+PJ1qDZIMjYJd8=",
+        "originContent": "This project is compatible with the [Vercel Skills](https://github.com/vercel/skills) system. All necessary manifests are present:",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `manifest.json`：用于服务器定义的标准 MCP 清单。"
+      },
+      {
+        "row": 16,
+        "rowsha": "m1eOMTTjBg9U0Kkd6sCEXCI5jeK71Z7mKJqsnmZT6Gw=",
+        "originContent": "- `manifest.json`: Standard MCP manifest for server definition.",
+        "translatedContent": "- `SKILL.md`：用于代理发现的标准化技能描述。"
+      },
+      {
+        "row": 17,
+        "rowsha": "SZxL69YKfzddIkgLfwZKPlT/dWW9j4aqGSO2AoSmRBo=",
+        "originContent": "- `SKILL.md`: Standardized skill description for agent discovery.",
+        "translatedContent": "- `mcp.json`：MCP 客户端和注册表的根配置。"
+      },
+      {
+        "row": 18,
+        "rowsha": "nrycV3phhu03gmM8h3riAbFVFZzSDMsaJgARihqGUgA=",
+        "originContent": "- `mcp.json`: Root configuration for MCP clients and registries.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "要将此服务器添加到您的本地技能目录："
+      },
+      {
+        "row": 20,
+        "rowsha": "urmdRrIsm+OOHDWrWCAxfEkop6rXCNkEf0tNmSn5cZg=",
+        "originContent": "To add this server to your local skill directory:",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\nnpx skills add adeze/raindrop-mcp --global\n```",
+    "ContentSha": "I8ZupGzBRnY4e2cemY6a78BvcvJAAzRmQ3ysQwob49U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpx skills add adeze/raindrop-mcp --global\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZR8ALiq6Ijuv4/ZhTPjJU1Y6SDHFWzdkF9oIP3lVMUk=",
+        "originContent": "npx skills add adeze/raindrop-mcp --global",
+        "translatedContent": "npx skills add adeze/raindrop-mcp --global"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nTo contribute this to the [Vercel Skills Registry](https://github.com/vercel/skills/tree/main/registry), submit a Pull Request adding this repository URL to the registry.\n\n### Claude Desktop (MCPB)\n\nDownload the latest raindrop-mcp.mcpb from the GitHub Release and add it to Claude Desktop:\n\n- Releases: https://github.com/adeze/raindrop-mcp/releases\n\nIn Claude Desktop, add the bundle and set this environment variable:\n\n- RAINDROP_ACCESS_TOKEN (from your Raindrop.io integrations settings)\n\n### NPX (CLI)\n\nSet your API token as an environment variable and run:\n",
+    "ContentSha": "sJeFezyVLsmnZmM0BdpJMw0F+tvJkf26A4yCXxqzjJ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "要将此贡献到 [Vercel Skills Registry](https://github.com/vercel/skills/tree/main/registry)，请提交一个 Pull Request，将此仓库 URL 添加到注册表中。\n\n### Claude Desktop (MCPB)\n\n从 GitHub Release 下载最新的 raindrop-mcp.mcpb，并将其添加到 Claude Desktop：\n\n- Releases: https://github.com/adeze/raindrop-mcp/releases\n\n在 Claude Desktop 中，添加该包并设置此环境变量：\n\n- RAINDROP_ACCESS_TOKEN（来自您的 Raindrop.io 集成设置）\n\n### NPX (CLI)\n\n将您的 API 令牌设置为环境变量，然后运行：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "要将此贡献到 [Vercel Skills Registry](https://github.com/vercel/skills/tree/main/registry)，请提交一个 Pull Request，将此仓库 URL 添加到注册表中。"
+      },
+      {
+        "row": 2,
+        "rowsha": "Orx19BQhuIaWVs8JbehAqgyDqN38WRlr/ypdFQ2qVbw=",
+        "originContent": "To contribute this to the [Vercel Skills Registry](https://github.com/vercel/skills/tree/main/registry), submit a Pull Request adding this repository URL to the registry.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Claude Desktop (MCPB)"
+      },
+      {
+        "row": 4,
+        "rowsha": "sjFGB4Ro2qaFlhfRluIbAjGEFqMbfBUc9ULz0MV4UkM=",
+        "originContent": "### Claude Desktop (MCPB)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "从 GitHub Release 下载最新的 raindrop-mcp.mcpb，并将其添加到 Claude Desktop："
+      },
+      {
+        "row": 6,
+        "rowsha": "ElaAp6va9Pk4rUckjZayhM65kaxCpjrfRADVdpN+MGU=",
+        "originContent": "Download the latest raindrop-mcp.mcpb from the GitHub Release and add it to Claude Desktop:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Releases: https://github.com/adeze/raindrop-mcp/releases"
+      },
+      {
+        "row": 8,
+        "rowsha": "RF93f4hNdEnyHPQGuwpnP0a+CJJPNaFUACLfAndajAo=",
+        "originContent": "- Releases: https://github.com/adeze/raindrop-mcp/releases",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "在 Claude Desktop 中，添加该包并设置此环境变量："
+      },
+      {
+        "row": 10,
+        "rowsha": "2BvcciVRc+LRZ+wVeXRK0k9PXjrtsvCiNAKad9+TBAI=",
+        "originContent": "In Claude Desktop, add the bundle and set this environment variable:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- RAINDROP_ACCESS_TOKEN（来自您的 Raindrop.io 集成设置）"
+      },
+      {
+        "row": 12,
+        "rowsha": "C9VkkCB95bMp2g8/MtEAsEy1bzejjCxB/ByuMQ9BJ9s=",
+        "originContent": "- RAINDROP_ACCESS_TOKEN (from your Raindrop.io integrations settings)",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### NPX (CLI)"
+      },
+      {
+        "row": 14,
+        "rowsha": "SOOnl1rMpAT7s/VN+NY4qoUFfOqbtlYe3nL0WyHgeJg=",
+        "originContent": "### NPX (CLI)",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "将您的 API 令牌设置为环境变量，然后运行："
+      },
+      {
+        "row": 16,
+        "rowsha": "jAhD06f92kfn3NJArF7jDVW+FH7DMkFeSUaAGkIzv6c=",
+        "originContent": "Set your API token as an environment variable and run:",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\nexport RAINDROP_ACCESS_TOKEN=YOUR_RAINDROP_ACCESS_TOKEN\nnpx @adeze/raindrop-mcp\n```",
+    "ContentSha": "EE17+75XiBN9qZeWz8nQtSD9x4DvHscdfLLa5zJ4Otg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nexport RAINDROP_ACCESS_TOKEN=YOUR_RAINDROP_ACCESS_TOKEN\nnpx @adeze/raindrop-mcp\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "IWwtYcamLgbluzoeRayir9hD3aIYuiLCR7PPrxGnxzE=",
+        "originContent": "export RAINDROP_ACCESS_TOKEN=YOUR_RAINDROP_ACCESS_TOKEN",
+        "translatedContent": "export RAINDROP_ACCESS_TOKEN=YOUR_RAINDROP_ACCESS_TOKEN"
+      },
+      {
+        "row": 3,
+        "rowsha": "G4svFTPOrnnYGtJB7+pzbRDk1UuY2GuZ2WbxWS5Hrsc=",
+        "originContent": "npx @adeze/raindrop-mcp",
+        "translatedContent": "npx @adeze/raindrop-mcp"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Manual MCP config (mcp.json)\n\nAdd this to your MCP client configuration:\n",
+    "ContentSha": "7uwLzOtcF37PoGiZu3PewX3U6qqL2XCD43/OWFzc8tE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 手动 MCP 配置 (mcp.json)\n\n将此添加到您的 MCP 客户端配置中：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q3smhd7X3l8oJN++3yZjjHPA+FpWRP/6MibWt1+8tdY=",
+        "originContent": "### Manual MCP config (mcp.json)",
+        "translatedContent": "### 手动 MCP 配置 (mcp.json)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TYP5ybA+qdzrm5cJ3PgBWR93nquGKudPJIolI5kWNZc=",
+        "originContent": "Add this to your MCP client configuration:",
+        "translatedContent": "将此添加到您的 MCP 客户端配置中："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```json\n{\n  \"servers\": {\n    \"raindrop\": {\n      \"type\": \"stdio\",\n      \"command\": \"npx\",\n      \"args\": [\"@adeze/raindrop-mcp@latest\"],\n      \"env\": {\n        \"RAINDROP_ACCESS_TOKEN\": \"YOUR_RAINDROP_ACCESS_TOKEN\"\n      }\n    }\n  }\n}\n```",
+    "ContentSha": "i8ozrjSbpCNuXbKDX3PKP0kFUg6eEQZ5bcdQWl0xtaQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"servers\": {\n    \"raindrop\": {\n      \"type\": \"stdio\",\n      \"command\": \"npx\",\n      \"args\": [\"@adeze/raindrop-mcp@latest\"],\n      \"env\": {\n        \"RAINDROP_ACCESS_TOKEN\": \"YOUR_RAINDROP_ACCESS_TOKEN\"\n      }\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "6gciud5BPcssGAC+jujQYsHiKAQjBMsDloPhWgOZl4o=",
+        "originContent": "  \"servers\": {",
+        "translatedContent": "  \"servers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZxUeCgaZpcJDvYuq1MG973nPsmbJ0bKnuz6jky+raUk=",
+        "originContent": "    \"raindrop\": {",
+        "translatedContent": "    \"raindrop\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "rG7T7o4m/Y5JXMM/JeipL+oMKF4DayLvaCYkU4mxS4k=",
+        "originContent": "      \"type\": \"stdio\",",
+        "translatedContent": "      \"type\": \"stdio\","
+      },
+      {
+        "row": 6,
+        "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+        "originContent": "      \"command\": \"npx\",",
+        "translatedContent": "      \"command\": \"npx\","
+      },
+      {
+        "row": 7,
+        "rowsha": "wWtK4jzYbruw+O0+gv+FMcBCahtsBNw40zkeWeawIKw=",
+        "originContent": "      \"args\": [\"@adeze/raindrop-mcp@latest\"],",
+        "translatedContent": "      \"args\": [\"@adeze/raindrop-mcp@latest\"],"
+      },
+      {
+        "row": 8,
+        "rowsha": "KCt3f/t8XKXl6Az1UZA2aZO78CIP9Drb2LKKIKd3pfE=",
+        "originContent": "      \"env\": {",
+        "translatedContent": "      \"env\": {"
+      },
+      {
+        "row": 9,
+        "rowsha": "yWNXUxPUlRG3B1/BkDDJDNBH78a2E9XbkHXwhO44FUo=",
+        "originContent": "        \"RAINDROP_ACCESS_TOKEN\": \"YOUR_RAINDROP_ACCESS_TOKEN\"",
+        "translatedContent": "        \"RAINDROP_ACCESS_TOKEN\": \"YOUR_RAINDROP_ACCESS_TOKEN\""
+      },
+      {
+        "row": 10,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 11,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 12,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## Requirements\n\n- A Raindrop.io account\n- A Raindrop.io API Access Token: https://app.raindrop.io/settings/integrations\n\n## Support\n\n- Issues: https://github.com/adeze/raindrop-mcp/issues\n\n## Release\n\nThis repository uses `semantic-release` as the only supported release flow.\n\n### How publishing works\n\n- Releases run from pushes to `master` via `.github/workflows/ci.yml`.\n- `semantic-release` analyzes Conventional Commit messages, computes the next version, updates `CHANGELOG.md`, tags/releases on GitHub, and publishes npm.\n- During release preparation, `.releaserc.json` syncs `manifest.json`, `mcp.json`, and `gemini-extension.json`, then builds `raindrop-mcp.mcpb` so the GitHub Release includes the bundle.\n\n### Pre-release dry-run\n\n- Run `.github/workflows/release-dry-run.yml` with **Run workflow** before cutting a public release.\n- This validates semantic version calculation, registry auth, and release pipeline behavior without publishing.\n\n### Required secrets\n\n- `GITHUB_TOKEN` is provided by GitHub Actions for release automation.\n\n### npm trusted publishing\n\n- npm publishing is configured via GitHub Actions OIDC trusted publishing.\n- `NPM_TOKEN` is not required for the standard CI release path.\n\n### Local validation before merge\n",
+    "ContentSha": "rFCNXSFrLynt9VGYAFNmU2/mrnysKlU7z1RmQboUDus=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 需求\n\n- 一个 Raindrop.io 账户\n- 一个 Raindrop.io API 访问令牌：https://app.raindrop.io/settings/integrations\n\n## 支持\n\n- 问题反馈：https://github.com/adeze/raindrop-mcp/issues\n\n## 发布\n\n本仓库使用 `semantic-release` 作为唯一支持的发布流程。\n\n### 发布流程说明\n\n- 发布由推送到 `master` 分支触发，通过 `.github/workflows/ci.yml` 执行。\n- `semantic-release` 解析 Conventional Commit 消息，计算下一个版本，更新 `CHANGELOG.md`，在 GitHub 上打标签/发布，并发布到 npm。\n- 在发布准备阶段，`.releaserc.json` 同步 `manifest.json`、`mcp.json` 和 `gemini-extension.json`，然后构建 `raindrop-mcp.mcpb`，使 GitHub Release 包含该包。\n\n### 预发布干运行\n\n- 在切公共发布前，运行 `.github/workflows/release-dry-run.yml` 的 **Run workflow**。\n- 这会验证语义版本计算、注册表认证和发布流程行为，但不进行实际发布。\n\n### 必需的密钥\n\n- `GITHUB_TOKEN` 由 GitHub Actions 提供，用于发布自动化。\n\n### npm 受信任的发布\n\n- npm 发布通过 GitHub Actions 的 OIDC 受信任发布配置。\n- 标准 CI 发布路径不需要 `NPM_TOKEN`。\n\n### 合并前本地验证\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 需求"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OhhBzzx0NgyyxaGkdIHYAICJTrPvPAlxID+0BBG80SQ=",
+        "originContent": "- A Raindrop.io account",
+        "translatedContent": "- 一个 Raindrop.io 账户"
+      },
+      {
+        "row": 5,
+        "rowsha": "yCp/0aLjlrM9dv4ErRaZXXWBg2nLp+cAfrVcmcz5uq4=",
+        "originContent": "- A Raindrop.io API Access Token: https://app.raindrop.io/settings/integrations",
+        "translatedContent": "- 一个 Raindrop.io API 访问令牌：https://app.raindrop.io/settings/integrations"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+        "originContent": "## Support",
+        "translatedContent": "## 支持"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "RHv17TqigG25stSN/EU8OXqV9HWkiygKCFo4r61J8hg=",
+        "originContent": "- Issues: https://github.com/adeze/raindrop-mcp/issues",
+        "translatedContent": "- 问题反馈：https://github.com/adeze/raindrop-mcp/issues"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "EVbBxtATEL4uCRkEfoL1asLS3ac1FTwxCky4nHNnX6E=",
+        "originContent": "## Release",
+        "translatedContent": "## 发布"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "6ybFtqZvt0vjfwaHb1D7p7KKIYlDTfqAUCwpBrAF5Ik=",
+        "originContent": "This repository uses `semantic-release` as the only supported release flow.",
+        "translatedContent": "本仓库使用 `semantic-release` 作为唯一支持的发布流程。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "D4u6k0oiVoETXZ/8Esj6GCATUPWRMxWog4A/3lhaA6s=",
+        "originContent": "### How publishing works",
+        "translatedContent": "### 发布流程说明"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "d7bqt4qrgYGHAssD2ilWsx+JXSsnWKrP7PUBOY0RruE=",
+        "originContent": "- Releases run from pushes to `master` via `.github/workflows/ci.yml`.",
+        "translatedContent": "- 发布由推送到 `master` 分支触发，通过 `.github/workflows/ci.yml` 执行。"
+      },
+      {
+        "row": 18,
+        "rowsha": "wSGPZtpAgH4UTwCwP0IH49ruIXn4bK+Q1NAwANcoIBM=",
+        "originContent": "- `semantic-release` analyzes Conventional Commit messages, computes the next version, updates `CHANGELOG.md`, tags/releases on GitHub, and publishes npm.",
+        "translatedContent": "- `semantic-release` 解析 Conventional Commit 消息，计算下一个版本，更新 `CHANGELOG.md`，在 GitHub 上打标签/发布，并发布到 npm。"
+      },
+      {
+        "row": 19,
+        "rowsha": "vyE8qWw+t6I/v2BpZYZojR7ylgAlVkGzoKDuAMl5LvE=",
+        "originContent": "- During release preparation, `.releaserc.json` syncs `manifest.json`, `mcp.json`, and `gemini-extension.json`, then builds `raindrop-mcp.mcpb` so the GitHub Release includes the bundle.",
+        "translatedContent": "- 在发布准备阶段，`.releaserc.json` 同步 `manifest.json`、`mcp.json` 和 `gemini-extension.json`，然后构建 `raindrop-mcp.mcpb`，使 GitHub Release 包含该包。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "NhSCUTDYA5ZPQG55zpopM2WOyKsz7tirG/BoyIMHDV8=",
+        "originContent": "### Pre-release dry-run",
+        "translatedContent": "### 预发布干运行"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "k/jtci0DI9Wrz9FidtxfZYoR58EMnPdzfiP5Dazf5hE=",
+        "originContent": "- Run `.github/workflows/release-dry-run.yml` with **Run workflow** before cutting a public release.",
+        "translatedContent": "- 在切公共发布前，运行 `.github/workflows/release-dry-run.yml` 的 **Run workflow**。"
+      },
+      {
+        "row": 24,
+        "rowsha": "4cscvus76i8Bx/ve8eOtipYFA1VB6En6Zk9Dih5+hDA=",
+        "originContent": "- This validates semantic version calculation, registry auth, and release pipeline behavior without publishing.",
+        "translatedContent": "- 这会验证语义版本计算、注册表认证和发布流程行为，但不进行实际发布。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "kPBLKP9aFx4fKw+ZWr+PTCbSIDeW56b6XCZCkf5WPZM=",
+        "originContent": "### Required secrets",
+        "translatedContent": "### 必需的密钥"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "6UOurr4pTQgiBu5QlWDDPGW9HVLI612WpXGikAsgkH0=",
+        "originContent": "- `GITHUB_TOKEN` is provided by GitHub Actions for release automation.",
+        "translatedContent": "- `GITHUB_TOKEN` 由 GitHub Actions 提供，用于发布自动化。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "5/K0hwjOu7e3X3eYFjX0WTtxcCL4PTDK3EA3bKcHj3I=",
+        "originContent": "### npm trusted publishing",
+        "translatedContent": "### npm 受信任的发布"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "iQSdWmqOe/w+4aD4h9FXLw8X2/TXKz/rt122dLcQZN4=",
+        "originContent": "- npm publishing is configured via GitHub Actions OIDC trusted publishing.",
+        "translatedContent": "- npm 发布通过 GitHub Actions 的 OIDC 受信任发布配置。"
+      },
+      {
+        "row": 33,
+        "rowsha": "DvBi1oXWNo5EbjkBc8gCXO9o+DjX1dadmqK18nEgixQ=",
+        "originContent": "- `NPM_TOKEN` is not required for the standard CI release path.",
+        "translatedContent": "- 标准 CI 发布路径不需要 `NPM_TOKEN`。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "rXcXNhsZD8hoowvHptozvB1Ppi6Q6vHd/Qw7AByz/yE=",
+        "originContent": "### Local validation before merge",
+        "translatedContent": "### 合并前本地验证"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\nbun run lint\nbun run type-check\nbun run test\nbun run build\n```",
+    "ContentSha": "nKIK1vF27nCC+J4Xa2aK0CPYLAl5aXm2pDRkL+Fd0UY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbun run lint\nbun run type-check\nbun run test\nbun run build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8eKU3nVZgQQKORJIthX41qxW6Krm4nWR4sVkTxXfISA=",
+        "originContent": "bun run lint",
+        "translatedContent": "bun run lint"
+      },
+      {
+        "row": 3,
+        "rowsha": "AfMpUC8agS8CikoYmX1Bx+GOXHCEAaYPID43qTRB+Fw=",
+        "originContent": "bun run type-check",
+        "translatedContent": "bun run type-check"
+      },
+      {
+        "row": 4,
+        "rowsha": "/Q4jbfv2BHz4m+/VlQR3NzWnT9k0wCNljQSLWO0aNgU=",
+        "originContent": "bun run test",
+        "translatedContent": "bun run test"
+      },
+      {
+        "row": 5,
+        "rowsha": "2+ip4sZNhL0tjOHip6LJ9wZaNoc5s0vYjde7TiM7fpQ=",
+        "originContent": "bun run build",
+        "translatedContent": "bun run build"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Commit message examples\n\n- `fix: handle empty tag merge payload`\n- `feat: add collection path filter`\n- `feat!: remove deprecated search parameter`\n\nDo not manually bump versions, push release tags, or run manual npm publish commands for normal releases.\n\n## 📋 Recent Enhancements (v2.4.x)\n\n### Smart Organization & Hierarchy\n\n- **AI Suggestions**: New `get_suggestions` tool provides organizational advice using Raindrop's API and MCP Sampling.\n- **Collection Tree**: `get_collection_tree` tool provides a hierarchical view with full breadcrumb paths.\n- **Bulk Move**: Added `move` operation to `bulk_edit_raindrops` for efficient library organization.\n- **Pagination Support**: Standardized `list_raindrops` and `bookmark_search` with pagination for large libraries.\n\n### Safety & Quality\n\n- **Confirmation Logic**: Destructive tools (`empty_trash`, `cleanup_collections`) now require explicit confirmation.\n- **Standardized Naming**: All tools now use consistent snake_case naming conventions.\n- **CI/CD Pipeline**: Enhanced GitHub Actions with automated linting, type-checking, and cross-transport tests.\n- **Code Quality**: Established ESLint and Prettier configurations for maintainable development.\n\n## 📋 Previous Enhancements (v2.3.3)\n\n### Advanced Cleanup & Library Audit\n\n## 📋 Previous Enhancements (v2.3.2)\n\n### MCP Resource Links Implementation\n\n- Modern `resource` content following current MCP SDK best practices\n- Efficient data access: tools return lightweight links instead of full payloads\n- Better performance: clients fetch full bookmark/collection data only when needed\n- Seamless integration with dynamic resource system (`mcp://raindrop/{id}`)\n\n### SDK & API Updates\n",
+    "ContentSha": "Kiah3GSxZ9+t8Xrr5+DNRsc+6qZ9IuWKbnTVXU0jkJk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 提交信息示例\n\n- `fix: 处理空标签合并负载`\n- `feat: 添加收藏路径过滤器`\n- `feat!: 移除已弃用的搜索参数`\n\n正常发布时请勿手动升级版本、推送发布标签或运行手动 npm 发布命令。\n\n## 📋 最近增强功能 (v2.4.x)\n\n### 智能组织与层级结构\n\n- **AI 建议**：新增 `get_suggestions` 工具，使用 Raindrop 的 API 和 MCP 采样提供组织建议。\n- **收藏树**：`get_collection_tree` 工具提供带完整面包屑路径的层级视图。\n- **批量移动**：向 `bulk_edit_raindrops` 添加了 `move` 操作，实现高效的库组织。\n- **分页支持**：标准化 `list_raindrops` 和 `bookmark_search`，支持大型库的分页。\n\n### 安全与质量\n\n- **确认逻辑**：破坏性工具（`empty_trash`、`cleanup_collections`）现在需要明确确认。\n- **命名规范**：所有工具现均采用统一的蛇形命名规范。\n- **CI/CD 流水线**：增强 GitHub Actions，自动执行代码检查、类型检查及跨传输测试。\n- **代码质量**：建立 ESLint 和 Prettier 配置，保证开发可维护性。\n\n## 📋 之前的增强功能 (v2.3.3)\n\n### 高级清理与库审计\n\n## 📋 之前的增强功能 (v2.3.2)\n\n### MCP 资源链接实现\n\n- 现代化的 `resource` 内容，遵循当前 MCP SDK 最佳实践\n- 高效数据访问：工具返回轻量级链接而非完整负载\n- 性能提升：客户端仅在需要时获取完整书签/收藏数据\n- 与动态资源系统无缝集成（`mcp://raindrop/{id}`）\n\n### SDK 与 API 更新\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 提交信息示例"
+      },
+      {
+        "row": 2,
+        "rowsha": "YWxeHC2UDK1i/yXxas1D6c6J9FW5qzB4dm4gBi4vngk=",
+        "originContent": "### Commit message examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `fix: 处理空标签合并负载`"
+      },
+      {
+        "row": 4,
+        "rowsha": "ORjMJ9kch+nbZf0X3QyJRYSKx0OhgKFIFsZksHA0PKg=",
+        "originContent": "- `fix: handle empty tag merge payload`",
+        "translatedContent": "- `feat: 添加收藏路径过滤器`"
+      },
+      {
+        "row": 5,
+        "rowsha": "MpYuOOfCROS5AXG6aIImfFrmvNhYKrB+JliieBoK2i0=",
+        "originContent": "- `feat: add collection path filter`",
+        "translatedContent": "- `feat!: 移除已弃用的搜索参数`"
+      },
+      {
+        "row": 6,
+        "rowsha": "GfMJqVPt2OceHscz/u1wxCfd4sh9/3cvJHWS8/ncK2c=",
+        "originContent": "- `feat!: remove deprecated search parameter`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "正常发布时请勿手动升级版本、推送发布标签或运行手动 npm 发布命令。"
+      },
+      {
+        "row": 8,
+        "rowsha": "5iXq1DtTxmYbUkkWgr/OrOXQvLqINGIWBhlF2ekKxcY=",
+        "originContent": "Do not manually bump versions, push release tags, or run manual npm publish commands for normal releases.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📋 最近增强功能 (v2.4.x)"
+      },
+      {
+        "row": 10,
+        "rowsha": "AKoYqMMqKKyzh88wFxZ1l1uWg1gD4d3IO5M7lXYS9lg=",
+        "originContent": "## 📋 Recent Enhancements (v2.4.x)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 智能组织与层级结构"
+      },
+      {
+        "row": 12,
+        "rowsha": "WnsHK74fXnGQdR1dzLZR1mHu9BtFzeST1j70f7DCb64=",
+        "originContent": "### Smart Organization & Hierarchy",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **AI 建议**：新增 `get_suggestions` 工具，使用 Raindrop 的 API 和 MCP 采样提供组织建议。"
+      },
+      {
+        "row": 14,
+        "rowsha": "peSUVEWBJ3PlJeVA6F7QbAlnWD1ZXNgrCNe0s8MFI7Q=",
+        "originContent": "- **AI Suggestions**: New `get_suggestions` tool provides organizational advice using Raindrop's API and MCP Sampling.",
+        "translatedContent": "- **收藏树**：`get_collection_tree` 工具提供带完整面包屑路径的层级视图。"
+      },
+      {
+        "row": 15,
+        "rowsha": "vbSMf8shEZCGrLfP7hqsnHr+qew85vGKPCTH/9SNNyY=",
+        "originContent": "- **Collection Tree**: `get_collection_tree` tool provides a hierarchical view with full breadcrumb paths.",
+        "translatedContent": "- **批量移动**：向 `bulk_edit_raindrops` 添加了 `move` 操作，实现高效的库组织。"
+      },
+      {
+        "row": 16,
+        "rowsha": "6rX87371JsvYP39lvRan1ej5j0elqn9ZT981rKBsFes=",
+        "originContent": "- **Bulk Move**: Added `move` operation to `bulk_edit_raindrops` for efficient library organization.",
+        "translatedContent": "- **分页支持**：标准化 `list_raindrops` 和 `bookmark_search`，支持大型库的分页。"
+      },
+      {
+        "row": 17,
+        "rowsha": "QP6PZfOlSSTdH9A8hSKiKbo7wWFn8LJKZ08Y0yJ5omg=",
+        "originContent": "- **Pagination Support**: Standardized `list_raindrops` and `bookmark_search` with pagination for large libraries.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 安全与质量"
+      },
+      {
+        "row": 19,
+        "rowsha": "Gvg5UcCLRyvT81gKuk/r6NEZoE0EBnwzrgUg663uEgU=",
+        "originContent": "### Safety & Quality",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **确认逻辑**：破坏性工具（`empty_trash`、`cleanup_collections`）现在需要明确确认。"
+      },
+      {
+        "row": 21,
+        "rowsha": "XCh6WeydbM1gM1kTQi31mKJ/uSE7wN8Uy+998lmSyxw=",
+        "originContent": "- **Confirmation Logic**: Destructive tools (`empty_trash`, `cleanup_collections`) now require explicit confirmation.",
+        "translatedContent": "- **命名规范**：所有工具现均采用统一的蛇形命名规范。"
+      },
+      {
+        "row": 22,
+        "rowsha": "M7A7aUFmpDjeGyiTPvPFQKotl0tAOQXUk6wwHzCVkM4=",
+        "originContent": "- **Standardized Naming**: All tools now use consistent snake_case naming conventions.",
+        "translatedContent": "- **CI/CD 流水线**：增强 GitHub Actions，自动执行代码检查、类型检查及跨传输测试。"
+      },
+      {
+        "row": 23,
+        "rowsha": "fWawueuh3YZj+U0brwnUIZccKYx/ZqrS7SzGS/a90Yk=",
+        "originContent": "- **CI/CD Pipeline**: Enhanced GitHub Actions with automated linting, type-checking, and cross-transport tests.",
+        "translatedContent": "- **代码质量**：建立 ESLint 和 Prettier 配置，保证开发可维护性。"
+      },
+      {
+        "row": 24,
+        "rowsha": "bhpaXU5Hr8oOFIreWOfnhXZlnnm3kRBlLLTUuHQIyRU=",
+        "originContent": "- **Code Quality**: Established ESLint and Prettier configurations for maintainable development.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📋 之前的增强功能 (v2.3.3)"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZZSnRk9SwzuQdsZugCPRXU4SfPdlMib8qer9cvMThLE=",
+        "originContent": "## 📋 Previous Enhancements (v2.3.3)",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 高级清理与库审计"
+      },
+      {
+        "row": 28,
+        "rowsha": "XlyAPOu/TnRR5NxKnzG5v5smCMzNGPxavwrzNdxgJS4=",
+        "originContent": "### Advanced Cleanup & Library Audit",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📋 之前的增强功能 (v2.3.2)"
+      },
+      {
+        "row": 30,
+        "rowsha": "fZxEjI3DHb49FSYPYZMaGb+YEBfZd6TY4+HwCCzY8Cc=",
+        "originContent": "## 📋 Previous Enhancements (v2.3.2)",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### MCP 资源链接实现"
+      },
+      {
+        "row": 32,
+        "rowsha": "zbsXVFgIGGRbbfVEv0gZeYGQsgSX2K/of8ttMf9YAYA=",
+        "originContent": "### MCP Resource Links Implementation",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 现代化的 `resource` 内容，遵循当前 MCP SDK 最佳实践"
+      },
+      {
+        "row": 34,
+        "rowsha": "/XDLWL2fOCLrhQ0jHP86S3/S3EaVSkUFFWhGMXImPcc=",
+        "originContent": "- Modern `resource` content following current MCP SDK best practices",
+        "translatedContent": "- 高效数据访问：工具返回轻量级链接而非完整负载"
+      },
+      {
+        "row": 35,
+        "rowsha": "pxNh53qe9gldWYSITD6baehPQbU4yCz7wRVk7ohRJ/A=",
+        "originContent": "- Efficient data access: tools return lightweight links instead of full payloads",
+        "translatedContent": "- 性能提升：客户端仅在需要时获取完整书签/收藏数据"
+      },
+      {
+        "row": 36,
+        "rowsha": "M9Cxb/VrSfO/xOYUkSplVCojKcuE0mNZPEco7g+4ISU=",
+        "originContent": "- Better performance: clients fetch full bookmark/collection data only when needed",
+        "translatedContent": "- 与动态资源系统无缝集成（`mcp://raindrop/{id}`）"
+      },
+      {
+        "row": 37,
+        "rowsha": "ybWimTTEikdLnj2R7gxXSP08BB7aY0ZOX0UhB2Yv7Ww=",
+        "originContent": "- Seamless integration with dynamic resource system (`mcp://raindrop/{id}`)",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### SDK 与 API 更新"
+      },
+      {
+        "row": 39,
+        "rowsha": "GWHLQrQiOSp2rRDiEQYXitEY0B+v9ZAkZVTq7GBxiHM=",
+        "originContent": "### SDK & API Updates",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "- Updated to the latest supported MCP SDK in this repository\n- Modern tool registration with improved descriptions\n- Fixed API endpoints and path parameters\n- All core tools fully functional\n\n### Tool Optimization\n\n- Resource-efficient responses for bookmark/collection lists\n- Dynamic resource access via `mcp://collection/{id}` and `mcp://raindrop/{id}`\n- Better client UX with lighter list payloads\n- Full MCP compliance with official SDK patterns\n\n### Service Layer Improvements\n\n- Reduced code through extracted common helpers\n- Consistent error handling and response processing\n- Enhanced type safety with generic handlers\n- Centralized endpoint building\n\n### Testing Improvements\n\n- Stronger end-to-end coverage for MCP tool execution\n- Expanded integration tests for real-world client flows\n\n### MCP 2.0 Preparation (Bulk Ops)\n\n- Laying groundwork for MCP 2.0 bulk-operation workflows and tooling\n\n### OAuth (Coming Soon)\n\n- OAuth-based auth flow to simplify setup without manual tokens\n\n### Note\n\nApologies to anyone affected by the last couple of builds. Thank you for the patience and reports.\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n",
+    "ContentSha": "pCaBaUuOV8HfZQls0k9Tn3yc472ehQPB5YgO2i6Yh1g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 更新至本仓库支持的最新 MCP SDK  \n- 采用现代化工具注册，描述更详尽  \n- 修正 API 端点和路径参数  \n- 所有核心工具均可正常使用  \n\n### 工具优化  \n\n- 书签/收藏列表响应更节省资源  \n- 通过 `mcp://collection/{id}` 和 `mcp://raindrop/{id}` 实现动态资源访问  \n- 客户端体验提升，列表负载更轻  \n- 完全符合 MCP 官方 SDK 规范  \n\n### 服务层改进  \n\n- 通过提取公共辅助函数减少代码量  \n- 错误处理和响应处理更一致  \n- 使用泛型处理器增强类型安全  \n- 端点构建集中管理  \n\n### 测试改进  \n\n- MCP 工具执行端到端覆盖更全面  \n- 扩展了针对真实客户端流程的集成测试  \n\n### MCP 2.0 准备（批量操作）  \n\n- 为 MCP 2.0 批量操作工作流和工具奠定基础  \n\n### OAuth（即将推出）  \n\n- 基于 OAuth 的认证流程，简化设置，无需手动令牌  \n\n### 说明  \n\n对最近几次构建受影响的用户表示歉意，感谢您的耐心和反馈。  \n\n## 许可  \n\n本项目采用 MIT 许可协议 - 详情请参阅 [LICENSE](LICENSE) 文件。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "td35fOF6/K/Opy6pcF5QY6bRYidstydzvcGI9UGD400=",
+        "originContent": "- Updated to the latest supported MCP SDK in this repository",
+        "translatedContent": "- 更新至本仓库支持的最新 MCP SDK  "
+      },
+      {
+        "row": 2,
+        "rowsha": "MZ1mcsCVhrLttTF6JkseBR5Lue6Z7LAZ1SSvlyLNZg0=",
+        "originContent": "- Modern tool registration with improved descriptions",
+        "translatedContent": "- 采用现代化工具注册，描述更详尽  "
+      },
+      {
+        "row": 3,
+        "rowsha": "CdW1h2m0mgUaTaGSIbVhaUuhwd4KqdKrYe5KWY1olu0=",
+        "originContent": "- Fixed API endpoints and path parameters",
+        "translatedContent": "- 修正 API 端点和路径参数  "
+      },
+      {
+        "row": 4,
+        "rowsha": "jhRL0Yr7mHP0nLgrbIvoCrU8QtyPzXKM2WMElBy5tDk=",
+        "originContent": "- All core tools fully functional",
+        "translatedContent": "- 所有核心工具均可正常使用  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "abaFAFbS8FKSnbj9miSpDXOLwCuEkoXpn+oEmaZ6gqY=",
+        "originContent": "### Tool Optimization",
+        "translatedContent": "### 工具优化  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "uMQ2Md+GeUe25jwfLkYvtDpBMf/Iinmp9yV+lmTGdB8=",
+        "originContent": "- Resource-efficient responses for bookmark/collection lists",
+        "translatedContent": "- 书签/收藏列表响应更节省资源  "
+      },
+      {
+        "row": 9,
+        "rowsha": "NN5KWLuReOdyhRfYVI/9ayY/OzohJugyKK3tQPTsaE4=",
+        "originContent": "- Dynamic resource access via `mcp://collection/{id}` and `mcp://raindrop/{id}`",
+        "translatedContent": "- 通过 `mcp://collection/{id}` 和 `mcp://raindrop/{id}` 实现动态资源访问  "
+      },
+      {
+        "row": 10,
+        "rowsha": "0crmWupzsxNqfnVJmxdu3BdDqT9yHeABIhM5+I2gYoE=",
+        "originContent": "- Better client UX with lighter list payloads",
+        "translatedContent": "- 客户端体验提升，列表负载更轻  "
+      },
+      {
+        "row": 11,
+        "rowsha": "PhCCh8BlQuNjJNKrfpugsdxWPCHqsGwGRbNb+P/Rz+g=",
+        "originContent": "- Full MCP compliance with official SDK patterns",
+        "translatedContent": "- 完全符合 MCP 官方 SDK 规范  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "iGdPYUkJtJW0XJYW/eKlt2tTY5b5jJ7XbZaC5d3yzu0=",
+        "originContent": "### Service Layer Improvements",
+        "translatedContent": "### 服务层改进  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7uRYtpnHZR5UfXKsRWjhtJRYwjAsY5cFyTfJQX93gNc=",
+        "originContent": "- Reduced code through extracted common helpers",
+        "translatedContent": "- 通过提取公共辅助函数减少代码量  "
+      },
+      {
+        "row": 16,
+        "rowsha": "UJE8WP5QgXehkxlXBgFjapQKnKBa88iuR7taYiKSnXo=",
+        "originContent": "- Consistent error handling and response processing",
+        "translatedContent": "- 错误处理和响应处理更一致  "
+      },
+      {
+        "row": 17,
+        "rowsha": "J2ttDPn5cEql2x8OmsvgrrGZs0WcjBm8YX6175Qrc4Y=",
+        "originContent": "- Enhanced type safety with generic handlers",
+        "translatedContent": "- 使用泛型处理器增强类型安全  "
+      },
+      {
+        "row": 18,
+        "rowsha": "7+PBxGf9WxT6tgIpSuQK8GYeQVckg63GEEH9cl1Fl8g=",
+        "originContent": "- Centralized endpoint building",
+        "translatedContent": "- 端点构建集中管理  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Yrj0ndyb4wnB2dsnaPIM1e3nzd5vFnC5Odg7CJxoAwM=",
+        "originContent": "### Testing Improvements",
+        "translatedContent": "### 测试改进  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "uxdF/10IFRrQp03f24iVwPETFMbjV8EnMYxp4UcxJXA=",
+        "originContent": "- Stronger end-to-end coverage for MCP tool execution",
+        "translatedContent": "- MCP 工具执行端到端覆盖更全面  "
+      },
+      {
+        "row": 23,
+        "rowsha": "HCMV5DoZJ+aVwZlJNz3PO6HsKD3snHHbAFd78gmD0sM=",
+        "originContent": "- Expanded integration tests for real-world client flows",
+        "translatedContent": "- 扩展了针对真实客户端流程的集成测试  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "fMOB50aYHOUYqbiWePyxNjTITqGEjXb9iu0ERV3g0oI=",
+        "originContent": "### MCP 2.0 Preparation (Bulk Ops)",
+        "translatedContent": "### MCP 2.0 准备（批量操作）  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "DUEYR+1N3N/reJPzmvPkQeLaITlvju60IstDlQRzAJY=",
+        "originContent": "- Laying groundwork for MCP 2.0 bulk-operation workflows and tooling",
+        "translatedContent": "- 为 MCP 2.0 批量操作工作流和工具奠定基础  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "z5Hij4ThvTBulYl+b7ROoQVJaGCFHCHlS4iPq1Bdtxw=",
+        "originContent": "### OAuth (Coming Soon)",
+        "translatedContent": "### OAuth（即将推出）  "
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "8LMIe/0q7EQPzZNo//ks1k1kIZLnRMlbAzaopHYI8UY=",
+        "originContent": "- OAuth-based auth flow to simplify setup without manual tokens",
+        "translatedContent": "- 基于 OAuth 的认证流程，简化设置，无需手动令牌  "
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "DDnnBW/+AoyHDi37CncTcykPH8OXZSQ33ifB5Of4bzc=",
+        "originContent": "### Note",
+        "translatedContent": "### 说明  "
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "KYLA57OnlCIugMIOi/k6c0ctup64+dycNiT5Xm+BzgY=",
+        "originContent": "Apologies to anyone affected by the last couple of builds. Thank you for the patience and reports.",
+        "translatedContent": "对最近几次构建受影响的用户表示歉意，感谢您的耐心和反馈。  "
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可  "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "本项目采用 MIT 许可协议 - 详情请参阅 [LICENSE](LICENSE) 文件。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

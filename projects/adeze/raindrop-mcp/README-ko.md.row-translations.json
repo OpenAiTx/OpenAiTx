@@ -1,0 +1,1358 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GYEJfUTc3LVEgqUa8GcM9r+zXyQXSp8k+hxzxScNfCw=",
+    "originContent": "# Raindrop.io MCP Server",
+    "translatedContent": "# Raindrop.io MCP 서버"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "ldKVgQVzFkPYvb7v/52uAzSsPD6jR6EF7yTzhdLpaUE=",
+    "originContent": "[![smithery badge](https://smithery.ai/badge/@adeze/raindrop-mcp)](https://smithery.ai/server/@adeze/raindrop-mcp)",
+    "translatedContent": "[![smithery 배지](https://smithery.ai/badge/@adeze/raindrop-mcp)](https://smithery.ai/server/@adeze/raindrop-mcp)"
+  },
+  {
+    "row": 4,
+    "rowsha": "EY+itZBp8v/kVGolKxt9YHSmnHNCvfjeprvr3qUyU+k=",
+    "originContent": "[![npm version](https://badge.fury.io/js/%40adeze%2Fraindrop-mcp.svg)](https://www.npmjs.com/package/@adeze/raindrop-mcp)",
+    "translatedContent": "[![npm 버전](https://badge.fury.io/js/%40adeze%2Fraindrop-mcp.svg)](https://www.npmjs.com/package/@adeze/raindrop-mcp)"
+  },
+  {
+    "row": 5,
+    "rowsha": "vy/CawO3hX17dRz5P/kplPmEQf4HaQLc2Ed5DkZr8DM=",
+    "originContent": "[![Claude Desktop MCPB](https://img.shields.io/badge/Claude%20Desktop-MCPB-5B61FF?logo=claude&logoColor=white)](https://github.com/adeze/raindrop-mcp/releases)",
+    "translatedContent": "[![Claude 데스크탑 MCPB](https://img.shields.io/badge/Claude%20Desktop-MCPB-5B61FF?logo=claude&logoColor=white)](https://github.com/adeze/raindrop-mcp/releases)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "xuzyCVZvttsbyM6VYZIHBm/lKzm/cc0pVJlfpBRd89E=",
+    "originContent": "Connect Raindrop.io to your AI assistant with a simple MCP server. Use it to organize, search, and manage bookmarks with natural language.",
+    "translatedContent": "간단한 MCP 서버로 Raindrop.io를 AI 어시스턴트에 연결하세요. 자연어로 북마크를 정리, 검색 및 관리하는 데 사용합니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "bBytSq8no/wRZ9PCquCxo+mD2csDdSByLFGm++P2xHw=",
+    "originContent": "## What it can do",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "QtPQQu9pQE0vQ+2p5T/l8+b80WQHK2opXJVTiLCL5OQ=",
+    "originContent": "- Create, update, and delete collections and bookmarks",
+    "translatedContent": "- 컬렉션 및 북마크 생성, 업데이트, 삭제"
+  },
+  {
+    "row": 12,
+    "rowsha": "BSUq6A3SGJXQvKG26HZXiKp1fuw9k/pFo+HB80p2TOo=",
+    "originContent": "- Search bookmarks by tags, domain, type, date, and more",
+    "translatedContent": "- 태그, 도메인, 유형, 날짜 등으로 북마크 검색"
+  },
+  {
+    "row": 13,
+    "rowsha": "llagxgEL1edw6Jukaqgk59g+h/hhbaXUkmwWD6M7RN8=",
+    "originContent": "- Manage tags (list, rename, merge, delete)",
+    "translatedContent": "- 태그 관리(목록, 이름 변경, 병합, 삭제)"
+  },
+  {
+    "row": 14,
+    "rowsha": "/yy7U6ASx42bL05E+f6qNzEmdp9n95vgnuRT9AbX6Sk=",
+    "originContent": "- Read highlights from bookmarks",
+    "translatedContent": "- 북마크에서 하이라이트 읽기"
+  },
+  {
+    "row": 15,
+    "rowsha": "nrwaGZn6UyUWriqiMI67sONYpM5zBxpXFQ1Czf4axJc=",
+    "originContent": "- Bulk edit bookmarks in a collection",
+    "translatedContent": "- 컬렉션 내 북마크 대량 편집"
+  },
+  {
+    "row": 16,
+    "rowsha": "8KVGQlgyvilSD4AtNPXCBAvVaJysgQ32GXliJcyMydo=",
+    "originContent": "- Audit broken links and duplicates, and manage trash",
+    "translatedContent": "- 끊어진 링크 및 중복 감사, 휴지통 관리"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "CydzS0b79+8mTX3P9FBaCLh3NxcUH6yHLsxNHGhspUw=",
+    "originContent": "## Tools",
+    "translatedContent": "## 도구"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "5Ly6muiLigYE/9V+lrWjwkweGH1VoDj+KAvppJ99m1w=",
+    "originContent": "- **diagnostics** - Server diagnostic information and library health metrics",
+    "translatedContent": "- **diagnostics** - 서버 진단 정보 및 라이브러리 상태 지표"
+  },
+  {
+    "row": 21,
+    "rowsha": "YS2DScE478mzlfrn8f1a1zzu7QXAsWGy/ABy3DPI+ww=",
+    "originContent": "- **collection_list** - List all collections as a flat list",
+    "translatedContent": "- **collection_list** - 모든 컬렉션을 평면 목록으로 표시"
+  },
+  {
+    "row": 22,
+    "rowsha": "1OfltWeHjVWLh6xtkosWEyKEGhGS74MUSOYnNAAc+RQ=",
+    "originContent": "- **get_collection_tree** - Hierarchical view of collections with full breadcrumb paths",
+    "translatedContent": "- **get_collection_tree** - 전체 경로가 포함된 계층적 컬렉션 뷰"
+  },
+  {
+    "row": 23,
+    "rowsha": "hjVqf5hoBW/tXX+JEI0m51W5k54WQQi+dmSsQ6Ahi8k=",
+    "originContent": "- **collection_manage** - Create, update, or delete collections",
+    "translatedContent": "- **collection_manage** - 컬렉션 생성, 업데이트 또는 삭제"
+  },
+  {
+    "row": 24,
+    "rowsha": "vbMnq9WFXkem8G6IPT9eCagF+oyh8p8iug3H+9WcV3I=",
+    "originContent": "- **bookmark_search** - Advanced search with filters, tags, and pagination",
+    "translatedContent": "- **bookmark_search** - 필터, 태그, 페이지네이션을 통한 고급 검색"
+  },
+  {
+    "row": 25,
+    "rowsha": "DExEgb2Io57SIl8iEr7sfTI+g4HUodI+tGbD3YY1JUQ=",
+    "originContent": "- **bookmark_manage** - Create, update, or delete bookmarks",
+    "translatedContent": "- **bookmark_manage** - 북마크 생성, 업데이트 또는 삭제"
+  },
+  {
+    "row": 26,
+    "rowsha": "ShXL5hIczeiOpJEcVKLO/ns7KL7IJ3VoNFIdAe3ksA8=",
+    "originContent": "- **get_raindrop** - Fetch a single bookmark by ID",
+    "translatedContent": "- **get_raindrop** - ID로 단일 북마크 가져오기"
+  },
+  {
+    "row": 27,
+    "rowsha": "CGpc0zwxvvjNDTu5ItzroUgQMQu+PDtWM8ClDGiwHZ8=",
+    "originContent": "- **list_raindrops** - List bookmarks for a collection with pagination",
+    "translatedContent": "- **list_raindrops** - 페이지네이션이 있는 컬렉션 북마크 목록"
+  },
+  {
+    "row": 28,
+    "rowsha": "8f7UnWSiYtpLdobUxP2e4TOwZbGOwdxfTKjv9DYCv/0=",
+    "originContent": "- **get_suggestions** - AI-powered organization advice (tags/collections) for a URL or bookmark",
+    "translatedContent": "- **get_suggestions** - URL 또는 북마크에 대한 AI 기반 조직 조언(태그/컬렉션)"
+  },
+  {
+    "row": 29,
+    "rowsha": "vNLH8ZuAty3Uv1bNGCdCTihlGz9xPCI5WaMoeISgEec=",
+    "originContent": "- **suggest_tags** - Suggest relevant tags from bookmark metadata using AI-assisted analysis",
+    "translatedContent": "- **suggest_tags** - AI 지원 분석으로 북마크 메타데이터에서 관련 태그 제안"
+  },
+  {
+    "row": 30,
+    "rowsha": "IChXz8ozAiRLFDmpMTBaGNOJ8PtbQVbKFnEyvLuEdU0=",
+    "originContent": "- **bulk_edit_raindrops** - Bulk update, move, or remove bookmarks in a specific collection",
+    "translatedContent": "- **bulk_edit_raindrops** - 특정 컬렉션 내 북마크 대량 업데이트, 이동 또는 제거"
+  },
+  {
+    "row": 31,
+    "rowsha": "nzQ+TaWLgjS+m+YYmnI7rEcBmYecbjAZ3taQhi17NwQ=",
+    "originContent": "- **tag_manage** - Rename, merge, or delete tags",
+    "translatedContent": "- **tag_manage** - 태그 이름 변경, 병합 또는 삭제"
+  },
+  {
+    "row": 32,
+    "rowsha": "AqowkjPaGlygd+087qNoTUH1nqe9FMjwhZMEMw2ja9w=",
+    "originContent": "- **highlight_manage** - Create, update, or delete highlights",
+    "translatedContent": "- **highlight_manage** - 하이라이트 생성, 업데이트 또는 삭제"
+  },
+  {
+    "row": 33,
+    "rowsha": "/M231MBMrzEPOctbnjgD2tx827kfLikTZzpwenhVxJo=",
+    "originContent": "- **library_audit** - Scan library for broken links, duplicates, and untagged items",
+    "translatedContent": "- **library_audit** - 끊어진 링크, 중복, 태그 없는 항목 스캔"
+  },
+  {
+    "row": 34,
+    "rowsha": "35k8ZSbuJgXQenjpq0jH2m41zQHQIS3RichCd/0D0Bw=",
+    "originContent": "- **empty_trash** - Permanently empty the trash (requires confirmation)",
+    "translatedContent": "- **empty_trash** - 휴지통 영구 비우기(확인 필요)"
+  },
+  {
+    "row": 35,
+    "rowsha": "vqFzN81AZE/noFCZLXfMyuUWVtNbh/qEAeIYp27+wjE=",
+    "originContent": "- **cleanup_collections** - Remove empty collections (requires confirmation)",
+    "translatedContent": "- **cleanup_collections** - 빈 컬렉션 제거(확인 필요)"
+  },
+  {
+    "row": 36,
+    "rowsha": "+uI49VZd5cTZ1ew4rOBcpCprlT3DB8Ielwe8b1Ur4LY=",
+    "originContent": "- **remove_duplicates** - Find and remove duplicate bookmarks with safe confirmation flow",
+    "translatedContent": "- **remove_duplicates** - 안전한 확인 절차를 통한 중복 북마크 탐색 및 제거"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "6eD+2IsgQW8rPD+Res1WYZHKSKHinvKdQB1raUoN4v8=",
+    "originContent": "### Quick Start (One-Liners)",
+    "translatedContent": "### 빠른 시작 (한 줄 명령어)"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 도구                | 한 줄 명령어                                                       |"
+  },
+  {
+    "row": 42,
+    "rowsha": "EFomoTLJkIknrStekfVr9Xu8JzxbPvK223/LLtJ6ZQk=",
+    "originContent": "| Tool               | One-Liner Command                                                  |",
+    "translatedContent": "| :----------------- | :----------------------------------------------------------------- |"
+  },
+  {
+    "row": 43,
+    "rowsha": "tzZgnb16PKywfb+a/tWj/Te0zqRz8vG8Se6dIzss1Mo=",
+    "originContent": "| :----------------- | :----------------------------------------------------------------- |",
+    "translatedContent": "| **Gemini CLI**     | `gemini extensions install https://github.com/adeze/raindrop-mcp`  |"
+  },
+  {
+    "row": 44,
+    "rowsha": "tab4m2GNz1cthMtIf2N2ujc6yjimFgpiukQ+VE0PEeo=",
+    "originContent": "| **Gemini CLI**     | `gemini extensions install https://github.com/adeze/raindrop-mcp`  |",
+    "translatedContent": "| **Codex CLI**      | `codex mcp add raindrop -- npx -y @adeze/raindrop-mcp`             |"
+  },
+  {
+    "row": 45,
+    "rowsha": "TcaFc8WCd/ISBUEYYm/D3/1kLMCUXBlMoH8fQIA2pQA=",
+    "originContent": "| **Codex CLI**      | `codex mcp add raindrop -- npx -y @adeze/raindrop-mcp`             |",
+    "translatedContent": "| **Claude Code**    | `claude mcp add raindrop -- npx -y @adeze/raindrop-mcp`            |"
+  },
+  {
+    "row": 46,
+    "rowsha": "GvcPLl9LQvY4057/iJTUzGRe3+ti81WaP2PsGBjoinE=",
+    "originContent": "| **Claude Code**    | `claude mcp add raindrop -- npx -y @adeze/raindrop-mcp`            |",
+    "translatedContent": "| **GitHub Copilot** | `gh copilot config mcp add raindrop -- npx -y @adeze/raindrop-mcp` |"
+  },
+  {
+    "row": 47,
+    "rowsha": "m1reo1i2R0mCF5zmKdZg4OZrAh3wdliPYbxzdLjmOks=",
+    "originContent": "| **GitHub Copilot** | `gh copilot config mcp add raindrop -- npx -y @adeze/raindrop-mcp` |",
+    "translatedContent": "| **Vercel Skills**  | `npx skills add adeze/raindrop-mcp`                                |"
+  },
+  {
+    "row": 48,
+    "rowsha": "sDiVhTWw1JUCDWXYjqUees3c3pTvIotmOtnO+m2i3R8=",
+    "originContent": "| **Vercel Skills**  | `npx skills add adeze/raindrop-mcp`                                |",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **참고**: `npx`를 통해 MCP 서버를 추가하는 도구의 경우, 셸 또는 도구의 환경 구성에 `RAINDROP_ACCESS_TOKEN` 환경 변수가 설정되어 있어야 합니다."
+  },
+  {
+    "row": 50,
+    "rowsha": "Q7u/kAhM6kfmF/qP7nl8mhCdqZnxvzDPoC9azORaH0Y=",
+    "originContent": "> **Note**: For tools adding an MCP server via `npx`, you must have the `RAINDROP_ACCESS_TOKEN` environment variable set in your shell or the tool's environment config.",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Vercel Skills (npx skills)"
+  },
+  {
+    "row": 52,
+    "rowsha": "cjJDGJqlGh+TIg/HVYUszJQUYWoIpG7HpdiE5W7a7g8=",
+    "originContent": "### Vercel Skills (npx skills)",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 프로젝트는 [Vercel Skills](https://github.com/vercel/skills) 시스템과 호환됩니다. 모든 필수 매니페스트가 포함되어 있습니다:"
+  },
+  {
+    "row": 54,
+    "rowsha": "BrpQ0t+d9+gmdug2K3pMTrFY/5bjc+PJ1qDZIMjYJd8=",
+    "originContent": "This project is compatible with the [Vercel Skills](https://github.com/vercel/skills) system. All necessary manifests are present:",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `manifest.json`: 서버 정의를 위한 표준 MCP 매니페스트입니다."
+  },
+  {
+    "row": 56,
+    "rowsha": "m1eOMTTjBg9U0Kkd6sCEXCI5jeK71Z7mKJqsnmZT6Gw=",
+    "originContent": "- `manifest.json`: Standard MCP manifest for server definition.",
+    "translatedContent": "- `SKILL.md`: 에이전트 검색을 위한 표준화된 스킬 설명입니다."
+  },
+  {
+    "row": 57,
+    "rowsha": "SZxL69YKfzddIkgLfwZKPlT/dWW9j4aqGSO2AoSmRBo=",
+    "originContent": "- `SKILL.md`: Standardized skill description for agent discovery.",
+    "translatedContent": "- `mcp.json`: MCP 클라이언트 및 레지스트리를 위한 루트 구성입니다."
+  },
+  {
+    "row": 58,
+    "rowsha": "nrycV3phhu03gmM8h3riAbFVFZzSDMsaJgARihqGUgA=",
+    "originContent": "- `mcp.json`: Root configuration for MCP clients and registries.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 서버를 로컬 스킬 디렉터리에 추가하려면:"
+  },
+  {
+    "row": 60,
+    "rowsha": "urmdRrIsm+OOHDWrWCAxfEkop6rXCNkEf0tNmSn5cZg=",
+    "originContent": "To add this server to your local skill directory:",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 63,
+    "rowsha": "ZR8ALiq6Ijuv4/ZhTPjJU1Y6SDHFWzdkF9oIP3lVMUk=",
+    "originContent": "npx skills add adeze/raindrop-mcp --global",
+    "translatedContent": "npx skills add adeze/raindrop-mcp --global"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이것을 [Vercel Skills Registry](https://github.com/vercel/skills/tree/main/registry)에 기여하려면, 이 저장소 URL을 레지스트리에 추가하는 Pull Request를 제출하세요."
+  },
+  {
+    "row": 66,
+    "rowsha": "Orx19BQhuIaWVs8JbehAqgyDqN38WRlr/ypdFQ2qVbw=",
+    "originContent": "To contribute this to the [Vercel Skills Registry](https://github.com/vercel/skills/tree/main/registry), submit a Pull Request adding this repository URL to the registry.",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Claude Desktop (MCPB)"
+  },
+  {
+    "row": 68,
+    "rowsha": "sjFGB4Ro2qaFlhfRluIbAjGEFqMbfBUc9ULz0MV4UkM=",
+    "originContent": "### Claude Desktop (MCPB)",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "GitHub Release에서 최신 raindrop-mcp.mcpb를 다운로드하여 Claude Desktop에 추가하세요:"
+  },
+  {
+    "row": 70,
+    "rowsha": "ElaAp6va9Pk4rUckjZayhM65kaxCpjrfRADVdpN+MGU=",
+    "originContent": "Download the latest raindrop-mcp.mcpb from the GitHub Release and add it to Claude Desktop:",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Releases: https://github.com/adeze/raindrop-mcp/releases"
+  },
+  {
+    "row": 72,
+    "rowsha": "RF93f4hNdEnyHPQGuwpnP0a+CJJPNaFUACLfAndajAo=",
+    "originContent": "- Releases: https://github.com/adeze/raindrop-mcp/releases",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Claude Desktop에서 번들을 추가하고 다음 환경 변수를 설정하세요:"
+  },
+  {
+    "row": 74,
+    "rowsha": "2BvcciVRc+LRZ+wVeXRK0k9PXjrtsvCiNAKad9+TBAI=",
+    "originContent": "In Claude Desktop, add the bundle and set this environment variable:",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- RAINDROP_ACCESS_TOKEN (Raindrop.io 통합 설정에서 가져옴)"
+  },
+  {
+    "row": 76,
+    "rowsha": "C9VkkCB95bMp2g8/MtEAsEy1bzejjCxB/ByuMQ9BJ9s=",
+    "originContent": "- RAINDROP_ACCESS_TOKEN (from your Raindrop.io integrations settings)",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### NPX (CLI)"
+  },
+  {
+    "row": 78,
+    "rowsha": "SOOnl1rMpAT7s/VN+NY4qoUFfOqbtlYe3nL0WyHgeJg=",
+    "originContent": "### NPX (CLI)",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "API 토큰을 환경 변수로 설정하고 다음을 실행하세요:"
+  },
+  {
+    "row": 80,
+    "rowsha": "jAhD06f92kfn3NJArF7jDVW+FH7DMkFeSUaAGkIzv6c=",
+    "originContent": "Set your API token as an environment variable and run:",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 83,
+    "rowsha": "IWwtYcamLgbluzoeRayir9hD3aIYuiLCR7PPrxGnxzE=",
+    "originContent": "export RAINDROP_ACCESS_TOKEN=YOUR_RAINDROP_ACCESS_TOKEN",
+    "translatedContent": "export RAINDROP_ACCESS_TOKEN=YOUR_RAINDROP_ACCESS_TOKEN"
+  },
+  {
+    "row": 84,
+    "rowsha": "G4svFTPOrnnYGtJB7+pzbRDk1UuY2GuZ2WbxWS5Hrsc=",
+    "originContent": "npx @adeze/raindrop-mcp",
+    "translatedContent": "npx @adeze/raindrop-mcp"
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "q3smhd7X3l8oJN++3yZjjHPA+FpWRP/6MibWt1+8tdY=",
+    "originContent": "### Manual MCP config (mcp.json)",
+    "translatedContent": "### 수동 MCP 구성 (mcp.json)"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "TYP5ybA+qdzrm5cJ3PgBWR93nquGKudPJIolI5kWNZc=",
+    "originContent": "Add this to your MCP client configuration:",
+    "translatedContent": "MCP 클라이언트 구성에 다음을 추가하세요:"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 92,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 93,
+    "rowsha": "6gciud5BPcssGAC+jujQYsHiKAQjBMsDloPhWgOZl4o=",
+    "originContent": "  \"servers\": {",
+    "translatedContent": "  \"servers\": {"
+  },
+  {
+    "row": 94,
+    "rowsha": "ZxUeCgaZpcJDvYuq1MG973nPsmbJ0bKnuz6jky+raUk=",
+    "originContent": "    \"raindrop\": {",
+    "translatedContent": "    \"raindrop\": {"
+  },
+  {
+    "row": 95,
+    "rowsha": "rG7T7o4m/Y5JXMM/JeipL+oMKF4DayLvaCYkU4mxS4k=",
+    "originContent": "      \"type\": \"stdio\",",
+    "translatedContent": "      \"type\": \"stdio\","
+  },
+  {
+    "row": 96,
+    "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+    "originContent": "      \"command\": \"npx\",",
+    "translatedContent": "      \"command\": \"npx\","
+  },
+  {
+    "row": 97,
+    "rowsha": "wWtK4jzYbruw+O0+gv+FMcBCahtsBNw40zkeWeawIKw=",
+    "originContent": "      \"args\": [\"@adeze/raindrop-mcp@latest\"],",
+    "translatedContent": "      \"args\": [\"@adeze/raindrop-mcp@latest\"],"
+  },
+  {
+    "row": 98,
+    "rowsha": "KCt3f/t8XKXl6Az1UZA2aZO78CIP9Drb2LKKIKd3pfE=",
+    "originContent": "      \"env\": {",
+    "translatedContent": "      \"env\": {"
+  },
+  {
+    "row": 99,
+    "rowsha": "yWNXUxPUlRG3B1/BkDDJDNBH78a2E9XbkHXwhO44FUo=",
+    "originContent": "        \"RAINDROP_ACCESS_TOKEN\": \"YOUR_RAINDROP_ACCESS_TOKEN\"",
+    "translatedContent": "        \"RAINDROP_ACCESS_TOKEN\": \"YOUR_RAINDROP_ACCESS_TOKEN\""
+  },
+  {
+    "row": 100,
+    "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+    "originContent": "      }",
+    "translatedContent": "      }"
+  },
+  {
+    "row": 101,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 102,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 103,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 요구 사항"
+  },
+  {
+    "row": 106,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Raindrop.io 계정"
+  },
+  {
+    "row": 108,
+    "rowsha": "OhhBzzx0NgyyxaGkdIHYAICJTrPvPAlxID+0BBG80SQ=",
+    "originContent": "- A Raindrop.io account",
+    "translatedContent": "- Raindrop.io API 액세스 토큰: https://app.raindrop.io/settings/integrations"
+  },
+  {
+    "row": 109,
+    "rowsha": "yCp/0aLjlrM9dv4ErRaZXXWBg2nLp+cAfrVcmcz5uq4=",
+    "originContent": "- A Raindrop.io API Access Token: https://app.raindrop.io/settings/integrations",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 지원"
+  },
+  {
+    "row": 111,
+    "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+    "originContent": "## Support",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 이슈: https://github.com/adeze/raindrop-mcp/issues"
+  },
+  {
+    "row": 113,
+    "rowsha": "RHv17TqigG25stSN/EU8OXqV9HWkiygKCFo4r61J8hg=",
+    "originContent": "- Issues: https://github.com/adeze/raindrop-mcp/issues",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 릴리스"
+  },
+  {
+    "row": 115,
+    "rowsha": "EVbBxtATEL4uCRkEfoL1asLS3ac1FTwxCky4nHNnX6E=",
+    "originContent": "## Release",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 저장소는 `semantic-release`를 유일한 지원 릴리스 플로우로 사용합니다."
+  },
+  {
+    "row": 117,
+    "rowsha": "6ybFtqZvt0vjfwaHb1D7p7KKIYlDTfqAUCwpBrAF5Ik=",
+    "originContent": "This repository uses `semantic-release` as the only supported release flow.",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 배포 작동 방식"
+  },
+  {
+    "row": 119,
+    "rowsha": "D4u6k0oiVoETXZ/8Esj6GCATUPWRMxWog4A/3lhaA6s=",
+    "originContent": "### How publishing works",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 릴리스는 `.github/workflows/ci.yml`을 통해 `master` 브랜치로 푸시될 때 실행됩니다."
+  },
+  {
+    "row": 121,
+    "rowsha": "d7bqt4qrgYGHAssD2ilWsx+JXSsnWKrP7PUBOY0RruE=",
+    "originContent": "- Releases run from pushes to `master` via `.github/workflows/ci.yml`.",
+    "translatedContent": "- `semantic-release`는 Conventional Commit 메시지를 분석하고, 다음 버전을 계산하며, `CHANGELOG.md`를 업데이트하고, GitHub에 태그/릴리스를 생성하고, npm에 배포합니다."
+  },
+  {
+    "row": 122,
+    "rowsha": "wSGPZtpAgH4UTwCwP0IH49ruIXn4bK+Q1NAwANcoIBM=",
+    "originContent": "- `semantic-release` analyzes Conventional Commit messages, computes the next version, updates `CHANGELOG.md`, tags/releases on GitHub, and publishes npm.",
+    "translatedContent": "- 릴리스 준비 중에 `.releaserc.json`은 `manifest.json`, `mcp.json`, `gemini-extension.json`을 동기화한 후 `raindrop-mcp.mcpb`를 빌드하여 GitHub 릴리스에 번들이 포함되도록 합니다."
+  },
+  {
+    "row": 123,
+    "rowsha": "vyE8qWw+t6I/v2BpZYZojR7ylgAlVkGzoKDuAMl5LvE=",
+    "originContent": "- During release preparation, `.releaserc.json` syncs `manifest.json`, `mcp.json`, and `gemini-extension.json`, then builds `raindrop-mcp.mcpb` so the GitHub Release includes the bundle.",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 사전 릴리스 드라이런"
+  },
+  {
+    "row": 125,
+    "rowsha": "NhSCUTDYA5ZPQG55zpopM2WOyKsz7tirG/BoyIMHDV8=",
+    "originContent": "### Pre-release dry-run",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 공개 릴리스를 하기 전에 **Run workflow**로 `.github/workflows/release-dry-run.yml`을 실행하세요."
+  },
+  {
+    "row": 127,
+    "rowsha": "k/jtci0DI9Wrz9FidtxfZYoR58EMnPdzfiP5Dazf5hE=",
+    "originContent": "- Run `.github/workflows/release-dry-run.yml` with **Run workflow** before cutting a public release.",
+    "translatedContent": "- 이는 퍼블리싱 없이 시맨틱 버전 계산, 레지스트리 인증, 릴리스 파이프라인 동작을 검증합니다."
+  },
+  {
+    "row": 128,
+    "rowsha": "4cscvus76i8Bx/ve8eOtipYFA1VB6En6Zk9Dih5+hDA=",
+    "originContent": "- This validates semantic version calculation, registry auth, and release pipeline behavior without publishing.",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 필수 시크릿"
+  },
+  {
+    "row": 130,
+    "rowsha": "kPBLKP9aFx4fKw+ZWr+PTCbSIDeW56b6XCZCkf5WPZM=",
+    "originContent": "### Required secrets",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `GITHUB_TOKEN`은 릴리스 자동화를 위해 GitHub Actions에서 제공합니다."
+  },
+  {
+    "row": 132,
+    "rowsha": "6UOurr4pTQgiBu5QlWDDPGW9HVLI612WpXGikAsgkH0=",
+    "originContent": "- `GITHUB_TOKEN` is provided by GitHub Actions for release automation.",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### npm 신뢰 출판"
+  },
+  {
+    "row": 134,
+    "rowsha": "5/K0hwjOu7e3X3eYFjX0WTtxcCL4PTDK3EA3bKcHj3I=",
+    "originContent": "### npm trusted publishing",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- npm 출판은 GitHub Actions OIDC 신뢰 출판을 통해 구성됩니다."
+  },
+  {
+    "row": 136,
+    "rowsha": "iQSdWmqOe/w+4aD4h9FXLw8X2/TXKz/rt122dLcQZN4=",
+    "originContent": "- npm publishing is configured via GitHub Actions OIDC trusted publishing.",
+    "translatedContent": "- 표준 CI 릴리스 경로에서는 `NPM_TOKEN`이 필요하지 않습니다."
+  },
+  {
+    "row": 137,
+    "rowsha": "DvBi1oXWNo5EbjkBc8gCXO9o+DjX1dadmqK18nEgixQ=",
+    "originContent": "- `NPM_TOKEN` is not required for the standard CI release path.",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 병합 전 로컬 검증"
+  },
+  {
+    "row": 139,
+    "rowsha": "rXcXNhsZD8hoowvHptozvB1Ppi6Q6vHd/Qw7AByz/yE=",
+    "originContent": "### Local validation before merge",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 142,
+    "rowsha": "8eKU3nVZgQQKORJIthX41qxW6Krm4nWR4sVkTxXfISA=",
+    "originContent": "bun run lint",
+    "translatedContent": "bun run lint"
+  },
+  {
+    "row": 143,
+    "rowsha": "AfMpUC8agS8CikoYmX1Bx+GOXHCEAaYPID43qTRB+Fw=",
+    "originContent": "bun run type-check",
+    "translatedContent": "bun run type-check"
+  },
+  {
+    "row": 144,
+    "rowsha": "/Q4jbfv2BHz4m+/VlQR3NzWnT9k0wCNljQSLWO0aNgU=",
+    "originContent": "bun run test",
+    "translatedContent": "bun run test"
+  },
+  {
+    "row": 145,
+    "rowsha": "2+ip4sZNhL0tjOHip6LJ9wZaNoc5s0vYjde7TiM7fpQ=",
+    "originContent": "bun run build",
+    "translatedContent": "bun run build"
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 커밋 메시지 예시"
+  },
+  {
+    "row": 148,
+    "rowsha": "YWxeHC2UDK1i/yXxas1D6c6J9FW5qzB4dm4gBi4vngk=",
+    "originContent": "### Commit message examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `fix: 빈 태그 병합 페이로드 처리`"
+  },
+  {
+    "row": 150,
+    "rowsha": "ORjMJ9kch+nbZf0X3QyJRYSKx0OhgKFIFsZksHA0PKg=",
+    "originContent": "- `fix: handle empty tag merge payload`",
+    "translatedContent": "- `feat: 컬렉션 경로 필터 추가`"
+  },
+  {
+    "row": 151,
+    "rowsha": "MpYuOOfCROS5AXG6aIImfFrmvNhYKrB+JliieBoK2i0=",
+    "originContent": "- `feat: add collection path filter`",
+    "translatedContent": "- `feat!: 더 이상 사용되지 않는 검색 매개변수 제거`"
+  },
+  {
+    "row": 152,
+    "rowsha": "GfMJqVPt2OceHscz/u1wxCfd4sh9/3cvJHWS8/ncK2c=",
+    "originContent": "- `feat!: remove deprecated search parameter`",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "일반 릴리스의 경우 버전을 수동으로 올리거나, 릴리스 태그를 푸시하거나, 수동으로 npm publish 명령을 실행하지 마십시오."
+  },
+  {
+    "row": 154,
+    "rowsha": "5iXq1DtTxmYbUkkWgr/OrOXQvLqINGIWBhlF2ekKxcY=",
+    "originContent": "Do not manually bump versions, push release tags, or run manual npm publish commands for normal releases.",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📋 최근 향상 (v2.4.x)"
+  },
+  {
+    "row": 156,
+    "rowsha": "AKoYqMMqKKyzh88wFxZ1l1uWg1gD4d3IO5M7lXYS9lg=",
+    "originContent": "## 📋 Recent Enhancements (v2.4.x)",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 스마트 조직 및 계층 구조"
+  },
+  {
+    "row": 158,
+    "rowsha": "WnsHK74fXnGQdR1dzLZR1mHu9BtFzeST1j70f7DCb64=",
+    "originContent": "### Smart Organization & Hierarchy",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **AI 제안**: 새로운 `get_suggestions` 도구는 Raindrop API와 MCP 샘플링을 사용하여 조직 조언을 제공합니다."
+  },
+  {
+    "row": 160,
+    "rowsha": "peSUVEWBJ3PlJeVA6F7QbAlnWD1ZXNgrCNe0s8MFI7Q=",
+    "originContent": "- **AI Suggestions**: New `get_suggestions` tool provides organizational advice using Raindrop's API and MCP Sampling.",
+    "translatedContent": "- **컬렉션 트리**: `get_collection_tree` 도구는 전체 빵 부스러기 경로와 함께 계층적 뷰를 제공합니다."
+  },
+  {
+    "row": 161,
+    "rowsha": "vbSMf8shEZCGrLfP7hqsnHr+qew85vGKPCTH/9SNNyY=",
+    "originContent": "- **Collection Tree**: `get_collection_tree` tool provides a hierarchical view with full breadcrumb paths.",
+    "translatedContent": "- **대량 이동**: 효율적인 라이브러리 구성을 위해 `bulk_edit_raindrops`에 `move` 작업이 추가되었습니다."
+  },
+  {
+    "row": 162,
+    "rowsha": "6rX87371JsvYP39lvRan1ej5j0elqn9ZT981rKBsFes=",
+    "originContent": "- **Bulk Move**: Added `move` operation to `bulk_edit_raindrops` for efficient library organization.",
+    "translatedContent": "- **페이징 지원**: 대형 라이브러리를 위해 `list_raindrops` 및 `bookmark_search`가 표준화된 페이징을 지원합니다."
+  },
+  {
+    "row": 163,
+    "rowsha": "QP6PZfOlSSTdH9A8hSKiKbo7wWFn8LJKZ08Y0yJ5omg=",
+    "originContent": "- **Pagination Support**: Standardized `list_raindrops` and `bookmark_search` with pagination for large libraries.",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 안전 및 품질"
+  },
+  {
+    "row": 165,
+    "rowsha": "Gvg5UcCLRyvT81gKuk/r6NEZoE0EBnwzrgUg663uEgU=",
+    "originContent": "### Safety & Quality",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **확인 로직**: 파괴적 도구(`empty_trash`, `cleanup_collections`)는 이제 명시적 확인을 요구합니다."
+  },
+  {
+    "row": 167,
+    "rowsha": "XCh6WeydbM1gM1kTQi31mKJ/uSE7wN8Uy+998lmSyxw=",
+    "originContent": "- **Confirmation Logic**: Destructive tools (`empty_trash`, `cleanup_collections`) now require explicit confirmation.",
+    "translatedContent": "- **표준화된 명명법**: 모든 도구는 일관된 스네이크케이스 명명 규칙을 사용합니다."
+  },
+  {
+    "row": 168,
+    "rowsha": "M7A7aUFmpDjeGyiTPvPFQKotl0tAOQXUk6wwHzCVkM4=",
+    "originContent": "- **Standardized Naming**: All tools now use consistent snake_case naming conventions.",
+    "translatedContent": "- **CI/CD 파이프라인**: 자동 린팅, 타입 검사 및 교차 전송 테스트를 포함하도록 GitHub Actions가 강화되었습니다."
+  },
+  {
+    "row": 169,
+    "rowsha": "fWawueuh3YZj+U0brwnUIZccKYx/ZqrS7SzGS/a90Yk=",
+    "originContent": "- **CI/CD Pipeline**: Enhanced GitHub Actions with automated linting, type-checking, and cross-transport tests.",
+    "translatedContent": "- **코드 품질**: 유지보수 가능한 개발을 위해 ESLint 및 Prettier 구성이 확립되었습니다."
+  },
+  {
+    "row": 170,
+    "rowsha": "bhpaXU5Hr8oOFIreWOfnhXZlnnm3kRBlLLTUuHQIyRU=",
+    "originContent": "- **Code Quality**: Established ESLint and Prettier configurations for maintainable development.",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📋 이전 향상 (v2.3.3)"
+  },
+  {
+    "row": 172,
+    "rowsha": "ZZSnRk9SwzuQdsZugCPRXU4SfPdlMib8qer9cvMThLE=",
+    "originContent": "## 📋 Previous Enhancements (v2.3.3)",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 고급 정리 및 라이브러리 감사"
+  },
+  {
+    "row": 174,
+    "rowsha": "XlyAPOu/TnRR5NxKnzG5v5smCMzNGPxavwrzNdxgJS4=",
+    "originContent": "### Advanced Cleanup & Library Audit",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📋 이전 향상 (v2.3.2)"
+  },
+  {
+    "row": 176,
+    "rowsha": "fZxEjI3DHb49FSYPYZMaGb+YEBfZd6TY4+HwCCzY8Cc=",
+    "originContent": "## 📋 Previous Enhancements (v2.3.2)",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### MCP 리소스 링크 구현"
+  },
+  {
+    "row": 178,
+    "rowsha": "zbsXVFgIGGRbbfVEv0gZeYGQsgSX2K/of8ttMf9YAYA=",
+    "originContent": "### MCP Resource Links Implementation",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 최신 MCP SDK 모범 사례를 따른 현대적인 `resource` 콘텐츠"
+  },
+  {
+    "row": 180,
+    "rowsha": "/XDLWL2fOCLrhQ0jHP86S3/S3EaVSkUFFWhGMXImPcc=",
+    "originContent": "- Modern `resource` content following current MCP SDK best practices",
+    "translatedContent": "- 효율적인 데이터 접근: 도구가 전체 페이로드 대신 경량 링크를 반환"
+  },
+  {
+    "row": 181,
+    "rowsha": "pxNh53qe9gldWYSITD6baehPQbU4yCz7wRVk7ohRJ/A=",
+    "originContent": "- Efficient data access: tools return lightweight links instead of full payloads",
+    "translatedContent": "- 향상된 성능: 클라이언트는 필요할 때만 전체 북마크/컬렉션 데이터를 가져옴"
+  },
+  {
+    "row": 182,
+    "rowsha": "M9Cxb/VrSfO/xOYUkSplVCojKcuE0mNZPEco7g+4ISU=",
+    "originContent": "- Better performance: clients fetch full bookmark/collection data only when needed",
+    "translatedContent": "- 동적 리소스 시스템(`mcp://raindrop/{id}`)과 원활한 통합"
+  },
+  {
+    "row": 183,
+    "rowsha": "ybWimTTEikdLnj2R7gxXSP08BB7aY0ZOX0UhB2Yv7Ww=",
+    "originContent": "- Seamless integration with dynamic resource system (`mcp://raindrop/{id}`)",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### SDK 및 API 업데이트"
+  },
+  {
+    "row": 185,
+    "rowsha": "GWHLQrQiOSp2rRDiEQYXitEY0B+v9ZAkZVTq7GBxiHM=",
+    "originContent": "### SDK & API Updates",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "td35fOF6/K/Opy6pcF5QY6bRYidstydzvcGI9UGD400=",
+    "originContent": "- Updated to the latest supported MCP SDK in this repository",
+    "translatedContent": "- 이 저장소에서 최신 지원 MCP SDK로 업데이트됨  "
+  },
+  {
+    "row": 188,
+    "rowsha": "MZ1mcsCVhrLttTF6JkseBR5Lue6Z7LAZ1SSvlyLNZg0=",
+    "originContent": "- Modern tool registration with improved descriptions",
+    "translatedContent": "- 향상된 설명과 함께 현대적인 도구 등록  "
+  },
+  {
+    "row": 189,
+    "rowsha": "CdW1h2m0mgUaTaGSIbVhaUuhwd4KqdKrYe5KWY1olu0=",
+    "originContent": "- Fixed API endpoints and path parameters",
+    "translatedContent": "- API 엔드포인트 및 경로 매개변수 수정  "
+  },
+  {
+    "row": 190,
+    "rowsha": "jhRL0Yr7mHP0nLgrbIvoCrU8QtyPzXKM2WMElBy5tDk=",
+    "originContent": "- All core tools fully functional",
+    "translatedContent": "- 모든 핵심 도구 완전 작동  "
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "abaFAFbS8FKSnbj9miSpDXOLwCuEkoXpn+oEmaZ6gqY=",
+    "originContent": "### Tool Optimization",
+    "translatedContent": "### 도구 최적화  "
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "uMQ2Md+GeUe25jwfLkYvtDpBMf/Iinmp9yV+lmTGdB8=",
+    "originContent": "- Resource-efficient responses for bookmark/collection lists",
+    "translatedContent": "- 북마크/컬렉션 목록에 대한 자원 효율적 응답  "
+  },
+  {
+    "row": 195,
+    "rowsha": "NN5KWLuReOdyhRfYVI/9ayY/OzohJugyKK3tQPTsaE4=",
+    "originContent": "- Dynamic resource access via `mcp://collection/{id}` and `mcp://raindrop/{id}`",
+    "translatedContent": "- `mcp://collection/{id}` 및 `mcp://raindrop/{id}`를 통한 동적 자원 접근  "
+  },
+  {
+    "row": 196,
+    "rowsha": "0crmWupzsxNqfnVJmxdu3BdDqT9yHeABIhM5+I2gYoE=",
+    "originContent": "- Better client UX with lighter list payloads",
+    "translatedContent": "- 가벼운 목록 페이로드로 클라이언트 UX 개선  "
+  },
+  {
+    "row": 197,
+    "rowsha": "PhCCh8BlQuNjJNKrfpugsdxWPCHqsGwGRbNb+P/Rz+g=",
+    "originContent": "- Full MCP compliance with official SDK patterns",
+    "translatedContent": "- 공식 SDK 패턴과 완전한 MCP 준수  "
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "iGdPYUkJtJW0XJYW/eKlt2tTY5b5jJ7XbZaC5d3yzu0=",
+    "originContent": "### Service Layer Improvements",
+    "translatedContent": "### 서비스 계층 개선  "
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "7uRYtpnHZR5UfXKsRWjhtJRYwjAsY5cFyTfJQX93gNc=",
+    "originContent": "- Reduced code through extracted common helpers",
+    "translatedContent": "- 공통 헬퍼 추출로 코드 감소  "
+  },
+  {
+    "row": 202,
+    "rowsha": "UJE8WP5QgXehkxlXBgFjapQKnKBa88iuR7taYiKSnXo=",
+    "originContent": "- Consistent error handling and response processing",
+    "translatedContent": "- 일관된 오류 처리 및 응답 처리  "
+  },
+  {
+    "row": 203,
+    "rowsha": "J2ttDPn5cEql2x8OmsvgrrGZs0WcjBm8YX6175Qrc4Y=",
+    "originContent": "- Enhanced type safety with generic handlers",
+    "translatedContent": "- 제네릭 핸들러로 타입 안정성 향상  "
+  },
+  {
+    "row": 204,
+    "rowsha": "7+PBxGf9WxT6tgIpSuQK8GYeQVckg63GEEH9cl1Fl8g=",
+    "originContent": "- Centralized endpoint building",
+    "translatedContent": "- 중앙 집중식 엔드포인트 빌딩  "
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "Yrj0ndyb4wnB2dsnaPIM1e3nzd5vFnC5Odg7CJxoAwM=",
+    "originContent": "### Testing Improvements",
+    "translatedContent": "### 테스트 개선  "
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "uxdF/10IFRrQp03f24iVwPETFMbjV8EnMYxp4UcxJXA=",
+    "originContent": "- Stronger end-to-end coverage for MCP tool execution",
+    "translatedContent": "- MCP 도구 실행에 대한 강력한 엔드투엔드 커버리지  "
+  },
+  {
+    "row": 209,
+    "rowsha": "HCMV5DoZJ+aVwZlJNz3PO6HsKD3snHHbAFd78gmD0sM=",
+    "originContent": "- Expanded integration tests for real-world client flows",
+    "translatedContent": "- 실제 클라이언트 흐름을 위한 통합 테스트 확장  "
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "fMOB50aYHOUYqbiWePyxNjTITqGEjXb9iu0ERV3g0oI=",
+    "originContent": "### MCP 2.0 Preparation (Bulk Ops)",
+    "translatedContent": "### MCP 2.0 준비 (대량 작업)  "
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "DUEYR+1N3N/reJPzmvPkQeLaITlvju60IstDlQRzAJY=",
+    "originContent": "- Laying groundwork for MCP 2.0 bulk-operation workflows and tooling",
+    "translatedContent": "- MCP 2.0 대량 작업 워크플로우 및 도구를 위한 기반 마련  "
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "z5Hij4ThvTBulYl+b7ROoQVJaGCFHCHlS4iPq1Bdtxw=",
+    "originContent": "### OAuth (Coming Soon)",
+    "translatedContent": "### OAuth (곧 출시 예정)  "
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "8LMIe/0q7EQPzZNo//ks1k1kIZLnRMlbAzaopHYI8UY=",
+    "originContent": "- OAuth-based auth flow to simplify setup without manual tokens",
+    "translatedContent": "- 수동 토큰 없이 설정을 간소화하는 OAuth 기반 인증 흐름  "
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "DDnnBW/+AoyHDi37CncTcykPH8OXZSQ33ifB5Of4bzc=",
+    "originContent": "### Note",
+    "translatedContent": "### 참고  "
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "KYLA57OnlCIugMIOi/k6c0ctup64+dycNiT5Xm+BzgY=",
+    "originContent": "Apologies to anyone affected by the last couple of builds. Thank you for the patience and reports.",
+    "translatedContent": "최근 몇 번의 빌드로 인해 영향을 받으신 분들께 사과드립니다. 인내와 보고에 감사드립니다.  "
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 라이선스  "
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+    "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+    "translatedContent": "이 프로젝트는 MIT 라이선스 하에 있습니다 - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요."
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
