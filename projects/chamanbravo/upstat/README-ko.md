@@ -1,45 +1,77 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center" width="100%">
     <img src="https://raw.githubusercontent.com/chamanbravo/upstat/main/./docs/assets/upstat.png" width="128" alt="" />
 </div>
 
 # Upstat
 
-> 간단하고 사용하기 쉬운 셀프 호스팅 상태 모니터링 도구
+> 간단하고 사용하기 쉬운 자체 호스팅 상태 모니터링 도구
 
 ![](https://raw.githubusercontent.com/chamanbravo/upstat/main/./docs/assets/dashboard.png)
 
 ## 💻 라이브 데모
 
-사용해 보세요.
+직접 사용해보세요.
 
 데모 서버 (위치: 싱가포르): [https://demo.upstat.com](https://upstat.chamanbudhathoki.com.np/)
 
-사용자 이름: `demo`
+사용자명: `demo`
 비밀번호: `demodemo`
 
-## ⭐ 기능
+## ⭐ 특징
 
-더 많은 기능이 필요하지만 현재는...
+아직 더 많은 기능이 필요하지만, 현재는...
 
-- HTTP(s) 가동 시간 모니터링
+- HTTP(s) 가용성 모니터링
 - 상태 및 지연 시간 차트
 - Discord를 통한 알림
 - 60초 간격
-- 멋지고 반응형이며 빠른 UI/UX
-- 다중 상태 페이지
+- 세련되고 반응 빠른 UI/UX
+- 다중 상태 페이지 지원
 - 특정 도메인에 상태 페이지 매핑
 - 핑 차트
 - 인증서 정보
 - PWA
 - Sqlite 및 Postgres 데이터베이스 지원
 
-그리고 수십 가지의 작은 기능들이 추가될 예정입니다.
+그리고 앞으로 추가될 수십 가지의 작은 기능들.
 
 ## 🔧 설치 방법
 
-### 🐳 Docker
+### 🐳 도커
 
-Sqlite용
+Sqlite 용
 
 ```bash
 curl https://raw.githubusercontent.com/chamanbravo/upstat/main/docker-compose-sqlite.yml -o docker-compose.yml
@@ -129,6 +161,6 @@ Notifications
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-12
 
 ---

@@ -1,37 +1,69 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center" width="100%">
     <img src="https://raw.githubusercontent.com/chamanbravo/upstat/main/./docs/assets/upstat.png" width="128" alt="" />
 </div>
 
 # Upstat
 
-> outil simple et facile à utiliser pour la surveillance de statut auto-hébergé
+> outil de surveillance de statut auto-hébergé simple et facile à utiliser
 
 ![](https://raw.githubusercontent.com/chamanbravo/upstat/main/./docs/assets/dashboard.png)
 
-## 💻 Démo en direct
+## 💻 Démonstration en direct
 
 Essayez-le.
 
-Serveur de démo (Emplacement : Singapour) : [https://demo.upstat.com](https://upstat.chamanbudhathoki.com.np/)
+Serveur de démonstration (Emplacement : Singapour) : [https://demo.upstat.com](https://upstat.chamanbudhathoki.com.np/)
 
 Nom d'utilisateur : `demo`
 Mot de passe : `demodemo`
 
 ## ⭐ Fonctionnalités
 
-Il faut encore plus de fonctionnalités mais pour l'instant...
+Il nécessite plus de fonctionnalités mais pour l’instant...
 
-- Surveillance du temps de disponibilité pour HTTP(s)
-- Graphique de statut et de latence
+- Surveillance de la disponibilité pour HTTP(s)
+- Diagramme de statut et de latence
 - Notifications via Discord
 - Intervalles de 60 secondes
-- Interface utilisateur/expérience utilisateur élégante, réactive et rapide
+- Interface utilisateur/expérience élégante, réactive et rapide
 - Pages de statut multiples
-- Association des pages de statut à des domaines spécifiques
-- Graphique de ping
-- Informations sur les certificats
+- Associer des pages de statut à des domaines spécifiques
+- Diagramme de ping
+- Infos sur le certificat
 - PWA
-- Support des bases de données Sqlite et Postgres
+- Prise en charge des bases de données Sqlite & Postgres
 
 Et des dizaines de petites fonctionnalités à ajouter.
 
@@ -129,6 +161,6 @@ Notifications
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-12
 
 ---

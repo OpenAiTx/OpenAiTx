@@ -1,18 +1,50 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center" width="100%">
     <img src="https://raw.githubusercontent.com/chamanbravo/upstat/main/./docs/assets/upstat.png" width="128" alt="" />
 </div>
 
 # Upstat
 
-> herramienta simple y fácil de usar para monitoreo de estado autoalojada
+> herramienta de monitorización de estado autoalojada, simple y fácil de usar
 
 ![](https://raw.githubusercontent.com/chamanbravo/upstat/main/./docs/assets/dashboard.png)
 
-## 💻 Demo en Vivo
+## 💻 Demostración en Vivo
 
 Pruébalo.
 
-Servidor de Demo (Ubicación: Singapur): [https://demo.upstat.com](https://upstat.chamanbudhathoki.com.np/)
+Servidor de demostración (Ubicación: Singapur): [https://demo.upstat.com](https://upstat.chamanbudhathoki.com.np/)
 
 Usuario: `demo`
 Contraseña: `demodemo`
@@ -21,21 +53,21 @@ Contraseña: `demodemo`
 
 Necesita más características pero por ahora...
 
-- Monitoreo de tiempo activo para HTTP(s)
-- Gráfica de Estado y Latencia
+- Monitoreo de tiempo de actividad para HTTP(s)
+- Gráfico de estado y latencia
 - Notificaciones vía Discord
 - Intervalos de 60 segundos
-- UI/UX elegante, reactiva y rápida
+- Interfaz UI/UX elegante, reactiva y rápida
 - Múltiples páginas de estado
 - Asignar páginas de estado a dominios específicos
-- Gráfica de ping
+- Gráfico de ping
 - Información de certificado
 - PWA
 - Soporte para bases de datos Sqlite y Postgres
 
-Y docenas de características menores por añadir.
+Y docenas de características menores por agregar.
 
-## 🔧 Cómo Instalar
+## 🔧 Cómo instalar
 
 ### 🐳 Docker
 
@@ -129,6 +161,6 @@ Notifications
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-12
 
 ---

@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=chamanbravo&project=upstat&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center" width="100%">
     <img src="https://raw.githubusercontent.com/chamanbravo/upstat/main/./docs/assets/upstat.png" width="128" alt="" />
 </div>
@@ -38,8 +70,8 @@ And dozens of smaller features to be added.
 ## 🔧 How to Install
 
 ### 🐳 Docker
-For Sqlite
 
+For Sqlite
 
 ```bash
 curl https://raw.githubusercontent.com/chamanbravo/upstat/main/docker-compose-sqlite.yml -o docker-compose.yml
@@ -129,6 +161,6 @@ Notifications
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-12
 
 ---
