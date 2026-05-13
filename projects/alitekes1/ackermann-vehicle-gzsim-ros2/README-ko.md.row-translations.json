@@ -1,0 +1,1304 @@
+[
+  {
+    "row": 1,
+    "rowsha": "y4aCwZPq5Zat2fCWEaGKR7A60bovG1/9tjkDvBt4Bjg=",
+    "originContent": "# Ackermann Steering Vehicle Simulation in ROS2 with Gazebo Sim Harmonic",
+    "translatedContent": "# ROS2와 Gazebo Sim Harmonic을 이용한 아커만 조향 차량 시뮬레이션"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "sLV1No/J4Vcsr0G+4Dlloz0i/YTjYIoZCLYn47UzFnA=",
+    "originContent": "This project features the simulation of a custom vehicle with **Ackermann steering capabilities**, developed using **ROS2** and the **Gazebo Sim Harmonic environment**. The model integrates a variety of sensors and navigation tools for autonomous operation, making it one of the first implementations of an Ackermann steering vehicle in this simulation framework.",
+    "translatedContent": "이 프로젝트는 **아커만 조향 기능**을 갖춘 맞춤형 차량의 시뮬레이션을 특징으로 하며, **ROS2**와 **Gazebo Sim Harmonic 환경**을 사용하여 개발되었습니다. 이 모델은 자율 운행을 위한 다양한 센서와 내비게이션 도구를 통합하여, 이 시뮬레이션 프레임워크에서 아커만 조향 차량을 구현한 최초 사례 중 하나입니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "h3iexMxVGzMSVUVY/+9c7BoLRxCJbZIN4XMRLzt/tZM=",
+    "originContent": "| **3D LiDAR Point Cloud Visualization** | **Warehouse Environment Model** |",
+    "translatedContent": "| **3D 라이다 포인트 클라우드 시각화** | **창고 환경 모델** |"
+  },
+  {
+    "row": 6,
+    "rowsha": "kvlfj7cPdmxZkHYhhPHSqhQcKJM/e5YPToVYw9doZMw=",
+    "originContent": "| ----- | ----- |",
+    "translatedContent": "| ----- | ----- |"
+  },
+  {
+    "row": 7,
+    "rowsha": "z/7ITN4JM1r0ITB8nHmbcElDSJqetS8nzkfha5oNLyo=",
+    "originContent": "| ![3D Point Cloud](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |",
+    "translatedContent": "| ![3D Point Cloud](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "8x/cF1sn9j9C7Vmp6UyPdl/9052TmjSG2woJnQeR7X8=",
+    "originContent": "### If you like this project, consider giving it a ⭐ to show your support!",
+    "translatedContent": "### 이 프로젝트가 마음에 드신다면, 응원의 표시로 ⭐를 눌러주세요!"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+    "originContent": "## Table of Contents",
+    "translatedContent": "## 목차"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Xdi5jP5BFQ0/fvowJQx1x/IzfyU7XB540j6N62pB1AY=",
+    "originContent": "- [Ackermann Steering Vehicle Simulation in ROS2 with Gazebo Sim Harmonic](#ackermann-steering-vehicle-simulation-in-ros2-with-gazebo-sim-harmonic)",
+    "translatedContent": "- [ROS2와 Gazebo Sim Harmonic을 이용한 아커만 조향 차량 시뮬레이션](#ros2와-gazebo-sim-harmonic을-이용한-아커만-조향-차량-시뮬레이션)"
+  },
+  {
+    "row": 14,
+    "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+    "originContent": "- [Features](#features)",
+    "translatedContent": "- [특징](#특징)"
+  },
+  {
+    "row": 15,
+    "rowsha": "uWT4fKtX4AlCGD5OI5LKcvBO5x3mWvSLhiYS9Tu4zoA=",
+    "originContent": "  - [1 Ackermann Steering](#1-ackermann-steering)",
+    "translatedContent": "  - [1 아커만 조향](#1-아커만-조향)"
+  },
+  {
+    "row": 16,
+    "rowsha": "A6T49BgWvOl6l3spHKd9vMKnQjnul99g4bMqZv2qx6E=",
+    "originContent": "  - [2 ROS2 Communication](#2-ros2-communication)",
+    "translatedContent": "  - [2 ROS2 통신](#2-ros2-통신)"
+  },
+  {
+    "row": 17,
+    "rowsha": "jS3SfT7X0PXjXKS7K1YUWxymqxU+sqRQAOs71J1UB6Y=",
+    "originContent": "  - [3 Sensors](#3-sensors)",
+    "translatedContent": "  - [3 센서](#3-센서)"
+  },
+  {
+    "row": 18,
+    "rowsha": "cCE6mFXa24dkxa448aYmrn5ciKWavakilX0GOXmfMUA=",
+    "originContent": "  - [4 Navigation](#4-navigation)",
+    "translatedContent": "  - [4 내비게이션](#4-내비게이션)"
+  },
+  {
+    "row": 19,
+    "rowsha": "j1ucUQwNAbl7psmA4Jzo/a+OO9qNreGKlIoak8HMWb4=",
+    "originContent": "  - [5 Manual Control with external joystick](#5-manual-control-with-external-joystick)",
+    "translatedContent": "  - [5 외부 조이스틱을 이용한 수동 제어](#5-외부-조이스틱을-이용한-수동-제어)"
+  },
+  {
+    "row": 20,
+    "rowsha": "ae1Spgu0/lBq0LSDjsZ/z2DBZhflVKQ4jPFAM9uXGfA=",
+    "originContent": "  - [6 Visualization](#6-visualization)",
+    "translatedContent": "  - [6 시각화](#6-시각화)"
+  },
+  {
+    "row": 21,
+    "rowsha": "qNrl27qsv0ZwGdVt+bM00bMPVtSnSnR4DeQhqB6obhE=",
+    "originContent": "- [Requirements](#requirements)",
+    "translatedContent": "- [필수 조건](#필수-조건)"
+  },
+  {
+    "row": 22,
+    "rowsha": "2YD1LBnrBpMzmX92QLddiHSHjoz5EL3dKPR4A4yWfLU=",
+    "originContent": "- [Local Installation](#local-installation)",
+    "translatedContent": "- [로컬 설치](#로컬-설치)"
+  },
+  {
+    "row": 23,
+    "rowsha": "srF3vxAZEcd5suPSgAtyehdCL6tDOFGBzpkZKPLh1I8=",
+    "originContent": "- [Docker Installation](#docker-installation)",
+    "translatedContent": "- [도커 설치](#도커-설치)"
+  },
+  {
+    "row": 24,
+    "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+    "originContent": "- [Usage](#usage)",
+    "translatedContent": "- [사용법](#사용법)"
+  },
+  {
+    "row": 25,
+    "rowsha": "XenNccvwotvgObFqVC9+yAY1H0e/1dMSWo0X1kulOzY=",
+    "originContent": "  - [1 Basic Simulation and Manual Control](#1-basic-simulation-and-manual-control)",
+    "translatedContent": "  - [1 기본 시뮬레이션 및 수동 제어](#1-기본-시뮬레이션-및-수동-제어)"
+  },
+  {
+    "row": 26,
+    "rowsha": "8McEQif0LxLGT45XoYIwPy9TNZJ2WoNmbDBEAYyeeso=",
+    "originContent": "  - [2 SLAM Simultaneous Localization and Mapping](#2-slam-simultaneous-localization-and-mapping)",
+    "translatedContent": "  - [2 SLAM 동시 위치추정 및 지도작성](#2-slam-동시-위치추정-및-지도작성)"
+  },
+  {
+    "row": 27,
+    "rowsha": "3T57TgtkfdZQaRDBt2vIJROAhKQgrDXsi1/XFCbTtcM=",
+    "originContent": "  - [3 Navigation with Nav2](#3-navigation-with-nav2)",
+    "translatedContent": "  - [3 Nav2를 이용한 내비게이션](#3-nav2를-이용한-내비게이션)"
+  },
+  {
+    "row": 28,
+    "rowsha": "+Kk7FX7qJAYX5kJQtiRbvNEHrFpindnQ+fD62CRUWCY=",
+    "originContent": "- [Future Work](#future-work)",
+    "translatedContent": "- [향후 작업](#향후-작업)"
+  },
+  {
+    "row": 29,
+    "rowsha": "szeUMzObFmInYxsCoVbn/VVKtyDdOBQ09zhIyfjN3rU=",
+    "originContent": "- [Gallery](#gallery)",
+    "translatedContent": "- [갤러리](#갤러리)"
+  },
+  {
+    "row": 30,
+    "rowsha": "HRPQFH8yPkDeC4lSWJ/eUgeOOKrjxRpz06TbnMyjEg8=",
+    "originContent": "- [TF Tree](#tf-tree)",
+    "translatedContent": "- [TF 트리](#tf-트리)"
+  },
+  {
+    "row": 31,
+    "rowsha": "RdW0/AL2ru3wEO/uUWtkOb09ao0NTkpNNPKyzRaRepk=",
+    "originContent": "- [Star History](#star-history)",
+    "translatedContent": "- [별 기록](#별-기록)"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 특징"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "rlR3NKE5HT0wPR2Hoxe/eNVM/Q1Re+0l+CzVjCin1DE=",
+    "originContent": "### 1. **Ackermann Steering**",
+    "translatedContent": "### 1. **아커만 조향**"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "88p3iDkMxlIjCoLaRo9LCjM9qPbJR5SCDWJqJY2FUoA=",
+    "originContent": "- A custom vehicle model built with realistic Ackermann steering dynamics for accurate maneuverability.",
+    "translatedContent": "- 정확한 조향성을 위한 현실적인 아커만 조향 역학을 적용한 맞춤형 차량 모델입니다."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "+xpVHLFv1JqW/NTQvgDyZ0iDK9linLPLgRrMDzhQp08=",
+    "originContent": "### 2. **ROS2 Communication**",
+    "translatedContent": "### 2. **ROS2 통신**"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "6x0OlWoREjNbSTq+Emklw1Ulhuzgg8k4x1GcpZxT+A4=",
+    "originContent": "- All sensor data and control signals are fully integrated into the ROS2 ecosystem for seamless interoperability.",
+    "translatedContent": "- 모든 센서 데이터 및 제어 신호는 원활한 상호 운용성을 위해 ROS2 생태계에 완전히 통합되어 있습니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "qiZ7B+zMEl6F9n2dElidjR5GcV6DImAj4NRe8ncTF5g=",
+    "originContent": "### 3. **Sensors**",
+    "translatedContent": "### 3. **센서**"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "nIfQs9k+WHZD7cD1PUnWX7w40tB22+gMPfxNmckDGzo=",
+    "originContent": "- **IMU**: Provides orientation and angular velocity.",
+    "translatedContent": "- **IMU**: 방향과 각속도를 제공합니다."
+  },
+  {
+    "row": 46,
+    "rowsha": "8eiaLH3q7grjGSOeuETDgjVyYQWMyqz6NG4c6q3O6pE=",
+    "originContent": "- **Odometry**: Ensures accurate vehicle state feedback.",
+    "translatedContent": "- **오도메트리**: 정확한 차량 상태 피드백을 보장합니다."
+  },
+  {
+    "row": 47,
+    "rowsha": "lm9JTSagCmV7Qv9wEuAZf1L2Nk85Wooy4utowPp9mmA=",
+    "originContent": "- **LiDAR**: Mounted for obstacle detection and environmental scanning. Supports 3D point cloud generation for advanced perception tasks.",
+    "translatedContent": "- **LiDAR**: 장애물 감지 및 환경 스캔을 위해 장착되어 있습니다. 고급 인식 작업을 위한 3D 포인트 클라우드 생성을 지원합니다."
+  },
+  {
+    "row": 48,
+    "rowsha": "mxN/SEPHTZ6lgef3R8m+Vu9WmOphndn72P+WaF0N0dM=",
+    "originContent": "- **Cameras**:",
+    "translatedContent": "- **카메라**:"
+  },
+  {
+    "row": 49,
+    "rowsha": "8KV9F7bokXcIIXQve7yeFtEtONcSSmWnuWzQZY6iSZk=",
+    "originContent": "  - Front-facing",
+    "translatedContent": "  - 전방"
+  },
+  {
+    "row": 50,
+    "rowsha": "WHOFr+JuEPTZFs/zJcwb5MisqNPreEfrYF2IPDNhKI0=",
+    "originContent": "  - Rear-facing",
+    "translatedContent": "  - 후방"
+  },
+  {
+    "row": 51,
+    "rowsha": "H3bP2357beobGgww7QziCuInFhMMiuV9z3KrwGLKO0I=",
+    "originContent": "  - Left-side",
+    "translatedContent": "  - 좌측"
+  },
+  {
+    "row": 52,
+    "rowsha": "+2UQogWhiK7z9xWB3ETa7ViJ59EAD85IgUj+36i4RS4=",
+    "originContent": "  - Right-side",
+    "translatedContent": "  - 우측"
+  },
+  {
+    "row": 53,
+    "rowsha": "cCyf5wFCmcip3GVSm1ATqcP+wR2q07f9Dsa6i07lL9M=",
+    "originContent": "  > **Note:** By default, only the front camera is bridged to ROS 2.If you want to use all cameras (left, right, rear) in ROS 2,remove the `#` at the beginning of the relevant camera sections in `saye_bringup/config/ros_gz_bridge.yaml` to activate them  (e.g., `/camera/left_raw`, `/camera/right_raw`, `/camera/rear_raw`).",
+    "translatedContent": "  > **참고:** 기본적으로 전방 카메라만 ROS 2에 브리지됩니다. 모든 카메라(좌측, 우측, 후방)를 ROS 2에서 사용하려면 `saye_bringup/config/ros_gz_bridge.yaml` 파일 내 관련 카메라 섹션 앞의 `#`를 제거하여 활성화하세요 (예: `/camera/left_raw`, `/camera/right_raw`, `/camera/rear_raw`)."
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "/aM8/a+FRQjgN5mu/5AG8MhRGSzjsbr2+HPhsodrMgg=",
+    "originContent": "### 4. **Navigation**",
+    "translatedContent": "### 4. **내비게이션**"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "fGpsdm/FosILFJxrgAVXq7dL10wNfnYrOUawaN4PrYM=",
+    "originContent": "- Integrated with the **Nav2 stack** for autonomous navigation.",
+    "translatedContent": "- **Nav2 스택**과 통합되어 자율 내비게이션을 지원합니다."
+  },
+  {
+    "row": 58,
+    "rowsha": "QFvUTlQs0MB8KegXxh1x0kAFXGv/JDpApNdoZgwgZcI=",
+    "originContent": "- **AMCL (Adaptive Monte Carlo Localization)** for improved positional accuracy.",
+    "translatedContent": "- 향상된 위치 정확도를 위한 **AMCL(Adaptive Monte Carlo Localization)** 사용."
+  },
+  {
+    "row": 59,
+    "rowsha": "SNH9Fs13ARajDdXY7KYc+KRR8v85Pab7hC9DS6gBmPU=",
+    "originContent": "- **SLAM** techniques implemented for real-time mapping and understanding of the environment.",
+    "translatedContent": "- 실시간 맵핑과 환경 인식을 위한 **SLAM** 기술 구현."
+  },
+  {
+    "row": 60,
+    "rowsha": "XuDaFEW69qHrAsIKeFRbs9qX4Jqs6HHKvZPQAEuRMZs=",
+    "originContent": "- Fine-tuned parameters for optimized navigation performance.",
+    "translatedContent": "- 최적화된 내비게이션 성능을 위한 세밀한 파라미터 조정."
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "HhfATO5srWMI4zAbQpBF01eE59h+sSPj9AuSoh5VcjU=",
+    "originContent": "### 5. **Manual Control (with external joystick)**",
+    "translatedContent": "### 5. **수동 제어 (외부 조이스틱 사용)**"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "P2jM86ANlrRr+yBV/VM33U50VtKBE3KyZpByJBlF3NE=",
+    "originContent": "- Added support for joystick-based manual control in the simulation environment, enabling users to test vehicle movement interactively.",
+    "translatedContent": "- 시뮬레이션 환경에서 조이스틱 기반 수동 제어를 지원하여 사용자가 차량 움직임을 인터랙티브하게 테스트할 수 있습니다."
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "5x3ToV6/HBbbiDI6aqavz+lg5xPT5RX3FbVH8YMVFcw=",
+    "originContent": "### 6. **Visualization**",
+    "translatedContent": "### 6. **시각화**"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "7EXNMvQT3z36tY/Y+dkQqHx2AkX39+l9ZUOc9olBu9s=",
+    "originContent": "- Full model and sensor data visualization in **RViz2**, providing insights into robot states and environmental feedback.",
+    "translatedContent": "- **RViz2**에서 전체 모델 및 센서 데이터 시각화를 제공하여 로봇 상태 및 환경 피드백에 대한 인사이트를 제공합니다."
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 요구 사항"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "ciLh/eQd6KnCIH0JvvXdCNRL9HR2KfSBBwlSVSDWIDU=",
+    "originContent": "- **ROS2 (Humble)**",
+    "translatedContent": "- **ROS2 (Humble)**"
+  },
+  {
+    "row": 73,
+    "rowsha": "ZHrYUhsjADCAhS5HTuT+xSmAzssGb8lc7hHwAoXhxic=",
+    "originContent": "- **Gazebo Sim Harmonic**",
+    "translatedContent": "- **Gazebo Sim Harmonic**"
+  },
+  {
+    "row": 74,
+    "rowsha": "WZckYdjyxz9raJ9PmYUvnalrQ6zbQ4h2YxceBFOuoow=",
+    "originContent": "- **RViz2**",
+    "translatedContent": "- **RViz2**"
+  },
+  {
+    "row": 75,
+    "rowsha": "ky94WmyAfPGhGVkEkNOuPOIq04IKdg7dpT7sNPk6Eic=",
+    "originContent": "- **Nav2**",
+    "translatedContent": "- **Nav2**"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "E1Mq0+cwJeJvxfKR1ZSQK+R9SGpRAZ/iP0C/Mi1Yrgc=",
+    "originContent": "## Local Installation",
+    "translatedContent": "## 로컬 설치"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "fJV94AKei9/o80Qgjka25QqILSKmZjDbEQni5S0c3kw=",
+    "originContent": "0. Your need to sure that installation of Gazebo Harmonic and ROS (ros_gz):<br>",
+    "translatedContent": "0. Gazebo Harmonic 및 ROS (ros_gz) 설치가 되어 있는지 확인하세요:<br>"
+  },
+  {
+    "row": 80,
+    "rowsha": "DNR4BG3AF3TUsAsfqcK72KZBTTSJ/DZ85E28QFGuq/M=",
+    "originContent": "   `sudo apt-get install ros-${ROS_DISTRO}-ros-gz`<br>",
+    "translatedContent": "   `sudo apt-get install ros-${ROS_DISTRO}-ros-gz`<br>"
+  },
+  {
+    "row": 81,
+    "rowsha": "4YPkGpLq0ZKIRxgLocSp6q6qMEmp05kBuXt8ElGU64k=",
+    "originContent": "   `sudo apt-get install ros-humble-ros-gzharmonic` (Only Humble version)<br>",
+    "translatedContent": "   `sudo apt-get install ros-humble-ros-gzharmonic` (휴믈 버전만 해당)<br>"
+  },
+  {
+    "row": 82,
+    "rowsha": "vQNOFOTeYwDR9k14pseaOCH67qMh21DrBdn6IEtPjt4=",
+    "originContent": "   More details about installation Gazebo and ROS: <a href=\"https://gazebosim.org/docs/latest/ros_installation/\">Link</a>",
+    "translatedContent": "   Gazebo와 ROS 설치에 대한 자세한 내용: <a href=\"https://gazebosim.org/docs/latest/ros_installation/\">링크</a>"
+  },
+  {
+    "row": 83,
+    "rowsha": "+KQCvhh6Hw3rQr7JfLo5FdBEEj1yBjxicJdxwvZ8Z7w=",
+    "originContent": "1. Clone the repository:<br>",
+    "translatedContent": "1. 저장소 복제:<br>"
+  },
+  {
+    "row": 84,
+    "rowsha": "e/Q1WpGmtFWu0NX7+5aQ2vH//C1mYpng/YuBsCejTCE=",
+    "originContent": "   `mkdir -p ackermann_sim/src && cd ackermann_sim/src`<br>",
+    "translatedContent": "   `mkdir -p ackermann_sim/src && cd ackermann_sim/src`<br>"
+  },
+  {
+    "row": 85,
+    "rowsha": "2DaaUmuP9vItL0PPQbPYNnqR9L+P/g+SwttJX29DOYY=",
+    "originContent": "   `git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2`<br>`cd ..`",
+    "translatedContent": "   `git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2`<br>`cd ..`"
+  },
+  {
+    "row": 86,
+    "rowsha": "UaSOvO/vZBEbdf08l1JqSr6joLjHfJ6RfQyhWNw/LwY=",
+    "originContent": "2. Build the project:",
+    "translatedContent": "2. 프로젝트 빌드:"
+  },
+  {
+    "row": 87,
+    "rowsha": "NRDYaBg0uejTtLQDpR+Rjm09j0FMWe/TVWpiZM8zSz8=",
+    "originContent": "   `colcon build && source install/setup.bash`",
+    "translatedContent": "   `colcon build && source install/setup.bash`"
+  },
+  {
+    "row": 88,
+    "rowsha": "EyK+fQ1YcuopkRwkyO9M1oWdgRTBh/ilQJ3VLdQrCwQ=",
+    "originContent": "3. Set environment variables:",
+    "translatedContent": "3. 환경 변수 설정:"
+  },
+  {
+    "row": 89,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 90,
+    "rowsha": "tb2j5jco4cn9NE65M7lu7r0BLtEUo6JDisRVv7WyHVg=",
+    "originContent": "   # Set environment variables for current session",
+    "translatedContent": "   # Set environment variables for current session"
+  },
+  {
+    "row": 91,
+    "rowsha": "VDAKi8bTdwNrV+rfnydpPxu3F1j1lUa0K/8ft19EMf0=",
+    "originContent": "   export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/",
+    "translatedContent": "   export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/"
+  },
+  {
+    "row": 92,
+    "rowsha": "NomccnEFPA6inGedqbrO3w16CGEyOHUvvte3gB2yprw=",
+    "originContent": "   export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/",
+    "translatedContent": "   export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/"
+  },
+  {
+    "row": 93,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "Tf1hdakHQxZBtV5DVmEWUrgmOy+VGr3hEf68E8agVlo=",
+    "originContent": "   **For Permanent Setup:**",
+    "translatedContent": "   **영구 설정을 위해:**"
+  },
+  {
+    "row": 96,
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
+  },
+  {
+    "row": 97,
+    "rowsha": "UAh/ADPd+5EAmWnhBNvGh1P/EfTh7EJw8QtR8y4U2ro=",
+    "originContent": "   To make these environment variables permanent, add them to your `.bashrc` file:",
+    "translatedContent": "   이러한 환경 변수를 영구적으로 설정하려면, `.bashrc` 파일에 추가하세요:"
+  },
+  {
+    "row": 98,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 99,
+    "rowsha": "dgcr4U8Ikkmi3yhl8pzzDkY1k2vZt4MWN17Xe1PPWfc=",
+    "originContent": "   # Add environment variables to .bashrc",
+    "translatedContent": "   # Add environment variables to .bashrc"
+  },
+  {
+    "row": 100,
+    "rowsha": "z3goYkZLZsJUQsa8ztCdwBzV/JECvNH4NcuBhVdzpn4=",
+    "originContent": "   echo 'export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc",
+    "translatedContent": "   echo 'export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc"
+  },
+  {
+    "row": 101,
+    "rowsha": "e1GM5FuXtfnULQ2W+AAenB5i6ruRdsIP+vmgM/LPVV0=",
+    "originContent": "   echo 'export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc",
+    "translatedContent": "   echo 'export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc"
+  },
+  {
+    "row": 102,
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
+  },
+  {
+    "row": 103,
+    "rowsha": "bFVNVjxoGxy8KwPVIgBXp5a6DK9ERlkm48dstm/bGUU=",
+    "originContent": "   # Apply changes",
+    "translatedContent": "   # Apply changes"
+  },
+  {
+    "row": 104,
+    "rowsha": "z2qfGPb1v1tU4nEBPqweDWt7yX5kl9cmBsps/mFiV3A=",
+    "originContent": "   source ~/.bashrc",
+    "translatedContent": "   source ~/.bashrc"
+  },
+  {
+    "row": 105,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "   > **참고:** `/your/path/`를 실제 설치 경로로 교체하세요."
+  },
+  {
+    "row": 107,
+    "rowsha": "1LAFirjPVSysArBq8MXySkAx2yrPbxCSHcELLG3/04Y=",
+    "originContent": "   > **Note:** Replace `/your/path/` with your actual installation path.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Docker 설치"
+  },
+  {
+    "row": 109,
+    "rowsha": "55e7b7fnAVAzlBpT1uLuPR2flE4fdoZahWX6V9Z6Vsc=",
+    "originContent": "## Docker Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Docker를 사용하여 시뮬레이션을 실행할 수도 있으며, 이는 다양한 시스템에서 일관된 환경을 보장합니다."
+  },
+  {
+    "row": 111,
+    "rowsha": "7UbSF/bfeNtPA3rSBFFovONhK3gAMcsOZRTmePPAoSM=",
+    "originContent": "You can also run the simulation using Docker, which ensures a consistent environment across different systems.",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 사전 요구 사항"
+  },
+  {
+    "row": 113,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": "- Docker"
+  },
+  {
+    "row": 114,
+    "rowsha": "lWlFNH710ZnFqsncRuEyNQThwuspyN82iWRO0I/HUWc=",
+    "originContent": "- Docker",
+    "translatedContent": "- NVIDIA 컨테이너 툴킷 (GPU 지원용)"
+  },
+  {
+    "row": 115,
+    "rowsha": "BTV9Mt4GpQIz8k98IAB+eQWgEld3dGgmnkDyGV8nDeo=",
+    "originContent": "- NVIDIA Container Toolkit (for GPU support)",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Docker로 실행하는 단계"
+  },
+  {
+    "row": 117,
+    "rowsha": "Lr67tntM1RGbrw0d+pc2acYIx2x3rUlnp+flmEKxtHU=",
+    "originContent": "### Steps to Run with Docker",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 저장소를 클론합니다:"
+  },
+  {
+    "row": 119,
+    "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+    "originContent": "1. Clone the repository:",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 121,
+    "rowsha": "P2/cvELwq4JRj3CD+k1yVquPk8fThEO+W7dWpEs3J3Y=",
+    "originContent": "   mkdir -p ackermann_sim/src && cd ackermann_sim/src",
+    "translatedContent": "   mkdir -p ackermann_sim/src && cd ackermann_sim/src"
+  },
+  {
+    "row": 122,
+    "rowsha": "6VT4/izuVpjd2q9HxYg/Eu9G2R8PKXcFY2JtGz+GxmI=",
+    "originContent": "   git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2",
+    "translatedContent": "   git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2"
+  },
+  {
+    "row": 123,
+    "rowsha": "FnKxZWYPB8yyqreykC4vhtzh2CzQv7+vzPyzEyTOo2Q=",
+    "originContent": "   cd ackermann-vehicle-gzsim-ros2",
+    "translatedContent": "   cd ackermann-vehicle-gzsim-ros2"
+  },
+  {
+    "row": 124,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Docker 컨테이너 빌드 및 실행:"
+  },
+  {
+    "row": 126,
+    "rowsha": "0MiAUyluYbnFi7qhQ9eKG8hPUwHf78m47YCRwwZdKqE=",
+    "originContent": "2. Build and run the Docker container:",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 128,
+    "rowsha": "VpK9qvpq7PutRJLNzOi6d7hAMW7dLOXRwhTDDj9GufQ=",
+    "originContent": "      docker run -it \\",
+    "translatedContent": "      docker run -it \\"
+  },
+  {
+    "row": 129,
+    "rowsha": "TSJYhNutS/crqt1WemFCbHRAKpe/7rrh0I1FujDgBoA=",
+    "originContent": "      --name ackermann_sim \\",
+    "translatedContent": "      --name ackermann_sim \\"
+  },
+  {
+    "row": 130,
+    "rowsha": "QXZxDwfu1c2yZpa3ycGPc3+I3fg7RSYIxllU/3LtYwE=",
+    "originContent": "      --hostname ackermann_sim \\",
+    "translatedContent": "      --hostname ackermann_sim \\"
+  },
+  {
+    "row": 131,
+    "rowsha": "N1igRLKuZB/l2r1ZBH05w43KnxW4JGLA+lzNN+4iahc=",
+    "originContent": "      --env=\"DISPLAY=$DISPLAY\" \\",
+    "translatedContent": "      --env=\"DISPLAY=$DISPLAY\" \\"
+  },
+  {
+    "row": 132,
+    "rowsha": "neAYnt6R/qCvXgXS2vTuz44EZ4IP27xXWAb4QeBh0QM=",
+    "originContent": "      --env=\"QT_X11_NO_MITSHM=1\" \\",
+    "translatedContent": "      --env=\"QT_X11_NO_MITSHM=1\" \\"
+  },
+  {
+    "row": 133,
+    "rowsha": "iaYMVHTW8uObtOaLdvzES/RMAj6kcP2hzIK4sD2VIm4=",
+    "originContent": "      --volume=\"/tmp/.X11-unix:/tmp/.X11-unix:rw\" \\",
+    "translatedContent": "      --volume=\"/tmp/.X11-unix:/tmp/.X11-unix:rw\" \\"
+  },
+  {
+    "row": 134,
+    "rowsha": "bnBw8Izsq3VzA0WnY5tlNSKV9mBRzX7MObochXgtRzc=",
+    "originContent": "      --privileged alitekes1/ackermann_sim:latest",
+    "translatedContent": "      --privileged alitekes1/ackermann_sim:latest"
+  },
+  {
+    "row": 135,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. 동일한 컨테이너에 추가 터미널을 원할 경우"
+  },
+  {
+    "row": 137,
+    "rowsha": "ErHvvV/NJL233nQfikwPdl30UjlgfDbC9Y7KeI2rCoQ=",
+    "originContent": "3. If you want to additional terminal for same container",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 139,
+    "rowsha": "h1gfMUw/C24AXmencR+tuYSX6MFm/LBW5x6POrHHNgo=",
+    "originContent": "      docker exec -it ackermann_sim bash",
+    "translatedContent": "      docker exec -it ackermann_sim bash"
+  },
+  {
+    "row": 140,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "   "
+  },
+  {
+    "row": 142,
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "> **참고:** 컨테이너 내부에서는 시뮬레이션 명령어를 정상적으로 실행할 수 있습니다."
+  },
+  {
+    "row": 143,
+    "rowsha": "Kii95FsAqACnpc2UZLOV0ftnYuJPMPHhXCsjhvzQwQY=",
+    "originContent": "> **Note:** Inside the container, you can run the simulation commands as normal.",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 145,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 1. 기본 시뮬레이션 및 수동 제어"
+  },
+  {
+    "row": 147,
+    "rowsha": "tSx3o+tExbRs8ZjVbBMFwnU+74Zp2vJrSyrIFlu3Mqc=",
+    "originContent": "### 1. Basic Simulation and Manual Control",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1.  시뮬레이션 시작:"
+  },
+  {
+    "row": 149,
+    "rowsha": "CN5r/NCtMmu0eJL+Uy0Qq6BQDMIaTB94S1cS3qGBK0c=",
+    "originContent": "1.  Launch the simulation:",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 151,
+    "rowsha": "rRW9ng9nTLUL8pbU9y0mfqVLTQRtZ/o0n+S6LdJpfgI=",
+    "originContent": "    ros2 launch saye_bringup saye_spawn.launch.py",
+    "translatedContent": "    ros2 launch saye_bringup saye_spawn.launch.py"
+  },
+  {
+    "row": 152,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 153,
+    "rowsha": "8Q7rrjB2GMIXdcKBCqekmdkch2Y9yHf1oUMtFZXd/uM=",
+    "originContent": "2.  Control car:",
+    "translatedContent": "2.  제어차:"
+  },
+  {
+    "row": 154,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 155,
+    "rowsha": "caXXY/XEFA3YONvA0x95Hhfq1SR0BE57MQquj6Yklb8=",
+    "originContent": "    ros2 run teleop_twist_keyboard teleop_twist_keyboard",
+    "translatedContent": "    ros2 run teleop_twist_keyboard teleop_twist_keyboard"
+  },
+  {
+    "row": 156,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "nttHo3EK1opPHIM4ilU+OT0FYRSn0igoVfOsiZonATA=",
+    "originContent": "### 2. SLAM (Simultaneous Localization and Mapping)",
+    "translatedContent": "### 2. SLAM (동시 위치 추정 및 지도 작성)"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "uvQA1OrsVq74hs7YyK6AUTxJUdQVKBxfO0G/sCnrSpo=",
+    "originContent": "-   To run SLAM Toolbox for mapping, launch the following after starting the simulation:",
+    "translatedContent": "-   매핑을 위해 SLAM Toolbox를 실행하려면 시뮬레이션을 시작한 후 다음을 실행합니다:"
+  },
+  {
+    "row": 161,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 162,
+    "rowsha": "vByA9Ia2Zj9wyguBCaIR4NkOvklNisUFcT2r3xu8hNY=",
+    "originContent": "    ros2 launch saye_bringup slam.launch.py",
+    "translatedContent": "    ros2 launch saye_bringup slam.launch.py"
+  },
+  {
+    "row": 163,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 164,
+    "rowsha": "Ae98OtidWxGgVLZo27Y8HayFYrRTpnC0s+uRwD+538w=",
+    "originContent": "    [![SLAM- Youtube](https://img.youtube.com/vi/QWcJ9TlqFOU/0.jpg)](https://www.youtube.com/watch?v=QWcJ9TlqFOU \"Proje Tanıtımı\")",
+    "translatedContent": "    [![SLAM- Youtube](https://img.youtube.com/vi/QWcJ9TlqFOU/0.jpg)](https://www.youtube.com/watch?v=QWcJ9TlqFOU \"프로젝트 소개\")"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "q+BuTpaGZfyaZ27EEGdXvc7yu59Y9NKKyfr4k4pFZK4=",
+    "originContent": "### 3. Navigation with Nav2",
+    "translatedContent": "### 3. Nav2를 이용한 내비게이션"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "vjsRJZPNc1nmJ1FJcwCxlI9KjJMUbNXVCT6vLDTiOZM=",
+    "originContent": "-   To run the simulation with the Nav2 stack for autonomous navigation, launch the following after starting the simulation:",
+    "translatedContent": "-   Nav2 스택을 사용하여 자율 내비게이션 시뮬레이션을 실행하려면, 시뮬레이션 시작 후 다음 명령을 실행하세요:"
+  },
+  {
+    "row": 169,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 170,
+    "rowsha": "VJfYNxQoAu7+Bih823WQ89nAiPGTz3e09OJgYnTtHnE=",
+    "originContent": "    ros2 launch saye_bringup navigation_bringup.launch.py",
+    "translatedContent": "    ros2 launch saye_bringup navigation_bringup.launch.py"
+  },
+  {
+    "row": 171,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 172,
+    "rowsha": "ZBC04Xhc+hF5o1cOFsS28lqAf5/bH8+JQkGXXX1l0Vc=",
+    "originContent": "    [![Autonomus Navigation - Youtube](https://img.youtube.com/vi/SJ4NrbdlNZo/0.jpg)](https://www.youtube.com/watch?v=SJ4NrbdlNZo \"NAV2\")",
+    "translatedContent": "    [![자율 주행 네비게이션 - 유튜브](https://img.youtube.com/vi/SJ4NrbdlNZo/0.jpg)](https://www.youtube.com/watch?v=SJ4NrbdlNZo \"NAV2\")"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "3Ph0vdSuT2InwYR9Sp7IVMvtinkEcuTMbF1NoKe2Wpw=",
+    "originContent": "> **Note:** The YouTube videos above are played at 4x speed. You can reach the videos by click on the images.",
+    "translatedContent": "> **참고:** 위 유튜브 동영상은 4배속으로 재생됩니다. 이미지를 클릭하여 동영상에 접근할 수 있습니다."
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "drOjl7o9iyF0P5Pyx4tJFUoMZ1AVrUex0QEMr3RQvJI=",
+    "originContent": "## Future Work",
+    "translatedContent": "## 향후 작업"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "ID0Ko8UOvQUNWiRhaV0qG97T2l/8K29Hf50Ob6LXUMo=",
+    "originContent": "1. **3D SLAM Support:**",
+    "translatedContent": "1. **3D SLAM 지원:**"
+  },
+  {
+    "row": 179,
+    "rowsha": "HiOeQaMPGf07LnLOIysw8LzShTMN7mnW7Vu16BbEW+Q=",
+    "originContent": "   - Train the vehicle to handle complex scenarios autonomously using advanced DRL algorithms.",
+    "translatedContent": "   - 고급 DRL 알고리즘을 사용하여 차량이 복잡한 시나리오를 자율적으로 처리하도록 학습합니다."
+  },
+  {
+    "row": 180,
+    "rowsha": "0Jr/7h1qyVG70VdhW8+/qT7v6RPqzbmVEyITPNS4B7U=",
+    "originContent": "2. **Enhanced Features:**",
+    "translatedContent": "2. **향상된 기능:**"
+  },
+  {
+    "row": 181,
+    "rowsha": "gqt9PFLXwIGcdjfjb/XiIQ2ZDWrhnPrvqIUNvVkXUPs=",
+    "originContent": "   - Explore additional sensor configurations and navigation strategies.",
+    "translatedContent": "   - 추가 센서 구성 및 내비게이션 전략을 탐색합니다."
+  },
+  {
+    "row": 182,
+    "rowsha": "8ZNuy+43Gz2HntCKzmK5FGS3K7xoTl0SdPlhuKU992Y=",
+    "originContent": "3. **Nav2 entegration with 3D Localization**",
+    "translatedContent": "3. **3D 위치 추적과 Nav2 통합**"
+  },
+  {
+    "row": 183,
+    "rowsha": "ZqhXqQnpj/ZlPQCQzbrQZ7d/fzTzd+Q8Nua6vzsamkY=",
+    "originContent": "   - Instead of AMCL(2D), more accurate and robust algorithms implementation.",
+    "translatedContent": "   - AMCL(2D) 대신 더 정확하고 견고한 알고리즘 구현."
+  },
+  {
+    "row": 184,
+    "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+    "originContent": "## Gallery",
+    "translatedContent": "## 갤러리"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "YahA3VEbs9boKw9zZUhuKevqkAcOwxdDNdu4kE7OOVY=",
+    "originContent": "![Screenshot from 2024-09-23 00-09-48.png](https://github.com/user-attachments/assets/dd5604c6-014e-4a7a-9a2f-c4dd237abb37)",
+    "translatedContent": "![2024-09-23 00-09-48 스크린샷.png](https://github.com/user-attachments/assets/dd5604c6-014e-4a7a-9a2f-c4dd237abb37)"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "q48+fNpoCqqrFHo//bNIoCyuAYrdtaiPW0SPAifNux0=",
+    "originContent": "### 3D LiDAR Point Cloud & Environment",
+    "translatedContent": "### 3D LiDAR 포인트 클라우드 & 환경"
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "IZ42eNeCkAWPuTZyYIQaj4UqCzk+pZBeGdYSwaauQg8=",
+    "originContent": "| **3D LiDAR Point Cloud Visualization**                             | **Warehouse Environment Model**                                   |",
+    "translatedContent": "| **3D LiDAR 포인트 클라우드 시각화**                               | **창고 환경 모델**                                              |"
+  },
+  {
+    "row": 191,
+    "rowsha": "8MK/7CPqT96t1FktK1btIPm2gXm96IiFd7HsNSA5jNw=",
+    "originContent": "| ----------------------------------------------------------------- | ----------------------------------------------------------------- |",
+    "translatedContent": "| ----------------------------------------------------------------- | --------------------------------------------------------------- |"
+  },
+  {
+    "row": 192,
+    "rowsha": "z/7ITN4JM1r0ITB8nHmbcElDSJqetS8nzkfha5oNLyo=",
+    "originContent": "| ![3D Point Cloud](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |",
+    "translatedContent": "| ![3D 포인트 클라우드](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![창고 모델](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |"
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "HDgfB55wb+0DaWJ7JC90CLq0I56lszaLOGvY5ghjU/Q=",
+    "originContent": "### Vehicle & Navigation",
+    "translatedContent": "### 차량 및 내비게이션"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "aO0GiyY6VBEg4XyZqppZTfmxkQTLiDE8LT9V+Ioyc8U=",
+    "originContent": "| **Gazebo Sim Harmonic**                                                                                                     | **RViz2**                                                                                                                   |",
+    "translatedContent": "| **Gazebo 시뮬레이터 하모닉**                                                                                                | **RViz2**                                                                                                                    |"
+  },
+  {
+    "row": 197,
+    "rowsha": "OTc5nQC6Qv2kLDmpMCxhLdZlUaZvncEXVBLz7FE3uw4=",
+    "originContent": "| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |",
+    "translatedContent": "| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |"
+  },
+  {
+    "row": 198,
+    "rowsha": "fc4SXpyglTp8clrWX6f4ZW1DVw0lJQVA8ZAF2rqz7II=",
+    "originContent": "| ![Screenshot from 2024-09-23 00-13-03.png](https://github.com/user-attachments/assets/1d2b56f7-34c1-4b01-9a85-fb01ceab5bd6) | ![Screenshot from 2024-09-23 00-09-04.png](https://github.com/user-attachments/assets/ba6853fd-4143-4b4d-bbc6-072895e4c75e) |",
+    "translatedContent": "| ![2024-09-23 00-13-03 스크린샷.png](https://github.com/user-attachments/assets/1d2b56f7-34c1-4b01-9a85-fb01ceab5bd6) | ![2024-09-23 00-09-04 스크린샷.png](https://github.com/user-attachments/assets/ba6853fd-4143-4b4d-bbc6-072895e4c75e) |"
+  },
+  {
+    "row": 199,
+    "rowsha": "SJ42dvcl99quB91HB+tTjGkGXUJmT8FLIW9AAD618bQ=",
+    "originContent": "| ![Screenshot from 2024-09-23 00-12-13.png](https://github.com/user-attachments/assets/477cce7b-995b-471e-a684-4d82bee0fc34) | ![Screenshot from 2024-09-23 00-15-04.png](https://github.com/user-attachments/assets/bf9ad916-14a6-4b62-a799-4169a767e4dd) |",
+    "translatedContent": "| ![2024-09-23 00-12-13 스크린샷.png](https://github.com/user-attachments/assets/477cce7b-995b-471e-a684-4d82bee0fc34) | ![2024-09-23 00-15-04 스크린샷.png](https://github.com/user-attachments/assets/bf9ad916-14a6-4b62-a799-4169a767e4dd) |"
+  },
+  {
+    "row": 200,
+    "rowsha": "66MLr0SuxwSkRRugtpInkHRm97tEuVTnUEVT9syeCI0=",
+    "originContent": "| ![alt text](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/saye.png)                                                                                         | ![alt text](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/rviz_saye.png)                                                                                    |",
+    "translatedContent": "| ![alt 텍스트](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/saye.png)                                                                                        | ![alt 텍스트](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/rviz_saye.png)                                                                                       |"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "tqj3UPTYM+1V7jaHZXsCDVkX9xAp2OCqt0H/ulWLdj0=",
+    "originContent": "## TF Tree",
+    "translatedContent": "## TF 트리"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "w8puFP71ZTgPhiwwODhLtozzAWzn/nRZq4Or+muuRd0=",
+    "originContent": "![TF Tree](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/frames.png)",
+    "translatedContent": "![TF 트리](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/frames.png)"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+    "originContent": "## Star History",
+    "translatedContent": "## 스타 이력"
+  },
+  {
+    "row": 209,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "LwNY3vBbrKOaIxp6ilL2N6AFd0tzhsOdqCPj6mx5YbQ=",
+    "originContent": "<a href=\"https://www.star-history.com/#alitekes1/ackermann-vehicle-gzsim-ros2&Date\">",
+    "translatedContent": "<a href=\"https://www.star-history.com/#alitekes1/ackermann-vehicle-gzsim-ros2&Date\">"
+  },
+  {
+    "row": 211,
+    "rowsha": "TFdaG2cyM78Bclocz/GopuysT4bztU94JJRzBZs2Vn0=",
+    "originContent": " <picture>",
+    "translatedContent": " <picture>"
+  },
+  {
+    "row": 212,
+    "rowsha": "406H5AocFYPkOb3Ol3V64JlHECQE23G+c1AaHDLy2f8=",
+    "originContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />",
+    "translatedContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />"
+  },
+  {
+    "row": 213,
+    "rowsha": "eibawIZ5nhTETgfJRaaQWPir+jbyki6pjyf0bJ5EHgk=",
+    "originContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />",
+    "translatedContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />"
+  },
+  {
+    "row": 214,
+    "rowsha": "giTgPMxD5IJ6W8Kw+76V+uqfmATRuzj/7VCpltph31k=",
+    "originContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />",
+    "translatedContent": "   <img alt=\"별 히스토리 차트\" src=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />"
+  },
+  {
+    "row": 215,
+    "rowsha": "hmjVHkUZVe2T5TOA6gV3253XP4pU7SxFtUBDpd9akPA=",
+    "originContent": " </picture>",
+    "translatedContent": " </picture>"
+  },
+  {
+    "row": 216,
+    "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+    "originContent": "</a>",
+    "translatedContent": "</a>"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

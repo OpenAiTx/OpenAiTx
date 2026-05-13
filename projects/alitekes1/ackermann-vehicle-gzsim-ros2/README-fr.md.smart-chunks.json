@@ -1,0 +1,1590 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Ackermann Steering Vehicle Simulation in ROS2 with Gazebo Sim Harmonic\n\nThis project features the simulation of a custom vehicle with **Ackermann steering capabilities**, developed using **ROS2** and the **Gazebo Sim Harmonic environment**. The model integrates a variety of sensors and navigation tools for autonomous operation, making it one of the first implementations of an Ackermann steering vehicle in this simulation framework.\n\n| **3D LiDAR Point Cloud Visualization** | **Warehouse Environment Model** |\n| ----- | ----- |\n| ![3D Point Cloud](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |\n\n### If you like this project, consider giving it a ⭐ to show your support!\n\n## Table of Contents\n\n- [Ackermann Steering Vehicle Simulation in ROS2 with Gazebo Sim Harmonic](#ackermann-steering-vehicle-simulation-in-ros2-with-gazebo-sim-harmonic)\n- [Features](#features)\n  - [1 Ackermann Steering](#1-ackermann-steering)\n  - [2 ROS2 Communication](#2-ros2-communication)\n  - [3 Sensors](#3-sensors)\n  - [4 Navigation](#4-navigation)\n  - [5 Manual Control with external joystick](#5-manual-control-with-external-joystick)\n  - [6 Visualization](#6-visualization)\n- [Requirements](#requirements)\n- [Local Installation](#local-installation)\n- [Docker Installation](#docker-installation)\n- [Usage](#usage)\n  - [1 Basic Simulation and Manual Control](#1-basic-simulation-and-manual-control)\n  - [2 SLAM Simultaneous Localization and Mapping](#2-slam-simultaneous-localization-and-mapping)\n  - [3 Navigation with Nav2](#3-navigation-with-nav2)\n- [Future Work](#future-work)\n- [Gallery](#gallery)\n- [TF Tree](#tf-tree)\n- [Star History](#star-history)\n\n## Features\n\n### 1. **Ackermann Steering**\n\n- A custom vehicle model built with realistic Ackermann steering dynamics for accurate maneuverability.\n\n### 2. **ROS2 Communication**\n",
+    "ContentSha": "UeSnk/ngbfrZjDpImZMpPto2aEcE4uNdHbNdxSxZJ6M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Simulation de véhicule à direction Ackermann dans ROS2 avec Gazebo Sim Harmonic\n\nCe projet présente la simulation d’un véhicule personnalisé avec des **capacités de direction Ackermann**, développé en utilisant **ROS2** et l’environnement **Gazebo Sim Harmonic**. Le modèle intègre une variété de capteurs et d’outils de navigation pour une opération autonome, en faisant l’une des premières implémentations d’un véhicule à direction Ackermann dans ce cadre de simulation.\n\n| **Visualisation du nuage de points 3D LiDAR** | **Modèle d’environnement d’entrepôt** |\n| ----- | ----- |\n| ![Nuage de points 3D](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Modèle d’entrepôt](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |\n\n### Si ce projet vous plaît, pensez à lui attribuer une ⭐ pour montrer votre soutien !\n\n## Table des matières\n\n- [Simulation de véhicule à direction Ackermann dans ROS2 avec Gazebo Sim Harmonic](#ackermann-steering-vehicle-simulation-in-ros2-with-gazebo-sim-harmonic)\n- [Fonctionnalités](#features)\n  - [1 Direction Ackermann](#1-ackermann-steering)\n  - [2 Communication ROS2](#2-ros2-communication)\n  - [3 Capteurs](#3-sensors)\n  - [4 Navigation](#4-navigation)\n  - [5 Contrôle manuel avec joystick externe](#5-manual-control-with-external-joystick)\n  - [6 Visualisation](#6-visualization)\n- [Prérequis](#requirements)\n- [Installation locale](#local-installation)\n- [Installation Docker](#docker-installation)\n- [Utilisation](#usage)\n  - [1 Simulation de base et contrôle manuel](#1-basic-simulation-and-manual-control)\n  - [2 SLAM localisation et cartographie simultanées](#2-slam-simultaneous-localization-and-mapping)\n  - [3 Navigation avec Nav2](#3-navigation-with-nav2)\n- [Travaux futurs](#future-work)\n- [Galerie](#gallery)\n- [Arbre TF](#tf-tree)\n- [Historique des étoiles](#star-history)\n\n## Fonctionnalités\n\n### 1. **Direction Ackermann**\n\n- Un modèle de véhicule personnalisé construit avec une dynamique réaliste de direction Ackermann pour une maniabilité précise.\n\n### 2. **Communication ROS2**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "y4aCwZPq5Zat2fCWEaGKR7A60bovG1/9tjkDvBt4Bjg=",
+        "originContent": "# Ackermann Steering Vehicle Simulation in ROS2 with Gazebo Sim Harmonic",
+        "translatedContent": "# Simulation de véhicule à direction Ackermann dans ROS2 avec Gazebo Sim Harmonic"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "sLV1No/J4Vcsr0G+4Dlloz0i/YTjYIoZCLYn47UzFnA=",
+        "originContent": "This project features the simulation of a custom vehicle with **Ackermann steering capabilities**, developed using **ROS2** and the **Gazebo Sim Harmonic environment**. The model integrates a variety of sensors and navigation tools for autonomous operation, making it one of the first implementations of an Ackermann steering vehicle in this simulation framework.",
+        "translatedContent": "Ce projet présente la simulation d’un véhicule personnalisé avec des **capacités de direction Ackermann**, développé en utilisant **ROS2** et l’environnement **Gazebo Sim Harmonic**. Le modèle intègre une variété de capteurs et d’outils de navigation pour une opération autonome, en faisant l’une des premières implémentations d’un véhicule à direction Ackermann dans ce cadre de simulation."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "h3iexMxVGzMSVUVY/+9c7BoLRxCJbZIN4XMRLzt/tZM=",
+        "originContent": "| **3D LiDAR Point Cloud Visualization** | **Warehouse Environment Model** |",
+        "translatedContent": "| **Visualisation du nuage de points 3D LiDAR** | **Modèle d’environnement d’entrepôt** |"
+      },
+      {
+        "row": 6,
+        "rowsha": "kvlfj7cPdmxZkHYhhPHSqhQcKJM/e5YPToVYw9doZMw=",
+        "originContent": "| ----- | ----- |",
+        "translatedContent": "| ----- | ----- |"
+      },
+      {
+        "row": 7,
+        "rowsha": "z/7ITN4JM1r0ITB8nHmbcElDSJqetS8nzkfha5oNLyo=",
+        "originContent": "| ![3D Point Cloud](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |",
+        "translatedContent": "| ![Nuage de points 3D](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Modèle d’entrepôt](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8x/cF1sn9j9C7Vmp6UyPdl/9052TmjSG2woJnQeR7X8=",
+        "originContent": "### If you like this project, consider giving it a ⭐ to show your support!",
+        "translatedContent": "### Si ce projet vous plaît, pensez à lui attribuer une ⭐ pour montrer votre soutien !"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Table des matières"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Xdi5jP5BFQ0/fvowJQx1x/IzfyU7XB540j6N62pB1AY=",
+        "originContent": "- [Ackermann Steering Vehicle Simulation in ROS2 with Gazebo Sim Harmonic](#ackermann-steering-vehicle-simulation-in-ros2-with-gazebo-sim-harmonic)",
+        "translatedContent": "- [Simulation de véhicule à direction Ackermann dans ROS2 avec Gazebo Sim Harmonic](#ackermann-steering-vehicle-simulation-in-ros2-with-gazebo-sim-harmonic)"
+      },
+      {
+        "row": 14,
+        "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+        "originContent": "- [Features](#features)",
+        "translatedContent": "- [Fonctionnalités](#features)"
+      },
+      {
+        "row": 15,
+        "rowsha": "uWT4fKtX4AlCGD5OI5LKcvBO5x3mWvSLhiYS9Tu4zoA=",
+        "originContent": "  - [1 Ackermann Steering](#1-ackermann-steering)",
+        "translatedContent": "  - [1 Direction Ackermann](#1-ackermann-steering)"
+      },
+      {
+        "row": 16,
+        "rowsha": "A6T49BgWvOl6l3spHKd9vMKnQjnul99g4bMqZv2qx6E=",
+        "originContent": "  - [2 ROS2 Communication](#2-ros2-communication)",
+        "translatedContent": "  - [2 Communication ROS2](#2-ros2-communication)"
+      },
+      {
+        "row": 17,
+        "rowsha": "jS3SfT7X0PXjXKS7K1YUWxymqxU+sqRQAOs71J1UB6Y=",
+        "originContent": "  - [3 Sensors](#3-sensors)",
+        "translatedContent": "  - [3 Capteurs](#3-sensors)"
+      },
+      {
+        "row": 18,
+        "rowsha": "cCE6mFXa24dkxa448aYmrn5ciKWavakilX0GOXmfMUA=",
+        "originContent": "  - [4 Navigation](#4-navigation)",
+        "translatedContent": "  - [4 Navigation](#4-navigation)"
+      },
+      {
+        "row": 19,
+        "rowsha": "j1ucUQwNAbl7psmA4Jzo/a+OO9qNreGKlIoak8HMWb4=",
+        "originContent": "  - [5 Manual Control with external joystick](#5-manual-control-with-external-joystick)",
+        "translatedContent": "  - [5 Contrôle manuel avec joystick externe](#5-manual-control-with-external-joystick)"
+      },
+      {
+        "row": 20,
+        "rowsha": "ae1Spgu0/lBq0LSDjsZ/z2DBZhflVKQ4jPFAM9uXGfA=",
+        "originContent": "  - [6 Visualization](#6-visualization)",
+        "translatedContent": "  - [6 Visualisation](#6-visualization)"
+      },
+      {
+        "row": 21,
+        "rowsha": "qNrl27qsv0ZwGdVt+bM00bMPVtSnSnR4DeQhqB6obhE=",
+        "originContent": "- [Requirements](#requirements)",
+        "translatedContent": "- [Prérequis](#requirements)"
+      },
+      {
+        "row": 22,
+        "rowsha": "2YD1LBnrBpMzmX92QLddiHSHjoz5EL3dKPR4A4yWfLU=",
+        "originContent": "- [Local Installation](#local-installation)",
+        "translatedContent": "- [Installation locale](#local-installation)"
+      },
+      {
+        "row": 23,
+        "rowsha": "srF3vxAZEcd5suPSgAtyehdCL6tDOFGBzpkZKPLh1I8=",
+        "originContent": "- [Docker Installation](#docker-installation)",
+        "translatedContent": "- [Installation Docker](#docker-installation)"
+      },
+      {
+        "row": 24,
+        "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+        "originContent": "- [Usage](#usage)",
+        "translatedContent": "- [Utilisation](#usage)"
+      },
+      {
+        "row": 25,
+        "rowsha": "XenNccvwotvgObFqVC9+yAY1H0e/1dMSWo0X1kulOzY=",
+        "originContent": "  - [1 Basic Simulation and Manual Control](#1-basic-simulation-and-manual-control)",
+        "translatedContent": "  - [1 Simulation de base et contrôle manuel](#1-basic-simulation-and-manual-control)"
+      },
+      {
+        "row": 26,
+        "rowsha": "8McEQif0LxLGT45XoYIwPy9TNZJ2WoNmbDBEAYyeeso=",
+        "originContent": "  - [2 SLAM Simultaneous Localization and Mapping](#2-slam-simultaneous-localization-and-mapping)",
+        "translatedContent": "  - [2 SLAM localisation et cartographie simultanées](#2-slam-simultaneous-localization-and-mapping)"
+      },
+      {
+        "row": 27,
+        "rowsha": "3T57TgtkfdZQaRDBt2vIJROAhKQgrDXsi1/XFCbTtcM=",
+        "originContent": "  - [3 Navigation with Nav2](#3-navigation-with-nav2)",
+        "translatedContent": "  - [3 Navigation avec Nav2](#3-navigation-with-nav2)"
+      },
+      {
+        "row": 28,
+        "rowsha": "+Kk7FX7qJAYX5kJQtiRbvNEHrFpindnQ+fD62CRUWCY=",
+        "originContent": "- [Future Work](#future-work)",
+        "translatedContent": "- [Travaux futurs](#future-work)"
+      },
+      {
+        "row": 29,
+        "rowsha": "szeUMzObFmInYxsCoVbn/VVKtyDdOBQ09zhIyfjN3rU=",
+        "originContent": "- [Gallery](#gallery)",
+        "translatedContent": "- [Galerie](#gallery)"
+      },
+      {
+        "row": 30,
+        "rowsha": "HRPQFH8yPkDeC4lSWJ/eUgeOOKrjxRpz06TbnMyjEg8=",
+        "originContent": "- [TF Tree](#tf-tree)",
+        "translatedContent": "- [Arbre TF](#tf-tree)"
+      },
+      {
+        "row": 31,
+        "rowsha": "RdW0/AL2ru3wEO/uUWtkOb09ao0NTkpNNPKyzRaRepk=",
+        "originContent": "- [Star History](#star-history)",
+        "translatedContent": "- [Historique des étoiles](#star-history)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "rlR3NKE5HT0wPR2Hoxe/eNVM/Q1Re+0l+CzVjCin1DE=",
+        "originContent": "### 1. **Ackermann Steering**",
+        "translatedContent": "### 1. **Direction Ackermann**"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "88p3iDkMxlIjCoLaRo9LCjM9qPbJR5SCDWJqJY2FUoA=",
+        "originContent": "- A custom vehicle model built with realistic Ackermann steering dynamics for accurate maneuverability.",
+        "translatedContent": "- Un modèle de véhicule personnalisé construit avec une dynamique réaliste de direction Ackermann pour une maniabilité précise."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "+xpVHLFv1JqW/NTQvgDyZ0iDK9linLPLgRrMDzhQp08=",
+        "originContent": "### 2. **ROS2 Communication**",
+        "translatedContent": "### 2. **Communication ROS2**"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- All sensor data and control signals are fully integrated into the ROS2 ecosystem for seamless interoperability.\n\n### 3. **Sensors**\n\n- **IMU**: Provides orientation and angular velocity.\n- **Odometry**: Ensures accurate vehicle state feedback.\n- **LiDAR**: Mounted for obstacle detection and environmental scanning. Supports 3D point cloud generation for advanced perception tasks.\n- **Cameras**:\n  - Front-facing\n  - Rear-facing\n  - Left-side\n  - Right-side\n  > **Note:** By default, only the front camera is bridged to ROS 2.If you want to use all cameras (left, right, rear) in ROS 2,remove the `#` at the beginning of the relevant camera sections in `saye_bringup/config/ros_gz_bridge.yaml` to activate them  (e.g., `/camera/left_raw`, `/camera/right_raw`, `/camera/rear_raw`).\n\n### 4. **Navigation**\n\n- Integrated with the **Nav2 stack** for autonomous navigation.\n- **AMCL (Adaptive Monte Carlo Localization)** for improved positional accuracy.\n- **SLAM** techniques implemented for real-time mapping and understanding of the environment.\n- Fine-tuned parameters for optimized navigation performance.\n\n### 5. **Manual Control (with external joystick)**\n\n- Added support for joystick-based manual control in the simulation environment, enabling users to test vehicle movement interactively.\n\n### 6. **Visualization**\n\n- Full model and sensor data visualization in **RViz2**, providing insights into robot states and environmental feedback.\n\n## Requirements\n\n- **ROS2 (Humble)**\n- **Gazebo Sim Harmonic**\n- **RViz2**\n- **Nav2**\n\n## Local Installation\n\n0. Your need to sure that installation of Gazebo Harmonic and ROS (ros_gz):<br>\n   `sudo apt-get install ros-${ROS_DISTRO}-ros-gz`<br>",
+    "ContentSha": "6wxS04meZRDfkNGptregamt0fUjbXptEQsHQxoEtz1Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Toutes les données des capteurs et les signaux de contrôle sont entièrement intégrés dans l’écosystème ROS2 pour une interopérabilité transparente.\n\n### 3. **Capteurs**\n\n- **IMU** : Fournit l’orientation et la vitesse angulaire.\n- **Odométrie** : Assure un retour précis de l’état du véhicule.\n- **LiDAR** : Monté pour la détection d’obstacles et le balayage environnemental. Supporte la génération de nuages de points 3D pour des tâches avancées de perception.\n- **Caméras** :\n  - Avant\n  - Arrière\n  - Côté gauche\n  - Côté droit\n  > **Note :** Par défaut, seule la caméra avant est connectée à ROS 2. Si vous souhaitez utiliser toutes les caméras (gauche, droite, arrière) dans ROS 2, retirez le `#` au début des sections de caméra concernées dans `saye_bringup/config/ros_gz_bridge.yaml` pour les activer (par ex., `/camera/left_raw`, `/camera/right_raw`, `/camera/rear_raw`).\n\n### 4. **Navigation**\n\n- Intégré avec la **pile Nav2** pour la navigation autonome.\n- **AMCL (Localisation Monte Carlo Adaptative)** pour une meilleure précision de position.\n- Techniques de **SLAM** mises en œuvre pour la cartographie en temps réel et la compréhension de l’environnement.\n- Paramètres finement ajustés pour une performance optimisée de la navigation.\n\n### 5. **Contrôle manuel (avec joystick externe)**\n\n- Ajout du support pour le contrôle manuel via joystick dans l’environnement de simulation, permettant aux utilisateurs de tester les déplacements du véhicule de manière interactive.\n\n### 6. **Visualisation**\n\n- Visualisation complète du modèle et des données des capteurs dans **RViz2**, offrant des informations sur les états du robot et le retour environnemental.\n\n## Exigences\n\n- **ROS2 (Humble)**\n- **Gazebo Sim Harmonic**\n- **RViz2**\n- **Nav2**\n\n## Installation locale\n\n0. Vous devez vous assurer de l’installation de Gazebo Harmonic et de ROS (ros_gz) :<br>\n   `sudo apt-get install ros-${ROS_DISTRO}-ros-gz`<br>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6x0OlWoREjNbSTq+Emklw1Ulhuzgg8k4x1GcpZxT+A4=",
+        "originContent": "- All sensor data and control signals are fully integrated into the ROS2 ecosystem for seamless interoperability.",
+        "translatedContent": "- Toutes les données des capteurs et les signaux de contrôle sont entièrement intégrés dans l’écosystème ROS2 pour une interopérabilité transparente."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qiZ7B+zMEl6F9n2dElidjR5GcV6DImAj4NRe8ncTF5g=",
+        "originContent": "### 3. **Sensors**",
+        "translatedContent": "### 3. **Capteurs**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nIfQs9k+WHZD7cD1PUnWX7w40tB22+gMPfxNmckDGzo=",
+        "originContent": "- **IMU**: Provides orientation and angular velocity.",
+        "translatedContent": "- **IMU** : Fournit l’orientation et la vitesse angulaire."
+      },
+      {
+        "row": 6,
+        "rowsha": "8eiaLH3q7grjGSOeuETDgjVyYQWMyqz6NG4c6q3O6pE=",
+        "originContent": "- **Odometry**: Ensures accurate vehicle state feedback.",
+        "translatedContent": "- **Odométrie** : Assure un retour précis de l’état du véhicule."
+      },
+      {
+        "row": 7,
+        "rowsha": "lm9JTSagCmV7Qv9wEuAZf1L2Nk85Wooy4utowPp9mmA=",
+        "originContent": "- **LiDAR**: Mounted for obstacle detection and environmental scanning. Supports 3D point cloud generation for advanced perception tasks.",
+        "translatedContent": "- **LiDAR** : Monté pour la détection d’obstacles et le balayage environnemental. Supporte la génération de nuages de points 3D pour des tâches avancées de perception."
+      },
+      {
+        "row": 8,
+        "rowsha": "mxN/SEPHTZ6lgef3R8m+Vu9WmOphndn72P+WaF0N0dM=",
+        "originContent": "- **Cameras**:",
+        "translatedContent": "- **Caméras** :"
+      },
+      {
+        "row": 9,
+        "rowsha": "8KV9F7bokXcIIXQve7yeFtEtONcSSmWnuWzQZY6iSZk=",
+        "originContent": "  - Front-facing",
+        "translatedContent": "  - Avant"
+      },
+      {
+        "row": 10,
+        "rowsha": "WHOFr+JuEPTZFs/zJcwb5MisqNPreEfrYF2IPDNhKI0=",
+        "originContent": "  - Rear-facing",
+        "translatedContent": "  - Arrière"
+      },
+      {
+        "row": 11,
+        "rowsha": "H3bP2357beobGgww7QziCuInFhMMiuV9z3KrwGLKO0I=",
+        "originContent": "  - Left-side",
+        "translatedContent": "  - Côté gauche"
+      },
+      {
+        "row": 12,
+        "rowsha": "+2UQogWhiK7z9xWB3ETa7ViJ59EAD85IgUj+36i4RS4=",
+        "originContent": "  - Right-side",
+        "translatedContent": "  - Côté droit"
+      },
+      {
+        "row": 13,
+        "rowsha": "cCyf5wFCmcip3GVSm1ATqcP+wR2q07f9Dsa6i07lL9M=",
+        "originContent": "  > **Note:** By default, only the front camera is bridged to ROS 2.If you want to use all cameras (left, right, rear) in ROS 2,remove the `#` at the beginning of the relevant camera sections in `saye_bringup/config/ros_gz_bridge.yaml` to activate them  (e.g., `/camera/left_raw`, `/camera/right_raw`, `/camera/rear_raw`).",
+        "translatedContent": "  > **Note :** Par défaut, seule la caméra avant est connectée à ROS 2. Si vous souhaitez utiliser toutes les caméras (gauche, droite, arrière) dans ROS 2, retirez le `#` au début des sections de caméra concernées dans `saye_bringup/config/ros_gz_bridge.yaml` pour les activer (par ex., `/camera/left_raw`, `/camera/right_raw`, `/camera/rear_raw`)."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "/aM8/a+FRQjgN5mu/5AG8MhRGSzjsbr2+HPhsodrMgg=",
+        "originContent": "### 4. **Navigation**",
+        "translatedContent": "### 4. **Navigation**"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "fGpsdm/FosILFJxrgAVXq7dL10wNfnYrOUawaN4PrYM=",
+        "originContent": "- Integrated with the **Nav2 stack** for autonomous navigation.",
+        "translatedContent": "- Intégré avec la **pile Nav2** pour la navigation autonome."
+      },
+      {
+        "row": 18,
+        "rowsha": "QFvUTlQs0MB8KegXxh1x0kAFXGv/JDpApNdoZgwgZcI=",
+        "originContent": "- **AMCL (Adaptive Monte Carlo Localization)** for improved positional accuracy.",
+        "translatedContent": "- **AMCL (Localisation Monte Carlo Adaptative)** pour une meilleure précision de position."
+      },
+      {
+        "row": 19,
+        "rowsha": "SNH9Fs13ARajDdXY7KYc+KRR8v85Pab7hC9DS6gBmPU=",
+        "originContent": "- **SLAM** techniques implemented for real-time mapping and understanding of the environment.",
+        "translatedContent": "- Techniques de **SLAM** mises en œuvre pour la cartographie en temps réel et la compréhension de l’environnement."
+      },
+      {
+        "row": 20,
+        "rowsha": "XuDaFEW69qHrAsIKeFRbs9qX4Jqs6HHKvZPQAEuRMZs=",
+        "originContent": "- Fine-tuned parameters for optimized navigation performance.",
+        "translatedContent": "- Paramètres finement ajustés pour une performance optimisée de la navigation."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "HhfATO5srWMI4zAbQpBF01eE59h+sSPj9AuSoh5VcjU=",
+        "originContent": "### 5. **Manual Control (with external joystick)**",
+        "translatedContent": "### 5. **Contrôle manuel (avec joystick externe)**"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "P2jM86ANlrRr+yBV/VM33U50VtKBE3KyZpByJBlF3NE=",
+        "originContent": "- Added support for joystick-based manual control in the simulation environment, enabling users to test vehicle movement interactively.",
+        "translatedContent": "- Ajout du support pour le contrôle manuel via joystick dans l’environnement de simulation, permettant aux utilisateurs de tester les déplacements du véhicule de manière interactive."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "5x3ToV6/HBbbiDI6aqavz+lg5xPT5RX3FbVH8YMVFcw=",
+        "originContent": "### 6. **Visualization**",
+        "translatedContent": "### 6. **Visualisation**"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "7EXNMvQT3z36tY/Y+dkQqHx2AkX39+l9ZUOc9olBu9s=",
+        "originContent": "- Full model and sensor data visualization in **RViz2**, providing insights into robot states and environmental feedback.",
+        "translatedContent": "- Visualisation complète du modèle et des données des capteurs dans **RViz2**, offrant des informations sur les états du robot et le retour environnemental."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Exigences"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "ciLh/eQd6KnCIH0JvvXdCNRL9HR2KfSBBwlSVSDWIDU=",
+        "originContent": "- **ROS2 (Humble)**",
+        "translatedContent": "- **ROS2 (Humble)**"
+      },
+      {
+        "row": 33,
+        "rowsha": "ZHrYUhsjADCAhS5HTuT+xSmAzssGb8lc7hHwAoXhxic=",
+        "originContent": "- **Gazebo Sim Harmonic**",
+        "translatedContent": "- **Gazebo Sim Harmonic**"
+      },
+      {
+        "row": 34,
+        "rowsha": "WZckYdjyxz9raJ9PmYUvnalrQ6zbQ4h2YxceBFOuoow=",
+        "originContent": "- **RViz2**",
+        "translatedContent": "- **RViz2**"
+      },
+      {
+        "row": 35,
+        "rowsha": "ky94WmyAfPGhGVkEkNOuPOIq04IKdg7dpT7sNPk6Eic=",
+        "originContent": "- **Nav2**",
+        "translatedContent": "- **Nav2**"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "E1Mq0+cwJeJvxfKR1ZSQK+R9SGpRAZ/iP0C/Mi1Yrgc=",
+        "originContent": "## Local Installation",
+        "translatedContent": "## Installation locale"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "fJV94AKei9/o80Qgjka25QqILSKmZjDbEQni5S0c3kw=",
+        "originContent": "0. Your need to sure that installation of Gazebo Harmonic and ROS (ros_gz):<br>",
+        "translatedContent": "0. Vous devez vous assurer de l’installation de Gazebo Harmonic et de ROS (ros_gz) :<br>"
+      },
+      {
+        "row": 40,
+        "rowsha": "DNR4BG3AF3TUsAsfqcK72KZBTTSJ/DZ85E28QFGuq/M=",
+        "originContent": "   `sudo apt-get install ros-${ROS_DISTRO}-ros-gz`<br>",
+        "translatedContent": "   `sudo apt-get install ros-${ROS_DISTRO}-ros-gz`<br>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   `sudo apt-get install ros-humble-ros-gzharmonic` (Only Humble version)<br>\n   More details about installation Gazebo and ROS: <a href=\"https://gazebosim.org/docs/latest/ros_installation/\">Link</a>\n1. Clone the repository:<br>\n   `mkdir -p ackermann_sim/src && cd ackermann_sim/src`<br>\n   `git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2`<br>`cd ..`\n2. Build the project:\n   `colcon build && source install/setup.bash`\n3. Set environment variables:",
+    "ContentSha": "oKb2tPl2PI/YGN+MzSiXKdNotvRydLyCSbhoYmndalM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   `sudo apt-get install ros-humble-ros-gzharmonic` (Version Humble uniquement)<br>\n   Plus de détails sur l'installation de Gazebo et ROS : <a href=\"https://gazebosim.org/docs/latest/ros_installation/\">Lien</a>\n1. Cloner le dépôt :<br>\n   `mkdir -p ackermann_sim/src && cd ackermann_sim/src`<br>\n   `git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2`<br>`cd ..`\n2. Construire le projet :\n   `colcon build && source install/setup.bash`\n3. Configurer les variables d'environnement :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4YPkGpLq0ZKIRxgLocSp6q6qMEmp05kBuXt8ElGU64k=",
+        "originContent": "   `sudo apt-get install ros-humble-ros-gzharmonic` (Only Humble version)<br>",
+        "translatedContent": "   `sudo apt-get install ros-humble-ros-gzharmonic` (Version Humble uniquement)<br>"
+      },
+      {
+        "row": 2,
+        "rowsha": "vQNOFOTeYwDR9k14pseaOCH67qMh21DrBdn6IEtPjt4=",
+        "originContent": "   More details about installation Gazebo and ROS: <a href=\"https://gazebosim.org/docs/latest/ros_installation/\">Link</a>",
+        "translatedContent": "   Plus de détails sur l'installation de Gazebo et ROS : <a href=\"https://gazebosim.org/docs/latest/ros_installation/\">Lien</a>"
+      },
+      {
+        "row": 3,
+        "rowsha": "+KQCvhh6Hw3rQr7JfLo5FdBEEj1yBjxicJdxwvZ8Z7w=",
+        "originContent": "1. Clone the repository:<br>",
+        "translatedContent": "1. Cloner le dépôt :<br>"
+      },
+      {
+        "row": 4,
+        "rowsha": "e/Q1WpGmtFWu0NX7+5aQ2vH//C1mYpng/YuBsCejTCE=",
+        "originContent": "   `mkdir -p ackermann_sim/src && cd ackermann_sim/src`<br>",
+        "translatedContent": "   `mkdir -p ackermann_sim/src && cd ackermann_sim/src`<br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "2DaaUmuP9vItL0PPQbPYNnqR9L+P/g+SwttJX29DOYY=",
+        "originContent": "   `git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2`<br>`cd ..`",
+        "translatedContent": "   `git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2`<br>`cd ..`"
+      },
+      {
+        "row": 6,
+        "rowsha": "UaSOvO/vZBEbdf08l1JqSr6joLjHfJ6RfQyhWNw/LwY=",
+        "originContent": "2. Build the project:",
+        "translatedContent": "2. Construire le projet :"
+      },
+      {
+        "row": 7,
+        "rowsha": "NRDYaBg0uejTtLQDpR+Rjm09j0FMWe/TVWpiZM8zSz8=",
+        "originContent": "   `colcon build && source install/setup.bash`",
+        "translatedContent": "   `colcon build && source install/setup.bash`"
+      },
+      {
+        "row": 8,
+        "rowsha": "EyK+fQ1YcuopkRwkyO9M1oWdgRTBh/ilQJ3VLdQrCwQ=",
+        "originContent": "3. Set environment variables:",
+        "translatedContent": "3. Configurer les variables d'environnement :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   # Set environment variables for current session\n   export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/\n   export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/\n   ```",
+    "ContentSha": "i/3u+8p0mJ2Hn+n/HaopXygvLTzcrsTbBM+xhIqRsRM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   # Set environment variables for current session\n   export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/\n   export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "tb2j5jco4cn9NE65M7lu7r0BLtEUo6JDisRVv7WyHVg=",
+        "originContent": "   # Set environment variables for current session",
+        "translatedContent": "   # Set environment variables for current session"
+      },
+      {
+        "row": 3,
+        "rowsha": "VDAKi8bTdwNrV+rfnydpPxu3F1j1lUa0K/8ft19EMf0=",
+        "originContent": "   export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/",
+        "translatedContent": "   export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/"
+      },
+      {
+        "row": 4,
+        "rowsha": "NomccnEFPA6inGedqbrO3w16CGEyOHUvvte3gB2yprw=",
+        "originContent": "   export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/",
+        "translatedContent": "   export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n   **For Permanent Setup:**\n   \n   To make these environment variables permanent, add them to your `.bashrc` file:",
+    "ContentSha": "COoQDiaYkSMyrS36z/pBCSbq1FWj0/E3Eb3lFl+hqTk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n   **Pour une configuration permanente :**\n   \n   Pour rendre ces variables d'environnement permanentes, ajoutez-les à votre fichier `.bashrc` :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Tf1hdakHQxZBtV5DVmEWUrgmOy+VGr3hEf68E8agVlo=",
+        "originContent": "   **For Permanent Setup:**",
+        "translatedContent": "   **Pour une configuration permanente :**"
+      },
+      {
+        "row": 3,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
+      },
+      {
+        "row": 4,
+        "rowsha": "UAh/ADPd+5EAmWnhBNvGh1P/EfTh7EJw8QtR8y4U2ro=",
+        "originContent": "   To make these environment variables permanent, add them to your `.bashrc` file:",
+        "translatedContent": "   Pour rendre ces variables d'environnement permanentes, ajoutez-les à votre fichier `.bashrc` :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```bash\n   # Add environment variables to .bashrc\n   echo 'export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc\n   echo 'export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc\n   \n   # Apply changes\n   source ~/.bashrc\n   ```",
+    "ContentSha": "F1228u5VjfT73bOAUhy1PXRYlX1i3kZKrt1iESew6FA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   # Add environment variables to .bashrc\n   echo 'export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc\n   echo 'export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc\n   \n   # Apply changes\n   source ~/.bashrc\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "dgcr4U8Ikkmi3yhl8pzzDkY1k2vZt4MWN17Xe1PPWfc=",
+        "originContent": "   # Add environment variables to .bashrc",
+        "translatedContent": "   # Add environment variables to .bashrc"
+      },
+      {
+        "row": 3,
+        "rowsha": "z3goYkZLZsJUQsa8ztCdwBzV/JECvNH4NcuBhVdzpn4=",
+        "originContent": "   echo 'export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc",
+        "translatedContent": "   echo 'export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc"
+      },
+      {
+        "row": 4,
+        "rowsha": "e1GM5FuXtfnULQ2W+AAenB5i6ruRdsIP+vmgM/LPVV0=",
+        "originContent": "   echo 'export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc",
+        "translatedContent": "   echo 'export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/' >> ~/.bashrc"
+      },
+      {
+        "row": 5,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
+      },
+      {
+        "row": 6,
+        "rowsha": "bFVNVjxoGxy8KwPVIgBXp5a6DK9ERlkm48dstm/bGUU=",
+        "originContent": "   # Apply changes",
+        "translatedContent": "   # Apply changes"
+      },
+      {
+        "row": 7,
+        "rowsha": "z2qfGPb1v1tU4nEBPqweDWt7yX5kl9cmBsps/mFiV3A=",
+        "originContent": "   source ~/.bashrc",
+        "translatedContent": "   source ~/.bashrc"
+      },
+      {
+        "row": 8,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n   > **Note:** Replace `/your/path/` with your actual installation path.\n\n## Docker Installation\n\nYou can also run the simulation using Docker, which ensures a consistent environment across different systems.\n\n### Prerequisites\n- Docker\n- NVIDIA Container Toolkit (for GPU support)\n\n### Steps to Run with Docker\n\n1. Clone the repository:",
+    "ContentSha": "yglh/LF8fBUqFBLYOP3YrRd+0wYvKJOiOlHnetXPqxM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n   > **Note :** Remplacez `/your/path/` par le chemin réel de votre installation.\n\n## Installation de Docker\n\nVous pouvez également exécuter la simulation en utilisant Docker, ce qui garantit un environnement cohérent sur différents systèmes.\n\n### Prérequis\n- Docker\n- NVIDIA Container Toolkit (pour la prise en charge GPU)\n\n### Étapes pour exécuter avec Docker\n\n1. Clonez le dépôt :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1LAFirjPVSysArBq8MXySkAx2yrPbxCSHcELLG3/04Y=",
+        "originContent": "   > **Note:** Replace `/your/path/` with your actual installation path.",
+        "translatedContent": "   > **Note :** Remplacez `/your/path/` par le chemin réel de votre installation."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "55e7b7fnAVAzlBpT1uLuPR2flE4fdoZahWX6V9Z6Vsc=",
+        "originContent": "## Docker Installation",
+        "translatedContent": "## Installation de Docker"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "7UbSF/bfeNtPA3rSBFFovONhK3gAMcsOZRTmePPAoSM=",
+        "originContent": "You can also run the simulation using Docker, which ensures a consistent environment across different systems.",
+        "translatedContent": "Vous pouvez également exécuter la simulation en utilisant Docker, ce qui garantit un environnement cohérent sur différents systèmes."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### Prérequis"
+      },
+      {
+        "row": 9,
+        "rowsha": "lWlFNH710ZnFqsncRuEyNQThwuspyN82iWRO0I/HUWc=",
+        "originContent": "- Docker",
+        "translatedContent": "- Docker"
+      },
+      {
+        "row": 10,
+        "rowsha": "BTV9Mt4GpQIz8k98IAB+eQWgEld3dGgmnkDyGV8nDeo=",
+        "originContent": "- NVIDIA Container Toolkit (for GPU support)",
+        "translatedContent": "- NVIDIA Container Toolkit (pour la prise en charge GPU)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Lr67tntM1RGbrw0d+pc2acYIx2x3rUlnp+flmEKxtHU=",
+        "originContent": "### Steps to Run with Docker",
+        "translatedContent": "### Étapes pour exécuter avec Docker"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. Clonez le dépôt :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "   ```bash\n   mkdir -p ackermann_sim/src && cd ackermann_sim/src\n   git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2\n   cd ackermann-vehicle-gzsim-ros2\n   ```",
+    "ContentSha": "2Q0Hnp3Mw7YeiAF+JKcbkcUcVv7YBnreXR0qbqH5Fws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   mkdir -p ackermann_sim/src && cd ackermann_sim/src\n   git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2\n   cd ackermann-vehicle-gzsim-ros2\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "P2/cvELwq4JRj3CD+k1yVquPk8fThEO+W7dWpEs3J3Y=",
+        "originContent": "   mkdir -p ackermann_sim/src && cd ackermann_sim/src",
+        "translatedContent": "   mkdir -p ackermann_sim/src && cd ackermann_sim/src"
+      },
+      {
+        "row": 3,
+        "rowsha": "6VT4/izuVpjd2q9HxYg/Eu9G2R8PKXcFY2JtGz+GxmI=",
+        "originContent": "   git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2",
+        "translatedContent": "   git clone https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2"
+      },
+      {
+        "row": 4,
+        "rowsha": "FnKxZWYPB8yyqreykC4vhtzh2CzQv7+vzPyzEyTOo2Q=",
+        "originContent": "   cd ackermann-vehicle-gzsim-ros2",
+        "translatedContent": "   cd ackermann-vehicle-gzsim-ros2"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n2. Build and run the Docker container:",
+    "ContentSha": "e5kfK+XA2iiO7zlBldgmVHEa2+b8/MR7SX+2+aIVWs0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Construisez et exécutez le conteneur Docker :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0MiAUyluYbnFi7qhQ9eKG8hPUwHf78m47YCRwwZdKqE=",
+        "originContent": "2. Build and run the Docker container:",
+        "translatedContent": "2. Construisez et exécutez le conteneur Docker :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "   ```bash\n      docker run -it \\\n      --name ackermann_sim \\\n      --hostname ackermann_sim \\\n      --env=\"DISPLAY=$DISPLAY\" \\\n      --env=\"QT_X11_NO_MITSHM=1\" \\\n      --volume=\"/tmp/.X11-unix:/tmp/.X11-unix:rw\" \\\n      --privileged alitekes1/ackermann_sim:latest\n   ```",
+    "ContentSha": "5RKIa7/wplrlNoZAIzqaJefeaVRdqJRBb+aB4FIRBwU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n      docker run -it \\\n      --name ackermann_sim \\\n      --hostname ackermann_sim \\\n      --env=\"DISPLAY=$DISPLAY\" \\\n      --env=\"QT_X11_NO_MITSHM=1\" \\\n      --volume=\"/tmp/.X11-unix:/tmp/.X11-unix:rw\" \\\n      --privileged alitekes1/ackermann_sim:latest\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "VpK9qvpq7PutRJLNzOi6d7hAMW7dLOXRwhTDDj9GufQ=",
+        "originContent": "      docker run -it \\",
+        "translatedContent": "      docker run -it \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "TSJYhNutS/crqt1WemFCbHRAKpe/7rrh0I1FujDgBoA=",
+        "originContent": "      --name ackermann_sim \\",
+        "translatedContent": "      --name ackermann_sim \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "QXZxDwfu1c2yZpa3ycGPc3+I3fg7RSYIxllU/3LtYwE=",
+        "originContent": "      --hostname ackermann_sim \\",
+        "translatedContent": "      --hostname ackermann_sim \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "N1igRLKuZB/l2r1ZBH05w43KnxW4JGLA+lzNN+4iahc=",
+        "originContent": "      --env=\"DISPLAY=$DISPLAY\" \\",
+        "translatedContent": "      --env=\"DISPLAY=$DISPLAY\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "neAYnt6R/qCvXgXS2vTuz44EZ4IP27xXWAb4QeBh0QM=",
+        "originContent": "      --env=\"QT_X11_NO_MITSHM=1\" \\",
+        "translatedContent": "      --env=\"QT_X11_NO_MITSHM=1\" \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "iaYMVHTW8uObtOaLdvzES/RMAj6kcP2hzIK4sD2VIm4=",
+        "originContent": "      --volume=\"/tmp/.X11-unix:/tmp/.X11-unix:rw\" \\",
+        "translatedContent": "      --volume=\"/tmp/.X11-unix:/tmp/.X11-unix:rw\" \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "bnBw8Izsq3VzA0WnY5tlNSKV9mBRzX7MObochXgtRzc=",
+        "originContent": "      --privileged alitekes1/ackermann_sim:latest",
+        "translatedContent": "      --privileged alitekes1/ackermann_sim:latest"
+      },
+      {
+        "row": 9,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n3. If you want to additional terminal for same container",
+    "ContentSha": "TGnOrNxQXjH2VRUe1uEllkZfm37TktHs/auqDV76pHk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Si vous souhaitez un terminal supplémentaire pour le même conteneur\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Si vous souhaitez un terminal supplémentaire pour le même conteneur"
+      },
+      {
+        "row": 2,
+        "rowsha": "ErHvvV/NJL233nQfikwPdl30UjlgfDbC9Y7KeI2rCoQ=",
+        "originContent": "3. If you want to additional terminal for same container",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "   ```bash\n      docker exec -it ackermann_sim bash\n   ```",
+    "ContentSha": "S9G1Y8xq2Ak539dkfbfkNCUUbSfE7EfIXOXKP4LvrGo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n      docker exec -it ackermann_sim bash\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "h1gfMUw/C24AXmencR+tuYSX6MFm/LBW5x6POrHHNgo=",
+        "originContent": "      docker exec -it ackermann_sim bash",
+        "translatedContent": "      docker exec -it ackermann_sim bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n   \n> **Note:** Inside the container, you can run the simulation commands as normal.\n\n## Usage\n\n### 1. Basic Simulation and Manual Control\n\n1.  Launch the simulation:",
+    "ContentSha": "+HFVcr2u+NeqW29vTCVmeDm0Ds5PnLi/C1MWdZQrppw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   \n> **Remarque :** À l'intérieur du conteneur, vous pouvez exécuter les commandes de simulation normalement.\n\n## Utilisation\n\n### 1. Simulation de base et contrôle manuel\n\n1.  Lancer la simulation :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   "
+      },
+      {
+        "row": 2,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "> **Remarque :** À l'intérieur du conteneur, vous pouvez exécuter les commandes de simulation normalement."
+      },
+      {
+        "row": 3,
+        "rowsha": "Kii95FsAqACnpc2UZLOV0ftnYuJPMPHhXCsjhvzQwQY=",
+        "originContent": "> **Note:** Inside the container, you can run the simulation commands as normal.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Utilisation"
+      },
+      {
+        "row": 5,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. Simulation de base et contrôle manuel"
+      },
+      {
+        "row": 7,
+        "rowsha": "tSx3o+tExbRs8ZjVbBMFwnU+74Zp2vJrSyrIFlu3Mqc=",
+        "originContent": "### 1. Basic Simulation and Manual Control",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1.  Lancer la simulation :"
+      },
+      {
+        "row": 9,
+        "rowsha": "CN5r/NCtMmu0eJL+Uy0Qq6BQDMIaTB94S1cS3qGBK0c=",
+        "originContent": "1.  Launch the simulation:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "    ```bash\n    ros2 launch saye_bringup saye_spawn.launch.py\n    ```",
+    "ContentSha": "t+uxoSLt25BRYmBNNLFSC83VLSbIJ48TL5OMav0ERkg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    ros2 launch saye_bringup saye_spawn.launch.py\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rRW9ng9nTLUL8pbU9y0mfqVLTQRtZ/o0n+S6LdJpfgI=",
+        "originContent": "    ros2 launch saye_bringup saye_spawn.launch.py",
+        "translatedContent": "    ros2 launch saye_bringup saye_spawn.launch.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "2.  Control car:",
+    "ContentSha": "8Q7rrjB2GMIXdcKBCqekmdkch2Y9yHf1oUMtFZXd/uM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2.  Voiture de contrôle :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8Q7rrjB2GMIXdcKBCqekmdkch2Y9yHf1oUMtFZXd/uM=",
+        "originContent": "2.  Control car:",
+        "translatedContent": "2.  Voiture de contrôle :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "    ```bash\n    ros2 run teleop_twist_keyboard teleop_twist_keyboard\n    ```",
+    "ContentSha": "yEdeC4NT5rwR0xzogfO/qTg07uxVk4U58sfgu1C+3Iw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    ros2 run teleop_twist_keyboard teleop_twist_keyboard\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "caXXY/XEFA3YONvA0x95Hhfq1SR0BE57MQquj6Yklb8=",
+        "originContent": "    ros2 run teleop_twist_keyboard teleop_twist_keyboard",
+        "translatedContent": "    ros2 run teleop_twist_keyboard teleop_twist_keyboard"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### 2. SLAM (Simultaneous Localization and Mapping)\n\n-   To run SLAM Toolbox for mapping, launch the following after starting the simulation:",
+    "ContentSha": "vUQLUuBBuTUPIiMkJznKHs1Vchnzi9dzpceVFhruRR0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. SLAM (Localisation et Cartographie Simultanées)\n\n-   Pour exécuter SLAM Toolbox pour la cartographie, lancez ce qui suit après avoir démarré la simulation :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nttHo3EK1opPHIM4ilU+OT0FYRSn0igoVfOsiZonATA=",
+        "originContent": "### 2. SLAM (Simultaneous Localization and Mapping)",
+        "translatedContent": "### 2. SLAM (Localisation et Cartographie Simultanées)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "uvQA1OrsVq74hs7YyK6AUTxJUdQVKBxfO0G/sCnrSpo=",
+        "originContent": "-   To run SLAM Toolbox for mapping, launch the following after starting the simulation:",
+        "translatedContent": "-   Pour exécuter SLAM Toolbox pour la cartographie, lancez ce qui suit après avoir démarré la simulation :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "    ```bash\n    ros2 launch saye_bringup slam.launch.py\n    ```",
+    "ContentSha": "Jd4Y+Nv2xmE35/lAevS2tsbJpsuBsC7qVGjXN6N70Ac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    ros2 launch saye_bringup slam.launch.py\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vByA9Ia2Zj9wyguBCaIR4NkOvklNisUFcT2r3xu8hNY=",
+        "originContent": "    ros2 launch saye_bringup slam.launch.py",
+        "translatedContent": "    ros2 launch saye_bringup slam.launch.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "    [![SLAM- Youtube](https://img.youtube.com/vi/QWcJ9TlqFOU/0.jpg)](https://www.youtube.com/watch?v=QWcJ9TlqFOU \"Proje Tanıtımı\")\n\n### 3. Navigation with Nav2\n\n-   To run the simulation with the Nav2 stack for autonomous navigation, launch the following after starting the simulation:",
+    "ContentSha": "0CGDG442iCb0rdQsvVGbc2QjtdcGiB5s7Hqdyx6wxzo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    [![SLAM- Youtube](https://img.youtube.com/vi/QWcJ9TlqFOU/0.jpg)](https://www.youtube.com/watch?v=QWcJ9TlqFOU \"Présentation du projet\")\n\n### 3. Navigation avec Nav2\n\n-   Pour exécuter la simulation avec la pile Nav2 pour la navigation autonome, lancez ce qui suit après avoir démarré la simulation :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ae98OtidWxGgVLZo27Y8HayFYrRTpnC0s+uRwD+538w=",
+        "originContent": "    [![SLAM- Youtube](https://img.youtube.com/vi/QWcJ9TlqFOU/0.jpg)](https://www.youtube.com/watch?v=QWcJ9TlqFOU \"Proje Tanıtımı\")",
+        "translatedContent": "    [![SLAM- Youtube](https://img.youtube.com/vi/QWcJ9TlqFOU/0.jpg)](https://www.youtube.com/watch?v=QWcJ9TlqFOU \"Présentation du projet\")"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "q+BuTpaGZfyaZ27EEGdXvc7yu59Y9NKKyfr4k4pFZK4=",
+        "originContent": "### 3. Navigation with Nav2",
+        "translatedContent": "### 3. Navigation avec Nav2"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vjsRJZPNc1nmJ1FJcwCxlI9KjJMUbNXVCT6vLDTiOZM=",
+        "originContent": "-   To run the simulation with the Nav2 stack for autonomous navigation, launch the following after starting the simulation:",
+        "translatedContent": "-   Pour exécuter la simulation avec la pile Nav2 pour la navigation autonome, lancez ce qui suit après avoir démarré la simulation :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "    ```bash\n    ros2 launch saye_bringup navigation_bringup.launch.py\n    ```",
+    "ContentSha": "guK2dZzQ9sodSDTUT0wC80dKz/xPnwcPRoyipDWkWKE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    ros2 launch saye_bringup navigation_bringup.launch.py\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "VJfYNxQoAu7+Bih823WQ89nAiPGTz3e09OJgYnTtHnE=",
+        "originContent": "    ros2 launch saye_bringup navigation_bringup.launch.py",
+        "translatedContent": "    ros2 launch saye_bringup navigation_bringup.launch.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "    [![Autonomus Navigation - Youtube](https://img.youtube.com/vi/SJ4NrbdlNZo/0.jpg)](https://www.youtube.com/watch?v=SJ4NrbdlNZo \"NAV2\")\n\n> **Note:** The YouTube videos above are played at 4x speed. You can reach the videos by click on the images.\n\n## Future Work\n\n1. **3D SLAM Support:**\n   - Train the vehicle to handle complex scenarios autonomously using advanced DRL algorithms.\n2. **Enhanced Features:**\n   - Explore additional sensor configurations and navigation strategies.\n3. **Nav2 entegration with 3D Localization**\n   - Instead of AMCL(2D), more accurate and robust algorithms implementation.\n## Gallery\n\n![Screenshot from 2024-09-23 00-09-48.png](https://github.com/user-attachments/assets/dd5604c6-014e-4a7a-9a2f-c4dd237abb37)\n\n### 3D LiDAR Point Cloud & Environment\n\n| **3D LiDAR Point Cloud Visualization**                             | **Warehouse Environment Model**                                   |\n| ----------------------------------------------------------------- | ----------------------------------------------------------------- |\n| ![3D Point Cloud](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |\n\n### Vehicle & Navigation\n\n| **Gazebo Sim Harmonic**                                                                                                     | **RViz2**                                                                                                                   |\n| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |\n| ![Screenshot from 2024-09-23 00-13-03.png](https://github.com/user-attachments/assets/1d2b56f7-34c1-4b01-9a85-fb01ceab5bd6) | ![Screenshot from 2024-09-23 00-09-04.png](https://github.com/user-attachments/assets/ba6853fd-4143-4b4d-bbc6-072895e4c75e) |\n| ![Screenshot from 2024-09-23 00-12-13.png](https://github.com/user-attachments/assets/477cce7b-995b-471e-a684-4d82bee0fc34) | ![Screenshot from 2024-09-23 00-15-04.png](https://github.com/user-attachments/assets/bf9ad916-14a6-4b62-a799-4169a767e4dd) |\n| ![alt text](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/saye.png)                                                                                         | ![alt text](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/rviz_saye.png)                                                                                    |\n\n## TF Tree\n\n![TF Tree](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/frames.png)\n\n---\n\n## Star History\n\n<a href=\"https://www.star-history.com/#alitekes1/ackermann-vehicle-gzsim-ros2&Date\">\n <picture>",
+    "ContentSha": "RgHc0fV3488trzvxDcktygkngu29gHXvdt8hkORsKWE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    [![Navigation Autonome - Youtube](https://img.youtube.com/vi/SJ4NrbdlNZo/0.jpg)](https://www.youtube.com/watch?v=SJ4NrbdlNZo \"NAV2\")\n\n> **Note :** Les vidéos YouTube ci-dessus sont lues à une vitesse 4x. Vous pouvez accéder aux vidéos en cliquant sur les images.\n\n## Travaux Futurs\n\n1. **Support SLAM 3D :**\n   - Former le véhicule à gérer des scénarios complexes de manière autonome en utilisant des algorithmes DRL avancés.\n2. **Fonctionnalités Améliorées :**\n   - Explorer des configurations de capteurs supplémentaires et des stratégies de navigation.\n3. **Intégration Nav2 avec Localisation 3D**\n   - Au lieu d'AMCL(2D), implémentation d'algorithmes plus précis et robustes.\n## Galerie\n\n![Capture d'écran du 2024-09-23 00-09-48.png](https://github.com/user-attachments/assets/dd5604c6-014e-4a7a-9a2f-c4dd237abb37)\n\n### Nuage de Points LiDAR 3D & Environnement\n\n| **Visualisation du Nuage de Points LiDAR 3D**                             | **Modèle de l'Environnement Entrepôt**                                   |\n| ----------------------------------------------------------------- | ----------------------------------------------------------------- |\n| ![Nuage de Points 3D](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Modèle Entrepôt](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |\n\n### Véhicule & Navigation\n\n| **Simulation Gazebo Harmonic**                                                                                                     | **RViz2**                                                                                                                   |\n| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |\n| ![Capture d'écran du 2024-09-23 00-13-03.png](https://github.com/user-attachments/assets/1d2b56f7-34c1-4b01-9a85-fb01ceab5bd6) | ![Capture d'écran du 2024-09-23 00-09-04.png](https://github.com/user-attachments/assets/ba6853fd-4143-4b4d-bbc6-072895e4c75e) |\n| ![Capture d'écran du 2024-09-23 00-12-13.png](https://github.com/user-attachments/assets/477cce7b-995b-471e-a684-4d82bee0fc34) | ![Capture d'écran du 2024-09-23 00-15-04.png](https://github.com/user-attachments/assets/bf9ad916-14a6-4b62-a799-4169a767e4dd) |\n| ![texte alternatif](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/saye.png)                                                                                         | ![texte alternatif](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/rviz_saye.png)                                                                                    |\n\n## Arbre TF\n\n![Arbre TF](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/frames.png)\n\n---\n\n## Historique des Étoiles\n\n<a href=\"https://www.star-history.com/#alitekes1/ackermann-vehicle-gzsim-ros2&Date\">\n <picture>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZBC04Xhc+hF5o1cOFsS28lqAf5/bH8+JQkGXXX1l0Vc=",
+        "originContent": "    [![Autonomus Navigation - Youtube](https://img.youtube.com/vi/SJ4NrbdlNZo/0.jpg)](https://www.youtube.com/watch?v=SJ4NrbdlNZo \"NAV2\")",
+        "translatedContent": "    [![Navigation Autonome - Youtube](https://img.youtube.com/vi/SJ4NrbdlNZo/0.jpg)](https://www.youtube.com/watch?v=SJ4NrbdlNZo \"NAV2\")"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "3Ph0vdSuT2InwYR9Sp7IVMvtinkEcuTMbF1NoKe2Wpw=",
+        "originContent": "> **Note:** The YouTube videos above are played at 4x speed. You can reach the videos by click on the images.",
+        "translatedContent": "> **Note :** Les vidéos YouTube ci-dessus sont lues à une vitesse 4x. Vous pouvez accéder aux vidéos en cliquant sur les images."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "drOjl7o9iyF0P5Pyx4tJFUoMZ1AVrUex0QEMr3RQvJI=",
+        "originContent": "## Future Work",
+        "translatedContent": "## Travaux Futurs"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ID0Ko8UOvQUNWiRhaV0qG97T2l/8K29Hf50Ob6LXUMo=",
+        "originContent": "1. **3D SLAM Support:**",
+        "translatedContent": "1. **Support SLAM 3D :**"
+      },
+      {
+        "row": 8,
+        "rowsha": "HiOeQaMPGf07LnLOIysw8LzShTMN7mnW7Vu16BbEW+Q=",
+        "originContent": "   - Train the vehicle to handle complex scenarios autonomously using advanced DRL algorithms.",
+        "translatedContent": "   - Former le véhicule à gérer des scénarios complexes de manière autonome en utilisant des algorithmes DRL avancés."
+      },
+      {
+        "row": 9,
+        "rowsha": "0Jr/7h1qyVG70VdhW8+/qT7v6RPqzbmVEyITPNS4B7U=",
+        "originContent": "2. **Enhanced Features:**",
+        "translatedContent": "2. **Fonctionnalités Améliorées :**"
+      },
+      {
+        "row": 10,
+        "rowsha": "gqt9PFLXwIGcdjfjb/XiIQ2ZDWrhnPrvqIUNvVkXUPs=",
+        "originContent": "   - Explore additional sensor configurations and navigation strategies.",
+        "translatedContent": "   - Explorer des configurations de capteurs supplémentaires et des stratégies de navigation."
+      },
+      {
+        "row": 11,
+        "rowsha": "8ZNuy+43Gz2HntCKzmK5FGS3K7xoTl0SdPlhuKU992Y=",
+        "originContent": "3. **Nav2 entegration with 3D Localization**",
+        "translatedContent": "3. **Intégration Nav2 avec Localisation 3D**"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZqhXqQnpj/ZlPQCQzbrQZ7d/fzTzd+Q8Nua6vzsamkY=",
+        "originContent": "   - Instead of AMCL(2D), more accurate and robust algorithms implementation.",
+        "translatedContent": "   - Au lieu d'AMCL(2D), implémentation d'algorithmes plus précis et robustes."
+      },
+      {
+        "row": 13,
+        "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+        "originContent": "## Gallery",
+        "translatedContent": "## Galerie"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "YahA3VEbs9boKw9zZUhuKevqkAcOwxdDNdu4kE7OOVY=",
+        "originContent": "![Screenshot from 2024-09-23 00-09-48.png](https://github.com/user-attachments/assets/dd5604c6-014e-4a7a-9a2f-c4dd237abb37)",
+        "translatedContent": "![Capture d'écran du 2024-09-23 00-09-48.png](https://github.com/user-attachments/assets/dd5604c6-014e-4a7a-9a2f-c4dd237abb37)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "q48+fNpoCqqrFHo//bNIoCyuAYrdtaiPW0SPAifNux0=",
+        "originContent": "### 3D LiDAR Point Cloud & Environment",
+        "translatedContent": "### Nuage de Points LiDAR 3D & Environnement"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "IZ42eNeCkAWPuTZyYIQaj4UqCzk+pZBeGdYSwaauQg8=",
+        "originContent": "| **3D LiDAR Point Cloud Visualization**                             | **Warehouse Environment Model**                                   |",
+        "translatedContent": "| **Visualisation du Nuage de Points LiDAR 3D**                             | **Modèle de l'Environnement Entrepôt**                                   |"
+      },
+      {
+        "row": 20,
+        "rowsha": "8MK/7CPqT96t1FktK1btIPm2gXm96IiFd7HsNSA5jNw=",
+        "originContent": "| ----------------------------------------------------------------- | ----------------------------------------------------------------- |",
+        "translatedContent": "| ----------------------------------------------------------------- | ----------------------------------------------------------------- |"
+      },
+      {
+        "row": 21,
+        "rowsha": "z/7ITN4JM1r0ITB8nHmbcElDSJqetS8nzkfha5oNLyo=",
+        "originContent": "| ![3D Point Cloud](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |",
+        "translatedContent": "| ![Nuage de Points 3D](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Modèle Entrepôt](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/warehouse_environment.png) |"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "HDgfB55wb+0DaWJ7JC90CLq0I56lszaLOGvY5ghjU/Q=",
+        "originContent": "### Vehicle & Navigation",
+        "translatedContent": "### Véhicule & Navigation"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "aO0GiyY6VBEg4XyZqppZTfmxkQTLiDE8LT9V+Ioyc8U=",
+        "originContent": "| **Gazebo Sim Harmonic**                                                                                                     | **RViz2**                                                                                                                   |",
+        "translatedContent": "| **Simulation Gazebo Harmonic**                                                                                                     | **RViz2**                                                                                                                   |"
+      },
+      {
+        "row": 26,
+        "rowsha": "OTc5nQC6Qv2kLDmpMCxhLdZlUaZvncEXVBLz7FE3uw4=",
+        "originContent": "| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 27,
+        "rowsha": "fc4SXpyglTp8clrWX6f4ZW1DVw0lJQVA8ZAF2rqz7II=",
+        "originContent": "| ![Screenshot from 2024-09-23 00-13-03.png](https://github.com/user-attachments/assets/1d2b56f7-34c1-4b01-9a85-fb01ceab5bd6) | ![Screenshot from 2024-09-23 00-09-04.png](https://github.com/user-attachments/assets/ba6853fd-4143-4b4d-bbc6-072895e4c75e) |",
+        "translatedContent": "| ![Capture d'écran du 2024-09-23 00-13-03.png](https://github.com/user-attachments/assets/1d2b56f7-34c1-4b01-9a85-fb01ceab5bd6) | ![Capture d'écran du 2024-09-23 00-09-04.png](https://github.com/user-attachments/assets/ba6853fd-4143-4b4d-bbc6-072895e4c75e) |"
+      },
+      {
+        "row": 28,
+        "rowsha": "SJ42dvcl99quB91HB+tTjGkGXUJmT8FLIW9AAD618bQ=",
+        "originContent": "| ![Screenshot from 2024-09-23 00-12-13.png](https://github.com/user-attachments/assets/477cce7b-995b-471e-a684-4d82bee0fc34) | ![Screenshot from 2024-09-23 00-15-04.png](https://github.com/user-attachments/assets/bf9ad916-14a6-4b62-a799-4169a767e4dd) |",
+        "translatedContent": "| ![Capture d'écran du 2024-09-23 00-12-13.png](https://github.com/user-attachments/assets/477cce7b-995b-471e-a684-4d82bee0fc34) | ![Capture d'écran du 2024-09-23 00-15-04.png](https://github.com/user-attachments/assets/bf9ad916-14a6-4b62-a799-4169a767e4dd) |"
+      },
+      {
+        "row": 29,
+        "rowsha": "66MLr0SuxwSkRRugtpInkHRm97tEuVTnUEVT9syeCI0=",
+        "originContent": "| ![alt text](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/saye.png)                                                                                         | ![alt text](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/rviz_saye.png)                                                                                    |",
+        "translatedContent": "| ![texte alternatif](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/saye.png)                                                                                         | ![texte alternatif](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/rviz_saye.png)                                                                                    |"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "tqj3UPTYM+1V7jaHZXsCDVkX9xAp2OCqt0H/ulWLdj0=",
+        "originContent": "## TF Tree",
+        "translatedContent": "## Arbre TF"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "w8puFP71ZTgPhiwwODhLtozzAWzn/nRZq4Or+muuRd0=",
+        "originContent": "![TF Tree](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/frames.png)",
+        "translatedContent": "![Arbre TF](https://raw.githubusercontent.com/alitekes1/ackermann-vehicle-gzsim-ros2/main/saye_msgs/readme_files/frames.png)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Historique des Étoiles"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "LwNY3vBbrKOaIxp6ilL2N6AFd0tzhsOdqCPj6mx5YbQ=",
+        "originContent": "<a href=\"https://www.star-history.com/#alitekes1/ackermann-vehicle-gzsim-ros2&Date\">",
+        "translatedContent": "<a href=\"https://www.star-history.com/#alitekes1/ackermann-vehicle-gzsim-ros2&Date\">"
+      },
+      {
+        "row": 40,
+        "rowsha": "TFdaG2cyM78Bclocz/GopuysT4bztU94JJRzBZs2Vn0=",
+        "originContent": " <picture>",
+        "translatedContent": " <picture>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />\n </picture>\n</a>\n",
+    "ContentSha": "eh76e/8krIQjVIJUzcvwUf+ksfdEVr7rwp8AfHACnEI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />\n   <img alt=\"Graphique de l'historique des étoiles\" src=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />\n </picture>\n</a>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "406H5AocFYPkOb3Ol3V64JlHECQE23G+c1AaHDLy2f8=",
+        "originContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />"
+      },
+      {
+        "row": 2,
+        "rowsha": "eibawIZ5nhTETgfJRaaQWPir+jbyki6pjyf0bJ5EHgk=",
+        "originContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "giTgPMxD5IJ6W8Kw+76V+uqfmATRuzj/7VCpltph31k=",
+        "originContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />",
+        "translatedContent": "   <img alt=\"Graphique de l'historique des étoiles\" src=\"https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date\" />"
+      },
+      {
+        "row": 4,
+        "rowsha": "hmjVHkUZVe2T5TOA6gV3253XP4pU7SxFtUBDpd9akPA=",
+        "originContent": " </picture>",
+        "translatedContent": " </picture>"
+      },
+      {
+        "row": 5,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
