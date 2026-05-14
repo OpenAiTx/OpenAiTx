@@ -1,0 +1,796 @@
+[
+  {
+    "Id": 1,
+    "Content": "<head><meta name=\"google-site-verification\" content=\"YTr2AYTpsxIQk7KIOlVTOfKr11dqkzZP-gOUiyhPU5s\" />\n<body>\n\n<h1>KOMB: Klipper's Ultimate Brushing Macro</h1>\n\nWelcome to KOMB, the Klipper Optimized Macro for Brushing! This versatile macro streamlines brushing sequences, tailor-made for both bed and gantry mounted brushes. Say goodbye to the hassle of adapting existing macros or creating new ones—now you can harness the full potential of your brush in three dimensions!\n\n<h3> Installation: </h3>\n\nThe cleanest and easiest way to get started with KAMP is to use Moonraker's Update Manager utility. This will allow you to easily install and helps to provide future updates when more features are rolled out!\n\n1. `ssh` into your Klipper device and execute the following commands:",
+    "ContentSha": "0v9x5Yhm5wvlvsuDt6Z7PLSNe6T4U4FTpVd3QcMOq/8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<head><meta name=\"google-site-verification\" content=\"YTr2AYTpsxIQk7KIOlVTOfKr11dqkzZP-gOUiyhPU5s\" />\n<body>\n\n<h1>KOMB: El Macro Definitivo de Cepillado de Klipper</h1>\n\nBienvenido a KOMB, el Macro Optimizado de Klipper para Cepillado! Este macro versátil agiliza las secuencias de cepillado, diseñado tanto para cepillos montados en la cama como en el carro. ¡Di adiós a la molestia de adaptar macros existentes o crear nuevos—ahora puedes aprovechar todo el potencial de tu cepillo en tres dimensiones!\n\n<h3> Instalación: </h3>\n\nLa forma más limpia y sencilla de comenzar con KAMP es usar la utilidad Update Manager de Moonraker. ¡Esto te permitirá instalar fácilmente y ayudará a proporcionar futuras actualizaciones cuando se lancen más funciones!\n\n1. `ssh` en tu dispositivo Klipper y ejecuta los siguientes comandos:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qRZEyuTpPmvL+CidncLywRLgiZZW2i7ijZkzLEyCFqg=",
+        "originContent": "<head><meta name=\"google-site-verification\" content=\"YTr2AYTpsxIQk7KIOlVTOfKr11dqkzZP-gOUiyhPU5s\" />",
+        "translatedContent": "<head><meta name=\"google-site-verification\" content=\"YTr2AYTpsxIQk7KIOlVTOfKr11dqkzZP-gOUiyhPU5s\" />"
+      },
+      {
+        "row": 2,
+        "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+        "originContent": "<body>",
+        "translatedContent": "<body>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZPg8bn4SXPNnrnuJrpXOZKWgMKK1vkqaX1NNS8EnvFA=",
+        "originContent": "<h1>KOMB: Klipper's Ultimate Brushing Macro</h1>",
+        "translatedContent": "<h1>KOMB: El Macro Definitivo de Cepillado de Klipper</h1>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "NcRug7b/Y347Q78UtytnWSZ4mhTMVPB3Qho6Yh3wXP4=",
+        "originContent": "Welcome to KOMB, the Klipper Optimized Macro for Brushing! This versatile macro streamlines brushing sequences, tailor-made for both bed and gantry mounted brushes. Say goodbye to the hassle of adapting existing macros or creating new ones—now you can harness the full potential of your brush in three dimensions!",
+        "translatedContent": "Bienvenido a KOMB, el Macro Optimizado de Klipper para Cepillado! Este macro versátil agiliza las secuencias de cepillado, diseñado tanto para cepillos montados en la cama como en el carro. ¡Di adiós a la molestia de adaptar macros existentes o crear nuevos—ahora puedes aprovechar todo el potencial de tu cepillo en tres dimensiones!"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "eBQdVEAMgPAGLpIbrZQgks/ir6KaiE7W4jzSqaIo8PA=",
+        "originContent": "<h3> Installation: </h3>",
+        "translatedContent": "<h3> Instalación: </h3>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "5sogd7K2RN2baVCf+ZbYcngYl875aJVPCSLv84VgLho=",
+        "originContent": "The cleanest and easiest way to get started with KAMP is to use Moonraker's Update Manager utility. This will allow you to easily install and helps to provide future updates when more features are rolled out!",
+        "translatedContent": "La forma más limpia y sencilla de comenzar con KAMP es usar la utilidad Update Manager de Moonraker. ¡Esto te permitirá instalar fácilmente y ayudará a proporcionar futuras actualizaciones cuando se lancen más funciones!"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "TFr3uy9qxGTwdFnu1XkFiLf1UEl42yDdxvo4qfCeMvk=",
+        "originContent": "1. `ssh` into your Klipper device and execute the following commands:",
+        "translatedContent": "1. `ssh` en tu dispositivo Klipper y ejecuta los siguientes comandos:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```bash\n    cd\n    \n    git clone https://github.com/TmRxJD/KOMB    \n\n    ln -s ~/KOMB printer_data/config/KOMB\n\n    cp ~/KOMB/_KOMB_Variables.cfg ~/printer_data/config/KOMB_Variables.cfg\n\n    ```",
+    "ContentSha": "HNEdPRNdJntYJ7ZqOXtlMnBGY4S29Etd9bLuCRT/Z7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n    cd\n    \n    git clone https://github.com/TmRxJD/KOMB    \n\n    ln -s ~/KOMB printer_data/config/KOMB\n\n    cp ~/KOMB/_KOMB_Variables.cfg ~/printer_data/config/KOMB_Variables.cfg\n\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2ntq0xax5G5CWiPMX4eJpz+bXV0Vz8VsLnkvXiHN6bs=",
+        "originContent": "    cd",
+        "translatedContent": "    cd"
+      },
+      {
+        "row": 3,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 4,
+        "rowsha": "vG/3q+3jvYWNY/ODPB+U6xEaarbjDkWDm/PNmK2CcLU=",
+        "originContent": "    git clone https://github.com/TmRxJD/KOMB    ",
+        "translatedContent": "    git clone https://github.com/TmRxJD/KOMB    "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "cgM507Ti/EBynvI7FvAa/b7UbxymIqNUVEPBnQAJyp4=",
+        "originContent": "    ln -s ~/KOMB printer_data/config/KOMB",
+        "translatedContent": "    ln -s ~/KOMB printer_data/config/KOMB"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "/HdKLNG6doBnPUC+WCBkw7mbUaVESquzCtHTdNR6imM=",
+        "originContent": "    cp ~/KOMB/_KOMB_Variables.cfg ~/printer_data/config/KOMB_Variables.cfg",
+        "translatedContent": "    cp ~/KOMB/_KOMB_Variables.cfg ~/printer_data/config/KOMB_Variables.cfg"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Open your `moonraker.conf` file and add this configuration:",
+    "ContentSha": "IvtVmxQndeTeR3FibbHJNIrxfApYHgSjxdhcJENsF20=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Abre tu archivo `moonraker.conf` y añade esta configuración:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Abre tu archivo `moonraker.conf` y añade esta configuración:"
+      },
+      {
+        "row": 2,
+        "rowsha": "T4MD5P/z/XPiQr6UElY8iLYWGWmrVSeKlfAnVFvL3Mc=",
+        "originContent": "2. Open your `moonraker.conf` file and add this configuration:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```yaml\n   [update_manager KOMB]\n   type: git_repo\n   channel: dev\n   path: ~/KOMB\n   origin: https://github.com/TmRxJD/KOMB\n   managed_services: klipper\n   primary_branch: main\n    ```",
+    "ContentSha": "5bSbx+5bF9fYOwIijpspSUXbi+dWMOHd+7S7PldiGjM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```yaml\n   [update_manager KOMB]\n   type: git_repo\n   channel: dev\n   path: ~/KOMB\n   origin: https://github.com/TmRxJD/KOMB\n   managed_services: klipper\n   primary_branch: main\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "d4Nh96RDflJXS7qID6zX8Ei83ADY0SnevUcR/0fljQM=",
+        "originContent": "   ```yaml",
+        "translatedContent": "   ```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "0sG+elocm0vSnS+3zuti6dZhJ18KsSfHhYKlLz6PN/s=",
+        "originContent": "   [update_manager KOMB]",
+        "translatedContent": "   [update_manager KOMB]"
+      },
+      {
+        "row": 3,
+        "rowsha": "gRFCD2zRYxGDHBUA0ZJ8pabcjdDM0CpbGlNzboocxlw=",
+        "originContent": "   type: git_repo",
+        "translatedContent": "   type: git_repo"
+      },
+      {
+        "row": 4,
+        "rowsha": "5wLhkKIXrpKuRlaQN/sq+VReSj3L3mqHTSe8hSCNQoA=",
+        "originContent": "   channel: dev",
+        "translatedContent": "   channel: dev"
+      },
+      {
+        "row": 5,
+        "rowsha": "BWJiNrCreSs9LgLrhL/dSfAYQU9N/F8wBCSKuimvK04=",
+        "originContent": "   path: ~/KOMB",
+        "translatedContent": "   path: ~/KOMB"
+      },
+      {
+        "row": 6,
+        "rowsha": "OAiQ+0jXE31vkFOs+VN8W4HFG7cB8USJmKWZCLJ4a0c=",
+        "originContent": "   origin: https://github.com/TmRxJD/KOMB",
+        "translatedContent": "   origin: https://github.com/TmRxJD/KOMB"
+      },
+      {
+        "row": 7,
+        "rowsha": "TkBe+0T1y0H3VqrCoJn48SpGBJ4vqXzGMGCBkFy/kC8=",
+        "originContent": "   managed_services: klipper",
+        "translatedContent": "   managed_services: klipper"
+      },
+      {
+        "row": 8,
+        "rowsha": "NWsfQmklGnnlRxhPI0xA/gq6zOZmycvrj91V7qfX6eQ=",
+        "originContent": "   primary_branch: main",
+        "translatedContent": "   primary_branch: main"
+      },
+      {
+        "row": 9,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n    > **Note:**\n    > Whenever Moonraker configurations are changed, it must be restarted for changes to take effect. If you do not want moonraker to notify you of future updates to KAMP, feel free to skip this.\n\n3. Optionally, include KOMB_Purge.cfg in your KOMB_Variables.cfg to use the macro there. \n\n<h3>Features and Functionality</h3>\n\nFlexible Movement: KOMB's default motion sweeps from bottom left corner to right, but you can effortlessly customize movement along various axes and directions. Even use it mid-print depending on your printer and brush placement.\n\nDiverse Patterns: Currently supports diagonal and circular sweeps (requires gcode_arcs enabled), KOMB's repertoire will soon expand to include more patterns.\n\n3 Dimensional Brushing: Take advantage of the entire area and depth possible of your brush to ensure a cleaner nozzle with more consistent performance, you can be rest assured your nozzle will be clean every time. Nozzle can lower into the brush step by step to allow more nozzle surface area to reach the brush.\n\nUse it Mid Print: with KOMB trigger you can use the macro as often as you like over the course of your print, ensuring your nozzle stays clean for the entire duration.\n\n<h3>Adjustable Brush Parameters: Tweak variables for precise control</h3>\n* Specify your brush location in (X, Y, Z), as well as the size and depth in millimeters <br>\n* Step size: Distance between diagonal or circular strokes <br>\n* Z-step: Descend after each iteration when using repeat. Set to 0 to disable. <br>\n* Offset: Allows you to start and end movements outside the bounds of the brush, or to stay more confined within use a negative value for this <br>\n* Repeat count: Specify how many times you want the pattern to iterate <br>\n* Reverse: Enable to repeat the pattern back to the start in reverse before next repetition. If disabled nozzle will travel straight back to start after pattern <br>\n* Start on Opposite and/or Adjacent side: If opposite side is enabled, nozzle will move from right to left. If adjacent is enabled, nozzle will move along the opposite axis and start on the bottom moving up. If both opposite and adjacent are enabled, nozzle will move from top to bottom. <br>\n* Variable Speed: Specify speed in mm/s and increase or decrease the speed with each repitition. Also can control travel speed to brush <br>\n* Patterns: Pick between different brushing patters, currently diagonals and circles are supported. (If you still wish to use a classic horizontal pattern you can, just set the brush size on the opposite axis to 0. If you still want it to be able to step set the angle to 0) <br>\n* Angle: specify the angle of the diagonal strokes when using pattern 1, default recommended angle is 45 <br>\n* Auto Heat: Enable and specify a minimum temperature to allow brushing at and automatically preheat to this temp before brushing <br>\n* Auto Home: Automatically home printhead if needed. Will only home if not already. <br>\n* Retraction: Configure retraction before, during, and after brushing. <br>\n* Z Hop: Specify a height to raise nozzle to before moving to brush location and then lowering. Set to 0 to disable.<br>\n* Verbose Feedback: Enable verbose console output for comprehensive insights into the brushing process, including axis values, calculations, and positioning points. <br>\n\n<h4>KOMB Trigger</h4>\n",
+    "ContentSha": "kWp0OZBritHYR5EGqFaEXDE1T9OCx0DoRP2iMKycRZo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n    > **Nota:**\n    > Cada vez que se cambian las configuraciones de Moonraker, debe reiniciarse para que los cambios tengan efecto. Si no desea que Moonraker le notifique sobre futuras actualizaciones de KAMP, puede omitir este paso.\n\n3. Opcionalmente, incluya KOMB_Purge.cfg en su KOMB_Variables.cfg para usar la macro allí.\n\n<h3>Características y Funcionalidad</h3>\n\nMovimiento Flexible: El movimiento predeterminado de KOMB barre desde la esquina inferior izquierda hacia la derecha, pero puede personalizar fácilmente el movimiento a lo largo de varios ejes y direcciones. Incluso úselo durante la impresión dependiendo de su impresora y la colocación del cepillo.\n\nPatrones Diversos: Actualmente soporta barridos diagonales y circulares (requiere gcode_arcs habilitado), el repertorio de KOMB pronto se expandirá para incluir más patrones.\n\nCepillado Tridimensional: Aproveche toda el área y la profundidad posible de su cepillo para asegurar una boquilla más limpia con un rendimiento más consistente, puede estar seguro de que su boquilla estará limpia cada vez. La boquilla puede descender en el cepillo paso a paso para permitir que más superficie de la boquilla alcance el cepillo.\n\nÚselo Durante la Impresión: con el disparador KOMB puede usar la macro tantas veces como desee durante el curso de su impresión, asegurando que su boquilla se mantenga limpia durante toda la duración.\n\n<h3>Parámetros Ajustables del Cepillo: Ajuste variables para un control preciso</h3>\n* Especifique la ubicación de su cepillo en (X, Y, Z), así como el tamaño y profundidad en milímetros <br>\n* Tamaño del paso: Distancia entre las pasadas diagonales o circulares <br>\n* Paso Z: Descender después de cada iteración al usar repetición. Poner en 0 para desactivar. <br>\n* Desplazamiento: Permite iniciar y terminar movimientos fuera de los límites del cepillo, o para permanecer más confinado dentro use un valor negativo para esto <br>\n* Número de repeticiones: Especifique cuántas veces desea que el patrón se repita <br>\n* Invertir: Habilite para repetir el patrón de regreso al inicio en reversa antes de la siguiente repetición. Si está deshabilitado la boquilla viajará directamente de regreso al inicio después del patrón <br>\n* Comenzar en lado opuesto y/o adyacente: Si el lado opuesto está habilitado, la boquilla se moverá de derecha a izquierda. Si el adyacente está habilitado, la boquilla se moverá a lo largo del eje opuesto y comenzará desde abajo hacia arriba. Si ambos, opuesto y adyacente están habilitados, la boquilla se moverá de arriba hacia abajo. <br>\n* Velocidad Variable: Especifique la velocidad en mm/s e incremente o disminuya la velocidad con cada repetición. También puede controlar la velocidad de desplazamiento al cepillo <br>\n* Patrones: Elija entre diferentes patrones de cepillado, actualmente se soportan diagonales y círculos. (Si aún desea usar un patrón horizontal clásico puede hacerlo, solo configure el tamaño del cepillo en el eje opuesto a 0. Si aún quiere que pueda avanzar configure el ángulo a 0) <br>\n* Ángulo: especifique el ángulo de las pasadas diagonales al usar el patrón 1, el ángulo recomendado por defecto es 45 <br>\n* Calentamiento Automático: Habilite y especifique una temperatura mínima para permitir el cepillado y calentar automáticamente a esta temperatura antes de cepillar <br>\n* Auto Home: Lleva automáticamente el cabezal de impresión a casa si es necesario. Solo hará home si no está ya en posición. <br>\n* Retracción: Configure la retracción antes, durante y después del cepillado. <br>\n* Salto Z: Especifique una altura para elevar la boquilla antes de moverse a la ubicación del cepillo y luego descender. Poner en 0 para desactivar.<br>\n* Retroalimentación Detallada: Habilite salida detallada en consola para obtener información completa sobre el proceso de cepillado, incluyendo valores de ejes, cálculos y puntos de posicionamiento. <br>\n\n<h4>Disparador KOMB</h4>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8c15H70enFrIfDOzyQ0CguiaW/3NzxOLc48oW1Ev5mE=",
+        "originContent": "    > **Note:**",
+        "translatedContent": "    > **Nota:**"
+      },
+      {
+        "row": 3,
+        "rowsha": "zUC+omwS1O8/2dB4NHgfyOJ8RtnwYD/bc63QAE7fz2s=",
+        "originContent": "    > Whenever Moonraker configurations are changed, it must be restarted for changes to take effect. If you do not want moonraker to notify you of future updates to KAMP, feel free to skip this.",
+        "translatedContent": "    > Cada vez que se cambian las configuraciones de Moonraker, debe reiniciarse para que los cambios tengan efecto. Si no desea que Moonraker le notifique sobre futuras actualizaciones de KAMP, puede omitir este paso."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tvSIsEW0VaLqCXWAGJGK4nVFGgdbwO1K4sze0uw2u44=",
+        "originContent": "3. Optionally, include KOMB_Purge.cfg in your KOMB_Variables.cfg to use the macro there. ",
+        "translatedContent": "3. Opcionalmente, incluya KOMB_Purge.cfg en su KOMB_Variables.cfg para usar la macro allí."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nBP98xwmfTsM3MBAgLX4XlVdJp/PQ4zGZdnAghs9d30=",
+        "originContent": "<h3>Features and Functionality</h3>",
+        "translatedContent": "<h3>Características y Funcionalidad</h3>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "3BdO/qSkvZbze+w47BOzAapqA1oQp6sibzqswY9Nhc8=",
+        "originContent": "Flexible Movement: KOMB's default motion sweeps from bottom left corner to right, but you can effortlessly customize movement along various axes and directions. Even use it mid-print depending on your printer and brush placement.",
+        "translatedContent": "Movimiento Flexible: El movimiento predeterminado de KOMB barre desde la esquina inferior izquierda hacia la derecha, pero puede personalizar fácilmente el movimiento a lo largo de varios ejes y direcciones. Incluso úselo durante la impresión dependiendo de su impresora y la colocación del cepillo."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VJefGoSiOHCFXQ5xFCywQ8ZhDL/mWmFzz3m4YUObn/8=",
+        "originContent": "Diverse Patterns: Currently supports diagonal and circular sweeps (requires gcode_arcs enabled), KOMB's repertoire will soon expand to include more patterns.",
+        "translatedContent": "Patrones Diversos: Actualmente soporta barridos diagonales y circulares (requiere gcode_arcs habilitado), el repertorio de KOMB pronto se expandirá para incluir más patrones."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "oOe3lP9WR2YyD7wUxQqMUFQQdKNm3ClM5H3lELt7oMc=",
+        "originContent": "3 Dimensional Brushing: Take advantage of the entire area and depth possible of your brush to ensure a cleaner nozzle with more consistent performance, you can be rest assured your nozzle will be clean every time. Nozzle can lower into the brush step by step to allow more nozzle surface area to reach the brush.",
+        "translatedContent": "Cepillado Tridimensional: Aproveche toda el área y la profundidad posible de su cepillo para asegurar una boquilla más limpia con un rendimiento más consistente, puede estar seguro de que su boquilla estará limpia cada vez. La boquilla puede descender en el cepillo paso a paso para permitir que más superficie de la boquilla alcance el cepillo."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "EyHjvcSiltBJIQ9Lf7x1OFoxKOuxCeibjbXOOj1Lss4=",
+        "originContent": "Use it Mid Print: with KOMB trigger you can use the macro as often as you like over the course of your print, ensuring your nozzle stays clean for the entire duration.",
+        "translatedContent": "Úselo Durante la Impresión: con el disparador KOMB puede usar la macro tantas veces como desee durante el curso de su impresión, asegurando que su boquilla se mantenga limpia durante toda la duración."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "k6vfRfL+YwVpXMOGvR0BW9w/QFyS1nWUmlM0YW8TYVE=",
+        "originContent": "<h3>Adjustable Brush Parameters: Tweak variables for precise control</h3>",
+        "translatedContent": "<h3>Parámetros Ajustables del Cepillo: Ajuste variables para un control preciso</h3>"
+      },
+      {
+        "row": 18,
+        "rowsha": "vMyaHhh8ILYP9f6xzD4eqVhuQ8PWyaEjMl2tbBm5g64=",
+        "originContent": "* Specify your brush location in (X, Y, Z), as well as the size and depth in millimeters <br>",
+        "translatedContent": "* Especifique la ubicación de su cepillo en (X, Y, Z), así como el tamaño y profundidad en milímetros <br>"
+      },
+      {
+        "row": 19,
+        "rowsha": "dJqjhiZOmFqHN6ZCBm/b6yzqsXfmwgFZ4S1TIiNjyUc=",
+        "originContent": "* Step size: Distance between diagonal or circular strokes <br>",
+        "translatedContent": "* Tamaño del paso: Distancia entre las pasadas diagonales o circulares <br>"
+      },
+      {
+        "row": 20,
+        "rowsha": "5FsFPvLODp9i2yivyoiWkGaGr/GctAwvsNjK/G3PqSs=",
+        "originContent": "* Z-step: Descend after each iteration when using repeat. Set to 0 to disable. <br>",
+        "translatedContent": "* Paso Z: Descender después de cada iteración al usar repetición. Poner en 0 para desactivar. <br>"
+      },
+      {
+        "row": 21,
+        "rowsha": "kPhiGXlq43fKM44HwFoCDAUCiB1mCKvd7r6k6QIGSK8=",
+        "originContent": "* Offset: Allows you to start and end movements outside the bounds of the brush, or to stay more confined within use a negative value for this <br>",
+        "translatedContent": "* Desplazamiento: Permite iniciar y terminar movimientos fuera de los límites del cepillo, o para permanecer más confinado dentro use un valor negativo para esto <br>"
+      },
+      {
+        "row": 22,
+        "rowsha": "As21QDnLxfi2PHmrTMq1iZr5nwyXZi9EX62dPXDte08=",
+        "originContent": "* Repeat count: Specify how many times you want the pattern to iterate <br>",
+        "translatedContent": "* Número de repeticiones: Especifique cuántas veces desea que el patrón se repita <br>"
+      },
+      {
+        "row": 23,
+        "rowsha": "H51NNfY/POost/eHtD8ZzZPk5lyrXSea72i8gynJbZA=",
+        "originContent": "* Reverse: Enable to repeat the pattern back to the start in reverse before next repetition. If disabled nozzle will travel straight back to start after pattern <br>",
+        "translatedContent": "* Invertir: Habilite para repetir el patrón de regreso al inicio en reversa antes de la siguiente repetición. Si está deshabilitado la boquilla viajará directamente de regreso al inicio después del patrón <br>"
+      },
+      {
+        "row": 24,
+        "rowsha": "WdWfTxw9vW25c4oaoaYoI3+hhKTMCONfP+MG+hB2fh4=",
+        "originContent": "* Start on Opposite and/or Adjacent side: If opposite side is enabled, nozzle will move from right to left. If adjacent is enabled, nozzle will move along the opposite axis and start on the bottom moving up. If both opposite and adjacent are enabled, nozzle will move from top to bottom. <br>",
+        "translatedContent": "* Comenzar en lado opuesto y/o adyacente: Si el lado opuesto está habilitado, la boquilla se moverá de derecha a izquierda. Si el adyacente está habilitado, la boquilla se moverá a lo largo del eje opuesto y comenzará desde abajo hacia arriba. Si ambos, opuesto y adyacente están habilitados, la boquilla se moverá de arriba hacia abajo. <br>"
+      },
+      {
+        "row": 25,
+        "rowsha": "QpIuZ3nNq2+l8cwedOq4ADEFQJVrnnlY06qz3Vo+TJU=",
+        "originContent": "* Variable Speed: Specify speed in mm/s and increase or decrease the speed with each repitition. Also can control travel speed to brush <br>",
+        "translatedContent": "* Velocidad Variable: Especifique la velocidad en mm/s e incremente o disminuya la velocidad con cada repetición. También puede controlar la velocidad de desplazamiento al cepillo <br>"
+      },
+      {
+        "row": 26,
+        "rowsha": "KygJhJdTQFavTaiPNq9ziV4SjxFyowmPX/vB/ARChgU=",
+        "originContent": "* Patterns: Pick between different brushing patters, currently diagonals and circles are supported. (If you still wish to use a classic horizontal pattern you can, just set the brush size on the opposite axis to 0. If you still want it to be able to step set the angle to 0) <br>",
+        "translatedContent": "* Patrones: Elija entre diferentes patrones de cepillado, actualmente se soportan diagonales y círculos. (Si aún desea usar un patrón horizontal clásico puede hacerlo, solo configure el tamaño del cepillo en el eje opuesto a 0. Si aún quiere que pueda avanzar configure el ángulo a 0) <br>"
+      },
+      {
+        "row": 27,
+        "rowsha": "nrBryp1GE8R2kIMmI1H1nh86bltk491OcE7LXIw/2bM=",
+        "originContent": "* Angle: specify the angle of the diagonal strokes when using pattern 1, default recommended angle is 45 <br>",
+        "translatedContent": "* Ángulo: especifique el ángulo de las pasadas diagonales al usar el patrón 1, el ángulo recomendado por defecto es 45 <br>"
+      },
+      {
+        "row": 28,
+        "rowsha": "/V9Y89JtPdBflKov6OSESrmh/mBdsMO9rR95SAkPdbY=",
+        "originContent": "* Auto Heat: Enable and specify a minimum temperature to allow brushing at and automatically preheat to this temp before brushing <br>",
+        "translatedContent": "* Calentamiento Automático: Habilite y especifique una temperatura mínima para permitir el cepillado y calentar automáticamente a esta temperatura antes de cepillar <br>"
+      },
+      {
+        "row": 29,
+        "rowsha": "1sM8wQC4dYVB3StX9z/rCACNzL7ABmohKnSWvJr5I9s=",
+        "originContent": "* Auto Home: Automatically home printhead if needed. Will only home if not already. <br>",
+        "translatedContent": "* Auto Home: Lleva automáticamente el cabezal de impresión a casa si es necesario. Solo hará home si no está ya en posición. <br>"
+      },
+      {
+        "row": 30,
+        "rowsha": "vzh17KvW+DKnGExa8ch397n59HbPPUxnAxP+8FaaFLI=",
+        "originContent": "* Retraction: Configure retraction before, during, and after brushing. <br>",
+        "translatedContent": "* Retracción: Configure la retracción antes, durante y después del cepillado. <br>"
+      },
+      {
+        "row": 31,
+        "rowsha": "C7mNWoss1Swd7TXNFeBHSYsOjOilsUXhip4Uyi44FnI=",
+        "originContent": "* Z Hop: Specify a height to raise nozzle to before moving to brush location and then lowering. Set to 0 to disable.<br>",
+        "translatedContent": "* Salto Z: Especifique una altura para elevar la boquilla antes de moverse a la ubicación del cepillo y luego descender. Poner en 0 para desactivar.<br>"
+      },
+      {
+        "row": 32,
+        "rowsha": "9lqfK0hVzUf7fXqGcO/2TXcI3cfeIHsTtYWw+3XVVMY=",
+        "originContent": "* Verbose Feedback: Enable verbose console output for comprehensive insights into the brushing process, including axis values, calculations, and positioning points. <br>",
+        "translatedContent": "* Retroalimentación Detallada: Habilite salida detallada en consola para obtener información completa sobre el proceso de cepillado, incluyendo valores de ejes, cálculos y puntos de posicionamiento. <br>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "W9h4rgPs11Fg6Wjvvkl1eEfhwJrr1haqncN5tL3iSQU=",
+        "originContent": "<h4>KOMB Trigger</h4>",
+        "translatedContent": "<h4>Disparador KOMB</h4>"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "You can use KOMB at a specified frequency throughout the print to ensure your nozzle stays clean for the entire duration. Include `KOMB_trigger` in the 'at layer change' section of your slicer configuration to effortlessly trigger the macro at your preferred frequency. Additionally, integrate this macro name into your start print routine to use the macro before starting printing. This feature is not intended for per-object printing and is tailored for use with gantry and frame-mounted brushes. While functional with bed-mounted brushes, cautious use is advised, as attention to your printer's clearances is essential to prevent potential collisions. If utilizing Z hop, the nozzle will ascend before maneuvering over the brush, descend for brushing, and subsequently reascend to its initial height before resuming printing. Configure Z hop settings to provide added clearance during elevation and descent. It is strongly recommended not to set the Z hop value below 2. Additionally, ensure that your axis limits are accurately defined for the macro's effective operation. For guidance on setting axis limits, refer to the guide provided at the end of this readme.",
+    "ContentSha": "BHGAW0ExHNnc6YGfM+28Hny10K8vlyiwx3TVdHI+DWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "You can use KOMB at a specified frequency throughout the print to ensure your nozzle stays clean for the entire duration. Include `KOMB_trigger` in the 'at layer change' section of your slicer configuration to effortlessly trigger the macro at your preferred frequency. Additionally, integrate this macro name into your start print routine to use the macro before starting printing. This feature is not intended for per-object printing and is tailored for use with gantry and frame-mounted brushes. While functional with bed-mounted brushes, cautious use is advised, as attention to your printer's clearances is essential to prevent potential collisions. If utilizing Z hop, the nozzle will ascend before maneuvering over the brush, descend for brushing, and subsequently reascend to its initial height before resuming printing. Configure Z hop settings to provide added clearance during elevation and descent. It is strongly recommended not to set the Z hop value below 2. Additionally, ensure that your axis limits are accurately defined for the macro's effective operation. For guidance on setting axis limits, refer to the guide provided at the end of this readme.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BHGAW0ExHNnc6YGfM+28Hny10K8vlyiwx3TVdHI+DWg=",
+        "originContent": "You can use KOMB at a specified frequency throughout the print to ensure your nozzle stays clean for the entire duration. Include `KOMB_trigger` in the 'at layer change' section of your slicer configuration to effortlessly trigger the macro at your preferred frequency. Additionally, integrate this macro name into your start print routine to use the macro before starting printing. This feature is not intended for per-object printing and is tailored for use with gantry and frame-mounted brushes. While functional with bed-mounted brushes, cautious use is advised, as attention to your printer's clearances is essential to prevent potential collisions. If utilizing Z hop, the nozzle will ascend before maneuvering over the brush, descend for brushing, and subsequently reascend to its initial height before resuming printing. Configure Z hop settings to provide added clearance during elevation and descent. It is strongly recommended not to set the Z hop value below 2. Additionally, ensure that your axis limits are accurately defined for the macro's effective operation. For guidance on setting axis limits, refer to the guide provided at the end of this readme.",
+        "translatedContent": "You can use KOMB at a specified frequency throughout the print to ensure your nozzle stays clean for the entire duration. Include `KOMB_trigger` in the 'at layer change' section of your slicer configuration to effortlessly trigger the macro at your preferred frequency. Additionally, integrate this macro name into your start print routine to use the macro before starting printing. This feature is not intended for per-object printing and is tailored for use with gantry and frame-mounted brushes. While functional with bed-mounted brushes, cautious use is advised, as attention to your printer's clearances is essential to prevent potential collisions. If utilizing Z hop, the nozzle will ascend before maneuvering over the brush, descend for brushing, and subsequently reascend to its initial height before resuming printing. Configure Z hop settings to provide added clearance during elevation and descent. It is strongly recommended not to set the Z hop value below 2. Additionally, ensure that your axis limits are accurately defined for the macro's effective operation. For guidance on setting axis limits, refer to the guide provided at the end of this readme."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "\n<h4>KOMB Purge</h4>\n\nKOMB's purging option empowers you with the ability to initiate a controlled material purge before engaging in the brushing sequence. This feature proves especially beneficial when precision matters, such as during Z-offset calibration or other measurement-dependent operations, without the need to draw an extra purge line. By utilizing this feature, you can easily define the location for your purge container, the desired filament extrusion amount, and the wait time before transitioning to the brushing sequence. The purging option can also be activated independently of the rest of the macro; this provides you with the flexibility to tailor your printing process according to your specific requirements. To use the macro in your start print add \"KOMB_purge\" to your config.\n\n<h3>KOMB's Distinctiveness</h3>\n\nKOMB is designed to seamlessly adapt to diverse printer setups, accommodating varying brush sizes and locations. Unlike traditional macros which brute-force your nozzle to move to specific locations, KOMB generates an entire sequence of coordinates based on your variables, preemptively adjusted to stay within printer limits. This proactive approach nearly eliminates the risk of errors to ensure successful brushing regardless of user error. Any generated points exceeding the printer's boundaries are automatically adjusted to be within, ensuring smooth execution. Once the list is instantly generated, KOMB guides the nozzle through the predetermined coordinates with ease.\n\n<h3>Getting Started with KOMB</h3>\n\nEnsure Klipper firmware is installed on your 3D printer.\n\nIntegrate the supplied KOMB macro code, `KOMB.cfg`, into your Klipper configuration file \"printer.cfg\", alongside your other macros. To enhance user-friendliness, it's recommended to maintain the KOMB Variables in a separate file and include it using `[include _KOMB_Variables.cfg].` Alternatively, you can merge it with the main configuration if you find that more convenient.\n\nSpecify variables in the KOMB_Variables section to match your brushing requirements.\n\nDetermine exact XY brush position via the printer's UI. Start from the bottom left corner, adjusting down to 0.1mm accuracy if you desire.\n\nMeasure brush size or calculate it by moving to the upper right corner and subtracting the lower left position from the upper right on both X and Y axes.\nRepeat a similar process for the Z position, considering the option to lower the nozzle incrementally with each iteration (z_step).\n\nSave the configuration file and reload Klipper to apply changes.\n\nExecute KOMB in the console, via a UI macro button, or add `KOMB` to your start print macro. Ensure variables are configured accurately before execution.\n\nMonitor progress through the console output when verbose output is enabled.\n\nEnjoy Enhanced Brushing with KOMB!\n\n<h3>Important Notes</h3>\n\nThis macro is designed to work with a range of variables and parameters. Make sure to adjust them according to your printer's specifications and your brushing needs. Make sure you understand what each variable does and how to use it.\n\nYou must ensure that your axis limits are set properly in order for this macro to function correctly. Follow this guide if you are unsure: https://github.com/rootiest/zippy_guides/blob/main/guides/axis_limits.md\n\nSince this macro involves moving the printer's nozzle, exercise caution to avoid any collisions during the brushing process and ensure all values are correct. It is recommended to test the macro at a low speed above the brush before lowering it into position.\n\nBe sure to check back in the future for updates and more patterns!\n",
+    "ContentSha": "HeR6n2oc6Jq1e8RF9srSMvQe+PawjAcXuQNEgIacF40=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h4>Purgado KOMB</h4>\n\nLa opción de purgado de KOMB te permite iniciar un purgado controlado de material antes de comenzar la secuencia de cepillado. Esta función resulta especialmente útil cuando la precisión es importante, como durante la calibración del desplazamiento Z o en otras operaciones que dependen de mediciones, sin necesidad de trazar una línea adicional de purgado. Al utilizar esta función, puedes definir fácilmente la ubicación de tu contenedor de purgado, la cantidad deseada de extrusión de filamento y el tiempo de espera antes de pasar a la secuencia de cepillado. La opción de purgado también puede activarse de forma independiente al resto del macro; esto te brinda la flexibilidad para adaptar tu proceso de impresión según tus requisitos específicos. Para usar el macro en tu inicio de impresión, añade \"KOMB_purge\" a tu configuración.\n\n<h3>La Distintividad de KOMB</h3>\n\nKOMB está diseñado para adaptarse sin problemas a diferentes configuraciones de impresoras, acomodando diversos tamaños y ubicaciones de cepillos. A diferencia de los macros tradicionales que fuerzan el movimiento de la boquilla a ubicaciones específicas, KOMB genera una secuencia completa de coordenadas basadas en tus variables, ajustadas previamente para mantenerse dentro de los límites de la impresora. Este enfoque proactivo elimina casi por completo el riesgo de errores, garantizando un cepillado exitoso sin importar errores del usuario. Cualquier punto generado que exceda los límites de la impresora se ajusta automáticamente para mantenerse dentro, asegurando una ejecución fluida. Una vez que la lista se genera instantáneamente, KOMB guía la boquilla a través de las coordenadas predeterminadas con facilidad.\n\n<h3>Comenzando con KOMB</h3>\n\nAsegúrate de que el firmware Klipper esté instalado en tu impresora 3D.\n\nIntegra el código macro suministrado de KOMB, `KOMB.cfg`, en tu archivo de configuración de Klipper \"printer.cfg\", junto con tus otros macros. Para mejorar la facilidad de uso, se recomienda mantener las Variables KOMB en un archivo separado e incluirlo usando `[include _KOMB_Variables.cfg].` Alternativamente, puedes fusionarlo con la configuración principal si te resulta más conveniente.\n\nEspecifica las variables en la sección KOMB_Variables para que coincidan con tus requerimientos de cepillado.\n\nDetermina la posición exacta XY del cepillo mediante la interfaz de usuario de la impresora. Comienza desde la esquina inferior izquierda, ajustando con una precisión de hasta 0.1 mm si lo deseas.\n\nMide el tamaño del cepillo o cálculalo moviéndote a la esquina superior derecha y restando la posición de la esquina inferior izquierda de la superior derecha en ambos ejes X e Y.\nRepite un proceso similar para la posición Z, considerando la opción de bajar la boquilla incrementalmente con cada iteración (z_step).\n\nGuarda el archivo de configuración y recarga Klipper para aplicar los cambios.\n\nEjecuta KOMB en la consola, mediante un botón macro en la interfaz de usuario, o añade `KOMB` a tu macro de inicio de impresión. Asegúrate de que las variables estén configuradas correctamente antes de la ejecución.\n\nMonitorea el progreso a través de la salida de la consola cuando la salida detallada esté habilitada.\n\n¡Disfruta de un cepillado mejorado con KOMB!\n\n<h3>Notas Importantes</h3>\n\nEste macro está diseñado para trabajar con una variedad de variables y parámetros. Asegúrate de ajustarlos de acuerdo con las especificaciones de tu impresora y tus necesidades de cepillado. Asegúrate de entender qué hace cada variable y cómo usarla.\n\nDebes garantizar que los límites de tus ejes estén configurados correctamente para que este macro funcione adecuadamente. Sigue esta guía si tienes dudas: https://github.com/rootiest/zippy_guides/blob/main/guides/axis_limits.md\n\nDado que este macro implica mover la boquilla de la impresora, ejerce precaución para evitar colisiones durante el proceso de cepillado y asegúrate de que todos los valores sean correctos. Se recomienda probar el macro a baja velocidad sobre el cepillo antes de bajarlo a la posición.\n\n¡Asegúrate de volver en el futuro para actualizaciones y más patrones!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h4>Purgado KOMB</h4>"
+      },
+      {
+        "row": 2,
+        "rowsha": "v6hu6AjcP3Vokfyvx0bjLAgkFPaW/1Okv1eGTF5GGIg=",
+        "originContent": "<h4>KOMB Purge</h4>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "La opción de purgado de KOMB te permite iniciar un purgado controlado de material antes de comenzar la secuencia de cepillado. Esta función resulta especialmente útil cuando la precisión es importante, como durante la calibración del desplazamiento Z o en otras operaciones que dependen de mediciones, sin necesidad de trazar una línea adicional de purgado. Al utilizar esta función, puedes definir fácilmente la ubicación de tu contenedor de purgado, la cantidad deseada de extrusión de filamento y el tiempo de espera antes de pasar a la secuencia de cepillado. La opción de purgado también puede activarse de forma independiente al resto del macro; esto te brinda la flexibilidad para adaptar tu proceso de impresión según tus requisitos específicos. Para usar el macro en tu inicio de impresión, añade \"KOMB_purge\" a tu configuración."
+      },
+      {
+        "row": 4,
+        "rowsha": "1pl0kEWMm69Q1omRfF3sBVviwirDJweo0ijCET4FkA8=",
+        "originContent": "KOMB's purging option empowers you with the ability to initiate a controlled material purge before engaging in the brushing sequence. This feature proves especially beneficial when precision matters, such as during Z-offset calibration or other measurement-dependent operations, without the need to draw an extra purge line. By utilizing this feature, you can easily define the location for your purge container, the desired filament extrusion amount, and the wait time before transitioning to the brushing sequence. The purging option can also be activated independently of the rest of the macro; this provides you with the flexibility to tailor your printing process according to your specific requirements. To use the macro in your start print add \"KOMB_purge\" to your config.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h3>La Distintividad de KOMB</h3>"
+      },
+      {
+        "row": 6,
+        "rowsha": "SAqHN8MqlQ29N60p/028HFZk6nKjCqqSw9LabaiDnXE=",
+        "originContent": "<h3>KOMB's Distinctiveness</h3>",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "KOMB está diseñado para adaptarse sin problemas a diferentes configuraciones de impresoras, acomodando diversos tamaños y ubicaciones de cepillos. A diferencia de los macros tradicionales que fuerzan el movimiento de la boquilla a ubicaciones específicas, KOMB genera una secuencia completa de coordenadas basadas en tus variables, ajustadas previamente para mantenerse dentro de los límites de la impresora. Este enfoque proactivo elimina casi por completo el riesgo de errores, garantizando un cepillado exitoso sin importar errores del usuario. Cualquier punto generado que exceda los límites de la impresora se ajusta automáticamente para mantenerse dentro, asegurando una ejecución fluida. Una vez que la lista se genera instantáneamente, KOMB guía la boquilla a través de las coordenadas predeterminadas con facilidad."
+      },
+      {
+        "row": 8,
+        "rowsha": "fP7TaKlD6pDWNkAwWY1pKgL7o4q32DrmmvyMzYDzyz4=",
+        "originContent": "KOMB is designed to seamlessly adapt to diverse printer setups, accommodating varying brush sizes and locations. Unlike traditional macros which brute-force your nozzle to move to specific locations, KOMB generates an entire sequence of coordinates based on your variables, preemptively adjusted to stay within printer limits. This proactive approach nearly eliminates the risk of errors to ensure successful brushing regardless of user error. Any generated points exceeding the printer's boundaries are automatically adjusted to be within, ensuring smooth execution. Once the list is instantly generated, KOMB guides the nozzle through the predetermined coordinates with ease.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h3>Comenzando con KOMB</h3>"
+      },
+      {
+        "row": 10,
+        "rowsha": "73hGCxNYLIJgHplYDsD03TDig4v1iTuDwxyFfSmsQ2o=",
+        "originContent": "<h3>Getting Started with KOMB</h3>",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Asegúrate de que el firmware Klipper esté instalado en tu impresora 3D."
+      },
+      {
+        "row": 12,
+        "rowsha": "euH/rtGsINE1IvRAE6r4xqMxiDCrrYB2gjWGoEPrdt4=",
+        "originContent": "Ensure Klipper firmware is installed on your 3D printer.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Integra el código macro suministrado de KOMB, `KOMB.cfg`, en tu archivo de configuración de Klipper \"printer.cfg\", junto con tus otros macros. Para mejorar la facilidad de uso, se recomienda mantener las Variables KOMB en un archivo separado e incluirlo usando `[include _KOMB_Variables.cfg].` Alternativamente, puedes fusionarlo con la configuración principal si te resulta más conveniente."
+      },
+      {
+        "row": 14,
+        "rowsha": "rNJM8nduIac3/8JFH08ZM/sgUKjISRZRsQXrum6p4ck=",
+        "originContent": "Integrate the supplied KOMB macro code, `KOMB.cfg`, into your Klipper configuration file \"printer.cfg\", alongside your other macros. To enhance user-friendliness, it's recommended to maintain the KOMB Variables in a separate file and include it using `[include _KOMB_Variables.cfg].` Alternatively, you can merge it with the main configuration if you find that more convenient.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Especifica las variables en la sección KOMB_Variables para que coincidan con tus requerimientos de cepillado."
+      },
+      {
+        "row": 16,
+        "rowsha": "QK/9stE8odif0FdXJ73QUNwxDiJr3YsLZo4IatkQr2g=",
+        "originContent": "Specify variables in the KOMB_Variables section to match your brushing requirements.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Determina la posición exacta XY del cepillo mediante la interfaz de usuario de la impresora. Comienza desde la esquina inferior izquierda, ajustando con una precisión de hasta 0.1 mm si lo deseas."
+      },
+      {
+        "row": 18,
+        "rowsha": "OHhrbt8aWkoHbuaj9162olHKOfKLnpWQqjLPNOfPk2I=",
+        "originContent": "Determine exact XY brush position via the printer's UI. Start from the bottom left corner, adjusting down to 0.1mm accuracy if you desire.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Mide el tamaño del cepillo o cálculalo moviéndote a la esquina superior derecha y restando la posición de la esquina inferior izquierda de la superior derecha en ambos ejes X e Y."
+      },
+      {
+        "row": 20,
+        "rowsha": "OpSFCa2zc0IwRWwk2RrPZWY4+X/f9wLXZra/RSgDmo4=",
+        "originContent": "Measure brush size or calculate it by moving to the upper right corner and subtracting the lower left position from the upper right on both X and Y axes.",
+        "translatedContent": "Repite un proceso similar para la posición Z, considerando la opción de bajar la boquilla incrementalmente con cada iteración (z_step)."
+      },
+      {
+        "row": 21,
+        "rowsha": "4QLZcfmCuhjGYH0nIB7vrm36K8er+EkH1mf8RHRchic=",
+        "originContent": "Repeat a similar process for the Z position, considering the option to lower the nozzle incrementally with each iteration (z_step).",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Guarda el archivo de configuración y recarga Klipper para aplicar los cambios."
+      },
+      {
+        "row": 23,
+        "rowsha": "btSboWhSjA6GfNDKLcNY1uNx7PzgWoyWKhVRpqWlGCE=",
+        "originContent": "Save the configuration file and reload Klipper to apply changes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ejecuta KOMB en la consola, mediante un botón macro en la interfaz de usuario, o añade `KOMB` a tu macro de inicio de impresión. Asegúrate de que las variables estén configuradas correctamente antes de la ejecución."
+      },
+      {
+        "row": 25,
+        "rowsha": "LRiz4mj8YCb3ruIAohWELcaOKigxE5x8J+pgrWkibsQ=",
+        "originContent": "Execute KOMB in the console, via a UI macro button, or add `KOMB` to your start print macro. Ensure variables are configured accurately before execution.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Monitorea el progreso a través de la salida de la consola cuando la salida detallada esté habilitada."
+      },
+      {
+        "row": 27,
+        "rowsha": "uQW01LfQAzklMTKBthV8+LuL1oUSdUTVZ9OUbLj9xaI=",
+        "originContent": "Monitor progress through the console output when verbose output is enabled.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "¡Disfruta de un cepillado mejorado con KOMB!"
+      },
+      {
+        "row": 29,
+        "rowsha": "XtGbuTQNnRZewR80GuwcaGVr1woK/LnAze6gwpq1S5M=",
+        "originContent": "Enjoy Enhanced Brushing with KOMB!",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h3>Notas Importantes</h3>"
+      },
+      {
+        "row": 31,
+        "rowsha": "Cbf33WYC+TLIzsMMxOV0UADrHL+9315m6KLu9dw3A9M=",
+        "originContent": "<h3>Important Notes</h3>",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Este macro está diseñado para trabajar con una variedad de variables y parámetros. Asegúrate de ajustarlos de acuerdo con las especificaciones de tu impresora y tus necesidades de cepillado. Asegúrate de entender qué hace cada variable y cómo usarla."
+      },
+      {
+        "row": 33,
+        "rowsha": "xis7rX9h5XrXZ3l2870yWMQixHoHa382H6ntyoux1O0=",
+        "originContent": "This macro is designed to work with a range of variables and parameters. Make sure to adjust them according to your printer's specifications and your brushing needs. Make sure you understand what each variable does and how to use it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Debes garantizar que los límites de tus ejes estén configurados correctamente para que este macro funcione adecuadamente. Sigue esta guía si tienes dudas: https://github.com/rootiest/zippy_guides/blob/main/guides/axis_limits.md"
+      },
+      {
+        "row": 35,
+        "rowsha": "6last2XBr5VDg2NhRdBOQ+niNhS+s4vH3uwsaP/iNPk=",
+        "originContent": "You must ensure that your axis limits are set properly in order for this macro to function correctly. Follow this guide if you are unsure: https://github.com/rootiest/zippy_guides/blob/main/guides/axis_limits.md",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Dado que este macro implica mover la boquilla de la impresora, ejerce precaución para evitar colisiones durante el proceso de cepillado y asegúrate de que todos los valores sean correctos. Se recomienda probar el macro a baja velocidad sobre el cepillo antes de bajarlo a la posición."
+      },
+      {
+        "row": 37,
+        "rowsha": "Q4L98VlF6un2X8+iDVhXwY/WwRXLGLNJ0U/48ZxB1Fw=",
+        "originContent": "Since this macro involves moving the printer's nozzle, exercise caution to avoid any collisions during the brushing process and ensure all values are correct. It is recommended to test the macro at a low speed above the brush before lowering it into position.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "¡Asegúrate de volver en el futuro para actualizaciones y más patrones!"
+      },
+      {
+        "row": 39,
+        "rowsha": "rSHsbpIFErPtncD3dIhb03Da6PDmAgwXCOEEwc8TDy0=",
+        "originContent": "Be sure to check back in the future for updates and more patterns!",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "KOMB is a work in progress, and not all variable combinations have been thoroughly tested. Your feedback and contributions to improve the macro are highly appreciated.\n\nIf you encounter any issues, have suggestions for improvements, or wish to contribute to the development of KOMB, please feel free to message me, open an issue or submit a pull request on the GitHub repository. \n\nHappy KOMBing!\n",
+    "ContentSha": "SFJzzUq/2AAEAyj0LLspnZYNP4it3R1bijH7/jMWrbo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "KOMB está en desarrollo, y no todas las combinaciones de variables han sido probadas exhaustivamente. Agradecemos mucho sus comentarios y contribuciones para mejorar la macro.\n\nSi encuentra algún problema, tiene sugerencias para mejoras o desea contribuir al desarrollo de KOMB, no dude en enviarme un mensaje, abrir un problema o enviar una solicitud de extracción en el repositorio de GitHub.\n\n¡Feliz KOMBing!\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c9O2JrbwbPEm45RvdcfYcVdWicse+nrPIOWaP0GciCo=",
+        "originContent": "KOMB is a work in progress, and not all variable combinations have been thoroughly tested. Your feedback and contributions to improve the macro are highly appreciated.",
+        "translatedContent": "KOMB está en desarrollo, y no todas las combinaciones de variables han sido probadas exhaustivamente. Agradecemos mucho sus comentarios y contribuciones para mejorar la macro."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Q3oSZZCO/fpkyt8RMm0m8fFI4rXWhrsxPovQHs8P9Ac=",
+        "originContent": "If you encounter any issues, have suggestions for improvements, or wish to contribute to the development of KOMB, please feel free to message me, open an issue or submit a pull request on the GitHub repository. ",
+        "translatedContent": "Si encuentra algún problema, tiene sugerencias para mejoras o desea contribuir al desarrollo de KOMB, no dude en enviarme un mensaje, abrir un problema o enviar una solicitud de extracción en el repositorio de GitHub."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7rv7G+r6ouSMrQ5kVW6pz0bgb3rHyCH4KBN/vHExCSY=",
+        "originContent": "Happy KOMBing!",
+        "translatedContent": "¡Feliz KOMBing!"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

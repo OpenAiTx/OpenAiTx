@@ -1,0 +1,765 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/dreamwing/clawbridge/master/public/app-icon.png\" width=\"120\" alt=\"ClawBridge Logo\" />\n  <h1>ClawBridge Dashboard</h1>\n  <p><strong>The OpenClaw Mobile Dashboard & Mission Control.</strong></p>\n\n  <a href=\"https://clawbridge.app\">\n    <img src=\"https://img.shields.io/badge/Website-clawbridge.app-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white\" alt=\"Website\" />\n  </a>\n  <a href=\"https://github.com/openclaw/openclaw\">\n    <img src=\"https://img.shields.io/badge/OpenClaw-Compatible-22c55e?style=for-the-badge&logo=robot-framework&logoColor=white\" alt=\"OpenClaw\" />\n  </a>\n  <a href=\"LICENSE\">\n    <img src=\"https://img.shields.io/badge/License-MIT-fab005?style=for-the-badge\" alt=\"License\" />\n  </a>\n  \n  <br/><br/>\n  [ <strong>English</strong> | <a href=\"README_CN.md\">简体中文</a> ]\n</div>\n\n---\n\n**ClawBridge** is the definitive **Mobile Dashboard** for OpenClaw agents. It serves as your pocket-sized **Mission Control**—monitor real-time thoughts, track token costs, and manage background tasks from anywhere, securely and instantly.\n\n## ✨ Key Features\n\n*   **📱 Mobile-First Dashboard**: Optimized for phone screens. View logs, stats, and controls without squinting.\n*   **🧠 Live Activity Feed**: Watch your agent \"think\" and execute tools in real-time. Features intelligent parallel logging (no missed background tasks) and deduplication.\n*   **💰 Token Economy**: Track daily/monthly LLM costs and usage trends. Know exactly where your money goes.\n*   **🔍 [Cost Control Center](https://raw.githubusercontent.com/dreamwing/clawbridge/master/docs/cost-control-center.md)**: 10 automated diagnostics that scan your usage, calculate savings, and let you apply optimizations with one tap. Cut API costs by 30–90%.\n*   **📜 Memory Timeline**: Browse your agent's daily journals and long-term memory evolution.\n*   **🚀 Mission Control**: Trigger cron jobs, restart services, or kill runaway scripts directly from the UI.\n*   **⚡ Zero-Config Remote**: \n    *   **Auto-Port**: Automatically finds an available port if 3000 is busy.\n    *   **Smart Networking**: Auto-detects **Tailscale/WireGuard** for direct secure access.\n    *   **Quick Tunnel**: If no VPN is found, auto-generates a temporary public URL via Cloudflare (Zero Config).\n\n## 🚀 Installation\n\nRun this one-liner on your OpenClaw server (Ubuntu/Debian):\n",
+    "ContentSha": "+G+KOwxbntx32NP7MyyWHUujWjx7z8PN5ahrRsM3oLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/dreamwing/clawbridge/master/public/app-icon.png\" width=\"120\" alt=\"ClawBridge Logo\" />\n  <h1>Panel de Control ClawBridge</h1>\n  <p><strong>El Panel de Control Móvil y Centro de Misión de OpenClaw.</strong></p>\n\n  <a href=\"https://clawbridge.app\">\n    <img src=\"https://img.shields.io/badge/Website-clawbridge.app-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white\" alt=\"Website\" />\n  </a>\n  <a href=\"https://github.com/openclaw/openclaw\">\n    <img src=\"https://img.shields.io/badge/OpenClaw-Compatible-22c55e?style=for-the-badge&logo=robot-framework&logoColor=white\" alt=\"OpenClaw\" />\n  </a>\n  <a href=\"LICENSE\">\n    <img src=\"https://img.shields.io/badge/License-MIT-fab005?style=for-the-badge\" alt=\"License\" />\n  </a>\n  \n  <br/><br/>\n  [ <strong>English</strong> | <a href=\"README_CN.md\">简体中文</a> ]\n</div>\n\n---\n\n**ClawBridge** es el **Panel de Control Móvil** definitivo para agentes OpenClaw. Funciona como tu **Centro de Misión** de bolsillo: monitorea pensamientos en tiempo real, rastrea costos de tokens y administra tareas en segundo plano desde cualquier lugar, de forma segura e instantánea.\n\n## ✨ Características Clave\n\n*   **📱 Panel Móvil Primero**: Optimizado para pantallas de teléfono. Visualiza registros, estadísticas y controles sin forzar la vista.\n*   **🧠 Feed de Actividad en Vivo**: Observa a tu agente \"pensar\" y ejecutar herramientas en tiempo real. Incluye registro paralelo inteligente (sin tareas en segundo plano perdidas) y deduplicación.\n*   **💰 Economía de Tokens**: Rastrea costos y tendencias de uso diarios/mensuales de LLM. Conoce exactamente a dónde va tu dinero.\n*   **🔍 [Centro de Control de Costos](https://raw.githubusercontent.com/dreamwing/clawbridge/master/docs/cost-control-center.md)**: 10 diagnósticos automáticos que escanean tu uso, calculan ahorros y te permiten aplicar optimizaciones con un solo toque. Reduce costos de API entre 30–90%.\n*   **📜 Línea de Tiempo de Memoria**: Navega los diarios diarios de tu agente y la evolución de la memoria a largo plazo.\n*   **🚀 Centro de Misión**: Activa trabajos cron, reinicia servicios o detén scripts descontrolados directamente desde la interfaz.\n*   **⚡ Remoto Sin Configuración**: \n    *   **Auto-Puerto**: Encuentra automáticamente un puerto disponible si el 3000 está ocupado.\n    *   **Red Inteligente**: Detecta automáticamente **Tailscale/WireGuard** para acceso directo y seguro.\n    *   **Túnel Rápido**: Si no se encuentra VPN, genera automáticamente una URL pública temporal vía Cloudflare (Sin Configuración).\n\n## 🚀 Instalación\n\nEjecuta esta línea en tu servidor OpenClaw (Ubuntu/Debian):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "w26l/AHzIH8uEHt/ydPBOW4NPeELkS8u3dosw9KhWvY=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/dreamwing/clawbridge/master/public/app-icon.png\" width=\"120\" alt=\"ClawBridge Logo\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/dreamwing/clawbridge/master/public/app-icon.png\" width=\"120\" alt=\"ClawBridge Logo\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "4ePEnuwl7FMgfJ4cyhOS2puJpoka9NmAp7rE+NpEwrM=",
+        "originContent": "  <h1>ClawBridge Dashboard</h1>",
+        "translatedContent": "  <h1>Panel de Control ClawBridge</h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "gRIUrMUJnfjvk1xLjkC1A7ZHMxnNCa42eOm27I7bst4=",
+        "originContent": "  <p><strong>The OpenClaw Mobile Dashboard & Mission Control.</strong></p>",
+        "translatedContent": "  <p><strong>El Panel de Control Móvil y Centro de Misión de OpenClaw.</strong></p>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "o9EHoDqE3Tt6hzdnaF8PVFOdUn4br1ZwFLQFwhOK+Rg=",
+        "originContent": "  <a href=\"https://clawbridge.app\">",
+        "translatedContent": "  <a href=\"https://clawbridge.app\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "KUFro63Ze9iB2fWer6vvBBy/dWEY4GoWGUfkHgddyLw=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/Website-clawbridge.app-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white\" alt=\"Website\" />",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/Website-clawbridge.app-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white\" alt=\"Website\" />"
+      },
+      {
+        "row": 8,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "ci+4Uq3JLtX/Y0czi2Z6FJUG8lDg6ypq87u3WBvEea0=",
+        "originContent": "  <a href=\"https://github.com/openclaw/openclaw\">",
+        "translatedContent": "  <a href=\"https://github.com/openclaw/openclaw\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "oDBmrj/LQv7kIocd59qTTQkvDZE851qhCXvulCAFp3Q=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/OpenClaw-Compatible-22c55e?style=for-the-badge&logo=robot-framework&logoColor=white\" alt=\"OpenClaw\" />",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/OpenClaw-Compatible-22c55e?style=for-the-badge&logo=robot-framework&logoColor=white\" alt=\"OpenClaw\" />"
+      },
+      {
+        "row": 11,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "w1M9tX8PZ29Ywx2qeiADwqj5cA9h7JgQodq3rEQqjTo=",
+        "originContent": "  <a href=\"LICENSE\">",
+        "translatedContent": "  <a href=\"LICENSE\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "XO4Je48B+9bpfKJvl2xhxkJstsOEyrnkuKVpYIaAqmE=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/License-MIT-fab005?style=for-the-badge\" alt=\"License\" />",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/License-MIT-fab005?style=for-the-badge\" alt=\"License\" />"
+      },
+      {
+        "row": 14,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 16,
+        "rowsha": "shVFL6CuS8LFMG7UIBH+LxjJzcem9oll1arU+ahJw0k=",
+        "originContent": "  <br/><br/>",
+        "translatedContent": "  <br/><br/>"
+      },
+      {
+        "row": 17,
+        "rowsha": "w57KJoxgESEBDkw+MjH7EFgXN1NhqH5eM85J2IIkfak=",
+        "originContent": "  [ <strong>English</strong> | <a href=\"README_CN.md\">简体中文</a> ]",
+        "translatedContent": "  [ <strong>English</strong> | <a href=\"README_CN.md\">简体中文</a> ]"
+      },
+      {
+        "row": 18,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "UsDUcYf6x8uTfAksZDaTK1OeZSwlZpuu1h9Ic121FyY=",
+        "originContent": "**ClawBridge** is the definitive **Mobile Dashboard** for OpenClaw agents. It serves as your pocket-sized **Mission Control**—monitor real-time thoughts, track token costs, and manage background tasks from anywhere, securely and instantly.",
+        "translatedContent": "**ClawBridge** es el **Panel de Control Móvil** definitivo para agentes OpenClaw. Funciona como tu **Centro de Misión** de bolsillo: monitorea pensamientos en tiempo real, rastrea costos de tokens y administra tareas en segundo plano desde cualquier lugar, de forma segura e instantánea."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ZqRxbjfweoei1TdplkepzaponeK/fT5zgiMOYzmuvo0=",
+        "originContent": "## ✨ Key Features",
+        "translatedContent": "## ✨ Características Clave"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "aCYIUVne/noWtqjqNmeNw4l3LeLOgxTRR36l6Sj2FOo=",
+        "originContent": "*   **📱 Mobile-First Dashboard**: Optimized for phone screens. View logs, stats, and controls without squinting.",
+        "translatedContent": "*   **📱 Panel Móvil Primero**: Optimizado para pantallas de teléfono. Visualiza registros, estadísticas y controles sin forzar la vista."
+      },
+      {
+        "row": 27,
+        "rowsha": "ARWbLYJwJXGIERsvGyuioEngHQSW0yVxlGUT5a2DaV0=",
+        "originContent": "*   **🧠 Live Activity Feed**: Watch your agent \"think\" and execute tools in real-time. Features intelligent parallel logging (no missed background tasks) and deduplication.",
+        "translatedContent": "*   **🧠 Feed de Actividad en Vivo**: Observa a tu agente \"pensar\" y ejecutar herramientas en tiempo real. Incluye registro paralelo inteligente (sin tareas en segundo plano perdidas) y deduplicación."
+      },
+      {
+        "row": 28,
+        "rowsha": "QVI5S/TinqXkrC6WZWyXd2PEgZSo/8Y5HN5oGRcEoU4=",
+        "originContent": "*   **💰 Token Economy**: Track daily/monthly LLM costs and usage trends. Know exactly where your money goes.",
+        "translatedContent": "*   **💰 Economía de Tokens**: Rastrea costos y tendencias de uso diarios/mensuales de LLM. Conoce exactamente a dónde va tu dinero."
+      },
+      {
+        "row": 29,
+        "rowsha": "fhSVL1+ShcC5oE/m7Fusi6bFEaxeUbXPZ171VLCvB0A=",
+        "originContent": "*   **🔍 [Cost Control Center](https://raw.githubusercontent.com/dreamwing/clawbridge/master/docs/cost-control-center.md)**: 10 automated diagnostics that scan your usage, calculate savings, and let you apply optimizations with one tap. Cut API costs by 30–90%.",
+        "translatedContent": "*   **🔍 [Centro de Control de Costos](https://raw.githubusercontent.com/dreamwing/clawbridge/master/docs/cost-control-center.md)**: 10 diagnósticos automáticos que escanean tu uso, calculan ahorros y te permiten aplicar optimizaciones con un solo toque. Reduce costos de API entre 30–90%."
+      },
+      {
+        "row": 30,
+        "rowsha": "yTYiN5LKs3CB7BOZ5sUo3+E9T4eND7v134MRGrSMClI=",
+        "originContent": "*   **📜 Memory Timeline**: Browse your agent's daily journals and long-term memory evolution.",
+        "translatedContent": "*   **📜 Línea de Tiempo de Memoria**: Navega los diarios diarios de tu agente y la evolución de la memoria a largo plazo."
+      },
+      {
+        "row": 31,
+        "rowsha": "QoOYe0jP9oGIgHGlZm/j0kbK/uVtBToGSevqc9A6+x4=",
+        "originContent": "*   **🚀 Mission Control**: Trigger cron jobs, restart services, or kill runaway scripts directly from the UI.",
+        "translatedContent": "*   **🚀 Centro de Misión**: Activa trabajos cron, reinicia servicios o detén scripts descontrolados directamente desde la interfaz."
+      },
+      {
+        "row": 32,
+        "rowsha": "wAS5Qdc10z+mf9G2NRcefL6KgNqDb9mrCDXJOG4eRPQ=",
+        "originContent": "*   **⚡ Zero-Config Remote**: ",
+        "translatedContent": "*   **⚡ Remoto Sin Configuración**: "
+      },
+      {
+        "row": 33,
+        "rowsha": "Pe6hKkffjqAaTmv3mWMTSj208j2wOCTAofCGlUu+oC0=",
+        "originContent": "    *   **Auto-Port**: Automatically finds an available port if 3000 is busy.",
+        "translatedContent": "    *   **Auto-Puerto**: Encuentra automáticamente un puerto disponible si el 3000 está ocupado."
+      },
+      {
+        "row": 34,
+        "rowsha": "D9AJ/6BJ4JneOe54D4gHs2JSDygNe95oCqMQy/BMxys=",
+        "originContent": "    *   **Smart Networking**: Auto-detects **Tailscale/WireGuard** for direct secure access.",
+        "translatedContent": "    *   **Red Inteligente**: Detecta automáticamente **Tailscale/WireGuard** para acceso directo y seguro."
+      },
+      {
+        "row": 35,
+        "rowsha": "Qyluj9Z7JrE55/DHSN8sFo41zNUB+oYzSt5drwpMz00=",
+        "originContent": "    *   **Quick Tunnel**: If no VPN is found, auto-generates a temporary public URL via Cloudflare (Zero Config).",
+        "translatedContent": "    *   **Túnel Rápido**: Si no se encuentra VPN, genera automáticamente una URL pública temporal vía Cloudflare (Sin Configuración)."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "bL2+2xmmHeMPJ5RShvcnjJht8UbGw6aa0PYz2NenBPU=",
+        "originContent": "## 🚀 Installation",
+        "translatedContent": "## 🚀 Instalación"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "d4KZKbrfacaTxaVUJktOjhIHR4gzgDg2Agoo/tcvOnI=",
+        "originContent": "Run this one-liner on your OpenClaw server (Ubuntu/Debian):",
+        "translatedContent": "Ejecuta esta línea en tu servidor OpenClaw (Ubuntu/Debian):"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ncurl -sL https://clawbridge.app/install.sh | bash\n```",
+    "ContentSha": "ABUr0qLaS3wBYriEyqSq654/UgAE7gGQ0/fddRRy2+8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -sL https://clawbridge.app/install.sh | bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2P5ErMWiqqwehH2gxWpIRf03Dlmj4SV4Yy4luDsXFwo=",
+        "originContent": "curl -sL https://clawbridge.app/install.sh | bash",
+        "translatedContent": "curl -sL https://clawbridge.app/install.sh | bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThat's it. The script will:\n1.  Detect your environment (VPN or Public).\n2.  Generate a secure Access Key.\n3.  Give you a ready-to-use URL.\n\n## 📱 Usage\n\n### 1. Zero-Config Access (Default)\nIf you just want to try it out, the installer provides a **Quick Tunnel** URL:\n`https://<random-name>.trycloudflare.com/?key=<YOUR_KEY>`\n\n*   **Pros**: Instant access from anywhere.\n*   **Cons**: URL changes if you restart the service.\n\n### 2. VPN Direct Access (Privacy First)\nIf **Tailscale** or **WireGuard** is detected, the installer skips the public tunnel and gives you a private link:\n`http://<VPN_IP>:3000/?key=<YOUR_KEY>`\n\n*   **Pros**: Fastest speed, maximum privacy.\n*   **Cons**: Your phone must be connected to the VPN.\n\n### 3. Permanent Public Domain (Advanced)\nWant a fixed URL like `dash.yoursite.com`?\n1.  Obtain a **Cloudflare Tunnel Token** from [Cloudflare Dash \\> Networking \\> Tunnels](https://dash.cloudflare.com/?to=/:account/tunnels).\n2.  Run the installer with the token:",
+    "ContentSha": "u1dTYMYFEnQ02L+3l3NsginzsY/cug9o3JGt5BUfWKg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEso es todo. El script hará:\n1.  Detectar tu entorno (VPN o Público).\n2.  Generar una Clave de Acceso segura.\n3.  Proporcionarte una URL lista para usar.\n\n## 📱 Uso\n\n### 1. Acceso sin Configuración (Por Defecto)\nSi solo quieres probarlo, el instalador proporciona una URL de **Túnel Rápido**:\n`https://<nombre-aleatorio>.trycloudflare.com/?key=<TU_CLAVE>`\n\n*   **Ventajas**: Acceso instantáneo desde cualquier lugar.\n*   **Desventajas**: La URL cambia si reinicias el servicio.\n\n### 2. Acceso Directo por VPN (Privacidad Primero)\nSi se detecta **Tailscale** o **WireGuard**, el instalador omite el túnel público y te da un enlace privado:\n`http://<IP_VPN>:3000/?key=<TU_CLAVE>`\n\n*   **Ventajas**: Velocidad más rápida, máxima privacidad.\n*   **Desventajas**: Tu teléfono debe estar conectado a la VPN.\n\n### 3. Dominio Público Permanente (Avanzado)\n¿Quieres una URL fija como `dash.tusitio.com`?\n1.  Obtén un **Token de Túnel de Cloudflare** desde [Cloudflare Dash \\> Networking \\> Tunnels](https://dash.cloudflare.com/?to=/:account/tunnels).\n2.  Ejecuta el instalador con el token:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jO/IpmRD/lPRXuC8URK26opfPQdLD/B9ULoN3nTZoO4=",
+        "originContent": "That's it. The script will:",
+        "translatedContent": "Eso es todo. El script hará:"
+      },
+      {
+        "row": 3,
+        "rowsha": "JZK24CtuHnJngkRm+h2dOSCQb0PPQomAyMXNIn0FlOk=",
+        "originContent": "1.  Detect your environment (VPN or Public).",
+        "translatedContent": "1.  Detectar tu entorno (VPN o Público)."
+      },
+      {
+        "row": 4,
+        "rowsha": "GmiLNrT0MSADP/W1q6nVkc3Qw2yKV6KbISQoZsvY8NE=",
+        "originContent": "2.  Generate a secure Access Key.",
+        "translatedContent": "2.  Generar una Clave de Acceso segura."
+      },
+      {
+        "row": 5,
+        "rowsha": "nxRKG7zOaZiqyD2QnJHNixxSlMcktFvZ3RZ64ctI/Ps=",
+        "originContent": "3.  Give you a ready-to-use URL.",
+        "translatedContent": "3.  Proporcionarte una URL lista para usar."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "D6w+aHIN1oco3nydFiWmA8UNc23UfMT37fsGvRB9/6s=",
+        "originContent": "## 📱 Usage",
+        "translatedContent": "## 📱 Uso"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "POBqVx4Pc+lbLEvuzhyI9RxAn3sJqsqXHsp0Posm/1k=",
+        "originContent": "### 1. Zero-Config Access (Default)",
+        "translatedContent": "### 1. Acceso sin Configuración (Por Defecto)"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZmYbwovB9L6Ez01L7a6vdSGNOXQSe3ylmLed8CS/JPI=",
+        "originContent": "If you just want to try it out, the installer provides a **Quick Tunnel** URL:",
+        "translatedContent": "Si solo quieres probarlo, el instalador proporciona una URL de **Túnel Rápido**:"
+      },
+      {
+        "row": 11,
+        "rowsha": "OHOEGk4b40SjNX4otgv1M58evVg6/NIG+jg9CWE0Gvc=",
+        "originContent": "`https://<random-name>.trycloudflare.com/?key=<YOUR_KEY>`",
+        "translatedContent": "`https://<nombre-aleatorio>.trycloudflare.com/?key=<TU_CLAVE>`"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "7WLKIooynKh7vDWG+Gnx2ktUAkRm/HNTe+GULjr0UXs=",
+        "originContent": "*   **Pros**: Instant access from anywhere.",
+        "translatedContent": "*   **Ventajas**: Acceso instantáneo desde cualquier lugar."
+      },
+      {
+        "row": 14,
+        "rowsha": "EJlaAu5CJCziBUtwRwSINiOW/dEoWyVt7LPFH/AxWxM=",
+        "originContent": "*   **Cons**: URL changes if you restart the service.",
+        "translatedContent": "*   **Desventajas**: La URL cambia si reinicias el servicio."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "mKLcEZmFgLQt/mco8YIVkBUFNLQot2+x9rwDe1NUcNU=",
+        "originContent": "### 2. VPN Direct Access (Privacy First)",
+        "translatedContent": "### 2. Acceso Directo por VPN (Privacidad Primero)"
+      },
+      {
+        "row": 17,
+        "rowsha": "N+ZS4ohoK+8MlAn5VOvw6YIvkS3F0V31BXXhyAGeaEE=",
+        "originContent": "If **Tailscale** or **WireGuard** is detected, the installer skips the public tunnel and gives you a private link:",
+        "translatedContent": "Si se detecta **Tailscale** o **WireGuard**, el instalador omite el túnel público y te da un enlace privado:"
+      },
+      {
+        "row": 18,
+        "rowsha": "HKk+N3HqmJWoabnUVrZNVKNwV9G2rrZzK3z5+L0zy7I=",
+        "originContent": "`http://<VPN_IP>:3000/?key=<YOUR_KEY>`",
+        "translatedContent": "`http://<IP_VPN>:3000/?key=<TU_CLAVE>`"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ptZmHP3lwLKYUnlRCnkrJAAcuB9woAj7SEX5flDpBEg=",
+        "originContent": "*   **Pros**: Fastest speed, maximum privacy.",
+        "translatedContent": "*   **Ventajas**: Velocidad más rápida, máxima privacidad."
+      },
+      {
+        "row": 21,
+        "rowsha": "ZCGnKzxeAqtr8w8VeivpN4itz60+F5dq5de7RvRxkhc=",
+        "originContent": "*   **Cons**: Your phone must be connected to the VPN.",
+        "translatedContent": "*   **Desventajas**: Tu teléfono debe estar conectado a la VPN."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "0CFetpxl2KSfNG4Vc+PesjuFzL0NaXWeaAERFe6OrT0=",
+        "originContent": "### 3. Permanent Public Domain (Advanced)",
+        "translatedContent": "### 3. Dominio Público Permanente (Avanzado)"
+      },
+      {
+        "row": 24,
+        "rowsha": "ykILoXjKTIr+nB9xHyshLkeaR4DnEpZqkd8eBJWv7HY=",
+        "originContent": "Want a fixed URL like `dash.yoursite.com`?",
+        "translatedContent": "¿Quieres una URL fija como `dash.tusitio.com`?"
+      },
+      {
+        "row": 25,
+        "rowsha": "VzUjE69ufyjhvydQFrEtu+hfHwZTqlw5Ai4GjHA0h+c=",
+        "originContent": "1.  Obtain a **Cloudflare Tunnel Token** from [Cloudflare Dash \\> Networking \\> Tunnels](https://dash.cloudflare.com/?to=/:account/tunnels).",
+        "translatedContent": "1.  Obtén un **Token de Túnel de Cloudflare** desde [Cloudflare Dash \\> Networking \\> Tunnels](https://dash.cloudflare.com/?to=/:account/tunnels)."
+      },
+      {
+        "row": 26,
+        "rowsha": "BxHNEfleOEN6TBCdltEUx3GlLNVGPLyJzb2T4te3im8=",
+        "originContent": "2.  Run the installer with the token:",
+        "translatedContent": "2.  Ejecuta el instalador con el token:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    ```bash\n    cd skills/clawbridge\n    ./install.sh --token=<YOUR_TOKEN>\n    ```",
+    "ContentSha": "EAwJxVYKzhWoM1xetueyOT+/wLBpZL2ARxt9eBhYOyA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    cd skills/clawbridge\n    ./install.sh --token=<YOUR_TOKEN>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "dZpG1i6V5pI9F7pj+15Iefht+tDvtqhoTD00tdfobEM=",
+        "originContent": "    cd skills/clawbridge",
+        "translatedContent": "    cd skills/clawbridge"
+      },
+      {
+        "row": 3,
+        "rowsha": "Wqz6lJsty+JDIa+QDHvcCk9f2aYngQ3S0plz2pvtkBY=",
+        "originContent": "    ./install.sh --token=<YOUR_TOKEN>",
+        "translatedContent": "    ./install.sh --token=<YOUR_TOKEN>"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "    *   Or force a new Quick Tunnel: `./install.sh --force-cf`\n3.  After the installation is successful, go back to the Cloudflare Tunnel's **Public Hostname** (or **Routes**) page and click **Add a public hostname** to bind your own domain to `localhost:3000` for permanent access.\n\n### 4. Docker (Containerized)\nYou can run ClawBridge as a Docker container. The images are automatically published to the [GitHub Container Registry (ghcr.io)](https://github.com/dreamwing/clawbridge/pkgs/container/clawbridge).",
+    "ContentSha": "xjcbk0HXxKPLZVDuzHeATfK56dZ6Ymyag7BRpCaGyBE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    *   O forzar un nuevo Quick Tunnel: `./install.sh --force-cf`\n3.  Después de que la instalación sea exitosa, regrese a la página de **Nombre de Host Público** (o **Rutas**) del túnel de Cloudflare y haga clic en **Agregar un nombre de host público** para vincular su propio dominio a `localhost:3000` para acceso permanente.\n\n### 4. Docker (Contenerizado)\nPuede ejecutar ClawBridge como un contenedor Docker. Las imágenes se publican automáticamente en el [Registro de Contenedores de GitHub (ghcr.io)](https://github.com/dreamwing/clawbridge/pkgs/container/clawbridge).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rtE/iNK+NyzaxHvxRkNreAs/nSIaQ4VchmxHSjGqUow=",
+        "originContent": "    *   Or force a new Quick Tunnel: `./install.sh --force-cf`",
+        "translatedContent": "    *   O forzar un nuevo Quick Tunnel: `./install.sh --force-cf`"
+      },
+      {
+        "row": 2,
+        "rowsha": "CEWoo2yuolf5+ALHhldz/3OXGrPkC5fZv6OLQ5OUJJU=",
+        "originContent": "3.  After the installation is successful, go back to the Cloudflare Tunnel's **Public Hostname** (or **Routes**) page and click **Add a public hostname** to bind your own domain to `localhost:3000` for permanent access.",
+        "translatedContent": "3.  Después de que la instalación sea exitosa, regrese a la página de **Nombre de Host Público** (o **Rutas**) del túnel de Cloudflare y haga clic en **Agregar un nombre de host público** para vincular su propio dominio a `localhost:3000` para acceso permanente."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EJo7S1y/QOJYihKvpqzT5REpPDT+843lx8HfsX7NqPo=",
+        "originContent": "### 4. Docker (Containerized)",
+        "translatedContent": "### 4. Docker (Contenerizado)"
+      },
+      {
+        "row": 5,
+        "rowsha": "Y+PvrTAl0T1CJake28Lta4cg51qMurA6RfkkDPcGQLs=",
+        "originContent": "You can run ClawBridge as a Docker container. The images are automatically published to the [GitHub Container Registry (ghcr.io)](https://github.com/dreamwing/clawbridge/pkgs/container/clawbridge).",
+        "translatedContent": "Puede ejecutar ClawBridge como un contenedor Docker. Las imágenes se publican automáticamente en el [Registro de Contenedores de GitHub (ghcr.io)](https://github.com/dreamwing/clawbridge/pkgs/container/clawbridge)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ndocker pull ghcr.io/dreamwing/clawbridge:latest\ndocker run -d --name clawbridge \\\n  -p 3000:3000 \\\n  -e ACCESS_KEY=your_secret_key \\\n  -e OPENCLAW_STATE_DIR=/openclaw \\\n  -e OPENCLAW_WORKSPACE=/openclaw/workspace \\\n  -v ~/.openclaw:/openclaw:ro \\\n  -v ./data:/app/data \\\n  ghcr.io/dreamwing/clawbridge:latest\n```",
+    "ContentSha": "sH0kU/lK61aGs1sRhqEk4Ikfe+T+U9Nhs03DJPhIRGA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker pull ghcr.io/dreamwing/clawbridge:latest\ndocker run -d --name clawbridge \\\n  -p 3000:3000 \\\n  -e ACCESS_KEY=your_secret_key \\\n  -e OPENCLAW_STATE_DIR=/openclaw \\\n  -e OPENCLAW_WORKSPACE=/openclaw/workspace \\\n  -v ~/.openclaw:/openclaw:ro \\\n  -v ./data:/app/data \\\n  ghcr.io/dreamwing/clawbridge:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jNs9cu6j1adD2bxkpCiT4EYbHdIA/jgyRmYvIKMKvNU=",
+        "originContent": "docker pull ghcr.io/dreamwing/clawbridge:latest",
+        "translatedContent": "docker pull ghcr.io/dreamwing/clawbridge:latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "iY4Id9EokEsHa6CpOm4NYFaVMiLWt1gbMEwp9Tb2rME=",
+        "originContent": "docker run -d --name clawbridge \\",
+        "translatedContent": "docker run -d --name clawbridge \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "hAb04FD9KCVeJpZEQjyqdQSyS+Vt20oFabUb8CtPoAg=",
+        "originContent": "  -p 3000:3000 \\",
+        "translatedContent": "  -p 3000:3000 \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "DXRBUC+aVa2ftf+600ufVkJ7HWpr330vxV9AFmPWz10=",
+        "originContent": "  -e ACCESS_KEY=your_secret_key \\",
+        "translatedContent": "  -e ACCESS_KEY=your_secret_key \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "NGqfBSLBW7DC4DMmo8OQ0l7zfG/KIveKldk0/xM2lso=",
+        "originContent": "  -e OPENCLAW_STATE_DIR=/openclaw \\",
+        "translatedContent": "  -e OPENCLAW_STATE_DIR=/openclaw \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "F9cqazd/EA/lFBZV7mPZ/2+n4WmZMj4Lh+EVEz4jycA=",
+        "originContent": "  -e OPENCLAW_WORKSPACE=/openclaw/workspace \\",
+        "translatedContent": "  -e OPENCLAW_WORKSPACE=/openclaw/workspace \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "4cBLGPnFDlF8SbSdrxmEAt+rbWGJkX3fHbP6++6KpCI=",
+        "originContent": "  -v ~/.openclaw:/openclaw:ro \\",
+        "translatedContent": "  -v ~/.openclaw:/openclaw:ro \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "J7zxKkGDtlNJSIC9+2ht+++HTfeJJR3f6fwmNWm0r4k=",
+        "originContent": "  -v ./data:/app/data \\",
+        "translatedContent": "  -v ./data:/app/data \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "csO4Jd7YAcQmmQc3tRVGhoaJpQ15sgGXBPJhiEQw1Gk=",
+        "originContent": "  ghcr.io/dreamwing/clawbridge:latest",
+        "translatedContent": "  ghcr.io/dreamwing/clawbridge:latest"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## 📱 Mobile App (PWA)\n1.  Open the dashboard in Safari (iOS) or Chrome (Android).\n2.  Tap \"Share\" -> \"Add to Home Screen\".\n3.  Launch it like a native app (full screen, no browser bar).\n\n## 🛠️ Tech Stack\n*   **Backend**: Node.js (Express, WebSocket) - Lightweight sidecar process.\n*   **Frontend**: Vanilla JS - Zero build step, instant load.\n*   **Tunnel**: Cloudflared\n\n## Credits\n\nSpecial thanks to our community for helping improve ClawBridge:\n- [@yaochao](https://github.com/yaochao) for reporting critical security and portability issues and suggesting architectural refactoring (#1, #2, #3, #4, #5, #6, #7).\n- [@斯图超哥](https://x.com/StewartLi666) for feedback on Linux compatibility, IP detection stability, and Quick Tunnel refresh logic (#12).\n- [@zjy4fun](https://github.com/zjy4fun) for valuable contributions in workspace detection fix (PR #22).\n- [@chrisuhg](https://github.com/chrisuhg) for valuable contributions in resolving installation and auth loop issues (Issue #19).\n- [@ForceConstant](https://github.com/ForceConstant) for valuable contributions in Feature Request: versioned docker images (#24) (Issue #24).\n\n---\n*MIT License. Built for the OpenClaw Community.*\n",
+    "ContentSha": "F1ttViicEGWOMl7UyVHn2niNAXw1++FUb/mp5pQTQaM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📱 Aplicación Móvil (PWA)\n1.  Abre el panel de control en Safari (iOS) o Chrome (Android).\n2.  Toca \"Compartir\" -> \"Añadir a la pantalla de inicio\".\n3.  Iníciala como una app nativa (pantalla completa, sin barra del navegador).\n\n## 🛠️ Tecnología Utilizada\n*   **Backend**: Node.js (Express, WebSocket) - Proceso ligero sidecar.\n*   **Frontend**: JS puro - Sin paso de compilación, carga instantánea.\n*   **Túnel**: Cloudflared\n\n## Créditos\n\nAgradecimientos especiales a nuestra comunidad por ayudar a mejorar ClawBridge:\n- [@yaochao](https://github.com/yaochao) por reportar problemas críticos de seguridad y portabilidad y sugerir refactorizaciones arquitectónicas (#1, #2, #3, #4, #5, #6, #7).\n- [@斯图超哥](https://x.com/StewartLi666) por comentarios sobre compatibilidad con Linux, estabilidad en detección de IP y lógica de actualización rápida del túnel (#12).\n- [@zjy4fun](https://github.com/zjy4fun) por valiosas contribuciones en la corrección de la detección del espacio de trabajo (PR #22).\n- [@chrisuhg](https://github.com/chrisuhg) por valiosas contribuciones en la resolución de problemas de instalación y bucle de autenticación (Issue #19).\n- [@ForceConstant](https://github.com/ForceConstant) por valiosas contribuciones en Solicitud de Funcionalidad: imágenes docker versionadas (#24) (Issue #24).\n\n---\n*Licencia MIT. Construido para la Comunidad OpenClaw.*\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2vtVv4nXul5voUTkBITZT7bW0NlyS+XKE2FbLEdK77g=",
+        "originContent": "## 📱 Mobile App (PWA)",
+        "translatedContent": "## 📱 Aplicación Móvil (PWA)"
+      },
+      {
+        "row": 3,
+        "rowsha": "SCrK9b3zi71zY/+43q0tbjiQxRMq0FCNUqa1EwrBKBU=",
+        "originContent": "1.  Open the dashboard in Safari (iOS) or Chrome (Android).",
+        "translatedContent": "1.  Abre el panel de control en Safari (iOS) o Chrome (Android)."
+      },
+      {
+        "row": 4,
+        "rowsha": "1CUjmRvDbxAlGO68quBYnWW2YEh75lb6G+SHY7axCIs=",
+        "originContent": "2.  Tap \"Share\" -> \"Add to Home Screen\".",
+        "translatedContent": "2.  Toca \"Compartir\" -> \"Añadir a la pantalla de inicio\"."
+      },
+      {
+        "row": 5,
+        "rowsha": "FN7nXwKxGrFz+2bN9K2SsYMaQgmRx9foBOAWMVrNaS8=",
+        "originContent": "3.  Launch it like a native app (full screen, no browser bar).",
+        "translatedContent": "3.  Iníciala como una app nativa (pantalla completa, sin barra del navegador)."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "uF9tv30A/VV9RFgGHS2kim96TfH1k0m8iVMp/yKQrfc=",
+        "originContent": "## 🛠️ Tech Stack",
+        "translatedContent": "## 🛠️ Tecnología Utilizada"
+      },
+      {
+        "row": 8,
+        "rowsha": "/QLLnKXmQTx0t51kupAeJQqw2U9JrKlupU7i4ffU8Gk=",
+        "originContent": "*   **Backend**: Node.js (Express, WebSocket) - Lightweight sidecar process.",
+        "translatedContent": "*   **Backend**: Node.js (Express, WebSocket) - Proceso ligero sidecar."
+      },
+      {
+        "row": 9,
+        "rowsha": "7loN8n3zoHiWQYlqKsI3k5VmH5IddoKoUFO+AxEGJBo=",
+        "originContent": "*   **Frontend**: Vanilla JS - Zero build step, instant load.",
+        "translatedContent": "*   **Frontend**: JS puro - Sin paso de compilación, carga instantánea."
+      },
+      {
+        "row": 10,
+        "rowsha": "EIwhSy5StOHvBQLPV7LIswMdJczCX6n4SzIA4LHvt+o=",
+        "originContent": "*   **Tunnel**: Cloudflared",
+        "translatedContent": "*   **Túnel**: Cloudflared"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## Créditos"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "uV71RrQBfu8vjwhpj8e6oQa8/F/QbR1HI3GRsWer5qU=",
+        "originContent": "Special thanks to our community for helping improve ClawBridge:",
+        "translatedContent": "Agradecimientos especiales a nuestra comunidad por ayudar a mejorar ClawBridge:"
+      },
+      {
+        "row": 15,
+        "rowsha": "+7DqliOd1FwDBiUrXrnCLHcc+ZZhddAGjbXuREjujQ4=",
+        "originContent": "- [@yaochao](https://github.com/yaochao) for reporting critical security and portability issues and suggesting architectural refactoring (#1, #2, #3, #4, #5, #6, #7).",
+        "translatedContent": "- [@yaochao](https://github.com/yaochao) por reportar problemas críticos de seguridad y portabilidad y sugerir refactorizaciones arquitectónicas (#1, #2, #3, #4, #5, #6, #7)."
+      },
+      {
+        "row": 16,
+        "rowsha": "zoiHw/71OuSQLcG2T4H3CFH1VqjpC5mPrc8tlkmrqns=",
+        "originContent": "- [@斯图超哥](https://x.com/StewartLi666) for feedback on Linux compatibility, IP detection stability, and Quick Tunnel refresh logic (#12).",
+        "translatedContent": "- [@斯图超哥](https://x.com/StewartLi666) por comentarios sobre compatibilidad con Linux, estabilidad en detección de IP y lógica de actualización rápida del túnel (#12)."
+      },
+      {
+        "row": 17,
+        "rowsha": "TTSk3VZKm1jw5ZV/ilZt1a8CWNuc3f2fJ76NYubGCco=",
+        "originContent": "- [@zjy4fun](https://github.com/zjy4fun) for valuable contributions in workspace detection fix (PR #22).",
+        "translatedContent": "- [@zjy4fun](https://github.com/zjy4fun) por valiosas contribuciones en la corrección de la detección del espacio de trabajo (PR #22)."
+      },
+      {
+        "row": 18,
+        "rowsha": "BYI57qYvuQT/yU734RwedkbLIDplFj4SftmG8akuLOI=",
+        "originContent": "- [@chrisuhg](https://github.com/chrisuhg) for valuable contributions in resolving installation and auth loop issues (Issue #19).",
+        "translatedContent": "- [@chrisuhg](https://github.com/chrisuhg) por valiosas contribuciones en la resolución de problemas de instalación y bucle de autenticación (Issue #19)."
+      },
+      {
+        "row": 19,
+        "rowsha": "1cT3FCReZTgc6VeF94+38vvnPlp3f89o1DGNP48bj00=",
+        "originContent": "- [@ForceConstant](https://github.com/ForceConstant) for valuable contributions in Feature Request: versioned docker images (#24) (Issue #24).",
+        "translatedContent": "- [@ForceConstant](https://github.com/ForceConstant) por valiosas contribuciones en Solicitud de Funcionalidad: imágenes docker versionadas (#24) (Issue #24)."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 22,
+        "rowsha": "yaahhyA4fruXoICTZBwBCYnHyns+H4DtrXwYoXQ1Hdw=",
+        "originContent": "*MIT License. Built for the OpenClaw Community.*",
+        "translatedContent": "*Licencia MIT. Construido para la Comunidad OpenClaw.*"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
