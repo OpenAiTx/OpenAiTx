@@ -1,0 +1,734 @@
+[
+  {
+    "row": 1,
+    "rowsha": "egdzwQFneEqZUDuiKKQCVrApBKqDr36I7ZdKAEK0wGA=",
+    "originContent": "# fastbloom",
+    "translatedContent": "# fastbloom"
+  },
+  {
+    "row": 2,
+    "rowsha": "JUAKjSB9cBhId6vZA4slIZnDK1Y9NLHSfb1eY7lmoEk=",
+    "originContent": "[![Github](https://img.shields.io/badge/github-8da0cb?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/tomtomwombat/fastbloom)",
+    "translatedContent": "[![Github](https://img.shields.io/badge/github-8da0cb?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/tomtomwombat/fastbloom)"
+  },
+  {
+    "row": 3,
+    "rowsha": "9AGRwPclU7cLNHzcHUhcG6F0e3iZcbgW6aiq6n8sr1E=",
+    "originContent": "[![Crates.io](https://img.shields.io/badge/crates.io-fc8d62?style=for-the-badge&labelColor=555555&logo=rust)](https://crates.io/crates/fastbloom)",
+    "translatedContent": "[![Crates.io](https://img.shields.io/badge/crates.io-fc8d62?style=for-the-badge&labelColor=555555&logo=rust)](https://crates.io/crates/fastbloom)"
+  },
+  {
+    "row": 4,
+    "rowsha": "2w5vyao5Al8KC4PsEYtixaVaK3PEnHhjJ1Rtz7vKRJk=",
+    "originContent": "[![docs.rs](https://img.shields.io/badge/docs.rs-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs)](https://docs.rs/fastbloom)",
+    "translatedContent": "[![docs.rs](https://img.shields.io/badge/docs.rs-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs)](https://docs.rs/fastbloom)"
+  },
+  {
+    "row": 5,
+    "rowsha": "pVIGIy9HQEWDjxLZ8Feh+3x8QtD9Mebu/gnAWjpsMrM=",
+    "originContent": "![Downloads](https://img.shields.io/crates/d/fastbloom?style=for-the-badge)",
+    "translatedContent": "![Downloads](https://img.shields.io/crates/d/fastbloom?style=for-the-badge)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "gGu7jTcjFtCIW9PR8zPChh5b+nlr75fwj0+is66qJv0=",
+    "originContent": "The fastest Bloom filter in Rust. No accuracy compromises. Full concurrency support and compatible with any hasher.",
+    "translatedContent": "Rust에서 가장 빠른 Bloom 필터입니다. 정확도 손실 없이 완전한 동시성 지원과 모든 해셔와 호환됩니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+    "originContent": "## Overview",
+    "translatedContent": "## 개요"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "E8+lb67T0DWdNJUfIptj/EBC4u3wMxcKvfwB8OMdYo0=",
+    "originContent": "fastbloom is a fast, flexible, and accurate Bloom filter implemented in Rust. fastbloom's default hasher is SipHash-1-3 using randomized keys but can be seeded or configured to use any hasher. fastbloom is 2-20 times faster and magnitudes more accurate than existing Bloom filter implementations. fastbloom's `AtomicBloomFilter` is a concurrent Bloom filter that avoids lock contention.",
+    "translatedContent": "fastbloom은 Rust로 구현된 빠르고 유연하며 정확한 Bloom 필터입니다. fastbloom의 기본 해셔는 무작위 키를 사용하는 SipHash-1-3이지만, 시드를 설정하거나 어떤 해셔든 사용할 수 있도록 구성할 수 있습니다. fastbloom은 기존 Bloom 필터 구현보다 2~20배 빠르고 훨씬 더 정확합니다. fastbloom의 `AtomicBloomFilter`는 락 경합을 피하는 동시성 Bloom 필터입니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "4YZhe14Qc5NYUxCd2GW7A7mkSkwCDT8GBqS8sFAW6sY=",
+    "originContent": "Due to a different (improved!) algorithm in 0.17.x, Bloomfilters have incompatible serialization/deserialization with prior versions.",
+    "translatedContent": "0.17.x 버전에서 다른(개선된!) 알고리즘 때문에 Bloom 필터의 직렬화/역직렬화가 이전 버전과 호환되지 않습니다."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 18,
+    "rowsha": "u0U13FdWX3xx4uTKOx3LCNIyy84B3dFQjF0Icon0VU8=",
+    "originContent": "# Cargo.toml",
+    "translatedContent": "# Cargo.toml"
+  },
+  {
+    "row": 19,
+    "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+    "originContent": "[dependencies]",
+    "translatedContent": "[dependencies]"
+  },
+  {
+    "row": 20,
+    "rowsha": "fhYdh1nD8/NO6AF8D82WoMLMArtrIv6503JLFRNO+2I=",
+    "originContent": "fastbloom = \"0.17.0\"",
+    "translatedContent": "fastbloom = \"0.17.0\""
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "uQ66PXV1INPkS2ta5/aSkhdKEABDsF+/+9EETCh40t4=",
+    "originContent": "Basic usage:",
+    "translatedContent": "기본 사용법:"
+  },
+  {
+    "row": 23,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 24,
+    "rowsha": "RY3qOXvklLryip2HSWBFnpbNvDID1G+UXRsLJiIwaFo=",
+    "originContent": "use fastbloom::BloomFilter;",
+    "translatedContent": "use fastbloom::BloomFilter;"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "nDq9hPWGC5DDlm49ddPQrs7ww2G8yrdA+czGJe1SaAU=",
+    "originContent": "let mut filter = BloomFilter::with_num_bits(1024).expected_items(2);",
+    "translatedContent": "let mut filter = BloomFilter::with_num_bits(1024).expected_items(2);"
+  },
+  {
+    "row": 27,
+    "rowsha": "A2fJmicAQKTnTLTBjotwjawAQuciwgbUu2Y07+gyPGA=",
+    "originContent": "filter.insert(\"42\");",
+    "translatedContent": "filter.insert(\"42\");"
+  },
+  {
+    "row": 28,
+    "rowsha": "pdhJfnHiQbbTzk4nJTaMFCk42flIiwVvRAQubqPm9FM=",
+    "originContent": "filter.insert(\"🦀\");",
+    "translatedContent": "filter.insert(\"🦀\");"
+  },
+  {
+    "row": 29,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 30,
+    "rowsha": "LJ3G9OitlW9G3XX2aTm8Mx1kMIOHoFWf1lKNUEyR2eg=",
+    "originContent": "Instantiate with a target false positive rate:",
+    "translatedContent": "목표 오탐률로 인스턴스화:"
+  },
+  {
+    "row": 31,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 32,
+    "rowsha": "RY3qOXvklLryip2HSWBFnpbNvDID1G+UXRsLJiIwaFo=",
+    "originContent": "use fastbloom::BloomFilter;",
+    "translatedContent": "use fastbloom::BloomFilter;"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "s8cS+55XBjYVuDnWSJ1dEhtkA+FWtK9cyQr/u93I5YU=",
+    "originContent": "let filter = BloomFilter::with_false_pos(0.001).items([\"42\", \"🦀\"].iter());",
+    "translatedContent": "let filter = BloomFilter::with_false_pos(0.001).items([\"42\", \"🦀\"].iter());"
+  },
+  {
+    "row": 35,
+    "rowsha": "5alWqrf9YHWREZB9bUyYnDb4P5RUNoSpLiviflIZz3o=",
+    "originContent": "assert!(filter.contains(\"42\"));",
+    "translatedContent": "assert!(filter.contains(\"42\"));"
+  },
+  {
+    "row": 36,
+    "rowsha": "iwTADQf2ENvlzHcsKC9jbcxqYsF60wqfrvKZS8Jbe2o=",
+    "originContent": "assert!(filter.contains(\"🦀\"));",
+    "translatedContent": "assert!(filter.contains(\"🦀\"));"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "aVyU3OVeWEn3zpC0DO9vaiupuDRikkxafDGwup9jgPA=",
+    "originContent": "Use any hasher:",
+    "translatedContent": "임의의 해시 함수를 사용하세요:"
+  },
+  {
+    "row": 39,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 40,
+    "rowsha": "RY3qOXvklLryip2HSWBFnpbNvDID1G+UXRsLJiIwaFo=",
+    "originContent": "use fastbloom::BloomFilter;",
+    "translatedContent": "use fastbloom::BloomFilter;"
+  },
+  {
+    "row": 41,
+    "rowsha": "I+aFMRlD5lFxuWI+70D4psth09I5ckdmXjpn8KwuWDg=",
+    "originContent": "use foldhash::fast::RandomState;",
+    "translatedContent": "use foldhash::fast::RandomState;"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "6WokJaIcJlrDf/GQHE5OeQb4osqakgZWIC8wOlSBRSI=",
+    "originContent": "let filter = BloomFilter::with_num_bits(1024)",
+    "translatedContent": "let filter = BloomFilter::with_num_bits(1024)"
+  },
+  {
+    "row": 44,
+    "rowsha": "bGaiHhN09ROrzgFLHKwthELxJBXVxw6AFWdC2HsS870=",
+    "originContent": "    .hasher(RandomState::default())",
+    "translatedContent": "    .hasher(RandomState::default())"
+  },
+  {
+    "row": 45,
+    "rowsha": "2SDDDOQMZZsD14fv/THdApkiLJSKcyNuLY6Yw/lL6sk=",
+    "originContent": "    .items([\"42\", \"🦀\"].iter());",
+    "translatedContent": "    .items([\"42\", \"🦀\"].iter());"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "CsCdkX8NvNSRUs1Wu4nlz3TNV6kmVBzsbYAR78Y5OOI=",
+    "originContent": "Full concurrency support. `AtomicBloomFilter` is a drop-in replacement for `RwLock<OtherBloomFilter>` because all methods take `&self`:",
+    "translatedContent": "완전한 동시성 지원. `AtomicBloomFilter`는 모든 메서드가 `&self`를 받기 때문에 `RwLock<OtherBloomFilter>`의 대체제로 바로 사용할 수 있습니다:"
+  },
+  {
+    "row": 48,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 49,
+    "rowsha": "lhp+To5n8YtLAB9XBRnfkaJqarZ+QuMCFrmhYvpw6Jg=",
+    "originContent": "use fastbloom::AtomicBloomFilter;",
+    "translatedContent": "use fastbloom::AtomicBloomFilter;"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "3k5h+ctoao2qQy/r2aiwyLpVfWjnd5YLcai+pPfIAmo=",
+    "originContent": "let filter = AtomicBloomFilter::with_num_bits(1024).expected_items(2);",
+    "translatedContent": "let filter = AtomicBloomFilter::with_num_bits(1024).expected_items(2);"
+  },
+  {
+    "row": 52,
+    "rowsha": "A2fJmicAQKTnTLTBjotwjawAQuciwgbUu2Y07+gyPGA=",
+    "originContent": "filter.insert(\"42\");",
+    "translatedContent": "filter.insert(\"42\");"
+  },
+  {
+    "row": 53,
+    "rowsha": "pdhJfnHiQbbTzk4nJTaMFCk42flIiwVvRAQubqPm9FM=",
+    "originContent": "filter.insert(\"🦀\");",
+    "translatedContent": "filter.insert(\"🦀\");"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "nmRNiZdi9HZrUpvic4tHZFn3MkoXFW7pdDgvRAtHquU=",
+    "originContent": "## Background",
+    "translatedContent": "## 배경  "
+  },
+  {
+    "row": 57,
+    "rowsha": "BImNC4npLWJXYFN/VzF2FurLTs5OCiPD/sZe7/adm64=",
+    "originContent": "Bloom filters are space-efficient approximate membership set data structures supported by an underlying bit array to track item membership. To insert/check membership, a number of bits are set/checked at positions based on the item's hash. False positives from a membership check are possible, but false negatives are not. Once constructed, neither the Bloom filter's underlying memory usage nor number of bits per item change. [See more.](https://en.wikipedia.org/wiki/Bloom_filter)",
+    "translatedContent": "블룸 필터는 항목의 멤버십을 추적하기 위해 기본 비트 배열을 지원하는 공간 효율적인 근사 멤버십 집합 데이터 구조입니다. 멤버십 삽입/확인을 위해 항목의 해시를 기반으로 한 위치에서 여러 비트를 설정/확인합니다. 멤버십 확인 시 거짓 긍정은 발생할 수 있지만 거짓 부정은 발생하지 않습니다. 한 번 구성되면 블룸 필터의 기본 메모리 사용량이나 항목당 비트 수는 변경되지 않습니다. [자세히 보기.](https://en.wikipedia.org/wiki/Bloom_filter)"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+    "originContent": "```text",
+    "translatedContent": "```text"
+  },
+  {
+    "row": 60,
+    "rowsha": "70iWcMzY06GvVh1v+CBXKtPImTBnuTl204KCBjWPKFw=",
+    "originContent": "hash(4) ──────┬─────┬───────────────┐",
+    "translatedContent": "hash(4) ──────┬─────┬───────────────┐"
+  },
+  {
+    "row": 61,
+    "rowsha": "7bYK/cNVGGy7bo1+0r7D8hHaeRIFtzPCbY23mMv8tZw=",
+    "originContent": "              ↓     ↓               ↓",
+    "translatedContent": "              ↓     ↓               ↓"
+  },
+  {
+    "row": 62,
+    "rowsha": "liC1FILuNZPPLJHcAb86OmhN/Jzx9gcX6ilgmf/Y/jc=",
+    "originContent": "0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0",
+    "translatedContent": "0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0"
+  },
+  {
+    "row": 63,
+    "rowsha": "o+BJTeBparluPuw3g9gb9G+WGrMlANixabdBlxKumUM=",
+    "originContent": "  ↑           ↑           ↑",
+    "translatedContent": "  ↑           ↑           ↑"
+  },
+  {
+    "row": 64,
+    "rowsha": "VPzcboLu+C7ZZqHV6Bndd6TRarMrBJKNMR/CIMtX3k8=",
+    "originContent": "  └───────────┴───────────┴──── hash(3) (not in the set)",
+    "translatedContent": "  └───────────┴───────────┴──── hash(3) (not in the set)"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 구현"
+  },
+  {
+    "row": 67,
+    "rowsha": "UMMTNBuYDA+GHbAThRVdp6w2IwLFo8gBtq7Gg4BkaZ0=",
+    "originContent": "## Implementation",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "fastbloom은 각 아이템당 **단 하나의 실제 해시만으로도** 많은 인덱스 비트를 효율적으로 파생시키고, Bloom 필터에 관한 다른 연구 결과를 활용하기 때문에 매우 빠릅니다. fastbloom은 원래 64비트 해시의 두 32비트 절반에 대해 \"해시 합성(hash composition)\"을 사용합니다. 각 후속 해시는 원래 해시 값에 서로 다른 상수를 모듈러 산술과 비트 연산을 이용해 결합하여 파생됩니다. 이로 인해 같은 원래 해시 함수에서 파생되었음에도 불구하고 효과적으로 독립적이고 균등 분포된 해시 함수 집합이 만들어집니다. 두 원래 해시의 합성을 계산하는 것이 다른 시드를 사용해 해시를 다시 계산하는 것보다 빠릅니다. 이 기법은 [이 논문에서 자세히 설명되어 있습니다.](https://www.eecs.harvard.edu/~michaelm/postscripts/rsa2008.pdf)"
+  },
+  {
+    "row": 69,
+    "rowsha": "6i+hqi2exepaUtzfC6VitHsjOelVCGWEs1bRicVIAEs=",
+    "originContent": "fastbloom is blazingly fast because it efficiently derives many index bits from **only one real hash per item** and leverages other research findings on Bloom filters. fastbloom employs \"hash composition\" on two 32-bit halves of an original 64-bit hash. Each subsequent hash is derived by combining the original hash value with a different constant using modular arithmetic and bitwise operations. This results in a set of hash functions that are effectively independent and uniformly distributed, even though they are derived from the same original hash function. Computing the composition of two original hashes is faster than re-computing the hash with a different seed. This technique is [explained in depth in this paper.](https://www.eecs.harvard.edu/~michaelm/postscripts/rsa2008.pdf)",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 속도"
+  },
+  {
+    "row": 71,
+    "rowsha": "U9a7LC+6XybCh4tnKSrBF8ywvVTN21QaAv9WtiBj/Vk=",
+    "originContent": "## Speed",
+    "translatedContent": "- AMD Ryzen 9 5900X 12코어 프로세서             (3.70 GHz)"
+  },
+  {
+    "row": 72,
+    "rowsha": "4ySw4B3eLUVqzAGsDM5+Vis9PD8gv4G9tUVtM8UhHGs=",
+    "originContent": "- AMD Ryzen 9 5900X 12-Core Processor             (3.70 GHz)",
+    "translatedContent": "- 64비트 운영체제, x64 기반 프로세서"
+  },
+  {
+    "row": 73,
+    "rowsha": "6KryZN4YlmR4YW6BZpGLPhdmLm+RvyH8N4crzdpOHn4=",
+    "originContent": "- 64-bit operating system, x64-based processor",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![perf-non-member](https://github.com/user-attachments/assets/a825d2f7-4cd7-4b6b-a447-fd7f3dab356b)"
+  },
+  {
+    "row": 75,
+    "rowsha": "pCxtscMyVr7vrw+fcHr/TYDc1LbsadUG/cGscPtGWec=",
+    "originContent": "![perf-non-member](https://github.com/user-attachments/assets/a825d2f7-4cd7-4b6b-a447-fd7f3dab356b)",
+    "translatedContent": "![perf-member](https://github.com/user-attachments/assets/998f9470-b91f-460c-ad2d-1f197160c210)"
+  },
+  {
+    "row": 76,
+    "rowsha": "Ka3FemugH/1zbYccIH6H/iimJeBjeXvUebDoih66sek=",
+    "originContent": "![perf-member](https://github.com/user-attachments/assets/998f9470-b91f-460c-ad2d-1f197160c210)",
+    "translatedContent": "> 사용된 해시 함수:"
+  },
+  {
+    "row": 77,
+    "rowsha": "8IrYH6EIDPnxe3T7kOsHEFh0au956X+sh9kxbD10Nb0=",
+    "originContent": "> Hashers used:",
+    "translatedContent": "> - xxhash: sbbf"
+  },
+  {
+    "row": 78,
+    "rowsha": "o7sDrOg6sbySPcf+89fmU30b2E2pusS1eUqjLzjYvrE=",
+    "originContent": "> - xxhash: sbbf",
+    "translatedContent": "> - Sip1-3: bloom, bloomfilter, probabilistic-collections"
+  },
+  {
+    "row": 79,
+    "rowsha": "v+NUwGsWhmlTGX54zRqQX96neRqcB/4HFv7d83xCOkU=",
+    "originContent": "> - Sip1-3: bloom, bloomfilter, probabilistic-collections",
+    "translatedContent": "> - foldhash: fastbloom"
+  },
+  {
+    "row": 80,
+    "rowsha": "hisD9WbR4Px+B551vM6ZP8nmCQSATobp8XOLQB6jbWE=",
+    "originContent": "> - foldhash: fastbloom",
+    "translatedContent": "> "
+  },
+  {
+    "row": 81,
+    "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+    "originContent": "> ",
+    "translatedContent": "> [벤치마크 출처](https://github.com/tomtomwombat/bench-bloom-filters)"
+  },
+  {
+    "row": 82,
+    "rowsha": "kDQcNJOyej5k0v1fXVDhjx2OKyqEOiWXNiXKBofD1dU=",
+    "originContent": "> [Benchmark source](https://github.com/tomtomwombat/bench-bloom-filters)",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 정확도"
+  },
+  {
+    "row": 84,
+    "rowsha": "Wv2WbFrYE0jMN+ECyLtn0H9tbOzyqhGUq5/mqeyQ41E=",
+    "originContent": "## Accuracy",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "fastbloom은 정확도를 희생하지 않습니다. 아래는 다른 Bloom 필터 크레이트들과의 오탐률 비교입니다:"
+  },
+  {
+    "row": 86,
+    "rowsha": "WU2vYB64fYAcfOlpENS45uCoWmi/X3lj0112+UkF8rQ=",
+    "originContent": "fastbloom does not compromise accuracy. Below is a comparison of false positive rates with other Bloom filter crates:",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![fp](https://github.com/user-attachments/assets/17ddaab7-c63f-456a-9e2e-b22c7f994386)"
+  },
+  {
+    "row": 88,
+    "rowsha": "IxU9BYeX9n0tmphP2O4H+ARq8Nsx/E5MBI8YdLTDZHc=",
+    "originContent": "![fp](https://github.com/user-attachments/assets/17ddaab7-c63f-456a-9e2e-b22c7f994386)",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[벤치마크 출처](https://github.com/tomtomwombat/bench-bloom-filters)"
+  },
+  {
+    "row": 90,
+    "rowsha": "xENJf4rvrS/U/wNBTYEq5U0FL/4ofXsEk8XA9lVhnik=",
+    "originContent": "[Benchmark source](https://github.com/tomtomwombat/bench-bloom-filters)",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용 가능한 기능"
+  },
+  {
+    "row": 92,
+    "rowsha": "NnpSe/lTVfeE94IMrY/LLCaB26/l/4cQWp1ssG+hF/4=",
+    "originContent": "## Available Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **`rand`** - 기본 활성화되어 있으며, `DefaultHasher`가 하드웨어 소스 대신 `thread_rng()`를 사용해 랜덤 상태를 생성합니다. 사용자 공간 소스에서 엔트로피를 얻는 것이 훨씬 빠르지만, 이를 위해 추가 의존성이 필요합니다. 이 기능을 `default-features = false`로 비활성화하면 `DefaultHasher`가 `foldhash`를 사용해 엔트로피를 생성하며, 속도는 느리지만 코드가 훨씬 단순해집니다."
+  },
+  {
+    "row": 94,
+    "rowsha": "HeItXQoxWxc+8n6rgJ53q2BXAAK9rBmdSnsVIhf3WP4=",
+    "originContent": "- **`rand`** - Enabled by default, this has the `DefaultHasher` source its random state using `thread_rng()` instead of hardware sources. Getting entropy from a user-space source is considerably faster, but requires additional dependencies to achieve this. Disabling this feature by using `default-features = false` makes `DefaultHasher` source its entropy using `foldhash`, which will have a much simpler code footprint at the expense of speed.",
+    "translatedContent": "- **`serde`** - 가능할 경우 `BloomFilter`가 `Serialize`와 `Deserialize`를 구현합니다."
+  },
+  {
+    "row": 95,
+    "rowsha": "PmqL5tpo+loyyWSbvZAptDWk2osnXZ5vontAM+IaY0o=",
+    "originContent": "- **`serde`** - `BloomFilter`s implement `Serialize` and `Deserialize` when possible.",
+    "translatedContent": "- **`loom`** - `AtomicBloomFilter`는 [loom](https://github.com/tokio-rs/loom) 원자적 연산을 사용하여 loom 테스트와 호환됩니다."
+  },
+  {
+    "row": 96,
+    "rowsha": "dzDjUXRjFU0fywvN0EpGU8cZ9uA8DRbhDuo/NsA32EM=",
+    "originContent": "- **`loom`** - `AtomicBloomFilter`s use [loom](https://github.com/tokio-rs/loom) atomics, making it compatible with loom testing.",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 참고 문헌"
+  },
+  {
+    "row": 98,
+    "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+    "originContent": "## References",
+    "translatedContent": "- [Bloom filter - 위키백과](https://en.wikipedia.org/wiki/Bloom_filter)"
+  },
+  {
+    "row": 99,
+    "rowsha": "cpjodNA2TrNiFkiOhijZxGvKDUOqXLdofFuqJgn6tk0=",
+    "originContent": "- [Bloom filter - Wikipedia](https://en.wikipedia.org/wiki/Bloom_filter)",
+    "translatedContent": "- [Bloom filters debunked: Dispelling 30 Years of bad math with Coq!](https://gopiandcode.uk/logs/log-bloomfilters-debunked.html)"
+  },
+  {
+    "row": 100,
+    "rowsha": "gmnUN48T2dROokBxNosm1rKqaYsoop6crwjDTPG4XwA=",
+    "originContent": "- [Bloom filters debunked: Dispelling 30 Years of bad math with Coq!](https://gopiandcode.uk/logs/log-bloomfilters-debunked.html)",
+    "translatedContent": "- [Bloom Filter Interactive Demonstration](https://www.jasondavies.com/bloomfilter/)"
+  },
+  {
+    "row": 101,
+    "rowsha": "YqwhUeuf5ta3uGXMdpkBhohuQ4EKj5Z7VTueTw8rW5s=",
+    "originContent": "- [Bloom Filter Interactive Demonstration](https://www.jasondavies.com/bloomfilter/)",
+    "translatedContent": "- [Cache-, Hash- and Space-Efficient Bloom Filters](https://web.archive.org/web/20070623102632/http://algo2.iti.uni-karlsruhe.de/singler/publications/cacheefficientbloomfilters-wea2007.pdf)"
+  },
+  {
+    "row": 102,
+    "rowsha": "y7jvxhDSp2bsSqNIpDgyv2uzBxaWRSt4Qw9VToKnTsI=",
+    "originContent": "- [Cache-, Hash- and Space-Efficient Bloom Filters](https://web.archive.org/web/20070623102632/http://algo2.iti.uni-karlsruhe.de/singler/publications/cacheefficientbloomfilters-wea2007.pdf)",
+    "translatedContent": "- [Less hashing, same performance: Building a better Bloom filter](https://www.eecs.harvard.edu/~michaelm/postscripts/rsa2008.pdf)"
+  },
+  {
+    "row": 103,
+    "rowsha": "rsdws/U5oQ/qLvw2KeDbgN9deAYeDObL4AxdsAhZvko=",
+    "originContent": "- [Less hashing, same performance: Building a better Bloom filter](https://www.eecs.harvard.edu/~michaelm/postscripts/rsa2008.pdf)",
+    "translatedContent": "- [A fast alternative to the modulo reduction](https://lemire.me/blog/2016/06/27/a-fast-alternative-to-the-modulo-reduction/)"
+  },
+  {
+    "row": 104,
+    "rowsha": "t4WSbTUCsR9aTqJNyi0XWnFbVf0doFda+bNr1/ospLw=",
+    "originContent": "- [A fast alternative to the modulo reduction](https://lemire.me/blog/2016/06/27/a-fast-alternative-to-the-modulo-reduction/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "MNYB7UIPsCD6lB7uCXGdndMf3HBgpdWxxX+uM49bIZ4=",
+    "originContent": "Licensed under either of",
+    "translatedContent": "다음 중 하나의 라이선스 하에 허가됩니다"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "Ptz5j4KYbP9uJsRAH+CCj+OGqeA1X5cqylV9kRZY/20=",
+    "originContent": " * Apache License, Version 2.0",
+    "translatedContent": " * Apache 라이선스, 버전 2.0"
+  },
+  {
+    "row": 111,
+    "rowsha": "d/EDUCVzi3GuMI0zH8Y3BkUie+Vu2msdZjdx7ZQ9mIo=",
+    "originContent": "   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)",
+    "translatedContent": "   ([LICENSE-APACHE](LICENSE-APACHE) 또는 http://www.apache.org/licenses/LICENSE-2.0)"
+  },
+  {
+    "row": 112,
+    "rowsha": "R5c2YFtdCESg8cI+CfXEGHJsnOkrQaBfLLxRh99pViA=",
+    "originContent": " * MIT license",
+    "translatedContent": " * MIT 라이선스"
+  },
+  {
+    "row": 113,
+    "rowsha": "Z/yRPg4kHVjtN3VVRiQF2xb0iisVdVCAfeIjqsw2vvg=",
+    "originContent": "   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)",
+    "translatedContent": "   ([LICENSE-MIT](LICENSE-MIT) 또는 http://opensource.org/licenses/MIT)"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "7HFxXqfsyZjPu7JNIPscxbz8Ai4MR0pAkAg88I9mbKg=",
+    "originContent": "at your option.",
+    "translatedContent": "선택에 따라 적용됩니다."
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "zkHOt0UOVxAJsBonYtcjf1+nJbrp5LIAt7uYkWjQMOM=",
+    "originContent": "## Contribution",
+    "translatedContent": "## 기여"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "ehyEPmoQy5dzcVePeEF7Sof4mQiD9HZN9GNG0DQNgAY=",
+    "originContent": "Unless you explicitly state otherwise, any contribution intentionally submitted",
+    "translatedContent": "명시적으로 달리 명시하지 않는 한, Apache-2.0 라이선스에 정의된 바와 같이"
+  },
+  {
+    "row": 120,
+    "rowsha": "Dhz+sw6DFiLfhLbbggU0woGhdnnNI2VK7Mb3Wt2ypMM=",
+    "originContent": "for inclusion in the work by you, as defined in the Apache-2.0 license, shall be",
+    "translatedContent": "귀하가 작업에 포함시키기 위해 의도적으로 제출한 모든 기여는"
+  },
+  {
+    "row": 121,
+    "rowsha": "EBE36HhncZ0hwhQ1PpsatL0vky3h/qFdIAJ/L4ZztV0=",
+    "originContent": "dual licensed as above, without any additional terms or conditions.",
+    "translatedContent": "추가 조건 없이 위와 같이 이중 라이선스가 적용됩니다."
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

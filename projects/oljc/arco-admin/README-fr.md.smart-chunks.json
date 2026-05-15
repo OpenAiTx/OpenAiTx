@@ -1,0 +1,710 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n\n<a href=\"https://github.com/oljc/arco-admin\">\n  <img width=\"180\" src=\"https://github.com/user-attachments/assets/09c91ec6-1de8-400e-878c-e1066667ff08\" alt=\"Arco admin logo\">\n</a>\n\n<h1 align=\"center\">Arco Admin</h1>\n<p align=\"center\">一款开箱即用、功能丰富的中后台管理系统框架，最新技术栈的标准化规范项目。</p> \n\n简体中文 | [English](https://raw.githubusercontent.com/oljc/arco-admin/main/./README.en-US.md)\n\n[![Netlify Status](https://api.netlify.com/api/v1/badges/4177124c-546f-4726-a842-00b72bf864fa/deploy-status)](https://arco-admin.netlify.app)\n<a href=\"https://nodejs.org/en/about/previous-releases\" target=\"_blank\"><img alt=\"node compatibility\" src=\"https://img.shields.io/node/v/vite.svg\"></a>\n<img alt=\"License\" src=\"https://img.shields.io/github/license/oljc/arco-admin\">\n<img alt=\"Commit\" src=\"https://img.shields.io/github/last-commit/oljc/arco-admin.svg\">\n<img alt=\"Version\" src=\"https://img.shields.io/github/package-json/v/oljc/arco-admin/main\">\n\n[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&project-name=arco-admin&build-command=pnpm%20run%20build&install-command=pnpm%20i&output-directory=dist)\n[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oljc/arco-admin)\n[![EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&repository-name=arco-admin&project-name=arco-admin&install-command=pnpm%20i&build-command=pnpm%20run%20build&output-directory=dist)\n\n<img width=\"600\" src=\"https://github.com/user-attachments/assets/49f985f1-bd8b-4ff6-9d38-25becb7a579e\" alt=\"edgeone\" />\n\n本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助支持\n\n</div>\n\n## 特性\n+ ⚡️ 保持跟进最新的 Vue 和 Vite 版本。\n+ 👍🏻 [Vue](https://cn.vuejs.org) + 官方首推的 [Vue Router](https://router.vuejs.org/zh) + [Pinia](https://pinia.vuejs.org/zh)管理器。\n+ 🔩 字节跳动出品的企业级设计生态 [ArcoDesign](https://arco.design/) 组件库。\n+ 🎨 [Less](https://less.bootcss.com/) CSS 预处理器。\n+ 📚 采用 [i18n](https://github.com/intlify/vue-i18n-next/tree/master/packages/vue-i18n#readme) + [i18n-ally](https://github.com/lokalise/i18n-ally) 实现更简单、规范的自动化国际化方案。\n+ ⌨️ 内置多种业务场景页面、二次封装组件、框架支持配置轻松实现个性化定制。\n+ 🧚🏻 项目已全面采用 `ESM` 标准的模块化语法，紧随现代前端开发领域的大统一趋势。\n+ 📦 持续优化配置以跟进各个`依赖`、`Vite` 的更新、废弃、合并特性等，以实现最佳的打包优化效果。\n\n\n---\n",
+    "ContentSha": "sw5A/LXBXelGB1tlR1ZPLUiXK3wmhDFR7mLBW6m7u6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n\n<a href=\"https://github.com/oljc/arco-admin\">\n  <img width=\"180\" src=\"https://github.com/user-attachments/assets/09c91ec6-1de8-400e-878c-e1066667ff08\" alt=\"Logo Arco admin\">\n</a>\n\n<h1 align=\"center\">Arco Admin</h1>\n<p align=\"center\">Un cadre de système de gestion back-office riche en fonctionnalités et prêt à l'emploi, un projet normé avec la dernière pile technologique.</p> \n\nChinois simplifié | [Anglais](https://raw.githubusercontent.com/oljc/arco-admin/main/./README.en-US.md)\n\n[![Netlify Status](https://api.netlify.com/api/v1/badges/4177124c-546f-4726-a842-00b72bf864fa/deploy-status)](https://arco-admin.netlify.app)\n<a href=\"https://nodejs.org/en/about/previous-releases\" target=\"_blank\"><img alt=\"compatibilité node\" src=\"https://img.shields.io/node/v/vite.svg\"></a>\n<img alt=\"Licence\" src=\"https://img.shields.io/github/license/oljc/arco-admin\">\n<img alt=\"Commit\" src=\"https://img.shields.io/github/last-commit/oljc/arco-admin.svg\">\n<img alt=\"Version\" src=\"https://img.shields.io/github/package-json/v/oljc/arco-admin/main\">\n\n[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&project-name=arco-admin&build-command=pnpm%20run%20build&install-command=pnpm%20i&output-directory=dist)\n[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oljc/arco-admin)\n[![EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&repository-name=arco-admin&project-name=arco-admin&install-command=pnpm%20i&build-command=pnpm%20run%20build&output-directory=dist)\n\n<img width=\"600\" src=\"https://github.com/user-attachments/assets/49f985f1-bd8b-4ff6-9d38-25becb7a579e\" alt=\"edgeone\" />\n\nL'accélération CDN et la protection de sécurité de ce projet sont sponsorisées par [Tencent EdgeOne](https://edgeone.ai/zh?from=github)\n\n</div>\n\n## Caractéristiques\n+ ⚡️ Toujours à jour avec les dernières versions de Vue et Vite.\n+ 👍🏻 [Vue](https://cn.vuejs.org) + le [Vue Router](https://router.vuejs.org/zh) officiel recommandé + gestionnaire [Pinia](https://pinia.vuejs.org/zh).\n+ 🔩 Bibliothèque de composants d'écosystème de design d'entreprise [ArcoDesign](https://arco.design/) développée par ByteDance.\n+ 🎨 Préprocesseur CSS [Less](https://less.bootcss.com/).\n+ 📚 Utilisation de [i18n](https://github.com/intlify/vue-i18n-next/tree/master/packages/vue-i18n#readme) + [i18n-ally](https://github.com/lokalise/i18n-ally) pour une solution d’internationalisation automatisée plus simple et standardisée.\n+ ⌨️ Intégration de nombreuses pages de scénarios métier, composants encapsulés, support du cadre pour une personnalisation facile.\n+ 🧚🏻 Le projet utilise entièrement la syntaxe modulaire standard `ESM`, suivant la grande tendance unifiée du développement front-end moderne.\n+ 📦 Optimisation continue des configurations pour suivre les mises à jour, suppressions, et fusions de fonctionnalités des `dépendances` et de `Vite` afin d’obtenir une optimisation de bundling optimale.\n\n\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "WRhyCndjnSSFC/hXc1faN6Nl/3HCKJCaNZcbY4GPz5s=",
+        "originContent": "<a href=\"https://github.com/oljc/arco-admin\">",
+        "translatedContent": "<a href=\"https://github.com/oljc/arco-admin\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "fMtb9WT0McdB1K6uJpjUkYTUhVhwQFEe4cU7WYGepiA=",
+        "originContent": "  <img width=\"180\" src=\"https://github.com/user-attachments/assets/09c91ec6-1de8-400e-878c-e1066667ff08\" alt=\"Arco admin logo\">",
+        "translatedContent": "  <img width=\"180\" src=\"https://github.com/user-attachments/assets/09c91ec6-1de8-400e-878c-e1066667ff08\" alt=\"Logo Arco admin\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "VylToNFQpQzBDp8DAxwTjSxqPcqJprUzXA4woeX473Y=",
+        "originContent": "<h1 align=\"center\">Arco Admin</h1>",
+        "translatedContent": "<h1 align=\"center\">Arco Admin</h1>"
+      },
+      {
+        "row": 8,
+        "rowsha": "e80wB83BdFf+b7X9+/lIL+GkgpkQPFdh1kbgUypezm8=",
+        "originContent": "<p align=\"center\">一款开箱即用、功能丰富的中后台管理系统框架，最新技术栈的标准化规范项目。</p> ",
+        "translatedContent": "<p align=\"center\">Un cadre de système de gestion back-office riche en fonctionnalités et prêt à l'emploi, un projet normé avec la dernière pile technologique.</p> "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "dAYmMRWv1ieG38yBrP1JIIzpchatukscICQg9BGXUhI=",
+        "originContent": "简体中文 | [English](https://raw.githubusercontent.com/oljc/arco-admin/main/./README.en-US.md)",
+        "translatedContent": "Chinois simplifié | [Anglais](https://raw.githubusercontent.com/oljc/arco-admin/main/./README.en-US.md)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "EPqrjoRxd4QmvOYtxNdIKzxu1VbcsWcq8YN/yicS5mY=",
+        "originContent": "[![Netlify Status](https://api.netlify.com/api/v1/badges/4177124c-546f-4726-a842-00b72bf864fa/deploy-status)](https://arco-admin.netlify.app)",
+        "translatedContent": "[![Netlify Status](https://api.netlify.com/api/v1/badges/4177124c-546f-4726-a842-00b72bf864fa/deploy-status)](https://arco-admin.netlify.app)"
+      },
+      {
+        "row": 13,
+        "rowsha": "QYwNTksQtSxNd1Qfwb/5HbG1Pig4U+Seo4Q75XPgF3w=",
+        "originContent": "<a href=\"https://nodejs.org/en/about/previous-releases\" target=\"_blank\"><img alt=\"node compatibility\" src=\"https://img.shields.io/node/v/vite.svg\"></a>",
+        "translatedContent": "<a href=\"https://nodejs.org/en/about/previous-releases\" target=\"_blank\"><img alt=\"compatibilité node\" src=\"https://img.shields.io/node/v/vite.svg\"></a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "E3s4myGe7+Y8/mkJBeQF+duqV3YuqawgarBG7hqFURo=",
+        "originContent": "<img alt=\"License\" src=\"https://img.shields.io/github/license/oljc/arco-admin\">",
+        "translatedContent": "<img alt=\"Licence\" src=\"https://img.shields.io/github/license/oljc/arco-admin\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "cpvAfEO05Iq3MbeNQUyrxevoqPsvICM8srqxjpJC5pE=",
+        "originContent": "<img alt=\"Commit\" src=\"https://img.shields.io/github/last-commit/oljc/arco-admin.svg\">",
+        "translatedContent": "<img alt=\"Commit\" src=\"https://img.shields.io/github/last-commit/oljc/arco-admin.svg\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "7fuB1CW2SkZnFFPFbNSH7x4vxh6R9b+L97gy4Sp5fpk=",
+        "originContent": "<img alt=\"Version\" src=\"https://img.shields.io/github/package-json/v/oljc/arco-admin/main\">",
+        "translatedContent": "<img alt=\"Version\" src=\"https://img.shields.io/github/package-json/v/oljc/arco-admin/main\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "u2e3PojzTay5mgW0KPOWXS0y4kEY3gUqPkc0p47G6Z8=",
+        "originContent": "[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&project-name=arco-admin&build-command=pnpm%20run%20build&install-command=pnpm%20i&output-directory=dist)",
+        "translatedContent": "[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&project-name=arco-admin&build-command=pnpm%20run%20build&install-command=pnpm%20i&output-directory=dist)"
+      },
+      {
+        "row": 19,
+        "rowsha": "chnvGzy6esjb8hPGi7pHYF9tRmsnfFi7ctFEzddyTps=",
+        "originContent": "[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oljc/arco-admin)",
+        "translatedContent": "[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oljc/arco-admin)"
+      },
+      {
+        "row": 20,
+        "rowsha": "cTVe7R7hFu0nHJ6DgOS/c7XtHrL3IQHy7s7jtE6ALPg=",
+        "originContent": "[![EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&repository-name=arco-admin&project-name=arco-admin&install-command=pnpm%20i&build-command=pnpm%20run%20build&output-directory=dist)",
+        "translatedContent": "[![EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Foljc%2Farco-admin&repository-name=arco-admin&project-name=arco-admin&install-command=pnpm%20i&build-command=pnpm%20run%20build&output-directory=dist)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NsbHPvgQbA/LS+NvGw2txRhRBurjsli+Z1r0Ldjha5w=",
+        "originContent": "<img width=\"600\" src=\"https://github.com/user-attachments/assets/49f985f1-bd8b-4ff6-9d38-25becb7a579e\" alt=\"edgeone\" />",
+        "translatedContent": "<img width=\"600\" src=\"https://github.com/user-attachments/assets/49f985f1-bd8b-4ff6-9d38-25becb7a579e\" alt=\"edgeone\" />"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "bh1QrjYNbwWtWViG2yZO9k9CvKqZqpdzSqUVDAlXd0U=",
+        "originContent": "本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助支持",
+        "translatedContent": "L'accélération CDN et la protection de sécurité de ce projet sont sponsorisées par [Tencent EdgeOne](https://edgeone.ai/zh?from=github)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "6VSQ8joXevesK0lGXEyPCyZ9jqRQ7C/C7nmNw3JB3KQ=",
+        "originContent": "## 特性",
+        "translatedContent": "## Caractéristiques"
+      },
+      {
+        "row": 29,
+        "rowsha": "M15Hp4c9w61W+W6jzi0uhMJsqP37CakUfK1Y+JojBEA=",
+        "originContent": "+ ⚡️ 保持跟进最新的 Vue 和 Vite 版本。",
+        "translatedContent": "+ ⚡️ Toujours à jour avec les dernières versions de Vue et Vite."
+      },
+      {
+        "row": 30,
+        "rowsha": "0SN++97YhceQ+6mUL1ZXQIbR5VNHvVRfuVeUmNc0wrk=",
+        "originContent": "+ 👍🏻 [Vue](https://cn.vuejs.org) + 官方首推的 [Vue Router](https://router.vuejs.org/zh) + [Pinia](https://pinia.vuejs.org/zh)管理器。",
+        "translatedContent": "+ 👍🏻 [Vue](https://cn.vuejs.org) + le [Vue Router](https://router.vuejs.org/zh) officiel recommandé + gestionnaire [Pinia](https://pinia.vuejs.org/zh)."
+      },
+      {
+        "row": 31,
+        "rowsha": "nfzcMsVM4B17HKUoxCr3GKTelMCBmCNwuaxf/xVCBro=",
+        "originContent": "+ 🔩 字节跳动出品的企业级设计生态 [ArcoDesign](https://arco.design/) 组件库。",
+        "translatedContent": "+ 🔩 Bibliothèque de composants d'écosystème de design d'entreprise [ArcoDesign](https://arco.design/) développée par ByteDance."
+      },
+      {
+        "row": 32,
+        "rowsha": "nUrcpy7xzAM72+rPF6i+AJvFouzwpU4fR4UxPcTKwV4=",
+        "originContent": "+ 🎨 [Less](https://less.bootcss.com/) CSS 预处理器。",
+        "translatedContent": "+ 🎨 Préprocesseur CSS [Less](https://less.bootcss.com/)."
+      },
+      {
+        "row": 33,
+        "rowsha": "xkeHgIlrBNl+Ywg1rZQKhUvAgatcXu/MfYnzcjIC1kM=",
+        "originContent": "+ 📚 采用 [i18n](https://github.com/intlify/vue-i18n-next/tree/master/packages/vue-i18n#readme) + [i18n-ally](https://github.com/lokalise/i18n-ally) 实现更简单、规范的自动化国际化方案。",
+        "translatedContent": "+ 📚 Utilisation de [i18n](https://github.com/intlify/vue-i18n-next/tree/master/packages/vue-i18n#readme) + [i18n-ally](https://github.com/lokalise/i18n-ally) pour une solution d’internationalisation automatisée plus simple et standardisée."
+      },
+      {
+        "row": 34,
+        "rowsha": "rjJ6xIoRsBiJ5UWrRJxzRNFP7jzU1CA7rl8tYWuT5+s=",
+        "originContent": "+ ⌨️ 内置多种业务场景页面、二次封装组件、框架支持配置轻松实现个性化定制。",
+        "translatedContent": "+ ⌨️ Intégration de nombreuses pages de scénarios métier, composants encapsulés, support du cadre pour une personnalisation facile."
+      },
+      {
+        "row": 35,
+        "rowsha": "CbJMcggJbAJLJRUasmFHnnX2ufUzxqinaT92OiXEJWQ=",
+        "originContent": "+ 🧚🏻 项目已全面采用 `ESM` 标准的模块化语法，紧随现代前端开发领域的大统一趋势。",
+        "translatedContent": "+ 🧚🏻 Le projet utilise entièrement la syntaxe modulaire standard `ESM`, suivant la grande tendance unifiée du développement front-end moderne."
+      },
+      {
+        "row": 36,
+        "rowsha": "KBCcJ79RLM2WMw5GlpQkIuZlDtfLwlQ6zPv8PSmudPU=",
+        "originContent": "+ 📦 持续优化配置以跟进各个`依赖`、`Vite` 的更新、废弃、合并特性等，以实现最佳的打包优化效果。",
+        "translatedContent": "+ 📦 Optimisation continue des configurations pour suivre les mises à jour, suppressions, et fusions de fonctionnalités des `dépendances` et de `Vite` afin d’obtenir une optimisation de bundling optimale."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "<img src=\"https://github.com/user-attachments/assets/da090081-a568-4882-837e-38fd1dbe0a7f\">\n\n## 版本\n- 国际化版本：[i18n 分支](https://github.com/oljc/arco-admin/tree/i18n)\n\n## 规范\n提高代码质量、减少错误，并确保整个项目代码风格的一致性让你能够更轻松地管理代码质量和风格。\n\n+ **代码规范：**  [ESLint](https://eslint.org/) + [Stylelint](https://stylelint.io) + [Prettier](https://prettier.io)<br/>\n    *通过预先定义的规范来对代码语法、风格和格式的静态检查和规范来确保代码质量和可读性*\n\n+ **提交规范：**  [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) + [Commitlint](https://commitlint.js.org)<br/>\n  *提交代码时通过预设的代码风格检查、格式化和消息校验确保每次提交的代码质量和风格保持一致*\n\n## 浏览器支持\n",
+    "ContentSha": "meOvLcoYFwXcvyA4unzWijNik0dP9PpeeQ2xtK9q88A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<img src=\"https://github.com/user-attachments/assets/da090081-a568-4882-837e-38fd1dbe0a7f\">\n\n## Version\n- Version internationale : [branche i18n](https://github.com/oljc/arco-admin/tree/i18n)\n\n## Normes\nAméliorer la qualité du code, réduire les erreurs et garantir la cohérence du style de code dans tout le projet vous permet de gérer plus facilement la qualité et le style du code.\n\n+ **Normes de code :**  [ESLint](https://eslint.org/) + [Stylelint](https://stylelint.io) + [Prettier](https://prettier.io)<br/>\n    *Contrôle et standardisation statique de la syntaxe, du style et du format du code via des normes prédéfinies pour assurer la qualité et la lisibilité du code*\n\n+ **Normes de commit :**  [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) + [Commitlint](https://commitlint.js.org)<br/>\n  *Lors du commit, vérifier le style, formater et valider les messages selon des règles prédéfinies pour assurer la cohérence et la qualité du code à chaque commit*\n\n## Support des navigateurs\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5tzZYaW7ZuFnnqBWxAZiJLXjsPOVHqbnpkxkFQDGP7s=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/da090081-a568-4882-837e-38fd1dbe0a7f\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/da090081-a568-4882-837e-38fd1dbe0a7f\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Ope/i4sATLrpjHbq2xfKObVFIoiybS7jRZoQCDFFQ9U=",
+        "originContent": "## 版本",
+        "translatedContent": "## Version"
+      },
+      {
+        "row": 4,
+        "rowsha": "cFBiQFl0uBM2SCtGVdqZ7y0U2n2qp6leaM4hw99ShRY=",
+        "originContent": "- 国际化版本：[i18n 分支](https://github.com/oljc/arco-admin/tree/i18n)",
+        "translatedContent": "- Version internationale : [branche i18n](https://github.com/oljc/arco-admin/tree/i18n)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "WeRHLccIO9NONW3uyDFNmCS9G6ijoFwK2sl09ZsMt8w=",
+        "originContent": "## 规范",
+        "translatedContent": "## Normes"
+      },
+      {
+        "row": 7,
+        "rowsha": "B7RCV4nb2Y+dxVZ9NFEue9NKJ7ogzrg21/ahresvMTI=",
+        "originContent": "提高代码质量、减少错误，并确保整个项目代码风格的一致性让你能够更轻松地管理代码质量和风格。",
+        "translatedContent": "Améliorer la qualité du code, réduire les erreurs et garantir la cohérence du style de code dans tout le projet vous permet de gérer plus facilement la qualité et le style du code."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "BYljAXOd8eVjf5KuxvkMTaZ/50adH3ZGsPdFvnkw/UE=",
+        "originContent": "+ **代码规范：**  [ESLint](https://eslint.org/) + [Stylelint](https://stylelint.io) + [Prettier](https://prettier.io)<br/>",
+        "translatedContent": "+ **Normes de code :**  [ESLint](https://eslint.org/) + [Stylelint](https://stylelint.io) + [Prettier](https://prettier.io)<br/>"
+      },
+      {
+        "row": 10,
+        "rowsha": "s7Htu/+lJ410b+gCzaMuaIx2fiy4dYHCe3dJnuKKbM4=",
+        "originContent": "    *通过预先定义的规范来对代码语法、风格和格式的静态检查和规范来确保代码质量和可读性*",
+        "translatedContent": "    *Contrôle et standardisation statique de la syntaxe, du style et du format du code via des normes prédéfinies pour assurer la qualité et la lisibilité du code*"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Z9EIh1frbtXTRZqoYlLvaj69peAJGA5o/YbZfHdv4fg=",
+        "originContent": "+ **提交规范：**  [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) + [Commitlint](https://commitlint.js.org)<br/>",
+        "translatedContent": "+ **Normes de commit :**  [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) + [Commitlint](https://commitlint.js.org)<br/>"
+      },
+      {
+        "row": 13,
+        "rowsha": "wk6r+Ubgd/m/m61m2h6CHq/OKkxPWEaD8nqTDjPWfzo=",
+        "originContent": "  *提交代码时通过预设的代码风格检查、格式化和消息校验确保每次提交的代码质量和风格保持一致*",
+        "translatedContent": "  *Lors du commit, vérifier le style, formater et valider les messages selon des règles prédéfinies pour assurer la cohérence et la qualité du code à chaque commit*"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "ZN1IwqXn89Xoo+d6ytAu2Sc4RayahfTy7s/hSarhQiA=",
+        "originContent": "## 浏览器支持",
+        "translatedContent": "## Support des navigateurs"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "| <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png\" alt=\"Edge\" width=\"24px\" height=\"24px\" /><br/>Edge | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png\" alt=\"Firefox\" width=\"24px\" height=\"24px\" /><br/>Firefox | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png\" alt=\"Chrome\" width=\"24px\" height=\"24px\" /><br/>Chrome | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png\" alt=\"Safari\" width=\"24px\" height=\"24px\" /><br/>Safari | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png\" alt=\"Samsung\" width=\"24px\" height=\"24px\" /><br/>Samsung | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png\" alt=\"Opera\" width=\"24px\" height=\"24px\" /><br/>Opera | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png\" alt=\"Electron\" width=\"24px\" height=\"24px\" /><br/>Electron |",
+    "ContentSha": "gdAKpRLH1SiDx5DhiIu4Xt+kyem1BIxb1tmDcYgH3u8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png\" alt=\"Edge\" width=\"24px\" height=\"24px\" /><br/>Edge | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png\" alt=\"Firefox\" width=\"24px\" height=\"24px\" /><br/>Firefox | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png\" alt=\"Chrome\" width=\"24px\" height=\"24px\" /><br/>Chrome | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png\" alt=\"Safari\" width=\"24px\" height=\"24px\" /><br/>Safari | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png\" alt=\"Samsung\" width=\"24px\" height=\"24px\" /><br/>Samsung | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png\" alt=\"Opera\" width=\"24px\" height=\"24px\" /><br/>Opera | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png\" alt=\"Electron\" width=\"24px\" height=\"24px\" /><br/>Electron |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gdAKpRLH1SiDx5DhiIu4Xt+kyem1BIxb1tmDcYgH3u8=",
+        "originContent": "| <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png\" alt=\"Edge\" width=\"24px\" height=\"24px\" /><br/>Edge | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png\" alt=\"Firefox\" width=\"24px\" height=\"24px\" /><br/>Firefox | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png\" alt=\"Chrome\" width=\"24px\" height=\"24px\" /><br/>Chrome | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png\" alt=\"Safari\" width=\"24px\" height=\"24px\" /><br/>Safari | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png\" alt=\"Samsung\" width=\"24px\" height=\"24px\" /><br/>Samsung | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png\" alt=\"Opera\" width=\"24px\" height=\"24px\" /><br/>Opera | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png\" alt=\"Electron\" width=\"24px\" height=\"24px\" /><br/>Electron |",
+        "translatedContent": "| <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png\" alt=\"Edge\" width=\"24px\" height=\"24px\" /><br/>Edge | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png\" alt=\"Firefox\" width=\"24px\" height=\"24px\" /><br/>Firefox | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png\" alt=\"Chrome\" width=\"24px\" height=\"24px\" /><br/>Chrome | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png\" alt=\"Safari\" width=\"24px\" height=\"24px\" /><br/>Safari | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png\" alt=\"Samsung\" width=\"24px\" height=\"24px\" /><br/>Samsung | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png\" alt=\"Opera\" width=\"24px\" height=\"24px\" /><br/>Opera | <img src=\"https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png\" alt=\"Electron\" width=\"24px\" height=\"24px\" /><br/>Electron |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "| --------- | --------- | --------- | --------- | --------- | --------- | --------- |\n| Edge >=16| >= 31 | >= 49| >= 31| last 2 versions| >= 36 | last 2 versions\n\n## 使用\n1. 克隆此仓库",
+    "ContentSha": "pYrF5VInk2LWdpP1s6EuNcsSKHinl0ZLlbqMexQKypw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| --------- | --------- | --------- | --------- | --------- | --------- | --------- |\n| Edge >=16| >= 31 | >= 49| >= 31| dernières 2 versions| >= 36 | dernières 2 versions\n\n## Utilisation\n1. Cloner ce dépôt",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lwvHTPUN8mpIAqD1MGy5ufXSalAp2t6QEyhuMVE9LfA=",
+        "originContent": "| --------- | --------- | --------- | --------- | --------- | --------- | --------- |",
+        "translatedContent": "| --------- | --------- | --------- | --------- | --------- | --------- | --------- |"
+      },
+      {
+        "row": 2,
+        "rowsha": "cXSp+Ro7BnGSgS1SS8G78W6kYvF2HIDMFnOD7LOkoVg=",
+        "originContent": "| Edge >=16| >= 31 | >= 49| >= 31| last 2 versions| >= 36 | last 2 versions",
+        "translatedContent": "| Edge >=16| >= 31 | >= 49| >= 31| dernières 2 versions| >= 36 | dernières 2 versions"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "I4FpU8ic7PUGm9BEptiuWF80tMOzTycl9nb4jQq5g+U=",
+        "originContent": "## 使用",
+        "translatedContent": "## Utilisation"
+      },
+      {
+        "row": 5,
+        "rowsha": "wV1OXLtrYTQG8wQWwJfU+aZSBWMtNY7WugTDlrP49Gc=",
+        "originContent": "1. 克隆此仓库",
+        "translatedContent": "1. Cloner ce dépôt"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\ngit clone https://github.com/oljc/arco-admin\n```",
+    "ContentSha": "G4jd164obiGWr+4dNwiB9RX1N6fSawNXrPxzUOvq47w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/oljc/arco-admin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "4Xs+1FaUzCSk4ad8nZx8mJmKYdOPYzJTta3mFAujIx8=",
+        "originContent": "git clone https://github.com/oljc/arco-admin",
+        "translatedContent": "git clone https://github.com/oljc/arco-admin"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "2. 安装依赖",
+    "ContentSha": "hMTefiNByngjppyCXaPNDp1YHpIDS8sLaEsbhq9H+DM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Installation des dépendances",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hMTefiNByngjppyCXaPNDp1YHpIDS8sLaEsbhq9H+DM=",
+        "originContent": "2. 安装依赖",
+        "translatedContent": "2. Installation des dépendances"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\npnpm i\n```",
+    "ContentSha": "kyLVaSusGHdgQ/gC0QMEsZEcXQ5VWtPFUJdYegHrgT4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npnpm i\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "dviwe4vwlLU9FIODBVk6Ox3ehHgKfcZ9sb4gN6w2/LA=",
+        "originContent": "pnpm i",
+        "translatedContent": "pnpm i"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "3. 运行",
+    "ContentSha": "J/cnBovZqEv+zbv7bN5uW4WZP1VPq1FwBjg4BtWWIoc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. 运行",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "J/cnBovZqEv+zbv7bN5uW4WZP1VPq1FwBjg4BtWWIoc=",
+        "originContent": "3. 运行",
+        "translatedContent": "3. 运行"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\npnpm run dev\n```",
+    "ContentSha": "zd5sfEukGQlTNblx4inhIb1JtP/UDqCBRDPmIoya42c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npnpm run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "cExJlx76XCBcVkkNMbdYUSBLtWEu+X8xsjI+OiYiNYg=",
+        "originContent": "pnpm run dev",
+        "translatedContent": "pnpm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n#### VsCode 扩展推荐\n",
+    "ContentSha": "VzudGKL6exrj0S2lPQGr6GzPPq/9zeRfCkbUVhAIMIY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Recommandations d'extensions pour VsCode\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0xN9txbDMPsMK+vo0n8Tm5S1N4+RRbxkQr6ZgnjezvM=",
+        "originContent": "#### VsCode 扩展推荐",
+        "translatedContent": "#### Recommandations d'extensions pour VsCode"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "| [<img src=\"https://vue.gallerycdn.vsassets.io/extensions/vue/volar/2.2.4/1740301455362/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) | [<img src=\"https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.2/1687441427519/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |[<img src=\"https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.1.0/1690819498575/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |[<img src=\"https://lokalise.gallerycdn.vsassets.io/extensions/lokalise/i18n-ally/2.12.0/1695476646920/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) |[<img src=\"https://stylelint.gallerycdn.vsassets.io/extensions/stylelint/vscode-stylelint/1.3.0/1698920117910/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)|[<img src=\"https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.16.4/1607315835386/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)|[<img src=\"https://antfu.gallerycdn.vsassets.io/extensions/antfu/vite/0.2.5/1622972526798/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite)|",
+    "ContentSha": "nNcayKtdnaG44vWF9xRocjSaR9MZA0C0HVk0TV2tXJk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| [<img src=\"https://vue.gallerycdn.vsassets.io/extensions/vue/volar/2.2.4/1740301455362/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) | [<img src=\"https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.2/1687441427519/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |[<img src=\"https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.1.0/1690819498575/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |[<img src=\"https://lokalise.gallerycdn.vsassets.io/extensions/lokalise/i18n-ally/2.12.0/1695476646920/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) |[<img src=\"https://stylelint.gallerycdn.vsassets.io/extensions/stylelint/vscode-stylelint/1.3.0/1698920117910/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)|[<img src=\"https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.16.4/1607315835386/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)|[<img src=\"https://antfu.gallerycdn.vsassets.io/extensions/antfu/vite/0.2.5/1622972526798/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite)|",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nNcayKtdnaG44vWF9xRocjSaR9MZA0C0HVk0TV2tXJk=",
+        "originContent": "| [<img src=\"https://vue.gallerycdn.vsassets.io/extensions/vue/volar/2.2.4/1740301455362/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) | [<img src=\"https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.2/1687441427519/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |[<img src=\"https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.1.0/1690819498575/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |[<img src=\"https://lokalise.gallerycdn.vsassets.io/extensions/lokalise/i18n-ally/2.12.0/1695476646920/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) |[<img src=\"https://stylelint.gallerycdn.vsassets.io/extensions/stylelint/vscode-stylelint/1.3.0/1698920117910/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)|[<img src=\"https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.16.4/1607315835386/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)|[<img src=\"https://antfu.gallerycdn.vsassets.io/extensions/antfu/vite/0.2.5/1622972526798/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite)|",
+        "translatedContent": "| [<img src=\"https://vue.gallerycdn.vsassets.io/extensions/vue/volar/2.2.4/1740301455362/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) | [<img src=\"https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.2/1687441427519/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |[<img src=\"https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.1.0/1690819498575/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |[<img src=\"https://lokalise.gallerycdn.vsassets.io/extensions/lokalise/i18n-ally/2.12.0/1695476646920/Microsoft.VisualStudio.Services.Icons.Default\" width=\"24px\" height=\"24px\" /><br>i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) |[<img src=\"https://stylelint.gallerycdn.vsassets.io/extensions/stylelint/vscode-stylelint/1.3.0/1698920117910/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)|[<img src=\"https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.16.4/1607315835386/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)|[<img src=\"https://antfu.gallerycdn.vsassets.io/extensions/antfu/vite/0.2.5/1622972526798/Microsoft.VisualStudio.Services.Icons.Default\" width=\"25px\" height=\"25px\" /><br>Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite)|"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "| --- | --- | --- | ---| --- | --- | --- |\n\n## 成就\n已收录至 Vite 官方的 [awesome-vite](https://github.com/vitejs/awesome-vite#vue-3) 社区精选项目列表中 🎉 \n\n## 贡献\n欢迎任何形式的贡献，我们将会认真对待每一份参与。<br/><br/>\n<a href=\"https://github.com/oljc/arco-admin/graphs/contributors\"><img src=\"https://contrib.rocks/image?repo=oljc/arco-admin\" />\n</a><br/>\n\n# License\n本项目遵循 [MIT 协议](./LICENSE)许可证。\n\n[![趋势图](https://starchart.cc/oljc/arco-admin.svg)](https://starchart.cc/oljc/arco-admin)\n",
+    "ContentSha": "OrOYH+wxJyU5++Rj+DcyzhGXQF7JCgbfu5tsSTRImdw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| --- | --- | --- | ---| --- | --- | --- |\n\n## Réalisations\nInclus dans la liste des projets sélectionnés de la communauté officielle Vite [awesome-vite](https://github.com/vitejs/awesome-vite#vue-3) 🎉 \n\n## Contributions\nToute forme de contribution est bienvenue, nous traiterons chaque participation avec sérieux.<br/><br/>\n<a href=\"https://github.com/oljc/arco-admin/graphs/contributors\"><img src=\"https://contrib.rocks/image?repo=oljc/arco-admin\" />\n</a><br/>\n\n# Licence\nCe projet est sous licence [MIT](./LICENSE).\n\n[![Graphique de tendance](https://starchart.cc/oljc/arco-admin.svg)](https://starchart.cc/oljc/arco-admin)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "s5CP+6OmdRi7jv/Vrw9Eoe+8MjFFdGHbRl3F5Qerm5g=",
+        "originContent": "| --- | --- | --- | ---| --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- | ---| --- | --- | --- |"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "0VCMtDPqU82JSDHpvJ2Gg6dZ/shSJZbjeNn9nY1E7OA=",
+        "originContent": "## 成就",
+        "translatedContent": "## Réalisations"
+      },
+      {
+        "row": 4,
+        "rowsha": "RcxonX+b6hdjTzGp7mrigc7XSomFqN3qiOQiqzfVRps=",
+        "originContent": "已收录至 Vite 官方的 [awesome-vite](https://github.com/vitejs/awesome-vite#vue-3) 社区精选项目列表中 🎉 ",
+        "translatedContent": "Inclus dans la liste des projets sélectionnés de la communauté officielle Vite [awesome-vite](https://github.com/vitejs/awesome-vite#vue-3) 🎉 "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "n21AaWzPVnDL+9B1KLgyhXMhxcK1qNwq+SAny7Nifa4=",
+        "originContent": "## 贡献",
+        "translatedContent": "## Contributions"
+      },
+      {
+        "row": 7,
+        "rowsha": "VZCcHknPQmpKrvh7gOBGQC6GNllGugrfaHpwvXCWlTM=",
+        "originContent": "欢迎任何形式的贡献，我们将会认真对待每一份参与。<br/><br/>",
+        "translatedContent": "Toute forme de contribution est bienvenue, nous traiterons chaque participation avec sérieux.<br/><br/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "6tNBqJY/gMTZUvtOigTCn2aoku/MXc35i9fSVXKyKAg=",
+        "originContent": "<a href=\"https://github.com/oljc/arco-admin/graphs/contributors\"><img src=\"https://contrib.rocks/image?repo=oljc/arco-admin\" />",
+        "translatedContent": "<a href=\"https://github.com/oljc/arco-admin/graphs/contributors\"><img src=\"https://contrib.rocks/image?repo=oljc/arco-admin\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "nmROOjP6pYbFk7sTDP7fbTeWRlwTUEzeORWm2rA3hns=",
+        "originContent": "</a><br/>",
+        "translatedContent": "</a><br/>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "7Qo8+NblMV+ve9U8YJCAOSzx5hR1PsQgmN0TGjFj2ls=",
+        "originContent": "# License",
+        "translatedContent": "# Licence"
+      },
+      {
+        "row": 12,
+        "rowsha": "eQP/xi8LLZRLfcHFMCRVYJqb+hrsdmwLENEuCl4+HI8=",
+        "originContent": "本项目遵循 [MIT 协议](./LICENSE)许可证。",
+        "translatedContent": "Ce projet est sous licence [MIT](./LICENSE)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "fj3fnqXymceOoGTXQ+jo+HTHcMU9DH6ZU7vuoEphgSQ=",
+        "originContent": "[![趋势图](https://starchart.cc/oljc/arco-admin.svg)](https://starchart.cc/oljc/arco-admin)",
+        "translatedContent": "[![Graphique de tendance](https://starchart.cc/oljc/arco-admin.svg)](https://starchart.cc/oljc/arco-admin)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
