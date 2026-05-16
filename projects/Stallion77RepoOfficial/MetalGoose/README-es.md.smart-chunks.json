@@ -1,0 +1,1166 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Stallion77RepoOfficial/MetalGoose/main/Assets/logo.png\" alt=\"MetalGoose Logo\" width=\"128\" height=\"128\">\n  \n  # MetalGoose\n  \n  **GPU-accelerated upscaling and frame generation for macOS**\n  \n  [![macOS](https://img.shields.io/badge/macOS-26.0%2B-blue?logo=apple)](https://www.apple.com/macos/)\n  [![Metal](https://img.shields.io/badge/Metal-4.0-orange?logo=apple)](https://developer.apple.com/metal/)\n  [![License](https://img.shields.io/badge/License-GPL--3.0-green)](LICENSE)\n  [![Swift](https://img.shields.io/badge/Swift-6.2-FA7343?logo=swift)](https://swift.org)\n  \n  [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Requirements](#requirements) • [Building](#building) • [License](#license)\n</div>\n\n---\n\n## Overview\n\nMetalGoose is a native macOS application that provides real-time upscaling and frame generation for games and applications. Built entirely with Apple's Metal framework, it delivers a smooth, high-FPS experience similar to NVIDIA DLSS or AMD FSR, but designed specifically for macOS.\n\n## Features\n\n### MGUP-1 Upscaling\n- **Performance Mode** — Fastest upscaling with minimal latency\n- **Balanced Mode** — Optimal quality/performance ratio\n- **Quality Mode** — Maximum visual fidelity\n- Multiple render scales: Native, 75%, 67%, 50%, 33%\n- Contrast-adaptive sharpening (CAS)\n\n### MGFG-1 Frame Generation\n- **2x, 3x, 4x** frame multipliers\n- **Adaptive** or **Fixed** frame generation modes\n- Motion-compensated interpolation\n- Optical flow-based motion estimation\n- Quality modes: Performance, Balanced, Quality\n\n### Anti-Aliasing\n- **FXAA** — Fast approximate anti-aliasing\n- **SMAA** — Enhanced subpixel morphological AA",
+    "ContentSha": "tO52X+lmudCnnG10QsDD7MfV6B3nqSU9gqT7/ST93AQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Stallion77RepoOfficial/MetalGoose/main/Assets/logo.png\" alt=\"MetalGoose Logo\" width=\"128\" height=\"128\">\n  \n  # MetalGoose\n  \n  **Escalado y generación de fotogramas acelerados por GPU para macOS**\n  \n  [![macOS](https://img.shields.io/badge/macOS-26.0%2B-blue?logo=apple)](https://www.apple.com/macos/)\n  [![Metal](https://img.shields.io/badge/Metal-4.0-orange?logo=apple)](https://developer.apple.com/metal/)\n  [![License](https://img.shields.io/badge/License-GPL--3.0-green)](LICENSE)\n  [![Swift](https://img.shields.io/badge/Swift-6.2-FA7343?logo=swift)](https://swift.org)\n  \n  [Características](#features) • [Instalación](#installation) • [Uso](#usage) • [Requisitos](#requirements) • [Compilación](#building) • [Licencia](#license)\n</div>\n\n---\n\n## Visión general\n\nMetalGoose es una aplicación nativa para macOS que proporciona escalado en tiempo real y generación de fotogramas para juegos y aplicaciones. Construida íntegramente con el framework Metal de Apple, ofrece una experiencia fluida y de alta FPS similar a NVIDIA DLSS o AMD FSR, pero diseñada específicamente para macOS.\n\n## Características\n\n### Escalado MGUP-1\n- **Modo Rendimiento** — Escalado más rápido con latencia mínima\n- **Modo Equilibrado** — Relación calidad/rendimiento óptima\n- **Modo Calidad** — Máxima fidelidad visual\n- Múltiples escalas de renderizado: Nativo, 75%, 67%, 50%, 33%\n- Nitidez adaptativa al contraste (CAS)\n\n### Generación de Fotogramas MGFG-1\n- Multiplicadores de fotogramas **2x, 3x, 4x**\n- Modos de generación de fotogramas **Adaptativo** o **Fijo**\n- Interpolación compensada por movimiento\n- Estimación de movimiento basada en flujo óptico\n- Modos de calidad: Rendimiento, Equilibrado, Calidad\n\n### Anti-Aliasing\n- **FXAA** — Anti-aliasing aproximado rápido\n- **SMAA** — Anti-aliasing morfológico subpixel mejorado",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "pxGCE7wvN1PJltsh0LQGrhu7Y79HU09j5vatdzNHAPQ=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stallion77RepoOfficial/MetalGoose/main/Assets/logo.png\" alt=\"MetalGoose Logo\" width=\"128\" height=\"128\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stallion77RepoOfficial/MetalGoose/main/Assets/logo.png\" alt=\"MetalGoose Logo\" width=\"128\" height=\"128\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 4,
+        "rowsha": "TA0jI9Bt1FjOlG//sC+moJZFmDwnnZlp3cIV3g7sQSQ=",
+        "originContent": "  # MetalGoose",
+        "translatedContent": "  # MetalGoose"
+      },
+      {
+        "row": 5,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 6,
+        "rowsha": "DUDy6C7udmwetNEebjF2PdNNV/i7NyyiI7BaTf7P6+g=",
+        "originContent": "  **GPU-accelerated upscaling and frame generation for macOS**",
+        "translatedContent": "  **Escalado y generación de fotogramas acelerados por GPU para macOS**"
+      },
+      {
+        "row": 7,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 8,
+        "rowsha": "ubJOh28kcPNIutDFyYxZMG01qBKtsqPwfRSpbhxehBE=",
+        "originContent": "  [![macOS](https://img.shields.io/badge/macOS-26.0%2B-blue?logo=apple)](https://www.apple.com/macos/)",
+        "translatedContent": "  [![macOS](https://img.shields.io/badge/macOS-26.0%2B-blue?logo=apple)](https://www.apple.com/macos/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "90U6OSxhs2MLTvOhBBrsenf+zhy6Wnfm9xvBNy2NY1Q=",
+        "originContent": "  [![Metal](https://img.shields.io/badge/Metal-4.0-orange?logo=apple)](https://developer.apple.com/metal/)",
+        "translatedContent": "  [![Metal](https://img.shields.io/badge/Metal-4.0-orange?logo=apple)](https://developer.apple.com/metal/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "qx6wDwCBxmPsv6/Zs9Nzo09dZm3edWXwARjWox5X1Tc=",
+        "originContent": "  [![License](https://img.shields.io/badge/License-GPL--3.0-green)](LICENSE)",
+        "translatedContent": "  [![License](https://img.shields.io/badge/License-GPL--3.0-green)](LICENSE)"
+      },
+      {
+        "row": 11,
+        "rowsha": "m0S79AwC+69oAfzXo8uNt1ew+caU8XnPMOvgWmQ4v2s=",
+        "originContent": "  [![Swift](https://img.shields.io/badge/Swift-6.2-FA7343?logo=swift)](https://swift.org)",
+        "translatedContent": "  [![Swift](https://img.shields.io/badge/Swift-6.2-FA7343?logo=swift)](https://swift.org)"
+      },
+      {
+        "row": 12,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 13,
+        "rowsha": "zmi6UgmjjG5EhgKd66iKmPEGLpDdvm4/CeaIR3Aui5c=",
+        "originContent": "  [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Requirements](#requirements) • [Building](#building) • [License](#license)",
+        "translatedContent": "  [Características](#features) • [Instalación](#installation) • [Uso](#usage) • [Requisitos](#requirements) • [Compilación](#building) • [Licencia](#license)"
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Visión general"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yB3+9kqwR7nIsTrhBpYfvOmbldrPCVVuJpcmxrikbfM=",
+        "originContent": "MetalGoose is a native macOS application that provides real-time upscaling and frame generation for games and applications. Built entirely with Apple's Metal framework, it delivers a smooth, high-FPS experience similar to NVIDIA DLSS or AMD FSR, but designed specifically for macOS.",
+        "translatedContent": "MetalGoose es una aplicación nativa para macOS que proporciona escalado en tiempo real y generación de fotogramas para juegos y aplicaciones. Construida íntegramente con el framework Metal de Apple, ofrece una experiencia fluida y de alta FPS similar a NVIDIA DLSS o AMD FSR, pero diseñada específicamente para macOS."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ZD+P2OSr/w8o2u/WWqm8cfkbAaHjFLyyoys7GTnaSGw=",
+        "originContent": "### MGUP-1 Upscaling",
+        "translatedContent": "### Escalado MGUP-1"
+      },
+      {
+        "row": 25,
+        "rowsha": "oq7rFYrNZY8D57XkJNhmXbrSFu1Uk6wwuohF3na9MPs=",
+        "originContent": "- **Performance Mode** — Fastest upscaling with minimal latency",
+        "translatedContent": "- **Modo Rendimiento** — Escalado más rápido con latencia mínima"
+      },
+      {
+        "row": 26,
+        "rowsha": "Jzf6xPq5QSeNP70IzeKItTVZLgzJpvzTVnYe/+/TLe8=",
+        "originContent": "- **Balanced Mode** — Optimal quality/performance ratio",
+        "translatedContent": "- **Modo Equilibrado** — Relación calidad/rendimiento óptima"
+      },
+      {
+        "row": 27,
+        "rowsha": "9Obh38C3bJggHpIDRlGFmCBbirRwJ7aRV/dmM+Dx4TE=",
+        "originContent": "- **Quality Mode** — Maximum visual fidelity",
+        "translatedContent": "- **Modo Calidad** — Máxima fidelidad visual"
+      },
+      {
+        "row": 28,
+        "rowsha": "6qAs/Q7yBbN7fD9hXY/P3PO7gZ2KQa/BnoaULhKxMOA=",
+        "originContent": "- Multiple render scales: Native, 75%, 67%, 50%, 33%",
+        "translatedContent": "- Múltiples escalas de renderizado: Nativo, 75%, 67%, 50%, 33%"
+      },
+      {
+        "row": 29,
+        "rowsha": "NFop/OZ3HBsykJZAeoDXzLX3mCM5hZKufURlnTCqxuc=",
+        "originContent": "- Contrast-adaptive sharpening (CAS)",
+        "translatedContent": "- Nitidez adaptativa al contraste (CAS)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "t3/SCRQXS3fyZZCRdVnmWkUSmFjRZ2T83NU1Or18pvw=",
+        "originContent": "### MGFG-1 Frame Generation",
+        "translatedContent": "### Generación de Fotogramas MGFG-1"
+      },
+      {
+        "row": 32,
+        "rowsha": "hN6u25hot+s8dv1H6oGln6vsbFdEp8XAsEe7NuaSCDg=",
+        "originContent": "- **2x, 3x, 4x** frame multipliers",
+        "translatedContent": "- Multiplicadores de fotogramas **2x, 3x, 4x**"
+      },
+      {
+        "row": 33,
+        "rowsha": "4UD+IFEnDptAWpm2N6mFrng3+64IaUy3JQ0IHNTCJLw=",
+        "originContent": "- **Adaptive** or **Fixed** frame generation modes",
+        "translatedContent": "- Modos de generación de fotogramas **Adaptativo** o **Fijo**"
+      },
+      {
+        "row": 34,
+        "rowsha": "CmiI5AKH90DJoKyLq6dGAFIHlHN7nlfyL+05Z/wRNjw=",
+        "originContent": "- Motion-compensated interpolation",
+        "translatedContent": "- Interpolación compensada por movimiento"
+      },
+      {
+        "row": 35,
+        "rowsha": "8f87sFpi8V5Rq7OzRbDojIRW1B5QQZ3W8eBnHFMMvzU=",
+        "originContent": "- Optical flow-based motion estimation",
+        "translatedContent": "- Estimación de movimiento basada en flujo óptico"
+      },
+      {
+        "row": 36,
+        "rowsha": "qp9AYqOGNESQgyISejyeOfEHaJ1cdGLehLePe+lKQkY=",
+        "originContent": "- Quality modes: Performance, Balanced, Quality",
+        "translatedContent": "- Modos de calidad: Rendimiento, Equilibrado, Calidad"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "p7waVcbYUvCiriH23lAr+4ENGmxpq8FuvVxVQZSYSa4=",
+        "originContent": "### Anti-Aliasing",
+        "translatedContent": "### Anti-Aliasing"
+      },
+      {
+        "row": 39,
+        "rowsha": "bdkz43mmFDUncoSEKbGMwCWOs3cPOwuAshbRScOCCoY=",
+        "originContent": "- **FXAA** — Fast approximate anti-aliasing",
+        "translatedContent": "- **FXAA** — Anti-aliasing aproximado rápido"
+      },
+      {
+        "row": 40,
+        "rowsha": "xpqVixM53J3LF6ThkezMUSjVyEHLFz/OM+AV3ZP7pJ0=",
+        "originContent": "- **SMAA** — Enhanced subpixel morphological AA",
+        "translatedContent": "- **SMAA** — Anti-aliasing morfológico subpixel mejorado"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **MSAA** — Multi-sample anti-aliasing\n- **TAA** — Temporal anti-aliasing with history\n\n### Performance Monitoring\n- Real-time HUD overlay\n- Capture/Output/Interpolated FPS tracking\n- GPU time and frame time metrics\n- VRAM usage monitoring\n- Frame statistics\n\n## Requirements\n\n| Component | Requirement |\n|-----------|-------------|\n| **macOS** | 26.0 (Tahoe) or later |\n| **Chip** | Apple Silicon (M1/M2/M3/M4)\n| **Xcode** | 26.0 or later |\n| **RAM** | 8 GB minimum, 16 GB recommended |\n\n## Installation\n\n### Download Release\n1. Download the latest release from [Releases](https://github.com/Stallion77RepoOfficial/MetalGoose/releases)\n2. Move `MetalGoose.app` to `/Applications`\n3. Grant Screen Recording and Accessibility permissions when prompted\n\n### Build from Source",
+    "ContentSha": "2TTEyPp9+mJdwCIqW4Hgn5arD1i38MvwRWe82e4bdn4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **MSAA** — Anti-aliasing multisampling  \n- **TAA** — Anti-aliasing temporal con historial  \n\n### Monitoreo de Rendimiento  \n- Superposición HUD en tiempo real  \n- Seguimiento de FPS capturados/salida/interpolados  \n- Métricas de tiempo de GPU y tiempo de cuadro  \n- Monitoreo de uso de VRAM  \n- Estadísticas de cuadros  \n\n## Requisitos  \n\n| Componente | Requisito |  \n|------------|-----------|  \n| **macOS**  | 26.0 (Tahoe) o superior |  \n| **Chip**   | Apple Silicon (M1/M2/M3/M4) |  \n| **Xcode**  | 26.0 o superior |  \n| **RAM**    | Mínimo 8 GB, recomendado 16 GB |  \n\n## Instalación  \n\n### Descargar Versión  \n1. Descargue la última versión desde [Releases](https://github.com/Stallion77RepoOfficial/MetalGoose/releases)  \n2. Mueva `MetalGoose.app` a `/Applications`  \n3. Conceda permisos de Grabación de Pantalla y Accesibilidad cuando se le solicite  \n\n### Compilar desde el Código Fuente  ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XkKoqAAejwb5TFWC7W/rtmKTT7di+l5i4+ziZSDPOCk=",
+        "originContent": "- **MSAA** — Multi-sample anti-aliasing",
+        "translatedContent": "- **MSAA** — Anti-aliasing multisampling  "
+      },
+      {
+        "row": 2,
+        "rowsha": "oVC/zOtBEbMnn8o/BjdE/7SC0Jz6YDBkTKIeOU01i1w=",
+        "originContent": "- **TAA** — Temporal anti-aliasing with history",
+        "translatedContent": "- **TAA** — Anti-aliasing temporal con historial  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ktMLbTZ+cFrGpL9QNPFaNbojgXlPd8rCU+jFxsU/Hik=",
+        "originContent": "### Performance Monitoring",
+        "translatedContent": "### Monitoreo de Rendimiento  "
+      },
+      {
+        "row": 5,
+        "rowsha": "sSJ2EF8FVG9cAVgLjM3K9IprRrSLvZ9V2ekhTyUINkc=",
+        "originContent": "- Real-time HUD overlay",
+        "translatedContent": "- Superposición HUD en tiempo real  "
+      },
+      {
+        "row": 6,
+        "rowsha": "aq6swOZC7tF0wFyTc6FFPko9fTDRGlgs0iXVe8hzmtI=",
+        "originContent": "- Capture/Output/Interpolated FPS tracking",
+        "translatedContent": "- Seguimiento de FPS capturados/salida/interpolados  "
+      },
+      {
+        "row": 7,
+        "rowsha": "RmDf4Z7A19GXTCQz5l/oaRZul+D/iViLGRrET0uUqQI=",
+        "originContent": "- GPU time and frame time metrics",
+        "translatedContent": "- Métricas de tiempo de GPU y tiempo de cuadro  "
+      },
+      {
+        "row": 8,
+        "rowsha": "RGpXoTYcV3m3M11K8eiBazpoOz0ixoqq0XxR38j64HU=",
+        "originContent": "- VRAM usage monitoring",
+        "translatedContent": "- Monitoreo de uso de VRAM  "
+      },
+      {
+        "row": 9,
+        "rowsha": "QE20p7KIkqYLfH42oZ6XASvO7XuD+5Xhoraz98Eldkg=",
+        "originContent": "- Frame statistics",
+        "translatedContent": "- Estadísticas de cuadros  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Requisitos  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "mY7RwU5LSLPWcjbtyksthi+xaiDo7TfAQNaIJfiKjLs=",
+        "originContent": "| Component | Requirement |",
+        "translatedContent": "| Componente | Requisito |  "
+      },
+      {
+        "row": 14,
+        "rowsha": "BP3O3SceJlN46S502yfTY1UPbDpDLkV/rZSxLwmC4vM=",
+        "originContent": "|-----------|-------------|",
+        "translatedContent": "|------------|-----------|  "
+      },
+      {
+        "row": 15,
+        "rowsha": "m0Py9djYnrhENMUrRsDalPac8AK0TeHwYJAqJFrJElk=",
+        "originContent": "| **macOS** | 26.0 (Tahoe) or later |",
+        "translatedContent": "| **macOS**  | 26.0 (Tahoe) o superior |  "
+      },
+      {
+        "row": 16,
+        "rowsha": "hpwNM99JECAcwjAChoRy87wsdUc7V2yLUtx8W3VUdrk=",
+        "originContent": "| **Chip** | Apple Silicon (M1/M2/M3/M4)",
+        "translatedContent": "| **Chip**   | Apple Silicon (M1/M2/M3/M4) |  "
+      },
+      {
+        "row": 17,
+        "rowsha": "IWckKHdvVKfBZNiGFqBq8/ss30U1Jq4ypuHn3FFjr3M=",
+        "originContent": "| **Xcode** | 26.0 or later |",
+        "translatedContent": "| **Xcode**  | 26.0 o superior |  "
+      },
+      {
+        "row": 18,
+        "rowsha": "QBRkJVfCXuTZTvHMVGlvCv6I7M9EA/BBbcfilgtCPkY=",
+        "originContent": "| **RAM** | 8 GB minimum, 16 GB recommended |",
+        "translatedContent": "| **RAM**    | Mínimo 8 GB, recomendado 16 GB |  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "3o1L+9nisQ13ZfaUBYOgJkz+Xfx1waifQUfBbbv9r5o=",
+        "originContent": "### Download Release",
+        "translatedContent": "### Descargar Versión  "
+      },
+      {
+        "row": 23,
+        "rowsha": "mWMY8LuGAJpCOWf06WQVnmglKLI5hWBShf9WHCmTse4=",
+        "originContent": "1. Download the latest release from [Releases](https://github.com/Stallion77RepoOfficial/MetalGoose/releases)",
+        "translatedContent": "1. Descargue la última versión desde [Releases](https://github.com/Stallion77RepoOfficial/MetalGoose/releases)  "
+      },
+      {
+        "row": 24,
+        "rowsha": "Zc3s/FWNm6NEODaRFO7Cdc9AR1kDdj25qHHS1cOXliE=",
+        "originContent": "2. Move `MetalGoose.app` to `/Applications`",
+        "translatedContent": "2. Mueva `MetalGoose.app` a `/Applications`  "
+      },
+      {
+        "row": 25,
+        "rowsha": "j5TZKRso4dPjA4r8DzpcFyyMXUk5BHWDO2uK7epx8YU=",
+        "originContent": "3. Grant Screen Recording and Accessibility permissions when prompted",
+        "translatedContent": "3. Conceda permisos de Grabación de Pantalla y Accesibilidad cuando se le solicite  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "3/1CMAhz1NFDSIjdN+HcsLPKVZPQ9705RjAevQbLcOo=",
+        "originContent": "### Build from Source",
+        "translatedContent": "### Compilar desde el Código Fuente  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ngit clone https://github.com/Stallion77RepoOfficial/MetalGoose\ncd MetalGoose\nopen MetalGoose.xcodeproj\n```",
+    "ContentSha": "IADZBNzqzXq6KnChDhNgAYz0eYcIRoCRgjaM6W6U/Gk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/Stallion77RepoOfficial/MetalGoose\ncd MetalGoose\nopen MetalGoose.xcodeproj\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "d4rC0xb38+XFnUUgVn0zwy0yy5bZuhcAjqkHQrVTk4M=",
+        "originContent": "git clone https://github.com/Stallion77RepoOfficial/MetalGoose",
+        "translatedContent": "git clone https://github.com/Stallion77RepoOfficial/MetalGoose"
+      },
+      {
+        "row": 3,
+        "rowsha": "fvw/CDTMdonacokD3jC8zNvAsFI4SLuurKIEp1RL4YY=",
+        "originContent": "cd MetalGoose",
+        "translatedContent": "cd MetalGoose"
+      },
+      {
+        "row": 4,
+        "rowsha": "eAXrqkinNZiwQLIzT1Xqmi35T2mEyd+EedoO8jRkF7E=",
+        "originContent": "open MetalGoose.xcodeproj",
+        "translatedContent": "open MetalGoose.xcodeproj"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Usage\n\n1. **Launch MetalGoose**\n2. **Select Target**\n   - Choose a window or display to capture\n3. **Configure Settings**\n   - Enable upscaling (MGUP-1)\n   - Enable frame generation (MGFG-1) \n   - Select anti-aliasing mode\n4. **Start Scaling**\n   - Click \"Start\" to begin processing\n\n### Keyboard Shortcuts\n\n| Shortcut | Action |\n|----------|--------|\n| `⌘ + T` | Toggle Scale |\n\n# MetalGoose Error Codes\n\n## UI (MG-UI)\n- MG-UI-002: Frontmost app is MetalGoose; user must switch to target window.\n- MG-UI-003: Target window not found for the selected app.\n- MG-UI-004: No display found.\n- MG-UI-005: Fullscreen window detected; virtual display requires windowed or borderless mode.\n- MG-UI-006: Target window bounds unavailable.\n- MG-UI-007: Display ID not found for target screen.\n- MG-UI-008: Display refresh rate unavailable.\n\n## Engine (MG-ENG)\n- MG-ENG-001: Metal pipeline setup failed.\n- MG-ENG-002: Metal device not available.\n- MG-ENG-003: Metal command queue not available.\n- MG-ENG-004: MetalFX Spatial Scaler creation failed.\n- MG-ENG-005: Optical flow pipeline unavailable.\n- MG-ENG-006: Frame interpolation failed.\n- MG-ENG-007: Anti-aliasing pipeline unavailable.\n- MG-ENG-008: Scale pipeline unavailable.\n- MG-ENG-009: CAS pipeline unavailable.",
+    "ContentSha": "0VEDero1ExHxFa3uhtcM8OmQTN0HPhaV3Att1ndkbzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Uso\n\n1. **Lanzar MetalGoose**  \n2. **Seleccionar objetivo**  \n   - Elegir una ventana o pantalla para capturar  \n3. **Configurar ajustes**  \n   - Activar aumento de resolución (MGUP-1)  \n   - Activar generación de fotogramas (MGFG-1)  \n   - Seleccionar modo de anti-aliasing  \n4. **Iniciar escalado**  \n   - Hacer clic en \"Iniciar\" para comenzar el procesamiento  \n\n### Atajos de teclado  \n\n| Atajo    | Acción           |  \n|----------|------------------|  \n| `⌘ + T`  | Alternar escala  |  \n\n# Códigos de error de MetalGoose  \n\n## Interfaz de usuario (MG-UI)  \n- MG-UI-002: La aplicación en primer plano es MetalGoose; el usuario debe cambiar a la ventana objetivo.  \n- MG-UI-003: Ventana objetivo no encontrada para la aplicación seleccionada.  \n- MG-UI-004: No se encontró pantalla.  \n- MG-UI-005: Ventana a pantalla completa detectada; la pantalla virtual requiere modo ventana o sin bordes.  \n- MG-UI-006: Límites de la ventana objetivo no disponibles.  \n- MG-UI-007: ID de pantalla no encontrado para la pantalla objetivo.  \n- MG-UI-008: Frecuencia de actualización de pantalla no disponible.  \n\n## Motor (MG-ENG)  \n- MG-ENG-001: Configuración de la tubería Metal falló.  \n- MG-ENG-002: Dispositivo Metal no disponible.  \n- MG-ENG-003: Cola de comandos Metal no disponible.  \n- MG-ENG-004: Creación del escalador espacial MetalFX falló.  \n- MG-ENG-005: Tubería de flujo óptico no disponible.  \n- MG-ENG-006: Interpolación de fotogramas fallida.  \n- MG-ENG-007: Tubería de anti-aliasing no disponible.  \n- MG-ENG-008: Tubería de escalado no disponible.  \n- MG-ENG-009: Tubería CAS no disponible.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Lanzar MetalGoose**  "
+      },
+      {
+        "row": 4,
+        "rowsha": "8rKEfp9BsIjv6E5Ze3wEkbHU+AMNBDhQe21AalCk9kI=",
+        "originContent": "1. **Launch MetalGoose**",
+        "translatedContent": "2. **Seleccionar objetivo**  "
+      },
+      {
+        "row": 5,
+        "rowsha": "uuabQBB8HVXE1Zbj+zj8Swb8UVamzmbKiv6Qjg5Biuc=",
+        "originContent": "2. **Select Target**",
+        "translatedContent": "   - Elegir una ventana o pantalla para capturar  "
+      },
+      {
+        "row": 6,
+        "rowsha": "3qciZMVHmok3UipOrYGmtcy2do6fm4fmx0q8UcnzfF4=",
+        "originContent": "   - Choose a window or display to capture",
+        "translatedContent": "3. **Configurar ajustes**  "
+      },
+      {
+        "row": 7,
+        "rowsha": "xHkf7HmpwmdnM36fyt1P9uMqiuR6QmHwS7YVU4KpBGw=",
+        "originContent": "3. **Configure Settings**",
+        "translatedContent": "   - Activar aumento de resolución (MGUP-1)  "
+      },
+      {
+        "row": 8,
+        "rowsha": "6rcECapf8/yHmbMkdRit+vbWbid+fvnitTANgR1nMlw=",
+        "originContent": "   - Enable upscaling (MGUP-1)",
+        "translatedContent": "   - Activar generación de fotogramas (MGFG-1)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "O9QJtgFyo9gbW/AHaB4UbF4ANfIBKJ5k9sbGz2vsKok=",
+        "originContent": "   - Enable frame generation (MGFG-1) ",
+        "translatedContent": "   - Seleccionar modo de anti-aliasing  "
+      },
+      {
+        "row": 10,
+        "rowsha": "D7qWvdgxOS+KJ6OldAQJlKd6ZDlx/Nu3QtF9CUPXNTw=",
+        "originContent": "   - Select anti-aliasing mode",
+        "translatedContent": "4. **Iniciar escalado**  "
+      },
+      {
+        "row": 11,
+        "rowsha": "kzXEHJZxaf/BeddipKYuc2EsW/Gf0FTlJHhPD7F1sbQ=",
+        "originContent": "4. **Start Scaling**",
+        "translatedContent": "   - Hacer clic en \"Iniciar\" para comenzar el procesamiento  "
+      },
+      {
+        "row": 12,
+        "rowsha": "wc/cJzULcioFY1ZruqLp0UqJJaCVELh5lKDuYYewv+k=",
+        "originContent": "   - Click \"Start\" to begin processing",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Atajos de teclado  "
+      },
+      {
+        "row": 14,
+        "rowsha": "z7+4A5vJfMtbJg5wXr5msio01eGdcJ3aGmMQTnYEYWU=",
+        "originContent": "### Keyboard Shortcuts",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Atajo    | Acción           |  "
+      },
+      {
+        "row": 16,
+        "rowsha": "Qwbi7K0F0iSDNdT08Q03lVKrXfnrqe/dwf10ZxFsTB0=",
+        "originContent": "| Shortcut | Action |",
+        "translatedContent": "|----------|------------------|  "
+      },
+      {
+        "row": 17,
+        "rowsha": "J7yKnud4hoTFOFiLy9ISqK67w+LeJq9eXxdxtTyORl0=",
+        "originContent": "|----------|--------|",
+        "translatedContent": "| `⌘ + T`  | Alternar escala  |  "
+      },
+      {
+        "row": 18,
+        "rowsha": "BfxvFu4FtgToFIzxtW3JkYrEqvXyjWHwMk+1J/t1Y9E=",
+        "originContent": "| `⌘ + T` | Toggle Scale |",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Códigos de error de MetalGoose  "
+      },
+      {
+        "row": 20,
+        "rowsha": "Az364x0Hu5jcu6V1zqZJ5DmAVMHBPEUQs70O5P482zs=",
+        "originContent": "# MetalGoose Error Codes",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Interfaz de usuario (MG-UI)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "OMwr3oHaufTkaCytM73YzNglhKMxM34F7U1j8gyeZis=",
+        "originContent": "## UI (MG-UI)",
+        "translatedContent": "- MG-UI-002: La aplicación en primer plano es MetalGoose; el usuario debe cambiar a la ventana objetivo.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "+qLIXYu4+cgnh8DEhLNxCtpKST6iAeLXSGWTejZmr3E=",
+        "originContent": "- MG-UI-002: Frontmost app is MetalGoose; user must switch to target window.",
+        "translatedContent": "- MG-UI-003: Ventana objetivo no encontrada para la aplicación seleccionada.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "NOE6Qm41u7mF21pHfxRLMWJYGMUpaxRgKZOZ7qL+Dcs=",
+        "originContent": "- MG-UI-003: Target window not found for the selected app.",
+        "translatedContent": "- MG-UI-004: No se encontró pantalla.  "
+      },
+      {
+        "row": 25,
+        "rowsha": "IZa0kQg9YwUYDweavKW+KqZzgJTOkZu2PHW9HMomgFU=",
+        "originContent": "- MG-UI-004: No display found.",
+        "translatedContent": "- MG-UI-005: Ventana a pantalla completa detectada; la pantalla virtual requiere modo ventana o sin bordes.  "
+      },
+      {
+        "row": 26,
+        "rowsha": "I/apWlbvNHIzVUwoGy97ODtF/o7l7b9LBsTS8EU6hEQ=",
+        "originContent": "- MG-UI-005: Fullscreen window detected; virtual display requires windowed or borderless mode.",
+        "translatedContent": "- MG-UI-006: Límites de la ventana objetivo no disponibles.  "
+      },
+      {
+        "row": 27,
+        "rowsha": "SnpD0DodDzM0nTAsoK/+flfjiAgAG1HtKovGFr8jBLU=",
+        "originContent": "- MG-UI-006: Target window bounds unavailable.",
+        "translatedContent": "- MG-UI-007: ID de pantalla no encontrado para la pantalla objetivo.  "
+      },
+      {
+        "row": 28,
+        "rowsha": "qdNXOBCSCsSHKplG9PH+xuNlYtfE9/ErvXle/C38nlY=",
+        "originContent": "- MG-UI-007: Display ID not found for target screen.",
+        "translatedContent": "- MG-UI-008: Frecuencia de actualización de pantalla no disponible.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "h3BgnkgHEvqzdHyQCuyN0GGxCbrmmNYsYOLvHeqsU1Y=",
+        "originContent": "- MG-UI-008: Display refresh rate unavailable.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Motor (MG-ENG)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "odp870oX33Ypzy31kDWG6YTtzTAJLd8kSqqa0atjJLk=",
+        "originContent": "## Engine (MG-ENG)",
+        "translatedContent": "- MG-ENG-001: Configuración de la tubería Metal falló.  "
+      },
+      {
+        "row": 32,
+        "rowsha": "GUdPqNZH1VmJcc44KwvNYQvdFynfurINjxz0GbmNfuo=",
+        "originContent": "- MG-ENG-001: Metal pipeline setup failed.",
+        "translatedContent": "- MG-ENG-002: Dispositivo Metal no disponible.  "
+      },
+      {
+        "row": 33,
+        "rowsha": "XRpWvSj6CglsWI8drysVxA8MS71S2skKoiFGBcxJN5A=",
+        "originContent": "- MG-ENG-002: Metal device not available.",
+        "translatedContent": "- MG-ENG-003: Cola de comandos Metal no disponible.  "
+      },
+      {
+        "row": 34,
+        "rowsha": "yheza3XocN9vV6agjnu0ArN67rKZ7eJFu5Etjh5n8KU=",
+        "originContent": "- MG-ENG-003: Metal command queue not available.",
+        "translatedContent": "- MG-ENG-004: Creación del escalador espacial MetalFX falló.  "
+      },
+      {
+        "row": 35,
+        "rowsha": "Rarl7BYwv4HaBYl506W3VMy8xBWdkJY1zu+4xmi3pag=",
+        "originContent": "- MG-ENG-004: MetalFX Spatial Scaler creation failed.",
+        "translatedContent": "- MG-ENG-005: Tubería de flujo óptico no disponible.  "
+      },
+      {
+        "row": 36,
+        "rowsha": "Dk9lEHZ3Awuk29KHHms77uoVgfo9siu7DkKBw16Kf1s=",
+        "originContent": "- MG-ENG-005: Optical flow pipeline unavailable.",
+        "translatedContent": "- MG-ENG-006: Interpolación de fotogramas fallida.  "
+      },
+      {
+        "row": 37,
+        "rowsha": "HCVneAcu1wQ2VNv3H1AYfF7jDqzDDH58/9xVlOR9zXA=",
+        "originContent": "- MG-ENG-006: Frame interpolation failed.",
+        "translatedContent": "- MG-ENG-007: Tubería de anti-aliasing no disponible.  "
+      },
+      {
+        "row": 38,
+        "rowsha": "BmktroRgxPLKl6QfooeW9xEAQekLxmGgSRxU+NlP+L4=",
+        "originContent": "- MG-ENG-007: Anti-aliasing pipeline unavailable.",
+        "translatedContent": "- MG-ENG-008: Tubería de escalado no disponible.  "
+      },
+      {
+        "row": 39,
+        "rowsha": "nCZnUKAyq9qTbcQ/TJwa8CEi7U19tH1gn81uurzc8N0=",
+        "originContent": "- MG-ENG-008: Scale pipeline unavailable.",
+        "translatedContent": "- MG-ENG-009: Tubería CAS no disponible."
+      },
+      {
+        "row": 40,
+        "rowsha": "urWMJD33RVmeODdVHX6IiAlfAC0qkQN7ixvsJpWQZTU=",
+        "originContent": "- MG-ENG-009: CAS pipeline unavailable.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "- MG-ENG-010: IOSurface texture creation failed.\n- MG-ENG-011: Optical flow pipeline unavailable.\n- MG-ENG-012: Optical flow resources unavailable.\n- MG-ENG-013: Frame generation pipeline unavailable.\n\n## Virtual Display (MG-VD)\n- MG-VD-001: CGVirtualDisplayDescriptor creation failed.\n- MG-VD-002: CGVirtualDisplay creation failed.\n- MG-VD-003: CGVirtualDisplayMode creation failed.\n- MG-VD-004: CGVirtualDisplaySettings creation failed.\n- MG-VD-005: Applying virtual display settings failed.\n- MG-VD-006: No active virtual display.\n- MG-VD-007: Virtual display not found in ScreenCaptureKit.\n- MG-VD-008: ScreenCaptureKit start capture failed.\n- MG-VD-009: ScreenCaptureKit stop capture failed.\n- MG-VD-010: ScreenCaptureKit stream stopped with error.\n\n## Accessibility / Window Migration (MG-AX)\n- MG-AX-001: Accessibility permission not granted.\n- MG-AX-002: Failed to read window list from AX API.\n- MG-AX-003: No windows found for target PID.\n- MG-AX-004: Failed to create AX position value.\n- MG-AX-005: Failed to set AX window position.\n- MG-AX-006: Fullscreen window cannot be moved to virtual display.\n- MG-AX-007: Failed to create AX size value.\n- MG-AX-008: Failed to set AX window size.\n- MG-AX-009: Virtual display screen not found.\n- MG-AX-010: Window ID not found for target PID.\n\n## Overlay (MG-OV)\n- MG-OV-001: Target screen missing for overlay creation.\n- MG-OV-002: Window frame missing for overlay creation.\n- MG-OV-003: Unsupported pixel format for overlay texture creation.\n\n## Mouse Routing (MG-MO)\n- MG-MO-001: Virtual display not configured for mouse routing.\n\n## License\n\nThis project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.",
+    "ContentSha": "cEEWyUBENxfJprreCowTtnjjkcXtVW2jDIAJYrgJoYw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- MG-ENG-010: Fallo en la creación de la textura IOSurface.\n- MG-ENG-011: Canal de flujo óptico no disponible.\n- MG-ENG-012: Recursos de flujo óptico no disponibles.\n- MG-ENG-013: Canal de generación de fotogramas no disponible.\n\n## Pantalla Virtual (MG-VD)\n- MG-VD-001: Fallo en la creación de CGVirtualDisplayDescriptor.\n- MG-VD-002: Fallo en la creación de CGVirtualDisplay.\n- MG-VD-003: Fallo en la creación de CGVirtualDisplayMode.\n- MG-VD-004: Fallo en la creación de CGVirtualDisplaySettings.\n- MG-VD-005: Fallo al aplicar la configuración de pantalla virtual.\n- MG-VD-006: No hay pantalla virtual activa.\n- MG-VD-007: Pantalla virtual no encontrada en ScreenCaptureKit.\n- MG-VD-008: Fallo al iniciar la captura en ScreenCaptureKit.\n- MG-VD-009: Fallo al detener la captura en ScreenCaptureKit.\n- MG-VD-010: Transmisión de ScreenCaptureKit detenida con error.\n\n## Accesibilidad / Migración de Ventanas (MG-AX)\n- MG-AX-001: Permiso de accesibilidad no concedido.\n- MG-AX-002: Fallo al leer la lista de ventanas desde la API AX.\n- MG-AX-003: No se encontraron ventanas para el PID objetivo.\n- MG-AX-004: Fallo al crear valor de posición AX.\n- MG-AX-005: Fallo al establecer la posición de la ventana AX.\n- MG-AX-006: La ventana de pantalla completa no puede moverse a la pantalla virtual.\n- MG-AX-007: Fallo al crear valor de tamaño AX.\n- MG-AX-008: Fallo al establecer el tamaño de la ventana AX.\n- MG-AX-009: Pantalla de pantalla virtual no encontrada.\n- MG-AX-010: ID de ventana no encontrado para el PID objetivo.\n\n## Superposición (MG-OV)\n- MG-OV-001: Falta pantalla objetivo para la creación de superposición.\n- MG-OV-002: Falta marco de ventana para la creación de superposición.\n- MG-OV-003: Formato de píxel no soportado para la creación de textura de superposición.\n\n## Enrutamiento del Ratón (MG-MO)\n- MG-MO-001: Pantalla virtual no configurada para el enrutamiento del ratón.\n\n## Licencia\n\nEste proyecto está licenciado bajo la Licencia Pública General GNU v3.0 - consulte el archivo [LICENSE](LICENSE) para más detalles.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "x062bvSDh3oM9bCEgLTAD1KCpJ8Fng6ycrIXEDgdTY8=",
+        "originContent": "- MG-ENG-010: IOSurface texture creation failed.",
+        "translatedContent": "- MG-ENG-010: Fallo en la creación de la textura IOSurface."
+      },
+      {
+        "row": 2,
+        "rowsha": "UMJB00pIOX9bMGhr7HgMMvTU2xW5VKqOeWOUcP//U4I=",
+        "originContent": "- MG-ENG-011: Optical flow pipeline unavailable.",
+        "translatedContent": "- MG-ENG-011: Canal de flujo óptico no disponible."
+      },
+      {
+        "row": 3,
+        "rowsha": "O0qLsrem1Vjh2IbrrxAT8VPyqQClDa9OtPv53vtmKlU=",
+        "originContent": "- MG-ENG-012: Optical flow resources unavailable.",
+        "translatedContent": "- MG-ENG-012: Recursos de flujo óptico no disponibles."
+      },
+      {
+        "row": 4,
+        "rowsha": "abVgNInuopcCondAlDDz2XKd1W3nSD2gjcY/0Nlxpv8=",
+        "originContent": "- MG-ENG-013: Frame generation pipeline unavailable.",
+        "translatedContent": "- MG-ENG-013: Canal de generación de fotogramas no disponible."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "d5/awBad1qu3xOymlUWgS9GVaDzmq9KjX/m3WNuTovU=",
+        "originContent": "## Virtual Display (MG-VD)",
+        "translatedContent": "## Pantalla Virtual (MG-VD)"
+      },
+      {
+        "row": 7,
+        "rowsha": "+oz/SgZvmfSSznSU6XAgpNop388q0WHNkfVEzPaCb2Y=",
+        "originContent": "- MG-VD-001: CGVirtualDisplayDescriptor creation failed.",
+        "translatedContent": "- MG-VD-001: Fallo en la creación de CGVirtualDisplayDescriptor."
+      },
+      {
+        "row": 8,
+        "rowsha": "GE5PJUZT+7EQpaJfReljQehBQ2tnaPDizxgUAr7x0sg=",
+        "originContent": "- MG-VD-002: CGVirtualDisplay creation failed.",
+        "translatedContent": "- MG-VD-002: Fallo en la creación de CGVirtualDisplay."
+      },
+      {
+        "row": 9,
+        "rowsha": "zg51/vjSI4BuPF+4WfqyoUEQFKgbSeSCAxP6Dmcloko=",
+        "originContent": "- MG-VD-003: CGVirtualDisplayMode creation failed.",
+        "translatedContent": "- MG-VD-003: Fallo en la creación de CGVirtualDisplayMode."
+      },
+      {
+        "row": 10,
+        "rowsha": "H0uiCOF2mKRBSjAXUOq+O+q3Q63CXIVr72GNzgfm1mk=",
+        "originContent": "- MG-VD-004: CGVirtualDisplaySettings creation failed.",
+        "translatedContent": "- MG-VD-004: Fallo en la creación de CGVirtualDisplaySettings."
+      },
+      {
+        "row": 11,
+        "rowsha": "ujWVZbj/chJ/mKAVxmv/rwHtn31jK/oDEMCB0Gsz8Gc=",
+        "originContent": "- MG-VD-005: Applying virtual display settings failed.",
+        "translatedContent": "- MG-VD-005: Fallo al aplicar la configuración de pantalla virtual."
+      },
+      {
+        "row": 12,
+        "rowsha": "I5flfVTrj3nJJs32EPxm8XLm15PTgNRK/9tua8nNkCo=",
+        "originContent": "- MG-VD-006: No active virtual display.",
+        "translatedContent": "- MG-VD-006: No hay pantalla virtual activa."
+      },
+      {
+        "row": 13,
+        "rowsha": "Nog33pP/6IAonvnHf2AXN7kw0I5F+H8X7dNyhpMareQ=",
+        "originContent": "- MG-VD-007: Virtual display not found in ScreenCaptureKit.",
+        "translatedContent": "- MG-VD-007: Pantalla virtual no encontrada en ScreenCaptureKit."
+      },
+      {
+        "row": 14,
+        "rowsha": "kpQ5OOGW5wvt8F233UWKlqC/KhQp6J07Aj8jT33EAmo=",
+        "originContent": "- MG-VD-008: ScreenCaptureKit start capture failed.",
+        "translatedContent": "- MG-VD-008: Fallo al iniciar la captura en ScreenCaptureKit."
+      },
+      {
+        "row": 15,
+        "rowsha": "ROFi/zATVW8V/sv5j2rtCCU35vQ14VjYEEJ1NyImdCI=",
+        "originContent": "- MG-VD-009: ScreenCaptureKit stop capture failed.",
+        "translatedContent": "- MG-VD-009: Fallo al detener la captura en ScreenCaptureKit."
+      },
+      {
+        "row": 16,
+        "rowsha": "RtY7Uz7DLSFPGcdps6/NjCJSTcIS7vw6u8F2JGt4BlA=",
+        "originContent": "- MG-VD-010: ScreenCaptureKit stream stopped with error.",
+        "translatedContent": "- MG-VD-010: Transmisión de ScreenCaptureKit detenida con error."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "WjVZ6ugmkXasNG0Od5DhC7MN57DihTw3iUeZjlNV4II=",
+        "originContent": "## Accessibility / Window Migration (MG-AX)",
+        "translatedContent": "## Accesibilidad / Migración de Ventanas (MG-AX)"
+      },
+      {
+        "row": 19,
+        "rowsha": "LOj09PELUWK020iXqXGUhgGZ4rQomPma6i7cC26y+gM=",
+        "originContent": "- MG-AX-001: Accessibility permission not granted.",
+        "translatedContent": "- MG-AX-001: Permiso de accesibilidad no concedido."
+      },
+      {
+        "row": 20,
+        "rowsha": "UThwLgCJp9y+hA/TJEtUKDcHN6zclYjanbvAWZzvv6U=",
+        "originContent": "- MG-AX-002: Failed to read window list from AX API.",
+        "translatedContent": "- MG-AX-002: Fallo al leer la lista de ventanas desde la API AX."
+      },
+      {
+        "row": 21,
+        "rowsha": "1H1DKRiqbSTWja4PPeCeqSBUF+r25dgQqrM3lKE+0mo=",
+        "originContent": "- MG-AX-003: No windows found for target PID.",
+        "translatedContent": "- MG-AX-003: No se encontraron ventanas para el PID objetivo."
+      },
+      {
+        "row": 22,
+        "rowsha": "UcdnU1ZGYQLrR5ftidcbvAimGopGKEvSioNEhHMJS+I=",
+        "originContent": "- MG-AX-004: Failed to create AX position value.",
+        "translatedContent": "- MG-AX-004: Fallo al crear valor de posición AX."
+      },
+      {
+        "row": 23,
+        "rowsha": "hN02HD8DvCdMEOiDeE3GswVwExznpCWufLvs5nZSBJs=",
+        "originContent": "- MG-AX-005: Failed to set AX window position.",
+        "translatedContent": "- MG-AX-005: Fallo al establecer la posición de la ventana AX."
+      },
+      {
+        "row": 24,
+        "rowsha": "dv4ZdOMCJ07UHw7hzdoUs+j8jtkOKCTWHLwRzHqR+Ms=",
+        "originContent": "- MG-AX-006: Fullscreen window cannot be moved to virtual display.",
+        "translatedContent": "- MG-AX-006: La ventana de pantalla completa no puede moverse a la pantalla virtual."
+      },
+      {
+        "row": 25,
+        "rowsha": "GqoJUM54n/WfzcnEIVZ6o39a85l0PS8UNeEYj7lw/lE=",
+        "originContent": "- MG-AX-007: Failed to create AX size value.",
+        "translatedContent": "- MG-AX-007: Fallo al crear valor de tamaño AX."
+      },
+      {
+        "row": 26,
+        "rowsha": "23WbN7uRCLPvLotfEKh+ZHJ2g1VvGmWC3hEfbCYkeWs=",
+        "originContent": "- MG-AX-008: Failed to set AX window size.",
+        "translatedContent": "- MG-AX-008: Fallo al establecer el tamaño de la ventana AX."
+      },
+      {
+        "row": 27,
+        "rowsha": "OMawzBgziCbyssNnKDZtXUBjm8llu/VlgpENdDGXg1c=",
+        "originContent": "- MG-AX-009: Virtual display screen not found.",
+        "translatedContent": "- MG-AX-009: Pantalla de pantalla virtual no encontrada."
+      },
+      {
+        "row": 28,
+        "rowsha": "njQxE+5xudzot3PbBNc3ULRa1BBQQ4njujGxQVTNQow=",
+        "originContent": "- MG-AX-010: Window ID not found for target PID.",
+        "translatedContent": "- MG-AX-010: ID de ventana no encontrado para el PID objetivo."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "u0OaCfFg+rAgl0bgQy5tPQeU1jfzCcAtOs9zmqsIyxo=",
+        "originContent": "## Overlay (MG-OV)",
+        "translatedContent": "## Superposición (MG-OV)"
+      },
+      {
+        "row": 31,
+        "rowsha": "Pvl7VLS2IX/Xr8EUPIIsgrRWVvQqiR1UA5ljDUNzaO0=",
+        "originContent": "- MG-OV-001: Target screen missing for overlay creation.",
+        "translatedContent": "- MG-OV-001: Falta pantalla objetivo para la creación de superposición."
+      },
+      {
+        "row": 32,
+        "rowsha": "OvYb77h1kKwazMhnLozncPFlxDRE0QqrGJl8Nu+F01U=",
+        "originContent": "- MG-OV-002: Window frame missing for overlay creation.",
+        "translatedContent": "- MG-OV-002: Falta marco de ventana para la creación de superposición."
+      },
+      {
+        "row": 33,
+        "rowsha": "j4e9Z75kzM3mQjsk+xXgo7GnoCQO0/ulqQd87yGSyZc=",
+        "originContent": "- MG-OV-003: Unsupported pixel format for overlay texture creation.",
+        "translatedContent": "- MG-OV-003: Formato de píxel no soportado para la creación de textura de superposición."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "BatJL56cchD6KCKbLmLM+R95kWDT0ggYxlOrOXZNKrU=",
+        "originContent": "## Mouse Routing (MG-MO)",
+        "translatedContent": "## Enrutamiento del Ratón (MG-MO)"
+      },
+      {
+        "row": 36,
+        "rowsha": "2TtFqL8S5R1/OeiHIGpyh30kjhJyOXtbsR4bD8W2k2M=",
+        "originContent": "- MG-MO-001: Virtual display not configured for mouse routing.",
+        "translatedContent": "- MG-MO-001: Pantalla virtual no configurada para el enrutamiento del ratón."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "Dq45K9ClB8UNIpD8B3ZtnF9rUBXtv54CjsWWoQiH+Hs=",
+        "originContent": "This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "Este proyecto está licenciado bajo la Licencia Pública General GNU v3.0 - consulte el archivo [LICENSE](LICENSE) para más detalles."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Acknowledgments\n\n- Apple for the Metal framework and documentation\n- The macOS gaming community for feedback and testing\n- Contributors who helped improve the project\n\n---\n\nRESOURCES THAT USED FOR THIS PROJECT\n\nhttps://developer.apple.com/documentation/metal\nhttps://developer.apple.com/documentation/metalfx/\nhttps://developer.apple.com/documentation/coreimage\nhttps://developer.apple.com/documentation/screencapturekit/\nhttps://developer.apple.com/documentation/appkit\nhttps://developer.apple.com/documentation/metal/mtltexture\nhttps://developer.apple.com/documentation/corevideo/cvpixelbuffer\nhttps://developer.apple.com/documentation/metalperformanceshaders\nhttps://developer.apple.com/documentation/metal/compute-passes\nhttps://developer.apple.com/documentation/vision\nhttps://developer.apple.com/documentation/vision/vngenerateopticalflowrequest\nhttps://developer.apple.com/documentation/ScreenCaptureKit/capturing-screen-content-in-macos\n\n\n<div align=\"center\">\n  <sub>Built with ❤️ using Metal for macOS</sub>\n</div>\n",
+    "ContentSha": "E/zv1zvaP8eU+n9P28BN9FaqtHxckcxk3leO+Qek5js=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Acknowledgments\n\n- Apple for the Metal framework and documentation\n- The macOS gaming community for feedback and testing\n- Contributors who helped improve the project\n\n---\n\nRESOURCES THAT USED FOR THIS PROJECT\n\nhttps://developer.apple.com/documentation/metal\nhttps://developer.apple.com/documentation/metalfx/\nhttps://developer.apple.com/documentation/coreimage\nhttps://developer.apple.com/documentation/screencapturekit/\nhttps://developer.apple.com/documentation/appkit\nhttps://developer.apple.com/documentation/metal/mtltexture\nhttps://developer.apple.com/documentation/corevideo/cvpixelbuffer\nhttps://developer.apple.com/documentation/metalperformanceshaders\nhttps://developer.apple.com/documentation/metal/compute-passes\nhttps://developer.apple.com/documentation/vision\nhttps://developer.apple.com/documentation/vision/vngenerateopticalflowrequest\nhttps://developer.apple.com/documentation/ScreenCaptureKit/capturing-screen-content-in-macos\n\n\n<div align=\"center\">\n  <sub>Built with ❤️ using Metal for macOS</sub>\n</div>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## Acknowledgments"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "dReEpMkWE+73VAcnB8JdV38uN+kA77G8quL6beMTxOI=",
+        "originContent": "- Apple for the Metal framework and documentation",
+        "translatedContent": "- Apple for the Metal framework and documentation"
+      },
+      {
+        "row": 5,
+        "rowsha": "qWQ7cSUJnjFdU7TZwN1ikvzpYO1wbkxltYthXb5w+2A=",
+        "originContent": "- The macOS gaming community for feedback and testing",
+        "translatedContent": "- The macOS gaming community for feedback and testing"
+      },
+      {
+        "row": 6,
+        "rowsha": "6EJAZDWRvcD28El1AbEjYqqhfMPuyzQDcFa8VxOGqhM=",
+        "originContent": "- Contributors who helped improve the project",
+        "translatedContent": "- Contributors who helped improve the project"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Dt7lJVEwxDRHYUD3GycQXeU6qxWeswlOAk6JQvA6f7s=",
+        "originContent": "RESOURCES THAT USED FOR THIS PROJECT",
+        "translatedContent": "RESOURCES THAT USED FOR THIS PROJECT"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "tuxVxz/WXROFji8BMhVzXjxdfDOjSBw3qRMaOkFrdy4=",
+        "originContent": "https://developer.apple.com/documentation/metal",
+        "translatedContent": "https://developer.apple.com/documentation/metal"
+      },
+      {
+        "row": 13,
+        "rowsha": "z8WMDzAGm4gZ6pHkqN000vNv71dhx4TkN3Xl+y9fFwA=",
+        "originContent": "https://developer.apple.com/documentation/metalfx/",
+        "translatedContent": "https://developer.apple.com/documentation/metalfx/"
+      },
+      {
+        "row": 14,
+        "rowsha": "Cd42HJe4YbTJySj5F8o2WCheq7qwFRKxg6KnnoIT1pQ=",
+        "originContent": "https://developer.apple.com/documentation/coreimage",
+        "translatedContent": "https://developer.apple.com/documentation/coreimage"
+      },
+      {
+        "row": 15,
+        "rowsha": "tx9eXWb+vnYezjNO4t3flutW4FxxqsI527hXuG85UVU=",
+        "originContent": "https://developer.apple.com/documentation/screencapturekit/",
+        "translatedContent": "https://developer.apple.com/documentation/screencapturekit/"
+      },
+      {
+        "row": 16,
+        "rowsha": "n26Wm/ixy1Q4nDsr0dCbdZ0+3I3SgrzguoLkGYN1fN8=",
+        "originContent": "https://developer.apple.com/documentation/appkit",
+        "translatedContent": "https://developer.apple.com/documentation/appkit"
+      },
+      {
+        "row": 17,
+        "rowsha": "ssid2pHTDT4vYPOnDPyriyjKykB6A3VyFfsOErM9hmU=",
+        "originContent": "https://developer.apple.com/documentation/metal/mtltexture",
+        "translatedContent": "https://developer.apple.com/documentation/metal/mtltexture"
+      },
+      {
+        "row": 18,
+        "rowsha": "29b/rFp2NrUyvvKH7jCKDR0xW12VYkbhlFlp9hRfwLk=",
+        "originContent": "https://developer.apple.com/documentation/corevideo/cvpixelbuffer",
+        "translatedContent": "https://developer.apple.com/documentation/corevideo/cvpixelbuffer"
+      },
+      {
+        "row": 19,
+        "rowsha": "/iT32Y8lCfnlSD6oGukzbo83QMwA7tyO3Kpbpw39rQQ=",
+        "originContent": "https://developer.apple.com/documentation/metalperformanceshaders",
+        "translatedContent": "https://developer.apple.com/documentation/metalperformanceshaders"
+      },
+      {
+        "row": 20,
+        "rowsha": "/r7kgF8yhnQKBEurnuTQUlY/TwwxNCtKBNfDz0J2Fr0=",
+        "originContent": "https://developer.apple.com/documentation/metal/compute-passes",
+        "translatedContent": "https://developer.apple.com/documentation/metal/compute-passes"
+      },
+      {
+        "row": 21,
+        "rowsha": "hd+e4JBKbGFLRtD2J0GKD6CStPJoND0W86z1y9rx6iE=",
+        "originContent": "https://developer.apple.com/documentation/vision",
+        "translatedContent": "https://developer.apple.com/documentation/vision"
+      },
+      {
+        "row": 22,
+        "rowsha": "dXJfzsGB686WdsWmQUK8wuugAY/Oxwf3eMIonDWV/84=",
+        "originContent": "https://developer.apple.com/documentation/vision/vngenerateopticalflowrequest",
+        "translatedContent": "https://developer.apple.com/documentation/vision/vngenerateopticalflowrequest"
+      },
+      {
+        "row": 23,
+        "rowsha": "qXJTe3rblYkn9lkUEay0ityLHyMgQF9FaSfMVN0Lq74=",
+        "originContent": "https://developer.apple.com/documentation/ScreenCaptureKit/capturing-screen-content-in-macos",
+        "translatedContent": "https://developer.apple.com/documentation/ScreenCaptureKit/capturing-screen-content-in-macos"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 27,
+        "rowsha": "d7l1FExyJ2xcDRr8JIf4Np+CASvtgzmTNXbCUaa5zUc=",
+        "originContent": "  <sub>Built with ❤️ using Metal for macOS</sub>",
+        "translatedContent": "  <sub>Built with ❤️ using Metal for macOS</sub>"
+      },
+      {
+        "row": 28,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

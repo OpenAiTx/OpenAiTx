@@ -1,0 +1,322 @@
+[
+  {
+    "Id": 1,
+    "Content": "<table><tr width=64px><td><img height=64px src=\"https://user-images.githubusercontent.com/526829/169241046-3087a41d-9606-43ab-90ae-ee0055bef039.png\"/></td><td><h1>godot-version-manager</h1></td></tr></table>\n  \nDownload, install and manage any version of Godot Engine from a simple app. \n\n<img alt=\"screenshot with light theme\" src=\"https://github.com/user-attachments/assets/5b504fa3-59ea-46c8-bb78-6a743759d984\" />\n<img alt=\"screenshot with dark theme\" src=\"https://github.com/user-attachments/assets/08ff0100-fbd5-40be-a8a4-80bbb186d37e\" />\n\n## Installation\n### Windows:\nUnzip and double-click. (On Windows XP please make sure Powershell is installed)\n### Linux:\nUnzip and double-click. Extraction of downloaded versions requires `unzip` which, if not installed, should be available in your distro repository\n### OSX:\n- Should auto extract after download\n- You need to run `sudo xattr -r -d com.apple.quarantine path/to/Godot Version Manager.app` since unsigned binaries get marked as untrusted otherwise. Feel free to build the project yourself if you don't trust the prebuilt binaries\n- Double click Godot Version Manager.app\n\n## Features\n- Automatically download and install any version of Godot from a drop-drown menu. (requires powershell for extraction)\n- Show or hide alpha, beta, rc and dev versions from download drop-down. \n- Add your own binaries anywhere on your filesystem. \n- Colorful icons to easily distinguish stable, rc, beta, alpha and master builds. \n- Right click to remove any entry from the list\n- Drag and drop to reorder enties\n- Drag and drop a project.godot file or Godot project folder to add a project and launch it with a specific version\n- News feed from godotengine.org./news\n\n## F.A.Q\n**Q: Where are the downloaded binaries saved to?**\n\nA: They are saved to `user://versions` which varies depending on your platform. On windows it's %appdata%/Godot/app_userdata/Godot Version Manager/versions\n\n**Q: How is this different from Hourglass or Godot Manager?**\n\nA:\n - [Hourglass](https://hourglass.jwestman.net/) is a much more mature and featureful project with better support for project management. Maybe the only advantage GVM has is that it also downloads news snippets from the official website :)\n - [Godot Manager](https://github.com/eumario/godot-manager) seems to be a pretty mature and featureful alternative too.\n - [Godots](https://github.com/MakovWait/godots) is a new (Aug 2023) alternative that a lot of people seem to like.\n - [GodotEnv](https://github.com/chickensoft-games/GodotEnv) and [godot-version-manager](https://github.com/gaheldev/godot-version-manager) are CLI-only alternatives.\n - [Godot Launcher](https://github.com/sebastianoboem/godot-launcher) is a python-based alternative with support for extension and cache management.",
+    "ContentSha": "Nc/Idd+XEEvSrsmGDqgmoJ/QpbE6CtJajCXIVMp6IVU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<table><tr width=64px><td><img height=64px src=\"https://user-images.githubusercontent.com/526829/169241046-3087a41d-9606-43ab-90ae-ee0055bef039.png\"/></td><td><h1>godot-version-manager</h1></td></tr></table>\n  \nDescarga, instala y gestiona cualquier versión de Godot Engine desde una aplicación simple. \n\n<img alt=\"captura de pantalla con tema claro\" src=\"https://github.com/user-attachments/assets/5b504fa3-59ea-46c8-bb78-6a743759d984\" />\n<img alt=\"captura de pantalla con tema oscuro\" src=\"https://github.com/user-attachments/assets/08ff0100-fbd5-40be-a8a4-80bbb186d37e\" />\n\n## Instalación\n### Windows:\nDescomprime y haz doble clic. (En Windows XP asegúrate de que Powershell esté instalado)\n### Linux:\nDescomprime y haz doble clic. La extracción de versiones descargadas requiere `unzip` que, si no está instalado, debería estar disponible en el repositorio de tu distribución\n### OSX:\n- Debería extraerse automáticamente después de la descarga\n- Necesitas ejecutar `sudo xattr -r -d com.apple.quarantine path/to/Godot Version Manager.app` ya que los binarios no firmados se marcan como no confiables de otra manera. Si no confías en los binarios precompilados, siéntete libre de compilar el proyecto tú mismo\n- Haz doble clic en Godot Version Manager.app\n\n## Características\n- Descarga e instala automáticamente cualquier versión de Godot desde un menú desplegable. (requiere powershell para la extracción)\n- Mostrar u ocultar versiones alfa, beta, rc y dev en el menú desplegable de descarga. \n- Añade tus propios binarios en cualquier lugar de tu sistema de archivos. \n- Iconos coloridos para distinguir fácilmente las compilaciones estables, rc, beta, alfa y master. \n- Clic derecho para eliminar cualquier entrada de la lista\n- Arrastrar y soltar para reordenar las entradas\n- Arrastrar y soltar un archivo project.godot o carpeta de proyecto Godot para añadir un proyecto y lanzarlo con una versión específica\n- Feed de noticias desde godotengine.org./news\n\n## Preguntas frecuentes\n**P: ¿Dónde se guardan los binarios descargados?**\n\nR: Se guardan en `user://versions` que varía según tu plataforma. En Windows está en %appdata%/Godot/app_userdata/Godot Version Manager/versions\n\n**P: ¿En qué se diferencia esto de Hourglass o Godot Manager?**\n\nR:\n - [Hourglass](https://hourglass.jwestman.net/) es un proyecto mucho más maduro y con más funciones que ofrece mejor soporte para la gestión de proyectos. Quizás la única ventaja que tiene GVM es que también descarga fragmentos de noticias del sitio oficial :)\n - [Godot Manager](https://github.com/eumario/godot-manager) parece ser también una alternativa bastante madura y con muchas funciones.\n - [Godots](https://github.com/MakovWait/godots) es una alternativa nueva (agosto 2023) que a mucha gente parece gustarle.\n - [GodotEnv](https://github.com/chickensoft-games/GodotEnv) y [godot-version-manager](https://github.com/gaheldev/godot-version-manager) son alternativas solo CLI.\n - [Godot Launcher](https://github.com/sebastianoboem/godot-launcher) es una alternativa basada en python con soporte para extensión y gestión de caché.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tUXRG1U6bS/at8gYrVchPXQj8LVQvn00jCj7RFK22iM=",
+        "originContent": "<table><tr width=64px><td><img height=64px src=\"https://user-images.githubusercontent.com/526829/169241046-3087a41d-9606-43ab-90ae-ee0055bef039.png\"/></td><td><h1>godot-version-manager</h1></td></tr></table>",
+        "translatedContent": "<table><tr width=64px><td><img height=64px src=\"https://user-images.githubusercontent.com/526829/169241046-3087a41d-9606-43ab-90ae-ee0055bef039.png\"/></td><td><h1>godot-version-manager</h1></td></tr></table>"
+      },
+      {
+        "row": 2,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 3,
+        "rowsha": "a6gDXg2qwuFe64hyAsOL07k/3kjzLXfv98xXHhQVg/8=",
+        "originContent": "Download, install and manage any version of Godot Engine from a simple app. ",
+        "translatedContent": "Descarga, instala y gestiona cualquier versión de Godot Engine desde una aplicación simple. "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "FTxbwUQ7jEwRgp6Z0Czqn3pl/xsfAUxjjaNTRJ1iyoY=",
+        "originContent": "<img alt=\"screenshot with light theme\" src=\"https://github.com/user-attachments/assets/5b504fa3-59ea-46c8-bb78-6a743759d984\" />",
+        "translatedContent": "<img alt=\"captura de pantalla con tema claro\" src=\"https://github.com/user-attachments/assets/5b504fa3-59ea-46c8-bb78-6a743759d984\" />"
+      },
+      {
+        "row": 6,
+        "rowsha": "OUGKTK2mEc2J7mm03wtrKR+tdgDI6REMgJx/sxrpK8g=",
+        "originContent": "<img alt=\"screenshot with dark theme\" src=\"https://github.com/user-attachments/assets/08ff0100-fbd5-40be-a8a4-80bbb186d37e\" />",
+        "translatedContent": "<img alt=\"captura de pantalla con tema oscuro\" src=\"https://github.com/user-attachments/assets/08ff0100-fbd5-40be-a8a4-80bbb186d37e\" />"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 9,
+        "rowsha": "yPlcdnrRer0XsaQ0sugKVazPc1UsE065mTHwYO9i4mU=",
+        "originContent": "### Windows:",
+        "translatedContent": "### Windows:"
+      },
+      {
+        "row": 10,
+        "rowsha": "4YwWU+TNdSz/0RJYVhzO2oeBtB0MmxtJnHzdMu8IBXc=",
+        "originContent": "Unzip and double-click. (On Windows XP please make sure Powershell is installed)",
+        "translatedContent": "Descomprime y haz doble clic. (En Windows XP asegúrate de que Powershell esté instalado)"
+      },
+      {
+        "row": 11,
+        "rowsha": "hyGWFmb2UvNdCOhTaUOLFjvrgm2G/Ed2Ja1Tq7V8cxQ=",
+        "originContent": "### Linux:",
+        "translatedContent": "### Linux:"
+      },
+      {
+        "row": 12,
+        "rowsha": "41y8Yxto+st752SGP52SLeKKmmn1TYbYNnbq88p0fEY=",
+        "originContent": "Unzip and double-click. Extraction of downloaded versions requires `unzip` which, if not installed, should be available in your distro repository",
+        "translatedContent": "Descomprime y haz doble clic. La extracción de versiones descargadas requiere `unzip` que, si no está instalado, debería estar disponible en el repositorio de tu distribución"
+      },
+      {
+        "row": 13,
+        "rowsha": "WbV6cA1dmpYByeFaHtpmGN9Sj57OYNfWoKaqe/rPzM8=",
+        "originContent": "### OSX:",
+        "translatedContent": "### OSX:"
+      },
+      {
+        "row": 14,
+        "rowsha": "NRbKNf7yuXnmTigsqIQo2EETvcWXr/XlQCsphe9aArc=",
+        "originContent": "- Should auto extract after download",
+        "translatedContent": "- Debería extraerse automáticamente después de la descarga"
+      },
+      {
+        "row": 15,
+        "rowsha": "YkXGaLS68WG11TY0ys+h5Lx5EPxib2/BmdWn8j+yGAg=",
+        "originContent": "- You need to run `sudo xattr -r -d com.apple.quarantine path/to/Godot Version Manager.app` since unsigned binaries get marked as untrusted otherwise. Feel free to build the project yourself if you don't trust the prebuilt binaries",
+        "translatedContent": "- Necesitas ejecutar `sudo xattr -r -d com.apple.quarantine path/to/Godot Version Manager.app` ya que los binarios no firmados se marcan como no confiables de otra manera. Si no confías en los binarios precompilados, siéntete libre de compilar el proyecto tú mismo"
+      },
+      {
+        "row": 16,
+        "rowsha": "Mdq5NH0pblDICE8561qunwtPpggHz/UNSDVljBCsG+k=",
+        "originContent": "- Double click Godot Version Manager.app",
+        "translatedContent": "- Haz doble clic en Godot Version Manager.app"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 19,
+        "rowsha": "P7vy93FilH7Vh0wVv7cp0ooUOEoICFLRGe3oEezRvSc=",
+        "originContent": "- Automatically download and install any version of Godot from a drop-drown menu. (requires powershell for extraction)",
+        "translatedContent": "- Descarga e instala automáticamente cualquier versión de Godot desde un menú desplegable. (requiere powershell para la extracción)"
+      },
+      {
+        "row": 20,
+        "rowsha": "yevZEeoV63XfJMP94+tgM/HhTZtPcs0FXrQYR8ay0ts=",
+        "originContent": "- Show or hide alpha, beta, rc and dev versions from download drop-down. ",
+        "translatedContent": "- Mostrar u ocultar versiones alfa, beta, rc y dev en el menú desplegable de descarga. "
+      },
+      {
+        "row": 21,
+        "rowsha": "Ceddwe5w5t6MPMOddw6BvYbngOGBgEAK5sgDywxJIuI=",
+        "originContent": "- Add your own binaries anywhere on your filesystem. ",
+        "translatedContent": "- Añade tus propios binarios en cualquier lugar de tu sistema de archivos. "
+      },
+      {
+        "row": 22,
+        "rowsha": "3/oQi4k3ZFj0iikLBGLSKDzbh/RpV/gn4v7g9Qty8zg=",
+        "originContent": "- Colorful icons to easily distinguish stable, rc, beta, alpha and master builds. ",
+        "translatedContent": "- Iconos coloridos para distinguir fácilmente las compilaciones estables, rc, beta, alfa y master. "
+      },
+      {
+        "row": 23,
+        "rowsha": "5O2WufrJfYGa+sshJ27tZGLVFbH3Ee1IGtoiZhuztkU=",
+        "originContent": "- Right click to remove any entry from the list",
+        "translatedContent": "- Clic derecho para eliminar cualquier entrada de la lista"
+      },
+      {
+        "row": 24,
+        "rowsha": "v/1OXzO+cd3o0aCiIO1k2lfdKhDAtizMP+7xtEGu4AU=",
+        "originContent": "- Drag and drop to reorder enties",
+        "translatedContent": "- Arrastrar y soltar para reordenar las entradas"
+      },
+      {
+        "row": 25,
+        "rowsha": "iKgSP+yZp/B3t0tTqc/dVQAvJ4FoR/nwfXkLC4q2Ydg=",
+        "originContent": "- Drag and drop a project.godot file or Godot project folder to add a project and launch it with a specific version",
+        "translatedContent": "- Arrastrar y soltar un archivo project.godot o carpeta de proyecto Godot para añadir un proyecto y lanzarlo con una versión específica"
+      },
+      {
+        "row": 26,
+        "rowsha": "15E6jxIb7/jp1e3CPZyzTjDrxsWkDmUfuBooUVYWh1g=",
+        "originContent": "- News feed from godotengine.org./news",
+        "translatedContent": "- Feed de noticias desde godotengine.org./news"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "+epWDr+076OW5Uecmhn9CgY/hjWKk3faHHje6D1ZoCo=",
+        "originContent": "## F.A.Q",
+        "translatedContent": "## Preguntas frecuentes"
+      },
+      {
+        "row": 29,
+        "rowsha": "UK0h9OootvaI5sRsodcno4U5JhB/jmzq5h0N8jHkfXk=",
+        "originContent": "**Q: Where are the downloaded binaries saved to?**",
+        "translatedContent": "**P: ¿Dónde se guardan los binarios descargados?**"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "0ZxgmZSacUFmRrO8rw2ON6P3EZ1mkmYR7KVQTaJiB2I=",
+        "originContent": "A: They are saved to `user://versions` which varies depending on your platform. On windows it's %appdata%/Godot/app_userdata/Godot Version Manager/versions",
+        "translatedContent": "R: Se guardan en `user://versions` que varía según tu plataforma. En Windows está en %appdata%/Godot/app_userdata/Godot Version Manager/versions"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "D3XwPLFy10hZE1jFXZO7SFY7PrZzBIaAusoC1F+jhRw=",
+        "originContent": "**Q: How is this different from Hourglass or Godot Manager?**",
+        "translatedContent": "**P: ¿En qué se diferencia esto de Hourglass o Godot Manager?**"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ammdMfVN60y33nxQdCDOMvbHEpjVihF4vbetMFGRBJc=",
+        "originContent": "A:",
+        "translatedContent": "R:"
+      },
+      {
+        "row": 36,
+        "rowsha": "jiHr4E4eJnmZtBxj78d4d10wVlDINtDXT2pD5yINNe0=",
+        "originContent": " - [Hourglass](https://hourglass.jwestman.net/) is a much more mature and featureful project with better support for project management. Maybe the only advantage GVM has is that it also downloads news snippets from the official website :)",
+        "translatedContent": " - [Hourglass](https://hourglass.jwestman.net/) es un proyecto mucho más maduro y con más funciones que ofrece mejor soporte para la gestión de proyectos. Quizás la única ventaja que tiene GVM es que también descarga fragmentos de noticias del sitio oficial :)"
+      },
+      {
+        "row": 37,
+        "rowsha": "eEf3hsVbMZj4lafemUfEFsv8KccW9VNeLrtSqm4qiIA=",
+        "originContent": " - [Godot Manager](https://github.com/eumario/godot-manager) seems to be a pretty mature and featureful alternative too.",
+        "translatedContent": " - [Godot Manager](https://github.com/eumario/godot-manager) parece ser también una alternativa bastante madura y con muchas funciones."
+      },
+      {
+        "row": 38,
+        "rowsha": "2RI88m8C4xTjnTgjr4AhevKLxpoCyzR++OTtFgf1oII=",
+        "originContent": " - [Godots](https://github.com/MakovWait/godots) is a new (Aug 2023) alternative that a lot of people seem to like.",
+        "translatedContent": " - [Godots](https://github.com/MakovWait/godots) es una alternativa nueva (agosto 2023) que a mucha gente parece gustarle."
+      },
+      {
+        "row": 39,
+        "rowsha": "6Ob4KpY26oMv7RTPdLA8hRLlXXm2I+/I6Sa8buB8Tv8=",
+        "originContent": " - [GodotEnv](https://github.com/chickensoft-games/GodotEnv) and [godot-version-manager](https://github.com/gaheldev/godot-version-manager) are CLI-only alternatives.",
+        "translatedContent": " - [GodotEnv](https://github.com/chickensoft-games/GodotEnv) y [godot-version-manager](https://github.com/gaheldev/godot-version-manager) son alternativas solo CLI."
+      },
+      {
+        "row": 40,
+        "rowsha": "U91WavjJ9/h8Le+fx6e8seiiAScY9QQTArLGkKzsG80=",
+        "originContent": " - [Godot Launcher](https://github.com/sebastianoboem/godot-launcher) is a python-based alternative with support for extension and cache management.",
+        "translatedContent": " - [Godot Launcher](https://github.com/sebastianoboem/godot-launcher) es una alternativa basada en python con soporte para extensión y gestión de caché."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": " - [gdvm](https://github.com/adalinesimonian/gdvm) is another CLI based version manager built with Rust.\n\n## LICENSE\nMIT Licensed (see LICENSE.md)\nCopyright ©️2022 Lisandro Lorea and contributors\n\nLilita One Font ©️2011 Juan Montoreano\n<a href=\"https://www.flaticon.com/free-icons/exe\" title=\"exe icons\">Exe icons created by Freepik - Flaticon</a>\n",
+    "ContentSha": "WHDSICUWsdMwN/aBC0J1J3+kpyiI+kJHp9zj+p5cUi8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " - [gdvm](https://github.com/adalinesimonian/gdvm) es otro gestor de versiones basado en CLI construido con Rust.\n\n## LICENCIA\nLicenciado bajo MIT (ver LICENSE.md)\nCopyright ©️2022 Lisandro Lorea y colaboradores\n\nFuente Lilita One ©️2011 Juan Montoreano\n<a href=\"https://www.flaticon.com/free-icons/exe\" title=\"exe icons\">Iconos Exe creados por Freepik - Flaticon</a>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2hxwnAntq+r9CtHaJGY1vtBw+8jKxAwABOdqPrsBKLk=",
+        "originContent": " - [gdvm](https://github.com/adalinesimonian/gdvm) is another CLI based version manager built with Rust.",
+        "translatedContent": " - [gdvm](https://github.com/adalinesimonian/gdvm) es otro gestor de versiones basado en CLI construido con Rust."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "fZtowPTQluv31Ydr5VNh6lKkKXF5Tu28x0Zsafw44sM=",
+        "originContent": "## LICENSE",
+        "translatedContent": "## LICENCIA"
+      },
+      {
+        "row": 4,
+        "rowsha": "VMTuwJ4d9eI5gg/eBs+07a/xHsTl2ahZp+EhBHIKo4g=",
+        "originContent": "MIT Licensed (see LICENSE.md)",
+        "translatedContent": "Licenciado bajo MIT (ver LICENSE.md)"
+      },
+      {
+        "row": 5,
+        "rowsha": "JA5AFWjFNUsJcTBkbPwsc/McBYO25HzEuYxI+dRrYjk=",
+        "originContent": "Copyright ©️2022 Lisandro Lorea and contributors",
+        "translatedContent": "Copyright ©️2022 Lisandro Lorea y colaboradores"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "BDob3AL0bsZKqzZfIZIbSDC1OdQFfGcMUZiE+pJeYoM=",
+        "originContent": "Lilita One Font ©️2011 Juan Montoreano",
+        "translatedContent": "Fuente Lilita One ©️2011 Juan Montoreano"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhaKAqxYn9evvZzuJmp2bWr2OtofZ4wMMEe8j7S4ZE=",
+        "originContent": "<a href=\"https://www.flaticon.com/free-icons/exe\" title=\"exe icons\">Exe icons created by Freepik - Flaticon</a>",
+        "translatedContent": "<a href=\"https://www.flaticon.com/free-icons/exe\" title=\"exe icons\">Iconos Exe creados por Freepik - Flaticon</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
