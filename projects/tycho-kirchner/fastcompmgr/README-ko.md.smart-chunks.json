@@ -1,0 +1,834 @@
+[
+  {
+    "Id": 1,
+    "Content": "# fastcompmgr\n\n__fastcompmgr__ is a _fast_ compositor for X, a fork of an early version\nof __Compton__ which is a fork of __xcompmgr-dana__ which is a fork\nof __xcompmgr__.\n\nI used to use good old xcompmgr for long, because compton always\nfelt a bit laggy when moving/resizing windows or kinetic-scrolling\na webpage. Having tested the latest picom-10.2, it seems, things got even\nworse (see benchmark below). However, xcompmgr does not draw shadows\non argb windows (e.g. some terminals) and\nhas several other glitches. That's why I traveled back into 2011, where\nthis feature was just added, cherry picked some later compton commits\nto get rid of spurious segfaults and memleaks and made that version even\nfaster, based on profiling.\nFor example, window move- and resize events are limited in their\nevent-count and rendered at a somewhat fixed framerate, while\nscrolling is still done as fast as possible. Occluded windows are not\npainted and memory allocations/deallocations are largely avoided,\nallowing for faster repaints of the screen.\nOn the downside, fading is currently broken (I don't use it). Sorry\nfor that (;\n\n## Benchmark\nWhile on my Dell Latitude E5570 window moving, resizing and scrolling\n*feels* clearly faster, there are also some numbers to support this\nobservation. Given a number of stacked chromium-windows, where no window\nis fully occluded, I performed the respective operations *by hand*,\nso please beware that the benchmark is not very sophisticated. The touchpad\ndriver `xserver-xorg-input-synaptics` was used which enables for kinetic\nscrolling (Wayland anyone?). The following CPU usages were measured:\n\n| Compositor    | move  | resize  | scroll |\n| ------------- | ----- | ------- | ------ |\n| fastcompmgr   | 6.7%  | 4.4%    | 1.5%   |\n| xcompmgr      | 7.8%  | 4.9%    | 1.6%   |\n| compton       | 26.4% | 6.8%    | 17.1%  |\n| picom         | 29.3% | 8.1%    | 23.1%  |\n\n",
+    "ContentSha": "OnvUoQTkwidntiO5S27dyTV4VbLMJmGCPwpZySwVibQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# fastcompmgr\n\n__fastcompmgr__는 X용 _빠른_ 컴포지터로, __Compton__의 초기 버전을 포크한 것이며,\n이는 다시 __xcompmgr-dana__의 포크이고, __xcompmgr__의 포크입니다.\n\n저는 오랫동안 좋은 옛날 xcompmgr를 사용했는데, compton은 창을 이동하거나 크기를 조절하거나\n웹페이지를 관성 스크롤할 때 약간 지연되는 느낌이 들었기 때문입니다.\n최신 picom-10.2를 테스트해보니 상황이 더 악화된 것 같습니다(아래 벤치마크 참고).\n하지만 xcompmgr는 argb 창(예: 일부 터미널)에서 그림자를 그리지 않고,\n여러 다른 결함도 있습니다. 그래서 2011년으로 돌아가서,\n이 기능이 막 추가되던 시점의 버전을 기반으로, 불필요한 세그폴트와 메모리 누수를 없애는\n몇몇 최신 compton 커밋을 선별해 적용하고 프로파일링을 바탕으로 그 버전을 더 빠르게 만들었습니다.\n예를 들어, 창 이동 및 크기 조절 이벤트는 이벤트 수가 제한되고 고정된 프레임률로 렌더링되며,\n스크롤은 가능한 한 빠르게 처리됩니다. 가려진 창은 그려지지 않고, 메모리 할당/해제가\n대부분 회피되어 화면 재페인트가 더 빠릅니다.\n단점으로는, 페이딩 기능은 현재 작동하지 않습니다(저는 사용하지 않습니다). 죄송합니다(;\n\n## 벤치마크\n제 Dell Latitude E5570에서 창 이동, 크기 조절 및 스크롤이\n*명확히* 더 빠르게 느껴지며, 이를 뒷받침하는 몇 가지 수치도 있습니다.\n완전히 가려지지 않은 여러 개의 중첩된 크롬 창이 있을 때, 해당 작업들을 *수동으로* 수행했으므로\n벤치마크가 매우 정교하지는 않다는 점 참고 바랍니다. 관성 스크롤이 가능한\n터치패드 드라이버 `xserver-xorg-input-synaptics`를 사용했습니다(웨이랜드는요?).\n측정된 CPU 사용량은 다음과 같습니다:\n\n| 컴포지터     | 이동   | 크기 조절 | 스크롤  |\n| ------------- | ------ | -------- | ------- |\n| fastcompmgr   | 6.7%   | 4.4%     | 1.5%    |\n| xcompmgr      | 7.8%   | 4.9%     | 1.6%    |\n| compton       | 26.4%  | 6.8%     | 17.1%   |\n| picom         | 29.3%  | 8.1%     | 23.1%   |\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R12wUZ5cXTdUai4u5PFhPuaNSzpwGbru/qlJajaQ9Ik=",
+        "originContent": "# fastcompmgr",
+        "translatedContent": "# fastcompmgr"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "cA5gfA7h3pOIyy7xp/vX4XZqEkm+jlBJ+fnFQDjKqng=",
+        "originContent": "__fastcompmgr__ is a _fast_ compositor for X, a fork of an early version",
+        "translatedContent": "__fastcompmgr__는 X용 _빠른_ 컴포지터로, __Compton__의 초기 버전을 포크한 것이며,"
+      },
+      {
+        "row": 4,
+        "rowsha": "FUT6yUto8/ljmqw9tUBzVl030AABYWB0Diw59gZFi1U=",
+        "originContent": "of __Compton__ which is a fork of __xcompmgr-dana__ which is a fork",
+        "translatedContent": "이는 다시 __xcompmgr-dana__의 포크이고, __xcompmgr__의 포크입니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "HVZ+aZsHmCzo4XZxke9MgHB41BTWllNjvy/DKFClhB0=",
+        "originContent": "of __xcompmgr__.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "저는 오랫동안 좋은 옛날 xcompmgr를 사용했는데, compton은 창을 이동하거나 크기를 조절하거나"
+      },
+      {
+        "row": 7,
+        "rowsha": "fRQZaKXUWvbQAcLsWI56/IpXCklXHMaod/dNr5wCFLs=",
+        "originContent": "I used to use good old xcompmgr for long, because compton always",
+        "translatedContent": "웹페이지를 관성 스크롤할 때 약간 지연되는 느낌이 들었기 때문입니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "TauXmdNV2YqgjdeHhqsgOEO/bg+Uk90UD8HnSnXzl6k=",
+        "originContent": "felt a bit laggy when moving/resizing windows or kinetic-scrolling",
+        "translatedContent": "최신 picom-10.2를 테스트해보니 상황이 더 악화된 것 같습니다(아래 벤치마크 참고)."
+      },
+      {
+        "row": 9,
+        "rowsha": "I7Sg12xozTGGVwJILdTdfgYsClawxP4R7aT3DGlCf5s=",
+        "originContent": "a webpage. Having tested the latest picom-10.2, it seems, things got even",
+        "translatedContent": "하지만 xcompmgr는 argb 창(예: 일부 터미널)에서 그림자를 그리지 않고,"
+      },
+      {
+        "row": 10,
+        "rowsha": "FlobFnHyIm8fhuyNqYHs15C0r6/Sq3jpgYo5cZOXhRw=",
+        "originContent": "worse (see benchmark below). However, xcompmgr does not draw shadows",
+        "translatedContent": "여러 다른 결함도 있습니다. 그래서 2011년으로 돌아가서,"
+      },
+      {
+        "row": 11,
+        "rowsha": "B+0d9k5wcsokts25WIGNe5qmrT9dezXx225HlBpgtDs=",
+        "originContent": "on argb windows (e.g. some terminals) and",
+        "translatedContent": "이 기능이 막 추가되던 시점의 버전을 기반으로, 불필요한 세그폴트와 메모리 누수를 없애는"
+      },
+      {
+        "row": 12,
+        "rowsha": "OZxJ7Tcv6R3cZOY3rHZMWzTPIDa6cUe748397xsDKFc=",
+        "originContent": "has several other glitches. That's why I traveled back into 2011, where",
+        "translatedContent": "몇몇 최신 compton 커밋을 선별해 적용하고 프로파일링을 바탕으로 그 버전을 더 빠르게 만들었습니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "oRn5TkcETPrUfTeoHoR4EHx/SVQdFBA/+P1D8b7et+M=",
+        "originContent": "this feature was just added, cherry picked some later compton commits",
+        "translatedContent": "예를 들어, 창 이동 및 크기 조절 이벤트는 이벤트 수가 제한되고 고정된 프레임률로 렌더링되며,"
+      },
+      {
+        "row": 14,
+        "rowsha": "JSqZbxHKmKlyTS6RGDrGkMMT+075PpxUJ2QtbDZCu30=",
+        "originContent": "to get rid of spurious segfaults and memleaks and made that version even",
+        "translatedContent": "스크롤은 가능한 한 빠르게 처리됩니다. 가려진 창은 그려지지 않고, 메모리 할당/해제가"
+      },
+      {
+        "row": 15,
+        "rowsha": "z/UWEIfpQbBdDAooQidZikM92l1nZWrpU8OAqtyZ92M=",
+        "originContent": "faster, based on profiling.",
+        "translatedContent": "대부분 회피되어 화면 재페인트가 더 빠릅니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "ipaxbhwwGM7y1BczD7nL39y6K72PHFLNj62d9dUbHfw=",
+        "originContent": "For example, window move- and resize events are limited in their",
+        "translatedContent": "단점으로는, 페이딩 기능은 현재 작동하지 않습니다(저는 사용하지 않습니다). 죄송합니다(;"
+      },
+      {
+        "row": 17,
+        "rowsha": "86EuETKt9ZoGuo3oedxVww+MX6MdRbJYPjwIs8hNOtA=",
+        "originContent": "event-count and rendered at a somewhat fixed framerate, while",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "GdbP4dLIES9DuRd2Pz3+5yOvVk9ilWTJv6Mfj7/Q90s=",
+        "originContent": "scrolling is still done as fast as possible. Occluded windows are not",
+        "translatedContent": "## 벤치마크"
+      },
+      {
+        "row": 19,
+        "rowsha": "ApXAtAfl0+6t8/6hpIFKQCW2uFqdcCQMXXlMHOHxcDc=",
+        "originContent": "painted and memory allocations/deallocations are largely avoided,",
+        "translatedContent": "제 Dell Latitude E5570에서 창 이동, 크기 조절 및 스크롤이"
+      },
+      {
+        "row": 20,
+        "rowsha": "BqwQ7sSW0/AcrYIL6We8YYA7df+QzZEybK8lqSOTULY=",
+        "originContent": "allowing for faster repaints of the screen.",
+        "translatedContent": "*명확히* 더 빠르게 느껴지며, 이를 뒷받침하는 몇 가지 수치도 있습니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "Q3hzdFXw3i0A2xdOght+uJ6MuxkmlFupzEY6vEDcfVU=",
+        "originContent": "On the downside, fading is currently broken (I don't use it). Sorry",
+        "translatedContent": "완전히 가려지지 않은 여러 개의 중첩된 크롬 창이 있을 때, 해당 작업들을 *수동으로* 수행했으므로"
+      },
+      {
+        "row": 22,
+        "rowsha": "gp5gG6nNhYAwcCd6BOCGTLYAJ6BWM/QKRWvXHTn7k5U=",
+        "originContent": "for that (;",
+        "translatedContent": "벤치마크가 매우 정교하지는 않다는 점 참고 바랍니다. 관성 스크롤이 가능한"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "터치패드 드라이버 `xserver-xorg-input-synaptics`를 사용했습니다(웨이랜드는요?)."
+      },
+      {
+        "row": 24,
+        "rowsha": "Ef0UsiyD6h8Bsal0VWE7OxxQZOlWCfTesTDl7PDsG1Y=",
+        "originContent": "## Benchmark",
+        "translatedContent": "측정된 CPU 사용량은 다음과 같습니다:"
+      },
+      {
+        "row": 25,
+        "rowsha": "GOqcOMlCJugL8NYZ3ir5KtoTnJoKfFko5VSnK1tUk9c=",
+        "originContent": "While on my Dell Latitude E5570 window moving, resizing and scrolling",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "FiHA76o/h9bgV12fRGtEZ/q5o/xArwCgZZCk7PWsqRQ=",
+        "originContent": "*feels* clearly faster, there are also some numbers to support this",
+        "translatedContent": "| 컴포지터     | 이동   | 크기 조절 | 스크롤  |"
+      },
+      {
+        "row": 27,
+        "rowsha": "2SZVfoS8ApsMzm1MWZCStWnUXavIqt+odV6SSrVLYUU=",
+        "originContent": "observation. Given a number of stacked chromium-windows, where no window",
+        "translatedContent": "| ------------- | ------ | -------- | ------- |"
+      },
+      {
+        "row": 28,
+        "rowsha": "50LTR9cwbRxQGhuPaQ75fzutRiG4rhuOGvnD6xOs3Zo=",
+        "originContent": "is fully occluded, I performed the respective operations *by hand*,",
+        "translatedContent": "| fastcompmgr   | 6.7%   | 4.4%     | 1.5%    |"
+      },
+      {
+        "row": 29,
+        "rowsha": "ggLTdjPN/2RU8gNcUv5rPM78gA4Qw/q8svkx9PA+myY=",
+        "originContent": "so please beware that the benchmark is not very sophisticated. The touchpad",
+        "translatedContent": "| xcompmgr      | 7.8%   | 4.9%     | 1.6%    |"
+      },
+      {
+        "row": 30,
+        "rowsha": "3GSRGkNpjSgmmpU5l6TPbcBVUQxPCNHtv+YXdVGQGrE=",
+        "originContent": "driver `xserver-xorg-input-synaptics` was used which enables for kinetic",
+        "translatedContent": "| compton       | 26.4%  | 6.8%     | 17.1%   |"
+      },
+      {
+        "row": 31,
+        "rowsha": "6sUm8ZOacEiRWPg1tmMPGBKBkW4HCnvmc+6At99oDco=",
+        "originContent": "scrolling (Wayland anyone?). The following CPU usages were measured:",
+        "translatedContent": "| picom         | 29.3%  | 8.1%     | 23.1%   |"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "nU+nc/vNy7OL64v8/yyPpqnDdUU8isE/d+gELIRBB0o=",
+        "originContent": "| Compositor    | move  | resize  | scroll |",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "xABU9XYG+nYwO058M8Rnrw0bNZtPbXI7zzsbFYiGmds=",
+        "originContent": "| ------------- | ----- | ------- | ------ |",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "yb3IZQlmgloIzEN8XR1a80KUEehf4KIK2vyfwqcTmfs=",
+        "originContent": "| fastcompmgr   | 6.7%  | 4.4%    | 1.5%   |",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "QIOBed63j9vY2T9p5f6e8MeqaWj9cYgi2DYeEWefBL0=",
+        "originContent": "| xcompmgr      | 7.8%  | 4.9%    | 1.6%   |",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Pg/l2ph9YM5QL9a5jrFYxMmiGbE3oCKei5l9ToTCQSA=",
+        "originContent": "| compton       | 26.4% | 6.8%    | 17.1%  |",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "BDBtPZBKj6ufZA6ZEoiNV0sPzo+Dy+hi7NEC5gs/3Fg=",
+        "originContent": "| picom         | 29.3% | 8.1%    | 23.1%  |",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Tools were used with the following flags:\n~~~\n(v0.1) fastcompmgr -o 0.4 -r 12 -c -C\n(v1.1.8 from Debian 11) xcompmgr -o 0.4 -r 12 -c -C\n(v1 from Debian 11) compton --config /dev/null --backend xrender -o 0.4 -r 12 -c -C\n(v10.2) picom --config /dev/null --backend xrender -o 0.4 -r 12 -c\n\n# Calc average using\n$ fastcompmgr -o 0.4 -r 12 -c -C &  pid=$!; sleep 4; \\\n    top -b -n 20 -d 0.5 -p $pid | LC_ALL=C awk -v pid=$pid \\\n    '$1==PID {++PIDCOUNT} $1==pid && PIDCOUNT>1 {print $9}' |  \\\n    datamash mean 1; kill $pid\n~~~\n\n\n\n## Installation\nIf you're lazy, just grab the binary from the [release page](https://github.com/tycho-kirchner/fastcompmgr/releases).\n\nOtherwise, install the development versions of the following libraries:\n### Dependencies:\n\n* libx11\n* libxcomposite\n* libxdamage\n* libxfixes\n* libxrender\n* pkg-config\n* make\n\nTo build:\n\n~~~ bash\n$ make\n$ make install\n~~~\n\n## Usage\n\n~~~ bash",
+    "ContentSha": "VobXs6FlvGdPVAwWwAiN5Og8ZcqqAKUBIuDSfooNpeE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "도구는 다음 플래그와 함께 사용되었습니다:\n~~~\n(v0.1) fastcompmgr -o 0.4 -r 12 -c -C\n(v1.1.8 from Debian 11) xcompmgr -o 0.4 -r 12 -c -C\n(v1 from Debian 11) compton --config /dev/null --backend xrender -o 0.4 -r 12 -c -C\n(v10.2) picom --config /dev/null --backend xrender -o 0.4 -r 12 -c\n\n# 평균 계산 사용법\n$ fastcompmgr -o 0.4 -r 12 -c -C &  pid=$!; sleep 4; \\\n    top -b -n 20 -d 0.5 -p $pid | LC_ALL=C awk -v pid=$pid \\\n    '$1==PID {++PIDCOUNT} $1==pid && PIDCOUNT>1 {print $9}' |  \\\n    datamash mean 1; kill $pid\n~~~\n\n\n\n## 설치\n귀찮으면 [릴리즈 페이지](https://github.com/tycho-kirchner/fastcompmgr/releases)에서 바이너리를 받으세요.\n\n그렇지 않으면, 다음 라이브러리 개발 버전을 설치하세요:\n### 의존성:\n\n* libx11\n* libxcomposite\n* libxdamage\n* libxfixes\n* libxrender\n* pkg-config\n* make\n\n빌드 방법:\n\n~~~ bash\n$ make\n$ make install\n~~~\n\n## 사용법\n\n~~~ bash",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7j8UzukWA7RPDBungnIA9gom6ua5k0S0o10TgScmuGg=",
+        "originContent": "Tools were used with the following flags:",
+        "translatedContent": "도구는 다음 플래그와 함께 사용되었습니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 3,
+        "rowsha": "ggJqAs+0fv3YpS75S2cmds6Plw5sBWM9xFIiW3HE8ls=",
+        "originContent": "(v0.1) fastcompmgr -o 0.4 -r 12 -c -C",
+        "translatedContent": "(v0.1) fastcompmgr -o 0.4 -r 12 -c -C"
+      },
+      {
+        "row": 4,
+        "rowsha": "ysoY+5+xKFAEB085UaBUsfein2OECwbu95EOTs/sN/4=",
+        "originContent": "(v1.1.8 from Debian 11) xcompmgr -o 0.4 -r 12 -c -C",
+        "translatedContent": "(v1.1.8 from Debian 11) xcompmgr -o 0.4 -r 12 -c -C"
+      },
+      {
+        "row": 5,
+        "rowsha": "36aIPGaEzcDbMBPUraTSasKCxmCH633C+0yyX07CZuk=",
+        "originContent": "(v1 from Debian 11) compton --config /dev/null --backend xrender -o 0.4 -r 12 -c -C",
+        "translatedContent": "(v1 from Debian 11) compton --config /dev/null --backend xrender -o 0.4 -r 12 -c -C"
+      },
+      {
+        "row": 6,
+        "rowsha": "8Wet2cUHSGU77lZY4FHEjQ9OYZDVQseUvpuq5+yGapQ=",
+        "originContent": "(v10.2) picom --config /dev/null --backend xrender -o 0.4 -r 12 -c",
+        "translatedContent": "(v10.2) picom --config /dev/null --backend xrender -o 0.4 -r 12 -c"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "8dmMG/sWfUo3fZFtthE3gV0ZwNdZK8qtwYl+EVFkqxg=",
+        "originContent": "# Calc average using",
+        "translatedContent": "# 평균 계산 사용법"
+      },
+      {
+        "row": 9,
+        "rowsha": "QzvH2zlks4SQ1ge87jVBMwqAGHle6VfSiw2q4WCfLR4=",
+        "originContent": "$ fastcompmgr -o 0.4 -r 12 -c -C &  pid=$!; sleep 4; \\",
+        "translatedContent": "$ fastcompmgr -o 0.4 -r 12 -c -C &  pid=$!; sleep 4; \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "M1ybS7ZSbA7Gns4GxoV+zsX9W9f8F/RYuPXa3GDsxRA=",
+        "originContent": "    top -b -n 20 -d 0.5 -p $pid | LC_ALL=C awk -v pid=$pid \\",
+        "translatedContent": "    top -b -n 20 -d 0.5 -p $pid | LC_ALL=C awk -v pid=$pid \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "RtMfBxjhI0nLh57vfbDhfQcWvkQzz6WlGVvZepMjGrE=",
+        "originContent": "    '$1==PID {++PIDCOUNT} $1==pid && PIDCOUNT>1 {print $9}' |  \\",
+        "translatedContent": "    '$1==PID {++PIDCOUNT} $1==pid && PIDCOUNT>1 {print $9}' |  \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "hLDMN52qSRHsGX8bMUEjjHJuEMHyKPdUi6xkDScEa2M=",
+        "originContent": "    datamash mean 1; kill $pid",
+        "translatedContent": "    datamash mean 1; kill $pid"
+      },
+      {
+        "row": 13,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 18,
+        "rowsha": "pk+wtP4Nj+k+tT6Uva5hwKKClfM2jcIeOeYeVvPREp4=",
+        "originContent": "If you're lazy, just grab the binary from the [release page](https://github.com/tycho-kirchner/fastcompmgr/releases).",
+        "translatedContent": "귀찮으면 [릴리즈 페이지](https://github.com/tycho-kirchner/fastcompmgr/releases)에서 바이너리를 받으세요."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "AYhHvf7L5v6vOoK1+EK3GfQz78u8WPusKp3hZmKyW/Q=",
+        "originContent": "Otherwise, install the development versions of the following libraries:",
+        "translatedContent": "그렇지 않으면, 다음 라이브러리 개발 버전을 설치하세요:"
+      },
+      {
+        "row": 21,
+        "rowsha": "RZGlyGTWtm4SKzr2l9idWouxBw80saKVTQVnvPcZI0s=",
+        "originContent": "### Dependencies:",
+        "translatedContent": "### 의존성:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "N7yN4RIMJaWoF/RkRL7zg577J+odkXWRv/aL6GgjQPY=",
+        "originContent": "* libx11",
+        "translatedContent": "* libx11"
+      },
+      {
+        "row": 24,
+        "rowsha": "Aeq3UK+plXsL5AaeP/lqM1yvrv6sJgR3k8B4gOhbX9g=",
+        "originContent": "* libxcomposite",
+        "translatedContent": "* libxcomposite"
+      },
+      {
+        "row": 25,
+        "rowsha": "Xv5a6kFLty0lPTdxIVAuFZvlIyyBjOFTxc6pXcUOQIE=",
+        "originContent": "* libxdamage",
+        "translatedContent": "* libxdamage"
+      },
+      {
+        "row": 26,
+        "rowsha": "LVbqMhgaWbYmzK87Us7CkqweUvJfzqaPDpnGhtnwwY0=",
+        "originContent": "* libxfixes",
+        "translatedContent": "* libxfixes"
+      },
+      {
+        "row": 27,
+        "rowsha": "j0FpTV3Av3uxwmGreyx0udKrNnO0TCBC+mdqGQX+80E=",
+        "originContent": "* libxrender",
+        "translatedContent": "* libxrender"
+      },
+      {
+        "row": 28,
+        "rowsha": "zSupz0DzM5IQ9FlT/d+A967mKFwoxMHI0Jbv6SXvrNI=",
+        "originContent": "* pkg-config",
+        "translatedContent": "* pkg-config"
+      },
+      {
+        "row": 29,
+        "rowsha": "wvX+tP80rUeeVCNAD4Qi4DacwMS7X2y3O4xlKO2Lthc=",
+        "originContent": "* make",
+        "translatedContent": "* make"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "kIgwI0MAt/fQ/Om+HTjGlICn4f32ZP5jkx+sW8iw6os=",
+        "originContent": "To build:",
+        "translatedContent": "빌드 방법:"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "dzFJd6zQSEY3gbZiIe0kySqo7hgGn/CzIWzRxMHaJTU=",
+        "originContent": "~~~ bash",
+        "translatedContent": "~~~ bash"
+      },
+      {
+        "row": 34,
+        "rowsha": "ByXC+7uYh7zISdHRAQnU8EnErq6laYIzvY4fjm9JwjU=",
+        "originContent": "$ make",
+        "translatedContent": "$ make"
+      },
+      {
+        "row": 35,
+        "rowsha": "WPETnyHJsD4t9dyw4VR6Xn0RbeylMui84NBmxZdT9qM=",
+        "originContent": "$ make install",
+        "translatedContent": "$ make install"
+      },
+      {
+        "row": 36,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "dzFJd6zQSEY3gbZiIe0kySqo7hgGn/CzIWzRxMHaJTU=",
+        "originContent": "~~~ bash",
+        "translatedContent": "~~~ bash"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "$ fastcompmgr -o 0.4 -r 12 -c -C\n~~~\nAll options (currently fading doesn't work):\n~~~\n   -d display\n    Which display should be managed.\n   -r radius\n    The blur radius for shadows. (default 12)\n   -o opacity\n    The translucency for shadows. (default .75)\n   -l left-offset\n    The left offset for shadows. (default -15)\n   -t top-offset\n    The top offset for shadows. (default -15)\n   -m opacity\n    The opacity for menus. (default 1.0)\n   -c\n    Enabled client-side shadows on windows.\n   -C\n    Avoid drawing shadows on dock/panel windows.\n   -i opacity\n    Opacity of inactive windows. (0.1 - 1.0)\n   -e opacity\n    Opacity of window titlebars and borders. (0.1 - 1.0)\n    --shadow-red value\n    Red color value of shadow (0.0 - 1.0, defaults to 0).\n    --shadow-green value\n    Green color value of shadow (0.0 - 1.0, defaults to 0).\n    --shadow-blue value\n    Blue color value of shadow (0.0 - 1.0, defaults to 0).\n\n~~~\n\n\n## License\n\nxcompmgr has gotten around. As far as I can tell, the lineage for this\nparticular tree is something like:\n\n* Keith Packard (original author)",
+    "ContentSha": "wAnTde/1Mfni1U61E5wpMN3RHWSrimPDJMIpJnoFuWk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "$ fastcompmgr -o 0.4 -r 12 -c -C\n~~~\n모든 옵션 (현재 페이딩은 작동하지 않음):\n~~~\n   -d 디스플레이\n    관리할 디스플레이를 지정합니다.\n   -r 반경\n    그림자에 대한 블러 반경입니다. (기본값 12)\n   -o 불투명도\n    그림자의 투명도입니다. (기본값 .75)\n   -l 왼쪽 오프셋\n    그림자의 왼쪽 오프셋입니다. (기본값 -15)\n   -t 위쪽 오프셋\n    그림자의 위쪽 오프셋입니다. (기본값 -15)\n   -m 불투명도\n    메뉴의 불투명도입니다. (기본값 1.0)\n   -c\n    창에 클라이언트 측 그림자를 활성화합니다.\n   -C\n    도크/패널 창에 그림자 그리기를 방지합니다.\n   -i 불투명도\n    비활성 창의 불투명도입니다. (0.1 - 1.0)\n   -e 불투명도\n    창 제목 표시줄 및 테두리의 불투명도입니다. (0.1 - 1.0)\n    --shadow-red 값\n    그림자의 빨간색 값 (0.0 - 1.0, 기본값 0).\n    --shadow-green 값\n    그림자의 녹색 값 (0.0 - 1.0, 기본값 0).\n    --shadow-blue 값\n    그림자의 파란색 값 (0.0 - 1.0, 기본값 0).\n\n~~~\n\n\n## 라이선스\n\nxcompmgr는 여러 곳에서 사용되었습니다. 제가 알기로 이\n특정 계통의 계보는 다음과 같습니다:\n\n* Keith Packard (원저자)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "3P6Izf+2TGf8X1zmlIUfAUZjQp0ND75M0pH01NR9AJ8=",
+        "originContent": "$ fastcompmgr -o 0.4 -r 12 -c -C",
+        "translatedContent": "$ fastcompmgr -o 0.4 -r 12 -c -C"
+      },
+      {
+        "row": 2,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 3,
+        "rowsha": "7Y3R5LBm8WRukicd0f+voimFMTX6Bj7OyxEpCiVXOcw=",
+        "originContent": "All options (currently fading doesn't work):",
+        "translatedContent": "모든 옵션 (현재 페이딩은 작동하지 않음):"
+      },
+      {
+        "row": 4,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 5,
+        "rowsha": "FZOQbSUh8shQbjM+OFzFleYgopqIgCzvIJs83iJTR6Y=",
+        "originContent": "   -d display",
+        "translatedContent": "   -d 디스플레이"
+      },
+      {
+        "row": 6,
+        "rowsha": "8jTl0cLU0OWs5JP6DLHc6xGOeWZ66gThUlyCiCNRQtU=",
+        "originContent": "    Which display should be managed.",
+        "translatedContent": "    관리할 디스플레이를 지정합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "WTb/Wpv1ch93s4Pom7JJuosu1R4rf1OPgJI7OE551R0=",
+        "originContent": "   -r radius",
+        "translatedContent": "   -r 반경"
+      },
+      {
+        "row": 8,
+        "rowsha": "LD199m5OHVAM3rT+rFY2X94CBpWbaYvh9FmF0zLEIrY=",
+        "originContent": "    The blur radius for shadows. (default 12)",
+        "translatedContent": "    그림자에 대한 블러 반경입니다. (기본값 12)"
+      },
+      {
+        "row": 9,
+        "rowsha": "p9xqplHhagx2qqefk/K514oD7lsSLdDTZu+/ae933yc=",
+        "originContent": "   -o opacity",
+        "translatedContent": "   -o 불투명도"
+      },
+      {
+        "row": 10,
+        "rowsha": "DGs9OrzICEz84Q98H94WgEOUPsuWtT1yTmyMxNH6VVo=",
+        "originContent": "    The translucency for shadows. (default .75)",
+        "translatedContent": "    그림자의 투명도입니다. (기본값 .75)"
+      },
+      {
+        "row": 11,
+        "rowsha": "DMQBZ1BClRIKN7VPDC9NDIzqdc7Y7MI3ibI8vsiwg8I=",
+        "originContent": "   -l left-offset",
+        "translatedContent": "   -l 왼쪽 오프셋"
+      },
+      {
+        "row": 12,
+        "rowsha": "w90eDwCscOmNy2/+1jYae69eiHd0aTVjJPEAWRZU77c=",
+        "originContent": "    The left offset for shadows. (default -15)",
+        "translatedContent": "    그림자의 왼쪽 오프셋입니다. (기본값 -15)"
+      },
+      {
+        "row": 13,
+        "rowsha": "KtoChu4ZNYR5ZA6llgPPy6HjpRzVjiIBAkymdwb/zOM=",
+        "originContent": "   -t top-offset",
+        "translatedContent": "   -t 위쪽 오프셋"
+      },
+      {
+        "row": 14,
+        "rowsha": "uUOE2q3j8SMhqmZVwNdFzAiNoGRP/YuYLGIr9cZrfBk=",
+        "originContent": "    The top offset for shadows. (default -15)",
+        "translatedContent": "    그림자의 위쪽 오프셋입니다. (기본값 -15)"
+      },
+      {
+        "row": 15,
+        "rowsha": "KaabHij8GsnKkbQ9h0e1UmKP1xN3abzHMw8iuqipfWM=",
+        "originContent": "   -m opacity",
+        "translatedContent": "   -m 불투명도"
+      },
+      {
+        "row": 16,
+        "rowsha": "OdjX8LVrpE5vyR7XbrNbSfSCWKysTXGBjQ83YXK70Mg=",
+        "originContent": "    The opacity for menus. (default 1.0)",
+        "translatedContent": "    메뉴의 불투명도입니다. (기본값 1.0)"
+      },
+      {
+        "row": 17,
+        "rowsha": "yO5ZFvYfQT0fmOaw3PEJ/ihVMbQX/OcLU5k2NSR7/Ps=",
+        "originContent": "   -c",
+        "translatedContent": "   -c"
+      },
+      {
+        "row": 18,
+        "rowsha": "jQEV1Qdomg5hJQ7Cr2yZVN9SPi0JwI+5zKZW8oBANOk=",
+        "originContent": "    Enabled client-side shadows on windows.",
+        "translatedContent": "    창에 클라이언트 측 그림자를 활성화합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "PA2pcZGHNvMMXYUapfco+a5eJI8HuxxP0pjA8eiSxGc=",
+        "originContent": "   -C",
+        "translatedContent": "   -C"
+      },
+      {
+        "row": 20,
+        "rowsha": "2ls3NtWtJ8rB56gGWPi3jH3wW8l5pyPlMJNY/6b1rds=",
+        "originContent": "    Avoid drawing shadows on dock/panel windows.",
+        "translatedContent": "    도크/패널 창에 그림자 그리기를 방지합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "RWwnO+4GIyao5AqTgZq8DTmu5hKNQelm0YW/jq6+lgw=",
+        "originContent": "   -i opacity",
+        "translatedContent": "   -i 불투명도"
+      },
+      {
+        "row": 22,
+        "rowsha": "NNTtmauA50i/zl6PkWg/5Taolo3F6M5/HSGmUTu59pg=",
+        "originContent": "    Opacity of inactive windows. (0.1 - 1.0)",
+        "translatedContent": "    비활성 창의 불투명도입니다. (0.1 - 1.0)"
+      },
+      {
+        "row": 23,
+        "rowsha": "NOzb6i3lNWHxqlq78cT7WHkgsQBGsaucJijwgGVRKfU=",
+        "originContent": "   -e opacity",
+        "translatedContent": "   -e 불투명도"
+      },
+      {
+        "row": 24,
+        "rowsha": "gH6AUTpPvLtHTC7MJ4et4TfxLfXaJG94VL+R4tWpEtU=",
+        "originContent": "    Opacity of window titlebars and borders. (0.1 - 1.0)",
+        "translatedContent": "    창 제목 표시줄 및 테두리의 불투명도입니다. (0.1 - 1.0)"
+      },
+      {
+        "row": 25,
+        "rowsha": "gcuonhTNyZVdCh+YB9BUiRRzHbZ2eO6b4PYGM+aO6Ak=",
+        "originContent": "    --shadow-red value",
+        "translatedContent": "    --shadow-red 값"
+      },
+      {
+        "row": 26,
+        "rowsha": "37IZh0wpBVOLCfJNx8cfjEhxpUKY/xoenIuvm9fo140=",
+        "originContent": "    Red color value of shadow (0.0 - 1.0, defaults to 0).",
+        "translatedContent": "    그림자의 빨간색 값 (0.0 - 1.0, 기본값 0)."
+      },
+      {
+        "row": 27,
+        "rowsha": "rykMXFOwFKlP5aY/Glt4gHuzT/GQCgP7z1Wo1o11FIw=",
+        "originContent": "    --shadow-green value",
+        "translatedContent": "    --shadow-green 값"
+      },
+      {
+        "row": 28,
+        "rowsha": "KRJfbdhEgI/YZtq8FOJi/7vxfCFbmMA/BXnJHIZbcy0=",
+        "originContent": "    Green color value of shadow (0.0 - 1.0, defaults to 0).",
+        "translatedContent": "    그림자의 녹색 값 (0.0 - 1.0, 기본값 0)."
+      },
+      {
+        "row": 29,
+        "rowsha": "CgX/5phxaC5dCUIIQJEFEMKd5eHtDHXv4XF8ygeeLG0=",
+        "originContent": "    --shadow-blue value",
+        "translatedContent": "    --shadow-blue 값"
+      },
+      {
+        "row": 30,
+        "rowsha": "OpiFJ9E0HhO9/2HlNgQ+5KfEBcvcxficJJAbNYCZOHk=",
+        "originContent": "    Blue color value of shadow (0.0 - 1.0, defaults to 0).",
+        "translatedContent": "    그림자의 파란색 값 (0.0 - 1.0, 기본값 0)."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "xJKfR88T8CTGiJzlobvcwo3BkFA7xqxJitopvuFVAt8=",
+        "originContent": "xcompmgr has gotten around. As far as I can tell, the lineage for this",
+        "translatedContent": "xcompmgr는 여러 곳에서 사용되었습니다. 제가 알기로 이"
+      },
+      {
+        "row": 38,
+        "rowsha": "sS62F+zeQidj3j9KwaSyWveNYV8qwu2BTww2VMIpMEA=",
+        "originContent": "particular tree is something like:",
+        "translatedContent": "특정 계통의 계보는 다음과 같습니다:"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "ja9jW1uRsNZOjnCIJFEBgrpO6rqZYWEXPkooPKY8Fqw=",
+        "originContent": "* Keith Packard (original author)",
+        "translatedContent": "* Keith Packard (원저자)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "* Matthew Hawn\n* ...\n* Dana Jansens\n* Christopher Jeffrey\n* Tycho Kirchner\n\nNot counting the tens of people who forked it in between.\n\nSee LICENSE for more info.\n",
+    "ContentSha": "TqQgRDFB9LqqnX/pna+fvPjT3w5al60kGH48Ow3MF30=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 매튜 호언\n* ...\n* 다나 얀센스\n* 크리스토퍼 제프리\n* 타이코 키르슈너\n\n그 사이에 포크한 수십 명은 제외합니다.\n\n자세한 내용은 LICENSE를 참조하세요.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bDhuol4r2Kg33HBLOnPsJOT5uWzhDLmXhlaERJZQpyQ=",
+        "originContent": "* Matthew Hawn",
+        "translatedContent": "* 매튜 호언"
+      },
+      {
+        "row": 2,
+        "rowsha": "PWKFWpVbhWwqxkBW7FFESJaZz/b7k7OT033uWuQKSNI=",
+        "originContent": "* ...",
+        "translatedContent": "* ..."
+      },
+      {
+        "row": 3,
+        "rowsha": "dBfYl4ZO6GSYOAsI3uPhoVXkVKl2Y/TYVT1dX9YCzfo=",
+        "originContent": "* Dana Jansens",
+        "translatedContent": "* 다나 얀센스"
+      },
+      {
+        "row": 4,
+        "rowsha": "wa+EPm31CkrgQzzxK7PhIljoGj+yqOLuHAyKS53vKOk=",
+        "originContent": "* Christopher Jeffrey",
+        "translatedContent": "* 크리스토퍼 제프리"
+      },
+      {
+        "row": 5,
+        "rowsha": "ld56QQAHSDk9usegekxDI4aGjSuokSbnehhkm94HZ88=",
+        "originContent": "* Tycho Kirchner",
+        "translatedContent": "* 타이코 키르슈너"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "DTqDHPrZ19ZwbOrvQDlCOZ7dDT62dN16rLfuysqAqOQ=",
+        "originContent": "Not counting the tens of people who forked it in between.",
+        "translatedContent": "그 사이에 포크한 수십 명은 제외합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "2chod1CmnhmVNReFQnHR6+GQ8+P4HCzU6Z5ITbt42ls=",
+        "originContent": "See LICENSE for more info.",
+        "translatedContent": "자세한 내용은 LICENSE를 참조하세요."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

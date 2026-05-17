@@ -1,0 +1,1166 @@
+[
+  {
+    "row": 1,
+    "rowsha": "lIW3MLQbHhGzToT2rruC44Nds3IjDvlO1JusQv8xIHA=",
+    "originContent": "[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/charlievieth/fastwalk)",
+    "translatedContent": "[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/charlievieth/fastwalk)"
+  },
+  {
+    "row": 2,
+    "rowsha": "h3rZorhexJh4PDjQ88sKvX1GrBkCEjizKeSKofFfRGo=",
+    "originContent": "[![Test fastwalk on macOS](https://github.com/charlievieth/fastwalk/actions/workflows/macos.yml/badge.svg)](https://github.com/charlievieth/fastwalk/actions/workflows/macos.yml)",
+    "translatedContent": "[![Test fastwalk on macOS](https://github.com/charlievieth/fastwalk/actions/workflows/macos.yml/badge.svg)](https://github.com/charlievieth/fastwalk/actions/workflows/macos.yml)"
+  },
+  {
+    "row": 3,
+    "rowsha": "MzkEsPG//fPcAzWJxgJz/Wc9zwDyRiAScFJLwqcxOx0=",
+    "originContent": "[![Test fastwalk on Linux](https://github.com/charlievieth/fastwalk/actions/workflows/linux.yml/badge.svg)](https://github.com/charlievieth/fastwalk/actions/workflows/linux.yml)",
+    "translatedContent": "[![Test fastwalk on Linux](https://github.com/charlievieth/fastwalk/actions/workflows/linux.yml/badge.svg)](https://github.com/charlievieth/fastwalk/actions/workflows/linux.yml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "jSCW116Lz5Gef3aXulokaGxD1riqPgLVFdoCZR8/u9g=",
+    "originContent": "[![Test fastwalk on Windows](https://github.com/charlievieth/fastwalk/actions/workflows/windows.yml/badge.svg)](https://github.com/charlievieth/fastwalk/actions/workflows/windows.yml)",
+    "translatedContent": "[![Test fastwalk on Windows](https://github.com/charlievieth/fastwalk/actions/workflows/windows.yml/badge.svg)](https://github.com/charlievieth/fastwalk/actions/workflows/windows.yml)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "WCQ+Md7ZOh2P7GIH5q70uF7yC2Mgs9B1OU20kOEBT0Q=",
+    "originContent": "# fastwalk",
+    "translatedContent": "# fastwalk"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "hRUfovEa4cnRjdLtT8JR+7j0j9GPMetA40ACXUMCLhw=",
+    "originContent": "Fast parallel directory traversal for Golang.",
+    "translatedContent": "Golang 的快速并行目录遍历。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "bI1qbyC7hcraOoetE4QcuZhd5uH4TpL4dG9FwAT4Evk=",
+    "originContent": "Package fastwalk provides a fast parallel version of [`filepath.WalkDir`](https://pkg.go.dev/io/fs#WalkDirFunc)",
+    "translatedContent": "fastwalk 包提供了一个快速并行版本的 [`filepath.WalkDir`](https://pkg.go.dev/io/fs#WalkDirFunc)，"
+  },
+  {
+    "row": 11,
+    "rowsha": "1nVW5Ty95wwXTtpoPJUbtPLQ9ZkOuDNtAw9//idFvGs=",
+    "originContent": "that is \\~2.5x faster on macOS, \\~4x faster on Linux, \\~6x faster on Windows,",
+    "translatedContent": "在 macOS 上速度提升约 2.5 倍，Linux 上约 4 倍，Windows 上约 6 倍，"
+  },
+  {
+    "row": 12,
+    "rowsha": "sH93On8m0r+Vg/D6ftwQ8R11Um6nQ9CYfjeno144mUM=",
+    "originContent": "allocates 50% less memory, and requires 25% fewer memory allocations.",
+    "translatedContent": "内存分配减少 50%，且内存分配次数减少 25%。"
+  },
+  {
+    "row": 13,
+    "rowsha": "5q2X3LNWcpH8jmMOj+dKPVICrACeTF2z/iuVD72Q+jY=",
+    "originContent": "Additionally, it is \\~4-5x faster than [godirwalk](https://github.com/karrick/godirwalk)",
+    "translatedContent": "此外，它在各操作系统上比 [godirwalk](https://github.com/karrick/godirwalk) 快约 4-5 倍。"
+  },
+  {
+    "row": 14,
+    "rowsha": "Teay5lkDHLgLc0KUCqLdzUH9HcQDIsMy2YE2KucZrjw=",
+    "originContent": "across OSes.",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "灵感来源并基于 [golang.org/x/tools/internal/fastwalk](https://pkg.go.dev/golang.org/x/tools@v0.1.9/internal/fastwalk)。"
+  },
+  {
+    "row": 16,
+    "rowsha": "iLWHoiVK1Dds64+0x91v3nYZrAglM+OnzOxEf1O4vJQ=",
+    "originContent": "Inspired by and based off of [golang.org/x/tools/internal/fastwalk](https://pkg.go.dev/golang.org/x/tools@v0.1.9/internal/fastwalk).",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 特性"
+  },
+  {
+    "row": 18,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 快速：多个 goroutine 并发访问文件系统并调用"
+  },
+  {
+    "row": 20,
+    "rowsha": "LERDIh+QarklxwTaZqFbG4z6WSA8bHczWr6IMPBj8hc=",
+    "originContent": "* Fast: multiple goroutines stat the filesystem and call the",
+    "translatedContent": "  [`filepath.WalkDirFunc`](https://pkg.go.dev/io/fs#WalkDirFunc) 回调"
+  },
+  {
+    "row": 21,
+    "rowsha": "ItWev/7E+aU9AfS07tLiAxNRA7xFjl1kocY9WzXWkD8=",
+    "originContent": "  [`filepath.WalkDirFunc`](https://pkg.go.dev/io/fs#WalkDirFunc) callback concurrently",
+    "translatedContent": "* 安全的符号链接遍历（[`Config.Follow`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Config)）"
+  },
+  {
+    "row": 22,
+    "rowsha": "AALWYN99O5IsOZ3gG+1GBEsOls6+m2uvyP/wPQLtO3A=",
+    "originContent": "* Safe symbolic link traversal ([`Config.Follow`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Config))",
+    "translatedContent": "* 行为和回调签名与 [`filepath.WalkDir`](https://pkg.go.dev/path/filepath#WalkDir) 一致"
+  },
+  {
+    "row": 23,
+    "rowsha": "pkL3EjPJLoUYCCv2FB/jJ5gk+JOAzAV9g/Nzgsf+DjQ=",
+    "originContent": "* Same behavior and callback signature as [`filepath.WalkDir`](https://pkg.go.dev/path/filepath#WalkDir)",
+    "translatedContent": "* 提供包装函数以忽略重复的文件和目录："
+  },
+  {
+    "row": 24,
+    "rowsha": "PruLKE6JK5taQOrjZ/uIMhEyQtKQq2e1r1C959xEnZQ=",
+    "originContent": "* Wrapper functions are provided to ignore duplicate files and directories:",
+    "translatedContent": "\t[`IgnoreDuplicateFiles()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#IgnoreDuplicateFiles)"
+  },
+  {
+    "row": 25,
+    "rowsha": "isY4vh+UOg0pZ6kIorDb2PNaZwxOXaGrGNugSkB9PrE=",
+    "originContent": "\t[`IgnoreDuplicateFiles()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#IgnoreDuplicateFiles)",
+    "translatedContent": "\t和"
+  },
+  {
+    "row": 26,
+    "rowsha": "U9S7/lArJvr5VBiJ/kQRG82l6d6n2UxremZenlwv8fM=",
+    "originContent": "\tand",
+    "translatedContent": "\t[`IgnoreDuplicateDirs()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#IgnoreDuplicateDirs)"
+  },
+  {
+    "row": 27,
+    "rowsha": "kVnAtBrUzcoqdLLPvN6Z60uja2qQf3HlzHJlCEy5tm0=",
+    "originContent": "\t[`IgnoreDuplicateDirs()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#IgnoreDuplicateDirs)",
+    "translatedContent": "* 在 macOS、Linux 和 Windows 上经过广泛测试"
+  },
+  {
+    "row": 28,
+    "rowsha": "A2h56jheu4AESlw/GQOGghWaF6Z1cIWUChoXk6E/go0=",
+    "originContent": "* Extensively tested on macOS, Linux, and Windows",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 用法"
+  },
+  {
+    "row": 30,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "用法与 [`filepath.WalkDir`](https://pkg.go.dev/io/fs#WalkDirFunc) 相同，"
+  },
+  {
+    "row": 32,
+    "rowsha": "RgrsDu45+pkk0mG3fgV0/rgSQ7HJ4XjhEIpCnVOCgAo=",
+    "originContent": "Usage is the same as [`filepath.WalkDir`](https://pkg.go.dev/io/fs#WalkDirFunc),",
+    "translatedContent": "但传递给 [`fastwalk.Walk`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk) 的 [`walkFn`](https://pkg.go.dev/path/filepath@go1.17.7#WalkFunc)"
+  },
+  {
+    "row": 33,
+    "rowsha": "5XpcTR7pQTGjjutj21VgK+P9F6YH024tB2bBXJ9NmlE=",
+    "originContent": "but the [`walkFn`](https://pkg.go.dev/path/filepath@go1.17.7#WalkFunc)",
+    "translatedContent": "参数必须是并发安全的。"
+  },
+  {
+    "row": 34,
+    "rowsha": "47F6WK/Xqw+mQm0YTHz8WIkFjTMjCqd+Tmc7I3bClXk=",
+    "originContent": "argument to [`fastwalk.Walk`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk)",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "vK8gPaA1j01hYvfvoYAuiV3fGevgdzrhdc+HRWsyvOg=",
+    "originContent": "must be safe for concurrent use.",
+    "translatedContent": "示例可在 [examples](./examples) 目录中找到。"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "RlEFV4gB2TCJEPj/fQ1VBzSlxFVIq9hfY79GWHzVSOQ=",
+    "originContent": "Examples can be found in the [examples](./examples) directory.",
+    "translatedContent": "<!-- TODO: this example is large move it to an examples folder -->"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "FzEYzqlrM4MtH4N8GTVPS0lA85Imiclo74OBRCuQWX0=",
+    "originContent": "<!-- TODO: this example is large move it to an examples folder -->",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "KqY5nM8jfIIY7z121Zkgn+gpogPKw6rIv0czyB+b8mc=",
+    "originContent": "The below example is a very simple version of the POSIX",
+    "translatedContent": "下面的示例是一个非常简单版本的POSIX  "
+  },
+  {
+    "row": 42,
+    "rowsha": "5BjkBSjJrL8fnRkB4TE5WAWuFO1aqjDU1aIhimXJnzI=",
+    "originContent": "[find](https://pubs.opengroup.org/onlinepubs/007904975/utilities/find.html) utility:",
+    "translatedContent": "[find](https://pubs.opengroup.org/onlinepubs/007904975/utilities/find.html) 工具："
+  },
+  {
+    "row": 43,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 44,
+    "rowsha": "e/AfZR7c1PhEdKWk4IG18euTEqi736ndZtxt9GdbpaI=",
+    "originContent": "// fwfind is a an example program that is similar to POSIX find,",
+    "translatedContent": "// fwfind is a an example program that is similar to POSIX find,"
+  },
+  {
+    "row": 45,
+    "rowsha": "E8EjM452F+x6kqBAnVnQ9YRULcoWNIvuuK9eLgBtv4A=",
+    "originContent": "// but faster and worse (it's an example).",
+    "translatedContent": "// but faster and worse (it's an example)."
+  },
+  {
+    "row": 46,
+    "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+    "originContent": "package main",
+    "translatedContent": "package main"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+    "originContent": "import (",
+    "translatedContent": "import ("
+  },
+  {
+    "row": 49,
+    "rowsha": "UTcN1ZeJEXFf+6+550YwkAbIRTxYElARXFGYonnyb8A=",
+    "originContent": "\t\"flag\"",
+    "translatedContent": "\t\"flag\""
+  },
+  {
+    "row": 50,
+    "rowsha": "bxiNYRyQDQHSapG1SO1UL5xAESbBBT8fhvlHgBYqeG4=",
+    "originContent": "\t\"fmt\"",
+    "translatedContent": "\t\"fmt\""
+  },
+  {
+    "row": 51,
+    "rowsha": "GU5fEjchjonHrQfvlU6DvFHO4vrvkvBeLMUR7Njp+Ec=",
+    "originContent": "\t\"io/fs\"",
+    "translatedContent": "\t\"io/fs\""
+  },
+  {
+    "row": 52,
+    "rowsha": "7wEcGgrIeSBg1fRfMrMonN5J1fgta9GoqvkgKMP6TD4=",
+    "originContent": "\t\"os\"",
+    "translatedContent": "\t\"os\""
+  },
+  {
+    "row": 53,
+    "rowsha": "ZnUxxuf4jlqnaKCIueaKSWTWfKr0Sd+iRWTFTLFio3o=",
+    "originContent": "\t\"path/filepath\"",
+    "translatedContent": "\t\"path/filepath\""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "thhDyUyMzgQrduYAaHqscG7h0kxAhABtjagaWpana98=",
+    "originContent": "\t\"github.com/charlievieth/fastwalk\"",
+    "translatedContent": "\t\"github.com/charlievieth/fastwalk\""
+  },
+  {
+    "row": 56,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "l2tgL3hGpjcIxcgvjwLBlspun/Wxn5owHyqhVb43O3w=",
+    "originContent": "const usageMsg = `Usage: %[1]s [-L] [-name] [PATH...]:",
+    "translatedContent": "const usageMsg = `Usage: %[1]s [-L] [-name] [PATH...]:"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "3auCIkUaJSVvF/Qd/45MuIjQeSrLjs8VbnAWRpp0c4U=",
+    "originContent": "%[1]s is a poor replacement for the POSIX find utility",
+    "translatedContent": "%[1]s is a poor replacement for the POSIX find utility"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "jTP1IKPEzvgNJFOu+BthK/4ctEyLICVjCtOGYnY/E9M=",
+    "originContent": "`",
+    "translatedContent": "`"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+    "originContent": "func main() {",
+    "translatedContent": "func main() {"
+  },
+  {
+    "row": 65,
+    "rowsha": "vVdiIiK6imBk/0IICjwOQffAt7mkgN8P5l0Z03+Vuu8=",
+    "originContent": "\tflag.Usage = func() {",
+    "translatedContent": "\tflag.Usage = func() {"
+  },
+  {
+    "row": 66,
+    "rowsha": "lMj4GSLUMIBy+iiy9odBAm26+Fl8SPu17QuosHFelso=",
+    "originContent": "\t\tfmt.Fprintf(os.Stdout, usageMsg, filepath.Base(os.Args[0]))",
+    "translatedContent": "\t\tfmt.Fprintf(os.Stdout, usageMsg, filepath.Base(os.Args[0]))"
+  },
+  {
+    "row": 67,
+    "rowsha": "P0tXRwIEMj+mcZUQMB3g23Qrv1NZV/ikR9eBr4AbcJg=",
+    "originContent": "\t\tflag.PrintDefaults()",
+    "translatedContent": "\t\tflag.PrintDefaults()"
+  },
+  {
+    "row": 68,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 69,
+    "rowsha": "r9Z9zYoEsiTI09Tiew+6mfr1JrVUw0uUY7rZpSnof+s=",
+    "originContent": "\tpattern := flag.String(\"name\", \"\", \"Pattern to match file names against.\")",
+    "translatedContent": "\tpattern := flag.String(\"name\", \"\", \"Pattern to match file names against.\")"
+  },
+  {
+    "row": 70,
+    "rowsha": "67Zg+MJbrYht4i3XTrZay0SlobCXG6b9Cddcb0v6y0w=",
+    "originContent": "\tfollowLinks := flag.Bool(\"L\", false, \"Follow symbolic links\")",
+    "translatedContent": "\tfollowLinks := flag.Bool(\"L\", false, \"Follow symbolic links\")"
+  },
+  {
+    "row": 71,
+    "rowsha": "TQvTIaJ0xnWvi+zLXz9LRjwucgY7SFyW5xLXtiDKzgI=",
+    "originContent": "\tflag.Parse()",
+    "translatedContent": "\tflag.Parse()"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "pG7xfxPH/z569ZLUavV6kFMi1WltmEcW7OBIgt5WKGU=",
+    "originContent": "\t// If no paths are provided default to the current directory: \".\"",
+    "translatedContent": "\t// If no paths are provided default to the current directory: \".\""
+  },
+  {
+    "row": 74,
+    "rowsha": "egfkxpkfZaCqVCb+AUsrp/05HmYlS3BYEUVDFtLysSk=",
+    "originContent": "\targs := flag.Args()",
+    "translatedContent": "\targs := flag.Args()"
+  },
+  {
+    "row": 75,
+    "rowsha": "1ABzXbIrUpb0WRE/aSQnK7IwnqYgkS323vKu7znocdg=",
+    "originContent": "\tif len(args) == 0 {",
+    "translatedContent": "\tif len(args) == 0 {"
+  },
+  {
+    "row": 76,
+    "rowsha": "FoAkgKeC7QRT/1uxLv77CGdoUVLOEH04LyNivWKB9iU=",
+    "originContent": "\t\targs = append(args, \".\")",
+    "translatedContent": "\t\targs = append(args, \".\")"
+  },
+  {
+    "row": 77,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "m7EuhvFj7GUXiBzmINBdRE981ZW4hWClVWZLSAf+4sU=",
+    "originContent": "\t// Follow links if the \"-L\" flag is provided",
+    "translatedContent": "\t// Follow links if the \"-L\" flag is provided"
+  },
+  {
+    "row": 80,
+    "rowsha": "yDDiCH7nd03OwNXa/FyTB6J4ADnBznfbTFhGv3p8tM8=",
+    "originContent": "\tconf := fastwalk.Config{",
+    "translatedContent": "\tconf := fastwalk.Config{"
+  },
+  {
+    "row": 81,
+    "rowsha": "Q5rK0LjoEKsox5grouW4SzGcq3E0VOIV27SjdWBYOD8=",
+    "originContent": "\t\tFollow: *followLinks,",
+    "translatedContent": "\t\tFollow: *followLinks,"
+  },
+  {
+    "row": 82,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "qDC4skArjRFLW6SdVOSb36tBRFr/erjmyT4vxiwNvNs=",
+    "originContent": "\twalkFn := func(path string, d fs.DirEntry, err error) error {",
+    "translatedContent": "\twalkFn := func(path string, d fs.DirEntry, err error) error {"
+  },
+  {
+    "row": 85,
+    "rowsha": "dAvVWAygzsjrBtM8leLkAkI8mq0b2UxEZE7mJQ83+Jo=",
+    "originContent": "\t\tif err != nil {",
+    "translatedContent": "\t\tif err != nil {"
+  },
+  {
+    "row": 86,
+    "rowsha": "7WTrQQcPqNvjoz8VT1rDHmn84K1Uo1xSD3dRj8HjaME=",
+    "originContent": "\t\t\tfmt.Fprintf(os.Stderr, \"%s: %v\\n\", path, err)",
+    "translatedContent": "\t\t\tfmt.Fprintf(os.Stderr, \"%s: %v\\n\", path, err)"
+  },
+  {
+    "row": 87,
+    "rowsha": "fYaQkN96GkDu5p0lie+8NqsuGSiRi4F6oOhjBAZEFwU=",
+    "originContent": "\t\t\treturn nil // returning the error stops iteration",
+    "translatedContent": "\t\t\treturn nil // returning the error stops iteration"
+  },
+  {
+    "row": 88,
+    "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+    "originContent": "\t\t}",
+    "translatedContent": "\t\t}"
+  },
+  {
+    "row": 89,
+    "rowsha": "3Py4xTlpAV8IG1ido66NKoSLerGPvppe8Q/zapNkZc0=",
+    "originContent": "\t\tif *pattern != \"\" {",
+    "translatedContent": "\t\tif *pattern != \"\" {"
+  },
+  {
+    "row": 90,
+    "rowsha": "ehDe38I3KwIkKFhzN0/ycrbQMBuUxyCdkk4FRKsCUQg=",
+    "originContent": "\t\t\tif ok, err := filepath.Match(*pattern, d.Name()); !ok {",
+    "translatedContent": "\t\t\tif ok, err := filepath.Match(*pattern, d.Name()); !ok {"
+  },
+  {
+    "row": 91,
+    "rowsha": "XflPqntiDo0pfUghCBF2tIGhWGvymSAhoFpDCf7t9D0=",
+    "originContent": "\t\t\t\t// invalid pattern (err != nil) or name does not match",
+    "translatedContent": "\t\t\t\t// invalid pattern (err != nil) or name does not match"
+  },
+  {
+    "row": 92,
+    "rowsha": "bTBsa7Td9ahBaczA9NGHl9yPftcIv3cpu3BAHObpzhI=",
+    "originContent": "\t\t\t\treturn err",
+    "translatedContent": "\t\t\t\treturn err"
+  },
+  {
+    "row": 93,
+    "rowsha": "T/rvzIHbEv58URpAy1BIKsSq+K/GLJbCU9RgNvREppY=",
+    "originContent": "\t\t\t}",
+    "translatedContent": "\t\t\t}"
+  },
+  {
+    "row": 94,
+    "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+    "originContent": "\t\t}",
+    "translatedContent": "\t\t}"
+  },
+  {
+    "row": 95,
+    "rowsha": "LKpNtBvYfnWZ8Y/ni3ryc5TnBagmXVdKO9NDD2NcG+4=",
+    "originContent": "\t\t_, err = fmt.Println(path)",
+    "translatedContent": "\t\t_, err = fmt.Println(path)"
+  },
+  {
+    "row": 96,
+    "rowsha": "MYeqrKZljHCtzsavbVnw0x8yzizM01gV21DKgAUaMmg=",
+    "originContent": "\t\treturn err",
+    "translatedContent": "\t\treturn err"
+  },
+  {
+    "row": 97,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 98,
+    "rowsha": "ZDmPLupCzT3TyElBAthOTMbLCRFwit4AAZ16JcYbp9U=",
+    "originContent": "\tfor _, root := range args {",
+    "translatedContent": "\tfor _, root := range args {"
+  },
+  {
+    "row": 99,
+    "rowsha": "KvnNwA5M2u6rKAcSSNfOFnFul3nUcbICbDIInMq4wSU=",
+    "originContent": "\t\tif err := fastwalk.Walk(&conf, root, walkFn); err != nil {",
+    "translatedContent": "\t\tif err := fastwalk.Walk(&conf, root, walkFn); err != nil {"
+  },
+  {
+    "row": 100,
+    "rowsha": "lUfoU1+kFyaqEMQzvmI7L8Tc5F49mwrB0tHCMnN5YsY=",
+    "originContent": "\t\t\tfmt.Fprintf(os.Stderr, \"%s: %v\\n\", root, err)",
+    "translatedContent": "\t\t\tfmt.Fprintf(os.Stderr, \"%s: %v\\n\", root, err)"
+  },
+  {
+    "row": 101,
+    "rowsha": "7t6ZCFRfrICPcuJlrkfWqY190YfN2fCAVgaN2MXwEnY=",
+    "originContent": "\t\t\tos.Exit(1)",
+    "translatedContent": "\t\t\tos.Exit(1)"
+  },
+  {
+    "row": 102,
+    "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+    "originContent": "\t\t}",
+    "translatedContent": "\t\t}"
+  },
+  {
+    "row": 103,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 104,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "ZrB6WAnr2MUw+xxeGHyQMYA7Rp0gMGJzZS08QrJ5eE8=",
+    "originContent": "## Benchmarks",
+    "translatedContent": "## 基准测试"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "cZLNodjGCP/Que/P5MhKp8xRK4VbZplkz+PdABO5F8c=",
+    "originContent": "Benchmarks were created using `go1.17.6` and can be generated with the `bench_comp` make target:",
+    "translatedContent": "基准测试使用 `go1.17.6` 创建，可以通过 `bench_comp` make 目标生成："
+  },
+  {
+    "row": 110,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 111,
+    "rowsha": "42PaPX6qdWcNBAk3XBjXWyG+jj+VW1phm/4DIeE9clQ=",
+    "originContent": "$ make bench_comp",
+    "translatedContent": "$ make bench_comp"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "SmWwTYXIIajn4MGmbQGP72FTiOPp/Izs0HkprIIkMsU=",
+    "originContent": "### Darwin",
+    "translatedContent": "### 达尔文"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "3NSfxW93d+wCq68CWa2ldhEfU0FWtSavsF7GV44fVRQ=",
+    "originContent": "**Hardware:**",
+    "translatedContent": "**硬件：**"
+  },
+  {
+    "row": 117,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 118,
+    "rowsha": "vYymuuHpW30W48yS8545/82ZHhuOYdIXymw4klxd80U=",
+    "originContent": "goos: darwin",
+    "translatedContent": "goos: darwin"
+  },
+  {
+    "row": 119,
+    "rowsha": "AAjZlsqkaTyClFizo8uIIEqaCeoiX3cKMaA0v1SfFOw=",
+    "originContent": "goarch: arm64",
+    "translatedContent": "goarch: arm64"
+  },
+  {
+    "row": 120,
+    "rowsha": "cShZbbBPpXfQcrrMWIbC8VovhyT06EaRlMVmP6VmUFY=",
+    "originContent": "cpu: Apple M1 Max",
+    "translatedContent": "cpu: Apple M1 Max"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "mdKWmynXlSUxoOdYnjJUFiLUs3vInSTw83NENe/617U=",
+    "originContent": "#### [`filepath.WalkDir`](https://pkg.go.dev/path/filepath@go1.17.7#WalkDir) vs. [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):",
+    "translatedContent": "#### [`filepath.WalkDir`](https://pkg.go.dev/path/filepath@go1.17.7#WalkDir) 与 [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):"
+  },
+  {
+    "row": 124,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 125,
+    "rowsha": "GQ8EtxrnUd2Ob82mQE2khWL7Uy/+ceoA8IkmqQkdc4Y=",
+    "originContent": "              filepath       fastwalk       delta",
+    "translatedContent": "              filepath       fastwalk       delta"
+  },
+  {
+    "row": 126,
+    "rowsha": "kkVOiCWFme6yLcsTO5g8Su0bsPY943WvAHGmM5gFzgI=",
+    "originContent": "time/op       27.9ms ± 1%    13.0ms ± 1%    -53.33%",
+    "translatedContent": "time/op       27.9ms ± 1%    13.0ms ± 1%    -53.33%"
+  },
+  {
+    "row": 127,
+    "rowsha": "qJkZhtLTgOOkNdnRqrjmAFd6dxkWXNK4wlLHnNbIF1I=",
+    "originContent": "alloc/op      4.33MB ± 0%    2.14MB ± 0%    -50.55%",
+    "translatedContent": "alloc/op      4.33MB ± 0%    2.14MB ± 0%    -50.55%"
+  },
+  {
+    "row": 128,
+    "rowsha": "36feAWT1VByHuBQZ97rjnVo8eCxzCcJ6KkBBnSoKLRI=",
+    "originContent": "allocs/op     50.9k ± 0%     37.7k ± 0%     -26.01%",
+    "translatedContent": "allocs/op     50.9k ± 0%     37.7k ± 0%     -26.01%"
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "P+yLDwCpN7UdMo5lfz7jK+wzMJzzFmlL63So75K2EEc=",
+    "originContent": "#### [`godirwalk.Walk()`](https://pkg.go.dev/github.com/karrick/godirwalk@v1.16.1#Walk) vs. [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):",
+    "translatedContent": "#### [`godirwalk.Walk()`](https://pkg.go.dev/github.com/karrick/godirwalk@v1.16.1#Walk) 与 [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk)："
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "/XScP9BcHyofTSmcBoZB8uT/+8jNrUcqWBqDABME/eE=",
+    "originContent": "              godirwalk      fastwalk       delta",
+    "translatedContent": "              godirwalk      fastwalk       delta"
+  },
+  {
+    "row": 134,
+    "rowsha": "rJPmozHCEF3NOXx3sE2SZh0gYGrK89F9qtlG85DkCZY=",
+    "originContent": "time/op       58.5ms ± 3%    18.0ms ± 2%    -69.30%",
+    "translatedContent": "time/op       58.5ms ± 3%    18.0ms ± 2%    -69.30%"
+  },
+  {
+    "row": 135,
+    "rowsha": "aJMURCRA0TbqqW8GhmmWuK7BTKmqBbhR5bC5FyR/y2E=",
+    "originContent": "alloc/op      25.3MB ± 0%    2.1MB ± 0%     -91.55%",
+    "translatedContent": "alloc/op      25.3MB ± 0%    2.1MB ± 0%     -91.55%"
+  },
+  {
+    "row": 136,
+    "rowsha": "7MRlyXEL5rbi+QAVuaGX0LTQ/i2ZZbNLr9mwn59UCyo=",
+    "originContent": "allocs/op     57.6k ± 0%     37.7k ± 0%     -34.59%",
+    "translatedContent": "allocs/op     57.6k ± 0%     37.7k ± 0%     -34.59%"
+  },
+  {
+    "row": 137,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": "### Linux"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "3NSfxW93d+wCq68CWa2ldhEfU0FWtSavsF7GV44fVRQ=",
+    "originContent": "**Hardware:**",
+    "translatedContent": "**硬件：**"
+  },
+  {
+    "row": 142,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 143,
+    "rowsha": "CpbEjRc697PX9UyztqmAnkMGR46OqnNFfZJEnVtj/1k=",
+    "originContent": "goos: linux",
+    "translatedContent": "goos: linux"
+  },
+  {
+    "row": 144,
+    "rowsha": "mkC1HxviqmJuxTilUUcv+2Pnd+RTu7APr97VEXZLf+s=",
+    "originContent": "goarch: amd64",
+    "translatedContent": "goarch: amd64"
+  },
+  {
+    "row": 145,
+    "rowsha": "aaZlLDkjfdvtvk4fk+105b0iHNNiNbGKaoo5u5g6G0c=",
+    "originContent": "cpu: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz",
+    "translatedContent": "cpu: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz"
+  },
+  {
+    "row": 146,
+    "rowsha": "DvqxdIIYAciBtZNanYDBF8fOwlpvCnlvT9e+8t4IoY8=",
+    "originContent": "drive: Samsung SSD 970 PRO 1TB",
+    "translatedContent": "drive: Samsung SSD 970 PRO 1TB"
+  },
+  {
+    "row": 147,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "mdKWmynXlSUxoOdYnjJUFiLUs3vInSTw83NENe/617U=",
+    "originContent": "#### [`filepath.WalkDir`](https://pkg.go.dev/path/filepath@go1.17.7#WalkDir) vs. [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):",
+    "translatedContent": "#### [`filepath.WalkDir`](https://pkg.go.dev/path/filepath@go1.17.7#WalkDir) 与 [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk) 的比较："
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "GQ8EtxrnUd2Ob82mQE2khWL7Uy/+ceoA8IkmqQkdc4Y=",
+    "originContent": "              filepath       fastwalk       delta",
+    "translatedContent": "              filepath       fastwalk       delta"
+  },
+  {
+    "row": 153,
+    "rowsha": "akZHUOnk4XYLQ//fOJWD/NfhR11OtxiVG2mF4SJVEbQ=",
+    "originContent": "time/op       10.1ms ± 2%    2.8ms ± 2%     -72.83%",
+    "translatedContent": "time/op       10.1ms ± 2%    2.8ms ± 2%     -72.83%"
+  },
+  {
+    "row": 154,
+    "rowsha": "cG7rACKaf6sa/BSke8GdNhW9BbXSSmbNX3p7CZNSlkk=",
+    "originContent": "alloc/op      2.44MB ± 0%    1.70MB ± 0%    -30.46%",
+    "translatedContent": "alloc/op      2.44MB ± 0%    1.70MB ± 0%    -30.46%"
+  },
+  {
+    "row": 155,
+    "rowsha": "QsImqUuualDA5eJlZNUIq2yTmJTM0P/wBXHS4GeMna4=",
+    "originContent": "allocs/op     47.2k ± 0%     36.9k ± 0%     -21.80%",
+    "translatedContent": "allocs/op     47.2k ± 0%     36.9k ± 0%     -21.80%"
+  },
+  {
+    "row": 156,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "P+yLDwCpN7UdMo5lfz7jK+wzMJzzFmlL63So75K2EEc=",
+    "originContent": "#### [`godirwalk.Walk()`](https://pkg.go.dev/github.com/karrick/godirwalk@v1.16.1#Walk) vs. [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):",
+    "translatedContent": "#### [`godirwalk.Walk()`](https://pkg.go.dev/github.com/karrick/godirwalk@v1.16.1#Walk) 与 [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "GQ8EtxrnUd2Ob82mQE2khWL7Uy/+ceoA8IkmqQkdc4Y=",
+    "originContent": "              filepath       fastwalk       delta",
+    "translatedContent": "              filepath       fastwalk       delta"
+  },
+  {
+    "row": 162,
+    "rowsha": "EhoRdDmAyCy7X1iwKrTd8qsxlcgD32AuWYlYO/WJ93Y=",
+    "originContent": "time/op       13.7ms ±16%    2.8ms ± 2%     -79.88%",
+    "translatedContent": "time/op       13.7ms ±16%    2.8ms ± 2%     -79.88%"
+  },
+  {
+    "row": 163,
+    "rowsha": "zNZYS/M5QyNC+6m/bHQA4RMC9An+rMe61sEyecGQKaU=",
+    "originContent": "alloc/op      7.48MB ± 0%    1.70MB ± 0%    -77.34%",
+    "translatedContent": "alloc/op      7.48MB ± 0%    1.70MB ± 0%    -77.34%"
+  },
+  {
+    "row": 164,
+    "rowsha": "q0DqaJ70Yo9hzPcF/BpCbBkMqljxYF5NQSHV70eiLjY=",
+    "originContent": "allocs/op     53.8k ± 0%     36.9k ± 0%     -31.38%",
+    "translatedContent": "allocs/op     53.8k ± 0%     36.9k ± 0%     -31.38%"
+  },
+  {
+    "row": 165,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "3NSfxW93d+wCq68CWa2ldhEfU0FWtSavsF7GV44fVRQ=",
+    "originContent": "**Hardware:**",
+    "translatedContent": "**硬件：**"
+  },
+  {
+    "row": 170,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 171,
+    "rowsha": "MtjYSw5j163bj8oQfDfFUbvf0DHMik67mT/wWN8Lmgs=",
+    "originContent": "goos: windows",
+    "translatedContent": "goos: windows"
+  },
+  {
+    "row": 172,
+    "rowsha": "mkC1HxviqmJuxTilUUcv+2Pnd+RTu7APr97VEXZLf+s=",
+    "originContent": "goarch: amd64",
+    "translatedContent": "goarch: amd64"
+  },
+  {
+    "row": 173,
+    "rowsha": "Pn4DQQcm1mf7DUb5P0o9d8r1ocphmSqn6gIG6Ftl0SU=",
+    "originContent": "pkg: github.com/charlievieth/fastwalk",
+    "translatedContent": "pkg: github.com/charlievieth/fastwalk"
+  },
+  {
+    "row": 174,
+    "rowsha": "aaZlLDkjfdvtvk4fk+105b0iHNNiNbGKaoo5u5g6G0c=",
+    "originContent": "cpu: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz",
+    "translatedContent": "cpu: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz"
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "mdKWmynXlSUxoOdYnjJUFiLUs3vInSTw83NENe/617U=",
+    "originContent": "#### [`filepath.WalkDir`](https://pkg.go.dev/path/filepath@go1.17.7#WalkDir) vs. [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):",
+    "translatedContent": "#### [`filepath.WalkDir`](https://pkg.go.dev/path/filepath@go1.17.7#WalkDir) 与 [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk) 比较："
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 180,
+    "rowsha": "GQ8EtxrnUd2Ob82mQE2khWL7Uy/+ceoA8IkmqQkdc4Y=",
+    "originContent": "              filepath       fastwalk       delta",
+    "translatedContent": "              filepath       fastwalk       delta"
+  },
+  {
+    "row": 181,
+    "rowsha": "IErIt/58wLOwjWrBTYjxrD0TXzs9qkB8vNRkUzFwZbM=",
+    "originContent": "time/op       88.0ms ± 1%    14.6ms ± 1%    -83.47%",
+    "translatedContent": "time/op       88.0ms ± 1%    14.6ms ± 1%    -83.47%"
+  },
+  {
+    "row": 182,
+    "rowsha": "8HFZOolau1zBnz1gYPmyEvhYUsbARzxd50THiGMMmfQ=",
+    "originContent": "alloc/op      5.68MB ± 0%    6.76MB ± 0%    +19.01%",
+    "translatedContent": "alloc/op      5.68MB ± 0%    6.76MB ± 0%    +19.01%"
+  },
+  {
+    "row": 183,
+    "rowsha": "WTKXfOdJH57dE/n0AKuB/tFqi0Xz1GZfn4xhRRIrY0c=",
+    "originContent": "allocs/op     69.6k ± 0%     90.4k ± 0%     +29.87%",
+    "translatedContent": "allocs/op     69.6k ± 0%     90.4k ± 0%     +29.87%"
+  },
+  {
+    "row": 184,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### [`godirwalk.Walk()`](https://pkg.go.dev/github.com/karrick/godirwalk@v1.16.1#Walk) 与 [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk)："
+  },
+  {
+    "row": 186,
+    "rowsha": "P+yLDwCpN7UdMo5lfz7jK+wzMJzzFmlL63So75K2EEc=",
+    "originContent": "#### [`godirwalk.Walk()`](https://pkg.go.dev/github.com/karrick/godirwalk@v1.16.1#Walk) vs. [`fastwalk.Walk()`](https://pkg.go.dev/github.com/charlievieth/fastwalk#Walk):",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 189,
+    "rowsha": "GQ8EtxrnUd2Ob82mQE2khWL7Uy/+ceoA8IkmqQkdc4Y=",
+    "originContent": "              filepath       fastwalk       delta",
+    "translatedContent": "              filepath       fastwalk       delta"
+  },
+  {
+    "row": 190,
+    "rowsha": "vPX4psQbQVmbvxk2ksUs29tnhw6Ew2u4BdQUM1kkZRQ=",
+    "originContent": "time/op       87.4ms ± 1%    14.6ms ± 1%    -83.34%",
+    "translatedContent": "time/op       87.4ms ± 1%    14.6ms ± 1%    -83.34%"
+  },
+  {
+    "row": 191,
+    "rowsha": "PymCEWNebEgrYodEjoFO5dpdIlyzcF0SUUjJRhkYtf0=",
+    "originContent": "alloc/op      6.14MB ± 0%    6.76MB ± 0%    +10.24%",
+    "translatedContent": "alloc/op      6.14MB ± 0%    6.76MB ± 0%    +10.24%"
+  },
+  {
+    "row": 192,
+    "rowsha": "0At39Y0HREPIWWLwGI3l3XfYUN+W2Tfc9+LxI1Z1cQE=",
+    "originContent": "allocs/op     100k ± 0%      90k ± 0%       -9.59%",
+    "translatedContent": "allocs/op     100k ± 0%      90k ± 0%       -9.59%"
+  },
+  {
+    "row": 193,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

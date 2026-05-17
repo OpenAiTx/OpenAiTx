@@ -1,0 +1,782 @@
+[
+  {
+    "row": 1,
+    "rowsha": "R12wUZ5cXTdUai4u5PFhPuaNSzpwGbru/qlJajaQ9Ik=",
+    "originContent": "# fastcompmgr",
+    "translatedContent": "# fastcompmgr"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "cA5gfA7h3pOIyy7xp/vX4XZqEkm+jlBJ+fnFQDjKqng=",
+    "originContent": "__fastcompmgr__ is a _fast_ compositor for X, a fork of an early version",
+    "translatedContent": "__fastcompmgr__ is a _fast_ compositor for X, a fork of an early version"
+  },
+  {
+    "row": 4,
+    "rowsha": "FUT6yUto8/ljmqw9tUBzVl030AABYWB0Diw59gZFi1U=",
+    "originContent": "of __Compton__ which is a fork of __xcompmgr-dana__ which is a fork",
+    "translatedContent": "of __Compton__ which is a fork of __xcompmgr-dana__ which is a fork"
+  },
+  {
+    "row": 5,
+    "rowsha": "HVZ+aZsHmCzo4XZxke9MgHB41BTWllNjvy/DKFClhB0=",
+    "originContent": "of __xcompmgr__.",
+    "translatedContent": "of __xcompmgr__."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "fRQZaKXUWvbQAcLsWI56/IpXCklXHMaod/dNr5wCFLs=",
+    "originContent": "I used to use good old xcompmgr for long, because compton always",
+    "translatedContent": "I used to use good old xcompmgr for long, because compton always"
+  },
+  {
+    "row": 8,
+    "rowsha": "TauXmdNV2YqgjdeHhqsgOEO/bg+Uk90UD8HnSnXzl6k=",
+    "originContent": "felt a bit laggy when moving/resizing windows or kinetic-scrolling",
+    "translatedContent": "felt a bit laggy when moving/resizing windows or kinetic-scrolling"
+  },
+  {
+    "row": 9,
+    "rowsha": "I7Sg12xozTGGVwJILdTdfgYsClawxP4R7aT3DGlCf5s=",
+    "originContent": "a webpage. Having tested the latest picom-10.2, it seems, things got even",
+    "translatedContent": "a webpage. Having tested the latest picom-10.2, it seems, things got even"
+  },
+  {
+    "row": 10,
+    "rowsha": "FlobFnHyIm8fhuyNqYHs15C0r6/Sq3jpgYo5cZOXhRw=",
+    "originContent": "worse (see benchmark below). However, xcompmgr does not draw shadows",
+    "translatedContent": "worse (see benchmark below). However, xcompmgr does not draw shadows"
+  },
+  {
+    "row": 11,
+    "rowsha": "B+0d9k5wcsokts25WIGNe5qmrT9dezXx225HlBpgtDs=",
+    "originContent": "on argb windows (e.g. some terminals) and",
+    "translatedContent": "on argb windows (e.g. some terminals) and"
+  },
+  {
+    "row": 12,
+    "rowsha": "OZxJ7Tcv6R3cZOY3rHZMWzTPIDa6cUe748397xsDKFc=",
+    "originContent": "has several other glitches. That's why I traveled back into 2011, where",
+    "translatedContent": "has several other glitches. That's why I traveled back into 2011, where"
+  },
+  {
+    "row": 13,
+    "rowsha": "oRn5TkcETPrUfTeoHoR4EHx/SVQdFBA/+P1D8b7et+M=",
+    "originContent": "this feature was just added, cherry picked some later compton commits",
+    "translatedContent": "this feature was just added, cherry picked some later compton commits"
+  },
+  {
+    "row": 14,
+    "rowsha": "JSqZbxHKmKlyTS6RGDrGkMMT+075PpxUJ2QtbDZCu30=",
+    "originContent": "to get rid of spurious segfaults and memleaks and made that version even",
+    "translatedContent": "to get rid of spurious segfaults and memleaks and made that version even"
+  },
+  {
+    "row": 15,
+    "rowsha": "z/UWEIfpQbBdDAooQidZikM92l1nZWrpU8OAqtyZ92M=",
+    "originContent": "faster, based on profiling.",
+    "translatedContent": "faster, based on profiling."
+  },
+  {
+    "row": 16,
+    "rowsha": "ipaxbhwwGM7y1BczD7nL39y6K72PHFLNj62d9dUbHfw=",
+    "originContent": "For example, window move- and resize events are limited in their",
+    "translatedContent": "For example, window move- and resize events are limited in their"
+  },
+  {
+    "row": 17,
+    "rowsha": "86EuETKt9ZoGuo3oedxVww+MX6MdRbJYPjwIs8hNOtA=",
+    "originContent": "event-count and rendered at a somewhat fixed framerate, while",
+    "translatedContent": "event-count and rendered at a somewhat fixed framerate, while"
+  },
+  {
+    "row": 18,
+    "rowsha": "GdbP4dLIES9DuRd2Pz3+5yOvVk9ilWTJv6Mfj7/Q90s=",
+    "originContent": "scrolling is still done as fast as possible. Occluded windows are not",
+    "translatedContent": "scrolling is still done as fast as possible. Occluded windows are not"
+  },
+  {
+    "row": 19,
+    "rowsha": "ApXAtAfl0+6t8/6hpIFKQCW2uFqdcCQMXXlMHOHxcDc=",
+    "originContent": "painted and memory allocations/deallocations are largely avoided,",
+    "translatedContent": "painted and memory allocations/deallocations are largely avoided,"
+  },
+  {
+    "row": 20,
+    "rowsha": "BqwQ7sSW0/AcrYIL6We8YYA7df+QzZEybK8lqSOTULY=",
+    "originContent": "allowing for faster repaints of the screen.",
+    "translatedContent": "allowing for faster repaints of the screen."
+  },
+  {
+    "row": 21,
+    "rowsha": "Q3hzdFXw3i0A2xdOght+uJ6MuxkmlFupzEY6vEDcfVU=",
+    "originContent": "On the downside, fading is currently broken (I don't use it). Sorry",
+    "translatedContent": "On the downside, fading is currently broken (I don't use it). Sorry"
+  },
+  {
+    "row": 22,
+    "rowsha": "gp5gG6nNhYAwcCd6BOCGTLYAJ6BWM/QKRWvXHTn7k5U=",
+    "originContent": "for that (;",
+    "translatedContent": "for that (;"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Ef0UsiyD6h8Bsal0VWE7OxxQZOlWCfTesTDl7PDsG1Y=",
+    "originContent": "## Benchmark",
+    "translatedContent": "## Benchmark"
+  },
+  {
+    "row": 25,
+    "rowsha": "GOqcOMlCJugL8NYZ3ir5KtoTnJoKfFko5VSnK1tUk9c=",
+    "originContent": "While on my Dell Latitude E5570 window moving, resizing and scrolling",
+    "translatedContent": "While on my Dell Latitude E5570 window moving, resizing and scrolling"
+  },
+  {
+    "row": 26,
+    "rowsha": "FiHA76o/h9bgV12fRGtEZ/q5o/xArwCgZZCk7PWsqRQ=",
+    "originContent": "*feels* clearly faster, there are also some numbers to support this",
+    "translatedContent": "*feels* clearly faster, there are also some numbers to support this"
+  },
+  {
+    "row": 27,
+    "rowsha": "2SZVfoS8ApsMzm1MWZCStWnUXavIqt+odV6SSrVLYUU=",
+    "originContent": "observation. Given a number of stacked chromium-windows, where no window",
+    "translatedContent": "observation. Given a number of stacked chromium-windows, where no window"
+  },
+  {
+    "row": 28,
+    "rowsha": "50LTR9cwbRxQGhuPaQ75fzutRiG4rhuOGvnD6xOs3Zo=",
+    "originContent": "is fully occluded, I performed the respective operations *by hand*,",
+    "translatedContent": "is fully occluded, I performed the respective operations *by hand*,"
+  },
+  {
+    "row": 29,
+    "rowsha": "ggLTdjPN/2RU8gNcUv5rPM78gA4Qw/q8svkx9PA+myY=",
+    "originContent": "so please beware that the benchmark is not very sophisticated. The touchpad",
+    "translatedContent": "so please beware that the benchmark is not very sophisticated. The touchpad"
+  },
+  {
+    "row": 30,
+    "rowsha": "3GSRGkNpjSgmmpU5l6TPbcBVUQxPCNHtv+YXdVGQGrE=",
+    "originContent": "driver `xserver-xorg-input-synaptics` was used which enables for kinetic",
+    "translatedContent": "driver `xserver-xorg-input-synaptics` was used which enables for kinetic"
+  },
+  {
+    "row": 31,
+    "rowsha": "6sUm8ZOacEiRWPg1tmMPGBKBkW4HCnvmc+6At99oDco=",
+    "originContent": "scrolling (Wayland anyone?). The following CPU usages were measured:",
+    "translatedContent": "scrolling (Wayland anyone?). The following CPU usages were measured:"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "nU+nc/vNy7OL64v8/yyPpqnDdUU8isE/d+gELIRBB0o=",
+    "originContent": "| Compositor    | move  | resize  | scroll |",
+    "translatedContent": "| Compositor    | move  | resize  | scroll |"
+  },
+  {
+    "row": 34,
+    "rowsha": "xABU9XYG+nYwO058M8Rnrw0bNZtPbXI7zzsbFYiGmds=",
+    "originContent": "| ------------- | ----- | ------- | ------ |",
+    "translatedContent": "| ------------- | ----- | ------- | ------ |"
+  },
+  {
+    "row": 35,
+    "rowsha": "yb3IZQlmgloIzEN8XR1a80KUEehf4KIK2vyfwqcTmfs=",
+    "originContent": "| fastcompmgr   | 6.7%  | 4.4%    | 1.5%   |",
+    "translatedContent": "| fastcompmgr   | 6.7%  | 4.4%    | 1.5%   |"
+  },
+  {
+    "row": 36,
+    "rowsha": "QIOBed63j9vY2T9p5f6e8MeqaWj9cYgi2DYeEWefBL0=",
+    "originContent": "| xcompmgr      | 7.8%  | 4.9%    | 1.6%   |",
+    "translatedContent": "| xcompmgr      | 7.8%  | 4.9%    | 1.6%   |"
+  },
+  {
+    "row": 37,
+    "rowsha": "Pg/l2ph9YM5QL9a5jrFYxMmiGbE3oCKei5l9ToTCQSA=",
+    "originContent": "| compton       | 26.4% | 6.8%    | 17.1%  |",
+    "translatedContent": "| compton       | 26.4% | 6.8%    | 17.1%  |"
+  },
+  {
+    "row": 38,
+    "rowsha": "BDBtPZBKj6ufZA6ZEoiNV0sPzo+Dy+hi7NEC5gs/3Fg=",
+    "originContent": "| picom         | 29.3% | 8.1%    | 23.1%  |",
+    "translatedContent": "| picom         | 29.3% | 8.1%    | 23.1%  |"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "7j8UzukWA7RPDBungnIA9gom6ua5k0S0o10TgScmuGg=",
+    "originContent": "Tools were used with the following flags:",
+    "translatedContent": "Tools were used with the following flags:"
+  },
+  {
+    "row": 42,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 43,
+    "rowsha": "ggJqAs+0fv3YpS75S2cmds6Plw5sBWM9xFIiW3HE8ls=",
+    "originContent": "(v0.1) fastcompmgr -o 0.4 -r 12 -c -C",
+    "translatedContent": "(v0.1) fastcompmgr -o 0.4 -r 12 -c -C"
+  },
+  {
+    "row": 44,
+    "rowsha": "ysoY+5+xKFAEB085UaBUsfein2OECwbu95EOTs/sN/4=",
+    "originContent": "(v1.1.8 from Debian 11) xcompmgr -o 0.4 -r 12 -c -C",
+    "translatedContent": "(v1.1.8 from Debian 11) xcompmgr -o 0.4 -r 12 -c -C"
+  },
+  {
+    "row": 45,
+    "rowsha": "36aIPGaEzcDbMBPUraTSasKCxmCH633C+0yyX07CZuk=",
+    "originContent": "(v1 from Debian 11) compton --config /dev/null --backend xrender -o 0.4 -r 12 -c -C",
+    "translatedContent": "(v1 from Debian 11) compton --config /dev/null --backend xrender -o 0.4 -r 12 -c -C"
+  },
+  {
+    "row": 46,
+    "rowsha": "8Wet2cUHSGU77lZY4FHEjQ9OYZDVQseUvpuq5+yGapQ=",
+    "originContent": "(v10.2) picom --config /dev/null --backend xrender -o 0.4 -r 12 -c",
+    "translatedContent": "(v10.2) picom --config /dev/null --backend xrender -o 0.4 -r 12 -c"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "8dmMG/sWfUo3fZFtthE3gV0ZwNdZK8qtwYl+EVFkqxg=",
+    "originContent": "# Calc average using",
+    "translatedContent": "# Calc average using"
+  },
+  {
+    "row": 49,
+    "rowsha": "QzvH2zlks4SQ1ge87jVBMwqAGHle6VfSiw2q4WCfLR4=",
+    "originContent": "$ fastcompmgr -o 0.4 -r 12 -c -C &  pid=$!; sleep 4; \\",
+    "translatedContent": "$ fastcompmgr -o 0.4 -r 12 -c -C &  pid=$!; sleep 4; \\"
+  },
+  {
+    "row": 50,
+    "rowsha": "M1ybS7ZSbA7Gns4GxoV+zsX9W9f8F/RYuPXa3GDsxRA=",
+    "originContent": "    top -b -n 20 -d 0.5 -p $pid | LC_ALL=C awk -v pid=$pid \\",
+    "translatedContent": "    top -b -n 20 -d 0.5 -p $pid | LC_ALL=C awk -v pid=$pid \\"
+  },
+  {
+    "row": 51,
+    "rowsha": "RtMfBxjhI0nLh57vfbDhfQcWvkQzz6WlGVvZepMjGrE=",
+    "originContent": "    '$1==PID {++PIDCOUNT} $1==pid && PIDCOUNT>1 {print $9}' |  \\",
+    "translatedContent": "    '$1==PID {++PIDCOUNT} $1==pid && PIDCOUNT>1 {print $9}' |  \\"
+  },
+  {
+    "row": 52,
+    "rowsha": "hLDMN52qSRHsGX8bMUEjjHJuEMHyKPdUi6xkDScEa2M=",
+    "originContent": "    datamash mean 1; kill $pid",
+    "translatedContent": "    datamash mean 1; kill $pid"
+  },
+  {
+    "row": 53,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 58,
+    "rowsha": "pk+wtP4Nj+k+tT6Uva5hwKKClfM2jcIeOeYeVvPREp4=",
+    "originContent": "If you're lazy, just grab the binary from the [release page](https://github.com/tycho-kirchner/fastcompmgr/releases).",
+    "translatedContent": "If you're lazy, just grab the binary from the [release page](https://github.com/tycho-kirchner/fastcompmgr/releases)."
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "AYhHvf7L5v6vOoK1+EK3GfQz78u8WPusKp3hZmKyW/Q=",
+    "originContent": "Otherwise, install the development versions of the following libraries:",
+    "translatedContent": "Otherwise, install the development versions of the following libraries:"
+  },
+  {
+    "row": 61,
+    "rowsha": "RZGlyGTWtm4SKzr2l9idWouxBw80saKVTQVnvPcZI0s=",
+    "originContent": "### Dependencies:",
+    "translatedContent": "### Dependencies:"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "N7yN4RIMJaWoF/RkRL7zg577J+odkXWRv/aL6GgjQPY=",
+    "originContent": "* libx11",
+    "translatedContent": "* libx11"
+  },
+  {
+    "row": 64,
+    "rowsha": "Aeq3UK+plXsL5AaeP/lqM1yvrv6sJgR3k8B4gOhbX9g=",
+    "originContent": "* libxcomposite",
+    "translatedContent": "* libxcomposite"
+  },
+  {
+    "row": 65,
+    "rowsha": "Xv5a6kFLty0lPTdxIVAuFZvlIyyBjOFTxc6pXcUOQIE=",
+    "originContent": "* libxdamage",
+    "translatedContent": "* libxdamage"
+  },
+  {
+    "row": 66,
+    "rowsha": "LVbqMhgaWbYmzK87Us7CkqweUvJfzqaPDpnGhtnwwY0=",
+    "originContent": "* libxfixes",
+    "translatedContent": "* libxfixes"
+  },
+  {
+    "row": 67,
+    "rowsha": "j0FpTV3Av3uxwmGreyx0udKrNnO0TCBC+mdqGQX+80E=",
+    "originContent": "* libxrender",
+    "translatedContent": "* libxrender"
+  },
+  {
+    "row": 68,
+    "rowsha": "zSupz0DzM5IQ9FlT/d+A967mKFwoxMHI0Jbv6SXvrNI=",
+    "originContent": "* pkg-config",
+    "translatedContent": "* pkg-config"
+  },
+  {
+    "row": 69,
+    "rowsha": "wvX+tP80rUeeVCNAD4Qi4DacwMS7X2y3O4xlKO2Lthc=",
+    "originContent": "* make",
+    "translatedContent": "* make"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "kIgwI0MAt/fQ/Om+HTjGlICn4f32ZP5jkx+sW8iw6os=",
+    "originContent": "To build:",
+    "translatedContent": "To build:"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "dzFJd6zQSEY3gbZiIe0kySqo7hgGn/CzIWzRxMHaJTU=",
+    "originContent": "~~~ bash",
+    "translatedContent": "~~~ bash"
+  },
+  {
+    "row": 74,
+    "rowsha": "ByXC+7uYh7zISdHRAQnU8EnErq6laYIzvY4fjm9JwjU=",
+    "originContent": "$ make",
+    "translatedContent": "$ make"
+  },
+  {
+    "row": 75,
+    "rowsha": "WPETnyHJsD4t9dyw4VR6Xn0RbeylMui84NBmxZdT9qM=",
+    "originContent": "$ make install",
+    "translatedContent": "$ make install"
+  },
+  {
+    "row": 76,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "dzFJd6zQSEY3gbZiIe0kySqo7hgGn/CzIWzRxMHaJTU=",
+    "originContent": "~~~ bash",
+    "translatedContent": "~~~ bash"
+  },
+  {
+    "row": 81,
+    "rowsha": "3P6Izf+2TGf8X1zmlIUfAUZjQp0ND75M0pH01NR9AJ8=",
+    "originContent": "$ fastcompmgr -o 0.4 -r 12 -c -C",
+    "translatedContent": "$ fastcompmgr -o 0.4 -r 12 -c -C"
+  },
+  {
+    "row": 82,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 83,
+    "rowsha": "7Y3R5LBm8WRukicd0f+voimFMTX6Bj7OyxEpCiVXOcw=",
+    "originContent": "All options (currently fading doesn't work):",
+    "translatedContent": "All options (currently fading doesn't work):"
+  },
+  {
+    "row": 84,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 85,
+    "rowsha": "FZOQbSUh8shQbjM+OFzFleYgopqIgCzvIJs83iJTR6Y=",
+    "originContent": "   -d display",
+    "translatedContent": "   -d display"
+  },
+  {
+    "row": 86,
+    "rowsha": "8jTl0cLU0OWs5JP6DLHc6xGOeWZ66gThUlyCiCNRQtU=",
+    "originContent": "    Which display should be managed.",
+    "translatedContent": "    Which display should be managed."
+  },
+  {
+    "row": 87,
+    "rowsha": "WTb/Wpv1ch93s4Pom7JJuosu1R4rf1OPgJI7OE551R0=",
+    "originContent": "   -r radius",
+    "translatedContent": "   -r radius"
+  },
+  {
+    "row": 88,
+    "rowsha": "LD199m5OHVAM3rT+rFY2X94CBpWbaYvh9FmF0zLEIrY=",
+    "originContent": "    The blur radius for shadows. (default 12)",
+    "translatedContent": "    The blur radius for shadows. (default 12)"
+  },
+  {
+    "row": 89,
+    "rowsha": "p9xqplHhagx2qqefk/K514oD7lsSLdDTZu+/ae933yc=",
+    "originContent": "   -o opacity",
+    "translatedContent": "   -o opacity"
+  },
+  {
+    "row": 90,
+    "rowsha": "DGs9OrzICEz84Q98H94WgEOUPsuWtT1yTmyMxNH6VVo=",
+    "originContent": "    The translucency for shadows. (default .75)",
+    "translatedContent": "    The translucency for shadows. (default .75)"
+  },
+  {
+    "row": 91,
+    "rowsha": "DMQBZ1BClRIKN7VPDC9NDIzqdc7Y7MI3ibI8vsiwg8I=",
+    "originContent": "   -l left-offset",
+    "translatedContent": "   -l left-offset"
+  },
+  {
+    "row": 92,
+    "rowsha": "w90eDwCscOmNy2/+1jYae69eiHd0aTVjJPEAWRZU77c=",
+    "originContent": "    The left offset for shadows. (default -15)",
+    "translatedContent": "    The left offset for shadows. (default -15)"
+  },
+  {
+    "row": 93,
+    "rowsha": "KtoChu4ZNYR5ZA6llgPPy6HjpRzVjiIBAkymdwb/zOM=",
+    "originContent": "   -t top-offset",
+    "translatedContent": "   -t top-offset"
+  },
+  {
+    "row": 94,
+    "rowsha": "uUOE2q3j8SMhqmZVwNdFzAiNoGRP/YuYLGIr9cZrfBk=",
+    "originContent": "    The top offset for shadows. (default -15)",
+    "translatedContent": "    The top offset for shadows. (default -15)"
+  },
+  {
+    "row": 95,
+    "rowsha": "KaabHij8GsnKkbQ9h0e1UmKP1xN3abzHMw8iuqipfWM=",
+    "originContent": "   -m opacity",
+    "translatedContent": "   -m opacity"
+  },
+  {
+    "row": 96,
+    "rowsha": "OdjX8LVrpE5vyR7XbrNbSfSCWKysTXGBjQ83YXK70Mg=",
+    "originContent": "    The opacity for menus. (default 1.0)",
+    "translatedContent": "    The opacity for menus. (default 1.0)"
+  },
+  {
+    "row": 97,
+    "rowsha": "yO5ZFvYfQT0fmOaw3PEJ/ihVMbQX/OcLU5k2NSR7/Ps=",
+    "originContent": "   -c",
+    "translatedContent": "   -c"
+  },
+  {
+    "row": 98,
+    "rowsha": "jQEV1Qdomg5hJQ7Cr2yZVN9SPi0JwI+5zKZW8oBANOk=",
+    "originContent": "    Enabled client-side shadows on windows.",
+    "translatedContent": "    Enabled client-side shadows on windows."
+  },
+  {
+    "row": 99,
+    "rowsha": "PA2pcZGHNvMMXYUapfco+a5eJI8HuxxP0pjA8eiSxGc=",
+    "originContent": "   -C",
+    "translatedContent": "   -C"
+  },
+  {
+    "row": 100,
+    "rowsha": "2ls3NtWtJ8rB56gGWPi3jH3wW8l5pyPlMJNY/6b1rds=",
+    "originContent": "    Avoid drawing shadows on dock/panel windows.",
+    "translatedContent": "    Avoid drawing shadows on dock/panel windows."
+  },
+  {
+    "row": 101,
+    "rowsha": "RWwnO+4GIyao5AqTgZq8DTmu5hKNQelm0YW/jq6+lgw=",
+    "originContent": "   -i opacity",
+    "translatedContent": "   -i opacity"
+  },
+  {
+    "row": 102,
+    "rowsha": "NNTtmauA50i/zl6PkWg/5Taolo3F6M5/HSGmUTu59pg=",
+    "originContent": "    Opacity of inactive windows. (0.1 - 1.0)",
+    "translatedContent": "    Opacity of inactive windows. (0.1 - 1.0)"
+  },
+  {
+    "row": 103,
+    "rowsha": "NOzb6i3lNWHxqlq78cT7WHkgsQBGsaucJijwgGVRKfU=",
+    "originContent": "   -e opacity",
+    "translatedContent": "   -e opacity"
+  },
+  {
+    "row": 104,
+    "rowsha": "gH6AUTpPvLtHTC7MJ4et4TfxLfXaJG94VL+R4tWpEtU=",
+    "originContent": "    Opacity of window titlebars and borders. (0.1 - 1.0)",
+    "translatedContent": "    Opacity of window titlebars and borders. (0.1 - 1.0)"
+  },
+  {
+    "row": 105,
+    "rowsha": "gcuonhTNyZVdCh+YB9BUiRRzHbZ2eO6b4PYGM+aO6Ak=",
+    "originContent": "    --shadow-red value",
+    "translatedContent": "    --shadow-red value"
+  },
+  {
+    "row": 106,
+    "rowsha": "37IZh0wpBVOLCfJNx8cfjEhxpUKY/xoenIuvm9fo140=",
+    "originContent": "    Red color value of shadow (0.0 - 1.0, defaults to 0).",
+    "translatedContent": "    Red color value of shadow (0.0 - 1.0, defaults to 0)."
+  },
+  {
+    "row": 107,
+    "rowsha": "rykMXFOwFKlP5aY/Glt4gHuzT/GQCgP7z1Wo1o11FIw=",
+    "originContent": "    --shadow-green value",
+    "translatedContent": "    --shadow-green value"
+  },
+  {
+    "row": 108,
+    "rowsha": "KRJfbdhEgI/YZtq8FOJi/7vxfCFbmMA/BXnJHIZbcy0=",
+    "originContent": "    Green color value of shadow (0.0 - 1.0, defaults to 0).",
+    "translatedContent": "    Green color value of shadow (0.0 - 1.0, defaults to 0)."
+  },
+  {
+    "row": 109,
+    "rowsha": "CgX/5phxaC5dCUIIQJEFEMKd5eHtDHXv4XF8ygeeLG0=",
+    "originContent": "    --shadow-blue value",
+    "translatedContent": "    --shadow-blue value"
+  },
+  {
+    "row": 110,
+    "rowsha": "OpiFJ9E0HhO9/2HlNgQ+5KfEBcvcxficJJAbNYCZOHk=",
+    "originContent": "    Blue color value of shadow (0.0 - 1.0, defaults to 0).",
+    "translatedContent": "    Blue color value of shadow (0.0 - 1.0, defaults to 0)."
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "xJKfR88T8CTGiJzlobvcwo3BkFA7xqxJitopvuFVAt8=",
+    "originContent": "xcompmgr has gotten around. As far as I can tell, the lineage for this",
+    "translatedContent": "xcompmgr has gotten around. As far as I can tell, the lineage for this"
+  },
+  {
+    "row": 118,
+    "rowsha": "sS62F+zeQidj3j9KwaSyWveNYV8qwu2BTww2VMIpMEA=",
+    "originContent": "particular tree is something like:",
+    "translatedContent": "particular tree is something like:"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "ja9jW1uRsNZOjnCIJFEBgrpO6rqZYWEXPkooPKY8Fqw=",
+    "originContent": "* Keith Packard (original author)",
+    "translatedContent": "* Keith Packard (original author)"
+  },
+  {
+    "row": 121,
+    "rowsha": "bDhuol4r2Kg33HBLOnPsJOT5uWzhDLmXhlaERJZQpyQ=",
+    "originContent": "* Matthew Hawn",
+    "translatedContent": "* Matthew Hawn"
+  },
+  {
+    "row": 122,
+    "rowsha": "PWKFWpVbhWwqxkBW7FFESJaZz/b7k7OT033uWuQKSNI=",
+    "originContent": "* ...",
+    "translatedContent": "* ..."
+  },
+  {
+    "row": 123,
+    "rowsha": "dBfYl4ZO6GSYOAsI3uPhoVXkVKl2Y/TYVT1dX9YCzfo=",
+    "originContent": "* Dana Jansens",
+    "translatedContent": "* Dana Jansens"
+  },
+  {
+    "row": 124,
+    "rowsha": "wa+EPm31CkrgQzzxK7PhIljoGj+yqOLuHAyKS53vKOk=",
+    "originContent": "* Christopher Jeffrey",
+    "translatedContent": "* Christopher Jeffrey"
+  },
+  {
+    "row": 125,
+    "rowsha": "ld56QQAHSDk9usegekxDI4aGjSuokSbnehhkm94HZ88=",
+    "originContent": "* Tycho Kirchner",
+    "translatedContent": "* Tycho Kirchner"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "DTqDHPrZ19ZwbOrvQDlCOZ7dDT62dN16rLfuysqAqOQ=",
+    "originContent": "Not counting the tens of people who forked it in between.",
+    "translatedContent": "Not counting the tens of people who forked it in between."
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "2chod1CmnhmVNReFQnHR6+GQ8+P4HCzU6Z5ITbt42ls=",
+    "originContent": "See LICENSE for more info.",
+    "translatedContent": "See LICENSE for more info."
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
