@@ -1,0 +1,245 @@
+[
+  {
+    "Id": 1,
+    "Content": "# go-fAST\n\n`go-fAST` is a super-fast Golang library designed for parsing, transforming, and generating JavaScript Abstract Syntax Trees (ASTs). This library provides a simple and efficient way to work with JavaScript ASTs in Go, enabling developers to perform a variety of tasks including code analysis and (de)obfuscation.\n\n[![Discord Banner2](https://discord.com/api/guilds/1288989871498858496/widget.png?style=banner2)](https://discord.gg/wdJ4VcdrwK)\n\n## Features\n\n- **Parsing**: Convert JavaScript code into its AST representation.\n- **Transforming**: Apply transformations to JavaScript ASTs to modify code structures.\n- **Generating**: Generate JavaScript code from ASTs.\n\n## Installation\n\nTo use `go-fAST` in your Go project, you need to install it using `go get`:\n",
+    "ContentSha": "FezVGKt1NGQyvQ0vnA2O7xz3sz5eMbJWkFUeF6IrrKM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# go-fAST\n\n`go-fAST`는 자바스크립트 추상 구문 트리(Abstract Syntax Trees, AST)를 파싱, 변환 및 생성하기 위해 설계된 초고속 Golang 라이브러리입니다. 이 라이브러리는 Go에서 자바스크립트 AST를 간단하고 효율적으로 다룰 수 있게 하여, 개발자들이 코드 분석 및 (디)오브퓨케이션 등 다양한 작업을 수행할 수 있도록 합니다.\n\n[![Discord Banner2](https://discord.com/api/guilds/1288989871498858496/widget.png?style=banner2)](https://discord.gg/wdJ4VcdrwK)\n\n## 기능\n\n- **파싱**: 자바스크립트 코드를 AST 표현으로 변환합니다.\n- **변환**: 자바스크립트 AST에 변환을 적용하여 코드 구조를 수정합니다.\n- **생성**: AST로부터 자바스크립트 코드를 생성합니다.\n\n## 설치\n\n`go-fAST`를 Go 프로젝트에서 사용하려면 `go get`을 사용해 설치해야 합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AU/tzrBYpGCM9nrekoisjJb3J4UAHuHEbpGCiIie0d4=",
+        "originContent": "# go-fAST",
+        "translatedContent": "# go-fAST"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wW0HktFBIy+aAUgVRi6VC150m344VIHuuWXUJje2S8M=",
+        "originContent": "`go-fAST` is a super-fast Golang library designed for parsing, transforming, and generating JavaScript Abstract Syntax Trees (ASTs). This library provides a simple and efficient way to work with JavaScript ASTs in Go, enabling developers to perform a variety of tasks including code analysis and (de)obfuscation.",
+        "translatedContent": "`go-fAST`는 자바스크립트 추상 구문 트리(Abstract Syntax Trees, AST)를 파싱, 변환 및 생성하기 위해 설계된 초고속 Golang 라이브러리입니다. 이 라이브러리는 Go에서 자바스크립트 AST를 간단하고 효율적으로 다룰 수 있게 하여, 개발자들이 코드 분석 및 (디)오브퓨케이션 등 다양한 작업을 수행할 수 있도록 합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Knl4f+Bufab2J7eI0dpzQbeCWzyvh2JbCbSj2DE56yY=",
+        "originContent": "[![Discord Banner2](https://discord.com/api/guilds/1288989871498858496/widget.png?style=banner2)](https://discord.gg/wdJ4VcdrwK)",
+        "translatedContent": "[![Discord Banner2](https://discord.com/api/guilds/1288989871498858496/widget.png?style=banner2)](https://discord.gg/wdJ4VcdrwK)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TvE5NPpmKGJSKEF70yTElD/tlx7wiHD8gzehkQaIgUY=",
+        "originContent": "- **Parsing**: Convert JavaScript code into its AST representation.",
+        "translatedContent": "- **파싱**: 자바스크립트 코드를 AST 표현으로 변환합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "2xU7/INCeOBwXNsbxVZP19cv08P8eTDbgAjxGlqesos=",
+        "originContent": "- **Transforming**: Apply transformations to JavaScript ASTs to modify code structures.",
+        "translatedContent": "- **변환**: 자바스크립트 AST에 변환을 적용하여 코드 구조를 수정합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "ZMCwGFdk+vuRLr8CKCfCPpeILMhe3wzgTh3btLlTU5Q=",
+        "originContent": "- **Generating**: Generate JavaScript code from ASTs.",
+        "translatedContent": "- **생성**: AST로부터 자바스크립트 코드를 생성합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "V6BE9HPPUfK23JkAokCbqiq93peWwuAh9jXzcxhlZj8=",
+        "originContent": "To use `go-fAST` in your Go project, you need to install it using `go get`:",
+        "translatedContent": "`go-fAST`를 Go 프로젝트에서 사용하려면 `go get`을 사용해 설치해야 합니다:"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\ngo get github.com/t14raptor/go-fast\n```",
+    "ContentSha": "K2hoI4afYSSWshVxhao7WrbAmZ+/5AgEE4lHASlM3To=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngo get github.com/t14raptor/go-fast\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "K51He+7102kpJlKc/K0FwPcOXGh/iQyqxVndQ0aWrlA=",
+        "originContent": "go get github.com/t14raptor/go-fast",
+        "translatedContent": "go get github.com/t14raptor/go-fast"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Docs\n[Documentation](https://yoghurtbot-io.gitbook.io/go-fast)\n\n## Credits\n\nWe'd like to extend our heartfelt thanks to the following individuals and projects for their invaluable contributions:\n\n- **[@JustTalDevelops](https://github.com/JustTalDevelops)**: For providing exceptional assistance with code generation edge cases and pretty printing.\n- **[@steakenthusiast](https://github.com/steakenthusiast)**: For the creative and fitting name for the project.\n- **[goja](https://github.com/dop251/goja)**: For their parsing code that was instrumental in our implementation.\n- **[swc](https://swc.rs/)**: For their robust and efficient visiting API.\n\nYour support and contributions have greatly enhanced the development of this project. Thank you!\n",
+    "ContentSha": "gcONNltC2l2c19SbuJDfzq5RdLjxGjk26FpWTvRlcVY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 문서\n[문서](https://yoghurtbot-io.gitbook.io/go-fast)\n\n## 크레딧\n\n다음 개인 및 프로젝트에 귀중한 기여에 대해 진심으로 감사드립니다:\n\n- **[@JustTalDevelops](https://github.com/JustTalDevelops)**: 코드 생성 엣지 케이스와 예쁘게 출력하는 데 탁월한 지원을 제공해 주셨습니다.\n- **[@steakenthusiast](https://github.com/steakenthusiast)**: 프로젝트에 창의적이고 적합한 이름을 제안해 주셨습니다.\n- **[goja](https://github.com/dop251/goja)**: 구현에 중요한 역할을 한 파싱 코드를 제공해 주셨습니다.\n- **[swc](https://swc.rs/)**: 견고하고 효율적인 방문 API를 제공해 주셨습니다.\n\n여러분의 지원과 기여는 이 프로젝트의 개발을 크게 향상시켰습니다. 감사합니다!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 문서"
+      },
+      {
+        "row": 2,
+        "rowsha": "PsICSBWEd6qTjH1kDtuzTAnegVu5j7n/BKxwZVa3rag=",
+        "originContent": "## Docs",
+        "translatedContent": "[문서](https://yoghurtbot-io.gitbook.io/go-fast)"
+      },
+      {
+        "row": 3,
+        "rowsha": "MuOrZeS7CsVsyNq6ZqxpxXogfybkDOAl+rzaEF6FeHU=",
+        "originContent": "[Documentation](https://yoghurtbot-io.gitbook.io/go-fast)",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 크레딧"
+      },
+      {
+        "row": 5,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "다음 개인 및 프로젝트에 귀중한 기여에 대해 진심으로 감사드립니다:"
+      },
+      {
+        "row": 7,
+        "rowsha": "M2tUrnQzn5e3vkeUF7+xP+xycqLtd5aFtYLIhl2khlY=",
+        "originContent": "We'd like to extend our heartfelt thanks to the following individuals and projects for their invaluable contributions:",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **[@JustTalDevelops](https://github.com/JustTalDevelops)**: 코드 생성 엣지 케이스와 예쁘게 출력하는 데 탁월한 지원을 제공해 주셨습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "G6ut4IlSu8rMaBORtkr8awRoUOui5y6F57EMlEGaVkQ=",
+        "originContent": "- **[@JustTalDevelops](https://github.com/JustTalDevelops)**: For providing exceptional assistance with code generation edge cases and pretty printing.",
+        "translatedContent": "- **[@steakenthusiast](https://github.com/steakenthusiast)**: 프로젝트에 창의적이고 적합한 이름을 제안해 주셨습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "RKnRIw5OT/cpi3dbXUt+BdTdBG7cHrOKPLit2KAz4lg=",
+        "originContent": "- **[@steakenthusiast](https://github.com/steakenthusiast)**: For the creative and fitting name for the project.",
+        "translatedContent": "- **[goja](https://github.com/dop251/goja)**: 구현에 중요한 역할을 한 파싱 코드를 제공해 주셨습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "qomgBNwwlAjRRZ7ljQ1x/smmVvx6TftSb761N/KoTfw=",
+        "originContent": "- **[goja](https://github.com/dop251/goja)**: For their parsing code that was instrumental in our implementation.",
+        "translatedContent": "- **[swc](https://swc.rs/)**: 견고하고 효율적인 방문 API를 제공해 주셨습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "ISuLiBK/dQhpelxjFSH01U9l+ib2cR2nY3lgpz1x4M8=",
+        "originContent": "- **[swc](https://swc.rs/)**: For their robust and efficient visiting API.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "여러분의 지원과 기여는 이 프로젝트의 개발을 크게 향상시켰습니다. 감사합니다!"
+      },
+      {
+        "row": 14,
+        "rowsha": "n0FzSTGpmIZKnvNgItBkmnVGxgqsvUHEJAY701y9eAs=",
+        "originContent": "Your support and contributions have greatly enhanced the development of this project. Thank you!",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
