@@ -53,28 +53,38 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
-         alt="هذا المشروع جزء من Shipwrecked، أول هاكاثون في العالم على جزيرة!" 
+         alt="هذا المشروع جزء من Shipwrecked، أول هاكاثون في العالم يُقام على جزيرة!" 
          style="width: 25%;">
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="مخطط تاريخ النجوم" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP هو خادم AirPlay أصلي بالكامل، مكتوب بلغة Swift، لنظام iOS. بشكل أساسي، يسمح لك AirAP باستخدام جهاز iPhone الخاص بك كجهاز استقبال AirPlay في iTunes أو على جهاز Mac الخاص بك، مما يعني أنه يمكنك استخدام iPhone الخاص بك لتشغيل صوت جهازك.
+AirAP هو خادم AirPlay أصلي بالكامل، مكتوب بلغة Swift، لنظام iOS. ببساطة، يتيح لك AirAP استخدام جهاز iPhone الخاص بك كجهاز استقبال AirPlay في iTunes أو على جهاز Mac الخاص بك، مما يعني أنه يمكنك استخدام iPhone لتشغيل صوت جهازك.
 
 ## ما هو AirAP؟
 
-هل سبق لك أن رغبت في بث الصوت من جهاز Mac أو Apple TV أو جهاز iOS آخر إلى iPhone الخاص بك؟ يجعل AirAP ذلك ممكنًا من خلال تنفيذ خادم AirPlay كامل يعمل أصليًا على نظام iOS. بعد التثبيت، سيظهر iPhone الخاص بك كوجهة AirPlay متاحة في لوحة الصوت في تفضيلات النظام، أو تطبيق Music.app، أو أي تطبيق متوافق مع AirPlay.
+هل رغبت يومًا في بث الصوت من جهاز Mac أو Apple TV أو جهاز iOS آخر إلى iPhone الخاص بك؟ يجعل AirAP ذلك ممكنًا عن طريق تنفيذ خادم AirPlay كامل يعمل بشكل أصلي على iOS. بمجرد التثبيت، سيظهر iPhone الخاص بك كوجهة AirPlay متاحة في جزء الصوت بتفضيلات النظام، أو في تطبيق Music، أو أي تطبيق آخر متوافق مع AirPlay.
 
-قد يبدو المفهوم عكسيًا في البداية - فنحن معتادون على البث من أجهزة iPhone إلى أجهزة أخرى. لكن هناك العديد من السيناريوهات المفاجئة حيث قد ترغب في القيام بالعكس. ربما تعمل على جهاز Mac في وقت متأخر من الليل وتريد توجيه الصوت إلى iPhone الخاص بك مع سماعات الرأس حتى لا تزعج أحدًا (مرحبًا 👋). أو ربما أنت مطور تختبر تطبيقات الصوت وتحتاج إلى التبديل بسرعة بين أجهزة الإخراج المختلفة. أو ربما ترغب فقط في إعادة استخدام مكبر الصوت السلكي القديم.
+قد تبدو الفكرة عكسية في البداية - فنحن معتادون على البث من أجهزة iPhone إلى أجهزة أخرى. ولكن هناك العديد من السيناريوهات التي قد ترغب فيها في القيام بالعكس. ربما تعمل على جهاز Mac في وقت متأخر من الليل وتريد توجيه الصوت إلى iPhone وسماعات الرأس حتى لا تزعج أحدًا (مرحبًا 👋). أو ربما أنت مطور تختبر تطبيقات صوتية وتحتاج للتبديل بسرعة بين أجهزة الإخراج المختلفة. أو ربما ترغب فقط في إعادة استخدام مكبر الصوت السلكي القديم.
 
 ## تثبيت AirAP
 
-لتجربة ذلك، [افتح هذا الرابط في TestFlight](https://testflight.apple.com/join/8aeqD8Q2)، قم بتثبيت AirAP واتبع التعليمات. بعد التثبيت، فقط قم بتشغيل AirAP وتأكد من أن iPhone الخاص بك متصل بنفس شبكة Wi-Fi مثل الجهاز الذي ترغب بالبث منه. سيظهر iPhone الخاص بك تلقائيًا في قوائم أجهزة AirPlay، جاهز لاستقبال الصوت - إذا لم يظهر، حاول إعادة تشغيل التطبيق.
+لتجربة ذلك، [افتح هذا الرابط في TestFlight](https://testflight.apple.com/join/8aeqD8Q2)، وقم بتثبيت AirAP، واتبع التعليمات. بعد التثبيت، قم بتشغيل AirAP وتأكد من أن جهاز iPhone الخاص بك متصل بنفس شبكة Wi-Fi التي يتصل بها الجهاز الذي ترغب في البث منه. سيظهر جهاز iPhone الخاص بك تلقائيًا في قوائم أجهزة AirPlay وجاهز لاستقبال الصوت - إذا لم يظهر، حاول إعادة تشغيل التطبيق.
 
-## التجميع
+## الترجمة
 
-تأكد من وجود [homebrew](https://brew.sh)
+تأكد من أنك تمتلك [homebrew](https://brew.sh)
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

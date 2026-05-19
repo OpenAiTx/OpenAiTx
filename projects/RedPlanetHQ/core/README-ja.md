@@ -33,274 +33,214 @@
     <img width="200px" alt="CORE ロゴ" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE: あなたのデジタルブレイン
+# あなた専用のAI OS。
 
-**記憶する。考える。行動する。**
+**あなたのOSを起動。** あなたの作業を見守り、重要なことを記憶し、ツールやエージェントを横断して行動します。オープンソース、自分でホスト、永遠にあなたのもの。
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code に追加" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Cursor に追加" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="OpenClaw に追加" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="Railway でデプロイ" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="ウェブサイト" />
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
     </a>
     <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="ドキュメント" />
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs" />
     </a>
     <a href="https://discord.gg/YGUZcvDjUa">
-        <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord コミュニティ" />
+        <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="License: AGPL 3.0" />
     </a>
 </p>
 </div>
 
 ---
 
-COREはあなたのデジタル脳です。統一された常時稼働のAIが、あなたのコンテキストを記憶し、AIエージェントと連携し、各種ツールで動作します。
+## 動作デモ
 
-オープンソース。セルフホスト可能。あなたのデータ、あなたの管理。
+COREが2つのコーディングタスクをエンドツーエンドで処理する様子をご覧ください。
 
----
-
-## デジタル脳の特徴
-
-### すべてを記憶する
-
-すべての会話、決定、好み、関係が時系列知識グラフとして構造化された知識として保存されます。生テキストではなく、分類された事実（好み、決定、目標、指示）が必要な時に正確に表示されます。数週間前のことでも質問すれば、完全なコンテキスト付きで答えが返ってきます。
-
-[Memory について詳しくはこちら →](https://docs.getcore.me/concepts/memory/overview)
-
-### アクションの実行が可能
-
-GitHub の課題作成、Slack メッセージ送信、カレンダー管理など、会話を離れることなく実行できます。複雑なマルチステップワークフローにも対応：コーディングエージェントに Sentry で新しいエラーを確認させ、それぞれに GitHub の課題を作成、git blame に基づいて適切なエンジニアに割り当て、要約をチームの Slack チャンネルに投稿、これらすべてを単一プロンプトで。50以上のアプリで200以上のアクションを1つの接続ポイントから利用可能です。
-
-[Toolkit について詳しくはこちら →](https://docs.getcore.me/concepts/toolkit)
-
-### 複数システムを横断して思考・作業
-
-ツールはサイロ化されています。Claude Code は WhatsApp と連携できません。Cursor はカレンダーを確認できません。CORE のエージェントはこれらの壁を壊します。メモリ、ツールキット、アプリをまとめて統合するオーケストレーターです。
-
-CORE エージェントができること：
-
-- **意図の理解**：ニーズを分類し、適切なツールやメモリにルーティング
-- **他エージェントの生成**：WhatsApp から Claude Code セッションやブラウザセッションを立ち上げてバグ修正や調査
-- **マルチステップワークフローの調整**：メモリから文脈を引き出し、複数アプリを横断して実行、結果を報告
-- **どこからでも作業**：WhatsApp、メール、Slack、Webダッシュボードからメッセージ — 同じ頭脳、同じ文脈
-
-[CORE Agent について詳しくはこちら →](https://docs.getcore.me/concepts/meta-agent)
-
-### 主体的に行動できる
-
-すべてを指示する必要はありません。CORE はイベントを監視します ― 新しいメール、GitHub アラート、カレンダーの変更など ― そしてあなたについて知っていることと照らし合わせて評価します。クライアントからメールが届くと、CORE はすでにその関係性を把握して適切な返信案を下書きします。夜間に Sentry アラートが発生すると、CORE は自動で Claude Code セッションを起動して調査します。
-
-[Concepts について詳しくはこちら →](https://docs.getcore.me/concepts/overview)
+[![CORE デモ](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## アーキテクチャ
+## COREとは
 
-CORE は、これら4つの柱を実現する3つのレイヤーで構築されています：
+COREはAIネイティブワークのためのオープンソースのオペレーティングレイヤーです。
 
-- **メモリ**：エピソード、エンティティ、分類された事実を保存する時間的ナレッジグラフ。すべての情報は（好み、決定、指示、目標など）分類され、時系列で接続されます。これによりキーワード検索でなく意図駆動の検索が可能になります。[ドキュメント →](https://docs.getcore.me/concepts/memory/overview)
+やるべきことをスクラッチパッドに記述すれば、COREがタスクを拾い、メモリや接続アプリからコンテキストを読み込み、計画を立案し、ゲートウェイ経由で適切なエージェントを実行し、ブロッカーを処理し、判断が必要な場合は人間に戻します。
 
-- **ツールキット**：任意の MCP 対応エージェント向けの統合アクションレイヤー。アプリ（GitHub、Linear、Slack、Gmail、カレンダー等）を一度接続すれば、すべての連携 AI ツールが単一エンドポイント経由で200以上のアクションにアクセス可能。[ドキュメント →](https://docs.getcore.me/toolkit/overview)
+繰り返し指示するチャットボットではありません。記憶し、調整し、実行し、エスカレーションするレイヤーです。
 
-- **CORE エージェント**：メモリとツールキットをつなぐオーケストレーター。意図を理解し、メモリを検索、ツールを選択、他エージェントを生成、トリガーやルールに基づいて主体的に行動できます。[ドキュメント →](https://docs.getcore.me/concepts/meta-agent)
+### アーキテクチャ
+
+| | |
+|---|---|
+| **監視** | MCP経由のAI会話のコンテキスト、50以上の接続アプリ、およびMac上で明示的に許可したアプリからの情報を監視します。 |
+| **記憶** | あなたが何を言ったかだけでなく、何を、いつ、なぜ決定したかをすべてのツールと会話にわたって追跡するナレッジグラフです。 |
+| **実行** | 接続されたアプリで直接アクションを実行し、長時間の作業はゲートウェイ経由でコーディングおよびブラウザエージェントに委任します。 |
+| **ポリシー** | 承認フロー、エスカレーションルール、計画、監査ログにより、自律性を保ちながら説明責任を確保します。 |
+
+COREは安全に実行できる内容を判断し、機密性の高い操作は事前に確認し、レビュー可能な履歴を残します。
 
 ---
 
-## あなたができること
+## COREの実際の活用例
 
-### パーソナルアシスタントとして利用する
+### コーディングタスクを委任し、PRで確認。
 
-COREとWhatsApp、メール、またはウェブダッシュボードで会話できます。アプリ間で行動し、スケジュール管理やメールの下書き作成など、あなたの情報や働き方を記憶して対応します。
+COREに必要な作業を伝えます。リポジトリ、アプリ、メモリからコンテキストを収集し、計画を作成、Claude CodeやCodexセッションを実行、可能な範囲でブロッカーを処理し、PRを作成します。完了後にあなたがレビューします。
 
-[はじめる →](https://docs.getcore.me/quickstart/chief-of-staff)
+`[ ] イシュー #312 のチェックアウトフローの競合状態を修正する`
 
-### AIエージェントを強化する
+### 寝ている間にバックログを処理。
 
-Claude Code、Cursor、その他のAIツールに永続的なメモリーとアクション機能を提供します。コーディングエージェントはプロジェクトのアーキテクチャや過去の決定、好みをセッションを越えて記憶します。コンテキストを再度説明する必要はありません。
+決まった時間にバックログからタスクを定期的に実行するよう設定します。オフラインの間にCOREが作業を進めます。順調なタスクは翌朝のレビュー待ちに、詰まったセッションは的確な質問で戻ってきます。
 
-[はじめる →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
+`[ ] 今夜のバックログを23時から処理する`
 
-<details>
-<summary><b>Claude Code（推奨：プラグイン）</b></summary>
+### アラートが割り込みになる前に調査。
 
-```sh
-npm install -g @redplanethq/corebrain
-```
+Sentryやログ、他のアラートソースを監視する定期タスクを設定します。何かが発生した時、COREが調査し、関連トレースや過去事例を収集、対応またはエスカレーションを判断します。
 
-次にClaude Codeで：
+Sentryのアラートが午前2時に発生。COREが調査し、修正案を提示、Slackであなたにレビューを通知します。
 
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
+### あなたの仕事を把握した朝の要約を受け取る。
 
-Claude Codeを再起動し、`/mcp`を実行して認証してください。
+毎朝、メール、GitHub、Linear、Slackから情報を取得する定期タスクを設定します。COREが注目すべき内容を要約し、不要なものはスキップ、フォローアップは自動でタスク化します。
 
-プラグインは各セッション開始時に自動的にあなたのペルソナ（好み、ルール、決定事項）をロードし、会話が終了した際に記憶へ取り込みます。
+### どこにいても委任可能。
 
-</details>
+Slack、WhatsApp、Telegram、メール、Webからタスクを作成できます。ゲートウェイはDockerやRailwayで稼働し、ノートPCを閉じていてもCOREが作業を受け取ります。
 
-<details>
-<summary><b>Claude Code（手動MCP）</b></summary>
+---
 
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
+## COREの内部構成
 
-次に「/mcp」と入力し、認証のためにcore-memoryを開きます。
+| | |
+|---|---|
+| **メモリ** | すべてのツールや会話であなたの好み、決定、目標、指示を記録し、すべてのタスクがコンテキストを読み込んだ状態で始まります。 |
+| **タスク** | 一回限りまたは定期的な作業単位。仕様、COREの計画、ライブ状態、専用チャットスレッド付き。各タスクはコーディングやブラウザセッションを生成できます。 |
+| **スクラッチパッド** | タスク、アイデア、進行中の作業のためのデイリーページ。[ ] をどこでも入力すれば、COREが3分以内に拾い上げます。 |
+| **コネクター** | 1つのMCPエンドポイントで50以上のアプリに対応、さらにWebhookトリガーで自動化を積極的にサポート。GitHub、Linear、Jira、Slack、Gmail、Calendar、Sentry、Granola、Todoistなど。 |
+| **スキル** | 100以上の再利用可能な指示をコンテキストに応じて自動的に適用。組み込みスキルの利用や独自作成も可能で、反復ワークフローに役立ちます。 |
+| **ゲートウェイ** | Claude Code、Codex、ブラウザーエージェント、ローカルコマンドをあなたのマシンまたはDocker/Railway上で実行。ラップトップを閉じてもCOREは動作します。 |
+| **モデル非依存** | 好みのプロバイダーを利用可能：Anthropic、OpenAI、あるいはオープンウェイトモデル。フルスタックを自己ホストして隔離運用も可能。 |
 
-</details>
+---
 
-<details>
-<summary><b>Cursor</b></summary>
+## COREが「できないこと」
 
-[![MCPサーバーをインストール](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
-
-</details>
-
-<details>
-<summary><b>OpenClaw</b></summary>
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-
-環境変数または設定を通じてAPIキーを設定してください:
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-[app.getcore.me](https://app.getcore.me) → 設定 → APIキー からAPIキーを取得してください。
-
-</details>
-
-<details>
-<summary><b>Claude デスクトップ</b></summary>
-
-1. MCP URLをコピー: `https://app.getcore.me/api/v1/mcp?source=Claude`
-2. 設定 → コネクタ → カスタムコネクタを追加 に移動
-3. 「接続」をクリックし、ClaudeにCOREへのアクセス許可を付与
-
-</details>
-
-**30以上のプロバイダー** — Windsurf、VS Code、Cline、Codex、Gemini CLI、Copilotなど。 [全セットアップガイドを見る →](https://docs.getcore.me/providers/overview)
-
-### AIチャットを記憶に変える
-
-ChatGPTやGeminiの会話をブラウザ拡張機能経由でCOREに同期。検索・再利用可能で、すべての接続エージェントで利用できます。
-
-[始める →](https://docs.getcore.me/quickstart/capture-conversations)
+| | |
+|---|---|
+| **RAGラッパーではありません。** | メモリは単なる埋め込みチャンクではありません。知識グラフとして、何を・いつ・なぜ決定したかを追跡します。 |
+| **ワークフロービルダーではありません。** | ドラッグ＆ドロップのDAGはありません。必要なことを書くだけ。COREがワークフローを組み立て、判断が必要な時に尋ねます。 |
+| **Devinのようなものではありません。** | COREが計画を提案し、あなたが承認。COREがブロック解除を要求し、あなたが決定。COREがPRを持ち帰り、あなたがレビュー。エージェントが自動でマージしません。 |
+| **クローズドなクラウドアシスタントではありません。** | COREはオープンソースでセルフホスト可能、モデル非依存、インフラ中心に設計されています。 |
 
 ---
 
 ## クイックスタート
 
-### クラウド
+オープンソースかつセルフホスト型。あなたのデータは自分のインフラ内にとどまります。
 
-1. [app.getcore.me](https://app.getcore.me) で**サインアップ**
-2. **Gmail & カレンダーを接続** — COREがあなたについて学習し、初日から実際のコンテキストでデジタル脳が始動
-3. **使い始める** — COREエージェントと対話、AIツールの接続、またはアプリでアクションを実行
+**COREをインストールして起動：**
 
-### セルフホスト
+```bash
+npm install -g @redplanethq/corebrain && corebrain setup
+```
+セットアップウィザードは、インストールディレクトリ、AIプロバイダー、APIキー、チャットモデルを尋ねます。シークレットを生成し、スタックを起動し、`http://localhost:3033` を開きます。
 
-**クイックデプロイ**
+Dockerが起動していれば、ほとんどのローカルインストールは数分で完了します。
 
-[![Railwayでデプロイ](https://railway.app/button.svg)](https://railway.com/deploy/core)
+**または Railway でデプロイする:**
 
-**またはDockerで**
+[![Railway でデプロイ](https://railway.app/button.svg)](https://railway.com/deploy/core)
+
+**ゲートウェイを接続**して、COREがあなたのブラウザを操作したり、コーディングエージェントを実行したり、ローカルフォルダへアクセスできるようにします:
 
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+corebrain login
+corebrain gateway setup
 ```
 
-[完全なセルフホスティングガイドを見る →](https://docs.getcore.me/self-hosting/docker)
+**要件:** Docker 20.10以上、Docker Compose 2.20以上、4 vCPU / 8GB RAM
 
----
+[完全なセルフホスティングガイド](https://docs.getcore.me/self-hosting/setup)
 
-## エージェント開発者向け
-
-AIエージェントを構築していますか？COREにメモリと統合機能をオフロードして、エージェントのロジックに集中しましょう。
-
-- **メモリのオフロード** — COREの時間的知識グラフをエージェントの長期記憶として利用。会話を保存し、意図駆動検索でコンテキストを取得、ベクタDBやグラフの管理なしで知識を蓄積可能。
-- **統合のオフロード** — COREで一度アプリを接続すれば、すべてのMCPツールがエージェントで利用可能。OAuthフローやAPI管理、統合ごとのコードは不要。
-- **MCPまたはAPIによる構築** — エージェントをMCP（単一エンドポイント）経由でCOREに接続、またはREST APIを直接利用できます。
-
-**プロジェクト例**
-
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — メモリ搭載タスク管理エージェント、Linear/GitHub同期
-- [**holo**](https://github.com/RedPlanetHQ/holo) — COREメモリをチャット付き個人Webサイトに変換
-
-[APIリファレンス →](https://docs.getcore.me/api-reference) · [SDKドキュメント →](https://docs.getcore.me)
+> Macアプリをご希望ですか？ [getcore.me](https://www.getcore.me/) でウェイトリストにご参加ください。
 
 ---
 
 ## ベンチマーク
 
-COREはLoCoMoベンチマークにおいて、単一ホップ・複数ホップ・オープンドメイン・時系列推論タスク全体で**88.24%**の平均精度を達成しています。
-
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-
-[ベンチマーク方法と結果を見る →](https://github.com/RedPlanetHQ/core-benchmark)
+COREは[LoCoMoベンチマーク](https://github.com/RedPlanetHQ/core-benchmark)において、シングルホップ、マルチホップ、オープンドメイン、および時間的推論全体で**88.24%**の平均精度を達成しています。
 
 ---
 
-## セキュリティ
+## 私たちの信念
 
-CASA Tier 2認定 — GoogleのOAuth要件に準拠し、第三者監査済み。
-
-- 暗号化：TLS 1.3（転送時）+ AES-256（保存時）
-- ワークスペース単位の分離、ロールベース権限
-- データはAIモデル学習に利用されません
-- 完全分離のためのセルフホスティングオプション
-[セキュリティポリシー →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · 脆弱性報告: harshith@poozle.dev
+- チャットはインターフェースであり、OSではありません。
+- 記憶のない知能は雑学にすぎません。
+- あなたのAIは現在のタブだけでなく、あらゆるツールであなたを理解すべきです。
+- 作業は、あなたがハブになることなく、意図から行動へと進むべきです。
+- 責任のない自動化は混乱を招きます。
 
 ---
 
 ## ドキュメント
 
-- [ようこそ](https://docs.getcore.me/introduction) — COREの紹介
-- [コンセプト](https://docs.getcore.me/concepts/overview) — メモリ、エージェント、ツールキットの解説
-- [接続](https://docs.getcore.me/access-core/overview) — チャンネルとAIプロバイダ
-- [ツールキット](https://docs.getcore.me/toolkit/overview) — アクションと統合
-- [オープンソース](https://docs.getcore.me/guides/local-setup) — ローカルセットアップ、貢献、自分でホスティング
-- [APIリファレンス](https://docs.getcore.me/api-reference) — REST APIとエンドポイント
-- [変更履歴](https://docs.getcore.me/opensource/changelog) — 製品の更新情報
+- [**メモリ**](https://docs.getcore.me/memory/overview) - 時系列ナレッジグラフ、事実分類、インテント駆動型検索
+- [**スクラッチパッド**](https://docs.getcore.me/concepts/scratchpad) - タスクやアイデアが始まる日常の場
+- [**タスク**](https://docs.getcore.me/concepts/tasks) - 計画、状態、定期作業、タスク範囲のコンテキスト
+- [**ツールキット**](https://docs.getcore.me/concepts/toolkit) - MCP経由で50以上のアプリ、1000以上のアクション
+- [**COREエージェント**](https://docs.getcore.me/concepts/meta-agent) - トリガー、メモリ、ツール、実行
+- [**ゲートウェイ**](https://docs.getcore.me/access-core/overview) - WhatsApp、Slack、Telegram、メール、Web、APIアクセス
+- [**スキル**](https://docs.getcore.me/skills/overview) - 再利用可能な手順による繰り返し可能なワークフロー
+- [**セルフホスティング**](https://docs.getcore.me/self-hosting/setup) - 完全なデプロイメントガイド
+- [**変更履歴**](https://docs.getcore.me/opensource/changelog) - リリース内容
 
 ---
 
-## サポート
+## セキュリティ
 
-- Discord: [core-supportチャンネルに参加](https://discord.gg/YGUZcvDjUa)
-- ドキュメント: [docs.getcore.me](https://docs.getcore.me)
-- メール: manik@poozle.dev
+- CASA Tier 2 認証済み
+- 転送時は TLS 1.3
+- 保存時は AES-256
+- あなたのデータはモデルのトレーニングに使用されません
+- 完全な分離のためにセルフホスト可能
+- [セキュリティポリシー](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- 脆弱性連絡先: harshith@poozle.dev
 
-## コントリビューター
+---
+
+## コミュニティ
+
+私たちはCOREを公開で開発しています。
+
+パーソナルOSを構築する上で最も難しい課題は、実際に使う人々と共に解決するのが最適であるため、ロードマップやアーキテクチャの決定をオープンに共有しています。リポジトリにスターを付けたり、セルフホストしたり、作成したものをシェアしたり、不具合や不足している点についてIssueを開いてください。
+
+- [Discord](https://discord.gg/YGUZcvDjUa) - 質問、アイデア、成果発表
+- [貢献ドキュメント](https://docs.getcore.me/opensource/contributing) - COREへの貢献方法
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - ここから始めよう
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
+---
+
+<div align="center">
+
+**あなた自身のパーソナルAI OSをセルフホストしよう。**
+
+[リポジトリにスターを付ける](https://github.com/RedPlanetHQ/core) · [ドキュメントを読む](https://docs.getcore.me) · [Discordに参加する](https://discord.gg/YGUZcvDjUa)
+
+</div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

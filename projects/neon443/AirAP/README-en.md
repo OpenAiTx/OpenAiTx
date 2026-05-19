@@ -58,6 +58,16 @@
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
 AirAP is a fully native AirPlay server, written in Swift, for iOS. Essentially, AirAP allows you to use your iPhone as an AirPlay receiver in iTunes or on your Mac, meaning that you can use your iPhone to play your device's sound.
@@ -66,11 +76,11 @@ AirAP is a fully native AirPlay server, written in Swift, for iOS. Essentially, 
 
 Have you ever wanted to stream audio from your Mac, Apple TV, or another iOS device to your iPhone? AirAP makes this possible by implementing a full AirPlay server that runs natively on iOS. Once installed, your iPhone will appear as an available AirPlay destination in System Preferences' Audio pane, Music.app, or any other AirPlay-compatible app.
 
-The concept might seem backwards at first - after all, we're used to streaming from our iPhones to other devices. But there are surprisingly many scenarios where you'd want to do the reverse. Maybe you're working on your Mac late at night and want to route the audio to your iPhone with NB: headphones so you don't disturb anyone (hi 👋). Perhaps you're a developer testing pop applications and need to quickly switch between different output devices. Or maybe you just want to repurpose that old wired speaker.
+The concept might seem backwards at first - after all, we're used to streaming from our iPhones to other devices. But there are surprisingly many scenarios where you'd want to do the reverse. Maybe you're working on your Mac late at night and want to route the audio to your iPhone with headphones so you don't disturb anyone (hi 👋). Perhaps you're a developer testing audio applications and need to quickly switch between different output devices. Or maybe you just want to repurpose that old wired speaker.
 
 ## Installing AirAP
 
-To try it out, [open this TestFlight link](https://testflight.apple.com/join/8aeqD8Q2), install AirAP, and follow the instructions. After installation, simply launch AirAP and ensure your iPhone is connected to the same Wi-Fi network as the device you want to stream from. Your iPhone will automatically appear in AirPlay device lists, ready to receive audio - if it doesn't, try restarting the app.
+To try it out, [open this TestFlight link](https://testflight.apple.com/join/8aeqD8Q2), install AirAP, and follow the instructions. After installation, simply launch AirAP and make sure your iPhone is connected to the same Wi-Fi network as the device you wish to stream from. Your iPhone will automatically appear in AirPlay device lists, ready to receive audio - if it doesn't, try restarting the app.
 
 ## Compiling
 
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

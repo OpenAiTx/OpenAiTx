@@ -58,19 +58,29 @@
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="Wykres historii gwiazdek" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP to w pełni natywny serwer AirPlay, napisany w Swift, dla iOS. Zasadniczo AirAP pozwala używać iPhone'a jako odbiornika AirPlay w iTunes lub na Macu, co oznacza, że możesz używać swojego iPhone'a do odtwarzania dźwięku z urządzenia.
+AirAP to w pełni natywny serwer AirPlay, napisany w Swift, dla iOS. W skrócie, AirAP pozwala używać iPhone'a jako odbiornika AirPlay w iTunes lub na Macu, co oznacza, że możesz użyć iPhone'a do odtwarzania dźwięku z urządzenia.
 
 ## Co to jest AirAP?
 
-Czy kiedykolwiek chciałeś przesyłać dźwięk z Maca, Apple TV lub innego urządzenia iOS na swojego iPhone'a? AirAP to umożliwia, implementując pełny serwer AirPlay działający natywnie na iOS. Po zainstalowaniu Twój iPhone pojawi się jako dostępny cel AirPlay w panelu Dźwięk Preferencji Systemowych, aplikacji Muzyka lub dowolnej innej aplikacji zgodnej z AirPlay.
+Czy kiedykolwiek chciałeś przesyłać dźwięk z Maca, Apple TV lub innego urządzenia iOS na iPhone'a? AirAP umożliwia to poprzez pełną implementację serwera AirPlay, działającego natywnie na iOS. Po zainstalowaniu, twój iPhone pojawi się jako dostępny cel AirPlay w panelu Audio Preferencji Systemowych, Music.app lub w każdej aplikacji obsługującej AirPlay.
 
-Koncepcja może wydawać się odwrócona – w końcu jesteśmy przyzwyczajeni do przesyłania z iPhone'a na inne urządzenia. Ale istnieje zaskakująco wiele scenariuszy, w których chcesz zrobić odwrotnie. Może pracujesz na Macu późno w nocy i chcesz przekierować dźwięk na iPhone'a ze słuchawkami, by nikogo nie budzić (cześć 👋). Może jesteś deweloperem testującym aplikacje audio i potrzebujesz szybko przełączać się między różnymi urządzeniami wyjściowymi. A może po prostu chcesz dać nowe życie starym przewodowym głośnikom.
+Koncept może wydawać się odwrócony – w końcu jesteśmy przyzwyczajeni do przesyłania z iPhone'a na inne urządzenia. Jednak istnieje zaskakująco wiele scenariuszy, w których warto zrobić odwrotnie. Może pracujesz na Macu późno w nocy i chcesz przekierować dźwięk na iPhone'a ze słuchawkami, aby nie przeszkadzać innym (cześć 👋). Może jesteś deweloperem testującym aplikacje audio i potrzebujesz szybko przełączać się między różnymi urządzeniami wyjściowymi. Albo po prostu chcesz wykorzystać stare głośniki przewodowe.
 
 ## Instalacja AirAP
 
-Aby przetestować, [otwórz ten link do TestFlight](https://testflight.apple.com/join/8aeqD8Q2), zainstaluj AirAP i postępuj zgodnie z instrukcjami. Po instalacji po prostu uruchom AirAP i upewnij się, że Twój iPhone jest połączony z tą samą siecią Wi-Fi co urządzenie, z którego chcesz przesyłać dźwięk. Twój iPhone automatycznie pojawi się na liście urządzeń AirPlay, gotowy do odbioru dźwięku — jeśli nie, spróbuj ponownie uruchomić aplikację.
+Aby wypróbować, [otwórz ten link TestFlight](https://testflight.apple.com/join/8aeqD8Q2), zainstaluj AirAP i postępuj zgodnie z instrukcjami. Po instalacji po prostu uruchom AirAP i upewnij się, że Twój iPhone jest połączony z tą samą siecią Wi-Fi co urządzenie, z którego chcesz przesyłać strumieniowo. Twój iPhone automatycznie pojawi się na liście urządzeń AirPlay, gotowy do odbioru dźwięku – jeśli się nie pojawi, spróbuj ponownie uruchomić aplikację.
 
 ## Kompilacja
 
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

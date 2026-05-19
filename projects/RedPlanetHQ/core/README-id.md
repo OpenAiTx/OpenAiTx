@@ -3,24 +3,24 @@
     <summary >🌐 Bahasa</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">Inggris</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Prancis</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Jerman</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Spanyol</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italia</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Rusia</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Portugis</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Belanda</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Turki</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
       </div>
@@ -33,274 +33,214 @@
     <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE: Otak Digital Anda
+# OS AI pribadi Anda.
 
-**Ia Mengingat. Ia Berpikir. Ia Bertindak**
+**Jalankan OS Anda.** Mengawasi pekerjaan Anda. Mengingat hal-hal penting. Bertindak di berbagai alat dan agen Anda. Sumber terbuka, dapat dihosting sendiri, milik Anda selamanya.
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Tambahkan ke Claude Code" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Tambahkan ke Cursor" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="Tambahkan ke OpenClaw" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="Deploy di Railway" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Situs Web" />
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
     </a>
     <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Dokumentasi" />
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs" />
     </a>
     <a href="https://discord.gg/YGUZcvDjUa">
         <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="Lisensi: AGPL 3.0" />
     </a>
 </p>
 </div>
 
 ---
 
-CORE adalah otak digital Anda - AI terpadu yang selalu aktif, mengingat konteks Anda, bekerja dengan agen AI Anda, dan bertindak di berbagai alat Anda.
+## Lihat cara kerjanya
 
-Sumber terbuka. Dapat di-host sendiri. Data Anda, kendali Anda.
+Tonton CORE menangani dua tugas pengkodean dari awal hingga akhir:
 
----
-
-## Apa yang Membuat Sebuah Otak Digital
-
-### Ia Mengingat Segalanya
-
-Setiap percakapan, keputusan, preferensi, dan hubungan disimpan sebagai pengetahuan terstruktur dalam grafik pengetahuan temporal. Bukan teks mentah, melainkan fakta yang diklasifikasikan (preferensi, keputusan, tujuan, arahan) yang muncul persis saat Anda membutuhkannya. Tanyakan sesuatu dari beberapa minggu lalu dan jawabannya ada, dengan konteks penuh.
-
-[Pelajari lebih lanjut tentang Memori →](https://docs.getcore.me/concepts/memory/overview)
-
-### Dapat Melakukan Tindakan
-
-Buat issue GitHub, kirim pesan Slack, kelola kalender Anda tanpa meninggalkan percakapan. Alur kerja multi-langkah yang kompleks juga: minta agen coding Anda untuk memeriksa Sentry untuk error baru, buat issue GitHub untuk setiap error, tugaskan engineer yang tepat berdasarkan git blame, dan posting ringkasan ke channel Slack tim Anda, semua dari satu perintah. 200+ aksi di lebih dari 50 aplikasi melalui satu titik koneksi.
-
-[Pelajari lebih lanjut tentang Toolkit →](https://docs.getcore.me/concepts/toolkit)
-
-### Berpikir dan Bekerja Lintas Sistem
-
-Alat Anda terisolasi. Claude Code tidak bisa berbicara dengan WhatsApp Anda. Cursor tidak bisa memeriksa kalender Anda. Agen CORE memecah tembok-tembok ini - ia adalah orkestra yang mengikat memori, toolkit, dan aplikasi Anda bersama.
-
-Apa yang dapat dilakukan Agen CORE:
-
-- **Memahami intent**: mengklasifikasikan kebutuhan Anda dan mengarahkan ke alat dan memori yang tepat
-- **Membuat agen lain**: memulai sesi Claude Code atau sesi browser dari WhatsApp untuk memperbaiki bug atau meneliti sesuatu
-- **Koordinasi alur kerja multi-langkah**: mengambil konteks dari memori, bertindak di berbagai aplikasi, dan melaporkan kembali
-- **Bekerja dari mana saja**: kirim pesan dari WhatsApp, email, Slack, atau web dashboard — otak yang sama, konteks yang sama
-
-[Pelajari lebih lanjut tentang CORE Agent →](https://docs.getcore.me/concepts/meta-agent)
-
-### Dapat Bertindak Secara Proaktif
-
-Anda tidak perlu meminta segalanya. CORE memantau kejadian - email baru, peringatan GitHub, perubahan kalender — dan mengevaluasinya dengan apa yang diketahui tentang Anda. Email klien masuk; CORE sudah tahu cara Anda menangani hubungan itu dan membuat draft respons yang tepat. Peringatan Sentry muncul di malam hari; CORE memulai sesi Claude Code untuk menyelidiki.
-
-[Pelajari lebih lanjut tentang Konsep →](https://docs.getcore.me/concepts/overview)
+[![CORE Demo](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## Arsitektur
+## Apa itu CORE
 
-CORE dibangun di atas tiga lapisan yang mengimplementasikan empat pilar berikut:
+CORE adalah lapisan operasi open-source untuk pekerjaan native-AI.
 
-- **Memori**: Grafik pengetahuan temporal yang menyimpan episode, entitas, dan fakta yang telah diklasifikasikan. Setiap informasi dikategorikan (preferensi, keputusan, arahan, tujuan, dll.) dan dihubungkan seiring waktu. Inilah yang membuat pengambilan data berdasarkan intent, bukan kata kunci. [Dokumen →](https://docs.getcore.me/concepts/memory/overview)
+Anda menulis apa yang perlu dilakukan di scratchpad. CORE mengambil tugas tersebut, memuat konteks dari memori dan aplikasi yang terhubung, menyusun rencana, menjalankan agen yang tepat melalui gateway, menangani hambatan jika memungkinkan, dan kembali saat dibutuhkan penilaian manusia.
 
-- **Toolkit**: Lapisan aksi terpadu untuk agen yang kompatibel dengan MCP. Hubungkan aplikasi Anda sekali (GitHub, Linear, Slack, Gmail, Kalender, dll.) dan setiap alat AI yang terhubung mendapat akses ke 200+ aksi melalui satu endpoint. [Dokumen →](https://docs.getcore.me/toolkit/overview)
+Ini bukan chatbot yang terus Anda beri perintah. Ini adalah lapisan yang mengingat, mengoordinasikan, bertindak, dan melakukan eskalasi.
 
-- **CORE Agent**: Orkestra yang menghubungkan memori dan toolkit bersama. Ia memahami intent, mencari memori, memilih alat, membuat agen lain, dan dapat bertindak proaktif berdasarkan pemicu dan aturan. [Dokumen →](https://docs.getcore.me/concepts/meta-agent)
+### Arsitekturnya
 
----
+| | |
+|---|---|
+| **Memantau** | Konteks dari percakapan AI Anda melalui MCP, 50+ aplikasi yang terhubung, dan di Mac, aplikasi mana pun yang Anda beri akses secara eksplisit. |
+| **Mengingat** | Grafik pengetahuan yang tidak hanya melacak apa yang Anda katakan, tetapi juga apa yang Anda putuskan, kapan, dan mengapa, di setiap alat dan percakapan. |
+| **Bertindak** | Melakukan aksi langsung di aplikasi terhubung Anda, dan mendelegasikan pekerjaan lebih panjang ke agen pengkodean dan browser melalui gateway. |
+| **Kebijakan** | Alur persetujuan, aturan eskalasi, rencana, dan log audit sehingga otonomi tetap dapat dipertanggungjawabkan. |
 
-## Apa yang Bisa Anda Lakukan
-
-### Gunakan sebagai Asisten Pribadi Anda
-
-Berbicaralah dengan CORE melalui WhatsApp, email, atau dasbor web. CORE dapat mengambil tindakan di berbagai aplikasi Anda, mengelola jadwal, membuat draf email, semuanya dengan mengingat siapa Anda dan bagaimana cara kerja Anda.
-
-[Mulai sekarang →](https://docs.getcore.me/quickstart/chief-of-staff)
-
-### Tingkatkan Performa Agen AI Anda
-
-Beri Claude Code, Cursor, dan alat AI lainnya memori dan aksi yang persisten. Agen coding Anda mengingat arsitektur proyek, keputusan sebelumnya, dan preferensi Anda di setiap sesi. Tidak perlu lagi menjelaskan konteks berulang kali.
-
-[Mulai sekarang →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
-
-<details>
-<summary><b>Claude Code (Direkomendasikan: Plugin)</b></summary>
-
-```sh
-npm install -g @redplanethq/corebrain
-```
-
-Kemudian di Claude Code:
-
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
-
-Restart Claude Code dan jalankan `/mcp` untuk melakukan autentikasi.
-
-Plugin secara otomatis memuat persona Anda (preferensi, aturan, keputusan) setiap kali sesi dimulai dan memasukkan percakapan ke dalam memori saat Anda selesai.
-
-</details>
-
-<details>
-<summary><b>Claude Code (Manual MCP)</b></summary>
-
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
-
-Kemudian ketik `/mcp` dan buka core-memory untuk otentikasi.
-
-</details>
-
-<details>
-<summary><b>Cursor</b></summary>
-
-[![Pasang MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
-
-</details>
-
-<details>
-<summary><b>OpenClaw</b></summary>
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-
-Atur kunci API Anda melalui variabel lingkungan atau konfigurasi:
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-
-Dapatkan kunci API Anda dari [app.getcore.me](https://app.getcore.me) → Pengaturan → Kunci API.
-
-</details>
-
-<details>
-<summary><b>Claude Desktop</b></summary>
-
-1. Salin URL MCP: `https://app.getcore.me/api/v1/mcp?source=Claude`
-2. Buka Pengaturan → Konektor → Tambah konektor kustom
-3. Klik "Hubungkan" dan berikan izin pada Claude untuk mengakses CORE
-
-</details>
-
-**30+ penyedia lainnya** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot, dan lainnya. [Lihat semua panduan pengaturan →](https://docs.getcore.me/providers/overview)
-
-### Ubah Percakapan AI Menjadi Memori
-
-Sinkronkan percakapan ChatGPT dan Gemini Anda ke CORE melalui ekstensi browser. Dapat dicari, digunakan kembali, dan tersedia untuk setiap agen yang terhubung.
-
-[Mulai sekarang →](https://docs.getcore.me/quickstart/capture-conversations)
+CORE memutuskan apa yang bisa dilakukan dengan aman, meminta izin sebelum tindakan sensitif, dan meninggalkan jejak yang bisa Anda tinjau.
 
 ---
 
-## Mulai Cepat
+## CORE dalam aksi
 
-### Cloud
+### Delegasikan tugas coding, kembali dengan PR.
 
-1. **Daftar** di [app.getcore.me](https://app.getcore.me)
-2. **Hubungkan Gmail & Kalender** — CORE akan memindainya untuk mempelajari tentang Anda sehingga otak digital Anda dimulai dengan konteks nyata sejak hari pertama
-3. **Mulai gunakan** — berbicara dengan CORE Agent, hubungkan alat AI Anda, atau lakukan tindakan di aplikasi Anda
+Beritahu CORE apa yang perlu dilakukan. Ia mengumpulkan konteks dari repo Anda, aplikasi, dan memori, menyusun rencana, menjalankan sesi Claude Code atau Codex, menangani hambatan jika memungkinkan, dan membawa kembali PR. Anda meninjau saat selesai.
 
-### Self-Host
+`[ ] Perbaiki race condition di alur checkout dari issue #312`
 
-**Deploy Cepat**
+### Bersihkan backlog Anda saat tidur.
+
+Atur tugas berulang untuk menarik dari backlog pada waktu tertentu. CORE mengerjakannya saat Anda offline. Hasil lancar menunggu ulasan di pagi hari. Sesi yang terhambat kembali dengan pertanyaan singkat, bukan tab yang macet.
+
+`[ ] Kerjakan backlog malam ini mulai pukul 11 malam`
+
+### Investigasi peringatan sebelum menjadi gangguan.
+
+Atur tugas berulang untuk memantau Sentry, log, atau sumber peringatan apa pun. Saat sesuatu terjadi, CORE menyelidiki, menarik trace terkait dan insiden sebelumnya, lalu memutuskan untuk menangani atau mengeskalasi.
+
+Peringatan Sentry muncul pukul 2 pagi. CORE menyelidiki, mengusulkan solusi, dan mengirim pesan di Slack untuk ulasan Anda.
+
+### Dapatkan ringkasan pagi yang mengenal pekerjaan Anda.
+
+Atur tugas berulang untuk menarik dari email, GitHub, Linear, dan Slack setiap pagi. CORE meringkas yang butuh perhatian, melewatkan yang tidak, dan otomatis mengubah follow-up menjadi tugas.
+
+### Delegasi dari mana saja.
+
+Buat tugas dari Slack, WhatsApp, Telegram, email, atau web. Gateway tetap berjalan di Docker atau Railway, sehingga CORE bisa mengambil pekerjaan meskipun laptop Anda tertutup.
+
+---
+
+## Apa yang ada di dalam CORE
+
+| | |
+|---|---|
+| **Memori** | Mencatat preferensi, keputusan, tujuan, dan arahan Anda di setiap alat dan percakapan, sehingga setiap tugas dimulai dengan konteks yang sudah dimuat. |
+| **Tugas** | Unit kerja satu kali atau berulang dengan spesifikasi Anda, rencana CORE, status langsung, dan thread chat khusus. Setiap tugas dapat menghasilkan sesi coding atau browser. |
+| **Scratchpad** | Halaman harian untuk tugas, ide, dan pekerjaan yang sedang berjalan. Ketik `[ ]` di mana saja dan CORE akan mengambilnya dalam 3 menit. |
+| **Konektor** | 50+ aplikasi melalui satu endpoint MCP, ditambah pemicu webhook untuk otomasi proaktif. GitHub, Linear, Jira, Slack, Gmail, Kalender, Sentry, Granola, Todoist, dan lainnya. |
+| **Skill** | 100+ instruksi yang dapat digunakan ulang, diterapkan secara otomatis berdasarkan konteks. Gunakan skill bawaan atau tulis sendiri untuk alur kerja berulang. |
+| **Gateway** | Menjalankan Claude Code, Codex, agen browser, dan perintah lokal di mesin Anda atau di Docker / Railway, sehingga CORE tetap bekerja saat laptop Anda ditutup. |
+| **Model agnostik** | Bawa penyedia Anda sendiri: Anthropic, OpenAI, atau model open-weight. Self-host seluruh stack untuk isolasi. |
+
+---
+
+## Apa yang bukan CORE
+
+| | |
+|---|---|
+| **Bukan pembungkus RAG.** | Memori bukan sekadar potongan yang di-embed. Ini adalah grafik pengetahuan yang melacak apa yang Anda putuskan, kapan, dan mengapa. |
+| **Bukan pembuat workflow.** | Tidak ada DAG drag-and-drop. Anda menulis apa yang perlu dilakukan. CORE menentukan alur kerja dan bertanya saat membutuhkan penilaian. |
+| **Bukan Devin lain.** | CORE mengusulkan rencana, Anda menyetujui. CORE meminta unblock, Anda memutuskan. CORE membawa kembali PR, Anda meninjau. Agen tidak melakukan merge sendiri. |
+| **Bukan asisten cloud tertutup.** | CORE open source, dapat di-host sendiri, model-agnostik, dan dirancang sesuai infrastruktur Anda. |
+
+---
+
+## Quickstart
+
+Open source dan dapat di-host sendiri. Data Anda tetap di infrastruktur Anda.
+
+**Instal dan jalankan CORE:**
+
+```bash
+npm install -g @redplanethq/corebrain && corebrain setup
+```
+
+Wizard penyiapan meminta direktori instalasi, penyedia AI, kunci API, dan model chat. Wizard ini menghasilkan secrets, memulai stack, dan membuka `http://localhost:3033`.
+
+Sebagian besar instalasi lokal memerlukan beberapa menit setelah Docker berjalan.
+
+**Atau lakukan deploy di Railway:**
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
-**Atau dengan Docker**
+**Hubungkan gateway** agar CORE dapat mengendalikan browser Anda, menjalankan agen coding, dan mengakses folder lokal:
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+corebrain login
+corebrain gateway setup
 ```
 
-[Lihat panduan self-hosting lengkap →](https://docs.getcore.me/self-hosting/docker)
+**Persyaratan:** Docker 20.10+, Docker Compose 2.20+, 4 vCPU / 8GB RAM
+
+[Panduan self-hosting lengkap](https://docs.getcore.me/self-hosting/setup)
+
+> Ingin aplikasi Mac? Bergabunglah dalam daftar tunggu di [getcore.me](https://www.getcore.me/).
 
 ---
 
-## Untuk Pengembang Agen
+## Benchmark
 
-Membangun agen AI? Alihkan penyimpanan memori dan integrasi ke CORE agar Anda dapat fokus pada logika agen Anda.
-
-- **Alihkan memori** — Gunakan grafik pengetahuan temporal milik CORE sebagai memori jangka panjang agen Anda. Simpan percakapan, ambil konteks dengan pencarian berbasis intent, dan biarkan agen Anda membangun pengetahuan dari waktu ke waktu tanpa harus mengelola vector DB atau grafik sendiri.
-- **Alihkan integrasi** — Hubungkan aplikasi sekali saja di CORE, dan agen Anda mendapatkan alat MCP untuk semuanya. Tidak perlu membuat alur OAuth, tidak perlu pemeliharaan API, tidak ada kode khusus integrasi.
-- **Bangun lewat MCP atau API** — Hubungkan agen Anda ke CORE melalui MCP (endpoint tunggal) atau gunakan REST API secara langsung.
-
-**Contoh Proyek**
-
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — Agen manajer tugas dengan memori dan sinkronisasi Linear/GitHub
-- [**holo**](https://github.com/RedPlanetHQ/holo) — Ubah memori CORE Anda menjadi situs web pribadi dengan fitur chat
-
-[Referensi API →](https://docs.getcore.me/api-reference) · [Dokumentasi SDK →](https://docs.getcore.me)
+CORE mencapai rata-rata akurasi **88.24%** pada [benchmark LoCoMo](https://github.com/RedPlanetHQ/core-benchmark) di reasoning single-hop, multi-hop, open-domain, dan temporal.
 
 ---
 
-## Tolok Ukur
+## Apa yang kami yakini
 
-CORE mencapai rata-rata akurasi **88,24%** pada tolok ukur LoCoMo di berbagai tugas penalaran single-hop, multi-hop, open-domain, dan temporal.
+- Chat adalah antarmuka. Bukan OS.
+- Kecerdasan tanpa memori adalah trivia.
+- AI Anda harus mengenal Anda di setiap alat, bukan hanya tab saat ini.
+- Pekerjaan harus berpindah dari niat ke aksi tanpa Anda menjadi perekatnya.
+- Automasi tanpa akuntabilitas adalah kekacauan.
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+---
 
-[Lihat metodologi dan hasil tolok ukur →](https://github.com/RedPlanetHQ/core-benchmark)
+## Dokumentasi
+
+- [**Memory**](https://docs.getcore.me/memory/overview) - Graf pengetahuan temporal, klasifikasi fakta, pengambilan berbasis intent
+- [**Scratchpad**](https://docs.getcore.me/concepts/scratchpad) - Permukaan harian tempat tugas dan ide dimulai
+- [**Tasks**](https://docs.getcore.me/concepts/tasks) - Rencana, status, pekerjaan berulang, dan konteks tugas
+- [**Toolkit**](https://docs.getcore.me/concepts/toolkit) - 1000+ aksi di 50+ aplikasi melalui MCP
+- [**CORE Agent**](https://docs.getcore.me/concepts/meta-agent) - Pemicu, memori, alat, dan eksekusi
+- [**Gateway**](https://docs.getcore.me/access-core/overview) - WhatsApp, Slack, Telegram, email, web, dan akses API
+- [**Skills**](https://docs.getcore.me/skills/overview) - Instruksi yang dapat digunakan kembali untuk alur kerja berulang
+- [**Self-hosting**](https://docs.getcore.me/self-hosting/setup) - Panduan deployment lengkap
+- [**Changelog**](https://docs.getcore.me/opensource/changelog) - Apa saja yang telah dirilis
 
 ---
 
 ## Keamanan
 
-CASA Tier 2 Bersertifikat — diaudit pihak ketiga untuk memenuhi persyaratan OAuth Google.
-
-- Enkripsi: TLS 1.3 (transit) + AES-256 (penyimpanan)
-- Isolasi berbasis workspace, izin berbasis peran
-- Data Anda tidak pernah digunakan untuk pelatihan model AI
-- Opsi self-hosting untuk isolasi penuh
-
-[Kebijakan Keamanan →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · Pelaporan Kerentanan: harshith@poozle.dev
-
----
-
-## pipeline
-
-- [Selamat Datang](https://docs.getcore.me/introduction) — Pengantar CORE
-- [Konsep](https://docs.getcore.me/concepts/overview) — Memori, Agen, dan Toolkit dijelaskan
-- [Koneksi](https://docs.getcore.me/access-core/overview) — Kanal dan penyedia AI
-- [Toolkit](https://docs.getcore.me/toolkit/overview) — Aksi dan integrasi
-- [Sumber Terbuka](https://docs.getcore.me/guides/local-setup) — Pengaturan lokal, kontribusi, self-hosting
-- [Referensi API](https://docs.getcore.me/api-reference) — REST API dan endpoint
-- [Log Perubahan](https://docs.getcore.me/opensource/changelog) — Pembaruan produk
+- CASA Tier 2 Bersertifikat
+- TLS 1.3 saat transit
+- AES-256 saat penyimpanan
+- Data Anda tidak pernah digunakan untuk pelatihan model
+- Self-host untuk isolasi penuh
+- [Kebijakan keamanan](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- Kerentanan: harshith@poozle.dev
 
 ---
 
-## Dukungan
+## Komunitas
 
-- Discord: [Bergabung dengan kanal core-support](https://discord.gg/YGUZcvDjUa)
-- Dokumentasi: [docs.getcore.me](https://docs.getcore.me)
-- Email: manik@poozle.dev
+Kami membangun CORE secara terbuka.
 
-## Kontributor
+Kami membagikan roadmap dan keputusan arsitektural secara terbuka karena masalah paling sulit dalam membangun OS personal paling baik diselesaikan bersama pengguna. Bintangi repo, self-host, bagikan apa yang Anda buat, dan buka isu untuk hal yang rusak atau kurang.
+
+- [Discord](https://discord.gg/YGUZcvDjUa) - pertanyaan, ide, pamer karya
+- [Dokumen kontribusi](https://docs.getcore.me/opensource/contributing) - cara berkontribusi ke CORE
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - mulai di sini
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
+---
+
+<div align="center">
+
+**Self-host OS AI personal Anda.**
+
+[Bintangi repo ini](https://github.com/RedPlanetHQ/core) · [Baca dokumen](https://docs.getcore.me) · [Gabung Discord](https://discord.gg/YGUZcvDjUa)
+
+</div>
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

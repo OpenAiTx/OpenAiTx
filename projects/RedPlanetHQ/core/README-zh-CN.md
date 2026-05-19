@@ -30,30 +30,16 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img width="200px" alt="CORE 徽标" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
+    <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE：你的数字大脑
+# 你的个人AI操作系统。
 
-**它会记忆。它会思考。它会行动**
+**运行你的操作系统。** 观察你的工作。记住重要事项。在你的工具和代理中执行操作。开源，自托管，永远属于你。
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="添加到 Claude Code" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="添加到 Cursor" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="添加到 OpenClaw" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="在 Railway 部署" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="官网" />
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="网站" />
     </a>
     <a href="https://docs.getcore.me">
         <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="文档" />
@@ -61,246 +47,200 @@
     <a href="https://discord.gg/YGUZcvDjUa">
         <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord 社区" />
     </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="许可证：AGPL 3.0" />
+    </a>
 </p>
 </div>
 
 ---
 
-CORE 是你的数字大脑 —— 一个统一的、始终在线的 AI，能够记住你的上下文、协同你的 AI 代理，并在各种工具中执行操作。
+## 实际演示
 
-开源。可自部署。你的数据，你做主。
+观看 CORE 完成两项编码任务的全过程：
 
----
-
-## 什么是数字大脑
-
-### 它记住一切
-
-每一次对话、决策、偏好和关系都被存储为时序知识图谱中的结构化知识。不是原始文本，而是分类事实（偏好、决策、目标、指令），并在你需要时准确呈现。你可以询问几周前的事情，答案依然在，并且带有完整上下文。
-
-[了解有关 Memory 的更多信息 →](https://docs.getcore.me/concepts/memory/overview)
-
-### 它可以执行操作
-
-无需离开对话界面即可创建 GitHub 问题、发送 Slack 消息、管理日历。也支持复杂的多步工作流：比如让你的代码代理检查 Sentry 上的新错误，为每个错误创建一个 GitHub 问题，根据 git blame 分配给合适的工程师，并将摘要发布到你团队的 Slack 频道——全部由一个提示完成。通过一个连接点即可访问 50 多个应用的 200 多项操作。
-
-[了解有关 Toolkit 的更多信息 →](https://docs.getcore.me/concepts/toolkit)
-
-### 它能跨系统思考和工作
-
-你的工具是孤立的。Claude Code 不能和你的 WhatsApp 通信。Cursor 不能检查你的日历。CORE 的 Agent 打破了这些壁垒——它是将 memory、toolkit 和你的应用连接在一起的编排者。
-
-CORE Agent 能做的事：
-
-- **理解意图**：分类你的需求并路由到正确的工具和记忆
-- **生成其他代理**：可以从 WhatsApp 启动 Claude Code 会话或浏览器会话以修复 bug 或做研究
-- **协调多步工作流**：从记忆中提取上下文，在多个应用中行动，并回报结果
-- **随时随地工作**：可以通过 WhatsApp、邮件、Slack 或网页仪表板沟通——同一“头脑”，同一上下文
-
-[了解有关 CORE Agent 的更多信息 →](https://docs.getcore.me/concepts/meta-agent)
-
-### 它可以主动行动
-
-你不必事事都主动提出请求。CORE 会监控事件——新邮件、GitHub 警报、日历变更——并根据它对你的了解进行评估。客户邮件一到，CORE 已经知道你如何处理该关系并起草正确回复。深夜 Sentry 报警，CORE 会自动启动 Claude Code 会话进行调查。
-
-[了解有关 Concepts 的更多信息 →](https://docs.getcore.me/concepts/overview)
+[![CORE 演示](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## 架构
+## CORE 是什么
 
-CORE 建立在三大层级之上，实现以下四大支柱：
+CORE 是面向 AI 原生工作的开源操作层。
 
-- **Memory**：一个时序知识图谱，存储片段、实体和分类事实。每一条信息都被分类（偏好、决策、指令、目标等），并随时间关联。这让检索基于意图而非关键词。[文档 →](https://docs.getcore.me/concepts/memory/overview)
+你在草稿板上写下需要完成的事项。CORE 会拾取任务，从内存和已连接应用中加载上下文，拟定方案，通过网关运行合适的智能体，在可以的情况下处理阻碍，并在需要人工判断时返回给你。
 
-- **Toolkit**：为任何 MCP 兼容代理提供统一的操作层。只需一次连接你的应用（GitHub、Linear、Slack、Gmail、日历等），所有已连接的 AI 工具都能通过一个端点访问 200 多项操作。[文档 →](https://docs.getcore.me/toolkit/overview)
+它不是一个需要不断提示的聊天机器人。它是记忆、协调、执行和升级的操作层。
 
-- **CORE Agent**：将 memory 和 toolkit 结合起来的编排者。它能理解意图、搜索记忆、选择工具、生成其他代理，并能基于触发器和规则主动行动。[文档 →](https://docs.getcore.me/concepts/meta-agent)
+### 架构简介
+
+| | |
+|---|---|
+| **监控** | 通过 MCP 获取你的 AI 对话上下文，连接 50+ 应用，并在 Mac 上获取你明确授权的任何应用数据。 |
+| **记忆** | 一个知识图谱，记录你说了什么、做了什么决定、时间和原因，覆盖每个工具和对话。 |
+| **执行** | 在已连接应用中直接操作，并通过网关将更长任务委托给编码和浏览器智能体。 |
+| **政策** | 审批流程、升级规则、计划和审计日志，让自主权保持责任制。|
+
+CORE决定它能安全执行的操作，在敏感行为前请求批准，并留下可供审查的记录。
 
 ---
 
-## 您可以做什么
+## CORE实际应用
 
-### 作为您的个人助理使用
+### 委派编码任务，回来时已生成PR。
 
-通过 WhatsApp、电子邮件或网页仪表板与 CORE 交流。它可跨应用执行操作，管理您的日程，撰写邮件，并记住您的身份和工作方式。
+告诉CORE需要完成什么。它从你的仓库、应用和记忆中收集上下文，拟定计划，运行Claude Code或Codex会话，尽量处理阻碍，并最终带来一个PR。完成后由你审核。
 
-[快速开始 →](https://docs.getcore.me/quickstart/chief-of-staff)
+`[ ] 修复checkout流程的竞争条件，见issue #312`
 
-### 让您的 AI 代理能力倍增
+### 睡觉时清理你的待办事项。
 
-为 Claude Code、Cursor 和其他 AI 工具提供持久记忆和操作。您的编程代理会跨会话记住项目架构、过往决策和偏好。无需重复解释上下文。
+设定定期任务，在指定时间从待办列表中拉取任务。你离线时CORE自动处理。顺利完成的任务早上等待你审核，遇到阻碍的会带着具体问题回来，而不是停在卡住的页面。
 
-[快速开始 →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
+`[ ] 今晚11点开始处理待办事项`
 
-<details>
-<summary><b>Claude Code（推荐：插件）</b></summary>
+### 在警报成为打扰前先行调查。
 
-```sh
-npm install -g @redplanethq/corebrain
-```
+设定定期任务监控Sentry、日志或任何警报来源。发生警报时，CORE调查，拉取相关跟踪和历史事件，决定自行处理还是升级上报。
 
-然后在 Claude Code 中：
+Sentry警报在凌晨2点触发。CORE调查，提出修复建议，并在Slack上通知你审核。
 
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
+### 获得懂你工作的晨间简报。
 
-重启 Claude Code 并运行 `/mcp` 进行身份验证。
+设定定期任务，每天早上从邮箱、GitHub、Linear和Slack拉取信息。CORE总结需要关注的内容，跳过无关事项，自动将后续事项转为任务。
 
-该插件会在每次会话开始时自动加载你的角色（偏好、规则、决策），并在你结束对话时将对话内容导入内存。
+### 随时随地委派任务。
 
-</details>
+可通过Slack、WhatsApp、Telegram、邮件或网页创建任务。网关在Docker或Railway中持续运行，即使你的电脑关闭，CORE也能接收任务。
 
-<details>
-<summary><b>Claude Code（手动 MCP）</b></summary>
+---
 
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
-然后输入 `/mcp` 并打开 core-memory 进行身份验证。
+## CORE内部结构
 
-</details>
+| | |
+|---|---|
+| **记忆** | 跟踪你在每个工具和对话中的偏好、决策、目标和指令，让每个任务都在加载上下文的基础上开始。 |
+| **任务** | 一次性或周期性工作单元，包含你的规范、CORE的计划、实时状态和专属聊天线程。每个任务都可衍生编码或浏览会话。 |
+| **速记板** | 用于任务、想法和进行中工作的每日页面。在任意位置输入 `[ ]`，CORE 会在 3 分钟内捕捉到。 |
+| **连接器** | 通过一个 MCP 端点连接 50 多个应用，还支持 webhook 触发主动自动化。支持 GitHub、Linear、Jira、Slack、Gmail、Calendar、Sentry、Granola、Todoist 等。 |
+| **技能** | 100 多个可复用指令自动根据上下文应用。可使用内置技能，也可自定义编写，实现可重复工作流。 |
+| **网关** | 在你的电脑或 Docker / Railway 上运行 Claude Code、Codex、浏览器代理和本地命令，让 CORE 即使在你笔记本合盖时也能持续工作。 |
+| **模型无关** | 可自选提供商：Anthropic、OpenAI 或开源权重模型。可自托管全栈实现隔离。 |
 
-<details>
-<summary><b>Cursor</b></summary>
+---
 
-[![安装 MCP 服务器](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
+## CORE 不是什么
 
-</details>
-
-<details>
-<summary><b>OpenClaw</b></summary>
-
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-通过环境变量或配置设置您的 API 密钥：
-
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-从 [app.getcore.me](https://app.getcore.me) 获取你的 API 密钥 → 设置 → API 密钥。
-
-</details>
-
-<details>
-<summary><b>Claude 桌面版</b></summary>
-
-1. 复制 MCP URL：`https://app.getcore.me/api/v1/mcp?source=Claude`
-2. 前往设置 → 连接器 → 添加自定义连接器
-3. 点击“连接”并授权 Claude 访问 CORE
-
-</details>
-
-**30+ 更多服务商** — Windsurf、VS Code、Cline、Codex、Gemini CLI、Copilot 等。 [查看所有设置指南 →](https://docs.getcore.me/providers/overview)
-
-### 将 AI 聊天转化为记忆
-
-通过浏览器扩展，将你的 ChatGPT 和 Gemini 对话同步到 CORE。可搜索、可复用，并对所有已连接代理开放。
-
-[立即开始 →](https://docs.getcore.me/quickstart/capture-conversations)
+| | |
+|---|---|
+| **不是 RAG 封装器。** | 记忆不仅仅是嵌入片段，而是一个知识图谱，跟踪你的决策、时间和原因。 |
+| **不是工作流构建器。** | 没有拖拽式 DAG。你只需写明要做什么，CORE 自动推理流程，并在需要判断时询问你。 |
+| **不是另一个 Devin。** | CORE 提出计划，由你批准。CORE 请求解阻，由你决定。CORE 带回 PR，由你审核。代理不会自行合并。 |
+| **不是封闭云助手。** | CORE 是开源、自托管、模型无关，并围绕你的基础设施设计。 |
 
 ---
 
 ## 快速开始
 
-### 云端
+开源且可自托管。你的数据始终在你的基础设施中。
 
-1. **注册账号** [app.getcore.me](https://app.getcore.me)
-2. **连接 Gmail 和日历** — CORE 会扫描它们以了解你，让你的数字大脑从第一天就拥有真实的上下文
-3. **开始使用** — 与 CORE Agent 聊天，连接你的 AI 工具，或在应用中执行操作
+**安装并启动 CORE：**
 
-### 自部署
+```bash
+npm install -g @redplanethq/corebrain && corebrain setup
+```
+安装向导会要求输入安装目录、AI 提供商、API 密钥和聊天模型。它会生成密钥，启动堆栈，并打开 `http://localhost:3033`。
 
-**快速部署**
+大多数本地安装在 Docker 运行后只需几分钟。
+
+**或者在 Railway 上部署：**
 
 [![在 Railway 上部署](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
-**或使用 Docker**
+**连接网关**，以便 CORE 能够控制你的浏览器、运行编码代理并访问本地文件夹：
 
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+corebrain login
+corebrain gateway setup
 ```
 
-[查看完整的自托管指南 →](https://docs.getcore.me/self-hosting/docker)
+**要求：** Docker 20.10+，Docker Compose 2.20+，4 vCPU / 8GB RAM
 
----
+[完整自托管指南](https://docs.getcore.me/self-hosting/setup)
 
-## 面向智能体开发者
-
-正在构建AI智能体？将内存和集成任务交给CORE处理，让你专注于智能体的逻辑开发。
-
-- **卸载内存** — 使用CORE的时序知识图作为智能体的长期记忆。存储对话，通过意图驱动搜索检索上下文，让智能体随着时间积累知识，无需管理自己的向量数据库或图谱。
-- **卸载集成** — 在CORE中一次性连接应用，智能体即可获得所有应用的MCP工具。无需构建OAuth流程，无需API维护，无需为每个集成编写代码。
-- **通过MCP或API构建** — 通过MCP（单一端点）将智能体连接到CORE，或直接使用REST API。
-
-**示例项目**
-
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — 带内存和Linear/GitHub同步的任务管理智能体
-- [**holo**](https://github.com/RedPlanetHQ/holo) — 将你的CORE记忆变成带聊天功能的个人网站
-
-[API参考 →](https://docs.getcore.me/api-reference) · [SDK文档 →](https://docs.getcore.me)
+> 想要 Mac 应用？请在 [getcore.me](https://www.getcore.me/) 加入候补名单。
 
 ---
 
 ## 基准测试
 
-CORE在LoCoMo基准测试中，在单跳、多跳、开放域和时序推理任务上取得了**88.24%**的平均准确率。
-
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-
-[查看基准测试方法及结果 →](https://github.com/RedPlanetHQ/core-benchmark)
+CORE 在 [LoCoMo 基准测试](https://github.com/RedPlanetHQ/core-benchmark) 上在单跳、多跳、开放域和时间推理等方面实现了 **88.24%** 的平均准确率。
 
 ---
 
-## 安全性
+## 我们的信念
 
-CASA二级认证 — 通过第三方审计，符合Google OAuth要求。
-
-- 加密：TLS 1.3（传输）+ AES-256（静态）
-- 基于工作区隔离，基于角色的权限管理
-- 你的数据绝不会用于AI模型训练
-- 提供自托管选项，实现完全隔离
-[安全政策 →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · 漏洞报告：harshith@poozle.dev
+- 聊天是界面，而不是操作系统。
+- 没有记忆的智能只是琐事。
+- 你的 AI 应该跨所有工具了解你，而不仅仅是当前标签页。
+- 工作应该从意图到行动自动流转，无需你成为粘合剂。
+- 没有责任制的自动化就是混乱。
 
 ---
 
 ## 文档
 
-- [欢迎](https://docs.getcore.me/introduction) — CORE 简介
-- [概念](https://docs.getcore.me/concepts/overview) — 记忆、代理和工具包说明
-- [连接](https://docs.getcore.me/access-core/overview) — 通道与 AI 提供商
-- [工具包](https://docs.getcore.me/toolkit/overview) — 动作与集成
-- [开源](https://docs.getcore.me/guides/local-setup) — 本地部署、贡献、自托管
-- [API 参考](https://docs.getcore.me/api-reference) — REST API 和端点
-- [更新日志](https://docs.getcore.me/opensource/changelog) — 产品更新
+- [**记忆**](https://docs.getcore.me/memory/overview) - 时间知识图谱、事实分类、基于意图的检索
+- [**便签**](https://docs.getcore.me/concepts/scratchpad) - 任务和想法日常起点
+- [**任务**](https://docs.getcore.me/concepts/tasks) - 计划、状态、周期性工作和任务上下文
+- [**工具箱**](https://docs.getcore.me/concepts/toolkit) - 通过 MCP 跨 50+ 应用的 1000+ 动作
+- [**CORE Agent**](https://docs.getcore.me/concepts/meta-agent) - 触发器、记忆、工具与执行
+- [**网关**](https://docs.getcore.me/access-core/overview) - 支持 WhatsApp、Slack、Telegram、邮件、网页和 API 接入
+- [**技能**](https://docs.getcore.me/skills/overview) - 可复用指令，实现可重复流程
+- [**自托管**](https://docs.getcore.me/self-hosting/setup) - 完整部署指南
+- [**更新日志**](https://docs.getcore.me/opensource/changelog) - 已发布内容
 
 ---
 
-## 支持
+## 安全
 
-- Discord: [加入 core-support 频道](https://discord.gg/YGUZcvDjUa)
-- 文档: [docs.getcore.me](https://docs.getcore.me)
-- 邮箱: manik@poozle.dev
+- CASA 二级认证
+- 传输中使用 TLS 1.3
+- 静态存储采用 AES-256 加密
+- 您的数据绝不会被用于模型训练
+- 支持自部署，实现完全隔离
+- [安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- 漏洞报告：harshith@poozle.dev
 
-## 贡献者
+---
+
+## 社区
+
+我们正在公开构建 CORE。
+
+我们公开分享产品路线图和架构决策，因为构建个人操作系统时遇到的最难问题，往往需要用户一起解决。请为代码仓库加星，自部署、分享你的成果，并反馈问题或缺失功能。
+
+- [Discord](https://discord.gg/YGUZcvDjUa) - 提问、交流想法、展示作品
+- [贡献文档](https://docs.getcore.me/opensource/contributing) - 如何为 CORE 做贡献
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - 新手从这里开始
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
+---
+
+<div align="center">
+
+**自部署您的个人 AI 操作系统。**
+
+[为本仓库加星](https://github.com/RedPlanetHQ/core) · [阅读文档](https://docs.getcore.me) · [加入 Discord](https://discord.gg/YGUZcvDjUa)
+
+</div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

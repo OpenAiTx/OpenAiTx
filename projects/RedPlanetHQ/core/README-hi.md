@@ -30,277 +30,217 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img width="200px" alt="CORE लोगो" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
+    <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE: आपका डिजिटल मस्तिष्क
+# आपका व्यक्तिगत AI OS.
 
-**यह याद रखता है। यह सोचता है। यह कार्य करता है।**
+**अपना OS चलाएँ।** आपके काम पर नज़र रखता है। जो महत्वपूर्ण है उसे याद रखता है। आपके टूल्स और एजेंट्स में कार्य करता है। ओपन सोर्स, स्वयं-होस्टेड, हमेशा आपके लिए।
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude कोड में जोड़ें" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="कर्सर में जोड़ें" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="OpenClaw में जोड़ें" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="Railway पर डिप्लॉय करें" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
         <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="वेबसाइट" />
     </a>
     <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="डॉक्स" />
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="प्रलेखन" />
     </a>
     <a href="https://discord.gg/YGUZcvDjUa">
         <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="डिस्कॉर्ड" />
+    </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="लाइसेंस: AGPL 3.0" />
     </a>
 </p>
 </div>
 
 ---
 
-CORE आपका डिजिटल मस्तिष्क है - एक एकीकृत, हमेशा सक्रिय एआई जो आपके संदर्भ को याद रखता है, आपके एआई एजेंट्स के साथ काम करता है, और आपके टूल्स में कार्य करता है।
+## इसे कार्य करते हुए देखें
 
-ओपन सोर्स। स्वयं होस्ट करने योग्य। आपका डेटा, आपका नियंत्रण।
+देखें कि कैसे CORE दो कोडिंग कार्यों को शुरू से अंत तक संभालता है:
 
----
-
-## एक डिजिटल ब्रेन को क्या खास बनाता है
-
-### यह सब कुछ याद रखता है
-
-हर बातचीत, निर्णय, पसंद, और संबंध संरचित ज्ञान के रूप में एक अस्थायी नॉलेज ग्राफ में संग्रहित होता है। कच्चा पाठ नहीं, बल्कि वर्गीकृत तथ्य (पसंद, निर्णय, लक्ष्य, निर्देश) जो ठीक तभी सामने आते हैं जब आपको उनकी आवश्यकता हो। हफ्तों पहले की किसी बात के बारे में पूछें, तो उत्तर पूरा संदर्भ के साथ मौजूद रहता है।
-
-[मेमोरी के बारे में अधिक जानें →](https://docs.getcore.me/concepts/memory/overview)
-
-### यह क्रियाएँ कर सकता है
-
-GitHub इश्यू बनाएं, Slack संदेश भेजें, अपनी कैलेंडर प्रबंधित करें - वह भी बातचीत छोड़े बिना। जटिल बहु-चरणीय वर्कफ़्लो भी: अपने कोडिंग एजेंट से कहें कि Sentry में नए त्रुटियाँ जाँचे, प्रत्येक के लिए GitHub इश्यू बनाएँ, git blame के आधार पर सही इंजीनियर को असाइन करें, और आपकी टीम के Slack चैनल में एक सारांश पोस्ट करें, यह सब एक ही प्रॉम्प्ट से। 50+ ऐप्स में 200+ कार्य एक ही कनेक्शन प्वाइंट से।
-
-[टूलकिट के बारे में अधिक जानें →](https://docs.getcore.me/concepts/toolkit)
-
-### यह विभिन्न सिस्टम्स में सोचता और काम करता है
-
-आपके टूल्स अलग-थलग हैं। Claude Code आपके WhatsApp से बात नहीं कर सकता। Cursor आपका कैलेंडर चेक नहीं कर सकता। CORE का एजेंट इन दीवारों को तोड़ता है - यह वो ऑर्केस्ट्रेटर है जो मेमोरी, टूलकिट और आपके ऐप्स को जोड़ता है।
-
-CORE एजेंट क्या कर सकता है:
-
-- **इरादे को समझना**: आपकी आवश्यकता को वर्गीकृत करता है और सही टूल्स व मेमोरी तक पहुँचाता है
-- **अन्य एजेंट शुरू करना**: WhatsApp से Claude Code सेशन या ब्राउज़र सेशन शुरू करें ताकि कोई बग ठीक करें या रिसर्च करें
-- **बहु-चरणीय वर्कफ़्लो समन्वयित करना**: मेमोरी से संदर्भ लें, कई ऐप्स में कार्रवाई करें, और रिपोर्ट करें
-- **कहीं से भी काम करें**: WhatsApp, ईमेल, Slack, या वेब डैशबोर्ड से संदेश भेजें — वही दिमाग, वही संदर्भ
-
-[CORE एजेंट के बारे में अधिक जानें →](https://docs.getcore.me/concepts/meta-agent)
-
-### यह सक्रिय रूप से कार्य कर सकता है
-
-आपको हर चीज़ मांगनी नहीं चाहिए। CORE घटनाओं की निगरानी करता है - नए ईमेल, GitHub अलर्ट, कैलेंडर में बदलाव — और उन्हें आपके बारे में अपनी जानकारी के अनुसार मूल्यांकित करता है। एक क्लाइंट ईमेल आता है; CORE पहले से जानता है कि आप उस रिश्ते को कैसे संभालते हैं और उपयुक्त उत्तर ड्राफ्ट कर देता है। रात में Sentry अलर्ट आता है; CORE जाँच के लिए Claude Code सेशन शुरू करता है।
-
-[कॉन्सेप्ट्स के बारे में अधिक जानें →](https://docs.getcore.me/concepts/overview)
+[![CORE डेमो](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## आर्किटेक्चर
+## CORE क्या है
 
-CORE इन चार स्तंभों को लागू करने वाली तीन स्तरों पर निर्मित है:
+CORE AI-नेटिव कार्य के लिए ओपन-सोर्स ऑपरेटिंग लेयर है।
 
-- **मेमोरी**: एक टेम्पोरल नॉलेज ग्राफ जो एपिसोड, एंटिटी और वर्गीकृत तथ्यों को संग्रहित करता है। हर सूचना को वर्गीकृत किया जाता है (पसंद, निर्णय, निर्देश, लक्ष्य आदि) और समय के साथ जोड़ दिया जाता है। यही इसे कीवर्ड-आधारित की बजाय इरादा-आधारित पुनर्प्राप्ति बनाता है। [डॉक्स →](https://docs.getcore.me/concepts/memory/overview)
+आप नोटपैड में क्या करना है लिखते हैं। CORE कार्य को उठाता है, मेमोरी और कनेक्टेड ऐप्स से संदर्भ लोड करता है, एक योजना बनाता है, गेटवे के माध्यम से सही एजेंट चलाता है, जहां संभव हो बाधाओं को संभालता है, और जब मानव निर्णय की आवश्यकता हो, तब वापस आता है।
 
-- **टूलकिट**: किसी भी MCP-संगत एजेंट के लिए एकीकृत एक्शन लेयर। अपने ऐप्स (GitHub, Linear, Slack, Gmail, Calendar आदि) एक बार जोड़ें और हर कनेक्टेड AI टूल को 200+ कार्य एक ही एंडप्वाइंट से मिलते हैं। [डॉक्स →](https://docs.getcore.me/toolkit/overview)
+यह कोई चैटबॉट नहीं है जिसे आप बार-बार प्रॉम्प्ट करते हैं। यह वह लेयर है जो याद रखती है, समन्वय करती है, कार्य करती है और एस्केलेट करती है।
 
-- **CORE एजेंट**: वह ऑर्केस्ट्रेटर जो मेमोरी और टूलकिट को जोड़ता है। यह इरादे को समझता है, मेमोरी खोजता है, टूल्स चुनता है, अन्य एजेंट शुरू करता है, और ट्रिगर व नियमों के आधार पर सक्रिय रूप से कार्य कर सकता है। [डॉक्स →](https://docs.getcore.me/concepts/meta-agent)
+### आर्किटेक्चर
 
----
+| | |
+|---|---|
+| **देखता है** | आपके AI संवादों से MCP के माध्यम से संदर्भ, 50+ कनेक्टेड ऐप्स, और मैक पर, उन किसी भी ऐप्स से जिन्हें आप स्पष्ट रूप से अनुमति देते हैं। |
+| **याद रखता है** | एक नॉलेज ग्राफ जो सिर्फ आपकी कही बात नहीं, बल्कि आपने क्या, कब और क्यों तय किया, हर टूल और संवाद में ट्रैक करता है। |
+| **कार्य करता है** | आपके कनेक्टेड ऐप्स में सीधे कार्य करता है, और लंबे कार्यों को गेटवे के माध्यम से कोडिंग और ब्राउज़र एजेंट्स को सौंपता है। |
+| **नीतियाँ** | अनुमोदन प्रवाह, वृद्धि नियम, योजनाएँ, और ऑडिट लॉग ताकि स्वायत्तता उत्तरदायी बनी रहे। |
 
-## आप क्या कर सकते हैं
-
-### अपने निजी सहायक के रूप में उपयोग करें
-
-WhatsApp, ईमेल या वेब डैशबोर्ड से CORE से बात करें। यह आपके ऐप्स में कार्य करता है, आपका शेड्यूल प्रबंधित करता है, ईमेल का मसौदा तैयार करता है, और यह सब आपकी पहचान और आपके काम करने के तरीके की जानकारी के साथ करता है।
-
-[शुरू करें →](https://docs.getcore.me/quickstart/chief-of-staff)
-
-### अपने एआई एजेंट्स को सुपरचार्ज करें
-
-Claude Code, Cursor और अन्य एआई टूल्स को स्थायी मेमोरी और एक्शन्स दें। आपका कोडिंग एजेंट प्रोजेक्ट आर्किटेक्चर, पिछले निर्णय और प्राथमिकताएं सेशन्स के बीच याद रखता है। अब बार-बार संदर्भ समझाने की जरूरत नहीं।
-
-[शुरू करें →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
-
-<details>
-<summary><b>Claude Code (अनुशंसित: प्लगइन)</b></summary>
-
-```sh
-npm install -g @redplanethq/corebrain
-```
-फिर Claude कोड में:
-
-
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
-
-क्लॉड कोड को पुनः प्रारंभ करें और प्रमाणित करने के लिए `/mcp` चलाएं।
-
-प्लगइन हर सत्र की शुरुआत में आपकी पर्सोना (प्राथमिकताएँ, नियम, निर्णय) को स्वतः लोड करता है और जब आप समाप्त करते हैं, तो वार्तालाप को मेमोरी में संग्रहीत कर लेता है।
-
-</details>
-
-<details>
-<summary><b>क्लॉड कोड (मैन्युअल एमसीपी)</b></summary>
-
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
-
-फिर `/mcp` टाइप करें और प्रमाणीकरण के लिए कोर-मेमोरी खोलें।
-
-</details>
-
-<details>
-<summary><b>कर्सर</b></summary>
-
-[![MCP सर्वर इंस्टॉल करें](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
-
-</details>
-
-<details>
-<summary><b>ओपनक्लॉ</b></summary>
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-
-अपने API कुंजी को पर्यावरण वेरिएबल या कॉन्फ़िग के माध्यम से सेट करें:
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-[app.getcore.me](https://app.getcore.me) → सेटिंग्स → API Key से अपनी API कुंजी प्राप्त करें।
-
-</details>
-
-<details>
-<summary><b>Claude Desktop</b></summary>
-
-1. MCP URL कॉपी करें: `https://app.getcore.me/api/v1/mcp?source=Claude`
-2. सेटिंग्स → कनेक्टर्स → कस्टम कनेक्टर जोड़ें पर जाएं
-3. "Connect" पर क्लिक करें और Claude को CORE एक्सेस करने की अनुमति दें
-
-</details>
-
-**30+ अन्य प्रदाता** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot, और बहुत कुछ। [सभी सेटअप गाइड देखें →](https://docs.getcore.me/providers/overview)
-
-### AI चैट्स को मेमोरी में बदलें
-
-अपने ChatGPT और Gemini संवादों को ब्राउज़र एक्सटेंशन के माध्यम से CORE में सिंक करें। खोजने योग्य, पुन: उपयोग योग्य, और हर जुड़े एजेंट के लिए उपलब्ध।
-
-[शुरुआत करें →](https://docs.getcore.me/quickstart/capture-conversations)
+CORE यह तय करता है कि वह क्या सुरक्षित रूप से कर सकता है, संवेदनशील क्रियाओं से पहले पूछता है, और एक ट्रेल छोड़ता है जिसे आप समीक्षा कर सकते हैं।
 
 ---
 
-## त्वरित शुरुआत
+## CORE क्रियान्वयन में
 
-### क्लाउड
+### कोडिंग कार्य सौंपें, वापस आकर PR देखें।
 
-1. **साइन अप करें** [app.getcore.me](https://app.getcore.me) पर
-2. **Gmail और कैलेंडर कनेक्ट करें** — CORE इन्हें स्कैन करता है ताकि आपका डिजिटल दिमाग पहले दिन से ही वास्तविक संदर्भ के साथ शुरू हो सके
-3. **प्रयोग शुरू करें** — CORE एजेंट से बात करें, अपने AI टूल्स कनेक्ट करें, या अपने ऐप्स में कार्य करें
+CORE को बताएं कि क्या करना है। यह आपके रेपो, ऐप्स, और मेमोरी से संदर्भ जुटाता है, एक योजना बनाता है, Claude Code या Codex सत्र चलाता है, जहाँ संभव हो अवरोधों को संभालता है, और एक PR लाता है। जब यह पूरा हो जाए, आप समीक्षा करें।
 
-### सेल्फ-होस्ट
+`[ ] चेकआउट फ्लो में रेस कंडीशन को issue #312 से ठीक करें`
 
-**त्वरित डिप्लॉय**
+### नींद में अपना बैकलॉग साफ करें।
+
+एक आवर्ती कार्य सेट करें ताकि निर्धारित समय पर बैकलॉग से खींच सके। CORE तब काम करता है जब आप ऑफ़लाइन होते हैं। सुचारू रन सुबह समीक्षा के लिए तैयार रहते हैं। रुकी हुई सत्रों में एक सटीक प्रश्न आता है, न कि रुकी हुई टैब।
+
+`[ ] आज रात का बैकलॉग 11pm से शुरू करके पूरा करें`
+
+### अलर्ट्स की जांच करें, रुकावट बनने से पहले।
+
+एक आवर्ती कार्य सेट करें ताकि Sentry, लॉग्स, या किसी भी अलर्ट स्रोत को देख सके। जब कुछ ट्रिगर होता है, CORE जांच करता है, संबंधित ट्रेस और पूर्व घटनाएँ खींचता है, और तय करता है कि इसे संभालना है या बढ़ाना है।
+
+Sentry अलर्ट 2am पर ट्रिगर होता है। CORE जांच करता है, समाधान का प्रस्ताव देता है, और समीक्षा के लिए आपको Slack पर पिंग करता है।
+
+### सुबह की ब्रीफिंग पाएं, जो आपके काम को जानती है।
+
+एक आवर्ती कार्य सेट करें ताकि हर सुबह ईमेल, GitHub, Linear, और Slack से खींच सके। CORE संक्षेप में बताता है कि क्या ध्यान देना है, क्या छोड़ना है, और फॉलो-अप्स को स्वतः कार्य में बदल देता है।
+
+### जहाँ भी हों, कार्य सौंपें।
+
+Slack, WhatsApp, Telegram, ईमेल, या वेब से कार्य बनाएं। गेटवे Docker या Railway में चलता रहता है, जिससे CORE कार्य उठा सकता है भले ही आपका लैपटॉप बंद हो।
+
+---
+
+## CORE के भीतर क्या है
+
+| | |
+|---|---|
+| **मेमोरी** | आपकी प्राथमिकताओं, निर्णयों, लक्ष्यों, और निर्देशों को हर टूल और बातचीत में ट्रैक करता है, जिससे हर कार्य का प्रारंभिक संदर्भ लोड हो जाता है। |
+| **कार्य** | एकबारगी या पुनरावृत्त कार्य इकाइयाँ, जिसमें आपकी विशिष्टता, CORE की योजना, लाइव स्थिति, और एक समर्पित चैट थ्रेड होती है। प्रत्येक कार्य कोडिंग या ब्राउज़र सत्र उत्पन्न कर सकता है। |
+| **स्क्रैचपैड** | कार्यों, विचारों, और प्रगति में कार्य के लिए एक दैनिक पृष्ठ। कहीं भी `[ ]` टाइप करें और CORE इसे 3 मिनट के भीतर उठा लेता है। |
+| **कनेक्टर्स** | एक MCP एंडपॉइंट के माध्यम से 50+ ऐप्स, साथ ही सक्रिय ऑटोमेशन के लिए वेबहुक ट्रिगर। GitHub, Linear, Jira, Slack, Gmail, Calendar, Sentry, Granola, Todoist और बहुत कुछ। |
+| **स्किल्स** | 100+ पुनः उपयोग योग्य निर्देश जो संदर्भ के आधार पर स्वचालित रूप से लागू होते हैं। बिल्ट-इन स्किल्स का उपयोग करें या दोहराए जाने वाले वर्कफ़्लो के लिए अपने खुद के लिखें। |
+| **गेटवे** | Claude Code, Codex, ब्राउज़र एजेंट्स, और लोकल कमांड्स को आपके मशीन या Docker / Railway में चलाता है, ताकि CORE तब भी काम करता रहे जब आपका लैपटॉप बंद हो। |
+| **मॉडल एग्नॉस्टिक** | अपनी पसंद का प्रदाता लाएँ: Anthropic, OpenAI, या ओपन-वेट मॉडल। पृथकता के लिए पूरे स्टैक को स्वयं-होस्ट करें। |
+
+---
+
+## CORE क्या नहीं है
+
+| | |
+|---|---|
+| **RAG रैपर नहीं है।** | मेमोरी केवल एम्बेडेड टुकड़े नहीं है। यह एक नॉलेज ग्राफ है जो ट्रैक करता है कि आपने क्या निर्णय लिया, कब और क्यों। |
+| **वर्कफ़्लो बिल्डर नहीं है।** | कोई ड्रैग-एंड-ड्रॉप DAG नहीं। आप लिखते हैं कि क्या करना है। CORE वर्कफ़्लो समझता है और जब निर्णय की ज़रूरत हो तब पूछता है। |
+| **देविन जैसा दूसरा नहीं है।** | CORE योजनाएँ प्रस्तावित करता है, आप स्वीकृत करते हैं। CORE अनब्लॉक के लिए पूछता है, आप निर्णय लेते हैं। CORE PRs लाता है, आप समीक्षा करते हैं। एजेंट्स अपने आप मर्ज नहीं करते। |
+| **क्लोज्ड क्लाउड असिस्टेंट नहीं है।** | CORE ओपन सोर्स, स्वयं-होस्ट करने योग्य, मॉडल-एग्नॉस्टिक है, और आपके इंफ्रास्ट्रक्चर के अनुरूप डिज़ाइन किया गया है। |
+
+---
+
+## क्विकस्टार्ट
+
+ओपन सोर्स और स्वयं-होस्टेड। आपका डेटा आपके इंफ्रास्ट्रक्चर में ही रहता है।
+
+**CORE इंस्टॉल करें और शुरू करें:**
+
+```bash
+npm install -g @redplanethq/corebrain && corebrain setup
+```
+सेटअप विज़ार्ड आपसे इंस्टॉल डायरेक्टरी, एआई प्रदाता, एपीआई कुंजी, और चैट मॉडल पूछता है। यह सीक्रेट्स जेनरेट करता है, स्टैक शुरू करता है, और `http://localhost:3033` खोलता है।
+
+अधिकांश लोकल इंस्टॉलेशन में, एक बार डॉकर चालू हो जाने पर कुछ ही मिनट लगते हैं।
+
+**या Railway पर डिप्लॉय करें:**
 
 [![Railway पर डिप्लॉय करें](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
-**या Docker के साथ**
+**एक गेटवे कनेक्ट करें** ताकि CORE आपका ब्राउज़र चला सके, कोडिंग एजेंट्स चला सके, और लोकल फोल्डर्स तक पहुंच सके:
 
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+corebrain login
+corebrain gateway setup
 ```
 
-[पूरा सेल्फ-होस्टिंग गाइड देखें →](https://docs.getcore.me/self-hosting/docker)
+**आवश्यकताएँ:** Docker 20.10+, Docker Compose 2.20+, 4 vCPU / 8GB RAM
 
----
+[पूर्ण सेल्फ-होस्टिंग गाइड](https://docs.getcore.me/self-hosting/setup)
 
-## एजेंट बिल्डरों के लिए
-
-एआई एजेंट बना रहे हैं? मेमोरी और इंटीग्रेशन को CORE पर ऑफलोड करें ताकि आप अपने एजेंट की लॉजिक पर ध्यान दे सकें।
-
-- **मेमोरी ऑफलोड करें** — CORE का टेम्पोरल नॉलेज ग्राफ आपके एजेंट की लॉन्ग-टर्म मेमोरी के रूप में इस्तेमाल करें। बातचीत स्टोर करें, इंटेंट-ड्रिवन सर्च के साथ कॉन्टेक्स्ट प्राप्त करें, और अपने एजेंट को समय के साथ ज्ञान बनाने दें बिना अपनी वेक्टर DB या ग्राफ को मैनेज किए।
-- **इंटीग्रेशन ऑफलोड करें** — CORE में एक बार ऐप्स कनेक्ट करें, और आपके एजेंट को MCP टूल्स सभी के लिए मिल जाते हैं। कोई OAuth फ्लो बनाने की जरूरत नहीं, कोई API मेंटेनेंस नहीं, कोई पर-इंटीग्रेशन कोड नहीं।
-- **MCP या API के माध्यम से बिल्ड करें** — अपने एजेंट को MCP (सिंगल एंडपॉइंट) के माध्यम से CORE से कनेक्ट करें या सीधे REST API का उपयोग करें।
-
-**उदाहरण परियोजनाएँ**
-
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — मेमोरी और Linear/GitHub सिंक के साथ टास्क मैनेजर एजेंट
-- [**holo**](https://github.com/RedPlanetHQ/holo) — अपनी CORE मेमोरी को चैट के साथ व्यक्तिगत वेबसाइट में बदलें
-
-[API रेफरेंस →](https://docs.getcore.me/api-reference) · [SDK डॉक्यूमेंटेशन →](https://docs.getcore.me)
+> Mac ऐप चाहिए? वेटलिस्ट में शामिल हों [getcore.me](https://www.getcore.me/) पर।
 
 ---
 
 ## बेंचमार्क
 
-CORE ने LoCoMo बेंचमार्क पर सिंगल-हॉप, मल्टी-हॉप, ओपन-डोमेन और टेम्पोरल रीजनिंग टास्क्स में **88.24%** औसत सटीकता हासिल की है।
+CORE ने [LoCoMo बेंचमार्क](https://github.com/RedPlanetHQ/core-benchmark) पर सिंगल-हॉप, मल्टी-हॉप, ओपन-डोमेन, और टेम्पोरल रीजनिंग में **88.24%** औसत सटीकता प्राप्त की है।
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+---
 
-[बेंचमार्क मेथोडोलॉजी और परिणाम देखें →](https://github.com/RedPlanetHQ/core-benchmark)
+## हमारा विश्वास
+
+- चैट एक इंटरफ़ेस है, ऑपरेटिंग सिस्टम नहीं।
+- स्मृति के बिना बुद्धिमत्ता केवल सामान्य ज्ञान है।
+- आपका एआई हर टूल में आपको पहचाने, न कि सिर्फ मौजूदा टैब में।
+- काम आपकी मंशा से क्रिया तक बिना आपके जोड़ बनने के पहुँचे।
+- जवाबदेही के बिना ऑटोमेशन केवल अराजकता है।
+
+---
+
+## दस्तावेज़
+
+- [**मेमोरी**](https://docs.getcore.me/memory/overview) - टेम्पोरल नॉलेज ग्राफ, तथ्य वर्गीकरण, मंशा-आधारित पुनर्प्राप्ति
+- [**स्क्रैचपैड**](https://docs.getcore.me/concepts/scratchpad) - वह दैनिक सतह जहाँ कार्य और विचार शुरू होते हैं
+- [**कार्य**](https://docs.getcore.me/concepts/tasks) - योजनाएँ, स्थिति, पुनरावृत्त कार्य, और कार्य-सीमित संदर्भ
+- [**टूलकिट**](https://docs.getcore.me/concepts/toolkit) - MCP के माध्यम से 50+ ऐप्स में 1000+ क्रियाएँ
+- [**CORE एजेंट**](https://docs.getcore.me/concepts/meta-agent) - ट्रिगर, मेमोरी, टूल्स, और निष्पादन
+- [**गेटवे**](https://docs.getcore.me/access-core/overview) - WhatsApp, Slack, Telegram, ईमेल, वेब, और API एक्सेस
+- [**स्किल्स**](https://docs.getcore.me/skills/overview) - पुन: उपयोग योग्य निर्देश दोहराए जाने योग्य कार्यप्रवाह के लिए
+- [**सेल्फ-होस्टिंग**](https://docs.getcore.me/self-hosting/setup) - पूर्ण डिप्लॉयमेंट गाइड
+- [**चेंजलॉग**](https://docs.getcore.me/opensource/changelog) - क्या जारी हुआ है
 
 ---
 
 ## सुरक्षा
-
-CASA टियर 2 प्रमाणित — गूगल के OAuth आवश्यकताओं को पूरा करने के लिए तृतीय-पक्ष ऑडिट किया गया।
-
-- एन्क्रिप्शन: TLS 1.3 (ट्रांजिट) + AES-256 (रेस्ट)
-- वर्कस्पेस-आधारित आइसोलेशन, रोल-आधारित परमिशन
-- आपके डेटा का कभी भी एआई मॉडल प्रशिक्षण में उपयोग नहीं किया जाता
-- पूर्ण आइसोलेशन के लिए सेल्फ-होस्टिंग विकल्प
-[सुरक्षा नीति →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · भेद्यता रिपोर्टिंग: harshith@poozle.dev
-
----
-
-## प्रलेखन
-
-- [स्वागत](https://docs.getcore.me/introduction) — CORE का परिचय
-- [अवधारणाएँ](https://docs.getcore.me/concepts/overview) — मेमोरी, एजेंट, और टूलकिट समझाया गया
-- [कनेक्ट](https://docs.getcore.me/access-core/overview) — चैनल और AI प्रदाता
-- [टूलकिट](https://docs.getcore.me/toolkit/overview) — क्रियाएँ और एकीकरण
-- [ओपन सोर्स](https://docs.getcore.me/guides/local-setup) — स्थानीय सेटअप, योगदान, स्वयं-होस्टिंग
-- [API संदर्भ](https://docs.getcore.me/api-reference) — REST API और एंडपॉइंट्स
-- [चेंजलॉग](https://docs.getcore.me/opensource/changelog) — उत्पाद अपडेट
+- CASA टियर 2 प्रमाणित
+- ट्रांज़िट में TLS 1.3
+- विश्राम में AES-256
+- आपके डेटा का मॉडल प्रशिक्षण में कभी उपयोग नहीं होता है
+- पूर्ण अलगाव के लिए स्वयं-होस्टिंग करें
+- [सुरक्षा नीति](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- कमजोरियां: harshith@poozle.dev
 
 ---
 
-## सहायता
+## समुदाय
 
-- डिस्कॉर्ड: [core-support चैनल से जुड़ें](https://discord.gg/YGUZcvDjUa)
-- प्रलेखन: [docs.getcore.me](https://docs.getcore.me)
-- ईमेल: manik@poozle.dev
+हम सार्वजनिक रूप से CORE बना रहे हैं।
 
-## योगदानकर्ता
+हम रोडमैप और आर्किटेक्चरल निर्णय खुले रूप में साझा करते हैं क्योंकि व्यक्तिगत OS बनाने की सबसे कठिन समस्याएं उसके उपयोगकर्ताओं के साथ मिलकर सबसे अच्छे ढंग से हल होती हैं। रिपो को स्टार करें, स्वयं-होस्ट करें, जो बनाएं उसे साझा करें, और जो टूटा या गायब है उसके लिए इश्यू खोलें।
+
+- [Discord](https://discord.gg/YGUZcvDjUa) - प्रश्न, विचार, शो-एंड-टेल
+- [योगदान दस्तावेज़](https://docs.getcore.me/opensource/contributing) - CORE में योगदान कैसे करें
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - यहां से शुरू करें
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
+---
+
+<div align="center">
+
+**अपने व्यक्तिगत AI OS को स्वयं-होस्ट करें।**
+
+[इस रिपो को स्टार करें](https://github.com/RedPlanetHQ/core) · [दस्तावेज़ पढ़ें](https://docs.getcore.me) · [Discord से जुड़ें](https://discord.gg/YGUZcvDjUa)
+
+</div>
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

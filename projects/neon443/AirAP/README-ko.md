@@ -39,7 +39,7 @@
         <br/>
 
         <a href="https://neon443.github.io">
-            만든이: neon443
+            제작자: neon443
         </a>
     </p>
     <p>
@@ -58,23 +58,33 @@
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="스타 히스토리 차트" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP는 iOS용으로 Swift로 작성된 완전한 네이티브 AirPlay 서버입니다. 본질적으로 AirAP를 사용하면 iTunes나 Mac에서 iPhone을 AirPlay 수신기로 사용할 수 있어, iPhone으로 기기의 소리를 재생할 수 있습니다.
+AirAP는 Swift로 작성된 완전한 네이티브 AirPlay 서버로, iOS에서 동작합니다. 기본적으로 AirAP를 사용하면 iTunes나 Mac에서 iPhone을 AirPlay 수신기로 사용할 수 있어, iPhone으로 기기의 사운드를 재생할 수 있습니다.
 
-## AirAP란?
+## AirAP란 무엇인가요?
 
-Mac, Apple TV 또는 다른 iOS 기기에서 iPhone으로 오디오를 스트리밍하고 싶었던 적이 있나요? AirAP는 iOS에서 네이티브로 동작하는 완전한 AirPlay 서버를 구현하여 이를 가능하게 합니다. 설치 후, iPhone은 시스템 환경설정의 오디오 패널, 음악 앱 또는 다른 AirPlay 호환 앱에서 AirPlay 대상으로 표시됩니다.
+Mac, Apple TV, 또는 다른 iOS 기기에서 오디오를 iPhone으로 스트리밍하고 싶었던 적 있으신가요? AirAP는 iOS에서 네이티브로 실행되는 완전한 AirPlay 서버를 구현하여 이 가능성을 제공합니다. 설치 후, iPhone은 시스템 환경설정의 오디오 패널, Music.app, 또는 기타 AirPlay 호환 앱에서 AirPlay 목적지로 표시됩니다.
 
-처음에는 컨셉이 역설적으로 느껴질 수 있습니다. 보통 우리는 iPhone에서 다른 기기로 스트리밍하는 것에 익숙하니까요. 하지만 반대로 하고 싶은 상황이 의외로 많습니다. 예를 들어, 밤늦게 Mac으로 작업하면서 오디오를 iPhone과 헤드폰으로 듣고 싶을 수 있습니다(안녕하세요 👋). 또는 오디오 앱을 테스트하는 개발자라서 여러 출력 기기를 빠르게 전환해야 할 수도 있습니다. 아니면 오래된 유선 스피커를 재활용하고 싶을 수도 있고요.
+처음에는 이 개념이 다소 역설적으로 보일 수 있습니다. 우리는 대개 iPhone에서 다른 기기로 스트리밍하는 것에 익숙하니까요. 하지만 반대로 하고 싶은 상황이 생각보다 많습니다. 예를 들어, 밤늦게 Mac에서 작업하면서 오디오를 헤드폰이 연결된 iPhone으로 전송해 다른 사람을 방해하지 않으려 할 때(안녕하세요 👋), 오디오 앱을 개발하며 빠르게 출력 기기를 변경해야 할 때, 또는 오래된 유선 스피커를 재활용하고 싶을 때 등 다양한 활용이 가능합니다.
 
-## AirAP 설치하기
+## AirAP 설치
 
-[이 TestFlight 링크를 열어서](https://testflight.apple.com/join/8aeqD8Q2) AirAP를 설치하고 안내에 따라 진행하세요. 설치 후 AirAP를 실행하고, iPhone이 스트리밍하려는 기기와 같은 Wi-Fi 네트워크에 연결되어 있는지 확인하세요. iPhone은 자동으로 AirPlay 기기 목록에 나타나며 오디오 수신 준비가 완료됩니다. 만약 보이지 않는다면 앱을 재시작해보세요.
+시험해 보려면 [이 TestFlight 링크](https://testflight.apple.com/join/8aeqD8Q2)를 열고 AirAP를 설치한 후 안내에 따라 진행하세요. 설치가 완료되면 AirAP를 실행하고, iPhone이 오디오를 스트리밍하려는 기기와 동일한 Wi-Fi 네트워크에 연결되어 있는지 확인하세요. iPhone은 자동으로 AirPlay 기기 목록에 나타나 오디오를 받을 준비가 됩니다. 만약 나타나지 않는다면 앱을 다시 시작해 보세요.
 
 ## 컴파일하기
 
-[homebrew](https://brew.sh)가 설치되어 있는지 확인하세요
+[homebrew](https://brew.sh)가 설치되어 있는지 확인하세요.
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

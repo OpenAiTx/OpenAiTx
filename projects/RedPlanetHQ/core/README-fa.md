@@ -3,26 +3,26 @@
     <summary >🌐 زبان</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">انگلیسی</a>
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">ژاپنی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">کره‌ای</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">هندی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">تایلندی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">فرانسوی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">آلمانی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">اسپانیایی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">ایتالیایی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">روسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">پرتغالی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">هلندی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">لهستانی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">ترکی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">ویتنامی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">اندونزیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
@@ -30,30 +30,16 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img width="200px" alt="آرم CORE" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
+    <img width="200px" alt="لوگوی CORE" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE: مغز دیجیتال شما
+# سیستم عامل هوش مصنوعی شخصی شما.
 
-**به یاد می‌سپارد. فکر می‌کند. عمل می‌کند**
+**سیستم عامل خود را اجرا کنید.** کار شما را زیر نظر دارد. آنچه مهم است را به خاطر می‌سپارد. در سراسر ابزارها و عامل‌های شما عمل می‌کند. متن‌باز، قابل میزبانی شخصی، و برای همیشه متعلق به شما.
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="افزودن به Claude Code" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="افزودن به Cursor" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="افزودن به OpenClaw" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="راه‌اندازی در Railway" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="وبسایت" />
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="وب‌سایت" />
     </a>
     <a href="https://docs.getcore.me">
         <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="مستندات" />
@@ -61,246 +47,200 @@
     <a href="https://discord.gg/YGUZcvDjUa">
         <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="دیسکورد" />
     </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="لایسنس: AGPL 3.0" />
+    </a>
 </p>
 </div>
 
 ---
 
-CORE مغز دیجیتال شماست - یک هوش مصنوعی یکپارچه و همیشه فعال که زمینه شما را به خاطر می‌سپارد، با ایجنت‌های هوش مصنوعی شما کار می‌کند و در ابزارهایتان اقدام می‌کند.
+## نحوه عملکرد را ببینید
 
-متن‌باز. قابل میزبانی توسط خودتان. داده‌های شما، کنترل شما.
+تماشا کنید که CORE چگونه دو کار برنامه‌نویسی را به صورت کامل انجام می‌دهد:
 
----
-
-## مغز دیجیتال چه ویژگی‌هایی دارد
-
-### همه چیز را به خاطر می‌سپارد
-
-هر گفتگو، تصمیم، ترجیح و رابطه‌ای به صورت دانش ساخت‌یافته در یک گراف دانش زمانی ذخیره می‌شود. نه متن خام بلکه حقایق طبقه‌بندی شده (ترجیحات، تصمیمات، اهداف، دستورات) که دقیقاً زمانی که نیاز دارید نمایش داده می‌شوند. اگر درباره چیزی از چند هفته پیش سوال کنید، پاسخ با تمام زمینه‌ها موجود است.
-
-[درباره حافظه بیشتر بدانید →](https://docs.getcore.me/concepts/memory/overview)
-
-### می‌تواند اقدام کند
-
-مسائل GitHub ایجاد کنید، پیام‌های Slack ارسال کنید، تقویم خود را بدون ترک مکالمه مدیریت کنید. حتی گردش‌کارهای پیچیده و چندمرحله‌ای: از عامل کدنویسی خود بخواهید Sentry را برای خطاهای جدید بررسی کند، برای هرکدام یک مسئله GitHub بسازد، مهندس مناسب را بر اساس git blame تعیین کند و خلاصه‌ای را در کانال Slack تیم شما ارسال کند؛ همه این‌ها تنها با یک درخواست. بیش از ۲۰۰ اقدام در بیش از ۵۰ برنامه از طریق یک نقطه اتصال.
-
-[درباره Toolkit بیشتر بدانید →](https://docs.getcore.me/concepts/toolkit)
-
-### در سراسر سیستم‌ها فکر و کار می‌کند
-
-ابزارهای شما جدا از هم هستند. Claude Code نمی‌تواند با WhatsApp شما صحبت کند. Cursor نمی‌تواند تقویم شما را بررسی کند. عامل CORE این دیوارها را می‌شکند - این هماهنگ‌کننده‌ای است که حافظه، toolkit و برنامه‌های شما را به هم متصل می‌کند.
-
-کارهایی که عامل CORE می‌تواند انجام دهد:
-
-- **درک نیت**: آنچه نیاز دارید را طبقه‌بندی کرده و به ابزارها و حافظه صحیح ارجاع می‌دهد
-- **ایجاد عوامل دیگر**: یک جلسه Claude Code یا مرورگر را از WhatsApp برای رفع اشکال یا تحقیق ایجاد می‌کند
-- **هماهنگی گردش‌کارهای چندمرحله‌ای**: زمینه را از حافظه می‌گیرد، در چندین برنامه اقدام می‌کند و گزارش می‌دهد
-- **کار از هر مکانی**: پیام از WhatsApp، ایمیل، Slack یا داشبورد وب — یک مغز، یک زمینه
-
-[درباره CORE Agent بیشتر بدانید →](https://docs.getcore.me/concepts/meta-agent)
-
-### می‌تواند به صورت پیش‌فعالانه عمل کند
-
-نباید مجبور باشید برای هر چیز درخواست کنید. CORE رویدادها را پایش می‌کند - ایمیل‌های جدید، هشدارهای GitHub، تغییرات تقویم — و آن‌ها را نسبت به دانسته‌هایش درباره شما ارزیابی می‌کند. یک ایمیل مشتری می‌رسد؛ CORE قبلاً می‌داند چگونه آن رابطه را مدیریت می‌کنید و پاسخ مناسب را پیش‌نویس می‌کند. یک هشدار Sentry در شب فعال می‌شود؛ CORE یک جلسه Claude Code برای بررسی راه‌اندازی می‌کند.
-
-[درباره مفاهیم بیشتر بدانید →](https://docs.getcore.me/concepts/overview)
+[![دموی CORE](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## معماری
+## CORE چیست
 
-CORE بر سه لایه ساخته شده که این چهار ستون را پیاده‌سازی می‌کند:
+CORE لایه عملیاتی متن‌باز برای کار بومی با هوش مصنوعی است.
 
-- **حافظه**: یک گراف دانش زمانی که اپیزودها، موجودیت‌ها و حقایق طبقه‌بندی‌شده را ذخیره می‌کند. هر قطعه اطلاعات دسته‌بندی می‌شود (ترجیحات، تصمیم، دستورالعمل، هدف و غیره) و در طول زمان متصل می‌گردد. این همان چیزی است که بازیابی را مبتنی بر نیت و نه کلمه کلیدی می‌کند. [مستندات →](https://docs.getcore.me/concepts/memory/overview)
+شما کاری که باید انجام شود را در یک صفحه یادداشت می‌نویسید. CORE وظیفه را برمی‌دارد، زمینه را از حافظه و برنامه‌های متصل بارگذاری می‌کند، یک برنامه تهیه می‌کند، عامل مناسب را از طریق گیت‌وی اجرا می‌کند، موانع را در صورت امکان مدیریت می‌کند و زمانی که نیاز به قضاوت انسانی باشد بازمی‌گردد.
 
-- **Toolkit**: یک لایه اقدامات یکپارچه برای هر عامل سازگار با MCP. برنامه‌های خود را یک‌بار متصل کنید (GitHub، Linear، Slack، Gmail، Calendar و غیره) و هر ابزار هوش مصنوعی متصل به بیش از ۲۰۰ اقدام از طریق یک نقطه دسترسی دارد. [مستندات →](https://docs.getcore.me/toolkit/overview)
+این یک چت‌بات نیست که مدام به آن دستور دهید. این لایه‌ای است که به خاطر می‌سپارد، هماهنگ می‌کند، عمل می‌کند و در صورت نیاز کار را به سطوح بالاتر ارجاع می‌دهد.
 
-- **عامل CORE**: هماهنگ‌کننده‌ای که حافظه و toolkit را به هم متصل می‌کند. نیت را درک می‌کند، در حافظه جستجو می‌کند، ابزارها را انتخاب می‌کند، عوامل دیگر را ایجاد می‌کند و می‌تواند بر اساس محرک‌ها و قوانین به صورت پیش‌فعالانه عمل کند. [مستندات →](https://docs.getcore.me/concepts/meta-agent)
+### معماری
+
+| | |
+|---|---|
+| **نظارت می‌کند** | زمینه را از گفتگوهای هوش مصنوعی شما از طریق MCP، بیش از ۵۰ برنامه متصل، و در مک، هر برنامه‌ای که به صراحت دسترسی داده‌اید، دریافت می‌کند. |
+| **به خاطر می‌سپارد** | یک گراف دانشی که نه فقط آنچه گفته‌اید، بلکه تصمیمات، زمان و دلیل آن‌ها را در هر ابزار و مکالمه‌ای پیگیری می‌کند. |
+| **عمل می‌کند** | اقدامات مستقیم در برنامه‌های متصل شما انجام می‌دهد و کارهای طولانی‌تر را از طریق گیت‌وی به عوامل برنامه‌نویسی و مرورگر واگذار می‌کند. |
+| **سیاست‌ها** | جریان‌های تایید، قوانین تصعید، برنامه‌ها و گزارش‌های حسابرسی تا استقلال همراه با پاسخگویی باشد. |
+
+CORE تصمیم می‌گیرد چه کارهایی را می‌تواند با اطمینان انجام دهد، قبل از اقدامات حساس اجازه می‌گیرد و اثری قابل بررسی باقی می‌گذارد.
 
 ---
 
-## آنچه می‌توانید انجام دهید
+## CORE در عمل
 
-### استفاده به عنوان دستیار شخصی
+### واگذاری یک وظیفه کدنویسی، بازگشت به یک PR.
 
-از طریق واتساپ، ایمیل یا داشبورد وب با CORE صحبت کنید. این سیستم اقدامات را در اپلیکیشن‌های شما انجام می‌دهد، برنامه شما را مدیریت می‌کند، ایمیل‌ها را پیش‌نویس می‌کند، و همه با حافظه‌ای از اینکه شما چه کسی هستید و چگونه کار می‌کنید.
+به CORE بگویید چه کاری باید انجام شود. زمینه را از مخزن شما، اپلیکیشن‌ها و حافظه جمع‌آوری می‌کند، برنامه‌ای می‌نویسد، یک جلسه Claude Code یا Codex اجرا می‌کند، موانع را تا جایی که ممکن است برطرف می‌کند و یک PR ارائه می‌دهد. شما در پایان کار آن را بازبینی می‌کنید.
 
-[شروع کنید →](https://docs.getcore.me/quickstart/chief-of-staff)
+`[ ] رفع مشکل رقابت در روند پرداخت از issue شماره ۳۱۲`
 
-### تقویت عامل‌های هوش مصنوعی خود
+### پاک‌سازی عقب‌افتادگی‌هایتان در حالی که خواب هستید.
 
-به Claude Code، Cursor و دیگر ابزارهای هوش مصنوعی حافظه دائمی و قابلیت انجام اقدامات بدهید. عامل کدنویسی شما معماری پروژه، تصمیمات گذشته و ترجیحات را در جلسات مختلف به خاطر می‌سپارد. دیگر نیازی به توضیح مجدد زمینه نیست.
+یک کار زمان‌بندی‌شده برای برداشت از عقب‌افتادگی‌هایتان در زمانی معین تنظیم کنید. CORE در حالی که شما آفلاین هستید، کار را انجام می‌دهد. اجرای روان صبح منتظر بازبینی شماست. جلسات گیر کرده با یک سوال دقیق برمی‌گردند، نه یک تب متوقف شده.
 
-[شروع کنید →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
+`[ ] رسیدگی به عقب‌افتادگی امشب از ساعت ۱۱ شب`
 
-<details>
-<summary><b>Claude Code (توصیه‌شده: افزونه)</b></summary>
+### بررسی هشدارها قبل از تبدیل شدن به مزاحمت.
 
-```sh
-npm install -g @redplanethq/corebrain
-```
-سپس در کد کلود:
+یک کار زمان‌بندی‌شده برای مشاهده Sentry، لاگ‌ها یا هر منبع هشدار دیگر تنظیم کنید. وقتی هشداری فعال شد، CORE تحقیق می‌کند، ردپاها و رخدادهای قبلی مرتبط را جمع می‌کند و تصمیم می‌گیرد که خود رسیدگی کند یا تصعید دهد.
 
+یک هشدار Sentry ساعت ۲ بامداد فعال می‌شود. CORE بررسی می‌کند، راه‌حلی پیشنهاد می‌دهد و برای بازبینی به شما در Slack پیام می‌دهد.
 
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
+### دریافت گزارش صبحگاهی که کار شما را می‌داند.
 
-کد کلود را ریستارت کنید و دستور `/mcp` را اجرا کنید تا احراز هویت انجام شود.
+یک کار زمان‌بندی‌شده برای جمع‌آوری از ایمیل، GitHub، Linear و Slack هر صبح تنظیم کنید. CORE موارد نیازمند توجه را خلاصه می‌کند، موارد غیرضروری را کنار می‌گذارد و پیگیری‌ها را به طور خودکار به وظیفه تبدیل می‌کند.
 
-افزونه به صورت خودکار شخصیت شما (ترجیحات، قوانین، تصمیمات) را در ابتدای هر جلسه بارگذاری می‌کند و پس از پایان گفتگوها را به حافظه می‌سپارد.
+### واگذاری کار از هر جایی که هستید.
 
-</details>
+ایجاد وظیفه از Slack، واتساپ، تلگرام، ایمیل یا وب. درگاه در Docker یا Railway اجرا می‌شود، بنابراین CORE حتی زمانی که لپ‌تاپ شما بسته است، می‌تواند کار را بردارد.
 
-<details>
-<summary><b>کد کلود (MCP دستی)</b></summary>
+---
 
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
-سپس دستور `/mcp` را وارد کنید و core-memory را برای احراز هویت باز کنید.
+## چه چیزی درون CORE است
 
-</details>
+| | |
+|---|---|
+| **حافظه** | ترجیحات، تصمیمات، اهداف و دستورالعمل‌های شما را در تمام ابزارها و گفتگوها دنبال می‌کند، تا هر وظیفه با بارگذاری زمینه آغاز شود. |
+| **وظایف** | واحدهای کاری یک‌باره یا تکرارشونده با مشخصات شما، برنامه CORE، وضعیت زنده و یک رشته گفتگو اختصاصی. هر وظیفه می‌تواند نشست‌های کدنویسی یا مرورگر ایجاد کند. |
+| **دفترچه** | صفحه روزانه برای وظایف، ایده‌ها و کارهای در حال پیشرفت. هر جا `[ ]` تایپ کنید، CORE ظرف ۳ دقیقه آن را دریافت می‌کند. |
+| **اتصال‌دهنده‌ها** | بیش از ۵۰ برنامه از طریق یک نقطه انتهایی MCP، به‌علاوه محرک‌های وب‌هوک برای اتوماسیون پیش‌دستانه. GitHub، Linear، Jira، Slack، Gmail، Calendar، Sentry، Granola، Todoist و موارد دیگر. |
+| **مهارت‌ها** | بیش از ۱۰۰ دستور قابل استفاده مجدد که به طور خودکار بر اساس زمینه اعمال می‌شوند. از مهارت‌های داخلی استفاده کنید یا مهارت‌های خودتان را برای گردش‌های کاری تکرارشونده بنویسید. |
+| **درگاه** | کد Claude، Codex، عامل‌های مرورگر و فرمان‌های محلی را روی دستگاه شما یا در Docker / Railway اجرا می‌کند، تا CORE حتی زمانی که لپ‌تاپ بسته است، به کار ادامه دهد. |
+| **مدل‌پذیر** | ارائه‌دهنده دلخواه خود را بیاورید: Anthropic، OpenAI یا مدل‌های open-weight. کل سامانه را برای ایزوله‌سازی خود میزبانی کنید. |
 
-<details>
-<summary><b>کرسر</b></summary>
+---
 
-[![نصب MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
+## CORE چه نیست
 
-</details>
-
-<details>
-<summary><b>OpenClaw</b></summary>
-
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-کلید API خود را از طریق متغیر محیطی یا پیکربندی تنظیم کنید:
-
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-کلید API خود را از [app.getcore.me](https://app.getcore.me) → تنظیمات → کلید API دریافت کنید.
-
-</details>
-
-<details>
-<summary><b>Claude Desktop</b></summary>
-
-1. آدرس MCP را کپی کنید: `https://app.getcore.me/api/v1/mcp?source=Claude`
-2. به تنظیمات → کانکتورها → افزودن کانکتور سفارشی بروید
-3. روی "Connect" کلیک کنید و به Claude اجازه دهید به CORE دسترسی داشته باشد
-
-</details>
-
-**بیش از ۳۰ ارائه‌دهنده دیگر** — Windsurf، VS Code، Cline، Codex، Gemini CLI، Copilot و غیره. [همه راهنماهای راه‌اندازی را ببینید →](https://docs.getcore.me/providers/overview)
-
-### تبدیل گفت‌وگوهای هوش مصنوعی به حافظه
-
-گفت‌وگوهای ChatGPT و Gemini خود را از طریق افزونه مرورگر به CORE همگام کنید. قابل جستجو، قابل استفاده مجدد و در دسترس برای هر عامل متصل.
-
-[شروع کنید →](https://docs.getcore.me/quickstart/capture-conversations)
+| | |
+|---|---|
+| **نه یک RAG Wrapper.** | حافظه فقط قطعه‌های جاسازی‌شده نیست. یک نمودار دانش است که ثبت می‌کند چه تصمیمی گرفتید، چه زمانی و چرا. |
+| **نه یک سازنده گردش کار.** | بدون DAGهای کشیدن و رها کردن. شما می‌نویسید چه باید انجام شود. CORE گردش کار را مشخص می‌کند و وقتی نیاز به قضاوت دارد، می‌پرسد. |
+| **نه یک Devin دیگر.** | CORE برنامه‌ها را پیشنهاد می‌دهد، شما تأیید می‌کنید. CORE برای رفع موانع می‌پرسد، شما تصمیم می‌گیرید. CORE PRها را برمی‌گرداند، شما بررسی می‌کنید. عامل‌ها خودشان ادغام نمی‌کنند. |
+| **نه یک دستیار ابری بسته.** | CORE متن‌باز، قابل میزبانی توسط خود، مدل‌پذیر و طراحی‌شده حول زیرساخت شماست. |
 
 ---
 
 ## شروع سریع
 
-### فضای ابری
+متن‌باز و قابل میزبانی توسط خود. داده‌های شما در زیرساخت خودتان باقی می‌ماند.
 
-1. **ثبت‌نام** در [app.getcore.me](https://app.getcore.me)
-2. **اتصال جیمیل و تقویم** — CORE آن‌ها را اسکن می‌کند تا درباره شما یاد بگیرد و مغز دیجیتال شما از روز اول با زمینه واقعی شروع می‌شود
-3. **شروع استفاده** — با عامل CORE صحبت کنید، ابزارهای هوش مصنوعی خود را متصل کنید یا در برنامه‌های خود اقدام کنید
+**CORE را نصب و راه‌اندازی کنید:**
 
-### میزبانی شخصی
+```bash
+npm install -g @redplanethq/corebrain && corebrain setup
+```
 
-**استقرار سریع**
+جادوی راه‌اندازی از شما می‌خواهد که یک پوشه نصب، ارائه‌دهنده هوش مصنوعی، کلید API و مدل چت را مشخص کنید. سپس رمزها را تولید می‌کند، استک را راه‌اندازی می‌کند و صفحه `http://localhost:3033` را باز می‌کند.
+
+اکثر نصب‌های محلی، پس از اجرای داکر، چند دقیقه زمان می‌برند.
+
+**یا روی Railway استقرار دهید:**
 
 [![استقرار روی Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
-**یا با داکر**
-
+**یک درگاه متصل کنید** تا CORE بتواند مرورگر شما را کنترل کند، ایجنت‌های کدنویسی را اجرا کند و به پوشه‌های محلی دسترسی داشته باشد:
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+corebrain login
+corebrain gateway setup
 ```
-[راهنمای کامل میزبانی شخصی را مشاهده کنید →](https://docs.getcore.me/self-hosting/docker)
+
+**نیازمندی‌ها:** داکر ۲۰.۱۰+، داکر کامپوز ۲.۲۰+، ۴ هسته پردازشی / ۸ گیگابایت رم
+
+[راهنمای کامل میزبانی شخصی](https://docs.getcore.me/self-hosting/setup)
+
+> اپلیکیشن مک را می‌خواهید؟ در لیست انتظار در [getcore.me](https://www.getcore.me/) ثبت‌نام کنید.
 
 ---
 
-## برای سازندگان ایجنت
+## معیار سنجش
 
-در حال ساخت ایجنت‌های هوش مصنوعی هستید؟ حافظه و یکپارچه‌سازی‌ها را به CORE بسپارید تا بتوانید روی منطق ایجنت خود تمرکز کنید.
-
-- **حافظه را برون‌سپاری کنید** — از گراف دانش زمانی CORE به‌عنوان حافظه بلندمدت ایجنت خود استفاده کنید. مکالمات را ذخیره کنید، با جستجوی مبتنی بر نیت، زمینه را بازیابی کنید و اجازه دهید ایجنت شما بدون نیاز به مدیریت پایگاه داده برداری یا گراف اختصاصی، دانش خود را در طول زمان بسازد.
-- **یکپارچه‌سازی‌ها را برون‌سپاری کنید** — فقط یک بار برنامه‌ها را در CORE متصل کنید و ایجنت شما ابزارهای MCP همه آن‌ها را دریافت می‌کند. نیازی به ساخت مراحل OAuth، نگهداری API یا کدنویسی برای هر یکپارچه‌سازی نیست.
-- **ساخت از طریق MCP یا API** — ایجنت خود را از طریق MCP (نقطه انتهایی واحد) به CORE متصل کنید یا مستقیماً از REST API استفاده کنید.
-
-**پروژه‌های نمونه**
-
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — ایجنت مدیریت وظایف با حافظه و همگام‌سازی Linear/GitHub
-- [**holo**](https://github.com/RedPlanetHQ/holo) — حافظه CORE خود را به یک وب‌سایت شخصی با قابلیت گفتگو تبدیل کنید
-
-[مرجع API →](https://docs.getcore.me/api-reference) · [مستندات SDK →](https://docs.getcore.me)
+CORE به **۸۸.۲۴٪** دقت متوسط در [معیار LoCoMo](https://github.com/RedPlanetHQ/core-benchmark) دست یافته است؛ شامل مسائل تک‌مرحله‌ای، چندمرحله‌ای، دامنه باز، و استدلال زمانی.
 
 ---
 
-## بنچمارک
+## باورهای ما
 
-CORE به طور میانگین به دقت **۸۸.۲۴٪** در بنچمارک LoCoMo در وظایف تک‌مرحله‌ای، چندمرحله‌ای، حوزه باز و استدلال زمانی دست یافته است.
-
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-
-[متدولوژی و نتایج بنچمارک را مشاهده کنید →](https://github.com/RedPlanetHQ/core-benchmark)
-
----
-
-## امنیت
-
-دارای گواهینامه CASA Tier 2 — ارزیابی شده توسط شخص ثالث برای رعایت الزامات OAuth گوگل.
-
-- رمزنگاری: TLS 1.3 (در حال انتقال) + AES-256 (در حالت استراحت)
-- ایزوله‌سازی مبتنی بر ورک‌اسپیس، مجوزهای مبتنی بر نقش
-- داده‌های شما هرگز برای آموزش مدل‌های هوش مصنوعی استفاده نمی‌شود
-- گزینه میزبانی شخصی برای ایزوله‌سازی کامل
-
-
-[سیاست امنیتی →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · گزارش آسیب‌پذیری: harshith@poozle.dev
+- چت یک رابط کاربری است. نه یک سیستم عامل.
+- هوش بدون حافظه فقط اطلاعات است.
+- هوش مصنوعی شما باید در همه ابزارها شما را بشناسد، نه فقط در تب فعلی.
+- کار باید از نیت به عمل منتقل شود بدون اینکه شما واسطه شوید.
+- خودکارسازی بدون پاسخگویی مساوی با هرج‌ومرج است.
 
 ---
 
 ## مستندات
 
-- [خوش آمدید](https://docs.getcore.me/introduction) — معرفی CORE
-- [مفاهیم](https://docs.getcore.me/concepts/overview) — توضیح حافظه، عامل و جعبه ابزار
-- [اتصال](https://docs.getcore.me/access-core/overview) — کانال‌ها و ارائه‌دهندگان هوش مصنوعی
-- [جعبه ابزار](https://docs.getcore.me/toolkit/overview) — اقدامات و یکپارچه‌سازی‌ها
-- [متن‌باز](https://docs.getcore.me/guides/local-setup) — راه‌اندازی محلی، مشارکت، میزبانی شخصی
-- [مرجع API](https://docs.getcore.me/api-reference) — REST API و نقاط پایانی
-- [تغییرات](https://docs.getcore.me/opensource/changelog) — بروزرسانی‌های محصول
+- [**حافظه**](https://docs.getcore.me/memory/overview) - گراف دانش زمانی، طبقه‌بندی حقایق، بازیابی بر اساس نیت
+- [**یادداشت**](https://docs.getcore.me/concepts/scratchpad) - سطح روزانه برای شروع کارها و ایده‌ها
+- [**وظایف**](https://docs.getcore.me/concepts/tasks) - برنامه‌ها، وضعیت، کارهای دوره‌ای و زمینه وابسته به وظیفه
+- [**ابزارها**](https://docs.getcore.me/concepts/toolkit) - بیش از ۱۰۰۰ اقدام در ۵۰+ اپلیکیشن از طریق MCP
+- [**عامل CORE**](https://docs.getcore.me/concepts/meta-agent) - محرک‌ها، حافظه، ابزارها و اجرا
+- [**درگاه**](https://docs.getcore.me/access-core/overview) - دسترسی به واتساپ، اسلک، تلگرام، ایمیل، وب و API
+- [**مهارت‌ها**](https://docs.getcore.me/skills/overview) - دستورالعمل‌های قابل استفاده مجدد برای گردش‌کارهای تکراری
+- [**میزبانی شخصی**](https://docs.getcore.me/self-hosting/setup) - راهنمای کامل استقرار
+- [**تغییرات**](https://docs.getcore.me/opensource/changelog) - آنچه منتشر شده است
 
 ---
 
-## پشتیبانی
+## امنیت
+- دارای گواهینامه CASA Tier 2
+- TLS 1.3 در حین انتقال
+- AES-256 در حالت سکون
+- داده‌های شما هرگز برای آموزش مدل استفاده نمی‌شود
+- میزبانی شخصی برای ایزولاسیون کامل
+- [سیاست امنیتی](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- آسیب‌پذیری‌ها: harshith@poozle.dev
 
-- دیسکورد: [به کانال core-support بپیوندید](https://discord.gg/YGUZcvDjUa)
-- مستندات: [docs.getcore.me](https://docs.getcore.me)
-- ایمیل: manik@poozle.dev
+---
 
-## مشارکت‌کنندگان
+## جامعه
+
+ما CORE را به صورت عمومی توسعه می‌دهیم.
+
+ما نقشه راه و تصمیمات معماری را به طور شفاف به اشتراک می‌گذاریم، زیرا سخت‌ترین مشکلات در ساخت یک سیستم عامل شخصی، بهترین راه‌حل را با کمک کاربرانش پیدا می‌کند. ریپو را ستاره‌دار کنید، آن را خودتان میزبانی کنید، ساخته‌های خود را به اشتراک بگذارید و مشکلات را برای موارد خراب یا ناقص باز کنید.
+
+- [دیسکورد](https://discord.gg/YGUZcvDjUa) - پرسش‌ها، ایده‌ها، نمایش و اشتراک
+- [مستندات مشارکت](https://docs.getcore.me/opensource/contributing) - نحوه مشارکت در CORE
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - از اینجا شروع کنید
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
+---
+
+<div align="center">
+
+**سیستم عامل هوش مصنوعی شخصی خود را میزبانی کنید.**
+
+[این ریپو را ستاره‌دار کنید](https://github.com/RedPlanetHQ/core) · [مستندات را بخوانید](https://docs.getcore.me) · [به دیسکورد بپیوندید](https://discord.gg/YGUZcvDjUa)
+
+</div>
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

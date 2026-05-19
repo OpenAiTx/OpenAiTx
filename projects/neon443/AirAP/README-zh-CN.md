@@ -44,7 +44,7 @@
     </p>
     <p>
         <a href="https://testflight.apple.com/join/8aeqD8Q2">
-            testflight 测试版
+            testflight 测试
         </a>
     </p>
     <br/>
@@ -53,24 +53,34 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
-         alt="该项目是 Shipwrecked（世界上第一个岛屿黑客马拉松）的一部分！" 
+         alt="该项目是 Shipwrecked 活动的一部分，这是世界上第一个在岛上举办的黑客马拉松！" 
          style="width: 25%;">
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP 是一个完全原生的 AirPlay 服务器，由 Swift 编写，适用于 iOS。本质上，AirAP 允许你将 iPhone 作为 iTunes 或 Mac 上的 AirPlay 接收端，这意味着你可以用 iPhone 播放设备的声音。
+AirAP 是一个完全原生的 AirPlay 服务器，由 Swift 编写，适用于 iOS。基本上，AirAP 允许你在 iTunes 或 Mac 上将你的 iPhone 作为 AirPlay 接收器，这意味着你可以用 iPhone 播放设备的声音。
 
 ## 什么是 AirAP？
 
-你是否曾想过将 Mac、Apple TV 或其他 iOS 设备上的音频流传输到 iPhone？AirAP 通过实现一个完全原生运行于 iOS 的 AirPlay 服务器，让这一切成为可能。安装后，你的 iPhone 会在系统偏好设置的音频面板、Music.app 或任意支持 AirPlay 的应用中显示为可用的 AirPlay 目标。
+你是否曾想过将音频从 Mac、Apple TV 或其他 iOS 设备流式传输到 iPhone？AirAP 通过实现一个完整的 AirPlay 服务器，让这一切在 iOS 上原生运行成为可能。安装后，你的 iPhone 会在系统偏好设置的音频面板、Music.app 或任何其他兼容 AirPlay 的应用中作为可用的 AirPlay 目的地出现。
 
-这个概念刚开始看起来似乎有点反向——毕竟我们习惯于把 iPhone 的音频流到其它设备。但实际上，有很多场景你会希望反过来。比如，你深夜在 Mac 上工作，希望通过 iPhone 和耳机听音频，不打扰其他人（嗨 👋）。或者你是开发者，测试音频应用时需要快速切换输出设备。又或者你只是想重新利用那台老式有线音箱。
+这个概念一开始可能有些反直觉——毕竟我们习惯于将 iPhone 的内容流到其他设备。但其实有很多场景你会希望反过来操作。比如你深夜在 Mac 上工作，想把音频传到 iPhone 上戴耳机，以免打扰别人（你好👋）。或者你是开发者，测试音频应用时需要快速切换不同输出设备。又或者你只是想重新利用那台老旧的有线音箱。
 
 ## 安装 AirAP
 
-想要体验，只需[打开这个 TestFlight 链接](https://testflight.apple.com/join/8aeqD8Q2)，安装 AirAP 并按提示操作。安装完成后，启动 AirAP 并确保你的 iPhone 和需要投送音频的设备在同一 Wi-Fi 网络下。你的 iPhone 会自动出现在 AirPlay 设备列表中，准备接收音频——如果没有显示，尝试重启应用。
+要试用，请[打开这个 TestFlight 链接](https://testflight.apple.com/join/8aeqD8Q2)，安装 AirAP，并按照说明操作。安装完成后，只需启动 AirAP，并确保你的 iPhone 连接到与要进行流媒体播放的设备相同的 Wi-Fi 网络。你的 iPhone 会自动出现在 AirPlay 设备列表中，准备好接收音频——如果没有出现，请尝试重启应用。
 
 ## 编译
 
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

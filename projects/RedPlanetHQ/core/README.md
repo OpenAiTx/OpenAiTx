@@ -33,24 +33,10 @@
     <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE: Your Digital Brain
+# Your personal AI OS.
 
-**It Remembers. It Thinks. It Acts**
+**Run Your OS.** Watches your work. Remembers what matters. Acts across your tools and agents. Open source, self-hosted, yours forever.
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Add to Claude Code" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Add to Cursor" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="Add to OpenClaw" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="Deploy on Railway" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
         <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
@@ -61,239 +47,193 @@
     <a href="https://discord.gg/YGUZcvDjUa">
         <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
     </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="License: AGPL 3.0" />
+    </a>
 </p>
 </div>
 
 ---
 
-CORE is your digital brain - a unified, always-on AI that remembers your context, works with your AI agents, and acts across your tools.
+## See it work
 
-Open source. Self-hostable. Your data, your control.
+Watch CORE handle two coding tasks end to end:
 
----
-
-## What Makes a Digital Brain
-
-### It Remembers Everything
-
-Every conversation, decision, preference, and relationship is stored as structured knowledge in a temporal knowledge graph. Not raw text but classified facts (preferences, decisions, goals, directives) that surface exactly when you need them. Ask about something from weeks ago and the answer is there, with full context.
-
-[Learn more about Memory →](https://docs.getcore.me/concepts/memory/overview)
-
-### It Can Take Actions
-
-Create GitHub issues, send Slack messages, manage your calendar without leaving the conversation. Complex multi-step workflows too: ask your coding agent to check Sentry for new errors, create a GitHub issue for each one, assign the right engineer based on git blame, and post a summary to your team's Slack channel, all from a single prompt. 200+ actions across 50+ apps through one connection point.
-
-[Learn more about Toolkit →](https://docs.getcore.me/concepts/toolkit)
-
-### It Thinks and Works Across Systems
-
-Your tools are siloed. Claude Code can't talk to your WhatsApp. Cursor can't check your calendar. CORE's Agent breaks these walls - it's the orchestrator that ties memory, toolkit, and your apps together.
-
-What the CORE Agent can do:
-
-- **Understand intent**: classifies what you need and routes to the right tools and memory
-- **Spawn other agents**: spin up a Claude Code session or browser session from WhatsApp to fix a bug or research something
-- **Coordinate multi-step workflows**: pull context from memory, act across multiple apps, and report back
-- **Work from anywhere**: message from WhatsApp, email, Slack, or the web dashboard — same brain, same context
-
-[Learn more about CORE Agent →](https://docs.getcore.me/concepts/meta-agent)
-
-### It Can Proactively Act
-
-You shouldn't have to ask for everything. CORE monitors events - new emails, GitHub alerts, calendar changes — and evaluates them against what it knows about you. A client email arrives; CORE already knows how you handle that relationship and drafts the right response. A Sentry alert fires at night; CORE spins up a Claude Code session to investigate.
-
-[Learn more about Concepts →](https://docs.getcore.me/concepts/overview)
+[![CORE Demo](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## Architecture
+## What CORE is
 
-CORE is built on three layers that implement these four pillars:
+CORE is the open-source operating layer for AI-native work.
 
-- **Memory**: A temporal knowledge graph that stores episodes, entities, and classified facts. Every piece of information is categorized (preference, decision, directive, goal, etc.) and connected over time. This is what makes retrieval intent-driven instead of keyword-based. [Docs →](https://docs.getcore.me/concepts/memory/overview)
+You write what needs doing in a scratchpad. CORE picks up the task, loads context from memory and connected apps, drafts a plan, runs the right agent through the gateway, handles blockers where it can, and comes back when human judgment is needed.
 
-- **Toolkit**: A unified actions layer for any MCP-compatible agent. Connect your apps once (GitHub, Linear, Slack, Gmail, Calendar, etc.) and every connected AI tool gets access to 200+ actions through a single endpoint. [Docs →](https://docs.getcore.me/toolkit/overview)
+It is not a chatbot you keep prompting. It is the layer that remembers, coordinates, acts, and escalates.
 
-- **CORE Agent**: The orchestrator that ties memory and toolkit together. It understands intent, searches memory, picks tools, spawns other agents, and can act proactively based on triggers and rules. [Docs →](https://docs.getcore.me/concepts/meta-agent)
+### The architecture
 
----
+| | |
+|---|---|
+| **Watches** | Context from your AI conversations via MCP, 50+ connected apps, and on Mac, any app you explicitly grant access to. |
+| **Remembers** | A knowledge graph that tracks not just what you said, but what you decided, when, and why, across every tool and conversation. |
+| **Acts** | Takes direct actions in your connected apps, and delegates longer work to coding and browser agents via the gateway. |
+| **Policies** | Approval flows, escalation rules, plans, and audit logs so autonomy stays accountable. |
 
-## What You Can Do
-
-### Use as Your Personal Assistant
-
-Talk to CORE from WhatsApp, email, or the web dashboard. It takes actions across your apps, manages your schedule, drafts emails, all with memory of who you are and how you work.
-
-[Get started →](https://docs.getcore.me/quickstart/chief-of-staff)
-
-### Supercharge Your AI Agents
-
-Give Claude Code, Cursor, and other AI tools persistent memory and actions. Your coding agent remembers project architecture, past decisions, and preferences across sessions. No more re-explaining context.
-
-[Get started →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
-
-<details>
-<summary><b>Claude Code (Recommended: Plugin)</b></summary>
-
-```sh
-npm install -g @redplanethq/corebrain
-```
-
-Then in Claude Code:
-
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
-
-Restart Claude Code and run `/mcp` to authenticate.
-
-The plugin auto-loads your persona (preferences, rules, decisions) at every session start and ingests conversations into memory when you're done.
-
-</details>
-
-<details>
-<summary><b>Claude Code (Manual MCP)</b></summary>
-
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
-
-Then type `/mcp` and open core-memory for authentication.
-
-</details>
-
-<details>
-<summary><b>Cursor</b></summary>
-
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
-
-</details>
-
-<details>
-<summary><b>OpenClaw</b></summary>
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-
-Set your API key via environment variable or config:
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-
-Get your API key from [app.getcore.me](https://app.getcore.me) → Settings → API Key.
-
-</details>
-
-<details>
-<summary><b>Claude Desktop</b></summary>
-
-1. Copy MCP URL: `https://app.getcore.me/api/v1/mcp?source=Claude`
-2. Navigate to Settings → Connectors → Add custom connector
-3. Click "Connect" and grant Claude permission to access CORE
-
-</details>
-
-**30+ more providers** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot, and more. [See all setup guides →](https://docs.getcore.me/providers/overview)
-
-### Turn AI Chats into Memory
-
-Sync your ChatGPT and Gemini conversations into CORE via browser extension. Searchable, reusable, and available to every connected agent.
-
-[Get started →](https://docs.getcore.me/quickstart/capture-conversations)
+CORE decides what it can do safely, asks before sensitive actions, and leaves a trail you can review.
 
 ---
 
-## Quick Start
+## CORE in action
 
-### Cloud
+### Delegate a coding task, come back to a PR.
 
-1. **Sign up** at [app.getcore.me](https://app.getcore.me)
-2. **Connect Gmail & Calendar** — CORE scans them to learn about you so your digital brain starts with real context from day one
-3. **Start using** — talk to CORE Agent, connect your AI tools, or take actions in your apps
+Tell CORE what needs doing. It gathers context from your repo, apps, and memory, drafts a plan, runs a Claude Code or Codex session, handles blockers where it can, and brings back a PR. You review when it is done.
 
-### Self-Host
+`[ ] Fix the race condition in the checkout flow from issue #312`
 
-**Quick Deploy**
+### Clear your backlog while you sleep.
+
+Set a recurring task to pull from your backlog at a set time. CORE works through it while you are offline. Smooth runs wait for review in the morning. Stuck sessions come back with a tight question, not a stalled tab.
+
+`[ ] Work through tonight's backlog starting at 11pm`
+
+### Investigate alerts before they become interruptions.
+
+Set a recurring task to watch Sentry, logs, or any alert source. When something fires, CORE investigates, pulls related traces and prior incidents, and decides whether to handle it or escalate.
+
+A Sentry alert fires at 2am. CORE investigates, proposes a fix, and pings you on Slack for review.
+
+### Get a morning brief that knows your work.
+
+Set a recurring task to pull from email, GitHub, Linear, and Slack every morning. CORE summarizes what needs attention, skips what doesn't, and turns follow-ups into tasks automatically.
+
+### Delegate from wherever you are.
+
+Create tasks from Slack, WhatsApp, Telegram, email, or web. The gateway keeps running in Docker or Railway, so CORE can pick up work even when your laptop is closed.
+
+---
+
+## What's inside CORE
+
+| | |
+|---|---|
+| **Memory** | Tracks your preferences, decisions, goals, and directives across every tool and conversation, so every task starts with context loaded. |
+| **Tasks** | One-shot or recurring work units with your spec, CORE's plan, live state, and a dedicated chat thread. Each task can spawn coding or browser sessions. |
+| **Scratchpad** | A daily page for tasks, ideas, and work in progress. Type `[ ]` anywhere and CORE picks it up within 3 minutes. |
+| **Connectors** | 50+ apps through one MCP endpoint, plus webhook triggers for proactive automation. GitHub, Linear, Jira, Slack, Gmail, Calendar, Sentry, Granola, Todoist, and more. |
+| **Skills** | 100+ reusable instructions applied automatically based on context. Use built-in skills or write your own for repeatable workflows. |
+| **Gateway** | Runs Claude Code, Codex, browser agents, and local commands on your machine or in Docker / Railway, so CORE keeps working when your laptop is closed. |
+| **Model agnostic** | Bring your own provider: Anthropic, OpenAI, or open-weight models. Self-host the full stack for isolation. |
+
+---
+
+## What CORE is not
+
+| | |
+|---|---|
+| **Not a RAG wrapper.** | Memory is not just embedded chunks. It is a knowledge graph that tracks what you decided, when, and why. |
+| **Not a workflow builder.** | No drag-and-drop DAGs. You write what needs doing. CORE figures out the workflow and asks when it needs judgment. |
+| **Not another Devin.** | CORE proposes plans, you approve. CORE asks for unblocks, you decide. CORE brings back PRs, you review. Agents do not merge on their own. |
+| **Not a closed cloud assistant.** | CORE is open source, self-hostable, model-agnostic, and designed around your infrastructure. |
+
+---
+
+## Quickstart
+
+Open source and self-hosted. Your data stays in your infrastructure.
+
+**Install and start CORE:**
+
+```bash
+npm install -g @redplanethq/corebrain && corebrain setup
+```
+
+The setup wizard asks for an install directory, AI provider, API key, and chat model. It generates secrets, starts the stack, and opens `http://localhost:3033`.
+
+Most local installs take a few minutes once Docker is running.
+
+**Or deploy on Railway:**
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
-**Or with Docker**
+**Connect a gateway** so CORE can drive your browser, run coding agents, and access local folders:
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+corebrain login
+corebrain gateway setup
 ```
 
-[View complete self-hosting guide →](https://docs.getcore.me/self-hosting/docker)
+**Requirements:** Docker 20.10+, Docker Compose 2.20+, 4 vCPU / 8GB RAM
 
----
+[Full self-hosting guide](https://docs.getcore.me/self-hosting/setup)
 
-## For Agent Builders
-
-Building AI agents? Offload memory and integrations to CORE so you can focus on your agent's logic.
-
-- **Offload memory** — Use CORE's temporal knowledge graph as your agent's long-term memory. Store conversations, retrieve context with intent-driven search, and let your agent build knowledge over time without managing your own vector DB or graph.
-- **Offload integrations** — Connect apps once in CORE, and your agent gets MCP tools for all of them. No OAuth flows to build, no API maintenance, no per-integration code.
-- **Build via MCP or API** — Connect your agent to CORE via MCP (single endpoint) or use the REST API directly.
-
-**Example Projects**
-
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — Task manager agent with memory and Linear/GitHub sync
-- [**holo**](https://github.com/RedPlanetHQ/holo) — Turn your CORE memory into a personal website with chat
-
-[API Reference →](https://docs.getcore.me/api-reference) · [SDK Docs →](https://docs.getcore.me)
+> Want the Mac app? Join the waitlist at [getcore.me](https://www.getcore.me/).
 
 ---
 
 ## Benchmark
 
-CORE achieves **88.24%** average accuracy on the LoCoMo benchmark across single-hop, multi-hop, open-domain, and temporal reasoning tasks.
+CORE achieves **88.24%** average accuracy on the [LoCoMo benchmark](https://github.com/RedPlanetHQ/core-benchmark) across single-hop, multi-hop, open-domain, and temporal reasoning.
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+---
 
-[View benchmark methodology and results →](https://github.com/RedPlanetHQ/core-benchmark)
+## What we believe
+
+- Chat is an interface. Not an OS.
+- Intelligence without memory is trivia.
+- Your AI should know you across every tool, not just the current tab.
+- Work should move from intent to action without you becoming the glue.
+- Automation without accountability is chaos.
+
+---
+
+## Docs
+
+- [**Memory**](https://docs.getcore.me/memory/overview) - Temporal knowledge graph, fact classification, intent-driven retrieval
+- [**Scratchpad**](https://docs.getcore.me/concepts/scratchpad) - The daily surface where tasks and ideas start
+- [**Tasks**](https://docs.getcore.me/concepts/tasks) - Plans, state, recurring work, and task-scoped context
+- [**Toolkit**](https://docs.getcore.me/concepts/toolkit) - 1000+ actions across 50+ apps via MCP
+- [**CORE Agent**](https://docs.getcore.me/concepts/meta-agent) - Triggers, memory, tools, and execution
+- [**Gateway**](https://docs.getcore.me/access-core/overview) - WhatsApp, Slack, Telegram, email, web, and API access
+- [**Skills**](https://docs.getcore.me/skills/overview) - Reusable instructions for repeatable workflows
+- [**Self-hosting**](https://docs.getcore.me/self-hosting/setup) - Full deployment guide
+- [**Changelog**](https://docs.getcore.me/opensource/changelog) - What has shipped
 
 ---
 
 ## Security
 
-CASA Tier 2 Certified — third-party audited to meet Google's OAuth requirements.
-
-- Encryption: TLS 1.3 (transit) + AES-256 (rest)
-- Workspace-based isolation, role-based permissions
-- Your data is never used for AI model training
-- Self-hosting option for full isolation
-
-[Security Policy →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · Vulnerability Reporting: harshith@poozle.dev
-
----
-
-## Documentation
-
-- [Welcome](https://docs.getcore.me/introduction) — Introduction to CORE
-- [Concepts](https://docs.getcore.me/concepts/overview) — Memory, Agent, and Toolkit explained
-- [Connect](https://docs.getcore.me/access-core/overview) — Channels and AI providers
-- [Toolkit](https://docs.getcore.me/toolkit/overview) — Actions and integrations
-- [Open Source](https://docs.getcore.me/guides/local-setup) — Local setup, contributing, self-hosting
-- [API Reference](https://docs.getcore.me/api-reference) — REST API and endpoints
-- [Changelog](https://docs.getcore.me/opensource/changelog) — Product updates
+- CASA Tier 2 Certified
+- TLS 1.3 in transit
+- AES-256 at rest
+- Your data is never used for model training
+- Self-host for full isolation
+- [Security policy](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- Vulnerabilities: harshith@poozle.dev
 
 ---
 
-## Support
+## Community
 
-- Discord: [Join core-support channel](https://discord.gg/YGUZcvDjUa)
-- Documentation: [docs.getcore.me](https://docs.getcore.me)
-- Email: manik@poozle.dev
+We're building CORE in public.
 
-## Contributors
+We share the roadmap and architectural decisions openly because the hardest problems in building a personal OS are best solved with the people using it. Star the repo, self-host it, share what you build, and open issues for what's broken or missing.
+
+- [Discord](https://discord.gg/YGUZcvDjUa) - questions, ideas, show-and-tell
+- [Contributing docs](https://docs.getcore.me/opensource/contributing) - how to contribute to CORE
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - start here
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
+
+---
+
+<div align="center">
+
+**Self-host your personal AI OS.**
+
+[Star this repo](https://github.com/RedPlanetHQ/core) · [Read the docs](https://docs.getcore.me) · [Join Discord](https://discord.gg/YGUZcvDjUa)
+
+</div>

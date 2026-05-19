@@ -58,19 +58,29 @@
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="Star History Diagramm" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP ist ein vollständig nativer AirPlay-Server, geschrieben in Swift, für iOS. Im Wesentlichen ermöglicht AirAP, Ihr iPhone als AirPlay-Empfänger in iTunes oder auf Ihrem Mac zu verwenden, sodass Sie Ihr iPhone nutzen können, um den Ton Ihres Geräts abzuspielen.
+AirAP ist ein vollständig nativer AirPlay-Server, geschrieben in Swift, für iOS. Im Wesentlichen ermöglicht AirAP, dein iPhone als AirPlay-Empfänger in iTunes oder auf deinem Mac zu verwenden, sodass du dein iPhone nutzen kannst, um den Ton deines Geräts wiederzugeben.
 
 ## Was ist AirAP?
 
-Haben Sie jemals gewünscht, Audio von Ihrem Mac, Apple TV oder einem anderen iOS-Gerät auf Ihr iPhone zu streamen? AirAP macht dies möglich, indem es einen vollständigen AirPlay-Server bereitstellt, der nativ auf iOS läuft. Nach der Installation erscheint Ihr iPhone als verfügbare AirPlay-Ziel im Bereich "Audio" der Systemeinstellungen, in der Musik-App oder jeder anderen AirPlay-kompatiblen App.
+Hast du dir jemals gewünscht, Audio von deinem Mac, Apple TV oder einem anderen iOS-Gerät auf dein iPhone zu streamen? AirAP macht dies möglich, indem es einen vollständigen AirPlay-Server bereitstellt, der nativ auf iOS läuft. Nach der Installation erscheint dein iPhone als verfügbares AirPlay-Ziel im Audio-Bereich der Systemeinstellungen, in der Musik-App oder jeder anderen AirPlay-kompatiblen App.
 
-Das Konzept mag auf den ersten Blick seltsam erscheinen – schließlich sind wir es gewohnt, von unseren iPhones auf andere Geräte zu streamen. Doch es gibt überraschend viele Szenarien, in denen Sie genau das Gegenteil möchten. Vielleicht arbeiten Sie spät abends an Ihrem Mac und möchten den Ton auf Ihr iPhone mit Kopfhörern umleiten, um niemanden zu stören (hallo 👋). Vielleicht sind Sie Entwickler und testen Audio-Anwendungen und müssen schnell zwischen verschiedenen Ausgabegeräten wechseln. Oder Sie möchten einfach nur einen alten kabelgebundenen Lautsprecher weiterverwenden.
+Das Konzept mag auf den ersten Blick ungewöhnlich erscheinen – schließlich sind wir es gewohnt, von unseren iPhones auf andere Geräte zu streamen. Aber es gibt überraschend viele Szenarien, in denen du genau das Gegenteil machen möchtest. Vielleicht arbeitest du spät abends am Mac und möchtest den Ton auf dein iPhone mit Kopfhörern umleiten, damit du niemanden störst (Hallo 👋). Vielleicht bist du Entwickler, testest Audio-Anwendungen und musst schnell zwischen verschiedenen Ausgabegeräten wechseln. Oder du willst einfach alte kabelgebundene Lautsprecher wiederverwenden.
 
-## AirAP installieren
+## Installation von AirAP
 
-Um es auszuprobieren, [öffnen Sie diesen TestFlight-Link](https://testflight.apple.com/join/8aeqD8Q2), installieren Sie AirAP und folgen Sie den Anweisungen. Nach der Installation starten Sie einfach AirAP und stellen sicher, dass Ihr iPhone mit demselben WLAN-Netzwerk wie das Quellgerät verbunden ist. Ihr iPhone erscheint automatisch in den AirPlay-Gerätelisten und ist bereit, Audio zu empfangen – falls nicht, versuchen Sie, die App neu zu starten.
+Um es auszuprobieren, [öffnen Sie diesen TestFlight-Link](https://testflight.apple.com/join/8aeqD8Q2), installieren Sie AirAP und folgen Sie den Anweisungen. Nach der Installation starten Sie einfach AirAP und stellen Sie sicher, dass Ihr iPhone mit demselben WLAN-Netzwerk wie das Gerät verbunden ist, von dem Sie streamen möchten. Ihr iPhone erscheint automatisch in den AirPlay-Gerätelisten und ist bereit, Audio zu empfangen – falls nicht, versuchen Sie, die App neu zu starten.
 
 ## Kompilieren
 
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

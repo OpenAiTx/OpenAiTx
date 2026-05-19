@@ -53,28 +53,38 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
-         alt="यह प्रोजेक्ट शिपव्रेक्ड का हिस्सा है, जो दुनिया का पहला द्वीप पर आयोजित हैकथॉन है!" 
+         alt="यह प्रोजेक्ट शिपरेकट का हिस्सा है, जो दुनिया का पहला द्वीप पर आयोजित हैकथॉन है!" 
          style="width: 25%;">
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="स्टार हिस्ट्री चार्ट" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP एक पूर्णतः नेटिव AirPlay सर्वर है, जिसे Swift में लिखा गया है, iOS के लिए। मूलतः, AirAP आपको अपने iPhone को iTunes या अपने Mac में एक AirPlay रिसीवर के रूप में उपयोग करने की अनुमति देता है, यानी आप अपने iPhone का उपयोग अपने डिवाइस की ध्वनि चलाने के लिए कर सकते हैं।
+AirAP एक पूर्णत: नेटिव AirPlay सर्वर है, जो Swift में लिखा गया है, iOS के लिए। मूल रूप से, AirAP आपको अपने iPhone को iTunes या अपने Mac में AirPlay रिसीवर के रूप में उपयोग करने देता है, यानी आप अपने iPhone का उपयोग अपने डिवाइस की ध्वनि चलाने के लिए कर सकते हैं।
 
 ## AirAP क्या है?
 
-क्या आपने कभी चाहा है कि आप अपने Mac, Apple TV, या किसी अन्य iOS डिवाइस से अपने iPhone पर ऑडियो स्ट्रीम कर सकें? AirAP इसे संभव बनाता है, एक पूर्ण AirPlay सर्वर को लागू करके जो नेटिव रूप से iOS पर चलता है। एक बार इंस्टॉल होने के बाद, आपका iPhone System Preferences के Audio पैन, Music.app, या किसी अन्य AirPlay-संगत ऐप में एक उपलब्ध AirPlay डेस्टिनेशन के रूप में दिखाई देगा।
+क्या आपने कभी चाहा है कि आप अपने Mac, Apple TV, या किसी अन्य iOS डिवाइस से ऑडियो अपने iPhone पर स्ट्रीम कर सकें? AirAP यह संभव बनाता है एक पूर्ण AirPlay सर्वर लागू करके, जो iOS पर नेटिव रूप से चलता है। एक बार इंस्टॉल होने के बाद, आपका iPhone सिस्टम प्रेफरेंसेज के ऑडियो पैन, Music.app या किसी भी अन्य AirPlay-संगत ऐप में उपलब्ध AirPlay गंतव्य के रूप में दिखाई देगा।
 
-शुरुआत में यह अवधारणा उल्टी लग सकती है - आखिरकार, हम आमतौर पर अपने iPhones से अन्य डिवाइसेस पर स्ट्रीमिंग के आदी हैं। लेकिन कई हैरान कर देने वाले ऐसे मौके होते हैं, जब आप उल्टा करना चाहेंगे। शायद आप अपने Mac पर रात में काम कर रहे हैं और ऑडियो को अपने iPhone पर हेडफोन के साथ सुनना चाहते हैं ताकि किसी को परेशान न हो (नमस्ते 👋)। या शायद आप एक डेवलपर हैं जो ऑडियो एप्लिकेशन टेस्ट कर रहे हैं और जल्दी से विभिन्न आउटपुट डिवाइसेस के बीच स्विच करना चाहते हैं। या शायद आप सिर्फ उस पुराने वायर्ड स्पीकर को फिर से इस्तेमाल करना चाहते हैं।
+शुरुआत में यह अवधारणा उल्टी लग सकती है - आखिरकार, हम आमतौर पर अपने iPhones से अन्य डिवाइसों पर स्ट्रीम करते हैं। लेकिन कई ऐसे परिदृश्य हैं जहाँ आप विपरीत करना चाहेंगे। हो सकता है आप अपने Mac पर रात को देर तक काम कर रहे हों और ऑडियो अपने iPhone के हेडफ़ोन में भेजना चाहें ताकि किसी को डिस्टर्ब न हो (हाय 👋)। शायद आप एक डेवलपर हैं जो ऑडियो एप्लिकेशन का परीक्षण कर रहे हैं और विभिन्न आउटपुट डिवाइसों के बीच जल्दी से स्विच करना चाहते हैं। या शायद आप पुराने वायर्ड स्पीकर का फिर से उपयोग करना चाहते हैं।
 
-## AirAP स्थापित करना
+## AirAP इंस्टॉल करना
 
-इसे आज़माने के लिए, [यह TestFlight लिंक खोलें](https://testflight.apple.com/join/8aeqD8Q2), AirAP इंस्टॉल करें, और निर्देशों का पालन करें। इंस्टॉलेशन के बाद, बस AirAP लॉन्च करें और सुनिश्चित करें कि आपका iPhone उसी Wi-Fi नेटवर्क से जुड़ा है, जिससे आप स्ट्रीम करना चाहते हैं। आपका iPhone स्वचालित रूप से AirPlay डिवाइस लिस्ट में दिखाई देगा, ऑडियो प्राप्त करने के लिए तैयार - अगर ऐसा न हो, तो ऐप को फिर से शुरू करने की कोशिश करें।
+इसे आज़माने के लिए, [इस TestFlight लिंक को खोलें](https://testflight.apple.com/join/8aeqD8Q2), AirAP इंस्टॉल करें, और निर्देशों का पालन करें। इंस्टॉल करने के बाद, बस AirAP लॉन्च करें और सुनिश्चित करें कि आपका iPhone उसी Wi-Fi नेटवर्क से जुड़ा है जिस डिवाइस से आप स्ट्रीम करना चाहते हैं। आपका iPhone स्वतः ही AirPlay डिवाइस सूची में दिखाई देगा, ऑडियो प्राप्त करने के लिए तैयार - अगर ऐसा नहीं होता है, तो ऐप को पुनः शुरू करने की कोशिश करें।
 
-## कम्पाइल करना
+## संकलन करना
 
-सुनिश्चित करें कि आपके पास [होमब्रू](https://brew.sh) है
+सुनिश्चित करें कि आपके पास [homebrew](https://brew.sh) है
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

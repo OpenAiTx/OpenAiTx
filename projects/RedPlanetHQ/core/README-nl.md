@@ -3,25 +3,25 @@
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">Engels</a>
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">Japans</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">Koreaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">Thais</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Frans</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Duits</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Spaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Russisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Portugees</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Pools</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">Arabisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">Perzisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Turks</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Vietnamees</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
@@ -33,275 +33,214 @@
     <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE: Jouw Digitale Brein
+# Jouw persoonlijke AI-besturingssysteem.
 
-**Het Onthoudt. Het Denkt. Het Handelt.**
+**Start jouw besturingssysteem.** Houdt je werk in de gaten. Onthoudt wat belangrijk is. Werkt samen met jouw tools en agenten. Open source, zelf gehost, voor altijd van jou.
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Toevoegen aan Claude Code" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Toevoegen aan Cursor" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="Toevoegen aan OpenClaw" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="Deploy op Railway" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
         <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
     </a>
     <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentatie" />
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs" />
     </a>
     <a href="https://discord.gg/YGUZcvDjUa">
         <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="Licentie: AGPL 3.0" />
     </a>
 </p>
 </div>
 
 ---
 
-CORE is jouw digitale brein – een uniforme, altijd beschikbare AI die jouw context onthoudt, samenwerkt met jouw AI-agenten en actie onderneemt in jouw tools.
+## Zie het in actie
 
-Open source. Zelf te hosten. Jouw data, jouw controle.
+Bekijk hoe CORE twee programmeertaken van begin tot eind afhandelt:
 
----
-
-## Wat Maakt een Digitaal Brein
-
-### Het Onthoudt Alles
-
-Elk gesprek, elke beslissing, voorkeur en relatie wordt opgeslagen als gestructureerde kennis in een temporele kennisgrafiek. Niet als ruwe tekst maar als geclassificeerde feiten (voorkeuren, beslissingen, doelen, richtlijnen) die exact op het juiste moment beschikbaar zijn. Vraag iets van weken geleden en het antwoord is er, met volledige context.
-
-[Meer informatie over Memory →](https://docs.getcore.me/concepts/memory/overview)
-
-### Het Kan Acties Uitvoeren
-
-Maak GitHub-issues aan, verstuur Slack-berichten, beheer je agenda zonder het gesprek te verlaten. Ook complexe workflows met meerdere stappen: vraag je code-agent om Sentry te controleren op nieuwe fouten, maak voor elk een GitHub-issue aan, wijs de juiste engineer toe op basis van git blame, en plaats een samenvatting in het Slack-kanaal van je team, allemaal met één prompt. 200+ acties in 50+ apps via één verbindingspunt.
-
-[Meer informatie over Toolkit →](https://docs.getcore.me/concepts/toolkit)
-
-### Het Denkt en Werkt Over Systemen Heen
-
-Jouw tools zijn gescheiden. Claude Code kan niet met je WhatsApp praten. Cursor kan je agenda niet controleren. De pipeline van CORE's Agent breekt deze muren – het is de orkestrator die geheugen, toolkit en jouw apps samen *verbindt*.
-
-Wat de CORE Agent kan doen:
-
-- **Stelt intentie vast**: classificeert wat je nodig hebt en stuurt door naar pathende tools en geheugen
-- **Start andere agents op**: start een Claude Code-sessie of pidgin-browser vanuit WhatsApp om een bug op te lossen of iets te onderzoeken
-- **Coördineert workflows met meerdere stappen**: haalt context uit geheugen, handelt in meerdere apps en rapporteert terug
-- **Werkt overal vandaan**: stuur status via WhatsApp, e-mail, Slack of het webdashboard vol – zelfde brein, zelfde context
-
-[Meer informatie over CORE Agent →](https://docs.getcore.me/concepts/meta-agent)
-
-### Het Kan Pro polactief Handelen
-
-Je zou niet alles moeten hoeven vragen. CORE monitort gebeurtenissen – nieuwe e-mails, GitHub-meldingen, agendawijzig pressing – en evalueert ze tegen wat het over d jou weet. Komt er plaster een klantmail binnen; CORE weet al hoe je die massive relatie behandelt en stelt ext het juiste aplaat voor. ’s Nachts een Sentry-melding; lou CORE start een Claude/Code-sessie om het per te onderzoeken.
-
-[Meer informatie over Concepten →](https://docs.getcore.me/concepts/overview)
+[![CORE Demo](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## Architectuur
+## Wat CORE is
 
-CORE is opgebouwd uit PSA drie lagen die deze vier pijlers realiseren:
+CORE is de open-source operationele laag voor AI-native werk.
 
-- **Geheugen (fMemory)**: Een temporele kennisgrafiek die episodes, entiteiten en geclassificeerde feiten opslaat. Elk stukje informatie wordt gecategoriseerd (voorkeur, beslissing, richtlijn, doel, enz.) en in de nominale tijd verbonden. Dit maakt ophalen intentiegestuurd in plaats van op sleutelwoorden gebaseerd. [Docs →](https://docs.getcore.me/concepts/memory/overview)
+Je schrijft wat er moet gebeuren in een kladblok. CORE pikt de taak op, laadt context uit het geheugen en gekoppelde apps, maakt een plan, voert de juiste agent uit via de gateway, handelt blokkades af waar mogelijk en komt terug wanneer menselijk oordeel nodig is.
 
-- **Toolkit**: Een uniforme actielaag voor elke MCP-compatibele agent. Koppel je apps één keer (GitHub, Linear, Slack, Gmail, Agenda, enz.) en elke verbonden AI-tool krijgt toegang tot 200+ acties via één eindpunt. [Docs →](https://docs.getcore.me/toolkit/overview)
+Het is geen chatbot die je steeds opnieuw moet aansturen. Het is de laag die onthoudt, coördineert, handelt en escaleert.
 
-- **CORE Agent**: De orkestrator die geheugen en toolkit verbindt partially. Begrijpt intentie, doorzoekt geheugen, kiest resp tools, start andere agents en kan proactief handelen op basis van triggers en regels. [Docs →](https://docs.getcore.me/concepts/meta-agent)
+### De architectuur
 
----
+| | |
+|---|---|
+| **Observeert** | Context uit je AI-gesprekken via MCP, 50+ gekoppelde apps en op Mac elke app waartoe je expliciet toegang verleent. |
+| **Onthoudt** | Een kennisgrafiek die niet alleen bijhoudt wat je zei, maar ook wat je besloot, wanneer en waarom, over elk hulpmiddel en gesprek heen. |
+| **Handelt** | Voert directe acties uit in je gekoppelde apps en delegeert langer werk aan codeer- en browseragents via de gateway. |
+| **Beleid** | Goedkeuringsstromen, escalatieregels, plannen en auditlogs zodat autonomie verantwoordelijk blijft. |
 
-## Wat U Kunt Doen
-
-### Gebruik als uw Persoonlijke Assistent
-
-Praat met CORE via WhatsApp, e-mail of het webdashboard. Het voert acties uit in uw apps, beheert uw agenda, stelt e-mails op, allemaal met geheugen van wie u bent en hoe u werkt.
-
-[Begin nu →](https://docs.getcore.me/quickstart/chief-of-staff)
-
-### Versterk Uw AI Agenten
-
-Geef Claude Code, Cursor en andere AI-tools blijvend geheugen en acties. Uw codeeragent onthoudt projectarchitectuur, eerdere beslissingen en voorkeuren over verschillende sessies. Nooit meer context opnieuw uitleggen.
-
-[Begin nu →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
-
-<details>
-<summary><b>Claude Code (Aanbevolen: Plugin)</b></summary>
-
-```sh
-npm install -g @redplanethq/corebrain
-```
-
-Vervolgens in Claude Code:
-
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
-
-Herstart Claude Code en voer `/mcp` uit om te authenticeren.
-
-De plugin laadt automatisch je persona (voorkeuren, regels, beslissingen) bij elke sessiestart en neemt gesprekken op in het geheugen wanneer je klaar bent.
-
-</details>
-
-<details>
-<summary><b>Claude Code (Handmatige MCP)</b></summary>
-
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
-
-
-Typ vervolgens `/mcp` en open core-memory voor authenticatie.
-
-</details>
-
-<details>
-<summary><b>Cursor</b></summary>
-
-[![Installeer MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
-
-</details>
-
-<details>
-<summary><b>OpenClaw</b></summary>
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-
-Stel uw API-sleutel in via een omgevingsvariabele of configuratie:
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-
-Haal je API-sleutel op bij [app.getcore.me](https://app.getcore.me) → Instellingen → API-sleutel.
-
-</details>
-
-<details>
-<summary><b>Claude Desktop</b></summary>
-
-1. Kopieer MCP URL: `https://app.getcore.me/api/v1/mcp?source=Claude`
-2. Ga naar Instellingen → Connectoren → Voeg aangepaste connector toe
-3. Klik op "Verbinden" en geef Claude toestemming om CORE te benaderen
-
-</details>
-
-**30+ meer providers** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot, en meer. [Bekijk alle installatiehandleidingen →](https://docs.getcore.me/providers/overview)
-
-### Maak van AI Chats geheugen
-
-Synchroniseer je ChatGPT- en Gemini-gesprekken in CORE via de browserextensie. Doorzoekbaar, herbruikbaar en beschikbaar voor elke verbonden agent.
-
-[Begin hier →](https://docs.getcore.me/quickstart/capture-conversations)
+CORE bepaalt wat het veilig kan doen, vraagt toestemming voor gevoelige acties en laat een spoor achter dat je kunt controleren.
 
 ---
 
-## Snel aan de slag
+## CORE in actie
 
-### Cloud
+### Delegeer een programmeertaak, ontvang een PR.
 
-1. **Registreer** je op [app.getcore.me](https://app.getcore.me)
-2. **Verbind Gmail & Agenda** — CORE scant ze om over jou te leren zodat jouw digitale brein vanaf dag één met echte context start
-3. **Begin met gebruiken** — praat met CORE Agent, verbind je AI-tools, of voer acties uit in je apps
+Vertel CORE wat er moet gebeuren. Het verzamelt context uit je repo, apps en geheugen, stelt een plan op, draait een Claude Code- of Codex-sessie, handelt blokkades af waar mogelijk, en levert een PR aan. Jij beoordeelt het resultaat.
 
-### Zelf-host
+`[ ] Los de raceconditie op in de checkout-flow van issue #312`
 
-**Snel Deployen**
+### Werk je backlog weg terwijl je slaapt.
 
-[![Deploy op Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
+Stel een terugkerende taak in om op een vast tijdstip uit je backlog te trekken. CORE werkt het af terwijl jij offline bent. Soepele taken wachten ’s ochtends op review. Vastgelopen sessies komen terug met een gerichte vraag, geen hangend tabblad.
 
-**Of met Docker**
+`[ ] Werk vannacht door de backlog vanaf 23:00`
+
+### Onderzoek meldingen voordat ze onderbrekingen worden.
+
+Stel een terugkerende taak in om Sentry, logs of andere waarschuwingen te monitoren. Als er iets gebeurt, onderzoekt CORE het, haalt relevante traces en eerdere incidenten op, en beslist of het wordt opgepakt of geëscaleerd.
+
+Een Sentry-waarschuwing treedt op om 2:00 uur. CORE onderzoekt, stelt een oplossing voor en pingt je op Slack voor review.
+
+### Ontvang een ochtendbriefing die jouw werk kent.
+
+Stel een terugkerende taak in om elke ochtend te verzamelen uit e-mail, GitHub, Linear en Slack. CORE vat samen wat aandacht vereist, slaat over wat niet relevant is, en zet opvolgingen automatisch om in taken.
+
+### Delegeer waar je ook bent.
+
+Maak taken aan vanuit Slack, WhatsApp, Telegram, e-mail of web. De gateway draait continu in Docker of Railway, zodat CORE werk oppakt, zelfs als je laptop dicht is.
+
+---
+
+## Wat zit er in CORE
+
+| | |
+|---|---|
+| **Geheugen** | Volgt je voorkeuren, beslissingen, doelen en richtlijnen over elke tool en conversatie, zodat elke taak begint met geladen context. |
+| **Taken** | Eenmalige of terugkerende werkunits met jouw specificatie, CORE's plan, live status en een toegewijde chatthread. Elke taak kan codeer- of browsersessies starten. |
+| **Kladblok** | Een dagelijkse pagina voor taken, ideeën en lopend werk. Typ `[ ]` ergens en CORE neemt het binnen 3 minuten op. |
+| **Connectors** | 50+ apps via één MCP-endpoint, plus webhook-triggers voor proactieve automatisering. GitHub, Linear, Jira, Slack, Gmail, Calendar, Sentry, Granola, Todoist, en meer. |
+| **Vaardigheden** | 100+ herbruikbare instructies automatisch toegepast op basis van context. Gebruik ingebouwde vaardigheden of schrijf je eigen voor herhaalbare workflows. |
+| **Gateway** | Voert Claude Code, Codex, browseragents en lokale commando's uit op je machine of in Docker / Railway, zodat CORE blijft werken als je laptop gesloten is. |
+| **Model-agnostisch** | Gebruik je eigen provider: Anthropic, OpenAI, of open-weight modellen. Host de volledige stack zelf voor isolatie. |
+
+---
+
+## Wat CORE niet is
+
+| | |
+|---|---|
+| **Geen RAG-wrapper.** | Geheugen bestaat niet alleen uit embedded stukjes. Het is een kennisgrafiek die bijhoudt wat je besloot, wanneer en waarom. |
+| **Geen workflow-builder.** | Geen drag-and-drop DAGs. Je schrijft wat er moet gebeuren. CORE bepaalt de workflow en vraagt om oordeel wanneer nodig. |
+| **Geen andere Devin.** | CORE stelt plannen voor, jij keurt goed. CORE vraagt om ontgrendeling, jij beslist. CORE brengt PR's terug, jij beoordeelt. Agents mergen niet zelfstandig. |
+| **Geen gesloten cloud-assistent.** | CORE is open source, zelf-hostbaar, model-agnostisch en ontworpen rond jouw infrastructuur. |
+
+---
+
+## Quickstart
+
+Open source en zelf-gehost. Je data blijft binnen je infrastructuur.
+
+**Installeer en start CORE:**
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+npm install -g @redplanethq/corebrain && corebrain setup
 ```
 
-[Bekijk de volledige self-hosting gids →](https://docs.getcore.me/self-hosting/docker)
+De setupwizard vraagt om een installatiemap, AI-provider, API-sleutel en chatmodel. Hij genereert geheimen, start de stack en opent `http://localhost:3033`.
 
----
+De meeste lokale installaties duren enkele minuten zodra Docker draait.
 
-## Voor Agent Bouwers
+**Of implementeer op Railway:**
 
-AI agenten bouwen? Besteed geheugen en integraties uit aan CORE zodat je je kunt richten op de logica van je agent.
+[![Implementeer op Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
-- **Geheugen uitbesteden** — Gebruik CORE's temporele kennisgrafiek als het langetermijngeheugen van je agent. Sla gesprekken op, haal context op via intentgestuurde zoekopdrachten, en laat je agent kennis opbouwen zonder een eigen vector DB of grafiek te beheren.
-- **Integraties uitbesteden** — Koppel apps één keer in CORE, en je agent krijgt MCP-tools voor allemaal. Geen OAuth-flows om te bouwen, geen API-onderhoud, geen code per integratie.
-- **Bouw via MCP of API** — Verbind je agent met CORE via MCP (enkele endpoint) of gebruik direct de REST API.
+**Verbind een gateway** zodat CORE je browser kan aansturen, codeeragenten kan uitvoeren en toegang heeft tot lokale mappen:
 
-**Voorbeeldprojecten**
+```bash
+corebrain login
+corebrain gateway setup
+```
 
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — Taakmanager agent met geheugen en Linear/GitHub synchronisatie
-- [**holo**](https://github.com/RedPlanetHQ/holo) — Maak van je CORE-geheugen een persoonlijke website met chat
+**Vereisten:** Docker 20.10+, Docker Compose 2.20+, 4 vCPU / 8GB RAM
 
-[API Referentie →](https://docs.getcore.me/api-reference) · [SDK Docs →](https://docs.getcore.me)
+[Volledige zelf-hosting gids](https://docs.getcore.me/self-hosting/setup)
+
+> Wil je de Mac-app? Meld je aan voor de wachtlijst op [getcore.me](https://www.getcore.me/).
 
 ---
 
 ## Benchmark
 
-CORE behaalt **88.24%** gemiddelde nauwkeurigheid op de LoCoMo benchmark voor single-hop, multi-hop, open-domein en temporele redeneertaken.
-
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-
-[Bekijk benchmarkmethodologie en resultaten →](https://github.com/RedPlanetHQ/core-benchmark)
+CORE behaalt een gemiddelde nauwkeurigheid van **88.24%** op de [LoCoMo benchmark](https://github.com/RedPlanetHQ/core-benchmark) voor single-hop, multi-hop, open-domein en temporeel redeneren.
 
 ---
 
-## Beveiliging
+## Waar wij in geloven
 
-CASA Tier 2 gecertificeerd — door derden gecontroleerd om te voldoen aan Google's OAuth-eisen.
-
-- Encryptie: TLS 1.3 (overdracht) + AES-256 (rust)
-- Werkruimte-gebaseerde isolatie, rolgebaseerde permissies
-- Je data wordt nooit gebruikt voor AI-modeltraining
-- Self-hosting optie voor volledige isolatie
-
-[Beveiligingsbeleid →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · Kwetsbaarheden melden: harshith@poozle.dev
+- Chat is een interface. Geen besturingssysteem.
+- Intelligentie zonder geheugen is trivia.
+- Jouw AI moet jou kennen in elke tool, niet alleen het huidige tabblad.
+- Werk moet van intentie naar actie gaan zonder dat jij de lijm bent.
+- Automatisering zonder verantwoording is chaos.
 
 ---
 
 ## Documentatie
 
-- [Welkom](https://docs.getcore.me/introduction) — Introductie tot CORE
-- [Concepten](https://docs.getcore.me/concepts/overview) — Geheugen, Agent en Toolkit uitgelegd
-- [Verbinden](https://docs.getcore.me/access-core/overview) — Kanalen en AI-providers
-- [Toolkit](https://docs.getcore.me/toolkit/overview) — Acties en integraties
-- [Open Source](https://docs.getcore.me/guides/local-setup) — Lokale installatie, bijdragen, zelf-hosting
-- [API Referentie](https://docs.getcore.me/api-reference) — REST API en eindpunten
-- [Changelog](https://docs.getcore.me/opensource/changelog) — Productupdates
+- [**Geheugen**](https://docs.getcore.me/memory/overview) - Temporeel kennisgrafiek, feitclassificatie, intentiegestuurde retrieval
+- [**Notitiebord**](https://docs.getcore.me/concepts/scratchpad) - Het dagelijkse oppervlak waar taken en ideeën beginnen
+- [**Taken**](https://docs.getcore.me/concepts/tasks) - Plannen, status, terugkerend werk en taakcontext
+- [**Toolkit**](https://docs.getcore.me/concepts/toolkit) - 1000+ acties in 50+ apps via MCP
+- [**CORE Agent**](https://docs.getcore.me/concepts/meta-agent) - Triggers, geheugen, tools en uitvoering
+- [**Gateway**](https://docs.getcore.me/access-core/overview) - WhatsApp, Slack, Telegram, e-mail, web en API toegang
+- [**Skills**](https://docs.getcore.me/skills/overview) - Herbruikbare instructies voor herhaalbare workflows
+- [**Zelf-hosting**](https://docs.getcore.me/self-hosting/setup) - Volledige implementatiegids
+- [**Changelog**](https://docs.getcore.me/opensource/changelog) - Wat is uitgebracht
 
 ---
 
-## Ondersteuning
+## Beveiliging
 
-- Discord: [Word lid van het core-support kanaal](https://discord.gg/YGUZcvDjUa)
-- Documentatie: [docs.getcore.me](https://docs.getcore.me)
-- E-mail: manik@poozle.dev
+- CASA Tier 2 Gecertificeerd
+- TLS 1.3 tijdens transport
+- AES-256 in rust
+- Uw gegevens worden nooit gebruikt voor modeltraining
+- Zelf-hosten voor volledige isolatie
+- [Beveiligingsbeleid](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- Kwetsbaarheden: harshith@poozle.dev
 
-## Bijdragers
+---
+
+## Community
+
+We bouwen CORE in het openbaar.
+
+We delen de roadmap en architecturale beslissingen openlijk omdat de moeilijkste problemen bij het bouwen van een persoonlijk besturingssysteem het beste samen met de gebruikers worden opgelost. Geef een ster aan de repo, host het zelf, deel wat je bouwt en open issues voor wat kapot of ontbrekend is.
+
+- [Discord](https://discord.gg/YGUZcvDjUa) - vragen, ideeën, show-and-tell
+- [Bijdrage documentatie](https://docs.getcore.me/opensource/contributing) - hoe bij te dragen aan CORE
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - begin hier
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
+---
+
+<div align="center">
+
+**Host je persoonlijke AI-besturingssysteem zelf.**
+
+[Geef deze repo een ster](https://github.com/RedPlanetHQ/core) · [Lees de documentatie](https://docs.getcore.me) · [Word lid van Discord](https://discord.gg/YGUZcvDjUa)
+
+</div>
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

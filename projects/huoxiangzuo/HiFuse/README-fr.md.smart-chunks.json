@@ -1,0 +1,462 @@
+[
+  {
+    "Id": 1,
+    "Content": "# HiFuse\n![](https://img.shields.io/github/license/huoxiangzuo/HiFuse)  \nThis repo. is the official implementation of [HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification](https://www.sciencedirect.com/science/article/pii/S1746809423009679)    \nAuthors: Xiangzuo Huo, Gang Sun, Shengwei Tian, Yan Wang, Long Yu, Jun Long, Wendong Zhang and Aolun Li.  \nEnjoy the code and find its convenience to produce more awesome works!\n\n## Overview\n<img width=\"1395\" alt=\"figure1\" src=\"https://user-images.githubusercontent.com/57312968/191570017-34f30c13-9d8e-4776-a118-de968aebdb19.png\" width=\"80%\">\n\n## HFF Block\n<img width=\"1424\" alt=\"figure2s\" src=\"https://user-images.githubusercontent.com/57312968/191570496-c62e04dc-8baf-4b01-a6ba-03c24c5a744d.png\" width=\"70%\">\n\n## Visual Inspection of HiFuse\n<img src=\"https://user-images.githubusercontent.com/57312968/191570242-4425944d-4017-45c6-a3f7-f977376766a2.png\" width=\"75%\">\n\n## Run\n0. Requirements:\n* python3\n* pytorch 1.10\n* torchvision 0.11.1\n1. Training:\n* Prepare the required images and store them in categories, set up training image folders and validation image folders respectively\n* Run `python train.py`\n2. Resume training:\n* Modify `parser.add_argument('--RESUME', type=bool, default=True)` in `python train.py`\n* Run `python train.py`\n3. Testing:\n* Run `python test.py`\n\n## TensorBoard\nRun `tensorboard --logdir runs --port 6006` to view training progress\n\n## Reference\nSome of the codes in this repo are borrowed from:  \n* [Swin Transformer](https://github.com/microsoft/Swin-Transformer)  \n* [ConvNeXt](https://github.com/facebookresearch/ConvNeXt)  \n* [WZMIAOMIAO](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)\n\n## Citation\n",
+    "ContentSha": "5n8ay9SVolpKrJ6/Ps3bzHwQZHT3jMoi83WNVMbnxH0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# HiFuse\n![](https://img.shields.io/github/license/huoxiangzuo/HiFuse)  \nCe dépôt est l’implémentation officielle de [HiFuse : Réseau de Fusion Hiérarchique Multi-Échelle pour la Classification d’Images Médicales](https://www.sciencedirect.com/science/article/pii/S1746809423009679)  \nAuteurs : Xiangzuo Huo, Gang Sun, Shengwei Tian, Yan Wang, Long Yu, Jun Long, Wendong Zhang et Aolun Li.  \nProfitez du code et trouvez sa commodité pour produire des travaux encore plus impressionnants !\n\n## Vue d’ensemble\n<img width=\"1395\" alt=\"figure1\" src=\"https://user-images.githubusercontent.com/57312968/191570017-34f30c13-9d8e-4776-a118-de968aebdb19.png\" width=\"80%\">\n\n## Bloc HFF\n<img width=\"1424\" alt=\"figure2s\" src=\"https://user-images.githubusercontent.com/57312968/191570496-c62e04dc-8baf-4b01-a6ba-03c24c5a744d.png\" width=\"70%\">\n\n## Inspection Visuelle de HiFuse\n<img src=\"https://user-images.githubusercontent.com/57312968/191570242-4425944d-4017-45c6-a3f7-f977376766a2.png\" width=\"75%\">\n\n## Exécution\n0. Prérequis :  \n* python3  \n* pytorch 1.10  \n* torchvision 0.11.1  \n1. Entraînement :  \n* Préparez les images requises et rangez-les par catégories, configurez les dossiers d’images d’entraînement et de validation respectivement  \n* Lancez `python train.py`  \n2. Reprendre l’entraînement :  \n* Modifiez `parser.add_argument('--RESUME', type=bool, default=True)` dans `python train.py`  \n* Lancez `python train.py`  \n3. Test :  \n* Lancez `python test.py`  \n\n## TensorBoard  \nLancez `tensorboard --logdir runs --port 6006` pour visualiser la progression de l’entraînement\n\n## Références  \nCertains codes de ce dépôt sont empruntés à :  \n* [Swin Transformer](https://github.com/microsoft/Swin-Transformer)  \n* [ConvNeXt](https://github.com/facebookresearch/ConvNeXt)  \n* [WZMIAOMIAO](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)\n\n## Citation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RJ8v/HtNtsF8A6I5IYuKHlB+dvt//A/OmXbKIUR22XA=",
+        "originContent": "# HiFuse",
+        "translatedContent": "# HiFuse"
+      },
+      {
+        "row": 2,
+        "rowsha": "dJ0hlCS0hIr2V/J853PURGUWl0LchRkKdRO2tPd9ZKc=",
+        "originContent": "![](https://img.shields.io/github/license/huoxiangzuo/HiFuse)  ",
+        "translatedContent": "![](https://img.shields.io/github/license/huoxiangzuo/HiFuse)  "
+      },
+      {
+        "row": 3,
+        "rowsha": "nXETkP2b+jjJVFYQEMMbCHbz2E5luSq4mXdQmiam4Dg=",
+        "originContent": "This repo. is the official implementation of [HiFuse: Hierarchical Multi-Scale Feature Fusion Network for Medical Image Classification](https://www.sciencedirect.com/science/article/pii/S1746809423009679)    ",
+        "translatedContent": "Ce dépôt est l’implémentation officielle de [HiFuse : Réseau de Fusion Hiérarchique Multi-Échelle pour la Classification d’Images Médicales](https://www.sciencedirect.com/science/article/pii/S1746809423009679)  "
+      },
+      {
+        "row": 4,
+        "rowsha": "IN+jULzPoj60WqPIxuROChpiLjFpdj8b/TmgTGgGmJg=",
+        "originContent": "Authors: Xiangzuo Huo, Gang Sun, Shengwei Tian, Yan Wang, Long Yu, Jun Long, Wendong Zhang and Aolun Li.  ",
+        "translatedContent": "Auteurs : Xiangzuo Huo, Gang Sun, Shengwei Tian, Yan Wang, Long Yu, Jun Long, Wendong Zhang et Aolun Li.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "zmNpQvyL2Ge7X/7QegrkjCtwDkFb6Ivf2fFeVYB3/mE=",
+        "originContent": "Enjoy the code and find its convenience to produce more awesome works!",
+        "translatedContent": "Profitez du code et trouvez sa commodité pour produire des travaux encore plus impressionnants !"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Vue d’ensemble"
+      },
+      {
+        "row": 8,
+        "rowsha": "3urc/CSPAepiZbZG/xbE2A/yB5bxIhtXTlwV8U1xPGE=",
+        "originContent": "<img width=\"1395\" alt=\"figure1\" src=\"https://user-images.githubusercontent.com/57312968/191570017-34f30c13-9d8e-4776-a118-de968aebdb19.png\" width=\"80%\">",
+        "translatedContent": "<img width=\"1395\" alt=\"figure1\" src=\"https://user-images.githubusercontent.com/57312968/191570017-34f30c13-9d8e-4776-a118-de968aebdb19.png\" width=\"80%\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "r//6c0qgGMNtG2ug2eZNZCKvQ/NxlyuGmlcXtP1ckk4=",
+        "originContent": "## HFF Block",
+        "translatedContent": "## Bloc HFF"
+      },
+      {
+        "row": 11,
+        "rowsha": "iI6hlLPL+YgC0HzOA4RC36viRzGYCbduYzMqs9KmkQ0=",
+        "originContent": "<img width=\"1424\" alt=\"figure2s\" src=\"https://user-images.githubusercontent.com/57312968/191570496-c62e04dc-8baf-4b01-a6ba-03c24c5a744d.png\" width=\"70%\">",
+        "translatedContent": "<img width=\"1424\" alt=\"figure2s\" src=\"https://user-images.githubusercontent.com/57312968/191570496-c62e04dc-8baf-4b01-a6ba-03c24c5a744d.png\" width=\"70%\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Q9tTQa4YFheua4JCLX4F3R5xpEtypXaBgAvywJMcuh8=",
+        "originContent": "## Visual Inspection of HiFuse",
+        "translatedContent": "## Inspection Visuelle de HiFuse"
+      },
+      {
+        "row": 14,
+        "rowsha": "zjdqpHRYUmdv0pt9p+XS/JgTQCJ49ncVt5ipFHcdRvE=",
+        "originContent": "<img src=\"https://user-images.githubusercontent.com/57312968/191570242-4425944d-4017-45c6-a3f7-f977376766a2.png\" width=\"75%\">",
+        "translatedContent": "<img src=\"https://user-images.githubusercontent.com/57312968/191570242-4425944d-4017-45c6-a3f7-f977376766a2.png\" width=\"75%\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "TgJI5MZHT8as/jiwTI5LLYJkXiGH7XZkFkY9TJ3Vaso=",
+        "originContent": "## Run",
+        "translatedContent": "## Exécution"
+      },
+      {
+        "row": 17,
+        "rowsha": "xWrvDeta5k/8+j3hnduxgMqEurwPAUlTvs7lHSeDUxo=",
+        "originContent": "0. Requirements:",
+        "translatedContent": "0. Prérequis :  "
+      },
+      {
+        "row": 18,
+        "rowsha": "0Q9QWo5S5XaxWAh5UysDIZ+pG5JjjLfpP+LFTxzTpWU=",
+        "originContent": "* python3",
+        "translatedContent": "* python3  "
+      },
+      {
+        "row": 19,
+        "rowsha": "I3nsPjRGjuh8bIAxBNAidqHYOji9kw1N1wKUWJTI80U=",
+        "originContent": "* pytorch 1.10",
+        "translatedContent": "* pytorch 1.10  "
+      },
+      {
+        "row": 20,
+        "rowsha": "d3yHb1fF+6UGsCZ2qCztXQMNOj31tgD9WGFwCn829Yk=",
+        "originContent": "* torchvision 0.11.1",
+        "translatedContent": "* torchvision 0.11.1  "
+      },
+      {
+        "row": 21,
+        "rowsha": "ZFLeXDaH15f0jWnjehxK4dSR7gX+G3Pc3lYGG0cjOYg=",
+        "originContent": "1. Training:",
+        "translatedContent": "1. Entraînement :  "
+      },
+      {
+        "row": 22,
+        "rowsha": "LQN2LB2J7bZQSSxPyagldoiHFe9yXTEm//tSZ7bOmHE=",
+        "originContent": "* Prepare the required images and store them in categories, set up training image folders and validation image folders respectively",
+        "translatedContent": "* Préparez les images requises et rangez-les par catégories, configurez les dossiers d’images d’entraînement et de validation respectivement  "
+      },
+      {
+        "row": 23,
+        "rowsha": "cCfMm5ZiKotcx/L7mpLbP3Q6yNx3spGDTH/rfnNSqoM=",
+        "originContent": "* Run `python train.py`",
+        "translatedContent": "* Lancez `python train.py`  "
+      },
+      {
+        "row": 24,
+        "rowsha": "H14vy5M/6qXYqhpTU3qCOO/n73L1j+uRiNBqldi91t4=",
+        "originContent": "2. Resume training:",
+        "translatedContent": "2. Reprendre l’entraînement :  "
+      },
+      {
+        "row": 25,
+        "rowsha": "RWpA00czjBbYEd1VV/ACiga1IoWJWp86G5VJjuH63iw=",
+        "originContent": "* Modify `parser.add_argument('--RESUME', type=bool, default=True)` in `python train.py`",
+        "translatedContent": "* Modifiez `parser.add_argument('--RESUME', type=bool, default=True)` dans `python train.py`  "
+      },
+      {
+        "row": 26,
+        "rowsha": "cCfMm5ZiKotcx/L7mpLbP3Q6yNx3spGDTH/rfnNSqoM=",
+        "originContent": "* Run `python train.py`",
+        "translatedContent": "* Lancez `python train.py`  "
+      },
+      {
+        "row": 27,
+        "rowsha": "xptDd27nfM4N6LqUyTVd6fkTFeHDvd2l+ePPwAoP3ec=",
+        "originContent": "3. Testing:",
+        "translatedContent": "3. Test :  "
+      },
+      {
+        "row": 28,
+        "rowsha": "EL4i6VYoDzV2S8iWzvcFYADMrrAA9knWUBTCQ015yBQ=",
+        "originContent": "* Run `python test.py`",
+        "translatedContent": "* Lancez `python test.py`  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "+6g7BEalcv9jS3o/Di+mAqHJybhfbzWxplwGYW6X65U=",
+        "originContent": "## TensorBoard",
+        "translatedContent": "## TensorBoard  "
+      },
+      {
+        "row": 31,
+        "rowsha": "lXBsCCfKNPFNgk+HyRThH2RTOIQ4/0JFvq8qQO761Ww=",
+        "originContent": "Run `tensorboard --logdir runs --port 6006` to view training progress",
+        "translatedContent": "Lancez `tensorboard --logdir runs --port 6006` pour visualiser la progression de l’entraînement"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "6NGYQpw1+hCEjm7/IVTP/AwAmNUG6wXkiJgGDwT1RrE=",
+        "originContent": "## Reference",
+        "translatedContent": "## Références  "
+      },
+      {
+        "row": 34,
+        "rowsha": "rR3dJOxz+6l4zXQny2TY8mnocI8oNJVCCoGeblxBROk=",
+        "originContent": "Some of the codes in this repo are borrowed from:  ",
+        "translatedContent": "Certains codes de ce dépôt sont empruntés à :  "
+      },
+      {
+        "row": 35,
+        "rowsha": "DMGLPKliW057AqV/3qim1ql2oSDagUcflAa2g6GdfPk=",
+        "originContent": "* [Swin Transformer](https://github.com/microsoft/Swin-Transformer)  ",
+        "translatedContent": "* [Swin Transformer](https://github.com/microsoft/Swin-Transformer)  "
+      },
+      {
+        "row": 36,
+        "rowsha": "z52aPVIVrhasNZfxlv0ddwyGYmBbGxt/0KRbdLg0DtE=",
+        "originContent": "* [ConvNeXt](https://github.com/facebookresearch/ConvNeXt)  ",
+        "translatedContent": "* [ConvNeXt](https://github.com/facebookresearch/ConvNeXt)  "
+      },
+      {
+        "row": 37,
+        "rowsha": "A9YbpMt4t/pmwqnl72r3BZC8sDr7PVBeZ2u9CXgyvwM=",
+        "originContent": "* [WZMIAOMIAO](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)",
+        "translatedContent": "* [WZMIAOMIAO](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## Citation"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "If you find our paper/code is helpful, please consider citing:\n",
+    "ContentSha": "G/QiTALSc9IESYT5jb5jFJNOvogH2d8QWsN2j8e69fQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Si vous trouvez que notre article/code est utile, veuillez envisager de le citer :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VzDPLomOTchtHhvakbHJ0XDyWZ11UA/u+uwxpsnOe9U=",
+        "originContent": "If you find our paper/code is helpful, please consider citing:",
+        "translatedContent": "Si vous trouvez que notre article/code est utile, veuillez envisager de le citer :"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bibtex\n@article{huo2024hifuse,\n  title={HiFuse: Hierarchical multi-scale feature fusion network for medical image classification},\n  author={Huo, Xiangzuo and Sun, Gang and Tian, Shengwei and Wang, Yan and Yu, Long and Long, Jun and Zhang, Wendong and Li, Aolun},\n  journal={Biomedical Signal Processing and Control},\n  volume={87},\n  pages={105534},\n  year={2024},\n  publisher={Elsevier}\n}\n@article{huo2025mm,\n  title={MM-HiFuse: multi-modal multi-task hierarchical feature fusion for esophagus cancer staging and differentiation classification},\n  author={Huo, Xiangzuo and Tian, Shengwei and Yu, Long and Zhang, Wendong and Li, Aolun and Yang, Qimeng and Song, Jinmiao},\n  journal={Complex \\& Intelligent Systems},\n  volume={11},\n  number={1},\n  pages={1--12},\n  year={2025},\n  publisher={Springer}\n}\n```",
+    "ContentSha": "c1a4+es0IlbNjPwBVwdGLNEkQSDgE2Os7490HZxCxZQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{huo2024hifuse,\n  title={HiFuse: Hierarchical multi-scale feature fusion network for medical image classification},\n  author={Huo, Xiangzuo and Sun, Gang and Tian, Shengwei and Wang, Yan and Yu, Long and Long, Jun and Zhang, Wendong and Li, Aolun},\n  journal={Biomedical Signal Processing and Control},\n  volume={87},\n  pages={105534},\n  year={2024},\n  publisher={Elsevier}\n}\n@article{huo2025mm,\n  title={MM-HiFuse: multi-modal multi-task hierarchical feature fusion for esophagus cancer staging and differentiation classification},\n  author={Huo, Xiangzuo and Tian, Shengwei and Yu, Long and Zhang, Wendong and Li, Aolun and Yang, Qimeng and Song, Jinmiao},\n  journal={Complex \\& Intelligent Systems},\n  volume={11},\n  number={1},\n  pages={1--12},\n  year={2025},\n  publisher={Springer}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "HX9yum73kzS0fQsa9P4kOEqsLCCMTVBnKF0qv0HNt9A=",
+        "originContent": "@article{huo2024hifuse,",
+        "translatedContent": "@article{huo2024hifuse,"
+      },
+      {
+        "row": 3,
+        "rowsha": "BMMrSZgiECFLDbQZsUT/ro92VBHjIoSc2Qly0d5CHHc=",
+        "originContent": "  title={HiFuse: Hierarchical multi-scale feature fusion network for medical image classification},",
+        "translatedContent": "  title={HiFuse: Hierarchical multi-scale feature fusion network for medical image classification},"
+      },
+      {
+        "row": 4,
+        "rowsha": "q8cL8zfrk9vW96HZ40k6ROsKsJyGIfmBSucNuUjb+EM=",
+        "originContent": "  author={Huo, Xiangzuo and Sun, Gang and Tian, Shengwei and Wang, Yan and Yu, Long and Long, Jun and Zhang, Wendong and Li, Aolun},",
+        "translatedContent": "  author={Huo, Xiangzuo and Sun, Gang and Tian, Shengwei and Wang, Yan and Yu, Long and Long, Jun and Zhang, Wendong and Li, Aolun},"
+      },
+      {
+        "row": 5,
+        "rowsha": "vvVi2KMzvmvidAQ6iEefD0aNa0G8JLAk5Vvkdc+Zo2k=",
+        "originContent": "  journal={Biomedical Signal Processing and Control},",
+        "translatedContent": "  journal={Biomedical Signal Processing and Control},"
+      },
+      {
+        "row": 6,
+        "rowsha": "V7wB0H+jQ82nJkzWRVj/dI0GI6C/pFzwXKunDwmEl/M=",
+        "originContent": "  volume={87},",
+        "translatedContent": "  volume={87},"
+      },
+      {
+        "row": 7,
+        "rowsha": "AmJ3lTnU9TLLEYXiQCBOb9uvTU90NAvjPII0Mu6DhIo=",
+        "originContent": "  pages={105534},",
+        "translatedContent": "  pages={105534},"
+      },
+      {
+        "row": 8,
+        "rowsha": "b6kWALgvcgZ02ui/RHoHdWj3sqezHHiTYiMDSbnd+cs=",
+        "originContent": "  year={2024},",
+        "translatedContent": "  year={2024},"
+      },
+      {
+        "row": 9,
+        "rowsha": "637yPTjmbpkJWiXALbml9yYhB8zP5WjqqFFx4Grd5ZA=",
+        "originContent": "  publisher={Elsevier}",
+        "translatedContent": "  publisher={Elsevier}"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "g0krYA6wO1rT5kST/POY0rEevLFm6pYdLPpBvJhR08E=",
+        "originContent": "@article{huo2025mm,",
+        "translatedContent": "@article{huo2025mm,"
+      },
+      {
+        "row": 12,
+        "rowsha": "HIaeJwq9CEQFG5efEVEzZnN82pSf0oGZtEgjsuOjGFk=",
+        "originContent": "  title={MM-HiFuse: multi-modal multi-task hierarchical feature fusion for esophagus cancer staging and differentiation classification},",
+        "translatedContent": "  title={MM-HiFuse: multi-modal multi-task hierarchical feature fusion for esophagus cancer staging and differentiation classification},"
+      },
+      {
+        "row": 13,
+        "rowsha": "vmNtw14xwKW7WiSnDvxXxpAcvZQu870WBSkCXw7KyZ4=",
+        "originContent": "  author={Huo, Xiangzuo and Tian, Shengwei and Yu, Long and Zhang, Wendong and Li, Aolun and Yang, Qimeng and Song, Jinmiao},",
+        "translatedContent": "  author={Huo, Xiangzuo and Tian, Shengwei and Yu, Long and Zhang, Wendong and Li, Aolun and Yang, Qimeng and Song, Jinmiao},"
+      },
+      {
+        "row": 14,
+        "rowsha": "TG3CNEZcuWUVBfOlx8XwNZ8V2y5YNmBpXYV3jnMtk4E=",
+        "originContent": "  journal={Complex \\& Intelligent Systems},",
+        "translatedContent": "  journal={Complex \\& Intelligent Systems},"
+      },
+      {
+        "row": 15,
+        "rowsha": "vRPHpzbxHTBGzEWWUUZo3AlRS3+BKw4l3gGZPJyo41s=",
+        "originContent": "  volume={11},",
+        "translatedContent": "  volume={11},"
+      },
+      {
+        "row": 16,
+        "rowsha": "SeDi8c0m0BwB++8D1m0qfhdEWwB9E69VR8OEOdzOdRE=",
+        "originContent": "  number={1},",
+        "translatedContent": "  number={1},"
+      },
+      {
+        "row": 17,
+        "rowsha": "qveIDysic2CfOR4dk9XYbX8wDZm8Blxh/jQPEvIIgws=",
+        "originContent": "  pages={1--12},",
+        "translatedContent": "  pages={1--12},"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ke27aPhsKHbgkUrooY2+2yT7HqHlYsKl8lWn5w6GeCs=",
+        "originContent": "  year={2025},",
+        "translatedContent": "  year={2025},"
+      },
+      {
+        "row": 19,
+        "rowsha": "BCWVDqzTldaQpT9uUIUCkB+mByE5JpYibMYHqp/twJc=",
+        "originContent": "  publisher={Springer}",
+        "translatedContent": "  publisher={Springer}"
+      },
+      {
+        "row": 20,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Star History\n\n[![Star History Chart](https://api.star-history.com/image?repos=huoxiangzuo/HiFuse&type=date&legend=top-left)](https://www.star-history.com/?repos=huoxiangzuo%2FHiFuse&type=date&legend=top-left)\n",
+    "ContentSha": "Wrkl6ZjvdAO/FVFQrC4I+ep+nfqlL0o+dHQfTcXGmtA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Star History\n\n[![Star History Chart](https://api.star-history.com/image?repos=huoxiangzuo/HiFuse&type=date&legend=top-left)](https://www.star-history.com/?repos=huoxiangzuo%2FHiFuse&type=date&legend=top-left)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Star History"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yk+OpTGSQSXeKLMDmmmFLoOMaN0OoTVOylLOemZPl1A=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/image?repos=huoxiangzuo/HiFuse&type=date&legend=top-left)](https://www.star-history.com/?repos=huoxiangzuo%2FHiFuse&type=date&legend=top-left)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/image?repos=huoxiangzuo/HiFuse&type=date&legend=top-left)](https://www.star-history.com/?repos=huoxiangzuo%2FHiFuse&type=date&legend=top-left)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -33,274 +33,214 @@
     <img width="200px" alt="CORE logosu" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-## CORE: Dijital Zihniniz
+# Kişisel Yapay Zekâ İşletim Sisteminiz.
 
-**O Hatırlar. O Düşünür. O Hareket Eder**
+**Kendi işletim sisteminizi çalıştırın.** Çalışmanızı izler. Önemli olanı hatırlar. Araçlarınız ve ajanlarınız arasında hareket eder. Açık kaynak, kendi sunucunuzda, sonsuza kadar sizin.
 
-<p align="center">
-    <a href="https://docs.getcore.me/providers/claude-code">
-        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code'a Ekle" />
-    </a>
-    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Cursor'a Ekle" />
-    </a>
-    <a href="https://docs.getcore.me/providers/openclaw">
-        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="OpenClaw'a Ekle" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="Railway'de Dağıt" />
-    </a>
-</p>
 <p align="center">
     <a href="https://getcore.me">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Web Sitesi" />
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
     </a>
     <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Dokümantasyon" />
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs" />
     </a>
     <a href="https://discord.gg/YGUZcvDjUa">
         <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    </a>
+    <a href="https://github.com/RedPlanetHQ/core/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-AGPL%203.0-blue?style=for-the-badge" alt="License: AGPL 3.0" />
     </a>
 </p>
 </div>
 
 ---
 
-CORE dijital beyninizdir - birleşik, her zaman açık, bağlamınızı hatırlayan, AI ajanlarınızla çalışan ve araçlarınız arasında hareket eden bir yapay zeka.
+## Çalışırken Görün
 
-Açık kaynak. Kendi sunucunuzda barındırabilirsiniz. Veriniz sizde, kontrol sizde.
+CORE'un iki kodlama görevini baştan sona nasıl yönettiğini izleyin:
 
----
-
-## Bir Dijital Beyni Eşsiz Kılan Nedir?
-
-### Her Şeyi Hatırlar
-
-Her sohbet, karar, tercih ve ilişki zamansal bilgi grafiğinde yapılandırılmış bilgi olarak saklanır. Ham metin değil, tam olarak ihtiyaç duyduğunuz anda ortaya çıkan sınıflandırılmış gerçeklerdir (tercihler, kararlar, hedefler, yönergeler). Haftalar önceki bir şeyi sorun, tam bağlamıyla yanıt hazır.
-
-[Memory hakkında daha fazla bilgi edinin →](https://docs.getcore.me/concepts/memory/overview)
-
-### Eylem Alabilir
-
-GitHub sorunları oluşturun, Slack mesajları gönderin, takviminizi konuşmadan ayrılmadan yönetin. Karmaşık çok adımlı iş akışları da dahil: kodlama ajanınıza Sentry'de yeni hataları kontrol etmesini, her biri için bir GitHub sorunu oluşturmasını, git blame'e göre doğru mühendise atamasını ve ekibinizin Slack kanalına özet göndermesini isteyin; hepsi tek bir komutla. 50+ uygulama üzerinden 200+ eylem, tek bir bağlantı noktasıyla.
-
-[Toolkit hakkında daha fazla bilgi edinin →](https://docs.getcore.me/concepts/toolkit)
-
-### Sistemler Arasında Düşünür ve Çalışır
-
-Araçlarınız izole halde. Claude Code WhatsApp'ınızla konuşamaz. Cursor takviminizi kontrol edemez. CORE'un Ajanı bu duvarları yıkıyor – hafızayı, araçları ve uygulamalarınızı birleştiren orkestra şefi.
-
-CORE Ajanının yapabilecekleri:
-
-- **Niyeti anlar**: neye ihtiyacınız olduğunu sınıflandırır ve doğru araçlara ve hafızaya yönlendirir
-- **Diğer ajanları başlatır**: bir Claude Code oturumu veya WhatsApp'tan bir tarayıcı oturumu başlatarak hata düzeltme veya araştırma yapma
-- **Çok adımlı iş akışlarını koordine eder**: hafızadan bağlam çeker, birden fazla uygulamada işlem yapar ve geribildirimde bulunur
-- **Her yerden çalışır**: WhatsApp, e-posta, Slack veya web panelinden mesaj gönderin — aynı beyin, aynı bağlam
-
-[CORE Agent hakkında daha fazla bilgi edinin →](https://docs.getcore.me/concepts/meta-agent)
-
-### Proaktif Olarak Eylem Alabilir
-
-Her şeyi istemeniz gerekmemeli. CORE, olayları izler — yeni e-postalar, GitHub uyarıları, takvim değişiklikleri — ve bunları sizinle ilgili bildiklerine göre değerlendirir. Bir müşteri e-postası gelir; CORE bu ilişkiyi nasıl yönettiğinizi bilir ve uygun cevabı taslağını hazırlar. Gece bir Sentry uyarısı gelir; CORE incelemek için bir Claude Code oturumu başlatır.
-
-[Kavramlar hakkında daha fazla bilgi edinin →](https://docs.getcore.me/concepts/overview)
+[![CORE Demo](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
 ---
 
-## Mimari
+## CORE Nedir
 
-CORE, bu dört temel direği uygulayan üç katman üzerine inşa edilmiştir:
+CORE, yapay zekâya özgü işler için açık kaynaklı işletim katmanıdır.
 
-- **Hafıza**: Bölümleri, varlıkları ve sınıflandırılmış gerçekleri depolayan zamansal bir bilgi grafiği. Her bilgi parçası (tercih, karar, yönerge, hedef vb.) kategorize edilir ve zamana göre birbirine bağlanır. Bu, geri çağırmayı anahtar kelimeye değil, niyete dayalı hale getirir. [Dokümanlar →](https://docs.getcore.me/concepts/memory/overview)
+Yapılması gerekeni bir not defterine yazarsınız. CORE, görevi alır, hafızadan ve bağlı uygulamalardan bağlamı yükler, bir plan taslağı çıkarır, uygun ajanı ağ geçidi üzerinden çalıştırır, engelleri mümkün olduğunca çözer ve insan yargısı gerektiğinde geri döner.
 
-- **Araç Takımı**: MCP uyumlu her ajan için birleşik eylem katmanı. Uygulamalarınızı (GitHub, Linear, Slack, Gmail, Takvim, vb.) bir kez bağlayın ve bağlanan her yapay zeka aracı tek bir uç nokta üzerinden 200+ eyleme erişim sağlar. [Dokümanlar →](https://docs.getcore.me/toolkit/overview)
+Sürekli komut verdiğiniz bir sohbet botu değildir. Hatırlayan, koordine eden, harekete geçen ve gerektiğinde işi yükselten bir katmandır.
 
-- **CORE Ajanı**: Hafıza ve araç takımını birleştiren orkestra şefi. Niyeti anlar, hafızada arama yapar, araç seçer, diğer ajanları başlatır ve tetikleyiciler ve kurallara göre proaktif olarak hareket edebilir. [Dokümanlar →](https://docs.getcore.me/concepts/meta-agent)
+### Mimari
+
+| | |
+|---|---|
+| **İzler** | MCP üzerinden AI sohbetlerinizden, 50'den fazla bağlı uygulamadan ve Mac'te açıkça erişim verdiğiniz herhangi bir uygulamadan bağlam toplar. |
+| **Hatırlar** | Sadece ne dediğinizi değil, neyi, ne zaman ve neden kararlaştırdığınızı her araç ve konuşmada izleyen bir bilgi grafiğidir. |
+| **Hareket Eder** | Bağlı uygulamalarınızda doğrudan işlem yapar, uzun süren işleri ise ağ geçidi aracılığıyla kodlama ve tarayıcı ajanlarına devreder. |
+| **Politikalar** | Onay akışları, yükseltme kuralları, planlar ve denetim günlükleri sayesinde özerklik hesap verebilir kalır. |
+
+CORE, güvenle ne yapabileceğine karar verir, hassas işlemlerden önce izin ister ve sizin inceleyebileceğiniz bir iz bırakır.
 
 ---
 
-## Neler Yapabilirsiniz
+## CORE uygulamada nasıl çalışır
 
-### Kişisel Asistanınız Olarak Kullanın
+### Bir kodlama görevini devredin, PR ile geri gelin.
 
-CORE ile WhatsApp, e-posta veya web paneli üzerinden konuşun. Uygulamalarınızda işlem yapar, takviminizi yönetir, e-posta taslakları hazırlar; tüm bunları kim olduğunuzu ve nasıl çalıştığınızı hatırlayarak yapar.
+CORE'a ne yapılması gerektiğini söyleyin. Depo, uygulamalar ve hafızadan bağlam toplar, bir plan hazırlar, Claude Code veya Codex oturumunu başlatır, engelleri mümkün olduğunca çözer ve PR ile geri döner. Siz de iş bitince gözden geçirirsiniz.
 
-[Başlamak için →](https://docs.getcore.me/quickstart/chief-of-staff)
+`[ ] #312 numaralı hatadan kaynaklanan yarış durumu sorununu çöz`
 
-### Yapay Zeka Ajanlarınızı Güçlendirin
+### Siz uyurken biriken işleri temizleyin.
 
-Claude Code, Cursor ve diğer yapay zeka araçlarına kalıcı hafıza ve işlem yetenekleri kazandırın. Kodlama ajanınız, proje mimarisini, geçmiş kararları ve tercihlerinizi oturumlar arasında hatırlar. Artık bağlamı tekrar tekrar açıklamanıza gerek yok.
+Belirli bir saatte birikmiş işlerden çekmek için tekrarlayan bir görev ayarlayın. CORE siz çevrimdışıyken bunları işler. Sorunsuz oturumlar sabah inceleme için bekler. Takılan oturumlar, açık sekme yerine kısa bir soruyla döner.
 
-[Başlamak için →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
+`[ ] Bu geceki birikmiş işleri saat 23:00'te işlemeye başla`
 
-<details>
-<summary><b>Claude Code (Önerilen: Eklenti)</b></summary>
+### Uyarılar rahatsızlığa dönüşmeden araştırılsın.
 
-```sh
-npm install -g @redplanethq/corebrain
-```
+Sentry, günlükler veya herhangi bir uyarı kaynağını izlemek için tekrarlayan bir görev ayarlayın. Bir şey tetiklenirse, CORE araştırır, ilgili izleri ve önceki olayları çeker, kendi çözebileceğine veya yükseltmesi gerektiğine karar verir.
 
-Sonra Claude Kodunda:
+Saat 02:00'de bir Sentry uyarısı tetiklenir. CORE araştırır, bir çözüm önerir ve inceleme için Slack üzerinden size ping atar.
 
-```
-/plugin marketplace add redplanethq/core
-/plugin install core_brain
-```
+### Çalışmanızı bilen bir sabah özeti alın.
 
-Claude Code'u yeniden başlatın ve kimlik doğrulaması için `/mcp` komutunu çalıştırın.
+Her sabah e-posta, GitHub, Linear ve Slack'ten çekmek için tekrarlayan bir görev ayarlayın. CORE, dikkat edilmesi gerekenleri özetler, gereksizleri atlar ve takipleri otomatik olarak görevlere çevirir.
 
-Eklenti, her oturum başlangıcında kişisel profilinizi (tercihler, kurallar, kararlar) otomatik olarak yükler ve konuşmaları tamamlandığında belleğe alır.
+### Nerede olursanız olun delege edin.
 
-</details>
+Slack, WhatsApp, Telegram, e-posta veya web üzerinden görev oluşturun. Ağ geçidi Docker veya Railway'de çalışmaya devam eder, böylece CORE, dizüstü bilgisayarınız kapalıyken bile işleri alabilir.
 
-<details>
-<summary><b>Claude Code (Manuel MCP)</b></summary>
+---
 
-```sh
-claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
-```
+## CORE'un içinde ne var
 
-Ardından `/mcp` yazın ve kimlik doğrulaması için core-memory'i açın.
+| | |
+|---|---|
+| **Bellek** | Tercihlerinizi, kararlarınızı, hedeflerinizi ve yönergelerinizi her araç ve konuşmada takip ederek, her göreve bağlam yüklü olarak başlar. |
+| **Görevler** | Tek seferlik veya tekrar eden çalışma birimleri; belirtiminiz, CORE'un planı, canlı durumu ve özel bir sohbet dizisiyle. Her görev kodlama veya tarayıcı oturumları başlatabilir. |
+| **Karalama Defteri** | Görevler, fikirler ve devam eden çalışmalar için günlük bir sayfa. Herhangi bir yere `[ ]` yazın ve CORE bunu 3 dakika içinde alır. |
+| **Bağlayıcılar** | Tek bir MCP uç noktası üzerinden 50+ uygulama, ayrıca proaktif otomasyon için webhook tetikleyiciler. GitHub, Linear, Jira, Slack, Gmail, Takvim, Sentry, Granola, Todoist ve daha fazlası. |
+| **Yetenekler** | Bağlama göre otomatik olarak uygulanan 100+ tekrar kullanılabilir talimat. Yerleşik yetenekleri kullanın veya tekrarlanabilir iş akışları için kendi yeteneklerinizi yazın. |
+| **Geçit** | Claude Code, Codex, tarayıcı ajanları ve yerel komutları bilgisayarınızda veya Docker / Railway üzerinde çalıştırır, böylece CORE dizüstü bilgisayarınız kapalıyken bile çalışmaya devam eder. |
+| **Model bağımsız** | Kendi sağlayıcınızı getirin: Anthropic, OpenAI veya açık ağırlıklı modeller. İzolasyon için tüm yığını kendiniz barındırın. |
 
-</details>
+---
 
-<details>
-<summary><b>Cursor</b></summary>
+## CORE ne değildir
 
-[![MCP Sunucusunu Kur](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
-
-</details>
-
-<details>
-<summary><b>OpenClaw</b></summary>
-
-```sh
-openclaw plugins install @redplanethq/openclaw-corebrain
-```
-
-API anahtarınızı ortam değişkeni veya yapılandırma ile ayarlayın:
-
-```sh
-export CORE_API_KEY=your_api_key_here
-```
-API anahtarınızı [app.getcore.me](https://app.getcore.me) → Ayarlar → API Anahtarı bölümünden alın.
-
-</details>
-
-<details>
-<summary><b>Claude Masaüstü</b></summary>
-
-1. MCP URL'sini kopyalayın: `https://app.getcore.me/api/v1/mcp?source=Claude`
-2. Ayarlar → Bağlayıcılar → Özel bağlayıcı ekle bölümüne gidin
-3. "Bağlan"a tıklayın ve Claude'un CORE'a erişim izni vermesini sağlayın
-
-</details>
-
-**30'dan fazla sağlayıcı** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot ve daha fazlası. [Tüm kurulum rehberlerini görün →](https://docs.getcore.me/providers/overview)
-
-### Yapay Zeka Sohbetlerini Hafızaya Dönüştürün
-
-ChatGPT ve Gemini konuşmalarınızı tarayıcı eklentisi ile CORE'a senkronize edin. Aranabilir, tekrar kullanılabilir ve tüm bağlı ajanlara açık.
-
-[Başlamak için tıklayın →](https://docs.getcore.me/quickstart/capture-conversations)
+| | |
+|---|---|
+| **Bir RAG sarmalayıcı değildir.** | Bellek sadece gömülü parçalar değildir. Ne karar verdiğinizi, ne zaman ve neden takip eden bir bilgi grafiğidir. |
+| **Bir iş akışı oluşturucu değildir.** | Sürükle-bırak DAG'lar yok. Yapılması gerekeni yazarsınız. CORE iş akışını çözer ve yargı gerektiğinde size sorar. |
+| **Bir başka Devin değildir.** | CORE planlar önerir, siz onaylarsınız. CORE engeller için sorar, siz karar verirsiniz. CORE PR’leri geri getirir, siz gözden geçirirsiniz. Ajanlar kendi başına birleştirme yapmaz. |
+| **Kapalı bir bulut asistanı değildir.** | CORE açık kaynaklı, kendinizin barındırabileceği, model bağımsız ve altyapınız etrafında tasarlanmıştır. |
 
 ---
 
 ## Hızlı Başlangıç
 
-### Bulut
+Açık kaynaklı ve kendiniz tarafından barındırılır. Verileriniz altyapınızda kalır.
 
-1. [app.getcore.me](https://app.getcore.me) adresinden **kayıt olun**
-2. **Gmail ve Takvimi Bağlayın** — CORE sizi tanımak için bunları tarar, böylece dijital beyniniz ilk günden itibaren gerçek bağlamla başlar
-3. **Kullanmaya başlayın** — CORE Ajanı ile konuşun, yapay zeka araçlarınızı bağlayın veya uygulamalarınızda işlem yapın
+**CORE’u yükleyin ve başlatın:**
 
-### Kendi Sunucunda Barındır
+```bash
+npm install -g @redplanethq/corebrain && corebrain setup
+```
+Kurulum sihirbazı, bir kurulum dizini, AI sağlayıcısı, API anahtarı ve sohbet modeli ister. Gizli anahtarlar üretir, yığını başlatır ve `http://localhost:3033` adresini açar.
 
-**Hızlı Kurulum**
+Çoğu yerel kurulum, Docker çalıştıktan sonra birkaç dakika sürer.
 
-[![Railway ile Dağıt](https://railway.app/button.svg)](https://railway.com/deploy/core)
+**Ya da Railway üzerinde dağıtın:**
 
-**Ya da Docker ile**
+[![Railway üzerinde Dağıt](https://railway.app/button.svg)](https://railway.com/deploy/core)
+
+**Bir ağ geçidi bağlayın** böylece CORE tarayıcınızı kontrol edebilir, kodlama ajanlarını çalıştırabilir ve yerel klasörlere erişebilir:
 
 
 ```bash
-git clone https://github.com/RedPlanetHQ/core.git
-cd core
-# Configure OPENAI_API_KEY in core/.env
-docker-compose up -d
+corebrain login
+corebrain gateway setup
 ```
 
-[Tam kapsamlı kendi sunucunda barındırma rehberini görüntüle →](https://docs.getcore.me/self-hosting/docker)
+**Gereksinimler:** Docker 20.10+, Docker Compose 2.20+, 4 vCPU / 8GB RAM
+
+[Tam kapsamlı self-hosting rehberi](https://docs.getcore.me/self-hosting/setup)
+
+> Mac uygulamasını mı istiyorsunuz? Bekleme listesine katılmak için [getcore.me](https://www.getcore.me/) adresini ziyaret edin.
 
 ---
 
-## Aracı (Agent) Geliştiriciler İçin
+## Karşılaştırma
 
-Yapay zeka aracı mı geliştiriyorsunuz? Hafıza ve entegrasyon yükünü CORE'a aktarın, böylece sadece aracınızın mantığına odaklanın.
-
-- **Hafızayı aktarın** — CORE'un zamansal bilgi grafiğini aracınızın uzun vadeli hafızası olarak kullanın. Sohbetleri saklayın, amaca yönelik arama ile bağlamı alın, kendi vektör DB'nizi veya grafınızı yönetmeden aracınızın zamanla bilgi biriktirmesini sağlayın.
-- **Entegrasyonları aktarın** — Uygulamaları bir kez CORE'da bağlayın, aracınız hepsi için MCP araçlarına sahip olsun. OAuth süreçleri oluşturmak yok, API bakımı yok, entegrasyon başına kod yok.
-- **MCP veya API ile oluşturun** — Aracınızı MCP (tek uç nokta) üzerinden CORE'a bağlayın veya doğrudan REST API'yi kullanın.
-
-**Örnek Projeler**
-
-- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — Hafızalı ve Linear/GitHub senkronizasyonlu görev yöneticisi aracı
-- [**holo**](https://github.com/RedPlanetHQ/holo) — CORE hafızanızı sohbetli kişisel bir web sitesine dönüştürün
-
-[API Referansı →](https://docs.getcore.me/api-reference) · [SDK Dokümantasyonu →](https://docs.getcore.me)
+CORE, [LoCoMo benchmark](https://github.com/RedPlanetHQ/core-benchmark) üzerinde tek adımlı, çok adımlı, açık alan ve zamansal akıl yürütmede **%88.24** ortalama doğruluk elde eder.
 
 ---
 
-## Karşılaştırmalı Test
+## İnandıklarımız
 
-CORE, LoCoMo karşılaştırma testinde tek adımlı, çok adımlı, açık alan ve zamansal akıl yürütme görevlerinde ortalama **%88,24** doğruluk oranına ulaşır.
-
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-
-[Karşılaştırmalı test metodolojisi ve sonuçları →](https://github.com/RedPlanetHQ/core-benchmark)
-
----
-
-## Güvenlik
-
-CASA Seviye 2 Sertifikalı — Google'ın OAuth gereksinimlerini karşılamak üzere üçüncü tarafça denetlenmiştir.
-
-- Şifreleme: TLS 1.3 (aktarılırken) + AES-256 (dinlenirken)
-- Çalışma alanı tabanlı izolasyon, rol tabanlı yetkilendirme
-- Verileriniz asla yapay zeka modeli eğitimi için kullanılmaz
-- Tam izolasyon için kendi sunucunda barındırma seçeneği
-
-[Güvenlik Politikası →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · Güvenlik Açığı Bildirimi: harshith@poozle.dev
+- Sohbet bir arayüzdür. Bir işletim sistemi değil.
+- Hafıza olmadan zeka, bilgi yarışmasıdır.
+- Yapay zekanız sizi yalnızca mevcut sekmede değil, her araçta tanımalı.
+- İş, sizin arabulucu olmanıza gerek kalmadan niyetten eyleme geçmeli.
+- Hesap verilebilirlik olmadan otomasyon kaostur.
 
 ---
 
 ## Dokümantasyon
 
-- [Hoşgeldiniz](https://docs.getcore.me/introduction) — CORE'a Giriş
-- [Kavramlar](https://docs.getcore.me/concepts/overview) — Bellek, Ajan ve Araç Takımı açıklaması
-- [Bağlan](https://docs.getcore.me/access-core/overview) — Kanallar ve Yapay Zeka sağlayıcıları
-- [Araç Takımı](https://docs.getcore.me/toolkit/overview) — Aksiyonlar ve entegrasyonlar
-- [Açık Kaynak](https://docs.getcore.me/guides/local-setup) — Yerel kurulum, katkıda bulunma, kendi barındırman
-- [API Referansı](https://docs.getcore.me/api-reference) — REST API ve uç noktalar
-- [Değişiklik Günlüğü](https://docs.getcore.me/opensource/changelog) — Ürün güncellemeleri
+- [**Hafıza**](https://docs.getcore.me/memory/overview) - Zamansal bilgi grafiği, bilgi sınıflandırma, niyet odaklı geri getirme
+- [**Karalama Defteri**](https://docs.getcore.me/concepts/scratchpad) - Görevlerin ve fikirlerin başladığı günlük yüzey
+- [**Görevler**](https://docs.getcore.me/concepts/tasks) - Planlar, durum, tekrar eden işler ve görev kapsamlı bağlam
+- [**Araç Seti**](https://docs.getcore.me/concepts/toolkit) - MCP üzerinden 50+ uygulamada 1000+ eylem
+- [**CORE Aracısı**](https://docs.getcore.me/concepts/meta-agent) - Tetikleyiciler, hafıza, araçlar ve yürütme
+- [**Ağ Geçidi**](https://docs.getcore.me/access-core/overview) - WhatsApp, Slack, Telegram, e-posta, web ve API erişimi
+- [**Beceriler**](https://docs.getcore.me/skills/overview) - Tekrarlanabilir iş akışları için yeniden kullanılabilir talimatlar
+- [**Self-hosting**](https://docs.getcore.me/self-hosting/setup) - Tam dağıtım rehberi
+- [**Günlük**](https://docs.getcore.me/opensource/changelog) - Yayınlananlar
 
 ---
 
-## Destek
+## Güvenlik
+- CASA Seviye 2 Sertifikalı
+- Aktarımda TLS 1.3
+- Dinlenimde AES-256
+- Verileriniz asla model eğitimi için kullanılmaz
+- Tam izolasyon için kendi sunucunuzda barındırın
+- [Güvenlik politikası](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)
+- Güvenlik açıkları: harshith@poozle.dev
 
-- Discord: [core-support kanalına katıl](https://discord.gg/YGUZcvDjUa)
-- Dokümantasyon: [docs.getcore.me](https://docs.getcore.me)
-- E-posta: manik@poozle.dev
+---
 
-## Katkıda Bulunanlar
+## Topluluk
+
+CORE'u herkese açık olarak geliştiriyoruz.
+
+Yol haritasını ve mimari kararları açıkça paylaşıyoruz çünkü kişisel bir işletim sistemi geliştirmenin en zor problemleri, onu kullanan insanlarla birlikte en iyi şekilde çözülür. Depoya yıldız verin, kendi sunucunuzda barındırın, geliştirdiklerinizi paylaşın ve eksik ya da bozuk olanlar için sorunlar açın.
+
+- [Discord](https://discord.gg/YGUZcvDjUa) - sorular, fikirler, göster-ve-anlat
+- [Katkı belgeleri](https://docs.getcore.me/opensource/contributing) - CORE'a nasıl katkıda bulunulur
+- [`good-first-issue`](https://github.com/RedPlanetHQ/core/labels/good-first-issue) - buradan başlayın
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
+---
+
+<div align="center">
+
+**Kişisel yapay zeka işletim sisteminizi kendi sunucunuzda barındırın.**
+
+[Bu depoya yıldız verin](https://github.com/RedPlanetHQ/core) · [Belgeleri okuyun](https://docs.getcore.me) · [Discord'a katılın](https://discord.gg/YGUZcvDjUa)
+
+</div>
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

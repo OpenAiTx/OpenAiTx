@@ -58,19 +58,29 @@
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="Sterren geschiedenis grafiek" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP is een volledig native AirPlay-server, geschreven in Swift, voor iOS. In wezen stelt AirAP je in staat je iPhone als AirPlay-ontvanger te gebruiken in iTunes of op je Mac, wat betekent dat je je iPhone kunt gebruiken om het geluid van je apparaat af te spelen.
+AirAP is een volledig native AirPlay-server, geschreven in Swift, voor iOS. In essentie stelt AirAP je in staat om je iPhone als AirPlay-ontvanger te gebruiken in iTunes of op je Mac, waardoor je het geluid van je apparaat op je iPhone kunt afspelen.
 
 ## Wat is AirAP?
 
-Heb je ooit audio willen streamen van je Mac, Apple TV, of een ander iOS-apparaat naar je iPhone? AirAP maakt dit mogelijk door een volledige AirPlay-server te implementeren die native draait op iOS. Na installatie verschijnt je iPhone als een beschikbare AirPlay-bestemming in het Audio-paneel van Systeemvoorkeuren, Muziek.app, of elke andere AirPlay-compatibele app.
+Heb je ooit audio willen streamen van je Mac, Apple TV of een ander iOS-apparaat naar je iPhone? AirAP maakt dit mogelijk door een volledige AirPlay-server te implementeren die native op iOS draait. Na installatie verschijnt je iPhone als een beschikbare AirPlay-bestemming in het geluidsvenster van Systeemvoorkeuren, Muziek.app, of elke andere AirPlay-compatibele app.
 
-Het concept lijkt misschien omgekeerd - we zijn immers gewend om vanaf onze iPhones naar andere apparaten te streamen. Maar er zijn verrassend veel scenario's waarin je juist het omgekeerde wilt. Misschien werk je 's avonds laat op je Mac en wil je het geluid naar je iPhone met koptelefoon sturen zodat je niemand stoort (hoi 👋). Of je bent een ontwikkelaar die audio-applicaties test en snel tussen verschillende uitvoerapparaten wilt wisselen. Of je wilt gewoon die oude bedrade speaker nieuw leven inblazen.
+Het concept lijkt misschien omgekeerd – we zijn immers gewend om van onze iPhones naar andere apparaten te streamen. Maar er zijn verrassend veel scenario’s waarin je juist het omgekeerde wilt doen. Misschien werk je ’s avonds laat op je Mac en wil je het geluid naar je iPhone met koptelefoon sturen zodat je niemand stoort (hoi 👋). Of je bent een ontwikkelaar die audio-applicaties test en snel wil schakelen tussen verschillende uitvoerapparaten. Of misschien wil je gewoon die oude bedrade speaker hergebruiken.
 
-## Installeren van AirAP
+## AirAP installeren
 
-Om het uit te proberen, [open deze TestFlight-link](https://testflight.apple.com/join/8aeqD8Q2), installeer AirAP en volg de instructies. Na installatie hoef je alleen AirAP te starten en te zorgen dat je iPhone verbonden is met hetzelfde Wi-Fi-netwerk als het apparaat waarvan je wilt streamen. Je iPhone verschijnt automatisch in de AirPlay-apparaatlijsten, klaar om audio te ontvangen - als dit niet gebeurt, probeer dan de app opnieuw te starten.
+Om het uit te proberen, [open deze TestFlight link](https://testflight.apple.com/join/8aeqD8Q2), installeer AirAP en volg de instructies. Na installatie start je AirAP en zorg je ervoor dat je iPhone verbonden is met hetzelfde Wi-Fi netwerk als het apparaat waarvan je wilt streamen. Je iPhone verschijnt automatisch in AirPlay-apparaatlijsten, klaar om audio te ontvangen – als dit niet gebeurt, probeer dan de app opnieuw te starten.
 
 ## Compileren
 
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

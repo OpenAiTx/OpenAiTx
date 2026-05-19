@@ -39,12 +39,12 @@
         <br/>
 
         <a href="https://neon443.github.io">
-            নিৰ্মাতা: neon443
+            সৃষ্টি কৰিছে neon443-এ
         </a>
     </p>
     <p>
         <a href="https://testflight.apple.com/join/8aeqD8Q2">
-            টেস্টফ্লাইট
+            testflight
         </a>
     </p>
     <br/>
@@ -53,28 +53,38 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
-         alt="এই প্ৰকল্পটো Shipwrecked-ৰ অংশ, পৃথিৱীৰ প্ৰথমখন দ্বীপত হোৱা হ্যাকাথন!" 
+         alt="এই প্ৰকল্পটো Shipwrecked-ৰ অংশ, পৃথিৱীৰ প্ৰথমখন দ্বীপত অনুষ্ঠিত হ্যাকাথন!" 
          style="width: 25%;">
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="ষ্টাৰ ইতিহাস চাৰ্ট" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP হৈছে এটা সম্পূৰ্ণ দেশজ AirPlay ছাৰ্ভাৰ, যি Swift-ত লিখা হৈছে, iOS-ৰ বাবে। মূলতে, AirAP-এ আপোনাক আপোনাৰ iPhone-ক AirPlay ৰিসিভাৰ হিচাপে iTunes বা আপোনাৰ Mac-ত ব্যৱহাৰ কৰিবলৈ দিয়ে, অৰ্থাৎ আপোনাৰ iPhone-এ আপোনাৰ ডিভাইচৰ ধ্বনি বজাব পাৰে।
+AirAP এটা সম্পূৰ্ণ দেশজ AirPlay ছাৰ্ভাৰ, যি Swift-ত লিখা হৈছে, iOS-ৰ বাবে। মূলতঃ AirAP-এ আপোনাৰ iPhone-টোক iTunes বা আপোনাৰ Mac-ত AirPlay ৰিসিভাৰ হিচাপে ব্যৱহাৰ কৰিবলৈ দিয়ে, অৰ্থাৎ, আপুনি আপোনাৰ iPhone-টো ব্যৱহাৰ কৰি আপোনাৰ ডিভাইচৰ শব্দ বজাব পাৰিব।
 
-## AirAP মানে কি?
+## AirAP কি?
 
-আপুনি কেতিয়াবা আপোনাৰ Mac, Apple TV, বা আন এটা iOS ডিভাইচৰ পৰা আপোনাৰ iPhone-লৈ অডিঅ' ষ্ট্ৰীম কৰিবলৈ বিচাৰিছিলনে? AirAP-এ এইটো সম্ভৱ কৰি তোলে, কিয়নো ই iOS-ত দেশজভাৱে চলা এটা সম্পূৰ্ণ AirPlay ছাৰ্ভাৰ ৰূপে কাম কৰে। ইনষ্টল কৰাৰ পিছত, আপোনাৰ iPhone-এ System Preferences' Audio pane, Music.app, বা যিকোনো AirPlay-সহায়ক এপত এটা উপলব্ধ AirPlay গন্তব্য হিচাপে দেখা যাব।
+আপুনি কেতিয়াবা আপোনাৰ Mac, Apple TV, বা আন এটা iOS ডিভাইচৰ পৰা আপোনাৰ iPhone-লৈ অডিঅ' ষ্ট্ৰীম কৰিবলৈ বিচাৰিছিল নেকি? AirAP-এ এইটো সম্ভৱ কৰিছে, কাৰণ ই এটা সম্পূৰ্ণ AirPlay ছাৰ্ভাৰ ৰূপে iOS-ত দেশজভাৱে চলি থাকে। ইনষ্টল কৰাৰ পিছত, আপোনাৰ iPhone-টো System Preferences-ৰ Audio পেইন, Music.app, বা যিকোনো AirPlay-সমৰ্থিত এপত AirPlay গন্তব্য হিচাপে দেখা যাব।
 
-এইটো প্ৰথমতে অলপ উল্টা যেন লাগিব পাৰে - শেষত, আমি সাধাৰণতে আমাৰ iPhone-ৰ পৰা আন ডিভাইচলৈ ষ্ট্ৰীম কৰাত অভ্যস্ত। কিন্তু আশ্চৰ্যজনকভাৱে বহু পৰিস্থিতিত আপুনি বিপৰীতটো কৰিব বিচাৰিব পাৰে। হয়তো আপুনি ৰাতিপুৱা আপোনাৰ Mac-ত কাম কৰি আছে আৰু অডিঅ'টো iPhone-লৈ হেডফোনেৰে লৈ যাব বিচাৰে যাতে আন কোনোজনক বিঘ্নিত নকৰে (নমস্কাৰ 👋)। হয়তো আপুনি এটা ডেভেলপাৰ আৰু অডিঅ' এপ্লিকেশ্যন পৰীক্ষা কৰিছে আৰু তৎক্ষণাত আউটপুট ডিভাইচ সলনি কৰিব লাগে। অথবা হয়তো আপোনি কেৱল সেই পুৰণি ৱায়াৰ্ড স্পীকাৰটো পুনৰ ব্যৱহাৰ কৰিবলৈ বিচাৰিছে।
+এইটো প্ৰথমে আপচলতি যেন লাগিব পাৰে - শেষত, আমি আমাৰ iPhone-ৰ পৰা আন ডিভাইচলৈ ষ্ট্ৰীম কৰাত অভ্যস্ত। কিন্তু অনেক পৰিস্থিতিত আপুনি বিৰোধী দিশটো বিচাৰিব পাৰে। হয়তো আপুনি ৰাতি আপোনাৰ Mac-ত কাম কৰি আছে আৰু শব্দজনক আপোনাৰ iPhone-লৈ হেডফোনেৰে নিব খোজে যাতে আন কোনোবাই বিঘ্নিত নহয় (নমস্কাৰ 👋)। হয়তো আপুনি এজন ডেভেলপাৰ, অডিঅ' এপ্লিকেশ্যন টেষ্ট কৰি আছে আৰু তাড়াতাড়ি বিভিন্ন আউটপুট ডিভাইচত সলনি কৰিব লাগিছে। বা হয়তো আপুনি কেৱল পুৰণি ৱায়াৰ্ড স্পীকাৰটো পুনৰ ব্যৱহাৰ কৰিব বিচাৰে।
 
-## AirAP কিদৰে ইনষ্টল কৰিব
+## AirAP স্থাপন কৰা
 
-ইনষ্টল কৰিবলৈ, [এই TestFlight লিংক খুলক](https://testflight.apple.com/join/8aeqD8Q2), AirAP ইনষ্টল কৰক আৰু নিৰ্দেশনা অনুসৰণ কৰক। ইনষ্টল কৰাৰ পিছত, কেৱল AirAP লঞ্চ কৰক আৰু নিশ্চিত কৰক যে আপোনাৰ iPhone আৰু ষ্ট্ৰীম কৰিব খোজা ডিভাইচটো একে Wi-Fi নেটৱৰ্কত সংযোগ হৈ আছে। আপোনাৰ iPhone স্বতঃস্ফূর্তভাৱে AirPlay ডিভাইচ সূচীত দেখা যাব, অডিঅ' গ্ৰহণ কৰিবলৈ সাজু - যদি দেখা নাযায়, এপ্লিকেশ্যনটো পুনৰ আৰম্ভ কৰক।
+পৰীক্ষা কৰিবলৈ, [এই TestFlight সংযোগটো খোলক](https://testflight.apple.com/join/8aeqD8Q2), AirAP স্থাপন কৰক, আৰু নিৰ্দেশনাসমূহ অনুসৰণ কৰক। স্থাপন কৰাৰ পিছত, AirAP আৰম্ভ কৰক আৰু নিশ্চিত কৰক যে আপোনাৰ iPhone সেই Wi-Fi নেটৱৰ্কত সংযোগিত আছে যি ডিভাইচৰ পৰা আপুনি ষ্ট্ৰীম কৰিব বিচাৰে। আপোনাৰ iPhone AirPlay ডিভাইচ তালিকাত স্বয়ংক্ৰিয়ভাৱে দেখা যাব, অডিঅ' গ্ৰহণ কৰিবলৈ সাজু - যদি দেখা নাযায়, তেন্তে এপ্পটো পুনৰ আৰম্ভ কৰিবলৈ চেষ্টা কৰক।
 
-## কম্পাইলিং
+## সংকলন
 
-আপুনি নিশ্চিত কৰক যে আপোনাৰ [homebrew](https://brew.sh) আছে
+নিশ্চিত কৰক যে আপোনাৰ [homebrew](https://brew.sh) আছে
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

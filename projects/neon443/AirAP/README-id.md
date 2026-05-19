@@ -53,24 +53,34 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
-         alt="Proyek ini adalah bagian dari Shipwrecked, hackathon pertama di dunia yang diadakan di pulau!" 
+         alt="Proyek ini adalah bagian dari Shipwrecked, hackathon pertama di dunia yang diadakan di sebuah pulau!" 
          style="width: 25%;">
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="Grafik Riwayat Star" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP adalah server AirPlay native sepenuhnya, ditulis dalam Swift, untuk iOS. Secara sederhana, AirAP memungkinkan Anda menggunakan iPhone sebagai penerima AirPlay di iTunes atau di Mac Anda, yang berarti Anda dapat menggunakan iPhone untuk memutar suara dari perangkat Anda.
+AirAP adalah server AirPlay native sepenuhnya, ditulis dengan Swift, untuk iOS. Intinya, AirAP memungkinkan Anda menggunakan iPhone Anda sebagai penerima AirPlay di iTunes atau Mac Anda, yang berarti Anda dapat menggunakan iPhone untuk memutar suara dari perangkat Anda.
 
 ## Apa itu AirAP?
 
-Pernahkah Anda ingin melakukan streaming audio dari Mac, Apple TV, atau perangkat iOS lain ke iPhone Anda? AirAP memungkinkan hal ini dengan mengimplementasikan server AirPlay penuh yang berjalan secara native di iOS. Setelah terpasang, iPhone Anda akan muncul sebagai tujuan AirPlay yang tersedia di panel Audio Preferensi Sistem, Music.app, atau aplikasi lain yang kompatibel dengan AirPlay.
+Apakah Anda pernah ingin melakukan streaming audio dari Mac, Apple TV, atau perangkat iOS lain ke iPhone Anda? AirAP memungkinkan hal ini dengan mengimplementasikan server AirPlay lengkap yang berjalan secara native di iOS. Setelah terinstal, iPhone Anda akan muncul sebagai tujuan AirPlay yang tersedia di panel Suara Preferensi Sistem, Music.app, atau aplikasi lain yang kompatibel dengan AirPlay.
 
-Konsep ini mungkin terasa terbalik pada awalnya - karena kita biasanya melakukan streaming dari iPhone ke perangkat lain. Namun ada banyak skenario di mana Anda ingin melakukan sebaliknya. Mungkin Anda sedang bekerja di Mac larut malam dan ingin mengalihkan audio ke iPhone dengan headphone agar tidak mengganggu siapa pun (hai 👋). Atau Anda adalah pengembang yang menguji aplikasi audio dan perlu dengan cepat berganti antara perangkat output yang berbeda. Atau mungkin Anda hanya ingin memanfaatkan speaker kabel lama Anda.
+Konsep ini mungkin terasa terbalik pada awalnya - lagipula, kita terbiasa melakukan streaming dari iPhone ke perangkat lain. Namun ada banyak skenario di mana Anda justru ingin melakukan sebaliknya. Mungkin Anda bekerja di Mac larut malam dan ingin mengalihkan audio ke iPhone dengan headphone agar tidak mengganggu orang lain (hai 👋). Mungkin Anda seorang pengembang yang menguji aplikasi audio dan perlu dengan cepat beralih antar perangkat output yang berbeda. Atau mungkin Anda hanya ingin memanfaatkan speaker kabel lama Anda.
 
-## Instalasi AirAP
+## Menginstal AirAP
 
-Untuk mencobanya, [buka tautan TestFlight ini](https://testflight.apple.com/join/8aeqD8Q2), pasang AirAP, dan ikuti instruksinya. Setelah terpasang, cukup jalankan AirAP dan pastikan iPhone Anda terhubung ke jaringan Wi-Fi yang sama dengan perangkat yang ingin Anda streaming. iPhone Anda akan otomatis muncul di daftar perangkat AirPlay, siap menerima audio - jika tidak, coba mulai ulang aplikasinya.
+Untuk mencobanya, [buka tautan TestFlight ini](https://testflight.apple.com/join/8aeqD8Q2), instal AirAP, dan ikuti petunjuknya. Setelah instalasi, cukup jalankan AirAP dan pastikan iPhone Anda terhubung ke jaringan Wi-Fi yang sama dengan perangkat yang ingin Anda streaming dari. iPhone Anda akan otomatis muncul di daftar perangkat AirPlay, siap menerima audio - jika tidak muncul, coba mulai ulang aplikasinya.
 
 ## Kompilasi
 
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---

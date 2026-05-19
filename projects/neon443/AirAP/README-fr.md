@@ -58,19 +58,29 @@
   </a>
 </div>
 
+<div align="center">
+<a href="https://www.star-history.com/?repos=neon443%2FAirAP&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+   <img alt="Graphique de l'historique des étoiles" src="https://api.star-history.com/image?repos=neon443/AirAP&type=date&legend=top-left" />
+ </picture>
+</a>
+</div>
+
 <br/>
 
-AirAP est un serveur AirPlay entièrement natif, écrit en Swift, pour iOS. En gros, AirAP vous permet d'utiliser votre iPhone comme récepteur AirPlay dans iTunes ou sur votre Mac, ce qui signifie que vous pouvez utiliser votre iPhone pour jouer le son de votre appareil.
+AirAP est un serveur AirPlay totalement natif, écrit en Swift, pour iOS. Essentiellement, AirAP vous permet d’utiliser votre iPhone comme récepteur AirPlay dans iTunes ou sur votre Mac, ce qui signifie que vous pouvez utiliser votre iPhone pour diffuser le son de votre appareil.
 
 ## Qu'est-ce qu'AirAP ?
 
-Avez-vous déjà voulu diffuser de l'audio depuis votre Mac, Apple TV, ou un autre appareil iOS vers votre iPhone ? AirAP rend cela possible en implémentant un serveur AirPlay complet qui fonctionne nativement sur iOS. Une fois installé, votre iPhone apparaîtra comme une destination AirPlay disponible dans le panneau Audio des Préférences Système, dans Musique.app, ou toute autre application compatible AirPlay.
+Avez-vous déjà voulu diffuser le son de votre Mac, Apple TV ou d’un autre appareil iOS vers votre iPhone ? AirAP rend cela possible en implémentant un serveur AirPlay complet qui s’exécute nativement sur iOS. Une fois installé, votre iPhone apparaîtra comme destination AirPlay disponible dans le panneau Audio des Préférences Système, dans Music.app ou toute autre application compatible AirPlay.
 
-Le concept peut paraître à l'envers au début - après tout, nous avons l'habitude de diffuser depuis nos iPhones vers d'autres appareils. Mais il y a étonnamment de nombreux scénarios où vous voudriez faire l'inverse. Peut-être travaillez-vous sur votre Mac tard le soir et souhaitez rediriger l'audio vers votre iPhone avec un casque pour ne déranger personne (coucou 👋). Peut-être êtes-vous développeur et testez des applications audio, ayant besoin de passer rapidement d'un appareil de sortie à un autre. Ou bien vous voulez simplement réutiliser cette vieille enceinte filaire.
+Le concept peut sembler à l’envers au premier abord – après tout, on a l’habitude de diffuser depuis nos iPhones vers d’autres appareils. Mais il existe de nombreux scénarios où l’on souhaite faire l’inverse. Peut-être travaillez-vous sur votre Mac tard le soir et souhaitez-vous rediriger l’audio vers votre iPhone avec un casque pour ne déranger personne (coucou 👋). Ou vous êtes développeur et avez besoin de tester rapidement des applications audio sur différents périphériques de sortie. Ou encore, vous voulez simplement réutiliser une vieille enceinte filaire.
 
-## Installer AirAP
+## Installation d'AirAP
 
-Pour l'essayer, [ouvrez ce lien TestFlight](https://testflight.apple.com/join/8aeqD8Q2), installez AirAP, et suivez les instructions. Après l'installation, lancez simplement AirAP et assurez-vous que votre iPhone est connecté au même réseau Wi-Fi que l'appareil à partir duquel vous souhaitez diffuser. Votre iPhone apparaîtra automatiquement dans la liste des appareils AirPlay, prêt à recevoir l'audio - si ce n'est pas le cas, essayez de redémarrer l'application.
+Pour l'essayer, [ouvrez ce lien TestFlight](https://testflight.apple.com/join/8aeqD8Q2), installez AirAP et suivez les instructions. Après l'installation, lancez simplement AirAP et assurez-vous que votre iPhone est connecté au même réseau Wi-Fi que l'appareil depuis lequel vous souhaitez diffuser. Votre iPhone apparaîtra automatiquement dans les listes de périphériques AirPlay, prêt à recevoir de l'audio - si ce n'est pas le cas, essayez de redémarrer l'application.
 
 ## Compilation
 
@@ -103,6 +113,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-19
 
 ---
