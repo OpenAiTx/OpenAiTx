@@ -54,7 +54,7 @@
 
 # Install
 >[!IMPORTANT]
->Regular of noavx2 release?  
+>Regular or noavx2 release?  
 >Check with Steam if your CPU support avx2. Open Steam, in left corner hover over help menu select System Information and search for AVX2.  
 >If it is supported go with regular release  
 >If it is not, go with noavx2 release  
@@ -88,3 +88,4 @@ Early versions is licensed by [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 Copyright © 2023-2025 aka perchik71. All rights reserved. <br />
 File `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` contains proprietary and not licensed files; the same applies to files in `d3dcompiler\*.*`. <br />
 Dependencies are under their respective licenses. 
+

@@ -39,7 +39,7 @@
 </p>
 
 # Description
-**CKPE** is a shared source powerful platform that makes numerous fixes and improvements to the Creation Kit editor from **Bethesda**, includes editor support for games such as **Skyrim Special Edition**, **Fallout 4**, **Starfield**, and is a successor to the [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) projects, as well as the [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) which began it all for the author **perchik71**.  
+**CKPE** is a powerful shared source platform that makes numerous fixes and improvements to the Creation Kit editor from **Bethesda**, includes editor support for games such as **Skyrim Special Edition**, **Fallout 4**, **Starfield**, and is a successor to the [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) projects, as well as the [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) which started it all for author **perchik71**.  
 
 [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) page  
 
@@ -55,7 +55,7 @@
 # Install
 >[!IMPORTANT]
 >Regular or noavx2 release?  
->Check with Steam if your CPU supports avx2. Open Steam, in the lower left corner hover over the help menu, select System Information and search for AVX2.  
+>Check with Steam if your CPU supports avx2. Open Steam, in the left corner hover over the help menu, select System Information and search for AVX2.  
 >If it is supported, go with the regular release  
 >If it is not, go with the noavx2 release  
 ### Fresh Install
@@ -67,7 +67,7 @@ Download the [latest release](https://github.com/Perchik71/Creation-Kit-Platform
 Extract all contents into the game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  
 Agree to replace all files.
 ### Compilation
-Regular users only need this method to access the newest features which haven't been released yet.  
+Regular users only need this method to access the newest features that haven't been released yet.  
 Open the project in **`Visual Studio 2022`** or later. Build the project in **`Release`** mode or **`Release-NoAVX2`**.  
 Then move your build output into the game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  
 If you are asked to replace old files, agree to replace all.
@@ -77,21 +77,22 @@ Extract all contents into the game directory, so that **ckpe_loader.exe** is in 
 Possible errors.
 
 # Credits
-[Nukem9](https://github.com/Nukem9) (for experimental functions, hash and so on, very useful)  
+[Nukem9](https://github.com/Nukem9) (for experimental functions, hash, and so on, very useful)  
 [adzm](https://github.com/adzm) (I really appreciate your work, you have [done](https://github.com/adzm/win32-custom-menubar-aero-theme) what I have long wanted to do myself)  
-[yak3d](https://github.com/yak3d) (For the contribution and development of workflow and support for the newest Starfield)  
+[yak3d](https://github.com/yak3d) (For the contribution and development of workflow and support newest Starfield)  
 [DioKyrie-Git](https://github.com/DioKyrie-Git) (For the design of the readme)  
 
 # License
 Starting with v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)), the project is licensed under [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />
 Earlier versions are licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
 Copyright © 2023-2025 aka perchik71. All rights reserved. <br />
-The file `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` contains proprietary and unlicensed files; the same applies to files in `d3dcompiler\*.*`. <br />
+The file `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` contains proprietary and unlicensed files; the same applies to the files in `d3dcompiler\*.*`. <br />
 Dependencies are under their respective licenses. 
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

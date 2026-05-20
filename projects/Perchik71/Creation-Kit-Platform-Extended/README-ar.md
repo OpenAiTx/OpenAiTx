@@ -39,59 +39,60 @@
 </p>
 
 # الوصف
-**CKPE** هو منصة قوية مفتوحة المصدر تُجري العديد من الإصلاحات والتحسينات على محرر Creation Kit من **Bethesda**، وتدعم المحرر لألعاب مثل **Skyrim Special Edition** و**Fallout 4** و**Starfield**، وهو خليفة لمشاريع [SSE CKFixes](https://github.com/Nukem9/skyrimse-test)، [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)، [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test)، وأيضًا [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) التي بدأت كل شيء لمؤلف المنصة **perchik71**.  
+**CKPE** منصة قوية مفتوحة المصدر تقوم بالعديد من الإصلاحات والتحسينات لمحرر Creation Kit من **Bethesda**، وتشمل دعم المحرر لألعاب مثل **Skyrim Special Edition**، **Fallout 4**، **Starfield**، وهي خليفة لمشاريع [SSE CKFixes](https://github.com/Nukem9/skyrimse-test)، [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)، [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test)، وأيضًا [تصحيح Unicode لـ SSE CK 1.5.73](https://github.com/Perchik71/usse_test) الذي بدأ كل شيء لمؤلف **perchik71**.  
 
-صفحة [ويكي](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki)  
+صفحة [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki)  
 
 # الاعتماديات
-[toml11](https://github.com/ToruNiina/toml11) بواسطة `ToruNiina` وآخرين  
-[Zydis](https://github.com/zyantific/zydis.git) بواسطة `zyantifi` وآخرين  
+[toml11](https://github.com/ToruNiina/toml11) بواسطة `ToruNiina` وآخرون  
+[Zydis](https://github.com/zyantific/zydis.git) بواسطة `zyantifi` وآخرون  
 [zipper](https://github.com/kuba--/zip.git) بواسطة `kuba--`  
-[libdeflate](https://github.com/ebiggers/libdeflate.git) بواسطة `ebiggers` وآخرين  
-[xbyak](https://github.com/herumi/xbyak.git) بواسطة `herumi` وآخرين    
+[libdeflate](https://github.com/ebiggers/libdeflate.git) بواسطة `ebiggers` وآخرون  
+[xbyak](https://github.com/herumi/xbyak.git) بواسطة `herumi` وآخرون    
 [DirectXTex](https://github.com/microsoft/DirectXTex.git) بواسطة `microsoft`  
-[jDialogs](https://github.com/Perchik71/jDialogs.git) بواسطة `perchik71` *(تضمين تكراري)*
+[jDialogs](https://github.com/Perchik71/jDialogs.git) بواسطة `perchik71` *(متكرر)*
 
 # التثبيت
 >[!هام]
->إصدار regular أو noavx2؟  
->تحقق عبر Steam إذا كان معالجك يدعم avx2. افتح Steam، ثم في الزاوية اليسرى مرر فوق قائمة المساعدة واختر معلومات النظام وابحث عن AVX2.  
->إذا كان مدعوماً استخدم إصدار regular  
->إذا لم يكن كذلك، استخدم إصدار noavx2  
+>إصدار عادي أم noavx2؟  
+>تحقق من Steam إذا كان معالجك يدعم avx2. افتح Steam، في الزاوية اليسرى مرر فوق قائمة المساعدة واختر معلومات النظام وابحث عن AVX2.  
+>إذا كان مدعومًا استخدم الإصدار العادي  
+>إذا لم يكن مدعومًا استخدم إصدار noavx2  
 ### تثبيت جديد
-قم بتحميل أي [لعبة مدعومة](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) وقم بتثبيت Creation Kit.  
-قم بتحميل [آخر إصدار](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) من **CKPE** للعبتك.  
-استخرج جميع الملفات إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.
+قم بتنزيل أي [لعبة مدعومة](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) وقم بتثبيت Creation Kit.  
+قم بتنزيل [أحدث إصدار](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) من **CKPE** للعبتك.  
+استخرج جميع المحتويات إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.
 ### التحديث
-قم بتحميل [آخر إصدار](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) من **CKPE** للعبتك.  
-استخرج جميع الملفات إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.  
+قم بتنزيل [أحدث إصدار](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) من **CKPE** للعبتك.  
+استخرج جميع المحتويات إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.  
 وافق على استبدال جميع الملفات.
 ### التجميع
-المستخدمون العاديون يحتاجون هذه الطريقة فقط للوصول للميزات الجديدة التي لم تُصدر بعد.  
-افتح المشروع في **`Visual Studio 2022`** أو أحدث. ابنِ المشروع في وضع **`Release`** أو **`Release-NoAVX2`**.  
-ثم انقل مخرجات البناء إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.  
-إذا طُلب منك استبدال الملفات القديمة، وافق على الاستبدال.
+يحتاج المستخدمون العاديون فقط لهذه الطريقة للوصول إلى الميزات الأحدث التي لم تصدر بعد.  
+افتح مشروعًا في **`Visual Studio 2022`** أو أحدث. قم ببناء المشروع في وضع **`Release`** أو **`Release-NoAVX2`**.  
+ثم انقل ناتج البناء إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.  
+إذا طُلب منك استبدال الملفات القديمة وافق على الاستبدال.
 ### بناء تلقائي (تجريبي)
-قم بتحميل [أحدث بناء من الكوميت](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) من **CKPE** للعبتك.  
-استخرج جميع الملفات إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.  
+قم بتنزيل [أحدث بناء التزام](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) من **CKPE** للعبتك.  
+استخرج جميع المحتويات إلى مجلد اللعبة، بحيث يكون **ckpe_loader.exe** في نفس المجلد مع **CreationKit.exe**.  
 أخطاء محتملة.
 
-# الاعتمادات
-[Nukem9](https://github.com/Nukem9) (للوظائف التجريبية، والتجزئة وغيرها، مفيدة جداً)  
-[adzm](https://github.com/adzm) (أنا أقدر عملك حقًا، لقد قمت بـ [ما فعلته](https://github.com/adzm/win32-custom-menubar-aero-theme) وهو ما رغبت في القيام به منذ فترة طويلة)  
+# الشكر والتقدير
+[Nukem9](https://github.com/Nukem9) (للوظائف التجريبية، هاش وغيرها، مفيد جدًا)  
+[adzm](https://github.com/adzm) (أنا أقدر عملك حقًا، لقد [قمت](https://github.com/adzm/win32-custom-menubar-aero-theme) بما كنت أطمح للقيام به منذ فترة طويلة)  
 [yak3d](https://github.com/yak3d) (للمساهمة وتطوير سير العمل ودعم أحدث إصدار من Starfield)  
 [DioKyrie-Git](https://github.com/DioKyrie-Git) (لتصميم ملف readme)  
 
-# الرخصة
+# الترخيص
 بدءًا من الإصدار v0.6 (الالتزام [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11))، تم ترخيص المشروع بموجب [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />
-الإصدارات السابقة مرخصة بموجب [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
-حقوق النشر © 2023-2025 المعروف باسم perchik71. جميع الحقوق محفوظة. <br />
-يحتوي الملف `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` على ملفات مملوكة وغير مرخصة؛ وينطبق الشيء نفسه على الملفات في `d3dcompiler\*.*`. <br />
-التبعيات تخضع لترخيصها الخاص. 
+الإصدارات المبكرة مرخصة بموجب [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
+حقوق النشر © 2023-2025 المعروف بـ perchik71. جميع الحقوق محفوظة. <br />
+ملف `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` يحتوي على ملفات مملوكة وليست مرخصة؛ وينطبق الشيء نفسه على الملفات في `d3dcompiler\*.*`. <br />
+تعتمد التبعيات على تراخيصها الخاصة. 
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

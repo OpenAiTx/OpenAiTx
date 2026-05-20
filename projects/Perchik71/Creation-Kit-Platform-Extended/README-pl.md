@@ -39,46 +39,46 @@
 </p>
 
 # Opis
-**CKPE** to platforma o otwartym kodzie źródłowym, która wprowadza liczne poprawki i ulepszenia do edytora Creation Kit od **Bethesdy**, obejmuje wsparcie edytora dla gier takich jak **Skyrim Special Edition**, **Fallout 4**, **Starfield**, jest następcą projektów [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test), a także [łatki Unicode dla SSE CK 1.5.73](https://github.com/Perchik71/usse_test), która zapoczątkowała wszystko dla autora **perchik71**.  
+**CKPE** to platforma o otwartym kodzie źródłowym, która wprowadza liczne poprawki i ulepszenia do edytora Creation Kit od **Bethesdy**, obejmuje wsparcie edytora dla gier takich jak **Skyrim Special Edition**, **Fallout 4**, **Starfield**, jest następcą projektów [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test), a także [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test), który zapoczątkował wszystko dla autora **perchik71**.  
 
 Strona [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki)  
 
-# Wymagania
-[toml11](https://github.com/ToruNiina/toml11) autorstwa `ToruNiina` i inni  
-[Zydis](https://github.com/zyantific/zydis.git) autorstwa `zyantifi` i inni  
-[zipper](https://github.com/kuba--/zip.git) autorstwa `kuba--`  
-[libdeflate](https://github.com/ebiggers/libdeflate.git) autorstwa `ebiggers` i inni  
-[xbyak](https://github.com/herumi/xbyak.git) autorstwa `herumi` i inni  
-[DirectXTex](https://github.com/microsoft/DirectXTex.git) autorstwa `microsoft`  
-[jDialogs](https://github.com/Perchik71/jDialogs.git) autorstwa `perchik71` *(rekurencyjnie)*
+# Wymagane biblioteki
+[toml11](https://github.com/ToruNiina/toml11) od `ToruNiina` i innych  
+[Zydis](https://github.com/zyantific/zydis.git) od `zyantifi` i innych  
+[zipper](https://github.com/kuba--/zip.git) od `kuba--`  
+[libdeflate](https://github.com/ebiggers/libdeflate.git) od `ebiggers` i innych  
+[xbyak](https://github.com/herumi/xbyak.git) od `herumi` i innych    
+[DirectXTex](https://github.com/microsoft/DirectXTex.git) od `microsoft`  
+[jDialogs](https://github.com/Perchik71/jDialogs.git) od `perchik71` *(rekurencyjnie)*
 
 # Instalacja
 >[!WAŻNE]
->Wersja regular czy noavx2?  
->Sprawdź na Steam, czy Twój procesor obsługuje avx2. Otwórz Steam, najedź w lewym rogu na menu Pomoc, wybierz Informacje o systemie i wyszukaj AVX2.  
->Jeśli jest obsługiwane, wybierz wersję regular  
+>Wersja standardowa czy noavx2?  
+>Sprawdź w Steam czy Twój procesor obsługuje avx2. Otwórz Steam, najedź na menu pomoc w lewym rogu, wybierz Informacje o systemie i wyszukaj AVX2.  
+>Jeśli jest obsługiwane, wybierz wersję standardową  
 >Jeśli nie, wybierz wersję noavx2  
-### Nowa instalacja
+### Czysta instalacja
 Pobierz dowolną [wspieraną grę](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) i zainstaluj Creation Kit.  
-Pobierz [najnowszą wersję](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE** dla swojej gry.  
-Wypakuj wszystkie pliki do katalogu gry, tak aby **ckpe_loader.exe** znajdował się w tym samym folderze co **CreationKit.exe**.
+Pobierz [najnowsze wydanie](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE** dla swojej gry.  
+Wypakuj całą zawartość do katalogu gry, tak aby **ckpe_loader.exe** znajdował się w tym samym folderze co **CreationKit.exe**.
 ### Aktualizacja
-Pobierz [najnowszą wersję](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE** dla swojej gry.  
-Wypakuj wszystkie pliki do katalogu gry, tak aby **ckpe_loader.exe** znajdował się w tym samym folderze co **CreationKit.exe**.  
-Zgódź się na zamianę wszystkich plików.
+Pobierz [najnowsze wydanie](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE** dla swojej gry.  
+Wypakuj całą zawartość do katalogu gry, tak aby **ckpe_loader.exe** znajdował się w tym samym folderze co **CreationKit.exe**.  
+Zgódź się na zastąpienie wszystkich plików.
 ### Kompilacja
-Zwykli użytkownicy potrzebują tej metody tylko wtedy, gdy chcą uzyskać dostęp do najnowszych funkcji, które nie zostały jeszcze wydane.  
+Zwykli użytkownicy potrzebują tej metody tylko, aby uzyskać dostęp do najnowszych funkcji, które nie zostały jeszcze wydane.  
 Otwórz projekt w **`Visual Studio 2022`** lub nowszym. Zbuduj projekt w trybie **`Release`** lub **`Release-NoAVX2`**.  
 Następnie przenieś wynik kompilacji do katalogu gry, tak aby **ckpe_loader.exe** znajdował się w tym samym folderze co **CreationKit.exe**.  
-Jeśli zostaniesz poproszony o zastąpienie starych plików, zgódź się na zamianę wszystkich.
+Jeśli pojawi się pytanie o zastąpienie starych plików, zgódź się na zastąpienie wszystkich.
 ### Automatyzacja kompilacji (Beta)
-Pobierz [najnowszy build z commita](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) **CKPE** dla swojej gry.  
-Wypakuj wszystkie pliki do katalogu gry, tak aby **ckpe_loader.exe** znajdował się w tym samym folderze co **CreationKit.exe**.  
+Pobierz [najnowszą wersję skompilowaną](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) **CKPE** dla swojej gry.  
+Wypakuj całą zawartość do katalogu gry, tak aby **ckpe_loader.exe** znajdował się w tym samym folderze co **CreationKit.exe**.  
 Możliwe błędy.
 
 # Podziękowania
 [Nukem9](https://github.com/Nukem9) (za funkcje eksperymentalne, hash i inne, bardzo przydatne)  
-[adzm](https://github.com/adzm) (Bardzo doceniam Twoją pracę, zrobiłeś [to](https://github.com/adzm/win32-custom-menubar-aero-theme), co od dawna chciałem zrobić sam)  
+[adzm](https://github.com/adzm) (Bardzo doceniam Twoją pracę, zrobiłeś [to](https://github.com/adzm/win32-custom-menubar-aero-theme), co od dawna sam chciałem zrobić)  
 [yak3d](https://github.com/yak3d) (Za wkład i rozwój workflow oraz wsparcie najnowszego Starfield)  
 [DioKyrie-Git](https://github.com/DioKyrie-Git) (Za projekt readme)  
 
@@ -87,11 +87,12 @@ Począwszy od wersji v0.6 (commit [9d93970](https://github.com/Perchik71/Creatio
 Wcześniejsze wersje są licencjonowane na [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
 Copyright © 2023-2025 aka perchik71. Wszelkie prawa zastrzeżone. <br />
 Plik `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` zawiera pliki zastrzeżone i nielicencjonowane; to samo dotyczy plików w `d3dcompiler\*.*`. <br />
-Zależności są objęte własnymi licencjami. 
+Zależności są na podstawie ich odpowiednich licencji. 
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

@@ -1,0 +1,1244 @@
+[
+  {
+    "row": 1,
+    "rowsha": "thSOgZ1DeyjA/NtXIsl6HtZREGfqRvwpDbzPs+51xeo=",
+    "originContent": "# ens-normalize.js",
+    "translatedContent": "# ens-normalize.js"
+  },
+  {
+    "row": 2,
+    "rowsha": "50yaNkoPO9od7qmKhFjTKwei4wBhBCL9Aq28nlUil/c=",
+    "originContent": "0-dependency [Ethereum Name Service](https://ens.domains/) (ENS) Name Normalizer.",
+    "translatedContent": "0-의존성 [Ethereum Name Service](https://ens.domains/) (ENS) 이름 정규화기."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "Uq7yTr7zDrNEOhoQr2JeloqgCbufpm1ZSDZlFbcvhMU=",
+    "originContent": "`npm i @adraffy/ens-normalize` [&check;](https://www.npmjs.com/package/@adraffy/ens-normalize)",
+    "translatedContent": "`npm i @adraffy/ens-normalize` [&check;](https://www.npmjs.com/package/@adraffy/ens-normalize)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "2JFTYO6z3cyN5//vjWh3/fEZzho0/QTpoPB/qO/KCNE=",
+    "originContent": "* 🏛️ Follows [**ENSIP-15**: ENS Name Normalization Standard](https://docs.ens.domains/ensip/15)",
+    "translatedContent": "* 🏛️ [**ENSIP-15**: ENS 이름 정규화 표준](https://docs.ens.domains/ensip/15)을 준수"
+  },
+  {
+    "row": 7,
+    "rowsha": "akG7ZpmnB4weBOO0fODvhc3ux80FQxK956My/4t8Ac8=",
+    "originContent": "\t* Unicode: [`17.0.0`](./derive/data/17.0.0/) • CLDR: [`47`](./derive/data/CLDR-47/)",
+    "translatedContent": "\t* 유니코드: [`17.0.0`](./derive/data/17.0.0/) • CLDR: [`47`](./derive/data/CLDR-47/)"
+  },
+  {
+    "row": 8,
+    "rowsha": "kf1y8FInzmGx6LtlZYSDlCOVhfRZFThAFnA930hFqxM=",
+    "originContent": "\t* Other implementations:",
+    "translatedContent": "\t* 기타 구현체:"
+  },
+  {
+    "row": 9,
+    "rowsha": "Vqd+griftzMH5Z8Uml1yMneDNwAsAUklnqLEypPGtnU=",
+    "originContent": "\t\t* Python — [namehash/**ens-normalize-python**](https://github.com/namehash/ens-normalize-python)",
+    "translatedContent": "\t\t* 파이썬 — [namehash/**ens-normalize-python**](https://github.com/namehash/ens-normalize-python)"
+  },
+  {
+    "row": 10,
+    "rowsha": "1fEzFuO8Jw7s0wGXnhsUBtpGyjvqWY3gJSPFMMKBxpU=",
+    "originContent": "\t\t* Rust — [sevenzing/**ens-normalize-rs**](https://github.com/sevenzing/ens-normalize-rs)",
+    "translatedContent": "\t\t* 러스트 — [sevenzing/**ens-normalize-rs**](https://github.com/sevenzing/ens-normalize-rs)"
+  },
+  {
+    "row": 11,
+    "rowsha": "9g9iAOWPIITNTpNVw/fiFLw3NsVLin4ZKP7xvqNHFLM=",
+    "originContent": "\t\t* Zig — [evmts/**z-ens-normalize**](https://github.com/evmts/z-ens-normalize)",
+    "translatedContent": "\t\t* 직(Zig) — [evmts/**z-ens-normalize**](https://github.com/evmts/z-ens-normalize)"
+  },
+  {
+    "row": 12,
+    "rowsha": "BJK7P7fa5kmBR/YwcStBK+rY1iZj0MihJhbXVqabROA=",
+    "originContent": "\t\t* C# — [adraffy/**ENSNormalize.cs**](https://github.com/adraffy/ENSNormalize.cs)",
+    "translatedContent": "\t\t* C# — [adraffy/**ENSNormalize.cs**](https://github.com/adraffy/ENSNormalize.cs)"
+  },
+  {
+    "row": 13,
+    "rowsha": "k17bfXNME/gnJKblpDuFpNpdSLTYSZNGYuWoUmWPdMM=",
+    "originContent": "\t\t* Java — [adraffy/**ENSNormalize.java**](https://github.com/adraffy/ENSNormalize.java)",
+    "translatedContent": "\t\t* 자바 — [adraffy/**ENSNormalize.java**](https://github.com/adraffy/ENSNormalize.java)"
+  },
+  {
+    "row": 14,
+    "rowsha": "2z0hibOK6sfHjyla4ZCG47iqP5PrpwWIUm+mFZoS5p0=",
+    "originContent": "\t\t* Swift – [adraffy/**ENSNormalize.swift**](https://github.com/adraffy/ENSNormalize.swift)",
+    "translatedContent": "\t\t* 스위프트 – [adraffy/**ENSNormalize.swift**](https://github.com/adraffy/ENSNormalize.swift)"
+  },
+  {
+    "row": 15,
+    "rowsha": "XH3QSNH/762efqetccSJG5gYFSkOLDuN1EnQbKaVDeg=",
+    "originContent": "\t\t* Go — [adraffy/**go-ens-normalize**](https://github.com/adraffy/go-ens-normalize)",
+    "translatedContent": "\t\t* 고 — [adraffy/**go-ens-normalize**](https://github.com/adraffy/go-ens-normalize)"
+  },
+  {
+    "row": 16,
+    "rowsha": "lEmxyIw7pV3go9ME1IhMVyZIpa5wYsZkrGFk1syGbKc=",
+    "originContent": "\t\t* Swift – [adraffy/**ENSNormalize.swift**](https://github.com/adraffy/ENSNormalize.swift)",
+    "translatedContent": "\t\t* 스위프트 – [adraffy/**ENSNormalize.swift**](https://github.com/adraffy/ENSNormalize.swift)"
+  },
+  {
+    "row": 17,
+    "rowsha": "noqsy+S6pXFO1zSo9vJEkbSgie+oTC6JwlPbLs2BuPU=",
+    "originContent": "\t* Prior implementation:",
+    "translatedContent": "\t* 이전 구현체:"
+  },
+  {
+    "row": 18,
+    "rowsha": "ZEKBg+rZalF/WC/ikxgKcjZjHdJjZUwvkBrj8SpmHAo=",
+    "originContent": "\t\t* Javascript — [ensdomains/**eth-ens-namehash**](https://github.com/ensdomains/eth-ens-namehash)",
+    "translatedContent": "\t\t* 자바스크립트 — [ensdomains/**eth-ens-namehash**](https://github.com/ensdomains/eth-ens-namehash)"
+  },
+  {
+    "row": 19,
+    "rowsha": "FP5Gbq8Xpsx4495RrMicRqu2hWvczWcM0ROdlG5eM3Q=",
+    "originContent": "\t* [Breakdown Reports from ENSIP-1](https://adraffy.github.io/ens-norm-tests/test-breakdown/output-20230226/)\t",
+    "translatedContent": "\t* [ENSIP-1 분해 보고서](https://adraffy.github.io/ens-norm-tests/test-breakdown/output-20230226/)\t"
+  },
+  {
+    "row": 20,
+    "rowsha": "oA98mxNZK7K1eM0kEC6istiv00GaFkHYJ6BDyd/+PRs=",
+    "originContent": "* ✅️ Passes **100%** [ENSIP-15 Validation Tests](https://adraffy.github.io/ens-normalize.js/test/validate.html)",
+    "translatedContent": "* ✅️ **100%** [ENSIP-15 검증 테스트](https://adraffy.github.io/ens-normalize.js/test/validate.html) 통과"
+  },
+  {
+    "row": 21,
+    "rowsha": "kUsfkZtssBwFyLxWHgdXvedk0e88C4GTSjMoP1HMnfU=",
+    "originContent": "* ✅️ Passes **100%** [Unicode Normalization Tests](https://adraffy.github.io/ens-normalize.js/test/report-nf.html)",
+    "translatedContent": "* ✅️ **100%** [유니코드 정규화 테스트](https://adraffy.github.io/ens-normalize.js/test/report-nf.html) 통과"
+  },
+  {
+    "row": 22,
+    "rowsha": "jE9CgbRCCQ3P7DYp0jAdiuM50R24jdhnqi7KsfG18jQ=",
+    "originContent": "* Minified File Sizes: ",
+    "translatedContent": "* 압축 파일 크기: "
+  },
+  {
+    "row": 23,
+    "rowsha": "gICEDYRhJ8BRmxxGOeH2hk5rk9uIJ64FLYw9LjvybHo=",
+    "originContent": "\t* [`29KB`](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./dist/index-xnf.min.js) — native NFC via [nf-native.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/nf-native.js) using `String.normalize()` ⚠️",
+    "translatedContent": "\t* [`29KB`](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./dist/index-xnf.min.js) — `String.normalize()`를 사용한 [nf-native.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/nf-native.js) 기반 네이티브 NFC ⚠️"
+  },
+  {
+    "row": 24,
+    "rowsha": "LGmb6I+PBF8xs+fgWjp+S3XOs/nR8J7ogD9+luZa8/Y=",
+    "originContent": "\t* [`38KB` **Default**](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./dist/index.min.js) — custom NFC via [nf.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/nf.js)",
+    "translatedContent": "\t* [`38KB` **기본**](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./dist/index.min.js) — [nf.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/nf.js) 기반 커스텀 NFC"
+  },
+  {
+    "row": 25,
+    "rowsha": "8GG4TdYzGSX6FBt+1ZorduVEq4ylce71wOiN1BSrgts=",
+    "originContent": "\t* [`44KB`](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./dist/all.min.js) *Everything!* — custom NFC + sub-libraries: [parts.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/parts.js), [utils.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/utils.js)",
+    "translatedContent": "\t* [`44KB`](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./dist/all.min.js) *모두 포함!* — 커스텀 NFC + 서브 라이브러리: [parts.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/parts.js), [utils.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/utils.js)"
+  },
+  {
+    "row": 26,
+    "rowsha": "HAGclXQhfN836Wlg5WuM9qbz+Y8fdRnYGZxh3Im4V1k=",
+    "originContent": "* Included Apps:",
+    "translatedContent": "* 포함된 앱:"
+  },
+  {
+    "row": 27,
+    "rowsha": "owrJiyXNZkox6Vuxro32MFLpL5zD5EREPYEBsF/D2q8=",
+    "originContent": "\t* [**Resolver Demo**](https://adraffy.github.io/ens-normalize.js/test/resolver.html) ⭐",
+    "translatedContent": "\t* [**리졸버 데모**](https://adraffy.github.io/ens-normalize.js/test/resolver.html) ⭐"
+  },
+  {
+    "row": 28,
+    "rowsha": "Nsr5o2L6QrV8k1zwYK8IdV71esEwyVGwSN0NNVioanA=",
+    "originContent": "\t* [Supported Emoji](https://adraffy.github.io/ens-normalize.js/test/emoji.html)",
+    "translatedContent": "\t* [지원하는 이모지](https://adraffy.github.io/ens-normalize.js/test/emoji.html)"
+  },
+  {
+    "row": 29,
+    "rowsha": "r5qdXHBoGzpwqd63LdskRVzz4K/ZZWf58Xx9zYs+BOM=",
+    "originContent": "\t* [Character Viewer](https://adraffy.github.io/ens-normalize.js/test/chars.html)",
+    "translatedContent": "\t* [문자 뷰어](https://adraffy.github.io/ens-normalize.js/test/chars.html)"
+  },
+  {
+    "row": 30,
+    "rowsha": "F0ernustfO3wghK17fl3gPgOAgPT8gH9qgS+t6/6nds=",
+    "originContent": "\t* [Confused Explainer](https://adraffy.github.io/ens-normalize.js/test/confused.html)",
+    "translatedContent": "\t* [혼란스러운 설명기](https://adraffy.github.io/ens-normalize.js/test/confused.html)"
+  },
+  {
+    "row": 31,
+    "rowsha": "4Hs3+rdkPKW2L9+snN6SlAtJkKPPU+hYXuIot2IQ4do=",
+    "originContent": "* Related Projects:",
+    "translatedContent": "* 관련 프로젝트:"
+  },
+  {
+    "row": 32,
+    "rowsha": "eZetma8jpg3jZi4mwq4ngaflB4WmeIRVK2xiet25Nrs=",
+    "originContent": "\t* [Recent .eth Registrations](https://raffy.antistupid.com/eth/ens-regs.html) • [Renews](https://raffy.antistupid.com/eth/ens-renews.html) • [Expirations](https://raffy.antistupid.com/eth/ens-exp.html)",
+    "translatedContent": "\t* [최근 .eth 등록](https://raffy.antistupid.com/eth/ens-regs.html) • [갱신](https://raffy.antistupid.com/eth/ens-renews.html) • [만료](https://raffy.antistupid.com/eth/ens-exp.html)"
+  },
+  {
+    "row": 33,
+    "rowsha": "tAQpbUhr2Fu3brf36do56PvrxNYIViulMjWF5UZXkp0=",
+    "originContent": "\t* [Label Database](https://github.com/adraffy/ens-labels/) • [Labelhash⁻¹](https://adraffy.github.io/ens-labels/demo.html) • [Brute-force](https://raffy.antistupid.com/eth/ens-brute.html)",
+    "translatedContent": "\t* [라벨 데이터베이스](https://github.com/adraffy/ens-labels/) • [Labelhash⁻¹](https://adraffy.github.io/ens-labels/demo.html) • [무차별 대입](https://raffy.antistupid.com/eth/ens-brute.html)"
+  },
+  {
+    "row": 34,
+    "rowsha": "4CMULpU6UeSnGvA1Wu/M/QyRkO/uJGQ5gXV/uOWtfhQ=",
+    "originContent": "\t* [Emoji Frequency Explorer](https://raffy.antistupid.com/eth/ens-emoji-freq.html)",
+    "translatedContent": "\t* [이모지 빈도 탐색기](https://raffy.antistupid.com/eth/ens-emoji-freq.html)"
+  },
+  {
+    "row": 35,
+    "rowsha": "WWHsXnUPMYec13vb7kYsrVT/twXzlF2Hal+UMZQe2OI=",
+    "originContent": "\t* [adraffy/**punycode.js**](https://github.com/adraffy/punycode.js/) • [Punycode Coder](https://adraffy.github.io/punycode.js/test/demo.html)",
+    "translatedContent": "\t* [adraffy/**punycode.js**](https://github.com/adraffy/punycode.js/) • [Punycode 인코더](https://adraffy.github.io/punycode.js/test/demo.html)"
+  },
+  {
+    "row": 36,
+    "rowsha": "jDE/GqBQdvSSQuJA5GT3nn3OyS18Md+fcoC4VecC2lU=",
+    "originContent": "\t* [adraffy/**keccak.js**](https://github.com/adraffy/keccak.js/) • [Keccak Hasher](https://adraffy.github.io/keccak.js/test/demo.html)",
+    "translatedContent": "\t* [adraffy/**keccak.js**](https://github.com/adraffy/keccak.js/) • [Keccak 해시](https://adraffy.github.io/keccak.js/test/demo.html)"
+  },
+  {
+    "row": 37,
+    "rowsha": "dVUJ9tEhbq+XbsrsH7JkUWHxSJUozR9+lkjtDm2Uo78=",
+    "originContent": "\t* [adraffy/**emoji.js**](https://github.com/adraffy/emoji.js/) • [Emoji Parser](https://adraffy.github.io/emoji.js/test/demo.html)",
+    "translatedContent": "\t* [adraffy/**emoji.js**](https://github.com/adraffy/emoji.js/) • [이모지 파서](https://adraffy.github.io/emoji.js/test/demo.html)"
+  },
+  {
+    "row": 38,
+    "rowsha": "KJIZc0+WAmL86CiWIvbSFxhSUHuGgLmgvPnk0aTVScc=",
+    "originContent": "\t* More links at bottom of [Resolver Demo](https://adraffy.github.io/ens-normalize.js/test/resolver.html)",
+    "translatedContent": "\t* 더 많은 링크는 [리졸버 데모](https://adraffy.github.io/ens-normalize.js/test/resolver.html) 하단에 있음"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 41,
+    "rowsha": "UNouJalTpEqhJwo+j9fMIyzlGbvCr0Iytql5/doKh2k=",
+    "originContent": "import {ens_normalize} from '@adraffy/ens-normalize'; // or require()",
+    "translatedContent": "import {ens_normalize} from '@adraffy/ens-normalize'; // or require()"
+  },
+  {
+    "row": 42,
+    "rowsha": "q/EyUz8R0AgqoXqgrPSKDcytit+5qfaEKRGxUIhMRuA=",
+    "originContent": "// browser: https://cdn.jsdelivr.net/npm/@adraffy/ens-normalize@latest/dist/index.min.mjs (or .cjs)",
+    "translatedContent": "// browser: https://cdn.jsdelivr.net/npm/@adraffy/ens-normalize@latest/dist/index.min.mjs (or .cjs)"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "BcJ2eSdDY4nUVcWNjnFnaDI5HKqpEq1yARsHlPPfhWM=",
+    "originContent": "// *** ALL errors thrown by this library are safe to print ***",
+    "translatedContent": "// *** ALL errors thrown by this library are safe to print ***"
+  },
+  {
+    "row": 45,
+    "rowsha": "anD4LJdYjg08GYznb0D6iu1y1CTHPiJOKZkYO8taJS4=",
+    "originContent": "// - characters are shown as {HEX} if should_escape()",
+    "translatedContent": "// - characters are shown as {HEX} if should_escape()"
+  },
+  {
+    "row": 46,
+    "rowsha": "IWg24YVbGs7GdfQ3ji22eyb4zOjGroAroqwfdD/6lfQ=",
+    "originContent": "// - potentially different bidi directions inside \"quotes\"",
+    "translatedContent": "// - potentially different bidi directions inside \"quotes\""
+  },
+  {
+    "row": 47,
+    "rowsha": "MheYwjQTPwr7u/7Cq5YYbv4bg25blEgkV6XL5dYMdCM=",
+    "originContent": "// - 200E is used near \"quotes\" to prevent spillover",
+    "translatedContent": "// - 200E is used near \"quotes\" to prevent spillover"
+  },
+  {
+    "row": 48,
+    "rowsha": "N2e5yUdHT5c6LCQpFYxTdZ+6Yb9Q3HH48JyizWciPbw=",
+    "originContent": "// - an \"error type\" can be extracted by slicing up to the first (:)",
+    "translatedContent": "// - an \"error type\" can be extracted by slicing up to the first (:)"
+  },
+  {
+    "row": 49,
+    "rowsha": "Z1a1Em4MKU0mnQ98IQL90wsn+1Hyv8CdTLskmY+TLGU=",
+    "originContent": "// - labels are middle-truncated with ellipsis (…) at 63 cps",
+    "translatedContent": "// - labels are middle-truncated with ellipsis (…) at 63 cps"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "DIzwtgGIusvZIYuv0E0sjh3yhTr2WDOLN2qJkk1gxSo=",
+    "originContent": "// string -> string",
+    "translatedContent": "// string -> string"
+  },
+  {
+    "row": 52,
+    "rowsha": "zW4gBdgCfitn4NUk0dpWFUVz2teNtS5Jl9WhMDknC2s=",
+    "originContent": "// throws on invalid names",
+    "translatedContent": "// throws on invalid names"
+  },
+  {
+    "row": 53,
+    "rowsha": "Jo1zgH/zF2h2ijAa9iHdamO3JzUT8sTFzEIzuEB8WFY=",
+    "originContent": "// output ready for namehash",
+    "translatedContent": "// output ready for namehash"
+  },
+  {
+    "row": 54,
+    "rowsha": "AsU14Pd7BAU+vniyuBAxVXkZ1GOHYLmyzCnfq4hdIRw=",
+    "originContent": "let normalized = ens_normalize('RaFFY🚴‍♂️.eTh');",
+    "translatedContent": "let normalized = ens_normalize('RaFFY🚴‍♂️.eTh');"
+  },
+  {
+    "row": 55,
+    "rowsha": "ThDWkFvdLy4owIQHv05XWgvNYlkK0j7mhg4Jmafbs1o=",
+    "originContent": "// => \"raffy🚴‍♂.eth\"",
+    "translatedContent": "// => \"raffy🚴‍♂.eth\""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "nb1UvAAikzoALOJhIcLGBHQKRQfAF7RORBdPyKAzvCk=",
+    "originContent": "// note: does not enforce .eth registrar 3-character minimum",
+    "translatedContent": "// note: does not enforce .eth registrar 3-character minimum"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "vtf0ft8PdLDTPXX3muyp3wAyH82TnIpzwq8SpODjSSc=",
+    "originContent": "Format names with fully-qualified emoji:",
+    "translatedContent": "이모지로 완전히 한정된 형식 이름:"
+  },
+  {
+    "row": 61,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 62,
+    "rowsha": "y+NmhyKmUNBzoEDVm+R0XHBlVi8DcgHznQbz7kXz6iQ=",
+    "originContent": "// works like ens_normalize()",
+    "translatedContent": "// works like ens_normalize()"
+  },
+  {
+    "row": 63,
+    "rowsha": "drd6JmJH+RGWj/PsWW/bTghSFuWDeoc12z+/acBqEWU=",
+    "originContent": "// output ready for display",
+    "translatedContent": "// output ready for display"
+  },
+  {
+    "row": 64,
+    "rowsha": "qIIDvMN8FckoTbpJkeg926LpBhEbL1VbdDvOOtiXbNI=",
+    "originContent": "let pretty = ens_beautify('1⃣2⃣.eth'); ",
+    "translatedContent": "let pretty = ens_beautify('1⃣2⃣.eth'); "
+  },
+  {
+    "row": 65,
+    "rowsha": "tXHXRHPuupdFy3Eg8Iaghion5wXVOq9LZAvVZ8NPJck=",
+    "originContent": "// => \"1️⃣2️⃣.eth\"",
+    "translatedContent": "// => \"1️⃣2️⃣.eth\""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "Pev8zL/tHwN1/EWyD5r0QaHr0T5BWJmMv5fj8iZM46g=",
+    "originContent": "// note: normalization is unchanged:",
+    "translatedContent": "// note: normalization is unchanged:"
+  },
+  {
+    "row": 68,
+    "rowsha": "QaX97f/juaaQAAsESrFsYvuFI3sgOpHIjCV0U6rqwOs=",
+    "originContent": "// ens_normalize(ens_beautify(x)) == ens_normalize(x)",
+    "translatedContent": "// ens_normalize(ens_beautify(x)) == ens_normalize(x)"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "s+RIik/LYMp4CmTOeNksipH42DHlxCWL7sQq6xaz78Q=",
+    "originContent": "Normalize name fragments for [substring search](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./test/fragment.js):",
+    "translatedContent": "[부분 문자열 검색](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./test/fragment.js)을 위한 이름 조각 정규화:"
+  },
+  {
+    "row": 72,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 73,
+    "rowsha": "+GieeDda7hQ5D7eAU/YDqBXlONMEcqKHJMBLMw6lrR0=",
+    "originContent": "// these fragments fail ens_normalize() ",
+    "translatedContent": "// these fragments fail ens_normalize() "
+  },
+  {
+    "row": 74,
+    "rowsha": "lZvdRCNyJ8VGtdlTJHxOuaMWAb/tHIOxS1344aUXUDk=",
+    "originContent": "// but will normalize fine as fragments",
+    "translatedContent": "// but will normalize fine as fragments"
+  },
+  {
+    "row": 75,
+    "rowsha": "5dY97kQF3bjelTvMwirUAeNSOgm3LrbWl+0WS/Bol70=",
+    "originContent": "let frag1 = ens_normalize_fragment('AB--');    // expected error: label ext",
+    "translatedContent": "let frag1 = ens_normalize_fragment('AB--');    // expected error: label ext"
+  },
+  {
+    "row": 76,
+    "rowsha": "geEsvEjK8/kz+A8C8LyunY7iw38SlmHNvwA8azKB9F8=",
+    "originContent": "let frag2 = ens_normalize_fragment('\\u{303}'); // expected error: leading cm",
+    "translatedContent": "let frag2 = ens_normalize_fragment('\\u{303}'); // expected error: leading cm"
+  },
+  {
+    "row": 77,
+    "rowsha": "xHFSn2Qou32oETRj5LMqo70vONQMNH+mK+SvzyLiLmU=",
+    "originContent": "let frag3 = ens_normalize_fragment('οо');      // expected error: mixture",
+    "translatedContent": "let frag3 = ens_normalize_fragment('οо');      // expected error: mixture"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "입력 기반 토큰화:"
+  },
+  {
+    "row": 80,
+    "rowsha": "PWvvOxnt97ERTY95Vp/pEIAU94/dkDMV6iivpSB9UMQ=",
+    "originContent": "Input-based tokenization:",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 82,
+    "rowsha": "uXVIRAcc8ylJ6Lu75OgJz+YZKBR5xv9XUXD3r62P3UU=",
+    "originContent": "// string -> Token[]",
+    "translatedContent": "// string -> Token[]"
+  },
+  {
+    "row": 83,
+    "rowsha": "znd6KcY+4tzkKXEXuWpOKka4WwpmiHwpRY17C06tgv4=",
+    "originContent": "// never throws",
+    "translatedContent": "// never throws"
+  },
+  {
+    "row": 84,
+    "rowsha": "r7ACqW6oUebBmvGE6hkpNHzvmduwIedbYvhRi3FOk4w=",
+    "originContent": "let tokens = ens_tokenize('_R💩\\u{FE0F}a\\u{FE0F}\\u{304}\\u{AD}./');",
+    "translatedContent": "let tokens = ens_tokenize('_R💩\\u{FE0F}a\\u{FE0F}\\u{304}\\u{AD}./');"
+  },
+  {
+    "row": 85,
+    "rowsha": "q0MFlmupM7EPL+6f+xqBh9m/AfmebBlJumff+zdwlNQ=",
+    "originContent": "// [",
+    "translatedContent": "// ["
+  },
+  {
+    "row": 86,
+    "rowsha": "bItYrZJYHLDO4HAGSrlTBCSd2IhaZ26b5UqhWg+Cxb0=",
+    "originContent": "//     { type: 'valid', cps: [ 95 ] }, // valid (as-is)",
+    "translatedContent": "//     { type: 'valid', cps: [ 95 ] }, // valid (as-is)"
+  },
+  {
+    "row": 87,
+    "rowsha": "8L8wXrZ8FRppQGxM9vp0VbXiHENkaEPvevvS+fbD2LA=",
+    "originContent": "//     {",
+    "translatedContent": "//     {"
+  },
+  {
+    "row": 88,
+    "rowsha": "GhliXGDzkb6qobjGWfVsdxoJdq5dlQtQnx5CtvwtyAY=",
+    "originContent": "//         type: 'mapped', ",
+    "translatedContent": "//         type: 'mapped', "
+  },
+  {
+    "row": 89,
+    "rowsha": "u4GosaL/5F/0Jv1UBSBTvyDHfiXHS8OQjKFE8KMolgM=",
+    "originContent": "//         cp: 82,         // input",
+    "translatedContent": "//         cp: 82,         // input"
+  },
+  {
+    "row": 90,
+    "rowsha": "+pYl6S7kp3ZzGrM4SBn8g/uk647sOlDm9shR/fCdZ+A=",
+    "originContent": "//         cps: [ 114 ]    // output",
+    "translatedContent": "//         cps: [ 114 ]    // output"
+  },
+  {
+    "row": 91,
+    "rowsha": "WfDml5DUHtFKLneckhRzW5jTgYInLx5xa/KkA16Q3EE=",
+    "originContent": "//     }, ",
+    "translatedContent": "//     }, "
+  },
+  {
+    "row": 92,
+    "rowsha": "YssyG/SSbXptTHbEt/o15OSyN43xKVVcfXmbVSmTwns=",
+    "originContent": "//     { ",
+    "translatedContent": "//     { "
+  },
+  {
+    "row": 93,
+    "rowsha": "p6esvMjx84eFvD7CfpPWGtBlARx3IVMhOLzMHyYjqSU=",
+    "originContent": "//         type: 'emoji',",
+    "translatedContent": "//         type: 'emoji',"
+  },
+  {
+    "row": 94,
+    "rowsha": "IL+5ICq6sPUCOcKhHf+vbCmdZQ8BN3OSkXg1YCsbagc=",
+    "originContent": "//         input: Emoji(2) [ 128169, 65039 ],  // input ",
+    "translatedContent": "//         input: Emoji(2) [ 128169, 65039 ],  // input "
+  },
+  {
+    "row": 95,
+    "rowsha": "Q3TfxlUeezLKRfXi8/idTXYRV+anRhws/SrqL5ZwOPc=",
+    "originContent": "//         emoji: [ 128169, 65039 ],           // fully-qualified",
+    "translatedContent": "//         emoji: [ 128169, 65039 ],           // fully-qualified"
+  },
+  {
+    "row": 96,
+    "rowsha": "pN2JfR6IwNq2sxhPPBi1PuEjmS8XMYFCjbH0u/r8TIQ=",
+    "originContent": "//         cps: Emoji(1) [ 128169 ]            // output (normalized)",
+    "translatedContent": "//         cps: Emoji(1) [ 128169 ]            // output (normalized)"
+  },
+  {
+    "row": 97,
+    "rowsha": "R69L5bZTxgyvH6bHJBTSnEFSp0kRFhCLnSPXaRgHg/M=",
+    "originContent": "//     },",
+    "translatedContent": "//     },"
+  },
+  {
+    "row": 98,
+    "rowsha": "8L8wXrZ8FRppQGxM9vp0VbXiHENkaEPvevvS+fbD2LA=",
+    "originContent": "//     {",
+    "translatedContent": "//     {"
+  },
+  {
+    "row": 99,
+    "rowsha": "+NpyJlq/2wyzPEkjYvpqtyeY4Qb739M6NoettJSe8J8=",
+    "originContent": "//         type: 'nfc',",
+    "translatedContent": "//         type: 'nfc',"
+  },
+  {
+    "row": 100,
+    "rowsha": "qAht5mwfPU6nzhWPaqqjGXDsfsg4j81fTEzjIjo3Jng=",
+    "originContent": "//         input: [ 97, 772 ],  // input (before nfc)",
+    "translatedContent": "//         input: [ 97, 772 ],  // input (before nfc)"
+  },
+  {
+    "row": 101,
+    "rowsha": "XHx9uBBslER3DE3eQejdtBenwrYZf4zA0ZtYErEIHb0=",
+    "originContent": "//         cps: [ 257 ],        // output (after nfc)",
+    "translatedContent": "//         cps: [ 257 ],        // output (after nfc)"
+  },
+  {
+    "row": 102,
+    "rowsha": "y8qXDqO1oQS/RPaVW/Ih/ksp2Or6x2qslQIkJKgC58U=",
+    "originContent": "//         tokens0: [           // tokens (before nfc)",
+    "translatedContent": "//         tokens0: [           // tokens (before nfc)"
+  },
+  {
+    "row": 103,
+    "rowsha": "ALzF3NE45n3LfKBLtn73eqKdBM7F+QxIZjnEpZiJIsY=",
+    "originContent": "//             { type: 'valid', cps: [ 97 ] },",
+    "translatedContent": "//             { type: 'valid', cps: [ 97 ] },"
+  },
+  {
+    "row": 104,
+    "rowsha": "zZLoevVZlNHT/sSEWyBMvPmuWA4xFYhluEFZFSNqZ0s=",
+    "originContent": "//             { type: 'ignored', cp: 65039 },",
+    "translatedContent": "//             { type: 'ignored', cp: 65039 },"
+  },
+  {
+    "row": 105,
+    "rowsha": "s6ELdFAcmP7imwanFu5I1moGDjmQmacQA3uR5RXklJU=",
+    "originContent": "//             { type: 'valid', cps: [ 772 ] }",
+    "translatedContent": "//             { type: 'valid', cps: [ 772 ] }"
+  },
+  {
+    "row": 106,
+    "rowsha": "lBX9rNSzeU5cHwxn7KzGez8jbr7T/R9mmtzysHmWKio=",
+    "originContent": "//         ],",
+    "translatedContent": "//         ],"
+  },
+  {
+    "row": 107,
+    "rowsha": "gFHbyVc9q/8MlZUQ0RGxDu5IJcEiWmMQzBIhh34a23o=",
+    "originContent": "//         tokens: [            // tokens (after nfc)",
+    "translatedContent": "//         tokens: [            // tokens (after nfc)"
+  },
+  {
+    "row": 108,
+    "rowsha": "IvXXjjmgteBHSY8PTFsKWDVbPngCT2FRV4fxS5LQ1b0=",
+    "originContent": "//             { type: 'valid', cps: [ 257 ] }",
+    "translatedContent": "//             { type: 'valid', cps: [ 257 ] }"
+  },
+  {
+    "row": 109,
+    "rowsha": "OlsIHGUULmKR6EX7TU+fPMvq/nlHOQmDg0GwNj5EFzg=",
+    "originContent": "//         ]",
+    "translatedContent": "//         ]"
+  },
+  {
+    "row": 110,
+    "rowsha": "R69L5bZTxgyvH6bHJBTSnEFSp0kRFhCLnSPXaRgHg/M=",
+    "originContent": "//     },",
+    "translatedContent": "//     },"
+  },
+  {
+    "row": 111,
+    "rowsha": "YQxEI/rAGYuGFSCVYyHBYXfThuF6QAYXQbM1m0W+Grc=",
+    "originContent": "//     { type: 'ignored', cp: 173 },",
+    "translatedContent": "//     { type: 'ignored', cp: 173 },"
+  },
+  {
+    "row": 112,
+    "rowsha": "+tRUQ0wHGynISvNH4l3nJZic7qv/1eE/LyOpZlu+50M=",
+    "originContent": "//     { type: 'stop', cp: 46 },",
+    "translatedContent": "//     { type: 'stop', cp: 46 },"
+  },
+  {
+    "row": 113,
+    "rowsha": "bGN6Kzt5c3cdq3k9vz8xshOyBmN89t5TVa50vAtClbo=",
+    "originContent": "//     { type: 'disallowed', cp: 47 }",
+    "translatedContent": "//     { type: 'disallowed', cp: 47 }"
+  },
+  {
+    "row": 114,
+    "rowsha": "1iXG4ht5Kd5A+AGMvTZpvUfO3xQIgMg8ppg4SspXZwg=",
+    "originContent": "// ]",
+    "translatedContent": "// ]"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "LLGha4MNTLfxbGycTMhyQq/Ha7P7rOJ/8SOscg2ZBtI=",
+    "originContent": "// note: if name is normalizable, then:",
+    "translatedContent": "// note: if name is normalizable, then:"
+  },
+  {
+    "row": 117,
+    "rowsha": "N5iRDYmDwkTKI/5l8TIOUF32vjpD44NrPm2pyLGXJB0=",
+    "originContent": "// ens_normalize(ens_tokenize(name).map(token => {",
+    "translatedContent": "// ens_normalize(ens_tokenize(name).map(token => {"
+  },
+  {
+    "row": 118,
+    "rowsha": "DAxm3DvPDLeDQVu/9F7WMJNHTV/5C0j3x9RQDZWvtHE=",
+    "originContent": "//     ** convert valid/mapped/nfc/stop to string **",
+    "translatedContent": "//     ** convert valid/mapped/nfc/stop to string **"
+  },
+  {
+    "row": 119,
+    "rowsha": "3Q5sXRH5SiIBrtZ1wbzu+YFXhAowPcCJv8s2r1+nfqw=",
+    "originContent": "// }).join('')) == ens_normalize(name)",
+    "translatedContent": "// }).join('')) == ens_normalize(name)"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "출력 기반 토크나이제이션:"
+  },
+  {
+    "row": 122,
+    "rowsha": "q2AN9RHdA1uGH/p/E5BOpGYFDpZDqVjqIBy9/GU+PeM=",
+    "originContent": "Output-based tokenization:",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 124,
+    "rowsha": "Aq/K834mF8io+EXMuqg807OlOINN9N5lKdBTFc+AmuY=",
+    "originContent": "// string -> Label[]",
+    "translatedContent": "// string -> Label[]"
+  },
+  {
+    "row": 125,
+    "rowsha": "znd6KcY+4tzkKXEXuWpOKka4WwpmiHwpRY17C06tgv4=",
+    "originContent": "// never throws",
+    "translatedContent": "// never throws"
+  },
+  {
+    "row": 126,
+    "rowsha": "pkTBPpeJzr8KN4slID3BLyFjuiGxDWIEuWZYorNt/Ic=",
+    "originContent": "let labels = ens_split('💩Raffy.eth_');",
+    "translatedContent": "let labels = ens_split('💩Raffy.eth_');"
+  },
+  {
+    "row": 127,
+    "rowsha": "q0MFlmupM7EPL+6f+xqBh9m/AfmebBlJumff+zdwlNQ=",
+    "originContent": "// [",
+    "translatedContent": "// ["
+  },
+  {
+    "row": 128,
+    "rowsha": "fN1IpqLn5XSLQCJcW4bWyDICxXvlTdqqSC8kiRIZB6Q=",
+    "originContent": "//   {",
+    "translatedContent": "//   {"
+  },
+  {
+    "row": 129,
+    "rowsha": "IJ7TPkKjHjjrbPpjF9tA61YpWK70lQkmNdE1gp2FOlk=",
+    "originContent": "//     input: [ 128169, 82, 97, 102, 102, 121 ],  ",
+    "translatedContent": "//     input: [ 128169, 82, 97, 102, 102, 121 ],  "
+  },
+  {
+    "row": 130,
+    "rowsha": "S0FeFtFXUskMSxN/ygmVi8c/sTtJZFv6OrKVkUrTS2E=",
+    "originContent": "//     offset: 0, // index of codepoint, not substring index!",
+    "translatedContent": "//     offset: 0, // index of codepoint, not substring index!"
+  },
+  {
+    "row": 131,
+    "rowsha": "v9Gm3bdhgTKAmtxDEfTezC36YoDnlSjflM7r7r2+mNs=",
+    "originContent": "//                // (corresponding length can be inferred from input)",
+    "translatedContent": "//                // (corresponding length can be inferred from input)"
+  },
+  {
+    "row": 132,
+    "rowsha": "U+G0ZUCm9ygQ4M3q0rcUvH7LjBcQZ54htV3WsGBD4gA=",
+    "originContent": "//     tokens: [",
+    "translatedContent": "//     tokens: ["
+  },
+  {
+    "row": 133,
+    "rowsha": "6ErIbzEgshIfYOtDAlakOrz7epvSojMRvX7EM27GB5s=",
+    "originContent": "//       Emoji(2) [ 128169, 65039 ],   // emoji",
+    "translatedContent": "//       Emoji(2) [ 128169, 65039 ],   // emoji"
+  },
+  {
+    "row": 134,
+    "rowsha": "4IFro5bWkufNJVy5K3XqCUf2z1Umw6h2H9zg45WMnw4=",
+    "originContent": "//       [ 114, 97, 102, 102, 121 ]    // nfc-text",
+    "translatedContent": "//       [ 114, 97, 102, 102, 121 ]    // nfc-text"
+  },
+  {
+    "row": 135,
+    "rowsha": "5znThtjQBzmihh7ZRmkGkwyMFkjPhqlfONBQVaqCBfs=",
+    "originContent": "//     ],",
+    "translatedContent": "//     ],"
+  },
+  {
+    "row": 136,
+    "rowsha": "31XLJNfcSRnsobjHs31MPsQ1aI3mk5DCQr4XnII77Gg=",
+    "originContent": "//     output: [ 128169, 114, 97, 102, 102, 121 ],",
+    "translatedContent": "//     output: [ 128169, 114, 97, 102, 102, 121 ],"
+  },
+  {
+    "row": 137,
+    "rowsha": "wqwII1DGP48bXE/T3vcQMkSUmK5bvW0zMc2LTez9llk=",
+    "originContent": "//     emoji: true,",
+    "translatedContent": "//     emoji: true,"
+  },
+  {
+    "row": 138,
+    "rowsha": "gqJIMB48kfcNd0XKpmzUv82lL6eQhCcvmasctr9+v+U=",
+    "originContent": "//     type: 'Latin'",
+    "translatedContent": "//     type: 'Latin'"
+  },
+  {
+    "row": 139,
+    "rowsha": "pRvgI5Gkk6bAQhUA//0SszB3GiK9n7Rf/BaQB09ie2k=",
+    "originContent": "//   },",
+    "translatedContent": "//   },"
+  },
+  {
+    "row": 140,
+    "rowsha": "fN1IpqLn5XSLQCJcW4bWyDICxXvlTdqqSC8kiRIZB6Q=",
+    "originContent": "//   {",
+    "translatedContent": "//   {"
+  },
+  {
+    "row": 141,
+    "rowsha": "FwpRkBYZ8klHXp1IjZT4ziyDhqhNlC/ydum6VblRBho=",
+    "originContent": "//     input: [ 101, 116, 104, 95 ],",
+    "translatedContent": "//     input: [ 101, 116, 104, 95 ],"
+  },
+  {
+    "row": 142,
+    "rowsha": "1WLrUdQAwzcr3oHwmPJub21LJbxDWcniEfNtcybv3ro=",
+    "originContent": "//     offset: 7,",
+    "translatedContent": "//     offset: 7,"
+  },
+  {
+    "row": 143,
+    "rowsha": "+QYMxyLYnMMatfrb//TffblmGDhaMXL++E9n7V+r5MU=",
+    "originContent": "//     tokens: [ [ 101, 116, 104, 95 ] ],",
+    "translatedContent": "//     tokens: [ [ 101, 116, 104, 95 ] ],"
+  },
+  {
+    "row": 144,
+    "rowsha": "3LIrM9HJxjPtYihilUrNRRTVJNTsGTqUSXGowWby6Fg=",
+    "originContent": "//     output: [ 101, 116, 104, 95 ],",
+    "translatedContent": "//     output: [ 101, 116, 104, 95 ],"
+  },
+  {
+    "row": 145,
+    "rowsha": "M9nzlPn4eKOSUVQhEX4Xs13J8qrW7onhWQpc9C3hIDo=",
+    "originContent": "//     error: Error('underscore allowed only at start')",
+    "translatedContent": "//     error: Error('underscore allowed only at start')"
+  },
+  {
+    "row": 146,
+    "rowsha": "H8szCji9VN1CCQdKaqjvQVfYHuoS9KDCUj2z0YXmNMo=",
+    "originContent": "//   }",
+    "translatedContent": "//   }"
+  },
+  {
+    "row": 147,
+    "rowsha": "1iXG4ht5Kd5A+AGMvTZpvUfO3xQIgMg8ppg4SspXZwg=",
+    "originContent": "// ]",
+    "translatedContent": "// ]"
+  },
+  {
+    "row": 148,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "gsaBsVPZ3phHHycOOfaeVvLMjPGAHW9jKGLdD637owQ=",
+    "originContent": "Generate a sorted array of (beautified) supported emoji codepoints:",
+    "translatedContent": "지원되는 이모지 코드포인트의 정렬된 배열(보기 좋게) 생성:"
+  },
+  {
+    "row": 151,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 152,
+    "rowsha": "vxXnQRXY2UkfwFE2Dri5UstxNFXlm/3KNlIWORCtrqM=",
+    "originContent": "// () -> number[][]",
+    "translatedContent": "// () -> number[][]"
+  },
+  {
+    "row": 153,
+    "rowsha": "ikAFpx5mrB95aKrjIpX7NyrIXVG+oAUNx2SafeDK+4U=",
+    "originContent": "let emojis = ens_emoji();",
+    "translatedContent": "let emojis = ens_emoji();"
+  },
+  {
+    "row": 154,
+    "rowsha": "q0MFlmupM7EPL+6f+xqBh9m/AfmebBlJumff+zdwlNQ=",
+    "originContent": "// [",
+    "translatedContent": "// ["
+  },
+  {
+    "row": 155,
+    "rowsha": "IpND5bMw4bazIxHALHTLoBR/bSmkGAwlkfZ9KjdrIk4=",
+    "originContent": "//     [ 2764 ],",
+    "translatedContent": "//     [ 2764 ],"
+  },
+  {
+    "row": 156,
+    "rowsha": "FTyVEkfrrc9e2l2ZRt6WO8oK185PVzxGs7RBxfUiAus=",
+    "originContent": "//     [ 128169, 65039 ],",
+    "translatedContent": "//     [ 128169, 65039 ],"
+  },
+  {
+    "row": 157,
+    "rowsha": "aqO4fw2bGGeKfyPVWkhMuP5nIy79RV8iDQSUGfc0A1Y=",
+    "originContent": "//     [ 128105, 127997, 8205, 9877, 65039 ],",
+    "translatedContent": "//     [ 128105, 127997, 8205, 9877, 65039 ],"
+  },
+  {
+    "row": 158,
+    "rowsha": "wWNzTCsvId8/yjqE1zYcN0tk8XwLHnb0TtihlImRtpw=",
+    "originContent": "//     ...",
+    "translatedContent": "//     ..."
+  },
+  {
+    "row": 159,
+    "rowsha": "1iXG4ht5Kd5A+AGMvTZpvUfO3xQIgMg8ppg4SspXZwg=",
+    "originContent": "// ]",
+    "translatedContent": "// ]"
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "gUx/9IQSO5oBPErmGJ7yOgdMxPVRxmOgXHdHcza90P0=",
+    "originContent": "Determine if a character shouldn't be printed directly:",
+    "translatedContent": "문자가 직접 출력되지 않아야 하는지 확인하십시오:"
+  },
+  {
+    "row": 163,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 164,
+    "rowsha": "VEj5goYSOe2F8gR+RKU7PEn5XIANeboP/E78//LtjLM=",
+    "originContent": "// number -> bool",
+    "translatedContent": "// number -> bool"
+  },
+  {
+    "row": 165,
+    "rowsha": "J1bnInRg8Vl722Lu7ORpLmetfItFeCygJlcu7jRlqy4=",
+    "originContent": "should_escape(0x202E); // eg. RIGHT-TO-LEFT OVERRIDE => true",
+    "translatedContent": "should_escape(0x202E); // eg. RIGHT-TO-LEFT OVERRIDE => true"
+  },
+  {
+    "row": 166,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "lMXh19apZaffJKJGlCDGiFcHUDplR2YTFTgw+mZu0W4=",
+    "originContent": "Determine if a character is a combining mark:",
+    "translatedContent": "문자가 결합 부호인지 확인:"
+  },
+  {
+    "row": 169,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 170,
+    "rowsha": "VEj5goYSOe2F8gR+RKU7PEn5XIANeboP/E78//LtjLM=",
+    "originContent": "// number -> bool",
+    "translatedContent": "// number -> bool"
+  },
+  {
+    "row": 171,
+    "rowsha": "swjetVsMdCynYqA5s1DXIK6hdnfVLHH9Miqr+cNAM34=",
+    "originContent": "is_combining_mark(0x20E3); // eg. COMBINING ENCLOSING KEYCAP => true",
+    "translatedContent": "is_combining_mark(0x20E3); // eg. COMBINING ENCLOSING KEYCAP => true"
+  },
+  {
+    "row": 172,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "E5ZQKEwqm7aWPj0944e/wQqSfJlgIKs/IyWdPEUlbG8=",
+    "originContent": "Format codepoints as print-safe string:",
+    "translatedContent": "코드포인트를 출력 안전 문자열로 포맷:"
+  },
+  {
+    "row": 175,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 176,
+    "rowsha": "lNf1AvAIz8gHDs260UiJdVHSchaUmg9EsxbLAtgpkS8=",
+    "originContent": "// number[] -> string",
+    "translatedContent": "// number[] -> string"
+  },
+  {
+    "row": 177,
+    "rowsha": "+OtD+PkcGPmpoX/ijWjvRxuWY1Xe5J8IdYnw7L+7Ug0=",
+    "originContent": "safe_str_from_cps([0x300, 0, 32, 97]); // \"◌̀{00} a\"",
+    "translatedContent": "safe_str_from_cps([0x300, 0, 32, 97]); // \"◌̀{00} a\""
+  },
+  {
+    "row": 178,
+    "rowsha": "GFhRb7DdgcQuRY/bkBp544OYXHjFyGoXjmK1mpiTbU8=",
+    "originContent": "safe_str_from_cps(Array(100).fill(97), 4); // \"aa…aa\" => middle-truncated",
+    "translatedContent": "safe_str_from_cps(Array(100).fill(97), 4); // \"aa…aa\" => middle-truncated"
+  },
+  {
+    "row": 179,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 빌드"
+  },
+  {
+    "row": 181,
+    "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
+    "originContent": "## Build",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 이 저장소를 `git clone` 한 후, `npm install` 실행"
+  },
+  {
+    "row": 183,
+    "rowsha": "vu2+5dqw6ivf0VGZN0kXE7GKiOYzCoRuBz3VVQbOUVo=",
+    "originContent": "* `git clone` this repo, then `npm install` ",
+    "translatedContent": "* [/derive/](./derive/) 내 지침에 따라 데이터 파일 생성"
+  },
+  {
+    "row": 184,
+    "rowsha": "9UM8qt+iiNfk0NmrstpTICqcTVMcxm4SDj4DCgFGyBU=",
+    "originContent": "* Follow instructions in [/derive/](./derive/) to generate data files",
+    "translatedContent": "\t* `npm run derive` "
+  },
+  {
+    "row": 185,
+    "rowsha": "/UXnEhoC1psuFMECTO7+P9jKf+Hs0eG4OOULnPDxcuY=",
+    "originContent": "\t* `npm run derive` ",
+    "translatedContent": "\t\t* [spec.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/spec.json)"
+  },
+  {
+    "row": 186,
+    "rowsha": "IWsAIqYJUVUqQf+2rt4qiJnMadO59S0k5Jq1pywSmjo=",
+    "originContent": "\t\t* [spec.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/spec.json)",
+    "translatedContent": "\t\t* [nf.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/nf.json)"
+  },
+  {
+    "row": 187,
+    "rowsha": "AA73+2bHXl+viFV5jJvingT1QrCOZ91SpxHwlfsRGWM=",
+    "originContent": "\t\t* [nf.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/nf.json)",
+    "translatedContent": "\t\t* [nf-tests.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/nf-tests.json)"
+  },
+  {
+    "row": 188,
+    "rowsha": "XI9LlU3cJHFacOWrCizErecc/Tw9gv+mwXJnI6g/2Is=",
+    "originContent": "\t\t* [nf-tests.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/nf-tests.json)",
+    "translatedContent": "* `npm run make` — [/derive/output/](./derive/output/)에서 데이터 파일 압축"
+  },
+  {
+    "row": 189,
+    "rowsha": "xdYTkzh01w/p52orbiVxtseI0sUYGbpytP6tU7KZX34=",
+    "originContent": "* `npm run make` — compress data files from [/derive/output/](./derive/output/)",
+    "translatedContent": "\t* [include-ens.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-ens.js)"
+  },
+  {
+    "row": 190,
+    "rowsha": "ZFBG55jobu8+rdNAu/wZEsb0GRCrARnYc1MofWFR/Dw=",
+    "originContent": "\t* [include-ens.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-ens.js)",
+    "translatedContent": "\t* [include-nf.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-nf.js)"
+  },
+  {
+    "row": 191,
+    "rowsha": "2OCVFvSpWvByHqvi7suUVXqKVC+nN/8s6O6qPPVvw3w=",
+    "originContent": "\t* [include-nf.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-nf.js)",
+    "translatedContent": "\t* [include-versions.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-versions.js)"
+  },
+  {
+    "row": 192,
+    "rowsha": "c124Qfe8R2wRsD0aVKZ9ROCbeDA8hynZHD7a8+TkfYc=",
+    "originContent": "\t* [include-versions.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-versions.js)",
+    "translatedContent": "* [/validate/](./validate/) 내 지침에 따라 검증 테스트 생성"
+  },
+  {
+    "row": 193,
+    "rowsha": "UmdtaKEPgHG2Xa1gzl62Il9a35+fxxgZj1JP0eXxD2o=",
+    "originContent": "* Follow instructions in [/validate/](./validate/) to generate validation tests",
+    "translatedContent": "\t* `npm run validate`"
+  },
+  {
+    "row": 194,
+    "rowsha": "J58KXcK6yo23r9oGl2qdTwPaCI/OuK+HgbjKrsSGfTg=",
+    "originContent": "\t* `npm run validate`",
+    "translatedContent": "\t\t* [tests.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./validate/tests.json)"
+  },
+  {
+    "row": 195,
+    "rowsha": "Twl/hiU6R4UbXD5CKJuHhAh0Lvp6DX0JvcWQYabI+QE=",
+    "originContent": "\t\t* [tests.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./validate/tests.json)",
+    "translatedContent": "* `npm run test` — 검증 테스트 수행"
+  },
+  {
+    "row": 196,
+    "rowsha": "h7kGCDIUZSb1wKk8bK2nQu4wXHdYtk7Gyq1ARJR+MjQ=",
+    "originContent": "* `npm run test` — perform validation tests",
+    "translatedContent": "* `npm run build` — [/dist/](./dist/) 생성"
+  },
+  {
+    "row": 197,
+    "rowsha": "ysgDd6s7AP+B72S6FWEt5ABLHc1f10SYb9W44BpwYE4=",
+    "originContent": "* `npm run build` — create [/dist/](./dist/)",
+    "translatedContent": "* `npm run rebuild` — 위 명령 모두 실행"
+  },
+  {
+    "row": 198,
+    "rowsha": "z0BprY0kO7W6jBv+pInZ/lZqOQhso1I96O2Mk+10+7Y=",
+    "originContent": "* `npm run rebuild` — run all the commands above",
+    "translatedContent": "* `npm run order` — 최적 그룹 순서 생성 후 다시 빌드"
+  },
+  {
+    "row": 199,
+    "rowsha": "y6UDpRJSAMGh4NkCqmrxbspifmzuGYf47Uyg3ZrACWQ=",
+    "originContent": "* `npm run order` — create optimal group ordering and rebuild again",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 보안"
+  },
+  {
+    "row": 201,
+    "rowsha": "UlQ9upvw00moCjWDduBZqkTiv0PRDG/mYeqnsF8DP6Q=",
+    "originContent": "## Security",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* [빌드](#build) 후 [include-versions.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-versions.js)와 비교"
+  },
+  {
+    "row": 203,
+    "rowsha": "N6h19OMefWwgSE+ZNrZJfHA3Xq5/usfpuYao9gca2Uw=",
+    "originContent": "* [Build](#build) and compare against [include-versions.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-versions.js)",
+    "translatedContent": "\t* `spec_hash` — [spec.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/spec.json) 바이트의 SHA-256"
+  },
+  {
+    "row": 204,
+    "rowsha": "b1O+XRKNMi7rAiJ68S1vJObx3BJgIoPprpnrugz8Gl8=",
+    "originContent": "\t* `spec_hash` — SHA-256 of [spec.json](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./derive/output/spec.json) bytes",
+    "translatedContent": "\t* `ens_hash_base64` — [include-ens.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-ens.js) base64 리터럴의 SHA-256"
+  },
+  {
+    "row": 205,
+    "rowsha": "2BYoaJNpqmIvAY/3Z+ifk8kSbexqNJs5XuSBQJpvAdc=",
+    "originContent": "\t* `ens_hash_base64` — SHA-256 of [include-ens.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-ens.js) base64 literal",
+    "translatedContent": "\t* `nf_hash_base64` — [include-nf.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-nf.js) base64 리터럴의 SHA-256"
+  },
+  {
+    "row": 206,
+    "rowsha": "kudNdYSimyHWgXUMdfth4ueouJs2G94WRCkdifyrQX0=",
+    "originContent": "\t* `nf_hash_base64` — SHA-256 of [include-nf.js](https://raw.githubusercontent.com/adraffy/ens-normalize.js/main/./src/include-nf.js) base64 literal",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

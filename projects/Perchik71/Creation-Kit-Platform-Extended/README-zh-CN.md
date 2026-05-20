@@ -39,59 +39,60 @@
 
 
 # 描述
-**CKPE** 是一个强大的共享源平台，对 **Bethesda** 的 Creation Kit 编辑器进行了众多修复和改进，支持如 **Skyrim Special Edition**、**Fallout 4**、**Starfield** 等游戏的编辑器，是 [SSE CKFixes](https://github.com/Nukem9/skyrimse-test)、[SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)、[FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) 项目的继任者，同时也是 [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test)（作者 **perchik71** 的最初项目）。
+**CKPE** 是一个共享源强大平台，对 **Bethesda** 的 Creation Kit 编辑器进行了大量修复和改进，支持如 **Skyrim Special Edition**、**Fallout 4**、**Starfield** 等游戏的编辑器，是 [SSE CKFixes](https://github.com/Nukem9/skyrimse-test)、[SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)、[FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) 项目的继任者，还包括 [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test)，该补丁是作者 **perchik71** 项目的起点。  
 
-[Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) 页面
+[Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) 页面  
 
 # 依赖项
 [toml11](https://github.com/ToruNiina/toml11) 作者为 `ToruNiina` 及其他  
 [Zydis](https://github.com/zyantific/zydis.git) 作者为 `zyantifi` 及其他  
 [zipper](https://github.com/kuba--/zip.git) 作者为 `kuba--`  
 [libdeflate](https://github.com/ebiggers/libdeflate.git) 作者为 `ebiggers` 及其他  
-[xbyak](https://github.com/herumi/xbyak.git) 作者为 `herumi` 及其他  
+[xbyak](https://github.com/herumi/xbyak.git) 作者为 `herumi` 及其他    
 [DirectXTex](https://github.com/microsoft/DirectXTex.git) 作者为 `microsoft`  
 [jDialogs](https://github.com/Perchik71/jDialogs.git) 作者为 `perchik71` *(递归)*
 
 # 安装
 >[!重要]
->常规版还是 noavx2 版？  
->请在 Steam 检查你的 CPU 是否支持 avx2。打开 Steam，左上角将鼠标悬停在帮助菜单，选择系统信息，搜索 AVX2。  
->如果支持请选择常规版  
->如果不支持请选择 noavx2 版  
+>常规或无 avx2 版本？  
+>通过 Steam 检查你的 CPU 是否支持 avx2。打开 Steam，在左下角悬停至帮助菜单，选择系统信息，搜索 AVX2。  
+>如果支持则选择常规版本  
+>如果不支持则选择无 avx2 版本  
 ### 全新安装
 下载任意[支持的游戏](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief)并安装 Creation Kit。  
-下载适用于你的游戏的 [最新版本](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE**。  
-将所有内容解压到游戏目录下，确保 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹中。
+下载适用于你的游戏的 **CKPE** [最新版本](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases)。  
+将所有内容解压到游戏目录，使 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹下。
 ### 更新
-下载适用于你的游戏的 [最新版本](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE**。  
-将所有内容解压到游戏目录下，确保 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹中。  
+下载适用于你的游戏的 **CKPE** [最新版本](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases)。  
+将所有内容解压到游戏目录，使 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹下。  
 同意替换所有文件。
 ### 编译
-普通用户仅在需要访问尚未发布的新功能时才需要此方法。  
-在 **`Visual Studio 2022`** 或更高版本中打开项目。以 **`Release`** 模式或 **`Release-NoAVX2`** 构建项目。  
-然后将编译输出移动到游戏目录下，确保 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹中。  
-如提示替换旧文件，请同意替换所有文件。
+普通用户仅需此方法来访问尚未发布的最新功能。  
+在 **`Visual Studio 2022`** 或更高版本中打开项目。在 **`Release`** 模式或 **`Release-NoAVX2`** 下构建项目。  
+然后将构建输出移动到游戏目录，使 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹下。  
+如需替换旧文件，请同意替换所有。
 ### 自动化构建（测试版）
-下载适用于你的游戏的 [最新提交构建](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) **CKPE**。  
-将所有内容解压到游戏目录下，确保 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹中。  
-可能会出现错误。
+下载适用于你的游戏的 **CKPE** [最新提交构建](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions)。  
+将所有内容解压到游戏目录，使 **ckpe_loader.exe** 与 **CreationKit.exe** 在同一文件夹下。  
+可能出现错误。
 
-# 鸣谢
-[Nukem9](https://github.com/Nukem9)（提供实验性功能、哈希等，非常有用）
-[adzm](https://github.com/adzm) （非常感谢你的工作，你已经[完成了](https://github.com/adzm/win32-custom-menubar-aero-theme)我一直想做的事情）  
-[yak3d](https://github.com/yak3d) （感谢对工作流程的贡献和开发，以及对最新Starfield的支持）  
-[DioKyrie-Git](https://github.com/DioKyrie-Git) （感谢为readme文档的设计）  
+# 致谢
+[Nukem9](https://github.com/Nukem9)（提供实验功能、哈希等，非常有用）  
+[adzm](https://github.com/adzm) （非常感谢你的工作，你已经[完成了](https://github.com/adzm/win32-custom-menubar-aero-theme)我一直想亲自做的事情）  
+[yak3d](https://github.com/yak3d) （感谢你对工作流程的贡献和开发，以及对最新 Starfield 的支持）  
+[DioKyrie-Git](https://github.com/DioKyrie-Git) （感谢你设计了 readme）  
 
 # 许可证
-从v0.6（提交 [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)）开始，项目采用[LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)许可。<br />
-早期版本采用[GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)许可。<br />
+从 v0.6（提交 [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)）版本开始，项目采用 [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html) 许可证。<br />
+早期版本采用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 许可证 <br />
 版权所有 © 2023-2025 aka perchik71。保留所有权利。<br />
-文件 `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` 包含专有且未授权的文件；`d3dcompiler\*.*` 下的文件同样如此。<br />
-依赖项遵循各自的许可证。
+文件 `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` 包含专有且未授权的文件；`d3dcompiler\*.*` 路径下的文件亦同。<br />
+依赖项均受各自许可证约束。 
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

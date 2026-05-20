@@ -39,59 +39,60 @@
 </p>
 
 # 説明
-**CKPE** は共有ソースの強力なプラットフォームで、**Bethesda** の Creation Kit エディターに多数の修正と改善を加え、**Skyrim Special Edition**、**Fallout 4**、**Starfield** などのゲームのエディターサポートを含みます。[SSE CKFixes](https://github.com/Nukem9/skyrimse-test)、[SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)、[FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) の後継プロジェクトであり、著者 **perchik71** の原点である [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) も含まれます。  
+**CKPE** は、**Bethesda** の Creation Kit エディタに多くの修正と改善をもたらす、共有ソースの強力なプラットフォームです。**Skyrim Special Edition**、**Fallout 4**、**Starfield** などのゲームのエディタサポートを含み、[SSE CKFixes](https://github.com/Nukem9/skyrimse-test)、[SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)、[FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) プロジェクト、さらに著者 **perchik71** のきっかけとなった [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) の後継です。  
 
 [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) ページ  
 
 # 依存関係
-[toml11](https://github.com/ToruNiina/toml11)（`ToruNiina` 他）  
-[Zydis](https://github.com/zyantific/zydis.git)（`zyantifi` 他）  
-[zipper](https://github.com/kuba--/zip.git)（`kuba--`）  
-[libdeflate](https://github.com/ebiggers/libdeflate.git)（`ebiggers` 他）  
-[xbyak](https://github.com/herumi/xbyak.git)（`herumi` 他）  
-[DirectXTex](https://github.com/microsoft/DirectXTex.git)（`microsoft`）  
-[jDialogs](https://github.com/Perchik71/jDialogs.git)（`perchik71`、*再帰的*）
+[toml11](https://github.com/ToruNiina/toml11) by `ToruNiina` 他  
+[Zydis](https://github.com/zyantific/zydis.git) by `zyantifi` 他  
+[zipper](https://github.com/kuba--/zip.git) by `kuba--`  
+[libdeflate](https://github.com/ebiggers/libdeflate.git) by `ebiggers` 他  
+[xbyak](https://github.com/herumi/xbyak.git) by `herumi` 他    
+[DirectXTex](https://github.com/microsoft/DirectXTex.git) by `microsoft`  
+[jDialogs](https://github.com/Perchik71/jDialogs.git) by `perchik71` *(再帰的)*
 
 # インストール
 >[!重要]
->通常版または noavx2 版のリリース？  
->ご利用の CPU が avx2 をサポートしているか Steam で確認してください。Steam を開き、左上のヘルプメニューにカーソルを合わせて「システム情報」を選択し、「AVX2」で検索します。  
->サポートされている場合は通常版を選択してください。  
->サポートされていない場合は noavx2 版を選択してください。  
+>通常版か noavx2 版か？  
+>お使いのCPUがavx2をサポートしているかSteamで確認してください。Steamを開き、左上のヘルプメニューにマウスを合わせ「システム情報」を選択し、AVX2を検索します。  
+>サポートされていれば通常版を選択  
+>サポートされていなければnoavx2版を選択  
 ### 新規インストール
-[サポート対象ゲーム](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) をダウンロードし、Creation Kit をインストールします。  
-お使いのゲーム用の **CKPE** の[最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) をダウンロードします。  
-すべての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。
+[対応ゲーム](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief)をダウンロードし、Creation Kitをインストールしてください。  
+ご利用のゲーム用に**CKPE**の[最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases)をダウンロードしてください。  
+全ての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダーにあることを確認します。
 ### アップデート
-お使いのゲーム用の **CKPE** の[最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) をダウンロードします。  
-すべての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。  
-すべてのファイルの上書きに同意してください。
+ご利用のゲーム用に**CKPE**の[最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases)をダウンロードしてください。  
+全ての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダーにあることを確認します。  
+すべてのファイルの上書きを許可します。
 ### コンパイル
-通常のユーザーは未公開の最新機能にアクセスする場合のみこの方法が必要です。  
+一般ユーザーはまだリリースされていない最新機能にアクセスする場合のみこの方法が必要です。  
 **`Visual Studio 2022`** 以降でプロジェクトを開きます。**`Release`** モードまたは **`Release-NoAVX2`** でビルドします。  
-その後、ビルド出力をゲームディレクトリに移動し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。  
-古いファイルの上書きを求められた場合は、すべて上書きに同意してください。
-### 自動ビルド（ベータ）
-お使いのゲーム用の **CKPE** の[最新コミットビルド](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) をダウンロードします。  
-すべての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。  
+その後、ビルド出力をゲームディレクトリに移動し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダーにあることを確認します。  
+古いファイルの上書きを求められた場合はすべて上書きしてください。
+### ビルドの自動化（ベータ）
+ご利用のゲーム用に**CKPE**の[最新コミットビルド](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions)をダウンロードしてください。  
+全ての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダーにあることを確認します。  
 発生しうるエラー。
 
 # クレジット
-[Nukem9](https://github.com/Nukem9)（実験的機能やハッシュ等、非常に有用）
-[adzm](https://github.com/adzm) （あなたの仕事に本当に感謝しています。あなたが[成し遂げた](https://github.com/adzm/win32-custom-menubar-aero-theme)ことは、私が長い間やりたかったことです）  
-[yak3d](https://github.com/yak3d) （ワークフローの貢献と開発、最新のStarfieldサポートのため）  
-[DioKyrie-Git](https://github.com/DioKyrie-Git) （readmeのデザインのため）  
+[Nukem9](https://github.com/Nukem9) （実験的な機能やハッシュなど、非常に有用な貢献）  
+[adzm](https://github.com/adzm)（あなたの作業に心から感謝しています。あなたは私自身が長い間やりたかったことを[実現](https://github.com/adzm/win32-custom-menubar-aero-theme)してくれました）  
+[yak3d](https://github.com/yak3d)（ワークフローの貢献と開発、新しいStarfieldのサポートに感謝します）  
+[DioKyrie-Git](https://github.com/DioKyrie-Git)（readmeのデザインに感謝します）  
 
 # ライセンス
-v0.6（コミット[9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)）以降、本プロジェクトは[LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)でライセンスされています。<br />
+v0.6（コミット [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)）以降、プロジェクトは[LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)でライセンスされています。<br />
 初期バージョンは[GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)でライセンスされています。<br />
-Copyright © 2023-2025 aka perchik71. All rights reserved. <br />
-`Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak`ファイルには、専有および非ライセンスファイルが含まれています。同様に、`d3dcompiler\*.*`内のファイルも該当します。<br />
-依存関係はそれぞれのライセンスに従います。
+Copyright © 2023-2025 aka perchik71. All rights reserved.<br />
+ファイル `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` は独自のライセンスされていないファイルを含みます。同様のことが `d3dcompiler\*.*` 内のファイルにも当てはまります。<br />
+依存関係はそれぞれのライセンスに従っています。
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

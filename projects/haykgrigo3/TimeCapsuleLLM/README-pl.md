@@ -40,132 +40,151 @@ Jeśli korzystasz z tego zbioru danych lub modelu w pracy naukowej, proszę cyto
   howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
 }
 ```
+## Dołącz do Vintage LLM Discord
 
-##  Zachowanie Modelu i Ograniczenia
+Jeśli interesują Cię **historyczne modele językowe**, **zbiory danych z określonych epok** lub przyszłość projektów takich jak **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox**, dołącz do naszej społeczności.
+
+Używamy serwera do dyskusji nad pomysłami, dzielenia się postępami i nawiązywania kontaktów z innymi twórcami w tej dziedzinie.
+
+[Dołącz do Discorda](https://discord.gg/JeWkk4z5)
+
+##  Zachowanie modelu i ograniczenia
 
 ### **v0**  
 
-Wczesne zapytania pokazują, że model odpowiada językiem i zachowaniem z XIX wieku.  
-Przykład: Zapytanie: "Kim jest Henry?" i odpowiedź: "Znam tego człowieka, nie mam czarnego, burza." 
+Wczesne polecenia pokazują, że model odpowiada językiem i zachowaniem z XIX wieku.
+Przykład: Polecenie: "Who art Henry?" i odpowiedź: "I know that man, I have did not a black, the storm."
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM Przykładowe Wyjście](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- Brak wzmianki o współczesnych koncepcjach  
-- Głównie słownictwo zgodne z epoką  
-- Zdania są w większości niespójne (oczekiwane przy ~187MB danych treningowych)
+- Brak wzmianki o współczesnych pojęciach  
+- Przeważnie słownictwo zgodne z epoką  
+- Zdania w większości niespójne (oczekiwane dla ~187MB danych treningowych)
 
-### **v0.5** 
+### **v0.5-london** 
 
-Znacząca poprawa względem v0.  
-- Wiktoriański styl pisania, poprawna interpunkcja, głównie gramatyczne zdania  
-- Nadal wysoki wskaźnik halucynacji faktów  
-- Szum OCR („Digitized by Google”) nadal obecny w wynikach
+Znacząca poprawa względem v0.
+- Wiktoriański styl pisania, poprawna interpunkcja, w większości poprawne gramatycznie zdania  
+- Nadal wysoki poziom halucynacji faktów  
+- Szumy OCR („Digitized by Google”) nadal obecne w wyjściach
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM Przykładowe Wyjście](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-### **v1**
+### **v1-london**
 
-Pierwszy model, który potrafił przywołać i połączyć prawdziwe wydarzenie historyczne z faktyczną postacią z zestawu danych.
+Pierwszy model, który potrafi przywołać i połączyć prawdziwe wydarzenie historyczne z rzeczywistą postacią ze zbioru danych.
 
-Przykład: Zapytanie: "To był rok naszego Pana 1834" 
+Przykład: Polecenie: "It was the year of our Lord 1834"
 
-Odpowiedź: "To był rok naszego Pana 1834 i ulice Londynu były pełne protestów i petycji. Przyczyna, jak wielu relacjonowało, nie była związana z prywatnym, lecz podjęta tego samego dnia w dniu Lorda Palmerstona, społeczeństwo otrzyma krótkie oświadczenie o trudnościach, w których dzień prawa nas dosięgnął. To kwestia głębokiego żalu, że obecne wydarzenia w historii świata są jasne i w konsekwencji będą znane. Nieprawda, że ci sami ludzie, którzy pierwsi osiedlili się w Ewangelii w Jerozolimie, powinni mieć tak obszerne i interesujące zapisy pomyślności i pomyślności" 
+Wynik: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
 
-Na początku założyłem, że protest mógł przypadkowo mieć miejsce w tym samym roku, ale spójrz na to: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Początkowo zakładałem, że protest mógłby się przypadkowo odbyć w tym samym roku, ale spójrz na to: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-### **v2mini-eval1**
 
-Trenowany na próbce 15GB z 90GB zestawu danych v2.  
-Model trenowany tylko do 10K kroków.
+### **v2mini-eval1-london**
 
-Wystąpił problem z tokenizacją, który powoduje, że wynik wygląda tak:
+Wytrenowano przy użyciu 15 GB próbki z 90 GB zbioru danych v2.
+Model trenowany tylko do 10 000 kroków.
 
+Wystąpił problem z tokenizacją, który powoduje, że wyjście wygląda tak:
+
+ZAPYTANIE:
 Kim jest Charles Dickens?
 
 
-
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
-Poprawione:
+Poprawiono:
 
-"Kim jest Charles Dickens? Czy to dzieło jest bardziej z jego znakomitych, poruszających utworów, w jego sztukach, na farmie Wielkiej Kompanii? Co mam jeszcze zacytować z Jacka Picketta? Czy nie wiesz, że byli oni rodzajem galopujących, albo piłujących swoje piersi, lub co należało zrobić w czasie, gdy Jackson wyglądał przez okno? Czym jest sukces Anglika i czym jego syn nie odkrył mi jeszcze, by móc osiągnąć taki ciężar? Czy kiedykolwiek przedarłeś się na starą drogę lub do bryzy kotwicznej u stóp naszej łodzi, którą musisz nas opuścić? Faktem jest, że niezależnie od tego, czy wiatr wstanie z równiny w sobotnią noc, w południe, czy do północy, czy też nie, będziemy zmuszeni opisać poważną przeszkodę, z tymi samymi skutkami co obecnie. W tej sytuacji przynajmniej nie można powiedzieć, że opuściliśmy to pomieszczenie. Wierzę, że są trzy egzemplarze w 'Pięćsetkrotnym', do których należy się odwołać, jako pierwsza liczba naszych czytelników, którzy chcą t[o]..."
+"Kim jest Charles Dickens? Czy to dzieło bardziej jego znakomitego wzruszenia, w jego sztukach, na farmie Wielkiej Kompanii? Co mam jeszcze zacytować z Jacka Picketta? Czy nie wiesz, że byli oni gatunkiem galopujących, lub piłujących swoje piersi, albo co miało być zrobione w czasie, gdy Jackson patrzył przez okno? Jaki jest sukces Anglika i który jego syn nie odkrył mi jeszcze, jak osiągnąć taki ciężar? Czy kiedykolwiek przeszliście na starą drogę, lub do kotwicznego wietrzyka u stóp naszej łodzi, którą musicie nas opuścić? Faktem jest, że bez względu na to, czy wiatr wzniesie się z równiny w sobotnią noc czy w południe, czy na północ, czy inaczej, będziemy zmuszeni opisać potężną barierę, z tymi samymi skutkami co obecnie. W tej sytuacji, przynajmniej, nie jest zbyt wiele powiedzieć, że opuściliśmy to pomieszczenie. Wierzę, że istnieją trzy kopie w 'Pięćsetkrotnym', do których można się odwołać, jako pierwszy numer naszych czytelników, którzy chcą t[o]..."
 
-### **v2mini-eval2**
+### **v2mini-eval2-london**
 
-Wytrenowany na tej samej 15GB próbce, która była użyta do treningu eval1.
+Wytrenowany na tej samej 15GB próbce użytej do treningu eval1.
 Model ponownie wytrenowany tylko do 10K kroków.
 
-PROMPT: Charles Darwin
+PROMPT:Charles Darwin
 
-Charles DarwinECCEMACY. Panie, — Następujący przypadek jest dla mnie interesujący: — Byłem w Londynie przez dwa tygodnie i bardzo dotknął mnie atak reumatyzmu. Pierwszy atak reumatyzmu nastąpił tydzień przed tym, jak się z Panem widziałem, drugi, gdy się spotkaliśmy, a trzeci, gdy znów się widzieliśmy, i trzeci w tym samym czasie. Drugi atak dny jednak nie był związany z objawami gorączkowymi, lecz z nasilonym wydalaniem moczu i obfitszym jego oddawaniem. Trzeci atak nastąpił godzinę po spotkaniu z Panem i został poprzedzony powrotem napadu dny oraz szybszym jej nawrotem. Czwarty atak również był związany z gorączką, ale nie zawsze towarzyszyły mu objawy gorączkowe. Trzeci atak dny nastąpił dwa tygodnie po chorobie, a czwarty po napadzie dny. Czwarty atak miał miejsce dwa tygodnie po wystąpieniu objawów i towarzyszyło mu uczucie
+Charles DarwinECCEMACY. Proszę Pana, — Następujący przypadek jest dla mnie interesujący: — Przebywałem w Londynie dwa tygodnie i mocno odczułem atak reumatyzmu. Pierwszy atak reumatyzmu nastąpił tydzień przed spotkaniem z Panem, drugi podczas spotkania z Panem, a trzeci także wtedy, podczas tego samego czasu. Drugi atak dny nie był jednak związany z gorączką, lecz towarzyszyło mu zwiększone wydzielanie moczu oraz obfitszy jego wypływ. Trzeci atak nastąpił godzinę po spotkaniu z Panem, po czym nastąpił powrót napadu dny oraz szybszy nawrót dny. Czwarty atak także wiązał się z gorączką, ale nie zawsze występowały objawy gorączkowe. Trzeci atak dny miał miejsce dwa tygodnie po chorobie, a czwarty zakończył się napadem dny. Czwarty atak wystąpił dwa tygodnie po pierwszym ataku i towarzyszyło mu uczucie
 
-### **v2**
+### **v2-london**
 
-Wytrenowany na zbiorze danych o wielkości 90GB (112GB po tokenizacji)
-Wytrenowany do 182K kroków
+Wytrenowano na 90GB (112GB po tokenizacji) danych
+Trenowano do 182 tys. kroków
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
+### **Co dalej?**
+
+- Rozpoczęto prace nad TimeCapsuleLLM v3
+- Skalowanie rozmiaru zbioru danych i zasięgu geograficznego
+- Rozszerzenie poza Londyn na kolejne miasta
+
+Prace prowadzone są we współpracy z naukowcami z University College London (UCL), a udział kolejnych instytucji jest omawiany.
+
+
 ##  Zbiory danych
 
 ### **v2**
 
-- 90GB (surowe) tekstów z Londynu z lat 1800-1875
+- 90GB(surowych) tekstów londyńskich z lat 1800-1875
 - 136 344 dokumenty
 - Pełny zbiór tokenizowany dostępny tutaj: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
- ### Statystyki uprzedzeń 
-  ![Bias zaimków](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
 
-  ![Bias geograficzny](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
+ ### Statystyki Uprzedzeń
+  ![Uprzedzenie zaimków](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
 
-  ![Bias czasowy](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+  ![Uprzedzenie geograficzne](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
 
-Zobacz [raport o uprzedzeniach v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) po więcej informacji.
+  ![Uprzedzenie czasowe](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+
+Zobacz [raport uprzedzeń v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) po więcej informacji.
 
 
+- 
 
-## Jak używać
 
-Ten projekt skupia się głównie na kuracji danych historycznych, przygotowaniu ich do treningu oraz budowie tokenizera. Nie będę tu omawiać pełnego procesu trenowania LLM, w tym celu odsyłam do nanoGPT autorstwa Andreja Karpathy.
+## Jak korzystać
+
+Ten projekt skupia się głównie na kuracji danych historycznych, przygotowaniu ich do treningu i budowaniu tokenizera. Nie będę omawiał pełnego procesu treningu LLM, w tym celu zobacz nanoGPT Andreja Karpathy.
 
 ### Krok 1: Zbierz i przygotuj teksty historyczne
 
-- Zbierz pliki .txt z książkami, dokumentami itp. należącymi do domeny publicznej z wybranego okresu (np. Londyn 1800-1850)
-- Upewnij się, że pochodzą z wybranego okna czasowego/miejsca
-- Wyczyść pliki tekstowe za pomocą skryptu lub ręcznie usuń nagłówki/stopki z Projektu Gutenberg, nowoczesne przypisy czy błędy OCR.
+- Zbierz pliki .txt książek, dokumentów, itp. z domeny publicznej z wybranego okresu (np. Londyn 1800-1875)
+- Zachowaj je w wybranym oknie czasowym/miejscowym
+- Wyczyść pliki tekstowe za pomocą skryptu lub ręcznie usuń nagłówki/stopki z Project Gutenberg, nowoczesne adnotacje lub błędy OCR.
 
-### Krok 2: Zbuduj własny tokenizer
+### Krok 2: Zbuduj własny tokenizator
 
 - Uruchom train_tokenizer.py lub train_tokenizer_hf.py na wyczyszczonych danych.
 - Otrzymasz vocab.json i merges.txt
-- Te pliki definiują słownik i reguły łączenia tokenów dla Twojego modelu
+- Te pliki definiują słownik i zasady scalania dla Twojego modelu
 
 ### Krok 3: Wytrenuj swój model
 
-- Zapoznaj się z [nanoGPT autorstwa Andreja Karpathy](https://github.com/karpathy/nanoGPT) w celu poznania procesu treningu lub dokumentacji wybranej architektury.
+- Zobacz [nanoGPT Andreja Karpathy](https://github.com/karpathy/nanoGPT) dla procesu treningowego lub dokumentacji wybranej architektury.
 
 # FAQ
 
-## Czym jest Selective Temporal Training?
+## Czym jest Selektive Temporal Training?
 
-Selective Temporal Training (STT) to metodologia uczenia maszynowego, w której wszystkie dane treningowe są starannie wyselekcjonowane, aby pochodziły z konkretnego okresu historycznego. Robi się to, aby odwzorować język i wiedzę z tej epoki bez wpływu współczesnych pojęć. Na przykład, obecny model (v0.5) wytrenowałem wyłącznie na danych z lat 1800-1875, nie był on dostrajany, lecz trenowany od zera, co skutkuje odpowiedziami odzwierciedlającymi styl językowy i kontekst historyczny tamtego okresu.
+Selective Temporal Training (STT) to metodologia uczenia maszynowego, w której wszystkie dane treningowe są specjalnie kuratowane, aby mieściły się w określonym historycznym okresie. Robi się to, by modelować język i wiedzę tamtej epoki bez wpływu współczesnych koncepcji. Na przykład obecny model, który posiadam (v0.5), jest wytrenowany wyłącznie na danych z lat 1800-1875, nie jest fine-tuningowany, lecz trenowany od zera, co skutkuje wyjściem odzwierciedlającym styl językowy i kontekst historyczny tego okresu.
 
 ## Dlaczego nie użyć po prostu fine-tuningu lub LoRA?
+W tym projekcie staram się stworzyć model językowy wolny od współczesnych uprzedzeń. Jeśli dokonam fine-tuningu czegoś takiego jak GPT-2, to już jest ono wytrenowane i tych informacji nie da się usunąć. Jeśli wytrenuję model językowy od zera, nie będzie on udawał starego — po prostu taki będzie. Celem tego projektu jest stworzenie czegoś, co potrafi rozumować wyłącznie na podstawie wiedzy z londyńskich książek wydanych między 1800 a 1875 rokiem.
 
-W tym projekcie staram się stworzyć model językowy wolny od współczesnych uprzedzeń. Jeśli dostroję coś takiego jak GPT-2, to już jest ono wytrenowane i tej wiedzy nie da się usunąć. Jeśli wytrenuję od zera, model językowy nie będzie udawał starości — po prostu taki będzie. Celem projektu jest stworzenie czegoś, co potrafi rozumować wyłącznie na podstawie wiedzy z londyńskich książek opublikowanych między 1800 a 1875 rokiem.
+## Jakich danych użyto do trenowania?
 
-## Jakiego rodzaju danych użyłeś do treningu?
-
-Używam książek, dokumentów prawnych, gazet i innych tekstów z Londynu z lat 1800–1875. Lista, którą podlinkowałem (dla v0), zawiera około 200 pozycji, ale do pierwszego treningu użyłem tylko 50 plików o wadze ~187 MB. Listę dokumentów możesz zobaczyć tutaj:
+Używam książek, dokumentów prawnych, gazet i innych tekstów z Londynu z lat 1800–1875. Lista, którą podlinkowałem (dla v0), zawiera około 200 pozycji, ale do pierwszego treningu użyłem tylko 50 plików o łącznym rozmiarze ok. 187 MB. Listę dokumentów można zobaczyć tutaj:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 Rozmiary zbiorów danych:
 - v0: ~187MB
 - v0.5: ~435MB
-- v1: ~6.25GB
-- v2mini-eval1: 15GB (próbka z 90GB v2)
+- v1: ~6,25GB
+- v2mini-eval1: 15GB (próbka z v2 o rozmiarze 90GB)
 - v2: 90GB
 
 ## Jak duże są modele?
@@ -182,25 +201,43 @@ v2mini-eval2: 200M parametrów
 
 v2: 1,2B parametrów
 
-## Specyfikacje treningu? 
+## Specyfikacja treningu?
 
 ### v0/v0.5
 GPU: Geforce rtx 4060
-CPU: i5-13400F 
+CPU: i5-13400F
 Ram: 16GB DDR5.
 
 ### v1
-GPU: A100 SXM wynajęta
+GPU: A100 SXM wynajmowany
 
 ### v2mini-eval1/eval2
-GPU: A100 SXM wynajęta
+
+GPU: A100 SXM wynajęty
 
 ### v2
-GPU: H100 SXM wynajęta
+GPU: H100 SXM wynajęty
+
+## Prace Powiązane
+
+- **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
+  -  LLM z 13 miliardami parametrów, wytrenowany na 260 miliardach tokenów tekstów sprzed 1930 roku z Q&A. Dostępna jest także [wersja bazowa](https://huggingface.co/talkie-lm/talkie-1930-13b-base).
+ 
+- **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
+  -  LLM z 1,4 miliarda parametrów, wytrenowany na tekstach z lat 1800-1899 z Q&A. Dostępna jest także [wersja 160M](https://huggingface.co/zakarth/violet-160m-chat).
+ 
+- **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
+  -  LLM z 340 milionami parametrów, wytrenowany na ponad 28 000 tekstów z lat 1837-1899 z Q&A. 
+
+- **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
+  - rodzina LLM z 4 miliardami parametrów opartych na architekturze Qwen3, wytrenowanych od podstaw na 80 miliardach tokenów danych historycznych do daty wiedzy 1913,1929,1933,1939,1946.
+
+- **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
+  - MonadGPT to finetune Mistral-Hermes 2 na 11 000 wczesnonowożytnych tekstów w języku angielskim, francuskim i łacińskim, głównie pochodzących z EEBO i Gallica.
 
 ## Podziękowania
 
-Chciałbym podziękować [Dr. Hamedowi Yaghoobianowi](https://hamedyaghoobian.com) za nadzór naukowy, wskazówki dotyczące formułowania badań i oceny, a także za pomoc przy trenowaniu tokenizera i przygotowaniu zbioru danych do wydania v2. Jego uwagi i doświadczenie były kluczowe w dopracowaniu prezentacji tej pracy.
+Chciałbym podziękować [Dr. Hamedowi Yaghoobianowi](https://hamedyaghoobian.com) za nadzór akademicki, wsparcie w zakresie ram badawczych i oceny, a także za pomoc w treningu tokenizera i przygotowaniu zbioru danych do wydania v2. Jego opinie i doświadczenie były kluczowe w udoskonaleniu prezentacji tej pracy.
 
 
 
@@ -245,6 +282,6 @@ Chciałbym podziękować [Dr. Hamedowi Yaghoobianowi](https://hamedyaghoobian.co
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

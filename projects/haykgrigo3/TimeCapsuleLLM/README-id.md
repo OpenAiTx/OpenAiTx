@@ -41,105 +41,126 @@ Jika Anda menggunakan dataset atau model ini dalam karya akademik, mohon sitasi:
 }
 ```
 
-##  Perilaku & Keterbatasan Model
+## Bergabunglah dengan Vintage LLM Discord
+
+Jika Anda tertarik dengan **model bahasa historis**, **dataset khusus waktu**, atau masa depan proyek seperti **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox** mari bergabung dengan komunitas kami.
+
+Kami menggunakan server ini untuk mendiskusikan ide, berbagi kemajuan, dan terhubung dengan orang lain yang membangun di bidang ini.
+
+[Bergabung dengan Discord](https://discord.gg/JeWkk4z5)
+
+## Perilaku Model & Keterbatasan
 
 ### **v0**  
 
 Prompt awal menunjukkan model merespons dengan bahasa dan perilaku tahun 1800-an. 
-Contoh: Prompt: "Siapakah Henry?" dan model menjawab "Saya mengenal orang itu, saya belum melakukan yang hitam, badai." 
+Contoh: Prompt: "Who art Henry?" dan model menjawab "I know that man, I have did not a black, the storm." 
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Tidak ada penyebutan konsep modern  
-- Kosakata sebagian besar sesuai era  
-- Kalimat sebagian besar tidak koheren (diharapkan untuk data pelatihan ~187MB)
+- Sebagian besar kosakata sesuai era  
+- Kalimat kebanyakan tidak koheren (diharapkan untuk data pelatihan ~187MB)
 
-### **v0.5** 
+### **v0.5-london** 
 
-Peningkatan signifikan dibandingkan v0.  
-- Gaya penulisan Victoria, tanda baca yang benar, kalimat sebagian besar gramatikal  
-- Tingkat halusinasi faktual masih tinggi  
-- Noise OCR (“Digitized by Google”) masih muncul dalam output
+Peningkatan signifikan dibanding v0.  
+- Gaya penulisan Victoria, tanda baca benar, kalimat sebagian besar gramatikal  
+- Tingkat halusinasi fakta masih tinggi  
+- Noise OCR (“Digitized by Google”) masih muncul di output
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-### **v1**
+### **v1-london**
 
-Model pertama yang dapat mengingat dan menghubungkan peristiwa sejarah nyata dengan tokoh sesungguhnya dari dataset.
+Model pertama yang dapat mengingat dan menghubungkan peristiwa sejarah nyata dengan tokoh dari dataset.
 
-Contoh: Prompt: "Itu adalah tahun Tuhan kami 1834" 
+Contoh: Prompt: "It was the year of our Lord 1834" 
 
-Output: "Itu adalah tahun Tuhan kami 1834 dan jalan-jalan di London dipenuhi dengan protes dan petisi. Penyebabnya, sebagaimana banyak yang diceritakan, tidak terikat secara pribadi, tetapi telah diambil pada hari yang sama pada hari Lord Palmerston, publik akan menerima pernyataan singkat tentang kesulitan yang telah kita hadapi dalam hukum. Merupakan penyesalan mendalam, bahwa peristiwa saat ini dalam sejarah dunia sudah jelas, dan karenanya akan diketahui. Tidak benar bahwa orang-orang yang pertama kali menetap dalam Injil di Yerusalem harus memiliki catatan kemakmuran yang begitu luas dan menarik" 
+Output-nya: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Awalnya saya menduga bahwa protes mungkin kebetulan terjadi pada tahun yang sama tetapi lihat ini: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Awalnya saya mengira bahwa sebuah protes mungkin secara kebetulan terjadi pada tahun yang sama namun coba lihat ini: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-### **v2mini-eval1**
+### **v2mini-eval1-london**
 
-Dilatih menggunakan sampel 15GB dari dataset 90GB milik v2.
+Dilatih menggunakan sampel 15GB dari dataset 90GB v2.
 Model hanya dilatih hingga 10K langkah.
 
-Ada masalah dengan tokenisasi yang menyebabkan output terlihat seperti ini:
+Terdapat masalah dengan tokenisasi yang menyebabkan output terlihat seperti ini:
 
+PROMPT:
 Siapa Charles Dickens?
-
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
 
-Diperbaiki:
+Dikoreksi:
 
-"Siapakah Charles Dickens? Apakah karya itu lebih banyak dari karya luar biasa lainnya, dalam dramanya, di pertanian Great Company? Apa yang harus saya kutip dari Jack Pickett? Tidakkah kamu tahu bahwa mereka semacam berlari kencang, atau menggergaji dada mereka, atau apa yang harus dilakukan pada waktu saat Jackson sedang melihat ke jendela? Apa kesuksesan seorang Inggris, dan yang belum ditemukan oleh anaknya kepada saya, sehingga dapat menyelesaikan beban seperti itu? Pernahkah kamu membuat perjalanan ke jalan lama itu, atau ke angin jangkar di kaki perahu kita, yang harus kamu tinggalkan? Faktanya, apakah angin akan bangkit dari dataran pada Sabtu malam atau siang hari, atau ke utara, atau sebaliknya, kita akan dipaksa untuk menggambarkan penghalang yang tangguh, dengan efek yang sama seperti sekarang. Dalam situasi ini, setidaknya, tidak berlebihan jika dikatakan bahwa kita telah meninggalkan ruangan itu. Saya percaya ada tiga salinan di 'Five Hundred-fold,' yang bisa dirujuk, sebagai nomor pertama dari pembaca kami yang ingin t[o]..."
+"Siapa Charles Dickens? Apakah karya-karyanya yang membangkitkan semangat, dalam drama-dramanya, di pertanian Perusahaan Besar? Apa yang belum saya kutip dari Jack Pickett? Apakah Anda tidak tahu bahwa mereka adalah semacam galop, atau menggergaji dada mereka, atau apa yang harus dilakukan tentang waktu ketika Jackson sedang melihat ke jendela? Apa keberhasilan seorang Inggris, dan yang belum ditemukan oleh putranya kepada saya, yang dapat digunakan untuk mencapai beban seperti itu? Pernahkah Anda membuat perjalanan ke jalan lama, atau ke angin jangkar di kaki perahu kami, yang harus Anda tinggalkan? Faktanya adalah, apakah angin akan naik dari dataran pada Sabtu malam atau tengah hari, atau ke utara, atau lainnya, kita akan dipaksa untuk menggambarkan penghalang yang tangguh, dengan efek yang sama seperti saat ini. Dalam situasi ini, setidaknya, tidak terlalu berlebihan untuk mengatakan bahwa kita telah meninggalkan ruangan itu. Saya percaya ada tiga salinan dalam 'Lima Ratus Kali Lipat,' yang dapat dirujuk, sebagai nomor pertama dari para pembaca kami yang ingin t[o]..."
 
-### **v2mini-eval2**
+### **v2mini-eval2-london**
 
-Dilatih menggunakan sampel 15GB yang sama seperti yang digunakan untuk pelatihan eval1.
-Model kembali dilatih hingga hanya 10K langkah.
+Dilatih menggunakan sampel 15GB yang sama seperti eval1.
+Model kembali dilatih hanya hingga 10K langkah.
 
 PROMPT:Charles Darwin
 
-Charles DarwinECCEMACY. Tuan, — Kasus berikut menarik bagi saya : — Saya berada di London selama dua minggu, dan sangat terpengaruh oleh serangan rematik. Serangan rematik pertama terjadi seminggu sebelum saya bertemu Anda, dan yang kedua ketika saya bertemu Anda, dan yang ketiga ketika saya bertemu Anda, dan yang ketiga pada waktu yang sama. Namun, serangan asam urat kedua tidak disertai dengan gejala demam, tetapi disertai peningkatan aliran urin, dan dengan keluarnya urin yang lebih banyak. Serangan ketiga terjadi satu jam setelah saya bertemu Anda, dan diikuti dengan kambuhnya serangan asam urat, dan kembalinya asam urat yang lebih cepat. Serangan keempat juga disertai demam, tetapi tidak selalu disertai gejala demam. Serangan ketiga asam urat terjadi dua minggu setelah Anda sakit, dan yang keempat diikuti oleh serangan asam urat. Serangan keempat terjadi dua minggu setelah Anda diserang, dan disertai dengan sensasi
+Charles DarwinECCEMACY. Tuan, — Kasus berikut menarik bagi saya : — Saya berada di London selama dua minggu, dan sangat terpengaruh oleh serangan rematik. Serangan rematik pertama terjadi seminggu sebelum saya bertemu Anda, dan yang kedua saat saya bertemu Anda, dan yang ketiga saat saya bertemu Anda, dan yang ketiga pada waktu yang sama. Serangan asam urat kedua, bagaimanapun, tidak disertai gejala demam, tetapi disertai peningkatan aliran urin, dan dengan pengeluaran urin yang lebih banyak. Serangan ketiga terjadi satu jam setelah saya bertemu Anda, dan diikuti oleh kembalinya serangan asam urat, dan kembalinya asam urat yang lebih cepat. Serangan keempat juga disertai demam, tetapi tidak selalu dengan gejala demam. Serangan ketiga asam urat terjadi dua minggu setelah Anda sakit, dan yang keempat diikuti oleh serangan asam urat. Serangan keempat terjadi dua minggu setelah Anda terkena serangan, dan disertai rasa
 
-### **v2**
+### **v2-london**
 
-Dilatih menggunakan dataset 90GB (112GB yang telah di-tokenisasi)
+Dilatih menggunakan dataset 90GB (112GB ter-tokenisasi)
 Dilatih hingga 182K langkah 
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
+### **Apa berikutnya?**
+
+- Pengembangan telah dimulai pada TimeCapsuleLLM v3
+- Memperbesar ukuran dataset dan cakupan geografis
+- Memperluas cakupan dari London ke kota-kota lain
+
+Pekerjaan ini dilakukan bersama dengan peneliti dari University College London (UCL) dan keterlibatan institusi tambahan sedang didiskusikan. 
+
+
 ##  Dataset
 
 ### **v2**
 
-- 90GB(mentah) teks London tahun 1800-1875
+- 90GB(raw) teks London 1800-1875
 - 136.344 dokumen
-- Dataset tokenisasi lengkap kini tersedia di sini: https://huggingface.co/datasets/postgrammar/london-llm-1800
+- Dataset tokenized lengkap kini tersedia di sini: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
- ### Statistik Bias 
-  ![Bias pronomina](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
+### Statistik Bias
+  ![Bias Pronomina](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
 
-  ![Bias geografis](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
+  ![Bias Geografis](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
 
-  ![Bias temporal](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+  ![Bias Temporal](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
 
-Lihat [laporan bias v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) untuk informasi lebih lanjut.
+Lihat [laporan bias v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) untuk info lebih lanjut.
+
+
+- 
+
 
 ## Cara Menggunakan
 
-Proyek ini berfokus terutama pada mengkurasi data historis, menyiapkannya untuk pelatihan dan membangun tokenizer. Saya tidak akan membahas proses pelatihan LLM secara penuh, untuk itu silakan merujuk ke nanoGPT oleh Andrej Karpathy.
+Proyek ini berfokus terutama pada kurasi data sejarah, menyiapkannya untuk pelatihan dan membangun tokenizer. Saya tidak akan membahas proses pelatihan LLM secara penuh, untuk itu silakan merujuk ke nanoGPT oleh Andrej Karpathy.
 
-### Langkah 1: Kumpulkan dan Siapkan Teks Historis
+### Langkah 1: Kumpulkan dan Siapkan Teks Sejarah
 
-- Kumpulkan file .txt dari buku domain publik, dokumen, dll dari periode waktu pilihan Anda (misal, London 1800-1850)
-- Simpan dalam rentang waktu/tempat yang Anda pilih  
-- Bersihkan file teks menggunakan skrip atau secara fitting hapus header/footer dari Project Gutenberg, anotasi modern, atau hal seperti kesalahan OCR.
+- Kumpulkan file .txt dari buku domain publik, dokumen, dll dari periode waktu yang dipilih (misal, London 1800-1875)
+- Simpan dalam rentang waktu/tempat yang dipilih
+- Bersihkan file teks menggunakan skrip atau hapus manual header/footer dari Project Gutenberg, anotasi modern atau kesalahan OCR.
 
 ### Langkah 2: Bangun Tokenizer Kustom
 
-- Jalankan train_tokenizer.py atau train_tokenizer_hf.py pada data yang telah dibersihkan.
+- Jalankan train_tokenizer.py atau train_tokenizer_hf.py pada data yang sudah dibersihkan.
 - Ini akan menghasilkan vocab.json dan merges.txt
-- File-file ini mendefinisikan vocab dan aturan merge untuk model Anda
+- File-file ini mendefinisikan vocab dan aturan penggabungan untuk model Anda
 
 ### Langkah 3: Latih Model Anda
 
@@ -149,30 +170,28 @@ Proyek ini berfokus terutama pada mengkurasi data historis, menyiapkannya untuk 
 
 ## Apa itu Selective Temporal Training?
 
-Selective Temporal Training (STT) adalah metodologi machine learning di mana semua data pelatihan secara khusus dikurasi agar berada dalam periode waktu historis tertentu. Ini dilakukan untuk memodelkan bahasa dan pengetahuan zaman itu tanpa pengaruh konsep modern. Misalnya, model saya saat ini (v0.5) dilatih secara eksklusif dengan data dari 1800-1875, tidak fine-tuned tapi dilatih dari awal sehingga menghasilkan output yang mencerminkan gaya linguistik dan konteks historis periode tersebut.
+Selective Temporal Training (STT) adalah metodologi machine learning di mana semua data pelatihan secara khusus dikurasi agar berada dalam rentang waktu sejarah tertentu. Tujuannya untuk memodelkan bahasa dan pengetahuan pada masa itu tanpa pengaruh konsep modern. Misalnya, model saya saat ini (v0.5) dilatih hanya dengan data tahun 1800-1875, tidak fine tuned tapi dilatih dari awal sehingga hasilnya mencerminkan gaya bahasa dan konteks sejarah masa tersebut.
 
-## Mengapa tidak hanya menggunakan fine-tuning atau LoRA?
-
-Untuk proyek ini saya ingin membuat model bahasa yang tidak dipengaruhi bias modern. Jika saya fine-tune sesuatu seperti GPT-2, model itu sudah pra-latih dan informasi tersebut tidak akan hilang. Jika saya melatih dari nol, model bahasa tidak akan hanya berpura-pura kuno, memang benar-benar kuno. Tujuan proyek ini saat ini adalah menciptakan sesuatu yang dapat bernalar secara eksklusif menggunakan pengetahuan dari buku London yang diterbitkan antara 1800 dan 1875.
+## Kenapa tidak cukup fine-tuning atau LoRA saja?
+Untuk proyek ini saya mencoba membuat model bahasa yang tidak terpengaruh oleh bias modern. Jika saya fine-tune sesuatu seperti GPT-2, model itu sudah pre-trained dan informasi tersebut tidak akan hilang. Jika saya melatih dari awal, model bahasa tidak akan berpura-pura kuno, memang aslinya begitu. Tujuan proyek ini saat ini adalah menciptakan sesuatu yang dapat bernalar secara eksklusif menggunakan pengetahuan dari buku-buku London yang diterbitkan antara tahun 1800 hingga 1875.
 
 ## Data seperti apa yang Anda gunakan untuk pelatihan?
 
-Saya menggunakan buku, dokumen hukum, surat kabar, dan tulisan lain dari London 1800–1875. Daftar yang saya tautkan (untuk v0) ada or sekitar 200 tapi untuk pelatihan pertama saya hanya menggunakan 50 file sekitar ~187 MB. Anda dapat melihat daftar dokumennya:
+Saya menggunakan buku, dokumen hukum, surat kabar, dan tulisan lain dari London 1800–1875. Daftar yang saya tautkan (untuk v0) berisi sekitar 200 dokumen, tetapi untuk pelatihan pertama saya hanya menggunakan 50 file sekitar ~187 MB. Anda dapat melihat daftar dokumennya:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 Ukuran dataset:
 - v0: ~187MB
 - v0.5: ~435MB 
-- v1: ~6,25GB
-
-- v2mini-eval1: 15GB (sampel dari 90GB v2)
+- v1: ~6.25GB 
+- v2mini-eval1: 15GB (sampel dari v2 yang 90GB)
 - v2: 90GB
 
-## Seberapa besar model-modelnya?
+## Seberapa besar modelnya?
 
 v0: 16M Parameter
 
-v0.5 123M Parameter
+v0.5: 123M Parameter
 
 v1: 700M Parameter
 
@@ -186,21 +205,39 @@ v2: 1.2B Parameter
 
 ### v0/v0.5
 GPU: Geforce rtx 4060
-CPU: i5-13400F
+CPU: i5-13400F 
 Ram: 16GB DDR5.
 
 ### v1
-GPU: A100 SXM sewaan
+GPU: A100 SXM sewa
 
 ### v2mini-eval1/eval2
-GPU: A100 SXM sewaan
+
+GPU: A100 SXM disewa
 
 ### v2
-GPU: H100 SXM sewaan
+GPU: H100 SXM disewa
+
+## Pekerjaan Terkait
+
+- **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
+  - LLM 13B parameter dilatih pada 260B token teks sebelum 1930 dengan Q&A. Ada juga versi [dasar](https://huggingface.co/talkie-lm/talkie-1930-13b-base).
+ 
+- **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
+  - LLM 1,4B parameter dilatih pada teks tahun 1800-1899 dengan Q&A. Ada juga versi [160M](https://huggingface.co/zakarth/violet-160m-chat).
+ 
+- **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
+  - LLM 340M parameter dilatih pada lebih dari 28.000 teks antara 1837-1899 dengan Q&A. 
+
+- **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
+  - keluarga LLM 4B parameter berbasis arsitektur Qwen3 dilatih dari awal pada 80B token data sejarah hingga batas pengetahuan 1913,1929,1933,1939,1946.
+
+- **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
+  - MonadGPT adalah finetune dari Mistral-Hermes 2 pada 11.000 teks awal modern dalam bahasa Inggris, Prancis, dan Latin, sebagian besar berasal dari EEBO dan Gallica.
 
 ## Ucapan Terima Kasih
 
-Saya ingin mengucapkan terima kasih kepada [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) atas supervisi akademik, bimbingan dalam perumusan dan evaluasi riset, serta bantuan dalam pelatihan tokenizer dan persiapan dataset untuk rilis v2. Masukan dan pengalaman beliau sangat berperan dalam memperbaiki presentasi karya ini.
+Saya ingin mengucapkan terima kasih kepada [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) atas supervisi akademik, bimbingan dalam perumusan dan evaluasi penelitian, serta bantuan dalam pelatihan tokenizer dan persiapan dataset untuk rilis v2. Masukan dan pengalamannya sangat berperan dalam penyempurnaan presentasi karya ini.
 
 
 
@@ -245,6 +282,6 @@ Saya ingin mengucapkan terima kasih kepada [Dr. Hamed Yaghoobian](https://hamedy
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

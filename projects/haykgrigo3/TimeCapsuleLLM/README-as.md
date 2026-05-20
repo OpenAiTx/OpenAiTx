@@ -41,166 +41,204 @@ v2 llamaforcausallm ত নিৰ্মিত
 }
 ```
 
+## ভিন্টেজ এলএলএম Discord-ত যোগদান কৰক
+
+আপুনি যদি **ঐতিহাসিক ভাষা মডেল**, **নির্দিষ্ট সময়ৰ ডেটা সেট** অথবা **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox**-ৰ দৰে প্ৰকল্পসমূহৰ ভৱিষ্যৎ লৈ আগ্ৰহী হয়, তেন্তে এই কমিউনিটিত যোগদান কৰক।
+
+আমি এই ছাৰ্ভাৰত আইডিয়াসমূহ আলোচনা কৰোঁ, অগ্ৰগতি শ্বেয়াৰ কৰোঁ, আৰু এই ক্ষেত্ৰত কাম কৰা আন লোকৰ সৈতে সংযোগ স্থাপন কৰোঁ।
+
+[Discord-ত যোগদান কৰক](https://discord.gg/JeWkk4z5)
+
 ##  মডেলৰ আচৰণ আৰু সীমাবদ্ধতা
 
 ### **v0**  
 
-প্ৰাথমিক প্ৰম্প্টসমূহত মডেলে ১৮০০ চনৰ ভাষা আৰু আচৰণত প্ৰতিক্ৰিয়া দেখুৱাইছে।
+প্ৰাথমিক প্ৰম্প্টসমূহত মডেলটোৱে ১৮০০ চনৰ ভাষা আৰু আচৰণত প্ৰতিক্ৰিয়া জনাইছিল।
 উদাহৰণ: প্ৰম্প্ট: "Who art Henry?" আৰু ইয়াৰ উত্তৰ আছিল "I know that man, I have did not a black, the storm."
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM নমুনা আউটপুট](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - আধুনিক ধাৰণাৰ উল্লেখ নাই  
-- বেছিভাগ সময় শৈলীবদ্ধ যুগ-উপযোগী শব্দভাণ্ডাৰ  
-- বাক্যসমূহ অধিকাংশ ক্ষেত্ৰত অসংলগ্ন (প্ৰায় ১৮৭MB ট্ৰেইনিং ডাটাৰ বাবে আশা কৰা হৈছিল)
+- প্ৰায়েই সময় উপযোগী শব্দ-ভাণ্ডাৰ ব্যৱহাৰ  
+- বাক্যবোৰ বেছিভাগ সময় অসংলগ্ন (প্ৰায় ১৮৭MB প্ৰশিক্ষণ ডেটাৰ বাবে অনুমানযোগ্য)
 
-### **v0.5** 
+### **v0.5-london** 
 
 v0-ৰ তুলনাত উল্লেখযোগ্য উন্নতি।
-- ভিক্টোৰীয় লেখা শৈলী, সঠিক যতি-চিহ্ন, বেছিভাগে ব্যাকৰণগত বাক্য  
-- তথ্যমূলক ভুল দেখুওৱা হার এতিয়াও অধিক  
-- OCR ৰ শব্দ-বিকৃতি (“Digitized by Google”) এতিয়াও আউটপুটত বিদ্যমান
+- ভিক্টোৰিয়ান লেখনী শৈলী, সঠিক যতি চিহ্ন, বেছিভাগ বাক্য ব্যাকৰণগতভাৱে শুদ্ধ  
+- তথ্যভিত্তিক ভুলৰ হাৰ এতিয়াও বেছি  
+- OCR ৰ শব্দ দূষণ (“Digitized by Google”) এতিয়াও আউটপুটত আছে
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM নমুনা আউটপুট](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-### **v1**
+### **v1-london**
 
-ডেটাসেটৰ পৰা বাস্তৱ ঐতিহাসিক ঘটনা আৰু বাস্তৱ ব্যক্তি-সম্পৰ্কিত তথ্য উলিওৱা প্ৰথম মডেল।
+ডেটাসেটৰ পৰা আসল ঐতিহাসিক ঘটনাৰ সৈতে আসল ব্যক্তি সংযোগ কৰা প্ৰথম মডেল।
 
 উদাহৰণ: প্ৰম্প্ট: "It was the year of our Lord 1834" 
 
-উত্তৰ: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
+আউটপুট: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-প্ৰথমতে মই ভৱিছিলো ১৮৩৪ চনত কোৱা প্ৰতিবাদটো ক্ৰমে সংঘটিত হৈছিল, কিন্তু এইটো চাওক: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+প্ৰথমতে মই ধাৰণা কৰিছিলোঁ যে ১৮৩৪ চনত এটা প্ৰতিবাদ কাকতালীয়ভাৱে হৈছিল, কিন্তু এইটো চাওক: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-### **v2mini-eval1**
+### **v2mini-eval1-london**
 
-v2-ৰ ৯০GB ডাটাছেটৰ পৰা ১৫GB নমুনা ব্যৱহাৰ কৰি প্ৰশিক্ষণ দিয়া হৈছে।
-মডেল কেৱল ১০,০০০ ষ্টেপলৈ প্ৰশিক্ষিত।
+v2 ৰ 90GB ডাটাছেটৰ পৰা 15GBৰ নমুনা ব্যৱহাৰ কৰি প্ৰশিক্ষিত।
+ম'ডেল কেৱল 10K পদক্ষেপলৈকে প্ৰশিক্ষিত কৰা হৈছিল।
 
-টোকেনাইজেশ্যন ত্ৰুটির বাবে আউটপুট এইদৰে দেখুওৱা হৈছে:
+টোকেনাইজেশ্যনত এটা সমস্যা আছিল যাৰ ফলত আউটপুট এনেকুৱা দেখাত আহে:
 
-চাৰ্লছ ডিকেন্স কোন?
-
+প্ৰশ্ন:
+চাৰ্লছ ডিকেন্স কোন? 
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
-শুদ্ধ কৰা হৈছে:
+সোধৰ কৰা:
 
-"চাৰ্লছ ডিকেন্স কোন? তেওঁৰ উৎকৃষ্ট উত্সাহজনক কৰ্মবোৰ, তেওঁৰ নাটকসমূহত, দ্য গ্ৰেট কোম্পানীৰ খেতিত অধিক কাৰ্য আছে নেকি? মই এতিয়াও জেক পিকেটৰ পৰা কি উদ্ধৃত কৰিব লাগিব? আপুনি নাজানে নেকি যে সিহঁত এবিধ দৌৰি ফুৰা, বা বুকু চিৰি ফেলা জাতি আছিল, বা জেক্সনে খিৰিকীত চাই থকা সময়ত কি কৰা উচিত আছিল? এজন ইংৰাজৰ সফলতা কি, আৰু তেওঁৰ পুত্ৰই মোক এতিয়ালৈকে কি আৱিষ্কাৰ কৰা নাই, যাৰ দ্বাৰা এনে এখন গুৰুত্বপূৰ্ণ কাম সম্পাদন কৰিব পাৰি? আপুনি কেতিয়াবা পুৰণি ৰাস্তােদি পাৰ হৈ গৈছিলেনে, বা আমাৰ নাওখনৰ পাৰত এখন নোঙৰ-বতাহ পাইছিলেনে, যিখন আপোনালোকে এৰি যাব লাগিব? কথাটো হ'ল, বতাহখন শনিবাৰৰ ৰাতি বা দুপৰীয়া, বা উত্তৰফালে উঠিব নে উঠিব, বা আন কোনো সময়ত, আমি এটা ডাঙৰ বাধা বৰ্ণনা কৰিবলৈ বাধ্য হ'ম, বৰ্তমান পৰিস্থিতিৰ দৰে। এই অৱস্থাত, কমেও কৈব পৰা যায় যে আমি সেই কোঠাটো এৰি গৈছো। মই বিশ্বাস কৰোঁ যে 'ফাইভ হাণ্ড্ৰেড-ফোল্ড'ত তিনি প্ৰতিলিপি আছে, যাক উল্লেখ কৰিব পাৰি, যি আমাৰ পাঠকসকলৰ প্ৰথম সংখ্যাৰ বাবে...”
+"চাৰ্লছ ডিকেন্স কোন? তেওঁৰ উৎকৃষ্ট উদ্দীপনাৰ অধিক কাম কি তেওঁৰ নাটকসমূহত, গ্রীট কোম্পানীৰ খেতিত আছে নে? মই যি উদ্ধৃতি দিম, সেইটো জেক পিকেটৰ পৰা নে? আপুনি জানেনে যে তেওঁলোকে এক ধৰণৰ দৌৰি ফুৰা, বা বুকু চিঞৰি থকা, বা কি কৰা উচিত আছিল, যেতিয়া জেকচনে খিৰিকীত চাই আছিল? এজন ইংৰাজৰ সফলতা কি, আৰু তেওঁৰ পুত্ৰই মোৰ ওচৰলৈ উদ্ঘাটন নকৰা বিষয়টো, যাৰ দ্বাৰা এনে এটা ভাৰ সম্পাদন কৰিব পাৰি? আপুনি কেতিয়াবা পুৰণি ৰাস্তালৈ যাত্ৰা কৰিছিলেনে, বা আমাৰ ডিঙিত নোঙৰ-বতাহত, য'ত আপুনি আমাৰ পৰা আঁতৰি যাব লাগিব? আসল কথা, বতাহখন শনিবাৰৰ ৰাতি বা মধ্যাহ্নত, বা উত্তৰৰ ফালে, বা আনহাতে, উঠিব নে উঠিব নালাগে, আমি এটা ভয়ংকৰ বাধা বৰ্ণনা কৰিবলৈ বাধ্য হ'ম, বৰ্তমানৰ একে প্ৰভাৱৰে। এই পৰিস্থিতিত, কমেও, এইটো ক'ব অধিক হোৱা নাই যে আমি সেই কোঠাটো এৰি গৈছোঁ। মই বিশ্বাস কৰোঁ যে 'ফাইভ হাণ্ড্ৰেড-ফোল্ড'ত তিনি কপি আছে, উল্লেখ কৰিবৰ বাবে, আমাৰ পাঠকৰ প্ৰথম সংখ্যাৰ বাবে যি ইচ্ছা কৰে [ত]..."
 
-### **v2mini-eval2**
+### **v2mini-eval2-london**
 
-একেই ১৫ জিবি নমুনা ব্যৱহাৰ কৰি প্ৰশিক্ষিত, যি eval1-ৰ বাবে ব্যৱহাৰ হৈছিল।
-মডেলটো আকৌ কেৱল ১০ হাজাৰ ষ্টেপলৈকে প্ৰশিক্ষণ দিয়া হৈছে।
+একেই ১৫GB নমুনা ব্যৱহাৰ কৰি eval1-ৰ বাবে প্ৰশিক্ষণ দিয়া হৈছিল।
+মডেলটোক আকৌ কেৱল ১০ হাজাৰ ষ্টেপলৈকে প্ৰশিক্ষণ দিয়া হৈছে।
 
-প্ৰম্প্ট:চাৰ্লছ ডাৰৱিন
+PROMPT:চাৰ্লছ ডাৰউিন
 
-চাৰ্লছ ডাৰৱিনECCEMACY। ছাৰ, — তলত দিয়া ঘটনাটো মোৰ বাবে ৰোমাঞ্চকৰ: — মই লণ্ডনত এটা সপ্তাহ আছিলোঁ, আৰু গাঁঠিৰ বিষৰ আক্ৰমণত যথেষ্ট কষ্ট পাইছিলোঁ। প্ৰথম গাঁঠিৰ আক্ৰমণটো মই আপোনাক দেখাৰ এক সপ্তাহ আগতেই হৈছিল, আৰু দ্বিতীয়টো আপোনাক দেখাৰ সময়ত, আৰু তৃতীয়টো আক্ৰমণো সেই সময়ত হৈছিল। যদিও দ্বিতীয় গাঁঠিৰ আক্ৰমণৰ লগত কোনো জ্বৰজনিত লক্ষণ নাছিল, কিন্তু প্ৰস্ৰাৱৰ পৰিমাণ বৃদ্ধি পোৱা আৰু অধিক প্ৰস্ৰাৱ নিগৰাৰ লগত আছিল। তৃতীয় আক্ৰমণটো মই আপোনাক দেখাৰ এটা ঘণ্টা পাছত হৈছিল, আৰু তাৰ পাছত পুনৰ গাঁঠিৰ পীড়া আৰু অধিক তীব্ৰ আক্ৰমণ হৈছিল। চতুৰ্থ আক্ৰমণটোও জ্বৰ লৈ আছিল, কিন্তু সদায় জ্বৰজনিত লক্ষণ নাছিল। তৃতীয় গাঁঠিৰ আক্ৰমণটো আপুনি অসুস্থ হোৱা এহপ্তা পিছত হৈছিল, আৰু চতুৰ্থটো আক্ৰমণৰ পাছত গাঁঠিৰ পীড়া হৈছিল। চতুৰ্থ আক্ৰমণটো আপুনি আক্ৰমণৰ এটা সপ্তাহ পিছত হৈছিল, আৰু লগত এটা অনুভূতি আছিল
+চাৰ্লছ ডাৰউিনECCEMACY। মহাশয়, — তলত দিয়া ঘটনাটো মোৰ বাবে আকৰ্ষণীয়: — মই লণ্ডনত এটা সপ্তাহ আছিলোঁ, আৰু ৰিউমেটিজমৰ আক্ৰান্ত হৈ বহুত অসুস্থ হৈছিলোঁ। প্ৰথম ৰিউমেটিজমৰ আক্ৰমণটো মই আপোনাক দেখাৰ এটা সপ্তাহ আগতে হৈছিল, দ্বিতীয়টো আপোনাক দেখোঁতে, আৰু তৃতীয়টো আপোনাক দেখোঁতে, আৰু তৃতীয়টো একে সময়ত। দ্বিতীয় গাউটৰ আক্ৰমণত, যদিও, কোনো জ্বৰজনিত লক্ষণ আছিল না, কিন্তু প্ৰস্ৰাৱৰ স্ৰাৱ বৃদ্ধি পাইছিল, আৰু অধিক পৰিমাণে প্ৰস্ৰাৱ নিগৰিছিল। তৃতীয় আক্ৰমণটো মই আপোনাক দেখাৰ এক ঘন্টা পিছত হৈছিল, আৰু তাৰ পিছত গাউটৰ আকস্মিক পুনৰাগমন হৈছিল, আৰু গাউটৰ অধিক দ্ৰুত পুনৰাগমন হৈছিল। চতুৰ্থ আক্ৰমণটোও জ্বৰসহ হৈছিল, কিন্তু সদায় জ্বৰজনিত লক্ষণ থকা নাছিল। তৃতীয় গাউটৰ আক্ৰমণটো আপোনাৰ অসুস্থতাৰ এটা সপ্তাহ পিছত হৈছিল, আৰু চতুৰ্থটো গাউটৰ আকস্মিকতা অনুসৰি হৈছিল। চতুৰ্থ আক্ৰমণটো আপোনাক আক্ৰমণ কৰা এটা সপ্তাহ পিছত হৈছিল, আৰু অনুভূতিৰ সৈতে
+
+### **v2-london**
+
+৯০GB (১১২GB টোকেনাইজ) ডেটাসেট ব্যৱহাৰ কৰি প্ৰশিক্ষণ দিয়া হৈছে
+১,৮২,০০০ ষ্টেপলৈকে প্ৰশিক্ষণ দিয়া হৈছে
+
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
+
+### **পৰৱৰ্তী কি?**
+
+- TimeCapsuleLLM v3-ৰ উন্নয়ন আৰম্ভ হৈছে
+- ডেটাসেটৰ আকাৰ আৰু ভূগোলিক বিস্তৃতি বৃদ্ধি
+- লণ্ডনৰ বাহিৰে অন্য চহৰলৈ বিস্তাৰ
+
+এই কামখিনি ইউনিভাৰ্ছিটি কলেজ লণ্ডন (UCL)-ৰ গৱেষকসকলৰ সহযোগত চলি আছে আৰু অতিৰিক্ত প্ৰতিষ্ঠানিক অংশগ্ৰহণৰ আলোচনা চলি আছে।
+
+
+##  ডেটাসেটসমূহ
 
 ### **v2**
 
-৯০ জিবি (১১২ জিবি টোকেনাইজড) ডেটাছেট ব্যৱহাৰ কৰি প্ৰশিক্ষিত
-১,৮২,০০০ ষ্টেপলৈকে প্ৰশিক্ষিত
-
-![TimeCapsuleLLM নমুনা আউটপুট](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
-
-![TimeCapsuleLLM নমুনা আউটপুট](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
-
-##  ডেটাছেটসমূহ
-
-### **v2**
-
-- ১৮০০-১৮৭৫ লণ্ডন পাঠ্যৰ ৯০ জিবি (কাঁচা)
+- ১৮০০-১৮৭৫ চনৰ লণ্ডনৰ ৯০GB(কাঁচা) টেক্সট
 - ১,৩৬,৩৪৪টা নথি
-- সম্পূৰ্ণ টোকেনাইজড ডেটাছেট ইয়াত উপলব্ধ: https://huggingface.co/datasets/postgrammar/london-llm-1800
-
- ### পক্ষপাতি পৰিসংখ্যা
-  ![সৰ্বনাম পক্ষপাতি](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
-
-  ![ভৌগোলিক পক্ষপাতি](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
-
-  ![ক্ৰমগত পক্ষপাতি](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
-
-অধিক তথ্যৰ বাবে [v2 পক্ষপাতি প্ৰতিবেদন](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) চাওক।
+- সম্পূৰ্ণ টোকেনাইজড ডেটাসেট এতিয়া ইয়াত উপলব্ধ: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
 
+### পক্ষপাত সংক্রান্ত তথ্য-আঁকিবোৰ
+  ![সৰ্বনাম পক্ষপাত](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
 
-## ব্যৱহাৰৰ নিয়ম
+  ![ভৌগোলিক পক্ষপাত](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
 
-এই প্ৰকল্পটো প্ৰধানকৈ ঐতিহাসিক তথ্য সংগ্ৰহ, সেইবোৰ প্ৰশিক্ষণৰ বাবে সাজু কৰা আৰু এখন ট'কেনাইজাৰ নিৰ্মাণ কৰাৰ ওপৰত কেন্দ্ৰিত। মই সম্পূৰ্ণ LLM প্ৰশিক্ষণ প্ৰক্ৰিয়া আলোচনা নকৰোঁ, তাৰ বাবে Andrej Karpathy ৰ nanoGPT চাওক।
+  ![কালানুক্ৰমিক পক্ষপাত](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+
+অধিক তথ্যৰ বাবে [v2 পক্ষপাত প্ৰতিবেদন](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) চাওক।
+
+
+- 
+
+
+## কেনেকৈ ব্যৱহাৰ কৰিব
+
+এই প্ৰকল্পটো বেছিভাগভাগকৈ ঐতিহাসিক তথ্য সংগ্ৰহ, প্ৰস্তুতকৰণ আৰু টোকেনাইজাৰ নিৰ্মাণত কেন্দ্ৰিত। মই সম্পূৰ্ণ LLM প্ৰশিক্ষণ প্ৰক্ৰিয়া ইয়াত আলোচনা নকৰো, তাৰ বাবে Andrej Karpathy ৰ nanoGPT চাওক।
 
 ### পদক্ষেপ ১: ঐতিহাসিক পাঠ্য সংগ্ৰহ আৰু প্ৰস্তুত কৰক
 
-- আপোনাৰ নিৰ্বাচিত সময়কালৰ (যেনে, লণ্ডন ১৮০০-১৮৫০) ৰাজহুৱা ডোমেইনৰ কিতাপ, নথি আদিৰ .txt ফাইল সংগ্ৰহ কৰক
-- সেইবোৰ আপোনাৰ নিৰ্বাচিত সময়/স্থানৰ ভিতৰত ৰাখক  
-- স্ক্ৰিপ্ট ব্যৱহাৰ কৰি বা নিজে পৰিষ্কাৰ কৰি Project Gutenberg, আধুনিক মন্তব্য বা OCR ত্ৰুটিৰ দৰে হেডাৰ/ফুটাৰ আঁতৰাই পাঠ্য ফাইলসমূহ পৰিষ্কাৰ কৰক।
+- আপোনাৰ নিৰ্বাচিত সময়কালৰ (যেনে: লণ্ডন ১৮০০-১৮৭৫) পাব্লিক ডমেইনৰ কিতাপ, নথি আদিৰ .txt ফাইল সংগ্ৰহ কৰক
+- সেইবোৰ নিৰ্বাচিত সময়/স্থানৰ সীমাৰ ভিতৰত ৰাখক
+- স্ক্ৰিপ্ট ব্যৱহাৰ কৰি বা মেনুৱেলভাৱে Project Gutenberg, আধুনিক টীকা বা OCR ত্ৰুটিৰ দৰে বিষয়বস্তু আঁতৰাই পাঠ্য ফাইলসমূহ পৰিষ্কাৰ কৰক।
 
-### পদক্ষেপ ২: কাষ্টম ট'কেনাইজাৰ নিৰ্মাণ কৰক
+### পদক্ষেপ ২: কাষ্টম টোকেনাইজাৰ নিৰ্মাণ কৰক
 
-- পৰিষ্কৃত ডাটাত train_tokenizer.py বা train_tokenizer_hf.py চলাওক।
-- এইয়ে আপোনাক vocab.json আৰু merges.txt দিব
-- এই ফাইলবোৰে আপোনাৰ মডেলৰ বাবে শব্দভাণ্ডাৰ আৰু মাৰ্জ নিয়ম সংজ্ঞায়িত কৰে
+- পৰিষ্কাৰ কৰা তথ্যত train_tokenizer.py বা train_tokenizer_hf.py চলাওক।
+- ইয়াৰ ফলত আপুনি vocab.json আৰু merges.txt পাব
+- এই ফাইলবোৰে আপোনাৰ মডেলৰ বাবে শব্দভাণ্ডাৰ আৰু সংযোগ নিয়ম সংজ্ঞায়িত কৰে
 
 ### পদক্ষেপ ৩: আপোনাৰ মডেল প্ৰশিক্ষণ কৰক
 
-- প্ৰশিক্ষণ প্ৰক্ৰিয়াৰ বাবে [Andrej Karpathy ৰ nanoGPT](https://github.com/karpathy/nanoGPT) চাওক বা আপোনাৰ নিৰ্বাচিত স্থাপত্যৰ নথিপত্র চাওক।
+- প্ৰশিক্ষণ প্ৰক্ৰিয়াৰ বাবে [Andrej Karpathy ৰ nanoGPT](https://github.com/karpathy/nanoGPT) বা আপোনাৰ নিৰ্বাচিত আৰ্হিৰ ডকুমেণ্ট চাওক।
 
-# FAQ
+# প্ৰায়ঃ সোধা প্ৰশ্ন (FAQ)
 
-## Selective Temporal Training (STT) কি?
+## নিৰ্বাচনী কালানুক্ৰমিক প্ৰশিক্ষণ (Selective Temporal Training) কি?
 
-Selective Temporal Training (STT) হৈছে এটা যান্ত্রিক শিক্ষণ পদ্ধতি য'ত সকলো প্ৰশিক্ষণ তথ্য বিশেষকৈ নিৰ্দিষ্ট ঐতিহাসিক সময়ছোৱাৰ ভিতৰত পৰে বুলি নিৰ্বাচিত কৰা হয়। এইটো সেই যুগৰ ভাষা আৰু জ্ঞান মডেল কৰাৰ বাবে কৰা হয়, যাতে আধুনিক ধাৰণাৰ প্ৰভাৱ নাথাকে। উদাহৰণস্বৰূপে, মোৰ বৰ্তমান মডেল (v0.5) কেৱল ১৮০০-১৮৭৫ সময়ৰ তথ্যত প্ৰশিক্ষিত, ই fine-tune কৰা নহয়, একেবাৰে আৰম্ভণিৰ পৰা প্ৰশিক্ষণ কৰা, ফলত সেই সময়ছোৱাৰ ভাষাশৈলী আৰু ঐতিহাসিক প্ৰেক্ষাপট প্ৰতিফলিত হয়।
+নিৰ্বাচনী কালানুক্ৰমিক প্ৰশিক্ষণ (Selective Temporal Training - STT) হৈছে এটা মেছিন লাৰ্নিং পদ্ধতি য'ত সকলো প্ৰশিক্ষণ তথ্য নিৰ্দিষ্টভাৱে এখন ঐতিহাসিক সময়কালৰ ভিতৰত পৰে বুলি নিৰ্বাচিত কৰা হয়। ইয়াৰ উদ্দেশ্য হৈছে সেই যুগৰ ভাষা আৰু জ্ঞান আধুনিক ধাৰণাৰ প্ৰভাৱ নোপোৱাৰ দৰে মডেল কৰা। উদাহৰণস্বৰূপ, বৰ্তমানৰ মডেলটো (v0.5) কেৱল ১৮০০-১৮৭৫ সময়ৰ তথ্যতকৈ প্ৰশিক্ষিত, ই ফাইন-টিউন কৰা নহয়, আৰম্ভণিৰ পৰাই প্ৰশিক্ষণ দিয়া হৈছে, ফলত ইয়াৰ আউটপুট সেই সময়ৰ ভাষাগত শৈলী আৰু ঐতিহাসিক পৰিপ্ৰেক্ষিত প্রতিফলিত কৰে।
 
-## মাত্ৰ fine-tuning বা LoRA কিয় ব্যৱহাৰ কৰা নহ'ল?
+## কেৱল ফাইন-টিউনিং বা LoRA ব্যৱহাৰ কৰা নহয় কিয়?
+এই প্ৰকল্পটোৰ বাবে মই চেষ্টা কৰিছোঁ এটা ভাষা মডেল সৃষ্টি কৰিবলৈ যি আধুনিক পক্ষপাতত পৰা মুক্ত। যদি মই GPT-2 দৰে কিবা এটাৰ fine-tune কৰোঁ, তেন্তে সেইটো ইতিমধ্যে pre-trained আৰু সেই তথ্য আঁতৰি নাযাব। যদি মই scratch ৰ পৰা train কৰোঁ, ভাষা মডেলটোৱে পুৰণি বুলি অভিনয় নকৰে, সেয়া পুৰণি হবই। এই প্ৰকল্পটোৰ উদ্দেশ্য বৰ্তমান হৈছে এটা এনেকুৱা কিছু সৃষ্টি কৰা যি কেৱল ১৮০০-১৮৭৫ চনৰ লণ্ডনৰ কিতাপৰ জ্ঞানৰ আধাৰত যুক্তি কৰিব পাৰে।
 
-এই প্ৰকল্পৰ বাবে মই এটা এনে ভাষা মডেল তৈয়াৰ কৰিবলৈ চেষ্টা কৰিছোঁ, যি আধুনিক পক্ষপাতৰ পৰা মুক্ত। যদি মই GPT-2 মত দিছোঁ, তেন্তে ই ইতিমধ্যে আগতে প্ৰশিক্ষিত আৰু সেই তথ্য আঁতৰাব নোৱাৰি। যদি মই আৰম্ভণিৰ পৰা প্ৰশিক্ষণ দিওঁ, ভাষা মডেলে পুৰণি বুলি অভিনয় নকৰে, ই সঁচাকৈয়ে পুৰণি হ'ব। বৰ্তমান এই প্ৰকল্পৰ লক্ষ্য হৈছে ১৮০০-১৮৭৫ সময়ছোৱাৰ লণ্ডনৰ কিতাপৰ জ্ঞানহে ব্যৱহাৰ কৰি যুক্তি কৰিব পৰা এটা মডেল সৃষ্টি কৰা।
+## প্ৰশিক্ষণৰ বাবে কিমান ধৰণৰ তথ্য ব্যৱহাৰ কৰা হৈছে?
 
-## প্ৰশিক্ষণৰ বাবে আপুনি কিহৰ পৰা তথ্য ললে?
-
-মই ১৮০০-১৮৭৫ সময়ছোৱাৰ লণ্ডনৰ কিতাপ, আইনগত নথি, বাতৰিকাকত আৰু অন্যান্য লেখনি ব্যৱহাৰ কৰিছোঁ। মই যি তালিকা সংযোগ দিছোঁ (v0ৰ বাবে) প্ৰায় ২০০টা আছে, কিন্তু প্ৰথম প্ৰশিক্ষণত কেৱল ৫০টা ফাইল ~১৮৭ MB ব্যৱহাৰ কৰিছোঁ। আপুনি এই নথিসমূহৰ তালিকা চাব পাৰে:
+মই ১৮০০–১৮৭৫ চনৰ লণ্ডনৰ কিতাপ, আইনী নথি, সংবাদপত্র আৰু অন্যান্য লিখনি ব্যৱহাৰ কৰিছোঁ। মই সংযোগ দিয়া তালিকাত (v0) প্ৰায় ২০০টা আছে, কিন্তু প্ৰথম প্ৰশিক্ষণত মই কেৱল ৫০টা ফাইল ব্যৱহাৰ কৰিছিলোঁ, প্ৰায় ~১৮৭ MB। আপুনি নথিসমূহৰ তালিকা চাব পাৰে:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-ডাটাসেটৰ আকাৰ:
+ডেটা সেটৰ আকাৰ:
 - v0: ~১৮৭MB
 - v0.5: ~৪৩৫MB 
 - v1: ~৬.২৫GB 
-- v2mini-eval1: 15GB (v2ৰ 90GB ৰ পৰা নমুনা)
-- v2: 90GB
+- v2mini-eval1: ১৫GB (v2-ৰ ৯০GB-ৰ পৰা sample)
+- v2: ৯০GB
 
-## মডেলবোৰ কিমান ডাঙৰ ?
+## মডেলসমূহ কিমান ডাঙৰ?
 
-v0: 16M পৰামিতি
+v0: ১৬M Parameters
 
-v0.5: 123M পৰামিতি
+v0.5: ১২৩M Parameters
 
-v1: 700M পৰামিতি
+v1: ৭০০M Parameters
 
-v2mini-eval1: 300M পৰামিতি
+v2mini-eval1: ৩০০M Parameters
 
-v2mini-eval2: 200M পৰামিতি
+v2mini-eval2: ২০০M Parameters
 
-v2: 1.2B পৰামিতি
+v2: ১.২B Parameters
 
-## প্ৰশিক্ষণ স্পেক্‌স ?
+## প্ৰশিক্ষণৰ স্পেচিফিকেশ্যন?
 
 ### v0/v0.5
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
-Ram: 16GB DDR5.
+Ram: ১৬GB DDR5.
 
 ### v1
-GPU: A100 SXM ভাড়াত লোৱা
+GPU: A100 SXM ভাড়াত লোৱা
 
 ### v2mini-eval1/eval2
-GPU: A100 SXM ভাড়াত লোৱা
+
+GPU: A100 SXM ভাড়াত লৈছে
 
 ### v2
-GPU: H100 SXM ভাড়াত লোৱা
+GPU: H100 SXM ভাড়াত লৈছে
+
+## সম্পৰ্কিত কাম
+
+- **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
+  -  ১৩বি পেৰামিটাৰৰ এলএএম, ১৯৩০ ৰ পূৰ্বৰ ২৬০বি টোকেন পাঠৰ ওপৰত Q&A সহ প্ৰশিক্ষণ দিয়া। ইয়াৰ এটা [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) সংস্কৰণো আছে।
+ 
+- **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
+  -  ১.৪বি পেৰামিটাৰ এলএএম, ১৮০০-১৮৯৯ পাঠৰ ওপৰত Q&A সহ প্ৰশিক্ষণ দিয়া। ইয়াৰ এটা [160M](https://huggingface.co/zakarth/violet-160m-chat) সংস্কৰণো আছে।
+ 
+- **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
+  -  ৩৪০এম পেৰামিটাৰ এলএএম, ১৮৩৭-১৮৯৯ৰ মাজত ২৮,০০০ৰো অধিক পাঠৰ ওপৰত Q&A সহ প্ৰশিক্ষণ দিয়া।
+
+- **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
+  - Qwen3 আৰ্হিৰ ওপৰত নিৰ্মিত ৪বি পেৰামিটাৰৰ এলএএম পৰিয়াল, ৮০বি ঐতিহাসিক তথ্যৰ টোকেনত ১৯১৩, ১৯২৯, ১৯৩৩, ১৯৩৯, ১৯৪৬ শিক্ষাৰ সীমা লৈ আৰম্ভণি পৰা প্ৰশিক্ষণ দিয়া।
+
+- **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
+  - MonadGPT হৈছে Mistral-Hermes 2 ৰ অপূৰ্ণ প্ৰশিক্ষণ, যি ইংৰাজী, ফ্ৰেঞ্চ আৰু লেটিন ভাষাৰ ১১,০০০ প্ৰাৰম্ভিক আধুনিক পাঠত, মূলত EEBO আৰু Gallica ৰ পৰা সংগৃহীত।
 
 ## কৃতজ্ঞতা
 
-মই [ডাঃ হামেদ ইয়াঘুবিয়ান](https://hamedyaghoobian.com)ক ধন্যবাদ জনাইছোঁ, যি শৈক্ষিক পৰ্যবেক্ষণ, গৱেষণা গঠন আৰু মূল্যাংকনত পথপ্ৰদৰ্শন, আৰু v2 মুক্তিৰ বাবে টোকেনাইজাৰ প্ৰশিক্ষণ আৰু ডেটা ছেট প্ৰস্তুতিত সহায় কৰিছিল। তেওঁৰ মতামত আৰু অভিজ্ঞতা এই কামৰ উপস্থাপনাক উন্নত কৰিবলৈ অত্যন্ত সহায়ক হৈছিল।
+মই [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) ক একাডেমিক পৰ্যবেক্ষণ, গৱেষণাৰ দিশনির্দেশনা আৰু মূল্যাংকন, আৰু v2 মুক্তিৰ বাবে টোকেনাইজাৰ প্ৰশিক্ষণ আৰু ডেটাসেট প্ৰস্তুতিত সহায়ৰ বাবে ধন্যবাদ জনাব বিচাৰোঁ। তেওঁৰ মতামত আৰু অভিজ্ঞতাই এই কামৰ উপস্থাপনা নিখুঁত কৰিবলৈ সহায় কৰিছিল।
+
 
 
 
@@ -245,6 +283,6 @@ GPU: H100 SXM ভাড়াত লোৱা
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

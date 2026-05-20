@@ -39,7 +39,7 @@
 </p>
 
 # Descrizione
-**CKPE** è una piattaforma potente a sorgente condivisa che apporta numerose correzioni e miglioramenti all’editor Creation Kit di **Bethesda**, include il supporto dell’editor per giochi come **Skyrim Special Edition**, **Fallout 4**, **Starfield**, è il successore dei progetti [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test), e anche della [patch Unicode per SSE CK 1.5.73](https://github.com/Perchik71/usse_test) che ha dato inizio a tutto per l’autore **perchik71**.  
+**CKPE** è una potente piattaforma a sorgente condivisa che apporta numerose correzioni e miglioramenti all’editor Creation Kit di **Bethesda**, include il supporto all’editor per giochi come **Skyrim Special Edition**, **Fallout 4**, **Starfield**, ed è il successore dei progetti [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test), oltre che della [patch Unicode per SSE CK 1.5.73](https://github.com/Perchik71/usse_test) che ha dato il via a tutto per l’autore **perchik71**.  
 
 Pagina [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki)  
 
@@ -54,44 +54,45 @@ Pagina [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki)
 
 # Installazione
 >[!IMPORTANTE]
->Release normale o noavx2?  
->Controlla con Steam se la tua CPU supporta avx2. Apri Steam, nell’angolo a sinistra passa sopra il menu aiuto, seleziona Informazioni di sistema e cerca AVX2.  
->Se è supportato, scegli la release normale  
->Se non lo è, scegli la release noavx2  
-### Installazione nuova
+>Release regolare o noavx2?  
+>Controlla con Steam se la tua CPU supporta avx2. Apri Steam, nell’angolo sinistro passa col mouse sul menu Aiuto, seleziona Informazioni di sistema e cerca AVX2.  
+>Se è supportato, procedi con la release regolare  
+>Se non è supportato, procedi con la release noavx2  
+### Nuova installazione
 Scarica qualsiasi [gioco supportato](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) e installa Creation Kit.  
-Scarica [l’ultima release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) di **CKPE** per il tuo gioco.  
-Estrai tutto il contenuto nella directory del gioco, in modo che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.
+Scarica la [ultima release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) di **CKPE** per il tuo gioco.  
+Estrai tutti i contenuti nella directory del gioco, così che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.
 ### Aggiornamento
-Scarica [l’ultima release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) di **CKPE** per il tuo gioco.  
-Estrai tutto il contenuto nella directory del gioco, in modo che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.  
+Scarica la [ultima release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) di **CKPE** per il tuo gioco.  
+Estrai tutti i contenuti nella directory del gioco, così che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.  
 Accetta di sostituire tutti i file.
 ### Compilazione
-Gli utenti normali necessitano questo metodo solo per accedere alle funzionalità più recenti che non sono ancora state rilasciate.  
-Apri il progetto in **`Visual Studio 2022`** o successivo. Compila il progetto in modalità **`Release`** o **`Release-NoAVX2`**.  
-Poi sposta l’output della compilazione nella directory del gioco, in modo che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.  
-Se ti viene chiesto di sostituire i vecchi file, accetta di sostituire tutto.
-### Build automatici (Beta)
-Scarica [l’ultima build del commit](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) di **CKPE** per il tuo gioco.  
-Estrai tutto il contenuto nella directory del gioco, in modo che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.  
+Gli utenti regolari necessitano solo questo metodo per accedere alle funzionalità più recenti non ancora rilasciate.  
+Apri un progetto in **`Visual Studio 2022`** o successivo. Compila il progetto in modalità **`Release`** o **`Release-NoAVX2`**.  
+Poi sposta il risultato della compilazione nella directory del gioco, così che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.  
+Se ti viene chiesto di sostituire i vecchi file, accetta di sostituirli tutti.
+### Automazione build (Beta)
+Scarica la [build dell’ultimo commit](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) di **CKPE** per il tuo gioco.  
+Estrai tutti i contenuti nella directory del gioco, così che **ckpe_loader.exe** sia nella stessa cartella di **CreationKit.exe**.  
 Possibili errori.
 
 # Crediti
 [Nukem9](https://github.com/Nukem9) (per funzioni sperimentali, hash e altro, molto utile)  
-[adzm](https://github.com/adzm) (Apprezzo molto il tuo lavoro, hai [fatto](https://github.com/adzm/win32-custom-menubar-aero-theme) ciò che avrei voluto fare da tempo)  
+[adzm](https://github.com/adzm) (Apprezzo davvero il tuo lavoro, hai [fatto](https://github.com/adzm/win32-custom-menubar-aero-theme) quello che ho sempre desiderato fare io stesso)  
 [yak3d](https://github.com/yak3d) (Per il contributo e lo sviluppo del workflow e il supporto a Starfield più recente)  
 [DioKyrie-Git](https://github.com/DioKyrie-Git) (Per il design del readme)  
 
 # Licenza
-A partire dalla versione v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) il progetto è concesso in licenza [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />
-Le versioni precedenti sono concesse in licenza [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
+A partire dalla versione v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) il progetto è sotto licenza [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />
+Le versioni precedenti sono sotto licenza [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
 Copyright © 2023-2025 aka perchik71. Tutti i diritti riservati. <br />
-Il file `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` contiene file proprietari e non in licenza; lo stesso vale per i file in `d3dcompiler\*.*`. <br />
-Le dipendenze sono sotto le rispettive licenze. 
+Il file `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` contiene file proprietari e non concessi in licenza; lo stesso vale per i file in `d3dcompiler\*.*`. <br />
+Le dipendenze sono soggette alle rispettive licenze. 
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
 
 ---

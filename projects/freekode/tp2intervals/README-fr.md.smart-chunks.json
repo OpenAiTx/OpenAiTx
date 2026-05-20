@@ -1,0 +1,1170 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![Build branches](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml/badge.svg)](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml)\n[![release](https://img.shields.io/github/release/freekode/tp2intervals)](https://github.com/freekode/tp2intervals/releases/latest)\n\n[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E6W6XZP)\n\n# Third Party to Intervals.icu\n\nApp to sync workouts between TrainingPeaks, TrainerRoad and Intervals.icu.\n\nRuns on MacOS (DMG), Windows (EXE installer), Linux (AppImage). Alternatively there is Docker image and executable JAR.\n\nAll files are available for download on [Release page](https://github.com/freekode/tp2intervals/releases/latest).\n\n**Only for educational purposes**\n\n<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp.png?raw=true\" width=\"25%\"><img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr.png?raw=true\" width=\"25%\">\n\n* [List of features](#list-of-features)\n* [Configuration](#configuration)\n    + [Intervals.icu](#intervalsicu)\n    + [TrainingPeaks](#trainingpeaks)\n    + [TrainerRoad](#trainerroad)\n* [Other ways to run the app](#other-ways-to-run-the-app)\n    + [Executable JAR](#executable-jar)\n    + [Docker](#docker)\n* [FAQ](#faq)\n    + [General](#general)\n    + [Info regarding scheduling for the next day with TrainingPeaks free account](#info-regarding-scheduling-for-the-next-day-with-trainingpeaks-free-account)\n* [Troubleshooting](#troubleshooting)\n    + [How to get logs](#how-to-get-logs)\n    + [How to record HAR file](#how-to-record-har-file)\n\n\n\n**New Docker image location ⚠️**\n\n**New image url: `ghcr.io/freekode/tp2intervals`**\n\nOld image url: `ghcr.io/freekode/tp2intervals/tp2intervals`\n",
+    "ContentSha": "iafUCC+9aFzmAmLDErn+D7KG+BvKqWRHRLIhS5oma5Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Build branches](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml/badge.svg)](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml)\n[![release](https://img.shields.io/github/release/freekode/tp2intervals)](https://github.com/freekode/tp2intervals/releases/latest)\n\n[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E6W6XZP)\n\n# Third Party to Intervals.icu\n\nApplication pour synchroniser les entraînements entre TrainingPeaks, TrainerRoad et Intervals.icu.\n\nFonctionne sur MacOS (DMG), Windows (installateur EXE), Linux (AppImage). Alternativement, il existe une image Docker et un JAR exécutable.\n\nTous les fichiers sont disponibles au téléchargement sur la [page de Release](https://github.com/freekode/tp2intervals/releases/latest).\n\n**Uniquement à des fins éducatives**\n\n<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp.png?raw=true\" width=\"25%\"><img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr.png?raw=true\" width=\"25%\">\n\n* [Liste des fonctionnalités](#list-of-features)\n* [Configuration](#configuration)\n    + [Intervals.icu](#intervalsicu)\n    + [TrainingPeaks](#trainingpeaks)\n    + [TrainerRoad](#trainerroad)\n* [Autres façons d’exécuter l’application](#other-ways-to-run-the-app)\n    + [JAR exécutable](#executable-jar)\n    + [Docker](#docker)\n* [FAQ](#faq)\n    + [Général](#general)\n    + [Infos concernant la planification pour le lendemain avec un compte TrainingPeaks gratuit](#info-regarding-scheduling-for-the-next-day-with-trainingpeaks-free-account)\n* [Dépannage](#troubleshooting)\n    + [Comment obtenir les logs](#how-to-get-logs)\n    + [Comment enregistrer un fichier HAR](#how-to-record-har-file)\n\n\n\n**Nouvel emplacement de l’image Docker ⚠️**\n\n**Nouvelle URL de l’image : `ghcr.io/freekode/tp2intervals`**\n\nAncienne URL de l’image : `ghcr.io/freekode/tp2intervals/tp2intervals`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CMXAHARXhEjvO7gJ9hiYy8W1VZbKFhp7+zSCVORqKXY=",
+        "originContent": "[![Build branches](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml/badge.svg)](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml)",
+        "translatedContent": "[![Build branches](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml/badge.svg)](https://github.com/freekode/tp2intervals/actions/workflows/branch.yml)"
+      },
+      {
+        "row": 2,
+        "rowsha": "4Sgs5ExSmmDYLGZETp5eNZMAFerZQC6TfGCIQkHsPU8=",
+        "originContent": "[![release](https://img.shields.io/github/release/freekode/tp2intervals)](https://github.com/freekode/tp2intervals/releases/latest)",
+        "translatedContent": "[![release](https://img.shields.io/github/release/freekode/tp2intervals)](https://github.com/freekode/tp2intervals/releases/latest)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mEQm53tKG3LPqgYlpvSGO6BlPao/uxrTi8ObFyZNmY0=",
+        "originContent": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E6W6XZP)",
+        "translatedContent": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E6W6XZP)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "+70fb8+5JKoG44BDOJ0Zf0BQJkYTm6gefVHwGrRGPFU=",
+        "originContent": "# Third Party to Intervals.icu",
+        "translatedContent": "# Third Party to Intervals.icu"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "LAlE+pqUewqmnohSrrQL0y8/2jHJa5eZwpVZd6G6YKQ=",
+        "originContent": "App to sync workouts between TrainingPeaks, TrainerRoad and Intervals.icu.",
+        "translatedContent": "Application pour synchroniser les entraînements entre TrainingPeaks, TrainerRoad et Intervals.icu."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "85kVUHcK23u2HF/rbxGBVmdzZe7QtGWkoJe3pOSErn4=",
+        "originContent": "Runs on MacOS (DMG), Windows (EXE installer), Linux (AppImage). Alternatively there is Docker image and executable JAR.",
+        "translatedContent": "Fonctionne sur MacOS (DMG), Windows (installateur EXE), Linux (AppImage). Alternativement, il existe une image Docker et un JAR exécutable."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "lM9UQ6GlY+ZwkKVuTQ4Te2bwB91Z2zq23KZTNojEPWQ=",
+        "originContent": "All files are available for download on [Release page](https://github.com/freekode/tp2intervals/releases/latest).",
+        "translatedContent": "Tous les fichiers sont disponibles au téléchargement sur la [page de Release](https://github.com/freekode/tp2intervals/releases/latest)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yprK4QKxZxVTyXsa4YrNmpjqkmw7zNV7bI3iBhu4pqo=",
+        "originContent": "**Only for educational purposes**",
+        "translatedContent": "**Uniquement à des fins éducatives**"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "OyWI6DYJMBEHI1xGiKHc0dxcBRaGwhDceP2wwqiuv9k=",
+        "originContent": "<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp.png?raw=true\" width=\"25%\"><img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr.png?raw=true\" width=\"25%\">",
+        "translatedContent": "<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp.png?raw=true\" width=\"25%\"><img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr.png?raw=true\" width=\"25%\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "6k1bsjQVTuPQpPhOXf5lwMaSU4UAXntNlg2mZJHUqsI=",
+        "originContent": "* [List of features](#list-of-features)",
+        "translatedContent": "* [Liste des fonctionnalités](#list-of-features)"
+      },
+      {
+        "row": 19,
+        "rowsha": "r8pz1kaxwQWSyvrh2KchN0D4LOITGFIcpha4LrhRBcc=",
+        "originContent": "* [Configuration](#configuration)",
+        "translatedContent": "* [Configuration](#configuration)"
+      },
+      {
+        "row": 20,
+        "rowsha": "AVA9Yt0MIoZagc5J5zQmECmDH0OxgkYo/XJOHaO4zFE=",
+        "originContent": "    + [Intervals.icu](#intervalsicu)",
+        "translatedContent": "    + [Intervals.icu](#intervalsicu)"
+      },
+      {
+        "row": 21,
+        "rowsha": "hDjrMNBFraJrPCLxX3x1jcVBWgS7B4Uq/v81atg7RPc=",
+        "originContent": "    + [TrainingPeaks](#trainingpeaks)",
+        "translatedContent": "    + [TrainingPeaks](#trainingpeaks)"
+      },
+      {
+        "row": 22,
+        "rowsha": "/AdEd2tW5qPhynbWSjVDEf5oh5pjbkXKj7EDL1deR0E=",
+        "originContent": "    + [TrainerRoad](#trainerroad)",
+        "translatedContent": "    + [TrainerRoad](#trainerroad)"
+      },
+      {
+        "row": 23,
+        "rowsha": "WHBS/IcCvs5BuVN5gVyT4Wca2c65md9JH81OJO631Pg=",
+        "originContent": "* [Other ways to run the app](#other-ways-to-run-the-app)",
+        "translatedContent": "* [Autres façons d’exécuter l’application](#other-ways-to-run-the-app)"
+      },
+      {
+        "row": 24,
+        "rowsha": "ZbhXqGvpbtM8gJd6aDe8PQ3JsR5eUdR2zY0Z9V5Ykg4=",
+        "originContent": "    + [Executable JAR](#executable-jar)",
+        "translatedContent": "    + [JAR exécutable](#executable-jar)"
+      },
+      {
+        "row": 25,
+        "rowsha": "Y//DT0B4K8zSn8Wcb0xT/vcLX9Rbq9VdZm1g3dt/9wo=",
+        "originContent": "    + [Docker](#docker)",
+        "translatedContent": "    + [Docker](#docker)"
+      },
+      {
+        "row": 26,
+        "rowsha": "Bt7tCRxgKk1p3XkWPm/G/p8TOkoOZIS29DxdlE3Xs7g=",
+        "originContent": "* [FAQ](#faq)",
+        "translatedContent": "* [FAQ](#faq)"
+      },
+      {
+        "row": 27,
+        "rowsha": "nkLbGM0km0Rn+2jWQokqQ5LRkLPwD7YzcoYzabs79E8=",
+        "originContent": "    + [General](#general)",
+        "translatedContent": "    + [Général](#general)"
+      },
+      {
+        "row": 28,
+        "rowsha": "Egd6dPWVGmQ2YjqHUlbU+glOZEMKmPg1W2e0tDWer2M=",
+        "originContent": "    + [Info regarding scheduling for the next day with TrainingPeaks free account](#info-regarding-scheduling-for-the-next-day-with-trainingpeaks-free-account)",
+        "translatedContent": "    + [Infos concernant la planification pour le lendemain avec un compte TrainingPeaks gratuit](#info-regarding-scheduling-for-the-next-day-with-trainingpeaks-free-account)"
+      },
+      {
+        "row": 29,
+        "rowsha": "0myKEhZAonoYCEy0WdPPi3ZiFqs4Qe/gFy8r+/OV9Cg=",
+        "originContent": "* [Troubleshooting](#troubleshooting)",
+        "translatedContent": "* [Dépannage](#troubleshooting)"
+      },
+      {
+        "row": 30,
+        "rowsha": "3POPy2USH4h96e1FzW6nF+68oyBJid8ckL743FjokCU=",
+        "originContent": "    + [How to get logs](#how-to-get-logs)",
+        "translatedContent": "    + [Comment obtenir les logs](#how-to-get-logs)"
+      },
+      {
+        "row": 31,
+        "rowsha": "tZl48O4XUydCW9bpBswEnwcdIR6kHidCtJxGe2L0Ag4=",
+        "originContent": "    + [How to record HAR file](#how-to-record-har-file)",
+        "translatedContent": "    + [Comment enregistrer un fichier HAR](#how-to-record-har-file)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "AgAMbHCBNMmvP54+bxEfGmRsfuhMKT4I/ambntdwMzg=",
+        "originContent": "**New Docker image location ⚠️**",
+        "translatedContent": "**Nouvel emplacement de l’image Docker ⚠️**"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "fBN1WZPozB3qcZgeDwSH1BXiu2DlnhtqVY+VlUk2jOk=",
+        "originContent": "**New image url: `ghcr.io/freekode/tp2intervals`**",
+        "translatedContent": "**Nouvelle URL de l’image : `ghcr.io/freekode/tp2intervals`**"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "JqdSXH2DeP985OBhX+fNAW5J9tfSXpWa8THmw5GGcY8=",
+        "originContent": "Old image url: `ghcr.io/freekode/tp2intervals/tp2intervals`",
+        "translatedContent": "Ancienne URL de l’image : `ghcr.io/freekode/tp2intervals/tp2intervals`"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "**TrainerRoad Updates**\n\nI don't have access to TrainerRoad anymore. Account, which I used, cancelled subscription. I don't use the platform and it's too expensive to have it for occasional fixes.\nTo fix issues I can only relay on logs and HAR files from you.\n\n## List of features\n\n**TrainingPeaks**\n\nAthlete account\n* Sync planned workouts in calendar between Intervals.icu and TrainingPeaks (for today and tomorrow with free TP account)\n* Copy whole training plan from TrainingPeaks\n* Create training plan or workout folder on Intervals.icu from planned workouts on TrainingPeaks\n\nCoach account\n* Copy whole training plan and workout library from TrainingPeaks\n\n**TrainerRoad**\n* Sync planned workouts in calendar from TrainerRoad to TrainingPeaks or Intervals.icu\n* Copy workouts from TrainerRoad library to Intervals\n* Create training plan or workout folder on Intervals.icu from planned workouts on TrainerRoad\n\nAutomatically schedule workouts for today, by checking your calendar every 20 minutes.\nTo clear up scheduled jobs just restart the application.\n\n\n## Configuration\nBefore using the application you need to configure access to platforms.\nAccess to Intervals.icu is required, access to other platforms is optional.\n\nAfter you gathered all required configuration, you can click Confirm button.\nIf everything is fine, you will be redirected to the home page.\n\nIf your configuration is wrong. You will see an error that there is no access to particular platform.\nCheck all your values and save configuration again.\n\n### Intervals.icu\nCopy API key and Athlete Id from [Settings page](https://intervals.icu/settings) in Developer Settings section on Intervals.icu web page.\n\n### TrainingPeaks",
+    "ContentSha": "iExYyj8OP9DJX7GEyInhIZjQetq+TXrj5iplkeghAYo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Mises à jour TrainerRoad**\n\nJe n'ai plus accès à TrainerRoad. Le compte que j’utilisais a annulé son abonnement. Je n’utilise pas la plateforme et c’est trop cher pour des corrections occasionnelles.  \nPour résoudre les problèmes, je ne peux compter que sur les journaux et les fichiers HAR que vous fournissez.\n\n## Liste des fonctionnalités\n\n**TrainingPeaks**\n\nCompte athlète  \n* Synchroniser les séances planifiées dans le calendrier entre Intervals.icu et TrainingPeaks (pour aujourd’hui et demain avec un compte TP gratuit)  \n* Copier le plan d’entraînement complet depuis TrainingPeaks  \n* Créer un plan d’entraînement ou un dossier de séances sur Intervals.icu à partir des séances planifiées sur TrainingPeaks\n\nCompte coach  \n* Copier le plan d’entraînement complet et la bibliothèque de séances depuis TrainingPeaks\n\n**TrainerRoad**  \n* Synchroniser les séances planifiées dans le calendrier de TrainerRoad vers TrainingPeaks ou Intervals.icu  \n* Copier les séances de la bibliothèque TrainerRoad vers Intervals  \n* Créer un plan d’entraînement ou un dossier de séances sur Intervals.icu à partir des séances planifiées sur TrainerRoad\n\nPlanifiez automatiquement les séances pour aujourd’hui en vérifiant votre calendrier toutes les 20 minutes.  \nPour effacer les tâches planifiées, il suffit de redémarrer l’application.\n\n## Configuration  \nAvant d’utiliser l’application, vous devez configurer l’accès aux plateformes.  \nL’accès à Intervals.icu est requis, l’accès aux autres plateformes est optionnel.\n\nUne fois que vous avez rassemblé toute la configuration requise, vous pouvez cliquer sur le bouton Confirmer.  \nSi tout est correct, vous serez redirigé vers la page d’accueil.\n\nSi votre configuration est erronée, vous verrez une erreur indiquant qu’il n’y a pas d’accès à une plateforme particulière.  \nVérifiez toutes vos valeurs et enregistrez la configuration à nouveau.\n\n### Intervals.icu  \nCopiez la clé API et l’ID athlète depuis la [page Paramètres](https://intervals.icu/settings) dans la section Paramètres développeur sur la page web d’Intervals.icu.\n\n### TrainingPeaks\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ISkDKVVusTrp3EJNUQgbeH/9Oa1RWIx4FBKv5tbCECc=",
+        "originContent": "**TrainerRoad Updates**",
+        "translatedContent": "**Mises à jour TrainerRoad**"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kVeAJNGEX0/RVpiiilWhjwtffKpDBaunk9Ae3qqO/5Q=",
+        "originContent": "I don't have access to TrainerRoad anymore. Account, which I used, cancelled subscription. I don't use the platform and it's too expensive to have it for occasional fixes.",
+        "translatedContent": "Je n'ai plus accès à TrainerRoad. Le compte que j’utilisais a annulé son abonnement. Je n’utilise pas la plateforme et c’est trop cher pour des corrections occasionnelles.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "I9gOJgA5PY54Yrtcqksyrvm4xXEZwG2fDCVobuwUk9M=",
+        "originContent": "To fix issues I can only relay on logs and HAR files from you.",
+        "translatedContent": "Pour résoudre les problèmes, je ne peux compter que sur les journaux et les fichiers HAR que vous fournissez."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mZg26biKGwsbWoHQeGcDiwHkM5LC1UohjCjk1txtM9Y=",
+        "originContent": "## List of features",
+        "translatedContent": "## Liste des fonctionnalités"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "icT//Rv/EgCPrr+a39n7RlRTxQ8WMuKPHQ6g0tqntME=",
+        "originContent": "**TrainingPeaks**",
+        "translatedContent": "**TrainingPeaks**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "4QgFLf+5ZmIkYdm9+yVDMHU7+pD4ufLkXFuVrhS3yVU=",
+        "originContent": "Athlete account",
+        "translatedContent": "Compte athlète  "
+      },
+      {
+        "row": 11,
+        "rowsha": "p5R/ZdeLAFOyYZkfiCnWJeeBr04Q872RNjuTNu9NiFk=",
+        "originContent": "* Sync planned workouts in calendar between Intervals.icu and TrainingPeaks (for today and tomorrow with free TP account)",
+        "translatedContent": "* Synchroniser les séances planifiées dans le calendrier entre Intervals.icu et TrainingPeaks (pour aujourd’hui et demain avec un compte TP gratuit)  "
+      },
+      {
+        "row": 12,
+        "rowsha": "QQinUW4pKu5cQBHZbiq6el1wLAwj9CR5KMj/b+oeP+A=",
+        "originContent": "* Copy whole training plan from TrainingPeaks",
+        "translatedContent": "* Copier le plan d’entraînement complet depuis TrainingPeaks  "
+      },
+      {
+        "row": 13,
+        "rowsha": "cHr+E5SLpnhxBdUnQwa4ax1B8u45QBqT+teozVVwhpU=",
+        "originContent": "* Create training plan or workout folder on Intervals.icu from planned workouts on TrainingPeaks",
+        "translatedContent": "* Créer un plan d’entraînement ou un dossier de séances sur Intervals.icu à partir des séances planifiées sur TrainingPeaks"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "u1hLQylveDnbmB2gzuEiYWywixWxoES9vJp9dpBRMH8=",
+        "originContent": "Coach account",
+        "translatedContent": "Compte coach  "
+      },
+      {
+        "row": 16,
+        "rowsha": "DI+lSu2hj1eybe99Jy3bXbQAe61xrxWiiagz8PkRwfg=",
+        "originContent": "* Copy whole training plan and workout library from TrainingPeaks",
+        "translatedContent": "* Copier le plan d’entraînement complet et la bibliothèque de séances depuis TrainingPeaks"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "1Ep5YOM1EWKAPQowtd1AxmZR1Z+mfp6JNDOOwMWT0q0=",
+        "originContent": "**TrainerRoad**",
+        "translatedContent": "**TrainerRoad**  "
+      },
+      {
+        "row": 19,
+        "rowsha": "3hOWgQE/rHBwXDqiCAfo2fvF8ggUau/neqicaXxiDBE=",
+        "originContent": "* Sync planned workouts in calendar from TrainerRoad to TrainingPeaks or Intervals.icu",
+        "translatedContent": "* Synchroniser les séances planifiées dans le calendrier de TrainerRoad vers TrainingPeaks ou Intervals.icu  "
+      },
+      {
+        "row": 20,
+        "rowsha": "fIjNRfxbIHyy6vXeddGEdAxltbCUB3wcTvpNdsYvEhU=",
+        "originContent": "* Copy workouts from TrainerRoad library to Intervals",
+        "translatedContent": "* Copier les séances de la bibliothèque TrainerRoad vers Intervals  "
+      },
+      {
+        "row": 21,
+        "rowsha": "rN0AndYPde1wG4w05/n6+KkvjyjkR2rNmTiHoeWY7VQ=",
+        "originContent": "* Create training plan or workout folder on Intervals.icu from planned workouts on TrainerRoad",
+        "translatedContent": "* Créer un plan d’entraînement ou un dossier de séances sur Intervals.icu à partir des séances planifiées sur TrainerRoad"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "0jrdJNspPBKb0jdvkjp8cuTJzxtRR+QT6BWydWAxe/A=",
+        "originContent": "Automatically schedule workouts for today, by checking your calendar every 20 minutes.",
+        "translatedContent": "Planifiez automatiquement les séances pour aujourd’hui en vérifiant votre calendrier toutes les 20 minutes.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "0XWoYiyrr1GttSOqeVTwLZSizjF4jA53vFV9TJmgY/s=",
+        "originContent": "To clear up scheduled jobs just restart the application.",
+        "translatedContent": "Pour effacer les tâches planifiées, il suffit de redémarrer l’application."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Configuration  "
+      },
+      {
+        "row": 27,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "Avant d’utiliser l’application, vous devez configurer l’accès aux plateformes.  "
+      },
+      {
+        "row": 28,
+        "rowsha": "ErDqg7RdRt0dTB3qGdyyElFkBVPMjFmhIfU1dOIe+Dw=",
+        "originContent": "Before using the application you need to configure access to platforms.",
+        "translatedContent": "L’accès à Intervals.icu est requis, l’accès aux autres plateformes est optionnel."
+      },
+      {
+        "row": 29,
+        "rowsha": "JoHPk6hz/slvBG3lAGieSF7K5+tu9cOJJ8oVbBHflzc=",
+        "originContent": "Access to Intervals.icu is required, access to other platforms is optional.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Une fois que vous avez rassemblé toute la configuration requise, vous pouvez cliquer sur le bouton Confirmer.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "8T63UAeyTxcEjblUA9DtJ61FUNR0NJFY55dXa+qAfgY=",
+        "originContent": "After you gathered all required configuration, you can click Confirm button.",
+        "translatedContent": "Si tout est correct, vous serez redirigé vers la page d’accueil."
+      },
+      {
+        "row": 32,
+        "rowsha": "bczI1uFzHiSD/I0DWUXugjFikJKwO0mq2GzdiB6Wn+I=",
+        "originContent": "If everything is fine, you will be redirected to the home page.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Si votre configuration est erronée, vous verrez une erreur indiquant qu’il n’y a pas d’accès à une plateforme particulière.  "
+      },
+      {
+        "row": 34,
+        "rowsha": "zt5UCZnvklkoSaZwk1fUa4oYOEBF9UVIv7Jd8s5ua+M=",
+        "originContent": "If your configuration is wrong. You will see an error that there is no access to particular platform.",
+        "translatedContent": "Vérifiez toutes vos valeurs et enregistrez la configuration à nouveau."
+      },
+      {
+        "row": 35,
+        "rowsha": "m8YQHsGFmS2ZVKDkLwDW+yWlFxdlLcCetNOCa+euiNI=",
+        "originContent": "Check all your values and save configuration again.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Intervals.icu  "
+      },
+      {
+        "row": 37,
+        "rowsha": "cwIPhAnMTXA4mMJ179GiK8NuLDHZwVByRZlfwPrqIv8=",
+        "originContent": "### Intervals.icu",
+        "translatedContent": "Copiez la clé API et l’ID athlète depuis la [page Paramètres](https://intervals.icu/settings) dans la section Paramètres développeur sur la page web d’Intervals.icu."
+      },
+      {
+        "row": 38,
+        "rowsha": "SZ8lN8xa5iqNUht0R18UiVp1KZFVxubH6wCs0TrSeSY=",
+        "originContent": "Copy API key and Athlete Id from [Settings page](https://intervals.icu/settings) in Developer Settings section on Intervals.icu web page.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### TrainingPeaks"
+      },
+      {
+        "row": 40,
+        "rowsha": "tm68/yI6BD/Hr7KhsVMAELW59tB/uXJLK2GGGg3AXpc=",
+        "originContent": "### TrainingPeaks",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "To use TrainingPeaks copy all cookies from request `https://tpapi.trainingpeaks.com/users/v3/token` and put it on Configuration page.\nThe app automatically will remove redundant parts and only require cookie will remain. Follow guide below how to do that.\n\nThe app requires `Production_tpAuth` cookie (key and value, smth like `Production_tpAuth=very_long_string`).\nAnother guide is [available here](https://forum.intervals.icu/t/implemented-push-workout-to-wahoo/783/87)\n\n<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp_guide.png?raw=true\">\n\n### TrainerRoad\nConfiguration is very similar to TrainingPeaks. Copy all cookies from request `https://tpapi.trainingpeaks.com/users/v3/token` and put it on Configuration page.\nThe app automatically will remove redundant parts and only require cookie will remain. Follow guide below how to do that.\n\nCookie `SharedTrainerRoadAuth` (key and value, smth like `SharedTrainerRoadAuth=very_long_string`) is required for the app.\n\n<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr_guide.png?raw=true\">\n\nBe aware, Firefox cuts long strings in Dev Tool window. Copy cookie value with right click -> Copy Value.\n\n## Other ways to run the app\n### Executable JAR\nThe project has executable jar with web UI. It requires JDK 21. To run jar:",
+    "ContentSha": "bx/WJ84+6HvVeYvPv1thBefvRJBSH63HZZqQbAepjLY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Pour utiliser TrainingPeaks, copiez tous les cookies de la requête `https://tpapi.trainingpeaks.com/users/v3/token` et collez-les sur la page de Configuration.  \nL'application supprimera automatiquement les parties redondantes et seul le cookie requis restera. Suivez le guide ci-dessous pour savoir comment faire.\n\nL'application nécessite le cookie `Production_tpAuth` (clé et valeur, quelque chose comme `Production_tpAuth=very_long_string`).  \nUn autre guide est [disponible ici](https://forum.intervals.icu/t/implemented-push-workout-to-wahoo/783/87)\n\n<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp_guide.png?raw=true\">\n\n### TrainerRoad  \nLa configuration est très similaire à TrainingPeaks. Copiez tous les cookies de la requête `https://tpapi.trainingpeaks.com/users/v3/token` et collez-les sur la page de Configuration.  \nL'application supprimera automatiquement les parties redondantes et seul le cookie requis restera. Suivez le guide ci-dessous pour savoir comment faire.\n\nLe cookie `SharedTrainerRoadAuth` (clé et valeur, quelque chose comme `SharedTrainerRoadAuth=very_long_string`) est requis pour l'application.\n\n<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr_guide.png?raw=true\">\n\nAttention, Firefox coupe les longues chaînes dans la fenêtre des outils de développement. Copiez la valeur du cookie avec clic droit -> Copier la valeur.\n\n## Autres façons d’exécuter l’application  \n### JAR exécutable  \nLe projet possède un jar exécutable avec interface web. Il nécessite JDK 21. Pour lancer le jar :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dn2cYYGFwNFPHocvClXzZoHVKQ2JDoNVF156qhoTYOQ=",
+        "originContent": "To use TrainingPeaks copy all cookies from request `https://tpapi.trainingpeaks.com/users/v3/token` and put it on Configuration page.",
+        "translatedContent": "Pour utiliser TrainingPeaks, copiez tous les cookies de la requête `https://tpapi.trainingpeaks.com/users/v3/token` et collez-les sur la page de Configuration.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "P0mlVjFuvCS+32L873YTY5PhxqBNcM2DY6+RL0mK8gg=",
+        "originContent": "The app automatically will remove redundant parts and only require cookie will remain. Follow guide below how to do that.",
+        "translatedContent": "L'application supprimera automatiquement les parties redondantes et seul le cookie requis restera. Suivez le guide ci-dessous pour savoir comment faire."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MH5YZr7zrbwrfX3r4xo7I++UKiW0xml5uFjYFYcXlb4=",
+        "originContent": "The app requires `Production_tpAuth` cookie (key and value, smth like `Production_tpAuth=very_long_string`).",
+        "translatedContent": "L'application nécessite le cookie `Production_tpAuth` (clé et valeur, quelque chose comme `Production_tpAuth=very_long_string`).  "
+      },
+      {
+        "row": 5,
+        "rowsha": "kRESCVXzM82WnGVGomRm1VwMRLBJcFRKeXtZmJ9lo98=",
+        "originContent": "Another guide is [available here](https://forum.intervals.icu/t/implemented-push-workout-to-wahoo/783/87)",
+        "translatedContent": "Un autre guide est [disponible ici](https://forum.intervals.icu/t/implemented-push-workout-to-wahoo/783/87)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ztMR7lJlJ4p12egM5XnzZuMEwV44gpspy6HQ6o0r7/Y=",
+        "originContent": "<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp_guide.png?raw=true\">",
+        "translatedContent": "<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tp_guide.png?raw=true\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "WdjqijbYCKtYg5f2VVgKs7mqOThLRqegKMCkoNas0Rg=",
+        "originContent": "### TrainerRoad",
+        "translatedContent": "### TrainerRoad  "
+      },
+      {
+        "row": 10,
+        "rowsha": "0ec+QA9KveRjQpYiEI5ebwksH/J554D5clGcNPvo1lc=",
+        "originContent": "Configuration is very similar to TrainingPeaks. Copy all cookies from request `https://tpapi.trainingpeaks.com/users/v3/token` and put it on Configuration page.",
+        "translatedContent": "La configuration est très similaire à TrainingPeaks. Copiez tous les cookies de la requête `https://tpapi.trainingpeaks.com/users/v3/token` et collez-les sur la page de Configuration.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "P0mlVjFuvCS+32L873YTY5PhxqBNcM2DY6+RL0mK8gg=",
+        "originContent": "The app automatically will remove redundant parts and only require cookie will remain. Follow guide below how to do that.",
+        "translatedContent": "L'application supprimera automatiquement les parties redondantes et seul le cookie requis restera. Suivez le guide ci-dessous pour savoir comment faire."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "AOYq3wawjEZ3RZFcp9Fcfiq7ddXk+sfuLE8a3zfpyRI=",
+        "originContent": "Cookie `SharedTrainerRoadAuth` (key and value, smth like `SharedTrainerRoadAuth=very_long_string`) is required for the app.",
+        "translatedContent": "Le cookie `SharedTrainerRoadAuth` (clé et valeur, quelque chose comme `SharedTrainerRoadAuth=very_long_string`) est requis pour l'application."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "c65eQwT/WbhS05U7AtaiuR9hRWwxqfPs596VP101NaI=",
+        "originContent": "<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr_guide.png?raw=true\">",
+        "translatedContent": "<img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/tr_guide.png?raw=true\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nkZJ4ffLOTT61VRF+gwg36O8FfPGvnhRNjTbsUqp6E4=",
+        "originContent": "Be aware, Firefox cuts long strings in Dev Tool window. Copy cookie value with right click -> Copy Value.",
+        "translatedContent": "Attention, Firefox coupe les longues chaînes dans la fenêtre des outils de développement. Copiez la valeur du cookie avec clic droit -> Copier la valeur."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Ne06KJSa8aK4ieP/QAgfEbXw3VOSvQe4QXy41r3383c=",
+        "originContent": "## Other ways to run the app",
+        "translatedContent": "## Autres façons d’exécuter l’application  "
+      },
+      {
+        "row": 20,
+        "rowsha": "g5GZtriVXm6wIUnOyx2P/h8FlRT878NUdpxlySNOQKI=",
+        "originContent": "### Executable JAR",
+        "translatedContent": "### JAR exécutable  "
+      },
+      {
+        "row": 21,
+        "rowsha": "oYyptzBZ4SH0o6XQygQURMn/c3/5ZRKfN+zc8KbO5Is=",
+        "originContent": "The project has executable jar with web UI. It requires JDK 21. To run jar:",
+        "translatedContent": "Le projet possède un jar exécutable avec interface web. Il nécessite JDK 21. Pour lancer le jar :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell\njava -jar tp2intervals.jar\n```",
+    "ContentSha": "b3KMgR5ARMz0YJOyQi537+CFIgIFQPEsvQesPMGgPG8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\njava -jar tp2intervals.jar\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "KH61Y9RuCsEFB/Hf3KwfPJATFuNuiMzCANs/e3C7GAc=",
+        "originContent": "java -jar tp2intervals.jar",
+        "translatedContent": "java -jar tp2intervals.jar"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nBy default, UI is available on `http://localhost:8080`. To change port start jar with parameter:",
+    "ContentSha": "JVD4HSjmL3OFTsfZNtjtTuwUHng1uQkj6pDum+6ntRM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Par défaut, l’interface utilisateur est disponible sur `http://localhost:8080`. Pour changer le port, lancez le jar avec le paramètre :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Par défaut, l’interface utilisateur est disponible sur `http://localhost:8080`. Pour changer le port, lancez le jar avec le paramètre :"
+      },
+      {
+        "row": 2,
+        "rowsha": "0QOGMz7uWv5NUDO20WVcoE8Y7veXaLEzKZgdL1SaeoA=",
+        "originContent": "By default, UI is available on `http://localhost:8080`. To change port start jar with parameter:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```shell\njava -Dserver.port=9090 -jar tp2intervals.jar\n```",
+    "ContentSha": "ibSZA6/tNJJigtmIJaB+rZyIrugNsYcJem99unwL9HE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\njava -Dserver.port=9090 -jar tp2intervals.jar\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "RfB/jT9dPbRRxYzHuA5AfsXCtsgyrO9wxvn660t6A1o=",
+        "originContent": "java -Dserver.port=9090 -jar tp2intervals.jar",
+        "translatedContent": "java -Dserver.port=9090 -jar tp2intervals.jar"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Docker\nDocker image also built for every release\n",
+    "ContentSha": "3m1Av2dnX4+oQeh2n+lGbjizFN/fqZ9A+YJTZ5aJUb4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Docker\nImage Docker également construite pour chaque version\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rJkp0SR6AFuVEobhFmXJXexK+tjY3K/G58vFhiH70GA=",
+        "originContent": "### Docker",
+        "translatedContent": "### Docker"
+      },
+      {
+        "row": 3,
+        "rowsha": "SCk1sCrCrVXzipDnxK4L3LxMfWIrMy3NxtNoz2TVpL4=",
+        "originContent": "Docker image also built for every release",
+        "translatedContent": "Image Docker également construite pour chaque version"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```yaml\nservices:\n  app:\n    image: ghcr.io/freekode/tp2intervals:latest\n    container_name: tp2intervals\n    volumes:\n      - ./tp2intervals.sqlite:/tp2intervals.sqlite\n    ports:\n      - '8080:8080'\n```",
+    "ContentSha": "JOQVQiJlxUXJMUOUUwpirGOl1cczksap7txmNJAe6cE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nservices:\n  app:\n    image: ghcr.io/freekode/tp2intervals:latest\n    container_name: tp2intervals\n    volumes:\n      - ./tp2intervals.sqlite:/tp2intervals.sqlite\n    ports:\n      - '8080:8080'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+        "originContent": "services:",
+        "translatedContent": "services:"
+      },
+      {
+        "row": 3,
+        "rowsha": "5RQI4RsHXeqMiN+/Tvkuzq2RDv0SLQupIiG566pH5cw=",
+        "originContent": "  app:",
+        "translatedContent": "  app:"
+      },
+      {
+        "row": 4,
+        "rowsha": "SeclyaGVGjS0leCs/BOSwrWp+vn/p4ayTkZnVw2Notg=",
+        "originContent": "    image: ghcr.io/freekode/tp2intervals:latest",
+        "translatedContent": "    image: ghcr.io/freekode/tp2intervals:latest"
+      },
+      {
+        "row": 5,
+        "rowsha": "IB/WuAeK28AxPT2tQ3YOoTbLBVYvfR/i63uK+ZXq1kI=",
+        "originContent": "    container_name: tp2intervals",
+        "translatedContent": "    container_name: tp2intervals"
+      },
+      {
+        "row": 6,
+        "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+        "originContent": "    volumes:",
+        "translatedContent": "    volumes:"
+      },
+      {
+        "row": 7,
+        "rowsha": "AkSJtulxHvNAhWJQ+/fs7C5pn7r87Oy4T7Ikc5jfExg=",
+        "originContent": "      - ./tp2intervals.sqlite:/tp2intervals.sqlite",
+        "translatedContent": "      - ./tp2intervals.sqlite:/tp2intervals.sqlite"
+      },
+      {
+        "row": 8,
+        "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
+        "originContent": "    ports:",
+        "translatedContent": "    ports:"
+      },
+      {
+        "row": 9,
+        "rowsha": "pK8Y0Inq/fnr4BN1DdrP/HLTRE34bc82+B6s0JgCrV0=",
+        "originContent": "      - '8080:8080'",
+        "translatedContent": "      - '8080:8080'"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## FAQ\n\n### General\n* Ramp steps in TrainerRoad are not supported\n* **MacOS arm64** Error: `\"tp2intervals\" is damaged and can’t be opened.`\n  Run command in terminal `xattr -d com.apple.quarantine /Applications/tp2intervals.app` and then open app again\n* **MacOS** app is not signed. Usually you need to open it twice\n* **Windows** The app will ask to access local network and Internet, you need to allow it. After all it makes HTTP requests\n* More info you can find on the forum https://forum.intervals.icu/t/tp2intervals-copy-trainingpeaks-and-trainerroad-workouts-plans-to-intervals/63375\n\n### Info regarding scheduling for the next day with TrainingPeaks free account\nOfficially if you have a free TP account, you can't plan workouts for future dates, but practically you can.\nYou can plan a workout for the next day relative to TrainingPeaks server local time. The server is in UTC-6 time zone. Let's check some examples:\n\nExample 1. Your TZ is UTC+2 and current local date time 20.05.2024 06:00. It means at this moment TP server local date time is 19.05.2024 22:00.\nTherefore, you can plan workouts for 20.05.2024. But you can't plan workouts for 21.05.2024, you can do it in 2 hours, because in 2 hours server local time will be 20.05.2024 00:00.\n\nExample 2. Your TZ is UTC+12, current local date time 20.05.2024 18:00. TP server local date time is 20.05.2024 00:00. At this moment, you can plan workouts for 21.05.2024.\n\nVisible time difference with [worldtimebuddy](https://www.worldtimebuddy.com/?pl=1&lid=206,100,756135,2193733&h=206&hf=0)\n\n## Troubleshooting\nTo identify the problems with any platform, logs from the users helps very much.\n\nGather logs from [guide below](#how-to-get-logs). And in case of TrainerRoad platform try to [record HAR file](#how-to-record-har-file). Send the files directly to me.\n\n#### How to get logs\n1. Go to Configuration\n2. In General section check Debug Mode, click Confirm\n3. Reproduce your issue\n4. Find log file according to your system\n\n* Linux: ~/.config/tp2intervals/logs/main.log\n* MacOS: ~/Library/Logs/tp2intervals/main.log\n* Windows: %USERPROFILE%\\AppData\\Roaming\\tp2intervals\\logs\\main.log\n* JAR: ./tp2intervals.log\n\n#### How to record HAR file\n1. Open new tab in your browser",
+    "ContentSha": "mXpmCxVjMvzIZP41m1tjWjqKGi1Xg6Fv3uqmiImrKaQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## FAQ\n\n### Général\n* Les étapes de rampe dans TrainerRoad ne sont pas prises en charge\n* **MacOS arm64** Erreur : `\"tp2intervals\" est endommagé et ne peut pas être ouvert.`\n  Exécutez la commande dans le terminal `xattr -d com.apple.quarantine /Applications/tp2intervals.app` puis ouvrez à nouveau l’application\n* **MacOS** l’application n’est pas signée. Habituellement, vous devez l’ouvrir deux fois\n* **Windows** L’application demandera l’accès au réseau local et à Internet, vous devez l’autoriser. Après tout, elle fait des requêtes HTTP\n* Plus d’informations sont disponibles sur le forum https://forum.intervals.icu/t/tp2intervals-copy-trainingpeaks-and-trainerroad-workouts-plans-to-intervals/63375\n\n### Infos concernant la planification pour le lendemain avec un compte TrainingPeaks gratuit\nOfficiellement, si vous avez un compte TP gratuit, vous ne pouvez pas planifier d’entraînements pour des dates futures, mais en pratique, vous le pouvez.\nVous pouvez planifier un entraînement pour le lendemain par rapport à l’heure locale du serveur TrainingPeaks. Le serveur est dans le fuseau horaire UTC-6. Voyons quelques exemples :\n\nExemple 1. Votre TZ est UTC+2 et la date locale actuelle est le 20.05.2024 à 06:00. Cela signifie qu’à ce moment, la date locale du serveur TP est le 19.05.2024 à 22:00.\nPar conséquent, vous pouvez planifier des entraînements pour le 20.05.2024. Mais vous ne pouvez pas planifier des entraînements pour le 21.05.2024, vous pourrez le faire dans 2 heures, car dans 2 heures, l’heure locale du serveur sera le 20.05.2024 à 00:00.\n\nExemple 2. Votre TZ est UTC+12, date locale actuelle 20.05.2024 à 18:00. La date locale du serveur TP est le 20.05.2024 à 00:00. À ce moment, vous pouvez planifier des entraînements pour le 21.05.2024.\n\nDifférence de temps visible avec [worldtimebuddy](https://www.worldtimebuddy.com/?pl=1&lid=206,100,756135,2193733&h=206&hf=0)\n\n## Dépannage\nPour identifier les problèmes avec n’importe quelle plateforme, les logs des utilisateurs aident beaucoup.\n\nRécupérez les logs à partir du [guide ci-dessous](#how-to-get-logs). Et dans le cas de la plateforme TrainerRoad, essayez de [capturer un fichier HAR](#how-to-record-har-file). Envoyez-moi directement les fichiers.\n\n#### Comment obtenir les logs\n1. Allez dans Configuration\n2. Dans la section Général, cochez Mode Debug, cliquez sur Confirmer\n3. Reproduisez votre problème\n4. Trouvez le fichier log selon votre système\n\n* Linux : ~/.config/tp2intervals/logs/main.log\n* MacOS : ~/Library/Logs/tp2intervals/main.log\n* Windows : %USERPROFILE%\\AppData\\Roaming\\tp2intervals\\logs\\main.log\n* JAR : ./tp2intervals.log\n\n#### Comment enregistrer un fichier HAR\n1. Ouvrez un nouvel onglet dans votre navigateur",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sH7VUgPw2I6+13pp6nUDM/T2LsOBk7Micqophzdve4Y=",
+        "originContent": "## FAQ",
+        "translatedContent": "## FAQ"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CD+qAP1kZaa1eE/9DFv/OlPKZMsGzu3vPDry2fwl9es=",
+        "originContent": "### General",
+        "translatedContent": "### Général"
+      },
+      {
+        "row": 5,
+        "rowsha": "zadJk86dm7tjHMTuBTmHa78Fp9lHkcSrKrB0Ro+0aj4=",
+        "originContent": "* Ramp steps in TrainerRoad are not supported",
+        "translatedContent": "* Les étapes de rampe dans TrainerRoad ne sont pas prises en charge"
+      },
+      {
+        "row": 6,
+        "rowsha": "E1nhHwq4aTkr5qfOJQZ9/L736xHVNfRe3qpM7ycXFBg=",
+        "originContent": "* **MacOS arm64** Error: `\"tp2intervals\" is damaged and can’t be opened.`",
+        "translatedContent": "* **MacOS arm64** Erreur : `\"tp2intervals\" est endommagé et ne peut pas être ouvert.`"
+      },
+      {
+        "row": 7,
+        "rowsha": "7B6+VaVtKZNsgs24yAuRuPIoZeWkM8yX5PF2PY4wZLY=",
+        "originContent": "  Run command in terminal `xattr -d com.apple.quarantine /Applications/tp2intervals.app` and then open app again",
+        "translatedContent": "  Exécutez la commande dans le terminal `xattr -d com.apple.quarantine /Applications/tp2intervals.app` puis ouvrez à nouveau l’application"
+      },
+      {
+        "row": 8,
+        "rowsha": "g58fSMnjoNRJBCh49/iAJG9rNQy8L9aC6lg02x2qEv4=",
+        "originContent": "* **MacOS** app is not signed. Usually you need to open it twice",
+        "translatedContent": "* **MacOS** l’application n’est pas signée. Habituellement, vous devez l’ouvrir deux fois"
+      },
+      {
+        "row": 9,
+        "rowsha": "e0cdEgX/FCQBhmgd/2dKHyX2o33yHg99LXjR5M7QuSQ=",
+        "originContent": "* **Windows** The app will ask to access local network and Internet, you need to allow it. After all it makes HTTP requests",
+        "translatedContent": "* **Windows** L’application demandera l’accès au réseau local et à Internet, vous devez l’autoriser. Après tout, elle fait des requêtes HTTP"
+      },
+      {
+        "row": 10,
+        "rowsha": "wX4q3mMFiDsNqWboKSAP8Ibd8GZYHuSWiHF3xuwYVjQ=",
+        "originContent": "* More info you can find on the forum https://forum.intervals.icu/t/tp2intervals-copy-trainingpeaks-and-trainerroad-workouts-plans-to-intervals/63375",
+        "translatedContent": "* Plus d’informations sont disponibles sur le forum https://forum.intervals.icu/t/tp2intervals-copy-trainingpeaks-and-trainerroad-workouts-plans-to-intervals/63375"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "izCTqy7kRzpJywcxfL9xsQxu+j1n53FL0tU7929KwDc=",
+        "originContent": "### Info regarding scheduling for the next day with TrainingPeaks free account",
+        "translatedContent": "### Infos concernant la planification pour le lendemain avec un compte TrainingPeaks gratuit"
+      },
+      {
+        "row": 13,
+        "rowsha": "NyqtQRYuQvAlfiOVZJ4x2pCCDx1bZ0TDlLFXOeG1Mcg=",
+        "originContent": "Officially if you have a free TP account, you can't plan workouts for future dates, but practically you can.",
+        "translatedContent": "Officiellement, si vous avez un compte TP gratuit, vous ne pouvez pas planifier d’entraînements pour des dates futures, mais en pratique, vous le pouvez."
+      },
+      {
+        "row": 14,
+        "rowsha": "UZTzfGaOKYTtjQjFk346RjHdmJrkLKcDPe/s4uQHVGU=",
+        "originContent": "You can plan a workout for the next day relative to TrainingPeaks server local time. The server is in UTC-6 time zone. Let's check some examples:",
+        "translatedContent": "Vous pouvez planifier un entraînement pour le lendemain par rapport à l’heure locale du serveur TrainingPeaks. Le serveur est dans le fuseau horaire UTC-6. Voyons quelques exemples :"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "m/s1RJkA4AcP1wkWdFK3enDOdm7LAGjoTGsDKGsidzQ=",
+        "originContent": "Example 1. Your TZ is UTC+2 and current local date time 20.05.2024 06:00. It means at this moment TP server local date time is 19.05.2024 22:00.",
+        "translatedContent": "Exemple 1. Votre TZ est UTC+2 et la date locale actuelle est le 20.05.2024 à 06:00. Cela signifie qu’à ce moment, la date locale du serveur TP est le 19.05.2024 à 22:00."
+      },
+      {
+        "row": 17,
+        "rowsha": "icKey6EmvYJExhXJ6/yV9wuJ/YgQq4TBk0Q0lZs//vQ=",
+        "originContent": "Therefore, you can plan workouts for 20.05.2024. But you can't plan workouts for 21.05.2024, you can do it in 2 hours, because in 2 hours server local time will be 20.05.2024 00:00.",
+        "translatedContent": "Par conséquent, vous pouvez planifier des entraînements pour le 20.05.2024. Mais vous ne pouvez pas planifier des entraînements pour le 21.05.2024, vous pourrez le faire dans 2 heures, car dans 2 heures, l’heure locale du serveur sera le 20.05.2024 à 00:00."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "OK6G+49wHMUHQjE1BuZ7N4l4EdUDBx81OEsMt5tI5UY=",
+        "originContent": "Example 2. Your TZ is UTC+12, current local date time 20.05.2024 18:00. TP server local date time is 20.05.2024 00:00. At this moment, you can plan workouts for 21.05.2024.",
+        "translatedContent": "Exemple 2. Votre TZ est UTC+12, date locale actuelle 20.05.2024 à 18:00. La date locale du serveur TP est le 20.05.2024 à 00:00. À ce moment, vous pouvez planifier des entraînements pour le 21.05.2024."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "7P9iHtNr+7qzsuhNRoZNY8A3SJDZdmhVWmlxsDuUgnI=",
+        "originContent": "Visible time difference with [worldtimebuddy](https://www.worldtimebuddy.com/?pl=1&lid=206,100,756135,2193733&h=206&hf=0)",
+        "translatedContent": "Différence de temps visible avec [worldtimebuddy](https://www.worldtimebuddy.com/?pl=1&lid=206,100,756135,2193733&h=206&hf=0)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## Dépannage"
+      },
+      {
+        "row": 24,
+        "rowsha": "e8CoKEl6RTrLC6ToQhXrCqAddiuJ7787soBPuQc7o5k=",
+        "originContent": "To identify the problems with any platform, logs from the users helps very much.",
+        "translatedContent": "Pour identifier les problèmes avec n’importe quelle plateforme, les logs des utilisateurs aident beaucoup."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "ObODByT9PCLkpHksiGPICRN+Blly4wyQndkB7Z32GMM=",
+        "originContent": "Gather logs from [guide below](#how-to-get-logs). And in case of TrainerRoad platform try to [record HAR file](#how-to-record-har-file). Send the files directly to me.",
+        "translatedContent": "Récupérez les logs à partir du [guide ci-dessous](#how-to-get-logs). Et dans le cas de la plateforme TrainerRoad, essayez de [capturer un fichier HAR](#how-to-record-har-file). Envoyez-moi directement les fichiers."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "t+S/t9Kd3Nn8MIjjbkOJGNAisHQCdp3qRVYnihfr+Og=",
+        "originContent": "#### How to get logs",
+        "translatedContent": "#### Comment obtenir les logs"
+      },
+      {
+        "row": 29,
+        "rowsha": "IeQq50RrHRaPGTGWs/rhcUNUC/4lEJ8HIuE0lS7Z80I=",
+        "originContent": "1. Go to Configuration",
+        "translatedContent": "1. Allez dans Configuration"
+      },
+      {
+        "row": 30,
+        "rowsha": "6od5fN+D6y5srj8ULlVhGg0ITyU1EtaXLf+X0zDYfcU=",
+        "originContent": "2. In General section check Debug Mode, click Confirm",
+        "translatedContent": "2. Dans la section Général, cochez Mode Debug, cliquez sur Confirmer"
+      },
+      {
+        "row": 31,
+        "rowsha": "ZUh950aCbdIMg/wAYwpF9n4lMZgbaMk4SJZgfxSqgC4=",
+        "originContent": "3. Reproduce your issue",
+        "translatedContent": "3. Reproduisez votre problème"
+      },
+      {
+        "row": 32,
+        "rowsha": "ImC6EgjIUyRsHWLFhOtAAC1+r6qKHqEOaefkZbjYqIo=",
+        "originContent": "4. Find log file according to your system",
+        "translatedContent": "4. Trouvez le fichier log selon votre système"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "s6bhuBIVawNHnc6i/RBhQcOq5Z1xvlDtmjXvRTXj0f4=",
+        "originContent": "* Linux: ~/.config/tp2intervals/logs/main.log",
+        "translatedContent": "* Linux : ~/.config/tp2intervals/logs/main.log"
+      },
+      {
+        "row": 35,
+        "rowsha": "CmTDNseUM1E8lmAuMMTbpU7tP0HTSX0dgPPz8iX9XME=",
+        "originContent": "* MacOS: ~/Library/Logs/tp2intervals/main.log",
+        "translatedContent": "* MacOS : ~/Library/Logs/tp2intervals/main.log"
+      },
+      {
+        "row": 36,
+        "rowsha": "bUp/47taNfdKYO10wGV+/NULZ3/XrWP4k+s+CBUpeBs=",
+        "originContent": "* Windows: %USERPROFILE%\\AppData\\Roaming\\tp2intervals\\logs\\main.log",
+        "translatedContent": "* Windows : %USERPROFILE%\\AppData\\Roaming\\tp2intervals\\logs\\main.log"
+      },
+      {
+        "row": 37,
+        "rowsha": "oaQCIKXlqa4FmpbII+lW/yPTtxGx32PUF8EMI9vR/44=",
+        "originContent": "* JAR: ./tp2intervals.log",
+        "translatedContent": "* JAR : ./tp2intervals.log"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "bLONe7ehmkRCrFRKbbTuTTva7Q+l1+ymNtMnvBYDm/o=",
+        "originContent": "#### How to record HAR file",
+        "translatedContent": "#### Comment enregistrer un fichier HAR"
+      },
+      {
+        "row": 40,
+        "rowsha": "GuRer0VyUIRPc/RJDUHX9DTOB1nNeJf+Beub2pSZJbk=",
+        "originContent": "1. Open new tab in your browser",
+        "translatedContent": "1. Ouvrez un nouvel onglet dans votre navigateur"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "2. Open dev tools, check Preserve log (Firefox Cog -> Persist Logs)\n\n   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-1.png?raw=true\" width=\"70%\">\n3. Next steps are very important, as they simulate what the app does.\n   Open TrainerRoad page, open workout library, find any workout, open workout page (the page where you have chart with workout steps, description, alternatives, etc.)\n4. In dev tools, click Export HAR (Firefox - Cog -> Save All as HAR), save the file and send it to me\n\n   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-2.png?raw=true\" width=\"70%\">\n\n",
+    "ContentSha": "rqeWQRK7SUQbbtCh4BOEiSyeghXaFh2gbMLYTUnVpa8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Ouvrez les outils de développement, cochez Conserver le journal (Firefox Roue dentée -> Conserver les journaux)\n\n   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-1.png?raw=true\" width=\"70%\">\n3. Les étapes suivantes sont très importantes, car elles simulent ce que fait l’application.\n   Ouvrez la page TrainerRoad, ouvrez la bibliothèque d’entraînements, trouvez un entraînement, ouvrez la page de l’entraînement (la page où vous avez le graphique avec les étapes de l’entraînement, la description, les alternatives, etc.)\n4. Dans les outils de développement, cliquez sur Exporter HAR (Firefox - Roue dentée -> Enregistrer tout en HAR), enregistrez le fichier et envoyez-le-moi\n\n   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-2.png?raw=true\" width=\"70%\">\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+YMZKktCnhp/YuXtvq+JhoVdmS0jHbm3f6jtdffGgxk=",
+        "originContent": "2. Open dev tools, check Preserve log (Firefox Cog -> Persist Logs)",
+        "translatedContent": "2. Ouvrez les outils de développement, cochez Conserver le journal (Firefox Roue dentée -> Conserver les journaux)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "s3amS8g18nE1D+mdQk15JmjC6DH29U800tAT52e10AU=",
+        "originContent": "   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-1.png?raw=true\" width=\"70%\">",
+        "translatedContent": "   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-1.png?raw=true\" width=\"70%\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "5nDaXwhRQbm+njP9cSw0Vp1kXOvOSndHLlDwHnXGj38=",
+        "originContent": "3. Next steps are very important, as they simulate what the app does.",
+        "translatedContent": "3. Les étapes suivantes sont très importantes, car elles simulent ce que fait l’application."
+      },
+      {
+        "row": 5,
+        "rowsha": "egBbVavVtHeEatpqtqQnWnbZZSDf/Xs+bDUs3x4ER+U=",
+        "originContent": "   Open TrainerRoad page, open workout library, find any workout, open workout page (the page where you have chart with workout steps, description, alternatives, etc.)",
+        "translatedContent": "   Ouvrez la page TrainerRoad, ouvrez la bibliothèque d’entraînements, trouvez un entraînement, ouvrez la page de l’entraînement (la page où vous avez le graphique avec les étapes de l’entraînement, la description, les alternatives, etc.)"
+      },
+      {
+        "row": 6,
+        "rowsha": "bKtDRck/oXCd2KGvXYJN3FfKmwSlWPSNcnqjwJTaKYk=",
+        "originContent": "4. In dev tools, click Export HAR (Firefox - Cog -> Save All as HAR), save the file and send it to me",
+        "translatedContent": "4. Dans les outils de développement, cliquez sur Exporter HAR (Firefox - Roue dentée -> Enregistrer tout en HAR), enregistrez le fichier et envoyez-le-moi"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "r98HSn7Ru+KxwXCubPtMJzjqPVDUFcmy3McDylCyolo=",
+        "originContent": "   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-2.png?raw=true\" width=\"70%\">",
+        "translatedContent": "   <img src=\"https://github.com/freekode/tp2intervals/blob/main/docs/har-2.png?raw=true\" width=\"70%\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
