@@ -43,35 +43,92 @@
   </details>
 </div>
 
-本仓库包含使用 [Agent2Agent (A2A) 协议](https://goo.gle/a2a) 的代码示例和演示。
+欢迎来到 [Agent2Agent (A2A) 协议](https://goo.gle/a2a) 的官方代码示例和演示页面。
 
-## 相关仓库
+我们非常高兴您来到这里！无论您是首次探索多智能体架构，还是构建高级互操作智能体网络，本仓库都为您提供了简单、富有启发性且易于访问的学习资源，以加速您的开发进程。
 
-- [A2A](https://github.com/a2aproject/A2A) - A2A 规范与文档。
-- [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK。
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - 用于检查支持 A2A 代理的 UI 工具。
+## 为什么选择 Agent2Agent？
 
-## 贡献
+在多样化的 AI 框架和生态系统中，智能体需要一种通用语言来进行安全的通信、协作和任务委派。A2A 协议为多智能体互操作性建立了标准化的开放标准。
 
-欢迎贡献！请参阅 [贡献指南](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md)。
+我们的示例演示了如何在不同语言和主机应用之间轻松解决复杂的多智能体问题。
+
+## 快速开始
+
+立即启动 Helloworld 智能体并通过我们的 Python CLI 主机与其通信，快速上手。
+
+1. **启动智能体服务器**：
+   打开终端并启动 Helloworld 智能体服务器：
+
+   ```bash
+   cd samples/python/agents/helloworld
+   uv run .
+   ```
+
+2. **运行主机客户端**：
+   打开第二个终端并运行 CLI 客户端，将任务发送到代理：
+
+   ```bash
+   cd samples/python/agents/helloworld
+   uv run test_client.py
+   ```
+
+## 仓库结构
+
+本仓库按语言分为多个主要目录：
+
+| 目录 | 描述 |
+| --- | --- |
+| [samples](/samples) | 按编程语言组织的核心 A2A 示例。 |
+| [samples/python](/samples/python) | 展示使用 A2A Python SDK 的 Python 代理实现。 |
+| [samples/go](/samples/go) | 展示使用 A2A Go SDK 的 Go 代理实现。 |
+| [samples/dotnet](/samples/dotnet) | 展示使用 A2A .NET SDK 的 C# 代理实现。 |
+| [samples/java](/samples/java) | 展示使用 A2A Java SDK 的 Java 代理实现。 |
+| [samples/js](/samples/js) | 展示使用 A2A JavaScript SDK 的 Node.js 代理实现。 |
+
+## 贡献指南
+
+我们欢迎并鼓励所有技能水平的贡献！如果您有新的示例、错误修复或文档改进的想法，请查阅我们的 [贡献指南](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md)。
 
 ## 获取帮助
 
-请使用 [问题页面](https://github.com/a2aproject/a2a-samples/issues) 提供建议、反馈或提交错误报告。
+我们致力于营造一个友好和支持性的社区。如果您有问题、反馈或遇到任何问题，请访问我们的 [问题页面](https://github.com/a2aproject/a2a-samples/issues) 联系我们。
+
+## 相关仓库
+
+| 仓库 | 类别 | 描述 |
+| --- | --- | --- |
+| [A2A](https://github.com/a2aproject/A2A) | 核心规范 | A2A 规范和文档。 |
+| [a2a-inspector](https://github.com/a2aproject/a2a-inspector) | 工具 | 用于检查 A2A 使能代理的 UI 工具。 |
+| [a2a-tck](https://github.com/a2aproject/a2a-tck) | 测试 | 用于验证 A2A 协议合规性的测试套件。 |
+| [a2a-itk](https://github.com/a2aproject/a2a-itk) | 测试 | 使用多跳遍历模型和多样传输协议验证不同 A2A SDK 实现及版本兼容性的工具包。 |
+| [a2a-python](https://github.com/a2aproject/a2a-python) | SDK（Python） | 官方 A2A Python SDK。 |
+| [a2a-go](https://github.com/a2aproject/a2a-go) | SDK（Go） | 官方 A2A Go SDK。 |
+| [a2a-java](https://github.com/a2aproject/a2a-java) | SDK（Java） | 官方 A2A Java SDK。 |
+| [a2a-js](https://github.com/a2aproject/a2a-js) | SDK（JavaScript） | 官方 A2A Node.js/JavaScript SDK。 |
+| [a2a-dotnet](https://github.com/a2aproject/a2a-dotnet) | SDK（C#/.NET） | 官方 A2A C#/.NET SDK。 |
+| [a2a-rs](https://github.com/a2aproject/a2a-rs) | SDK（Rust） | 官方 A2A Rust SDK。 |
 
 ## 免责声明
 
-本仓库本身并非 Google 官方支持的产品。仓库中的代码仅用于演示目的。
+**重要提示：** 提供的示例代码仅用于演示用途，并说明了该
+代理到代理（A2A）协议。在构建生产应用程序时，必须将任何在您直接控制之外运行的代理视为潜在的不受信任实体。
 
-重要提示：所提供的示例代码仅用于展示 Agent-to-Agent (A2A) 协议的机制。在构建生产级应用时，务必将任何非直接控制的代理视为潜在不受信任的实体。
+从外部代理接收到的所有数据——包括但不限于其 AgentCard、消息、工件和任务状态——都应作为不受信任的输入进行处理。例如，恶意代理可能会在其 AgentCard 的字段中（如描述、名称、skills.description）提供精心构造的数据。如果这些数据未经净化就被用于构建大型语言模型（LLM）的提示，可能会使您的应用程序暴露于提示注入攻击之下。未能在使用前正确验证和清理这些数据，可能会为您的应用程序带来安全漏洞。
 
-从外部代理接收的所有数据——包括但不限于其 AgentCard、消息、工件和任务状态——都应作为不受信任的输入进行处理。例如，恶意代理可能会在其 AgentCard 字段（如描述、名称、skills.description）中提供精心构造的数据。如果在构建大型语言模型（LLM）提示时未进行数据清理，可能会使您的应用暴露于提示注入攻击。未能在使用前正确验证和清理这些数据，可能会给您的应用带来安全漏洞。
+> 开发人员有责任实施适当的安全措施，例如输入验证和凭据的安全处理，以保护其系统和用户。
 
-开发者有责任实施适当的安全措施，如输入验证和凭据安全处理，以保护其系统和用户。
+
+
+
+
+
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-21
 
 ---

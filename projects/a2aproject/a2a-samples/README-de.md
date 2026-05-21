@@ -43,35 +43,92 @@
   </details>
 </div>
 
-Dieses Repository enthält Codebeispiele und Demos, die das [Agent2Agent (A2A) Protokoll](https://goo.gle/a2a) verwenden.
+Willkommen bei den offiziellen Code-Beispielen und Demonstrationen für das [Agent2Agent (A2A) Protokoll](https://goo.gle/a2a).
 
-## Verwandte Repositories
+Wir freuen uns, dass Sie hier sind! Egal, ob Sie zum ersten Mal Multi-Agenten-Architekturen erkunden oder fortschrittliche, interoperable Agenten-Netzwerke aufbauen, dieses Repository bietet einfache, inspirierende und zugängliche Lernressourcen, um Ihre Entwicklung zu beschleunigen.
 
-- [A2A](https://github.com/a2aproject/A2A) – A2A Spezifikation und Dokumentation.
-- [a2a-python](https://github.com/a2aproject/a2a-python) – A2A Python SDK.
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) – UI-Tool zur Inspektion von A2A-fähigen Agenten.
+## Warum Agent2Agent?
 
-## Beitrag leisten
+In einer Welt vielfältiger KI-Frameworks und Ökosysteme benötigen Agenten eine gemeinsame Sprache, um sicher zu kommunizieren, zusammenzuarbeiten und Aufgaben zu delegieren. Das A2A-Protokoll schafft einen standardisierten, offenen Standard für die Interoperabilität von Multi-Agenten-Systemen.
 
-Beiträge sind willkommen! Siehe den [Beitragsleitfaden](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
+Unsere Beispiele zeigen, wie einfach komplexe Multi-Agenten-Probleme über verschiedene Programmiersprachen und Host-Anwendungen hinweg gelöst werden können.
+
+## Schnellstart
+
+Starten Sie sofort, indem Sie einen Helloworld-Agenten ausführen und über unser Python CLI-Host mit ihm kommunizieren.
+
+1. **Starten Sie den Agent-Server**:
+   Öffnen Sie ein Terminal und starten Sie den Helloworld-Agenten-Server:
+
+   ```bash
+   cd samples/python/agents/helloworld
+   uv run .
+   ```
+
+2. **Starten Sie den Host-Client**:
+   Öffnen Sie ein zweites Terminal und führen Sie den CLI-Client aus, um eine Aufgabe an den Agenten zu senden:
+
+   ```bash
+   cd samples/python/agents/helloworld
+   uv run test_client.py
+   ```
+
+## Repository-Struktur
+
+Das Repository ist in mehrere wichtige Verzeichnisse nach Programmiersprache organisiert:
+
+| Verzeichnis | Beschreibung |
+| --- | --- |
+| [samples](/samples) | Kern-A2A-Beispiele organisiert nach Programmiersprache. |
+| [samples/python](/samples/python) | Zeigt Python-Agentenimplementierungen mit dem A2A Python SDK. |
+| [samples/go](/samples/go) | Zeigt Go-Agentenimplementierungen mit dem A2A Go SDK. |
+| [samples/dotnet](/samples/dotnet) | Zeigt C#-Agentenimplementierungen mit dem A2A .NET SDK. |
+| [samples/java](/samples/java) | Zeigt Java-Agentenimplementierungen mit dem A2A Java SDK. |
+| [samples/js](/samples/js) | Zeigt Node.js-Agentenimplementierungen mit dem A2A JavaScript SDK. |
+
+## Mitwirken
+
+Wir begrüßen und fördern Beiträge aller Erfahrungsstufen! Wenn Sie eine Idee für ein neues Beispiel, einen Bugfix oder eine Verbesserung der Dokumentation haben, schauen Sie bitte in unseren [Contributing Guide](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
 
 ## Hilfe erhalten
 
-Bitte nutzen Sie die [Issues-Seite](https://github.com/a2aproject/a2a-samples/issues), um Vorschläge oder Feedback zu geben oder einen Fehler zu melden.
+Wir setzen uns für eine einladende und unterstützende Community ein. Wenn Sie Fragen, Feedback oder Probleme haben, wenden Sie sich bitte an unsere [Issues-Seite](https://github.com/a2aproject/a2a-samples/issues).
+
+## Verwandte Repositories
+
+| Repository | Kategorie | Beschreibung |
+| --- | --- | --- |
+| [A2A](https://github.com/a2aproject/A2A) | Kern-Spezifikation | A2A-Spezifikation und Dokumentation. |
+| [a2a-inspector](https://github.com/a2aproject/a2a-inspector) | Tooling | UI-Tool zum Inspizieren von A2A-fähigen Agenten. |
+| [a2a-tck](https://github.com/a2aproject/a2a-tck) | Testing | Testsuite zur Validierung der A2A-Protokoll-Konformität. |
+| [a2a-itk](https://github.com/a2aproject/a2a-itk) | Testing | Toolkit zur Überprüfung der Kompatibilität verschiedener A2A SDK-Implementierungen und Versionen mittels Multi-Hop-Traversal-Modell und variierenden Transportprotokollen. |
+| [a2a-python](https://github.com/a2aproject/a2a-python) | SDK (Python) | Offizielles Python SDK für A2A. |
+| [a2a-go](https://github.com/a2aproject/a2a-go) | SDK (Go) | Offizielles Go SDK für A2A. |
+| [a2a-java](https://github.com/a2aproject/a2a-java) | SDK (Java) | Offizielles Java SDK für A2A. |
+| [a2a-js](https://github.com/a2aproject/a2a-js) | SDK (JavaScript) | Offizielles Node.js/JavaScript SDK für A2A. |
+| [a2a-dotnet](https://github.com/a2aproject/a2a-dotnet) | SDK (C#/.NET) | Offizielles C#/.NET SDK für A2A. |
+| [a2a-rs](https://github.com/a2aproject/a2a-rs) | SDK (Rust) | Offizielles Rust SDK für A2A. |
 
 ## Haftungsausschluss
 
-Dieses Repository selbst ist kein offiziell unterstütztes Google-Produkt. Der Code in diesem Repository dient ausschließlich Demonstrationszwecken.
+**Wichtig:** Der bereitgestellte Beispielcode dient zu Demonstrationszwecken und illustriert die Mechanik des
+Agent-to-Agent (A2A) Protokoll. Beim Aufbau von Produktionsanwendungen ist es entscheidend, jeden Agenten,
+der außerhalb Ihrer direkten Kontrolle agiert, als potenziell nicht vertrauenswürdige Entität zu behandeln.
 
-Wichtig: Der bereitgestellte Beispielcode dient Demonstrationszwecken und veranschaulicht die Mechanik des Agent-to-Agent (A2A) Protokolls. Beim Erstellen von Produktionsanwendungen ist es entscheidend, jeden Agenten außerhalb Ihrer direkten Kontrolle als potenziell nicht vertrauenswürdige Entität zu behandeln.
+Alle von einem externen Agenten empfangenen Daten – einschließlich, aber nicht beschränkt auf dessen AgentCard,
+Nachrichten, Artefakte und Aufgabenstatus – sollten als nicht vertrauenswürdige Eingaben behandelt werden. Ein bösartiger Agent
+könnte beispielsweise eine AgentCard mit manipulierten Daten in seinen Feldern bereitstellen (z. B. Beschreibung, Name,
+skills.description). Wenn diese Daten ohne Bereinigung zur Erstellung von Prompts für ein Large
+Language Model (LLM) verwendet werden, könnte Ihre Anwendung Angriffen durch Prompt Injection ausgesetzt werden. Wenn diese Daten
+vor der Verwendung nicht ordnungsgemäß validiert und bereinigt werden, können dadurch Sicherheitslücken in
+Ihrer Anwendung entstehen.
 
-Alle von einem externen Agenten empfangenen Daten – einschließlich, aber nicht beschränkt auf dessen AgentCard, Nachrichten, Artefakte und Aufgabenstatus – sollten als nicht vertrauenswürdige Eingabe behandelt werden. Beispielsweise könnte ein böswilliger Agent eine AgentCard mit manipulierten Daten in seinen Feldern bereitstellen (z. B. Beschreibung, Name, skills.description). Wenn diese Daten ohne Bereinigung zur Erstellung von Prompts für ein Large Language Model (LLM) verwendet werden, könnte dies Ihre Anwendung anfällig für Prompt-Injection-Angriffe machen. Das Versäumnis, diese Daten vor der Verwendung ordnungsgemäß zu validieren und zu bereinigen, kann Sicherheitslücken in Ihrer Anwendung verursachen.
-
-Entwickler sind dafür verantwortlich, geeignete Sicherheitsmaßnahmen zu implementieren, wie z. B. Eingabevalidierung und sichere Handhabung von Zugangsdaten, um ihre Systeme und Benutzer zu schützen.
+> Entwickler sind dafür verantwortlich, geeignete Sicherheitsmaßnahmen wie Eingabevalidierung
+> und sichere Handhabung von Zugangsdaten zu implementieren, um ihre Systeme und Nutzer zu schützen.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-21
 
 ---

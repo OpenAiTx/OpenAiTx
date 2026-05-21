@@ -43,35 +43,92 @@
   </details>
 </div>
 
-Repositori ini berisi contoh kode dan demo yang menggunakan [Protokol Agent2Agent (A2A)](https://goo.gle/a2a).
+Selamat datang di contoh kode dan demonstrasi resmi untuk [Protokol Agent2Agent (A2A)](https://goo.gle/a2a).
 
-## Repositori Terkait
+Kami sangat senang Anda ada di sini! Baik Anda baru menjelajahi arsitektur multi-agent atau membangun jaringan agen interoperabel yang canggih, repositori ini menyediakan sumber pembelajaran yang sederhana, inspiratif, dan mudah diakses untuk mempercepat pengembangan Anda.
 
-- [A2A](https://github.com/a2aproject/A2A) - Spesifikasi dan dokumentasi A2A.
-- [a2a-python](https://github.com/a2aproject/a2a-python) - SDK Python untuk A2A.
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - Alat UI untuk inspeksi agen yang mendukung A2A.
+## Mengapa Agent2Agent?
+
+Dalam dunia kerangka kerja AI dan ekosistem yang beragam, agen membutuhkan bahasa umum untuk berkomunikasi, berkolaborasi, dan mendelegasikan tugas secara aman. Protokol A2A menetapkan standar terbuka yang terstandarisasi untuk interoperabilitas multi-agent.
+
+Contoh kami menunjukkan betapa mudahnya masalah multi-agent yang kompleks dapat diselesaikan lintas bahasa dan aplikasi host yang berbeda.
+
+## Mulai Cepat
+
+Mulai segera dengan menjalankan agen Helloworld dan berkomunikasi dengannya melalui host CLI Python kami.
+
+1. **Mulai Server Agen**:
+   Buka terminal dan jalankan server agen Helloworld:
+
+   ```bash
+   cd samples/python/agents/helloworld
+   uv run .
+   ```
+
+2. **Jalankan Host Client**:
+   Buka terminal kedua dan jalankan klien CLI untuk mengirim tugas ke agen:
+
+   ```bash
+   cd samples/python/agents/helloworld
+   uv run test_client.py
+   ```
+
+## Struktur Repository
+
+Repository ini diorganisasikan ke dalam beberapa direktori utama berdasarkan bahasa:
+
+| Direktori | Deskripsi |
+| --- | --- |
+| [samples](/samples) | Sampel inti A2A yang diorganisasikan berdasarkan bahasa pemrograman. |
+| [samples/python](/samples/python) | Menunjukkan implementasi agen Python menggunakan A2A Python SDK. |
+| [samples/go](/samples/go) | Menunjukkan implementasi agen Go menggunakan A2A Go SDK. |
+| [samples/dotnet](/samples/dotnet) | Menunjukkan implementasi agen C# menggunakan A2A .NET SDK. |
+| [samples/java](/samples/java) | Menunjukkan implementasi agen Java menggunakan A2A Java SDK. |
+| [samples/js](/samples/js) | Menunjukkan implementasi agen Node.js menggunakan A2A JavaScript SDK. |
 
 ## Kontribusi
 
-Kontribusi sangat diterima! Lihat [Panduan Kontribusi](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
+Kami menyambut dan mendorong kontribusi dari semua tingkat keahlian! Jika Anda memiliki ide untuk sampel baru, perbaikan bug, atau peningkatan dokumentasi, silakan lihat [Panduan Kontribusi](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md) kami.
 
 ## Mendapatkan Bantuan
 
-Silakan gunakan [halaman isu](https://github.com/a2aproject/a2a-samples/issues) untuk memberikan saran, umpan balik, atau melaporkan bug.
+Kami berdedikasi untuk menyediakan komunitas yang ramah dan mendukung. Jika Anda memiliki pertanyaan, umpan balik, atau mengalami masalah, silakan hubungi kami di [halaman issues](https://github.com/a2aproject/a2a-samples/issues) kami.
+
+## Repository Terkait
+
+| Repository | Kategori | Deskripsi |
+| --- | --- | --- |
+| [A2A](https://github.com/a2aproject/A2A) | Spesifikasi Inti | Spesifikasi dan dokumentasi A2A. |
+| [a2a-inspector](https://github.com/a2aproject/a2a-inspector) | Alat | Alat UI untuk memeriksa agen yang mendukung A2A. |
+| [a2a-tck](https://github.com/a2aproject/a2a-tck) | Pengujian | Suite pengujian untuk memvalidasi kepatuhan Protokol A2A. |
+| [a2a-itk](https://github.com/a2aproject/a2a-itk) | Pengujian | Toolkit untuk memverifikasi kompatibilitas di berbagai implementasi SDK A2A dan versi menggunakan model traversal multi-hop dan protokol transportasi yang beragam. |
+| [a2a-python](https://github.com/a2aproject/a2a-python) | SDK (Python) | SDK Python resmi untuk A2A. |
+| [a2a-go](https://github.com/a2aproject/a2a-go) | SDK (Go) | SDK Go resmi untuk A2A. |
+| [a2a-java](https://github.com/a2aproject/a2a-java) | SDK (Java) | SDK Java resmi untuk A2A. |
+| [a2a-js](https://github.com/a2aproject/a2a-js) | SDK (JavaScript) | SDK Node.js/JavaScript resmi untuk A2A. |
+| [a2a-dotnet](https://github.com/a2aproject/a2a-dotnet) | SDK (C#/.NET) | SDK C#/.NET resmi untuk A2A. |
+| [a2a-rs](https://github.com/a2aproject/a2a-rs) | SDK (Rust) | SDK Rust resmi untuk A2A. |
 
 ## Disclaimer
 
-Repositori ini sendiri bukan produk Google yang didukung secara resmi. Kode dalam repositori ini hanya untuk tujuan demonstrasi.
+**Penting:** Kode sampel yang disediakan hanya untuk tujuan demonstrasi dan menggambarkan mekanisme dari
+Protokol Agent-to-Agent (A2A). Saat membangun aplikasi produksi, sangat penting untuk memperlakukan setiap agen
+yang beroperasi di luar kendali langsung Anda sebagai entitas yang berpotensi tidak terpercaya.
 
-Penting: Kode contoh yang disediakan bertujuan untuk demonstrasi dan menggambarkan mekanisme protokol Agent-to-Agent (A2A). Saat membangun aplikasi produksi, sangat penting untuk memperlakukan setiap agen yang beroperasi di luar kendali langsung Anda sebagai entitas yang berpotensi tidak tepercaya.
+Semua data yang diterima dari agen eksternal—termasuk namun tidak terbatas pada AgentCard, pesan,
+artefak, dan status tugas—harus diperlakukan sebagai masukan yang tidak terpercaya. Misalnya, agen jahat
+dapat memberikan AgentCard yang berisi data yang dibuat-buat di bidangnya (misalnya, deskripsi, nama,
+skills.description). Jika data ini digunakan tanpa sanitasi untuk membuat prompt bagi Large
+Language Model (LLM), aplikasi Anda bisa terkena serangan prompt injection. Kegagalan dalam
+memvalidasi dan membersihkan data ini dengan benar sebelum digunakan dapat menimbulkan kerentanan keamanan pada
+aplikasi Anda.
 
-Semua data yang diterima dari agen eksternal—termasuk namun tidak terbatas pada AgentCard, pesan, artefak, dan status tugas—harus diperlakukan sebagai input yang tidak tepercaya. Misalnya, agen jahat dapat memberikan AgentCard yang berisi data yang direkayasa pada field-nya (misal, deskripsi, nama, skills.description). Jika data ini digunakan tanpa sanitasi untuk membangun prompt bagi Large Language Model (LLM), aplikasi Anda dapat terekspos serangan prompt injection. Kegagalan memvalidasi dan menyanitasi data ini sebelum digunakan dapat menimbulkan kerentanan keamanan pada aplikasi Anda.
-
-Pengembang bertanggung jawab untuk menerapkan langkah keamanan yang sesuai, seperti validasi input dan penanganan kredensial secara aman untuk melindungi sistem dan pengguna mereka.
+> Pengembang bertanggung jawab untuk menerapkan langkah-langkah keamanan yang sesuai, seperti validasi input
+> dan penanganan kredensial yang aman untuk melindungi sistem dan pengguna mereka.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-21
 
 ---

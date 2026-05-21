@@ -1,0 +1,641 @@
+[
+  {
+    "Id": 1,
+    "Content": "# shimmer - charming firefox userchrome with sidebery support (v2.37)\n![STAR BUTTON](https://github.com/user-attachments/assets/227bfd9e-ce3a-4d76-b8b7-24ad55dc128a)[![ISSUE](https://github.com/user-attachments/assets/648d41c3-4812-47fd-9696-38d76a2a0a5a)](https://github.com/nuclearcodecat/shimmer/issues)[![MONEY BUTTON](https://github.com/user-attachments/assets/18d7f816-f784-46b2-97b1-89173f68e227)](https://ko-fi.com/nuclearcodecat)\n\nsee the [changelog](https://raw.githubusercontent.com/nuclearcodecat/shimmer/main/CHANGELOG.md) for a history of changes\n\n### hi, i consider this project mostly complete. i don't plan any new features since i just don't feel like working on this and i have some BIG projects i'm focused on right now. shimmer looks great and i'm leaving it at that. feel free to request anything still, i don't promise i'll add it though. thanks for all of the nice words and stars :333\n\n## demonstration\n<!--\n![sidebarcollapse](https://github.com/user-attachments/assets/be8cb062-19f6-40b5-b26d-6a4fe8ceff7b)\n-->\n![out](https://github.com/user-attachments/assets/41ca27e6-701b-4049-8e38-76bcb300cd85)\n\n\n| using sidebery                                                                                    | native tabs                                                                                                  |\n|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|\n| ![y](https://github.com/user-attachments/assets/6c8ce4d2-a9a8-478c-b427-77417f6a27a5) | ![x](https://github.com/user-attachments/assets/7b523c33-bec6-482a-9f01-3e478e75902e) |\n<!-- | ![lightsidebery](https://github.com/user-attachments/assets/dd26f273-438e-42be-b77a-5d0df96b70bf) | ![greennative](https://github.com/user-attachments/assets/a60e6432-c919-4766-8353-609f1296315d)              | -->\n\n\n\n| menus                                                                                       | popover urlbar                                                                             |\n|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|\n| ![ctxmenu](https://github.com/user-attachments/assets/7da9bdff-d247-4680-ad20-70d12c886272) | ![urlbar](https://github.com/user-attachments/assets/8b328ecf-0297-4e8c-8cb6-8826040c7916) |\n\n### collapsing sidebar\nas seen in the demonstration\n\n### compact findbar\n![findbar](https://github.com/user-attachments/assets/198c5ec8-6e59-46fb-8624-0baa90506c86)\n\n### quality of life improvements\n![longtab](https://github.com/user-attachments/assets/6ab029f9-1b67-4545-a898-bd680bd40000)\n\n### compact, macos-like window control buttons\n![winctr](https://github.com/user-attachments/assets/934849bd-19ba-4617-8bfe-f5b41508a872)\n\n## features\n - collapsing sidebar\n - popover url-bar (see demo animated image)",
+    "ContentSha": "F4K8FH5KeZV1y1j7R+M3FfeRPCPkYo8I9LurPsM0xE4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# shimmer - sidebery対応の魅力的なFirefoxユーザークローム (v2.37)\n![STAR BUTTON](https://github.com/user-attachments/assets/227bfd9e-ce3a-4d76-b8b7-24ad55dc128a)[![ISSUE](https://github.com/user-attachments/assets/648d41c3-4812-47fd-9696-38d76a2a0a5a)](https://github.com/nuclearcodecat/shimmer/issues)[![MONEY BUTTON](https://github.com/user-attachments/assets/18d7f816-f784-46b2-97b1-89173f68e227)](https://ko-fi.com/nuclearcodecat)\n\n変更履歴は[changelog](https://raw.githubusercontent.com/nuclearcodecat/shimmer/main/CHANGELOG.md)をご覧ください\n\n### こんにちは、このプロジェクトはほぼ完成と考えています。新機能の追加は予定していません。今はこの作業をする気がなく、現在取り組んでいる大きなプロジェクトがあるためです。shimmerは素晴らしく見えるので、このままにします。リクエストは自由にどうぞ、ただし追加するとは約束できません。たくさんの温かい言葉とスターをありがとうございます :333\n\n## デモンストレーション\n<!--\n![sidebarcollapse](https://github.com/user-attachments/assets/be8cb062-19f6-40b5-b26d-6a4fe8ceff7b)\n-->\n![out](https://github.com/user-attachments/assets/41ca27e6-701b-4049-8e38-76bcb300cd85)\n\n\n| sideberyを使用                                                                                  | ネイティブタブ                                                                                                |\n|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|\n| ![y](https://github.com/user-attachments/assets/6c8ce4d2-a9a8-478c-b427-77417f6a27a5) | ![x](https://github.com/user-attachments/assets/7b523c33-bec6-482a-9f01-3e478e75902e) |\n<!-- | ![lightsidebery](https://github.com/user-attachments/assets/dd26f273-438e-42be-b77a-5d0df96b70bf) | ![greennative](https://github.com/user-attachments/assets/a60e6432-c919-4766-8353-609f1296315d)              | -->\n\n\n\n| メニュー                                                                                     | ポップオーバーURLバー                                                                       |\n|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|\n| ![ctxmenu](https://github.com/user-attachments/assets/7da9bdff-d247-4680-ad20-70d12c886272) | ![urlbar](https://github.com/user-attachments/assets/8b328ecf-0297-4e8c-8cb6-8826040c7916) |\n\n### 折りたたみ可能なサイドバー\nデモでご覧の通り\n\n### コンパクトな検索バー\n![findbar](https://github.com/user-attachments/assets/198c5ec8-6e59-46fb-8624-0baa90506c86)\n\n### 生活の質の向上\n![longtab](https://github.com/user-attachments/assets/6ab029f9-1b67-4545-a898-bd680bd40000)\n\n### コンパクトでMacOS風のウィンドウコントロールボタン\n![winctr](https://github.com/user-attachments/assets/934849bd-19ba-4617-8bfe-f5b41508a872)\n\n## 特徴\n - 折りたたみ可能なサイドバー\n - ポップオーバーURLバー（デモのアニメーション画像参照）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1PyAK4wdL5fALhsLvCG2FsOAWkBdb4zCOJc65wqxbbw=",
+        "originContent": "# shimmer - charming firefox userchrome with sidebery support (v2.37)",
+        "translatedContent": "# shimmer - sidebery対応の魅力的なFirefoxユーザークローム (v2.37)"
+      },
+      {
+        "row": 2,
+        "rowsha": "Q945MhGH6h/xhOT0PkioI2wz3je9Gy51W7o50+imqZ8=",
+        "originContent": "![STAR BUTTON](https://github.com/user-attachments/assets/227bfd9e-ce3a-4d76-b8b7-24ad55dc128a)[![ISSUE](https://github.com/user-attachments/assets/648d41c3-4812-47fd-9696-38d76a2a0a5a)](https://github.com/nuclearcodecat/shimmer/issues)[![MONEY BUTTON](https://github.com/user-attachments/assets/18d7f816-f784-46b2-97b1-89173f68e227)](https://ko-fi.com/nuclearcodecat)",
+        "translatedContent": "![STAR BUTTON](https://github.com/user-attachments/assets/227bfd9e-ce3a-4d76-b8b7-24ad55dc128a)[![ISSUE](https://github.com/user-attachments/assets/648d41c3-4812-47fd-9696-38d76a2a0a5a)](https://github.com/nuclearcodecat/shimmer/issues)[![MONEY BUTTON](https://github.com/user-attachments/assets/18d7f816-f784-46b2-97b1-89173f68e227)](https://ko-fi.com/nuclearcodecat)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "89nDWb+2RVw3Ake9f3zf4GxlOblw4y61O7rfA2ZXfVk=",
+        "originContent": "see the [changelog](https://raw.githubusercontent.com/nuclearcodecat/shimmer/main/CHANGELOG.md) for a history of changes",
+        "translatedContent": "変更履歴は[changelog](https://raw.githubusercontent.com/nuclearcodecat/shimmer/main/CHANGELOG.md)をご覧ください"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yRZOAn/q7MwfFi2PuoD/qO+zviDVoXGzkEhjDck2fII=",
+        "originContent": "### hi, i consider this project mostly complete. i don't plan any new features since i just don't feel like working on this and i have some BIG projects i'm focused on right now. shimmer looks great and i'm leaving it at that. feel free to request anything still, i don't promise i'll add it though. thanks for all of the nice words and stars :333",
+        "translatedContent": "### こんにちは、このプロジェクトはほぼ完成と考えています。新機能の追加は予定していません。今はこの作業をする気がなく、現在取り組んでいる大きなプロジェクトがあるためです。shimmerは素晴らしく見えるので、このままにします。リクエストは自由にどうぞ、ただし追加するとは約束できません。たくさんの温かい言葉とスターをありがとうございます :333"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "m8kTkOZ5wliAhNiRyBA1c1Fp/BA4VUlL9RfFm1LLwDE=",
+        "originContent": "## demonstration",
+        "translatedContent": "## デモンストレーション"
+      },
+      {
+        "row": 9,
+        "rowsha": "06wl3ce6l3nAVW1UPkmU0Vjhalo1k0ehMh3SNvGvC2c=",
+        "originContent": "<!--",
+        "translatedContent": "<!--"
+      },
+      {
+        "row": 10,
+        "rowsha": "wGkDWty1OLeEHc4y2u8GklbjNWNp+zs6+aBfm0cqBzQ=",
+        "originContent": "![sidebarcollapse](https://github.com/user-attachments/assets/be8cb062-19f6-40b5-b26d-6a4fe8ceff7b)",
+        "translatedContent": "![sidebarcollapse](https://github.com/user-attachments/assets/be8cb062-19f6-40b5-b26d-6a4fe8ceff7b)"
+      },
+      {
+        "row": 11,
+        "rowsha": "XVud5tm5Xz4MlQr+dCpbs5yyX25uiGwQYDMQt788ujU=",
+        "originContent": "-->",
+        "translatedContent": "-->"
+      },
+      {
+        "row": 12,
+        "rowsha": "Kw24DzGCPYy+BsgqnGzbW5JhAr2FjSHttt+yKbDUKsY=",
+        "originContent": "![out](https://github.com/user-attachments/assets/41ca27e6-701b-4049-8e38-76bcb300cd85)",
+        "translatedContent": "![out](https://github.com/user-attachments/assets/41ca27e6-701b-4049-8e38-76bcb300cd85)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "A4F6ddUivt7T2F0/Vu+zNSF5PIBnZbGlKsrRFR1IovE=",
+        "originContent": "| using sidebery                                                                                    | native tabs                                                                                                  |",
+        "translatedContent": "| sideberyを使用                                                                                  | ネイティブタブ                                                                                                |"
+      },
+      {
+        "row": 16,
+        "rowsha": "ESSqsRxMv1Y9NEeRW3UZrB+0U4vMN54kWJKrnUYhYEk=",
+        "originContent": "|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|",
+        "translatedContent": "|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|"
+      },
+      {
+        "row": 17,
+        "rowsha": "SWQcSxE1i558qd61ZuWuWJtpleHb/YM8T1hv8ybriJs=",
+        "originContent": "| ![y](https://github.com/user-attachments/assets/6c8ce4d2-a9a8-478c-b427-77417f6a27a5) | ![x](https://github.com/user-attachments/assets/7b523c33-bec6-482a-9f01-3e478e75902e) |",
+        "translatedContent": "| ![y](https://github.com/user-attachments/assets/6c8ce4d2-a9a8-478c-b427-77417f6a27a5) | ![x](https://github.com/user-attachments/assets/7b523c33-bec6-482a-9f01-3e478e75902e) |"
+      },
+      {
+        "row": 18,
+        "rowsha": "zbnU6N5NBZK+YmAPvZixIAiuZFkqK6ZxPD9cHzdVg0M=",
+        "originContent": "<!-- | ![lightsidebery](https://github.com/user-attachments/assets/dd26f273-438e-42be-b77a-5d0df96b70bf) | ![greennative](https://github.com/user-attachments/assets/a60e6432-c919-4766-8353-609f1296315d)              | -->",
+        "translatedContent": "<!-- | ![lightsidebery](https://github.com/user-attachments/assets/dd26f273-438e-42be-b77a-5d0df96b70bf) | ![greennative](https://github.com/user-attachments/assets/a60e6432-c919-4766-8353-609f1296315d)              | -->"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "a3/3IlqCvw2ZMkycEBYg3bNvPxnoa3BrI8SPxHx6QvI=",
+        "originContent": "| menus                                                                                       | popover urlbar                                                                             |",
+        "translatedContent": "| メニュー                                                                                     | ポップオーバーURLバー                                                                       |"
+      },
+      {
+        "row": 23,
+        "rowsha": "L0bwNFkNOVHUX9rVtPduN6JtxA9NSOOYc4o2SN4f78o=",
+        "originContent": "|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|",
+        "translatedContent": "|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|"
+      },
+      {
+        "row": 24,
+        "rowsha": "GmGjMrdDX4IJy210ObjFxqUAC54Iun9QVfPXwzeNxe0=",
+        "originContent": "| ![ctxmenu](https://github.com/user-attachments/assets/7da9bdff-d247-4680-ad20-70d12c886272) | ![urlbar](https://github.com/user-attachments/assets/8b328ecf-0297-4e8c-8cb6-8826040c7916) |",
+        "translatedContent": "| ![ctxmenu](https://github.com/user-attachments/assets/7da9bdff-d247-4680-ad20-70d12c886272) | ![urlbar](https://github.com/user-attachments/assets/8b328ecf-0297-4e8c-8cb6-8826040c7916) |"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "nWqKlHK9hTjoHFM53mcxGsfjt89+3VMBXElEgin5IMU=",
+        "originContent": "### collapsing sidebar",
+        "translatedContent": "### 折りたたみ可能なサイドバー"
+      },
+      {
+        "row": 27,
+        "rowsha": "oTXWr03iVVdxvtMjMBlRpJBCbUrGRXGKw1a+cDlNkZw=",
+        "originContent": "as seen in the demonstration",
+        "translatedContent": "デモでご覧の通り"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "2y0KQlPv1WdaIkfcCXUjFQc6lZ9xS4qNHeQNhgzEgJA=",
+        "originContent": "### compact findbar",
+        "translatedContent": "### コンパクトな検索バー"
+      },
+      {
+        "row": 30,
+        "rowsha": "Ctb+mMRDkKebUSQU8TECjZlvgqraGHMHsGV9RqSLXbc=",
+        "originContent": "![findbar](https://github.com/user-attachments/assets/198c5ec8-6e59-46fb-8624-0baa90506c86)",
+        "translatedContent": "![findbar](https://github.com/user-attachments/assets/198c5ec8-6e59-46fb-8624-0baa90506c86)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "exIaNRSOB0J02NtSYyAY/oshfXUhhg+bK+fhBcJu4jI=",
+        "originContent": "### quality of life improvements",
+        "translatedContent": "### 生活の質の向上"
+      },
+      {
+        "row": 33,
+        "rowsha": "TZRGzlwRJN+fXk6c2smFfxyU5EpV+Z3kSOcCI0wMqnA=",
+        "originContent": "![longtab](https://github.com/user-attachments/assets/6ab029f9-1b67-4545-a898-bd680bd40000)",
+        "translatedContent": "![longtab](https://github.com/user-attachments/assets/6ab029f9-1b67-4545-a898-bd680bd40000)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "aPl+X9GNz0/q+u4dHz9NxcJA2H7fzkVlxUz+MI2E0ec=",
+        "originContent": "### compact, macos-like window control buttons",
+        "translatedContent": "### コンパクトでMacOS風のウィンドウコントロールボタン"
+      },
+      {
+        "row": 36,
+        "rowsha": "C5MTkGWtjJhYd5+Bxo9Dn6ypCqkFjwMeM71SLAn2zz8=",
+        "originContent": "![winctr](https://github.com/user-attachments/assets/934849bd-19ba-4617-8bfe-f5b41508a872)",
+        "translatedContent": "![winctr](https://github.com/user-attachments/assets/934849bd-19ba-4617-8bfe-f5b41508a872)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "tZLwskCPOZ1T3tjhmmfBmCQ371D9NANXGz1MyqyyZIU=",
+        "originContent": "## features",
+        "translatedContent": "## 特徴"
+      },
+      {
+        "row": 39,
+        "rowsha": "L4ME/eoR7I9lh31GE6n5qXJHVS5POODMex2gMwYBPec=",
+        "originContent": " - collapsing sidebar",
+        "translatedContent": " - 折りたたみ可能なサイドバー"
+      },
+      {
+        "row": 40,
+        "rowsha": "coB+FvmDW7FS3YFoi2+CrpUBE55FdWLpmNMP0DDAwdg=",
+        "originContent": " - popover url-bar (see demo animated image)",
+        "translatedContent": " - ポップオーバーURLバー（デモのアニメーション画像参照）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": " - works with custom themes\n - rounded browser/sidebar corners\n - minimized context menus\n - subtle, non-obstructive transitions\n - minimized findbar\n - setting available to move sidebar to the right side\n - config properties for customization\n - compatible with firefox nightly\n - semi-compatible with native vertical tabs\n - floating statuspanel\n\n## installation\n - clone or download code from github (green \"code\" button) and unzip it\n - download sidebery from mozilla addons if wanted\n - open sidebery settings, scroll to the bottom (help section)\n - click on \"import addon data\"\n - select \"sidebery.json\" from the downloaded archive\n - keep the toggles at default and click \"import\"\n - go to about:config\n - toggle `toolkit.legacyUserProfileCustomizations.stylesheets` true\n - toggle `svg.context-properties.content.enabled` true\n - toggle `sidebar.revamp` false\n - open about:profiles, find your profile and open the root folder\n - create a `chrome` folder if nonexistent\n - move `userChrome.css`, `userContent.css` files and `assets` folder into the `chrome` directory\n - reopen firefox\n - done! :3\n - please please PLEASE visit this github page once in a while to download the latest version, see \"updating\" section of this readme\n - see \"customization\" section of this readme for customization options\n\n## updating\n check this github page once in a while and check if a new version is available. your installation's version is visible next to the close button of the new tab settings menu (bottom right on new tab).\n### how to update:\n follow the installation instructions, allow your file explorer to replace files if asked (remember to update sidebery styles)\n\n## customization\n at the top of `userChrome.css`, there are customizable css variables. among them are tab sizing options, rounding, spacing between certain items etc. below these variable there also exist exclusions from the right click context menu. comment and uncomment whichever options you might want to enable or disable.\n \n i've also implemented some custom `about:config` boolean values for you to modify\n - `shimmer.disable-collapsing-sidebar` – toggle true to disable the collapsing sidebar (unfortunately this also requires commenting out some sidebery styles, they are marked in the styles editor inside of sidebery settings)",
+    "ContentSha": "7mx+segaH0wzCP0DNCf71BUl4Qhivy/P5q8kESvLn8M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " - カスタムテーマに対応\n - ブラウザ/サイドバーの角を丸く\n - コンテキストメニューを最小化\n - 控えめで邪魔にならないトランジション\n - 検索バーを最小化\n - サイドバーを右側に移動する設定あり\n - カスタマイズ用の設定プロパティ\n - Firefox Nightlyに対応\n - ネイティブ縦型タブに半対応\n - 浮動ステータスパネル\n\n## インストール\n - GitHubからコードをクローンまたはダウンロード（緑色の「code」ボタン）し解凍\n - 必要ならMozillaアドオンからSideberyをダウンロード\n - Sideberyの設定を開き、一番下のヘルプセクションまでスクロール\n - 「アドオンデータをインポート」をクリック\n - ダウンロードしたアーカイブ内の「sidebery.json」を選択\n - トグルはデフォルトのまま「インポート」をクリック\n - about:configを開く\n - `toolkit.legacyUserProfileCustomizations.stylesheets` をtrueに切り替え\n - `svg.context-properties.content.enabled` をtrueに切り替え\n - `sidebar.revamp` をfalseに切り替え\n - about:profilesを開き、自分のプロファイルを見つけてルートフォルダを開く\n - `chrome`フォルダがなければ作成\n - `userChrome.css`、`userContent.css`ファイルと`assets`フォルダを`chrome`フォルダに移動\n - Firefoxを再起動\n - 完了！ :3\n - 最新バージョンをダウンロードするために時々このGitHubページを必ず訪れてください。このREADMEの「更新」セクションを参照\n - カスタマイズオプションはこのREADMEの「カスタマイズ」セクションを参照\n\n## 更新\n 時々このGitHubページをチェックし、新しいバージョンがあるか確認してください。インストール中のバージョンは新しいタブの設定メニューの閉じるボタン横（新しいタブの右下）に表示されます。\n### 更新方法：\n インストール手順に従い、ファイルエクスプローラーでファイルの置き換えを求められたら許可してください（Sideberyのスタイルも更新するのを忘れずに）\n\n## カスタマイズ\n `userChrome.css`の先頭にカスタマイズ可能なCSS変数があります。タブのサイズオプション、角の丸み、特定の項目間の間隔などが含まれます。これらの変数の下には右クリックコンテキストメニューの除外設定もあります。使いたいオプションのコメントアウトを外し、使いたくないものはコメントアウトしてください。\n \n また、いくつかのカスタム`about:config`のブール値も実装しています。変更可能です。\n - `shimmer.disable-collapsing-sidebar` – trueに切り替えるとサイドバーの折りたたみを無効化（残念ながらSideberyの設定内スタイルエディタでマークされたスタイルの一部もコメントアウトする必要があります）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E4yBiil5dKQYb44rUHucUUlfaUqo+nbAN3tUmWy4WU8=",
+        "originContent": " - works with custom themes",
+        "translatedContent": " - カスタムテーマに対応"
+      },
+      {
+        "row": 2,
+        "rowsha": "iknsYOHU0WDqjk+zK/7Bsn5tGTqe51AmHBscN4uGpPY=",
+        "originContent": " - rounded browser/sidebar corners",
+        "translatedContent": " - ブラウザ/サイドバーの角を丸く"
+      },
+      {
+        "row": 3,
+        "rowsha": "eb0/1uc+5CKYyvJNoBxWYwJIB/nk5N/MsrLx0h5sHvk=",
+        "originContent": " - minimized context menus",
+        "translatedContent": " - コンテキストメニューを最小化"
+      },
+      {
+        "row": 4,
+        "rowsha": "1SU6diXNQThHbMXt+Uod5z4HHWfNLCeWAn+t/1FzsUM=",
+        "originContent": " - subtle, non-obstructive transitions",
+        "translatedContent": " - 控えめで邪魔にならないトランジション"
+      },
+      {
+        "row": 5,
+        "rowsha": "ykE79wRd9ku3XamkHDJHAl4+zof2Z7GfAXx2N6kM0B8=",
+        "originContent": " - minimized findbar",
+        "translatedContent": " - 検索バーを最小化"
+      },
+      {
+        "row": 6,
+        "rowsha": "bs+7tTnffVvrydvoxX3P6aYMkH1sLc9le97uLDEhvEs=",
+        "originContent": " - setting available to move sidebar to the right side",
+        "translatedContent": " - サイドバーを右側に移動する設定あり"
+      },
+      {
+        "row": 7,
+        "rowsha": "vpO7arpPQPMqkTzrocHI5cU+Zjt1bsoaSStCgXOXQiw=",
+        "originContent": " - config properties for customization",
+        "translatedContent": " - カスタマイズ用の設定プロパティ"
+      },
+      {
+        "row": 8,
+        "rowsha": "vjrQfOUKMVrFiw0b9gSOiLtEq19bQ5kM7h/xa8h+Jrc=",
+        "originContent": " - compatible with firefox nightly",
+        "translatedContent": " - Firefox Nightlyに対応"
+      },
+      {
+        "row": 9,
+        "rowsha": "F0t2o9ncB5KIQ+5auXP2l/XaqVVYLsjceI9M4vmOXfg=",
+        "originContent": " - semi-compatible with native vertical tabs",
+        "translatedContent": " - ネイティブ縦型タブに半対応"
+      },
+      {
+        "row": 10,
+        "rowsha": "el1EkqPyjQGbfvsOkkQrWBqeDnXbfsnQxHUd1aJ8Q/I=",
+        "originContent": " - floating statuspanel",
+        "translatedContent": " - 浮動ステータスパネル"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Zw4+4CqXBzM8NY5LeiOGrWH1DCGy1PL+gqegmRvPlEo=",
+        "originContent": "## installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 13,
+        "rowsha": "aDnHyfrMORhn9Np8EMKR4ju/SU/YWqxe2Iqd9nhhJvA=",
+        "originContent": " - clone or download code from github (green \"code\" button) and unzip it",
+        "translatedContent": " - GitHubからコードをクローンまたはダウンロード（緑色の「code」ボタン）し解凍"
+      },
+      {
+        "row": 14,
+        "rowsha": "J3xGcQMEwas+D+R0QvB4eHw9kcwLHV/kaxdwjVlEHGo=",
+        "originContent": " - download sidebery from mozilla addons if wanted",
+        "translatedContent": " - 必要ならMozillaアドオンからSideberyをダウンロード"
+      },
+      {
+        "row": 15,
+        "rowsha": "FAhrEkVl/Id6eVcJDXLok+uohSW5j4Gs/lmkbOm7m1U=",
+        "originContent": " - open sidebery settings, scroll to the bottom (help section)",
+        "translatedContent": " - Sideberyの設定を開き、一番下のヘルプセクションまでスクロール"
+      },
+      {
+        "row": 16,
+        "rowsha": "A2hUETvyOeT58bo59yv2dVgm8Zd8VVFthXnXpj/GlCY=",
+        "originContent": " - click on \"import addon data\"",
+        "translatedContent": " - 「アドオンデータをインポート」をクリック"
+      },
+      {
+        "row": 17,
+        "rowsha": "R+kX99JOb9LwQNy+KrhSI2eiubWS6h9APzRUvgPTTvY=",
+        "originContent": " - select \"sidebery.json\" from the downloaded archive",
+        "translatedContent": " - ダウンロードしたアーカイブ内の「sidebery.json」を選択"
+      },
+      {
+        "row": 18,
+        "rowsha": "avQ88CFgLH1/upTpolgGudh1MGlb6LxryMefrbZMdeQ=",
+        "originContent": " - keep the toggles at default and click \"import\"",
+        "translatedContent": " - トグルはデフォルトのまま「インポート」をクリック"
+      },
+      {
+        "row": 19,
+        "rowsha": "NW2vJUixuHTECQqjrxC8H+O6evUPiKRR0SN9jDagEmQ=",
+        "originContent": " - go to about:config",
+        "translatedContent": " - about:configを開く"
+      },
+      {
+        "row": 20,
+        "rowsha": "qXA2S+9QpNlLHUDdTmn35mIHnuopA+xWUut6jnbBSnA=",
+        "originContent": " - toggle `toolkit.legacyUserProfileCustomizations.stylesheets` true",
+        "translatedContent": " - `toolkit.legacyUserProfileCustomizations.stylesheets` をtrueに切り替え"
+      },
+      {
+        "row": 21,
+        "rowsha": "Qk71zVtQ/UXuIXY0BQBX7qYT1rc9O/4kY9uIPNU5qBA=",
+        "originContent": " - toggle `svg.context-properties.content.enabled` true",
+        "translatedContent": " - `svg.context-properties.content.enabled` をtrueに切り替え"
+      },
+      {
+        "row": 22,
+        "rowsha": "Frz2tlwbKhEExN/OliWy7wDvLeQunalAWRXzEneYnVg=",
+        "originContent": " - toggle `sidebar.revamp` false",
+        "translatedContent": " - `sidebar.revamp` をfalseに切り替え"
+      },
+      {
+        "row": 23,
+        "rowsha": "W4nwfqs3VQsuMpTY977/AWBKPP6TTFYBch8mM3ZoFgs=",
+        "originContent": " - open about:profiles, find your profile and open the root folder",
+        "translatedContent": " - about:profilesを開き、自分のプロファイルを見つけてルートフォルダを開く"
+      },
+      {
+        "row": 24,
+        "rowsha": "wE+lniZbSjVcLnp98UGzit6JWh4bzoh9FqcH9dHY178=",
+        "originContent": " - create a `chrome` folder if nonexistent",
+        "translatedContent": " - `chrome`フォルダがなければ作成"
+      },
+      {
+        "row": 25,
+        "rowsha": "68aku/OwEcuek1wbNRI2BoHm37mJViFzj+vJBcBmymU=",
+        "originContent": " - move `userChrome.css`, `userContent.css` files and `assets` folder into the `chrome` directory",
+        "translatedContent": " - `userChrome.css`、`userContent.css`ファイルと`assets`フォルダを`chrome`フォルダに移動"
+      },
+      {
+        "row": 26,
+        "rowsha": "Zo9R1oAeFwOxk4EHbytKeR9HSjO4FB5naqNCeD8UquY=",
+        "originContent": " - reopen firefox",
+        "translatedContent": " - Firefoxを再起動"
+      },
+      {
+        "row": 27,
+        "rowsha": "2UioThuJBXn+i0PcfE6EKIYdk3UGaFVxTMTHQgvweDc=",
+        "originContent": " - done! :3",
+        "translatedContent": " - 完了！ :3"
+      },
+      {
+        "row": 28,
+        "rowsha": "FPEykHFgDoa0TFlcMgtVJjGOjq1joptA06UsfSyhofE=",
+        "originContent": " - please please PLEASE visit this github page once in a while to download the latest version, see \"updating\" section of this readme",
+        "translatedContent": " - 最新バージョンをダウンロードするために時々このGitHubページを必ず訪れてください。このREADMEの「更新」セクションを参照"
+      },
+      {
+        "row": 29,
+        "rowsha": "AB6Lo7yEzqEA4ZzW2OLELDppvuk0DIyYfllHhqAr7+0=",
+        "originContent": " - see \"customization\" section of this readme for customization options",
+        "translatedContent": " - カスタマイズオプションはこのREADMEの「カスタマイズ」セクションを参照"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "IfRzT1Q8lHksZV2hS8kahI1T4wQ5BaKZ2MHjUDc++v4=",
+        "originContent": "## updating",
+        "translatedContent": "## 更新"
+      },
+      {
+        "row": 32,
+        "rowsha": "xORx3EPbIQjty3iFWsbVZRf/0EKv3YFW0HDwKJAzruc=",
+        "originContent": " check this github page once in a while and check if a new version is available. your installation's version is visible next to the close button of the new tab settings menu (bottom right on new tab).",
+        "translatedContent": " 時々このGitHubページをチェックし、新しいバージョンがあるか確認してください。インストール中のバージョンは新しいタブの設定メニューの閉じるボタン横（新しいタブの右下）に表示されます。"
+      },
+      {
+        "row": 33,
+        "rowsha": "tUaM2uXXXRl1vq/obdctqTM9UsLt/imXr0fegUVeSFk=",
+        "originContent": "### how to update:",
+        "translatedContent": "### 更新方法："
+      },
+      {
+        "row": 34,
+        "rowsha": "VcRYbqGjQmHXEC/Tj2RzxSdwkFgcSrjmQKRckTSkDPk=",
+        "originContent": " follow the installation instructions, allow your file explorer to replace files if asked (remember to update sidebery styles)",
+        "translatedContent": " インストール手順に従い、ファイルエクスプローラーでファイルの置き換えを求められたら許可してください（Sideberyのスタイルも更新するのを忘れずに）"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "zRe/lggTLqOVd3Hp1dx7W4qvGpXO5sb1AZ19QCwaYiE=",
+        "originContent": "## customization",
+        "translatedContent": "## カスタマイズ"
+      },
+      {
+        "row": 37,
+        "rowsha": "Sv90WJ8xoX3qDBrI4hnJbsA3CDIIff/nlaeTYrE9mBg=",
+        "originContent": " at the top of `userChrome.css`, there are customizable css variables. among them are tab sizing options, rounding, spacing between certain items etc. below these variable there also exist exclusions from the right click context menu. comment and uncomment whichever options you might want to enable or disable.",
+        "translatedContent": " `userChrome.css`の先頭にカスタマイズ可能なCSS変数があります。タブのサイズオプション、角の丸み、特定の項目間の間隔などが含まれます。これらの変数の下には右クリックコンテキストメニューの除外設定もあります。使いたいオプションのコメントアウトを外し、使いたくないものはコメントアウトしてください。"
+      },
+      {
+        "row": 38,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 39,
+        "rowsha": "EAhGLjL999Tx3EdzgQ4BOmrAXiw5Ka71t7dIAHAaI84=",
+        "originContent": " i've also implemented some custom `about:config` boolean values for you to modify",
+        "translatedContent": " また、いくつかのカスタム`about:config`のブール値も実装しています。変更可能です。"
+      },
+      {
+        "row": 40,
+        "rowsha": "vOjyIZwg3Vo19NMdJvdHW0BAUNlzN3BvZElt98fEhwE=",
+        "originContent": " - `shimmer.disable-collapsing-sidebar` – toggle true to disable the collapsing sidebar (unfortunately this also requires commenting out some sidebery styles, they are marked in the styles editor inside of sidebery settings)",
+        "translatedContent": " - `shimmer.disable-collapsing-sidebar` – trueに切り替えるとサイドバーの折りたたみを無効化（残念ながらSideberyの設定内スタイルエディタでマークされたスタイルの一部もコメントアウトする必要があります）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": " - `shimmer.remove-winctr-buttons` – toggle true to remove window control buttons\n - `shimmer.remove-firefox-view-button` – toggle true to remove the firefox view button\n - `shimmer.disable-popover-transition` – toggle true to remove the popover transition of the urlbar\n - `shimmer.disable-urlbar-background-transition` – toggle true to remove the subtle transition of the urlbar background which happens during popover animation\n - `shimmer.disable-popover-urlbar` – toggle true to remove the popover effect on the urlbar\n - `shimmer.native-vertical-tabs` – toggle true if using firefox vertical tabs instead of sidebery. don't toggle true if using *horizontal* tabs, they will disappear\n - `shimmer.show-sidebar-header` – toggle true to show sidebar header\n - `shimmer.show-sidebar-header-close-button` - even if you enable the header, the close button is automatically hidden. toggle this true to make it reappear\n - `shimmer.sidebar-right-side` – toggle true if you use sidebery on the right side. you have to move the sidebar first in firefox using the sidebar header, which has to be reenabled in config\n - `shimmer.reverse-winctr-buttons-side` – toggle true to move window control buttons to the left side\n - `shimmer.taller-tabs` – toggle true to make the tabs as tall as default firefox tabs\n - `shimmer.shorter-navbar` – toggle true to make the navbar as tall as on unmodified firefox (may require firefox restart)\n - `shimmer.disable-compact-winctr-buttons` – toggle true to revert the compact window control buttons to default\n - `shimmer.dont-expand-selected-tab` – toggle true to disable the effect of expanding the active tab when there are many tabs open\n - `shimmer.enable-theme-aware-wallpapers` – toggle true to command firefox to display user-selected wallpapers. to change the wallpapers, open the chrome directory, replace the *light* and *dark* files in the *walls* directory with your desired pictures, and execute `makewalls.sh`. please note that this is a bash script. if a wallpaper doesn't work, try making it smaller, unfortunately large files break – a safe limit is < 1MiB.\n\n## maintaining\n please keep in mind that i won't always have time to fix a problem created by a new version of firefox in a day. if you'd like to create a pull request, feel free to do so. if you find any issues, please report them at the \"issues\" tab on github.\n\n",
+    "ContentSha": "Ru9sP1OF9FW85ejs/Cn5rqhKl+mSFiS/k+H7pnbLagA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " - `shimmer.remove-winctr-buttons` – ウィンドウコントロールボタンを削除するには true に切り替え\n - `shimmer.remove-firefox-view-button` – Firefox ビューボタンを削除するには true に切り替え\n - `shimmer.disable-popover-transition` – URLバーのポップオーバー遷移を削除するには true に切り替え\n - `shimmer.disable-urlbar-background-transition` – ポップオーバーアニメーション中に発生するURLバー背景の微妙な遷移を削除するには true に切り替え\n - `shimmer.disable-popover-urlbar` – URLバーのポップオーバー効果を削除するには true に切り替え\n - `shimmer.native-vertical-tabs` – SideberyではなくFirefoxの縦型タブを使用する場合は true に切り替え。*水平*タブを使用している場合は true にしないでください。タブが消えます\n - `shimmer.show-sidebar-header` – サイドバーのヘッダーを表示するには true に切り替え\n - `shimmer.show-sidebar-header-close-button` - ヘッダーを有効にしても閉じるボタンは自動的に非表示になります。これを再表示するには true に切り替え\n - `shimmer.sidebar-right-side` – Sideberyを右側で使用する場合は true に切り替え。まずFirefoxのサイドバーヘッダーでサイドバーを移動し、設定で再有効化する必要があります\n - `shimmer.reverse-winctr-buttons-side` – ウィンドウコントロールボタンを左側に移動するには true に切り替え\n - `shimmer.taller-tabs` – タブをデフォルトのFirefoxタブと同じ高さにするには true に切り替え\n - `shimmer.shorter-navbar` – ナビゲーションバーを未変更のFirefoxと同じ高さにするには true に切り替え（Firefoxの再起動が必要な場合があります）\n - `shimmer.disable-compact-winctr-buttons` – コンパクトなウィンドウコントロールボタンをデフォルトに戻すには true に切り替え\n - `shimmer.dont-expand-selected-tab` – 多数のタブが開いているときにアクティブなタブが拡大する効果を無効にするには true に切り替え\n - `shimmer.enable-theme-aware-wallpapers` – Firefoxにユーザー選択の壁紙を表示させるには true に切り替え。壁紙を変更するにはchromeディレクトリを開き、*walls*ディレクトリの*light*と*dark*ファイルを希望の画像に置き換え、`makewalls.sh`を実行してください。これはbashスクリプトです。壁紙が機能しない場合はサイズを小さくしてください。大きなファイルは壊れやすいです。安全な上限は1MiB未満です。\n\n## メンテナンス\n 新しいFirefoxのバージョンで発生した問題をすぐに修正できない場合があります。プルリクエストを作成したい場合は自由にどうぞ。問題を見つけた場合はGitHubの「issues」タブで報告してください。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "N83ccGgbvvhKCpg/QlDKTpK9wy4Em9sDzC6+mRVqQXs=",
+        "originContent": " - `shimmer.remove-winctr-buttons` – toggle true to remove window control buttons",
+        "translatedContent": " - `shimmer.remove-winctr-buttons` – ウィンドウコントロールボタンを削除するには true に切り替え"
+      },
+      {
+        "row": 2,
+        "rowsha": "B/pDimtECKJM64j/XDUUhqFj9250Rnnt2zcg9Y/i49Y=",
+        "originContent": " - `shimmer.remove-firefox-view-button` – toggle true to remove the firefox view button",
+        "translatedContent": " - `shimmer.remove-firefox-view-button` – Firefox ビューボタンを削除するには true に切り替え"
+      },
+      {
+        "row": 3,
+        "rowsha": "9MLt/fSOByy2FQ+LieqHOCpxtP3z6fAlt5J8ejMtEoI=",
+        "originContent": " - `shimmer.disable-popover-transition` – toggle true to remove the popover transition of the urlbar",
+        "translatedContent": " - `shimmer.disable-popover-transition` – URLバーのポップオーバー遷移を削除するには true に切り替え"
+      },
+      {
+        "row": 4,
+        "rowsha": "tItgp5AQNQwMt8R3KuhRdcOknP4AmyQMSn880Y/nrnE=",
+        "originContent": " - `shimmer.disable-urlbar-background-transition` – toggle true to remove the subtle transition of the urlbar background which happens during popover animation",
+        "translatedContent": " - `shimmer.disable-urlbar-background-transition` – ポップオーバーアニメーション中に発生するURLバー背景の微妙な遷移を削除するには true に切り替え"
+      },
+      {
+        "row": 5,
+        "rowsha": "fXrDbo2HkS21b0sJKLhVnNtmLLZK9ktTF/bfCrqQTvY=",
+        "originContent": " - `shimmer.disable-popover-urlbar` – toggle true to remove the popover effect on the urlbar",
+        "translatedContent": " - `shimmer.disable-popover-urlbar` – URLバーのポップオーバー効果を削除するには true に切り替え"
+      },
+      {
+        "row": 6,
+        "rowsha": "E4t0quRVFI47eRatX3C/YXOIs2NiHv2IyjPxB6Vvyt8=",
+        "originContent": " - `shimmer.native-vertical-tabs` – toggle true if using firefox vertical tabs instead of sidebery. don't toggle true if using *horizontal* tabs, they will disappear",
+        "translatedContent": " - `shimmer.native-vertical-tabs` – SideberyではなくFirefoxの縦型タブを使用する場合は true に切り替え。*水平*タブを使用している場合は true にしないでください。タブが消えます"
+      },
+      {
+        "row": 7,
+        "rowsha": "ijgE14ban8AWs7NZIXwe8iF6y4HLcldseQFkvtNVtoU=",
+        "originContent": " - `shimmer.show-sidebar-header` – toggle true to show sidebar header",
+        "translatedContent": " - `shimmer.show-sidebar-header` – サイドバーのヘッダーを表示するには true に切り替え"
+      },
+      {
+        "row": 8,
+        "rowsha": "8aeY20oxrt5Fndd77sXCmWSTUXy6CVlCJZHW2Fk8ttQ=",
+        "originContent": " - `shimmer.show-sidebar-header-close-button` - even if you enable the header, the close button is automatically hidden. toggle this true to make it reappear",
+        "translatedContent": " - `shimmer.show-sidebar-header-close-button` - ヘッダーを有効にしても閉じるボタンは自動的に非表示になります。これを再表示するには true に切り替え"
+      },
+      {
+        "row": 9,
+        "rowsha": "ADATQyhB+U1iL2nS8QekLIinsTF+HUv3Ek7km61Tgec=",
+        "originContent": " - `shimmer.sidebar-right-side` – toggle true if you use sidebery on the right side. you have to move the sidebar first in firefox using the sidebar header, which has to be reenabled in config",
+        "translatedContent": " - `shimmer.sidebar-right-side` – Sideberyを右側で使用する場合は true に切り替え。まずFirefoxのサイドバーヘッダーでサイドバーを移動し、設定で再有効化する必要があります"
+      },
+      {
+        "row": 10,
+        "rowsha": "Iswt0BWMDXc3mHx6ABKViwP8CUgh5zARbRaSMY10DOA=",
+        "originContent": " - `shimmer.reverse-winctr-buttons-side` – toggle true to move window control buttons to the left side",
+        "translatedContent": " - `shimmer.reverse-winctr-buttons-side` – ウィンドウコントロールボタンを左側に移動するには true に切り替え"
+      },
+      {
+        "row": 11,
+        "rowsha": "ez0yzZV1OLCUrOymptBb/6BR7OKY45Hu+2WBgmypKMY=",
+        "originContent": " - `shimmer.taller-tabs` – toggle true to make the tabs as tall as default firefox tabs",
+        "translatedContent": " - `shimmer.taller-tabs` – タブをデフォルトのFirefoxタブと同じ高さにするには true に切り替え"
+      },
+      {
+        "row": 12,
+        "rowsha": "/ppFrormY2c2UlZ2jo69nCt+xoa4iXrHLtzMNeTxhbg=",
+        "originContent": " - `shimmer.shorter-navbar` – toggle true to make the navbar as tall as on unmodified firefox (may require firefox restart)",
+        "translatedContent": " - `shimmer.shorter-navbar` – ナビゲーションバーを未変更のFirefoxと同じ高さにするには true に切り替え（Firefoxの再起動が必要な場合があります）"
+      },
+      {
+        "row": 13,
+        "rowsha": "3W+988cXy1UnLoGShRWWoESVhi3uT9XWGhiZYCcD5yI=",
+        "originContent": " - `shimmer.disable-compact-winctr-buttons` – toggle true to revert the compact window control buttons to default",
+        "translatedContent": " - `shimmer.disable-compact-winctr-buttons` – コンパクトなウィンドウコントロールボタンをデフォルトに戻すには true に切り替え"
+      },
+      {
+        "row": 14,
+        "rowsha": "hDPApfNM0bOBWDxq7k1WIP82E4+Y4vkBpIm2VAC3cTU=",
+        "originContent": " - `shimmer.dont-expand-selected-tab` – toggle true to disable the effect of expanding the active tab when there are many tabs open",
+        "translatedContent": " - `shimmer.dont-expand-selected-tab` – 多数のタブが開いているときにアクティブなタブが拡大する効果を無効にするには true に切り替え"
+      },
+      {
+        "row": 15,
+        "rowsha": "Z7xuX4ob5F2G12WNw3neZB68d3wviY5dS6LKA7x9BdA=",
+        "originContent": " - `shimmer.enable-theme-aware-wallpapers` – toggle true to command firefox to display user-selected wallpapers. to change the wallpapers, open the chrome directory, replace the *light* and *dark* files in the *walls* directory with your desired pictures, and execute `makewalls.sh`. please note that this is a bash script. if a wallpaper doesn't work, try making it smaller, unfortunately large files break – a safe limit is < 1MiB.",
+        "translatedContent": " - `shimmer.enable-theme-aware-wallpapers` – Firefoxにユーザー選択の壁紙を表示させるには true に切り替え。壁紙を変更するにはchromeディレクトリを開き、*walls*ディレクトリの*light*と*dark*ファイルを希望の画像に置き換え、`makewalls.sh`を実行してください。これはbashスクリプトです。壁紙が機能しない場合はサイズを小さくしてください。大きなファイルは壊れやすいです。安全な上限は1MiB未満です。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ZpmAM6bAdGsvu/jnbubJ5nEqHRpVBryM/h0v+oGlZn0=",
+        "originContent": "## maintaining",
+        "translatedContent": "## メンテナンス"
+      },
+      {
+        "row": 18,
+        "rowsha": "ymx5pRRrlZlqXvrj+JeJ1wnzXvfRoa93aTX5oWbzbfw=",
+        "originContent": " please keep in mind that i won't always have time to fix a problem created by a new version of firefox in a day. if you'd like to create a pull request, feel free to do so. if you find any issues, please report them at the \"issues\" tab on github.",
+        "translatedContent": " 新しいFirefoxのバージョンで発生した問題をすぐに修正できない場合があります。プルリクエストを作成したい場合は自由にどうぞ。問題を見つけた場合はGitHubの「issues」タブで報告してください。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
