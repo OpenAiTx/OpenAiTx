@@ -1,0 +1,806 @@
+[
+  {
+    "row": 1,
+    "rowsha": "NCWAlwcw/+ZHCzm5MyWCqwVpC87/EkqU0/G0LmFnSfA=",
+    "originContent": "# 🖥️ PCTools",
+    "translatedContent": "# 🖥️ PCTools"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "DOvcbq00au9rVHVIfj4Qq4butF6imm07M3zr4oPCj4Q=",
+    "originContent": "> 简单的 Python 程序，让 Windows 与 Home Assistant 无缝集成，实现硬件监控、远程控制等功能。",
+    "translatedContent": "> Simple Python program for seamless integration of Windows with Home Assistant, enabling hardware monitoring, remote control, and more."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "NyacMAdC9St/3o26yZpdXO6vUaBFfZUfez64bsmrHw8=",
+    "originContent": "[![GitHub Release](https://img.shields.io/github/v/release/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools/releases/latest)",
+    "translatedContent": "[![GitHub Release](https://img.shields.io/github/v/release/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools/releases/latest)"
+  },
+  {
+    "row": 6,
+    "rowsha": "SW9864ffxeU3CD34i8uO2l3oqGFBQvLWLaKQS4kP0eE=",
+    "originContent": "[![GitHub Downloads](https://img.shields.io/github/downloads/1812z/PCTools/total?style=flat-square&logo=github&label=Downloads)](https://github.com/1812z/PCTools/releases)",
+    "translatedContent": "[![GitHub Downloads](https://img.shields.io/github/downloads/1812z/PCTools/total?style=flat-square&logo=github&label=Downloads)](https://github.com/1812z/PCTools/releases)"
+  },
+  {
+    "row": 7,
+    "rowsha": "Lqq949NWpAfegJE13YD7V5VKFyvgW7sTHYJnFBpmyrM=",
+    "originContent": "[![GitHub Stars](https://img.shields.io/github/stars/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools)",
+    "translatedContent": "[![GitHub Stars](https://img.shields.io/github/stars/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools)"
+  },
+  {
+    "row": 8,
+    "rowsha": "xatZY/qsuGYHO7gaqoCsXFsdc55rgXi1FjR3vUAGYYc=",
+    "originContent": "[![License](https://img.shields.io/github/license/1812z/PCTools?style=flat-square)](LICENSE)",
+    "translatedContent": "[![License](https://img.shields.io/github/license/1812z/PCTools?style=flat-square)](LICENSE)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "SJCwxOFbUZJfr4zlzFvzSZ3gAxaMdZb4/pEHq4kclhk=",
+    "originContent": "## ✨ 功能特性",
+    "translatedContent": "## ✨ Features"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "yU+JECr5PtCdQsmwNmel8G6Ksbk1fP6ZFtCeeTdbpv8=",
+    "originContent": "| 功能 | 描述 |",
+    "translatedContent": "| Feature | Description |"
+  },
+  {
+    "row": 15,
+    "rowsha": "Q1UY1c64ayP3I+5GWs8f/z1sPU2HnyUwm4MD70V6LwU=",
+    "originContent": "|------|------|",
+    "translatedContent": "|------|------|"
+  },
+  {
+    "row": 16,
+    "rowsha": "ewlyokepAlZjlXcGEHvMeTvLl8IM1kq/d1+EdsxrAoQ=",
+    "originContent": "| 📊 **Aida64 监控** | 定时更新选定传感器数据 |",
+    "translatedContent": "| 📊 **Aida64 Monitoring** | Periodically update selected sensor data |"
+  },
+  {
+    "row": 17,
+    "rowsha": "CZ3MIem1M09E2KY+ty1xFe5594TLHgsq4PNjYtqsDeY=",
+    "originContent": "| 🎮 **远程命令** | 自动同步 `commands` 文件夹内的 `.bat` `.lnk` 文件到 HA |",
+    "translatedContent": "| 🎮 **Remote Commands** | Automatically sync `.bat` and `.lnk` files in `commands` folder to HA |"
+  },
+  {
+    "row": 18,
+    "rowsha": "59k3H82jQ4yUfp8lAbzb/Q2HSqG7diQV4nwdV1Eosk4=",
+    "originContent": "| 📸 **Web 监控** | 屏幕截图 / 摄像头 / 实时画面串流 |",
+    "translatedContent": "| 📸 **Web Monitoring** | Screenshots / Camera / Live stream |"
+  },
+  {
+    "row": 19,
+    "rowsha": "kb54kphIw4iI+6vHPrwtFYBQbpUuBM6BUzW0A9hfdyo=",
+    "originContent": "| 💬 **消息通知** | 监听 HA 文本输入，以 Toast 消息显示 |",
+    "translatedContent": "| 💬 **Message Notifications** | Listen to HA text input and display as Toast messages |"
+  },
+  {
+    "row": 20,
+    "rowsha": "Zz6CDXJ7sKgdyCQ+Byd+erJC88gvFnPTMvimEuDBMfE=",
+    "originContent": "| 🌐 **侧边栏网页** | 快捷键呼出 HA 网页侧边栏 |",
+    "translatedContent": "| 🌐 **Sidebar Webpage** | Hotkey to call up HA web sidebar |"
+  },
+  {
+    "row": 21,
+    "rowsha": "yG9RCeaKdJREcEj6wnU3RPswDEPXLV3OGvnbNG8LhI8=",
+    "originContent": "| ⌨️ **快捷键联动** | 快捷键触发 HA 二元传感器 |",
+    "translatedContent": "| ⌨️ **Hotkey Linkage** | Hotkeys trigger HA binary sensors |"
+  },
+  {
+    "row": 22,
+    "rowsha": "HkOpOn6ykZxTqDKh39O13gKVn5qWYa1nqFYtqnotb78=",
+    "originContent": "| 📱 **前台应用反馈** | 自动上报当前应用名称，支持 [Runtime Tracker](https://github.com/1812z/RunTime_Tracker) |",
+    "translatedContent": "| 📱 **Foreground App Feedback** | Automatically report current app name, supports [Runtime Tracker](https://github.com/1812z/RunTime_Tracker) |"
+  },
+  {
+    "row": 23,
+    "rowsha": "KrCXLTjMan05EJMNCJyWh7rmH9jtzuVhfVNkz0IAhmc=",
+    "originContent": "| 🖥️ **显示器控制** | 多显示器亮度 / 开关 / DDC-CI 命令 |",
+    "translatedContent": "| 🖥️ **Monitor Control** | Multi-monitor brightness / on-off / DDC-CI commands |"
+  },
+  {
+    "row": 24,
+    "rowsha": "UJkOt9JQgnSxF9TevwnFJc83zJnENonJgzXEks8ANtk=",
+    "originContent": "| 🔊 **音量控制** | 控制 Windows 系统音量 |",
+    "translatedContent": "| 🔊 **Volume Control** | Control Windows system volume |"
+  },
+  {
+    "row": 25,
+    "rowsha": "wUnDujX8Bs2e6+GVkIN4LSDxOf5alxsUUpZgxU/ifhE=",
+    "originContent": "| 🌙 **深色模式** | 切换系统/应用深色模式 |",
+    "translatedContent": "| 🌙 **Dark Mode** | Toggle system/app dark mode |"
+  },
+  {
+    "row": 26,
+    "rowsha": "UedoCDuhECe//PtjGg4UJXs0+s6yYU6B5MEQuKMsSwE=",
+    "originContent": "| 📶 **蓝牙控制** | 开关系统蓝牙 |",
+    "translatedContent": "| 📶 **Bluetooth Control** | Turn system Bluetooth on/off |"
+  },
+  {
+    "row": 27,
+    "rowsha": "sk0PPZOjNb+WH7pxJ5wCwcgp+8mGphuVKGHESDwibkI=",
+    "originContent": "| ⚡ **命令行** | 执行自定义 CMD/PowerShell |",
+    "translatedContent": "| ⚡ **Command Line** | Execute custom CMD/PowerShell |"
+  },
+  {
+    "row": 28,
+    "rowsha": "k6ldQiGqyDQufojaTc4h3LZH9fJ1ZK5MnogokkBNufQ=",
+    "originContent": "| 🎨 **壁纸引擎** | 控制 Wallpaper Engine |",
+    "translatedContent": "| 🎨 **Wallpaper Engine** | Control Wallpaper Engine |"
+  },
+  {
+    "row": 29,
+    "rowsha": "HOowbeuBS6RBc5Sy/Qb15WdE+TEyvwnkWid7+tajwiQ=",
+    "originContent": "| ⌨️ **按键模拟** | 模拟键盘输入（含媒体键） |",
+    "translatedContent": "| ⌨️ **Key Simulation** | Simulate keyboard input (including media keys) |"
+  },
+  {
+    "row": 30,
+    "rowsha": "uwuTGcX+2vL5Pn87sERXfuULHOMusEL+K8alQ1souMs=",
+    "originContent": "| 🔗 **URL 启动器** | 打开自定义 URL |",
+    "translatedContent": "| 🔗 **URL Launcher** | Open custom URLs |"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "lP+2iCLgEoeLPExchG8F2L483nHiggzSunoZRZ4AeBY=",
+    "originContent": "**Web 监控端点：**",
+    "translatedContent": "**Web monitoring endpoints:**"
+  },
+  {
+    "row": 33,
+    "rowsha": "gQ+RbcQLT8i8q/9ZQrob7vO+7NQ+2slNDQfVtQIO1+8=",
+    "originContent": "- 屏幕截图：`http://127.0.0.1:5000/screenshot.jpg`",
+    "translatedContent": "- Screenshot: `http://127.0.0.1:5000/screenshot.jpg`"
+  },
+  {
+    "row": 34,
+    "rowsha": "SE6DiOVfm20+hzybXRyFNn/nUOh2k0hPRe1Jpz2xyaA=",
+    "originContent": "- 摄像头：`http://127.0.0.1:5000/video_feed`",
+    "translatedContent": "- Camera: `http://127.0.0.1:5000/video_feed`"
+  },
+  {
+    "row": 35,
+    "rowsha": "iwbzcd/tPZuLqFt6XGkr0cz3w0z5ocdkH8dfXbF1kiM=",
+    "originContent": "- 实时画面：`http://127.0.0.1:5000/screen`",
+    "translatedContent": "- Live screen: `http://127.0.0.1:5000/screen`"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "vqwC0eoCkd96eyUxiuPi13HgL9QoEy0j2kOw2iHt4R8=",
+    "originContent": "## 📷 截图展示",
+    "translatedContent": "## 📷 Screenshot Showcase"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 42,
+    "rowsha": "8rbF2lAeIPP7caB+fDuR8gFcnNRTh1qCHTWC9DbHBAw=",
+    "originContent": "<summary>🖼️ 软件界面</summary>",
+    "translatedContent": "<summary>🖼️ 软件界面</summary>"
+  },
+  {
+    "row": 43,
+    "rowsha": "pSnHxGnnTx8GjNozo53TuWntSoTYVP3FeI9SwJITOco=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/gui.png\" alt=\"GUI\" width=\"600\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/gui.png\" alt=\"GUI\" width=\"600\"/>"
+  },
+  {
+    "row": 44,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 47,
+    "rowsha": "G7KV+VoVwUuoilMq0GlSTvvxc5ANstv9A5Y3vMjwy7M=",
+    "originContent": "<summary>📱 HA 界面</summary>",
+    "translatedContent": "<summary>📱 HA 界面</summary>"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "SYGKFfdQ06GwF5O8YBgQgI54y0SdZ+wo15yQhRCNUWk=",
+    "originContent": "**另类副屏** (推荐配合 [HA_Helper](https://github.com/1812z/Ha_Helper))",
+    "translatedContent": "**另类副屏** (推荐配合 [HA_Helper](https://github.com/1812z/Ha_Helper))"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "qyyGzSlVv8Yl+d/jF0dDRFnuXzaf+CzASE1pPAbSTjw=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/1743859715274.jpg\" alt=\"副屏\" width=\"400\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/1743859715274.jpg\" alt=\"副屏\" width=\"400\"/>"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "XzNCLBv2tUXxHcbMDHgagCzYEzQ6WRqqRjJknjwjnts=",
+    "originContent": "**主页面**",
+    "translatedContent": "**主页面**"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "jdee3vI2zguotwJ6MR2jNV1QkfyJuk5hTQFbK1QfRIY=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/image.png\" alt=\"主页面\" height=\"500\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/image.png\" alt=\"主页面\" height=\"500\"/>"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "BB3mtM1ND4EO+Ss1aYQr5lcAQqrCYFMGvmfTf2Uyrh8=",
+    "originContent": "## 🚀 快速开始",
+    "translatedContent": "## 🚀 快速开始"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "kEi/gxgiCKdSl9H8r4uk37bR6MilaKqhIVPD1SPvAc0=",
+    "originContent": "### 1️⃣ 安装环境",
+    "translatedContent": "### 1️⃣ 安装环境"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "/DFWD/5NXvFVR2O1UKcaemdPiQzecPOxmuQzTZllZ/o=",
+    "originContent": "**方式一**：下载 [Releases](https://github.com/1812z/PCTools/releases/latest) 内的压缩包（内置运行环境）",
+    "translatedContent": "**方式一**：下载 [Releases](https://github.com/1812z/PCTools/releases/latest) 内的压缩包（内置运行环境）"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "YsGQYIXKTGam1cD7Q5yVg9IYdyVUv8jIrnY8QTWEvQ8=",
+    "originContent": "**方式二**：手动配置",
+    "translatedContent": "**方式二**：手动配置"
+  },
+  {
+    "row": 68,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 69,
+    "rowsha": "RbN5iSbtmADPYjotC23Ujjzqdf3Ut3ooZk5RjZmXizk=",
+    "originContent": "# Python 3.12",
+    "translatedContent": "# Python 3.12"
+  },
+  {
+    "row": 70,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 2️⃣ 安装第三方依赖软件(可选)"
+  },
+  {
+    "row": 73,
+    "rowsha": "oCh0gaE6MyKzXp/XlqR2iMDZzUGXX5GPs6QZ/tatqHM=",
+    "originContent": "### 2️⃣ 安装第三方依赖软件(可选)",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 依赖 | 用途 |"
+  },
+  {
+    "row": 75,
+    "rowsha": "9K/7jJB08esTLre8ERCPz/yXCBB0MGKcgMxmkTZjX+A=",
+    "originContent": "| 依赖 | 用途 |",
+    "translatedContent": "|------|------|"
+  },
+  {
+    "row": 76,
+    "rowsha": "Q1UY1c64ayP3I+5GWs8f/z1sPU2HnyUwm4MD70V6LwU=",
+    "originContent": "|------|------|",
+    "translatedContent": "| MQTT 服务器 | 接入 Home Assistant |"
+  },
+  {
+    "row": 77,
+    "rowsha": "g5ekAFUM5nt+fF6fRYJBKHhVnGd4CbrraoDiq7U1aJ4=",
+    "originContent": "| MQTT 服务器 | 接入 Home Assistant |",
+    "translatedContent": "| [Aida64](https://github.com/1812z/PCTools/releases) | 硬件信息监控 |"
+  },
+  {
+    "row": 78,
+    "rowsha": "GqA0NMhluycD0+mZjqI0ZiUJlNTIYdwg+HRlk6v3+ro=",
+    "originContent": "| [Aida64](https://github.com/1812z/PCTools/releases) | 硬件信息监控 |",
+    "translatedContent": "| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray/releases) | 显示器亮度调节 |"
+  },
+  {
+    "row": 79,
+    "rowsha": "hilkN8KjHTBNXBqmj/rKXDHGaNQDBD6c1bj1W88q80I=",
+    "originContent": "| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray/releases) | 显示器亮度调节 |",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 3️⃣ 配置依赖"
+  },
+  {
+    "row": 81,
+    "rowsha": "0+ychzwcFtHXq4OLI9ZwECZ5QwkAzAuB37zt6wVY5qE=",
+    "originContent": "### 3️⃣ 配置依赖",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **Aida64**：开启内存共享并勾选需要的传感器数据"
+  },
+  {
+    "row": 83,
+    "rowsha": "g62qIcVRVRxhaWVfQK5mHVq2YjcOFfVcNAAa/un7iCs=",
+    "originContent": "1. **Aida64**：开启内存共享并勾选需要的传感器数据",
+    "translatedContent": "2. **Twinkle Tray**：确保能正常读取显示器信息"
+  },
+  {
+    "row": 84,
+    "rowsha": "g4vC0JFEmHnfR3ZigVNAQ34AHcmmRZaYKdnZI/6BoDQ=",
+    "originContent": "2. **Twinkle Tray**：确保能正常读取显示器信息",
+    "translatedContent": "3. **壁纸引擎**：启动以支持相关操作"
+  },
+  {
+    "row": 85,
+    "rowsha": "U1toxPEtMPpevqIOqsyxtcykMbrkXQvaVntvSminAok=",
+    "originContent": "3. **壁纸引擎**：启动以支持相关操作",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> 💡 新增/修改传感器后，如有冲突，请删除 HA/MQTT 内的设备并重启软件"
+  },
+  {
+    "row": 87,
+    "rowsha": "ilHLoPgorVWzDhg10hmFLRYqf9x/W4/txyZB9NHgndc=",
+    "originContent": "> 💡 新增/修改传感器后，如有冲突，请删除 HA/MQTT 内的设备并重启软件",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 4️⃣ 运行程序"
+  },
+  {
+    "row": 89,
+    "rowsha": "4oCvVaUqxLw5xyUz3WswwkGcCGmb1aI9OTMwFN/hxMA=",
+    "originContent": "### 4️⃣ 运行程序",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 运行 `打开GUI.bat` 启动界面"
+  },
+  {
+    "row": 91,
+    "rowsha": "OamepWuoaQFkAClmkJqYDM1rpPtk1ZdREimGjpDvKck=",
+    "originContent": "1. 运行 `打开GUI.bat` 启动界面",
+    "translatedContent": "2. 进入设置配置参数（**按回车保存**）"
+  },
+  {
+    "row": 92,
+    "rowsha": "QQ0uIXDJrvDxU0xuO0pUWcoT0Luwgt3vGold89NodZA=",
+    "originContent": "2. 进入设置配置参数（**按回车保存**）",
+    "translatedContent": "3. 启用所需插件（**建议重启程序**）"
+  },
+  {
+    "row": 93,
+    "rowsha": "D7hAkwPBSIDQA9zfKa5ekPBTa7Wzbuu40HrrApakR3s=",
+    "originContent": "3. 启用所需插件（**建议重启程序**）",
+    "translatedContent": "4. 点击启动，在 HA 的 MQTT 集成中查看新设备"
+  },
+  {
+    "row": 94,
+    "rowsha": "KXWOm/UFMwoDs6yFW2e/zD5xDDMsr8Aie95NtQBT0OA=",
+    "originContent": "4. 点击启动，在 HA 的 MQTT 集成中查看新设备",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 5️⃣ 开机自启（可选）"
+  },
+  {
+    "row": 96,
+    "rowsha": "UqdlIdkYUp8FAQJbDaB4ScabPa5aWWU4GQVNSmiF+O4=",
+    "originContent": "### 5️⃣ 开机自启（可选）",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "设置中点击 **自启动**，程序将后台运行，在系统托盘查看图标"
+  },
+  {
+    "row": 98,
+    "rowsha": "QICC+ewBqZqI6eytat/dXRSrNNyK7CFKMzLp/n4i6mo=",
+    "originContent": "设置中点击 **自启动**，程序将后台运行，在系统托盘查看图标",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 100,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📋 开发计划"
+  },
+  {
+    "row": 102,
+    "rowsha": "xc+PZ5SHoXFg/AtXOoWnuWXlP56Z6am3pLrjhTUc3TI=",
+    "originContent": "## 📋 开发计划",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [x] 键盘快捷键联动"
+  },
+  {
+    "row": 104,
+    "rowsha": "IW437nWgOxc5Lw7NrvjnFPjEeebuEflERhnYa0/iMmI=",
+    "originContent": "- [x] 键盘快捷键联动",
+    "translatedContent": "- [x] 代码优化"
+  },
+  {
+    "row": 105,
+    "rowsha": "Wva9Y0pYWguMvzPmPr+dcp8lKhtUhMkUR2ef6VyfxHU=",
+    "originContent": "- [x] 代码优化",
+    "translatedContent": "- [x] 插件逻辑优化"
+  },
+  {
+    "row": 106,
+    "rowsha": "AiorZDUr5bVRSp4c66s2Rk6T5jgDvKzolTphm0GmeyE=",
+    "originContent": "- [x] 插件逻辑优化",
+    "translatedContent": "- [ ] 电脑风扇控制"
+  },
+  {
+    "row": 107,
+    "rowsha": "yjsF2xUBAjltwmgRW3KYFYVMN48f5/LdeYM4Hug9794=",
+    "originContent": "- [ ] 电脑风扇控制",
+    "translatedContent": "- [ ] Toast 多按钮回调"
+  },
+  {
+    "row": 108,
+    "rowsha": "dmskZf2H41kXJkeymKsgivf2AkLiUtbFy/lMsFF6V2s=",
+    "originContent": "- [ ] Toast 多按钮回调",
+    "translatedContent": "- [ ] 插件市场"
+  },
+  {
+    "row": 109,
+    "rowsha": "On5RJV/C6/K6M7wQQbKPXlJlSDdBQO4o6w4SccxBLpg=",
+    "originContent": "- [ ] 插件市场",
+    "translatedContent": "- [ ] 媒体控制"
+  },
+  {
+    "row": 110,
+    "rowsha": "yhgdWGi3RA+EmDXKGazcrviniPQqy3pq9zjAeZtgSww=",
+    "originContent": "- [ ] 媒体控制",
+    "translatedContent": "- [ ] 网易云歌词同步"
+  },
+  {
+    "row": 111,
+    "rowsha": "xpc+1n+P3S5VOAjeA6kNchMZsyVUcB5UIb9cJUnoACA=",
+    "originContent": "- [ ] 网易云歌词同步",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "RKWOT1o2yIIIJw3xsvP8o8p+rnza33n0LdpUb97d5Ds=",
+    "originContent": "## 💡 推荐搭配",
+    "translatedContent": "## 💡 推荐搭配"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "QsdGAaC1DPPXrBOHczSbjFLDUT/t9DNjXvWew8n7iwk=",
+    "originContent": "| 软件 | 描述 |",
+    "translatedContent": "| 软件 | 描述 |"
+  },
+  {
+    "row": 118,
+    "rowsha": "Q1UY1c64ayP3I+5GWs8f/z1sPU2HnyUwm4MD70V6LwU=",
+    "originContent": "|------|------|",
+    "translatedContent": "|------|------|"
+  },
+  {
+    "row": 119,
+    "rowsha": "je++t2sKEWVLAGGVo7l2kLzhbulxzyNZ3SdiUaIz/YQ=",
+    "originContent": "| [OpenRGB](https://openrgb.org/) | RGB 灯光控制，支持 HA 接入 |",
+    "translatedContent": "| [OpenRGB](https://openrgb.org/) | RGB 灯光控制，支持 HA 接入 |"
+  },
+  {
+    "row": 120,
+    "rowsha": "Cpk0ZU9sGvVigoFFJ7jywBADdIelK422bAaey3ZDa28=",
+    "originContent": "| [HASS.Agent](https://github.com/hass-agent/HASS.Agent) | 更稳定的同类工具 |",
+    "translatedContent": "| [HASS.Agent](https://github.com/hass-agent/HASS.Agent) | 更稳定的同类工具 |"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+    "originContent": "## 致谢",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "5dEeoPMjZ2MeOQ9kS12AWQaRyyWJYpOIn2yLwXef+i8=",
+    "originContent": "- [python_aida64](https://github.com/gwy15/python_aida64) - Aida64 数据读取",
+    "translatedContent": "- [python_aida64](https://github.com/gwy15/python_aida64) - Aida64 数据读取"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "ItKoTyP+1+eL0BAWYBzYKmfrtii9MWjz9ciceQgU72Q=",
+    "originContent": "## 📝 其他",
+    "translatedContent": "## 📝 其他"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "ZXL2gy5EAFvFzlTuqNlXCcSElpWuEGIQpPNzhdDyits=",
+    "originContent": "- 支持无头模式：`python core.py`",
+    "translatedContent": "- 支持无头模式：`python core.py`"
+  },
+  {
+    "row": 133,
+    "rowsha": "PEOvWleUazEFAMc4c7QYwLnNcAsy9lr5HI1ksFCOfP8=",
+    "originContent": "- 部分页面需切换后才会刷新",
+    "translatedContent": "- 部分页面需切换后才会刷新"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

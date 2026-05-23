@@ -1,0 +1,871 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🖥️ PCTools\n\n> 简单的 Python 程序，让 Windows 与 Home Assistant 无缝集成，实现硬件监控、远程控制等功能。\n\n[![GitHub Release](https://img.shields.io/github/v/release/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools/releases/latest)\n[![GitHub Downloads](https://img.shields.io/github/downloads/1812z/PCTools/total?style=flat-square&logo=github&label=Downloads)](https://github.com/1812z/PCTools/releases)\n[![GitHub Stars](https://img.shields.io/github/stars/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools)\n[![License](https://img.shields.io/github/license/1812z/PCTools?style=flat-square)](LICENSE)\n\n---\n\n## ✨ 功能特性\n\n| 功能 | 描述 |\n|------|------|\n| 📊 **Aida64 监控** | 定时更新选定传感器数据 |\n| 🎮 **远程命令** | 自动同步 `commands` 文件夹内的 `.bat` `.lnk` 文件到 HA |\n| 📸 **Web 监控** | 屏幕截图 / 摄像头 / 实时画面串流 |\n| 💬 **消息通知** | 监听 HA 文本输入，以 Toast 消息显示 |\n| 🌐 **侧边栏网页** | 快捷键呼出 HA 网页侧边栏 |\n| ⌨️ **快捷键联动** | 快捷键触发 HA 二元传感器 |\n| 📱 **前台应用反馈** | 自动上报当前应用名称，支持 [Runtime Tracker](https://github.com/1812z/RunTime_Tracker) |\n| 🖥️ **显示器控制** | 多显示器亮度 / 开关 / DDC-CI 命令 |\n| 🔊 **音量控制** | 控制 Windows 系统音量 |\n| 🌙 **深色模式** | 切换系统/应用深色模式 |\n| 📶 **蓝牙控制** | 开关系统蓝牙 |\n| ⚡ **命令行** | 执行自定义 CMD/PowerShell |\n| 🎨 **壁纸引擎** | 控制 Wallpaper Engine |\n| ⌨️ **按键模拟** | 模拟键盘输入（含媒体键） |\n| 🔗 **URL 启动器** | 打开自定义 URL |\n\n**Web 监控端点：**\n- 屏幕截图：`http://127.0.0.1:5000/screenshot.jpg`\n- 摄像头：`http://127.0.0.1:5000/video_feed`\n- 实时画面：`http://127.0.0.1:5000/screen`\n\n---\n\n## 📷 截图展示\n",
+    "ContentSha": "6ih+Jer3gDxibIbvaci4JIamsa+8aJKERzs44OsyW98=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🖥️ PCTools\n\n> 간단한 Python 프로그램으로, Windows와 Home Assistant를 원활하게 통합하여 하드웨어 모니터링, 원격 제어 등의 기능을 구현합니다.\n\n[![GitHub Release](https://img.shields.io/github/v/release/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools/releases/latest)\n[![GitHub Downloads](https://img.shields.io/github/downloads/1812z/PCTools/total?style=flat-square&logo=github&label=Downloads)](https://github.com/1812z/PCTools/releases)\n[![GitHub Stars](https://img.shields.io/github/stars/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools)\n[![License](https://img.shields.io/github/license/1812z/PCTools?style=flat-square)](LICENSE)\n\n---\n\n## ✨ 기능 특징\n\n| 기능 | 설명 |\n|------|------|\n| 📊 **Aida64 모니터링** | 선택한 센서 데이터를 정기적으로 업데이트 |\n| 🎮 **원격 명령어** | `commands` 폴더 내 `.bat`, `.lnk` 파일을 HA에 자동 동기화 |\n| 📸 **웹 모니터링** | 스크린샷 / 카메라 / 실시간 화면 스트리밍 |\n| 💬 **메시지 알림** | HA 텍스트 입력 감지 후 Toast 메시지로 표시 |\n| 🌐 **사이드바 웹페이지** | 단축키로 HA 웹 사이드바 호출 |\n| ⌨️ **단축키 연동** | 단축키로 HA 이진 센서 트리거 |\n| 📱 **포그라운드 앱 피드백** | 현재 앱 이름 자동 보고, [Runtime Tracker](https://github.com/1812z/RunTime_Tracker) 지원 |\n| 🖥️ **모니터 제어** | 다중 모니터 밝기 / 전원 / DDC-CI 명령 |\n| 🔊 **볼륨 제어** | Windows 시스템 볼륨 조절 |\n| 🌙 **다크 모드** | 시스템/앱 다크 모드 전환 |\n| 📶 **블루투스 제어** | 시스템 블루투스 켜기/끄기 |\n| ⚡ **명령행** | 사용자 정의 CMD/PowerShell 실행 |\n| 🎨 **배경화면 엔진** | Wallpaper Engine 제어 |\n| ⌨️ **키 입력 시뮬레이션** | 키보드 입력 시뮬레이션(미디어 키 포함) |\n| 🔗 **URL 실행기** | 사용자 정의 URL 열기 |\n\n**웹 모니터링 엔드포인트:**\n- 스크린샷: `http://127.0.0.1:5000/screenshot.jpg`\n- 카메라: `http://127.0.0.1:5000/video_feed`\n- 실시간 화면: `http://127.0.0.1:5000/screen`\n\n---\n\n## 📷 스크린샷 예시\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NCWAlwcw/+ZHCzm5MyWCqwVpC87/EkqU0/G0LmFnSfA=",
+        "originContent": "# 🖥️ PCTools",
+        "translatedContent": "# 🖥️ PCTools"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "DOvcbq00au9rVHVIfj4Qq4butF6imm07M3zr4oPCj4Q=",
+        "originContent": "> 简单的 Python 程序，让 Windows 与 Home Assistant 无缝集成，实现硬件监控、远程控制等功能。",
+        "translatedContent": "> 간단한 Python 프로그램으로, Windows와 Home Assistant를 원활하게 통합하여 하드웨어 모니터링, 원격 제어 등의 기능을 구현합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "NyacMAdC9St/3o26yZpdXO6vUaBFfZUfez64bsmrHw8=",
+        "originContent": "[![GitHub Release](https://img.shields.io/github/v/release/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools/releases/latest)",
+        "translatedContent": "[![GitHub Release](https://img.shields.io/github/v/release/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools/releases/latest)"
+      },
+      {
+        "row": 6,
+        "rowsha": "SW9864ffxeU3CD34i8uO2l3oqGFBQvLWLaKQS4kP0eE=",
+        "originContent": "[![GitHub Downloads](https://img.shields.io/github/downloads/1812z/PCTools/total?style=flat-square&logo=github&label=Downloads)](https://github.com/1812z/PCTools/releases)",
+        "translatedContent": "[![GitHub Downloads](https://img.shields.io/github/downloads/1812z/PCTools/total?style=flat-square&logo=github&label=Downloads)](https://github.com/1812z/PCTools/releases)"
+      },
+      {
+        "row": 7,
+        "rowsha": "Lqq949NWpAfegJE13YD7V5VKFyvgW7sTHYJnFBpmyrM=",
+        "originContent": "[![GitHub Stars](https://img.shields.io/github/stars/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools)",
+        "translatedContent": "[![GitHub Stars](https://img.shields.io/github/stars/1812z/PCTools?style=flat-square&logo=github)](https://github.com/1812z/PCTools)"
+      },
+      {
+        "row": 8,
+        "rowsha": "xatZY/qsuGYHO7gaqoCsXFsdc55rgXi1FjR3vUAGYYc=",
+        "originContent": "[![License](https://img.shields.io/github/license/1812z/PCTools?style=flat-square)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/github/license/1812z/PCTools?style=flat-square)](LICENSE)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "SJCwxOFbUZJfr4zlzFvzSZ3gAxaMdZb4/pEHq4kclhk=",
+        "originContent": "## ✨ 功能特性",
+        "translatedContent": "## ✨ 기능 특징"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yU+JECr5PtCdQsmwNmel8G6Ksbk1fP6ZFtCeeTdbpv8=",
+        "originContent": "| 功能 | 描述 |",
+        "translatedContent": "| 기능 | 설명 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "Q1UY1c64ayP3I+5GWs8f/z1sPU2HnyUwm4MD70V6LwU=",
+        "originContent": "|------|------|",
+        "translatedContent": "|------|------|"
+      },
+      {
+        "row": 16,
+        "rowsha": "ewlyokepAlZjlXcGEHvMeTvLl8IM1kq/d1+EdsxrAoQ=",
+        "originContent": "| 📊 **Aida64 监控** | 定时更新选定传感器数据 |",
+        "translatedContent": "| 📊 **Aida64 모니터링** | 선택한 센서 데이터를 정기적으로 업데이트 |"
+      },
+      {
+        "row": 17,
+        "rowsha": "CZ3MIem1M09E2KY+ty1xFe5594TLHgsq4PNjYtqsDeY=",
+        "originContent": "| 🎮 **远程命令** | 自动同步 `commands` 文件夹内的 `.bat` `.lnk` 文件到 HA |",
+        "translatedContent": "| 🎮 **원격 명령어** | `commands` 폴더 내 `.bat`, `.lnk` 파일을 HA에 자동 동기화 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "59k3H82jQ4yUfp8lAbzb/Q2HSqG7diQV4nwdV1Eosk4=",
+        "originContent": "| 📸 **Web 监控** | 屏幕截图 / 摄像头 / 实时画面串流 |",
+        "translatedContent": "| 📸 **웹 모니터링** | 스크린샷 / 카메라 / 실시간 화면 스트리밍 |"
+      },
+      {
+        "row": 19,
+        "rowsha": "kb54kphIw4iI+6vHPrwtFYBQbpUuBM6BUzW0A9hfdyo=",
+        "originContent": "| 💬 **消息通知** | 监听 HA 文本输入，以 Toast 消息显示 |",
+        "translatedContent": "| 💬 **메시지 알림** | HA 텍스트 입력 감지 후 Toast 메시지로 표시 |"
+      },
+      {
+        "row": 20,
+        "rowsha": "Zz6CDXJ7sKgdyCQ+Byd+erJC88gvFnPTMvimEuDBMfE=",
+        "originContent": "| 🌐 **侧边栏网页** | 快捷键呼出 HA 网页侧边栏 |",
+        "translatedContent": "| 🌐 **사이드바 웹페이지** | 단축키로 HA 웹 사이드바 호출 |"
+      },
+      {
+        "row": 21,
+        "rowsha": "yG9RCeaKdJREcEj6wnU3RPswDEPXLV3OGvnbNG8LhI8=",
+        "originContent": "| ⌨️ **快捷键联动** | 快捷键触发 HA 二元传感器 |",
+        "translatedContent": "| ⌨️ **단축키 연동** | 단축키로 HA 이진 센서 트리거 |"
+      },
+      {
+        "row": 22,
+        "rowsha": "HkOpOn6ykZxTqDKh39O13gKVn5qWYa1nqFYtqnotb78=",
+        "originContent": "| 📱 **前台应用反馈** | 自动上报当前应用名称，支持 [Runtime Tracker](https://github.com/1812z/RunTime_Tracker) |",
+        "translatedContent": "| 📱 **포그라운드 앱 피드백** | 현재 앱 이름 자동 보고, [Runtime Tracker](https://github.com/1812z/RunTime_Tracker) 지원 |"
+      },
+      {
+        "row": 23,
+        "rowsha": "KrCXLTjMan05EJMNCJyWh7rmH9jtzuVhfVNkz0IAhmc=",
+        "originContent": "| 🖥️ **显示器控制** | 多显示器亮度 / 开关 / DDC-CI 命令 |",
+        "translatedContent": "| 🖥️ **모니터 제어** | 다중 모니터 밝기 / 전원 / DDC-CI 명령 |"
+      },
+      {
+        "row": 24,
+        "rowsha": "UJkOt9JQgnSxF9TevwnFJc83zJnENonJgzXEks8ANtk=",
+        "originContent": "| 🔊 **音量控制** | 控制 Windows 系统音量 |",
+        "translatedContent": "| 🔊 **볼륨 제어** | Windows 시스템 볼륨 조절 |"
+      },
+      {
+        "row": 25,
+        "rowsha": "wUnDujX8Bs2e6+GVkIN4LSDxOf5alxsUUpZgxU/ifhE=",
+        "originContent": "| 🌙 **深色模式** | 切换系统/应用深色模式 |",
+        "translatedContent": "| 🌙 **다크 모드** | 시스템/앱 다크 모드 전환 |"
+      },
+      {
+        "row": 26,
+        "rowsha": "UedoCDuhECe//PtjGg4UJXs0+s6yYU6B5MEQuKMsSwE=",
+        "originContent": "| 📶 **蓝牙控制** | 开关系统蓝牙 |",
+        "translatedContent": "| 📶 **블루투스 제어** | 시스템 블루투스 켜기/끄기 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "sk0PPZOjNb+WH7pxJ5wCwcgp+8mGphuVKGHESDwibkI=",
+        "originContent": "| ⚡ **命令行** | 执行自定义 CMD/PowerShell |",
+        "translatedContent": "| ⚡ **명령행** | 사용자 정의 CMD/PowerShell 실행 |"
+      },
+      {
+        "row": 28,
+        "rowsha": "k6ldQiGqyDQufojaTc4h3LZH9fJ1ZK5MnogokkBNufQ=",
+        "originContent": "| 🎨 **壁纸引擎** | 控制 Wallpaper Engine |",
+        "translatedContent": "| 🎨 **배경화면 엔진** | Wallpaper Engine 제어 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "HOowbeuBS6RBc5Sy/Qb15WdE+TEyvwnkWid7+tajwiQ=",
+        "originContent": "| ⌨️ **按键模拟** | 模拟键盘输入（含媒体键） |",
+        "translatedContent": "| ⌨️ **키 입력 시뮬레이션** | 키보드 입력 시뮬레이션(미디어 키 포함) |"
+      },
+      {
+        "row": 30,
+        "rowsha": "uwuTGcX+2vL5Pn87sERXfuULHOMusEL+K8alQ1souMs=",
+        "originContent": "| 🔗 **URL 启动器** | 打开自定义 URL |",
+        "translatedContent": "| 🔗 **URL 실행기** | 사용자 정의 URL 열기 |"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "lP+2iCLgEoeLPExchG8F2L483nHiggzSunoZRZ4AeBY=",
+        "originContent": "**Web 监控端点：**",
+        "translatedContent": "**웹 모니터링 엔드포인트:**"
+      },
+      {
+        "row": 33,
+        "rowsha": "gQ+RbcQLT8i8q/9ZQrob7vO+7NQ+2slNDQfVtQIO1+8=",
+        "originContent": "- 屏幕截图：`http://127.0.0.1:5000/screenshot.jpg`",
+        "translatedContent": "- 스크린샷: `http://127.0.0.1:5000/screenshot.jpg`"
+      },
+      {
+        "row": 34,
+        "rowsha": "SE6DiOVfm20+hzybXRyFNn/nUOh2k0hPRe1Jpz2xyaA=",
+        "originContent": "- 摄像头：`http://127.0.0.1:5000/video_feed`",
+        "translatedContent": "- 카메라: `http://127.0.0.1:5000/video_feed`"
+      },
+      {
+        "row": 35,
+        "rowsha": "iwbzcd/tPZuLqFt6XGkr0cz3w0z5ocdkH8dfXbF1kiM=",
+        "originContent": "- 实时画面：`http://127.0.0.1:5000/screen`",
+        "translatedContent": "- 실시간 화면: `http://127.0.0.1:5000/screen`"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "vqwC0eoCkd96eyUxiuPi13HgL9QoEy0j2kOw2iHt4R8=",
+        "originContent": "## 📷 截图展示",
+        "translatedContent": "## 📷 스크린샷 예시"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "<details>\n<summary>🖼️ 软件界面</summary>\n<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/gui.png\" alt=\"GUI\" width=\"600\"/>\n</details>\n\n<details>\n<summary>📱 HA 界面</summary>\n\n**另类副屏** (推荐配合 [HA_Helper](https://github.com/1812z/Ha_Helper))\n\n<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/1743859715274.jpg\" alt=\"副屏\" width=\"400\"/>\n\n**主页面**\n\n<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/image.png\" alt=\"主页面\" height=\"500\"/>\n\n</details>\n\n---\n\n## 🚀 快速开始\n\n### 1️⃣ 安装环境\n\n**方式一**：下载 [Releases](https://github.com/1812z/PCTools/releases/latest) 内的压缩包（内置运行环境）\n\n**方式二**：手动配置",
+    "ContentSha": "/XtIwhHCP9c6ZvnQ2ZII7aufZ/l6EbKgE5e8DYPM1n0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<details>\n<summary>🖼️ 소프트웨어 인터페이스</summary>\n<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/gui.png\" alt=\"GUI\" width=\"600\"/>\n</details>\n\n<details>\n<summary>📱 HA 인터페이스</summary>\n\n**대안 보조 화면** (추천 [HA_Helper](https://github.com/1812z/Ha_Helper)와 함께 사용)\n\n<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/1743859715274.jpg\" alt=\"보조 화면\" width=\"400\"/>\n\n**메인 페이지**\n\n<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/image.png\" alt=\"메인 페이지\" height=\"500\"/>\n\n</details>\n\n---\n\n## 🚀 빠른 시작\n\n### 1️⃣ 환경 설치\n\n**방법 1**：[Releases](https://github.com/1812z/PCTools/releases/latest) 내 압축 파일 다운로드 (내장 실행 환경 포함)\n\n**방법 2**：수동 구성",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "8rbF2lAeIPP7caB+fDuR8gFcnNRTh1qCHTWC9DbHBAw=",
+        "originContent": "<summary>🖼️ 软件界面</summary>",
+        "translatedContent": "<summary>🖼️ 소프트웨어 인터페이스</summary>"
+      },
+      {
+        "row": 3,
+        "rowsha": "pSnHxGnnTx8GjNozo53TuWntSoTYVP3FeI9SwJITOco=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/gui.png\" alt=\"GUI\" width=\"600\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/gui.png\" alt=\"GUI\" width=\"600\"/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 7,
+        "rowsha": "G7KV+VoVwUuoilMq0GlSTvvxc5ANstv9A5Y3vMjwy7M=",
+        "originContent": "<summary>📱 HA 界面</summary>",
+        "translatedContent": "<summary>📱 HA 인터페이스</summary>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "SYGKFfdQ06GwF5O8YBgQgI54y0SdZ+wo15yQhRCNUWk=",
+        "originContent": "**另类副屏** (推荐配合 [HA_Helper](https://github.com/1812z/Ha_Helper))",
+        "translatedContent": "**대안 보조 화면** (추천 [HA_Helper](https://github.com/1812z/Ha_Helper)와 함께 사용)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qyyGzSlVv8Yl+d/jF0dDRFnuXzaf+CzASE1pPAbSTjw=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/1743859715274.jpg\" alt=\"副屏\" width=\"400\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/1743859715274.jpg\" alt=\"보조 화면\" width=\"400\"/>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "XzNCLBv2tUXxHcbMDHgagCzYEzQ6WRqqRjJknjwjnts=",
+        "originContent": "**主页面**",
+        "translatedContent": "**메인 페이지**"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "jdee3vI2zguotwJ6MR2jNV1QkfyJuk5hTQFbK1QfRIY=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/image.png\" alt=\"主页面\" height=\"500\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/1812z/PCTools/main/.github/images/image.png\" alt=\"메인 페이지\" height=\"500\"/>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "BB3mtM1ND4EO+Ss1aYQr5lcAQqrCYFMGvmfTf2Uyrh8=",
+        "originContent": "## 🚀 快速开始",
+        "translatedContent": "## 🚀 빠른 시작"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "kEi/gxgiCKdSl9H8r4uk37bR6MilaKqhIVPD1SPvAc0=",
+        "originContent": "### 1️⃣ 安装环境",
+        "translatedContent": "### 1️⃣ 환경 설치"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "/DFWD/5NXvFVR2O1UKcaemdPiQzecPOxmuQzTZllZ/o=",
+        "originContent": "**方式一**：下载 [Releases](https://github.com/1812z/PCTools/releases/latest) 内的压缩包（内置运行环境）",
+        "translatedContent": "**방법 1**：[Releases](https://github.com/1812z/PCTools/releases/latest) 내 압축 파일 다운로드 (내장 실행 환경 포함)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "YsGQYIXKTGam1cD7Q5yVg9IYdyVUv8jIrnY8QTWEvQ8=",
+        "originContent": "**方式二**：手动配置",
+        "translatedContent": "**방법 2**：수동 구성"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Python 3.12\npip install -r requirements.txt\n```",
+    "ContentSha": "Um5huIF+j/OHePKqOWrLQ1UDquaHoobSJFcAlhPsuXk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Python 3.12\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RbN5iSbtmADPYjotC23Ujjzqdf3Ut3ooZk5RjZmXizk=",
+        "originContent": "# Python 3.12",
+        "translatedContent": "# Python 3.12"
+      },
+      {
+        "row": 3,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### 2️⃣ 安装第三方依赖软件(可选)\n\n| 依赖 | 用途 |\n|------|------|\n| MQTT 服务器 | 接入 Home Assistant |\n| [Aida64](https://github.com/1812z/PCTools/releases) | 硬件信息监控 |\n| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray/releases) | 显示器亮度调节 |\n\n### 3️⃣ 配置依赖\n\n1. **Aida64**：开启内存共享并勾选需要的传感器数据\n2. **Twinkle Tray**：确保能正常读取显示器信息\n3. **壁纸引擎**：启动以支持相关操作\n\n> 💡 新增/修改传感器后，如有冲突，请删除 HA/MQTT 内的设备并重启软件\n\n### 4️⃣ 运行程序\n\n1. 运行 `打开GUI.bat` 启动界面\n2. 进入设置配置参数（**按回车保存**）\n3. 启用所需插件（**建议重启程序**）\n4. 点击启动，在 HA 的 MQTT 集成中查看新设备\n\n### 5️⃣ 开机自启（可选）\n\n设置中点击 **自启动**，程序将后台运行，在系统托盘查看图标\n\n---\n\n## 📋 开发计划\n\n- [x] 键盘快捷键联动\n- [x] 代码优化\n- [x] 插件逻辑优化\n- [ ] 电脑风扇控制\n- [ ] Toast 多按钮回调\n- [ ] 插件市场\n- [ ] 媒体控制\n- [ ] 网易云歌词同步",
+    "ContentSha": "PFF9hAkczF+YRj4P1TLWBGW3cLKwzzbrBuIjaBIgRi8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2️⃣ 서드파티 의존 소프트웨어 설치(선택 사항)\n\n| 의존성 | 용도 |\n|------|------|\n| MQTT 서버 | Home Assistant 접속 |\n| [Aida64](https://github.com/1812z/PCTools/releases) | 하드웨어 정보 모니터링 |\n| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray/releases) | 모니터 밝기 조절 |\n\n### 3️⃣ 의존성 구성\n\n1. **Aida64**: 메모리 공유 활성화 및 필요한 센서 데이터 선택\n2. **Twinkle Tray**: 모니터 정보 정상 읽기 확인\n3. **배경화면 엔진**: 관련 작업 지원을 위해 실행\n\n> 💡 센서 추가/수정 후 충돌 시, HA/MQTT 내 장치를 삭제하고 소프트웨어를 재시작하세요\n\n### 4️⃣ 프로그램 실행\n\n1. `打开GUI.bat` 실행하여 인터페이스 시작\n2. 설정 진입 후 파라미터 구성 (**엔터로 저장**)\n3. 필요한 플러그인 활성화 (**프로그램 재시작 권장**)\n4. 시작 클릭 후 HA MQTT 통합에서 새 장치 확인\n\n### 5️⃣ 부팅 시 자동 실행(선택 사항)\n\n설정에서 **자동 시작** 클릭 시 프로그램이 백그라운드에서 실행되며 시스템 트레이에서 아이콘 확인 가능\n\n---\n\n## 📋 개발 계획\n\n- [x] 키보드 단축키 연동\n- [x] 코드 최적화\n- [x] 플러그인 로직 최적화\n- [ ] 컴퓨터 팬 제어\n- [ ] Toast 다중 버튼 콜백\n- [ ] 플러그인 마켓\n- [ ] 미디어 제어\n- [ ] NetEase 클라우드 가사 동기화\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2️⃣ 서드파티 의존 소프트웨어 설치(선택 사항)"
+      },
+      {
+        "row": 2,
+        "rowsha": "oCh0gaE6MyKzXp/XlqR2iMDZzUGXX5GPs6QZ/tatqHM=",
+        "originContent": "### 2️⃣ 安装第三方依赖软件(可选)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 의존성 | 용도 |"
+      },
+      {
+        "row": 4,
+        "rowsha": "9K/7jJB08esTLre8ERCPz/yXCBB0MGKcgMxmkTZjX+A=",
+        "originContent": "| 依赖 | 用途 |",
+        "translatedContent": "|------|------|"
+      },
+      {
+        "row": 5,
+        "rowsha": "Q1UY1c64ayP3I+5GWs8f/z1sPU2HnyUwm4MD70V6LwU=",
+        "originContent": "|------|------|",
+        "translatedContent": "| MQTT 서버 | Home Assistant 접속 |"
+      },
+      {
+        "row": 6,
+        "rowsha": "g5ekAFUM5nt+fF6fRYJBKHhVnGd4CbrraoDiq7U1aJ4=",
+        "originContent": "| MQTT 服务器 | 接入 Home Assistant |",
+        "translatedContent": "| [Aida64](https://github.com/1812z/PCTools/releases) | 하드웨어 정보 모니터링 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "GqA0NMhluycD0+mZjqI0ZiUJlNTIYdwg+HRlk6v3+ro=",
+        "originContent": "| [Aida64](https://github.com/1812z/PCTools/releases) | 硬件信息监控 |",
+        "translatedContent": "| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray/releases) | 모니터 밝기 조절 |"
+      },
+      {
+        "row": 8,
+        "rowsha": "hilkN8KjHTBNXBqmj/rKXDHGaNQDBD6c1bj1W88q80I=",
+        "originContent": "| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray/releases) | 显示器亮度调节 |",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3️⃣ 의존성 구성"
+      },
+      {
+        "row": 10,
+        "rowsha": "0+ychzwcFtHXq4OLI9ZwECZ5QwkAzAuB37zt6wVY5qE=",
+        "originContent": "### 3️⃣ 配置依赖",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Aida64**: 메모리 공유 활성화 및 필요한 센서 데이터 선택"
+      },
+      {
+        "row": 12,
+        "rowsha": "g62qIcVRVRxhaWVfQK5mHVq2YjcOFfVcNAAa/un7iCs=",
+        "originContent": "1. **Aida64**：开启内存共享并勾选需要的传感器数据",
+        "translatedContent": "2. **Twinkle Tray**: 모니터 정보 정상 읽기 확인"
+      },
+      {
+        "row": 13,
+        "rowsha": "g4vC0JFEmHnfR3ZigVNAQ34AHcmmRZaYKdnZI/6BoDQ=",
+        "originContent": "2. **Twinkle Tray**：确保能正常读取显示器信息",
+        "translatedContent": "3. **배경화면 엔진**: 관련 작업 지원을 위해 실행"
+      },
+      {
+        "row": 14,
+        "rowsha": "U1toxPEtMPpevqIOqsyxtcykMbrkXQvaVntvSminAok=",
+        "originContent": "3. **壁纸引擎**：启动以支持相关操作",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> 💡 센서 추가/수정 후 충돌 시, HA/MQTT 내 장치를 삭제하고 소프트웨어를 재시작하세요"
+      },
+      {
+        "row": 16,
+        "rowsha": "ilHLoPgorVWzDhg10hmFLRYqf9x/W4/txyZB9NHgndc=",
+        "originContent": "> 💡 新增/修改传感器后，如有冲突，请删除 HA/MQTT 内的设备并重启软件",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 4️⃣ 프로그램 실행"
+      },
+      {
+        "row": 18,
+        "rowsha": "4oCvVaUqxLw5xyUz3WswwkGcCGmb1aI9OTMwFN/hxMA=",
+        "originContent": "### 4️⃣ 运行程序",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. `打开GUI.bat` 실행하여 인터페이스 시작"
+      },
+      {
+        "row": 20,
+        "rowsha": "OamepWuoaQFkAClmkJqYDM1rpPtk1ZdREimGjpDvKck=",
+        "originContent": "1. 运行 `打开GUI.bat` 启动界面",
+        "translatedContent": "2. 설정 진입 후 파라미터 구성 (**엔터로 저장**)"
+      },
+      {
+        "row": 21,
+        "rowsha": "QQ0uIXDJrvDxU0xuO0pUWcoT0Luwgt3vGold89NodZA=",
+        "originContent": "2. 进入设置配置参数（**按回车保存**）",
+        "translatedContent": "3. 필요한 플러그인 활성화 (**프로그램 재시작 권장**)"
+      },
+      {
+        "row": 22,
+        "rowsha": "D7hAkwPBSIDQA9zfKa5ekPBTa7Wzbuu40HrrApakR3s=",
+        "originContent": "3. 启用所需插件（**建议重启程序**）",
+        "translatedContent": "4. 시작 클릭 후 HA MQTT 통합에서 새 장치 확인"
+      },
+      {
+        "row": 23,
+        "rowsha": "KXWOm/UFMwoDs6yFW2e/zD5xDDMsr8Aie95NtQBT0OA=",
+        "originContent": "4. 点击启动，在 HA 的 MQTT 集成中查看新设备",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 5️⃣ 부팅 시 자동 실행(선택 사항)"
+      },
+      {
+        "row": 25,
+        "rowsha": "UqdlIdkYUp8FAQJbDaB4ScabPa5aWWU4GQVNSmiF+O4=",
+        "originContent": "### 5️⃣ 开机自启（可选）",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "설정에서 **자동 시작** 클릭 시 프로그램이 백그라운드에서 실행되며 시스템 트레이에서 아이콘 확인 가능"
+      },
+      {
+        "row": 27,
+        "rowsha": "QICC+ewBqZqI6eytat/dXRSrNNyK7CFKMzLp/n4i6mo=",
+        "originContent": "设置中点击 **自启动**，程序将后台运行，在系统托盘查看图标",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 29,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📋 개발 계획"
+      },
+      {
+        "row": 31,
+        "rowsha": "xc+PZ5SHoXFg/AtXOoWnuWXlP56Z6am3pLrjhTUc3TI=",
+        "originContent": "## 📋 开发计划",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] 키보드 단축키 연동"
+      },
+      {
+        "row": 33,
+        "rowsha": "IW437nWgOxc5Lw7NrvjnFPjEeebuEflERhnYa0/iMmI=",
+        "originContent": "- [x] 键盘快捷键联动",
+        "translatedContent": "- [x] 코드 최적화"
+      },
+      {
+        "row": 34,
+        "rowsha": "Wva9Y0pYWguMvzPmPr+dcp8lKhtUhMkUR2ef6VyfxHU=",
+        "originContent": "- [x] 代码优化",
+        "translatedContent": "- [x] 플러그인 로직 최적화"
+      },
+      {
+        "row": 35,
+        "rowsha": "AiorZDUr5bVRSp4c66s2Rk6T5jgDvKzolTphm0GmeyE=",
+        "originContent": "- [x] 插件逻辑优化",
+        "translatedContent": "- [ ] 컴퓨터 팬 제어"
+      },
+      {
+        "row": 36,
+        "rowsha": "yjsF2xUBAjltwmgRW3KYFYVMN48f5/LdeYM4Hug9794=",
+        "originContent": "- [ ] 电脑风扇控制",
+        "translatedContent": "- [ ] Toast 다중 버튼 콜백"
+      },
+      {
+        "row": 37,
+        "rowsha": "dmskZf2H41kXJkeymKsgivf2AkLiUtbFy/lMsFF6V2s=",
+        "originContent": "- [ ] Toast 多按钮回调",
+        "translatedContent": "- [ ] 플러그인 마켓"
+      },
+      {
+        "row": 38,
+        "rowsha": "On5RJV/C6/K6M7wQQbKPXlJlSDdBQO4o6w4SccxBLpg=",
+        "originContent": "- [ ] 插件市场",
+        "translatedContent": "- [ ] 미디어 제어"
+      },
+      {
+        "row": 39,
+        "rowsha": "yhgdWGi3RA+EmDXKGazcrviniPQqy3pq9zjAeZtgSww=",
+        "originContent": "- [ ] 媒体控制",
+        "translatedContent": "- [ ] NetEase 클라우드 가사 동기화"
+      },
+      {
+        "row": 40,
+        "rowsha": "xpc+1n+P3S5VOAjeA6kNchMZsyVUcB5UIb9cJUnoACA=",
+        "originContent": "- [ ] 网易云歌词同步",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "\n---\n\n## 💡 推荐搭配\n\n| 软件 | 描述 |\n|------|------|\n| [OpenRGB](https://openrgb.org/) | RGB 灯光控制，支持 HA 接入 |\n| [HASS.Agent](https://github.com/hass-agent/HASS.Agent) | 更稳定的同类工具 |\n\n---\n\n## 致谢\n\n- [python_aida64](https://github.com/gwy15/python_aida64) - Aida64 数据读取\n\n---\n\n## 📝 其他\n\n- 支持无头模式：`python core.py`\n- 部分页面需切换后才会刷新\n",
+    "ContentSha": "LY09DiJTw0NxR7sVUG7KVlcz+nd47RgwF2CeFniMDXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 💡 추천 조합\n\n| 소프트웨어 | 설명 |\n|------|------|\n| [OpenRGB](https://openrgb.org/) | RGB 조명 제어, HA 연동 지원 |\n| [HASS.Agent](https://github.com/hass-agent/HASS.Agent) | 더 안정적인 동종 도구 |\n\n---\n\n## 감사의 글\n\n- [python_aida64](https://github.com/gwy15/python_aida64) - Aida64 데이터 읽기\n\n---\n\n## 📝 기타\n\n- 헤드리스 모드 지원: `python core.py`\n- 일부 페이지는 전환 후에야 새로고침됨\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RKWOT1o2yIIIJw3xsvP8o8p+rnza33n0LdpUb97d5Ds=",
+        "originContent": "## 💡 推荐搭配",
+        "translatedContent": "## 💡 추천 조합"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "QsdGAaC1DPPXrBOHczSbjFLDUT/t9DNjXvWew8n7iwk=",
+        "originContent": "| 软件 | 描述 |",
+        "translatedContent": "| 소프트웨어 | 설명 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "Q1UY1c64ayP3I+5GWs8f/z1sPU2HnyUwm4MD70V6LwU=",
+        "originContent": "|------|------|",
+        "translatedContent": "|------|------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "je++t2sKEWVLAGGVo7l2kLzhbulxzyNZ3SdiUaIz/YQ=",
+        "originContent": "| [OpenRGB](https://openrgb.org/) | RGB 灯光控制，支持 HA 接入 |",
+        "translatedContent": "| [OpenRGB](https://openrgb.org/) | RGB 조명 제어, HA 연동 지원 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "Cpk0ZU9sGvVigoFFJ7jywBADdIelK422bAaey3ZDa28=",
+        "originContent": "| [HASS.Agent](https://github.com/hass-agent/HASS.Agent) | 更稳定的同类工具 |",
+        "translatedContent": "| [HASS.Agent](https://github.com/hass-agent/HASS.Agent) | 더 안정적인 동종 도구 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+        "originContent": "## 致谢",
+        "translatedContent": "## 감사의 글"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "5dEeoPMjZ2MeOQ9kS12AWQaRyyWJYpOIn2yLwXef+i8=",
+        "originContent": "- [python_aida64](https://github.com/gwy15/python_aida64) - Aida64 数据读取",
+        "translatedContent": "- [python_aida64](https://github.com/gwy15/python_aida64) - Aida64 데이터 읽기"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "ItKoTyP+1+eL0BAWYBzYKmfrtii9MWjz9ciceQgU72Q=",
+        "originContent": "## 📝 其他",
+        "translatedContent": "## 📝 기타"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "ZXL2gy5EAFvFzlTuqNlXCcSElpWuEGIQpPNzhdDyits=",
+        "originContent": "- 支持无头模式：`python core.py`",
+        "translatedContent": "- 헤드리스 모드 지원: `python core.py`"
+      },
+      {
+        "row": 22,
+        "rowsha": "PEOvWleUazEFAMc4c7QYwLnNcAsy9lr5HI1ksFCOfP8=",
+        "originContent": "- 部分页面需切换后才会刷新",
+        "translatedContent": "- 일부 페이지는 전환 후에야 새로고침됨"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
