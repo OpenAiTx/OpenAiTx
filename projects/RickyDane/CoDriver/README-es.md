@@ -1,18 +1,47 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <br/>
-<p align="center"><img width="700" src="https://github.com/user-attachments/assets/44295a1a-c904-407d-97af-bc1aa74baa86"/></p>
-<br>
-<!-- <p align="center"><a target="_blank" href="https://discord.gg/XPakYank"><img src="https://dcbadge.limes.pink/api/server/XPakYank" alt="" /></a></p> -->
+<p align="center"><img width="500" height="auto" alt="codriver_banner" src="https://github.com/user-attachments/assets/1957b950-db16-4ebd-b514-4f9b4f4abfd9" /></p>
+
+<br/>
+
+<a href="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml"><p align="center"><img src="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml/badge.svg?branch=master"></p></a>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-blue" />
   <img src="https://img.shields.io/badge/ macOS-white" />
   <img src="https://img.shields.io/badge/Linux-red" />
 </p>
-
-<a href='https://ko-fi.com/rickydane'>
-  <p align="center">
-    <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Cómprame un café en ko-fi.com' />
-  </p>
-</a>
 
 <p align="center">
   <a href="https://discord.gg/zSE27rjdzp">
@@ -20,7 +49,14 @@
   </a>
 </p>
 
-<a href="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml"><p align="center"><img src="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml/badge.svg?branch=master"></p></a>
+<p align="center">
+  <a href='https://ko-fi.com/rickydane'>
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Cómprame un café en ko-fi.com' />
+  </a>
+</p>
+
+<br/>
+
 <p align="center">
   Un explorador de archivos simple que nació porque quería aprender el lenguaje Rust.
   <br>
@@ -29,60 +65,58 @@
 
 <br/><br/>
 
-El rendimiento es proporcionado por ["jwalk"](https://crates.io/crates/jwalk/versions) y ["Tauri"](https://tauri.app/).
+El rendimiento se logra gracias a ["jwalk"](https://crates.io/crates/jwalk/versions) y ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se logra gracias a Rust, la velocidad del disco y la potencia del CPU.
+CoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se debe a Rust, la velocidad del disco y la potencia del CPU.
 
-⁉️ ¡Ten en cuenta que este software todavía está en desarrollo y contendrá errores!
+⁉️ Ten en cuenta que este software aún está en desarrollo y puede contener errores.
 <br/><br/>
 
 # Enlaces
-- <a href="#basic-features">Características básicas</a>
+- <a href="#basic-features">Funciones básicas</a>
 - <a href="#advanced-features">Funciones avanzadas</a>
 - <a href="#dependencies-if-not-working-instantly">Dependencias</a>
 - <a href="#%EF%B8%8F-ftp-integration-sshfs">Implementación FTP (SSHFS)</a>
-- <a href="#%EF%B8%8F-language-support">Soporte de idiomas</a>
 - <a href="#%EF%B8%8F-known-issues">Problemas conocidos</a>
-- <a href="#-todos">Pendientes</a>
+- <a href="#-todos">Todos</a>
 - <a href="#user-interface">Interfaz de usuario</a>
-- <a href="#speed-comparison">Comparación de velocidad</a>
-<br/>
 
-## Funciones básicas
-- Navega por los directorios como ya conoces
-- Copiar y pegar, eliminar, crear y renombrar archivos y carpetas
-- Cambia entre modo de "botones grandes", lista y columnas Miller
-- Cierra los popups con esc
-- Salta a un directorio con Ctrl / Cmd + G introduciendo una ruta
+## Funcionalidades básicas
+- Navega por directorios como lo haces habitualmente
+- Copia y pega, elimina, crea y renombra archivos y carpetas
+- Cambia entre los modos de cuadrícula, lista y columnas Miller
+- Cierra ventanas emergentes con esc
+- Salta directamente a un directorio con Ctrl / Cmd + G introduciendo una ruta
 - Ordena elementos en modo lista por tamaño, nombre o última modificación
-<br/>
 
-## Funciones avanzadas
-- Comprimir archivos y carpetas
+## Funcionalidades avanzadas
+- Comprime archivos y carpetas
   - zip
-- Desempaquetar archivos automáticamente en una nueva carpeta en el directorio de trabajo
+  - zstd
+  - brotli
+  - density (https://github.com/g1mv/density)
+- Extrae archivos comprimidos
   - rar
   - zip
   - 7zip
   - tar (.gz, .bz2)
+  - density
 - Navega a un directorio usando el atajo LAlt + 1 / 2 / 3 | (macOS opción + 1 / 2 / 3)
-  - Configura las rutas tú mismo en los ajustes
-- Crear archivo con F6
-- Crear carpeta con F7
-- Empieza a escribir en un directorio para filtrar instantáneamente las entradas
+  - Configura las rutas tú mismo en la configuración
+- Crea archivo con F6
+- Crea carpeta con F7
 - Vista de panel doble
-  - Buscar archivos con F8
-  - Copiar el elemento seleccionado al otro panel con F5
-  - Mover el elemento seleccionado al otro panel con LShift + F5
-- Arrastrar y soltar archivos en el explorador para copiarlos en el directorio actual
-- Renombrar múltiples elementos seleccionados con Ctrl / Cmd + LShift + M
-  - Ejecutar renombrado múltiple con Ctrl / Cmd + Enter
-- Vista rápida de archivos -> Selecciona una entrada del directorio y presiona la barra espaciadora.
+  - Busca archivos con F8
+  - Copia el elemento seleccionado actual al otro panel con F5
+  - Mueve el elemento seleccionado actual al otro panel con LShift + F5
+- Arrastra y suelta archivos en el explorador para copiarlos en el directorio actual
+- Renombra varios elementos de tu selección con Ctrl / Cmd + LShift + M
+  - Ejecuta el renombrado múltiple con Ctrl / Cmd + Return
+- Vista rápida de archivos -> Selecciona una entrada de directorio y pulsa la barra espaciadora.
   - Archivos soportados: todos los archivos de imagen (.jpg, .png, ...), .pdf, .mp4, .json, .txt, .html
-  - Todos los demás elementos mostrarán una pequeña miniatura con alguna información sobre ellos. (ruta, tamaño, última modificación)
-- Navegación instantánea -> Comience a escribir y filtre automáticamente las entradas del directorio, haciendo que a veces <br/>
-  sea mucho más rápido navegar a una ubicación deseada
-<br/>
+  - Todos los demás elementos mostrarán una pequeña ficha con información sobre ellos. (ruta, tamaño, última modificación)
+- Navegación instantánea -> Empieza a escribir y filtra automáticamente las entradas del directorio, lo que a veces <br/>
+  hace que navegar a una ubicación deseada sea mucho más rápido
 
 ## Dependencias (Si no funciona instantáneamente)
 
@@ -135,13 +169,12 @@ sudo dnf install openssl1.1 \
 sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
-<br/>
 
 ## 🖥️ Integración FTP (sshfs)
 <details>
   <summary>Expandir para mostrar</summary>
   <br/>
-  Dependencias (Necesitan ser instaladas adicionalmente):
+  Dependencias (deben instalarse adicionalmente):
   <br/>
 
   | macOS | Linux | Windows |
@@ -159,65 +192,51 @@ sudo dnf group install "C Development Tools and Libraries"
   ```
   sudo apt-get install sshfs
   ```
-<br/>
 
 ## 🏴‍☠️ Soporte de idiomas
 - Inglés
-  - Próximamente opción para elegir entre idiomas ...
+  - Opción para elegir entre idiomas próximamente ...
 </details>
-<br/>
 
 ## ⚠️ Problemas conocidos:
-- Arrastrar y soltar fuera de la ventana actualmente no funciona en Linux
-- En Windows puede que tenga que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en Linux
+- En Windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Los permisos en ms-windows son un poco extraños
-  - Puede que tenga que ejecutar el programa como administrador si encuentra problemas para copiar elementos o algo similar
-- Podría haber un problema y necesitar instalar openssl1.1 en sistemas Linux, cuando el programa no se inicia
-- ~~Las pestañas aún no están completamente desarrolladas~~
-<br/>
+  - Puede que tengas que ejecutar el programa como administrador si encuentras problemas para copiar elementos o algo similar
+- Puede haber un problema y necesitas instalar openssl1.1 en sistemas Linux, cuando el programa no inicia
 
-## 📝 Por hacer:
+## 📝 Tareas pendientes:
 - Múltiples idiomas
 - Favoritos
-- Acceder a servicios de almacenamiento en línea (Google Drive, etc.)
-<br/>
+- Acceso a servicios de almacenamiento en línea (Google Drive, etc.)
 
 ## Interfaz de usuario
 
-### Estilo lista
-![Screenshot 2024-08-13 at 19 08 02](https://github.com/user-attachments/assets/d643c7f9-44e8-4f94-a23c-69759b600c82)
+### Estilo de lista
+<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Estilo cuadrícula
-![Screenshot 2024-08-13 at 19 08 00](https://github.com/user-attachments/assets/b28b346a-58f3-4f7c-a23d-b19f0695bf23)
+### Estilo de cuadrícula
+<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
 
-### Vista columna Miller
-![Screenshot 2024-08-13 at 19 08 07](https://github.com/user-attachments/assets/95ab9426-837f-492d-8139-9bf7f1f0c51e)
+### Vista de columnas Miller
+<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
 
 ### Vista de panel dual
-![Screenshot 2024-08-13 at 19 08 25](https://github.com/user-attachments/assets/a3f9a511-5e8f-44ed-95d3-1a59e2cba05b)
-
-## Comparación de velocidad
-Explorador de archivos de Windows: _39.83 seg._<br/>
-CoDriver: **_0.81 seg._**
-
-https://github.com/user-attachments/assets/17116fa5-8f43-4339-a4ff-2525e7c94ae0
-
-Explorador de archivos de Windows: _44.91 seg._<br/>
-CoDriver: **_< 0.5 seg._**
-
-https://github.com/user-attachments/assets/169da3d0-06ac-4775-a631-5c5708ae4766
-
-</br>
+<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
 
 ## Cómo contribuir
-Configura tu máquina para desarrollar aplicaciones tauri v1: [Requisitos previos de Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
+Prepara tu máquina para desarrollar aplicaciones tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Cuando esto esté listo, simplemente haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.
+Cuando esto esté listo, simplemente ejecuta ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.
 </br></br>
 Deberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para comenzar a construir y ejecutar CoDriver.
 </br>
 Asegúrate de tener instalado tauri-cli: ```cargo install tauri-cli```
-</br></br>
+</br>
+
+## Firma de lanzamientos
+
+Los artefactos de lanzamiento de macOS deben ser firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulta [Firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para conocer los secretos requeridos de GitHub Actions y los comandos de verificación.
 
 ## Historial de estrellas
 
@@ -235,6 +254,6 @@ Asegúrate de tener instalado tauri-cli: ```cargo install tauri-cli```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
 
 ---

@@ -1,0 +1,1856 @@
+[
+  {
+    "row": 1,
+    "rowsha": "V83c8cvTLZtC8KYP6MZ7zNQkeimA4HRVDspaw7FlkXc=",
+    "originContent": "# fittencode.nvim",
+    "translatedContent": "# fittencode.nvim"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "dx226lSbHVvY8PMbsWOXjbH1xesTUGPidLYJ+NR1+uA=",
+    "originContent": "The refactored `fittencode.nvim` is ready.",
+    "translatedContent": "El `fittencode.nvim` refactorizado está listo."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+    "originContent": "## ✨ Features",
+    "translatedContent": "## ✨ Características"
+  },
+  {
+    "row": 6,
+    "rowsha": "u06CvE9dJTK/PWTXxdZlzs/cABnKQ30oCquDCDn2dbo=",
+    "originContent": "- 🚀 Fast completion thanks to Fitten Code",
+    "translatedContent": "- 🚀 Autocompletado rápido gracias a Fitten Code"
+  },
+  {
+    "row": 7,
+    "rowsha": "QozjtnUyiy9BShRMJoU1jDMdq0F+LX3YEaObdg8eMi8=",
+    "originContent": "- ⚡️ Asynchronous I/O for enhanced performance",
+    "translatedContent": "- ⚡️ E/S asíncrona para mejor rendimiento"
+  },
+  {
+    "row": 8,
+    "rowsha": "B55NS09Nl5qpWbnlxV8LOLM52ZWASHDWPlQJbCrh3qc=",
+    "originContent": "- ✏️ Enhanced inline completion",
+    "translatedContent": "- ✏️ Autocompletado en línea mejorado"
+  },
+  {
+    "row": 9,
+    "rowsha": "19Y8Wqr3mVM6SsB1AHPbx03KrKbwYtacmamYTZTGczE=",
+    "originContent": "  - ✨ Inline completion",
+    "translatedContent": "  - ✨ Autocompletado en línea"
+  },
+  {
+    "row": 10,
+    "rowsha": "+e+2q397PE7eYhvJetUbV6FEmihiO5cf5uC2zAb9kWw=",
+    "originContent": "  - ✂️ Edit completion",
+    "translatedContent": "  - ✂️ Edición de autocompletado"
+  },
+  {
+    "row": 11,
+    "rowsha": "2/VsD8ab9HRNq5qYtPR+ns1LVGhOlWl+cJDXXgKz0WY=",
+    "originContent": "- 📂 Project Completion",
+    "translatedContent": "- 📂 Autocompletado de proyectos"
+  },
+  {
+    "row": 12,
+    "rowsha": "G38NwSfc3rLIAU8oARt/23kUhTwZz/29YAn8G2BNw+8=",
+    "originContent": "  - 🧩 C/C++",
+    "translatedContent": "  - 🧩 C/C++"
+  },
+  {
+    "row": 13,
+    "rowsha": "HlDlhEZua6+33S3Lb5z0feikr+Uq7hVgOnogjESmz2A=",
+    "originContent": "- 🔄 Accept/Revoke by range",
+    "translatedContent": "- 🔄 Aceptar/Revocar por rango"
+  },
+  {
+    "row": 14,
+    "rowsha": "5eNHC/b2exAuiMd7q0m3NVXVzkgIIQebSM7iV4lwccE=",
+    "originContent": "  - 📝 Char",
+    "translatedContent": "  - 📝 Carácter"
+  },
+  {
+    "row": 15,
+    "rowsha": "ZI7Dpyfyd0R4FPckkOwWZ+cbZqMgmwqFwM/7KeN5Rb8=",
+    "originContent": "  - 📖 Word",
+    "translatedContent": "  - 📖 Palabra"
+  },
+  {
+    "row": 16,
+    "rowsha": "pzyBAV4R6OXgyyUQZP6XnNxnT3jaPAj94cdCxNqw2Qc=",
+    "originContent": "  - 📜 Line",
+    "translatedContent": "  - 📜 Línea"
+  },
+  {
+    "row": 17,
+    "rowsha": "hE58N160EMTlzH5SBVi1WeJhd6qa49O3IgkV7vAr7O8=",
+    "originContent": "  - 📋 All",
+    "translatedContent": "  - 📋 Todo"
+  },
+  {
+    "row": 18,
+    "rowsha": "sZZWO9HP9A2j/U7suG5pnJuTfBkx/J7Yz5q4mRfB0S0=",
+    "originContent": "- 🀄️ Enhanced Chinese completion with support for character segmentation",
+    "translatedContent": "- 🀄️ Autocompletado chino mejorado con soporte para segmentación de caracteres"
+  },
+  {
+    "row": 19,
+    "rowsha": "Mu71n3bMQSA7bZ9Ax2ipDhg/RJvOSQi/kvCHdrBWN5Q=",
+    "originContent": "- 🔌 Sources for `blink.cmp` and native Neovim LSP server",
+    "translatedContent": "- 🔌 Fuentes para `blink.cmp` y servidor LSP nativo de Neovim"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "s1VTRrtEiNE0u5Z60Q3xTvG7yv4q9AF4+vVYjevx3zs=",
+    "originContent": "## ⚡️ Requirements",
+    "translatedContent": "## ⚡️ Requisitos"
+  },
+  {
+    "row": 22,
+    "rowsha": "NYv9a2DUJ2q48gtYExGuoWi7uEV1HL5rkc7aWww2jbE=",
+    "originContent": "- Neovim 0.11+",
+    "translatedContent": "- Neovim 0.11+"
+  },
+  {
+    "row": 23,
+    "rowsha": "f/BL0kMRqKJTNaREwRM59+G/L64d8mnuN+Yiv5jDirs=",
+    "originContent": "- curl",
+    "translatedContent": "- curl"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+    "originContent": "## 📦 Installation",
+    "translatedContent": "## 📦 Instalación"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "R/rJ3QwgwzwBSrH8awJwqMzYTQGsWFTwVWbRmHyP+Oo=",
+    "originContent": "Install the plugin with your preferred package manager:",
+    "translatedContent": "Instale el plugin con su gestor de paquetes preferido:"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "t31fHa23eVJB6W5WUcmEd6cJXDkAut89UvohMMc0nPE=",
+    "originContent": "For example with `lazy.nvim`:",
+    "translatedContent": "Por ejemplo con `lazy.nvim`:"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 32,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 33,
+    "rowsha": "kQb0DSm9lEs0U4nwiIIinXYt07nGAaLvYbXz51OV8xE=",
+    "originContent": "  'luozhiya/fittencode.nvim',",
+    "translatedContent": "  'luozhiya/fittencode.nvim',"
+  },
+  {
+    "row": 34,
+    "rowsha": "J2OJ2k/EUY7JEKmYnkKUSxIi1uKxtI5RmYmYbuOfqpg=",
+    "originContent": "  opts = {},",
+    "translatedContent": "  opts = {},"
+  },
+  {
+    "row": 35,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "zKqkuo4fvvsTT7DrU1TU9VSoJZQ3u19Amef7krgAtNA=",
+    "originContent": "## ⚙️ Configuration",
+    "translatedContent": "## ⚙️ Configuración"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "IMdVJXQjf8UZ01Y+SlRgW4C6UXsVbLExzMHHhDFLmks=",
+    "originContent": "> This version does not support chat functionality.",
+    "translatedContent": "> Esta versión no soporta la funcionalidad de chat."
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 43,
+    "rowsha": "59HCJRibcuUx2s91LgJRg/TKYMUk+5TOt4s7gZlgYzQ=",
+    "originContent": "    server = {",
+    "translatedContent": "    server = {"
+  },
+  {
+    "row": 44,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 45,
+    "rowsha": "iT5NJjlsR1VtdyjxsbCSCv1UMENIxOS4qvGaiBgGcEw=",
+    "originContent": "        -- * 'default'",
+    "translatedContent": "        -- * 'default'"
+  },
+  {
+    "row": 46,
+    "rowsha": "daVyAk4nkByND/7qw4qO3YPaA0mgRQeIcKShKSbQnfE=",
+    "originContent": "        -- * 'standard'",
+    "translatedContent": "        -- * 'standard'"
+  },
+  {
+    "row": 47,
+    "rowsha": "MXLUJuAivakiSMLzg1jraTItRPQsBv9TdGwvjD6uVyU=",
+    "originContent": "        -- * 'enterprise'",
+    "translatedContent": "        -- * 'enterprise'"
+  },
+  {
+    "row": 48,
+    "rowsha": "RXe/WoxaFdeB8dRCjZOwHi6FTjW8McCVA5Tsgkxh8vE=",
+    "originContent": "        fitten_version = 'default',",
+    "translatedContent": "        fitten_version = 'default',"
+  },
+  {
+    "row": 49,
+    "rowsha": "cikn6sOGjOmvGFNGE2Fg4jWfFyV7khgJG8pLOySBPzs=",
+    "originContent": "        -- The server URL for Fitten Code.",
+    "translatedContent": "        -- The server URL for Fitten Code."
+  },
+  {
+    "row": 50,
+    "rowsha": "riysuxmJV16hBEwzoEetdBEuUJxbdUAZmguI6E/gefw=",
+    "originContent": "        -- You can also change it to your own server URL if you have a private server.",
+    "translatedContent": "        -- You can also change it to your own server URL if you have a private server."
+  },
+  {
+    "row": 51,
+    "rowsha": "d/TpuuhAs2x0lI2pQRrRh3BfSf82p2MLYpnmD7Brg6Q=",
+    "originContent": "        -- Default server URL: 'https://api.fittentech.com'",
+    "translatedContent": "        -- Default server URL: 'https://api.fittentech.com'"
+  },
+  {
+    "row": 52,
+    "rowsha": "jpsyRJUaRu0AnmNjEDtlxQcH0aZaHBit5Vi4d0vXkE0=",
+    "originContent": "        server_url = '',",
+    "translatedContent": "        server_url = '',"
+  },
+  {
+    "row": 53,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 54,
+    "rowsha": "gIgvrO0y9gwzJLkeHGCi1UTIVoOrw03vF3KScr/XeMk=",
+    "originContent": "    action = {",
+    "translatedContent": "    action = {"
+  },
+  {
+    "row": 55,
+    "rowsha": "AOwLi8pCT5NTwagZVncQ1+/NoX+Ym2J6CZuaNKi8lzE=",
+    "originContent": "        document_code = {",
+    "translatedContent": "        document_code = {"
+  },
+  {
+    "row": 56,
+    "rowsha": "35XukIAAqCyMKkXoggreFvrj70hxPWi7Pp2YdL+GAE8=",
+    "originContent": "            -- Show \"Fitten Code - Document Code\" in the editor context menu, when you right-click on the code.",
+    "translatedContent": "            -- Show \"Fitten Code - Document Code\" in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 57,
+    "rowsha": "Q7uC4kJ6nYo7CdQH3qJa0BHUQJl+iT5Cj0mq8zKQnmA=",
+    "originContent": "            show_in_editor_context_menu = true,",
+    "translatedContent": "            show_in_editor_context_menu = true,"
+  },
+  {
+    "row": 58,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 59,
+    "rowsha": "JwOXik8GnaP+D7juGZsNjadqJjPOMbP2S3R0tm3ZS+I=",
+    "originContent": "        edit_code = {",
+    "translatedContent": "        edit_code = {"
+  },
+  {
+    "row": 60,
+    "rowsha": "QfG082tKLgXabXopnd2L/nQG86tFqxa7etKXOKYnMGc=",
+    "originContent": "            -- Show \"Fitten Code - Edit Code\" in the editor context menu, when you right-click on the code.",
+    "translatedContent": "            -- Show \"Fitten Code - Edit Code\" in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 61,
+    "rowsha": "Q7uC4kJ6nYo7CdQH3qJa0BHUQJl+iT5Cj0mq8zKQnmA=",
+    "originContent": "            show_in_editor_context_menu = true,",
+    "translatedContent": "            show_in_editor_context_menu = true,"
+  },
+  {
+    "row": 62,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 63,
+    "rowsha": "Vvwv2fIL+aDD6ADehqdr8jLmTKUQoc9a6IYzQqjN1cQ=",
+    "originContent": "        explain_code = {",
+    "translatedContent": "        explain_code = {"
+  },
+  {
+    "row": 64,
+    "rowsha": "DU0LnhlhXvW7YhXUeUrvZ0KKGa/ovvy6tuhbHxhNTRo=",
+    "originContent": "            -- Show \"Fitten Code - Explain Code\" in the editor context menu, when you right-click on the code.",
+    "translatedContent": "            -- Show \"Fitten Code - Explain Code\" in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 65,
+    "rowsha": "Q7uC4kJ6nYo7CdQH3qJa0BHUQJl+iT5Cj0mq8zKQnmA=",
+    "originContent": "            show_in_editor_context_menu = true,",
+    "translatedContent": "            show_in_editor_context_menu = true,"
+  },
+  {
+    "row": 66,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 67,
+    "rowsha": "qtd5zkaw4je2LPsI8aY5UapU3fJ02PM5AC6K1wPeVoI=",
+    "originContent": "        find_bugs = {",
+    "translatedContent": "        find_bugs = {"
+  },
+  {
+    "row": 68,
+    "rowsha": "QrMKUPlBS54K99pwGFHmTc7C56Ilpns5Qa6hi8d7ZKg=",
+    "originContent": "            -- Show \"Fitten Code - Find Bugs\" in the editor context menu, when you right-click on the code.",
+    "translatedContent": "            -- Show \"Fitten Code - Find Bugs\" in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 69,
+    "rowsha": "Q7uC4kJ6nYo7CdQH3qJa0BHUQJl+iT5Cj0mq8zKQnmA=",
+    "originContent": "            show_in_editor_context_menu = true,",
+    "translatedContent": "            show_in_editor_context_menu = true,"
+  },
+  {
+    "row": 70,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 71,
+    "rowsha": "50n9fnKwoiYMJilWOMhFjXl0BmE+rkaQX5reBKxiA+E=",
+    "originContent": "        generate_unit_test = {",
+    "translatedContent": "        generate_unit_test = {"
+  },
+  {
+    "row": 72,
+    "rowsha": "4jcO74/DXdI9vXs7+ulYjPzjQYISXeLe27eVkZBszuk=",
+    "originContent": "            -- Show \"Fitten Code - Generate UnitTest\" in the editor context menu, when you right-click on the code.",
+    "translatedContent": "            -- Show \"Fitten Code - Generate UnitTest\" in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 73,
+    "rowsha": "Q7uC4kJ6nYo7CdQH3qJa0BHUQJl+iT5Cj0mq8zKQnmA=",
+    "originContent": "            show_in_editor_context_menu = true,",
+    "translatedContent": "            show_in_editor_context_menu = true,"
+  },
+  {
+    "row": 74,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 75,
+    "rowsha": "xIra47HXnpJVpvQnjWC8L++3QT7L9sU24jAoMQKGqyI=",
+    "originContent": "        optimize_code = {",
+    "translatedContent": "        optimize_code = {"
+  },
+  {
+    "row": 76,
+    "rowsha": "6TAV4S9p4TTC9wuPevGCdDmCsmpLj6cPrqkEpvLrXeg=",
+    "originContent": "            -- Show \"Fitten Code - Optimize Code\" in the editor context menu, when you right-click on the code.",
+    "translatedContent": "            -- Show \"Fitten Code - Optimize Code\" in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 77,
+    "rowsha": "Q7uC4kJ6nYo7CdQH3qJa0BHUQJl+iT5Cj0mq8zKQnmA=",
+    "originContent": "            show_in_editor_context_menu = true,",
+    "translatedContent": "            show_in_editor_context_menu = true,"
+  },
+  {
+    "row": 78,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 79,
+    "rowsha": "0IFKT82iNRAcjX0hh0VH2/XsHVNMbU0auP9Pen66C+8=",
+    "originContent": "        start_chat = {",
+    "translatedContent": "        start_chat = {"
+  },
+  {
+    "row": 80,
+    "rowsha": "qIDWd39iCHbzibYEm/HnGk/qM4y3VBtjg7cD3KoY6D4=",
+    "originContent": "            -- Show \"Fitten Code - Start Chat\" in the editor context menu, when you right-click on the code.",
+    "translatedContent": "            -- Show \"Fitten Code - Start Chat\" in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 81,
+    "rowsha": "Q7uC4kJ6nYo7CdQH3qJa0BHUQJl+iT5Cj0mq8zKQnmA=",
+    "originContent": "            show_in_editor_context_menu = true,",
+    "translatedContent": "            show_in_editor_context_menu = true,"
+  },
+  {
+    "row": 82,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 83,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 84,
+    "rowsha": "cFHfJzwc6ZSX+IWiX8tMjS8RfAM/H4pnKbfntiQ3Ky4=",
+    "originContent": "    -- Add Certain Type to Commit Message",
+    "translatedContent": "    -- Add Certain Type to Commit Message"
+  },
+  {
+    "row": 85,
+    "rowsha": "HRJK/K6IfZgWZ4PL5a253twyrmFKtsaT2rQs4u5q9fA=",
+    "originContent": "    add_type_to_commit_message = {",
+    "translatedContent": "    add_type_to_commit_message = {"
+  },
+  {
+    "row": 86,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 87,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 88,
+    "rowsha": "AJMe/cGikAnJQAMhqYUkntVKR/q3C4tLLnGT1lmsUmY=",
+    "originContent": "        -- * 'concise'  Concise Commit Message",
+    "translatedContent": "        -- * 'concise'  Concise Commit Message"
+  },
+  {
+    "row": 89,
+    "rowsha": "yimAFFjJB62pwa3eLQUiIUe5pQ7+LvnRfG2tWFr0nHg=",
+    "originContent": "        -- * 'detailed' Detailed Commit Message",
+    "translatedContent": "        -- * 'detailed' Detailed Commit Message"
+  },
+  {
+    "row": 90,
+    "rowsha": "oxGgNWCQFVeEMRP+1xDrbc9kMxuxfEz7wC4cEa88Wlo=",
+    "originContent": "        open = 'auto',",
+    "translatedContent": "        open = 'auto',"
+  },
+  {
+    "row": 91,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 92,
+    "rowsha": "YpuYu3vWFipP0VCD2OAMYTBWVGgj8NVIqpsRGiwSZ44=",
+    "originContent": "    agent = {",
+    "translatedContent": "    agent = {"
+  },
+  {
+    "row": 93,
+    "rowsha": "Kv9EMHp6YAP45/SG7G4hbmxPEAkPAxrkevDLWn+SHDk=",
+    "originContent": "        -- Simplify Agent's Thinking Output",
+    "translatedContent": "        -- Simplify Agent's Thinking Output"
+  },
+  {
+    "row": 94,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 95,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 96,
+    "rowsha": "dMzY221Jk/WpT7pdOAXr8MUyoYfYQPydLYbiz01FKT4=",
+    "originContent": "        -- * 'on'",
+    "translatedContent": "        -- * 'on'"
+  },
+  {
+    "row": 97,
+    "rowsha": "FihiWL8iqhfH4Bu92309vP7eaLCTQTdsmaROSvjAWhg=",
+    "originContent": "        -- * 'off'",
+    "translatedContent": "        -- * 'off'"
+  },
+  {
+    "row": 98,
+    "rowsha": "lT5gWKztHE/JlFoIxt5vetWPNydVVJItHMAxjg06gFY=",
+    "originContent": "        simple_thinking = 'auto',",
+    "translatedContent": "        simple_thinking = 'auto',"
+  },
+  {
+    "row": 99,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 100,
+    "rowsha": "JggKnhO67/ud0djaDx7FGtU9+AUKHREj3fyUGsAfVtQ=",
+    "originContent": "    delay_completion = {",
+    "translatedContent": "    delay_completion = {"
+  },
+  {
+    "row": 101,
+    "rowsha": "zemt8Kjx6bLzz1WYE/vYTLkrzHHF6ka39VHt/n6zEHg=",
+    "originContent": "        -- Delay time for inline completion (in milliseconds).",
+    "translatedContent": "        -- Delay time for inline completion (in milliseconds)."
+  },
+  {
+    "row": 102,
+    "rowsha": "S4Rw6vtALMbCBoIvWEQHiVQ3nuk15PIAT+A3u8FqOSE=",
+    "originContent": "        ---@type integer",
+    "translatedContent": "        ---@type integer"
+  },
+  {
+    "row": 103,
+    "rowsha": "NgfLt6OY4OZncyQuJRLcfAeYiJYiIhtXMTEnY3ja0KY=",
+    "originContent": "        delaytime = 0,",
+    "translatedContent": "        delaytime = 0,"
+  },
+  {
+    "row": 104,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 105,
+    "rowsha": "o96zjI2xTdOe/IzpwCQdWqg1fylDZKLjirJs8HZDaRk=",
+    "originContent": "    disable_specific_inline_completion = {",
+    "translatedContent": "    disable_specific_inline_completion = {"
+  },
+  {
+    "row": 106,
+    "rowsha": "FQXEjHoX0lYWdsD6aeGapYBhahTYiP7DHRfWWMTxitM=",
+    "originContent": "        -- Disable auto-completion for some specific file suffixes by entering them below",
+    "translatedContent": "        -- Disable auto-completion for some specific file suffixes by entering them below"
+  },
+  {
+    "row": 107,
+    "rowsha": "PRYrbEhwxQBlG/SJXw9sQO1nVVXtxJctEkHFKr1eKzw=",
+    "originContent": "        -- For instances, `suffixes = {'lua', 'cpp'}`",
+    "translatedContent": "        -- For instances, `suffixes = {'lua', 'cpp'}`"
+  },
+  {
+    "row": 108,
+    "rowsha": "z+gquFjePHXg5hOEaT9hG4itt/BwimEPteP825wrg70=",
+    "originContent": "        suffixes = {},",
+    "translatedContent": "        suffixes = {},"
+  },
+  {
+    "row": 109,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 110,
+    "rowsha": "8GydgFKZAW8U8/aQ95VIX8yQczoMGctH34SehKXMEu8=",
+    "originContent": "    inline_completion = {",
+    "translatedContent": "    inline_completion = {"
+  },
+  {
+    "row": 111,
+    "rowsha": "ri3tRg8PO3zfID4sakM03AZeC0T5+TvXBHVLLUr5Hl4=",
+    "originContent": "        -- Enable inline code completion.",
+    "translatedContent": "        -- Enable inline code completion."
+  },
+  {
+    "row": 112,
+    "rowsha": "PrFtQa5ZsT9Qca8Gqj/H1KzPfIgt/H2Kb/d4WyeAC4Y=",
+    "originContent": "        ---@type boolean",
+    "translatedContent": "        ---@type boolean"
+  },
+  {
+    "row": 113,
+    "rowsha": "4sPTlunnUH2afF2RNZzw1RDdF0QyzvTr8XSEOTLUOKo=",
+    "originContent": "        enable = true,",
+    "translatedContent": "        enable = true,"
+  },
+  {
+    "row": 114,
+    "rowsha": "5bL12s5i8JW1Cl5VBFA/lDPqI29DpNVdjbnsghh7x5E=",
+    "originContent": "        -- Auto triggering completion",
+    "translatedContent": "        -- Auto triggering completion"
+  },
+  {
+    "row": 115,
+    "rowsha": "PrFtQa5ZsT9Qca8Gqj/H1KzPfIgt/H2Kb/d4WyeAC4Y=",
+    "originContent": "        ---@type boolean",
+    "translatedContent": "        ---@type boolean"
+  },
+  {
+    "row": 116,
+    "rowsha": "aRE4oW82WY9K1gA9afpTrj493Kb8YtYbzsaizBTSoOo=",
+    "originContent": "        auto_triggering_completion = true,",
+    "translatedContent": "        auto_triggering_completion = true,"
+  },
+  {
+    "row": 117,
+    "rowsha": "dLDxtITygBSpbvNhMkChw3Tf9bSGHNQZE5VjY7wCrNs=",
+    "originContent": "        -- Disable auto completion when the cursor is within the line.",
+    "translatedContent": "        -- Disable auto completion when the cursor is within the line."
+  },
+  {
+    "row": 118,
+    "rowsha": "PrFtQa5ZsT9Qca8Gqj/H1KzPfIgt/H2Kb/d4WyeAC4Y=",
+    "originContent": "        ---@type boolean",
+    "translatedContent": "        ---@type boolean"
+  },
+  {
+    "row": 119,
+    "rowsha": "zM7wQZ7QuPIfYMRUYpG8huOjsvTexaxmiParpsW3GY4=",
+    "originContent": "        disable_completion_within_the_line = false,",
+    "translatedContent": "        disable_completion_within_the_line = false,"
+  },
+  {
+    "row": 120,
+    "rowsha": "2G2aWOoBjcsBHBhYMigaqraAxTLBwfcIu09atAdETRY=",
+    "originContent": "        -- Disable auto completion when pressing Backspace or Delete.",
+    "translatedContent": "        -- Disable auto completion when pressing Backspace or Delete."
+  },
+  {
+    "row": 121,
+    "rowsha": "PrFtQa5ZsT9Qca8Gqj/H1KzPfIgt/H2Kb/d4WyeAC4Y=",
+    "originContent": "        ---@type boolean",
+    "translatedContent": "        ---@type boolean"
+  },
+  {
+    "row": 122,
+    "rowsha": "8nCyHzN7MkacAGzqQzmtxUTW4dGwLt27ErxRcAXUsNM=",
+    "originContent": "        disable_completion_when_delete = false,",
+    "translatedContent": "        disable_completion_when_delete = false,"
+  },
+  {
+    "row": 123,
+    "rowsha": "mwe1bDZPVPGKkFkpj8dE88FJtmNKDlK03CHKq+QozYI=",
+    "originContent": "        -- Disable auto completion when entering Insert mode `InsertEnter`.",
+    "translatedContent": "        -- Disable auto completion when entering Insert mode `InsertEnter`."
+  },
+  {
+    "row": 124,
+    "rowsha": "t5v7c9m8bl0WaF5FqEGfMj0JP6vcyBU+gHxli4Cj1mQ=",
+    "originContent": "        disable_completion_when_insert_enter = true,",
+    "translatedContent": "        disable_completion_when_insert_enter = true,"
+  },
+  {
+    "row": 125,
+    "rowsha": "Ftf9QRTv5t4GkEcCbyGHuYb+NPaB0WJGEowc1shCK5o=",
+    "originContent": "        -- Disable auto completion when the popup menu is changed `CompleteChanged`.",
+    "translatedContent": "        -- Disable auto completion when the popup menu is changed `CompleteChanged`."
+  },
+  {
+    "row": 126,
+    "rowsha": "wzlvT98Tv7NVIvt93JCTpJhY8hx32TI4MA7sEORWyYs=",
+    "originContent": "        disable_completion_when_pumcmp_changed = false,",
+    "translatedContent": "        disable_completion_when_pumcmp_changed = false,"
+  },
+  {
+    "row": 127,
+    "rowsha": "ZQqdQNuWp4W5BRRqKxaEA0cB42Ls37AGlsiVxRl/t34=",
+    "originContent": "        -- Disable auto completion when the buffer is not a file.",
+    "translatedContent": "        -- Disable auto completion when the buffer is not a file."
+  },
+  {
+    "row": 128,
+    "rowsha": "kT1TXddyuxxn+L6ey3X/voy9G1ccLfZYnSR/pArHwrA=",
+    "originContent": "        disable_completion_when_nofile_buffer = true,",
+    "translatedContent": "        disable_completion_when_nofile_buffer = true,"
+  },
+  {
+    "row": 129,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 130,
+    "rowsha": "EoGbMU9N/9MNBIJu8HMwovlKojWK3DLFgqICJ0l/fSE=",
+    "originContent": "    integrations = {",
+    "translatedContent": "    integrations = {"
+  },
+  {
+    "row": 131,
+    "rowsha": "r0RpTsCaEgcTBmdH8iWgHnkWTZzdRP146UGyfjxigP4=",
+    "originContent": "        completion = {",
+    "translatedContent": "        completion = {"
+  },
+  {
+    "row": 132,
+    "rowsha": "Aul6HmkhAtpIZLTOcEalOb7qPVWsy3iAWJDAo7JCLHs=",
+    "originContent": "            -- Enable completion as an LSP server.",
+    "translatedContent": "            -- Enable completion as an LSP server."
+  },
+  {
+    "row": 133,
+    "rowsha": "3N0AnC2rAplkNrEf5Zt6ysTlIwHF3yFyd6wsc1Fzx5o=",
+    "originContent": "            ---@type boolean",
+    "translatedContent": "            ---@type boolean"
+  },
+  {
+    "row": 134,
+    "rowsha": "47fBBM0gvZdqvKaGm0K7UVEHtHYRKgFbESb4+PrJW1g=",
+    "originContent": "            lsp_server = false,",
+    "translatedContent": "            lsp_server = false,"
+  },
+  {
+    "row": 135,
+    "rowsha": "+KK7LHs/YIlihXTR1Y2OS2jaBc4cPL/nYhJCKu3njBw=",
+    "originContent": "            -- Enable completion as an `blink.cmp` source",
+    "translatedContent": "            -- Enable completion as an `blink.cmp` source"
+  },
+  {
+    "row": 136,
+    "rowsha": "C5oTHTbhPC9UZqAszrTPESZezA9dLLbokxbN+1v+iac=",
+    "originContent": "            blink = false",
+    "translatedContent": "            blink = false"
+  },
+  {
+    "row": 137,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 138,
+    "rowsha": "jKbIKQRg6FDwJTw7F8+9yoR2azSj/K+zOCL1zR4u9Jg=",
+    "originContent": "        commit_message = false,",
+    "translatedContent": "        commit_message = false,"
+  },
+  {
+    "row": 139,
+    "rowsha": "8hvHrypP6H+1SRbQMJaDDjVmhyrh/i9TU/7vVuTJxv4=",
+    "originContent": "        filetype = false,",
+    "translatedContent": "        filetype = false,"
+  },
+  {
+    "row": 140,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 141,
+    "rowsha": "wsHy9vZtNwOVYRGHF6Lg7fN/7u8aky/frBQHKU5sB/Y=",
+    "originContent": "    language_preference = {",
+    "translatedContent": "    language_preference = {"
+  },
+  {
+    "row": 142,
+    "rowsha": "XzPxcRbNOrtRhYcdp+WB7paVQhlIJ/9J+BMMCTbI2hY=",
+    "originContent": "        -- Language preference for display and responses in Fitten Code (excluding \"Fitten Code - Document Code\" function).",
+    "translatedContent": "        -- Language preference for display and responses in Fitten Code (excluding \"Fitten Code - Document Code\" function)."
+  },
+  {
+    "row": 143,
+    "rowsha": "MBddqxzqfUL0w2lr8pYFKvzxrNahQQdXtAY6flsgf6c=",
+    "originContent": "        -- Lower case of the BCP 47 language tag.",
+    "translatedContent": "        -- Lower case of the BCP 47 language tag."
+  },
+  {
+    "row": 144,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 145,
+    "rowsha": "fkY5tUMFXS12Ut0B/gpq7hb5SBnDB1attveSrIulGb8=",
+    "originContent": "        -- * 'en'",
+    "translatedContent": "        -- * 'en'"
+  },
+  {
+    "row": 146,
+    "rowsha": "VTcrZrencslu4+mFLBmubJv+pBbAJ9riMOC4Vk21/cM=",
+    "originContent": "        -- * 'zh-cn'",
+    "translatedContent": "        -- * 'zh-cn'"
+  },
+  {
+    "row": 147,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 148,
+    "rowsha": "Ga97wsLPVM6esEPHxr4GRZpQYKncPqQMj544BFXbeNU=",
+    "originContent": "        display_preference = 'zh-cn',",
+    "translatedContent": "        display_preference = 'zh-cn',"
+  },
+  {
+    "row": 149,
+    "rowsha": "gK0CkurSQOkAd5Qo5uRIlIdfpSMkhY6pCpZ6t3bFl28=",
+    "originContent": "        -- Language preference when using function \"Fitten Code - Document Code\".",
+    "translatedContent": "        -- Language preference when using function \"Fitten Code - Document Code\"."
+  },
+  {
+    "row": 150,
+    "rowsha": "MBddqxzqfUL0w2lr8pYFKvzxrNahQQdXtAY6flsgf6c=",
+    "originContent": "        -- Lower case of the BCP 47 language tag.",
+    "translatedContent": "        -- Lower case of the BCP 47 language tag."
+  },
+  {
+    "row": 151,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 152,
+    "rowsha": "fkY5tUMFXS12Ut0B/gpq7hb5SBnDB1attveSrIulGb8=",
+    "originContent": "        -- * 'en'",
+    "translatedContent": "        -- * 'en'"
+  },
+  {
+    "row": 153,
+    "rowsha": "VTcrZrencslu4+mFLBmubJv+pBbAJ9riMOC4Vk21/cM=",
+    "originContent": "        -- * 'zh-cn'",
+    "translatedContent": "        -- * 'zh-cn'"
+  },
+  {
+    "row": 154,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 155,
+    "rowsha": "Iucmn9SkhOT+rvzqH1rai9WV2OfDmF2KYNd4a9QoVjw=",
+    "originContent": "        comment_preference = 'auto',",
+    "translatedContent": "        comment_preference = 'auto',"
+  },
+  {
+    "row": 156,
+    "rowsha": "/HvRvDSvDgINblhnrXB2X4Mi21X6EMdFhPB1DP5140s=",
+    "originContent": "        -- Language preference for commit message.",
+    "translatedContent": "        -- Language preference for commit message."
+  },
+  {
+    "row": 157,
+    "rowsha": "MBddqxzqfUL0w2lr8pYFKvzxrNahQQdXtAY6flsgf6c=",
+    "originContent": "        -- Lower case of the BCP 47 language tag.",
+    "translatedContent": "        -- Lower case of the BCP 47 language tag."
+  },
+  {
+    "row": 158,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 159,
+    "rowsha": "fkY5tUMFXS12Ut0B/gpq7hb5SBnDB1attveSrIulGb8=",
+    "originContent": "        -- * 'en'",
+    "translatedContent": "        -- * 'en'"
+  },
+  {
+    "row": 160,
+    "rowsha": "VTcrZrencslu4+mFLBmubJv+pBbAJ9riMOC4Vk21/cM=",
+    "originContent": "        -- * 'zh-cn'",
+    "translatedContent": "        -- * 'zh-cn'"
+  },
+  {
+    "row": 161,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 162,
+    "rowsha": "V6+gJqNqBbCF8yHAdXf/3asQY7892QPK0UcX4qH331A=",
+    "originContent": "        commit_message_preference = 'auto',",
+    "translatedContent": "        commit_message_preference = 'auto',"
+  },
+  {
+    "row": 163,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 164,
+    "rowsha": "YxinG7q5TpDwFGw2QM08t3sExd3d/k5ZtxvCxSUzWyM=",
+    "originContent": "    -- Show menu as submenu in the editor context menu, when you right-click on the code.",
+    "translatedContent": "    -- Show menu as submenu in the editor context menu, when you right-click on the code."
+  },
+  {
+    "row": 165,
+    "rowsha": "AR+44xEZkFdXCXUFZtLetmY17dYx6Y+MwDnS84VkZS4=",
+    "originContent": "    show_submenu = false,",
+    "translatedContent": "    show_submenu = false,"
+  },
+  {
+    "row": 166,
+    "rowsha": "TfCxhMWc9W08ouVMdI/h+7Ak/V9vldbU7qSvvGEUQu8=",
+    "originContent": "    snippet = {",
+    "translatedContent": "    snippet = {"
+  },
+  {
+    "row": 167,
+    "rowsha": "4z8Tjr5KyKTIzyMSqRpmCNxRZ+QgD4CcG7xqDRa7/zc=",
+    "originContent": "        -- The comment / document snippet as the style reference for Fitten Code's Document Code function.",
+    "translatedContent": "        -- The comment / document snippet as the style reference for Fitten Code's Document Code function."
+  },
+  {
+    "row": 168,
+    "rowsha": "co9tf9koKIGco67vw3io7ZbR9jyXN6CRiM2e3mrlni4=",
+    "originContent": "        comment = '',",
+    "translatedContent": "        comment = '',"
+  },
+  {
+    "row": 169,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 170,
+    "rowsha": "LlP7vQWlA2PZ+l78wkn5AFoBh5xn5Hn7FIWhGBry6+M=",
+    "originContent": "    unit_test_framework = {",
+    "translatedContent": "    unit_test_framework = {"
+  },
+  {
+    "row": 171,
+    "rowsha": "CT87Y5lArbDs7dWozIb6LazbRDekyj8IFZXLTMMclmY=",
+    "originContent": "        -- Unit Test Framework for C/C++",
+    "translatedContent": "        -- Unit Test Framework for C/C++"
+  },
+  {
+    "row": 172,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 173,
+    "rowsha": "lHXKQdlQPFDEPTTMO4Bz/G1seBxBAmaoMEhD/RPW3tE=",
+    "originContent": "        -- * 'gmock',",
+    "translatedContent": "        -- * 'gmock',"
+  },
+  {
+    "row": 174,
+    "rowsha": "xv7bapsG8fIvJhA9MIUbhO0NWi0KVapQxTXqL+HjAwI=",
+    "originContent": "        -- * 'gtest'",
+    "translatedContent": "        -- * 'gtest'"
+  },
+  {
+    "row": 175,
+    "rowsha": "TyfIeewZJ0vuH/5D0k8W65z8lkQ6gi65tbAm1KgHlTQ=",
+    "originContent": "        ['C/C++'] = 'Not specified',",
+    "translatedContent": "        ['C/C++'] = 'Not specified',"
+  },
+  {
+    "row": 176,
+    "rowsha": "pTwEBtVMH3nLe+z9jSguSey3fNjakyJPoMVIQSi2Gx8=",
+    "originContent": "        -- Unit Test Framework for Go",
+    "translatedContent": "        -- Unit Test Framework for Go"
+  },
+  {
+    "row": 177,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 178,
+    "rowsha": "IaneDxVx3ayksO6a9X7Fy7nR/amAQ+vlb5q9ff35Qa8=",
+    "originContent": "        -- * 'gomock'",
+    "translatedContent": "        -- * 'gomock'"
+  },
+  {
+    "row": 179,
+    "rowsha": "AE35E2NeiYQCjgehSJuVSZsrRW5M8F/FntnAqKk/KQA=",
+    "originContent": "        -- * 'gotests'",
+    "translatedContent": "        -- * 'gotests'"
+  },
+  {
+    "row": 180,
+    "rowsha": "mK1+59UuC6hzjpvRSqPnx/GLqT/Xk/ssppvqvi53Ey0=",
+    "originContent": "        -- * 'testify'",
+    "translatedContent": "        -- * 'testify'"
+  },
+  {
+    "row": 181,
+    "rowsha": "RoCBl26x8TIQYkGP1tPv68PG2i7JhuCt0EUnp311aLI=",
+    "originContent": "        -- * 'monkey'",
+    "translatedContent": "        -- * 'monkey'"
+  },
+  {
+    "row": 182,
+    "rowsha": "9IlPLkai96kJS4WtztA/YnkXUaqUaw5KqhFAlGGaHk4=",
+    "originContent": "        -- * 'sqlmock'",
+    "translatedContent": "        -- * 'sqlmock'"
+  },
+  {
+    "row": 183,
+    "rowsha": "Iz5wmF7Xx33GiBO/FM+hdgLYbP92sO1Ag2PYhAgKUcU=",
+    "originContent": "        -- * 'httptest'",
+    "translatedContent": "        -- * 'httptest'"
+  },
+  {
+    "row": 184,
+    "rowsha": "p88jE52TbvbjpoFzgEI/OuLSQq0d9PqKSqfrkhJleJo=",
+    "originContent": "        ['Go'] = 'Not specified',",
+    "translatedContent": "        ['Go'] = 'Not specified',"
+  },
+  {
+    "row": 185,
+    "rowsha": "+x7Km0g5y/6PZsIYUYe5theAfUua+3wxCxCf9KthiBQ=",
+    "originContent": "        -- Unit Test Framework for Java",
+    "translatedContent": "        -- Unit Test Framework for Java"
+  },
+  {
+    "row": 186,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 187,
+    "rowsha": "R2YLIxzbZGUdTutTkRQxgxfg2N+XkIP1T1iGzn2IYM4=",
+    "originContent": "        -- * 'mockito'",
+    "translatedContent": "        -- * 'mockito'"
+  },
+  {
+    "row": 188,
+    "rowsha": "Xn7F9fp1i70c5ADBSfCI8t2yA4hmWArK0wKO8BDzyDk=",
+    "originContent": "        -- * 'junit4'",
+    "translatedContent": "        -- * 'junit4'"
+  },
+  {
+    "row": 189,
+    "rowsha": "cSdYjXIU8yD19cq3Qv5vtwWPLHjUJao7X2Hpi4Q7h+Y=",
+    "originContent": "        -- * 'junit5'",
+    "translatedContent": "        -- * 'junit5'"
+  },
+  {
+    "row": 190,
+    "rowsha": "FuTx+2W2r/1FUBITUPHq2oMMfUMBP8fC8M3DQr2MbIU=",
+    "originContent": "        -- * 'testNG'",
+    "translatedContent": "        -- * 'testNG'"
+  },
+  {
+    "row": 191,
+    "rowsha": "PjMn/ceoGUgIexYChpfO2TzxyABJfmKp4EecFbxeKSg=",
+    "originContent": "        -- * 'spock'",
+    "translatedContent": "        -- * 'spock'"
+  },
+  {
+    "row": 192,
+    "rowsha": "463aW1cXh0MMc6mNisrzy5WRh3wedVH2u39dXyRsc/A=",
+    "originContent": "        -- * 'jmockit'",
+    "translatedContent": "        -- * 'jmockit'"
+  },
+  {
+    "row": 193,
+    "rowsha": "F1b7OV5sfVLREv0GJCs+8iFXO+d07c/EMIEeryEcegs=",
+    "originContent": "        ['Java'] = 'Not specified',",
+    "translatedContent": "        ['Java'] = 'Not specified',"
+  },
+  {
+    "row": 194,
+    "rowsha": "NlnicuRjxvKQDeYVJGz7Ljc8qq510uIKXoSiKdjAzL8=",
+    "originContent": "        -- Unit Test Framework for JavaScript/TypeScript",
+    "translatedContent": "        -- Unit Test Framework for JavaScript/TypeScript"
+  },
+  {
+    "row": 195,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 196,
+    "rowsha": "0FEv2Sfm/UCm/k+kRH0HzB0vKv3H23gGGACWgy2t94w=",
+    "originContent": "        -- * 'mock'",
+    "translatedContent": "        -- * 'mock'"
+  },
+  {
+    "row": 197,
+    "rowsha": "2vh0qrG8eTXhRa9OhlcGRON7ECj+DJQ/qvOvAdiKQ/o=",
+    "originContent": "        -- * 'jest'",
+    "translatedContent": "        -- * 'jest'"
+  },
+  {
+    "row": 198,
+    "rowsha": "AH8d7XqV9Ua8Tf/0prP3FoEFoXqsrJOdI2dxf/rH4Hs=",
+    "originContent": "        -- * 'tape'",
+    "translatedContent": "        -- * 'tape'"
+  },
+  {
+    "row": 199,
+    "rowsha": "5Hgm57wjj23x2EhdO8J1aBSn4nSP3XBcf5fNDBOOM00=",
+    "originContent": "        -- * 'mocha'",
+    "translatedContent": "        -- * 'mocha'"
+  },
+  {
+    "row": 200,
+    "rowsha": "l7lM84DpRgZm0vyX5h97vPTx9uOMRpVKn6ZgZKt3GZo=",
+    "originContent": "        ['JavaScript/Typescript'] = 'Not specified',",
+    "translatedContent": "        ['JavaScript/Typescript'] = 'Not specified',"
+  },
+  {
+    "row": 201,
+    "rowsha": "PNN02G/j+Ww2lmxWlvKuAp335droJXPtcZhToXYyTpU=",
+    "originContent": "        -- Unit Test Framework for Python",
+    "translatedContent": "        -- Unit Test Framework for Python"
+  },
+  {
+    "row": 202,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 203,
+    "rowsha": "0FEv2Sfm/UCm/k+kRH0HzB0vKv3H23gGGACWgy2t94w=",
+    "originContent": "        -- * 'mock'",
+    "translatedContent": "        -- * 'mock'"
+  },
+  {
+    "row": 204,
+    "rowsha": "dG0zOxFgEuad4/sD46sjfgbT7ndDUoCCpcmCNWs8eRg=",
+    "originContent": "        -- * 'pytest'",
+    "translatedContent": "        -- * 'pytest'"
+  },
+  {
+    "row": 205,
+    "rowsha": "aKyoKs2Upr++w4GA+qgC2FZq/KzpWLB6kZHGMfYU+dg=",
+    "originContent": "        -- * 'doctest'",
+    "translatedContent": "        -- * 'doctest'"
+  },
+  {
+    "row": 206,
+    "rowsha": "4inOKQSguruccEhkn8M8kpt1U4m5F9iNNorb2nTeDos=",
+    "originContent": "        -- * 'unittest'",
+    "translatedContent": "        -- * 'unittest'"
+  },
+  {
+    "row": 207,
+    "rowsha": "tyANEjlmj9xbDulQBMJKgFINo/TSucdSh84ohc3ELq4=",
+    "originContent": "        ['Python'] = 'Not specified',",
+    "translatedContent": "        ['Python'] = 'Not specified',"
+  },
+  {
+    "row": 208,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 209,
+    "rowsha": "ZjyPmuACybhDNg9Mz/Li4I/IaY/PBpU6yd+IwQ8t2aY=",
+    "originContent": "    -- Intelligent Triggered Edit Completion",
+    "translatedContent": "    -- Intelligent Triggered Edit Completion"
+  },
+  {
+    "row": 210,
+    "rowsha": "majdrdxajudKn6U/Ngus+lfxf6uV7CLDU7IixmgjyKU=",
+    "originContent": "    use_auto_edit_completion = {",
+    "translatedContent": "    use_auto_edit_completion = {"
+  },
+  {
+    "row": 211,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 212,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 213,
+    "rowsha": "dMzY221Jk/WpT7pdOAXr8MUyoYfYQPydLYbiz01FKT4=",
+    "originContent": "        -- * 'on'",
+    "translatedContent": "        -- * 'on'"
+  },
+  {
+    "row": 214,
+    "rowsha": "FihiWL8iqhfH4Bu92309vP7eaLCTQTdsmaROSvjAWhg=",
+    "originContent": "        -- * 'off'",
+    "translatedContent": "        -- * 'off'"
+  },
+  {
+    "row": 215,
+    "rowsha": "oxGgNWCQFVeEMRP+1xDrbc9kMxuxfEz7wC4cEa88Wlo=",
+    "originContent": "        open = 'auto',",
+    "translatedContent": "        open = 'auto',"
+  },
+  {
+    "row": 216,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 217,
+    "rowsha": "czdysi6sTtnEWsZ2FIGxp3cj70dzMxnn4VAjRQfAI9A=",
+    "originContent": "    -- Automatic Project Index Creation",
+    "translatedContent": "    -- Automatic Project Index Creation"
+  },
+  {
+    "row": 218,
+    "rowsha": "UOR4RjY/kfp3mzWamNVRAb4wluBKM2VvSJ4DVqO5GYY=",
+    "originContent": "    use_auto_upload_project = {",
+    "translatedContent": "    use_auto_upload_project = {"
+  },
+  {
+    "row": 219,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 220,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 221,
+    "rowsha": "dMzY221Jk/WpT7pdOAXr8MUyoYfYQPydLYbiz01FKT4=",
+    "originContent": "        -- * 'on'",
+    "translatedContent": "        -- * 'on'"
+  },
+  {
+    "row": 222,
+    "rowsha": "FihiWL8iqhfH4Bu92309vP7eaLCTQTdsmaROSvjAWhg=",
+    "originContent": "        -- * 'off'",
+    "translatedContent": "        -- * 'off'"
+  },
+  {
+    "row": 223,
+    "rowsha": "oxGgNWCQFVeEMRP+1xDrbc9kMxuxfEz7wC4cEa88Wlo=",
+    "originContent": "        open = 'auto',",
+    "translatedContent": "        open = 'auto',"
+  },
+  {
+    "row": 224,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 225,
+    "rowsha": "qDNFB1ZCa1yBTJgXfeTLAu/WEZNjmze9nHhvJaAC1uY=",
+    "originContent": "    -- Entire Project Perception based Completion",
+    "translatedContent": "    -- Entire Project Perception based Completion"
+  },
+  {
+    "row": 226,
+    "rowsha": "FuUI9biFYDAEs8h2JsRRMqHv2wGEHrfx1X1v8V5BX6c=",
+    "originContent": "    use_project_completion = {",
+    "translatedContent": "    use_project_completion = {"
+  },
+  {
+    "row": 227,
+    "rowsha": "lOGXedTrZuMnsS1tWkimtNwe8dzVTlmng6potLC5hRA=",
+    "originContent": "        -- Avaiable options:",
+    "translatedContent": "        -- Avaiable options:"
+  },
+  {
+    "row": 228,
+    "rowsha": "ERbIjiFQltAaB6rk6xfZz9WWpAti25XkRzo03o7xe54=",
+    "originContent": "        -- * 'auto'",
+    "translatedContent": "        -- * 'auto'"
+  },
+  {
+    "row": 229,
+    "rowsha": "dMzY221Jk/WpT7pdOAXr8MUyoYfYQPydLYbiz01FKT4=",
+    "originContent": "        -- * 'on'",
+    "translatedContent": "        -- * 'on'"
+  },
+  {
+    "row": 230,
+    "rowsha": "FihiWL8iqhfH4Bu92309vP7eaLCTQTdsmaROSvjAWhg=",
+    "originContent": "        -- * 'off'",
+    "translatedContent": "        -- * 'off'"
+  },
+  {
+    "row": 231,
+    "rowsha": "oxGgNWCQFVeEMRP+1xDrbc9kMxuxfEz7wC4cEa88Wlo=",
+    "originContent": "        open = 'auto',",
+    "translatedContent": "        open = 'auto',"
+  },
+  {
+    "row": 232,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 233,
+    "rowsha": "kL5FSZbxTkLrHO2od/46yUgF0eLy9aKasITIvvjoG1A=",
+    "originContent": "    -- Use default keymaps for Fitten Code.",
+    "translatedContent": "    -- Use default keymaps for Fitten Code."
+  },
+  {
+    "row": 234,
+    "rowsha": "gxRC1NglEqVSy7jhNswTsDsVXowezBexRcHNwRBKyys=",
+    "originContent": "    -- If set to false, all defaults keymaps will be removed.",
+    "translatedContent": "    -- If set to false, all defaults keymaps will be removed."
+  },
+  {
+    "row": 235,
+    "rowsha": "F0Tl812mu6XgqtWIlhN+SSOd04Ol3k5rR9GdMXkzl3w=",
+    "originContent": "    use_default_keymaps = true,",
+    "translatedContent": "    use_default_keymaps = true,"
+  },
+  {
+    "row": 236,
+    "rowsha": "GbiWr0XyR0RcOZUhLeVH01JaAzAIDMlPA0qbTJqrCK4=",
+    "originContent": "    -- Default keymaps for Fitten Code.",
+    "translatedContent": "    -- Default keymaps for Fitten Code."
+  },
+  {
+    "row": 237,
+    "rowsha": "yC0LWUoH/Ogf2rhUJDAetw4o9kc5Z5jeZiURPwi8ACA=",
+    "originContent": "    keymaps = {",
+    "translatedContent": "    keymaps = {"
+  },
+  {
+    "row": 238,
+    "rowsha": "jUzfheqkDD6+7rbAfzo80ht3qp09YLM2y+zA4Z/JscQ=",
+    "originContent": "        inline = {",
+    "translatedContent": "        inline = {"
+  },
+  {
+    "row": 239,
+    "rowsha": "VNz3by0nHeef0yU8YVzszvCmdO7+34OUBN/7/4UOl0w=",
+    "originContent": "            inccmp = {",
+    "translatedContent": "            inccmp = {"
+  },
+  {
+    "row": 240,
+    "rowsha": "/0CjujOQ9DXp8uh7TtoiUnxcd7wJDfAeh224nbPc56k=",
+    "originContent": "                ['inline_completion'] = '<A-\\\\>',",
+    "translatedContent": "                ['inline_completion'] = '<A-\\\\>',"
+  },
+  {
+    "row": 241,
+    "rowsha": "M/I2QsCBbmOpUcDKRHSbJpwg6jHiftp2fxegXMrTw0A=",
+    "originContent": "                ['accept_all'] = '<Tab>',",
+    "translatedContent": "                ['accept_all'] = '<Tab>',"
+  },
+  {
+    "row": 242,
+    "rowsha": "QzVmrqmL4ULa3+4G6Fv+l6/4653QNF/k8zqhANCbjSM=",
+    "originContent": "                ['accept_next_line'] = '<C-Down>',",
+    "translatedContent": "                ['accept_next_line'] = '<C-Down>',"
+  },
+  {
+    "row": 243,
+    "rowsha": "wUIPHnPYuQwa6t0a6gGOBFtZMV82M06e7nxRbSdQ3oc=",
+    "originContent": "                ['accept_next_word'] = '<C-Right>',",
+    "translatedContent": "                ['accept_next_word'] = '<C-Right>',"
+  },
+  {
+    "row": 244,
+    "rowsha": "vsHfS6jJuHwn1S3FuSERog99mSk2Q/8iZg90BznmGWc=",
+    "originContent": "                ['revoke'] = { '<C-Left>', '<C-Up>' },",
+    "translatedContent": "                ['revoke'] = { '<C-Left>', '<C-Up>' },"
+  },
+  {
+    "row": 245,
+    "rowsha": "Fq0/e9gwFGUyR3KyPTlkMZ69HfuDfBNrzjVLYzsOyuk=",
+    "originContent": "                -- ['cancel'] = '<Esc>',",
+    "translatedContent": "                -- ['cancel'] = '<Esc>',"
+  },
+  {
+    "row": 246,
+    "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
+    "originContent": "            },",
+    "translatedContent": "            },"
+  },
+  {
+    "row": 247,
+    "rowsha": "RcX+rSR7eBN3Knm9P2UNaMUNwnZjYBSm+LnrnHgMw8w=",
+    "originContent": "            editcmp = {",
+    "translatedContent": "            editcmp = {"
+  },
+  {
+    "row": 248,
+    "rowsha": "3rDJQT1B0z6inzZSECkQRvp51PW2A82TqpF08Vj8vtg=",
+    "originContent": "                ['edit_completion'] = '<A-o>',",
+    "translatedContent": "                ['edit_completion'] = '<A-o>',"
+  },
+  {
+    "row": 249,
+    "rowsha": "M/I2QsCBbmOpUcDKRHSbJpwg6jHiftp2fxegXMrTw0A=",
+    "originContent": "                ['accept_all'] = '<Tab>',",
+    "translatedContent": "                ['accept_all'] = '<Tab>',"
+  },
+  {
+    "row": 250,
+    "rowsha": "+nDC9XyD4IUPVxdfMrpXfNHOZ1fuHNa+pBi3vf6qKac=",
+    "originContent": "                ['accept_next_hunk'] = '<C-Down>',",
+    "translatedContent": "                ['accept_next_hunk'] = '<C-Down>',"
+  },
+  {
+    "row": 251,
+    "rowsha": "vsHfS6jJuHwn1S3FuSERog99mSk2Q/8iZg90BznmGWc=",
+    "originContent": "                ['revoke'] = { '<C-Left>', '<C-Up>' },",
+    "translatedContent": "                ['revoke'] = { '<C-Left>', '<C-Up>' },"
+  },
+  {
+    "row": 252,
+    "rowsha": "zLZrOTkLSuGnuByhHkIcWxQ1imvATqROUyaZGIOtHx8=",
+    "originContent": "                ['cancel'] = '<Esc>',",
+    "translatedContent": "                ['cancel'] = '<Esc>',"
+  },
+  {
+    "row": 253,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 254,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 255,
+    "rowsha": "aMZDPhzUNNxiXdONBoppH7WZXgI/RAnJweOh6pB7LQ8=",
+    "originContent": "        chat = {",
+    "translatedContent": "        chat = {"
+  },
+  {
+    "row": 256,
+    "rowsha": "w/BU+N2H/6+RCMTRkPp2KHDWqfBgG0N17U7oNYha7vc=",
+    "originContent": "            ['add_selection_context_to_input'] = 'A-X',",
+    "translatedContent": "            ['add_selection_context_to_input'] = 'A-X',"
+  },
+  {
+    "row": 257,
+    "rowsha": "BX9VJO0hTpHOumeXAvbbR+Dr/jH0Jh2JVMdA+y5A9Aw=",
+    "originContent": "            ['document_code'] = '',",
+    "translatedContent": "            ['document_code'] = '',"
+  },
+  {
+    "row": 258,
+    "rowsha": "/cR06ahB35sHm290Lhl04fhMVp94dqi7NE5L4K8LVrY=",
+    "originContent": "            ['edit_code'] = '',",
+    "translatedContent": "            ['edit_code'] = '',"
+  },
+  {
+    "row": 259,
+    "rowsha": "kkRe8a3RSZIlOP5GLLQvEUvSB5ZGvoZf7VOcgXwgCoI=",
+    "originContent": "            ['explain_code'] = '',",
+    "translatedContent": "            ['explain_code'] = '',"
+  },
+  {
+    "row": 260,
+    "rowsha": "X5syXof75tZAr7XrlVMY52sTkzslvkqLLykT9A3N+68=",
+    "originContent": "            ['find_bugs'] = '',",
+    "translatedContent": "            ['find_bugs'] = '',"
+  },
+  {
+    "row": 261,
+    "rowsha": "GaBdrk3MmZpmy/PwdU23zuAtE1jxqhGe8c3Z2iCVEF8=",
+    "originContent": "            ['generate_unit_test'] = '',",
+    "translatedContent": "            ['generate_unit_test'] = '',"
+  },
+  {
+    "row": 262,
+    "rowsha": "NpZ3bG1aPtw4AvxVS8GkpVQ7Sp0NPzgY7uqDlzzUsmg=",
+    "originContent": "            ['optimize_code'] = '',",
+    "translatedContent": "            ['optimize_code'] = '',"
+  },
+  {
+    "row": 263,
+    "rowsha": "8hzj1DfU1frk2SWlhGOTZYry1atHOV4iPYlscFp9NtM=",
+    "originContent": "            ['start_chat'] = '',",
+    "translatedContent": "            ['start_chat'] = '',"
+  },
+  {
+    "row": 264,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 265,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 266,
+    "rowsha": "hKKeIt7IGAKnWiNKxWod7dqARmMNhXXdffgAu8+V67Q=",
+    "originContent": "    log = {",
+    "translatedContent": "    log = {"
+  },
+  {
+    "row": 267,
+    "rowsha": "svugj1b1bdzw6IFZYo8G81ZlKvVn1Wn7CJLx6xuW7Uk=",
+    "originContent": "        level = vim.log.levels.WARN,",
+    "translatedContent": "        level = vim.log.levels.WARN,"
+  },
+  {
+    "row": 268,
+    "rowsha": "9aADuNq+UcoUuelVQc3IEczRE2NsTY4wZ/Fx1P9qfII=",
+    "originContent": "        -- Notify when log errors occur.",
+    "translatedContent": "        -- Notify when log errors occur."
+  },
+  {
+    "row": 269,
+    "rowsha": "E16j7iuOM3hsrQnZKQEHFP4XVAZpzYyZFGUW0hw+Zy0=",
+    "originContent": "        notify_on_errors = false,",
+    "translatedContent": "        notify_on_errors = false,"
+  },
+  {
+    "row": 270,
+    "rowsha": "aSex7Kj3ERvrKQAX+sV9AAYixVz4cq+XDZKpB4f4BZY=",
+    "originContent": "        trace = false,",
+    "translatedContent": "        trace = false,"
+  },
+  {
+    "row": 271,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 272,
+    "rowsha": "DheD3NHVDqmi0vVZMu660vQsOGYaurOUTJFt7hA2Vx4=",
+    "originContent": "    colors = {",
+    "translatedContent": "    colors = {"
+  },
+  {
+    "row": 273,
+    "rowsha": "kFr/s86Kv53tIAEQ7clkf2fzztoIrbRcDUOoVmALMs4=",
+    "originContent": "        -- { fg = '#ffffff', bg = '#000000', style = 'bold' }",
+    "translatedContent": "        -- { fg = '#ffffff', bg = '#000000', style = 'bold' }"
+  },
+  {
+    "row": 274,
+    "rowsha": "D/Jk3J6JY2ux8vyz3fhpnxla2bGcYiARLrAm1nk6dGk=",
+    "originContent": "        ['Suggestion'] = {},",
+    "translatedContent": "        ['Suggestion'] = {},"
+  },
+  {
+    "row": 275,
+    "rowsha": "3YfbKt9M1IG8lgD2tDb+SaDesBmP3s9gZapIKmcmE58=",
+    "originContent": "        ['InfoNotify'] = {},",
+    "translatedContent": "        ['InfoNotify'] = {},"
+  },
+  {
+    "row": 276,
+    "rowsha": "2tTtFsOgnjefqS8gmaSNG/mrEutlYiPcOD1jF17y38M=",
+    "originContent": "        ['Commit'] = {},",
+    "translatedContent": "        ['Commit'] = {},"
+  },
+  {
+    "row": 277,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 278,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 279,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 280,
+    "rowsha": "Bs761Hvrqlslq51XysQXyrK3HLyVMG5fMwhE9v7L9hM=",
+    "originContent": "## 🚀 Usage",
+    "translatedContent": "## 🚀 Uso"
+  },
+  {
+    "row": 281,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 282,
+    "rowsha": "xXex/lSuuxc8D/UpMvo9U20cAQK48DBS4WixTLdF+PY=",
+    "originContent": "| Command Name      | Description           |",
+    "translatedContent": "| Nombre del Comando      | Descripción            |"
+  },
+  {
+    "row": 283,
+    "rowsha": "CrqpbdwQgK+elCMPvnISPgtn5g/75GHy488XFO/n22o=",
+    "originContent": "|-------------------|-----------------------|",
+    "translatedContent": "|------------------------|------------------------|"
+  },
+  {
+    "row": 284,
+    "rowsha": "eQBBCNE2l4Bvt1uXEznJJNIeIUIWCEtAA2KOgBemXeI=",
+    "originContent": "| register          | Register account      |",
+    "translatedContent": "| register               | Registrar cuenta       |"
+  },
+  {
+    "row": 285,
+    "rowsha": "Im1pHScrxLUIaTpbFcJX5U4+++gjzZU8zJQnlu029Zo=",
+    "originContent": "| login             | Login account         |",
+    "translatedContent": "| login                  | Iniciar sesión         |"
+  },
+  {
+    "row": 286,
+    "rowsha": "h4u4UoXsNv4tLRSrEXKbDLJweQKSVXy7sBJGsCCZd58=",
+    "originContent": "| login3rd          | Third-party login     |",
+    "translatedContent": "| login3rd               | Inicio de sesión tercero|"
+  },
+  {
+    "row": 287,
+    "rowsha": "JAa4pO+ivu/JwCjt+VjaoA5WZeyq/EhQKKc1PnYYI5M=",
+    "originContent": "| logout            | Logout account        |",
+    "translatedContent": "| logout                 | Cerrar sesión          |"
+  },
+  {
+    "row": 288,
+    "rowsha": "x1pmJnnN7sK/WLevzAjSYlEEU9EJs2IFWz/wYYEhmDs=",
+    "originContent": "| ask_question      | Ask question          |",
+    "translatedContent": "| ask_question           | Hacer pregunta         |"
+  },
+  {
+    "row": 289,
+    "rowsha": "lFanx8Ua2MHE/4xuXzA3PwfAa5K9GrdKAIn5NUdTKR8=",
+    "originContent": "| user_guide        | User guide            |",
+    "translatedContent": "| user_guide             | Guía del usuario       |"
+  },
+  {
+    "row": 290,
+    "rowsha": "jkSoWRRg3lmOTciQ+FlSlcr2GxciRqLDbq599E5iiXk=",
+    "originContent": "| enable_completions| Enable completions    |",
+    "translatedContent": "| enable_completions     | Habilitar completaciones|"
+  },
+  {
+    "row": 291,
+    "rowsha": "OFUEe48AjT7Zw+tIyJ+tlTwmnocGOfxsVR8IP4d/TrA=",
+    "originContent": "| disable_completions| Disable completions   |",
+    "translatedContent": "| disable_completions    | Deshabilitar completaciones|"
+  },
+  {
+    "row": 292,
+    "rowsha": "A6vhJA/Yz0jolJrDh/Noodd0BfL/QFB0vxhV4a45nUc=",
+    "originContent": "| onlyenable_completions| Enable completions for specific files|",
+    "translatedContent": "| onlyenable_completions | Habilitar completaciones para archivos específicos|"
+  },
+  {
+    "row": 293,
+    "rowsha": "SOkTgZSpDLnO8FUICST4GGgofBwt2uv0GwOg6FzCFyA=",
+    "originContent": "| onlydisable_completions| Disable completions for specific files|",
+    "translatedContent": "| onlydisable_completions| Deshabilitar completaciones para archivos específicos|"
+  },
+  {
+    "row": 294,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 295,
+    "rowsha": "LRCsZ+xaJZxIOkoi7QOzAamIPA67A0sE9p737UU6EB4=",
+    "originContent": "## ✏️ API",
+    "translatedContent": "## ✏️ API"
+  },
+  {
+    "row": 296,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 297,
+    "rowsha": "JJ6twVw3opMIsE2a1Z80rwUMmuoP9T+lR7LsUjnT9T0=",
+    "originContent": "| Function | Description |",
+    "translatedContent": "| Función               | Descripción                               |"
+  },
+  {
+    "row": 298,
+    "rowsha": "tkIETMJFXsZuFrAwyod8za8rnBpkWaFGEtOgogeluKg=",
+    "originContent": "|----------|-------------|",
+    "translatedContent": "|-----------------------|-------------------------------------------|"
+  },
+  {
+    "row": 299,
+    "rowsha": "WtzmXfJF7UyHaFjnfpiBDGx5pM3pLXXpcLRK5j9UZ9U=",
+    "originContent": "| `has_completions()` | Check if there are completion suggestions available |",
+    "translatedContent": "| `has_completions()`   | Verificar si hay sugerencias de completado disponibles |"
+  },
+  {
+    "row": 300,
+    "rowsha": "8GjR59+8X8k2nlfKLfVjtYCqvepV9pWFg0tbkqT3WcQ=",
+    "originContent": "| `accept(scope)` | Accept the current completion suggestion |",
+    "translatedContent": "| `accept(scope)`       | Aceptar la sugerencia de completado actual|"
+  },
+  {
+    "row": 301,
+    "rowsha": "144dadWbOhJD7rSB23YMizpv2uPm8KLmJwJ/+wz9LMY=",
+    "originContent": "| `revoke()` | Undo the last completion operation |",
+    "translatedContent": "| `revoke()`            | Deshacer la última operación de completado|"
+  },
+  {
+    "row": 302,
+    "rowsha": "hSzsIcJTxztzwnQs8NHvwUKRs609/ADbUDU3LJggKtc=",
+    "originContent": "| `completion_cancel()` | Cancel the current completion suggestion |",
+    "translatedContent": "| `completion_cancel()` | Cancelar la sugerencia de completado actual|"
+  },
+  {
+    "row": 303,
+    "rowsha": "xQDJ24wYrBPwKQHYuRRT4j1DJoK/tp0IToOyoMNejuk=",
+    "originContent": "| `get_status()` | Get the current status of the completion system |",
+    "translatedContent": "| `get_status()`        | Obtener el estado actual del sistema de completado|"
+  },
+  {
+    "row": 304,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 305,
+    "rowsha": "R8DxBB9KTbpbtn6IoxWX7qOhp30ecgTOsOUhkk7udhQ=",
+    "originContent": "## 🎉 Special Thanks",
+    "translatedContent": "## 🎉 Agradecimientos especiales"
+  },
+  {
+    "row": 306,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 307,
+    "rowsha": "qd5IY4XwoLNZQJTMJzpe1ugt/wCEOxcjNyOQdKr0REM=",
+    "originContent": "https://github.com/FittenTech/fittencode.vim",
+    "translatedContent": "https://github.com/FittenTech/fittencode.vim"
+  },
+  {
+    "row": 308,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 309,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

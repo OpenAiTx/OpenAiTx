@@ -271,8 +271,8 @@ sudo yum install xdg-utils
         "bypass": "" // 忽略主机名
       }, <3.4.1 启用> 代理设置
       "defaultHot": "kylive", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)
-      "hot": "kylive", // <3.4.1 启用> 热搜(baidu=百度,douban=豆瓣,enlightent=云合,komect=移动爱家,kylive=酷云,quark=夸克)
-      "association": "douban", // <3.4.4 启用> 搜索联想(douban=豆瓣,iqiyi=爱奇艺,snm=喜粤TV)
+      "hot": "kylive", // <3.4.1 启用> 热搜(douban=豆瓣,enlightent=云合,komect=移动爱家,hisense=海信,kylive=酷云)
+      "association": "douban", // <3.4.4 启用> 搜索联想(douban=豆瓣,hisense=海信,snm=喜粤TV)
       "defaultSearchRecommend": "site", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用
       "defaultSearchType": "site", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部
       "defaultFilterType": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词

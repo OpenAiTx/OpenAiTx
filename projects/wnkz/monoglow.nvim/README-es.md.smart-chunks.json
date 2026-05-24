@@ -1,0 +1,1305 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🎆 Mono Glow\n\nA mostly monochrome colorscheme with a touch of glowing.\n\n![Monoglow Z screenshot](https://github.com/user-attachments/assets/4f4052be-def8-43b0-99f2-5c6f2ec2d502)\n![Insert mode](https://github.com/user-attachments/assets/1d4239b3-4e3e-4b57-9462-877d9de809c1)\n![Visual mode](https://github.com/user-attachments/assets/0c53b594-7351-4dd9-89de-326675d8020d)\n<img src=\"https://github.com/user-attachments/assets/ecd5cf8d-ccfa-41be-a965-ddeb55687caa\" alt=\"Monoglow Z (default) Palette\" width=\"100%\">\n\n> [!NOTE]\n> More 📷 [screenshots here](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/SCREENSHOTS.md)\n\n## ✨ Features\n\n- Supports the latest [Neovim](https://github.com/neovim/neovim)\n  [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0) features.\n- Terminal colors.\n- Supports ~all major~ plugins (see below).\n\n> [!NOTE]\n> Currently available Plugins and Extras are mostly based on what I use, but feel free\n> to open an issue or a PR to suggest a new one!\n\n<details>\n<summary>🎨 Supported Plugins</summary>\n\n| Plugin                                                             | Source                                                             |\n| ------------------------------------------------------------------ | ------------------------------------------------------------------ |\n| [blink.cmp](https://github.com/Saghen/blink.cmp)                   | [`blink-cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/blink-cmp.lua)                   |\n| [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim)        | [`dashboard`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/dashboard.lua)                   |\n| [flash.nvim](https://github.com/folke/flash.nvim)                  | [`flash`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/flash.lua)                           |\n| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)        | [`gitsigns`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/gitsigns.lua)                     |\n| [markview.nvim](https://github.com/OXY2DEV/markview.nvim)          | [`markview`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/markview.lua)                     |\n| [mason.nvim](https://github.com/williamboman/mason.nvim)           | [`mason`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/mason.lua)                           |\n| [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)    | [`neo-tree`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/neo-tree.lua)                     |\n| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)                    | [`cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/cmp.lua)                               |\n| [nvim-window-picker](https://github.com/s1n7ax/nvim-window-picker) | [`nvim-window-picker`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/nvim-window-picker.lua) |\n| [oil.nvim](https://github.com/stevearc/oil.nvim)                   | [`oil`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/oil.lua)                               |\n| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | [`telescope`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/telescope.lua)                   |\n| [which-key.nvim](https://github.com/folke/which-key.nvim)          | [`which-key`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/which-key.lua)                   |",
+    "ContentSha": "jBK2HeYklXP5OllOQQ5iE8TvEUlz7ZTR+/ZbLfTNu7o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🎆 Mono Glow\n\nUn esquema de colores mayormente monocromático con un toque de brillo.\n\n![Monoglow Z screenshot](https://github.com/user-attachments/assets/4f4052be-def8-43b0-99f2-5c6f2ec2d502)\n![Insert mode](https://github.com/user-attachments/assets/1d4239b3-4e3e-4b57-9462-877d9de809c1)\n![Visual mode](https://github.com/user-attachments/assets/0c53b594-7351-4dd9-89de-326675d8020d)\n<img src=\"https://github.com/user-attachments/assets/ecd5cf8d-ccfa-41be-a965-ddeb55687caa\" alt=\"Monoglow Z (default) Palette\" width=\"100%\">\n\n> [!NOTE]\n> Más 📷 [capturas aquí](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/SCREENSHOTS.md)\n\n## ✨ Características\n\n- Soporta las últimas características de [Neovim](https://github.com/neovim/neovim)\n  [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0).\n- Colores para terminal.\n- Soporta ~casi todos los~ plugins principales (ver más abajo).\n\n> [!NOTE]\n> Los Plugins y Extras disponibles actualmente están mayormente basados en lo que uso, pero siéntete libre\n> de abrir un issue o un PR para sugerir uno nuevo.\n\n<details>\n<summary>🎨 Plugins Soportados</summary>\n\n| Plugin                                                             | Fuente                                                             |\n| ------------------------------------------------------------------ | ------------------------------------------------------------------ |\n| [blink.cmp](https://github.com/Saghen/blink.cmp)                   | [`blink-cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/blink-cmp.lua)                   |\n| [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim)        | [`dashboard`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/dashboard.lua)                   |\n| [flash.nvim](https://github.com/folke/flash.nvim)                  | [`flash`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/flash.lua)                           |\n| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)        | [`gitsigns`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/gitsigns.lua)                     |\n| [markview.nvim](https://github.com/OXY2DEV/markview.nvim)          | [`markview`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/markview.lua)                     |\n| [mason.nvim](https://github.com/williamboman/mason.nvim)           | [`mason`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/mason.lua)                           |\n| [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)    | [`neo-tree`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/neo-tree.lua)                     |\n| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)                    | [`cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/cmp.lua)                               |\n| [nvim-window-picker](https://github.com/s1n7ax/nvim-window-picker) | [`nvim-window-picker`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/nvim-window-picker.lua) |\n| [oil.nvim](https://github.com/stevearc/oil.nvim)                   | [`oil`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/oil.lua)                               |\n| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | [`telescope`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/telescope.lua)                   |\n| [which-key.nvim](https://github.com/folke/which-key.nvim)          | [`which-key`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/which-key.lua)                   |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "46ZCM36eURrc3OQcWxN8yvcvuebnnKpa94G2J08r3FY=",
+        "originContent": "# 🎆 Mono Glow",
+        "translatedContent": "# 🎆 Mono Glow"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Bh/yl4s+7FBCnHXQZCQRZ22FdHCoZ1ulsZNzc4+APzs=",
+        "originContent": "A mostly monochrome colorscheme with a touch of glowing.",
+        "translatedContent": "Un esquema de colores mayormente monocromático con un toque de brillo."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "R1el5BpVeuV/v4B4S7YzjXhCtgVd4Ey4hno7dx/efgU=",
+        "originContent": "![Monoglow Z screenshot](https://github.com/user-attachments/assets/4f4052be-def8-43b0-99f2-5c6f2ec2d502)",
+        "translatedContent": "![Monoglow Z screenshot](https://github.com/user-attachments/assets/4f4052be-def8-43b0-99f2-5c6f2ec2d502)"
+      },
+      {
+        "row": 6,
+        "rowsha": "LX4KncM3G1r1oitp+EV9Ttxb3+tUnNsx8Qb3bHm1nbo=",
+        "originContent": "![Insert mode](https://github.com/user-attachments/assets/1d4239b3-4e3e-4b57-9462-877d9de809c1)",
+        "translatedContent": "![Insert mode](https://github.com/user-attachments/assets/1d4239b3-4e3e-4b57-9462-877d9de809c1)"
+      },
+      {
+        "row": 7,
+        "rowsha": "2N8Om9uGcfama93bIXcVCE3AZtV/Hn/ZbfqiSu9BK4o=",
+        "originContent": "![Visual mode](https://github.com/user-attachments/assets/0c53b594-7351-4dd9-89de-326675d8020d)",
+        "translatedContent": "![Visual mode](https://github.com/user-attachments/assets/0c53b594-7351-4dd9-89de-326675d8020d)"
+      },
+      {
+        "row": 8,
+        "rowsha": "WI9FokN4AoFoXrjYKHKgN6Fkkg09330n0TzrW3BHHHk=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/ecd5cf8d-ccfa-41be-a965-ddeb55687caa\" alt=\"Monoglow Z (default) Palette\" width=\"100%\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/ecd5cf8d-ccfa-41be-a965-ddeb55687caa\" alt=\"Monoglow Z (default) Palette\" width=\"100%\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 11,
+        "rowsha": "gfU/eIl7DdUIykwNSAThdLEah1W+tTk4baLfy03Xv6w=",
+        "originContent": "> More 📷 [screenshots here](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/SCREENSHOTS.md)",
+        "translatedContent": "> Más 📷 [capturas aquí](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/SCREENSHOTS.md)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ Características"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "M/nNwFCMfI449JlEo3zplNHEFMT9ILISI03oKJ7hki4=",
+        "originContent": "- Supports the latest [Neovim](https://github.com/neovim/neovim)",
+        "translatedContent": "- Soporta las últimas características de [Neovim](https://github.com/neovim/neovim)"
+      },
+      {
+        "row": 16,
+        "rowsha": "3wbAexE4IVjDP20vdY+SvQ6coTgxGY+pKokkv2Jj4KU=",
+        "originContent": "  [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0) features.",
+        "translatedContent": "  [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0)."
+      },
+      {
+        "row": 17,
+        "rowsha": "NHd2ncRJlnE4BUJ1KpX6OO0sDnvML+AoFdy3Bl9fQ+M=",
+        "originContent": "- Terminal colors.",
+        "translatedContent": "- Colores para terminal."
+      },
+      {
+        "row": 18,
+        "rowsha": "XKBRK2NWPN/WzQ89xtGCI7LDvYf+A6dJL3EI+b7z6S4=",
+        "originContent": "- Supports ~all major~ plugins (see below).",
+        "translatedContent": "- Soporta ~casi todos los~ plugins principales (ver más abajo)."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 21,
+        "rowsha": "RjuFSEzxKUcP14puccheI+oRfFmntf3954ZNklEF2AI=",
+        "originContent": "> Currently available Plugins and Extras are mostly based on what I use, but feel free",
+        "translatedContent": "> Los Plugins y Extras disponibles actualmente están mayormente basados en lo que uso, pero siéntete libre"
+      },
+      {
+        "row": 22,
+        "rowsha": "TZlC2a85jUNvu2KT1FuxNwDv9E1vcmGebsW3hEGv0xo=",
+        "originContent": "> to open an issue or a PR to suggest a new one!",
+        "translatedContent": "> de abrir un issue o un PR para sugerir uno nuevo."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 25,
+        "rowsha": "/FD2o7lhCayQeTc6jvspcxHiYxqL7FPHgXXVu/Ah4VA=",
+        "originContent": "<summary>🎨 Supported Plugins</summary>",
+        "translatedContent": "<summary>🎨 Plugins Soportados</summary>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "X4AtI+yj+NU9K9l/ulfVr8YHYa97VCOgwCshiTT7kdo=",
+        "originContent": "| Plugin                                                             | Source                                                             |",
+        "translatedContent": "| Plugin                                                             | Fuente                                                             |"
+      },
+      {
+        "row": 28,
+        "rowsha": "n82c/rjmvHHfCZUY0MjqNErwV8dMK4JVV+vXTk9ro3U=",
+        "originContent": "| ------------------------------------------------------------------ | ------------------------------------------------------------------ |",
+        "translatedContent": "| ------------------------------------------------------------------ | ------------------------------------------------------------------ |"
+      },
+      {
+        "row": 29,
+        "rowsha": "46t4Zrg4IW6bfadb//6zWwSZmdWZnVa0zL3Tm6+k5NM=",
+        "originContent": "| [blink.cmp](https://github.com/Saghen/blink.cmp)                   | [`blink-cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/blink-cmp.lua)                   |",
+        "translatedContent": "| [blink.cmp](https://github.com/Saghen/blink.cmp)                   | [`blink-cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/blink-cmp.lua)                   |"
+      },
+      {
+        "row": 30,
+        "rowsha": "akCPfxCrRgKUNWw0hcSOzRpZPdtssaWzbPUujfhsyls=",
+        "originContent": "| [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim)        | [`dashboard`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/dashboard.lua)                   |",
+        "translatedContent": "| [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim)        | [`dashboard`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/dashboard.lua)                   |"
+      },
+      {
+        "row": 31,
+        "rowsha": "L2F1jEBpfZLcRPTMcYT97PyMV9XXuCs6zzAz11sQ6aw=",
+        "originContent": "| [flash.nvim](https://github.com/folke/flash.nvim)                  | [`flash`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/flash.lua)                           |",
+        "translatedContent": "| [flash.nvim](https://github.com/folke/flash.nvim)                  | [`flash`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/flash.lua)                           |"
+      },
+      {
+        "row": 32,
+        "rowsha": "m2qdoTET9Rb9BdoiWPk2dk2TU7hFRocno8LiWZlij5E=",
+        "originContent": "| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)        | [`gitsigns`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/gitsigns.lua)                     |",
+        "translatedContent": "| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)        | [`gitsigns`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/gitsigns.lua)                     |"
+      },
+      {
+        "row": 33,
+        "rowsha": "CF6E3LAFYNSLTdBrbD4sCc/jzXFFyB04vNitlUk+BWY=",
+        "originContent": "| [markview.nvim](https://github.com/OXY2DEV/markview.nvim)          | [`markview`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/markview.lua)                     |",
+        "translatedContent": "| [markview.nvim](https://github.com/OXY2DEV/markview.nvim)          | [`markview`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/markview.lua)                     |"
+      },
+      {
+        "row": 34,
+        "rowsha": "Zx1nIgo+v+um8rG0xAus4QwS44t+oUosv5BSJYCBW70=",
+        "originContent": "| [mason.nvim](https://github.com/williamboman/mason.nvim)           | [`mason`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/mason.lua)                           |",
+        "translatedContent": "| [mason.nvim](https://github.com/williamboman/mason.nvim)           | [`mason`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/mason.lua)                           |"
+      },
+      {
+        "row": 35,
+        "rowsha": "fsMGfr5tUAOqoMIrywRDPfIGDktDk0IpK3xUcoNBoZ4=",
+        "originContent": "| [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)    | [`neo-tree`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/neo-tree.lua)                     |",
+        "translatedContent": "| [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)    | [`neo-tree`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/neo-tree.lua)                     |"
+      },
+      {
+        "row": 36,
+        "rowsha": "lK59dTpvKlDT04b3EbmlBLI3VurLLb79202L+uSBsH0=",
+        "originContent": "| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)                    | [`cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/cmp.lua)                               |",
+        "translatedContent": "| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)                    | [`cmp`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/cmp.lua)                               |"
+      },
+      {
+        "row": 37,
+        "rowsha": "LQ7AUTD/R/yO/eTRyLElVPWHY1T1oV6J+33tNzM7raE=",
+        "originContent": "| [nvim-window-picker](https://github.com/s1n7ax/nvim-window-picker) | [`nvim-window-picker`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/nvim-window-picker.lua) |",
+        "translatedContent": "| [nvim-window-picker](https://github.com/s1n7ax/nvim-window-picker) | [`nvim-window-picker`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/nvim-window-picker.lua) |"
+      },
+      {
+        "row": 38,
+        "rowsha": "lLO4y1zla13rWyBqZN878hjqQTq3jweWTbwNi9ul5uM=",
+        "originContent": "| [oil.nvim](https://github.com/stevearc/oil.nvim)                   | [`oil`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/oil.lua)                               |",
+        "translatedContent": "| [oil.nvim](https://github.com/stevearc/oil.nvim)                   | [`oil`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/oil.lua)                               |"
+      },
+      {
+        "row": 39,
+        "rowsha": "VU7DA3zsnX3EaH6w6YbgMyBy0qGh1V+4earfdJ+UIgg=",
+        "originContent": "| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | [`telescope`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/telescope.lua)                   |",
+        "translatedContent": "| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | [`telescope`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/telescope.lua)                   |"
+      },
+      {
+        "row": 40,
+        "rowsha": "6CLmc6ehPBqHiP9LWLrJ/gKbM8jm3mpCzr2bSHP9Z9M=",
+        "originContent": "| [which-key.nvim](https://github.com/folke/which-key.nvim)          | [`which-key`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/which-key.lua)                   |",
+        "translatedContent": "| [which-key.nvim](https://github.com/folke/which-key.nvim)          | [`which-key`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/which-key.lua)                   |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n</details>\n\n<details>\n<summary>🍭 Extras</summary>\n\n| Tool                                               | Extra                            |\n| -------------------------------------------------- | -------------------------------- |\n| [Ghostty](https://ghostty.org/docs/features/theme) | [extras/ghostty](extras/ghostty) |\n| [Helix](https://helix-editor.com/)                 | [extras/helix](extras/helix)     |\n| [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty)     |\n| [Vim](https://vimhelp.org/)                        | [extras/vim](extras/vim)         |\n| [VS Code](https://code.visualstudio.com/)          | [extras/vscode](extras/vscode)   |\n| [WezTerm](https://wezterm.org/)                    | [extras/wezterm](extras/wezterm) |\n| [Zed](https://zed.dev/)                            | [extras/zed](extras/zed)         |\n\n</details>\n\n## 📦 Installation\n\nInstall the theme with your preferred package manager, such as\n[folke/lazy.nvim](https://github.com/folke/lazy.nvim):\n",
+    "ContentSha": "186CXG4Rx7+MTJ2OatAWg6EFtg23OQFRVQSxe3vO1Wc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n<details>\n<summary>🍭 Extras</summary>\n\n| Herramienta                                        | Extra                            |\n| -------------------------------------------------- | -------------------------------- |\n| [Ghostty](https://ghostty.org/docs/features/theme) | [extras/ghostty](extras/ghostty) |\n| [Helix](https://helix-editor.com/)                 | [extras/helix](extras/helix)     |\n| [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty)     |\n| [Vim](https://vimhelp.org/)                        | [extras/vim](extras/vim)         |\n| [VS Code](https://code.visualstudio.com/)          | [extras/vscode](extras/vscode)   |\n| [WezTerm](https://wezterm.org/)                    | [extras/wezterm](extras/wezterm) |\n| [Zed](https://zed.dev/)                            | [extras/zed](extras/zed)         |\n\n</details>\n\n## 📦 Instalación\n\nInstala el tema con tu gestor de paquetes preferido, como\n[folke/lazy.nvim](https://github.com/folke/lazy.nvim):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "9KjTVetFfudZTBQjM3YhKapP8RB/aA+UGXizh2VgjKk=",
+        "originContent": "<summary>🍭 Extras</summary>",
+        "translatedContent": "<summary>🍭 Extras</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "K+w/2xr7fcICDNHLXluVUViNT94BHgsL6MtaNjI1+ec=",
+        "originContent": "| Tool                                               | Extra                            |",
+        "translatedContent": "| Herramienta                                        | Extra                            |"
+      },
+      {
+        "row": 8,
+        "rowsha": "ay65CH1SRgl4OHxgWtyuP+s5g2UiAHRSKG928gpNKk0=",
+        "originContent": "| -------------------------------------------------- | -------------------------------- |",
+        "translatedContent": "| -------------------------------------------------- | -------------------------------- |"
+      },
+      {
+        "row": 9,
+        "rowsha": "f44aFTSWRwno8M/gYno0O65l7PVsprqYRwO5qz97beI=",
+        "originContent": "| [Ghostty](https://ghostty.org/docs/features/theme) | [extras/ghostty](extras/ghostty) |",
+        "translatedContent": "| [Ghostty](https://ghostty.org/docs/features/theme) | [extras/ghostty](extras/ghostty) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "hFf2W5YyK/rG0JtvBqSXKV/UvXPasfsHr9hEQzaJleg=",
+        "originContent": "| [Helix](https://helix-editor.com/)                 | [extras/helix](extras/helix)     |",
+        "translatedContent": "| [Helix](https://helix-editor.com/)                 | [extras/helix](extras/helix)     |"
+      },
+      {
+        "row": 11,
+        "rowsha": "9eFJsIggVlwZlXdctqTNF/RVBJVhjlLIJplAsWkHBqc=",
+        "originContent": "| [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty)     |",
+        "translatedContent": "| [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty)     |"
+      },
+      {
+        "row": 12,
+        "rowsha": "H7jFmIfhuGVaKECuzHJ6ucxlMDZG51eEielXzbB7W20=",
+        "originContent": "| [Vim](https://vimhelp.org/)                        | [extras/vim](extras/vim)         |",
+        "translatedContent": "| [Vim](https://vimhelp.org/)                        | [extras/vim](extras/vim)         |"
+      },
+      {
+        "row": 13,
+        "rowsha": "lbzz2MijDB8zSSaM7p6FluiDskdpgxVC54F8QOvXSd0=",
+        "originContent": "| [VS Code](https://code.visualstudio.com/)          | [extras/vscode](extras/vscode)   |",
+        "translatedContent": "| [VS Code](https://code.visualstudio.com/)          | [extras/vscode](extras/vscode)   |"
+      },
+      {
+        "row": 14,
+        "rowsha": "SA7b2Yj4tV5cR5DV4Q4jbLH7BvR8X50iKG67odapmmY=",
+        "originContent": "| [WezTerm](https://wezterm.org/)                    | [extras/wezterm](extras/wezterm) |",
+        "translatedContent": "| [WezTerm](https://wezterm.org/)                    | [extras/wezterm](extras/wezterm) |"
+      },
+      {
+        "row": 15,
+        "rowsha": "6b3oqU3XWHMb57oR/iS1It6fG3DL848UZg80oMpXStA=",
+        "originContent": "| [Zed](https://zed.dev/)                            | [extras/zed](extras/zed)         |",
+        "translatedContent": "| [Zed](https://zed.dev/)                            | [extras/zed](extras/zed)         |"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+        "originContent": "## 📦 Installation",
+        "translatedContent": "## 📦 Instalación"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "IYgqwG9W4lwSmcJjZtTi+DNbXUY+j7DHzfIxEudQY34=",
+        "originContent": "Install the theme with your preferred package manager, such as",
+        "translatedContent": "Instala el tema con tu gestor de paquetes preferido, como"
+      },
+      {
+        "row": 22,
+        "rowsha": "7RQJ26huXVeK1T2SqwU3/8xxyLJXslYwaKjpnnAenkk=",
+        "originContent": "[folke/lazy.nvim](https://github.com/folke/lazy.nvim):",
+        "translatedContent": "[folke/lazy.nvim](https://github.com/folke/lazy.nvim):"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```lua\n{\n  \"wnkz/monoglow.nvim\",\n  lazy = false,\n  priority = 1000,\n  opts = {},\n}\n```",
+    "ContentSha": "yzMC2YKLhntmwURro+1flDjl0XR15vuPCTfO6O/m6go=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\n{\n  \"wnkz/monoglow.nvim\",\n  lazy = false,\n  priority = 1000,\n  opts = {},\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "GWym8I0xwSZwSCKC7BV1TkD3I68pKoRjCbQ5NycUsNQ=",
+        "originContent": "  \"wnkz/monoglow.nvim\",",
+        "translatedContent": "  \"wnkz/monoglow.nvim\","
+      },
+      {
+        "row": 4,
+        "rowsha": "6BghVgQUrtytOCxcy7dYEYhynD0nAA/FM3qEcEPV0CU=",
+        "originContent": "  lazy = false,",
+        "translatedContent": "  lazy = false,"
+      },
+      {
+        "row": 5,
+        "rowsha": "kf2Trn9Zc/ygqX3dnrU445zdb+qBm3oRfI/XFtl9Amc=",
+        "originContent": "  priority = 1000,",
+        "translatedContent": "  priority = 1000,"
+      },
+      {
+        "row": 6,
+        "rowsha": "J2OJ2k/EUY7JEKmYnkKUSxIi1uKxtI5RmYmYbuOfqpg=",
+        "originContent": "  opts = {},",
+        "translatedContent": "  opts = {},"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## 🚀 Usage\n",
+    "ContentSha": "JPRn/8IZfuv6YehBwY+PWQOCGVoytbQyNZ4/5uraxyg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🚀 Uso\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Bs761Hvrqlslq51XysQXyrK3HLyVMG5fMwhE9v7L9hM=",
+        "originContent": "## 🚀 Usage",
+        "translatedContent": "## 🚀 Uso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```lua\nvim.cmd[[colorscheme monoglow]]\n```",
+    "ContentSha": "aBEIFHkrphJfx/K9a1xLah5CKspxIbx5/AAViiM2hoY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nvim.cmd[[colorscheme monoglow]]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "Yifpp6xZarrou9RyCcuoBdRXi9gLgCDjAKve/v0SGCk=",
+        "originContent": "vim.cmd[[colorscheme monoglow]]",
+        "translatedContent": "vim.cmd[[colorscheme monoglow]]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```vim\ncolorscheme monoglow\n\n\" There are also colorschemes for the different styles.\ncolorscheme monoglow-z\ncolorscheme monoglow-lack\ncolorscheme monoglow-void\ncolorscheme monoglow-light\n```",
+    "ContentSha": "NY0zvrQPa9dIjq3sss/K4J4tnutCPYeFH5YMOtRmrmE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```vim\ncolorscheme monoglow\n\n\" There are also colorschemes for the different styles.\ncolorscheme monoglow-z\ncolorscheme monoglow-lack\ncolorscheme monoglow-void\ncolorscheme monoglow-light\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8R7XqIq2wNT24C0G9gkm2MnDG0s75xKj+HJ33KNKyOk=",
+        "originContent": "```vim",
+        "translatedContent": "```vim"
+      },
+      {
+        "row": 2,
+        "rowsha": "bKCfvGsdGoogJm/xX+FUhPb+6w2Sz+XgsgiyLZMSs7c=",
+        "originContent": "colorscheme monoglow",
+        "translatedContent": "colorscheme monoglow"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EReGneYLQgkFUS5Loy6WepD4BNBIvqbicrkk0BAo2IM=",
+        "originContent": "\" There are also colorschemes for the different styles.",
+        "translatedContent": "\" There are also colorschemes for the different styles."
+      },
+      {
+        "row": 5,
+        "rowsha": "vRT7Z409+JpC20QbxMp2b8n88fpxCCvXUvpmUzy7jSM=",
+        "originContent": "colorscheme monoglow-z",
+        "translatedContent": "colorscheme monoglow-z"
+      },
+      {
+        "row": 6,
+        "rowsha": "ItzaWVAIpzGE2MFc4bMyDW1l7VqYOgaSOfUd5Vikmec=",
+        "originContent": "colorscheme monoglow-lack",
+        "translatedContent": "colorscheme monoglow-lack"
+      },
+      {
+        "row": 7,
+        "rowsha": "GY8Apo0vmF8HCA+lE+D1mliHDJdw6THJlcgYYMmtBks=",
+        "originContent": "colorscheme monoglow-void",
+        "translatedContent": "colorscheme monoglow-void"
+      },
+      {
+        "row": 8,
+        "rowsha": "TioRw9eerD2U+2O4uUDiu/PHWUOHLHS3j4AUkTkYe44=",
+        "originContent": "colorscheme monoglow-light",
+        "translatedContent": "colorscheme monoglow-light"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## 🎨 Palette\n\n> See [PALETTE.md](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/PALETTE.md) for all styles (z, lack, void, light) with WCAG contrast ratios.\n\n## 🪓 Overriding Colors & Highlight Groups\n\nHow the highlight groups are calculated:\n\n1. `colors` are determined based on your configuration, with the ability to\n   override them using `config.on_colors(colors)`.\n1. These `colors` are utilized to generate the highlight groups.\n1. `config.on_highlights(highlights, colors)` can be used to override highlight\n   groups.\n\nFor default values of `colors` and `highlights`, please consult the\n[z](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/z.lua),\n[lack](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/lack.lua),\n[void](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/void.lua), and\n[light](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/light.lua) palettes, as well as the\n[base highlights](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua).\n\n<details open>\n  <summary>Changing Colors</summary>\n",
+    "ContentSha": "8jDSq1UA34CqvH29zRsBVmHJ/7AEfYw1Xaoc0L/WL3c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🎨 Paleta\n\n> Consulte [PALETTE.md](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/PALETTE.md) para todos los estilos (z, lack, void, light) con ratios de contraste WCAG.\n\n## 🪓 Sobrescribir Colores y Grupos de Resaltado\n\nCómo se calculan los grupos de resaltado:\n\n1. Los `colors` se determinan según su configuración, con la capacidad de\n   sobrescribirlos usando `config.on_colors(colors)`.\n1. Estos `colors` se utilizan para generar los grupos de resaltado.\n1. `config.on_highlights(highlights, colors)` puede usarse para sobrescribir los grupos de resaltado.\n\nPara los valores predeterminados de `colors` y `highlights`, por favor consulte las\npaletas [z](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/z.lua),\n[lack](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/lack.lua),\n[void](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/void.lua), y\n[light](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/light.lua), así como los\n[resaltados base](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua).\n\n<details open>\n  <summary>Cambiar Colores</summary>\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "w3dXM4v1qzzzbWxXo5GY/inUxiv+x+Yp5WJCTObvxZ0=",
+        "originContent": "## 🎨 Palette",
+        "translatedContent": "## 🎨 Paleta"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NqVbmDtq6+CT4JMGv21fIwMSPWmeDjGhV0iXp7x79Oo=",
+        "originContent": "> See [PALETTE.md](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/PALETTE.md) for all styles (z, lack, void, light) with WCAG contrast ratios.",
+        "translatedContent": "> Consulte [PALETTE.md](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/PALETTE.md) para todos los estilos (z, lack, void, light) con ratios de contraste WCAG."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ndWnFVe6MCN16PXb4VDk7tNv+Hu40nMUfUPC28uhTHA=",
+        "originContent": "## 🪓 Overriding Colors & Highlight Groups",
+        "translatedContent": "## 🪓 Sobrescribir Colores y Grupos de Resaltado"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "h6qdsdC7F3t0MYRDPPOIlYXnc8KdiL38Dvil141ps1E=",
+        "originContent": "How the highlight groups are calculated:",
+        "translatedContent": "Cómo se calculan los grupos de resaltado:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ouaez4QR5wswwDqaJUgk/zfizEtp6wgAId8XzN+lHus=",
+        "originContent": "1. `colors` are determined based on your configuration, with the ability to",
+        "translatedContent": "1. Los `colors` se determinan según su configuración, con la capacidad de"
+      },
+      {
+        "row": 11,
+        "rowsha": "YsN4Lm+dIjfrlwQGfeqLIAazfT58c5tPv6FaXe6sUB4=",
+        "originContent": "   override them using `config.on_colors(colors)`.",
+        "translatedContent": "   sobrescribirlos usando `config.on_colors(colors)`."
+      },
+      {
+        "row": 12,
+        "rowsha": "SfaJ4XdmBY9C1o7wF4bPF5towm1Es0c7RVdYxtMXvZ0=",
+        "originContent": "1. These `colors` are utilized to generate the highlight groups.",
+        "translatedContent": "1. Estos `colors` se utilizan para generar los grupos de resaltado."
+      },
+      {
+        "row": 13,
+        "rowsha": "7EYNPeUcxdZQVl6nS7L2e9ypBHaumqr/hf2eB9vigec=",
+        "originContent": "1. `config.on_highlights(highlights, colors)` can be used to override highlight",
+        "translatedContent": "1. `config.on_highlights(highlights, colors)` puede usarse para sobrescribir los grupos de resaltado."
+      },
+      {
+        "row": 14,
+        "rowsha": "2mKqHzQj5WooL3vpZj/+IiUb2vm5SMrCBEbGmP+ukGQ=",
+        "originContent": "   groups.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Para los valores predeterminados de `colors` y `highlights`, por favor consulte las"
+      },
+      {
+        "row": 16,
+        "rowsha": "830Qz7ttTeNxEHSqsnepKRS7+rNVBlT4qYh9rutRzV0=",
+        "originContent": "For default values of `colors` and `highlights`, please consult the",
+        "translatedContent": "paletas [z](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/z.lua),"
+      },
+      {
+        "row": 17,
+        "rowsha": "yDBeG7srDl6KeRORn/crvIGZ4y6wL7H0bgxACyQjBMU=",
+        "originContent": "[z](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/z.lua),",
+        "translatedContent": "[lack](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/lack.lua),"
+      },
+      {
+        "row": 18,
+        "rowsha": "X6DxSW5w3Egme+/WCoVvskld4KV+OPutbPuPVq7+ihc=",
+        "originContent": "[lack](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/lack.lua),",
+        "translatedContent": "[void](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/void.lua), y"
+      },
+      {
+        "row": 19,
+        "rowsha": "33ro/0TbAzHGq0crDl8/yo/6q1QZBcoRqEuXnKlHtNI=",
+        "originContent": "[void](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/void.lua), and",
+        "translatedContent": "[light](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/light.lua), así como los"
+      },
+      {
+        "row": 20,
+        "rowsha": "AJ6zqkg7gI41+crOKaNnI95Fp2il7m8imnYHV2T/NI8=",
+        "originContent": "[light](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/colors/light.lua) palettes, as well as the",
+        "translatedContent": "[resaltados base](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua)."
+      },
+      {
+        "row": 21,
+        "rowsha": "FsDuPRhlTugJ1dTRotzZdJbq+4vozXPhqaJqD52LnU0=",
+        "originContent": "[base highlights](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua).",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details open>"
+      },
+      {
+        "row": 23,
+        "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+        "originContent": "<details open>",
+        "translatedContent": "  <summary>Cambiar Colores</summary>"
+      },
+      {
+        "row": 24,
+        "rowsha": "nzBg3FmGAAKNsbJ1B21w6wzMm994LKsbRc5+zEmVfQQ=",
+        "originContent": "  <summary>Changing Colors</summary>",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```lua\nrequire(\"monoglow\").setup({\n  -- Change the \"glow\" color\n  on_colors = function(colors)\n    colors.glow = \"#fd1b7c\"\n  end\n})\n```",
+    "ContentSha": "SDXTpCO0lkSqFMttfacuJgYhODsnCwtv6aEmot0IyfU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nrequire(\"monoglow\").setup({\n  -- Change the \"glow\" color\n  on_colors = function(colors)\n    colors.glow = \"#fd1b7c\"\n  end\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "SSoqEgzoSacuvb/G+XAhxJZn/iQwrS/aFJvZXHzha5Q=",
+        "originContent": "require(\"monoglow\").setup({",
+        "translatedContent": "require(\"monoglow\").setup({"
+      },
+      {
+        "row": 3,
+        "rowsha": "DAuImnov+WYdEhfM14ZFHkgbhwZJAtNZEUimD3DzFVo=",
+        "originContent": "  -- Change the \"glow\" color",
+        "translatedContent": "  -- Change the \"glow\" color"
+      },
+      {
+        "row": 4,
+        "rowsha": "LmtAxE7bXeqvoin7XgrusF/ZPug8/VIi32JXxYJoAq0=",
+        "originContent": "  on_colors = function(colors)",
+        "translatedContent": "  on_colors = function(colors)"
+      },
+      {
+        "row": 5,
+        "rowsha": "cnK8yGrohz54OaaY7Imqbgei5/ZCVq+lqGgp/q7xlwo=",
+        "originContent": "    colors.glow = \"#fd1b7c\"",
+        "translatedContent": "    colors.glow = \"#fd1b7c\""
+      },
+      {
+        "row": 6,
+        "rowsha": "SNNEvL0VmogGoy/zRyjZEOiUaGkA2VqmSA26jTm2p+o=",
+        "originContent": "  end",
+        "translatedContent": "  end"
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n![Monoglow Pink Glow](https://github.com/user-attachments/assets/47ff0e2b-735c-48c8-8a98-90fad6aae114)\n\n</details>\n\n<details>\n  <summary>Changing Highlight Styles</summary>\n\nYou can customize styles (italic, bold, etc.) for any highlight group using `on_highlights`.\n\n> **Note:** `on_highlights` replaces the entire highlight definition. To preserve\n> existing properties (like `fg`), include them in your override or use `vim.tbl_extend`.\n",
+    "ContentSha": "xdVaBSspela9HcMgDQEJOIlMw0nFP2KLAOh4IBVV9lQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n![Monoglow Resplandor Rosa](https://github.com/user-attachments/assets/47ff0e2b-735c-48c8-8a98-90fad6aae114)\n\n</details>\n\n<details>\n  <summary>Cambiar Estilos de Resaltado</summary>\n\nPuedes personalizar estilos (cursiva, negrita, etc.) para cualquier grupo de resaltado usando `on_highlights`.\n\n> **Nota:** `on_highlights` reemplaza toda la definición del resaltado. Para preservar\n> propiedades existentes (como `fg`), inclúyelas en tu anulación o usa `vim.tbl_extend`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "scukV32bB3/knDMgXVKHJyguFsV3MLIhbEkus11if4c=",
+        "originContent": "![Monoglow Pink Glow](https://github.com/user-attachments/assets/47ff0e2b-735c-48c8-8a98-90fad6aae114)",
+        "translatedContent": "![Monoglow Resplandor Rosa](https://github.com/user-attachments/assets/47ff0e2b-735c-48c8-8a98-90fad6aae114)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 7,
+        "rowsha": "p+GAcdDGM874yR7qAcWzrq54NUWnQ7ki9I9TQ9fkwGY=",
+        "originContent": "  <summary>Changing Highlight Styles</summary>",
+        "translatedContent": "  <summary>Cambiar Estilos de Resaltado</summary>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "so3Dl4U/9+xcNGrhigB8pLjSZTuhVBLz/a5rGO5n9GQ=",
+        "originContent": "You can customize styles (italic, bold, etc.) for any highlight group using `on_highlights`.",
+        "translatedContent": "Puedes personalizar estilos (cursiva, negrita, etc.) para cualquier grupo de resaltado usando `on_highlights`."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+IKQKnNKKxBd/h8mti5sKUhzOWbsqlxrNwcVd6XD+Jg=",
+        "originContent": "> **Note:** `on_highlights` replaces the entire highlight definition. To preserve",
+        "translatedContent": "> **Nota:** `on_highlights` reemplaza toda la definición del resaltado. Para preservar"
+      },
+      {
+        "row": 12,
+        "rowsha": "9pbgDYkPHKISlB4bZD1sbNcRSscuXf7fK9/VenSH7cw=",
+        "originContent": "> existing properties (like `fg`), include them in your override or use `vim.tbl_extend`.",
+        "translatedContent": "> propiedades existentes (como `fg`), inclúyelas en tu anulación o usa `vim.tbl_extend`."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```lua\nrequire(\"monoglow\").setup({\n  on_highlights = function(hl, c)\n    -- Override with full definition (recommended)\n    hl[\"@function\"] = { fg = c.syntax.func_def, italic = true, bold = true }\n    hl.Boolean = { fg = c.syntax.boolean, bold = true, italic = true }\n    hl[\"@keyword\"] = { fg = c.syntax.keyword, italic = true }\n\n    -- Or use vim.tbl_extend for partial overrides\n    hl.Comment = vim.tbl_extend(\"force\", hl.Comment, { bold = true })\n  end,\n})\n```",
+    "ContentSha": "DOXHjiRqaNb7KFW8ipRS42beYwH5cVTUhXuAdRquA+s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nrequire(\"monoglow\").setup({\n  on_highlights = function(hl, c)\n    -- Override with full definition (recommended)\n    hl[\"@function\"] = { fg = c.syntax.func_def, italic = true, bold = true }\n    hl.Boolean = { fg = c.syntax.boolean, bold = true, italic = true }\n    hl[\"@keyword\"] = { fg = c.syntax.keyword, italic = true }\n\n    -- Or use vim.tbl_extend for partial overrides\n    hl.Comment = vim.tbl_extend(\"force\", hl.Comment, { bold = true })\n  end,\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "SSoqEgzoSacuvb/G+XAhxJZn/iQwrS/aFJvZXHzha5Q=",
+        "originContent": "require(\"monoglow\").setup({",
+        "translatedContent": "require(\"monoglow\").setup({"
+      },
+      {
+        "row": 3,
+        "rowsha": "uIyi+fbexeB7Gh1ggj1Z85u9xF2cCMHDY3Dt/WbNQxk=",
+        "originContent": "  on_highlights = function(hl, c)",
+        "translatedContent": "  on_highlights = function(hl, c)"
+      },
+      {
+        "row": 4,
+        "rowsha": "RGvm6s4AEYjg0JLY0PHsqB+B6r2UvSqNYy0Oa2v+HHI=",
+        "originContent": "    -- Override with full definition (recommended)",
+        "translatedContent": "    -- Override with full definition (recommended)"
+      },
+      {
+        "row": 5,
+        "rowsha": "qlfU7MgYf7Trb9ubOviA28idpe3XRTVVMaf/zEkAxd8=",
+        "originContent": "    hl[\"@function\"] = { fg = c.syntax.func_def, italic = true, bold = true }",
+        "translatedContent": "    hl[\"@function\"] = { fg = c.syntax.func_def, italic = true, bold = true }"
+      },
+      {
+        "row": 6,
+        "rowsha": "cdP7FMzNlN9uMVvGfWURPbpEr5abumaGdf+RKnhiTtc=",
+        "originContent": "    hl.Boolean = { fg = c.syntax.boolean, bold = true, italic = true }",
+        "translatedContent": "    hl.Boolean = { fg = c.syntax.boolean, bold = true, italic = true }"
+      },
+      {
+        "row": 7,
+        "rowsha": "xZ9vXCbbiz7qiE3gK3j5fWskFuxenwDFdFfpV9dxIuw=",
+        "originContent": "    hl[\"@keyword\"] = { fg = c.syntax.keyword, italic = true }",
+        "translatedContent": "    hl[\"@keyword\"] = { fg = c.syntax.keyword, italic = true }"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "AkXWuhBr0TX8KGoQQHXzfPyNeAFSiqrmbmi+LVITAaY=",
+        "originContent": "    -- Or use vim.tbl_extend for partial overrides",
+        "translatedContent": "    -- Or use vim.tbl_extend for partial overrides"
+      },
+      {
+        "row": 10,
+        "rowsha": "0e6Byp7kRQ8A60j8zZAYU/+yK/VvU+2i/zSIY+Coh0A=",
+        "originContent": "    hl.Comment = vim.tbl_extend(\"force\", hl.Comment, { bold = true })",
+        "translatedContent": "    hl.Comment = vim.tbl_extend(\"force\", hl.Comment, { bold = true })"
+      },
+      {
+        "row": 11,
+        "rowsha": "+uLK+LYeMuI7p1MFeEvVTP7qtIWhbMY1LsJUCyed+gE=",
+        "originContent": "  end,",
+        "translatedContent": "  end,"
+      },
+      {
+        "row": 12,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nSee [`lua/monoglow/groups/base.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua) and\n[`lua/monoglow/groups/treesitter.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/treesitter.lua) for\nall available highlight groups.\n\n</details>\n\n## 🍭 Extras\n\nExtra color configs for [Ghostty](extras/ghostty/), [Kitty](extras/kitty/), [Helix](extras/helix/), [Vim](extras/vim/), [VS Code](extras/vscode/), [WezTerm](extras/wezterm/), and [Zed](extras/zed/) can be found in [extras/](extras/).\nTo use them, refer to their respective documentation.\n\n### Terminal Colors\n\n![Terminal Colors](https://github.com/user-attachments/assets/1663931f-7c6e-4502-b7a0-7ff6a24cad06)\n\n## ☀️ Light Theme\n\nA light variant is also available for those who prefer it.\n\n![Monoglow Light screenshot](https://github.com/user-attachments/assets/2df72af5-5107-43da-a3c2-e03e7aefd772)\n\n## 🔥 Contributing\n\nPull requests are welcome.\n\n## About\n\nTo build the colorscheme, I took everything I liked about the \"colors\" of [slugbyte/lackluster.nvim](https://github.com/slugbyte/lackluster.nvim),\nI added the amazing touch of glow and bright operators from [Aliqyan-21/darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim),\nand I used [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) for the code structure.\n\n## License\n\nThis project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.\n\n### Third-Party Acknowledgments\n\n- Portions of this project include code derived from [tokyonight.nvim](https://github.com/folke/tokyonight.nvim), which is licensed under the Apache License, Version 2.0.\n- Inspiration for colors and arrangement comes from [lackluster.nvim](https://github.com/slugbyte/lackluster.nvim) and [darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim), both licensed under the MIT License.",
+    "ContentSha": "vWrO/wpSe2yN2AW5Uv3DnJtzsJOCBoGZuM2UaYihD0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nVea [`lua/monoglow/groups/base.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua) y\n[`lua/monoglow/groups/treesitter.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/treesitter.lua) para\ntodos los grupos de resaltado disponibles.\n\n</details>\n\n## 🍭 Extras\n\nConfiguraciones de color extra para [Ghostty](extras/ghostty/), [Kitty](extras/kitty/), [Helix](extras/helix/), [Vim](extras/vim/), [VS Code](extras/vscode/), [WezTerm](extras/wezterm/) y [Zed](extras/zed/) se pueden encontrar en [extras/](extras/).\nPara usarlos, consulte su documentación respectiva.\n\n### Colores de Terminal\n\n![Colores de Terminal](https://github.com/user-attachments/assets/1663931f-7c6e-4502-b7a0-7ff6a24cad06)\n\n## ☀️ Tema Claro\n\nTambién está disponible una variante clara para quienes la prefieran.\n\n![Captura de pantalla de Monoglow Light](https://github.com/user-attachments/assets/2df72af5-5107-43da-a3c2-e03e7aefd772)\n\n## 🔥 Contribuir\n\nSe aceptan solicitudes de extracción.\n\n## Acerca de\n\nPara construir el esquema de colores, tomé todo lo que me gustaba de los \"colores\" de [slugbyte/lackluster.nvim](https://github.com/slugbyte/lackluster.nvim),\nañadí el increíble toque de brillo y operadores destacados de [Aliqyan-21/darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim),\ny usé [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) para la estructura del código.\n\n## Licencia\n\nEste proyecto está licenciado bajo la Licencia Apache, Versión 2.0. Consulte el archivo [LICENSE](LICENSE) para más detalles.\n\n### Reconocimientos a Terceros\n\n- Porciones de este proyecto incluyen código derivado de [tokyonight.nvim](https://github.com/folke/tokyonight.nvim), que está licenciado bajo la Licencia Apache, Versión 2.0.\n- La inspiración para los colores y la disposición proviene de [lackluster.nvim](https://github.com/slugbyte/lackluster.nvim) y [darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim), ambos licenciados bajo la Licencia MIT.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7bB9UYuyraTv0GCs0CugJ1K7WEg0hvA8viqxrVmyaR4=",
+        "originContent": "See [`lua/monoglow/groups/base.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua) and",
+        "translatedContent": "Vea [`lua/monoglow/groups/base.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/base.lua) y"
+      },
+      {
+        "row": 3,
+        "rowsha": "8E89howEKyKgYQuDjXscilSeA6mjjOvTn5THi1RfQQY=",
+        "originContent": "[`lua/monoglow/groups/treesitter.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/treesitter.lua) for",
+        "translatedContent": "[`lua/monoglow/groups/treesitter.lua`](https://raw.githubusercontent.com/wnkz/monoglow.nvim/main/lua/monoglow/groups/treesitter.lua) para"
+      },
+      {
+        "row": 4,
+        "rowsha": "yfXXVkERVmOFkXs/CYLqMcuqZn9EHvXftHYyeNxvdDM=",
+        "originContent": "all available highlight groups.",
+        "translatedContent": "todos los grupos de resaltado disponibles."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "U2NSaYbuO/yexmyXuBKwoGt9UG9/g0hZv5PXKmoNCjU=",
+        "originContent": "## 🍭 Extras",
+        "translatedContent": "## 🍭 Extras"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "zpl8KWKaUt7z214SZCX+/yHrcpDL54f0NZqICsEi7Qw=",
+        "originContent": "Extra color configs for [Ghostty](extras/ghostty/), [Kitty](extras/kitty/), [Helix](extras/helix/), [Vim](extras/vim/), [VS Code](extras/vscode/), [WezTerm](extras/wezterm/), and [Zed](extras/zed/) can be found in [extras/](extras/).",
+        "translatedContent": "Configuraciones de color extra para [Ghostty](extras/ghostty/), [Kitty](extras/kitty/), [Helix](extras/helix/), [Vim](extras/vim/), [VS Code](extras/vscode/), [WezTerm](extras/wezterm/) y [Zed](extras/zed/) se pueden encontrar en [extras/](extras/)."
+      },
+      {
+        "row": 11,
+        "rowsha": "tuNITA7UDvSM7MFfLhdN9XM7LvnM2low55HHM+gx9bc=",
+        "originContent": "To use them, refer to their respective documentation.",
+        "translatedContent": "Para usarlos, consulte su documentación respectiva."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "iaiRfARrk+fSPsfdSxjo1L3TZBHknq7FOKkMZaIYJqk=",
+        "originContent": "### Terminal Colors",
+        "translatedContent": "### Colores de Terminal"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "2/8Bemq8tL/cqjSKYIyqy9Di89dvBiO0bvLWuWs7CDs=",
+        "originContent": "![Terminal Colors](https://github.com/user-attachments/assets/1663931f-7c6e-4502-b7a0-7ff6a24cad06)",
+        "translatedContent": "![Colores de Terminal](https://github.com/user-attachments/assets/1663931f-7c6e-4502-b7a0-7ff6a24cad06)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "OMKmusUtfcw/hFF5/jRy7MT64AoXG5oMbjt3ZiaMhBY=",
+        "originContent": "## ☀️ Light Theme",
+        "translatedContent": "## ☀️ Tema Claro"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GScSPJYiHZyPN/DZbn53iWnW6Dwzdjun9n3JCXfoNtU=",
+        "originContent": "A light variant is also available for those who prefer it.",
+        "translatedContent": "También está disponible una variante clara para quienes la prefieran."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "PC2ebi81BtsNnIAv9TmuKg/WhL/0SzOrgrQPsnGaJvo=",
+        "originContent": "![Monoglow Light screenshot](https://github.com/user-attachments/assets/2df72af5-5107-43da-a3c2-e03e7aefd772)",
+        "translatedContent": "![Captura de pantalla de Monoglow Light](https://github.com/user-attachments/assets/2df72af5-5107-43da-a3c2-e03e7aefd772)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "BclDf46pDwqRuGDDjn8GAz/695L6ghjRIE6gOI4IDeI=",
+        "originContent": "## 🔥 Contributing",
+        "translatedContent": "## 🔥 Contribuir"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "oHhJVKohQ6s0AbxSbi/osm4cmmsRBSiVf7sDHiTivqw=",
+        "originContent": "Pull requests are welcome.",
+        "translatedContent": "Se aceptan solicitudes de extracción."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## Acerca de"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "sxLHvyaA0VAFUAyruWfG/bc1svc7vZab5YceoY3bYGY=",
+        "originContent": "To build the colorscheme, I took everything I liked about the \"colors\" of [slugbyte/lackluster.nvim](https://github.com/slugbyte/lackluster.nvim),",
+        "translatedContent": "Para construir el esquema de colores, tomé todo lo que me gustaba de los \"colores\" de [slugbyte/lackluster.nvim](https://github.com/slugbyte/lackluster.nvim),"
+      },
+      {
+        "row": 30,
+        "rowsha": "l2Esc6/pSBB6AvqNSi986y/6cXai3wD+n4RKHoJ5jhY=",
+        "originContent": "I added the amazing touch of glow and bright operators from [Aliqyan-21/darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim),",
+        "translatedContent": "añadí el increíble toque de brillo y operadores destacados de [Aliqyan-21/darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim),"
+      },
+      {
+        "row": 31,
+        "rowsha": "HMhbqC4F+f55iBs4SwL143pdyim7CzlKuLQsl2b4ex4=",
+        "originContent": "and I used [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) for the code structure.",
+        "translatedContent": "y usé [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) para la estructura del código."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Dp1YGhUHMPLz4mTChavIde8XnB6GpdZzDpL2NEPexik=",
+        "originContent": "This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "Este proyecto está licenciado bajo la Licencia Apache, Versión 2.0. Consulte el archivo [LICENSE](LICENSE) para más detalles."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "3L0RkT9FphqXhSQslqPDMY3ybs1jSMDj+o48Wy8sAro=",
+        "originContent": "### Third-Party Acknowledgments",
+        "translatedContent": "### Reconocimientos a Terceros"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Zab+uPH8HrXdIOqWJSZXLYMLJv/yw+ujRpiTHdMyRts=",
+        "originContent": "- Portions of this project include code derived from [tokyonight.nvim](https://github.com/folke/tokyonight.nvim), which is licensed under the Apache License, Version 2.0.",
+        "translatedContent": "- Porciones de este proyecto incluyen código derivado de [tokyonight.nvim](https://github.com/folke/tokyonight.nvim), que está licenciado bajo la Licencia Apache, Versión 2.0."
+      },
+      {
+        "row": 40,
+        "rowsha": "qQ+Fa7JGTesHkHdOkYcHw9/DBykdpHBoGpM+rG4eVf0=",
+        "originContent": "- Inspiration for colors and arrangement comes from [lackluster.nvim](https://github.com/slugbyte/lackluster.nvim) and [darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim), both licensed under the MIT License.",
+        "translatedContent": "- La inspiración para los colores y la disposición proviene de [lackluster.nvim](https://github.com/slugbyte/lackluster.nvim) y [darkvoid.nvim](https://github.com/Aliqyan-21/darkvoid.nvim), ambos licenciados bajo la Licencia MIT."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "\nSee the [NOTICE](NOTICE) file for attributions and details.\n",
+    "ContentSha": "7zCdi8mzX1A5GuSkOzkZxAwjKDU+6/pT+hHDk+Kw/P4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nConsulte el archivo [NOTICE](NOTICE) para atribuciones y detalles.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ln9/bP+/OppDm6j5g+rCWeJvXJvv1an4sMOYeW9CGpo=",
+        "originContent": "See the [NOTICE](NOTICE) file for attributions and details.",
+        "translatedContent": "Consulte el archivo [NOTICE](NOTICE) para atribuciones y detalles."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

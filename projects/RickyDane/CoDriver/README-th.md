@@ -1,7 +1,259 @@
-## ภาษาอื่นๆ จะปลดล็อกหลังจากนำเข้า OpenAiTx ในโครงการ
+
+<div align="right">
+  <details>
+    <summary >🌐 ภาษา</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+<br/>
+<p align="center"><img width="500" height="auto" alt="codriver_banner" src="https://github.com/user-attachments/assets/1957b950-db16-4ebd-b514-4f9b4f4abfd9" /></p>
+
+<br/>
+
+<a href="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml"><p align="center"><img src="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml/badge.svg?branch=master"></p></a>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows-blue" />
+  <img src="https://img.shields.io/badge/ macOS-white" />
+  <img src="https://img.shields.io/badge/Linux-red" />
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/zSE27rjdzp">
+      <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp" />
+  </a>
+</p>
+
+<p align="center">
+  <a href='https://ko-fi.com/rickydane'>
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='ซื้อกาแฟให้ฉันที่ ko-fi.com' />
+  </a>
+</p>
+
+<br/>
+
+<p align="center">
+  ตัวสำรวจไฟล์ง่าย ๆ ที่เกิดขึ้นเพราะฉันอยากเรียนรู้ภาษา Rust
+  <br>
+  สามารถใช้งานได้กับทุกระบบปฏิบัติการและถูกปรับแต่งให้เหมาะสมสำหรับการเพิ่มประสิทธิภาพ
+</p>
+
+<br/><br/>
+
+ประสิทธิภาพนี้เกิดจากการใช้ ["jwalk"](https://crates.io/crates/jwalk/versions) และ ["Tauri"](https://tauri.app/).
+<br/><br/>
+CoDriver ไม่ใช้การแคช path เพื่อเข้าถึงไฟล์และโฟลเดอร์ ดังนั้นประสิทธิภาพจึงขึ้นอยู่กับ Rust, ความเร็วของดิสก์ และพลังของ cpu
+
+⁉️ โปรดทราบว่าซอฟต์แวร์นี้ยังอยู่ระหว่างการพัฒนาและอาจมีบั๊ก!
+<br/><br/>
+
+# ลิงก์
+- <a href="#basic-features">ฟีเจอร์พื้นฐาน</a>
+- <a href="#advanced-features">ฟีเจอร์ขั้นสูง</a>
+- <a href="#dependencies-if-not-working-instantly">การพึ่งพา</a>
+- <a href="#%EF%B8%8F-ftp-integration-sshfs">การใช้งาน FTP (SSHFS)</a>
+- <a href="#%EF%B8%8F-known-issues">ปัญหาที่ทราบแล้ว</a>
+- <a href="#-todos">รายการที่ต้องทำ</a>
+- <a href="#user-interface">ส่วนติดต่อผู้ใช้</a>
+
+## คุณสมบัติพื้นฐาน
+- นำทางผ่านไดเรกทอรีตามที่คุณคุ้นเคย
+- คัดลอก & วาง, ลบ, สร้าง และเปลี่ยนชื่อไฟล์และโฟลเดอร์
+- สลับระหว่างโหมดกริด, รายการ และคอลัมน์มิลเลอร์
+- ปิดป็อปอัพด้วยปุ่ม esc
+- ไปยังไดเรกทอรีโดยตรงด้วย Ctrl / Cmd + G โดยกรอกเส้นทาง
+- เรียงรายการในโหมดรายการตามขนาด, ชื่อ หรือแก้ไขล่าสุด
+
+## คุณสมบัติขั้นสูง
+- บีบอัดไฟล์และโฟลเดอร์
+  - zip
+  - zstd
+  - brotli
+  - density (https://github.com/g1mv/density)
+- แตกไฟล์บีบอัด
+  - rar
+  - zip
+  - 7zip
+  - tar (.gz, .bz2)
+  - density
+- นำทางไปยังไดเรกทอรีด้วยปุ่มลัด LAlt + 1 / 2 / 3 | (macOS option + 1 / 2 / 3)
+  - กำหนดเส้นทางเองในหน้าการตั้งค่า
+- สร้างไฟล์ด้วย F6
+- สร้างโฟลเดอร์ด้วย F7
+- มุมมองแบบสองพาเนล
+  - ค้นหาไฟล์ด้วย F8
+  - คัดลอกองค์ประกอบที่เลือกไปยังพาเนลอื่นด้วย F5
+  - ย้ายองค์ประกอบที่เลือกไปยังพาเนลอื่นด้วย LShift + F5
+- ลากและวางไฟล์ในตัวสำรวจเพื่อคัดลอกไปยังไดเรกทอรีปัจจุบัน
+- เปลี่ยนชื่อหลายรายการที่เลือกด้วย Ctrl / Cmd + LShift + M
+  - รันเปลี่ยนชื่อหลายรายการด้วย Ctrl / Cmd + Return
+- ดูตัวอย่างไฟล์อย่างรวดเร็ว -> เลือกรายการในไดเรกทอรีแล้วกดปุ่ม space bar
+  - ไฟล์ที่รองรับ: ไฟล์รูปภาพทั้งหมด (.jpg, .png, ...), .pdf, .mp4, .json, .txt, .html
+  - รายการอื่นๆ จะแสดงกระเบื้องเล็กพร้อมข้อมูลบางอย่าง (เส้นทาง, ขนาด, แก้ไขล่าสุด)
+- นำทางทันที -> เริ่มพิมพ์และกรองรายการในไดเรกทอรีโดยอัตโนมัติทำให้บางครั้ง <br/>
+  นำทางไปยังตำแหน่งที่ต้องการได้เร็วกว่ามาก
+
+## การพึ่งพา (หากใช้งานไม่ได้ทันที)
+
+<details>
+<summary>ขยายเพื่อแสดง</summary>
+
+### ลินุกซ์
+
+- openssl1.1
+
+#### เดเบียน / อูบุนตู
+```
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev \
+    build-essential \
+    curl \
+    wget \
+    file \
+    libssl-dev \
+    libgtk-3-dev \
+    libayatana-appindicator3-dev \
+    librsvg2-dev
+```
+
+#### Arch
+```
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev \
+    build-essential \
+    curl \
+    wget \
+    file \
+    libssl-dev \
+    libgtk-3-dev \
+    libayatana-appindicator3-dev \
+    librsvg2-dev
+```
+
+#### Fedora
+```
+sudo dnf check-update
+sudo dnf install openssl1.1 \
+    webkit2gtk4.0-devel \
+    openssl-devel \
+    curl \
+    wget \
+    file \
+    libappindicator-gtk3-devel \
+    librsvg2-devel
+sudo dnf group install "C Development Tools and Libraries"
+```
+</details>
+
+## 🖥️ การเชื่อมต่อ FTP (sshfs)
+<details>
+  <summary>ขยายเพื่อแสดง</summary>
+  <br/>
+  ข้อกำหนดเพิ่มเติม (ต้องติดตั้งเพิ่มเติม):
+  <br/>
+
+  | macOS | Linux | Windows |
+  | ----- | ----- | ------- |
+  | fuse-t <br/> fuse-t-sshfs | libfuse | ยังไม่รองรับ **_ขณะนี้_** |
+
+  ### การติดตั้ง:
+  #### macOS
+  ```
+  brew tap macos-fuse-t/homebrew-cask
+  brew install fuse-t
+  brew install fuse-t-sshfs
+  ```
+  #### ลินุกซ์
+  ```
+  sudo apt-get install sshfs
+  ```
+
+## 🏴‍☠️ การรองรับภาษา
+- ภาษาอังกฤษ
+  - ตัวเลือกสำหรับเปลี่ยนภาษาจะมาเร็วๆ นี้ ...
+</details>
+
+## ⚠️ ปัญหาที่ทราบแล้ว:
+- การลากและวางออกนอกหน้าต่างอาจไม่ทำงานเสมอไปบนลินุกซ์
+- บนวินโดวส์ คุณอาจต้องติดตั้ง [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- การอนุญาตบน ms-windows ค่อนข้างแปลก
+  - คุณอาจต้องเรียกใช้โปรแกรมในโหมดผู้ดูแลระบบหากพบปัญหาในการคัดล้ององค์ประกอบหรือสิ่งที่คล้ายกัน
+- อาจเกิดปัญหาที่คุณต้องติดตั้ง openssl1.1 บนระบบลินุกซ์ หากโปรแกรมไม่เริ่มทำงาน
+
+## 📝 สิ่งที่ต้องทำ:
+- หลายภาษา
+- รายการโปรด
+- เข้าถึงบริการจัดเก็บข้อมูลออนไลน์ (Google drive ฯลฯ)
+
+## ส่วนติดต่อผู้ใช้
+
+### รูปแบบรายการ
+<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
+
+### รูปแบบกริด
+<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
+
+### มุมมอง Miller column
+<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
+
+### มุมมองแบบสองแถบ
+<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
+
+## วิธีมีส่วนร่วม
+ตั้งค่าคอมพิวเตอร์ของคุณสำหรับการพัฒนาแอปพลิเคชัน tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+</br></br>
+เมื่อเสร็จแล้วให้ทำ ```git clone https://github.com/RickyDane/CoDriver``` หรือ ```gh repo clone RickyDane/CoDriver``` ในตำแหน่งใดก็ได้บนเครื่องของคุณ
+</br></br>
+คุณควรจะสามารถรัน ```cargo tauri dev``` ในไดเรกทอรีรากของโปรเจกต์นี้เพื่อเริ่มสร้างและรัน CoDriver ได้
+</br>
+อย่าลืมติดตั้ง tauri-cli: ```cargo install tauri-cli```
+</br>
+
+## การเซ็นรับรองการปล่อยเวอร์ชัน
+
+อาร์ติแฟกต์สำหรับปล่อยเวอร์ชัน macOS ต้องได้รับการเซ็นรับรองและรับรองโดย Apple (notarized) เพื่อหลีกเลี่ยงไม่ให้ Gatekeeper รายงานว่าแอปที่ติดตั้งเสียหาย ดู [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) สำหรับความลับของ GitHub Actions ที่ต้องใช้และคำสั่งตรวจสอบ
+
+## ประวัติดาว (Star History)
+
+<a href="https://star-history.com/#rickydane/CoDriver&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+ </picture>
+</a>
+
+#### ซอฟต์แวร์ของบุคคลที่สามอื่น ๆ
+- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
 
 ---

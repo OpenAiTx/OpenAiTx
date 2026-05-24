@@ -1,7 +1,259 @@
-## Другие языки будут разблокированы после импорта OpenAiTx в проект
+
+<div align="right">
+  <details>
+    <summary >🌐 Язык</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=RickyDane&project=CoDriver&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+<br/>
+<p align="center"><img width="500" height="auto" alt="codriver_banner" src="https://github.com/user-attachments/assets/1957b950-db16-4ebd-b514-4f9b4f4abfd9" /></p>
+
+<br/>
+
+<a href="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml"><p align="center"><img src="https://github.com/RickyDane/CoDriver/actions/workflows/main.yml/badge.svg?branch=master"></p></a>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows-blue" />
+  <img src="https://img.shields.io/badge/ macOS-white" />
+  <img src="https://img.shields.io/badge/Linux-red" />
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/zSE27rjdzp">
+      <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp" />
+  </a>
+</p>
+
+<p align="center">
+  <a href='https://ko-fi.com/rickydane'>
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Купите мне кофе на ko-fi.com' />
+  </a>
+</p>
+
+<br/>
+
+<p align="center">
+  Простой файловый менеджер, созданный потому что я хотел изучить язык Rust.
+  <br>
+  Он не зависит от операционной системы и оптимизирован для быстродействия.
+</p>
+
+<br/><br/>
+
+Производительность достигается благодаря ["jwalk"](https://crates.io/crates/jwalk/versions) и ["Tauri"](https://tauri.app/).
+<br/><br/>
+CoDriver не использует кэширование путей для доступа к файлам и папкам, поэтому быстродействие обеспечивается Rust, скоростью диска и мощностью процессора.
+
+⁉️ Помните, что это программное обеспечение все еще находится в разработке и может содержать ошибки!
+<br/><br/>
+
+# Ссылки
+- <a href="#basic-features">Основные функции</a>
+- <a href="#advanced-features">Расширенные функции</a>
+- <a href="#dependencies-if-not-working-instantly">Зависимости</a>
+- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP реализация (SSHFS)</a>
+- <a href="#%EF%B8%8F-known-issues">Известные проблемы</a>
+- <a href="#-todos">Задачи</a>
+- <a href="#user-interface">Пользовательский интерфейс</a>
+
+## Основные функции
+- Навигация по каталогам, как вы привыкли
+- Копирование и вставка, удаление, создание и переименование файлов и папок
+- Переключение между режимами сетки, списка и колонок Миллера
+- Закрытие всплывающих окон клавишей Esc
+- Переход к каталогу с помощью Ctrl / Cmd + G, введя путь
+- Сортировка элементов в режиме списка по размеру, имени или дате изменения
+
+## Расширенные функции
+- Сжатие файлов и папок
+  - zip
+  - zstd
+  - brotli
+  - density (https://github.com/g1mv/density)
+- Распаковка архивов
+  - rar
+  - zip
+  - 7zip
+  - tar (.gz, .bz2)
+  - density
+- Переход в каталог с помощью сочетания LAlt + 1 / 2 / 3 | (на macOS option + 1 / 2 / 3)
+  - Настройте пути самостоятельно в настройках
+- Создать файл с помощью F6
+- Создать папку с помощью F7
+- Двухпанельный режим
+  - Поиск файлов с помощью F8
+  - Копировать выбранный элемент в другую панель с помощью F5
+  - Переместить выбранный элемент в другую панель с помощью LShift + F5
+- Перетаскивание файлов в проводник для копирования их в текущий каталог
+- Массовое переименование выбранных элементов с помощью Ctrl / Cmd + LShift + M
+  - Запуск массового переименования с помощью Ctrl / Cmd + Enter
+- Быстрый просмотр файла -> Выберите элемент и нажмите пробел.
+  - Поддерживаемые файлы: все изображения (.jpg, .png, ...), .pdf, .mp4, .json, .txt, .html
+  - Для других элементов будет отображаться небольшая плитка с информацией (путь, размер, дата изменения)
+- Мгновенная навигация -> Начните вводить, и записи каталога будут автоматически фильтроваться, что иногда <br/>
+  значительно ускоряет переход к нужному месту
+
+## Зависимости (если не работает сразу)
+
+<details>
+<summary>Развернуть для просмотра</summary>
+
+### Linux
+
+- openssl1.1
+
+#### Debian / Ubuntu
+```
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev \
+    build-essential \
+    curl \
+    wget \
+    file \
+    libssl-dev \
+    libgtk-3-dev \
+    libayatana-appindicator3-dev \
+    librsvg2-dev
+```
+
+#### Арх
+```
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev \
+    build-essential \
+    curl \
+    wget \
+    file \
+    libssl-dev \
+    libgtk-3-dev \
+    libayatana-appindicator3-dev \
+    librsvg2-dev
+```
+
+#### Fedora
+```
+sudo dnf check-update
+sudo dnf install openssl1.1 \
+    webkit2gtk4.0-devel \
+    openssl-devel \
+    curl \
+    wget \
+    file \
+    libappindicator-gtk3-devel \
+    librsvg2-devel
+sudo dnf group install "C Development Tools and Libraries"
+```
+</details>
+
+## 🖥️ Интеграция FTP (sshfs)
+<details>
+  <summary>Развернуть для просмотра</summary>
+  <br/>
+  Зависимости (необходимо установить дополнительно):
+  <br/>
+
+  | macOS | Linux | Windows |
+  | ----- | ----- | ------- |
+  | fuse-t <br/> fuse-t-sshfs | libfuse | Пока не поддерживается **_ещё_** |
+
+  ### Установка:
+  #### macOS
+  ```
+  brew tap macos-fuse-t/homebrew-cask
+  brew install fuse-t
+  brew install fuse-t-sshfs
+  ```
+  #### Linux
+  ```
+  sudo apt-get install sshfs
+  ```
+
+## 🏴‍☠️ Языковая поддержка
+- Английский
+  - Возможность выбора между языками скоро появится ...
+</details>
+
+## ⚠️ Известные проблемы:
+- Перетаскивание за пределы окна в настоящее время не всегда работает в Linux
+- В Windows может потребоваться установить [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Разрешения в ms-windows немного странные
+  - Возможно, вам придется запускать программу от имени администратора, если возникают проблемы с копированием элементов или что-то подобное
+- Может возникнуть проблема, что на Linux нужно установить openssl1.1, если программа не запускается
+
+## 📝 Задачи:
+- Множественные языки
+- Избранное
+- Доступ к онлайн-хранилищам (Google drive и др.)
+
+## Пользовательский интерфейс
+
+### Список
+<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
+
+### Сетка
+<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
+
+### Просмотр в колонках Миллера
+<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
+
+### Двухпанельный режим
+<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
+
+## Как внести вклад
+Настройте вашу машину для разработки приложений tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+</br></br>
+После этого просто выполните ```git clone https://github.com/RickyDane/CoDriver``` или ```gh repo clone RickyDane/CoDriver``` в нужной директории на вашем компьютере.
+</br></br>
+Вы должны иметь возможность запустить ```cargo tauri dev``` в корневой директории этого проекта, чтобы начать сборку и запуск CoDriver.
+</br>
+Убедитесь, что у вас установлен tauri-cli: ```cargo install tauri-cli```
+</br>
+
+## Подпись релиза
+
+Артефакты релиза для macOS должны быть подписаны и нотариально заверены, чтобы Gatekeeper не сообщал, что установленное приложение повреждено. См. [Подпись и нотариальное заверение macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) для необходимых секретов GitHub Actions и команд проверки.
+
+## История звёзд
+
+<a href="https://star-history.com/#rickydane/CoDriver&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+ </picture>
+</a>
+
+#### Другие сторонние программы
+- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
 
 ---
