@@ -11,6 +11,37 @@
 • [Uptodown](https://repairkit.en.uptodown.com/windows)
 • [AlternativeTo](https://alternativeto.net/software/repairkit/about)
 
+<div align="left">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=as">Assamese</
+      </div>
+</div>
+  </details>
+</div>
+
 ###
 
 [![RepairKit Banner](https://i.imgur.com/EfAmXt4.png)](https://github.com/Foulest/RepairKit/releases)
@@ -38,45 +69,45 @@ Automatically perform a comprehensive system cleanup and repair, including:
 - Removing pre-installed bloatware
 - Repairing disk issues and corrupt Windows files
 - Updating outdated installed programs
-Every function in the repair is fully customizable, allowing you to enable or disable specific repairs as needed using  
-either the checkboxes on the panel, or the configuration files located in the **config** folder. **Only modify these  
-files if you know what you are doing.**  
 
-> **Note:** The previously available **Remove Malware** option is now removed. **Run Windows Defender Tweaks** now  
-> applies optimal Windows Defender settings instead. Manual scanning options are available using the Emsisoft or Sophos  
-> Scan options in the Useful Programs panel.  
+Every function in the repair is fully customizable, allowing you to enable or disable specific repairs as needed using
+either the checkboxes on the panel, or the configuration files located in the **config** folder. **Only modify these
+files if you know what you are doing.**
 
-![Automatic Repairs](https://i.imgur.com/mnkUQV1.png)  
+> **Note:** The previously available **Remove Malware** option is now removed. **Run Windows Defender Tweaks** now
+> applies optimal Windows Defender settings instead. Manual scanning options are available using the Emsisoft or Sophos
+> Scan options in the Useful Programs panel.
 
-### **Useful Programs**  
+![Automatic Repairs](https://i.imgur.com/mnkUQV1.png)
 
-Access essential software tools for system maintenance, including:  
+### **Useful Programs**
 
-- **[CPU-Z](https://cpuid.com/softwares/cpu-z.html)**: Identify your system hardware details.  
-- **[HWMonitor](https://cpuid.com/softwares/hwmonitor.html)**: Monitor hardware temperatures and specs.  
-- **[Emsisoft Scan](https://emsisoft.com/en/home/emergency-kit)**: Scan for malware using Emsisoft Emergency Kit.  
-- **[Sophos Scan](https://sophos.com/en-us/free-tools/virus-removal-tool)**: Scan for malware using Sophos Scan & Clean.  
-- **[TreeSize](https://jam-software.com/treesize_free)**: Analyze and manage disk contents.  
-- **[Everything](https://voidtools.com)**: An ultra-fast file search engine.  
-- **[CrystalDiskInfo](https://sourceforge.net/projects/crystaldiskinfo)**: Monitor your disk drive's health and status.  
-- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark)**: Benchmark your disk drive's read/write  
-  speeds.  
-- **[Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)**: An alternative to Windows Startup  
-  Manager.  
-- **[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)**: An alternative to  
-  Windows Task Manager.  
-- **[Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)**: Monitor system activity and  
-  processes.  
-- **[BlueScreenView](https://nirsoft.net/utils/blue_screen_view.html)**: View and analyze Windows BSOD crash dumps.  
-- **[NVCleanstall](https://techpowerup.com/download/techpowerup-nvcleanstall)**: A lightweight NVIDIA graphics card  
-  driver updater.  
-- **[DisplayDriverUninstaller](https://guru3d.com/files-details/display-driver-uninstaller-download.html)**: Remove  
-  display drivers and packages.  
-- **[Recuva](https://ccleaner.com/recuva)**: A data recovery tool for deleted files.  
-- **[DiskGenius](https://diskgenius.com)**: A disk partition manager and data recovery tool.  
+Access essential software tools for system maintenance, including:
+
+- **[CPU-Z](https://cpuid.com/softwares/cpu-z.html)**: Identify your system hardware details.
+- **[HWMonitor](https://cpuid.com/softwares/hwmonitor.html)**: Monitor hardware temperatures and specs.
+- **[Emsisoft Scan](https://emsisoft.com/en/home/emergency-kit)**: Scan for malware using Emsisoft Emergency Kit.
+- **[Sophos Scan](https://sophos.com/en-us/free-tools/virus-removal-tool)**: Scan for malware using Sophos Scan & Clean.
+- **[TreeSize](https://jam-software.com/treesize_free)**: Analyze and manage disk contents.
+- **[Everything](https://voidtools.com)**: An ultra-fast file search engine.
+- **[CrystalDiskInfo](https://sourceforge.net/projects/crystaldiskinfo)**: Monitor your disk drive's health and status.
+- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark)**: Benchmark your disk drive's read/write
+  speeds.
+- **[Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)**: An alternative to Windows Startup
+  Manager.
+- **[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)**: An alternative to
+  Windows Task Manager.
+- **[Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)**: Monitor system activity and
+  processes.
+- **[BlueScreenView](https://nirsoft.net/utils/blue_screen_view.html)**: View and analyze Windows BSOD crash dumps.
+- **[NVCleanstall](https://techpowerup.com/download/techpowerup-nvcleanstall)**: A lightweight NVIDIA graphics card
+  driver updater.
+- **[DisplayDriverUninstaller](https://guru3d.com/files-details/display-driver-uninstaller-download.html)**: Remove
+  display drivers and packages.
+- **[Recuva](https://ccleaner.com/recuva)**: A data recovery tool for deleted files.
+- **[DiskGenius](https://diskgenius.com)**: A disk partition manager and data recovery tool.
 
 ![Useful Programs (Page 1/2)](https://i.imgur.com/NAb78GU.png)
-
 
 Additionally, RepairKit provides links to useful software tools, including:
 
@@ -121,17 +152,17 @@ RepairKit will now open, and you can start using its features.
 ## Compiling
 
 1. Clone the repository.
-2. Open a command prompt/terminal in the repository directory.
+2. Open a command prompt/terminal to the repository directory.
 3. Run `gradlew createExe` on Windows, or `./gradlew createExe` on macOS or Linux.
-4. The compiled `RepairKit-X.X.X.zip` file will be located in the `build` folder.
+4. The built `RepairKit-X.X.X.zip` file will be in the `build` folder.
 
 ## Getting Help
 
-For support or questions, please open an issue in the [Issues section](https://github.com/Foulest/RepairKit/issues).
+For support or queries, please open an issue in the [Issues section](https://github.com/Foulest/RepairKit/issues).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

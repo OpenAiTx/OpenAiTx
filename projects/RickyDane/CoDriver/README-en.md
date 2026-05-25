@@ -199,33 +199,30 @@ sudo dnf group install "C Development Tools and Libraries"
 </details>
 
 ## ⚠️ Known issues:
-- Drag and drop out of the window is currently not always working on linux
-- On windows you may have to install [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Drag and drop out of the window is currently not always working on Linux
+- On Windows you may have to install [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Permissions on ms-windows are a little bit strange
-  - You may have to run the program as administrator if you encounter problems to copy elements or something similar
-- There could be a problem you need to install openssl1.1 on linux systems, when the program does not start
+  - You may have to run the program as administrator if you encounter problems copying elements or similar issues
+- There could be a problem where you need to install openssl1.1 on Linux systems if the program does not start
 
 ## 📝 Todos:
 - Multiple languages
 - Favorites
-- Access online storage services (Google drive, etc.)
+- Access online storage services (Google Drive, etc.)
 
 ## User interface
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### List style
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Grid style
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
-
-### Miller column view
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Dual pane view
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
 
 ## How to contribute
-Setup your machine for developing tauri v1 applications: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+Set up your machine for developing Tauri v1 applications: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
 When this is done just do ```git clone https://github.com/RickyDane/CoDriver``` or ```gh repo clone RickyDane/CoDriver``` in a location on your machine.
 </br></br>
@@ -236,7 +233,7 @@ Be sure to have tauri-cli installed: ```cargo install tauri-cli```
 
 ## Release signing
 
-macOS release artifacts must be signed and notarized to prevent Gatekeeper from reporting that the installed app is damaged. See [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) for the required GitHub Actions secrets and verification commands.
+macOS release artifacts must be signed and notarized to avoid Gatekeeper reporting that the installed app is damaged. See [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) for required GitHub Actions secrets and verification commands.
 
 ## Star History
 
@@ -254,6 +251,6 @@ macOS release artifacts must be signed and notarized to prevent Gatekeeper from 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

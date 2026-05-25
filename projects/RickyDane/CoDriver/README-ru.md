@@ -193,7 +193,7 @@ sudo dnf group install "C Development Tools and Libraries"
   sudo apt-get install sshfs
   ```
 
-## 🏴‍☠️ Языковая поддержка
+## 🏴‍☠️ Поддержка языков
 - Английский
   - Возможность выбора между языками скоро появится ...
 </details>
@@ -202,41 +202,38 @@ sudo dnf group install "C Development Tools and Libraries"
 - Перетаскивание за пределы окна в настоящее время не всегда работает в Linux
 - В Windows может потребоваться установить [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Разрешения в ms-windows немного странные
-  - Возможно, вам придется запускать программу от имени администратора, если возникают проблемы с копированием элементов или что-то подобное
-- Может возникнуть проблема, что на Linux нужно установить openssl1.1, если программа не запускается
+  - Возможно, вам придется запустить программу от имени администратора, если возникнут проблемы с копированием элементов или подобным
+- Может возникнуть проблема, что необходимо установить openssl1.1 на Linux-системах, если программа не запускается
 
 ## 📝 Задачи:
 - Множественные языки
 - Избранное
-- Доступ к онлайн-хранилищам (Google drive и др.)
+- Доступ к онлайн-хранилищам (Google Drive и др.)
 
 ## Пользовательский интерфейс
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### Список
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Сетка
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
 
-### Просмотр в колонках Миллера
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Двухпанельный режим
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
-
-## Как внести вклад
-Настройте вашу машину для разработки приложений tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+## Как принять участие
+Настройте свою машину для разработки приложений на tauri v1: [Требования Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-После этого просто выполните ```git clone https://github.com/RickyDane/CoDriver``` или ```gh repo clone RickyDane/CoDriver``` в нужной директории на вашем компьютере.
+Когда все готово, просто выполните ```git clone https://github.com/RickyDane/CoDriver``` или ```gh repo clone RickyDane/CoDriver``` в нужной директории на вашем компьютере.
 </br></br>
-Вы должны иметь возможность запустить ```cargo tauri dev``` в корневой директории этого проекта, чтобы начать сборку и запуск CoDriver.
+Вы должны иметь возможность запустить ```cargo tauri dev``` из корневой директории проекта для сборки и запуска CoDriver.
 </br>
-Убедитесь, что у вас установлен tauri-cli: ```cargo install tauri-cli```
+Убедитесь, что tauri-cli установлен: ```cargo install tauri-cli```
 </br>
 
-## Подпись релиза
+## Подпись релизов
 
-Артефакты релиза для macOS должны быть подписаны и нотариально заверены, чтобы Gatekeeper не сообщал, что установленное приложение повреждено. См. [Подпись и нотариальное заверение macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) для необходимых секретов GitHub Actions и команд проверки.
+Релизные артефакты для macOS должны быть подписаны и нотариально заверены, чтобы Gatekeeper не сообщал, что установленное приложение повреждено. Смотрите [Подпись и нотариальное заверение для macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) для получения необходимых секретов GitHub Actions и команд проверки.
 
 ## История звёзд
 
@@ -248,12 +245,12 @@ sudo dnf group install "C Development Tools and Libraries"
  </picture>
 </a>
 
-#### Другие сторонние программы
+#### Другое стороннее программное обеспечение
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

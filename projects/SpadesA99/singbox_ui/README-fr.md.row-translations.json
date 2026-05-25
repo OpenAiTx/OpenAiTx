@@ -1,0 +1,1076 @@
+[
+  {
+    "row": 1,
+    "rowsha": "i8SBFPQUggKPLCvh4Tb6JExSbefJBPXgQbhk7xus+Ls=",
+    "originContent": "# Sing-box UI",
+    "translatedContent": "# Sing-box UI"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "w/rLeuNBoNs+dQ8a0x54zGxu0rXJWauiw19B6I4aDI8=",
+    "originContent": "**[English](https://raw.githubusercontent.com/SpadesA99/singbox_ui/main/README_EN.md) | 中文**",
+    "translatedContent": "**[English](https://raw.githubusercontent.com/SpadesA99/singbox_ui/main/README_EN.md) | 中文**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "cswcezb/32h+i2n1GJ13TK1zzMhr1dGgWuGfJMVST+U=",
+    "originContent": "[![Docker Image](https://img.shields.io/badge/ghcr.io-singbox__ui-blue?logo=docker)](https://github.com/SpadesA99/singbox_ui/pkgs/container/singbox_ui)",
+    "translatedContent": "[![Docker Image](https://img.shields.io/badge/ghcr.io-singbox__ui-blue?logo=docker)](https://github.com/SpadesA99/singbox_ui/pkgs/container/singbox_ui)"
+  },
+  {
+    "row": 8,
+    "rowsha": "mquLnXpaJgw9c5r84B0/iJafjdcvOfbbYEWVTdMQGsg=",
+    "originContent": "[![Build Status](https://github.com/SpadesA99/singbox_ui/actions/workflows/docker-build.yml/badge.svg)](https://github.com/SpadesA99/singbox_ui/actions)",
+    "translatedContent": "[![Build Status](https://github.com/SpadesA99/singbox_ui/actions/workflows/docker-build.yml/badge.svg)](https://github.com/SpadesA99/singbox_ui/actions)"
+  },
+  {
+    "row": 9,
+    "rowsha": "6JtvcWqeysl4aoaZUEqihIjMP5XziagZeOhbmQX24/k=",
+    "originContent": "[![GitHub Stars](https://img.shields.io/github/stars/SpadesA99/singbox_ui?style=flat&logo=github)](https://github.com/SpadesA99/singbox_ui/stargazers)",
+    "translatedContent": "[![GitHub Stars](https://img.shields.io/github/stars/SpadesA99/singbox_ui?style=flat&logo=github)](https://github.com/SpadesA99/singbox_ui/stargazers)"
+  },
+  {
+    "row": 10,
+    "rowsha": "EK5M8Densr/WjoRghrPn3kW/hVs+J9y/PPCdTlS0lgY=",
+    "originContent": "[![License](https://img.shields.io/github/license/SpadesA99/singbox_ui)](LICENSE)",
+    "translatedContent": "[![License](https://img.shields.io/github/license/SpadesA99/singbox_ui)](LICENSE)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Q/kQUCZyZT+OTK4IZ25O4g7qJBNlqrmwnNxGfavBMxA=",
+    "originContent": "**现代化的 sing-box 配置管理工具**",
+    "translatedContent": "**Outil moderne de gestion de configuration sing-box**"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "rTR2EHT/5D6qTiin7L+5AHLIRoHpZtrbRL+r5xI5OFQ=",
+    "originContent": "基于 Go 1.24 + Next.js 16 构建，通过 Docker 容器化管理 sing-box",
+    "translatedContent": "Construit sur Go 1.24 + Next.js 16, gestion de sing-box via conteneur Docker"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "s0BB7mecFeyzxymgKggcTwie6fu+HwZCPep3PI3blcQ=",
+    "originContent": "![Sing-box UI 界面截图](https://raw.githubusercontent.com/SpadesA99/singbox_ui/main/docs/zh.png)",
+    "translatedContent": "![Capture d'écran de l'interface Sing-box UI](https://raw.githubusercontent.com/SpadesA99/singbox_ui/main/docs/zh.png)"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "PLhdp/shQSES8gG9QKOsIxFo0UVjxJQObHQ6csfDoQE=",
+    "originContent": "## 核心功能",
+    "translatedContent": "## Fonctionnalités principales"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "BQRtnmdckEtN1cqnxeGPCsQRkhxMghTYXVtIhEV+3EM=",
+    "originContent": "### 协议支持",
+    "translatedContent": "### Protocoles supportés"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "GGYyIF/IUzQSEOGYV8Gs3q2Kx9fzCf4y8wOlZlxKlg0=",
+    "originContent": "| 入站协议 | 出站协议 | 订阅解析 |",
+    "translatedContent": "| Protocoles entrants | Protocoles sortants | Analyse d’abonnement |"
+  },
+  {
+    "row": 27,
+    "rowsha": "SF96yDYaO7cOKqUU0gWxrd8iqK7IYNPSIGK2ltETW9o=",
+    "originContent": "|---------|---------|---------|",
+    "translatedContent": "|---------|---------|---------|"
+  },
+  {
+    "row": 28,
+    "rowsha": "MunIqWB9sTo1XQTeSm4f8g0Sc0VS1+IuRg1Mx0nTl+8=",
+    "originContent": "| WireGuard | 所有入站协议 | VMess |",
+    "translatedContent": "| WireGuard | Tous les protocoles entrants | VMess |"
+  },
+  {
+    "row": 29,
+    "rowsha": "80O7yQwrFom38cAbWmOJdRTo+iU+Em337jQrlck6fAo=",
+    "originContent": "| Mixed (Socks5+HTTP) | direct (直连) | VLESS |",
+    "translatedContent": "| Mixte (Socks5+HTTP) | direct (connexion directe) | VLESS |"
+  },
+  {
+    "row": 30,
+    "rowsha": "K8x2QKCBNOOktMKxlkEy36+8HcLY2Zd/4eMKTYLES0I=",
+    "originContent": "| VLESS | block (屏蔽) | Trojan |",
+    "translatedContent": "| VLESS | block (blocage) | Trojan |"
+  },
+  {
+    "row": 31,
+    "rowsha": "CDMwH5uwf411SFjRFOwp6SuTNdOe740pkq67D3Tl9t8=",
+    "originContent": "| VMess | | Shadowsocks |",
+    "translatedContent": "| VMess | | Shadowsocks |"
+  },
+  {
+    "row": 32,
+    "rowsha": "azggrzjbuoYNkYa2Ic6hV5wDmvA6E+SKlOa0YhcdxHs=",
+    "originContent": "| Trojan | | AnyTLS |",
+    "translatedContent": "| Trojan | | AnyTLS |"
+  },
+  {
+    "row": 33,
+    "rowsha": "/neY9bPixWuiIo09Xq6tQa8/wXOOX+sWx7EnSV/8lgQ=",
+    "originContent": "| Shadowsocks | | Clash YAML 格式 |",
+    "translatedContent": "| Shadowsocks | | Format Clash YAML |"
+  },
+  {
+    "row": 34,
+    "rowsha": "srWACtZwJSVBqZhP7CeH8/7idB88uSYmrdfNpwdpYCc=",
+    "originContent": "| Hysteria2 | | |",
+    "translatedContent": "| Hysteria2 | | |"
+  },
+  {
+    "row": 35,
+    "rowsha": "SuAd7fUQR3fRSvPgp4lq+fjJsV2ygC5r7RpxCkGi6zA=",
+    "originContent": "| TUIC | | |",
+    "translatedContent": "| TUIC | | |"
+  },
+  {
+    "row": 36,
+    "rowsha": "JoEPhg4SAO85EQ19pntG3Owxt6DJTWfxu+7p20UbJRs=",
+    "originContent": "| Naive | | |",
+    "translatedContent": "| Naive | | |"
+  },
+  {
+    "row": 37,
+    "rowsha": "l9Sak2mrYDeOZfqVNvk4ApD4Xo5K7f50NuLDT1TFwR8=",
+    "originContent": "| ShadowTLS | | |",
+    "translatedContent": "| ShadowTLS | | |"
+  },
+  {
+    "row": 38,
+    "rowsha": "zJ3k6h4XE5Z6PpLVQClwyMD3HbxjFSOZIZbQfK1m5Ww=",
+    "originContent": "| AnyTLS | | |",
+    "translatedContent": "| AnyTLS | | |"
+  },
+  {
+    "row": 39,
+    "rowsha": "Lb5z10GLq/MCiKhzPZSSPTvj8r6byrsTViM3ssrk1Y8=",
+    "originContent": "| HTTP | | |",
+    "translatedContent": "| HTTP | | |"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "un3Up4SCJ87gbcLz9TVVd3bn2d9pIxC3EN5slZ+J8t4=",
+    "originContent": "### TLS 证书管理",
+    "translatedContent": "### Gestion des certificats TLS"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "tKB3vfcGx8XmhwAq6ILWo6fXyp95rWy987AM0MzUqT8=",
+    "originContent": "- **ACME 自动证书**: 支持 Let's Encrypt 自动申请和续期",
+    "translatedContent": "- **Certificats ACME automatiques** : prise en charge de la demande et du renouvellement automatique avec Let's Encrypt  "
+  },
+  {
+    "row": 44,
+    "rowsha": "Q8Le1dnL+JW0TxfNO1mM13tJ6pImH7zsM7oMadFZSew=",
+    "originContent": "- **手动证书**: 支持上传自有证书文件",
+    "translatedContent": "- **Certificats manuels** : prise en charge du téléchargement de certificats personnalisés  "
+  },
+  {
+    "row": 45,
+    "rowsha": "cXpliB1Tt/iXJqZtBSNia3kqn34Z9Wz6TYxSVycHFcQ=",
+    "originContent": "- **多协议支持**: VLESS、VMess、Trojan、Hysteria2 等 TLS 协议均支持 ACME",
+    "translatedContent": "- **Support multi-protocoles** : protocoles TLS tels que VLESS, VMess, Trojan, Hysteria2 prennent tous en charge ACME  "
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "oqbuH5UkPdmxso2GwPKbO+/t4yfm3y2SbSkSXJnY87A=",
+    "originContent": "### 路由规则配置",
+    "translatedContent": "### Configuration des règles de routage"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "brSBEX8bDgSeXpQ4dVTjnmKLFUbB53zy3R/zDhDNcZQ=",
+    "originContent": "- **快速模板**: 一键启用常用规则（广告屏蔽、中国 IP/域名直连、私有 IP 直连）",
+    "translatedContent": "- **Modèles rapides** : activation en un clic des règles courantes (blocage de publicité, connexion directe aux IP/domaines chinois, connexion directe aux IP privées)  "
+  },
+  {
+    "row": 50,
+    "rowsha": "VdebCit5DEJL8AJer3aXDe0cBGP5nqBLblS8cfMjMg8=",
+    "originContent": "- **快速添加规则**: 支持快速添加 IP 或域名到直连/代理/屏蔽列表",
+    "translatedContent": "- **Ajout rapide de règles** : prise en charge de l’ajout rapide d’IP ou de domaines aux listes de connexion directe/proxy/blocage  "
+  },
+  {
+    "row": 51,
+    "rowsha": "f2ksnO328UCO2xY8jgrtMu8uuWBrCx5Hrri7LwnWCss=",
+    "originContent": "- **直连模式**: 无代理出站时自动配置为直连模式",
+    "translatedContent": "- **Mode connexion directe** : configuration automatique en mode connexion directe en l’absence de sortie proxy  "
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "doSQ2X1oAaaXdAfALCanZEVJ7EmYzHWoF4HDlmbw3V8=",
+    "originContent": "### 负载均衡",
+    "translatedContent": "### Équilibrage de charge"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "fGz4TJWRQUaQCiXuFA+VG9/VWuYuT+CcAAjSd2MTESo=",
+    "originContent": "- **URLTest 模式**: 基于 sing-box `urltest` 出站，自动选择最低延迟节点",
+    "translatedContent": "- **Mode URLTest** : sortie basée sur sing-box `urltest`, sélection automatique du nœud avec la latence la plus faible  "
+  },
+  {
+    "row": 56,
+    "rowsha": "1ESMBKmILtNdLWVch5sDnMO9x0zeAi3zSOJClE9xFmE=",
+    "originContent": "- **可配置容差**: 自定义延迟容差值（默认 50ms），避免频繁切换",
+    "translatedContent": "- **Tolérance configurable** : personnalisation de la valeur de tolérance de latence (50 ms par défaut), pour éviter les changements fréquents  "
+  },
+  {
+    "row": 57,
+    "rowsha": "FDOn/UlgXKYNNb0t25yWvjNrRGVRdESaONVDJ9b+C4k=",
+    "originContent": "- **动态节点池**: 从订阅中灵活选择多个节点组成负载均衡组",
+    "translatedContent": "- **Pool de nœuds dynamique** : sélection flexible de plusieurs nœuds depuis les abonnements pour former un groupe d’équilibrage de charge  "
+  },
+  {
+    "row": 58,
+    "rowsha": "JEniYQiL3IxRNhX55A9aVQ62E84Tnj4gxuT2MDziCNE=",
+    "originContent": "- **智能路由**: 自动生成路由规则，实现流量智能分发",
+    "translatedContent": "- **Routage intelligent** : génération automatique des règles de routage pour une distribution intelligente du trafic  "
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "LNVDdnp46LPhLEt1ij1uqi3N+Xr02ZhcQQDqNllacHM=",
+    "originContent": "### 多实例管理",
+    "translatedContent": "### Gestion multi-instances"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "sACXrBOHEj9aO070C0A3zLG4adfsB3CkrS1VC6vgPKs=",
+    "originContent": "- 支持创建多个命名 sing-box 实例",
+    "translatedContent": "- Prise en charge de la création de plusieurs instances sing-box nommées  "
+  },
+  {
+    "row": 63,
+    "rowsha": "EUD0KLv6q8ufGpD765qZ77AXahqLs37g0ARgwVNJzEc=",
+    "originContent": "- 每个实例独立配置、启停",
+    "translatedContent": "- Configuration, démarrage et arrêt indépendants pour chaque instance  "
+  },
+  {
+    "row": 64,
+    "rowsha": "kmbNWJa21WZlrs1ivUbLMdP5vjWRFLfypzQrtXZdMBc=",
+    "originContent": "- 独立的容器日志和状态监控",
+    "translatedContent": "- Journaux de conteneur et surveillance d’état indépendants  "
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "6o0Y66QddSuMZuX0w0u4PdWfpm1H4Ee05TVbVF/looI=",
+    "originContent": "### WireGuard VPN 管理",
+    "translatedContent": "### Gestion VPN WireGuard"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "PcszRG4gBad+qEHm6Ah1B+i8RCp4hq7/FA8VauuCAcQ=",
+    "originContent": "- Curve25519 密钥生成",
+    "translatedContent": "- Génération de clés Curve25519  "
+  },
+  {
+    "row": 69,
+    "rowsha": "Sw0iJmywpBsk+Yvy05cbX8wzXAvQrKVW6+ifEcZb1qw=",
+    "originContent": "- IP 绑定密钥缓存",
+    "translatedContent": "- Mise en cache des clés liées aux IP  "
+  },
+  {
+    "row": 70,
+    "rowsha": "hAEvW/y9kgZz2V7+d2JNWx3AexsIHELEpxwATBXGkxU=",
+    "originContent": "- 客户端配置管理 (批量生成、二维码、配置下载)",
+    "translatedContent": "- Gestion de configuration client (génération en masse, QR code, téléchargement de configuration)  "
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "LnUoS28alLE0yD7ZXQcE0gJh6uYW/eeBja9wDA7LF8c=",
+    "originContent": "### Cloudflare WARP 出站",
+    "translatedContent": "### Sortie Cloudflare WARP"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "WSoinsprfI1xgbHRLQ6aVNkCiKUFpUP7B4TIu9hQrgE=",
+    "originContent": "- **一键注册**: 自动生成 Curve25519 密钥对并调用 Cloudflare 注册 API, 本地缓存设备 token, 无需手动配置",
+    "translatedContent": "- **Inscription en un clic** : génération automatique de la paire de clés Curve25519 et appel à l’API d’inscription Cloudflare, mise en cache locale du token de l’appareil, sans configuration manuelle  "
+  },
+  {
+    "row": 75,
+    "rowsha": "scgitarzuRGRAwiB/DPt5kK+BGGcQpAqkfuHStLfBQo=",
+    "originContent": "- **WARP+ 绑定**: 支持填入 License 绑定 WARP+ 账户, 获得无限流量",
+    "translatedContent": "- **Lien WARP+** : prise en charge de la saisie de licence pour lier un compte WARP+ et obtenir un trafic illimité  "
+  },
+  {
+    "row": 76,
+    "rowsha": "S/R8ieAkC3JJ2P1n7jfY8ac41jcB6dweBHEsPvO6sk4=",
+    "originContent": "- **端点优选**: 真实 WireGuard 握手探测——向候选 `IP:Port` 发送 WG 初始化包, 校验返回的 92 字节 `MessageResponse`, 按丢包率 + 平均 RTT 排序, 精确反映 UDP 路径质量(参考 [CloudflareWarpSpeedTest](https://github.com/peanut996/CloudflareWarpSpeedTest) 实现)",
+    "translatedContent": "- **Sélection de point de terminaison** : détection réelle de poignée de main WireGuard — envoi d’un paquet d’init WG au `IP:Port` candidat, vérification de la réponse de 92 octets `MessageResponse`, tri selon le taux de perte + RTT moyen, reflétant précisément la qualité du chemin UDP (implémentation référencée [CloudflareWarpSpeedTest](https://github.com/peanut996/CloudflareWarpSpeedTest))  "
+  },
+  {
+    "row": 77,
+    "rowsha": "vC1qjAUJiAACKnVy17VPO/zZ7kNkB5LrrR5SbQx5+0U=",
+    "originContent": "- **广覆盖扫描**: 8 个 Cloudflare /24 段 × 54 个已知 WARP UDP 端口, 并发探测并打乱采样, 快速找到最快的边缘节点",
+    "translatedContent": "- **Scan à large couverture** : 8 segments Cloudflare /24 × 54 ports UDP WARP connus, détection concurrente avec échantillonnage aléatoire, trouvant rapidement le nœud de bord le plus rapide  "
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "hOkngHqcdUWt22V5dYBR8x5UkDhsYLJithZFCmrCayg=",
+    "originContent": "### 节点健康探测",
+    "translatedContent": "### Détection de santé des nœuds"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "3pzMqgP4M955K7aNfvZyR2LUBRN11ZPlrHLpskfD0H4=",
+    "originContent": "- 异步多节点并发探测",
+    "translatedContent": "- Détection concurrente asynchrone multi-nœuds  "
+  },
+  {
+    "row": 82,
+    "rowsha": "CfqtxTZxXpEiU0VfKmLLpqoqgNwVOLk7LRDLZXhOews=",
+    "originContent": "- 成功率滑动窗口统计",
+    "translatedContent": "- Statistiques de taux de réussite en fenêtre glissante  "
+  },
+  {
+    "row": 83,
+    "rowsha": "gKAL6znKIly9dgljE4W/h7JyI4iLXibRf4ByJDQFAc8=",
+    "originContent": "- API 轮询获取探测结果",
+    "translatedContent": "- Récupération des résultats de détection via API en mode polling  "
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "1NYCPBeKXVwQobJfTApUPDhXJxYq7VRwJoXUpBixGeE=",
+    "originContent": "### 管理功能",
+    "translatedContent": "### Fonctionnalités de gestion  "
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "8y0wlz5qzA2Ua9YTqR4LwZBaisKh+Yuv/T/dP1BlAko=",
+    "originContent": "- 配置预览 (JSON 编辑器)",
+    "translatedContent": "- Aperçu de configuration (éditeur JSON)  "
+  },
+  {
+    "row": 88,
+    "rowsha": "Pa0YbExkhRluyOqQQo5/ONBLik4I2e487MwYrgS4RJE=",
+    "originContent": "- 容器日志查看",
+    "translatedContent": "- Visualisation des journaux du conteneur  "
+  },
+  {
+    "row": 89,
+    "rowsha": "KTiBYCjTlI6nXYHMMF+NuTJIXrt8ceo/kr9FYOofM5U=",
+    "originContent": "- 容器状态监控",
+    "translatedContent": "- Surveillance de l'état du conteneur  "
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "N2Zf5IM5tBDMC3F8L/jU1lr90aB/iqj31z3WwRXmQTU=",
+    "originContent": "## 快速开始",
+    "translatedContent": "## Démarrage rapide  "
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "mUsT6eNAycfNDUeTTZnVqfkgnyKkxStiXNjHMAK+Mq4=",
+    "originContent": "### Docker Compose (推荐)",
+    "translatedContent": "### Docker Compose (recommandé)  "
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "1HOX6BzyjShyQt3fomshFHX8ozne0nURjYonxSUfbkw=",
+    "originContent": "创建 `docker-compose.yml`:",
+    "translatedContent": "Créer `docker-compose.yml` :"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 100,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 101,
+    "rowsha": "Qcvq/D8JLcngxKqje+3PpEsG6CfyHrtpyiWH0smxFsw=",
+    "originContent": "  singbox-ui:",
+    "translatedContent": "  singbox-ui:"
+  },
+  {
+    "row": 102,
+    "rowsha": "lJ6JJh1mYe+7C/P9e2HeWmrlGCq6uWzxvvdz6YVTiZE=",
+    "originContent": "    image: ghcr.io/spadesa99/singbox_ui:latest",
+    "translatedContent": "    image: ghcr.io/spadesa99/singbox_ui:latest"
+  },
+  {
+    "row": 103,
+    "rowsha": "8ALYn+e7o39dIequr6dxXIjMTgSMnqBYUcbXLfqpn6E=",
+    "originContent": "    container_name: singbox-ui",
+    "translatedContent": "    container_name: singbox-ui"
+  },
+  {
+    "row": 104,
+    "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+    "originContent": "    restart: unless-stopped",
+    "translatedContent": "    restart: unless-stopped"
+  },
+  {
+    "row": 105,
+    "rowsha": "H2FMkozpuF0XKoimnAAy/6lQ84uCPFVtfnDGGxFfBYI=",
+    "originContent": "    network_mode: host",
+    "translatedContent": "    network_mode: host"
+  },
+  {
+    "row": 106,
+    "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+    "originContent": "    volumes:",
+    "translatedContent": "    volumes:"
+  },
+  {
+    "row": 107,
+    "rowsha": "g00c5ll/Z1+dLaK7UJdSupY3TPQ0bQK593sPgpgj1Sc=",
+    "originContent": "      - /var/run/docker.sock:/var/run/docker.sock",
+    "translatedContent": "      - /var/run/docker.sock:/var/run/docker.sock"
+  },
+  {
+    "row": 108,
+    "rowsha": "Q8N2bnRtXCqhwu04DODbQ4bmH2e4Y/aEiW42IHQQs+s=",
+    "originContent": "      - ./data:/home/data",
+    "translatedContent": "      - ./data:/home/data"
+  },
+  {
+    "row": 109,
+    "rowsha": "sXkJpyEkylNBzPW3kPxoGEaBxerjm/Gi42tQVe+pZ+E=",
+    "originContent": "    environment:",
+    "translatedContent": "    environment:"
+  },
+  {
+    "row": 110,
+    "rowsha": "ThYWIKpwO65mjO7VsoO9xhIupvpjFfFsKUGkr866wDA=",
+    "originContent": "      - DATA_DIR=/home/data",
+    "translatedContent": "      - DATA_DIR=/home/data"
+  },
+  {
+    "row": 111,
+    "rowsha": "F7Qb3OpC3prCmQo93v2QX2gjiMFUYRNkgHDqq7QeDyo=",
+    "originContent": "      - HOST_DATA_DIR=${PWD}/data",
+    "translatedContent": "      - HOST_DATA_DIR=${PWD}/data"
+  },
+  {
+    "row": 112,
+    "rowsha": "NZg1Yn3LOA4I6POVZnL/ZB4LwSt4HTEptN4l4reUc8g=",
+    "originContent": "      - LISTEN_ADDR=127.0.0.1:7000",
+    "translatedContent": "      - LISTEN_ADDR=127.0.0.1:7000"
+  },
+  {
+    "row": 113,
+    "rowsha": "DtT44Y8lUznKMtWpZxmBjTEw15mNHgJAXFwLwBpwnkw=",
+    "originContent": "      - TZ=Asia/Shanghai",
+    "translatedContent": "      - TZ=Asia/Shanghai"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 117,
+    "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+    "originContent": "docker compose up -d",
+    "translatedContent": "docker compose up -d"
+  },
+  {
+    "row": 118,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "9uOvwXM+VHahKmw7GQcV1tQOybR9HkjIAmVyWclefpk=",
+    "originContent": "访问 http://127.0.0.1:7000",
+    "translatedContent": "Accéder à http://127.0.0.1:7000"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "KNJw6204Ef60CIgLjdTAflHGw/5Mad3+mPBgue83UVQ=",
+    "originContent": "> **说明**:",
+    "translatedContent": "> **Note** :"
+  },
+  {
+    "row": 123,
+    "rowsha": "tP2WtHx6DjEf2rLiMbgXj7GUKeYhZJQL0mkHBsT7d9c=",
+    "originContent": "> - 使用 `network_mode: host` 以便容器直接使用宿主机网络",
+    "translatedContent": "> - Utilisez `network_mode: host` pour que le conteneur utilise directement le réseau de l’hôte"
+  },
+  {
+    "row": 124,
+    "rowsha": "N1DR5BWtOlFKXIaS+l8MsVihdJHdXRlPukg3GZ0UvpI=",
+    "originContent": "> - 默认监听 `127.0.0.1:7000`，仅本地访问，可通过 `LISTEN_ADDR` 环境变量自定义",
+    "translatedContent": "> - Écoute par défaut sur `127.0.0.1:7000`, accès local uniquement, personnalisable via la variable d’environnement `LISTEN_ADDR`"
+  },
+  {
+    "row": 125,
+    "rowsha": "WqDPQULYIi2UYtqKZlaU0YHzTo4RpHgNN4OamXE0/AE=",
+    "originContent": "> - 挂载 Docker Socket 用于管理 sing-box 容器",
+    "translatedContent": "> - Montage du Docker Socket pour gérer le conteneur sing-box"
+  },
+  {
+    "row": 126,
+    "rowsha": "S+9w9vUNItN+bqPHqDaJsyiLg1ri7+h3a82MFFu90Pc=",
+    "originContent": "> - `HOST_DATA_DIR` 通过 `${PWD}` 自动映射宿主机数据目录，用于 sing-box 容器挂载",
+    "translatedContent": "> - `HOST_DATA_DIR` est automatiquement mappé depuis `${PWD}` pour le répertoire de données hôte, utilisé par le conteneur sing-box"
+  },
+  {
+    "row": 127,
+    "rowsha": "krEcjTgO4hubnNYbqlA8A/SvrCrEVFLZJe/U4OBlxb8=",
+    "originContent": "> - 内置 sing-box v1.13.5 镜像，首次启动自动加载，无需联网拉取",
+    "translatedContent": "> - Image sing-box v1.13.5 intégrée, chargée automatiquement au premier démarrage, pas besoin de téléchargement réseau"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "3PZd9zm2vo626ab97mo4OUKQXUJhachLTPF2CswMBTI=",
+    "originContent": "### 远程访问",
+    "translatedContent": "### Accès distant"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "1nUbj140QAaUfibanmQlEJ+4K9+yIQGdud74CDDxuhE=",
+    "originContent": "服务默认仅监听 `127.0.0.1`，推荐通过 SSH 隧道安全访问：",
+    "translatedContent": "Le service écoute par défaut uniquement sur `127.0.0.1`, il est recommandé d’accéder en toute sécurité via un tunnel SSH :"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 134,
+    "rowsha": "5aIzh7HtXBqUSfSTOC+D+W8TCGyXENLoKGM6w6iRsPU=",
+    "originContent": "ssh -L 7000:127.0.0.1:7000 user@your-server",
+    "translatedContent": "ssh -L 7000:127.0.0.1:7000 user@your-server"
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "feL3+Yf23bqYs6PkF1aeJ6JppFGBw8bpiZEiufNpm8Y=",
+    "originContent": "然后在本地浏览器访问 http://127.0.0.1:7000",
+    "translatedContent": "Puis, accédez à http://127.0.0.1:7000 dans votre navigateur local"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "cZGqpDJ6p5o593a1ohFGVfsJAxGoHfLXsK0PXKeYDHw=",
+    "originContent": "> **安全提示**: 不建议将 `LISTEN_ADDR` 改为 `0.0.0.0:7000` 直接暴露到公网，管理面板无认证保护。如需外网访问，请使用 SSH 隧道或配置带认证的反向代理（如 Nginx + Basic Auth）。",
+    "translatedContent": "> **Conseil de sécurité** : Il n’est pas recommandé de modifier `LISTEN_ADDR` en `0.0.0.0:7000` pour une exposition directe sur Internet, car le panneau de gestion n’a pas de protection par authentification. Pour un accès externe, utilisez un tunnel SSH ou configurez un proxy inverse avec authentification (par exemple Nginx + Basic Auth)."
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "oZiO/MueFENnnBttzjLy+xMMzraU7aC3QC7p7nSy1G0=",
+    "originContent": "## 环境变量",
+    "translatedContent": "## Variables d’environnement"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "fLdsoYiMhL9gUXPAkt9gunX2ApfElzP75b2zwaE7T1w=",
+    "originContent": "| 变量 | 说明 | 默认值 |",
+    "translatedContent": "| Variable | Description | Valeur par défaut |"
+  },
+  {
+    "row": 146,
+    "rowsha": "ZteqcbpYY1UufwvzOM4DUbZYr6mqNozt8kdnvk/0ERw=",
+    "originContent": "|------|------|--------|",
+    "translatedContent": "|----------|-------------|-------------------|"
+  },
+  {
+    "row": 147,
+    "rowsha": "uLpc/GassB1jAg3T57r3w4FyY6fKN4HwInv+li6IeIw=",
+    "originContent": "| `DATA_DIR` | 容器内数据目录 | `/home/data` |",
+    "translatedContent": "| `DATA_DIR` | Répertoire des données dans le conteneur | `/home/data` |"
+  },
+  {
+    "row": 148,
+    "rowsha": "0smGjYgL2ph6ODkAUoNWEQmr52YEnAhK0xXqRVXFRds=",
+    "originContent": "| `HOST_DATA_DIR` | 宿主机数据目录（用于 sing-box 容器挂载） | `${PWD}/data` |",
+    "translatedContent": "| `HOST_DATA_DIR` | Répertoire des données sur l’hôte (pour montage dans le conteneur sing-box) | `${PWD}/data` |"
+  },
+  {
+    "row": 149,
+    "rowsha": "lK/lHgbMhWCkfrXuA933EMFyrbXALzkeDT2heEFaeWE=",
+    "originContent": "| `LISTEN_ADDR` | 服务监听地址 | `127.0.0.1:7000` |",
+    "translatedContent": "| `LISTEN_ADDR` | Adresse d’écoute du service | `127.0.0.1:7000` |"
+  },
+  {
+    "row": 150,
+    "rowsha": "T/Turqx93rnS+yu+Hx/hJThXCn3Nhmv2LoqSyjfVovs=",
+    "originContent": "| `TZ` | 时区 | `Asia/Shanghai` |",
+    "translatedContent": "| `TZ` | Fuseau horaire | `Asia/Shanghai` |"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "LtaCEvD8FWJfPXsJMaPE5dt0QVZ/++OpGW5pGNG3LYY=",
+    "originContent": "## 技术栈",
+    "translatedContent": "## Stack technique"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "ATMH3U1WMIs/Sujo/2OR+2QoJH+fIVQD/JByr5nHlTo=",
+    "originContent": "| 前端 | 后端 |",
+    "translatedContent": "| Frontend | Backend |"
+  },
+  {
+    "row": 157,
+    "rowsha": "Q1UY1c64ayP3I+5GWs8f/z1sPU2HnyUwm4MD70V6LwU=",
+    "originContent": "|------|------|",
+    "translatedContent": "|----------|---------|"
+  },
+  {
+    "row": 158,
+    "rowsha": "cCCrxh1rSUGIGXdqgnuIQKd39tLckhWCZUgSDp9yn+s=",
+    "originContent": "| Next.js 16 | Go 1.24 |",
+    "translatedContent": "| Next.js 16 | Go 1.24 |"
+  },
+  {
+    "row": 159,
+    "rowsha": "eMgH61GhCFA1OzcUQw1yzVsz5euS5bTNF5ArdXzru2o=",
+    "originContent": "| React 19 | Gin 1.11 |",
+    "translatedContent": "| React 19 | Gin 1.11 |"
+  },
+  {
+    "row": 160,
+    "rowsha": "NW1T3+8GqICjuvicRbnk+Hz6bSIFkXXU3jXX/jb34Qo=",
+    "originContent": "| Tailwind CSS | Docker SDK |",
+    "translatedContent": "| Tailwind CSS | Docker SDK |"
+  },
+  {
+    "row": 161,
+    "rowsha": "2Yuv/ZU89tFixhC4RqgDy/ppimmZwtdy193NLIvutXQ=",
+    "originContent": "| shadcn/ui | |",
+    "translatedContent": "| shadcn/ui | |"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+    "originContent": "## 许可证",
+    "translatedContent": "## Licence"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "yadLgrqsseXfDKIGUnbuREDYqgtDa+17sO7hwqXnRBo=",
+    "originContent": "[MIT License](LICENSE)",
+    "translatedContent": "[Licence MIT](LICENSE)"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+    "originContent": "## Star History",
+    "translatedContent": "## Historique des étoiles"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "VgLeN0KcEXLuatO6B8A6f5mlGNFG22ZZDCj6pvAy9aM=",
+    "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=SpadesA99/singbox_ui&type=Date)](https://star-history.com/#SpadesA99/singbox_ui&Date)",
+    "translatedContent": "[![Graphique de l’historique des étoiles](https://api.star-history.com/svg?repos=SpadesA99/singbox_ui&type=Date)](https://star-history.com/#SpadesA99/singbox_ui&Date)"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+    "originContent": "## 致谢",
+    "translatedContent": "## Remerciements"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "QwNwTNPB3HYl4SRsg06/TTiHARB5hBchEDy05mJyvXM=",
+    "originContent": "- [sing-box](https://github.com/SagerNet/sing-box)",
+    "translatedContent": "- [sing-box](https://github.com/SagerNet/sing-box)"
+  },
+  {
+    "row": 176,
+    "rowsha": "MuOKH35Nnw+e3gsg3wYDi9XL6zMjWGkN38Wgwvwm3jY=",
+    "originContent": "- [Next.js](https://nextjs.org/)",
+    "translatedContent": "- [Next.js](https://nextjs.org/)"
+  },
+  {
+    "row": 177,
+    "rowsha": "o0HpoqsocKKYbEHuXEOH30OOrCMeGsWx4KwAyIvHE7A=",
+    "originContent": "- [Gin](https://github.com/gin-gonic/gin)",
+    "translatedContent": "- [Gin](https://github.com/gin-gonic/gin)"
+  },
+  {
+    "row": 178,
+    "rowsha": "Imw9uPpwT3HDKrmvsbuu0VWJbh9Nid46WG4K078itjM=",
+    "originContent": "- [shadcn/ui](https://ui.shadcn.com/)",
+    "translatedContent": "- [shadcn/ui](https://ui.shadcn.com/)"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -199,11 +199,11 @@ sudo dnf group install "C Development Tools and Libraries"
 </details>
 
 ## ⚠️ Masalah yang Diketahui:
-- Fitur drag and drop keluar jendela saat ini tidak selalu berfungsi di linux
-- Di windows Anda mungkin harus menginstal [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- Hak akses pada ms-windows sedikit aneh
-  - Anda mungkin harus menjalankan program sebagai administrator jika mengalami masalah untuk menyalin elemen atau hal serupa
-- Bisa jadi ada masalah Anda perlu menginstal openssl1.1 di sistem linux, jika program tidak berjalan
+- Drag and drop keluar dari jendela saat ini tidak selalu berfungsi di linux
+- Di windows Anda mungkin perlu menginstal [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Izin di ms-windows agak aneh
+  - Anda mungkin harus menjalankan program sebagai administrator jika mengalami masalah saat menyalin elemen atau hal serupa
+- Mungkin ada masalah yang mengharuskan Anda menginstal openssl1.1 di sistem linux, jika program tidak dapat berjalan
 
 ## 📝 Daftar tugas:
 - Banyak bahasa
@@ -211,32 +211,28 @@ sudo dnf group install "C Development Tools and Libraries"
 - Akses layanan penyimpanan online (Google drive, dll.)
 
 ## Antarmuka pengguna
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### Gaya daftar
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Gaya grid
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
-
-### Tampilan kolom Miller
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Tampilan dua panel
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
 
 ## Cara berkontribusi
-Siapkan mesin Anda untuk mengembangkan aplikasi tauri v1: [Prasyarat Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
+Siapkan mesin Anda untuk pengembangan aplikasi tauri v1: [Prasyarat Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Setelah ini selesai cukup lakukan ```git clone https://github.com/RickyDane/CoDriver``` atau ```gh repo clone RickyDane/CoDriver``` di lokasi pada mesin Anda.
+Setelah selesai, cukup lakukan ```git clone https://github.com/RickyDane/CoDriver``` atau ```gh repo clone RickyDane/CoDriver``` di lokasi pada mesin Anda.
 </br></br>
-Anda seharusnya bisa menjalankan ```cargo tauri dev``` di direktori root proyek ini untuk mulai membangun dan menjalankan CoDriver.
+Anda harus dapat menjalankan ```cargo tauri dev``` di direktori root proyek ini untuk mulai membangun dan menjalankan CoDriver.
 </br>
-Pastikan tauri-cli sudah terpasang: ```cargo install tauri-cli```
+Pastikan Anda telah menginstal tauri-cli: ```cargo install tauri-cli```
 </br>
 
 ## Penandatanganan rilis
-
-Artefak rilis macOS harus ditandatangani dan dinotarikan agar Gatekeeper tidak melaporkan bahwa aplikasi yang diinstal rusak. Lihat [Penandatanganan dan notarization macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) untuk rahasia GitHub Actions yang diperlukan dan perintah verifikasi.
+Artefak rilis macOS harus ditandatangani dan dinotariskan untuk menghindari Gatekeeper melaporkan bahwa aplikasi yang diinstal rusak. Lihat [Penandatanganan dan Notarisasi macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) untuk rahasia GitHub Actions yang diperlukan dan perintah verifikasi.
 
 ## Riwayat Bintang
 
@@ -252,8 +248,9 @@ Artefak rilis macOS harus ditandatangani dan dinotarikan agar Gatekeeper tidak m
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

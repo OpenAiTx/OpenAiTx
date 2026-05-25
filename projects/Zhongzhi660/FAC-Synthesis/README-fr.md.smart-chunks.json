@@ -1,0 +1,1059 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs\n\nThis is the official implementation of the paper: `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`.\n\n---\n\n## Core Insight\n\n✨ **Work smarter, not harder.**\n\nIn the post-training stage of LLMs, instead of blindly adding massive amounts of surface-level diverse text, it is more effective to precisely identify and synthesize those **truly missing key features**. With only a small number of targeted synthetic samples, we can significantly fill the gaps in **Feature Activation Coverage (FAC)**, leading to clear performance improvements on downstream tasks.\n\n### Why is this insight simple yet powerful?\n\nTraditional data synthesis focuses on quantity and surface diversity (vocabulary, sentence patterns, topic distribution), but these are often just **weak proxies**. What truly determines a model's downstream performance is **the coverage of key features required by the target task**.\n\nOur work reveals:\n\n- Many texts that \"appear very different\" actually activate highly overlapping features;\n- **FAC** predicts downstream performance much better than standard diversity metrics, including **Distinct-1/2** and **n-gram Entropy** at the word level, **POS-tag Distinct-2** at the syntax level, and **Pair CosDist** and **Semantic Entropy** at the embedding level.  \n- For instruction following, **FAC Synthesis** achieves performance comparable to the prior SOTA **MAGPIE**, while requiring **150× less data** than MAGPIE.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />\n</p>\n\n<p align=\"center\">\n  <b>Figure 1:</b> The Efficiency Frontier of Instruction Following Datasets. Our proposed method achieves a Win Rate on AlpacaEval 2.0 comparable to MAGPIE while using only 2K synthetic samples (vs. 300K for MAGPIE).\n</p>\n\n---\n\n## Getting Started\n\n### Installation\n",
+    "ContentSha": "XPCPubkOPRpM2VqfUvXU/Bs8nnQWoB6nJ0yzs9SvLSI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Moins c'est Suffisant : Synthétiser des Données Diverses dans l'Espace des Caractéristiques des LLMs\n\nCeci est l'implémentation officielle de l'article : `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`.\n\n---\n\n## Idée Principale\n\n✨ **Travailler plus intelligemment, pas plus durement.**\n\nDans la phase post-entraînement des LLMs, au lieu d'ajouter aveuglément une grande quantité de textes divers en surface, il est plus efficace d'identifier précisément et de synthétiser ces **caractéristiques clés réellement manquantes**. Avec seulement un petit nombre d'échantillons synthétiques ciblés, nous pouvons significativement combler les lacunes en **Couverture d'Activation des Caractéristiques (FAC)**, entraînant des améliorations claires de performance sur les tâches en aval.\n\n### Pourquoi cette idée est-elle simple mais puissante ?\n\nLa synthèse traditionnelle de données se concentre sur la quantité et la diversité de surface (vocabulaire, structures de phrases, distribution thématique), mais ce ne sont souvent que des **indicateurs faibles**. Ce qui détermine réellement la performance d'un modèle en aval est **la couverture des caractéristiques clés requises par la tâche cible**.\n\nNotre travail révèle :\n\n- De nombreux textes qui \"semblent très différents\" activent en réalité des caractéristiques fortement chevauchantes ;\n- **FAC** prédit la performance en aval bien mieux que les métriques classiques de diversité, incluant **Distinct-1/2** et **l'Entropie des n-grammes** au niveau des mots, **Distinct-2 POS-tag** au niveau syntaxique, et **Pair CosDist** et **Entropie Sémantique** au niveau de l'embedding.  \n- Pour le suivi d'instructions, la **Synthèse FAC** atteint une performance comparable au précédent SOTA **MAGPIE**, tout en nécessitant **150× moins de données** que MAGPIE.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />\n</p>\n\n<p align=\"center\">\n  <b>Figure 1 :</b> Le Front d'Efficacité des Jeux de Données de Suivi d'Instructions. Notre méthode proposée atteint un taux de victoire sur AlpacaEval 2.0 comparable à MAGPIE tout en utilisant seulement 2K échantillons synthétiques (contre 300K pour MAGPIE).\n</p>\n\n---\n\n## Pour Commencer\n\n### Installation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "x3OVBqPMifl5+OkzK5Dv7XDQa2CLOsGtf5q7J1VYnO4=",
+        "originContent": "# Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs",
+        "translatedContent": "# Moins c'est Suffisant : Synthétiser des Données Diverses dans l'Espace des Caractéristiques des LLMs"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "oIXQVgy516eHAO/yS0acwzZR6/c8GCJo4YwEog9N6GQ=",
+        "originContent": "This is the official implementation of the paper: `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`.",
+        "translatedContent": "Ceci est l'implémentation officielle de l'article : `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "fB5KyDf2iMg/fUM6Ldw3uee32HRYUQ59fiXB8ZP8/lE=",
+        "originContent": "## Core Insight",
+        "translatedContent": "## Idée Principale"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IdSRlvN0lsYioBmdzez/2cwCoIW4nMm6YNjeQV87jy8=",
+        "originContent": "✨ **Work smarter, not harder.**",
+        "translatedContent": "✨ **Travailler plus intelligemment, pas plus durement.**"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "PzGVDFiA9wtn52t2PSb9J1Ck388CDyhMrr7XIezctng=",
+        "originContent": "In the post-training stage of LLMs, instead of blindly adding massive amounts of surface-level diverse text, it is more effective to precisely identify and synthesize those **truly missing key features**. With only a small number of targeted synthetic samples, we can significantly fill the gaps in **Feature Activation Coverage (FAC)**, leading to clear performance improvements on downstream tasks.",
+        "translatedContent": "Dans la phase post-entraînement des LLMs, au lieu d'ajouter aveuglément une grande quantité de textes divers en surface, il est plus efficace d'identifier précisément et de synthétiser ces **caractéristiques clés réellement manquantes**. Avec seulement un petit nombre d'échantillons synthétiques ciblés, nous pouvons significativement combler les lacunes en **Couverture d'Activation des Caractéristiques (FAC)**, entraînant des améliorations claires de performance sur les tâches en aval."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "vjrNG2rZzBOMPAiubx9GUgvbKHR/YAh3jr8nGhCzGLU=",
+        "originContent": "### Why is this insight simple yet powerful?",
+        "translatedContent": "### Pourquoi cette idée est-elle simple mais puissante ?"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "9uS/scTj19vPx40HxIpVqL2l7IsjXYarEHZ3fk0wHhY=",
+        "originContent": "Traditional data synthesis focuses on quantity and surface diversity (vocabulary, sentence patterns, topic distribution), but these are often just **weak proxies**. What truly determines a model's downstream performance is **the coverage of key features required by the target task**.",
+        "translatedContent": "La synthèse traditionnelle de données se concentre sur la quantité et la diversité de surface (vocabulaire, structures de phrases, distribution thématique), mais ce ne sont souvent que des **indicateurs faibles**. Ce qui détermine réellement la performance d'un modèle en aval est **la couverture des caractéristiques clés requises par la tâche cible**."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "71lpktkW8w9y5JkLdmIeTP36trtYnCHxTQp/t3JTiuc=",
+        "originContent": "Our work reveals:",
+        "translatedContent": "Notre travail révèle :"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "cWn7N6Ci0X2RV7EG5gVGE10a5G8eULDFswKO/G0mYUA=",
+        "originContent": "- Many texts that \"appear very different\" actually activate highly overlapping features;",
+        "translatedContent": "- De nombreux textes qui \"semblent très différents\" activent en réalité des caractéristiques fortement chevauchantes ;"
+      },
+      {
+        "row": 20,
+        "rowsha": "2H3IGsS1sHEH2rwzOd3Pib/jo53GPwi+p7BdkACUvh8=",
+        "originContent": "- **FAC** predicts downstream performance much better than standard diversity metrics, including **Distinct-1/2** and **n-gram Entropy** at the word level, **POS-tag Distinct-2** at the syntax level, and **Pair CosDist** and **Semantic Entropy** at the embedding level.  ",
+        "translatedContent": "- **FAC** prédit la performance en aval bien mieux que les métriques classiques de diversité, incluant **Distinct-1/2** et **l'Entropie des n-grammes** au niveau des mots, **Distinct-2 POS-tag** au niveau syntaxique, et **Pair CosDist** et **Entropie Sémantique** au niveau de l'embedding.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "LYChM4ue/kyubQekm431xPVbSSpd46/JhkaxNv8xf9w=",
+        "originContent": "- For instruction following, **FAC Synthesis** achieves performance comparable to the prior SOTA **MAGPIE**, while requiring **150× less data** than MAGPIE.",
+        "translatedContent": "- Pour le suivi d'instructions, la **Synthèse FAC** atteint une performance comparable au précédent SOTA **MAGPIE**, tout en nécessitant **150× moins de données** que MAGPIE."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "GZxQOEhctyLUWOoXh9wZZisjRdji3zuxDAa5GXSD2lo=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />"
+      },
+      {
+        "row": 25,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 28,
+        "rowsha": "KGZX2tO3MaFzxm3iQ38K2Ie4s7mbjgpZ3vIhYG85myI=",
+        "originContent": "  <b>Figure 1:</b> The Efficiency Frontier of Instruction Following Datasets. Our proposed method achieves a Win Rate on AlpacaEval 2.0 comparable to MAGPIE while using only 2K synthetic samples (vs. 300K for MAGPIE).",
+        "translatedContent": "  <b>Figure 1 :</b> Le Front d'Efficacité des Jeux de Données de Suivi d'Instructions. Notre méthode proposée atteint un taux de victoire sur AlpacaEval 2.0 comparable à MAGPIE tout en utilisant seulement 2K échantillons synthétiques (contre 300K pour MAGPIE)."
+      },
+      {
+        "row": 29,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## Pour Commencer"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### Installation"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/Zhongzhi660/FAC-Synthesis.git\ncd FAC-Synthesis\npip install -r requirements.txt\n```",
+    "ContentSha": "Qiw7YUHuQv601oJHSAH4zuf3zR57kgsEWzZIRJeeraM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/Zhongzhi660/FAC-Synthesis.git\ncd FAC-Synthesis\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ujYQO2IzKvMm4Jr+eKXgqrdBCxtQFMmW5mTilH35BJw=",
+        "originContent": "git clone https://github.com/Zhongzhi660/FAC-Synthesis.git",
+        "translatedContent": "git clone https://github.com/Zhongzhi660/FAC-Synthesis.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "oTAZj+YRjGyLhF7OL9oNvEA0CYV56mpdYtt5JRMjHEo=",
+        "originContent": "cd FAC-Synthesis",
+        "translatedContent": "cd FAC-Synthesis"
+      },
+      {
+        "row": 4,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n### Repository Structure\n",
+    "ContentSha": "pgTj9GdL46zgO7DC/kQzsdNVnK8OFJiH+W+EVussAUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n### Repository Structure\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CwZZqcC7CQUhQG9X2fPv83IGFLXeK8uDwM/VTuZQ96k=",
+        "originContent": "### Repository Structure",
+        "translatedContent": "### Repository Structure"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```text\nFAC-Synthesis/\n├── LICENSE\n├── README.md\n├── requirements.txt\n│\n├── sae_pretrain/                 # SAE pretraining\n│   ├── datasets/                 # pretraining corpora (constructed from public sources)\n│   └── outputs/                  # SAE pre-trained weights\n│\n├── sae_feature_analysis/         # SAE feature analysis pipeline\n│   ├── interpret_features/       # feature interpretation (span collection + annotation)\n│   ├── identify_task_relevant_features/   # task-relevant feature identification\n│   └── identify_missing_features/         # missing-feature discovery (coverage gap)\n│\n├── fac_synthesis/                # FAC synthesis pipeline\n│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction\n│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis\n│\n└── training_scripts/             # Downstream training / evaluation scripts\n    ├── toxicity_detection/\n    ├── reward_modeling/\n    ├── instruction_following/\n    └── behavior_steering/\n```",
+    "ContentSha": "lWV4yLjIRoc7ctYqKAjTALXGB/RHuq0mHUz3Q3qewpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\nFAC-Synthesis/\n├── LICENSE\n├── README.md\n├── requirements.txt\n│\n├── sae_pretrain/                 # SAE pretraining\n│   ├── datasets/                 # pretraining corpora (constructed from public sources)\n│   └── outputs/                  # SAE pre-trained weights\n│\n├── sae_feature_analysis/         # SAE feature analysis pipeline\n│   ├── interpret_features/       # feature interpretation (span collection + annotation)\n│   ├── identify_task_relevant_features/   # task-relevant feature identification\n│   └── identify_missing_features/         # missing-feature discovery (coverage gap)\n│\n├── fac_synthesis/                # FAC synthesis pipeline\n│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction\n│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis\n│\n└── training_scripts/             # Downstream training / evaluation scripts\n    ├── toxicity_detection/\n    ├── reward_modeling/\n    ├── instruction_following/\n    └── behavior_steering/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "Tg7Qauaw0YdQm7DrUVQ+SD9kwpLWJP35ULhAoYnwswc=",
+        "originContent": "FAC-Synthesis/",
+        "translatedContent": "FAC-Synthesis/"
+      },
+      {
+        "row": 3,
+        "rowsha": "qjFZW+CH7vA3mZn1LMINwV6O4bbCxoSaYNxQcl/8P2g=",
+        "originContent": "├── LICENSE",
+        "translatedContent": "├── LICENSE"
+      },
+      {
+        "row": 4,
+        "rowsha": "LoTAQfuqjLD8IIK02XWaCUrSST7uB7c6SX0sC1UqV4I=",
+        "originContent": "├── README.md",
+        "translatedContent": "├── README.md"
+      },
+      {
+        "row": 5,
+        "rowsha": "xlV0yUT1msPqBxaLt9F0FeZLfqakRCwtYfD3goFU2Mg=",
+        "originContent": "├── requirements.txt",
+        "translatedContent": "├── requirements.txt"
+      },
+      {
+        "row": 6,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 7,
+        "rowsha": "uF9c0Wf1VmxZBm9CTsKbndZ0VLcGeIC6O9a6V0OAWkk=",
+        "originContent": "├── sae_pretrain/                 # SAE pretraining",
+        "translatedContent": "├── sae_pretrain/                 # SAE pretraining"
+      },
+      {
+        "row": 8,
+        "rowsha": "uBg7BKMrHcGx5Xv1lhnex693/UsDNLiQT36vsGwAhhI=",
+        "originContent": "│   ├── datasets/                 # pretraining corpora (constructed from public sources)",
+        "translatedContent": "│   ├── datasets/                 # pretraining corpora (constructed from public sources)"
+      },
+      {
+        "row": 9,
+        "rowsha": "K8fJErI/CG9V+FYM7YWL3QeSHbzbbNMqwxJ8FaYuSVo=",
+        "originContent": "│   └── outputs/                  # SAE pre-trained weights",
+        "translatedContent": "│   └── outputs/                  # SAE pre-trained weights"
+      },
+      {
+        "row": 10,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 11,
+        "rowsha": "tM/GwcByEYMaGCdWfcSbk89+cjlsZLYC6wk41mkHlso=",
+        "originContent": "├── sae_feature_analysis/         # SAE feature analysis pipeline",
+        "translatedContent": "├── sae_feature_analysis/         # SAE feature analysis pipeline"
+      },
+      {
+        "row": 12,
+        "rowsha": "FCScqSj/RfBbQiBUIj5SKAiJB5OlerPXJ/hjiYH0BR8=",
+        "originContent": "│   ├── interpret_features/       # feature interpretation (span collection + annotation)",
+        "translatedContent": "│   ├── interpret_features/       # feature interpretation (span collection + annotation)"
+      },
+      {
+        "row": 13,
+        "rowsha": "pWEFaTxLAMxrSJsUaXFckp3CYm0EsjQ+U7dMklZBEQw=",
+        "originContent": "│   ├── identify_task_relevant_features/   # task-relevant feature identification",
+        "translatedContent": "│   ├── identify_task_relevant_features/   # task-relevant feature identification"
+      },
+      {
+        "row": 14,
+        "rowsha": "lLAIJ8FsCDeN+IOhgTloPsKVOrcVpfiCpZTUCbsXwpk=",
+        "originContent": "│   └── identify_missing_features/         # missing-feature discovery (coverage gap)",
+        "translatedContent": "│   └── identify_missing_features/         # missing-feature discovery (coverage gap)"
+      },
+      {
+        "row": 15,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 16,
+        "rowsha": "DL0aKyxUjnnZXqqEV2ZmijqotEQfdPWvlGSf9NVtwes=",
+        "originContent": "├── fac_synthesis/                # FAC synthesis pipeline",
+        "translatedContent": "├── fac_synthesis/                # FAC synthesis pipeline"
+      },
+      {
+        "row": 17,
+        "rowsha": "WkuKiOv52cCwLVk4jiNe4UqfiV9asT2VbDvj9fFp68U=",
+        "originContent": "│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction",
+        "translatedContent": "│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction"
+      },
+      {
+        "row": 18,
+        "rowsha": "F2P+FVkED/WPDdBl/A/SoWu9y/RA1MqZX3IiN5o+VnA=",
+        "originContent": "│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis",
+        "translatedContent": "│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis"
+      },
+      {
+        "row": 19,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 20,
+        "rowsha": "Pe+K7PVzdkVst0LLHE6OrOBejeDBIMXkwqJO0wSkpO4=",
+        "originContent": "└── training_scripts/             # Downstream training / evaluation scripts",
+        "translatedContent": "└── training_scripts/             # Downstream training / evaluation scripts"
+      },
+      {
+        "row": 21,
+        "rowsha": "pn5TSN/WPjEpNo+ChzDk997B0TItO4HwA2c02nXmExQ=",
+        "originContent": "    ├── toxicity_detection/",
+        "translatedContent": "    ├── toxicity_detection/"
+      },
+      {
+        "row": 22,
+        "rowsha": "NctjSO33vfb5FcMweu10C7AbDKN+dKJMkiTsXhxcg+c=",
+        "originContent": "    ├── reward_modeling/",
+        "translatedContent": "    ├── reward_modeling/"
+      },
+      {
+        "row": 23,
+        "rowsha": "kHe5r0w1iwghOAa7Q/g2ZNmZLtyIE2+/DL7qtavyA3E=",
+        "originContent": "    ├── instruction_following/",
+        "translatedContent": "    ├── instruction_following/"
+      },
+      {
+        "row": 24,
+        "rowsha": "8UC1viImAwsAcDbVte1QATY0dAkgEMdBfqdjJh3gRHQ=",
+        "originContent": "    └── behavior_steering/",
+        "translatedContent": "    └── behavior_steering/"
+      },
+      {
+        "row": 25,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Pre-training Sparse Autoencoders\nMost of the scripts for SAE pretraining are located in `sae_pretrain/`. We provide pre-trained SAE checkpoints on Hugging Face:\n- **Llama-3.1-8B-Instruct SAE**: [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)\n- **Qwen2-7B-Instruct SAE**: [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)\n- **Mistral-7B-Instruct SAE**: [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)\n\nTo pre-train SAEs, run the following commands:\n",
+    "ContentSha": "gq5CZw+9dX54nVf9adX15aU4lafVngeTSXqH+UMLzB4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Pré-entraînement des Autoencodeurs Parcimonieux\nLa plupart des scripts pour le pré-entraînement des SAE se trouvent dans `sae_pretrain/`. Nous fournissons des points de contrôle SAE pré-entraînés sur Hugging Face :\n- **Llama-3.1-8B-Instruct SAE** : [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)\n- **Qwen2-7B-Instruct SAE** : [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)\n- **Mistral-7B-Instruct SAE** : [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)\n\nPour pré-entraîner les SAE, exécutez les commandes suivantes :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rGLRrQM/ah0JF0Y64tBkrMMqeuBWsRdkj9STnxjqCH4=",
+        "originContent": "### Pre-training Sparse Autoencoders",
+        "translatedContent": "### Pré-entraînement des Autoencodeurs Parcimonieux"
+      },
+      {
+        "row": 3,
+        "rowsha": "ouhDErsI1UY4keifVqkxazGVMlFxmf2wyegqlOYcYyg=",
+        "originContent": "Most of the scripts for SAE pretraining are located in `sae_pretrain/`. We provide pre-trained SAE checkpoints on Hugging Face:",
+        "translatedContent": "La plupart des scripts pour le pré-entraînement des SAE se trouvent dans `sae_pretrain/`. Nous fournissons des points de contrôle SAE pré-entraînés sur Hugging Face :"
+      },
+      {
+        "row": 4,
+        "rowsha": "j3A1iMby1QGgGVpWHwUkjuH6fAVG80ONn48pIQ/QkPg=",
+        "originContent": "- **Llama-3.1-8B-Instruct SAE**: [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)",
+        "translatedContent": "- **Llama-3.1-8B-Instruct SAE** : [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)"
+      },
+      {
+        "row": 5,
+        "rowsha": "EqZbxrFRBgQcRRAP4VpOHhFjQQnPz7IpM5PsR2tM5Ng=",
+        "originContent": "- **Qwen2-7B-Instruct SAE**: [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)",
+        "translatedContent": "- **Qwen2-7B-Instruct SAE** : [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)"
+      },
+      {
+        "row": 6,
+        "rowsha": "TKsnASbjQPS4+SIvBIzlKomZVmrr4Q2iVDk/0gAVzU8=",
+        "originContent": "- **Mistral-7B-Instruct SAE**: [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)",
+        "translatedContent": "- **Mistral-7B-Instruct SAE** : [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "qsIA+uRdB5RLVyRrweapwDCpj6CV9Bb+b/Zk2J02O0k=",
+        "originContent": "To pre-train SAEs, run the following commands:",
+        "translatedContent": "Pour pré-entraîner les SAE, exécutez les commandes suivantes :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)\npython create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16\n\n# Step-2: Train SAEs on the target layer (e.g., layer 16)\npython train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16\n```",
+    "ContentSha": "u1Yb0dybOMzm3Q4xpxkj51NzP7cnQcVZ6PYWco5JKMA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)\npython create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16\n\n# Step-2: Train SAEs on the target layer (e.g., layer 16)\npython train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mv7tNGguUeU7GcGZ3FM+CcetQQliJ+0JYqupshjIG50=",
+        "originContent": "# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)",
+        "translatedContent": "# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)"
+      },
+      {
+        "row": 3,
+        "rowsha": "NWSP6vFTb8A9HgPTch8ldadaczSA7IL6SBvqgRDth14=",
+        "originContent": "python create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16",
+        "translatedContent": "python create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "XQGVGCl3g4hYz3AnZIPojWGrL9J03LcG/wbuEKnAsYA=",
+        "originContent": "# Step-2: Train SAEs on the target layer (e.g., layer 16)",
+        "translatedContent": "# Step-2: Train SAEs on the target layer (e.g., layer 16)"
+      },
+      {
+        "row": 6,
+        "rowsha": "5E/Va2t+W0uSsEoz33HO6gr1SISDoAem1YeAgZWkxJo=",
+        "originContent": "python train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16",
+        "translatedContent": "python train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Analyzing the features of SAE\nFeature analysis scripts are located in `sae_feature_analysis/`. To group activation spans and generate human-readable feature interpretations, run:\n",
+    "ContentSha": "oeYzD6zdBqe5yFqjpJwmxMhwmhibK82XvC+luYHcCBk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Analyse des caractéristiques de SAE\nLes scripts d'analyse des caractéristiques se trouvent dans `sae_feature_analysis/`. Pour regrouper les plages d'activation et générer des interprétations des caractéristiques lisibles par l'homme, exécutez :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5Tx6O5nm7Koy/Fx9/x83HHrsnzaCHwhxraWC/LGWgN8=",
+        "originContent": "### Analyzing the features of SAE",
+        "translatedContent": "### Analyse des caractéristiques de SAE"
+      },
+      {
+        "row": 3,
+        "rowsha": "QU1IFTI2JP5ue80UN7Ft2DHdjHp0YVVOcmo0NQQxCDY=",
+        "originContent": "Feature analysis scripts are located in `sae_feature_analysis/`. To group activation spans and generate human-readable feature interpretations, run:",
+        "translatedContent": "Les scripts d'analyse des caractéristiques se trouvent dans `sae_feature_analysis/`. Pour regrouper les plages d'activation et générer des interprétations des caractéristiques lisibles par l'homme, exécutez :"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# Step-1: Group extracted activation spans\npython groupby_textspans.py /xxx/threshold_0.0\n\n# Step-2: Annotate feature explanations based on grouped spans\npython annotate_explanations.py /xxx/threshold_0.0.tsv\n\n# Step-3: Identify task-relevant features from the explanations\npython annotate_toxicity.py /xxx/threshold_0.0_explained.tsv\n\n# Step-4: Identify missing features via FAC analysis\npython identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)\n```",
+    "ContentSha": "deEBc3qe2lBzi4zy4qmmh7BgjzJobi85hrtgZb1vjIc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Step-1: Group extracted activation spans\npython groupby_textspans.py /xxx/threshold_0.0\n\n# Step-2: Annotate feature explanations based on grouped spans\npython annotate_explanations.py /xxx/threshold_0.0.tsv\n\n# Step-3: Identify task-relevant features from the explanations\npython annotate_toxicity.py /xxx/threshold_0.0_explained.tsv\n\n# Step-4: Identify missing features via FAC analysis\npython identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7COtv2jWAzkUHg+Rt74zMk5KqbODxWj0KUclpzepIzY=",
+        "originContent": "# Step-1: Group extracted activation spans",
+        "translatedContent": "# Step-1: Group extracted activation spans"
+      },
+      {
+        "row": 3,
+        "rowsha": "CoR5I5DQDbc7cGJAmZypeZDocWbpswbweA7/IfEn/pc=",
+        "originContent": "python groupby_textspans.py /xxx/threshold_0.0",
+        "translatedContent": "python groupby_textspans.py /xxx/threshold_0.0"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "XeccBEG1UsNE0CcqvKFKXpN8GLp+RRVk0P5dcx2ocpM=",
+        "originContent": "# Step-2: Annotate feature explanations based on grouped spans",
+        "translatedContent": "# Step-2: Annotate feature explanations based on grouped spans"
+      },
+      {
+        "row": 6,
+        "rowsha": "0oMl2UhPnFnavfVjDyuFmk5drbAYDZyVXSZ/3GzFw9s=",
+        "originContent": "python annotate_explanations.py /xxx/threshold_0.0.tsv",
+        "translatedContent": "python annotate_explanations.py /xxx/threshold_0.0.tsv"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "IIVzEv4zExSrSPd6YrJUi0wlFmiAsKROQJbVO+vHjDY=",
+        "originContent": "# Step-3: Identify task-relevant features from the explanations",
+        "translatedContent": "# Step-3: Identify task-relevant features from the explanations"
+      },
+      {
+        "row": 9,
+        "rowsha": "AbKv2yeYGbrWNKN0FboUqSHbR3Jry+KyUdd7okZKiVU=",
+        "originContent": "python annotate_toxicity.py /xxx/threshold_0.0_explained.tsv",
+        "translatedContent": "python annotate_toxicity.py /xxx/threshold_0.0_explained.tsv"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Lq0RPQ/9iX2coSUqePoNXOgvyi/K20zDG+lhps95wEQ=",
+        "originContent": "# Step-4: Identify missing features via FAC analysis",
+        "translatedContent": "# Step-4: Identify missing features via FAC analysis"
+      },
+      {
+        "row": 12,
+        "rowsha": "NNNHjAsr9Qc0ZfRCUi6+ocE/moTfxOfuX755vR7mPWc=",
+        "originContent": "python identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)",
+        "translatedContent": "python identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Coverage-guided data synthesis\nCoverage-guided synthesis scripts are located in fac_synthesis/. To generate synthetic queries, run\n",
+    "ContentSha": "T01+1TMoJ4vvlg6aGD3zFuDSU3ylXa6hsJEFVkmkNDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Synthèse de données guidée par la couverture\nLes scripts de synthèse guidée par la couverture se trouvent dans fac_synthesis/. Pour générer des requêtes synthétiques, exécutez\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tb2/f/Y+7NTBM8A/LwQFj0PbSnbIQWjLMYoWpd9httM=",
+        "originContent": "### Coverage-guided data synthesis",
+        "translatedContent": "### Synthèse de données guidée par la couverture"
+      },
+      {
+        "row": 3,
+        "rowsha": "Vq8VFvR4XleRIcO6YhHVP1erYU3nuZMq03+FbJ6oj0c=",
+        "originContent": "Coverage-guided synthesis scripts are located in fac_synthesis/. To generate synthetic queries, run",
+        "translatedContent": "Les scripts de synthèse guidée par la couverture se trouvent dans fac_synthesis/. Pour générer des requêtes synthétiques, exécutez"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Step-1 (1): Contrastive Pair Construction\npython generate_data_llama_r1.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n# Step-1 (2): Feature-Covered Sample Synthesis\npython analyze_step1_synthetic_data.py\npython merge_step1_failed_cases.py\n\n# Step-2: Feature-Covered Sample Synthesis\npython generate_data_llama_r2.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n```",
+    "ContentSha": "MIf9Z9uyDtdKdPAkcsXFGNF0QD3i53TvUzy3xPx8ZM8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Step-1 (1): Contrastive Pair Construction\npython generate_data_llama_r1.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n# Step-1 (2): Feature-Covered Sample Synthesis\npython analyze_step1_synthetic_data.py\npython merge_step1_failed_cases.py\n\n# Step-2: Feature-Covered Sample Synthesis\npython generate_data_llama_r2.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TCAc2ss7abpDgCSap2WBoK/siet/BgxEvvmL4pOetxM=",
+        "originContent": "# Step-1 (1): Contrastive Pair Construction",
+        "translatedContent": "# Step-1 (1): Contrastive Pair Construction"
+      },
+      {
+        "row": 3,
+        "rowsha": "kNnoFUtYHyVIRnpjZVBfr6wFkpxCW5bMk9j/913IRbY=",
+        "originContent": "python generate_data_llama_r1.py \\",
+        "translatedContent": "python generate_data_llama_r1.py \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "HaHyvY41yJIc8AyzGIL6k7oTvmPnkUjbqGqdfiacLwA=",
+        "originContent": "  --features xxx.tsv \\",
+        "translatedContent": "  --features xxx.tsv \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "c40MnO3gIPusLfbKP+5eoGUEK7iynxbmjkJQ2TVsR4w=",
+        "originContent": "  --out xxx \\",
+        "translatedContent": "  --out xxx \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "TPqkdV8LWuuB+PSX1URf8wUqM/bqTd1pdyzcZwqDTxo=",
+        "originContent": "  --temperature 0.8",
+        "translatedContent": "  --temperature 0.8"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZLi02jGG3zLNFhhGnAyq2CdJ1VDouAzFGGiJDMaPogA=",
+        "originContent": "# Step-1 (2): Feature-Covered Sample Synthesis",
+        "translatedContent": "# Step-1 (2): Feature-Covered Sample Synthesis"
+      },
+      {
+        "row": 8,
+        "rowsha": "EPsG50000b9QGI65IAzQiM+PZjQag0JswmIosFeU+Ak=",
+        "originContent": "python analyze_step1_synthetic_data.py",
+        "translatedContent": "python analyze_step1_synthetic_data.py"
+      },
+      {
+        "row": 9,
+        "rowsha": "De/A4cQGMslQsFXCEufxFHbPkHtn48iJyuZS5qVvHfM=",
+        "originContent": "python merge_step1_failed_cases.py",
+        "translatedContent": "python merge_step1_failed_cases.py"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZqfprWfkDG6XRVPmC7R2egZnZzdHrXy1yicynCvOWUs=",
+        "originContent": "# Step-2: Feature-Covered Sample Synthesis",
+        "translatedContent": "# Step-2: Feature-Covered Sample Synthesis"
+      },
+      {
+        "row": 12,
+        "rowsha": "5CVJFC7xQAlSCEZyd/yn+Z1TUtSshS2VtHjg0Geaxxg=",
+        "originContent": "python generate_data_llama_r2.py \\",
+        "translatedContent": "python generate_data_llama_r2.py \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "HaHyvY41yJIc8AyzGIL6k7oTvmPnkUjbqGqdfiacLwA=",
+        "originContent": "  --features xxx.tsv \\",
+        "translatedContent": "  --features xxx.tsv \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "c40MnO3gIPusLfbKP+5eoGUEK7iynxbmjkJQ2TVsR4w=",
+        "originContent": "  --out xxx \\",
+        "translatedContent": "  --out xxx \\"
+      },
+      {
+        "row": 15,
+        "rowsha": "TPqkdV8LWuuB+PSX1URf8wUqM/bqTd1pdyzcZwqDTxo=",
+        "originContent": "  --temperature 0.8",
+        "translatedContent": "  --temperature 0.8"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n---\n\n## Acknowledgements\n\nIn the evaluation stage, our downstream training and testing scripts are adapted from the following open-source repositories:\n\n- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)\n- [CAA](https://github.com/nrimsky/CAA)\n- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)\n\n## Citation\n\nIf you find this work helpful for your research, please cite our paper 🤩:\n",
+    "ContentSha": "UQN4DmpDfPr5VoOtXphvofXJbJBQYIPc383b1Mf+Nu4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## Remerciements\n\nLors de la phase d'évaluation, nos scripts d'entraînement et de test en aval sont adaptés des dépôts open-source suivants :\n\n- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)\n- [CAA](https://github.com/nrimsky/CAA)\n- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)\n\n## Citation\n\nSi vous trouvez ce travail utile pour votre recherche, veuillez citer notre article 🤩 :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "## Remerciements"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iGXlPSPYCLrBkpT1U8W41qWsqP3MI2bKsJk7p5kit04=",
+        "originContent": "In the evaluation stage, our downstream training and testing scripts are adapted from the following open-source repositories:",
+        "translatedContent": "Lors de la phase d'évaluation, nos scripts d'entraînement et de test en aval sont adaptés des dépôts open-source suivants :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "NDuYwHh0PYA0tIUCmaAQ8BR4QMQDnNkyAuwVxrn7VAI=",
+        "originContent": "- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)",
+        "translatedContent": "- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)"
+      },
+      {
+        "row": 9,
+        "rowsha": "eKAMieOVBdrDOhfCOiotdrnTn35XmdFKnXjEZ0HS4CU=",
+        "originContent": "- [CAA](https://github.com/nrimsky/CAA)",
+        "translatedContent": "- [CAA](https://github.com/nrimsky/CAA)"
+      },
+      {
+        "row": 10,
+        "rowsha": "WBNAqsWYaceztv2WOXWhvXBoesoaKjlJ0qqQTAsDmT4=",
+        "originContent": "- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)",
+        "translatedContent": "- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## Citation"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "MkeRzUTVyy72nrvgISHEqzAD/R39AKcBLCJNbSsaE1M=",
+        "originContent": "If you find this work helpful for your research, please cite our paper 🤩:",
+        "translatedContent": "Si vous trouvez ce travail utile pour votre recherche, veuillez citer notre article 🤩 :"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bibtex\n@article{li2026less,\n  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},\n  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},\n  journal={arXiv preprint arXiv:2602.10388},\n  year={2026}\n}\n```",
+    "ContentSha": "TEkd9c/tHwHkc6jrgT3y1IdL+G87RF0KaGTMFdomIB0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{li2026less,\n  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},\n  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},\n  journal={arXiv preprint arXiv:2602.10388},\n  year={2026}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "cx86tdOgJRD9NVDJrbLM+GT/Mno/Dtyrg9mtsvQO9C8=",
+        "originContent": "@article{li2026less,",
+        "translatedContent": "@article{li2026less,"
+      },
+      {
+        "row": 3,
+        "rowsha": "ti2qigGtQEEtO5uCikZeSRM8Y1OPcZUV2qxzVURpPW4=",
+        "originContent": "  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},",
+        "translatedContent": "  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},"
+      },
+      {
+        "row": 4,
+        "rowsha": "3T/M6TVVHn8QoW57hJ5tnSFkizvoPjWlf4tP/qVaeE4=",
+        "originContent": "  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},",
+        "translatedContent": "  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},"
+      },
+      {
+        "row": 5,
+        "rowsha": "MY7QkPlj2IZICRBnT5+c4AAmHDbVYmjXntU1Io3uUeQ=",
+        "originContent": "  journal={arXiv preprint arXiv:2602.10388},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2602.10388},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6ACLjvQauAPI1eqXLRYXeac1BKP8j5U+6MzhyT6NzRE=",
+        "originContent": "  year={2026}",
+        "translatedContent": "  year={2026}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

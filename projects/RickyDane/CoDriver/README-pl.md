@@ -193,50 +193,47 @@ sudo dnf group install "C Development Tools and Libraries"
   sudo apt-get install sshfs
   ```
 
-## 🏴‍☠️ Obsługa języków
+## 🏴‍☠️ Wsparcie Językowe
 - Angielski
-  - Opcja wyboru języka już wkrótce ...
+  - Wkrótce możliwość wyboru języków ...
 </details>
 
 ## ⚠️ Znane problemy:
-- Przeciąganie i upuszczanie poza okno nie zawsze działa na systemie Linux
-- Na Windows możesz musieć zainstalować [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- Uprawnienia w systemie ms-windows są trochę nietypowe
-  - Jeśli masz problem ze skopiowaniem elementów lub czymś podobnym, możesz musieć uruchomić program jako administrator
-- Może pojawić się problem wymagający instalacji openssl1.1 na systemach Linux, jeśli program się nie uruchamia
+- Przeciąganie i upuszczanie poza okno nie zawsze działa na systemie linux
+- Na systemie Windows może być konieczna instalacja [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Uprawnienia na ms-windows są trochę dziwne
+  - Może być konieczne uruchomienie programu jako administrator, jeśli napotkasz problemy z kopiowaniem elementów lub podobne
+- Może wystąpić problem wymagający instalacji openssl1.1 na systemach linux, jeśli program się nie uruchamia
 
-## 📝 Do zrobienia:
+## 📝 Zadania do zrobienia:
 - Wiele języków
 - Ulubione
-- Dostęp do usług przechowywania online (Google drive itp.)
+- Dostęp do usług przechowywania online (Google drive, itd.)
 
 ## Interfejs użytkownika
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### Styl listy
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Styl siatki
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
 
-### Widok kolumnowy Millera
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Widok dwóch paneli
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
-
-## Jak się przyczynić
-Przygotuj swoje środowisko do tworzenia aplikacji tauri v1: [Wymagania wstępne Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
+## Jak wnieść swój wkład
+Przygotuj swój komputer do pracy z aplikacjami tauri v1: [Wymagania wstępne Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Gdy to będzie gotowe, wystarczy wykonać ```git clone https://github.com/RickyDane/CoDriver``` lub ```gh repo clone RickyDane/CoDriver``` w wybranej lokalizacji na swoim komputerze.
+Gdy to zrobisz, po prostu wykonaj ```git clone https://github.com/RickyDane/CoDriver``` lub ```gh repo clone RickyDane/CoDriver``` w wybranej lokalizacji na swoim komputerze.
 </br></br>
-Powinieneś móc uruchomić ```cargo tauri dev``` w katalogu głównym projektu, aby zacząć budować i uruchamiać CoDriver.
+Powinieneś być w stanie uruchomić ```cargo tauri dev``` w katalogu głównym projektu, aby rozpocząć budowanie i uruchamianie CoDriver.
 </br>
 Upewnij się, że masz zainstalowany tauri-cli: ```cargo install tauri-cli```
 </br>
 
 ## Podpisywanie wydań
 
-Artefakty wydań dla systemu macOS muszą być podpisane i zatwierdzone, aby Gatekeeper nie zgłaszał, że zainstalowana aplikacja jest uszkodzona. Zobacz [Podpisywanie i zatwierdzanie macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md), aby uzyskać wymagane sekrety GitHub Actions oraz polecenia weryfikacyjne.
+Artefakty wydania dla macOS muszą być podpisane i poddane notaryzacji, aby Gatekeeper nie zgłaszał, że zainstalowana aplikacja jest uszkodzona. Zobacz [podpisywanie i notaryzacja macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) dla wymaganych sekretów GitHub Actions i poleceń weryfikacyjnych.
 
 ## Historia gwiazdek
 
@@ -254,6 +251,6 @@ Artefakty wydań dla systemu macOS muszą być podpisane i zatwierdzone, aby Gat
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

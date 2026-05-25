@@ -195,48 +195,45 @@ sudo dnf group install "C Development Tools and Libraries"
 
 ## 🏴‍☠️ Taalondersteuning
 - Engels
-  - Optie om tussen talen te kiezen komt binnenkort ...
+  - Optie om tussen talen te kiezen binnenkort beschikbaar ...
 </details>
 
 ## ⚠️ Bekende problemen:
 - Slepen en neerzetten buiten het venster werkt momenteel niet altijd op Linux
 - Op Windows moet je mogelijk [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) installeren
-- Rechten op ms-windows zijn een beetje vreemd
-  - Je moet het programma mogelijk als administrator uitvoeren als je problemen ondervindt bij het kopiëren van elementen of iets dergelijks
-- Er kan een probleem zijn waarbij je openssl1.1 moet installeren op Linux systemen als het programma niet start
+- Machtigingen op ms-windows zijn een beetje vreemd
+  - Je moet het programma mogelijk als administrator uitvoeren als je problemen hebt met het kopiëren van elementen of iets dergelijks
+- Er kan een probleem zijn waarbij je openssl1.1 op Linux systemen moet installeren als het programma niet start
 
 ## 📝 Te doen:
 - Meerdere talen
 - Favorieten
-- Toegang tot online opslagdiensten (Google Drive, enz.)
+- Toegang tot online opslagdiensten (Google drive, enz.)
 
 ## Gebruikersinterface
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### Lijststijl
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Rasterstijl
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
-
-### Miller kolomweergave
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Dubbel venster-weergave
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
 
 ## Hoe bij te dragen
-Stel je computer in voor het ontwikkelen van tauri v1 applicaties: [Tauri vereisten](https://tauri.app/v1/guides/getting-started/prerequisites)
+Stel je machine in voor het ontwikkelen van tauri v1 applicaties: [Tauri vereisten](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Als dit gedaan is, doe gewoon ```git clone https://github.com/RickyDane/CoDriver``` of ```gh repo clone RickyDane/CoDriver``` op een locatie op je computer.
+Als dit gedaan is, doe dan gewoon ```git clone https://github.com/RickyDane/CoDriver``` of ```gh repo clone RickyDane/CoDriver``` op een locatie op je machine.
 </br></br>
-Je zou ```cargo tauri dev``` in de hoofdmap van dit project moeten kunnen uitvoeren om te beginnen met bouwen en draaien van CoDriver.
+Je zou ```cargo tauri dev``` in de hoofdmap van dit project moeten kunnen uitvoeren om te beginnen met bouwen en uitvoeren van CoDriver.
 </br>
-Zorg ervoor dat tauri-cli geïnstalleerd is: ```cargo install tauri-cli```
+Zorg dat tauri-cli geïnstalleerd is: ```cargo install tauri-cli```
 </br>
 
 ## Release ondertekening
 
-macOS release-artifacten moeten worden ondertekend en genotarieerd om te voorkomen dat Gatekeeper meldt dat de geïnstalleerde app beschadigd is. Zie [macOS ondertekening en notariëring](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) voor vereiste GitHub Actions secrets en verificatiecommando's.
+macOS-release-artifacten moeten worden ondertekend en genotariseerd om te voorkomen dat Gatekeeper meldt dat de geïnstalleerde app beschadigd is. Zie [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) voor vereiste GitHub Actions secrets en verificatiecommando's.
 
 ## Stergeschiedenis
 
@@ -248,12 +245,12 @@ macOS release-artifacten moeten worden ondertekend en genotarieerd om te voorkom
  </picture>
 </a>
 
-#### Overige software van derden
+#### Andere software van derden
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

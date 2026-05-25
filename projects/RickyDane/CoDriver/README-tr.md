@@ -195,48 +195,45 @@ sudo dnf group install "C Development Tools and Libraries"
 
 ## 🏴‍☠️ Dil Desteği
 - İngilizce
-  - Diller arasında seçim yapma seçeneği yakında gelecek ...
+  - Yakında diller arasında seçim yapma seçeneği eklenecek ...
 </details>
 
 ## ⚠️ Bilinen sorunlar:
-- Pencere dışına sürükleyip bırakma şu anda linux'ta her zaman çalışmıyor
+- Linux'ta pencere dışına sürükleyip bırakma şu anda her zaman çalışmıyor
 - Windows'ta [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) yüklemeniz gerekebilir
-- ms-windows'ta izinler biraz tuhaf
-  - Elemanları kopyalamada veya benzer bir sorunda programı yönetici olarak çalıştırmanız gerekebilir
-- Program başlamazsa linux sistemlerinde openssl1.1 yüklemeniz gerekebilir
+- ms-windows üzerinde izinler biraz garip
+  - Eğer elemanları kopyalama veya benzeri bir sorun yaşarsanız programı yönetici olarak çalıştırmanız gerekebilir
+- Program başlamazsa linux sistemlerde openssl1.1 yüklemeniz gerekebilir
 
 ## 📝 Yapılacaklar:
 - Çoklu dil desteği
 - Favoriler
-- Çevrimiçi depolama hizmetlerine erişim (Google drive, vb.)
+- Çevrimiçi depolama servislerine erişim (Google Drive, vb.)
 
 ## Kullanıcı arayüzü
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### Liste stili
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Izgara stili
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
 
-### Miller sütun görünümü
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Çift panel görünümü
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
-
-## Nasıl katkı sağlanır
+## Katkıda bulunmak için
 Makinenizi tauri v1 uygulamaları geliştirmek için hazırlayın: [Tauri önkoşulları](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Bu işlemler tamamlandıktan sonra makinenizde istediğiniz bir konumda ```git clone https://github.com/RickyDane/CoDriver``` veya ```gh repo clone RickyDane/CoDriver``` komutunu çalıştırın.
+Bunu yaptıktan sonra makinenizde bir konumda ```git clone https://github.com/RickyDane/CoDriver``` veya ```gh repo clone RickyDane/CoDriver``` komutunu çalıştırın.
 </br></br>
-Bu projenin kök dizininde ```cargo tauri dev``` komutunu çalıştırarak CoDriver'ı derleyip çalıştırmaya başlayabilirsiniz.
+Bu projenin kök dizininde ```cargo tauri dev``` komutunu çalıştırarak CoDriver'ı derleyip çalıştırmaya başlamalısınız.
 </br>
-tauri-cli'nin yüklü olduğundan emin olun: ```cargo install tauri-cli```
+tauri-cli'nin kurulu olduğundan emin olun: ```cargo install tauri-cli```
 </br>
 
 ## Sürüm imzalama
 
-macOS sürüm artefaktları, Gatekeeper'ın kurulu uygulamanın hasarlı olduğunu bildirmesini önlemek için imzalanmalı ve noter tasdikinden geçirilmelidir. Gerekli GitHub Actions gizli anahtarları ve doğrulama komutları için [macOS imzalama ve noter tasdiki](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) adresine bakınız.
+macOS sürüm çıktıları, Gatekeeper'ın yüklenen uygulamanın hasarlı olduğunu bildirmesini önlemek için imzalanmalı ve noter tasdikli olmalıdır. Gerekli GitHub Actions gizli anahtarları ve doğrulama komutları için [macOS imzalama ve noter tasdik işlemleri](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) bölümüne bakınız.
 
 ## Yıldız Geçmişi
 
@@ -254,6 +251,6 @@ macOS sürüm artefaktları, Gatekeeper'ın kurulu uygulamanın hasarlı olduğu
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

@@ -193,50 +193,46 @@ sudo dnf group install "C Development Tools and Libraries"
   sudo apt-get install sshfs
   ```
 
-## 🏴‍☠️ دعم اللغات
+## 🏴‍☠️ دعم اللغة
 - الإنجليزية
-  - خيار اختيار بين اللغات قريبًا ...
+  - خيار اختيار بين اللغات قريباً ...
 </details>
 
 ## ⚠️ المشاكل المعروفة:
-- السحب والإفلات خارج النافذة لا يعمل دائمًا على نظام لينكس حاليًا
-- على نظام ويندوز قد تحتاج إلى تثبيت [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- الأذونات في نظام ويندوز غريبة بعض الشيء
-  - قد تحتاج إلى تشغيل البرنامج كمسؤول إذا واجهت مشاكل في نسخ العناصر أو شيء مشابه
-- قد توجد مشكلة تحتاج فيها لتثبيت openssl1.1 على أنظمة لينكس إذا لم يبدأ البرنامج
+- السحب والإفلات خارج النافذة لا يعمل دائماً على لينكس حالياً
+- في ويندوز قد تحتاج لتثبيت [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- الأذونات في نظام ms-windows غريبة بعض الشيء
+  - قد تحتاج لتشغيل البرنامج كمسؤول إذا واجهت مشاكل في نسخ العناصر أو شيء مشابه
+- قد تواجه مشكلة تتطلب تثبيت openssl1.1 على أنظمة لينكس، إذا لم يبدأ البرنامج
 
 ## 📝 المهام القادمة:
-- دعم لغات متعددة
+- لغات متعددة
 - المفضلة
-- الوصول إلى خدمات التخزين السحابي (Google drive، إلخ.)
+- الوصول إلى خدمات التخزين السحابية (Google drive وغيرها)
 
 ## واجهة المستخدم
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### نمط القائمة
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### نمط الشبكة
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
-
-### عرض أعمدة ميلر
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### عرض اللوحين
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
 
 ## كيفية المساهمة
 قم بإعداد جهازك لتطوير تطبيقات tauri v1: [متطلبات Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-عند الانتهاء من ذلك، قم بتنفيذ ```git clone https://github.com/RickyDane/CoDriver``` أو ```gh repo clone RickyDane/CoDriver``` في مكان مناسب على جهازك.
+عند الانتهاء، قم بتنفيذ ```git clone https://github.com/RickyDane/CoDriver``` أو ```gh repo clone RickyDane/CoDriver``` في مكان على جهازك.
 </br></br>
-يجب أن تكون قادرًا على تشغيل ```cargo tauri dev``` في الدليل الرئيسي لهذا المشروع لبدء بناء وتشغيل CoDriver.
+يجب أن تتمكن من تشغيل ```cargo tauri dev``` في الدليل الجذري لهذا المشروع لبدء بناء وتشغيل CoDriver.
 </br>
 تأكد من تثبيت tauri-cli: ```cargo install tauri-cli```
 </br>
 
-## توقيع الإصدارات
-
-يجب توقيع وإخضاع ملفات إصدار macOS للمصادقة لتجنب قيام Gatekeeper بالإبلاغ أن التطبيق المثبت تالف. راجع [توقيع ومصادقة macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) للاطلاع على الأسرار المطلوبة في GitHub Actions وأوامر التحقق.
+## توقيع الإصدار
+يجب توقيع وإضفاء الطابع الرسمي على المنتجات النهائية لنظام macOS لتجنب قيام Gatekeeper بالإبلاغ عن أن التطبيق المثبت تالف. راجع [توقيع وإضفاء الطابع الرسمي على macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) للحصول على أسرار GitHub Actions المطلوبة وأوامر التحقق.
 
 ## تاريخ النجوم
 
@@ -244,16 +240,17 @@ sudo dnf group install "C Development Tools and Libraries"
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="مخطط تاريخ النجوم" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
-#### برمجيات طرف ثالث أخرى
+#### برامج طرف ثالث أخرى
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

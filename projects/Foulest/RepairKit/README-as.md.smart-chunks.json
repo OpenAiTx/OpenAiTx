@@ -1,0 +1,1039 @@
+[
+  {
+    "Id": 1,
+    "Content": "# RepairKit\n\n[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)\n[![CodeQL](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql)\n[![Downloads](https://img.shields.io/github/downloads/Foulest/RepairKit/total.svg)](https://github.com/Foulest/RepairKit/releases)\n\n**RepairKit** is an all-in-one Java-based Windows repair and maintenance toolkit.\n\n[Softpedia](https://softpedia.com/get/System/OS-Enhancements/RepairKit.shtml)\n• [MajorGeeks](https://m.majorgeeks.com/files/details/repairkit.html)\n• [Uptodown](https://repairkit.en.uptodown.com/windows)\n• [AlternativeTo](https://alternativeto.net/software/repairkit/about)\n\n<div align=\"left\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=as\">অসমীয়া</\n      </div>",
+    "ContentSha": "eOwqnQfbHWF9tOgwAAdLqnWL8KK9lOxkINX2G82lhX8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ৰিপেয়াৰকিট\n\n[![লাইচেঞ্চ: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)\n[![CodeQL](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql)\n[![ডাউনলোড](https://img.shields.io/github/downloads/Foulest/RepairKit/total.svg)](https://github.com/Foulest/RepairKit/releases)\n\n**ৰিপেয়াৰকিট** হৈছে এটা সকলো-এত এক Java-ভিত্তিক উইন্ড'জ ৰিপেয়াৰ আৰু সংৰক্ষণ টুলকিট।\n\n[Softpedia](https://softpedia.com/get/System/OS-Enhancements/RepairKit.shtml)\n• [MajorGeeks](https://m.majorgeeks.com/files/details/repairkit.html)\n• [Uptodown](https://repairkit.en.uptodown.com/windows)\n• [AlternativeTo](https://alternativeto.net/software/repairkit/about)\n\n<div align=\"left\">\n  <details>\n    <summary >🌐 ভাষা</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=as\">অসমীয়া</\n      </div>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/mgaEhB4vzA+DoyQQ2bbahIBpmOYUoir2SlLR+eGxog=",
+        "originContent": "# RepairKit",
+        "translatedContent": "# ৰিপেয়াৰকিট"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "KY6bbjF6FPIpFymtc/H10qIjGOK2s3PvS4rOwGZwe5I=",
+        "originContent": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)",
+        "translatedContent": "[![লাইচেঞ্চ: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)"
+      },
+      {
+        "row": 4,
+        "rowsha": "ez7/OU4LmhEqAZfuOK39VUXMrPbc54oSlZErP2p/S5M=",
+        "originContent": "[![CodeQL](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql)",
+        "translatedContent": "[![CodeQL](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Foulest/RepairKit/actions/workflows/github-code-scanning/codeql)"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZlK2EA7PE8cdiJztmJXSkMvl4/ST1QQvAn5Xccd94yw=",
+        "originContent": "[![Downloads](https://img.shields.io/github/downloads/Foulest/RepairKit/total.svg)](https://github.com/Foulest/RepairKit/releases)",
+        "translatedContent": "[![ডাউনলোড](https://img.shields.io/github/downloads/Foulest/RepairKit/total.svg)](https://github.com/Foulest/RepairKit/releases)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "QRd+CaYpO5tRsgSX9MvyUy/KhrOMg/LZdHBGwb0iirU=",
+        "originContent": "**RepairKit** is an all-in-one Java-based Windows repair and maintenance toolkit.",
+        "translatedContent": "**ৰিপেয়াৰকিট** হৈছে এটা সকলো-এত এক Java-ভিত্তিক উইন্ড'জ ৰিপেয়াৰ আৰু সংৰক্ষণ টুলকিট।"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dRNzexmNzOc0PCwBTR+KEYTcL1GTzqwHBJOcqQg6xPs=",
+        "originContent": "[Softpedia](https://softpedia.com/get/System/OS-Enhancements/RepairKit.shtml)",
+        "translatedContent": "[Softpedia](https://softpedia.com/get/System/OS-Enhancements/RepairKit.shtml)"
+      },
+      {
+        "row": 10,
+        "rowsha": "SqAk5hWEFV0cxHO5UEptTCbEgXAvyMmeLuXqmO0KzcU=",
+        "originContent": "• [MajorGeeks](https://m.majorgeeks.com/files/details/repairkit.html)",
+        "translatedContent": "• [MajorGeeks](https://m.majorgeeks.com/files/details/repairkit.html)"
+      },
+      {
+        "row": 11,
+        "rowsha": "eUIpSrJJm63okQWa++qPz7Uz74w+2kQOH/FR0ovHs2w=",
+        "originContent": "• [Uptodown](https://repairkit.en.uptodown.com/windows)",
+        "translatedContent": "• [Uptodown](https://repairkit.en.uptodown.com/windows)"
+      },
+      {
+        "row": 12,
+        "rowsha": "UqZhTVFTpcKjXkR9D/73tI552sssEs95TDbx0gfPdVQ=",
+        "originContent": "• [AlternativeTo](https://alternativeto.net/software/repairkit/about)",
+        "translatedContent": "• [AlternativeTo](https://alternativeto.net/software/repairkit/about)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "mpFh3rnHgQIwsj53uoffE1SOEfK33xpkocZACWwEd1o=",
+        "originContent": "<div align=\"left\">",
+        "translatedContent": "<div align=\"left\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 16,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 ভাষা</summary>"
+      },
+      {
+        "row": 17,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 18,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "lQJ7jMhWewBFhEZ8q9Nr4/P5Yy20eBep9xa+0GxCNsg=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=en\">English</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "/I65YMHz0kFHO1zPH9ZtgXvBl26PUJi5y6ghlCPPdng=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "60Gm4zim3Izrpt+IjvJYBw60HwitF8/aAyAeNcu52xY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "wGnsUuRuL67S/lHApu3h55lPR/aUYe607wPP04uNKwc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "hiSR+B6m4kgHKMqA+o9ICwYRJg3vcMaAVsN2DaTH0+c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "o+JHPuzPhasMECBYXUdkth5YFZonE6zqMaM6a92NDHg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "QemPS4PlCyOOkfKse1rPQAoa14L5iqohymaN1sLf82w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "8aWvBb7HRNDm3ukQRCNDaq/p4RxX77vTKIK5h69g6Y0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fr\">Français</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "OP7jhtofCCX4PxwRB8F5GROcWvxnRnv9z+BI9sYYpCs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 28,
+        "rowsha": "jv6rjtzo091Jr0k4d8lDOGXcoiGVSOzFZDfcl7/PibI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=es\">Español</a>"
+      },
+      {
+        "row": 29,
+        "rowsha": "5opNdD+Z0eLwfoGrVvuT9KOcm2wSq43jrc8WFok8fLQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 30,
+        "rowsha": "/Ixxk90IIa0cuqYUmpS1Y4MtJm9z7RhGyx7/T4s96ws=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 31,
+        "rowsha": "fEbzIkgGwUFdYUMIrTWr+EgnwDzMEzrlqxV/gzA6RWs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pt\">Português</a>"
+      },
+      {
+        "row": 32,
+        "rowsha": "TR0hGpL04/v7i9hLhuaunDxKDtZyNZDPqwQPgaoDy0E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 33,
+        "rowsha": "olqWCW/HFGWzp7aWLch3KDJXzr3na+9sla03z9Gj/AE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 34,
+        "rowsha": "oGtbI70dpxNapsgVSUyJCY0CUAy9JHGzrU/Cb19iV9c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 35,
+        "rowsha": "oLOKwA2uyxhBH+7gIU2M1WBWZTifBPdiuADrLd3TaWI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 36,
+        "rowsha": "j8UiIIMlBjaCho3aupaUGJlHG8bvGHxruaEB1lJIW1M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 37,
+        "rowsha": "sic0y2XUSQSg9Iu/OAB5VnV4IKdq1J+gqEYvVhQcKaI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 38,
+        "rowsha": "93Ha4fxqQpv8TLOxrIp6xOzO+wheg3WSx4j3On3Jx5I=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 39,
+        "rowsha": "OMg7q+RJSF0sx8u9OqqlKsszEZgiwiSfqh6bFC4bIvk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Foulest&project=RepairKit&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 40,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    </div>\n  </details>\n</div>\n\n###\n\n[![RepairKit Banner](https://i.imgur.com/EfAmXt4.png)](https://github.com/Foulest/RepairKit/releases)\n\n###\n\n## Install & Setup Guide\n\n<p align=\"center\">\n  <a href=\"https://youtu.be/EMVeKIvVPcg\" title=\"Watch on YouTube\"><img src=\"https://i.imgur.com/OOyZmUe.png\" alt=\"Watch on YouTube\"></a>\n</p>\n\n## Features\n\n### **Automatic Repairs**\n\nAutomatically perform a comprehensive system cleanup and repair, including:\n\n- Creating a system Restore Point\n- Deleting malicious system policies\n- Running registry and system tweaks\n- Removing vulnerable Windows features\n- Applying optimal Windows Defender settings\n- Cleaning hard-to-find junk files\n- Removing pre-installed bloatware\n- Repairing disk issues and corrupt Windows files\n- Updating outdated installed programs\n\nEvery function in the repair is fully customizable, allowing you to enable or disable specific repairs as needed using\neither the checkboxes on the panel, or the configuration files located in the **config** folder. **Only modify these\nfiles if you know what you are doing.**\n\n> **Note:** The previously available **Remove Malware** option is now removed. **Run Windows Defender Tweaks** now\n> applies optimal Windows Defender settings instead. Manual scanning options are available using the Emsisoft or Sophos\n> Scan options in the Useful Programs panel.\n",
+    "ContentSha": "0yESDE8M6KoTCxyK1o7wju5B6pGXywgbSQVWqJ2IFsQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    </div>\n  </details>\n</div>\n\n###\n\n[![RepairKit Banner](https://i.imgur.com/EfAmXt4.png)](https://github.com/Foulest/RepairKit/releases)\n\n###\n\n## স্থাপন আৰু ছেটআপ গাইড\n\n<p align=\"center\">\n  <a href=\"https://youtu.be/EMVeKIvVPcg\" title=\"YouTube-ত চাওক\"><img src=\"https://i.imgur.com/OOyZmUe.png\" alt=\"YouTube-ত চাওক\"></a>\n</p>\n\n## বৈশিষ্ট্যসমূহ\n\n### **স্বয়ংক্ৰিয় মেরামতি**\n\nস্বয়ংক্ৰিয়ভাৱে এটা বিস্তৃত চিষ্টেম পৰিষ্কাৰ আৰু মেরামতি সম্পাদন কৰে, অন্তর্ভুক্ত:\n\n- এখন চিষ্টেম Restore Point সৃষ্টি কৰে\n- ক্ষতিকাৰক চিষ্টেম নীতি বিলোপ কৰে\n- ৰেজিস্ট্ৰি আৰু চিষ্টেম টুইক চলায়\n- দুৰ্বল Windows বৈশিষ্ট্যসমূহ আঁতৰায়\n- Windows Defender-ৰ উৎকৃষ্ট ছেটিংসমূহ প্ৰয়োগ কৰে\n- সন্ধান কৰিবলৈ অসুবিধাজনক জাংক ফাইলসমূহ পৰিষ্কাৰ কৰে\n- আগত-সংস্থাপন কৰা বেলাবেয়াৰ আঁতৰায়\n- ডিস্ক সমস্যাবোৰ আৰু বিকৃত Windows ফাইলসমূহ মেরামতি কৰে\n- পুৰণি সংস্থাপন কৰা প্ৰোগ্ৰামসমূহ আপডেট কৰে\n\nমেরামতিৰ প্ৰতিটো ফাংশন সম্পূৰ্ণ ৰূপে কাষ্টমাইজ কৰিব পৰা যায়, আপোনাৰ প্ৰয়োজন অনুসৰি বিশেষ মেরামতি সক্ৰিয় বা নিষ্ক্ৰিয় কৰিবলৈ\nপেনেলত থকা চেকবক্স অথবা **config** ফোল্ডাৰত থকা কনফিগাৰেচন ফাইলসমূহ ব্যৱহাৰ কৰি। **এই ফাইলসমূহ কেৱল আপুনি\nজানি থাকিলে সলনি কৰক।**\n\n> **টোকা:** পূৰ্বৰ উপলব্ধ **Remove Malware** বিকল্প এতিয়া আঁতৰ কৰা হৈছে। **Run Windows Defender Tweaks** এতিয়া\n> উৎকৃষ্ট Windows Defender ছেটিংসমূহ প্ৰয়োগ কৰে। ম্যানুয়েল স্কেনিং বিকল্পসমূহ Useful Programs পেনেলত Emsisoft অথবা Sophos\n> Scan বিকল্প ব্যৱহাৰ কৰি উপলব্ধ।\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 2,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VtxtR3N9FVr93v2hryDEDJATU8Ii0B5wt7TgIfLk9Ug=",
+        "originContent": "###",
+        "translatedContent": "###"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lSuDBWoj3lWXyqfaQonTGvC8XHhUG6es6J4UQ5H5fkE=",
+        "originContent": "[![RepairKit Banner](https://i.imgur.com/EfAmXt4.png)](https://github.com/Foulest/RepairKit/releases)",
+        "translatedContent": "[![RepairKit Banner](https://i.imgur.com/EfAmXt4.png)](https://github.com/Foulest/RepairKit/releases)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "VtxtR3N9FVr93v2hryDEDJATU8Ii0B5wt7TgIfLk9Ug=",
+        "originContent": "###",
+        "translatedContent": "###"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "2n02C3Ap98VEwrrm499aSMuvOikYCnggarcLVFMoq4k=",
+        "originContent": "## Install & Setup Guide",
+        "translatedContent": "## স্থাপন আৰু ছেটআপ গাইড"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "11I70pPSZ4dWWCLQTlD7Asq0w4NOjWZY7bx7J0rJwPs=",
+        "originContent": "  <a href=\"https://youtu.be/EMVeKIvVPcg\" title=\"Watch on YouTube\"><img src=\"https://i.imgur.com/OOyZmUe.png\" alt=\"Watch on YouTube\"></a>",
+        "translatedContent": "  <a href=\"https://youtu.be/EMVeKIvVPcg\" title=\"YouTube-ত চাওক\"><img src=\"https://i.imgur.com/OOyZmUe.png\" alt=\"YouTube-ত চাওক\"></a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## বৈশিষ্ট্যসমূহ"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "t60YdvUDxs1ayzz3KkxBLoDXJ1ffht9Pxk1luhpJyAk=",
+        "originContent": "### **Automatic Repairs**",
+        "translatedContent": "### **স্বয়ংক্ৰিয় মেরামতি**"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "F6vlG7TBBWWFcyaX49e8gZaXbOkqGXc6B67eVFw82No=",
+        "originContent": "Automatically perform a comprehensive system cleanup and repair, including:",
+        "translatedContent": "স্বয়ংক্ৰিয়ভাৱে এটা বিস্তৃত চিষ্টেম পৰিষ্কাৰ আৰু মেরামতি সম্পাদন কৰে, অন্তর্ভুক্ত:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "A3tTLarQNcNPn6gBEtZuWROS0pGWugSbWFCB9yZCGGk=",
+        "originContent": "- Creating a system Restore Point",
+        "translatedContent": "- এখন চিষ্টেম Restore Point সৃষ্টি কৰে"
+      },
+      {
+        "row": 24,
+        "rowsha": "g8ljYyZL8MGe3REkgq04IUtNC4SrkbF+BS0BRkZYS98=",
+        "originContent": "- Deleting malicious system policies",
+        "translatedContent": "- ক্ষতিকাৰক চিষ্টেম নীতি বিলোপ কৰে"
+      },
+      {
+        "row": 25,
+        "rowsha": "aYCh9iO/wV84cb6RdeVaY7PjHmN3ryQko/4JkRD+aHw=",
+        "originContent": "- Running registry and system tweaks",
+        "translatedContent": "- ৰেজিস্ট্ৰি আৰু চিষ্টেম টুইক চলায়"
+      },
+      {
+        "row": 26,
+        "rowsha": "k2yRlnOkccjvUXZDgdMFZPcMKykWbyhFrQ9pZzB7Hms=",
+        "originContent": "- Removing vulnerable Windows features",
+        "translatedContent": "- দুৰ্বল Windows বৈশিষ্ট্যসমূহ আঁতৰায়"
+      },
+      {
+        "row": 27,
+        "rowsha": "vAy99W/fRFPCLhketLlxxNndnhIMi7xUiKumkCZ1rR0=",
+        "originContent": "- Applying optimal Windows Defender settings",
+        "translatedContent": "- Windows Defender-ৰ উৎকৃষ্ট ছেটিংসমূহ প্ৰয়োগ কৰে"
+      },
+      {
+        "row": 28,
+        "rowsha": "mDdjkEo9lth3hSnM9l0I8U8p38LB0zvCYYnS55YZoh0=",
+        "originContent": "- Cleaning hard-to-find junk files",
+        "translatedContent": "- সন্ধান কৰিবলৈ অসুবিধাজনক জাংক ফাইলসমূহ পৰিষ্কাৰ কৰে"
+      },
+      {
+        "row": 29,
+        "rowsha": "yfvTiIjLNqJHk1Wl2hbNCKxAJuhLkBBq6gSi00JwLuU=",
+        "originContent": "- Removing pre-installed bloatware",
+        "translatedContent": "- আগত-সংস্থাপন কৰা বেলাবেয়াৰ আঁতৰায়"
+      },
+      {
+        "row": 30,
+        "rowsha": "8bjeAC/8V8Ewah71eD7AQVm7mWFXdmjBvd4IRqS0Avw=",
+        "originContent": "- Repairing disk issues and corrupt Windows files",
+        "translatedContent": "- ডিস্ক সমস্যাবোৰ আৰু বিকৃত Windows ফাইলসমূহ মেরামতি কৰে"
+      },
+      {
+        "row": 31,
+        "rowsha": "W5KxQz/Me7ptNDejFm299fBGuiwuR3hlz8HoABxgBLk=",
+        "originContent": "- Updating outdated installed programs",
+        "translatedContent": "- পুৰণি সংস্থাপন কৰা প্ৰোগ্ৰামসমূহ আপডেট কৰে"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "f2o3lC+pl/PhQueulSmJ5qyNa5ftZDnEcKDEXXxqHaQ=",
+        "originContent": "Every function in the repair is fully customizable, allowing you to enable or disable specific repairs as needed using",
+        "translatedContent": "মেরামতিৰ প্ৰতিটো ফাংশন সম্পূৰ্ণ ৰূপে কাষ্টমাইজ কৰিব পৰা যায়, আপোনাৰ প্ৰয়োজন অনুসৰি বিশেষ মেরামতি সক্ৰিয় বা নিষ্ক্ৰিয় কৰিবলৈ"
+      },
+      {
+        "row": 34,
+        "rowsha": "+pTVUETt/PWZezNTY6xgCG8j7kDx7+FwqTnOGsQr/IU=",
+        "originContent": "either the checkboxes on the panel, or the configuration files located in the **config** folder. **Only modify these",
+        "translatedContent": "পেনেলত থকা চেকবক্স অথবা **config** ফোল্ডাৰত থকা কনফিগাৰেচন ফাইলসমূহ ব্যৱহাৰ কৰি। **এই ফাইলসমূহ কেৱল আপুনি"
+      },
+      {
+        "row": 35,
+        "rowsha": "RFUkjuO3A7kVffOxQb6nrCFXM+4m+akSPWyDinygiPg=",
+        "originContent": "files if you know what you are doing.**",
+        "translatedContent": "জানি থাকিলে সলনি কৰক।**"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "VXVKAli/4PIPW4ZiLHGcSNMhvtPdMjPE9XYW82wodhw=",
+        "originContent": "> **Note:** The previously available **Remove Malware** option is now removed. **Run Windows Defender Tweaks** now",
+        "translatedContent": "> **টোকা:** পূৰ্বৰ উপলব্ধ **Remove Malware** বিকল্প এতিয়া আঁতৰ কৰা হৈছে। **Run Windows Defender Tweaks** এতিয়া"
+      },
+      {
+        "row": 38,
+        "rowsha": "nkud3br6Aj8jdLopHvOdAVrgEwfxi2mrPIKlqIUTZwM=",
+        "originContent": "> applies optimal Windows Defender settings instead. Manual scanning options are available using the Emsisoft or Sophos",
+        "translatedContent": "> উৎকৃষ্ট Windows Defender ছেটিংসমূহ প্ৰয়োগ কৰে। ম্যানুয়েল স্কেনিং বিকল্পসমূহ Useful Programs পেনেলত Emsisoft অথবা Sophos"
+      },
+      {
+        "row": 39,
+        "rowsha": "klJew7K7GTAEO2ipjDMEBdkTQ4VZu0xFYgvSPblWFh4=",
+        "originContent": "> Scan options in the Useful Programs panel.",
+        "translatedContent": "> Scan বিকল্প ব্যৱহাৰ কৰি উপলব্ধ।"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "![Automatic Repairs](https://i.imgur.com/mnkUQV1.png)\n\n### **Useful Programs**\n\nAccess essential software tools for system maintenance, including:\n\n- **[CPU-Z](https://cpuid.com/softwares/cpu-z.html)**: Identify your system hardware details.\n- **[HWMonitor](https://cpuid.com/softwares/hwmonitor.html)**: Monitor hardware temperatures and specs.\n- **[Emsisoft Scan](https://emsisoft.com/en/home/emergency-kit)**: Scan for malware using Emsisoft Emergency Kit.\n- **[Sophos Scan](https://sophos.com/en-us/free-tools/virus-removal-tool)**: Scan for malware using Sophos Scan & Clean.\n- **[TreeSize](https://jam-software.com/treesize_free)**: Analyze and manage disk contents.\n- **[Everything](https://voidtools.com)**: An ultra-fast file search engine.\n- **[CrystalDiskInfo](https://sourceforge.net/projects/crystaldiskinfo)**: Monitor your disk drive's health and status.\n- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark)**: Benchmark your disk drive's read/write\n  speeds.\n- **[Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)**: An alternative to Windows Startup\n  Manager.\n- **[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)**: An alternative to\n  Windows Task Manager.\n- **[Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)**: Monitor system activity and\n  processes.\n- **[BlueScreenView](https://nirsoft.net/utils/blue_screen_view.html)**: View and analyze Windows BSOD crash dumps.\n- **[NVCleanstall](https://techpowerup.com/download/techpowerup-nvcleanstall)**: A lightweight NVIDIA graphics card\n  driver updater.\n- **[DisplayDriverUninstaller](https://guru3d.com/files-details/display-driver-uninstaller-download.html)**: Remove\n  display drivers and packages.\n- **[Recuva](https://ccleaner.com/recuva)**: A data recovery tool for deleted files.\n- **[DiskGenius](https://diskgenius.com)**: A disk partition manager and data recovery tool.\n\n![Useful Programs (Page 1/2)](https://i.imgur.com/NAb78GU.png)\n\nAdditionally, RepairKit provides links to useful software tools, including:\n\n- **[7-Zip](https://7-zip.org)**: Link to the open-source file archiver.\n- **[Bitwarden](https://bitwarden.com/download/#downloads-web-browser)**: Link to the open-source password manager.\n- **[Sophos Home](https://home.sophos.com)**: Link to the Sophos Home antivirus software.\n- **[uBlock Origin](https://ublockorigin.com)**: Link to the powerful ad-blocker browser extension.\n- **[Osprey](https://github.com/Foulest/Osprey)**: Link to the browser protection extension.\n- **[Notepad++](https://notepad-plus-plus.org)**: Link to the open-source text editor.\n- **[Twinkle Tray](https://twinkletray.com)**: Link to the monitor brightness control software.",
+    "ContentSha": "mxFFgyU8QZXmVaxTHPUUK4RDJ5fE/zIM/jwOcPPANJE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![স্বয়ংক্ৰিয় মেরামতি](https://i.imgur.com/mnkUQV1.png)\n\n### **উপযোগী প্ৰগ্ৰামসমূহ**\n\nচিষ্টেম ৰক্ষণাবেক্ষণৰ বাবে প্ৰয়োজনীয় ছফ্টৱেৰ টুলসমূহত প্ৰৱেশ কৰক, যেনে:\n\n- **[CPU-Z](https://cpuid.com/softwares/cpu-z.html)**: আপোনাৰ চিষ্টেমৰ হাৰ্ডৱেৰ বিৱৰণ চিনাক্ত কৰক।\n- **[HWMonitor](https://cpuid.com/softwares/hwmonitor.html)**: হাৰ্ডৱেৰ টেম্পাৰেচাৰ আৰু স্পেচিফিকেশন মনিটৰ কৰক।\n- **[Emsisoft Scan](https://emsisoft.com/en/home/emergency-kit)**: Emsisoft Emergency Kit ব্যৱহাৰ কৰি মেলৱেৰ স্কেন কৰক।\n- **[Sophos Scan](https://sophos.com/en-us/free-tools/virus-removal-tool)**: Sophos Scan & Clean ব্যৱহাৰ কৰি মেলৱেৰ স্কেন কৰক।\n- **[TreeSize](https://jam-software.com/treesize_free)**: ডিস্কৰ সমল বিশ্লেষণ আৰু পৰিচালনা কৰক।\n- **[Everything](https://voidtools.com)**: এটা অত্যন্ত দ্ৰুত ফাইল সন্ধান ইঞ্জিন।\n- **[CrystalDiskInfo](https://sourceforge.net/projects/crystaldiskinfo)**: আপোনাৰ ডিস্ক ড্ৰাইভৰ অৱস্থা আৰু স্বাস্থ্য মনিটৰ কৰক।\n- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark)**: আপোনাৰ ডিস্ক ড্ৰাইভৰ পঢ়া/লিখা স্পিড\n  বেঞ্চমাৰ্ক কৰক।\n- **[Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)**: Windows Startup Manager ৰ বিকল্প।\n- **[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)**: Windows Task Manager ৰ\n  বিকল্প।\n- **[Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)**: চিষ্টেমৰ কাৰ্যকলাপ আৰু\n  প্ৰক্ৰিয়া মনিটৰ কৰক।\n- **[BlueScreenView](https://nirsoft.net/utils/blue_screen_view.html)**: Windows BSOD ক্র্যাশ ডাম্প চাওক আৰু বিশ্লেষণ কৰক।\n- **[NVCleanstall](https://techpowerup.com/download/techpowerup-nvcleanstall)**: এটা লঘু NVIDIA গ্ৰাফিক্স কাৰ্ড\n  ড্ৰাইভাৰ আপডেটাৰ।\n- **[DisplayDriverUninstaller](https://guru3d.com/files-details/display-driver-uninstaller-download.html)**: ডিস্প্লে\n  ড্ৰাইভাৰ আৰু পেকেজ অপসাৰণ কৰক।\n- **[Recuva](https://ccleaner.com/recuva)**: মচি পেলোৱা ফাইল উদ্ধাৰৰ বাবে এটা ডাটা ৰিকভাৰী টুল।\n- **[DiskGenius](https://diskgenius.com)**: এটা ডিস্ক পাৰ্টিশ্বন মেনেজাৰ আৰু ডাটা ৰিকভাৰী টুল।\n\n![উপযোগী প্ৰগ্ৰামসমূহ (পৃষ্ঠা ১/২)](https://i.imgur.com/NAb78GU.png)\n\nউপৰন্তু, RepairKit-এ উপযোগী ছফ্টৱেৰ টুলৰ লিংক প্ৰদান কৰে, যেনে:\n\n- **[7-Zip](https://7-zip.org)**: মুক্ত উৎস ফাইল আৰ্কাইভাৰৰ লিংক।\n- **[Bitwarden](https://bitwarden.com/download/#downloads-web-browser)**: মুক্ত উৎস পাছৱৰ্ড মেনেজাৰৰ লিংক।\n- **[Sophos Home](https://home.sophos.com)**: Sophos Home এন্টিভাইৰাছ ছফ্টৱেৰলৈ লিংক।\n- **[uBlock Origin](https://ublockorigin.com)**: শক্তিশালী বিজ্ঞাপন-নিয়ন্ত্ৰক ব্ৰাউজাৰ এক্সটেনশ্যনৰ লিংক।\n- **[Osprey](https://github.com/Foulest/Osprey)**: ব্ৰাউজাৰ সুৰক্ষা এক্সটেনশ্যনৰ লিংক।\n- **[Notepad++](https://notepad-plus-plus.org)**: মুক্ত উৎস টেক্সট এডিটৰৰ লিংক।\n- **[Twinkle Tray](https://twinkletray.com)**: মনিটৰৰ উজ্বলতা নিয়ন্ত্ৰণ ছফ্টৱেৰলৈ লিংক।\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AWL+1XzhBoSLtbwcJMyZSf45faI/9pYwJbQCxKxxemc=",
+        "originContent": "![Automatic Repairs](https://i.imgur.com/mnkUQV1.png)",
+        "translatedContent": "![স্বয়ংক্ৰিয় মেরামতি](https://i.imgur.com/mnkUQV1.png)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "AGDCgf/D/HTqWrITQ3+rAeJTWYqVY0fnSd+7JiUeorI=",
+        "originContent": "### **Useful Programs**",
+        "translatedContent": "### **উপযোগী প্ৰগ্ৰামসমূহ**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Gboc0cGdi6vSYgAvy2UOrhuGqbWi1MSH1H3MkXM4G7A=",
+        "originContent": "Access essential software tools for system maintenance, including:",
+        "translatedContent": "চিষ্টেম ৰক্ষণাবেক্ষণৰ বাবে প্ৰয়োজনীয় ছফ্টৱেৰ টুলসমূহত প্ৰৱেশ কৰক, যেনে:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "1x+Fnyrcn44E7aXQv9cy6yVB7iTAtCbBKYKXxc0M+5g=",
+        "originContent": "- **[CPU-Z](https://cpuid.com/softwares/cpu-z.html)**: Identify your system hardware details.",
+        "translatedContent": "- **[CPU-Z](https://cpuid.com/softwares/cpu-z.html)**: আপোনাৰ চিষ্টেমৰ হাৰ্ডৱেৰ বিৱৰণ চিনাক্ত কৰক।"
+      },
+      {
+        "row": 8,
+        "rowsha": "V9N+47A88yfol3jeu/bt+TUJSxglT8owTWa+T8o9TxQ=",
+        "originContent": "- **[HWMonitor](https://cpuid.com/softwares/hwmonitor.html)**: Monitor hardware temperatures and specs.",
+        "translatedContent": "- **[HWMonitor](https://cpuid.com/softwares/hwmonitor.html)**: হাৰ্ডৱেৰ টেম্পাৰেচাৰ আৰু স্পেচিফিকেশন মনিটৰ কৰক।"
+      },
+      {
+        "row": 9,
+        "rowsha": "Yl2vfNGCNVg2ZJa6EOYAetewy97Shh94k2M9U1nbjWY=",
+        "originContent": "- **[Emsisoft Scan](https://emsisoft.com/en/home/emergency-kit)**: Scan for malware using Emsisoft Emergency Kit.",
+        "translatedContent": "- **[Emsisoft Scan](https://emsisoft.com/en/home/emergency-kit)**: Emsisoft Emergency Kit ব্যৱহাৰ কৰি মেলৱেৰ স্কেন কৰক।"
+      },
+      {
+        "row": 10,
+        "rowsha": "vsVLaIrGSJWrvxp2F+x8JzGwUEIs/rZ39MVqIjFMHpg=",
+        "originContent": "- **[Sophos Scan](https://sophos.com/en-us/free-tools/virus-removal-tool)**: Scan for malware using Sophos Scan & Clean.",
+        "translatedContent": "- **[Sophos Scan](https://sophos.com/en-us/free-tools/virus-removal-tool)**: Sophos Scan & Clean ব্যৱহাৰ কৰি মেলৱেৰ স্কেন কৰক।"
+      },
+      {
+        "row": 11,
+        "rowsha": "x4ZYqiuEOw8Ueo3I0ypJgUJ+Wcs6Nwu45QVhAT4NmKc=",
+        "originContent": "- **[TreeSize](https://jam-software.com/treesize_free)**: Analyze and manage disk contents.",
+        "translatedContent": "- **[TreeSize](https://jam-software.com/treesize_free)**: ডিস্কৰ সমল বিশ্লেষণ আৰু পৰিচালনা কৰক।"
+      },
+      {
+        "row": 12,
+        "rowsha": "EJ/R0ZAwNVlGFESBrrg2+jTYUiLomt2LZZQgyykoPYU=",
+        "originContent": "- **[Everything](https://voidtools.com)**: An ultra-fast file search engine.",
+        "translatedContent": "- **[Everything](https://voidtools.com)**: এটা অত্যন্ত দ্ৰুত ফাইল সন্ধান ইঞ্জিন।"
+      },
+      {
+        "row": 13,
+        "rowsha": "6z8boUvsVzBhcPK4hVftOe2wNrGnHFjUUf4KFkXxGa4=",
+        "originContent": "- **[CrystalDiskInfo](https://sourceforge.net/projects/crystaldiskinfo)**: Monitor your disk drive's health and status.",
+        "translatedContent": "- **[CrystalDiskInfo](https://sourceforge.net/projects/crystaldiskinfo)**: আপোনাৰ ডিস্ক ড্ৰাইভৰ অৱস্থা আৰু স্বাস্থ্য মনিটৰ কৰক।"
+      },
+      {
+        "row": 14,
+        "rowsha": "71WNP2BdJCAVCL2VydddjXOCbHP6TAfXux9yrsbrXU4=",
+        "originContent": "- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark)**: Benchmark your disk drive's read/write",
+        "translatedContent": "- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark)**: আপোনাৰ ডিস্ক ড্ৰাইভৰ পঢ়া/লিখা স্পিড"
+      },
+      {
+        "row": 15,
+        "rowsha": "sV6Xz36TTy/bwIPw66EGVf01DkSlVsxwtG9e6Rh1jNo=",
+        "originContent": "  speeds.",
+        "translatedContent": "  বেঞ্চমাৰ্ক কৰক।"
+      },
+      {
+        "row": 16,
+        "rowsha": "eH0Gj5kaFK9cx81ROnZRUuSqZEY+1b78c84Sm3GLU70=",
+        "originContent": "- **[Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)**: An alternative to Windows Startup",
+        "translatedContent": "- **[Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)**: Windows Startup Manager ৰ বিকল্প।"
+      },
+      {
+        "row": 17,
+        "rowsha": "FuET5R9g1mGVFHBPQ2cjMIkQNXB9Q/wS9qAFGS/A8xg=",
+        "originContent": "  Manager.",
+        "translatedContent": "- **[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)**: Windows Task Manager ৰ"
+      },
+      {
+        "row": 18,
+        "rowsha": "PJaDxKVbTNrJ+sVTiM+9GWcEXhg+fN9o9k2MaI6sxhA=",
+        "originContent": "- **[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)**: An alternative to",
+        "translatedContent": "  বিকল্প।"
+      },
+      {
+        "row": 19,
+        "rowsha": "Q1f5F+NwYDo8hqeDLLX5AkjTkop0u2AKkPnl2ofXrZc=",
+        "originContent": "  Windows Task Manager.",
+        "translatedContent": "- **[Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)**: চিষ্টেমৰ কাৰ্যকলাপ আৰু"
+      },
+      {
+        "row": 20,
+        "rowsha": "BxrAeEO68Fcp5w2gfGdIhDrowDaRaZ82kacfDrECHsI=",
+        "originContent": "- **[Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)**: Monitor system activity and",
+        "translatedContent": "  প্ৰক্ৰিয়া মনিটৰ কৰক।"
+      },
+      {
+        "row": 21,
+        "rowsha": "cII3RLcmITOrAKqsEt00HI+1T5vFDKp8ajvEGXp3FaY=",
+        "originContent": "  processes.",
+        "translatedContent": "- **[BlueScreenView](https://nirsoft.net/utils/blue_screen_view.html)**: Windows BSOD ক্র্যাশ ডাম্প চাওক আৰু বিশ্লেষণ কৰক।"
+      },
+      {
+        "row": 22,
+        "rowsha": "XRNlflN2wy6xjVR3HZuOkLnL2aAeo2ZqN/eReuy8yWQ=",
+        "originContent": "- **[BlueScreenView](https://nirsoft.net/utils/blue_screen_view.html)**: View and analyze Windows BSOD crash dumps.",
+        "translatedContent": "- **[NVCleanstall](https://techpowerup.com/download/techpowerup-nvcleanstall)**: এটা লঘু NVIDIA গ্ৰাফিক্স কাৰ্ড"
+      },
+      {
+        "row": 23,
+        "rowsha": "8CoTEdQrqZ7B2d9gecqMwZNf3Sp3QhMVGEjpAK7IJbk=",
+        "originContent": "- **[NVCleanstall](https://techpowerup.com/download/techpowerup-nvcleanstall)**: A lightweight NVIDIA graphics card",
+        "translatedContent": "  ড্ৰাইভাৰ আপডেটাৰ।"
+      },
+      {
+        "row": 24,
+        "rowsha": "iY/iQcWhLWwOgEpvwV0H54exKW532710U+DyZc86A3Y=",
+        "originContent": "  driver updater.",
+        "translatedContent": "- **[DisplayDriverUninstaller](https://guru3d.com/files-details/display-driver-uninstaller-download.html)**: ডিস্প্লে"
+      },
+      {
+        "row": 25,
+        "rowsha": "fDc8EF3wYlutNcNUZPU7mbxM+TXoJd0jnEoQ4XZ3TcM=",
+        "originContent": "- **[DisplayDriverUninstaller](https://guru3d.com/files-details/display-driver-uninstaller-download.html)**: Remove",
+        "translatedContent": "  ড্ৰাইভাৰ আৰু পেকেজ অপসাৰণ কৰক।"
+      },
+      {
+        "row": 26,
+        "rowsha": "dlD+K71NMoKIoLFx2sJQgFY1FyB3ExkgTDY9q3wdK0o=",
+        "originContent": "  display drivers and packages.",
+        "translatedContent": "- **[Recuva](https://ccleaner.com/recuva)**: মচি পেলোৱা ফাইল উদ্ধাৰৰ বাবে এটা ডাটা ৰিকভাৰী টুল।"
+      },
+      {
+        "row": 27,
+        "rowsha": "/lHaun9Y1/P4BOKg5v8U6xEWrj9jEYDuZr/Fr5ERV/A=",
+        "originContent": "- **[Recuva](https://ccleaner.com/recuva)**: A data recovery tool for deleted files.",
+        "translatedContent": "- **[DiskGenius](https://diskgenius.com)**: এটা ডিস্ক পাৰ্টিশ্বন মেনেজাৰ আৰু ডাটা ৰিকভাৰী টুল।"
+      },
+      {
+        "row": 28,
+        "rowsha": "35o6hDFKxAAGkWuOZ1RM5yJIwNeC4B7Hbe9jQJ71z2g=",
+        "originContent": "- **[DiskGenius](https://diskgenius.com)**: A disk partition manager and data recovery tool.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![উপযোগী প্ৰগ্ৰামসমূহ (পৃষ্ঠা ১/২)](https://i.imgur.com/NAb78GU.png)"
+      },
+      {
+        "row": 30,
+        "rowsha": "HJ0oK31YBbXeHlvYdl+rwhrtKjKYe7PXRGRFo0Fib+w=",
+        "originContent": "![Useful Programs (Page 1/2)](https://i.imgur.com/NAb78GU.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "উপৰন্তু, RepairKit-এ উপযোগী ছফ্টৱেৰ টুলৰ লিংক প্ৰদান কৰে, যেনে:"
+      },
+      {
+        "row": 32,
+        "rowsha": "u/jmSkA8qxuDGYme5OynE8pd6nIvw0JvPIOmLDqU3CQ=",
+        "originContent": "Additionally, RepairKit provides links to useful software tools, including:",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **[7-Zip](https://7-zip.org)**: মুক্ত উৎস ফাইল আৰ্কাইভাৰৰ লিংক।"
+      },
+      {
+        "row": 34,
+        "rowsha": "IgWM+HjIpPoPa44EENvKWsu+rXRb/qThO0aReiLUREA=",
+        "originContent": "- **[7-Zip](https://7-zip.org)**: Link to the open-source file archiver.",
+        "translatedContent": "- **[Bitwarden](https://bitwarden.com/download/#downloads-web-browser)**: মুক্ত উৎস পাছৱৰ্ড মেনেজাৰৰ লিংক।"
+      },
+      {
+        "row": 35,
+        "rowsha": "aLLNN0lAqG156yVNiqK5paNMZeaNZj+Ref7MuO6OlDM=",
+        "originContent": "- **[Bitwarden](https://bitwarden.com/download/#downloads-web-browser)**: Link to the open-source password manager.",
+        "translatedContent": "- **[Sophos Home](https://home.sophos.com)**: Sophos Home এন্টিভাইৰাছ ছফ্টৱেৰলৈ লিংক।"
+      },
+      {
+        "row": 36,
+        "rowsha": "HGefFDk6gH0acL1NABf+Xk6qNvfkcBYCQhhaMdDtSZk=",
+        "originContent": "- **[Sophos Home](https://home.sophos.com)**: Link to the Sophos Home antivirus software.",
+        "translatedContent": "- **[uBlock Origin](https://ublockorigin.com)**: শক্তিশালী বিজ্ঞাপন-নিয়ন্ত্ৰক ব্ৰাউজাৰ এক্সটেনশ্যনৰ লিংক।"
+      },
+      {
+        "row": 37,
+        "rowsha": "CUH07qMeGEILkORoywAXLpudTdJGgXojrTHjFITKZYU=",
+        "originContent": "- **[uBlock Origin](https://ublockorigin.com)**: Link to the powerful ad-blocker browser extension.",
+        "translatedContent": "- **[Osprey](https://github.com/Foulest/Osprey)**: ব্ৰাউজাৰ সুৰক্ষা এক্সটেনশ্যনৰ লিংক।"
+      },
+      {
+        "row": 38,
+        "rowsha": "US6cDB5lsemItf0zj2Phx/V/YYiQVdUzDeaFZIsIGaA=",
+        "originContent": "- **[Osprey](https://github.com/Foulest/Osprey)**: Link to the browser protection extension.",
+        "translatedContent": "- **[Notepad++](https://notepad-plus-plus.org)**: মুক্ত উৎস টেক্সট এডিটৰৰ লিংক।"
+      },
+      {
+        "row": 39,
+        "rowsha": "dXIX7qrACQSfisW13vS4O6+FSKncAweLQpQ0JTRvhsc=",
+        "originContent": "- **[Notepad++](https://notepad-plus-plus.org)**: Link to the open-source text editor.",
+        "translatedContent": "- **[Twinkle Tray](https://twinkletray.com)**: মনিটৰৰ উজ্বলতা নিয়ন্ত্ৰণ ছফ্টৱেৰলৈ লিংক।"
+      },
+      {
+        "row": 40,
+        "rowsha": "156dDpgR16dJvf+Y5ytjdTXMMtFk9LFzcRZo8eQCVsg=",
+        "originContent": "- **[Twinkle Tray](https://twinkletray.com)**: Link to the monitor brightness control software.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "- **[FanControl](https://getfancontrol.com)**: Link to the fan speed control software.\n\n![Useful Programs (Page 2/2)](https://i.imgur.com/xuQoJqH.png)\n\n### **System Shortcuts**\n\nQuickly access important Windows utilities like:\n\n- Apps & Features\n- Startup Apps\n- Windows Update\n- Windows Security\n- Task Manager\n- and more...\n\n![System Shortcuts](https://i.imgur.com/t5pOrr8.png)\n\n## Download and Run\n\nNot sure how to download and run RepairKit? Follow these steps:\n\n1. Download the latest version of RepairKit from\n   the [Releases page](https://github.com/Foulest/RepairKit/releases/latest) (click the `RepairKit-X.X.X.zip` file).\n2. Extract the ZIP file to a folder on your computer. You can use a program like [7-Zip](https://7-zip.org) to extract\n   the contents.\n3. Double-click the `RepairKit-X.X.X.exe` file to run the program.\n4. If Windows Defender SmartScreen blocks the app, click `More info` and then `Run anyway`.\n5. Click `Yes` on the User Account Control prompt.\n\nRepairKit will now open, and you can start using its features.\n\n## Compiling\n\n1. Clone the repository.\n2. Open a command prompt/terminal to the repository directory.\n3. Run `gradlew createExe` on Windows, or `./gradlew createExe` on macOS or Linux.\n4. The built `RepairKit-X.X.X.zip` file will be in the `build` folder.\n\n## Getting Help\n",
+    "ContentSha": "lXnA0HBtBNPEg3jewSA9dUuvfvCPzIcrMNBo6pfUhM8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **[FanControl](https://getfancontrol.com)**: ফেনৰ গতি নিয়ন্ত্ৰণ সফ্টৱেৰলৈ সংযোগ।\n\n![Useful Programs (Page 2/2)](https://i.imgur.com/xuQoJqH.png)\n\n### **System Shortcuts**\n\nদ্ৰুতভাৱে গুৰুত্বপূর্ণ Windows উপকাৰীসমূহত প্ৰৱেশ কৰক, যেনে:\n\n- Apps & Features\n- Startup Apps\n- Windows Update\n- Windows Security\n- Task Manager\n- আৰু আরও...\n\n![System Shortcuts](https://i.imgur.com/t5pOrr8.png)\n\n## Download আৰু Run\n\nRepairKit কেনেকৈ ডাউনলোড আৰু চলাব লাগে জানো নে? এই পদক্ষেপসমূহ অনুসৰণ কৰক:\n\n1. [Releases page](https://github.com/Foulest/RepairKit/releases/latest) ৰ পৰা RepairKit ৰ নতুন সংস্কৰণ ডাউনলোড কৰক ( `RepairKit-X.X.X.zip` ফাইলত ক্লিক কৰক)।\n2. ZIP ফাইলটো আপোনাৰ কম্পিউটাৰৰ এখন ফোল্ডাৰত Extract কৰক। [7-Zip](https://7-zip.org) যেনে এটা প্ৰোগ্ৰাম ব্যৱহাৰ কৰি\n   বিষয়বস্তু Extract কৰিব পাৰে।\n3. `RepairKit-X.X.X.exe` ফাইলটোত ডাবল-ক্লিক কৰি প্ৰোগ্ৰামটো চলাওক।\n4. যদি Windows Defender SmartScreen এ এপ্পটো ব্লক কৰে, `More info` ত ক্লিক কৰক আৰু তাৰপিছত `Run anyway` ত ক্লিক কৰক।\n5. User Account Control prompt ত `Yes` ত ক্লিক কৰক।\n\nRepairKit এতিয়া খুলিব, আৰু আপুনি ইয়াৰ সুবিধাসমূহ ব্যৱহাৰ আৰম্ভ কৰিব পাৰে।\n\n## Compiling\n\n1. ৰিপজিটৰীটো ক্লোন কৰক।\n2. ৰিপজিটৰীৰ ডাইৰেক্টৰীত কমাণ্ড প্ৰম্পট/টার্মিনাল খুলক।\n3. Windows ত `gradlew createExe` অথবা macOS বা Linux ত `./gradlew createExe` চলাওক।\n4. তৈয়াৰ হোৱা `RepairKit-X.X.X.zip` ফাইলটো `build` ফোল্ডাৰত থাকিব।\n\n## সহায় পোৱাৰ বাবে\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HukvFp5itwPSl6b+8icwA3JURZScrKVSH8qVwgTp+Aw=",
+        "originContent": "- **[FanControl](https://getfancontrol.com)**: Link to the fan speed control software.",
+        "translatedContent": "- **[FanControl](https://getfancontrol.com)**: ফেনৰ গতি নিয়ন্ত্ৰণ সফ্টৱেৰলৈ সংযোগ।"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "f0ikt242FfqVyXTL6M+tw6jIbOf6y7Ev9oql+xHLMkA=",
+        "originContent": "![Useful Programs (Page 2/2)](https://i.imgur.com/xuQoJqH.png)",
+        "translatedContent": "![Useful Programs (Page 2/2)](https://i.imgur.com/xuQoJqH.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "cyC3f6oJqRXXwBuiN8Ti7sS7EkZ08rjJ+EaY/4mxo1U=",
+        "originContent": "### **System Shortcuts**",
+        "translatedContent": "### **System Shortcuts**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "juAS0pAcHwJbUcqK5cXXCfm6YNNIilOHt/9mCr72zIY=",
+        "originContent": "Quickly access important Windows utilities like:",
+        "translatedContent": "দ্ৰুতভাৱে গুৰুত্বপূর্ণ Windows উপকাৰীসমূহত প্ৰৱেশ কৰক, যেনে:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yF5Lj8OJ9sUBSFf2/rm65wUtXSHqAzzXmcxLn8ED28I=",
+        "originContent": "- Apps & Features",
+        "translatedContent": "- Apps & Features"
+      },
+      {
+        "row": 10,
+        "rowsha": "pcp46RhGRYBr7uEwKHKA601iBWDITajXLKCimWwYwm4=",
+        "originContent": "- Startup Apps",
+        "translatedContent": "- Startup Apps"
+      },
+      {
+        "row": 11,
+        "rowsha": "sfh2h3/mu5/3bfk8JBklMbFPRWWwaJ66J3Oj4JmOoAg=",
+        "originContent": "- Windows Update",
+        "translatedContent": "- Windows Update"
+      },
+      {
+        "row": 12,
+        "rowsha": "RChKeC6kIiaPdcgxsQx/+omHrS6+ReMY+Nv/71G7EFA=",
+        "originContent": "- Windows Security",
+        "translatedContent": "- Windows Security"
+      },
+      {
+        "row": 13,
+        "rowsha": "vaZMvV23tw7coDfboP7gjJU6RysVhb+t2WCKYt5ZN3Y=",
+        "originContent": "- Task Manager",
+        "translatedContent": "- Task Manager"
+      },
+      {
+        "row": 14,
+        "rowsha": "nIlfTbP4gDRg9g4K/GA4n4uk3NKi/GZjqCKEx7qHIVg=",
+        "originContent": "- and more...",
+        "translatedContent": "- আৰু আরও..."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "R8JIp/lwdg0hmuOePwdYdlFJPBfFAfKobkmsl5L4s7U=",
+        "originContent": "![System Shortcuts](https://i.imgur.com/t5pOrr8.png)",
+        "translatedContent": "![System Shortcuts](https://i.imgur.com/t5pOrr8.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "5nDpEarWmjK+RDV0B4a/9+EYbeLkV0irwLhBOZLrGag=",
+        "originContent": "## Download and Run",
+        "translatedContent": "## Download আৰু Run"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "S8zc6paOuesF40XZgQWyGhnwjt1x24EaU6CWyIqg81c=",
+        "originContent": "Not sure how to download and run RepairKit? Follow these steps:",
+        "translatedContent": "RepairKit কেনেকৈ ডাউনলোড আৰু চলাব লাগে জানো নে? এই পদক্ষেপসমূহ অনুসৰণ কৰক:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "fUvJ5AjTepPGYZmIfMxcVKVcllaKsYTezv++/Ow0QGU=",
+        "originContent": "1. Download the latest version of RepairKit from",
+        "translatedContent": "1. [Releases page](https://github.com/Foulest/RepairKit/releases/latest) ৰ পৰা RepairKit ৰ নতুন সংস্কৰণ ডাউনলোড কৰক ( `RepairKit-X.X.X.zip` ফাইলত ক্লিক কৰক)।"
+      },
+      {
+        "row": 23,
+        "rowsha": "zfYy4ppVUV7VpOz5FwDwasXV39RyXuvQQb46jMWAltc=",
+        "originContent": "   the [Releases page](https://github.com/Foulest/RepairKit/releases/latest) (click the `RepairKit-X.X.X.zip` file).",
+        "translatedContent": "2. ZIP ফাইলটো আপোনাৰ কম্পিউটাৰৰ এখন ফোল্ডাৰত Extract কৰক। [7-Zip](https://7-zip.org) যেনে এটা প্ৰোগ্ৰাম ব্যৱহাৰ কৰি"
+      },
+      {
+        "row": 24,
+        "rowsha": "1h63U53aXiLHT6kLDkoMxvrlJhK7xdfaAwEaeFB5pdE=",
+        "originContent": "2. Extract the ZIP file to a folder on your computer. You can use a program like [7-Zip](https://7-zip.org) to extract",
+        "translatedContent": "   বিষয়বস্তু Extract কৰিব পাৰে।"
+      },
+      {
+        "row": 25,
+        "rowsha": "RVz81ozcXb2i9FMvHNd9dR46hTfBxCAVsD0NJTlteWA=",
+        "originContent": "   the contents.",
+        "translatedContent": "3. `RepairKit-X.X.X.exe` ফাইলটোত ডাবল-ক্লিক কৰি প্ৰোগ্ৰামটো চলাওক।"
+      },
+      {
+        "row": 26,
+        "rowsha": "vqPN6ivQP1RtxJu+t9y6F/AgaXXprvYocCy7FW7kPTU=",
+        "originContent": "3. Double-click the `RepairKit-X.X.X.exe` file to run the program.",
+        "translatedContent": "4. যদি Windows Defender SmartScreen এ এপ্পটো ব্লক কৰে, `More info` ত ক্লিক কৰক আৰু তাৰপিছত `Run anyway` ত ক্লিক কৰক।"
+      },
+      {
+        "row": 27,
+        "rowsha": "NQGblsHaS8oCVS2UWi5HQD0BOcfsyvH6S5d6jAt+8Us=",
+        "originContent": "4. If Windows Defender SmartScreen blocks the app, click `More info` and then `Run anyway`.",
+        "translatedContent": "5. User Account Control prompt ত `Yes` ত ক্লিক কৰক।"
+      },
+      {
+        "row": 28,
+        "rowsha": "MlDF4Zw4mEoUGsnHovexiZTsbb/C85DFRcAz8U00haQ=",
+        "originContent": "5. Click `Yes` on the User Account Control prompt.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "RepairKit এতিয়া খুলিব, আৰু আপুনি ইয়াৰ সুবিধাসমূহ ব্যৱহাৰ আৰম্ভ কৰিব পাৰে।"
+      },
+      {
+        "row": 30,
+        "rowsha": "GfPMiUAMYU4Ln7D7z4GXsNzJXn99aL+/cuwhj3Edfe0=",
+        "originContent": "RepairKit will now open, and you can start using its features.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Compiling"
+      },
+      {
+        "row": 32,
+        "rowsha": "ihka/p0mcrm5Sav84P5GA70TolG7TCjbgVItXmjlPJM=",
+        "originContent": "## Compiling",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. ৰিপজিটৰীটো ক্লোন কৰক।"
+      },
+      {
+        "row": 34,
+        "rowsha": "r9M1gNU67NHuvLwvfkjA/HQippja2HH40xPiUwlnvgU=",
+        "originContent": "1. Clone the repository.",
+        "translatedContent": "2. ৰিপজিটৰীৰ ডাইৰেক্টৰীত কমাণ্ড প্ৰম্পট/টার্মিনাল খুলক।"
+      },
+      {
+        "row": 35,
+        "rowsha": "BDvaQprgspO15u0yC2z8hbKRYYsrG38VZyRlOd+l1HM=",
+        "originContent": "2. Open a command prompt/terminal to the repository directory.",
+        "translatedContent": "3. Windows ত `gradlew createExe` অথবা macOS বা Linux ত `./gradlew createExe` চলাওক।"
+      },
+      {
+        "row": 36,
+        "rowsha": "qdB4oEp6VcNdEbFBemGhMa8EVYQV8EN7Tg2V/Lsl86M=",
+        "originContent": "3. Run `gradlew createExe` on Windows, or `./gradlew createExe` on macOS or Linux.",
+        "translatedContent": "4. তৈয়াৰ হোৱা `RepairKit-X.X.X.zip` ফাইলটো `build` ফোল্ডাৰত থাকিব।"
+      },
+      {
+        "row": 37,
+        "rowsha": "O8wVR+qQoraKGF1EzhUinUJWQUXsRC3gzH/ear7Bc+k=",
+        "originContent": "4. The built `RepairKit-X.X.X.zip` file will be in the `build` folder.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## সহায় পোৱাৰ বাবে"
+      },
+      {
+        "row": 39,
+        "rowsha": "FVSiv3keCnEbVNYFl73+T/lJlwi33bikDaCJYotUZWw=",
+        "originContent": "## Getting Help",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "For support or queries, please open an issue in the [Issues section](https://github.com/Foulest/RepairKit/issues).\n",
+    "ContentSha": "5WNfAkaQsSwTOSCqOd6P0I/vVkBRgueaKfvjcS4oOOE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "সহায়তা বা প্ৰশ্নৰ বাবে, অনুগ্ৰহ কৰি [Issues section](https://github.com/Foulest/RepairKit/issues)-ত এটা ইশ্যু খোলক।\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EDw+1LyophO6mhTa3tjLVtAG1wXY1s9bjR6CY/rMpv0=",
+        "originContent": "For support or queries, please open an issue in the [Issues section](https://github.com/Foulest/RepairKit/issues).",
+        "translatedContent": "সহায়তা বা প্ৰশ্নৰ বাবে, অনুগ্ৰহ কৰি [Issues section](https://github.com/Foulest/RepairKit/issues)-ত এটা ইশ্যু খোলক।"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

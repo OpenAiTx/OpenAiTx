@@ -195,65 +195,62 @@ sudo dnf group install "C Development Tools and Libraries"
 
 ## 🏴‍☠️ Sprachunterstützung
 - Englisch
-  - Die Möglichkeit, zwischen Sprachen zu wählen, kommt bald ...
+  - Option zur Auswahl zwischen Sprachen kommt bald ...
 </details>
 
 ## ⚠️ Bekannte Probleme:
-- Drag and Drop außerhalb des Fensters funktioniert unter Linux derzeit nicht immer
-- Unter Windows müssen Sie möglicherweise [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) installieren
-- Berechtigungen unter ms-windows sind etwas seltsam
-  - Sie müssen das Programm eventuell als Administrator ausführen, wenn beim Kopieren von Elementen oder Ähnlichem Probleme auftreten
+- Drag and Drop aus dem Fenster funktioniert unter Linux derzeit nicht immer
+- Unter Windows müssen Sie möglicherweise das [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) installieren
+- Die Berechtigungen unter MS-Windows sind etwas ungewöhnlich
+  - Sie müssen das Programm eventuell als Administrator ausführen, wenn Probleme beim Kopieren von Elementen oder ähnlichem auftreten
 - Es kann sein, dass Sie openssl1.1 auf Linux-Systemen installieren müssen, wenn das Programm nicht startet
 
-## 📝 Zu erledigen:
+## 📝 ToDos:
 - Mehrsprachigkeit
 - Favoriten
-- Zugriff auf Online-Speicherdienste (Google Drive, usw.)
+- Zugriff auf Online-Speicherdienste (Google Drive, etc.)
 
 ## Benutzeroberfläche
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### Listenansicht
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Rasteransicht
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
 
-### Miller-Spaltenansicht
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Zwei-Fenster-Ansicht
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
-
-## Beitrag leisten
-Richten Sie Ihre Maschine für die Entwicklung von Tauri v1-Anwendungen ein: [Tauri Voraussetzungen](https://tauri.app/v1/guides/getting-started/prerequisites)
+## Wie man beiträgt
+Richten Sie Ihre Maschine für die Entwicklung von tauri v1-Anwendungen ein: [Tauri Voraussetzungen](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Wenn dies erledigt ist, führen Sie einfach ```git clone https://github.com/RickyDane/CoDriver``` oder ```gh repo clone RickyDane/CoDriver``` an einem Ort auf Ihrer Maschine aus.
+Wenn dies erledigt ist, führen Sie einfach ```git clone https://github.com/RickyDane/CoDriver``` oder ```gh repo clone RickyDane/CoDriver``` an einem Ort Ihrer Wahl auf Ihrem Rechner aus.
 </br></br>
-Sie sollten in der Lage sein, ```cargo tauri dev``` im Stammverzeichnis dieses Projekts auszuführen, um CoDriver zu bauen und zu starten.
+Sie sollten in der Lage sein, ```cargo tauri dev``` im Stammverzeichnis dieses Projekts auszuführen, um mit dem Bauen und Ausführen von CoDriver zu beginnen.
 </br>
 Stellen Sie sicher, dass tauri-cli installiert ist: ```cargo install tauri-cli```
 </br>
 
-## Veröffentlichungssignierung
+## Release-Signierung
 
-macOS-Release-Artefakte müssen signiert und beglaubigt werden, um zu vermeiden, dass Gatekeeper meldet, dass die installierte App beschädigt ist. Siehe [macOS Signierung und Beglaubigung](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) für erforderliche GitHub Actions Secrets und Verifizierungskommandos.
+macOS-Release-Artefakte müssen signiert und notariell beglaubigt werden, damit Gatekeeper nicht meldet, dass die installierte App beschädigt ist. Siehe [macOS-Signierung und Notarisierung](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) für erforderliche GitHub Actions Secrets und Verifizierungsbefehle.
 
-## Sternverlauf
+## Sternenverlauf
 
 <a href="https://star-history.com/#rickydane/CoDriver&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="Sternverlaufsdiagramm" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="Sternenverlauf-Diagramm" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
-#### Andere Drittanbieter-Software
+#### Weitere Software von Drittanbietern
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---

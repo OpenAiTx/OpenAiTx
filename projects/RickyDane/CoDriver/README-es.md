@@ -199,11 +199,11 @@ sudo dnf group install "C Development Tools and Libraries"
 </details>
 
 ## ⚠️ Problemas conocidos:
-- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en Linux
-- En Windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en linux
+- En windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Los permisos en ms-windows son un poco extraños
-  - Puede que tengas que ejecutar el programa como administrador si encuentras problemas para copiar elementos o algo similar
-- Puede haber un problema y necesitas instalar openssl1.1 en sistemas Linux, cuando el programa no inicia
+  - Puede que tengas que ejecutar el programa como administrador si tienes problemas para copiar elementos o algo similar
+- Puede haber un problema que requiera instalar openssl1.1 en sistemas linux, si el programa no inicia
 
 ## 📝 Tareas pendientes:
 - Múltiples idiomas
@@ -211,32 +211,29 @@ sudo dnf group install "C Development Tools and Libraries"
 - Acceso a servicios de almacenamiento en línea (Google Drive, etc.)
 
 ## Interfaz de usuario
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 07" src="https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 28" src="https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 18" src="https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506" />
+<img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 23 39" src="https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2" />
 
-### Estilo de lista
-<img width="1119" height="673" alt="Screenshot 2025-11-16 at 13 53 53" src="https://github.com/user-attachments/assets/cfe15e6f-9936-4e29-9ca5-0f83f366c9dc" />
 
-### Estilo de cuadrícula
-<img width="1121" height="674" alt="Screenshot 2025-11-16 at 13 53 46" src="https://github.com/user-attachments/assets/69dbeee0-b53c-4566-b90e-e85ab97e0033" />
-
-### Vista de columnas Miller
-<img width="1112" height="664" alt="Screenshot 2025-11-16 at 13 54 29" src="https://github.com/user-attachments/assets/1f540880-2097-423b-8522-1ef466aee1bd" />
-
-### Vista de panel dual
-<img width="1119" height="667" alt="Screenshot 2025-11-16 at 13 55 16" src="https://github.com/user-attachments/assets/80706079-a048-4e9e-93f0-54fa270f30ac" />
 
 ## Cómo contribuir
-Prepara tu máquina para desarrollar aplicaciones tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+Configura tu máquina para desarrollar aplicaciones tauri v1: [Tauri requisitos previos](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Cuando esto esté listo, simplemente ejecuta ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.
+Cuando esto esté hecho solo haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.
 </br></br>
-Deberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para comenzar a construir y ejecutar CoDriver.
+Deberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para empezar a construir y ejecutar CoDriver.
 </br>
-Asegúrate de tener instalado tauri-cli: ```cargo install tauri-cli```
+Asegúrate de tener tauri-cli instalado: ```cargo install tauri-cli```
 </br>
 
 ## Firma de lanzamientos
 
-Los artefactos de lanzamiento de macOS deben ser firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulta [Firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para conocer los secretos requeridos de GitHub Actions y los comandos de verificación.
+Los artefactos de lanzamiento de macOS deben estar firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulte [firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para conocer los secretos de GitHub Actions requeridos y los comandos de verificación.
 
 ## Historial de estrellas
 
@@ -254,6 +251,6 @@ Los artefactos de lanzamiento de macOS deben ser firmados y notarizados para evi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
 
 ---
