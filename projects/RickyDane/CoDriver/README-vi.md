@@ -58,25 +58,25 @@
 <br/>
 
 <p align="center">
-  Một trình duyệt tệp đơn giản được tạo ra vì tôi muốn học ngôn ngữ Rust.
+  Một trình duyệt file đơn giản được tạo ra vì tôi muốn học ngôn ngữ Rust.
   <br>
   Nó độc lập với hệ điều hành và được tối ưu hóa cho hiệu suất.
 </p>
 
 <br/><br/>
 
-Hiệu năng được đạt được nhờ ["jwalk"](https://crates.io/crates/jwalk/versions) và ["Tauri"](https://tauri.app/).
+Hiệu suất đạt được nhờ ["jwalk"](https://crates.io/crates/jwalk/versions) và ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver không sử dụng bộ nhớ đệm đường dẫn để truy cập tệp và thư mục, vì vậy hiệu năng dựa vào Rust, tốc độ của ổ đĩa và sức mạnh của cpu.
+CoDriver không sử dụng bộ nhớ đệm đường dẫn khi truy cập file và thư mục, vì vậy hiệu suất đạt được nhờ Rust, tốc độ của ổ đĩa và sức mạnh của CPU.
 
-⁉️ Lưu ý rằng phần mềm này vẫn đang trong quá trình phát triển và có thể chứa lỗi!
+⁉️ Lưu ý rằng phần mềm này vẫn đang trong quá trình phát triển và sẽ còn lỗi!
 <br/><br/>
 
 # Liên kết
 - <a href="#basic-features">Tính năng cơ bản</a>
 - <a href="#advanced-features">Tính năng nâng cao</a>
 - <a href="#dependencies-if-not-working-instantly">Phụ thuộc</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">Triển khai FTP (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">Tích hợp FTP / SFTP</a>
 - <a href="#%EF%B8%8F-known-issues">Vấn đề đã biết</a>
 - <a href="#-todos">Các việc cần làm</a>
 - <a href="#user-interface">Giao diện người dùng</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ Tích hợp FTP (sshfs)
-<details>
-  <summary>Mở rộng để xem</summary>
-  <br/>
-  Các phụ thuộc (Cần được cài đặt thêm):
-  <br/>
+## 🖥️ Tích hợp FTP / SFTP
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Chưa được hỗ trợ **_hiện tại_** |
-
-  ### Cài đặt:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver cung cấp hỗ trợ gốc, hoàn chỉnh cho kết nối từ xa FTP và SFTP. Không cần phụ thuộc bên ngoài, lớp FUSE, hoặc mount `sshfs`! Chỉ cần kết nối máy chủ từ xa của bạn trực tiếp trong bảng điều khiển bên.
 
 ## 🏴‍☠️ Hỗ trợ ngôn ngữ
 - Tiếng Anh
-  - Tùy chọn chuyển đổi giữa các ngôn ngữ sẽ sớm ra mắt ...
-</details>
+  - Tùy chọn chọn giữa các ngôn ngữ sẽ sớm ra mắt ...
 
-## ⚠️ Vấn đề đã biết:
+## ⚠️ Các vấn đề đã biết:
 - Kéo thả ra ngoài cửa sổ hiện tại không phải lúc nào cũng hoạt động trên linux
-- Trên windows, bạn có thể phải cài đặt [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- Quyền trên ms-windows hơi kỳ lạ
-  - Bạn có thể cần chạy chương trình với quyền quản trị viên nếu gặp vấn đề khi sao chép phần tử hoặc các lỗi tương tự
-- Có thể cần cài openssl1.1 trên hệ thống linux nếu chương trình không khởi động được
+- Trên windows bạn có thể phải cài đặt [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Quyền trên ms-windows hơi lạ
+  - Bạn có thể phải chạy chương trình với quyền quản trị nếu gặp vấn đề khi sao chép các phần tử hoặc tương tự
+- Có thể bạn cần cài openssl1.1 trên hệ thống linux nếu chương trình không khởi động
 
 ## 📝 Việc cần làm:
-- Hỗ trợ nhiều ngôn ngữ
-- Mục yêu thích
-- Truy cập dịch vụ lưu trữ trực tuyến (Google drive, v.v.)
+- Đa ngôn ngữ
+- Yêu thích
+- Truy cập các dịch vụ lưu trữ trực tuyến (Google drive, v.v.)
 
 ## Giao diện người dùng
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -222,26 +202,26 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 ## Cách đóng góp
-Thiết lập máy của bạn để phát triển ứng dụng tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+Cài đặt máy của bạn để phát triển ứng dụng tauri v1: [Yêu cầu trước của Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Khi đã xong, chỉ cần ```git clone https://github.com/RickyDane/CoDriver``` hoặc ```gh repo clone RickyDane/CoDriver``` vào một thư mục trên máy của bạn.
+Khi đã xong, chỉ cần thực hiện ```git clone https://github.com/RickyDane/CoDriver``` hoặc ```gh repo clone RickyDane/CoDriver``` tại một vị trí trên máy tính của bạn.
 </br></br>
-Bạn có thể chạy ```cargo tauri dev``` trong thư mục gốc của dự án này để bắt đầu xây dựng và chạy CoDriver.
+Bạn có thể chạy ```cargo tauri dev``` trong thư mục gốc của dự án này để bắt đầu build và chạy CoDriver.
 </br>
-Hãy chắc chắn rằng đã cài đặt tauri-cli: ```cargo install tauri-cli```
+Hãy đảm bảo đã cài đặt tauri-cli: ```cargo install tauri-cli```
 </br>
 
 ## Ký phát hành
 
-Các bản phát hành macOS phải được ký và xác thực để tránh Gatekeeper báo rằng ứng dụng đã cài đặt bị hỏng. Xem [Ký và xác thực macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) để biết các bí mật GitHub Actions cần thiết và lệnh kiểm tra.
+Các bản phát hành trên macOS phải được ký và chứng thực để tránh Gatekeeper báo cáo rằng ứng dụng đã cài đặt bị hỏng. Xem [Ký và chứng thực macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) để biết các bí mật GitHub Actions cần thiết và các lệnh xác minh.
 
-## Lịch sử số sao
+## Lịch sử Star
 
 <a href="https://star-history.com/#rickydane/CoDriver&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="Biểu đồ lịch sử số sao" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="Biểu đồ lịch sử Star" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
@@ -251,6 +231,6 @@ Các bản phát hành macOS phải được ký và xác thực để tránh Ga
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

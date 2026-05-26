@@ -51,32 +51,32 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Купите мне кофе на ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Купить мне кофе на ko-fi.com' />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  Простой файловый менеджер, созданный потому что я хотел изучить язык Rust.
+  Простой файловый менеджер, который был создан, потому что я хотел изучить язык Rust.
   <br>
-  Он не зависит от операционной системы и оптимизирован для быстродействия.
+  Он не зависит от операционной системы и оптимизирован для производительности.
 </p>
 
 <br/><br/>
 
 Производительность достигается благодаря ["jwalk"](https://crates.io/crates/jwalk/versions) и ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver не использует кэширование путей для доступа к файлам и папкам, поэтому быстродействие обеспечивается Rust, скоростью диска и мощностью процессора.
+CoDriver не использует кэширование путей для доступа к файлам и папкам, поэтому производительность обеспечивается Rust, скоростью диска и мощностью процессора.
 
-⁉️ Помните, что это программное обеспечение все еще находится в разработке и может содержать ошибки!
+⁉️ Обратите внимание, что это программное обеспечение всё ещё находится в разработке и может содержать ошибки!
 <br/><br/>
 
 # Ссылки
-- <a href="#basic-features">Основные функции</a>
-- <a href="#advanced-features">Расширенные функции</a>
+- <a href="#basic-features">Базовые возможности</a>
+- <a href="#advanced-features">Продвинутые возможности</a>
 - <a href="#dependencies-if-not-working-instantly">Зависимости</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP реализация (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">Интеграция FTP / SFTP</a>
 - <a href="#%EF%B8%8F-known-issues">Известные проблемы</a>
 - <a href="#-todos">Задачи</a>
 - <a href="#user-interface">Пользовательский интерфейс</a>
@@ -170,47 +170,27 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ Интеграция FTP (sshfs)
-<details>
-  <summary>Развернуть для просмотра</summary>
-  <br/>
-  Зависимости (необходимо установить дополнительно):
-  <br/>
+## 🖥️ Интеграция FTP / SFTP
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Пока не поддерживается **_ещё_** |
+CoDriver обеспечивает полностью нативную, готовую к использованию поддержку удалённых подключений по FTP и SFTP. Не требуются внешние зависимости, FUSE-слои или монтирования через `sshfs`! Просто подключайте свои удалённые серверы напрямую через боковую панель.
 
-  ### Установка:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
-
-## 🏴‍☠️ Поддержка языков
+## 🏴‍☠️ Языковая поддержка
 - Английский
-  - Возможность выбора между языками скоро появится ...
-</details>
+  - Возможность выбора между языками появится в ближайшее время ...
 
 ## ⚠️ Известные проблемы:
-- Перетаскивание за пределы окна в настоящее время не всегда работает в Linux
-- В Windows может потребоваться установить [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- Разрешения в ms-windows немного странные
-  - Возможно, вам придется запустить программу от имени администратора, если возникнут проблемы с копированием элементов или подобным
-- Может возникнуть проблема, что необходимо установить openssl1.1 на Linux-системах, если программа не запускается
+- Перетаскивание за пределы окна на данный момент не всегда работает в Linux
+- В Windows может потребоваться установка [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Права в ms-windows немного необычные
+  - Возможно, потребуется запускать программу от имени администратора, если возникают проблемы с копированием элементов или чем-то подобным
+- Может возникнуть проблема с необходимостью установки openssl1.1 на Linux, если программа не запускается
 
 ## 📝 Задачи:
-- Множественные языки
+- Многоязычность
 - Избранное
-- Доступ к онлайн-хранилищам (Google Drive и др.)
+- Доступ к облачным сервисам хранения (Google Drive и др.)
 
-## Пользовательский интерфейс
+## Интерфейс пользователя
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
@@ -221,21 +201,21 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 
-## Как принять участие
-Настройте свою машину для разработки приложений на tauri v1: [Требования Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
+## Как внести вклад
+Настройте вашу машину для разработки приложений tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Когда все готово, просто выполните ```git clone https://github.com/RickyDane/CoDriver``` или ```gh repo clone RickyDane/CoDriver``` в нужной директории на вашем компьютере.
+Когда это будет сделано, просто выполните ```git clone https://github.com/RickyDane/CoDriver``` или ```gh repo clone RickyDane/CoDriver``` в нужной папке на вашем компьютере.
 </br></br>
-Вы должны иметь возможность запустить ```cargo tauri dev``` из корневой директории проекта для сборки и запуска CoDriver.
+Вы сможете запустить ```cargo tauri dev``` в корневой директории этого проекта для сборки и запуска CoDriver.
 </br>
-Убедитесь, что tauri-cli установлен: ```cargo install tauri-cli```
+Убедитесь, что установлен tauri-cli: ```cargo install tauri-cli```
 </br>
 
-## Подпись релизов
+## Подпись релиза
 
-Релизные артефакты для macOS должны быть подписаны и нотариально заверены, чтобы Gatekeeper не сообщал, что установленное приложение повреждено. Смотрите [Подпись и нотариальное заверение для macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) для получения необходимых секретов GitHub Actions и команд проверки.
+Релизные артефакты для macOS должны быть подписаны и нотариально заверены, чтобы избежать сообщений Gatekeeper о поврежденном приложении. См. [Подпись и нотариализация macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) для получения необходимых секретов GitHub Actions и команд проверки.
 
-## История звёзд
+## История звезд
 
 <a href="https://star-history.com/#rickydane/CoDriver&Date">
  <picture>
@@ -245,12 +225,12 @@ sudo dnf group install "C Development Tools and Libraries"
  </picture>
 </a>
 
-#### Другое стороннее программное обеспечение
+#### Другое стороннее ПО
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

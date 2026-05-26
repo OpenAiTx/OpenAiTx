@@ -51,32 +51,32 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='برای من قهوه بخر در ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  یک مرورگر فایل ساده که به دلیل علاقه من به یادگیری زبان Rust ایجاد شد.
+  یک مرورگر فایل ساده که به دلیل علاقه‌ام به یادگیری زبان راست ساخته شد.
   <br>
-  این برنامه مستقل از سیستم عامل بوده و برای بهینه‌سازی کوچک‌سازی شده است.
+  این برنامه مستقل از سیستم‌عامل است و برای بهینه‌سازی اصلاح شده است.
 </p>
 
 <br/><br/>
 
-عملکرد این برنامه توسط ["jwalk"](https://crates.io/crates/jwalk/versions) و ["Tauri"](https://tauri.app/) فراهم شده است.
+عملکرد این نرم‌افزار با استفاده از ["jwalk"](https://crates.io/crates/jwalk/versions) و ["Tauri"](https://tauri.app/) به دست آمده است.
 <br/><br/>
-CoDriver برای دسترسی به فایل‌ها و پوشه‌ها از کش مسیر استفاده نمی‌کند و بنابراین عملکرد آن حاصل زبان Rust، سرعت دیسک و قدرت پردازنده است.
+CoDriver برای دسترسی به فایل‌ها و پوشه‌ها از کش کردن مسیر استفاده نمی‌کند، بنابراین عملکرد به لطف زبان Rust، سرعت دیسک و قدرت پردازنده حاصل شده است.
 
-⁉️ توجه داشته باشید که این نرم‌افزار همچنان در حال توسعه است و ممکن است دارای باگ باشد!
+⁉️ توجه داشته باشید که این نرم‌افزار همچنان در حال توسعه است و ممکن است باگ داشته باشد!
 <br/><br/>
 
 # لینک‌ها
-- <a href="#basic-features">ویژگی‌های پایه</a>
-- <a href="#advanced-features">ویژگی‌های پیشرفته</a>
+- <a href="#basic-features">امکانات پایه</a>
+- <a href="#advanced-features">امکانات پیشرفته</a>
 - <a href="#dependencies-if-not-working-instantly">پیش‌نیازها</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">پیاده‌سازی FTP (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">ادغام FTP / SFTP</a>
 - <a href="#%EF%B8%8F-known-issues">مشکلات شناخته‌شده</a>
 - <a href="#-todos">کارها</a>
 - <a href="#user-interface">رابط کاربری</a>
@@ -170,44 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ یکپارچه‌سازی FTP (sshfs)
-<details>
-  <summary>برای نمایش گسترش دهید</summary>
-  <br/>
-  وابستگی‌ها (باید به طور جداگانه نصب شوند):
-  <br/>
+## 🖥️ ادغام FTP / SFTP
 
-  | macOS | لینوکس | ویندوز |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | هنوز **_پشتیبانی نمی‌شود_** |
+CoDriver پشتیبانی کاملاً بومی و آماده برای اتصال‌های راه دور FTP و SFTP را ارائه می‌دهد. هیچ وابستگی خارجی، لایه‌های FUSE یا مانت‌های `sshfs` لازم نیست! فقط کافیست سرورهای راه دور خود را مستقیماً در پنل کناری متصل کنید.
 
-  ### نصب:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### لینوکس
-  ```
-  sudo apt-get install sshfs
-  ```
-## 🏴‍☠️ پشتیبانی زبان
+## 🏴‍☠️ پشتیبانی از زبان
 - انگلیسی
-  - گزینه انتخاب بین زبان‌ها به زودی اضافه خواهد شد ...
-</details>
+  - به زودی گزینه انتخاب بین زبان‌ها اضافه خواهد شد ...
 
 ## ⚠️ مشکلات شناخته‌شده:
-- قابلیت کشیدن و رها کردن خارج از پنجره در لینوکس همیشه کار نمی‌کند
-- در ویندوز ممکن است نیاز داشته باشید [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) را نصب کنید
-- مجوزها در سیستم عامل ms-windows کمی عجیب هستند
-  - اگر با مشکلاتی در کپی عناصر یا موارد مشابه مواجه شدید، ممکن است نیاز باشد برنامه را به صورت مدیر اجرا کنید
-- ممکن است نیاز باشد openssl1.1 را روی سیستم‌های لینوکس نصب کنید، وقتی برنامه اجرا نمی‌شود
+- کشیدن و رها کردن خارج از پنجره در لینوکس همواره کار نمی‌کند
+- در ویندوز ممکن است نیاز باشد [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) را نصب کنید
+- مجوزها در ms-windows کمی عجیب هستند
+  - اگر در کپی کردن فایل‌ها یا موارد مشابه مشکل داشتید، ممکن است نیاز باشد برنامه را به عنوان مدیر اجرا کنید
+- ممکن است نیاز باشد openssl1.1 را در سیستم‌های لینوکس نصب کنید اگر برنامه اجرا نشد
 
 ## 📝 کارهای باقی‌مانده:
-- زبان‌های متعدد
+- چند زبانه شدن
 - علاقه‌مندی‌ها
-- دسترسی به خدمات ذخیره‌سازی آنلاین (گوگل درایو و غیره)
+- دسترسی به سرویس‌های ذخیره‌سازی آنلاین (گوگل درایو و غیره)
 
 ## رابط کاربری
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -220,19 +201,19 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 
-## نحوه مشارکت
-ماشین خود را برای توسعه برنامه‌های tauri v1 آماده کنید: [پیش‌نیازهای توری](https://tauri.app/v1/guides/getting-started/prerequisites)
+## چگونه مشارکت کنیم
+سیستم خود را برای توسعه برنامه‌های tauri نسخه ۱ آماده کنید: [پیش‌نیازهای Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-وقتی این کار انجام شد کافیست دستور ```git clone https://github.com/RickyDane/CoDriver``` یا ```gh repo clone RickyDane/CoDriver``` را در محل مورد نظر روی ماشین خود اجرا کنید.
+پس از انجام این کار فقط کافیست دستور ```git clone https://github.com/RickyDane/CoDriver``` یا ```gh repo clone RickyDane/CoDriver``` را در محلی از سیستم خود اجرا کنید.
 </br></br>
-باید بتوانید دستور ```cargo tauri dev``` را در دایرکتوری اصلی پروژه اجرا کنید تا شروع به ساخت و اجرای CoDriver کنید.
+باید بتوانید با اجرای دستور ```cargo tauri dev``` در پوشه اصلی پروژه، CoDriver را اجرا و توسعه دهید.
 </br>
-اطمینان حاصل کنید که tauri-cli نصب شده باشد: ```cargo install tauri-cli```
+اطمینان حاصل کنید که tauri-cli نصب شده است: ```cargo install tauri-cli```
 </br>
 
-## امضای انتشار
+## امضای نسخه نهایی
 
-آرتیفکت‌های انتشار macOS باید امضا و نوتارایز شوند تا Gatekeeper گزارش ندهد که برنامه نصب شده آسیب‌دیده است. برای اطلاعات بیشتر، [امضا و نوتارایز macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) را ببینید که شامل رازهای لازم برای GitHub Actions و فرمان‌های تأیید است.
+آرتیفکت‌های نسخه macOS باید امضا و تایید شوند تا Gatekeeper گزارش نکند که برنامه نصب شده آسیب دیده است. برای دریافت اسرار مورد نیاز GitHub Actions و فرمان‌های تایید، به [امضا و تایید macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) مراجعه کنید.
 
 ## تاریخچه ستاره‌ها
 
@@ -240,7 +221,7 @@ sudo dnf group install "C Development Tools and Libraries"
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="نمودار تاریخچه ستاره‌ها" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="نمودار تاریخچه ستاره" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
@@ -248,9 +229,8 @@ sudo dnf group install "C Development Tools and Libraries"
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

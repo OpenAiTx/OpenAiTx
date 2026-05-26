@@ -76,7 +76,7 @@ CoDriver does not use path caching to access files and folders, so the performan
 - <a href="#basic-features">Basic features</a>
 - <a href="#advanced-features">Advanced features</a>
 - <a href="#dependencies-if-not-working-instantly">Dependencies</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP implementation (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP integration</a>
 - <a href="#%EF%B8%8F-known-issues">Known issues</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">User interface</a>
@@ -170,33 +170,13 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ FTP integration (sshfs)
-<details>
-  <summary>Expand to show</summary>
-  <br/>
-  Dependencies (Need to be installed additionally):
-  <br/>
+## 🖥️ FTP / SFTP integration
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Not supported **_yet_** |
-
-  ### Installation:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver provides fully native, out-of-the-box support for FTP and SFTP remote connections. No external dependencies, FUSE layers, or `sshfs` mounts are required! Just connect your remote servers directly in the sidebar panel.
 
 ## 🏴‍☠️ Language Support
 - English
   - Option to choose between languages coming soon ...
-</details>
 
 ## ⚠️ Known issues:
 - Drag and drop out of the window is currently not always working on linux

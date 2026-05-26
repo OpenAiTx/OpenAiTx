@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Steun me op ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Koop een koffie voor mij op ko-fi.com' />
   </a>
 </p>
 
@@ -60,23 +60,23 @@
 <p align="center">
   Een eenvoudige bestandsverkenner die is ontstaan omdat ik de Rust-taal wilde leren.
   <br>
-  Het is onafhankelijk van het besturingssysteem en geoptimaliseerd voor prestaties.
+  Het is onafhankelijk van het besturingssysteem en geoptimaliseerd voor snelheid.
 </p>
 
 <br/><br/>
 
 De prestaties worden bereikt door ["jwalk"](https://crates.io/crates/jwalk/versions) en ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver gebruikt geen pad-caching om toegang te krijgen tot bestanden en mappen, dus de prestaties worden bepaald door Rust, de snelheid van de schijf en de kracht van de cpu.
+CoDriver gebruikt geen padcaching om bestanden en mappen te openen; de prestaties zijn te danken aan Rust, de snelheid van de schijf en de kracht van de cpu.
 
 ⁉️ Houd er rekening mee dat deze software nog in ontwikkeling is en bugs kan bevatten!
 <br/><br/>
 
 # Links
-- <a href="#basic-features">Basisfunctionaliteiten</a>
-- <a href="#advanced-features">Geavanceerde functionaliteiten</a>
-- <a href="#dependencies-if-not-working-instantly">Afhankelijkheden</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP-implementatie (SSHFS)</a>
+- <a href="#basic-features">Basisfuncties</a>
+- <a href="#advanced-features">Geavanceerde functies</a>
+- <a href="#dependencies-if-not-working-instantly">Vereisten</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP integratie</a>
 - <a href="#%EF%B8%8F-known-issues">Bekende problemen</a>
 - <a href="#-todos">Te doen</a>
 - <a href="#user-interface">Gebruikersinterface</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ FTP-integratie (sshfs)
-<details>
-  <summary>Uitklappen om te tonen</summary>
-  <br/>
-  Afhankelijkheden (Moeten extra geïnstalleerd worden):
-  <br/>
+## 🖥️ FTP / SFTP-integratie
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Nog niet ondersteund **_nog_** |
-
-  ### Installatie:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver biedt volledig native, kant-en-klare ondersteuning voor FTP- en SFTP-verbindingen op afstand. Geen externe afhankelijkheden, FUSE-lagen of `sshfs`-koppelingen nodig! Verbind gewoon je externe servers direct in het zijbalkpaneel.
 
 ## 🏴‍☠️ Taalondersteuning
 - Engels
-  - Optie om tussen talen te kiezen binnenkort beschikbaar ...
-</details>
+  - Mogelijkheid om tussen talen te kiezen binnenkort beschikbaar ...
 
 ## ⚠️ Bekende problemen:
-- Slepen en neerzetten buiten het venster werkt momenteel niet altijd op Linux
-- Op Windows moet je mogelijk [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) installeren
+- Slepen en neerzetten buiten het venster werkt momenteel niet altijd op linux
+- Op windows moet je mogelijk [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) installeren
 - Machtigingen op ms-windows zijn een beetje vreemd
-  - Je moet het programma mogelijk als administrator uitvoeren als je problemen hebt met het kopiëren van elementen of iets dergelijks
-- Er kan een probleem zijn waarbij je openssl1.1 op Linux systemen moet installeren als het programma niet start
+  - Je moet het programma mogelijk als administrator uitvoeren als je problemen ondervindt met het kopiëren van elementen of iets dergelijks
+- Er kan een probleem zijn dat je openssl1.1 moet installeren op linux-systemen, als het programma niet start
 
-## 📝 Te doen:
+## 📝 Takenlijst:
 - Meerdere talen
 - Favorieten
-- Toegang tot online opslagdiensten (Google drive, enz.)
+- Toegang tot online opslagdiensten (Google drive, etc.)
 
 ## Gebruikersinterface
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -222,18 +202,18 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 ## Hoe bij te dragen
-Stel je machine in voor het ontwikkelen van tauri v1 applicaties: [Tauri vereisten](https://tauri.app/v1/guides/getting-started/prerequisites)
+Stel je computer in voor het ontwikkelen van tauri v1-applicaties: [Tauri-vereisten](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Als dit gedaan is, doe dan gewoon ```git clone https://github.com/RickyDane/CoDriver``` of ```gh repo clone RickyDane/CoDriver``` op een locatie op je machine.
+Als dit is gedaan, voer dan gewoon ```git clone https://github.com/RickyDane/CoDriver``` of ```gh repo clone RickyDane/CoDriver``` uit op een locatie op je computer.
 </br></br>
-Je zou ```cargo tauri dev``` in de hoofdmap van dit project moeten kunnen uitvoeren om te beginnen met bouwen en uitvoeren van CoDriver.
+Je zou ```cargo tauri dev``` in de hoofdmap van dit project moeten kunnen uitvoeren om CoDriver te bouwen en te starten.
 </br>
-Zorg dat tauri-cli geïnstalleerd is: ```cargo install tauri-cli```
+Zorg ervoor dat tauri-cli is geïnstalleerd: ```cargo install tauri-cli```
 </br>
 
-## Release ondertekening
+## Release ondertekenen
 
-macOS-release-artifacten moeten worden ondertekend en genotariseerd om te voorkomen dat Gatekeeper meldt dat de geïnstalleerde app beschadigd is. Zie [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) voor vereiste GitHub Actions secrets en verificatiecommando's.
+macOS release-artikelen moeten worden ondertekend en genotariseerd om te voorkomen dat Gatekeeper meldt dat de geïnstalleerde app beschadigd is. Zie [macOS ondertekening en notarizatie](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) voor vereiste GitHub Actions secrets en verificatiecommando's.
 
 ## Stergeschiedenis
 
@@ -241,16 +221,16 @@ macOS-release-artifacten moeten worden ondertekend en genotariseerd om te voorko
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="Stergeschiedenis Grafiek" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="Stergeschiedenis grafiek" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
-#### Andere software van derden
+#### Overige software van derden
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

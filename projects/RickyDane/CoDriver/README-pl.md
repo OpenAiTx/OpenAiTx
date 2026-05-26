@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Kup mi kawę na ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Postaw mi kawę na ko-fi.com' />
   </a>
 </p>
 
@@ -65,9 +65,9 @@
 
 <br/><br/>
 
-Wydajność została osiągnięta dzięki ["jwalk"](https://crates.io/crates/jwalk/versions) oraz ["Tauri"](https://tauri.app/).
+Wydajność jest osiągana dzięki ["jwalk"](https://crates.io/crates/jwalk/versions) oraz ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver nie używa buforowania ścieżek do dostępu do plików i folderów, więc wydajność wynika z Rust, szybkości dysku i mocy procesora.
+CoDriver nie używa buforowania ścieżek do dostępu do plików i folderów, więc wydajność zapewnia Rust, szybkość dysku i moc procesora.
 
 ⁉️ Pamiętaj, że to oprogramowanie jest nadal w fazie rozwoju i może zawierać błędy!
 <br/><br/>
@@ -76,7 +76,7 @@ CoDriver nie używa buforowania ścieżek do dostępu do plików i folderów, wi
 - <a href="#basic-features">Podstawowe funkcje</a>
 - <a href="#advanced-features">Zaawansowane funkcje</a>
 - <a href="#dependencies-if-not-working-instantly">Zależności</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">Implementacja FTP (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">Integracja FTP / SFTP</a>
 - <a href="#%EF%B8%8F-known-issues">Znane problemy</a>
 - <a href="#-todos">Zadania</a>
 - <a href="#user-interface">Interfejs użytkownika</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ Integracja FTP (sshfs)
-<details>
-  <summary>Rozwiń, aby zobaczyć</summary>
-  <br/>
-  Wymagane zależności (należy zainstalować osobno):
-  <br/>
+## 🖥️ Integracja FTP / SFTP
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Nieobsługiwane **_jeszcze_** |
+CoDriver zapewnia natywną, gotową do użycia obsługę połączeń zdalnych FTP i SFTP. Nie są wymagane żadne zewnętrzne zależności, warstwy FUSE ani montowania `sshfs`! Po prostu połącz swoje zdalne serwery bezpośrednio w panelu bocznym.
 
-  ### Instalacja:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
-
-## 🏴‍☠️ Wsparcie Językowe
+## 🏴‍☠️ Obsługa języków
 - Angielski
-  - Wkrótce możliwość wyboru języków ...
-</details>
+  - Wkrótce dostępna możliwość wyboru języka ...
 
 ## ⚠️ Znane problemy:
-- Przeciąganie i upuszczanie poza okno nie zawsze działa na systemie linux
-- Na systemie Windows może być konieczna instalacja [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Przeciąganie i upuszczanie poza okno obecnie nie zawsze działa na Linuksie
+- Na Windowsie może być konieczna instalacja [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Uprawnienia na ms-windows są trochę dziwne
   - Może być konieczne uruchomienie programu jako administrator, jeśli napotkasz problemy z kopiowaniem elementów lub podobne
 - Może wystąpić problem wymagający instalacji openssl1.1 na systemach linux, jeśli program się nie uruchamia
 
-## 📝 Zadania do zrobienia:
+## 📝 Zadania do wykonania:
 - Wiele języków
 - Ulubione
-- Dostęp do usług przechowywania online (Google drive, itd.)
+- Dostęp do usług przechowywania online (Google Drive, itp.)
 
 ## Interfejs użytkownika
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -221,19 +201,19 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 
-## Jak wnieść swój wkład
-Przygotuj swój komputer do pracy z aplikacjami tauri v1: [Wymagania wstępne Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
+## Jak współtworzyć
+Skonfiguruj swoją maszynę do tworzenia aplikacji tauri v1: [Wymagania wstępne Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
 Gdy to zrobisz, po prostu wykonaj ```git clone https://github.com/RickyDane/CoDriver``` lub ```gh repo clone RickyDane/CoDriver``` w wybranej lokalizacji na swoim komputerze.
 </br></br>
-Powinieneś być w stanie uruchomić ```cargo tauri dev``` w katalogu głównym projektu, aby rozpocząć budowanie i uruchamianie CoDriver.
+Powinieneś móc uruchomić ```cargo tauri dev``` w katalogu głównym tego projektu, aby rozpocząć budowę i uruchamianie CoDriver.
 </br>
 Upewnij się, że masz zainstalowany tauri-cli: ```cargo install tauri-cli```
 </br>
 
-## Podpisywanie wydań
+## Podpisywanie wydania
 
-Artefakty wydania dla macOS muszą być podpisane i poddane notaryzacji, aby Gatekeeper nie zgłaszał, że zainstalowana aplikacja jest uszkodzona. Zobacz [podpisywanie i notaryzacja macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) dla wymaganych sekretów GitHub Actions i poleceń weryfikacyjnych.
+Artefakty wydania na macOS muszą być podpisane i poświadczone, aby uniknąć sytuacji, w której Gatekeeper zgłasza, że zainstalowana aplikacja jest uszkodzona. Zobacz [podpisywanie i poświadczanie macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) dla wymaganych sekretów GitHub Actions oraz poleceń weryfikacyjnych.
 
 ## Historia gwiazdek
 
@@ -251,6 +231,6 @@ Artefakty wydania dla macOS muszą być podpisane i poddane notaryzacji, aby Gat
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

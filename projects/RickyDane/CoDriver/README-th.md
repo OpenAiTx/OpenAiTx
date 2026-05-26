@@ -58,26 +58,26 @@
 <br/>
 
 <p align="center">
-  ตัวสำรวจไฟล์ง่าย ๆ ที่เกิดขึ้นเพราะฉันอยากเรียนรู้ภาษา Rust
+  โปรแกรมสำรวจไฟล์แบบง่ายที่เกิดขึ้นเพราะต้องการเรียนรู้ภาษา Rust
   <br>
-  สามารถใช้งานได้กับทุกระบบปฏิบัติการและถูกปรับแต่งให้เหมาะสมสำหรับการเพิ่มประสิทธิภาพ
+  โปรแกรมนี้ไม่ขึ้นกับระบบปฏิบัติการและถูกปรับแต่งเพื่อประสิทธิภาพสูงสุด
 </p>
 
 <br/><br/>
 
-ประสิทธิภาพนี้เกิดจากการใช้ ["jwalk"](https://crates.io/crates/jwalk/versions) และ ["Tauri"](https://tauri.app/).
+ประสิทธิภาพได้มาจากการใช้ ["jwalk"](https://crates.io/crates/jwalk/versions) และ ["Tauri"](https://tauri.app/)
 <br/><br/>
-CoDriver ไม่ใช้การแคช path เพื่อเข้าถึงไฟล์และโฟลเดอร์ ดังนั้นประสิทธิภาพจึงขึ้นอยู่กับ Rust, ความเร็วของดิสก์ และพลังของ cpu
+CoDriver ไม่ใช้การแคช path ในการเข้าถึงไฟล์และโฟลเดอร์ ดังนั้นประสิทธิภาพจึงขึ้นอยู่กับ Rust, ความเร็วของดิสก์ และพลังของซีพียู
 
-⁉️ โปรดทราบว่าซอฟต์แวร์นี้ยังอยู่ระหว่างการพัฒนาและอาจมีบั๊ก!
+⁉️ โปรดทราบว่าโปรแกรมนี้ยังอยู่ระหว่างการพัฒนาและอาจมีบั๊ก!
 <br/><br/>
 
 # ลิงก์
 - <a href="#basic-features">ฟีเจอร์พื้นฐาน</a>
 - <a href="#advanced-features">ฟีเจอร์ขั้นสูง</a>
 - <a href="#dependencies-if-not-working-instantly">การพึ่งพา</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">การใช้งาน FTP (SSHFS)</a>
-- <a href="#%EF%B8%8F-known-issues">ปัญหาที่ทราบแล้ว</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">การเชื่อมต่อ FTP / SFTP</a>
+- <a href="#%EF%B8%8F-known-issues">ปัญหาที่ทราบ</a>
 - <a href="#-todos">รายการที่ต้องทำ</a>
 - <a href="#user-interface">ส่วนติดต่อผู้ใช้</a>
 
@@ -170,40 +170,20 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ การเชื่อมต่อ FTP (sshfs)
-<details>
-  <summary>ขยายเพื่อแสดง</summary>
-  <br/>
-  ข้อกำหนดเพิ่มเติม (ต้องติดตั้งเพิ่มเติม):
-  <br/>
+## 🖥️ การผสานรวม FTP / SFTP
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | ยังไม่รองรับ **_ขณะนี้_** |
-
-  ### การติดตั้ง:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### ลินุกซ์
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver รองรับการเชื่อมต่อกับ FTP และ SFTP ได้โดยตรงแบบ native และพร้อมใช้งาน ไม่ต้องใช้ dependency ภายนอก, FUSE layer หรือการ mount `sshfs` ใดๆ! เพียงแค่เชื่อมต่อเซิร์ฟเวอร์รีโมทของคุณได้โดยตรงในแถบด้านข้าง
 
 ## 🏴‍☠️ การรองรับภาษา
 - ภาษาอังกฤษ
-  - ตัวเลือกสำหรับเลือกภาษากำลังจะมาเร็วๆ นี้ ...
-</details>
+  - ตัวเลือกเปลี่ยนภาษาจะมาในเร็วๆ นี้ ...
 
-## ⚠️ ปัญหาที่ทราบแล้ว:
-- การลากและวางออกนอกหน้าต่างยังใช้งานไม่ได้เสมอไปบน linux
-- บน windows คุณอาจต้องติดตั้ง [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- การอนุญาตบน ms-windows อาจจะแปลกนิดหน่อย
-  - คุณอาจต้องรันโปรแกรมในฐานะผู้ดูแลระบบหากพบปัญหาในการคัดล้ององค์ประกอบหรือสิ่งที่คล้ายกัน
-- อาจมีปัญหาที่คุณต้องติดตั้ง openssl1.1 บนระบบ linux เมื่อโปรแกรมไม่เริ่มทำงาน
+## ⚠️ ปัญหาที่ทราบ:
+- การลากและวางไฟล์ออกนอกหน้าต่าง อาจยังไม่ทำงานเสมอบน linux
+- บน windows อาจต้องติดตั้ง [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- การจัดการสิทธิ์บน ms-windows อาจจะแปลกๆ เล็กน้อย
+  - อาจต้องเรียกใช้โปรแกรมแบบผู้ดูแลระบบ หากพบปัญหาในการคัดลอกไฟล์หรือสิ่งอื่นๆ ที่คล้ายกัน
+- บน linux อาจต้องติดตั้ง openssl1.1 หากโปรแกรมไม่เริ่มทำงาน
 
 ## 📝 สิ่งที่ต้องทำ:
 - หลายภาษา
@@ -221,18 +201,19 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 
-## วิธีการร่วมพัฒนา
-ตั้งค่าคอมพิวเตอร์ของคุณสำหรับการพัฒนาแอป tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+## วิธีร่วมพัฒนา
+ตั้งค่าเครื่องของคุณสำหรับพัฒนาแอปพลิเคชัน tauri v1: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-เมื่อเสร็จแล้วให้พิมพ์ ```git clone https://github.com/RickyDane/CoDriver``` หรือ ```gh repo clone RickyDane/CoDriver``` ในตำแหน่งใดก็ได้บนเครื่องของคุณ
+เมื่อเสร็จแล้ว ให้ใช้คำสั่ง ```git clone https://github.com/RickyDane/CoDriver``` หรือ ```gh repo clone RickyDane/CoDriver``` ในตำแหน่งที่ต้องการบนเครื่องของคุณ
 </br></br>
-คุณควรจะสามารถรัน ```cargo tauri dev``` ในไดเรกทอรีรากของโปรเจกต์นี้เพื่อเริ่มต้นสร้างและรัน CoDriver
+คุณควรสามารถรันคำสั่ง ```cargo tauri dev``` ในโฟลเดอร์หลักของโปรเจกต์นี้ เพื่อเริ่ม build และรัน CoDriver ได้
 </br>
-อย่าลืมติดตั้ง tauri-cli: ```cargo install tauri-cli```
+โปรดแน่ใจว่าติดตั้ง tauri-cli แล้ว: ```cargo install tauri-cli```
 </br>
 
-## การเซ็นรับรองการปล่อยเวอร์ชัน
-ไฟล์ที่ปล่อยสำหรับ macOS จะต้องถูกเซ็นและรับรองความถูกต้อง (notarized) เพื่อหลีกเลี่ยงไม่ให้ Gatekeeper รายงานว่าแอปที่ติดตั้งเสียหาย โปรดดู [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) สำหรับความลับของ GitHub Actions ที่จำเป็นและคำสั่งตรวจสอบ
+## การลงชื่อสำหรับการปล่อยเวอร์ชัน
+
+ไฟล์ที่ปล่อยสำหรับ macOS ต้องได้รับการลงชื่อและรับรองความถูกต้องเพื่อหลีกเลี่ยง Gatekeeper แจ้งว่าแอปที่ติดตั้งเสียหาย ดู [การลงชื่อและรับรอง macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) สำหรับข้อมูลลับของ GitHub Actions ที่จำเป็นและคำสั่งตรวจสอบ
 
 ## ประวัติการให้ดาว
 
@@ -240,7 +221,7 @@ sudo dnf group install "C Development Tools and Libraries"
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="แผนภูมิประวัติการให้ดาว" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="กราฟประวัติการให้ดาว" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
@@ -248,9 +229,8 @@ sudo dnf group install "C Development Tools and Libraries"
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

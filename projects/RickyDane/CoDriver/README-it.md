@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Comprami un caffè su ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
   </a>
 </p>
 
@@ -60,23 +60,23 @@
 <p align="center">
   Un semplice esploratore di file nato dal desiderio di imparare il linguaggio Rust.
   <br>
-  È indipendente dal sistema operativo ed è ottimizzato per la massima efficienza.
+  È indipendente dal sistema operativo e ottimizzato per le prestazioni.
 </p>
 
 <br/><br/>
 
-Le prestazioni sono garantite da ["jwalk"](https://crates.io/crates/jwalk/versions) e ["Tauri"](https://tauri.app/).
+Le prestazioni sono ottenute grazie a ["jwalk"](https://crates.io/crates/jwalk/versions) e ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver non utilizza la cache dei percorsi per accedere a file e cartelle, quindi le prestazioni sono dovute a Rust, alla velocità del disco e alla potenza della CPU.
+CoDriver non utilizza la memorizzazione nella cache dei percorsi per accedere ai file e alle cartelle, quindi le prestazioni dipendono da Rust, dalla velocità del disco e dalla potenza della cpu.
 
-⁉️ Ricorda che questo software è ancora in fase di sviluppo e potrebbe contenere bug!
+⁉️ Tieni presente che questo software è ancora in fase di sviluppo e potrebbe contenere bug!
 <br/><br/>
 
 # Link
 - <a href="#basic-features">Funzionalità di base</a>
 - <a href="#advanced-features">Funzionalità avanzate</a>
 - <a href="#dependencies-if-not-working-instantly">Dipendenze</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">Implementazione FTP (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">Integrazione FTP / SFTP</a>
 - <a href="#%EF%B8%8F-known-issues">Problemi noti</a>
 - <a href="#-todos">Todo</a>
 - <a href="#user-interface">Interfaccia utente</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ Integrazione FTP (sshfs)
-<details>
-  <summary>Espandi per visualizzare</summary>
-  <br/>
-  Dipendenze (da installare separatamente):
-  <br/>
+## 🖥️ Integrazione FTP / SFTP
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Non supportato **_ancora_** |
-
-  ### Installazione:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver offre il supporto nativo completo, pronto all'uso, per connessioni remote FTP e SFTP. Nessuna dipendenza esterna, layer FUSE o montaggi `sshfs` richiesti! Basta collegare i tuoi server remoti direttamente dal pannello laterale.
 
 ## 🏴‍☠️ Supporto Lingua
 - Inglese
   - Opzione per scegliere tra le lingue in arrivo ...
-</details>
 
 ## ⚠️ Problemi noti:
-- Il trascinamento fuori dalla finestra attualmente non funziona sempre su Linux
+- Il drag and drop fuori dalla finestra attualmente non funziona sempre su Linux
 - Su Windows potrebbe essere necessario installare [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- I permessi su ms-windows sono un po’ strani
+- I permessi su ms-windows sono un po' strani
   - Potresti dover eseguire il programma come amministratore se riscontri problemi nel copiare elementi o simili
-- Potrebbe esserci un problema che richiede l’installazione di openssl1.1 su sistemi Linux, quando il programma non si avvia
+- Potrebbe essere necessario installare openssl1.1 su sistemi Linux, se il programma non si avvia
 
-## 📝 Attività da fare:
+## 📝 Da fare:
 - Multilingua
 - Preferiti
-- Accesso a servizi di archiviazione online (Google drive, ecc.)
+- Accesso a servizi di archiviazione online (Google Drive, ecc.)
 
 ## Interfaccia utente
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -222,18 +202,18 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 ## Come contribuire
-Prepara la tua macchina per lo sviluppo di applicazioni tauri v1: [Prerequisiti Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
+Configura la tua macchina per sviluppare applicazioni tauri v1: [Prerequisiti Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Quando hai fatto questo esegui semplicemente ```git clone https://github.com/RickyDane/CoDriver``` oppure ```gh repo clone RickyDane/CoDriver``` in una cartella sul tuo computer.
+Quando hai terminato, esegui semplicemente ```git clone https://github.com/RickyDane/CoDriver``` oppure ```gh repo clone RickyDane/CoDriver``` in una posizione sulla tua macchina.
 </br></br>
-Dovresti essere in grado di eseguire ```cargo tauri dev``` nella directory principale di questo progetto per iniziare a costruire ed eseguire CoDriver.
+Dovresti poter eseguire ```cargo tauri dev``` nella directory principale di questo progetto per iniziare a costruire ed eseguire CoDriver.
 </br>
 Assicurati di avere installato tauri-cli: ```cargo install tauri-cli```
 </br>
 
-## Firma delle release
+## Firma del rilascio
 
-Gli artifact di rilascio per macOS devono essere firmati e notarizzati per evitare che Gatekeeper segnali l'app installata come danneggiata. Consulta [Firma e notarizzazione macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) per i segreti GitHub Actions richiesti e i comandi di verifica.
+Gli artefatti di rilascio per macOS devono essere firmati e notarizzati per evitare che Gatekeeper segnali che l'app installata è danneggiata. Consulta [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) per i segreti GitHub Actions richiesti e i comandi di verifica.
 
 ## Cronologia delle stelle
 
@@ -241,7 +221,7 @@ Gli artifact di rilascio per macOS devono essere firmati e notarizzati per evita
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="Grafico Cronologia Stelle" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="Grafico della cronologia delle stelle" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
@@ -251,6 +231,6 @@ Gli artifact di rilascio per macOS devono essere firmati e notarizzati per evita
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

@@ -1,0 +1,352 @@
+[
+  {
+    "Id": 1,
+    "Content": "# MaichartConverter\n\n## A simple program provide functionality of converting maimai chart between Simai and Ma2.\n\n> The original supporting classes are now separated from this repo. Please\n> see [MaiLib](https://github.com/Neskol/MaiLib) for more information.\n\n### Build\n\n    git clone\n    git submodule update --init --recursive\n    dotnet build\n\n### Usage & Available Commands\n\n> Type 'MaichartConverter help' for detailed manual for each command.\n\n- `CompileDatabase`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileDatabase.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileDatabase_CN.md)): Compose\n  whole ma2 database to simai\n- `CompileMa2`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2_CN.md)): Compile assigned Ma2\n  chart to assigned format\n- `CompileMa2ID`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2ID.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2ID_CN.md)): Compile assigned\n  Ma2 chart indexed by ID to assigned format\n- `CompileSimai`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileSimai.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileSimai_CN.md)): Compile assigned\n  simai chart to assigned format\n-\n`ReverseMa2FromSimaiDatabase`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/ReverseMa2FromSimaiDatabase.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/ReverseMa2FromSimaiDatabase_CN.md)):\nReverse Simai Database from given folder to MaiAnalysis folder for compilation\n\n### Parameters notice\n\n- music files should be named musicxxxxxx.mp3 which xxxxxx matches the music id specified in music.xml in each a000\n  folder, and compensate 0s at the front to 6 digits\n- bga files should be named xxxxxx.mp4 which matches the music id specified in music.xml in each a000 folder, and\n  compensate 0s at the front to 6 digits\n- image folder should be structured in image/Texture2D/ and the files should start with UI_Jacket_xxxxxx.jpg which\n  xxxxxx matches the music id specified in music.xml in each a000 folder, and compensate 0s at the front to 6 digits\n- All the rules specified above is in convenience for you to directly use after you obtain data from considerable\n  ways\n- The difficulty parameter is listed 0-4 as Basic to Re:Master. In MaiLib I specified rules for Easy and Utage, but it",
+    "ContentSha": "Iudj5KTX0PcLCI1Sv90clC13CWaDR18/eWyq6dadMos=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MaichartConverter\n\n## Simai와 Ma2 간의 maimai 차트를 변환하는 기능을 제공하는 간단한 프로그램입니다.\n\n> 원본 지원 클래스들은 현재 이 저장소에서 분리되어 있습니다. 자세한 정보는\n> [MaiLib](https://github.com/Neskol/MaiLib)를 참고하세요.\n\n### 빌드\n\n    git clone\n    git submodule update --init --recursive\n    dotnet build\n\n### 사용법 및 사용 가능한 명령어\n\n> 각 명령어에 대한 자세한 설명은 'MaichartConverter help'를 입력하세요.\n\n- `CompileDatabase`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileDatabase.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileDatabase_CN.md)): 전체 ma2 데이터베이스를 simai로 구성\n- `CompileMa2`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2_CN.md)): 지정된 Ma2 차트를 지정된 형식으로 컴파일\n- `CompileMa2ID`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2ID.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2ID_CN.md)): ID로 인덱싱된 지정된 Ma2 차트를 지정된 형식으로 컴파일\n- `CompileSimai`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileSimai.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileSimai_CN.md)): 지정된 simai 차트를 지정된 형식으로 컴파일\n-\n`ReverseMa2FromSimaiDatabase`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/ReverseMa2FromSimaiDatabase.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/ReverseMa2FromSimaiDatabase_CN.md)):\n지정된 폴더에서 Simai 데이터베이스를 역변환하여 MaiAnalysis 폴더로 컴파일\n\n### 파라미터 주의사항\n\n- 음악 파일은 각 a000 폴더 내 music.xml에 명시된 음악 ID와 일치하는 musicxxxxxx.mp3 형식이어야 하며, ID는 6자리로 앞에 0을 채워야 합니다.\n- bga 파일은 각 a000 폴더 내 music.xml에 명시된 음악 ID와 일치하는 xxxxxx.mp4 형식이어야 하며, ID는 6자리로 앞에 0을 채워야 합니다.\n- 이미지 폴더는 image/Texture2D/ 구조를 가져야 하며, 파일명은 각 a000 폴더 내 music.xml에 명시된 음악 ID와 일치하는 UI_Jacket_xxxxxx.jpg 형식이어야 하며, ID는 6자리로 앞에 0을 채워야 합니다.\n- 위에서 명시한 모든 규칙은 데이터를 적절한 경로에서 직접 사용할 때의 편의를 위한 것입니다.\n- 난이도 파라미터는 Basic에서 Re:Master까지 0-4로 나열되어 있습니다. MaiLib에서는 Easy와 Utage에 대한 규칙도 지정했으나, 이는\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GZtNHmDLHrqLSboszoufuwK6seycZdeBGMVbG1rBc38=",
+        "originContent": "# MaichartConverter",
+        "translatedContent": "# MaichartConverter"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "sSsABfkA7Q1MXitPpyMKmJHNxBrVdJUytxW4YuXnix4=",
+        "originContent": "## A simple program provide functionality of converting maimai chart between Simai and Ma2.",
+        "translatedContent": "## Simai와 Ma2 간의 maimai 차트를 변환하는 기능을 제공하는 간단한 프로그램입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/vU0htXjnZqne1fTiBs4uFRYJ9Sq7AVwW414nQlkeXg=",
+        "originContent": "> The original supporting classes are now separated from this repo. Please",
+        "translatedContent": "> 원본 지원 클래스들은 현재 이 저장소에서 분리되어 있습니다. 자세한 정보는"
+      },
+      {
+        "row": 6,
+        "rowsha": "aCHV/Wew6D1n0lLRqfSlrmApEYOAnI9R6x8qiBpn52U=",
+        "originContent": "> see [MaiLib](https://github.com/Neskol/MaiLib) for more information.",
+        "translatedContent": "> [MaiLib](https://github.com/Neskol/MaiLib)를 참고하세요."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "8aIhgwV63hNALJUIBIX1H5jmhzVo93+f7RD+oRKpxx0=",
+        "originContent": "### Build",
+        "translatedContent": "### 빌드"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "esmolMX8EgI/EHozcdeAgL2JHPZotulmAEd78KXDAPQ=",
+        "originContent": "    git clone",
+        "translatedContent": "    git clone"
+      },
+      {
+        "row": 11,
+        "rowsha": "SIdiEB0U/hYrIm2Tv8nA4yl8twkX/WffkwZHg1pok/A=",
+        "originContent": "    git submodule update --init --recursive",
+        "translatedContent": "    git submodule update --init --recursive"
+      },
+      {
+        "row": 12,
+        "rowsha": "uXpIUtviC/XYxAQWgXU2t3e7zF8bE6+Ud+b9F9wmiE0=",
+        "originContent": "    dotnet build",
+        "translatedContent": "    dotnet build"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "L4Rzp3OZLZN+5/k45wR1tE6APmqhiKItfulHZ6aliMQ=",
+        "originContent": "### Usage & Available Commands",
+        "translatedContent": "### 사용법 및 사용 가능한 명령어"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "HEKCxSsn+Og//97u8pq7zCKsq/Hyt18x95QWhoT4VAY=",
+        "originContent": "> Type 'MaichartConverter help' for detailed manual for each command.",
+        "translatedContent": "> 각 명령어에 대한 자세한 설명은 'MaichartConverter help'를 입력하세요."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "5uc0+zUDMkjAq9cr+2IpFQtz69cSvYQhnpocNmYNN2s=",
+        "originContent": "- `CompileDatabase`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileDatabase.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileDatabase_CN.md)): Compose",
+        "translatedContent": "- `CompileDatabase`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileDatabase.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileDatabase_CN.md)): 전체 ma2 데이터베이스를 simai로 구성"
+      },
+      {
+        "row": 19,
+        "rowsha": "QsKmwqkxXDJn76Rbpvuv+HKNVLU1MZGhFkLubX6bzxE=",
+        "originContent": "  whole ma2 database to simai",
+        "translatedContent": "- `CompileMa2`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2_CN.md)): 지정된 Ma2 차트를 지정된 형식으로 컴파일"
+      },
+      {
+        "row": 20,
+        "rowsha": "FnT3lDt/gp2/FAVTaB8qTRMsr6UJW/wbqUiFkTp0Hc4=",
+        "originContent": "- `CompileMa2`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2_CN.md)): Compile assigned Ma2",
+        "translatedContent": "- `CompileMa2ID`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2ID.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2ID_CN.md)): ID로 인덱싱된 지정된 Ma2 차트를 지정된 형식으로 컴파일"
+      },
+      {
+        "row": 21,
+        "rowsha": "gdavXcBh+iGs2r8PqkyBUCvU2J0x1RWdck71laFQEjY=",
+        "originContent": "  chart to assigned format",
+        "translatedContent": "- `CompileSimai`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileSimai.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileSimai_CN.md)): 지정된 simai 차트를 지정된 형식으로 컴파일"
+      },
+      {
+        "row": 22,
+        "rowsha": "fdz/NQhspn704z5E0U5jJcrS53I5bTCF2KXR+fFXsBU=",
+        "originContent": "- `CompileMa2ID`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileMa2ID.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileMa2ID_CN.md)): Compile assigned",
+        "translatedContent": "-"
+      },
+      {
+        "row": 23,
+        "rowsha": "iO6LtFF1XDxBnVDZb10RWXivW5BqGQmr2/939vkxLHo=",
+        "originContent": "  Ma2 chart indexed by ID to assigned format",
+        "translatedContent": "`ReverseMa2FromSimaiDatabase`([영문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/ReverseMa2FromSimaiDatabase.md)/[중문](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/ReverseMa2FromSimaiDatabase_CN.md)):"
+      },
+      {
+        "row": 24,
+        "rowsha": "XkdoM+nI4d/lBZOXib1JSmmaby2QcrAtOvF8F6XUSOA=",
+        "originContent": "- `CompileSimai`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/CompileSimai.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/CompileSimai_CN.md)): Compile assigned",
+        "translatedContent": "지정된 폴더에서 Simai 데이터베이스를 역변환하여 MaiAnalysis 폴더로 컴파일"
+      },
+      {
+        "row": 25,
+        "rowsha": "1+Iqz9LVl1zWppcVhkSV6y/zpaX1cMKaKIuBNYtk81k=",
+        "originContent": "  simai chart to assigned format",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "OXPgIukyIPkhLBjQ0MVDrnwwnkZkDak6SgMU3pmfURI=",
+        "originContent": "-",
+        "translatedContent": "### 파라미터 주의사항"
+      },
+      {
+        "row": 27,
+        "rowsha": "djYgfRuUUvHTLAzfP3wmJHKCPERRWxmyeUZe9zysC/I=",
+        "originContent": "`ReverseMa2FromSimaiDatabase`([English](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/ENG/ReverseMa2FromSimaiDatabase.md)/[中文](https://raw.githubusercontent.com/Neskol/MaichartConverter/master/./Manuals/CHN/ReverseMa2FromSimaiDatabase_CN.md)):",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "0lYhXMOJ/hSklMgXpUaN1snlbrwQOU/umV0yKdfnxoo=",
+        "originContent": "Reverse Simai Database from given folder to MaiAnalysis folder for compilation",
+        "translatedContent": "- 음악 파일은 각 a000 폴더 내 music.xml에 명시된 음악 ID와 일치하는 musicxxxxxx.mp3 형식이어야 하며, ID는 6자리로 앞에 0을 채워야 합니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- bga 파일은 각 a000 폴더 내 music.xml에 명시된 음악 ID와 일치하는 xxxxxx.mp4 형식이어야 하며, ID는 6자리로 앞에 0을 채워야 합니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "12uJY53cSNpIkk8KGSKAKO/4+iNpxJlY5Gauf0kVHhg=",
+        "originContent": "### Parameters notice",
+        "translatedContent": "- 이미지 폴더는 image/Texture2D/ 구조를 가져야 하며, 파일명은 각 a000 폴더 내 music.xml에 명시된 음악 ID와 일치하는 UI_Jacket_xxxxxx.jpg 형식이어야 하며, ID는 6자리로 앞에 0을 채워야 합니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 위에서 명시한 모든 규칙은 데이터를 적절한 경로에서 직접 사용할 때의 편의를 위한 것입니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "MA2V9Ve9Z41lyXmFYwwwYqXf85W4cdxz11b9Id0/SFY=",
+        "originContent": "- music files should be named musicxxxxxx.mp3 which xxxxxx matches the music id specified in music.xml in each a000",
+        "translatedContent": "- 난이도 파라미터는 Basic에서 Re:Master까지 0-4로 나열되어 있습니다. MaiLib에서는 Easy와 Utage에 대한 규칙도 지정했으나, 이는"
+      },
+      {
+        "row": 33,
+        "rowsha": "RmAZQ3roXAFRlTCW9pvSMeeG9RQvZFsocWFlMw5qPlc=",
+        "originContent": "  folder, and compensate 0s at the front to 6 digits",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "zf48UZZbLefaFTcqwyoKmGSxU+5ugvhcU4Xac55erCc=",
+        "originContent": "- bga files should be named xxxxxx.mp4 which matches the music id specified in music.xml in each a000 folder, and",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "HEaSPDKMkO9H6K0Gp/e4VjNtYrr2dyaIxxlhDb2B+R8=",
+        "originContent": "  compensate 0s at the front to 6 digits",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "trLy/OCmlTloEcedA53AVLggjw/1YYf4/wrZUdMig20=",
+        "originContent": "- image folder should be structured in image/Texture2D/ and the files should start with UI_Jacket_xxxxxx.jpg which",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "JzgA4Q2CgVqMJ0qPXw/PtwwrkASD0xT5a3yosc/+/zw=",
+        "originContent": "  xxxxxx matches the music id specified in music.xml in each a000 folder, and compensate 0s at the front to 6 digits",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "uCKsGZl3QRWlXX8ka/WhB2UWt3uwbwiujIeq+9gCe7c=",
+        "originContent": "- All the rules specified above is in convenience for you to directly use after you obtain data from considerable",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "FZJg07uOVhF9NfDSwuqfy0iniOGnBV8TdJXSyo4QBos=",
+        "originContent": "  ways",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9Ewwfbm0rWkAF+E19lh0C3YeuA2r/x9d+IthOsats+M=",
+        "originContent": "- The difficulty parameter is listed 0-4 as Basic to Re:Master. In MaiLib I specified rules for Easy and Utage, but it",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  takes times for me to figure it out, or you could implement on you own referring MaiLib code\n- All the path should end with path separator like \"/\" or \"\\\". You cannot include quote signs in the path.\n- If you have difficulty using the commands, please refer VSCode launch.json where I included several examples\n- The whole program was planned to convert from ma2 to simai initially and all other features were developed after that,\n  so there is a HUGE amount of compromises in code design which made it hard to read (but works so far). It would be\n  most kind of you if you would like to help me to fix that\n\n### Disclaimer\n\n- Copyrights of the works belong to each individual right holders. This tool is purely used as non-commercial and study\n  purpose. You should find your way for any resource might be used and properly use at your own risk.\n- If you would like to use the parser in your project, please refer [MaiLib](https://github.com/Neskol/MaiLib) and\n  hopefully that helps!\n",
+    "ContentSha": "MP3eXNVijJLP6Ztzs+E4rTvCQlADRXCUwrEr8SCMVlY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  이해하는 데 시간이 걸리거나 MaiLib 코드를 참고하여 직접 구현할 수도 있습니다.\n- 모든 경로는 \"/\" 또는 \"\\\"와 같은 경로 구분자로 끝나야 합니다. 경로에 따옴표를 포함할 수 없습니다.\n- 명령어 사용에 어려움이 있다면, 여러 예제가 포함된 VSCode launch.json을 참조하세요.\n- 전체 프로그램은 처음에 ma2에서 simai로 변환하기 위해 계획되었고, 이후에 다른 기능들이 개발되었기 때문에\n  코드 설계에 많은 타협이 있어 읽기 어려울 수 있지만(지금까지는 작동함), \n  수정하는 데 도움을 주신다면 매우 감사하겠습니다.\n\n### 면책 조항\n\n- 저작권은 각 권리자에게 있으며, 이 도구는 순수하게 비상업적이고 학습 목적으로 사용됩니다.\n  사용되는 모든 자원에 대해서는 사용자가 직접 확인하고 책임을 지고 적절히 사용해야 합니다.\n- 파서를 프로젝트에 사용하고자 한다면 [MaiLib](https://github.com/Neskol/MaiLib)를 참고하시기 바랍니다.\n  도움이 되길 바랍니다!\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kLYNbOj0P1ix4zvVUKyT9YM3B6f633SX1DCCtMqiJDA=",
+        "originContent": "  takes times for me to figure it out, or you could implement on you own referring MaiLib code",
+        "translatedContent": "  이해하는 데 시간이 걸리거나 MaiLib 코드를 참고하여 직접 구현할 수도 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "CICkSYhBzOtSIlfgO4cwdcuTDlYw4QDPmM4EmTffbmA=",
+        "originContent": "- All the path should end with path separator like \"/\" or \"\\\". You cannot include quote signs in the path.",
+        "translatedContent": "- 모든 경로는 \"/\" 또는 \"\\\"와 같은 경로 구분자로 끝나야 합니다. 경로에 따옴표를 포함할 수 없습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "U1qgAlqQtrjoNRbBXOkYScYIGc8ojDwCJE39a7VjBhM=",
+        "originContent": "- If you have difficulty using the commands, please refer VSCode launch.json where I included several examples",
+        "translatedContent": "- 명령어 사용에 어려움이 있다면, 여러 예제가 포함된 VSCode launch.json을 참조하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "XX2poM9kGv6EnTk7Ai0buaHu77yfpyo7rf2EgoaKzYs=",
+        "originContent": "- The whole program was planned to convert from ma2 to simai initially and all other features were developed after that,",
+        "translatedContent": "- 전체 프로그램은 처음에 ma2에서 simai로 변환하기 위해 계획되었고, 이후에 다른 기능들이 개발되었기 때문에"
+      },
+      {
+        "row": 5,
+        "rowsha": "pHaOd73ExJQGxqkjbZaaLLN3ZfU/AvL3l1gar62wBL0=",
+        "originContent": "  so there is a HUGE amount of compromises in code design which made it hard to read (but works so far). It would be",
+        "translatedContent": "  코드 설계에 많은 타협이 있어 읽기 어려울 수 있지만(지금까지는 작동함), "
+      },
+      {
+        "row": 6,
+        "rowsha": "qLnzUMThp086MwQ6+Avk1slFxzRuUR1BUkb6fmoJeMs=",
+        "originContent": "  most kind of you if you would like to help me to fix that",
+        "translatedContent": "  수정하는 데 도움을 주신다면 매우 감사하겠습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Gkh7IdNBb+bCOfXpKe29WbhR/CvwU3tDs0vYCR1ZE9g=",
+        "originContent": "### Disclaimer",
+        "translatedContent": "### 면책 조항"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "GeW8/xv9rOCXjUoBjfHnADg072gJUXkaGKWf0Bvqq88=",
+        "originContent": "- Copyrights of the works belong to each individual right holders. This tool is purely used as non-commercial and study",
+        "translatedContent": "- 저작권은 각 권리자에게 있으며, 이 도구는 순수하게 비상업적이고 학습 목적으로 사용됩니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "RxyQRsujMSgUpbLVr0y0CJ6fJTt5RMRdAYlOfmadJZM=",
+        "originContent": "  purpose. You should find your way for any resource might be used and properly use at your own risk.",
+        "translatedContent": "  사용되는 모든 자원에 대해서는 사용자가 직접 확인하고 책임을 지고 적절히 사용해야 합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "koTtF+CVqjz6SDLweNS7sgjVB8ABqkJT9q84G/vxQWg=",
+        "originContent": "- If you would like to use the parser in your project, please refer [MaiLib](https://github.com/Neskol/MaiLib) and",
+        "translatedContent": "- 파서를 프로젝트에 사용하고자 한다면 [MaiLib](https://github.com/Neskol/MaiLib)를 참고하시기 바랍니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "zlBMvY0PrSAfH8hIuAUggCnqrQh8TmwfJAHrxv9RpeM=",
+        "originContent": "  hopefully that helps!",
+        "translatedContent": "  도움이 되길 바랍니다!"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

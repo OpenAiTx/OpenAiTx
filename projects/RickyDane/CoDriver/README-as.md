@@ -58,26 +58,26 @@
 <br/>
 
 <p align="center">
-  এটি এটা সহজ ফাইল এক্সপ্লোৰাৰ যি মই ৰাষ্ট ভাষা শিকিবলৈ আৰম্ভ কৰিছিলোঁ।
+  এটা সহজ ফাইল এক্সপ্লোৰাৰ যি মোৰ ৰাষ্ট ভাষা শিকিবলৈ ইচ্ছা কৰা বাবে জন্ম হৈছিল।
   <br>
-  ই অপাৰেটিং চিষ্টেম স্বাধীন আৰু অপ্টিমাইজেশ্যনৰ বাবে ছাট কৰা হৈছে।
+  এইটো অপাৰেটিং চিষ্টেমৰ পৰা স্বাধীন আৰু অপ্টিমাইজেশ্যনৰ বাবে কম কৰা হৈছে।
 </p>
 
 <br/><br/>
 
-দ্ৰুততা ["jwalk"](https://crates.io/crates/jwalk/versions) আৰু ["Tauri"](https://tauri.app/) দ্বাৰা অর্জিত হয়।
+প্ৰদৰ্শন ["jwalk"](https://crates.io/crates/jwalk/versions) আৰু ["Tauri"](https://tauri.app/) দ্বাৰা লাভ কৰা হৈছে।
 <br/><br/>
-CoDriver-এ ফাইল আৰু ফোল্ডাৰত প্ৰৱেশ কৰিবলৈ পথ কেছিং ব্যৱহাৰ নকৰে, সেয়ে দ্ৰুততা ৰাষ্ট, ডিস্কৰ গতি আৰু CPU-ৰ শক্তিৰে অর্জিত হয়।
+CoDriver-এ ফাইল আৰু ফোল্ডাৰসমূহত প্ৰৱেশ কৰিবলৈ পথ কেছিং ব্যৱহাৰ নকৰে, সেয়ে প্ৰদৰ্শন ৰাষ্ট, ডিছ্কৰ গতি আৰু cpu-ৰ শক্তিৰ দ্বাৰা লাভ কৰা হয়।
 
-⁉️ মনত ৰাখিব যে এই ছফ্টৱে'ৰ এতিয়াও উন্নয়নাধীন আৰু তাত বাগ থাকিব পাৰে!
+⁉️ মনত ৰাখিব যে এই ছফ্টৱেয়াৰটো এতিয়াও উন্নয়নৰ অধীনত আছে আৰু ইয়াত বাগ্ থাকিব পাৰে!
 <br/><br/>
 
-# লিংকসমূহ
-- <a href="#basic-features">মৌলিক ফিচাৰসমূহ</a>
-- <a href="#advanced-features">উন্নত ফিচাৰসমূহ</a>
-- <a href="#dependencies-if-not-working-instantly">নির্ভৰশীলতা</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP ইমপ্লিমেন্টেশ্যন (SSHFS)</a>
-- <a href="#%EF%B8%8F-known-issues">জানা সমস্যাসমূহ</a>
+# সংযোগসমূহ
+- <a href="#basic-features">মৌলিক বৈশিষ্ট্যসমূহ</a>
+- <a href="#advanced-features">উন্নত বৈশিষ্ট্যসমূহ</a>
+- <a href="#dependencies-if-not-working-instantly">নির্ভরতাসমূহ</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP সংযোগ</a>
+- <a href="#%EF%B8%8F-known-issues">জানা সমস্যাবোৰ</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">ইউজাৰ ইণ্টাৰফেচ</a>
 
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ FTP সংহতি (sshfs)
-<details>
-  <summary>পৰিসৰ কৰিবলৈ ক্লিক কৰক</summary>
-  <br/>
-  নিৰ্ভৰশীলতা (অতিৰিক্তভাৱে স্থাপন কৰিব লাগিব):
-  <br/>
+## 🖥️ FTP / SFTP সংযোগ
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | বৰ্তমান সমৰ্থিত নহয় **_এতিয়াও_** |
-
-  ### স্থাপন:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### লিনাক্স
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver-এ FTP আৰু SFTP ৰিম'ট সংযোগৰ বাবে সম্পূৰ্ণ দেশীয়, বক্সৰ পৰা বাহিৰে আহা সমৰ্থন আছে। বাহ্যিক নিৰ্ভৰশীলতা, FUSE স্তৰ, বা `sshfs` মাউণ্টৰ প্ৰয়োজন নাই! কেৱল আপোনাৰ ৰিম'ট ছাৰ্ভাৰসমূহক চাইডবাৰ পেনেলত সোঁমাজে সংযোগ কৰক।
 
 ## 🏴‍☠️ ভাষা সমৰ্থন
 - ইংৰাজী
-  - ভাষাবিলাকৰ মাজত বাছনি কৰাৰ বিকল্প অলপতে আহি আছে ...
-</details>
+  - শীঘ্ৰে ভাষা বাছনি কৰাৰ বিকল্প আহি আছে ...
 
-## ⚠️ জনাজাত সমস্যা:
-- লিনাক্সত উইণ্ডোৰ বাহিৰলৈ ড্ৰেগ আৰু ড্ৰপ সদায়েই কাম নকৰে
-- উইণ্ডোজত আপুনি [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) ইনষ্টল কৰিব লাগিব পাৰে
-- ms-windows ত অনুমতিবোৰ অলপ আচৰিত
-  - উপাদান কপি কৰিব নোৱাৰিলে বা একেটা সমস্যা পালে প্ৰোগ্ৰামটো অ্যাডমিনিষ্ট্ৰেটৰ হিচাপে চলাব লাগিব পাৰে
-- লিনাক্সত openssl1.1 ইনষ্টল কৰাৰ প্ৰয়োজন হ’ব পাৰে, যেতিয়া প্ৰোগ্ৰামটো আৰম্ভ নহয়
+## ⚠️ জনা সমস্যা:
+- উইণ্ডোৰ পৰা টানিবলৈ আৰু পেলাবলৈ (drag and drop) লিনাক্সত সদায়েই কাম নকৰে
+- উইণ্ডোজত আপোনাক [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) ইনষ্টল কৰিব লাগিব পাৰে
+- ms-windows ত অনুমতি (permissions) অলপ আচৰিত
+  - উপাদান কপি কৰাত বা এনেধৰণৰ সমস্যাত আপোনাক প্ৰশাসক হিচাপে (administrator) প্ৰ'গ্ৰামটো চলাব লাগিব পাৰে
+- লিনাক্স ছিষ্টেমত প্ৰ'গ্ৰামটো আৰম্ভ নোহোৱাত openssl1.1 ইনষ্টল কৰিব লাগিব পাৰে
 
-## 📝 কৰিবলগীয়া কাম:
+## 📝 কৰণীয়সমূহ:
 - বহুতো ভাষা
-- প্ৰিয়ৰ তালিকা
-- অনলাইন ষ্ট’ৰেজ সেৱাসমূহত এক্সেছ (Google drive, আদি)
+- মনপছন্দ (Favorites)
+- অনলাইন সংৰক্ষণ সেৱাত প্ৰৱেশ (Google drive, আদি)
 
 ## ব্যৱহাৰকাৰী ইণ্টাৰফেচ
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -221,18 +201,19 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 
-## কেনেকৈ অৱদান আগবঢ়াব
-আপোনাৰ মেছিনত tauri v1 এপ্লিকেছন ডেভেলপমেণ্টৰ বাবে ছেটআপ কৰক: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+## কেনেকৈ সহায় কৰিব
+আপোনাৰ মেচিনত tauri v1 এপ্লিকেশ্যন ডেভেলপ কৰাৰ বাবে ছেটআপ কৰক: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-ই সম্পূৰ্ণ হ’লে কেৱল ```git clone https://github.com/RickyDane/CoDriver``` অথবা ```gh repo clone RickyDane/CoDriver``` আপোনাৰ মেছিনত এটা স্থানত কৰক।
+এইটো হোৱা পিছত কেৱল ```git clone https://github.com/RickyDane/CoDriver``` বা ```gh repo clone RickyDane/CoDriver``` আপোনাৰ মেচিনৰ যিকোনো ঠাইত কৰক।
 </br></br>
-আপুনি এই প্ৰজেক্টটোৰ মূল ডাইৰেক্টৰীত ```cargo tauri dev``` চলাব পাৰিব CoDriver নিৰ্মাণ আৰু চলোৱাৰ বাবে।
+আপুনি এই প্ৰজেক্টৰ মূল ডিৰেক্টৰীত ```cargo tauri dev``` চলাই CoDriver নিৰ্মাণ আৰু চলাব পাৰিব।
 </br>
-নিশ্চিত কৰক যে tauri-cli ইনষ্টল আছে: ```cargo install tauri-cli```
+নিশ্চিত কৰক যে tauri-cli ইনষ্টল কৰা আছে: ```cargo install tauri-cli```
 </br>
 
-## মুক্তি স্বাক্ষৰ
-macOS ৰিলিজ আৰ্টিফেক্টসমূহ স্বাক্ষৰিত আৰু নোটাৰাইজ্ড হ’ব লাগিব যাতে Gatekeeper-এ ইনষ্টল কৰা এপটো ক্ষতিগ্রস্ত বুলি জনোৱা নাপায়। প্ৰয়োজনীয় GitHub Actions ৰ গোপনীয়তা আৰু যাচাই কৰাৰ কমাণ্ডসমূহৰ বাবে [macOS স্বাক্ষৰ আৰু নোটাৰাইজেচন](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) চাওক।
+## মুক্তি স্বাক্ষৰীকৰণ
+
+macOS মুক্তি আৰ্টিফেক্টসমূহ স্বাক্ষৰ আৰু নোটাৰাইজ কৰা হ’ব লাগিব যাতে Gatekeeper-এ ইনষ্টল কৰা এপটো ক্ষতিগ্ৰস্ত বুলি জনোৱা নকৰে। আৱশ্যকীয় GitHub Actions গোপনীয়তা আৰু যাচাই কৰাৰ নিৰ্দেশাবলীৰ বাবে [macOS স্বাক্ষৰ আৰু নোটাৰাইজেচন](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) চাওক।
 
 ## ষ্টাৰ ইতিহাস
 
@@ -244,13 +225,12 @@ macOS ৰিলিজ আৰ্টিফেক্টসমূহ স্বাক
  </picture>
 </a>
 
-#### আন তৃতীয় পক্ষৰ ছফ্টৱেৰ
+#### অন্যান্য তৃতীয় পক্ষৰ ছফ্টৱেৰ
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
-
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

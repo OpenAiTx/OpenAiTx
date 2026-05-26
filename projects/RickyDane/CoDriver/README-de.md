@@ -51,32 +51,32 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Kauf mir einen Kaffee bei ko-fi.com' />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  Ein einfacher Dateimanager, der entstanden ist, weil ich die Programmiersprache Rust lernen wollte.
+  Ein einfacher Dateiexplorer, der entstand, weil ich die Rust-Sprache lernen wollte.
   <br>
-  Er ist betriebssystemunabhängig und auf Optimierung getrimmt.
+  Er ist betriebssystemunabhängig und für Optimierung ausgelegt.
 </p>
 
 <br/><br/>
 
 Die Leistung wird durch ["jwalk"](https://crates.io/crates/jwalk/versions) und ["Tauri"](https://tauri.app/) erreicht.
 <br/><br/>
-CoDriver verwendet kein Path-Caching für den Zugriff auf Dateien und Ordner, die Leistung wird also durch Rust, die Geschwindigkeit der Festplatte und die Leistung der CPU erreicht.
+CoDriver verwendet kein Pfad-Caching zum Zugriff auf Dateien und Ordner, daher wird die Leistung durch Rust, die Geschwindigkeit der Festplatte und die CPU-Leistung erzielt.
 
-⁉️ Bitte beachten Sie, dass diese Software noch in der Entwicklung ist und Fehler enthalten kann!
+⁉️ Beachten Sie, dass diese Software noch in der Entwicklung ist und Fehler enthalten kann!
 <br/><br/>
 
 # Links
 - <a href="#basic-features">Grundfunktionen</a>
 - <a href="#advanced-features">Erweiterte Funktionen</a>
 - <a href="#dependencies-if-not-working-instantly">Abhängigkeiten</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP-Implementierung (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP-Integration</a>
 - <a href="#%EF%B8%8F-known-issues">Bekannte Probleme</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">Benutzeroberfläche</a>
@@ -170,43 +170,23 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ FTP-Integration (sshfs)
-<details>
-  <summary>Ausklappen, um anzuzeigen</summary>
-  <br/>
-  Abhängigkeiten (müssen zusätzlich installiert werden):
-  <br/>
+## 🖥️ FTP / SFTP-Integration
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Noch nicht unterstützt **_yet_** |
-
-  ### Installation:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver bietet vollständig native, sofort einsatzbereite Unterstützung für FTP- und SFTP-Remote-Verbindungen. Keine externen Abhängigkeiten, FUSE-Layer oder `sshfs`-Mounts erforderlich! Verbinden Sie Ihre Remote-Server einfach direkt im Seitenleisten-Panel.
 
 ## 🏴‍☠️ Sprachunterstützung
 - Englisch
-  - Option zur Auswahl zwischen Sprachen kommt bald ...
-</details>
+  - Option zur Auswahl zwischen verschiedenen Sprachen kommt bald ...
 
 ## ⚠️ Bekannte Probleme:
-- Drag and Drop aus dem Fenster funktioniert unter Linux derzeit nicht immer
+- Drag & Drop außerhalb des Fensters funktioniert derzeit unter Linux nicht immer
 - Unter Windows müssen Sie möglicherweise das [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) installieren
-- Die Berechtigungen unter MS-Windows sind etwas ungewöhnlich
-  - Sie müssen das Programm eventuell als Administrator ausführen, wenn Probleme beim Kopieren von Elementen oder ähnlichem auftreten
-- Es kann sein, dass Sie openssl1.1 auf Linux-Systemen installieren müssen, wenn das Programm nicht startet
+- Berechtigungen unter ms-windows sind etwas seltsam
+  - Sie müssen das Programm eventuell als Administrator ausführen, wenn Probleme beim Kopieren von Elementen oder Ähnlichem auftreten
+- Es kann sein, dass Sie openssl1.1 auf Linux-Systemen installieren müssen, falls das Programm nicht startet
 
 ## 📝 ToDos:
-- Mehrsprachigkeit
+- Mehrere Sprachen
 - Favoriten
 - Zugriff auf Online-Speicherdienste (Google Drive, etc.)
 
@@ -222,35 +202,35 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 ## Wie man beiträgt
-Richten Sie Ihre Maschine für die Entwicklung von tauri v1-Anwendungen ein: [Tauri Voraussetzungen](https://tauri.app/v1/guides/getting-started/prerequisites)
+Richten Sie Ihre Maschine für die Entwicklung von Tauri v1-Anwendungen ein: [Tauri Voraussetzungen](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Wenn dies erledigt ist, führen Sie einfach ```git clone https://github.com/RickyDane/CoDriver``` oder ```gh repo clone RickyDane/CoDriver``` an einem Ort Ihrer Wahl auf Ihrem Rechner aus.
+Wenn dies erledigt ist, führen Sie einfach ```git clone https://github.com/RickyDane/CoDriver``` oder ```gh repo clone RickyDane/CoDriver``` an einem Ort auf Ihrem Rechner aus.
 </br></br>
-Sie sollten in der Lage sein, ```cargo tauri dev``` im Stammverzeichnis dieses Projekts auszuführen, um mit dem Bauen und Ausführen von CoDriver zu beginnen.
+Sie sollten in der Lage sein, ```cargo tauri dev``` im Root-Verzeichnis dieses Projekts auszuführen, um mit dem Bauen und Starten von CoDriver zu beginnen.
 </br>
 Stellen Sie sicher, dass tauri-cli installiert ist: ```cargo install tauri-cli```
 </br>
 
 ## Release-Signierung
 
-macOS-Release-Artefakte müssen signiert und notariell beglaubigt werden, damit Gatekeeper nicht meldet, dass die installierte App beschädigt ist. Siehe [macOS-Signierung und Notarisierung](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) für erforderliche GitHub Actions Secrets und Verifizierungsbefehle.
+macOS-Release-Artefakte müssen signiert und notariell beglaubigt werden, damit Gatekeeper nicht meldet, dass die installierte App beschädigt ist. Siehe [macOS-Signierung und Notarisierung](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) für benötigte GitHub Actions Secrets und Verifizierungskommandos.
 
-## Sternenverlauf
+## Star History
 
 <a href="https://star-history.com/#rickydane/CoDriver&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="Sternenverlauf-Diagramm" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
-#### Weitere Software von Drittanbietern
+#### Andere Drittanbieter-Software
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

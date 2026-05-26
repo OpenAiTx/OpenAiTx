@@ -51,32 +51,32 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='ko-fi.comでコーヒーを買う' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  Rust言語を学びたいと思ったことから生まれたシンプルなファイルエクスプローラーです。
+  Rust言語を学ぶために生まれたシンプルなファイルエクスプローラーです。
   <br>
-  OSに依存せず、最適化のためにスリム化されています。
+  OS非依存で、最適化のためにスリム化されています。
 </p>
 
 <br/><br/>
 
-このパフォーマンスは ["jwalk"](https://crates.io/crates/jwalk/versions) と ["Tauri"](https://tauri.app/) によって実現されています。
+パフォーマンスは["jwalk"](https://crates.io/crates/jwalk/versions)と["Tauri"](https://tauri.app/)によって実現されています。
 <br/><br/>
-CoDriverはファイルやフォルダへのアクセス時にパスキャッシュを使用せず、Rust、ディスクの速度、CPUの性能によってパフォーマンスを得ています。
+CoDriverはファイルやフォルダへのアクセス時にパスキャッシュを使用しておらず、Rustの性能、ディスクの速度、CPUのパワーによってパフォーマンスを実現しています。
 
-⁉️ このソフトウェアはまだ開発途中のため、バグが含まれる場合がありますのでご注意ください！
+⁉️ このソフトウェアはまだ開発中のため、バグが含まれている可能性があります！
 <br/><br/>
 
 # リンク
 - <a href="#basic-features">基本機能</a>
 - <a href="#advanced-features">高度な機能</a>
 - <a href="#dependencies-if-not-working-instantly">依存関係</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP実装（SSHFS）</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP 統合</a>
 - <a href="#%EF%B8%8F-known-issues">既知の問題</a>
 - <a href="#-todos">やることリスト</a>
 - <a href="#user-interface">ユーザーインターフェース</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ FTP統合（sshfs）
-<details>
-  <summary>クリックして表示</summary>
-  <br/>
-  依存関係（追加でインストールが必要）:
-  <br/>
+## 🖥️ FTP / SFTP 統合
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | まだサポートされていません **_yet_** |
-
-  ### インストール方法:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriverは、FTPおよびSFTPリモート接続を完全にネイティブでサポートし、すぐに利用できます。外部依存関係やFUSEレイヤー、`sshfs`マウントは不要です！サイドバーのパネルからリモートサーバーに直接接続できます。
 
 ## 🏴‍☠️ 言語サポート
 - 英語
-  - 言語の選択オプションは近日公開予定...
-</details>
+  - 言語の選択オプションは近日追加予定 ...
 
 ## ⚠️ 既知の問題:
-- Linux上でウィンドウ外へのドラッグ&ドロップが常に動作しない場合があります
-- Windowsでは[Microsoft Visual C++ 再頒布可能パッケージ](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)をインストールする必要がある場合があります
-- ms-windowsの権限設定が少し奇妙です
-  - 要素のコピー等で問題が発生した場合は管理者権限でプログラムを実行する必要があるかもしれません
-- Linuxシステムでプログラムが起動しない場合、openssl1.1のインストールが必要になることがあります
+- Linuxでは、ウィンドウ外へのドラッグ＆ドロップが常に動作しない場合があります
+- Windowsでは、[Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) のインストールが必要な場合があります
+- ms-windows上の権限設定が少し奇妙です
+  - 要素のコピーなどで問題が発生した場合、管理者としてプログラムを実行する必要があるかもしれません
+- プログラムが起動しない場合、linuxシステムでopenssl1.1のインストールが必要な場合があります
 
 ## 📝 やることリスト:
-- 複数言語対応
+- 多言語対応
 - お気に入り機能
-- オンラインストレージサービス（Googleドライブ等）へのアクセス
+- オンラインストレージサービスへのアクセス（Googleドライブなど）
 
 ## ユーザーインターフェース
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -221,19 +201,19 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 
-## コントリビュート方法
-Tauri v1アプリケーション開発用にマシンをセットアップします: [Tauri 必要条件](https://tauri.app/v1/guides/getting-started/prerequisites)
+## 貢献方法
+tauri v1アプリケーション開発のための環境をセットアップしてください: [Tauri 必要条件](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-準備ができたら、```git clone https://github.com/RickyDane/CoDriver``` または ```gh repo clone RickyDane/CoDriver``` をマシン上の任意の場所で実行してください。
+セットアップが完了したら、マシン上の任意の場所で ```git clone https://github.com/RickyDane/CoDriver``` または ```gh repo clone RickyDane/CoDriver``` を実行してください。
 </br></br>
-このプロジェクトのルートディレクトリで```cargo tauri dev```を実行すれば、CoDriverのビルドと実行ができるはずです。
+プロジェクトのルートディレクトリで ```cargo tauri dev``` を実行すれば、CoDriverのビルドと実行を開始できます。
 </br>
-tauri-cliがインストールされていることを確認してください: ```cargo install tauri-cli```
+必ず tauri-cli をインストールしてください: ```cargo install tauri-cli```
 </br>
 
 ## リリース署名
 
-macOS のリリースアーティファクトは、Gatekeeper がインストールされたアプリが破損していると報告しないよう、署名および公証を行う必要があります。必要な GitHub Actions シークレットや検証コマンドについては、[macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) を参照してください。
+macOS のリリース成果物は署名および公証が必要です。これを行わないと Gatekeeper によりインストールしたアプリが破損していると報告されます。必要な GitHub Actions シークレットや検証コマンドについては [macOS 署名と公証](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) を参照してください。
 
 ## スター履歴
 
@@ -241,7 +221,7 @@ macOS のリリースアーティファクトは、Gatekeeper がインストー
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
+   <img alt="スター履歴グラフ" src="https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date" />
  </picture>
 </a>
 
@@ -251,6 +231,6 @@ macOS のリリースアーティファクトは、Gatekeeper がインストー
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

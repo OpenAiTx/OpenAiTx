@@ -51,32 +51,32 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='ko-fi.com'da bana bir kahve ısmarla' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='ko-fi.com üzerinden bana bir kahve alın' />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  Rust dilini öğrenmek istediğim için ortaya çıkan basit bir dosya gezgini.
+  Rust dilini öğrenmek istediğim için doğan basit bir dosya gezgini.
   <br>
   İşletim sistemi bağımsızdır ve optimizasyon için sadeleştirilmiştir.
 </p>
 
 <br/><br/>
 
-Performans, ["jwalk"](https://crates.io/crates/jwalk/versions) ve ["Tauri"](https://tauri.app/) tarafından sağlanmaktadır.
+Performans, ["jwalk"](https://crates.io/crates/jwalk/versions) ve ["Tauri"](https://tauri.app/) ile sağlanır.
 <br/><br/>
-CoDriver, dosya ve klasörlere erişmek için yol önbelleklemesi kullanmaz; bu nedenle performans Rust, disk hızı ve cpu gücünden sağlanmaktadır.
+CoDriver, dosya ve klasörlere erişmek için yol önbelleklemesi kullanmaz, bu yüzden performans Rust dili, diskin hızı ve cpu gücü ile sağlanır.
 
-⁉️ Unutmayın ki bu yazılım hâlâ geliştirme aşamasındadır ve hatalar içerebilir!
+⁉️ Unutmayın, bu yazılım halen geliştirme aşamasında ve hatalar içerebilir!
 <br/><br/>
 
 # Bağlantılar
 - <a href="#basic-features">Temel özellikler</a>
 - <a href="#advanced-features">Gelişmiş özellikler</a>
 - <a href="#dependencies-if-not-working-instantly">Bağımlılıklar</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP uygulaması (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP entegrasyonu</a>
 - <a href="#%EF%B8%8F-known-issues">Bilinen sorunlar</a>
 - <a href="#-todos">Yapılacaklar</a>
 - <a href="#user-interface">Kullanıcı arayüzü</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ FTP entegrasyonu (sshfs)
-<details>
-  <summary>Göstermek için genişlet</summary>
-  <br/>
-  Bağımlılıklar (Ayrıca yüklenmesi gerekir):
-  <br/>
+## 🖥️ FTP / SFTP entegrasyonu
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Henüz desteklenmiyor **_henüz_** |
-
-  ### Kurulum:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver, FTP ve SFTP uzak bağlantıları için tamamen yerel, kutudan çıkar çıkmaz destek sunar. Harici bağımlılıklara, FUSE katmanlarına veya `sshfs` bağlamalarına gerek yoktur! Uzak sunucularınızı doğrudan kenar çubuğu panelinden bağlayın.
 
 ## 🏴‍☠️ Dil Desteği
 - İngilizce
   - Yakında diller arasında seçim yapma seçeneği eklenecek ...
-</details>
 
 ## ⚠️ Bilinen sorunlar:
-- Linux'ta pencere dışına sürükleyip bırakma şu anda her zaman çalışmıyor
+- Sürükle ve bırak işlemi, linux'ta pencerenin dışına çıkarken her zaman çalışmayabiliyor
 - Windows'ta [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) yüklemeniz gerekebilir
-- ms-windows üzerinde izinler biraz garip
-  - Eğer elemanları kopyalama veya benzeri bir sorun yaşarsanız programı yönetici olarak çalıştırmanız gerekebilir
-- Program başlamazsa linux sistemlerde openssl1.1 yüklemeniz gerekebilir
+- ms-windows üzerindeki izinler biraz tuhaf
+  - Eğer eleman kopyalama gibi işlemlerde sorun yaşarsanız programı yönetici olarak çalıştırmanız gerekebilir
+- Program başlamazsa, linux sistemlerinde openssl1.1 yüklemeniz gerekebilir
 
 ## 📝 Yapılacaklar:
 - Çoklu dil desteği
 - Favoriler
-- Çevrimiçi depolama servislerine erişim (Google Drive, vb.)
+- Çevrimiçi depolama servislerine erişim (Google drive, vb.)
 
 ## Kullanıcı arayüzü
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -221,19 +201,19 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 
-## Katkıda bulunmak için
-Makinenizi tauri v1 uygulamaları geliştirmek için hazırlayın: [Tauri önkoşulları](https://tauri.app/v1/guides/getting-started/prerequisites)
+## Katkıda bulunma
+Makinenizi tauri v1 uygulamalarını geliştirmek için kurun: [Tauri önkoşulları](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Bunu yaptıktan sonra makinenizde bir konumda ```git clone https://github.com/RickyDane/CoDriver``` veya ```gh repo clone RickyDane/CoDriver``` komutunu çalıştırın.
+Bunu yaptıktan sonra makinenizde bir konuma ```git clone https://github.com/RickyDane/CoDriver``` veya ```gh repo clone RickyDane/CoDriver``` komutunu girin.
 </br></br>
-Bu projenin kök dizininde ```cargo tauri dev``` komutunu çalıştırarak CoDriver'ı derleyip çalıştırmaya başlamalısınız.
+Projenin kök dizininde ```cargo tauri dev``` komutunu çalıştırarak CoDriver'ı derlemeye ve çalıştırmaya başlayabilirsiniz.
 </br>
-tauri-cli'nin kurulu olduğundan emin olun: ```cargo install tauri-cli```
+Tauri-cli'nin kurulu olduğundan emin olun: ```cargo install tauri-cli```
 </br>
 
-## Sürüm imzalama
+## Yayın imzalama
 
-macOS sürüm çıktıları, Gatekeeper'ın yüklenen uygulamanın hasarlı olduğunu bildirmesini önlemek için imzalanmalı ve noter tasdikli olmalıdır. Gerekli GitHub Actions gizli anahtarları ve doğrulama komutları için [macOS imzalama ve noter tasdik işlemleri](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) bölümüne bakınız.
+macOS yayın çıktıları imzalanmalı ve noter onayından geçmeli, aksi takdirde Gatekeeper yüklenen uygulamanın hasarlı olduğunu bildirebilir. Gerekli GitHub Actions gizli anahtarları ve doğrulama komutları için [macOS imzalama ve noter onayı](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) adresine bakınız.
 
 ## Yıldız Geçmişi
 
@@ -251,6 +231,6 @@ macOS sürüm çıktıları, Gatekeeper'ın yüklenen uygulamanın hasarlı oldu
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

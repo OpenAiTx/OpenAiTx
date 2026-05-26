@@ -60,23 +60,23 @@
 <p align="center">
   A simple file explorer that was created because I wanted to learn the Rust language.
   <br>
-  It is operating system independent and optimized for performance.
+  It is cross-platform and optimized for performance.
 </p>
 
 <br/><br/>
 
-Performance is achieved through ["jwalk"](https://crates.io/crates/jwalk/versions) and ["Tauri"](https://tauri.app/).
+The performance comes from ["jwalk"](https://crates.io/crates/jwalk/versions) and ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver does not use path caching to access files and folders, so the performance relies on Rust, the disk speed, and the power of the CPU.
+CoDriver does not use path caching to access files and folders, so the performance is determined by Rust, the speed of your disk, and the power of your CPU.
 
-⁉️ Please note that this software is still a work in progress and will contain bugs!
+⁉️ Please note that this software is still a work in progress and may contain bugs!
 <br/><br/>
 
 # Links
 - <a href="#basic-features">Basic features</a>
 - <a href="#advanced-features">Advanced features</a>
 - <a href="#dependencies-if-not-working-instantly">Dependencies</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">FTP implementation (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP integration</a>
 - <a href="#%EF%B8%8F-known-issues">Known issues</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">User interface</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ FTP integration (sshfs)
-<details>
-  <summary>Expand to show</summary>
-  <br/>
-  Dependencies (Need to be installed additionally):
-  <br/>
+## 🖥️ FTP / SFTP integration
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Not supported **_yet_** |
-
-  ### Installation:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver offers fully native, out-of-the-box support for FTP and SFTP remote connections. No external dependencies, FUSE layers, or `sshfs` mounts required! Simply connect your remote servers directly in the sidebar panel.
 
 ## 🏴‍☠️ Language Support
 - English
   - Option to choose between languages coming soon ...
-</details>
 
 ## ⚠️ Known issues:
 - Drag and drop out of the window is currently not always working on Linux
-- On Windows you may have to install [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- Permissions on ms-windows are a little bit strange
-  - You may have to run the program as administrator if you encounter problems copying elements or similar issues
-- There could be a problem where you need to install openssl1.1 on Linux systems if the program does not start
+- On Windows you may need to install [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Permissions on MS-Windows are a bit strange
+  - You may need to run the program as administrator if you encounter problems copying elements or similar issues
+- There may be a problem requiring you to install openssl1.1 on Linux systems if the program does not start
 
 ## 📝 Todos:
 - Multiple languages
 - Favorites
-- Access online storage services (Google Drive, etc.)
+- Access online storage services (Google drive, etc.)
 
 ## User interface
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -224,7 +204,7 @@ sudo dnf group install "C Development Tools and Libraries"
 ## How to contribute
 Set up your machine for developing Tauri v1 applications: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-When this is done just do ```git clone https://github.com/RickyDane/CoDriver``` or ```gh repo clone RickyDane/CoDriver``` in a location on your machine.
+Once this is done, simply run ```git clone https://github.com/RickyDane/CoDriver``` or ```gh repo clone RickyDane/CoDriver``` in a location on your machine.
 </br></br>
 You should be able to run ```cargo tauri dev``` in the root directory of this project to start building and running CoDriver.
 </br>
@@ -251,6 +231,6 @@ macOS release artifacts must be signed and notarized to avoid Gatekeeper reporti
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

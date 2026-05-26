@@ -13,14 +13,255 @@
   },
   {
     "Id": 2,
-    "Content": "  <img src=\"https://img.shields.io/badge/Windows-blue\" />\n  <img src=\"https://img.shields.io/badge/ macOS-white\" />\n  <img src=\"https://img.shields.io/badge/Linux-red\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://discord.gg/zSE27rjdzp\">\n      <img src=\"https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href='https://ko-fi.com/rickydane'>\n      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />\n  </a>\n</p>\n\n<br/>\n\n<p align=\"center\">\n  A simple file explorer that was born because I wanted to learn the Rust language.\n  <br>\n  It is operating system independent and trimmed for optimization.\n</p>\n\n<br/><br/>\n\nThe performance is achieved by [\"jwalk\"](https://crates.io/crates/jwalk/versions) and [\"Tauri\"](https://tauri.app/).\n<br/><br/>\nCoDriver does not use path caching to access files and folders, so the performance is achieved by Rust, the speed of the disk and the power of the cpu.\n\n⁉️ Keep in mind that this software is still work in progress and will contain bugs!\n<br/><br/>\n\n# Links\n- <a href=\"#basic-features\">Basic features</a>\n- <a href=\"#advanced-features\">Advanced features</a>\n- <a href=\"#dependencies-if-not-working-instantly\">Dependencies</a>\n- <a href=\"#%EF%B8%8F-ftp-integration-sshfs\">FTP implementation (SSHFS)</a>\n- <a href=\"#%EF%B8%8F-known-issues\">Known issues</a>",
-    "ContentSha": "c1k2EqnDs85W2tdSibybiJRBa6laBXI5SbpiDUEZkQg=",
+    "Content": "  <img src=\"https://img.shields.io/badge/Windows-blue\" />\n  <img src=\"https://img.shields.io/badge/ macOS-white\" />\n  <img src=\"https://img.shields.io/badge/Linux-red\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://discord.gg/zSE27rjdzp\">\n      <img src=\"https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href='https://ko-fi.com/rickydane'>\n      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />\n  </a>\n</p>\n\n<br/>\n\n<p align=\"center\">\n  A simple file explorer that was born because I wanted to learn the Rust language.\n  <br>\n  It is operating system independent and trimmed for optimization.\n</p>\n\n<br/><br/>\n\nThe performance is achieved by [\"jwalk\"](https://crates.io/crates/jwalk/versions) and [\"Tauri\"](https://tauri.app/).\n<br/><br/>\nCoDriver does not use path caching to access files and folders, so the performance is achieved by Rust, the speed of the disk and the power of the cpu.\n\n⁉️ Keep in mind that this software is still work in progress and will contain bugs!\n<br/><br/>\n\n# Links\n- <a href=\"#basic-features\">Basic features</a>\n- <a href=\"#advanced-features\">Advanced features</a>\n- <a href=\"#dependencies-if-not-working-instantly\">Dependencies</a>\n- <a href=\"#%EF%B8%8F-ftp-sftp-integration\">FTP / SFTP integration</a>\n- <a href=\"#%EF%B8%8F-known-issues\">Known issues</a>",
+    "ContentSha": "hQ554X4sCTqvH2djScmmCGSE9xbO+weHs8rHiL4+0mY=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "  <img src=\"https://img.shields.io/badge/Windows-blue\" />\n  <img src=\"https://img.shields.io/badge/ macOS-white\" />\n  <img src=\"https://img.shields.io/badge/Linux-red\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://discord.gg/zSE27rjdzp\">\n      <img src=\"https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href='https://ko-fi.com/rickydane'>\n      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Cómprame un café en ko-fi.com' />\n  </a>\n</p>\n\n<br/>\n\n<p align=\"center\">\n  Un explorador de archivos simple que nació porque quería aprender el lenguaje Rust.\n  <br>\n  Es independiente del sistema operativo y optimizado para el rendimiento.\n</p>\n\n<br/><br/>\n\nEl rendimiento se logra gracias a [\"jwalk\"](https://crates.io/crates/jwalk/versions) y [\"Tauri\"](https://tauri.app/).\n<br/><br/>\nCoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se debe a Rust, la velocidad del disco y la potencia del CPU.\n\n⁉️ Ten en cuenta que este software aún está en desarrollo y puede contener errores.\n<br/><br/>\n\n# Enlaces\n- <a href=\"#basic-features\">Funciones básicas</a>\n- <a href=\"#advanced-features\">Funciones avanzadas</a>\n- <a href=\"#dependencies-if-not-working-instantly\">Dependencias</a>\n- <a href=\"#%EF%B8%8F-ftp-integration-sshfs\">Implementación FTP (SSHFS)</a>\n- <a href=\"#%EF%B8%8F-known-issues\">Problemas conocidos</a>",
+    "Translation": "  <img src=\"https://img.shields.io/badge/Windows-blue\" />\n  <img src=\"https://img.shields.io/badge/ macOS-white\" />\n  <img src=\"https://img.shields.io/badge/Linux-red\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://discord.gg/zSE27rjdzp\">\n      <img src=\"https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href='https://ko-fi.com/rickydane'>\n      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Cómprame un café en ko-fi.com' />\n  </a>\n</p>\n\n<br/>\n\n<p align=\"center\">\n  Un explorador de archivos simple que nació porque quería aprender el lenguaje Rust.\n  <br>\n  Es independiente del sistema operativo y está optimizado para rendimiento.\n</p>\n\n<br/><br/>\n\nEl rendimiento se logra gracias a [\"jwalk\"](https://crates.io/crates/jwalk/versions) y [\"Tauri\"](https://tauri.app/).\n<br/><br/>\nCoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se debe a Rust, la velocidad del disco y la potencia del cpu.\n\n⁉️ ¡Ten en cuenta que este software aún está en desarrollo y puede contener errores!\n<br/><br/>\n\n# Enlaces\n- <a href=\"#basic-features\">Características básicas</a>\n- <a href=\"#advanced-features\">Características avanzadas</a>\n- <a href=\"#dependencies-if-not-working-instantly\">Dependencias</a>\n- <a href=\"#%EF%B8%8F-ftp-sftp-integration\">Integración FTP / SFTP</a>\n- <a href=\"#%EF%B8%8F-known-issues\">Problemas conocidos</a>",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9T458zMPiDEfrOE3syVDqLjWOISy6BJ3w+DnX4SGLiw=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/Windows-blue\" />",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/Windows-blue\" />"
+      },
+      {
+        "row": 2,
+        "rowsha": "Pof5nTCAT7eUviz08QiZHG7xcQI6QAZdLS+p60bi+CE=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/ macOS-white\" />",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/ macOS-white\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "74wBDJkRsG/dqC37zXs+YJYxjStty+79q98sB9WsNpo=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/Linux-red\" />",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/Linux-red\" />"
+      },
+      {
+        "row": 4,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "wV4zvwYkknYOPDltorJ5ooqvSLZmg5GMaxWHOb4YyMQ=",
+        "originContent": "  <a href=\"https://discord.gg/zSE27rjdzp\">",
+        "translatedContent": "  <a href=\"https://discord.gg/zSE27rjdzp\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "516CCBWsexZs/FxjiarkG6aBOWX1JIRk3zQU+IzYLGg=",
+        "originContent": "      <img src=\"https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp\" />",
+        "translatedContent": "      <img src=\"https://dcbadge.limes.pink/api/server/https://discord.gg/zSE27rjdzp\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "NxmgxmVuBwcR0JYxaz3u7QJctxqwbRZIFBr4DE7rTao=",
+        "originContent": "  <a href='https://ko-fi.com/rickydane'>",
+        "translatedContent": "  <a href='https://ko-fi.com/rickydane'>"
+      },
+      {
+        "row": 14,
+        "rowsha": "2U3gfK0UjEi+8q8KA4HxIpGZSb6pUirinZ7SPqoIQDQ=",
+        "originContent": "      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />",
+        "translatedContent": "      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Cómprame un café en ko-fi.com' />"
+      },
+      {
+        "row": 15,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "+nDdfkDsJNdaA463jSIH43SbZfChroGpWO7X+Ao8vfs=",
+        "originContent": "  A simple file explorer that was born because I wanted to learn the Rust language.",
+        "translatedContent": "  Un explorador de archivos simple que nació porque quería aprender el lenguaje Rust."
+      },
+      {
+        "row": 22,
+        "rowsha": "9LaBX1pLj0uNH7jpkfGU+pcX+uzIPdfr4/tPIT1shWQ=",
+        "originContent": "  <br>",
+        "translatedContent": "  <br>"
+      },
+      {
+        "row": 23,
+        "rowsha": "XSUtC95yCw4IfsITzW7YOBxgqxc+17xtHwu26YOIEsE=",
+        "originContent": "  It is operating system independent and trimmed for optimization.",
+        "translatedContent": "  Es independiente del sistema operativo y está optimizado para rendimiento."
+      },
+      {
+        "row": 24,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
+        "originContent": "<br/><br/>",
+        "translatedContent": "<br/><br/>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "HplGZp7mXz6LjSkaP96PmRRaLe8ewHeuqfjaP6HPJqQ=",
+        "originContent": "The performance is achieved by [\"jwalk\"](https://crates.io/crates/jwalk/versions) and [\"Tauri\"](https://tauri.app/).",
+        "translatedContent": "El rendimiento se logra gracias a [\"jwalk\"](https://crates.io/crates/jwalk/versions) y [\"Tauri\"](https://tauri.app/)."
+      },
+      {
+        "row": 29,
+        "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
+        "originContent": "<br/><br/>",
+        "translatedContent": "<br/><br/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qy8M7FDnS0bASEGze1DH6WjVBzZNLIUJ46nedYLIAH0=",
+        "originContent": "CoDriver does not use path caching to access files and folders, so the performance is achieved by Rust, the speed of the disk and the power of the cpu.",
+        "translatedContent": "CoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se debe a Rust, la velocidad del disco y la potencia del cpu."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "BR8kvKGsSmwOBP4xVw0hCaUvRayV2xUX0u6R+HZ0mhc=",
+        "originContent": "⁉️ Keep in mind that this software is still work in progress and will contain bugs!",
+        "translatedContent": "⁉️ ¡Ten en cuenta que este software aún está en desarrollo y puede contener errores!"
+      },
+      {
+        "row": 33,
+        "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
+        "originContent": "<br/><br/>",
+        "translatedContent": "<br/><br/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "rbsUAFwxmEFDUKLhPsz6iUiiAD0xHDiPFqCz3BuuFLo=",
+        "originContent": "# Links",
+        "translatedContent": "# Enlaces"
+      },
+      {
+        "row": 36,
+        "rowsha": "kZMg08ze8Mm0+Vxx49jsak91hnEJO+cE9F4WilxCRrQ=",
+        "originContent": "- <a href=\"#basic-features\">Basic features</a>",
+        "translatedContent": "- <a href=\"#basic-features\">Características básicas</a>"
+      },
+      {
+        "row": 37,
+        "rowsha": "sH11g7230rCCLusZjypcxRCIMfVZtnLs0qjazKVFA10=",
+        "originContent": "- <a href=\"#advanced-features\">Advanced features</a>",
+        "translatedContent": "- <a href=\"#advanced-features\">Características avanzadas</a>"
+      },
+      {
+        "row": 38,
+        "rowsha": "fXKWykHhXCZYmajJTPjiIX0brdx/NdghdkVi5FeJOXo=",
+        "originContent": "- <a href=\"#dependencies-if-not-working-instantly\">Dependencies</a>",
+        "translatedContent": "- <a href=\"#dependencies-if-not-working-instantly\">Dependencias</a>"
+      },
+      {
+        "row": 39,
+        "rowsha": "zuomGou+pHTbLFgm4+GIsDMN09sllVr5IV34RVHVmiI=",
+        "originContent": "- <a href=\"#%EF%B8%8F-ftp-sftp-integration\">FTP / SFTP integration</a>",
+        "translatedContent": "- <a href=\"#%EF%B8%8F-ftp-sftp-integration\">Integración FTP / SFTP</a>"
+      },
+      {
+        "row": 40,
+        "rowsha": "HTFpSQUxnKXjHKxqtpnKidj1Yv2aO/cdBYc0sDkyjAE=",
+        "originContent": "- <a href=\"#%EF%B8%8F-known-issues\">Known issues</a>",
+        "translatedContent": "- <a href=\"#%EF%B8%8F-known-issues\">Problemas conocidos</a>"
+      }
+    ],
     "IsCodeBlock": false
   },
   {
@@ -109,93 +350,45 @@
   },
   {
     "Id": 10,
-    "Content": "</details>\n\n## 🖥️ FTP integration (sshfs)\n<details>\n  <summary>Expand to show</summary>\n  <br/>\n  Dependencies (Need to be installed additionally):\n  <br/>\n\n  | macOS | Linux | Windows |\n  | ----- | ----- | ------- |\n  | fuse-t <br/> fuse-t-sshfs | libfuse | Not supported **_yet_** |\n\n  ### Installation:\n  #### macOS",
-    "ContentSha": "s+Wd7xSyZXb5wkHesdgyVfjSDap4tuaFvOmlH/BG1FY=",
+    "Content": "</details>\n\n## 🖥️ FTP / SFTP integration\n\nCoDriver provides fully native, out-of-the-box support for FTP and SFTP remote connections. No external dependencies, FUSE layers, or `sshfs` mounts are required! Just connect your remote servers directly in the sidebar panel.\n\n## 🏴‍☠️ Language Support\n- English\n  - Option to choose between languages coming soon ...\n\n## ⚠️ Known issues:\n- Drag and drop out of the window is currently not always working on linux\n- On windows you may have to install [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)\n- Permissions on ms-windows are a little bit strange\n  - You may have to run the program as administrator if you encounter problems to copy elements or something similar\n- There could be a problem you need to install openssl1.1 on linux systems, when the program does not start\n\n## 📝 Todos:\n- Multiple languages\n- Favorites\n- Access online storage services (Google drive, etc.)\n\n## User interface\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 16\" src=\"https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 40\" src=\"https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 02\" src=\"https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 07\" src=\"https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 28\" src=\"https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 18\" src=\"https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 39\" src=\"https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2\" />\n\n\n\n## How to contribute\nSetup your machine for developing tauri v1 applications: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)\n</br></br>\nWhen this is done just do ```git clone https://github.com/RickyDane/CoDriver``` or ```gh repo clone RickyDane/CoDriver``` in a location on your machine.\n</br></br>\nYou should be able to run ```cargo tauri dev``` in the root directory of this project to start building and running CoDriver.\n</br>",
+    "ContentSha": "QTD6yZTcJhbJPbf4RICSDBwbxXmGVgrWA8PN/M09xQg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "</details>\n\n## 🖥️ Integración FTP (sshfs)\n<details>\n  <summary>Expandir para mostrar</summary>\n  <br/>\n  Dependencias (deben instalarse adicionalmente):\n  <br/>\n\n  | macOS | Linux | Windows |\n  | ----- | ----- | ------- |\n  | fuse-t <br/> fuse-t-sshfs | libfuse | No soportado **_aún_** |\n\n  ### Instalación:\n  #### macOS",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 11,
-    "Content": "  ```\n  brew tap macos-fuse-t/homebrew-cask\n  brew install fuse-t\n  brew install fuse-t-sshfs\n  ```",
-    "ContentSha": "3pHl9PmWbzv8EWodFj2mVLbPAxLa5DKFYdUKV0B98EM=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "  ```\n  brew tap macos-fuse-t/homebrew-cask\n  brew install fuse-t\n  brew install fuse-t-sshfs\n  ```",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 12,
-    "Content": "  #### Linux",
-    "ContentSha": "hTB0TngqJsW/kD8KGl72Tq/zJGG0cRQAjhRneRVooUE=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "  #### Linux",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 13,
-    "Content": "  ```\n  sudo apt-get install sshfs\n  ```",
-    "ContentSha": "tSr5Ueu1tuHGTGjAyfEPkfF6XJFJYzyXBfhgYiA987o=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "  ```\n  sudo apt-get install sshfs\n  ```",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 14,
-    "Content": "\n## 🏴‍☠️ Language Support\n- English\n  - Option to choose between languages coming soon ...\n</details>\n\n## ⚠️ Known issues:\n- Drag and drop out of the window is currently not always working on linux\n- On windows you may have to install [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)\n- Permissions on ms-windows are a little bit strange\n  - You may have to run the program as administrator if you encounter problems to copy elements or something similar\n- There could be a problem you need to install openssl1.1 on linux systems, when the program does not start\n\n## 📝 Todos:\n- Multiple languages\n- Favorites\n- Access online storage services (Google drive, etc.)\n\n## User interface\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 16\" src=\"https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 40\" src=\"https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 02\" src=\"https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 07\" src=\"https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 28\" src=\"https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 18\" src=\"https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 39\" src=\"https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2\" />\n\n\n\n## How to contribute\nSetup your machine for developing tauri v1 applications: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)\n</br></br>\nWhen this is done just do ```git clone https://github.com/RickyDane/CoDriver``` or ```gh repo clone RickyDane/CoDriver``` in a location on your machine.\n</br></br>\nYou should be able to run ```cargo tauri dev``` in the root directory of this project to start building and running CoDriver.\n</br>\nBe sure to have tauri-cli installed: ```cargo install tauri-cli```\n</br>\n\n## Release signing",
-    "ContentSha": "UWNPnzMZcXkN/7DTetquFiVKJ6fFalTzwOu9SHvkJnQ=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "\n## 🏴‍☠️ Soporte de idiomas\n- Inglés\n  - Opción para elegir entre idiomas próximamente ...\n</details>\n\n## ⚠️ Problemas conocidos:\n- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en linux\n- En windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)\n- Los permisos en ms-windows son un poco extraños\n  - Puede que tengas que ejecutar el programa como administrador si tienes problemas para copiar elementos o algo similar\n- Puede haber un problema que requiera instalar openssl1.1 en sistemas linux, si el programa no inicia\n\n## 📝 Tareas pendientes:\n- Múltiples idiomas\n- Favoritos\n- Acceso a servicios de almacenamiento en línea (Google Drive, etc.)\n\n## Interfaz de usuario\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 16\" src=\"https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 40\" src=\"https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 02\" src=\"https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 07\" src=\"https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 28\" src=\"https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 18\" src=\"https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 39\" src=\"https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2\" />\n\n\n\n## Cómo contribuir\nConfigura tu máquina para desarrollar aplicaciones tauri v1: [Tauri requisitos previos](https://tauri.app/v1/guides/getting-started/prerequisites)\n</br></br>\nCuando esto esté hecho solo haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.\n</br></br>\nDeberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para empezar a construir y ejecutar CoDriver.\n</br>\nAsegúrate de tener tauri-cli instalado: ```cargo install tauri-cli```\n</br>\n\n## Firma de lanzamientos",
+    "Translation": "</details>\n\n## 🖥️ Integración FTP / SFTP\n\nCoDriver ofrece soporte nativo y listo para usar para conexiones remotas FTP y SFTP. ¡No se requieren dependencias externas, capas FUSE ni montajes `sshfs`! Simplemente conecta tus servidores remotos directamente en el panel lateral.\n\n## 🏴‍☠️ Soporte de idiomas\n- Inglés\n  - Pronto se podrá elegir entre varios idiomas ...\n\n## ⚠️ Problemas conocidos:\n- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en Linux\n- En Windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)\n- Los permisos en ms-windows son un poco extraños\n  - Puede que tengas que ejecutar el programa como administrador si tienes problemas para copiar elementos o algo similar\n- Puede haber un problema por el que necesites instalar openssl1.1 en sistemas Linux, si el programa no inicia\n\n## 📝 Tareas pendientes:\n- Múltiples idiomas\n- Favoritos\n- Acceder a servicios de almacenamiento en línea (Google Drive, etc.)\n\n## Interfaz de usuario\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 16\" src=\"https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 40\" src=\"https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 02\" src=\"https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 07\" src=\"https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 28\" src=\"https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 18\" src=\"https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506\" />\n<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 39\" src=\"https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2\" />\n\n\n\n## Cómo contribuir\nPrepara tu máquina para desarrollar aplicaciones tauri v1: [Prerrequisitos de Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)\n</br></br>\nCuando hayas terminado solo haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.\n</br></br>\nDeberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para comenzar a construir y ejecutar CoDriver.\n</br>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "kIt2uU7GSBpvkJu6avQk/mK954Ycc76gkoHGmjiiqKg=",
-        "originContent": "## 🏴‍☠️ Language Support",
-        "translatedContent": "## 🏴‍☠️ Soporte de idiomas"
-      },
-      {
-        "row": 3,
-        "rowsha": "DieufV59LvtNeRWbhv96guOaQqHaeo+VOC9uX/M4Yqo=",
-        "originContent": "- English",
-        "translatedContent": "- Inglés"
-      },
-      {
-        "row": 4,
-        "rowsha": "oCpRwfQPYGMySDH11XY5oXAbWUyNtESAWlgY8hcENlI=",
-        "originContent": "  - Option to choose between languages coming soon ...",
-        "translatedContent": "  - Opción para elegir entre idiomas próximamente ..."
-      },
-      {
-        "row": 5,
         "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
         "originContent": "</details>",
         "translatedContent": "</details>"
       },
       {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "G55W8utRqYRCGTv01CGyzPEblIVV4AMs7qPqV0BUyj4=",
+        "originContent": "## 🖥️ FTP / SFTP integration",
+        "translatedContent": "## 🖥️ Integración FTP / SFTP"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "75VODJ4NtX1VZDeQ/rmGDX3p3zCJqdSMzx6pPKEF0YA=",
+        "originContent": "CoDriver provides fully native, out-of-the-box support for FTP and SFTP remote connections. No external dependencies, FUSE layers, or `sshfs` mounts are required! Just connect your remote servers directly in the sidebar panel.",
+        "translatedContent": "CoDriver ofrece soporte nativo y listo para usar para conexiones remotas FTP y SFTP. ¡No se requieren dependencias externas, capas FUSE ni montajes `sshfs`! Simplemente conecta tus servidores remotos directamente en el panel lateral."
+      },
+      {
         "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
@@ -203,232 +396,232 @@
       },
       {
         "row": 7,
+        "rowsha": "kIt2uU7GSBpvkJu6avQk/mK954Ycc76gkoHGmjiiqKg=",
+        "originContent": "## 🏴‍☠️ Language Support",
+        "translatedContent": "## 🏴‍☠️ Soporte de idiomas"
+      },
+      {
+        "row": 8,
+        "rowsha": "DieufV59LvtNeRWbhv96guOaQqHaeo+VOC9uX/M4Yqo=",
+        "originContent": "- English",
+        "translatedContent": "- Inglés"
+      },
+      {
+        "row": 9,
+        "rowsha": "oCpRwfQPYGMySDH11XY5oXAbWUyNtESAWlgY8hcENlI=",
+        "originContent": "  - Option to choose between languages coming soon ...",
+        "translatedContent": "  - Pronto se podrá elegir entre varios idiomas ..."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
         "rowsha": "dnZWLRBxMQsNlV4HiLt+4k1e5ohKVRrBWxguZJSvdyU=",
         "originContent": "## ⚠️ Known issues:",
         "translatedContent": "## ⚠️ Problemas conocidos:"
       },
       {
-        "row": 8,
+        "row": 12,
         "rowsha": "KxkyiIOQdFcrB3KzAruQW230rFuVvzyd5x4TT4sP+bQ=",
         "originContent": "- Drag and drop out of the window is currently not always working on linux",
-        "translatedContent": "- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en linux"
+        "translatedContent": "- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en Linux"
       },
       {
-        "row": 9,
+        "row": 13,
         "rowsha": "uBkIOeBOV7ZzKWHtrSkb8E+3s6Ru6eakpFTrVvFuti8=",
         "originContent": "- On windows you may have to install [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)",
-        "translatedContent": "- En windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)"
+        "translatedContent": "- En Windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)"
       },
       {
-        "row": 10,
+        "row": 14,
         "rowsha": "hwCKQAmRgIb1W9D/JexB1grrjJmv8lse7IFLgItXUWM=",
         "originContent": "- Permissions on ms-windows are a little bit strange",
         "translatedContent": "- Los permisos en ms-windows son un poco extraños"
       },
       {
-        "row": 11,
+        "row": 15,
         "rowsha": "fx9JvYjs8k1MR7vtfZRKRWbgaY/E6hjRfJvbLG9uVMI=",
         "originContent": "  - You may have to run the program as administrator if you encounter problems to copy elements or something similar",
         "translatedContent": "  - Puede que tengas que ejecutar el programa como administrador si tienes problemas para copiar elementos o algo similar"
       },
       {
-        "row": 12,
+        "row": 16,
         "rowsha": "WzcXMaWnySzmta3gP0sKLu1yJVYvVCy5O72OanDDkbk=",
         "originContent": "- There could be a problem you need to install openssl1.1 on linux systems, when the program does not start",
-        "translatedContent": "- Puede haber un problema que requiera instalar openssl1.1 en sistemas linux, si el programa no inicia"
+        "translatedContent": "- Puede haber un problema por el que necesites instalar openssl1.1 en sistemas Linux, si el programa no inicia"
       },
       {
-        "row": 13,
+        "row": 17,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 14,
+        "row": 18,
         "rowsha": "vcDhzNgpmImYtxVxqQtax4zHxKx2+QfI9ZBlGSQbRAI=",
         "originContent": "## 📝 Todos:",
         "translatedContent": "## 📝 Tareas pendientes:"
       },
       {
-        "row": 15,
+        "row": 19,
         "rowsha": "p8q/ju3dWCyGedWkhjL/4NVP5bDma+CBKX8a8GxOnNo=",
         "originContent": "- Multiple languages",
         "translatedContent": "- Múltiples idiomas"
       },
       {
-        "row": 16,
+        "row": 20,
         "rowsha": "xn1zY+v2o5fgBMI1x5aszavGCehK6w8Y3M7l82GTnPw=",
         "originContent": "- Favorites",
         "translatedContent": "- Favoritos"
       },
       {
-        "row": 17,
+        "row": 21,
         "rowsha": "9oNrPoHy1C9Nl1GsXECeG7qNsCLg3lN13V9Yqocu5M8=",
         "originContent": "- Access online storage services (Google drive, etc.)",
-        "translatedContent": "- Acceso a servicios de almacenamiento en línea (Google Drive, etc.)"
+        "translatedContent": "- Acceder a servicios de almacenamiento en línea (Google Drive, etc.)"
       },
       {
-        "row": 18,
+        "row": 22,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 19,
+        "row": 23,
         "rowsha": "Ydxs/zdYkOqD5jBtJFTBA9yqyoA2r+Xb153+JWYBHrE=",
         "originContent": "## User interface",
         "translatedContent": "## Interfaz de usuario"
       },
       {
-        "row": 20,
+        "row": 24,
         "rowsha": "ASE9oZzlsrYArJsY1QIMzlfqddZITweYSZPaiInYuJY=",
         "originContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 16\" src=\"https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a\" />",
         "translatedContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 16\" src=\"https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a\" />"
       },
       {
-        "row": 21,
+        "row": 25,
         "rowsha": "+HpwzgY3CDPKiVkrNQUeAX5rYnpO8QfwNcUvMheI2SY=",
         "originContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 40\" src=\"https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1\" />",
         "translatedContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 19 40\" src=\"https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1\" />"
       },
       {
-        "row": 22,
+        "row": 26,
         "rowsha": "bO/avuJLgLeD/PcvmuSe8wRa2i3mr/b12RPvb1mg2uA=",
         "originContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 02\" src=\"https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b\" />",
         "translatedContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 02\" src=\"https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b\" />"
       },
       {
-        "row": 23,
+        "row": 27,
         "rowsha": "9HOEwULtydaACDMoDrYImP69Q7c8MQd0JnbB9BRXO90=",
         "originContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 07\" src=\"https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44\" />",
         "translatedContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 07\" src=\"https://github.com/user-attachments/assets/4ac9930d-7b50-4910-afb3-d47c562c3b44\" />"
       },
       {
-        "row": 24,
+        "row": 28,
         "rowsha": "L4XCjty8Wy8w8pc1NUuGT3hWr+jG/rJuj7omygSbr/c=",
         "originContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 28\" src=\"https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368\" />",
         "translatedContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 20 28\" src=\"https://github.com/user-attachments/assets/7dcfb0fa-c106-401a-b917-06e766021368\" />"
       },
       {
-        "row": 25,
+        "row": 29,
         "rowsha": "TLcGbIoEDg5ltjOJiW3Yw5UBAxN1RsgLFwlLanl00mk=",
         "originContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 18\" src=\"https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506\" />",
         "translatedContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 18\" src=\"https://github.com/user-attachments/assets/4bac06d1-22df-47d4-95c9-1ccb50083506\" />"
       },
       {
-        "row": 26,
+        "row": 30,
         "rowsha": "r4rhqYoiLhlArAvj5kv7SCa7gWzlPZxyT6Qite/n860=",
         "originContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 39\" src=\"https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2\" />",
         "translatedContent": "<img width=\"400\" height=\"auto\" alt=\"Screenshot 2026-05-24 at 12 23 39\" src=\"https://github.com/user-attachments/assets/fdca23b0-9ed5-495b-9fec-18ecbfd4d5f2\" />"
       },
       {
-        "row": 27,
+        "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 28,
+        "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 29,
+        "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 30,
+        "row": 34,
         "rowsha": "tLLoLvvRKdviGSzKCa67+f2/u0Tnmi0iH4UDhyihrXc=",
         "originContent": "## How to contribute",
         "translatedContent": "## Cómo contribuir"
       },
       {
-        "row": 31,
+        "row": 35,
         "rowsha": "3eiI4JSh6a5iRQ68O9mDmDdXyUqyMKwHpUo/FFjC8m0=",
         "originContent": "Setup your machine for developing tauri v1 applications: [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)",
-        "translatedContent": "Configura tu máquina para desarrollar aplicaciones tauri v1: [Tauri requisitos previos](https://tauri.app/v1/guides/getting-started/prerequisites)"
-      },
-      {
-        "row": 32,
-        "rowsha": "qa8hwKJAfVCCr1Ubl0hebJSvMxxeZmgguzhgWZPNtYM=",
-        "originContent": "</br></br>",
-        "translatedContent": "</br></br>"
-      },
-      {
-        "row": 33,
-        "rowsha": "o9ZpogYO9CbX6qBgSQ/nkvognmsHDOPW/TjfW8uYloU=",
-        "originContent": "When this is done just do ```git clone https://github.com/RickyDane/CoDriver``` or ```gh repo clone RickyDane/CoDriver``` in a location on your machine.",
-        "translatedContent": "Cuando esto esté hecho solo haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina."
-      },
-      {
-        "row": 34,
-        "rowsha": "qa8hwKJAfVCCr1Ubl0hebJSvMxxeZmgguzhgWZPNtYM=",
-        "originContent": "</br></br>",
-        "translatedContent": "</br></br>"
-      },
-      {
-        "row": 35,
-        "rowsha": "qsgMb8yXuMkDrC/0L/NH6qJcfcdht0AY0bfcm4QWkVY=",
-        "originContent": "You should be able to run ```cargo tauri dev``` in the root directory of this project to start building and running CoDriver.",
-        "translatedContent": "Deberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para empezar a construir y ejecutar CoDriver."
+        "translatedContent": "Prepara tu máquina para desarrollar aplicaciones tauri v1: [Prerrequisitos de Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)"
       },
       {
         "row": 36,
-        "rowsha": "7s9q1NJ/yyokhTktGw5lSs/FO1fQ83HZfNVIsHV8n9c=",
-        "originContent": "</br>",
-        "translatedContent": "</br>"
+        "rowsha": "qa8hwKJAfVCCr1Ubl0hebJSvMxxeZmgguzhgWZPNtYM=",
+        "originContent": "</br></br>",
+        "translatedContent": "</br></br>"
       },
       {
         "row": 37,
-        "rowsha": "QZn89KM2rdFDkEEm/SZkHHJAqUpNfKIAHc8qqwByndg=",
-        "originContent": "Be sure to have tauri-cli installed: ```cargo install tauri-cli```",
-        "translatedContent": "Asegúrate de tener tauri-cli instalado: ```cargo install tauri-cli```"
+        "rowsha": "o9ZpogYO9CbX6qBgSQ/nkvognmsHDOPW/TjfW8uYloU=",
+        "originContent": "When this is done just do ```git clone https://github.com/RickyDane/CoDriver``` or ```gh repo clone RickyDane/CoDriver``` in a location on your machine.",
+        "translatedContent": "Cuando hayas terminado solo haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina."
       },
       {
         "row": 38,
-        "rowsha": "7s9q1NJ/yyokhTktGw5lSs/FO1fQ83HZfNVIsHV8n9c=",
-        "originContent": "</br>",
-        "translatedContent": "</br>"
+        "rowsha": "qa8hwKJAfVCCr1Ubl0hebJSvMxxeZmgguzhgWZPNtYM=",
+        "originContent": "</br></br>",
+        "translatedContent": "</br></br>"
       },
       {
         "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "qsgMb8yXuMkDrC/0L/NH6qJcfcdht0AY0bfcm4QWkVY=",
+        "originContent": "You should be able to run ```cargo tauri dev``` in the root directory of this project to start building and running CoDriver.",
+        "translatedContent": "Deberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para comenzar a construir y ejecutar CoDriver."
       },
       {
         "row": 40,
-        "rowsha": "8NUEkEWfAtBYKAJAhxaxkR7gDhH02JjAVgQQpzDuerk=",
-        "originContent": "## Release signing",
-        "translatedContent": "## Firma de lanzamientos"
+        "rowsha": "7s9q1NJ/yyokhTktGw5lSs/FO1fQ83HZfNVIsHV8n9c=",
+        "originContent": "</br>",
+        "translatedContent": "</br>"
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 15,
-    "Content": "\nmacOS release artifacts must be signed and notarized to avoid Gatekeeper reporting that the installed app is damaged. See [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) for required GitHub Actions secrets and verification commands.\n\n## Star History\n\n<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n </picture>\n</a>\n\n#### Other third party software\n- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)\n",
-    "ContentSha": "/INKtpuS3KjSqXAq5W5uvm9RcVE0NnQZ2UtWEkyShHQ=",
+    "Id": 11,
+    "Content": "Be sure to have tauri-cli installed: ```cargo install tauri-cli```\n</br>\n\n## Release signing\n\nmacOS release artifacts must be signed and notarized to avoid Gatekeeper reporting that the installed app is damaged. See [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) for required GitHub Actions secrets and verification commands.\n\n## Star History\n\n<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n </picture>\n</a>\n\n#### Other third party software\n- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)\n",
+    "ContentSha": "Jdk3pRC3cChr4Ekku22QOob4zcA9XEYk6gCMKWQCNCs=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\nLos artefactos de lanzamiento de macOS deben estar firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulte [firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para conocer los secretos de GitHub Actions requeridos y los comandos de verificación.\n\n## Historial de estrellas\n\n<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n   <img alt=\"Gráfico de historial de estrellas\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n </picture>\n</a>\n\n#### Otro software de terceros\n- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)\n",
+    "Translation": "Asegúrate de tener tauri-cli instalado: ```cargo install tauri-cli```\n</br>\n\n## Firma de la versión\n\nLos artefactos de lanzamiento de macOS deben estar firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulta [firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para los secretos de GitHub Actions requeridos y los comandos de verificación.\n\n## Historial de estrellas\n\n<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n   <img alt=\"Gráfico de historial de estrellas\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />\n </picture>\n</a>\n\n#### Otro software de terceros\n- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "QZn89KM2rdFDkEEm/SZkHHJAqUpNfKIAHc8qqwByndg=",
+        "originContent": "Be sure to have tauri-cli installed: ```cargo install tauri-cli```",
+        "translatedContent": "Asegúrate de tener tauri-cli instalado: ```cargo install tauri-cli```"
       },
       {
         "row": 2,
-        "rowsha": "kqkBK/bw1jOueVrwLVP3NF83cMvz8BLnR2CmmMHtY5E=",
-        "originContent": "macOS release artifacts must be signed and notarized to avoid Gatekeeper reporting that the installed app is damaged. See [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) for required GitHub Actions secrets and verification commands.",
-        "translatedContent": "Los artefactos de lanzamiento de macOS deben estar firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulte [firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para conocer los secretos de GitHub Actions requeridos y los comandos de verificación."
+        "rowsha": "7s9q1NJ/yyokhTktGw5lSs/FO1fQ83HZfNVIsHV8n9c=",
+        "originContent": "</br>",
+        "translatedContent": "</br>"
       },
       {
         "row": 3,
@@ -438,9 +631,9 @@
       },
       {
         "row": 4,
-        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
-        "originContent": "## Star History",
-        "translatedContent": "## Historial de estrellas"
+        "rowsha": "8NUEkEWfAtBYKAJAhxaxkR7gDhH02JjAVgQQpzDuerk=",
+        "originContent": "## Release signing",
+        "translatedContent": "## Firma de la versión"
       },
       {
         "row": 5,
@@ -450,66 +643,90 @@
       },
       {
         "row": 6,
-        "rowsha": "owxlSvmiI+Rczh1z8gdb5Kh4/HYZZp2/w1h3dGy5/WQ=",
-        "originContent": "<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">",
-        "translatedContent": "<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">"
+        "rowsha": "kqkBK/bw1jOueVrwLVP3NF83cMvz8BLnR2CmmMHtY5E=",
+        "originContent": "macOS release artifacts must be signed and notarized to avoid Gatekeeper reporting that the installed app is damaged. See [macOS signing and notarization](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) for required GitHub Actions secrets and verification commands.",
+        "translatedContent": "Los artefactos de lanzamiento de macOS deben estar firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulta [firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para los secretos de GitHub Actions requeridos y los comandos de verificación."
       },
       {
         "row": 7,
-        "rowsha": "TFdaG2cyM78Bclocz/GopuysT4bztU94JJRzBZs2Vn0=",
-        "originContent": " <picture>",
-        "translatedContent": " <picture>"
-      },
-      {
-        "row": 8,
-        "rowsha": "BUmH+wuxrUK9w41EV5JBHJpuLLhGrwb80NXhXGFqYyU=",
-        "originContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />",
-        "translatedContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />"
-      },
-      {
-        "row": 9,
-        "rowsha": "ivYZ6g5Ifom8ztfSlTtaTky3eSSK1RFgwppZhkDcOpc=",
-        "originContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />",
-        "translatedContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />"
-      },
-      {
-        "row": 10,
-        "rowsha": "YgXymALKYlD9fxjHsELOKUY91+ftabXseGqrTlJvT38=",
-        "originContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />",
-        "translatedContent": "   <img alt=\"Gráfico de historial de estrellas\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />"
-      },
-      {
-        "row": 11,
-        "rowsha": "hmjVHkUZVe2T5TOA6gV3253XP4pU7SxFtUBDpd9akPA=",
-        "originContent": " </picture>",
-        "translatedContent": " </picture>"
-      },
-      {
-        "row": 12,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
-      },
-      {
-        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 8,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Historial de estrellas"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "owxlSvmiI+Rczh1z8gdb5Kh4/HYZZp2/w1h3dGy5/WQ=",
+        "originContent": "<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">",
+        "translatedContent": "<a href=\"https://star-history.com/#rickydane/CoDriver&Date\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "TFdaG2cyM78Bclocz/GopuysT4bztU94JJRzBZs2Vn0=",
+        "originContent": " <picture>",
+        "translatedContent": " <picture>"
+      },
+      {
+        "row": 12,
+        "rowsha": "BUmH+wuxrUK9w41EV5JBHJpuLLhGrwb80NXhXGFqYyU=",
+        "originContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date&theme=dark\" />"
+      },
+      {
+        "row": 13,
+        "rowsha": "ivYZ6g5Ifom8ztfSlTtaTky3eSSK1RFgwppZhkDcOpc=",
+        "originContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />"
+      },
+      {
         "row": 14,
+        "rowsha": "YgXymALKYlD9fxjHsELOKUY91+ftabXseGqrTlJvT38=",
+        "originContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />",
+        "translatedContent": "   <img alt=\"Gráfico de historial de estrellas\" src=\"https://api.star-history.com/svg?repos=rickydane/CoDriver&type=Date\" />"
+      },
+      {
+        "row": 15,
+        "rowsha": "hmjVHkUZVe2T5TOA6gV3253XP4pU7SxFtUBDpd9akPA=",
+        "originContent": " </picture>",
+        "translatedContent": " </picture>"
+      },
+      {
+        "row": 16,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
         "rowsha": "5JGuKZXQZNO+f8NUt+a8P0ejhDVt5G6QSmqE4SQl+08=",
         "originContent": "#### Other third party software",
         "translatedContent": "#### Otro software de terceros"
       },
       {
-        "row": 15,
+        "row": 19,
         "rowsha": "i6AW2jjJtvH9wwT7TzxtE4wUpzXfM6Wx1S3ASwl4BWw=",
         "originContent": "- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)",
         "translatedContent": "- DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)"
       },
       {
-        "row": 16,
+        "row": 20,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

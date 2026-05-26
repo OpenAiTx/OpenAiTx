@@ -65,9 +65,9 @@
 
 <br/><br/>
 
-Performa dicapai melalui ["jwalk"](https://crates.io/crates/jwalk/versions) dan ["Tauri"](https://tauri.app/).
+Kinerja dicapai dengan ["jwalk"](https://crates.io/crates/jwalk/versions) dan ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver tidak menggunakan cache path untuk mengakses file dan folder, sehingga performa didapat dari Rust, kecepatan disk, dan kekuatan cpu.
+CoDriver tidak menggunakan cache jalur untuk mengakses file dan folder, sehingga kinerja didapatkan dari Rust, kecepatan disk, dan kekuatan cpu.
 
 ⁉️ Perlu diingat bahwa perangkat lunak ini masih dalam tahap pengembangan dan akan mengandung bug!
 <br/><br/>
@@ -76,7 +76,7 @@ CoDriver tidak menggunakan cache path untuk mengakses file dan folder, sehingga 
 - <a href="#basic-features">Fitur dasar</a>
 - <a href="#advanced-features">Fitur lanjutan</a>
 - <a href="#dependencies-if-not-working-instantly">Dependensi</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">Implementasi FTP (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">Integrasi FTP / SFTP</a>
 - <a href="#%EF%B8%8F-known-issues">Masalah yang diketahui</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">Antarmuka pengguna</a>
@@ -170,47 +170,27 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ Integrasi FTP (sshfs)
-<details>
-  <summary>Klik untuk menampilkan</summary>
-  <br/>
-  Ketergantungan (Perlu diinstal tambahan):
-  <br/>
+## 🖥️ Integrasi FTP / SFTP
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | Belum didukung **_sekarang_** |
-
-  ### Instalasi:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver menyediakan dukungan penuh secara native, langsung, untuk koneksi jarak jauh FTP dan SFTP. Tidak diperlukan dependensi eksternal, lapisan FUSE, atau mount `sshfs`! Cukup hubungkan server jarak jauh Anda langsung di panel sidebar.
 
 ## 🏴‍☠️ Dukungan Bahasa
 - Inggris
-  - Opsi untuk memilih antara bahasa akan segera hadir ...
-</details>
+  - Opsi untuk memilih antar bahasa akan segera hadir ...
 
 ## ⚠️ Masalah yang Diketahui:
-- Drag and drop keluar dari jendela saat ini tidak selalu berfungsi di linux
+- Drag and drop keluar jendela saat ini tidak selalu berfungsi di linux
 - Di windows Anda mungkin perlu menginstal [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- Izin di ms-windows agak aneh
-  - Anda mungkin harus menjalankan program sebagai administrator jika mengalami masalah saat menyalin elemen atau hal serupa
-- Mungkin ada masalah yang mengharuskan Anda menginstal openssl1.1 di sistem linux, jika program tidak dapat berjalan
+- Izin pada ms-windows sedikit aneh
+  - Anda mungkin harus menjalankan program sebagai administrator jika mengalami masalah menyalin elemen atau hal serupa
+- Mungkin ada masalah Anda perlu menginstal openssl1.1 pada sistem linux, ketika program tidak berjalan
 
-## 📝 Daftar tugas:
-- Banyak bahasa
+## 📝 Daftar Tugas:
+- Multi bahasa
 - Favorit
 - Akses layanan penyimpanan online (Google drive, dll.)
 
-## Antarmuka pengguna
+## Antarmuka Pengguna
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 40" src="https://github.com/user-attachments/assets/5f772d02-6bc2-470c-b999-6982043496c1" />
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 20 02" src="https://github.com/user-attachments/assets/7f2ec5ea-a669-4630-a1f8-413c7ced3f3b" />
@@ -224,15 +204,16 @@ sudo dnf group install "C Development Tools and Libraries"
 ## Cara berkontribusi
 Siapkan mesin Anda untuk pengembangan aplikasi tauri v1: [Prasyarat Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Setelah selesai, cukup lakukan ```git clone https://github.com/RickyDane/CoDriver``` atau ```gh repo clone RickyDane/CoDriver``` di lokasi pada mesin Anda.
+Setelah selesai cukup lakukan ```git clone https://github.com/RickyDane/CoDriver``` atau ```gh repo clone RickyDane/CoDriver``` di lokasi pada mesin Anda.
 </br></br>
-Anda harus dapat menjalankan ```cargo tauri dev``` di direktori root proyek ini untuk mulai membangun dan menjalankan CoDriver.
+Anda harus bisa menjalankan ```cargo tauri dev``` di direktori root proyek ini untuk mulai membangun dan menjalankan CoDriver.
 </br>
-Pastikan Anda telah menginstal tauri-cli: ```cargo install tauri-cli```
+Pastikan tauri-cli sudah terpasang: ```cargo install tauri-cli```
 </br>
 
 ## Penandatanganan rilis
-Artefak rilis macOS harus ditandatangani dan dinotariskan untuk menghindari Gatekeeper melaporkan bahwa aplikasi yang diinstal rusak. Lihat [Penandatanganan dan Notarisasi macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) untuk rahasia GitHub Actions yang diperlukan dan perintah verifikasi.
+
+Artefak rilis macOS harus ditandatangani dan dinotarisasi agar Gatekeeper tidak melaporkan bahwa aplikasi yang diinstal rusak. Lihat [Penandatanganan dan notarization macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) untuk rahasia GitHub Actions yang diperlukan dan perintah verifikasi.
 
 ## Riwayat Bintang
 
@@ -248,9 +229,8 @@ Artefak rilis macOS harus ditandatangani dan dinotariskan untuk menghindari Gate
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---

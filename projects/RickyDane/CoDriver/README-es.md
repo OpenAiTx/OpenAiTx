@@ -60,23 +60,23 @@
 <p align="center">
   Un explorador de archivos simple que nació porque quería aprender el lenguaje Rust.
   <br>
-  Es independiente del sistema operativo y optimizado para el rendimiento.
+  Es independiente del sistema operativo y está optimizado para rendimiento.
 </p>
 
 <br/><br/>
 
 El rendimiento se logra gracias a ["jwalk"](https://crates.io/crates/jwalk/versions) y ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se debe a Rust, la velocidad del disco y la potencia del CPU.
+CoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se debe a Rust, la velocidad del disco y la potencia del cpu.
 
-⁉️ Ten en cuenta que este software aún está en desarrollo y puede contener errores.
+⁉️ ¡Ten en cuenta que este software aún está en desarrollo y puede contener errores!
 <br/><br/>
 
 # Enlaces
-- <a href="#basic-features">Funciones básicas</a>
-- <a href="#advanced-features">Funciones avanzadas</a>
+- <a href="#basic-features">Características básicas</a>
+- <a href="#advanced-features">Características avanzadas</a>
 - <a href="#dependencies-if-not-working-instantly">Dependencias</a>
-- <a href="#%EF%B8%8F-ftp-integration-sshfs">Implementación FTP (SSHFS)</a>
+- <a href="#%EF%B8%8F-ftp-sftp-integration">Integración FTP / SFTP</a>
 - <a href="#%EF%B8%8F-known-issues">Problemas conocidos</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">Interfaz de usuario</a>
@@ -170,45 +170,25 @@ sudo dnf group install "C Development Tools and Libraries"
 ```
 </details>
 
-## 🖥️ Integración FTP (sshfs)
-<details>
-  <summary>Expandir para mostrar</summary>
-  <br/>
-  Dependencias (deben instalarse adicionalmente):
-  <br/>
+## 🖥️ Integración FTP / SFTP
 
-  | macOS | Linux | Windows |
-  | ----- | ----- | ------- |
-  | fuse-t <br/> fuse-t-sshfs | libfuse | No soportado **_aún_** |
-
-  ### Instalación:
-  #### macOS
-  ```
-  brew tap macos-fuse-t/homebrew-cask
-  brew install fuse-t
-  brew install fuse-t-sshfs
-  ```
-  #### Linux
-  ```
-  sudo apt-get install sshfs
-  ```
+CoDriver ofrece soporte nativo y listo para usar para conexiones remotas FTP y SFTP. ¡No se requieren dependencias externas, capas FUSE ni montajes `sshfs`! Simplemente conecta tus servidores remotos directamente en el panel lateral.
 
 ## 🏴‍☠️ Soporte de idiomas
 - Inglés
-  - Opción para elegir entre idiomas próximamente ...
-</details>
+  - Pronto se podrá elegir entre varios idiomas ...
 
 ## ⚠️ Problemas conocidos:
-- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en linux
-- En windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- Arrastrar y soltar fuera de la ventana actualmente no siempre funciona en Linux
+- En Windows puede que tengas que instalar [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Los permisos en ms-windows son un poco extraños
   - Puede que tengas que ejecutar el programa como administrador si tienes problemas para copiar elementos o algo similar
-- Puede haber un problema que requiera instalar openssl1.1 en sistemas linux, si el programa no inicia
+- Puede haber un problema por el que necesites instalar openssl1.1 en sistemas Linux, si el programa no inicia
 
 ## 📝 Tareas pendientes:
 - Múltiples idiomas
 - Favoritos
-- Acceso a servicios de almacenamiento en línea (Google Drive, etc.)
+- Acceder a servicios de almacenamiento en línea (Google Drive, etc.)
 
 ## Interfaz de usuario
 <img width="400" height="auto" alt="Screenshot 2026-05-24 at 12 19 16" src="https://github.com/user-attachments/assets/fc408504-3000-4325-bc2a-638cdd01ea0a" />
@@ -222,18 +202,18 @@ sudo dnf group install "C Development Tools and Libraries"
 
 
 ## Cómo contribuir
-Configura tu máquina para desarrollar aplicaciones tauri v1: [Tauri requisitos previos](https://tauri.app/v1/guides/getting-started/prerequisites)
+Prepara tu máquina para desarrollar aplicaciones tauri v1: [Prerrequisitos de Tauri](https://tauri.app/v1/guides/getting-started/prerequisites)
 </br></br>
-Cuando esto esté hecho solo haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.
+Cuando hayas terminado solo haz ```git clone https://github.com/RickyDane/CoDriver``` o ```gh repo clone RickyDane/CoDriver``` en una ubicación de tu máquina.
 </br></br>
-Deberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para empezar a construir y ejecutar CoDriver.
+Deberías poder ejecutar ```cargo tauri dev``` en el directorio raíz de este proyecto para comenzar a construir y ejecutar CoDriver.
 </br>
 Asegúrate de tener tauri-cli instalado: ```cargo install tauri-cli```
 </br>
 
-## Firma de lanzamientos
+## Firma de la versión
 
-Los artefactos de lanzamiento de macOS deben estar firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulte [firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para conocer los secretos de GitHub Actions requeridos y los comandos de verificación.
+Los artefactos de lanzamiento de macOS deben estar firmados y notarizados para evitar que Gatekeeper informe que la aplicación instalada está dañada. Consulta [firma y notarización en macOS](https://raw.githubusercontent.com/RickyDane/CoDriver/master/docs/macos-signing-notarization.md) para los secretos de GitHub Actions requeridos y los comandos de verificación.
 
 ## Historial de estrellas
 
@@ -251,6 +231,6 @@ Los artefactos de lanzamiento de macOS deben estar firmados y notarizados para e
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
 
 ---
