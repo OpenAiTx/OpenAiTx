@@ -1,36 +1,68 @@
-# Moins c'est Suffisant : Synthétiser des Données Diverses dans l'Espace des Caractéristiques des LLMs
 
-Ceci est l'implémentation officielle de l'article : `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`.
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Less is Enough : Synthétiser des données diverses dans l'espace des caractéristiques des LLM
+
+Voici la mise en œuvre officielle de l'article : `Less is Enough : Synthétiser des données diverses dans l'espace des caractéristiques des LLM`.
 
 ---
 
-## Idée Principale
+## Idée principale
 
-✨ **Travailler plus intelligemment, pas plus durement.**
+✨ **Travaillez plus intelligemment, pas plus durement.**
 
-Dans la phase post-entraînement des LLMs, au lieu d'ajouter aveuglément une grande quantité de textes divers en surface, il est plus efficace d'identifier précisément et de synthétiser ces **caractéristiques clés réellement manquantes**. Avec seulement un petit nombre d'échantillons synthétiques ciblés, nous pouvons significativement combler les lacunes en **Couverture d'Activation des Caractéristiques (FAC)**, entraînant des améliorations claires de performance sur les tâches en aval.
+Dans la phase post-entraînement des LLMs, au lieu d’ajouter aveuglément de grandes quantités de textes diversifiés en surface, il est plus efficace d’identifier et de synthétiser précisément les **véritables caractéristiques clés manquantes**. Avec seulement un petit nombre d’échantillons synthétiques ciblés, nous pouvons combler de manière significative les lacunes dans la **Couverture d’Activation des Caractéristiques (FAC)**, conduisant à des améliorations nettes des performances sur les tâches aval.
 
-### Pourquoi cette idée est-elle simple mais puissante ?
+### Pourquoi cette idée est-elle à la fois simple et puissante ?
 
-La synthèse traditionnelle de données se concentre sur la quantité et la diversité de surface (vocabulaire, structures de phrases, distribution thématique), mais ce ne sont souvent que des **indicateurs faibles**. Ce qui détermine réellement la performance d'un modèle en aval est **la couverture des caractéristiques clés requises par la tâche cible**.
+La synthèse de données traditionnelle privilégie la quantité et la diversité de surface (vocabulaire, structures de phrases, distribution des sujets), mais ce ne sont souvent que de **faibles indicateurs**. Ce qui détermine réellement la performance aval du modèle est **la couverture des caractéristiques clés requises par la tâche cible**.
 
 Notre travail révèle :
 
-- De nombreux textes qui "semblent très différents" activent en réalité des caractéristiques fortement chevauchantes ;
-- **FAC** prédit la performance en aval bien mieux que les métriques classiques de diversité, incluant **Distinct-1/2** et **l'Entropie des n-grammes** au niveau des mots, **Distinct-2 POS-tag** au niveau syntaxique, et **Pair CosDist** et **Entropie Sémantique** au niveau de l'embedding.  
-- Pour le suivi d'instructions, la **Synthèse FAC** atteint une performance comparable au précédent SOTA **MAGPIE**, tout en nécessitant **150× moins de données** que MAGPIE.
+- De nombreux textes qui « semblent très différents » activent en réalité des caractéristiques fortement superposées ;
+- **FAC** prédit la performance aval bien mieux que les métriques de diversité standard, incluant **Distinct-1/2** et **n-gram Entropy** au niveau des mots, **POS-tag Distinct-2** au niveau syntaxique, ainsi que **Pair CosDist** et **Semantic Entropy** au niveau des embeddings.  
+- Pour le suivi d’instructions, la **synthèse FAC** obtient des performances comparables à l’état de l’art précédent **MAGPIE**, tout en nécessitant **150× moins de données** que MAGPIE.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png" width="400" />
 </p>
 
 <p align="center">
-  <b>Figure 1 :</b> Le Front d'Efficacité des Jeux de Données de Suivi d'Instructions. Notre méthode proposée atteint un taux de victoire sur AlpacaEval 2.0 comparable à MAGPIE tout en utilisant seulement 2K échantillons synthétiques (contre 300K pour MAGPIE).
+  <b>Figure 1 :</b> La frontière d’efficacité des ensembles de données de suivi d’instructions. Notre méthode proposée atteint un taux de réussite sur AlpacaEval 2.0 comparable à MAGPIE tout en utilisant seulement 2K échantillons synthétiques (contre 300K pour MAGPIE).
 </p>
 
 ---
 
-## Pour Commencer
+## Pour commencer
 
 ### Installation
 
@@ -149,6 +181,6 @@ Si vous trouvez ce travail utile pour votre recherche, veuillez citer notre arti
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-27
 
 ---

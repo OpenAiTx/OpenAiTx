@@ -1,0 +1,1264 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs\n\nThis is the official implementation of the paper: `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`.\n\n---\n\n## Core Insight\n",
+    "ContentSha": "9wGYeU+JZp7sJAqAXK7sxine4bJ+/x2dy4r0Uj6OHrE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 زبان</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en\">انگلیسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja\">ژاپنی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko\">کره‌ای</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi\">هندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th\">تایلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr\">فرانسوی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de\">آلمانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es\">اسپانیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it\">ایتالیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru\">روسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt\">پرتغالی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl\">هلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl\">لهستانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar\">العربیة</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr\">ترکی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi\">ویتنامی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id\">اندونزیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# کمتر کافیست: سنتز داده‌های متنوع در فضای ویژگی مدل‌های زبانی بزرگ\n\nاین پیاده‌سازی رسمی مقاله است: `کمتر کافیست: سنتز داده‌های متنوع در فضای ویژگی مدل‌های زبانی بزرگ`.\n\n---\n\n## بینش اصلی\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 زبان</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en\">انگلیسی</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "f7hY8DoNKd51XdQJ3Pgd+hV3aYoQ1fn8h1ljr3pJ1P8=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "zJkltOdMWcxDre6hCdFNWZYCP7oHrj+9jgak9stYx2k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "OYa6YUv29TkUogR0HgeC9Hw/QiO+IkC9zxsJWegL0eo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja\">ژاپنی</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "MpA2faFmxV06HHDBbyDVSgNPJW+c0mGrxc/OkR3nIs0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko\">کره‌ای</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "UfCv6qAS/NGmcWwefezW0o9t8M0s2xSFQ8RzL7qI0rE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi\">هندی</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "D9xWc2nyP4FIlMrkNliuMgSayC/iuyiPrCRFIq6vT/E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th\">تایلندی</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "9NJI5cagWy8YoKlxbQCeaZgUnBiNLBCQGnVNlWhhG6c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr\">فرانسوی</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "7MaC8b5Bqn6x/YofibZseclEGAGNVhmWw2+QC56s2zk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de\">آلمانی</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "QT5P5eux5lofw02gnpI+WweoeZkRQysx2Q90YgDeMfI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es\">اسپانیایی</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "c+G1Lz+4T419nNx2AhMLx0fJsm94nteJwBAxxlKDrnQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it\">ایتالیایی</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "/V/LokzqUlJbZUqCxO9BHAgKkVghZVIddjgPAAZP7RI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru\">روسی</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "v40kghMtIwyZHpm5InsQoV2O2Uk20Z2LXDTUAJDMVKQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt\">پرتغالی</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "2MhRFUSNomnyjeCmWngSh0U+Ccf5rBrKB5t7LIuzsgE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl\">هلندی</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "rgMY6OL1RSUvsvV8kix1riw7LuVrSEizzmEfu0lQSZw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl\">لهستانی</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "ImJhjcyHHo3MBM/krA7SGatB7YKb1r8hZIhERf8U8EQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar\">العربیة</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "SE8lRdWWaznQ4uH05wFbAOeTnmqCIpfUakFOq2l+sYY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "eIgvL1R2nqeG6HQMPMafFVUmmNM7CVMDLfn/LmeOPp8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr\">ترکی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "O/ZNbyi3SPRhaqvW3lvSc050/ew1+zMvahKoFpEFT0k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi\">ویتنامی</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "HLIlzd7BOa+kISwhtr0uPQyyIgoZS7aWIxMNNPAZ2j0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id\">اندونزیایی</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "EDRVUigX7DTuvdSVqcEIdTlxqbfRson56EFYEnN0cGA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 27,
+        "rowsha": "f723k/NKGH/oThD8WC6XXVAFhTzbM7m6cM9twSXgtes=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as\">অসমীয়া</",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# کمتر کافیست: سنتز داده‌های متنوع در فضای ویژگی مدل‌های زبانی بزرگ"
+      },
+      {
+        "row": 33,
+        "rowsha": "x3OVBqPMifl5+OkzK5Dv7XDQa2CLOsGtf5q7J1VYnO4=",
+        "originContent": "# Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "این پیاده‌سازی رسمی مقاله است: `کمتر کافیست: سنتز داده‌های متنوع در فضای ویژگی مدل‌های زبانی بزرگ`."
+      },
+      {
+        "row": 35,
+        "rowsha": "oIXQVgy516eHAO/yS0acwzZR6/c8GCJo4YwEog9N6GQ=",
+        "originContent": "This is the official implementation of the paper: `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 37,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## بینش اصلی"
+      },
+      {
+        "row": 39,
+        "rowsha": "fB5KyDf2iMg/fUM6Ldw3uee32HRYUQ59fiXB8ZP8/lE=",
+        "originContent": "## Core Insight",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "✨ **Work smarter, not harder.**\n\nIn the post-training stage of LLMs, instead of blindly adding massive amounts of surface-level diverse text, it is more effective to precisely identify and synthesize those **truly missing key features**. With only a small number of targeted synthetic samples, we can significantly fill the gaps in **Feature Activation Coverage (FAC)**, leading to clear performance improvements on downstream tasks.\n\n### Why is this insight simple yet powerful?\n\nTraditional data synthesis focuses on quantity and surface diversity (vocabulary, sentence patterns, topic distribution), but these are often just **weak proxies**. What truly determines a model's downstream performance is **the coverage of key features required by the target task**.\n\nOur work reveals:\n\n- Many texts that \"appear very different\" actually activate highly overlapping features;\n- **FAC** predicts downstream performance much better than standard diversity metrics, including **Distinct-1/2** and **n-gram Entropy** at the word level, **POS-tag Distinct-2** at the syntax level, and **Pair CosDist** and **Semantic Entropy** at the embedding level.  \n- For instruction following, **FAC Synthesis** achieves performance comparable to the prior SOTA **MAGPIE**, while requiring **150× less data** than MAGPIE.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />\n</p>\n\n<p align=\"center\">\n  <b>Figure 1:</b> The Efficiency Frontier of Instruction Following Datasets. Our proposed method achieves a Win Rate on AlpacaEval 2.0 comparable to MAGPIE while using only 2K synthetic samples (vs. 300K for MAGPIE).\n</p>\n\n---\n\n## Getting Started\n\n### Installation\n",
+    "ContentSha": "uA1LE+O1hJWlQr3T0KwwiINUefTVQToSyn0L5F9+rTw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "✨ **هوشمندانه کار کنید، نه سخت‌تر.**\n\nدر مرحله پساتربیت مدل‌های زبانی بزرگ (LLM)، به جای افزودن کورکورانه حجم عظیمی از متون متنوع سطحی، شناسایی دقیق و ترکیب آن **ویژگی‌های کلیدی واقعاً مفقود** بسیار مؤثرتر است. تنها با تعداد کمی نمونه مصنوعی هدفمند، می‌توانیم شکاف‌های **پوشش فعال‌سازی ویژگی (FAC)** را به طور چشمگیری پر کنیم و بهبودهای قابل توجهی در عملکرد وظایف پایین‌دستی ایجاد کنیم.\n\n### چرا این دیدگاه ساده اما قدرتمند است؟\n\nترکیب داده سنتی بر کمیت و تنوع سطحی (واژگان، الگوهای جمله، توزیع موضوعی) تمرکز دارد، اما این‌ها اغلب فقط **نمایندگان ضعیف** هستند. آنچه واقعاً عملکرد پایین‌دستی مدل را تعیین می‌کند، **پوشش ویژگی‌های کلیدی مورد نیاز برای وظیفه هدف** است.\n\nمطالعات ما نشان می‌دهد:\n\n- بسیاری از متونی که \"بسیار متفاوت به نظر می‌رسند\" در واقع ویژگی‌های به شدت همپوشان را فعال می‌کنند؛\n- **FAC** عملکرد پایین‌دستی را بسیار بهتر از معیارهای تنوع استاندارد پیش‌بینی می‌کند، از جمله **Distinct-1/2** و **آنتروپی n-gram** در سطح واژه، **POS-tag Distinct-2** در سطح نحوی، و **Pair CosDist** و **آنتروپی معنایی** در سطح تعبیه.  \n- برای پیروی از دستورات، **تولید FAC** عملکردی قابل مقایسه با SOTA قبلی **MAGPIE** دارد، در حالی که **۱۵۰ برابر داده کمتر** نسبت به MAGPIE نیاز دارد.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />\n</p>\n\n<p align=\"center\">\n  <b>شکل ۱:</b> مرز بهره‌وری مجموعه داده‌های پیروی از دستور. روش پیشنهادی ما نرخ بردی قابل مقایسه با MAGPIE در AlpacaEval 2.0 به دست می‌آورد، در حالی که تنها از ۲۰۰۰ نمونه مصنوعی (در مقابل ۳۰۰ هزار نمونه برای MAGPIE) استفاده می‌کند.\n</p>\n\n---\n\n## شروع به کار\n\n### نصب\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IdSRlvN0lsYioBmdzez/2cwCoIW4nMm6YNjeQV87jy8=",
+        "originContent": "✨ **Work smarter, not harder.**",
+        "translatedContent": "✨ **هوشمندانه کار کنید، نه سخت‌تر.**"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "PzGVDFiA9wtn52t2PSb9J1Ck388CDyhMrr7XIezctng=",
+        "originContent": "In the post-training stage of LLMs, instead of blindly adding massive amounts of surface-level diverse text, it is more effective to precisely identify and synthesize those **truly missing key features**. With only a small number of targeted synthetic samples, we can significantly fill the gaps in **Feature Activation Coverage (FAC)**, leading to clear performance improvements on downstream tasks.",
+        "translatedContent": "در مرحله پساتربیت مدل‌های زبانی بزرگ (LLM)، به جای افزودن کورکورانه حجم عظیمی از متون متنوع سطحی، شناسایی دقیق و ترکیب آن **ویژگی‌های کلیدی واقعاً مفقود** بسیار مؤثرتر است. تنها با تعداد کمی نمونه مصنوعی هدفمند، می‌توانیم شکاف‌های **پوشش فعال‌سازی ویژگی (FAC)** را به طور چشمگیری پر کنیم و بهبودهای قابل توجهی در عملکرد وظایف پایین‌دستی ایجاد کنیم."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vjrNG2rZzBOMPAiubx9GUgvbKHR/YAh3jr8nGhCzGLU=",
+        "originContent": "### Why is this insight simple yet powerful?",
+        "translatedContent": "### چرا این دیدگاه ساده اما قدرتمند است؟"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "9uS/scTj19vPx40HxIpVqL2l7IsjXYarEHZ3fk0wHhY=",
+        "originContent": "Traditional data synthesis focuses on quantity and surface diversity (vocabulary, sentence patterns, topic distribution), but these are often just **weak proxies**. What truly determines a model's downstream performance is **the coverage of key features required by the target task**.",
+        "translatedContent": "ترکیب داده سنتی بر کمیت و تنوع سطحی (واژگان، الگوهای جمله، توزیع موضوعی) تمرکز دارد، اما این‌ها اغلب فقط **نمایندگان ضعیف** هستند. آنچه واقعاً عملکرد پایین‌دستی مدل را تعیین می‌کند، **پوشش ویژگی‌های کلیدی مورد نیاز برای وظیفه هدف** است."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "71lpktkW8w9y5JkLdmIeTP36trtYnCHxTQp/t3JTiuc=",
+        "originContent": "Our work reveals:",
+        "translatedContent": "مطالعات ما نشان می‌دهد:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "cWn7N6Ci0X2RV7EG5gVGE10a5G8eULDFswKO/G0mYUA=",
+        "originContent": "- Many texts that \"appear very different\" actually activate highly overlapping features;",
+        "translatedContent": "- بسیاری از متونی که \"بسیار متفاوت به نظر می‌رسند\" در واقع ویژگی‌های به شدت همپوشان را فعال می‌کنند؛"
+      },
+      {
+        "row": 12,
+        "rowsha": "2H3IGsS1sHEH2rwzOd3Pib/jo53GPwi+p7BdkACUvh8=",
+        "originContent": "- **FAC** predicts downstream performance much better than standard diversity metrics, including **Distinct-1/2** and **n-gram Entropy** at the word level, **POS-tag Distinct-2** at the syntax level, and **Pair CosDist** and **Semantic Entropy** at the embedding level.  ",
+        "translatedContent": "- **FAC** عملکرد پایین‌دستی را بسیار بهتر از معیارهای تنوع استاندارد پیش‌بینی می‌کند، از جمله **Distinct-1/2** و **آنتروپی n-gram** در سطح واژه، **POS-tag Distinct-2** در سطح نحوی، و **Pair CosDist** و **آنتروپی معنایی** در سطح تعبیه.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "LYChM4ue/kyubQekm431xPVbSSpd46/JhkaxNv8xf9w=",
+        "originContent": "- For instruction following, **FAC Synthesis** achieves performance comparable to the prior SOTA **MAGPIE**, while requiring **150× less data** than MAGPIE.",
+        "translatedContent": "- برای پیروی از دستورات، **تولید FAC** عملکردی قابل مقایسه با SOTA قبلی **MAGPIE** دارد، در حالی که **۱۵۰ برابر داده کمتر** نسبت به MAGPIE نیاز دارد."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "GZxQOEhctyLUWOoXh9wZZisjRdji3zuxDAa5GXSD2lo=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png\" width=\"400\" />"
+      },
+      {
+        "row": 17,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 20,
+        "rowsha": "KGZX2tO3MaFzxm3iQ38K2Ie4s7mbjgpZ3vIhYG85myI=",
+        "originContent": "  <b>Figure 1:</b> The Efficiency Frontier of Instruction Following Datasets. Our proposed method achieves a Win Rate on AlpacaEval 2.0 comparable to MAGPIE while using only 2K synthetic samples (vs. 300K for MAGPIE).",
+        "translatedContent": "  <b>شکل ۱:</b> مرز بهره‌وری مجموعه داده‌های پیروی از دستور. روش پیشنهادی ما نرخ بردی قابل مقایسه با MAGPIE در AlpacaEval 2.0 به دست می‌آورد، در حالی که تنها از ۲۰۰۰ نمونه مصنوعی (در مقابل ۳۰۰ هزار نمونه برای MAGPIE) استفاده می‌کند."
+      },
+      {
+        "row": 21,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## شروع به کار"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### نصب"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ngit clone https://github.com/Zhongzhi660/FAC-Synthesis.git\ncd FAC-Synthesis\npip install -r requirements.txt\n```",
+    "ContentSha": "Qiw7YUHuQv601oJHSAH4zuf3zR57kgsEWzZIRJeeraM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/Zhongzhi660/FAC-Synthesis.git\ncd FAC-Synthesis\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ujYQO2IzKvMm4Jr+eKXgqrdBCxtQFMmW5mTilH35BJw=",
+        "originContent": "git clone https://github.com/Zhongzhi660/FAC-Synthesis.git",
+        "translatedContent": "git clone https://github.com/Zhongzhi660/FAC-Synthesis.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "oTAZj+YRjGyLhF7OL9oNvEA0CYV56mpdYtt5JRMjHEo=",
+        "originContent": "cd FAC-Synthesis",
+        "translatedContent": "cd FAC-Synthesis"
+      },
+      {
+        "row": 4,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n---\n\n### Repository Structure\n",
+    "ContentSha": "pgTj9GdL46zgO7DC/kQzsdNVnK8OFJiH+W+EVussAUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n### Repository Structure\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CwZZqcC7CQUhQG9X2fPv83IGFLXeK8uDwM/VTuZQ96k=",
+        "originContent": "### Repository Structure",
+        "translatedContent": "### Repository Structure"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```text\nFAC-Synthesis/\n├── LICENSE\n├── README.md\n├── requirements.txt\n│\n├── sae_pretrain/                 # SAE pretraining\n│   ├── datasets/                 # pretraining corpora (constructed from public sources)\n│   └── outputs/                  # SAE pre-trained weights\n│\n├── sae_feature_analysis/         # SAE feature analysis pipeline\n│   ├── interpret_features/       # feature interpretation (span collection + annotation)\n│   ├── identify_task_relevant_features/   # task-relevant feature identification\n│   └── identify_missing_features/         # missing-feature discovery (coverage gap)\n│\n├── fac_synthesis/                # FAC synthesis pipeline\n│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction\n│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis\n│\n└── training_scripts/             # Downstream training / evaluation scripts\n    ├── toxicity_detection/\n    ├── reward_modeling/\n    ├── instruction_following/\n    └── behavior_steering/\n```",
+    "ContentSha": "lWV4yLjIRoc7ctYqKAjTALXGB/RHuq0mHUz3Q3qewpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\nFAC-Synthesis/\n├── LICENSE\n├── README.md\n├── requirements.txt\n│\n├── sae_pretrain/                 # SAE pretraining\n│   ├── datasets/                 # pretraining corpora (constructed from public sources)\n│   └── outputs/                  # SAE pre-trained weights\n│\n├── sae_feature_analysis/         # SAE feature analysis pipeline\n│   ├── interpret_features/       # feature interpretation (span collection + annotation)\n│   ├── identify_task_relevant_features/   # task-relevant feature identification\n│   └── identify_missing_features/         # missing-feature discovery (coverage gap)\n│\n├── fac_synthesis/                # FAC synthesis pipeline\n│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction\n│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis\n│\n└── training_scripts/             # Downstream training / evaluation scripts\n    ├── toxicity_detection/\n    ├── reward_modeling/\n    ├── instruction_following/\n    └── behavior_steering/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "Tg7Qauaw0YdQm7DrUVQ+SD9kwpLWJP35ULhAoYnwswc=",
+        "originContent": "FAC-Synthesis/",
+        "translatedContent": "FAC-Synthesis/"
+      },
+      {
+        "row": 3,
+        "rowsha": "qjFZW+CH7vA3mZn1LMINwV6O4bbCxoSaYNxQcl/8P2g=",
+        "originContent": "├── LICENSE",
+        "translatedContent": "├── LICENSE"
+      },
+      {
+        "row": 4,
+        "rowsha": "LoTAQfuqjLD8IIK02XWaCUrSST7uB7c6SX0sC1UqV4I=",
+        "originContent": "├── README.md",
+        "translatedContent": "├── README.md"
+      },
+      {
+        "row": 5,
+        "rowsha": "xlV0yUT1msPqBxaLt9F0FeZLfqakRCwtYfD3goFU2Mg=",
+        "originContent": "├── requirements.txt",
+        "translatedContent": "├── requirements.txt"
+      },
+      {
+        "row": 6,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 7,
+        "rowsha": "uF9c0Wf1VmxZBm9CTsKbndZ0VLcGeIC6O9a6V0OAWkk=",
+        "originContent": "├── sae_pretrain/                 # SAE pretraining",
+        "translatedContent": "├── sae_pretrain/                 # SAE pretraining"
+      },
+      {
+        "row": 8,
+        "rowsha": "uBg7BKMrHcGx5Xv1lhnex693/UsDNLiQT36vsGwAhhI=",
+        "originContent": "│   ├── datasets/                 # pretraining corpora (constructed from public sources)",
+        "translatedContent": "│   ├── datasets/                 # pretraining corpora (constructed from public sources)"
+      },
+      {
+        "row": 9,
+        "rowsha": "K8fJErI/CG9V+FYM7YWL3QeSHbzbbNMqwxJ8FaYuSVo=",
+        "originContent": "│   └── outputs/                  # SAE pre-trained weights",
+        "translatedContent": "│   └── outputs/                  # SAE pre-trained weights"
+      },
+      {
+        "row": 10,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 11,
+        "rowsha": "tM/GwcByEYMaGCdWfcSbk89+cjlsZLYC6wk41mkHlso=",
+        "originContent": "├── sae_feature_analysis/         # SAE feature analysis pipeline",
+        "translatedContent": "├── sae_feature_analysis/         # SAE feature analysis pipeline"
+      },
+      {
+        "row": 12,
+        "rowsha": "FCScqSj/RfBbQiBUIj5SKAiJB5OlerPXJ/hjiYH0BR8=",
+        "originContent": "│   ├── interpret_features/       # feature interpretation (span collection + annotation)",
+        "translatedContent": "│   ├── interpret_features/       # feature interpretation (span collection + annotation)"
+      },
+      {
+        "row": 13,
+        "rowsha": "pWEFaTxLAMxrSJsUaXFckp3CYm0EsjQ+U7dMklZBEQw=",
+        "originContent": "│   ├── identify_task_relevant_features/   # task-relevant feature identification",
+        "translatedContent": "│   ├── identify_task_relevant_features/   # task-relevant feature identification"
+      },
+      {
+        "row": 14,
+        "rowsha": "lLAIJ8FsCDeN+IOhgTloPsKVOrcVpfiCpZTUCbsXwpk=",
+        "originContent": "│   └── identify_missing_features/         # missing-feature discovery (coverage gap)",
+        "translatedContent": "│   └── identify_missing_features/         # missing-feature discovery (coverage gap)"
+      },
+      {
+        "row": 15,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 16,
+        "rowsha": "DL0aKyxUjnnZXqqEV2ZmijqotEQfdPWvlGSf9NVtwes=",
+        "originContent": "├── fac_synthesis/                # FAC synthesis pipeline",
+        "translatedContent": "├── fac_synthesis/                # FAC synthesis pipeline"
+      },
+      {
+        "row": 17,
+        "rowsha": "WkuKiOv52cCwLVk4jiNe4UqfiV9asT2VbDvj9fFp68U=",
+        "originContent": "│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction",
+        "translatedContent": "│   ├── step1_contrastive_pair_construction/      # Step-1: contrastive pair construction"
+      },
+      {
+        "row": 18,
+        "rowsha": "F2P+FVkED/WPDdBl/A/SoWu9y/RA1MqZX3IiN5o+VnA=",
+        "originContent": "│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis",
+        "translatedContent": "│   └── step2_feature_covered_sample_synthesis/   # Step-2: feature-covered synthesis"
+      },
+      {
+        "row": 19,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 20,
+        "rowsha": "Pe+K7PVzdkVst0LLHE6OrOBejeDBIMXkwqJO0wSkpO4=",
+        "originContent": "└── training_scripts/             # Downstream training / evaluation scripts",
+        "translatedContent": "└── training_scripts/             # Downstream training / evaluation scripts"
+      },
+      {
+        "row": 21,
+        "rowsha": "pn5TSN/WPjEpNo+ChzDk997B0TItO4HwA2c02nXmExQ=",
+        "originContent": "    ├── toxicity_detection/",
+        "translatedContent": "    ├── toxicity_detection/"
+      },
+      {
+        "row": 22,
+        "rowsha": "NctjSO33vfb5FcMweu10C7AbDKN+dKJMkiTsXhxcg+c=",
+        "originContent": "    ├── reward_modeling/",
+        "translatedContent": "    ├── reward_modeling/"
+      },
+      {
+        "row": 23,
+        "rowsha": "kHe5r0w1iwghOAa7Q/g2ZNmZLtyIE2+/DL7qtavyA3E=",
+        "originContent": "    ├── instruction_following/",
+        "translatedContent": "    ├── instruction_following/"
+      },
+      {
+        "row": 24,
+        "rowsha": "8UC1viImAwsAcDbVte1QATY0dAkgEMdBfqdjJh3gRHQ=",
+        "originContent": "    └── behavior_steering/",
+        "translatedContent": "    └── behavior_steering/"
+      },
+      {
+        "row": 25,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Pre-training Sparse Autoencoders\nMost of the scripts for SAE pretraining are located in `sae_pretrain/`. We provide pre-trained SAE checkpoints on Hugging Face:\n- **Llama-3.1-8B-Instruct SAE**: [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)\n- **Qwen2-7B-Instruct SAE**: [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)\n- **Mistral-7B-Instruct SAE**: [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)\n\nTo pre-train SAEs, run the following commands:\n",
+    "ContentSha": "gq5CZw+9dX54nVf9adX15aU4lafVngeTSXqH+UMLzB4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### پیش‌ آموزش خودرمزگذارهای پراکنده\nبیشتر اسکریپت‌های مربوط به پیش‌ آموزش SAE در مسیر `sae_pretrain/` قرار دارند. ما نقاط توقف SAE آموزش‌دیده را در Hugging Face ارائه داده‌ایم:\n- **Llama-3.1-8B-Instruct SAE**: [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)\n- **Qwen2-7B-Instruct SAE**: [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)\n- **Mistral-7B-Instruct SAE**: [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)\n\nبرای پیش‌ آموزش SAEها، دستورات زیر را اجرا کنید:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rGLRrQM/ah0JF0Y64tBkrMMqeuBWsRdkj9STnxjqCH4=",
+        "originContent": "### Pre-training Sparse Autoencoders",
+        "translatedContent": "### پیش‌ آموزش خودرمزگذارهای پراکنده"
+      },
+      {
+        "row": 3,
+        "rowsha": "ouhDErsI1UY4keifVqkxazGVMlFxmf2wyegqlOYcYyg=",
+        "originContent": "Most of the scripts for SAE pretraining are located in `sae_pretrain/`. We provide pre-trained SAE checkpoints on Hugging Face:",
+        "translatedContent": "بیشتر اسکریپت‌های مربوط به پیش‌ آموزش SAE در مسیر `sae_pretrain/` قرار دارند. ما نقاط توقف SAE آموزش‌دیده را در Hugging Face ارائه داده‌ایم:"
+      },
+      {
+        "row": 4,
+        "rowsha": "j3A1iMby1QGgGVpWHwUkjuH6fAVG80ONn48pIQ/QkPg=",
+        "originContent": "- **Llama-3.1-8B-Instruct SAE**: [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)",
+        "translatedContent": "- **Llama-3.1-8B-Instruct SAE**: [Zhongzhi1228/sae_llama_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_llama_l16_h65536)"
+      },
+      {
+        "row": 5,
+        "rowsha": "EqZbxrFRBgQcRRAP4VpOHhFjQQnPz7IpM5PsR2tM5Ng=",
+        "originContent": "- **Qwen2-7B-Instruct SAE**: [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)",
+        "translatedContent": "- **Qwen2-7B-Instruct SAE**: [Zhongzhi1228/sae_qwen_l14_h65536](https://huggingface.co/Zhongzhi1228/sae_qwen_l14_h65536)"
+      },
+      {
+        "row": 6,
+        "rowsha": "TKsnASbjQPS4+SIvBIzlKomZVmrr4Q2iVDk/0gAVzU8=",
+        "originContent": "- **Mistral-7B-Instruct SAE**: [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)",
+        "translatedContent": "- **Mistral-7B-Instruct SAE**: [Zhongzhi1228/sae_mistral_l16_h65536](https://huggingface.co/Zhongzhi1228/sae_mistral_l16_h65536)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "qsIA+uRdB5RLVyRrweapwDCpj6CV9Bb+b/Zk2J02O0k=",
+        "originContent": "To pre-train SAEs, run the following commands:",
+        "translatedContent": "برای پیش‌ آموزش SAEها، دستورات زیر را اجرا کنید:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\n# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)\npython create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16\n\n# Step-2: Train SAEs on the target layer (e.g., layer 16)\npython train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16\n```",
+    "ContentSha": "u1Yb0dybOMzm3Q4xpxkj51NzP7cnQcVZ6PYWco5JKMA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)\npython create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16\n\n# Step-2: Train SAEs on the target layer (e.g., layer 16)\npython train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mv7tNGguUeU7GcGZ3FM+CcetQQliJ+0JYqupshjIG50=",
+        "originContent": "# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)",
+        "translatedContent": "# Step-1: Collect hidden activations from the backbone LLM (e.g., layer 16)"
+      },
+      {
+        "row": 3,
+        "rowsha": "NWSP6vFTb8A9HgPTch8ldadaczSA7IL6SBvqgRDth14=",
+        "originContent": "python create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16",
+        "translatedContent": "python create_actvs_uni.py 0 0 1 meta-llama/Llama-3.1-8B-Instruct 16"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "XQGVGCl3g4hYz3AnZIPojWGrL9J03LcG/wbuEKnAsYA=",
+        "originContent": "# Step-2: Train SAEs on the target layer (e.g., layer 16)",
+        "translatedContent": "# Step-2: Train SAEs on the target layer (e.g., layer 16)"
+      },
+      {
+        "row": 6,
+        "rowsha": "5E/Va2t+W0uSsEoz33HO6gr1SISDoAem1YeAgZWkxJo=",
+        "originContent": "python train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16",
+        "translatedContent": "python train_SAEs.py 0 16 meta-llama/Llama-3.1-8B-Instruct /sae_input/prompt_actvs_l16"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Analyzing the features of SAE\nFeature analysis scripts are located in `sae_feature_analysis/`. To group activation spans and generate human-readable feature interpretations, run:\n",
+    "ContentSha": "oeYzD6zdBqe5yFqjpJwmxMhwmhibK82XvC+luYHcCBk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### تحلیل ویژگی‌های SAE\nاسکریپت‌های تحلیل ویژگی در مسیر `sae_feature_analysis/` قرار دارند. برای گروه‌بندی بازه‌های فعال‌سازی و تولید تفسیرهای قابل فهم برای ویژگی‌ها، اجرا کنید:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5Tx6O5nm7Koy/Fx9/x83HHrsnzaCHwhxraWC/LGWgN8=",
+        "originContent": "### Analyzing the features of SAE",
+        "translatedContent": "### تحلیل ویژگی‌های SAE"
+      },
+      {
+        "row": 3,
+        "rowsha": "QU1IFTI2JP5ue80UN7Ft2DHdjHp0YVVOcmo0NQQxCDY=",
+        "originContent": "Feature analysis scripts are located in `sae_feature_analysis/`. To group activation spans and generate human-readable feature interpretations, run:",
+        "translatedContent": "اسکریپت‌های تحلیل ویژگی در مسیر `sae_feature_analysis/` قرار دارند. برای گروه‌بندی بازه‌های فعال‌سازی و تولید تفسیرهای قابل فهم برای ویژگی‌ها، اجرا کنید:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\n# Step-1: Group extracted activation spans\npython groupby_textspans.py /xxx/threshold_0.0\n\n# Step-2: Annotate feature explanations based on grouped spans\npython annotate_explanations.py /xxx/threshold_0.0.tsv\n\n# Step-3: Identify task-relevant features from the explanations\npython annotate_toxicity.py /xxx/threshold_0.0_explained.tsv\n\n# Step-4: Identify missing features via FAC analysis\npython identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)\n```",
+    "ContentSha": "deEBc3qe2lBzi4zy4qmmh7BgjzJobi85hrtgZb1vjIc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Step-1: Group extracted activation spans\npython groupby_textspans.py /xxx/threshold_0.0\n\n# Step-2: Annotate feature explanations based on grouped spans\npython annotate_explanations.py /xxx/threshold_0.0.tsv\n\n# Step-3: Identify task-relevant features from the explanations\npython annotate_toxicity.py /xxx/threshold_0.0_explained.tsv\n\n# Step-4: Identify missing features via FAC analysis\npython identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7COtv2jWAzkUHg+Rt74zMk5KqbODxWj0KUclpzepIzY=",
+        "originContent": "# Step-1: Group extracted activation spans",
+        "translatedContent": "# Step-1: Group extracted activation spans"
+      },
+      {
+        "row": 3,
+        "rowsha": "CoR5I5DQDbc7cGJAmZypeZDocWbpswbweA7/IfEn/pc=",
+        "originContent": "python groupby_textspans.py /xxx/threshold_0.0",
+        "translatedContent": "python groupby_textspans.py /xxx/threshold_0.0"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "XeccBEG1UsNE0CcqvKFKXpN8GLp+RRVk0P5dcx2ocpM=",
+        "originContent": "# Step-2: Annotate feature explanations based on grouped spans",
+        "translatedContent": "# Step-2: Annotate feature explanations based on grouped spans"
+      },
+      {
+        "row": 6,
+        "rowsha": "0oMl2UhPnFnavfVjDyuFmk5drbAYDZyVXSZ/3GzFw9s=",
+        "originContent": "python annotate_explanations.py /xxx/threshold_0.0.tsv",
+        "translatedContent": "python annotate_explanations.py /xxx/threshold_0.0.tsv"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "IIVzEv4zExSrSPd6YrJUi0wlFmiAsKROQJbVO+vHjDY=",
+        "originContent": "# Step-3: Identify task-relevant features from the explanations",
+        "translatedContent": "# Step-3: Identify task-relevant features from the explanations"
+      },
+      {
+        "row": 9,
+        "rowsha": "AbKv2yeYGbrWNKN0FboUqSHbR3Jry+KyUdd7okZKiVU=",
+        "originContent": "python annotate_toxicity.py /xxx/threshold_0.0_explained.tsv",
+        "translatedContent": "python annotate_toxicity.py /xxx/threshold_0.0_explained.tsv"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Lq0RPQ/9iX2coSUqePoNXOgvyi/K20zDG+lhps95wEQ=",
+        "originContent": "# Step-4: Identify missing features via FAC analysis",
+        "translatedContent": "# Step-4: Identify missing features via FAC analysis"
+      },
+      {
+        "row": 12,
+        "rowsha": "NNNHjAsr9Qc0ZfRCUi6+ocE/moTfxOfuX755vR7mPWc=",
+        "originContent": "python identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)",
+        "translatedContent": "python identify_fac.py anchor_features.tsv (complete) task_features.tsv (currently available)"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Coverage-guided data synthesis\nCoverage-guided synthesis scripts are located in fac_synthesis/. To generate synthetic queries, run\n",
+    "ContentSha": "T01+1TMoJ4vvlg6aGD3zFuDSU3ylXa6hsJEFVkmkNDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### سنتز داده هدایت‌شده توسط پوشش\nاسکریپت‌های سنتز هدایت‌شده توسط پوشش در fac_synthesis/ قرار دارند. برای تولید پرسش‌های مصنوعی، اجرا کنید\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tb2/f/Y+7NTBM8A/LwQFj0PbSnbIQWjLMYoWpd9httM=",
+        "originContent": "### Coverage-guided data synthesis",
+        "translatedContent": "### سنتز داده هدایت‌شده توسط پوشش"
+      },
+      {
+        "row": 3,
+        "rowsha": "Vq8VFvR4XleRIcO6YhHVP1erYU3nuZMq03+FbJ6oj0c=",
+        "originContent": "Coverage-guided synthesis scripts are located in fac_synthesis/. To generate synthetic queries, run",
+        "translatedContent": "اسکریپت‌های سنتز هدایت‌شده توسط پوشش در fac_synthesis/ قرار دارند. برای تولید پرسش‌های مصنوعی، اجرا کنید"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\n# Step-1 (1): Contrastive Pair Construction\npython generate_data_llama_r1.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n# Step-1 (2): Feature-Covered Sample Synthesis\npython analyze_step1_synthetic_data.py\npython merge_step1_failed_cases.py\n\n# Step-2: Feature-Covered Sample Synthesis\npython generate_data_llama_r2.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n```",
+    "ContentSha": "MIf9Z9uyDtdKdPAkcsXFGNF0QD3i53TvUzy3xPx8ZM8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Step-1 (1): Contrastive Pair Construction\npython generate_data_llama_r1.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n# Step-1 (2): Feature-Covered Sample Synthesis\npython analyze_step1_synthetic_data.py\npython merge_step1_failed_cases.py\n\n# Step-2: Feature-Covered Sample Synthesis\npython generate_data_llama_r2.py \\\n  --features xxx.tsv \\\n  --out xxx \\\n  --temperature 0.8\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TCAc2ss7abpDgCSap2WBoK/siet/BgxEvvmL4pOetxM=",
+        "originContent": "# Step-1 (1): Contrastive Pair Construction",
+        "translatedContent": "# Step-1 (1): Contrastive Pair Construction"
+      },
+      {
+        "row": 3,
+        "rowsha": "kNnoFUtYHyVIRnpjZVBfr6wFkpxCW5bMk9j/913IRbY=",
+        "originContent": "python generate_data_llama_r1.py \\",
+        "translatedContent": "python generate_data_llama_r1.py \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "HaHyvY41yJIc8AyzGIL6k7oTvmPnkUjbqGqdfiacLwA=",
+        "originContent": "  --features xxx.tsv \\",
+        "translatedContent": "  --features xxx.tsv \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "c40MnO3gIPusLfbKP+5eoGUEK7iynxbmjkJQ2TVsR4w=",
+        "originContent": "  --out xxx \\",
+        "translatedContent": "  --out xxx \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "TPqkdV8LWuuB+PSX1URf8wUqM/bqTd1pdyzcZwqDTxo=",
+        "originContent": "  --temperature 0.8",
+        "translatedContent": "  --temperature 0.8"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZLi02jGG3zLNFhhGnAyq2CdJ1VDouAzFGGiJDMaPogA=",
+        "originContent": "# Step-1 (2): Feature-Covered Sample Synthesis",
+        "translatedContent": "# Step-1 (2): Feature-Covered Sample Synthesis"
+      },
+      {
+        "row": 8,
+        "rowsha": "EPsG50000b9QGI65IAzQiM+PZjQag0JswmIosFeU+Ak=",
+        "originContent": "python analyze_step1_synthetic_data.py",
+        "translatedContent": "python analyze_step1_synthetic_data.py"
+      },
+      {
+        "row": 9,
+        "rowsha": "De/A4cQGMslQsFXCEufxFHbPkHtn48iJyuZS5qVvHfM=",
+        "originContent": "python merge_step1_failed_cases.py",
+        "translatedContent": "python merge_step1_failed_cases.py"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZqfprWfkDG6XRVPmC7R2egZnZzdHrXy1yicynCvOWUs=",
+        "originContent": "# Step-2: Feature-Covered Sample Synthesis",
+        "translatedContent": "# Step-2: Feature-Covered Sample Synthesis"
+      },
+      {
+        "row": 12,
+        "rowsha": "5CVJFC7xQAlSCEZyd/yn+Z1TUtSshS2VtHjg0Geaxxg=",
+        "originContent": "python generate_data_llama_r2.py \\",
+        "translatedContent": "python generate_data_llama_r2.py \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "HaHyvY41yJIc8AyzGIL6k7oTvmPnkUjbqGqdfiacLwA=",
+        "originContent": "  --features xxx.tsv \\",
+        "translatedContent": "  --features xxx.tsv \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "c40MnO3gIPusLfbKP+5eoGUEK7iynxbmjkJQ2TVsR4w=",
+        "originContent": "  --out xxx \\",
+        "translatedContent": "  --out xxx \\"
+      },
+      {
+        "row": 15,
+        "rowsha": "TPqkdV8LWuuB+PSX1URf8wUqM/bqTd1pdyzcZwqDTxo=",
+        "originContent": "  --temperature 0.8",
+        "translatedContent": "  --temperature 0.8"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n---\n\n## Acknowledgements\n\nIn the evaluation stage, our downstream training and testing scripts are adapted from the following open-source repositories:\n\n- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)\n- [CAA](https://github.com/nrimsky/CAA)\n- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)\n\n## Citation\n\nIf you find this work helpful for your research, please cite our paper 🤩:\n",
+    "ContentSha": "UQN4DmpDfPr5VoOtXphvofXJbJBQYIPc383b1Mf+Nu4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## قدردانی\n\nدر مرحله ارزیابی، اسکریپت‌های آموزش و آزمایش ما از مخازن متن‌باز زیر اقتباس شده‌اند:\n\n- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)\n- [CAA](https://github.com/nrimsky/CAA)\n- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)\n\n## استناد\n\nاگر این کار برای پژوهش شما مفید بود، لطفاً به مقاله ما ارجاع دهید 🤩:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "## قدردانی"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iGXlPSPYCLrBkpT1U8W41qWsqP3MI2bKsJk7p5kit04=",
+        "originContent": "In the evaluation stage, our downstream training and testing scripts are adapted from the following open-source repositories:",
+        "translatedContent": "در مرحله ارزیابی، اسکریپت‌های آموزش و آزمایش ما از مخازن متن‌باز زیر اقتباس شده‌اند:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "NDuYwHh0PYA0tIUCmaAQ8BR4QMQDnNkyAuwVxrn7VAI=",
+        "originContent": "- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)",
+        "translatedContent": "- [RLHF-Reward-Modeling](https://github.com/RLHFlow/RLHF-Reward-Modeling)"
+      },
+      {
+        "row": 9,
+        "rowsha": "eKAMieOVBdrDOhfCOiotdrnTn35XmdFKnXjEZ0HS4CU=",
+        "originContent": "- [CAA](https://github.com/nrimsky/CAA)",
+        "translatedContent": "- [CAA](https://github.com/nrimsky/CAA)"
+      },
+      {
+        "row": 10,
+        "rowsha": "WBNAqsWYaceztv2WOXWhvXBoesoaKjlJ0qqQTAsDmT4=",
+        "originContent": "- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)",
+        "translatedContent": "- [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## استناد"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "MkeRzUTVyy72nrvgISHEqzAD/R39AKcBLCJNbSsaE1M=",
+        "originContent": "If you find this work helpful for your research, please cite our paper 🤩:",
+        "translatedContent": "اگر این کار برای پژوهش شما مفید بود، لطفاً به مقاله ما ارجاع دهید 🤩:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bibtex\n@article{li2026less,\n  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},\n  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},\n  journal={arXiv preprint arXiv:2602.10388},\n  year={2026}\n}\n```",
+    "ContentSha": "TEkd9c/tHwHkc6jrgT3y1IdL+G87RF0KaGTMFdomIB0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{li2026less,\n  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},\n  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},\n  journal={arXiv preprint arXiv:2602.10388},\n  year={2026}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "cx86tdOgJRD9NVDJrbLM+GT/Mno/Dtyrg9mtsvQO9C8=",
+        "originContent": "@article{li2026less,",
+        "translatedContent": "@article{li2026less,"
+      },
+      {
+        "row": 3,
+        "rowsha": "ti2qigGtQEEtO5uCikZeSRM8Y1OPcZUV2qxzVURpPW4=",
+        "originContent": "  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},",
+        "translatedContent": "  title={Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs},"
+      },
+      {
+        "row": 4,
+        "rowsha": "3T/M6TVVHn8QoW57hJ5tnSFkizvoPjWlf4tP/qVaeE4=",
+        "originContent": "  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},",
+        "translatedContent": "  author={Li, Zhongzhi and Wu, Xuansheng and Li, Yijiang and Hu, Lijie and Liu, Ninghao},"
+      },
+      {
+        "row": 5,
+        "rowsha": "MY7QkPlj2IZICRBnT5+c4AAmHDbVYmjXntU1Io3uUeQ=",
+        "originContent": "  journal={arXiv preprint arXiv:2602.10388},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2602.10388},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6ACLjvQauAPI1eqXLRYXeac1BKP8j5U+6MzhyT6NzRE=",
+        "originContent": "  year={2026}",
+        "translatedContent": "  year={2026}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

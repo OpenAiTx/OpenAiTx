@@ -1,36 +1,68 @@
-# 少即是多：在大语言模型特征空间中合成多样化数据
 
-这是论文《少即是多：在大语言模型特征空间中合成多样化数据》的官方实现。
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# 少即足够：在LLM特征空间中合成多样化数据
+
+这是论文《少即足够：在LLM特征空间中合成多样化数据》的官方实现。
 
 ---
 
-## 核心洞见
+## 核心见解
 
-✨ **聪明工作，而非辛苦工作。**
+✨ **聪明工作，而不是苦干。**
 
-在大语言模型的后训练阶段，与其盲目添加大量表面多样的文本，不如精准识别并合成那些**真正缺失的关键特征**。仅凭少量有针对性的合成样本，我们就能显著填补**特征激活覆盖率（FAC）**的空白，从而在下游任务上带来明显的性能提升。
+在大语言模型的后训练阶段，与其盲目添加大量表面多样化文本，不如更有效地精准识别和合成那些**真正缺失的关键特征**。仅需少量有针对性的合成样本，我们就能显著填补**特征激活覆盖率（FAC）**的空白，从而在下游任务上带来明显的性能提升。
 
-### 为什么这个洞见既简单又强大？
+### 为什么这个洞见简单却强大？
 
-传统的数据合成关注数量和表面多样性（词汇、句型、主题分布），但这些往往只是**弱代理**。真正决定模型下游性能的是**目标任务所需关键特征的覆盖度**。
+传统的数据合成关注于数量和表面多样性（词汇、句式、主题分布），但这些通常只是**弱代理**。真正决定模型下游性能的是**目标任务所需关键特征的覆盖率**。
 
 我们的工作揭示：
 
 - 许多“看起来非常不同”的文本实际上激活了高度重叠的特征；
-- **FAC**比标准多样性指标（包括词级的**Distinct-1/2**和**n-gram熵**，句法级的**POS-tag Distinct-2**，以及嵌入级的**Pair CosDist**和**语义熵**）更好地预测下游性能；
-- 在指令跟随任务中，**FAC合成**实现了与先前SOTA方法**MAGPIE**相当的性能，但所需数据量仅为MAGPIE的**1/150**。
+- **FAC**比标准多样性指标更好地预测下游性能，包括词级的**Distinct-1/2**和**n-gram熵**、句法级的**POS-tag Distinct-2**、嵌入级的**Pair CosDist**和**语义熵**。  
+- 对于指令遵循，**FAC合成**在仅需**MAGPIE的1/150数据量**的情况下，实现了与先前SOTA **MAGPIE**相当的性能。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png" width="400" />
 </p>
 
 <p align="center">
-  <b>图1：</b> 指令跟随数据集的效率前沿。我们提出的方法在AlpacaEval 2.0上的胜率与MAGPIE相当，而只使用了2000个合成样本（MAGPIE使用了30万个）。
+  <b>图1：</b> 指令遵循数据集的效率前沿。我们提出的方法在仅使用2K合成样本（MAGPIE为300K）的情况下，在AlpacaEval 2.0上实现了与MAGPIE相当的胜率。
 </p>
 
 ---
 
-## 快速开始
+## 入门指南
 
 ### 安装
 
@@ -149,6 +181,6 @@ python generate_data_llama_r2.py \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-27
 
 ---

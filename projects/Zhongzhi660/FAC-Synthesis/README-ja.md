@@ -1,31 +1,63 @@
-# 少ないほど十分：LLMの特徴空間における多様なデータの合成
 
-これは論文「Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs」の公式実装です。
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Less is Enough: LLMの特徴空間における多様なデータの合成
+
+本リポジトリは論文「Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs」の公式実装です。
 
 ---
 
 ## コアインサイト
 
-✨ **賢く働き、無駄を省く。**
+✨ **賢く働く、無駄に努力しない。**
 
-LLMの後処理段階では、大量の表面的に多様なテキストを無差別に追加するのではなく、**真に欠けている重要な特徴**を正確に特定して合成することがより効果的です。ごく少数のターゲットを絞った合成サンプルだけで、**特徴活性化カバレッジ（FAC）**のギャップを大幅に埋めることができ、下流タスクでの明確な性能向上につながります。
+LLMの後処理段階では、表面的に多様なテキストを大量に追加するのではなく、**本当に不足している重要な特徴**を正確に特定し合成する方が効果的です。わずかな数のターゲットを絞った合成サンプルだけで、**特徴活性化カバレッジ（FAC）**のギャップを大幅に埋めることができ、下流タスクで明確な性能向上が得られます。
 
-### なぜこのインサイトはシンプルでありながら強力なのか？
+### この洞察がなぜシンプルで強力なのか？
 
-従来のデータ合成は量と表面的多様性（語彙、文パターン、トピック分布）に焦点を当てていますが、これらはしばしば**弱い代理指標**に過ぎません。モデルの下流性能を真に決定づけるのは、**ターゲットタスクが必要とする重要な特徴のカバレッジ**です。
+従来のデータ合成は量や表面的な多様性（語彙、文型、トピック分布）に焦点を当てていましたが、これらは多くの場合**弱い代理指標**にすぎません。モデルの下流性能を真に決定するのは、**ターゲットタスクに必要な重要特徴のカバレッジ**です。
 
-我々の研究は以下を明らかにしました：
+我々の研究で明らかになったこと：
 
-- 「非常に異なるように見える」多くのテキストは実際には非常に重複する特徴を活性化していること；
-- **FAC**は、単語レベルの**Distinct-1/2**や**n-gramエントロピー**、構文レベルの**POSタグDistinct-2**、埋め込みレベルの**Pair CosDist**や**セマンティックエントロピー**を含む標準的な多様性指標よりも下流性能をはるかに良く予測すること。  
-- 命令従属タスクにおいて、**FAC合成**は先行最先端の**MAGPIE**と同等の性能を達成しつつ、**MAGPIEの150倍少ないデータ量**で済むこと。
+- 「見た目が非常に異なる」多くのテキストは、実際には非常に重複した特徴を活性化している；
+- **FAC**は、標準的な多様性指標（単語レベルの**Distinct-1/2**や**n-gram Entropy**、構文レベルの**POS-tag Distinct-2**、埋め込みレベルの**Pair CosDist**や**Semantic Entropy**など）よりも下流性能をはるかに正確に予測する。  
+- インストラクションフォローにおいて、**FAC Synthesis**は従来のSOTAである**MAGPIE**と同等の性能を達成しつつ、MAGPIEの**150倍少ないデータ**で済む。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png" width="400" />
 </p>
 
 <p align="center">
-  <b>図1：</b> 命令従属データセットの効率的フロンティア。我々の提案手法は、2Kの合成サンプル（MAGPIEは300K）でMAGPIEと同等のAlpacaEval 2.0における勝率を達成。
+  <b>図1：</b> インストラクションフォロー用データセットの効率フロンティア。提案手法は、AlpacaEval 2.0でMAGPIEと同等のWin Rateをわずか2K合成サンプル（MAGPIEは300K）で達成しています。
 </p>
 
 ---
@@ -149,6 +181,6 @@ python generate_data_llama_r2.py \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-27
 
 ---

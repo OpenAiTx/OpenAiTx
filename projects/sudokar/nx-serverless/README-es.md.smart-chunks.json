@@ -1,0 +1,1887 @@
+[
+  {
+    "Id": 1,
+    "Content": "# nx-serverless-monorepo\n\n[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)\n[![](https://img.shields.io/badge/monorepo-Nx-blue)](https://nx.dev/)\n![esbuild](https://badges.aleen42.com/src/esbuild.svg)\n![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/eslint-config-prettier/peer/eslint)\n![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sudokar/nx-serverless/blob/master/LICENSE)\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://isitmaintained.com/project/Naereen/badges 'Percentage of issues still open')\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sudokar/nx-serverless)\n![Maintained](https://img.shields.io/maintenance/yes/2024.svg)\n\n![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)\n![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)\n\nA monrepo style, modern boilerplate or template project for [Serverless framework](https://www.serverless.com/) using [Nx](https://nx.dev) monorepo toolkit 🛠 and `aws-nodejs-typescript` serverless template\n\n## Table of contents\n\n- [Whats Included](#whats-included)\n- [Template Layout](#template-layout)\n- [Prerequisites](#prerequisites)\n- [Usage](#usage)\n- [Further help](#further-help)\n- [Nx Cloud](#nx-cloud)\n- [Contribution](#contribution)\n- [Support](#support)\n- [Maintainer](#maintainer)\n- [License](#license)\n\n## Whats Included\n\n- A template project layout using latest version of Nx and Servrless framework\n- An easy to use workspace generator to generate a template/stack with Serverless framework files and related Nx configuration\n- Configured with AWS provider and it can be easily adopted to any cloud provider\n\n## Template Layout\n",
+    "ContentSha": "6HShzUgLwNS+60jeMjUXPWPjilyaojbD6t/F/V1kiNY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# nx-serverless-monorepo\n\n[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)\n[![](https://img.shields.io/badge/monorepo-Nx-blue)](https://nx.dev/)\n![esbuild](https://badges.aleen42.com/src/esbuild.svg)\n![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/eslint-config-prettier/peer/eslint)\n![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sudokar/nx-serverless/blob/master/LICENSE)\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://isitmaintained.com/project/Naereen/badges 'Percentage of issues still open')\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sudokar/nx-serverless)\n![Maintained](https://img.shields.io/maintenance/yes/2024.svg)\n\n![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)\n![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)\n\nUn proyecto plantilla o boilerplate moderno, estilo monorepo para el [framework Serverless](https://www.serverless.com/) usando la herramienta monorepo [Nx](https://nx.dev) 🛠 y la plantilla serverless `aws-nodejs-typescript`\n\n## Tabla de contenidos\n\n- [Qué incluye](#whats-included)\n- [Estructura de la plantilla](#template-layout)\n- [Requisitos previos](#prerequisites)\n- [Uso](#usage)\n- [Ayuda adicional](#further-help)\n- [Nx Cloud](#nx-cloud)\n- [Contribución](#contribution)\n- [Soporte](#support)\n- [Mantenedor](#maintainer)\n- [Licencia](#license)\n\n## Qué incluye\n\n- Un proyecto plantilla con la versión más reciente de Nx y el framework Serverless\n- Un generador de espacio de trabajo fácil de usar para crear una plantilla/pila con archivos del framework Serverless y configuración relacionada de Nx\n- Configurado con el proveedor AWS y que puede adaptarse fácilmente a cualquier proveedor en la nube\n\n## Estructura de la plantilla\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/2g9CREIOqvg1+gxQ3xCo4KL6yI7ax3r2+RNIC4Vdn8=",
+        "originContent": "# nx-serverless-monorepo",
+        "translatedContent": "# nx-serverless-monorepo"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "vjL/JdoDb+bR/K0791yfKIPpDUmEXf3o/p4sGCIiWto=",
+        "originContent": "[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)",
+        "translatedContent": "[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)"
+      },
+      {
+        "row": 4,
+        "rowsha": "XBXUjhAp0bD0TrfDcJQjutAjItRuVb/ltNuXuH3a4MA=",
+        "originContent": "[![](https://img.shields.io/badge/monorepo-Nx-blue)](https://nx.dev/)",
+        "translatedContent": "[![](https://img.shields.io/badge/monorepo-Nx-blue)](https://nx.dev/)"
+      },
+      {
+        "row": 5,
+        "rowsha": "A9zxsRYm/nSP9b57hf2mjuBy86reFFZk+IqxTMIJajU=",
+        "originContent": "![esbuild](https://badges.aleen42.com/src/esbuild.svg)",
+        "translatedContent": "![esbuild](https://badges.aleen42.com/src/esbuild.svg)"
+      },
+      {
+        "row": 6,
+        "rowsha": "1xqZ6XCf0AVxYyYLLhe1nHy/S0hS1klHdkbS1Yw/CeI=",
+        "originContent": "![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/eslint-config-prettier/peer/eslint)",
+        "translatedContent": "![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/eslint-config-prettier/peer/eslint)"
+      },
+      {
+        "row": 7,
+        "rowsha": "awH8hoClQ+QV/JPd14F28f670NmrC6fT8yOfdRlv03w=",
+        "originContent": "![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)",
+        "translatedContent": "![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)"
+      },
+      {
+        "row": 8,
+        "rowsha": "EvLOQRPeD+RllRNAaJTqxAfNUUKq3h+azestgvJipTU=",
+        "originContent": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sudokar/nx-serverless/blob/master/LICENSE)",
+        "translatedContent": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sudokar/nx-serverless/blob/master/LICENSE)"
+      },
+      {
+        "row": 9,
+        "rowsha": "ySLYyJB5TIDpxSmNg79iYWfXSiln1elGBV7Zj7Z2NDo=",
+        "originContent": "[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://isitmaintained.com/project/Naereen/badges 'Percentage of issues still open')",
+        "translatedContent": "[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://isitmaintained.com/project/Naereen/badges 'Percentage of issues still open')"
+      },
+      {
+        "row": 10,
+        "rowsha": "IPMXujauRn5ZwCzKx7UxRcS20Uz73EP0o0ruOR38ZgY=",
+        "originContent": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sudokar/nx-serverless)",
+        "translatedContent": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sudokar/nx-serverless)"
+      },
+      {
+        "row": 11,
+        "rowsha": "lAsrcnWH1v5jpj4HxnFznYBX9hQuHYma+/Fe2JUUUeo=",
+        "originContent": "![Maintained](https://img.shields.io/maintenance/yes/2024.svg)",
+        "translatedContent": "![Maintained](https://img.shields.io/maintenance/yes/2024.svg)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "MKqOu9x+QVj2804wPtmySDocU/lV7qouIfGPhj1tcsc=",
+        "originContent": "![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)",
+        "translatedContent": "![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)"
+      },
+      {
+        "row": 14,
+        "rowsha": "Z8Lqhaas94W+Kcn3fu46YhgJjsMcQCLI74k2jfnxve8=",
+        "originContent": "![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)",
+        "translatedContent": "![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "G4huZeMkjRgTU/Nc5t2mIKOdGBvHjvCJTDrtBehKXaA=",
+        "originContent": "A monrepo style, modern boilerplate or template project for [Serverless framework](https://www.serverless.com/) using [Nx](https://nx.dev) monorepo toolkit 🛠 and `aws-nodejs-typescript` serverless template",
+        "translatedContent": "Un proyecto plantilla o boilerplate moderno, estilo monorepo para el [framework Serverless](https://www.serverless.com/) usando la herramienta monorepo [Nx](https://nx.dev) 🛠 y la plantilla serverless `aws-nodejs-typescript`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "6zV3B2XA9xxg8fn1U1mBnEdZHXm91nNo4NI69Fqpeio=",
+        "originContent": "## Table of contents",
+        "translatedContent": "## Tabla de contenidos"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ae2SAxyA9/8aAhvGT835JNftN0+aXJ+hgVwIGBkbAjo=",
+        "originContent": "- [Whats Included](#whats-included)",
+        "translatedContent": "- [Qué incluye](#whats-included)"
+      },
+      {
+        "row": 21,
+        "rowsha": "QvOZFO/1CA51VSCF22iucBujb97zP0vJ2vz8UAWIYkU=",
+        "originContent": "- [Template Layout](#template-layout)",
+        "translatedContent": "- [Estructura de la plantilla](#template-layout)"
+      },
+      {
+        "row": 22,
+        "rowsha": "LkonNtZhFUHPWyu6Cn4cETMO6de7OmFiqwZwPbHI/z0=",
+        "originContent": "- [Prerequisites](#prerequisites)",
+        "translatedContent": "- [Requisitos previos](#prerequisites)"
+      },
+      {
+        "row": 23,
+        "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+        "originContent": "- [Usage](#usage)",
+        "translatedContent": "- [Uso](#usage)"
+      },
+      {
+        "row": 24,
+        "rowsha": "IQcOJytun7tT3D1GB0nT0LCsBhNcgrGmH+COmoHZe5s=",
+        "originContent": "- [Further help](#further-help)",
+        "translatedContent": "- [Ayuda adicional](#further-help)"
+      },
+      {
+        "row": 25,
+        "rowsha": "a7jvJDEcp08xFjKW38dK0w7y18/FHQvm6mBSjnpmnOY=",
+        "originContent": "- [Nx Cloud](#nx-cloud)",
+        "translatedContent": "- [Nx Cloud](#nx-cloud)"
+      },
+      {
+        "row": 26,
+        "rowsha": "KQOkycZYe/eCnWFADwAjSTTrZLrF2jqeZTOVpZuCY/8=",
+        "originContent": "- [Contribution](#contribution)",
+        "translatedContent": "- [Contribución](#contribution)"
+      },
+      {
+        "row": 27,
+        "rowsha": "lahTWakTmp+4s3T24bbU2/YcwML6l+Ls8ERzsjnRjeA=",
+        "originContent": "- [Support](#support)",
+        "translatedContent": "- [Soporte](#support)"
+      },
+      {
+        "row": 28,
+        "rowsha": "xJA5LOhKJNeqVCAJ37Y/jzfgJCRtYj+g2hWoRwiAvkM=",
+        "originContent": "- [Maintainer](#maintainer)",
+        "translatedContent": "- [Mantenedor](#maintainer)"
+      },
+      {
+        "row": 29,
+        "rowsha": "aiElU+9O/5KGvOFd7CcJXGSaQL0/8Fg5sGxP7wVVzv4=",
+        "originContent": "- [License](#license)",
+        "translatedContent": "- [Licencia](#license)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "/5lFZUtAUr2zxnc7Qv3M+D6QTw2zC8CyVYk0v2v11BE=",
+        "originContent": "## Whats Included",
+        "translatedContent": "## Qué incluye"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "5YhxBdnZtlHsiWTgtj4j67gupu5k3x3wXmt1OaT024I=",
+        "originContent": "- A template project layout using latest version of Nx and Servrless framework",
+        "translatedContent": "- Un proyecto plantilla con la versión más reciente de Nx y el framework Serverless"
+      },
+      {
+        "row": 34,
+        "rowsha": "PXrXldE+jR8VyBDMWgrcFQz7tS2EmWBNU9SGW4PF2cA=",
+        "originContent": "- An easy to use workspace generator to generate a template/stack with Serverless framework files and related Nx configuration",
+        "translatedContent": "- Un generador de espacio de trabajo fácil de usar para crear una plantilla/pila con archivos del framework Serverless y configuración relacionada de Nx"
+      },
+      {
+        "row": 35,
+        "rowsha": "weFOuwBGj1+ean44iWDPl1ID/o0W+e8mMlYgukzIybI=",
+        "originContent": "- Configured with AWS provider and it can be easily adopted to any cloud provider",
+        "translatedContent": "- Configurado con el proveedor AWS y que puede adaptarse fácilmente a cualquier proveedor en la nube"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "b1n3vXGpMvjzoNrl1yzOD4zUDF7Wnmgg243gDDHOI48=",
+        "originContent": "## Template Layout",
+        "translatedContent": "## Estructura de la plantilla"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\n.\n├── stacks/    # stack for each serverless configuration/template and its associated files\n├── libs/      # shared libraries\n├── tools/\n├── README.md\n├── jest.config.js\n├── jest.preset.js\n├── nx.json\n├── package.json\n├── serverless.base.ts  # base configuration for serverless\n├── tsconfig.base.json\n├── workspace.json\n├── .editorconfig\n├── .eslintrc.json\n├── .gitignore\n├── .husky              # git hooks\n├── .nvmrc\n├── .prettierignore\n├── .prettierrc\n```",
+    "ContentSha": "hfBZoNL5MPhqR0lJ7md1IyDU1i7B5EdEHqCZCJC7P1I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n.\n├── stacks/    # stack for each serverless configuration/template and its associated files\n├── libs/      # shared libraries\n├── tools/\n├── README.md\n├── jest.config.js\n├── jest.preset.js\n├── nx.json\n├── package.json\n├── serverless.base.ts  # base configuration for serverless\n├── tsconfig.base.json\n├── workspace.json\n├── .editorconfig\n├── .eslintrc.json\n├── .gitignore\n├── .husky              # git hooks\n├── .nvmrc\n├── .prettierignore\n├── .prettierrc\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+        "originContent": ".",
+        "translatedContent": "."
+      },
+      {
+        "row": 3,
+        "rowsha": "e6eR+UjxTWXPrPEj9heGOvL53Y9yj/FeN6zRJUPu8gY=",
+        "originContent": "├── stacks/    # stack for each serverless configuration/template and its associated files",
+        "translatedContent": "├── stacks/    # stack for each serverless configuration/template and its associated files"
+      },
+      {
+        "row": 4,
+        "rowsha": "d4+SKvg/eeiP+IeeBedfwwSj04NHf45LoN9HreVZFPU=",
+        "originContent": "├── libs/      # shared libraries",
+        "translatedContent": "├── libs/      # shared libraries"
+      },
+      {
+        "row": 5,
+        "rowsha": "L5fDiE+dNT+gDl0BwhaBxJQLSPMSDHIuI4X2+bG0C9Q=",
+        "originContent": "├── tools/",
+        "translatedContent": "├── tools/"
+      },
+      {
+        "row": 6,
+        "rowsha": "LoTAQfuqjLD8IIK02XWaCUrSST7uB7c6SX0sC1UqV4I=",
+        "originContent": "├── README.md",
+        "translatedContent": "├── README.md"
+      },
+      {
+        "row": 7,
+        "rowsha": "mD+1pSyPOeVkqDFBdVse8XCmc5iuQ6X1w7GXEf9TvEs=",
+        "originContent": "├── jest.config.js",
+        "translatedContent": "├── jest.config.js"
+      },
+      {
+        "row": 8,
+        "rowsha": "9E4baWLOQff20MKNBEcsmeRDT+Bk+8ulG/wgJV/lcHY=",
+        "originContent": "├── jest.preset.js",
+        "translatedContent": "├── jest.preset.js"
+      },
+      {
+        "row": 9,
+        "rowsha": "40M0fBx/e8bBL7xRqYz6+JxXtnR1hXClIRawCvAGHPo=",
+        "originContent": "├── nx.json",
+        "translatedContent": "├── nx.json"
+      },
+      {
+        "row": 10,
+        "rowsha": "AhN95DjCsvGbdhw0MXcReWFoW69AqswUUEGJGKGArfg=",
+        "originContent": "├── package.json",
+        "translatedContent": "├── package.json"
+      },
+      {
+        "row": 11,
+        "rowsha": "FtP/+4pFRaBT926Q37v66I5p42duJxKQ/ERaysZPHv0=",
+        "originContent": "├── serverless.base.ts  # base configuration for serverless",
+        "translatedContent": "├── serverless.base.ts  # base configuration for serverless"
+      },
+      {
+        "row": 12,
+        "rowsha": "hNtZ+a2td5bRC6wN/8QGCxDR9XWgzUaVLqLQzcyp4Po=",
+        "originContent": "├── tsconfig.base.json",
+        "translatedContent": "├── tsconfig.base.json"
+      },
+      {
+        "row": 13,
+        "rowsha": "XaqUaYFzRSC2JwDdVkPTr0cm9dzxeilBFvAIHRyHGS0=",
+        "originContent": "├── workspace.json",
+        "translatedContent": "├── workspace.json"
+      },
+      {
+        "row": 14,
+        "rowsha": "Do/QuWzCLx+COiIPPHwoG3lUnvgC/0gpd7Zihl7iYYw=",
+        "originContent": "├── .editorconfig",
+        "translatedContent": "├── .editorconfig"
+      },
+      {
+        "row": 15,
+        "rowsha": "5KgTHOYeoMYXMkrIerRUnT4ahtHkNDSkjvXo+MuE0Hc=",
+        "originContent": "├── .eslintrc.json",
+        "translatedContent": "├── .eslintrc.json"
+      },
+      {
+        "row": 16,
+        "rowsha": "Dm3O1B4oyvrK1Fu1Wo7waqoSuM7Lx4Rrn9MXr9glOUY=",
+        "originContent": "├── .gitignore",
+        "translatedContent": "├── .gitignore"
+      },
+      {
+        "row": 17,
+        "rowsha": "JjZW41yXy5YHRFV0BrQLc4wO8+wiIV7PM9nHKpLV9lA=",
+        "originContent": "├── .husky              # git hooks",
+        "translatedContent": "├── .husky              # git hooks"
+      },
+      {
+        "row": 18,
+        "rowsha": "G5wMRlxoPyEHlhi84CTEgjurlNxglI+E0F1RBPOP+iY=",
+        "originContent": "├── .nvmrc",
+        "translatedContent": "├── .nvmrc"
+      },
+      {
+        "row": 19,
+        "rowsha": "NhpN+lkUGoA4HC6dlpFE6Yhrt5C6xc5O4OlPOshMbx8=",
+        "originContent": "├── .prettierignore",
+        "translatedContent": "├── .prettierignore"
+      },
+      {
+        "row": 20,
+        "rowsha": "h5l3TgktyG+qLN/n9z40QOAJxHXHTiTsTCMnMTr5pRU=",
+        "originContent": "├── .prettierrc",
+        "translatedContent": "├── .prettierrc"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Prerequisites\n\n- [Nodejs](https://nodejs.org/) `protip: use nvm`\n\n  > :warning: **Version**: `lts/iron (v20)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.\n\n- :package: Package Manager\n\n  - [Yarn](https://yarnpkg.com)\n\n- 💅 Code format plugins\n\n  - [Eslint](https://eslint.org/)\n  - [Prettier](https://prettier.io/)\n  - [EditorConfig](https://editorconfig.org/)\n\n  > On your preferred code editor, Install plugins for the above list of tools\n\n## Usage\n\nDepending on your prefrered package manager, follow the instructions below to build and deploy serverless stack(s).\n\n- **Install project dependencies**\n",
+    "ContentSha": "mo/wCYBqVODsphCH2hv4FJuNIiV1AykZzJk7A1A7+CA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Requisitos previos\n\n- [Nodejs](https://nodejs.org/) `protip: usa nvm`\n\n  > :warning: **Versión**: `lts/iron (v20)`. Si estás usando [nvm](https://github.com/nvm-sh/nvm), ejecuta `nvm use` para asegurarte de que usas la misma versión de Node localmente y en el entorno de ejecución de tu lambda.\n\n- :package: Gestor de paquetes\n\n  - [Yarn](https://yarnpkg.com)\n\n- 💅 Plugins de formato de código\n\n  - [Eslint](https://eslint.org/)\n  - [Prettier](https://prettier.io/)\n  - [EditorConfig](https://editorconfig.org/)\n\n  > En tu editor de código preferido, instala los plugins para las herramientas listadas arriba\n\n## Uso\n\nDependiendo de tu gestor de paquetes preferido, sigue las instrucciones a continuación para construir y desplegar la(s) pila(s) serverless.\n\n- **Instalar dependencias del proyecto**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Requisitos previos"
+      },
+      {
+        "row": 2,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Nodejs](https://nodejs.org/) `protip: usa nvm`"
+      },
+      {
+        "row": 4,
+        "rowsha": "NsSpWF/CCr9OHZRoDGoK/YBsYgBi1Q+FgHGO/MUgBRE=",
+        "originContent": "- [Nodejs](https://nodejs.org/) `protip: use nvm`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  > :warning: **Versión**: `lts/iron (v20)`. Si estás usando [nvm](https://github.com/nvm-sh/nvm), ejecuta `nvm use` para asegurarte de que usas la misma versión de Node localmente y en el entorno de ejecución de tu lambda."
+      },
+      {
+        "row": 6,
+        "rowsha": "n8visVA0VfN34SpMvA+P0mYdye1L4QB6BHmPZmp9XbI=",
+        "originContent": "  > :warning: **Version**: `lts/iron (v20)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- :package: Gestor de paquetes"
+      },
+      {
+        "row": 8,
+        "rowsha": "hGp1g6M2GrnSbT6h5jkLRwZWiptT9sF6+56vqJLowMs=",
+        "originContent": "- :package: Package Manager",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - [Yarn](https://yarnpkg.com)"
+      },
+      {
+        "row": 10,
+        "rowsha": "EiDJMmFP50/+Y6fpEgJNaW9rXoIVyOBcsEMOgDb7ilo=",
+        "originContent": "  - [Yarn](https://yarnpkg.com)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 💅 Plugins de formato de código"
+      },
+      {
+        "row": 12,
+        "rowsha": "IDG/IspbNwKX7xBIgBoA4PQrVngeVOLudp15RaHHMsk=",
+        "originContent": "- 💅 Code format plugins",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - [Eslint](https://eslint.org/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "wKZG9DrHQvszilBs1Mw11pqsT1BGGGnfmWWmAYVuu20=",
+        "originContent": "  - [Eslint](https://eslint.org/)",
+        "translatedContent": "  - [Prettier](https://prettier.io/)"
+      },
+      {
+        "row": 15,
+        "rowsha": "EzUSmaFs1GvhqaQA1GvJ/QmDMiM3Mk2TNgHC+GL1Dl0=",
+        "originContent": "  - [Prettier](https://prettier.io/)",
+        "translatedContent": "  - [EditorConfig](https://editorconfig.org/)"
+      },
+      {
+        "row": 16,
+        "rowsha": "UPikJIH1REscLArdqBylwaxO1BFg8vl2aQTBOyheUWQ=",
+        "originContent": "  - [EditorConfig](https://editorconfig.org/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  > En tu editor de código preferido, instala los plugins para las herramientas listadas arriba"
+      },
+      {
+        "row": 18,
+        "rowsha": "YTiHJy8+H3waqOHvombB62S/b6T46XtQ9bsvxSTFQn8=",
+        "originContent": "  > On your preferred code editor, Install plugins for the above list of tools",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 20,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Dependiendo de tu gestor de paquetes preferido, sigue las instrucciones a continuación para construir y desplegar la(s) pila(s) serverless."
+      },
+      {
+        "row": 22,
+        "rowsha": "DAjG9cNMWj+/yKm6801MrApWaDs8xNf4a6U9UdUb5P8=",
+        "originContent": "Depending on your prefrered package manager, follow the instructions below to build and deploy serverless stack(s).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Instalar dependencias del proyecto**"
+      },
+      {
+        "row": 24,
+        "rowsha": "/QLkm6WciYDLjzEyUU662Fxha3VynlXCTSuxS3BrDnY=",
+        "originContent": "- **Install project dependencies**",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  ```shell\n  yarn install\n  ```",
+    "ContentSha": "slADmML19Wa+F8X3TiaAjthsyUd9qSFTKkyRqcKvfCs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```shell\n  yarn install\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ctqBIbIQwHfUlcvQWd1b1TVM5uUVSDxYTqmR3HMWKmU=",
+        "originContent": "  ```shell",
+        "translatedContent": "  ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "pEMf3SJ+V6QSGdZ/SKcRMze8Zgn2+lrmX5JnA1rKoNU=",
+        "originContent": "  yarn install",
+        "translatedContent": "  yarn install"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n- **Generate a new stack**\n",
+    "ContentSha": "o63iwOSKWO3kHe1cbO0mO/9Z/VDmQfiBTHsqSWV4/zo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **Generar una nueva pila**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "p92VLqvacCIhbZzGCUiQ5LLbcO2ZD3cYZm/g3l57yjw=",
+        "originContent": "- **Generate a new stack**",
+        "translatedContent": "- **Generar una nueva pila**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "  ```shell\n  nx g serverless <STACK_NAME>\n  ```",
+    "ContentSha": "st+5pFiAEKvhd5vWnNR8FHhYOolwfYYmK4m4k2uhsdc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```shell\n  nx g serverless <STACK_NAME>\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ctqBIbIQwHfUlcvQWd1b1TVM5uUVSDxYTqmR3HMWKmU=",
+        "originContent": "  ```shell",
+        "translatedContent": "  ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "WTgEnouL1/SVuK3pDEaXhEh52MbZnNbGQR2JQ+mIga4=",
+        "originContent": "  nx g serverless <STACK_NAME>",
+        "translatedContent": "  nx g serverless <STACK_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n  > Run with `-d` or `--dry-run` flag for dry run\n\n- **Generate a new library**\n",
+    "ContentSha": "2F31U11ir/R3Mx4FTxN8HWne4/AoMoIOHQ13iKrYCV0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n  > Ejecutar con la bandera `-d` o `--dry-run` para una ejecución en seco\n\n- **Generar una nueva biblioteca**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mvvSV2WFmr+/TFlqalIu6pO0TnWAjGze9r8Rfns1gd0=",
+        "originContent": "  > Run with `-d` or `--dry-run` flag for dry run",
+        "translatedContent": "  > Ejecutar con la bandera `-d` o `--dry-run` para una ejecución en seco"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NqtJMJXsizatDuyrtx+PWRBDDkJpoxBdm5qH2vj6Vds=",
+        "originContent": "- **Generate a new library**",
+        "translatedContent": "- **Generar una nueva biblioteca**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "  ```shell\n  nx g @nx/node:lib --skipBabelrc --tags lib <LIBRARY_NAME>\n  ```",
+    "ContentSha": "5ocgj3vt2ckY3tWAMQv+EuVl3YdsvM22yxrfTBdRxqU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```shell\n  nx g @nx/node:lib --skipBabelrc --tags lib <LIBRARY_NAME>\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ctqBIbIQwHfUlcvQWd1b1TVM5uUVSDxYTqmR3HMWKmU=",
+        "originContent": "  ```shell",
+        "translatedContent": "  ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "HXQK+2842pVeMmn+rg+J160ZsrKFcuXle0jOKn/krIs=",
+        "originContent": "  nx g @nx/node:lib --skipBabelrc --tags lib <LIBRARY_NAME>",
+        "translatedContent": "  nx g @nx/node:lib --skipBabelrc --tags lib <LIBRARY_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n  > Run with `-d` or `--dry-run` flag for dry run\n\n- **Package stack**\n\n  - To package single stack\n",
+    "ContentSha": "+HUz//NGeD1KXTgSwDk2C8IDGA+4ZW4I8UCJaVIu0dU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n  > Ejecutar con la opción `-d` o `--dry-run` para una ejecución de prueba\n\n- **Empaquetar stack**\n\n  - Para empaquetar un solo stack\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mvvSV2WFmr+/TFlqalIu6pO0TnWAjGze9r8Rfns1gd0=",
+        "originContent": "  > Run with `-d` or `--dry-run` flag for dry run",
+        "translatedContent": "  > Ejecutar con la opción `-d` o `--dry-run` para una ejecución de prueba"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JwDSHd8DG2oB9ScWDopbIBWr0uMsonX8G6YLBa2rQzw=",
+        "originContent": "- **Package stack**",
+        "translatedContent": "- **Empaquetar stack**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "UN/PnBe/is5GPU3R9GcGVg4/4acEP+eg/1waa5xmrt8=",
+        "originContent": "  - To package single stack",
+        "translatedContent": "  - Para empaquetar un solo stack"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```shell\n    nx run <STACK_NAME>:build --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "4MEXKQ0LS/JVDiRCrIuwNg/HIB1oU5phmmTuEj+8g7s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run <STACK_NAME>:build --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "QnxHOl3lqVHZzJubZbzTWVo//aaGDoKeVNsA6xOC5+Q=",
+        "originContent": "    nx run <STACK_NAME>:build --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run <STACK_NAME>:build --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n  - To package stack affected by a change\n",
+    "ContentSha": "T9WeYtbxzSayJjF13/WYwXHlZUUmqWvda05MnZB7+Es=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Empaquetar la pila afectada por un cambio\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - Empaquetar la pila afectada por un cambio"
+      },
+      {
+        "row": 2,
+        "rowsha": "Sl6q7z4xKsnRq7VZDnvopUsygQtBWBG56JlOHCfhym4=",
+        "originContent": "  - To package stack affected by a change",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "    ```shell\n    nx affected:build --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "pV+/JJPXYe+cIJDo8Y21wKh0FNSnrQ2ewebgNV7iVrM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx affected:build --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "/ZAannpFCAkAtuOePZCPIB5cktzlnRuQg69MBfBTUy8=",
+        "originContent": "    nx affected:build --stage=<STAGE_NAME>",
+        "translatedContent": "    nx affected:build --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n  - To package all stacks\n",
+    "ContentSha": "cRswxJ31PaybUhss4SBWPE/77eEm+Apv6KHSin1TJG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Para empaquetar todas las pilas\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - Para empaquetar todas las pilas"
+      },
+      {
+        "row": 2,
+        "rowsha": "YH7y9APDYXlixduW/6a3d/LSwTtXJnUeb38dSj9fGPM=",
+        "originContent": "  - To package all stacks",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "    ```shell\n    nx run-many --target=build --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "9chptd6pPR+tdKq7fiBEYshkZuuQCzmzKbcjLYJNqK0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run-many --target=build --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "zRuDo1r7iYsnlJAwXvXMmQbkdxVyKQlL7NqReWaFxQw=",
+        "originContent": "    nx run-many --target=build --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run-many --target=build --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n- **Deploy stack to cloud**\n\n  - To deploy single stack\n",
+    "ContentSha": "urAdZfq4BJoSoyaP0NlXyQ8fGSrHbZFr3eoU8JkQHvw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **Desplegar pila en la nube**\n\n  - Para desplegar una sola pila\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gbqfVIwb5Kqu3uOoj0WuxJKzuW5CN0XhTn2mkV+yixs=",
+        "originContent": "- **Deploy stack to cloud**",
+        "translatedContent": "- **Desplegar pila en la nube**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IBKfLVE4uPJ4gOkEqPi9uJ9AdxeXEEstXlKTgCuki7g=",
+        "originContent": "  - To deploy single stack",
+        "translatedContent": "  - Para desplegar una sola pila"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "    ```shell\n    nx run <STACK_NAME>:deploy --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "+QQRe6eqpTb9/DZVnZxZN6ub8xf05UbnRmFQNVra2z8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run <STACK_NAME>:deploy --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "TfkZrhpzsAfBy0lDu7DYGu2tR54EM9i8xGt0K6yn6BU=",
+        "originContent": "    nx run <STACK_NAME>:deploy --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run <STACK_NAME>:deploy --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n  - To deploy stack affected by a change\n",
+    "ContentSha": "Z3uaDHWZ+V5FpOGoSrxmlbwxYv/zo7yeTLUJjWQ1Rxo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n  - Para desplegar la pila afectada por un cambio\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uRflGyZAgmPPOU7jUrLBaLqBc/APpC6mhge9+sWJPXU=",
+        "originContent": "  - To deploy stack affected by a change",
+        "translatedContent": "  - Para desplegar la pila afectada por un cambio"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "    ```shell\n    nx affected:deploy --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "HkDaJmaieQUG6laXepKoY2sMSEfCiuCiMX/xiWIPzGU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx affected:deploy --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "5XZFca417a4BhoOhkg5JBaph7Y3GnfU89Tp8PpCcRDM=",
+        "originContent": "    nx affected:deploy --stage=<STAGE_NAME>",
+        "translatedContent": "    nx affected:deploy --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n  - To deploy all stacks\n",
+    "ContentSha": "F6mf//LrrQKOTGa++VqfGKgzoWjJf5yQke1RnqkthbU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Para desplegar todas las pilas\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - Para desplegar todas las pilas"
+      },
+      {
+        "row": 2,
+        "rowsha": "ISCsik1pLJ/Ae9m4KeS2gWi+6ZrbK6WOaFHqUa1S69E=",
+        "originContent": "  - To deploy all stacks",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "    ```shell\n    nx run-many --target=deploy --all --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "Qxt0uAraS3yjDY6LHeETvQRjX1vX2ywFt/d4J4Foa14=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run-many --target=deploy --all --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "VBYeFMkNFoG/M1eIfPfqMA106JJL7xkY8E9hnrifanA=",
+        "originContent": "    nx run-many --target=deploy --all --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run-many --target=deploy --all --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n- **Remove stack from cloud**\n\n  - To remove single stack\n",
+    "ContentSha": "Bd8/YZj0IPer/Rl+/bUJo5bvNTjmEhaK7Hse1eEJRhA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **Eliminar pila de la nube**\n\n  - Para eliminar una sola pila\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VpNQl50auhBNmB+Bxo8GBy6MkJUPDGYZFFdWox62rTg=",
+        "originContent": "- **Remove stack from cloud**",
+        "translatedContent": "- **Eliminar pila de la nube**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "D56lLd+pbdaEzYEAw7BtcDGLw8Ti3ayjAqHKOBHBrJY=",
+        "originContent": "  - To remove single stack",
+        "translatedContent": "  - Para eliminar una sola pila"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "    ```shell\n    nx run <STACK_NAME>:remove --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "oVXCUII7RFrcJXD9MX/anD1f0Nw4Y1moslnMdXXn23M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run <STACK_NAME>:remove --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "rMhJCve3alvZgxBqsujcC4nivEAeEw5M4KGva7u9RRU=",
+        "originContent": "    nx run <STACK_NAME>:remove --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run <STACK_NAME>:remove --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n  - To remove stack affected by a change\n",
+    "ContentSha": "Ic3Ex4MBCny8F7t5uNdvw9Kx97Xys2GqcaaduHg2/Es=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n  - Para eliminar la pila afectada por un cambio\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+VxgxIIcwltMGgKwJlXwaaRAXxIaFgaRftRiFG+C1IU=",
+        "originContent": "  - To remove stack affected by a change",
+        "translatedContent": "  - Para eliminar la pila afectada por un cambio"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "    ```shell\n    nx affected:remove --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "N5O4hT/LhrY5EiYMupMeseZIqQkLIF1udfYOaoUCmCY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx affected:remove --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "9EiiaLvdvdyXqQ3AA9GVrKxWx8H7KE8vLQQQFjsGN8A=",
+        "originContent": "    nx affected:remove --stage=<STAGE_NAME>",
+        "translatedContent": "    nx affected:remove --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n  - To remove all stacks\n",
+    "ContentSha": "pITJ/apnYYPcJB1siYLETWIEVQZ4XpIRvUaBnMIeTqU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Para eliminar todas las pilas\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - Para eliminar todas las pilas"
+      },
+      {
+        "row": 2,
+        "rowsha": "KSqtEdT4G5Gi6FM7eqL+fpgHhxjVWTTRkR3hg15FRE4=",
+        "originContent": "  - To remove all stacks",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "    ```shell\n    nx run-many --target=remove --all --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "UHiZBt2auMjK3o5bkhSq838ymQPOLrSVI/+O0WDT/Oc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run-many --target=remove --all --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "1ko+l7mfn/CkIi59if/gYi3pls5cDoW9XQYV3yFgI+s=",
+        "originContent": "    nx run-many --target=remove --all --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run-many --target=remove --all --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n- **Run tests**\n\n  - To run tests in single stack\n",
+    "ContentSha": "TDsqwRHvHtHSC1CIFBYf7cl8L/l4LLvkSheEutYCEZU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **Ejecutar pruebas**\n\n  - Para ejecutar pruebas en una sola pila\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lVcp9v0/wIWoc+/VWHt5hS2bZdOimklRFqOgZZJ7Y9o=",
+        "originContent": "- **Run tests**",
+        "translatedContent": "- **Ejecutar pruebas**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+ywa3HORDALot0UQxpyz/aAplZgnenz8/h0zhw1zIuI=",
+        "originContent": "  - To run tests in single stack",
+        "translatedContent": "  - Para ejecutar pruebas en una sola pila"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "    ```shell\n    nx run <STACK_NAME>:test --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "eFbyiLbf/WokZ7jzbMAqVhcvPPjAODnUoiaXm6c8ey4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run <STACK_NAME>:test --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "pEIdmKBUX3HvV9+bF9w5O/efuVd+tssbyzKbgoBNfrU=",
+        "originContent": "    nx run <STACK_NAME>:test --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run <STACK_NAME>:test --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n  - To run tests affected by a change\n",
+    "ContentSha": "aKRD7JkJdxZ17NnHw/bvdZBSvKPAdiijcfXJ7/2vvZ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n  - Para ejecutar pruebas afectadas por un cambio\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zOJ3z3zcF9Ce9N9NRSR2UsFDk5cKuYyfkUqerc3emGk=",
+        "originContent": "  - To run tests affected by a change",
+        "translatedContent": "  - Para ejecutar pruebas afectadas por un cambio"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "    ```shell\n    nx affected:test --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "wW9j4d98Qn84eYs+IMxxQ9r1K4isG4o7PL3cZQ7Y14Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx affected:test --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "ss8WUbJzkBA+QTzq2kBkwZhvoj3A84WnsR+3uhz+fQo=",
+        "originContent": "    nx affected:test --stage=<STAGE_NAME>",
+        "translatedContent": "    nx affected:test --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n  - To run tests in all stacks\n",
+    "ContentSha": "lh5Pk4hLai2mwuKG+QMPyt7GmvUUPDEQWnkODUe5Rh4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Para ejecutar pruebas en todas las pilas\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - Para ejecutar pruebas en todas las pilas"
+      },
+      {
+        "row": 2,
+        "rowsha": "pXUYt71l2/OPryShD0Bml+OfQeUUnaBqk605QQSW3Ic=",
+        "originContent": "  - To run tests in all stacks",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "    ```shell\n    nx run-many --target=test --all --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "zde0KWMoa14x0/yQm/r8DJUXgoxvJo/58Z9+l3dMJ/o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run-many --target=test --all --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Rc4rrP8sx/ESSTzPeIOEUM4z7+lBOEfLoREPoPGexK0=",
+        "originContent": "    nx run-many --target=test --all --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run-many --target=test --all --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n- **Run offline / locally**\n\n  - To run offlline, configure `serverless-offline` plugin as documented [here](https://github.com/dherault/serverless-offline) and run below command\n",
+    "ContentSha": "wi0Px6sd1uZELvb2kvzICUttW8/SKP3miC4gbknWD0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **Ejecutar sin conexión / localmente**\n\n  - Para ejecutar sin conexión, configure el plugin `serverless-offline` como se documenta [aquí](https://github.com/dherault/serverless-offline) y ejecute el siguiente comando\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KxiQOIr9kOsgiIDiGr0jk3h/HueYOLeO6K6Wx3J3RAU=",
+        "originContent": "- **Run offline / locally**",
+        "translatedContent": "- **Ejecutar sin conexión / localmente**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VvsioxfUo7aN90f3QUHfFicyWTrT0b+cMsSITEYLmrg=",
+        "originContent": "  - To run offlline, configure `serverless-offline` plugin as documented [here](https://github.com/dherault/serverless-offline) and run below command",
+        "translatedContent": "  - Para ejecutar sin conexión, configure el plugin `serverless-offline` como se documenta [aquí](https://github.com/dherault/serverless-offline) y ejecute el siguiente comando"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "    ```shell\n    nx run <STACK_NAME>:serve --stage=<STAGE_NAME>\n    ```",
+    "ContentSha": "/EdkQ+q2+HmVbUXhvWO5/9t7+ExEbJmOu1k1adK/CiU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n    nx run <STACK_NAME>:serve --stage=<STAGE_NAME>\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z2RdbN+IRGZCmxPMDWWB4w5TDScdWbv48952fx1Uauo=",
+        "originContent": "    nx run <STACK_NAME>:serve --stage=<STAGE_NAME>",
+        "translatedContent": "    nx run <STACK_NAME>:serve --stage=<STAGE_NAME>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "\n- **Understand your workspace**\n",
+    "ContentSha": "MAXRm1IP5ec7Cu13kjrty7kOGlWiuzreV1h1v8gUWR4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **Entiende tu espacio de trabajo**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jiz2Gcj9HDf5kxGTCp7sWCim0Ccm7blB3b4CW7myO4s=",
+        "originContent": "- **Understand your workspace**",
+        "translatedContent": "- **Entiende tu espacio de trabajo**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 36,
+    "Content": "  ```\n  nx dep-graph\n  ```",
+    "ContentSha": "bWETctYjVHmG1y3ZEUgdRMrDWAxAZ9b6+oPn+1iporw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  nx dep-graph\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "7VU6kvgMPTVZQrJEHg3kfVnAR3GYmNWukger+ZjwWrc=",
+        "originContent": "  nx dep-graph",
+        "translatedContent": "  nx dep-graph"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 37,
+    "Content": "\n## Further help\n\n- Visit [Serverless Documentation](https://www.serverless.com/framework/docs/) to learn more about Serverless framework\n- Visit [Nx Documentation](https://nx.dev) to learn more about Nx dev toolkit\n- Why NX, not Lerna? Lerna is no longer maintained\n\n## Nx Cloud\n\n##### Computation Memoization in the Cloud\n\n​ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times.\n\n​ Visit [Nx Cloud](https://nx.app/) to learn more and enable it\n\n## Contribution\n\nFound an issue? feel free to raise an issue with information to reproduce.\n\nPull requests are welcome to improve.\n\n## Support\n\nLike the template?\n\nClick to <a href=\"https://www.buymeacoffee.com/sudokar\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"50\" width=\"250\"></a>\n\nOr, Add a star :star: to the repository\n\n## Maintainer\n\nThis template is authored and maintained by [sudokar](https://github.com/sudokar)\n\n## License\n\nMIT\n",
+    "ContentSha": "hBvL96LC6J0jB3Z17b00E3MRRZH5ADmMJchX2nOopnM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Ayuda adicional\n\n- Visita [Documentación de Serverless](https://www.serverless.com/framework/docs/) para aprender más sobre el framework Serverless\n- Visita [Documentación de Nx](https://nx.dev) para aprender más sobre la herramienta de desarrollo Nx\n- ¿Por qué NX y no Lerna? Lerna ya no se mantiene\n\n## Nx Cloud\n\n##### Memoización de Cómputos en la Nube\n\n​ Nx Cloud se integra con Nx para permitirte construir y probar código más rápidamente, hasta 10 veces más rápido.\n\n​ Visita [Nx Cloud](https://nx.app/) para aprender más y habilitarlo\n\n## Contribución\n\n¿Encontraste un problema? siéntete libre de crear un issue con información para reproducirlo.\n\nSe aceptan pull requests para mejorar.\n\n## Soporte\n\n¿Te gusta la plantilla?\n\nHaz clic en <a href=\"https://www.buymeacoffee.com/sudokar\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"50\" width=\"250\"></a>\n\nO, añade una estrella :star: al repositorio\n\n## Mantenedor\n\nEsta plantilla fue creada y es mantenida por [sudokar](https://github.com/sudokar)\n\n## Licencia\n\nMIT\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "OcohzSivhkL52oIHxtSQgKi7PsOH+n8pP0K74JZVWc4=",
+        "originContent": "## Further help",
+        "translatedContent": "## Ayuda adicional"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "db4mrDdwW5ZYMBmHKquDsbHlmPMRE5OzWm5COB/UMsQ=",
+        "originContent": "- Visit [Serverless Documentation](https://www.serverless.com/framework/docs/) to learn more about Serverless framework",
+        "translatedContent": "- Visita [Documentación de Serverless](https://www.serverless.com/framework/docs/) para aprender más sobre el framework Serverless"
+      },
+      {
+        "row": 5,
+        "rowsha": "Bm5hrpYveU0PepOosvizAl3frRLSjzOKwrufmENDJQI=",
+        "originContent": "- Visit [Nx Documentation](https://nx.dev) to learn more about Nx dev toolkit",
+        "translatedContent": "- Visita [Documentación de Nx](https://nx.dev) para aprender más sobre la herramienta de desarrollo Nx"
+      },
+      {
+        "row": 6,
+        "rowsha": "suXtoBlrOzfM68810+06juj7YlSod8DHEx3LJSlOTdA=",
+        "originContent": "- Why NX, not Lerna? Lerna is no longer maintained",
+        "translatedContent": "- ¿Por qué NX y no Lerna? Lerna ya no se mantiene"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "hOkNfB+X2wHSChwaW+tl2xdrFEtn3bQ4ZMZCueIOH0M=",
+        "originContent": "## Nx Cloud",
+        "translatedContent": "## Nx Cloud"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "KVKayJvWGNuZjk+yBkG7JRwLRgM5C3HIMO9ZauakTaA=",
+        "originContent": "##### Computation Memoization in the Cloud",
+        "translatedContent": "##### Memoización de Cómputos en la Nube"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "O6DUi4Ri2fDFlyY59C1RI/xSkEO8tKh0F3XrKAmyPvs=",
+        "originContent": "​ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times.",
+        "translatedContent": "​ Nx Cloud se integra con Nx para permitirte construir y probar código más rápidamente, hasta 10 veces más rápido."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "fvqOvQl3ew5+yiqn5KDTlwJWVGeHOO777n6smWqUy+I=",
+        "originContent": "​ Visit [Nx Cloud](https://nx.app/) to learn more and enable it",
+        "translatedContent": "​ Visita [Nx Cloud](https://nx.app/) para aprender más y habilitarlo"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "zkHOt0UOVxAJsBonYtcjf1+nJbrp5LIAt7uYkWjQMOM=",
+        "originContent": "## Contribution",
+        "translatedContent": "## Contribución"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "DeCyfWZLiDDMWS5930zmqBNmSqbzIEqeso1TyEFq0kM=",
+        "originContent": "Found an issue? feel free to raise an issue with information to reproduce.",
+        "translatedContent": "¿Encontraste un problema? siéntete libre de crear un issue con información para reproducirlo."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "1YruiJ+AiN41iw9lTnVq0EIw0hcqiu83g6SW4CCDO/s=",
+        "originContent": "Pull requests are welcome to improve.",
+        "translatedContent": "Se aceptan pull requests para mejorar."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+        "originContent": "## Support",
+        "translatedContent": "## Soporte"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "LcELMAL2DhdhUvpfuKoDn1x9jKVm6BTZBu4x3HcqLMY=",
+        "originContent": "Like the template?",
+        "translatedContent": "¿Te gusta la plantilla?"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "zrnqIspe0D7ygQ9VzM8NMbkiLrqJS/UqBTJo5mGWa4M=",
+        "originContent": "Click to <a href=\"https://www.buymeacoffee.com/sudokar\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"50\" width=\"250\"></a>",
+        "translatedContent": "Haz clic en <a href=\"https://www.buymeacoffee.com/sudokar\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"50\" width=\"250\"></a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "AvMYfzEHBE/DRYQ0Xl11eLlBYyL6yx83g0TzsYSdn5g=",
+        "originContent": "Or, Add a star :star: to the repository",
+        "translatedContent": "O, añade una estrella :star: al repositorio"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "WSxkKTE7+Frs2DSSdGU2Iv+AQpnH4Kh8kvc+9g9iMzs=",
+        "originContent": "## Maintainer",
+        "translatedContent": "## Mantenedor"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "IIb+EaXcevOSOdyawvqmiqZD3Av/BPDD6kqxKA2yGYc=",
+        "originContent": "This template is authored and maintained by [sudokar](https://github.com/sudokar)",
+        "translatedContent": "Esta plantilla fue creada y es mantenida por [sudokar](https://github.com/sudokar)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

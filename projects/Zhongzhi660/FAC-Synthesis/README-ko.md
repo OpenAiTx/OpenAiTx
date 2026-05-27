@@ -1,31 +1,63 @@
-# 적게 하는 것이 충분하다: LLM의 특징 공간에서 다양한 데이터 합성하기
 
-이것은 논문 `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`의 공식 구현입니다.
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Zhongzhi660&project=FAC-Synthesis&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Less is Enough: LLM의 특성 공간에서 다양한 데이터 합성하기
+
+본 논문 `Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs`의 공식 구현입니다.
 
 ---
 
-## 핵심 통찰
+## 핵심 인사이트
 
-✨ **더 열심히 하기보다 더 똑똑하게 일하라.**
+✨ **더 똑똑하게 일하세요, 더 열심히가 아니라.**
 
-LLM의 사후 훈련 단계에서, 무작정 대량의 표면 수준의 다양한 텍스트를 추가하기보다는 **진정으로 부족한 핵심 특징**을 정확히 식별하고 합성하는 것이 더 효과적입니다. 소수의 목표 지향적 합성 샘플만으로도 **특징 활성화 커버리지 (FAC)**의 공백을 크게 메울 수 있어 하위 작업에서 명확한 성능 향상을 이끌어냅니다.
+LLM의 사후 훈련 단계에서는 표면적으로 다양한 대용량 텍스트를 무작정 추가하기보다는, **정말로 누락된 핵심 특성**을 정확하게 식별하고 합성하는 것이 훨씬 더 효과적입니다. 소수의 타깃 합성 샘플만으로도 **Feature Activation Coverage (FAC)**의 격차를 크게 메울 수 있어, 다운스트림 작업에서 명확한 성능 향상을 이끌어낼 수 있습니다.
 
-### 왜 이 통찰이 단순하면서도 강력한가?
+### 왜 이 통찰이 단순하면서도 강력한가요?
 
-전통적인 데이터 합성은 양과 표면적 다양성(어휘, 문장 패턴, 주제 분포)에 초점을 맞추지만, 이는 종종 **약한 대리 지표**에 불과합니다. 모델의 하위 작업 성능을 진정으로 결정하는 것은 **목표 작업에 필요한 핵심 특징의 커버리지**입니다.
+전통적인 데이터 합성은 양과 표면적 다양성(어휘, 문장 패턴, 주제 분포)에 집중하지만, 이는 종종 **약한 대리 지표**에 불과합니다. 모델의 다운스트림 성능을 진정으로 결정하는 것은 **목표 작업에 필요한 핵심 특성의 커버리지**입니다.
 
-우리 연구는 다음을 밝혀냅니다:
+우리의 연구에서 밝혀진 점:
 
-- "매우 달라 보이는" 많은 텍스트가 실제로는 매우 겹치는 특징을 활성화한다;
-- **FAC**는 표준 다양성 지표들보다 하위 작업 성능을 훨씬 잘 예측한다. 여기에는 단어 수준의 **Distinct-1/2**와 **n-gram 엔트로피**, 구문 수준의 **POS-tag Distinct-2**, 임베딩 수준의 **Pair CosDist**와 **Semantic Entropy**가 포함된다.  
-- 지시 수행에서는, **FAC 합성**이 이전 SOTA인 **MAGPIE**와 비슷한 성능을 달성하면서 MAGPIE보다 **150배 적은 데이터**를 요구한다.
+- "겉보기에는 매우 다른" 많은 텍스트가 실제로는 매우 유사한 특성을 활성화합니다.
+- **FAC**는 다운스트림 성능을 표준 다양성 지표들보다 훨씬 더 잘 예측합니다. 여기에는 단어 수준의 **Distinct-1/2** 및 **n-gram Entropy**, 구문 수준의 **POS-tag Distinct-2**, 임베딩 수준의 **Pair CosDist** 및 **Semantic Entropy**가 포함됩니다.  
+- 인스트럭션 팔로잉에서, **FAC Synthesis**는 기존 SOTA인 **MAGPIE**와 유사한 성능을 달성하면서도 MAGPIE보다 **150배 적은 데이터**만을 필요로 합니다.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zhongzhi660/FAC-Synthesis/main/figures/Figure_0.png" width="400" />
 </p>
 
 <p align="center">
-  <b>그림 1:</b> 지시 수행 데이터셋의 효율성 경계선. 제안된 방법은 2K개의 합성 샘플만 사용(대비 MAGPIE는 30만)하면서 AlpacaEval 2.0에서 MAGPIE와 비슷한 승률을 달성한다.
+  <b>그림 1:</b> 인스트럭션 팔로잉 데이터셋의 효율 프론티어. 제안한 방법은 2K 합성 샘플만으로(대 MAGPIE의 300K) AlpacaEval 2.0에서 MAGPIE와 유사한 Win Rate를 달성합니다.
 </p>
 
 ---
@@ -149,6 +181,6 @@ python generate_data_llama_r2.py \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-27
 
 ---
