@@ -1,0 +1,477 @@
+[
+  {
+    "Id": 1,
+    "Content": "# qcc\n\n  <!-- badges: start -->\n  [![CRAN\\_Status\\_Badge](http://www.r-pkg.org/badges/version/qcc)](https://cran.r-project.org/package=qcc)\n  [![CRAN\\_MonthlyDownloads](http://cranlogs.r-pkg.org/badges/qcc)](https://cran.r-project.org/package=qcc)\n  [![R-CMD-check](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml)\n  <!-- badges: end -->\n\n<!-- \n# TODO: logo\n<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/logo.png\" align=\"right\" width=\"100px \" alt=\"\"/>\n-->\n\nAn [R](https://www.r-project.org/) package for **quality control charting and statistical process control**.\n\n<center>\n<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/qcc_ani.gif\" alt=\"qcc animation\" style=\"width: 70%\" />\n</center>\n<br>\n\nThe **qcc** package provides quality control tools for statistical process control:\n\n  - Shewhart quality control charts for continuous, attribute and count\n    data.\n  - Cusum and EWMA charts.\n  - Operating characteristic curves.\n  - Process capability analysis.\n  - Pareto chart and cause-and-effect chart.\n  - Multivariate control charts.\n\n## Installation\n\nYou can install the released version of **qcc** from CRAN:\n",
+    "ContentSha": "KWM1X6B5LGp/NzIWQE5d3a55fjH/LmJSEXkkxADw/pI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# qcc\n\n  <!-- badges: start -->\n  [![CRAN\\_Status\\_Badge](http://www.r-pkg.org/badges/version/qcc)](https://cran.r-project.org/package=qcc)\n  [![CRAN\\_MonthlyDownloads](http://cranlogs.r-pkg.org/badges/qcc)](https://cran.r-project.org/package=qcc)\n  [![R-CMD-check](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml)\n  <!-- badges: end -->\n\n<!-- \n# TODO: logo\n<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/logo.png\" align=\"right\" width=\"100px \" alt=\"\"/>\n-->\n\nAn [R](https://www.r-project.org/) package for **quality control charting and statistical process control**.\n\n<center>\n<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/qcc_ani.gif\" alt=\"qcc animation\" style=\"width: 70%\" />\n</center>\n<br>\n\nThe **qcc** package provides quality control tools for statistical process control:\n\n  - Shewhart quality control charts for continuous, attribute and count\n    data.\n  - Cusum and EWMA charts.\n  - Operating characteristic curves.\n  - Process capability analysis.\n  - Pareto chart and cause-and-effect chart.\n  - Multivariate control charts.\n\n## Installation\n\nYou can install the released version of **qcc** from CRAN:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ow33Y86V/szuspyPuQqqJhghQ7VFCKUR7Gv0PI/4LJY=",
+        "originContent": "# qcc",
+        "translatedContent": "# qcc"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "2gJjUE9IUFFNPTDc3plLC6RwYxqEXBQL3glbJzOuy48=",
+        "originContent": "  <!-- badges: start -->",
+        "translatedContent": "  <!-- badges: start -->"
+      },
+      {
+        "row": 4,
+        "rowsha": "TvEq7cIkCVrF8UHAcb1R+tCOEBMHnV/3q/4fRhn9QF4=",
+        "originContent": "  [![CRAN\\_Status\\_Badge](http://www.r-pkg.org/badges/version/qcc)](https://cran.r-project.org/package=qcc)",
+        "translatedContent": "  [![CRAN\\_Status\\_Badge](http://www.r-pkg.org/badges/version/qcc)](https://cran.r-project.org/package=qcc)"
+      },
+      {
+        "row": 5,
+        "rowsha": "90M/XqWSL+mlVmn6GvUdPSYth0Jg3OB5AQH86j3cmWg=",
+        "originContent": "  [![CRAN\\_MonthlyDownloads](http://cranlogs.r-pkg.org/badges/qcc)](https://cran.r-project.org/package=qcc)",
+        "translatedContent": "  [![CRAN\\_MonthlyDownloads](http://cranlogs.r-pkg.org/badges/qcc)](https://cran.r-project.org/package=qcc)"
+      },
+      {
+        "row": 6,
+        "rowsha": "ila8sZ+Uz7SspARyCK6ozFqATT6WVZAEH1IsNIhg9hc=",
+        "originContent": "  [![R-CMD-check](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml)",
+        "translatedContent": "  [![R-CMD-check](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/luca-scr/qcc/actions/workflows/R-CMD-check.yaml)"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZOM2UKdHtZhAY89avbeYccuBXPk7pCKWZfbhrlN7A6U=",
+        "originContent": "  <!-- badges: end -->",
+        "translatedContent": "  <!-- badges: end -->"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "RU0q/UtVDC+mNFGNMDxHOlylYF/5rsBe7vM7iP1MvNk=",
+        "originContent": "<!-- ",
+        "translatedContent": "<!-- "
+      },
+      {
+        "row": 10,
+        "rowsha": "fRRiHMwrE+DD9BIV+HvUfdN7YOJl6vSWlp5Z9AiJgSM=",
+        "originContent": "# TODO: logo",
+        "translatedContent": "# TODO: logo"
+      },
+      {
+        "row": 11,
+        "rowsha": "hVR6zmq9TImmF2DXeQWUMquS9Oeq64sq8dM3pfgtavE=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/logo.png\" align=\"right\" width=\"100px \" alt=\"\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/logo.png\" align=\"right\" width=\"100px \" alt=\"\"/>"
+      },
+      {
+        "row": 12,
+        "rowsha": "XVud5tm5Xz4MlQr+dCpbs5yyX25uiGwQYDMQt788ujU=",
+        "originContent": "-->",
+        "translatedContent": "-->"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Bioh6EFjW2/CdktuOTKgpLEmetRfa5RzglRb//jeiek=",
+        "originContent": "An [R](https://www.r-project.org/) package for **quality control charting and statistical process control**.",
+        "translatedContent": "An [R](https://www.r-project.org/) package for **quality control charting and statistical process control**."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "NvIt6oyP7oJOw163oQxE13ksiH8YLrxXRbO73VM1aT0=",
+        "originContent": "<center>",
+        "translatedContent": "<center>"
+      },
+      {
+        "row": 17,
+        "rowsha": "eFbxbOtBnv7I7PAzXWNh6D+YOrUtk2yoEivBic9i/38=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/qcc_ani.gif\" alt=\"qcc animation\" style=\"width: 70%\" />",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/luca-scr/qcc/master/man/figures/qcc_ani.gif\" alt=\"qcc animation\" style=\"width: 70%\" />"
+      },
+      {
+        "row": 18,
+        "rowsha": "N0GDUlEjTxuCEQhngpjfnKbhp7siPAQ0ths/EZgYKx8=",
+        "originContent": "</center>",
+        "translatedContent": "</center>"
+      },
+      {
+        "row": 19,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "4AJlZRdP5hjkRxZXoduYWfQkID/OFVN7ZemiizwDSOI=",
+        "originContent": "The **qcc** package provides quality control tools for statistical process control:",
+        "translatedContent": "The **qcc** package provides quality control tools for statistical process control:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "PY98yfRH5yGgH5JX+bIzxrZ/Bgozu7z+ef+G+FNRwNY=",
+        "originContent": "  - Shewhart quality control charts for continuous, attribute and count",
+        "translatedContent": "  - Shewhart quality control charts for continuous, attribute and count"
+      },
+      {
+        "row": 24,
+        "rowsha": "XcKfmpJ/LHruQCSRLIH8OPgKOeIRHkJoo71pZwDAAMA=",
+        "originContent": "    data.",
+        "translatedContent": "    data."
+      },
+      {
+        "row": 25,
+        "rowsha": "rOWxGAdT25bjwvD4QptzlhrPqvjh6vYIWvZ4IXnTvo4=",
+        "originContent": "  - Cusum and EWMA charts.",
+        "translatedContent": "  - Cusum and EWMA charts."
+      },
+      {
+        "row": 26,
+        "rowsha": "p7LhQHjjLf//C0omC6geNJ7a8htW67w70fjOIc2cgNI=",
+        "originContent": "  - Operating characteristic curves.",
+        "translatedContent": "  - Operating characteristic curves."
+      },
+      {
+        "row": 27,
+        "rowsha": "XQjLwzlTlA8HO2Qaaxt4J30mtPZRwOAIl/1GMzaEVZQ=",
+        "originContent": "  - Process capability analysis.",
+        "translatedContent": "  - Process capability analysis."
+      },
+      {
+        "row": 28,
+        "rowsha": "/zC8HG0q60CNSbG+UQw8ckA59rOiUNpG2SGLWznxZEI=",
+        "originContent": "  - Pareto chart and cause-and-effect chart.",
+        "translatedContent": "  - Pareto chart and cause-and-effect chart."
+      },
+      {
+        "row": 29,
+        "rowsha": "puhXqPYGhYOjdJ/XZbyr13hIkKNr/c2QyEWlyW8E1HY=",
+        "originContent": "  - Multivariate control charts.",
+        "translatedContent": "  - Multivariate control charts."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qDQrXq5ZTLC/KitAXSVZGfHCkMKtKayoWYHZXYnw3is=",
+        "originContent": "You can install the released version of **qcc** from CRAN:",
+        "translatedContent": "You can install the released version of **qcc** from CRAN:"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "``` r\ninstall.packages(\"qcc\")\n```",
+    "ContentSha": "PaIVC7SCjknjsj1U7n0NCV7KXsCSdChLMGuc5lgFS6k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` r\ninstall.packages(\"qcc\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HW+/4C3UI5euHUtNfcvI4A1MA95CRw9PnFPnMK+IviQ=",
+        "originContent": "``` r",
+        "translatedContent": "``` r"
+      },
+      {
+        "row": 2,
+        "rowsha": "1F7bpzTDx4//sBWDTfErWaVmrLO4bM66Gkh3pjn+ILw=",
+        "originContent": "install.packages(\"qcc\")",
+        "translatedContent": "install.packages(\"qcc\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nor the development version from GitHub:\n",
+    "ContentSha": "m8EqSw80/JUNJTHsMD7/5COZBd2TZ1Rd/zteVoy/qAo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "or the development version from GitHub:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "or the development version from GitHub:"
+      },
+      {
+        "row": 2,
+        "rowsha": "tqh0gn9cycLf0LdOvnqhe6DTqOMwyAemiHdnPL7eXEU=",
+        "originContent": "or the development version from GitHub:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "``` r\n# install.packages(\"devtools\")\ndevtools::install_github(\"luca-scr/qcc\", build = TRUE, build_opts = c(\"--no-resave-data\", \"--no-manual\"))\n```",
+    "ContentSha": "DYhvmaiafoCQAxLP8WUAsbtsxpNZ0rxko3MsKCDRsHM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` r\n# install.packages(\"devtools\")\ndevtools::install_github(\"luca-scr/qcc\", build = TRUE, build_opts = c(\"--no-resave-data\", \"--no-manual\"))\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HW+/4C3UI5euHUtNfcvI4A1MA95CRw9PnFPnMK+IviQ=",
+        "originContent": "``` r",
+        "translatedContent": "``` r"
+      },
+      {
+        "row": 2,
+        "rowsha": "9UiORxKvAm9zYqtmRkzlffavtlv6aHdKKaNFWey8G3A=",
+        "originContent": "# install.packages(\"devtools\")",
+        "translatedContent": "# install.packages(\"devtools\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "qHrEALKLJzhsDbDMY0H9+CefOXPzBV2TEuZy8M/y2OU=",
+        "originContent": "devtools::install_github(\"luca-scr/qcc\", build = TRUE, build_opts = c(\"--no-resave-data\", \"--no-manual\"))",
+        "translatedContent": "devtools::install_github(\"luca-scr/qcc\", build = TRUE, build_opts = c(\"--no-resave-data\", \"--no-manual\"))"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Usage\n\nUsage of the main functions and some examples are included in Scrucca (2004). \nThe vignette *A quick tour of qcc* is also available with the command:\n",
+    "ContentSha": "I7BPT7V53mkHXTcFAlFSczycdquOr6pg4uF13ObUxUs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Usage\n\nUsage of the main functions and some examples are included in Scrucca (2004). \nThe vignette *A quick tour of qcc* is also available with the command:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wkjF0B9xO4Vt/WQlgO84z+P981E0PGEQGwyDq9B7bYM=",
+        "originContent": "Usage of the main functions and some examples are included in Scrucca (2004). ",
+        "translatedContent": "Usage of the main functions and some examples are included in Scrucca (2004). "
+      },
+      {
+        "row": 5,
+        "rowsha": "UmKTm8nr3V1gujdYgHZFYteS51CvfxmwrtVW7aibOPE=",
+        "originContent": "The vignette *A quick tour of qcc* is also available with the command:",
+        "translatedContent": "The vignette *A quick tour of qcc* is also available with the command:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "``` r\nvignette(\"qcc\")\n```",
+    "ContentSha": "au7KIPSeN5sAKdzOReNOg2teyS9SfEqYVdAVQC8c3o8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` r\nvignette(\"qcc\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HW+/4C3UI5euHUtNfcvI4A1MA95CRw9PnFPnMK+IviQ=",
+        "originContent": "``` r",
+        "translatedContent": "``` r"
+      },
+      {
+        "row": 2,
+        "rowsha": "aoTkHyBHyCNuokYQjEH+QYOS+c/eB+c+GBdwbIYarNw=",
+        "originContent": "vignette(\"qcc\")",
+        "translatedContent": "vignette(\"qcc\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nor through the GitHub web page of the package at <https://luca-scr.github.io/qcc/>.\n\n## References\n\nMontgomery, D.C. (2009) *Introduction to Statistical Quality Control*, 6th ed. New York: John Wiley & Sons.\n\nScrucca, L. (2004) [qcc: an R package for quality control charting and\nstatistical process control](https://luca-scr.github.io//R/Rnews_2004-1-pag11-17.pdf). *R News* 4/1, 11-17. \n\n",
+    "ContentSha": "Ni+zoRnlJPuXMh2I1AgdUkzmlNRzpuMMjxztoI5XDTs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "or through the GitHub web page of the package at <https://luca-scr.github.io/qcc/>.\n\n## References\n\nMontgomery, D.C. (2009) *Introduction to Statistical Quality Control*, 6th ed. New York: John Wiley & Sons.\n\nScrucca, L. (2004) [qcc: an R package for quality control charting and\nstatistical process control](https://luca-scr.github.io//R/Rnews_2004-1-pag11-17.pdf). *R News* 4/1, 11-17. \n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "or through the GitHub web page of the package at <https://luca-scr.github.io/qcc/>."
+      },
+      {
+        "row": 2,
+        "rowsha": "60GRZ7VWQXpcTCnSdMohLmhPVh/3YDGdd5/nzwBjfU4=",
+        "originContent": "or through the GitHub web page of the package at <https://luca-scr.github.io/qcc/>.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## References"
+      },
+      {
+        "row": 4,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Montgomery, D.C. (2009) *Introduction to Statistical Quality Control*, 6th ed. New York: John Wiley & Sons."
+      },
+      {
+        "row": 6,
+        "rowsha": "OGlsq5LhhV+x3JHd170sVIBuGrkvTEb0qH+P8drRoRs=",
+        "originContent": "Montgomery, D.C. (2009) *Introduction to Statistical Quality Control*, 6th ed. New York: John Wiley & Sons.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Scrucca, L. (2004) [qcc: an R package for quality control charting and"
+      },
+      {
+        "row": 8,
+        "rowsha": "bSWT5UQqQydv1nCxdeT5vk2XZJzeCs1B3SVNlRLAV1k=",
+        "originContent": "Scrucca, L. (2004) [qcc: an R package for quality control charting and",
+        "translatedContent": "statistical process control](https://luca-scr.github.io//R/Rnews_2004-1-pag11-17.pdf). *R News* 4/1, 11-17. "
+      },
+      {
+        "row": 9,
+        "rowsha": "WCzLcxbzFx4FKIbUFoZ32+0lRwLAc4OzesFbYdV5ykw=",
+        "originContent": "statistical process control](https://luca-scr.github.io//R/Rnews_2004-1-pag11-17.pdf). *R News* 4/1, 11-17. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
