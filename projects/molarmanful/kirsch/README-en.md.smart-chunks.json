@@ -1,0 +1,1185 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n\n![kirsch](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/header.png)\n\n</div>\n\n## Table of Contents\n\n- [Table of Contents](#table-of-contents)\n- [Overview](#overview)\n- [Gallery](#gallery)\n- [Installation/Usage](#installation/usage)\n  - [Nerd Fonts](#nerd-fonts)\n  - [Propo](#propo)\n  - [Nixpkgs](#nixpkgs)\n  - [Nix Flakes](#nix-flakes)\n  - [Web](#web)\n- [Design Notes](#design-notes)\n  - [Flourishes](#flourishes)\n  - [Gaps](#gaps)\n- [Contributing](#contributing)\n- [Credits](#credits)\n- [Licensing](#licensing)\n\n## Overview\n\n**kirsch** /ˈkɪərʃ/ _n._\n\n1. _(German)_ cherry.\n\n1. _(Russell A. Kirsch, 1929 - 2020)_ American engineer recognized as the\n   developer of the first digital image scanner and the inventor of the pixel.\n\n1. A monospace bitmap font with a 6x16 bounding box (5px avg width, 4px descent,\n   12px ascent, 5px x-height, 9px cap height). It draws from a variety of\n   letterforms and motifs to create a distinct humanist feel at a compact size.\n\n   Some glyphs come from [Cozette](https://github.com/slavfox/Cozette), often\n   with modifications to adhere to kirsch's design.\n",
+    "ContentSha": "6IwcsXOEvAs01fEpQPJusieUT7/KKm3XepKKP3QBs4I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n\n![kirsch](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/header.png)\n\n</div>\n\n## Table of Contents\n\n- [Table of Contents](#table-of-contents)\n- [Overview](#overview)\n- [Gallery](#gallery)\n- [Installation/Usage](#installation/usage)\n  - [Nerd Fonts](#nerd-fonts)\n  - [Propo](#propo)\n  - [Nixpkgs](#nixpkgs)\n  - [Nix Flakes](#nix-flakes)\n  - [Web](#web)\n- [Design Notes](#design-notes)\n  - [Flourishes](#flourishes)\n  - [Gaps](#gaps)\n- [Contributing](#contributing)\n- [Credits](#credits)\n- [Licensing](#licensing)\n\n## Overview\n\n**kirsch** /ˈkɪərʃ/ _n._\n\n1. _(German)_ cherry.\n\n1. _(Russell A. Kirsch, 1929 - 2020)_ American engineer recognized as the\n   developer of the first digital image scanner and the inventor of the pixel.\n\n1. A monospace bitmap font with a 6x16 bounding box (5px avg width, 4px descent,\n   12px ascent, 5px x-height, 9px cap height). It draws from a variety of\n   letterforms and motifs to create a distinct humanist feel at a compact size.\n\n   Some glyphs come from [Cozette](https://github.com/slavfox/Cozette), often\n   with modifications to adhere to kirsch's design.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qs5SL4kzIGamJVFUX6v6r9GrZ911GyT4xlHlZIomnCE=",
+        "originContent": "![kirsch](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/header.png)",
+        "translatedContent": "![kirsch](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/header.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Table of Contents"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "pxzcypeJiIHuptw1IaD6h/ju0oq5Ot9rvuyaoyqyMOc=",
+        "originContent": "- [Table of Contents](#table-of-contents)",
+        "translatedContent": "- [Table of Contents](#table-of-contents)"
+      },
+      {
+        "row": 10,
+        "rowsha": "BK4fM7xar6bP05e2X+OiD5DweDUqlOIUPOvDgu9rItI=",
+        "originContent": "- [Overview](#overview)",
+        "translatedContent": "- [Overview](#overview)"
+      },
+      {
+        "row": 11,
+        "rowsha": "szeUMzObFmInYxsCoVbn/VVKtyDdOBQ09zhIyfjN3rU=",
+        "originContent": "- [Gallery](#gallery)",
+        "translatedContent": "- [Gallery](#gallery)"
+      },
+      {
+        "row": 12,
+        "rowsha": "EBeNHhptpTXvblQXBVpLJzC+Doe9GqQR0yteKhqfVKI=",
+        "originContent": "- [Installation/Usage](#installation/usage)",
+        "translatedContent": "- [Installation/Usage](#installation/usage)"
+      },
+      {
+        "row": 13,
+        "rowsha": "njiZsr36AOveDud/3mL2d4Frlfrx7uQZcmjy4dfh8+A=",
+        "originContent": "  - [Nerd Fonts](#nerd-fonts)",
+        "translatedContent": "  - [Nerd Fonts](#nerd-fonts)"
+      },
+      {
+        "row": 14,
+        "rowsha": "Ybg5IDzul/SzPjsH+FGGSQ65OVxO/9JaIL8ASH9wHHA=",
+        "originContent": "  - [Propo](#propo)",
+        "translatedContent": "  - [Propo](#propo)"
+      },
+      {
+        "row": 15,
+        "rowsha": "S/vpS20witLD1n8UrPyzzu0NvbBI+E3egZhwSt3xCcQ=",
+        "originContent": "  - [Nixpkgs](#nixpkgs)",
+        "translatedContent": "  - [Nixpkgs](#nixpkgs)"
+      },
+      {
+        "row": 16,
+        "rowsha": "MFWzFGG0NEw0eaVl9j7zzLqcFK+s522/PjsxpZ4DK6E=",
+        "originContent": "  - [Nix Flakes](#nix-flakes)",
+        "translatedContent": "  - [Nix Flakes](#nix-flakes)"
+      },
+      {
+        "row": 17,
+        "rowsha": "eGdfnKkFa4VwFbhBz5OzkyimxavGiYKjwNh6lrj5eEA=",
+        "originContent": "  - [Web](#web)",
+        "translatedContent": "  - [Web](#web)"
+      },
+      {
+        "row": 18,
+        "rowsha": "x54rxapn/vR4L0T/yfkwA6UUlJif6BPmgp6ewyVGiNs=",
+        "originContent": "- [Design Notes](#design-notes)",
+        "translatedContent": "- [Design Notes](#design-notes)"
+      },
+      {
+        "row": 19,
+        "rowsha": "iul2mfvu7PcMaWwcdj4T2PQjc0kWYZsul8oA1NjUghA=",
+        "originContent": "  - [Flourishes](#flourishes)",
+        "translatedContent": "  - [Flourishes](#flourishes)"
+      },
+      {
+        "row": 20,
+        "rowsha": "71rVrgEkX8fQp1JXP6uLGtm7RfGIlqaYfGUnrggp1yc=",
+        "originContent": "  - [Gaps](#gaps)",
+        "translatedContent": "  - [Gaps](#gaps)"
+      },
+      {
+        "row": 21,
+        "rowsha": "46o9OlXCA1a4tZeh7IEuTh2QUV2OtRFcI4YWidxNwmU=",
+        "originContent": "- [Contributing](#contributing)",
+        "translatedContent": "- [Contributing](#contributing)"
+      },
+      {
+        "row": 22,
+        "rowsha": "lQGUCOQ/xOEbYz+qSEoqBl0sddngw6cTjfCUohSdCl4=",
+        "originContent": "- [Credits](#credits)",
+        "translatedContent": "- [Credits](#credits)"
+      },
+      {
+        "row": 23,
+        "rowsha": "sWWdVZ657EJXzmZO88CC3N+I55oegCcir2KFqf36aXM=",
+        "originContent": "- [Licensing](#licensing)",
+        "translatedContent": "- [Licensing](#licensing)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Overview"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "0YVkiRUptXlGoK/XYYjPO68N2GPJUbuhI56KJknGhPg=",
+        "originContent": "**kirsch** /ˈkɪərʃ/ _n._",
+        "translatedContent": "**kirsch** /ˈkɪərʃ/ _n._"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "6Y4lhC+A7l3KRG2Fls5ju9BL98HzvUrKbiMxTb+GCow=",
+        "originContent": "1. _(German)_ cherry.",
+        "translatedContent": "1. _(German)_ cherry."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "P3izapO3lqAo+wUfe/kPpHLMp/0YwDKE7qbmRREH+Jw=",
+        "originContent": "1. _(Russell A. Kirsch, 1929 - 2020)_ American engineer recognized as the",
+        "translatedContent": "1. _(Russell A. Kirsch, 1929 - 2020)_ American engineer recognized as the"
+      },
+      {
+        "row": 32,
+        "rowsha": "jGuinQSptE9x7FzrM2y5Eoyw+VwUQr3kCwep9vMO5Ws=",
+        "originContent": "   developer of the first digital image scanner and the inventor of the pixel.",
+        "translatedContent": "   developer of the first digital image scanner and the inventor of the pixel."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "IncGzAokxEnXu3JFIV9J+vD+e26Kf0oHhcJ+brSadhE=",
+        "originContent": "1. A monospace bitmap font with a 6x16 bounding box (5px avg width, 4px descent,",
+        "translatedContent": "1. A monospace bitmap font with a 6x16 bounding box (5px avg width, 4px descent,"
+      },
+      {
+        "row": 35,
+        "rowsha": "gxKx0QkE2/pqd2mn9l8vx5LgKe01oU3CBAhNDJbr5z0=",
+        "originContent": "   12px ascent, 5px x-height, 9px cap height). It draws from a variety of",
+        "translatedContent": "   12px ascent, 5px x-height, 9px cap height). It draws from a variety of"
+      },
+      {
+        "row": 36,
+        "rowsha": "Dr8K9qHEbwfV2OG4lmqxAACZrOmGLh2Ce59H3nSfDj4=",
+        "originContent": "   letterforms and motifs to create a distinct humanist feel at a compact size.",
+        "translatedContent": "   letterforms and motifs to create a distinct humanist feel at a compact size."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "9SWxlS9i/EGOmsiff3g3RT0vNm1Bx/fmojqDMRrUgzI=",
+        "originContent": "   Some glyphs come from [Cozette](https://github.com/slavfox/Cozette), often",
+        "translatedContent": "   Some glyphs come from [Cozette](https://github.com/slavfox/Cozette), often"
+      },
+      {
+        "row": 39,
+        "rowsha": "TyJXaZBA6nGVSctZoQD2trGZy6Pj1UAN6WRi3oPoyTo=",
+        "originContent": "   with modifications to adhere to kirsch's design.",
+        "translatedContent": "   with modifications to adhere to kirsch's design."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Gallery\n\n<details>\n<summary><strong>Glyphs</strong></summary>\n<div align=\"center\">\n\n![kirsch glyphs](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/chars.png)\n\n</div>\n</details>\n\n<details>\n<summary><strong>Glyphs Map</strong></summary>\n<div align=\"center\">\n\n![kirsch glyph map](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/map.png)\n\n</div>\n</details>\n\n<details open>\n<summary><strong>Samples</strong></summary>\n<div align=\"center\">\n\n![kirsch sample](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/sample.png)\n\n</div>\n</details>\n\n## Installation/Usage\n\nDownload from [Releases](https://github.com/molarmanful/kirsch/releases).\nIncluded are bitmap formats - OTB, BDF, PCF, DFONT (for Mac users) - as well as\nTTF. 2x versions are available for HiDPI screens. Note that PCF doesn't contain\nglyphs past U+FFFF.\n\nFor the crispiest viewing experience, try to use the bitmap formats when\npossible. If bitmap fonts are not supported on your platform (e.g. Windows,\nVSCode), then use the TTF at font sizes that are multiples of 16px.\n",
+    "ContentSha": "p4auNKLV+VtoqviXok5EDGXpq/6g/EffhslwOIxLGbM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Gallery\n\n<details>\n<summary><strong>Glyphs</strong></summary>\n<div align=\"center\">\n\n![kirsch glyphs](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/chars.png)\n\n</div>\n</details>\n\n<details>\n<summary><strong>Glyphs Map</strong></summary>\n<div align=\"center\">\n\n![kirsch glyph map](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/map.png)\n\n</div>\n</details>\n\n<details open>\n<summary><strong>Samples</strong></summary>\n<div align=\"center\">\n\n![kirsch sample](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/sample.png)\n\n</div>\n</details>\n\n## Installation/Usage\n\nDownload from [Releases](https://github.com/molarmanful/kirsch/releases).\nIncluded are bitmap formats - OTB, BDF, PCF, DFONT (for Mac users) - as well as\nTTF. 2x versions are available for HiDPI screens. Note that PCF doesn't contain\nglyphs past U+FFFF.\n\nFor the crispiest viewing experience, try to use the bitmap formats when\npossible. If bitmap fonts are not supported on your platform (e.g. Windows,\nVSCode), then use the TTF at font sizes that are multiples of 16px.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+        "originContent": "## Gallery",
+        "translatedContent": "## Gallery"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "ewM/A9U8GHR89+FoggX2BpKTBmM+TSDPim4Wv2i5Vww=",
+        "originContent": "<summary><strong>Glyphs</strong></summary>",
+        "translatedContent": "<summary><strong>Glyphs</strong></summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "H7uA4gNrBUQxsDJoYauhLO/nKk0P1NzR2UP7kBfUpJk=",
+        "originContent": "![kirsch glyphs](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/chars.png)",
+        "translatedContent": "![kirsch glyphs](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/chars.png)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 13,
+        "rowsha": "2sfd290MtKJq+ewIBru7jh6O0CqD/7GlSH7MlRqz1g0=",
+        "originContent": "<summary><strong>Glyphs Map</strong></summary>",
+        "translatedContent": "<summary><strong>Glyphs Map</strong></summary>"
+      },
+      {
+        "row": 14,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "rWWaIdP5YPSgZ6d4SObfNWq8HfecLK3vrO9j0y8a7wM=",
+        "originContent": "![kirsch glyph map](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/map.png)",
+        "translatedContent": "![kirsch glyph map](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/map.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 19,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+        "originContent": "<details open>",
+        "translatedContent": "<details open>"
+      },
+      {
+        "row": 22,
+        "rowsha": "9e23nq4eb7HgtFR+rB68/aB4e7A76yC1MBLog3PPcg0=",
+        "originContent": "<summary><strong>Samples</strong></summary>",
+        "translatedContent": "<summary><strong>Samples</strong></summary>"
+      },
+      {
+        "row": 23,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Nfy3Q3o68DeAcLJkm/+1x2EtJEJq5hZtAl/L9RxUhUA=",
+        "originContent": "![kirsch sample](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/sample.png)",
+        "translatedContent": "![kirsch sample](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/sample.png)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "EKRy54WN/ciI+IacIbbgeR3KP0Kh9IXX1GpYSplvd8g=",
+        "originContent": "## Installation/Usage",
+        "translatedContent": "## Installation/Usage"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "cSsPFK0VMwG3PDyEOuERVSzqnY6xlysd9PKvSHS8yYY=",
+        "originContent": "Download from [Releases](https://github.com/molarmanful/kirsch/releases).",
+        "translatedContent": "Download from [Releases](https://github.com/molarmanful/kirsch/releases)."
+      },
+      {
+        "row": 33,
+        "rowsha": "RRfY8AfRcCzPiIPmvARHlJGNcXXasGNhg/Vwljwrxho=",
+        "originContent": "Included are bitmap formats - OTB, BDF, PCF, DFONT (for Mac users) - as well as",
+        "translatedContent": "Included are bitmap formats - OTB, BDF, PCF, DFONT (for Mac users) - as well as"
+      },
+      {
+        "row": 34,
+        "rowsha": "3fUqBjxB/bnOAutUnZXv2RrnmV6aGzdN6ZMD8SMNkpk=",
+        "originContent": "TTF. 2x versions are available for HiDPI screens. Note that PCF doesn't contain",
+        "translatedContent": "TTF. 2x versions are available for HiDPI screens. Note that PCF doesn't contain"
+      },
+      {
+        "row": 35,
+        "rowsha": "TtzhK+rJQ7UETumcsfSTF8U8ah6amJn7Pm/HSPZtA84=",
+        "originContent": "glyphs past U+FFFF.",
+        "translatedContent": "glyphs past U+FFFF."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "BKUCXJBFxYhwGMjN+yqatMqWs4WIkN4qnP4WQbzIkkg=",
+        "originContent": "For the crispiest viewing experience, try to use the bitmap formats when",
+        "translatedContent": "For the crispiest viewing experience, try to use the bitmap formats when"
+      },
+      {
+        "row": 38,
+        "rowsha": "JpRR6BaM+j9atlRRLCA1sD/toGtR+9n+OsUDNVIVlnU=",
+        "originContent": "possible. If bitmap fonts are not supported on your platform (e.g. Windows,",
+        "translatedContent": "possible. If bitmap fonts are not supported on your platform (e.g. Windows,"
+      },
+      {
+        "row": 39,
+        "rowsha": "nwTVuYFc0B6394hsjYVZ04LRbbziXY/ahJB9/HxfVTE=",
+        "originContent": "VSCode), then use the TTF at font sizes that are multiples of 16px.",
+        "translatedContent": "VSCode), then use the TTF at font sizes that are multiples of 16px."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "> [!TIP]\n> If you need font size in pt, use the following conversion:\n>\n> `pt = px * 72 / dpi`\n>\n> e.g. 16px on a 96dpi screen is `16px * 72 / 96dpi = 12pt`.\n\n### Nerd Fonts\n\nkirsch comes with custom Nerd Fonts glyphs. Support is still WIP. For the sake\nof visual clarity, kirsch's Nerd Fonts glyphs tend to bleed heavily beyond their\nwidths. I've drawn these glyphs with the expectation that they will look best\nwhen padded before and after with a single space.\n\nPatched Nerd Fonts that cover the rest of the Nerd Fonts are available. The\n\"Mono\" variant uses smaller glyphs (single- instead of double-width) and works\nfor terminals that can't mix widths.\n\n### Propo\n\nFor terminals like foot with partial bleed, a Propo variant of kirsch is\navailable. This variant adjusts the glyphs such that their cells won't be cut\noff by the terminal's font renderer.\n\n### Nixpkgs\n\nThanks to [@ejiektpobehuk](https://github.com/ejiektpobehuk), kirsch is\navailable on Nixpkgs as `kirsch`.\n\n### Nix Flakes\n\nkirsch releases are also pushed to\n[FlakeHub](https://flakehub.com/flake/molarmanful/kirsch). `kirsch` (aliased to\n`default`) is the base package, while `kirsch-nerd` includes Nerd Fonts patches.\n\n### Web\n\nI would generally discourage usage of kirsch on the web due to lack of bitmap\nsupport. But for the stubborn and the brave, WOFF2 is available. There is also a\n[CDN-hosted stylesheet](https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css)",
+    "ContentSha": "zBNXuH/YcVNUPzosq6E8qPXo/ACsSAJjcwY/fn2GlYQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> [!TIP]\n> If you need font size in pt, use the following conversion:\n>\n> `pt = px * 72 / dpi`\n>\n> e.g. 16px on a 96dpi screen is `16px * 72 / 96dpi = 12pt`.\n\n### Nerd Fonts\n\nkirsch comes with custom Nerd Fonts glyphs. Support is still WIP. For the sake\nof visual clarity, kirsch's Nerd Fonts glyphs tend to bleed heavily beyond their\nwidths. I've drawn these glyphs with the expectation that they will look best\nwhen padded before and after with a single space.\n\nPatched Nerd Fonts that cover the rest of the Nerd Fonts are available. The\n\"Mono\" variant uses smaller glyphs (single- instead of double-width) and works\nfor terminals that can't mix widths.\n\n### Propo\n\nFor terminals like foot with partial bleed, a Propo variant of kirsch is\navailable. This variant adjusts the glyphs such that their cells won't be cut\noff by the terminal's font renderer.\n\n### Nixpkgs\n\nThanks to [@ejiektpobehuk](https://github.com/ejiektpobehuk), kirsch is\navailable on Nixpkgs as `kirsch`.\n\n### Nix Flakes\n\nkirsch releases are also pushed to\n[FlakeHub](https://flakehub.com/flake/molarmanful/kirsch). `kirsch` (aliased to\n`default`) is the base package, while `kirsch-nerd` includes Nerd Fonts patches.\n\n### Web\n\nI would generally discourage usage of kirsch on the web due to lack of bitmap\nsupport. But for the stubborn and the brave, WOFF2 is available. There is also a\n[CDN-hosted stylesheet](https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 2,
+        "rowsha": "Lxb2XjWnGcpePKRKFObhlY5bXh8v0YK8orV9swM8IXE=",
+        "originContent": "> If you need font size in pt, use the following conversion:",
+        "translatedContent": "> If you need font size in pt, use the following conversion:"
+      },
+      {
+        "row": 3,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 4,
+        "rowsha": "7anUr4CpoGqVo1zN3TGMiEIeOc8ypv1R6wdU/TSvjKI=",
+        "originContent": "> `pt = px * 72 / dpi`",
+        "translatedContent": "> `pt = px * 72 / dpi`"
+      },
+      {
+        "row": 5,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 6,
+        "rowsha": "FjgbBZUousj4aH+Stn00KZkDlNTpcxLe2SkrrRxX3nM=",
+        "originContent": "> e.g. 16px on a 96dpi screen is `16px * 72 / 96dpi = 12pt`.",
+        "translatedContent": "> e.g. 16px on a 96dpi screen is `16px * 72 / 96dpi = 12pt`."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "I38N+Htu9V4l+St5jnxpJ8ZDyZo30ZYEWPrGOCdhlbs=",
+        "originContent": "### Nerd Fonts",
+        "translatedContent": "### Nerd Fonts"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "uJBJusYwPANmMUn2iDKvFhB3wGXjympeP3eMlBHkAKA=",
+        "originContent": "kirsch comes with custom Nerd Fonts glyphs. Support is still WIP. For the sake",
+        "translatedContent": "kirsch comes with custom Nerd Fonts glyphs. Support is still WIP. For the sake"
+      },
+      {
+        "row": 11,
+        "rowsha": "mnGYq4eW5577PCLz3lnqPDvkAEXGVfCoSRbd01hJwPc=",
+        "originContent": "of visual clarity, kirsch's Nerd Fonts glyphs tend to bleed heavily beyond their",
+        "translatedContent": "of visual clarity, kirsch's Nerd Fonts glyphs tend to bleed heavily beyond their"
+      },
+      {
+        "row": 12,
+        "rowsha": "AnvNIt2M3V2gldJW1HUmPvRK9cq5iPnNL1sCGTvbAmk=",
+        "originContent": "widths. I've drawn these glyphs with the expectation that they will look best",
+        "translatedContent": "widths. I've drawn these glyphs with the expectation that they will look best"
+      },
+      {
+        "row": 13,
+        "rowsha": "BDkcTo/hb5W11OUwygfF4A2UmBTu7K+d3GLxAicCqAM=",
+        "originContent": "when padded before and after with a single space.",
+        "translatedContent": "when padded before and after with a single space."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Z4BMEJoRl9qo0Z0PjQgbTmgu4WA9z+6/b4SQ/4K985M=",
+        "originContent": "Patched Nerd Fonts that cover the rest of the Nerd Fonts are available. The",
+        "translatedContent": "Patched Nerd Fonts that cover the rest of the Nerd Fonts are available. The"
+      },
+      {
+        "row": 16,
+        "rowsha": "4vwx1wAaA8m8ByvR4Am5P4wF2UmfpoTzx7t83qWgw8I=",
+        "originContent": "\"Mono\" variant uses smaller glyphs (single- instead of double-width) and works",
+        "translatedContent": "\"Mono\" variant uses smaller glyphs (single- instead of double-width) and works"
+      },
+      {
+        "row": 17,
+        "rowsha": "86kGlSQmdJ8PEEraIjFLGxCpPD8JBkwdfAsmLQU0bwY=",
+        "originContent": "for terminals that can't mix widths.",
+        "translatedContent": "for terminals that can't mix widths."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Qs/5jjnH2zrItUpJjfahEEzu3s0POA8enxdqisQ0T+8=",
+        "originContent": "### Propo",
+        "translatedContent": "### Propo"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "6B7YaSIBKUfXeyWvfIG4vTD7jkMJwY/mgpBE8cjZr2Q=",
+        "originContent": "For terminals like foot with partial bleed, a Propo variant of kirsch is",
+        "translatedContent": "For terminals like foot with partial bleed, a Propo variant of kirsch is"
+      },
+      {
+        "row": 22,
+        "rowsha": "F360Kf3ZG7DpmyJmGI8t9plUAPJRs7IUvpZeQZKBZzs=",
+        "originContent": "available. This variant adjusts the glyphs such that their cells won't be cut",
+        "translatedContent": "available. This variant adjusts the glyphs such that their cells won't be cut"
+      },
+      {
+        "row": 23,
+        "rowsha": "SKZxEsNAqO+ES/r0HJ4rmAVS+k3oD09qgkKthoJTwUs=",
+        "originContent": "off by the terminal's font renderer.",
+        "translatedContent": "off by the terminal's font renderer."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "iQkaK+kCeJnW/jSCimUrEPBrTE/FizwkfgHPnkj0+r8=",
+        "originContent": "### Nixpkgs",
+        "translatedContent": "### Nixpkgs"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "oOvyqMy1Zwqt44fWEY2HH0zFAS5eJq1ffHjkMWEm9FA=",
+        "originContent": "Thanks to [@ejiektpobehuk](https://github.com/ejiektpobehuk), kirsch is",
+        "translatedContent": "Thanks to [@ejiektpobehuk](https://github.com/ejiektpobehuk), kirsch is"
+      },
+      {
+        "row": 28,
+        "rowsha": "P5xo1M0bYh1qTurQbOezlFOSl9aOpNG3TInkTWrMVCY=",
+        "originContent": "available on Nixpkgs as `kirsch`.",
+        "translatedContent": "available on Nixpkgs as `kirsch`."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "sozimZWTo8qzVZRCypyLgI+mat3EB1+LAdgkpGFChY8=",
+        "originContent": "### Nix Flakes",
+        "translatedContent": "### Nix Flakes"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "4aOmnVsIpk/J7kPWfCOxeoivG9YB/NeqFpx6rW8YvgY=",
+        "originContent": "kirsch releases are also pushed to",
+        "translatedContent": "kirsch releases are also pushed to"
+      },
+      {
+        "row": 33,
+        "rowsha": "6QVxIB21CRRC5hGED+ztGhrmNZ8Vji5SGd3+EwN8Zdc=",
+        "originContent": "[FlakeHub](https://flakehub.com/flake/molarmanful/kirsch). `kirsch` (aliased to",
+        "translatedContent": "[FlakeHub](https://flakehub.com/flake/molarmanful/kirsch). `kirsch` (aliased to"
+      },
+      {
+        "row": 34,
+        "rowsha": "q6wuWvW7Ze0hl/RCQyyhBnuPhx04puR1hMw9O/JqDWo=",
+        "originContent": "`default`) is the base package, while `kirsch-nerd` includes Nerd Fonts patches.",
+        "translatedContent": "`default`) is the base package, while `kirsch-nerd` includes Nerd Fonts patches."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Kpl17XpHCn0xpBlB+Ldte8K91xwlKtplgoaVl3hfDLI=",
+        "originContent": "### Web",
+        "translatedContent": "### Web"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "jg6/Sv1WFtMPfBinOvrzmXNmznhH7hLQ6yC5hIHjEmo=",
+        "originContent": "I would generally discourage usage of kirsch on the web due to lack of bitmap",
+        "translatedContent": "I would generally discourage usage of kirsch on the web due to lack of bitmap"
+      },
+      {
+        "row": 39,
+        "rowsha": "QTR/y9VuS4pZTAjdnyaAOMdEST8/yNi6/Cu4q1e9x+M=",
+        "originContent": "support. But for the stubborn and the brave, WOFF2 is available. There is also a",
+        "translatedContent": "support. But for the stubborn and the brave, WOFF2 is available. There is also a"
+      },
+      {
+        "row": 40,
+        "rowsha": "ejyuKgUo16SumTW8sin5hf+JOFadOdGUt5K/ZFph9so=",
+        "originContent": "[CDN-hosted stylesheet](https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css)",
+        "translatedContent": "[CDN-hosted stylesheet](https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "for convenience.\n",
+    "ContentSha": "FNoDlVTyNDB8FqgYSccm5JPjtbbU2TcQv+DCXGUA6pM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "for convenience.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mCThJvcJNN01LIadxlzxo1bLIJAy5izaKeIaUd6kutQ=",
+        "originContent": "for convenience.",
+        "translatedContent": "for convenience."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```html\n<link\n  rel=\"stylesheet\"\n  href=\"https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css\"\n/>\n```",
+    "ContentSha": "r6UsJjNHxeaJEAZln11j0xf8tea1Kz5Y4NJNuFfY4Ws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<link\n  rel=\"stylesheet\"\n  href=\"https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css\"\n/>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "TosDlmsxDcNG8Ly2PNaJ2Y3ItvFn5WzA1coZ45Kli/4=",
+        "originContent": "<link",
+        "translatedContent": "<link"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bxKwVcdXOHE7/aZHOcfKs+HZ8q+9430mA/aE3CZTXc=",
+        "originContent": "  rel=\"stylesheet\"",
+        "translatedContent": "  rel=\"stylesheet\""
+      },
+      {
+        "row": 4,
+        "rowsha": "PAZCHpAKwPHJ0gw+ItQWi2QEgWCheO9GADjmMq4pnfk=",
+        "originContent": "  href=\"https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css\"",
+        "translatedContent": "  href=\"https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css\""
+      },
+      {
+        "row": 5,
+        "rowsha": "zICisN0jIuhaCPxm6+PnTtrXmpJV74BI/YP+fY20j1w=",
+        "originContent": "/>",
+        "translatedContent": "/>"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Design Notes\n\nUnlike my previous font [eldur](https://github.com/molarmanful/eldur), which had\na mere 4px avg. char width to work with, kirsch has a 5px avg. char width. That\n1px of extra width affords a surprising amount of leeway for the design. Far\nmore glyphs fit comfortably into 5px width - e.g. \"m\" and \"w\" - meaning that\nthose glyphs won't break kerning and intrude on the spaces of neighboring\nglyphs. Glyphs that don't fit into 5px width can now work with 7px width, which\nmaintains balance and legibility without affecting kerning too negatively.\n\n### Flourishes\n\n![rogue fijian xylophone](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-flourishes.png)\n\nThe flourishes - e.g. in \"i\" or \"f\" - are a stylistic choice, but they also\nserve a functional purpose. Without the flourishes, \"i\" would take up 1px of\nwidth, leaving 4px of awkward space. 2px flourishes on each side of the \"i\" give\nit a 5px width, thereby addressing the kerning issue in a stylish way.\n\nIn \"l\"'s case, the script-style flourishes further distinguish it from other\nvertical characters like `1I|`.\n\n### Gaps\n\n![bad queen peg 69](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-gaps.png)\n\nOne of kirsch's distinctive features is the presence of a gap at the bowls of\nthe letters. Filling in the gap would make the letters either too square or too\nbunched-up, while leaving the gap open declutters the letterforms. The gaps also\nevoke script-style stroke endings.\n\n## Contributing\n\nIssues, feature/glyph requests, and pull requests are all welcome! Font files\nare edited via [bited](https://github.com/molarmanful/bited).\n\n## Credits\n\nThese are projects that have inspired/helped me create kirsch and are 100% worth",
+    "ContentSha": "7zpoLM+AzVf4PxlvdWyQrMf1w+3KWEAKILoNoNoSya4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Design Notes\n\nUnlike my previous font [eldur](https://github.com/molarmanful/eldur), which had\na mere 4px avg. char width to work with, kirsch has a 5px avg. char width. That\n1px of extra width affords a surprising amount of leeway for the design. Far\nmore glyphs fit comfortably into 5px width - e.g. \"m\" and \"w\" - meaning that\nthose glyphs won't break kerning and intrude on the spaces of neighboring\nglyphs. Glyphs that don't fit into 5px width can now work with 7px width, which\nmaintains balance and legibility without affecting kerning too negatively.\n\n### Flourishes\n\n![rogue fijian xylophone](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-flourishes.png)\n\nThe flourishes - e.g. in \"i\" or \"f\" - are a stylistic choice, but they also\nserve a functional purpose. Without the flourishes, \"i\" would take up 1px of\nwidth, leaving 4px of awkward space. 2px flourishes on each side of the \"i\" give\nit a 5px width, thereby addressing the kerning issue in a stylish way.\n\nIn \"l\"'s case, the script-style flourishes further distinguish it from other\nvertical characters like `1I|`.\n\n### Gaps\n\n![bad queen peg 69](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-gaps.png)\n\nOne of kirsch's distinctive features is the presence of a gap at the bowls of\nthe letters. Filling in the gap would make the letters either too square or too\nbunched-up, while leaving the gap open declutters the letterforms. The gaps also\nevoke script-style stroke endings.\n\n## Contributing\n\nIssues, feature/glyph requests, and pull requests are all welcome! Font files\nare edited via [bited](https://github.com/molarmanful/bited).\n\n## Credits\n\nThese are projects that have inspired/helped me create kirsch and are 100% worth",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zxPDZVvxF7NbnUvikvApd6uE47lalJ7Qx/+8iGtBz4U=",
+        "originContent": "## Design Notes",
+        "translatedContent": "## Design Notes"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Mf3ezTi+Lfv9XdblyIQAiXhISBs/Js26pes/OhdZpIk=",
+        "originContent": "Unlike my previous font [eldur](https://github.com/molarmanful/eldur), which had",
+        "translatedContent": "Unlike my previous font [eldur](https://github.com/molarmanful/eldur), which had"
+      },
+      {
+        "row": 5,
+        "rowsha": "R8gALuqwPO313CMg7xNyh8VFyBrFlFq2sMmEqi6kmAQ=",
+        "originContent": "a mere 4px avg. char width to work with, kirsch has a 5px avg. char width. That",
+        "translatedContent": "a mere 4px avg. char width to work with, kirsch has a 5px avg. char width. That"
+      },
+      {
+        "row": 6,
+        "rowsha": "85/CmRZSW8+32ui3v4HKMW+A+iDUmBUCPJsTHEX/63w=",
+        "originContent": "1px of extra width affords a surprising amount of leeway for the design. Far",
+        "translatedContent": "1px of extra width affords a surprising amount of leeway for the design. Far"
+      },
+      {
+        "row": 7,
+        "rowsha": "rK0s4Q/fhrraSvYkWSlq4AKb6qx1rvLzJEnxHSIwd9w=",
+        "originContent": "more glyphs fit comfortably into 5px width - e.g. \"m\" and \"w\" - meaning that",
+        "translatedContent": "more glyphs fit comfortably into 5px width - e.g. \"m\" and \"w\" - meaning that"
+      },
+      {
+        "row": 8,
+        "rowsha": "lNP7/RTezTbOh5+i51kPVLa59m+K0kmrgOpVXMV1n0A=",
+        "originContent": "those glyphs won't break kerning and intrude on the spaces of neighboring",
+        "translatedContent": "those glyphs won't break kerning and intrude on the spaces of neighboring"
+      },
+      {
+        "row": 9,
+        "rowsha": "Nsqn44N+b/qTxIvR7q591Kdt9WbABvC481j2gjsD5nY=",
+        "originContent": "glyphs. Glyphs that don't fit into 5px width can now work with 7px width, which",
+        "translatedContent": "glyphs. Glyphs that don't fit into 5px width can now work with 7px width, which"
+      },
+      {
+        "row": 10,
+        "rowsha": "dQN0ce/QLnweUCW9z64o2ignuXrIMmMkt3u9gQT1KlQ=",
+        "originContent": "maintains balance and legibility without affecting kerning too negatively.",
+        "translatedContent": "maintains balance and legibility without affecting kerning too negatively."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "b3jliIH3+E7k3iZ/1a/A4kqibY0bGCK71bvwqt44CdA=",
+        "originContent": "### Flourishes",
+        "translatedContent": "### Flourishes"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "8PYN67dJT/H00SI4lfS6KljiadmSWSnLH1L8xEzpNJY=",
+        "originContent": "![rogue fijian xylophone](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-flourishes.png)",
+        "translatedContent": "![rogue fijian xylophone](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-flourishes.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "vP8sH24QoBSU0jB1YBXjT89oqE7yUQDKXnPHQ5Ql7SE=",
+        "originContent": "The flourishes - e.g. in \"i\" or \"f\" - are a stylistic choice, but they also",
+        "translatedContent": "The flourishes - e.g. in \"i\" or \"f\" - are a stylistic choice, but they also"
+      },
+      {
+        "row": 17,
+        "rowsha": "EQLBbhWsnB7fu1L5F6mn3K2O9VqCyinGF/aPznjLsLo=",
+        "originContent": "serve a functional purpose. Without the flourishes, \"i\" would take up 1px of",
+        "translatedContent": "serve a functional purpose. Without the flourishes, \"i\" would take up 1px of"
+      },
+      {
+        "row": 18,
+        "rowsha": "Y0UdEQ8ZbtsQLURubpBbHcPrsG5tEGoBNTSbbAFNwZM=",
+        "originContent": "width, leaving 4px of awkward space. 2px flourishes on each side of the \"i\" give",
+        "translatedContent": "width, leaving 4px of awkward space. 2px flourishes on each side of the \"i\" give"
+      },
+      {
+        "row": 19,
+        "rowsha": "kPFA5L2EgGyAjYYB9L1NBm1dG+dwmUGj7A/Qsw/69/M=",
+        "originContent": "it a 5px width, thereby addressing the kerning issue in a stylish way.",
+        "translatedContent": "it a 5px width, thereby addressing the kerning issue in a stylish way."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "cGET9TYoRNhIFvrvFAAGo1NWA3CvMBVg1X0iiwL5bjc=",
+        "originContent": "In \"l\"'s case, the script-style flourishes further distinguish it from other",
+        "translatedContent": "In \"l\"'s case, the script-style flourishes further distinguish it from other"
+      },
+      {
+        "row": 22,
+        "rowsha": "QK7LwujwdHNiJoHvQVhSsvZSiLjO+nBsVyaaugo/zXQ=",
+        "originContent": "vertical characters like `1I|`.",
+        "translatedContent": "vertical characters like `1I|`."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "XYX1EsNnuubAHE4azCpMOBbpOBk+ZPhpLlOML70VHRE=",
+        "originContent": "### Gaps",
+        "translatedContent": "### Gaps"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "2h97dSmxwd2gD66rqDqvZFVBw98Oh0+GFn+qXUpddRU=",
+        "originContent": "![bad queen peg 69](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-gaps.png)",
+        "translatedContent": "![bad queen peg 69](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-gaps.png)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "GLvwnfLpF75J8NucQRIY98Q+3nbFp9dEbdYZjoNOAyY=",
+        "originContent": "One of kirsch's distinctive features is the presence of a gap at the bowls of",
+        "translatedContent": "One of kirsch's distinctive features is the presence of a gap at the bowls of"
+      },
+      {
+        "row": 29,
+        "rowsha": "0wyaEB/fDcYvLo43T/OclNyFdKq8st0BTytZgmqx4s0=",
+        "originContent": "the letters. Filling in the gap would make the letters either too square or too",
+        "translatedContent": "the letters. Filling in the gap would make the letters either too square or too"
+      },
+      {
+        "row": 30,
+        "rowsha": "Tx7op5OR6XnOTNYn/1dUqbaeWRkXSrgAke7jt4sWlfc=",
+        "originContent": "bunched-up, while leaving the gap open declutters the letterforms. The gaps also",
+        "translatedContent": "bunched-up, while leaving the gap open declutters the letterforms. The gaps also"
+      },
+      {
+        "row": 31,
+        "rowsha": "sJmwmbKrT0gpqAGo7kaBhTCX8oM7/l1PN+m1stau2TY=",
+        "originContent": "evoke script-style stroke endings.",
+        "translatedContent": "evoke script-style stroke endings."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contributing"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "LnGzk0p1UFdzDydq/31ADkoQYC2QXxwNOaap8rw64CI=",
+        "originContent": "Issues, feature/glyph requests, and pull requests are all welcome! Font files",
+        "translatedContent": "Issues, feature/glyph requests, and pull requests are all welcome! Font files"
+      },
+      {
+        "row": 36,
+        "rowsha": "b76l4fZTl5GtAiqTE7RMBs9yHjiTK6yzvSFkdbhDpSQ=",
+        "originContent": "are edited via [bited](https://github.com/molarmanful/bited).",
+        "translatedContent": "are edited via [bited](https://github.com/molarmanful/bited)."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## Credits"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "zn6WBUavkSU2KK5wmpkMWMa28z++OZqENYQ3RuVu/5k=",
+        "originContent": "These are projects that have inspired/helped me create kirsch and are 100% worth",
+        "translatedContent": "These are projects that have inspired/helped me create kirsch and are 100% worth"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "checking out.\n\n- [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas)\n- [Cozette](https://github.com/slavfox/Cozette)\n- [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)\n- [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /\n  [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)\n- [APL386](https://abrudz.github.io/APL386)\n\n## Licensing\n\nMade with ♥ by [the kirsch Project Authors](AUTHORS). Released under the OFL-1.1\nLicense.\n",
+    "ContentSha": "GCZrIJM8Y27BxvIXT3J1+/B6wz5oY4JtfPplrWvoODo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "checking out.\n\n- [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas)\n- [Cozette](https://github.com/slavfox/Cozette)\n- [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)\n- [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /\n  [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)\n- [APL386](https://abrudz.github.io/APL386)\n\n## Licensing\n\nMade with ♥ by [the kirsch Project Authors](AUTHORS). Released under the OFL-1.1\nLicense.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8rrDigzebXMcrslF73XIDM7gobfYDsvQ9ZRk/TXpB1k=",
+        "originContent": "checking out.",
+        "translatedContent": "checking out."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "CqSeIRZhrRyHLMEAnjgEvk/oyykVTPS7ZWo/gHpCW48=",
+        "originContent": "- [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas)",
+        "translatedContent": "- [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas)"
+      },
+      {
+        "row": 4,
+        "rowsha": "zgcg358tQk4hsXlYfVBg8OiCp4x2se4MqGJkfrXEEFI=",
+        "originContent": "- [Cozette](https://github.com/slavfox/Cozette)",
+        "translatedContent": "- [Cozette](https://github.com/slavfox/Cozette)"
+      },
+      {
+        "row": 5,
+        "rowsha": "jdxhqtWTuuWgXFiCwlefcYBMCu0LEOcqNdEBb7o5/uw=",
+        "originContent": "- [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)",
+        "translatedContent": "- [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "wxHXQw6SEabjvj4dZyyjLqWMqoEaV0ZIk7yTEwdgrhA=",
+        "originContent": "- [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /",
+        "translatedContent": "- [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /"
+      },
+      {
+        "row": 7,
+        "rowsha": "U5iaZb577Wd7MNqR8oBHUSwujd+HQSp7Yx7T/8cr8D8=",
+        "originContent": "  [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)",
+        "translatedContent": "  [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)"
+      },
+      {
+        "row": 8,
+        "rowsha": "V34aWX6uux9Y3H3qenwhlTjfL4dxHlQRPkednDhogGA=",
+        "originContent": "- [APL386](https://abrudz.github.io/APL386)",
+        "translatedContent": "- [APL386](https://abrudz.github.io/APL386)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "9kZJ9AHbaDi1PwwMKlLBj3sOUMbQcuYN6HLToKE8Jd0=",
+        "originContent": "## Licensing",
+        "translatedContent": "## Licensing"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "xg1hz8Q/M5eY7krffeZy1aXZnWhEXPIxp04ZWHJSWsk=",
+        "originContent": "Made with ♥ by [the kirsch Project Authors](AUTHORS). Released under the OFL-1.1",
+        "translatedContent": "Made with ♥ by [the kirsch Project Authors](AUTHORS). Released under the OFL-1.1"
+      },
+      {
+        "row": 13,
+        "rowsha": "XAwtB50X/7BWECa64U0oRRjrM5Oh7iKCDXpl43wQimQ=",
+        "originContent": "License.",
+        "translatedContent": "License."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

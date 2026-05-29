@@ -1,6 +1,38 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Gluetun WebUI
 
-一个轻量级的网页界面，用于监控和控制 [Gluetun](https://github.com/qdm12/gluetun) — Docker 的 VPN 客户端容器。
+一个轻量级 Web UI，用于监控和控制 [Gluetun](https://github.com/qdm12/gluetun) —— 用于 Docker 的 VPN 客户端容器。
 
 ![状态：已连接](https://img.shields.io/badge/status-connected-brightgreen)
 ![节点 25](https://img.shields.io/badge/node-25--alpine-blue)
@@ -10,15 +42,15 @@
 
 ## 功能
 
-- ✨ **多VPN支持** — 同时监控和控制多达 20 个 Gluetun 实例
-- 实时 VPN 状态横幅（已连接 / 暂停 / 已断开）
-- 公共出口 IP、国家、地区、城市和组织
-- VPN 提供商、协议（WireGuard / OpenVPN）、服务器详情
-- 端口转发和 DNS 状态
-- 启动 / 停止 VPN 控制
-- 自动刷新，间隔可配置（5秒 – 60秒）
-- 历史条中最后 30 次轮询以颜色区分
-- 响应式设计（移动端、平板、桌面）
+- ✨ **多VPN支持** — 同时监控和控制最多20个Gluetun实例
+- 实时VPN状态横幅（已连接 / 暂停 / 已断开）
+- 公共出口IP、国家、地区、城市和组织信息
+- VPN提供商、协议（WireGuard / OpenVPN）、服务器详情
+- 端口转发和DNS状态
+- 启动 / 停止VPN控制
+- 自动刷新，可配置间隔（5秒 – 60秒）
+- 最近30次轮询历史条按颜色编码
+- 响应式设计（移动端、平板、桌面端）
 
 ---
 
@@ -30,18 +62,18 @@
 ## 要求
 
 - Docker + Docker Compose
-- Gluetun 运行并启用其 HTTP 控制服务器（默认端口 `8000`）
-- Gluetun 和 gluetun-webui 在同一 Docker 网络中
+- Gluetun运行并启用其HTTP控制服务器（默认端口 `8000`）
+- Gluetun和gluetun-webui必须在同一Docker网络下
 
-> 支持 `linux/amd64` 和 `linux/arm64`（适用于 Mac Intel/Apple Silicon、Linux 和 Windows）。
+> 支持 `linux/amd64` 和 `linux/arm64`（兼容Mac Intel/Apple Silicon、Linux和Windows）。
 
 ---
 
 ## 快速开始
 
-### 选项 A1：单实例（推荐）
+### 选项A1：单实例（推荐）
 
-在现有的 compose 文件中，和 Gluetun 一起添加 `gluetun-webui`：
+在你的现有compose文件中添加`gluetun-webui`，与Gluetun一起运行：
 
 ```yaml
 gluetun-webui:
@@ -308,6 +340,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-29
 
 ---

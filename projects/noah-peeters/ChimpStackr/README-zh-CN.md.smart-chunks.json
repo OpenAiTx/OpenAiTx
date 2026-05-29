@@ -1,0 +1,849 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ChimpStackr\n\n![GitHub all releases](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/latest/total) ![GitHub](https://img.shields.io/github/license/noah-peeters/ChimpStackr) ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/noah-peeters/ChimpStackr/latest)\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/noah-peeters/ChimpStackr/master/packaging/icons/chimpstackr_icon.png\" width=\"200\"/>\n</p>\n\nOpen-source focus stacking application for Windows, macOS, and Linux.\n\n## Features\n\n- **4 stacking algorithms:** Laplacian Pyramid, Weighted Average, Depth Map, Exposure Fusion (HDR)\n- **Automatic alignment:** Translation-only or Rotation + Scale correction (focus breathing)\n- **16-bit pipeline:** Full bit-depth preservation from RAW to output\n- **Auto-crop:** Removes black edges from alignment shifts\n- **Auto-tuning:** Parameters auto-detected from image resolution\n- **GUI + CLI:** Full graphical interface and headless command-line tool\n- **Cross-platform:** Native builds for Windows, macOS, Linux\n- **Pause/resume/cancel:** Control long-running stacks\n- **Before/after comparison:** Slider viewer for comparing input vs output\n- **Drag & drop:** Drop image files or folders directly into the app\n\n## Download\n\nPre-built packages are available on the [Releases](https://github.com/noah-peeters/ChimpStackr/releases) page:\n\n| Platform | Download | Notes |\n|---|---|---|\n| **Windows** | `ChimpStackr-Windows.zip` | Extract and run `chimpstackr.exe` |\n| **macOS** | `ChimpStackr-macOS.dmg` | Open DMG, drag to Applications |\n| **Linux** | `ChimpStackr-Linux-x86_64.AppImage` | `chmod +x` and run |\n\n## CLI Usage\n\nThe CLI allows headless focus stacking without a GUI:\n",
+    "ContentSha": "qH+vmrnd1wZpE+QSyUpeMDlL6pybzUnt9jrxOPb20sI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ChimpStackr\n\n![GitHub all releases](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/latest/total) ![GitHub](https://img.shields.io/github/license/noah-peeters/ChimpStackr) ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/noah-peeters/ChimpStackr/latest)\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/noah-peeters/ChimpStackr/master/packaging/icons/chimpstackr_icon.png\" width=\"200\"/>\n</p>\n\n面向 Windows、macOS 和 Linux 的开源焦点合成应用。\n\n## 功能\n\n- **4 种堆栈算法：** 拉普拉斯金字塔、加权平均、深度图、曝光融合（HDR）\n- **自动对齐：** 仅平移或旋转 + 缩放校正（对焦呼吸）\n- **16 位流程：** 从 RAW 到输出的全位深度保留\n- **自动裁剪：** 去除对齐偏移产生的黑边\n- **自动调优：** 根据图像分辨率自动检测参数\n- **GUI + CLI：** 完整图形界面和无头命令行工具\n- **跨平台：** Windows、macOS、Linux 原生构建\n- **暂停/恢复/取消：** 控制长时间运行的堆栈\n- **前后对比：** 滑块查看器比较输入与输出\n- **拖放支持：** 直接将图像文件或文件夹拖入应用\n\n## 下载\n\n预构建包可在 [Releases](https://github.com/noah-peeters/ChimpStackr/releases) 页面获得：\n\n| 平台 | 下载 | 说明 |\n|---|---|---|\n| **Windows** | `ChimpStackr-Windows.zip` | 解压并运行 `chimpstackr.exe` |\n| **macOS** | `ChimpStackr-macOS.dmg` | 打开 DMG，拖动到应用程序 |\n| **Linux** | `ChimpStackr-Linux-x86_64.AppImage` | 运行前执行 `chmod +x` |\n\n## CLI 使用\n\nCLI 允许无 GUI 的无头焦点合成：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DcRAqWjARtut3R26kvFha43A5bzbEXSFyZQFcOHtPtY=",
+        "originContent": "# ChimpStackr",
+        "translatedContent": "# ChimpStackr"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MT28PbH/OOp5SXxizfCVBJT7HoYj51928qd8l5gwcgw=",
+        "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/latest/total) ![GitHub](https://img.shields.io/github/license/noah-peeters/ChimpStackr) ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/noah-peeters/ChimpStackr/latest)",
+        "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/noah-peeters/ChimpStackr/latest/total) ![GitHub](https://img.shields.io/github/license/noah-peeters/ChimpStackr) ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/noah-peeters/ChimpStackr/latest)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "q0Dcsf0xtXLM5Pt1Lxr8y9xsi5CVBQPBYJpChhW9aIU=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/noah-peeters/ChimpStackr/master/packaging/icons/chimpstackr_icon.png\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/noah-peeters/ChimpStackr/master/packaging/icons/chimpstackr_icon.png\" width=\"200\"/>"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "0XoZOB2Q2bAFyuPcWKD2kifH4dUmdGGZf0/7royhxCE=",
+        "originContent": "Open-source focus stacking application for Windows, macOS, and Linux.",
+        "translatedContent": "面向 Windows、macOS 和 Linux 的开源焦点合成应用。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "K59wvrhH45tzZsxmNo0SQFbduH199aWrmZtiZBqPePo=",
+        "originContent": "- **4 stacking algorithms:** Laplacian Pyramid, Weighted Average, Depth Map, Exposure Fusion (HDR)",
+        "translatedContent": "- **4 种堆栈算法：** 拉普拉斯金字塔、加权平均、深度图、曝光融合（HDR）"
+      },
+      {
+        "row": 14,
+        "rowsha": "mIuqlzDldcZH16+12R1TvbBBIvmMMreVyyJuF5w3h/w=",
+        "originContent": "- **Automatic alignment:** Translation-only or Rotation + Scale correction (focus breathing)",
+        "translatedContent": "- **自动对齐：** 仅平移或旋转 + 缩放校正（对焦呼吸）"
+      },
+      {
+        "row": 15,
+        "rowsha": "GKCwI1g5o/SZQ9nEjv6pwHfYi8/D5AREM3pMvZxQi6M=",
+        "originContent": "- **16-bit pipeline:** Full bit-depth preservation from RAW to output",
+        "translatedContent": "- **16 位流程：** 从 RAW 到输出的全位深度保留"
+      },
+      {
+        "row": 16,
+        "rowsha": "da8ETQeNAZQZIUgy9ojnwOUUCiQmtkrLRnT0VJZg7/o=",
+        "originContent": "- **Auto-crop:** Removes black edges from alignment shifts",
+        "translatedContent": "- **自动裁剪：** 去除对齐偏移产生的黑边"
+      },
+      {
+        "row": 17,
+        "rowsha": "jk111Ax4qY/R6FeJ9A1knmmFIvGEWf4a3lsGdpGLdBY=",
+        "originContent": "- **Auto-tuning:** Parameters auto-detected from image resolution",
+        "translatedContent": "- **自动调优：** 根据图像分辨率自动检测参数"
+      },
+      {
+        "row": 18,
+        "rowsha": "CSnv9DL41PPq0YFCccaP4WThkleK8CDBkpRdLvkfaB0=",
+        "originContent": "- **GUI + CLI:** Full graphical interface and headless command-line tool",
+        "translatedContent": "- **GUI + CLI：** 完整图形界面和无头命令行工具"
+      },
+      {
+        "row": 19,
+        "rowsha": "6j0Xgn3Ak1ynpmCVtK+4w2cifaNxMAEDTeh3whobkio=",
+        "originContent": "- **Cross-platform:** Native builds for Windows, macOS, Linux",
+        "translatedContent": "- **跨平台：** Windows、macOS、Linux 原生构建"
+      },
+      {
+        "row": 20,
+        "rowsha": "3eTBcHPjtZ/hfh+RDFClG1X3BgCc4UXNXC8XbHLR7x8=",
+        "originContent": "- **Pause/resume/cancel:** Control long-running stacks",
+        "translatedContent": "- **暂停/恢复/取消：** 控制长时间运行的堆栈"
+      },
+      {
+        "row": 21,
+        "rowsha": "S2e7q00dhHFjW+Nkny2OIGsOd+nTS8DmQQ02keENf58=",
+        "originContent": "- **Before/after comparison:** Slider viewer for comparing input vs output",
+        "translatedContent": "- **前后对比：** 滑块查看器比较输入与输出"
+      },
+      {
+        "row": 22,
+        "rowsha": "rJNCHMj5ii3JxxnSCRha5eFFNC8cinemj0s+9XXTNnc=",
+        "originContent": "- **Drag & drop:** Drop image files or folders directly into the app",
+        "translatedContent": "- **拖放支持：** 直接将图像文件或文件夹拖入应用"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
+        "originContent": "## Download",
+        "translatedContent": "## 下载"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "6F9+56Nr9TIFyCUNksFdhSusN8cIm4RDfW33wrmDr1g=",
+        "originContent": "Pre-built packages are available on the [Releases](https://github.com/noah-peeters/ChimpStackr/releases) page:",
+        "translatedContent": "预构建包可在 [Releases](https://github.com/noah-peeters/ChimpStackr/releases) 页面获得："
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "miL8aS0YucQG0aSiiEIskai7ZhHmHeWgiNptEH3WvtI=",
+        "originContent": "| Platform | Download | Notes |",
+        "translatedContent": "| 平台 | 下载 | 说明 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+        "originContent": "|---|---|---|",
+        "translatedContent": "|---|---|---|"
+      },
+      {
+        "row": 30,
+        "rowsha": "bNUztrmPxFJnYf49jdoZc6DGQ+UICsu4kwJI7skqpM0=",
+        "originContent": "| **Windows** | `ChimpStackr-Windows.zip` | Extract and run `chimpstackr.exe` |",
+        "translatedContent": "| **Windows** | `ChimpStackr-Windows.zip` | 解压并运行 `chimpstackr.exe` |"
+      },
+      {
+        "row": 31,
+        "rowsha": "pOeVJKVk1HvPBO9/KGr1WHjBUw9XSJZO1w1jTc/8XGQ=",
+        "originContent": "| **macOS** | `ChimpStackr-macOS.dmg` | Open DMG, drag to Applications |",
+        "translatedContent": "| **macOS** | `ChimpStackr-macOS.dmg` | 打开 DMG，拖动到应用程序 |"
+      },
+      {
+        "row": 32,
+        "rowsha": "xf0RUouzvAV4wyI4jKatzCVnngPfTBytMas2VEjx4BM=",
+        "originContent": "| **Linux** | `ChimpStackr-Linux-x86_64.AppImage` | `chmod +x` and run |",
+        "translatedContent": "| **Linux** | `ChimpStackr-Linux-x86_64.AppImage` | 运行前执行 `chmod +x` |"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "DLSniBALTVyRyQUYfHh7y02Jm1dq06zfrJiiu7Uu+RE=",
+        "originContent": "## CLI Usage",
+        "translatedContent": "## CLI 使用"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "mb9/5DFBgbZh6woYr8d/gmB7bta3auLBwHfmGk3Y3K0=",
+        "originContent": "The CLI allows headless focus stacking without a GUI:",
+        "translatedContent": "CLI 允许无 GUI 的无头焦点合成："
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# Basic stack\nchimpstackr-cli --input images/*.jpg --output result.tif\n\n# Align + stack with auto parameters\nchimpstackr-cli -i images/*.jpg -o result.tif --align --auto --auto-crop\n\n# Full options\nchimpstackr-cli -i images/*.jpg -o result.png \\\n  --align \\\n  --method laplacian \\\n  --rotation-scale \\\n  --kernel-size 6 \\\n  --pyramid-levels 8 \\\n  --auto-crop \\\n  --quality-report\n```",
+    "ContentSha": "zp+VVaxFK/FxOxl7VZcFAUkAflJy39pyBlEHXlsJkkQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Basic stack\nchimpstackr-cli --input images/*.jpg --output result.tif\n\n# Align + stack with auto parameters\nchimpstackr-cli -i images/*.jpg -o result.tif --align --auto --auto-crop\n\n# Full options\nchimpstackr-cli -i images/*.jpg -o result.png \\\n  --align \\\n  --method laplacian \\\n  --rotation-scale \\\n  --kernel-size 6 \\\n  --pyramid-levels 8 \\\n  --auto-crop \\\n  --quality-report\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9715aF53f+uofwjZeH+flIbWhbyU37iCRfbRSa0nXsU=",
+        "originContent": "# Basic stack",
+        "translatedContent": "# Basic stack"
+      },
+      {
+        "row": 3,
+        "rowsha": "QkpJnF35JYjtWMpD5FFk29aWzjz/wa98d+XUH+1KGFw=",
+        "originContent": "chimpstackr-cli --input images/*.jpg --output result.tif",
+        "translatedContent": "chimpstackr-cli --input images/*.jpg --output result.tif"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uPvTbDKP9oRXNbw+wXNLeH8lUhTaBYGnhGDzX4Gdb6w=",
+        "originContent": "# Align + stack with auto parameters",
+        "translatedContent": "# Align + stack with auto parameters"
+      },
+      {
+        "row": 6,
+        "rowsha": "tjIIGc6Amd3xtmSImifNAtKy28uul4lu+z5XbwjsLgc=",
+        "originContent": "chimpstackr-cli -i images/*.jpg -o result.tif --align --auto --auto-crop",
+        "translatedContent": "chimpstackr-cli -i images/*.jpg -o result.tif --align --auto --auto-crop"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "2OR7g2lnOkVxz6rUjPsFUkp6yZmtZbSaf/z5PhPWonw=",
+        "originContent": "# Full options",
+        "translatedContent": "# Full options"
+      },
+      {
+        "row": 9,
+        "rowsha": "rR13RJty81IlC2ldSw6lk0n4iF5xZjk5J1n3YIKzw3c=",
+        "originContent": "chimpstackr-cli -i images/*.jpg -o result.png \\",
+        "translatedContent": "chimpstackr-cli -i images/*.jpg -o result.png \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "LHbwqdSl57YNfkh56LuWBkP+UKLkWOMQQKWUyleOZ6E=",
+        "originContent": "  --align \\",
+        "translatedContent": "  --align \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "B5ZPVM2WsMRE14ARrzi97Wnde6aOaTjsucGpJRWyxOI=",
+        "originContent": "  --method laplacian \\",
+        "translatedContent": "  --method laplacian \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "/dlP7YDuD1uCwLHzBbtCx8lQ+KZ7t2+II9tBK2mF6IY=",
+        "originContent": "  --rotation-scale \\",
+        "translatedContent": "  --rotation-scale \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "Dl+cawQKBss7RbRaQZzx8VobxSHzoPtBgGUS9EoZ3q8=",
+        "originContent": "  --kernel-size 6 \\",
+        "translatedContent": "  --kernel-size 6 \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "JvukvCiBFZEv1l/aMtWv4wdlesMmH84dfpGcoV92/Rk=",
+        "originContent": "  --pyramid-levels 8 \\",
+        "translatedContent": "  --pyramid-levels 8 \\"
+      },
+      {
+        "row": 15,
+        "rowsha": "RQbMkVaNDsJKr68tqsYdkXeNhzw2IkHAazjyhfwqpP8=",
+        "originContent": "  --auto-crop \\",
+        "translatedContent": "  --auto-crop \\"
+      },
+      {
+        "row": 16,
+        "rowsha": "x14nNZ9b7CzFRRPZKUT296+QK+CFRYuYveUcv23R6w8=",
+        "originContent": "  --quality-report",
+        "translatedContent": "  --quality-report"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**Available methods:** `laplacian` (default), `weighted_average`, `depth_map`\n\n## Stacking Algorithms\n\n| Method | Best for | How it works |\n|---|---|---|\n| **Pyramid** | Fine detail (hairs, bristles, edges) | Laplacian pyramid decomposition, max-contrast selection per frequency band, local tone-mapping |\n| **Weighted** | Smooth subjects, good color | Per-pixel contrast weighting with proper accumulation |\n| **Depth Map** | Opaque surfaces, best color fidelity | Multi-scale sharpness with edge-aware bilateral smoothing |\n| **HDR** | Varying exposure/lighting | Mertens exposure fusion (not for focus stacking) |\n\n## Build from Source\n\nRequires Python 3.9-3.13.\n",
+    "ContentSha": "4Cvi76ohlJOg2zeZSHceZWMmcimjCwEEPw9QyWGP/qg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**可用方法：** `laplacian`（默认）、`weighted_average`、`depth_map`\n\n## 堆叠算法\n\n| 方法 | 适用场景 | 工作原理 |\n|---|---|---|\n| **金字塔** | 细节丰富（头发、毛刺、边缘） | 拉普拉斯金字塔分解，每个频带最大对比度选择，局部色调映射 |\n| **加权** | 平滑主体，良好色彩 | 每像素对比度加权与适当累积 |\n| **深度图** | 不透明表面，最佳色彩保真度 | 多尺度锐度结合边缘感知双边平滑 |\n| **HDR** | 变化曝光/光照 | Mertens曝光融合（非焦点堆叠） |\n\n## 从源码构建\n\n要求 Python 3.9-3.13。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VafEhf2qFxlVnB/SChONg3bGyq53SfserGQK3ETuzcY=",
+        "originContent": "**Available methods:** `laplacian` (default), `weighted_average`, `depth_map`",
+        "translatedContent": "**可用方法：** `laplacian`（默认）、`weighted_average`、`depth_map`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pk9ulXwnWa27bG9wZTNqMZtnzPgKJRjrINihFs6ST9c=",
+        "originContent": "## Stacking Algorithms",
+        "translatedContent": "## 堆叠算法"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "+wNEN4J00KJBRhpEwRGECczJbstldaPTJxxvZfffAGA=",
+        "originContent": "| Method | Best for | How it works |",
+        "translatedContent": "| 方法 | 适用场景 | 工作原理 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+        "originContent": "|---|---|---|",
+        "translatedContent": "|---|---|---|"
+      },
+      {
+        "row": 8,
+        "rowsha": "SYq65E3fr6oOd+W7BF0g0+UrKMzzUpyFlBRR7xMqSmY=",
+        "originContent": "| **Pyramid** | Fine detail (hairs, bristles, edges) | Laplacian pyramid decomposition, max-contrast selection per frequency band, local tone-mapping |",
+        "translatedContent": "| **金字塔** | 细节丰富（头发、毛刺、边缘） | 拉普拉斯金字塔分解，每个频带最大对比度选择，局部色调映射 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "o1mFGqae3BdMOIitjC0H+89t+XO/vAMEkcMYdFRex6I=",
+        "originContent": "| **Weighted** | Smooth subjects, good color | Per-pixel contrast weighting with proper accumulation |",
+        "translatedContent": "| **加权** | 平滑主体，良好色彩 | 每像素对比度加权与适当累积 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "Uhdbha2CUhg661IzF41f3cYhJz3F1IH85nbZchzINCU=",
+        "originContent": "| **Depth Map** | Opaque surfaces, best color fidelity | Multi-scale sharpness with edge-aware bilateral smoothing |",
+        "translatedContent": "| **深度图** | 不透明表面，最佳色彩保真度 | 多尺度锐度结合边缘感知双边平滑 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "BkH4BtB8ECnRn+oxriq5jtT9zDFHmQNQKJDdVEFQjXU=",
+        "originContent": "| **HDR** | Varying exposure/lighting | Mertens exposure fusion (not for focus stacking) |",
+        "translatedContent": "| **HDR** | 变化曝光/光照 | Mertens曝光融合（非焦点堆叠） |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "PAHuJ5iGz8bOi99luegmvFdza/iQEXfhDT0u0JP502U=",
+        "originContent": "## Build from Source",
+        "translatedContent": "## 从源码构建"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Fq2aTBZy/tq3sRHIKBDxr35fPNmBAiTdsTn6A3LmO+Q=",
+        "originContent": "Requires Python 3.9-3.13.",
+        "translatedContent": "要求 Python 3.9-3.13。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/noah-peeters/ChimpStackr.git\ncd ChimpStackr\npython -m venv .venv\nsource .venv/bin/activate  # or .venv\\Scripts\\activate on Windows\npip install -r requirements.txt\n\n# Run GUI\npython src/run.py\n\n# Run CLI\npython -m src.cli --help\n\n# Run tests\npip install pytest\npytest tests/ -v\n```",
+    "ContentSha": "zxKQ6GEDLnxXP3qzxineOhRwkT7G0EwsM0PVG1pfs54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/noah-peeters/ChimpStackr.git\ncd ChimpStackr\npython -m venv .venv\nsource .venv/bin/activate  # or .venv\\Scripts\\activate on Windows\npip install -r requirements.txt\n\n# Run GUI\npython src/run.py\n\n# Run CLI\npython -m src.cli --help\n\n# Run tests\npip install pytest\npytest tests/ -v\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "g2lSJ8TJMhJ9QY4iFN0H7Dc5aYZw0i+hAgthBQ2NOxI=",
+        "originContent": "git clone https://github.com/noah-peeters/ChimpStackr.git",
+        "translatedContent": "git clone https://github.com/noah-peeters/ChimpStackr.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "mhoqh2zIfCm2Q3ed5h585v9qYOFC+GZIgp1ALioE8HM=",
+        "originContent": "cd ChimpStackr",
+        "translatedContent": "cd ChimpStackr"
+      },
+      {
+        "row": 4,
+        "rowsha": "Xj91YHlRZzKcvPAqij5Lg/nwRbh8yYG2itmCPVuE0WY=",
+        "originContent": "python -m venv .venv",
+        "translatedContent": "python -m venv .venv"
+      },
+      {
+        "row": 5,
+        "rowsha": "+VAlkhk1BtbsOxUSc797Y+3JR5C7CVcq+GIU+uqiJZA=",
+        "originContent": "source .venv/bin/activate  # or .venv\\Scripts\\activate on Windows",
+        "translatedContent": "source .venv/bin/activate  # or .venv\\Scripts\\activate on Windows"
+      },
+      {
+        "row": 6,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "l+MCuZ4UDSTR8uP1HfquLbbxrUKj2ZXOK5X66XKzb9k=",
+        "originContent": "# Run GUI",
+        "translatedContent": "# Run GUI"
+      },
+      {
+        "row": 9,
+        "rowsha": "8R+DRKwbH2m/SuUNZCB7HGpBMIsHVj1PHPKggOBHqrQ=",
+        "originContent": "python src/run.py",
+        "translatedContent": "python src/run.py"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Zu0fIRSq0+X1gqu8gHv3hf+CdChg6RklkB60F0CNW0g=",
+        "originContent": "# Run CLI",
+        "translatedContent": "# Run CLI"
+      },
+      {
+        "row": 12,
+        "rowsha": "enAt3JpfqnS+Q5/nZ3w1xlhVJIbuU8sGlcrqINiwVwg=",
+        "originContent": "python -m src.cli --help",
+        "translatedContent": "python -m src.cli --help"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "tHNnyKNSkagtJZOFqKnkFV8ViCmgW+rly9Ij4SArNr4=",
+        "originContent": "# Run tests",
+        "translatedContent": "# Run tests"
+      },
+      {
+        "row": 15,
+        "rowsha": "A+u/rF3TdJyEtQKpZn7uc5Bb0f8fLHqqBEzhlkzc2FY=",
+        "originContent": "pip install pytest",
+        "translatedContent": "pip install pytest"
+      },
+      {
+        "row": 16,
+        "rowsha": "kbAdQUCIONXUiAvzxKMMaHeED3swIR4ETQTITa8p6ic=",
+        "originContent": "pytest tests/ -v",
+        "translatedContent": "pytest tests/ -v"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Packaging\n\nBuilds use PyInstaller with platform-specific post-processing. You can only build for your current platform.\n",
+    "ContentSha": "t8RcGgGtzJB+o/qbv6saXjFhGyky3KcK1aQ8BCHQf8M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 打包\n\n构建使用 PyInstaller 并进行特定平台的后处理。您只能为当前平台构建。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2NbSFzZ5Ape+suQVcI8yH8q6lm9FzDv3VvO1lad51uY=",
+        "originContent": "## Packaging",
+        "translatedContent": "## 打包"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TPNxF5cx/TDHHOQc4M3QDCF7fHG5IhDAVDO5joLGHp8=",
+        "originContent": "Builds use PyInstaller with platform-specific post-processing. You can only build for your current platform.",
+        "translatedContent": "构建使用 PyInstaller 并进行特定平台的后处理。您只能为当前平台构建。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Install build tools\npip install pyinstaller\n\n# Build (creates dist/chimpstackr/ and dist/ChimpStackr.app on macOS)\npyinstaller chimpstackr.spec --noconfirm\n\n# Or use the platform scripts:\n./scripts/build_macos.sh        # macOS → .dmg\n./scripts/build_linux.sh        # Linux → .AppImage\n.\\scripts\\build_windows.ps1     # Windows → .zip or installer\n```",
+    "ContentSha": "NsBK5GvBoc6Dhpyb1XID4/Jc5oX8x9f+lQhTHioEows=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Install build tools\npip install pyinstaller\n\n# Build (creates dist/chimpstackr/ and dist/ChimpStackr.app on macOS)\npyinstaller chimpstackr.spec --noconfirm\n\n# Or use the platform scripts:\n./scripts/build_macos.sh        # macOS → .dmg\n./scripts/build_linux.sh        # Linux → .AppImage\n.\\scripts\\build_windows.ps1     # Windows → .zip or installer\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "v56DqGuNOzrblrF4uOOq+MtU2iZP/V3x6hxbXE3L2fo=",
+        "originContent": "# Install build tools",
+        "translatedContent": "# Install build tools"
+      },
+      {
+        "row": 3,
+        "rowsha": "tRuZd737UvJ+pgJ/sO/KKZrkPNnNvbf7GqfcYjkORvg=",
+        "originContent": "pip install pyinstaller",
+        "translatedContent": "pip install pyinstaller"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ArbkQ/3e3VV9ySFXL0ul4T7gu9H3fYUeHm7QQDv1jhc=",
+        "originContent": "# Build (creates dist/chimpstackr/ and dist/ChimpStackr.app on macOS)",
+        "translatedContent": "# Build (creates dist/chimpstackr/ and dist/ChimpStackr.app on macOS)"
+      },
+      {
+        "row": 6,
+        "rowsha": "epLm+0BCIcMmRb6rF2DXsknPx3tfcQBhMUIJ8ykYDOU=",
+        "originContent": "pyinstaller chimpstackr.spec --noconfirm",
+        "translatedContent": "pyinstaller chimpstackr.spec --noconfirm"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ak4QToqVlvPOlUEHQymY6qhLm90cm65NQZc8xZSeTbA=",
+        "originContent": "# Or use the platform scripts:",
+        "translatedContent": "# Or use the platform scripts:"
+      },
+      {
+        "row": 9,
+        "rowsha": "M0ilB04c4qEf4qbObB1IBvtTsDfa4k79KpbFPRkCKQ4=",
+        "originContent": "./scripts/build_macos.sh        # macOS → .dmg",
+        "translatedContent": "./scripts/build_macos.sh        # macOS → .dmg"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZmDuMdWW2M5hJgAzB9tCKXXKDfhLOHz5eK0qdCvBrzw=",
+        "originContent": "./scripts/build_linux.sh        # Linux → .AppImage",
+        "translatedContent": "./scripts/build_linux.sh        # Linux → .AppImage"
+      },
+      {
+        "row": 11,
+        "rowsha": "D3BQyhKAPD35AOTETc8QtlmUYlwuVzAC4+WJU37YOe0=",
+        "originContent": ".\\scripts\\build_windows.ps1     # Windows → .zip or installer",
+        "translatedContent": ".\\scripts\\build_windows.ps1     # Windows → .zip or installer"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nCI/CD automatically builds all platforms on tagged releases via GitHub Actions.\n\n## Gallery\n\nThe following stacks were taken at ~4x magnification on a slightly wobbly rig (~150 images each), stacked with ChimpStackr and post-processed in [darktable](https://www.darktable.org/).\n\n![Bij_TranslationAlignment](https://user-images.githubusercontent.com/17707805/196990942-413ea35c-2abb-4bce-9807-3f3d6b3de3c5.jpg)\n![Edited](https://user-images.githubusercontent.com/17707805/196991117-dc4f1c76-cc87-4ef1-92ee-9a7484c7ff07.jpg)\n![Bewerkt](https://user-images.githubusercontent.com/17707805/196996295-9fb6c365-ef10-4ef5-b451-1a7269156e53.jpg)\n\n## Sources\n\n- Focus stacking algorithm based on: Wang, W., & Chang, F. (2011). A Multi-focus Image Fusion Method Based on Laplacian Pyramid. *Journal of Computers*, 6(12).\n- DFT image alignment adapted from: [imreg_dft](https://github.com/matejak/imreg_dft)\n- Mertens exposure fusion: Mertens, T., Kautz, J., & Van Reeth, F. (2007). Exposure Fusion.\n- Sum Modified Laplacian focus measure: Nayar, S.K., & Nakagawa, Y. (1994).\n\n## License\n\nGPL-3.0 - see [LICENSE](LICENSE) for details.\n",
+    "ContentSha": "8/0qD4QtUpbm+nEsOzDh5PyVMF2+5/AXb/pHrgsA9pY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCI/CD 通过 GitHub Actions 在带标签的发布版本上自动构建所有平台。\n\n## 画廊\n\n以下堆栈是在大约4倍放大倍率下使用稍有抖动的设备拍摄的（每组约150张图像），使用 ChimpStackr 进行堆叠，并在 [darktable](https://www.darktable.org/) 中后期处理。\n\n![Bij_TranslationAlignment](https://user-images.githubusercontent.com/17707805/196990942-413ea35c-2abb-4bce-9807-3f3d6b3de3c5.jpg)\n![Edited](https://user-images.githubusercontent.com/17707805/196991117-dc4f1c76-cc87-4ef1-92ee-9a7484c7ff07.jpg)\n![Bewerkt](https://user-images.githubusercontent.com/17707805/196996295-9fb6c365-ef10-4ef5-b451-1a7269156e53.jpg)\n\n## 来源\n\n- 基于以下论文的焦点堆叠算法：Wang, W., & Chang, F. (2011). 一种基于拉普拉斯金字塔的多焦点图像融合方法。*计算机学报*, 6(12)。\n- DFT 图像对齐改编自：[imreg_dft](https://github.com/matejak/imreg_dft)\n- Mertens 曝光融合：Mertens, T., Kautz, J., & Van Reeth, F. (2007). 曝光融合。\n- 修正拉普拉斯和焦点测量：Nayar, S.K., & Nakagawa, Y. (1994)。\n\n## 许可证\n\nGPL-3.0 - 详情请见 [LICENSE](LICENSE)。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LQvmreeWJaOOfb7C48dD67c6ttoWOO4HzhUqW74Sd+8=",
+        "originContent": "CI/CD automatically builds all platforms on tagged releases via GitHub Actions.",
+        "translatedContent": "CI/CD 通过 GitHub Actions 在带标签的发布版本上自动构建所有平台。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+        "originContent": "## Gallery",
+        "translatedContent": "## 画廊"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RraRXh7OygGmQf8qv4DuVSmH/7oQdkE6YwKjxe6iH/Y=",
+        "originContent": "The following stacks were taken at ~4x magnification on a slightly wobbly rig (~150 images each), stacked with ChimpStackr and post-processed in [darktable](https://www.darktable.org/).",
+        "translatedContent": "以下堆栈是在大约4倍放大倍率下使用稍有抖动的设备拍摄的（每组约150张图像），使用 ChimpStackr 进行堆叠，并在 [darktable](https://www.darktable.org/) 中后期处理。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "10rgmt3rmYmcP8lUUyyrd43rn7zRTEGaO9owrAfH+2o=",
+        "originContent": "![Bij_TranslationAlignment](https://user-images.githubusercontent.com/17707805/196990942-413ea35c-2abb-4bce-9807-3f3d6b3de3c5.jpg)",
+        "translatedContent": "![Bij_TranslationAlignment](https://user-images.githubusercontent.com/17707805/196990942-413ea35c-2abb-4bce-9807-3f3d6b3de3c5.jpg)"
+      },
+      {
+        "row": 9,
+        "rowsha": "1PDHqsKieaFbqBCHtvO0CXniz4spg7EyFgoIhwwSEZ8=",
+        "originContent": "![Edited](https://user-images.githubusercontent.com/17707805/196991117-dc4f1c76-cc87-4ef1-92ee-9a7484c7ff07.jpg)",
+        "translatedContent": "![Edited](https://user-images.githubusercontent.com/17707805/196991117-dc4f1c76-cc87-4ef1-92ee-9a7484c7ff07.jpg)"
+      },
+      {
+        "row": 10,
+        "rowsha": "z/7jsiMvQHcB7jv+GMWlJom7Du2sL4QRWGuTDO4/HVs=",
+        "originContent": "![Bewerkt](https://user-images.githubusercontent.com/17707805/196996295-9fb6c365-ef10-4ef5-b451-1a7269156e53.jpg)",
+        "translatedContent": "![Bewerkt](https://user-images.githubusercontent.com/17707805/196996295-9fb6c365-ef10-4ef5-b451-1a7269156e53.jpg)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "rSr3QlyvJvjpAcrUCk9uapg9u91wdyXN0kOeyqF3nyg=",
+        "originContent": "## Sources",
+        "translatedContent": "## 来源"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ni/qm0oa+PldxN5EPY3kifWe1k6pK5YVXEzWTfeLG2s=",
+        "originContent": "- Focus stacking algorithm based on: Wang, W., & Chang, F. (2011). A Multi-focus Image Fusion Method Based on Laplacian Pyramid. *Journal of Computers*, 6(12).",
+        "translatedContent": "- 基于以下论文的焦点堆叠算法：Wang, W., & Chang, F. (2011). 一种基于拉普拉斯金字塔的多焦点图像融合方法。*计算机学报*, 6(12)。"
+      },
+      {
+        "row": 15,
+        "rowsha": "LLls7pBhv5gvFjCWp0IVNx1oSb0f7XGY8C7cN/qJKpQ=",
+        "originContent": "- DFT image alignment adapted from: [imreg_dft](https://github.com/matejak/imreg_dft)",
+        "translatedContent": "- DFT 图像对齐改编自：[imreg_dft](https://github.com/matejak/imreg_dft)"
+      },
+      {
+        "row": 16,
+        "rowsha": "m5XaJ+iHrJbWCjyS+yu/n/QAgV6fFPykjwf3ssMqopw=",
+        "originContent": "- Mertens exposure fusion: Mertens, T., Kautz, J., & Van Reeth, F. (2007). Exposure Fusion.",
+        "translatedContent": "- Mertens 曝光融合：Mertens, T., Kautz, J., & Van Reeth, F. (2007). 曝光融合。"
+      },
+      {
+        "row": 17,
+        "rowsha": "1Zyy9BR8kvhFcvKY006wla1w2d3ZxXeOTsnWj3ep/NA=",
+        "originContent": "- Sum Modified Laplacian focus measure: Nayar, S.K., & Nakagawa, Y. (1994).",
+        "translatedContent": "- 修正拉普拉斯和焦点测量：Nayar, S.K., & Nakagawa, Y. (1994)。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "S5AJKs7jVssUAovoAYRMeivymsddC1xqnxYgZyL4OsM=",
+        "originContent": "GPL-3.0 - see [LICENSE](LICENSE) for details.",
+        "translatedContent": "GPL-3.0 - 详情请见 [LICENSE](LICENSE)。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

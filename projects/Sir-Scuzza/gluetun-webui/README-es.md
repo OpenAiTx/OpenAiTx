@@ -1,9 +1,41 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Gluetun WebUI
 
-Una interfaz web ligera para monitorear y controlar [Gluetun](https://github.com/qdm12/gluetun) — el contenedor cliente VPN para Docker.
+Una interfaz web ligera para monitorear y controlar [Gluetun](https://github.com/qdm12/gluetun), el contenedor cliente VPN para Docker.
 
 ![Estado: Conectado](https://img.shields.io/badge/status-connected-brightgreen)
-![Nodo 25](https://img.shields.io/badge/node-25--alpine-blue)
+![Node 25](https://img.shields.io/badge/node-25--alpine-blue)
 ![Docker](https://img.shields.io/badge/docker-compose-blue)
 
 ---
@@ -14,10 +46,10 @@ Una interfaz web ligera para monitorear y controlar [Gluetun](https://github.com
 - Banner de estado VPN en vivo (conectado / pausado / desconectado)
 - IP pública de salida, país, región, ciudad y organización
 - Proveedor VPN, protocolo (WireGuard / OpenVPN), detalles del servidor
-- Reenvío de puertos y estado DNS
-- Controles de iniciar / detener VPN
+- Estado de reenvío de puertos y DNS
+- Controles para iniciar / detener VPN
 - Auto-refresco con intervalo configurable (5s – 60s)
-- Últimos 30 ticks de sondeo codificados por colores en la barra de historial
+- Últimos 30 ticks de sondeo codificados por color en barra de historial
 - Diseño responsivo (móvil, tableta, escritorio)
 
 ---
@@ -30,18 +62,18 @@ Una interfaz web ligera para monitorear y controlar [Gluetun](https://github.com
 ## Requisitos
 
 - Docker + Docker Compose
-- Gluetun ejecutándose con su servidor de control HTTP habilitado (puerto predeterminado `8000`)
-- Gluetun y gluetun-webui en la misma red Docker
+- Gluetun ejecutándose con su servidor de control HTTP habilitado (puerto por defecto `8000`)
+- Gluetun y gluetun-webui en la misma red de Docker
 
-> Compatible con `linux/amd64` y `linux/arm64` (funciona en Mac Intel/Apple Silicon, Linux y Windows).
+> Soporta `linux/amd64` y `linux/arm64` (funciona en Mac Intel/Apple Silicon, Linux y Windows).
 
 ---
 
 ## Inicio rápido
 
-### Opción A1: Instancia Única (Recomendada)
+### Opción A1: Instancia única (Recomendado)
 
-Agregue `gluetun-webui` a su archivo compose existente junto con Gluetun:
+Agrega `gluetun-webui` a tu archivo compose existente junto a Gluetun:
 
 ```yaml
 gluetun-webui:
@@ -308,6 +340,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-29
 
 ---

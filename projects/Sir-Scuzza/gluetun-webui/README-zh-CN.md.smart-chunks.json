@@ -1,19 +1,272 @@
 [
   {
     "Id": 1,
-    "Content": "# Gluetun WebUI\n\nA lightweight web UI for monitoring and controlling [Gluetun](https://github.com/qdm12/gluetun) — the VPN client container for Docker.\n\n![Status: Connected](https://img.shields.io/badge/status-connected-brightgreen)\n![Node 25](https://img.shields.io/badge/node-25--alpine-blue)\n![Docker](https://img.shields.io/badge/docker-compose-blue)\n\n---\n\n## Features\n\n- ✨ **Multi-VPN Support** — Monitor & control up to 20 Gluetun instances simultaneously\n- Live VPN status banner (connected / paused / disconnected)\n- Public exit IP, country, region, city, and organisation\n- VPN provider, protocol (WireGuard / OpenVPN), server details\n- Port forwarding and DNS status\n- Start / Stop VPN controls\n- Auto-refresh with configurable interval (5s – 60s)\n- Last 30 poll ticks colour-coded in history bar\n- Responsive design (mobile, tablet, desktop)\n\n---\n\n## Screenshots\n![alt text](https://raw.githubusercontent.com/Sir-Scuzza/gluetun-webui/main/image-1.png)\n\n---\n\n## Requirements\n\n- Docker + Docker Compose\n- Gluetun running with its HTTP control server enabled (default port `8000`)\n- Gluetun and gluetun-webui on the same Docker network\n\n> Supports `linux/amd64` and `linux/arm64` (works on Mac Intel/Apple Silicon, Linux, and Windows).\n\n---\n\n## Quick Start",
-    "ContentSha": "0pZamATgofP09jQY7SJeSgWsOSxn3GvYXBAA6BeYnHw=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Gluetun WebUI\n\nA lightweight web UI for monitoring and controlling [Gluetun](https://github.com/qdm12/gluetun) — the VPN client container for Docker.\n\n![Status: Connected](https://img.shields.io/badge/status-connected-brightgreen)\n![Node 25](https://img.shields.io/badge/node-25--alpine-blue)\n![Docker](https://img.shields.io/badge/docker-compose-blue)\n",
+    "ContentSha": "Xap+H2NgM5lr8KJ/0XW1YcoeAZg4GjceFv68ZwseLGw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Gluetun WebUI\n\n一个轻量级的网页界面，用于监控和控制 [Gluetun](https://github.com/qdm12/gluetun) — Docker 的 VPN 客户端容器。\n\n![状态：已连接](https://img.shields.io/badge/status-connected-brightgreen)\n![节点 25](https://img.shields.io/badge/node-25--alpine-blue)\n![Docker](https://img.shields.io/badge/docker-compose-blue)\n\n---\n\n## 功能\n\n- ✨ **多VPN支持** — 同时监控和控制多达 20 个 Gluetun 实例\n- 实时 VPN 状态横幅（已连接 / 暂停 / 已断开）\n- 公共出口 IP、国家、地区、城市和组织\n- VPN 提供商、协议（WireGuard / OpenVPN）、服务器详情\n- 端口转发和 DNS 状态\n- 启动 / 停止 VPN 控制\n- 自动刷新，间隔可配置（5秒 – 60秒）\n- 历史条中最后 30 次轮询以颜色区分\n- 响应式设计（移动端、平板、桌面）\n\n---\n\n## 截图\n![alt text](https://raw.githubusercontent.com/Sir-Scuzza/gluetun-webui/main/image-1.png)\n\n---\n\n## 要求\n\n- Docker + Docker Compose\n- Gluetun 运行并启用其 HTTP 控制服务器（默认端口 `8000`）\n- Gluetun 和 gluetun-webui 在同一 Docker 网络中\n\n> 支持 `linux/amd64` 和 `linux/arm64`（适用于 Mac Intel/Apple Silicon、Linux 和 Windows）。\n\n---\n\n## 快速开始",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Gluetun WebUI\n\n一个轻量级 Web UI，用于监控和控制 [Gluetun](https://github.com/qdm12/gluetun) —— 用于 Docker 的 VPN 客户端容器。\n\n![状态：已连接](https://img.shields.io/badge/status-connected-brightgreen)\n![节点 25](https://img.shields.io/badge/node-25--alpine-blue)\n![Docker](https://img.shields.io/badge/docker-compose-blue)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 语言</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "cesMxN0fDnZNw9DszEb31oFDiTcgmAuqsLdayt1Py0c=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "nOVBPr/ihjBovZOuuSVve+s+IUBgfrkh3Ktm2wz+uNI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "9Po9HM1ydxqkrmNlDXUd9968rXiQkt/o5u6ijBGBhU4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "2izIXl1WGZkaFAs0WWKdYoPQgwUIinsZ/5H7/cuDD7E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "p9824jlIxL/GTmwIV8ivQNt1HkM0kx5W+GJzIOsVRi4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "aXwx8nXBZu7m6ShRVJ9AG01seEPAF6IrM2GMHgODR8Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "+nfXEblaT06Q9Kto19cBThEKOP0Ks3cbEO2B/NigyJA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "WNir7MfUBmT9Fj0977nxYid83QKnSDpvLk14bS1XD3s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "7STpTwcYlruHPL7m51Qa7IoInmQSlbhiF99WoZiqHPk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "fiyJF5Zr9rHVHYc/Lzg9A1NhXNAOvCJfR2ipROuPOk0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "aQX5paloxd3elhtV7xJw1EFMKEH7sPZqUoYi5qpUpDE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "u3gGuqd3oZ+mhBpZqmiYaRaGxDRs2otJgb1Cpa5mFiw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "jin9BRsEA8kTTMawal2yzB3drY4sqIGAhgOnieiEM00=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "JPY87SfeNBdF+IIK/sHDZQE0AAupc54j2IpYfvhJlvo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "fD5iJLWTgEvdp8E4XurxfUa/uYl1ReyUiXUKc1jsBcA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "31iVS051WFv6I1bNfliNiijfo6+QcT6DOGAvWgu5EsU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "4HE8+yoGND7XI2gctdIxs5bhh7Gq0qZrQam9/9sD930=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "n5Fi7MIDmnXz2SwO47d11aJTemCrZhBbY7KnEiO0Kzo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "ZS9TUd88BEGfOsGKMsk/KcSoGxhxiEwHga3BG1D/yJ0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "9m4GLf2vjOhms1IaeAUJJiTa9qMtjmrb1Hertnh4NQw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "wW1IKke40nQy0GlLEthXtyp9yYkj38ijAMn5FpYGK5Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "drQihSGAD2AyHt//8yXGHsGqOwWa6pT2JGrY2f6vbBM=",
         "originContent": "# Gluetun WebUI",
         "translatedContent": "# Gluetun WebUI"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ARLl2c5qiW3vMccdXyqg+psg20ka7Xxg74iHOIfYwVw=",
+        "originContent": "A lightweight web UI for monitoring and controlling [Gluetun](https://github.com/qdm12/gluetun) — the VPN client container for Docker.",
+        "translatedContent": "一个轻量级 Web UI，用于监控和控制 [Gluetun](https://github.com/qdm12/gluetun) —— 用于 Docker 的 VPN 客户端容器。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "PexD57k5wyTmHW5un8/aSm6mWEIAj+8HFY6ZB15rFdU=",
+        "originContent": "![Status: Connected](https://img.shields.io/badge/status-connected-brightgreen)",
+        "translatedContent": "![状态：已连接](https://img.shields.io/badge/status-connected-brightgreen)"
+      },
+      {
+        "row": 38,
+        "rowsha": "MZXh+fjxTW2jONS9iebv+I1yLdNALhYL+iKaJMCM1Yc=",
+        "originContent": "![Node 25](https://img.shields.io/badge/node-25--alpine-blue)",
+        "translatedContent": "![节点 25](https://img.shields.io/badge/node-25--alpine-blue)"
+      },
+      {
+        "row": 39,
+        "rowsha": "GAE91qFf3SaqP1ya1JX+oiD1mPXSWSBS37XvZq57b5s=",
+        "originContent": "![Docker](https://img.shields.io/badge/docker-compose-blue)",
+        "translatedContent": "![Docker](https://img.shields.io/badge/docker-compose-blue)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "---\n\n## Features\n\n- ✨ **Multi-VPN Support** — Monitor & control up to 20 Gluetun instances simultaneously\n- Live VPN status banner (connected / paused / disconnected)\n- Public exit IP, country, region, city, and organisation\n- VPN provider, protocol (WireGuard / OpenVPN), server details\n- Port forwarding and DNS status\n- Start / Stop VPN controls\n- Auto-refresh with configurable interval (5s – 60s)\n- Last 30 poll ticks colour-coded in history bar\n- Responsive design (mobile, tablet, desktop)\n\n---\n\n## Screenshots\n![alt text](https://raw.githubusercontent.com/Sir-Scuzza/gluetun-webui/main/image-1.png)\n\n---\n\n## Requirements\n\n- Docker + Docker Compose\n- Gluetun running with its HTTP control server enabled (default port `8000`)\n- Gluetun and gluetun-webui on the same Docker network\n\n> Supports `linux/amd64` and `linux/arm64` (works on Mac Intel/Apple Silicon, Linux, and Windows).\n\n---\n\n## Quick Start\n\n### Option A1: Single Instance (Recommended)\n\nAdd `gluetun-webui` to your existing compose file alongside Gluetun:\n",
+    "ContentSha": "LSHUehNMRd4pgkXRMTeNtEV7ejQ7tyN0+HdF6zXonQw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 功能\n\n- ✨ **多VPN支持** — 同时监控和控制最多20个Gluetun实例\n- 实时VPN状态横幅（已连接 / 暂停 / 已断开）\n- 公共出口IP、国家、地区、城市和组织信息\n- VPN提供商、协议（WireGuard / OpenVPN）、服务器详情\n- 端口转发和DNS状态\n- 启动 / 停止VPN控制\n- 自动刷新，可配置间隔（5秒 – 60秒）\n- 最近30次轮询历史条按颜色编码\n- 响应式设计（移动端、平板、桌面端）\n\n---\n\n## 截图\n![alt text](https://raw.githubusercontent.com/Sir-Scuzza/gluetun-webui/main/image-1.png)\n\n---\n\n## 要求\n\n- Docker + Docker Compose\n- Gluetun运行并启用其HTTP控制服务器（默认端口 `8000`）\n- Gluetun和gluetun-webui必须在同一Docker网络下\n\n> 支持 `linux/amd64` 和 `linux/arm64`（兼容Mac Intel/Apple Silicon、Linux和Windows）。\n\n---\n\n## 快速开始\n\n### 选项A1：单实例（推荐）\n\n在你的现有compose文件中添加`gluetun-webui`，与Gluetun一起运行：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
       },
       {
         "row": 2,
@@ -23,9 +276,9 @@
       },
       {
         "row": 3,
-        "rowsha": "ARLl2c5qiW3vMccdXyqg+psg20ka7Xxg74iHOIfYwVw=",
-        "originContent": "A lightweight web UI for monitoring and controlling [Gluetun](https://github.com/qdm12/gluetun) — the VPN client container for Docker.",
-        "translatedContent": "一个轻量级的网页界面，用于监控和控制 [Gluetun](https://github.com/qdm12/gluetun) — Docker 的 VPN 客户端容器。"
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
       },
       {
         "row": 4,
@@ -35,135 +288,135 @@
       },
       {
         "row": 5,
-        "rowsha": "PexD57k5wyTmHW5un8/aSm6mWEIAj+8HFY6ZB15rFdU=",
-        "originContent": "![Status: Connected](https://img.shields.io/badge/status-connected-brightgreen)",
-        "translatedContent": "![状态：已连接](https://img.shields.io/badge/status-connected-brightgreen)"
+        "rowsha": "cSR6GTsFSY5ONv1q6qc6YTgQILPWqDCIpNa/AdwK0Zc=",
+        "originContent": "- ✨ **Multi-VPN Support** — Monitor & control up to 20 Gluetun instances simultaneously",
+        "translatedContent": "- ✨ **多VPN支持** — 同时监控和控制最多20个Gluetun实例"
       },
       {
         "row": 6,
-        "rowsha": "MZXh+fjxTW2jONS9iebv+I1yLdNALhYL+iKaJMCM1Yc=",
-        "originContent": "![Node 25](https://img.shields.io/badge/node-25--alpine-blue)",
-        "translatedContent": "![节点 25](https://img.shields.io/badge/node-25--alpine-blue)"
+        "rowsha": "mBZKXVYuUtJQbUJLlbLJslY68XIxVUd8E0i9dI86H/Y=",
+        "originContent": "- Live VPN status banner (connected / paused / disconnected)",
+        "translatedContent": "- 实时VPN状态横幅（已连接 / 暂停 / 已断开）"
       },
       {
         "row": 7,
-        "rowsha": "GAE91qFf3SaqP1ya1JX+oiD1mPXSWSBS37XvZq57b5s=",
-        "originContent": "![Docker](https://img.shields.io/badge/docker-compose-blue)",
-        "translatedContent": "![Docker](https://img.shields.io/badge/docker-compose-blue)"
+        "rowsha": "vEEauWrNIs7Bp3LHLdp6OJ/NW4ehfSeUMj6WyIscX88=",
+        "originContent": "- Public exit IP, country, region, city, and organisation",
+        "translatedContent": "- 公共出口IP、国家、地区、城市和组织信息"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "R1AZ2YhcQ9DUni42au+xUEitiCTOVHJHwLL4b5YMy1U=",
+        "originContent": "- VPN provider, protocol (WireGuard / OpenVPN), server details",
+        "translatedContent": "- VPN提供商、协议（WireGuard / OpenVPN）、服务器详情"
       },
       {
         "row": 9,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
+        "rowsha": "l31yZUHPzDMUnZWpMpPUWWztve/5Oy1bnzh574v+/Bo=",
+        "originContent": "- Port forwarding and DNS status",
+        "translatedContent": "- 端口转发和DNS状态"
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "u47MjBJGNDrYizp5lCNdnlqbewCApJkwu+1ot/QW5Ls=",
+        "originContent": "- Start / Stop VPN controls",
+        "translatedContent": "- 启动 / 停止VPN控制"
       },
       {
         "row": 11,
-        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
-        "originContent": "## Features",
-        "translatedContent": "## 功能"
+        "rowsha": "rlwkXWhH8PdYLHz2g4YCd5yGzbXgM4ykQnb0xIKoXxk=",
+        "originContent": "- Auto-refresh with configurable interval (5s – 60s)",
+        "translatedContent": "- 自动刷新，可配置间隔（5秒 – 60秒）"
       },
       {
         "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "otJhh+78dCh5XttwOtNAox72ojnRV7DxItB07IFtVLw=",
+        "originContent": "- Last 30 poll ticks colour-coded in history bar",
+        "translatedContent": "- 最近30次轮询历史条按颜色编码"
       },
       {
         "row": 13,
-        "rowsha": "cSR6GTsFSY5ONv1q6qc6YTgQILPWqDCIpNa/AdwK0Zc=",
-        "originContent": "- ✨ **Multi-VPN Support** — Monitor & control up to 20 Gluetun instances simultaneously",
-        "translatedContent": "- ✨ **多VPN支持** — 同时监控和控制多达 20 个 Gluetun 实例"
+        "rowsha": "2j4NNahs+whQNeY+H5cA92S9rwe/54bwceNAxB3TO0g=",
+        "originContent": "- Responsive design (mobile, tablet, desktop)",
+        "translatedContent": "- 响应式设计（移动端、平板、桌面端）"
       },
       {
         "row": 14,
-        "rowsha": "mBZKXVYuUtJQbUJLlbLJslY68XIxVUd8E0i9dI86H/Y=",
-        "originContent": "- Live VPN status banner (connected / paused / disconnected)",
-        "translatedContent": "- 实时 VPN 状态横幅（已连接 / 暂停 / 已断开）"
-      },
-      {
-        "row": 15,
-        "rowsha": "vEEauWrNIs7Bp3LHLdp6OJ/NW4ehfSeUMj6WyIscX88=",
-        "originContent": "- Public exit IP, country, region, city, and organisation",
-        "translatedContent": "- 公共出口 IP、国家、地区、城市和组织"
-      },
-      {
-        "row": 16,
-        "rowsha": "R1AZ2YhcQ9DUni42au+xUEitiCTOVHJHwLL4b5YMy1U=",
-        "originContent": "- VPN provider, protocol (WireGuard / OpenVPN), server details",
-        "translatedContent": "- VPN 提供商、协议（WireGuard / OpenVPN）、服务器详情"
-      },
-      {
-        "row": 17,
-        "rowsha": "l31yZUHPzDMUnZWpMpPUWWztve/5Oy1bnzh574v+/Bo=",
-        "originContent": "- Port forwarding and DNS status",
-        "translatedContent": "- 端口转发和 DNS 状态"
-      },
-      {
-        "row": 18,
-        "rowsha": "u47MjBJGNDrYizp5lCNdnlqbewCApJkwu+1ot/QW5Ls=",
-        "originContent": "- Start / Stop VPN controls",
-        "translatedContent": "- 启动 / 停止 VPN 控制"
-      },
-      {
-        "row": 19,
-        "rowsha": "rlwkXWhH8PdYLHz2g4YCd5yGzbXgM4ykQnb0xIKoXxk=",
-        "originContent": "- Auto-refresh with configurable interval (5s – 60s)",
-        "translatedContent": "- 自动刷新，间隔可配置（5秒 – 60秒）"
-      },
-      {
-        "row": 20,
-        "rowsha": "otJhh+78dCh5XttwOtNAox72ojnRV7DxItB07IFtVLw=",
-        "originContent": "- Last 30 poll ticks colour-coded in history bar",
-        "translatedContent": "- 历史条中最后 30 次轮询以颜色区分"
-      },
-      {
-        "row": 21,
-        "rowsha": "2j4NNahs+whQNeY+H5cA92S9rwe/54bwceNAxB3TO0g=",
-        "originContent": "- Responsive design (mobile, tablet, desktop)",
-        "translatedContent": "- 响应式设计（移动端、平板、桌面）"
-      },
-      {
-        "row": 22,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 23,
+        "row": 15,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
         "translatedContent": "---"
       },
       {
-        "row": 24,
+        "row": 16,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 25,
+        "row": 17,
         "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
         "originContent": "## Screenshots",
         "translatedContent": "## 截图"
       },
       {
-        "row": 26,
+        "row": 18,
         "rowsha": "SqA6A6BemQbuvIseGwYQ8t8Jhkgn9GLKs7rgYhKYY2g=",
         "originContent": "![alt text](https://raw.githubusercontent.com/Sir-Scuzza/gluetun-webui/main/image-1.png)",
         "translatedContent": "![alt text](https://raw.githubusercontent.com/Sir-Scuzza/gluetun-webui/main/image-1.png)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 要求"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "uq/LQBThPxskX9RMGYqDLghO9qhyM9wFXODnHZH2fR8=",
+        "originContent": "- Docker + Docker Compose",
+        "translatedContent": "- Docker + Docker Compose"
+      },
+      {
+        "row": 25,
+        "rowsha": "wqUhDSyQRRTRuJy+gOxhjIVsYATh5uk+n4R7143wZhc=",
+        "originContent": "- Gluetun running with its HTTP control server enabled (default port `8000`)",
+        "translatedContent": "- Gluetun运行并启用其HTTP控制服务器（默认端口 `8000`）"
+      },
+      {
+        "row": 26,
+        "rowsha": "DD3i4+zBDfSZsov2uPxo9fYEMDzDTqGV0750YcogTa0=",
+        "originContent": "- Gluetun and gluetun-webui on the same Docker network",
+        "translatedContent": "- Gluetun和gluetun-webui必须在同一Docker网络下"
       },
       {
         "row": 27,
@@ -173,9 +426,9 @@
       },
       {
         "row": 28,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
+        "rowsha": "H7Y7I6WZTedoHJCNuCwUDhD4N7RV+QgBR6Lhb34eD5g=",
+        "originContent": "> Supports `linux/amd64` and `linux/arm64` (works on Mac Intel/Apple Silicon, Linux, and Windows).",
+        "translatedContent": "> 支持 `linux/amd64` 和 `linux/arm64`（兼容Mac Intel/Apple Silicon、Linux和Windows）。"
       },
       {
         "row": 29,
@@ -185,9 +438,9 @@
       },
       {
         "row": 30,
-        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
-        "originContent": "## Requirements",
-        "translatedContent": "## 要求"
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
       },
       {
         "row": 31,
@@ -197,21 +450,21 @@
       },
       {
         "row": 32,
-        "rowsha": "uq/LQBThPxskX9RMGYqDLghO9qhyM9wFXODnHZH2fR8=",
-        "originContent": "- Docker + Docker Compose",
-        "translatedContent": "- Docker + Docker Compose"
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 快速开始"
       },
       {
         "row": 33,
-        "rowsha": "wqUhDSyQRRTRuJy+gOxhjIVsYATh5uk+n4R7143wZhc=",
-        "originContent": "- Gluetun running with its HTTP control server enabled (default port `8000`)",
-        "translatedContent": "- Gluetun 运行并启用其 HTTP 控制服务器（默认端口 `8000`）"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 34,
-        "rowsha": "DD3i4+zBDfSZsov2uPxo9fYEMDzDTqGV0750YcogTa0=",
-        "originContent": "- Gluetun and gluetun-webui on the same Docker network",
-        "translatedContent": "- Gluetun 和 gluetun-webui 在同一 Docker 网络中"
+        "rowsha": "QaDP6TAndOEEjp87YqfMcIpTgnk72pqMY8duRqcuXiE=",
+        "originContent": "### Option A1: Single Instance (Recommended)",
+        "translatedContent": "### 选项A1：单实例（推荐）"
       },
       {
         "row": 35,
@@ -221,73 +474,12 @@
       },
       {
         "row": 36,
-        "rowsha": "H7Y7I6WZTedoHJCNuCwUDhD4N7RV+QgBR6Lhb34eD5g=",
-        "originContent": "> Supports `linux/amd64` and `linux/arm64` (works on Mac Intel/Apple Silicon, Linux, and Windows).",
-        "translatedContent": "> 支持 `linux/amd64` 和 `linux/arm64`（适用于 Mac Intel/Apple Silicon、Linux 和 Windows）。"
+        "rowsha": "mNOW0AsyqB02d0ImZ831GtqC3x/QpyZkBYB1I4aGuHQ=",
+        "originContent": "Add `gluetun-webui` to your existing compose file alongside Gluetun:",
+        "translatedContent": "在你的现有compose文件中添加`gluetun-webui`，与Gluetun一起运行："
       },
       {
         "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
-        "originContent": "## Quick Start",
-        "translatedContent": "## 快速开始"
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 2,
-    "Content": "\n### Option A1: Single Instance (Recommended)\n\nAdd `gluetun-webui` to your existing compose file alongside Gluetun:\n",
-    "ContentSha": "Q6f6+BknQZMD0rHq9Pe9C85HQpYFZMJdhWPjLFlLMVQ=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "\n### 选项 A1：单实例（推荐）\n\n在现有的 compose 文件中，和 Gluetun 一起添加 `gluetun-webui`：\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "QaDP6TAndOEEjp87YqfMcIpTgnk72pqMY8duRqcuXiE=",
-        "originContent": "### Option A1: Single Instance (Recommended)",
-        "translatedContent": "### 选项 A1：单实例（推荐）"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "mNOW0AsyqB02d0ImZ831GtqC3x/QpyZkBYB1I4aGuHQ=",
-        "originContent": "Add `gluetun-webui` to your existing compose file alongside Gluetun:",
-        "translatedContent": "在现有的 compose 文件中，和 Gluetun 一起添加 `gluetun-webui`："
-      },
-      {
-        "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -304,182 +496,7 @@
     "EndLine": 0,
     "Translation": "```yaml\ngluetun-webui:\n  image: scuzza/gluetun-webui:latest\n  container_name: gluetun-webui\n  ports:\n    - \"127.0.0.1:3000:3000\"\n  environment:\n    - GLUETUN_CONTROL_URL=http://gluetun:8000\n    # Uncomment if Gluetun auth is enabled:\n    #- GLUETUN_API_KEY=yourtoken\n    #- GLUETUN_USER=username\n    #- GLUETUN_PASSWORD=password\n  networks:\n    - your_network_name\n  restart: unless-stopped\n  read_only: true\n  tmpfs:\n    - /tmp\n  security_opt:\n    - no-new-privileges:true\n  cap_drop:\n    - ALL\n  healthcheck:\n    test: [\"CMD\", \"wget\", \"-qO-\", \"http://localhost:3000/api/health\"]\n    interval: 30s\n    timeout: 5s\n    start_period: 10s\n    retries: 3\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "DEnxxTGweIADL6Yay/WMlUaPudBKB9LS1vd0NhJoWgo=",
-        "originContent": "gluetun-webui:",
-        "translatedContent": "gluetun-webui:"
-      },
-      {
-        "row": 3,
-        "rowsha": "MLQTNeB0i0iht2Jr6zDOW+DGWQy21KWz9Szi6A8OBEM=",
-        "originContent": "  image: scuzza/gluetun-webui:latest",
-        "translatedContent": "  image: scuzza/gluetun-webui:latest"
-      },
-      {
-        "row": 4,
-        "rowsha": "q816DoQZ8ZNtk4bU0ZZRg0HiyUr+RyZn3azP+rxQcOo=",
-        "originContent": "  container_name: gluetun-webui",
-        "translatedContent": "  container_name: gluetun-webui"
-      },
-      {
-        "row": 5,
-        "rowsha": "j0UmSZPQ+4eHrCtsEyhC8QRpa3fFdglP598OM7e9y38=",
-        "originContent": "  ports:",
-        "translatedContent": "  ports:"
-      },
-      {
-        "row": 6,
-        "rowsha": "TtmMkFBKkyt2Hour2lZJmUx1lIDyjOsbyrz0KNGMf8E=",
-        "originContent": "    - \"127.0.0.1:3000:3000\"",
-        "translatedContent": "    - \"127.0.0.1:3000:3000\""
-      },
-      {
-        "row": 7,
-        "rowsha": "/2g1JzosUq0ym11h16WkpWmJ2LPpRxf8xOMab70f4kQ=",
-        "originContent": "  environment:",
-        "translatedContent": "  environment:"
-      },
-      {
-        "row": 8,
-        "rowsha": "tIIYoLrFfOtuU3M1UEHBh0ACgQ0n2E8GzUPuWr3g+e8=",
-        "originContent": "    - GLUETUN_CONTROL_URL=http://gluetun:8000",
-        "translatedContent": "    - GLUETUN_CONTROL_URL=http://gluetun:8000"
-      },
-      {
-        "row": 9,
-        "rowsha": "XllGA11o9EMCiIks2D9TKHUxe6iLdFJE/e/glquX8LQ=",
-        "originContent": "    # Uncomment if Gluetun auth is enabled:",
-        "translatedContent": "    # Uncomment if Gluetun auth is enabled:"
-      },
-      {
-        "row": 10,
-        "rowsha": "+uWrRGZ2rtiOTRiSeEK3BwxvOrkj26FO3KRHpjmmnq8=",
-        "originContent": "    #- GLUETUN_API_KEY=yourtoken",
-        "translatedContent": "    #- GLUETUN_API_KEY=yourtoken"
-      },
-      {
-        "row": 11,
-        "rowsha": "HbwR2lkedOCq7NSf6F5nsXCs1A3zP5mQxoibbVNDS+U=",
-        "originContent": "    #- GLUETUN_USER=username",
-        "translatedContent": "    #- GLUETUN_USER=username"
-      },
-      {
-        "row": 12,
-        "rowsha": "ay3+GtwIurHeEQlI32H/lHP8WIOjIhOPZz/I5PmCMio=",
-        "originContent": "    #- GLUETUN_PASSWORD=password",
-        "translatedContent": "    #- GLUETUN_PASSWORD=password"
-      },
-      {
-        "row": 13,
-        "rowsha": "zYbaQwfXpctpkwbXX9AQ+vkSlKLWnvtIIO1c3ZuuwoA=",
-        "originContent": "  networks:",
-        "translatedContent": "  networks:"
-      },
-      {
-        "row": 14,
-        "rowsha": "/ieggWnQ3QiGSy8xN33j1xDtgNCtB9xpMPyFLHs9NZ0=",
-        "originContent": "    - your_network_name",
-        "translatedContent": "    - your_network_name"
-      },
-      {
-        "row": 15,
-        "rowsha": "erhZYLDUj5+F36ya5j2QG5DSRc7bZz+t5PPcscNvI24=",
-        "originContent": "  restart: unless-stopped",
-        "translatedContent": "  restart: unless-stopped"
-      },
-      {
-        "row": 16,
-        "rowsha": "7cgVxH2/IbIW87ZMyqC3ex94Yo/MSj+EN/2VAkfcl/g=",
-        "originContent": "  read_only: true",
-        "translatedContent": "  read_only: true"
-      },
-      {
-        "row": 17,
-        "rowsha": "nxsRn9sUlwCO5oZXwjMjUmNWNMaFR8g/2oWTd0+f02U=",
-        "originContent": "  tmpfs:",
-        "translatedContent": "  tmpfs:"
-      },
-      {
-        "row": 18,
-        "rowsha": "Q2qZD8IlnzCrKIedfJ3MuUhGH/3cHDkV1tMmb3V8Q98=",
-        "originContent": "    - /tmp",
-        "translatedContent": "    - /tmp"
-      },
-      {
-        "row": 19,
-        "rowsha": "zMnkMdwkraU/bixlchqL/Dv6eDBPe64ctKSfomOVN3Q=",
-        "originContent": "  security_opt:",
-        "translatedContent": "  security_opt:"
-      },
-      {
-        "row": 20,
-        "rowsha": "zKL7IqZYZTp/wsES2YdLo3+bCkTICVF2FWrq5FzPzgA=",
-        "originContent": "    - no-new-privileges:true",
-        "translatedContent": "    - no-new-privileges:true"
-      },
-      {
-        "row": 21,
-        "rowsha": "kO3m27+aVXq7LkQzfPoIjk97DCca472+qWxwKxKClqI=",
-        "originContent": "  cap_drop:",
-        "translatedContent": "  cap_drop:"
-      },
-      {
-        "row": 22,
-        "rowsha": "+oAYX/kbieNGuEqSY50SK3S4Cav6+Xn8L4wYtbhTJbc=",
-        "originContent": "    - ALL",
-        "translatedContent": "    - ALL"
-      },
-      {
-        "row": 23,
-        "rowsha": "14C4dXDBfQ0u+T101ZwOQjPlUMiduKZpa4CCY+aWiL4=",
-        "originContent": "  healthcheck:",
-        "translatedContent": "  healthcheck:"
-      },
-      {
-        "row": 24,
-        "rowsha": "4YwcyOC+KO9P43BayHY++Eg4r4c4UHnsh8eZBgxGYBw=",
-        "originContent": "    test: [\"CMD\", \"wget\", \"-qO-\", \"http://localhost:3000/api/health\"]",
-        "translatedContent": "    test: [\"CMD\", \"wget\", \"-qO-\", \"http://localhost:3000/api/health\"]"
-      },
-      {
-        "row": 25,
-        "rowsha": "NRhTH53H9Kj5tS7iJdFvvVlafBgOcP1R05wT+5uvv6M=",
-        "originContent": "    interval: 30s",
-        "translatedContent": "    interval: 30s"
-      },
-      {
-        "row": 26,
-        "rowsha": "lXZWt4ThyzBLsIUvj8thMyM60vh7E5Y+Sda4x8gfwpU=",
-        "originContent": "    timeout: 5s",
-        "translatedContent": "    timeout: 5s"
-      },
-      {
-        "row": 27,
-        "rowsha": "+GpglbjYjUXZHBivbkKS0tt16r9V91spdz89cpPSNxM=",
-        "originContent": "    start_period: 10s",
-        "translatedContent": "    start_period: 10s"
-      },
-      {
-        "row": 28,
-        "rowsha": "ZBQDrn/Nhjzsx9b65t5/dBlECaFRRWZa+vVHiltSyNE=",
-        "originContent": "    retries: 3",
-        "translatedContent": "    retries: 3"
-      },
-      {
-        "row": 29,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -491,38 +508,7 @@
     "EndLine": 0,
     "Translation": "\n### 选项 A2：多个实例\n\n通过独立的仪表板监控 2 个以上 Gluetun 实例：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "wt96cBs0I6KweV0CwpsfkCnljHn/72PgQWtC227m5Ok=",
-        "originContent": "### Option A2: Multiple Instances",
-        "translatedContent": "### 选项 A2：多个实例"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "9HGmkfB48gZCNvGtIk6uurUMvVrAafoDWPoMHETV11g=",
-        "originContent": "Monitor 2+ Gluetun instances with separate dashboards:",
-        "translatedContent": "通过独立的仪表板监控 2 个以上 Gluetun 实例："
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -534,182 +520,7 @@
     "EndLine": 0,
     "Translation": "```yaml\ngluetun-webui:\n  image: scuzza/gluetun-webui:latest\n  container_name: gluetun-webui\n  ports:\n    - \"127.0.0.1:3000:3000\"\n  environment:\n    - GLUETUN_1_NAME=VPN - London\n    - GLUETUN_1_URL=http://gluetun-1:8000\n    - GLUETUN_1_API_KEY=token1\n    \n    - GLUETUN_2_NAME=VPN - Amsterdam  \n    - GLUETUN_2_URL=http://gluetun-2:8000\n    - GLUETUN_2_API_KEY=token2\n    \n    - GLUETUN_3_NAME=VPN - Singapore\n    - GLUETUN_3_URL=http://gluetun-3:8000\n    - GLUETUN_3_API_KEY=token3\n  networks:\n    - your_network_name\n  restart: unless-stopped\n  read_only: true\n  tmpfs:\n    - /tmp\n  security_opt:\n    - no-new-privileges:true\n  cap_drop:\n    - ALL\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "DEnxxTGweIADL6Yay/WMlUaPudBKB9LS1vd0NhJoWgo=",
-        "originContent": "gluetun-webui:",
-        "translatedContent": "gluetun-webui:"
-      },
-      {
-        "row": 3,
-        "rowsha": "MLQTNeB0i0iht2Jr6zDOW+DGWQy21KWz9Szi6A8OBEM=",
-        "originContent": "  image: scuzza/gluetun-webui:latest",
-        "translatedContent": "  image: scuzza/gluetun-webui:latest"
-      },
-      {
-        "row": 4,
-        "rowsha": "q816DoQZ8ZNtk4bU0ZZRg0HiyUr+RyZn3azP+rxQcOo=",
-        "originContent": "  container_name: gluetun-webui",
-        "translatedContent": "  container_name: gluetun-webui"
-      },
-      {
-        "row": 5,
-        "rowsha": "j0UmSZPQ+4eHrCtsEyhC8QRpa3fFdglP598OM7e9y38=",
-        "originContent": "  ports:",
-        "translatedContent": "  ports:"
-      },
-      {
-        "row": 6,
-        "rowsha": "TtmMkFBKkyt2Hour2lZJmUx1lIDyjOsbyrz0KNGMf8E=",
-        "originContent": "    - \"127.0.0.1:3000:3000\"",
-        "translatedContent": "    - \"127.0.0.1:3000:3000\""
-      },
-      {
-        "row": 7,
-        "rowsha": "/2g1JzosUq0ym11h16WkpWmJ2LPpRxf8xOMab70f4kQ=",
-        "originContent": "  environment:",
-        "translatedContent": "  environment:"
-      },
-      {
-        "row": 8,
-        "rowsha": "i4YCpVAtV/PBeXiNfO4ClnZ2K0Rg/gJO+59uqOdtFQk=",
-        "originContent": "    - GLUETUN_1_NAME=VPN - London",
-        "translatedContent": "    - GLUETUN_1_NAME=VPN - London"
-      },
-      {
-        "row": 9,
-        "rowsha": "TG41C6RyRFmqJpwCAwIWDmtvO5/GIci1J0P0mbjNzi0=",
-        "originContent": "    - GLUETUN_1_URL=http://gluetun-1:8000",
-        "translatedContent": "    - GLUETUN_1_URL=http://gluetun-1:8000"
-      },
-      {
-        "row": 10,
-        "rowsha": "BqNR1t8TIrIhWfX/jTriUTyPKgXpZbYqrUoJhDDsnK4=",
-        "originContent": "    - GLUETUN_1_API_KEY=token1",
-        "translatedContent": "    - GLUETUN_1_API_KEY=token1"
-      },
-      {
-        "row": 11,
-        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
-        "originContent": "    ",
-        "translatedContent": "    "
-      },
-      {
-        "row": 12,
-        "rowsha": "AHSDxNGWctOMHt1QOtH1EmEoegqPuWD5woa/JfmJrrw=",
-        "originContent": "    - GLUETUN_2_NAME=VPN - Amsterdam  ",
-        "translatedContent": "    - GLUETUN_2_NAME=VPN - Amsterdam  "
-      },
-      {
-        "row": 13,
-        "rowsha": "aiLiELDycPO3ZZNQ25KtWuCRjUxWqX/H6Pz68bdTA/Q=",
-        "originContent": "    - GLUETUN_2_URL=http://gluetun-2:8000",
-        "translatedContent": "    - GLUETUN_2_URL=http://gluetun-2:8000"
-      },
-      {
-        "row": 14,
-        "rowsha": "DNPP7rtmlurVJRlGPsQQtS5itd5v7oS1stEaMbpP3AY=",
-        "originContent": "    - GLUETUN_2_API_KEY=token2",
-        "translatedContent": "    - GLUETUN_2_API_KEY=token2"
-      },
-      {
-        "row": 15,
-        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
-        "originContent": "    ",
-        "translatedContent": "    "
-      },
-      {
-        "row": 16,
-        "rowsha": "Is63mFcBf5LmOpyMyjvwfgJ/Rc4jVR012T8B2eomloM=",
-        "originContent": "    - GLUETUN_3_NAME=VPN - Singapore",
-        "translatedContent": "    - GLUETUN_3_NAME=VPN - Singapore"
-      },
-      {
-        "row": 17,
-        "rowsha": "lpOsaehmHmtCVJhecRjSFE9RHKPaTUbplgGjIF1Ow/o=",
-        "originContent": "    - GLUETUN_3_URL=http://gluetun-3:8000",
-        "translatedContent": "    - GLUETUN_3_URL=http://gluetun-3:8000"
-      },
-      {
-        "row": 18,
-        "rowsha": "qqSXJJN16Sr7O7JPXqnPY+xB/KSBeqgDs6wVWZS156U=",
-        "originContent": "    - GLUETUN_3_API_KEY=token3",
-        "translatedContent": "    - GLUETUN_3_API_KEY=token3"
-      },
-      {
-        "row": 19,
-        "rowsha": "zYbaQwfXpctpkwbXX9AQ+vkSlKLWnvtIIO1c3ZuuwoA=",
-        "originContent": "  networks:",
-        "translatedContent": "  networks:"
-      },
-      {
-        "row": 20,
-        "rowsha": "/ieggWnQ3QiGSy8xN33j1xDtgNCtB9xpMPyFLHs9NZ0=",
-        "originContent": "    - your_network_name",
-        "translatedContent": "    - your_network_name"
-      },
-      {
-        "row": 21,
-        "rowsha": "erhZYLDUj5+F36ya5j2QG5DSRc7bZz+t5PPcscNvI24=",
-        "originContent": "  restart: unless-stopped",
-        "translatedContent": "  restart: unless-stopped"
-      },
-      {
-        "row": 22,
-        "rowsha": "7cgVxH2/IbIW87ZMyqC3ex94Yo/MSj+EN/2VAkfcl/g=",
-        "originContent": "  read_only: true",
-        "translatedContent": "  read_only: true"
-      },
-      {
-        "row": 23,
-        "rowsha": "nxsRn9sUlwCO5oZXwjMjUmNWNMaFR8g/2oWTd0+f02U=",
-        "originContent": "  tmpfs:",
-        "translatedContent": "  tmpfs:"
-      },
-      {
-        "row": 24,
-        "rowsha": "Q2qZD8IlnzCrKIedfJ3MuUhGH/3cHDkV1tMmb3V8Q98=",
-        "originContent": "    - /tmp",
-        "translatedContent": "    - /tmp"
-      },
-      {
-        "row": 25,
-        "rowsha": "zMnkMdwkraU/bixlchqL/Dv6eDBPe64ctKSfomOVN3Q=",
-        "originContent": "  security_opt:",
-        "translatedContent": "  security_opt:"
-      },
-      {
-        "row": 26,
-        "rowsha": "zKL7IqZYZTp/wsES2YdLo3+bCkTICVF2FWrq5FzPzgA=",
-        "originContent": "    - no-new-privileges:true",
-        "translatedContent": "    - no-new-privileges:true"
-      },
-      {
-        "row": 27,
-        "rowsha": "kO3m27+aVXq7LkQzfPoIjk97DCca472+qWxwKxKClqI=",
-        "originContent": "  cap_drop:",
-        "translatedContent": "  cap_drop:"
-      },
-      {
-        "row": 28,
-        "rowsha": "+oAYX/kbieNGuEqSY50SK3S4Cav6+Xn8L4wYtbhTJbc=",
-        "originContent": "    - ALL",
-        "translatedContent": "    - ALL"
-      },
-      {
-        "row": 29,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -721,26 +532,7 @@
     "EndLine": 0,
     "Translation": "\n### 选项 B：本地构建\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "dYUbwBZQAxSxwGBRSeDi8j6R8iIR9t8a63EkDlnbfZ4=",
-        "originContent": "### Option B: Build Locally",
-        "translatedContent": "### 选项 B：本地构建"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -752,38 +544,7 @@
     "EndLine": 0,
     "Translation": "```bash\ngit clone https://github.com/Sir-Scuzza/gluetun-webui.git\ncd gluetun-webui\ndocker compose up -d --build\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "p6WB3WEskW37p+rb74ndLDsudTw+OZErwiAzg/gsPPk=",
-        "originContent": "git clone https://github.com/Sir-Scuzza/gluetun-webui.git",
-        "translatedContent": "git clone https://github.com/Sir-Scuzza/gluetun-webui.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "G3dY8At7dhuXdBmpLP+UuGLv9rREBq/mlEfiNcsiGjY=",
-        "originContent": "cd gluetun-webui",
-        "translatedContent": "cd gluetun-webui"
-      },
-      {
-        "row": 4,
-        "rowsha": "NC4W0I4ZbdbheSJVwURD97vlNqtmhhrFdNM8D1YKeCg=",
-        "originContent": "docker compose up -d --build",
-        "translatedContent": "docker compose up -d --build"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -795,26 +556,7 @@
     "EndLine": 0,
     "Translation": "\n然后运行（任一选项）：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "ui8bhsFamrBxeq3+ZYxPX/oDmSVJF22tAHPMbOYVVcc=",
-        "originContent": "Then run (either option):",
-        "translatedContent": "然后运行（任一选项）："
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -826,26 +568,7 @@
     "EndLine": 0,
     "Translation": "```bash\ndocker compose up -d\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
-        "originContent": "docker compose up -d",
-        "translatedContent": "docker compose up -d"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -857,74 +580,7 @@
     "EndLine": 0,
     "Translation": "\nUI 可通过 **http://localhost:3000** 访问\n\n---\n\n## 网络设置\n\nGluetun 和 gluetun-webui 必须在同一 Docker 网络中，以确保 `http://gluetun:8000` 能正确解析。\n\n**相同的 compose 文件** — 只需将两个服务添加到同一网络（最常见）：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "OAXK5nCXTCEXcNM65IrMzQQ0UAeWhMwbSXuu5eHsU5M=",
-        "originContent": "The UI is available at **http://localhost:3000**",
-        "translatedContent": "UI 可通过 **http://localhost:3000** 访问"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "3VROKo3Q1UP9MFBavtxozhxCFqLtix2jaWC/NW5VtA4=",
-        "originContent": "## Network Setup",
-        "translatedContent": "## 网络设置"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "+212DVUXSZ44fz1FDqAUMERQ9QZSuOne+ILWvtvr/cg=",
-        "originContent": "Both Gluetun and gluetun-webui must be on the same Docker network so `http://gluetun:8000` resolves correctly.",
-        "translatedContent": "Gluetun 和 gluetun-webui 必须在同一 Docker 网络中，以确保 `http://gluetun:8000` 能正确解析。"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "QUvMtZOKZNiY/2R24DpwNZhfvOO2W+Iyg78vxHX+QqE=",
-        "originContent": "**Same compose file** — just add both services to the same network (most common):",
-        "translatedContent": "**相同的 compose 文件** — 只需将两个服务添加到同一网络（最常见）："
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -936,86 +592,7 @@
     "EndLine": 0,
     "Translation": "```yaml\nservices:\n  gluetun:\n    networks:\n      - arr-stack\n  gluetun-webui:\n    networks:\n      - arr-stack\n\nnetworks:\n  arr-stack:\n    driver: bridge\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
-        "originContent": "services:",
-        "translatedContent": "services:"
-      },
-      {
-        "row": 3,
-        "rowsha": "bLiNIAhwiyZ2pmn3GOa8Ixtka0sSEvnywfYpTJHFKyY=",
-        "originContent": "  gluetun:",
-        "translatedContent": "  gluetun:"
-      },
-      {
-        "row": 4,
-        "rowsha": "NhKkpDwfLFxRiwqdnZ5LxSlOnYebVp518Wc7vBEFxgM=",
-        "originContent": "    networks:",
-        "translatedContent": "    networks:"
-      },
-      {
-        "row": 5,
-        "rowsha": "HqvyOC58OgBe6Dpv+ukonGyNZoLJVGYYd8707jq8qZ4=",
-        "originContent": "      - arr-stack",
-        "translatedContent": "      - arr-stack"
-      },
-      {
-        "row": 6,
-        "rowsha": "svsAeK4g5wydbOb4c7btNkIOqZHHMWIa1ENNWZF//Jw=",
-        "originContent": "  gluetun-webui:",
-        "translatedContent": "  gluetun-webui:"
-      },
-      {
-        "row": 7,
-        "rowsha": "NhKkpDwfLFxRiwqdnZ5LxSlOnYebVp518Wc7vBEFxgM=",
-        "originContent": "    networks:",
-        "translatedContent": "    networks:"
-      },
-      {
-        "row": 8,
-        "rowsha": "HqvyOC58OgBe6Dpv+ukonGyNZoLJVGYYd8707jq8qZ4=",
-        "originContent": "      - arr-stack",
-        "translatedContent": "      - arr-stack"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "biu+qHwgJkTWHShKF0gSa9Zn0fgZZ3gr6qEgcbWW9iE=",
-        "originContent": "networks:",
-        "translatedContent": "networks:"
-      },
-      {
-        "row": 11,
-        "rowsha": "ubFpkar0U/3TPBmPjR9aa4pBmrTU4pS2WqBoi3q01NM=",
-        "originContent": "  arr-stack:",
-        "translatedContent": "  arr-stack:"
-      },
-      {
-        "row": 12,
-        "rowsha": "yLEfUPlYhHvVIg9+qcAXPJyn+OPdouhQrOB3QbMlH4Y=",
-        "originContent": "    driver: bridge",
-        "translatedContent": "    driver: bridge"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1027,26 +604,7 @@
     "EndLine": 0,
     "Translation": "\n**分离的 compose 文件** — 将 Gluetun 现有网络作为外部网络引用。使用 `docker network ls` 查找您的网络名称：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Ydt+NlztHqIMPrwid2j3J1laR14+Nc9D11WKS1e0LGA=",
-        "originContent": "**Separate compose files** — reference Gluetun's existing network as external. Find your network name with `docker network ls`:",
-        "translatedContent": "**分离的 compose 文件** — 将 Gluetun 现有网络作为外部网络引用。使用 `docker network ls` 查找您的网络名称："
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1058,44 +616,7 @@
     "EndLine": 0,
     "Translation": "```yaml\nnetworks:\n  ext-network:\n    external: true\n    name: your_gluetun_network_name\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "biu+qHwgJkTWHShKF0gSa9Zn0fgZZ3gr6qEgcbWW9iE=",
-        "originContent": "networks:",
-        "translatedContent": "networks:"
-      },
-      {
-        "row": 3,
-        "rowsha": "YjQU4uFT8i1qxSdLOGbGuOlo0qAUkYFuRHvw+Yhoykw=",
-        "originContent": "  ext-network:",
-        "translatedContent": "  ext-network:"
-      },
-      {
-        "row": 4,
-        "rowsha": "2iO8Z00+hEG3LLiRAAghzlB0fxJfTMllAkvHgetChp4=",
-        "originContent": "    external: true",
-        "translatedContent": "    external: true"
-      },
-      {
-        "row": 5,
-        "rowsha": "GJomZDgDWgi1TF0C1XpKQfBLPXxDeyv4HKvKI/8jEbE=",
-        "originContent": "    name: your_gluetun_network_name",
-        "translatedContent": "    name: your_gluetun_network_name"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1107,74 +628,7 @@
     "EndLine": 0,
     "Translation": "\n---\n\n## 多重 VPN 支持\n\n### 多实例\n\ngluetun-webui 支持同时监控和控制**多个 Gluetun 实例**。每个实例以响应式网格中的独立仪表盘显示。\n\n**配置**：使用编号环境变量：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "58mHAGUFakdphTFP7phzRe1BFcHzXAMlnotgaKM4Ei4=",
-        "originContent": "## Multi-VPN Support",
-        "translatedContent": "## 多重 VPN 支持"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "KSlE0pcr2t8a7Tx2guA1p9eV7uPKsU5t7FRHuNHjbFs=",
-        "originContent": "### Multiple Instances",
-        "translatedContent": "### 多实例"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "yVKRbaQoCtYcIiA84Kty0vX1zQmyHK1QSgGSR3ZyB3M=",
-        "originContent": "gluetun-webui supports monitoring and controlling **multiple Gluetun instances simultaneously**. Each instance displays as a separate dashboard in a responsive grid.",
-        "translatedContent": "gluetun-webui 支持同时监控和控制**多个 Gluetun 实例**。每个实例以响应式网格中的独立仪表盘显示。"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "FHnNkXswUtzAl4jTcqrIUxVe3bv3yXdSE5iBdK3X6GU=",
-        "originContent": "**Configuration**: Use numbered environment variables:",
-        "translatedContent": "**配置**：使用编号环境变量："
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1186,128 +640,7 @@
     "EndLine": 0,
     "Translation": "```yaml\ngluetun-webui:\n  image: scuzza/gluetun-webui:latest\n  environment:\n    # Instance 1\n    - GLUETUN_1_NAME=VPN 1\n    - GLUETUN_1_URL=http://gluetun-1:8000\n    - GLUETUN_1_API_KEY=token1  # optional\n\n    # Instance 2\n    - GLUETUN_2_NAME=VPN 2\n    - GLUETUN_2_URL=http://gluetun-2:8000\n    - GLUETUN_2_API_KEY=token2  # optional\n\n    # Instance 3\n    - GLUETUN_3_NAME=VPN 3\n    - GLUETUN_3_URL=http://gluetun-3:8000\n    - GLUETUN_3_USER=admin\n    - GLUETUN_3_PASSWORD=secret  # optional (HTTP Basic auth)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "DEnxxTGweIADL6Yay/WMlUaPudBKB9LS1vd0NhJoWgo=",
-        "originContent": "gluetun-webui:",
-        "translatedContent": "gluetun-webui:"
-      },
-      {
-        "row": 3,
-        "rowsha": "MLQTNeB0i0iht2Jr6zDOW+DGWQy21KWz9Szi6A8OBEM=",
-        "originContent": "  image: scuzza/gluetun-webui:latest",
-        "translatedContent": "  image: scuzza/gluetun-webui:latest"
-      },
-      {
-        "row": 4,
-        "rowsha": "/2g1JzosUq0ym11h16WkpWmJ2LPpRxf8xOMab70f4kQ=",
-        "originContent": "  environment:",
-        "translatedContent": "  environment:"
-      },
-      {
-        "row": 5,
-        "rowsha": "n/+54TWlwsijmDNsASkAD00NDKlN/wnyf19iX4Ssfc0=",
-        "originContent": "    # Instance 1",
-        "translatedContent": "    # Instance 1"
-      },
-      {
-        "row": 6,
-        "rowsha": "ZGXS2zndZOPV2lRrAg5/VOtylxJi5TYUX/xb66PfnJA=",
-        "originContent": "    - GLUETUN_1_NAME=VPN 1",
-        "translatedContent": "    - GLUETUN_1_NAME=VPN 1"
-      },
-      {
-        "row": 7,
-        "rowsha": "TG41C6RyRFmqJpwCAwIWDmtvO5/GIci1J0P0mbjNzi0=",
-        "originContent": "    - GLUETUN_1_URL=http://gluetun-1:8000",
-        "translatedContent": "    - GLUETUN_1_URL=http://gluetun-1:8000"
-      },
-      {
-        "row": 8,
-        "rowsha": "Ag6TL6noZnPe0ZjTiQBE+dcPoIbERMIYrcz5l3agw9s=",
-        "originContent": "    - GLUETUN_1_API_KEY=token1  # optional",
-        "translatedContent": "    - GLUETUN_1_API_KEY=token1  # optional"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "04rpmaxhWyrgfYoxDWBEtMKaB6URGLrr9TS4CrlEfbw=",
-        "originContent": "    # Instance 2",
-        "translatedContent": "    # Instance 2"
-      },
-      {
-        "row": 11,
-        "rowsha": "6tuc1bbZzQQZ6NhjMsBJzpy+MrsChHFGS3MdrmtOSLw=",
-        "originContent": "    - GLUETUN_2_NAME=VPN 2",
-        "translatedContent": "    - GLUETUN_2_NAME=VPN 2"
-      },
-      {
-        "row": 12,
-        "rowsha": "aiLiELDycPO3ZZNQ25KtWuCRjUxWqX/H6Pz68bdTA/Q=",
-        "originContent": "    - GLUETUN_2_URL=http://gluetun-2:8000",
-        "translatedContent": "    - GLUETUN_2_URL=http://gluetun-2:8000"
-      },
-      {
-        "row": 13,
-        "rowsha": "n3wazZFOyGnFYl995Q+mWayTv33w+zLZkragOmIk2WY=",
-        "originContent": "    - GLUETUN_2_API_KEY=token2  # optional",
-        "translatedContent": "    - GLUETUN_2_API_KEY=token2  # optional"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "x9RKewLjdFFkUAvB2r4l+NCp7JJCeYjZ/7RE6mLrvHU=",
-        "originContent": "    # Instance 3",
-        "translatedContent": "    # Instance 3"
-      },
-      {
-        "row": 16,
-        "rowsha": "2b57EDigRL+cmA0pai0AvlUZJ8MAZ9M7NNH0ZILSIZM=",
-        "originContent": "    - GLUETUN_3_NAME=VPN 3",
-        "translatedContent": "    - GLUETUN_3_NAME=VPN 3"
-      },
-      {
-        "row": 17,
-        "rowsha": "lpOsaehmHmtCVJhecRjSFE9RHKPaTUbplgGjIF1Ow/o=",
-        "originContent": "    - GLUETUN_3_URL=http://gluetun-3:8000",
-        "translatedContent": "    - GLUETUN_3_URL=http://gluetun-3:8000"
-      },
-      {
-        "row": 18,
-        "rowsha": "Om1NdEXc71aExNv3aMpPJcJXqqFNu7PMQI78G7cuy4U=",
-        "originContent": "    - GLUETUN_3_USER=admin",
-        "translatedContent": "    - GLUETUN_3_USER=admin"
-      },
-      {
-        "row": 19,
-        "rowsha": "tvfVkMDLzFKtx24pHDYmhQNwUM+v4IxMqgIbRNzj9wM=",
-        "originContent": "    - GLUETUN_3_PASSWORD=secret  # optional (HTTP Basic auth)",
-        "translatedContent": "    - GLUETUN_3_PASSWORD=secret  # optional (HTTP Basic auth)"
-      },
-      {
-        "row": 20,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1319,56 +652,7 @@
     "EndLine": 0,
     "Translation": "\n**支持**：最多20个实例（通过 `GLUETUN_1_URL` 到 `GLUETUN_20_URL`）  \n**响应式**：1 个全宽仪表盘 → 2 个半宽 → 3 个三分之一宽 → 4 个四分之一宽 → 5个以上可滚动\n\n### 向后兼容性\n\n如果未配置编号变量，则回退到**传统单实例模式**：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "UQ3TE7SJzdj6DieJVBD8plS2kg2Dbgcjc+m37aiavmE=",
-        "originContent": "**Supported**: Up to 20 instances (via `GLUETUN_1_URL` through `GLUETUN_20_URL`)  ",
-        "translatedContent": "**支持**：最多20个实例（通过 `GLUETUN_1_URL` 到 `GLUETUN_20_URL`）  "
-      },
-      {
-        "row": 3,
-        "rowsha": "MD5ebF4g4XaJEk/hn4pD/Mz1UOieMJab9sZax/nLvoA=",
-        "originContent": "**Responsive**: 1 full-width dashboard → 2 half-width → 3 third-width → 4 quarter-width → scrollable at 5+",
-        "translatedContent": "**响应式**：1 个全宽仪表盘 → 2 个半宽 → 3 个三分之一宽 → 4 个四分之一宽 → 5个以上可滚动"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "RtGEyiLWWLbBD+ytBI+mTmG/lzeLW1ISTWIBWYwVCSM=",
-        "originContent": "### Backward Compatibility",
-        "translatedContent": "### 向后兼容性"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "Rwgg4sd5YhD3Jal2h/kZZF5N9XjYvseFdZqLkT/RTAM=",
-        "originContent": "If no numbered variables are configured, falls back to **legacy single-instance mode**:",
-        "translatedContent": "如果未配置编号变量，则回退到**传统单实例模式**："
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1380,38 +664,7 @@
     "EndLine": 0,
     "Translation": "```yaml\nenvironment:\n  - GLUETUN_CONTROL_URL=http://gluetun:8000  # legacy\n  - GLUETUN_API_KEY=token\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "GXPDOQwcP9ywEeO7go+CE+NJNRtGPUY4H/XiSntCLc8=",
-        "originContent": "environment:",
-        "translatedContent": "environment:"
-      },
-      {
-        "row": 3,
-        "rowsha": "z1tctQnTENcNQP2+7/52XnQWmamz29MPt7F4AVubNW0=",
-        "originContent": "  - GLUETUN_CONTROL_URL=http://gluetun:8000  # legacy",
-        "translatedContent": "  - GLUETUN_CONTROL_URL=http://gluetun:8000  # legacy"
-      },
-      {
-        "row": 4,
-        "rowsha": "XIeLLQXl/35KAOmwlIWj3aCoIr4BCCWoq5w2aOwGAcU=",
-        "originContent": "  - GLUETUN_API_KEY=token",
-        "translatedContent": "  - GLUETUN_API_KEY=token"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1423,38 +676,7 @@
     "EndLine": 0,
     "Translation": "\n### 每个实例的认证\n\n每个实例可以有不同的认证：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "wbrzPl6wHJP2Q1PkooGjWlH5PH8RMDhOVLXs4NnFBEk=",
-        "originContent": "### Per-Instance Authentication",
-        "translatedContent": "### 每个实例的认证"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "RMK7AqoiRCvY4gNKxksTVmuy+0OatV//O8T+xzUCwCQ=",
-        "originContent": "Each instance can have different authentication:",
-        "translatedContent": "每个实例可以有不同的认证："
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1466,74 +688,7 @@
     "EndLine": 0,
     "Translation": "```yaml\n# Instance with API key\n- GLUETUN_1_API_KEY=my-secret-token\n\n# Instance with HTTP Basic auth\n- GLUETUN_2_USER=admin\n- GLUETUN_2_PASSWORD=mysecret\n\n# Instance with no auth\n- GLUETUN_3_URL=http://gluetun-3:8000  # auth optional\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "pd2ZEfISfQFD+sPXdaOyS6/VtkKr0iVd+fwy7uqCkJc=",
-        "originContent": "# Instance with API key",
-        "translatedContent": "# Instance with API key"
-      },
-      {
-        "row": 3,
-        "rowsha": "47xWCiyNQLkdM+UxGYlEOZ6+fGISy5380xO9pG+FNWU=",
-        "originContent": "- GLUETUN_1_API_KEY=my-secret-token",
-        "translatedContent": "- GLUETUN_1_API_KEY=my-secret-token"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "UZkJq166f2gaLhuVGYM68551D5eMCpfz0Dp/d2zey2w=",
-        "originContent": "# Instance with HTTP Basic auth",
-        "translatedContent": "# Instance with HTTP Basic auth"
-      },
-      {
-        "row": 6,
-        "rowsha": "oH2ObaRR2KKM8Q76cPmtKuo3ka+p2yKxN6VQPAuirI4=",
-        "originContent": "- GLUETUN_2_USER=admin",
-        "translatedContent": "- GLUETUN_2_USER=admin"
-      },
-      {
-        "row": 7,
-        "rowsha": "tvYlXK2PecgcG7GdG7rwzZSTo2L2USDkyWuIYuUwT/M=",
-        "originContent": "- GLUETUN_2_PASSWORD=mysecret",
-        "translatedContent": "- GLUETUN_2_PASSWORD=mysecret"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "1MM0SXQXih7IYPU5V8f04YXCyYOuRKq+2Nc6B6cqgIM=",
-        "originContent": "# Instance with no auth",
-        "translatedContent": "# Instance with no auth"
-      },
-      {
-        "row": 10,
-        "rowsha": "PxbfkydsOX7spZLJDh4P0EpsXfYBCUxC0BsLtautrv0=",
-        "originContent": "- GLUETUN_3_URL=http://gluetun-3:8000  # auth optional",
-        "translatedContent": "- GLUETUN_3_URL=http://gluetun-3:8000  # auth optional"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1545,206 +700,7 @@
     "EndLine": 0,
     "Translation": "\n---\n\n## 配置\n\n| 变量 | 默认值 | 描述 |\n|---|---|---|\n| `GLUETUN_1_*` 到 `GLUETUN_20_*` | _(空)_ | **多实例配置**（最多20个实例） |\n| `GLUETUN_{N}_URL` | – | 实例 N 的 Gluetun HTTP 控制服务器 URL |\n| `GLUETUN_{N}_NAME` | `Instance {N}` | 实例 N 的显示名称 |\n| `GLUETUN_{N}_API_KEY` | _(空)_ | 实例 N 的 Bearer 令牌（如果启用认证） |\n| `GLUETUN_{N}_USER` | _(空)_ | 实例 N 的 HTTP 基本认证用户名 |\n| `GLUETUN_{N}_PASSWORD` | _(空)_ | 实例 N 的 HTTP 基本认证密码 |\n| `GLUETUN_CONTROL_URL` | `http://gluetun:8000` | **旧版** – 仅单实例（如果没有 `GLUETUN_1_*` 变量则回退） |\n| `GLUETUN_API_KEY` | _(空)_ | **旧版** – 单实例的 Bearer 令牌 |\n| `GLUETUN_USER` | _(空)_ | **旧版** – HTTP 基本认证用户名 |\n| `GLUETUN_PASSWORD` | _(空)_ | **旧版** – HTTP 基本认证密码 |\n| `PORT` | `3000` | Web UI 监听的端口 |\n| `TRUST_PROXY` | `false` | 如果运行在反向代理（nginx、Traefik 等）后面，设为 `true` |\n\n---\n\n## 安全性\n\n- 端口绑定到 `127.0.0.1` — 不对网络暴露\n- 容器以非 root 用户运行，文件系统只读，并移除多余权限\n- 对所有 API 路由应用速率限制\n- 上游错误详情仅记录在服务器端 — 浏览器返回通用消息\n\n### 反向代理配置\n\n如果你在反向代理（nginx、Traefik、Caddy 等）后运行 gluetun-webui，请在环境变量中设置 `TRUST_PROXY=true`：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
-        "originContent": "## Configuration",
-        "translatedContent": "## 配置"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "AVnB4G1ZQKQgQvyQJufbPSFJ6g3EOu/e+EpZa5J1JGs=",
-        "originContent": "| Variable | Default | Description |",
-        "translatedContent": "| 变量 | 默认值 | 描述 |"
-      },
-      {
-        "row": 7,
-        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
-        "originContent": "|---|---|---|",
-        "translatedContent": "|---|---|---|"
-      },
-      {
-        "row": 8,
-        "rowsha": "iyOImGef0U0X+IgsyXuhZvOMHNZGwb5xlidyQ2Puq50=",
-        "originContent": "| `GLUETUN_1_*` to `GLUETUN_20_*` | _(empty)_ | **Multi-instance config** (up to 20 instances) |",
-        "translatedContent": "| `GLUETUN_1_*` 到 `GLUETUN_20_*` | _(空)_ | **多实例配置**（最多20个实例） |"
-      },
-      {
-        "row": 9,
-        "rowsha": "NIF9vOUlsZ2BPHpi7lhQHmDphH+8lUhew7kb5IxbMK4=",
-        "originContent": "| `GLUETUN_{N}_URL` | – | Gluetun HTTP control server URL for instance N |",
-        "translatedContent": "| `GLUETUN_{N}_URL` | – | 实例 N 的 Gluetun HTTP 控制服务器 URL |"
-      },
-      {
-        "row": 10,
-        "rowsha": "JwzPL8RHc4mKx7cXCQfvqEMqtW3QJPh5Ag8GoTS88cQ=",
-        "originContent": "| `GLUETUN_{N}_NAME` | `Instance {N}` | Display name for instance N |",
-        "translatedContent": "| `GLUETUN_{N}_NAME` | `Instance {N}` | 实例 N 的显示名称 |"
-      },
-      {
-        "row": 11,
-        "rowsha": "IIAHoE0lrz64SVfa+Z6Yjq51Gc24YoIQ2yrd0Xvey4g=",
-        "originContent": "| `GLUETUN_{N}_API_KEY` | _(empty)_ | Bearer token for instance N (if auth enabled) |",
-        "translatedContent": "| `GLUETUN_{N}_API_KEY` | _(空)_ | 实例 N 的 Bearer 令牌（如果启用认证） |"
-      },
-      {
-        "row": 12,
-        "rowsha": "xNDH0r9E3TBiZbCnqVwKe9kpWe9TO9K1RA62/2u1QLE=",
-        "originContent": "| `GLUETUN_{N}_USER` | _(empty)_ | Username for HTTP Basic auth (instance N) |",
-        "translatedContent": "| `GLUETUN_{N}_USER` | _(空)_ | 实例 N 的 HTTP 基本认证用户名 |"
-      },
-      {
-        "row": 13,
-        "rowsha": "7IEnSXvtqVIgwuwge32ddaHddCMRBTu2TrZgIAGdajg=",
-        "originContent": "| `GLUETUN_{N}_PASSWORD` | _(empty)_ | Password for HTTP Basic auth (instance N) |",
-        "translatedContent": "| `GLUETUN_{N}_PASSWORD` | _(空)_ | 实例 N 的 HTTP 基本认证密码 |"
-      },
-      {
-        "row": 14,
-        "rowsha": "DELGnFlwno78ZnbZbQeqTiCS+Ye+27+eLhL4qLWuy0g=",
-        "originContent": "| `GLUETUN_CONTROL_URL` | `http://gluetun:8000` | **Legacy** – single instance only (fallback if no `GLUETUN_1_*` vars) |",
-        "translatedContent": "| `GLUETUN_CONTROL_URL` | `http://gluetun:8000` | **旧版** – 仅单实例（如果没有 `GLUETUN_1_*` 变量则回退） |"
-      },
-      {
-        "row": 15,
-        "rowsha": "db1Oc7HRnOhIE12RYjnEiPCBNl22U0vRvYzD5Mnl/y4=",
-        "originContent": "| `GLUETUN_API_KEY` | _(empty)_ | **Legacy** – Bearer token for single instance |",
-        "translatedContent": "| `GLUETUN_API_KEY` | _(空)_ | **旧版** – 单实例的 Bearer 令牌 |"
-      },
-      {
-        "row": 16,
-        "rowsha": "rAKTb1QTWB0n5ICmYUcHhSz0/CSMoPW9Qb/ubFcYHhA=",
-        "originContent": "| `GLUETUN_USER` | _(empty)_ | **Legacy** – Username for HTTP Basic auth |",
-        "translatedContent": "| `GLUETUN_USER` | _(空)_ | **旧版** – HTTP 基本认证用户名 |"
-      },
-      {
-        "row": 17,
-        "rowsha": "H9F8aB6T1UDUnbkCd7Pecr4pS3jyBCKxWCsxMp9bc8I=",
-        "originContent": "| `GLUETUN_PASSWORD` | _(empty)_ | **Legacy** – Password for HTTP Basic auth |",
-        "translatedContent": "| `GLUETUN_PASSWORD` | _(空)_ | **旧版** – HTTP 基本认证密码 |"
-      },
-      {
-        "row": 18,
-        "rowsha": "e8ViGoXfQDjYtI9UrIHNWc65IdGLZB62ertxIiE+xlQ=",
-        "originContent": "| `PORT` | `3000` | Port the web UI listens on |",
-        "translatedContent": "| `PORT` | `3000` | Web UI 监听的端口 |"
-      },
-      {
-        "row": 19,
-        "rowsha": "XgIOtXPCSJHaehwUIUQAfi48JuDqzA+HHdoYaC2KDMs=",
-        "originContent": "| `TRUST_PROXY` | `false` | Set to `true` if running behind a reverse proxy (nginx, Traefik, etc.) |",
-        "translatedContent": "| `TRUST_PROXY` | `false` | 如果运行在反向代理（nginx、Traefik 等）后面，设为 `true` |"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "UlQ9upvw00moCjWDduBZqkTiv0PRDG/mYeqnsF8DP6Q=",
-        "originContent": "## Security",
-        "translatedContent": "## 安全性"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "PCPOTEyiDsCjk/8Fkr8/F3r9BCkdUNfUlpIj+6TNeRk=",
-        "originContent": "- Port is bound to `127.0.0.1` — not exposed to the network",
-        "translatedContent": "- 端口绑定到 `127.0.0.1` — 不对网络暴露"
-      },
-      {
-        "row": 26,
-        "rowsha": "rNx3/P/9P3Mh8BJzoY6jlObLJU3DNJlyU3C5Ej8vdMI=",
-        "originContent": "- Container runs as non-root with read-only filesystem and dropped capabilities",
-        "translatedContent": "- 容器以非 root 用户运行，文件系统只读，并移除多余权限"
-      },
-      {
-        "row": 27,
-        "rowsha": "zwkjELOVrdGm+tAvTczfSaafKw4cEJZ9M1hzAtK0CN4=",
-        "originContent": "- Rate limiting applied to all API routes",
-        "translatedContent": "- 对所有 API 路由应用速率限制"
-      },
-      {
-        "row": 28,
-        "rowsha": "HMh1MWr5swczBaqn00SXXL4HjbZcKExJGuu7UHneUXQ=",
-        "originContent": "- Upstream error details are logged server-side only — generic messages returned to the browser",
-        "translatedContent": "- 上游错误详情仅记录在服务器端 — 浏览器返回通用消息"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "ZKUVTuJg4H2tf1x6M1Mu/4l5Qxmvr/GAD1wPP1Zj/SM=",
-        "originContent": "### Reverse-proxy configuration",
-        "translatedContent": "### 反向代理配置"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "vKE4sOi7+6tKLrBMvhkOCjDBjdvuQNTn/GH0J/XQh/s=",
-        "originContent": "If you run gluetun-webui behind a reverse proxy (nginx, Traefik, Caddy, etc.), set `TRUST_PROXY=true` in your environment variables:",
-        "translatedContent": "如果你在反向代理（nginx、Traefik、Caddy 等）后运行 gluetun-webui，请在环境变量中设置 `TRUST_PROXY=true`："
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1756,50 +712,7 @@
     "EndLine": 0,
     "Translation": "```yaml\ngluetun-webui:\n  image: scuzza/gluetun-webui:latest\n  environment:\n    - GLUETUN_CONTROL_URL=http://gluetun:8000\n    - TRUST_PROXY=true  # Required for reverse proxies\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "DEnxxTGweIADL6Yay/WMlUaPudBKB9LS1vd0NhJoWgo=",
-        "originContent": "gluetun-webui:",
-        "translatedContent": "gluetun-webui:"
-      },
-      {
-        "row": 3,
-        "rowsha": "MLQTNeB0i0iht2Jr6zDOW+DGWQy21KWz9Szi6A8OBEM=",
-        "originContent": "  image: scuzza/gluetun-webui:latest",
-        "translatedContent": "  image: scuzza/gluetun-webui:latest"
-      },
-      {
-        "row": 4,
-        "rowsha": "/2g1JzosUq0ym11h16WkpWmJ2LPpRxf8xOMab70f4kQ=",
-        "originContent": "  environment:",
-        "translatedContent": "  environment:"
-      },
-      {
-        "row": 5,
-        "rowsha": "tIIYoLrFfOtuU3M1UEHBh0ACgQ0n2E8GzUPuWr3g+e8=",
-        "originContent": "    - GLUETUN_CONTROL_URL=http://gluetun:8000",
-        "translatedContent": "    - GLUETUN_CONTROL_URL=http://gluetun:8000"
-      },
-      {
-        "row": 6,
-        "rowsha": "jaNBSjYRgPJ8kH/QBURsDSputnmq6mdyfyfxj+wTCv8=",
-        "originContent": "    - TRUST_PROXY=true  # Required for reverse proxies",
-        "translatedContent": "    - TRUST_PROXY=true  # Required for reverse proxies"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1811,56 +724,7 @@
     "EndLine": 0,
     "Translation": "这允许应用程序正确解析 `X-Forwarded-For` 及相关头信息，以实现准确的速率限制和 IP 识别。**注意：** 仅当您确实位于反向代理之后时才启用此功能，因为它信任来自您反向代理的代理头。\n\n### 反向代理认证\n\nVPN 启动/停止控制没有内置认证。如果您将 UI 暴露到本地主机以外，请将其置于带有 HTTP 基本认证的反向代理后面。\n\n**Caddy**（`Caddyfile`）：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "这允许应用程序正确解析 `X-Forwarded-For` 及相关头信息，以实现准确的速率限制和 IP 识别。**注意：** 仅当您确实位于反向代理之后时才启用此功能，因为它信任来自您反向代理的代理头。"
-      },
-      {
-        "row": 2,
-        "rowsha": "LwJAjMTLtUGB5wqoUX/BMyOQ85pB3R1cp3feUemCEcQ=",
-        "originContent": "This allows the app to correctly parse `X-Forwarded-For` and related headers for accurate rate limiting and IP detection. **Note:** Only enable this if you're actually behind a reverse proxy, as it trusts proxy headers from your reverse proxy.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 反向代理认证"
-      },
-      {
-        "row": 4,
-        "rowsha": "aDP+KPVZcbux9lRjdkXYWMuvGDblMeBqmQ/CaxpMpmI=",
-        "originContent": "### Reverse-proxy authentication",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "VPN 启动/停止控制没有内置认证。如果您将 UI 暴露到本地主机以外，请将其置于带有 HTTP 基本认证的反向代理后面。"
-      },
-      {
-        "row": 6,
-        "rowsha": "4sl3yvVHwnWLkWsfSkdSo4f3WpLzIXGo3tbpPiSY36k=",
-        "originContent": "The VPN start/stop controls have no built-in authentication. If you expose the UI beyond localhost, place it behind a reverse proxy with HTTP Basic auth.",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Caddy**（`Caddyfile`）："
-      },
-      {
-        "row": 8,
-        "rowsha": "riCGPNVtsIU2MazUEBjz4tLRkcQ/eYUzTAlq9UfWiPQ=",
-        "originContent": "**Caddy** (`Caddyfile`):",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1872,56 +736,7 @@
     "EndLine": 0,
     "Translation": "```\nyour.domain.com {\n  basicauth {\n    user $2a$14$<bcrypt-hash>\n  }\n  reverse_proxy localhost:3000\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "T6rlVsTW3q6UWWnflPKpcO6rmb/ZOx41x1hqev61gTE=",
-        "originContent": "your.domain.com {",
-        "translatedContent": "your.domain.com {"
-      },
-      {
-        "row": 3,
-        "rowsha": "3zkgwdsfSRKRptnUs375+Ndxe/ANYIiMkP0x5hLEBPs=",
-        "originContent": "  basicauth {",
-        "translatedContent": "  basicauth {"
-      },
-      {
-        "row": 4,
-        "rowsha": "b/cxT4ZGsLU6V0kosG05OJV/sKUpb/bCTC41uTT2J0w=",
-        "originContent": "    user $2a$14$<bcrypt-hash>",
-        "translatedContent": "    user $2a$14$<bcrypt-hash>"
-      },
-      {
-        "row": 5,
-        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
-        "originContent": "  }",
-        "translatedContent": "  }"
-      },
-      {
-        "row": 6,
-        "rowsha": "KoZcZSo5EDKg3lpOSJ5rHKgzB/hoIMLTVMsDW6eAEcU=",
-        "originContent": "  reverse_proxy localhost:3000",
-        "translatedContent": "  reverse_proxy localhost:3000"
-      },
-      {
-        "row": 7,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 8,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1933,26 +748,7 @@
     "EndLine": 0,
     "Translation": "使用命令生成哈希：`caddy hash-password`\n\n**Nginx** (`nginx.conf`)：",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8gWItWNrWLMgD25VaJI19INGLjLeMfqp3R1yXY+yUK0=",
-        "originContent": "Generate a hash with: `caddy hash-password`",
-        "translatedContent": "使用命令生成哈希：`caddy hash-password`"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "kcihpdAOSO8nxConsXMbTqWNUJbnWLuJzrgC7Sf8Ykc=",
-        "originContent": "**Nginx** (`nginx.conf`):",
-        "translatedContent": "**Nginx** (`nginx.conf`)："
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1964,50 +760,7 @@
     "EndLine": 0,
     "Translation": "```nginx\nlocation / {\n  auth_basic \"Restricted\";\n  auth_basic_user_file /etc/nginx/.htpasswd;\n  proxy_pass http://localhost:3000;\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
-        "originContent": "```nginx",
-        "translatedContent": "```nginx"
-      },
-      {
-        "row": 2,
-        "rowsha": "soDkqPITh3Yur9Qw7Hw1kr9AM4MjLnqisRZ71TQs9t0=",
-        "originContent": "location / {",
-        "translatedContent": "location / {"
-      },
-      {
-        "row": 3,
-        "rowsha": "a2nVc5VsCs2RVERA4icibqywt75w2BjQRIUYpJZ4h2g=",
-        "originContent": "  auth_basic \"Restricted\";",
-        "translatedContent": "  auth_basic \"Restricted\";"
-      },
-      {
-        "row": 4,
-        "rowsha": "7BQQmM8Lx2u2bjlOqTS1rT1tiPZ7fLnvpJsLTuHDSW8=",
-        "originContent": "  auth_basic_user_file /etc/nginx/.htpasswd;",
-        "translatedContent": "  auth_basic_user_file /etc/nginx/.htpasswd;"
-      },
-      {
-        "row": 5,
-        "rowsha": "+6hQEHQDmQ9DYakgI31ldeO0wLF3XBuZ8aGsYp3KBOc=",
-        "originContent": "  proxy_pass http://localhost:3000;",
-        "translatedContent": "  proxy_pass http://localhost:3000;"
-      },
-      {
-        "row": 6,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2019,26 +772,7 @@
     "EndLine": 0,
     "Translation": "使用以下命令生成密码文件：`htpasswd -c /etc/nginx/.htpasswd user`\n\n**Traefik**（Docker 标签）：",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "Bj/u64jMOoQ4C7davratzmQ2QkEYsznpSmHgjD9oyJc=",
-        "originContent": "Generate a password file with: `htpasswd -c /etc/nginx/.htpasswd user`",
-        "translatedContent": "使用以下命令生成密码文件：`htpasswd -c /etc/nginx/.htpasswd user`"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "k5Bl8Be1sXzpZihc52+tG8OWeOLBEywb2W87Z/mYos0=",
-        "originContent": "**Traefik** (Docker labels):",
-        "translatedContent": "**Traefik**（Docker 标签）："
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2050,50 +784,7 @@
     "EndLine": 0,
     "Translation": "```yaml\nlabels:\n  - \"traefik.enable=true\"\n  - \"traefik.http.routers.gluetun-webui.rule=Host(`your.domain.com`)\"\n  - \"traefik.http.routers.gluetun-webui.middlewares=auth\"\n  - \"traefik.http.middlewares.auth.basicauth.users=user:$$apr1$$<hash>\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "+h6DMDFv3cXhVE9oZcdRa0kE8iSIByRshxpaaaMGzT4=",
-        "originContent": "labels:",
-        "translatedContent": "labels:"
-      },
-      {
-        "row": 3,
-        "rowsha": "sbvjkYK6z2heBpJBJ9KMhGIlyZOqnrzd5579s6mE2O0=",
-        "originContent": "  - \"traefik.enable=true\"",
-        "translatedContent": "  - \"traefik.enable=true\""
-      },
-      {
-        "row": 4,
-        "rowsha": "2tUcrc4p0CHEmitOysw7Qh/l6zMzGG02rMBgzqAX28Y=",
-        "originContent": "  - \"traefik.http.routers.gluetun-webui.rule=Host(`your.domain.com`)\"",
-        "translatedContent": "  - \"traefik.http.routers.gluetun-webui.rule=Host(`your.domain.com`)\""
-      },
-      {
-        "row": 5,
-        "rowsha": "uNjD0STBlCNNT71Tc7ELjT/e0oT8JJgfo6uiHkdKOwA=",
-        "originContent": "  - \"traefik.http.routers.gluetun-webui.middlewares=auth\"",
-        "translatedContent": "  - \"traefik.http.routers.gluetun-webui.middlewares=auth\""
-      },
-      {
-        "row": 6,
-        "rowsha": "Woegyv4ayoNH6J13++LHUvcW/h4ji2Y6kM4uVq6LVzk=",
-        "originContent": "  - \"traefik.http.middlewares.auth.basicauth.users=user:$$apr1$$<hash>\"",
-        "translatedContent": "  - \"traefik.http.middlewares.auth.basicauth.users=user:$$apr1$$<hash>\""
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2105,104 +796,7 @@
     "EndLine": 0,
     "Translation": "生成哈希：`htpasswd -nb user password`\n\n---\n\n## 致谢\n\n- **[Gluetun](https://github.com/qdm12/gluetun)** — 此 Web UI 所针对的 VPN 客户端容器  \n- **[gluetun-monitor](https://github.com/csmarshall/gluetun-monitor)** — 与此 Web UI 配套的优秀监控工具  \n- **AI 辅助开发** — 本项目在 AI 辅助下构建\n\n---\n\n## 许可证\n\nMIT\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pwCsUCEKnS1UtchJkS1oOlNYhPp5dTA1q+HRAZfHDJg=",
-        "originContent": "Generate a hash with: `htpasswd -nb user password`",
-        "translatedContent": "生成哈希：`htpasswd -nb user password`"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
-        "originContent": "## Acknowledgments",
-        "translatedContent": "## 致谢"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "pyRr+atHD/7ddDAN2MASzyH3wolJ6N6x1A1mfLZFxtg=",
-        "originContent": "- **[Gluetun](https://github.com/qdm12/gluetun)** — The VPN client container this webui was built for",
-        "translatedContent": "- **[Gluetun](https://github.com/qdm12/gluetun)** — 此 Web UI 所针对的 VPN 客户端容器  "
-      },
-      {
-        "row": 8,
-        "rowsha": "ekshpb/pdORSTXTy2qx4Y47xJewkpKOXSkSn2FzRNLg=",
-        "originContent": "- **[gluetun-monitor](https://github.com/csmarshall/gluetun-monitor)** — Great monitoring tool to pair with this webui",
-        "translatedContent": "- **[gluetun-monitor](https://github.com/csmarshall/gluetun-monitor)** — 与此 Web UI 配套的优秀监控工具  "
-      },
-      {
-        "row": 9,
-        "rowsha": "dBfp1flgb5lKUas2HkaQZ9A/9ts3e53bRUbhp0b+xCQ=",
-        "originContent": "- **AI-Assisted Development** — This project was built with AI assistance",
-        "translatedContent": "- **AI 辅助开发** — 本项目在 AI 辅助下构建"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## 许可证"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
-        "originContent": "MIT",
-        "translatedContent": "MIT"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

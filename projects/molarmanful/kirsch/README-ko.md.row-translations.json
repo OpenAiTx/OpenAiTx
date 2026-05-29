@@ -1,0 +1,1094 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qs5SL4kzIGamJVFUX6v6r9GrZ911GyT4xlHlZIomnCE=",
+    "originContent": "![kirsch](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/header.png)",
+    "translatedContent": "![kirsch](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/header.png)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+    "originContent": "## Table of Contents",
+    "translatedContent": "## 목차"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "pxzcypeJiIHuptw1IaD6h/ju0oq5Ot9rvuyaoyqyMOc=",
+    "originContent": "- [Table of Contents](#table-of-contents)",
+    "translatedContent": "- [목차](#table-of-contents)"
+  },
+  {
+    "row": 10,
+    "rowsha": "BK4fM7xar6bP05e2X+OiD5DweDUqlOIUPOvDgu9rItI=",
+    "originContent": "- [Overview](#overview)",
+    "translatedContent": "- [개요](#overview)"
+  },
+  {
+    "row": 11,
+    "rowsha": "szeUMzObFmInYxsCoVbn/VVKtyDdOBQ09zhIyfjN3rU=",
+    "originContent": "- [Gallery](#gallery)",
+    "translatedContent": "- [갤러리](#gallery)"
+  },
+  {
+    "row": 12,
+    "rowsha": "EBeNHhptpTXvblQXBVpLJzC+Doe9GqQR0yteKhqfVKI=",
+    "originContent": "- [Installation/Usage](#installation/usage)",
+    "translatedContent": "- [설치/사용법](#installation/usage)"
+  },
+  {
+    "row": 13,
+    "rowsha": "njiZsr36AOveDud/3mL2d4Frlfrx7uQZcmjy4dfh8+A=",
+    "originContent": "  - [Nerd Fonts](#nerd-fonts)",
+    "translatedContent": "  - [너드 폰트](#nerd-fonts)"
+  },
+  {
+    "row": 14,
+    "rowsha": "Ybg5IDzul/SzPjsH+FGGSQ65OVxO/9JaIL8ASH9wHHA=",
+    "originContent": "  - [Propo](#propo)",
+    "translatedContent": "  - [프로포](#propo)"
+  },
+  {
+    "row": 15,
+    "rowsha": "S/vpS20witLD1n8UrPyzzu0NvbBI+E3egZhwSt3xCcQ=",
+    "originContent": "  - [Nixpkgs](#nixpkgs)",
+    "translatedContent": "  - [닉스팩스](#nixpkgs)"
+  },
+  {
+    "row": 16,
+    "rowsha": "MFWzFGG0NEw0eaVl9j7zzLqcFK+s522/PjsxpZ4DK6E=",
+    "originContent": "  - [Nix Flakes](#nix-flakes)",
+    "translatedContent": "  - [닉스 플레이크](#nix-flakes)"
+  },
+  {
+    "row": 17,
+    "rowsha": "eGdfnKkFa4VwFbhBz5OzkyimxavGiYKjwNh6lrj5eEA=",
+    "originContent": "  - [Web](#web)",
+    "translatedContent": "  - [웹](#web)"
+  },
+  {
+    "row": 18,
+    "rowsha": "x54rxapn/vR4L0T/yfkwA6UUlJif6BPmgp6ewyVGiNs=",
+    "originContent": "- [Design Notes](#design-notes)",
+    "translatedContent": "- [디자인 노트](#design-notes)"
+  },
+  {
+    "row": 19,
+    "rowsha": "iul2mfvu7PcMaWwcdj4T2PQjc0kWYZsul8oA1NjUghA=",
+    "originContent": "  - [Flourishes](#flourishes)",
+    "translatedContent": "  - [장식](#flourishes)"
+  },
+  {
+    "row": 20,
+    "rowsha": "71rVrgEkX8fQp1JXP6uLGtm7RfGIlqaYfGUnrggp1yc=",
+    "originContent": "  - [Gaps](#gaps)",
+    "translatedContent": "  - [간격](#gaps)"
+  },
+  {
+    "row": 21,
+    "rowsha": "46o9OlXCA1a4tZeh7IEuTh2QUV2OtRFcI4YWidxNwmU=",
+    "originContent": "- [Contributing](#contributing)",
+    "translatedContent": "- [기여](#contributing)"
+  },
+  {
+    "row": 22,
+    "rowsha": "lQGUCOQ/xOEbYz+qSEoqBl0sddngw6cTjfCUohSdCl4=",
+    "originContent": "- [Credits](#credits)",
+    "translatedContent": "- [크레딧](#credits)"
+  },
+  {
+    "row": 23,
+    "rowsha": "sWWdVZ657EJXzmZO88CC3N+I55oegCcir2KFqf36aXM=",
+    "originContent": "- [Licensing](#licensing)",
+    "translatedContent": "- [라이선스](#licensing)"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+    "originContent": "## Overview",
+    "translatedContent": "## 개요"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "0YVkiRUptXlGoK/XYYjPO68N2GPJUbuhI56KJknGhPg=",
+    "originContent": "**kirsch** /ˈkɪərʃ/ _n._",
+    "translatedContent": "**kirsch** /ˈkɪərʃ/ _명사_"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "6Y4lhC+A7l3KRG2Fls5ju9BL98HzvUrKbiMxTb+GCow=",
+    "originContent": "1. _(German)_ cherry.",
+    "translatedContent": "1. _(독일어)_ 체리."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "P3izapO3lqAo+wUfe/kPpHLMp/0YwDKE7qbmRREH+Jw=",
+    "originContent": "1. _(Russell A. Kirsch, 1929 - 2020)_ American engineer recognized as the",
+    "translatedContent": "1. _(러셀 A. 커쉬, 1929 - 2020)_ 최초의 디지털 이미지 스캐너 개발자이자 픽셀의 발명가로 인정받는 미국 엔지니어."
+  },
+  {
+    "row": 32,
+    "rowsha": "jGuinQSptE9x7FzrM2y5Eoyw+VwUQr3kCwep9vMO5Ws=",
+    "originContent": "   developer of the first digital image scanner and the inventor of the pixel.",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 6x16 바운딩 박스(평균 너비 5px, 하강 4px, 상승 12px, x-높이 5px, 대문자 높이 9px)를 가진 모노스페이스 비트맵 글꼴. 다양한 서체 형태와 모티프에서 영감을 받아 컴팩트한 크기에서 독특한 휴머니스트 느낌을 창출함."
+  },
+  {
+    "row": 34,
+    "rowsha": "IncGzAokxEnXu3JFIV9J+vD+e26Kf0oHhcJ+brSadhE=",
+    "originContent": "1. A monospace bitmap font with a 6x16 bounding box (5px avg width, 4px descent,",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "gxKx0QkE2/pqd2mn9l8vx5LgKe01oU3CBAhNDJbr5z0=",
+    "originContent": "   12px ascent, 5px x-height, 9px cap height). It draws from a variety of",
+    "translatedContent": "   일부 글리프는 [Cozette](https://github.com/slavfox/Cozette)에서 가져왔으며, 종종 kirsch 디자인에 맞게 수정됨."
+  },
+  {
+    "row": 36,
+    "rowsha": "Dr8K9qHEbwfV2OG4lmqxAACZrOmGLh2Ce59H3nSfDj4=",
+    "originContent": "   letterforms and motifs to create a distinct humanist feel at a compact size.",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "9SWxlS9i/EGOmsiff3g3RT0vNm1Bx/fmojqDMRrUgzI=",
+    "originContent": "   Some glyphs come from [Cozette](https://github.com/slavfox/Cozette), often",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "TyJXaZBA6nGVSctZoQD2trGZy6Pj1UAN6WRi3oPoyTo=",
+    "originContent": "   with modifications to adhere to kirsch's design.",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+    "originContent": "## Gallery",
+    "translatedContent": "## 갤러리"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 44,
+    "rowsha": "ewM/A9U8GHR89+FoggX2BpKTBmM+TSDPim4Wv2i5Vww=",
+    "originContent": "<summary><strong>Glyphs</strong></summary>",
+    "translatedContent": "<summary><strong>글리프</strong></summary>"
+  },
+  {
+    "row": 45,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "H7uA4gNrBUQxsDJoYauhLO/nKk0P1NzR2UP7kBfUpJk=",
+    "originContent": "![kirsch glyphs](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/chars.png)",
+    "translatedContent": "![kirsch 글리프](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/chars.png)"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 50,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 53,
+    "rowsha": "2sfd290MtKJq+ewIBru7jh6O0CqD/7GlSH7MlRqz1g0=",
+    "originContent": "<summary><strong>Glyphs Map</strong></summary>",
+    "translatedContent": "<summary><strong>글리프 맵</strong></summary>"
+  },
+  {
+    "row": 54,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "rWWaIdP5YPSgZ6d4SObfNWq8HfecLK3vrO9j0y8a7wM=",
+    "originContent": "![kirsch glyph map](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/map.png)",
+    "translatedContent": "![kirsch 글리프 맵](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/map.png)"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 59,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 62,
+    "rowsha": "9e23nq4eb7HgtFR+rB68/aB4e7A76yC1MBLog3PPcg0=",
+    "originContent": "<summary><strong>Samples</strong></summary>",
+    "translatedContent": "<summary><strong>샘플</strong></summary>"
+  },
+  {
+    "row": 63,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "Nfy3Q3o68DeAcLJkm/+1x2EtJEJq5hZtAl/L9RxUhUA=",
+    "originContent": "![kirsch sample](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/sample.png)",
+    "translatedContent": "![kirsch 샘플](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/sample.png)"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 68,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "EKRy54WN/ciI+IacIbbgeR3KP0Kh9IXX1GpYSplvd8g=",
+    "originContent": "## Installation/Usage",
+    "translatedContent": "## 설치/사용법"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "cSsPFK0VMwG3PDyEOuERVSzqnY6xlysd9PKvSHS8yYY=",
+    "originContent": "Download from [Releases](https://github.com/molarmanful/kirsch/releases).",
+    "translatedContent": "[릴리스](https://github.com/molarmanful/kirsch/releases)에서 다운로드하세요."
+  },
+  {
+    "row": 73,
+    "rowsha": "RRfY8AfRcCzPiIPmvARHlJGNcXXasGNhg/Vwljwrxho=",
+    "originContent": "Included are bitmap formats - OTB, BDF, PCF, DFONT (for Mac users) - as well as",
+    "translatedContent": "비트맵 형식인 OTB, BDF, PCF, DFONT (Mac 사용자용)와"
+  },
+  {
+    "row": 74,
+    "rowsha": "3fUqBjxB/bnOAutUnZXv2RrnmV6aGzdN6ZMD8SMNkpk=",
+    "originContent": "TTF. 2x versions are available for HiDPI screens. Note that PCF doesn't contain",
+    "translatedContent": "TTF가 포함되어 있습니다. HiDPI 화면용 2배 버전도 제공됩니다. PCF는"
+  },
+  {
+    "row": 75,
+    "rowsha": "TtzhK+rJQ7UETumcsfSTF8U8ah6amJn7Pm/HSPZtA84=",
+    "originContent": "glyphs past U+FFFF.",
+    "translatedContent": "U+FFFF 이후의 글리프를 포함하지 않는 점에 유의하세요."
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "BKUCXJBFxYhwGMjN+yqatMqWs4WIkN4qnP4WQbzIkkg=",
+    "originContent": "For the crispiest viewing experience, try to use the bitmap formats when",
+    "translatedContent": "가장 선명한 시각 경험을 위해 가능하면 비트맵 형식을 사용해 보세요."
+  },
+  {
+    "row": 78,
+    "rowsha": "JpRR6BaM+j9atlRRLCA1sD/toGtR+9n+OsUDNVIVlnU=",
+    "originContent": "possible. If bitmap fonts are not supported on your platform (e.g. Windows,",
+    "translatedContent": "만약 플랫폼에서 비트맵 폰트를 지원하지 않는 경우(예: Windows,"
+  },
+  {
+    "row": 79,
+    "rowsha": "nwTVuYFc0B6394hsjYVZ04LRbbziXY/ahJB9/HxfVTE=",
+    "originContent": "VSCode), then use the TTF at font sizes that are multiples of 16px.",
+    "translatedContent": "VSCode)에는 16px의 배수 크기에서 TTF를 사용하세요."
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+    "originContent": "> [!TIP]",
+    "translatedContent": "> [!TIP]"
+  },
+  {
+    "row": 82,
+    "rowsha": "Lxb2XjWnGcpePKRKFObhlY5bXh8v0YK8orV9swM8IXE=",
+    "originContent": "> If you need font size in pt, use the following conversion:",
+    "translatedContent": "> 폰트 크기를 pt 단위로 사용해야 한다면, 다음 변환식을 사용하세요:"
+  },
+  {
+    "row": 83,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 84,
+    "rowsha": "7anUr4CpoGqVo1zN3TGMiEIeOc8ypv1R6wdU/TSvjKI=",
+    "originContent": "> `pt = px * 72 / dpi`",
+    "translatedContent": "> `pt = px * 72 / dpi`"
+  },
+  {
+    "row": 85,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 86,
+    "rowsha": "FjgbBZUousj4aH+Stn00KZkDlNTpcxLe2SkrrRxX3nM=",
+    "originContent": "> e.g. 16px on a 96dpi screen is `16px * 72 / 96dpi = 12pt`.",
+    "translatedContent": "> 예: 96dpi 화면에서 16px는 `16px * 72 / 96dpi = 12pt` 입니다."
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "I38N+Htu9V4l+St5jnxpJ8ZDyZo30ZYEWPrGOCdhlbs=",
+    "originContent": "### Nerd Fonts",
+    "translatedContent": "### Nerd Fonts"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "uJBJusYwPANmMUn2iDKvFhB3wGXjympeP3eMlBHkAKA=",
+    "originContent": "kirsch comes with custom Nerd Fonts glyphs. Support is still WIP. For the sake",
+    "translatedContent": "kirsch는 커스텀 Nerd Fonts 글리프를 포함합니다. 지원은 아직 진행 중입니다.  "
+  },
+  {
+    "row": 91,
+    "rowsha": "mnGYq4eW5577PCLz3lnqPDvkAEXGVfCoSRbd01hJwPc=",
+    "originContent": "of visual clarity, kirsch's Nerd Fonts glyphs tend to bleed heavily beyond their",
+    "translatedContent": "시각적 명확성을 위해, kirsch의 Nerd Fonts 글리프는 너비를 넘어 크게 번지는 경향이 있습니다.  "
+  },
+  {
+    "row": 92,
+    "rowsha": "AnvNIt2M3V2gldJW1HUmPvRK9cq5iPnNL1sCGTvbAmk=",
+    "originContent": "widths. I've drawn these glyphs with the expectation that they will look best",
+    "translatedContent": "이 글리프들은 앞뒤에 한 칸의 공백을 두었을 때 가장 잘 보일 것이라 예상하며 디자인했습니다."
+  },
+  {
+    "row": 93,
+    "rowsha": "BDkcTo/hb5W11OUwygfF4A2UmBTu7K+d3GLxAicCqAM=",
+    "originContent": "when padded before and after with a single space.",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "나머지 Nerd Fonts를 포함하는 패치된 Nerd Fonts도 제공됩니다.  "
+  },
+  {
+    "row": 95,
+    "rowsha": "Z4BMEJoRl9qo0Z0PjQgbTmgu4WA9z+6/b4SQ/4K985M=",
+    "originContent": "Patched Nerd Fonts that cover the rest of the Nerd Fonts are available. The",
+    "translatedContent": "\"Mono\" 버전은 더 작은 글리프(단일 너비 대신 두 배 너비)를 사용하며, 너비 혼합이 불가능한 터미널에서 작동합니다."
+  },
+  {
+    "row": 96,
+    "rowsha": "4vwx1wAaA8m8ByvR4Am5P4wF2UmfpoTzx7t83qWgw8I=",
+    "originContent": "\"Mono\" variant uses smaller glyphs (single- instead of double-width) and works",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "86kGlSQmdJ8PEEraIjFLGxCpPD8JBkwdfAsmLQU0bwY=",
+    "originContent": "for terminals that can't mix widths.",
+    "translatedContent": "### Propo"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "Qs/5jjnH2zrItUpJjfahEEzu3s0POA8enxdqisQ0T+8=",
+    "originContent": "### Propo",
+    "translatedContent": "부분적으로 번지는 foot 같은 터미널을 위해, kirsch의 Propo 버전이 제공됩니다.  "
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 버전은 터미널의 폰트 렌더러에 의해 셀 일부가 잘리지 않도록 글리프를 조정합니다."
+  },
+  {
+    "row": 101,
+    "rowsha": "6B7YaSIBKUfXeyWvfIG4vTD7jkMJwY/mgpBE8cjZr2Q=",
+    "originContent": "For terminals like foot with partial bleed, a Propo variant of kirsch is",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "F360Kf3ZG7DpmyJmGI8t9plUAPJRs7IUvpZeQZKBZzs=",
+    "originContent": "available. This variant adjusts the glyphs such that their cells won't be cut",
+    "translatedContent": "### Nixpkgs"
+  },
+  {
+    "row": 103,
+    "rowsha": "SKZxEsNAqO+ES/r0HJ4rmAVS+k3oD09qgkKthoJTwUs=",
+    "originContent": "off by the terminal's font renderer.",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[@ejiektpobehuk](https://github.com/ejiektpobehuk) 덕분에, kirsch는  "
+  },
+  {
+    "row": 105,
+    "rowsha": "iQkaK+kCeJnW/jSCimUrEPBrTE/FizwkfgHPnkj0+r8=",
+    "originContent": "### Nixpkgs",
+    "translatedContent": "Nixpkgs에서 `kirsch`로 이용할 수 있습니다."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "oOvyqMy1Zwqt44fWEY2HH0zFAS5eJq1ffHjkMWEm9FA=",
+    "originContent": "Thanks to [@ejiektpobehuk](https://github.com/ejiektpobehuk), kirsch is",
+    "translatedContent": "### Nix Flakes"
+  },
+  {
+    "row": 108,
+    "rowsha": "P5xo1M0bYh1qTurQbOezlFOSl9aOpNG3TInkTWrMVCY=",
+    "originContent": "available on Nixpkgs as `kirsch`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "kirsch 릴리스는 또한  "
+  },
+  {
+    "row": 110,
+    "rowsha": "sozimZWTo8qzVZRCypyLgI+mat3EB1+LAdgkpGFChY8=",
+    "originContent": "### Nix Flakes",
+    "translatedContent": "[FlakeHub](https://flakehub.com/flake/molarmanful/kirsch)에 푸시됩니다. `kirsch` (별칭 `default`)는 기본 패키지이며, `kirsch-nerd`는 Nerd Fonts 패치를 포함합니다."
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "4aOmnVsIpk/J7kPWfCOxeoivG9YB/NeqFpx6rW8YvgY=",
+    "originContent": "kirsch releases are also pushed to",
+    "translatedContent": "### Web"
+  },
+  {
+    "row": 113,
+    "rowsha": "6QVxIB21CRRC5hGED+ztGhrmNZ8Vji5SGd3+EwN8Zdc=",
+    "originContent": "[FlakeHub](https://flakehub.com/flake/molarmanful/kirsch). `kirsch` (aliased to",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "q6wuWvW7Ze0hl/RCQyyhBnuPhx04puR1hMw9O/JqDWo=",
+    "originContent": "`default`) is the base package, while `kirsch-nerd` includes Nerd Fonts patches.",
+    "translatedContent": "비트맵 지원이 부족하여 웹에서 kirsch 사용은 일반적으로 권장하지 않습니다.  "
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "하지만 고집스럽고 용감한 분들을 위해 WOFF2가 제공됩니다. 또한  "
+  },
+  {
+    "row": 116,
+    "rowsha": "Kpl17XpHCn0xpBlB+Ldte8K91xwlKtplgoaVl3hfDLI=",
+    "originContent": "### Web",
+    "translatedContent": "[CDN 호스팅 스타일시트](https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css)도 있습니다."
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "jg6/Sv1WFtMPfBinOvrzmXNmznhH7hLQ6yC5hIHjEmo=",
+    "originContent": "I would generally discourage usage of kirsch on the web due to lack of bitmap",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "QTR/y9VuS4pZTAjdnyaAOMdEST8/yNi6/Cu4q1e9x+M=",
+    "originContent": "support. But for the stubborn and the brave, WOFF2 is available. There is also a",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "ejyuKgUo16SumTW8sin5hf+JOFadOdGUt5K/ZFph9so=",
+    "originContent": "[CDN-hosted stylesheet](https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css)",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "mCThJvcJNN01LIadxlzxo1bLIJAy5izaKeIaUd6kutQ=",
+    "originContent": "for convenience.",
+    "translatedContent": "편의를 위해."
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 124,
+    "rowsha": "TosDlmsxDcNG8Ly2PNaJ2Y3ItvFn5WzA1coZ45Kli/4=",
+    "originContent": "<link",
+    "translatedContent": "<link"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bxKwVcdXOHE7/aZHOcfKs+HZ8q+9430mA/aE3CZTXc=",
+    "originContent": "  rel=\"stylesheet\"",
+    "translatedContent": "  rel=\"stylesheet\""
+  },
+  {
+    "row": 126,
+    "rowsha": "PAZCHpAKwPHJ0gw+ItQWi2QEgWCheO9GADjmMq4pnfk=",
+    "originContent": "  href=\"https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css\"",
+    "translatedContent": "  href=\"https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css\""
+  },
+  {
+    "row": 127,
+    "rowsha": "zICisN0jIuhaCPxm6+PnTtrXmpJV74BI/YP+fY20j1w=",
+    "originContent": "/>",
+    "translatedContent": "/>"
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 디자인 노트"
+  },
+  {
+    "row": 130,
+    "rowsha": "zxPDZVvxF7NbnUvikvApd6uE47lalJ7Qx/+8iGtBz4U=",
+    "originContent": "## Design Notes",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이전 폰트 [eldur](https://github.com/molarmanful/eldur)와는 달리,  "
+  },
+  {
+    "row": 132,
+    "rowsha": "Mf3ezTi+Lfv9XdblyIQAiXhISBs/Js26pes/OhdZpIk=",
+    "originContent": "Unlike my previous font [eldur](https://github.com/molarmanful/eldur), which had",
+    "translatedContent": "평균 문자 폭이 겨우 4px였던 것과 달리 kirsch는 평균 문자 폭이 5px입니다.  "
+  },
+  {
+    "row": 133,
+    "rowsha": "R8gALuqwPO313CMg7xNyh8VFyBrFlFq2sMmEqi6kmAQ=",
+    "originContent": "a mere 4px avg. char width to work with, kirsch has a 5px avg. char width. That",
+    "translatedContent": "추가된 1px의 너비는 디자인에 놀라운 여유를 제공합니다.  "
+  },
+  {
+    "row": 134,
+    "rowsha": "85/CmRZSW8+32ui3v4HKMW+A+iDUmBUCPJsTHEX/63w=",
+    "originContent": "1px of extra width affords a surprising amount of leeway for the design. Far",
+    "translatedContent": "더 많은 글리프가 5px 너비에 편안하게 들어갑니다 - 예를 들어 \"m\"과 \"w\" -  "
+  },
+  {
+    "row": 135,
+    "rowsha": "rK0s4Q/fhrraSvYkWSlq4AKb6qx1rvLzJEnxHSIwd9w=",
+    "originContent": "more glyphs fit comfortably into 5px width - e.g. \"m\" and \"w\" - meaning that",
+    "translatedContent": "이는 해당 글리프들이 커닝을 깨뜨리지 않고 이웃 글리프의 공간을 침범하지 않음을 의미합니다.  "
+  },
+  {
+    "row": 136,
+    "rowsha": "lNP7/RTezTbOh5+i51kPVLa59m+K0kmrgOpVXMV1n0A=",
+    "originContent": "those glyphs won't break kerning and intrude on the spaces of neighboring",
+    "translatedContent": "5px 너비에 들어가지 않는 글리프는 이제 7px 너비로 작업할 수 있어,  "
+  },
+  {
+    "row": 137,
+    "rowsha": "Nsqn44N+b/qTxIvR7q591Kdt9WbABvC481j2gjsD5nY=",
+    "originContent": "glyphs. Glyphs that don't fit into 5px width can now work with 7px width, which",
+    "translatedContent": "커닝에 너무 부정적인 영향을 주지 않으면서 균형과 가독성을 유지합니다."
+  },
+  {
+    "row": 138,
+    "rowsha": "dQN0ce/QLnweUCW9z64o2ignuXrIMmMkt3u9gQT1KlQ=",
+    "originContent": "maintains balance and legibility without affecting kerning too negatively.",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 장식"
+  },
+  {
+    "row": 140,
+    "rowsha": "b3jliIH3+E7k3iZ/1a/A4kqibY0bGCK71bvwqt44CdA=",
+    "originContent": "### Flourishes",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![rogue fijian xylophone](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-flourishes.png)"
+  },
+  {
+    "row": 142,
+    "rowsha": "8PYN67dJT/H00SI4lfS6KljiadmSWSnLH1L8xEzpNJY=",
+    "originContent": "![rogue fijian xylophone](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-flourishes.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "\"i\"나 \"f\" 같은 글자의 장식은 스타일적 선택이지만,  "
+  },
+  {
+    "row": 144,
+    "rowsha": "vP8sH24QoBSU0jB1YBXjT89oqE7yUQDKXnPHQ5Ql7SE=",
+    "originContent": "The flourishes - e.g. in \"i\" or \"f\" - are a stylistic choice, but they also",
+    "translatedContent": "기능적 목적도 수행합니다. 장식이 없으면 \"i\"는 1px 너비를 차지해  "
+  },
+  {
+    "row": 145,
+    "rowsha": "EQLBbhWsnB7fu1L5F6mn3K2O9VqCyinGF/aPznjLsLo=",
+    "originContent": "serve a functional purpose. Without the flourishes, \"i\" would take up 1px of",
+    "translatedContent": "4px의 어색한 공간이 남게 됩니다. \"i\" 양쪽에 2px 장식을 더해  "
+  },
+  {
+    "row": 146,
+    "rowsha": "Y0UdEQ8ZbtsQLURubpBbHcPrsG5tEGoBNTSbbAFNwZM=",
+    "originContent": "width, leaving 4px of awkward space. 2px flourishes on each side of the \"i\" give",
+    "translatedContent": "5px 너비를 갖게 하여 커닝 문제를 세련되게 해결합니다."
+  },
+  {
+    "row": 147,
+    "rowsha": "kPFA5L2EgGyAjYYB9L1NBm1dG+dwmUGj7A/Qsw/69/M=",
+    "originContent": "it a 5px width, thereby addressing the kerning issue in a stylish way.",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "\"l\"의 경우, 스크립트 스타일 장식이  "
+  },
+  {
+    "row": 149,
+    "rowsha": "cGET9TYoRNhIFvrvFAAGo1NWA3CvMBVg1X0iiwL5bjc=",
+    "originContent": "In \"l\"'s case, the script-style flourishes further distinguish it from other",
+    "translatedContent": "`1I|` 같은 다른 수직 문자들과 더 명확하게 구분되게 합니다."
+  },
+  {
+    "row": 150,
+    "rowsha": "QK7LwujwdHNiJoHvQVhSsvZSiLjO+nBsVyaaugo/zXQ=",
+    "originContent": "vertical characters like `1I|`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 틈새"
+  },
+  {
+    "row": 152,
+    "rowsha": "XYX1EsNnuubAHE4azCpMOBbpOBk+ZPhpLlOML70VHRE=",
+    "originContent": "### Gaps",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![bad queen peg 69](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-gaps.png)"
+  },
+  {
+    "row": 154,
+    "rowsha": "2h97dSmxwd2gD66rqDqvZFVBw98Oh0+GFn+qXUpddRU=",
+    "originContent": "![bad queen peg 69](https://raw.githubusercontent.com/molarmanful/kirsch/main/./img/design-gaps.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "kirsch의 특징 중 하나는 글자의 곡선 부분에 틈새가 있다는 점입니다.  "
+  },
+  {
+    "row": 156,
+    "rowsha": "GLvwnfLpF75J8NucQRIY98Q+3nbFp9dEbdYZjoNOAyY=",
+    "originContent": "One of kirsch's distinctive features is the presence of a gap at the bowls of",
+    "translatedContent": "틈새를 채우면 글자가 너무 각지거나 빽빽해 보이지만,  "
+  },
+  {
+    "row": 157,
+    "rowsha": "0wyaEB/fDcYvLo43T/OclNyFdKq8st0BTytZgmqx4s0=",
+    "originContent": "the letters. Filling in the gap would make the letters either too square or too",
+    "translatedContent": "틈새를 열어두면 글자 형태가 더 깔끔해집니다. 틈새는 또한  "
+  },
+  {
+    "row": 158,
+    "rowsha": "Tx7op5OR6XnOTNYn/1dUqbaeWRkXSrgAke7jt4sWlfc=",
+    "originContent": "bunched-up, while leaving the gap open declutters the letterforms. The gaps also",
+    "translatedContent": "스크립트 스타일 획 끝맺음을 연상시킵니다."
+  },
+  {
+    "row": 159,
+    "rowsha": "sJmwmbKrT0gpqAGo7kaBhTCX8oM7/l1PN+m1stau2TY=",
+    "originContent": "evoke script-style stroke endings.",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기여"
+  },
+  {
+    "row": 161,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이슈, 기능/글리프 요청, 풀 리퀘스트 모두 환영합니다! 폰트 파일은  "
+  },
+  {
+    "row": 163,
+    "rowsha": "LnGzk0p1UFdzDydq/31ADkoQYC2QXxwNOaap8rw64CI=",
+    "originContent": "Issues, feature/glyph requests, and pull requests are all welcome! Font files",
+    "translatedContent": "[bited](https://github.com/molarmanful/bited)을 통해 편집됩니다."
+  },
+  {
+    "row": 164,
+    "rowsha": "b76l4fZTl5GtAiqTE7RMBs9yHjiTK6yzvSFkdbhDpSQ=",
+    "originContent": "are edited via [bited](https://github.com/molarmanful/bited).",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 크레딧"
+  },
+  {
+    "row": 166,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 프로젝트들은 kirsch를 만드는 데 영감을 주고 도움을 준 프로젝트들이며,  "
+  },
+  {
+    "row": 168,
+    "rowsha": "zn6WBUavkSU2KK5wmpkMWMa28z++OZqENYQ3RuVu/5k=",
+    "originContent": "These are projects that have inspired/helped me create kirsch and are 100% worth",
+    "translatedContent": "100% 추천할 만합니다."
+  },
+  {
+    "row": 169,
+    "rowsha": "8rrDigzebXMcrslF73XIDM7gobfYDsvQ9ZRk/TXpB1k=",
+    "originContent": "checking out.",
+    "translatedContent": "체크아웃."
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "CqSeIRZhrRyHLMEAnjgEvk/oyykVTPS7ZWo/gHpCW48=",
+    "originContent": "- [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas)",
+    "translatedContent": "- [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas)"
+  },
+  {
+    "row": 172,
+    "rowsha": "zgcg358tQk4hsXlYfVBg8OiCp4x2se4MqGJkfrXEEFI=",
+    "originContent": "- [Cozette](https://github.com/slavfox/Cozette)",
+    "translatedContent": "- [Cozette](https://github.com/slavfox/Cozette)"
+  },
+  {
+    "row": 173,
+    "rowsha": "jdxhqtWTuuWgXFiCwlefcYBMCu0LEOcqNdEBb7o5/uw=",
+    "originContent": "- [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)",
+    "translatedContent": "- [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)"
+  },
+  {
+    "row": 174,
+    "rowsha": "wxHXQw6SEabjvj4dZyyjLqWMqoEaV0ZIk7yTEwdgrhA=",
+    "originContent": "- [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /",
+    "translatedContent": "- [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /"
+  },
+  {
+    "row": 175,
+    "rowsha": "U5iaZb577Wd7MNqR8oBHUSwujd+HQSp7Yx7T/8cr8D8=",
+    "originContent": "  [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)",
+    "translatedContent": "  [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)"
+  },
+  {
+    "row": 176,
+    "rowsha": "V34aWX6uux9Y3H3qenwhlTjfL4dxHlQRPkednDhogGA=",
+    "originContent": "- [APL386](https://abrudz.github.io/APL386)",
+    "translatedContent": "- [APL386](https://abrudz.github.io/APL386)"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "9kZJ9AHbaDi1PwwMKlLBj3sOUMbQcuYN6HLToKE8Jd0=",
+    "originContent": "## Licensing",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "xg1hz8Q/M5eY7krffeZy1aXZnWhEXPIxp04ZWHJSWsk=",
+    "originContent": "Made with ♥ by [the kirsch Project Authors](AUTHORS). Released under the OFL-1.1",
+    "translatedContent": "[the kirsch Project Authors](AUTHORS)가 ♥로 만들었습니다. OFL-1.1"
+  },
+  {
+    "row": 181,
+    "rowsha": "XAwtB50X/7BWECa64U0oRRjrM5Oh7iKCDXpl43wQimQ=",
+    "originContent": "License.",
+    "translatedContent": "라이선스 하에 배포됩니다."
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,24 +1,56 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Gluetun WebUI
 
-Docker용 VPN 클라이언트 컨테이너인 [Gluetun](https://github.com/qdm12/gluetun)을 모니터링하고 제어하기 위한 가벼운 웹 UI입니다.
+경량화된 웹 UI로 [Gluetun](https://github.com/qdm12/gluetun) — Docker용 VPN 클라이언트 컨테이너를 모니터링 및 제어할 수 있습니다.
 
-![Status: Connected](https://img.shields.io/badge/status-connected-brightgreen)
-![Node 25](https://img.shields.io/badge/node-25--alpine-blue)
-![Docker](https://img.shields.io/badge/docker-compose-blue)
+![상태: 연결됨](https://img.shields.io/badge/status-connected-brightgreen)
+![노드 25](https://img.shields.io/badge/node-25--alpine-blue)
+![도커](https://img.shields.io/badge/docker-compose-blue)
 
 ---
 
 ## 기능
 
-- ✨ **멀티 VPN 지원** — 최대 20개의 Gluetun 인스턴스를 동시에 모니터링 및 제어
-- 실시간 VPN 상태 배너 (연결됨 / 일시중지 / 연결 끊김)
-- 공용 출구 IP, 국가, 지역, 도시 및 조직 정보
-- VPN 제공자, 프로토콜 (WireGuard / OpenVPN), 서버 세부정보
+- ✨ **멀티-VPN 지원** — 최대 20개의 Gluetun 인스턴스를 동시에 모니터링 및 제어
+- 실시간 VPN 상태 배너 (연결됨 / 일시 중지됨 / 연결 해제됨)
+- 공개 종료 IP, 국가, 지역, 도시, 조직 정보 표시
+- VPN 제공자, 프로토콜(WireGuard / OpenVPN), 서버 상세 정보
 - 포트 포워딩 및 DNS 상태
 - VPN 시작 / 중지 제어
 - 설정 가능한 간격(5초 – 60초)으로 자동 새로고침
-- 최근 30회의 폴링 상태를 색상으로 구분한 히스토리 바
-- 반응형 디자인 (모바일, 태블릿, 데스크탑)
+- 마지막 30번 폴링 기록을 색상으로 표시하는 히스토리 바
+- 반응형 디자인(모바일, 태블릿, 데스크탑)
 
 ---
 
@@ -27,21 +59,21 @@ Docker용 VPN 클라이언트 컨테이너인 [Gluetun](https://github.com/qdm12
 
 ---
 
-## 요구사항
+## 요구 사항
 
 - Docker + Docker Compose
-- HTTP 제어 서버가 활성화된 상태로 실행 중인 Gluetun (기본 포트 `8000`)
-- 동일 Docker 네트워크 내의 Gluetun 및 gluetun-webui
+- Gluetun이 HTTP 제어 서버를 활성화하여 실행 중이어야 함(기본 포트 `8000`)
+- Gluetun과 gluetun-webui가 동일한 Docker 네트워크에 있어야 함
 
-> `linux/amd64` 및 `linux/arm64` 지원 (Mac Intel/Apple Silicon, Linux, Windows에서 작동).
+> `linux/amd64` 및 `linux/arm64` 지원(Mac Intel/Apple Silicon, Linux, Windows에서 동작).
 
 ---
 
 ## 빠른 시작
-### 옵션 A1: 단일 인스턴스 (권장)
 
-기존의 Gluetun과 함께 `gluetun-webui`를 compose 파일에 추가하세요:
+### 옵션 A1: 단일 인스턴스(권장)
 
+기존 compose 파일에 Gluetun과 함께 `gluetun-webui`를 추가하세요:
 
 ```yaml
 gluetun-webui:
@@ -308,6 +340,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-29
 
 ---

@@ -1,23 +1,55 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sir-Scuzza&project=gluetun-webui&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Gluetun WebUI
 
-Docker用VPNクライアントコンテナ[Gluetun](https://github.com/qdm12/gluetun)の監視および制御のための軽量Web UI。
+軽量なウェブUIで、[Gluetun](https://github.com/qdm12/gluetun) を監視・操作できます — Docker用VPNクライアントコンテナ。
 
-![Status: Connected](https://img.shields.io/badge/status-connected-brightgreen)
-![Node 25](https://img.shields.io/badge/node-25--alpine-blue)
+![ステータス: 接続済み](https://img.shields.io/badge/status-connected-brightgreen)
+![ノード 25](https://img.shields.io/badge/node-25--alpine-blue)
 ![Docker](https://img.shields.io/badge/docker-compose-blue)
 
 ---
 
-## 機能
+## 特徴
 
-- ✨ **マルチVPNサポート** — 最大20のGluetunインスタンスを同時に監視・制御
+- ✨ **マルチVPN対応** — 最大20個のGluetunインスタンスを同時に監視・制御
 - ライブVPNステータスバナー（接続済み / 一時停止 / 切断）
-- 公開出口IP、国、地域、市、組織
+- 公開出口IP、国、地域、都市、組織
 - VPNプロバイダー、プロトコル（WireGuard / OpenVPN）、サーバー詳細
 - ポートフォワーディングおよびDNSステータス
-- VPNの開始 / 停止制御
-- 設定可能な間隔（5秒～60秒）での自動更新
-- 履歴バーに色分けされた直近30回のポーリング記録
+- VPNの開始 / 停止コントロール
+- 設定可能な間隔（5秒～60秒）で自動更新
+- 履歴バーで色分けされた直近30回のポーリング
 - レスポンシブデザイン（モバイル、タブレット、デスクトップ）
 
 ---
@@ -27,21 +59,21 @@ Docker用VPNクライアントコンテナ[Gluetun](https://github.com/qdm12/glu
 
 ---
 
-## 要件
+## 必要条件
 
 - Docker + Docker Compose
-- HTTPコントロールサーバーが有効な状態でのGluetun実行（デフォルトポート `8000`）
-- 同一Dockerネットワーク上のGluetunとgluetun-webui
+- GluetunがHTTPコントロールサーバーを有効化して実行中（デフォルトポート `8000`）
+- Gluetunおよびgluetun-webuiが同一のDockerネットワーク上
 
-> `linux/amd64` および `linux/arm64` をサポート（Mac Intel/Apple Silicon、Linux、Windowsで動作）。
+> `linux/amd64` と `linux/arm64` をサポート（Mac Intel/Apple Silicon、Linux、Windowsで動作）。
 
 ---
 
 ## クイックスタート
 
-### オプション A1: シングルインスタンス（推奨）
+### オプションA1: シングルインスタンス（推奨）
 
-既存の compose ファイルに Gluetun と並行して `gluetun-webui` を追加します：
+Gluetunと一緒に、既存のcomposeファイルに`gluetun-webui`を追加します:
 
 ```yaml
 gluetun-webui:
@@ -308,6 +340,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-29
 
 ---
