@@ -1,0 +1,1197 @@
+[
+  {
+    "Id": 1,
+    "Content": "# readsql\n\nConvert SQL to most human readable format. For the time being it upper cases SQL keywords, it might prettify or even suggest improvements of SQL code in the future. It converts SQL code and even SQL-strings in programming languages (only Python at the moment).\n\nSo if we write\n",
+    "ContentSha": "xbTiwM2l/iAg4FEebGTxP6wpUZd5MxpqbxpUcAB+s/4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# readsql\n\nConvertir le SQL au format le plus lisible possible. Pour l'instant, il met en majuscules les mots-clés SQL, il pourrait à l'avenir améliorer la présentation ou même suggérer des améliorations du code SQL. Il convertit le code SQL et même les chaînes SQL dans les langages de programmation (seulement Python pour le moment).\n\nDonc si nous écrivons\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ga2JHiHhiHwUxIxRX90DgJKjnxI3gMSCFVuSZJ/rNbg=",
+        "originContent": "# readsql",
+        "translatedContent": "# readsql"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "HGTymj8Ilfs9RQXs7h63E4E6/Ww11v/QltJKcA8AeE8=",
+        "originContent": "Convert SQL to most human readable format. For the time being it upper cases SQL keywords, it might prettify or even suggest improvements of SQL code in the future. It converts SQL code and even SQL-strings in programming languages (only Python at the moment).",
+        "translatedContent": "Convertir le SQL au format le plus lisible possible. Pour l'instant, il met en majuscules les mots-clés SQL, il pourrait à l'avenir améliorer la présentation ou même suggérer des améliorations du code SQL. Il convertit le code SQL et même les chaînes SQL dans les langages de programmation (seulement Python pour le moment)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "cYyusaotYP7jhe5qI1rJT2laqjmVVxVIN5tHRWzUHT8=",
+        "originContent": "So if we write",
+        "translatedContent": "Donc si nous écrivons"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sql\nselect sushi, avg(price) from tokyo where ocean = 'pacific' group by sushi\n```",
+    "ContentSha": "F6b6OaFA8ygey3Iz9Lw2AP6aop7qm0ucNyCp57jYQY8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sql\nselect sushi, avg(price) from tokyo where ocean = 'pacific' group by sushi\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": "```sql"
+      },
+      {
+        "row": 2,
+        "rowsha": "Yh8ZJExjnecMXKKGh92qow1Kp4a6hMlS+2dSFYwVA6c=",
+        "originContent": "select sushi, avg(price) from tokyo where ocean = 'pacific' group by sushi",
+        "translatedContent": "select sushi, avg(price) from tokyo where ocean = 'pacific' group by sushi"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nreadsql will help us read it as\n",
+    "ContentSha": "xtFHaiLzUq6mqQfneHWZjnSXUMmI5hVuuC5YoXe4Yr4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "readsql nous aidera à le lire comme  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "readsql nous aidera à le lire comme  "
+      },
+      {
+        "row": 2,
+        "rowsha": "QI5q1sgjkjziOCTnplNoDhsc/hZDACL2kEXQnbP/WqA=",
+        "originContent": "readsql will help us read it as",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sql\nSELECT sushi, AVG(price) FROM tokyo WHERE ocean = 'pacific' GROUP BY sushi\n```",
+    "ContentSha": "eNje1NDAt72in1Zf2ZnX8/IJ8yO8BdjATzUZG4PhUMk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sql\nSELECT sushi, AVG(price) FROM tokyo WHERE ocean = 'pacific' GROUP BY sushi\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": "```sql"
+      },
+      {
+        "row": 2,
+        "rowsha": "rZqoLx0Wkw2F0ebcej63X64yBvegt+5IUZsQyV9RZkk=",
+        "originContent": "SELECT sushi, AVG(price) FROM tokyo WHERE ocean = 'pacific' GROUP BY sushi",
+        "translatedContent": "SELECT sushi, AVG(price) FROM tokyo WHERE ocean = 'pacific' GROUP BY sushi"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n# Installation\n",
+    "ContentSha": "16sk9TpvCdAdx9J7+TRz20P1uBQNWGltKLhiK2mH7zU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Installation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+        "originContent": "# Installation",
+        "translatedContent": "# Installation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npip install readsql\n```",
+    "ContentSha": "BNniDLvi+6fv2sXkJC4cKf2DOx9Hmn8I8JnBoPICNcU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install readsql\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "k6Src2PbsQ227IyTnB2J7TBcXo0SHIwwVXrWO6uYaEg=",
+        "originContent": "pip install readsql",
+        "translatedContent": "pip install readsql"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nRequires Python 3.8+.\n\n# Usage\n\n1. Format SQL code provided in command line\n    - `readsql <SQL_STRING> -s`\n2. Format an SQL file or folder\n    - as in a folder, it will look for files ending with .sql or .py\n    - `readsql <FILE_OR_FOLDER_PATH>`\n\nIt supports multiple strings and files or folders as well\n\n1.",
+    "ContentSha": "gNbDPAYjD3PhPNr3ovm2C5Kfmxuu5lxgJtTwbvHsLmc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nNécessite Python 3.8+.\n\n# Utilisation\n\n1. Formater le code SQL fourni en ligne de commande\n    - `readsql <SQL_STRING> -s`\n2. Formater un fichier ou un dossier SQL\n    - dans un dossier, il recherchera les fichiers se terminant par .sql ou .py\n    - `readsql <CHEMIN_FICHIER_OU_DOSSIER>`\n\nIl prend également en charge plusieurs chaînes et fichiers ou dossiers\n\n1.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "K2uTNEtZG37nIHtFwNZXy3WveJLwRaeaxGXyn91YmYk=",
+        "originContent": "Requires Python 3.8+.",
+        "translatedContent": "Nécessite Python 3.8+."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# Utilisation"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "HUjBBt3RhP8C+aGlQcEH6Sl155S96lV66ZOaVoDcOmk=",
+        "originContent": "1. Format SQL code provided in command line",
+        "translatedContent": "1. Formater le code SQL fourni en ligne de commande"
+      },
+      {
+        "row": 7,
+        "rowsha": "7Fa8RgheBeOrIxjJYa5CLgLEAK/Xsky+LtYbW4ALH0M=",
+        "originContent": "    - `readsql <SQL_STRING> -s`",
+        "translatedContent": "    - `readsql <SQL_STRING> -s`"
+      },
+      {
+        "row": 8,
+        "rowsha": "BYCifHKBOJqwh5j4lL8ENzXeWUs12Mq3b5qVJs5qoAQ=",
+        "originContent": "2. Format an SQL file or folder",
+        "translatedContent": "2. Formater un fichier ou un dossier SQL"
+      },
+      {
+        "row": 9,
+        "rowsha": "ggLOekJK7UQNDfbQJgcb0kfS+UTfdfcrS8vzx7dNAyU=",
+        "originContent": "    - as in a folder, it will look for files ending with .sql or .py",
+        "translatedContent": "    - dans un dossier, il recherchera les fichiers se terminant par .sql ou .py"
+      },
+      {
+        "row": 10,
+        "rowsha": "T50CSkmJ3q6O3DO3eWsC22hQq2bayTc2CjEyFMURmYo=",
+        "originContent": "    - `readsql <FILE_OR_FOLDER_PATH>`",
+        "translatedContent": "    - `readsql <CHEMIN_FICHIER_OU_DOSSIER>`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "AUWZht5eRvDtwtIxmGH56Kdal/JZPwj86y6ZCbCFYnA=",
+        "originContent": "It supports multiple strings and files or folders as well",
+        "translatedContent": "Il prend également en charge plusieurs chaînes et fichiers ou dossiers"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yXfb54UiHTQRTTRf34/04Yu0r2Z1B1Hb6ilAf5c4c18=",
+        "originContent": "1.",
+        "translatedContent": "1."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nreadsql <SQL_STRING1> <SQL_STRING2> -s\n```",
+    "ContentSha": "6jK7HyU6ccisuEzwVo0cM7PUbIzYw6eTY5GKVWY4aLU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nreadsql <SQL_STRING1> <SQL_STRING2> -s\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "tF4lSH2Vs4PY/KKR2TNM7eUzt4Ewb1QP+4lL5veumFQ=",
+        "originContent": "readsql <SQL_STRING1> <SQL_STRING2> -s",
+        "translatedContent": "readsql <SQL_STRING1> <SQL_STRING2> -s"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n2. In Python files it looks for variable `query` strings and formats them",
+    "ContentSha": "B0KZgUxwwCENSuD80pLFhC7f5BK7CYVbM1z9RqmBdf8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Dans les fichiers Python, il recherche les chaînes de variables `query` et les formate.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Dans les fichiers Python, il recherche les chaînes de variables `query` et les formate."
+      },
+      {
+        "row": 2,
+        "rowsha": "k0Y86aomWDiKSUiPFfUiHPySegnHeJ6V66wDJWFMrNg=",
+        "originContent": "2. In Python files it looks for variable `query` strings and formats them",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nreadsql <FILE_OR_FOLDER_PATH1> <FILE_OR_FOLDER_PATH2>\n```",
+    "ContentSha": "fNkrnzcNeSdDRGqhAvdwpT4JffUUwvJ62uhyLUjFaVI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nreadsql <FILE_OR_FOLDER_PATH1> <FILE_OR_FOLDER_PATH2>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TCEqPj7o9Ri+sPjcxCh4SnJOYxrLNQJ2KbXEzG68zGs=",
+        "originContent": "readsql <FILE_OR_FOLDER_PATH1> <FILE_OR_FOLDER_PATH2>",
+        "translatedContent": "readsql <FILE_OR_FOLDER_PATH1> <FILE_OR_FOLDER_PATH2>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nWe can look for different strings in Python files with `-py` arguments",
+    "ContentSha": "JtgfXNEKjZcVzEjqCjvxvKWW75HeJtWUWKlaUjEP9YM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Nous pouvons rechercher différentes chaînes dans les fichiers Python avec les arguments `-py`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Nous pouvons rechercher différentes chaînes dans les fichiers Python avec les arguments `-py`"
+      },
+      {
+        "row": 2,
+        "rowsha": "/VlG/m+/ubF4GzPEf3Ub+AImZFgikd9HE92dLBGsQc0=",
+        "originContent": "We can look for different strings in Python files with `-py` arguments",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nreadsql <FILE_OR_FOLDER_PATH> -py <PY_VAR1> <PY_VAR2>\n```",
+    "ContentSha": "xzLcaBc0fZFjY9qT93bS3x0GpmnciRHQKrf0F6Iy6p4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nreadsql <FILE_OR_FOLDER_PATH> -py <PY_VAR1> <PY_VAR2>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0nDt9D3BHbyMTBQsMMSxDZ6RpeIUHF+0syzMWfx4Exs=",
+        "originContent": "readsql <FILE_OR_FOLDER_PATH> -py <PY_VAR1> <PY_VAR2>",
+        "translatedContent": "readsql <FILE_OR_FOLDER_PATH> -py <PY_VAR1> <PY_VAR2>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n> **Note**: `readsql` uses Python's AST parser, so it supports:\n> - **Type Hints**: `query: str = \"...\"`\n> - **F-strings**: `f\"SELECT * FROM {table}\"`\n> - **Nested Scopes**: Robustly handles variables inside functions and classes.\n> - **Comments/Docstrings**: Correctly ignores SQL-like text in comments or docstrings.\n\n# Usage examples\n\n1. `readsql 'select sushi from tokyo' -s` command returns\n    - `SELECT sushi FROM tokyo`\n\n2. a. `readsql sql_example.sql` command, while `sql_example.sql` is a SQL file with code as below,",
+    "ContentSha": "QPMRmYrxa8cLJ6ktSDz1JkaVNzcEbdf71kVcPaYe/og=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> **Remarque** : `readsql` utilise le parseur AST de Python, il supporte donc :\n> - **Annotations de type** : `query: str = \"...\"`\n> - **F-strings** : `f\"SELECT * FROM {table}\"`\n> - **Portées imbriquées** : Gère de manière robuste les variables à l'intérieur des fonctions et des classes.\n> - **Commentaires/Docstrings** : Ignore correctement le texte de type SQL dans les commentaires ou docstrings.\n\n# Exemples d'utilisation\n\n1. La commande `readsql 'select sushi from tokyo' -s` renvoie\n    - `SELECT sushi FROM tokyo`\n\n2. a. La commande `readsql sql_example.sql`, alors que `sql_example.sql` est un fichier SQL avec le code ci-dessous,",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Q9qsgDjwwAIEvUnPZMxGTq1++uNKLvzlGLR8kwftYQs=",
+        "originContent": "> **Note**: `readsql` uses Python's AST parser, so it supports:",
+        "translatedContent": "> **Remarque** : `readsql` utilise le parseur AST de Python, il supporte donc :"
+      },
+      {
+        "row": 3,
+        "rowsha": "jMMhZ+A9wEsNRvs+eFaKZmhJjrdH0Y91IW0AgZ2yXZc=",
+        "originContent": "> - **Type Hints**: `query: str = \"...\"`",
+        "translatedContent": "> - **Annotations de type** : `query: str = \"...\"`"
+      },
+      {
+        "row": 4,
+        "rowsha": "GXzvmfgXdu0MnYzpSK73kSOAoKdwRHP++Ba9wubnbuM=",
+        "originContent": "> - **F-strings**: `f\"SELECT * FROM {table}\"`",
+        "translatedContent": "> - **F-strings** : `f\"SELECT * FROM {table}\"`"
+      },
+      {
+        "row": 5,
+        "rowsha": "PDoOHgsz8LGxdjaX5OWJCg/UmzE2f3WEwGuFi9MnJeY=",
+        "originContent": "> - **Nested Scopes**: Robustly handles variables inside functions and classes.",
+        "translatedContent": "> - **Portées imbriquées** : Gère de manière robuste les variables à l'intérieur des fonctions et des classes."
+      },
+      {
+        "row": 6,
+        "rowsha": "mDWsYgRUfmcO8X7jw6Jm13rqg/RjTgVA+iiBl+a0r1I=",
+        "originContent": "> - **Comments/Docstrings**: Correctly ignores SQL-like text in comments or docstrings.",
+        "translatedContent": "> - **Commentaires/Docstrings** : Ignore correctement le texte de type SQL dans les commentaires ou docstrings."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "uX41qv2ZI6urO1PslbUoVOduytEtGklHwbkMvsIs1s4=",
+        "originContent": "# Usage examples",
+        "translatedContent": "# Exemples d'utilisation"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "c8Uz4/v59FCN6pkGNNDHvkrnB+iEDN9TO/nQcFKLplQ=",
+        "originContent": "1. `readsql 'select sushi from tokyo' -s` command returns",
+        "translatedContent": "1. La commande `readsql 'select sushi from tokyo' -s` renvoie"
+      },
+      {
+        "row": 11,
+        "rowsha": "THvLS1sKlq5uXuc2P2ZsUALKhCILYhZoVjcpknBWBmM=",
+        "originContent": "    - `SELECT sushi FROM tokyo`",
+        "translatedContent": "    - `SELECT sushi FROM tokyo`"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "GRrBdbOhA4k2y61POwfnEDt05XPSNVfbhQKddwdw4+A=",
+        "originContent": "2. a. `readsql sql_example.sql` command, while `sql_example.sql` is a SQL file with code as below,",
+        "translatedContent": "2. a. La commande `readsql sql_example.sql`, alors que `sql_example.sql` est un fichier SQL avec le code ci-dessous,"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```sql\nselect max(height), avg(mass), min(age) from jungle group by forest where animal=elephant;\n```",
+    "ContentSha": "ItWN9/YSjp6WOTpHhgrnAYY77b9ror4wLJHt1TvR9Mk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sql\nselect max(height), avg(mass), min(age) from jungle group by forest where animal=elephant;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": "```sql"
+      },
+      {
+        "row": 2,
+        "rowsha": "5jmPh/jJNtClNyoQvxa9IANj9IUlkWYGkE3HLDGj8Gc=",
+        "originContent": "select max(height), avg(mass), min(age) from jungle group by forest where animal=elephant;",
+        "translatedContent": "select max(height), avg(mass), min(age) from jungle group by forest where animal=elephant;"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "replaces the file with this code",
+    "ContentSha": "c1zeYa9QF71NHL/xEoTRRJyVi9RhziYGrOb3eC3xU0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "remplace le fichier par ce code",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c1zeYa9QF71NHL/xEoTRRJyVi9RhziYGrOb3eC3xU0w=",
+        "originContent": "replaces the file with this code",
+        "translatedContent": "remplace le fichier par ce code"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```sql\nSELECT MAX(height), AVG(mass), MIN(age) FROM jungle GROUP BY forest WHERE animal=elephant;\n```",
+    "ContentSha": "1rKR0F0mVLYWAyaqgUIkG/oSucjOWKoPoOFN0aWAC78=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sql\nSELECT MAX(height), AVG(mass), MIN(age) FROM jungle GROUP BY forest WHERE animal=elephant;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": "```sql"
+      },
+      {
+        "row": 2,
+        "rowsha": "GeRDIoZGhS1sGvXjhKbwI7PrE47XejCZ6MkcVRKJPzA=",
+        "originContent": "SELECT MAX(height), AVG(mass), MIN(age) FROM jungle GROUP BY forest WHERE animal=elephant;",
+        "translatedContent": "SELECT MAX(height), AVG(mass), MIN(age) FROM jungle GROUP BY forest WHERE animal=elephant;"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n2. b. `readsql sql_in_python_variable_example.py` command, while `sql_in_python_variable_example.py` is a Python file with code as below,",
+    "ContentSha": "73DcBigesxdNUHD8llSxR5W2NtqQRBeSG7vvje02K7o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. b. La commande `readsql sql_in_python_variable_example.py`, tandis que `sql_in_python_variable_example.py` est un fichier Python avec le code ci-dessous,",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3MjDAaDbeWDJf9QgC7r7jyFBsTAtSBSDzi7t9FvnBlo=",
+        "originContent": "2. b. `readsql sql_in_python_variable_example.py` command, while `sql_in_python_variable_example.py` is a Python file with code as below,",
+        "translatedContent": "2. b. La commande `readsql sql_in_python_variable_example.py`, tandis que `sql_in_python_variable_example.py` est un fichier Python avec le code ci-dessous,"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```python\ndef get_query():\n    limit = 6\n    query = f\"SELEct speed from world where animal='dolphin' limit {limit}\"\n    return query\n```",
+    "ContentSha": "FkUu1bMVkwgPjvO4KaOS1EsQ4wLVDklnkyLDUqliAQw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\ndef get_query():\n    limit = 6\n    query = f\"SELEct speed from world where animal='dolphin' limit {limit}\"\n    return query\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "xBdJl0B77lERoOKhcFxYVEYBbprDQy8ux+bUG9bnHZk=",
+        "originContent": "def get_query():",
+        "translatedContent": "def get_query():"
+      },
+      {
+        "row": 3,
+        "rowsha": "zs5isOzy9HsE1QCAkw12i6IuEsvBwyqKUg0PE0ZHBgk=",
+        "originContent": "    limit = 6",
+        "translatedContent": "    limit = 6"
+      },
+      {
+        "row": 4,
+        "rowsha": "NYJ2ppS5bjXZGBqG7luc/jrSjbEjxI0y7g2Eh9/dvyI=",
+        "originContent": "    query = f\"SELEct speed from world where animal='dolphin' limit {limit}\"",
+        "translatedContent": "    query = f\"SELEct speed from world where animal='dolphin' limit {limit}\""
+      },
+      {
+        "row": 5,
+        "rowsha": "E2blvcWGTjVy8YVtCbJvnWSZq8J9yWYB7K2eGfA3PKY=",
+        "originContent": "    return query",
+        "translatedContent": "    return query"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "replaces the file with this code",
+    "ContentSha": "c1zeYa9QF71NHL/xEoTRRJyVi9RhziYGrOb3eC3xU0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "remplace le fichier par ce code",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c1zeYa9QF71NHL/xEoTRRJyVi9RhziYGrOb3eC3xU0w=",
+        "originContent": "replaces the file with this code",
+        "translatedContent": "remplace le fichier par ce code"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```python\ndef get_query():\n    limit = 6\n    query = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\"\n    return query\n```",
+    "ContentSha": "zRI3ZyWEByQZ9R9+RuW+nByM/UpwZtO4Z10FcrK2atQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\ndef get_query():\n    limit = 6\n    query = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\"\n    return query\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "xBdJl0B77lERoOKhcFxYVEYBbprDQy8ux+bUG9bnHZk=",
+        "originContent": "def get_query():",
+        "translatedContent": "def get_query():"
+      },
+      {
+        "row": 3,
+        "rowsha": "zs5isOzy9HsE1QCAkw12i6IuEsvBwyqKUg0PE0ZHBgk=",
+        "originContent": "    limit = 6",
+        "translatedContent": "    limit = 6"
+      },
+      {
+        "row": 4,
+        "rowsha": "RgGVtIPKpcfvlbAY44sA9uwHnAj8i98wHIV38ULLeLM=",
+        "originContent": "    query = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\"",
+        "translatedContent": "    query = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\""
+      },
+      {
+        "row": 5,
+        "rowsha": "E2blvcWGTjVy8YVtCbJvnWSZq8J9yWYB7K2eGfA3PKY=",
+        "originContent": "    return query",
+        "translatedContent": "    return query"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n2. c. `readsql sql_in_python_variable_example.py -py sql` command, while `sql_in_python_variable_example.py` is a Python file with code as below,",
+    "ContentSha": "jaxNIS2jR5qexXB6lAeigrmLIYj+/n/uBxIbRlN4ItM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. c. Commande `readsql sql_in_python_variable_example.py -py sql`, tandis que `sql_in_python_variable_example.py` est un fichier Python avec le code ci-dessous,\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. c. Commande `readsql sql_in_python_variable_example.py -py sql`, tandis que `sql_in_python_variable_example.py` est un fichier Python avec le code ci-dessous,"
+      },
+      {
+        "row": 2,
+        "rowsha": "OPjBfn0TdNj8BDydcEi0MHVZLFZ6X5anXwH3QkvDy9w=",
+        "originContent": "2. c. `readsql sql_in_python_variable_example.py -py sql` command, while `sql_in_python_variable_example.py` is a Python file with code as below,",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```python\ndef get_query():\n    limit = 6\n    sql = f\"SELEct speed from world where animal='dolphin' limit {limit}\"\n    return sql\n```",
+    "ContentSha": "ivJmF3Hz/x6TtttTbAZgtKd8dfTSsUe0SF37b7wiyNY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\ndef get_query():\n    limit = 6\n    sql = f\"SELEct speed from world where animal='dolphin' limit {limit}\"\n    return sql\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "xBdJl0B77lERoOKhcFxYVEYBbprDQy8ux+bUG9bnHZk=",
+        "originContent": "def get_query():",
+        "translatedContent": "def get_query():"
+      },
+      {
+        "row": 3,
+        "rowsha": "zs5isOzy9HsE1QCAkw12i6IuEsvBwyqKUg0PE0ZHBgk=",
+        "originContent": "    limit = 6",
+        "translatedContent": "    limit = 6"
+      },
+      {
+        "row": 4,
+        "rowsha": "wqwn+NMM+qs0GA8gJVup4JFLwyoOSAXmkbTTllCQskk=",
+        "originContent": "    sql = f\"SELEct speed from world where animal='dolphin' limit {limit}\"",
+        "translatedContent": "    sql = f\"SELEct speed from world where animal='dolphin' limit {limit}\""
+      },
+      {
+        "row": 5,
+        "rowsha": "oY7OsMxG36BJtX56dMeJB+w3n0g5QcoZnIb9NuuMWvw=",
+        "originContent": "    return sql",
+        "translatedContent": "    return sql"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "replaces the file with this code",
+    "ContentSha": "c1zeYa9QF71NHL/xEoTRRJyVi9RhziYGrOb3eC3xU0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "remplace le fichier par ce code",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c1zeYa9QF71NHL/xEoTRRJyVi9RhziYGrOb3eC3xU0w=",
+        "originContent": "replaces the file with this code",
+        "translatedContent": "remplace le fichier par ce code"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```python\ndef get_query():\n    limit = 6\n    sql = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\"\n    return sql\n```",
+    "ContentSha": "KJjw04TXVNVuddOhaJqm2tnZz7KEFvwPYdRJAXhoZn8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\ndef get_query():\n    limit = 6\n    sql = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\"\n    return sql\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "xBdJl0B77lERoOKhcFxYVEYBbprDQy8ux+bUG9bnHZk=",
+        "originContent": "def get_query():",
+        "translatedContent": "def get_query():"
+      },
+      {
+        "row": 3,
+        "rowsha": "zs5isOzy9HsE1QCAkw12i6IuEsvBwyqKUg0PE0ZHBgk=",
+        "originContent": "    limit = 6",
+        "translatedContent": "    limit = 6"
+      },
+      {
+        "row": 4,
+        "rowsha": "MTLIAbAELU4mi6F0pIrIZDcfwHnotGuV9HGAfj9Ia9I=",
+        "originContent": "    sql = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\"",
+        "translatedContent": "    sql = f\"SELECT speed FROM world WHERE animal='dolphin' LIMIT {limit}\""
+      },
+      {
+        "row": 5,
+        "rowsha": "oY7OsMxG36BJtX56dMeJB+w3n0g5QcoZnIb9NuuMWvw=",
+        "originContent": "    return sql",
+        "translatedContent": "    return sql"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n2. d. `readsql tests -n` command outputs all of the formated SQL code in `tests` folder, files are not replaced by the formatted version (`-n` argument stand for not-replace)\n\nMore examples can be found in `/tests` folder\n\n# Add a pre-commit hook\nHow to add a [pre-commit](https://pre-commit.com/) hook of readsql?",
+    "ContentSha": "BiCp3ckJV4wQ5NZZ5lE8GggINZ4uwJcUo5RIQfJB3IU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. d. La commande `readsql tests -n` affiche tout le code SQL formaté dans le dossier `tests`, les fichiers ne sont pas remplacés par la version formatée (l'argument `-n` signifie ne pas remplacer)\n\nPlus d'exemples peuvent être trouvés dans le dossier `/tests`\n\n# Ajouter un hook pre-commit\nComment ajouter un hook [pre-commit](https://pre-commit.com/) de readsql ?",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1Fbd7ibFNuz95PfaTmjQJ+yl1/iisr1dsXjudSxBw3E=",
+        "originContent": "2. d. `readsql tests -n` command outputs all of the formated SQL code in `tests` folder, files are not replaced by the formatted version (`-n` argument stand for not-replace)",
+        "translatedContent": "2. d. La commande `readsql tests -n` affiche tout le code SQL formaté dans le dossier `tests`, les fichiers ne sont pas remplacés par la version formatée (l'argument `-n` signifie ne pas remplacer)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "vKWNjA8qUNo6USYDXtSNokpDgzwUoXGMuz2dYJH9TaU=",
+        "originContent": "More examples can be found in `/tests` folder",
+        "translatedContent": "Plus d'exemples peuvent être trouvés dans le dossier `/tests`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "CCdv0Gfla+qeHs+P77mA4LgxQbdZMu/3vdXjw8V9MGo=",
+        "originContent": "# Add a pre-commit hook",
+        "translatedContent": "# Ajouter un hook pre-commit"
+      },
+      {
+        "row": 7,
+        "rowsha": "UrW+bThHpqNjAUHk+raqIK0nGPeHVF8d2zbM3h5Yc94=",
+        "originContent": "How to add a [pre-commit](https://pre-commit.com/) hook of readsql?",
+        "translatedContent": "Comment ajouter un hook [pre-commit](https://pre-commit.com/) de readsql ?"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```yaml\nrepos:\n-   repo: https://github.com/AzisK/readsql\n    rev: v1.0.0  # Replace by any tag/version: https://github.com/azisk/readsql/tags\n    hooks:\n    -   id: readsql\n```",
+    "ContentSha": "NLD4+rrq9EtW14hVCOmjtziXfZ9SOXvYDajUH/Ojr2c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nrepos:\n-   repo: https://github.com/AzisK/readsql\n    rev: v1.0.0  # Replace by any tag/version: https://github.com/azisk/readsql/tags\n    hooks:\n    -   id: readsql\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "gG7GcEk5zj8z3jnK/AjBlNuoH009UcpsvAbq5KB2CDg=",
+        "originContent": "repos:",
+        "translatedContent": "repos:"
+      },
+      {
+        "row": 3,
+        "rowsha": "E7o609CYPFpYmeihZRLEij2WHR6pCc6g8Fbjgdn99SU=",
+        "originContent": "-   repo: https://github.com/AzisK/readsql",
+        "translatedContent": "-   repo: https://github.com/AzisK/readsql"
+      },
+      {
+        "row": 4,
+        "rowsha": "D+Pbubogt1hmZYhTMAd1lKRhwP4wo5SBYo5DFVs/eeg=",
+        "originContent": "    rev: v1.0.0  # Replace by any tag/version: https://github.com/azisk/readsql/tags",
+        "translatedContent": "    rev: v1.0.0  # Replace by any tag/version: https://github.com/azisk/readsql/tags"
+      },
+      {
+        "row": 5,
+        "rowsha": "B1Y+1xoO3jmx7wEdpjyWSUcaHz9RnLZWj1oKBfBtQtQ=",
+        "originContent": "    hooks:",
+        "translatedContent": "    hooks:"
+      },
+      {
+        "row": 6,
+        "rowsha": "9bYSW6C4SH5g9Y+hFgxYrNpM2iBVxwACQJ+Vp2PycpE=",
+        "originContent": "    -   id: readsql",
+        "translatedContent": "    -   id: readsql"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n# Development\n\nClone the repo and use [uv](https://docs.astral.sh/uv/) for development:\n",
+    "ContentSha": "uk3XpGnRFZmyb6oRKIxHzhWa8pejp6x/7HcaEdm3Uq4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Développement\n\nClonez le dépôt et utilisez [uv](https://docs.astral.sh/uv/) pour le développement :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hp7hJyexKrvcC4acgr/AZhYATK3/s1ZIwTrIL8QsUeM=",
+        "originContent": "# Development",
+        "translatedContent": "# Développement"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AAsjerNirDlu7j1gw9R2j8MuFaM/D6ytRhEsE3nnlf4=",
+        "originContent": "Clone the repo and use [uv](https://docs.astral.sh/uv/) for development:",
+        "translatedContent": "Clonez le dépôt et utilisez [uv](https://docs.astral.sh/uv/) pour le développement :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```bash\nuv sync --all-extras                                    # Install dependencies\nuv run readsql \"select sushi from tokyo\" -s             # Format a string\nuv run readsql tests/sql_example.sql                    # Format SQL file\nuv run readsql tests/sql_in_python_example.py           # Format SQL in Python\nuv run readsql tests/sql_in_python_variable_example.py -py sql  # Custom variable\nuv run readsql tests                                    # Format all files in folder\n```",
+    "ContentSha": "hgyTa+T/C+99KGAwc9s1FZc9+xmzjnHzVnxO8Lvn0Q4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nuv sync --all-extras                                    # Install dependencies\nuv run readsql \"select sushi from tokyo\" -s             # Format a string\nuv run readsql tests/sql_example.sql                    # Format SQL file\nuv run readsql tests/sql_in_python_example.py           # Format SQL in Python\nuv run readsql tests/sql_in_python_variable_example.py -py sql  # Custom variable\nuv run readsql tests                                    # Format all files in folder\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MX1AGy19wDN6DN1l+jWbKwvcAYv5kZkAitiKulzstXA=",
+        "originContent": "uv sync --all-extras                                    # Install dependencies",
+        "translatedContent": "uv sync --all-extras                                    # Install dependencies"
+      },
+      {
+        "row": 3,
+        "rowsha": "jZ/oOIPRKx+aG++pd24QSlRZi8I4A/yoIXpozJuNm7Q=",
+        "originContent": "uv run readsql \"select sushi from tokyo\" -s             # Format a string",
+        "translatedContent": "uv run readsql \"select sushi from tokyo\" -s             # Format a string"
+      },
+      {
+        "row": 4,
+        "rowsha": "doYiCti5VRnkj0pl3YzqchdkfUHeIhVDRR61FBcT4Hw=",
+        "originContent": "uv run readsql tests/sql_example.sql                    # Format SQL file",
+        "translatedContent": "uv run readsql tests/sql_example.sql                    # Format SQL file"
+      },
+      {
+        "row": 5,
+        "rowsha": "1wlnprbS36XY1CMXlNcRd0lCKP+G8iA9V0KB0tZls2w=",
+        "originContent": "uv run readsql tests/sql_in_python_example.py           # Format SQL in Python",
+        "translatedContent": "uv run readsql tests/sql_in_python_example.py           # Format SQL in Python"
+      },
+      {
+        "row": 6,
+        "rowsha": "Vl4cKtvxvNTttZYJwoh1SA3/OBSGl4PYXm8Ed5NE02w=",
+        "originContent": "uv run readsql tests/sql_in_python_variable_example.py -py sql  # Custom variable",
+        "translatedContent": "uv run readsql tests/sql_in_python_variable_example.py -py sql  # Custom variable"
+      },
+      {
+        "row": 7,
+        "rowsha": "k/aU+ycR5TyWDLGbXP9j/geJx8GC2B1y3Uv/dhRzf38=",
+        "originContent": "uv run readsql tests                                    # Format all files in folder",
+        "translatedContent": "uv run readsql tests                                    # Format all files in folder"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n# Testing\n",
+    "ContentSha": "2y+Isxux0CorIwRJr+7yDLAzpYsF1C12O4kmx+4tbpk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Test\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bOhsoNvyF1rAtScyUtejmRi01HguyW+3e/onO1Mn3T8=",
+        "originContent": "# Testing",
+        "translatedContent": "# Test"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```bash\nuv run pytest -v\n```",
+    "ContentSha": "fyyF5/RMUHm+j7b4jcnhdb2jcxhZpuzt3I6jCMtyivM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nuv run pytest -v\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "nGOZziC8ydmIDpnG5uacYmO61ewOBhDhcCEzehPnHFI=",
+        "originContent": "uv run pytest -v",
+        "translatedContent": "uv run pytest -v"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
