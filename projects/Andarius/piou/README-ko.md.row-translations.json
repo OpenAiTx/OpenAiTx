@@ -1,0 +1,1544 @@
+[
+  {
+    "row": 1,
+    "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+    "originContent": "<picture>",
+    "translatedContent": "<picture>"
+  },
+  {
+    "row": 2,
+    "rowsha": "EF6KO0XxVpxqKWlk3kHn3yIxMt0geDB5MpSreBP8ItA=",
+    "originContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.com/Andarius/piou/raw/master/docs/static/piou-dark.png\">",
+    "translatedContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.com/Andarius/piou/raw/master/docs/static/piou-dark.png\">"
+  },
+  {
+    "row": 3,
+    "rowsha": "pxSNQtqW8O3Qw0Rt9VZqdtDMuvJHwxQw4vJx+fuz16M=",
+    "originContent": "  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.com/Andarius/piou/raw/master/docs/static/piou.jpg\">",
+    "translatedContent": "  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.com/Andarius/piou/raw/master/docs/static/piou.jpg\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "YtAJzRBURWPVIBnGMmegCpt9bQaT9GdinomWy5U7Hko=",
+    "originContent": "  <img alt=\"Piou logo\"",
+    "translatedContent": "  <img alt=\"Piou 로고\""
+  },
+  {
+    "row": 5,
+    "rowsha": "ZXxNchqx5R4NoMl04MkKnbTYNCg31s7bkpQxeIilBnU=",
+    "originContent": "    src=\"https://github.com/Andarius/piou/raw/master/docs/static/piou.jpg\"",
+    "translatedContent": "    src=\"https://github.com/Andarius/piou/raw/master/docs/static/piou.jpg\""
+  },
+  {
+    "row": 6,
+    "rowsha": "Ce28ZT+JlSKoovVt1CbRSZaUzqX1Qw3lkoJa3AxE2sE=",
+    "originContent": "    width=\"250\"/>",
+    "translatedContent": "    width=\"250\"/>"
+  },
+  {
+    "row": 7,
+    "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+    "originContent": "</picture>",
+    "translatedContent": "</picture>"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "oDMi229Aq+89yeuDSdDFMkRwJA9cD0C57ZtkJsivh1o=",
+    "originContent": "# Piou",
+    "translatedContent": "# Piou"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "K3POHZQkIDRW2lz4a1YL1JgKr/naAzIosI6EGMYaVgU=",
+    "originContent": "[![Python versions](https://img.shields.io/pypi/pyversions/piou)](https://pypi.python.org/pypi/piou)",
+    "translatedContent": "[![Python 버전](https://img.shields.io/pypi/pyversions/piou)](https://pypi.python.org/pypi/piou)"
+  },
+  {
+    "row": 12,
+    "rowsha": "3IQql3opv0F7whp8uJ/RE1WV7JBkMWEnOqe7H9fX/JY=",
+    "originContent": "[![Latest PyPI version](https://img.shields.io/pypi/v/piou?logo=pypi)](https://pypi.python.org/pypi/piou)",
+    "translatedContent": "[![최신 PyPI 버전](https://img.shields.io/pypi/v/piou?logo=pypi)](https://pypi.python.org/pypi/piou)"
+  },
+  {
+    "row": 13,
+    "rowsha": "1pHb9RX1w+XziATFhRlvB1lCDPdDOTVC2FnZAicECmQ=",
+    "originContent": "[![CI](https://github.com/Andarius/piou/actions/workflows/ci.yml/badge.svg)](https://github.com/Andarius/piou/actions/workflows/ci.yml)",
+    "translatedContent": "[![CI](https://github.com/Andarius/piou/actions/workflows/ci.yml/badge.svg)](https://github.com/Andarius/piou/actions/workflows/ci.yml)"
+  },
+  {
+    "row": 14,
+    "rowsha": "ep1eKOxkZEgjxfPcpFuarggS3NvVka9ZA2MifEnJEOA=",
+    "originContent": "[![Latest conda-forge version](https://img.shields.io/conda/vn/conda-forge/piou?logo=conda-forge)](https://anaconda.org/conda-forge/piou)",
+    "translatedContent": "[![최신 conda-forge 버전](https://img.shields.io/conda/vn/conda-forge/piou?logo=conda-forge)](https://anaconda.org/conda-forge/piou)"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "9WLDF/fIglx3PHJRcjJMBRO8xFN54S9pnR0fKmTfPks=",
+    "originContent": "A CLI tool to build beautiful command-line interfaces with type validation.",
+    "translatedContent": "타입 검증을 포함한 아름다운 커맨드라인 인터페이스를 구축하는 CLI 도구입니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Y4OzHwZMCBwV5AEsZyHXqoGPG1NTaZ/Mjqrpbj5Fs8Y=",
+    "originContent": "## Quick Example",
+    "translatedContent": "## 빠른 예제"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 21,
+    "rowsha": "vCJKXd662aKAwk1r6WCiCfvHiSgdgBh6y3NErX6+3yM=",
+    "originContent": "from piou import Cli, Option",
+    "translatedContent": "from piou import Cli, Option"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "WeQW405GVt8/UYRb/JE/6kv2SLVCUKcyiw4reEOvWXA=",
+    "originContent": "cli = Cli(description='A CLI tool')",
+    "translatedContent": "cli = Cli(description='A CLI tool')"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "ds6cLS1l2cs00NuxSVLvpUk9tCT+ZzXczArf+4BoPRo=",
+    "originContent": "@cli.command(cmd='foo', help='Run foo command')",
+    "translatedContent": "@cli.command(cmd='foo', help='Run foo command')"
+  },
+  {
+    "row": 27,
+    "rowsha": "Pd73vcxU3+TYv5tBlqCa1riwmi3Dy3daDgA1ifRiq8w=",
+    "originContent": "def foo_main(",
+    "translatedContent": "def foo_main("
+  },
+  {
+    "row": 28,
+    "rowsha": "fK6rjfEIWt866iJS4LvUgDuO1pnEHTdlsAp0a1VMbto=",
+    "originContent": "        bar: int = Option(help='Bar positional argument (required)'),",
+    "translatedContent": "        bar: int = Option(help='Bar positional argument (required)'),"
+  },
+  {
+    "row": 29,
+    "rowsha": "xGg7/l72yFYB86BCEsAtWkGVIvSUxt+m4BHIsORWcy8=",
+    "originContent": "        baz: str = Option('-b', '--baz', help='Baz keyword argument (required)'),",
+    "translatedContent": "        baz: str = Option('-b', '--baz', help='Baz keyword argument (required)'),"
+  },
+  {
+    "row": 30,
+    "rowsha": "cDNLTRbRIeTY++6yrdyXwF+yTmmpV+HQoPGHlFa1RU0=",
+    "originContent": "        foo: str | None = Option(None, '--foo', help='Foo keyword argument'),",
+    "translatedContent": "        foo: str | None = Option(None, '--foo', help='Foo keyword argument'),"
+  },
+  {
+    "row": 31,
+    "rowsha": "9LvY3Ao/1/Ir62x6Ri9vv26SYIFm96SV/Ye7Q76b0DQ=",
+    "originContent": "):",
+    "translatedContent": "):"
+  },
+  {
+    "row": 32,
+    "rowsha": "x/7Lp0Ia/nd1qKanKoLzxPh7VXxvl4bks0KvkTA2HHM=",
+    "originContent": "    \"\"\"",
+    "translatedContent": "    \"\"\""
+  },
+  {
+    "row": 33,
+    "rowsha": "SLJccKAUtpk/SFuXdKcJ2inH53YnEFWqbySmezNF6Bs=",
+    "originContent": "    A longer description on what the function is doing.",
+    "translatedContent": "    A longer description on what the function is doing."
+  },
+  {
+    "row": 34,
+    "rowsha": "x/7Lp0Ia/nd1qKanKoLzxPh7VXxvl4bks0KvkTA2HHM=",
+    "originContent": "    \"\"\"",
+    "translatedContent": "    \"\"\""
+  },
+  {
+    "row": 35,
+    "rowsha": "4iWziNJR0JkCSIJU2lAWBfdjk1NaiDgSHswjcsVorzE=",
+    "originContent": "    pass",
+    "translatedContent": "    pass"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "XzWaoLNZq8r9rXlQKeO8X61OfTMT4w+nR11kcglaJLc=",
+    "originContent": "if __name__ == '__main__':",
+    "translatedContent": "if __name__ == '__main__':"
+  },
+  {
+    "row": 39,
+    "rowsha": "Nkl1woV0Q6Eh5MlJxnLSbxW0GbMr0DxvWZdXVdskjKY=",
+    "originContent": "    cli.run()",
+    "translatedContent": "    cli.run()"
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "RMdRC8bahOMhCwDH1GZLHYq546eohDfD1FH9R43KKXA=",
+    "originContent": "![example](https://github.com/Andarius/piou/raw/master/docs/static/simple-output.svg)",
+    "translatedContent": "![example](https://github.com/Andarius/piou/raw/master/docs/static/simple-output.svg)"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 47,
+    "rowsha": "NG+VMcOOPFYV9CPDVXS3ndOUTHzn8lHDgzTxFtaVeWg=",
+    "originContent": "pip install piou",
+    "translatedContent": "pip install piou"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는 [uv](https://docs.astral.sh/uv/)를 사용하여:"
+  },
+  {
+    "row": 50,
+    "rowsha": "mdHWB3UZPw3WMVurB7+jT9AjaVyundrzluFZNOUosjo=",
+    "originContent": "Or with [uv](https://docs.astral.sh/uv/):",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 53,
+    "rowsha": "JllqtQcRHZdsUeSPzIDRx1ujT8gg4jUUicv6zehAE38=",
+    "originContent": "uv add piou",
+    "translatedContent": "uv add piou"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "Xlgoq45ch4S4qDJxWHKs98C5OndVQEBigT7aHwpckYI=",
+    "originContent": "Or with [conda](https://docs.conda.io/):",
+    "translatedContent": "또는 [conda](https://docs.conda.io/)를 사용하여:"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 59,
+    "rowsha": "kAN8Q+tuQ4hCHycQXui5Y/yNparTjSj/KJssjU+/BTo=",
+    "originContent": "conda install piou -c conda-forge",
+    "translatedContent": "conda install piou -c conda-forge"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "ZPDBPeWAkiOY36UErtVUuMAs4z+d/0dutbrvpQsbxwo=",
+    "originContent": "### Raw Formatter",
+    "translatedContent": "### Raw Formatter"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "o3gtrdIxwgn+45Huvp8QcfG890UyRSZvHEVz+Ok9ruQ=",
+    "originContent": "By default, Piou uses [Rich](https://github.com/Textualize/rich) for beautiful terminal output. If you prefer plain text output, you can use the raw formatter:",
+    "translatedContent": "기본적으로 Piou는 아름다운 터미널 출력을 위해 [Rich](https://github.com/Textualize/rich)를 사용합니다. 일반 텍스트 출력을 선호하는 경우, 원시 포맷터를 사용할 수 있습니다:"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 67,
+    "rowsha": "jXe1jzl2CkYuPSZJ/qq42YPhpsITWaf5liG6SuvuyfA=",
+    "originContent": "# Force raw output via environment variable",
+    "translatedContent": "# Force raw output via environment variable"
+  },
+  {
+    "row": 68,
+    "rowsha": "JddZR4XYSbh0LLrFRWRdIl9PSNMYhnjgUJkqlPLhoj0=",
+    "originContent": "PIOU_FORMATTER=raw python your_cli.py --help",
+    "translatedContent": "PIOU_FORMATTER=raw python your_cli.py --help"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 문서"
+  },
+  {
+    "row": 71,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "전체 문서는 **[andarius.github.io/piou](https://andarius.github.io/piou)**에서 확인할 수 있습니다."
+  },
+  {
+    "row": 73,
+    "rowsha": "lF7aMFPT7SklL9/cdxDxvb5RL/EnzCn/3aZKbLJkqgE=",
+    "originContent": "Full documentation is available at **[andarius.github.io/piou](https://andarius.github.io/piou)**.",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 기능"
+  },
+  {
+    "row": 75,
+    "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+    "originContent": "### Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- FastAPI와 유사한 타입 힌트 기반 개발자 경험"
+  },
+  {
+    "row": 77,
+    "rowsha": "W5x3bTlGoN73zvLZZJHjw6Cx+akg13egt4r5do8wK34=",
+    "originContent": "- FastAPI-like developer experience with type hints",
+    "translatedContent": "- 사용자 정의 포매터 (기본적으로 Rich 기반)"
+  },
+  {
+    "row": 78,
+    "rowsha": "WK2uAqQx7lFHfqg6cVqe2ViUCxSUwiQUudP+9xuMzUs=",
+    "originContent": "- Custom formatters (Rich-based by default)",
+    "translatedContent": "- 중첩된 명령 그룹 / 서브 커맨드 지원"
+  },
+  {
+    "row": 79,
+    "rowsha": "E7qMb4ycf/lXB73TVSbhm2JdXiuH7Sj105WQcb7CXz4=",
+    "originContent": "- Nested command groups / sub-commands",
+    "translatedContent": "- 재사용 가능한 인수 패턴을 위한 파생 옵션"
+  },
+  {
+    "row": 80,
+    "rowsha": "DF+mbHcNTDG7dvzj5Ak6KJ05EE5tZAZNrf3OjXkvH2M=",
+    "originContent": "- Derived options for reusable argument patterns",
+    "translatedContent": "- 비동기 명령 지원"
+  },
+  {
+    "row": 81,
+    "rowsha": "QVLbfodkkUvnVup4KW8/rWuE2vvCkc4X/c9P2aj4+Cc=",
+    "originContent": "- Async command support",
+    "translatedContent": "- 타입 검증 및 캐스팅"
+  },
+  {
+    "row": 82,
+    "rowsha": "O27bjsAX51xFEkTyYeGNQHbFMb5vcNLG82T8Ni8wyPI=",
+    "originContent": "- Type validation and casting",
+    "translatedContent": "- **명령 제안 및 히스토리를 갖춘 인터랙티브 TUI 모드**"
+  },
+  {
+    "row": 83,
+    "rowsha": "PJcJ15KypAUzVyW1ayx7LOXhX1Y652dGkZMi+pn7bdU=",
+    "originContent": "- **Interactive TUI mode** with command suggestions and history",
+    "translatedContent": "- **도구 및 프로그래밍 방식 CLI 탐색을 위한 구조화된 JSON 도움말** (`--help-json`)"
+  },
+  {
+    "row": 84,
+    "rowsha": "NnB8IQWhQL1vUpeXcoEATKWqyJkDOTXP/LYPaubWdJ4=",
+    "originContent": "- **Structured JSON help** (`--help-json`) for tooling and programmatic CLI discovery",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 왜 Piou인가?"
+  },
+  {
+    "row": 86,
+    "rowsha": "Brw6Xyr6KozM0TrR/8xUwTUAZ8hrnSM0c+1EDExe7dk=",
+    "originContent": "## Why Piou?",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음과 같은 기능을 제공하는 라이브러리를 찾지 못했습니다:"
+  },
+  {
+    "row": 88,
+    "rowsha": "Vqb6NJlPfM5VQIo+P4rZtYDZ+ciIe+sQRRlRBHDi6xA=",
+    "originContent": "I could not find a library that provided:",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [FastAPI](https://fastapi.tiangolo.com/)와 동일한 개발자 경험"
+  },
+  {
+    "row": 90,
+    "rowsha": "bVOCG4SosLkxEVomfC7mARRtzeqT7uzjbuXzKE1yezY=",
+    "originContent": "- The same developer experience as [FastAPI](https://fastapi.tiangolo.com/)",
+    "translatedContent": "- 인터페이스 맞춤화 (예: [Poetry](https://python-poetry.org/)와 유사한 CLI 구축)"
+  },
+  {
+    "row": 91,
+    "rowsha": "vGuus9e80L/s2kiYtGySQ/afgb5hmGyE/i134q2q2Pg=",
+    "originContent": "- Customization of the interface (to build a CLI similar to [Poetry](https://python-poetry.org/))",
+    "translatedContent": "- 타입 검증 / 캐스팅"
+  },
+  {
+    "row": 92,
+    "rowsha": "ANNrG/wM44bVfd7zOzAfWvcloj1kAP+kd7O6B1ni420=",
+    "originContent": "- Type validation / casting",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Typer](https://github.com/tiangolo/typer)가 가장 가까운 대안이지만, 외부 라이브러리([Rich](https://github.com/Textualize/rich) 등)를 사용해 출력 포맷을 커스터마이징하는 기능이 부족합니다."
+  },
+  {
+    "row": 94,
+    "rowsha": "5CwB6Vrz++vRRR/T0zBc0kJLWlqh9xDvf1Y0R+uAw2w=",
+    "originContent": "[Typer](https://github.com/tiangolo/typer) is the closest alternative but lacks the possibility to format the output in a custom way using external libraries (like [Rich](https://github.com/Textualize/rich)).",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**Piou**는 이러한 모든 가능성을 제공하며, 사용자가 직접 Formatter를 정의할 수 있습니다."
+  },
+  {
+    "row": 96,
+    "rowsha": "biJ9wWFUcwhWcYjklJLauob/XVA+kjXh0OWfQTwPtHg=",
+    "originContent": "**Piou** provides all these possibilities and lets you define your own Formatter.",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 비동기 명령"
+  },
+  {
+    "row": 98,
+    "rowsha": "l8JSmog/2clEpfSFRF9NG8uRnwngtt1OV/GTm8bGTVE=",
+    "originContent": "## Async Commands",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "명령은 `async` 함수일 수 있으며 — piou는 코루틴을 감지하여 자동으로 실행하므로 수동으로 `asyncio.run()`을 호출할 필요가 없습니다:"
+  },
+  {
+    "row": 100,
+    "rowsha": "9DtkN9LQazbK5Jq0v1S1s1Dr4FlBoV8NVxoEEJPmktQ=",
+    "originContent": "Commands can be `async` functions — piou detects coroutines and runs them automatically, no manual `asyncio.run()` needed:",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 103,
+    "rowsha": "vCJKXd662aKAwk1r6WCiCfvHiSgdgBh6y3NErX6+3yM=",
+    "originContent": "from piou import Cli, Option",
+    "translatedContent": "from piou import Cli, Option"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "Q+bNvyZX6wnnDFFvA0MlZPEJFkwDev2kmnPc0zii4QY=",
+    "originContent": "cli = Cli(description='Async example')",
+    "translatedContent": "cli = Cli(description='Async example')"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "/6CfOwiZcPwcH/H5JEEbMacEtuPpOu9XIvyKzcwO2yQ=",
+    "originContent": "@cli.command(cmd='fetch', help='Fetch data')",
+    "translatedContent": "@cli.command(cmd='fetch', help='Fetch data')"
+  },
+  {
+    "row": 108,
+    "rowsha": "JL7rn8vlw2Xo/m15cb0ex+ac8mA5XgCAzLJVJkgERL0=",
+    "originContent": "async def fetch(url: str = Option(help='URL to fetch')):",
+    "translatedContent": "async def fetch(url: str = Option(help='URL to fetch')):"
+  },
+  {
+    "row": 109,
+    "rowsha": "v6mc1of+IE8VO01F8GXT3GN7pAwojNuOopBKk/JZsv8=",
+    "originContent": "    import niquests",
+    "translatedContent": "    import niquests"
+  },
+  {
+    "row": 110,
+    "rowsha": "Mzfk3ESQ73o6Ta2aDOfS07kOjZn7ercLl41U0iYW3J0=",
+    "originContent": "    async with niquests.AsyncSession() as client:",
+    "translatedContent": "    async with niquests.AsyncSession() as client:"
+  },
+  {
+    "row": 111,
+    "rowsha": "OgJs7SkBQmnCwkou+kCrgmN3E60aWdFCdhq3PA9R26Q=",
+    "originContent": "        r = await client.get(url)",
+    "translatedContent": "        r = await client.get(url)"
+  },
+  {
+    "row": 112,
+    "rowsha": "NA6o2xpckWpM0Xwxt7Uy1PE9pEf++ug/1byWxPMCEf4=",
+    "originContent": "        print(r.status_code)",
+    "translatedContent": "        print(r.status_code)"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "XzWaoLNZq8r9rXlQKeO8X61OfTMT4w+nR11kcglaJLc=",
+    "originContent": "if __name__ == '__main__':",
+    "translatedContent": "if __name__ == '__main__':"
+  },
+  {
+    "row": 115,
+    "rowsha": "Nkl1woV0Q6Eh5MlJxnLSbxW0GbMr0DxvWZdXVdskjKY=",
+    "originContent": "    cli.run()",
+    "translatedContent": "    cli.run()"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "3AzXDQJv5FTH7JfG13ROTwRXwaVfD4ijrZDtjRPPIAE=",
+    "originContent": "This works the same way for commands inside command groups.",
+    "translatedContent": "이것은 명령 그룹 내의 명령어에도 동일하게 작동합니다."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "RMfK2UVCaeAs+HCcZi7c2fYtbGddHZxY+QS5eU12JBI=",
+    "originContent": "## Interactive TUI Mode",
+    "translatedContent": "## 인터랙티브 TUI 모드"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "UESFqgiqvpJA5Za9W1TvJV1SmPuTHhYK6irr9HHbXyk=",
+    "originContent": "Piou includes an optional interactive TUI (Text User Interface) mode powered by [Textual](https://textual.textualize.io/).",
+    "translatedContent": "Piou는 [Textual](https://textual.textualize.io/)로 구동되는 선택적 인터랙티브 TUI(텍스트 사용자 인터페이스) 모드를 포함합니다."
+  },
+  {
+    "row": 123,
+    "rowsha": "f7MPnkOm9EMJW3eUSfNrMvQhAckfR1BgDhgz7C42AcQ=",
+    "originContent": "This provides a rich terminal experience with command suggestions, history, and inline completions.",
+    "translatedContent": "이 모드는 명령어 제안, 히스토리, 인라인 완성을 제공하는 풍부한 터미널 경험을 제공합니다."
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### 설치"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 128,
+    "rowsha": "27X1R2yNG6qZJiagNy+p6HcVwu/7nsmtpMFIJ7+yRK4=",
+    "originContent": "pip install piou[tui]",
+    "translatedContent": "pip install piou[tui]"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "kToPWbLhD64xJpFxv0n3r+v2U2X+ZpjHGrzMcx95d/Q=",
+    "originContent": "# With auto-reload support for development",
+    "translatedContent": "# With auto-reload support for development"
+  },
+  {
+    "row": 131,
+    "rowsha": "34XWBGfngIqRa/03VfjWmfsrXaNFdbVasZEHDRLG9kY=",
+    "originContent": "pip install piou[tui-reload]",
+    "translatedContent": "pip install piou[tui-reload]"
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": "### 사용법"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "luLkHFiY9v+1T1jpLptqRQEmiEpAOxiosVtNlYQLkQE=",
+    "originContent": "Enable TUI mode by setting `tui=True` when creating your CLI:",
+    "translatedContent": "CLI를 생성할 때 `tui=True`로 설정하여 TUI 모드를 활성화하세요:"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 139,
+    "rowsha": "vCJKXd662aKAwk1r6WCiCfvHiSgdgBh6y3NErX6+3yM=",
+    "originContent": "from piou import Cli, Option",
+    "translatedContent": "from piou import Cli, Option"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "DrhQIqUP+oWlKmfX5SP/XOd6KdSjiG6MtOjWdsmPhm0=",
+    "originContent": "cli = Cli(description='My Interactive CLI', tui=True)",
+    "translatedContent": "cli = Cli(description='My Interactive CLI', tui=True)"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "E0931P2rCmA4cTSV3yzstkSJv6k5ZDCewLRDstWjBkg=",
+    "originContent": "@cli.command(cmd='hello', help='Say hello')",
+    "translatedContent": "@cli.command(cmd='hello', help='Say hello')"
+  },
+  {
+    "row": 144,
+    "rowsha": "JXO+y+v8/BUNWJw0CTfmpv0ysHCyDOtI+OmBIKYmLlk=",
+    "originContent": "def hello(name: str = Option(..., help='Name to greet')):",
+    "translatedContent": "def hello(name: str = Option(..., help='Name to greet')):"
+  },
+  {
+    "row": 145,
+    "rowsha": "lMtqctV6gQsC8mh5Jnc/4hTKxPliStM6eTdXTOUF8d4=",
+    "originContent": "    print(f'Hello, {name}!')",
+    "translatedContent": "    print(f'Hello, {name}!')"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "XzWaoLNZq8r9rXlQKeO8X61OfTMT4w+nR11kcglaJLc=",
+    "originContent": "if __name__ == '__main__':",
+    "translatedContent": "if __name__ == '__main__':"
+  },
+  {
+    "row": 148,
+    "rowsha": "Nkl1woV0Q6Eh5MlJxnLSbxW0GbMr0DxvWZdXVdskjKY=",
+    "originContent": "    cli.run()",
+    "translatedContent": "    cli.run()"
+  },
+  {
+    "row": 149,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는 `--tui` 플래그를 통해:"
+  },
+  {
+    "row": 151,
+    "rowsha": "0ojXjkepHCpYOIBt/eIZAphOLfBkN9GMfb/3esBkPvA=",
+    "originContent": "Or via the `--tui` flag:",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 154,
+    "rowsha": "0+eqM2CIPgGXN9oxl8I1gvtgCqCAeVUvkm0PwBTgsTg=",
+    "originContent": "python my_cli.py --tui",
+    "translatedContent": "python my_cli.py --tui"
+  },
+  {
+    "row": 155,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "Kc8WPCgFcPIPOEAWdR/yuRju8tsFOuov0i8XOI5PH7s=",
+    "originContent": "Or via the `PIOU_TUI=1` environment variable:",
+    "translatedContent": "또는 `PIOU_TUI=1` 환경 변수를 통해:"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 160,
+    "rowsha": "AnoiCaTZPTtBnYxFJpJe6HTRxYsiQMIF7JoNgQ8ulQE=",
+    "originContent": "PIOU_TUI=1 python my_cli.py",
+    "translatedContent": "PIOU_TUI=1 python my_cli.py"
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "gKT/fTGU8RRijZK3M2iXo2CwhmavI5C/wydQ2422P/w=",
+    "originContent": "### TUI Features",
+    "translatedContent": "### TUI 기능"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "eVMwsAOCl603tSDccBaWlHGmNEzc1lRVx0w2IjGMHZ0=",
+    "originContent": "- **Command suggestions**: Type `/` to see available commands with descriptions",
+    "translatedContent": "- **명령어 제안**: `/`를 입력하여 사용 가능한 명령어와 설명 보기"
+  },
+  {
+    "row": 166,
+    "rowsha": "nFJ73UK6Ak4np0IcTfjprP2wuP3+XjLsUQfy7u1LlCs=",
+    "originContent": "- **Subcommand navigation**: Use `:` to navigate subcommands (e.g., `/stats:uploads`)",
+    "translatedContent": "- **하위 명령어 탐색**: `:`를 사용하여 하위 명령어 탐색 (예: `/stats:uploads`)"
+  },
+  {
+    "row": 167,
+    "rowsha": "JubuJeWhju71bhNYwiUU0/5NipdnBxu7O+9ZDFAZmpE=",
+    "originContent": "- **Inline completions**: See argument placeholders as you type",
+    "translatedContent": "- **인라인 완성**: 입력 중 인수 자리 표시자 보기"
+  },
+  {
+    "row": 168,
+    "rowsha": "hN0/wgm089jMPSyZegC5xAKB3VJvtgPsISOgXadv2ME=",
+    "originContent": "- **Command history**: Navigate previous commands with up/down arrows (persisted across sessions)",
+    "translatedContent": "- **명령어 기록**: 위/아래 화살표로 이전 명령어 탐색 (세션 간 유지)"
+  },
+  {
+    "row": 169,
+    "rowsha": "CnCe6Ved8V35va5VD5H2kVwaV5DFqMHuzMV+83Boxj8=",
+    "originContent": "- **Rich output**: ANSI colors and formatting preserved in output",
+    "translatedContent": "- **풍부한 출력**: 출력에 ANSI 색상 및 서식 유지"
+  },
+  {
+    "row": 170,
+    "rowsha": "OTY/jWnNWZkLJAduCt+fQwANbDSzIKTjQGkA/zpcxqw=",
+    "originContent": "- **Keyboard shortcuts**:",
+    "translatedContent": "- **키보드 단축키**:"
+  },
+  {
+    "row": 171,
+    "rowsha": "ULIvlUl2zrH1Kxe+XxDJvyj4MB4n2wg2JUI0UeYvXz4=",
+    "originContent": "  - `Tab` - Confirm selected suggestion",
+    "translatedContent": "  - `Tab` - 선택한 제안 확정"
+  },
+  {
+    "row": 172,
+    "rowsha": "kVlj1MPaat5Gy7NU6GhRfDhQrrVy6krcAXeRz8LdjzM=",
+    "originContent": "  - `Up/Down` - Navigate suggestions or history",
+    "translatedContent": "  - `Up/Down` - 제안 또는 기록 탐색"
+  },
+  {
+    "row": 173,
+    "rowsha": "+RhJv9a+1tdudmJkHrIkm1KbYZL+4H9KI0CoWjNBUPI=",
+    "originContent": "  - `Ctrl+C` - Clear input (press twice to exit)",
+    "translatedContent": "  - `Ctrl+C` - 입력 지우기 (두 번 눌러 종료)"
+  },
+  {
+    "row": 174,
+    "rowsha": "y0jZ4kVodpKiiPsTneUfrLQePuMFMS1HWxEAYPGMSQw=",
+    "originContent": "  - `Escape` - Quit",
+    "translatedContent": "  - `Escape` - 종료"
+  },
+  {
+    "row": 175,
+    "rowsha": "8OFwj6vqgcHdU22sZe4UFoi5vcdADkjb+zh3kMMGfpc=",
+    "originContent": "- **Dev mode**: Auto-reload commands when source files change (see below)",
+    "translatedContent": "- **개발자 모드**: 소스 파일 변경 시 명령어 자동 재로드 (아래 참조)"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "SsblZSrRE0BZzUQsm0C5N/1OBFZbePiOFXAyUSAsLyE=",
+    "originContent": "<img alt=\"TUI Demo\" src=\"https://github.com/Andarius/piou/raw/master/docs/static/tui-demo.gif\" width=\"600\"/>",
+    "translatedContent": "<img alt=\"TUI Demo\" src=\"https://github.com/Andarius/piou/raw/master/docs/static/tui-demo.gif\" width=\"600\"/>"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "sMABiNzH4PXKiMMfcV5KON+9FaaJ+bR7T+nxbvbc2b4=",
+    "originContent": "### Dev Mode with Auto-Reload",
+    "translatedContent": "### 자동 재로드를 통한 개발자 모드"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "PQoNoDP+veKrHjH88BR06UBEcax8KV1D4Q7LNInMbUE=",
+    "originContent": "For faster development iteration, enable dev mode to automatically reload your commands when source files change:",
+    "translatedContent": "빠른 개발 반복을 위해 개발자 모드를 활성화하면 소스 파일 변경 시 명령어가 자동으로 재로드됩니다:"
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 184,
+    "rowsha": "34XWBGfngIqRa/03VfjWmfsrXaNFdbVasZEHDRLG9kY=",
+    "originContent": "pip install piou[tui-reload]",
+    "translatedContent": "pip install piou[tui-reload]"
+  },
+  {
+    "row": 185,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "cq/PcDPB0zMoUvB+NciPMGE/AvoRvVIgjcpczRhy4KI=",
+    "originContent": "Then use the `--tui-reload` flag:",
+    "translatedContent": "그런 다음 `--tui-reload` 플래그를 사용하십시오:"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 190,
+    "rowsha": "P36JHnIghR/DvCxCyPM5HupjKQCxIuxg0GxZmAkFzkI=",
+    "originContent": "python my_cli.py --tui-reload",
+    "translatedContent": "python my_cli.py --tui-reload"
+  },
+  {
+    "row": 191,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "wFUvX1f8CuMmdw3RFdCBYxOYGQwdX0g0OSo5ui153Do=",
+    "originContent": "Or via environment variable:",
+    "translatedContent": "또는 환경 변수로:"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 196,
+    "rowsha": "TUVjv9aa9SDAgAkm0UERInfNCQ+Uxp876SIolZIls8s=",
+    "originContent": "PIOU_TUI_DEV=1 python my_cli.py --tui",
+    "translatedContent": "PIOU_TUI_DEV=1 python my_cli.py --tui"
+  },
+  {
+    "row": 197,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "rx4pnRhp3j6Ba1H0O9mP1nLotBku89mW3OElZqRfc60=",
+    "originContent": "When enabled, Piou watches your command source files and hot-reloads them on save. You can also toggle reload mode at runtime with the `/tui-reload` command.",
+    "translatedContent": "활성화되면 Piou는 명령어 소스 파일을 감시하고 저장 시 핫 리로드합니다. `/tui-reload` 명령어로 실행 중에 리로드 모드를 전환할 수도 있습니다."
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "AiWM6LtScO5W1RCNL2MTuJ6mLSJjZNqC0W2+kKubWTo=",
+    "originContent": "To run custom code after each reload (e.g., refresh cached data), use the `@cli.tui_on_reload` decorator:",
+    "translatedContent": "각 리로드 후에 사용자 정의 코드를 실행하려면(예: 캐시된 데이터 새로 고침) `@cli.tui_on_reload` 데코레이터를 사용하세요:"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 204,
+    "rowsha": "lruuV0Z184amtrNFp9HrS+sgp3kvj2fW+lPBji59BqM=",
+    "originContent": "@cli.tui_on_reload",
+    "translatedContent": "@cli.tui_on_reload"
+  },
+  {
+    "row": 205,
+    "rowsha": "nT+DHlIluioQNR6eITobxy54mIRbBd591oZ9WsUyYCo=",
+    "originContent": "def on_reload():",
+    "translatedContent": "def on_reload():"
+  },
+  {
+    "row": 206,
+    "rowsha": "FXFJsxpM0BuOVFbeTkE+Fm36e9yFzl1TaKlJ8H/SfdE=",
+    "originContent": "    print('Code reloaded!')",
+    "translatedContent": "    print('Code reloaded!')"
+  },
+  {
+    "row": 207,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "dc11nlXyVvhu04XkjuWueroi5F2AO3YRYqc9x/qWsLs=",
+    "originContent": "### Advanced Example: HTTP Benchmark",
+    "translatedContent": "### 고급 예제: HTTP 벤치마크"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "3WLRI3xzDSPd4yDtShlLoFvzicJTsRzRFFV/MtsQTCk=",
+    "originContent": "The TUI mode supports mounting custom Textual widgets for rich interactive displays. This example benchmarks HTTP libraries with live progress grids:",
+    "translatedContent": "TUI 모드는 풍부한 인터랙티브 디스플레이를 위해 사용자 정의 Textual 위젯 마운트를 지원합니다. 이 예제는 라이브 진행 그리드를 사용하여 HTTP 라이브러리를 벤치마킹합니다:"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "5/MhGPAlFhCO+BsnNgtOBAh3+Bl1sohu2w8tbjNls58=",
+    "originContent": "<img alt=\"HTTP Benchmark TUI\" src=\"https://github.com/Andarius/piou/raw/master/docs/static/bench_1000.gif\" width=\"700\"/>",
+    "translatedContent": "<img alt=\"HTTP Benchmark TUI\" src=\"https://github.com/Andarius/piou/raw/master/docs/static/bench_1000.gif\" width=\"700\"/>"
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "yYGuUKaP94u4W60KZABCgkwLqOcc6tvCixBgCL22FmM=",
+    "originContent": "See [examples/http_bench_tui.py](https://raw.githubusercontent.com/Andarius/piou/master/examples/http_bench_tui.py) for the full implementation using `TuiContext` and custom widgets.",
+    "translatedContent": "전체 구현은 `TuiContext`와 사용자 정의 위젯을 사용한 [examples/http_bench_tui.py](https://raw.githubusercontent.com/Andarius/piou/master/examples/http_bench_tui.py)를 참조하세요."
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": "## 개발"
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "LW/GwEqzRqbL67kMofg8B8k+mJ+kLyL9AUyFlrxFre4=",
+    "originContent": "### Running Tests",
+    "translatedContent": "### 테스트 실행하기"
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 222,
+    "rowsha": "77tg0IfGeNJxikKN3qlsVFjnn48zTDFB6z3azVWukdg=",
+    "originContent": "uv run pytest",
+    "translatedContent": "uv run pytest"
+  },
+  {
+    "row": 223,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "u41wS5IL1pOnpxg156DBiluVTRFSXQM6dORbmzrUEFg=",
+    "originContent": "### Generating Documentation",
+    "translatedContent": "### 문서 생성하기"
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 228,
+    "rowsha": "H7ZX3bxuNQi2/axxZJYNLZkQhJt0IlDAPUJ4rAFp+zk=",
+    "originContent": "# Build docs",
+    "translatedContent": "# Build docs"
+  },
+  {
+    "row": 229,
+    "rowsha": "IEpeeKtPelGbWgNsQcv5rdgFjVkhznJJM+/Jfui+G+g=",
+    "originContent": "uv run --group docs mkdocs build",
+    "translatedContent": "uv run --group docs mkdocs build"
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 231,
+    "rowsha": "BRyl0k4egcQ0iwn88UV6xj0XvOI7rqMkQ7utVRp3MtQ=",
+    "originContent": "# Serve locally",
+    "translatedContent": "# Serve locally"
+  },
+  {
+    "row": 232,
+    "rowsha": "Fuyoti1N86oDhLhDbmsCOuIBR/Sa1a0rNax8bBtbzcY=",
+    "originContent": "uv run --group docs mkdocs serve",
+    "translatedContent": "uv run --group docs mkdocs serve"
+  },
+  {
+    "row": 233,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 234,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "Ro42BsJVz3Ykd3onwbyzYZYNh5TxdRKyodobVRnM8dg=",
+    "originContent": "### Generating Screenshots and GIFs",
+    "translatedContent": "### 스크린샷 및 GIF 생성"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 237,
+    "rowsha": "r5xNZYUHqUn59eJQE9byjvwP+XE7YotO1RKOmSWXZHU=",
+    "originContent": "Terminal recordings are created with [VHS](https://github.com/charmbracelet/vhs). Install it first:",
+    "translatedContent": "터미널 녹화는 [VHS](https://github.com/charmbracelet/vhs)로 생성됩니다. 먼저 설치하세요:"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 240,
+    "rowsha": "I5q9zyXnZXp6Cq38IPyh3j4BB0wQNH27VGuiX9Yedpw=",
+    "originContent": "# Ubuntu/Debian",
+    "translatedContent": "# Ubuntu/Debian"
+  },
+  {
+    "row": 241,
+    "rowsha": "RqPrJ8OcQDca2qLyeazn4YnGTx+DU1qxToMs+MHDAwU=",
+    "originContent": "sudo apt install vhs ttyd",
+    "translatedContent": "sudo apt install vhs ttyd"
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 243,
+    "rowsha": "D5wrC6UXe7biI3JRX8ojLq5QkT551gR3gO5iGuE/pcY=",
+    "originContent": "# macOS",
+    "translatedContent": "# macOS"
+  },
+  {
+    "row": 244,
+    "rowsha": "p7WhSwWkD4kv/kWUAw3e8SDk2cJzRS8lxpZ/Z3qy/so=",
+    "originContent": "brew install vhs",
+    "translatedContent": "brew install vhs"
+  },
+  {
+    "row": 245,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 246,
+    "rowsha": "QrqCIcLPtPBsrkRhuFhqZ3bL/b3kHjTtxL89xWwwh6k=",
+    "originContent": "# Or via Go",
+    "translatedContent": "# Or via Go"
+  },
+  {
+    "row": 247,
+    "rowsha": "YInpnOOz+juWbnxl+JZ90CHHg2Bqgwgq0FKPyGL8Ozg=",
+    "originContent": "go install github.com/charmbracelet/vhs@latest",
+    "translatedContent": "go install github.com/charmbracelet/vhs@latest"
+  },
+  {
+    "row": 248,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "+gkdu/QnUeouR/ciGbibeO7RdubWX/ZreL2G6mIE9Pk=",
+    "originContent": "Then generate recordings from tape files:",
+    "translatedContent": "그런 다음 테이프 파일에서 녹음을 생성합니다:"
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 253,
+    "rowsha": "b+r8IhqJAWK3BRAz3d8yT78LdT00V19/TR58kNaoU3w=",
+    "originContent": "vhs docs/static/tui-demo.tape",
+    "translatedContent": "vhs docs/static/tui-demo.tape"
+  },
+  {
+    "row": 254,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 255,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "테이프 파일은 `docs/static/`에 위치하며 GIF를 생성하는 스크립트 터미널 세션을 정의합니다."
+  },
+  {
+    "row": 256,
+    "rowsha": "g/kg7JLKIHWz8q0H+gKfZ9joGxH0MO6vC2N3iLd9BBQ=",
+    "originContent": "Tape files are located in `docs/static/` and define scripted terminal sessions that produce GIFs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
