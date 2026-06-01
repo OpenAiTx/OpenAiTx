@@ -58,26 +58,26 @@
 <br/>
 
 <p align="center">
-  Một trình duyệt file đơn giản được tạo ra vì tôi muốn học ngôn ngữ Rust.
+  Một trình quản lý tệp đơn giản được tạo ra vì tôi muốn học ngôn ngữ Rust.
   <br>
-  Nó độc lập với hệ điều hành và được tối ưu hóa cho hiệu suất.
+  Nó không phụ thuộc vào hệ điều hành và đã được tối ưu hóa.
 </p>
 
 <br/><br/>
 
-Hiệu suất đạt được nhờ ["jwalk"](https://crates.io/crates/jwalk/versions) và ["Tauri"](https://tauri.app/).
+Hiệu suất được đạt được nhờ ["jwalk"](https://crates.io/crates/jwalk/versions) và ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver không sử dụng bộ nhớ đệm đường dẫn khi truy cập file và thư mục, vì vậy hiệu suất đạt được nhờ Rust, tốc độ của ổ đĩa và sức mạnh của CPU.
+CoDriver không sử dụng bộ nhớ đệm đường dẫn để truy cập tệp và thư mục, do đó hiệu suất đến từ Rust, tốc độ ổ đĩa và sức mạnh của CPU.
 
-⁉️ Lưu ý rằng phần mềm này vẫn đang trong quá trình phát triển và sẽ còn lỗi!
+⁉️ Lưu ý rằng phần mềm này vẫn đang trong quá trình phát triển và sẽ có lỗi!
 <br/><br/>
 
 # Liên kết
 - <a href="#basic-features">Tính năng cơ bản</a>
 - <a href="#advanced-features">Tính năng nâng cao</a>
 - <a href="#dependencies-if-not-working-instantly">Phụ thuộc</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">Tích hợp FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">Vấn đề đã biết</a>
+- <a href="#-ftp-sftp-integration">Tích hợp FTP / SFTP</a>
+- <a href="#-known-issues">Các vấn đề đã biết</a>
 - <a href="#-todos">Các việc cần làm</a>
 - <a href="#user-interface">Giao diện người dùng</a>
 
@@ -231,6 +231,6 @@ Các bản phát hành trên macOS phải được ký và chứng thực để 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

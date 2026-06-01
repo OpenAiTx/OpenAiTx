@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Compre-me um café em ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Compre-me um café no ko-fi.com' />
   </a>
 </p>
 
@@ -60,24 +60,24 @@
 <p align="center">
   Um explorador de arquivos simples que nasceu porque eu queria aprender a linguagem Rust.
   <br>
-  Ele é independente de sistema operacional e otimizado para performance.
+  Ele é independente do sistema operacional e foi ajustado para otimização.
 </p>
 
 <br/><br/>
 
-O desempenho é alcançado por meio de ["jwalk"](https://crates.io/crates/jwalk/versions) e ["Tauri"](https://tauri.app/).
+O desempenho é alcançado por ["jwalk"](https://crates.io/crates/jwalk/versions) e ["Tauri"](https://tauri.app/).
 <br/><br/>
-O CoDriver não utiliza cache de caminhos para acessar arquivos e pastas, então o desempenho é obtido pelo Rust, pela velocidade do disco e pelo poder da cpu.
+O CoDriver não utiliza cache de caminhos para acessar arquivos e pastas, então o desempenho é obtido pelo Rust, pela velocidade do disco e pela potência do cpu.
 
-⁉️ Lembre-se de que este software ainda está em desenvolvimento e pode conter bugs!
+⁉️ Tenha em mente que este software ainda está em desenvolvimento e pode conter bugs!
 <br/><br/>
 
 # Links
-- <a href="#basic-features">Recursos básicos</a>
-- <a href="#advanced-features">Recursos avançados</a>
+- <a href="#basic-features">Funcionalidades básicas</a>
+- <a href="#advanced-features">Funcionalidades avançadas</a>
 - <a href="#dependencies-if-not-working-instantly">Dependências</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">Integração FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">Problemas conhecidos</a>
+- <a href="#-ftp-sftp-integration">Integração FTP / SFTP</a>
+- <a href="#-known-issues">Problemas conhecidos</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">Interface do usuário</a>
 
@@ -231,6 +231,6 @@ Os artefatos de lançamento do macOS devem ser assinados e notarizados para evit
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

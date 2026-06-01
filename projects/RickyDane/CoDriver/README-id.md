@@ -60,24 +60,24 @@
 <p align="center">
   Sebuah penjelajah file sederhana yang lahir karena saya ingin belajar bahasa Rust.
   <br>
-  Aplikasi ini independen dari sistem operasi dan dioptimalkan untuk efisiensi.
+  Aplikasi ini independen terhadap sistem operasi dan dioptimalkan untuk efisiensi.
 </p>
 
 <br/><br/>
 
-Kinerja dicapai dengan ["jwalk"](https://crates.io/crates/jwalk/versions) dan ["Tauri"](https://tauri.app/).
+Performa diperoleh melalui ["jwalk"](https://crates.io/crates/jwalk/versions) dan ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver tidak menggunakan cache jalur untuk mengakses file dan folder, sehingga kinerja didapatkan dari Rust, kecepatan disk, dan kekuatan cpu.
+CoDriver tidak menggunakan caching path untuk mengakses file dan folder, sehingga performa diperoleh dari Rust, kecepatan disk, dan kekuatan cpu.
 
-⁉️ Perlu diingat bahwa perangkat lunak ini masih dalam tahap pengembangan dan akan mengandung bug!
+⁉️ Perlu diingat bahwa perangkat lunak ini masih dalam tahap pengembangan dan kemungkinan masih terdapat bug!
 <br/><br/>
 
-# Tautan
+# Link
 - <a href="#basic-features">Fitur dasar</a>
 - <a href="#advanced-features">Fitur lanjutan</a>
 - <a href="#dependencies-if-not-working-instantly">Dependensi</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">Integrasi FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">Masalah yang diketahui</a>
+- <a href="#-ftp-sftp-integration">Integrasi FTP / SFTP</a>
+- <a href="#-known-issues">Masalah yang diketahui</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">Antarmuka pengguna</a>
 
@@ -231,6 +231,6 @@ Artefak rilis macOS harus ditandatangani dan dinotarisasi agar Gatekeeper tidak 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

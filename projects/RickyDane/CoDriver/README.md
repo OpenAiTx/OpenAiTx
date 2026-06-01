@@ -76,8 +76,8 @@ CoDriver does not use path caching to access files and folders, so the performan
 - <a href="#basic-features">Basic features</a>
 - <a href="#advanced-features">Advanced features</a>
 - <a href="#dependencies-if-not-working-instantly">Dependencies</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP integration</a>
-- <a href="#%EF%B8%8F-known-issues">Known issues</a>
+- <a href="#-ftp-sftp-integration">FTP / SFTP integration</a>
+- <a href="#-known-issues">Known issues</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">User interface</a>
 

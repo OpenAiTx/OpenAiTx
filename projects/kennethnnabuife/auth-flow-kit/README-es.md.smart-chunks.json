@@ -1,0 +1,2498 @@
+[
+  {
+    "Id": 1,
+    "Content": "# @kendevelops/auth-flow-kit\n\nA beginner‑friendly authentication toolkit for **React** and **Next.js 13–16 (App Router)**.\n\nThis is literally the **simplest and shortest setup** for your Next.js apps.\nYou do **not** need extra wrapper files.\n\n---\n\nIt gives you:\n\n- Global auth state (Redux / Zustand‑style, but zero setup)\n- Prebuilt auth UI screens (Login, Signup, Reset)\n- A simple `useAuth()` hook you can use anywhere\n\nThis library is intentionally designed to be **easy to understand**, even if you are new to authentication.\n\n---\n\n## 🔄 No Persistence Setup Needed\n\nauth-flow-kit keeps authentication state in memory by default, and automatically restores the session when the app reloads.\n\n**What this means in practice:**\n\nFrom a developer's point of view:\n\n> \"I refresh the page and I'm still logged in.\"\n\nThat's it.\n\n---\n\n## 📦 Installation\n",
+    "ContentSha": "zGQx5GggNjrnT3hLaL7Ft4IoeMWChCyALvYW+RZ4YeU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# @kendevelops/auth-flow-kit\n\nUn kit de herramientas de autenticación amigable para principiantes para **React** y **Next.js 13–16 (App Router)**.\n\nEsta es literalmente la **configuración más simple y corta** para tus aplicaciones Next.js.  \nNo necesitas archivos adicionales de envoltura.\n\n---\n\nTe ofrece:\n\n- Estado global de autenticación (estilo Redux / Zustand, pero sin configuración)  \n- Pantallas de UI de autenticación preconstruidas (Inicio de sesión, Registro, Restablecer)  \n- Un hook simple `useAuth()` que puedes usar en cualquier lugar\n\nEsta biblioteca está diseñada intencionalmente para ser **fácil de entender**, incluso si eres nuevo en autenticación.\n\n---\n\n## 🔄 No se requiere configuración de persistencia\n\nauth-flow-kit mantiene el estado de autenticación en memoria por defecto, y restaura automáticamente la sesión cuando la aplicación se recarga.\n\n**Lo que esto significa en la práctica:**\n\nDesde el punto de vista del desarrollador:\n\n> \"Refresco la página y sigo conectado.\"\n\nEso es todo.\n\n---\n\n## 📦 Instalación\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+EjXMUD4AYerF+zlnBq6MuYhn7PM7zD2Qq6MAkxPK7E=",
+        "originContent": "# @kendevelops/auth-flow-kit",
+        "translatedContent": "# @kendevelops/auth-flow-kit"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qq736qKsZ1pzMxAqQyIqpDIE0bBCXOA54+Y4uHaO3gE=",
+        "originContent": "A beginner‑friendly authentication toolkit for **React** and **Next.js 13–16 (App Router)**.",
+        "translatedContent": "Un kit de herramientas de autenticación amigable para principiantes para **React** y **Next.js 13–16 (App Router)**."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "sIbmhstRCS+SoDl6Ypx/Awr26BlmphIHuRKgnsT1Xlo=",
+        "originContent": "This is literally the **simplest and shortest setup** for your Next.js apps.",
+        "translatedContent": "Esta es literalmente la **configuración más simple y corta** para tus aplicaciones Next.js.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "wgllg+u7Jy1mgp8Z6LsEza3aBABoCvjzz4dtQJiw/iI=",
+        "originContent": "You do **not** need extra wrapper files.",
+        "translatedContent": "No necesitas archivos adicionales de envoltura."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "XbFnDPMuDXEJxJZpDMJoPO/BAzThKZLRQwrvRvOmYJM=",
+        "originContent": "It gives you:",
+        "translatedContent": "Te ofrece:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "O3dGe11lBlRsAsw7wAPjvYeOzDZ4qa70CpDu92ua8OU=",
+        "originContent": "- Global auth state (Redux / Zustand‑style, but zero setup)",
+        "translatedContent": "- Estado global de autenticación (estilo Redux / Zustand, pero sin configuración)  "
+      },
+      {
+        "row": 13,
+        "rowsha": "3YOHHp0JxWIEYuWk7T7gbBiBtT1h/iuAeYA0pZscT8w=",
+        "originContent": "- Prebuilt auth UI screens (Login, Signup, Reset)",
+        "translatedContent": "- Pantallas de UI de autenticación preconstruidas (Inicio de sesión, Registro, Restablecer)  "
+      },
+      {
+        "row": 14,
+        "rowsha": "f3UY/EMCDLDEplcQ3cgdXPWnQfX3hpuZPrR/g8ly8F4=",
+        "originContent": "- A simple `useAuth()` hook you can use anywhere",
+        "translatedContent": "- Un hook simple `useAuth()` que puedes usar en cualquier lugar"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "SwoxjSZ7rntMS0G2as7FPEFTK8uZ0Zs1C6Lvcai92W0=",
+        "originContent": "This library is intentionally designed to be **easy to understand**, even if you are new to authentication.",
+        "translatedContent": "Esta biblioteca está diseñada intencionalmente para ser **fácil de entender**, incluso si eres nuevo en autenticación."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "+/TSz52n1leLb3ilxWpkuEDUL9K94ysH5pyZm9DXP+U=",
+        "originContent": "## 🔄 No Persistence Setup Needed",
+        "translatedContent": "## 🔄 No se requiere configuración de persistencia"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gvHyWDVFnYSAXMDY47nvWWQkcCCrIdn1ASJZpGt5a74=",
+        "originContent": "auth-flow-kit keeps authentication state in memory by default, and automatically restores the session when the app reloads.",
+        "translatedContent": "auth-flow-kit mantiene el estado de autenticación en memoria por defecto, y restaura automáticamente la sesión cuando la aplicación se recarga."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "8YxRfTrqs9goFy/QL6yaFOn6t99KN6Cxbzz7UtZwpoI=",
+        "originContent": "**What this means in practice:**",
+        "translatedContent": "**Lo que esto significa en la práctica:**"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "CtElWD8OTnRe+hFAK9o/9TseN3s0V8jtJPSjMER9rZg=",
+        "originContent": "From a developer's point of view:",
+        "translatedContent": "Desde el punto de vista del desarrollador:"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "6mTO78m4YCo7mc1sWmxXkMoSCHO3UMFlDMEmrTlVWlc=",
+        "originContent": "> \"I refresh the page and I'm still logged in.\"",
+        "translatedContent": "> \"Refresco la página y sigo conectado.\""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "FvzOd7fRYKVRc9UpyA0zRKC6OZFhynA1pBVH24es6rM=",
+        "originContent": "That's it.",
+        "translatedContent": "Eso es todo."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+        "originContent": "## 📦 Installation",
+        "translatedContent": "## 📦 Instalación"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpm install @kendevelops/auth-flow-kit\n```",
+    "ContentSha": "buIs5eBZzuWDND+U3+NlYgPU9BbjUGIPM7/2a6i3IC8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install @kendevelops/auth-flow-kit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "nDzCf2qU+1fPCOPC4ZZ08ocYg9mE6eeOxsBNFdSC3ks=",
+        "originContent": "npm install @kendevelops/auth-flow-kit",
+        "translatedContent": "npm install @kendevelops/auth-flow-kit"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nyarn add @kendevelops/auth-flow-kit\n```",
+    "ContentSha": "gf2oBDvVpz1qy7iCi/4pTuO6ld2iq1oxYNeXmxaQycI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nyarn add @kendevelops/auth-flow-kit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RKFFPtkTPtHQrZJsECZdjbtlDRfzbF7VjGet7NXcwCs=",
+        "originContent": "yarn add @kendevelops/auth-flow-kit",
+        "translatedContent": "yarn add @kendevelops/auth-flow-kit"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nbun add @kendevelops/auth-flow-kit\n```",
+    "ContentSha": "z655cgNR7RFjG0a8rpW27dUDAsmnwlaC830UQFch9e8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbun add @kendevelops/auth-flow-kit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "LyUESxb3+vihgshQGWvtU27xSTvNSP2gLCZJxFVclAA=",
+        "originContent": "bun add @kendevelops/auth-flow-kit",
+        "translatedContent": "bun add @kendevelops/auth-flow-kit"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n---\n\n# 🚀 Usage with Next.js App Router (Recommended)\n\n---\n\n## Step 1: Wrap your app in `app/layout.tsx`\n\n> Yes, `layout.tsx` can be a client component when it hosts providers. This is normal.\n",
+    "ContentSha": "6Bk3ZEKm1k4gwJlfSa7xiKY/RVJI8ZLH4XHLfsF9GlY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n# 🚀 Usage with Next.js App Router (Recommended)\n\n---\n\n## Step 1: Wrap your app in `app/layout.tsx`\n\n> Yes, `layout.tsx` can be a client component when it hosts providers. This is normal.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ObWo4R8BfkvlRSClgVGELaYP7sBD+qNUdtJrNxip/c4=",
+        "originContent": "# 🚀 Usage with Next.js App Router (Recommended)",
+        "translatedContent": "# 🚀 Usage with Next.js App Router (Recommended)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ITUu4oea/VG/BqIG/4I1kWsgNObsiOGkBtRhzHDhqEU=",
+        "originContent": "## Step 1: Wrap your app in `app/layout.tsx`",
+        "translatedContent": "## Step 1: Wrap your app in `app/layout.tsx`"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "uPFk7aZX7fzPidmixh2V0O+RBadP4rEEzbOQnq127X4=",
+        "originContent": "> Yes, `layout.tsx` can be a client component when it hosts providers. This is normal.",
+        "translatedContent": "> Yes, `layout.tsx` can be a client component when it hosts providers. This is normal."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```tsx\n// app/layout.tsx\n\"use client\";\n\nimport { AuthProvider } from \"@kendevelops/auth-flow-kit\";\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <AuthProvider\n          config={{\n            baseURL: \"https://your-backend-url.com\",\n            endpoints: {\n              login: \"/auth/login\",\n              signup: \"/auth/signup\",\n              forgot: \"/auth/forgot\",\n            },\n          }}\n        >\n          {children}\n        </AuthProvider>\n      </body>\n    </html>\n  );\n}\n```",
+    "ContentSha": "7M8HR9Jelto6HGEqrA6kJj+uWCiUjQH8lxc+LkBsuzc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n// app/layout.tsx\n\"use client\";\n\nimport { AuthProvider } from \"@kendevelops/auth-flow-kit\";\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <AuthProvider\n          config={{\n            baseURL: \"https://your-backend-url.com\",\n            endpoints: {\n              login: \"/auth/login\",\n              signup: \"/auth/signup\",\n              forgot: \"/auth/forgot\",\n            },\n          }}\n        >\n          {children}\n        </AuthProvider>\n      </body>\n    </html>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "aI1cYBcxGTCDeyseKdGvkl7kMsmhuBjuLzItD0vGAyY=",
+        "originContent": "// app/layout.tsx",
+        "translatedContent": "// app/layout.tsx"
+      },
+      {
+        "row": 3,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U7PIxDCapakRu50Hvo4MJNKatu8E9bgZyuaKtw0HyBc=",
+        "originContent": "import { AuthProvider } from \"@kendevelops/auth-flow-kit\";",
+        "translatedContent": "import { AuthProvider } from \"@kendevelops/auth-flow-kit\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZHKu2Vm2Ciz9Z+aiGm8WDRah9zNRWA0YW7fkl53GTKc=",
+        "originContent": "export default function RootLayout({",
+        "translatedContent": "export default function RootLayout({"
+      },
+      {
+        "row": 8,
+        "rowsha": "SlwWfu+N4EFVIVuACcH1PrKkPHNfFolOSNoZ4S/HP6o=",
+        "originContent": "  children,",
+        "translatedContent": "  children,"
+      },
+      {
+        "row": 9,
+        "rowsha": "nq/7K/HAA3PgX42VrEuk//4bHvOXp2X2dkCSNyo7x8w=",
+        "originContent": "}: {",
+        "translatedContent": "}: {"
+      },
+      {
+        "row": 10,
+        "rowsha": "sMNwS/IQbIEn7ingA85QnbEV5wCgjJDAWcx8tXq5pO8=",
+        "originContent": "  children: React.ReactNode;",
+        "translatedContent": "  children: React.ReactNode;"
+      },
+      {
+        "row": 11,
+        "rowsha": "DXBD8LzUp8NmX5359XtHh6rsOtym8Rn8D7xDlZ/exuo=",
+        "originContent": "}) {",
+        "translatedContent": "}) {"
+      },
+      {
+        "row": 12,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 13,
+        "rowsha": "0k1fTGIRRVK/pUpStWqNLPTAPXg8ZW0PAtwHMOC48/o=",
+        "originContent": "    <html lang=\"en\">",
+        "translatedContent": "    <html lang=\"en\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "5sMoCBryE/nxW8VBBMMfJ0HLBwfUemneyvLr6sOzo5w=",
+        "originContent": "      <body>",
+        "translatedContent": "      <body>"
+      },
+      {
+        "row": 15,
+        "rowsha": "Q8EqoxMLYTlg/o/mEtYi+EwYBYZI8hibDzEXhXI6hu0=",
+        "originContent": "        <AuthProvider",
+        "translatedContent": "        <AuthProvider"
+      },
+      {
+        "row": 16,
+        "rowsha": "Tpm4RlkddpDK8hAJMDyLdx79iyhDnKXj1vUzVpTTtMA=",
+        "originContent": "          config={{",
+        "translatedContent": "          config={{"
+      },
+      {
+        "row": 17,
+        "rowsha": "h5R3CSzQeG0Nv0E08fgVl56JhbiwfSvXLKXukTSxp5U=",
+        "originContent": "            baseURL: \"https://your-backend-url.com\",",
+        "translatedContent": "            baseURL: \"https://your-backend-url.com\","
+      },
+      {
+        "row": 18,
+        "rowsha": "i9Y9sa8FQA2MHMETJmsfbMe+MtzeRAjKOk6OdfHWa4w=",
+        "originContent": "            endpoints: {",
+        "translatedContent": "            endpoints: {"
+      },
+      {
+        "row": 19,
+        "rowsha": "z12NjYUrglU3CWZFp2BS6V85giVZdldKQ/SKrOZGBQ8=",
+        "originContent": "              login: \"/auth/login\",",
+        "translatedContent": "              login: \"/auth/login\","
+      },
+      {
+        "row": 20,
+        "rowsha": "7IA8BqU9B+/W2YreRP+6ElPjBpdzWma0wrzpBXAXA5s=",
+        "originContent": "              signup: \"/auth/signup\",",
+        "translatedContent": "              signup: \"/auth/signup\","
+      },
+      {
+        "row": 21,
+        "rowsha": "elKw8f/EH9ggBHtv49VRvTae/K6icsm1J+s9bNHvV7g=",
+        "originContent": "              forgot: \"/auth/forgot\",",
+        "translatedContent": "              forgot: \"/auth/forgot\","
+      },
+      {
+        "row": 22,
+        "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
+        "originContent": "            },",
+        "translatedContent": "            },"
+      },
+      {
+        "row": 23,
+        "rowsha": "TNxKzDQji4s2Dth3oXMq+5J5pMBmqzB94SThe+qzwTg=",
+        "originContent": "          }}",
+        "translatedContent": "          }}"
+      },
+      {
+        "row": 24,
+        "rowsha": "K2ot6gzTcDJwRQNuultQYKPEWn7btEfMKOe98FOlKik=",
+        "originContent": "        >",
+        "translatedContent": "        >"
+      },
+      {
+        "row": 25,
+        "rowsha": "LN9ai/Y7m/7H2ptK2klp26iC6JfSUpdq9yvvkszzpyU=",
+        "originContent": "          {children}",
+        "translatedContent": "          {children}"
+      },
+      {
+        "row": 26,
+        "rowsha": "b6quSIWjwYLKeOOQnn0BAGc3hUx1Kqvmjx97lvyRWBE=",
+        "originContent": "        </AuthProvider>",
+        "translatedContent": "        </AuthProvider>"
+      },
+      {
+        "row": 27,
+        "rowsha": "k823moJBsuJrKGJfKwPslnJ1mw2LnQMTIZ98oiFBypc=",
+        "originContent": "      </body>",
+        "translatedContent": "      </body>"
+      },
+      {
+        "row": 28,
+        "rowsha": "Yoo4AGVvbEP0X4kgY3HsySHJHIuh7y7JItqrlhVkt/Y=",
+        "originContent": "    </html>",
+        "translatedContent": "    </html>"
+      },
+      {
+        "row": 29,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 30,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 31,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThis makes auth **global** and available everywhere.\n\n---\n\n## Step 2: Use auth screens in `app/page.tsx`\n",
+    "ContentSha": "/j7yFUdO3Ed8DhesFW4OnAadBjzLmMfqOnVaeZ8bgpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nThis makes auth **global** and available everywhere.\n\n---\n\n## Step 2: Use auth screens in `app/page.tsx`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1kFZTKV5uC5Ouo4cyZ9uKjLZn3R8jz3xnYq2TIQCx5o=",
+        "originContent": "This makes auth **global** and available everywhere.",
+        "translatedContent": "This makes auth **global** and available everywhere."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "3bZ9X2VXbUx2RN839MEGyyeLy6ExhUrZ397MC9nbm1E=",
+        "originContent": "## Step 2: Use auth screens in `app/page.tsx`",
+        "translatedContent": "## Step 2: Use auth screens in `app/page.tsx`"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```tsx\n// app/page.tsx\n\"use client\";\n\nimport {\n  LoginScreen,\n  SignupScreen,\n  PasswordResetScreen,\n  Protected,\n  useAuth,\n} from \"@kendevelops/auth-flow-kit\";\n\nimport { useEffect, useState } from \"react\";\n\nexport default function Home() {\n  const { user } = useAuth();\n  const [page, setPage] = useState<\"login\" | \"signup\" | \"reset\" | \"dashboard\">(\n    \"login\",\n  );\n\n  // Keep UI in sync with auth (important on refresh)\n  useEffect(() => {\n    if (user) setPage(\"dashboard\");\n  }, [user]);\n\n  return (\n    <>\n      {page === \"login\" && <LoginScreen />}\n      {page === \"signup\" && <SignupScreen />}\n      {page === \"reset\" && <PasswordResetScreen />}\n\n      {page === \"dashboard\" && (\n        <Protected>\n          <Dashboard />\n        </Protected>\n      )}\n    </>\n  );\n}\n\nfunction Dashboard() {\n  const { user, logout } = useAuth();\n\n  return (\n    <div>\n      <h1>Dashboard</h1>\n      <p>Welcome {user?.name}</p>\n      <button onClick={logout}>Logout</button>\n    </div>\n  );\n}\n```",
+    "ContentSha": "/v14JxaPSmvInpnywoHRFYCEwK3I9n5juyd3PMZhAKg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n// app/page.tsx\n\"use client\";\n\nimport {\n  LoginScreen,\n  SignupScreen,\n  PasswordResetScreen,\n  Protected,\n  useAuth,\n} from \"@kendevelops/auth-flow-kit\";\n\nimport { useEffect, useState } from \"react\";\n\nexport default function Home() {\n  const { user } = useAuth();\n  const [page, setPage] = useState<\"login\" | \"signup\" | \"reset\" | \"dashboard\">(\n    \"login\",\n  );\n\n  // Keep UI in sync with auth (important on refresh)\n  useEffect(() => {\n    if (user) setPage(\"dashboard\");\n  }, [user]);\n\n  return (\n    <>\n      {page === \"login\" && <LoginScreen />}\n      {page === \"signup\" && <SignupScreen />}\n      {page === \"reset\" && <PasswordResetScreen />}\n\n      {page === \"dashboard\" && (\n        <Protected>\n          <Dashboard />\n        </Protected>\n      )}\n    </>\n  );\n}\n\nfunction Dashboard() {\n  const { user, logout } = useAuth();\n\n  return (\n    <div>\n      <h1>Dashboard</h1>\n      <p>Welcome {user?.name}</p>\n      <button onClick={logout}>Logout</button>\n    </div>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "GoE76xb6viHQDW8FYXj3Ov5uAMxJbFZGdVzPTQHDz5k=",
+        "originContent": "// app/page.tsx",
+        "translatedContent": "// app/page.tsx"
+      },
+      {
+        "row": 3,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "4MvaswOTnbPbXtE5T4zH2cgUmE0T9zBDHrDKvXfJ4gQ=",
+        "originContent": "import {",
+        "translatedContent": "import {"
+      },
+      {
+        "row": 6,
+        "rowsha": "F7D2KjSit5o+IsFA4S9E2TrRFv0W2raT9748BgMhlCI=",
+        "originContent": "  LoginScreen,",
+        "translatedContent": "  LoginScreen,"
+      },
+      {
+        "row": 7,
+        "rowsha": "xxWEch6X2H+8X5XDiXRh/wmSlIJc50KYTCZIzkSImE4=",
+        "originContent": "  SignupScreen,",
+        "translatedContent": "  SignupScreen,"
+      },
+      {
+        "row": 8,
+        "rowsha": "m0rk4+9hJl52DS3e044Xencf28iUhE91wkGlzx9Mvcc=",
+        "originContent": "  PasswordResetScreen,",
+        "translatedContent": "  PasswordResetScreen,"
+      },
+      {
+        "row": 9,
+        "rowsha": "M93ZkFx2cjjZY3sKeGX10FefcA/OlGJQtKvJ8lHQLvg=",
+        "originContent": "  Protected,",
+        "translatedContent": "  Protected,"
+      },
+      {
+        "row": 10,
+        "rowsha": "oLb7mVRg+clwkDwoTaV0x52MpAotiCyUg4Bwdku47xM=",
+        "originContent": "  useAuth,",
+        "translatedContent": "  useAuth,"
+      },
+      {
+        "row": 11,
+        "rowsha": "nZdJkJ7RfwgvDDH5NO2oDnoZmBtLzIxNFh0V8FTyX9Y=",
+        "originContent": "} from \"@kendevelops/auth-flow-kit\";",
+        "translatedContent": "} from \"@kendevelops/auth-flow-kit\";"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "pkoMj5efajwty+xzoqTK6+sINhCCvIx44SIj0nfEgZg=",
+        "originContent": "import { useEffect, useState } from \"react\";",
+        "translatedContent": "import { useEffect, useState } from \"react\";"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "VWjt8FYAJ/oxgM9PLPVBK6AX5lEGPSt+gq79ddWdn8w=",
+        "originContent": "export default function Home() {",
+        "translatedContent": "export default function Home() {"
+      },
+      {
+        "row": 16,
+        "rowsha": "iP4KUkdw++gGHZgtj0cOU31AjZIQtvaU/FWMuP7kmx8=",
+        "originContent": "  const { user } = useAuth();",
+        "translatedContent": "  const { user } = useAuth();"
+      },
+      {
+        "row": 17,
+        "rowsha": "OSZtpHu8TM7UvEB8GVEH2MFb5cyLnBK0sh9RS6Ke034=",
+        "originContent": "  const [page, setPage] = useState<\"login\" | \"signup\" | \"reset\" | \"dashboard\">(",
+        "translatedContent": "  const [page, setPage] = useState<\"login\" | \"signup\" | \"reset\" | \"dashboard\">("
+      },
+      {
+        "row": 18,
+        "rowsha": "gxuB3639/DYY6tgirZ118jRQmwr3jpljtOSdBf97o84=",
+        "originContent": "    \"login\",",
+        "translatedContent": "    \"login\","
+      },
+      {
+        "row": 19,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "YlPxvR0O9QJwmATcTd0KJhCqyvjYZy24/rggYgYHcFA=",
+        "originContent": "  // Keep UI in sync with auth (important on refresh)",
+        "translatedContent": "  // Keep UI in sync with auth (important on refresh)"
+      },
+      {
+        "row": 22,
+        "rowsha": "HBOiEA9wn2s1xfsQy+YNcjKhCn+qniVhI0WuPrPQUjU=",
+        "originContent": "  useEffect(() => {",
+        "translatedContent": "  useEffect(() => {"
+      },
+      {
+        "row": 23,
+        "rowsha": "NkFd126nOaglI+u+o1j2x9HANk00WMAjHweMWs5qffk=",
+        "originContent": "    if (user) setPage(\"dashboard\");",
+        "translatedContent": "    if (user) setPage(\"dashboard\");"
+      },
+      {
+        "row": 24,
+        "rowsha": "ND5Up/2K2cORXL7XADEF/wrAxs3iheVc75xrXJRYxiI=",
+        "originContent": "  }, [user]);",
+        "translatedContent": "  }, [user]);"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 27,
+        "rowsha": "+Uv5FIzziW35Mxst3XuUzaCTCu6DGGqILYFBlR2IYZQ=",
+        "originContent": "    <>",
+        "translatedContent": "    <>"
+      },
+      {
+        "row": 28,
+        "rowsha": "adyfCNbyQhzU6sg1ft9OhbLm92uFztXsd78c1gbf/JE=",
+        "originContent": "      {page === \"login\" && <LoginScreen />}",
+        "translatedContent": "      {page === \"login\" && <LoginScreen />}"
+      },
+      {
+        "row": 29,
+        "rowsha": "02gxxvEt2EU3jX3ZtnQ1OQDCnfmJc352qoz0d2ecjFw=",
+        "originContent": "      {page === \"signup\" && <SignupScreen />}",
+        "translatedContent": "      {page === \"signup\" && <SignupScreen />}"
+      },
+      {
+        "row": 30,
+        "rowsha": "KmqdAO3wmfr6NaLdbL0fTJPRtQGJ2TanypX6healB7I=",
+        "originContent": "      {page === \"reset\" && <PasswordResetScreen />}",
+        "translatedContent": "      {page === \"reset\" && <PasswordResetScreen />}"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "Ns2ZDeAQRtTT/AvKtwNP7tBi7Wm68MH8rwUuDXJt0ac=",
+        "originContent": "      {page === \"dashboard\" && (",
+        "translatedContent": "      {page === \"dashboard\" && ("
+      },
+      {
+        "row": 33,
+        "rowsha": "7PPAqH5OpJVxj3qWVSXXS+uew1k5qMKS9ErLIPjM9K0=",
+        "originContent": "        <Protected>",
+        "translatedContent": "        <Protected>"
+      },
+      {
+        "row": 34,
+        "rowsha": "UNvq4kFuHSm86ScctT9kpYgxwX8NtAMs4k+YermWYIw=",
+        "originContent": "          <Dashboard />",
+        "translatedContent": "          <Dashboard />"
+      },
+      {
+        "row": 35,
+        "rowsha": "uBgC6p0TR94Nii7EgWJtmCkuP8IL584gM3dHO979OAI=",
+        "originContent": "        </Protected>",
+        "translatedContent": "        </Protected>"
+      },
+      {
+        "row": 36,
+        "rowsha": "gV7adOETyT2+tLtd1s5tf44eGAy85nh8vd3sM/ydX14=",
+        "originContent": "      )}",
+        "translatedContent": "      )}"
+      },
+      {
+        "row": 37,
+        "rowsha": "MPjUqpA8+AF5jttyQzdLSHBX+EpPZ94tOge59GCsJR0=",
+        "originContent": "    </>",
+        "translatedContent": "    </>"
+      },
+      {
+        "row": 38,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 39,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "b5WEZkloQHqySURvdHW9rOwKIYCNoHsgd7cOHH346SI=",
+        "originContent": "function Dashboard() {",
+        "translatedContent": "function Dashboard() {"
+      },
+      {
+        "row": 42,
+        "rowsha": "XIU2VlR1E6n7tyxBIuBzNWq6Hx2H25eoTqNXTp3d0xI=",
+        "originContent": "  const { user, logout } = useAuth();",
+        "translatedContent": "  const { user, logout } = useAuth();"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 45,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 46,
+        "rowsha": "tFFOTXE0edFy71xABJxakaWROOvTLl3skQTEY43Q4Aw=",
+        "originContent": "      <h1>Dashboard</h1>",
+        "translatedContent": "      <h1>Dashboard</h1>"
+      },
+      {
+        "row": 47,
+        "rowsha": "J2huwXHHpZ3vi6LnGNRg3iv/MvGOnRB5r5l2baSGDrE=",
+        "originContent": "      <p>Welcome {user?.name}</p>",
+        "translatedContent": "      <p>Welcome {user?.name}</p>"
+      },
+      {
+        "row": 48,
+        "rowsha": "Wdv3+eAdiWm+kxvkhxtSs7TgsGcURjtgC30o/63VT5c=",
+        "originContent": "      <button onClick={logout}>Logout</button>",
+        "translatedContent": "      <button onClick={logout}>Logout</button>"
+      },
+      {
+        "row": 49,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 50,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 51,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 52,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n---\n\n# 🔒 Protecting Components\n\nWrap anything that requires authentication:\n",
+    "ContentSha": "6kvpLtfvv2PlfzYUVE57mxMXTFXvR39Z/QGKVL7EMIM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n# 🔒 Protecting Components\n\nWrap anything that requires authentication:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PCEd9f692dI10Y3E66AM78bi03B8nipzksHnEvDwI6w=",
+        "originContent": "# 🔒 Protecting Components",
+        "translatedContent": "# 🔒 Protecting Components"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "xtUoSRNbcdpu0Iic5Np3DAd4LV2qQ6z6U79U/yhHa+I=",
+        "originContent": "Wrap anything that requires authentication:",
+        "translatedContent": "Wrap anything that requires authentication:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```tsx\n<Protected>\n  <SecretArea />\n</Protected>\n```",
+    "ContentSha": "dC1Rl3pn9Pj7fCyEhGRnv+WoWx09yoeexXAUDgdnzsQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n<Protected>\n  <SecretArea />\n</Protected>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZFkqg4BTvT+UZyHbuV5OYRJebZCuaZ+Mx/g4hE1/R6o=",
+        "originContent": "<Protected>",
+        "translatedContent": "<Protected>"
+      },
+      {
+        "row": 3,
+        "rowsha": "bUNil1gTtBRYXvng8B03UVpHE49AyslJNh6QUfuMtN8=",
+        "originContent": "  <SecretArea />",
+        "translatedContent": "  <SecretArea />"
+      },
+      {
+        "row": 4,
+        "rowsha": "GFLQzNuQSvFuiXc8Ha0894sY9pyhDs9g7JFM1nKr0t8=",
+        "originContent": "</Protected>",
+        "translatedContent": "</Protected>"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n- While loading → shows a loading state\n- If not authenticated → renders nothing (or redirects if configured)\n\n---\n\n# 🧠 Using `useAuth()` Anywhere\n",
+    "ContentSha": "QE1aSkk6zZ6w6x54FBilRtg1Mt1ZQX6551NWbtdQCEc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- Mientras se carga → muestra un estado de carga\n- Si no está autenticado → no renderiza nada (o redirige si está configurado)\n\n---\n\n# 🧠 Usando `useAuth()` en cualquier lugar\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fUhbHqJrUWKwOkE002i/2J8DfA6BGjkz40EVBC1cdiY=",
+        "originContent": "- While loading → shows a loading state",
+        "translatedContent": "- Mientras se carga → muestra un estado de carga"
+      },
+      {
+        "row": 3,
+        "rowsha": "S1Mgq0EMQ7UlwsngIj0Dh9+GNEdqTNpU5pro7bNmH8Y=",
+        "originContent": "- If not authenticated → renders nothing (or redirects if configured)",
+        "translatedContent": "- Si no está autenticado → no renderiza nada (o redirige si está configurado)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "83oxRmDBaz6ygVjpVFBmHbIULyKGgcJA3Tx0WcTHkdY=",
+        "originContent": "# 🧠 Using `useAuth()` Anywhere",
+        "translatedContent": "# 🧠 Usando `useAuth()` en cualquier lugar"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```tsx\n\"use client\";\nimport { useAuth } from \"@kendevelops/auth-flow-kit\";\n\nexport default function Navbar() {\n  const { user, logout } = useAuth();\n\n  return (\n    <nav>\n      {user ? (\n        <>\n          <span>Hello {user.name}</span>\n          <button onClick={logout}>Logout</button>\n        </>\n      ) : (\n        <span>Not logged in</span>\n      )}\n    </nav>\n  );\n}\n```",
+    "ContentSha": "+Neaa7JQ6+c8doFiQmLTQuJbr7OlhaqwWHvCdwJNmLo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n\"use client\";\nimport { useAuth } from \"@kendevelops/auth-flow-kit\";\n\nexport default function Navbar() {\n  const { user, logout } = useAuth();\n\n  return (\n    <nav>\n      {user ? (\n        <>\n          <span>Hello {user.name}</span>\n          <button onClick={logout}>Logout</button>\n        </>\n      ) : (\n        <span>Not logged in</span>\n      )}\n    </nav>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "ER/6ljv5FaE3XI+/B0LYNB3Y1x9XjPD7c8Lw1zNAlvk=",
+        "originContent": "import { useAuth } from \"@kendevelops/auth-flow-kit\";",
+        "translatedContent": "import { useAuth } from \"@kendevelops/auth-flow-kit\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "rHO0Gcop3PdE3iatjt+jHR9ZEapNjrgfBTgzeHBZBRg=",
+        "originContent": "export default function Navbar() {",
+        "translatedContent": "export default function Navbar() {"
+      },
+      {
+        "row": 6,
+        "rowsha": "XIU2VlR1E6n7tyxBIuBzNWq6Hx2H25eoTqNXTp3d0xI=",
+        "originContent": "  const { user, logout } = useAuth();",
+        "translatedContent": "  const { user, logout } = useAuth();"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 9,
+        "rowsha": "8vHnPSuHbdXlVr+HVkeAJvDSHsFzYhxLzOwt7P3p2MQ=",
+        "originContent": "    <nav>",
+        "translatedContent": "    <nav>"
+      },
+      {
+        "row": 10,
+        "rowsha": "BVZ20whWUdHeo3TTYDNTrPyorOM+dVj1xi2Q+5lkxFg=",
+        "originContent": "      {user ? (",
+        "translatedContent": "      {user ? ("
+      },
+      {
+        "row": 11,
+        "rowsha": "Q/BF7PnM72q+l+Z2wVTJ0KeewT0c8C3uYSF8IjHMMYY=",
+        "originContent": "        <>",
+        "translatedContent": "        <>"
+      },
+      {
+        "row": 12,
+        "rowsha": "sMoRWgHDnHKLbrdQFI4BjkrEaTzuIWnq6WEePfiDC1o=",
+        "originContent": "          <span>Hello {user.name}</span>",
+        "translatedContent": "          <span>Hello {user.name}</span>"
+      },
+      {
+        "row": 13,
+        "rowsha": "+O+HW5uF8pX6Q/d1L5YNgumIG1UdCE3PhVI8KgCE4+s=",
+        "originContent": "          <button onClick={logout}>Logout</button>",
+        "translatedContent": "          <button onClick={logout}>Logout</button>"
+      },
+      {
+        "row": 14,
+        "rowsha": "j6YNv1wvK7YC/qh674A/0xjtlUAP9TEpL/5KPBmGbkg=",
+        "originContent": "        </>",
+        "translatedContent": "        </>"
+      },
+      {
+        "row": 15,
+        "rowsha": "8SyMFO63MWFtfEgIc6/tLk/u1W9di5xNE3BLMloV/5c=",
+        "originContent": "      ) : (",
+        "translatedContent": "      ) : ("
+      },
+      {
+        "row": 16,
+        "rowsha": "bsV7/ze2o3eYwG4A/TjNKXzVU2QzYvyrj5Wg2PWOJOE=",
+        "originContent": "        <span>Not logged in</span>",
+        "translatedContent": "        <span>Not logged in</span>"
+      },
+      {
+        "row": 17,
+        "rowsha": "gV7adOETyT2+tLtd1s5tf44eGAy85nh8vd3sM/ydX14=",
+        "originContent": "      )}",
+        "translatedContent": "      )}"
+      },
+      {
+        "row": 18,
+        "rowsha": "x/YnvgiYeFONCjHfA/S8j351X5XDKBR9X0p8Nrs64H8=",
+        "originContent": "    </nav>",
+        "translatedContent": "    </nav>"
+      },
+      {
+        "row": 19,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 20,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n---\n\n# 🌐 React (Non‑Next.js) Usage\n",
+    "ContentSha": "F6z41lBsn6ek4H5ZNyNBLhr1wAEFCb/37w40ePTPiDc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n# 🌐 React (Non‑Next.js) Usage\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qD5EhzMu7Fezhh6S5JBv4Dsk3G+IL0qmtS2u4hyrkao=",
+        "originContent": "# 🌐 React (Non‑Next.js) Usage",
+        "translatedContent": "# 🌐 React (Non‑Next.js) Usage"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```tsx\nimport { AuthProvider, LoginScreen } from \"@kendevelops/auth-flow-kit\";\n\nexport default function App() {\n  return (\n    <AuthProvider\n      config={{\n        baseURL: \"https://your-backend-url.com\",\n        endpoints: {\n          login: \"/auth/login\",\n          signup: \"/auth/signup\",\n          forgot: \"/auth/forgot\",\n        },\n      }}\n    >\n      <LoginScreen />\n    </AuthProvider>\n  );\n}\n```",
+    "ContentSha": "7C+n+rzCOceZJX8FStviz5/HxID4uTfoYHDLXf7ve5Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\nimport { AuthProvider, LoginScreen } from \"@kendevelops/auth-flow-kit\";\n\nexport default function App() {\n  return (\n    <AuthProvider\n      config={{\n        baseURL: \"https://your-backend-url.com\",\n        endpoints: {\n          login: \"/auth/login\",\n          signup: \"/auth/signup\",\n          forgot: \"/auth/forgot\",\n        },\n      }}\n    >\n      <LoginScreen />\n    </AuthProvider>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "2hjGd/fY0uotexlS7KemAUBhxLx8ObebnsynjUQe9J4=",
+        "originContent": "import { AuthProvider, LoginScreen } from \"@kendevelops/auth-flow-kit\";",
+        "translatedContent": "import { AuthProvider, LoginScreen } from \"@kendevelops/auth-flow-kit\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mxX5Q9XkXGJiwfuSZMex/7CVab2+tRHgrlMNSQpM3mo=",
+        "originContent": "export default function App() {",
+        "translatedContent": "export default function App() {"
+      },
+      {
+        "row": 5,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 6,
+        "rowsha": "R2wlUu33yre89ydk9/X6e4lOMAhfMO5Nct6p/0KAnuo=",
+        "originContent": "    <AuthProvider",
+        "translatedContent": "    <AuthProvider"
+      },
+      {
+        "row": 7,
+        "rowsha": "NdvgN65qdbgkP+YxHzpQlSuX1/s3qn+HY4IJjs5vZds=",
+        "originContent": "      config={{",
+        "translatedContent": "      config={{"
+      },
+      {
+        "row": 8,
+        "rowsha": "HqJqUIlVUeFgS25UNzthmh9zpIhkgJPjjnvoOkGAj90=",
+        "originContent": "        baseURL: \"https://your-backend-url.com\",",
+        "translatedContent": "        baseURL: \"https://your-backend-url.com\","
+      },
+      {
+        "row": 9,
+        "rowsha": "ZXRhkgk8M0azwT58EPJ/FId9ilxvOLNrP4y65Q+xGcg=",
+        "originContent": "        endpoints: {",
+        "translatedContent": "        endpoints: {"
+      },
+      {
+        "row": 10,
+        "rowsha": "WQg8vVV24CU6jQBUbx0Zsep68UoAsK14BCygtJE5CTY=",
+        "originContent": "          login: \"/auth/login\",",
+        "translatedContent": "          login: \"/auth/login\","
+      },
+      {
+        "row": 11,
+        "rowsha": "H0uO3Nm+yB/DNxQxFcP/9t1Bj7UT5zhGDla4wJbe8fQ=",
+        "originContent": "          signup: \"/auth/signup\",",
+        "translatedContent": "          signup: \"/auth/signup\","
+      },
+      {
+        "row": 12,
+        "rowsha": "7vOl01YfOxqhGIuW1CG12C+MfytDlel77ATnjAy2dyc=",
+        "originContent": "          forgot: \"/auth/forgot\",",
+        "translatedContent": "          forgot: \"/auth/forgot\","
+      },
+      {
+        "row": 13,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 14,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 15,
+        "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+        "originContent": "    >",
+        "translatedContent": "    >"
+      },
+      {
+        "row": 16,
+        "rowsha": "7XBD8SvOw+iDOFwC1hjvduzlLsc2Ktym4Hkj4v2HD0o=",
+        "originContent": "      <LoginScreen />",
+        "translatedContent": "      <LoginScreen />"
+      },
+      {
+        "row": 17,
+        "rowsha": "QwpsPxAOvXkv53Uvl5WPsdrbE3tlQui9TMvwitzeXXY=",
+        "originContent": "    </AuthProvider>",
+        "translatedContent": "    </AuthProvider>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n---\n\n# 🛠 Backend Requirements\n\nThis section defines the exact API contract your backend must implement. The library makes three types of requests and expects specific JSON response shapes.\n\n---\n\n## POST `/auth/login`\n\n**Request body:**\n",
+    "ContentSha": "3ydB3PyZoiZ9n/agh4zwjNN72Ia1wvOdOs++3KvHx9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n# 🛠 Requisitos del Backend\n\nEsta sección define el contrato exacto de la API que debe implementar tu backend. La biblioteca realiza tres tipos de solicitudes y espera formas específicas de respuestas JSON.\n\n---\n\n## POST `/auth/login`\n\n**Cuerpo de la solicitud:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aFRt+dveQ8swzh8v/1cmwk3QhhEl1kR+mfIMx/kgHQE=",
+        "originContent": "# 🛠 Backend Requirements",
+        "translatedContent": "# 🛠 Requisitos del Backend"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "OIP7MVXQkDtVHm0N8IKJRnwR0X4CfxvXpH5FkOmHbUo=",
+        "originContent": "This section defines the exact API contract your backend must implement. The library makes three types of requests and expects specific JSON response shapes.",
+        "translatedContent": "Esta sección define el contrato exacto de la API que debe implementar tu backend. La biblioteca realiza tres tipos de solicitudes y espera formas específicas de respuestas JSON."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LYM5Gn91IO3Ajg8njT6ObXRBgUpqVbdQwiE9mgGDKaQ=",
+        "originContent": "## POST `/auth/login`",
+        "translatedContent": "## POST `/auth/login`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Zhp+tuaX/nO1MDBFpA0Bz16agbpDunILuMbrsA9BCTU=",
+        "originContent": "**Request body:**",
+        "translatedContent": "**Cuerpo de la solicitud:**"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```json\n{\n  \"email\": \"user@example.com\",\n  \"password\": \"secret123\"\n}\n```",
+    "ContentSha": "HUTt3/P1LT7ycS4gCuZV/aVpSkhf8/adtJG17rhqDZs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"email\": \"user@example.com\",\n  \"password\": \"secret123\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "9Iiv3LiL65/v4tg9Ra7fhxZlLmRmYna185+yaoY3uV8=",
+        "originContent": "  \"email\": \"user@example.com\",",
+        "translatedContent": "  \"email\": \"user@example.com\","
+      },
+      {
+        "row": 4,
+        "rowsha": "SNV843xkk7mPjbK8FU29j3Cna5U0BhrnUq8fShK4xmE=",
+        "originContent": "  \"password\": \"secret123\"",
+        "translatedContent": "  \"password\": \"secret123\""
+      },
+      {
+        "row": 5,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n**Success response (200):**\n",
+    "ContentSha": "8GVqwNoQSp8JzxM2gUx1Rx0EpNUdXyWPVsa+QS3ssVw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Respuesta exitosa (200):**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qKOf1C3kX073V6Qdy3Jr8RmpdIlcelW9GjwENBxF/S4=",
+        "originContent": "**Success response (200):**",
+        "translatedContent": "**Respuesta exitosa (200):**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```json\n{\n  \"accessToken\": \"your-token-here\",\n  \"user\": {\n    \"id\": \"usr_abc123\",\n    \"name\": \"Jane Doe\",\n    \"email\": \"user@example.com\"\n  }\n}\n```",
+    "ContentSha": "Ua8+hRp06mR2jvYkBs0faGVxKrmWD/t5aFwIV5wspHM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"accessToken\": \"your-token-here\",\n  \"user\": {\n    \"id\": \"usr_abc123\",\n    \"name\": \"Jane Doe\",\n    \"email\": \"user@example.com\"\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "+ezC2uoGpfnwA24mmE/oMFXPllZD7jIrwRAaIZnEIoI=",
+        "originContent": "  \"accessToken\": \"your-token-here\",",
+        "translatedContent": "  \"accessToken\": \"your-token-here\","
+      },
+      {
+        "row": 4,
+        "rowsha": "YwcpLQtsQPfm7hbEwekARaWZ32clcf7nGLfRdJ3/Es0=",
+        "originContent": "  \"user\": {",
+        "translatedContent": "  \"user\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "+fUai9qkXEHHD7StVD4+A85Pvoeh5NuQ1mbWswt2BXI=",
+        "originContent": "    \"id\": \"usr_abc123\",",
+        "translatedContent": "    \"id\": \"usr_abc123\","
+      },
+      {
+        "row": 6,
+        "rowsha": "mlEJUfIPpYlToqmWL0PevVFYlm4rhf3knvJ7jNYZRlo=",
+        "originContent": "    \"name\": \"Jane Doe\",",
+        "translatedContent": "    \"name\": \"Jane Doe\","
+      },
+      {
+        "row": 7,
+        "rowsha": "vmTLDMxB0eBicfxO+R2aIOg7heEXMDq4TjTxyqWDn2k=",
+        "originContent": "    \"email\": \"user@example.com\"",
+        "translatedContent": "    \"email\": \"user@example.com\""
+      },
+      {
+        "row": 8,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n**Error response (4xx):**\n",
+    "ContentSha": "FN8uGlJXEQVsE1qAL46VN9UJmWeEv2xsGBiifNdgn28=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Respuesta de error (4xx):**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PXxmWKrn0x1068HpRWTrdGria1kvPzuDdJ0rZwxgCJk=",
+        "originContent": "**Error response (4xx):**",
+        "translatedContent": "**Respuesta de error (4xx):**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```json\n{ \"message\": \"Invalid email or password\" }\n```",
+    "ContentSha": "xbUEwpW2jBThqzl+JooJfnELcHcvi3F43pbSfQv3XmE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{ \"message\": \"Invalid email or password\" }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z6Kpavz6ckuPoLh2jDI6HkRkDFzsXtcVbgG+6OVO+oc=",
+        "originContent": "{ \"message\": \"Invalid email or password\" }",
+        "translatedContent": "{ \"message\": \"Invalid email or password\" }"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nThe `message` field is displayed directly to the user in the login form.\n\n---\n\n## POST `/auth/signup`\n\n**Request body:**\n",
+    "ContentSha": "v43vDoOKAn9rScyMDdYV9DQXGh9IczUGO82gO9a4ytI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEl campo `message` se muestra directamente al usuario en el formulario de inicio de sesión.\n\n---\n\n## POST `/auth/signup`\n\n**Cuerpo de la solicitud:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CKUDkAxspSzHGTugFoRyL2xTd70yZHyZT25IizMKLyM=",
+        "originContent": "The `message` field is displayed directly to the user in the login form.",
+        "translatedContent": "El campo `message` se muestra directamente al usuario en el formulario de inicio de sesión."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "NExei/QYIQtrdAHtEhGar81Kv0TqRe55L1HEj4fLFMA=",
+        "originContent": "## POST `/auth/signup`",
+        "translatedContent": "## POST `/auth/signup`"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Zhp+tuaX/nO1MDBFpA0Bz16agbpDunILuMbrsA9BCTU=",
+        "originContent": "**Request body:**",
+        "translatedContent": "**Cuerpo de la solicitud:**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```json\n{\n  \"name\": \"Jane Doe\",\n  \"email\": \"user@example.com\",\n  \"password\": \"secret123\"\n}\n```",
+    "ContentSha": "/7CQuPu73JqH7fGm8zm+G0Ny5FRRuurebzDd9QB42oI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"name\": \"Jane Doe\",\n  \"email\": \"user@example.com\",\n  \"password\": \"secret123\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "c3vaKHPG7KAs1qkRekqIG2DHYAd0QJZVnji3Fa88VZs=",
+        "originContent": "  \"name\": \"Jane Doe\",",
+        "translatedContent": "  \"name\": \"Jane Doe\","
+      },
+      {
+        "row": 4,
+        "rowsha": "9Iiv3LiL65/v4tg9Ra7fhxZlLmRmYna185+yaoY3uV8=",
+        "originContent": "  \"email\": \"user@example.com\",",
+        "translatedContent": "  \"email\": \"user@example.com\","
+      },
+      {
+        "row": 5,
+        "rowsha": "SNV843xkk7mPjbK8FU29j3Cna5U0BhrnUq8fShK4xmE=",
+        "originContent": "  \"password\": \"secret123\"",
+        "translatedContent": "  \"password\": \"secret123\""
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n> You can include extra fields in your signup form and pass them through — the library forwards the full payload as-is.\n\n**Success response (200):** Same shape as the login response.\n",
+    "ContentSha": "bYW6ruQhbzdmVw+IXCKZrTbsCLmzSoi389yQ9fxlOsE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> Puedes incluir campos adicionales en tu formulario de registro y pasarlos — la biblioteca envía la carga completa tal cual.\n\n**Respuesta exitosa (200):** La misma estructura que la respuesta de inicio de sesión.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> Puedes incluir campos adicionales en tu formulario de registro y pasarlos — la biblioteca envía la carga completa tal cual."
+      },
+      {
+        "row": 2,
+        "rowsha": "WVsPQlqsDVHjT6HrzADJiRVC9A81qtkpBRTnPcd55Zc=",
+        "originContent": "> You can include extra fields in your signup form and pass them through — the library forwards the full payload as-is.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Respuesta exitosa (200):** La misma estructura que la respuesta de inicio de sesión."
+      },
+      {
+        "row": 4,
+        "rowsha": "q/A44PW+jy2G2bmeBKUfh1+RQK5WCOTSaQfPiCOfVfc=",
+        "originContent": "**Success response (200):** Same shape as the login response.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```json\n{\n  \"accessToken\": \"your-token-here\",\n  \"user\": {\n    \"id\": \"usr_xyz789\",\n    \"name\": \"Jane Doe\",\n    \"email\": \"user@example.com\"\n  }\n}\n```",
+    "ContentSha": "OqT5uNmGmpM2fwmQ8qNf1gjqJK6XzVUGYfESoZlnqL4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"accessToken\": \"your-token-here\",\n  \"user\": {\n    \"id\": \"usr_xyz789\",\n    \"name\": \"Jane Doe\",\n    \"email\": \"user@example.com\"\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "+ezC2uoGpfnwA24mmE/oMFXPllZD7jIrwRAaIZnEIoI=",
+        "originContent": "  \"accessToken\": \"your-token-here\",",
+        "translatedContent": "  \"accessToken\": \"your-token-here\","
+      },
+      {
+        "row": 4,
+        "rowsha": "YwcpLQtsQPfm7hbEwekARaWZ32clcf7nGLfRdJ3/Es0=",
+        "originContent": "  \"user\": {",
+        "translatedContent": "  \"user\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "qOY+RXsedM05/pxKDIF/O6lZ8mafRT5yr1+EKGLHwWs=",
+        "originContent": "    \"id\": \"usr_xyz789\",",
+        "translatedContent": "    \"id\": \"usr_xyz789\","
+      },
+      {
+        "row": 6,
+        "rowsha": "mlEJUfIPpYlToqmWL0PevVFYlm4rhf3knvJ7jNYZRlo=",
+        "originContent": "    \"name\": \"Jane Doe\",",
+        "translatedContent": "    \"name\": \"Jane Doe\","
+      },
+      {
+        "row": 7,
+        "rowsha": "vmTLDMxB0eBicfxO+R2aIOg7heEXMDq4TjTxyqWDn2k=",
+        "originContent": "    \"email\": \"user@example.com\"",
+        "translatedContent": "    \"email\": \"user@example.com\""
+      },
+      {
+        "row": 8,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n---\n\n## POST `/auth/forgot` _(optional)_\n\nOnly needed if you use `<PasswordResetScreen />`.\n\n**Request body:**\n",
+    "ContentSha": "0HJzq7JrMCdb9EhxWBea0V9juGrULjqdaUjpolEFQ9U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## POST `/auth/forgot` _(opcional)_\n\nSolo necesario si usas `<PasswordResetScreen />`.\n\n**Cuerpo de la solicitud:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "FnKLo+Hg54UvC2qgTS3wDLIANZIUkG7PfcDLDAFHmcg=",
+        "originContent": "## POST `/auth/forgot` _(optional)_",
+        "translatedContent": "## POST `/auth/forgot` _(opcional)_"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4uRiHP7JV49V8znV4A+pk4I8TeMl9sVx4/TMM2VT2bk=",
+        "originContent": "Only needed if you use `<PasswordResetScreen />`.",
+        "translatedContent": "Solo necesario si usas `<PasswordResetScreen />`."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Zhp+tuaX/nO1MDBFpA0Bz16agbpDunILuMbrsA9BCTU=",
+        "originContent": "**Request body:**",
+        "translatedContent": "**Cuerpo de la solicitud:**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```json\n{ \"email\": \"user@example.com\" }\n```",
+    "ContentSha": "u3QjTxp/1K7UlYsuGatrwxDgvyc5V+47vjh/gndTcGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{ \"email\": \"user@example.com\" }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "kdxlY+PKEVwO0kJHBP+R35UDO+I0DZmWoYsBpiqHi40=",
+        "originContent": "{ \"email\": \"user@example.com\" }",
+        "translatedContent": "{ \"email\": \"user@example.com\" }"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n**Response:** Any `2xx` is treated as success. The library does not read the response body — it just shows a \"Check your email\" confirmation. A `404` logs a descriptive console error with guidance on fixing `config.endpoints.forgot`.\n\n---\n\n## Response field reference\n\n| Field          | Type   | Required | Description                                                                                         |\n| -------------- | ------ | -------- | --------------------------------------------------------------------------------------------------- |\n| `accessToken`  | string | ✅       | Stored in `localStorage` and sent as `Authorization: Bearer <token>` on authenticated requests.     |\n| `user`         | object | ✅       | Stored in `localStorage` and exposed via `useAuth().user`.                                          |\n| `user.id`      | string | ✅       | Unique user identifier.                                                                             |\n| `user.name`    | string | ✅       | Display name used in your UI.                                                                       |\n| `user.email`   | string | ✅       | User's email address.                                                                               |\n| `refreshToken` | string | ❌       | Accepted but not used by the library for now, updating soon. You can include it for your own logic. |\n\n---\n\n## How session persistence works\n\nauth-flow-kit handles persistence entirely on the client — **your backend does not need a session restore or `/me` endpoint.**\n\nOn successful login or signup:\n\n- `accessToken` is saved to `localStorage` as `afk_access_token`\n- `user` is saved to `localStorage` as `afk_user`\n\nOn page reload, `AuthProvider` reads `afk_user` directly from `localStorage` and restores the session instantly — no network request is made.\n\nOn logout, both keys are removed.\n\n---\n\n# 🎯 Who This Library Is For\n\n- Developers who want to go straight into building their app before worrying about auth\n- MVP builders\n- SaaS dashboards\n- Internal tools\n- Learners who want to understand authentication",
+    "ContentSha": "UD+OaG75F9E/rLG60BDyj82Hpuks3pV6OH5m6RoCzEE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Respuesta:** Cualquier código `2xx` se trata como éxito. La biblioteca no lee el cuerpo de la respuesta — solo muestra una confirmación de \"Revisa tu correo electrónico\". Un `404` registra un error descriptivo en la consola con indicaciones para corregir `config.endpoints.forgot`.\n\n---\n\n## Referencia de campos de respuesta\n\n| Campo          | Tipo   | Requerido | Descripción                                                                                         |\n| -------------- | ------ | -------- | --------------------------------------------------------------------------------------------------- |\n| `accessToken`  | string | ✅       | Se guarda en `localStorage` y se envía como `Authorization: Bearer <token>` en solicitudes autenticadas.     |\n| `user`         | object | ✅       | Se guarda en `localStorage` y se expone vía `useAuth().user`.                                          |\n| `user.id`      | string | ✅       | Identificador único de usuario.                                                                             |\n| `user.name`    | string | ✅       | Nombre para mostrar usado en tu interfaz.                                                                       |\n| `user.email`   | string | ✅       | Dirección de correo electrónico del usuario.                                                                               |\n| `refreshToken` | string | ❌       | Aceptado pero no usado por la biblioteca por ahora, se actualizará pronto. Puedes incluirlo para tu propia lógica. |\n\n---\n\n## Cómo funciona la persistencia de sesión\n\nauth-flow-kit maneja la persistencia completamente en el cliente — **tu backend no necesita un punto de restauración de sesión ni un endpoint `/me`.**\n\nAl iniciar sesión o registrarse con éxito:\n\n- `accessToken` se guarda en `localStorage` como `afk_access_token`\n- `user` se guarda en `localStorage` como `afk_user`\n\nAl recargar la página, `AuthProvider` lee `afk_user` directamente desde `localStorage` y restaura la sesión al instante — no se realiza ninguna solicitud de red.\n\nAl cerrar sesión, ambas claves se eliminan.\n\n---\n\n# 🎯 Para quién es esta biblioteca\n\n- Desarrolladores que quieren comenzar a construir su app antes de preocuparse por la autenticación\n- Constructores de MVP\n- Paneles SaaS\n- Herramientas internas\n- Estudiantes que quieren entender la autenticación\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Respuesta:** Cualquier código `2xx` se trata como éxito. La biblioteca no lee el cuerpo de la respuesta — solo muestra una confirmación de \"Revisa tu correo electrónico\". Un `404` registra un error descriptivo en la consola con indicaciones para corregir `config.endpoints.forgot`."
+      },
+      {
+        "row": 2,
+        "rowsha": "VufG6/xkaHxkr9/k50lYG7JOmY8H41FJ8w6fq5EZ1us=",
+        "originContent": "**Response:** Any `2xx` is treated as success. The library does not read the response body — it just shows a \"Check your email\" confirmation. A `404` logs a descriptive console error with guidance on fixing `config.endpoints.forgot`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Referencia de campos de respuesta"
+      },
+      {
+        "row": 6,
+        "rowsha": "W/+L5W+zE6UHQFS1r1rwub0cq8tB5VYhNrNfotkNgHw=",
+        "originContent": "## Response field reference",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Campo          | Tipo   | Requerido | Descripción                                                                                         |"
+      },
+      {
+        "row": 8,
+        "rowsha": "rXOzAsSfc6gpOb9MXBYTnrIq8rbTZ630+jH3Rx/9Lnk=",
+        "originContent": "| Field          | Type   | Required | Description                                                                                         |",
+        "translatedContent": "| -------------- | ------ | -------- | --------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 9,
+        "rowsha": "v6s6WFJLNshN8peSp2duqhcu0X0G38cPKnxuQwnSOEs=",
+        "originContent": "| -------------- | ------ | -------- | --------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| `accessToken`  | string | ✅       | Se guarda en `localStorage` y se envía como `Authorization: Bearer <token>` en solicitudes autenticadas.     |"
+      },
+      {
+        "row": 10,
+        "rowsha": "4hNkCSQeXjYZAjItiQjL/5EQ6DPbLNrogMR0PnGXJeU=",
+        "originContent": "| `accessToken`  | string | ✅       | Stored in `localStorage` and sent as `Authorization: Bearer <token>` on authenticated requests.     |",
+        "translatedContent": "| `user`         | object | ✅       | Se guarda en `localStorage` y se expone vía `useAuth().user`.                                          |"
+      },
+      {
+        "row": 11,
+        "rowsha": "AAo24huYsrluWXwkc8mTjWKsnPgMce5djrjkS+Ydpm0=",
+        "originContent": "| `user`         | object | ✅       | Stored in `localStorage` and exposed via `useAuth().user`.                                          |",
+        "translatedContent": "| `user.id`      | string | ✅       | Identificador único de usuario.                                                                             |"
+      },
+      {
+        "row": 12,
+        "rowsha": "Y8ouEoEffUguGm7vIEFCOqPDIpJ9vUPknRLHnaIaeC0=",
+        "originContent": "| `user.id`      | string | ✅       | Unique user identifier.                                                                             |",
+        "translatedContent": "| `user.name`    | string | ✅       | Nombre para mostrar usado en tu interfaz.                                                                       |"
+      },
+      {
+        "row": 13,
+        "rowsha": "qLvFKJ+j29B7y4yOwoCEuKj2bAoyQrlu22I/Nr6dm5o=",
+        "originContent": "| `user.name`    | string | ✅       | Display name used in your UI.                                                                       |",
+        "translatedContent": "| `user.email`   | string | ✅       | Dirección de correo electrónico del usuario.                                                                               |"
+      },
+      {
+        "row": 14,
+        "rowsha": "NdZZh1kG+OzeRPbxMWMs5zaYNowYPATUj32un4hLZtk=",
+        "originContent": "| `user.email`   | string | ✅       | User's email address.                                                                               |",
+        "translatedContent": "| `refreshToken` | string | ❌       | Aceptado pero no usado por la biblioteca por ahora, se actualizará pronto. Puedes incluirlo para tu propia lógica. |"
+      },
+      {
+        "row": 15,
+        "rowsha": "3xR4JsxPe0HzejDsqh1DAQNHBCnLcc93L01jUc6vDPc=",
+        "originContent": "| `refreshToken` | string | ❌       | Accepted but not used by the library for now, updating soon. You can include it for your own logic. |",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Cómo funciona la persistencia de sesión"
+      },
+      {
+        "row": 19,
+        "rowsha": "nLWl2Pl4VbYPoCLDMxTQc7MXCh9/kuf/JjOqcOvlvrk=",
+        "originContent": "## How session persistence works",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "auth-flow-kit maneja la persistencia completamente en el cliente — **tu backend no necesita un punto de restauración de sesión ni un endpoint `/me`.**"
+      },
+      {
+        "row": 21,
+        "rowsha": "jeGRY1UmLwaqMedM1T16wt+PJOb0ssSLsB3hkYrcOv8=",
+        "originContent": "auth-flow-kit handles persistence entirely on the client — **your backend does not need a session restore or `/me` endpoint.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Al iniciar sesión o registrarse con éxito:"
+      },
+      {
+        "row": 23,
+        "rowsha": "9Lx0S2IIpj4qJhe7IGe6Nl6EAo7D4csLQuQSPZRDCzs=",
+        "originContent": "On successful login or signup:",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `accessToken` se guarda en `localStorage` como `afk_access_token`"
+      },
+      {
+        "row": 25,
+        "rowsha": "ckFMYwHsdulC9+xwl6MLiPCLOiiB7IPRWUudyo6d0Jw=",
+        "originContent": "- `accessToken` is saved to `localStorage` as `afk_access_token`",
+        "translatedContent": "- `user` se guarda en `localStorage` como `afk_user`"
+      },
+      {
+        "row": 26,
+        "rowsha": "/vf3qWmNF93BfneLd8MK/VSNqXqFQul5ZBrEQgm3+lA=",
+        "originContent": "- `user` is saved to `localStorage` as `afk_user`",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Al recargar la página, `AuthProvider` lee `afk_user` directamente desde `localStorage` y restaura la sesión al instante — no se realiza ninguna solicitud de red."
+      },
+      {
+        "row": 28,
+        "rowsha": "+JvQ/TxsTm67nUegFDi+oR9zyPMUktLdem8RyoOdZ2k=",
+        "originContent": "On page reload, `AuthProvider` reads `afk_user` directly from `localStorage` and restores the session instantly — no network request is made.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Al cerrar sesión, ambas claves se eliminan."
+      },
+      {
+        "row": 30,
+        "rowsha": "NDRqBJTbocSGbIQktAZuJu1SiIquAyB9Z0jEmV+mZGA=",
+        "originContent": "On logout, both keys are removed.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 32,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 🎯 Para quién es esta biblioteca"
+      },
+      {
+        "row": 34,
+        "rowsha": "3krE7oAEOiS7i0inOhG7RIlZjQ3t0OZnF+xHqr2IGSA=",
+        "originContent": "# 🎯 Who This Library Is For",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Desarrolladores que quieren comenzar a construir su app antes de preocuparse por la autenticación"
+      },
+      {
+        "row": 36,
+        "rowsha": "iItOMsz2VoQ/q/c17eNnGx/YK3G0+7snJFBjSGyEO/s=",
+        "originContent": "- Developers who want to go straight into building their app before worrying about auth",
+        "translatedContent": "- Constructores de MVP"
+      },
+      {
+        "row": 37,
+        "rowsha": "8FkwZgCayPbNLfFy0jdutNdqnoe4EOa5/Z/F/j9XBWY=",
+        "originContent": "- MVP builders",
+        "translatedContent": "- Paneles SaaS"
+      },
+      {
+        "row": 38,
+        "rowsha": "S4Lb1HqHhXniGtvLuKXB1jxQWmKWQV4hwS7E65GSEJE=",
+        "originContent": "- SaaS dashboards",
+        "translatedContent": "- Herramientas internas"
+      },
+      {
+        "row": 39,
+        "rowsha": "bm0vzG88NykItybdXYbtBfnUFunuveXN4MqUt6+ta3k=",
+        "originContent": "- Internal tools",
+        "translatedContent": "- Estudiantes que quieren entender la autenticación"
+      },
+      {
+        "row": 40,
+        "rowsha": "/oBw99FtYHJ4spMi8cs4wWk3eFxXblSCpMBya97gs2g=",
+        "originContent": "- Learners who want to understand authentication",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "\nIf you already have a backend and just want auth to **work**, this library is for you.\n\n---\n\n# 🎉 Summary\n\n**auth-flow-kit** gives you:\n\n- Global auth state (no reducers, no stores)\n- Prebuilt auth UI screens\n- Simple backend requirements\n- Refresh‑safe authentication\n- Works with Next.js and plain React\n\nAuthentication, without the chaos.\n",
+    "ContentSha": "uiePekeUc56wlpcVLtdzMB1TpbDx1EYvbgdYC3XNwYY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi ya tienes un backend y solo quieres que la autenticación **funcione**, esta biblioteca es para ti.\n\n---\n\n# 🎉 Resumen\n\n**auth-flow-kit** te ofrece:\n\n- Estado global de autenticación (sin reductores, sin almacenes)\n- Pantallas de UI de autenticación preconstruidas\n- Requisitos simples para el backend\n- Autenticación segura con refresco\n- Funciona con Next.js y React simple\n\nAutenticación, sin el caos.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "w4bibebjBNN5/z7NRi/f6RtlMPMEsmpvAx1UH01Ke1c=",
+        "originContent": "If you already have a backend and just want auth to **work**, this library is for you.",
+        "translatedContent": "Si ya tienes un backend y solo quieres que la autenticación **funcione**, esta biblioteca es para ti."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "chpHZE88IOK5zDz04MEwS+5WZp3bNDAGblLanpmte1o=",
+        "originContent": "# 🎉 Summary",
+        "translatedContent": "# 🎉 Resumen"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "KmpKN7rSHAtNa2t+JO7pB4h8MgymCYZ8vQ4ck28sKjI=",
+        "originContent": "**auth-flow-kit** gives you:",
+        "translatedContent": "**auth-flow-kit** te ofrece:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "laEL4UkmXYRpGO+Wny+UE9WvtvTrRIOwuG2iFLJSBR4=",
+        "originContent": "- Global auth state (no reducers, no stores)",
+        "translatedContent": "- Estado global de autenticación (sin reductores, sin almacenes)"
+      },
+      {
+        "row": 11,
+        "rowsha": "8gG+WFlc2Nx8MTQpMifsKDcYt6M7z8kFhM/4D5TOIhY=",
+        "originContent": "- Prebuilt auth UI screens",
+        "translatedContent": "- Pantallas de UI de autenticación preconstruidas"
+      },
+      {
+        "row": 12,
+        "rowsha": "UkYBY1Om9E1dwO66XTMXJdoFHYKFa/kEevWkVFiwcpc=",
+        "originContent": "- Simple backend requirements",
+        "translatedContent": "- Requisitos simples para el backend"
+      },
+      {
+        "row": 13,
+        "rowsha": "kKv0Mywtn6ZCky1r5JrjuXOh7BXwNveuWYvbAL32nuw=",
+        "originContent": "- Refresh‑safe authentication",
+        "translatedContent": "- Autenticación segura con refresco"
+      },
+      {
+        "row": 14,
+        "rowsha": "L/3QMfM1Quz8oCPUVfeLrsHZFh0R4ec7zBzk6MjH7gU=",
+        "originContent": "- Works with Next.js and plain React",
+        "translatedContent": "- Funciona con Next.js y React simple"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Buo33nsUObsmr6kzWjTXUcsJ8e1x4hyVAX5OtbCO598=",
+        "originContent": "Authentication, without the chaos.",
+        "translatedContent": "Autenticación, sin el caos."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

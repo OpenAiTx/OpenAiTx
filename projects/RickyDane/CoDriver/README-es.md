@@ -60,24 +60,24 @@
 <p align="center">
   Un explorador de archivos simple que nació porque quería aprender el lenguaje Rust.
   <br>
-  Es independiente del sistema operativo y está optimizado para rendimiento.
+  Es independiente del sistema operativo y está optimizado para el rendimiento.
 </p>
 
 <br/><br/>
 
-El rendimiento se logra gracias a ["jwalk"](https://crates.io/crates/jwalk/versions) y ["Tauri"](https://tauri.app/).
+El rendimiento se logra mediante ["jwalk"](https://crates.io/crates/jwalk/versions) y ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se debe a Rust, la velocidad del disco y la potencia del cpu.
+CoDriver no utiliza caché de rutas para acceder a archivos y carpetas, por lo que el rendimiento se logra gracias a Rust, la velocidad del disco y la potencia del CPU.
 
-⁉️ ¡Ten en cuenta que este software aún está en desarrollo y puede contener errores!
+⁉️ ¡Ten en cuenta que este software aún está en desarrollo y contendrá errores!
 <br/><br/>
 
 # Enlaces
 - <a href="#basic-features">Características básicas</a>
 - <a href="#advanced-features">Características avanzadas</a>
 - <a href="#dependencies-if-not-working-instantly">Dependencias</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">Integración FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">Problemas conocidos</a>
+- <a href="#-ftp-sftp-integration">Integración FTP / SFTP</a>
+- <a href="#-known-issues">Problemas conocidos</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">Interfaz de usuario</a>
 
@@ -231,6 +231,6 @@ Los artefactos de lanzamiento de macOS deben estar firmados y notarizados para e
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

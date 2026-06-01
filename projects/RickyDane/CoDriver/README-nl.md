@@ -60,24 +60,24 @@
 <p align="center">
   Een eenvoudige bestandsverkenner die is ontstaan omdat ik de Rust-taal wilde leren.
   <br>
-  Het is onafhankelijk van het besturingssysteem en geoptimaliseerd voor snelheid.
+  Het is onafhankelijk van het besturingssysteem en geoptimaliseerd voor prestaties.
 </p>
 
 <br/><br/>
 
 De prestaties worden bereikt door ["jwalk"](https://crates.io/crates/jwalk/versions) en ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver gebruikt geen padcaching om bestanden en mappen te openen; de prestaties zijn te danken aan Rust, de snelheid van de schijf en de kracht van de cpu.
+CoDriver gebruikt geen pad-caching om toegang te krijgen tot bestanden en mappen, dus de prestaties worden bereikt door Rust, de snelheid van de schijf en de kracht van de cpu.
 
-⁉️ Houd er rekening mee dat deze software nog in ontwikkeling is en bugs kan bevatten!
+⁉️ Houd er rekening mee dat deze software nog in ontwikkeling is en bugs zal bevatten!
 <br/><br/>
 
 # Links
 - <a href="#basic-features">Basisfuncties</a>
 - <a href="#advanced-features">Geavanceerde functies</a>
-- <a href="#dependencies-if-not-working-instantly">Vereisten</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP integratie</a>
-- <a href="#%EF%B8%8F-known-issues">Bekende problemen</a>
+- <a href="#dependencies-if-not-working-instantly">Afhankelijkheden</a>
+- <a href="#-ftp-sftp-integration">FTP / SFTP-integratie</a>
+- <a href="#-known-issues">Bekende problemen</a>
 - <a href="#-todos">Te doen</a>
 - <a href="#user-interface">Gebruikersinterface</a>
 
@@ -231,6 +231,6 @@ macOS release-artikelen moeten worden ondertekend en genotariseerd om te voorkom
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

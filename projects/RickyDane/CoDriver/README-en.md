@@ -58,16 +58,16 @@
 <br/>
 
 <p align="center">
-  A simple file explorer that was created because I wanted to learn the Rust language.
+  A simple file explorer created because I wanted to learn the Rust language.
   <br>
   It is cross-platform and optimized for performance.
 </p>
 
 <br/><br/>
 
-The performance comes from ["jwalk"](https://crates.io/crates/jwalk/versions) and ["Tauri"](https://tauri.app/).
+Performance is achieved through ["jwalk"](https://crates.io/crates/jwalk/versions) and ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver does not use path caching to access files and folders, so the performance is determined by Rust, the speed of your disk, and the power of your CPU.
+CoDriver does not use path caching to access files and folders, so performance is determined by Rust, disk speed, and CPU power.
 
 ⁉️ Please note that this software is still a work in progress and may contain bugs!
 <br/><br/>
@@ -76,8 +76,8 @@ CoDriver does not use path caching to access files and folders, so the performan
 - <a href="#basic-features">Basic features</a>
 - <a href="#advanced-features">Advanced features</a>
 - <a href="#dependencies-if-not-working-instantly">Dependencies</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP integration</a>
-- <a href="#%EF%B8%8F-known-issues">Known issues</a>
+- <a href="#-ftp-sftp-integration">FTP / SFTP integration</a>
+- <a href="#-known-issues">Known issues</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">User interface</a>
 
@@ -231,6 +231,6 @@ macOS release artifacts must be signed and notarized to avoid Gatekeeper reporti
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

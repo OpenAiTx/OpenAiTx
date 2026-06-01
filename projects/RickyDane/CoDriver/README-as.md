@@ -58,26 +58,26 @@
 <br/>
 
 <p align="center">
-  এটা সহজ ফাইল এক্সপ্লোৰাৰ যি মোৰ ৰাষ্ট ভাষা শিকিবলৈ ইচ্ছা কৰা বাবে জন্ম হৈছিল।
+  এটা সহজ ফাইল এক্সপ্লোৰাৰ, যি মই ৰাষ্ট ভাষা শিকিব বিচাৰোঁ বুলি জন্ম হৈছিল।
   <br>
-  এইটো অপাৰেটিং চিষ্টেমৰ পৰা স্বাধীন আৰু অপ্টিমাইজেশ্যনৰ বাবে কম কৰা হৈছে।
+  ই অপাৰেটিং চিষ্টেম নিৰ্ভৰ নহয় আৰু অপ্টিমাইজেশ্যনৰ বাবে কটকটোৱা।
 </p>
 
 <br/><br/>
 
-প্ৰদৰ্শন ["jwalk"](https://crates.io/crates/jwalk/versions) আৰু ["Tauri"](https://tauri.app/) দ্বাৰা লাভ কৰা হৈছে।
+কাৰ্যক্ষমতা ["jwalk"](https://crates.io/crates/jwalk/versions) আৰু ["Tauri"](https://tauri.app/) দ্বাৰা লাভ কৰা হৈছে।
 <br/><br/>
-CoDriver-এ ফাইল আৰু ফোল্ডাৰসমূহত প্ৰৱেশ কৰিবলৈ পথ কেছিং ব্যৱহাৰ নকৰে, সেয়ে প্ৰদৰ্শন ৰাষ্ট, ডিছ্কৰ গতি আৰু cpu-ৰ শক্তিৰ দ্বাৰা লাভ কৰা হয়।
+CoDriver-এ ফাইল আৰু ফোল্ডাৰসমূহত প্ৰৱেশ কৰিবলৈ পথ কেশিং ব্যৱহাৰ নকৰে, সেয়ে কাৰ্যক্ষমতা ৰাষ্ট, ডিস্কৰ গতি আৰু CPU-ৰ শক্তিৰ দ্বাৰা লাভ কৰা হয়।
 
-⁉️ মনত ৰাখিব যে এই ছফ্টৱেয়াৰটো এতিয়াও উন্নয়নৰ অধীনত আছে আৰু ইয়াত বাগ্ থাকিব পাৰে!
+⁉️ মনত ৰাখিব যে এই ছফ্টৱেৰ এতিয়াও উন্নয়নৰ চলিত অৱস্থাত আছে আৰু তাত বাগ থাকিব পাৰে!
 <br/><br/>
 
-# সংযোগসমূহ
+# লিংকসমূহ
 - <a href="#basic-features">মৌলিক বৈশিষ্ট্যসমূহ</a>
 - <a href="#advanced-features">উন্নত বৈশিষ্ট্যসমূহ</a>
-- <a href="#dependencies-if-not-working-instantly">নির্ভরতাসমূহ</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP সংযোগ</a>
-- <a href="#%EF%B8%8F-known-issues">জানা সমস্যাবোৰ</a>
+- <a href="#dependencies-if-not-working-instantly">নির্ভৰশীলতা</a>
+- <a href="#-ftp-sftp-integration">FTP / SFTP সংহতি</a>
+- <a href="#-known-issues">জানা সমস্যা</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">ইউজাৰ ইণ্টাৰফেচ</a>
 
@@ -231,6 +231,6 @@ macOS মুক্তি আৰ্টিফেক্টসমূহ স্বা
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

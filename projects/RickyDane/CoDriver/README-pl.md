@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Postaw mi kawę na ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Kup mi kawę na ko-fi.com' />
   </a>
 </p>
 
@@ -65,9 +65,9 @@
 
 <br/><br/>
 
-Wydajność jest osiągana dzięki ["jwalk"](https://crates.io/crates/jwalk/versions) oraz ["Tauri"](https://tauri.app/).
+Wydajność jest osiągnięta dzięki ["jwalk"](https://crates.io/crates/jwalk/versions) oraz ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver nie używa buforowania ścieżek do dostępu do plików i folderów, więc wydajność zapewnia Rust, szybkość dysku i moc procesora.
+CoDriver nie używa buforowania ścieżek do dostępu do plików i folderów, więc wydajność uzyskiwana jest dzięki Rustowi, szybkości dysku i mocy procesora.
 
 ⁉️ Pamiętaj, że to oprogramowanie jest nadal w fazie rozwoju i może zawierać błędy!
 <br/><br/>
@@ -76,8 +76,8 @@ CoDriver nie używa buforowania ścieżek do dostępu do plików i folderów, wi
 - <a href="#basic-features">Podstawowe funkcje</a>
 - <a href="#advanced-features">Zaawansowane funkcje</a>
 - <a href="#dependencies-if-not-working-instantly">Zależności</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">Integracja FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">Znane problemy</a>
+- <a href="#-ftp-sftp-integration">Integracja FTP / SFTP</a>
+- <a href="#-known-issues">Znane problemy</a>
 - <a href="#-todos">Zadania</a>
 - <a href="#user-interface">Interfejs użytkownika</a>
 
@@ -231,6 +231,6 @@ Artefakty wydania na macOS muszą być podpisane i poświadczone, aby uniknąć 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

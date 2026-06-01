@@ -58,26 +58,26 @@
 <br/>
 
 <p align="center">
-  โปรแกรมสำรวจไฟล์แบบง่ายที่เกิดขึ้นเพราะต้องการเรียนรู้ภาษา Rust
+  ตัวสำรวจไฟล์แบบง่ายที่เกิดขึ้นเพราะฉันต้องการเรียนรู้ภาษา Rust
   <br>
-  โปรแกรมนี้ไม่ขึ้นกับระบบปฏิบัติการและถูกปรับแต่งเพื่อประสิทธิภาพสูงสุด
+  ไม่ขึ้นกับระบบปฏิบัติการและปรับแต่งเพื่อเพิ่มประสิทธิภาพ
 </p>
 
 <br/><br/>
 
-ประสิทธิภาพได้มาจากการใช้ ["jwalk"](https://crates.io/crates/jwalk/versions) และ ["Tauri"](https://tauri.app/)
+ประสิทธิภาพเกิดจากการใช้ ["jwalk"](https://crates.io/crates/jwalk/versions) และ ["Tauri"](https://tauri.app/)
 <br/><br/>
-CoDriver ไม่ใช้การแคช path ในการเข้าถึงไฟล์และโฟลเดอร์ ดังนั้นประสิทธิภาพจึงขึ้นอยู่กับ Rust, ความเร็วของดิสก์ และพลังของซีพียู
+CoDriver ไม่ใช้การแคชเส้นทางเพื่อเข้าถึงไฟล์และโฟลเดอร์ ดังนั้นประสิทธิภาพจึงขึ้นอยู่กับ Rust ความเร็วของดิสก์ และพลังของซีพียู
 
-⁉️ โปรดทราบว่าโปรแกรมนี้ยังอยู่ระหว่างการพัฒนาและอาจมีบั๊ก!
+⁉️ โปรดทราบว่าโปรแกรมนี้ยังอยู่ในระหว่างการพัฒนาและอาจมีข้อผิดพลาด!
 <br/><br/>
 
 # ลิงก์
 - <a href="#basic-features">ฟีเจอร์พื้นฐาน</a>
 - <a href="#advanced-features">ฟีเจอร์ขั้นสูง</a>
 - <a href="#dependencies-if-not-working-instantly">การพึ่งพา</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">การเชื่อมต่อ FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">ปัญหาที่ทราบ</a>
+- <a href="#-ftp-sftp-integration">การเชื่อมต่อ FTP / SFTP</a>
+- <a href="#-known-issues">ปัญหาที่ทราบ</a>
 - <a href="#-todos">รายการที่ต้องทำ</a>
 - <a href="#user-interface">ส่วนติดต่อผู้ใช้</a>
 
@@ -231,6 +231,6 @@ CoDriver รองรับการเชื่อมต่อกับ FTP แ
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

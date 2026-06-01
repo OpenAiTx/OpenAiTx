@@ -58,16 +58,16 @@
 <br/>
 
 <p align="center">
-  Un explorateur de fichiers simple qui est né de mon envie d'apprendre le langage Rust.
+  Un explorateur de fichiers simple qui a vu le jour parce que je voulais apprendre le langage Rust.
   <br>
   Il est indépendant du système d'exploitation et optimisé pour la performance.
 </p>
 
 <br/><br/>
 
-La performance est assurée par ["jwalk"](https://crates.io/crates/jwalk/versions) et ["Tauri"](https://tauri.app/).
+La performance est obtenue grâce à ["jwalk"](https://crates.io/crates/jwalk/versions) et ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver n'utilise pas de mise en cache des chemins pour accéder aux fichiers et dossiers, la performance dépend donc de Rust, de la vitesse du disque et de la puissance du processeur.
+CoDriver n'utilise pas de mise en cache des chemins pour accéder aux fichiers et dossiers, donc la performance est due à Rust, à la vitesse du disque et à la puissance du processeur.
 
 ⁉️ Gardez à l'esprit que ce logiciel est toujours en cours de développement et peut contenir des bugs !
 <br/><br/>
@@ -76,8 +76,8 @@ CoDriver n'utilise pas de mise en cache des chemins pour accéder aux fichiers e
 - <a href="#basic-features">Fonctionnalités de base</a>
 - <a href="#advanced-features">Fonctionnalités avancées</a>
 - <a href="#dependencies-if-not-working-instantly">Dépendances</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">Intégration FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">Problèmes connus</a>
+- <a href="#-ftp-sftp-integration">Intégration FTP / SFTP</a>
+- <a href="#-known-issues">Problèmes connus</a>
 - <a href="#-todos">Tous</a>
 - <a href="#user-interface">Interface utilisateur</a>
 
@@ -231,6 +231,6 @@ Les artefacts de version macOS doivent être signés et notarized pour éviter q
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

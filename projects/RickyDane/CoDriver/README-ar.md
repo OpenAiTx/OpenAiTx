@@ -51,33 +51,33 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='اشترِ لي قهوة على ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  مستكشف ملفات بسيط وُلد لأنني أردت تعلم لغة Rust.
+  مستكشف ملفات بسيط تم تطويره لأنني أردت تعلم لغة Rust.
   <br>
-  هو مستقل عن نظام التشغيل ومصمم لتحقيق أقصى قدر من التحسين.
+  هو مستقل عن نظام التشغيل ومحسن للأداء.
 </p>
 
 <br/><br/>
 
 يتم تحقيق الأداء بواسطة ["jwalk"](https://crates.io/crates/jwalk/versions) و ["Tauri"](https://tauri.app/).
 <br/><br/>
-لا يستخدم CoDriver تخزين المسارات المؤقت للوصول إلى الملفات والمجلدات، لذا فإن الأداء يعتمد على Rust وسرعة القرص وقوة المعالج.
+لا يستخدم CoDriver التخزين المؤقت للمسارات للوصول إلى الملفات والمجلدات، لذا فإن الأداء يتحقق بفضل لغة Rust وسرعة القرص وقوة المعالج.
 
-⁉️ يرجى ملاحظة أن هذا البرنامج لا يزال قيد التطوير وقد يحتوي على أخطاء!
+⁉️ يرجى العلم أن هذا البرنامج لا يزال قيد التطوير وسيحتوي على أخطاء!
 <br/><br/>
 
 # الروابط
 - <a href="#basic-features">الميزات الأساسية</a>
 - <a href="#advanced-features">الميزات المتقدمة</a>
 - <a href="#dependencies-if-not-working-instantly">المتطلبات</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">تكامل FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">مشاكل معروفة</a>
+- <a href="#-ftp-sftp-integration">تكامل FTP / SFTP</a>
+- <a href="#-known-issues">المشاكل المعروفة</a>
 - <a href="#-todos">قائمة المهام</a>
 - <a href="#user-interface">واجهة المستخدم</a>
 
@@ -231,6 +231,6 @@ sudo dnf group install "C Development Tools and Libraries"
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

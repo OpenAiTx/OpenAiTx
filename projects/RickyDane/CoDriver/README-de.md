@@ -51,33 +51,33 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Kauf mir einen Kaffee bei ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Kauf mir einen Kaffee auf ko-fi.com' />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  Ein einfacher Dateiexplorer, der entstand, weil ich die Rust-Sprache lernen wollte.
+  Ein einfacher Dateiexplorer, der entstanden ist, weil ich die Programmiersprache Rust lernen wollte.
   <br>
-  Er ist betriebssystemunabhängig und für Optimierung ausgelegt.
+  Er ist betriebssystemunabhängig und auf Optimierung zugeschnitten.
 </p>
 
 <br/><br/>
 
 Die Leistung wird durch ["jwalk"](https://crates.io/crates/jwalk/versions) und ["Tauri"](https://tauri.app/) erreicht.
 <br/><br/>
-CoDriver verwendet kein Pfad-Caching zum Zugriff auf Dateien und Ordner, daher wird die Leistung durch Rust, die Geschwindigkeit der Festplatte und die CPU-Leistung erzielt.
+CoDriver verwendet kein Pfad-Caching zum Zugriff auf Dateien und Ordner, daher wird die Performance durch Rust, die Geschwindigkeit der Festplatte und die Leistung der CPU erzielt.
 
-⁉️ Beachten Sie, dass diese Software noch in der Entwicklung ist und Fehler enthalten kann!
+⁉️ Beachten Sie, dass diese Software noch in Entwicklung ist und Fehler enthalten kann!
 <br/><br/>
 
 # Links
 - <a href="#basic-features">Grundfunktionen</a>
 - <a href="#advanced-features">Erweiterte Funktionen</a>
 - <a href="#dependencies-if-not-working-instantly">Abhängigkeiten</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">FTP / SFTP-Integration</a>
-- <a href="#%EF%B8%8F-known-issues">Bekannte Probleme</a>
+- <a href="#-ftp-sftp-integration">FTP / SFTP Integration</a>
+- <a href="#-known-issues">Bekannte Probleme</a>
 - <a href="#-todos">Todos</a>
 - <a href="#user-interface">Benutzeroberfläche</a>
 
@@ -231,6 +231,6 @@ macOS-Release-Artefakte müssen signiert und notariell beglaubigt werden, damit 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---

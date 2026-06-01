@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href='https://ko-fi.com/rickydane'>
-      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+      <img height='36px' style='border: 0px; height: 36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Comprami un caffè su ko-fi.com' />
   </a>
 </p>
 
@@ -60,14 +60,14 @@
 <p align="center">
   Un semplice esploratore di file nato dal desiderio di imparare il linguaggio Rust.
   <br>
-  È indipendente dal sistema operativo e ottimizzato per le prestazioni.
+  È indipendente dal sistema operativo e ottimizzato per la massima efficienza.
 </p>
 
 <br/><br/>
 
 Le prestazioni sono ottenute grazie a ["jwalk"](https://crates.io/crates/jwalk/versions) e ["Tauri"](https://tauri.app/).
 <br/><br/>
-CoDriver non utilizza la memorizzazione nella cache dei percorsi per accedere ai file e alle cartelle, quindi le prestazioni dipendono da Rust, dalla velocità del disco e dalla potenza della cpu.
+CoDriver non utilizza la cache dei percorsi per accedere a file e cartelle, quindi le prestazioni dipendono da Rust, dalla velocità del disco e dalla potenza della cpu.
 
 ⁉️ Tieni presente che questo software è ancora in fase di sviluppo e potrebbe contenere bug!
 <br/><br/>
@@ -76,8 +76,8 @@ CoDriver non utilizza la memorizzazione nella cache dei percorsi per accedere ai
 - <a href="#basic-features">Funzionalità di base</a>
 - <a href="#advanced-features">Funzionalità avanzate</a>
 - <a href="#dependencies-if-not-working-instantly">Dipendenze</a>
-- <a href="#%EF%B8%8F-ftp-sftp-integration">Integrazione FTP / SFTP</a>
-- <a href="#%EF%B8%8F-known-issues">Problemi noti</a>
+- <a href="#-ftp-sftp-integration">Integrazione FTP / SFTP</a>
+- <a href="#-known-issues">Problemi noti</a>
 - <a href="#-todos">Todo</a>
 - <a href="#user-interface">Interfaccia utente</a>
 
@@ -231,6 +231,6 @@ Gli artefatti di rilascio per macOS devono essere firmati e notarizzati per evit
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-01
 
 ---
