@@ -1,0 +1,913 @@
+[
+  {
+    "Id": 1,
+    "Content": "# EbookDownloader\nA tool to download purchased e-books from different publishers.\n\n![Preview](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)\n\n## Table of Contents\n- [Supported Publishers (websites)](#supported-publishers-websites)\n- [Automatic Installation](#automatic-installation)\n- [Manual Installation](#manual-installation)\n- [Running](#running)\n- [Saving Credentials](#saving-credentials-to-avoid-entering-them-every-time-optional)\n- [Bildungslogin (Cornelsen / Westermann)](#bildungslogin)\n\n## Supported Publishers (websites)\n| Publisher | Website | Best Quality | Selectable Text | Hyperrefs | Notes |\n| --- | --- | --- | --- | --- | --- |\n| Cornelsen (\"New Method\") | cornelsen.de | Lossless PDF | &check; | &check; |  |\n| Cornelsen (\"Old Method\") | cornelsen.de | Image (8617px x 11792px) composition | &check; | &cross; |  |\n| Cornelsen.CH | ebooks.cornelsen.ch | Lossless PDF | &check; | &cross; |  |\n| Cornelsen | scook.de | Image (?) composition | &cross; | &cross; | |\n| Allango Klett | allango.net | Lossless PDF | &check; | ? | [1] |\n| Klett | klett.de | Image (3072px x 4096px) composition | &check; | &check; | |\n| Westermann | westermann.de | Image (2244px x 3071px) composition | &check; | &cross; | |\n| C.C.BUCHNER | click-and-study.de | Image (1658px x 2211px) composition | &check; | &cross; | |\n| C.C.BUCHNER | click-and-teach.de | Image (1658px x 2211px) composition | &check; | &cross; | |\n| Book2Look | book2look.com | Lossless PDF | &check; | ? | [2] |\n| kiosquemag | kiosquemag.com | Image (?) composition | &cross; | &cross; | |\n| Helbling Media App | helbling.com | Lossless PDF | &check; | &cross; | |\n\n[1]: Website allows to download files that are not owned\n\n[2]: No Account needed, only the book id\n\n## Automatic Installation\nAt first, clone or download the repository.\n\nThe tool uses image processing libraries and has to be executed with nodejs, therefore some dependencies are required.\n\nYou can eiher use the installation scripts (`init.bat` for Windows, `init.sh` for Debian based distros) or use manual installation. The installation scripts will download all dependencies for you. To execute them, double click the `.bat` file on windows or execute the `.sh` file in the terminal on linux after adding execution permissions to the `.sh` file.\n",
+    "ContentSha": "pryBYnSYkr2GqcQICRxrRaSDdBZ7NSo+tOBlU0MxS1E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# EbookDownloader\n一个用于从不同出版商下载已购买电子书的工具。\n\n![预览](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)\n\n## 目录\n- [支持的出版商（网站）](#supported-publishers-websites)\n- [自动安装](#automatic-installation)\n- [手动安装](#manual-installation)\n- [运行](#running)\n- [保存凭证](#saving-credentials-to-avoid-entering-them-every-time-optional)\n- [Bildungslogin（Cornelsen / Westermann）](#bildungslogin)\n\n## 支持的出版商（网站）\n| 出版商 | 网站 | 最佳质量 | 可选文本 | 超链接 | 备注 |\n| --- | --- | --- | --- | --- | --- |\n| Cornelsen（“新方法”） | cornelsen.de | 无损 PDF | &check; | &check; |  |\n| Cornelsen（“旧方法”） | cornelsen.de | 图像（8617px x 11792px）合成 | &check; | &cross; |  |\n| Cornelsen.CH | ebooks.cornelsen.ch | 无损 PDF | &check; | &cross; |  |\n| Cornelsen | scook.de | 图像（？）合成 | &cross; | &cross; | |\n| Allango Klett | allango.net | 无损 PDF | &check; | ? | [1] |\n| Klett | klett.de | 图像（3072px x 4096px）合成 | &check; | &check; | |\n| Westermann | westermann.de | 图像（2244px x 3071px）合成 | &check; | &cross; | |\n| C.C.BUCHNER | click-and-study.de | 图像（1658px x 2211px）合成 | &check; | &cross; | |\n| C.C.BUCHNER | click-and-teach.de | 图像（1658px x 2211px）合成 | &check; | &cross; | |\n| Book2Look | book2look.com | 无损 PDF | &check; | ? | [2] |\n| kiosquemag | kiosquemag.com | 图像（？）合成 | &cross; | &cross; | |\n| Helbling Media App | helbling.com | 无损 PDF | &check; | &cross; | |\n\n[1]: 网站允许下载未拥有的文件\n\n[2]: 不需要账户，仅需书籍ID\n\n## 自动安装\n首先，克隆或下载仓库。\n\n该工具使用图像处理库，必须用 nodejs 运行，因此需要一些依赖。\n\n你可以使用安装脚本（Windows 使用 `init.bat`，Debian 系发行版使用 `init.sh`）或手动安装。安装脚本会为你下载所有依赖。执行方法：Windows 下双击 `.bat` 文件，Linux 下赋予 `.sh` 文件执行权限后在终端执行 `.sh` 文件。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uaLWT84/8JZfpUOIAYCodapZ1R1d++lDnrUGmSzo98A=",
+        "originContent": "# EbookDownloader",
+        "translatedContent": "# EbookDownloader"
+      },
+      {
+        "row": 2,
+        "rowsha": "DU9qol+oyxyogqu2Vv4r4Hg1K3KSNUKzp9kxgTTUiDo=",
+        "originContent": "A tool to download purchased e-books from different publishers.",
+        "translatedContent": "一个用于从不同出版商下载已购买电子书的工具。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "V4Qy/FsgCtsWWUyvg90U/nTVRyM5rFNl2mKhVkUWnUI=",
+        "originContent": "![Preview](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)",
+        "translatedContent": "![预览](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## 目录"
+      },
+      {
+        "row": 7,
+        "rowsha": "LCrkDLcOgEWV9afYWk3MiA0IlSF4i+JMdvF6y3c/fu8=",
+        "originContent": "- [Supported Publishers (websites)](#supported-publishers-websites)",
+        "translatedContent": "- [支持的出版商（网站）](#supported-publishers-websites)"
+      },
+      {
+        "row": 8,
+        "rowsha": "/2JPFFo/gBttL0SuBaIVHkkuK+FJCy7Fot8Esi0fAxo=",
+        "originContent": "- [Automatic Installation](#automatic-installation)",
+        "translatedContent": "- [自动安装](#automatic-installation)"
+      },
+      {
+        "row": 9,
+        "rowsha": "liyoCyIElwBBqRtaIbydXYqh6Or2dNqL8PeUZ6ZLGis=",
+        "originContent": "- [Manual Installation](#manual-installation)",
+        "translatedContent": "- [手动安装](#manual-installation)"
+      },
+      {
+        "row": 10,
+        "rowsha": "AU+rbmlmMp2tQbr+fHIkZuz64BsRfc38eWfM6s5FLxU=",
+        "originContent": "- [Running](#running)",
+        "translatedContent": "- [运行](#running)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Ss7fxyxOucN6L4wuTS+56mhAKGr1NkR8P+tNIv1Oqa0=",
+        "originContent": "- [Saving Credentials](#saving-credentials-to-avoid-entering-them-every-time-optional)",
+        "translatedContent": "- [保存凭证](#saving-credentials-to-avoid-entering-them-every-time-optional)"
+      },
+      {
+        "row": 12,
+        "rowsha": "rrSlVQNTaYoouNeRlAygFZTdJ24lqLvIYLFxRPoFd90=",
+        "originContent": "- [Bildungslogin (Cornelsen / Westermann)](#bildungslogin)",
+        "translatedContent": "- [Bildungslogin（Cornelsen / Westermann）](#bildungslogin)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "JNhYvvwLgrU/hlmXyBhwHGsQxKtx2iDg8vC5s92sHkQ=",
+        "originContent": "## Supported Publishers (websites)",
+        "translatedContent": "## 支持的出版商（网站）"
+      },
+      {
+        "row": 15,
+        "rowsha": "UjNAgd8JsqAcc91bmyyyw7YeRwVrbnnYXgp4Hg+5cxE=",
+        "originContent": "| Publisher | Website | Best Quality | Selectable Text | Hyperrefs | Notes |",
+        "translatedContent": "| 出版商 | 网站 | 最佳质量 | 可选文本 | 超链接 | 备注 |"
+      },
+      {
+        "row": 16,
+        "rowsha": "5YDQAI65d4pVgrBy8sGrQOdcyae00uus0xQS0Hu8D5s=",
+        "originContent": "| --- | --- | --- | --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- | --- | --- | --- |"
+      },
+      {
+        "row": 17,
+        "rowsha": "kP0iT5gLtCS13yYClK3seD8tMuDZd6vpeEr7/wseDOc=",
+        "originContent": "| Cornelsen (\"New Method\") | cornelsen.de | Lossless PDF | &check; | &check; |  |",
+        "translatedContent": "| Cornelsen（“新方法”） | cornelsen.de | 无损 PDF | &check; | &check; |  |"
+      },
+      {
+        "row": 18,
+        "rowsha": "qgCxzwWCxGuNaJN8r6HBYCjxkuheNLEzwHizZBUJ1m8=",
+        "originContent": "| Cornelsen (\"Old Method\") | cornelsen.de | Image (8617px x 11792px) composition | &check; | &cross; |  |",
+        "translatedContent": "| Cornelsen（“旧方法”） | cornelsen.de | 图像（8617px x 11792px）合成 | &check; | &cross; |  |"
+      },
+      {
+        "row": 19,
+        "rowsha": "c2GN5o9NfbI2eLDNHj8yUh6W41rQrVfaStOfM/hIcbk=",
+        "originContent": "| Cornelsen.CH | ebooks.cornelsen.ch | Lossless PDF | &check; | &cross; |  |",
+        "translatedContent": "| Cornelsen.CH | ebooks.cornelsen.ch | 无损 PDF | &check; | &cross; |  |"
+      },
+      {
+        "row": 20,
+        "rowsha": "kJ4KuX7AV8fiv6fChEXyglyW4P/xftEIoT8nKENkAMU=",
+        "originContent": "| Cornelsen | scook.de | Image (?) composition | &cross; | &cross; | |",
+        "translatedContent": "| Cornelsen | scook.de | 图像（？）合成 | &cross; | &cross; | |"
+      },
+      {
+        "row": 21,
+        "rowsha": "Vk0GRkPUPgi/ibjWxaHQeOlB4Pbf/BBLrCDO3VXBTmk=",
+        "originContent": "| Allango Klett | allango.net | Lossless PDF | &check; | ? | [1] |",
+        "translatedContent": "| Allango Klett | allango.net | 无损 PDF | &check; | ? | [1] |"
+      },
+      {
+        "row": 22,
+        "rowsha": "o4lJCEGWAAb9/e2H2Jy9QKM9O0Y2VMUoeG4hAjbg+rA=",
+        "originContent": "| Klett | klett.de | Image (3072px x 4096px) composition | &check; | &check; | |",
+        "translatedContent": "| Klett | klett.de | 图像（3072px x 4096px）合成 | &check; | &check; | |"
+      },
+      {
+        "row": 23,
+        "rowsha": "qRJqGstvsaINtU5XOVNWr8rfQzKJRoaXyI/ELeajqSE=",
+        "originContent": "| Westermann | westermann.de | Image (2244px x 3071px) composition | &check; | &cross; | |",
+        "translatedContent": "| Westermann | westermann.de | 图像（2244px x 3071px）合成 | &check; | &cross; | |"
+      },
+      {
+        "row": 24,
+        "rowsha": "tX0x6+32tJG4aBgMqSf8tOX8b8dAz8vMTGmsQK+u+5M=",
+        "originContent": "| C.C.BUCHNER | click-and-study.de | Image (1658px x 2211px) composition | &check; | &cross; | |",
+        "translatedContent": "| C.C.BUCHNER | click-and-study.de | 图像（1658px x 2211px）合成 | &check; | &cross; | |"
+      },
+      {
+        "row": 25,
+        "rowsha": "LUfoA0ARrGVMVBIHVeqKd2MKjxBgor1rXMUJeM85J+w=",
+        "originContent": "| C.C.BUCHNER | click-and-teach.de | Image (1658px x 2211px) composition | &check; | &cross; | |",
+        "translatedContent": "| C.C.BUCHNER | click-and-teach.de | 图像（1658px x 2211px）合成 | &check; | &cross; | |"
+      },
+      {
+        "row": 26,
+        "rowsha": "Mfxlcbz5c+mUwkah6ecmDaTX/Oggh4CMz3mN8nkQQlY=",
+        "originContent": "| Book2Look | book2look.com | Lossless PDF | &check; | ? | [2] |",
+        "translatedContent": "| Book2Look | book2look.com | 无损 PDF | &check; | ? | [2] |"
+      },
+      {
+        "row": 27,
+        "rowsha": "Qfu+USrAkudRNeDCMy0uVBj6Wv6oGBw3KmH0BWL/JsE=",
+        "originContent": "| kiosquemag | kiosquemag.com | Image (?) composition | &cross; | &cross; | |",
+        "translatedContent": "| kiosquemag | kiosquemag.com | 图像（？）合成 | &cross; | &cross; | |"
+      },
+      {
+        "row": 28,
+        "rowsha": "piZDR8x8wQUetapc2XoAst62ROobdV4jfTTMK6OwbSg=",
+        "originContent": "| Helbling Media App | helbling.com | Lossless PDF | &check; | &cross; | |",
+        "translatedContent": "| Helbling Media App | helbling.com | 无损 PDF | &check; | &cross; | |"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "GrfQxwW+GbUOU4MIKaABKZVlfUWwm7b5tRk0Hma4Y+c=",
+        "originContent": "[1]: Website allows to download files that are not owned",
+        "translatedContent": "[1]: 网站允许下载未拥有的文件"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "749+6fc9J2/yMFHNnphQwTbyBwGwvQLrWuNPoUR91q8=",
+        "originContent": "[2]: No Account needed, only the book id",
+        "translatedContent": "[2]: 不需要账户，仅需书籍ID"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "qTVKMJjF0lE7uvexQoVnIqD892p7QAQMAJqyf00ORrg=",
+        "originContent": "## Automatic Installation",
+        "translatedContent": "## 自动安装"
+      },
+      {
+        "row": 35,
+        "rowsha": "hTohGvFf+zSFSANPI8b+11X58fDflVPTCOiM9clHq78=",
+        "originContent": "At first, clone or download the repository.",
+        "translatedContent": "首先，克隆或下载仓库。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "LVmzZmNzwtKcBxgIECO+zpXCV+uFHddpYJAwzdsDWTM=",
+        "originContent": "The tool uses image processing libraries and has to be executed with nodejs, therefore some dependencies are required.",
+        "translatedContent": "该工具使用图像处理库，必须用 nodejs 运行，因此需要一些依赖。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "TG+L8xkDQhv46SW3l8yliSLPDhGt8A/zeuRo44vvWn8=",
+        "originContent": "You can eiher use the installation scripts (`init.bat` for Windows, `init.sh` for Debian based distros) or use manual installation. The installation scripts will download all dependencies for you. To execute them, double click the `.bat` file on windows or execute the `.sh` file in the terminal on linux after adding execution permissions to the `.sh` file.",
+        "translatedContent": "你可以使用安装脚本（Windows 使用 `init.bat`，Debian 系发行版使用 `init.sh`）或手动安装。安装脚本会为你下载所有依赖。执行方法：Windows 下双击 `.bat` 文件，Linux 下赋予 `.sh` 文件执行权限后在终端执行 `.sh` 文件。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Manual Installation\nAt first, clone or download the repository. Then follow the os-specific instructions below:\n\n### Windows\n1. Download `unifont-15.0.01.ttf` from http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf and put it in the project root\n1. Install `ffmpeg` and put the ffmpeg executable (named as `ffmpeg`) in the project root or add it to your path environment variable, if you need help you can follow [this](https://phoenixnap.com/kb/ffmpeg-windows) tutorial\n1. Install `mutool` and put the mutool executable (named as `mutool`) in the project root or add it to your path environment variable, you can find the most recent builds [here](https://mupdf.com/releases). Search for releases with `windows`. (only required for book2look and cornelsen.ch)\n1. Install `nodejs` and `npm` if you haven't already, you can find help [here](https://phoenixnap.com/kb/install-node-js-npm-on-windows)\n1. Run `npm install`\n1. Optionally install `image magick` and put the magick executable (named as `magick`) in the project root or add it to your path environment variable (required only for cornelsen \"old method\")\n\n### Linux\n1. Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`\n1. Install packages `ffmpeg`, `nodejs`, `mutool`/`mupdf-tools`/`mupdf`  (required for book2look and cornelsen.ch) and optionally `imagemagick` (required only for cornelsen \"old method\") with your favorite package manager\n1. Run `npm install`\n\n### Linux/Darwin with Nix\n- If you have nix-direnv, run `direnv allow` to obtain all dependencies\n- Otherwise, run `nix-shell`.\n- Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`\n\n## Running\nComplete the setup by running `npm install` in the project directory and\nstart the program by executing `npm start` from the project directory.\n\n## Saving credentials to avoid entering them every time (optional)\nYou can save your credentials in a `config.json` file to avoid entering them every time you start the program. To do this, create a file named `config.json` in the project root and add the following content:\n",
+    "ContentSha": "1p9ZE39voZwRCytF0aP3dh2RggaLFYbExPbsu6LhSAk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 手动安装\n首先，克隆或下载仓库。然后按照以下操作系统特定的说明进行操作：\n\n### Windows\n1. 从 http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf 下载 `unifont-15.0.01.ttf` 并放置在项目根目录\n1. 安装 `ffmpeg`，并将 ffmpeg 可执行文件（命名为 `ffmpeg`）放入项目根目录或添加到你的路径环境变量中，如需帮助可参考[此教程](https://phoenixnap.com/kb/ffmpeg-windows)\n1. 安装 `mutool`，并将 mutool 可执行文件（命名为 `mutool`）放入项目根目录或添加到你的路径环境变量中，你可以在[这里](https://mupdf.com/releases)找到最新版本。搜索带有 `windows` 的发布版本。（仅对 book2look 和 cornelsen.ch 必需）\n1. 如果尚未安装，安装 `nodejs` 和 `npm`，你可以在[这里](https://phoenixnap.com/kb/install-node-js-npm-on-windows)找到帮助\n1. 运行 `npm install`\n1. 可选安装 `image magick`，并将 magick 可执行文件（命名为 `magick`）放入项目根目录或添加到你的路径环境变量中（仅对 cornelsen “旧方法” 必需）\n\n### Linux\n1. 运行 `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`\n1. 使用你喜欢的软件包管理器安装 `ffmpeg`、`nodejs`、`mutool`/`mupdf-tools`/`mupdf`（book2look 和 cornelsen.ch 需要）以及可选的 `imagemagick`（仅对 cornelsen “旧方法” 必需）\n1. 运行 `npm install`\n\n### Linux/Darwin 使用 Nix\n- 如果你有 nix-direnv，运行 `direnv allow` 来获取所有依赖\n- 否则，运行 `nix-shell`\n- 运行 `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`\n\n## 运行\n在项目目录中运行 `npm install` 完成设置，\n然后在项目目录执行 `npm start` 启动程序。\n\n## 保存凭据以避免每次输入（可选）\n你可以将凭据保存在 `config.json` 文件中，以避免每次启动程序时输入。为此，在项目根目录创建一个名为 `config.json` 的文件，并添加以下内容：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "laS0KIYq72pvo1+ZXwKou2XNnPzMwETqxFf1uDd9iQs=",
+        "originContent": "## Manual Installation",
+        "translatedContent": "## 手动安装"
+      },
+      {
+        "row": 2,
+        "rowsha": "quMyIQmhLRuOFR1SqSQ1D9HaiTkPnmkw/5TLSzxf0wA=",
+        "originContent": "At first, clone or download the repository. Then follow the os-specific instructions below:",
+        "translatedContent": "首先，克隆或下载仓库。然后按照以下操作系统特定的说明进行操作："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 5,
+        "rowsha": "uheaOVnNfzl4LDa+jvd4YwprCrqxUIj+xN0VRl+VsLg=",
+        "originContent": "1. Download `unifont-15.0.01.ttf` from http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf and put it in the project root",
+        "translatedContent": "1. 从 http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf 下载 `unifont-15.0.01.ttf` 并放置在项目根目录"
+      },
+      {
+        "row": 6,
+        "rowsha": "UZLdXBwh8fJ6fPrBgDirOa6FM9rSh5suhsALfs3Htds=",
+        "originContent": "1. Install `ffmpeg` and put the ffmpeg executable (named as `ffmpeg`) in the project root or add it to your path environment variable, if you need help you can follow [this](https://phoenixnap.com/kb/ffmpeg-windows) tutorial",
+        "translatedContent": "1. 安装 `ffmpeg`，并将 ffmpeg 可执行文件（命名为 `ffmpeg`）放入项目根目录或添加到你的路径环境变量中，如需帮助可参考[此教程](https://phoenixnap.com/kb/ffmpeg-windows)"
+      },
+      {
+        "row": 7,
+        "rowsha": "K+8wK8dbpD3mdvZ/p6XEFug44o94Nwb8QmDXcj7dirM=",
+        "originContent": "1. Install `mutool` and put the mutool executable (named as `mutool`) in the project root or add it to your path environment variable, you can find the most recent builds [here](https://mupdf.com/releases). Search for releases with `windows`. (only required for book2look and cornelsen.ch)",
+        "translatedContent": "1. 安装 `mutool`，并将 mutool 可执行文件（命名为 `mutool`）放入项目根目录或添加到你的路径环境变量中，你可以在[这里](https://mupdf.com/releases)找到最新版本。搜索带有 `windows` 的发布版本。（仅对 book2look 和 cornelsen.ch 必需）"
+      },
+      {
+        "row": 8,
+        "rowsha": "UkrsDdFrWgYrvMFRSZvLy7ZKdQDf4T7VpxnFq3vuniY=",
+        "originContent": "1. Install `nodejs` and `npm` if you haven't already, you can find help [here](https://phoenixnap.com/kb/install-node-js-npm-on-windows)",
+        "translatedContent": "1. 如果尚未安装，安装 `nodejs` 和 `npm`，你可以在[这里](https://phoenixnap.com/kb/install-node-js-npm-on-windows)找到帮助"
+      },
+      {
+        "row": 9,
+        "rowsha": "wIRpnC0cAWAxl39J9UFNVq5WDcH9Ca5z8FavcK4IlEo=",
+        "originContent": "1. Run `npm install`",
+        "translatedContent": "1. 运行 `npm install`"
+      },
+      {
+        "row": 10,
+        "rowsha": "La2dAc3LTilXbu4c9lX7YcqS1g05n6FVogKNM7Gpoaw=",
+        "originContent": "1. Optionally install `image magick` and put the magick executable (named as `magick`) in the project root or add it to your path environment variable (required only for cornelsen \"old method\")",
+        "translatedContent": "1. 可选安装 `image magick`，并将 magick 可执行文件（命名为 `magick`）放入项目根目录或添加到你的路径环境变量中（仅对 cornelsen “旧方法” 必需）"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "### Linux"
+      },
+      {
+        "row": 13,
+        "rowsha": "uZnGmYTPUWzSz3cJK3M9eSscLgB4fmir7qKDfr3ixZw=",
+        "originContent": "1. Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`",
+        "translatedContent": "1. 运行 `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`"
+      },
+      {
+        "row": 14,
+        "rowsha": "ATrYMOpLxupdcYS25EvMBd2UtP3cWBI09BmBRw5Aq9w=",
+        "originContent": "1. Install packages `ffmpeg`, `nodejs`, `mutool`/`mupdf-tools`/`mupdf`  (required for book2look and cornelsen.ch) and optionally `imagemagick` (required only for cornelsen \"old method\") with your favorite package manager",
+        "translatedContent": "1. 使用你喜欢的软件包管理器安装 `ffmpeg`、`nodejs`、`mutool`/`mupdf-tools`/`mupdf`（book2look 和 cornelsen.ch 需要）以及可选的 `imagemagick`（仅对 cornelsen “旧方法” 必需）"
+      },
+      {
+        "row": 15,
+        "rowsha": "wIRpnC0cAWAxl39J9UFNVq5WDcH9Ca5z8FavcK4IlEo=",
+        "originContent": "1. Run `npm install`",
+        "translatedContent": "1. 运行 `npm install`"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "qPQMMyw6JQ5lPTiZcYRtOR8DbA1hoN+7sm/EkwuFfSY=",
+        "originContent": "### Linux/Darwin with Nix",
+        "translatedContent": "### Linux/Darwin 使用 Nix"
+      },
+      {
+        "row": 18,
+        "rowsha": "thGrDDBEwLB7e+UhLLxozZY8ow3LFJepB43quSjV+Es=",
+        "originContent": "- If you have nix-direnv, run `direnv allow` to obtain all dependencies",
+        "translatedContent": "- 如果你有 nix-direnv，运行 `direnv allow` 来获取所有依赖"
+      },
+      {
+        "row": 19,
+        "rowsha": "OIIpWuwurPEwqe4opbS1gj0PJUb2hJ856wLmL6ZgMQk=",
+        "originContent": "- Otherwise, run `nix-shell`.",
+        "translatedContent": "- 否则，运行 `nix-shell`"
+      },
+      {
+        "row": 20,
+        "rowsha": "uJqy8s0K3y2j1rJwgymwXjZlD1KuRMisfzbe1ev3YEk=",
+        "originContent": "- Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`",
+        "translatedContent": "- 运行 `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "R12PfnIRRtvCRrVK+NESghjBp1wFCZticvwj0mo4eZ0=",
+        "originContent": "## Running",
+        "translatedContent": "## 运行"
+      },
+      {
+        "row": 23,
+        "rowsha": "OVbn0k56p+Jz8t1SJvkO+3QwZL/nKktoCwhmCVig1B4=",
+        "originContent": "Complete the setup by running `npm install` in the project directory and",
+        "translatedContent": "在项目目录中运行 `npm install` 完成设置，"
+      },
+      {
+        "row": 24,
+        "rowsha": "+5+HoMeyIuvxW61UjFukI4ZgIeOH7pozvIXa77HPIBU=",
+        "originContent": "start the program by executing `npm start` from the project directory.",
+        "translatedContent": "然后在项目目录执行 `npm start` 启动程序。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "KwLrA3QvbAK33fx3bw6LcJ3tT7XFcSpjhnhnveeCuXQ=",
+        "originContent": "## Saving credentials to avoid entering them every time (optional)",
+        "translatedContent": "## 保存凭据以避免每次输入（可选）"
+      },
+      {
+        "row": 27,
+        "rowsha": "TEc1r2oRXQvX+J9g592OLHj+y1ZxAQtWzMWHYbymPb0=",
+        "originContent": "You can save your credentials in a `config.json` file to avoid entering them every time you start the program. To do this, create a file named `config.json` in the project root and add the following content:",
+        "translatedContent": "你可以将凭据保存在 `config.json` 文件中，以避免每次启动程序时输入。为此，在项目根目录创建一个名为 `config.json` 的文件，并添加以下内容："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```json\n{\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    },\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    }\n    [...]\n}\n```",
+    "ContentSha": "xLuaRkCSq9wuDDg+DlaDINiVDHvToGd9TnCq1/+ks9A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    },\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    }\n    [...]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "Bb9Xy9BcHX3NFVsA3VoqE7tpkHQcwOvHL5CAjIpZdzo=",
+        "originContent": "    \"[PUBLISHER]\": {",
+        "translatedContent": "    \"[PUBLISHER]\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "cOYvP3Sh0YY9Qf0RocOaClP0XpwQvzCAOzm5cDe3Hjw=",
+        "originContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", ",
+        "translatedContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", "
+      },
+      {
+        "row": 5,
+        "rowsha": "fF9syEigeeW1pIus+bHoccx7G1zA2uPdeTuHZWnGmfk=",
+        "originContent": "        \"passwd\": \"[YOUR_PASSWORD]\"",
+        "translatedContent": "        \"passwd\": \"[YOUR_PASSWORD]\""
+      },
+      {
+        "row": 6,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 7,
+        "rowsha": "Bb9Xy9BcHX3NFVsA3VoqE7tpkHQcwOvHL5CAjIpZdzo=",
+        "originContent": "    \"[PUBLISHER]\": {",
+        "translatedContent": "    \"[PUBLISHER]\": {"
+      },
+      {
+        "row": 8,
+        "rowsha": "cOYvP3Sh0YY9Qf0RocOaClP0XpwQvzCAOzm5cDe3Hjw=",
+        "originContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", ",
+        "translatedContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", "
+      },
+      {
+        "row": 9,
+        "rowsha": "fF9syEigeeW1pIus+bHoccx7G1zA2uPdeTuHZWnGmfk=",
+        "originContent": "        \"passwd\": \"[YOUR_PASSWORD]\"",
+        "translatedContent": "        \"passwd\": \"[YOUR_PASSWORD]\""
+      },
+      {
+        "row": 10,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 11,
+        "rowsha": "xkYGB3rR+F3IyGOTNYXFGRnfWB+Ln27bRaDwq/XF3Vc=",
+        "originContent": "    [...]",
+        "translatedContent": "    [...]"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nReplace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`\n\n## Bildungslogin\n\nCornelsen, Click-n-Study, Klett, and Westermann have token-login support, allowing login using Bildungslogin accounts.\n\n### Cornelsen\n\n1. Open Bildungslogin and log in\n1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).\n1. Open the book\n1. Select Local storage in the devtools (possibly also need to select the website in it)\n1. Scroll down in the table that opens until you find `id_token`. It should be a long alphanumeric string.\n1. Copy it. (Double click, then ctrl+c)\n1. Use it as the password, and use `token` as the username.\n\n### Click-and-Study\n\n1. Open Bildungslogin and log in\n1. Open the book\n1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).\n1. Select Cookies in the devtools (possibly also need to select the website in it)\n1. Scroll down in the table that opens until you find `CASSID`. It should have an alphanumeric string afterwards.\n1. Copy that (the random looking characters). (Double click, then ctrl+c)\n1. Use it as the password, and use `token` as the username.\n\n### Klett\n\n1. Open Bildungslogin and log in\n1. Open the book\n1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).\n1. Select Cookies in the devtools (possibly also need to select the website in it)\n1. Scroll down in the table that opens until you find `SESSION`. It should have an alphanumeric string afterwards.\n1. Copy that (the random looking characters). (Double click, then ctrl+c)\n1. Use it as the password, and use **the URL of the book viewer you are on** as the username.\n\n### Westermann\n\n1. Open Bildungslogin and log in",
+    "ContentSha": "+GWvdgQO4VnW+rAZ99RCREnfs59C/9SyjwYao6Sa04U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nReplace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`\n\n## Bildungslogin\n\nCornelsen, Click-n-Study, Klett, and Westermann have token-login support, allowing login using Bildungslogin accounts.\n\n### Cornelsen\n\n1. 打开 Bildungslogin 并登录  \n1. 进入存储开发者工具（SHIFT+F9，或者按 CTRL+SHIFT+I 并点击 Storage 选项卡）  \n1. 打开图书  \n1. 在开发者工具中选择本地存储（可能还需要选择网站）  \n1. 在打开的表格中向下滚动，直到找到 `id_token`，它应该是一个长的字母数字字符串  \n1. 复制它。（双击，然后 ctrl+c）  \n1. 使用它作为密码，用户名使用 `token`  \n\n### Click-and-Study\n\n1. 打开 Bildungslogin 并登录  \n1. 打开图书  \n1. 进入存储开发者工具（SHIFT+F9，或者按 CTRL+SHIFT+I 并点击 Storage 选项卡）  \n1. 在开发者工具中选择 Cookies（可能还需要选择网站）  \n1. 在打开的表格中向下滚动，直到找到 `CASSID`，后面应有一个字母数字字符串  \n1. 复制它（那些随机字符）。（双击，然后 ctrl+c）  \n1. 使用它作为密码，用户名使用 `token`  \n\n### Klett\n\n1. 打开 Bildungslogin 并登录  \n1. 打开图书  \n1. 进入存储开发者工具（SHIFT+F9，或者按 CTRL+SHIFT+I 并点击 Storage 选项卡）  \n1. 在开发者工具中选择 Cookies（可能还需要选择网站）  \n1. 在打开的表格中向下滚动，直到找到 `SESSION`，后面应有一个字母数字字符串  \n1. 复制它（那些随机字符）。（双击，然后 ctrl+c）  \n1. 使用它作为密码，用户名使用**你正在使用的图书查看器的 URL**  \n\n### Westermann\n\n1. 打开 Bildungslogin 并登录  ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "otawWt7lpbDS2U3CmJqnS/XleyIbpFkBwC2e7Tqi63E=",
+        "originContent": "Replace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`",
+        "translatedContent": "Replace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pzDA82iQZr6+CGR4IN9NkARp45GyQVbbq2GqVb2X4QM=",
+        "originContent": "## Bildungslogin",
+        "translatedContent": "## Bildungslogin"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qHvAkMqTsPBAdkXpEE+F6AfQPI4+veno4N5F4qb0lt8=",
+        "originContent": "Cornelsen, Click-n-Study, Klett, and Westermann have token-login support, allowing login using Bildungslogin accounts.",
+        "translatedContent": "Cornelsen, Click-n-Study, Klett, and Westermann have token-login support, allowing login using Bildungslogin accounts."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "05eCWE1PsLFMdqCfE8TgXEpFa1YnfNXGKFH9lLGo1ac=",
+        "originContent": "### Cornelsen",
+        "translatedContent": "### Cornelsen"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. 打开 Bildungslogin 并登录  "
+      },
+      {
+        "row": 11,
+        "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+        "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+        "translatedContent": "1. 进入存储开发者工具（SHIFT+F9，或者按 CTRL+SHIFT+I 并点击 Storage 选项卡）  "
+      },
+      {
+        "row": 12,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. 打开图书  "
+      },
+      {
+        "row": 13,
+        "rowsha": "VrQBHG3lfEwhz8J1ammLdboFoDpV/EwExQLfM4n5nSA=",
+        "originContent": "1. Select Local storage in the devtools (possibly also need to select the website in it)",
+        "translatedContent": "1. 在开发者工具中选择本地存储（可能还需要选择网站）  "
+      },
+      {
+        "row": 14,
+        "rowsha": "Zw0N9kWRkHKnAqz746WFHPNGCOiCq1lvPFKzoX0AX/0=",
+        "originContent": "1. Scroll down in the table that opens until you find `id_token`. It should be a long alphanumeric string.",
+        "translatedContent": "1. 在打开的表格中向下滚动，直到找到 `id_token`，它应该是一个长的字母数字字符串  "
+      },
+      {
+        "row": 15,
+        "rowsha": "6S0Z1gBQId0KJ5gOlSjclsfnlnWsMQHf5lsc2htUzYg=",
+        "originContent": "1. Copy it. (Double click, then ctrl+c)",
+        "translatedContent": "1. 复制它。（双击，然后 ctrl+c）  "
+      },
+      {
+        "row": 16,
+        "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+        "originContent": "1. Use it as the password, and use `token` as the username.",
+        "translatedContent": "1. 使用它作为密码，用户名使用 `token`  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "G8PWIBNdPGLeyr5qvBpBFEPQFVRqV5gA1mi0PZeEMUU=",
+        "originContent": "### Click-and-Study",
+        "translatedContent": "### Click-and-Study"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. 打开 Bildungslogin 并登录  "
+      },
+      {
+        "row": 21,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. 打开图书  "
+      },
+      {
+        "row": 22,
+        "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+        "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+        "translatedContent": "1. 进入存储开发者工具（SHIFT+F9，或者按 CTRL+SHIFT+I 并点击 Storage 选项卡）  "
+      },
+      {
+        "row": 23,
+        "rowsha": "zzXHjySeTezHxzzomSiqZOQ2TfrLlzOj1HKHTt26FM8=",
+        "originContent": "1. Select Cookies in the devtools (possibly also need to select the website in it)",
+        "translatedContent": "1. 在开发者工具中选择 Cookies（可能还需要选择网站）  "
+      },
+      {
+        "row": 24,
+        "rowsha": "fVKD9iG712Z6ZP+ki2+EMzksbL4yedST7aPR+IfvfYA=",
+        "originContent": "1. Scroll down in the table that opens until you find `CASSID`. It should have an alphanumeric string afterwards.",
+        "translatedContent": "1. 在打开的表格中向下滚动，直到找到 `CASSID`，后面应有一个字母数字字符串  "
+      },
+      {
+        "row": 25,
+        "rowsha": "BRIpPIEhcZEXEBmZmI0VA3Xn7Jjwgyp2QFfmzn62/q8=",
+        "originContent": "1. Copy that (the random looking characters). (Double click, then ctrl+c)",
+        "translatedContent": "1. 复制它（那些随机字符）。（双击，然后 ctrl+c）  "
+      },
+      {
+        "row": 26,
+        "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+        "originContent": "1. Use it as the password, and use `token` as the username.",
+        "translatedContent": "1. 使用它作为密码，用户名使用 `token`  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "zrG/JGmGpN0rKew4rYTSbryk0gLBpr+5MyqB66eklWM=",
+        "originContent": "### Klett",
+        "translatedContent": "### Klett"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. 打开 Bildungslogin 并登录  "
+      },
+      {
+        "row": 31,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. 打开图书  "
+      },
+      {
+        "row": 32,
+        "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+        "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+        "translatedContent": "1. 进入存储开发者工具（SHIFT+F9，或者按 CTRL+SHIFT+I 并点击 Storage 选项卡）  "
+      },
+      {
+        "row": 33,
+        "rowsha": "zzXHjySeTezHxzzomSiqZOQ2TfrLlzOj1HKHTt26FM8=",
+        "originContent": "1. Select Cookies in the devtools (possibly also need to select the website in it)",
+        "translatedContent": "1. 在开发者工具中选择 Cookies（可能还需要选择网站）  "
+      },
+      {
+        "row": 34,
+        "rowsha": "LrtbRMWJAdgOyFCFRqNGSirOxleVmyH5gUnQeqDHWRU=",
+        "originContent": "1. Scroll down in the table that opens until you find `SESSION`. It should have an alphanumeric string afterwards.",
+        "translatedContent": "1. 在打开的表格中向下滚动，直到找到 `SESSION`，后面应有一个字母数字字符串  "
+      },
+      {
+        "row": 35,
+        "rowsha": "BRIpPIEhcZEXEBmZmI0VA3Xn7Jjwgyp2QFfmzn62/q8=",
+        "originContent": "1. Copy that (the random looking characters). (Double click, then ctrl+c)",
+        "translatedContent": "1. 复制它（那些随机字符）。（双击，然后 ctrl+c）  "
+      },
+      {
+        "row": 36,
+        "rowsha": "qZvlmKoIXv9DT2CZ5mAygRvncsxdftME8+F6vQ868QE=",
+        "originContent": "1. Use it as the password, and use **the URL of the book viewer you are on** as the username.",
+        "translatedContent": "1. 使用它作为密码，用户名使用**你正在使用的图书查看器的 URL**  "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "QZWEsihMOvguI3xMNlcgUvyXgJq43Mo+AqnFJ7FjO0I=",
+        "originContent": "### Westermann",
+        "translatedContent": "### Westermann"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. 打开 Bildungslogin 并登录  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "1. Open the book\n1. Go into Networking devtools (CTRL+SHIFT+E, or alternatively press CTRL+SHIFT+I and click on Network tab).\n1. Tick `Persist logs` (possibly in Gear menu, likely at top right somewhere)\n1. Reload the page\n1. Enter `/api/user` into the \"Filter URLs\" field of devtools\n1. Click the first entry that does *not* say OPTIONS\n1. A little pane to the side should open. Click on its Headers tab\n1. Enter `auth` into its \"Filter headers\" field (if available)\n1. Scroll down until you find a long string of letters and numbers\n1. Copy it and paste it into a text document\n1. Copy it from there again, but make sure NOT to select the \"Authorization: Bearer \" part, only the long string at the end.\n1. Use it as the password, and use `token` as the username.\n\n## Contributing\n\nFeel free to create issues and pull requests to contribute to the project.\n\n## Disclaimer\nThis project is for educational purposes only. The project is not responsible for any misuse of the software. Depending on your jurisdiction, it may be illegal to use this software to download e-books without the consent of the publisher. In other jurisdictions, it may be legal to download e-books for personal use only. Please check your local laws before using this software.\n",
+    "ContentSha": "m/6EF5SpKgpCA1VPVcn81SXxW7HfVKo5SN0IkY6D1IY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. 打开书籍  \n1. 进入网络开发工具（CTRL+SHIFT+E，或者按CTRL+SHIFT+I然后点击网络标签页）。  \n1. 勾选 `Persist logs`（可能在齿轮菜单中，大概在右上角某处）  \n1. 重新加载页面  \n1. 在开发者工具的“过滤URL”字段中输入 `/api/user`  \n1. 点击第一个不是 OPTIONS 的条目  \n1. 旁边会打开一个小面板。点击其 Headers 标签  \n1. 在“过滤请求头”字段中输入 `auth`（如果有该字段）  \n1. 向下滚动直到找到一串长的字母和数字  \n1. 复制它并粘贴到文本文件中  \n1. 再次从文本文件复制，但确保不要选择“Authorization: Bearer ”部分，只选结尾的长字符串。  \n1. 使用它作为密码，用户名使用 `token`。  \n\n## 贡献  \n\n欢迎创建 issue 和 pull request 来为项目做出贡献。  \n\n## 免责声明  \n本项目仅供教育用途。项目对软件的任何滥用不负责任。根据您所在的司法管辖区，未经出版商同意使用本软件下载电子书可能是违法的。在其他司法管辖区，下载电子书仅供个人使用可能是合法的。请在使用本软件前检查当地法律。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. 打开书籍  "
+      },
+      {
+        "row": 2,
+        "rowsha": "eg5zGGOXgZXBhXAJLcsmr/0mes5W5X9YpSOmh1cx9K8=",
+        "originContent": "1. Go into Networking devtools (CTRL+SHIFT+E, or alternatively press CTRL+SHIFT+I and click on Network tab).",
+        "translatedContent": "1. 进入网络开发工具（CTRL+SHIFT+E，或者按CTRL+SHIFT+I然后点击网络标签页）。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "2tLNwldGOG6Zj8XbOl2p/yCF+ZcDU/VPhsaGQPzgn7s=",
+        "originContent": "1. Tick `Persist logs` (possibly in Gear menu, likely at top right somewhere)",
+        "translatedContent": "1. 勾选 `Persist logs`（可能在齿轮菜单中，大概在右上角某处）  "
+      },
+      {
+        "row": 4,
+        "rowsha": "rQQc0g3yelFZ7dUwVpOv8KeWBK9OgGhwck0/NGtinPA=",
+        "originContent": "1. Reload the page",
+        "translatedContent": "1. 重新加载页面  "
+      },
+      {
+        "row": 5,
+        "rowsha": "YVfNdfFUb9lgt2kRsfAPJA9VfRXhezHhh1L3vb2vekc=",
+        "originContent": "1. Enter `/api/user` into the \"Filter URLs\" field of devtools",
+        "translatedContent": "1. 在开发者工具的“过滤URL”字段中输入 `/api/user`  "
+      },
+      {
+        "row": 6,
+        "rowsha": "XlNg/3hJsihAcQwPsG8tPxB9aBnI6ofBHEVN64wJkdU=",
+        "originContent": "1. Click the first entry that does *not* say OPTIONS",
+        "translatedContent": "1. 点击第一个不是 OPTIONS 的条目  "
+      },
+      {
+        "row": 7,
+        "rowsha": "dBNqx9d73Ua6nVdkZE3VXnfvQuGnOCOPa3Noq4f2tjY=",
+        "originContent": "1. A little pane to the side should open. Click on its Headers tab",
+        "translatedContent": "1. 旁边会打开一个小面板。点击其 Headers 标签  "
+      },
+      {
+        "row": 8,
+        "rowsha": "xkx6AU+HBJ3sXbMguPML7clqbA7wMr1ZW8+Bxna3e2o=",
+        "originContent": "1. Enter `auth` into its \"Filter headers\" field (if available)",
+        "translatedContent": "1. 在“过滤请求头”字段中输入 `auth`（如果有该字段）  "
+      },
+      {
+        "row": 9,
+        "rowsha": "ECaA3Z+bNo0q0+PvCYok8+7cNuC6ekbzKaA+akftWzI=",
+        "originContent": "1. Scroll down until you find a long string of letters and numbers",
+        "translatedContent": "1. 向下滚动直到找到一串长的字母和数字  "
+      },
+      {
+        "row": 10,
+        "rowsha": "M79qJw67/OadM1lRaSrUiDb8KJffabeX5WqIvX4fX70=",
+        "originContent": "1. Copy it and paste it into a text document",
+        "translatedContent": "1. 复制它并粘贴到文本文件中  "
+      },
+      {
+        "row": 11,
+        "rowsha": "TZtpqE5VjarzFOB0eoLaR0NVTKBpg2CoPrO3NhTk/Ck=",
+        "originContent": "1. Copy it from there again, but make sure NOT to select the \"Authorization: Bearer \" part, only the long string at the end.",
+        "translatedContent": "1. 再次从文本文件复制，但确保不要选择“Authorization: Bearer ”部分，只选结尾的长字符串。  "
+      },
+      {
+        "row": 12,
+        "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+        "originContent": "1. Use it as the password, and use `token` as the username.",
+        "translatedContent": "1. 使用它作为密码，用户名使用 `token`。  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 贡献  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "xUmx9dVQs0SmuKVi0GfZZArQTIRzJ1DjscH7PSoO92k=",
+        "originContent": "Feel free to create issues and pull requests to contribute to the project.",
+        "translatedContent": "欢迎创建 issue 和 pull request 来为项目做出贡献。  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## 免责声明  "
+      },
+      {
+        "row": 19,
+        "rowsha": "VAYyNwPlajvfHlEuwkdFYx0y1jA+VDHeFOfKWSI83nU=",
+        "originContent": "This project is for educational purposes only. The project is not responsible for any misuse of the software. Depending on your jurisdiction, it may be illegal to use this software to download e-books without the consent of the publisher. In other jurisdictions, it may be legal to download e-books for personal use only. Please check your local laws before using this software.",
+        "translatedContent": "本项目仅供教育用途。项目对软件的任何滥用不负责任。根据您所在的司法管辖区，未经出版商同意使用本软件下载电子书可能是违法的。在其他司法管辖区，下载电子书仅供个人使用可能是合法的。请在使用本软件前检查当地法律。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

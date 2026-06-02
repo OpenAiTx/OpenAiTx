@@ -1,0 +1,1519 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ResChiper\n\n<h1 align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/reschiper-banner.png\" alt=\"failed to load artifacts/logo.png\"/>\n  <p align=\"center\" style=\"font-size: 0.3em\">AAB Resource Obfuscation Tool</p>\n</h1>\n\n[![License](https://img.shields.io/badge/license-Apache_2.0-maroon)](LICENSE)\n![Android Gradle Plugin](https://img.shields.io/badge/Dependency-AGP/8.8.0-4CAF50)\n[![BundleTool](https://img.shields.io/badge/Dependency-Bundletool/1.17.2-red)](https://github.com/google/bundletool)\n![JDK Version](https://img.shields.io/badge/JDK-17-blue)\n![Gradle Version](https://img.shields.io/badge/Gradle_Wrapper-8.8-darkgreen)\n[![ResChiper Version](https://img.shields.io/badge/release-0.1.0--rc6-%23C6782A.svg?style=flat)](https://github.com/goldfish07/ResChiper/releases/tag/0.1.0-rc6)\n\n## Table of Contents\n\n- [Introduction](#introduction)\n- [Getting Started](#getting-started)\n    - [Requirements](#requirements)\n    - [Installation](#installation)\n    - [Usage](#usage)\n- [Configuration Options](#configuration-options)\n- [Example](#example)\n- [WhiteList](#whitelist)\n- [Output](#output)\n- [Acknowledgments](#acknowledgments)\n- [License](#license)\n\n## Introduction\n\nResChiper is a tool designed for obfuscating Android AAB resources.\nIt allows you to protect your resources from unauthorized access and reduce your app's AAB size.\n\n## Getting Started\n\nFollow these steps to integrate the AAB Resource Obfuscation Tool into your Android project:\n\n## Requirements\n\nBefore you begin using ResChiper, ensure that your app meets the following requirements:",
+    "ContentSha": "4gly/GcpAlEBeZ4W5meXV92gX3f8XCcTVm6Vm5NU1Xs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ResChiper\n\n<h1 align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/reschiper-banner.png\" alt=\"échec du chargement de artifacts/logo.png\"/>\n  <p align=\"center\" style=\"font-size: 0.3em\">Outil d'Obfuscation des Ressources AAB</p>\n</h1>\n\n[![License](https://img.shields.io/badge/license-Apache_2.0-maroon)](LICENSE)\n![Android Gradle Plugin](https://img.shields.io/badge/Dependency-AGP/8.8.0-4CAF50)\n[![BundleTool](https://img.shields.io/badge/Dependency-Bundletool/1.17.2-red)](https://github.com/google/bundletool)\n![JDK Version](https://img.shields.io/badge/JDK-17-blue)\n![Gradle Version](https://img.shields.io/badge/Gradle_Wrapper-8.8-darkgreen)\n[![ResChiper Version](https://img.shields.io/badge/release-0.1.0--rc6-%23C6782A.svg?style=flat)](https://github.com/goldfish07/ResChiper/releases/tag/0.1.0-rc6)\n\n## Table des Matières\n\n- [Introduction](#introduction)\n- [Démarrage](#getting-started)\n    - [Exigences](#requirements)\n    - [Installation](#installation)\n    - [Utilisation](#usage)\n- [Options de Configuration](#configuration-options)\n- [Exemple](#example)\n- [Liste Blanche](#whitelist)\n- [Sortie](#output)\n- [Remerciements](#acknowledgments)\n- [Licence](#license)\n\n## Introduction\n\nResChiper est un outil conçu pour obfusquer les ressources Android AAB.\nIl vous permet de protéger vos ressources contre l'accès non autorisé et de réduire la taille de votre application AAB.\n\n## Démarrage\n\nSuivez ces étapes pour intégrer l'Outil d'Obfuscation des Ressources AAB dans votre projet Android :\n\n## Exigences\n\nAvant de commencer à utiliser ResChiper, assurez-vous que votre application répond aux exigences suivantes :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cfiGTGlg9j5YEcu2kovYxWqCZ+rcjrkZt2WjgrboXng=",
+        "originContent": "# ResChiper",
+        "translatedContent": "# ResChiper"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "KxBpkukaXgEZWw7xxhGlTSRDVJakr4sBw+2/l9R7Xgs=",
+        "originContent": "<h1 align=\"center\">",
+        "translatedContent": "<h1 align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "oAZjMgpof4tIPv9Lav34aN8Pzc+z5+cy5TSjE7FjxIU=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/reschiper-banner.png\" alt=\"failed to load artifacts/logo.png\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/reschiper-banner.png\" alt=\"échec du chargement de artifacts/logo.png\"/>"
+      },
+      {
+        "row": 5,
+        "rowsha": "YDNHt1s126KVZLPovwv2/pjoUJeY9euYXVDjRELIIoI=",
+        "originContent": "  <p align=\"center\" style=\"font-size: 0.3em\">AAB Resource Obfuscation Tool</p>",
+        "translatedContent": "  <p align=\"center\" style=\"font-size: 0.3em\">Outil d'Obfuscation des Ressources AAB</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "jx7VTIaGwMtwY3ZiSh8xEG0MuMzGD34Xs/9PCAcDvw8=",
+        "originContent": "</h1>",
+        "translatedContent": "</h1>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "PkNTssmrUDsbHpiqX8d0OkrLYU48jQbG+f2vI0VNF7w=",
+        "originContent": "[![License](https://img.shields.io/badge/license-Apache_2.0-maroon)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-Apache_2.0-maroon)](LICENSE)"
+      },
+      {
+        "row": 9,
+        "rowsha": "60tQC7/ui+MX6JLsJUj+h6wpa2r4IELHqBsaKw0OZMY=",
+        "originContent": "![Android Gradle Plugin](https://img.shields.io/badge/Dependency-AGP/8.8.0-4CAF50)",
+        "translatedContent": "![Android Gradle Plugin](https://img.shields.io/badge/Dependency-AGP/8.8.0-4CAF50)"
+      },
+      {
+        "row": 10,
+        "rowsha": "H0O3zi/w3g1gKLs9rh7J2tkvXc+vq9m7KrZ5wElrdfc=",
+        "originContent": "[![BundleTool](https://img.shields.io/badge/Dependency-Bundletool/1.17.2-red)](https://github.com/google/bundletool)",
+        "translatedContent": "[![BundleTool](https://img.shields.io/badge/Dependency-Bundletool/1.17.2-red)](https://github.com/google/bundletool)"
+      },
+      {
+        "row": 11,
+        "rowsha": "9mjW2YAvXHasVnzEvv4BbF9Fw4g9hI+1rdM2SCLBBVE=",
+        "originContent": "![JDK Version](https://img.shields.io/badge/JDK-17-blue)",
+        "translatedContent": "![JDK Version](https://img.shields.io/badge/JDK-17-blue)"
+      },
+      {
+        "row": 12,
+        "rowsha": "qpSDHt8I8v8cIwhrKbdPsIyoR8NKy98SLpc4svaRqR4=",
+        "originContent": "![Gradle Version](https://img.shields.io/badge/Gradle_Wrapper-8.8-darkgreen)",
+        "translatedContent": "![Gradle Version](https://img.shields.io/badge/Gradle_Wrapper-8.8-darkgreen)"
+      },
+      {
+        "row": 13,
+        "rowsha": "n2+2V21FCWkpQXjKPqJFkGn5fbReCz+CkgDMRgSMdXc=",
+        "originContent": "[![ResChiper Version](https://img.shields.io/badge/release-0.1.0--rc6-%23C6782A.svg?style=flat)](https://github.com/goldfish07/ResChiper/releases/tag/0.1.0-rc6)",
+        "translatedContent": "[![ResChiper Version](https://img.shields.io/badge/release-0.1.0--rc6-%23C6782A.svg?style=flat)](https://github.com/goldfish07/ResChiper/releases/tag/0.1.0-rc6)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Table des Matières"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "LSBzqIXJ05BczP+n1iLfyRmVcO5LyYfna2yphkKd/QQ=",
+        "originContent": "- [Introduction](#introduction)",
+        "translatedContent": "- [Introduction](#introduction)"
+      },
+      {
+        "row": 18,
+        "rowsha": "79ZuZFY3DRSaKq2KcXCpsAwr+gX0PflZsQQd9/Yz8EY=",
+        "originContent": "- [Getting Started](#getting-started)",
+        "translatedContent": "- [Démarrage](#getting-started)"
+      },
+      {
+        "row": 19,
+        "rowsha": "kaFTdeJuE8HQh080KtfR76Y/DRBfcxGL9ug3K3mVmiM=",
+        "originContent": "    - [Requirements](#requirements)",
+        "translatedContent": "    - [Exigences](#requirements)"
+      },
+      {
+        "row": 20,
+        "rowsha": "p9jAnx3m3iFNn/7eqtHmMC9GWdUPEhaL2uE5x7eW04g=",
+        "originContent": "    - [Installation](#installation)",
+        "translatedContent": "    - [Installation](#installation)"
+      },
+      {
+        "row": 21,
+        "rowsha": "TZkRkvmQlUeyq9LIEmJj6fu0xwPz3tWV/5pmXfIlvnQ=",
+        "originContent": "    - [Usage](#usage)",
+        "translatedContent": "    - [Utilisation](#usage)"
+      },
+      {
+        "row": 22,
+        "rowsha": "v1SYmdqKfPYmWlpc1jjaiv3jwYYPZHmgOpCspWjE/bs=",
+        "originContent": "- [Configuration Options](#configuration-options)",
+        "translatedContent": "- [Options de Configuration](#configuration-options)"
+      },
+      {
+        "row": 23,
+        "rowsha": "yRKA4RPfx8CrmrtYs8VbKZb3cQebBQ/b/F1SPdAoFxE=",
+        "originContent": "- [Example](#example)",
+        "translatedContent": "- [Exemple](#example)"
+      },
+      {
+        "row": 24,
+        "rowsha": "hKUAaOyH/oD4tEKSSfdjMikKQtHdf/Obj30jtFRcLq0=",
+        "originContent": "- [WhiteList](#whitelist)",
+        "translatedContent": "- [Liste Blanche](#whitelist)"
+      },
+      {
+        "row": 25,
+        "rowsha": "Fi35Hwe00g6Q4CPYULBZuoprWELOpg1oWVaxPRypRmc=",
+        "originContent": "- [Output](#output)",
+        "translatedContent": "- [Sortie](#output)"
+      },
+      {
+        "row": 26,
+        "rowsha": "Pq1NbD8RLw8HmFpLP5/Zflt97CUVc6ZW/aFxyWvp5u0=",
+        "originContent": "- [Acknowledgments](#acknowledgments)",
+        "translatedContent": "- [Remerciements](#acknowledgments)"
+      },
+      {
+        "row": 27,
+        "rowsha": "aiElU+9O/5KGvOFd7CcJXGSaQL0/8Fg5sGxP7wVVzv4=",
+        "originContent": "- [License](#license)",
+        "translatedContent": "- [Licence](#license)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": "## Introduction"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "GW2p9oJY0buHsfAZSGcMFPAPrnQlP5nGdnmjT3q6cqI=",
+        "originContent": "ResChiper is a tool designed for obfuscating Android AAB resources.",
+        "translatedContent": "ResChiper est un outil conçu pour obfusquer les ressources Android AAB."
+      },
+      {
+        "row": 32,
+        "rowsha": "voVOiNqRtrjmeTZHsaCocs37bZFWHhU9R3/kln//CsY=",
+        "originContent": "It allows you to protect your resources from unauthorized access and reduce your app's AAB size.",
+        "translatedContent": "Il vous permet de protéger vos ressources contre l'accès non autorisé et de réduire la taille de votre application AAB."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## Démarrage"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "1/3gcxSyEst10PQ1g1BvuNsxG1Lyi4OQAtafC438FCU=",
+        "originContent": "Follow these steps to integrate the AAB Resource Obfuscation Tool into your Android project:",
+        "translatedContent": "Suivez ces étapes pour intégrer l'Outil d'Obfuscation des Ressources AAB dans votre projet Android :"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Exigences"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "SdkIv2R0D5jKuS8NLckLvzwq4Gl/DEtmZ8wHEEsUtTI=",
+        "originContent": "Before you begin using ResChiper, ensure that your app meets the following requirements:",
+        "translatedContent": "Avant de commencer à utiliser ResChiper, assurez-vous que votre application répond aux exigences suivantes :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n- **Java Development Kit (JDK)**: ResChiper requires JDK 17, Make sure your app is configured with JDK 17.\n- **Android Gradle Plugin (AGP)**: version 8.0 or later version.\n\n## Installation\n\n#### 1. Add ResChiper Gradle Plugin\n\nIn your project's root-level `build.gradle` file, add the ResChiper Gradle plugin to the `buildscript` section:\n",
+    "ContentSha": "28bU7Oc2A6DQDaveF/9URDsX4gU/nLnEZUoherddozU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **Java Development Kit (JDK)** : ResChiper nécessite JDK 17, assurez-vous que votre application est configurée avec JDK 17.\n- **Android Gradle Plugin (AGP)** : version 8.0 ou version ultérieure.\n\n## Installation\n\n#### 1. Ajouter le plugin Gradle ResChiper\n\nDans le fichier `build.gradle` au niveau racine de votre projet, ajoutez le plugin Gradle ResChiper à la section `buildscript` :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5fC9/4F1wr6Kt9OUugNWBLoCCYMNcouLDUyri2mArYc=",
+        "originContent": "- **Java Development Kit (JDK)**: ResChiper requires JDK 17, Make sure your app is configured with JDK 17.",
+        "translatedContent": "- **Java Development Kit (JDK)** : ResChiper nécessite JDK 17, assurez-vous que votre application est configurée avec JDK 17."
+      },
+      {
+        "row": 3,
+        "rowsha": "tl/coGct8l7GS7VzmnHFQbpu+dSnUhtTMxBtAw5xRM8=",
+        "originContent": "- **Android Gradle Plugin (AGP)**: version 8.0 or later version.",
+        "translatedContent": "- **Android Gradle Plugin (AGP)** : version 8.0 ou version ultérieure."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0xxkb4xhw/GbmKvPJSJwFsuD4qHNn3XwMgujfb/kLBI=",
+        "originContent": "#### 1. Add ResChiper Gradle Plugin",
+        "translatedContent": "#### 1. Ajouter le plugin Gradle ResChiper"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "fGdrlEH4B5Mrn9ZS8AAH9IL32GuMlGjyg7SwK/Mgc6M=",
+        "originContent": "In your project's root-level `build.gradle` file, add the ResChiper Gradle plugin to the `buildscript` section:",
+        "translatedContent": "Dans le fichier `build.gradle` au niveau racine de votre projet, ajoutez le plugin Gradle ResChiper à la section `buildscript` :"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```gradle\nbuildscript {\n  dependencies {\n    classpath \"io.github.goldfish07.reschiper:plugin:<latest_version>\"\n  }\n  \n  repositories {\n    mavenCentral()\n    google()\n   }\n}\n```",
+    "ContentSha": "8qfaFIt0nuKyQ5dAgdxVqckPrM6xs5xpG8q33uPj7/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```gradle\nbuildscript {\n  dependencies {\n    classpath \"io.github.goldfish07.reschiper:plugin:<latest_version>\"\n  }\n  \n  repositories {\n    mavenCentral()\n    google()\n   }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZmpksppoPCWuE0seUGN7yqw5r7MIf7Xc02ySl2QeG+8=",
+        "originContent": "```gradle",
+        "translatedContent": "```gradle"
+      },
+      {
+        "row": 2,
+        "rowsha": "S3oQqG2xNfcbve/EJhtThJLY7hVeaPlJIiVZ2lW1HLk=",
+        "originContent": "buildscript {",
+        "translatedContent": "buildscript {"
+      },
+      {
+        "row": 3,
+        "rowsha": "HD2ANFBKnUvZiC2MkmKXpctR4YAv+IgJYogCFfgWimc=",
+        "originContent": "  dependencies {",
+        "translatedContent": "  dependencies {"
+      },
+      {
+        "row": 4,
+        "rowsha": "K/yEQIoPIQlMALFfbBN66BWW+Z4X+trh2DJvaJdGpJ0=",
+        "originContent": "    classpath \"io.github.goldfish07.reschiper:plugin:<latest_version>\"",
+        "translatedContent": "    classpath \"io.github.goldfish07.reschiper:plugin:<latest_version>\""
+      },
+      {
+        "row": 5,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 6,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 7,
+        "rowsha": "NFp+I4UpuqVVrUepJY9Nsl9R0NQEyWQwmC4QfgGd/KY=",
+        "originContent": "  repositories {",
+        "translatedContent": "  repositories {"
+      },
+      {
+        "row": 8,
+        "rowsha": "SscqkqDemGP/N8uqAMFAW5/pfAwynaeOa/0YyTfIRSA=",
+        "originContent": "    mavenCentral()",
+        "translatedContent": "    mavenCentral()"
+      },
+      {
+        "row": 9,
+        "rowsha": "XsFa16o2ewoKZx877RgtWxVxXMZReh1IpBZE1ekRTq0=",
+        "originContent": "    google()",
+        "translatedContent": "    google()"
+      },
+      {
+        "row": 10,
+        "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+        "originContent": "   }",
+        "translatedContent": "   }"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n#### 2. Apply the Plugin\n\nIn your app-level `build.gradle` file, apply the ResChiper plugin:\n",
+    "ContentSha": "aQq2ksDns4t2/tukKwimZFsCHEQ80h8/R2hvpZC+jEI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 2. Appliquer le Plugin\n\nDans le fichier `build.gradle` au niveau de votre application, appliquez le plugin ResChiper :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "L8KWxZTyCwfEHDEyRRaP9hgMdOXRgY3nK8p2BQp/CuA=",
+        "originContent": "#### 2. Apply the Plugin",
+        "translatedContent": "#### 2. Appliquer le Plugin"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iAGB02SpqYGWUNZrKUU8GMp++2Sf13Wd9QRmRAnsMyo=",
+        "originContent": "In your app-level `build.gradle` file, apply the ResChiper plugin:",
+        "translatedContent": "Dans le fichier `build.gradle` au niveau de votre application, appliquez le plugin ResChiper :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```gradle\napply plugin: \"io.github.goldfish07.reschiper\"\n```",
+    "ContentSha": "4TAhIGAkDzMIg2+LuPBoJIq2iEE6P4ErkPLw06atMbw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```gradle\napply plugin: \"io.github.goldfish07.reschiper\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZmpksppoPCWuE0seUGN7yqw5r7MIf7Xc02ySl2QeG+8=",
+        "originContent": "```gradle",
+        "translatedContent": "```gradle"
+      },
+      {
+        "row": 2,
+        "rowsha": "wB1ior+sC5CSprUH6I+M/BPldQ0wTu+ealij8sYEo4U=",
+        "originContent": "apply plugin: \"io.github.goldfish07.reschiper\"",
+        "translatedContent": "apply plugin: \"io.github.goldfish07.reschiper\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n#### 3. Configure the Plugin\n\nIn your `app/build.gradle` file, configure the ResChiper plugin by specifying your desired settings. Here's an example\nconfiguration:\n",
+    "ContentSha": "ajo1JpDXiQnNeR1caSP47cmjzFhmzQvGZU5S6XgXMTs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 3. Configurer le Plugin\n\nDans votre fichier `app/build.gradle`, configurez le plugin ResChiper en spécifiant les paramètres souhaités. Voici un exemple\nde configuration :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BnWxEDC3Z8beXrOHG9f22UlkwPutkgVt4giFacwaG3c=",
+        "originContent": "#### 3. Configure the Plugin",
+        "translatedContent": "#### 3. Configurer le Plugin"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aiA0leTLJrr6bXAygBS4Y84U6yDGN/Dw8iiSOgLvR0Y=",
+        "originContent": "In your `app/build.gradle` file, configure the ResChiper plugin by specifying your desired settings. Here's an example",
+        "translatedContent": "Dans votre fichier `app/build.gradle`, configurez le plugin ResChiper en spécifiant les paramètres souhaités. Voici un exemple"
+      },
+      {
+        "row": 5,
+        "rowsha": "2Lcq+7SvlYS4lwdvFEPkJlPQFOeWZgbTOgbQzsSGX38=",
+        "originContent": "configuration:",
+        "translatedContent": "de configuration :"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```gradle\nresChiper {\n    enableObfuscation = true //by default res obfuscate is enabled\n    obfuscationMode = \"default\" //[\"dir\", \"file\", \"default\"]\n    obfuscatedBundleName = \"reschiper-app.aab\" // Obfuscated file name, must end with '.aab'\n    //mappingFile = file(\"path/to/your/mapping.txt\").toPath() // Mapping file used for incremental obfuscation\n    whiteList = [\n                  //Whitelist rule (directory name to exclude)\n                  \"res/raw\", // raw dir will not be obfuscated\n                  \"res/xml\", // xml dir will not be obfuscated\n\n                  //Whitelist rule (file name to exclude)\n                  \"res/raw/*\", // all files inside raw directory will not be obfuscated\n                  \"res/raw/success_tick.json\", // success_tick.json file will not be obfuscated\n                  \"res/xml/*\", // all files inside xml directory will not be obfuscated\n\n                  // White list rules (resource name to exclude)\n                  \"*.R.raw.*\",\n                  \"*.R.xml.*\",\n\n                  // for google-services\n                  \"*.R.string.google_api_key\",\n                  \"*.R.string.google_app_id\",\n                  \"*.R.string.default_web_client_id\",\n                  \"*.R.string.gcm_defaultSenderId\",\n                  \"*.R.string.ga_trackingId\",\n                  \"*.R.string.firebase_database_url\",\n                  \"*.R.string.google_crash_reporting_api_key\",\n                  \"*.R.string.google_storage_bucket\",\n                  \"*.R.integer.google_play_services_version\",\n                  \n                  //firebase\n                  \"*.R.string.project_id\",\n                  //firebase crashlytics\n                  \"*.R.string.com.google.firebase.crashlytics.mapping_file_id\",\n                  \"*.R.bool.com.crashlytics.useFirebaseAppId\",\n                  \"*.R.string.com.crashlytics.useFirebaseAppId\",\n                  \"*.R.string.google_app_id\",\n                  \"*.R.bool.com.crashlytics.CollectDeviceIdentifiers\",\n                  \"*.R.string.com.crashlytics.CollectDeviceIdentifiers\",\n                  \"*.R.bool.com.crashlytics.CollectUserIdentifiers\",\n                  \"*.R.string.com.crashlytics.CollectUserIdentifiers\",\n                  \"*.R.string.com.crashlytics.ApiEndpoint\",\n                  \"*.R.string.com.crashlytics.android.build_id\",\n                  \"*.R.bool.com.crashlytics.RequireBuildId\",\n                  \"*.R.string.com.crashlytics.RequireBuildId\",\n                  \"*.R.bool.com.crashlytics.CollectCustomLogs\",\n                  \"*.R.string.com.crashlytics.CollectCustomLogs\",\n                  \"*.R.bool.com.crashlytics.Trace\",\n                  \"*.R.string.com.crashlytics.Trace\",\n                  \"*.R.string.com.crashlytics.CollectCustomKeys\"\n    ]\n    mergeDuplicateResources = true // allow the merge of duplicate resources\n    enableFileFiltering = true\n    enableFilterStrings = true\n    fileFilterList = [ // file filter rules\n                         \"META-INF/*\",\n//                       \"*/armeabi-v7a/*\",\n//                       \"*/arm64-v8a/*\",\n//                       \"*/x86/*\",\n//                       \"*/x86_64/*\"\n    ]\n    unusedStringFile = \"path/to/your/unused_strings.txt\" // strings will be filtered in this file\n    localeWhiteList = [\"en\", \"in\", \"fr\"] //keep en,en-xx,in,in-xx,fr,fr-xx and remove others locale.\n}\n```",
+    "ContentSha": "IHME1gUHrtvBtTHbOoQtAC9laQtBaVQrnrXLfmdmazI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```gradle\nresChiper {\n    enableObfuscation = true //by default res obfuscate is enabled\n    obfuscationMode = \"default\" //[\"dir\", \"file\", \"default\"]\n    obfuscatedBundleName = \"reschiper-app.aab\" // Obfuscated file name, must end with '.aab'\n    //mappingFile = file(\"path/to/your/mapping.txt\").toPath() // Mapping file used for incremental obfuscation\n    whiteList = [\n                  //Whitelist rule (directory name to exclude)\n                  \"res/raw\", // raw dir will not be obfuscated\n                  \"res/xml\", // xml dir will not be obfuscated\n\n                  //Whitelist rule (file name to exclude)\n                  \"res/raw/*\", // all files inside raw directory will not be obfuscated\n                  \"res/raw/success_tick.json\", // success_tick.json file will not be obfuscated\n                  \"res/xml/*\", // all files inside xml directory will not be obfuscated\n\n                  // White list rules (resource name to exclude)\n                  \"*.R.raw.*\",\n                  \"*.R.xml.*\",\n\n                  // for google-services\n                  \"*.R.string.google_api_key\",\n                  \"*.R.string.google_app_id\",\n                  \"*.R.string.default_web_client_id\",\n                  \"*.R.string.gcm_defaultSenderId\",\n                  \"*.R.string.ga_trackingId\",\n                  \"*.R.string.firebase_database_url\",\n                  \"*.R.string.google_crash_reporting_api_key\",\n                  \"*.R.string.google_storage_bucket\",\n                  \"*.R.integer.google_play_services_version\",\n                  \n                  //firebase\n                  \"*.R.string.project_id\",\n                  //firebase crashlytics\n                  \"*.R.string.com.google.firebase.crashlytics.mapping_file_id\",\n                  \"*.R.bool.com.crashlytics.useFirebaseAppId\",\n                  \"*.R.string.com.crashlytics.useFirebaseAppId\",\n                  \"*.R.string.google_app_id\",\n                  \"*.R.bool.com.crashlytics.CollectDeviceIdentifiers\",\n                  \"*.R.string.com.crashlytics.CollectDeviceIdentifiers\",\n                  \"*.R.bool.com.crashlytics.CollectUserIdentifiers\",\n                  \"*.R.string.com.crashlytics.CollectUserIdentifiers\",\n                  \"*.R.string.com.crashlytics.ApiEndpoint\",\n                  \"*.R.string.com.crashlytics.android.build_id\",\n                  \"*.R.bool.com.crashlytics.RequireBuildId\",\n                  \"*.R.string.com.crashlytics.RequireBuildId\",\n                  \"*.R.bool.com.crashlytics.CollectCustomLogs\",\n                  \"*.R.string.com.crashlytics.CollectCustomLogs\",\n                  \"*.R.bool.com.crashlytics.Trace\",\n                  \"*.R.string.com.crashlytics.Trace\",\n                  \"*.R.string.com.crashlytics.CollectCustomKeys\"\n    ]\n    mergeDuplicateResources = true // allow the merge of duplicate resources\n    enableFileFiltering = true\n    enableFilterStrings = true\n    fileFilterList = [ // file filter rules\n                         \"META-INF/*\",\n//                       \"*/armeabi-v7a/*\",\n//                       \"*/arm64-v8a/*\",\n//                       \"*/x86/*\",\n//                       \"*/x86_64/*\"\n    ]\n    unusedStringFile = \"path/to/your/unused_strings.txt\" // strings will be filtered in this file\n    localeWhiteList = [\"en\", \"in\", \"fr\"] //keep en,en-xx,in,in-xx,fr,fr-xx and remove others locale.\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZmpksppoPCWuE0seUGN7yqw5r7MIf7Xc02ySl2QeG+8=",
+        "originContent": "```gradle",
+        "translatedContent": "```gradle"
+      },
+      {
+        "row": 2,
+        "rowsha": "uft0OoE2IEayOJ3aA7gxlti+Wskij5d8t4OC4iD2pM0=",
+        "originContent": "resChiper {",
+        "translatedContent": "resChiper {"
+      },
+      {
+        "row": 3,
+        "rowsha": "eoMuDxtRfBMzAA1PtNY09eVUOU+Riwq2iTYzCftyOQU=",
+        "originContent": "    enableObfuscation = true //by default res obfuscate is enabled",
+        "translatedContent": "    enableObfuscation = true //by default res obfuscate is enabled"
+      },
+      {
+        "row": 4,
+        "rowsha": "PGoElipXW6V+v6RI79+mFy+eeEhNDh2rKIJ4Ax6ZMjk=",
+        "originContent": "    obfuscationMode = \"default\" //[\"dir\", \"file\", \"default\"]",
+        "translatedContent": "    obfuscationMode = \"default\" //[\"dir\", \"file\", \"default\"]"
+      },
+      {
+        "row": 5,
+        "rowsha": "Jt2/nJ6sKfxXEGHQKDH0h+heyFyhwN3V+Ly+mqI+HtE=",
+        "originContent": "    obfuscatedBundleName = \"reschiper-app.aab\" // Obfuscated file name, must end with '.aab'",
+        "translatedContent": "    obfuscatedBundleName = \"reschiper-app.aab\" // Obfuscated file name, must end with '.aab'"
+      },
+      {
+        "row": 6,
+        "rowsha": "tciP817+y+wW2ABK5cB+owMAYAhOW2lqYCdgcB6EkK0=",
+        "originContent": "    //mappingFile = file(\"path/to/your/mapping.txt\").toPath() // Mapping file used for incremental obfuscation",
+        "translatedContent": "    //mappingFile = file(\"path/to/your/mapping.txt\").toPath() // Mapping file used for incremental obfuscation"
+      },
+      {
+        "row": 7,
+        "rowsha": "HjZd3hbAB90WYLPfhy37VjmMyx6mnCDBr4QGIynsNFs=",
+        "originContent": "    whiteList = [",
+        "translatedContent": "    whiteList = ["
+      },
+      {
+        "row": 8,
+        "rowsha": "KNYv5VVTzWcHkFD9zWG0WGSs4k0lpr6gFpDZDyABcGo=",
+        "originContent": "                  //Whitelist rule (directory name to exclude)",
+        "translatedContent": "                  //Whitelist rule (directory name to exclude)"
+      },
+      {
+        "row": 9,
+        "rowsha": "iOFJC/HYZJNjvs7wEspYfDRaS3oktEb88XEl3RM6PAk=",
+        "originContent": "                  \"res/raw\", // raw dir will not be obfuscated",
+        "translatedContent": "                  \"res/raw\", // raw dir will not be obfuscated"
+      },
+      {
+        "row": 10,
+        "rowsha": "1KtCw7C2y4/WUWbLdFenosM4M1hB0SYiR0t59lvElZg=",
+        "originContent": "                  \"res/xml\", // xml dir will not be obfuscated",
+        "translatedContent": "                  \"res/xml\", // xml dir will not be obfuscated"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "MaX+IYUPIf97OQqBbk1TTEfdr1qMmxT0KmhyTgJjC/c=",
+        "originContent": "                  //Whitelist rule (file name to exclude)",
+        "translatedContent": "                  //Whitelist rule (file name to exclude)"
+      },
+      {
+        "row": 13,
+        "rowsha": "/h1+d3maE0cf6lIaBh7h1dxMu7VulHCDKPyzBkO6f0E=",
+        "originContent": "                  \"res/raw/*\", // all files inside raw directory will not be obfuscated",
+        "translatedContent": "                  \"res/raw/*\", // all files inside raw directory will not be obfuscated"
+      },
+      {
+        "row": 14,
+        "rowsha": "dMsaaUkJocwPCKQPSWq26KIWLbJhUwcLzVvlTdZhJVI=",
+        "originContent": "                  \"res/raw/success_tick.json\", // success_tick.json file will not be obfuscated",
+        "translatedContent": "                  \"res/raw/success_tick.json\", // success_tick.json file will not be obfuscated"
+      },
+      {
+        "row": 15,
+        "rowsha": "XujC+xsJX3SufpHpCB6cQBDQvjLnFsK/cP2RC4pWh0A=",
+        "originContent": "                  \"res/xml/*\", // all files inside xml directory will not be obfuscated",
+        "translatedContent": "                  \"res/xml/*\", // all files inside xml directory will not be obfuscated"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "GxkvuV6nG28K7vpiOQrVMjQ5nY6Vt7Z3BEv+ZGc+4Hc=",
+        "originContent": "                  // White list rules (resource name to exclude)",
+        "translatedContent": "                  // White list rules (resource name to exclude)"
+      },
+      {
+        "row": 18,
+        "rowsha": "EXwA7V56W2/NXzMuiBY9/Ijsy6SN3QGRWvSlRIACx2Y=",
+        "originContent": "                  \"*.R.raw.*\",",
+        "translatedContent": "                  \"*.R.raw.*\","
+      },
+      {
+        "row": 19,
+        "rowsha": "z+CYhQDiGaB371tYycU8YMmIHy8Duns0pbSPtkYjV5E=",
+        "originContent": "                  \"*.R.xml.*\",",
+        "translatedContent": "                  \"*.R.xml.*\","
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "ndblk2TYFlbP+V2ouylm427bk2YItDl8zlUkiDqvO3Q=",
+        "originContent": "                  // for google-services",
+        "translatedContent": "                  // for google-services"
+      },
+      {
+        "row": 22,
+        "rowsha": "UwFHG0ShsT6PtGgk8t+iTXVQiYTeoK0/27DiA4IiYOs=",
+        "originContent": "                  \"*.R.string.google_api_key\",",
+        "translatedContent": "                  \"*.R.string.google_api_key\","
+      },
+      {
+        "row": 23,
+        "rowsha": "BOL3nrK4Aaaea8UPJab8JlxyfTNZ9eZlt1gjpoVvQbM=",
+        "originContent": "                  \"*.R.string.google_app_id\",",
+        "translatedContent": "                  \"*.R.string.google_app_id\","
+      },
+      {
+        "row": 24,
+        "rowsha": "+MmL0GfJ4y51YOqJNfDIL+wmfn8IqJ8gAgfVKP7ez5E=",
+        "originContent": "                  \"*.R.string.default_web_client_id\",",
+        "translatedContent": "                  \"*.R.string.default_web_client_id\","
+      },
+      {
+        "row": 25,
+        "rowsha": "DrvoSOqsLBlxxlvmlgP7emIcrh/zo6a2f2uXe37dx10=",
+        "originContent": "                  \"*.R.string.gcm_defaultSenderId\",",
+        "translatedContent": "                  \"*.R.string.gcm_defaultSenderId\","
+      },
+      {
+        "row": 26,
+        "rowsha": "6pL7fWK3AItm/pyoRivmRZUCGrIcOeIKqXU45YwBr7s=",
+        "originContent": "                  \"*.R.string.ga_trackingId\",",
+        "translatedContent": "                  \"*.R.string.ga_trackingId\","
+      },
+      {
+        "row": 27,
+        "rowsha": "p0VSHHNp4ITsilDhgbiHXREO+11yjvsXYsLvhKaqMY8=",
+        "originContent": "                  \"*.R.string.firebase_database_url\",",
+        "translatedContent": "                  \"*.R.string.firebase_database_url\","
+      },
+      {
+        "row": 28,
+        "rowsha": "ORdrxSmB/ovpcA+4uWyjQFkr9iwh0ltKt99jd6uFB9g=",
+        "originContent": "                  \"*.R.string.google_crash_reporting_api_key\",",
+        "translatedContent": "                  \"*.R.string.google_crash_reporting_api_key\","
+      },
+      {
+        "row": 29,
+        "rowsha": "E7ibLdrokTk21T2nZ7p/a2doAG+2UptYl8F9RxrVe4Y=",
+        "originContent": "                  \"*.R.string.google_storage_bucket\",",
+        "translatedContent": "                  \"*.R.string.google_storage_bucket\","
+      },
+      {
+        "row": 30,
+        "rowsha": "88kcffO2WSfn4SO/gZ+kdUHrqt6b+gOrnLM1kCgyhfo=",
+        "originContent": "                  \"*.R.integer.google_play_services_version\",",
+        "translatedContent": "                  \"*.R.integer.google_play_services_version\","
+      },
+      {
+        "row": 31,
+        "rowsha": "wTUVJN64IlcYFBaOeVCo8+lLu8lmz3CUuT9XjIGWpqw=",
+        "originContent": "                  ",
+        "translatedContent": "                  "
+      },
+      {
+        "row": 32,
+        "rowsha": "3wQmLjpDL2Cd5hlrZEgxzIQJbuEdJb8DEeULq+CHkCs=",
+        "originContent": "                  //firebase",
+        "translatedContent": "                  //firebase"
+      },
+      {
+        "row": 33,
+        "rowsha": "FFamWcTpRhu3djRY67moMlG5ZQrGwlF5FxIHCkJO4yo=",
+        "originContent": "                  \"*.R.string.project_id\",",
+        "translatedContent": "                  \"*.R.string.project_id\","
+      },
+      {
+        "row": 34,
+        "rowsha": "/ms4SdzUhewD8L4iZbxd9icIQwL9TSpZaO0qKM5/t1E=",
+        "originContent": "                  //firebase crashlytics",
+        "translatedContent": "                  //firebase crashlytics"
+      },
+      {
+        "row": 35,
+        "rowsha": "3hkRNDtJ5/sF04USBxgmlOoMIr0Meof3Pf7ekQYOS+E=",
+        "originContent": "                  \"*.R.string.com.google.firebase.crashlytics.mapping_file_id\",",
+        "translatedContent": "                  \"*.R.string.com.google.firebase.crashlytics.mapping_file_id\","
+      },
+      {
+        "row": 36,
+        "rowsha": "8ARW7glAFvqXj63ZurvFCZMCTutxrNE2AXTtaKcQipo=",
+        "originContent": "                  \"*.R.bool.com.crashlytics.useFirebaseAppId\",",
+        "translatedContent": "                  \"*.R.bool.com.crashlytics.useFirebaseAppId\","
+      },
+      {
+        "row": 37,
+        "rowsha": "HVAcvO8RuXLFYyy0LO2C3uiKDOFVloQOuIC1UkKtGgQ=",
+        "originContent": "                  \"*.R.string.com.crashlytics.useFirebaseAppId\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.useFirebaseAppId\","
+      },
+      {
+        "row": 38,
+        "rowsha": "BOL3nrK4Aaaea8UPJab8JlxyfTNZ9eZlt1gjpoVvQbM=",
+        "originContent": "                  \"*.R.string.google_app_id\",",
+        "translatedContent": "                  \"*.R.string.google_app_id\","
+      },
+      {
+        "row": 39,
+        "rowsha": "j5U4tGdEY8XBugZac9QTt0utui9GdufmPz6nWiyGOrI=",
+        "originContent": "                  \"*.R.bool.com.crashlytics.CollectDeviceIdentifiers\",",
+        "translatedContent": "                  \"*.R.bool.com.crashlytics.CollectDeviceIdentifiers\","
+      },
+      {
+        "row": 40,
+        "rowsha": "u4++dkniaXhFjXF8GL5F20ySKMg4af4gxA2Lqv4vnxE=",
+        "originContent": "                  \"*.R.string.com.crashlytics.CollectDeviceIdentifiers\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.CollectDeviceIdentifiers\","
+      },
+      {
+        "row": 41,
+        "rowsha": "QcS/xgH9qoUGJ/PcNUQZcmicyhJLITL2WUi1wT83L4w=",
+        "originContent": "                  \"*.R.bool.com.crashlytics.CollectUserIdentifiers\",",
+        "translatedContent": "                  \"*.R.bool.com.crashlytics.CollectUserIdentifiers\","
+      },
+      {
+        "row": 42,
+        "rowsha": "OXADPOWCww2atBvBilLLY0rsqJv1JiZqWV59RPHrIZ4=",
+        "originContent": "                  \"*.R.string.com.crashlytics.CollectUserIdentifiers\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.CollectUserIdentifiers\","
+      },
+      {
+        "row": 43,
+        "rowsha": "RC+bAMRxI+6S+XzyXgi+yH9gtj7cK6NhLJHZSmhhkGo=",
+        "originContent": "                  \"*.R.string.com.crashlytics.ApiEndpoint\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.ApiEndpoint\","
+      },
+      {
+        "row": 44,
+        "rowsha": "sLndXs2MTHB881gcY4SzNdHr7UTaM8Ij6mvvZ238Lgs=",
+        "originContent": "                  \"*.R.string.com.crashlytics.android.build_id\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.android.build_id\","
+      },
+      {
+        "row": 45,
+        "rowsha": "bM33ILyTYXdWYzmuU3jlMlp7/T+G1RELb9n4eHOFBuk=",
+        "originContent": "                  \"*.R.bool.com.crashlytics.RequireBuildId\",",
+        "translatedContent": "                  \"*.R.bool.com.crashlytics.RequireBuildId\","
+      },
+      {
+        "row": 46,
+        "rowsha": "GoVZzTMYUMoQBS21At+fHm4SvRW2y0LEz464mMAcDa0=",
+        "originContent": "                  \"*.R.string.com.crashlytics.RequireBuildId\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.RequireBuildId\","
+      },
+      {
+        "row": 47,
+        "rowsha": "9tcBgtAhunZ6NSVuKZkS4GkQ2ifDXFBEEkF5UgXuZGA=",
+        "originContent": "                  \"*.R.bool.com.crashlytics.CollectCustomLogs\",",
+        "translatedContent": "                  \"*.R.bool.com.crashlytics.CollectCustomLogs\","
+      },
+      {
+        "row": 48,
+        "rowsha": "nQgfZk85rErpxPU114/JtDAVdf2U8ztzqgeQJN/71Z8=",
+        "originContent": "                  \"*.R.string.com.crashlytics.CollectCustomLogs\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.CollectCustomLogs\","
+      },
+      {
+        "row": 49,
+        "rowsha": "emF7IO1S77x7F2Pr9YHIrHrvsdKx3VsvBG9SoVrOCBU=",
+        "originContent": "                  \"*.R.bool.com.crashlytics.Trace\",",
+        "translatedContent": "                  \"*.R.bool.com.crashlytics.Trace\","
+      },
+      {
+        "row": 50,
+        "rowsha": "Pm5NRxCLZddd2bN0Yptg8QaOkad2YyYc6mEX59YErJA=",
+        "originContent": "                  \"*.R.string.com.crashlytics.Trace\",",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.Trace\","
+      },
+      {
+        "row": 51,
+        "rowsha": "1rRh6u3gZaDmFmRt47GTd+iCAKXkJQiBAP2WD17LT/w=",
+        "originContent": "                  \"*.R.string.com.crashlytics.CollectCustomKeys\"",
+        "translatedContent": "                  \"*.R.string.com.crashlytics.CollectCustomKeys\""
+      },
+      {
+        "row": 52,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 53,
+        "rowsha": "Ko2beC3PD7z86F82lhLNSTocKpC5tiCvJChHzH82KzI=",
+        "originContent": "    mergeDuplicateResources = true // allow the merge of duplicate resources",
+        "translatedContent": "    mergeDuplicateResources = true // allow the merge of duplicate resources"
+      },
+      {
+        "row": 54,
+        "rowsha": "0w8fzKULGjpT0mBLRZN4cZnv54oQLjJA43HunAWeWdQ=",
+        "originContent": "    enableFileFiltering = true",
+        "translatedContent": "    enableFileFiltering = true"
+      },
+      {
+        "row": 55,
+        "rowsha": "z1ZNmfJukhQZoKT+QSCk+UUJD+INSxaAPpvZomxji4Q=",
+        "originContent": "    enableFilterStrings = true",
+        "translatedContent": "    enableFilterStrings = true"
+      },
+      {
+        "row": 56,
+        "rowsha": "VM2GGUB+GTmkzwC/ua4SAjXUSS4+jmfXJRpkcykPLTc=",
+        "originContent": "    fileFilterList = [ // file filter rules",
+        "translatedContent": "    fileFilterList = [ // file filter rules"
+      },
+      {
+        "row": 57,
+        "rowsha": "J7kp+eiEpESHgIG8SqZmEYlnCXbraSaPAj/xru2ABqM=",
+        "originContent": "                         \"META-INF/*\",",
+        "translatedContent": "                         \"META-INF/*\","
+      },
+      {
+        "row": 58,
+        "rowsha": "3TAUSCsCIDtOEqHRZCL8EdbSRmLaW7jBEUjMMwdlXHU=",
+        "originContent": "//                       \"*/armeabi-v7a/*\",",
+        "translatedContent": "//                       \"*/armeabi-v7a/*\","
+      },
+      {
+        "row": 59,
+        "rowsha": "Xz3BMo6+aOfCGZfXPA9C0h4TJdacEL8WZdXj9/3cHMc=",
+        "originContent": "//                       \"*/arm64-v8a/*\",",
+        "translatedContent": "//                       \"*/arm64-v8a/*\","
+      },
+      {
+        "row": 60,
+        "rowsha": "st5mvKtqVc2x864pspHQCDxldCDR+H6+O+UrbjgHHQk=",
+        "originContent": "//                       \"*/x86/*\",",
+        "translatedContent": "//                       \"*/x86/*\","
+      },
+      {
+        "row": 61,
+        "rowsha": "fuv3R8Uv7pYGbWWwR9I8dWJUSc2VNO1udmgpmMRq1Ng=",
+        "originContent": "//                       \"*/x86_64/*\"",
+        "translatedContent": "//                       \"*/x86_64/*\""
+      },
+      {
+        "row": 62,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 63,
+        "rowsha": "FdWISuU/3nNl3l00eFFOZu/bzPmkxn0Xxlz/0iDY+qA=",
+        "originContent": "    unusedStringFile = \"path/to/your/unused_strings.txt\" // strings will be filtered in this file",
+        "translatedContent": "    unusedStringFile = \"path/to/your/unused_strings.txt\" // strings will be filtered in this file"
+      },
+      {
+        "row": 64,
+        "rowsha": "S1psgYkgeEjszm+LJjnYRrSuc0MDVL9IesONnMJSxlc=",
+        "originContent": "    localeWhiteList = [\"en\", \"in\", \"fr\"] //keep en,en-xx,in,in-xx,fr,fr-xx and remove others locale.",
+        "translatedContent": "    localeWhiteList = [\"en\", \"in\", \"fr\"] //keep en,en-xx,in,in-xx,fr,fr-xx and remove others locale."
+      },
+      {
+        "row": 65,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 66,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## Usage\n\nTo obfuscate your resources and generate an obfuscated AAB, run the following Gradle command in the project's root\ndirectory.:\n",
+    "ContentSha": "ytaFAQ9AZ4udvmg48+o94EXnEDjH7QtqimME0DeCtdY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Utilisation\n\nPour obfusquer vos ressources et générer un AAB obfusqué, exécutez la commande Gradle suivante dans le répertoire racine du projet. :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Utilisation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Kckjf5IxqYIlXCyJRdkyIcvUSAugIhCyYXz70/2tiVw=",
+        "originContent": "To obfuscate your resources and generate an obfuscated AAB, run the following Gradle command in the project's root",
+        "translatedContent": "Pour obfusquer vos ressources et générer un AAB obfusqué, exécutez la commande Gradle suivante dans le répertoire racine du projet. :"
+      },
+      {
+        "row": 5,
+        "rowsha": "sCcWvl6kSXzA7wJGRMtx4Q5O9CNZtTHf2iRTg1+xfJo=",
+        "originContent": "directory.:",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```cmd\n./gradle clean :app:resChiperDebug --stacktrace\n```",
+    "ContentSha": "K/0ij+YXDmk6N8wSoni+xjfcjvDaNMwZcoW77Wc2jBc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cmd\n./gradle clean :app:resChiperDebug --stacktrace\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OdQQfokK9VAr+KbNi/Vu3u/NAu1JNDE4jS0EyS2AGb4=",
+        "originContent": "```cmd",
+        "translatedContent": "```cmd"
+      },
+      {
+        "row": 2,
+        "rowsha": "/R5sbNTF1mdrZjRJ1cxf4H8NQjNAq2+8Z2RpKpN0ego=",
+        "originContent": "./gradle clean :app:resChiperDebug --stacktrace",
+        "translatedContent": "./gradle clean :app:resChiperDebug --stacktrace"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nThis command will execute the obfuscation process from the project root, and the obfuscated AAB will be generated in\nthe `app/build/outputs/bundle/debug` directory.\n\n## Configuration Options\n\nThe ResChiper extension provides various configuration options for resource obfuscation, including enabling/disabling\nobfuscation, specifying mapping files, white-listing resources, and more.\n\n- `enableObfuscation`: Enable or disable resource obfuscation.<br>\n- `obfuscationMode`: to obfuscate only directories set `obfuscationMode = \"dir\"`, to obfuscate only files set\n  `obfuscationMode = \"file\"` and to obfuscate both directory and files set `obfuscationMode = \"default\"`.<br>\n- `enableFilterStrings`: Input the unused file splits by lines to support remove strings.<br>\n- `enableFileFiltering`: Support for filtering files in the bundle package. Currently only supports filtering in\n  the `META-INFO/` and `lib/` paths.<br>\n- `obfuscatedBundleName`: Name of the obfuscated AAB file.<br>\n- `mergeDuplicateResources`: eliminate duplicate resource files and reduce package size.<br>\n- `mappingFile`: Path to the ProGuard mapping file (set only when mapping.txt used for obfuscation).<br>\n- `whiteList`: Set of resource names to exclude from obfuscation.<br>\n- `fileFilterList`: List of file patterns to filter out.<br>\n- `unusedStringFile`: Path to a file containing unused strings.<br>\n- `localeWhiteList`: Set of locales to include in the AAB.\n\n## Example\n\nyou can check some configuration example [here](https://github.com/goldfish07/ResChiper/wiki/Example-Configuration-Options) \n\n## WhiteList\n\nresources that are not obfuscated during the build process.<br>\nyou can find whitsList configs [here](https://github.com/goldfish07/ResChiper/wiki/WhiteList).\n\n## Output\n\nAfter running the obfuscation process, you can expect the following output files:\n\n- **aab:** This is the obfuscated bundle package, which contains your Android App Bundle (AAB) with obfuscated\n  resources.\n- **resources-mapping.txt:** This file contains the resource obfuscation mapping. It can be used as input for future\n  obfuscation processes to achieve incremental obfuscation. This is especially useful if you want to maintain",
+    "ContentSha": "/D4yW8p+XM0pagrxwlDSrW2jzmHsRnssc8S5+WWzjVs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCette commande exécutera le processus d'obfuscation depuis la racine du projet, et le AAB obfusqué sera généré dans\nle répertoire `app/build/outputs/bundle/debug`.\n\n## Options de configuration\n\nL'extension ResChiper offre diverses options de configuration pour l'obfuscation des ressources, notamment l'activation/désactivation\nde l'obfuscation, la spécification des fichiers de correspondance, la liste blanche des ressources, et plus encore.\n\n- `enableObfuscation` : Activer ou désactiver l'obfuscation des ressources.<br>\n- `obfuscationMode` : pour obfusquer uniquement les répertoires, définir `obfuscationMode = \"dir\"`, pour obfusquer uniquement les fichiers, définir\n  `obfuscationMode = \"file\"` et pour obfusquer à la fois répertoires et fichiers, définir `obfuscationMode = \"default\"`.<br>\n- `enableFilterStrings` : Saisir les splits de fichiers inutilisés ligne par ligne pour supporter la suppression de chaînes.<br>\n- `enableFileFiltering` : Support pour filtrer les fichiers dans le paquet bundle. Supporte actuellement uniquement le filtrage dans\n  les chemins `META-INFO/` et `lib/`.<br>\n- `obfuscatedBundleName` : Nom du fichier AAB obfusqué.<br>\n- `mergeDuplicateResources` : éliminer les fichiers de ressources en double et réduire la taille du paquet.<br>\n- `mappingFile` : Chemin vers le fichier de correspondance ProGuard (à définir uniquement si mapping.txt est utilisé pour l'obfuscation).<br>\n- `whiteList` : Ensemble des noms de ressources à exclure de l'obfuscation.<br>\n- `fileFilterList` : Liste des motifs de fichiers à filtrer.<br>\n- `unusedStringFile` : Chemin vers un fichier contenant les chaînes inutilisées.<br>\n- `localeWhiteList` : Ensemble des locales à inclure dans le AAB.\n\n## Exemple\n\nvous pouvez consulter un exemple de configuration [ici](https://github.com/goldfish07/ResChiper/wiki/Example-Configuration-Options) \n\n## Liste blanche\n\nressources qui ne sont pas obfusquées durant le processus de compilation.<br>\nvous pouvez trouver les configurations de whiteList [ici](https://github.com/goldfish07/ResChiper/wiki/WhiteList).\n\n## Sortie\n\nAprès l'exécution du processus d'obfuscation, vous pouvez vous attendre aux fichiers de sortie suivants :\n\n- **aab :** Il s'agit du paquet bundle obfusqué, qui contient votre Android App Bundle (AAB) avec les\n  ressources obfusquées.\n- **resources-mapping.txt :** Ce fichier contient la correspondance d'obfuscation des ressources. Il peut être utilisé comme entrée pour de futurs\n  processus d'obfuscation afin d'obtenir une obfuscation incrémentale. Ceci est particulièrement utile si vous souhaitez maintenir",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qQUKDK3OwVty9L+CjzacZUcE//JOcRzj1t/1qCBWNGA=",
+        "originContent": "This command will execute the obfuscation process from the project root, and the obfuscated AAB will be generated in",
+        "translatedContent": "Cette commande exécutera le processus d'obfuscation depuis la racine du projet, et le AAB obfusqué sera généré dans"
+      },
+      {
+        "row": 3,
+        "rowsha": "6x1iB0RYvL9px0b7MWKNuEsN3Y+x4I2kNpP3DMG5reI=",
+        "originContent": "the `app/build/outputs/bundle/debug` directory.",
+        "translatedContent": "le répertoire `app/build/outputs/bundle/debug`."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "V9KSt2YGHWHKhLFXw8vhKEfBj8HIXJIPsF8Xv1NwUTI=",
+        "originContent": "## Configuration Options",
+        "translatedContent": "## Options de configuration"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "R302s4VgdQsxZwH/7XCKlXqERQbFw7TDyPfUw+2n8mc=",
+        "originContent": "The ResChiper extension provides various configuration options for resource obfuscation, including enabling/disabling",
+        "translatedContent": "L'extension ResChiper offre diverses options de configuration pour l'obfuscation des ressources, notamment l'activation/désactivation"
+      },
+      {
+        "row": 8,
+        "rowsha": "uIehel6OVQ4o3X4N7bOb3H7vMlt9nVbhKqybeht7i0g=",
+        "originContent": "obfuscation, specifying mapping files, white-listing resources, and more.",
+        "translatedContent": "de l'obfuscation, la spécification des fichiers de correspondance, la liste blanche des ressources, et plus encore."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "lTXQA/tM58thvkYaQJ29nQKIlZZz6kPZrFLNA2dpWdM=",
+        "originContent": "- `enableObfuscation`: Enable or disable resource obfuscation.<br>",
+        "translatedContent": "- `enableObfuscation` : Activer ou désactiver l'obfuscation des ressources.<br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "14ZoPmmpiRbQTDlIUBr4KA8JM06H89rrGrH6RyTLlMA=",
+        "originContent": "- `obfuscationMode`: to obfuscate only directories set `obfuscationMode = \"dir\"`, to obfuscate only files set",
+        "translatedContent": "- `obfuscationMode` : pour obfusquer uniquement les répertoires, définir `obfuscationMode = \"dir\"`, pour obfusquer uniquement les fichiers, définir"
+      },
+      {
+        "row": 12,
+        "rowsha": "ryFMCW+/+ohlREMMmaV8go5Tea4xHF4kUoDKMcNa0Sk=",
+        "originContent": "  `obfuscationMode = \"file\"` and to obfuscate both directory and files set `obfuscationMode = \"default\"`.<br>",
+        "translatedContent": "  `obfuscationMode = \"file\"` et pour obfusquer à la fois répertoires et fichiers, définir `obfuscationMode = \"default\"`.<br>"
+      },
+      {
+        "row": 13,
+        "rowsha": "/ffOEmwIOjxjCcXkpCqZgWlIF5uqMotUoDSK52tZ+lA=",
+        "originContent": "- `enableFilterStrings`: Input the unused file splits by lines to support remove strings.<br>",
+        "translatedContent": "- `enableFilterStrings` : Saisir les splits de fichiers inutilisés ligne par ligne pour supporter la suppression de chaînes.<br>"
+      },
+      {
+        "row": 14,
+        "rowsha": "OhRMEbKpzk1Z6P8z0zQzz1h8zf4qAL2qM2ZCCtIpLf8=",
+        "originContent": "- `enableFileFiltering`: Support for filtering files in the bundle package. Currently only supports filtering in",
+        "translatedContent": "- `enableFileFiltering` : Support pour filtrer les fichiers dans le paquet bundle. Supporte actuellement uniquement le filtrage dans"
+      },
+      {
+        "row": 15,
+        "rowsha": "rMsn7yI5Owj3jx88JTOslBABqUO0ywt4t75TqusoKGs=",
+        "originContent": "  the `META-INFO/` and `lib/` paths.<br>",
+        "translatedContent": "  les chemins `META-INFO/` et `lib/`.<br>"
+      },
+      {
+        "row": 16,
+        "rowsha": "lSM2nLdue+gFFiD2svdwSya/HMEKZo5xHbakHmx4Piw=",
+        "originContent": "- `obfuscatedBundleName`: Name of the obfuscated AAB file.<br>",
+        "translatedContent": "- `obfuscatedBundleName` : Nom du fichier AAB obfusqué.<br>"
+      },
+      {
+        "row": 17,
+        "rowsha": "0ksEm3o/uS6g8nL8BP0QG8N63kivBpEKXWM+0Y5S9co=",
+        "originContent": "- `mergeDuplicateResources`: eliminate duplicate resource files and reduce package size.<br>",
+        "translatedContent": "- `mergeDuplicateResources` : éliminer les fichiers de ressources en double et réduire la taille du paquet.<br>"
+      },
+      {
+        "row": 18,
+        "rowsha": "NwGg20TLKzfRsoLFCW/g+gYeDmUSBIDOK7yR1NAqVro=",
+        "originContent": "- `mappingFile`: Path to the ProGuard mapping file (set only when mapping.txt used for obfuscation).<br>",
+        "translatedContent": "- `mappingFile` : Chemin vers le fichier de correspondance ProGuard (à définir uniquement si mapping.txt est utilisé pour l'obfuscation).<br>"
+      },
+      {
+        "row": 19,
+        "rowsha": "9+agaYGho5w/R0j6EKHI1+NINHuIWbqSRxrY66E1V14=",
+        "originContent": "- `whiteList`: Set of resource names to exclude from obfuscation.<br>",
+        "translatedContent": "- `whiteList` : Ensemble des noms de ressources à exclure de l'obfuscation.<br>"
+      },
+      {
+        "row": 20,
+        "rowsha": "wW6n5naWk7Qv2WQ70MSM4tk/PvfYacJf6B+vnJqqCWQ=",
+        "originContent": "- `fileFilterList`: List of file patterns to filter out.<br>",
+        "translatedContent": "- `fileFilterList` : Liste des motifs de fichiers à filtrer.<br>"
+      },
+      {
+        "row": 21,
+        "rowsha": "eQDDDNRflGGPb+heri/0fnFeCWNWPNa0s92t/Bf6Ddo=",
+        "originContent": "- `unusedStringFile`: Path to a file containing unused strings.<br>",
+        "translatedContent": "- `unusedStringFile` : Chemin vers un fichier contenant les chaînes inutilisées.<br>"
+      },
+      {
+        "row": 22,
+        "rowsha": "BMgyvrMXtmQo+XTsp1QSVGPFqYzMnYUZn7p1PM9EL30=",
+        "originContent": "- `localeWhiteList`: Set of locales to include in the AAB.",
+        "translatedContent": "- `localeWhiteList` : Ensemble des locales à inclure dans le AAB."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": "## Exemple"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "3iR03qfqRznvqVA8SIxmST0D2X7bknipD7hGpgUMWJM=",
+        "originContent": "you can check some configuration example [here](https://github.com/goldfish07/ResChiper/wiki/Example-Configuration-Options) ",
+        "translatedContent": "vous pouvez consulter un exemple de configuration [ici](https://github.com/goldfish07/ResChiper/wiki/Example-Configuration-Options) "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "CwzO//yPWl27Q5qdFTrd+gYMLKtDVMYSHw166na0+xI=",
+        "originContent": "## WhiteList",
+        "translatedContent": "## Liste blanche"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "g4Kq0LJYbxWfCrzaweF4S1UvTkGSNIuXfC7/uZMbb+8=",
+        "originContent": "resources that are not obfuscated during the build process.<br>",
+        "translatedContent": "ressources qui ne sont pas obfusquées durant le processus de compilation.<br>"
+      },
+      {
+        "row": 31,
+        "rowsha": "f+Tpf5EzwPAlINJcr5G1zFPb3HqqoO0QK1KXVJTR4hA=",
+        "originContent": "you can find whitsList configs [here](https://github.com/goldfish07/ResChiper/wiki/WhiteList).",
+        "translatedContent": "vous pouvez trouver les configurations de whiteList [ici](https://github.com/goldfish07/ResChiper/wiki/WhiteList)."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "4042S5xrfYSMll0r1ym3bVw4Mkd0PBQ+zmLB8ov9V80=",
+        "originContent": "## Output",
+        "translatedContent": "## Sortie"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "1pakVvSUDrYbf6e4dB8w8R4xJS1ucG/1BcE8y4x1mpw=",
+        "originContent": "After running the obfuscation process, you can expect the following output files:",
+        "translatedContent": "Après l'exécution du processus d'obfuscation, vous pouvez vous attendre aux fichiers de sortie suivants :"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "QG0jptJhZpSpYzMHbT/XnLzLVaEot/YZ8qTS3c9373k=",
+        "originContent": "- **aab:** This is the obfuscated bundle package, which contains your Android App Bundle (AAB) with obfuscated",
+        "translatedContent": "- **aab :** Il s'agit du paquet bundle obfusqué, qui contient votre Android App Bundle (AAB) avec les"
+      },
+      {
+        "row": 38,
+        "rowsha": "U9DrnNTG+UOiBmYiAL7cIAYk2lG2BIrzgsq/5lanF8I=",
+        "originContent": "  resources.",
+        "translatedContent": "  ressources obfusquées."
+      },
+      {
+        "row": 39,
+        "rowsha": "6nXThg8PbD+It6qa06uTzMKmxMGDnG/8nI81mtEUGPY=",
+        "originContent": "- **resources-mapping.txt:** This file contains the resource obfuscation mapping. It can be used as input for future",
+        "translatedContent": "- **resources-mapping.txt :** Ce fichier contient la correspondance d'obfuscation des ressources. Il peut être utilisé comme entrée pour de futurs"
+      },
+      {
+        "row": 40,
+        "rowsha": "m9unxNx2L/Ox5KfsAqhk+FhjMW9ObK2Vry8Zm3tImWY=",
+        "originContent": "  obfuscation processes to achieve incremental obfuscation. This is especially useful if you want to maintain",
+        "translatedContent": "  processus d'obfuscation afin d'obtenir une obfuscation incrémentale. Ceci est particulièrement utile si vous souhaitez maintenir"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "  consistency across different builds.\n- **-duplicated.txt:** This log file provides information about merged resources. It helps you identify and track any\n  duplicate resources that were merged during the obfuscation process.\n\nThese output files will be generated as a result of running the ResChiper tool, and you can find them in the relevant\ndirectories within your project's build output.\n\n## Acknowledgments\n\nResChiper is inspired by the following projects and tools:\n\n* [AabResGuard](https://github.com/bytedance/AabResGuard/)\n* [AndResGuard](https://github.com/shwenzhang/AndResGuard/)\n* [BundleTool](https://github.com/google/bundletool)\n\n## License\n\n[![Apache License v2.0 logo](https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/apache-licence-logo.png)](https://www.apache.org/licenses/LICENSE-2.0.txt)\n\n    Copyright (C) 2023 goldfish07 (Ayush Bisht) <ayushbisht5663@gmail.com>\n    This file is part of ResChiper.\n\n    ResChiper is free software: you can redistribute it and/or modify\n    it under the terms of the Apache License, Version 2.0 as published by\n    the Apache Software Foundation, either version 2.0 of the License, or\n    (at your option) any later version.\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n        http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.",
+    "ContentSha": "MdIuCwqfoYbxQvJ2OZM/PGUI6JBCULi48NXvZiKzsgc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  cohérence entre différentes constructions.\n- **-duplicated.txt :** Ce fichier journal fournit des informations sur les ressources fusionnées. Il vous aide à identifier et suivre toutes\n  les ressources dupliquées qui ont été fusionnées lors du processus d'obfuscation.\n\nCes fichiers de sortie seront générés suite à l'exécution de l'outil ResChiper, et vous pouvez les trouver dans les\nrépertoires pertinents au sein de la sortie de construction de votre projet.\n\n## Remerciements\n\nResChiper s'inspire des projets et outils suivants :\n\n* [AabResGuard](https://github.com/bytedance/AabResGuard/)\n* [AndResGuard](https://github.com/shwenzhang/AndResGuard/)\n* [BundleTool](https://github.com/google/bundletool)\n\n## Licence\n\n[![Logo Licence Apache v2.0](https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/apache-licence-logo.png)](https://www.apache.org/licenses/LICENSE-2.0.txt)\n\n    Copyright (C) 2023 goldfish07 (Ayush Bisht) <ayushbisht5663@gmail.com>\n    Ce fichier fait partie de ResChiper.\n\n    ResChiper est un logiciel libre : vous pouvez le redistribuer et/ou le modifier\n    selon les termes de la Licence Apache, Version 2.0 telle que publiée par\n    la Fondation Apache Software, soit la version 2.0 de la Licence, soit\n    (à votre choix) toute version ultérieure.\n\n    Sous licence Apache, Version 2.0 (la \"Licence\");\n    vous ne pouvez utiliser ce fichier que conformément à la Licence.\n    Vous pouvez obtenir une copie de la Licence à\n\n        http://www.apache.org/licenses/LICENSE-2.0\n\n    Sauf exigence légale ou accord écrit, le logiciel distribué sous la Licence\n    est distribué \"TEL QUEL\", SANS GARANTIES NI CONDITIONS D'AUCUNE SORTE, expresses ou implicites.\n    Consultez la Licence pour les autorisations et limitations spécifiques régissant l'utilisation.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "3zZgo3nZrsq7XWdiGFRLFBE+xY0gbDrGvNp8AwPVSMg=",
+        "originContent": "  consistency across different builds.",
+        "translatedContent": "  cohérence entre différentes constructions."
+      },
+      {
+        "row": 2,
+        "rowsha": "zdbpIdvO6gFQytIcOhAvLRTJFmT98+LoK5KIhPbj78s=",
+        "originContent": "- **-duplicated.txt:** This log file provides information about merged resources. It helps you identify and track any",
+        "translatedContent": "- **-duplicated.txt :** Ce fichier journal fournit des informations sur les ressources fusionnées. Il vous aide à identifier et suivre toutes"
+      },
+      {
+        "row": 3,
+        "rowsha": "16+DeyhJ9ot+iR+ce+VWBlkFc1XeKC05TiPX7eP6vYM=",
+        "originContent": "  duplicate resources that were merged during the obfuscation process.",
+        "translatedContent": "  les ressources dupliquées qui ont été fusionnées lors du processus d'obfuscation."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7v0KWYF1q2PGAbZUlJlNbs1COqtpqpCY0BXLOCvEaQc=",
+        "originContent": "These output files will be generated as a result of running the ResChiper tool, and you can find them in the relevant",
+        "translatedContent": "Ces fichiers de sortie seront générés suite à l'exécution de l'outil ResChiper, et vous pouvez les trouver dans les"
+      },
+      {
+        "row": 6,
+        "rowsha": "/M3LRkScvgYVn1YuZPamgqGnIUDXtEWUHLQgHt0Mwaw=",
+        "originContent": "directories within your project's build output.",
+        "translatedContent": "répertoires pertinents au sein de la sortie de construction de votre projet."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## Remerciements"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qVIzoANBAJT1iXYYBisfur9QyAmpAwTSWdo1r+J98uk=",
+        "originContent": "ResChiper is inspired by the following projects and tools:",
+        "translatedContent": "ResChiper s'inspire des projets et outils suivants :"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "6iwjP//JnIdNFNph33j2C6W2o3TY91Ow5PkZ83u6mBE=",
+        "originContent": "* [AabResGuard](https://github.com/bytedance/AabResGuard/)",
+        "translatedContent": "* [AabResGuard](https://github.com/bytedance/AabResGuard/)"
+      },
+      {
+        "row": 13,
+        "rowsha": "G+y7ouA4VNndUOYeQSkYPA4M9LUJ277rsfOUkHP5I4s=",
+        "originContent": "* [AndResGuard](https://github.com/shwenzhang/AndResGuard/)",
+        "translatedContent": "* [AndResGuard](https://github.com/shwenzhang/AndResGuard/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "YBaOeqQiV30mB8ir8CCUjufg6Cu9FnMOHq3fwp1BcmU=",
+        "originContent": "* [BundleTool](https://github.com/google/bundletool)",
+        "translatedContent": "* [BundleTool](https://github.com/google/bundletool)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "7g0pIoWROSFHYhHOyY2QrpxnQixv5ZugSyLQamyTVqY=",
+        "originContent": "[![Apache License v2.0 logo](https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/apache-licence-logo.png)](https://www.apache.org/licenses/LICENSE-2.0.txt)",
+        "translatedContent": "[![Logo Licence Apache v2.0](https://raw.githubusercontent.com/goldfish07/ResChiper/release/0.1.0-rc6/artifacts/apache-licence-logo.png)](https://www.apache.org/licenses/LICENSE-2.0.txt)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "uBfdjs3vxHZckwVPqDVZ051l+KGc7o2DGO+5+ITpdsQ=",
+        "originContent": "    Copyright (C) 2023 goldfish07 (Ayush Bisht) <ayushbisht5663@gmail.com>",
+        "translatedContent": "    Copyright (C) 2023 goldfish07 (Ayush Bisht) <ayushbisht5663@gmail.com>"
+      },
+      {
+        "row": 21,
+        "rowsha": "75XUicxMRii4wbiYNWhy9gr4xFnk7cAo83S4YPW9CXo=",
+        "originContent": "    This file is part of ResChiper.",
+        "translatedContent": "    Ce fichier fait partie de ResChiper."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "g6it4BkJqQf+iu05TqAUorOv9aYYBzx/tBOdBF3xihs=",
+        "originContent": "    ResChiper is free software: you can redistribute it and/or modify",
+        "translatedContent": "    ResChiper est un logiciel libre : vous pouvez le redistribuer et/ou le modifier"
+      },
+      {
+        "row": 24,
+        "rowsha": "phdwHMhtK5QN7L7y5PY+duWfIdKw0thmD8KTc3P2tsg=",
+        "originContent": "    it under the terms of the Apache License, Version 2.0 as published by",
+        "translatedContent": "    selon les termes de la Licence Apache, Version 2.0 telle que publiée par"
+      },
+      {
+        "row": 25,
+        "rowsha": "TkQ9EHzVlW2ZM0p2k2JU46ZZA271yIJSs103EFrGEyM=",
+        "originContent": "    the Apache Software Foundation, either version 2.0 of the License, or",
+        "translatedContent": "    la Fondation Apache Software, soit la version 2.0 de la Licence, soit"
+      },
+      {
+        "row": 26,
+        "rowsha": "TB4dVeGLS9AMDdtCqHOx8MbakDDe2On4oZpZ8gNKbdg=",
+        "originContent": "    (at your option) any later version.",
+        "translatedContent": "    (à votre choix) toute version ultérieure."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "7+PbWum3FkEfD9DDYOj7M6kYcxU46nhCqKRjvyM3xKc=",
+        "originContent": "    Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "translatedContent": "    Sous licence Apache, Version 2.0 (la \"Licence\");"
+      },
+      {
+        "row": 29,
+        "rowsha": "sJEKzTSN722KI6tQEFawGdGKhk9uJ/vKnv//EZcFa5g=",
+        "originContent": "    you may not use this file except in compliance with the License.",
+        "translatedContent": "    vous ne pouvez utiliser ce fichier que conformément à la Licence."
+      },
+      {
+        "row": 30,
+        "rowsha": "wH1Nqx+khfTadw0ySYFudDnRcm+L3pE/Gcm8GHEaT0o=",
+        "originContent": "    You may obtain a copy of the License at",
+        "translatedContent": "    Vous pouvez obtenir une copie de la Licence à"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "tDT6ThN9XIMokzrLeM+mc5uXiIP26w6Zdobz8x5zW7I=",
+        "originContent": "        http://www.apache.org/licenses/LICENSE-2.0",
+        "translatedContent": "        http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "JIpjO0w54xL/9wYDandBdKIVuD4ryhVsKCegYaviIy8=",
+        "originContent": "    Unless required by applicable law or agreed to in writing, software",
+        "translatedContent": "    Sauf exigence légale ou accord écrit, le logiciel distribué sous la Licence"
+      },
+      {
+        "row": 35,
+        "rowsha": "kyLJoFyzLLNPgA4f90gouTDU8NgYIzmAHmPzC0rCEV4=",
+        "originContent": "    distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "translatedContent": "    est distribué \"TEL QUEL\", SANS GARANTIES NI CONDITIONS D'AUCUNE SORTE, expresses ou implicites."
+      },
+      {
+        "row": 36,
+        "rowsha": "SvZ4EzOUdNxPz4TjAFIaKdKFe1+HNja/Jhg8HIfL7ik=",
+        "originContent": "    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "translatedContent": "    Consultez la Licence pour les autorisations et limitations spécifiques régissant l'utilisation."
+      },
+      {
+        "row": 37,
+        "rowsha": "a1OaSn895pbIIiSz+8eNKd7envz7z/+OjROWXOyem9M=",
+        "originContent": "    See the License for the specific language governing permissions and",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "BxgQVtkPqJyUUk8rtyLA5SwrgKIToKOPD7YSP5qwEL8=",
+        "originContent": "    limitations under the License.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -229,12 +229,12 @@
   },
   {
     "Id": 20,
-    "Content": "```json\n{\n  \"analyze\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuid标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Parse\", // 名称(展示用)\n      \"url\": \"https://xxx.top/?jx=\", // <3.4.1 **弃用**> 解析源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.top/?jx=\", // <3.4.1 启用> 解析源地址(推荐使用)\n      \"type\": 0, // 解析类型(<=3.4.0: 0=web,1=json | >=3.4.1: 1=web,2=json)\n      \"flag\": [], // <3.4.1 启用> 解析线路/标签标识\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"script\": \"\", // <3.4.1 启用> 执行脚本，仅 type=web 时生效\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"iptv\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Iptv\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 **弃用**> 直播源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 启用> 直播源地址(推荐使用)\n      \"type\": 1, // 解析类型(<=3.4.0: remote=远程,local=本地, manual=文本 | >=3.4.1: 1=远程,2=本地,3=文本)\n      \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单地址[string]\n      \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标地址[string] - 3.3.8启用该参数\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"channel\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"name\": \"Channel\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 **弃用**> 播放地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 启用> 播放地址(推荐使用)\n      \"logo\": \"https://xxx.com/logo/xxx.png\", // <3.4.1 启用> 台标地址\n      \"playback\": \"\", // <3.4.1 启用> 预留回播参数\n      \"group\": \"默认\", // 分组\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"site\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Film\", // 名称(展示用)\n      \"api\": \"https://www.xxx.com/api.php/provide/vod/\", // 接口地址\n      \"playUrl\": \"\", // 配合解析去url地址\n      \"search\": 0, // 是否支持搜索(<=3.4.0: 0= 关闭,1=聚合搜索,2=仅搜索 | >=3.4.1: true= 开启,false=关闭)\n      \"group\": \"切片\", // 分组\n      \"type\": 1, // 适配器类型(0=T0_XML,1=T1_JSON,6=T4_DRPYS,7=T3_DRPY,8=T4_CATVOD,9=T3_XBPQ,10=T3_XYQ,11=T3_APPYSV2,12=T3_PY,13=T3_ALIST)\n      \"ext\": \"\", // 扩展参数\n      \"categories\": \"电视,影视\", // 按顺序展示所配置的分类 不配置则默认展示所有分类[string]\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"drive\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"alist\", // 名称(展示用)\n      \"server\": \"http://alist.xxx.pro/\", // 网盘地址\n      \"showAll\": false, // 是否展示全部(true=全部,false=仅视频)\n      \"startPage\": \"\", // 开始页路径\n      \"search\": false, // 是否支持搜索(true=启用,false=禁用)\n      \"headers\": \"{}\", // 请求头(预留字段)\n      \"params\": \"{}\", // 参数(预留字段)\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n    }\n  ], // <3.4.1 **弃用**>\n  \"setting\": [\n    {\n      \"version\": \"3.3.2\", // <3.2.2 启用> 当前版本(一定要根据实际填写,不然数据库执行会报错)\n      \"theme\": \"system\", // 主题 (<=3.4.0: auto=跟随系统,light=亮色,dark=暗色 | system=跟随系统,light=亮色,dark=暗色)\n      \"lang\": \"zh_CN\", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)\n      \"zoom\": 1, // <3.4.1 启用> 界面缩放比例(预留)\n      \"proxy\": {\n        \"type\": \"system\", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)\n        \"url\": \"\", // 代理地址(支持socks5/http/https协议)\n        \"bypass\": \"\" // 忽略主机名\n      }, <3.4.1 启用> 代理设置\n      \"defaultHot\": \"kylive\", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)\n      \"hot\": \"kylive\", // <3.4.1 启用> 热搜(douban=豆瓣,enlightent=云合,komect=移动爱家,hisense=海信,kylive=酷云)\n      \"association\": \"douban\", // <3.4.4 启用> 搜索联想(douban=豆瓣,hisense=海信,snm=喜粤TV)\n      \"defaultSearchRecommend\": \"site\", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用\n      \"defaultSearchType\": \"site\", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部\n      \"defaultFilterType\": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词\n      \"site\": {\n        \"searchMode\": \"site\", // 全局搜索模式 site:本站 group:组内 all:全部\n        \"filterMode\": false, // 影视搜索过滤关键词\n      }, // <3.4.1 启用> 影视设置\n      \"defaultIptvEpg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // <3.4.1 **弃用**> iptv电子节目单(name=频道名称 date=日期)\n      \"defaultIptvLogo\": \"https://epg.112114.eu.org/logo/{name}.png\", // <3.4.1 **弃用**> iptv台标(name=频道名称)\n      \"iptvSkipIpv6\": true, // <3.3.8 **弃用**> iptv是否跳过ipv6节目\n      \"iptvMarkIp\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv标识IP类型\n      \"iptvThumbnail\": true, // <3.4.1 **弃用**> iptv是否显示缩略图\n      \"iptvStatus\": true, // <3.3.8 **弃用**> iptv是否检测延迟\n      \"iptvDelay\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv是否检测延迟\n      \"live\": {\n        \"ipMark\": true, // IP类型\n        \"thumbnail\": false, // 缩略图\n        \"delay\": false, // 延迟测速\n        \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单(name=频道名称 date=日期)\n        \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标(name=频道名称)\n      }, // <3.4.1 启用> 直播设置\n      \"defaultSite\": \"51793af6-c923-5504-85db-0ef686624dec\", // site 默认源标识\n      \"defaultIptv\": \"993841fe-5e91-5e5d-35d6-5be81822960b\", // iptv 默认源标识\n      \"defaultAnalyze\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // analyze 默认源标识\n      \"defaultDrive\": \"3293dc45-cf14-9c66-3028-5b7765b240b7\", // <3.4.1 **弃用**> drive 默认源标识\n      \"defaultViewCasual\": \"\", // <3.3.4 启用 3.3.5 **弃用**> 随心看\n      \"barrage\": {\n        \"url\": \"\", // 弹幕地址\n        \"id\": \"name\", // 弹幕接口返回数据对应的id\n        \"key\": \"danmuku\", // 弹幕接口返回数据对应的key\n        \"support\": [\"qq\", \"qiyi\", \"youku\", \"mgtv\"], // 弹幕支持的线路\n        \"start\": \"0\", <3.4.1 **弃用**> // 返回数据对应的开始时间下标\n        \"time\": 0, // <3.4.1 启用> 返回数据对应的开始时间下标\n        \"mode\": \"1\", // <3.4.1 **弃用**> 返回数据对应的位置下标\n        \"type\": 1, // <3.4.1 启用> 返回数据对应的位置下标\n        \"color\": 2, // 返回数据对应的颜色下标(<=3.4.0: string | >=3.4.1: number)\n        \"content\": \"4\" // <3.4.1 **弃用**> 返回数据对应的内容下标\n        \"text\": 4 // <3.4.1 启用> 返回数据对应的内容下标\n      }, // <3.3.4 启用> 弹幕参数\n      \"analyzeFlag\": [\"youku\", \"qq\", \"iqiyi\", \"qiyi\", \"letv\", \"leshi\", \"sohu\", \"tudou\", \"pptv\", \"mgtv\", \"imgo\"], // <3.4.1 **弃用**> 解析标识\n      \"broadcasterType\": \"xgplayer\", // <3.3.4 **弃用**> 播放器(xgplayer=西瓜播放器,dplayer=呆呆播放器,custom=调外部播放器)\n      \"externalPlayer\": \"\", // <3.3.4 **弃用**> 调外部播放器(类型为custom启用)\n      \"playerMode\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"player\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.4.1 启用>\n      \"softSolution\": false, // 软解(预留字段 true=启用,false=禁用)\n      \"skipStartEnd\": false, // <3.3.5 **弃用**> 是否跳过首尾空白\n      \"agreementMask\": true, // <3.4.1 **弃用**> 是否同意协议\n      \"disclaimer\": true, // <3.4.1 启用> 是否同意协议\n      \"recordShortcut\": \"Shift+Command+Z\", // <3.4.1 **弃用**> 老板键\n      \"bossKey\": \"Shift+Command+Z\", // <3.4.1 启用> 老板键\n      \"snifferType\": \"pie\", // <3.3.4 **弃用**> 嗅探模式(pie=内置嗅探,iframe=原生嗅探)\n      \"snifferMode\": {\n        \"type\": \"pie\", // 嗅探模式(pie=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"sniffer\": {\n        \"type\": \"cdp\", // 嗅探模式(cdp=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.4.1 启用>\n      \"selfBoot\": false, // <3.4.1 **弃用**> 是否开机自启动\n      \"autoStart\": false, // <3.4.1 启用> 是否开机自启动\n      \"hardwareAcceleration\": true, // 是否启用硬件加速\n      \"ua\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\", // User-Agent\n      \"dns\": \"\" // <3.3.7 启用> DNS-over-HTTP\n      \"webdavUrl\": \"https://dav.jianguoyun.com/dav/\", // <3.3.4 **弃用**> webdav同步盘地址\n      \"webdavUsername\": \"\", // <3.3.4 **弃用**> webdeav用户名\n      \"webdavPassword\": \"\", // <3.3.4 **弃用**> webdav密码\n      \"webdav\": {\n        \"sync\": false, // 自动同步\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        }\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"cloud\": {\n        \"sync\": false, // 自动同步\n        \"type\": \"webdav\", // 备份类型(webdav=webdav同步盘, icloud=icloud云盘仅mac)\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        } // 仅类型为webdav启用\n      }, // <3.4.1 启用>\n      \"ai\": {\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.3.5 启用, 3.4.1 **弃用**>\n      \"aigc\": {\n        \"type\": \"openai\", // AI类型(仅支持openai)\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.4.1 启用> AI设置\n      \"timeout\": 5000, // <3.3.5 启用> 全局请求超时(ms)\n      \"restoreWindowPositionAndSize\": false, // <3.3.7 **弃用**> 是否记录窗口位置\n      \"windowPosition\": {\n        \"status\": false, // 是否记录窗口位置\n        \"position\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 **弃用**> 窗口位置\n        \"position_main\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 启用> 记录主窗口位置\n        \"position_play\": {\n          \"width\": 875,\n          \"height\": 550\n        } // <3.3.7 启用> 记录播放窗口位置\n      }, // <3.4.1 **弃用**>\n      \"debug\": false, // <3.3.7 启用> 用于部分调试\n    }\n  ]\n}\n```",
-    "ContentSha": "UWTQ0qppGpevD9i8qV1LjULX3elcRvw6I7jJxHtrTT0=",
+    "Content": "```json\n{\n  \"analyze\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuid标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Parse\", // 名称(展示用)\n      \"url\": \"https://xxx.top/?jx=\", // <3.4.1 **弃用**> 解析源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.top/?jx=\", // <3.4.1 启用> 解析源地址(推荐使用)\n      \"type\": 0, // 解析类型(<=3.4.0: 0=web,1=json | >=3.4.1: 1=web,2=json)\n      \"flag\": [], // <3.4.1 启用> 解析线路/标签标识\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"script\": \"\", // <3.4.1 启用> 执行脚本，仅 type=web 时生效\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"iptv\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Iptv\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 **弃用**> 直播源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 启用> 直播源地址(推荐使用)\n      \"type\": 1, // 解析类型(<=3.4.0: remote=远程,local=本地, manual=文本 | >=3.4.1: 1=远程,2=本地,3=文本)\n      \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单地址[string]\n      \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标地址[string] - 3.3.8启用该参数\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"channel\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"name\": \"Channel\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 **弃用**> 播放地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 启用> 播放地址(推荐使用)\n      \"logo\": \"https://xxx.com/logo/xxx.png\", // <3.4.1 启用> 台标地址\n      \"playback\": \"\", // <3.4.1 启用> 预留回播参数\n      \"headers\": {}, // <3.4.7 启用> 请求头\n      \"group\": \"默认\", // 分组\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"site\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Film\", // 名称(展示用)\n      \"api\": \"https://www.xxx.com/api.php/provide/vod/\", // 接口地址\n      \"playUrl\": \"\", // 配合解析去url地址\n      \"search\": 0, // 是否支持搜索(<=3.4.0: 0= 关闭,1=聚合搜索,2=仅搜索 | >=3.4.1: true= 开启,false=关闭)\n      \"group\": \"切片\", // 分组\n      \"type\": 1, // 适配器类型(0=T0_XML,1=T1_JSON,6=T4_DRPYS,7=T3_DRPY,8=T4_CATVOD,9=T3_XBPQ,10=T3_XYQ,11=T3_APPYSV2,12=T3_PY,13=T3_ALIST)\n      \"ext\": \"\", // 扩展参数\n      \"categories\": \"电视,影视\", // 按顺序展示所配置的分类 不配置则默认展示所有分类[string]\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"drive\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"alist\", // 名称(展示用)\n      \"server\": \"http://alist.xxx.pro/\", // 网盘地址\n      \"showAll\": false, // 是否展示全部(true=全部,false=仅视频)\n      \"startPage\": \"\", // 开始页路径\n      \"search\": false, // 是否支持搜索(true=启用,false=禁用)\n      \"headers\": \"{}\", // 请求头(预留字段)\n      \"params\": \"{}\", // 参数(预留字段)\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n    }\n  ], // <3.4.1 **弃用**>\n  \"setting\": [\n    {\n      \"version\": \"3.3.2\", // <3.2.2 启用> 当前版本(一定要根据实际填写,不然数据库执行会报错)\n      \"theme\": \"system\", // 主题 (<=3.4.0: auto=跟随系统,light=亮色,dark=暗色 | system=跟随系统,light=亮色,dark=暗色)\n      \"lang\": \"zh_CN\", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)\n      \"zoom\": 1, // <3.4.1 启用> 界面缩放比例(预留)\n      \"proxy\": {\n        \"type\": \"system\", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)\n        \"url\": \"\", // 代理地址(支持socks5/http/https协议)\n        \"bypass\": \"\" // 忽略主机名\n      }, <3.4.1 启用> 代理设置\n      \"defaultHot\": \"kylive\", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)\n      \"hot\": \"kylive\", // <3.4.1 启用> 热搜(douban=豆瓣,enlightent=云合,komect=移动爱家,hisense=海信,kylive=酷云)\n      \"association\": \"douban\", // <3.4.4 启用> 搜索联想(douban=豆瓣,hisense=海信,snm=喜粤TV)\n      \"defaultSearchRecommend\": \"site\", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用\n      \"defaultSearchType\": \"site\", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部\n      \"defaultFilterType\": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词\n      \"site\": {\n        \"searchMode\": \"site\", // 全局搜索模式 site:本站 group:组内 all:全部\n        \"filterMode\": false, // 影视搜索过滤关键词\n      }, // <3.4.1 启用> 影视设置\n      \"defaultIptvEpg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // <3.4.1 **弃用**> iptv电子节目单(name=频道名称 date=日期)\n      \"defaultIptvLogo\": \"https://epg.112114.eu.org/logo/{name}.png\", // <3.4.1 **弃用**> iptv台标(name=频道名称)\n      \"iptvSkipIpv6\": true, // <3.3.8 **弃用**> iptv是否跳过ipv6节目\n      \"iptvMarkIp\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv标识IP类型\n      \"iptvThumbnail\": true, // <3.4.1 **弃用**> iptv是否显示缩略图\n      \"iptvStatus\": true, // <3.3.8 **弃用**> iptv是否检测延迟\n      \"iptvDelay\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv是否检测延迟\n      \"live\": {\n        \"ipMark\": true, // IP类型\n        \"thumbnail\": false, // 缩略图\n        \"delay\": false, // 延迟测速\n        \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单(name=频道名称 date=日期)\n        \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标(name=频道名称)\n      }, // <3.4.1 启用> 直播设置\n      \"defaultSite\": \"51793af6-c923-5504-85db-0ef686624dec\", // site 默认源标识\n      \"defaultIptv\": \"993841fe-5e91-5e5d-35d6-5be81822960b\", // iptv 默认源标识\n      \"defaultAnalyze\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // analyze 默认源标识\n      \"defaultDrive\": \"3293dc45-cf14-9c66-3028-5b7765b240b7\", // <3.4.1 **弃用**> drive 默认源标识\n      \"defaultViewCasual\": \"\", // <3.3.4 启用 3.3.5 **弃用**> 随心看\n      \"barrage\": {\n        \"url\": \"\", // 弹幕地址\n        \"id\": \"name\", // 弹幕接口返回数据对应的id\n        \"key\": \"danmuku\", // 弹幕接口返回数据对应的key\n        \"support\": [\"qq\", \"qiyi\", \"youku\", \"mgtv\"], // 弹幕支持的线路\n        \"start\": \"0\", <3.4.1 **弃用**> // 返回数据对应的开始时间下标\n        \"time\": 0, // <3.4.1 启用> 返回数据对应的开始时间下标\n        \"mode\": \"1\", // <3.4.1 **弃用**> 返回数据对应的位置下标\n        \"type\": 1, // <3.4.1 启用> 返回数据对应的位置下标\n        \"color\": 2, // 返回数据对应的颜色下标(<=3.4.0: string | >=3.4.1: number)\n        \"content\": \"4\" // <3.4.1 **弃用**> 返回数据对应的内容下标\n        \"text\": 4 // <3.4.1 启用> 返回数据对应的内容下标\n      }, // <3.3.4 启用> 弹幕参数\n      \"analyzeFlag\": [\"youku\", \"qq\", \"iqiyi\", \"qiyi\", \"letv\", \"leshi\", \"sohu\", \"tudou\", \"pptv\", \"mgtv\", \"imgo\"], // <3.4.1 **弃用**> 解析标识\n      \"broadcasterType\": \"xgplayer\", // <3.3.4 **弃用**> 播放器(xgplayer=西瓜播放器,dplayer=呆呆播放器,custom=调外部播放器)\n      \"externalPlayer\": \"\", // <3.3.4 **弃用**> 调外部播放器(类型为custom启用)\n      \"playerMode\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"player\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.4.1 启用>\n      \"softSolution\": false, // 软解(预留字段 true=启用,false=禁用)\n      \"skipStartEnd\": false, // <3.3.5 **弃用**> 是否跳过首尾空白\n      \"agreementMask\": true, // <3.4.1 **弃用**> 是否同意协议\n      \"disclaimer\": true, // <3.4.1 启用> 是否同意协议\n      \"recordShortcut\": \"Shift+Command+Z\", // <3.4.1 **弃用**> 老板键\n      \"bossKey\": \"Shift+Command+Z\", // <3.4.1 启用> 老板键\n      \"snifferType\": \"pie\", // <3.3.4 **弃用**> 嗅探模式(pie=内置嗅探,iframe=原生嗅探)\n      \"snifferMode\": {\n        \"type\": \"pie\", // 嗅探模式(pie=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"sniffer\": {\n        \"type\": \"cdp\", // 嗅探模式(cdp=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.4.1 启用>\n      \"selfBoot\": false, // <3.4.1 **弃用**> 是否开机自启动\n      \"autoStart\": false, // <3.4.1 启用> 是否开机自启动\n      \"hardwareAcceleration\": true, // 是否启用硬件加速\n      \"ua\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\", // User-Agent\n      \"dns\": \"\" // <3.3.7 启用> DNS-over-HTTP\n      \"webdavUrl\": \"https://dav.jianguoyun.com/dav/\", // <3.3.4 **弃用**> webdav同步盘地址\n      \"webdavUsername\": \"\", // <3.3.4 **弃用**> webdeav用户名\n      \"webdavPassword\": \"\", // <3.3.4 **弃用**> webdav密码\n      \"webdav\": {\n        \"sync\": false, // 自动同步\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        }\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"cloud\": {\n        \"sync\": false, // 自动同步\n        \"type\": \"webdav\", // 备份类型(webdav=webdav同步盘, icloud=icloud云盘仅mac)\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        } // 仅类型为webdav启用\n      }, // <3.4.1 启用>\n      \"ai\": {\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.3.5 启用, 3.4.1 **弃用**>\n      \"aigc\": {\n        \"type\": \"openai\", // AI类型(仅支持openai)\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.4.1 启用> AI设置\n      \"timeout\": 5000, // <3.3.5 启用> 全局请求超时(ms)\n      \"restoreWindowPositionAndSize\": false, // <3.3.7 **弃用**> 是否记录窗口位置\n      \"windowPosition\": {\n        \"status\": false, // 是否记录窗口位置\n        \"position\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 **弃用**> 窗口位置\n        \"position_main\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 启用> 记录主窗口位置\n        \"position_play\": {\n          \"width\": 875,\n          \"height\": 550\n        } // <3.3.7 启用> 记录播放窗口位置\n      }, // <3.4.1 **弃用**>\n      \"debug\": false, // <3.3.7 启用> 用于部分调试\n    }\n  ]\n}\n```",
+    "ContentSha": "j6VkQ8srV8QsYOUBthBzFUn81q/m2cVkepO96AG2Xy8=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```json\n{\n  \"analyze\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuid标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Parse\", // 名称(展示用)\n      \"url\": \"https://xxx.top/?jx=\", // <3.4.1 **弃用**> 解析源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.top/?jx=\", // <3.4.1 启用> 解析源地址(推荐使用)\n      \"type\": 0, // 解析类型(<=3.4.0: 0=web,1=json | >=3.4.1: 1=web,2=json)\n      \"flag\": [], // <3.4.1 启用> 解析线路/标签标识\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"script\": \"\", // <3.4.1 启用> 执行脚本，仅 type=web 时生效\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"iptv\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Iptv\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 **弃用**> 直播源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 启用> 直播源地址(推荐使用)\n      \"type\": 1, // 解析类型(<=3.4.0: remote=远程,local=本地, manual=文本 | >=3.4.1: 1=远程,2=本地,3=文本)\n      \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单地址[string]\n      \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标地址[string] - 3.3.8启用该参数\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"channel\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"name\": \"Channel\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 **弃用**> 播放地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 启用> 播放地址(推荐使用)\n      \"logo\": \"https://xxx.com/logo/xxx.png\", // <3.4.1 启用> 台标地址\n      \"playback\": \"\", // <3.4.1 启用> 预留回播参数\n      \"group\": \"默认\", // 分组\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"site\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Film\", // 名称(展示用)\n      \"api\": \"https://www.xxx.com/api.php/provide/vod/\", // 接口地址\n      \"playUrl\": \"\", // 配合解析去url地址\n      \"search\": 0, // 是否支持搜索(<=3.4.0: 0= 关闭,1=聚合搜索,2=仅搜索 | >=3.4.1: true= 开启,false=关闭)\n      \"group\": \"切片\", // 分组\n      \"type\": 1, // 适配器类型(0=T0_XML,1=T1_JSON,6=T4_DRPYS,7=T3_DRPY,8=T4_CATVOD,9=T3_XBPQ,10=T3_XYQ,11=T3_APPYSV2,12=T3_PY,13=T3_ALIST)\n      \"ext\": \"\", // 扩展参数\n      \"categories\": \"电视,影视\", // 按顺序展示所配置的分类 不配置则默认展示所有分类[string]\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"drive\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"alist\", // 名称(展示用)\n      \"server\": \"http://alist.xxx.pro/\", // 网盘地址\n      \"showAll\": false, // 是否展示全部(true=全部,false=仅视频)\n      \"startPage\": \"\", // 开始页路径\n      \"search\": false, // 是否支持搜索(true=启用,false=禁用)\n      \"headers\": \"{}\", // 请求头(预留字段)\n      \"params\": \"{}\", // 参数(预留字段)\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n    }\n  ], // <3.4.1 **弃用**>\n  \"setting\": [\n    {\n      \"version\": \"3.3.2\", // <3.2.2 启用> 当前版本(一定要根据实际填写,不然数据库执行会报错)\n      \"theme\": \"system\", // 主题 (<=3.4.0: auto=跟随系统,light=亮色,dark=暗色 | system=跟随系统,light=亮色,dark=暗色)\n      \"lang\": \"zh_CN\", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)\n      \"zoom\": 1, // <3.4.1 启用> 界面缩放比例(预留)\n      \"proxy\": {\n        \"type\": \"system\", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)\n        \"url\": \"\", // 代理地址(支持socks5/http/https协议)\n        \"bypass\": \"\" // 忽略主机名\n      }, <3.4.1 启用> 代理设置\n      \"defaultHot\": \"kylive\", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)\n      \"hot\": \"kylive\", // <3.4.1 启用> 热搜(douban=豆瓣,enlightent=云合,komect=移动爱家,hisense=海信,kylive=酷云)\n      \"association\": \"douban\", // <3.4.4 启用> 搜索联想(douban=豆瓣,hisense=海信,snm=喜粤TV)\n      \"defaultSearchRecommend\": \"site\", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用\n      \"defaultSearchType\": \"site\", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部\n      \"defaultFilterType\": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词\n      \"site\": {\n        \"searchMode\": \"site\", // 全局搜索模式 site:本站 group:组内 all:全部\n        \"filterMode\": false, // 影视搜索过滤关键词\n      }, // <3.4.1 启用> 影视设置\n      \"defaultIptvEpg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // <3.4.1 **弃用**> iptv电子节目单(name=频道名称 date=日期)\n      \"defaultIptvLogo\": \"https://epg.112114.eu.org/logo/{name}.png\", // <3.4.1 **弃用**> iptv台标(name=频道名称)\n      \"iptvSkipIpv6\": true, // <3.3.8 **弃用**> iptv是否跳过ipv6节目\n      \"iptvMarkIp\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv标识IP类型\n      \"iptvThumbnail\": true, // <3.4.1 **弃用**> iptv是否显示缩略图\n      \"iptvStatus\": true, // <3.3.8 **弃用**> iptv是否检测延迟\n      \"iptvDelay\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv是否检测延迟\n      \"live\": {\n        \"ipMark\": true, // IP类型\n        \"thumbnail\": false, // 缩略图\n        \"delay\": false, // 延迟测速\n        \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单(name=频道名称 date=日期)\n        \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标(name=频道名称)\n      }, // <3.4.1 启用> 直播设置\n      \"defaultSite\": \"51793af6-c923-5504-85db-0ef686624dec\", // site 默认源标识\n      \"defaultIptv\": \"993841fe-5e91-5e5d-35d6-5be81822960b\", // iptv 默认源标识\n      \"defaultAnalyze\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // analyze 默认源标识\n      \"defaultDrive\": \"3293dc45-cf14-9c66-3028-5b7765b240b7\", // <3.4.1 **弃用**> drive 默认源标识\n      \"defaultViewCasual\": \"\", // <3.3.4 启用 3.3.5 **弃用**> 随心看\n      \"barrage\": {\n        \"url\": \"\", // 弹幕地址\n        \"id\": \"name\", // 弹幕接口返回数据对应的id\n        \"key\": \"danmuku\", // 弹幕接口返回数据对应的key\n        \"support\": [\"qq\", \"qiyi\", \"youku\", \"mgtv\"], // 弹幕支持的线路\n        \"start\": \"0\", <3.4.1 **弃用**> // 返回数据对应的开始时间下标\n        \"time\": 0, // <3.4.1 启用> 返回数据对应的开始时间下标\n        \"mode\": \"1\", // <3.4.1 **弃用**> 返回数据对应的位置下标\n        \"type\": 1, // <3.4.1 启用> 返回数据对应的位置下标\n        \"color\": 2, // 返回数据对应的颜色下标(<=3.4.0: string | >=3.4.1: number)\n        \"content\": \"4\" // <3.4.1 **弃用**> 返回数据对应的内容下标\n        \"text\": 4 // <3.4.1 启用> 返回数据对应的内容下标\n      }, // <3.3.4 启用> 弹幕参数\n      \"analyzeFlag\": [\"youku\", \"qq\", \"iqiyi\", \"qiyi\", \"letv\", \"leshi\", \"sohu\", \"tudou\", \"pptv\", \"mgtv\", \"imgo\"], // <3.4.1 **弃用**> 解析标识\n      \"broadcasterType\": \"xgplayer\", // <3.3.4 **弃用**> 播放器(xgplayer=西瓜播放器,dplayer=呆呆播放器,custom=调外部播放器)\n      \"externalPlayer\": \"\", // <3.3.4 **弃用**> 调外部播放器(类型为custom启用)\n      \"playerMode\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"player\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.4.1 启用>\n      \"softSolution\": false, // 软解(预留字段 true=启用,false=禁用)\n      \"skipStartEnd\": false, // <3.3.5 **弃用**> 是否跳过首尾空白\n      \"agreementMask\": true, // <3.4.1 **弃用**> 是否同意协议\n      \"disclaimer\": true, // <3.4.1 启用> 是否同意协议\n      \"recordShortcut\": \"Shift+Command+Z\", // <3.4.1 **弃用**> 老板键\n      \"bossKey\": \"Shift+Command+Z\", // <3.4.1 启用> 老板键\n      \"snifferType\": \"pie\", // <3.3.4 **弃用**> 嗅探模式(pie=内置嗅探,iframe=原生嗅探)\n      \"snifferMode\": {\n        \"type\": \"pie\", // 嗅探模式(pie=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"sniffer\": {\n        \"type\": \"cdp\", // 嗅探模式(cdp=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.4.1 启用>\n      \"selfBoot\": false, // <3.4.1 **弃用**> 是否开机自启动\n      \"autoStart\": false, // <3.4.1 启用> 是否开机自启动\n      \"hardwareAcceleration\": true, // 是否启用硬件加速\n      \"ua\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\", // User-Agent\n      \"dns\": \"\" // <3.3.7 启用> DNS-over-HTTP\n      \"webdavUrl\": \"https://dav.jianguoyun.com/dav/\", // <3.3.4 **弃用**> webdav同步盘地址\n      \"webdavUsername\": \"\", // <3.3.4 **弃用**> webdeav用户名\n      \"webdavPassword\": \"\", // <3.3.4 **弃用**> webdav密码\n      \"webdav\": {\n        \"sync\": false, // 自动同步\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        }\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"cloud\": {\n        \"sync\": false, // 自动同步\n        \"type\": \"webdav\", // 备份类型(webdav=webdav同步盘, icloud=icloud云盘仅mac)\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        } // 仅类型为webdav启用\n      }, // <3.4.1 启用>\n      \"ai\": {\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.3.5 启用, 3.4.1 **弃用**>\n      \"aigc\": {\n        \"type\": \"openai\", // AI类型(仅支持openai)\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.4.1 启用> AI设置\n      \"timeout\": 5000, // <3.3.5 启用> 全局请求超时(ms)\n      \"restoreWindowPositionAndSize\": false, // <3.3.7 **弃用**> 是否记录窗口位置\n      \"windowPosition\": {\n        \"status\": false, // 是否记录窗口位置\n        \"position\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 **弃用**> 窗口位置\n        \"position_main\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 启用> 记录主窗口位置\n        \"position_play\": {\n          \"width\": 875,\n          \"height\": 550\n        } // <3.3.7 启用> 记录播放窗口位置\n      }, // <3.4.1 **弃用**>\n      \"debug\": false, // <3.3.7 启用> 用于部分调试\n    }\n  ]\n}\n```",
+    "Translation": "```json\n{\n  \"analyze\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuid标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Parse\", // 名称(展示用)\n      \"url\": \"https://xxx.top/?jx=\", // <3.4.1 **弃用**> 解析源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.top/?jx=\", // <3.4.1 启用> 解析源地址(推荐使用)\n      \"type\": 0, // 解析类型(<=3.4.0: 0=web,1=json | >=3.4.1: 1=web,2=json)\n      \"flag\": [], // <3.4.1 启用> 解析线路/标签标识\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"script\": \"\", // <3.4.1 启用> 执行脚本，仅 type=web 时生效\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"iptv\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Iptv\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 **弃用**> 直播源地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u\", // <3.4.1 启用> 直播源地址(推荐使用)\n      \"type\": 1, // 解析类型(<=3.4.0: remote=远程,local=本地, manual=文本 | >=3.4.1: 1=远程,2=本地,3=文本)\n      \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单地址[string]\n      \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标地址[string] - 3.3.8启用该参数\n      \"headers\": {}, // <3.4.0 启用> 请求头配置(预留字段)\n      \"isActive\": true, // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"channel\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"name\": \"Channel\", // 名称(展示用)\n      \"url\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 **弃用**> 播放地址(仅兼容旧版本)\n      \"api\": \"https://xxx.com/m3u/iptv.m3u8\", // <3.4.1 启用> 播放地址(推荐使用)\n      \"logo\": \"https://xxx.com/logo/xxx.png\", // <3.4.1 启用> 台标地址\n      \"playback\": \"\", // <3.4.1 启用> 预留回播参数\n      \"headers\": {}, // <3.4.7 启用> 请求头\n      \"group\": \"默认\", // 分组\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"site\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"Film\", // 名称(展示用)\n      \"api\": \"https://www.xxx.com/api.php/provide/vod/\", // 接口地址\n      \"playUrl\": \"\", // 配合解析去url地址\n      \"search\": 0, // 是否支持搜索(<=3.4.0: 0= 关闭,1=聚合搜索,2=仅搜索 | >=3.4.1: true= 开启,false=关闭)\n      \"group\": \"切片\", // 分组\n      \"type\": 1, // 适配器类型(0=T0_XML,1=T1_JSON,6=T4_DRPYS,7=T3_DRPY,8=T4_CATVOD,9=T3_XBPQ,10=T3_XYQ,11=T3_APPYSV2,12=T3_PY,13=T3_ALIST)\n      \"ext\": \"\", // 扩展参数\n      \"categories\": \"电视,影视\", // 按顺序展示所配置的分类 不配置则默认展示所有分类[string]\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)\n      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)\n    }\n  ],\n  \"drive\": [\n    {\n      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)\n      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)\n      \"name\": \"alist\", // 名称(展示用)\n      \"server\": \"http://alist.xxx.pro/\", // 网盘地址\n      \"showAll\": false, // 是否展示全部(true=全部,false=仅视频)\n      \"startPage\": \"\", // 开始页路径\n      \"search\": false, // 是否支持搜索(true=启用,false=禁用)\n      \"headers\": \"{}\", // 请求头(预留字段)\n      \"params\": \"{}\", // 参数(预留字段)\n      \"isActive\": true // 是否启用(true=启用,false=禁用)\n    }\n  ], // <3.4.1 **弃用**>\n  \"setting\": [\n    {\n      \"version\": \"3.3.2\", // <3.2.2 启用> 当前版本(一定要根据实际填写,不然数据库执行会报错)\n      \"theme\": \"system\", // 主题 (<=3.4.0: auto=跟随系统,light=亮色,dark=暗色 | system=跟随系统,light=亮色,dark=暗色)\n      \"lang\": \"zh_CN\", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)\n      \"zoom\": 1, // <3.4.1 启用> 界面缩放比例(预留)\n      \"proxy\": {\n        \"type\": \"system\", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)\n        \"url\": \"\", // 代理地址(支持socks5/http/https协议)\n        \"bypass\": \"\" // 忽略主机名\n      }, <3.4.1 启用> 代理设置\n      \"defaultHot\": \"kylive\", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)\n      \"hot\": \"kylive\", // <3.4.1 启用> 热搜(douban=豆瓣,enlightent=云合,komect=移动爱家,hisense=海信,kylive=酷云)\n      \"association\": \"douban\", // <3.4.4 启用> 搜索联想(douban=豆瓣,hisense=海信,snm=喜粤TV)\n      \"defaultSearchRecommend\": \"site\", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用\n      \"defaultSearchType\": \"site\", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部\n      \"defaultFilterType\": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词\n      \"site\": {\n        \"searchMode\": \"site\", // 全局搜索模式 site:本站 group:组内 all:全部\n        \"filterMode\": false, // 影视搜索过滤关键词\n      }, // <3.4.1 启用> 影视设置\n      \"defaultIptvEpg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // <3.4.1 **弃用**> iptv电子节目单(name=频道名称 date=日期)\n      \"defaultIptvLogo\": \"https://epg.112114.eu.org/logo/{name}.png\", // <3.4.1 **弃用**> iptv台标(name=频道名称)\n      \"iptvSkipIpv6\": true, // <3.3.8 **弃用**> iptv是否跳过ipv6节目\n      \"iptvMarkIp\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv标识IP类型\n      \"iptvThumbnail\": true, // <3.4.1 **弃用**> iptv是否显示缩略图\n      \"iptvStatus\": true, // <3.3.8 **弃用**> iptv是否检测延迟\n      \"iptvDelay\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv是否检测延迟\n      \"live\": {\n        \"ipMark\": true, // IP类型\n        \"thumbnail\": false, // 缩略图\n        \"delay\": false, // 延迟测速\n        \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单(name=频道名称 date=日期)\n        \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标(name=频道名称)\n      }, // <3.4.1 启用> 直播设置\n      \"defaultSite\": \"51793af6-c923-5504-85db-0ef686624dec\", // site 默认源标识\n      \"defaultIptv\": \"993841fe-5e91-5e5d-35d6-5be81822960b\", // iptv 默认源标识\n      \"defaultAnalyze\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // analyze 默认源标识\n      \"defaultDrive\": \"3293dc45-cf14-9c66-3028-5b7765b240b7\", // <3.4.1 **弃用**> drive 默认源标识\n      \"defaultViewCasual\": \"\", // <3.3.4 启用 3.3.5 **弃用**> 随心看\n      \"barrage\": {\n        \"url\": \"\", // 弹幕地址\n        \"id\": \"name\", // 弹幕接口返回数据对应的id\n        \"key\": \"danmuku\", // 弹幕接口返回数据对应的key\n        \"support\": [\"qq\", \"qiyi\", \"youku\", \"mgtv\"], // 弹幕支持的线路\n        \"start\": \"0\", <3.4.1 **弃用**> // 返回数据对应的开始时间下标\n        \"time\": 0, // <3.4.1 启用> 返回数据对应的开始时间下标\n        \"mode\": \"1\", // <3.4.1 **弃用**> 返回数据对应的位置下标\n        \"type\": 1, // <3.4.1 启用> 返回数据对应的位置下标\n        \"color\": 2, // 返回数据对应的颜色下标(<=3.4.0: string | >=3.4.1: number)\n        \"content\": \"4\" // <3.4.1 **弃用**> 返回数据对应的内容下标\n        \"text\": 4 // <3.4.1 启用> 返回数据对应的内容下标\n      }, // <3.3.4 启用> 弹幕参数\n      \"analyzeFlag\": [\"youku\", \"qq\", \"iqiyi\", \"qiyi\", \"letv\", \"leshi\", \"sohu\", \"tudou\", \"pptv\", \"mgtv\", \"imgo\"], // <3.4.1 **弃用**> 解析标识\n      \"broadcasterType\": \"xgplayer\", // <3.3.4 **弃用**> 播放器(xgplayer=西瓜播放器,dplayer=呆呆播放器,custom=调外部播放器)\n      \"externalPlayer\": \"\", // <3.3.4 **弃用**> 调外部播放器(类型为custom启用)\n      \"playerMode\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"player\": {\n        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)\n        \"external\": \"\" // 调外部播放器(类型为custom启用)\n      }, // <3.4.1 启用>\n      \"softSolution\": false, // 软解(预留字段 true=启用,false=禁用)\n      \"skipStartEnd\": false, // <3.3.5 **弃用**> 是否跳过首尾空白\n      \"agreementMask\": true, // <3.4.1 **弃用**> 是否同意协议\n      \"disclaimer\": true, // <3.4.1 启用> 是否同意协议\n      \"recordShortcut\": \"Shift+Command+Z\", // <3.4.1 **弃用**> 老板键\n      \"bossKey\": \"Shift+Command+Z\", // <3.4.1 启用> 老板键\n      \"snifferType\": \"pie\", // <3.3.4 **弃用**> 嗅探模式(pie=内置嗅探,iframe=原生嗅探)\n      \"snifferMode\": {\n        \"type\": \"pie\", // 嗅探模式(pie=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"sniffer\": {\n        \"type\": \"cdp\", // 嗅探模式(cdp=内置嗅探,custom=三方嗅探)\n        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)\n      }, // <3.4.1 启用>\n      \"selfBoot\": false, // <3.4.1 **弃用**> 是否开机自启动\n      \"autoStart\": false, // <3.4.1 启用> 是否开机自启动\n      \"hardwareAcceleration\": true, // 是否启用硬件加速\n      \"ua\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\", // User-Agent\n      \"dns\": \"\" // <3.3.7 启用> DNS-over-HTTP\n      \"webdavUrl\": \"https://dav.jianguoyun.com/dav/\", // <3.3.4 **弃用**> webdav同步盘地址\n      \"webdavUsername\": \"\", // <3.3.4 **弃用**> webdeav用户名\n      \"webdavPassword\": \"\", // <3.3.4 **弃用**> webdav密码\n      \"webdav\": {\n        \"sync\": false, // 自动同步\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        }\n      }, // <3.3.4 启用, 3.4.1 **弃用**>\n      \"cloud\": {\n        \"sync\": false, // 自动同步\n        \"type\": \"webdav\", // 备份类型(webdav=webdav同步盘, icloud=icloud云盘仅mac)\n        \"data\": {\n          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址\n          \"user\": \"\", // webdav用户名\n          \"password\": \"\" // webdav密码\n        } // 仅类型为webdav启用\n      }, // <3.4.1 启用>\n      \"ai\": {\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.3.5 启用, 3.4.1 **弃用**>\n      \"aigc\": {\n        \"type\": \"openai\", // AI类型(仅支持openai)\n        \"server\": \"\",  // AI服务器地址\n        \"key\": \"\", // API密钥\n        \"model\": \"gpt-3.5-turbo\" // 模型名称\n      }, // <3.4.1 启用> AI设置\n      \"timeout\": 5000, // <3.3.5 启用> 全局请求超时(ms)\n      \"restoreWindowPositionAndSize\": false, // <3.3.7 **弃用**> 是否记录窗口位置\n      \"windowPosition\": {\n        \"status\": false, // 是否记录窗口位置\n        \"position\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 **弃用**> 窗口位置\n        \"position_main\": {\n          \"width\": 1000,\n          \"height\": 640\n        }, // <3.3.7 启用> 记录主窗口位置\n        \"position_play\": {\n          \"width\": 875,\n          \"height\": 550\n        } // <3.3.7 启用> 记录播放窗口位置\n      }, // <3.4.1 **弃用**>\n      \"debug\": false, // <3.3.7 启用> 用于部分调试\n    }\n  ]\n}\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -491,1038 +491,1044 @@
       },
       {
         "row": 43,
+        "rowsha": "75TAhkCZ4aHsPL9DHeCEocPgxc6I5FECeFNYl/RApEQ=",
+        "originContent": "      \"headers\": {}, // <3.4.7 启用> 请求头",
+        "translatedContent": "      \"headers\": {}, // <3.4.7 启用> 请求头"
+      },
+      {
+        "row": 44,
         "rowsha": "xdYJG+FKWdA9ofiG6e0MZYKqQCBHvdNrQ/UB3gp1v88=",
         "originContent": "      \"group\": \"默认\", // 分组",
         "translatedContent": "      \"group\": \"默认\", // 分组"
       },
       {
-        "row": 44,
+        "row": 45,
         "rowsha": "SKC+xdT/4NhvzFjmxP/ix6+2qFAyMqtOus5mqtmCHVU=",
         "originContent": "      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)",
         "translatedContent": "      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)"
       },
       {
-        "row": 45,
+        "row": 46,
         "rowsha": "4OCWc+rDZPO1nGgW0vZEW8KCtvQjI2zSUq2yRP7K+5s=",
         "originContent": "      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)",
         "translatedContent": "      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)"
       },
       {
-        "row": 46,
+        "row": 47,
         "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
         "originContent": "    }",
         "translatedContent": "    }"
       },
       {
-        "row": 47,
+        "row": 48,
         "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
         "originContent": "  ],",
         "translatedContent": "  ],"
       },
       {
-        "row": 48,
+        "row": 49,
         "rowsha": "FFlr7rYAEJmGQ9QasiQfiFVfubGJq1R7Z5Uiy+XCj0A=",
         "originContent": "  \"site\": [",
         "translatedContent": "  \"site\": ["
       },
       {
-        "row": 49,
+        "row": 50,
         "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
         "originContent": "    {",
         "translatedContent": "    {"
       },
       {
-        "row": 50,
+        "row": 51,
         "rowsha": "9xc4eLXFRqmaFe2+f531RlEwpmYhVsX0NUsauitw3L4=",
         "originContent": "      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)",
         "translatedContent": "      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)"
       },
       {
-        "row": 51,
+        "row": 52,
         "rowsha": "wSRJPGxvly1Olp1rGLqK45PVV2/j3qGYs50YhYcoUP0=",
         "originContent": "      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)",
         "translatedContent": "      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)"
       },
       {
-        "row": 52,
+        "row": 53,
         "rowsha": "WA82X/TxBFt6dHVvOCnGDkEN2M2QpBww7ToYlau+aNE=",
         "originContent": "      \"name\": \"Film\", // 名称(展示用)",
         "translatedContent": "      \"name\": \"Film\", // 名称(展示用)"
       },
       {
-        "row": 53,
+        "row": 54,
         "rowsha": "iNQcoaVpq8eLacrdqYYEefagJY+qSE8dVrC4GnK1jSQ=",
         "originContent": "      \"api\": \"https://www.xxx.com/api.php/provide/vod/\", // 接口地址",
         "translatedContent": "      \"api\": \"https://www.xxx.com/api.php/provide/vod/\", // 接口地址"
       },
       {
-        "row": 54,
+        "row": 55,
         "rowsha": "7ebsJtLI+9Pv8ZFu0E5ueQu63DFMbik2zB1y7CbGcAY=",
         "originContent": "      \"playUrl\": \"\", // 配合解析去url地址",
         "translatedContent": "      \"playUrl\": \"\", // 配合解析去url地址"
       },
       {
-        "row": 55,
+        "row": 56,
         "rowsha": "0wQrvE/3u4t2o1ZkyicVSNsbOdZpzuPH2vIv/JNHBCs=",
         "originContent": "      \"search\": 0, // 是否支持搜索(<=3.4.0: 0= 关闭,1=聚合搜索,2=仅搜索 | >=3.4.1: true= 开启,false=关闭)",
         "translatedContent": "      \"search\": 0, // 是否支持搜索(<=3.4.0: 0= 关闭,1=聚合搜索,2=仅搜索 | >=3.4.1: true= 开启,false=关闭)"
       },
       {
-        "row": 56,
+        "row": 57,
         "rowsha": "y93Tc/dLsOkB6DUflEUaKkj2baXreLuxe5d5LNXb9Ys=",
         "originContent": "      \"group\": \"切片\", // 分组",
         "translatedContent": "      \"group\": \"切片\", // 分组"
       },
       {
-        "row": 57,
+        "row": 58,
         "rowsha": "xSZe9lk89E6WCYIWWInWN9LWy8crPtz8d08Rkg7cNHA=",
         "originContent": "      \"type\": 1, // 适配器类型(0=T0_XML,1=T1_JSON,6=T4_DRPYS,7=T3_DRPY,8=T4_CATVOD,9=T3_XBPQ,10=T3_XYQ,11=T3_APPYSV2,12=T3_PY,13=T3_ALIST)",
         "translatedContent": "      \"type\": 1, // 适配器类型(0=T0_XML,1=T1_JSON,6=T4_DRPYS,7=T3_DRPY,8=T4_CATVOD,9=T3_XBPQ,10=T3_XYQ,11=T3_APPYSV2,12=T3_PY,13=T3_ALIST)"
       },
       {
-        "row": 58,
+        "row": 59,
         "rowsha": "bwZOL1TiLWzMpQmfhDLA+2TwM4hd0zwsSM1gI5b1wAs=",
         "originContent": "      \"ext\": \"\", // 扩展参数",
         "translatedContent": "      \"ext\": \"\", // 扩展参数"
       },
       {
-        "row": 59,
+        "row": 60,
         "rowsha": "uGbGxdqMTxBN+5eVVhlJlZ46Jbnh/OQgzEzKMct5at0=",
         "originContent": "      \"categories\": \"电视,影视\", // 按顺序展示所配置的分类 不配置则默认展示所有分类[string]",
         "translatedContent": "      \"categories\": \"电视,影视\", // 按顺序展示所配置的分类 不配置则默认展示所有分类[string]"
       },
       {
-        "row": 60,
+        "row": 61,
         "rowsha": "j1nQRO7zOIALFBkbIsicbQ94cAcs1b8T2bZHlG1TPLM=",
         "originContent": "      \"isActive\": true // 是否启用(true=启用,false=禁用)",
         "translatedContent": "      \"isActive\": true // 是否启用(true=启用,false=禁用)"
       },
       {
-        "row": 61,
+        "row": 62,
         "rowsha": "SKC+xdT/4NhvzFjmxP/ix6+2qFAyMqtOus5mqtmCHVU=",
         "originContent": "      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)",
         "translatedContent": "      \"createdAt\": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)"
       },
       {
-        "row": 62,
+        "row": 63,
         "rowsha": "4OCWc+rDZPO1nGgW0vZEW8KCtvQjI2zSUq2yRP7K+5s=",
         "originContent": "      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)",
         "translatedContent": "      \"updatedAt\": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)"
       },
       {
-        "row": 63,
+        "row": 64,
         "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
         "originContent": "    }",
         "translatedContent": "    }"
       },
       {
-        "row": 64,
+        "row": 65,
         "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
         "originContent": "  ],",
         "translatedContent": "  ],"
       },
       {
-        "row": 65,
+        "row": 66,
         "rowsha": "z0mN2YMXftD1vlF62RTVtUGj3y41Au2D63Qg7XFldx0=",
         "originContent": "  \"drive\": [",
         "translatedContent": "  \"drive\": ["
       },
       {
-        "row": 66,
+        "row": 67,
         "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
         "originContent": "    {",
         "translatedContent": "    {"
       },
       {
-        "row": 67,
+        "row": 68,
         "rowsha": "9xc4eLXFRqmaFe2+f531RlEwpmYhVsX0NUsauitw3L4=",
         "originContent": "      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)",
         "translatedContent": "      \"id\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // 数据唯一uuidv4标识(不可重复)"
       },
       {
-        "row": 68,
+        "row": 69,
         "rowsha": "wSRJPGxvly1Olp1rGLqK45PVV2/j3qGYs50YhYcoUP0=",
         "originContent": "      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)",
         "translatedContent": "      \"key\": \"51793af6-c923-5504-85db-0ef686624dec\", // <3.4.0 启用> 业务唯一标识(不可重复)"
       },
       {
-        "row": 69,
+        "row": 70,
         "rowsha": "eICARp1yRI6R7vwyg2iW41LJRRqzLKZ2PCSf2harcWs=",
         "originContent": "      \"name\": \"alist\", // 名称(展示用)",
         "translatedContent": "      \"name\": \"alist\", // 名称(展示用)"
       },
       {
-        "row": 70,
+        "row": 71,
         "rowsha": "YVwbHXBmPNDbK+Xi329duRT6YUVJl1gGWFtGA+CxU+w=",
         "originContent": "      \"server\": \"http://alist.xxx.pro/\", // 网盘地址",
         "translatedContent": "      \"server\": \"http://alist.xxx.pro/\", // 网盘地址"
       },
       {
-        "row": 71,
+        "row": 72,
         "rowsha": "uQJ8zBbXF3W58gXO/FB9EF5D/vIL9KSZEupDER+6Zbs=",
         "originContent": "      \"showAll\": false, // 是否展示全部(true=全部,false=仅视频)",
         "translatedContent": "      \"showAll\": false, // 是否展示全部(true=全部,false=仅视频)"
       },
       {
-        "row": 72,
+        "row": 73,
         "rowsha": "HjuAjfrQncG5dWTDxpAzVH2d2BgUSl6/4me83JoXkjE=",
         "originContent": "      \"startPage\": \"\", // 开始页路径",
         "translatedContent": "      \"startPage\": \"\", // 开始页路径"
       },
       {
-        "row": 73,
+        "row": 74,
         "rowsha": "JShlMLHK0eCH0E2QH6/HTZhKS+YFxsiH5iEz4FL7PG0=",
         "originContent": "      \"search\": false, // 是否支持搜索(true=启用,false=禁用)",
         "translatedContent": "      \"search\": false, // 是否支持搜索(true=启用,false=禁用)"
       },
       {
-        "row": 74,
+        "row": 75,
         "rowsha": "3CH55qrcv1TXQOUdVbvP+nhi5rJkjTwohnTBHinT+lE=",
         "originContent": "      \"headers\": \"{}\", // 请求头(预留字段)",
         "translatedContent": "      \"headers\": \"{}\", // 请求头(预留字段)"
       },
       {
-        "row": 75,
+        "row": 76,
         "rowsha": "xCnd6wczRw80nELiRj3YFioEwg0dFjl4gQZ3pRbKyyg=",
         "originContent": "      \"params\": \"{}\", // 参数(预留字段)",
         "translatedContent": "      \"params\": \"{}\", // 参数(预留字段)"
       },
       {
-        "row": 76,
+        "row": 77,
         "rowsha": "j1nQRO7zOIALFBkbIsicbQ94cAcs1b8T2bZHlG1TPLM=",
         "originContent": "      \"isActive\": true // 是否启用(true=启用,false=禁用)",
         "translatedContent": "      \"isActive\": true // 是否启用(true=启用,false=禁用)"
       },
       {
-        "row": 77,
+        "row": 78,
         "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
         "originContent": "    }",
         "translatedContent": "    }"
       },
       {
-        "row": 78,
+        "row": 79,
         "rowsha": "EZ9IW3ZDUpDR5sVbIcRG/TJwt3xpnyTjYlF1dHIt5x8=",
         "originContent": "  ], // <3.4.1 **弃用**>",
         "translatedContent": "  ], // <3.4.1 **弃用**>"
       },
       {
-        "row": 79,
+        "row": 80,
         "rowsha": "uN9u0eY0MO4ZFOb5TKtfePsoD7gaSt5EoAEEUm/sJvo=",
         "originContent": "  \"setting\": [",
         "translatedContent": "  \"setting\": ["
       },
       {
-        "row": 80,
+        "row": 81,
         "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
         "originContent": "    {",
         "translatedContent": "    {"
       },
       {
-        "row": 81,
+        "row": 82,
         "rowsha": "Vw2e7yFG55yN5Xo6cYc9WPnlPN/wuJ0oiki6/4yxXtU=",
         "originContent": "      \"version\": \"3.3.2\", // <3.2.2 启用> 当前版本(一定要根据实际填写,不然数据库执行会报错)",
         "translatedContent": "      \"version\": \"3.3.2\", // <3.2.2 启用> 当前版本(一定要根据实际填写,不然数据库执行会报错)"
       },
       {
-        "row": 82,
+        "row": 83,
         "rowsha": "2kOEaDiEmVjFXT4DQdUDuEJT1aOz6gYzYmhPLK7s3hQ=",
         "originContent": "      \"theme\": \"system\", // 主题 (<=3.4.0: auto=跟随系统,light=亮色,dark=暗色 | system=跟随系统,light=亮色,dark=暗色)",
         "translatedContent": "      \"theme\": \"system\", // 主题 (<=3.4.0: auto=跟随系统,light=亮色,dark=暗色 | system=跟随系统,light=亮色,dark=暗色)"
       },
       {
-        "row": 83,
+        "row": 84,
         "rowsha": "ALjVHExd1cjs/8Xy3fg5+1UNLqga+2CR/5rM7C8XhwA=",
         "originContent": "      \"lang\": \"zh_CN\", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)",
         "translatedContent": "      \"lang\": \"zh_CN\", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)"
       },
       {
-        "row": 84,
+        "row": 85,
         "rowsha": "J2oAbQ29oKN2sp82Ez5GtMDmFHZiaXjzyW6f5SpHVwY=",
         "originContent": "      \"zoom\": 1, // <3.4.1 启用> 界面缩放比例(预留)",
         "translatedContent": "      \"zoom\": 1, // <3.4.1 启用> 界面缩放比例(预留)"
       },
       {
-        "row": 85,
+        "row": 86,
         "rowsha": "L0jkP21N7E3fEW9FVraewsHSgBq9vWueg/txDvp20qk=",
         "originContent": "      \"proxy\": {",
         "translatedContent": "      \"proxy\": {"
       },
       {
-        "row": 86,
+        "row": 87,
         "rowsha": "Vn36+AgcirdxJOydh90fVlFRMsu/D+jaROBu8SFKTUA=",
         "originContent": "        \"type\": \"system\", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)",
         "translatedContent": "        \"type\": \"system\", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)"
       },
       {
-        "row": 87,
+        "row": 88,
         "rowsha": "PQPkfvPlsUmA5hGsduHE+RQ+cFbZaotN/hiyhROjTOM=",
         "originContent": "        \"url\": \"\", // 代理地址(支持socks5/http/https协议)",
         "translatedContent": "        \"url\": \"\", // 代理地址(支持socks5/http/https协议)"
       },
       {
-        "row": 88,
+        "row": 89,
         "rowsha": "lXhET9Obk77GBMQryn8baZZVBfKNDM0B0MgkkBGZ2KY=",
         "originContent": "        \"bypass\": \"\" // 忽略主机名",
         "translatedContent": "        \"bypass\": \"\" // 忽略主机名"
       },
       {
-        "row": 89,
+        "row": 90,
         "rowsha": "GKAMuKMMl99L6Vp3JoKm4pYtdE/JeU37MCtta9OhRMg=",
         "originContent": "      }, <3.4.1 启用> 代理设置",
         "translatedContent": "      }, <3.4.1 启用> 代理设置"
       },
       {
-        "row": 90,
+        "row": 91,
         "rowsha": "bfAubYvUVO1jGJNJ6McjEfsTeLwkiK9oJFrX2rJcgZc=",
         "originContent": "      \"defaultHot\": \"kylive\", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)",
         "translatedContent": "      \"defaultHot\": \"kylive\", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)"
       },
       {
-        "row": 91,
+        "row": 92,
         "rowsha": "skCqY4cL627lqdO0hssFXJNYPK5wicoFHqy84TWiPyo=",
         "originContent": "      \"hot\": \"kylive\", // <3.4.1 启用> 热搜(douban=豆瓣,enlightent=云合,komect=移动爱家,hisense=海信,kylive=酷云)",
         "translatedContent": "      \"hot\": \"kylive\", // <3.4.1 启用> 热搜(douban=豆瓣,enlightent=云合,komect=移动爱家,hisense=海信,kylive=酷云)"
       },
       {
-        "row": 92,
+        "row": 93,
         "rowsha": "dbB16QiTWyBRHuibCMX/5GUTsHQYLAUUxY0xxV2v4yU=",
         "originContent": "      \"association\": \"douban\", // <3.4.4 启用> 搜索联想(douban=豆瓣,hisense=海信,snm=喜粤TV)",
         "translatedContent": "      \"association\": \"douban\", // <3.4.4 启用> 搜索联想(douban=豆瓣,hisense=海信,snm=喜粤TV)"
       },
       {
-        "row": 93,
+        "row": 94,
         "rowsha": "h0nlM9FT3Swo/RM0KlZchqxXhmUECzWatpoviuxheDY=",
         "originContent": "      \"defaultSearchRecommend\": \"site\", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用",
         "translatedContent": "      \"defaultSearchRecommend\": \"site\", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用"
       },
       {
-        "row": 94,
+        "row": 95,
         "rowsha": "4XbH99lZlH2pw+mUgryOJiXmMpEX5rL3hVfsLFXGFyY=",
         "originContent": "      \"defaultSearchType\": \"site\", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部",
         "translatedContent": "      \"defaultSearchType\": \"site\", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部"
       },
       {
-        "row": 95,
+        "row": 96,
         "rowsha": "krb8rDrsKBbOAt5it8exqwVIcXXT4xEFkdPyuwn8OVI=",
         "originContent": "      \"defaultFilterType\": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词",
         "translatedContent": "      \"defaultFilterType\": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词"
       },
       {
-        "row": 96,
+        "row": 97,
         "rowsha": "Sr+pB9iZHwe49Bfy6QdBvmIUgkKiVqRypEcH1/Z+n/U=",
         "originContent": "      \"site\": {",
         "translatedContent": "      \"site\": {"
       },
       {
-        "row": 97,
+        "row": 98,
         "rowsha": "2lQ0ku7gtY5Yj54AJtbon8WGxfthkNIy1Ft3+Ew/pqw=",
         "originContent": "        \"searchMode\": \"site\", // 全局搜索模式 site:本站 group:组内 all:全部",
         "translatedContent": "        \"searchMode\": \"site\", // 全局搜索模式 site:本站 group:组内 all:全部"
       },
       {
-        "row": 98,
+        "row": 99,
         "rowsha": "hzKty2oXht2bNILs4UEax17bpDdB85W2RWz1Vc2iYkw=",
         "originContent": "        \"filterMode\": false, // 影视搜索过滤关键词",
         "translatedContent": "        \"filterMode\": false, // 影视搜索过滤关键词"
       },
       {
-        "row": 99,
+        "row": 100,
         "rowsha": "2X5BkZUrbddJLXQr5BEDnRH9rEq5xP6eANX8XJrVlCE=",
         "originContent": "      }, // <3.4.1 启用> 影视设置",
         "translatedContent": "      }, // <3.4.1 启用> 影视设置"
       },
       {
-        "row": 100,
+        "row": 101,
         "rowsha": "+5d7FbWkCCjlS7IkQG3LfYGF4CWwqZedB2df86XX3Z8=",
         "originContent": "      \"defaultIptvEpg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // <3.4.1 **弃用**> iptv电子节目单(name=频道名称 date=日期)",
         "translatedContent": "      \"defaultIptvEpg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // <3.4.1 **弃用**> iptv电子节目单(name=频道名称 date=日期)"
       },
       {
-        "row": 101,
+        "row": 102,
         "rowsha": "I4n8UmTYy64fIWCy7ws1Xi/RkBKckA6qJjU2FNNx3sA=",
         "originContent": "      \"defaultIptvLogo\": \"https://epg.112114.eu.org/logo/{name}.png\", // <3.4.1 **弃用**> iptv台标(name=频道名称)",
         "translatedContent": "      \"defaultIptvLogo\": \"https://epg.112114.eu.org/logo/{name}.png\", // <3.4.1 **弃用**> iptv台标(name=频道名称)"
       },
       {
-        "row": 102,
+        "row": 103,
         "rowsha": "OuPc38Uvs8rzMJP7CoIV9T+zxBuBgE6LIKCLojREBGk=",
         "originContent": "      \"iptvSkipIpv6\": true, // <3.3.8 **弃用**> iptv是否跳过ipv6节目",
         "translatedContent": "      \"iptvSkipIpv6\": true, // <3.3.8 **弃用**> iptv是否跳过ipv6节目"
       },
       {
-        "row": 103,
+        "row": 104,
         "rowsha": "dmwh1aIGQXkcqGJBXuwWQkc67kCQWMpqdjWNHg8rf30=",
         "originContent": "      \"iptvMarkIp\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv标识IP类型",
         "translatedContent": "      \"iptvMarkIp\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv标识IP类型"
       },
       {
-        "row": 104,
+        "row": 105,
         "rowsha": "oTvENorSzfTwiBSB+2Wd4oVcfhqk3OlJ1jD5Z/+tQnA=",
         "originContent": "      \"iptvThumbnail\": true, // <3.4.1 **弃用**> iptv是否显示缩略图",
         "translatedContent": "      \"iptvThumbnail\": true, // <3.4.1 **弃用**> iptv是否显示缩略图"
       },
       {
-        "row": 105,
+        "row": 106,
         "rowsha": "+ha319FqEQiioxZ5JiR2Y+RaRyxdd3ChWJIqO7+d9II=",
         "originContent": "      \"iptvStatus\": true, // <3.3.8 **弃用**> iptv是否检测延迟",
         "translatedContent": "      \"iptvStatus\": true, // <3.3.8 **弃用**> iptv是否检测延迟"
       },
       {
-        "row": 106,
+        "row": 107,
         "rowsha": "Q+z/qiSJm+v5xdsf51QRmWZ0gSQeKxoKKwJa4VScxGA=",
         "originContent": "      \"iptvDelay\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv是否检测延迟",
         "translatedContent": "      \"iptvDelay\": true, // <3.3.8 启用, 3.4.1 **弃用**> iptv是否检测延迟"
       },
       {
-        "row": 107,
+        "row": 108,
         "rowsha": "z6rGDyPFWvXTH9NfH3FCaotgB0A84B9J5txFlcsY6js=",
         "originContent": "      \"live\": {",
         "translatedContent": "      \"live\": {"
       },
       {
-        "row": 108,
+        "row": 109,
         "rowsha": "LHPat7/Kecovt/e3dL9zYDYl3SZnzImJ3SfYY9EhYMg=",
         "originContent": "        \"ipMark\": true, // IP类型",
         "translatedContent": "        \"ipMark\": true, // IP类型"
       },
       {
-        "row": 109,
+        "row": 110,
         "rowsha": "5J1ZGJbRzC9i/RwHNRw/8CYtXeZO255GAeBE/LVerLI=",
         "originContent": "        \"thumbnail\": false, // 缩略图",
         "translatedContent": "        \"thumbnail\": false, // 缩略图"
       },
       {
-        "row": 110,
+        "row": 111,
         "rowsha": "fdf86EshBMphu21kugOfiM8guU2xLde0IevO0YPv77A=",
         "originContent": "        \"delay\": false, // 延迟测速",
         "translatedContent": "        \"delay\": false, // 延迟测速"
       },
       {
-        "row": 111,
+        "row": 112,
         "rowsha": "/dRgo78PPKdNjixpmQrxsPGH2SQzfs2bc9EnWAC18o0=",
         "originContent": "        \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单(name=频道名称 date=日期)",
         "translatedContent": "        \"epg\": \"https://epg.112114.eu.org/?ch={name}&date={date}\", // 电子节目单(name=频道名称 date=日期)"
       },
       {
-        "row": 112,
+        "row": 113,
         "rowsha": "7u74JhwdLrlSu1PKGcXOlTU/6XOP9zl2vtRKX9gdAqY=",
         "originContent": "        \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标(name=频道名称)",
         "translatedContent": "        \"logo\": \"https://epg.112114.eu.org/logo/{name}.png\", // 台标(name=频道名称)"
       },
       {
-        "row": 113,
+        "row": 114,
         "rowsha": "UVfpiJXiTxBW/5hsfRlyntb4YB4HwZANE8SmwKj3AS0=",
         "originContent": "      }, // <3.4.1 启用> 直播设置",
         "translatedContent": "      }, // <3.4.1 启用> 直播设置"
       },
       {
-        "row": 114,
+        "row": 115,
         "rowsha": "pvxkAoChEgTdaGu4e4geq+RJ+YJVvZyQNdgVKS6amBc=",
         "originContent": "      \"defaultSite\": \"51793af6-c923-5504-85db-0ef686624dec\", // site 默认源标识",
         "translatedContent": "      \"defaultSite\": \"51793af6-c923-5504-85db-0ef686624dec\", // site 默认源标识"
       },
       {
-        "row": 115,
+        "row": 116,
         "rowsha": "8rwiy4BUgHZ2bHtjoI/h7QYngghs0ktF3vzKYvR3dWU=",
         "originContent": "      \"defaultIptv\": \"993841fe-5e91-5e5d-35d6-5be81822960b\", // iptv 默认源标识",
         "translatedContent": "      \"defaultIptv\": \"993841fe-5e91-5e5d-35d6-5be81822960b\", // iptv 默认源标识"
       },
       {
-        "row": 116,
+        "row": 117,
         "rowsha": "SphergEpOWBNqN5/UZHgdVb5fG8T8XRSghSUNcER00E=",
         "originContent": "      \"defaultAnalyze\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // analyze 默认源标识",
         "translatedContent": "      \"defaultAnalyze\": \"fddfb425-6fd9-0b39-459f-a21f69739a6e\", // analyze 默认源标识"
       },
       {
-        "row": 117,
+        "row": 118,
         "rowsha": "KxtqbV5zle1vZ/Z+I+X12TpJF828wOrszXe2j3ZPT7I=",
         "originContent": "      \"defaultDrive\": \"3293dc45-cf14-9c66-3028-5b7765b240b7\", // <3.4.1 **弃用**> drive 默认源标识",
         "translatedContent": "      \"defaultDrive\": \"3293dc45-cf14-9c66-3028-5b7765b240b7\", // <3.4.1 **弃用**> drive 默认源标识"
       },
       {
-        "row": 118,
+        "row": 119,
         "rowsha": "P5deVa9gyLg93vvaOnE5LD1202h+S+o8A9MGjAL6Z0M=",
         "originContent": "      \"defaultViewCasual\": \"\", // <3.3.4 启用 3.3.5 **弃用**> 随心看",
         "translatedContent": "      \"defaultViewCasual\": \"\", // <3.3.4 启用 3.3.5 **弃用**> 随心看"
       },
       {
-        "row": 119,
+        "row": 120,
         "rowsha": "4UiujrsJcYc5b5L+Dj1lPxCVbliWtRTNCF/3tl4sUho=",
         "originContent": "      \"barrage\": {",
         "translatedContent": "      \"barrage\": {"
       },
       {
-        "row": 120,
+        "row": 121,
         "rowsha": "7y5u9G1so/m1OOXUOhn3wzloEBhIdkVnxJrDeVftfP4=",
         "originContent": "        \"url\": \"\", // 弹幕地址",
         "translatedContent": "        \"url\": \"\", // 弹幕地址"
       },
       {
-        "row": 121,
+        "row": 122,
         "rowsha": "TozCrwn7ZiPydrXdszLdqR1LGo4THCerz3V7eHJBJhs=",
         "originContent": "        \"id\": \"name\", // 弹幕接口返回数据对应的id",
         "translatedContent": "        \"id\": \"name\", // 弹幕接口返回数据对应的id"
       },
       {
-        "row": 122,
+        "row": 123,
         "rowsha": "CwJookgYQ4bb6fKeKct2sPeHBZI/sLFjjKOHAzr6tYk=",
         "originContent": "        \"key\": \"danmuku\", // 弹幕接口返回数据对应的key",
         "translatedContent": "        \"key\": \"danmuku\", // 弹幕接口返回数据对应的key"
       },
       {
-        "row": 123,
+        "row": 124,
         "rowsha": "rhPcSesVEJzh6MrWYlsyByiMKsHtNr+IRMAPSAnL0qI=",
         "originContent": "        \"support\": [\"qq\", \"qiyi\", \"youku\", \"mgtv\"], // 弹幕支持的线路",
         "translatedContent": "        \"support\": [\"qq\", \"qiyi\", \"youku\", \"mgtv\"], // 弹幕支持的线路"
       },
       {
-        "row": 124,
+        "row": 125,
         "rowsha": "6mLG/RJ9gBtJ9MDQ42pQ0q6Kfm2bttu40G+PlP2qrEU=",
         "originContent": "        \"start\": \"0\", <3.4.1 **弃用**> // 返回数据对应的开始时间下标",
         "translatedContent": "        \"start\": \"0\", <3.4.1 **弃用**> // 返回数据对应的开始时间下标"
       },
       {
-        "row": 125,
+        "row": 126,
         "rowsha": "Ns0x7sHhN//HpCCjAPvD9HPpcNW6OPKvYDuCHvrpNFk=",
         "originContent": "        \"time\": 0, // <3.4.1 启用> 返回数据对应的开始时间下标",
         "translatedContent": "        \"time\": 0, // <3.4.1 启用> 返回数据对应的开始时间下标"
       },
       {
-        "row": 126,
+        "row": 127,
         "rowsha": "6ACWGYT2h6elyZJfAUfUeLPreY7a3GVHS3TP9eJH6wM=",
         "originContent": "        \"mode\": \"1\", // <3.4.1 **弃用**> 返回数据对应的位置下标",
         "translatedContent": "        \"mode\": \"1\", // <3.4.1 **弃用**> 返回数据对应的位置下标"
       },
       {
-        "row": 127,
+        "row": 128,
         "rowsha": "+fxAdXh7Znki0rSi1lIwG8SjYry5RPb3hPtnq7JMYcQ=",
         "originContent": "        \"type\": 1, // <3.4.1 启用> 返回数据对应的位置下标",
         "translatedContent": "        \"type\": 1, // <3.4.1 启用> 返回数据对应的位置下标"
       },
       {
-        "row": 128,
+        "row": 129,
         "rowsha": "BUFksVFgzcs98tqWkx5x2qnw/vOIKw/urluiV189xWk=",
         "originContent": "        \"color\": 2, // 返回数据对应的颜色下标(<=3.4.0: string | >=3.4.1: number)",
         "translatedContent": "        \"color\": 2, // 返回数据对应的颜色下标(<=3.4.0: string | >=3.4.1: number)"
       },
       {
-        "row": 129,
+        "row": 130,
         "rowsha": "PccRTdN+eLYUAeOuqneV4ePKQZoSJCRm5rRmp6OevBA=",
         "originContent": "        \"content\": \"4\" // <3.4.1 **弃用**> 返回数据对应的内容下标",
         "translatedContent": "        \"content\": \"4\" // <3.4.1 **弃用**> 返回数据对应的内容下标"
       },
       {
-        "row": 130,
+        "row": 131,
         "rowsha": "zrubjjFv6BBHX4rcxkYwjFZImUeJYvkg69y/Op+utLI=",
         "originContent": "        \"text\": 4 // <3.4.1 启用> 返回数据对应的内容下标",
         "translatedContent": "        \"text\": 4 // <3.4.1 启用> 返回数据对应的内容下标"
       },
       {
-        "row": 131,
+        "row": 132,
         "rowsha": "RSuWXBqSHHaY31VcSUdkLqcE8C2hCwkIcVEkak//36g=",
         "originContent": "      }, // <3.3.4 启用> 弹幕参数",
         "translatedContent": "      }, // <3.3.4 启用> 弹幕参数"
       },
       {
-        "row": 132,
+        "row": 133,
         "rowsha": "JSnB8Q8qbp78zPMK8VBedAeTUl/4pKU3r5/VBa7eH0E=",
         "originContent": "      \"analyzeFlag\": [\"youku\", \"qq\", \"iqiyi\", \"qiyi\", \"letv\", \"leshi\", \"sohu\", \"tudou\", \"pptv\", \"mgtv\", \"imgo\"], // <3.4.1 **弃用**> 解析标识",
         "translatedContent": "      \"analyzeFlag\": [\"youku\", \"qq\", \"iqiyi\", \"qiyi\", \"letv\", \"leshi\", \"sohu\", \"tudou\", \"pptv\", \"mgtv\", \"imgo\"], // <3.4.1 **弃用**> 解析标识"
       },
       {
-        "row": 133,
+        "row": 134,
         "rowsha": "cVbBTOXYi4FYuw82v/sxmCvAF0r/EMBV5AeNN3IACmM=",
         "originContent": "      \"broadcasterType\": \"xgplayer\", // <3.3.4 **弃用**> 播放器(xgplayer=西瓜播放器,dplayer=呆呆播放器,custom=调外部播放器)",
         "translatedContent": "      \"broadcasterType\": \"xgplayer\", // <3.3.4 **弃用**> 播放器(xgplayer=西瓜播放器,dplayer=呆呆播放器,custom=调外部播放器)"
       },
       {
-        "row": 134,
+        "row": 135,
         "rowsha": "kgMC47T31114CtVQHu4/3405K+asPdJF5vjEq/11aRE=",
         "originContent": "      \"externalPlayer\": \"\", // <3.3.4 **弃用**> 调外部播放器(类型为custom启用)",
         "translatedContent": "      \"externalPlayer\": \"\", // <3.3.4 **弃用**> 调外部播放器(类型为custom启用)"
       },
       {
-        "row": 135,
+        "row": 136,
         "rowsha": "q4vZ0zEoKH/ejaCGuZO7Jo9KoW8M+/laWZbjvCHJuKU=",
         "originContent": "      \"playerMode\": {",
         "translatedContent": "      \"playerMode\": {"
       },
       {
-        "row": 136,
+        "row": 137,
         "rowsha": "vvGRBvJuD02C8aDar7xyldqbWxbDJQhMbQoKjQkXlHM=",
         "originContent": "        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)",
         "translatedContent": "        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)"
       },
       {
-        "row": 137,
+        "row": 138,
         "rowsha": "MzLSf378c6A5cLQmn29zdzs1aTzGYUEYhGTH1W/3vlE=",
         "originContent": "        \"external\": \"\" // 调外部播放器(类型为custom启用)",
         "translatedContent": "        \"external\": \"\" // 调外部播放器(类型为custom启用)"
       },
       {
-        "row": 138,
+        "row": 139,
         "rowsha": "CpsDo7HuZKOBGg0n6cicZBC/TRphjsPigpVwE9Nrs+8=",
         "originContent": "      }, // <3.3.4 启用, 3.4.1 **弃用**>",
         "translatedContent": "      }, // <3.3.4 启用, 3.4.1 **弃用**>"
       },
       {
-        "row": 139,
+        "row": 140,
         "rowsha": "FBSDQXO8gyv5xKckKAQiDASPwsG+MH220SDIQifwDBU=",
         "originContent": "      \"player\": {",
         "translatedContent": "      \"player\": {"
       },
       {
-        "row": 140,
+        "row": 141,
         "rowsha": "vvGRBvJuD02C8aDar7xyldqbWxbDJQhMbQoKjQkXlHM=",
         "originContent": "        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)",
         "translatedContent": "        \"type\": \"xgplayer\", // 播放器(xgplayer=西瓜播放器,artplayer=艺术播放器,custom=调外部播放器)"
       },
       {
-        "row": 141,
+        "row": 142,
         "rowsha": "MzLSf378c6A5cLQmn29zdzs1aTzGYUEYhGTH1W/3vlE=",
         "originContent": "        \"external\": \"\" // 调外部播放器(类型为custom启用)",
         "translatedContent": "        \"external\": \"\" // 调外部播放器(类型为custom启用)"
       },
       {
-        "row": 142,
+        "row": 143,
         "rowsha": "54pNmVoGiIprFUBI1E/xYu2qybecNFje7Avbf6uZRq8=",
         "originContent": "      }, // <3.4.1 启用>",
         "translatedContent": "      }, // <3.4.1 启用>"
       },
       {
-        "row": 143,
+        "row": 144,
         "rowsha": "KuFDHYuW3Sy06PCvNX9wfwNH4J8lMm4ZXWlrDgwGSvY=",
         "originContent": "      \"softSolution\": false, // 软解(预留字段 true=启用,false=禁用)",
         "translatedContent": "      \"softSolution\": false, // 软解(预留字段 true=启用,false=禁用)"
       },
       {
-        "row": 144,
+        "row": 145,
         "rowsha": "2oFw2qB1D7Enz47luIXhQp1ZlP3Rf8HDEN6pUp0H8Bo=",
         "originContent": "      \"skipStartEnd\": false, // <3.3.5 **弃用**> 是否跳过首尾空白",
         "translatedContent": "      \"skipStartEnd\": false, // <3.3.5 **弃用**> 是否跳过首尾空白"
       },
       {
-        "row": 145,
+        "row": 146,
         "rowsha": "oZDy2oKnzpu+UhLYdYpYM4OlqfSEgmx68L6tRI5/cEM=",
         "originContent": "      \"agreementMask\": true, // <3.4.1 **弃用**> 是否同意协议",
         "translatedContent": "      \"agreementMask\": true, // <3.4.1 **弃用**> 是否同意协议"
       },
       {
-        "row": 146,
+        "row": 147,
         "rowsha": "te1SaaYpMSdm1uTsa8EYN6geDnuJLflzVcb0KQaK/aI=",
         "originContent": "      \"disclaimer\": true, // <3.4.1 启用> 是否同意协议",
         "translatedContent": "      \"disclaimer\": true, // <3.4.1 启用> 是否同意协议"
       },
       {
-        "row": 147,
+        "row": 148,
         "rowsha": "6+9EgbF5SslzRXYYgfU3HlE/kTQnwX4vu7DavJmNtVQ=",
         "originContent": "      \"recordShortcut\": \"Shift+Command+Z\", // <3.4.1 **弃用**> 老板键",
         "translatedContent": "      \"recordShortcut\": \"Shift+Command+Z\", // <3.4.1 **弃用**> 老板键"
       },
       {
-        "row": 148,
+        "row": 149,
         "rowsha": "tKspexA9qxuiSMlHOCJpx5V+l5Vn3dLyTIbXJ8aQCZo=",
         "originContent": "      \"bossKey\": \"Shift+Command+Z\", // <3.4.1 启用> 老板键",
         "translatedContent": "      \"bossKey\": \"Shift+Command+Z\", // <3.4.1 启用> 老板键"
       },
       {
-        "row": 149,
+        "row": 150,
         "rowsha": "InpK3Ip/toZJnqqbE97epUonR4tftQOSs9IYsm3LWts=",
         "originContent": "      \"snifferType\": \"pie\", // <3.3.4 **弃用**> 嗅探模式(pie=内置嗅探,iframe=原生嗅探)",
         "translatedContent": "      \"snifferType\": \"pie\", // <3.3.4 **弃用**> 嗅探模式(pie=内置嗅探,iframe=原生嗅探)"
       },
       {
-        "row": 150,
+        "row": 151,
         "rowsha": "Fk/Jzx9MYJP02qxLj1uVo7GQgVsG+Y6bVY8fDRKTsPc=",
         "originContent": "      \"snifferMode\": {",
         "translatedContent": "      \"snifferMode\": {"
       },
       {
-        "row": 151,
+        "row": 152,
         "rowsha": "76BNevahvvv240h3K16xpiP42rYlfgdOwOf2Tv/UVXs=",
         "originContent": "        \"type\": \"pie\", // 嗅探模式(pie=内置嗅探,custom=三方嗅探)",
         "translatedContent": "        \"type\": \"pie\", // 嗅探模式(pie=内置嗅探,custom=三方嗅探)"
       },
       {
-        "row": 152,
+        "row": 153,
         "rowsha": "hRqxeybh0U8HvjjiwW/Ysr3xVxDitvIWdJu9ELRtYX8=",
         "originContent": "        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)",
         "translatedContent": "        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)"
       },
       {
-        "row": 153,
+        "row": 154,
         "rowsha": "CpsDo7HuZKOBGg0n6cicZBC/TRphjsPigpVwE9Nrs+8=",
         "originContent": "      }, // <3.3.4 启用, 3.4.1 **弃用**>",
         "translatedContent": "      }, // <3.3.4 启用, 3.4.1 **弃用**>"
       },
       {
-        "row": 154,
+        "row": 155,
         "rowsha": "+mmGlLZPAfK6IFEbKd8h34sOa1zKKpJKbCyM7asREdY=",
         "originContent": "      \"sniffer\": {",
         "translatedContent": "      \"sniffer\": {"
       },
       {
-        "row": 155,
+        "row": 156,
         "rowsha": "mx+0SMwtyJ60u8whDyhv5C6eiJ67Fjo1/AugFPc1Ruk=",
         "originContent": "        \"type\": \"cdp\", // 嗅探模式(cdp=内置嗅探,custom=三方嗅探)",
         "translatedContent": "        \"type\": \"cdp\", // 嗅探模式(cdp=内置嗅探,custom=三方嗅探)"
       },
       {
-        "row": 156,
+        "row": 157,
         "rowsha": "hRqxeybh0U8HvjjiwW/Ysr3xVxDitvIWdJu9ELRtYX8=",
         "originContent": "        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)",
         "translatedContent": "        \"url\": \"\" // 三方嗅探接口(类型为custom时启用)"
       },
       {
-        "row": 157,
+        "row": 158,
         "rowsha": "54pNmVoGiIprFUBI1E/xYu2qybecNFje7Avbf6uZRq8=",
         "originContent": "      }, // <3.4.1 启用>",
         "translatedContent": "      }, // <3.4.1 启用>"
       },
       {
-        "row": 158,
+        "row": 159,
         "rowsha": "MTzxONP6bE+NdAEnS4kgDBC6AFoHrWXV/bBFd/Z5pDs=",
         "originContent": "      \"selfBoot\": false, // <3.4.1 **弃用**> 是否开机自启动",
         "translatedContent": "      \"selfBoot\": false, // <3.4.1 **弃用**> 是否开机自启动"
       },
       {
-        "row": 159,
+        "row": 160,
         "rowsha": "SRLJ8f7qUL2/XsT95vhhOh6LPh6teoYtaUBGHaFw+3M=",
         "originContent": "      \"autoStart\": false, // <3.4.1 启用> 是否开机自启动",
         "translatedContent": "      \"autoStart\": false, // <3.4.1 启用> 是否开机自启动"
       },
       {
-        "row": 160,
+        "row": 161,
         "rowsha": "yz4WJQ5vT8t90qLHHVTg0VbyxPFZ3eZcs3xAhXUN97g=",
         "originContent": "      \"hardwareAcceleration\": true, // 是否启用硬件加速",
         "translatedContent": "      \"hardwareAcceleration\": true, // 是否启用硬件加速"
       },
       {
-        "row": 161,
+        "row": 162,
         "rowsha": "6eAYD/zzIDDBNsE2x5eTST6cw3Cscfy+4CojA2LFrkg=",
         "originContent": "      \"ua\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\", // User-Agent",
         "translatedContent": "      \"ua\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\", // User-Agent"
       },
       {
-        "row": 162,
+        "row": 163,
         "rowsha": "TteazkZZ+m6Vd0Y/r5XFaIEd3oY6qwgvxKVgcXGawLA=",
         "originContent": "      \"dns\": \"\" // <3.3.7 启用> DNS-over-HTTP",
         "translatedContent": "      \"dns\": \"\" // <3.3.7 启用> DNS-over-HTTP"
       },
       {
-        "row": 163,
+        "row": 164,
         "rowsha": "20VWE7U2aMWM+mDEOdIvWeeH5NdPtjjrwJRwMU+q9ig=",
         "originContent": "      \"webdavUrl\": \"https://dav.jianguoyun.com/dav/\", // <3.3.4 **弃用**> webdav同步盘地址",
         "translatedContent": "      \"webdavUrl\": \"https://dav.jianguoyun.com/dav/\", // <3.3.4 **弃用**> webdav同步盘地址"
       },
       {
-        "row": 164,
+        "row": 165,
         "rowsha": "++lQHmXsB8TBJodJwT9mqGMWeyO1SKqQm5NnvU+iDGw=",
         "originContent": "      \"webdavUsername\": \"\", // <3.3.4 **弃用**> webdeav用户名",
         "translatedContent": "      \"webdavUsername\": \"\", // <3.3.4 **弃用**> webdeav用户名"
       },
       {
-        "row": 165,
+        "row": 166,
         "rowsha": "sfmLMMK4sNT9EOFJAF5i2J0042fDYyVABVNRSj/3lRM=",
         "originContent": "      \"webdavPassword\": \"\", // <3.3.4 **弃用**> webdav密码",
         "translatedContent": "      \"webdavPassword\": \"\", // <3.3.4 **弃用**> webdav密码"
       },
       {
-        "row": 166,
+        "row": 167,
         "rowsha": "Z8BiQSnblf0iU+WfkAnuoleYUMEdj3Z+LT9VtYU4jCo=",
         "originContent": "      \"webdav\": {",
         "translatedContent": "      \"webdav\": {"
       },
       {
-        "row": 167,
+        "row": 168,
         "rowsha": "MOXOMOKuJ5dM4W4mNhPtKR7Yu/1mSjiopAtypTBRZSY=",
         "originContent": "        \"sync\": false, // 自动同步",
         "translatedContent": "        \"sync\": false, // 自动同步"
       },
       {
-        "row": 168,
+        "row": 169,
         "rowsha": "fiOscwINAT83sj9U7b9KSLYlbuKKP00ge83DgngVG54=",
         "originContent": "        \"data\": {",
         "translatedContent": "        \"data\": {"
       },
       {
-        "row": 169,
+        "row": 170,
         "rowsha": "fLfHkN/yZNAkzhEnqflWna00QgAq/JvpT+Or5R8r//8=",
         "originContent": "          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址",
         "translatedContent": "          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址"
       },
       {
-        "row": 170,
+        "row": 171,
         "rowsha": "tvXlJ2YoNqwDbwVQe7wlyFG2TndHvPA094oMCtvZ5u4=",
         "originContent": "          \"user\": \"\", // webdav用户名",
         "translatedContent": "          \"user\": \"\", // webdav用户名"
       },
       {
-        "row": 171,
+        "row": 172,
         "rowsha": "ZIt39DhcZIU1fhp9JimFs6UuMyyA7Q6/6ImT4+swraU=",
         "originContent": "          \"password\": \"\" // webdav密码",
         "translatedContent": "          \"password\": \"\" // webdav密码"
       },
       {
-        "row": 172,
+        "row": 173,
         "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
         "originContent": "        }",
         "translatedContent": "        }"
       },
       {
-        "row": 173,
+        "row": 174,
         "rowsha": "CpsDo7HuZKOBGg0n6cicZBC/TRphjsPigpVwE9Nrs+8=",
         "originContent": "      }, // <3.3.4 启用, 3.4.1 **弃用**>",
         "translatedContent": "      }, // <3.3.4 启用, 3.4.1 **弃用**>"
       },
       {
-        "row": 174,
+        "row": 175,
         "rowsha": "0bIJcXRkz5HFPYINKbmfuF0PExbt835F2DMrY6xfEKQ=",
         "originContent": "      \"cloud\": {",
         "translatedContent": "      \"cloud\": {"
       },
       {
-        "row": 175,
+        "row": 176,
         "rowsha": "MOXOMOKuJ5dM4W4mNhPtKR7Yu/1mSjiopAtypTBRZSY=",
         "originContent": "        \"sync\": false, // 自动同步",
         "translatedContent": "        \"sync\": false, // 自动同步"
       },
       {
-        "row": 176,
+        "row": 177,
         "rowsha": "H0ruZaJ1RW87T6gJU+xAdUMxI6MsAJshpu15gYDF1IQ=",
         "originContent": "        \"type\": \"webdav\", // 备份类型(webdav=webdav同步盘, icloud=icloud云盘仅mac)",
         "translatedContent": "        \"type\": \"webdav\", // 备份类型(webdav=webdav同步盘, icloud=icloud云盘仅mac)"
       },
       {
-        "row": 177,
+        "row": 178,
         "rowsha": "fiOscwINAT83sj9U7b9KSLYlbuKKP00ge83DgngVG54=",
         "originContent": "        \"data\": {",
         "translatedContent": "        \"data\": {"
       },
       {
-        "row": 178,
+        "row": 179,
         "rowsha": "fLfHkN/yZNAkzhEnqflWna00QgAq/JvpT+Or5R8r//8=",
         "originContent": "          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址",
         "translatedContent": "          \"url\": \"https://dav.jianguoyun.com/dav/\", // webdav同步盘地址"
       },
       {
-        "row": 179,
+        "row": 180,
         "rowsha": "tvXlJ2YoNqwDbwVQe7wlyFG2TndHvPA094oMCtvZ5u4=",
         "originContent": "          \"user\": \"\", // webdav用户名",
         "translatedContent": "          \"user\": \"\", // webdav用户名"
       },
       {
-        "row": 180,
+        "row": 181,
         "rowsha": "ZIt39DhcZIU1fhp9JimFs6UuMyyA7Q6/6ImT4+swraU=",
         "originContent": "          \"password\": \"\" // webdav密码",
         "translatedContent": "          \"password\": \"\" // webdav密码"
       },
       {
-        "row": 181,
+        "row": 182,
         "rowsha": "bv56GmiLop5WEYOGHUzBKka/LFRD50qpf05WT01/Rr0=",
         "originContent": "        } // 仅类型为webdav启用",
         "translatedContent": "        } // 仅类型为webdav启用"
       },
       {
-        "row": 182,
+        "row": 183,
         "rowsha": "54pNmVoGiIprFUBI1E/xYu2qybecNFje7Avbf6uZRq8=",
         "originContent": "      }, // <3.4.1 启用>",
         "translatedContent": "      }, // <3.4.1 启用>"
       },
       {
-        "row": 183,
+        "row": 184,
         "rowsha": "fGaMBT5ZG+dGY9zICtB3CKBYncMlXiZiyhs3oKVEpJc=",
         "originContent": "      \"ai\": {",
         "translatedContent": "      \"ai\": {"
       },
       {
-        "row": 184,
+        "row": 185,
         "rowsha": "YldKJtlQgcnxs7er0lXiZmDQHxfZu5sYhXp4XQaRSLI=",
         "originContent": "        \"server\": \"\",  // AI服务器地址",
         "translatedContent": "        \"server\": \"\",  // AI服务器地址"
       },
       {
-        "row": 185,
+        "row": 186,
         "rowsha": "GWUXjJAonvxuFRBegkrJDL5MlHVFqpO1i07tF8XbrgQ=",
         "originContent": "        \"key\": \"\", // API密钥",
         "translatedContent": "        \"key\": \"\", // API密钥"
       },
       {
-        "row": 186,
+        "row": 187,
         "rowsha": "AOcvwpT9yYH2ZUO/tybSrxNx8ZGPhsqLiYTLfk8i1sc=",
         "originContent": "        \"model\": \"gpt-3.5-turbo\" // 模型名称",
         "translatedContent": "        \"model\": \"gpt-3.5-turbo\" // 模型名称"
       },
       {
-        "row": 187,
+        "row": 188,
         "rowsha": "CQwGMOpeJXuJ4aQSzBEma/MXCqYOLWz+1aOfCHtwALQ=",
         "originContent": "      }, // <3.3.5 启用, 3.4.1 **弃用**>",
         "translatedContent": "      }, // <3.3.5 启用, 3.4.1 **弃用**>"
       },
       {
-        "row": 188,
+        "row": 189,
         "rowsha": "Mqy1zPu+uS+7EJVCcB75rFVeZwQCAmeuOaTEBnNj9vg=",
         "originContent": "      \"aigc\": {",
         "translatedContent": "      \"aigc\": {"
       },
       {
-        "row": 189,
+        "row": 190,
         "rowsha": "fvABR96Z0/qs/b5Gu1xAD5DlKMjy+jSi/SJnTL5RDk4=",
         "originContent": "        \"type\": \"openai\", // AI类型(仅支持openai)",
         "translatedContent": "        \"type\": \"openai\", // AI类型(仅支持openai)"
       },
       {
-        "row": 190,
+        "row": 191,
         "rowsha": "YldKJtlQgcnxs7er0lXiZmDQHxfZu5sYhXp4XQaRSLI=",
         "originContent": "        \"server\": \"\",  // AI服务器地址",
         "translatedContent": "        \"server\": \"\",  // AI服务器地址"
       },
       {
-        "row": 191,
+        "row": 192,
         "rowsha": "GWUXjJAonvxuFRBegkrJDL5MlHVFqpO1i07tF8XbrgQ=",
         "originContent": "        \"key\": \"\", // API密钥",
         "translatedContent": "        \"key\": \"\", // API密钥"
       },
       {
-        "row": 192,
+        "row": 193,
         "rowsha": "AOcvwpT9yYH2ZUO/tybSrxNx8ZGPhsqLiYTLfk8i1sc=",
         "originContent": "        \"model\": \"gpt-3.5-turbo\" // 模型名称",
         "translatedContent": "        \"model\": \"gpt-3.5-turbo\" // 模型名称"
       },
       {
-        "row": 193,
+        "row": 194,
         "rowsha": "mBzXHkSr2eoFXuHHtiHcZXdMFi/DXVL81L5aqSJxwQ4=",
         "originContent": "      }, // <3.4.1 启用> AI设置",
         "translatedContent": "      }, // <3.4.1 启用> AI设置"
       },
       {
-        "row": 194,
+        "row": 195,
         "rowsha": "U192Wr1rZseO1wwzAm5IHyOFv2ZrqF/bVXQ3BoHaRro=",
         "originContent": "      \"timeout\": 5000, // <3.3.5 启用> 全局请求超时(ms)",
         "translatedContent": "      \"timeout\": 5000, // <3.3.5 启用> 全局请求超时(ms)"
       },
       {
-        "row": 195,
+        "row": 196,
         "rowsha": "xRGFlOtz7VuAA1pCyjK6zv67y2ZNBNL06HXWMo9PK6Y=",
         "originContent": "      \"restoreWindowPositionAndSize\": false, // <3.3.7 **弃用**> 是否记录窗口位置",
         "translatedContent": "      \"restoreWindowPositionAndSize\": false, // <3.3.7 **弃用**> 是否记录窗口位置"
       },
       {
-        "row": 196,
+        "row": 197,
         "rowsha": "wG7YCvQ7rBYXgIdiod6KjhmfJcQNfiL0ealabXtjT3g=",
         "originContent": "      \"windowPosition\": {",
         "translatedContent": "      \"windowPosition\": {"
       },
       {
-        "row": 197,
+        "row": 198,
         "rowsha": "qV0SMws8PqoJJYm0J7UZ9iqt94wQWuQ+RU+DCJtfJbU=",
         "originContent": "        \"status\": false, // 是否记录窗口位置",
         "translatedContent": "        \"status\": false, // 是否记录窗口位置"
       },
       {
-        "row": 198,
+        "row": 199,
         "rowsha": "muVp6UByEQNxV0+g9DVuvup8+tmb2z884+uDRTvEWrQ=",
         "originContent": "        \"position\": {",
         "translatedContent": "        \"position\": {"
       },
       {
-        "row": 199,
+        "row": 200,
         "rowsha": "OmJdOxBTv7sFvf2SakJcVc3tSR9PE5SPCOMHSWreanM=",
         "originContent": "          \"width\": 1000,",
         "translatedContent": "          \"width\": 1000,"
       },
       {
-        "row": 200,
+        "row": 201,
         "rowsha": "aFwq+etEGHTaycbAbuYHdqqIToa9h7Y/BFA6vDSM0UE=",
         "originContent": "          \"height\": 640",
         "translatedContent": "          \"height\": 640"
       },
       {
-        "row": 201,
+        "row": 202,
         "rowsha": "GarePuBAI7iK/lBgZZjDPxP53x4KCOhf93qt8F6jbtk=",
         "originContent": "        }, // <3.3.7 **弃用**> 窗口位置",
         "translatedContent": "        }, // <3.3.7 **弃用**> 窗口位置"
       },
       {
-        "row": 202,
+        "row": 203,
         "rowsha": "MbnZOzrBOz/9z/9AcgP/ILL1OV+RTYnUK3KpEayCdoM=",
         "originContent": "        \"position_main\": {",
         "translatedContent": "        \"position_main\": {"
       },
       {
-        "row": 203,
+        "row": 204,
         "rowsha": "OmJdOxBTv7sFvf2SakJcVc3tSR9PE5SPCOMHSWreanM=",
         "originContent": "          \"width\": 1000,",
         "translatedContent": "          \"width\": 1000,"
       },
       {
-        "row": 204,
+        "row": 205,
         "rowsha": "aFwq+etEGHTaycbAbuYHdqqIToa9h7Y/BFA6vDSM0UE=",
         "originContent": "          \"height\": 640",
         "translatedContent": "          \"height\": 640"
       },
       {
-        "row": 205,
+        "row": 206,
         "rowsha": "xJ0f0GLXIlDfe80jBwau4kml+xvk804CsHK1UHYyZMo=",
         "originContent": "        }, // <3.3.7 启用> 记录主窗口位置",
         "translatedContent": "        }, // <3.3.7 启用> 记录主窗口位置"
       },
       {
-        "row": 206,
+        "row": 207,
         "rowsha": "pZi2m5Q52H+2gfS7o4YVBn1823KNVh4xyEODRbhIZv0=",
         "originContent": "        \"position_play\": {",
         "translatedContent": "        \"position_play\": {"
       },
       {
-        "row": 207,
+        "row": 208,
         "rowsha": "0p4Ovj9qE173m1NhPIT5sbQimTI7S09Ijd24kRdO+Tw=",
         "originContent": "          \"width\": 875,",
         "translatedContent": "          \"width\": 875,"
       },
       {
-        "row": 208,
+        "row": 209,
         "rowsha": "4a3D7NyKIiHnjpnuVI0bKoWdb2DXtf8uxNC1a4xF8D4=",
         "originContent": "          \"height\": 550",
         "translatedContent": "          \"height\": 550"
       },
       {
-        "row": 209,
+        "row": 210,
         "rowsha": "uIozaPrMjRHGmqkmH6zt0nFGc23toxLolAIK8Zbm9qw=",
         "originContent": "        } // <3.3.7 启用> 记录播放窗口位置",
         "translatedContent": "        } // <3.3.7 启用> 记录播放窗口位置"
       },
       {
-        "row": 210,
+        "row": 211,
         "rowsha": "i9K7/XjrywqxvfDUVujExLvusG3j3KMwiI0sUk40jBI=",
         "originContent": "      }, // <3.4.1 **弃用**>",
         "translatedContent": "      }, // <3.4.1 **弃用**>"
       },
       {
-        "row": 211,
+        "row": 212,
         "rowsha": "y1shap4hHZ7YeuUzabqTPVi003dUoFGz18rFbSfuHNc=",
         "originContent": "      \"debug\": false, // <3.3.7 启用> 用于部分调试",
         "translatedContent": "      \"debug\": false, // <3.3.7 启用> 用于部分调试"
       },
       {
-        "row": 212,
+        "row": 213,
         "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
         "originContent": "    }",
         "translatedContent": "    }"
       },
       {
-        "row": 213,
+        "row": 214,
         "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
         "originContent": "  ]",
         "translatedContent": "  ]"
       },
       {
-        "row": 214,
+        "row": 215,
         "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
         "originContent": "}",
         "translatedContent": "}"
       },
       {
-        "row": 215,
+        "row": 216,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"

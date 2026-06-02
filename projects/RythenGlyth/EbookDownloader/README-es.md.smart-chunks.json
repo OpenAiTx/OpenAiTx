@@ -1,0 +1,913 @@
+[
+  {
+    "Id": 1,
+    "Content": "# EbookDownloader\nA tool to download purchased e-books from different publishers.\n\n![Preview](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)\n\n## Table of Contents\n- [Supported Publishers (websites)](#supported-publishers-websites)\n- [Automatic Installation](#automatic-installation)\n- [Manual Installation](#manual-installation)\n- [Running](#running)\n- [Saving Credentials](#saving-credentials-to-avoid-entering-them-every-time-optional)\n- [Bildungslogin (Cornelsen / Westermann)](#bildungslogin)\n\n## Supported Publishers (websites)\n| Publisher | Website | Best Quality | Selectable Text | Hyperrefs | Notes |\n| --- | --- | --- | --- | --- | --- |\n| Cornelsen (\"New Method\") | cornelsen.de | Lossless PDF | &check; | &check; |  |\n| Cornelsen (\"Old Method\") | cornelsen.de | Image (8617px x 11792px) composition | &check; | &cross; |  |\n| Cornelsen.CH | ebooks.cornelsen.ch | Lossless PDF | &check; | &cross; |  |\n| Cornelsen | scook.de | Image (?) composition | &cross; | &cross; | |\n| Allango Klett | allango.net | Lossless PDF | &check; | ? | [1] |\n| Klett | klett.de | Image (3072px x 4096px) composition | &check; | &check; | |\n| Westermann | westermann.de | Image (2244px x 3071px) composition | &check; | &cross; | |\n| C.C.BUCHNER | click-and-study.de | Image (1658px x 2211px) composition | &check; | &cross; | |\n| C.C.BUCHNER | click-and-teach.de | Image (1658px x 2211px) composition | &check; | &cross; | |\n| Book2Look | book2look.com | Lossless PDF | &check; | ? | [2] |\n| kiosquemag | kiosquemag.com | Image (?) composition | &cross; | &cross; | |\n| Helbling Media App | helbling.com | Lossless PDF | &check; | &cross; | |\n\n[1]: Website allows to download files that are not owned\n\n[2]: No Account needed, only the book id\n\n## Automatic Installation\nAt first, clone or download the repository.\n\nThe tool uses image processing libraries and has to be executed with nodejs, therefore some dependencies are required.\n\nYou can eiher use the installation scripts (`init.bat` for Windows, `init.sh` for Debian based distros) or use manual installation. The installation scripts will download all dependencies for you. To execute them, double click the `.bat` file on windows or execute the `.sh` file in the terminal on linux after adding execution permissions to the `.sh` file.\n",
+    "ContentSha": "pryBYnSYkr2GqcQICRxrRaSDdBZ7NSo+tOBlU0MxS1E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# EbookDownloader\nUna herramienta para descargar libros electrónicos comprados de diferentes editoriales.\n\n![Vista previa](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)\n\n## Tabla de Contenidos\n- [Editoriales compatibles (sitios web)](#supported-publishers-websites)\n- [Instalación automática](#automatic-installation)\n- [Instalación manual](#manual-installation)\n- [Ejecución](#running)\n- [Guardar credenciales](#saving-credentials-to-avoid-entering-them-every-time-optional)\n- [Bildungslogin (Cornelsen / Westermann)](#bildungslogin)\n\n## Editoriales compatibles (sitios web)\n| Editorial | Sitio web | Mejor calidad | Texto seleccionable | Hipervínculos | Notas |\n| --- | --- | --- | --- | --- | --- |\n| Cornelsen (\"Método nuevo\") | cornelsen.de | PDF sin pérdida | &check; | &check; |  |\n| Cornelsen (\"Método antiguo\") | cornelsen.de | Composición de imagen (8617px x 11792px) | &check; | &cross; |  |\n| Cornelsen.CH | ebooks.cornelsen.ch | PDF sin pérdida | &check; | &cross; |  |\n| Cornelsen | scook.de | Composición de imagen (?) | &cross; | &cross; | |\n| Allango Klett | allango.net | PDF sin pérdida | &check; | ? | [1] |\n| Klett | klett.de | Composición de imagen (3072px x 4096px) | &check; | &check; | |\n| Westermann | westermann.de | Composición de imagen (2244px x 3071px) | &check; | &cross; | |\n| C.C.BUCHNER | click-and-study.de | Composición de imagen (1658px x 2211px) | &check; | &cross; | |\n| C.C.BUCHNER | click-and-teach.de | Composición de imagen (1658px x 2211px) | &check; | &cross; | |\n| Book2Look | book2look.com | PDF sin pérdida | &check; | ? | [2] |\n| kiosquemag | kiosquemag.com | Composición de imagen (?) | &cross; | &cross; | |\n| Helbling Media App | helbling.com | PDF sin pérdida | &check; | &cross; | |\n\n[1]: El sitio web permite descargar archivos que no son propiedad\n\n[2]: No se necesita cuenta, solo el ID del libro\n\n## Instalación automática\nPrimero, clona o descarga el repositorio.\n\nLa herramienta usa librerías de procesamiento de imágenes y debe ejecutarse con nodejs, por lo tanto se requieren algunas dependencias.\n\nPuedes usar los scripts de instalación (`init.bat` para Windows, `init.sh` para distribuciones basadas en Debian) o realizar una instalación manual. Los scripts de instalación descargarán todas las dependencias por ti. Para ejecutarlos, haz doble clic en el archivo `.bat` en Windows o ejecuta el archivo `.sh` en la terminal de Linux después de agregar permisos de ejecución al archivo `.sh`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uaLWT84/8JZfpUOIAYCodapZ1R1d++lDnrUGmSzo98A=",
+        "originContent": "# EbookDownloader",
+        "translatedContent": "# EbookDownloader"
+      },
+      {
+        "row": 2,
+        "rowsha": "DU9qol+oyxyogqu2Vv4r4Hg1K3KSNUKzp9kxgTTUiDo=",
+        "originContent": "A tool to download purchased e-books from different publishers.",
+        "translatedContent": "Una herramienta para descargar libros electrónicos comprados de diferentes editoriales."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "V4Qy/FsgCtsWWUyvg90U/nTVRyM5rFNl2mKhVkUWnUI=",
+        "originContent": "![Preview](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)",
+        "translatedContent": "![Vista previa](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Tabla de Contenidos"
+      },
+      {
+        "row": 7,
+        "rowsha": "LCrkDLcOgEWV9afYWk3MiA0IlSF4i+JMdvF6y3c/fu8=",
+        "originContent": "- [Supported Publishers (websites)](#supported-publishers-websites)",
+        "translatedContent": "- [Editoriales compatibles (sitios web)](#supported-publishers-websites)"
+      },
+      {
+        "row": 8,
+        "rowsha": "/2JPFFo/gBttL0SuBaIVHkkuK+FJCy7Fot8Esi0fAxo=",
+        "originContent": "- [Automatic Installation](#automatic-installation)",
+        "translatedContent": "- [Instalación automática](#automatic-installation)"
+      },
+      {
+        "row": 9,
+        "rowsha": "liyoCyIElwBBqRtaIbydXYqh6Or2dNqL8PeUZ6ZLGis=",
+        "originContent": "- [Manual Installation](#manual-installation)",
+        "translatedContent": "- [Instalación manual](#manual-installation)"
+      },
+      {
+        "row": 10,
+        "rowsha": "AU+rbmlmMp2tQbr+fHIkZuz64BsRfc38eWfM6s5FLxU=",
+        "originContent": "- [Running](#running)",
+        "translatedContent": "- [Ejecución](#running)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Ss7fxyxOucN6L4wuTS+56mhAKGr1NkR8P+tNIv1Oqa0=",
+        "originContent": "- [Saving Credentials](#saving-credentials-to-avoid-entering-them-every-time-optional)",
+        "translatedContent": "- [Guardar credenciales](#saving-credentials-to-avoid-entering-them-every-time-optional)"
+      },
+      {
+        "row": 12,
+        "rowsha": "rrSlVQNTaYoouNeRlAygFZTdJ24lqLvIYLFxRPoFd90=",
+        "originContent": "- [Bildungslogin (Cornelsen / Westermann)](#bildungslogin)",
+        "translatedContent": "- [Bildungslogin (Cornelsen / Westermann)](#bildungslogin)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "JNhYvvwLgrU/hlmXyBhwHGsQxKtx2iDg8vC5s92sHkQ=",
+        "originContent": "## Supported Publishers (websites)",
+        "translatedContent": "## Editoriales compatibles (sitios web)"
+      },
+      {
+        "row": 15,
+        "rowsha": "UjNAgd8JsqAcc91bmyyyw7YeRwVrbnnYXgp4Hg+5cxE=",
+        "originContent": "| Publisher | Website | Best Quality | Selectable Text | Hyperrefs | Notes |",
+        "translatedContent": "| Editorial | Sitio web | Mejor calidad | Texto seleccionable | Hipervínculos | Notas |"
+      },
+      {
+        "row": 16,
+        "rowsha": "5YDQAI65d4pVgrBy8sGrQOdcyae00uus0xQS0Hu8D5s=",
+        "originContent": "| --- | --- | --- | --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- | --- | --- | --- |"
+      },
+      {
+        "row": 17,
+        "rowsha": "kP0iT5gLtCS13yYClK3seD8tMuDZd6vpeEr7/wseDOc=",
+        "originContent": "| Cornelsen (\"New Method\") | cornelsen.de | Lossless PDF | &check; | &check; |  |",
+        "translatedContent": "| Cornelsen (\"Método nuevo\") | cornelsen.de | PDF sin pérdida | &check; | &check; |  |"
+      },
+      {
+        "row": 18,
+        "rowsha": "qgCxzwWCxGuNaJN8r6HBYCjxkuheNLEzwHizZBUJ1m8=",
+        "originContent": "| Cornelsen (\"Old Method\") | cornelsen.de | Image (8617px x 11792px) composition | &check; | &cross; |  |",
+        "translatedContent": "| Cornelsen (\"Método antiguo\") | cornelsen.de | Composición de imagen (8617px x 11792px) | &check; | &cross; |  |"
+      },
+      {
+        "row": 19,
+        "rowsha": "c2GN5o9NfbI2eLDNHj8yUh6W41rQrVfaStOfM/hIcbk=",
+        "originContent": "| Cornelsen.CH | ebooks.cornelsen.ch | Lossless PDF | &check; | &cross; |  |",
+        "translatedContent": "| Cornelsen.CH | ebooks.cornelsen.ch | PDF sin pérdida | &check; | &cross; |  |"
+      },
+      {
+        "row": 20,
+        "rowsha": "kJ4KuX7AV8fiv6fChEXyglyW4P/xftEIoT8nKENkAMU=",
+        "originContent": "| Cornelsen | scook.de | Image (?) composition | &cross; | &cross; | |",
+        "translatedContent": "| Cornelsen | scook.de | Composición de imagen (?) | &cross; | &cross; | |"
+      },
+      {
+        "row": 21,
+        "rowsha": "Vk0GRkPUPgi/ibjWxaHQeOlB4Pbf/BBLrCDO3VXBTmk=",
+        "originContent": "| Allango Klett | allango.net | Lossless PDF | &check; | ? | [1] |",
+        "translatedContent": "| Allango Klett | allango.net | PDF sin pérdida | &check; | ? | [1] |"
+      },
+      {
+        "row": 22,
+        "rowsha": "o4lJCEGWAAb9/e2H2Jy9QKM9O0Y2VMUoeG4hAjbg+rA=",
+        "originContent": "| Klett | klett.de | Image (3072px x 4096px) composition | &check; | &check; | |",
+        "translatedContent": "| Klett | klett.de | Composición de imagen (3072px x 4096px) | &check; | &check; | |"
+      },
+      {
+        "row": 23,
+        "rowsha": "qRJqGstvsaINtU5XOVNWr8rfQzKJRoaXyI/ELeajqSE=",
+        "originContent": "| Westermann | westermann.de | Image (2244px x 3071px) composition | &check; | &cross; | |",
+        "translatedContent": "| Westermann | westermann.de | Composición de imagen (2244px x 3071px) | &check; | &cross; | |"
+      },
+      {
+        "row": 24,
+        "rowsha": "tX0x6+32tJG4aBgMqSf8tOX8b8dAz8vMTGmsQK+u+5M=",
+        "originContent": "| C.C.BUCHNER | click-and-study.de | Image (1658px x 2211px) composition | &check; | &cross; | |",
+        "translatedContent": "| C.C.BUCHNER | click-and-study.de | Composición de imagen (1658px x 2211px) | &check; | &cross; | |"
+      },
+      {
+        "row": 25,
+        "rowsha": "LUfoA0ARrGVMVBIHVeqKd2MKjxBgor1rXMUJeM85J+w=",
+        "originContent": "| C.C.BUCHNER | click-and-teach.de | Image (1658px x 2211px) composition | &check; | &cross; | |",
+        "translatedContent": "| C.C.BUCHNER | click-and-teach.de | Composición de imagen (1658px x 2211px) | &check; | &cross; | |"
+      },
+      {
+        "row": 26,
+        "rowsha": "Mfxlcbz5c+mUwkah6ecmDaTX/Oggh4CMz3mN8nkQQlY=",
+        "originContent": "| Book2Look | book2look.com | Lossless PDF | &check; | ? | [2] |",
+        "translatedContent": "| Book2Look | book2look.com | PDF sin pérdida | &check; | ? | [2] |"
+      },
+      {
+        "row": 27,
+        "rowsha": "Qfu+USrAkudRNeDCMy0uVBj6Wv6oGBw3KmH0BWL/JsE=",
+        "originContent": "| kiosquemag | kiosquemag.com | Image (?) composition | &cross; | &cross; | |",
+        "translatedContent": "| kiosquemag | kiosquemag.com | Composición de imagen (?) | &cross; | &cross; | |"
+      },
+      {
+        "row": 28,
+        "rowsha": "piZDR8x8wQUetapc2XoAst62ROobdV4jfTTMK6OwbSg=",
+        "originContent": "| Helbling Media App | helbling.com | Lossless PDF | &check; | &cross; | |",
+        "translatedContent": "| Helbling Media App | helbling.com | PDF sin pérdida | &check; | &cross; | |"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "GrfQxwW+GbUOU4MIKaABKZVlfUWwm7b5tRk0Hma4Y+c=",
+        "originContent": "[1]: Website allows to download files that are not owned",
+        "translatedContent": "[1]: El sitio web permite descargar archivos que no son propiedad"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "749+6fc9J2/yMFHNnphQwTbyBwGwvQLrWuNPoUR91q8=",
+        "originContent": "[2]: No Account needed, only the book id",
+        "translatedContent": "[2]: No se necesita cuenta, solo el ID del libro"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "qTVKMJjF0lE7uvexQoVnIqD892p7QAQMAJqyf00ORrg=",
+        "originContent": "## Automatic Installation",
+        "translatedContent": "## Instalación automática"
+      },
+      {
+        "row": 35,
+        "rowsha": "hTohGvFf+zSFSANPI8b+11X58fDflVPTCOiM9clHq78=",
+        "originContent": "At first, clone or download the repository.",
+        "translatedContent": "Primero, clona o descarga el repositorio."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "LVmzZmNzwtKcBxgIECO+zpXCV+uFHddpYJAwzdsDWTM=",
+        "originContent": "The tool uses image processing libraries and has to be executed with nodejs, therefore some dependencies are required.",
+        "translatedContent": "La herramienta usa librerías de procesamiento de imágenes y debe ejecutarse con nodejs, por lo tanto se requieren algunas dependencias."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "TG+L8xkDQhv46SW3l8yliSLPDhGt8A/zeuRo44vvWn8=",
+        "originContent": "You can eiher use the installation scripts (`init.bat` for Windows, `init.sh` for Debian based distros) or use manual installation. The installation scripts will download all dependencies for you. To execute them, double click the `.bat` file on windows or execute the `.sh` file in the terminal on linux after adding execution permissions to the `.sh` file.",
+        "translatedContent": "Puedes usar los scripts de instalación (`init.bat` para Windows, `init.sh` para distribuciones basadas en Debian) o realizar una instalación manual. Los scripts de instalación descargarán todas las dependencias por ti. Para ejecutarlos, haz doble clic en el archivo `.bat` en Windows o ejecuta el archivo `.sh` en la terminal de Linux después de agregar permisos de ejecución al archivo `.sh`."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Manual Installation\nAt first, clone or download the repository. Then follow the os-specific instructions below:\n\n### Windows\n1. Download `unifont-15.0.01.ttf` from http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf and put it in the project root\n1. Install `ffmpeg` and put the ffmpeg executable (named as `ffmpeg`) in the project root or add it to your path environment variable, if you need help you can follow [this](https://phoenixnap.com/kb/ffmpeg-windows) tutorial\n1. Install `mutool` and put the mutool executable (named as `mutool`) in the project root or add it to your path environment variable, you can find the most recent builds [here](https://mupdf.com/releases). Search for releases with `windows`. (only required for book2look and cornelsen.ch)\n1. Install `nodejs` and `npm` if you haven't already, you can find help [here](https://phoenixnap.com/kb/install-node-js-npm-on-windows)\n1. Run `npm install`\n1. Optionally install `image magick` and put the magick executable (named as `magick`) in the project root or add it to your path environment variable (required only for cornelsen \"old method\")\n\n### Linux\n1. Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`\n1. Install packages `ffmpeg`, `nodejs`, `mutool`/`mupdf-tools`/`mupdf`  (required for book2look and cornelsen.ch) and optionally `imagemagick` (required only for cornelsen \"old method\") with your favorite package manager\n1. Run `npm install`\n\n### Linux/Darwin with Nix\n- If you have nix-direnv, run `direnv allow` to obtain all dependencies\n- Otherwise, run `nix-shell`.\n- Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`\n\n## Running\nComplete the setup by running `npm install` in the project directory and\nstart the program by executing `npm start` from the project directory.\n\n## Saving credentials to avoid entering them every time (optional)\nYou can save your credentials in a `config.json` file to avoid entering them every time you start the program. To do this, create a file named `config.json` in the project root and add the following content:\n",
+    "ContentSha": "1p9ZE39voZwRCytF0aP3dh2RggaLFYbExPbsu6LhSAk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Instalación Manual  \nPrimero, clona o descarga el repositorio. Luego sigue las instrucciones específicas para cada sistema operativo a continuación:  \n\n### Windows  \n1. Descarga `unifont-15.0.01.ttf` desde http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf y colócalo en la raíz del proyecto  \n1. Instala `ffmpeg` y coloca el ejecutable ffmpeg (llamado `ffmpeg`) en la raíz del proyecto o añádelo a tu variable de entorno path, si necesitas ayuda puedes seguir [este](https://phoenixnap.com/kb/ffmpeg-windows) tutorial  \n1. Instala `mutool` y coloca el ejecutable mutool (llamado `mutool`) en la raíz del proyecto o añádelo a tu variable de entorno path, puedes encontrar las compilaciones más recientes [aquí](https://mupdf.com/releases). Busca las versiones para `windows`. (solo requerido para book2look y cornelsen.ch)  \n1. Instala `nodejs` y `npm` si aún no lo has hecho, puedes encontrar ayuda [aquí](https://phoenixnap.com/kb/install-node-js-npm-on-windows)  \n1. Ejecuta `npm install`  \n1. Opcionalmente instala `image magick` y coloca el ejecutable magick (llamado `magick`) en la raíz del proyecto o añádelo a tu variable de entorno path (requerido solo para el \"método antiguo\" de cornelsen)  \n\n### Linux  \n1. Ejecuta `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`  \n1. Instala los paquetes `ffmpeg`, `nodejs`, `mutool`/`mupdf-tools`/`mupdf` (requerido para book2look y cornelsen.ch) y opcionalmente `imagemagick` (requerido solo para el \"método antiguo\" de cornelsen) con tu gestor de paquetes favorito  \n1. Ejecuta `npm install`  \n\n### Linux/Darwin con Nix  \n- Si tienes nix-direnv, ejecuta `direnv allow` para obtener todas las dependencias  \n- De lo contrario, ejecuta `nix-shell`.  \n- Ejecuta `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`  \n\n## Ejecución  \nCompleta la configuración ejecutando `npm install` en el directorio del proyecto y  \ninicia el programa ejecutando `npm start` desde el directorio del proyecto.  \n\n## Guardar credenciales para evitar ingresarlas cada vez (opcional)  \nPuedes guardar tus credenciales en un archivo `config.json` para evitar ingresarlas cada vez que inicies el programa. Para hacerlo, crea un archivo llamado `config.json` en la raíz del proyecto y añade el siguiente contenido:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "laS0KIYq72pvo1+ZXwKou2XNnPzMwETqxFf1uDd9iQs=",
+        "originContent": "## Manual Installation",
+        "translatedContent": "## Instalación Manual  "
+      },
+      {
+        "row": 2,
+        "rowsha": "quMyIQmhLRuOFR1SqSQ1D9HaiTkPnmkw/5TLSzxf0wA=",
+        "originContent": "At first, clone or download the repository. Then follow the os-specific instructions below:",
+        "translatedContent": "Primero, clona o descarga el repositorio. Luego sigue las instrucciones específicas para cada sistema operativo a continuación:  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows  "
+      },
+      {
+        "row": 5,
+        "rowsha": "uheaOVnNfzl4LDa+jvd4YwprCrqxUIj+xN0VRl+VsLg=",
+        "originContent": "1. Download `unifont-15.0.01.ttf` from http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf and put it in the project root",
+        "translatedContent": "1. Descarga `unifont-15.0.01.ttf` desde http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf y colócalo en la raíz del proyecto  "
+      },
+      {
+        "row": 6,
+        "rowsha": "UZLdXBwh8fJ6fPrBgDirOa6FM9rSh5suhsALfs3Htds=",
+        "originContent": "1. Install `ffmpeg` and put the ffmpeg executable (named as `ffmpeg`) in the project root or add it to your path environment variable, if you need help you can follow [this](https://phoenixnap.com/kb/ffmpeg-windows) tutorial",
+        "translatedContent": "1. Instala `ffmpeg` y coloca el ejecutable ffmpeg (llamado `ffmpeg`) en la raíz del proyecto o añádelo a tu variable de entorno path, si necesitas ayuda puedes seguir [este](https://phoenixnap.com/kb/ffmpeg-windows) tutorial  "
+      },
+      {
+        "row": 7,
+        "rowsha": "K+8wK8dbpD3mdvZ/p6XEFug44o94Nwb8QmDXcj7dirM=",
+        "originContent": "1. Install `mutool` and put the mutool executable (named as `mutool`) in the project root or add it to your path environment variable, you can find the most recent builds [here](https://mupdf.com/releases). Search for releases with `windows`. (only required for book2look and cornelsen.ch)",
+        "translatedContent": "1. Instala `mutool` y coloca el ejecutable mutool (llamado `mutool`) en la raíz del proyecto o añádelo a tu variable de entorno path, puedes encontrar las compilaciones más recientes [aquí](https://mupdf.com/releases). Busca las versiones para `windows`. (solo requerido para book2look y cornelsen.ch)  "
+      },
+      {
+        "row": 8,
+        "rowsha": "UkrsDdFrWgYrvMFRSZvLy7ZKdQDf4T7VpxnFq3vuniY=",
+        "originContent": "1. Install `nodejs` and `npm` if you haven't already, you can find help [here](https://phoenixnap.com/kb/install-node-js-npm-on-windows)",
+        "translatedContent": "1. Instala `nodejs` y `npm` si aún no lo has hecho, puedes encontrar ayuda [aquí](https://phoenixnap.com/kb/install-node-js-npm-on-windows)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "wIRpnC0cAWAxl39J9UFNVq5WDcH9Ca5z8FavcK4IlEo=",
+        "originContent": "1. Run `npm install`",
+        "translatedContent": "1. Ejecuta `npm install`  "
+      },
+      {
+        "row": 10,
+        "rowsha": "La2dAc3LTilXbu4c9lX7YcqS1g05n6FVogKNM7Gpoaw=",
+        "originContent": "1. Optionally install `image magick` and put the magick executable (named as `magick`) in the project root or add it to your path environment variable (required only for cornelsen \"old method\")",
+        "translatedContent": "1. Opcionalmente instala `image magick` y coloca el ejecutable magick (llamado `magick`) en la raíz del proyecto o añádelo a tu variable de entorno path (requerido solo para el \"método antiguo\" de cornelsen)  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "### Linux  "
+      },
+      {
+        "row": 13,
+        "rowsha": "uZnGmYTPUWzSz3cJK3M9eSscLgB4fmir7qKDfr3ixZw=",
+        "originContent": "1. Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`",
+        "translatedContent": "1. Ejecuta `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`  "
+      },
+      {
+        "row": 14,
+        "rowsha": "ATrYMOpLxupdcYS25EvMBd2UtP3cWBI09BmBRw5Aq9w=",
+        "originContent": "1. Install packages `ffmpeg`, `nodejs`, `mutool`/`mupdf-tools`/`mupdf`  (required for book2look and cornelsen.ch) and optionally `imagemagick` (required only for cornelsen \"old method\") with your favorite package manager",
+        "translatedContent": "1. Instala los paquetes `ffmpeg`, `nodejs`, `mutool`/`mupdf-tools`/`mupdf` (requerido para book2look y cornelsen.ch) y opcionalmente `imagemagick` (requerido solo para el \"método antiguo\" de cornelsen) con tu gestor de paquetes favorito  "
+      },
+      {
+        "row": 15,
+        "rowsha": "wIRpnC0cAWAxl39J9UFNVq5WDcH9Ca5z8FavcK4IlEo=",
+        "originContent": "1. Run `npm install`",
+        "translatedContent": "1. Ejecuta `npm install`  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "qPQMMyw6JQ5lPTiZcYRtOR8DbA1hoN+7sm/EkwuFfSY=",
+        "originContent": "### Linux/Darwin with Nix",
+        "translatedContent": "### Linux/Darwin con Nix  "
+      },
+      {
+        "row": 18,
+        "rowsha": "thGrDDBEwLB7e+UhLLxozZY8ow3LFJepB43quSjV+Es=",
+        "originContent": "- If you have nix-direnv, run `direnv allow` to obtain all dependencies",
+        "translatedContent": "- Si tienes nix-direnv, ejecuta `direnv allow` para obtener todas las dependencias  "
+      },
+      {
+        "row": 19,
+        "rowsha": "OIIpWuwurPEwqe4opbS1gj0PJUb2hJ856wLmL6ZgMQk=",
+        "originContent": "- Otherwise, run `nix-shell`.",
+        "translatedContent": "- De lo contrario, ejecuta `nix-shell`.  "
+      },
+      {
+        "row": 20,
+        "rowsha": "uJqy8s0K3y2j1rJwgymwXjZlD1KuRMisfzbe1ev3YEk=",
+        "originContent": "- Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`",
+        "translatedContent": "- Ejecuta `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "R12PfnIRRtvCRrVK+NESghjBp1wFCZticvwj0mo4eZ0=",
+        "originContent": "## Running",
+        "translatedContent": "## Ejecución  "
+      },
+      {
+        "row": 23,
+        "rowsha": "OVbn0k56p+Jz8t1SJvkO+3QwZL/nKktoCwhmCVig1B4=",
+        "originContent": "Complete the setup by running `npm install` in the project directory and",
+        "translatedContent": "Completa la configuración ejecutando `npm install` en el directorio del proyecto y  "
+      },
+      {
+        "row": 24,
+        "rowsha": "+5+HoMeyIuvxW61UjFukI4ZgIeOH7pozvIXa77HPIBU=",
+        "originContent": "start the program by executing `npm start` from the project directory.",
+        "translatedContent": "inicia el programa ejecutando `npm start` desde el directorio del proyecto.  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "KwLrA3QvbAK33fx3bw6LcJ3tT7XFcSpjhnhnveeCuXQ=",
+        "originContent": "## Saving credentials to avoid entering them every time (optional)",
+        "translatedContent": "## Guardar credenciales para evitar ingresarlas cada vez (opcional)  "
+      },
+      {
+        "row": 27,
+        "rowsha": "TEc1r2oRXQvX+J9g592OLHj+y1ZxAQtWzMWHYbymPb0=",
+        "originContent": "You can save your credentials in a `config.json` file to avoid entering them every time you start the program. To do this, create a file named `config.json` in the project root and add the following content:",
+        "translatedContent": "Puedes guardar tus credenciales en un archivo `config.json` para evitar ingresarlas cada vez que inicies el programa. Para hacerlo, crea un archivo llamado `config.json` en la raíz del proyecto y añade el siguiente contenido:"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```json\n{\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    },\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    }\n    [...]\n}\n```",
+    "ContentSha": "xLuaRkCSq9wuDDg+DlaDINiVDHvToGd9TnCq1/+ks9A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    },\n    \"[PUBLISHER]\": {\n        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", \n        \"passwd\": \"[YOUR_PASSWORD]\"\n    }\n    [...]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "Bb9Xy9BcHX3NFVsA3VoqE7tpkHQcwOvHL5CAjIpZdzo=",
+        "originContent": "    \"[PUBLISHER]\": {",
+        "translatedContent": "    \"[PUBLISHER]\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "cOYvP3Sh0YY9Qf0RocOaClP0XpwQvzCAOzm5cDe3Hjw=",
+        "originContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", ",
+        "translatedContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", "
+      },
+      {
+        "row": 5,
+        "rowsha": "fF9syEigeeW1pIus+bHoccx7G1zA2uPdeTuHZWnGmfk=",
+        "originContent": "        \"passwd\": \"[YOUR_PASSWORD]\"",
+        "translatedContent": "        \"passwd\": \"[YOUR_PASSWORD]\""
+      },
+      {
+        "row": 6,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 7,
+        "rowsha": "Bb9Xy9BcHX3NFVsA3VoqE7tpkHQcwOvHL5CAjIpZdzo=",
+        "originContent": "    \"[PUBLISHER]\": {",
+        "translatedContent": "    \"[PUBLISHER]\": {"
+      },
+      {
+        "row": 8,
+        "rowsha": "cOYvP3Sh0YY9Qf0RocOaClP0XpwQvzCAOzm5cDe3Hjw=",
+        "originContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", ",
+        "translatedContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", "
+      },
+      {
+        "row": 9,
+        "rowsha": "fF9syEigeeW1pIus+bHoccx7G1zA2uPdeTuHZWnGmfk=",
+        "originContent": "        \"passwd\": \"[YOUR_PASSWORD]\"",
+        "translatedContent": "        \"passwd\": \"[YOUR_PASSWORD]\""
+      },
+      {
+        "row": 10,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 11,
+        "rowsha": "xkYGB3rR+F3IyGOTNYXFGRnfWB+Ln27bRaDwq/XF3Vc=",
+        "originContent": "    [...]",
+        "translatedContent": "    [...]"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nReplace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`\n\n## Bildungslogin\n\nCornelsen, Click-n-Study, Klett, and Westermann have token-login support, allowing login using Bildungslogin accounts.\n\n### Cornelsen\n\n1. Open Bildungslogin and log in\n1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).\n1. Open the book\n1. Select Local storage in the devtools (possibly also need to select the website in it)\n1. Scroll down in the table that opens until you find `id_token`. It should be a long alphanumeric string.\n1. Copy it. (Double click, then ctrl+c)\n1. Use it as the password, and use `token` as the username.\n\n### Click-and-Study\n\n1. Open Bildungslogin and log in\n1. Open the book\n1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).\n1. Select Cookies in the devtools (possibly also need to select the website in it)\n1. Scroll down in the table that opens until you find `CASSID`. It should have an alphanumeric string afterwards.\n1. Copy that (the random looking characters). (Double click, then ctrl+c)\n1. Use it as the password, and use `token` as the username.\n\n### Klett\n\n1. Open Bildungslogin and log in\n1. Open the book\n1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).\n1. Select Cookies in the devtools (possibly also need to select the website in it)\n1. Scroll down in the table that opens until you find `SESSION`. It should have an alphanumeric string afterwards.\n1. Copy that (the random looking characters). (Double click, then ctrl+c)\n1. Use it as the password, and use **the URL of the book viewer you are on** as the username.\n\n### Westermann\n\n1. Open Bildungslogin and log in",
+    "ContentSha": "+GWvdgQO4VnW+rAZ99RCREnfs59C/9SyjwYao6Sa04U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nReplace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`\n\n## Bildungslogin\n\nCornelsen, Click-n-Study, Klett, and Westermann tienen soporte para token-login, permitiendo iniciar sesión usando cuentas de Bildungslogin.\n\n### Cornelsen\n\n1. Abre Bildungslogin e inicia sesión\n1. Entra en las herramientas de desarrollo Storage (SHIFT+F9, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Storage).\n1. Abre el libro\n1. Selecciona Local storage en las herramientas de desarrollo (posiblemente también necesites seleccionar el sitio web en él)\n1. Desplázate hacia abajo en la tabla que se abre hasta encontrar `id_token`. Debería ser una cadena alfanumérica larga.\n1. Cópialo. (Doble clic, luego ctrl+c)\n1. Úsalo como contraseña, y usa `token` como nombre de usuario.\n\n### Click-and-Study\n\n1. Abre Bildungslogin e inicia sesión\n1. Abre el libro\n1. Entra en las herramientas de desarrollo Storage (SHIFT+F9, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Storage).\n1. Selecciona Cookies en las herramientas de desarrollo (posiblemente también necesites seleccionar el sitio web en él)\n1. Desplázate hacia abajo en la tabla que se abre hasta encontrar `CASSID`. Debería tener una cadena alfanumérica después.\n1. Cópialo (los caracteres de aspecto aleatorio). (Doble clic, luego ctrl+c)\n1. Úsalo como contraseña, y usa `token` como nombre de usuario.\n\n### Klett\n\n1. Abre Bildungslogin e inicia sesión\n1. Abre el libro\n1. Entra en las herramientas de desarrollo Storage (SHIFT+F9, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Storage).\n1. Selecciona Cookies en las herramientas de desarrollo (posiblemente también necesites seleccionar el sitio web en él)\n1. Desplázate hacia abajo en la tabla que se abre hasta encontrar `SESSION`. Debería tener una cadena alfanumérica después.\n1. Cópialo (los caracteres de aspecto aleatorio). (Doble clic, luego ctrl+c)\n1. Úsalo como contraseña, y usa **la URL del visor de libros en la que estás** como nombre de usuario.\n\n### Westermann\n\n1. Abre Bildungslogin e inicia sesión",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "otawWt7lpbDS2U3CmJqnS/XleyIbpFkBwC2e7Tqi63E=",
+        "originContent": "Replace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`",
+        "translatedContent": "Replace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pzDA82iQZr6+CGR4IN9NkARp45GyQVbbq2GqVb2X4QM=",
+        "originContent": "## Bildungslogin",
+        "translatedContent": "## Bildungslogin"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qHvAkMqTsPBAdkXpEE+F6AfQPI4+veno4N5F4qb0lt8=",
+        "originContent": "Cornelsen, Click-n-Study, Klett, and Westermann have token-login support, allowing login using Bildungslogin accounts.",
+        "translatedContent": "Cornelsen, Click-n-Study, Klett, and Westermann tienen soporte para token-login, permitiendo iniciar sesión usando cuentas de Bildungslogin."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "05eCWE1PsLFMdqCfE8TgXEpFa1YnfNXGKFH9lLGo1ac=",
+        "originContent": "### Cornelsen",
+        "translatedContent": "### Cornelsen"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. Abre Bildungslogin e inicia sesión"
+      },
+      {
+        "row": 11,
+        "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+        "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+        "translatedContent": "1. Entra en las herramientas de desarrollo Storage (SHIFT+F9, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Storage)."
+      },
+      {
+        "row": 12,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. Abre el libro"
+      },
+      {
+        "row": 13,
+        "rowsha": "VrQBHG3lfEwhz8J1ammLdboFoDpV/EwExQLfM4n5nSA=",
+        "originContent": "1. Select Local storage in the devtools (possibly also need to select the website in it)",
+        "translatedContent": "1. Selecciona Local storage en las herramientas de desarrollo (posiblemente también necesites seleccionar el sitio web en él)"
+      },
+      {
+        "row": 14,
+        "rowsha": "Zw0N9kWRkHKnAqz746WFHPNGCOiCq1lvPFKzoX0AX/0=",
+        "originContent": "1. Scroll down in the table that opens until you find `id_token`. It should be a long alphanumeric string.",
+        "translatedContent": "1. Desplázate hacia abajo en la tabla que se abre hasta encontrar `id_token`. Debería ser una cadena alfanumérica larga."
+      },
+      {
+        "row": 15,
+        "rowsha": "6S0Z1gBQId0KJ5gOlSjclsfnlnWsMQHf5lsc2htUzYg=",
+        "originContent": "1. Copy it. (Double click, then ctrl+c)",
+        "translatedContent": "1. Cópialo. (Doble clic, luego ctrl+c)"
+      },
+      {
+        "row": 16,
+        "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+        "originContent": "1. Use it as the password, and use `token` as the username.",
+        "translatedContent": "1. Úsalo como contraseña, y usa `token` como nombre de usuario."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "G8PWIBNdPGLeyr5qvBpBFEPQFVRqV5gA1mi0PZeEMUU=",
+        "originContent": "### Click-and-Study",
+        "translatedContent": "### Click-and-Study"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. Abre Bildungslogin e inicia sesión"
+      },
+      {
+        "row": 21,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. Abre el libro"
+      },
+      {
+        "row": 22,
+        "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+        "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+        "translatedContent": "1. Entra en las herramientas de desarrollo Storage (SHIFT+F9, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Storage)."
+      },
+      {
+        "row": 23,
+        "rowsha": "zzXHjySeTezHxzzomSiqZOQ2TfrLlzOj1HKHTt26FM8=",
+        "originContent": "1. Select Cookies in the devtools (possibly also need to select the website in it)",
+        "translatedContent": "1. Selecciona Cookies en las herramientas de desarrollo (posiblemente también necesites seleccionar el sitio web en él)"
+      },
+      {
+        "row": 24,
+        "rowsha": "fVKD9iG712Z6ZP+ki2+EMzksbL4yedST7aPR+IfvfYA=",
+        "originContent": "1. Scroll down in the table that opens until you find `CASSID`. It should have an alphanumeric string afterwards.",
+        "translatedContent": "1. Desplázate hacia abajo en la tabla que se abre hasta encontrar `CASSID`. Debería tener una cadena alfanumérica después."
+      },
+      {
+        "row": 25,
+        "rowsha": "BRIpPIEhcZEXEBmZmI0VA3Xn7Jjwgyp2QFfmzn62/q8=",
+        "originContent": "1. Copy that (the random looking characters). (Double click, then ctrl+c)",
+        "translatedContent": "1. Cópialo (los caracteres de aspecto aleatorio). (Doble clic, luego ctrl+c)"
+      },
+      {
+        "row": 26,
+        "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+        "originContent": "1. Use it as the password, and use `token` as the username.",
+        "translatedContent": "1. Úsalo como contraseña, y usa `token` como nombre de usuario."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "zrG/JGmGpN0rKew4rYTSbryk0gLBpr+5MyqB66eklWM=",
+        "originContent": "### Klett",
+        "translatedContent": "### Klett"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. Abre Bildungslogin e inicia sesión"
+      },
+      {
+        "row": 31,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. Abre el libro"
+      },
+      {
+        "row": 32,
+        "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+        "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+        "translatedContent": "1. Entra en las herramientas de desarrollo Storage (SHIFT+F9, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Storage)."
+      },
+      {
+        "row": 33,
+        "rowsha": "zzXHjySeTezHxzzomSiqZOQ2TfrLlzOj1HKHTt26FM8=",
+        "originContent": "1. Select Cookies in the devtools (possibly also need to select the website in it)",
+        "translatedContent": "1. Selecciona Cookies en las herramientas de desarrollo (posiblemente también necesites seleccionar el sitio web en él)"
+      },
+      {
+        "row": 34,
+        "rowsha": "LrtbRMWJAdgOyFCFRqNGSirOxleVmyH5gUnQeqDHWRU=",
+        "originContent": "1. Scroll down in the table that opens until you find `SESSION`. It should have an alphanumeric string afterwards.",
+        "translatedContent": "1. Desplázate hacia abajo en la tabla que se abre hasta encontrar `SESSION`. Debería tener una cadena alfanumérica después."
+      },
+      {
+        "row": 35,
+        "rowsha": "BRIpPIEhcZEXEBmZmI0VA3Xn7Jjwgyp2QFfmzn62/q8=",
+        "originContent": "1. Copy that (the random looking characters). (Double click, then ctrl+c)",
+        "translatedContent": "1. Cópialo (los caracteres de aspecto aleatorio). (Doble clic, luego ctrl+c)"
+      },
+      {
+        "row": 36,
+        "rowsha": "qZvlmKoIXv9DT2CZ5mAygRvncsxdftME8+F6vQ868QE=",
+        "originContent": "1. Use it as the password, and use **the URL of the book viewer you are on** as the username.",
+        "translatedContent": "1. Úsalo como contraseña, y usa **la URL del visor de libros en la que estás** como nombre de usuario."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "QZWEsihMOvguI3xMNlcgUvyXgJq43Mo+AqnFJ7FjO0I=",
+        "originContent": "### Westermann",
+        "translatedContent": "### Westermann"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+        "originContent": "1. Open Bildungslogin and log in",
+        "translatedContent": "1. Abre Bildungslogin e inicia sesión"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "1. Open the book\n1. Go into Networking devtools (CTRL+SHIFT+E, or alternatively press CTRL+SHIFT+I and click on Network tab).\n1. Tick `Persist logs` (possibly in Gear menu, likely at top right somewhere)\n1. Reload the page\n1. Enter `/api/user` into the \"Filter URLs\" field of devtools\n1. Click the first entry that does *not* say OPTIONS\n1. A little pane to the side should open. Click on its Headers tab\n1. Enter `auth` into its \"Filter headers\" field (if available)\n1. Scroll down until you find a long string of letters and numbers\n1. Copy it and paste it into a text document\n1. Copy it from there again, but make sure NOT to select the \"Authorization: Bearer \" part, only the long string at the end.\n1. Use it as the password, and use `token` as the username.\n\n## Contributing\n\nFeel free to create issues and pull requests to contribute to the project.\n\n## Disclaimer\nThis project is for educational purposes only. The project is not responsible for any misuse of the software. Depending on your jurisdiction, it may be illegal to use this software to download e-books without the consent of the publisher. In other jurisdictions, it may be legal to download e-books for personal use only. Please check your local laws before using this software.\n",
+    "ContentSha": "m/6EF5SpKgpCA1VPVcn81SXxW7HfVKo5SN0IkY6D1IY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. Abre el libro\n1. Ve a las herramientas de red (CTRL+SHIFT+E, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Red).\n1. Marca `Persistir registros` (posiblemente en el menú de engranaje, probablemente en la parte superior derecha en algún lugar)\n1. Recarga la página\n1. Ingresa `/api/user` en el campo \"Filtrar URLs\" de las herramientas de desarrollo\n1. Haz clic en la primera entrada que *no* diga OPTIONS\n1. Debería abrirse un panel pequeño al lado. Haz clic en su pestaña Encabezados\n1. Ingresa `auth` en su campo \"Filtrar encabezados\" (si está disponible)\n1. Desplázate hacia abajo hasta encontrar una cadena larga de letras y números\n1. Cópiala y pégala en un documento de texto\n1. Cópiala de nuevo desde allí, pero asegúrate de NO seleccionar la parte \"Authorization: Bearer \", solo la cadena larga al final.\n1. Úsala como contraseña, y usa `token` como nombre de usuario.\n\n## Contribuyendo\n\nSiéntete libre de crear issues y pull requests para contribuir al proyecto.\n\n## Descargo de responsabilidad\nEste proyecto es solo para fines educativos. El proyecto no se hace responsable de ningún mal uso del software. Dependiendo de tu jurisdicción, puede ser ilegal usar este software para descargar libros electrónicos sin el consentimiento del editor. En otras jurisdicciones, puede ser legal descargar libros electrónicos solo para uso personal. Por favor, revisa las leyes locales antes de usar este software.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+        "originContent": "1. Open the book",
+        "translatedContent": "1. Abre el libro"
+      },
+      {
+        "row": 2,
+        "rowsha": "eg5zGGOXgZXBhXAJLcsmr/0mes5W5X9YpSOmh1cx9K8=",
+        "originContent": "1. Go into Networking devtools (CTRL+SHIFT+E, or alternatively press CTRL+SHIFT+I and click on Network tab).",
+        "translatedContent": "1. Ve a las herramientas de red (CTRL+SHIFT+E, o alternativamente presiona CTRL+SHIFT+I y haz clic en la pestaña Red)."
+      },
+      {
+        "row": 3,
+        "rowsha": "2tLNwldGOG6Zj8XbOl2p/yCF+ZcDU/VPhsaGQPzgn7s=",
+        "originContent": "1. Tick `Persist logs` (possibly in Gear menu, likely at top right somewhere)",
+        "translatedContent": "1. Marca `Persistir registros` (posiblemente en el menú de engranaje, probablemente en la parte superior derecha en algún lugar)"
+      },
+      {
+        "row": 4,
+        "rowsha": "rQQc0g3yelFZ7dUwVpOv8KeWBK9OgGhwck0/NGtinPA=",
+        "originContent": "1. Reload the page",
+        "translatedContent": "1. Recarga la página"
+      },
+      {
+        "row": 5,
+        "rowsha": "YVfNdfFUb9lgt2kRsfAPJA9VfRXhezHhh1L3vb2vekc=",
+        "originContent": "1. Enter `/api/user` into the \"Filter URLs\" field of devtools",
+        "translatedContent": "1. Ingresa `/api/user` en el campo \"Filtrar URLs\" de las herramientas de desarrollo"
+      },
+      {
+        "row": 6,
+        "rowsha": "XlNg/3hJsihAcQwPsG8tPxB9aBnI6ofBHEVN64wJkdU=",
+        "originContent": "1. Click the first entry that does *not* say OPTIONS",
+        "translatedContent": "1. Haz clic en la primera entrada que *no* diga OPTIONS"
+      },
+      {
+        "row": 7,
+        "rowsha": "dBNqx9d73Ua6nVdkZE3VXnfvQuGnOCOPa3Noq4f2tjY=",
+        "originContent": "1. A little pane to the side should open. Click on its Headers tab",
+        "translatedContent": "1. Debería abrirse un panel pequeño al lado. Haz clic en su pestaña Encabezados"
+      },
+      {
+        "row": 8,
+        "rowsha": "xkx6AU+HBJ3sXbMguPML7clqbA7wMr1ZW8+Bxna3e2o=",
+        "originContent": "1. Enter `auth` into its \"Filter headers\" field (if available)",
+        "translatedContent": "1. Ingresa `auth` en su campo \"Filtrar encabezados\" (si está disponible)"
+      },
+      {
+        "row": 9,
+        "rowsha": "ECaA3Z+bNo0q0+PvCYok8+7cNuC6ekbzKaA+akftWzI=",
+        "originContent": "1. Scroll down until you find a long string of letters and numbers",
+        "translatedContent": "1. Desplázate hacia abajo hasta encontrar una cadena larga de letras y números"
+      },
+      {
+        "row": 10,
+        "rowsha": "M79qJw67/OadM1lRaSrUiDb8KJffabeX5WqIvX4fX70=",
+        "originContent": "1. Copy it and paste it into a text document",
+        "translatedContent": "1. Cópiala y pégala en un documento de texto"
+      },
+      {
+        "row": 11,
+        "rowsha": "TZtpqE5VjarzFOB0eoLaR0NVTKBpg2CoPrO3NhTk/Ck=",
+        "originContent": "1. Copy it from there again, but make sure NOT to select the \"Authorization: Bearer \" part, only the long string at the end.",
+        "translatedContent": "1. Cópiala de nuevo desde allí, pero asegúrate de NO seleccionar la parte \"Authorization: Bearer \", solo la cadena larga al final."
+      },
+      {
+        "row": 12,
+        "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+        "originContent": "1. Use it as the password, and use `token` as the username.",
+        "translatedContent": "1. Úsala como contraseña, y usa `token` como nombre de usuario."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribuyendo"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "xUmx9dVQs0SmuKVi0GfZZArQTIRzJ1DjscH7PSoO92k=",
+        "originContent": "Feel free to create issues and pull requests to contribute to the project.",
+        "translatedContent": "Siéntete libre de crear issues y pull requests para contribuir al proyecto."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## Descargo de responsabilidad"
+      },
+      {
+        "row": 19,
+        "rowsha": "VAYyNwPlajvfHlEuwkdFYx0y1jA+VDHeFOfKWSI83nU=",
+        "originContent": "This project is for educational purposes only. The project is not responsible for any misuse of the software. Depending on your jurisdiction, it may be illegal to use this software to download e-books without the consent of the publisher. In other jurisdictions, it may be legal to download e-books for personal use only. Please check your local laws before using this software.",
+        "translatedContent": "Este proyecto es solo para fines educativos. El proyecto no se hace responsable de ningún mal uso del software. Dependiendo de tu jurisdicción, puede ser ilegal usar este software para descargar libros electrónicos sin el consentimiento del editor. En otras jurisdicciones, puede ser legal descargar libros electrónicos solo para uso personal. Por favor, revisa las leyes locales antes de usar este software."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

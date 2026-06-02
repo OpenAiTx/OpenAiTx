@@ -223,6 +223,7 @@ sudo yum install xdg-utils
       "api": "https://xxx.com/m3u/iptv.m3u8", // <3.4.1 启用> 播放地址(推荐使用)
       "logo": "https://xxx.com/logo/xxx.png", // <3.4.1 启用> 台标地址
       "playback": "", // <3.4.1 启用> 预留回播参数
+      "headers": {}, // <3.4.7 启用> 请求头
       "group": "默认", // 分组
       "createdAt": 1768310498000, // <3.4.1 启用> 创建时间戳(ms)
       "updatedAt": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)
@@ -465,6 +466,6 @@ Aşağıda katkıda bulunabileceğiniz bazı yollar bulunmaktadır:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-02
 
 ---

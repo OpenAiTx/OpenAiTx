@@ -1,0 +1,848 @@
+[
+  {
+    "row": 1,
+    "rowsha": "uaLWT84/8JZfpUOIAYCodapZ1R1d++lDnrUGmSzo98A=",
+    "originContent": "# EbookDownloader",
+    "translatedContent": "# EbookDownloader"
+  },
+  {
+    "row": 2,
+    "rowsha": "DU9qol+oyxyogqu2Vv4r4Hg1K3KSNUKzp9kxgTTUiDo=",
+    "originContent": "A tool to download purchased e-books from different publishers.",
+    "translatedContent": "購入した電子書籍をさまざまな出版社からダウンロードするツール。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "V4Qy/FsgCtsWWUyvg90U/nTVRyM5rFNl2mKhVkUWnUI=",
+    "originContent": "![Preview](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)",
+    "translatedContent": "![Preview](https://raw.githubusercontent.com/RythenGlyth/EbookDownloader/master/preview.png)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+    "originContent": "## Table of Contents",
+    "translatedContent": "## 目次"
+  },
+  {
+    "row": 7,
+    "rowsha": "LCrkDLcOgEWV9afYWk3MiA0IlSF4i+JMdvF6y3c/fu8=",
+    "originContent": "- [Supported Publishers (websites)](#supported-publishers-websites)",
+    "translatedContent": "- [対応出版社（ウェブサイト）](#supported-publishers-websites)"
+  },
+  {
+    "row": 8,
+    "rowsha": "/2JPFFo/gBttL0SuBaIVHkkuK+FJCy7Fot8Esi0fAxo=",
+    "originContent": "- [Automatic Installation](#automatic-installation)",
+    "translatedContent": "- [自動インストール](#automatic-installation)"
+  },
+  {
+    "row": 9,
+    "rowsha": "liyoCyIElwBBqRtaIbydXYqh6Or2dNqL8PeUZ6ZLGis=",
+    "originContent": "- [Manual Installation](#manual-installation)",
+    "translatedContent": "- [手動インストール](#manual-installation)"
+  },
+  {
+    "row": 10,
+    "rowsha": "AU+rbmlmMp2tQbr+fHIkZuz64BsRfc38eWfM6s5FLxU=",
+    "originContent": "- [Running](#running)",
+    "translatedContent": "- [実行方法](#running)"
+  },
+  {
+    "row": 11,
+    "rowsha": "Ss7fxyxOucN6L4wuTS+56mhAKGr1NkR8P+tNIv1Oqa0=",
+    "originContent": "- [Saving Credentials](#saving-credentials-to-avoid-entering-them-every-time-optional)",
+    "translatedContent": "- [認証情報の保存](#saving-credentials-to-avoid-entering-them-every-time-optional)"
+  },
+  {
+    "row": 12,
+    "rowsha": "rrSlVQNTaYoouNeRlAygFZTdJ24lqLvIYLFxRPoFd90=",
+    "originContent": "- [Bildungslogin (Cornelsen / Westermann)](#bildungslogin)",
+    "translatedContent": "- [Bildungslogin（Cornelsen / Westermann）](#bildungslogin)"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "JNhYvvwLgrU/hlmXyBhwHGsQxKtx2iDg8vC5s92sHkQ=",
+    "originContent": "## Supported Publishers (websites)",
+    "translatedContent": "## 対応出版社（ウェブサイト）"
+  },
+  {
+    "row": 15,
+    "rowsha": "UjNAgd8JsqAcc91bmyyyw7YeRwVrbnnYXgp4Hg+5cxE=",
+    "originContent": "| Publisher | Website | Best Quality | Selectable Text | Hyperrefs | Notes |",
+    "translatedContent": "| 出版社 | ウェブサイト | 最高品質 | テキスト選択可能 | ハイパーリンク | 備考 |"
+  },
+  {
+    "row": 16,
+    "rowsha": "5YDQAI65d4pVgrBy8sGrQOdcyae00uus0xQS0Hu8D5s=",
+    "originContent": "| --- | --- | --- | --- | --- | --- |",
+    "translatedContent": "| --- | --- | --- | --- | --- | --- |"
+  },
+  {
+    "row": 17,
+    "rowsha": "kP0iT5gLtCS13yYClK3seD8tMuDZd6vpeEr7/wseDOc=",
+    "originContent": "| Cornelsen (\"New Method\") | cornelsen.de | Lossless PDF | &check; | &check; |  |",
+    "translatedContent": "| Cornelsen（「新方式」） | cornelsen.de | ロスレスPDF | &check; | &check; |  |"
+  },
+  {
+    "row": 18,
+    "rowsha": "qgCxzwWCxGuNaJN8r6HBYCjxkuheNLEzwHizZBUJ1m8=",
+    "originContent": "| Cornelsen (\"Old Method\") | cornelsen.de | Image (8617px x 11792px) composition | &check; | &cross; |  |",
+    "translatedContent": "| Cornelsen（「旧方式」） | cornelsen.de | 画像（8617px x 11792px）合成 | &check; | &cross; |  |"
+  },
+  {
+    "row": 19,
+    "rowsha": "c2GN5o9NfbI2eLDNHj8yUh6W41rQrVfaStOfM/hIcbk=",
+    "originContent": "| Cornelsen.CH | ebooks.cornelsen.ch | Lossless PDF | &check; | &cross; |  |",
+    "translatedContent": "| Cornelsen.CH | ebooks.cornelsen.ch | ロスレスPDF | &check; | &cross; |  |"
+  },
+  {
+    "row": 20,
+    "rowsha": "kJ4KuX7AV8fiv6fChEXyglyW4P/xftEIoT8nKENkAMU=",
+    "originContent": "| Cornelsen | scook.de | Image (?) composition | &cross; | &cross; | |",
+    "translatedContent": "| Cornelsen | scook.de | 画像（？）合成 | &cross; | &cross; | |"
+  },
+  {
+    "row": 21,
+    "rowsha": "Vk0GRkPUPgi/ibjWxaHQeOlB4Pbf/BBLrCDO3VXBTmk=",
+    "originContent": "| Allango Klett | allango.net | Lossless PDF | &check; | ? | [1] |",
+    "translatedContent": "| Allango Klett | allango.net | ロスレスPDF | &check; | ? | [1] |"
+  },
+  {
+    "row": 22,
+    "rowsha": "o4lJCEGWAAb9/e2H2Jy9QKM9O0Y2VMUoeG4hAjbg+rA=",
+    "originContent": "| Klett | klett.de | Image (3072px x 4096px) composition | &check; | &check; | |",
+    "translatedContent": "| Klett | klett.de | 画像（3072px x 4096px）合成 | &check; | &check; | |"
+  },
+  {
+    "row": 23,
+    "rowsha": "qRJqGstvsaINtU5XOVNWr8rfQzKJRoaXyI/ELeajqSE=",
+    "originContent": "| Westermann | westermann.de | Image (2244px x 3071px) composition | &check; | &cross; | |",
+    "translatedContent": "| Westermann | westermann.de | 画像（2244px x 3071px）合成 | &check; | &cross; | |"
+  },
+  {
+    "row": 24,
+    "rowsha": "tX0x6+32tJG4aBgMqSf8tOX8b8dAz8vMTGmsQK+u+5M=",
+    "originContent": "| C.C.BUCHNER | click-and-study.de | Image (1658px x 2211px) composition | &check; | &cross; | |",
+    "translatedContent": "| C.C.BUCHNER | click-and-study.de | 画像（1658px x 2211px）合成 | &check; | &cross; | |"
+  },
+  {
+    "row": 25,
+    "rowsha": "LUfoA0ARrGVMVBIHVeqKd2MKjxBgor1rXMUJeM85J+w=",
+    "originContent": "| C.C.BUCHNER | click-and-teach.de | Image (1658px x 2211px) composition | &check; | &cross; | |",
+    "translatedContent": "| C.C.BUCHNER | click-and-teach.de | 画像（1658px x 2211px）合成 | &check; | &cross; | |"
+  },
+  {
+    "row": 26,
+    "rowsha": "Mfxlcbz5c+mUwkah6ecmDaTX/Oggh4CMz3mN8nkQQlY=",
+    "originContent": "| Book2Look | book2look.com | Lossless PDF | &check; | ? | [2] |",
+    "translatedContent": "| Book2Look | book2look.com | ロスレスPDF | &check; | ? | [2] |"
+  },
+  {
+    "row": 27,
+    "rowsha": "Qfu+USrAkudRNeDCMy0uVBj6Wv6oGBw3KmH0BWL/JsE=",
+    "originContent": "| kiosquemag | kiosquemag.com | Image (?) composition | &cross; | &cross; | |",
+    "translatedContent": "| kiosquemag | kiosquemag.com | 画像（？）合成 | &cross; | &cross; | |"
+  },
+  {
+    "row": 28,
+    "rowsha": "piZDR8x8wQUetapc2XoAst62ROobdV4jfTTMK6OwbSg=",
+    "originContent": "| Helbling Media App | helbling.com | Lossless PDF | &check; | &cross; | |",
+    "translatedContent": "| Helbling Media App | helbling.com | ロスレスPDF | &check; | &cross; | |"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "GrfQxwW+GbUOU4MIKaABKZVlfUWwm7b5tRk0Hma4Y+c=",
+    "originContent": "[1]: Website allows to download files that are not owned",
+    "translatedContent": "[1]: ウェブサイトは所有していないファイルのダウンロードを許可しています"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "749+6fc9J2/yMFHNnphQwTbyBwGwvQLrWuNPoUR91q8=",
+    "originContent": "[2]: No Account needed, only the book id",
+    "translatedContent": "[2]: アカウント不要、書籍IDのみで利用可能"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "qTVKMJjF0lE7uvexQoVnIqD892p7QAQMAJqyf00ORrg=",
+    "originContent": "## Automatic Installation",
+    "translatedContent": "## 自動インストール"
+  },
+  {
+    "row": 35,
+    "rowsha": "hTohGvFf+zSFSANPI8b+11X58fDflVPTCOiM9clHq78=",
+    "originContent": "At first, clone or download the repository.",
+    "translatedContent": "まずリポジトリをクローンするかダウンロードしてください。"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "LVmzZmNzwtKcBxgIECO+zpXCV+uFHddpYJAwzdsDWTM=",
+    "originContent": "The tool uses image processing libraries and has to be executed with nodejs, therefore some dependencies are required.",
+    "translatedContent": "このツールは画像処理ライブラリを使用し、nodejsで実行するため、いくつかの依存関係が必要です。"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "TG+L8xkDQhv46SW3l8yliSLPDhGt8A/zeuRo44vvWn8=",
+    "originContent": "You can eiher use the installation scripts (`init.bat` for Windows, `init.sh` for Debian based distros) or use manual installation. The installation scripts will download all dependencies for you. To execute them, double click the `.bat` file on windows or execute the `.sh` file in the terminal on linux after adding execution permissions to the `.sh` file.",
+    "translatedContent": "インストールスクリプト（Windows用は`init.bat`、Debian系ディストリビューション用は`init.sh`）を使用するか、手動インストールを行うことができます。インストールスクリプトは必要な依存関係をすべてダウンロードします。実行するには、Windowsでは`.bat`ファイルをダブルクリックし、Linuxでは`.sh`ファイルに実行権限を付与してからターミナルで実行してください。"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "laS0KIYq72pvo1+ZXwKou2XNnPzMwETqxFf1uDd9iQs=",
+    "originContent": "## Manual Installation",
+    "translatedContent": "## 手動インストール"
+  },
+  {
+    "row": 42,
+    "rowsha": "quMyIQmhLRuOFR1SqSQ1D9HaiTkPnmkw/5TLSzxf0wA=",
+    "originContent": "At first, clone or download the repository. Then follow the os-specific instructions below:",
+    "translatedContent": "まず、リポジトリをクローンまたはダウンロードします。次に、以下のOS別の指示に従ってください："
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 45,
+    "rowsha": "uheaOVnNfzl4LDa+jvd4YwprCrqxUIj+xN0VRl+VsLg=",
+    "originContent": "1. Download `unifont-15.0.01.ttf` from http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf and put it in the project root",
+    "translatedContent": "1. http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf から `unifont-15.0.01.ttf` をダウンロードし、プロジェクトのルートに置きます"
+  },
+  {
+    "row": 46,
+    "rowsha": "UZLdXBwh8fJ6fPrBgDirOa6FM9rSh5suhsALfs3Htds=",
+    "originContent": "1. Install `ffmpeg` and put the ffmpeg executable (named as `ffmpeg`) in the project root or add it to your path environment variable, if you need help you can follow [this](https://phoenixnap.com/kb/ffmpeg-windows) tutorial",
+    "translatedContent": "1. `ffmpeg` をインストールし、ffmpeg実行ファイル（名前は `ffmpeg`）をプロジェクトのルートに置くか、パス環境変数に追加してください。ヘルプが必要なら [こちら](https://phoenixnap.com/kb/ffmpeg-windows) のチュートリアルを参照してください"
+  },
+  {
+    "row": 47,
+    "rowsha": "K+8wK8dbpD3mdvZ/p6XEFug44o94Nwb8QmDXcj7dirM=",
+    "originContent": "1. Install `mutool` and put the mutool executable (named as `mutool`) in the project root or add it to your path environment variable, you can find the most recent builds [here](https://mupdf.com/releases). Search for releases with `windows`. (only required for book2look and cornelsen.ch)",
+    "translatedContent": "1. `mutool` をインストールし、mutool実行ファイル（名前は `mutool`）をプロジェクトのルートに置くか、パス環境変数に追加してください。最新のビルドは [こちら](https://mupdf.com/releases) で見つけられます。リリースで `windows` を検索してください。（book2look と cornelsen.ch のみ必要）"
+  },
+  {
+    "row": 48,
+    "rowsha": "UkrsDdFrWgYrvMFRSZvLy7ZKdQDf4T7VpxnFq3vuniY=",
+    "originContent": "1. Install `nodejs` and `npm` if you haven't already, you can find help [here](https://phoenixnap.com/kb/install-node-js-npm-on-windows)",
+    "translatedContent": "1. `nodejs` と `npm` をまだインストールしていない場合は、[こちら](https://phoenixnap.com/kb/install-node-js-npm-on-windows) を参考にしてください"
+  },
+  {
+    "row": 49,
+    "rowsha": "wIRpnC0cAWAxl39J9UFNVq5WDcH9Ca5z8FavcK4IlEo=",
+    "originContent": "1. Run `npm install`",
+    "translatedContent": "1. `npm install` を実行します"
+  },
+  {
+    "row": 50,
+    "rowsha": "La2dAc3LTilXbu4c9lX7YcqS1g05n6FVogKNM7Gpoaw=",
+    "originContent": "1. Optionally install `image magick` and put the magick executable (named as `magick`) in the project root or add it to your path environment variable (required only for cornelsen \"old method\")",
+    "translatedContent": "1. オプションで `image magick` をインストールし、magick実行ファイル（名前は `magick`）をプロジェクトのルートに置くか、パス環境変数に追加してください（cornelsen の「旧方式」のみ必要）"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": "### Linux"
+  },
+  {
+    "row": 53,
+    "rowsha": "uZnGmYTPUWzSz3cJK3M9eSscLgB4fmir7qKDfr3ixZw=",
+    "originContent": "1. Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`",
+    "translatedContent": "1. `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"` を実行します"
+  },
+  {
+    "row": 54,
+    "rowsha": "ATrYMOpLxupdcYS25EvMBd2UtP3cWBI09BmBRw5Aq9w=",
+    "originContent": "1. Install packages `ffmpeg`, `nodejs`, `mutool`/`mupdf-tools`/`mupdf`  (required for book2look and cornelsen.ch) and optionally `imagemagick` (required only for cornelsen \"old method\") with your favorite package manager",
+    "translatedContent": "1. パッケージマネージャーを使い、`ffmpeg`、`nodejs`、`mutool`/`mupdf-tools`/`mupdf`（book2look と cornelsen.ch のみ必要）、およびオプションで `imagemagick`（cornelsen の「旧方式」のみ必要）をインストールします"
+  },
+  {
+    "row": 55,
+    "rowsha": "wIRpnC0cAWAxl39J9UFNVq5WDcH9Ca5z8FavcK4IlEo=",
+    "originContent": "1. Run `npm install`",
+    "translatedContent": "1. `npm install` を実行します"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "qPQMMyw6JQ5lPTiZcYRtOR8DbA1hoN+7sm/EkwuFfSY=",
+    "originContent": "### Linux/Darwin with Nix",
+    "translatedContent": "### Linux/Darwin with Nix"
+  },
+  {
+    "row": 58,
+    "rowsha": "thGrDDBEwLB7e+UhLLxozZY8ow3LFJepB43quSjV+Es=",
+    "originContent": "- If you have nix-direnv, run `direnv allow` to obtain all dependencies",
+    "translatedContent": "- nix-direnv を使っている場合は、すべての依存関係を取得するために `direnv allow` を実行します"
+  },
+  {
+    "row": 59,
+    "rowsha": "OIIpWuwurPEwqe4opbS1gj0PJUb2hJ856wLmL6ZgMQk=",
+    "originContent": "- Otherwise, run `nix-shell`.",
+    "translatedContent": "- それ以外の場合は、`nix-shell` を実行します"
+  },
+  {
+    "row": 60,
+    "rowsha": "uJqy8s0K3y2j1rJwgymwXjZlD1KuRMisfzbe1ev3YEk=",
+    "originContent": "- Run `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"`",
+    "translatedContent": "- `wget \"http://www.unifoundry.com/pub/unifont/unifont-15.0.01/font-builds/unifont-15.0.01.ttf\"` を実行します"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "R12PfnIRRtvCRrVK+NESghjBp1wFCZticvwj0mo4eZ0=",
+    "originContent": "## Running",
+    "translatedContent": "## 実行"
+  },
+  {
+    "row": 63,
+    "rowsha": "OVbn0k56p+Jz8t1SJvkO+3QwZL/nKktoCwhmCVig1B4=",
+    "originContent": "Complete the setup by running `npm install` in the project directory and",
+    "translatedContent": "プロジェクトディレクトリで `npm install` を実行してセットアップを完了し、"
+  },
+  {
+    "row": 64,
+    "rowsha": "+5+HoMeyIuvxW61UjFukI4ZgIeOH7pozvIXa77HPIBU=",
+    "originContent": "start the program by executing `npm start` from the project directory.",
+    "translatedContent": "プロジェクトディレクトリから `npm start` を実行してプログラムを起動します。"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "KwLrA3QvbAK33fx3bw6LcJ3tT7XFcSpjhnhnveeCuXQ=",
+    "originContent": "## Saving credentials to avoid entering them every time (optional)",
+    "translatedContent": "## 毎回入力する手間を省くための認証情報の保存（任意）"
+  },
+  {
+    "row": 67,
+    "rowsha": "TEc1r2oRXQvX+J9g592OLHj+y1ZxAQtWzMWHYbymPb0=",
+    "originContent": "You can save your credentials in a `config.json` file to avoid entering them every time you start the program. To do this, create a file named `config.json` in the project root and add the following content:",
+    "translatedContent": "プログラム起動時に毎回認証情報を入力しなくて済むように、`config.json` ファイルに認証情報を保存できます。プロジェクトのルートに `config.json` という名前のファイルを作成し、以下の内容を追加してください："
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 70,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 71,
+    "rowsha": "Bb9Xy9BcHX3NFVsA3VoqE7tpkHQcwOvHL5CAjIpZdzo=",
+    "originContent": "    \"[PUBLISHER]\": {",
+    "translatedContent": "    \"[PUBLISHER]\": {"
+  },
+  {
+    "row": 72,
+    "rowsha": "cOYvP3Sh0YY9Qf0RocOaClP0XpwQvzCAOzm5cDe3Hjw=",
+    "originContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", ",
+    "translatedContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", "
+  },
+  {
+    "row": 73,
+    "rowsha": "fF9syEigeeW1pIus+bHoccx7G1zA2uPdeTuHZWnGmfk=",
+    "originContent": "        \"passwd\": \"[YOUR_PASSWORD]\"",
+    "translatedContent": "        \"passwd\": \"[YOUR_PASSWORD]\""
+  },
+  {
+    "row": 74,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 75,
+    "rowsha": "Bb9Xy9BcHX3NFVsA3VoqE7tpkHQcwOvHL5CAjIpZdzo=",
+    "originContent": "    \"[PUBLISHER]\": {",
+    "translatedContent": "    \"[PUBLISHER]\": {"
+  },
+  {
+    "row": 76,
+    "rowsha": "cOYvP3Sh0YY9Qf0RocOaClP0XpwQvzCAOzm5cDe3Hjw=",
+    "originContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", ",
+    "translatedContent": "        \"email\": \"[YOUR_USERNAME_OR_EMAIL]\", "
+  },
+  {
+    "row": 77,
+    "rowsha": "fF9syEigeeW1pIus+bHoccx7G1zA2uPdeTuHZWnGmfk=",
+    "originContent": "        \"passwd\": \"[YOUR_PASSWORD]\"",
+    "translatedContent": "        \"passwd\": \"[YOUR_PASSWORD]\""
+  },
+  {
+    "row": 78,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 79,
+    "rowsha": "xkYGB3rR+F3IyGOTNYXFGRnfWB+Ln27bRaDwq/XF3Vc=",
+    "originContent": "    [...]",
+    "translatedContent": "    [...]"
+  },
+  {
+    "row": 80,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 81,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "otawWt7lpbDS2U3CmJqnS/XleyIbpFkBwC2e7Tqi63E=",
+    "originContent": "Replace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`",
+    "translatedContent": "Replace all the square brackets with your data. Publisher keys are: `cornelsen`, `klett`, `allango`, `scook`, `westermann`, `clicknstudy`, `clicknteach`, `kiosquemag`, `cornelsench`, `book2look`, `helbling`"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "pzDA82iQZr6+CGR4IN9NkARp45GyQVbbq2GqVb2X4QM=",
+    "originContent": "## Bildungslogin",
+    "translatedContent": "## Bildungslogin"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "qHvAkMqTsPBAdkXpEE+F6AfQPI4+veno4N5F4qb0lt8=",
+    "originContent": "Cornelsen, Click-n-Study, Klett, and Westermann have token-login support, allowing login using Bildungslogin accounts.",
+    "translatedContent": "Cornelsen、Click-n-Study、Klett、およびWestermannはトークンログインをサポートしており、Bildungsloginアカウントを使用してログインできます。"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "05eCWE1PsLFMdqCfE8TgXEpFa1YnfNXGKFH9lLGo1ac=",
+    "originContent": "### Cornelsen",
+    "translatedContent": "### Cornelsen"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+    "originContent": "1. Open Bildungslogin and log in",
+    "translatedContent": "1. Bildungsloginを開いてログインする  "
+  },
+  {
+    "row": 92,
+    "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+    "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+    "translatedContent": "1. ストレージ開発者ツールに入る（SHIFT+F9、または代わりにCTRL+SHIFT+Iを押してStorageタブをクリック）  "
+  },
+  {
+    "row": 93,
+    "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+    "originContent": "1. Open the book",
+    "translatedContent": "1. 本を開く  "
+  },
+  {
+    "row": 94,
+    "rowsha": "VrQBHG3lfEwhz8J1ammLdboFoDpV/EwExQLfM4n5nSA=",
+    "originContent": "1. Select Local storage in the devtools (possibly also need to select the website in it)",
+    "translatedContent": "1. 開発者ツールでLocal storageを選択する（場合によってはウェブサイトも選択する必要がある）  "
+  },
+  {
+    "row": 95,
+    "rowsha": "Zw0N9kWRkHKnAqz746WFHPNGCOiCq1lvPFKzoX0AX/0=",
+    "originContent": "1. Scroll down in the table that opens until you find `id_token`. It should be a long alphanumeric string.",
+    "translatedContent": "1. 開いたテーブルを下にスクロールして`id_token`を見つける。長い英数字の文字列であるはず。  "
+  },
+  {
+    "row": 96,
+    "rowsha": "6S0Z1gBQId0KJ5gOlSjclsfnlnWsMQHf5lsc2htUzYg=",
+    "originContent": "1. Copy it. (Double click, then ctrl+c)",
+    "translatedContent": "1. それをコピーする。（ダブルクリックしてからCtrl+C）  "
+  },
+  {
+    "row": 97,
+    "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+    "originContent": "1. Use it as the password, and use `token` as the username.",
+    "translatedContent": "1. パスワードとして使用し、ユーザー名は`token`を使用する。  "
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "G8PWIBNdPGLeyr5qvBpBFEPQFVRqV5gA1mi0PZeEMUU=",
+    "originContent": "### Click-and-Study",
+    "translatedContent": "### Click-and-Study"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+    "originContent": "1. Open Bildungslogin and log in",
+    "translatedContent": "1. Bildungsloginを開いてログインする  "
+  },
+  {
+    "row": 102,
+    "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+    "originContent": "1. Open the book",
+    "translatedContent": "1. 本を開く  "
+  },
+  {
+    "row": 103,
+    "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+    "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+    "translatedContent": "1. ストレージ開発者ツールに入る（SHIFT+F9、または代わりにCTRL+SHIFT+Iを押してStorageタブをクリック）  "
+  },
+  {
+    "row": 104,
+    "rowsha": "zzXHjySeTezHxzzomSiqZOQ2TfrLlzOj1HKHTt26FM8=",
+    "originContent": "1. Select Cookies in the devtools (possibly also need to select the website in it)",
+    "translatedContent": "1. 開発者ツールでCookiesを選択する（場合によってはウェブサイトも選択する必要がある）  "
+  },
+  {
+    "row": 105,
+    "rowsha": "fVKD9iG712Z6ZP+ki2+EMzksbL4yedST7aPR+IfvfYA=",
+    "originContent": "1. Scroll down in the table that opens until you find `CASSID`. It should have an alphanumeric string afterwards.",
+    "translatedContent": "1. 開いたテーブルを下にスクロールして`CASSID`を見つける。その後に英数字の文字列が続くはず。  "
+  },
+  {
+    "row": 106,
+    "rowsha": "BRIpPIEhcZEXEBmZmI0VA3Xn7Jjwgyp2QFfmzn62/q8=",
+    "originContent": "1. Copy that (the random looking characters). (Double click, then ctrl+c)",
+    "translatedContent": "1. それをコピーする（ランダムに見える文字列）。（ダブルクリックしてからCtrl+C）  "
+  },
+  {
+    "row": 107,
+    "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+    "originContent": "1. Use it as the password, and use `token` as the username.",
+    "translatedContent": "1. パスワードとして使用し、ユーザー名は`token`を使用する。  "
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "zrG/JGmGpN0rKew4rYTSbryk0gLBpr+5MyqB66eklWM=",
+    "originContent": "### Klett",
+    "translatedContent": "### Klett"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+    "originContent": "1. Open Bildungslogin and log in",
+    "translatedContent": "1. Bildungsloginを開いてログインする  "
+  },
+  {
+    "row": 112,
+    "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+    "originContent": "1. Open the book",
+    "translatedContent": "1. 本を開く  "
+  },
+  {
+    "row": 113,
+    "rowsha": "CuSSrPvetADPae4D75CCo8YI09xHhOpo2uD/9jKP7ro=",
+    "originContent": "1. Go into Storage devtools (SHIFT+F9, or alternatively press CTRL+SHIFT+I and click on Storage tab).",
+    "translatedContent": "1. ストレージ開発者ツールに入る（SHIFT+F9、または代わりにCTRL+SHIFT+Iを押してStorageタブをクリック）  "
+  },
+  {
+    "row": 114,
+    "rowsha": "zzXHjySeTezHxzzomSiqZOQ2TfrLlzOj1HKHTt26FM8=",
+    "originContent": "1. Select Cookies in the devtools (possibly also need to select the website in it)",
+    "translatedContent": "1. 開発者ツールでCookiesを選択する（場合によってはウェブサイトも選択する必要がある）  "
+  },
+  {
+    "row": 115,
+    "rowsha": "LrtbRMWJAdgOyFCFRqNGSirOxleVmyH5gUnQeqDHWRU=",
+    "originContent": "1. Scroll down in the table that opens until you find `SESSION`. It should have an alphanumeric string afterwards.",
+    "translatedContent": "1. 開いたテーブルを下にスクロールして`SESSION`を見つける。その後に英数字の文字列が続くはず。  "
+  },
+  {
+    "row": 116,
+    "rowsha": "BRIpPIEhcZEXEBmZmI0VA3Xn7Jjwgyp2QFfmzn62/q8=",
+    "originContent": "1. Copy that (the random looking characters). (Double click, then ctrl+c)",
+    "translatedContent": "1. それをコピーする（ランダムに見える文字列）。（ダブルクリックしてからCtrl+C）  "
+  },
+  {
+    "row": 117,
+    "rowsha": "qZvlmKoIXv9DT2CZ5mAygRvncsxdftME8+F6vQ868QE=",
+    "originContent": "1. Use it as the password, and use **the URL of the book viewer you are on** as the username.",
+    "translatedContent": "1. パスワードとして使用し、**現在アクセスしている書籍ビューアのURL**をユーザー名として使用する。  "
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "QZWEsihMOvguI3xMNlcgUvyXgJq43Mo+AqnFJ7FjO0I=",
+    "originContent": "### Westermann",
+    "translatedContent": "### Westermann"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "mMyZV/BV7DMB6umg3ZDU671dqAM9I+5wSev+AU07za0=",
+    "originContent": "1. Open Bildungslogin and log in",
+    "translatedContent": "1. Bildungsloginを開いてログインする  "
+  },
+  {
+    "row": 122,
+    "rowsha": "ppx9leox3gFpWiZbOE/rdbpBQf3SzL/x0F9JtND4tFU=",
+    "originContent": "1. Open the book",
+    "translatedContent": "1. 本を開く  "
+  },
+  {
+    "row": 123,
+    "rowsha": "eg5zGGOXgZXBhXAJLcsmr/0mes5W5X9YpSOmh1cx9K8=",
+    "originContent": "1. Go into Networking devtools (CTRL+SHIFT+E, or alternatively press CTRL+SHIFT+I and click on Network tab).",
+    "translatedContent": "1. ネットワーキング開発ツールを開く（CTRL+SHIFT+E、またはCTRL+SHIFT+Iを押してNetworkタブをクリック）  "
+  },
+  {
+    "row": 124,
+    "rowsha": "2tLNwldGOG6Zj8XbOl2p/yCF+ZcDU/VPhsaGQPzgn7s=",
+    "originContent": "1. Tick `Persist logs` (possibly in Gear menu, likely at top right somewhere)",
+    "translatedContent": "1. `Persist logs` にチェックを入れる（ギアメニューにある可能性が高く、右上あたり）  "
+  },
+  {
+    "row": 125,
+    "rowsha": "rQQc0g3yelFZ7dUwVpOv8KeWBK9OgGhwck0/NGtinPA=",
+    "originContent": "1. Reload the page",
+    "translatedContent": "1. ページをリロードする  "
+  },
+  {
+    "row": 126,
+    "rowsha": "YVfNdfFUb9lgt2kRsfAPJA9VfRXhezHhh1L3vb2vekc=",
+    "originContent": "1. Enter `/api/user` into the \"Filter URLs\" field of devtools",
+    "translatedContent": "1. devtoolsの「Filter URLs」欄に `/api/user` と入力する  "
+  },
+  {
+    "row": 127,
+    "rowsha": "XlNg/3hJsihAcQwPsG8tPxB9aBnI6ofBHEVN64wJkdU=",
+    "originContent": "1. Click the first entry that does *not* say OPTIONS",
+    "translatedContent": "1. OPTIONS と表示されていない最初のエントリをクリックする  "
+  },
+  {
+    "row": 128,
+    "rowsha": "dBNqx9d73Ua6nVdkZE3VXnfvQuGnOCOPa3Noq4f2tjY=",
+    "originContent": "1. A little pane to the side should open. Click on its Headers tab",
+    "translatedContent": "1. 横に小さなペインが開くはずです。そのHeadersタブをクリックする  "
+  },
+  {
+    "row": 129,
+    "rowsha": "xkx6AU+HBJ3sXbMguPML7clqbA7wMr1ZW8+Bxna3e2o=",
+    "originContent": "1. Enter `auth` into its \"Filter headers\" field (if available)",
+    "translatedContent": "1. 「Filter headers」欄に `auth` と入力する（あれば）  "
+  },
+  {
+    "row": 130,
+    "rowsha": "ECaA3Z+bNo0q0+PvCYok8+7cNuC6ekbzKaA+akftWzI=",
+    "originContent": "1. Scroll down until you find a long string of letters and numbers",
+    "translatedContent": "1. 長い英数字の文字列が見つかるまでスクロールする  "
+  },
+  {
+    "row": 131,
+    "rowsha": "M79qJw67/OadM1lRaSrUiDb8KJffabeX5WqIvX4fX70=",
+    "originContent": "1. Copy it and paste it into a text document",
+    "translatedContent": "1. それをコピーしてテキストドキュメントに貼り付ける  "
+  },
+  {
+    "row": 132,
+    "rowsha": "TZtpqE5VjarzFOB0eoLaR0NVTKBpg2CoPrO3NhTk/Ck=",
+    "originContent": "1. Copy it from there again, but make sure NOT to select the \"Authorization: Bearer \" part, only the long string at the end.",
+    "translatedContent": "1. そこから再度コピーするが、「Authorization: Bearer 」の部分は選択せず、末尾の長い文字列のみを選択すること  "
+  },
+  {
+    "row": 133,
+    "rowsha": "dEWT3jbi0rGU7Hy23C5ftLJyXx37aNh5bBAgmfIoECg=",
+    "originContent": "1. Use it as the password, and use `token` as the username.",
+    "translatedContent": "1. パスワードとして使用し、ユーザー名は `token` とする  "
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 貢献について  "
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "xUmx9dVQs0SmuKVi0GfZZArQTIRzJ1DjscH7PSoO92k=",
+    "originContent": "Feel free to create issues and pull requests to contribute to the project.",
+    "translatedContent": "プロジェクトへの貢献として、Issueやプルリクエストの作成を自由に行ってください。  "
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+    "originContent": "## Disclaimer",
+    "translatedContent": "## 免責事項  "
+  },
+  {
+    "row": 140,
+    "rowsha": "VAYyNwPlajvfHlEuwkdFYx0y1jA+VDHeFOfKWSI83nU=",
+    "originContent": "This project is for educational purposes only. The project is not responsible for any misuse of the software. Depending on your jurisdiction, it may be illegal to use this software to download e-books without the consent of the publisher. In other jurisdictions, it may be legal to download e-books for personal use only. Please check your local laws before using this software.",
+    "translatedContent": "このプロジェクトは教育目的のみです。本ソフトウェアの誤用に対してプロジェクトは一切の責任を負いません。あなたの管轄区域によっては、出版社の同意なしにこのソフトウェアを使用して電子書籍をダウンロードすることは違法となる場合があります。別の管轄区域では、個人利用のみのために電子書籍をダウンロードすることが合法である場合もあります。ソフトウェアを使用する前に必ず地元の法律を確認してください。"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
