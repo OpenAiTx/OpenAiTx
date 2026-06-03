@@ -1,503 +1,708 @@
 [
   {
     "Id": 1,
-    "Content": "[![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)\n[![Haxelib](https://img.shields.io/badge/haxelib-1.9.11-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)\n[![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Join the chat at https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)\n\n<br/><br/>\n<p align=\"center\"><img width=\"65%\" src=\"https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg\"/></p>\n<br/>\n\nPony is a set of tools for developing, preparing, building, testing and publishing projects.\nIt can be used for creating Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash and Cocos Creator applications.\n\nIt works on servers or client-side.\n\nThe library has an XML-based UI building system and components, a powerful event system, and many utility functions.\n\nInstallation\n============\nStable version\n\n    haxelib install pony\n\nUnstable version\n\n    haxelib git pony https://github.com/AxGord/Pony\n\nInstall Pony Tools\n\n    haxelib run pony\n\nSilent install example\n\n    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath\n\n`+` - enable option\n\n`-` - disable option\n\n`code` - Install Visual Studio Code recommended plugins",
-    "ContentSha": "Try+VgQ5PYyykQWx0ybs/g7jx8VMiJ0tTn/ftzl8Lhg=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)\n[![Haxelib](https://img.shields.io/badge/haxelib-1.9.12-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)\n[![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Join the chat at https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)\n\n<br/><br/>\n<p align=\"center\"><img width=\"65%\" src=\"https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg\"/></p>",
+    "ContentSha": "jSEjCHfPqNPK53PSheVNPl9TBYFYYTcC6PlnR0XZYg0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)\n[![Haxelib](https://img.shields.io/badge/haxelib-1.9.11-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)\n[![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Join the chat at https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)\n\n<br/><br/>\n<p align=\"center\"><img width=\"65%\" src=\"https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg\"/></p>\n<br/>\n\nPony es un conjunto de herramientas para desarrollar, preparar, construir, probar y publicar proyectos.\nPuede usarse para crear aplicaciones Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash y Cocos Creator.\n\nFunciona en servidores o del lado del cliente.\n\nLa biblioteca tiene un sistema de construcción de UI basado en XML y componentes, un potente sistema de eventos y muchas funciones utilitarias.\n\nInstalación\n============\nVersión estable\n\n    haxelib install pony\n\nVersión inestable\n\n    haxelib git pony https://github.com/AxGord/Pony\n\nInstalar Pony Tools\n\n    haxelib run pony\n\nEjemplo de instalación silenciosa\n\n    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath\n\n`+` - habilitar opción\n\n`-` - deshabilitar opción\n\n`code` - Instalar los plugins recomendados de Visual Studio Code",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Idioma</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)\n[![Haxelib](https://img.shields.io/badge/haxelib-1.9.12-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)\n[![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Únete al chat en https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Donar PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)\n\n<br/><br/>\n<p align=\"center\"><img width=\"65%\" src=\"https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg\"/></p>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Idioma</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "3pfFciRtnQN1Vx1OLxcBemZ7MsUXTrbAGIHgAapcDSQ=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "i7BR95dTntnMLSHZHYhZSgDsQi5PiFvcqx93AUS9W0Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "UDeqS8xkxC5/ZpxNrfhrA/iKEEHWvSxA2YREmGRKWCE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "3nIQe2esLsgkcxwSjTw3PJkca09wt9ReE6icQMsf6iU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "1zphjxpjdCIJv3QTS7EugvNAXuT5ksB/oCNDVx/cRbQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "QuimSUBBdxO9RykxKrg26WfLhrbMBcU6ljExLX4a3bw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "ufig788eN5D/ziGw0TymBGKINQ30vUK8jwLH7s02KLI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "ANbAcQ0Sn374xzpM+FIIruOOoJiH7ykJEXWjTPt/zZo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "0rvp/vy5hFx4O6y5jil7PdI75cP3ilwVmiyI//fb4gk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "kfZS32Nlh5AclhP4Z2Nn3ZQbLliRLamcfStfR7wn5Oo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "N5qoROmb4BYfhA/grmYSiXRTM1zNUFYsC5/9rmWIYRY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "yoYlvHZspOvFcgomras3K7Bc3/DEMZaD5n3Ljhdu1dg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "+ckDsJxX5FQKVZLIwcQhyyW/uA8DUcV5TY+B8L8SzxA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "u8lpsgO6zZdmqPkkqbd5oFmFgWPVChS+udWy4c/oQ6A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "pgHEv7ljAXiIR9tdvT8PrZROABpa27d/uWQcORBcwQ8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "YxZ1+SGaGozUxwote8eo5tMUhIDdpuY6kTI4N7t65EA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "ncY89JFw+y9pp97nunZFRl14Y6AHrwahpdsDwG12u04=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "AAoHJA6vokSeI0/C8i71ItAD5IjVVojsAWYx+1ykItw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Dps4uXgOYjOHMEfberSIaXyM2h1IIFWfJNzMZOnvOKg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "3U/yA/oAUSe7UEGJxvEE75dhpFzk+KunlFJVMQsjUVY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "27tjeTOpADwu6mIcmdNeTvpcn6bl7jzQtbr2CVv6DnA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "mSrSeN0frOYfwiSiTMSprLSr4+ao8bXNH8OBhoaQjZ8=",
         "originContent": "[![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)",
         "translatedContent": "[![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)"
       },
       {
-        "row": 2,
-        "rowsha": "QyRL9nejUPvnDugITURLCQVCklcItG3a7ZzS3O6tyHQ=",
-        "originContent": "[![Haxelib](https://img.shields.io/badge/haxelib-1.9.11-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)",
-        "translatedContent": "[![Haxelib](https://img.shields.io/badge/haxelib-1.9.11-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)"
+        "row": 34,
+        "rowsha": "YsAhmqV3MIG8M6piUa+xuN/iVlQaRSV0zQXZj9YDww8=",
+        "originContent": "[![Haxelib](https://img.shields.io/badge/haxelib-1.9.12-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)",
+        "translatedContent": "[![Haxelib](https://img.shields.io/badge/haxelib-1.9.12-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)"
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "xx6JnKjqlBHs7UqL+Vh4iqagZJk+GTP0O0JoOYmiPIQ=",
         "originContent": "[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)",
         "translatedContent": "[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)"
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "00PMTnlFIat5jzhzC7rclevn+pFF9j175Idzwghl5Y4=",
         "originContent": "[![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Join the chat at https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
-        "translatedContent": "[![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Join the chat at https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+        "translatedContent": "[![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Únete al chat en https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "UDw0Ls4iHCROtpSoIgins4ZCYhb/7Xvngk1m3Yi8r+o=",
         "originContent": "[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)",
-        "translatedContent": "[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)"
+        "translatedContent": "[![Donar PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
         "originContent": "<br/><br/>",
         "translatedContent": "<br/><br/>"
       },
       {
-        "row": 8,
+        "row": 40,
         "rowsha": "xsQZDfLk2kr2nTImEG/M5mZDj5N3r1DfxD0cHgtBUW4=",
         "originContent": "<p align=\"center\"><img width=\"65%\" src=\"https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg\"/></p>",
         "translatedContent": "<p align=\"center\"><img width=\"65%\" src=\"https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg\"/></p>"
-      },
-      {
-        "row": 9,
-        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
-        "originContent": "<br/>",
-        "translatedContent": "<br/>"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "R+nzreGRjyUb2CvKsD/VLTEXDY2YcmhCUHLkxF5HhEM=",
-        "originContent": "Pony is a set of tools for developing, preparing, building, testing and publishing projects.",
-        "translatedContent": "Pony es un conjunto de herramientas para desarrollar, preparar, construir, probar y publicar proyectos."
-      },
-      {
-        "row": 12,
-        "rowsha": "oct2kYBrLY7AoSNe+rAX455KYtkZnxa5ueV06mYgqpU=",
-        "originContent": "It can be used for creating Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash and Cocos Creator applications.",
-        "translatedContent": "Puede usarse para crear aplicaciones Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash y Cocos Creator."
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "2drVKyVLm6dXMcCJlVumXUMqk5+ZRHnC7fbu7iH+MaY=",
-        "originContent": "It works on servers or client-side.",
-        "translatedContent": "Funciona en servidores o del lado del cliente."
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "ESCAEraMrVHHBZTNUh4iI0mzOhovuUqE7BKxDB/szCs=",
-        "originContent": "The library has an XML-based UI building system and components, a powerful event system, and many utility functions.",
-        "translatedContent": "La biblioteca tiene un sistema de construcción de UI basado en XML y componentes, un potente sistema de eventos y muchas funciones utilitarias."
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "w/xUqlOQ3CwzPUu1lqM51VKteHM3wf2qw5V8paf6z1A=",
-        "originContent": "Installation",
-        "translatedContent": "Instalación"
-      },
-      {
-        "row": 19,
-        "rowsha": "/jnlnIALCrDYQma9R9tKSujxnQDUm8eLlTh5ylVKaPA=",
-        "originContent": "============",
-        "translatedContent": "============"
-      },
-      {
-        "row": 20,
-        "rowsha": "8OMCWUNCZNwjdjaTo6lz1/Mp+PbywTa/Zt3cYdN3Klk=",
-        "originContent": "Stable version",
-        "translatedContent": "Versión estable"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "wrPcjCREqKHKh3QeVfHTA6BsVcQqr5gT6vGtx1oL1tc=",
-        "originContent": "    haxelib install pony",
-        "translatedContent": "    haxelib install pony"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "RYmHNTtucjyeRst7a3vvFWXpuyNNF/yocpXriN8xpbs=",
-        "originContent": "Unstable version",
-        "translatedContent": "Versión inestable"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "r3EqdcRKlq9CPQIbhRMXzRvGciHdt/qnGv3vpZ3td4o=",
-        "originContent": "    haxelib git pony https://github.com/AxGord/Pony",
-        "translatedContent": "    haxelib git pony https://github.com/AxGord/Pony"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "XvJE+cOhlTXWMztYipgPMNR+dXySsOHyKu7tZlWcsZQ=",
-        "originContent": "Install Pony Tools",
-        "translatedContent": "Instalar Pony Tools"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "gFqdjOCm3AGeG3Np9FC2YlpsKwburDQifHqfnhmKHVM=",
-        "originContent": "    haxelib run pony",
-        "translatedContent": "    haxelib run pony"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "qDl8TqL8MRrQ2kI/SmPm2VbHd3fwVY8um/2b5pyRaWo=",
-        "originContent": "Silent install example",
-        "translatedContent": "Ejemplo de instalación silenciosa"
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "F0cHvMDZlSdv1+33vpWIacIsQrRnR2GbniEoEGZVQFA=",
-        "originContent": "    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath",
-        "translatedContent": "    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath"
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "04yAAS3Bg7D1zu13Yh72oafE/QFwmCOPZBmBYqJiYBA=",
-        "originContent": "`+` - enable option",
-        "translatedContent": "`+` - habilitar opción"
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "R/Z+7iXPgyh2MwzECoJcRXjIlASJW71cB+GvS7uKFLA=",
-        "originContent": "`-` - disable option",
-        "translatedContent": "`-` - deshabilitar opción"
-      },
-      {
-        "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "FtDquvmF4JLgX7Rftt5xk9SI/jM926lvGBNOn5SK1FQ=",
-        "originContent": "`code` - Install Visual Studio Code recommended plugins",
-        "translatedContent": "`code` - Instalar los plugins recomendados de Visual Studio Code"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "\n`code-insiders` - Install Visual Studio Code Insiders recommended plugins\n\n`npm` - Install NPM (Node Package Manager) modules\n\n`userpath` - Set user paths\n\n`nodepath` - Set user path to node_modules, only for Windows\n\n`ponypath` - Set user path to pony.exe, only for Windows\n\nCI install example\n\n    haxelib run pony install -code -code-insiders +npm +userpath\n\n[Installation Video Guide](https://www.youtube.com/watch?v=ufYIEmQcv4o)\n\n[Haxe + Heaps + Pony - Making cross-platform application video](https://youtu.be/gAY77ESYOUY)\n\nManual\n------\n* [Home](//github.com/AxGord/Pony/wiki)\n\n* [Pony Tools](//github.com/AxGord/Pony/wiki/Pony-Tools)\n    * [Commands](//github.com/AxGord/Pony/wiki/Commands)\n    * [Server section](//github.com/AxGord/Pony/wiki/Server-section)\n    * [Config section](//github.com/AxGord/Pony/wiki/Config-section)\n    * [Prepare sections](//github.com/AxGord/Pony/wiki/Prepare-sections)\n    * [Build sections](//github.com/AxGord/Pony/wiki/Build-sections)\n    * [Post build sections](//github.com/AxGord/Pony/wiki/Post-build-sections)\n\n* [Net](//github.com/AxGord/Pony/wiki/Net)\n    * [RPC](//github.com/AxGord/Pony/wiki/RPC)\n\n* Platforms\n    * [CS](//github.com/AxGord/Pony/wiki/CS)\n    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)\n\n* [Reference book](http://axgord.github.io/Pony/)\n",
-    "ContentSha": "ROJosf0CtmIBldzmUcWF1zvZgcBKz2ZX7g+0YZwmkvU=",
+    "Content": "<br/>\n\nPony is a set of tools for developing, preparing, building, testing and publishing projects.\nIt can be used for creating Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash and Cocos Creator applications.\n\nIt works on servers or client-side.\n\nThe library has an XML-based UI building system and components, a powerful event system, and many utility functions.\n\nInstallation\n============\nStable version\n\n    haxelib install pony\n\nUnstable version\n\n    haxelib git pony https://github.com/AxGord/Pony\n\nInstall Pony Tools\n\n    haxelib run pony\n\nSilent install example\n\n    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath\n\n`+` - enable option\n\n`-` - disable option\n\n`code` - Install Visual Studio Code recommended plugins\n\n`code-insiders` - Install Visual Studio Code Insiders recommended plugins\n\n`npm` - Install NPM (Node Package Manager) modules\n\n`userpath` - Set user paths\n\n`nodepath` - Set user path to node_modules, only for Windows",
+    "ContentSha": "J7khnFQU1vN63XO3Qa66XSfNoyqwLEgnaN7Vq5ytoUw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "`code-insiders` - Instalar los plugins recomendados de Visual Studio Code Insiders\n\n`npm` - Instalar módulos NPM (Node Package Manager)\n\n`userpath` - Configurar rutas de usuario\n\n`nodepath` - Configurar ruta de usuario a node_modules, solo para Windows\n\n`ponypath` - Configurar ruta de usuario a pony.exe, solo para Windows\n\nEjemplo de instalación en CI\n\n    haxelib run pony install -code -code-insiders +npm +userpath\n\n[Guía de instalación en video](https://www.youtube.com/watch?v=ufYIEmQcv4o)\n\n[Haxe + Heaps + Pony - Creando aplicación multiplataforma en video](https://youtu.be/gAY77ESYOUY)\n\nManual\n------\n* [Inicio](//github.com/AxGord/Pony/wiki)\n\n* [Herramientas Pony](//github.com/AxGord/Pony/wiki/Pony-Tools)\n    * [Comandos](//github.com/AxGord/Pony/wiki/Commands)\n    * [Sección Servidor](//github.com/AxGord/Pony/wiki/Server-section)\n    * [Sección Configuración](//github.com/AxGord/Pony/wiki/Config-section)\n    * [Secciones de Preparación](//github.com/AxGord/Pony/wiki/Prepare-sections)\n    * [Secciones de Construcción](//github.com/AxGord/Pony/wiki/Build-sections)\n    * [Secciones Post construcción](//github.com/AxGord/Pony/wiki/Post-build-sections)\n\n* [Red](//github.com/AxGord/Pony/wiki/Net)\n    * [RPC](//github.com/AxGord/Pony/wiki/RPC)\n\n* Plataformas\n    * [CS](//github.com/AxGord/Pony/wiki/CS)\n    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)\n\n* [Libro de referencia](http://axgord.github.io/Pony/)\n\n",
+    "Translation": "<br/>\n\nPony es un conjunto de herramientas para desarrollar, preparar, compilar, probar y publicar proyectos.\nSe puede usar para crear aplicaciones en Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash y Cocos Creator.\n\nFunciona en servidores o del lado del cliente.\n\nLa biblioteca cuenta con un sistema de construcción de interfaces de usuario basado en XML y componentes, un potente sistema de eventos y muchas funciones utilitarias.\n\nInstalación\n===========\nVersión estable\n\n    haxelib install pony\n\nVersión inestable\n\n    haxelib git pony https://github.com/AxGord/Pony\n\nInstalar Pony Tools\n\n    haxelib run pony\n\nEjemplo de instalación silenciosa\n\n    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath\n\n`+` - habilitar opción\n\n`-` - deshabilitar opción\n\n`code` - Instalar plugins recomendados para Visual Studio Code\n\n`code-insiders` - Instalar plugins recomendados para Visual Studio Code Insiders\n\n`npm` - Instalar módulos NPM (Node Package Manager)\n\n`userpath` - Establecer rutas de usuario\n\n`nodepath` - Establecer ruta de usuario a node_modules, solo para Windows",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "R+nzreGRjyUb2CvKsD/VLTEXDY2YcmhCUHLkxF5HhEM=",
+        "originContent": "Pony is a set of tools for developing, preparing, building, testing and publishing projects.",
+        "translatedContent": "Pony es un conjunto de herramientas para desarrollar, preparar, compilar, probar y publicar proyectos."
+      },
+      {
+        "row": 4,
+        "rowsha": "oct2kYBrLY7AoSNe+rAX455KYtkZnxa5ueV06mYgqpU=",
+        "originContent": "It can be used for creating Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash and Cocos Creator applications.",
+        "translatedContent": "Se puede usar para crear aplicaciones en Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash y Cocos Creator."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "2drVKyVLm6dXMcCJlVumXUMqk5+ZRHnC7fbu7iH+MaY=",
+        "originContent": "It works on servers or client-side.",
+        "translatedContent": "Funciona en servidores o del lado del cliente."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ESCAEraMrVHHBZTNUh4iI0mzOhovuUqE7BKxDB/szCs=",
+        "originContent": "The library has an XML-based UI building system and components, a powerful event system, and many utility functions.",
+        "translatedContent": "La biblioteca cuenta con un sistema de construcción de interfaces de usuario basado en XML y componentes, un potente sistema de eventos y muchas funciones utilitarias."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "w/xUqlOQ3CwzPUu1lqM51VKteHM3wf2qw5V8paf6z1A=",
+        "originContent": "Installation",
+        "translatedContent": "Instalación"
+      },
+      {
+        "row": 11,
+        "rowsha": "/jnlnIALCrDYQma9R9tKSujxnQDUm8eLlTh5ylVKaPA=",
+        "originContent": "============",
+        "translatedContent": "==========="
+      },
+      {
+        "row": 12,
+        "rowsha": "8OMCWUNCZNwjdjaTo6lz1/Mp+PbywTa/Zt3cYdN3Klk=",
+        "originContent": "Stable version",
+        "translatedContent": "Versión estable"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wrPcjCREqKHKh3QeVfHTA6BsVcQqr5gT6vGtx1oL1tc=",
+        "originContent": "    haxelib install pony",
+        "translatedContent": "    haxelib install pony"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "RYmHNTtucjyeRst7a3vvFWXpuyNNF/yocpXriN8xpbs=",
+        "originContent": "Unstable version",
+        "translatedContent": "Versión inestable"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "r3EqdcRKlq9CPQIbhRMXzRvGciHdt/qnGv3vpZ3td4o=",
+        "originContent": "    haxelib git pony https://github.com/AxGord/Pony",
+        "translatedContent": "    haxelib git pony https://github.com/AxGord/Pony"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "XvJE+cOhlTXWMztYipgPMNR+dXySsOHyKu7tZlWcsZQ=",
+        "originContent": "Install Pony Tools",
+        "translatedContent": "Instalar Pony Tools"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gFqdjOCm3AGeG3Np9FC2YlpsKwburDQifHqfnhmKHVM=",
+        "originContent": "    haxelib run pony",
+        "translatedContent": "    haxelib run pony"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "qDl8TqL8MRrQ2kI/SmPm2VbHd3fwVY8um/2b5pyRaWo=",
+        "originContent": "Silent install example",
+        "translatedContent": "Ejemplo de instalación silenciosa"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "F0cHvMDZlSdv1+33vpWIacIsQrRnR2GbniEoEGZVQFA=",
+        "originContent": "    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath",
+        "translatedContent": "    haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "04yAAS3Bg7D1zu13Yh72oafE/QFwmCOPZBmBYqJiYBA=",
+        "originContent": "`+` - enable option",
+        "translatedContent": "`+` - habilitar opción"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "R/Z+7iXPgyh2MwzECoJcRXjIlASJW71cB+GvS7uKFLA=",
+        "originContent": "`-` - disable option",
+        "translatedContent": "`-` - deshabilitar opción"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "FtDquvmF4JLgX7Rftt5xk9SI/jM926lvGBNOn5SK1FQ=",
+        "originContent": "`code` - Install Visual Studio Code recommended plugins",
+        "translatedContent": "`code` - Instalar plugins recomendados para Visual Studio Code"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "URLJjxNcnNBc9dJWwB0BrVee5uxmbEB4op1wkp/v5g0=",
+        "originContent": "`code-insiders` - Install Visual Studio Code Insiders recommended plugins",
+        "translatedContent": "`code-insiders` - Instalar plugins recomendados para Visual Studio Code Insiders"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "mj5OP/oJpu4bImH7i4tvsHJSJj3fiolUqG3k0/jCIcw=",
+        "originContent": "`npm` - Install NPM (Node Package Manager) modules",
+        "translatedContent": "`npm` - Instalar módulos NPM (Node Package Manager)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "GluF7Nu2lmpd1/9ukiYdMjqqapImCtP5qX4eMnyigIY=",
+        "originContent": "`userpath` - Set user paths",
+        "translatedContent": "`userpath` - Establecer rutas de usuario"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "7BgnVeOViB/ARcCLy1TFmSZitYlHMdNdy0xZZAEWzZc=",
+        "originContent": "`nodepath` - Set user path to node_modules, only for Windows",
+        "translatedContent": "`nodepath` - Establecer ruta de usuario a node_modules, solo para Windows"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n`ponypath` - Set user path to pony.exe, only for Windows\n\nCI install example\n\n    haxelib run pony install -code -code-insiders +npm +userpath\n\n[Installation Video Guide](https://www.youtube.com/watch?v=ufYIEmQcv4o)\n\n[Haxe + Heaps + Pony - Making cross-platform application video](https://youtu.be/gAY77ESYOUY)\n\nManual\n------\n* [Home](//github.com/AxGord/Pony/wiki)\n\n* [Pony Tools](//github.com/AxGord/Pony/wiki/Pony-Tools)\n    * [Commands](//github.com/AxGord/Pony/wiki/Commands)\n    * [Server section](//github.com/AxGord/Pony/wiki/Server-section)\n    * [Config section](//github.com/AxGord/Pony/wiki/Config-section)\n    * [Prepare sections](//github.com/AxGord/Pony/wiki/Prepare-sections)\n    * [Build sections](//github.com/AxGord/Pony/wiki/Build-sections)\n    * [Post build sections](//github.com/AxGord/Pony/wiki/Post-build-sections)\n\n* [Net](//github.com/AxGord/Pony/wiki/Net)\n    * [RPC](//github.com/AxGord/Pony/wiki/RPC)\n\n* Platforms\n    * [CS](//github.com/AxGord/Pony/wiki/CS)\n    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)\n\n* [Reference book](http://axgord.github.io/Pony/)\n",
+    "ContentSha": "Zc37yuMpRIPPpmHEN3D7DErmLvI51TSAACnyO4LakBs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`ponypath` - Establece la ruta de usuario a pony.exe, solo para Windows\n\nEjemplo de instalación en CI\n\n    haxelib run pony install -code -code-insiders +npm +userpath\n\n[Guía de instalación en video](https://www.youtube.com/watch?v=ufYIEmQcv4o)\n\n[Haxe + Heaps + Pony - Video de creación de aplicación multiplataforma](https://youtu.be/gAY77ESYOUY)\n\nManual\n------\n* [Inicio](//github.com/AxGord/Pony/wiki)\n\n* [Herramientas Pony](//github.com/AxGord/Pony/wiki/Pony-Tools)\n    * [Comandos](//github.com/AxGord/Pony/wiki/Commands)\n    * [Sección del servidor](//github.com/AxGord/Pony/wiki/Server-section)\n    * [Sección de configuración](//github.com/AxGord/Pony/wiki/Config-section)\n    * [Secciones de preparación](//github.com/AxGord/Pony/wiki/Prepare-sections)\n    * [Secciones de compilación](//github.com/AxGord/Pony/wiki/Build-sections)\n    * [Secciones post-compilación](//github.com/AxGord/Pony/wiki/Post-build-sections)\n\n* [Red](//github.com/AxGord/Pony/wiki/Net)\n    * [RPC](//github.com/AxGord/Pony/wiki/RPC)\n\n* Plataformas\n    * [CS](//github.com/AxGord/Pony/wiki/CS)\n    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)\n\n* [Libro de referencia](http://axgord.github.io/Pony/)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "`code-insiders` - Instalar los plugins recomendados de Visual Studio Code Insiders"
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "URLJjxNcnNBc9dJWwB0BrVee5uxmbEB4op1wkp/v5g0=",
-        "originContent": "`code-insiders` - Install Visual Studio Code Insiders recommended plugins",
-        "translatedContent": ""
+        "rowsha": "3Xhasx/XobpHGe6SKuvQDY7SQ9vb4CsUzXQV6HWEBQY=",
+        "originContent": "`ponypath` - Set user path to pony.exe, only for Windows",
+        "translatedContent": "`ponypath` - Establece la ruta de usuario a pony.exe, solo para Windows"
       },
       {
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "`npm` - Instalar módulos NPM (Node Package Manager)"
+        "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "mj5OP/oJpu4bImH7i4tvsHJSJj3fiolUqG3k0/jCIcw=",
-        "originContent": "`npm` - Install NPM (Node Package Manager) modules",
-        "translatedContent": ""
+        "rowsha": "mVvn+JrfpUKA8va1WEUPLrcP67JYJGLiTkysDquS5JQ=",
+        "originContent": "CI install example",
+        "translatedContent": "Ejemplo de instalación en CI"
       },
       {
         "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "`userpath` - Configurar rutas de usuario"
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "GluF7Nu2lmpd1/9ukiYdMjqqapImCtP5qX4eMnyigIY=",
-        "originContent": "`userpath` - Set user paths",
-        "translatedContent": ""
+        "rowsha": "lEoHBbSeCWApzYK80957iyk6ZXMbtMMKGXWfguk2y9Q=",
+        "originContent": "    haxelib run pony install -code -code-insiders +npm +userpath",
+        "translatedContent": "    haxelib run pony install -code -code-insiders +npm +userpath"
       },
       {
         "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "`nodepath` - Configurar ruta de usuario a node_modules, solo para Windows"
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "7BgnVeOViB/ARcCLy1TFmSZitYlHMdNdy0xZZAEWzZc=",
-        "originContent": "`nodepath` - Set user path to node_modules, only for Windows",
-        "translatedContent": ""
+        "rowsha": "XYjfifdgJma13j8i5vak8APz8vNmk0i2QjuCuhBlMoU=",
+        "originContent": "[Installation Video Guide](https://www.youtube.com/watch?v=ufYIEmQcv4o)",
+        "translatedContent": "[Guía de instalación en video](https://www.youtube.com/watch?v=ufYIEmQcv4o)"
       },
       {
         "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "`ponypath` - Configurar ruta de usuario a pony.exe, solo para Windows"
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "3Xhasx/XobpHGe6SKuvQDY7SQ9vb4CsUzXQV6HWEBQY=",
-        "originContent": "`ponypath` - Set user path to pony.exe, only for Windows",
-        "translatedContent": ""
+        "rowsha": "81pPBqwE7WVmsmrsUPCzfbafiIJcCSDVlDNBW4akNGM=",
+        "originContent": "[Haxe + Heaps + Pony - Making cross-platform application video](https://youtu.be/gAY77ESYOUY)",
+        "translatedContent": "[Haxe + Heaps + Pony - Video de creación de aplicación multiplataforma](https://youtu.be/gAY77ESYOUY)"
       },
       {
         "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "Ejemplo de instalación en CI"
+        "translatedContent": ""
       },
       {
         "row": 12,
-        "rowsha": "mVvn+JrfpUKA8va1WEUPLrcP67JYJGLiTkysDquS5JQ=",
-        "originContent": "CI install example",
-        "translatedContent": ""
+        "rowsha": "sLn+JP+pYpElvcWbEi+A1gWrYE6xt0SFwvLs/eJldq4=",
+        "originContent": "Manual",
+        "translatedContent": "Manual"
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "    haxelib run pony install -code -code-insiders +npm +userpath"
+        "rowsha": "g55qJC4n3k+TxUAF/MftywgZtLqVOUiE3Yi3uNyck8s=",
+        "originContent": "------",
+        "translatedContent": "------"
       },
       {
         "row": 14,
-        "rowsha": "lEoHBbSeCWApzYK80957iyk6ZXMbtMMKGXWfguk2y9Q=",
-        "originContent": "    haxelib run pony install -code -code-insiders +npm +userpath",
-        "translatedContent": ""
+        "rowsha": "lhh1SbDbri2MNqGsiBm74C4z3rmFwP1FY1Eat24lWsQ=",
+        "originContent": "* [Home](//github.com/AxGord/Pony/wiki)",
+        "translatedContent": "* [Inicio](//github.com/AxGord/Pony/wiki)"
       },
       {
         "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[Guía de instalación en video](https://www.youtube.com/watch?v=ufYIEmQcv4o)"
+        "translatedContent": ""
       },
       {
         "row": 16,
-        "rowsha": "XYjfifdgJma13j8i5vak8APz8vNmk0i2QjuCuhBlMoU=",
-        "originContent": "[Installation Video Guide](https://www.youtube.com/watch?v=ufYIEmQcv4o)",
-        "translatedContent": ""
+        "rowsha": "82rLUpZzoNFr6HEUsl/xe6Xm3laf9X8eHa+dLYBSIdA=",
+        "originContent": "* [Pony Tools](//github.com/AxGord/Pony/wiki/Pony-Tools)",
+        "translatedContent": "* [Herramientas Pony](//github.com/AxGord/Pony/wiki/Pony-Tools)"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "[Haxe + Heaps + Pony - Creando aplicación multiplataforma en video](https://youtu.be/gAY77ESYOUY)"
+        "rowsha": "IsNx/lV8O15MCoZUTYqDyrghN1qWBhdV0w4jB99RCEA=",
+        "originContent": "    * [Commands](//github.com/AxGord/Pony/wiki/Commands)",
+        "translatedContent": "    * [Comandos](//github.com/AxGord/Pony/wiki/Commands)"
       },
       {
         "row": 18,
-        "rowsha": "81pPBqwE7WVmsmrsUPCzfbafiIJcCSDVlDNBW4akNGM=",
-        "originContent": "[Haxe + Heaps + Pony - Making cross-platform application video](https://youtu.be/gAY77ESYOUY)",
-        "translatedContent": ""
+        "rowsha": "ge+6uMLYB0y8AKWBmU9WoRmJCYAsZU9xu6tBzz7iqFg=",
+        "originContent": "    * [Server section](//github.com/AxGord/Pony/wiki/Server-section)",
+        "translatedContent": "    * [Sección del servidor](//github.com/AxGord/Pony/wiki/Server-section)"
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Manual"
+        "rowsha": "odILFw7NNSn3QKv4ZT4OaWurin4a519eW7Cr1f78eMk=",
+        "originContent": "    * [Config section](//github.com/AxGord/Pony/wiki/Config-section)",
+        "translatedContent": "    * [Sección de configuración](//github.com/AxGord/Pony/wiki/Config-section)"
       },
       {
         "row": 20,
-        "rowsha": "sLn+JP+pYpElvcWbEi+A1gWrYE6xt0SFwvLs/eJldq4=",
-        "originContent": "Manual",
-        "translatedContent": "------"
+        "rowsha": "/osBfgJxACZrGtX2E6meo1ZIDk/Kha2lCgRIUOqkUE8=",
+        "originContent": "    * [Prepare sections](//github.com/AxGord/Pony/wiki/Prepare-sections)",
+        "translatedContent": "    * [Secciones de preparación](//github.com/AxGord/Pony/wiki/Prepare-sections)"
       },
       {
         "row": 21,
-        "rowsha": "g55qJC4n3k+TxUAF/MftywgZtLqVOUiE3Yi3uNyck8s=",
-        "originContent": "------",
-        "translatedContent": "* [Inicio](//github.com/AxGord/Pony/wiki)"
+        "rowsha": "PJbX/GxYceOsJPbOWZixoH8GoLdGHuGwXYGTAHguwMI=",
+        "originContent": "    * [Build sections](//github.com/AxGord/Pony/wiki/Build-sections)",
+        "translatedContent": "    * [Secciones de compilación](//github.com/AxGord/Pony/wiki/Build-sections)"
       },
       {
         "row": 22,
-        "rowsha": "lhh1SbDbri2MNqGsiBm74C4z3rmFwP1FY1Eat24lWsQ=",
-        "originContent": "* [Home](//github.com/AxGord/Pony/wiki)",
-        "translatedContent": ""
+        "rowsha": "Worl6smumOR6Smje7nYenlLS27E8MPwRdgKj2fTo5MY=",
+        "originContent": "    * [Post build sections](//github.com/AxGord/Pony/wiki/Post-build-sections)",
+        "translatedContent": "    * [Secciones post-compilación](//github.com/AxGord/Pony/wiki/Post-build-sections)"
       },
       {
         "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "* [Herramientas Pony](//github.com/AxGord/Pony/wiki/Pony-Tools)"
+        "translatedContent": ""
       },
       {
         "row": 24,
-        "rowsha": "82rLUpZzoNFr6HEUsl/xe6Xm3laf9X8eHa+dLYBSIdA=",
-        "originContent": "* [Pony Tools](//github.com/AxGord/Pony/wiki/Pony-Tools)",
-        "translatedContent": "    * [Comandos](//github.com/AxGord/Pony/wiki/Commands)"
+        "rowsha": "6r4AXb/dejAQJwmGQkfNwk96JBzOQoQ7yKxV4uSdjDA=",
+        "originContent": "* [Net](//github.com/AxGord/Pony/wiki/Net)",
+        "translatedContent": "* [Red](//github.com/AxGord/Pony/wiki/Net)"
       },
       {
         "row": 25,
-        "rowsha": "IsNx/lV8O15MCoZUTYqDyrghN1qWBhdV0w4jB99RCEA=",
-        "originContent": "    * [Commands](//github.com/AxGord/Pony/wiki/Commands)",
-        "translatedContent": "    * [Sección Servidor](//github.com/AxGord/Pony/wiki/Server-section)"
+        "rowsha": "nv11z21HnfjykZo9V44SgAg1vhYaFz4ewVysAEMW/Ts=",
+        "originContent": "    * [RPC](//github.com/AxGord/Pony/wiki/RPC)",
+        "translatedContent": "    * [RPC](//github.com/AxGord/Pony/wiki/RPC)"
       },
       {
         "row": 26,
-        "rowsha": "ge+6uMLYB0y8AKWBmU9WoRmJCYAsZU9xu6tBzz7iqFg=",
-        "originContent": "    * [Server section](//github.com/AxGord/Pony/wiki/Server-section)",
-        "translatedContent": "    * [Sección Configuración](//github.com/AxGord/Pony/wiki/Config-section)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 27,
-        "rowsha": "odILFw7NNSn3QKv4ZT4OaWurin4a519eW7Cr1f78eMk=",
-        "originContent": "    * [Config section](//github.com/AxGord/Pony/wiki/Config-section)",
-        "translatedContent": "    * [Secciones de Preparación](//github.com/AxGord/Pony/wiki/Prepare-sections)"
+        "rowsha": "+8nBnTkXdH0pVqptlibEjfJgqmwpSaIDDQN43/4E/bk=",
+        "originContent": "* Platforms",
+        "translatedContent": "* Plataformas"
       },
       {
         "row": 28,
-        "rowsha": "/osBfgJxACZrGtX2E6meo1ZIDk/Kha2lCgRIUOqkUE8=",
-        "originContent": "    * [Prepare sections](//github.com/AxGord/Pony/wiki/Prepare-sections)",
-        "translatedContent": "    * [Secciones de Construcción](//github.com/AxGord/Pony/wiki/Build-sections)"
+        "rowsha": "AIkkkWKKppYDpA2xkkj8y0jJFz/FG/FAGT4tTMuhmys=",
+        "originContent": "    * [CS](//github.com/AxGord/Pony/wiki/CS)",
+        "translatedContent": "    * [CS](//github.com/AxGord/Pony/wiki/CS)"
       },
       {
         "row": 29,
-        "rowsha": "PJbX/GxYceOsJPbOWZixoH8GoLdGHuGwXYGTAHguwMI=",
-        "originContent": "    * [Build sections](//github.com/AxGord/Pony/wiki/Build-sections)",
-        "translatedContent": "    * [Secciones Post construcción](//github.com/AxGord/Pony/wiki/Post-build-sections)"
+        "rowsha": "7XnhalWNF0AJGbAtjMkPMmiT7s318rb5vqzu6G5wxe4=",
+        "originContent": "    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)",
+        "translatedContent": "    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)"
       },
       {
         "row": 30,
-        "rowsha": "Worl6smumOR6Smje7nYenlLS27E8MPwRdgKj2fTo5MY=",
-        "originContent": "    * [Post build sections](//github.com/AxGord/Pony/wiki/Post-build-sections)",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "* [Red](//github.com/AxGord/Pony/wiki/Net)"
-      },
-      {
-        "row": 32,
-        "rowsha": "6r4AXb/dejAQJwmGQkfNwk96JBzOQoQ7yKxV4uSdjDA=",
-        "originContent": "* [Net](//github.com/AxGord/Pony/wiki/Net)",
-        "translatedContent": "    * [RPC](//github.com/AxGord/Pony/wiki/RPC)"
-      },
-      {
-        "row": 33,
-        "rowsha": "nv11z21HnfjykZo9V44SgAg1vhYaFz4ewVysAEMW/Ts=",
-        "originContent": "    * [RPC](//github.com/AxGord/Pony/wiki/RPC)",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "* Plataformas"
-      },
-      {
-        "row": 35,
-        "rowsha": "+8nBnTkXdH0pVqptlibEjfJgqmwpSaIDDQN43/4E/bk=",
-        "originContent": "* Platforms",
-        "translatedContent": "    * [CS](//github.com/AxGord/Pony/wiki/CS)"
-      },
-      {
-        "row": 36,
-        "rowsha": "AIkkkWKKppYDpA2xkkj8y0jJFz/FG/FAGT4tTMuhmys=",
-        "originContent": "    * [CS](//github.com/AxGord/Pony/wiki/CS)",
-        "translatedContent": "    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)"
-      },
-      {
-        "row": 37,
-        "rowsha": "7XnhalWNF0AJGbAtjMkPMmiT7s318rb5vqzu6G5wxe4=",
-        "originContent": "    * [Cocos Creator](//github.com/AxGord/Pony/wiki/Cocos-Creator)",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "fxOhFNXwjEHoy/sx6fnd+7hrKqt9NkTzuCnjIvwsyLQ=",
+        "originContent": "* [Reference book](http://axgord.github.io/Pony/)",
         "translatedContent": "* [Libro de referencia](http://axgord.github.io/Pony/)"
       },
       {
-        "row": 39,
-        "rowsha": "fxOhFNXwjEHoy/sx6fnd+7hrKqt9NkTzuCnjIvwsyLQ=",
-        "originContent": "* [Reference book](http://axgord.github.io/Pony/)",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
+        "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### جایگزینی Markdown/MDX
+
+این افزونه از Markdown و MDX پشتیبانی نمی‌کند، اما اگر این افزونه از یک زبان درون بلوک‌های کد (مثلاً Vue) پشتیبانی کند، فرمت‌بندی ناخواسته ممکن است درون بلوک‌های کد رخ دهد.
+
+برای جلوگیری از فرمت‌بندی ناخواسته، می‌توانید از تنظیمات جایگزین برای Markdown و MDX استفاده کنید.
+
+نمونه JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## گزینه‌ها
 
 ### ویژگی‌های سفارشی
@@ -106,14 +129,13 @@ export default {
 - مثال `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ export default {
 - مثال `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,34 +163,45 @@ export default {
   ```
 
 <!-- prettier-ignore -->
-پیش‌فرض | جایگزینی CLI&nbsp; | جایگزینی API&nbsp;
+پیش‌فرض | جایگزینی&nbsp;CLI | جایگزینی&nbsp;API
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### تبدیل نحو
+### تبدیل نحو (Syntax Transformation)
 
 اولین بار در نسخه v0.7.7 ارائه شد.
 
-اگر در یک نام کلاس نوشته‌شده به صورت نحو غیرعبارتی، شکست خط رخ دهد، به نحو عبارتی تبدیل می‌شود. این تبدیل از قالب‌بندی برگشت‌پذیر پشتیبانی نمی‌کند.
+اگر شکست خط در نام کلاس نوشته شده با نحو غیر-عبارتی رخ دهد، به نحو عبارتی تبدیل می‌شود. این تبدیل از قالب‌بندی معکوس پشتیبانی نمی‌کند.
 
 <!-- prettier-ignore -->
-پیش‌فرض | جایگزینی CLI&nbsp; | جایگزینی API&nbsp;
+پیش‌فرض | جایگزینی&nbsp;CLI | جایگزینی&nbsp;API
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## همبستگی نسخه با پلاگین‌های هم‌خانواده
+### عرض چاپ نام کلاس‌ها (Classnames Print Width)
 
-از نسخه `0.6.0`، در صورت انتشار یک نسخه کوچک در یک طرف، در صورت امکان آن تغییر را در طرف دیگر نیز اعمال خواهم کرد.
+اولین بار در نسخه v0.10.0 ارائه شد.
+
+عرض چاپ نام کلاس را مشخص کنید. اگر مقداری ارائه نشود، مقدار `printWidth` به عنوان پیش‌فرض استفاده می‌شود.
+
+<!-- prettier-ignore -->
+پیش‌فرض | جایگزینی&nbsp;CLI | جایگزینی&nbsp;API
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## همبستگی نسخه با افزونه‌های هم‌خانواده
+
+از نسخه `0.6.0`، زمانی که یک انتشار جزئی در یک طرف باشد، در صورت امکان آن تغییر را در طرف دیگر نیز منعکس خواهم کرد.
 
 ![همبستگی نسخه.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
-## سازگاری با سایر پلاگین‌های Prettier
+## سازگاری با سایر افزونه‌های Prettier
 
-اگر بیش از یک پلاگین Prettier بتواند متنی را که می‌خواهید قالب‌بندی کنید مدیریت کند، Prettier فقط آخرین پلاگین از آن‌ها را استفاده خواهد کرد.
+اگر بیش از یک افزونه Prettier بتواند متنی که می‌خواهید قالب‌بندی کنید را مدیریت کند، Prettier فقط آخرین افزونه از آن‌ها را استفاده می‌کند.
 
-در این حالت، می‌توانید با افزودن [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) آن را طوری پیکربندی کنید که این پلاگین‌ها به صورت متوالی اعمال شوند.
+در این حالت، می‌توانید آن را به صورت زیر با افزودن [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) تنظیم کنید تا افزونه‌ها به صورت متوالی اعمال شوند.
 
-نمونه JSON:
+مثال JSON:
 
 <!-- prettier-ignore -->
 ```json
@@ -188,6 +221,6 @@ export default {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

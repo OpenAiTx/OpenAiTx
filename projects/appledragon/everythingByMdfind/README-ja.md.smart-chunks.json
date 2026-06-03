@@ -1,0 +1,850 @@
+[
+  {
+    "Id": 1,
+    "Content": "[English](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README.md) | [中文](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_CN.md) | [한국어](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_KO.md) | [日本語](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_JP.md) | [Français](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_FR.md) | [Deutsch](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_DE.md) | [Español](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_ES.md)\n\n<img width=\"3836\" height=\"2026\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d86c3d6b-6fd4-4cfe-b64f-67c465bb3d3c\" /><img width=\"3832\" height=\"2024\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a91d2b13-07ac-4cae-ab33-506f1fa3bca6\" />\n\n\n# Everything by mdfind\n\nA powerful and efficient file search tool for macOS, leveraging the native Spotlight engine for lightning-fast results.\n\n## Key Features\n\n*   **Blazing Fast Search:** Utilizes the macOS Spotlight index for near-instantaneous file searching.\n*   **Flexible Search Options:** Search by file name or content to quickly locate the files you need.\n*   **Advanced Filtering:** Refine your searches with a variety of filters:\n    *   File size range (minimum and maximum size in bytes)\n    *   Specific file extensions (e.g., `pdf`, `docx`)\n    *   Case-sensitive matching\n    *   Full or partial match options\n*   **Directory-Specific Search:** Limit your search to a specific directory for focused results.\n*   **Rich Preview:** Preview various file types directly in the application:\n    *   Text files with encoding detection\n    *   Images (JPEG, PNG, GIF with animation support, BMP, WEBP, HEIC)\n    *   SVG files with proper scaling and centering\n    *   Video files with playback controls\n    *   Audio files\n*   **Integrated Media Player:**\n    *   Video and audio playback with standard controls\n    *   Standalone player window for media files\n    *   Continuous playback mode\n    *   Volume control and mute option\n*   **Bookmarks:** Quick access to common searches:\n    *   Large Files (>50MB)\n    *   Video Files\n    *   Audio Files\n    *   Images\n    *   Archives\n    *   Applications\n*   **Disk Space Analysis:** Analyze disk space usage for any directory:\n    *   One-click home directory space analysis\n    *   Interactive bar chart visualization showing top space-consuming folders",
+    "ContentSha": "jGG/UYi2B4186hRcSQ5BV0b7MBCMvsIRZ3Hc5eC5ANQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[English](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README.md) | [中文](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_CN.md) | [한국어](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_KO.md) | [日本語](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_JP.md) | [Français](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_FR.md) | [Deutsch](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_DE.md) | [Español](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_ES.md)\n\n<img width=\"3836\" height=\"2026\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d86c3d6b-6fd4-4cfe-b64f-67c465bb3d3c\" /><img width=\"3832\" height=\"2024\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a91d2b13-07ac-4cae-ab33-506f1fa3bca6\" />\n\n\n# mdfindによるEverything\n\nmacOSのネイティブなSpotlightエンジンを活用し、超高速な結果を実現する強力で効率的なファイル検索ツール。\n\n## 主な機能\n\n*   **超高速検索：** macOSのSpotlightインデックスを利用し、ほぼ瞬時にファイルを検索。\n*   **柔軟な検索オプション：** ファイル名または内容で検索し、必要なファイルを素早く特定。\n*   **高度なフィルタリング：** さまざまなフィルターで検索を絞り込み：\n    *   ファイルサイズの範囲指定（バイト単位の最小・最大サイズ）\n    *   特定のファイル拡張子（例：`pdf`、`docx`）\n    *   大文字・小文字の区別\n    *   完全一致または部分一致のオプション\n*   **特定ディレクトリ検索：** 指定したディレクトリに検索を限定し、目的に合った結果を取得。\n*   **豊富なプレビュー機能：** アプリ内でさまざまなファイルタイプをプレビュー可能：\n    *   エンコーディング検出対応のテキストファイル\n    *   画像（JPEG、PNG、GIF（アニメーション対応）、BMP、WEBP、HEIC）\n    *   適切なスケーリングとセンタリング対応のSVGファイル\n    *   再生コントロール付きの動画ファイル\n    *   オーディオファイル\n*   **統合メディアプレーヤー：**\n    *   標準コントロールによる動画・音声再生\n    *   メディアファイル用の独立プレーヤーウィンドウ\n    *   連続再生モード\n    *   ボリューム調整とミュート機能\n*   **ブックマーク機能：** よく使う検索へのクイックアクセス：\n    *   大容量ファイル（50MB以上）\n    *   動画ファイル\n    *   音声ファイル\n    *   画像\n    *   アーカイブ\n    *   アプリケーション\n*   **ディスク容量分析：** 任意のディレクトリのディスク使用量を分析：\n    *   ワンクリックでホームディレクトリの容量分析\n    *   上位容量消費フォルダを示すインタラクティブな棒グラフ表示",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UxEzNEFMlPvRImwrolpiWcCfQG0IP5sfzNLiNt8rcco=",
+        "originContent": "[English](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README.md) | [中文](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_CN.md) | [한국어](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_KO.md) | [日本語](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_JP.md) | [Français](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_FR.md) | [Deutsch](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_DE.md) | [Español](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_ES.md)",
+        "translatedContent": "[English](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README.md) | [中文](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_CN.md) | [한국어](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_KO.md) | [日本語](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_JP.md) | [Français](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_FR.md) | [Deutsch](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_DE.md) | [Español](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/README_ES.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "k9J7QXmg4pGSskEAanXaQ96obEzvXuBgv5XrXMblnfw=",
+        "originContent": "<img width=\"3836\" height=\"2026\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d86c3d6b-6fd4-4cfe-b64f-67c465bb3d3c\" /><img width=\"3832\" height=\"2024\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a91d2b13-07ac-4cae-ab33-506f1fa3bca6\" />",
+        "translatedContent": "<img width=\"3836\" height=\"2026\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d86c3d6b-6fd4-4cfe-b64f-67c465bb3d3c\" /><img width=\"3832\" height=\"2024\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a91d2b13-07ac-4cae-ab33-506f1fa3bca6\" />"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "DDp1Yntd5ybZP60ScMWvLLf5KHq9DAmM2q0geQFA0qs=",
+        "originContent": "# Everything by mdfind",
+        "translatedContent": "# mdfindによるEverything"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "FZyGIZXuOFJ4y5v2PzjtC3fsoLROyfJKBut3cc3XgaY=",
+        "originContent": "A powerful and efficient file search tool for macOS, leveraging the native Spotlight engine for lightning-fast results.",
+        "translatedContent": "macOSのネイティブなSpotlightエンジンを活用し、超高速な結果を実現する強力で効率的なファイル検索ツール。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+        "originContent": "## Key Features",
+        "translatedContent": "## 主な機能"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "gxDWSJov+CZrtuGMLsgOF+YkVIg2qJxNWYP5GwAW9nc=",
+        "originContent": "*   **Blazing Fast Search:** Utilizes the macOS Spotlight index for near-instantaneous file searching.",
+        "translatedContent": "*   **超高速検索：** macOSのSpotlightインデックスを利用し、ほぼ瞬時にファイルを検索。"
+      },
+      {
+        "row": 13,
+        "rowsha": "p4CsH2X68TnHmXjV1lfaLzWue3CuHdjDG+cFgCLqBS4=",
+        "originContent": "*   **Flexible Search Options:** Search by file name or content to quickly locate the files you need.",
+        "translatedContent": "*   **柔軟な検索オプション：** ファイル名または内容で検索し、必要なファイルを素早く特定。"
+      },
+      {
+        "row": 14,
+        "rowsha": "jMHSjuU91klGa11u14EqZu7OqjAYbBHbfY+rYJo8GDU=",
+        "originContent": "*   **Advanced Filtering:** Refine your searches with a variety of filters:",
+        "translatedContent": "*   **高度なフィルタリング：** さまざまなフィルターで検索を絞り込み："
+      },
+      {
+        "row": 15,
+        "rowsha": "a1eCquxivBlKiwWXnIEWiq3txQZAk03qPTQ39jj19wE=",
+        "originContent": "    *   File size range (minimum and maximum size in bytes)",
+        "translatedContent": "    *   ファイルサイズの範囲指定（バイト単位の最小・最大サイズ）"
+      },
+      {
+        "row": 16,
+        "rowsha": "fBgFqQN/hYcNMpUUECfhDp4bSmiO89SqbZd2lCiEvmA=",
+        "originContent": "    *   Specific file extensions (e.g., `pdf`, `docx`)",
+        "translatedContent": "    *   特定のファイル拡張子（例：`pdf`、`docx`）"
+      },
+      {
+        "row": 17,
+        "rowsha": "+tPAJWfqgTAF6dK4Lsk0x2FqqHLs4ng+595olwzv3CM=",
+        "originContent": "    *   Case-sensitive matching",
+        "translatedContent": "    *   大文字・小文字の区別"
+      },
+      {
+        "row": 18,
+        "rowsha": "EY+i2USapTZp4+FR5MgD3uJkdYiuxuNZaysx5keTsFk=",
+        "originContent": "    *   Full or partial match options",
+        "translatedContent": "    *   完全一致または部分一致のオプション"
+      },
+      {
+        "row": 19,
+        "rowsha": "3YM71xOlYAlVkFMUNGwxo1IqxDEPtQLy0v9gYKoePrg=",
+        "originContent": "*   **Directory-Specific Search:** Limit your search to a specific directory for focused results.",
+        "translatedContent": "*   **特定ディレクトリ検索：** 指定したディレクトリに検索を限定し、目的に合った結果を取得。"
+      },
+      {
+        "row": 20,
+        "rowsha": "P7vj6dq+ouC0WlsdR1sbr4f70zEh25ZVxfrRnpKTjKI=",
+        "originContent": "*   **Rich Preview:** Preview various file types directly in the application:",
+        "translatedContent": "*   **豊富なプレビュー機能：** アプリ内でさまざまなファイルタイプをプレビュー可能："
+      },
+      {
+        "row": 21,
+        "rowsha": "3H83msOSGFvGt4fncgyqmeUNGJiXfP2ucbuHdeJm0l8=",
+        "originContent": "    *   Text files with encoding detection",
+        "translatedContent": "    *   エンコーディング検出対応のテキストファイル"
+      },
+      {
+        "row": 22,
+        "rowsha": "7YJl3ccy7PTknzIS/jUIDyfiqVb25p6vmC5hE6aFzvU=",
+        "originContent": "    *   Images (JPEG, PNG, GIF with animation support, BMP, WEBP, HEIC)",
+        "translatedContent": "    *   画像（JPEG、PNG、GIF（アニメーション対応）、BMP、WEBP、HEIC）"
+      },
+      {
+        "row": 23,
+        "rowsha": "4X7voI3jey15lRuIiCDRPk+6yPhT1KziVwJbQbToSbE=",
+        "originContent": "    *   SVG files with proper scaling and centering",
+        "translatedContent": "    *   適切なスケーリングとセンタリング対応のSVGファイル"
+      },
+      {
+        "row": 24,
+        "rowsha": "xqwXkDecbpZ1TH33L5ReiJdjWdsvFLsqJ+Zc7nNptwk=",
+        "originContent": "    *   Video files with playback controls",
+        "translatedContent": "    *   再生コントロール付きの動画ファイル"
+      },
+      {
+        "row": 25,
+        "rowsha": "ZcD5/fw1y/5JEthawVzKrrTlJmPhY0Z8KBP4x9pnBVo=",
+        "originContent": "    *   Audio files",
+        "translatedContent": "    *   オーディオファイル"
+      },
+      {
+        "row": 26,
+        "rowsha": "GALW1LaKh+5w+6PvZsw3915U3NifP/iZZAWLV9NqBXI=",
+        "originContent": "*   **Integrated Media Player:**",
+        "translatedContent": "*   **統合メディアプレーヤー：**"
+      },
+      {
+        "row": 27,
+        "rowsha": "r7fAi/YyWmZy1A+fu6eKCA9U/KBzAIjSG+S5E9QZti4=",
+        "originContent": "    *   Video and audio playback with standard controls",
+        "translatedContent": "    *   標準コントロールによる動画・音声再生"
+      },
+      {
+        "row": 28,
+        "rowsha": "KY8PO1i9bsm+zYtq8dWytbXBdhV4B3ziDca/rwtghy8=",
+        "originContent": "    *   Standalone player window for media files",
+        "translatedContent": "    *   メディアファイル用の独立プレーヤーウィンドウ"
+      },
+      {
+        "row": 29,
+        "rowsha": "hXBLjatGrDbBSy21qGOAwYEi/puZ4TtzAlTCo80Fz9M=",
+        "originContent": "    *   Continuous playback mode",
+        "translatedContent": "    *   連続再生モード"
+      },
+      {
+        "row": 30,
+        "rowsha": "rVs7E/8vjW1SHwDvtfw+Qb9RK5BRpY/zdTBZ2Y+EfME=",
+        "originContent": "    *   Volume control and mute option",
+        "translatedContent": "    *   ボリューム調整とミュート機能"
+      },
+      {
+        "row": 31,
+        "rowsha": "leysVRxJ7GBrMJNgU6VpsHGFc8gmk9x2W06aNLRyHXk=",
+        "originContent": "*   **Bookmarks:** Quick access to common searches:",
+        "translatedContent": "*   **ブックマーク機能：** よく使う検索へのクイックアクセス："
+      },
+      {
+        "row": 32,
+        "rowsha": "G39d2jNgsaFvB5FOO90EcauPqjzcAg+PaXmP8wLol+Q=",
+        "originContent": "    *   Large Files (>50MB)",
+        "translatedContent": "    *   大容量ファイル（50MB以上）"
+      },
+      {
+        "row": 33,
+        "rowsha": "XGVA3uU06TToq0p7xleh29w61yXrxc0qYnDHoE8bHaw=",
+        "originContent": "    *   Video Files",
+        "translatedContent": "    *   動画ファイル"
+      },
+      {
+        "row": 34,
+        "rowsha": "oJykDd8LOsOeCAp5zWs7k2UJQ3385olsHV85jT/ZjRE=",
+        "originContent": "    *   Audio Files",
+        "translatedContent": "    *   音声ファイル"
+      },
+      {
+        "row": 35,
+        "rowsha": "nEA3sBANxxYhQ9LE+eLUf9JsuzXHfl0+cCfy3YI7+x4=",
+        "originContent": "    *   Images",
+        "translatedContent": "    *   画像"
+      },
+      {
+        "row": 36,
+        "rowsha": "fUIPVqE25pTeh2LxY21JHasmC3JSptzfzuOnA1BBE5A=",
+        "originContent": "    *   Archives",
+        "translatedContent": "    *   アーカイブ"
+      },
+      {
+        "row": 37,
+        "rowsha": "MiAkE0fexsELQW8i3JEyJXha5c98XBMkFupsitt9sDY=",
+        "originContent": "    *   Applications",
+        "translatedContent": "    *   アプリケーション"
+      },
+      {
+        "row": 38,
+        "rowsha": "XaDlhbJULjdS3CTL50neNb5TlnKE/kW1tPkXmZN+OII=",
+        "originContent": "*   **Disk Space Analysis:** Analyze disk space usage for any directory:",
+        "translatedContent": "*   **ディスク容量分析：** 任意のディレクトリのディスク使用量を分析："
+      },
+      {
+        "row": 39,
+        "rowsha": "YL1shVuXY4Ln+RGIQ3KTtHWrzV8LHX8zE5IZa7/5mHw=",
+        "originContent": "    *   One-click home directory space analysis",
+        "translatedContent": "    *   ワンクリックでホームディレクトリの容量分析"
+      },
+      {
+        "row": 40,
+        "rowsha": "RkKrYyiNKm2PnceoV7r7KIUGPI5gfOsuy4al/N3GNLk=",
+        "originContent": "    *   Interactive bar chart visualization showing top space-consuming folders",
+        "translatedContent": "    *   上位容量消費フォルダを示すインタラクティブな棒グラフ表示"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    *   Right-click on any folder in search results to analyze its space usage\n    *   Double-click chart bars to drill down into subdirectories for detailed analysis\n    *   Visual breakdown of subdirectory sizes with color-coded charts\n    *   Automatic sorting by size to identify the largest folders\n*   **Sortable Results:** Organize search results by name, size, date modified, or path.\n*   **Multi-File Operations:** Perform actions on multiple files simultaneously:\n    *   Multi-select files using Shift or Command (⌘) keys\n    *   Batch operations: Open, Delete, Copy, Move, Rename\n    *   Context menu for additional operations\n*   **Multi-Tab Search Interface:** Work with multiple search sessions simultaneously:\n    *   Create new tabs for different search queries\n    *   Close, reorder, and manage tabs with right-click context menu\n    *   Independent search results and settings per tab\n    *   Chrome-like tab experience with scroll buttons for many tabs\n*   **Customizable Interface:**\n    *   6 beautiful themes to choose from:\n        *   Light & Dark (system default)\n        *   Tokyo Night & Tokyo Night Storm\n        *   Chinolor Dark & Chinolor Light (Chinese traditional colors)\n    *   System title bar theming that matches your selected theme\n    *   Show/hide preview panel\n    *   Configurable search history\n*   **Multi-Format Export:** Export search results to multiple formats:\n    *   JSON - Structured data format\n    *   Excel (.xlsx) - Spreadsheet with formatting\n    *   HTML - Web-ready table format\n    *   Markdown - Documentation-friendly format\n    *   CSV - Classic comma-separated values\n*   **Lazy Loading:** Handles large result sets efficiently by loading items in batches as you scroll.\n*   **Drag & Drop:** Drag files directly to external applications.\n*   **Path Operations:** Copy file path, directory path, or filename to clipboard.\n\n## Installation\n\n1.  **Prerequisites:**\n    *   Python 3.6+\n    *   PyQt6\n\n2.  **Clone the repository:**\n",
+    "ContentSha": "WQHpPxLnsH/6LYl8I618ewRBhsHOqk6+ueGmlaUUGpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    *   検索結果の任意のフォルダーを右クリックして、そのスペース使用状況を分析\n    *   チャートのバーをダブルクリックして、サブディレクトリの詳細分析にドリルダウン\n    *   カラーコード化されたチャートによるサブディレクトリサイズの視覚的内訳\n    *   サイズによる自動ソートで最大のフォルダーを特定\n*   **並べ替え可能な結果：** 名前、サイズ、更新日時、パスで検索結果を整理。\n*   **複数ファイル操作：** 複数ファイルに対して同時に操作を実行：\n    *   ShiftキーまたはCommand（⌘）キーで複数選択\n    *   一括操作：開く、削除、コピー、移動、名前変更\n    *   追加操作のためのコンテキストメニュー\n*   **マルチタブ検索インターフェース：** 複数の検索セッションを同時に操作：\n    *   異なる検索クエリ用の新規タブ作成\n    *   右クリックコンテキストメニューでタブの閉鎖、並べ替え、管理\n    *   タブごとに独立した検索結果と設定\n    *   多数のタブに対応するスクロールボタン付きのChrome風タブ体験\n*   **カスタマイズ可能なインターフェース：**\n    *   6つの美しいテーマから選択可能：\n        *   ライト＆ダーク（システムデフォルト）\n        *   Tokyo Night＆Tokyo Night Storm\n        *   Chinolor Dark＆Chinolor Light（中国伝統色）\n    *   選択したテーマに合わせたシステムタイトルバーのテーマ設定\n    *   プレビューパネルの表示/非表示\n    *   設定可能な検索履歴\n*   **マルチフォーマットエクスポート：** 検索結果を複数形式でエクスポート：\n    *   JSON - 構造化データ形式\n    *   Excel（.xlsx）- 書式付きスプレッドシート\n    *   HTML - ウェブ対応テーブル形式\n    *   Markdown - ドキュメント向け形式\n    *   CSV - クラシックなカンマ区切り値形式\n*   **レイジーローディング：** スクロールに応じて項目をバッチで読み込み、大量の結果を効率的に処理。\n*   **ドラッグ＆ドロップ：** ファイルを直接外部アプリケーションにドラッグ可能。\n*   **パス操作：** ファイルパス、ディレクトリパス、またはファイル名をクリップボードにコピー。\n\n## インストール\n\n1.  **前提条件：**\n    *   Python 3.6以上\n    *   PyQt6\n\n2.  **リポジトリをクローン：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UrUAW9SFlkhAPUOw0yfD6V/GOdZuhj9r9FNDED8mbzM=",
+        "originContent": "    *   Right-click on any folder in search results to analyze its space usage",
+        "translatedContent": "    *   検索結果の任意のフォルダーを右クリックして、そのスペース使用状況を分析"
+      },
+      {
+        "row": 2,
+        "rowsha": "6tD7PMHHjMnAdmew7hTvz8fQIjY4fbBzJwZclIzzfnY=",
+        "originContent": "    *   Double-click chart bars to drill down into subdirectories for detailed analysis",
+        "translatedContent": "    *   チャートのバーをダブルクリックして、サブディレクトリの詳細分析にドリルダウン"
+      },
+      {
+        "row": 3,
+        "rowsha": "vL4XYBhpfd54Etbco51LcVGAmiXHkA5ImwMjY4sn798=",
+        "originContent": "    *   Visual breakdown of subdirectory sizes with color-coded charts",
+        "translatedContent": "    *   カラーコード化されたチャートによるサブディレクトリサイズの視覚的内訳"
+      },
+      {
+        "row": 4,
+        "rowsha": "MpWe6Iu+4bHGBxK+1Q+EpcsUMRh7aRwwkKYcsOWzO+0=",
+        "originContent": "    *   Automatic sorting by size to identify the largest folders",
+        "translatedContent": "    *   サイズによる自動ソートで最大のフォルダーを特定"
+      },
+      {
+        "row": 5,
+        "rowsha": "ACQ0S+UAQL3Khv489fPx5POCN60BvqgI0Mb/OUgK3aE=",
+        "originContent": "*   **Sortable Results:** Organize search results by name, size, date modified, or path.",
+        "translatedContent": "*   **並べ替え可能な結果：** 名前、サイズ、更新日時、パスで検索結果を整理。"
+      },
+      {
+        "row": 6,
+        "rowsha": "Bqib7J/lFjCDBcTK6IRsDwNzMn7g+3xgG+6FoDo/AmY=",
+        "originContent": "*   **Multi-File Operations:** Perform actions on multiple files simultaneously:",
+        "translatedContent": "*   **複数ファイル操作：** 複数ファイルに対して同時に操作を実行："
+      },
+      {
+        "row": 7,
+        "rowsha": "D+40eQ1o66b+zRzQYdKrq8riEFQtVT/VBP2JvqRo3Jk=",
+        "originContent": "    *   Multi-select files using Shift or Command (⌘) keys",
+        "translatedContent": "    *   ShiftキーまたはCommand（⌘）キーで複数選択"
+      },
+      {
+        "row": 8,
+        "rowsha": "5Ejhi0sKRdgjAAdGdH4qAiAR3JFSyLq/YCLSBI4riaY=",
+        "originContent": "    *   Batch operations: Open, Delete, Copy, Move, Rename",
+        "translatedContent": "    *   一括操作：開く、削除、コピー、移動、名前変更"
+      },
+      {
+        "row": 9,
+        "rowsha": "dE5qgFKdMn+6UoEcPa/kCGNCytIMSd1RC8pEwrV3axc=",
+        "originContent": "    *   Context menu for additional operations",
+        "translatedContent": "    *   追加操作のためのコンテキストメニュー"
+      },
+      {
+        "row": 10,
+        "rowsha": "NzgjQKor1n2jwfkadPltaSEwnyvYsaLS6EXxELstctk=",
+        "originContent": "*   **Multi-Tab Search Interface:** Work with multiple search sessions simultaneously:",
+        "translatedContent": "*   **マルチタブ検索インターフェース：** 複数の検索セッションを同時に操作："
+      },
+      {
+        "row": 11,
+        "rowsha": "LYKfdeltcPbr9rPwcrlEBb0ahFTsZAKfBFKfbcwf59I=",
+        "originContent": "    *   Create new tabs for different search queries",
+        "translatedContent": "    *   異なる検索クエリ用の新規タブ作成"
+      },
+      {
+        "row": 12,
+        "rowsha": "UrqDUEVUAESdGwM5KcTiZh+O4fMy0uLEzZ1FtPKy2eg=",
+        "originContent": "    *   Close, reorder, and manage tabs with right-click context menu",
+        "translatedContent": "    *   右クリックコンテキストメニューでタブの閉鎖、並べ替え、管理"
+      },
+      {
+        "row": 13,
+        "rowsha": "ChNAab4aOXvgQpOLd4vYISpfNRiy6uy7HDMxK7teMJ4=",
+        "originContent": "    *   Independent search results and settings per tab",
+        "translatedContent": "    *   タブごとに独立した検索結果と設定"
+      },
+      {
+        "row": 14,
+        "rowsha": "22MtCtWeu5N+rH66vK696iRBG3JqkFlmMBtlhSU9lcE=",
+        "originContent": "    *   Chrome-like tab experience with scroll buttons for many tabs",
+        "translatedContent": "    *   多数のタブに対応するスクロールボタン付きのChrome風タブ体験"
+      },
+      {
+        "row": 15,
+        "rowsha": "nucccG89pBEeGrxYDMGI7+QkXSWa3//iz5GGxJ9T070=",
+        "originContent": "*   **Customizable Interface:**",
+        "translatedContent": "*   **カスタマイズ可能なインターフェース：**"
+      },
+      {
+        "row": 16,
+        "rowsha": "mYcPmyN88ZcJxb+HI6CL7NmG2WP2VAdHxg0Wqb83Ejs=",
+        "originContent": "    *   6 beautiful themes to choose from:",
+        "translatedContent": "    *   6つの美しいテーマから選択可能："
+      },
+      {
+        "row": 17,
+        "rowsha": "qmmlE3hgzM196bLMALBEVmXLvOuTk3LYkUZEZP8/29A=",
+        "originContent": "        *   Light & Dark (system default)",
+        "translatedContent": "        *   ライト＆ダーク（システムデフォルト）"
+      },
+      {
+        "row": 18,
+        "rowsha": "28mWPCTvxOfN/H0ydHZPZGt6OR6vIauLp8/QHyi/C6Y=",
+        "originContent": "        *   Tokyo Night & Tokyo Night Storm",
+        "translatedContent": "        *   Tokyo Night＆Tokyo Night Storm"
+      },
+      {
+        "row": 19,
+        "rowsha": "XW8jeCIY6wjDjh62//Xct/nvqWJUPbUAF/TlNgLG3+0=",
+        "originContent": "        *   Chinolor Dark & Chinolor Light (Chinese traditional colors)",
+        "translatedContent": "        *   Chinolor Dark＆Chinolor Light（中国伝統色）"
+      },
+      {
+        "row": 20,
+        "rowsha": "637X+LUShVEf8YxgJEEtvFyBdbqNDcAXprHYHIAu+yg=",
+        "originContent": "    *   System title bar theming that matches your selected theme",
+        "translatedContent": "    *   選択したテーマに合わせたシステムタイトルバーのテーマ設定"
+      },
+      {
+        "row": 21,
+        "rowsha": "CDXG6sCyVXONmIolzFcuJwtxAD17cRuisI8Mfs2eFmA=",
+        "originContent": "    *   Show/hide preview panel",
+        "translatedContent": "    *   プレビューパネルの表示/非表示"
+      },
+      {
+        "row": 22,
+        "rowsha": "xyCRfltLs7+a+cB/WplsyT3AA8FXiXnOKSCyD/XNTfc=",
+        "originContent": "    *   Configurable search history",
+        "translatedContent": "    *   設定可能な検索履歴"
+      },
+      {
+        "row": 23,
+        "rowsha": "wMDRuPlXKBWrk8CTX0FRWxCPuq3xedncyfwLoKuUkM0=",
+        "originContent": "*   **Multi-Format Export:** Export search results to multiple formats:",
+        "translatedContent": "*   **マルチフォーマットエクスポート：** 検索結果を複数形式でエクスポート："
+      },
+      {
+        "row": 24,
+        "rowsha": "20d7E78VjmqDXWuTRPpWXjdbfq8kB3p6vrygSUY41S4=",
+        "originContent": "    *   JSON - Structured data format",
+        "translatedContent": "    *   JSON - 構造化データ形式"
+      },
+      {
+        "row": 25,
+        "rowsha": "nmuNjHLhKhm34Uakliwc0tfZJuT0MvRYPpmyTQEjZTk=",
+        "originContent": "    *   Excel (.xlsx) - Spreadsheet with formatting",
+        "translatedContent": "    *   Excel（.xlsx）- 書式付きスプレッドシート"
+      },
+      {
+        "row": 26,
+        "rowsha": "gXUEFTS3KAFEVF3eFKL1Z7ERkxpLR2GCB/FYrx7Jjr0=",
+        "originContent": "    *   HTML - Web-ready table format",
+        "translatedContent": "    *   HTML - ウェブ対応テーブル形式"
+      },
+      {
+        "row": 27,
+        "rowsha": "9+9SNVhKd/HJhvPYd8t1+WKny2xl3OxJFNWYJEeXE0k=",
+        "originContent": "    *   Markdown - Documentation-friendly format",
+        "translatedContent": "    *   Markdown - ドキュメント向け形式"
+      },
+      {
+        "row": 28,
+        "rowsha": "VS9batbnuGtwPcUTzlouYtm6nGDdfElY88EpS4MNKUk=",
+        "originContent": "    *   CSV - Classic comma-separated values",
+        "translatedContent": "    *   CSV - クラシックなカンマ区切り値形式"
+      },
+      {
+        "row": 29,
+        "rowsha": "jUboJCtROTIFea8k1Rtc74TOyFlNKg78c3BFT10f/lI=",
+        "originContent": "*   **Lazy Loading:** Handles large result sets efficiently by loading items in batches as you scroll.",
+        "translatedContent": "*   **レイジーローディング：** スクロールに応じて項目をバッチで読み込み、大量の結果を効率的に処理。"
+      },
+      {
+        "row": 30,
+        "rowsha": "mRatcXQkF/nhqlK+m9ejc2ZjbZSEgyIcAACZRU6XY8w=",
+        "originContent": "*   **Drag & Drop:** Drag files directly to external applications.",
+        "translatedContent": "*   **ドラッグ＆ドロップ：** ファイルを直接外部アプリケーションにドラッグ可能。"
+      },
+      {
+        "row": 31,
+        "rowsha": "asRJ/dj8LOjSxaElMOlxY30601IYxF/QW9bze62qky8=",
+        "originContent": "*   **Path Operations:** Copy file path, directory path, or filename to clipboard.",
+        "translatedContent": "*   **パス操作：** ファイルパス、ディレクトリパス、またはファイル名をクリップボードにコピー。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "SGdxwJgS7cFmmBMb8LtyubjNE42AmkfZsp3Ec9LNuko=",
+        "originContent": "1.  **Prerequisites:**",
+        "translatedContent": "1.  **前提条件：**"
+      },
+      {
+        "row": 36,
+        "rowsha": "PpgibOXxRB2doXmQXq4Mbo324k6f2/HamCSZANvQ1p0=",
+        "originContent": "    *   Python 3.6+",
+        "translatedContent": "    *   Python 3.6以上"
+      },
+      {
+        "row": 37,
+        "rowsha": "HPTNTZjvYmkWAUNkTxQXOl+yr1P45sTBk40jrMS9I/I=",
+        "originContent": "    *   PyQt6",
+        "translatedContent": "    *   PyQt6"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "yPvS8UEzMloidA3uT2ANFHu5PxXA8TVlP5X9hyW00Vw=",
+        "originContent": "2.  **Clone the repository:**",
+        "translatedContent": "2.  **リポジトリをクローン：**"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "    ```bash\n    git clone https://github.com/appledragon/everythingByMdfind\n    cd everythingByMdfind\n    ```",
+    "ContentSha": "OBiAfxayPeDdWADT0PVDWClRfdwVjoEk+Gfa9suKsW8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    git clone https://github.com/appledragon/everythingByMdfind\n    cd everythingByMdfind\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mEZcFu/4EWJbc/ZpXxOtR/syIKvrl3LZGwZIGzlFptU=",
+        "originContent": "    git clone https://github.com/appledragon/everythingByMdfind",
+        "translatedContent": "    git clone https://github.com/appledragon/everythingByMdfind"
+      },
+      {
+        "row": 3,
+        "rowsha": "CkxRq0pOUt+A1l9O4/Knh8BI4JHdd4ALsYJNy0joCP4=",
+        "originContent": "    cd everythingByMdfind",
+        "translatedContent": "    cd everythingByMdfind"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n3.  **Install dependencies:**\n",
+    "ContentSha": "4RnU7nhCYvgDDp2lczQqQhcq0nW2DMNEX6oPCN7OJH8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3.  **依存関係のインストール：**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3.  **依存関係のインストール：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "fggIidbb/pIF6ccgRGiVsYa2Oki1UnkzYYLtXP3MueI=",
+        "originContent": "3.  **Install dependencies:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "    ```bash\n    pip install -r requirements.txt\n    ```",
+    "ContentSha": "rmh3OC9fM6EbhIloZlFsuSs81hglno9UglewdQlT/90=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    pip install -r requirements.txt\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+NKC0vwYQgnTT+HBcUv0fI91TXX3bV2l62ETZ0yRyG8=",
+        "originContent": "    pip install -r requirements.txt",
+        "translatedContent": "    pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n4.  **Run the application:**\n",
+    "ContentSha": "FAd99ocrK2BQKY18O1qALHyFIln8oSr/MYhVCZjVGU0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n4.  **アプリケーションを実行する：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2dxMnEhMK4dM+YLAns5AHk/Uq0sXxMvCt1Kk86l2Ka4=",
+        "originContent": "4.  **Run the application:**",
+        "translatedContent": "4.  **アプリケーションを実行する：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "    ```bash\n    python everything.py\n    ```",
+    "ContentSha": "K7xR0tNDKa5PCfoPgdotcU7+SGX5GuSRRxQMGNFD550=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    python everything.py\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fNHWbD3HzpVPRIXilYqFJkFxC6Tz+emQCQ1iLOqUiEo=",
+        "originContent": "    python everything.py",
+        "translatedContent": "    python everything.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## Download Pre-built Application\n\nYou can download the ready-to-use macOS application (.dmg) directly from the [GitHub Releases](https://github.com/appledragon/everythingByMdfind/releases) page.\n\n## Contributing\n\nContributions are welcome! Please feel free to submit pull requests or open issues for bug fixes, feature requests, or general improvements.\n\n## License\n\nThis project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/LICENSE.md) file for details.\n\n## Author\n\nApple Dragon\n\n## Version\n\n1.4.2\n\n## Acknowledgements\n\n*   Thanks to the PyQt6 team for providing a powerful and versatile GUI framework.\n*   Inspiration from other great file search tools.\n\n\n",
+    "ContentSha": "O1a3xEdLBJmlXtRNLBQw6dhnwyvEwtb8TH1AhJvqBD8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 事前構築済みアプリケーションのダウンロード\n\n準備済みのmacOSアプリケーション（.dmg）は、[GitHub Releases](https://github.com/appledragon/everythingByMdfind/releases)ページから直接ダウンロードできます。\n\n## 貢献について\n\n貢献は歓迎します！バグ修正、機能リクエスト、一般的な改善のためにプルリクエストの提出やイシューの作成をお気軽にどうぞ。\n\n## ライセンス\n\nこのプロジェクトはApache License 2.0の下でライセンスされています。詳細は[LICENSE.md](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/LICENSE.md)ファイルをご参照ください。\n\n## 作者\n\nApple Dragon\n\n## バージョン\n\n1.4.2\n\n## 謝辞\n\n*   強力で多用途なGUIフレームワークを提供してくれたPyQt6チームに感謝します。\n*   他の優れたファイル検索ツールからのインスピレーション。\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 事前構築済みアプリケーションのダウンロード"
+      },
+      {
+        "row": 2,
+        "rowsha": "O3nyPApSBdyqrjb3G0KQHEKDYKJfaHdryLL+uFDWQlk=",
+        "originContent": "## Download Pre-built Application",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "準備済みのmacOSアプリケーション（.dmg）は、[GitHub Releases](https://github.com/appledragon/everythingByMdfind/releases)ページから直接ダウンロードできます。"
+      },
+      {
+        "row": 4,
+        "rowsha": "cFzcruYK5rrLQ1yVsvbYIKE19r+rlk/7ZoxXtO3bVno=",
+        "originContent": "You can download the ready-to-use macOS application (.dmg) directly from the [GitHub Releases](https://github.com/appledragon/everythingByMdfind/releases) page.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 貢献について"
+      },
+      {
+        "row": 6,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "貢献は歓迎します！バグ修正、機能リクエスト、一般的な改善のためにプルリクエストの提出やイシューの作成をお気軽にどうぞ。"
+      },
+      {
+        "row": 8,
+        "rowsha": "LFidKYuEQODryPQht24JUEeKtml++s10BYZ5EcF5/As=",
+        "originContent": "Contributions are welcome! Please feel free to submit pull requests or open issues for bug fixes, feature requests, or general improvements.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 10,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このプロジェクトはApache License 2.0の下でライセンスされています。詳細は[LICENSE.md](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/LICENSE.md)ファイルをご参照ください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "lSKWSzl+8X8jwN+zLiuEyWNGFmnjWEkGo+RgnyBQFkU=",
+        "originContent": "This project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://raw.githubusercontent.com/appledragon/everythingByMdfind/master/LICENSE.md) file for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 作者"
+      },
+      {
+        "row": 14,
+        "rowsha": "/lJ7vsDcUGNTwbzMlvGpyMrTh1D9NOPyP9aFA7E/nEw=",
+        "originContent": "## Author",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Apple Dragon"
+      },
+      {
+        "row": 16,
+        "rowsha": "bYHcCoZapU/79LqeZudAL8zh/DDli0rZEnyJIKlyTuQ=",
+        "originContent": "Apple Dragon",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## バージョン"
+      },
+      {
+        "row": 18,
+        "rowsha": "bniRnJr7ceMBzfcL+FkhP2ag0Z7DVAMGwc+a3IjDY50=",
+        "originContent": "## Version",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1.4.2"
+      },
+      {
+        "row": 20,
+        "rowsha": "jsWhevgnX6+K3Eqe+aIBzWjSb+YhbnhFDocQcKRrvVA=",
+        "originContent": "1.4.2",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 22,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   強力で多用途なGUIフレームワークを提供してくれたPyQt6チームに感謝します。"
+      },
+      {
+        "row": 24,
+        "rowsha": "zeRCZ7/WGiSPD42TRq+4fFgQfe8icpBcictEpK3MApo=",
+        "originContent": "*   Thanks to the PyQt6 team for providing a powerful and versatile GUI framework.",
+        "translatedContent": "*   他の優れたファイル検索ツールからのインスピレーション。"
+      },
+      {
+        "row": 25,
+        "rowsha": "xO3WODLkxrnny67w/8wPIF3Jo8DQy7StbvGbaRck0zw=",
+        "originContent": "*   Inspiration from other great file search tools.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### تجاوز Markdown/MDX
+
+لا يدعم هذا البرنامج الإضافي Markdown و MDX، ولكن إذا كان هذا البرنامج الإضافي يدعم لغة داخل كتل الشيفرة (مثل Vue)، فقد يحدث تنسيق غير مقصود داخل كتل الشيفرة.
+
+لمنع التنسيق غير المقصود، يمكنك استخدام تجاوزات التكوين لـ Markdown و MDX.
+
+مثال JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## الخيارات
 
 ### السمات المخصصة
@@ -106,14 +129,13 @@ export default {
 - مثال على `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ export default {
 - مثال على `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -145,32 +167,43 @@ export default {
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### تحويل البنية النحوية
+### تحويل الصياغة النحوية
 
 متوفر لأول مرة في الإصدار v0.7.7.
 
-إذا حدث التفاف للسطر في اسم الصنف المكتوب بصيغة غير تعبيرية، يتم تحويله إلى صيغة تعبيرية. هذا التحويل لا يدعم التنسيق العكسي.
+إذا حدث التفاف للسطر في اسم صنف مكتوب بصياغة غير تعبيرية، يتم تحويله إلى صياغة تعبيرية. هذا التحويل لا يدعم التنسيق العكسي.
 
 <!-- prettier-ignore -->
 الافتراضي | تجاوز CLI&nbsp; | تجاوز API&nbsp;
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## ارتباط الإصدارات مع الإضافات الشقيقة
+### عرض الطباعة لأسماء الأصناف
 
-بدءًا من الإصدار `0.6.0`، عندما يكون هناك إصدار فرعي على أحد الجانبين، أخطط لعكس هذا التغيير على الجانب الآخر أيضًا إذا أمكن ذلك.
+متوفر لأول مرة في الإصدار v0.10.0.
 
-![ارتباط الإصدارات.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+حدد عرض الطباعة لاسم الصنف. إذا لم يتم توفير قيمة، سيتم استخدام قيمة `printWidth` كافتراضية.
+
+<!-- prettier-ignore -->
+الافتراضي | تجاوز CLI&nbsp; | تجاوز API&nbsp;
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## الارتباط بين الإصدارات والإضافات الشقيقة
+
+بدءًا من الإصدار `0.6.0`، عند وجود إصدار فرعي في أحد الجانبين، أخطط لعكس هذا التغيير على الجانب الآخر أيضًا إذا أمكن.
+
+![الارتباط بين الإصدارات.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## التوافق مع إضافات Prettier الأخرى
 
-إذا كان هناك أكثر من إضافة Prettier يمكنها معالجة النص الذي تريد تنسيقه، سيستخدم Prettier فقط آخر إضافة من تلك الإضافات.
+إذا كان بإمكان أكثر من إضافة Prettier التعامل مع النص الذي تريد تنسيقه، فسيستخدم Prettier فقط آخر إضافة من هذه الإضافات.
 
-في هذه الحالة، يمكنك تكوين ذلك كما يلي بإضافة [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) لتطبيق تلك الإضافات بشكل متسلسل.
+في هذه الحالة، يمكنك تهيئتها كما يلي عن طريق إضافة [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) لتطبيق هذه الإضافات بالتسلسل.
 
 مثال JSON:
 
-<!-- prettier-ignore -->
+<!-- تجاهل التنسيق -->
 ```json
 {
   "plugins": [
@@ -188,6 +221,6 @@ export default {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

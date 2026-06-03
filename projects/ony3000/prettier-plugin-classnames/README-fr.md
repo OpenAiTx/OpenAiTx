@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Substitution Markdown/MDX
+
+Ce plugin ne prend pas en charge Markdown et MDX, mais si ce plugin prend en charge un langage à l'intérieur des blocs de code (par exemple, Vue), un formatage non souhaité peut se produire à l'intérieur des blocs de code.
+
+Pour éviter un formatage non souhaité, vous pouvez utiliser des substitutions de configuration pour Markdown et MDX.
+
+Exemple JSON :
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Options
 
 ### Attributs personnalisés
@@ -106,14 +129,13 @@ Ceci est le critère pour terminer le nom de classe sur chaque ligne lors du rem
 - Exemple `absolute` :
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ Ceci est le critère pour terminer le nom de classe sur chaque ligne lors du rem
 - Exemple `relative` :
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,32 +163,43 @@ Ceci est le critère pour terminer le nom de classe sur chaque ligne lors du rem
   ```
 
 <!-- prettier-ignore -->
-Par défaut | Surcharge CLI&nbsp; | Surcharge API&nbsp;
+Par défaut | Remplacement CLI&nbsp; | Remplacement API&nbsp;
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### Transformation de syntaxe
+### Transformation de la syntaxe
 
-Disponible pour la première fois en v0.7.7.
+Disponible à partir de la v0.7.7.
 
-Si un retour à la ligne se produit dans un nom de classe écrit en syntaxe non-expression, il est transformé en syntaxe expression. Cette transformation ne supporte pas la mise en forme réversible.
+Si un retour à la ligne se produit dans un nom de classe écrit en syntaxe non-expression, il est transformé en syntaxe d'expression. Cette transformation ne prend pas en charge le formatage réversible.
 
 <!-- prettier-ignore -->
-Par défaut | Surcharge CLI&nbsp; | Surcharge API&nbsp;
+Par défaut | Remplacement CLI&nbsp; | Remplacement API&nbsp;
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Corrélation de version avec les plugins associés
+### Largeur d’impression des noms de classes
 
-À partir de `0.6.0`, lorsqu’une version mineure est publiée d’un côté, je prévois de refléter ce changement de l’autre côté si possible.
+Disponible à partir de la v0.10.0.
 
-![Corrélation de version.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+Spécifiez la largeur d’impression du nom de classe. Si aucune valeur n’est fournie, la valeur de `printWidth` est utilisée par défaut.
+
+<!-- prettier-ignore -->
+Par défaut | Remplacement CLI&nbsp; | Remplacement API&nbsp;
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Corrélation de versions avec les plugins frères
+
+À partir de la version `0.6.0`, lorsqu’il y a une version mineure d’un côté, je prévois de répercuter cette modification de l’autre côté également si possible.
+
+![Corrélation de versions.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## Compatibilité avec d’autres plugins Prettier
 
 Si plusieurs plugins Prettier peuvent gérer le texte que vous souhaitez formater, Prettier n’utilisera que le dernier de ces plugins.
 
-Dans ce cas, vous pouvez configurer comme suit en ajoutant [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) pour appliquer ces plugins séquentiellement.
+Dans ce cas, vous pouvez le configurer comme suit en ajoutant [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) pour appliquer ces plugins de manière séquentielle.
 
 Exemple JSON :
 
@@ -188,6 +221,6 @@ Exemple JSON :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

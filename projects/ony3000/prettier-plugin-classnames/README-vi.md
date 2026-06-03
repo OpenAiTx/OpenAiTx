@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Ghi đè Markdown/MDX
+
+Plugin này không hỗ trợ Markdown và MDX, nhưng nếu plugin này hỗ trợ một ngôn ngữ bên trong các khối mã (ví dụ: Vue), định dạng không mong muốn có thể xảy ra bên trong các khối mã.
+
+Để ngăn chặn định dạng không mong muốn, bạn có thể sử dụng các cấu hình ghi đè cho Markdown và MDX.
+
+Ví dụ JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Tùy chọn
 
 ### Thuộc tính Tùy chỉnh
@@ -106,14 +129,13 @@ Giá trị mặc định đã thay đổi từ `relative` sang `absolute` trong 
 - ví dụ về `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ Giá trị mặc định đã thay đổi từ `relative` sang `absolute` trong 
 - ví dụ về `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -147,26 +169,37 @@ Mặc định | Ghi đè CLI&nbsp; | Ghi đè API&nbsp;
 
 ### Biến đổi cú pháp
 
-Lần đầu tiên có mặt ở v0.7.7.
+Có mặt lần đầu trong v0.7.7.
 
-Nếu một dòng bị ngắt trong tên lớp được viết ở cú pháp không phải biểu thức, nó sẽ được chuyển thành cú pháp biểu thức. Sự biến đổi này không hỗ trợ định dạng đảo ngược.
+Nếu có hiện tượng ngắt dòng trong tên lớp viết theo cú pháp không phải biểu thức, nó sẽ được chuyển đổi sang cú pháp biểu thức. Việc chuyển đổi này không hỗ trợ định dạng đảo ngược.
 
 <!-- prettier-ignore -->
 Mặc định | Ghi đè CLI&nbsp; | Ghi đè API&nbsp;
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Tương quan phiên bản với các plugin cùng loại
+### Độ rộng in tên lớp
 
-Bắt đầu từ `0.6.0`, khi có một bản phát hành nhỏ ở một phía, tôi dự định sẽ phản ánh thay đổi đó sang phía còn lại nếu có thể.
+Có mặt lần đầu trong v0.10.0.
 
-![Tương quan phiên bản.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+Chỉ định độ rộng in của tên lớp. Nếu không cung cấp giá trị, giá trị `printWidth` sẽ được sử dụng làm mặc định.
+
+<!-- prettier-ignore -->
+Mặc định | Ghi đè CLI&nbsp; | Ghi đè API&nbsp;
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Liên hệ phiên bản với các plugin cùng loại
+
+Bắt đầu từ `0.6.0`, khi có một bản phát hành nhỏ ở một bên, tôi dự định sẽ phản ánh sự thay đổi đó ở bên còn lại nếu có thể.
+
+![Mối liên hệ phiên bản.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## Tương thích với các plugin Prettier khác
 
-Nếu có nhiều hơn một plugin Prettier có thể xử lý đoạn văn bản bạn muốn định dạng, Prettier sẽ chỉ sử dụng plugin cuối cùng trong số đó.
+Nếu có nhiều hơn một plugin Prettier có thể xử lý đoạn văn bản bạn muốn định dạng, Prettier chỉ sử dụng plugin cuối cùng trong số đó.
 
-Trong trường hợp này, bạn có thể cấu hình như sau bằng cách thêm [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) để áp dụng các plugin đó tuần tự.
+Trong trường hợp này, bạn có thể cấu hình như sau bằng cách thêm [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) để áp dụng các plugin đó lần lượt.
 
 Ví dụ JSON:
 
@@ -188,6 +221,6 @@ Ví dụ JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

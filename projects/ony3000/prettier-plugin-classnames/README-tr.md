@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Markdown/MDX Geçersiz Kılma
+
+Bu eklenti Markdown ve MDX'i desteklemez, ancak bu eklenti kod bloklarının içinde bir dili destekliyorsa (ör. Vue), kod bloklarının içinde istenmeyen biçimlendirme oluşabilir.
+
+İstenmeyen biçimlendirmeyi önlemek için, Markdown ve MDX için yapılandırma geçersiz kılmalarını kullanabilirsiniz.
+
+JSON örneği:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Seçenekler
 
 ### Özel Nitelikler
@@ -106,14 +129,13 @@ Bu, orijinal sınıf adını çok satırlı bir sınıf adıyla değiştirirken,
 - `absolute` örneği:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ Bu, orijinal sınıf adını çok satırlı bir sınıf adıyla değiştirirken,
 - `relative` örneği:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -145,28 +167,39 @@ Varsayılan | CLI&nbsp;Geçersiz Kılma | API&nbsp;Geçersiz Kılma
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### Söz Dizimi Dönüşümü
+### Sözdizimi Dönüşümü
 
-İlk olarak v0.7.7'de mevcut.
+İlk olarak v0.7.7’de kullanılabilir.
 
-Eğer bir sınıf adı ifade olmayan söz diziminde yazılmışsa ve satır sonu kayması olursa, bu ifade söz dizimine dönüştürülür. Bu dönüşüm, geri alınabilir biçimlendirmeyi desteklemez.
+Bir sınıf adı ifadesiz sözdizimi ile yazıldığında ve satır kırılması gerçekleşirse, bu ifade sözdizimi haline dönüştürülür. Bu dönüşüm geri döndürülebilir biçimlendirmeyi desteklemez.
 
 <!-- prettier-ignore -->
 Varsayılan | CLI&nbsp;Geçersiz Kılma | API&nbsp;Geçersiz Kılma
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Kardeş eklentilerle sürüm korelasyonu
+### Classnames Yazdırma Genişliği
 
-`0.6.0` sürümünden itibaren, bir tarafta küçük bir sürüm çıkarsa, mümkünse bu değişikliği diğer tarafa da yansıtmayı planlıyorum.
+İlk olarak v0.10.0’de kullanılabilir.
+
+Sınıf adının yazdırma genişliğini belirtin. Eğer bir değer girilmezse, varsayılan olarak `printWidth` değeri kullanılır.
+
+<!-- prettier-ignore -->
+Varsayılan | CLI&nbsp;Geçersiz Kılma | API&nbsp;Geçersiz Kılma
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Sibling eklentilerle sürüm korelasyonu
+
+`0.6.0` ile birlikte, bir tarafta minör bir sürüm çıktığında, mümkünse bu değişikliği diğer tarafta da yansıtmayı planlıyorum.
 
 ![Sürüm korelasyonu.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## Diğer Prettier eklentileriyle uyumluluk
 
-Biçimlendirmek istediğiniz metni birden fazla Prettier eklentisi işleyebiliyorsa, Prettier yalnızca bu eklentilerin sonuncusunu kullanır.
+Formatlamak istediğiniz metni birden fazla Prettier eklentisi işleyebiliyorsa, Prettier yalnızca bu eklentilerin sonuncusunu kullanır.
 
-Bu durumda, bu eklentileri sırasıyla uygulamak için [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) ekleyerek aşağıdaki şekilde yapılandırabilirsiniz.
+Bu durumda, eklentileri sıralı olarak uygulamak için [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) ekleyerek aşağıdaki gibi yapılandırabilirsiniz.
 
 JSON örneği:
 
@@ -188,6 +221,6 @@ JSON örneği:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

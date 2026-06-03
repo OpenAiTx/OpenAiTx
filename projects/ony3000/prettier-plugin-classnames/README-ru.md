@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Переопределение Markdown/MDX
+
+Этот плагин не поддерживает Markdown и MDX, но если плагин поддерживает язык внутри блоков кода (например, Vue), может возникнуть нежелательное форматирование внутри блоков кода.
+
+Чтобы избежать нежелательного форматирования, вы можете использовать переопределения конфигурации для Markdown и MDX.
+
+Пример JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Опции
 
 ### Пользовательские атрибуты
@@ -106,14 +129,13 @@ export default {
 - пример для `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ export default {
 - пример `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,7 +163,7 @@ export default {
   ```
 
 <!-- prettier-ignore -->
-По умолчанию | Переопределение в CLI&nbsp; | Переопределение в API&nbsp;
+По умолчанию | Переопределение CLI&nbsp; | Переопределение API&nbsp;
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
@@ -149,24 +171,35 @@ export default {
 
 Впервые доступно в v0.7.7.
 
-Если перенос строки происходит в имени класса, написанном не в синтаксисе выражения, оно преобразуется в синтаксис выражения. Эта трансформация не поддерживает обратимое форматирование.
+Если в имени класса, написанном не в виде выражения, происходит перенос строки, синтаксис преобразуется в выражение. Эта трансформация не поддерживает обратимое форматирование.
 
 <!-- prettier-ignore -->
-По умолчанию | Переопределение в CLI&nbsp; | Переопределение в API&nbsp;
+По умолчанию | Переопределение CLI&nbsp; | Переопределение API&nbsp;
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Корреляция версий с сопутствующими плагинами
+### Ширина печати имён классов
 
-Начиная с версии `0.6.0`, при выпуске минорного обновления на одной стороне я планирую, по возможности, отражать это изменение и на другой стороне.
+Впервые доступно в v0.10.0.
 
-![Корреляция версий.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+Укажите ширину печати имени класса. Если значение не указано, по умолчанию используется значение `printWidth`.
+
+<!-- prettier-ignore -->
+По умолчанию | Переопределение CLI&nbsp; | Переопределение API&nbsp;
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Соответствие версий с родственными плагинами
+
+Начиная с версии `0.6.0`, при минорном релизе с одной стороны, я планирую по возможности отражать это изменение и на другой стороне.
+
+![Соответствие версий.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## Совместимость с другими плагинами Prettier
 
-Если более одного плагина Prettier может обработать текст, который вы хотите отформатировать, Prettier использует только последний из этих плагинов.
+Если более одного плагина Prettier может обработать текст, который вы хотите отформатировать, Prettier будет использовать только последний из этих плагинов.
 
-В этом случае вы можете настроить последовательное применение этих плагинов, добавив [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge).
+В этом случае вы можете настроить это следующим образом, добавив [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge), чтобы применить эти плагины последовательно.
 
 Пример JSON:
 
@@ -188,6 +221,6 @@ export default {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

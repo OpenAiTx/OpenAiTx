@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Substituição de Markdown/MDX
+
+Este plugin não suporta Markdown e MDX, mas se este plugin suportar um idioma dentro de blocos de código (por exemplo, Vue), pode ocorrer formatação indesejada dentro dos blocos de código.
+
+Para evitar formatação indesejada, você pode usar substituições de configuração para Markdown e MDX.
+
+Exemplo de JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Opções
 
 ### Atributos Personalizados
@@ -106,14 +129,13 @@ Este é o critério para terminar o nome da classe em cada linha ao substituir o
 - Exemplo de `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ Este é o critério para terminar o nome da classe em cada linha ao substituir o
 - Exemplo de `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -149,26 +171,37 @@ Padrão | Substituição&nbsp;CLI | Substituição&nbsp;API
 
 Disponível pela primeira vez na v0.7.7.
 
-Se ocorrer quebra de linha em um nome de classe escrito em sintaxe não-expressão, ele é transformado em sintaxe de expressão. Esta transformação não suporta formatação reversível.
+Se ocorrer quebra de linha em um nome de classe escrito em sintaxe não-expressão, ele é transformado em sintaxe de expressão. Essa transformação não suporta formatação reversível.
 
 <!-- prettier-ignore -->
 Padrão | Substituição&nbsp;CLI | Substituição&nbsp;API
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Correlação de versões com plugins irmãos
+### Largura de Impressão dos Classnames
 
-A partir da versão `0.6.0`, quando houver um lançamento secundário de um lado, pretendo refletir essa alteração no outro lado também, se possível.
+Disponível pela primeira vez na v0.10.0.
 
-![Correlação de versões.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+Especifica a largura de impressão do nome da classe. Se nenhum valor for fornecido, o valor de `printWidth` é usado como padrão.
+
+<!-- prettier-ignore -->
+Padrão | Substituição&nbsp;CLI | Substituição&nbsp;API
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Correlação de versão com plugins irmãos
+
+A partir da versão `0.6.0`, quando houver um lançamento secundário de um lado, planejo refletir essa alteração do outro lado também, se possível.
+
+![Correlação de versão.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## Compatibilidade com outros plugins do Prettier
 
-Se mais de um plugin do Prettier puder processar o texto que você deseja formatar, o Prettier usará apenas o último desses plugins.
+Se mais de um plugin Prettier puder lidar com o texto que você deseja formatar, o Prettier usará apenas o último desses plugins.
 
 Neste caso, você pode configurar da seguinte forma, adicionando o [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) para aplicar esses plugins sequencialmente.
 
-Exemplo em JSON:
+Exemplo de JSON:
 
 <!-- prettier-ignore -->
 ```json
@@ -188,6 +221,6 @@ Exemplo em JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

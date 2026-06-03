@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Anulación de Markdown/MDX
+
+Este complemento no admite Markdown ni MDX, pero si este complemento admite un lenguaje dentro de los bloques de código (por ejemplo, Vue), puede producirse un formato no deseado dentro de los bloques de código.
+
+Para evitar un formato no deseado, puede usar anulaciones de configuración para Markdown y MDX.
+
+Ejemplo de JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Opciones
 
 ### Atributos Personalizados
@@ -106,14 +129,13 @@ Este es el criterio para terminar el nombre de clase en cada línea al reemplaza
 - Ejemplo de `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ Este es el criterio para terminar el nombre de clase en cada línea al reemplaza
 - Ejemplo de `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,34 +163,45 @@ Este es el criterio para terminar el nombre de clase en cada línea al reemplaza
   ```
 
 <!-- prettier-ignore -->
-Por defecto | Anulación CLI&nbsp; | Anulación API&nbsp;
+Predeterminado | Anulación&nbsp;CLI | Anulación&nbsp;API
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### Transformación de sintaxis
+### Transformación de Sintaxis
 
-Disponible por primera vez en v0.7.7.
+Disponible por primera vez en la v0.7.7.
 
-Si ocurre un salto de línea en un nombre de clase escrito en sintaxis no expresión, se transforma en sintaxis de expresión. Esta transformación no soporta un formato reversible.
+Si ocurre un salto de línea en un nombre de clase escrito en sintaxis no expresiva, se transforma a sintaxis de expresión. Esta transformación no admite formato reversible.
 
 <!-- prettier-ignore -->
-Por defecto | Anulación CLI&nbsp; | Anulación API&nbsp;
+Predeterminado | Anulación&nbsp;CLI | Anulación&nbsp;API
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Correlación de versiones con plugins hermanos
+### Ancho de Impresión de Classnames
 
-A partir de `0.6.0`, cuando hay una versión menor en un lado, planeo reflejar ese cambio en el otro lado también si es posible.
+Disponible por primera vez en la v0.10.0.
 
-![Correlación de versiones.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+Especifica el ancho de impresión del nombre de la clase. Si no se proporciona un valor, se utiliza el valor de `printWidth` como predeterminado.
+
+<!-- prettier-ignore -->
+Predeterminado | Anulación&nbsp;CLI | Anulación&nbsp;API
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Correlación de versión con plugins hermanos
+
+A partir de la `0.6.0`, cuando haya una versión menor en uno de los lados, planeo reflejar ese cambio en el otro lado también si es posible.
+
+![Correlación de versión.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## Compatibilidad con otros plugins de Prettier
 
-Si más de un plugin de Prettier puede manejar el texto que quieres formatear, Prettier usará solo el último de esos plugins.
+Si más de un plugin de Prettier puede manejar el texto que desea formatear, Prettier solo usará el último de esos plugins.
 
-En este caso, puedes configurarlo como sigue añadiendo [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) para aplicar esos plugins secuencialmente.
+En este caso, puede configurarlo de la siguiente manera agregando [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) para aplicar esos plugins secuencialmente.
 
-Ejemplo JSON:
+Ejemplo de JSON:
 
 <!-- prettier-ignore -->
 ```json
@@ -188,6 +221,6 @@ Ejemplo JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

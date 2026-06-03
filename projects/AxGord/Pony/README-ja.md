@@ -1,5 +1,37 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 [![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)
-[![Haxelib](https://img.shields.io/badge/haxelib-1.9.11-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)
+[![Haxelib](https://img.shields.io/badge/haxelib-1.9.12-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Join the chat at https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)
@@ -8,12 +40,12 @@
 <p align="center"><img width="65%" src="https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg"/></p>
 <br/>
 
-Ponyは、プロジェクトの開発、準備、ビルド、テスト、および公開のためのツールセットです。
-Heaps、PixiJS、NodeJS、Electron、Cordova、PHP、OpenFL、Unity3D、Flash、Cocos Creatorアプリケーションの作成に使用できます。
+Ponyは、プロジェクトの開発、準備、ビルド、テスト、公開のためのツールセットです。
+Heaps、PixiJS、NodeJS、Electron、Cordova、PHP、OpenFL、Unity3D、Flash、Cocos Creatorアプリケーションの作成に利用できます。
 
-サーバーサイドまたはクライアントサイドで動作します。
+サーバーまたはクライアントサイドで動作します。
 
-ライブラリにはXMLベースのUI構築システムとコンポーネント、強力なイベントシステム、多数のユーティリティ関数が含まれています。
+このライブラリには、XMLベースのUI構築システムとコンポーネント、強力なイベントシステム、多くのユーティリティ関数があります。
 
 インストール
 ============
@@ -25,7 +57,7 @@ Heaps、PixiJS、NodeJS、Electron、Cordova、PHP、OpenFL、Unity3D、Flash、
 
     haxelib git pony https://github.com/AxGord/Pony
 
-Ponyツールのインストール
+Pony Toolsのインストール
 
     haxelib run pony
 
@@ -33,28 +65,29 @@ Ponyツールのインストール
 
     haxelib run pony install +code -code-insiders +npm +userpath -nodepath +ponypath
 
-`+` - オプションを有効にする
+`+` - オプションを有効化
 
-`-` - オプションを無効にする
+`-` - オプションを無効化
 
-`code` - Visual Studio Code推奨プラグインをインストール
-`code-insiders` - Visual Studio Code Insiders 推奨プラグインをインストール
+`code` - Visual Studio Code 推奨プラグインのインストール
 
-`npm` - NPM (Node Package Manager) モジュールをインストール
+`code-insiders` - Visual Studio Code Insiders 推奨プラグインのインストール
 
-`userpath` - ユーザーパスを設定
+`npm` - NPM（Node Package Manager）モジュールのインストール
 
-`nodepath` - node_modules へのユーザーパスを設定、Windows のみ
+`userpath` - ユーザーパスの設定
 
-`ponypath` - pony.exe へのユーザーパスを設定、Windows のみ
+`nodepath` - Windowsのみ、node_modulesへのユーザーパスを設定
 
-CI インストール例
+`ponypath` - Windows専用でユーザーパスをpony.exeに設定
+
+CIインストール例
 
     haxelib run pony install -code -code-insiders +npm +userpath
 
 [インストール動画ガイド](https://www.youtube.com/watch?v=ufYIEmQcv4o)
 
-[Haxe + Heaps + Pony - クロスプラットフォームアプリケーション作成動画](https://youtu.be/gAY77ESYOUY)
+[Haxe + Heaps + Pony - クロスプラットフォームアプリ作成動画](https://youtu.be/gAY77ESYOUY)
 
 マニュアル
 ------
@@ -78,9 +111,8 @@ CI インストール例
 * [リファレンスブック](http://axgord.github.io/Pony/)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Markdown/MDX Override
+
+Deze plugin ondersteunt geen Markdown en MDX, maar als deze plugin een taal binnen codeblokken ondersteunt (bijv. Vue), kan onbedoelde opmaak optreden binnen de codeblokken.
+
+Om onbedoelde opmaak te voorkomen, kun je configuratie-overrides gebruiken voor Markdown en MDX.
+
+JSON-voorbeeld:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Opties
 
 ### Aangepaste Attributen
@@ -106,14 +129,13 @@ Dit is het criterium voor het beëindigen van de klassenaam op elke regel wannee
 - `absolute` voorbeeld:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ Dit is het criterium voor het beëindigen van de klassenaam op elke regel wannee
 - `relative` voorbeeld:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -145,28 +167,39 @@ Standaard | CLI&nbsp;Override | API&nbsp;Override
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### Syntaxistransformatie
+### Syntaxis Transformatie
 
 Eerst beschikbaar in v0.7.7.
 
-Als een regelomloop optreedt in een classnaam geschreven in niet-expressie syntaxis, wordt deze getransformeerd naar expressie syntaxis. Deze transformatie ondersteunt geen omkeerbare opmaak.
+Als een regelafbreking plaatsvindt in een klassennaam geschreven in niet-expressie syntaxis, wordt deze getransformeerd naar expressie syntaxis. Deze transformatie ondersteunt geen omkeerbare opmaak.
 
 <!-- prettier-ignore -->
 Standaard | CLI&nbsp;Override | API&nbsp;Override
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Versiecorrelatie met zuster-plugins
+### Printbreedte van klassenamen
 
-Vanaf versie `0.6.0`, wanneer er een minor release is aan de ene kant, ben ik van plan die wijziging indien mogelijk ook aan de andere kant te reflecteren.
+Eerst beschikbaar in v0.10.0.
+
+Specificeer de printbreedte van de klassennaam. Als er geen waarde wordt opgegeven, wordt de waarde van `printWidth` als standaard gebruikt.
+
+<!-- prettier-ignore -->
+Standaard | CLI&nbsp;Override | API&nbsp;Override
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Versiecorrelatie met verwante plugins
+
+Vanaf versie `0.6.0`, wanneer er een minor release is aan één kant, is het de bedoeling om die wijziging indien mogelijk ook aan de andere kant te reflecteren.
 
 ![Versiecorrelatie.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## Compatibiliteit met andere Prettier-plugins
 
-Als meer dan één Prettier-plugin de tekst die je wilt formatteren kan verwerken, zal Prettier alleen de laatste van die plugins gebruiken.
+Als meer dan één Prettier-plugin de tekst die u wilt formatteren kan verwerken, zal Prettier alleen de laatste van deze plugins gebruiken.
 
-In dat geval kun je het als volgt configureren door [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) toe te voegen om die plugins opeenvolgend toe te passen.
+In dat geval kunt u het als volgt configureren door [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) toe te voegen, zodat deze plugins opeenvolgend worden toegepast.
 
 JSON-voorbeeld:
 
@@ -188,6 +221,6 @@ JSON-voorbeeld:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

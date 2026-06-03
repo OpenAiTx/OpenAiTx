@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### การแทนที่ Markdown/MDX
+
+ปลั๊กอินนี้ไม่รองรับ Markdown และ MDX แต่หากปลั๊กอินนี้รองรับภาษาในบล็อกโค้ด (เช่น Vue) อาจมีการจัดรูปแบบที่ไม่ตั้งใจเกิดขึ้นภายในบล็อกโค้ด
+
+เพื่อป้องกันการจัดรูปแบบที่ไม่ตั้งใจ คุณสามารถใช้การแทนค่าคอนฟิกสำหรับ Markdown และ MDX ได้
+
+ตัวอย่าง JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## ตัวเลือก
 
 ### คุณสมบัติที่กำหนดเอง
@@ -106,14 +129,13 @@ export default {
 - ตัวอย่าง `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ export default {
 - ตัวอย่าง `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,32 +163,43 @@ export default {
   ```
 
 <!-- prettier-ignore -->
-ค่าเริ่มต้น | การแทนที่ CLI&nbsp; | การแทนที่ API&nbsp;
+ค่าเริ่มต้น | คำสั่ง CLI&nbsp;Override | คำสั่ง API&nbsp;Override
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
 ### การแปลงไวยากรณ์
 
-เริ่มใช้งานได้ตั้งแต่ v0.7.7
+มีให้ใช้ครั้งแรกใน v0.7.7
 
-หากเกิดการตัดบรรทัดในชื่อคลาสที่เขียนด้วยไวยากรณ์ที่ไม่ใช่นิพจน์ จะถูกแปลงเป็นไวยากรณ์แบบนิพจน์ การแปลงนี้ไม่รองรับการจัดรูปแบบย้อนกลับ
+หากเกิดการตัดบรรทัดในชื่อคลาสที่เขียนด้วยไวยากรณ์แบบไม่ใช่นิพจน์ จะถูกแปลงเป็นไวยากรณ์แบบนิพจน์ การแปลงนี้ไม่รองรับการจัดรูปแบบย้อนกลับ
 
 <!-- prettier-ignore -->
-ค่าเริ่มต้น | การแทนที่ CLI&nbsp; | การแทนที่ API&nbsp;
+ค่าเริ่มต้น | คำสั่ง CLI&nbsp;Override | คำสั่ง API&nbsp;Override
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
+### ความกว้างในการพิมพ์ชื่อคลาส
+
+มีให้ใช้ครั้งแรกใน v0.10.0
+
+กำหนดความกว้างในการพิมพ์ของชื่อคลาส หากไม่ได้ระบุค่า จะใช้ค่าของ `printWidth` เป็นค่าเริ่มต้น
+
+<!-- prettier-ignore -->
+ค่าเริ่มต้น | คำสั่ง CLI&nbsp;Override | คำสั่ง API&nbsp;Override
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
 ## ความสัมพันธ์ของเวอร์ชันกับปลั๊กอินที่เกี่ยวข้อง
 
-เริ่มต้นตั้งแต่เวอร์ชัน `0.6.0` เมื่อมีการออกเวอร์ชันย่อยในฝั่งหนึ่ง ฉันมีแผนจะสะท้อนการเปลี่ยนแปลงนั้นไปยังอีกฝั่งหนึ่งด้วยหากเป็นไปได้
+เริ่มต้นที่ `0.6.0` เมื่อมี minor release ด้านใดด้านหนึ่ง มีแผนจะสะท้อนการเปลี่ยนแปลงนั้นไปอีกด้านด้วยหากสามารถทำได้
 
-![ความสัมพันธ์ของเวอร์ชัน](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+![Version correlation.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
-## ความเข้ากันได้กับปลั๊กอิน Prettier อื่น ๆ
+## ความเข้ากันได้กับปลั๊กอิน Prettier อื่นๆ
 
-หากมีปลั๊กอิน Prettier มากกว่าหนึ่งที่สามารถจัดรูปแบบข้อความที่คุณต้องการ Prettier จะใช้เฉพาะปลั๊กอินตัวสุดท้ายเท่านั้น
+หากมีปลั๊กอิน Prettier มากกว่าหนึ่งที่สามารถจัดการข้อความที่คุณต้องการจัดรูปแบบ Prettier จะใช้เฉพาะปลั๊กอินตัวสุดท้ายเท่านั้น
 
-ในกรณีนี้ คุณสามารถกำหนดค่าได้ดังนี้โดยเพิ่ม [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) เพื่อให้ปลั๊กอินเหล่านั้นทำงานตามลำดับ
+ในกรณีนี้ คุณสามารถกำหนดค่าได้ดังตัวอย่างต่อไปนี้โดยเพิ่ม [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) เพื่อให้ปลั๊กอินเหล่านั้นทำงานตามลำดับ
 
 ตัวอย่าง JSON:
 
@@ -188,6 +221,6 @@ export default {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

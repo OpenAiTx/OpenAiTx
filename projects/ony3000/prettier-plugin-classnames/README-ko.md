@@ -71,6 +71,29 @@ export default {
   endingPosition: 'absolute',
 };
 ```
+
+### Markdown/MDX 오버라이드
+
+이 플러그인은 Markdown과 MDX를 지원하지 않지만, 만약 이 플러그인이 코드 블록 내의 언어(Vue 등)를 지원할 경우 코드 블록 내에서 원치 않는 서식이 발생할 수 있습니다.
+
+원치 않는 서식을 방지하려면 Markdown 및 MDX에 대한 구성 오버라이드를 사용할 수 있습니다.
+
+JSON 예시:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
 ## 옵션
 
 ### 사용자 정의 속성
@@ -106,14 +129,13 @@ v0.5.0에서 처음 제공되었습니다.<br>
 
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ v0.5.0에서 처음 제공되었습니다.<br>
 - `relative` 예제:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,32 +163,43 @@ v0.5.0에서 처음 제공되었습니다.<br>
   ```
 
 <!-- prettier-ignore -->
-기본 | CLI&nbsp;재정의 | API&nbsp;재정의
+기본값 | CLI&nbsp;재정의 | API&nbsp;재정의
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
 ### 구문 변환
 
-v0.7.7에서 처음 지원됩니다.
+v0.7.7에서 처음 도입되었습니다.
 
-비표현식 구문으로 작성된 클래스 이름에서 줄 바꿈이 발생하면, 이를 표현식 구문으로 변환합니다. 이 변환은 가역적인 포맷팅을 지원하지 않습니다.
+비표현식 구문으로 작성된 클래스 이름에서 줄 바꿈이 발생하면 표현식 구문으로 변환됩니다. 이 변환은 되돌릴 수 있는 포맷팅을 지원하지 않습니다.
 
 <!-- prettier-ignore -->
-기본 | CLI&nbsp;재정의 | API&nbsp;재정의
+기본값 | CLI&nbsp;재정의 | API&nbsp;재정의
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## 형제 플러그인과의 버전 연동
+### 클래스명 인쇄 폭
 
-`0.6.0`부터 한 쪽에서 마이너 릴리스가 있을 경우, 가능하면 다른 쪽에도 해당 변경 사항을 반영할 계획입니다.
+v0.10.0에서 처음 도입되었습니다.
 
-![버전 연동.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+클래스 이름의 인쇄 폭을 지정합니다. 값이 지정되지 않은 경우 기본값으로 `printWidth` 값이 사용됩니다.
+
+<!-- prettier-ignore -->
+기본값 | CLI&nbsp;재정의 | API&nbsp;재정의
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## 형제 플러그인과의 버전 상관관계
+
+`0.6.0`부터 한쪽에서 마이너 릴리즈가 있을 경우, 가능하다면 그 변경사항을 다른 쪽에도 반영할 예정입니다.
+
+![버전 상관관계.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## 다른 Prettier 플러그인과의 호환성
 
-포맷팅하려는 텍스트를 처리할 수 있는 Prettier 플러그인이 두 개 이상 있을 경우, Prettier는 그 중 마지막 플러그인만 사용합니다.
+포맷하려는 텍스트를 처리할 수 있는 Prettier 플러그인이 둘 이상일 경우, Prettier는 그중 마지막 플러그인만 사용합니다.
 
-이 경우, [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge)를 추가하여 해당 플러그인들을 순차적으로 적용하도록 다음과 같이 구성할 수 있습니다.
+이 경우, [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge)를 추가하여 이러한 플러그인들이 순차적으로 적용되도록 아래와 같이 설정할 수 있습니다.
 
 JSON 예시:
 
@@ -188,6 +221,6 @@ JSON 예시:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

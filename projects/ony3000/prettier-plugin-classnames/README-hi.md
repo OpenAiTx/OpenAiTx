@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### मार्कडाउन/MDX ओवरराइड
+
+यह प्लगइन मार्कडाउन और MDX का समर्थन नहीं करता है, लेकिन यदि यह प्लगइन कोड ब्लॉक्स के अंदर किसी भाषा का समर्थन करता है (जैसे Vue), तो कोड ब्लॉक्स के अंदर अनजाने में फॉर्मेटिंग हो सकती है।
+
+अनचाही फॉर्मेटिंग को रोकने के लिए, आप मार्कडाउन और MDX के लिए कॉन्फ़िगरेशन ओवरराइड्स का उपयोग कर सकते हैं।
+
+JSON उदाहरण:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## विकल्प
 
 ### कस्टम एट्रिब्यूट्स
@@ -106,14 +129,13 @@ v0.5.0 में पहली बार उपलब्ध।<br>
 - `absolute` उदाहरण:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ v0.5.0 में पहली बार उपलब्ध।<br>
 - `relative` उदाहरण:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,7 +163,7 @@ v0.5.0 में पहली बार उपलब्ध।<br>
   ```
 
 <!-- prettier-ignore -->
-डिफ़ॉल्ट | CLI&nbsp;ओवरराइड | API&nbsp;ओवरराइड
+डिफ़ॉल्ट | CLI ओवरराइड | API ओवरराइड
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
@@ -149,24 +171,35 @@ v0.5.0 में पहली बार उपलब्ध।<br>
 
 पहली बार v0.7.7 में उपलब्ध।
 
-अगर किसी क्लास नाम में नॉन-एक्सप्रेशन सिंटैक्स में लाइन रैपिंग होती है, तो उसे एक्सप्रेशन सिंटैक्स में बदल दिया जाता है। यह ट्रांसफॉर्मेशन रिवर्सिबल फॉर्मेटिंग को सपोर्ट नहीं करता।
+यदि गैर-एक्सप्रेशन सिंटैक्स में लिखे गए क्लास नाम में लाइन रैपिंग होती है, तो इसे एक्सप्रेशन सिंटैक्स में ट्रांसफॉर्म कर दिया जाता है। यह ट्रांसफॉर्मेशन रिवर्सिबल फॉर्मेटिंग का समर्थन नहीं करता है।
 
 <!-- prettier-ignore -->
-डिफ़ॉल्ट | CLI&nbsp;ओवरराइड | API&nbsp;ओवरराइड
+डिफ़ॉल्ट | CLI ओवरराइड | API ओवरराइड
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## संस्करण संबंध भाई-बहन प्लगइन्स के साथ
+### क्लासनेम्स प्रिंट चौड़ाई
 
-`0.6.0` से शुरू करते हुए, जब एक तरफ माइनर रिलीज़ होती है, तो मैं संभव हो तो उस बदलाव को दूसरी तरफ भी दर्शाने की योजना बनाता हूँ।
+पहली बार v0.10.0 में उपलब्ध।
 
-![संस्करण संबंध.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+क्लास नाम की प्रिंट चौड़ाई निर्दिष्ट करें। यदि कोई मान नहीं दिया गया है, तो डिफ़ॉल्ट रूप में `printWidth` मान का उपयोग किया जाता है।
 
-## अन्य Prettier प्लगइन्स के साथ कम्पैटिबिलिटी
+<!-- prettier-ignore -->
+डिफ़ॉल्ट | CLI ओवरराइड | API ओवरराइड
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
 
-अगर एक से अधिक Prettier प्लगइन उस टेक्स्ट को फॉर्मेट कर सकते हैं जिसे आप फॉर्मेट करना चाहते हैं, तो Prettier केवल उन प्लगइन्स में से अंतिम वाले का उपयोग करेगा।
+## समकक्ष प्लगइन्स के साथ संस्करण सहसंबंध
 
-इस स्थिति में, आप [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) जोड़कर उन प्लगइन्स को क्रमशः लागू करने के लिए इसे इस प्रकार कॉन्फ़िगर कर सकते हैं।
+`0.6.0` से शुरू करते हुए, जब एक ओर माइनर रिलीज़ होती है, तो मैं संभव हो तो उस बदलाव को दूसरी ओर भी दर्शाने का प्रयास करूंगा।
+
+![संस्करण सहसंबंध।](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+
+## अन्य प्रिटियर प्लगइन्स के साथ संगतता
+
+यदि एक से अधिक प्रिटियर प्लगइन उस टेक्स्ट को हैंडल कर सकते हैं जिसे आप फॉर्मेट करना चाहते हैं, तो प्रिटियर केवल उन प्लगइन्स में से अंतिम का उपयोग करेगा।
+
+इस स्थिति में, आप उन प्लगइन्स को क्रमिक रूप से लागू करने के लिए [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) जोड़कर इसे निम्नानुसार कॉन्फ़िगर कर सकते हैं।
 
 JSON उदाहरण:
 
@@ -188,6 +221,6 @@ JSON उदाहरण:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

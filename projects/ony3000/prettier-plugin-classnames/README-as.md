@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Markdown/MDX অ'ভাৰাইড
+
+এই প্লাগইনটোৱে Markdown আৰু MDX সমৰ্থন নকৰে, কিন্তু যদি এই প্লাগইনটোৱে ক'ড ব্লকসমূহৰ ভিতৰত কোনো ভাষা সমৰ্থন কৰে (উদাহৰণস্বৰূপে Vue), তেন্তে ক'ড ব্লকসমূহৰ ভিতৰত অনিচ্ছাকৃত ফৰ্মেটিং ঘটিব পাৰে।
+
+অনিচ্ছাকৃত ফৰ্মেটিং ৰোধ কৰিবলৈ, আপুনি Markdown আৰু MDX-ৰ বাবে কনফিগাৰেচন অ'ভাৰাইড ব্যৱহাৰ কৰিব পাৰে।
+
+JSON উদাহৰণ:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## বিকল্পসমূহ
 
 ### কাষ্টম এট্ৰিবিউটসমূহ
@@ -106,14 +129,13 @@ export default {
 - `absolute` উদাহৰণ:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,49 +146,60 @@ export default {
 - `relative` উদাহৰণ:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
     );
   }
   ```
-
 <!-- prettier-ignore -->
-Default | CLI&nbsp;Override | API&nbsp;Override
+ডিফল্ট | CLI&nbsp;অভাৰাইড | API&nbsp;অভাৰাইড
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### Syntax Transformation
+### সিন্টেক্স ৰূপান্তৰ
 
-প্ৰথমবাৰৰ বাবে v0.7.7-ত উপলব্ধ।
+প্ৰথমবাৰ v0.7.7-ত উপলব্ধ।
 
-যদি একোটা শ্ৰেণী নামত (class name) non-expression syntax-ত line wrapping হয়, তেতিয়া সেইটো expression syntax-লৈ ৰূপান্তৰিত কৰা হয়। এই ৰূপান্তৰ reversible formatting-ৰ সমৰ্থন নকৰে।
+যদি কোনো শ্ৰেণী নামত ন-এক্সপ্ৰেশন সিন্টেক্সত লিখা হলে লাইনৰ মোচন ঘটে, তেন্তে সেইটো এক্সপ্ৰেশন সিন্টেক্সলৈ ৰূপান্তৰিত হয়। এই ৰূপান্তৰ reversible formatting সমৰ্থন নকৰে।
 
 <!-- prettier-ignore -->
-Default | CLI&nbsp;Override | API&nbsp;Override
+ডিফল্ট | CLI&nbsp;অভাৰাইড | API&nbsp;অভাৰাইড
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Version correlation with sibling plugins
+### শ্ৰেণী নাম প্ৰিন্ট উইড্থ
 
-`0.6.0`-ৰ পৰা আৰম্ভ কৰি, যদি এফালে minor release হয়, তেন্তে সম্ভৱ হলে সেই পৰিৱর্তন আনফালতো প্ৰতিফলিত কৰাৰ পৰিকল্পনা আছে।
+প্ৰথমবাৰ v0.10.0-ত উপলব্ধ।
 
-![Version correlation.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+শ্ৰেণী নামৰ প্ৰিন্ট উইড্থ নিৰ্ধাৰণ কৰক। যদি কোনো মান দিয়া নহয়, `printWidth` মানটো ডিফল্ট হিচাপে ব্যৱহাৰ কৰা হয়।
 
-## Compatibility with other Prettier plugins
+<!-- prettier-ignore -->
+ডিফল্ট | CLI&nbsp;অভাৰাইড | API&nbsp;অভাৰাইড
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
 
-যদি একাধিক Prettier plugin-এ আপোনাৰ format কৰিবলগীয়া পাঠ্য হেণ্ডল কৰিব পাৰে, তেন্তে Prettier কেৱল শেষ plugin-টো ব্যৱহাৰ কৰিব।
+## সংস্কৰণৰ সম্পৰ্ক সibling প্লাগইনৰ সৈতে
 
-এই ক্ষেত্ৰত, [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) যোগ কৰি তলত দেখুওৱা দৰে sequentially plugins-বোৰ apply কৰিব পাৰে।
+`0.6.0`-ৰ পৰা আৰম্ভ কৰি, যদি কোনো এটা দিশত minor release থাকে, সম্ভৱ হলে সেই পৰিবর্তন আন দিশতো প্রতিফলিত কৰাৰ পৰিকল্পনা আছে।
+
+![সংস্কৰণৰ সম্পৰ্ক।](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+
+## আন Prettier প্লাগইনৰ সৈতে সামঞ্জস্যতা
+
+যদি একাধিক Prettier প্লাগইনে আপোনাৰ ফৰ্মেট কৰিবলৈ চোৱা টেক্সটটো হেণ্ডল কৰিব পাৰে, Prettier কেৱল সেই প্লাগইনৰ অন্তিমটোহে ব্যৱহাৰ কৰে।
+
+এই ক্ষেত্ৰত, [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) যোগ কৰি সেই প্লাগইনবোৰক ক্ৰমে প্রয়োগ কৰিবলৈ তলত দেখুৱোৱা মতে কনফিগাৰ কৰিব পাৰি।
+
 
 JSON উদাহৰণ:
 
@@ -188,6 +221,6 @@ JSON উদাহৰণ:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

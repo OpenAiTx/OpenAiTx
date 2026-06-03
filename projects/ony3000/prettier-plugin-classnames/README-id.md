@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Pengesampingan Markdown/MDX
+
+Plugin ini tidak mendukung Markdown dan MDX, namun jika plugin ini mendukung bahasa di dalam blok kode (mis. Vue), format yang tidak diinginkan dapat terjadi di dalam blok kode.
+
+Untuk mencegah format yang tidak diinginkan, Anda dapat menggunakan pengaturan override untuk Markdown dan MDX.
+
+Contoh JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Opsi
 
 ### Atribut Kustom
@@ -106,14 +129,13 @@ Ini adalah kriteria untuk mengakhiri nama kelas pada setiap baris saat mengganti
 - Contoh `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ Ini adalah kriteria untuk mengakhiri nama kelas pada setiap baris saat mengganti
 - contoh `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,32 +163,43 @@ Ini adalah kriteria untuk mengakhiri nama kelas pada setiap baris saat mengganti
   ```
 
 <!-- prettier-ignore -->
-Default | Override&nbsp;CLI | Override&nbsp;API
+Default | Override CLI | Override API
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
-### Transformasi Sintaksis
+### Transformasi Sintaks
 
-Pertama tersedia di v0.7.7.
+Pertama kali tersedia di v0.7.7.
 
-Jika terjadi pembungkusan baris pada nama kelas yang ditulis dalam sintaks non-ekspresi, maka akan diubah menjadi sintaks ekspresi. Transformasi ini tidak mendukung pemformatan yang dapat dibalik.
+Jika terjadi pemisahan baris pada nama kelas yang ditulis dalam sintaks non-ekspresi, maka akan diubah menjadi sintaks ekspresi. Transformasi ini tidak mendukung pemformatan yang dapat dibalik.
 
 <!-- prettier-ignore -->
-Default | Override&nbsp;CLI | Override&nbsp;API
+Default | Override CLI | Override API
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Korelasi versi dengan plugin saudara
+### Lebar Cetak Classnames
 
-Mulai dari `0.6.0`, ketika ada rilis minor di satu sisi, saya berencana untuk mencerminkan perubahan tersebut di sisi lain juga jika memungkinkan.
+Pertama kali tersedia di v0.10.0.
+
+Tentukan lebar cetak dari nama kelas. Jika tidak ada nilai yang diberikan, nilai `printWidth` digunakan sebagai default.
+
+<!-- prettier-ignore -->
+Default | Override CLI | Override API
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Korelasi Versi dengan Plugin Sibling
+
+Mulai dari `0.6.0`, ketika ada rilis minor di satu sisi, saya berencana untuk merefleksikan perubahan tersebut di sisi lain jika memungkinkan.
 
 ![Korelasi versi.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
-## Kompatibilitas dengan plugin Prettier lain
+## Kompatibilitas dengan Plugin Prettier Lainnya
 
 Jika lebih dari satu plugin Prettier dapat menangani teks yang ingin Anda format, Prettier hanya akan menggunakan plugin terakhir dari plugin-plugin tersebut.
 
-Dalam kasus ini, Anda dapat mengaturnya seperti berikut dengan menambahkan [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) untuk menerapkan plugin-plugin tersebut secara berurutan.
+Dalam kasus ini, Anda dapat mengkonfigurasinya seperti berikut dengan menambahkan [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) untuk menerapkan plugin-plugin tersebut secara berurutan.
 
 Contoh JSON:
 
@@ -188,6 +221,6 @@ Contoh JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

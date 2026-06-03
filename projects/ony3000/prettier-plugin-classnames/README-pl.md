@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Nadpisanie Markdown/MDX
+
+Ta wtyczka nie obsługuje Markdown ani MDX, ale jeśli obsługuje język wewnątrz bloków kodu (np. Vue), może wystąpić niezamierzone formatowanie wewnątrz tych bloków.
+
+Aby zapobiec niezamierzonemu formatowaniu, możesz użyć nadpisania konfiguracji dla Markdown i MDX.
+
+Przykład JSON:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## Opcje
 
 ### Atrybuty niestandardowe
@@ -106,14 +129,13 @@ To jest kryterium kończenia nazwy klasy w każdej linii podczas zamiany orygina
 - przykład `absolute`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ To jest kryterium kończenia nazwy klasy w każdej linii podczas zamiany orygina
 - Przykład `relative`:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,32 +163,43 @@ To jest kryterium kończenia nazwy klasy w każdej linii podczas zamiany orygina
   ```
 
 <!-- prettier-ignore -->
-Domyślnie | Nadpisanie CLI&nbsp; | Nadpisanie API&nbsp;
+Domyślne | Nadpisanie CLI&nbsp; | Nadpisanie API&nbsp;
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
 ### Transformacja składni
 
-Dostępne po raz pierwszy w wersji v0.7.7.
+Po raz pierwszy dostępne w wersji v0.7.7.
 
-Jeśli zawijanie linii występuje w nazwie klasy zapisanej w składni niebędącej wyrażeniem, zostaje ona przekształcona na składnię wyrażenia. Ta transformacja nie obsługuje odwracalnego formatowania.
+Jeśli występuje zawijanie linii w nazwie klasy zapisanej w składni nie-wyrażeniowej, zostaje ona przekształcona w składnię wyrażeniową. Ta transformacja nie obsługuje odwracalnego formatowania.
 
 <!-- prettier-ignore -->
-Domyślnie | Nadpisanie CLI&nbsp; | Nadpisanie API&nbsp;
+Domyślne | Nadpisanie CLI&nbsp; | Nadpisanie API&nbsp;
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## Korelacja wersji z bliźniaczymi wtyczkami
+### Szerokość druku nazw klas
 
-Począwszy od wersji `0.6.0`, gdy następuje wydanie wersji pomocniczej po jednej stronie, planuję odzwierciedlić tę zmianę również po drugiej stronie, jeśli to możliwe.
+Po raz pierwszy dostępne w wersji v0.10.0.
+
+Określ szerokość druku dla nazwy klasy. Jeśli nie zostanie podana wartość, jako domyślna zostanie użyta wartość `printWidth`.
+
+<!-- prettier-ignore -->
+Domyślne | Nadpisanie CLI&nbsp; | Nadpisanie API&nbsp;
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## Korelacja wersji z pokrewnymi pluginami
+
+Od wersji `0.6.0`, gdy pojawia się wydanie typu minor po jednej stronie, planuję odzwierciedlić tę zmianę po drugiej stronie również, jeśli to możliwe.
 
 ![Korelacja wersji.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
-## Kompatybilność z innymi wtyczkami Prettier
+## Kompatybilność z innymi pluginami Prettier
 
-Jeśli więcej niż jedna wtyczka Prettier może obsłużyć tekst, który chcesz sformatować, Prettier użyje tylko ostatniej z tych wtyczek.
+Jeśli więcej niż jeden plugin Prettier może obsłużyć tekst, który chcesz sformatować, Prettier użyje tylko ostatniego z tych pluginów.
 
-W takim przypadku możesz skonfigurować to w następujący sposób, dodając [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge), aby zastosować te wtyczki kolejno.
+W takim przypadku możesz skonfigurować to w następujący sposób, dodając [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge), aby zastosować te pluginy kolejno.
 
 Przykład JSON:
 
@@ -188,6 +221,6 @@ Przykład JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

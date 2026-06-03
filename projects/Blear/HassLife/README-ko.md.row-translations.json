@@ -1,0 +1,728 @@
+[
+  {
+    "row": 1,
+    "rowsha": "lOn1oue8SxyOiV3rT24sa2FAbOX1ZsDNWPz9MjtO8+o=",
+    "originContent": "## 简介",
+    "translatedContent": "## 소개"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "QKzSQN8XYceQBlyG78e4MTO/yUcwOz8UztdeINoIZb0=",
+    "originContent": "**交流QQ群: 528735636**",
+    "translatedContent": "**교류 QQ 그룹: 528735636**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "lJB35+UU1i6ZeYvhPE/oEpWHzsXwm51U0o6SV9KOVS8=",
+    "originContent": "Home Assistant的组件",
+    "translatedContent": "Home Assistant의 컴포넌트"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "tXovFWHUEj4wI7oVcjRfmsEVOUyZGoAOQkAorKoriEk=",
+    "originContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)",
+    "translatedContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "LPq5/70OdHHsDTh5DJCxx7plBwNeDxAdUv1hQSnZfsU=",
+    "originContent": "此Home Assistant的组件可以让天猫精灵、小爱同学、小度音箱对接HomeAssistant平台上的设备,控制设备、查询上报设备状态。",
+    "translatedContent": "이 Home Assistant 컴포넌트는 티몰 지니, 샤오아이, 샤오두 스피커를 HomeAssistant 플랫폼의 장비와 연동하여 장비를 제어하고 장비 상태를 조회 및 보고할 수 있습니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "eOUJ+N2WDQUvlf6qZNdXOUfgIZ2S43QeEurowuOsOJ0=",
+    "originContent": "注意：本插件只负责控制下发设备状态上报，添加设备需要在[HassLife](https://hass.blear.cn) 平台上配置。",
+    "translatedContent": "주의: 이 플러그인은 제어 명령 전송과 장비 상태 보고만 담당하며, 장비 추가는 [HassLife](https://hass.blear.cn) 플랫폼에서 설정해야 합니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+    "originContent": "## 安装",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "kP3uUY4hK03ePffB+fOsjXJ3ObKHFVniOOxfLsuRBF0=",
+    "originContent": "### 1.安装插件",
+    "translatedContent": "### 1. 플러그인 설치"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "MsJisP06hWH9lTwMO5PqlqLtmmCr+vfIN2n//qkZLHQ=",
+    "originContent": "##### 方式1:hacs安装【推荐！】",
+    "translatedContent": "##### 방법1: hacs 설치【추천!】"
+  },
+  {
+    "row": 18,
+    "rowsha": "guog+YRJ96mEbnRUJfoxrdH7s+ejPRu/QTVBhj2bW+E=",
+    "originContent": ">>侧边栏HACS-》集成=》搜索hasslife并点击下载",
+    "translatedContent": ">>사이드바 HACS -> 통합 -> hasslife 검색 후 다운로드 클릭"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "DQGtvG9qXPw7aRRAoSCvk88ftGlZ9i+qywET3knH2jE=",
+    "originContent": "##### 方式2:手动下载[下载插件](https://gitee.com/blear/HassLife)",
+    "translatedContent": "##### 방법2: 수동 다운로드 [플러그인 다운로드](https://gitee.com/blear/HassLife)"
+  },
+  {
+    "row": 21,
+    "rowsha": "S7etPtSVb5zx9cvl/07jm6KI881/WI6EP82oPba9oik=",
+    "originContent": ">>下载`hasslife`文件夹，保存在`<homeassistant配置目录>/custom_components/`目录中，若`custom_components`目录不存在则自行创建,然后重启HomeAssistant。",
+    "translatedContent": ">>`hasslife` 폴더를 다운로드하여 `<homeassistant 구성 디렉터리>/custom_components/` 경로에 저장합니다. `custom_components` 폴더가 없으면 직접 생성 후 HomeAssistant를 재시작합니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "7naP/nIp9XeQ6zmCiFewp9s79pInJ2VOb3OmE/eT6H0=",
+    "originContent": "- homeassistant配置目录在哪?",
+    "translatedContent": "- homeassistant 구성 디렉터리는 어디인가요?"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "OHTtNRmn8pGdV3C2F7sUejkaDAGk8px7JE5YGTssQY8=",
+    "originContent": ">>**Windows用户:** `%APPDATA%\\.homeassistant`",
+    "translatedContent": ">>**Windows 사용자:** `%APPDATA%\\.homeassistant`"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "BchVLXUgwcUby1Gve8avp0uBl/KaImDLC3U51KkGqT4=",
+    "originContent": ">>**Linux-based用户:** 可以通过执行`locate .homeassistant/configuration.yaml`命令，查找到的`.homeassistant`文件夹就是配置目录。",
+    "translatedContent": ">>**Linux 기반 사용자:** `locate .homeassistant/configuration.yaml` 명령어 실행 후 찾은 `.homeassistant` 폴더가 구성 디렉터리입니다."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "/IO+P2CplPqyCZAZ+KIbMrRkxiWteSpXIRnDFsBFRVk=",
+    "originContent": ">>**群晖Docker用户:** 进入Docker - 映像 - homeassistant - 高级设置 - 卷, `/config`对应的路径就是配置目录",
+    "translatedContent": ">>**Synology Docker 사용자:** Docker - 이미지 - homeassistant - 고급 설정 - 볼륨에서 `/config`에 매핑된 경로가 구성 디렉터리입니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "IILeef/hlZa4SyihBdJ18qPxER9ImmysifRI0S3f7qU=",
+    "originContent": "### 2.配置插件",
+    "translatedContent": "### 2. 플러그인 구성"
+  },
+  {
+    "row": 32,
+    "rowsha": "/W13t7e2vaSQcGNun/dnz/ZBde5CWDj5gKyZFc78ntU=",
+    "originContent": "##### 方式1:集成界面UI配置",
+    "translatedContent": "##### 방법1: 통합 UI 구성"
+  },
+  {
+    "row": 33,
+    "rowsha": "50EH76Se71xvcFt0WLLdg1ajVgIgZvOzh5NavmrFVRw=",
+    "originContent": ">>**点击HomeAssistant侧边栏的配置=》集成=》右下角添加集成=》搜索hasslife并点击=》输入注册的hasslife账号密码点提交即可，插件第一次启动需要时间,请耐心等待。**",
+    "translatedContent": ">>**HomeAssistant 사이드바의 구성 -> 통합 -> 우측 하단 통합 추가 -> hasslife 검색 후 클릭 -> 등록한 hasslife 계정과 비밀번호 입력 후 제출 클릭, 플러그인 최초 실행 시 시간이 필요하니 기다려 주세요.**"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "WyAGweXrPTBHIC3pTR6d4NlhMk//R90JKTqoN7oTTxA=",
+    "originContent": "如遇到此集成不支持通过UI配置，如果您是从Home Assistant网站点击链接前来，请确保您运行的是最新版的Home Assistant提示。",
+    "translatedContent": "해당 통합이 UI 구성을 지원하지 않는 경우, Home Assistant 웹사이트에서 링크로 접속했다면 최신 버전의 Home Assistant를 실행 중인지 확인하세요."
+  },
+  {
+    "row": 36,
+    "rowsha": "6rZXzm4fT5jlyDOStwS2xdEXNTwV1+D7R3YPt3K6kOw=",
+    "originContent": "可以手动添加帐号配置，然后重启HomeAssistent",
+    "translatedContent": "수동으로 계정 구성을 추가한 후 HomeAssistant를 재시작할 수 있습니다."
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "8AuFm2aQ2ahG9diFRc+bJX8Auezt6BX2QBXFF/zM2ao=",
+    "originContent": "## 使用步骤：",
+    "translatedContent": "## 사용 단계："
+  },
+  {
+    "row": 39,
+    "rowsha": "h0kT2lNZEC6kpHs7x5llsAIPFDAJdc6bb5fthU8BZ4I=",
+    "originContent": "\t1.注册HassLife账号 打开https://hass.blear.cn ,注册账号并登录",
+    "translatedContent": "\t1. HassLife 계정 등록 https://hass.blear.cn 에 접속하여 계정을 등록하고 로그인"
+  },
+  {
+    "row": 40,
+    "rowsha": "V7lC1f3tafqrG5ofoa+ZI82q9DZ8x0cW8lSWcRlfpYY=",
+    "originContent": "\t2.安装插件：安装完重启HomeAssistant，然后去到添加集成页面，添加HassLife集成，并登录HassLife账号。",
+    "translatedContent": "\t2. 플러그인 설치: 설치 후 HomeAssistant 재시작, 통합 추가 페이지로 이동하여 HassLife 통합을 추가하고 HassLife 계정으로 로그인합니다."
+  },
+  {
+    "row": 41,
+    "rowsha": "HXSPB+SFsOcJP4HlWABoIBg8bCXc7q1Ny3GE6LxLPHs=",
+    "originContent": "\t3.继续回到HassLife网站页面，如果你的插件配置没问题，个人中心页面会显示插件状态为`在线`",
+    "translatedContent": "\t3. HassLife 웹사이트 페이지로 다시 돌아가서, 플러그인 설정에 문제가 없다면 개인 센터 페이지에 플러그인 상태가 `온라인`으로 표시됩니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "wAA/VOvoUBdbQIhFQ3qGaOxDnRVWhM12qNKm/t6lFH8=",
+    "originContent": "\t4.点击设备管理菜单，点击右侧绿色的`添加Homeassistant设备`按钮，勾选你要添加接入的设备并提交",
+    "translatedContent": "\t4. 장치 관리 메뉴를 클릭하고, 오른쪽 녹색의 `Homeassistant 장치 추가` 버튼을 클릭한 후, 추가하려는 장치를 선택하고 제출하세요."
+  },
+  {
+    "row": 43,
+    "rowsha": "37L0LhwVNlsKKPJp3YXXMRv8MVgf8zYVsWTEGuNE2+4=",
+    "originContent": "\t5.设备列表中选择你想要配置的设备，点击`配置` 按需选择你需要接入的智能音箱平台，并配置设备类型和语控名称",
+    "translatedContent": "\t5. 장치 목록에서 구성하려는 장치를 선택하고 `구성`을 클릭한 후 필요에 따라 접속할 스마트 스피커 플랫폼을 선택하고 장치 유형 및 음성 제어 이름을 설정하세요."
+  },
+  {
+    "row": 44,
+    "rowsha": "9AC6CDn5ObqJc96UOJE4jvKc0Ilcb/zBY7fuPYI2nMk=",
+    "originContent": "\t6.去对应的平台技能绑定页面，绑定你的HassLife账号，不出意外你就可以看到添加的设备啦。",
+    "translatedContent": "\t6. 해당 플랫폼의 스킬 바인딩 페이지로 이동하여 HassLife 계정을 바인딩하면, 문제 없이 추가한 장치를 볼 수 있습니다."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "68u2i1ineED8bUX00WYZWxvIc3SGT76XbDyYd46HI4A=",
+    "originContent": "## 天猫精灵配置实例",
+    "translatedContent": "## 티엔마오 정령 구성 예시"
+  },
+  {
+    "row": 47,
+    "rowsha": "W8QpSVYYC6/eEUf/BoQGB8QvTYHaVXoWpX/EVjlK/S0=",
+    "originContent": "* 安装最新版`天猫精灵`APP",
+    "translatedContent": "* 최신 버전의 `티엔마오 정령` 앱을 설치하세요."
+  },
+  {
+    "row": 48,
+    "rowsha": "TfuxDhXClUMzCVTmsBXDnMg/JR+uqsQGLi6NJ0jpTNc=",
+    "originContent": "* 手机游览器访问 [HassLife https://hass.blear.cn](https://hass.blear.cn) 并登录hasslife账号",
+    "translatedContent": "* 모바일 브라우저에서 [HassLife https://hass.blear.cn](https://hass.blear.cn) 에 접속하여 HassLife 계정으로 로그인하세요."
+  },
+  {
+    "row": 49,
+    "rowsha": "VPcaovka88MP0auI0AzolshNgX0R2ToVvm6JfqSuzrc=",
+    "originContent": "* 个人中心页点击访问`天猫精灵技能入口`",
+    "translatedContent": "* 개인 센터 페이지에서 `티엔마오 정령 스킬入口`를 클릭하세요."
+  },
+  {
+    "row": 50,
+    "rowsha": "s8yA2k2cqG9qQhc7SaWd/Sb3Wshe4Lt9t9rjxdjX5JA=",
+    "originContent": "* 点击`绑定平台账号`",
+    "translatedContent": "* `플랫폼 계정 바인딩`을 클릭하세요."
+  },
+  {
+    "row": 51,
+    "rowsha": "6RRzZ38LbobkQkykzOY23H46MjQw9TFHxkUh6jeQpzI=",
+    "originContent": "* 登录HassLife账户",
+    "translatedContent": "* HassLife 계정으로 로그인하세요."
+  },
+  {
+    "row": 52,
+    "rowsha": "GuHkimRfZN/eWPzFu/gb/y3nDCl9jpVn0uu3zx5zPc8=",
+    "originContent": "* 确认授权，返回精灵家TAB，即可看到添加的设备",
+    "translatedContent": "* 권한을 확인하고 정령 집 탭으로 돌아가면 추가한 장치를 확인할 수 있습니다."
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "56wmLFXIsLAbMJql2DZUGpXvxCnu/8lJKfRv3gTDRZA=",
+    "originContent": "## 小爱同学配置实例",
+    "translatedContent": "## 샤오아이 구성 예시"
+  },
+  {
+    "row": 55,
+    "rowsha": "4mqgnaVGxixidTWvfG8rEe5o6CAIJ5WcW5VrpvsahcA=",
+    "originContent": "* 进入HassLife设备列表页,添加需要的设备，并配置对应的设备类型和名称",
+    "translatedContent": "* HassLife 장치 목록 페이지에 들어가 필요한 장치를 추가하고 해당 장치 유형과 이름을 설정하세요."
+  },
+  {
+    "row": 56,
+    "rowsha": "m7xRjZHQF7BDb6NjB/xLl61Rex6xYm3H9Yui3m1rouU=",
+    "originContent": "* 安装最新版`米家`APP",
+    "translatedContent": "* 최신 버전의 `미지아` 앱을 설치하세요."
+  },
+  {
+    "row": 57,
+    "rowsha": "m/mgmQVPZWm67JLbcVCi9wvbsJq6BqBYV9dlQ2PS2PI=",
+    "originContent": "* 打开`米家`APP",
+    "translatedContent": "* `미지아` 앱을 실행하세요."
+  },
+  {
+    "row": 58,
+    "rowsha": "DPb6iQBPiWLkG6URXoEmkk9Fv2sNsNPGFgKxrtQqG4c=",
+    "originContent": "* 点击`我的`TAB",
+    "translatedContent": "* `내` 탭을 클릭하세요."
+  },
+  {
+    "row": 59,
+    "rowsha": "3yeefdBbf0Q0AlJk5kX6kZY2PdgsmxCjZqYnzNnigi4=",
+    "originContent": "* 点击`其他平台设备`",
+    "translatedContent": "* `기타 플랫폼 장치`를 클릭하세요."
+  },
+  {
+    "row": 60,
+    "rowsha": "wT/Tx/NMuMrjhddQFCSUNajixOtoCkQhITHxdNF+1u4=",
+    "originContent": "* 点击`右上角的添加`",
+    "translatedContent": "* 오른쪽 상단의 `추가` 버튼을 클릭하세요."
+  },
+  {
+    "row": 61,
+    "rowsha": "f5daWSJ9ezvj5C3JcYlZwbkAWV9kx4ksRH/pVDY7n0U=",
+    "originContent": "* 找到`HassLife`并点击",
+    "translatedContent": "* `HassLife`를 찾아 클릭하세요."
+  },
+  {
+    "row": 62,
+    "rowsha": "lCJ1+TTeorB7N9c3eXTVek7zHnHpkITuOKwJNnR9SKk=",
+    "originContent": "* 点击`绑定账号`",
+    "translatedContent": "* `계정 바인딩`을 클릭하세요."
+  },
+  {
+    "row": 63,
+    "rowsha": "6RRzZ38LbobkQkykzOY23H46MjQw9TFHxkUh6jeQpzI=",
+    "originContent": "* 登录HassLife账户",
+    "translatedContent": "* HassLife 계정으로 로그인하세요."
+  },
+  {
+    "row": 64,
+    "rowsha": "nzaE5yHSn1xTxZA8Icx/ImGwVwijs9mEvXXqX8RszpE=",
+    "originContent": "* 确认授权，同步设备",
+    "translatedContent": "* 권한을 확인하고 장치를 동기화하세요."
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "PoHI98pSKivTkXct1GyeVhevV4snn1gr1cr5M0Urj1s=",
+    "originContent": "## 小度配置实例",
+    "translatedContent": "## 샤오두 구성 예시"
+  },
+  {
+    "row": 67,
+    "rowsha": "4mqgnaVGxixidTWvfG8rEe5o6CAIJ5WcW5VrpvsahcA=",
+    "originContent": "* 进入HassLife设备列表页,添加需要的设备，并配置对应的设备类型和名称",
+    "translatedContent": "* HassLife 장치 목록 페이지에 들어가 필요한 장치를 추가하고 해당 장치 유형과 이름을 설정하세요."
+  },
+  {
+    "row": 68,
+    "rowsha": "sGgaUV7vl+snFUPA9X1Oa7XAAwJGUCRWPcCwvOXeEdE=",
+    "originContent": "* 安装最新版`小度`APP",
+    "translatedContent": "* 최신 버전의 `샤오두` 앱을 설치하세요."
+  },
+  {
+    "row": 69,
+    "rowsha": "Xdzz+2oIQ+KWoGVQapxChlZUu/J5FH+thXT96AMZHf0=",
+    "originContent": "* 打开``小度`APP",
+    "translatedContent": "* `샤오두` 앱을 실행하세요."
+  },
+  {
+    "row": 70,
+    "rowsha": "r0XdBKBxRf5bOoDdQEpZB16lkacUwb2aSHAuG6+uw28=",
+    "originContent": "* 点击`右上角的加号`",
+    "translatedContent": "* 오른쪽 상단의 더하기 버튼을 클릭하세요."
+  },
+  {
+    "row": 71,
+    "rowsha": "jsvO3g+SAPN9Wk+BtNKBCevOjoU+z010dX4PHCnZEsk=",
+    "originContent": "* 点击`添加设备`",
+    "translatedContent": "* `장치 추가`를 클릭하세요."
+  },
+  {
+    "row": 72,
+    "rowsha": "+hWiL2A9Fb8nyth1kv/IA7VJ8bp3fb0mTm55aOTHjaM=",
+    "originContent": "* 搜索`HassLife`并点击",
+    "translatedContent": "* `HassLife`를 검색하여 클릭하세요."
+  },
+  {
+    "row": 73,
+    "rowsha": "6RRzZ38LbobkQkykzOY23H46MjQw9TFHxkUh6jeQpzI=",
+    "originContent": "* 登录HassLife账户",
+    "translatedContent": "* HassLife 계정으로 로그인하세요."
+  },
+  {
+    "row": 74,
+    "rowsha": "nzaE5yHSn1xTxZA8Icx/ImGwVwijs9mEvXXqX8RszpE=",
+    "originContent": "* 确认授权，同步设备",
+    "translatedContent": "* 권한을 확인하고 장치를 동기화하세요."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "pnCKc0Lbi7M6ojv3yALwJhR5Q1OgMqiNSh+DP/VE+Ow=",
+    "originContent": "## 天猫精灵支持设备及属性",
+    "translatedContent": "## 티엔마오 정령 지원 장치 및 속성"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "FIvqKRavDheQU95DJ8kNfiZBwdJiYj+HDhG5TTQ5+nE=",
+    "originContent": "目前支持的设备类型有: 灯、开关、晾衣架、窗帘、电视、热水器、风扇、传感器、空调、二元选择器.",
+    "translatedContent": "현재 지원되는 장치 유형은 다음과 같습니다: 조명, 스위치, 빨래 건조대, 커튼, TV, 온수기, 선풍기, 센서, 에어컨, 이원 선택기입니다."
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "FIDwoPJf07fK40WcSwkoiz6sSN58I1AVqNAeX+yJ5A0=",
+    "originContent": "    设备的开关状态支持设备：灯、开关、晾衣架、窗帘、电视、热水器、风扇、传感器、空调、二元选择器.",
+    "translatedContent": "    장치의 켜기/끄기 상태를 지원하는 장치: 조명, 스위치, 빨래 건조대, 커튼, TV, 온수기, 선풍기, 센서, 에어컨, 이원 선택기."
+  },
+  {
+    "row": 81,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 82,
+    "rowsha": "EWD0N0lVKGfFijQGkW2c6s6XG01+devGtKA3DlAqg0k=",
+    "originContent": "    灯支持调整：颜色、亮度、色温",
+    "translatedContent": "    조명 지원 조절: 색상, 밝기, 색온도"
+  },
+  {
+    "row": 83,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 84,
+    "rowsha": "Jy2V2n/27/iJX9Pq6IYY7vlbN9Tki7fUoarVp4SqsHo=",
+    "originContent": "    空调支持更换模式：制冷、制热、送风、除湿、自动、温度调节。风速支持:低风、中风、高风、自动",
+    "translatedContent": "    에어컨 지원 모드 변경: 냉방, 난방, 송풍, 제습, 자동, 온도 조절. 풍속 지원: 약풍, 중풍, 강풍, 자동"
+  },
+  {
+    "row": 85,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 86,
+    "rowsha": "EtKhOsALI+JT/aFUubn3IVow0AA1qlBE/BF/QOseShg=",
+    "originContent": "\t晾衣架支持：晾杆控制，开关控制",
+    "translatedContent": "\t빨래건조대 지원: 건조봉 제어, 전원 스위치 제어"
+  },
+  {
+    "row": 87,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 88,
+    "rowsha": "2HspC6EPT0+KXSZQobHjE3Z3efBJ+h1JhL76igI5d+s=",
+    "originContent": "\t窗帘支持：窗帘的打开关闭",
+    "translatedContent": "\t커튼 지원: 커튼 열기 및 닫기"
+  },
+  {
+    "row": 89,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 90,
+    "rowsha": "1BgqTo/fzORZ7qDXAAKlGmf/Xph6v+1BLXdtEHeXDME=",
+    "originContent": "\t风扇支持：电源控制(打开/关闭风扇)、风速控制(1-100档(百分比风速)，最高档、抵挡、中低档、中高档、高档、超强档、微风档、自动挡)、左右旋转/摇头/摆风",
+    "translatedContent": "\t선풍기 지원: 전원 제어(선풍기 켜기/끄기), 풍속 제어(1-100단계(백분율 풍속), 최고단계, 저단계, 중저단계, 중고단계, 고단계, 초강력단계, 미풍단계, 자동단계), 좌우 회전/흔들기/바람 조절"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "OFkhXqaDhdB0gQvxASR/HjBvZMBjjFHwLwjYRCJIJOY=",
+    "originContent": "## 小爱同学支持设备及属性",
+    "translatedContent": "## 샤오아이 동상 지원 기기 및 속성"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "W/mldIphbtCUfoxC60ApM/AF8KvvlLcoMlq9VIfJIjE=",
+    "originContent": "目前支持的设备类型有: 灯、开关、窗帘、风扇、空调.",
+    "translatedContent": "현재 지원하는 기기 유형: 조명, 스위치, 커튼, 선풍기, 에어컨."
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "v0bhqbvbQ+lZhDVT0mtoC0bQBbcPYMKOoch8aYBD4JM=",
+    "originContent": "    设备的开关状态支持设备：灯、开关、窗帘、风扇、空调.",
+    "translatedContent": "    기기의 전원 상태 지원 기기: 조명, 스위치, 커튼, 선풍기, 에어컨."
+  },
+  {
+    "row": 99,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 100,
+    "rowsha": "CsUDeAFAK4wIOK9hAD/1kVC2FVmJLOh2XNd7Utvf9+c=",
+    "originContent": "\t灯支持调整：颜色、亮度、色温",
+    "translatedContent": "\t조명 지원 조절: 색상, 밝기, 색온도"
+  },
+  {
+    "row": 101,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 102,
+    "rowsha": "rcY/P//oSTIh6hcR5XipBwn6dYcci12Nweh6I1pxvAM=",
+    "originContent": "\t空调支持更换模式：制冷、制热、送风、除湿、自动、温度调节。风速支持:低风、中风、高风、自动",
+    "translatedContent": "\t에어컨 지원 모드 변경: 냉방, 난방, 송풍, 제습, 자동, 온도 조절. 풍속 지원: 약풍, 중풍, 강풍, 자동"
+  },
+  {
+    "row": 103,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 104,
+    "rowsha": "2HspC6EPT0+KXSZQobHjE3Z3efBJ+h1JhL76igI5d+s=",
+    "originContent": "\t窗帘支持：窗帘的打开关闭",
+    "translatedContent": "\t커튼 지원: 커튼 열기 및 닫기"
+  },
+  {
+    "row": 105,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 106,
+    "rowsha": "VIGmwYTnE0KNd8WjUDDHKQlvfEcA+0xgagJT8x4/sk0=",
+    "originContent": "\t风扇支持：电源控制(打开/关闭风扇)、风速控制(1-100档(百分比风速)、左右旋转/摇头/摆风",
+    "translatedContent": "\t선풍기 지원: 전원 제어(선풍기 켜기/끄기), 풍속 제어(1-100단계(백분율 풍속), 좌우 회전/흔들기/바람 조절"
+  },
+  {
+    "row": 107,
+    "rowsha": "K0w0L1Qz6+WRodp34BPRtyR1Vi1IV43Ki4S6xmUcPLk=",
+    "originContent": "\t",
+    "translatedContent": "\t"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "K0w0L1Qz6+WRodp34BPRtyR1Vi1IV43Ki4S6xmUcPLk=",
+    "originContent": "\t",
+    "translatedContent": "\t"
+  },
+  {
+    "row": 110,
+    "rowsha": "5jYxi3/GNoHDVkJNJwg9sQYftM1htHSjJym+QuY5IX4=",
+    "originContent": "## 小度音箱支持设备及属性",
+    "translatedContent": "## 샤오두 스피커 지원 기기 및 속성"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "v0bhqbvbQ+lZhDVT0mtoC0bQBbcPYMKOoch8aYBD4JM=",
+    "originContent": "    设备的开关状态支持设备：灯、开关、窗帘、风扇、空调.",
+    "translatedContent": "    기기의 전원 상태 지원 기기: 조명, 스위치, 커튼, 선풍기, 에어컨."
+  },
+  {
+    "row": 113,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 114,
+    "rowsha": "axM1ls1ZYcs6X3Mr0ybPC/NPUSCIYIYv5LojBgR2IfE=",
+    "originContent": "\t灯支持调整：开关",
+    "translatedContent": "\t조명 지원 조절: 전원 스위치"
+  },
+  {
+    "row": 115,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 116,
+    "rowsha": "rcY/P//oSTIh6hcR5XipBwn6dYcci12Nweh6I1pxvAM=",
+    "originContent": "\t空调支持更换模式：制冷、制热、送风、除湿、自动、温度调节。风速支持:低风、中风、高风、自动",
+    "translatedContent": "\t에어컨 지원 모드 변경: 냉방, 난방, 송풍, 제습, 자동, 온도 조절. 풍속 지원: 약풍, 중풍, 강풍, 자동"
+  },
+  {
+    "row": 117,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 118,
+    "rowsha": "2HspC6EPT0+KXSZQobHjE3Z3efBJ+h1JhL76igI5d+s=",
+    "originContent": "\t窗帘支持：窗帘的打开关闭",
+    "translatedContent": "\t커튼 지원: 커튼 열기 및 닫기"
+  },
+  {
+    "row": 119,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 120,
+    "rowsha": "w+kkCwNiWtIDAp0+BCblllbHxjh/EKRgM++7Gtz1w70=",
+    "originContent": "\t风扇支持：电源控制(打开/关闭风扇)、风速控制(1-10档)",
+    "translatedContent": "\t선풍기 지원: 전원 제어(선풍기 켜기/끄기), 풍속 제어(1-10단계)"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

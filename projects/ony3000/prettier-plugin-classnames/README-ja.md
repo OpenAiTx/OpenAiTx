@@ -71,6 +71,29 @@ export default {
   endingPosition: 'absolute',
 };
 ```
+
+### Markdown/MDX オーバーライド
+
+このプラグインはMarkdownおよびMDXをサポートしていませんが、もしこのプラグインがコードブロック内の言語（例：Vue）をサポートしている場合、コードブロック内で意図しない書式設定が発生することがあります。
+
+意図しない書式設定を防ぐために、MarkdownおよびMDX用の設定オーバーライドを使用できます。
+
+JSON例:
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
 ## オプション
 
 ### カスタム属性
@@ -106,14 +129,13 @@ v0.5.0で初めて利用可能。<br>
 
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ v0.5.0で初めて利用可能。<br>
 - `relative` の例:
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -147,28 +169,39 @@ v0.5.0で初めて利用可能。<br>
 
 ### 構文変換
 
-v0.7.7で初めて利用可能。
+v0.7.7から利用可能。
 
-非式構文で記述されたクラス名に改行が発生した場合、それは式構文に変換されます。この変換は可逆的なフォーマットをサポートしません。
+非式構文で記述されたクラス名で改行が発生した場合、式構文に変換されます。この変換は可逆的なフォーマットをサポートしません。
 
 <!-- prettier-ignore -->
 デフォルト | CLI&nbsp;オーバーライド | API&nbsp;オーバーライド
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## 同期プラグインとのバージョン相関
+### クラス名のプリント幅
 
-`0.6.0`以降、片方でマイナーリリースがあった場合、可能な限りもう片方にも反映する予定です。
+v0.10.0から利用可能。
+
+クラス名のプリント幅を指定します。値が指定されていない場合は、`printWidth`の値がデフォルトとして使用されます。
+
+<!-- prettier-ignore -->
+デフォルト | CLI&nbsp;オーバーライド | API&nbsp;オーバーライド
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
+
+## 兄弟プラグインとのバージョン相関
+
+`0.6.0`以降、一方でマイナーリリースがあった場合、可能であればもう一方にもその変更を反映する予定です。
 
 ![バージョン相関。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
 
 ## 他のPrettierプラグインとの互換性
 
-複数のPrettierプラグインがフォーマット対象のテキストを処理できる場合、Prettierはその中の最後のプラグインのみを使用します。
+フォーマットしたいテキストを複数のPrettierプラグインが処理できる場合、Prettierはそれらのプラグインのうち最後のものだけを使用します。
 
-この場合、[prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge)を追加して、これらのプラグインを順次適用するように設定できます。
+この場合、それらのプラグインを順番に適用するために [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) を追加して次のように設定できます。
 
-JSON例:
+JSONの例：
 
 <!-- prettier-ignore -->
 ```json
@@ -188,6 +221,6 @@ JSON例:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

@@ -1,19 +1,51 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=AxGord&project=Pony&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 [![Lang](https://img.shields.io/badge/language-haxe-orange.svg?style=flat-square&colorB=EA8220)](http://haxe.org)
-[![Haxelib](https://img.shields.io/badge/haxelib-1.9.11-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)
+[![Haxelib](https://img.shields.io/badge/haxelib-1.9.12-blue.svg?style=flat-square&colorB=FBC707)](http://lib.haxe.org/p/pony)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Build status](https://img.shields.io/appveyor/ci/AxGord/pony.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/AxGord/pony) [![Join the chat at https://gitter.im/Ponylib/Lobby](https://img.shields.io/gitter/room/Ponylib/Lobby.svg?style=flat-square&colorB=71B79C)](https://gitter.im/Ponylib/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://paypal.me/axgorde)
 
 <br/><br/>
 <p align="center"><img width="65%" src="https://raw.githubusercontent.com/AxGord/Pony/haxe3/logo/pony_logo_hor.svg"/></p>
-<br/>
+<br>
 
-Pony is a set of tools for developing, preparing, building, testing and publishing projects.
-It can be used for creating Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash and Cocos Creator applications.
+Pony is a set of tools for developing, preparing, building, testing, and publishing projects.
+It can be used to create applications for Heaps, PixiJS, NodeJS, Electron, Cordova, PHP, OpenFL, Unity3D, Flash, and Cocos Creator.
 
-It works on servers or client-side.
+It operates on both servers and client-side.
 
-The library has an XML-based UI building system and components, a powerful event system, and many utility functions.
+The library features an XML-based UI building system and components, a robust event system, and numerous utility functions.
 
 Installation
 ============
@@ -37,9 +69,9 @@ Silent install example
 
 `-` - disable option
 
-`code` - Install Visual Studio Code recommended plugins
+`code` - Install recommended Visual Studio Code plugins
 
-`code-insiders` - Install Visual Studio Code Insiders recommended plugins
+`code-insiders` - Install recommended Visual Studio Code Insiders plugins
 
 `npm` - Install NPM (Node Package Manager) modules
 
@@ -81,6 +113,6 @@ Manual
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

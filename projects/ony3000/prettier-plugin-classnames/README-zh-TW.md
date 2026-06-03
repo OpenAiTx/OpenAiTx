@@ -72,6 +72,29 @@ export default {
 };
 ```
 
+### Markdown/MDX 覆寫
+
+此外掛不支援 Markdown 和 MDX，但如果此外掛支援程式碼區塊內的語言（如 Vue），可能會導致程式碼區塊內出現非預期的格式化。
+
+為了防止非預期的格式化，你可以為 Markdown 和 MDX 使用組態覆寫。
+
+JSON 範例：
+
+```json
+{
+  "plugins": ["prettier-plugin-classnames"],
+  "customFunctions": ["clsx"],
+  "overrides": [
+    {
+      "files": ["*.md", "*.mdx"],
+      "options": {
+        "plugins": []
+      }
+    }
+  ]
+}
+```
+
 ## 選項
 
 ### 自訂屬性
@@ -106,14 +129,13 @@ export default {
 - `absolute` 範例：
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-        className="bg-gray-100/50 border
-          border-zinc-400/30 dark:bg-neutral-900/50
-          dark:border-neutral-500/30 px-4 py-4
-          rounded-xl"
+        className="bg-gray-100/50 dark:bg-neutral-900/50
+          border border-zinc-400/30 dark:border-neutral-500/30
+          rounded-xl px-4 py-4"
       >
         {children}
       </div>
@@ -124,15 +146,15 @@ export default {
 - `relative` 範例：
 
   ```
-  --------------------------------------------------| printWidth=50
+  ------------------------------------------------------------| printWidth=60
   export function Callout({ children }) {
     return (
       <div
-                  |--------------------------------------------------|
-        className="bg-gray-100/50 border border-zinc-400/30
-         |--------------------------------------------------|
-          dark:bg-neutral-900/50 dark:border-neutral-500/30
-          px-4 py-4 rounded-xl"
+       |------------------------------------------------------------|
+        className="bg-gray-100/50 dark:bg-neutral-900/50 border
+         |------------------------------------------------------------|
+          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl
+          px-4 py-4"
       >
         {children}
       </div>
@@ -141,7 +163,7 @@ export default {
   ```
 
 <!-- prettier-ignore -->
-預設值 | CLI 覆寫 | API 覆寫
+預設值 | CLI 覆蓋 | API 覆蓋
 --- | --- | ---
 `"absolute"` | `--ending-position <absolute\|relative>` | `endingPosition: "<absolute\|relative>"`
 
@@ -149,24 +171,35 @@ export default {
 
 首次於 v0.7.7 提供。
 
-如果在以非運算式語法撰寫的類別名稱中發生換行，則會將其轉換為運算式語法。此轉換不支援可逆格式化。
+如果在非表達式語法撰寫的類名發生換行，將會轉換為表達式語法。此轉換不支援可逆格式化。
 
 <!-- prettier-ignore -->
-預設值 | CLI 覆寫 | API 覆寫
+預設值 | CLI 覆蓋 | API 覆蓋
 --- | --- | ---
 `false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`
 
-## 與同類外掛的版本對應關係
+### 類名列印寬度
 
-自 `0.6.0` 起，當其中一方有次要版本釋出時，若可能，計畫於另一方也反映該變更。
+首次於 v0.10.0 提供。
 
-![版本對應關係。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+指定類名的列印寬度。若未提供數值，則預設使用 `printWidth` 的值。
 
-## 與其他 Prettier 外掛的相容性
+<!-- prettier-ignore -->
+預設值 | CLI 覆蓋 | API 覆蓋
+--- | --- | ---
+`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`
 
-若有多個 Prettier 外掛可處理您要格式化的文字，Prettier 只會使用最後一個外掛。
+## 與兄弟插件的版本相關性
 
-此時，您可透過加入 [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) 來依序套用這些外掛，設定方式如下。
+從 `0.6.0` 開始，當其中一端有次版本釋出時，我會盡可能在另一端反映該變更。
+
+![版本相關性。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)
+
+## 與其他 Prettier 插件的相容性
+
+若有多個 Prettier 插件可以處理您要格式化的文字，Prettier 只會使用這些插件中的最後一個。
+
+在此情況下，您可以透過新增 [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) 來依序套用這些插件，配置方式如下。
 
 JSON 範例：
 
@@ -188,6 +221,6 @@ JSON 範例：
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-03
 
 ---

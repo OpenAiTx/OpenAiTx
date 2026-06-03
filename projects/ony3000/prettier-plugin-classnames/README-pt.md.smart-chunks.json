@@ -97,6 +97,170 @@
   },
   {
     "Id": 9,
+    "Content": "\n### Markdown/MDX Override\n\nThis plugin does not support Markdown and MDX, but if this plugin supports a language inside code blocks (e.g. Vue), unintended formatting may occur inside the code blocks.\n\nTo prevent unintended formatting, you can use configuration overrides for Markdown and MDX.\n\nJSON example:\n",
+    "ContentSha": "ke0D3+pORssgIpjIn8trB6oF9HwcZmEMKWuOVLvg+O8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Substituição de Markdown/MDX\n\nEste plugin não suporta Markdown e MDX, mas se este plugin suportar um idioma dentro de blocos de código (por exemplo, Vue), pode ocorrer formatação indesejada dentro dos blocos de código.\n\nPara evitar formatação indesejada, você pode usar substituições de configuração para Markdown e MDX.\n\nExemplo de JSON:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jPKz4KTmvuGvyfG02GlUtb2qJEX6QxGBs8CmlA4piKk=",
+        "originContent": "### Markdown/MDX Override",
+        "translatedContent": "### Substituição de Markdown/MDX"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "sbhG6QkiBM/LuNP3paONx6r47hpTNgWoCqjcz+eH+7Y=",
+        "originContent": "This plugin does not support Markdown and MDX, but if this plugin supports a language inside code blocks (e.g. Vue), unintended formatting may occur inside the code blocks.",
+        "translatedContent": "Este plugin não suporta Markdown e MDX, mas se este plugin suportar um idioma dentro de blocos de código (por exemplo, Vue), pode ocorrer formatação indesejada dentro dos blocos de código."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "g94wQmF9JT//IUXuZBk/spZKmJJyRPQn0R5z+JWAxxI=",
+        "originContent": "To prevent unintended formatting, you can use configuration overrides for Markdown and MDX.",
+        "translatedContent": "Para evitar formatação indesejada, você pode usar substituições de configuração para Markdown e MDX."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "w7apFmHq/M8uvk3SaVuOJ4swW2Fx9fDVTLjwORa/gn8=",
+        "originContent": "JSON example:",
+        "translatedContent": "Exemplo de JSON:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```json\n{\n  \"plugins\": [\"prettier-plugin-classnames\"],\n  \"customFunctions\": [\"clsx\"],\n  \"overrides\": [\n    {\n      \"files\": [\"*.md\", \"*.mdx\"],\n      \"options\": {\n        \"plugins\": []\n      }\n    }\n  ]\n}\n```",
+    "ContentSha": "qRCiDzRirl9lFSD90kKw7RL3IBdsggOKBknuLy14V6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"plugins\": [\"prettier-plugin-classnames\"],\n  \"customFunctions\": [\"clsx\"],\n  \"overrides\": [\n    {\n      \"files\": [\"*.md\", \"*.mdx\"],\n      \"options\": {\n        \"plugins\": []\n      }\n    }\n  ]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "EhRWGvCJZftAXUEZNvu/N3x8qsiCJP3ep23eACcPDC0=",
+        "originContent": "  \"plugins\": [\"prettier-plugin-classnames\"],",
+        "translatedContent": "  \"plugins\": [\"prettier-plugin-classnames\"],"
+      },
+      {
+        "row": 4,
+        "rowsha": "N6/UaT+Sywz6WEEleCjHV8k+eqvTZCqwua6vJ75e0EA=",
+        "originContent": "  \"customFunctions\": [\"clsx\"],",
+        "translatedContent": "  \"customFunctions\": [\"clsx\"],"
+      },
+      {
+        "row": 5,
+        "rowsha": "V2m2HLprKciclF6anMtLfzsT/7kZn5MEse1pUQFZOVo=",
+        "originContent": "  \"overrides\": [",
+        "translatedContent": "  \"overrides\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 7,
+        "rowsha": "Rotkyr/AcSt+jJk5tWJW1zUaqrCWCNdAdq76OXEEqtA=",
+        "originContent": "      \"files\": [\"*.md\", \"*.mdx\"],",
+        "translatedContent": "      \"files\": [\"*.md\", \"*.mdx\"],"
+      },
+      {
+        "row": 8,
+        "rowsha": "M2jwSJWRyuVKdpGmtX1cLkULo689poi4Jcs+r/ABiwM=",
+        "originContent": "      \"options\": {",
+        "translatedContent": "      \"options\": {"
+      },
+      {
+        "row": 9,
+        "rowsha": "tuvDkeuEC4HkrshUdiClYex0cYykSwmcrjiT/YAPWaU=",
+        "originContent": "        \"plugins\": []",
+        "translatedContent": "        \"plugins\": []"
+      },
+      {
+        "row": 10,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 11,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 12,
+        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+        "originContent": "  ]",
+        "translatedContent": "  ]"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
     "Content": "\n## Options\n\n### Custom Attributes\n\nList of attributes that enclosing class names.<br>\nThe `class` and `className` attributes are always supported, even if no options are specified.\n\n<!-- prettier-ignore -->\nDefault | CLI&nbsp;Override | API&nbsp;Override\n--- | --- | ---\n`[]` | `--custom-attributes <string>` | `customAttributes: [\"<string>\"]`\n\n### Custom Functions\n\nList of functions that enclosing class names.<br>\nThe `classNames` function is always supported, even if no options are specified.\n\n<!-- prettier-ignore -->\nDefault | CLI&nbsp;Override | API&nbsp;Override\n--- | --- | ---\n`[]` | `--custom-functions <string>` | `customFunctions: [\"<string>\"]`\n\n### Ending Position\n\nFirst available in v0.5.0.<br>\n`absolute-with-indent` was added in v0.6.0.<br>\n`absolute-with-indent` was removed in v0.8.0, but you can get the same output with `absolute`.<br>\nDefault value changed from `relative` to `absolute` in v0.8.0.\n\nThis is the criterion for ending the class name on each line when replacing the original class name with a multi-line class name.\n\n- `absolute` example:\n",
     "ContentSha": "gR6mSU8CcBJTxbT+yGd7xsGjzuQevXoHFjgP4XfM0kg=",
     "SectionType": "",
@@ -108,19 +272,104 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
-    "Content": "  ```\n  --------------------------------------------------| printWidth=50\n  export function Callout({ children }) {\n    return (\n      <div\n        className=\"bg-gray-100/50 border\n          border-zinc-400/30 dark:bg-neutral-900/50\n          dark:border-neutral-500/30 px-4 py-4\n          rounded-xl\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
-    "ContentSha": "1RzuaW68NVjwCwc1YQ4+HV8B4QKvDSYxYnNHLSmHw3g=",
+    "Id": 12,
+    "Content": "  ```\n  ------------------------------------------------------------| printWidth=60\n  export function Callout({ children }) {\n    return (\n      <div\n        className=\"bg-gray-100/50 dark:bg-neutral-900/50\n          border border-zinc-400/30 dark:border-neutral-500/30\n          rounded-xl px-4 py-4\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
+    "ContentSha": "pOlKM2gl0SSPpAZdhWcV/NesTwY0NjoQbzw+78J68jk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "  ```\n  --------------------------------------------------| printWidth=50\n  export function Callout({ children }) {\n    return (\n      <div\n        className=\"bg-gray-100/50 border\n          border-zinc-400/30 dark:bg-neutral-900/50\n          dark:border-neutral-500/30 px-4 py-4\n          rounded-xl\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
+    "Translation": "  ```\n  ------------------------------------------------------------| printWidth=60\n  export function Callout({ children }) {\n    return (\n      <div\n        className=\"bg-gray-100/50 dark:bg-neutral-900/50\n          border border-zinc-400/30 dark:border-neutral-500/30\n          rounded-xl px-4 py-4\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "1G/+ECxhGwIlM1gl8WB5mmTbc3mFBJXrHV+objJcNN8=",
+        "originContent": "  ------------------------------------------------------------| printWidth=60",
+        "translatedContent": "  ------------------------------------------------------------| printWidth=60"
+      },
+      {
+        "row": 3,
+        "rowsha": "2XYKpUdNwPOjAEdg2XMM4ZASd+UQ4dzBsZKwlm48zCk=",
+        "originContent": "  export function Callout({ children }) {",
+        "translatedContent": "  export function Callout({ children }) {"
+      },
+      {
+        "row": 4,
+        "rowsha": "84Bn0qCCViYqn5kfNxu+a4f64ck/sOkXltRwmtRS9/s=",
+        "originContent": "    return (",
+        "translatedContent": "    return ("
+      },
+      {
+        "row": 5,
+        "rowsha": "7zAaL38Gl52g3qtJ47PTtrW82WG4EraDp50WMgDrChc=",
+        "originContent": "      <div",
+        "translatedContent": "      <div"
+      },
+      {
+        "row": 6,
+        "rowsha": "KaCqdv0jWQAZ1w7HyH4NnJmWgEZwGSc9hZ02eM1tzLI=",
+        "originContent": "        className=\"bg-gray-100/50 dark:bg-neutral-900/50",
+        "translatedContent": "        className=\"bg-gray-100/50 dark:bg-neutral-900/50"
+      },
+      {
+        "row": 7,
+        "rowsha": "IGgk3kT4k8hqe0NclBfwF2ib1ic2n1nU4qkAGtnhRmg=",
+        "originContent": "          border border-zinc-400/30 dark:border-neutral-500/30",
+        "translatedContent": "          border border-zinc-400/30 dark:border-neutral-500/30"
+      },
+      {
+        "row": 8,
+        "rowsha": "ww3+lepkioXHZpn7rPOaJYK25hL+hEHLQcdBpWE1cUY=",
+        "originContent": "          rounded-xl px-4 py-4\"",
+        "translatedContent": "          rounded-xl px-4 py-4\""
+      },
+      {
+        "row": 9,
+        "rowsha": "NrOxNmhZX6b0HTusbJe5H+1zxtPLLlxjSNzb94Grj+E=",
+        "originContent": "      >",
+        "translatedContent": "      >"
+      },
+      {
+        "row": 10,
+        "rowsha": "A55z8xziHGNLWCaJQJgVnO0DBPbvHK06HOZIY1zrYF8=",
+        "originContent": "        {children}",
+        "translatedContent": "        {children}"
+      },
+      {
+        "row": 11,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+        "originContent": "    );",
+        "translatedContent": "    );"
+      },
+      {
+        "row": 13,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 14,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 13,
     "Content": "\n- `relative` example:\n",
     "ContentSha": "abzL6Gr88ocoL1o7lsEuIpr6o/TO9hS947HcBOnh+gs=",
     "SectionType": "",
@@ -132,31 +381,400 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
-    "Content": "  ```\n  --------------------------------------------------| printWidth=50\n  export function Callout({ children }) {\n    return (\n      <div\n                  |--------------------------------------------------|\n        className=\"bg-gray-100/50 border border-zinc-400/30\n         |--------------------------------------------------|\n          dark:bg-neutral-900/50 dark:border-neutral-500/30\n          px-4 py-4 rounded-xl\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
-    "ContentSha": "sxkJ7g6WEGKlHfHQYMbLLWo50FzHpY7RICxxkgc3u+E=",
+    "Id": 14,
+    "Content": "  ```\n  ------------------------------------------------------------| printWidth=60\n  export function Callout({ children }) {\n    return (\n      <div\n       |------------------------------------------------------------|\n        className=\"bg-gray-100/50 dark:bg-neutral-900/50 border\n         |------------------------------------------------------------|\n          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl\n          px-4 py-4\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
+    "ContentSha": "T7xV/ioBdcGJxrRFRXUUyPOM5IoUZNRHYPkhC0i+2KI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "  ```\n  --------------------------------------------------| printWidth=50\n  export function Callout({ children }) {\n    return (\n      <div\n                  |--------------------------------------------------|\n        className=\"bg-gray-100/50 border border-zinc-400/30\n         |--------------------------------------------------|\n          dark:bg-neutral-900/50 dark:border-neutral-500/30\n          px-4 py-4 rounded-xl\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
+    "Translation": "  ```\n  ------------------------------------------------------------| printWidth=60\n  export function Callout({ children }) {\n    return (\n      <div\n       |------------------------------------------------------------|\n        className=\"bg-gray-100/50 dark:bg-neutral-900/50 border\n         |------------------------------------------------------------|\n          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl\n          px-4 py-4\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "1G/+ECxhGwIlM1gl8WB5mmTbc3mFBJXrHV+objJcNN8=",
+        "originContent": "  ------------------------------------------------------------| printWidth=60",
+        "translatedContent": "  ------------------------------------------------------------| printWidth=60"
+      },
+      {
+        "row": 3,
+        "rowsha": "2XYKpUdNwPOjAEdg2XMM4ZASd+UQ4dzBsZKwlm48zCk=",
+        "originContent": "  export function Callout({ children }) {",
+        "translatedContent": "  export function Callout({ children }) {"
+      },
+      {
+        "row": 4,
+        "rowsha": "84Bn0qCCViYqn5kfNxu+a4f64ck/sOkXltRwmtRS9/s=",
+        "originContent": "    return (",
+        "translatedContent": "    return ("
+      },
+      {
+        "row": 5,
+        "rowsha": "7zAaL38Gl52g3qtJ47PTtrW82WG4EraDp50WMgDrChc=",
+        "originContent": "      <div",
+        "translatedContent": "      <div"
+      },
+      {
+        "row": 6,
+        "rowsha": "34zN/1IWTUAtA7dJd6rWfbWOrpfvbqwYhxW2c1AQbYE=",
+        "originContent": "       |------------------------------------------------------------|",
+        "translatedContent": "       |------------------------------------------------------------|"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZnM+mn6Kc5nX6ddnXI1JxdeO52He2hKyEnaqQN/PanU=",
+        "originContent": "        className=\"bg-gray-100/50 dark:bg-neutral-900/50 border",
+        "translatedContent": "        className=\"bg-gray-100/50 dark:bg-neutral-900/50 border"
+      },
+      {
+        "row": 8,
+        "rowsha": "+FW9cykQtrh21uH+T42CnqBytFHH5+LlnuX4BhAD68Q=",
+        "originContent": "         |------------------------------------------------------------|",
+        "translatedContent": "         |------------------------------------------------------------|"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZGIbZ19+ma9b3kI2zKk2MQ1osCyOncEP2op3UlknCZc=",
+        "originContent": "          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl",
+        "translatedContent": "          border-zinc-400/30 dark:border-neutral-500/30 rounded-xl"
+      },
+      {
+        "row": 10,
+        "rowsha": "Uyfup5d8GP+etxJ8f4FGd3rfDCbJ2juzebt3CheTx1Q=",
+        "originContent": "          px-4 py-4\"",
+        "translatedContent": "          px-4 py-4\""
+      },
+      {
+        "row": 11,
+        "rowsha": "NrOxNmhZX6b0HTusbJe5H+1zxtPLLlxjSNzb94Grj+E=",
+        "originContent": "      >",
+        "translatedContent": "      >"
+      },
+      {
+        "row": 12,
+        "rowsha": "A55z8xziHGNLWCaJQJgVnO0DBPbvHK06HOZIY1zrYF8=",
+        "originContent": "        {children}",
+        "translatedContent": "        {children}"
+      },
+      {
+        "row": 13,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+        "originContent": "    );",
+        "translatedContent": "    );"
+      },
+      {
+        "row": 15,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 16,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
-    "Content": "\n<!-- prettier-ignore -->\nDefault | CLI&nbsp;Override | API&nbsp;Override\n--- | --- | ---\n`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`\n\n### Syntax Transformation\n\nFirst available in v0.7.7.\n\nIf a line wrapping occurs in a class name written in non-expression syntax, it is transformed into expression syntax. This transformation does not support reversible formatting.\n\n<!-- prettier-ignore -->\nDefault | CLI&nbsp;Override | API&nbsp;Override\n--- | --- | ---\n`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`\n\n## Version correlation with sibling plugins\n\nStarting with `0.6.0`, when there is a minor release on one side, I plan to reflect that change on the other side as well if possible.\n\n![Version correlation.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)\n\n## Compatibility with other Prettier plugins\n\nIf more than one Prettier plugin can handle the text you want to format, Prettier will only use the last of those plugins.\n\nIn this case, you can configure it as follows by adding [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) to apply those plugins sequentially.\n\nJSON example:\n\n<!-- prettier-ignore -->",
-    "ContentSha": "ZJ+TNIffef/tFJYCpfRSwarO/chsv+5jxyi0qInlbTA=",
+    "Id": 15,
+    "Content": "\n<!-- prettier-ignore -->\nDefault | CLI&nbsp;Override | API&nbsp;Override\n--- | --- | ---\n`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`\n\n### Syntax Transformation\n\nFirst available in v0.7.7.\n\nIf a line wrapping occurs in a class name written in non-expression syntax, it is transformed into expression syntax. This transformation does not support reversible formatting.\n\n<!-- prettier-ignore -->\nDefault | CLI&nbsp;Override | API&nbsp;Override\n--- | --- | ---\n`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`\n\n### Classnames Print Width\n\nFirst available in v0.10.0.\n\nSpecify the print width of the class name. If no value is provided, the `printWidth` value is used as default.\n\n<!-- prettier-ignore -->\nDefault | CLI&nbsp;Override | API&nbsp;Override\n--- | --- | ---\n`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`\n\n## Version correlation with sibling plugins\n\nStarting with `0.6.0`, when there is a minor release on one side, I plan to reflect that change on the other side as well if possible.\n\n![Version correlation.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)\n\n## Compatibility with other Prettier plugins\n\nIf more than one Prettier plugin can handle the text you want to format, Prettier will only use the last of those plugins.\n\nIn this case, you can configure it as follows by adding [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) to apply those plugins sequentially.\n",
+    "ContentSha": "J8AUdOxfHtbvAJJOFvqeeiAMn1f+O2b2mc1hZybSkyo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n<!-- prettier-ignore -->\nPadrão | Substituição&nbsp;CLI | Substituição&nbsp;API\n--- | --- | ---\n`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`\n\n### Transformação de Sintaxe\n\nDisponível pela primeira vez na v0.7.7.\n\nSe ocorrer quebra de linha em um nome de classe escrito em sintaxe não-expressão, ele é transformado em sintaxe de expressão. Esta transformação não suporta formatação reversível.\n\n<!-- prettier-ignore -->\nPadrão | Substituição&nbsp;CLI | Substituição&nbsp;API\n--- | --- | ---\n`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`\n\n## Correlação de versões com plugins irmãos\n\nA partir da versão `0.6.0`, quando houver um lançamento secundário de um lado, pretendo refletir essa alteração no outro lado também, se possível.\n\n![Correlação de versões.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)\n\n## Compatibilidade com outros plugins do Prettier\n\nSe mais de um plugin do Prettier puder processar o texto que você deseja formatar, o Prettier usará apenas o último desses plugins.\n\nNeste caso, você pode configurar da seguinte forma, adicionando o [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) para aplicar esses plugins sequencialmente.\n\nExemplo em JSON:\n\n<!-- prettier-ignore -->",
+    "Translation": "\n<!-- prettier-ignore -->\nPadrão | Substituição&nbsp;CLI | Substituição&nbsp;API\n--- | --- | ---\n`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`\n\n### Transformação de Sintaxe\n\nDisponível pela primeira vez na v0.7.7.\n\nSe ocorrer quebra de linha em um nome de classe escrito em sintaxe não-expressão, ele é transformado em sintaxe de expressão. Essa transformação não suporta formatação reversível.\n\n<!-- prettier-ignore -->\nPadrão | Substituição&nbsp;CLI | Substituição&nbsp;API\n--- | --- | ---\n`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`\n\n### Largura de Impressão dos Classnames\n\nDisponível pela primeira vez na v0.10.0.\n\nEspecifica a largura de impressão do nome da classe. Se nenhum valor for fornecido, o valor de `printWidth` é usado como padrão.\n\n<!-- prettier-ignore -->\nPadrão | Substituição&nbsp;CLI | Substituição&nbsp;API\n--- | --- | ---\n`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`\n\n## Correlação de versão com plugins irmãos\n\nA partir da versão `0.6.0`, quando houver um lançamento secundário de um lado, planejo refletir essa alteração do outro lado também, se possível.\n\n![Correlação de versão.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)\n\n## Compatibilidade com outros plugins do Prettier\n\nSe mais de um plugin Prettier puder lidar com o texto que você deseja formatar, o Prettier usará apenas o último desses plugins.\n\nNeste caso, você pode configurar da seguinte forma, adicionando o [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) para aplicar esses plugins sequencialmente.\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
+        "originContent": "<!-- prettier-ignore -->",
+        "translatedContent": "<!-- prettier-ignore -->"
+      },
+      {
+        "row": 3,
+        "rowsha": "WzXlSMWWz4J6DF/kMy2Go8k3XMNz4dZX1Uz79wgbAsg=",
+        "originContent": "Default | CLI&nbsp;Override | API&nbsp;Override",
+        "translatedContent": "Padrão | Substituição&nbsp;CLI | Substituição&nbsp;API"
+      },
+      {
+        "row": 4,
+        "rowsha": "1MQIthbeNCT8UfX8tyU4NyMwdBOucfyQdCLMtu05tkU=",
+        "originContent": "--- | --- | ---",
+        "translatedContent": "--- | --- | ---"
+      },
+      {
+        "row": 5,
+        "rowsha": "TpK4PNrfmT5qDFhvI0JhDh9Z5B4ku/IwXvSiUCPmh54=",
+        "originContent": "`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`",
+        "translatedContent": "`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "eCultP6QPXG/hzIgyJylDrHoWy/dhn3xaxARN+/9kSA=",
+        "originContent": "### Syntax Transformation",
+        "translatedContent": "### Transformação de Sintaxe"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+w9zE6AZrow7DXJ0ujZYvCm0ZSRFdRCeL5hufobVEBU=",
+        "originContent": "First available in v0.7.7.",
+        "translatedContent": "Disponível pela primeira vez na v0.7.7."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "v+T2J4Yv+hN6fNQHAbKBYdNH0T6BLPaSZtAY9ALT6nQ=",
+        "originContent": "If a line wrapping occurs in a class name written in non-expression syntax, it is transformed into expression syntax. This transformation does not support reversible formatting.",
+        "translatedContent": "Se ocorrer quebra de linha em um nome de classe escrito em sintaxe não-expressão, ele é transformado em sintaxe de expressão. Essa transformação não suporta formatação reversível."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
+        "originContent": "<!-- prettier-ignore -->",
+        "translatedContent": "<!-- prettier-ignore -->"
+      },
+      {
+        "row": 14,
+        "rowsha": "WzXlSMWWz4J6DF/kMy2Go8k3XMNz4dZX1Uz79wgbAsg=",
+        "originContent": "Default | CLI&nbsp;Override | API&nbsp;Override",
+        "translatedContent": "Padrão | Substituição&nbsp;CLI | Substituição&nbsp;API"
+      },
+      {
+        "row": 15,
+        "rowsha": "1MQIthbeNCT8UfX8tyU4NyMwdBOucfyQdCLMtu05tkU=",
+        "originContent": "--- | --- | ---",
+        "translatedContent": "--- | --- | ---"
+      },
+      {
+        "row": 16,
+        "rowsha": "4Hml2lHs1/0HDFmO5HZ6yXdszy/HggAD7tpjMRfFrJU=",
+        "originContent": "`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`",
+        "translatedContent": "`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "qhK2cJ0dduai3AG3N1K+zs2nF0cM/bLpAbhfQbfmC2c=",
+        "originContent": "### Classnames Print Width",
+        "translatedContent": "### Largura de Impressão dos Classnames"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "zfJYWmorWwyUHaMnG/m542NJOZ3cvKSzauJpNopMgvI=",
+        "originContent": "First available in v0.10.0.",
+        "translatedContent": "Disponível pela primeira vez na v0.10.0."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "4dOIKFg/LHAG4K4ovLxSWW7VNcc4103uP0LEgAM7fRY=",
+        "originContent": "Specify the print width of the class name. If no value is provided, the `printWidth` value is used as default.",
+        "translatedContent": "Especifica a largura de impressão do nome da classe. Se nenhum valor for fornecido, o valor de `printWidth` é usado como padrão."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
+        "originContent": "<!-- prettier-ignore -->",
+        "translatedContent": "<!-- prettier-ignore -->"
+      },
+      {
+        "row": 25,
+        "rowsha": "WzXlSMWWz4J6DF/kMy2Go8k3XMNz4dZX1Uz79wgbAsg=",
+        "originContent": "Default | CLI&nbsp;Override | API&nbsp;Override",
+        "translatedContent": "Padrão | Substituição&nbsp;CLI | Substituição&nbsp;API"
+      },
+      {
+        "row": 26,
+        "rowsha": "1MQIthbeNCT8UfX8tyU4NyMwdBOucfyQdCLMtu05tkU=",
+        "originContent": "--- | --- | ---",
+        "translatedContent": "--- | --- | ---"
+      },
+      {
+        "row": 27,
+        "rowsha": "tcd5RgM00BTKElxNni+XKFXYyBulohqc1p9NJMSdfL0=",
+        "originContent": "`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`",
+        "translatedContent": "`undefined` | `--classnames-print-width <number>` | `classnamesPrintWidth: <number>`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "mAlHr6NSqa1mzELKlZII94PRhRKJByIeulBsroZw1co=",
+        "originContent": "## Version correlation with sibling plugins",
+        "translatedContent": "## Correlação de versão com plugins irmãos"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "yJVTfPysxPSl3e1u0ke3OAPIpDyF2TwX4X97T3pc6rQ=",
+        "originContent": "Starting with `0.6.0`, when there is a minor release on one side, I plan to reflect that change on the other side as well if possible.",
+        "translatedContent": "A partir da versão `0.6.0`, quando houver um lançamento secundário de um lado, planejo refletir essa alteração do outro lado também, se possível."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "PrQTa8nbXurCv5B/YOr1hPUAUNe9wMGc/EHqmLkFPfA=",
+        "originContent": "![Version correlation.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)",
+        "translatedContent": "![Correlação de versão.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "V3N+ypYnJQSyOhpPdYycdUasGhnJ2q/UwSbO3msUCxA=",
+        "originContent": "## Compatibility with other Prettier plugins",
+        "translatedContent": "## Compatibilidade com outros plugins do Prettier"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "clghbKvWRvmi0hx+h6GNzJnRsFD3PINVKJXKbIKyhnA=",
+        "originContent": "If more than one Prettier plugin can handle the text you want to format, Prettier will only use the last of those plugins.",
+        "translatedContent": "Se mais de um plugin Prettier puder lidar com o texto que você deseja formatar, o Prettier usará apenas o último desses plugins."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "U7SsD0AnaOE+qK8PXS1k7PI0FcqfFc9IlVRXVn/sPbo=",
+        "originContent": "In this case, you can configure it as follows by adding [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) to apply those plugins sequentially.",
+        "translatedContent": "Neste caso, você pode configurar da seguinte forma, adicionando o [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) para aplicar esses plugins sequencialmente."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 16,
+    "Content": "JSON example:\n\n<!-- prettier-ignore -->",
+    "ContentSha": "m7uXahupTXBG8uKo4ziKBq5RQOWnXO0xt82yyNzXh/U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Exemplo de JSON:\n\n<!-- prettier-ignore -->",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "w7apFmHq/M8uvk3SaVuOJ4swW2Fx9fDVTLjwORa/gn8=",
+        "originContent": "JSON example:",
+        "translatedContent": "Exemplo de JSON:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
+        "originContent": "<!-- prettier-ignore -->",
+        "translatedContent": "<!-- prettier-ignore -->"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
     "Content": "```json\n{\n  \"plugins\": [\n    \"prettier-plugin-tailwindcss\",\n    \"prettier-plugin-classnames\",\n    \"prettier-plugin-merge\"\n  ]\n}\n```",
     "ContentSha": "tVnLN8hXUbIJpNYGtit/CUWR4Qw4hD209z5X53f4xkk=",
     "SectionType": "",
@@ -168,7 +786,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 18,
     "Content": "\n## Stargazers over time\n\n[![Stargazers over time](https://starchart.cc/ony3000/prettier-plugin-classnames.svg?variant=adaptive)](https://starchart.cc/ony3000/prettier-plugin-classnames)\n",
     "ContentSha": "eG5WhJbKeeW8nVN0IF+D65Jr90Pk6w4eAo0CgtJnwsQ=",
     "SectionType": "",
@@ -176,38 +794,7 @@
     "EndLine": 0,
     "Translation": "\n## Stargazers over time\n\n[![Stargazers over time](https://starchart.cc/ony3000/prettier-plugin-classnames.svg?variant=adaptive)](https://starchart.cc/ony3000/prettier-plugin-classnames)\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "4zf9LaAgC3oEnb1ggiFqOCI9HC17z3tdWv1YEg5ZgdU=",
-        "originContent": "## Stargazers over time",
-        "translatedContent": "## Stargazers over time"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "3920skCD0ey0C+N8Ac93E0fVUnu6brGB1x6Fc0a8fXM=",
-        "originContent": "[![Stargazers over time](https://starchart.cc/ony3000/prettier-plugin-classnames.svg?variant=adaptive)](https://starchart.cc/ony3000/prettier-plugin-classnames)",
-        "translatedContent": "[![Stargazers over time](https://starchart.cc/ony3000/prettier-plugin-classnames.svg?variant=adaptive)](https://starchart.cc/ony3000/prettier-plugin-classnames)"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

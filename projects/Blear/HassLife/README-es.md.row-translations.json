@@ -1,0 +1,728 @@
+[
+  {
+    "row": 1,
+    "rowsha": "lOn1oue8SxyOiV3rT24sa2FAbOX1ZsDNWPz9MjtO8+o=",
+    "originContent": "## 简介",
+    "translatedContent": "## Introducción"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "QKzSQN8XYceQBlyG78e4MTO/yUcwOz8UztdeINoIZb0=",
+    "originContent": "**交流QQ群: 528735636**",
+    "translatedContent": "**Grupo de QQ para comunicación: 528735636**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "lJB35+UU1i6ZeYvhPE/oEpWHzsXwm51U0o6SV9KOVS8=",
+    "originContent": "Home Assistant的组件",
+    "translatedContent": "Componente de Home Assistant"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "tXovFWHUEj4wI7oVcjRfmsEVOUyZGoAOQkAorKoriEk=",
+    "originContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)",
+    "translatedContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "LPq5/70OdHHsDTh5DJCxx7plBwNeDxAdUv1hQSnZfsU=",
+    "originContent": "此Home Assistant的组件可以让天猫精灵、小爱同学、小度音箱对接HomeAssistant平台上的设备,控制设备、查询上报设备状态。",
+    "translatedContent": "Este componente de Home Assistant permite que Tmall Genie, Xiao Ai y Xiaodu se conecten con los dispositivos de la plataforma HomeAssistant, controlando dispositivos y consultando el estado reportado de los mismos."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "eOUJ+N2WDQUvlf6qZNdXOUfgIZ2S43QeEurowuOsOJ0=",
+    "originContent": "注意：本插件只负责控制下发设备状态上报，添加设备需要在[HassLife](https://hass.blear.cn) 平台上配置。",
+    "translatedContent": "Nota: Este plugin solo se encarga de controlar y enviar el estado de los dispositivos; la adición de dispositivos debe configurarse en la plataforma [HassLife](https://hass.blear.cn)."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+    "originContent": "## 安装",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "kP3uUY4hK03ePffB+fOsjXJ3ObKHFVniOOxfLsuRBF0=",
+    "originContent": "### 1.安装插件",
+    "translatedContent": "### 1. Instalar el plugin"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "MsJisP06hWH9lTwMO5PqlqLtmmCr+vfIN2n//qkZLHQ=",
+    "originContent": "##### 方式1:hacs安装【推荐！】",
+    "translatedContent": "##### Método 1: instalación vía hacs【Recomendado！】"
+  },
+  {
+    "row": 18,
+    "rowsha": "guog+YRJ96mEbnRUJfoxrdH7s+ejPRu/QTVBhj2bW+E=",
+    "originContent": ">>侧边栏HACS-》集成=》搜索hasslife并点击下载",
+    "translatedContent": ">> Barra lateral HACS -> Integraciones -> buscar hasslife y hacer clic en descargar"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "DQGtvG9qXPw7aRRAoSCvk88ftGlZ9i+qywET3knH2jE=",
+    "originContent": "##### 方式2:手动下载[下载插件](https://gitee.com/blear/HassLife)",
+    "translatedContent": "##### Método 2: descarga manual [Descargar plugin](https://gitee.com/blear/HassLife)"
+  },
+  {
+    "row": 21,
+    "rowsha": "S7etPtSVb5zx9cvl/07jm6KI881/WI6EP82oPba9oik=",
+    "originContent": ">>下载`hasslife`文件夹，保存在`<homeassistant配置目录>/custom_components/`目录中，若`custom_components`目录不存在则自行创建,然后重启HomeAssistant。",
+    "translatedContent": ">> Descargar la carpeta `hasslife`, guardarla en el directorio `<homeassistant_configuración>/custom_components/`, si no existe el directorio `custom_components` créelo, luego reinicie HomeAssistant."
+  },
+  {
+    "row": 22,
+    "rowsha": "7naP/nIp9XeQ6zmCiFewp9s79pInJ2VOb3OmE/eT6H0=",
+    "originContent": "- homeassistant配置目录在哪?",
+    "translatedContent": "- ¿Dónde está el directorio de configuración de homeassistant?"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "OHTtNRmn8pGdV3C2F7sUejkaDAGk8px7JE5YGTssQY8=",
+    "originContent": ">>**Windows用户:** `%APPDATA%\\.homeassistant`",
+    "translatedContent": ">>**Usuarios Windows:** `%APPDATA%\\.homeassistant`"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "BchVLXUgwcUby1Gve8avp0uBl/KaImDLC3U51KkGqT4=",
+    "originContent": ">>**Linux-based用户:** 可以通过执行`locate .homeassistant/configuration.yaml`命令，查找到的`.homeassistant`文件夹就是配置目录。",
+    "translatedContent": ">>**Usuarios Linux:** Puede encontrar la carpeta `.homeassistant` ejecutando el comando `locate .homeassistant/configuration.yaml`; la carpeta `.homeassistant` encontrada es el directorio de configuración."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "/IO+P2CplPqyCZAZ+KIbMrRkxiWteSpXIRnDFsBFRVk=",
+    "originContent": ">>**群晖Docker用户:** 进入Docker - 映像 - homeassistant - 高级设置 - 卷, `/config`对应的路径就是配置目录",
+    "translatedContent": ">>**Usuarios Docker en Synology:** Acceda a Docker - Imágenes - homeassistant - Configuración avanzada - Volúmenes, la ruta correspondiente a `/config` es el directorio de configuración."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "IILeef/hlZa4SyihBdJ18qPxER9ImmysifRI0S3f7qU=",
+    "originContent": "### 2.配置插件",
+    "translatedContent": "### 2. Configurar el plugin"
+  },
+  {
+    "row": 32,
+    "rowsha": "/W13t7e2vaSQcGNun/dnz/ZBde5CWDj5gKyZFc78ntU=",
+    "originContent": "##### 方式1:集成界面UI配置",
+    "translatedContent": "##### Método 1: configuración vía interfaz UI de integración"
+  },
+  {
+    "row": 33,
+    "rowsha": "50EH76Se71xvcFt0WLLdg1ajVgIgZvOzh5NavmrFVRw=",
+    "originContent": ">>**点击HomeAssistant侧边栏的配置=》集成=》右下角添加集成=》搜索hasslife并点击=》输入注册的hasslife账号密码点提交即可，插件第一次启动需要时间,请耐心等待。**",
+    "translatedContent": ">> **Haga clic en Configuración en la barra lateral de HomeAssistant -> Integraciones -> botón Añadir integración en la esquina inferior derecha -> buscar hasslife y hacer clic -> ingresar la cuenta y contraseña registrada de hasslife y enviar. El plugin tarda un tiempo en iniciar por primera vez, por favor sea paciente.**"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "WyAGweXrPTBHIC3pTR6d4NlhMk//R90JKTqoN7oTTxA=",
+    "originContent": "如遇到此集成不支持通过UI配置，如果您是从Home Assistant网站点击链接前来，请确保您运行的是最新版的Home Assistant提示。",
+    "translatedContent": "Si encuentra que esta integración no soporta configuración vía UI, y si vino desde el enlace en la página de Home Assistant, asegúrese de estar ejecutando la versión más reciente de Home Assistant."
+  },
+  {
+    "row": 36,
+    "rowsha": "6rZXzm4fT5jlyDOStwS2xdEXNTwV1+D7R3YPt3K6kOw=",
+    "originContent": "可以手动添加帐号配置，然后重启HomeAssistent",
+    "translatedContent": "Puede agregar la configuración de la cuenta manualmente y luego reiniciar HomeAssistant."
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "8AuFm2aQ2ahG9diFRc+bJX8Auezt6BX2QBXFF/zM2ao=",
+    "originContent": "## 使用步骤：",
+    "translatedContent": "## Pasos para usar:"
+  },
+  {
+    "row": 39,
+    "rowsha": "h0kT2lNZEC6kpHs7x5llsAIPFDAJdc6bb5fthU8BZ4I=",
+    "originContent": "\t1.注册HassLife账号 打开https://hass.blear.cn ,注册账号并登录",
+    "translatedContent": "\t1. Registre una cuenta en HassLife abriendo https://hass.blear.cn, cree una cuenta y inicie sesión"
+  },
+  {
+    "row": 40,
+    "rowsha": "V7lC1f3tafqrG5ofoa+ZI82q9DZ8x0cW8lSWcRlfpYY=",
+    "originContent": "\t2.安装插件：安装完重启HomeAssistant，然后去到添加集成页面，添加HassLife集成，并登录HassLife账号。",
+    "translatedContent": "\t2. Instale el plugin: después de instalar, reinicie HomeAssistant, luego vaya a la página de añadir integración, agregue la integración HassLife e inicie sesión con la cuenta HassLife."
+  },
+  {
+    "row": 41,
+    "rowsha": "HXSPB+SFsOcJP4HlWABoIBg8bCXc7q1Ny3GE6LxLPHs=",
+    "originContent": "\t3.继续回到HassLife网站页面，如果你的插件配置没问题，个人中心页面会显示插件状态为`在线`",
+    "translatedContent": "\t3. Continúa volviendo a la página del sitio web HassLife, si la configuración de tu complemento está bien, la página del centro personal mostrará el estado del complemento como `en línea`"
+  },
+  {
+    "row": 42,
+    "rowsha": "wAA/VOvoUBdbQIhFQ3qGaOxDnRVWhM12qNKm/t6lFH8=",
+    "originContent": "\t4.点击设备管理菜单，点击右侧绿色的`添加Homeassistant设备`按钮，勾选你要添加接入的设备并提交",
+    "translatedContent": "\t4. Haz clic en el menú de gestión de dispositivos, haz clic en el botón verde `Agregar dispositivo Homeassistant` a la derecha, selecciona los dispositivos que deseas agregar y envía"
+  },
+  {
+    "row": 43,
+    "rowsha": "37L0LhwVNlsKKPJp3YXXMRv8MVgf8zYVsWTEGuNE2+4=",
+    "originContent": "\t5.设备列表中选择你想要配置的设备，点击`配置` 按需选择你需要接入的智能音箱平台，并配置设备类型和语控名称",
+    "translatedContent": "\t5. En la lista de dispositivos, selecciona el dispositivo que deseas configurar, haz clic en `Configurar` y elige según sea necesario la plataforma de altavoz inteligente que deseas conectar, además de configurar el tipo de dispositivo y el nombre de control por voz"
+  },
+  {
+    "row": 44,
+    "rowsha": "9AC6CDn5ObqJc96UOJE4jvKc0Ilcb/zBY7fuPYI2nMk=",
+    "originContent": "\t6.去对应的平台技能绑定页面，绑定你的HassLife账号，不出意外你就可以看到添加的设备啦。",
+    "translatedContent": "\t6. Ve a la página de vinculación de habilidades de la plataforma correspondiente, vincula tu cuenta HassLife, y si todo va bien, podrás ver el dispositivo agregado."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "68u2i1ineED8bUX00WYZWxvIc3SGT76XbDyYd46HI4A=",
+    "originContent": "## 天猫精灵配置实例",
+    "translatedContent": "## Ejemplo de configuración de Tmall Genie"
+  },
+  {
+    "row": 47,
+    "rowsha": "W8QpSVYYC6/eEUf/BoQGB8QvTYHaVXoWpX/EVjlK/S0=",
+    "originContent": "* 安装最新版`天猫精灵`APP",
+    "translatedContent": "* Instala la última versión de la APP `Tmall Genie`"
+  },
+  {
+    "row": 48,
+    "rowsha": "TfuxDhXClUMzCVTmsBXDnMg/JR+uqsQGLi6NJ0jpTNc=",
+    "originContent": "* 手机游览器访问 [HassLife https://hass.blear.cn](https://hass.blear.cn) 并登录hasslife账号",
+    "translatedContent": "* Usa el navegador del móvil para acceder a [HassLife https://hass.blear.cn](https://hass.blear.cn) e inicia sesión en la cuenta hasslife"
+  },
+  {
+    "row": 49,
+    "rowsha": "VPcaovka88MP0auI0AzolshNgX0R2ToVvm6JfqSuzrc=",
+    "originContent": "* 个人中心页点击访问`天猫精灵技能入口`",
+    "translatedContent": "* En la página del centro personal, haz clic para acceder a la `entrada de habilidades de Tmall Genie`"
+  },
+  {
+    "row": 50,
+    "rowsha": "s8yA2k2cqG9qQhc7SaWd/Sb3Wshe4Lt9t9rjxdjX5JA=",
+    "originContent": "* 点击`绑定平台账号`",
+    "translatedContent": "* Haz clic en `Vincular cuenta de plataforma`"
+  },
+  {
+    "row": 51,
+    "rowsha": "6RRzZ38LbobkQkykzOY23H46MjQw9TFHxkUh6jeQpzI=",
+    "originContent": "* 登录HassLife账户",
+    "translatedContent": "* Inicia sesión en la cuenta HassLife"
+  },
+  {
+    "row": 52,
+    "rowsha": "GuHkimRfZN/eWPzFu/gb/y3nDCl9jpVn0uu3zx5zPc8=",
+    "originContent": "* 确认授权，返回精灵家TAB，即可看到添加的设备",
+    "translatedContent": "* Confirma la autorización, vuelve a la pestaña del asistente y podrás ver los dispositivos añadidos"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "56wmLFXIsLAbMJql2DZUGpXvxCnu/8lJKfRv3gTDRZA=",
+    "originContent": "## 小爱同学配置实例",
+    "translatedContent": "## Ejemplo de configuración de Xiao Ai"
+  },
+  {
+    "row": 55,
+    "rowsha": "4mqgnaVGxixidTWvfG8rEe5o6CAIJ5WcW5VrpvsahcA=",
+    "originContent": "* 进入HassLife设备列表页,添加需要的设备，并配置对应的设备类型和名称",
+    "translatedContent": "* Entra en la página de lista de dispositivos HassLife, añade los dispositivos necesarios y configura el tipo de dispositivo y el nombre correspondiente"
+  },
+  {
+    "row": 56,
+    "rowsha": "m7xRjZHQF7BDb6NjB/xLl61Rex6xYm3H9Yui3m1rouU=",
+    "originContent": "* 安装最新版`米家`APP",
+    "translatedContent": "* Instala la última versión de la APP `Mi Home`"
+  },
+  {
+    "row": 57,
+    "rowsha": "m/mgmQVPZWm67JLbcVCi9wvbsJq6BqBYV9dlQ2PS2PI=",
+    "originContent": "* 打开`米家`APP",
+    "translatedContent": "* Abre la APP `Mi Home`"
+  },
+  {
+    "row": 58,
+    "rowsha": "DPb6iQBPiWLkG6URXoEmkk9Fv2sNsNPGFgKxrtQqG4c=",
+    "originContent": "* 点击`我的`TAB",
+    "translatedContent": "* Haz clic en la pestaña `Yo`"
+  },
+  {
+    "row": 59,
+    "rowsha": "3yeefdBbf0Q0AlJk5kX6kZY2PdgsmxCjZqYnzNnigi4=",
+    "originContent": "* 点击`其他平台设备`",
+    "translatedContent": "* Haz clic en `Dispositivos de otras plataformas`"
+  },
+  {
+    "row": 60,
+    "rowsha": "wT/Tx/NMuMrjhddQFCSUNajixOtoCkQhITHxdNF+1u4=",
+    "originContent": "* 点击`右上角的添加`",
+    "translatedContent": "* Haz clic en el `botón de añadir en la esquina superior derecha`"
+  },
+  {
+    "row": 61,
+    "rowsha": "f5daWSJ9ezvj5C3JcYlZwbkAWV9kx4ksRH/pVDY7n0U=",
+    "originContent": "* 找到`HassLife`并点击",
+    "translatedContent": "* Busca `HassLife` y haz clic"
+  },
+  {
+    "row": 62,
+    "rowsha": "lCJ1+TTeorB7N9c3eXTVek7zHnHpkITuOKwJNnR9SKk=",
+    "originContent": "* 点击`绑定账号`",
+    "translatedContent": "* Haz clic en `Vincular cuenta`"
+  },
+  {
+    "row": 63,
+    "rowsha": "6RRzZ38LbobkQkykzOY23H46MjQw9TFHxkUh6jeQpzI=",
+    "originContent": "* 登录HassLife账户",
+    "translatedContent": "* Inicia sesión en la cuenta HassLife"
+  },
+  {
+    "row": 64,
+    "rowsha": "nzaE5yHSn1xTxZA8Icx/ImGwVwijs9mEvXXqX8RszpE=",
+    "originContent": "* 确认授权，同步设备",
+    "translatedContent": "* Confirma la autorización y sincroniza los dispositivos"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "PoHI98pSKivTkXct1GyeVhevV4snn1gr1cr5M0Urj1s=",
+    "originContent": "## 小度配置实例",
+    "translatedContent": "## Ejemplo de configuración de Xiao Du"
+  },
+  {
+    "row": 67,
+    "rowsha": "4mqgnaVGxixidTWvfG8rEe5o6CAIJ5WcW5VrpvsahcA=",
+    "originContent": "* 进入HassLife设备列表页,添加需要的设备，并配置对应的设备类型和名称",
+    "translatedContent": "* Entra en la página de lista de dispositivos HassLife, añade los dispositivos necesarios y configura el tipo de dispositivo y el nombre correspondiente"
+  },
+  {
+    "row": 68,
+    "rowsha": "sGgaUV7vl+snFUPA9X1Oa7XAAwJGUCRWPcCwvOXeEdE=",
+    "originContent": "* 安装最新版`小度`APP",
+    "translatedContent": "* Instala la última versión de la APP `Xiao Du`"
+  },
+  {
+    "row": 69,
+    "rowsha": "Xdzz+2oIQ+KWoGVQapxChlZUu/J5FH+thXT96AMZHf0=",
+    "originContent": "* 打开``小度`APP",
+    "translatedContent": "* Abre la APP `Xiao Du`"
+  },
+  {
+    "row": 70,
+    "rowsha": "r0XdBKBxRf5bOoDdQEpZB16lkacUwb2aSHAuG6+uw28=",
+    "originContent": "* 点击`右上角的加号`",
+    "translatedContent": "* Haz clic en el `signo más en la esquina superior derecha`"
+  },
+  {
+    "row": 71,
+    "rowsha": "jsvO3g+SAPN9Wk+BtNKBCevOjoU+z010dX4PHCnZEsk=",
+    "originContent": "* 点击`添加设备`",
+    "translatedContent": "* Haz clic en `Agregar dispositivo`"
+  },
+  {
+    "row": 72,
+    "rowsha": "+hWiL2A9Fb8nyth1kv/IA7VJ8bp3fb0mTm55aOTHjaM=",
+    "originContent": "* 搜索`HassLife`并点击",
+    "translatedContent": "* Busca `HassLife` y haz clic"
+  },
+  {
+    "row": 73,
+    "rowsha": "6RRzZ38LbobkQkykzOY23H46MjQw9TFHxkUh6jeQpzI=",
+    "originContent": "* 登录HassLife账户",
+    "translatedContent": "* Inicia sesión en la cuenta HassLife"
+  },
+  {
+    "row": 74,
+    "rowsha": "nzaE5yHSn1xTxZA8Icx/ImGwVwijs9mEvXXqX8RszpE=",
+    "originContent": "* 确认授权，同步设备",
+    "translatedContent": "* Confirma la autorización y sincroniza los dispositivos"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "pnCKc0Lbi7M6ojv3yALwJhR5Q1OgMqiNSh+DP/VE+Ow=",
+    "originContent": "## 天猫精灵支持设备及属性",
+    "translatedContent": "## Dispositivos y atributos soportados por Tmall Genie"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "FIvqKRavDheQU95DJ8kNfiZBwdJiYj+HDhG5TTQ5+nE=",
+    "originContent": "目前支持的设备类型有: 灯、开关、晾衣架、窗帘、电视、热水器、风扇、传感器、空调、二元选择器.",
+    "translatedContent": "Actualmente los tipos de dispositivos soportados son: luz, interruptor, tendedero, cortina, televisor, calentador de agua, ventilador, sensor, aire acondicionado, selector binario."
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "FIDwoPJf07fK40WcSwkoiz6sSN58I1AVqNAeX+yJ5A0=",
+    "originContent": "    设备的开关状态支持设备：灯、开关、晾衣架、窗帘、电视、热水器、风扇、传感器、空调、二元选择器.",
+    "translatedContent": "    Los dispositivos que soportan estado de encendido/apagado incluyen: luz, interruptor, tendedero, cortina, televisor, calentador de agua, ventilador, sensor, aire acondicionado, selector binario."
+  },
+  {
+    "row": 81,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 82,
+    "rowsha": "EWD0N0lVKGfFijQGkW2c6s6XG01+devGtKA3DlAqg0k=",
+    "originContent": "    灯支持调整：颜色、亮度、色温",
+    "translatedContent": "    Soporte de ajuste de la luz: color, brillo, temperatura de color"
+  },
+  {
+    "row": 83,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 84,
+    "rowsha": "Jy2V2n/27/iJX9Pq6IYY7vlbN9Tki7fUoarVp4SqsHo=",
+    "originContent": "    空调支持更换模式：制冷、制热、送风、除湿、自动、温度调节。风速支持:低风、中风、高风、自动",
+    "translatedContent": "    Aire acondicionado soporta cambio de modo: refrigeración, calefacción, ventilación, deshumidificación, automático, ajuste de temperatura. Velocidad del viento soportada: baja, media, alta, automática"
+  },
+  {
+    "row": 85,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 86,
+    "rowsha": "EtKhOsALI+JT/aFUubn3IVow0AA1qlBE/BF/QOseShg=",
+    "originContent": "\t晾衣架支持：晾杆控制，开关控制",
+    "translatedContent": "    Soporte para tendedero: control de barra de secado, control de encendido/apagado"
+  },
+  {
+    "row": 87,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 88,
+    "rowsha": "2HspC6EPT0+KXSZQobHjE3Z3efBJ+h1JhL76igI5d+s=",
+    "originContent": "\t窗帘支持：窗帘的打开关闭",
+    "translatedContent": "    Soporte para cortinas: abrir y cerrar cortinas"
+  },
+  {
+    "row": 89,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 90,
+    "rowsha": "1BgqTo/fzORZ7qDXAAKlGmf/Xph6v+1BLXdtEHeXDME=",
+    "originContent": "\t风扇支持：电源控制(打开/关闭风扇)、风速控制(1-100档(百分比风速)，最高档、抵挡、中低档、中高档、高档、超强档、微风档、自动挡)、左右旋转/摇头/摆风",
+    "translatedContent": "    Soporte para ventilador: control de energía (encender/apagar ventilador), control de velocidad (1-100 niveles (velocidad en porcentaje), nivel máximo, nivel alto, nivel medio-bajo, nivel medio-alto, nivel alto, nivel súper fuerte, nivel brisa, modo automático), rotación izquierda/derecha / oscilación / balanceo"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "OFkhXqaDhdB0gQvxASR/HjBvZMBjjFHwLwjYRCJIJOY=",
+    "originContent": "## 小爱同学支持设备及属性",
+    "translatedContent": "## Dispositivos y atributos soportados por Xiao Ai"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "W/mldIphbtCUfoxC60ApM/AF8KvvlLcoMlq9VIfJIjE=",
+    "originContent": "目前支持的设备类型有: 灯、开关、窗帘、风扇、空调.",
+    "translatedContent": "Actualmente los tipos de dispositivos soportados son: luz, interruptor, cortina, ventilador, aire acondicionado."
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "v0bhqbvbQ+lZhDVT0mtoC0bQBbcPYMKOoch8aYBD4JM=",
+    "originContent": "    设备的开关状态支持设备：灯、开关、窗帘、风扇、空调.",
+    "translatedContent": "    El estado de encendido/apagado del dispositivo es soportado por: luz, interruptor, cortina, ventilador, aire acondicionado."
+  },
+  {
+    "row": 99,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 100,
+    "rowsha": "CsUDeAFAK4wIOK9hAD/1kVC2FVmJLOh2XNd7Utvf9+c=",
+    "originContent": "\t灯支持调整：颜色、亮度、色温",
+    "translatedContent": "    La luz soporta ajuste: color, brillo, temperatura de color"
+  },
+  {
+    "row": 101,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 102,
+    "rowsha": "rcY/P//oSTIh6hcR5XipBwn6dYcci12Nweh6I1pxvAM=",
+    "originContent": "\t空调支持更换模式：制冷、制热、送风、除湿、自动、温度调节。风速支持:低风、中风、高风、自动",
+    "translatedContent": "    El aire acondicionado soporta cambio de modo: refrigeración, calefacción, ventilación, deshumidificación, automático, ajuste de temperatura. Velocidad del viento soportada: baja, media, alta, automática"
+  },
+  {
+    "row": 103,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 104,
+    "rowsha": "2HspC6EPT0+KXSZQobHjE3Z3efBJ+h1JhL76igI5d+s=",
+    "originContent": "\t窗帘支持：窗帘的打开关闭",
+    "translatedContent": "    La cortina soporta: abrir y cerrar cortinas"
+  },
+  {
+    "row": 105,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 106,
+    "rowsha": "VIGmwYTnE0KNd8WjUDDHKQlvfEcA+0xgagJT8x4/sk0=",
+    "originContent": "\t风扇支持：电源控制(打开/关闭风扇)、风速控制(1-100档(百分比风速)、左右旋转/摇头/摆风",
+    "translatedContent": "    El ventilador soporta: control de energía (encender/apagar ventilador), control de velocidad (1-100 niveles (velocidad en porcentaje)), rotación izquierda/derecha / oscilación / balanceo"
+  },
+  {
+    "row": 107,
+    "rowsha": "K0w0L1Qz6+WRodp34BPRtyR1Vi1IV43Ki4S6xmUcPLk=",
+    "originContent": "\t",
+    "translatedContent": "\t"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "K0w0L1Qz6+WRodp34BPRtyR1Vi1IV43Ki4S6xmUcPLk=",
+    "originContent": "\t",
+    "translatedContent": "\t"
+  },
+  {
+    "row": 110,
+    "rowsha": "5jYxi3/GNoHDVkJNJwg9sQYftM1htHSjJym+QuY5IX4=",
+    "originContent": "## 小度音箱支持设备及属性",
+    "translatedContent": "## Dispositivos y atributos soportados por el altavoz Xiaodu"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "v0bhqbvbQ+lZhDVT0mtoC0bQBbcPYMKOoch8aYBD4JM=",
+    "originContent": "    设备的开关状态支持设备：灯、开关、窗帘、风扇、空调.",
+    "translatedContent": "    El estado de encendido/apagado del dispositivo es soportado por: luz, interruptor, cortina, ventilador, aire acondicionado."
+  },
+  {
+    "row": 113,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 114,
+    "rowsha": "axM1ls1ZYcs6X3Mr0ybPC/NPUSCIYIYv5LojBgR2IfE=",
+    "originContent": "\t灯支持调整：开关",
+    "translatedContent": "    La luz soporta ajuste: encendido/apagado"
+  },
+  {
+    "row": 115,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 116,
+    "rowsha": "rcY/P//oSTIh6hcR5XipBwn6dYcci12Nweh6I1pxvAM=",
+    "originContent": "\t空调支持更换模式：制冷、制热、送风、除湿、自动、温度调节。风速支持:低风、中风、高风、自动",
+    "translatedContent": "    El aire acondicionado soporta cambio de modo: refrigeración, calefacción, ventilación, deshumidificación, automático, ajuste de temperatura. Velocidad del viento soportada: baja, media, alta, automática"
+  },
+  {
+    "row": 117,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 118,
+    "rowsha": "2HspC6EPT0+KXSZQobHjE3Z3efBJ+h1JhL76igI5d+s=",
+    "originContent": "\t窗帘支持：窗帘的打开关闭",
+    "translatedContent": "    La cortina soporta: abrir y cerrar cortinas"
+  },
+  {
+    "row": 119,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 120,
+    "rowsha": "w+kkCwNiWtIDAp0+BCblllbHxjh/EKRgM++7Gtz1w70=",
+    "originContent": "\t风扇支持：电源控制(打开/关闭风扇)、风速控制(1-10档)",
+    "translatedContent": "    El ventilador soporta: control de energía (encender/apagar ventilador), control de velocidad (1-10 niveles)"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
