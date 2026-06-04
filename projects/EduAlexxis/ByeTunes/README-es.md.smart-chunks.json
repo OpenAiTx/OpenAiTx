@@ -1,0 +1,900 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ByeTunes 🎵\n\n**Say goodbye to iTunes sync!**\n\nByeTunes is a native iOS app that lets you inject music (MP3, M4A, FLAC, WAV) and ringtones directly into your device's media library—without needing a computer connection for every sync. It communicates directly with the iOS media database, giving you the power to manage your music on your terms.\n\n## Features\n\n-   **Direct Music Injection**: Add songs to your Apple Music library without a PC.\n-   (DISABLED FOR NOW) **Ringtone Manager**: Inject custom ringtones (`.m4r` and `.mp3` auto-conversion).\n-   **Playlist Support**: Create and manage playlists on the fly.\n-   **No Computer Needed** (after setup): Once paired, you're free!\n-   **Metadata Editing**: Auto-fetched from iTunes or Deezer.\n\n## Compilation Instructions\n\nTo build ByeTunes yourself, you'll need a Mac with Xcode.\n\n### Prerequisites\n\n1.  **Xcode**: Version 15+ recommended.\n2.  **iOS Device**: Running iOS 16.0 or later.\n\n### External Libraries\n\nByeTunes relies on `idevice` (a `libimobiledevice` alternative) to talk to the iOS internal file system. **These files are NOT included in this repository** for licensing/size reasons.\n\nTo compile the app, you need to obtain these two files and place them in the `MusicManager/` directory:\n\n1.  `libidevice_ffi.a` (Static Library)\n2.  `idevice.h` (Header File)\n\nYou can find idevice and compile it from here: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)\n\n*If you don't have these files, the project will not compile.*\n\n### Build Steps\n\n1.  Install Rust:",
+    "ContentSha": "6lAtZT9z0j7zzmNYjNlTaGLiYzjMlQS5cymCFhw6mA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ByeTunes 🎵\n\n**¡Di adiós a la sincronización con iTunes!**\n\nByeTunes es una aplicación nativa para iOS que te permite inyectar música (MP3, M4A, FLAC, WAV) y tonos directamente en la biblioteca de medios de tu dispositivo—sin necesidad de una conexión a la computadora para cada sincronización. Se comunica directamente con la base de datos de medios de iOS, dándote el poder de administrar tu música a tu manera.\n\n## Características\n\n-   **Inyección Directa de Música**: Añade canciones a tu biblioteca de Apple Music sin PC.\n-   (DESACTIVADO POR AHORA) **Administrador de Tonos**: Inyecta tonos personalizados (con conversión automática de `.m4r` y `.mp3`).\n-   **Soporte para Listas de Reproducción**: Crea y administra listas sobre la marcha.\n-   **No se Necesita Computadora** (después de la configuración): ¡Una vez emparejado, eres libre!\n-   **Edición de Metadatos**: Se obtienen automáticamente desde iTunes o Deezer.\n\n## Instrucciones de Compilación\n\nPara construir ByeTunes tú mismo, necesitarás una Mac con Xcode.\n\n### Requisitos Previos\n\n1.  **Xcode**: Se recomienda la versión 15 o superior.\n2.  **Dispositivo iOS**: Con iOS 16.0 o posterior.\n\n### Bibliotecas Externas\n\nByeTunes depende de `idevice` (una alternativa a `libimobiledevice`) para comunicarse con el sistema de archivos interno de iOS. **Estos archivos NO están incluidos en este repositorio** por razones de licencia/tamaño.\n\nPara compilar la aplicación, necesitas obtener estos dos archivos y colocarlos en el directorio `MusicManager/`:\n\n1.  `libidevice_ffi.a` (Librería Estática)\n2.  `idevice.h` (Archivo Header)\n\nPuedes encontrar idevice y compilarlo desde aquí: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)\n\n*Si no tienes estos archivos, el proyecto no compilará.*\n\n### Pasos para Compilar\n\n1.  Instala Rust:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PmvxUXMi7+/DL9F/Z2h8MWO2xMrnz8yxTrqojKmiVZ8=",
+        "originContent": "# ByeTunes 🎵",
+        "translatedContent": "# ByeTunes 🎵"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wH8/XMWzVp5nA/w5TY8oZ7un/sRt0NEbmU6I2sTLHa0=",
+        "originContent": "**Say goodbye to iTunes sync!**",
+        "translatedContent": "**¡Di adiós a la sincronización con iTunes!**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "PPBNqoEKul8MBiOH+YyKouFaTvo/7N3WyogadSbuBJk=",
+        "originContent": "ByeTunes is a native iOS app that lets you inject music (MP3, M4A, FLAC, WAV) and ringtones directly into your device's media library—without needing a computer connection for every sync. It communicates directly with the iOS media database, giving you the power to manage your music on your terms.",
+        "translatedContent": "ByeTunes es una aplicación nativa para iOS que te permite inyectar música (MP3, M4A, FLAC, WAV) y tonos directamente en la biblioteca de medios de tu dispositivo—sin necesidad de una conexión a la computadora para cada sincronización. Se comunica directamente con la base de datos de medios de iOS, dándote el poder de administrar tu música a tu manera."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Qz6jZF4zhoxLlwv38BxXVYHk31sBH6bA1hifTi5XINA=",
+        "originContent": "-   **Direct Music Injection**: Add songs to your Apple Music library without a PC.",
+        "translatedContent": "-   **Inyección Directa de Música**: Añade canciones a tu biblioteca de Apple Music sin PC."
+      },
+      {
+        "row": 10,
+        "rowsha": "r3iRkge+zBWmzgoJlE7x1dZaxYe5KcCFga1oY9WX4Lk=",
+        "originContent": "-   (DISABLED FOR NOW) **Ringtone Manager**: Inject custom ringtones (`.m4r` and `.mp3` auto-conversion).",
+        "translatedContent": "-   (DESACTIVADO POR AHORA) **Administrador de Tonos**: Inyecta tonos personalizados (con conversión automática de `.m4r` y `.mp3`)."
+      },
+      {
+        "row": 11,
+        "rowsha": "AJr5MCm/Bllg8l1273FV24RWxK4mnWDZOobbgEmRDMU=",
+        "originContent": "-   **Playlist Support**: Create and manage playlists on the fly.",
+        "translatedContent": "-   **Soporte para Listas de Reproducción**: Crea y administra listas sobre la marcha."
+      },
+      {
+        "row": 12,
+        "rowsha": "+NwY/TAaiqod9fa5btAHU9KLG1xfPV36ezksW0GSQx8=",
+        "originContent": "-   **No Computer Needed** (after setup): Once paired, you're free!",
+        "translatedContent": "-   **No se Necesita Computadora** (después de la configuración): ¡Una vez emparejado, eres libre!"
+      },
+      {
+        "row": 13,
+        "rowsha": "xiW20mDNLfp0N3xSakFY8Q930vO1AcNga2M/zLRj3DE=",
+        "originContent": "-   **Metadata Editing**: Auto-fetched from iTunes or Deezer.",
+        "translatedContent": "-   **Edición de Metadatos**: Se obtienen automáticamente desde iTunes o Deezer."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7qjDGj2AWjC3DKIIhskOVx8IvP3UDJiFAuVcXIVeqQs=",
+        "originContent": "## Compilation Instructions",
+        "translatedContent": "## Instrucciones de Compilación"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "/1Rrf/m/c3bQ1HYKSaB776dK0OHqAmGz9b40e1kOhkA=",
+        "originContent": "To build ByeTunes yourself, you'll need a Mac with Xcode.",
+        "translatedContent": "Para construir ByeTunes tú mismo, necesitarás una Mac con Xcode."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### Requisitos Previos"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "H0zgPTC6dmI8/+6C3GCSX1BACw3ZosG3nOb7ppc4ENA=",
+        "originContent": "1.  **Xcode**: Version 15+ recommended.",
+        "translatedContent": "1.  **Xcode**: Se recomienda la versión 15 o superior."
+      },
+      {
+        "row": 22,
+        "rowsha": "PCB4JqKRa3T7uZ+cCh0Ww7eQ0fEg6jO8QIhLNj674y4=",
+        "originContent": "2.  **iOS Device**: Running iOS 16.0 or later.",
+        "translatedContent": "2.  **Dispositivo iOS**: Con iOS 16.0 o posterior."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Yk7+1pp2kWrQcF5Ja/mNV//aM6l6gdkK4EgH3X8xVV8=",
+        "originContent": "### External Libraries",
+        "translatedContent": "### Bibliotecas Externas"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "GNU97WZoIlhJovlQRBDxbvNAp62VrSrObf+rlf76/OI=",
+        "originContent": "ByeTunes relies on `idevice` (a `libimobiledevice` alternative) to talk to the iOS internal file system. **These files are NOT included in this repository** for licensing/size reasons.",
+        "translatedContent": "ByeTunes depende de `idevice` (una alternativa a `libimobiledevice`) para comunicarse con el sistema de archivos interno de iOS. **Estos archivos NO están incluidos en este repositorio** por razones de licencia/tamaño."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "546poF0z5ofyrMKZW+q0mzzdW/f4lfYaDE6ofM9f5b8=",
+        "originContent": "To compile the app, you need to obtain these two files and place them in the `MusicManager/` directory:",
+        "translatedContent": "Para compilar la aplicación, necesitas obtener estos dos archivos y colocarlos en el directorio `MusicManager/`:"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "xJNC5pKf9YyRo48/GCUhzol5Dmid6alXHZvnMTd5JIk=",
+        "originContent": "1.  `libidevice_ffi.a` (Static Library)",
+        "translatedContent": "1.  `libidevice_ffi.a` (Librería Estática)"
+      },
+      {
+        "row": 31,
+        "rowsha": "J9cTpe9BaqKjS4PzbP0VLjl5NxkqfAy2fTV4ZIzsJW4=",
+        "originContent": "2.  `idevice.h` (Header File)",
+        "translatedContent": "2.  `idevice.h` (Archivo Header)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "vMDCZMPoRhfBefVptDlglhUBvUlGBWclWPQn4cL+tG0=",
+        "originContent": "You can find idevice and compile it from here: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)",
+        "translatedContent": "Puedes encontrar idevice y compilarlo desde aquí: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Bw3719cJevMwjpVpx6uNteDXR9MNqn6+ZI5eagJGJSM=",
+        "originContent": "*If you don't have these files, the project will not compile.*",
+        "translatedContent": "*Si no tienes estos archivos, el proyecto no compilará.*"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "3KCYHNEaddgJ7DxPa7/I08rkZxT0WYUCGfHYOkOkVZs=",
+        "originContent": "### Build Steps",
+        "translatedContent": "### Pasos para Compilar"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "goDt2TSyzQz6Mf/SF6dU8Fun/+xr5cfeYlBn7p4hAGE=",
+        "originContent": "1.  Install Rust:",
+        "translatedContent": "1.  Instala Rust:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    ```bash\n    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n    ```",
+    "ContentSha": "PEWXR2au5ExQLNz3FVb+ddlUfY6A/Xw/W9ryM5nKp1Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "N9BsKEv4dcqF9w9oABdJcYO6T27cES5dZFZvLubRyaM=",
+        "originContent": "    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+        "translatedContent": "    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "2.  Add the ios Arch:",
+    "ContentSha": "RxEYiHKwH4qmfwqvGkR/orkQn69Ncpp2+pkqQJl8upU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2.  Añadir la arquitectura ios:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RxEYiHKwH4qmfwqvGkR/orkQn69Ncpp2+pkqQJl8upU=",
+        "originContent": "2.  Add the ios Arch:",
+        "translatedContent": "2.  Añadir la arquitectura ios:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    ```bash\n    rustup target add aarch64-apple-ios\n    ```",
+    "ContentSha": "e23hq/jdGrAYKbkv6iAPOgLVOfFkoS0DQXq3DjoHbOg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    rustup target add aarch64-apple-ios\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RryjfyzmkTTIuF/+5pIXrytn8KqN+tXwJvFzNFtMBDA=",
+        "originContent": "    rustup target add aarch64-apple-ios",
+        "translatedContent": "    rustup target add aarch64-apple-ios"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "    \n3.  Install Xcode Command Line Tools if you don't have it already installed:",
+    "ContentSha": "h+eVnGqWSmMqT6yWpUAxsfti9Cep4gDd7uyX++vdG0I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    \n3.  Instale las herramientas de línea de comandos de Xcode si aún no las tiene instaladas:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 2,
+        "rowsha": "iQ9fDnW/iZCkjQ3xN9EpkqYDvoZulud0w7UX+6YquaI=",
+        "originContent": "3.  Install Xcode Command Line Tools if you don't have it already installed:",
+        "translatedContent": "3.  Instale las herramientas de línea de comandos de Xcode si aún no las tiene instaladas:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "    ```bash\n    xcode-select --install\n    ```",
+    "ContentSha": "txaR4u/StAfO9FDm0OaGVBfjIORSe+1+gDHUvq+wsDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    xcode-select --install\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uqrdKUbqmVNfRjlMebeVdV+3rcI6fBdVXuNcjCljP50=",
+        "originContent": "    xcode-select --install",
+        "translatedContent": "    xcode-select --install"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4.  Clone the repo:",
+    "ContentSha": "smvBXbLtz4a2ehzmJ3nf6MStDLcucpKmy2ucrF0JJho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n4.  Clona el repositorio:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lPwhLibBIvWVHwrxLfNNDbFxCjXLCEXtbGjb/maK/qE=",
+        "originContent": "4.  Clone the repo:",
+        "translatedContent": "4.  Clona el repositorio:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "    ```bash\n    git clone https://github.com/jkcoxson/idevice\n    ```",
+    "ContentSha": "64O9jw/B9KNQmjJSMUSpCXyg69xSTwN03ASWfDXDaL0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    git clone https://github.com/jkcoxson/idevice\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r5V1NzmvlnfruoaipINXURw6RWGxoUlqhAD13DwOIj0=",
+        "originContent": "    git clone https://github.com/jkcoxson/idevice",
+        "translatedContent": "    git clone https://github.com/jkcoxson/idevice"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n5.  Set a deployment target:",
+    "ContentSha": "Ww/E2Tt166mVikm/YrMvvA4345UY57Qd6HlqdfU+tP4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "5.  Establecer un objetivo de despliegue:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "5.  Establecer un objetivo de despliegue:"
+      },
+      {
+        "row": 2,
+        "rowsha": "I484D+A2RVI6GNanE+e3Uv3dV4EpfffhxFZ/oHyPlsU=",
+        "originContent": "5.  Set a deployment target:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```bash\n    export IPHONEOS_DEPLOYMENT_TARGET=xx.x\n    ```",
+    "ContentSha": "METTm6LaHBSuPv/AIAYLSfyQ8RnAkvap2GH+ALY9umI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    export IPHONEOS_DEPLOYMENT_TARGET=xx.x\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "oIApxdwVe+HRj4wZcWkGrGEg3QMc5KNG+a6UDlRTEDE=",
+        "originContent": "    export IPHONEOS_DEPLOYMENT_TARGET=xx.x",
+        "translatedContent": "    export IPHONEOS_DEPLOYMENT_TARGET=xx.x"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n6.  Run the cargo build:",
+    "ContentSha": "0AVCwSvVKg/VFAOReuoZQGOIsJgujhDuoJTutTvbGZA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n6.  Ejecuta el cargo build:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IHRuhnIcUCTCtqA5MCxTlB6Jq51IcN+ckHvOc+4l3Og=",
+        "originContent": "6.  Run the cargo build:",
+        "translatedContent": "6.  Ejecuta el cargo build:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "    ```bash\n    cargo build --release --package idevice-ffi --target aarch64-apple-ios\n    ```",
+    "ContentSha": "lS/ht28M+Kb974+dgcUErQVG+ZU41pmG89teon75030=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    cargo build --release --package idevice-ffi --target aarch64-apple-ios\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rrBXy0MKf4RFEpYc2liAkNd6qY2BLUJm4hdSDS72oc0=",
+        "originContent": "    cargo build --release --package idevice-ffi --target aarch64-apple-ios",
+        "translatedContent": "    cargo build --release --package idevice-ffi --target aarch64-apple-ios"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "Inside the idevice folder find: idevice.h and libidevice_ffi.a. Move them inside the project in Xcode, make sure you create **Bridging-Header.h**\nInside your Xcode project and make sure you add:\n",
+    "ContentSha": "SXU9e6Cnej9bJwxF+OgyCTdZhteHgBrLIe4sUiBJnXs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Dentro de la carpeta idevice encuentra: idevice.h y libidevice_ffi.a. Muévelos dentro del proyecto en Xcode, asegúrate de crear **Bridging-Header.h**  \nDentro de tu proyecto Xcode y asegúrate de agregar:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RDlG4u/pN1uVUdTqEagIG2T5KNyF0WHKc6dqRIt7ito=",
+        "originContent": "Inside the idevice folder find: idevice.h and libidevice_ffi.a. Move them inside the project in Xcode, make sure you create **Bridging-Header.h**",
+        "translatedContent": "Dentro de la carpeta idevice encuentra: idevice.h y libidevice_ffi.a. Muévelos dentro del proyecto en Xcode, asegúrate de crear **Bridging-Header.h**  "
+      },
+      {
+        "row": 2,
+        "rowsha": "oGlJlu9L4wTIPgP2TzByKTMQMK/nhXPSL/WQ+Z7T5z0=",
+        "originContent": "Inside your Xcode project and make sure you add:",
+        "translatedContent": "Dentro de tu proyecto Xcode y asegúrate de agregar:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": " ```bash\n    #import \"idevice.h\"\n```",
+    "ContentSha": "ocHUrEemdoBd2+IsdTnY30953Ms/EMcnVGW4OqoDgsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " ```bash\n    #import \"idevice.h\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+IHA+JL3CS3LVxzljvPVqaYuyLvmd7uR8NZG+Zp3zhk=",
+        "originContent": " ```bash",
+        "translatedContent": " ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BYFGzBnWLlq2ZYLR9XbqdOALNw56ssFT95bvgaaHuyA=",
+        "originContent": "    #import \"idevice.h\"",
+        "translatedContent": "    #import \"idevice.h\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n**In Project Settings > Build Phases > Link Binary With Libraries, make sure libidevice_ffi.a is listed.**\n\n## How to Use\n\n1. **LocalDevVPN**:\n    - Download LocalDevVPN from the App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044.\n    - Open it and tap Connect, you will need an active connection to import the pairing file inside the app.\n\n2.  **Pairing**:\n    -   On first launch, you'll see an \"Import Pairing File\" screen.\n    -   You need to get a `pairing file`.\n    -   Download idevice_pair refer to https://github.com/jkcoxson/idevice_pair .\n    -   Generate you `pairing file`.\n    -   Export it from your computer and Airdrop/Save it to your iPhone.\n    -   Import it into ByeTunes.\n      \n3.  **Add Music**:\n    -   Tap \"Add Songs\" and select files from your Files app.\n    -   Hit \"Inject to Device\" and watch the magic happen.\n      \n4.  **Ringtones**:\n    -   Go to the Ringtones tab, add your file, and inject!\n\n## Notes\n\n-   **Signed Apps**: If you install this via a signing service (Signulous, AltStore, etc.), the app includes a fix (`asCopy: true`) to ensure file importing works correctly without crashing.\n-   **Backup**: Always good to have a backup of your music library before messing with database injection!\n\n## Support & Bug Reporting\n\nFound a bug? We'd love to fix it!\n\n1.  **Report Issues**: Open a ticket on [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues).\n2.  **Join the Community**: Chat with us on [Discord](https://discord.gg/dDQ4P4SyKJ).\n3.  **Attach Debug Logs**:\n    *   If you are experiencing injection failures, please use the **Debug Options** under delte library inside settings.\n    *   This includes a \"Debug Logs\" screen where you can copy the app logs.\n    *   Please attach these logs to your issue report—they help us solve problems much faster!\n",
+    "ContentSha": "MsCVXBXqQX3FcuV4juHgazcHvi0Ga10jqarYsY7JWKk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**En Configuración del Proyecto > Fases de Construcción > Vincular Binarios con Bibliotecas, asegúrate de que libidevice_ffi.a esté listado.**\n\n## Cómo Usar\n\n1. **LocalDevVPN**:\n    - Descarga LocalDevVPN desde la App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044.\n    - Ábrelo y toca Conectar, necesitarás una conexión activa para importar el archivo de emparejamiento dentro de la app.\n\n2.  **Emparejamiento**:\n    -   En el primer lanzamiento, verás una pantalla \"Importar Archivo de Emparejamiento\".\n    -   Necesitas obtener un `archivo de emparejamiento`.\n    -   Descarga idevice_pair refiérete a https://github.com/jkcoxson/idevice_pair .\n    -   Genera tu `archivo de emparejamiento`.\n    -   Expórtalo desde tu computadora y envíalo por Airdrop/Guárdalo en tu iPhone.\n    -   Impórtalo en ByeTunes.\n      \n3.  **Agregar Música**:\n    -   Toca \"Agregar Canciones\" y selecciona archivos desde la app Archivos.\n    -   Presiona \"Inyectar al Dispositivo\" y observa la magia suceder.\n      \n4.  **Tonos**:\n    -   Ve a la pestaña Tonos, añade tu archivo ¡y inyecta!\n\n## Notas\n\n-   **Apps Firmadas**: Si instalas esto mediante un servicio de firma (Signulous, AltStore, etc.), la app incluye una corrección (`asCopy: true`) para asegurar que la importación de archivos funcione correctamente sin causar fallos.\n-   **Respaldo**: ¡Siempre es bueno tener un respaldo de tu biblioteca musical antes de manipular la inyección en la base de datos!\n\n## Soporte y Reporte de Errores\n\n¿Encontraste un error? ¡Nos encantaría solucionarlo!\n\n1.  **Reportar Problemas**: Abre un ticket en [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues).\n2.  **Únete a la Comunidad**: Chatea con nosotros en [Discord](https://discord.gg/dDQ4P4SyKJ).\n3.  **Adjunta Registros de Depuración**:\n    *   Si experimentas fallos en la inyección, usa las **Opciones de Depuración** bajo eliminar biblioteca dentro de configuración.\n    *   Esto incluye una pantalla de \"Registros de Depuración\" donde puedes copiar los registros de la app.\n    *   ¡Por favor adjunta estos registros en tu reporte de problema—nos ayudan a resolver los problemas mucho más rápido!\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fdciwRAUxYh2jFw4BYLB7pMJkn4N+h5JqpoXqhX8AmM=",
+        "originContent": "**In Project Settings > Build Phases > Link Binary With Libraries, make sure libidevice_ffi.a is listed.**",
+        "translatedContent": "**En Configuración del Proyecto > Fases de Construcción > Vincular Binarios con Bibliotecas, asegúrate de que libidevice_ffi.a esté listado.**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yJlGQKI3p2nVYC1uqNa6eKPSIzUW38uRiGu0PspqvUU=",
+        "originContent": "## How to Use",
+        "translatedContent": "## Cómo Usar"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "M/1JDlkt469CZKXwbFI3AV3IUatb6och7wlrNJaVtRU=",
+        "originContent": "1. **LocalDevVPN**:",
+        "translatedContent": "1. **LocalDevVPN**:"
+      },
+      {
+        "row": 7,
+        "rowsha": "5ALMmP8ZpADPSzUJQC9Ow8/zrkcyokfE5KqN3ow1vfE=",
+        "originContent": "    - Download LocalDevVPN from the App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044.",
+        "translatedContent": "    - Descarga LocalDevVPN desde la App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044."
+      },
+      {
+        "row": 8,
+        "rowsha": "eLVjzTZvy5Cj1gJBH7wQ6boP1dgV/YNnKEuZ5RyL6wc=",
+        "originContent": "    - Open it and tap Connect, you will need an active connection to import the pairing file inside the app.",
+        "translatedContent": "    - Ábrelo y toca Conectar, necesitarás una conexión activa para importar el archivo de emparejamiento dentro de la app."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Q59e8UTrieL9e5thjwR+vrTsvlA30hpWAlNDgawTuhA=",
+        "originContent": "2.  **Pairing**:",
+        "translatedContent": "2.  **Emparejamiento**:"
+      },
+      {
+        "row": 11,
+        "rowsha": "IurMp6FAU1hQf90XAvnvz2FAQZJVbEj5eOXX+gXRbZ8=",
+        "originContent": "    -   On first launch, you'll see an \"Import Pairing File\" screen.",
+        "translatedContent": "    -   En el primer lanzamiento, verás una pantalla \"Importar Archivo de Emparejamiento\"."
+      },
+      {
+        "row": 12,
+        "rowsha": "SHCoTe4Q+qizJNejrgF5d686nCEXoyQ1qIZrJTHBsQw=",
+        "originContent": "    -   You need to get a `pairing file`.",
+        "translatedContent": "    -   Necesitas obtener un `archivo de emparejamiento`."
+      },
+      {
+        "row": 13,
+        "rowsha": "JO7fuZ8/1iRayXKNSsYlsp3fjB0i08UHLlqvZvXzXUE=",
+        "originContent": "    -   Download idevice_pair refer to https://github.com/jkcoxson/idevice_pair .",
+        "translatedContent": "    -   Descarga idevice_pair refiérete a https://github.com/jkcoxson/idevice_pair ."
+      },
+      {
+        "row": 14,
+        "rowsha": "b9bjP7XqTT3bLwE0CizFcXoGIm3Xm1zvrNJoG37JM3M=",
+        "originContent": "    -   Generate you `pairing file`.",
+        "translatedContent": "    -   Genera tu `archivo de emparejamiento`."
+      },
+      {
+        "row": 15,
+        "rowsha": "gyuJQlZV2JLxnaJsOpPMcfbkBjW2YjfWWkQrrmdAKys=",
+        "originContent": "    -   Export it from your computer and Airdrop/Save it to your iPhone.",
+        "translatedContent": "    -   Expórtalo desde tu computadora y envíalo por Airdrop/Guárdalo en tu iPhone."
+      },
+      {
+        "row": 16,
+        "rowsha": "ePPUKQoYIbFB/3Jmw3y3aaK1yw/1vb9ccxVF4nROkr8=",
+        "originContent": "    -   Import it into ByeTunes.",
+        "translatedContent": "    -   Impórtalo en ByeTunes."
+      },
+      {
+        "row": 17,
+        "rowsha": "OZFBvh0wrCZW2J7tzw2NztqnLWwpv5WcriQ9x7FELPY=",
+        "originContent": "      ",
+        "translatedContent": "      "
+      },
+      {
+        "row": 18,
+        "rowsha": "Ut4+kXilnEgmaIhW7xCUBCCacVjDHoXAyh/WYe8u4rw=",
+        "originContent": "3.  **Add Music**:",
+        "translatedContent": "3.  **Agregar Música**:"
+      },
+      {
+        "row": 19,
+        "rowsha": "hDJC6046X/wFBPy6CyTTUkovIvp/BwizklCn5yPAvkY=",
+        "originContent": "    -   Tap \"Add Songs\" and select files from your Files app.",
+        "translatedContent": "    -   Toca \"Agregar Canciones\" y selecciona archivos desde la app Archivos."
+      },
+      {
+        "row": 20,
+        "rowsha": "jdxC967oAamRw1NtoCrSqA1Y7laitgztLAZoBd2jCnM=",
+        "originContent": "    -   Hit \"Inject to Device\" and watch the magic happen.",
+        "translatedContent": "    -   Presiona \"Inyectar al Dispositivo\" y observa la magia suceder."
+      },
+      {
+        "row": 21,
+        "rowsha": "OZFBvh0wrCZW2J7tzw2NztqnLWwpv5WcriQ9x7FELPY=",
+        "originContent": "      ",
+        "translatedContent": "      "
+      },
+      {
+        "row": 22,
+        "rowsha": "bSEjH0QMSBzwkWx4OnGKdEzEZPVW75dcY/3/PFJAI8w=",
+        "originContent": "4.  **Ringtones**:",
+        "translatedContent": "4.  **Tonos**:"
+      },
+      {
+        "row": 23,
+        "rowsha": "I4QCtk9d1zyfKSdMLSgK2ZeghxdagWurN9CgCiKlXms=",
+        "originContent": "    -   Go to the Ringtones tab, add your file, and inject!",
+        "translatedContent": "    -   Ve a la pestaña Tonos, añade tu archivo ¡y inyecta!"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": "## Notas"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "izEI9kAe2f2QLr2ccxGuxFvlhv0scm6zynE76nxPbPM=",
+        "originContent": "-   **Signed Apps**: If you install this via a signing service (Signulous, AltStore, etc.), the app includes a fix (`asCopy: true`) to ensure file importing works correctly without crashing.",
+        "translatedContent": "-   **Apps Firmadas**: Si instalas esto mediante un servicio de firma (Signulous, AltStore, etc.), la app incluye una corrección (`asCopy: true`) para asegurar que la importación de archivos funcione correctamente sin causar fallos."
+      },
+      {
+        "row": 28,
+        "rowsha": "B+1E+Bc90/VebraQK8NNv3RQxJ0wAkrr1eyyuV7wxG0=",
+        "originContent": "-   **Backup**: Always good to have a backup of your music library before messing with database injection!",
+        "translatedContent": "-   **Respaldo**: ¡Siempre es bueno tener un respaldo de tu biblioteca musical antes de manipular la inyección en la base de datos!"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "AAgww1jfRYgY+6boIlws3NsDdIxAIeiqrGsNa4gRZYo=",
+        "originContent": "## Support & Bug Reporting",
+        "translatedContent": "## Soporte y Reporte de Errores"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "RSSxR0nkL/HCUp9jjFr0e+pJQ0e8wqU2VjAQEZdN4W4=",
+        "originContent": "Found a bug? We'd love to fix it!",
+        "translatedContent": "¿Encontraste un error? ¡Nos encantaría solucionarlo!"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "RAaNt/i3ImthV/jE4qdEg8FVtnytXhUf4nnUQJanKgg=",
+        "originContent": "1.  **Report Issues**: Open a ticket on [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues).",
+        "translatedContent": "1.  **Reportar Problemas**: Abre un ticket en [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues)."
+      },
+      {
+        "row": 35,
+        "rowsha": "/M8gHYyVmLtPW6WHE9a5ct1QH5F3SFgxirQTNOmvzJA=",
+        "originContent": "2.  **Join the Community**: Chat with us on [Discord](https://discord.gg/dDQ4P4SyKJ).",
+        "translatedContent": "2.  **Únete a la Comunidad**: Chatea con nosotros en [Discord](https://discord.gg/dDQ4P4SyKJ)."
+      },
+      {
+        "row": 36,
+        "rowsha": "xN0xhwt2kblv43bokPIMbhp1zr9fspXW31nP7qkGrHE=",
+        "originContent": "3.  **Attach Debug Logs**:",
+        "translatedContent": "3.  **Adjunta Registros de Depuración**:"
+      },
+      {
+        "row": 37,
+        "rowsha": "893Rb396te1x2+WBGe1GhKl3GRiN17WF9uFh/jZEb30=",
+        "originContent": "    *   If you are experiencing injection failures, please use the **Debug Options** under delte library inside settings.",
+        "translatedContent": "    *   Si experimentas fallos en la inyección, usa las **Opciones de Depuración** bajo eliminar biblioteca dentro de configuración."
+      },
+      {
+        "row": 38,
+        "rowsha": "NWtQdvBcQO+Kh+V36maKXQvUv0ubW1oOHwLlwUmMP/4=",
+        "originContent": "    *   This includes a \"Debug Logs\" screen where you can copy the app logs.",
+        "translatedContent": "    *   Esto incluye una pantalla de \"Registros de Depuración\" donde puedes copiar los registros de la app."
+      },
+      {
+        "row": 39,
+        "rowsha": "RrHP3yOcSknPChZgqxPiHpisPjNSbMv3NFOM75kBzV4=",
+        "originContent": "    *   Please attach these logs to your issue report—they help us solve problems much faster!",
+        "translatedContent": "    *   ¡Por favor adjunta estos registros en tu reporte de problema—nos ayudan a resolver los problemas mucho más rápido!"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "---\n*Created with ❤️ by EduAlexxis*\n",
+    "ContentSha": "L/vuLbZfFLFmfVZcSe/CNy43ar80NDKKZYxWhNaeDgc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n*Creado con ❤️ por EduAlexxis*\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "wiwWqwaT2eUFIb9vV3YRAYc8QH75ZYm+XH+H+HggAV8=",
+        "originContent": "*Created with ❤️ by EduAlexxis*",
+        "translatedContent": "*Creado con ❤️ por EduAlexxis*"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

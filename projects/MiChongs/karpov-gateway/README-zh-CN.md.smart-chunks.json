@@ -1,0 +1,1241 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Karpov Gateway\n\n> 一体化 API 网关 + 控制台。Go 后端（Gin + gRPC）+ Next.js 前端（App Router + shadcn/ui），自带凭据池、邮件验证、Linux.do OAuth2 SSO、配额计费、TOTP 二步验证。\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\n[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)\n[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)\n\n## ✨ Features\n\n- **统一 REST 网关** — 单进程或多 service 模式，gateway → auth/music/pool/quota/billing/worker gRPC 后端可独立部署\n- **凭据池 (encrypted)** — KEK + DEK 信封加密，AES-256-GCM with AAD，POOL_KEK_HEX 主密钥派生\n- **邮箱注册 + 激活** — SMTP 发码 / 激活链接，双重保险（验证码 + 邮件链接），未配置 SMTP 自动 demote 到 LogSender\n- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密落库\n- **配额 / 计费** — PlanQuotaMiddleware 在 gateway 层兜底，business service 内部按 plan + scope 二次校验\n- **TOTP 二步** — `pquerna/otp` + Redis 重放保护\n- **审计日志** — 结构化 JSON，按 type 分文件，每天滚动\n- **CSRF + Session** — `sid` httpOnly cookie + `X-CSRF-Token` 头双校验\n- **shadcn/ui 控制台** — Next.js 16 App Router + Radix + Tailwind v4\n\n## 🏗 仓库结构\n",
+    "ContentSha": "9EKPAYnVAAxD7QANooSeVMqG1hYt7Nz6UdG2HGm4VXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Karpov Gateway\n\n> 一体化 API 网关 + 控制台。Go 后端（Gin + gRPC）+ Next.js 前端（App Router + shadcn/ui），自带凭据池、邮件验证、Linux.do OAuth2 SSO、配额计费、TOTP 二步验证。\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\n[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)\n[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)\n\n## ✨ 功能特性\n\n- **统一 REST 网关** — 单进程或多服务模式，gateway → auth/music/pool/quota/billing/worker gRPC 后端可独立部署\n- **凭据池（加密）** — KEK + DEK 信封加密，AES-256-GCM 带 AAD，POOL_KEK_HEX 主密钥派生\n- **邮箱注册 + 激活** — SMTP 发送验证码 / 激活链接，双重保障（验证码 + 邮件链接），未配置 SMTP 自动降级为 LogSender\n- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密存库\n- **配额 / 计费** — PlanQuotaMiddleware 在 gateway 层兜底，业务服务内部按 plan + scope 二次校验\n- **TOTP 二步验证** — `pquerna/otp` + Redis 重放保护\n- **审计日志** — 结构化 JSON，按类型分文件，每日滚动\n- **CSRF + Session** — `sid` httpOnly cookie + `X-CSRF-Token` 头双重校验\n- **shadcn/ui 控制台** — Next.js 16 App Router + Radix + Tailwind v4\n\n## 🏗 仓库结构\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aqcGmUqPlkT3T39RIPTrOjW334GErCAmtWPE0Zi0j4Y=",
+        "originContent": "# Karpov Gateway",
+        "translatedContent": "# Karpov Gateway"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "bOwLeymNnIDwrPt31NVBAOdJKDO/H4Mbzt4EC1RyAOw=",
+        "originContent": "> 一体化 API 网关 + 控制台。Go 后端（Gin + gRPC）+ Next.js 前端（App Router + shadcn/ui），自带凭据池、邮件验证、Linux.do OAuth2 SSO、配额计费、TOTP 二步验证。",
+        "translatedContent": "> 一体化 API 网关 + 控制台。Go 后端（Gin + gRPC）+ Next.js 前端（App Router + shadcn/ui），自带凭据池、邮件验证、Linux.do OAuth2 SSO、配额计费、TOTP 二步验证。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "fYlYW6DQuJWgVxdBRiX3n5SMT9QAMQ2pI+uek9SI9AE=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)"
+      },
+      {
+        "row": 6,
+        "rowsha": "GRUlrI6/xXbkAjuCWA13z5G8pSl+cmpJQgs6NVhjF0w=",
+        "originContent": "[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)",
+        "translatedContent": "[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "r6ModBFIpNu3lYR7fNbI9cf/MY9GFOjn5BKFKr8Pt8E=",
+        "originContent": "[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)",
+        "translatedContent": "[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ 功能特性"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "lP65EgfUzq8RSLkx321Jhv0Ojs+ePwR7JoK1YXE/8CU=",
+        "originContent": "- **统一 REST 网关** — 单进程或多 service 模式，gateway → auth/music/pool/quota/billing/worker gRPC 后端可独立部署",
+        "translatedContent": "- **统一 REST 网关** — 单进程或多服务模式，gateway → auth/music/pool/quota/billing/worker gRPC 后端可独立部署"
+      },
+      {
+        "row": 12,
+        "rowsha": "EQe8S5LndYRLGIyBLgXjtEk/ftpYeHLeUx+OsHT/Dtg=",
+        "originContent": "- **凭据池 (encrypted)** — KEK + DEK 信封加密，AES-256-GCM with AAD，POOL_KEK_HEX 主密钥派生",
+        "translatedContent": "- **凭据池（加密）** — KEK + DEK 信封加密，AES-256-GCM 带 AAD，POOL_KEK_HEX 主密钥派生"
+      },
+      {
+        "row": 13,
+        "rowsha": "dhjzBa10X4QQQo2HTXxJTusMkd4Gh9n7jQX/JHsOJe0=",
+        "originContent": "- **邮箱注册 + 激活** — SMTP 发码 / 激活链接，双重保险（验证码 + 邮件链接），未配置 SMTP 自动 demote 到 LogSender",
+        "translatedContent": "- **邮箱注册 + 激活** — SMTP 发送验证码 / 激活链接，双重保障（验证码 + 邮件链接），未配置 SMTP 自动降级为 LogSender"
+      },
+      {
+        "row": 14,
+        "rowsha": "KrzP0ljtL082nsYrQNLwEhf+xzaMz2/tdObGzOIvNCk=",
+        "originContent": "- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密落库",
+        "translatedContent": "- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密存库"
+      },
+      {
+        "row": 15,
+        "rowsha": "IBLKY0k8spUeRPG1YQn6apMXNApAze8IAhC670okxnU=",
+        "originContent": "- **配额 / 计费** — PlanQuotaMiddleware 在 gateway 层兜底，business service 内部按 plan + scope 二次校验",
+        "translatedContent": "- **配额 / 计费** — PlanQuotaMiddleware 在 gateway 层兜底，业务服务内部按 plan + scope 二次校验"
+      },
+      {
+        "row": 16,
+        "rowsha": "RCprNdU6InmseqHg4m8dEJqbk1AuCTsNANZQbKMECIQ=",
+        "originContent": "- **TOTP 二步** — `pquerna/otp` + Redis 重放保护",
+        "translatedContent": "- **TOTP 二步验证** — `pquerna/otp` + Redis 重放保护"
+      },
+      {
+        "row": 17,
+        "rowsha": "DApM7AXuY7ilIz56VThvZG/AYAeJoqJtTu9NjNelJmg=",
+        "originContent": "- **审计日志** — 结构化 JSON，按 type 分文件，每天滚动",
+        "translatedContent": "- **审计日志** — 结构化 JSON，按类型分文件，每日滚动"
+      },
+      {
+        "row": 18,
+        "rowsha": "PjO2TmVb5LSYGlHCYcsMTh/aO22kfD3RBW3LUbi9FqY=",
+        "originContent": "- **CSRF + Session** — `sid` httpOnly cookie + `X-CSRF-Token` 头双校验",
+        "translatedContent": "- **CSRF + Session** — `sid` httpOnly cookie + `X-CSRF-Token` 头双重校验"
+      },
+      {
+        "row": 19,
+        "rowsha": "nroqHXK5Oti/Yjt6s4H818IJxaSc01YusAYiSTtTY50=",
+        "originContent": "- **shadcn/ui 控制台** — Next.js 16 App Router + Radix + Tailwind v4",
+        "translatedContent": "- **shadcn/ui 控制台** — Next.js 16 App Router + Radix + Tailwind v4"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "gY1FLMlgOFiGlXuygCwFolNqUIv4x0MtoINQdf3SF34=",
+        "originContent": "## 🏗 仓库结构",
+        "translatedContent": "## 🏗 仓库结构"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nkarpov-gateway/\n├── gateway/             # Go 后端 (Gin + gRPC)\n│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)\n│   ├── internal/        # 业务实现 (private)\n│   ├── api/             # protobuf 定义\n│   ├── migrations/      # PostgreSQL schema\n│   ├── go.mod           # Go 模块 (go 1.24+)\n│   └── Dockerfile\n├── web/                 # Next.js 16 前端控制台\n│   ├── src/             # App Router pages + components\n│   ├── middleware.ts    # CSRF / session / CSP nonce\n│   ├── package.json     # pnpm workspace\n│   └── Dockerfile\n├── deploy/\n│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)\n│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)\n└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)\n```",
+    "ContentSha": "gC0XlsOKYTJrCuLEy8CrY5cv102oRVklTuZZeZyeyPY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nkarpov-gateway/\n├── gateway/             # Go 后端 (Gin + gRPC)\n│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)\n│   ├── internal/        # 业务实现 (private)\n│   ├── api/             # protobuf 定义\n│   ├── migrations/      # PostgreSQL schema\n│   ├── go.mod           # Go 模块 (go 1.24+)\n│   └── Dockerfile\n├── web/                 # Next.js 16 前端控制台\n│   ├── src/             # App Router pages + components\n│   ├── middleware.ts    # CSRF / session / CSP nonce\n│   ├── package.json     # pnpm workspace\n│   └── Dockerfile\n├── deploy/\n│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)\n│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)\n└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "/KTt+JdF59TTWdJMxtPdaHzxzoQj4rA9W2HtQr1DaIg=",
+        "originContent": "karpov-gateway/",
+        "translatedContent": "karpov-gateway/"
+      },
+      {
+        "row": 3,
+        "rowsha": "rw9E8huVabUrVrHrQpjW3JTUKNf7J7YvCmojh7xnJMI=",
+        "originContent": "├── gateway/             # Go 后端 (Gin + gRPC)",
+        "translatedContent": "├── gateway/             # Go 后端 (Gin + gRPC)"
+      },
+      {
+        "row": 4,
+        "rowsha": "NC3gnapPANlRjSnlnzI2ifp1nPNVhsv2OB5x0midt14=",
+        "originContent": "│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)",
+        "translatedContent": "│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)"
+      },
+      {
+        "row": 5,
+        "rowsha": "r4AEi90EqcmwTX+P77035KsOAMMGMZroNiKF/OdPlT8=",
+        "originContent": "│   ├── internal/        # 业务实现 (private)",
+        "translatedContent": "│   ├── internal/        # 业务实现 (private)"
+      },
+      {
+        "row": 6,
+        "rowsha": "DI6HGg1cO7jt30wSlpdlmXSulRAMnbQkDYEDZufCemo=",
+        "originContent": "│   ├── api/             # protobuf 定义",
+        "translatedContent": "│   ├── api/             # protobuf 定义"
+      },
+      {
+        "row": 7,
+        "rowsha": "u9fCXjRltjn39eVHU7SVh4MEkrw+vqV6ZgzTZdjBhsc=",
+        "originContent": "│   ├── migrations/      # PostgreSQL schema",
+        "translatedContent": "│   ├── migrations/      # PostgreSQL schema"
+      },
+      {
+        "row": 8,
+        "rowsha": "v+t/yjmPq4GOLKhVyrJBwZMCf/GIlIcJLuEc1lbTwaU=",
+        "originContent": "│   ├── go.mod           # Go 模块 (go 1.24+)",
+        "translatedContent": "│   ├── go.mod           # Go 模块 (go 1.24+)"
+      },
+      {
+        "row": 9,
+        "rowsha": "r1YDtt8BPMO2a0HoyWDXD/t6dtkXfkDtXP8oGXA18lo=",
+        "originContent": "│   └── Dockerfile",
+        "translatedContent": "│   └── Dockerfile"
+      },
+      {
+        "row": 10,
+        "rowsha": "mBSygroC7YyRc7n7PvWO2g+oOaXvczhdDBB6SLi7RR8=",
+        "originContent": "├── web/                 # Next.js 16 前端控制台",
+        "translatedContent": "├── web/                 # Next.js 16 前端控制台"
+      },
+      {
+        "row": 11,
+        "rowsha": "8naP2N4w//2+Qjs+CzKQWG3kGTqD81o6XOg+8CubF5o=",
+        "originContent": "│   ├── src/             # App Router pages + components",
+        "translatedContent": "│   ├── src/             # App Router pages + components"
+      },
+      {
+        "row": 12,
+        "rowsha": "GJwwmu9waaF9pUvDGC6LGz3ElKgs0gvTqCCqCXnftQs=",
+        "originContent": "│   ├── middleware.ts    # CSRF / session / CSP nonce",
+        "translatedContent": "│   ├── middleware.ts    # CSRF / session / CSP nonce"
+      },
+      {
+        "row": 13,
+        "rowsha": "O41e9vyGidS9fOYj92IcfyLx2IOiMq+BCOX0LFlSeiY=",
+        "originContent": "│   ├── package.json     # pnpm workspace",
+        "translatedContent": "│   ├── package.json     # pnpm workspace"
+      },
+      {
+        "row": 14,
+        "rowsha": "r1YDtt8BPMO2a0HoyWDXD/t6dtkXfkDtXP8oGXA18lo=",
+        "originContent": "│   └── Dockerfile",
+        "translatedContent": "│   └── Dockerfile"
+      },
+      {
+        "row": 15,
+        "rowsha": "YQ5FKGfU98XQ60CsWxuc9OQPp+8dOD/il8+lHTPqFs4=",
+        "originContent": "├── deploy/",
+        "translatedContent": "├── deploy/"
+      },
+      {
+        "row": 16,
+        "rowsha": "ROySOcQ45WHLdR3MPodjAcBaPUpoz9dgBEsK27ACZHs=",
+        "originContent": "│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)",
+        "translatedContent": "│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)"
+      },
+      {
+        "row": 17,
+        "rowsha": "5eVZ6u5GQHYAZKFBE8V3bCSQ+5NxlxTk7ADbbHkaUws=",
+        "originContent": "│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)",
+        "translatedContent": "│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)"
+      },
+      {
+        "row": 18,
+        "rowsha": "5kQyaCAYFWeH272owkMi29ZnGqtBzqfOvWAkc8rZZyU=",
+        "originContent": "└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)",
+        "translatedContent": "└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 🚀 Quick Start\n\n### 1. 前置要求\n\n| 工具       | 版本    |\n| ---------- | ------- |\n| Go         | 1.24+   |\n| Node.js    | 20.11+  |\n| pnpm       | 9+      |\n| Docker     | 24+     |\n| PostgreSQL | 14+     |\n| Redis      | 7+      |\n\n### 2. 启动依赖（Postgres + Redis + pgAdmin）\n",
+    "ContentSha": "5RF9AJGRCh32efI/cA2MFjEgdQ30SjcXb/6H7yPC7qM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🚀 快速开始\n\n### 1. 前置要求\n\n| 工具       | 版本    |\n| ---------- | ------- |\n| Go         | 1.24+   |\n| Node.js    | 20.11+  |\n| pnpm       | 9+      |\n| Docker     | 24+     |\n| PostgreSQL | 14+     |\n| Redis      | 7+      |\n\n### 2. 启动依赖（Postgres + Redis + pgAdmin）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 快速开始"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "K90CV4i7OG0LYVdXYNRHMH7G+THLCqXd1HnXEMyzAK0=",
+        "originContent": "### 1. 前置要求",
+        "translatedContent": "### 1. 前置要求"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lIwvbZsykKAu/JhUNFhHw/BgR5FiESZabKcGnnsh8XA=",
+        "originContent": "| 工具       | 版本    |",
+        "translatedContent": "| 工具       | 版本    |"
+      },
+      {
+        "row": 7,
+        "rowsha": "pwArBfsR3IuIyzBMR7YkY2Ug4l3yOAgRilp4eIYOmQ4=",
+        "originContent": "| ---------- | ------- |",
+        "translatedContent": "| ---------- | ------- |"
+      },
+      {
+        "row": 8,
+        "rowsha": "EsIGptrAFYjnwSVdJv4+tzL0nR0CnCloiPl74pYt88s=",
+        "originContent": "| Go         | 1.24+   |",
+        "translatedContent": "| Go         | 1.24+   |"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZyQMuBZVs0DSf80SOPOg0IQzvjy67k4hVCs2d+j/KEs=",
+        "originContent": "| Node.js    | 20.11+  |",
+        "translatedContent": "| Node.js    | 20.11+  |"
+      },
+      {
+        "row": 10,
+        "rowsha": "eJg+QIklZ9Q8RLqXtAlatIYNbvzA6dFDxu+O9qtr/r0=",
+        "originContent": "| pnpm       | 9+      |",
+        "translatedContent": "| pnpm       | 9+      |"
+      },
+      {
+        "row": 11,
+        "rowsha": "pBLBXNXoaWmTrj+3aVWJlCzHj+7FEhD2F3pbMtVnXgg=",
+        "originContent": "| Docker     | 24+     |",
+        "translatedContent": "| Docker     | 24+     |"
+      },
+      {
+        "row": 12,
+        "rowsha": "Fyw29rv8X1LNQIyCw5RhaSYbP/7LbwRfrCKM4VOZ+VU=",
+        "originContent": "| PostgreSQL | 14+     |",
+        "translatedContent": "| PostgreSQL | 14+     |"
+      },
+      {
+        "row": 13,
+        "rowsha": "Uagl+1oeWuqoNQ5c1qNzxHaSZlAVuDkmk3YBJxxZsLc=",
+        "originContent": "| Redis      | 7+      |",
+        "translatedContent": "| Redis      | 7+      |"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "V1ZPfvpliPMK19pIZyp9zSc+kC699JO65yO5M9fyzx4=",
+        "originContent": "### 2. 启动依赖（Postgres + Redis + pgAdmin）",
+        "translatedContent": "### 2. 启动依赖（Postgres + Redis + pgAdmin）"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ncd deploy/compose\ncp .env.example .env       # 改强密码！\ndocker compose up -d\n```",
+    "ContentSha": "DR8AEIUwoRrwq9tPH5r7hCW1T7NuX8J0shdu/xnSYzI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd deploy/compose\ncp .env.example .env       # 改强密码！\ndocker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "tIHWzhc0dBeg7GRe6PHElLKCC2tOUwFIdDqMmC9Ptqc=",
+        "originContent": "cd deploy/compose",
+        "translatedContent": "cd deploy/compose"
+      },
+      {
+        "row": 3,
+        "rowsha": "80SMOjALapW4qp1wCHRvhxmP08UKLr/F4vgdRlTmBtY=",
+        "originContent": "cp .env.example .env       # 改强密码！",
+        "translatedContent": "cp .env.example .env       # 改强密码！"
+      },
+      {
+        "row": 4,
+        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+        "originContent": "docker compose up -d",
+        "translatedContent": "docker compose up -d"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 3. 启动 Gateway 后端\n",
+    "ContentSha": "6b5R0LKhvoi0NNU3FH6sLNpTfTkE66qGRg/E2NWuItE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. 启动 Gateway 后端\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jC8JhrzMiN+MkFRNyyZdNrSTB/DBBKFUai5v5o8dzMI=",
+        "originContent": "### 3. 启动 Gateway 后端",
+        "translatedContent": "### 3. 启动 Gateway 后端"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ncd gateway\ncp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致\ngo mod download\ngo run ./cmd/qqmusic-gateway\n# 默认 :8080 (HTTP) + :9000 (gRPC)\n# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码\n```",
+    "ContentSha": "U5o2hFbBik20vV6SwjVjJuZEIRqG2W1zTNM1o5u/Xrk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd gateway\ncp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致\ngo mod download\ngo run ./cmd/qqmusic-gateway\n# 默认 :8080 (HTTP) + :9000 (gRPC)\n# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aRyw4eWi03dbh9T7/j2QfJqn71QEaG/perbTMOXSiMk=",
+        "originContent": "cd gateway",
+        "translatedContent": "cd gateway"
+      },
+      {
+        "row": 3,
+        "rowsha": "Y48sIVl6pT/FvRM4+w5t1Q9XKfYvt9SY7We9Su2Dde0=",
+        "originContent": "cp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致",
+        "translatedContent": "cp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致"
+      },
+      {
+        "row": 4,
+        "rowsha": "QqgmOmQ8y+aS1wdS/92M6jKPwtMZBnffFIXuBvVbNQo=",
+        "originContent": "go mod download",
+        "translatedContent": "go mod download"
+      },
+      {
+        "row": 5,
+        "rowsha": "3iZSWQt6D2xcg4vgGTz4ocC+Fe/NRn1T52Urrsy16Zw=",
+        "originContent": "go run ./cmd/qqmusic-gateway",
+        "translatedContent": "go run ./cmd/qqmusic-gateway"
+      },
+      {
+        "row": 6,
+        "rowsha": "IvFmJyXuykLPg62jt8sQlX58k7qonH6ZQFNj5rA2Z80=",
+        "originContent": "# 默认 :8080 (HTTP) + :9000 (gRPC)",
+        "translatedContent": "# 默认 :8080 (HTTP) + :9000 (gRPC)"
+      },
+      {
+        "row": 7,
+        "rowsha": "Omb+eGbRnEIL+gZZM1wFIODucc+HMOPIOsQhaFcwD0U=",
+        "originContent": "# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码",
+        "translatedContent": "# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### 4. 启动 Web 控制台\n",
+    "ContentSha": "Rl2RFV+kbamLnGy7dTFZfFFXaSBtmkOCNS9EDz2dfwU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4. 启动 Web 控制台\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jPYils/jlF/+Nq2x4gkI5xZa7J/h8E9tBePrh607Tu0=",
+        "originContent": "### 4. 启动 Web 控制台",
+        "translatedContent": "### 4. 启动 Web 控制台"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\ncd web\ncp .env.example .env.local\npnpm install\npnpm dev\n# http://localhost:3000\n```",
+    "ContentSha": "k7tnYqZ76cNEO+tnFwGRRa3BsKCB++M5U9NfLNiI/fQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd web\ncp .env.example .env.local\npnpm install\npnpm dev\n# http://localhost:3000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0iapI5PXSy6wKiQE7W6hlHpGVzWZMQ5C/4a8FZf8uD8=",
+        "originContent": "cd web",
+        "translatedContent": "cd web"
+      },
+      {
+        "row": 3,
+        "rowsha": "p+WZO+vOMpQHbz2zS3rdfhWLywdZQ0t9JtpqPZY7O5I=",
+        "originContent": "cp .env.example .env.local",
+        "translatedContent": "cp .env.example .env.local"
+      },
+      {
+        "row": 4,
+        "rowsha": "AF0LflwmHcxeL4Vo5poLMOiJoydbVbGOwgp97vAIHpA=",
+        "originContent": "pnpm install",
+        "translatedContent": "pnpm install"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZYvNuHAYTkCLCEkYZ1c2s8LyrrXCkHjQE4e47PWrzOI=",
+        "originContent": "pnpm dev",
+        "translatedContent": "pnpm dev"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZbIIj8rfzBiHCd5TLjHZXgzxtJq0sm/kOI7YdckOhVg=",
+        "originContent": "# http://localhost:3000",
+        "translatedContent": "# http://localhost:3000"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 🐳 生产部署 (Docker Compose 单机)\n",
+    "ContentSha": "r1AVOUAuMrwGVUrH6b4feNNuOTEfDIiVPcGv8Q7n6xQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🐳 生产部署 (Docker Compose 单机)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SEcMRy8+RQakSqMasCrlQkCkqYv4UGyyd4RC8/3AH0A=",
+        "originContent": "## 🐳 生产部署 (Docker Compose 单机)",
+        "translatedContent": "## 🐳 生产部署 (Docker Compose 单机)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\ncd deploy/compose-prod\ncp .env.example .env\n# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client\nnano .env\n\n# 生成 KEK\nopenssl rand -hex 32     # → 写到 POOL_KEK_HEX=\n\ndocker compose up -d --build\ndocker compose logs -f gateway\n```",
+    "ContentSha": "wpEXHFFON0BhdNFTDp6PXHPs/x52cxxjE6Q2bIN4RAM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd deploy/compose-prod\ncp .env.example .env\n# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client\nnano .env\n\n# 生成 KEK\nopenssl rand -hex 32     # → 写到 POOL_KEK_HEX=\n\ndocker compose up -d --build\ndocker compose logs -f gateway\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "knjbGxsEPF+TgDkzqQt6bnTeLhV2jBY6kyTe9xMp9/E=",
+        "originContent": "cd deploy/compose-prod",
+        "translatedContent": "cd deploy/compose-prod"
+      },
+      {
+        "row": 3,
+        "rowsha": "pFxdvPKVWlcbGNfSybU7jLc6h2jjaF/ey8hGKiBArIw=",
+        "originContent": "cp .env.example .env",
+        "translatedContent": "cp .env.example .env"
+      },
+      {
+        "row": 4,
+        "rowsha": "iuVj7BMleMRsX4uMjpuEIo5lDBFULbltn3mMAB4tH3M=",
+        "originContent": "# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client",
+        "translatedContent": "# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client"
+      },
+      {
+        "row": 5,
+        "rowsha": "NI3/hNZ0dFlgRs1mHm/Kuocd7O8VVbEbf7ak8WAKAoU=",
+        "originContent": "nano .env",
+        "translatedContent": "nano .env"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "62XdxfPEVeJ94dhJ9p12UjcpC206zS96Go531A9gDKM=",
+        "originContent": "# 生成 KEK",
+        "translatedContent": "# 生成 KEK"
+      },
+      {
+        "row": 8,
+        "rowsha": "FxS6m3bP663uh78vznybBvj34S1EKJQO58iLxDrhjBc=",
+        "originContent": "openssl rand -hex 32     # → 写到 POOL_KEK_HEX=",
+        "translatedContent": "openssl rand -hex 32     # → 写到 POOL_KEK_HEX="
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "NC4W0I4ZbdbheSJVwURD97vlNqtmhhrFdNM8D1YKeCg=",
+        "originContent": "docker compose up -d --build",
+        "translatedContent": "docker compose up -d --build"
+      },
+      {
+        "row": 11,
+        "rowsha": "LCBXMu6m3Fy16Kv8vcN4CDePRc3O07ONx3wqEnwUYWc=",
+        "originContent": "docker compose logs -f gateway",
+        "translatedContent": "docker compose logs -f gateway"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n注意事项：\n\n- `NEXT_PUBLIC_APP_URL` 改了**必须** `docker compose build --no-cache web`，因为它会被 inline 进 client bundle\n- 反向代理（Nginx/Caddy）后必须开 `TRUST_PROXY=true`，否则 X-Forwarded-Proto 不生效\n- KEK 一旦改变，旧凭据池 / 旧 OAuth token **全部不可读**\n\n## 🔐 OAuth2 (Linux.do) 接入\n\n1. 去 [https://connect.linux.do](https://connect.linux.do) 申请应用\n2. 回调地址填：`https://your-domain/v1/auth/oauth/linuxdo/callback`\n3. 把拿到的 client_id / client_secret 写到 `.env`：",
+    "ContentSha": "qwLhsLhZdZjhazyrvLVErcjXlYVP8mb27PEC5t2QjJw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n注意事项：\n\n- `NEXT_PUBLIC_APP_URL` 改了**必须** `docker compose build --no-cache web`，因为它会被 inline 进 client bundle\n- 反向代理（Nginx/Caddy）后必须开 `TRUST_PROXY=true`，否则 X-Forwarded-Proto 不生效\n- KEK 一旦改变，旧凭据池 / 旧 OAuth token **全部不可读**\n\n## 🔐 OAuth2 (Linux.do) 接入\n\n1. 去 [https://connect.linux.do](https://connect.linux.do) 申请应用\n2. 回调地址填：`https://your-domain/v1/auth/oauth/linuxdo/callback`\n3. 把拿到的 client_id / client_secret 写到 `.env`：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "G1BAt82E8LQTjX5lA6R0uszLNKzXl7Y1WNRzyxe/YM4=",
+        "originContent": "注意事项：",
+        "translatedContent": "注意事项："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aIkzS5NW29F4wwl2Lc58G3zaKS6eSAhezWHsvTazgxc=",
+        "originContent": "- `NEXT_PUBLIC_APP_URL` 改了**必须** `docker compose build --no-cache web`，因为它会被 inline 进 client bundle",
+        "translatedContent": "- `NEXT_PUBLIC_APP_URL` 改了**必须** `docker compose build --no-cache web`，因为它会被 inline 进 client bundle"
+      },
+      {
+        "row": 5,
+        "rowsha": "F6j46UL7hGlcwZ/NaCopu0zk/SBJAtso0XjpO6nuhcU=",
+        "originContent": "- 反向代理（Nginx/Caddy）后必须开 `TRUST_PROXY=true`，否则 X-Forwarded-Proto 不生效",
+        "translatedContent": "- 反向代理（Nginx/Caddy）后必须开 `TRUST_PROXY=true`，否则 X-Forwarded-Proto 不生效"
+      },
+      {
+        "row": 6,
+        "rowsha": "Q/PCY5wW9IJPAoxwnB/VHHqgvkcHsxf58pdHt49IME0=",
+        "originContent": "- KEK 一旦改变，旧凭据池 / 旧 OAuth token **全部不可读**",
+        "translatedContent": "- KEK 一旦改变，旧凭据池 / 旧 OAuth token **全部不可读**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "QADfqITQp8kPlBX9xmHdQaDfKYELRJSqrjwZzU+Of0U=",
+        "originContent": "## 🔐 OAuth2 (Linux.do) 接入",
+        "translatedContent": "## 🔐 OAuth2 (Linux.do) 接入"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qfyMPZiSTUnLW3wc3wDDRfxc3H1Gxd6HTKEvIbSgqtU=",
+        "originContent": "1. 去 [https://connect.linux.do](https://connect.linux.do) 申请应用",
+        "translatedContent": "1. 去 [https://connect.linux.do](https://connect.linux.do) 申请应用"
+      },
+      {
+        "row": 11,
+        "rowsha": "r/njFnWkffBi93n6HH9/8r4OPaOimfEtJlrHjcyk5kQ=",
+        "originContent": "2. 回调地址填：`https://your-domain/v1/auth/oauth/linuxdo/callback`",
+        "translatedContent": "2. 回调地址填：`https://your-domain/v1/auth/oauth/linuxdo/callback`"
+      },
+      {
+        "row": 12,
+        "rowsha": "3nuqV8NfMVIC/WhzVUIYH8AhQiXVIwEu042giPvjaUk=",
+        "originContent": "3. 把拿到的 client_id / client_secret 写到 `.env`：",
+        "translatedContent": "3. 把拿到的 client_id / client_secret 写到 `.env`："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "   ```\n   OAUTH_LINUXDO_ENABLED=true\n   OAUTH_LINUXDO_CLIENT_ID=...\n   OAUTH_LINUXDO_CLIENT_SECRET=...\n   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1\n   OAUTH_PUBLIC_BASE=https://your-domain\n   OAUTH_FRONTEND_BASE=https://your-domain\n   ```",
+    "ContentSha": "qWKpixlYSh6yGxbsvoNdRfmPJebKMKWxm5fNOjoKmuM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n   OAUTH_LINUXDO_ENABLED=true\n   OAUTH_LINUXDO_CLIENT_ID=...\n   OAUTH_LINUXDO_CLIENT_SECRET=...\n   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1\n   OAUTH_PUBLIC_BASE=https://your-domain\n   OAUTH_FRONTEND_BASE=https://your-domain\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "4u1MShssA2Uilf4HO6ll5yFUfStJhd8sgDTib8IqZqc=",
+        "originContent": "   OAUTH_LINUXDO_ENABLED=true",
+        "translatedContent": "   OAUTH_LINUXDO_ENABLED=true"
+      },
+      {
+        "row": 3,
+        "rowsha": "vUXLVAravej9Q437f61FDqw1lacWzSIeTVW5Mz8kN5M=",
+        "originContent": "   OAUTH_LINUXDO_CLIENT_ID=...",
+        "translatedContent": "   OAUTH_LINUXDO_CLIENT_ID=..."
+      },
+      {
+        "row": 4,
+        "rowsha": "XGN6vKdvSMra/IrMnMiqeBzQJXUKA0U72cDyMCzPTF8=",
+        "originContent": "   OAUTH_LINUXDO_CLIENT_SECRET=...",
+        "translatedContent": "   OAUTH_LINUXDO_CLIENT_SECRET=..."
+      },
+      {
+        "row": 5,
+        "rowsha": "TVgYdlSjQ6wL1w706zzpY1ms5at3ifRgfMOTICPHl7s=",
+        "originContent": "   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1",
+        "translatedContent": "   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1"
+      },
+      {
+        "row": 6,
+        "rowsha": "YUBsNHbGRur4hKMkgf6SX9f8pG8i3F5XMKyXKC7eQtc=",
+        "originContent": "   OAUTH_PUBLIC_BASE=https://your-domain",
+        "translatedContent": "   OAUTH_PUBLIC_BASE=https://your-domain"
+      },
+      {
+        "row": 7,
+        "rowsha": "IZamNSQPSTKq/MGm9+7ndncEhoL+mCA8QF30w2ql3GM=",
+        "originContent": "   OAUTH_FRONTEND_BASE=https://your-domain",
+        "translatedContent": "   OAUTH_FRONTEND_BASE=https://your-domain"
+      },
+      {
+        "row": 8,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "4. 重启 gateway，登录页 / 注册页会自动出现 \"Linux.do 一键登录\"\n\n## 🧪 测试 / Lint\n",
+    "ContentSha": "/ma1TS6NXFVJtGEbYhNBfYwuSR8cKS9CbVkBo4QLU3Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. 重启 gateway，登录页 / 注册页会自动出现 \"Linux.do 一键登录\"\n\n## 🧪 测试 / Lint\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QMSBUa9P+/7BnsadWVYtgJDUB7oF6aVQCNnZcRRVgfo=",
+        "originContent": "4. 重启 gateway，登录页 / 注册页会自动出现 \"Linux.do 一键登录\"",
+        "translatedContent": "4. 重启 gateway，登录页 / 注册页会自动出现 \"Linux.do 一键登录\""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "XQql3ivkJE2K9rZLa5C7BCYQyUQ39vsjlsw5rPe6OHI=",
+        "originContent": "## 🧪 测试 / Lint",
+        "translatedContent": "## 🧪 测试 / Lint"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# Go\ncd gateway\ngo vet ./...\ngo test -race ./...\ngolangci-lint run --timeout=5m\n\n# Web\ncd web\npnpm lint\npnpm typecheck\n```",
+    "ContentSha": "pAQ/3zLRDkPqucn+C41Mo2ih7t9mTmmKe5vad9ypVoI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Go\ncd gateway\ngo vet ./...\ngo test -race ./...\ngolangci-lint run --timeout=5m\n\n# Web\ncd web\npnpm lint\npnpm typecheck\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7quY+qVXSPj4l8JjfPfNdmTxWWcuT160KCIcFQIWu24=",
+        "originContent": "# Go",
+        "translatedContent": "# Go"
+      },
+      {
+        "row": 3,
+        "rowsha": "aRyw4eWi03dbh9T7/j2QfJqn71QEaG/perbTMOXSiMk=",
+        "originContent": "cd gateway",
+        "translatedContent": "cd gateway"
+      },
+      {
+        "row": 4,
+        "rowsha": "PUtCT2/NEfUwUl3eqaRq6v/sfIg7bAS2uvffNr9HgAs=",
+        "originContent": "go vet ./...",
+        "translatedContent": "go vet ./..."
+      },
+      {
+        "row": 5,
+        "rowsha": "Z5N/odZFaTpwfDhVIcMFw3GdPnXEBdL4wApWt+jPQ4I=",
+        "originContent": "go test -race ./...",
+        "translatedContent": "go test -race ./..."
+      },
+      {
+        "row": 6,
+        "rowsha": "OF5i5ISFhhqf/Myycs7xZchou9rMC/wOz/8LmVnFo6A=",
+        "originContent": "golangci-lint run --timeout=5m",
+        "translatedContent": "golangci-lint run --timeout=5m"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "fcVU8INE/7iJPAf8ZA0UA9D6wC9QqoH7w7Hqvayv76k=",
+        "originContent": "# Web",
+        "translatedContent": "# Web"
+      },
+      {
+        "row": 9,
+        "rowsha": "0iapI5PXSy6wKiQE7W6hlHpGVzWZMQ5C/4a8FZf8uD8=",
+        "originContent": "cd web",
+        "translatedContent": "cd web"
+      },
+      {
+        "row": 10,
+        "rowsha": "7egjotXygU223diilpUE1RO/WkQouAaqTRoEmfs4Ri8=",
+        "originContent": "pnpm lint",
+        "translatedContent": "pnpm lint"
+      },
+      {
+        "row": 11,
+        "rowsha": "G2Wtqy1p4PFI3dEcFcfc1zygh7ZswC2sJnL5STCTzG0=",
+        "originContent": "pnpm typecheck",
+        "translatedContent": "pnpm typecheck"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## 📦 关键依赖\n\n**后端**：\n\n- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP 框架\n- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway\n- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL 驱动\n- [redis/go-redis](https://github.com/redis/go-redis) — Redis 客户端\n- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE\n- [pquerna/otp](https://github.com/pquerna/otp) — TOTP\n\n**前端**：\n\n- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)\n- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)\n- [Tailwind CSS v4](https://tailwindcss.com/)\n- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF\n\n## 📜 License\n\nMIT — 见 [LICENSE](./LICENSE)\n\n## 🤝 Contributing\n\nPR / Issue 欢迎。提 PR 前请：\n\n1. `golangci-lint run` + `gofmt -l .` 全绿\n2. `go test -race ./...` 全绿\n3. Web 改动跑 `pnpm lint && pnpm typecheck`\n4. 不要提交 `.env` / `data/.kek` 或任何包含真实密码的文件\n\n## 🔒 Security\n\n发现安全问题请直接联系 maintainer，**不要**开 public issue。\n\n---\n\nBuilt with ❤️ by [MiChongs](https://github.com/MiChongs)\n",
+    "ContentSha": "T1/+rGX6l2w+eYLCo0Vz4UrBKQat+tHc5/Yws2lgf04=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📦 关键依赖\n\n**后端**：\n\n- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP 框架\n- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway\n- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL 驱动\n- [redis/go-redis](https://github.com/redis/go-redis) — Redis 客户端\n- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE\n- [pquerna/otp](https://github.com/pquerna/otp) — TOTP\n\n**前端**：\n\n- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)\n- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)\n- [Tailwind CSS v4](https://tailwindcss.com/)\n- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF\n\n## 📜 许可证\n\nMIT — 见 [LICENSE](./LICENSE)\n\n## 🤝 贡献\n\n欢迎 PR / Issue。提 PR 前请：\n\n1. `golangci-lint run` + `gofmt -l .` 全部通过\n2. `go test -race ./...` 全部通过\n3. Web 改动运行 `pnpm lint && pnpm typecheck`\n4. 不要提交 `.env` / `data/.kek` 或任何包含真实密码的文件\n\n## 🔒 安全\n\n发现安全问题请直接联系维护者，**不要**开公开 issue。\n\n---\n\n由 [MiChongs](https://github.com/MiChongs) ❤️ 构建\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lS2CS+LfHtXKvYWWFMKeh8TCYHagpsLYhgP8VB2hTak=",
+        "originContent": "## 📦 关键依赖",
+        "translatedContent": "## 📦 关键依赖"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yRlbAyaum1nQe6bx0X6ybwWCFFO+c78gCCxIF+LPHgo=",
+        "originContent": "**后端**：",
+        "translatedContent": "**后端**："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lVts6L5Fqk51a7DEQ5ZwyxdMXFn+9vqnjo6QPwQlFs0=",
+        "originContent": "- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP 框架",
+        "translatedContent": "- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP 框架"
+      },
+      {
+        "row": 7,
+        "rowsha": "3ExmiehMHwz77k9t7nCM/OdYIFvZd/774F6MwQ2JCIg=",
+        "originContent": "- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway",
+        "translatedContent": "- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway"
+      },
+      {
+        "row": 8,
+        "rowsha": "FeG4YFzs3HItckN4xfRzj3q+Hv68wpePFL3KPpYno8Y=",
+        "originContent": "- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL 驱动",
+        "translatedContent": "- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL 驱动"
+      },
+      {
+        "row": 9,
+        "rowsha": "HxjoM12OgF7xfY/7ITuihGFUu7GECFZLoAR/+FRs0Ss=",
+        "originContent": "- [redis/go-redis](https://github.com/redis/go-redis) — Redis 客户端",
+        "translatedContent": "- [redis/go-redis](https://github.com/redis/go-redis) — Redis 客户端"
+      },
+      {
+        "row": 10,
+        "rowsha": "8rmp/tGSBfPqETNu3lncCvoqy6SWUTqEIH0X8YO0fXM=",
+        "originContent": "- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE",
+        "translatedContent": "- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE"
+      },
+      {
+        "row": 11,
+        "rowsha": "Jq+mPKcj+Pq6ewZEN6L4dV9GWpj5H2sg7fGPLJByHlg=",
+        "originContent": "- [pquerna/otp](https://github.com/pquerna/otp) — TOTP",
+        "translatedContent": "- [pquerna/otp](https://github.com/pquerna/otp) — TOTP"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "EiszYfGt89dEc2HM9Bh+91jFzuTnQwL2uOp1GNtyIzI=",
+        "originContent": "**前端**：",
+        "translatedContent": "**前端**："
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "FpgYvJGor0j99DEdCiod905V1ZZ88tDrCAnGZuZ4p08=",
+        "originContent": "- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)",
+        "translatedContent": "- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)"
+      },
+      {
+        "row": 16,
+        "rowsha": "WCjNB35QWYER4Esi7SbxZWBhF+8JclgtZufH16JtWjk=",
+        "originContent": "- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)",
+        "translatedContent": "- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "n0ENyqDivsWYUAtAS465oKGOGHrbPU22+RUPmKPR8+A=",
+        "originContent": "- [Tailwind CSS v4](https://tailwindcss.com/)",
+        "translatedContent": "- [Tailwind CSS v4](https://tailwindcss.com/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "zFWULeLSmTlL9HgiSJQ2CqwbBLY2ehgsmY/kv8HfNuc=",
+        "originContent": "- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF",
+        "translatedContent": "- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Xg7z9THMMv8mm3IS7LJHSaXGCrZhD8D4NGbb/+/ra/Y=",
+        "originContent": "## 📜 License",
+        "translatedContent": "## 📜 许可证"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "jucpFdFGdGNarkR6jUC0vpi0AgPjXChS9il5NJ06N0Y=",
+        "originContent": "MIT — 见 [LICENSE](./LICENSE)",
+        "translatedContent": "MIT — 见 [LICENSE](./LICENSE)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 贡献"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "QyuWB5P2UukDzBKyPoODKSisUq7xh0oc4NSU9qAPjas=",
+        "originContent": "PR / Issue 欢迎。提 PR 前请：",
+        "translatedContent": "欢迎 PR / Issue。提 PR 前请："
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "rjYeuTF+N59GiflbkJ6ZDiuhOPFfSqQATp4ZJiwXJxg=",
+        "originContent": "1. `golangci-lint run` + `gofmt -l .` 全绿",
+        "translatedContent": "1. `golangci-lint run` + `gofmt -l .` 全部通过"
+      },
+      {
+        "row": 29,
+        "rowsha": "P12S59ydftv8/3bjEWKRobWi+gw6QxUfp6K+vg8g0Es=",
+        "originContent": "2. `go test -race ./...` 全绿",
+        "translatedContent": "2. `go test -race ./...` 全部通过"
+      },
+      {
+        "row": 30,
+        "rowsha": "IkiorJJIp+BmYuM03K4rVDSFgkYDgUbmpygxXcgjEtA=",
+        "originContent": "3. Web 改动跑 `pnpm lint && pnpm typecheck`",
+        "translatedContent": "3. Web 改动运行 `pnpm lint && pnpm typecheck`"
+      },
+      {
+        "row": 31,
+        "rowsha": "hYXx2FRJPJr0/TNCMRM14GqLquh9qZsZZeYn26oQhA4=",
+        "originContent": "4. 不要提交 `.env` / `data/.kek` 或任何包含真实密码的文件",
+        "translatedContent": "4. 不要提交 `.env` / `data/.kek` 或任何包含真实密码的文件"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "hwum4xDLO9VI0SBcJa2jW8MIa7DParIfHVwyfNTmM5M=",
+        "originContent": "## 🔒 Security",
+        "translatedContent": "## 🔒 安全"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "EtIRcN7R8WN3JBh+Y3EqFf5wCy2XLCOYqoBbkoUzq9Y=",
+        "originContent": "发现安全问题请直接联系 maintainer，**不要**开 public issue。",
+        "translatedContent": "发现安全问题请直接联系维护者，**不要**开公开 issue。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "mgu5AAk/dGpm4YMSmowDzeOWXCbeaLM/dfhTesL7guE=",
+        "originContent": "Built with ❤️ by [MiChongs](https://github.com/MiChongs)",
+        "translatedContent": "由 [MiChongs](https://github.com/MiChongs) ❤️ 构建"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

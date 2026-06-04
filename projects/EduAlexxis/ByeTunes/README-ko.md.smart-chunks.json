@@ -1,0 +1,900 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ByeTunes 🎵\n\n**Say goodbye to iTunes sync!**\n\nByeTunes is a native iOS app that lets you inject music (MP3, M4A, FLAC, WAV) and ringtones directly into your device's media library—without needing a computer connection for every sync. It communicates directly with the iOS media database, giving you the power to manage your music on your terms.\n\n## Features\n\n-   **Direct Music Injection**: Add songs to your Apple Music library without a PC.\n-   (DISABLED FOR NOW) **Ringtone Manager**: Inject custom ringtones (`.m4r` and `.mp3` auto-conversion).\n-   **Playlist Support**: Create and manage playlists on the fly.\n-   **No Computer Needed** (after setup): Once paired, you're free!\n-   **Metadata Editing**: Auto-fetched from iTunes or Deezer.\n\n## Compilation Instructions\n\nTo build ByeTunes yourself, you'll need a Mac with Xcode.\n\n### Prerequisites\n\n1.  **Xcode**: Version 15+ recommended.\n2.  **iOS Device**: Running iOS 16.0 or later.\n\n### External Libraries\n\nByeTunes relies on `idevice` (a `libimobiledevice` alternative) to talk to the iOS internal file system. **These files are NOT included in this repository** for licensing/size reasons.\n\nTo compile the app, you need to obtain these two files and place them in the `MusicManager/` directory:\n\n1.  `libidevice_ffi.a` (Static Library)\n2.  `idevice.h` (Header File)\n\nYou can find idevice and compile it from here: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)\n\n*If you don't have these files, the project will not compile.*\n\n### Build Steps\n\n1.  Install Rust:",
+    "ContentSha": "6lAtZT9z0j7zzmNYjNlTaGLiYzjMlQS5cymCFhw6mA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ByeTunes 🎵\n\n**iTunes 동기화와 작별하세요!**\n\nByeTunes는 음악(MP3, M4A, FLAC, WAV)과 벨소리를 기기의 미디어 라이브러리에 직접 주입할 수 있는 네이티브 iOS 앱으로, 매번 컴퓨터 연결 없이도 동기화가 가능합니다. iOS 미디어 데이터베이스와 직접 통신하여 사용자가 원하는 방식으로 음악을 관리할 수 있습니다.\n\n## 기능\n\n-   **직접 음악 주입**: PC 없이 Apple Music 라이브러리에 노래 추가.\n-   (현재 비활성화) **벨소리 관리자**: 커스텀 벨소리 주입(`.m4r` 및 `.mp3` 자동 변환).\n-   **재생목록 지원**: 즉석에서 재생목록 생성 및 관리.\n-   **컴퓨터 불필요** (설정 후): 한 번 페어링하면 자유롭게 사용 가능!\n-   **메타데이터 편집**: iTunes 또는 Deezer에서 자동 가져오기.\n\n## 컴파일 지침\n\nByeTunes를 직접 빌드하려면 Xcode가 설치된 Mac이 필요합니다.\n\n### 사전 조건\n\n1.  **Xcode**: 버전 15 이상 권장.\n2.  **iOS 기기**: iOS 16.0 이상 실행 중.\n\n### 외부 라이브러리\n\nByeTunes는 iOS 내부 파일 시스템과 통신하기 위해 `idevice`(`libimobiledevice` 대체)를 사용합니다. **이 파일들은 라이선스 및 용량 문제로 이 저장소에 포함되어 있지 않습니다.**\n\n앱을 컴파일하려면 이 두 파일을 구해서 `MusicManager/` 디렉터리에 넣어야 합니다:\n\n1.  `libidevice_ffi.a` (정적 라이브러리)\n2.  `idevice.h` (헤더 파일)\n\nidevice는 여기에서 찾아 컴파일할 수 있습니다: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)\n\n*이 파일들이 없으면 프로젝트는 컴파일되지 않습니다.*\n\n### 빌드 단계\n\n1.  Rust 설치:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PmvxUXMi7+/DL9F/Z2h8MWO2xMrnz8yxTrqojKmiVZ8=",
+        "originContent": "# ByeTunes 🎵",
+        "translatedContent": "# ByeTunes 🎵"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wH8/XMWzVp5nA/w5TY8oZ7un/sRt0NEbmU6I2sTLHa0=",
+        "originContent": "**Say goodbye to iTunes sync!**",
+        "translatedContent": "**iTunes 동기화와 작별하세요!**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "PPBNqoEKul8MBiOH+YyKouFaTvo/7N3WyogadSbuBJk=",
+        "originContent": "ByeTunes is a native iOS app that lets you inject music (MP3, M4A, FLAC, WAV) and ringtones directly into your device's media library—without needing a computer connection for every sync. It communicates directly with the iOS media database, giving you the power to manage your music on your terms.",
+        "translatedContent": "ByeTunes는 음악(MP3, M4A, FLAC, WAV)과 벨소리를 기기의 미디어 라이브러리에 직접 주입할 수 있는 네이티브 iOS 앱으로, 매번 컴퓨터 연결 없이도 동기화가 가능합니다. iOS 미디어 데이터베이스와 직접 통신하여 사용자가 원하는 방식으로 음악을 관리할 수 있습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Qz6jZF4zhoxLlwv38BxXVYHk31sBH6bA1hifTi5XINA=",
+        "originContent": "-   **Direct Music Injection**: Add songs to your Apple Music library without a PC.",
+        "translatedContent": "-   **직접 음악 주입**: PC 없이 Apple Music 라이브러리에 노래 추가."
+      },
+      {
+        "row": 10,
+        "rowsha": "r3iRkge+zBWmzgoJlE7x1dZaxYe5KcCFga1oY9WX4Lk=",
+        "originContent": "-   (DISABLED FOR NOW) **Ringtone Manager**: Inject custom ringtones (`.m4r` and `.mp3` auto-conversion).",
+        "translatedContent": "-   (현재 비활성화) **벨소리 관리자**: 커스텀 벨소리 주입(`.m4r` 및 `.mp3` 자동 변환)."
+      },
+      {
+        "row": 11,
+        "rowsha": "AJr5MCm/Bllg8l1273FV24RWxK4mnWDZOobbgEmRDMU=",
+        "originContent": "-   **Playlist Support**: Create and manage playlists on the fly.",
+        "translatedContent": "-   **재생목록 지원**: 즉석에서 재생목록 생성 및 관리."
+      },
+      {
+        "row": 12,
+        "rowsha": "+NwY/TAaiqod9fa5btAHU9KLG1xfPV36ezksW0GSQx8=",
+        "originContent": "-   **No Computer Needed** (after setup): Once paired, you're free!",
+        "translatedContent": "-   **컴퓨터 불필요** (설정 후): 한 번 페어링하면 자유롭게 사용 가능!"
+      },
+      {
+        "row": 13,
+        "rowsha": "xiW20mDNLfp0N3xSakFY8Q930vO1AcNga2M/zLRj3DE=",
+        "originContent": "-   **Metadata Editing**: Auto-fetched from iTunes or Deezer.",
+        "translatedContent": "-   **메타데이터 편집**: iTunes 또는 Deezer에서 자동 가져오기."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7qjDGj2AWjC3DKIIhskOVx8IvP3UDJiFAuVcXIVeqQs=",
+        "originContent": "## Compilation Instructions",
+        "translatedContent": "## 컴파일 지침"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "/1Rrf/m/c3bQ1HYKSaB776dK0OHqAmGz9b40e1kOhkA=",
+        "originContent": "To build ByeTunes yourself, you'll need a Mac with Xcode.",
+        "translatedContent": "ByeTunes를 직접 빌드하려면 Xcode가 설치된 Mac이 필요합니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 사전 조건"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "H0zgPTC6dmI8/+6C3GCSX1BACw3ZosG3nOb7ppc4ENA=",
+        "originContent": "1.  **Xcode**: Version 15+ recommended.",
+        "translatedContent": "1.  **Xcode**: 버전 15 이상 권장."
+      },
+      {
+        "row": 22,
+        "rowsha": "PCB4JqKRa3T7uZ+cCh0Ww7eQ0fEg6jO8QIhLNj674y4=",
+        "originContent": "2.  **iOS Device**: Running iOS 16.0 or later.",
+        "translatedContent": "2.  **iOS 기기**: iOS 16.0 이상 실행 중."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Yk7+1pp2kWrQcF5Ja/mNV//aM6l6gdkK4EgH3X8xVV8=",
+        "originContent": "### External Libraries",
+        "translatedContent": "### 외부 라이브러리"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "GNU97WZoIlhJovlQRBDxbvNAp62VrSrObf+rlf76/OI=",
+        "originContent": "ByeTunes relies on `idevice` (a `libimobiledevice` alternative) to talk to the iOS internal file system. **These files are NOT included in this repository** for licensing/size reasons.",
+        "translatedContent": "ByeTunes는 iOS 내부 파일 시스템과 통신하기 위해 `idevice`(`libimobiledevice` 대체)를 사용합니다. **이 파일들은 라이선스 및 용량 문제로 이 저장소에 포함되어 있지 않습니다.**"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "546poF0z5ofyrMKZW+q0mzzdW/f4lfYaDE6ofM9f5b8=",
+        "originContent": "To compile the app, you need to obtain these two files and place them in the `MusicManager/` directory:",
+        "translatedContent": "앱을 컴파일하려면 이 두 파일을 구해서 `MusicManager/` 디렉터리에 넣어야 합니다:"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "xJNC5pKf9YyRo48/GCUhzol5Dmid6alXHZvnMTd5JIk=",
+        "originContent": "1.  `libidevice_ffi.a` (Static Library)",
+        "translatedContent": "1.  `libidevice_ffi.a` (정적 라이브러리)"
+      },
+      {
+        "row": 31,
+        "rowsha": "J9cTpe9BaqKjS4PzbP0VLjl5NxkqfAy2fTV4ZIzsJW4=",
+        "originContent": "2.  `idevice.h` (Header File)",
+        "translatedContent": "2.  `idevice.h` (헤더 파일)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "vMDCZMPoRhfBefVptDlglhUBvUlGBWclWPQn4cL+tG0=",
+        "originContent": "You can find idevice and compile it from here: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)",
+        "translatedContent": "idevice는 여기에서 찾아 컴파일할 수 있습니다: [https://github.com/jkcoxson/idevice](https://github.com/jkcoxson/idevice)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Bw3719cJevMwjpVpx6uNteDXR9MNqn6+ZI5eagJGJSM=",
+        "originContent": "*If you don't have these files, the project will not compile.*",
+        "translatedContent": "*이 파일들이 없으면 프로젝트는 컴파일되지 않습니다.*"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "3KCYHNEaddgJ7DxPa7/I08rkZxT0WYUCGfHYOkOkVZs=",
+        "originContent": "### Build Steps",
+        "translatedContent": "### 빌드 단계"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "goDt2TSyzQz6Mf/SF6dU8Fun/+xr5cfeYlBn7p4hAGE=",
+        "originContent": "1.  Install Rust:",
+        "translatedContent": "1.  Rust 설치:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    ```bash\n    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n    ```",
+    "ContentSha": "PEWXR2au5ExQLNz3FVb+ddlUfY6A/Xw/W9ryM5nKp1Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "N9BsKEv4dcqF9w9oABdJcYO6T27cES5dZFZvLubRyaM=",
+        "originContent": "    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+        "translatedContent": "    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "2.  Add the ios Arch:",
+    "ContentSha": "RxEYiHKwH4qmfwqvGkR/orkQn69Ncpp2+pkqQJl8upU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2.  ios 아키텍처 추가:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RxEYiHKwH4qmfwqvGkR/orkQn69Ncpp2+pkqQJl8upU=",
+        "originContent": "2.  Add the ios Arch:",
+        "translatedContent": "2.  ios 아키텍처 추가:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    ```bash\n    rustup target add aarch64-apple-ios\n    ```",
+    "ContentSha": "e23hq/jdGrAYKbkv6iAPOgLVOfFkoS0DQXq3DjoHbOg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    rustup target add aarch64-apple-ios\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RryjfyzmkTTIuF/+5pIXrytn8KqN+tXwJvFzNFtMBDA=",
+        "originContent": "    rustup target add aarch64-apple-ios",
+        "translatedContent": "    rustup target add aarch64-apple-ios"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "    \n3.  Install Xcode Command Line Tools if you don't have it already installed:",
+    "ContentSha": "h+eVnGqWSmMqT6yWpUAxsfti9Cep4gDd7uyX++vdG0I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    \n3.  Xcode 명령어 도구가 이미 설치되어 있지 않다면 설치하십시오:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 2,
+        "rowsha": "iQ9fDnW/iZCkjQ3xN9EpkqYDvoZulud0w7UX+6YquaI=",
+        "originContent": "3.  Install Xcode Command Line Tools if you don't have it already installed:",
+        "translatedContent": "3.  Xcode 명령어 도구가 이미 설치되어 있지 않다면 설치하십시오:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "    ```bash\n    xcode-select --install\n    ```",
+    "ContentSha": "txaR4u/StAfO9FDm0OaGVBfjIORSe+1+gDHUvq+wsDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    xcode-select --install\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uqrdKUbqmVNfRjlMebeVdV+3rcI6fBdVXuNcjCljP50=",
+        "originContent": "    xcode-select --install",
+        "translatedContent": "    xcode-select --install"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4.  Clone the repo:",
+    "ContentSha": "smvBXbLtz4a2ehzmJ3nf6MStDLcucpKmy2ucrF0JJho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n4.  레포지토리를 클론하세요:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lPwhLibBIvWVHwrxLfNNDbFxCjXLCEXtbGjb/maK/qE=",
+        "originContent": "4.  Clone the repo:",
+        "translatedContent": "4.  레포지토리를 클론하세요:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "    ```bash\n    git clone https://github.com/jkcoxson/idevice\n    ```",
+    "ContentSha": "64O9jw/B9KNQmjJSMUSpCXyg69xSTwN03ASWfDXDaL0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    git clone https://github.com/jkcoxson/idevice\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r5V1NzmvlnfruoaipINXURw6RWGxoUlqhAD13DwOIj0=",
+        "originContent": "    git clone https://github.com/jkcoxson/idevice",
+        "translatedContent": "    git clone https://github.com/jkcoxson/idevice"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n5.  Set a deployment target:",
+    "ContentSha": "Ww/E2Tt166mVikm/YrMvvA4345UY57Qd6HlqdfU+tP4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n5.  배포 대상 설정:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "I484D+A2RVI6GNanE+e3Uv3dV4EpfffhxFZ/oHyPlsU=",
+        "originContent": "5.  Set a deployment target:",
+        "translatedContent": "5.  배포 대상 설정:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```bash\n    export IPHONEOS_DEPLOYMENT_TARGET=xx.x\n    ```",
+    "ContentSha": "METTm6LaHBSuPv/AIAYLSfyQ8RnAkvap2GH+ALY9umI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    export IPHONEOS_DEPLOYMENT_TARGET=xx.x\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "oIApxdwVe+HRj4wZcWkGrGEg3QMc5KNG+a6UDlRTEDE=",
+        "originContent": "    export IPHONEOS_DEPLOYMENT_TARGET=xx.x",
+        "translatedContent": "    export IPHONEOS_DEPLOYMENT_TARGET=xx.x"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n6.  Run the cargo build:",
+    "ContentSha": "0AVCwSvVKg/VFAOReuoZQGOIsJgujhDuoJTutTvbGZA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n6.  cargo 빌드를 실행합니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IHRuhnIcUCTCtqA5MCxTlB6Jq51IcN+ckHvOc+4l3Og=",
+        "originContent": "6.  Run the cargo build:",
+        "translatedContent": "6.  cargo 빌드를 실행합니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "    ```bash\n    cargo build --release --package idevice-ffi --target aarch64-apple-ios\n    ```",
+    "ContentSha": "lS/ht28M+Kb974+dgcUErQVG+ZU41pmG89teon75030=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    cargo build --release --package idevice-ffi --target aarch64-apple-ios\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rrBXy0MKf4RFEpYc2liAkNd6qY2BLUJm4hdSDS72oc0=",
+        "originContent": "    cargo build --release --package idevice-ffi --target aarch64-apple-ios",
+        "translatedContent": "    cargo build --release --package idevice-ffi --target aarch64-apple-ios"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "Inside the idevice folder find: idevice.h and libidevice_ffi.a. Move them inside the project in Xcode, make sure you create **Bridging-Header.h**\nInside your Xcode project and make sure you add:\n",
+    "ContentSha": "SXU9e6Cnej9bJwxF+OgyCTdZhteHgBrLIe4sUiBJnXs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "idevice 폴더 안에서 다음을 찾으세요: idevice.h와 libidevice_ffi.a. Xcode 프로젝트 안으로 이동시키고, **Bridging-Header.h**를 꼭 생성하세요  \nXcode 프로젝트 안에서 그리고 다음을 추가했는지 확인하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RDlG4u/pN1uVUdTqEagIG2T5KNyF0WHKc6dqRIt7ito=",
+        "originContent": "Inside the idevice folder find: idevice.h and libidevice_ffi.a. Move them inside the project in Xcode, make sure you create **Bridging-Header.h**",
+        "translatedContent": "idevice 폴더 안에서 다음을 찾으세요: idevice.h와 libidevice_ffi.a. Xcode 프로젝트 안으로 이동시키고, **Bridging-Header.h**를 꼭 생성하세요  "
+      },
+      {
+        "row": 2,
+        "rowsha": "oGlJlu9L4wTIPgP2TzByKTMQMK/nhXPSL/WQ+Z7T5z0=",
+        "originContent": "Inside your Xcode project and make sure you add:",
+        "translatedContent": "Xcode 프로젝트 안에서 그리고 다음을 추가했는지 확인하세요:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": " ```bash\n    #import \"idevice.h\"\n```",
+    "ContentSha": "ocHUrEemdoBd2+IsdTnY30953Ms/EMcnVGW4OqoDgsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " ```bash\n    #import \"idevice.h\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+IHA+JL3CS3LVxzljvPVqaYuyLvmd7uR8NZG+Zp3zhk=",
+        "originContent": " ```bash",
+        "translatedContent": " ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BYFGzBnWLlq2ZYLR9XbqdOALNw56ssFT95bvgaaHuyA=",
+        "originContent": "    #import \"idevice.h\"",
+        "translatedContent": "    #import \"idevice.h\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n**In Project Settings > Build Phases > Link Binary With Libraries, make sure libidevice_ffi.a is listed.**\n\n## How to Use\n\n1. **LocalDevVPN**:\n    - Download LocalDevVPN from the App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044.\n    - Open it and tap Connect, you will need an active connection to import the pairing file inside the app.\n\n2.  **Pairing**:\n    -   On first launch, you'll see an \"Import Pairing File\" screen.\n    -   You need to get a `pairing file`.\n    -   Download idevice_pair refer to https://github.com/jkcoxson/idevice_pair .\n    -   Generate you `pairing file`.\n    -   Export it from your computer and Airdrop/Save it to your iPhone.\n    -   Import it into ByeTunes.\n      \n3.  **Add Music**:\n    -   Tap \"Add Songs\" and select files from your Files app.\n    -   Hit \"Inject to Device\" and watch the magic happen.\n      \n4.  **Ringtones**:\n    -   Go to the Ringtones tab, add your file, and inject!\n\n## Notes\n\n-   **Signed Apps**: If you install this via a signing service (Signulous, AltStore, etc.), the app includes a fix (`asCopy: true`) to ensure file importing works correctly without crashing.\n-   **Backup**: Always good to have a backup of your music library before messing with database injection!\n\n## Support & Bug Reporting\n\nFound a bug? We'd love to fix it!\n\n1.  **Report Issues**: Open a ticket on [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues).\n2.  **Join the Community**: Chat with us on [Discord](https://discord.gg/dDQ4P4SyKJ).\n3.  **Attach Debug Logs**:\n    *   If you are experiencing injection failures, please use the **Debug Options** under delte library inside settings.\n    *   This includes a \"Debug Logs\" screen where you can copy the app logs.\n    *   Please attach these logs to your issue report—they help us solve problems much faster!\n",
+    "ContentSha": "MsCVXBXqQX3FcuV4juHgazcHvi0Ga10jqarYsY7JWKk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**프로젝트 설정 > 빌드 단계 > 라이브러리와 바이너리 연결에서 libidevice_ffi.a가 목록에 있는지 확인하세요.**\n\n## 사용 방법\n\n1. **LocalDevVPN**:\n    - App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044 에서 LocalDevVPN을 다운로드하세요.\n    - 앱을 열고 연결(Connect)을 탭하세요. 앱 내에서 페어링 파일을 가져오기 위해 활성 연결이 필요합니다.\n\n2.  **페어링**:\n    -   처음 실행하면 \"페어링 파일 가져오기\" 화면이 나타납니다.\n    -   `페어링 파일`이 필요합니다.\n    -   idevice_pair를 다운로드하세요. https://github.com/jkcoxson/idevice_pair 를 참조하세요.\n    -   `페어링 파일`을 생성하세요.\n    -   컴퓨터에서 내보내고 Airdrop 또는 저장을 통해 iPhone에 전송하세요.\n    -   ByeTunes에 가져오세요.\n      \n3.  **음악 추가**:\n    -   \"노래 추가\"를 탭하고 파일 앱에서 파일을 선택하세요.\n    -   \"기기에 주입\"을 누르고 마법을 지켜보세요.\n      \n4.  **벨소리**:\n    -   벨소리 탭으로 가서 파일을 추가하고 주입하세요!\n\n## 참고 사항\n\n-   **서명된 앱**: 서명 서비스(Signulous, AltStore 등)를 통해 설치하는 경우, 앱에는 파일 가져오기가 충돌 없이 제대로 작동하도록 하는 수정사항(`asCopy: true`)이 포함되어 있습니다.\n-   **백업**: 데이터베이스 주입 작업을 하기 전에 항상 음악 라이브러리 백업을 권장합니다!\n\n## 지원 및 버그 신고\n\n버그를 발견하셨나요? 저희가 고치고 싶습니다!\n\n1.  **문제 신고**: [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues)에서 티켓을 열어주세요.\n2.  **커뮤니티 참여**: [Discord](https://discord.gg/dDQ4P4SyKJ)에서 저희와 채팅하세요.\n3.  **디버그 로그 첨부**:\n    *   주입 실패가 발생하면 설정 내 라이브러리 삭제 밑의 **디버그 옵션**을 사용하세요.\n    *   여기에는 앱 로그를 복사할 수 있는 \"디버그 로그\" 화면이 포함되어 있습니다.\n    *   이 로그를 문제 신고에 첨부해 주세요—문제 해결이 훨씬 빨라집니다!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**프로젝트 설정 > 빌드 단계 > 라이브러리와 바이너리 연결에서 libidevice_ffi.a가 목록에 있는지 확인하세요.**"
+      },
+      {
+        "row": 2,
+        "rowsha": "fdciwRAUxYh2jFw4BYLB7pMJkn4N+h5JqpoXqhX8AmM=",
+        "originContent": "**In Project Settings > Build Phases > Link Binary With Libraries, make sure libidevice_ffi.a is listed.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용 방법"
+      },
+      {
+        "row": 4,
+        "rowsha": "yJlGQKI3p2nVYC1uqNa6eKPSIzUW38uRiGu0PspqvUU=",
+        "originContent": "## How to Use",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **LocalDevVPN**:"
+      },
+      {
+        "row": 6,
+        "rowsha": "M/1JDlkt469CZKXwbFI3AV3IUatb6och7wlrNJaVtRU=",
+        "originContent": "1. **LocalDevVPN**:",
+        "translatedContent": "    - App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044 에서 LocalDevVPN을 다운로드하세요."
+      },
+      {
+        "row": 7,
+        "rowsha": "5ALMmP8ZpADPSzUJQC9Ow8/zrkcyokfE5KqN3ow1vfE=",
+        "originContent": "    - Download LocalDevVPN from the App Store/Altstore PAL https://apps.apple.com/us/app/localdevvpn/id6755608044.",
+        "translatedContent": "    - 앱을 열고 연결(Connect)을 탭하세요. 앱 내에서 페어링 파일을 가져오기 위해 활성 연결이 필요합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "eLVjzTZvy5Cj1gJBH7wQ6boP1dgV/YNnKEuZ5RyL6wc=",
+        "originContent": "    - Open it and tap Connect, you will need an active connection to import the pairing file inside the app.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2.  **페어링**:"
+      },
+      {
+        "row": 10,
+        "rowsha": "Q59e8UTrieL9e5thjwR+vrTsvlA30hpWAlNDgawTuhA=",
+        "originContent": "2.  **Pairing**:",
+        "translatedContent": "    -   처음 실행하면 \"페어링 파일 가져오기\" 화면이 나타납니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "IurMp6FAU1hQf90XAvnvz2FAQZJVbEj5eOXX+gXRbZ8=",
+        "originContent": "    -   On first launch, you'll see an \"Import Pairing File\" screen.",
+        "translatedContent": "    -   `페어링 파일`이 필요합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "SHCoTe4Q+qizJNejrgF5d686nCEXoyQ1qIZrJTHBsQw=",
+        "originContent": "    -   You need to get a `pairing file`.",
+        "translatedContent": "    -   idevice_pair를 다운로드하세요. https://github.com/jkcoxson/idevice_pair 를 참조하세요."
+      },
+      {
+        "row": 13,
+        "rowsha": "JO7fuZ8/1iRayXKNSsYlsp3fjB0i08UHLlqvZvXzXUE=",
+        "originContent": "    -   Download idevice_pair refer to https://github.com/jkcoxson/idevice_pair .",
+        "translatedContent": "    -   `페어링 파일`을 생성하세요."
+      },
+      {
+        "row": 14,
+        "rowsha": "b9bjP7XqTT3bLwE0CizFcXoGIm3Xm1zvrNJoG37JM3M=",
+        "originContent": "    -   Generate you `pairing file`.",
+        "translatedContent": "    -   컴퓨터에서 내보내고 Airdrop 또는 저장을 통해 iPhone에 전송하세요."
+      },
+      {
+        "row": 15,
+        "rowsha": "gyuJQlZV2JLxnaJsOpPMcfbkBjW2YjfWWkQrrmdAKys=",
+        "originContent": "    -   Export it from your computer and Airdrop/Save it to your iPhone.",
+        "translatedContent": "    -   ByeTunes에 가져오세요."
+      },
+      {
+        "row": 16,
+        "rowsha": "ePPUKQoYIbFB/3Jmw3y3aaK1yw/1vb9ccxVF4nROkr8=",
+        "originContent": "    -   Import it into ByeTunes.",
+        "translatedContent": "      "
+      },
+      {
+        "row": 17,
+        "rowsha": "OZFBvh0wrCZW2J7tzw2NztqnLWwpv5WcriQ9x7FELPY=",
+        "originContent": "      ",
+        "translatedContent": "3.  **음악 추가**:"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ut4+kXilnEgmaIhW7xCUBCCacVjDHoXAyh/WYe8u4rw=",
+        "originContent": "3.  **Add Music**:",
+        "translatedContent": "    -   \"노래 추가\"를 탭하고 파일 앱에서 파일을 선택하세요."
+      },
+      {
+        "row": 19,
+        "rowsha": "hDJC6046X/wFBPy6CyTTUkovIvp/BwizklCn5yPAvkY=",
+        "originContent": "    -   Tap \"Add Songs\" and select files from your Files app.",
+        "translatedContent": "    -   \"기기에 주입\"을 누르고 마법을 지켜보세요."
+      },
+      {
+        "row": 20,
+        "rowsha": "jdxC967oAamRw1NtoCrSqA1Y7laitgztLAZoBd2jCnM=",
+        "originContent": "    -   Hit \"Inject to Device\" and watch the magic happen.",
+        "translatedContent": "      "
+      },
+      {
+        "row": 21,
+        "rowsha": "OZFBvh0wrCZW2J7tzw2NztqnLWwpv5WcriQ9x7FELPY=",
+        "originContent": "      ",
+        "translatedContent": "4.  **벨소리**:"
+      },
+      {
+        "row": 22,
+        "rowsha": "bSEjH0QMSBzwkWx4OnGKdEzEZPVW75dcY/3/PFJAI8w=",
+        "originContent": "4.  **Ringtones**:",
+        "translatedContent": "    -   벨소리 탭으로 가서 파일을 추가하고 주입하세요!"
+      },
+      {
+        "row": 23,
+        "rowsha": "I4QCtk9d1zyfKSdMLSgK2ZeghxdagWurN9CgCiKlXms=",
+        "originContent": "    -   Go to the Ringtones tab, add your file, and inject!",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 참고 사항"
+      },
+      {
+        "row": 25,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "-   **서명된 앱**: 서명 서비스(Signulous, AltStore 등)를 통해 설치하는 경우, 앱에는 파일 가져오기가 충돌 없이 제대로 작동하도록 하는 수정사항(`asCopy: true`)이 포함되어 있습니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "izEI9kAe2f2QLr2ccxGuxFvlhv0scm6zynE76nxPbPM=",
+        "originContent": "-   **Signed Apps**: If you install this via a signing service (Signulous, AltStore, etc.), the app includes a fix (`asCopy: true`) to ensure file importing works correctly without crashing.",
+        "translatedContent": "-   **백업**: 데이터베이스 주입 작업을 하기 전에 항상 음악 라이브러리 백업을 권장합니다!"
+      },
+      {
+        "row": 28,
+        "rowsha": "B+1E+Bc90/VebraQK8NNv3RQxJ0wAkrr1eyyuV7wxG0=",
+        "originContent": "-   **Backup**: Always good to have a backup of your music library before messing with database injection!",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 지원 및 버그 신고"
+      },
+      {
+        "row": 30,
+        "rowsha": "AAgww1jfRYgY+6boIlws3NsDdIxAIeiqrGsNa4gRZYo=",
+        "originContent": "## Support & Bug Reporting",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "버그를 발견하셨나요? 저희가 고치고 싶습니다!"
+      },
+      {
+        "row": 32,
+        "rowsha": "RSSxR0nkL/HCUp9jjFr0e+pJQ0e8wqU2VjAQEZdN4W4=",
+        "originContent": "Found a bug? We'd love to fix it!",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1.  **문제 신고**: [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues)에서 티켓을 열어주세요."
+      },
+      {
+        "row": 34,
+        "rowsha": "RAaNt/i3ImthV/jE4qdEg8FVtnytXhUf4nnUQJanKgg=",
+        "originContent": "1.  **Report Issues**: Open a ticket on [GitHub Issues](https://github.com/EduAlexxis/ByeTunes/issues).",
+        "translatedContent": "2.  **커뮤니티 참여**: [Discord](https://discord.gg/dDQ4P4SyKJ)에서 저희와 채팅하세요."
+      },
+      {
+        "row": 35,
+        "rowsha": "/M8gHYyVmLtPW6WHE9a5ct1QH5F3SFgxirQTNOmvzJA=",
+        "originContent": "2.  **Join the Community**: Chat with us on [Discord](https://discord.gg/dDQ4P4SyKJ).",
+        "translatedContent": "3.  **디버그 로그 첨부**:"
+      },
+      {
+        "row": 36,
+        "rowsha": "xN0xhwt2kblv43bokPIMbhp1zr9fspXW31nP7qkGrHE=",
+        "originContent": "3.  **Attach Debug Logs**:",
+        "translatedContent": "    *   주입 실패가 발생하면 설정 내 라이브러리 삭제 밑의 **디버그 옵션**을 사용하세요."
+      },
+      {
+        "row": 37,
+        "rowsha": "893Rb396te1x2+WBGe1GhKl3GRiN17WF9uFh/jZEb30=",
+        "originContent": "    *   If you are experiencing injection failures, please use the **Debug Options** under delte library inside settings.",
+        "translatedContent": "    *   여기에는 앱 로그를 복사할 수 있는 \"디버그 로그\" 화면이 포함되어 있습니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "NWtQdvBcQO+Kh+V36maKXQvUv0ubW1oOHwLlwUmMP/4=",
+        "originContent": "    *   This includes a \"Debug Logs\" screen where you can copy the app logs.",
+        "translatedContent": "    *   이 로그를 문제 신고에 첨부해 주세요—문제 해결이 훨씬 빨라집니다!"
+      },
+      {
+        "row": 39,
+        "rowsha": "RrHP3yOcSknPChZgqxPiHpisPjNSbMv3NFOM75kBzV4=",
+        "originContent": "    *   Please attach these logs to your issue report—they help us solve problems much faster!",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "---\n*Created with ❤️ by EduAlexxis*\n",
+    "ContentSha": "L/vuLbZfFLFmfVZcSe/CNy43ar80NDKKZYxWhNaeDgc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n*EduAlexxis가 ❤️를 담아 제작했습니다*\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "wiwWqwaT2eUFIb9vV3YRAYc8QH75ZYm+XH+H+HggAV8=",
+        "originContent": "*Created with ❤️ by EduAlexxis*",
+        "translatedContent": "*EduAlexxis가 ❤️를 담아 제작했습니다*"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
