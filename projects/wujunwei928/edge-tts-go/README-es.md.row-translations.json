@@ -1,0 +1,416 @@
+[
+  {
+    "row": 1,
+    "rowsha": "QUx1JnoLCLizx0LN77uevIVSXd0rF6YwMCeEk1QswQQ=",
+    "originContent": "# edge-tts-go",
+    "translatedContent": "# edge-tts-go"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "zF7RrBsmfYkIVV2ngzDOBp97hQN0t9vhjv+PGipXXp0=",
+    "originContent": "* [中文](https://github.com/wujunwei928/edge-tts-go/blob/main/README.md)",
+    "translatedContent": "* [中文](https://github.com/wujunwei928/edge-tts-go/blob/main/README.md)"
+  },
+  {
+    "row": 4,
+    "rowsha": "tT9AA3M8HanTLZ3LOsfh6JSfLhk6EBeW+GuWh723RpU=",
+    "originContent": "* [English](https://github.com/wujunwei928/edge-tts-go/blob/main/README_en-US.md)",
+    "translatedContent": "* [English](https://github.com/wujunwei928/edge-tts-go/blob/main/README_en-US.md)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "0iDMrt5NUyKSvyJAlC4d5a61i938pyLA4l3GtZ5Ry7k=",
+    "originContent": "`edge-tts-go` 是一个 golang 模块，允许您从 golang 代码中或使用提供的 `edge-tts-go` 命令使用 Microsoft Edge 的在线文本到语音服务。",
+    "translatedContent": "`edge-tts-go` es un módulo de golang que le permite usar el servicio en línea de texto a voz de Microsoft Edge desde código golang o mediante el comando `edge-tts-go` proporcionado."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+    "originContent": "## 安装",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "qjWn2EpK+r0GH5oUFyXwYgs/2fA15pVoTwa5A0ZGlXA=",
+    "originContent": "### go install",
+    "translatedContent": "### go install"
+  },
+  {
+    "row": 11,
+    "rowsha": "UjkLB6NazdrCdogt6E9EV7I3in0G22LK2ky/6NCNzrQ=",
+    "originContent": "    $ go install github.com/wujunwei928/edge-tts-go",
+    "translatedContent": "    $ go install github.com/wujunwei928/edge-tts-go"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Hi3eJgSUSWwu5prF9dEQ+AiYYyRrQjrjVbWRn2DADiM=",
+    "originContent": "### 下载预编译版本",
+    "translatedContent": "### Descargar versiones precompiladas"
+  },
+  {
+    "row": 14,
+    "rowsha": "TH7AJJoJtrP9+DLTJ2/2yvtJhvokd9yRbATr8yaxIiM=",
+    "originContent": "    https://github.com/wujunwei928/edge-tts-go/releases",
+    "translatedContent": "    https://github.com/wujunwei928/edge-tts-go/releases"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "iYzx/5/srHyNYwuQeSkwVMrAtzGLLdo04LFjTRQIzsw=",
+    "originContent": "## 用法",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "fnhfO0AUwhd4j9SOgsmujUr/5EZTghKNDaUlj1TQuwM=",
+    "originContent": "### 基本用法",
+    "translatedContent": "### Uso básico"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "/di4U3ljKe1OSaJ8EjUvMbSf7ipWE6x29vM4UNIIAKo=",
+    "originContent": "如果您想使用 `edge-tts-go` 命令，只需使用以下命令运行它：",
+    "translatedContent": "Si desea usar el comando `edge-tts-go`, simplemente ejecútelo con el siguiente comando:"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "8e9ostY6d+bofjdbMrQ+mKMGSTUfwTD81TtoTXDUWDM=",
+    "originContent": "    $ edge-tts-go --text \"Hello, world\" --write-media hello.mp3",
+    "translatedContent": "    $ edge-tts-go --text \"Hello, world\" --write-media hello.mp3"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "v7gLWf4OfooMYUlwFDNbpxxPQee2+egQzRgYI6cUFww=",
+    "originContent": "### 改变声音",
+    "translatedContent": "### Cambiar la voz"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "+xj4oT0NY9tj5aYGvRwUnMUjnpz173nEddjlTPRl5Rw=",
+    "originContent": "如果您想更改转换文本时使用的声音。",
+    "translatedContent": "Si desea cambiar la voz usada para convertir el texto."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "1dE9PX0rsrVp8nldrQdPiu6BRXKg+EdLfq1uWNTjvsw=",
+    "originContent": "您需要使用 `--list-voices` 选项检查可用的语音：",
+    "translatedContent": "Necesita usar la opción `--list-voices` para verificar las voces disponibles:"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "ikXEwRRmPsPAyeVytlwCGCmNBWIite1XayYs3BYH4zg=",
+    "originContent": "    $ edge-tts-go --list-voices",
+    "translatedContent": "    $ edge-tts-go --list-voices"
+  },
+  {
+    "row": 31,
+    "rowsha": "qtzaxFe0zB27roBRKY20+XVR+unewoKJXTwa1DauklE=",
+    "originContent": "    Name: Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoxiaoNeural)",
+    "translatedContent": "    Name: Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoxiaoNeural)"
+  },
+  {
+    "row": 32,
+    "rowsha": "bE0HL5dmR6nVZw3tCmaPlu3XRr0mZ+pfGYEkD6gNkAo=",
+    "originContent": "    ShortName: zh-CN-XiaoxiaoNeural",
+    "translatedContent": "    ShortName: zh-CN-XiaoxiaoNeural"
+  },
+  {
+    "row": 33,
+    "rowsha": "G3eLzXmFCuQDUb5LOHA64+lgNJZzNA5Crc1usn2FoM0=",
+    "originContent": "    Gender: Female",
+    "translatedContent": "    Gender: Female"
+  },
+  {
+    "row": 34,
+    "rowsha": "fDSjoNYnFza7lxzznbWE+4ekR0/tk27ms4DOeNR8P2U=",
+    "originContent": "    Locale: zh-CN",
+    "translatedContent": "    Locale: zh-CN"
+  },
+  {
+    "row": 35,
+    "rowsha": "f7Ai4U5bPYdIr2oIQPYG1HArr6xOmE+1f+qXfX3MVjc=",
+    "originContent": "    ContentCategories: News,Novel",
+    "translatedContent": "    ContentCategories: News,Novel"
+  },
+  {
+    "row": 36,
+    "rowsha": "XV8EvF3LSlYdOxhiU56RKZdlMv2oo7dcgnws5kzLR7o=",
+    "originContent": "    VoicePersonalities: Warm",
+    "translatedContent": "    VoicePersonalities: Warm"
+  },
+  {
+    "row": 37,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 38,
+    "rowsha": "TNfaM0Uk8L3tAqWxtEgrv0aK2v2TeuFK/0wyuR/UhRo=",
+    "originContent": "    Name: Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyiNeural)",
+    "translatedContent": "    Name: Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyiNeural)"
+  },
+  {
+    "row": 39,
+    "rowsha": "2M7hyf92y5Ieq7fk/G3I1nNMXPBAz1zs0SVq/eZMEcc=",
+    "originContent": "    ShortName: zh-CN-XiaoyiNeural",
+    "translatedContent": "    ShortName: zh-CN-XiaoyiNeural"
+  },
+  {
+    "row": 40,
+    "rowsha": "G3eLzXmFCuQDUb5LOHA64+lgNJZzNA5Crc1usn2FoM0=",
+    "originContent": "    Gender: Female",
+    "translatedContent": "    Gender: Female"
+  },
+  {
+    "row": 41,
+    "rowsha": "fDSjoNYnFza7lxzznbWE+4ekR0/tk27ms4DOeNR8P2U=",
+    "originContent": "    Locale: zh-CN",
+    "translatedContent": "    Locale: zh-CN"
+  },
+  {
+    "row": 42,
+    "rowsha": "IUqETlbTrGMoNlxjzu6dvnNVr9yQkme/yM6DPBMXKPc=",
+    "originContent": "    ContentCategories: Cartoon,Novel",
+    "translatedContent": "    ContentCategories: Cartoon,Novel"
+  },
+  {
+    "row": 43,
+    "rowsha": "PZnZpDC0/QY1DBL60PCixEyQplQoLmHnCmCvoYKioBA=",
+    "originContent": "    VoicePersonalities: Lively",
+    "translatedContent": "    VoicePersonalities: Lively"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "lHpJCwSByOrXH6TJSIFhccvH8kVlBRcVDYWEw3oKokk=",
+    "originContent": "使用 `--voice` 选项指定声音进行转换",
+    "translatedContent": "Usar la opción `--voice` para especificar la voz en la conversión"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "hMzO2XgFrr1m+deNFX2BEoYqA8w+JGw/6ELXPihACGo=",
+    "originContent": "    $ edge-tts-go --voice zh-CN-XiaoxiaoNeural --text \"纵使浮云蔽天日，我亦拔剑破长空\" --write-media hello_in_chinese.mp3",
+    "translatedContent": "    $ edge-tts-go --voice zh-CN-XiaoxiaoNeural --text \"纵使浮云蔽天日，我亦拔剑破长空\" --write-media hello_in_chinese.mp3"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "JfaMs596vQJvq5urAjTa7+2qGRx+JnUSnLEY1xAIHX8=",
+    "originContent": "    如果你的电脑安装过ffplay，你可以使用以下命令直接播放音频文件:",
+    "translatedContent": "    Si tienes ffplay instalado en tu computadora, puedes reproducir el archivo de audio directamente con el siguiente comando:"
+  },
+  {
+    "row": 52,
+    "rowsha": "FTBFs4XcRM4sTPKzJB/fam5a5+2BH1NNIkwUkAiow+s=",
+    "originContent": "    $ edge-tts-go --voice zh-CN-XiaoxiaoNeural --text \"纵使浮云蔽天日，我亦拔剑破长空\" | ffplay -i -",
+    "translatedContent": "    $ edge-tts-go --voice zh-CN-XiaoxiaoNeural --text \"纵使浮云蔽天日，我亦拔剑破长空\" | ffplay -i -"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "JXjLMeFLD3qNEP7qf4ocPHM3AUi80Yv1rzKHtGRokOI=",
+    "originContent": "### 改变速率、音量和音调",
+    "translatedContent": "### Cambiar velocidad, volumen y tono"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "t5r0+tFTec4XTB3jJ/3K+l9zj0Q0HhgjjCG6v3/5JCw=",
+    "originContent": "    $ edge-tts-go --rate=-50% --text \"Hello, world\" --write-media hello_with_rate_halved.mp3",
+    "translatedContent": "    $ edge-tts-go --rate=-50% --text \"Hello, world\" --write-media hello_with_rate_halved.mp3"
+  },
+  {
+    "row": 57,
+    "rowsha": "dtPpFcrwIgO36mt+7G9WfhLsaGfRVCSTRq8iVep4bfY=",
+    "originContent": "    $ edge-tts-go --volume=-50% --text \"Hello, world\" --write-media hello_with_volume_halved.mp3",
+    "translatedContent": "    $ edge-tts-go --volume=-50% --text \"Hello, world\" --write-media hello_with_volume_halved.mp3"
+  },
+  {
+    "row": 58,
+    "rowsha": "12WypDnVPCyb+h8eJzfb2EeP4eHp0djWL8/05QC0GWQ=",
+    "originContent": "    $ edge-tts-go --pitch=-50Hz --text \"Hello, world\" --write-media hello_with_pitch_halved.mp3",
+    "translatedContent": "    $ edge-tts-go --pitch=-50Hz --text \"Hello, world\" --write-media hello_with_pitch_halved.mp3"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "TE7J2/e8DQIQUHmQiOKYlEroNoa/Vi+8n++pqsDhaBQ=",
+    "originContent": "## go 模块",
+    "translatedContent": "## Módulo go"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "WlRQnIkrT5eCv18JanYh9iNgXzzI18DwDdf4gCyw6Xs=",
+    "originContent": "可以直接在go代码中使用 `edge-tts-go` 模块， 从下面的文件查看调用方法:",
+    "translatedContent": "Puedes usar directamente el módulo `edge-tts-go` en código go, consulta el siguiente archivo para ver cómo llamarlo:"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "WrnJYi73oAh8s63JlATOGyndne7/qyq1pvG60oma/IU=",
+    "originContent": "* https://github.com/wujunwei928/edge-tts-go/blob/main/internal/cmd/root.go",
+    "translatedContent": "* https://github.com/wujunwei928/edge-tts-go/blob/main/internal/cmd/root.go"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+    "originContent": "## 致谢",
+    "translatedContent": "## Agradecimientos"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "GkVUeNPU+WJ8i2ocyOnMrdrnhhoQnK2FhqU64LCVIXE=",
+    "originContent": "* https://github.com/rany2/edge-tts",
+    "translatedContent": "* https://github.com/rany2/edge-tts"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,1634 @@
+[
+  {
+    "row": 1,
+    "rowsha": "H+xu8A6FmwI5kSOdKw1PAeorXz6Dopf0omxCCwZt91o=",
+    "originContent": "# Beampy [![Build Status](https://travis-ci.com/hchauvet/beampy.svg)](https://travis-ci.com/hchauvet/beampy) [![codecov](https://codecov.io/gh/hchauvet/beampy/graph/badge.svg)](https://codecov.io/gh/hchauvet/beampy) ![pypi python version](https://img.shields.io/pypi/pyversions/beampy-slideshow.svg) ![pypi licence](https://img.shields.io/pypi/l/beampy-slideshow.svg) ![pypi download](https://img.shields.io/pypi/dm/beampy-slideshow.svg) ![pypi beampy version](https://img.shields.io/pypi/v/beampy-slideshow.svg)",
+    "translatedContent": "# Beampy [![Build Status](https://travis-ci.com/hchauvet/beampy.svg)](https://travis-ci.com/hchauvet/beampy) [![codecov](https://codecov.io/gh/hchauvet/beampy/graph/badge.svg)](https://codecov.io/gh/hchauvet/beampy) ![pypi python version](https://img.shields.io/pypi/pyversions/beampy-slideshow.svg) ![pypi licence](https://img.shields.io/pypi/l/beampy-slideshow.svg) ![pypi download](https://img.shields.io/pypi/dm/beampy-slideshow.svg) ![pypi beampy version](https://img.shields.io/pypi/v/beampy-slideshow.svg)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "kyehH6FrUZ4vyULs7oOPQ/9yCyz8JSfjdre/WU0sQ24=",
+    "originContent": "**The development of the master branch is currently frozen, (only urgent bug fix will be pushed), the new version of beampy is currently developped in the dev branch which is still not enouth stable to use...**",
+    "translatedContent": "**Le développement de la branche master est actuellement gelé, (seules les corrections de bugs urgents seront poussées), la nouvelle version de beampy est en cours de développement dans la branche dev qui n’est pas encore assez stable pour être utilisée...**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "KQ7QPfvMMO0yzh2sqV+vA9Y5H5/h4Uuh0uCAZd8Pf28=",
+    "originContent": "Beampy is a python tool to create slide-show in svg that can be displayed with HTML5",
+    "translatedContent": "Beampy est un outil python pour créer des diaporamas en svg pouvant être affichés avec HTML5"
+  },
+  {
+    "row": 6,
+    "rowsha": "fO4Rqpfi8/yL8OnnrM9k5by+wWqlHMPHVzg3XS1qKLk=",
+    "originContent": "(tested on Firefox and Chromium)",
+    "translatedContent": "(testé sur Firefox et Chromium)"
+  },
+  {
+    "row": 7,
+    "rowsha": "/oOKven9uOtxNJUBTLEGB7K/TLDQ227+dla2Tohd11I=",
+    "originContent": "The size of slides is fixed, like in a Latex Beamer document.",
+    "translatedContent": "La taille des diapositives est fixe, comme dans un document Latex Beamer."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "nx4tRZAezD4VfeAOq91KvhED/DUHrbPyPSFDD8G2OBo=",
+    "originContent": "Beampy presentation output only one html file with every contents embedded.",
+    "translatedContent": "La présentation Beampy génère un seul fichier html avec tout le contenu intégré."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "o+Xwc+PkIyR7RaMqgnO1jDT/pTz6Y7txi8gAeXDUx0Y=",
+    "originContent": "* [See Beampy documentation](https://hchauvet.github.io/beampy/)",
+    "translatedContent": "* [Voir la documentation de Beampy](https://hchauvet.github.io/beampy/)"
+  },
+  {
+    "row": 12,
+    "rowsha": "Kgq5tTmjAJ3+gJSj3DyvMu/llBKI61WF97CDvRApUzQ=",
+    "originContent": "* [See a Beampy tests presentation](https://rawgit.com/hchauvet/beampy/master/examples/beampy_tests.html) (source is in *examples/beampy_tests_modules.py*)",
+    "translatedContent": "* [Voir une présentation de tests Beampy](https://rawgit.com/hchauvet/beampy/master/examples/beampy_tests.html) (le source est dans *examples/beampy_tests_modules.py*)"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "oIYSVys/Zi7fI+lN26Zz3PQhRWJ/s7k6xEZCTxkYBI8=",
+    "originContent": "## Install:",
+    "translatedContent": "## Installation :"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "iZsZKlNPZAi6ksi+fnjgQ6FgO3PjuzjTAOuyFOpbG0c=",
+    "originContent": "From Python Package Index:",
+    "translatedContent": "Depuis le Python Package Index :"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 19,
+    "rowsha": "vYFy/zxg3a8mzswKggSlZdCcmZQ9TuexJvywqqfg1o0=",
+    "originContent": "pip install beampy-slideshow",
+    "translatedContent": "pip install beampy-slideshow"
+  },
+  {
+    "row": 20,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "RbHti46HrnU6b9RV3roEwvI+EOqsENSRVMN5KUBrMgA=",
+    "originContent": "[See full installation documentation](https://hchauvet.github.io/beampy/install.html#beampy-install)",
+    "translatedContent": "[See full installation documentation](https://hchauvet.github.io/beampy/install.html#beampy-install)"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "CaJc22u3uLRnSDKc9VkQERbWLCEYw6xGxtkeybs4gV4=",
+    "originContent": "## A quick example :",
+    "translatedContent": "## A quick example :"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 27,
+    "rowsha": "OZzLrxBHSfd0214UXDVTqCvjsT9/ds2CiWOkSYaGav0=",
+    "originContent": "from beampy import *",
+    "translatedContent": "from beampy import *"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "MEm6pkqZK70um/zfp0qQKG56Dpil3o6/DMxDYbRvfq0=",
+    "originContent": "doc = document()",
+    "translatedContent": "doc = document()"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "itxmmYn/KuCPAozEfKit9JRMCbbjVl1w9vcy4yTMH7A=",
+    "originContent": "with slide():",
+    "translatedContent": "with slide():"
+  },
+  {
+    "row": 32,
+    "rowsha": "3BYnmUt4dzGqNmrOmyzzT4QG8nLRWdUmlHGMta1jA0k=",
+    "originContent": "    maketitle('Beampy a tool to make simple presentation', ['H. Chauvet'])",
+    "translatedContent": "    maketitle('Beampy a tool to make simple presentation', ['H. Chauvet'])"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "c6tv0WhHU7uP4nFqKhXAm8iCZ/J+/bpJOpYfj7HQSyw=",
+    "originContent": "with slide('Beampy test'):",
+    "translatedContent": "with slide('Beampy test'):"
+  },
+  {
+    "row": 35,
+    "rowsha": "jTYXwgsnRqf4u0SEemZcWpkODFilcF8JfnI5X/HnDPg=",
+    "originContent": "    text(r'\\href{#0}{Go to Title}')",
+    "translatedContent": "    text(r'\\href{#0}{Go to Title}')"
+  },
+  {
+    "row": 36,
+    "rowsha": "17+A+IXZZngjdG0HyYQVqvbq8ypSzA7ILo/lAJKL/5U=",
+    "originContent": "    text(r'Use LaTeX to render text and $$\\sqrt{10}$$', align='center')",
+    "translatedContent": "    text(r'Use LaTeX to render text and $$\\sqrt{10}$$', align='center')"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "Y/3JmNiOpVBZwCcUflbeP1ne/CQmRuxd7hztA9My2eI=",
+    "originContent": "with slide('Beampy test with animated layers'):",
+    "translatedContent": "with slide('Beampy test with animated layers'):"
+  },
+  {
+    "row": 39,
+    "rowsha": "tnZgiclxZkrXuf61cFtvmL/eCGhNrA9BWq7Llzzgqno=",
+    "originContent": "    text(r'\\href{#0}{Go to Title}')[:]",
+    "translatedContent": "    text(r'\\href{#0}{Go to Title}')[:]"
+  },
+  {
+    "row": 40,
+    "rowsha": "e9+XABib8uEeu7yyTeiXsZiUnpS/T04E4WTEMkfrl08=",
+    "originContent": "    text(r'Use LaTeX to render text and $$\\sqrt{10}$$', align='center')[1]",
+    "translatedContent": "    text(r'Use LaTeX to render text and $$\\sqrt{10}$$', align='center')[1]"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "PsuHwo9OvBcqepQMoW90tXjPpMtCK4QoQn+zF7hj/IY=",
+    "originContent": "save('./simple_one.html')",
+    "translatedContent": "save('./simple_one.html')"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "WgzIfKzPKpD4JeY2cwWUbULA0zmjk+bUwsElriFCDdI=",
+    "originContent": "#To save in pdf just change the above command to the following",
+    "translatedContent": "#To save in pdf just change the above command to the following"
+  },
+  {
+    "row": 45,
+    "rowsha": "Xbwhu9Nl2mJaAGheoHDnTEGSMjQYmhVzb5ZCNfztK2Y=",
+    "originContent": "#save('./simple_one.pdf')",
+    "translatedContent": "#save('./simple_one.pdf')"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "BVXgmlDOA4F8uEJx5AGkPwcfIyetbV5TAG3aVOB8Ms0=",
+    "originContent": "[beampy_presentation.html](https://cdn.rawgit.com/hchauvet/beampy/master/examples/simple_one.html)",
+    "translatedContent": "[beampy_presentation.html](https://cdn.rawgit.com/hchauvet/beampy/master/examples/simple_one.html)"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "sUwoxvbQ8+bwEXooZRboyJMj6nZ1F66tYxHMUpyhp58=",
+    "originContent": "## Change log:",
+    "translatedContent": "## Journal des modifications :"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "L9kSyywATWBZMKMNlAVhZukQ/8RIs8iJEB8hrW/S9NA=",
+    "originContent": "### 0.5.5",
+    "translatedContent": "### 0.5.5"
+  },
+  {
+    "row": 55,
+    "rowsha": "lydD7sIbFdMgrZcJGZMmhMqeIm15s5RLmnFVE6E8/Rg=",
+    "originContent": "* Fix important issues with encoding for python 2 and 3.",
+    "translatedContent": "* Correction de problèmes importants d'encodage pour python 2 et 3."
+  },
+  {
+    "row": 56,
+    "rowsha": "8z/kaBg/iPCqod72BXmRqGZQ97qqJNq7Bk//6tXW40c=",
+    "originContent": "* Fix problems with missing references in svg generated by dvisvgm",
+    "translatedContent": "* Correction des problèmes de références manquantes dans le svg généré par dvisvgm"
+  },
+  {
+    "row": 57,
+    "rowsha": "aOjnnOU/Q6st7PmQpjPPY/nBO2NZ7w+jgWFX++Wjbeg=",
+    "originContent": "  (seed issue [#18](https://github.com/hchauvet/beampy/issues/18) for",
+    "translatedContent": "  (problème de seed [#18](https://github.com/hchauvet/beampy/issues/18) pour"
+  },
+  {
+    "row": 58,
+    "rowsha": "JBcJrWTHUkYzC0D145m6+ogEXvB9dN7O4fGmPsG+rG4=",
+    "originContent": "  the whole story), which creates missing part of latex stuff in the",
+    "translatedContent": "  toute l'histoire), qui crée des parties manquantes du contenu latex dans le"
+  },
+  {
+    "row": 59,
+    "rowsha": "CPUsYSyPr2n5mb/HbB06DXijMwPc9B1nJZbIQ+3Lr0o=",
+    "originContent": "  svg.",
+    "translatedContent": "  svg."
+  },
+  {
+    "row": 60,
+    "rowsha": "7PovEdi+AKmcekifVD9glwymLwQgtVsJMQZwAbGtsTw=",
+    "originContent": "* Better management of the temporary files",
+    "translatedContent": "* Meilleure gestion des fichiers temporaires"
+  },
+  {
+    "row": 61,
+    "rowsha": "q4a47+Bw/NM6NxtS3v1FJoKAiIudfmdRb8ZnaYcpO7E=",
+    "originContent": "* Update scour (svg optimizer to it's last version)",
+    "translatedContent": "* Mise à jour de scour (optimiseur svg) vers sa dernière version"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "BJWn3q8ozJvzlV1HrgHF3nRwMEjriZ6QbihOs+MFBpQ=",
+    "originContent": "### 0.5.4",
+    "translatedContent": "### 0.5.4"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "3Xjria44ejZo8kwNWuHZVUs5DKuwsnsK35YzH+UN0Hg=",
+    "originContent": "* Beampy is now python 3 and 2 compatible (at least 2.7 and 3.7) !",
+    "translatedContent": "* Beampy est désormais compatible python 3 et 2 (au moins 2.7 et 3.7) !"
+  },
+  {
+    "row": 66,
+    "rowsha": "EK5TdXQ3+9g7wJGCm1QADKM28te/AIE6c1iFtIaZIzI=",
+    "originContent": "* Introduce integrated testing with pytest framework (still no unit-tests of the core functions of beampy)",
+    "translatedContent": "* Introduction des tests intégrés avec le framework pytest (pas encore de tests unitaires des fonctions cœur de beampy)"
+  },
+  {
+    "row": 67,
+    "rowsha": "ftxaMvukdyG1Vy1htg0+UEpzB4u9M1OM5qUHayft+EE=",
+    "originContent": "* Fix bug when save multiple format at the same time, no more duplication of texts [issue #13](https://github.com/hchauvet/beampy/issues/13)",
+    "translatedContent": "* Correction du bug lors de la sauvegarde de multiples formats en même temps, plus de duplication des textes [issue #13](https://github.com/hchauvet/beampy/issues/13)"
+  },
+  {
+    "row": 68,
+    "rowsha": "HzdArIvATMHwiFM1Pn47LzFlvaIK/a+pRJwuxglJG8Y=",
+    "originContent": "* Add mode logging.debug outputs",
+    "translatedContent": "* Ajout du mode logging.debug pour les sorties"
+  },
+  {
+    "row": 69,
+    "rowsha": "huefcLi2wpedqbvS0nclrsPsQQoTMLOgqU7HWNSNyTg=",
+    "originContent": "* Add option to specify the location of the presentation source file ( doc = document(source_filename=__name__) )",
+    "translatedContent": "* Ajout d'une option pour spécifier l'emplacement du fichier source de la présentation ( doc = document(source_filename=__name__) )"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "bc2bDCDFJYz34ruM3qlGbi84N3zHC/qU4yQ9/ORy2Q8=",
+    "originContent": "### 0.5.3",
+    "translatedContent": "### 0.5.3"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "lD+KwAEiRNwgqF5I+3JwVs8PRouDMVwOe19sHZ3+qds=",
+    "originContent": "Some minor fix:",
+    "translatedContent": "Quelques corrections mineures :"
+  },
+  {
+    "row": 74,
+    "rowsha": "2pgPkq1YVnTTGwR+fitb0CzkwJFwlkHuo3Kk4wvEINc=",
+    "originContent": "* Fix bug in layer propagation for box",
+    "translatedContent": "* Correction du bug dans la propagation des couches pour box"
+  },
+  {
+    "row": 75,
+    "rowsha": "aQPcqbT28nu2ye9sEEp5bKbAwg37HlIEoLhOBu4MIyA=",
+    "originContent": "* Fix bug when last layer is set as [n:]",
+    "translatedContent": "* Correction du bug lorsque la dernière couche est définie comme [n:]"
+  },
+  {
+    "row": 76,
+    "rowsha": "nbbJqSIfndgRSmdoQQvFOWTXvnMc76ugrNb/KNih2Ak=",
+    "originContent": "* Start using logging.debug in modules",
+    "translatedContent": "* Début de l'utilisation de logging.debug dans les modules"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "70XfvwZTeylhmUcFhta7WJ/+f4Ve8ELwminjAEv9BZY=",
+    "originContent": "### 0.5.2",
+    "translatedContent": "### 0.5.2"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "LnmVqPjlddONhDADp+OjilNACQ6BQu0KRj0JZ68I2a4=",
+    "originContent": "* Fix bug with dvisvgm output for tikz dvi (function latex2svg has now",
+    "translatedContent": "* Correction du bug avec la sortie dvisvgm pour tikz dvi (la fonction latex2svg a maintenant"
+  },
+  {
+    "row": 81,
+    "rowsha": "AtMeFePtayY4dGgIJTmGqytX1QnDXv3thkLMe6lr9As=",
+    "originContent": "  an option to write the svg produced by dvisvgm).",
+    "translatedContent": "  une option pour écrire le svg produit par dvisvgm)."
+  },
+  {
+    "row": 82,
+    "rowsha": "N2XsrJzV7QZwF9e8VRjUP+7V7OS+tLbwfqOM6H80sug=",
+    "originContent": "* Add tableofcontents modules [See documentation](https://hchauvet.github.io/beampy/auto_examples/plot_TOC.html).",
+    "translatedContent": "* Ajout du module tableofcontents [Voir la documentation](https://hchauvet.github.io/beampy/auto_examples/plot_TOC.html)."
+  },
+  {
+    "row": 83,
+    "rowsha": "NYM0mmQUiQaJFhZ/4ExTomDjFZCihtio9IRnqKjhYnQ=",
+    "originContent": "* Add a BeamerFrankfurt theme [See documentation](https://hchauvet.github.io/beampy/auto_themes/theme_BeamerFrankfurt.html).",
+    "translatedContent": "* Ajout d'un thème BeamerFrankfurt [Voir la documentation](https://hchauvet.github.io/beampy/auto_themes/theme_BeamerFrankfurt.html)."
+  },
+  {
+    "row": 84,
+    "rowsha": "wWDwGP5yUhePktXzN+SzrhfDXMv5cNXHxhlITv8rPXw=",
+    "originContent": "* Figure module accepts animated gif.",
+    "translatedContent": "* Le module Figure accepte les gifs animés."
+  },
+  {
+    "row": 85,
+    "rowsha": "cDVbwmgzvmjnrGK7F28gcPDiKEB6APCwZnMcYHUKgk8=",
+    "originContent": "* Extra latex packages could be added to text module with the",
+    "translatedContent": "* Des paquets latex supplémentaires peuvent être ajoutés au module texte avec l'argument"
+  },
+  {
+    "row": 86,
+    "rowsha": "TRQfZ5MyZRahaPUhezDP+88sdoK5F6Pd0Ub0dr4+QTg=",
+    "originContent": "  \"extra_packages\" argument.",
+    "translatedContent": "  \"extra_packages\"."
+  },
+  {
+    "row": 87,
+    "rowsha": "F3WqyhF7kmH2lOcnZobBHcYlC2tlfzaThJ9JUtBBPA4=",
+    "originContent": "* Compute svg rectangle and circle size which improve the rendering",
+    "translatedContent": "* Calculer la taille des rectangles et cercles SVG qui améliorent la vitesse de rendu (pas besoin d'appeler Inkscape).  "
+  },
+  {
+    "row": 88,
+    "rowsha": "A710xJoQVPyStbGUB9NnwLsAlvcAwVYSHwecPd2nMB0=",
+    "originContent": "  speed (no need to call Inkscape).",
+    "translatedContent": "* Améliorer le module box (c'est désormais une sous-classe de group) [Voir la documentation](https://hchauvet.github.io/beampy/auto_examples/plot_box.html).  "
+  },
+  {
+    "row": 89,
+    "rowsha": "TmJsK3mphlarEUonngzwY2IrEvnlyJ5YLifnbxqDpF0=",
+    "originContent": "* Improve box module (it is now a subclass of group) [See documentation](https://hchauvet.github.io/beampy/auto_examples/plot_box.html).",
+    "translatedContent": "* Corriger certains facteurs d'échelle dans la fonction convert_unit.  "
+  },
+  {
+    "row": 90,
+    "rowsha": "sn83ECiMpXCFejtgV6ff8EU5fbHSaQBm4nfEkW74Cy0=",
+    "originContent": "* Correct some scale factors in the convert_unit function.",
+    "translatedContent": "* La largeur et la hauteur sont désormais des objets Length et acceptent des opérations complexes telles que :  "
+  },
+  {
+    "row": 91,
+    "rowsha": "SGMXwUR1y7NiXM4bF50qAuj8C/i0BdwyitNAY+rhA4o=",
+    "originContent": "* Width and height are now Length objects and accept complex",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "AwCKiEjwnYj+IgJdr5MlLxpRWbgWafHNwxEYPVm0OPk=",
+    "originContent": "  operations like:",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
+    "originContent": "  ```python",
+    "translatedContent": "  ```python"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "rHnL7vJNBCI+lg+Hc8XVhWx9EX6FneNGLYRsUrnVq0E=",
+    "originContent": "  # 50% of the currentwidth ",
+    "translatedContent": "  # 50% of the currentwidth "
+  },
+  {
+    "row": 97,
+    "rowsha": "JLZBztEy572zhFMhOzkhgaxJmYkTJm0kyVLb8RUy2iQ=",
+    "originContent": "  a = rectangle(width='50%', height=10)",
+    "translatedContent": "  a = rectangle(width='50%', height=10)"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "qUugYl+yEW3IH0uThWfK9Bzk3YNmK8QWXz6MsnfGbWc=",
+    "originContent": "  # width/height relative to the a element",
+    "translatedContent": "  # width/height relative to the a element"
+  },
+  {
+    "row": 100,
+    "rowsha": "uIQncCqzCBk5tUEBvgGHiGrFMUeq6ufezc6kme6dQn0=",
+    "originContent": "  b = rectangle(width=a.width/2+'2cm', height=a.height/'10pt')",
+    "translatedContent": "  b = rectangle(width=a.width/2+'2cm', height=a.height/'10pt')"
+  },
+  {
+    "row": 101,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "QYpllBq8RVOuELrnjBtg5vOlL52Vl8X2+i97SL3Bhp0=",
+    "originContent": "* module position (x,y) operation now accept Length objects (width/height):",
+    "translatedContent": "* la position du module (x,y) accepte désormais des objets Longueur (largeur/hauteur) :"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
+    "originContent": "  ```python",
+    "translatedContent": "  ```python"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "JLZBztEy572zhFMhOzkhgaxJmYkTJm0kyVLb8RUy2iQ=",
+    "originContent": "  a = rectangle(width='50%', height=10)",
+    "translatedContent": "  a = rectangle(width='50%', height=10)"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "KnygGhUpAB6AdIwP0DYuPdwYQNZAvFGYBZXVWLKH8rI=",
+    "originContent": "  b = rectangle(x=a.width+'2cm', y=a.height+5)",
+    "translatedContent": "  b = rectangle(x=a.width+'2cm', y=a.height+5)"
+  },
+  {
+    "row": 110,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 111,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 112,
+    "rowsha": "rMBZI72tuCn/Et3GL6RlaX3YTl/aqoIuvEwKgCBW2Qg=",
+    "originContent": "* Change the core of beampy to render elements when needed for",
+    "translatedContent": "* Modifier le cœur de beampy pour rendre les éléments uniquement lorsque cela est nécessaire pour"
+  },
+  {
+    "row": 113,
+    "rowsha": "KDSNl8zBI3W37F4IMTS7yxJ/4IHfTXkSyVrsX7+iMGQ=",
+    "originContent": "  operation on position or length (i.e. when you make an operation on",
+    "translatedContent": "  une opération sur la position ou la longueur (c’est-à-dire lorsque vous effectuez une opération sur"
+  },
+  {
+    "row": 114,
+    "rowsha": "VW4IxmV5gAOCCGAf1jW49vpRo69SaYddZ3Ig5lufNdU=",
+    "originContent": "  an element width or height that is unknown, the element will be",
+    "translatedContent": "  une largeur ou une hauteur d’élément inconnue, l’élément sera"
+  },
+  {
+    "row": 115,
+    "rowsha": "o5emYaX0a7n1YKayGq2IG1voAzmRs6HVd5AtztydfgU=",
+    "originContent": "  rendered to get its size and allow the operation)",
+    "translatedContent": "  rendu pour obtenir sa taille et permettre l’opération)"
+  },
+  {
+    "row": 116,
+    "rowsha": "r8kJmRcgowKUcTzGiHRKOX6EdfbwSqjuAW1NnesfKRs=",
+    "originContent": "* Add \"zorder\" operation for modules (above/below/last/first) to change",
+    "translatedContent": "* Ajouter l’opération \"zorder\" pour les modules (au-dessus/en-dessous/dernier/premier) afin de changer"
+  },
+  {
+    "row": 117,
+    "rowsha": "QJyWX6ar7o253cGpai4gwN3Ppax+TvwMoTbEcQNv4js=",
+    "originContent": "  their overlay order:",
+    "translatedContent": "  leur ordre de superposition :"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
+    "originContent": "  ```python",
+    "translatedContent": "  ```python"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "FP+1p3PsLw/tjNiDfpF41IAbh0obIeJePcjvIHrExI0=",
+    "originContent": "  a = rectangle(x='center', y='center', width=50, height=50)",
+    "translatedContent": "  a = rectangle(x='center', y='center', width=50, height=50)"
+  },
+  {
+    "row": 122,
+    "rowsha": "tDSuvOBUKl0JnwnXrFDwKH4HGhLFEJaazc2eMq2lZbs=",
+    "originContent": "  b = rectangle(x='center', y='center', width=a.height+100,",
+    "translatedContent": "  b = rectangle(x='center', y='center', width=a.height+100,"
+  },
+  {
+    "row": 123,
+    "rowsha": "q/ItnabzbJeTISmJVb1XO7Zg3nYECSYxXvHkW7/MaSU=",
+    "originContent": "                height=a.height+100, color='red')",
+    "translatedContent": "                height=a.height+100, color='red')"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "Iqjrz0bU6XkyTsE1EcrZB10fKRTgN0lZvDm27rNUMFw=",
+    "originContent": "  # Make b appears below a",
+    "translatedContent": "  # Make b appears below a"
+  },
+  {
+    "row": 126,
+    "rowsha": "QUQ7lX+X/RHenyAGcCxFXRh/SDAPd4Kc2Ccn4+9osLE=",
+    "originContent": "  b.below(a)",
+    "translatedContent": "  b.below(a)"
+  },
+  {
+    "row": 127,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 128,
+    "rowsha": "IX+v2Ik1k8RJhTmAcZvMrBJg2L2TWOUI3WIbyOJfhDs=",
+    "originContent": "  # equivalent to a.above(b) or a.last() or b.first()",
+    "translatedContent": "  # equivalent to a.above(b) or a.last() or b.first()"
+  },
+  {
+    "row": 129,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "Ij7Fj5gZhx2KgjJuG9cgNnzcxJY6rjxvWIRqT8JUrRY=",
+    "originContent": "### 0.5.1",
+    "translatedContent": "### 0.5.1"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "fMUn84s+FeBYZ4h47yv8esrLbWTn6BW5SYi1QQtZIts=",
+    "originContent": "* Fix several bugs in bokeh figures (thx to [Silmathoron](https://github.com/Silmathoron))",
+    "translatedContent": "* Correction de plusieurs bugs dans les figures bokeh (merci à [Silmathoron](https://github.com/Silmathoron))"
+  },
+  {
+    "row": 134,
+    "rowsha": "z0pxhJ3/X+S1rEqAfZt619oNzoUPAzyz3uhDL0eicd4=",
+    "originContent": "* Fix bokeh figure resizing, it's now use the \"sizing_mode = scale_both\" from bokeh and revert the css transform scaling for the bokeh div.",
+    "translatedContent": "* Correction du redimensionnement des figures bokeh, il utilise maintenant \"sizing_mode = scale_both\" de bokeh et annule la mise à l’échelle par transformation CSS pour la div bokeh."
+  },
+  {
+    "row": 135,
+    "rowsha": "yUMBPsmZ3oInGVbLt34Ie5LRnbDOf371YP+uWxWe540=",
+    "originContent": "* Fix javascript loader for bokeh (new bokeh version (>0.12.6) named their main div \"bk_root\")",
+    "translatedContent": "* Correction du chargeur javascript pour bokeh (la nouvelle version de bokeh (>0.12.6) nomme leur div principale \"bk_root\")"
+  },
+  {
+    "row": 136,
+    "rowsha": "QUtygeLa/ljT730XJOGZUZRbLH39PAn7OqqXUmzHz3A=",
+    "originContent": "* Add function to cache file in beampy cache class",
+    "translatedContent": "* Ajout d’une fonction pour mettre en cache un fichier dans la classe cache de beampy"
+  },
+  {
+    "row": 137,
+    "rowsha": "R82dKdaH5eS/UIVglXOZSvNLfhA/67k7u5/8H2VBaOE=",
+    "originContent": "* Cache javascript external libraries files from bokeh (download from their CDN, if \"doc = document(cache=False)\")",
+    "translatedContent": "* Mise en cache des fichiers des bibliothèques externes javascript de bokeh (téléchargement depuis leur CDN, si \"doc = document(cache=False)\")"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "LXmLv0tMpT51p9sbatYeKg/yHC9JOfsya6hB1Bpex9k=",
+    "originContent": "### 0.5.0",
+    "translatedContent": "### 0.5.0"
+  },
+  {
+    "row": 141,
+    "rowsha": "jPlSJS/H6ePYY9enh9+DF8G+bPD758o73yuBLXuPyfo=",
+    "originContent": "* Add box function to decorate group",
+    "translatedContent": "* Ajout d’une fonction box pour décorer un groupe"
+  },
+  {
+    "row": 142,
+    "rowsha": "MGUeiCau3NMkLo49WSL5CwRSKHgW2NGU2QZjuZRx6z8=",
+    "originContent": "* New experimental way to write text inside presentation using context manager",
+    "translatedContent": "* Nouvelle méthode expérimentale pour écrire du texte dans la présentation en utilisant un gestionnaire de contexte"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
+    "originContent": "  ```python",
+    "translatedContent": "  ```python"
+  },
+  {
+    "row": 145,
+    "rowsha": "tIngs7BN4Ev9H5X+JKbMTcVv/h4sf7r/h9RZuUAgjG4=",
+    "originContent": "  with text(width=400):",
+    "translatedContent": "  with text(width=400):"
+  },
+  {
+    "row": 146,
+    "rowsha": "z6ozmQL2k/X8yIfUrRav7HyPFXTvZNMlb7nSJ6S+M20=",
+    "originContent": "       \"\"\"",
+    "translatedContent": "       \"\"\""
+  },
+  {
+    "row": 147,
+    "rowsha": "tE1dsWnhfBiDQXqwEHaus8E2Cvsqmn7pP5HS2OTH010=",
+    "originContent": "       Any comment inside the context manager will be passed to the",
+    "translatedContent": "       Any comment inside the context manager will be passed to the"
+  },
+  {
+    "row": 148,
+    "rowsha": "G38wYJtW4gxChStIJTHrzbi3llPRe94d+y9levIdVw4=",
+    "originContent": "       text function as input argument. This allows clearer source",
+    "translatedContent": "       text function as input argument. This allows clearer source"
+  },
+  {
+    "row": 149,
+    "rowsha": "PjOb8s4dYPEJ77lKaMIFhJlUJiy6/qS6hSPZwllJKsk=",
+    "originContent": "       when writing long texts.",
+    "translatedContent": "       when writing long texts."
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "wYv6WX3MhSqqyCjXJV//XezXWP1b3fFXJszY9NDd/O8=",
+    "originContent": "       No more need to add an *r* before to protect the text passed to",
+    "translatedContent": "       No more need to add an *r* before to protect the text passed to"
+  },
+  {
+    "row": 152,
+    "rowsha": "FPWDn/yNxSIPbQXzUgoW9NXzBhri6rRUhZXhgN+qqYA=",
+    "originContent": "       latex, it's now automatically added.",
+    "translatedContent": "       latex, it's now automatically added."
+  },
+  {
+    "row": 153,
+    "rowsha": "z6ozmQL2k/X8yIfUrRav7HyPFXTvZNMlb7nSJ6S+M20=",
+    "originContent": "       \"\"\"",
+    "translatedContent": "       \"\"\""
+  },
+  {
+    "row": 154,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 155,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 156,
+    "rowsha": "DcsybM4TX6Z/na08tJ0ms0FLzn783hliZ853QW5JMhg=",
+    "originContent": "* Correct bug when only html object are present in one slide",
+    "translatedContent": "* Correction d'un bug lorsque seuls des objets html sont présents dans une diapositive"
+  },
+  {
+    "row": 157,
+    "rowsha": "NXLEAOqDgcu2/HQuvrl5yz9DAkQVBOHSeFd/xvuTPDo=",
+    "originContent": "* Correct small typos in the install section of the documentation.",
+    "translatedContent": "* Correction de petites fautes dans la section d'installation de la documentation."
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "2KNezbGiIfdz5lcYv5NreTollyNemb7GQQMlAAVFUTg=",
+    "originContent": "### 0.4.9",
+    "translatedContent": "### 0.4.9"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "vJ6wyHQ857SqsD1NoMh8o1TubfMX68sV/EIERInCC7Y=",
+    "originContent": "* First draf of [Beampy documentation](https://hchauvet.github.io/beampy/)",
+    "translatedContent": "* Première ébauche de la [documentation Beampy](https://hchauvet.github.io/beampy/)"
+  },
+  {
+    "row": 162,
+    "rowsha": "yRGnXmXV1//Qcvw22wriuhacMYzSbipUv85SsuTu70Q=",
+    "originContent": "* Add documentation in Beampy module",
+    "translatedContent": "* Ajout de la documentation dans le module Beampy"
+  },
+  {
+    "row": 163,
+    "rowsha": "EssXhmfkfuO9wrpRPVDRKJDccxF5EtmxTuqNf+xzQvo=",
+    "originContent": "* Add 'anchor' key to position dictionary to define anchor along the",
+    "translatedContent": "* Ajout de la clé 'anchor' au dictionnaire de position pour définir l’ancre le long de la"
+  },
+  {
+    "row": 164,
+    "rowsha": "phAuXyxYOXRweOHVphlORX8WIXldlP4DFxqKaMG2dUI=",
+    "originContent": "  bounding-box of module to place them.",
+    "translatedContent": "  boîte englobante du module pour les positionner."
+  },
+  {
+    "row": 165,
+    "rowsha": "TcQCQqpK9Y79Aqjl4upi0bxQs58pO5Z0nQqFFHSee5k=",
+    "originContent": "* Add utils.py to store functions that call beampy modules. ",
+    "translatedContent": "* Ajout de utils.py pour stocker des fonctions qui appellent les modules beampy."
+  },
+  {
+    "row": 166,
+    "rowsha": "vd948+XbqGow+Byi7LBu34dvOKmlpeEwXmag6SOby8s=",
+    "originContent": "* Add function **bounding_box(module)** to utils.py to draw bounding box with",
+    "translatedContent": "* Ajout de la fonction **bounding_box(module)** dans utils.py pour dessiner une boîte englobante avec"
+  },
+  {
+    "row": 167,
+    "rowsha": "sS+qEjTDvF41axutmVww4bb2Ty3ONBTT7trqhhGUxIE=",
+    "originContent": "  anchors around Beampy modules. Add also a function to draw axes on slide,",
+    "translatedContent": "  des ancres autour des modules Beampy. Ajout également d’une fonction pour dessiner des axes sur la diapositive,"
+  },
+  {
+    "row": 168,
+    "rowsha": "IdB1V+XVYXEx8Rbuc4/U13fAocYJ3pf7VrfpBGFQjHM=",
+    "originContent": "  **draw_axes()**",
+    "translatedContent": "  **draw_axes()**"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "4WKAXrTSgvBdCzaJCis4NtAGlSG9CB0biY+2YRqu0mE=",
+    "originContent": "### 0.4.8",
+    "translatedContent": "### 0.4.8"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "pbonvUHDsYLHzhJItIOtZ0yqR5Naq5Rd/t5mpTQ//Do=",
+    "originContent": "* Partially fix issue #12.",
+    "translatedContent": "* Correction partielle du problème #12."
+  },
+  {
+    "row": 173,
+    "rowsha": "2ZZemH4ZFWmZnze4pONTHJPpjJQrwCCWWM0SPDCrxo4=",
+    "originContent": "* Clean code syntaxe. ",
+    "translatedContent": "* Nettoyage de la syntaxe du code."
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "D7k0wZ+PLqyj+AYhbhqjVmGtBoDwl7Ki/6l+rGNCiwI=",
+    "originContent": "### 0.4.7",
+    "translatedContent": "### 0.4.7"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "oChrIwNCUbZh4j+ayOL0szISnjG687OvyehIFPp3mx4=",
+    "originContent": "* Introduce layer mechanism. Slide elements can be animated by layers allowing mechanism like beamer \"\\only\".",
+    "translatedContent": "* Introduction du mécanisme de calques. Les éléments de la diapositive peuvent être animés par calques permettant un mécanisme similaire à \"\\only\" de beamer."
+  },
+  {
+    "row": 178,
+    "rowsha": "54Oqq/cdgE31HHAhDMH+AU4lmcR4tJRThgkC/2QTzWE=",
+    "originContent": "  The layer are managed as python slicing on Beampy modules.",
+    "translatedContent": "  Les calques sont gérés comme des tranches python sur les modules Beampy."
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "IqRyDa7Ici5uzO3R9INAKg45MTmviHdHJJM3iCyEMiY=",
+    "originContent": "  ```python ",
+    "translatedContent": "  ```python "
+  },
+  {
+    "row": 181,
+    "rowsha": "D2MeExXyBdvbKaXQQJi1H5ygN1oTdZ5yxH/DY9F+zBc=",
+    "originContent": "  with slide('Test layers'):",
+    "translatedContent": "  with slide('Test layers'):"
+  },
+  {
+    "row": 182,
+    "rowsha": "lP1dmJuu5yHKI/yzynAFfWXYBjTuy2D9mlP+UtZRya8=",
+    "originContent": "    text('First printed on layer 0')",
+    "translatedContent": "    text('First printed on layer 0')"
+  },
+  {
+    "row": 183,
+    "rowsha": "uC5V+uId8YQUkZveE57pNTZ8d6CGdJuHYpntJRHTJkw=",
+    "originContent": "    text('Secondly printed on layer 1')[1]",
+    "translatedContent": "    text('Secondly printed on layer 1')[1]"
+  },
+  {
+    "row": 184,
+    "rowsha": "9iRU/absN1l0gGF1AkUTn7wxO2Vtk18Xp4CTVMyaOZo=",
+    "originContent": "    text('Printed from layer 2 to 3')[2,3]",
+    "translatedContent": "    text('Printed from layer 2 to 3')[2,3]"
+  },
+  {
+    "row": 185,
+    "rowsha": "IEWF442Ot390oAbDKe8JGqByfQpb+Ku8ljglg9BfsHU=",
+    "originContent": "    text('Printed on all layers')[:]",
+    "translatedContent": "    text('Printed on all layers')[:]"
+  },
+  {
+    "row": 186,
+    "rowsha": "n/GnVDRQXrk4GrZESkHdx3OvLw1dWGf+NWmCXA7f3OE=",
+    "originContent": "    text('Printed on layer 4')[4]",
+    "translatedContent": "    text('Printed on layer 4')[4]"
+  },
+  {
+    "row": 187,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 188,
+    "rowsha": "KUCbHUzE8Lgxx512XmTSisYZzXNu+ABZmUcrBy2HGR0=",
+    "originContent": "    with group(width=300)[2:]:",
+    "translatedContent": "    with group(width=300)[2:]:"
+  },
+  {
+    "row": 189,
+    "rowsha": "qBI+gkpj90jfWv67+MQwSDEhS/OEPgoxOBE6PtRKz/A=",
+    "originContent": "        text('Printed inside group')",
+    "translatedContent": "        text('Printed inside group')"
+  },
+  {
+    "row": 190,
+    "rowsha": "rytoU4yVI4hJluZGkKwL1uM0mvcIKUGepRgkCqnDQA0=",
+    "originContent": "        text('for layers 2 to end')",
+    "translatedContent": "        text('for layers 2 to end')"
+  },
+  {
+    "row": 191,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 192,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "r64WAkPkfmFPRNPHBhg/zRAnXV6ApmrGZAadlOW+7Eg=",
+    "originContent": "### 0.4.6",
+    "translatedContent": "### 0.4.6"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "+vB2VWow81Wa1H6iqDq5XR2vx2rO/mZ8fKGh9t5ElYI=",
+    "originContent": "* The core of Beampy slide processor has been rewritten and now allows recursive group of elements.",
+    "translatedContent": "* The core of Beampy slide processor has been rewritten and now allows recursive group of elements."
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
+    "originContent": "  ```python",
+    "translatedContent": "  ```python"
+  },
+  {
+    "row": 199,
+    "rowsha": "QXRNMqNJogNoAncBQEwfsxEZ/skv6VSvVcM/wFTmvbk=",
+    "originContent": "  with group():",
+    "translatedContent": "  with group():"
+  },
+  {
+    "row": 200,
+    "rowsha": "JJFiix5IbYIV5nv8wMCiwdNASyJNOT4014uS+oCN5Dc=",
+    "originContent": "    text('toto')",
+    "translatedContent": "    text('toto')"
+  },
+  {
+    "row": 201,
+    "rowsha": "ZOH41MwyO38f3eZ2KF8r25SaLsCYDtB3cCmSE86ldok=",
+    "originContent": "    with group(width=300):",
+    "translatedContent": "    with group(width=300):"
+  },
+  {
+    "row": 202,
+    "rowsha": "3BqysrOQmSvsQW26oK/gK1fjxxUK1H6agZtsLkN2Ki4=",
+    "originContent": "        text('tata')",
+    "translatedContent": "        text('tata')"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "EV79hkO5fKKVZ4hGCNeFJeOdrC3Di1jLgocJexWbRXY=",
+    "originContent": "        with group(width=200):",
+    "translatedContent": "        with group(width=200):"
+  },
+  {
+    "row": 205,
+    "rowsha": "lrUSvAL3ZntOzBMwqk1e/T4MhoLv+u/VJllhz7gG0vk=",
+    "originContent": "            figure('./niceplot.pdf')",
+    "translatedContent": "            figure('./niceplot.pdf')"
+  },
+  {
+    "row": 206,
+    "rowsha": "tzh63LOk/ujPq3sC8Nwtej+U8mDG8mXwsi7gqztRV3U=",
+    "originContent": "            text('nice legend')",
+    "translatedContent": "            text('nice legend')"
+  },
+  {
+    "row": 207,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "Q9maSGFqFCqF8GW11bEACpLnIZqzldlirV15zJdsfZc=",
+    "originContent": "* If a group width is given all elements in groups without specified width take the width of the group",
+    "translatedContent": "* Si une largeur de groupe est donnée, tous les éléments des groupes sans largeur spécifiée prennent la largeur du groupe"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
+    "originContent": "  ```python",
+    "translatedContent": "  ```python"
+  },
+  {
+    "row": 212,
+    "rowsha": "E6LGfHp+RkBDBvweEZhKdlnNfT2vDpX3Vu+6fXF2ucc=",
+    "originContent": "  with group(width=200):",
+    "translatedContent": "  with group(width=200):"
+  },
+  {
+    "row": 213,
+    "rowsha": "eXfiQXtJNRFGj9Lc9rq1SayppEg1UvfwJ3iDW2s17Fs=",
+    "originContent": "    figure('./niceplot.pdf')",
+    "translatedContent": "    figure('./niceplot.pdf')"
+  },
+  {
+    "row": 214,
+    "rowsha": "PDtkyk3MdoyJKZisY0WBGbEMcloxXoSDkEgQBOCq/Wk=",
+    "originContent": "    text('nice legend')",
+    "translatedContent": "    text('nice legend')"
+  },
+  {
+    "row": 215,
+    "rowsha": "5CPU1p36GjD/iZ9zcIUjsjS6+qOmKVLw87vb9jdVivg=",
+    "originContent": "    # Figure and text width will be automatically set to 200 px",
+    "translatedContent": "    # Figure and text width will be automatically set to 200 px"
+  },
+  {
+    "row": 216,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "JuQBb1tnJUl7sR8Oip4ITgmnzo3NnhjLTmaTb70dvSQ=",
+    "originContent": "* Relative placement now could be done on auto positioned elements",
+    "translatedContent": "* Le placement relatif peut désormais être effectué sur des éléments positionnés automatiquement"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
+    "originContent": "  ```python",
+    "translatedContent": "  ```python"
+  },
+  {
+    "row": 221,
+    "rowsha": "0U8am17K/EMQYiolfqZcMcQW6U42WjgjvmAWE0OIs0M=",
+    "originContent": "  t0 = text('toto')",
+    "translatedContent": "  t0 = text('toto')"
+  },
+  {
+    "row": 222,
+    "rowsha": "dwfjaH4FrYxI/OxVgQ97X8nvL6TsLfe8i8SpZFyuKyE=",
+    "originContent": "  text('tata', x=t0.center + center(0), t0.bottom + 0.1)",
+    "translatedContent": "  text('tata', x=t0.center + center(0), t0.bottom + 0.1)"
+  },
+  {
+    "row": 223,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "BwBje1/63OOssCkr18cpMdpYF3O3Sg0bOKzI2a+qtsY=",
+    "originContent": "* Video now could use external links (with *embedded=True*) rather than be included in the html file.",
+    "translatedContent": "* La vidéo peut désormais utiliser des liens externes (avec *embedded=True*) plutôt que d’être incluse dans le fichier html.  "
+  },
+  {
+    "row": 226,
+    "rowsha": "7ZUojVuoR12wDQwmq4gOSyOcw5gbwG2FOXAmZ8VeC0U=",
+    "originContent": "  The video is loaded from disk (be careful with file path) when the slide is displayed on screen.",
+    "translatedContent": "  La vidéo est chargée depuis le disque (attention au chemin du fichier) lorsque la diapositive est affichée à l’écran."
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "qt61i4f+ONUZdeTkLHMZSrugJk7Ihs1zp6mIDcA+iJ8=",
+    "originContent": "### 0.4.5",
+    "translatedContent": "### 0.4.5"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "88df99ZUqmR4VWy4BEf25T1Y6BmdVFL+ejTAuVWA34Y=",
+    "originContent": "* All texts are preprocessed in a single latex file (Latex is called only once: improve compilation time)",
+    "translatedContent": "* Tous les textes sont prétraités dans un seul fichier latex (Latex est appelé une seule fois : amélioration du temps de compilation)  "
+  },
+  {
+    "row": 231,
+    "rowsha": "qM8Zi23lHJYrVPt3aSPZmvdNKxUK1m+x3Hh4gAf7OJU=",
+    "originContent": "* Cache bug fix: Video and svg are now cached correctly",
+    "translatedContent": "* Correction du bug de cache : la vidéo et le svg sont désormais mis en cache correctement"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "cNrTfdcddTBoRzUzKtzwwOZGIWHNPTq8NBUnDGW0adM=",
+    "originContent": "### 0.4.4",
+    "translatedContent": "### 0.4.4"
+  },
+  {
+    "row": 234,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "0Xk95RE6/WorFgEbEXidSmYsa/1UP/MFXtntAbGB/ec=",
+    "originContent": "* Improve cache: one file per element cached (don't write the cache twice!)",
+    "translatedContent": "* Amélioration du cache : un fichier par élément mis en cache (ne pas écrire le cache deux fois !)  "
+  },
+  {
+    "row": 236,
+    "rowsha": "RFy9t3RHgl9PnvHiiqFtqg5XlC/6pCoUDpV/iCYN0Ro=",
+    "originContent": "* Svg: Add line and rectangle commands to easily draw lines and rectangles",
+    "translatedContent": "* Svg : ajout des commandes ligne et rectangle pour dessiner facilement des lignes et des rectangles  "
+  },
+  {
+    "row": 237,
+    "rowsha": "RO3KVTB/ZmA9ZWHd6Nf4asP8L8tGU+PxdKKzz+4wFxw=",
+    "originContent": "* Relative placement: add shortcut center(shift), right(shift) and bottom(shift) ",
+    "translatedContent": "* Placement relatif : ajout des raccourcis center(shift), right(shift) et bottom(shift)  "
+  },
+  {
+    "row": 238,
+    "rowsha": "B+vYkmzZ0oexpWPbPySMBewhRqjGZJZ4hGPFz0M2L/w=",
+    "originContent": "  to change the anchor of the current element.",
+    "translatedContent": "  pour changer l’ancre de l’élément courant."
+  },
+  {
+    "row": 239,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 240,
+    "rowsha": "IqRyDa7Ici5uzO3R9INAKg45MTmviHdHJJM3iCyEMiY=",
+    "originContent": "  ```python ",
+    "translatedContent": "  ```python "
+  },
+  {
+    "row": 241,
+    "rowsha": "lqK3/+uA0b0Fb8sDBo5a07wPHdyYWrmOOP22UQE+m8g=",
+    "originContent": "    e1 = text('Somthing', x=0.2, y=0.4)",
+    "translatedContent": "    e1 = text('Somthing', x=0.2, y=0.4)"
+  },
+  {
+    "row": 242,
+    "rowsha": "hAhy09fOafHfquh9CPIiLMw/+u26tXSwBcDwWOOysrk=",
+    "originContent": "    e2 = text('An other thing', ",
+    "translatedContent": "    e2 = text('An other thing', "
+  },
+  {
+    "row": 243,
+    "rowsha": "xULSzX7dkzht39RAWNr6XVKNPKDQjny2gEagLj6Wnio=",
+    "originContent": "              x=e1.left + right(0.1), ",
+    "translatedContent": "              x=e1.left + right(0.1), "
+  },
+  {
+    "row": 244,
+    "rowsha": "vjcv+ICzHi8pi21XQ45VZNO6cD8IorVLqk8JHx/Aj5A=",
+    "originContent": "              y=e1.center + center(0))",
+    "translatedContent": "              y=e1.center + center(0))"
+  },
+  {
+    "row": 245,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 246,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 0.4.3"
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "VY1jUI6Eb7upKyFapIv7KbzPPT20TKfs7rZCqBv+PIM=",
+    "originContent": "### 0.4.3",
+    "translatedContent": "* Les figures Matplotlib peuvent désormais être directement passées à *figure()* ou une liste de figures matplotlib peut être animée avec *animatesvg()*"
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* Amélioration mineure de la taille du cache (le contenu n'est plus stocké dans le fichier de cache)"
+  },
+  {
+    "row": 250,
+    "rowsha": "+SKost1PQuItghNV0+s1aYcKAjAdHHXRrg/mUs70x3w=",
+    "originContent": "* Matplotlib figures can now be directly passed to *figure()* or a list of matplotlib figures can be animated with *animatesvg()*",
+    "translatedContent": "* Mise à jour de la version de scour (optimiseur svg)"
+  },
+  {
+    "row": 251,
+    "rowsha": "UDK0aa4bCk0TUi2LMKr8/GAXihlL7+x2WX7Pg6yoXcA=",
+    "originContent": "* Minor improvement in cache size (content is no more stored in cache file)",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "9If/51hN6dqm0jSSi0QqB7ev0JijUh1Ojx8vx4XFiCE=",
+    "originContent": "* Update of scour version (svg-optimiser) ",
+    "translatedContent": "### 0.4.2"
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* Les chemins de glyphe issus de Latex sont désormais uniques (cela réduit le nombre de lignes svg dans les documents)"
+  },
+  {
+    "row": 254,
+    "rowsha": "mvPUc6Cy//bDwef5GodgLcu6uAJ8N8GuviPQR4eNZWM=",
+    "originContent": "### 0.4.2",
+    "translatedContent": "* Ajout de la commande *svg* pour inclure du svg brut dans la diapositive"
+  },
+  {
+    "row": 255,
+    "rowsha": "4q4qGcpC/63r1xUHPziLEHRnJKHZLVel67W2RJyLhg8=",
+    "originContent": "* Glyph paths from Latex are now unique (this reduce the number of svg lines in documents)",
+    "translatedContent": "* Amélioration de la flexibilité du thème, un arrière-plan avec des éléments interactifs peut désormais être créé !"
+  },
+  {
+    "row": 256,
+    "rowsha": "zt+GcI9udWpF3nQUE2a3PnN6YA3QCel1h39/ssS+nfE=",
+    "originContent": "* Add *svg* command ton include raw svg in slide",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "MgrOl/2Mxckw5gwG3ScYKtQ5r6djeAiIbXey07M+KRY=",
+    "originContent": "* Improve the theme flexibility, a background with interactive elements can now be created!",
+    "translatedContent": "### 0.4.1"
+  },
+  {
+    "row": 258,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* Toutes les diapositives sont maintenant chargées en RAM, amélioration de la vitesse"
+  },
+  {
+    "row": 259,
+    "rowsha": "GX3S06pW/ucbT6i9KTHyVvqQFfXECJwvAYyrSPjNOc4=",
+    "originContent": "### 0.4.1",
+    "translatedContent": "* Les modules sont désormais des classes qui héritent d'une classe de base \"beampy_module\" dans modules/core.py"
+  },
+  {
+    "row": 260,
+    "rowsha": "oyi+6VwJfi839D4PM0Z4lKNwYe1VYSlxRrqTj9eIwv8=",
+    "originContent": "* All slide are now loaded into ram, improve speed",
+    "translatedContent": "* Le cache est désormais unique pour tous les formats (pdf, svg, html) et des clés spéciales peuvent être ajoutées"
+  },
+  {
+    "row": 261,
+    "rowsha": "vXdLnCujhw0+JmkH5fzbHG21WcC9pLmlJz+C6Q7/mWo=",
+    "originContent": "* Modules are now classes which inherit from a base class \"beampy_module\" in modules/core.py",
+    "translatedContent": "  aux modules afin de créer leur identifiant de cache"
+  },
+  {
+    "row": 262,
+    "rowsha": "DdMv8BtPk1P2LwyM4UN4s8d+Kpkj7Z8ykeV2L4javAg=",
+    "originContent": "* cache is now unique for all format (pdf, svg, html) and special keys can be added",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "/tzl4wb5HXE/6kHeNPq8OChhdaFlaDVnZloA2sQ3XM8=",
+    "originContent": "  to modules in order to create their chache id",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 264,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 265,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "[Voir la page d'installation de la documentation Beampy](https://hchauvet.github.io/beampy/install.html)"
+  },
+  {
+    "row": 266,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 267,
+    "rowsha": "uKloL2UJBRrYGUrkXbNJqertRZGFSdapAPhXjtUIBpU=",
+    "originContent": "[See Beampy documentation install page](https://hchauvet.github.io/beampy/install.html)",
+    "translatedContent": ""
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
