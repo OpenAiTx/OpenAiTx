@@ -1,0 +1,998 @@
+[
+  {
+    "row": 1,
+    "rowsha": "nhAw3Pm1eFBy3aS6ztRPXe2J6q0DKRCK9kPO0qOPc3o=",
+    "originContent": "# Mount Proton Drive on Linux using rclone and systemd",
+    "translatedContent": "# Monter Proton Drive sur Linux avec rclone et systemd"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "kunjnjuTqSnKXPN/qkCf9VJCY5C8tnwYWpEj2SCkwaI=",
+    "originContent": "This guide automates the process of mounting [Proton Drive](https://proton.me/drive) on a Linux system using [`rclone`](https://rclone.org/) and `systemd`.",
+    "translatedContent": "Ce guide automatise le processus de montage de [Proton Drive](https://proton.me/drive) sur un système Linux en utilisant [`rclone`](https://rclone.org/) et `systemd`."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "F5MQufUYTBy9lUY1vMQTJdm2G8hpfnCSUX9pcN1Fsp0=",
+    "originContent": "Tested on **Arch Linux**, but should work on most Linux distributions with minor adjustments.",
+    "translatedContent": "Testé sur **Arch Linux**, mais devrait fonctionner sur la plupart des distributions Linux avec quelques ajustements mineurs."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "zfCiRIdIu+vyqZFXi272hyzpV8S7olnXrsJKtYCMFfU=",
+    "originContent": "## 🔧 Features",
+    "translatedContent": "## 🔧 Fonctionnalités"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "R7Pcsxu6E3N4zj2OeVz46epkiH/mBzgK+toupC+DMqw=",
+    "originContent": "- Mounts Proton Drive at login via `systemd --user`",
+    "translatedContent": "- Monte Proton Drive à la connexion via `systemd --user`"
+  },
+  {
+    "row": 12,
+    "rowsha": "zNYq9uJpZO08LlRkcQHpCd7l7fkGyFBcnJSzuU46Tos=",
+    "originContent": "- Uses `rclone` with `--vfs-cache-mode writes` for compatibility",
+    "translatedContent": "- Utilise `rclone` avec `--vfs-cache-mode writes` pour la compatibilité"
+  },
+  {
+    "row": 13,
+    "rowsha": "xBD3cLZL6nw8knjGlvpFx6gl6GGQ6ybHxSdYSsYDIz8=",
+    "originContent": "- Enables background service with logging",
+    "translatedContent": "- Active un service en arrière-plan avec journalisation"
+  },
+  {
+    "row": 14,
+    "rowsha": "dwWKqng7cYNkeZpDmdxTrx0ulGWZD47r4n9trW0rDG8=",
+    "originContent": "- Adds FUSE support for `--allow-other` mounts",
+    "translatedContent": "- Ajoute le support FUSE pour les montages `--allow-other`"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+    "originContent": "## 🚀 Quick Start",
+    "translatedContent": "## 🚀 Démarrage rapide"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "8Lsq2/zjJrirIiMiys1B71NmnSF29XFK+68FXp+xx78=",
+    "originContent": "### 1. ✅ Install Dependencies",
+    "translatedContent": "### 1. ✅ Installer les dépendances"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "MWsdZpWB5qhLzqjJ13xGq1iwgA4oCuz/2gHc9YMC69k=",
+    "originContent": "#### Install `fuse3` (required for mounting):",
+    "translatedContent": "#### Installer `fuse3` (nécessaire pour le montage) :"
+  },
+  {
+    "row": 23,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 24,
+    "rowsha": "0ZnUZbXVVJliJnbnQcTtlDiYBDqRFJWT9F0W2IZORfU=",
+    "originContent": "sudo pacman -S fuse3",
+    "translatedContent": "sudo pacman -S fuse3"
+  },
+  {
+    "row": 25,
+    "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+    "originContent": "````",
+    "translatedContent": "````"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "SQ6C09D26ZeoSlPmkXIYG2gri+XsVmcfvkrH8kcHEIM=",
+    "originContent": "#### Install `rclone` (must be v1.64.0 or newer)",
+    "translatedContent": "#### Installer `rclone` (doit être v1.64.0 ou plus récent)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "ot9vVMUuQtFMH/FXoiPGTTAlMmZ5GZgk0UtxXECCRDg=",
+    "originContent": "🔹 **Option 1: Use precompiled binary (recommended)**",
+    "translatedContent": "🔹 **Option 1 : Utiliser le binaire précompilé (recommandé)**"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 32,
+    "rowsha": "/KyLMwaZmoCMeSCEq2OZhIhWPPNRvwXsES6galXSA7I=",
+    "originContent": "curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip",
+    "translatedContent": "curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip"
+  },
+  {
+    "row": 33,
+    "rowsha": "QGjhrFV+BlABuXs1MPpgTfl6+CoMIif9xAHLdyEVX7Q=",
+    "originContent": "unzip rclone-current-linux-amd64.zip",
+    "translatedContent": "unzip rclone-current-linux-amd64.zip"
+  },
+  {
+    "row": 34,
+    "rowsha": "AQxNVBWCFnTtxNyherJipytoh11LkQmamZhRUpqtpWI=",
+    "originContent": "cd rclone-*-linux-amd64",
+    "translatedContent": "cd rclone-*-linux-amd64"
+  },
+  {
+    "row": 35,
+    "rowsha": "bXj2l/QMXdn+E5eXmFcODnmbZT+gdG9NVkNvDMlr/HM=",
+    "originContent": "sudo cp rclone /usr/local/bin/",
+    "translatedContent": "sudo cp rclone /usr/local/bin/"
+  },
+  {
+    "row": 36,
+    "rowsha": "/MXM458bzHMWlH4LNTd3MgGN5CX5TcBKssaoyuI6vmM=",
+    "originContent": "sudo chmod +x /usr/local/bin/rclone",
+    "translatedContent": "sudo chmod +x /usr/local/bin/rclone"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "DH3vmPYhBX9knwgfxL3QWpHEBbz3ddwcvyMk1d05P6Y=",
+    "originContent": "Verify:",
+    "translatedContent": "Vérifier :"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 42,
+    "rowsha": "jO6Wz6MPR/kcQweSb1xA37QG6LyoxRsljDsJvWN1Hhg=",
+    "originContent": "rclone version",
+    "translatedContent": "rclone version"
+  },
+  {
+    "row": 43,
+    "rowsha": "zZT2kc/GvjQJqdV4h+nOuIqHtjyJ1nO/EfhlfJRU+aY=",
+    "originContent": "# Must be v1.64.0 or higher",
+    "translatedContent": "# Must be v1.64.0 or higher"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "MFt/lBBh76huX3oTI80e4UTaNZOLmNEfloG2s2WPSVE=",
+    "originContent": "### 2. 🔐 Configure Proton Drive Remote",
+    "translatedContent": "### 2. 🔐 Configure Proton Drive Remote"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "UFQtCGI16wYLMV7Fyc+PMwso3Oge2btd9hheXy+oYyk=",
+    "originContent": "Run:",
+    "translatedContent": "Run:"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 53,
+    "rowsha": "WqP4RUHNUe0FgWrGl+1wKU50e0C6/owvxdnUhVMIEz4=",
+    "originContent": "rclone config",
+    "translatedContent": "rclone config"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "Os3ODr9z8IbipCSY9WN9qD9rCC7RAeXBvTSswyYoxcI=",
+    "originContent": "Follow prompts:",
+    "translatedContent": "Suivez les instructions :"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "ND7lfpwUZV7vjBCtIrX7+x/M6A/XezzlCG3Yt63MDPM=",
+    "originContent": "* `n` → New remote",
+    "translatedContent": "* `n` → Nouveau remote"
+  },
+  {
+    "row": 59,
+    "rowsha": "e6PQAN91MGi9d4p6TLYDx2YdO8vLRe1D1MAtvW6bpOc=",
+    "originContent": "* Name: `proton`",
+    "translatedContent": "* Nom : `proton`"
+  },
+  {
+    "row": 60,
+    "rowsha": "t2G3oT42imss0veC5tP10nteOBoqxdbC2IgTiGeX6Y0=",
+    "originContent": "* Type: `protondrive`",
+    "translatedContent": "* Type : `protondrive`"
+  },
+  {
+    "row": 61,
+    "rowsha": "JPmW0I5hR8PYe02m1/p58s3UWYwZjLEabH5kj81Kyr0=",
+    "originContent": "* Log in via browser when prompted",
+    "translatedContent": "* Connectez-vous via le navigateur lorsque demandé"
+  },
+  {
+    "row": 62,
+    "rowsha": "FF63X5/SxrLoiVywl+kn6CZyL1Rp72elC47l03NYK58=",
+    "originContent": "* Accept and save",
+    "translatedContent": "* Acceptez et enregistrez"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "AvRIXX9Sz3+al5IAC5I/MjWyUSAnNkLmKBuLEB6Ezzo=",
+    "originContent": "### 3. 📜 Run Setup Script",
+    "translatedContent": "### 3. 📜 Exécuter le script d’installation"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "JVZ5mZvf8MVstj/g7QHkRxVHnTwuajQXKV1uWJB6H7I=",
+    "originContent": "Run the provided script:",
+    "translatedContent": "Exécutez le script fourni :"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 71,
+    "rowsha": "xKF0PT0j3lL9R/dYfdsRiIi/2nWUmS5GsdqEzwjGN3k=",
+    "originContent": "chmod +x setup-proton-mount.sh",
+    "translatedContent": "chmod +x setup-proton-mount.sh"
+  },
+  {
+    "row": 72,
+    "rowsha": "Kh9516ma6lnkSuh9fRCV2TVicsN53Ha8db4SNZ1mKxE=",
+    "originContent": "./setup-proton-mount.sh",
+    "translatedContent": "./setup-proton-mount.sh"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "S7a9UE1gw5I8jjBXyjFCQ8NlzczvGkcYPKOUBPosL78=",
+    "originContent": "The script will:",
+    "translatedContent": "Le script va :"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "HduyOWjNgeMZ/zYdbV+gFU4970ltUif18xm/14dgm+Y=",
+    "originContent": "* Create the mount point: `~/ProtonDrive`",
+    "translatedContent": "* Créer le point de montage : `~/ProtonDrive`"
+  },
+  {
+    "row": 78,
+    "rowsha": "HXNgNsvyLlyS1a5GSXeTUhHW/nl0jagw6TP/8PL7hpw=",
+    "originContent": "* Write the systemd user service",
+    "translatedContent": "* Écrire le service utilisateur systemd"
+  },
+  {
+    "row": 79,
+    "rowsha": "LQD0hn/ItogiTrNf+mU7eMLp8KCAEumGkt9keEN5dbc=",
+    "originContent": "* Add `user_allow_other` to `/etc/fuse.conf` (if missing)",
+    "translatedContent": "* Ajouter `user_allow_other` à `/etc/fuse.conf` (si manquant)"
+  },
+  {
+    "row": 80,
+    "rowsha": "/qXYIezIs6oZSlG5HgVrYUHrV+9NERgja+UkgtHU+sU=",
+    "originContent": "* Add user to the `fuse` group (if needed)",
+    "translatedContent": "* Ajouter l'utilisateur au groupe `fuse` (si nécessaire)"
+  },
+  {
+    "row": 81,
+    "rowsha": "mk9exmW8FR1NupO1s7DfHgedCRBR3ei9x45n8hnY40M=",
+    "originContent": "* Enable and start the mount service",
+    "translatedContent": "* Activer et démarrer le service de montage"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "dElGrW8bnklVfaUS1/sisaTd+dfSP1b0JX78dCEju/8=",
+    "originContent": "### 4. 🔁 Reboot or Log Out/In",
+    "translatedContent": "### 4. 🔁 Redémarrer ou Se Déconnecter/Reconnecter"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "Nr1VCUoSG9C8KIFTWsWA21qkoh0K0Nxy52RD0dK+VQg=",
+    "originContent": "If the script added you to the `fuse` group, you must **log out and back in** for the change to take effect.",
+    "translatedContent": "Si le script vous a ajouté au groupe `fuse`, vous devez **vous déconnecter puis vous reconnecter** pour que le changement prenne effet."
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "XoGTn1SS0DE7gAn3KNbW5N4DmlWE4fY4OqvuMfSjkes=",
+    "originContent": "## 🔍 Verify Mount",
+    "translatedContent": "## 🔍 Vérifier le montage"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "xLSnA53QEGAKRg9t32V9jRAGTqJhlEAP4UWzKbgP6Ws=",
+    "originContent": "Check if Proton Drive is mounted:",
+    "translatedContent": "Vérifiez si Proton Drive est monté :"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 96,
+    "rowsha": "dy2495hhx+trTtTA6B/b17Hiaz0oIqPYkG1+jI3Vwg0=",
+    "originContent": "ls ~/ProtonDrive",
+    "translatedContent": "ls ~/ProtonDrive"
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "dKJjztbNUro+gW3FAV/dNmkByG6DE6eIzwCO+Qj640s=",
+    "originContent": "Check systemd service:",
+    "translatedContent": "Vérifier le service systemd :"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 102,
+    "rowsha": "5gdBCUqg+5jt+Zb22/PFw+UuY2ZS46pMbF/HJFLSV0M=",
+    "originContent": "systemctl --user status rclone-proton.mount.service",
+    "translatedContent": "systemctl --user status rclone-proton.mount.service"
+  },
+  {
+    "row": 103,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "3S3GLML/1483CP3qfJ07oO89xGtgYm+Bt7PsEVxX6tk=",
+    "originContent": "## 🔁 Remount",
+    "translatedContent": "## 🔁 Remount"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "p4w60L3TTK1EOl8EwvGq1JEzozZbkdiYBRQzED1MLkU=",
+    "originContent": "If unmounted the Proton Drive can be remounted by:",
+    "translatedContent": "If unmounted the Proton Drive can be remounted by:"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 112,
+    "rowsha": "SuomfiyfAGgHpjH353Tyec9lxzsh8Nv+VP+/Vzmk4nA=",
+    "originContent": "systemctl --user restart rclone-proton.mount.service",
+    "translatedContent": "systemctl --user restart rclone-proton.mount.service"
+  },
+  {
+    "row": 113,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "Id3679ctmM0sMIPA2Cs+bv5oNW8eIo3JNm7uBH5wQHg=",
+    "originContent": "Note the Proton Drive is mounted each time you login automatically.",
+    "translatedContent": "Notez que Proton Drive est monté automatiquement à chaque connexion."
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "DXpffixcyoZtjLNko6N3ZPFoJIj3za+/yizODVobseY=",
+    "originContent": "## 🧼 Uninstall",
+    "translatedContent": "## 🧼 Désinstallation"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "QRdr2mK+mjfiduYBmA+vT7e4BzYk9A8MdeeZqEGiRAo=",
+    "originContent": "To remove the auto-mount setup:",
+    "translatedContent": "Pour supprimer la configuration de montage automatique :"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 122,
+    "rowsha": "+9Fm1UhbBfjkaXUkxU5GpIoacydOtfdILgSb+5/nn9U=",
+    "originContent": "systemctl --user disable --now rclone-proton.mount.service",
+    "translatedContent": "systemctl --user disable --now rclone-proton.mount.service"
+  },
+  {
+    "row": 123,
+    "rowsha": "LnFHwVFNbxXzeJDdZ3Ltg5ai24NB6b317GZ5zZZvdrs=",
+    "originContent": "rm ~/.config/systemd/user/rclone-proton.mount.service",
+    "translatedContent": "rm ~/.config/systemd/user/rclone-proton.mount.service"
+  },
+  {
+    "row": 124,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "(Optional) Supprimez `~/ProtonDrive` si vous n'avez plus besoin du point de montage."
+  },
+  {
+    "row": 126,
+    "rowsha": "pP1lK7XykL/SEaWRBzHJoZ275fcHXUwtFjmF+IcIA2Q=",
+    "originContent": "(Optional) Remove `~/ProtonDrive` if you no longer need the mount point.",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 128,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📁 Fichiers"
+  },
+  {
+    "row": 130,
+    "rowsha": "ItHpH37hcegRTATfZCdK6J2lYmuRAA3G1/LeDb5iyTs=",
+    "originContent": "## 📁 Files",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `setup-proton-mount.sh` — script d'installation complet"
+  },
+  {
+    "row": 132,
+    "rowsha": "Lw8bqXR0Hlkn/2MgTkCQHi7Rhiy1i5SNKuEpK20B/wE=",
+    "originContent": "* `setup-proton-mount.sh` — full setup script",
+    "translatedContent": "* `~/.config/systemd/user/rclone-proton.mount.service` — unité systemd"
+  },
+  {
+    "row": 133,
+    "rowsha": "vndg52+CnzJwGe+a2m1wYDnFcxMj071gRzuo1E0fOoY=",
+    "originContent": "* `~/.config/systemd/user/rclone-proton.mount.service` — systemd unit",
+    "translatedContent": "* `~/ProtonDrive` — emplacement de montage"
+  },
+  {
+    "row": 134,
+    "rowsha": "HbbUQIbznJAN67d+q0371IsuuERKkt38z61lBAoyvEE=",
+    "originContent": "* `~/ProtonDrive` — mount location",
+    "translatedContent": "* `~/.cache/rclone/rclone-proton.log` — sortie du journal (optionnel)"
+  },
+  {
+    "row": 135,
+    "rowsha": "kXlJwxyKisDdKibhpLJSuT0S2bpwiSnGD2TuwhGTcd8=",
+    "originContent": "* `~/.cache/rclone/rclone-proton.log` — log output (optional)",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 137,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📎 Exigences"
+  },
+  {
+    "row": 139,
+    "rowsha": "IUMEjg9nJaTKz7gkWrNwiVZGluS4wMVRsRG91SQ2riI=",
+    "originContent": "## 📎 Requirements",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `rclone >= 1.64.0` avec support Proton Drive"
+  },
+  {
+    "row": 141,
+    "rowsha": "QqhDw+oJkM4RBZyhX4zEMDi9X3qehG7U+lsmLrXPpkw=",
+    "originContent": "* `rclone >= 1.64.0` with Proton Drive support",
+    "translatedContent": "* `fuse3`"
+  },
+  {
+    "row": 142,
+    "rowsha": "iQvkPof5qYsgCSNOzug/TY8uTIXL+fLMhEmXtMQkDBg=",
+    "originContent": "* `fuse3`",
+    "translatedContent": "* Un compte Proton Drive"
+  },
+  {
+    "row": 143,
+    "rowsha": "I39TTAe+sFUKRhIJyiPeN4zJq6UCbUIzvHuTLku1llc=",
+    "originContent": "* A Proton Drive account",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 145,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🛟 Dépannage"
+  },
+  {
+    "row": 147,
+    "rowsha": "ugXxib7XXNWXHeCzohB1x/Yi7nqxowjWg1tPJ6baTQU=",
+    "originContent": "## 🛟 Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si le montage ne fonctionne pas :"
+  },
+  {
+    "row": 149,
+    "rowsha": "98B5F0MaPm7fYPavmzNtGHgb6VLSEsaDZucCemfdIuU=",
+    "originContent": "If the mount isn't working:",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 152,
+    "rowsha": "yWM81NHv8E/GKNRVZbJ6rEdCB1VZco6Got2VoQhvnnQ=",
+    "originContent": "journalctl --user -u rclone-proton.mount.service",
+    "translatedContent": "journalctl --user -u rclone-proton.mount.service"
+  },
+  {
+    "row": 153,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pour redémarrer le service manuellement :"
+  },
+  {
+    "row": 155,
+    "rowsha": "Zwk+Pyi/Y+mr5GkUn6euWuSXor9ADPixc0kLXFhKiQU=",
+    "originContent": "To restart the service manually:",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 158,
+    "rowsha": "SuomfiyfAGgHpjH353Tyec9lxzsh8Nv+VP+/Vzmk4nA=",
+    "originContent": "systemctl --user restart rclone-proton.mount.service",
+    "translatedContent": "systemctl --user restart rclone-proton.mount.service"
+  },
+  {
+    "row": 159,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "VOzeBiY2ZfGvkEgmrny/T7cGcU2vS+YbH9UUw9kYqvg=",
+    "originContent": "## 📚 References",
+    "translatedContent": "## 📚 Références"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "S5/JKpcnDGEe9t8ZjCj1FhBbzch6ircKpoTHTcFGkcU=",
+    "originContent": "* [rclone Proton Drive Docs](https://rclone.org/protondrive/)",
+    "translatedContent": "* [rclone Proton Drive Docs](https://rclone.org/protondrive/)"
+  },
+  {
+    "row": 166,
+    "rowsha": "l+Ke1pUwdgW1di9sJp9t+cwdfL8/57ConCykjnUtm68=",
+    "originContent": "* [systemd user services](https://wiki.archlinux.org/title/Systemd/User)",
+    "translatedContent": "* [services utilisateur systemd](https://wiki.archlinux.org/title/Systemd/User)"
+  }
+]
