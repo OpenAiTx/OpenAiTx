@@ -1,0 +1,1989 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/ismamz/next-transition-router/main/example/app/icon.svg\" alt=\"next-transition-router\" width=\"100\" height=\"100\" />\n  <h1>next-transition-router</h1>\n</div>\n\nEasily add animated transitions between pages using Next.js App Router and your favorite animation library.\n\n- [**Live Demo using GSAP**](https://next-transition-router.vercel.app) (source code: [/example](/example)).\n- [**Stackblitz Demo using Framer Motion**](https://stackblitz.com/edit/next-transition-router-framer-motion).\n\n## Features\n\n- Automatically detect internal links to handle page transitions ([optional `auto` flag](#auto-enabled)).\n- Use a custom `Link` component to manually handle page transitions ([when `auto` is disabled](#handle-links-custom-link-component-vs-auto-detection)).\n- Exclusively to be used with [Next.js App Router](https://nextjs.org/docs/app) (v14.0.0 or higher).\n- Quickly add animated transitions between pages using JavaScript or CSS.\n- Integrate seamlessly with [GSAP](https://gsap.com/resources/React/) or any other animation library of your choice (see [minimal GSAP example](#minimal-example-using-gsap)).\n- If JavaScript is disabled, the router's accessibility is not compromised.\n- It's really lightweight; the bundle size is less than 8 KB.\n- Focused on customizable animations, not targeting the [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).\n\nIf you're looking to use the View Transitions API, check [next-view-transitions](https://github.com/shuding/next-view-transitions).\n\n> [!WARNING]\n> This project is currently in Beta. Please note that the API may change as features are enhanced and refined.\n\n## Installation\n\nInstall the package using your preferred package manager:\n",
+    "ContentSha": "fDC1C4JG9j8j+4DceQGZFguv+E3oM80dIUgQ+s7CQ78=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/ismamz/next-transition-router/main/example/app/icon.svg\" alt=\"next-transition-router\" width=\"100\" height=\"100\" />\n  <h1>next-transition-router</h1>\n</div>\n\nNext.js App Router とお好みのアニメーションライブラリを使って、ページ間のアニメーション遷移を簡単に追加できます。\n\n- [**GSAPを使ったライブデモ**](https://next-transition-router.vercel.app)（ソースコード: [/example](/example)）。\n- [**Framer Motionを使ったStackblitzデモ**](https://stackblitz.com/edit/next-transition-router-framer-motion)。\n\n## 特徴\n\n- 内部リンクを自動検出してページ遷移を処理（[オプションの `auto` フラグ](#auto-enabled)）。\n- カスタム `Link` コンポーネントを使用して手動でページ遷移を処理（[`auto` が無効の場合](#handle-links-custom-link-component-vs-auto-detection)）。\n- [Next.js App Router](https://nextjs.org/docs/app)（v14.0.0以上）専用。\n- JavaScript または CSS を使ってページ間にアニメーション遷移を素早く追加。\n- [GSAP](https://gsap.com/resources/React/) や任意のアニメーションライブラリとシームレスに統合可能（[最小限のGSAP例](#minimal-example-using-gsap)を参照）。\n- JavaScriptが無効でもルーターのアクセシビリティは損なわれません。\n- 非常に軽量で、バンドルサイズは8KB未満。\n- [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) には対応せず、カスタマイズ可能なアニメーションに注力。\n\nView Transitions API を使いたい場合は、[next-view-transitions](https://github.com/shuding/next-view-transitions) をご覧ください。\n\n> [!WARNING]\n> 本プロジェクトは現在ベータ版です。機能の拡張や改良に伴い、APIが変更される可能性がありますのでご注意ください。\n\n## インストール\n\nお好みのパッケージマネージャーを使ってパッケージをインストールしてください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "FPibjzeTAbfWNA3KaJWtYBDC3w41cqqcQRmaPngewrQ=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ismamz/next-transition-router/main/example/app/icon.svg\" alt=\"next-transition-router\" width=\"100\" height=\"100\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ismamz/next-transition-router/main/example/app/icon.svg\" alt=\"next-transition-router\" width=\"100\" height=\"100\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "TkeeZhckU/gBXFRp9d+qwk6djMMShdfUVLDeVY4e6SA=",
+        "originContent": "  <h1>next-transition-router</h1>",
+        "translatedContent": "  <h1>next-transition-router</h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PrGojXGQ00VVY9kxcI7+nOjrCajP5H6SQtJ/LbU/DV8=",
+        "originContent": "Easily add animated transitions between pages using Next.js App Router and your favorite animation library.",
+        "translatedContent": "Next.js App Router とお好みのアニメーションライブラリを使って、ページ間のアニメーション遷移を簡単に追加できます。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oxl+STgvgZrsFfW386wGp0D/9hJVMe/M4ouhgqYxTQk=",
+        "originContent": "- [**Live Demo using GSAP**](https://next-transition-router.vercel.app) (source code: [/example](/example)).",
+        "translatedContent": "- [**GSAPを使ったライブデモ**](https://next-transition-router.vercel.app)（ソースコード: [/example](/example)）。"
+      },
+      {
+        "row": 9,
+        "rowsha": "yomgjfUQY2jGEYk2m+JyTtKABnp07AWaDkvK80VKa1s=",
+        "originContent": "- [**Stackblitz Demo using Framer Motion**](https://stackblitz.com/edit/next-transition-router-framer-motion).",
+        "translatedContent": "- [**Framer Motionを使ったStackblitzデモ**](https://stackblitz.com/edit/next-transition-router-framer-motion)。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特徴"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "hl3sA1Dl6/Hyx5/0nneYtZUxMv80DGGyP11bwc6fDDk=",
+        "originContent": "- Automatically detect internal links to handle page transitions ([optional `auto` flag](#auto-enabled)).",
+        "translatedContent": "- 内部リンクを自動検出してページ遷移を処理（[オプションの `auto` フラグ](#auto-enabled)）。"
+      },
+      {
+        "row": 14,
+        "rowsha": "Q+cE8z1S3KVInvqzWCN1/cujLGhe88yORNkoAkWCjzc=",
+        "originContent": "- Use a custom `Link` component to manually handle page transitions ([when `auto` is disabled](#handle-links-custom-link-component-vs-auto-detection)).",
+        "translatedContent": "- カスタム `Link` コンポーネントを使用して手動でページ遷移を処理（[`auto` が無効の場合](#handle-links-custom-link-component-vs-auto-detection)）。"
+      },
+      {
+        "row": 15,
+        "rowsha": "61K1uj6MkmKRrO/VM6SaZkqXjKm1v6f7QAY2XHCRktY=",
+        "originContent": "- Exclusively to be used with [Next.js App Router](https://nextjs.org/docs/app) (v14.0.0 or higher).",
+        "translatedContent": "- [Next.js App Router](https://nextjs.org/docs/app)（v14.0.0以上）専用。"
+      },
+      {
+        "row": 16,
+        "rowsha": "HIPlr9/KnBhFTQ8wdxcE83CNzOUWGKMJYVlq2kJZWio=",
+        "originContent": "- Quickly add animated transitions between pages using JavaScript or CSS.",
+        "translatedContent": "- JavaScript または CSS を使ってページ間にアニメーション遷移を素早く追加。"
+      },
+      {
+        "row": 17,
+        "rowsha": "oRlfaq4Z4sPaatxmxGUFDxMpR3Bcg9akHObo8Z3JkAE=",
+        "originContent": "- Integrate seamlessly with [GSAP](https://gsap.com/resources/React/) or any other animation library of your choice (see [minimal GSAP example](#minimal-example-using-gsap)).",
+        "translatedContent": "- [GSAP](https://gsap.com/resources/React/) や任意のアニメーションライブラリとシームレスに統合可能（[最小限のGSAP例](#minimal-example-using-gsap)を参照）。"
+      },
+      {
+        "row": 18,
+        "rowsha": "mcAch+eQcQ5lockZA6lK7Ga58rLVlRNaS/TYIz9theU=",
+        "originContent": "- If JavaScript is disabled, the router's accessibility is not compromised.",
+        "translatedContent": "- JavaScriptが無効でもルーターのアクセシビリティは損なわれません。"
+      },
+      {
+        "row": 19,
+        "rowsha": "S/SXOs7uw30urNwRc6xXyjCdDeOKXFROWeEwKe5mPvo=",
+        "originContent": "- It's really lightweight; the bundle size is less than 8 KB.",
+        "translatedContent": "- 非常に軽量で、バンドルサイズは8KB未満。"
+      },
+      {
+        "row": 20,
+        "rowsha": "zktEr2eHglQ5WQO01Vn7y+W16gKBrp7ET9vMon0Kakc=",
+        "originContent": "- Focused on customizable animations, not targeting the [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).",
+        "translatedContent": "- [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) には対応せず、カスタマイズ可能なアニメーションに注力。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "PmnP3gOGFozKdBCJuRft7LWX8DCeB1Snag6KR5Ol6vs=",
+        "originContent": "If you're looking to use the View Transitions API, check [next-view-transitions](https://github.com/shuding/next-view-transitions).",
+        "translatedContent": "View Transitions API を使いたい場合は、[next-view-transitions](https://github.com/shuding/next-view-transitions) をご覧ください。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 25,
+        "rowsha": "IvrEA4zQAvzh2WUV6um5fLF5tWP1hN8UnK/VHmj6VWI=",
+        "originContent": "> This project is currently in Beta. Please note that the API may change as features are enhanced and refined.",
+        "translatedContent": "> 本プロジェクトは現在ベータ版です。機能の拡張や改良に伴い、APIが変更される可能性がありますのでご注意ください。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "x/kavytLimp95QcXZDCOpP0e7IfkFsqiwVuAKP57ejE=",
+        "originContent": "Install the package using your preferred package manager:",
+        "translatedContent": "お好みのパッケージマネージャーを使ってパッケージをインストールしてください："
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\npnpm add next-transition-router\n```",
+    "ContentSha": "1NCQ+DQ5qF4UwYXKxyFt10blELES/cA9jcrpQNR91kg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npnpm add next-transition-router\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "C4uVrFjXZSysbTtiYIjgQCZGFeUfGdODmuO4DmVbCIk=",
+        "originContent": "pnpm add next-transition-router",
+        "translatedContent": "pnpm add next-transition-router"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\nyarn add next-transition-router\n```",
+    "ContentSha": "KaruQj2Ze4pAIoBnEGewKm74rvl1cvdR/v2lwl9nOCw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nyarn add next-transition-router\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "RlmAquMLIN14NGb1fzXLn5MXF49DSjMiIwj4TI/tPgY=",
+        "originContent": "yarn add next-transition-router",
+        "translatedContent": "yarn add next-transition-router"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\nnpm install next-transition-router\n```",
+    "ContentSha": "qN8vI0C512yNxJSMIpe+S6fZ6CgIVGmN4qQv2vRh4/E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nnpm install next-transition-router\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "YTznxmuWVjPikQvIAiElyNprTa/VZ4tT7x3ZzT5GScQ=",
+        "originContent": "npm install next-transition-router",
+        "translatedContent": "npm install next-transition-router"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh\nbun add next-transition-router\n```",
+    "ContentSha": "shaL9fSHuxEnY1qKTAQpE4JhmJrVZtm23xlFDRbEXLc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nbun add next-transition-router\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Rw8UpQ8kYYRaFItaj+FNmqcgLenD+aV4HnqiIdN1GpM=",
+        "originContent": "bun add next-transition-router",
+        "translatedContent": "bun add next-transition-router"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Usage\n\n### `TransitionRouter`\n\nCreate a client component (e.g.: `app/providers.tsx`) to use the `TransitionRouter` provider:\n",
+    "ContentSha": "zt1a12xCvowuSXVp1I9vZMhjd3n1GDl2JUpY4JWpSWw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用法\n\n### `TransitionRouter`\n\n`TransitionRouter` プロバイダーを使用するためにクライアントコンポーネント（例：`app/providers.tsx`）を作成します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "a+z2r9Vo1cUNwX9g5roMhV+vmM7ayuLHwv+xsOcStjE=",
+        "originContent": "### `TransitionRouter`",
+        "translatedContent": "### `TransitionRouter`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "idemHZ7ybNaatR3fPkBz6NoHw3OjIQjpLA18ZxpM0sU=",
+        "originContent": "Create a client component (e.g.: `app/providers.tsx`) to use the `TransitionRouter` provider:",
+        "translatedContent": "`TransitionRouter` プロバイダーを使用するためにクライアントコンポーネント（例：`app/providers.tsx`）を作成します："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```tsx\n\"use client\";\n\nimport { TransitionRouter } from \"next-transition-router\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <TransitionRouter\n      leave={(next) => {\n        someAnimation().then(next);\n      }}\n      enter={(next) => {\n        anotherAnimation().then(next);\n      }}\n    >\n      {children}\n    </TransitionRouter>\n  );\n}\n```",
+    "ContentSha": "a42PenJJP8+m/iKLqurbZzWtXpHGht19NxIdpV8YFJk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n\"use client\";\n\nimport { TransitionRouter } from \"next-transition-router\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <TransitionRouter\n      leave={(next) => {\n        someAnimation().then(next);\n      }}\n      enter={(next) => {\n        anotherAnimation().then(next);\n      }}\n    >\n      {children}\n    </TransitionRouter>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "adGHmYqJhgYXY1UyUd8GqsgLOzUmtrZEhApmnEilY1c=",
+        "originContent": "import { TransitionRouter } from \"next-transition-router\";",
+        "translatedContent": "import { TransitionRouter } from \"next-transition-router\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SeX/X0Oic1z2jzFbYga40apAtZBCje/6+VKgq2uMldc=",
+        "originContent": "export function Providers({ children }: { children: React.ReactNode }) {",
+        "translatedContent": "export function Providers({ children }: { children: React.ReactNode }) {"
+      },
+      {
+        "row": 7,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 8,
+        "rowsha": "AF6C283aFmPSs/VOMKdSTnBuTJfC8OZTE+nVIMZAx1g=",
+        "originContent": "    <TransitionRouter",
+        "translatedContent": "    <TransitionRouter"
+      },
+      {
+        "row": 9,
+        "rowsha": "8OKWXsta67zv19fwf9QPOQXTktvB5By4K1rl7TZAgPY=",
+        "originContent": "      leave={(next) => {",
+        "translatedContent": "      leave={(next) => {"
+      },
+      {
+        "row": 10,
+        "rowsha": "qVhHOG/j8MFFmqoxKQPhr/3Z9KtE5vU6KpEy+7NRzwA=",
+        "originContent": "        someAnimation().then(next);",
+        "translatedContent": "        someAnimation().then(next);"
+      },
+      {
+        "row": 11,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 12,
+        "rowsha": "uvGoMzN0Fg1HvBIAalkajuhH8Kt/7uMJnfZboaO/bVU=",
+        "originContent": "      enter={(next) => {",
+        "translatedContent": "      enter={(next) => {"
+      },
+      {
+        "row": 13,
+        "rowsha": "zbSlaOcjIk5bLddZLp0z99sXHyeIH1DE7qhEtEYMMmo=",
+        "originContent": "        anotherAnimation().then(next);",
+        "translatedContent": "        anotherAnimation().then(next);"
+      },
+      {
+        "row": 14,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 15,
+        "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+        "originContent": "    >",
+        "translatedContent": "    >"
+      },
+      {
+        "row": 16,
+        "rowsha": "9S9ZAy5NWcVqS+Z0AAb/OBkQGss8NnFEEUpY36I1UZU=",
+        "originContent": "      {children}",
+        "translatedContent": "      {children}"
+      },
+      {
+        "row": 17,
+        "rowsha": "Elx6u1weODRE7Wh+zR/kfxPgdAOPTW6J9DZnJVmK1mI=",
+        "originContent": "    </TransitionRouter>",
+        "translatedContent": "    </TransitionRouter>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n> [!NOTE]\n> It should be a client component because you have to pass DOM functions as props to the provider.\n\nAfter that, you should import that component in the layout component (e.g.: `app/layout.tsx`).\n\n#### Async Callbacks\n\nThe `leave` and `enter` callbacks support async functions.\n",
+    "ContentSha": "9TY7F89wWByAY4BP5LquQSiEjXnboukbttEAqdvMjvA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!注意]\n> プロバイダーにDOM関数をpropsとして渡す必要があるため、クライアントコンポーネントである必要があります。\n\nその後、そのコンポーネントをレイアウトコンポーネント（例：`app/layout.tsx`）にインポートしてください。\n\n#### 非同期コールバック\n\n`leave` と `enter` のコールバックは非同期関数をサポートしています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!注意]"
+      },
+      {
+        "row": 3,
+        "rowsha": "vxjVadaLd+AqCRch7jb+fSZWtE18nVzUEDcB8Dpra0s=",
+        "originContent": "> It should be a client component because you have to pass DOM functions as props to the provider.",
+        "translatedContent": "> プロバイダーにDOM関数をpropsとして渡す必要があるため、クライアントコンポーネントである必要があります。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "AgW0Qx0pFslk0tS0goZKVjIOcF+4X4mYSnEvXqulK+M=",
+        "originContent": "After that, you should import that component in the layout component (e.g.: `app/layout.tsx`).",
+        "translatedContent": "その後、そのコンポーネントをレイアウトコンポーネント（例：`app/layout.tsx`）にインポートしてください。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0TiL7q25RL1TQ9VpWh3uADFRzCz4+kZnN7yZ2aWoq1o=",
+        "originContent": "#### Async Callbacks",
+        "translatedContent": "#### 非同期コールバック"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "zX19H0FAb3tmo3J9G9ptn/RdMPG/Qhtld30gnRU6fO4=",
+        "originContent": "The `leave` and `enter` callbacks support async functions.",
+        "translatedContent": "`leave` と `enter` のコールバックは非同期関数をサポートしています。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```tsx\n\"use client\";\n\nimport { TransitionRouter } from \"next-transition-router\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <TransitionRouter\n      leave={async (next) => {\n        await someAsyncAnimation();\n        next();\n      }}\n      enter={async (next) => {\n        await anotherAsyncAnimation();\n        next();\n      }}\n    >\n      {children}\n    </TransitionRouter>\n  );\n}\n```",
+    "ContentSha": "6lMm2n/BMfGlk8rkz5qHA4Jj5n6/ipBXqae1q22q7L4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n\"use client\";\n\nimport { TransitionRouter } from \"next-transition-router\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <TransitionRouter\n      leave={async (next) => {\n        await someAsyncAnimation();\n        next();\n      }}\n      enter={async (next) => {\n        await anotherAsyncAnimation();\n        next();\n      }}\n    >\n      {children}\n    </TransitionRouter>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "adGHmYqJhgYXY1UyUd8GqsgLOzUmtrZEhApmnEilY1c=",
+        "originContent": "import { TransitionRouter } from \"next-transition-router\";",
+        "translatedContent": "import { TransitionRouter } from \"next-transition-router\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SeX/X0Oic1z2jzFbYga40apAtZBCje/6+VKgq2uMldc=",
+        "originContent": "export function Providers({ children }: { children: React.ReactNode }) {",
+        "translatedContent": "export function Providers({ children }: { children: React.ReactNode }) {"
+      },
+      {
+        "row": 7,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 8,
+        "rowsha": "AF6C283aFmPSs/VOMKdSTnBuTJfC8OZTE+nVIMZAx1g=",
+        "originContent": "    <TransitionRouter",
+        "translatedContent": "    <TransitionRouter"
+      },
+      {
+        "row": 9,
+        "rowsha": "WSLLbfA9CZgSBA1zMAUq3p4WT7WX0PK11fikEvm3IiA=",
+        "originContent": "      leave={async (next) => {",
+        "translatedContent": "      leave={async (next) => {"
+      },
+      {
+        "row": 10,
+        "rowsha": "enyW8vpjlmmP/MJUISSus527YS0KZnlM6uT/9lYQ4Rw=",
+        "originContent": "        await someAsyncAnimation();",
+        "translatedContent": "        await someAsyncAnimation();"
+      },
+      {
+        "row": 11,
+        "rowsha": "PFQz7uWRr0Q0C2Bsx7L5oDxRIyJlp/MKnVUJRdwoLzc=",
+        "originContent": "        next();",
+        "translatedContent": "        next();"
+      },
+      {
+        "row": 12,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 13,
+        "rowsha": "1OBCZ9jEZS8XKrCVwzAlcKN1Azp1ta2vbieMvcNkqFk=",
+        "originContent": "      enter={async (next) => {",
+        "translatedContent": "      enter={async (next) => {"
+      },
+      {
+        "row": 14,
+        "rowsha": "fVosA0bH1NrkfiyVc2iVk6hgEaG0fa6aceSQVVFF23w=",
+        "originContent": "        await anotherAsyncAnimation();",
+        "translatedContent": "        await anotherAsyncAnimation();"
+      },
+      {
+        "row": 15,
+        "rowsha": "PFQz7uWRr0Q0C2Bsx7L5oDxRIyJlp/MKnVUJRdwoLzc=",
+        "originContent": "        next();",
+        "translatedContent": "        next();"
+      },
+      {
+        "row": 16,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 17,
+        "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+        "originContent": "    >",
+        "translatedContent": "    >"
+      },
+      {
+        "row": 18,
+        "rowsha": "9S9ZAy5NWcVqS+Z0AAb/OBkQGss8NnFEEUpY36I1UZU=",
+        "originContent": "      {children}",
+        "translatedContent": "      {children}"
+      },
+      {
+        "row": 19,
+        "rowsha": "Elx6u1weODRE7Wh+zR/kfxPgdAOPTW6J9DZnJVmK1mI=",
+        "originContent": "    </TransitionRouter>",
+        "translatedContent": "    </TransitionRouter>"
+      },
+      {
+        "row": 20,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n#### `from` and `to` parameters for `leave` callback\n\nThe `leave` callback receives the `from` and `to` parameters, which are strings with the previous and next page paths. Useful if you want to animate the transition conditionally based on the page.\n",
+    "ContentSha": "ory4KpadUtzbqYfqQAfCUqF0UvKfFmn0Msv0yZp4rJA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### `leave` コールバックの `from` と `to` パラメータ\n\n`leave` コールバックは `from` と `to` パラメータを受け取ります。これらは前のページと次のページのパスを表す文字列です。ページに基づいて条件付きでトランジションをアニメーションさせたい場合に便利です。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8nRDsD/Y82/r/Y93N/9LQKrZ1YQs3sCqfs5XaM+J2fA=",
+        "originContent": "#### `from` and `to` parameters for `leave` callback",
+        "translatedContent": "#### `leave` コールバックの `from` と `to` パラメータ"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pgBDKxiA4rA2JnyDjnG6qslbQ6o1tMaSVvjFwXWDhMc=",
+        "originContent": "The `leave` callback receives the `from` and `to` parameters, which are strings with the previous and next page paths. Useful if you want to animate the transition conditionally based on the page.",
+        "translatedContent": "`leave` コールバックは `from` と `to` パラメータを受け取ります。これらは前のページと次のページのパスを表す文字列です。ページに基づいて条件付きでトランジションをアニメーションさせたい場合に便利です。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```tsx\nconst onLeave = (next, from, to) => {\n  someAnimation(from, to).then(next);\n};\n```",
+    "ContentSha": "S5NTlI08zh13rSkk1BWZzVkDk+8nxTdknOvw+5+/Apo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\nconst onLeave = (next, from, to) => {\n  someAnimation(from, to).then(next);\n};\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "4dc/waJnceoaZ8H9V5Q18odgXzFkkYZku8idktkCmrI=",
+        "originContent": "const onLeave = (next, from, to) => {",
+        "translatedContent": "const onLeave = (next, from, to) => {"
+      },
+      {
+        "row": 3,
+        "rowsha": "XEKd1JjSkD8aR7Hdt5vXHpzgFL12NLWqqayDbtcS/CU=",
+        "originContent": "  someAnimation(from, to).then(next);",
+        "translatedContent": "  someAnimation(from, to).then(next);"
+      },
+      {
+        "row": 4,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n> [!NOTE]\n> When using `router.back()` method, the `to` parameter will be undefined. See [programmatic navigation](#programmatic-navigation).\n\n### Handling links (custom `Link` component vs auto-detection)\n\nTo determine how to handle links, `TransitionRouter` can receive an `auto` prop (`boolean`).\n\n#### `auto` disabled (default)\n\nUse the custom `Link` component instead of the native [`Link` component from Next.js](https://nextjs.org/docs/app/api-reference/components/link) to trigger transitions.\n",
+    "ContentSha": "+VW8+rjH8ErPeme/IS667BfowLqm2Ol5a7PpJyK4OVo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!注意]\n> `router.back()` メソッドを使用する場合、`to` パラメータは未定義になります。[プログラムによるナビゲーション](#programmatic-navigation)を参照してください。\n\n### リンクの扱い（カスタム `Link` コンポーネント vs 自動検出）\n\nリンクの扱いを決定するために、`TransitionRouter` は `auto` プロパティ（`boolean`）を受け取ることができます。\n\n#### `auto` 無効（デフォルト）\n\nトランジションをトリガーするために、ネイティブの [Next.js の `Link` コンポーネント](https://nextjs.org/docs/app/api-reference/components/link) の代わりにカスタム `Link` コンポーネントを使用します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!注意]"
+      },
+      {
+        "row": 3,
+        "rowsha": "dEwr5kBRsLI4qYwzggfHwRrvMzAjGiklv/s61HIJPAs=",
+        "originContent": "> When using `router.back()` method, the `to` parameter will be undefined. See [programmatic navigation](#programmatic-navigation).",
+        "translatedContent": "> `router.back()` メソッドを使用する場合、`to` パラメータは未定義になります。[プログラムによるナビゲーション](#programmatic-navigation)を参照してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Rco/OhOJt2lkoLx9zoFoBT7gn4ylg/fFCmGaqZIr1h8=",
+        "originContent": "### Handling links (custom `Link` component vs auto-detection)",
+        "translatedContent": "### リンクの扱い（カスタム `Link` コンポーネント vs 自動検出）"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "fLDC4NqSyg3ZcnyzUDG+lnLL5VK994cpyi7jCKz1u18=",
+        "originContent": "To determine how to handle links, `TransitionRouter` can receive an `auto` prop (`boolean`).",
+        "translatedContent": "リンクの扱いを決定するために、`TransitionRouter` は `auto` プロパティ（`boolean`）を受け取ることができます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ss1HVcY0nI6UZi5owtU2iKy+0n004O7WtNbC/vyvCqk=",
+        "originContent": "#### `auto` disabled (default)",
+        "translatedContent": "#### `auto` 無効（デフォルト）"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "bqkxY3w8jWGJjB9e7M9yS6V6bDjk5qC0nb1+ZLcVBAE=",
+        "originContent": "Use the custom `Link` component instead of the native [`Link` component from Next.js](https://nextjs.org/docs/app/api-reference/components/link) to trigger transitions.",
+        "translatedContent": "トランジションをトリガーするために、ネイティブの [Next.js の `Link` コンポーネント](https://nextjs.org/docs/app/api-reference/components/link) の代わりにカスタム `Link` コンポーネントを使用します。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```tsx\nimport { Link } from \"next-transition-router\";\n\nexport function Example() {\n  return <Link href=\"/about\">About</Link>;\n}\n```",
+    "ContentSha": "/elYQhASODTeLqxwg468U6hpitJGcH0xvnlMHhipeo4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\nimport { Link } from \"next-transition-router\";\n\nexport function Example() {\n  return <Link href=\"/about\">About</Link>;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "ElHvlqxMWRYORtqGTXC5HEAKCpq5Ckh3zNNLV93pFoo=",
+        "originContent": "import { Link } from \"next-transition-router\";",
+        "translatedContent": "import { Link } from \"next-transition-router\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qXpx+lCqj8Q9yOBB5hs5hJImxBcxJLdY9/lBPzbSCFA=",
+        "originContent": "export function Example() {",
+        "translatedContent": "export function Example() {"
+      },
+      {
+        "row": 5,
+        "rowsha": "M90Mw7ZKwvoljc3DRauQL2+X8czEUNFucjnGnfCs9o8=",
+        "originContent": "  return <Link href=\"/about\">About</Link>;",
+        "translatedContent": "  return <Link href=\"/about\">About</Link>;"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n> [!TIP]\n> Use `import { Link as TransitionLink } from \"next-transition-router\"` to avoid naming conflicts.\n\n#### `auto` enabled\n\nWhen `auto` is enabled, the `TransitionRouter` intercepts click events on internal links, except anchor links, and triggers page transitions. In this case you don't need to use the custom `Link` component.\n\nTo ignore a link in this mode, simply add the `data-transition-ignore` attribute to the link.\n\n### Programmatic navigation\n\nUse the `useTransitionRouter` hook to manage navigation (`push`, `replace`, `back`).\n\nIt's similar to [Next.js `useRouter`](https://nextjs.org/docs/app/api-reference/functions/use-router) with added transition support.\n",
+    "ContentSha": "TUgmpO7hNSuGbbimWwTLDYwS0xAJXrTSmr66crwKnG0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!TIP]\n> 名前の競合を避けるために、`import { Link as TransitionLink } from \"next-transition-router\"` を使用してください。\n\n#### `auto` 有効時\n\n`auto` が有効な場合、`TransitionRouter` は内部リンク（アンカーリンクを除く）のクリックイベントをインターセプトし、ページ遷移をトリガーします。この場合、カスタムの `Link` コンポーネントを使用する必要はありません。\n\nこのモードでリンクを無視するには、単にリンクに `data-transition-ignore` 属性を追加してください。\n\n### プログラム的なナビゲーション\n\nナビゲーション（`push`、`replace`、`back`）を管理するには、`useTransitionRouter` フックを使用します。\n\nこれは、トランジションサポートを追加した [Next.js の `useRouter`](https://nextjs.org/docs/app/api-reference/functions/use-router) に似ています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 3,
+        "rowsha": "2hVnZqOyRTEdbnf8S9Py23mAR9H4NK6rY19b8GUSgDA=",
+        "originContent": "> Use `import { Link as TransitionLink } from \"next-transition-router\"` to avoid naming conflicts.",
+        "translatedContent": "> 名前の競合を避けるために、`import { Link as TransitionLink } from \"next-transition-router\"` を使用してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "13bYgmaDVLEzUsE4j6y2zALBygyky9/yQHhMKeP/4FQ=",
+        "originContent": "#### `auto` enabled",
+        "translatedContent": "#### `auto` 有効時"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "CqA55JQD0LkjffANpNsLgY9q839l+6RypEl0U+uNoLY=",
+        "originContent": "When `auto` is enabled, the `TransitionRouter` intercepts click events on internal links, except anchor links, and triggers page transitions. In this case you don't need to use the custom `Link` component.",
+        "translatedContent": "`auto` が有効な場合、`TransitionRouter` は内部リンク（アンカーリンクを除く）のクリックイベントをインターセプトし、ページ遷移をトリガーします。この場合、カスタムの `Link` コンポーネントを使用する必要はありません。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TyfFlCiTul9oo/r3znLBg+I/WKP6oDJtNIvuqGAtTts=",
+        "originContent": "To ignore a link in this mode, simply add the `data-transition-ignore` attribute to the link.",
+        "translatedContent": "このモードでリンクを無視するには、単にリンクに `data-transition-ignore` 属性を追加してください。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dM8SSZkO8C+zFJrF+1FEJlnKzAGAyveQDwMmTnSboqo=",
+        "originContent": "### Programmatic navigation",
+        "translatedContent": "### プログラム的なナビゲーション"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "TcTaDx9xttwBa/N9ALhwyw+5J5OCY3+zMojErE4v71U=",
+        "originContent": "Use the `useTransitionRouter` hook to manage navigation (`push`, `replace`, `back`).",
+        "translatedContent": "ナビゲーション（`push`、`replace`、`back`）を管理するには、`useTransitionRouter` フックを使用します。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "PpijYNib0gTYj0So5nt9LLBGX+Mbk8I7315Kxe3AXc8=",
+        "originContent": "It's similar to [Next.js `useRouter`](https://nextjs.org/docs/app/api-reference/functions/use-router) with added transition support.",
+        "translatedContent": "これは、トランジションサポートを追加した [Next.js の `useRouter`](https://nextjs.org/docs/app/api-reference/functions/use-router) に似ています。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```tsx\n\"use client\";\n\nimport { useTransitionRouter } from \"next-transition-router\";\n\nexport function Programmatic() {\n  const router = useTransitionRouter();\n\n  return (\n    <button\n      onClick={() => {\n        alert(\"Do something before navigating away\");\n        router.push(\"/about\");\n      }}\n    >\n      Go to /about\n    </button>\n  );\n}\n```",
+    "ContentSha": "bF6yhO3dHvhegxlePZNDsNIOVBgqef7Vzr6efvFuHwY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n\"use client\";\n\nimport { useTransitionRouter } from \"next-transition-router\";\n\nexport function Programmatic() {\n  const router = useTransitionRouter();\n\n  return (\n    <button\n      onClick={() => {\n        alert(\"Do something before navigating away\");\n        router.push(\"/about\");\n      }}\n    >\n      Go to /about\n    </button>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "sDJUX12ukCOQ6Fs6txfmS16ZymZW3o/aJnnG0GUIbhQ=",
+        "originContent": "import { useTransitionRouter } from \"next-transition-router\";",
+        "translatedContent": "import { useTransitionRouter } from \"next-transition-router\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "doEaKbMNYQUJn4fzYIIF6OYC66cdLGTdghSmW6kAr80=",
+        "originContent": "export function Programmatic() {",
+        "translatedContent": "export function Programmatic() {"
+      },
+      {
+        "row": 7,
+        "rowsha": "iSTIcE/tl+DXMdcNV3p/IV/GwQjpWN9b+MhskEmveTM=",
+        "originContent": "  const router = useTransitionRouter();",
+        "translatedContent": "  const router = useTransitionRouter();"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 10,
+        "rowsha": "5shJLL6kWbt/IAuOY4VM7PBT2FxbqGtTBkohHprY/+8=",
+        "originContent": "    <button",
+        "translatedContent": "    <button"
+      },
+      {
+        "row": 11,
+        "rowsha": "IJyZofvcGhtGw3lh71yUC9+kJ2vw3wSnAjGC5Lp9ZAw=",
+        "originContent": "      onClick={() => {",
+        "translatedContent": "      onClick={() => {"
+      },
+      {
+        "row": 12,
+        "rowsha": "vx2zA1G6PsfJf1V6zsLy4LrlZKA4GS+pSqIINpal/84=",
+        "originContent": "        alert(\"Do something before navigating away\");",
+        "translatedContent": "        alert(\"Do something before navigating away\");"
+      },
+      {
+        "row": 13,
+        "rowsha": "ipGwz9nGG7UGAC4MegImWeMgGd44kaheEFfZwHlIqPE=",
+        "originContent": "        router.push(\"/about\");",
+        "translatedContent": "        router.push(\"/about\");"
+      },
+      {
+        "row": 14,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 15,
+        "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+        "originContent": "    >",
+        "translatedContent": "    >"
+      },
+      {
+        "row": 16,
+        "rowsha": "uYuOqCIyKFLLampqoEm8so4M3NTgFTwRD6J2t+W7z1Q=",
+        "originContent": "      Go to /about",
+        "translatedContent": "      Go to /about"
+      },
+      {
+        "row": 17,
+        "rowsha": "J8lYEinZz1yCTZUcgUcUina5Rn0bIH6tgCg9AeTSvts=",
+        "originContent": "    </button>",
+        "translatedContent": "    </button>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n> [!IMPORTANT]\n> Back and Forward browser navigation doesn't trigger page transitions, and [this is intentional](https://github.com/ismamz/next-transition-router/issues/2).\n\n### Transition state\n\nUse the `useTransitionState` hook to determine the current stage of the transition.\n\nPossible `stage` values: `'entering' | 'leaving' | 'none'`.\n\nAditionally, you have the `isReady` state (`boolean`).\n",
+    "ContentSha": "8VTorQK19JL2/9YcHDAyGVNq4Gh5IfqYP3EYLmtlP24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!IMPORTANT]\n> ブラウザの「戻る」および「進む」ナビゲーションはページ遷移をトリガーしません。これは[意図された動作です](https://github.com/ismamz/next-transition-router/issues/2)。\n\n### トランジション状態\n\n`useTransitionState` フックを使って、トランジションの現在の段階を判別します。\n\n可能な `stage` の値： `'entering' | 'leaving' | 'none'`。\n\nさらに、`isReady` ステート（`boolean`）も利用できます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!IMPORTANT]"
+      },
+      {
+        "row": 3,
+        "rowsha": "RBdolk0XSOHiT4oZPf79/GynUmD1VFbtAw29GW07opM=",
+        "originContent": "> Back and Forward browser navigation doesn't trigger page transitions, and [this is intentional](https://github.com/ismamz/next-transition-router/issues/2).",
+        "translatedContent": "> ブラウザの「戻る」および「進む」ナビゲーションはページ遷移をトリガーしません。これは[意図された動作です](https://github.com/ismamz/next-transition-router/issues/2)。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "cQELadXJ6w/zDYOugi2V10/8eOIaBGUAErKrBPgNgvw=",
+        "originContent": "### Transition state",
+        "translatedContent": "### トランジション状態"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "LoK4vxNO6JKMFvtPfuEvWC3d5VryLkUCCiHsnLKfc9w=",
+        "originContent": "Use the `useTransitionState` hook to determine the current stage of the transition.",
+        "translatedContent": "`useTransitionState` フックを使って、トランジションの現在の段階を判別します。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JW5b4lP32uPXz+m/LiwdUNyHVLEC/E92D4fV22mvpq8=",
+        "originContent": "Possible `stage` values: `'entering' | 'leaving' | 'none'`.",
+        "translatedContent": "可能な `stage` の値： `'entering' | 'leaving' | 'none'`。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "kodyuEEj/U1zMYspYmWd1lZWN9pxPhT+K7/OM0bARzo=",
+        "originContent": "Aditionally, you have the `isReady` state (`boolean`).",
+        "translatedContent": "さらに、`isReady` ステート（`boolean`）も利用できます。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```tsx\n\"use client\";\n\nimport { useTransitionState } from \"next-transition-router\";\n\nexport function Example() {\n  const { stage, isReady } = useTransitionState();\n\n  return (\n    <div>\n      <p>Current stage: {stage}</p>\n      <p>Page ready: {isReady ? \"Yes\" : \"No\"}</p>\n    </div>\n  );\n}\n```",
+    "ContentSha": "yrr3NFLMuWtEoZM6Rws8GmKM4XB99EO1FpOkK7bTPPE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n\"use client\";\n\nimport { useTransitionState } from \"next-transition-router\";\n\nexport function Example() {\n  const { stage, isReady } = useTransitionState();\n\n  return (\n    <div>\n      <p>Current stage: {stage}</p>\n      <p>Page ready: {isReady ? \"Yes\" : \"No\"}</p>\n    </div>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IXYYxYsQEXy6sBNFsDX4EryAG666/xE82EVEBaZpmEE=",
+        "originContent": "import { useTransitionState } from \"next-transition-router\";",
+        "translatedContent": "import { useTransitionState } from \"next-transition-router\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qXpx+lCqj8Q9yOBB5hs5hJImxBcxJLdY9/lBPzbSCFA=",
+        "originContent": "export function Example() {",
+        "translatedContent": "export function Example() {"
+      },
+      {
+        "row": 7,
+        "rowsha": "4LVbuPRZujmXhGv/tORhquhZpobu5v4OqGk5P0AzaMs=",
+        "originContent": "  const { stage, isReady } = useTransitionState();",
+        "translatedContent": "  const { stage, isReady } = useTransitionState();"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 10,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 11,
+        "rowsha": "YWWBmoH5Vnmfdb9GEEVU29UIQoBq0xaevt3MEUv8J60=",
+        "originContent": "      <p>Current stage: {stage}</p>",
+        "translatedContent": "      <p>Current stage: {stage}</p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "yDGYRl2Jvr5o23W3qxqE29k3XqvDSLGkMtPCcFKlLLc=",
+        "originContent": "      <p>Page ready: {isReady ? \"Yes\" : \"No\"}</p>",
+        "translatedContent": "      <p>Page ready: {isReady ? \"Yes\" : \"No\"}</p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 15,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n> [!TIP]\n> This is useful, for example, if you want to trigger a reveal animation after the page transition ends.\n\n### Cleanup\n\n`TransitionRouter` manages cleanup functions for `leave` and `enter` callbacks, to prevent memory leaks.\n\nSimilar to React's `useEffect` hook, you can return a cleanup function to cancel the animation.\n\n#### Minimal example using GSAP\n",
+    "ContentSha": "dGEYTuyLTtkOz749+z0RMK37FTQ1m3avv5aK6w5wC2A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!TIP]\n> これは、例えばページ遷移が終了した後にリビールアニメーションをトリガーしたい場合に便利です。\n\n### クリーンアップ\n\n`TransitionRouter` は、メモリリークを防ぐために `leave` と `enter` のコールバックのクリーンアップ関数を管理します。\n\nReact の `useEffect` フックと同様に、アニメーションをキャンセルするためのクリーンアップ関数を返すことができます。\n\n#### GSAP を使った最小限の例\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 3,
+        "rowsha": "Tdv49lizRNfnyAasuT6XzDb9Q+ivol8rvYbFI88RBuM=",
+        "originContent": "> This is useful, for example, if you want to trigger a reveal animation after the page transition ends.",
+        "translatedContent": "> これは、例えばページ遷移が終了した後にリビールアニメーションをトリガーしたい場合に便利です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oQcNDtUDCYJocYSVgjkdDTjIb+ap40WbWUg3JvS0i8Q=",
+        "originContent": "### Cleanup",
+        "translatedContent": "### クリーンアップ"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ssNmbTwGhGrYsyeU9qdvb6EGaBE3esHBowvGcAxsKqc=",
+        "originContent": "`TransitionRouter` manages cleanup functions for `leave` and `enter` callbacks, to prevent memory leaks.",
+        "translatedContent": "`TransitionRouter` は、メモリリークを防ぐために `leave` と `enter` のコールバックのクリーンアップ関数を管理します。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "l4CS0c+m40gVYHbjWaOJcoiVOMpA+/arW3Rvg1V31ck=",
+        "originContent": "Similar to React's `useEffect` hook, you can return a cleanup function to cancel the animation.",
+        "translatedContent": "React の `useEffect` フックと同様に、アニメーションをキャンセルするためのクリーンアップ関数を返すことができます。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yGVL8WsiXqceMNKtSio6iMRwUPxUd8s0gGYDNz4gNEk=",
+        "originContent": "#### Minimal example using GSAP",
+        "translatedContent": "#### GSAP を使った最小限の例"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```tsx\n\"use client\";\n\nimport { gsap } from \"gsap\";\nimport { TransitionRouter } from \"next-transition-router\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <TransitionRouter\n      leave={(next) => {\n        const tween = gsap.fromTo(\"main\", { autoAlpha: 1 }, { autoAlpha: 0, onComplete: next });\n        return () => tween.kill();\n      }}\n      enter={(next) => {\n        const tween = gsap.fromTo(\"main\", { autoAlpha: 0 }, { autoAlpha: 1, onComplete: next });\n        return () => tween.kill();\n      }}\n    >\n      {children}\n    </TransitionRouter>\n  );\n}\n```",
+    "ContentSha": "MKpqmIoklp5r+EOHiSs7llvhflz8NiNgkHxgnB/I+HE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\n\"use client\";\n\nimport { gsap } from \"gsap\";\nimport { TransitionRouter } from \"next-transition-router\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <TransitionRouter\n      leave={(next) => {\n        const tween = gsap.fromTo(\"main\", { autoAlpha: 1 }, { autoAlpha: 0, onComplete: next });\n        return () => tween.kill();\n      }}\n      enter={(next) => {\n        const tween = gsap.fromTo(\"main\", { autoAlpha: 0 }, { autoAlpha: 1, onComplete: next });\n        return () => tween.kill();\n      }}\n    >\n      {children}\n    </TransitionRouter>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+        "originContent": "\"use client\";",
+        "translatedContent": "\"use client\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AzGhUX+k35bvoDBBo8Ww79vf/JCwP+9UjT5OJEcBXbQ=",
+        "originContent": "import { gsap } from \"gsap\";",
+        "translatedContent": "import { gsap } from \"gsap\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "adGHmYqJhgYXY1UyUd8GqsgLOzUmtrZEhApmnEilY1c=",
+        "originContent": "import { TransitionRouter } from \"next-transition-router\";",
+        "translatedContent": "import { TransitionRouter } from \"next-transition-router\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "SeX/X0Oic1z2jzFbYga40apAtZBCje/6+VKgq2uMldc=",
+        "originContent": "export function Providers({ children }: { children: React.ReactNode }) {",
+        "translatedContent": "export function Providers({ children }: { children: React.ReactNode }) {"
+      },
+      {
+        "row": 8,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 9,
+        "rowsha": "AF6C283aFmPSs/VOMKdSTnBuTJfC8OZTE+nVIMZAx1g=",
+        "originContent": "    <TransitionRouter",
+        "translatedContent": "    <TransitionRouter"
+      },
+      {
+        "row": 10,
+        "rowsha": "8OKWXsta67zv19fwf9QPOQXTktvB5By4K1rl7TZAgPY=",
+        "originContent": "      leave={(next) => {",
+        "translatedContent": "      leave={(next) => {"
+      },
+      {
+        "row": 11,
+        "rowsha": "93CoQH20AIiQXfAVDApq/cUDO5KkLE98KYzEWA4+zLU=",
+        "originContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 1 }, { autoAlpha: 0, onComplete: next });",
+        "translatedContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 1 }, { autoAlpha: 0, onComplete: next });"
+      },
+      {
+        "row": 12,
+        "rowsha": "l52dh06mfBl6XgqftCkXn/C2KxiWPjQflLGCt7USdlk=",
+        "originContent": "        return () => tween.kill();",
+        "translatedContent": "        return () => tween.kill();"
+      },
+      {
+        "row": 13,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 14,
+        "rowsha": "uvGoMzN0Fg1HvBIAalkajuhH8Kt/7uMJnfZboaO/bVU=",
+        "originContent": "      enter={(next) => {",
+        "translatedContent": "      enter={(next) => {"
+      },
+      {
+        "row": 15,
+        "rowsha": "nrsliMxnFHgYbMgAkItxdF8mCZ+H+QRHhVX4wA9bXmA=",
+        "originContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 0 }, { autoAlpha: 1, onComplete: next });",
+        "translatedContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 0 }, { autoAlpha: 1, onComplete: next });"
+      },
+      {
+        "row": 16,
+        "rowsha": "l52dh06mfBl6XgqftCkXn/C2KxiWPjQflLGCt7USdlk=",
+        "originContent": "        return () => tween.kill();",
+        "translatedContent": "        return () => tween.kill();"
+      },
+      {
+        "row": 17,
+        "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+        "originContent": "      }}",
+        "translatedContent": "      }}"
+      },
+      {
+        "row": 18,
+        "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+        "originContent": "    >",
+        "translatedContent": "    >"
+      },
+      {
+        "row": 19,
+        "rowsha": "9S9ZAy5NWcVqS+Z0AAb/OBkQGss8NnFEEUpY36I1UZU=",
+        "originContent": "      {children}",
+        "translatedContent": "      {children}"
+      },
+      {
+        "row": 20,
+        "rowsha": "Elx6u1weODRE7Wh+zR/kfxPgdAOPTW6J9DZnJVmK1mI=",
+        "originContent": "    </TransitionRouter>",
+        "translatedContent": "    </TransitionRouter>"
+      },
+      {
+        "row": 21,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 22,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n## Performance Optimization\n\nWhen overlapping exit animations with page loading (common for smooth transitions), React rendering can cause animation jank. Use `requestAnimationFrame` and `startTransition` to prioritize animation performance:\n",
+    "ContentSha": "cKAf0WfFMTLhExLDYOLczL8jz4quT7DEQul8iFCjOQQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## パフォーマンス最適化\n\nページ読み込みと重なる退出アニメーション（スムーズな遷移のために一般的）では、Reactのレンダリングがアニメーションのカクつきを引き起こすことがあります。`requestAnimationFrame`と`startTransition`を使用してアニメーションのパフォーマンスを優先しましょう：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ujwkRYGYkaELkaHCgW47JAUWsX7M2flA7BAPTBYvVZM=",
+        "originContent": "## Performance Optimization",
+        "translatedContent": "## パフォーマンス最適化"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OlX2bzIGWSDHGW/sfaEq1Cl+SAlhGADvWF5LUjk5ZtY=",
+        "originContent": "When overlapping exit animations with page loading (common for smooth transitions), React rendering can cause animation jank. Use `requestAnimationFrame` and `startTransition` to prioritize animation performance:",
+        "translatedContent": "ページ読み込みと重なる退出アニメーション（スムーズな遷移のために一般的）では、Reactのレンダリングがアニメーションのカクつきを引き起こすことがあります。`requestAnimationFrame`と`startTransition`を使用してアニメーションのパフォーマンスを優先しましょう："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```tsx\nimport { startTransition } from \"react\";\n\nenter={(next) => {\n  const tl = gsap.timeline()\n    .to(\".overlay\", { y: \"-100%\", duration: 0.5 })\n    .call(() => {\n      requestAnimationFrame(() => startTransition(next));\n    }, undefined, \"<50%\"); // Overlap timing preserved\n    \n  return () => tl.kill();\n}}\n```",
+    "ContentSha": "yMgi5GDRHLW3hIsotcPqDSw49hB+XEIb1U0bCFHbZVA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\nimport { startTransition } from \"react\";\n\nenter={(next) => {\n  const tl = gsap.timeline()\n    .to(\".overlay\", { y: \"-100%\", duration: 0.5 })\n    .call(() => {\n      requestAnimationFrame(() => startTransition(next));\n    }, undefined, \"<50%\"); // Overlap timing preserved\n    \n  return () => tl.kill();\n}}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "z9uAlB1ObvrUwI+GKPisvZxKogTD8R+qxMp1VYCMU7c=",
+        "originContent": "import { startTransition } from \"react\";",
+        "translatedContent": "import { startTransition } from \"react\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "6RlRMkoSuQFpdOJ498JKkYC+p6eZH6HHArsZm4INuMQ=",
+        "originContent": "enter={(next) => {",
+        "translatedContent": "enter={(next) => {"
+      },
+      {
+        "row": 5,
+        "rowsha": "2OIp05XHCwdiqpfQPWqe/EpBlY1HrfvrcBApnWp6+5s=",
+        "originContent": "  const tl = gsap.timeline()",
+        "translatedContent": "  const tl = gsap.timeline()"
+      },
+      {
+        "row": 6,
+        "rowsha": "jf2kSBuVN7YCrhMq9oZ0HhS6mkIoIQraIjpdOqr0kpk=",
+        "originContent": "    .to(\".overlay\", { y: \"-100%\", duration: 0.5 })",
+        "translatedContent": "    .to(\".overlay\", { y: \"-100%\", duration: 0.5 })"
+      },
+      {
+        "row": 7,
+        "rowsha": "b/a5mYDXwSOqKmlH12EBFUBnQBIXR2oEE86N2IhJGuM=",
+        "originContent": "    .call(() => {",
+        "translatedContent": "    .call(() => {"
+      },
+      {
+        "row": 8,
+        "rowsha": "NbP1msM3sTY/7A5ccEmEIU7jl5BGZEGKxtUCIiU5keg=",
+        "originContent": "      requestAnimationFrame(() => startTransition(next));",
+        "translatedContent": "      requestAnimationFrame(() => startTransition(next));"
+      },
+      {
+        "row": 9,
+        "rowsha": "E/zsgVuhzgNzuh6JpPzdgq/t4PoKlwa6k3PY23qYuIY=",
+        "originContent": "    }, undefined, \"<50%\"); // Overlap timing preserved",
+        "translatedContent": "    }, undefined, \"<50%\"); // Overlap timing preserved"
+      },
+      {
+        "row": 10,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 11,
+        "rowsha": "kSBGhAV/FmMgGpfs5060aWh7IVG1nLmV7jLLAW6Oh4E=",
+        "originContent": "  return () => tl.kill();",
+        "translatedContent": "  return () => tl.kill();"
+      },
+      {
+        "row": 12,
+        "rowsha": "L4bjmw/ivmnfnO6L60TliT/A2L23lj9iHOehBTz13KE=",
+        "originContent": "}}",
+        "translatedContent": "}}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nThis prevents React updates from interfering with your animation timeline while maintaining visual timing.\n\n## API\n\n### `TransitionRouter`\n\n| Prop       | Type       | Default Value    | Description                                       |\n| ---------- | ---------- | ---------------- | ------------------------------------------------- |\n| `leave`    | `function` | `next => next()` | Function to handle the leaving animation          |\n| `enter`    | `function` | `next => next()` | Function to handle the entering animation         |\n| `auto`     | `boolean`  | `false`          | Flag to enable/disable auto-detection of links    |\n\n### `useTransitionState`\n\n| Property  | Type                                | Description                                        |\n|-----------|-------------------------------------|----------------------------------------------------|\n| `stage`   | `'entering' \\| 'leaving' \\| 'none'` | Indicates the current stage of the transition.     |\n| `isReady` | `boolean`                           | Indicates if the new page is ready to be animated. |\n\n## Disclaimer\n\nThis package may not cover every use case. If you require a specific scenario, please [open an issue](https://github.com/ismamz/next-transition-router/issues/new/choose), and we can explore the possibility of extending the functionality.\n\n## License\n\nMIT.",
+    "ContentSha": "2Pr0ozZa1nXr5r2bW6oDH7/f6gqwt1/1CkRgq+d54Ks=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "これは、Reactの更新がアニメーションタイムラインに干渉するのを防ぎつつ、視覚的なタイミングを維持します。\n\n## API\n\n### `TransitionRouter`\n\n| Prop       | Type       | Default Value    | Description                                       |\n| ---------- | ---------- | ---------------- | ------------------------------------------------- |\n| `leave`    | `function` | `next => next()` | 離脱アニメーションを処理する関数                    |\n| `enter`    | `function` | `next => next()` | 進入アニメーションを処理する関数                    |\n| `auto`     | `boolean`  | `false`          | リンクの自動検出を有効／無効にするフラグ              |\n\n### `useTransitionState`\n\n| Property  | Type                                | Description                                        |\n|-----------|-------------------------------------|----------------------------------------------------|\n| `stage`   | `'entering' \\| 'leaving' \\| 'none'` | トランジションの現在のステージを示します。           |\n| `isReady` | `boolean`                           | 新しいページがアニメーションの準備ができているかを示します。 |\n\n## 免責事項\n\nこのパッケージはすべてのユースケースをカバーしているわけではありません。特定のシナリオが必要な場合は、[issueを開いて](https://github.com/ismamz/next-transition-router/issues/new/choose)いただければ、機能拡張の可能性を検討します。\n\n## ライセンス\n\nMIT。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これは、Reactの更新がアニメーションタイムラインに干渉するのを防ぎつつ、視覚的なタイミングを維持します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "zHmm2j9eGLEUAOU9sS3cH3/NHz7G+yiX/bQhyqDC21g=",
+        "originContent": "This prevents React updates from interfering with your animation timeline while maintaining visual timing.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## API"
+      },
+      {
+        "row": 4,
+        "rowsha": "QMr2bE3lbka3JIXEet/0kWxLx+Vj7Nn3J46dyvktHK0=",
+        "originContent": "## API",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `TransitionRouter`"
+      },
+      {
+        "row": 6,
+        "rowsha": "a+z2r9Vo1cUNwX9g5roMhV+vmM7ayuLHwv+xsOcStjE=",
+        "originContent": "### `TransitionRouter`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Prop       | Type       | Default Value    | Description                                       |"
+      },
+      {
+        "row": 8,
+        "rowsha": "7gioIDoQ2AfMsHwB33zC6LFvvWhjzmECdpCv8aHHbJg=",
+        "originContent": "| Prop       | Type       | Default Value    | Description                                       |",
+        "translatedContent": "| ---------- | ---------- | ---------------- | ------------------------------------------------- |"
+      },
+      {
+        "row": 9,
+        "rowsha": "9fnrGWVB0XDZzA3rQjdoBfDEPn4kiCZm8xfZdiM3jIQ=",
+        "originContent": "| ---------- | ---------- | ---------------- | ------------------------------------------------- |",
+        "translatedContent": "| `leave`    | `function` | `next => next()` | 離脱アニメーションを処理する関数                    |"
+      },
+      {
+        "row": 10,
+        "rowsha": "avOpSdOdbDA/c30Bu5vuPefs0Inn8cWXb6VIc3U+3Zk=",
+        "originContent": "| `leave`    | `function` | `next => next()` | Function to handle the leaving animation          |",
+        "translatedContent": "| `enter`    | `function` | `next => next()` | 進入アニメーションを処理する関数                    |"
+      },
+      {
+        "row": 11,
+        "rowsha": "Y05tVb3cfM1LqsiJh8OgYR6zhNXeBILOm0MKy6Tx9BI=",
+        "originContent": "| `enter`    | `function` | `next => next()` | Function to handle the entering animation         |",
+        "translatedContent": "| `auto`     | `boolean`  | `false`          | リンクの自動検出を有効／無効にするフラグ              |"
+      },
+      {
+        "row": 12,
+        "rowsha": "T7KmEecYYwJMcdvhUnuvYZbq/jTmlX9sCxSSSofASGU=",
+        "originContent": "| `auto`     | `boolean`  | `false`          | Flag to enable/disable auto-detection of links    |",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `useTransitionState`"
+      },
+      {
+        "row": 14,
+        "rowsha": "RCFgbD7r75bCdcm8Li9BF1pHy2OEs5ewH9M9xSkNKEA=",
+        "originContent": "### `useTransitionState`",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Property  | Type                                | Description                                        |"
+      },
+      {
+        "row": 16,
+        "rowsha": "IydGx+SxLJghY7g2V4sqqk+ZUHjdUswqfLym7XMF/90=",
+        "originContent": "| Property  | Type                                | Description                                        |",
+        "translatedContent": "|-----------|-------------------------------------|----------------------------------------------------|"
+      },
+      {
+        "row": 17,
+        "rowsha": "wp15JXtY8lQpjpvN+Ie5dfjJ12nLT1cLlRdGc301fvA=",
+        "originContent": "|-----------|-------------------------------------|----------------------------------------------------|",
+        "translatedContent": "| `stage`   | `'entering' \\| 'leaving' \\| 'none'` | トランジションの現在のステージを示します。           |"
+      },
+      {
+        "row": 18,
+        "rowsha": "MQjlbovyShk1KI82bckfN4F8pP4oP9DNejPV1OBSY8U=",
+        "originContent": "| `stage`   | `'entering' \\| 'leaving' \\| 'none'` | Indicates the current stage of the transition.     |",
+        "translatedContent": "| `isReady` | `boolean`                           | 新しいページがアニメーションの準備ができているかを示します。 |"
+      },
+      {
+        "row": 19,
+        "rowsha": "EP0vQWD20QjL6sNL6UyO/mZXNqJnst1en8zwe2ej0/I=",
+        "originContent": "| `isReady` | `boolean`                           | Indicates if the new page is ready to be animated. |",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 免責事項"
+      },
+      {
+        "row": 21,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このパッケージはすべてのユースケースをカバーしているわけではありません。特定のシナリオが必要な場合は、[issueを開いて](https://github.com/ismamz/next-transition-router/issues/new/choose)いただければ、機能拡張の可能性を検討します。"
+      },
+      {
+        "row": 23,
+        "rowsha": "wYYerCaEIHnFhPVSqjqjBtrLipDcp4UgBbwaY25aa7A=",
+        "originContent": "This package may not cover every use case. If you require a specific scenario, please [open an issue](https://github.com/ismamz/next-transition-router/issues/new/choose), and we can explore the possibility of extending the functionality.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 25,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT。"
+      },
+      {
+        "row": 27,
+        "rowsha": "ACOpal9052p+rcH5X3idbEcJecD7sFYxnAU8mz2J3mQ=",
+        "originContent": "MIT.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

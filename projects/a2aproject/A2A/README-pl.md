@@ -82,31 +82,32 @@ Wraz ze wzrostem popularności agentów AI, ich zdolność do współdziałania 
 ### Kluczowe funkcje
 
 - **Standaryzowana komunikacja:** JSON-RPC 2.0 przez HTTP(S).
-- **Odkrywanie agentów:** Poprzez "Karty Agenta" zawierające szczegóły możliwości i informacji o połączeniu.
-- **Elastyczna interakcja:** Obsługuje synchroniczne żądania/odpowiedzi, streaming (SSE) oraz asynchroniczne powiadomienia push.
+- **Odkrywanie agentów:** Za pomocą "Kart Agenta" zawierających informacje o możliwościach i połączeniu.
+- **Elastyczna interakcja:** Obsługuje synchroniczne zapytania/odpowiedzi, streaming (SSE) oraz asynchroniczne powiadomienia push.
 - **Bogata wymiana danych:** Obsługuje tekst, pliki oraz strukturalne dane JSON.
-- **Gotowość dla przedsiębiorstw:** Zaprojektowany z myślą o bezpieczeństwie, uwierzytelnianiu oraz obserwowalności.
+- **Gotowy dla przedsiębiorstw:** Zaprojektowany z myślą o bezpieczeństwie, uwierzytelnianiu i obserwowalności.
 
-## Pierwsze kroki
+## Rozpoczęcie pracy
 
-- 📚 **Poznaj dokumentację:** Odwiedź [Stronę dokumentacji protokołu Agent2Agent](https://a2a-protocol.org), aby uzyskać pełny przegląd, pełną specyfikację protokołu, tutoriale i przewodniki.
+- 📚 **Przeglądaj dokumentację:** Odwiedź [Stronę Dokumentacji Protokołu Agent2Agent](https://a2a-protocol.org) aby uzyskać pełny przegląd, kompletną specyfikację protokołu, samouczki i przewodniki.
 - 📝 **Zobacz specyfikację:** [Specyfikacja protokołu A2A](https://a2a-protocol.org/latest/specification/)
-- Skorzystaj z SDK:
+- Użyj SDK:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) za pomocą maven
-    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) za pomocą [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
-- 🎬 Skorzystaj z naszych [przykładów](https://github.com/a2aproject/a2a-samples), aby zobaczyć A2A w działaniu
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) używając maven
+    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) używając [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
+- 🎬 Skorzystaj z naszych [przykładów](https://github.com/a2aproject/a2a-samples), aby zobaczyć A2A w akcji
 
-## Współtworzenie
+## Współpraca
 
-Zapraszamy do współtworzenia społeczności, aby ulepszać i rozwijać protokół A2A!
+Zapraszamy do współtworzenia i rozwoju protokołu A2A przez społeczność!
 
-- **Pytania i dyskusje:** Dołącz do naszych [Dyskusji na GitHubie](https://github.com/a2aproject/A2A/discussions).
-- **Problemy i opinie:** Zgłaszaj problemy lub sugeruj ulepszenia przez [GitHub Issues](https://github.com/a2aproject/A2A/issues).
-- **Przewodnik dla współtwórców:** Zobacz nasze [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md), aby dowiedzieć się, jak współtworzyć.
-- **Prywatna opinia:** Skorzystaj z tego [formularza Google](https://goo.gle/a2a-feedback).
+- **Pytania i dyskusje:** Dołącz do naszych [Dyskusji na GitHub](https://github.com/a2aproject/A2A/discussions).
+- **Zgłoszenia i opinie:** Zgłaszaj problemy lub proponuj ulepszenia przez [Zgłoszenia GitHub](https://github.com/a2aproject/A2A/issues).
+- **Przewodnik współpracy:** Zobacz nasz [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) po szczegóły dotyczące współpracy.
+- **Prywatna opinia:** Skorzystaj z [Google Form](https://goo.gle/a2a-feedback).
 - **Program partnerski:** Klienci Google Cloud mogą dołączyć do programu partnerskiego przez ten [formularz](https://goo.gle/a2a-partner).
 
 ## Co dalej
@@ -114,22 +115,22 @@ Zapraszamy do współtworzenia społeczności, aby ulepszać i rozwijać protok�
 ### Ulepszenia protokołu
 
 - **Odkrywanie agentów:**
-    - Sformalizowanie uwzględnienia schematów autoryzacji i opcjonalnych danych uwierzytelniających bezpośrednio w `AgentCard`.
+    - Sformalizować włączenie schematów autoryzacji i opcjonalnych danych uwierzytelniających bezpośrednio w `AgentCard`.
 - **Współpraca agentów:**
-    - Zbadanie metody `QuerySkill()` do dynamicznego sprawdzania nieobsługiwanych lub nieprzewidzianych umiejętności.
+    - Zbadać metodę `QuerySkill()` do dynamicznego sprawdzania nieobsługiwanych lub nieoczekiwanych umiejętności.
 - **Cykl życia zadania i UX:**
-    - Wsparcie dla dynamicznej negocjacji UX _w ramach_ zadania (np. agent dodający audio/wideo w trakcie rozmowy).
+    - Wsparcie dla dynamicznego negocjowania UX _w trakcie_ zadania (np. agent dodający audio/wideo w trakcie rozmowy).
 - **Metody klienta i transport:**
-    - Rozważ rozszerzenie wsparcia na metody inicjowane przez klienta (poza zarządzaniem zadaniami).
-    - Ulepszenia niezawodności przesyłania strumieniowego oraz mechanizmów powiadomień push.
+    - Rozważenie rozszerzenia wsparcia na metody inicjowane przez klienta (poza zarządzaniem zadaniami).
+    - Ulepszenia w niezawodności streamingu i mechanizmach powiadomień push.
 
-## O projekcie
+## Informacje
 
-Protokół A2A to projekt open source pod egidą Linux Foundation, do którego przyczynia się Google. Licencjonowany jest na [Licencji Apache 2.0](LICENSE) i jest otwarty na wkład społeczności.
+Protokół A2A to projekt open source pod egidą Linux Foundation, współtworzony przez Google. Jest licencjonowany na [licencji Apache 2.0](LICENSE) i otwarty na wkład społeczności.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

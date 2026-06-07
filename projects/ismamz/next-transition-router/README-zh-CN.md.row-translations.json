@@ -1,0 +1,1664 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "FPibjzeTAbfWNA3KaJWtYBDC3w41cqqcQRmaPngewrQ=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ismamz/next-transition-router/main/example/app/icon.svg\" alt=\"next-transition-router\" width=\"100\" height=\"100\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ismamz/next-transition-router/main/example/app/icon.svg\" alt=\"next-transition-router\" width=\"100\" height=\"100\" />"
+  },
+  {
+    "row": 3,
+    "rowsha": "TkeeZhckU/gBXFRp9d+qwk6djMMShdfUVLDeVY4e6SA=",
+    "originContent": "  <h1>next-transition-router</h1>",
+    "translatedContent": "  <h1>next-transition-router</h1>"
+  },
+  {
+    "row": 4,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "PrGojXGQ00VVY9kxcI7+nOjrCajP5H6SQtJ/LbU/DV8=",
+    "originContent": "Easily add animated transitions between pages using Next.js App Router and your favorite animation library.",
+    "translatedContent": "轻松使用 Next.js App Router 及您喜欢的动画库，在页面之间添加动画过渡效果。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "oxl+STgvgZrsFfW386wGp0D/9hJVMe/M4ouhgqYxTQk=",
+    "originContent": "- [**Live Demo using GSAP**](https://next-transition-router.vercel.app) (source code: [/example](/example)).",
+    "translatedContent": "- [**使用 GSAP 的在线演示**](https://next-transition-router.vercel.app)（源码：[/example](/example)）。"
+  },
+  {
+    "row": 9,
+    "rowsha": "yomgjfUQY2jGEYk2m+JyTtKABnp07AWaDkvK80VKa1s=",
+    "originContent": "- [**Stackblitz Demo using Framer Motion**](https://stackblitz.com/edit/next-transition-router-framer-motion).",
+    "translatedContent": "- [**使用 Framer Motion 的 Stackblitz 演示**](https://stackblitz.com/edit/next-transition-router-framer-motion)。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特性"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "hl3sA1Dl6/Hyx5/0nneYtZUxMv80DGGyP11bwc6fDDk=",
+    "originContent": "- Automatically detect internal links to handle page transitions ([optional `auto` flag](#auto-enabled)).",
+    "translatedContent": "- 自动检测内部链接以处理页面过渡（[可选的 `auto` 标志](#auto-enabled)）。"
+  },
+  {
+    "row": 14,
+    "rowsha": "Q+cE8z1S3KVInvqzWCN1/cujLGhe88yORNkoAkWCjzc=",
+    "originContent": "- Use a custom `Link` component to manually handle page transitions ([when `auto` is disabled](#handle-links-custom-link-component-vs-auto-detection)).",
+    "translatedContent": "- 使用自定义的 `Link` 组件手动处理页面过渡（[当 `auto` 被禁用时](#handle-links-custom-link-component-vs-auto-detection)）。"
+  },
+  {
+    "row": 15,
+    "rowsha": "61K1uj6MkmKRrO/VM6SaZkqXjKm1v6f7QAY2XHCRktY=",
+    "originContent": "- Exclusively to be used with [Next.js App Router](https://nextjs.org/docs/app) (v14.0.0 or higher).",
+    "translatedContent": "- 专门用于 [Next.js App Router](https://nextjs.org/docs/app)（版本 14.0.0 或更高）。"
+  },
+  {
+    "row": 16,
+    "rowsha": "HIPlr9/KnBhFTQ8wdxcE83CNzOUWGKMJYVlq2kJZWio=",
+    "originContent": "- Quickly add animated transitions between pages using JavaScript or CSS.",
+    "translatedContent": "- 快速通过 JavaScript 或 CSS 添加页面之间的动画过渡。"
+  },
+  {
+    "row": 17,
+    "rowsha": "oRlfaq4Z4sPaatxmxGUFDxMpR3Bcg9akHObo8Z3JkAE=",
+    "originContent": "- Integrate seamlessly with [GSAP](https://gsap.com/resources/React/) or any other animation library of your choice (see [minimal GSAP example](#minimal-example-using-gsap)).",
+    "translatedContent": "- 无缝集成 [GSAP](https://gsap.com/resources/React/) 或您选择的任何其他动画库（参见 [使用 GSAP 的最小示例](#minimal-example-using-gsap)）。"
+  },
+  {
+    "row": 18,
+    "rowsha": "mcAch+eQcQ5lockZA6lK7Ga58rLVlRNaS/TYIz9theU=",
+    "originContent": "- If JavaScript is disabled, the router's accessibility is not compromised.",
+    "translatedContent": "- 如果禁用 JavaScript，路由的可访问性不受影响。"
+  },
+  {
+    "row": 19,
+    "rowsha": "S/SXOs7uw30urNwRc6xXyjCdDeOKXFROWeEwKe5mPvo=",
+    "originContent": "- It's really lightweight; the bundle size is less than 8 KB.",
+    "translatedContent": "- 非常轻量；打包大小小于 8 KB。"
+  },
+  {
+    "row": 20,
+    "rowsha": "zktEr2eHglQ5WQO01Vn7y+W16gKBrp7ET9vMon0Kakc=",
+    "originContent": "- Focused on customizable animations, not targeting the [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).",
+    "translatedContent": "- 专注于可定制动画，不针对 [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API)。"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "PmnP3gOGFozKdBCJuRft7LWX8DCeB1Snag6KR5Ol6vs=",
+    "originContent": "If you're looking to use the View Transitions API, check [next-view-transitions](https://github.com/shuding/next-view-transitions).",
+    "translatedContent": "如果您想使用 View Transitions API，请查看 [next-view-transitions](https://github.com/shuding/next-view-transitions)。"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+    "originContent": "> [!WARNING]",
+    "translatedContent": "> [!WARNING]"
+  },
+  {
+    "row": 25,
+    "rowsha": "IvrEA4zQAvzh2WUV6um5fLF5tWP1hN8UnK/VHmj6VWI=",
+    "originContent": "> This project is currently in Beta. Please note that the API may change as features are enhanced and refined.",
+    "translatedContent": "> 本项目目前处于测试阶段。请注意，随着功能的增强和完善，API 可能会发生变化。"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "x/kavytLimp95QcXZDCOpP0e7IfkFsqiwVuAKP57ejE=",
+    "originContent": "Install the package using your preferred package manager:",
+    "translatedContent": "使用您喜欢的包管理器安装此包："
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 32,
+    "rowsha": "C4uVrFjXZSysbTtiYIjgQCZGFeUfGdODmuO4DmVbCIk=",
+    "originContent": "pnpm add next-transition-router",
+    "translatedContent": "pnpm add next-transition-router"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 36,
+    "rowsha": "RlmAquMLIN14NGb1fzXLn5MXF49DSjMiIwj4TI/tPgY=",
+    "originContent": "yarn add next-transition-router",
+    "translatedContent": "yarn add next-transition-router"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 40,
+    "rowsha": "YTznxmuWVjPikQvIAiElyNprTa/VZ4tT7x3ZzT5GScQ=",
+    "originContent": "npm install next-transition-router",
+    "translatedContent": "npm install next-transition-router"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 44,
+    "rowsha": "Rw8UpQ8kYYRaFItaj+FNmqcgLenD+aV4HnqiIdN1GpM=",
+    "originContent": "bun add next-transition-router",
+    "translatedContent": "bun add next-transition-router"
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "a+z2r9Vo1cUNwX9g5roMhV+vmM7ayuLHwv+xsOcStjE=",
+    "originContent": "### `TransitionRouter`",
+    "translatedContent": "### `TransitionRouter`"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "idemHZ7ybNaatR3fPkBz6NoHw3OjIQjpLA18ZxpM0sU=",
+    "originContent": "Create a client component (e.g.: `app/providers.tsx`) to use the `TransitionRouter` provider:",
+    "translatedContent": "创建一个客户端组件（例如：`app/providers.tsx`）来使用 `TransitionRouter` 提供程序："
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 54,
+    "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+    "originContent": "\"use client\";",
+    "translatedContent": "\"use client\";"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "adGHmYqJhgYXY1UyUd8GqsgLOzUmtrZEhApmnEilY1c=",
+    "originContent": "import { TransitionRouter } from \"next-transition-router\";",
+    "translatedContent": "import { TransitionRouter } from \"next-transition-router\";"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "SeX/X0Oic1z2jzFbYga40apAtZBCje/6+VKgq2uMldc=",
+    "originContent": "export function Providers({ children }: { children: React.ReactNode }) {",
+    "translatedContent": "export function Providers({ children }: { children: React.ReactNode }) {"
+  },
+  {
+    "row": 59,
+    "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+    "originContent": "  return (",
+    "translatedContent": "  return ("
+  },
+  {
+    "row": 60,
+    "rowsha": "AF6C283aFmPSs/VOMKdSTnBuTJfC8OZTE+nVIMZAx1g=",
+    "originContent": "    <TransitionRouter",
+    "translatedContent": "    <TransitionRouter"
+  },
+  {
+    "row": 61,
+    "rowsha": "8OKWXsta67zv19fwf9QPOQXTktvB5By4K1rl7TZAgPY=",
+    "originContent": "      leave={(next) => {",
+    "translatedContent": "      leave={(next) => {"
+  },
+  {
+    "row": 62,
+    "rowsha": "qVhHOG/j8MFFmqoxKQPhr/3Z9KtE5vU6KpEy+7NRzwA=",
+    "originContent": "        someAnimation().then(next);",
+    "translatedContent": "        someAnimation().then(next);"
+  },
+  {
+    "row": 63,
+    "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+    "originContent": "      }}",
+    "translatedContent": "      }}"
+  },
+  {
+    "row": 64,
+    "rowsha": "uvGoMzN0Fg1HvBIAalkajuhH8Kt/7uMJnfZboaO/bVU=",
+    "originContent": "      enter={(next) => {",
+    "translatedContent": "      enter={(next) => {"
+  },
+  {
+    "row": 65,
+    "rowsha": "zbSlaOcjIk5bLddZLp0z99sXHyeIH1DE7qhEtEYMMmo=",
+    "originContent": "        anotherAnimation().then(next);",
+    "translatedContent": "        anotherAnimation().then(next);"
+  },
+  {
+    "row": 66,
+    "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+    "originContent": "      }}",
+    "translatedContent": "      }}"
+  },
+  {
+    "row": 67,
+    "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+    "originContent": "    >",
+    "translatedContent": "    >"
+  },
+  {
+    "row": 68,
+    "rowsha": "9S9ZAy5NWcVqS+Z0AAb/OBkQGss8NnFEEUpY36I1UZU=",
+    "originContent": "      {children}",
+    "translatedContent": "      {children}"
+  },
+  {
+    "row": 69,
+    "rowsha": "Elx6u1weODRE7Wh+zR/kfxPgdAOPTW6J9DZnJVmK1mI=",
+    "originContent": "    </TransitionRouter>",
+    "translatedContent": "    </TransitionRouter>"
+  },
+  {
+    "row": 70,
+    "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+    "originContent": "  );",
+    "translatedContent": "  );"
+  },
+  {
+    "row": 71,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!注意]"
+  },
+  {
+    "row": 75,
+    "rowsha": "vxjVadaLd+AqCRch7jb+fSZWtE18nVzUEDcB8Dpra0s=",
+    "originContent": "> It should be a client component because you have to pass DOM functions as props to the provider.",
+    "translatedContent": "> 它应该是一个客户端组件，因为你必须将 DOM 函数作为属性传递给提供者。"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "AgW0Qx0pFslk0tS0goZKVjIOcF+4X4mYSnEvXqulK+M=",
+    "originContent": "After that, you should import that component in the layout component (e.g.: `app/layout.tsx`).",
+    "translatedContent": "之后，你应该在布局组件中导入该组件（例如：`app/layout.tsx`）。"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "0TiL7q25RL1TQ9VpWh3uADFRzCz4+kZnN7yZ2aWoq1o=",
+    "originContent": "#### Async Callbacks",
+    "translatedContent": "#### 异步回调"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "zX19H0FAb3tmo3J9G9ptn/RdMPG/Qhtld30gnRU6fO4=",
+    "originContent": "The `leave` and `enter` callbacks support async functions.",
+    "translatedContent": "`leave` 和 `enter` 回调支持异步函数。"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 84,
+    "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+    "originContent": "\"use client\";",
+    "translatedContent": "\"use client\";"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "adGHmYqJhgYXY1UyUd8GqsgLOzUmtrZEhApmnEilY1c=",
+    "originContent": "import { TransitionRouter } from \"next-transition-router\";",
+    "translatedContent": "import { TransitionRouter } from \"next-transition-router\";"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "SeX/X0Oic1z2jzFbYga40apAtZBCje/6+VKgq2uMldc=",
+    "originContent": "export function Providers({ children }: { children: React.ReactNode }) {",
+    "translatedContent": "export function Providers({ children }: { children: React.ReactNode }) {"
+  },
+  {
+    "row": 89,
+    "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+    "originContent": "  return (",
+    "translatedContent": "  return ("
+  },
+  {
+    "row": 90,
+    "rowsha": "AF6C283aFmPSs/VOMKdSTnBuTJfC8OZTE+nVIMZAx1g=",
+    "originContent": "    <TransitionRouter",
+    "translatedContent": "    <TransitionRouter"
+  },
+  {
+    "row": 91,
+    "rowsha": "WSLLbfA9CZgSBA1zMAUq3p4WT7WX0PK11fikEvm3IiA=",
+    "originContent": "      leave={async (next) => {",
+    "translatedContent": "      leave={async (next) => {"
+  },
+  {
+    "row": 92,
+    "rowsha": "enyW8vpjlmmP/MJUISSus527YS0KZnlM6uT/9lYQ4Rw=",
+    "originContent": "        await someAsyncAnimation();",
+    "translatedContent": "        await someAsyncAnimation();"
+  },
+  {
+    "row": 93,
+    "rowsha": "PFQz7uWRr0Q0C2Bsx7L5oDxRIyJlp/MKnVUJRdwoLzc=",
+    "originContent": "        next();",
+    "translatedContent": "        next();"
+  },
+  {
+    "row": 94,
+    "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+    "originContent": "      }}",
+    "translatedContent": "      }}"
+  },
+  {
+    "row": 95,
+    "rowsha": "1OBCZ9jEZS8XKrCVwzAlcKN1Azp1ta2vbieMvcNkqFk=",
+    "originContent": "      enter={async (next) => {",
+    "translatedContent": "      enter={async (next) => {"
+  },
+  {
+    "row": 96,
+    "rowsha": "fVosA0bH1NrkfiyVc2iVk6hgEaG0fa6aceSQVVFF23w=",
+    "originContent": "        await anotherAsyncAnimation();",
+    "translatedContent": "        await anotherAsyncAnimation();"
+  },
+  {
+    "row": 97,
+    "rowsha": "PFQz7uWRr0Q0C2Bsx7L5oDxRIyJlp/MKnVUJRdwoLzc=",
+    "originContent": "        next();",
+    "translatedContent": "        next();"
+  },
+  {
+    "row": 98,
+    "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+    "originContent": "      }}",
+    "translatedContent": "      }}"
+  },
+  {
+    "row": 99,
+    "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+    "originContent": "    >",
+    "translatedContent": "    >"
+  },
+  {
+    "row": 100,
+    "rowsha": "9S9ZAy5NWcVqS+Z0AAb/OBkQGss8NnFEEUpY36I1UZU=",
+    "originContent": "      {children}",
+    "translatedContent": "      {children}"
+  },
+  {
+    "row": 101,
+    "rowsha": "Elx6u1weODRE7Wh+zR/kfxPgdAOPTW6J9DZnJVmK1mI=",
+    "originContent": "    </TransitionRouter>",
+    "translatedContent": "    </TransitionRouter>"
+  },
+  {
+    "row": 102,
+    "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+    "originContent": "  );",
+    "translatedContent": "  );"
+  },
+  {
+    "row": 103,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "8nRDsD/Y82/r/Y93N/9LQKrZ1YQs3sCqfs5XaM+J2fA=",
+    "originContent": "#### `from` and `to` parameters for `leave` callback",
+    "translatedContent": "#### `leave` 回调的 `from` 和 `to` 参数"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "pgBDKxiA4rA2JnyDjnG6qslbQ6o1tMaSVvjFwXWDhMc=",
+    "originContent": "The `leave` callback receives the `from` and `to` parameters, which are strings with the previous and next page paths. Useful if you want to animate the transition conditionally based on the page.",
+    "translatedContent": "`leave` 回调接收 `from` 和 `to` 参数，它们是包含前一个和下一个页面路径的字符串。  "
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果你想基于页面有条件地执行动画过渡，这非常有用。"
+  },
+  {
+    "row": 110,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 111,
+    "rowsha": "4dc/waJnceoaZ8H9V5Q18odgXzFkkYZku8idktkCmrI=",
+    "originContent": "const onLeave = (next, from, to) => {",
+    "translatedContent": "const onLeave = (next, from, to) => {"
+  },
+  {
+    "row": 112,
+    "rowsha": "XEKd1JjSkD8aR7Hdt5vXHpzgFL12NLWqqayDbtcS/CU=",
+    "originContent": "  someAnimation(from, to).then(next);",
+    "translatedContent": "  someAnimation(from, to).then(next);"
+  },
+  {
+    "row": 113,
+    "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+    "originContent": "};",
+    "translatedContent": "};"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!注意]"
+  },
+  {
+    "row": 117,
+    "rowsha": "dEwr5kBRsLI4qYwzggfHwRrvMzAjGiklv/s61HIJPAs=",
+    "originContent": "> When using `router.back()` method, the `to` parameter will be undefined. See [programmatic navigation](#programmatic-navigation).",
+    "translatedContent": "> 使用 `router.back()` 方法时，`to` 参数将为未定义。请参见[编程式导航](#programmatic-navigation)。"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "Rco/OhOJt2lkoLx9zoFoBT7gn4ylg/fFCmGaqZIr1h8=",
+    "originContent": "### Handling links (custom `Link` component vs auto-detection)",
+    "translatedContent": "### 处理链接（自定义 `Link` 组件与自动检测）"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "fLDC4NqSyg3ZcnyzUDG+lnLL5VK994cpyi7jCKz1u18=",
+    "originContent": "To determine how to handle links, `TransitionRouter` can receive an `auto` prop (`boolean`).",
+    "translatedContent": "为了确定如何处理链接，`TransitionRouter` 可以接收一个 `auto` 属性（`boolean` 类型）。"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "ss1HVcY0nI6UZi5owtU2iKy+0n004O7WtNbC/vyvCqk=",
+    "originContent": "#### `auto` disabled (default)",
+    "translatedContent": "#### 关闭 `auto`（默认）"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "bqkxY3w8jWGJjB9e7M9yS6V6bDjk5qC0nb1+ZLcVBAE=",
+    "originContent": "Use the custom `Link` component instead of the native [`Link` component from Next.js](https://nextjs.org/docs/app/api-reference/components/link) to trigger transitions.",
+    "translatedContent": "使用自定义的 `Link` 组件，而不是原生的 [Next.js 中的 `Link` 组件](https://nextjs.org/docs/app/api-reference/components/link) 来触发过渡。"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 128,
+    "rowsha": "ElHvlqxMWRYORtqGTXC5HEAKCpq5Ckh3zNNLV93pFoo=",
+    "originContent": "import { Link } from \"next-transition-router\";",
+    "translatedContent": "import { Link } from \"next-transition-router\";"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "qXpx+lCqj8Q9yOBB5hs5hJImxBcxJLdY9/lBPzbSCFA=",
+    "originContent": "export function Example() {",
+    "translatedContent": "export function Example() {"
+  },
+  {
+    "row": 131,
+    "rowsha": "M90Mw7ZKwvoljc3DRauQL2+X8czEUNFucjnGnfCs9o8=",
+    "originContent": "  return <Link href=\"/about\">About</Link>;",
+    "translatedContent": "  return <Link href=\"/about\">About</Link>;"
+  },
+  {
+    "row": 132,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 133,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+    "originContent": "> [!TIP]",
+    "translatedContent": "> [!提示]"
+  },
+  {
+    "row": 136,
+    "rowsha": "2hVnZqOyRTEdbnf8S9Py23mAR9H4NK6rY19b8GUSgDA=",
+    "originContent": "> Use `import { Link as TransitionLink } from \"next-transition-router\"` to avoid naming conflicts.",
+    "translatedContent": "> 使用 `import { Link as TransitionLink } from \"next-transition-router\"` 以避免命名冲突。"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "13bYgmaDVLEzUsE4j6y2zALBygyky9/yQHhMKeP/4FQ=",
+    "originContent": "#### `auto` enabled",
+    "translatedContent": "#### 启用 `auto`"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "CqA55JQD0LkjffANpNsLgY9q839l+6RypEl0U+uNoLY=",
+    "originContent": "When `auto` is enabled, the `TransitionRouter` intercepts click events on internal links, except anchor links, and triggers page transitions. In this case you don't need to use the custom `Link` component.",
+    "translatedContent": "当启用 `auto` 时，`TransitionRouter` 会拦截内部链接（锚点链接除外）的点击事件，并触发页面过渡。在这种情况下，您无需使用自定义的 `Link` 组件。"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "TyfFlCiTul9oo/r3znLBg+I/WKP6oDJtNIvuqGAtTts=",
+    "originContent": "To ignore a link in this mode, simply add the `data-transition-ignore` attribute to the link.",
+    "translatedContent": "要在此模式下忽略某个链接，只需给该链接添加 `data-transition-ignore` 属性。"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "dM8SSZkO8C+zFJrF+1FEJlnKzAGAyveQDwMmTnSboqo=",
+    "originContent": "### Programmatic navigation",
+    "translatedContent": "### 编程式导航"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "TcTaDx9xttwBa/N9ALhwyw+5J5OCY3+zMojErE4v71U=",
+    "originContent": "Use the `useTransitionRouter` hook to manage navigation (`push`, `replace`, `back`).",
+    "translatedContent": "使用 `useTransitionRouter` 钩子来管理导航（`push`、`replace`、`back`）。"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "PpijYNib0gTYj0So5nt9LLBGX+Mbk8I7315Kxe3AXc8=",
+    "originContent": "It's similar to [Next.js `useRouter`](https://nextjs.org/docs/app/api-reference/functions/use-router) with added transition support.",
+    "translatedContent": "它类似于 [Next.js 的 `useRouter`](https://nextjs.org/docs/app/api-reference/functions/use-router)，但增加了过渡支持。"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 151,
+    "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+    "originContent": "\"use client\";",
+    "translatedContent": "\"use client\";"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "sDJUX12ukCOQ6Fs6txfmS16ZymZW3o/aJnnG0GUIbhQ=",
+    "originContent": "import { useTransitionRouter } from \"next-transition-router\";",
+    "translatedContent": "import { useTransitionRouter } from \"next-transition-router\";"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "doEaKbMNYQUJn4fzYIIF6OYC66cdLGTdghSmW6kAr80=",
+    "originContent": "export function Programmatic() {",
+    "translatedContent": "export function Programmatic() {"
+  },
+  {
+    "row": 156,
+    "rowsha": "iSTIcE/tl+DXMdcNV3p/IV/GwQjpWN9b+MhskEmveTM=",
+    "originContent": "  const router = useTransitionRouter();",
+    "translatedContent": "  const router = useTransitionRouter();"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+    "originContent": "  return (",
+    "translatedContent": "  return ("
+  },
+  {
+    "row": 159,
+    "rowsha": "5shJLL6kWbt/IAuOY4VM7PBT2FxbqGtTBkohHprY/+8=",
+    "originContent": "    <button",
+    "translatedContent": "    <button"
+  },
+  {
+    "row": 160,
+    "rowsha": "IJyZofvcGhtGw3lh71yUC9+kJ2vw3wSnAjGC5Lp9ZAw=",
+    "originContent": "      onClick={() => {",
+    "translatedContent": "      onClick={() => {"
+  },
+  {
+    "row": 161,
+    "rowsha": "vx2zA1G6PsfJf1V6zsLy4LrlZKA4GS+pSqIINpal/84=",
+    "originContent": "        alert(\"Do something before navigating away\");",
+    "translatedContent": "        alert(\"Do something before navigating away\");"
+  },
+  {
+    "row": 162,
+    "rowsha": "ipGwz9nGG7UGAC4MegImWeMgGd44kaheEFfZwHlIqPE=",
+    "originContent": "        router.push(\"/about\");",
+    "translatedContent": "        router.push(\"/about\");"
+  },
+  {
+    "row": 163,
+    "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+    "originContent": "      }}",
+    "translatedContent": "      }}"
+  },
+  {
+    "row": 164,
+    "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+    "originContent": "    >",
+    "translatedContent": "    >"
+  },
+  {
+    "row": 165,
+    "rowsha": "uYuOqCIyKFLLampqoEm8so4M3NTgFTwRD6J2t+W7z1Q=",
+    "originContent": "      Go to /about",
+    "translatedContent": "      Go to /about"
+  },
+  {
+    "row": 166,
+    "rowsha": "J8lYEinZz1yCTZUcgUcUina5Rn0bIH6tgCg9AeTSvts=",
+    "originContent": "    </button>",
+    "translatedContent": "    </button>"
+  },
+  {
+    "row": 167,
+    "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+    "originContent": "  );",
+    "translatedContent": "  );"
+  },
+  {
+    "row": 168,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 169,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+    "originContent": "> [!IMPORTANT]",
+    "translatedContent": "> [!IMPORTANT]"
+  },
+  {
+    "row": 172,
+    "rowsha": "RBdolk0XSOHiT4oZPf79/GynUmD1VFbtAw29GW07opM=",
+    "originContent": "> Back and Forward browser navigation doesn't trigger page transitions, and [this is intentional](https://github.com/ismamz/next-transition-router/issues/2).",
+    "translatedContent": "> 浏览器的前进和后退导航不会触发页面过渡，[这是故意设计的](https://github.com/ismamz/next-transition-router/issues/2)。"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "cQELadXJ6w/zDYOugi2V10/8eOIaBGUAErKrBPgNgvw=",
+    "originContent": "### Transition state",
+    "translatedContent": "### 过渡状态"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "LoK4vxNO6JKMFvtPfuEvWC3d5VryLkUCCiHsnLKfc9w=",
+    "originContent": "Use the `useTransitionState` hook to determine the current stage of the transition.",
+    "translatedContent": "使用 `useTransitionState` 钩子来确定过渡的当前阶段。"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "JW5b4lP32uPXz+m/LiwdUNyHVLEC/E92D4fV22mvpq8=",
+    "originContent": "Possible `stage` values: `'entering' | 'leaving' | 'none'`.",
+    "translatedContent": "可能的 `stage` 值：`'entering' | 'leaving' | 'none'`。"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "kodyuEEj/U1zMYspYmWd1lZWN9pxPhT+K7/OM0bARzo=",
+    "originContent": "Aditionally, you have the `isReady` state (`boolean`).",
+    "translatedContent": "此外，你还有 `isReady` 状态（`boolean`）。"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 183,
+    "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+    "originContent": "\"use client\";",
+    "translatedContent": "\"use client\";"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "IXYYxYsQEXy6sBNFsDX4EryAG666/xE82EVEBaZpmEE=",
+    "originContent": "import { useTransitionState } from \"next-transition-router\";",
+    "translatedContent": "import { useTransitionState } from \"next-transition-router\";"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "qXpx+lCqj8Q9yOBB5hs5hJImxBcxJLdY9/lBPzbSCFA=",
+    "originContent": "export function Example() {",
+    "translatedContent": "export function Example() {"
+  },
+  {
+    "row": 188,
+    "rowsha": "4LVbuPRZujmXhGv/tORhquhZpobu5v4OqGk5P0AzaMs=",
+    "originContent": "  const { stage, isReady } = useTransitionState();",
+    "translatedContent": "  const { stage, isReady } = useTransitionState();"
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+    "originContent": "  return (",
+    "translatedContent": "  return ("
+  },
+  {
+    "row": 191,
+    "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+    "originContent": "    <div>",
+    "translatedContent": "    <div>"
+  },
+  {
+    "row": 192,
+    "rowsha": "YWWBmoH5Vnmfdb9GEEVU29UIQoBq0xaevt3MEUv8J60=",
+    "originContent": "      <p>Current stage: {stage}</p>",
+    "translatedContent": "      <p>Current stage: {stage}</p>"
+  },
+  {
+    "row": 193,
+    "rowsha": "yDGYRl2Jvr5o23W3qxqE29k3XqvDSLGkMtPCcFKlLLc=",
+    "originContent": "      <p>Page ready: {isReady ? \"Yes\" : \"No\"}</p>",
+    "translatedContent": "      <p>Page ready: {isReady ? \"Yes\" : \"No\"}</p>"
+  },
+  {
+    "row": 194,
+    "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+    "originContent": "    </div>",
+    "translatedContent": "    </div>"
+  },
+  {
+    "row": 195,
+    "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+    "originContent": "  );",
+    "translatedContent": "  );"
+  },
+  {
+    "row": 196,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 197,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+    "originContent": "> [!TIP]",
+    "translatedContent": "> [!TIP]"
+  },
+  {
+    "row": 200,
+    "rowsha": "Tdv49lizRNfnyAasuT6XzDb9Q+ivol8rvYbFI88RBuM=",
+    "originContent": "> This is useful, for example, if you want to trigger a reveal animation after the page transition ends.",
+    "translatedContent": "> 例如，如果您想在页面过渡结束后触发一个显示动画，这非常有用。"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "oQcNDtUDCYJocYSVgjkdDTjIb+ap40WbWUg3JvS0i8Q=",
+    "originContent": "### Cleanup",
+    "translatedContent": "### 清理"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "ssNmbTwGhGrYsyeU9qdvb6EGaBE3esHBowvGcAxsKqc=",
+    "originContent": "`TransitionRouter` manages cleanup functions for `leave` and `enter` callbacks, to prevent memory leaks.",
+    "translatedContent": "`TransitionRouter` 管理 `leave` 和 `enter` 回调的清理函数，以防止内存泄漏。"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "l4CS0c+m40gVYHbjWaOJcoiVOMpA+/arW3Rvg1V31ck=",
+    "originContent": "Similar to React's `useEffect` hook, you can return a cleanup function to cancel the animation.",
+    "translatedContent": "类似于 React 的 `useEffect` 钩子，您可以返回一个清理函数来取消动画。"
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "yGVL8WsiXqceMNKtSio6iMRwUPxUd8s0gGYDNz4gNEk=",
+    "originContent": "#### Minimal example using GSAP",
+    "translatedContent": "#### 使用 GSAP 的最小示例"
+  },
+  {
+    "row": 209,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 211,
+    "rowsha": "xeOcIhSp0bClywB7eCH37S/C1E+lRiSawlKefXjhv3c=",
+    "originContent": "\"use client\";",
+    "translatedContent": "\"use client\";"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "AzGhUX+k35bvoDBBo8Ww79vf/JCwP+9UjT5OJEcBXbQ=",
+    "originContent": "import { gsap } from \"gsap\";",
+    "translatedContent": "import { gsap } from \"gsap\";"
+  },
+  {
+    "row": 214,
+    "rowsha": "adGHmYqJhgYXY1UyUd8GqsgLOzUmtrZEhApmnEilY1c=",
+    "originContent": "import { TransitionRouter } from \"next-transition-router\";",
+    "translatedContent": "import { TransitionRouter } from \"next-transition-router\";"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "SeX/X0Oic1z2jzFbYga40apAtZBCje/6+VKgq2uMldc=",
+    "originContent": "export function Providers({ children }: { children: React.ReactNode }) {",
+    "translatedContent": "export function Providers({ children }: { children: React.ReactNode }) {"
+  },
+  {
+    "row": 217,
+    "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+    "originContent": "  return (",
+    "translatedContent": "  return ("
+  },
+  {
+    "row": 218,
+    "rowsha": "AF6C283aFmPSs/VOMKdSTnBuTJfC8OZTE+nVIMZAx1g=",
+    "originContent": "    <TransitionRouter",
+    "translatedContent": "    <TransitionRouter"
+  },
+  {
+    "row": 219,
+    "rowsha": "8OKWXsta67zv19fwf9QPOQXTktvB5By4K1rl7TZAgPY=",
+    "originContent": "      leave={(next) => {",
+    "translatedContent": "      leave={(next) => {"
+  },
+  {
+    "row": 220,
+    "rowsha": "93CoQH20AIiQXfAVDApq/cUDO5KkLE98KYzEWA4+zLU=",
+    "originContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 1 }, { autoAlpha: 0, onComplete: next });",
+    "translatedContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 1 }, { autoAlpha: 0, onComplete: next });"
+  },
+  {
+    "row": 221,
+    "rowsha": "l52dh06mfBl6XgqftCkXn/C2KxiWPjQflLGCt7USdlk=",
+    "originContent": "        return () => tween.kill();",
+    "translatedContent": "        return () => tween.kill();"
+  },
+  {
+    "row": 222,
+    "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+    "originContent": "      }}",
+    "translatedContent": "      }}"
+  },
+  {
+    "row": 223,
+    "rowsha": "uvGoMzN0Fg1HvBIAalkajuhH8Kt/7uMJnfZboaO/bVU=",
+    "originContent": "      enter={(next) => {",
+    "translatedContent": "      enter={(next) => {"
+  },
+  {
+    "row": 224,
+    "rowsha": "nrsliMxnFHgYbMgAkItxdF8mCZ+H+QRHhVX4wA9bXmA=",
+    "originContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 0 }, { autoAlpha: 1, onComplete: next });",
+    "translatedContent": "        const tween = gsap.fromTo(\"main\", { autoAlpha: 0 }, { autoAlpha: 1, onComplete: next });"
+  },
+  {
+    "row": 225,
+    "rowsha": "l52dh06mfBl6XgqftCkXn/C2KxiWPjQflLGCt7USdlk=",
+    "originContent": "        return () => tween.kill();",
+    "translatedContent": "        return () => tween.kill();"
+  },
+  {
+    "row": 226,
+    "rowsha": "78GBXuxXo92ifSBDtTv5g/EVnSINYqBvmQVVel0P6kA=",
+    "originContent": "      }}",
+    "translatedContent": "      }}"
+  },
+  {
+    "row": 227,
+    "rowsha": "+OJiIj2lTdErDt3Cp7K906JTynjJhXNlgR/cCndnrSo=",
+    "originContent": "    >",
+    "translatedContent": "    >"
+  },
+  {
+    "row": 228,
+    "rowsha": "9S9ZAy5NWcVqS+Z0AAb/OBkQGss8NnFEEUpY36I1UZU=",
+    "originContent": "      {children}",
+    "translatedContent": "      {children}"
+  },
+  {
+    "row": 229,
+    "rowsha": "Elx6u1weODRE7Wh+zR/kfxPgdAOPTW6J9DZnJVmK1mI=",
+    "originContent": "    </TransitionRouter>",
+    "translatedContent": "    </TransitionRouter>"
+  },
+  {
+    "row": 230,
+    "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+    "originContent": "  );",
+    "translatedContent": "  );"
+  },
+  {
+    "row": 231,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 232,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "ujwkRYGYkaELkaHCgW47JAUWsX7M2flA7BAPTBYvVZM=",
+    "originContent": "## Performance Optimization",
+    "translatedContent": "## 性能优化"
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "OlX2bzIGWSDHGW/sfaEq1Cl+SAlhGADvWF5LUjk5ZtY=",
+    "originContent": "When overlapping exit animations with page loading (common for smooth transitions), React rendering can cause animation jank. Use `requestAnimationFrame` and `startTransition` to prioritize animation performance:",
+    "translatedContent": "当退出动画与页面加载重叠时（常见于平滑过渡），React 渲染可能导致动画卡顿。使用 `requestAnimationFrame` 和 `startTransition` 来优先保证动画性能："
+  },
+  {
+    "row": 237,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 238,
+    "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+    "originContent": "```tsx",
+    "translatedContent": "```tsx"
+  },
+  {
+    "row": 239,
+    "rowsha": "z9uAlB1ObvrUwI+GKPisvZxKogTD8R+qxMp1VYCMU7c=",
+    "originContent": "import { startTransition } from \"react\";",
+    "translatedContent": "import { startTransition } from \"react\";"
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "6RlRMkoSuQFpdOJ498JKkYC+p6eZH6HHArsZm4INuMQ=",
+    "originContent": "enter={(next) => {",
+    "translatedContent": "enter={(next) => {"
+  },
+  {
+    "row": 242,
+    "rowsha": "2OIp05XHCwdiqpfQPWqe/EpBlY1HrfvrcBApnWp6+5s=",
+    "originContent": "  const tl = gsap.timeline()",
+    "translatedContent": "  const tl = gsap.timeline()"
+  },
+  {
+    "row": 243,
+    "rowsha": "jf2kSBuVN7YCrhMq9oZ0HhS6mkIoIQraIjpdOqr0kpk=",
+    "originContent": "    .to(\".overlay\", { y: \"-100%\", duration: 0.5 })",
+    "translatedContent": "    .to(\".overlay\", { y: \"-100%\", duration: 0.5 })"
+  },
+  {
+    "row": 244,
+    "rowsha": "b/a5mYDXwSOqKmlH12EBFUBnQBIXR2oEE86N2IhJGuM=",
+    "originContent": "    .call(() => {",
+    "translatedContent": "    .call(() => {"
+  },
+  {
+    "row": 245,
+    "rowsha": "NbP1msM3sTY/7A5ccEmEIU7jl5BGZEGKxtUCIiU5keg=",
+    "originContent": "      requestAnimationFrame(() => startTransition(next));",
+    "translatedContent": "      requestAnimationFrame(() => startTransition(next));"
+  },
+  {
+    "row": 246,
+    "rowsha": "E/zsgVuhzgNzuh6JpPzdgq/t4PoKlwa6k3PY23qYuIY=",
+    "originContent": "    }, undefined, \"<50%\"); // Overlap timing preserved",
+    "translatedContent": "    }, undefined, \"<50%\"); // Overlap timing preserved"
+  },
+  {
+    "row": 247,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 248,
+    "rowsha": "kSBGhAV/FmMgGpfs5060aWh7IVG1nLmV7jLLAW6Oh4E=",
+    "originContent": "  return () => tl.kill();",
+    "translatedContent": "  return () => tl.kill();"
+  },
+  {
+    "row": 249,
+    "rowsha": "L4bjmw/ivmnfnO6L60TliT/A2L23lj9iHOehBTz13KE=",
+    "originContent": "}}",
+    "translatedContent": "}}"
+  },
+  {
+    "row": 250,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这防止了 React 更新干扰您的动画时间线，同时保持视觉时序。"
+  },
+  {
+    "row": 252,
+    "rowsha": "zHmm2j9eGLEUAOU9sS3cH3/NHz7G+yiX/bQhyqDC21g=",
+    "originContent": "This prevents React updates from interfering with your animation timeline while maintaining visual timing.",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## API"
+  },
+  {
+    "row": 254,
+    "rowsha": "QMr2bE3lbka3JIXEet/0kWxLx+Vj7Nn3J46dyvktHK0=",
+    "originContent": "## API",
+    "translatedContent": ""
+  },
+  {
+    "row": 255,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### `TransitionRouter`"
+  },
+  {
+    "row": 256,
+    "rowsha": "a+z2r9Vo1cUNwX9g5roMhV+vmM7ayuLHwv+xsOcStjE=",
+    "originContent": "### `TransitionRouter`",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 属性       | 类型       | 默认值          | 描述                                              |"
+  },
+  {
+    "row": 258,
+    "rowsha": "7gioIDoQ2AfMsHwB33zC6LFvvWhjzmECdpCv8aHHbJg=",
+    "originContent": "| Prop       | Type       | Default Value    | Description                                       |",
+    "translatedContent": "| ---------- | ---------- | --------------- | ------------------------------------------------- |"
+  },
+  {
+    "row": 259,
+    "rowsha": "9fnrGWVB0XDZzA3rQjdoBfDEPn4kiCZm8xfZdiM3jIQ=",
+    "originContent": "| ---------- | ---------- | ---------------- | ------------------------------------------------- |",
+    "translatedContent": "| `leave`    | `function` | `next => next()` | 处理离开动画的函数                                 |"
+  },
+  {
+    "row": 260,
+    "rowsha": "avOpSdOdbDA/c30Bu5vuPefs0Inn8cWXb6VIc3U+3Zk=",
+    "originContent": "| `leave`    | `function` | `next => next()` | Function to handle the leaving animation          |",
+    "translatedContent": "| `enter`    | `function` | `next => next()` | 处理进入动画的函数                                 |"
+  },
+  {
+    "row": 261,
+    "rowsha": "Y05tVb3cfM1LqsiJh8OgYR6zhNXeBILOm0MKy6Tx9BI=",
+    "originContent": "| `enter`    | `function` | `next => next()` | Function to handle the entering animation         |",
+    "translatedContent": "| `auto`     | `boolean`  | `false`          | 启用/禁用链接自动检测的标志                         |"
+  },
+  {
+    "row": 262,
+    "rowsha": "T7KmEecYYwJMcdvhUnuvYZbq/jTmlX9sCxSSSofASGU=",
+    "originContent": "| `auto`     | `boolean`  | `false`          | Flag to enable/disable auto-detection of links    |",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### `useTransitionState`"
+  },
+  {
+    "row": 264,
+    "rowsha": "RCFgbD7r75bCdcm8Li9BF1pHy2OEs5ewH9M9xSkNKEA=",
+    "originContent": "### `useTransitionState`",
+    "translatedContent": ""
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 属性       | 类型                                | 描述                                               |"
+  },
+  {
+    "row": 266,
+    "rowsha": "IydGx+SxLJghY7g2V4sqqk+ZUHjdUswqfLym7XMF/90=",
+    "originContent": "| Property  | Type                                | Description                                        |",
+    "translatedContent": "|------------|-----------------------------------|----------------------------------------------------|"
+  },
+  {
+    "row": 267,
+    "rowsha": "wp15JXtY8lQpjpvN+Ie5dfjJ12nLT1cLlRdGc301fvA=",
+    "originContent": "|-----------|-------------------------------------|----------------------------------------------------|",
+    "translatedContent": "| `stage`    | `'entering' \\| 'leaving' \\| 'none'` | 指示当前过渡的阶段                                 |"
+  },
+  {
+    "row": 268,
+    "rowsha": "MQjlbovyShk1KI82bckfN4F8pP4oP9DNejPV1OBSY8U=",
+    "originContent": "| `stage`   | `'entering' \\| 'leaving' \\| 'none'` | Indicates the current stage of the transition.     |",
+    "translatedContent": "| `isReady`  | `boolean`                         | 指示新页面是否准备好进行动画                       |"
+  },
+  {
+    "row": 269,
+    "rowsha": "EP0vQWD20QjL6sNL6UyO/mZXNqJnst1en8zwe2ej0/I=",
+    "originContent": "| `isReady` | `boolean`                           | Indicates if the new page is ready to be animated. |",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 免责声明"
+  },
+  {
+    "row": 271,
+    "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+    "originContent": "## Disclaimer",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "此包可能无法涵盖所有使用场景。如果您有特定需求，请[打开问题](https://github.com/ismamz/next-transition-router/issues/new/choose)，我们可以探讨扩展功能的可能性。"
+  },
+  {
+    "row": 273,
+    "rowsha": "wYYerCaEIHnFhPVSqjqjBtrLipDcp4UgBbwaY25aa7A=",
+    "originContent": "This package may not cover every use case. If you require a specific scenario, please [open an issue](https://github.com/ismamz/next-transition-router/issues/new/choose), and we can explore the possibility of extending the functionality.",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 275,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT。"
+  },
+  {
+    "row": 277,
+    "rowsha": "ACOpal9052p+rcH5X3idbEcJecD7sFYxnAU8mz2J3mQ=",
+    "originContent": "MIT.",
+    "translatedContent": ""
+  }
+]

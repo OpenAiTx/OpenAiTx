@@ -82,54 +82,55 @@ Man mano che gli agenti AI diventano più diffusi, la loro capacità di interope
 ### Caratteristiche principali
 
 - **Comunicazione standardizzata:** JSON-RPC 2.0 su HTTP(S).
-- **Scoperta degli agenti:** Tramite "Schede Agente" che dettagliano capacità e informazioni di connessione.
+- **Scoperta degli agenti:** Tramite "Agent Card" che dettagliano capacità e informazioni di connessione.
 - **Interazione flessibile:** Supporta richieste/risposte sincrone, streaming (SSE) e notifiche push asincrone.
-- **Scambio dati avanzato:** Gestisce testo, file e dati strutturati in JSON.
-- **Pronto per l’Enterprise:** Progettato con sicurezza, autenticazione e osservabilità.
+- **Scambio dati avanzato:** Gestisce testo, file e dati JSON strutturati.
+- **Enterprise-Ready:** Progettato con attenzione a sicurezza, autenticazione e osservabilità.
 
 ## Per iniziare
 
 - 📚 **Esplora la documentazione:** Visita il [Sito della Documentazione del Protocollo Agent2Agent](https://a2a-protocol.org) per una panoramica completa, la specifica del protocollo, tutorial e guide.
-- 📝 **Visualizza la specifica:** [Specifica del Protocollo A2A](https://a2a-protocol.org/latest/specification/)
+- 📝 **Visualizza la specifica:** [Specifica Protocollo A2A](https://a2a-protocol.org/latest/specification/)
 - Usa gli SDK:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) tramite maven
-    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) tramite [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) usando maven
+    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) usando [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
 - 🎬 Usa i nostri [esempi](https://github.com/a2aproject/a2a-samples) per vedere A2A in azione
 
 ## Contribuire
 
-Accogliamo con piacere i contributi della community per migliorare ed evolvere il protocollo A2A!
+Accogliamo con favore i contributi della community per migliorare ed evolvere il protocollo A2A!
 
-- **Domande e discussioni:** Unisciti alle nostre [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).
-- **Segnalazioni e feedback:** Riporta problemi o suggerisci miglioramenti tramite [GitHub Issues](https://github.com/a2aproject/A2A/issues).
-- **Guida al contributo:** Consulta il nostro [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) per dettagli su come contribuire.
-- **Feedback privato:** Usa questo [Google Form](https://goo.gle/a2a-feedback).
-- **Programma Partner:** I clienti Google Cloud possono unirsi al nostro programma partner tramite questo [form](https://goo.gle/a2a-partner).
+- **Domande & Discussioni:** Unisciti alle nostre [Discussioni GitHub](https://github.com/a2aproject/A2A/discussions).
+- **Problemi & Feedback:** Segnala problemi o suggerisci miglioramenti tramite [GitHub Issues](https://github.com/a2aproject/A2A/issues).
+- **Guida al Contributo:** Consulta il nostro [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) per dettagli su come contribuire.
+- **Feedback privato:** Usa questo [Modulo Google](https://goo.gle/a2a-feedback).
+- **Programma Partner:** I clienti Google Cloud possono aderire al nostro programma partner tramite questo [modulo](https://goo.gle/a2a-partner).
 
 ## Prossimi passi
 
-### Miglioramenti del protocollo
+### Miglioramenti al protocollo
 
 - **Scoperta degli agenti:**
-    - Formalizzare l’inclusione di schemi di autorizzazione e credenziali opzionali direttamente nella `AgentCard`.
+    - Formalizzare l’inclusione di schemi di autorizzazione e credenziali opzionali direttamente all'interno dell’`AgentCard`.
 - **Collaborazione tra agenti:**
-    - Esplorare un metodo `QuerySkill()` per verificare dinamicamente le skill non supportate o impreviste.
-- **Ciclo di vita dei task & UX:**
-    - Supporto per la negoziazione dinamica della UX _all'interno_ di un'attività (ad es., agente che aggiunge audio/video durante la conversazione).
-- **Metodi Client & Trasporto:**
-    - Esplorare l'estensione del supporto ai metodi avviati dal client (oltre la gestione delle attività).
+    - Esplorare un metodo `QuerySkill()` per verificare dinamicamente competenze non supportate o impreviste.
+- **Ciclo di vita del task e UX:**
+    - Supporto per la negoziazione dinamica della UX _all'interno_ di un task (es. agente che aggiunge audio/video durante la conversazione).
+- **Metodi Client e Trasporto:**
+    - Esplorare l'estensione del supporto ai metodi avviati dal client (oltre la gestione dei task).
     - Miglioramenti all'affidabilità dello streaming e ai meccanismi di push notification.
 
 ## Informazioni
 
-Il Protocollo A2A è un progetto open source sotto la Linux Foundation, contribuito da Google. È concesso in licenza secondo la [Apache License 2.0](LICENSE) ed è aperto ai contributi della comunità.
+Il Protocollo A2A è un progetto open source sotto la Linux Foundation, contribuito da Google. È concesso in licenza con la [Licenza Apache 2.0](LICENSE) ed è aperto ai contributi della comunità.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

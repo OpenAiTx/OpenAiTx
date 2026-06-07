@@ -81,55 +81,56 @@ AIエージェントが普及する中で、相互運用性は複雑で多機能
 
 ### 主な特徴
 
-- **標準化された通信:** JSON-RPC 2.0 を HTTP(S) 上で使用。
-- **エージェント発見:** 「エージェントカード」による能力と接続情報の詳細。
-- **柔軟なインタラクション:** 同期リクエスト/レスポンス、ストリーミング（SSE）、非同期プッシュ通知をサポート。
-- **豊富なデータ交換:** テキスト、ファイル、構造化JSONデータを処理。
-- **エンタープライズ対応:** セキュリティ、認証、可観測性を考慮して設計。
+- **標準化された通信:** HTTP(S)上でのJSON-RPC 2.0。
+- **エージェント発見:** 機能や接続情報を詳細に記載した「エージェントカード」による。
+- **柔軟なインタラクション:** 同期リクエスト/レスポンス、ストリーミング（SSE）、非同期プッシュ通知に対応。
+- **豊富なデータ交換:** テキスト、ファイル、構造化JSONデータのやりとりが可能。
+- **エンタープライズ対応:** セキュリティ、認証、可観測性を重視した設計。
 
 ## はじめに
 
-- 📚 **ドキュメントを探索:** [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) で概要、プロトコル仕様、チュートリアル、ガイドを参照。
-- 📝 **仕様書を見る:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
+- 📚 **ドキュメントを読む:** [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org)で全体像、プロトコル仕様、チュートリアル、ガイドを参照できます。
+- 📝 **仕様を見る:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
 - SDKを利用する:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) mavenを利用
-    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A) を利用 `dotnet add package A2A`
-- 🎬 [サンプル](https://github.com/a2aproject/a2a-samples)でA2Aの動作を確認
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) maven利用
+    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A)経由 `dotnet add package A2A`
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
+- 🎬 [サンプル](https://github.com/a2aproject/a2a-samples)を使ってA2Aの動作を確認
 
 ## コントリビューション
 
-A2Aプロトコルの向上や進化のため、コミュニティの貢献を歓迎します！
+A2Aプロトコルの進化と向上のため、コミュニティからの貢献を歓迎します！
 
-- **質問・議論:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) に参加。
-- **課題・フィードバック:** [GitHub Issues](https://github.com/a2aproject/A2A/issues) で課題報告や改善提案。
-- **コントリビューションガイド:** [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) で詳細を確認。
-- **プライベートフィードバック:** [Googleフォーム](https://goo.gle/a2a-feedback)を利用。
-- **パートナープログラム:** Google Cloud顧客は [フォーム](https://goo.gle/a2a-partner) から参加可能。
+- **質問・議論:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions)にご参加ください。
+- **不具合・フィードバック:** [GitHub Issues](https://github.com/a2aproject/A2A/issues)で報告や提案が可能です。
+- **貢献ガイド:** [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md)でコントリビュート方法を確認できます。
+- **個別フィードバック:** この[Google フォーム](https://goo.gle/a2a-feedback)をご利用ください。
+- **パートナープログラム:** Google Cloudのお客様は[こちらのフォーム](https://goo.gle/a2a-partner)からパートナープログラムに参加できます。
 
-## 次の展開
+## 今後の予定
 
 ### プロトコル強化
 
 - **エージェント発見:**
-    - 認可方式やオプション認証情報を `AgentCard` に正式に含めることを検討。
+    - 認可方式やオプションの認証情報を`AgentCard`内に正式に含めることを検討。
 - **エージェント協調:**
-    - 未対応または予期しないスキルを動的に確認する `QuerySkill()` メソッドの検討。
+    - 未サポートまたは想定外のスキルを動的に確認する`QuerySkill()`メソッドを検討。
 - **タスクライフサイクルとUX:**
-    - タスク内での動的なUXネゴシエーションのサポート（例：エージェントが会話中に音声/ビデオを追加）。
-- **クライアントメソッドとトランスポート：**
-    - クライアント主導のメソッド（タスク管理以外）への対応拡張の検討。
-    - ストリーミングの信頼性向上およびプッシュ通知メカニズムの改善。
+    - タスク内での動的UX交渉のサポート（例：エージェントが会話中に音声/ビデオを追加）。
+- **クライアントメソッドとトランスポート:**
+    - クライアント主導のメソッド（タスク管理以外）への対応拡張を検討。
+    - ストリーミングの信頼性やプッシュ通知メカニズムの改善。
 
 ## 概要
 
-A2Aプロトコルは、GoogleによってLinux Foundationに寄贈されたオープンソースプロジェクトです。[Apache License 2.0](LICENSE)の下でライセンスされており、コミュニティからの貢献を受け付けています。
+A2AプロトコルはLinux FoundationのもとでGoogleが貢献したオープンソースプロジェクトです。[Apache License 2.0](LICENSE) のもとでライセンスされており、コミュニティからの貢献も歓迎しています。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

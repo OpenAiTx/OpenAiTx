@@ -82,54 +82,55 @@
 ### คุณสมบัติเด่น
 
 - **การสื่อสารมาตรฐาน:** JSON-RPC 2.0 ผ่าน HTTP(S)
-- **การค้นหาเอเจนต์:** ผ่าน "Agent Cards" ที่แสดงรายละเอียดความสามารถและข้อมูลการเชื่อมต่อ
-- **การโต้ตอบที่ยืดหยุ่น:** รองรับการร้องขอ/ตอบกลับแบบ synchronous, การสตรีม (SSE) และการแจ้งเตือนแบบ asynchronous push
-- **การแลกเปลี่ยนข้อมูลที่หลากหลาย:** รองรับข้อความ, ไฟล์ และข้อมูล JSON ที่มีโครงสร้าง
-- **พร้อมสำหรับองค์กร:** ออกแบบโดยคำนึงถึงความปลอดภัย, การรับรองตัวตน และการสังเกตการณ์
+- **การค้นหาเอเจนต์:** ผ่าน "Agent Cards" ที่แสดงความสามารถและข้อมูลการเชื่อมต่อ
+- **การโต้ตอบที่ยืดหยุ่น:** รองรับการร้องขอ/ตอบกลับแบบ synchronous, การสตรีม (SSE), และการแจ้งเตือนแบบ asynchronous push
+- **การแลกเปลี่ยนข้อมูลที่หลากหลาย:** รองรับข้อความ, ไฟล์, และข้อมูล JSON ที่มีโครงสร้าง
+- **พร้อมสำหรับองค์กร:** ออกแบบโดยคำนึงถึงความปลอดภัย, การรับรองตัวตน, และการสังเกตการณ์
 
 ## เริ่มต้นใช้งาน
 
-- 📚 **สำรวจเอกสาร:** เยี่ยมชม [เว็บไซต์เอกสาร Agent2Agent Protocol](https://a2a-protocol.org) เพื่อดูภาพรวม, ข้อกำหนดโปรโตคอลฉบับเต็ม, บทเรียน และคู่มือ
-- 📝 **ดูข้อกำหนด:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
-- ใช้ SDK:
+- 📚 **สำรวจเอกสาร:** เยี่ยมชม [เว็บไซต์เอกสาร Agent2Agent Protocol](https://a2a-protocol.org) เพื่อดูภาพรวม, สเปคโปรโตคอลฉบับเต็ม, บทเรียน และคู่มือ
+- 📝 **ดูสเปคโปรโตคอล:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
+- ใช้ SDK ต่าง ๆ :
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) ใช้งานผ่าน maven
-    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) ใช้งานผ่าน [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
-- 🎬 ใช้ [ตัวอย่าง](https://github.com/a2aproject/a2a-samples) ของเราเพื่อดู A2A ในการใช้งานจริง
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) ใช้ maven
+    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) ใช้ [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
+- 🎬 ใช้ [ตัวอย่าง](https://github.com/a2aproject/a2a-samples) ของเราเพื่อดูการทำงานของ A2A
 
 ## การมีส่วนร่วม
 
 เรายินดีต้อนรับการมีส่วนร่วมจากชุมชนเพื่อพัฒนาและต่อยอดโปรโตคอล A2A!
 
-- **ถามตอบ & พูดคุย:** เข้าร่วม [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) ของเรา
-- **ปัญหา & ข้อเสนอแนะ:** รายงานปัญหาหรือเสนอแนะการปรับปรุงผ่าน [GitHub Issues](https://github.com/a2aproject/A2A/issues)
-- **คู่มือการมีส่วนร่วม:** ดู [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) เพื่อรายละเอียดเกี่ยวกับการมีส่วนร่วม
+- **คำถาม & การอภิปราย:** เข้าร่วม [GitHub Discussions](https://github.com/a2aproject/A2A/discussions)
+- **ปัญหา & ข้อเสนอแนะ:** รายงานปัญหาหรือเสนอปรับปรุงผ่าน [GitHub Issues](https://github.com/a2aproject/A2A/issues)
+- **คู่มือการมีส่วนร่วม:** ดู [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) สำหรับรายละเอียดเกี่ยวกับการมีส่วนร่วม
 - **ข้อเสนอแนะส่วนตัว:** ใช้ [Google Form](https://goo.gle/a2a-feedback) นี้
-- **โปรแกรมพันธมิตร:** ลูกค้า Google Cloud สามารถเข้าร่วมโปรแกรมพันธมิตรของเราผ่าน [แบบฟอร์มนี้](https://goo.gle/a2a-partner)
+- **โปรแกรมพันธมิตร:** ลูกค้า Google Cloud สามารถเข้าร่วมโปรแกรมพันธมิตรผ่าน [ฟอร์มนี้](https://goo.gle/a2a-partner)
 
 ## สิ่งที่จะเกิดขึ้นต่อไป
 
 ### การปรับปรุงโปรโตคอล
 
 - **การค้นหาเอเจนต์:**
-    - กำหนดอย่างเป็นทางการสำหรับการรวมรูปแบบการอนุญาตและข้อมูลรับรองแบบเลือกได้ภายใน `AgentCard`
-- **การทำงานร่วมกันของเอเจนต์:**
-    - ศึกษาวิธี `QuerySkill()` เพื่อการตรวจสอบทักษะที่ไม่รองรับหรือไม่คาดคิดแบบไดนามิก
-- **วงจรงาน & UX:**
-    - รองรับการเจรจา UX แบบไดนามิก _ภายใน_ งาน (เช่น เอเจนต์เพิ่มเสียง/วิดีโอกลางการสนทนา)
-- **วิธีของไคลเอนต์ & การขนส่ง:**
-    - สำรวจการขยายการรองรับไปยังวิธีที่ไคลเอนต์เริ่มต้น (นอกเหนือจากการจัดการงาน)
+    - กำหนดอย่างเป็นทางการให้รวมรูปแบบการอนุญาตและข้อมูลรับรองที่เป็นทางเลือกไว้ใน `AgentCard`
+- **ความร่วมมือระหว่างเอเจนต์:**
+    - ศึกษาวิธี `QuerySkill()` สำหรับตรวจสอบทักษะที่ไม่รองรับหรือไม่คาดคิดแบบไดนามิก
+- **วงจรชีวิตของงาน & UX:**
+    - รองรับการเจรจา UX แบบไดนามิก _ภายใน_ งาน (เช่น ตัวแทนเพิ่มเสียง/วิดีโอกลางการสนทนา)
+- **วิธีการของไคลเอนต์ & การขนส่ง:**
+    - สำรวจการขยายการรองรับวิธีการที่ไคลเอนต์เริ่มต้น (นอกเหนือจากการจัดการงาน)
     - ปรับปรุงความน่าเชื่อถือของการสตรีมและกลไกการแจ้งเตือนแบบพุช
 
 ## เกี่ยวกับ
 
-โปรโตคอล A2A เป็นโครงการโอเพ่นซอร์สภายใต้ Linux Foundation ซึ่งได้รับการสนับสนุนโดย Google ได้รับอนุญาตภายใต้ [Apache License 2.0](LICENSE) และเปิดรับการมีส่วนร่วมจากชุมชน
+โปรโตคอล A2A เป็นโครงการโอเพนซอร์สภายใต้ Linux Foundation โดยได้รับการสนับสนุนจาก Google โครงการนี้อยู่ภายใต้ [Apache License 2.0](LICENSE) และเปิดรับการมีส่วนร่วมจากชุมชน
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

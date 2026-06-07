@@ -1,0 +1,1260 @@
+[
+  {
+    "Id": 1,
+    "Content": "# WG Commander \n\naka \"wg-cmd\" — TUI for managing WireGuard configuration files\n\n<a href=\"https://github.com/andrianbdn/wg-cmd/releases/latest\"><img src=\"https://img.shields.io/github/v/release/andrianbdn/wg-cmd\" /></a>\n<a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/andrianbdn/wg-cmd\" /></a>\n<a href=\"./go.mod\"><img src=\"https://img.shields.io/github/go-mod/go-version/andrianbdn/wg-cmd\" /></a>\n[![Go Report Card](https://goreportcard.com/badge/github.com/andrianbdn/wg-cmd)](https://goreportcard.com/report/github.com/andrianbdn/wg-cmd)\n\n![screenshot](https://user-images.githubusercontent.com/994900/218720566-e5b3ab22-d7fc-4df7-a777-ad9b6280ada8.png)\n\n# Features\n- no need for a browser or HTTP port - works in the terminal, over SSH too\n- has a nice Setup Wizard\n- text-based user interface for managing peers\n- view QR code in the terminal\n- copy configuration to clipboard (OSC 52)\n- automatically configures sysctl, systemd, NAT\n\n## Current Limitations\n- supports simple client-server WireGuard setup\n- mostly for Linux (assumes iptables, systemd, sysctl are available) — see [Other OS](#other-os-besides-linux) section\n- can't manage existing WireGuard configuration (but you can create new WireGuard interfaces on the same host)\n\n# Installation \n\nMake sure you have WireGuard and iptables installed \n(`apt install wireguard-tools` in Ubuntu / Debian, `dnf install wireguard-tools iptables` in Rocky/Alma 9). \n\nTo download using curl run:",
+    "ContentSha": "HYyhuiR47I/NKmd1YzIhYsA5DmoHhtgGbtBOs10AiAU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# WG Commander \n\ntambién conocido como \"wg-cmd\" — TUI para gestionar archivos de configuración de WireGuard\n\n<a href=\"https://github.com/andrianbdn/wg-cmd/releases/latest\"><img src=\"https://img.shields.io/github/v/release/andrianbdn/wg-cmd\" /></a>\n<a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/andrianbdn/wg-cmd\" /></a>\n<a href=\"./go.mod\"><img src=\"https://img.shields.io/github/go-mod/go-version/andrianbdn/wg-cmd\" /></a>\n[![Go Report Card](https://goreportcard.com/badge/github.com/andrianbdn/wg-cmd)](https://goreportcard.com/report/github.com/andrianbdn/wg-cmd)\n\n![captura de pantalla](https://user-images.githubusercontent.com/994900/218720566-e5b3ab22-d7fc-4df7-a777-ad9b6280ada8.png)\n\n# Características\n- no requiere navegador ni puerto HTTP - funciona en la terminal, también por SSH\n- incluye un asistente de configuración agradable\n- interfaz de usuario basada en texto para gestionar peers\n- ver código QR en la terminal\n- copiar configuración al portapapeles (OSC 52)\n- configura automáticamente sysctl, systemd, NAT\n\n## Limitaciones actuales\n- soporta configuración simple cliente-servidor de WireGuard\n- mayormente para Linux (asume que iptables, systemd, sysctl están disponibles) — ver sección [Otros SO](#other-os-besides-linux)\n- no puede gestionar configuraciones existentes de WireGuard (pero puede crear nuevas interfaces WireGuard en el mismo host)\n\n# Instalación \n\nAsegúrese de tener instalados WireGuard e iptables \n(`apt install wireguard-tools` en Ubuntu / Debian, `dnf install wireguard-tools iptables` en Rocky/Alma 9). \n\nPara descargar usando curl ejecute:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QPgFpyQ2plnUywYklW+z5QBg0yi10BH8Npq4fh1jWlA=",
+        "originContent": "# WG Commander ",
+        "translatedContent": "# WG Commander "
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MtLR9qROLVx0KBtgfCysvk5EmsbAOUW30/+r94g2uMk=",
+        "originContent": "aka \"wg-cmd\" — TUI for managing WireGuard configuration files",
+        "translatedContent": "también conocido como \"wg-cmd\" — TUI para gestionar archivos de configuración de WireGuard"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "dBT2hRlKR7MSLmprxUQgssOfS0CEdBjpjfB6KwF1/0o=",
+        "originContent": "<a href=\"https://github.com/andrianbdn/wg-cmd/releases/latest\"><img src=\"https://img.shields.io/github/v/release/andrianbdn/wg-cmd\" /></a>",
+        "translatedContent": "<a href=\"https://github.com/andrianbdn/wg-cmd/releases/latest\"><img src=\"https://img.shields.io/github/v/release/andrianbdn/wg-cmd\" /></a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "YMe8B7ckFZpXZGgt8gMf9n89KkucxW+k89g4pd3sNQk=",
+        "originContent": "<a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/andrianbdn/wg-cmd\" /></a>",
+        "translatedContent": "<a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/andrianbdn/wg-cmd\" /></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "tZjnUT7suWxYbcS/ySRnhgX5qB11Q7kN5Y8RXNCq5wQ=",
+        "originContent": "<a href=\"./go.mod\"><img src=\"https://img.shields.io/github/go-mod/go-version/andrianbdn/wg-cmd\" /></a>",
+        "translatedContent": "<a href=\"./go.mod\"><img src=\"https://img.shields.io/github/go-mod/go-version/andrianbdn/wg-cmd\" /></a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "T6btjlWOF80gS/1jgW8rM/pgJUZrrdYwtQvBqH/hXJg=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/andrianbdn/wg-cmd)](https://goreportcard.com/report/github.com/andrianbdn/wg-cmd)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/andrianbdn/wg-cmd)](https://goreportcard.com/report/github.com/andrianbdn/wg-cmd)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ILH6oshQIMMgmXQabYxDH7qmIHJIRKVtBTsijPJlv2M=",
+        "originContent": "![screenshot](https://user-images.githubusercontent.com/994900/218720566-e5b3ab22-d7fc-4df7-a777-ad9b6280ada8.png)",
+        "translatedContent": "![captura de pantalla](https://user-images.githubusercontent.com/994900/218720566-e5b3ab22-d7fc-4df7-a777-ad9b6280ada8.png)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Qxdp3Hj7dWmz+GAKg4NkEzKgHfg+ZfXXUNg0RDB9+KI=",
+        "originContent": "# Features",
+        "translatedContent": "# Características"
+      },
+      {
+        "row": 13,
+        "rowsha": "0q1v7ycsEXhjO69L6Dm3TVgE0FrzK/01e/X9CoOpcfQ=",
+        "originContent": "- no need for a browser or HTTP port - works in the terminal, over SSH too",
+        "translatedContent": "- no requiere navegador ni puerto HTTP - funciona en la terminal, también por SSH"
+      },
+      {
+        "row": 14,
+        "rowsha": "F658Ky16aZ8JwNq7lknIbb80lfQ0ifoRJPylkUpRgQA=",
+        "originContent": "- has a nice Setup Wizard",
+        "translatedContent": "- incluye un asistente de configuración agradable"
+      },
+      {
+        "row": 15,
+        "rowsha": "HmMl9jtBFqnZOq6+GY6fn+1DO1xGgQOugudG0GGofP4=",
+        "originContent": "- text-based user interface for managing peers",
+        "translatedContent": "- interfaz de usuario basada en texto para gestionar peers"
+      },
+      {
+        "row": 16,
+        "rowsha": "TdwMnET5MtIpffC+E/KGC7r+uhK7HV+3Cmk0Qqe8Qss=",
+        "originContent": "- view QR code in the terminal",
+        "translatedContent": "- ver código QR en la terminal"
+      },
+      {
+        "row": 17,
+        "rowsha": "0bv8/QNA+WqdeCDl+OIIvHHjT4Rf9b09HZ0ypHvG6Tc=",
+        "originContent": "- copy configuration to clipboard (OSC 52)",
+        "translatedContent": "- copiar configuración al portapapeles (OSC 52)"
+      },
+      {
+        "row": 18,
+        "rowsha": "QdIkMpxSFsvjaGPGTGTSM11F1NvNtWM/lttLfFOjekc=",
+        "originContent": "- automatically configures sysctl, systemd, NAT",
+        "translatedContent": "- configura automáticamente sysctl, systemd, NAT"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "lJtCUfyVA+N+2G4CryX7xPxANRXaon99nLkTBv3WoiQ=",
+        "originContent": "## Current Limitations",
+        "translatedContent": "## Limitaciones actuales"
+      },
+      {
+        "row": 21,
+        "rowsha": "83SYZGjPTKfQnFPbq+EqKyfHrxK8JhBhfygJCRlJRgg=",
+        "originContent": "- supports simple client-server WireGuard setup",
+        "translatedContent": "- soporta configuración simple cliente-servidor de WireGuard"
+      },
+      {
+        "row": 22,
+        "rowsha": "Bk+pA+xhHVebZx1jPbc209o3u+2d1v/GtDA7dDVCgmQ=",
+        "originContent": "- mostly for Linux (assumes iptables, systemd, sysctl are available) — see [Other OS](#other-os-besides-linux) section",
+        "translatedContent": "- mayormente para Linux (asume que iptables, systemd, sysctl están disponibles) — ver sección [Otros SO](#other-os-besides-linux)"
+      },
+      {
+        "row": 23,
+        "rowsha": "DUjng0Zxp9GPWDMnS8hPqzE82W4YzYKZUwG7hO8WWBY=",
+        "originContent": "- can't manage existing WireGuard configuration (but you can create new WireGuard interfaces on the same host)",
+        "translatedContent": "- no puede gestionar configuraciones existentes de WireGuard (pero puede crear nuevas interfaces WireGuard en el mismo host)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "jXtVfaOSO0aaCud+S9FT+GMeHNn/S6se3b99kJA4xd8=",
+        "originContent": "# Installation ",
+        "translatedContent": "# Instalación "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "KJjtQ45z1q9BKtagY2Bcq6o47mOIZkOUdSLyieGdMW0=",
+        "originContent": "Make sure you have WireGuard and iptables installed ",
+        "translatedContent": "Asegúrese de tener instalados WireGuard e iptables "
+      },
+      {
+        "row": 28,
+        "rowsha": "Ng4XG0J9j9BX0yFUkk48JrHF5DEeNS/o1FaWylhqPto=",
+        "originContent": "(`apt install wireguard-tools` in Ubuntu / Debian, `dnf install wireguard-tools iptables` in Rocky/Alma 9). ",
+        "translatedContent": "(`apt install wireguard-tools` en Ubuntu / Debian, `dnf install wireguard-tools iptables` en Rocky/Alma 9). "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "913k5u299mxpVff/1O9LhVoWbACLnA1JrDOySOfZ9mg=",
+        "originContent": "To download using curl run:",
+        "translatedContent": "Para descargar usando curl ejecute:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\n# for x86_64 \ncurl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-amd64 -o /usr/local/bin/wg-cmd\n\n# for arm64 \ncurl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-arm64 -o /usr/local/bin/wg-cmd\n```",
+    "ContentSha": "6wkom3PlX/iSeUllfr71/EaSOXZ5k3ioh5ohuxB/26U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n# for x86_64 \ncurl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-amd64 -o /usr/local/bin/wg-cmd\n\n# for arm64 \ncurl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-arm64 -o /usr/local/bin/wg-cmd\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "fmSfvDf+QdcbnQq8b7As93+zTnKGVMasNILR9sc551k=",
+        "originContent": "# for x86_64 ",
+        "translatedContent": "# for x86_64 "
+      },
+      {
+        "row": 3,
+        "rowsha": "5t2yrktHP23B/5Emjv3QSZGWua3RhOizabhoclesdvQ=",
+        "originContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-amd64 -o /usr/local/bin/wg-cmd",
+        "translatedContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-amd64 -o /usr/local/bin/wg-cmd"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "s9YgpjWanNmh+dBmfKtvHz+mkDCo3OVn/b+T02Cmwas=",
+        "originContent": "# for arm64 ",
+        "translatedContent": "# for arm64 "
+      },
+      {
+        "row": 6,
+        "rowsha": "xqHm28HAFdQoK3WscCzcd10GrWqtTuVwQ9Tnbt7uSnY=",
+        "originContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-arm64 -o /usr/local/bin/wg-cmd",
+        "translatedContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-arm64 -o /usr/local/bin/wg-cmd"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nSet proper permissions and run the tool: ",
+    "ContentSha": "A6DJFBNJUDpD5DSafOIfo1XG0Az09KXM9ir+wj16Ing=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEstablezca los permisos adecuados y ejecute la herramienta: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dlTQdYCBwYTJEEq2Ltzrucp9nOEhUqFtUU+deInj62c=",
+        "originContent": "Set proper permissions and run the tool: ",
+        "translatedContent": "Establezca los permisos adecuados y ejecute la herramienta: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nchmod 755 /usr/local/bin/wg-cmd\nwg-cmd\n```",
+    "ContentSha": "Upu9uuLM3TZxP/UNAS8MjNi9gmiXTei/Em/VpZcsFP0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nchmod 755 /usr/local/bin/wg-cmd\nwg-cmd\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "7vZfEkAxBPlVzatdJ6bL9sf2G6f9mxOU85pCaO5wk6I=",
+        "originContent": "chmod 755 /usr/local/bin/wg-cmd",
+        "translatedContent": "chmod 755 /usr/local/bin/wg-cmd"
+      },
+      {
+        "row": 3,
+        "rowsha": "HZSZ1dxxVwgOYpTxL4CzLkfOj6/UB8EKIOGX95XQAEg=",
+        "originContent": "wg-cmd",
+        "translatedContent": "wg-cmd"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nIf you don't have `/usr/local/bin` in $PATH you will have to\nrun `/usr/local/bin/wg-cmd` command using the full path.\n\nWG Commander requires root permissions to automatically tune sysctl, to create systemd units and to write to /etc/wireguard.\n\n# Usage \n\nOn first run WG Commander will show the setup wizard, that allows to configure new WireGuard interface interactively.\n\nOn subsequent runs (if wizard was successful) it will just display management TUI.\n\nNote regarding the QR code: some devices (Android?) may require a higher quality QR code. WG Commander will automatically increase quality when you make Terminal window resolution larger (smaller font, larger window).\n\n## Advanced usage\n\nYou can run WG Commander as a non-root user if you change permissions on \n/etc/wireguard and configure sysctl/systemd manually.\n\nWG Commander keeps its own UI config in `~/.config/wg-cmd/wg-cmd.toml`\n\nThe most important options are:",
+    "ContentSha": "rxfxarVnQ99zvnp+UfXB529Xa8VzfV7KKPzL5iz0Fks=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Si no tienes `/usr/local/bin` en $PATH tendrás que  \nejecutar el comando `/usr/local/bin/wg-cmd` usando la ruta completa.  \n\nWG Commander requiere permisos de root para ajustar automáticamente sysctl,  \ncrear unidades systemd y escribir en /etc/wireguard.  \n\n# Uso  \n\nEn la primera ejecución WG Commander mostrará el asistente de configuración,  \nque permite configurar una nueva interfaz WireGuard de forma interactiva.  \n\nEn ejecuciones posteriores (si el asistente fue exitoso) simplemente mostrará la TUI de gestión.  \n\nNota sobre el código QR: algunos dispositivos (¿Android?) pueden requerir un código QR de mayor calidad.  \nWG Commander aumentará automáticamente la calidad cuando aumentes la resolución de la ventana del Terminal  \n(fuente más pequeña, ventana más grande).  \n\n## Uso avanzado  \n\nPuedes ejecutar WG Commander como usuario no root si cambias los permisos en  \n/etc/wireguard y configuras sysctl/systemd manualmente.  \n\nWG Commander guarda su propia configuración de UI en `~/.config/wg-cmd/wg-cmd.toml`  \n\nLas opciones más importantes son:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Si no tienes `/usr/local/bin` en $PATH tendrás que  "
+      },
+      {
+        "row": 2,
+        "rowsha": "rU/cnuLsLHtU/zW0LgDZPFWw5JrAYMHe0JI6Nm/j2Jc=",
+        "originContent": "If you don't have `/usr/local/bin` in $PATH you will have to",
+        "translatedContent": "ejecutar el comando `/usr/local/bin/wg-cmd` usando la ruta completa.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "QlSkpLOiOSjj6CMpUevGi2F/URMxL1YLRMFUJBTrXz8=",
+        "originContent": "run `/usr/local/bin/wg-cmd` command using the full path.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "WG Commander requiere permisos de root para ajustar automáticamente sysctl,  "
+      },
+      {
+        "row": 5,
+        "rowsha": "v+qNEKDnb7kYfplLHnB8dfXHuFjlCsuDD4oEVnIwtkA=",
+        "originContent": "WG Commander requires root permissions to automatically tune sysctl, to create systemd units and to write to /etc/wireguard.",
+        "translatedContent": "crear unidades systemd y escribir en /etc/wireguard.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "rUB/PvbzurYkhhs31kI+7MmvE8FGsjHz3ULyZykfYmw=",
+        "originContent": "# Usage ",
+        "translatedContent": "# Uso  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "68htxqVQo+9HuKbOu027eHjEFm847fGMFmsPJNUQ3Ec=",
+        "originContent": "On first run WG Commander will show the setup wizard, that allows to configure new WireGuard interface interactively.",
+        "translatedContent": "En la primera ejecución WG Commander mostrará el asistente de configuración,  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "que permite configurar una nueva interfaz WireGuard de forma interactiva.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "DhSC40tHm6/3BrcY6dLjTHB227coVRjwYv4ceFERfXc=",
+        "originContent": "On subsequent runs (if wizard was successful) it will just display management TUI.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "En ejecuciones posteriores (si el asistente fue exitoso) simplemente mostrará la TUI de gestión.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "cF7bEovBZXtlFTVJ+3kX+4NpS1wiGZe0Lggbp13o5oA=",
+        "originContent": "Note regarding the QR code: some devices (Android?) may require a higher quality QR code. WG Commander will automatically increase quality when you make Terminal window resolution larger (smaller font, larger window).",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Nota sobre el código QR: algunos dispositivos (¿Android?) pueden requerir un código QR de mayor calidad.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "FmSmVlAoS4Hnl2F5sGnQVfoAH2+CAUxSh6jccJ8XtsA=",
+        "originContent": "## Advanced usage",
+        "translatedContent": "WG Commander aumentará automáticamente la calidad cuando aumentes la resolución de la ventana del Terminal  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "(fuente más pequeña, ventana más grande).  "
+      },
+      {
+        "row": 17,
+        "rowsha": "6zhooABDyIxwGlU+t6HTuHb0b31XUi8G9lpWCcjBpBw=",
+        "originContent": "You can run WG Commander as a non-root user if you change permissions on ",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "f+AKE47b9BcAJWD0sQKPP7L0xzFTi+QKS/MfZWjZo98=",
+        "originContent": "/etc/wireguard and configure sysctl/systemd manually.",
+        "translatedContent": "## Uso avanzado  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ljDrWmESf9A0V0eDlHfABgfaXMeqKIj0d2v7qpZa/rM=",
+        "originContent": "WG Commander keeps its own UI config in `~/.config/wg-cmd/wg-cmd.toml`",
+        "translatedContent": "Puedes ejecutar WG Commander como usuario no root si cambias los permisos en  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "/etc/wireguard y configuras sysctl/systemd manualmente.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "eHcFsjDrpWo0GNjNsRGHcNSeDuwH/ZqTNcPNug/ifb4=",
+        "originContent": "The most important options are:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```toml\nWireguardDir = \"/etc/wireguard\"\n# directory for WireGuard configuration files \n\nDatabaseDir = \"/etc/wireguard\"\n# directory for WG Commander database files (wgc-<interface-name>)\n```",
+    "ContentSha": "COUT2epTphDNmdEgnNZVld9F0F8usWe5zKxCYu/FF8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\nWireguardDir = \"/etc/wireguard\"\n# directory for WireGuard configuration files \n\nDatabaseDir = \"/etc/wireguard\"\n# directory for WG Commander database files (wgc-<interface-name>)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "GOJMa7nE2ptCk/OCyOz5cwexGYG3fqf1qILWVp4a/e0=",
+        "originContent": "WireguardDir = \"/etc/wireguard\"",
+        "translatedContent": "WireguardDir = \"/etc/wireguard\""
+      },
+      {
+        "row": 3,
+        "rowsha": "IPS5cdzlzBv+N5393KoTs709+zjaciGit0Xdlxqw3kY=",
+        "originContent": "# directory for WireGuard configuration files ",
+        "translatedContent": "# directory for WireGuard configuration files "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "NUATL3e4+pspYNsa7p19MuCh0A5Ki3BMKukKJVqfJC8=",
+        "originContent": "DatabaseDir = \"/etc/wireguard\"",
+        "translatedContent": "DatabaseDir = \"/etc/wireguard\""
+      },
+      {
+        "row": 6,
+        "rowsha": "t3ScziXQD4ZpR/l12D0NFtMaXEArCU2gewCyrfJyFu0=",
+        "originContent": "# directory for WG Commander database files (wgc-<interface-name>)",
+        "translatedContent": "# directory for WG Commander database files (wgc-<interface-name>)"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nYou can change these options to point to directories that you have write access to.\n\n### Special options \n\nRun `wg-cmd new` to start the wizard for new interface configuration.\n\nRun `wg-cmd <wg-interface>` to switch to specific interface (must be created before with wg-cmd).\n\nRun `wg-cmd <wg-interface> make` to generate Wireguard configuration without showing UI.\n\n### Configuration \n\nWG Commander uses directories as its \"database\". \nIt stores the interface configuration in /etc/wireguard/wgc-<interface-name> directory. \n\nThe configuration is stored using [TOML](https://toml.io) file format.\n\nMost configuration keys are similar to WireGuard ones. \n\n#### server configuration (0001-server.toml)\nSome keys in this configuration file will actually be used for generating \nclient configuration files. \n\n`ClientRoute` - AllowedIPs for client config\n\n`ClientDNS` - DNS configuration value for all clients\n\n`ClientServerEndpoint` - Endpoint for client config\n\n`ClientPersistentKeepalive` - PersistentKeepalive for client config \n\n`MTU` - MTU for the server and client (0 — make WireGuard choose)\n\n#### client configuration (nnnn-%client%.toml)\n\n`ClientRoute` - completely overrides the `ClientRoute` from the server config\n\n`AddServerRoute` - adds additional network to AllowedIPs for the client on the server side (useful \nwhen you want to route traffic to one client to another client's network through the server)",
+    "ContentSha": "aZsNywn7frVKqPnE7/9+y5BNnhJD1QUcZaTOeZRwHac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPuede cambiar estas opciones para que apunten a directorios a los que tenga acceso de escritura.\n\n### Opciones especiales \n\nEjecute `wg-cmd new` para iniciar el asistente para la configuración de una nueva interfaz.\n\nEjecute `wg-cmd <wg-interface>` para cambiar a una interfaz específica (debe haberse creado antes con wg-cmd).\n\nEjecute `wg-cmd <wg-interface> make` para generar la configuración de Wireguard sin mostrar la interfaz gráfica.\n\n### Configuración \n\nWG Commander utiliza directorios como su \"base de datos\". \nAlmacena la configuración de la interfaz en el directorio /etc/wireguard/wgc-<nombre-de-la-interfaz>. \n\nLa configuración se almacena utilizando el formato de archivo [TOML](https://toml.io).\n\nLa mayoría de las claves de configuración son similares a las de WireGuard. \n\n#### configuración del servidor (0001-server.toml)\nAlgunas claves en este archivo de configuración se utilizarán realmente para generar \narchivos de configuración del cliente. \n\n`ClientRoute` - AllowedIPs para la configuración del cliente\n\n`ClientDNS` - Valor de configuración DNS para todos los clientes\n\n`ClientServerEndpoint` - Endpoint para la configuración del cliente\n\n`ClientPersistentKeepalive` - PersistentKeepalive para la configuración del cliente \n\n`MTU` - MTU para el servidor y el cliente (0 — hacer que WireGuard lo elija)\n\n#### configuración del cliente (nnnn-%client%.toml)\n\n`ClientRoute` - reemplaza completamente el `ClientRoute` de la configuración del servidor\n\n`AddServerRoute` - añade una red adicional a AllowedIPs para el cliente en el lado del servidor (útil \ncuando desea enrutar el tráfico de un cliente a la red de otro cliente a través del servidor)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "34LrvaxfX+OTVdwEyHcjbhWyfvA9DNOdaK82CA5kd+I=",
+        "originContent": "You can change these options to point to directories that you have write access to.",
+        "translatedContent": "Puede cambiar estas opciones para que apunten a directorios a los que tenga acceso de escritura."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "I5wa7kNZQK2uEugLNUJT3AzoqqowQYlMI0o9JUXsjDw=",
+        "originContent": "### Special options ",
+        "translatedContent": "### Opciones especiales "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "h7REau/rCkXuxlMz/QjaG/QKT3jECbloQZPkiZnNdpQ=",
+        "originContent": "Run `wg-cmd new` to start the wizard for new interface configuration.",
+        "translatedContent": "Ejecute `wg-cmd new` para iniciar el asistente para la configuración de una nueva interfaz."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ZO1dLRolRbS153nFzvmTB35FmwnrXKnCqAdx3S+J7t0=",
+        "originContent": "Run `wg-cmd <wg-interface>` to switch to specific interface (must be created before with wg-cmd).",
+        "translatedContent": "Ejecute `wg-cmd <wg-interface>` para cambiar a una interfaz específica (debe haberse creado antes con wg-cmd)."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "bX1vZ8vDSQcl8B70lTEwlUxqugdF9R2a+bwg3ulOBoA=",
+        "originContent": "Run `wg-cmd <wg-interface> make` to generate Wireguard configuration without showing UI.",
+        "translatedContent": "Ejecute `wg-cmd <wg-interface> make` para generar la configuración de Wireguard sin mostrar la interfaz gráfica."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "KR1cPLpZ3VrRS9YNmFnBAtdnOPFFe7oz+1GLke5ATxM=",
+        "originContent": "### Configuration ",
+        "translatedContent": "### Configuración "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "c0sVf/ytk0IjEMTsWf5d99HUsUjE4bA2t42B2jeujeM=",
+        "originContent": "WG Commander uses directories as its \"database\". ",
+        "translatedContent": "WG Commander utiliza directorios como su \"base de datos\". "
+      },
+      {
+        "row": 15,
+        "rowsha": "eg9GoczdC4GpoGNJsS0BOJjh8szCavGXKX8l+SU1Mqg=",
+        "originContent": "It stores the interface configuration in /etc/wireguard/wgc-<interface-name> directory. ",
+        "translatedContent": "Almacena la configuración de la interfaz en el directorio /etc/wireguard/wgc-<nombre-de-la-interfaz>. "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "XgvuQFTV1F3ldu7icmabMhTD8qSGkzltQPVpPg9mbZA=",
+        "originContent": "The configuration is stored using [TOML](https://toml.io) file format.",
+        "translatedContent": "La configuración se almacena utilizando el formato de archivo [TOML](https://toml.io)."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "hSrN5cOAe5E0fN9aXb+CUJyaM9T177jv4SaMOH0JYUw=",
+        "originContent": "Most configuration keys are similar to WireGuard ones. ",
+        "translatedContent": "La mayoría de las claves de configuración son similares a las de WireGuard. "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "ej1BUlKzPjrjfk3ks7dC9q1+t4HLyS6wZ0uxEjfAh0Q=",
+        "originContent": "#### server configuration (0001-server.toml)",
+        "translatedContent": "#### configuración del servidor (0001-server.toml)"
+      },
+      {
+        "row": 22,
+        "rowsha": "IQLqaVDIX3tAFmhPYt6c64STZUCNtJTNbJ7cllfyQl0=",
+        "originContent": "Some keys in this configuration file will actually be used for generating ",
+        "translatedContent": "Algunas claves en este archivo de configuración se utilizarán realmente para generar "
+      },
+      {
+        "row": 23,
+        "rowsha": "YblPwDVhsTFcESnuoCp3uALBK/HoU8FFVgSG9tqiluI=",
+        "originContent": "client configuration files. ",
+        "translatedContent": "archivos de configuración del cliente. "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "XRB2cNUojlytJge5FZd4SAoIA3Wnn8Zdc0To2gjIeNs=",
+        "originContent": "`ClientRoute` - AllowedIPs for client config",
+        "translatedContent": "`ClientRoute` - AllowedIPs para la configuración del cliente"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "5Nm3VUiVeb3XFgnioNE4YndrtUeYq0siiclOjGcnep0=",
+        "originContent": "`ClientDNS` - DNS configuration value for all clients",
+        "translatedContent": "`ClientDNS` - Valor de configuración DNS para todos los clientes"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "4tPOYmaTZGKZ7TFHe1UFllLRGpMy/w4AXIaFMkuwr0M=",
+        "originContent": "`ClientServerEndpoint` - Endpoint for client config",
+        "translatedContent": "`ClientServerEndpoint` - Endpoint para la configuración del cliente"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "QLBIlZJaqx8Hf7wF/Vo4nJLOVPfCdQVAwQLtQYH0gUQ=",
+        "originContent": "`ClientPersistentKeepalive` - PersistentKeepalive for client config ",
+        "translatedContent": "`ClientPersistentKeepalive` - PersistentKeepalive para la configuración del cliente "
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "jJ8pqTdZnPjXR0amJ512FeiTI2s+LaEQVsJu323XVX4=",
+        "originContent": "`MTU` - MTU for the server and client (0 — make WireGuard choose)",
+        "translatedContent": "`MTU` - MTU para el servidor y el cliente (0 — hacer que WireGuard lo elija)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "q3/ZNhd3UT2ZIFuYq92bIjbMMTm8xMXaA9jX2Yq+8FM=",
+        "originContent": "#### client configuration (nnnn-%client%.toml)",
+        "translatedContent": "#### configuración del cliente (nnnn-%client%.toml)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "CgdRRDquPWyZPxo7rpp0BcTibBz3uAxs0FSrdv2Rm6Q=",
+        "originContent": "`ClientRoute` - completely overrides the `ClientRoute` from the server config",
+        "translatedContent": "`ClientRoute` - reemplaza completamente el `ClientRoute` de la configuración del servidor"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "W7p08bcbHCIYWGnfJJRnsumqgFD/a9x+HN8zv53INlg=",
+        "originContent": "`AddServerRoute` - adds additional network to AllowedIPs for the client on the server side (useful ",
+        "translatedContent": "`AddServerRoute` - añade una red adicional a AllowedIPs para el cliente en el lado del servidor (útil "
+      },
+      {
+        "row": 40,
+        "rowsha": "Ng5oNMHpJsscFmJjiJrhkguFWkA1vCGJ/GUOk71Kzno=",
+        "originContent": "when you want to route traffic to one client to another client's network through the server)",
+        "translatedContent": "cuando desea enrutar el tráfico de un cliente a la red de otro cliente a través del servidor)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "\n`MTU` - Override server MTU with a different value for this client. Set to -1 to omit MTU from this WireGuard client config.\n\n`DNS` - Override server `ClientDNS` setting for all clients. Specify a comma separated IP list. \nSet to `no` or `none` to omit DNS from this WireGuard client config.\n\nClient configuration files contain `PrivateKey` field. \nIf you find it unacceptable, you can remove it from the file after you exported \nconfiguration (or QR code) to the client.\n\n### Other OS besides Linux\n\nWG Commander is designed to work on Linux, because it uses procfs, systemd, iptables, sysctl. \nHowever, it is written in plain Go, so it should work on any OS that Go supports.\n\n- You will need to compile binary yourself.\n- Set the environment variable `WG_CMD_NO_DEPS` to 1 to disable any Linux-specific checks on start. \n- Edit 0001-server.toml and set your OS commands in PostUp4/PostUp6/PostDown4/PostDown6 fields.\n- You will need to reload WireGuard configuration: manually when you change something\nor monitor /etc/wireguard/wg*.conf files for changes and reload WireGuard automatically.\n\nPRs are welcome to add support for other OSes.\n\n### Running in Docker \n\nAlthough it is possible, it is not recommended to run WG Commander in Docker. \n\nThe Setup Wizard will not work properly, because it needs to create systemd units and modify sysctl.\n\n\n### Uninstall \n\nTo uninstall WG Commander, just remove the binary from /usr/local/bin/wg-cmd. \nYou can also remove directories /etc/wireguard/wgc-* and ~/.config/wg-cmd\n\nIf you have created systemd units, you will need to remove them manually.\n\nBelow is an example of how to remove WG Commander managed interface wg7 \n(change it to whatever interface you need to delete):\n",
+    "ContentSha": "r2fToqFF8f9m8N2zNv3FoHdLW/78DPS8/m/SZCEqHio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`MTU` - Sobrescribir el MTU del servidor con un valor diferente para este cliente. Establecer en -1 para omitir el MTU en esta configuración del cliente WireGuard.\n\n`DNS` - Sobrescribir la configuración `ClientDNS` del servidor para todos los clientes. Especificar una lista de IPs separadas por comas.  \nEstablecer en `no` o `none` para omitir DNS en esta configuración del cliente WireGuard.\n\nLos archivos de configuración del cliente contienen el campo `PrivateKey`.  \nSi lo considera inaceptable, puede eliminarlo del archivo después de exportar  \nla configuración (o código QR) al cliente.\n\n### Otros sistemas operativos además de Linux\n\nWG Commander está diseñado para funcionar en Linux, porque utiliza procfs, systemd, iptables, sysctl.  \nSin embargo, está escrito en Go puro, por lo que debería funcionar en cualquier sistema operativo que soporte Go.\n\n- Necesitará compilar el binario usted mismo.  \n- Establezca la variable de entorno `WG_CMD_NO_DEPS` a 1 para deshabilitar cualquier verificación específica de Linux al inicio.  \n- Edite 0001-server.toml y configure sus comandos del sistema operativo en los campos PostUp4/PostUp6/PostDown4/PostDown6.  \n- Necesitará recargar la configuración de WireGuard: manualmente cuando cambie algo  \no monitorear los archivos /etc/wireguard/wg*.conf para detectar cambios y recargar WireGuard automáticamente.\n\nSe aceptan PRs para añadir soporte para otros sistemas operativos.\n\n### Ejecución en Docker\n\nAunque es posible, no se recomienda ejecutar WG Commander en Docker.\n\nEl asistente de configuración no funcionará correctamente, porque necesita crear unidades systemd y modificar sysctl.\n\n### Desinstalación\n\nPara desinstalar WG Commander, simplemente elimine el binario de /usr/local/bin/wg-cmd.  \nTambién puede eliminar los directorios /etc/wireguard/wgc-* y ~/.config/wg-cmd\n\nSi ha creado unidades systemd, deberá eliminarlas manualmente.\n\nA continuación, un ejemplo de cómo eliminar la interfaz wg7 gestionada por WG Commander  \n(cámbiela por la interfaz que necesite eliminar):\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`MTU` - Sobrescribir el MTU del servidor con un valor diferente para este cliente. Establecer en -1 para omitir el MTU en esta configuración del cliente WireGuard."
+      },
+      {
+        "row": 2,
+        "rowsha": "0YhrTPjrD5JJ1IYpZJ1CC5LkkIkYS0QADzig+3EICiE=",
+        "originContent": "`MTU` - Override server MTU with a different value for this client. Set to -1 to omit MTU from this WireGuard client config.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`DNS` - Sobrescribir la configuración `ClientDNS` del servidor para todos los clientes. Especificar una lista de IPs separadas por comas.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "G/uEE230B+u96amOvj7vSlHzdJC+LlvLHtMZ+RAZ6dY=",
+        "originContent": "`DNS` - Override server `ClientDNS` setting for all clients. Specify a comma separated IP list. ",
+        "translatedContent": "Establecer en `no` o `none` para omitir DNS en esta configuración del cliente WireGuard."
+      },
+      {
+        "row": 5,
+        "rowsha": "PqI7V2iQgCXc0gPoB7fnKf42Bo6I95Oa4rwj9YCkssU=",
+        "originContent": "Set to `no` or `none` to omit DNS from this WireGuard client config.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Los archivos de configuración del cliente contienen el campo `PrivateKey`.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "iaJ2Qtcv+mPse/kVVV/dyXC/m+5i+Udigucm6E/4+Gk=",
+        "originContent": "Client configuration files contain `PrivateKey` field. ",
+        "translatedContent": "Si lo considera inaceptable, puede eliminarlo del archivo después de exportar  "
+      },
+      {
+        "row": 8,
+        "rowsha": "RYS4B/I7Zcx1f7/5hqJxfrSEsuVTxIvc/lHS0v5bpsc=",
+        "originContent": "If you find it unacceptable, you can remove it from the file after you exported ",
+        "translatedContent": "la configuración (o código QR) al cliente."
+      },
+      {
+        "row": 9,
+        "rowsha": "D4P5PB0dBZRJqxxVpVtGRa9GQ/Sjw5z79g0U9h8kjeQ=",
+        "originContent": "configuration (or QR code) to the client.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Otros sistemas operativos además de Linux"
+      },
+      {
+        "row": 11,
+        "rowsha": "NzXPMeK/CQ9wgicN+UeGZhHxJf8xw6ZqHhmifkgjmtU=",
+        "originContent": "### Other OS besides Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "WG Commander está diseñado para funcionar en Linux, porque utiliza procfs, systemd, iptables, sysctl.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "9KVS36mkN+i0E10xrOXzT9bg4Hu/V322wYoez4TvZX0=",
+        "originContent": "WG Commander is designed to work on Linux, because it uses procfs, systemd, iptables, sysctl. ",
+        "translatedContent": "Sin embargo, está escrito en Go puro, por lo que debería funcionar en cualquier sistema operativo que soporte Go."
+      },
+      {
+        "row": 14,
+        "rowsha": "V+9zRGAFlN8krFu9hR1DVHAQQwqs+GhI88BxqqaS7nY=",
+        "originContent": "However, it is written in plain Go, so it should work on any OS that Go supports.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Necesitará compilar el binario usted mismo.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "hRs7RshHLRvuNrjsH9peGJSM2D0QbBmFC7gObqCnYf4=",
+        "originContent": "- You will need to compile binary yourself.",
+        "translatedContent": "- Establezca la variable de entorno `WG_CMD_NO_DEPS` a 1 para deshabilitar cualquier verificación específica de Linux al inicio.  "
+      },
+      {
+        "row": 17,
+        "rowsha": "CZjCSuWVQ6/byCsq3AqicFM3ZxT9udSBBAxe56Jdls0=",
+        "originContent": "- Set the environment variable `WG_CMD_NO_DEPS` to 1 to disable any Linux-specific checks on start. ",
+        "translatedContent": "- Edite 0001-server.toml y configure sus comandos del sistema operativo en los campos PostUp4/PostUp6/PostDown4/PostDown6.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "ouVWeBeKcX8SojvlB7Psot6+uujJk2Yue/FiVuDn40Q=",
+        "originContent": "- Edit 0001-server.toml and set your OS commands in PostUp4/PostUp6/PostDown4/PostDown6 fields.",
+        "translatedContent": "- Necesitará recargar la configuración de WireGuard: manualmente cuando cambie algo  "
+      },
+      {
+        "row": 19,
+        "rowsha": "tg19xo19Xdc39XTSLqr7pD4qG436/qDUJuBNbBpqnO0=",
+        "originContent": "- You will need to reload WireGuard configuration: manually when you change something",
+        "translatedContent": "o monitorear los archivos /etc/wireguard/wg*.conf para detectar cambios y recargar WireGuard automáticamente."
+      },
+      {
+        "row": 20,
+        "rowsha": "ikAccaV40OU/wqcZIbLyCF5E1RwdIf3QlsST7+9mZgw=",
+        "originContent": "or monitor /etc/wireguard/wg*.conf files for changes and reload WireGuard automatically.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Se aceptan PRs para añadir soporte para otros sistemas operativos."
+      },
+      {
+        "row": 22,
+        "rowsha": "8a3tC3HW9RMa8ZllnW1xIQgTAgX4t9XpxgnB19dBYfQ=",
+        "originContent": "PRs are welcome to add support for other OSes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Ejecución en Docker"
+      },
+      {
+        "row": 24,
+        "rowsha": "rjZkqeZv1I4Lj3xD4izlOghfdvROUHu4khgvYKMMm54=",
+        "originContent": "### Running in Docker ",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Aunque es posible, no se recomienda ejecutar WG Commander en Docker."
+      },
+      {
+        "row": 26,
+        "rowsha": "lq1nBUbaqmgPNQr4b2nOOXNH/BaW1qiIX+2saQ1yiMo=",
+        "originContent": "Although it is possible, it is not recommended to run WG Commander in Docker. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "El asistente de configuración no funcionará correctamente, porque necesita crear unidades systemd y modificar sysctl."
+      },
+      {
+        "row": 28,
+        "rowsha": "HABS82PoEEMfGq0MYi34NeYegfCOQbPqtJBhJ3ycXGQ=",
+        "originContent": "The Setup Wizard will not work properly, because it needs to create systemd units and modify sysctl.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Desinstalación"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "aLobb+JQAJjl7nnfNEOLx0mNkw0DOeyhTB9gsNILMQM=",
+        "originContent": "### Uninstall ",
+        "translatedContent": "Para desinstalar WG Commander, simplemente elimine el binario de /usr/local/bin/wg-cmd.  "
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "También puede eliminar los directorios /etc/wireguard/wgc-* y ~/.config/wg-cmd"
+      },
+      {
+        "row": 33,
+        "rowsha": "0Q2doC2nzfmy2WoxI2lXrSz/DYnC+pwoJa3AvTL7kfM=",
+        "originContent": "To uninstall WG Commander, just remove the binary from /usr/local/bin/wg-cmd. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "zMdLzunPr7JgFmd4I3S9CNx76a2Cc2ZXKpqdweq4Hts=",
+        "originContent": "You can also remove directories /etc/wireguard/wgc-* and ~/.config/wg-cmd",
+        "translatedContent": "Si ha creado unidades systemd, deberá eliminarlas manualmente."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "H+EDaLcYyKY0iMRUZvPoQXCXCy+5fCR8ybEi6ftbmK4=",
+        "originContent": "If you have created systemd units, you will need to remove them manually.",
+        "translatedContent": "A continuación, un ejemplo de cómo eliminar la interfaz wg7 gestionada por WG Commander  "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "(cámbiela por la interfaz que necesite eliminar):"
+      },
+      {
+        "row": 38,
+        "rowsha": "s4CVUOhi2+USvHlG41Xh6UqjcnJmTVwO6XpBabmhfns=",
+        "originContent": "Below is an example of how to remove WG Commander managed interface wg7 ",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Fv1tr8Pu93x1tGo8ZlMxwhlLMQvzM6tPmyOHuMnEL0k=",
+        "originContent": "(change it to whatever interface you need to delete):",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```sh\nsystemctl stop wgc-wg7.{path,service}\nsystemctl disable wgc-wg7.{path,service}\nrm /etc/systemd/system/wgc-wg7.{path,service}\nsystemctl stop wg-quick@wg7.service\nsystemctl disable wg-quick@wg7.service\nrm /etc/wireguard/wg7.conf\nrm -Rf /etc/wireguard/wgc-wg7\n```",
+    "ContentSha": "h7VQ2N3sqaNf43qP0i0i0C/ppmv1mAWG+ga0VQ1CvWk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsystemctl stop wgc-wg7.{path,service}\nsystemctl disable wgc-wg7.{path,service}\nrm /etc/systemd/system/wgc-wg7.{path,service}\nsystemctl stop wg-quick@wg7.service\nsystemctl disable wg-quick@wg7.service\nrm /etc/wireguard/wg7.conf\nrm -Rf /etc/wireguard/wgc-wg7\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "+w1W+nsZQGoO9ZvmUg0St14S7XjBpOzQizf71dfnNG8=",
+        "originContent": "systemctl stop wgc-wg7.{path,service}",
+        "translatedContent": "systemctl stop wgc-wg7.{path,service}"
+      },
+      {
+        "row": 3,
+        "rowsha": "3kBPPz8KdHwMDoYh2u4vXsM+X8CrcDIDASls9t2ZF9k=",
+        "originContent": "systemctl disable wgc-wg7.{path,service}",
+        "translatedContent": "systemctl disable wgc-wg7.{path,service}"
+      },
+      {
+        "row": 4,
+        "rowsha": "efrTBY6NorwOM6ANWxWTq6O6juY7MZaHu5f2TxUJnsY=",
+        "originContent": "rm /etc/systemd/system/wgc-wg7.{path,service}",
+        "translatedContent": "rm /etc/systemd/system/wgc-wg7.{path,service}"
+      },
+      {
+        "row": 5,
+        "rowsha": "GvNY34d/U93Vsoemp5/9UA6fTiSogrpVgm4br56eEfc=",
+        "originContent": "systemctl stop wg-quick@wg7.service",
+        "translatedContent": "systemctl stop wg-quick@wg7.service"
+      },
+      {
+        "row": 6,
+        "rowsha": "zHKXEC846wJ09N2BR/rItBuYKtShh/JFETH6OcSaHQc=",
+        "originContent": "systemctl disable wg-quick@wg7.service",
+        "translatedContent": "systemctl disable wg-quick@wg7.service"
+      },
+      {
+        "row": 7,
+        "rowsha": "elg4QO34CQf4BunvcQQSfvtxHuKBH/606iT3led/2b0=",
+        "originContent": "rm /etc/wireguard/wg7.conf",
+        "translatedContent": "rm /etc/wireguard/wg7.conf"
+      },
+      {
+        "row": 8,
+        "rowsha": "207nAwzLfKB5koKW4qvsGFDO29OkSpS7CugrIdfgd/g=",
+        "originContent": "rm -Rf /etc/wireguard/wgc-wg7",
+        "translatedContent": "rm -Rf /etc/wireguard/wgc-wg7"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n\n# Tested\nWG Commander should work well on any systemd-based Linux\ndistribution with WireGuard, iptables, sysctl, procfs available.\n\nIt was tested on:\n- Ubuntu 24.04 (v0.1.7 tested on Apr 9 2026)\n- Ubuntu 20.04\n- Ubuntu 22.04\n- Rocky Linux 9\n- Debian 11\n- Debian 12\n\n# Contributing\n\nContributions are welcome. Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/AndrianBdn/wg-cmd/main/CONTRIBUTING.md) for guidelines, including our AI disclosure policy.\n\n# Notes \nThere is no commercial purpose behind WG Commander. \nThe project is licensed under \nthe [MIT License](https://github.com/andrianbdn/wg-cmd/blob/master/LICENSE).\n\nThis project is NOT related to the creator of WireGuard®.\nWG Commander project is NOT approved, sponsored, or affiliated \nwith WireGuard® or with the WireGuard® community.\n",
+    "ContentSha": "UCefQxTiDUs9sXK3qmVep3cyRHvO3Q0TQX2D2bG8mtc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Probado\nWG Commander debería funcionar bien en cualquier distribución Linux basada en systemd\ncon WireGuard, iptables, sysctl, procfs disponibles.\n\nSe probó en:\n- Ubuntu 24.04 (v0.1.7 probado el 9 de abril de 2026)\n- Ubuntu 20.04\n- Ubuntu 22.04\n- Rocky Linux 9\n- Debian 11\n- Debian 12\n\n# Contribuciones\n\nLas contribuciones son bienvenidas. Por favor, consulte [CONTRIBUTING.md](https://raw.githubusercontent.com/AndrianBdn/wg-cmd/main/CONTRIBUTING.md) para las directrices, incluyendo nuestra política de divulgación de IA.\n\n# Notas \nNo hay un propósito comercial detrás de WG Commander. \nEl proyecto está licenciado bajo \nla [Licencia MIT](https://github.com/andrianbdn/wg-cmd/blob/master/LICENSE).\n\nEste proyecto NO está relacionado con el creador de WireGuard®.\nEl proyecto WG Commander NO está aprobado, patrocinado, ni afiliado \ncon WireGuard® ni con la comunidad de WireGuard®.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Probado"
+      },
+      {
+        "row": 3,
+        "rowsha": "e4kac51dsr0u8ddw/E1XC36+NfR+MALBpj90fMTqSro=",
+        "originContent": "# Tested",
+        "translatedContent": "WG Commander debería funcionar bien en cualquier distribución Linux basada en systemd"
+      },
+      {
+        "row": 4,
+        "rowsha": "bzReivm2jB03mcKJWvPy+5zu2Xihp98+jKsJYJav/nU=",
+        "originContent": "WG Commander should work well on any systemd-based Linux",
+        "translatedContent": "con WireGuard, iptables, sysctl, procfs disponibles."
+      },
+      {
+        "row": 5,
+        "rowsha": "mJblnMQJRK4v5AgYDYIEEZpU1opsfLiMPZCMAbkDaHE=",
+        "originContent": "distribution with WireGuard, iptables, sysctl, procfs available.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Se probó en:"
+      },
+      {
+        "row": 7,
+        "rowsha": "pA89g/RjifsSkXXIwzmZNsATaSvEFKYdCQ2yHa2Ig8k=",
+        "originContent": "It was tested on:",
+        "translatedContent": "- Ubuntu 24.04 (v0.1.7 probado el 9 de abril de 2026)"
+      },
+      {
+        "row": 8,
+        "rowsha": "96KhtypiwIzRaNHNpl4NrItAHoySSMfZLLMRAaMTU18=",
+        "originContent": "- Ubuntu 24.04 (v0.1.7 tested on Apr 9 2026)",
+        "translatedContent": "- Ubuntu 20.04"
+      },
+      {
+        "row": 9,
+        "rowsha": "H4vgsAgPPCPoAqwEXz2htffynRTZHi+VmNTuUHJe++Y=",
+        "originContent": "- Ubuntu 20.04",
+        "translatedContent": "- Ubuntu 22.04"
+      },
+      {
+        "row": 10,
+        "rowsha": "kMaYREmSbAP3PbWeHfokM81GyIzQ7ARSIZJ6HGGNbzU=",
+        "originContent": "- Ubuntu 22.04",
+        "translatedContent": "- Rocky Linux 9"
+      },
+      {
+        "row": 11,
+        "rowsha": "+/gBcA/QM1W0RSM6YPsBDETrD64ssd9llWqAFA4/ciY=",
+        "originContent": "- Rocky Linux 9",
+        "translatedContent": "- Debian 11"
+      },
+      {
+        "row": 12,
+        "rowsha": "EYtgNW8FzQw+hbj4P7MpAR7Z51L4ik/e0vAhhjR5Z3k=",
+        "originContent": "- Debian 11",
+        "translatedContent": "- Debian 12"
+      },
+      {
+        "row": 13,
+        "rowsha": "/dCVnTxTGcC7mDwmMLCEQUiIKi5Cow7SAUOGWhSdMEc=",
+        "originContent": "- Debian 12",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Contribuciones"
+      },
+      {
+        "row": 15,
+        "rowsha": "1yCoKNoREHM/a6qGHb4WHakxWqjS55ccm8ypI1TWTPM=",
+        "originContent": "# Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Las contribuciones son bienvenidas. Por favor, consulte [CONTRIBUTING.md](https://raw.githubusercontent.com/AndrianBdn/wg-cmd/main/CONTRIBUTING.md) para las directrices, incluyendo nuestra política de divulgación de IA."
+      },
+      {
+        "row": 17,
+        "rowsha": "4mmNF+9mWfqzH3PbNnQcyL+XKfsDkw55AqryeuuKEzc=",
+        "originContent": "Contributions are welcome. Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/AndrianBdn/wg-cmd/main/CONTRIBUTING.md) for guidelines, including our AI disclosure policy.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Notas "
+      },
+      {
+        "row": 19,
+        "rowsha": "xAzfXQjCXf/7mBUNhWjjCQfw3Sp0Sr8O2xQOkB9CE7g=",
+        "originContent": "# Notes ",
+        "translatedContent": "No hay un propósito comercial detrás de WG Commander. "
+      },
+      {
+        "row": 20,
+        "rowsha": "l6OiF8/M5+3U/fz6szrvTQiW37ksWuAiOmC1USI5Ow0=",
+        "originContent": "There is no commercial purpose behind WG Commander. ",
+        "translatedContent": "El proyecto está licenciado bajo "
+      },
+      {
+        "row": 21,
+        "rowsha": "nGuZSFX1nPcy5WgwpWwEKlixhyZ9SENnQ7FmfC8vykA=",
+        "originContent": "The project is licensed under ",
+        "translatedContent": "la [Licencia MIT](https://github.com/andrianbdn/wg-cmd/blob/master/LICENSE)."
+      },
+      {
+        "row": 22,
+        "rowsha": "LgIUzdF7A1c7a4HDejkqYncBpuDOQD6zAFQ05005E4Q=",
+        "originContent": "the [MIT License](https://github.com/andrianbdn/wg-cmd/blob/master/LICENSE).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Este proyecto NO está relacionado con el creador de WireGuard®."
+      },
+      {
+        "row": 24,
+        "rowsha": "g4hMWEfrsDbW7TEcPFewHR+5EbTooSDc6HhTPrfcmLg=",
+        "originContent": "This project is NOT related to the creator of WireGuard®.",
+        "translatedContent": "El proyecto WG Commander NO está aprobado, patrocinado, ni afiliado "
+      },
+      {
+        "row": 25,
+        "rowsha": "H0GI0yrIfBVocBcujhzmtkdqeunsxFUGdg0C1UHQnC0=",
+        "originContent": "WG Commander project is NOT approved, sponsored, or affiliated ",
+        "translatedContent": "con WireGuard® ni con la comunidad de WireGuard®."
+      },
+      {
+        "row": 26,
+        "rowsha": "5DkLCrHR0b2bmTsRAr62/RdJaXNLW8FvV3T1SyJVpc0=",
+        "originContent": "with WireGuard® or with the WireGuard® community.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

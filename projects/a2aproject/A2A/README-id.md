@@ -81,33 +81,34 @@ Seiring agen AI menjadi lebih umum, kemampuan mereka untuk saling beroperasi san
 
 ### Fitur Utama
 
-- **Komunikasi Terstandarisasi:** JSON-RPC 2.0 melalui HTTP(S).
-- **Penemuan Agen:** Melalui "Kartu Agen" yang merinci kemampuan dan info koneksi.
+- **Komunikasi Standar:** JSON-RPC 2.0 melalui HTTP(S).
+- **Penemuan Agen:** Melalui "Kartu Agen" yang merinci kapabilitas dan info koneksi.
 - **Interaksi Fleksibel:** Mendukung permintaan/respons sinkron, streaming (SSE), dan notifikasi push asinkron.
-- **Pertukaran Data Kaya:** Mengelola teks, file, dan data JSON terstruktur.
+- **Pertukaran Data Kaya:** Menangani teks, file, dan data JSON terstruktur.
 - **Siap Enterprise:** Dirancang dengan keamanan, autentikasi, dan observabilitas.
 
 ## Memulai
 
-- 📚 **Jelajahi Dokumentasi:** Kunjungi [Situs Dokumentasi Protokol Agent2Agent](https://a2a-protocol.org) untuk gambaran lengkap, spesifikasi protokol, tutorial, dan panduan.
+- 📚 **Jelajahi Dokumentasi:** Kunjungi [Situs Dokumentasi Protokol Agent2Agent](https://a2a-protocol.org) untuk gambaran lengkap, spesifikasi protokol penuh, tutorial, dan panduan.
 - 📝 **Lihat Spesifikasi:** [Spesifikasi Protokol A2A](https://a2a-protocol.org/latest/specification/)
-- Gunakan SDK:
+- Gunakan SDK berikut:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
     - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) menggunakan maven
     - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) menggunakan [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
-- 🎬 Gunakan [contoh kami](https://github.com/a2aproject/a2a-samples) untuk melihat A2A secara langsung
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
+- 🎬 Gunakan [contoh](https://github.com/a2aproject/a2a-samples) kami untuk melihat A2A secara langsung
 
-## Berkontribusi
+## Kontribusi
 
 Kami menyambut kontribusi komunitas untuk meningkatkan dan mengembangkan protokol A2A!
 
 - **Pertanyaan & Diskusi:** Bergabunglah di [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).
-- **Masalah & Masukan:** Laporkan masalah atau ajukan saran melalui [GitHub Issues](https://github.com/a2aproject/A2A/issues).
+- **Isu & Masukan:** Laporkan masalah atau sarankan perbaikan melalui [GitHub Issues](https://github.com/a2aproject/A2A/issues).
 - **Panduan Kontribusi:** Lihat [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) untuk detail cara berkontribusi.
-- **Masukan Pribadi:** Gunakan [Google Form](https://goo.gle/a2a-feedback) ini.
-- **Program Mitra:** Pelanggan Google Cloud dapat bergabung dengan program mitra melalui [formulir](https://goo.gle/a2a-partner) ini.
+- **Masukan Pribadi:** Gunakan [Formulir Google](https://goo.gle/a2a-feedback) ini.
+- **Program Mitra:** Pelanggan Google Cloud dapat bergabung dengan program mitra kami melalui [formulir](https://goo.gle/a2a-partner) ini.
 
 ## Selanjutnya
 
@@ -116,20 +117,20 @@ Kami menyambut kontribusi komunitas untuk meningkatkan dan mengembangkan protoko
 - **Penemuan Agen:**
     - Formalisasi penyertaan skema otorisasi dan kredensial opsional langsung dalam `AgentCard`.
 - **Kolaborasi Agen:**
-    - Investigasi metode `QuerySkill()` untuk memeriksa keterampilan yang tidak didukung atau tidak terduga secara dinamis.
+    - Meneliti metode `QuerySkill()` untuk memeriksa secara dinamis keahlian yang tidak didukung atau tidak terantisipasi.
 - **Siklus Tugas & UX:**
-    - Dukungan untuk negosiasi UX dinamis _di dalam_ sebuah tugas (misalnya, agen menambahkan audio/video di tengah percakapan).
+    - Dukungan untuk negosiasi UX dinamis _dalam_ sebuah tugas (misalnya, agen menambahkan audio/video di tengah percakapan).
 - **Metode Klien & Transportasi:**
-    - Jelajahi perluasan dukungan untuk metode yang diinisiasi oleh klien (di luar manajemen tugas).
-    - Peningkatan pada keandalan streaming dan mekanisme push notification.
+    - Mengeksplorasi perluasan dukungan untuk metode yang diinisiasi klien (di luar manajemen tugas).
+    - Peningkatan keandalan streaming dan mekanisme push notification.
 
 ## Tentang
 
-A2A Protocol adalah proyek open source di bawah Linux Foundation, yang dikontribusikan oleh Google. Proyek ini dilisensikan di bawah [Apache License 2.0](LICENSE) dan terbuka untuk kontribusi dari komunitas.
+Protokol A2A adalah proyek sumber terbuka di bawah Linux Foundation, yang dikontribusikan oleh Google. Protokol ini dilisensikan di bawah [Apache License 2.0](LICENSE) dan terbuka untuk kontribusi dari komunitas.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

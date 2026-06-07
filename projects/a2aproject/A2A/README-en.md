@@ -82,14 +82,14 @@ As AI agents become more prevalent, their ability to interoperate is crucial for
 ### Key Features
 
 - **Standardized Communication:** JSON-RPC 2.0 over HTTP(S).
-- **Agent Discovery:** Via "Agent Cards" detailing capabilities and connection info.
+- **Agent Discovery:** Through "Agent Cards" detailing capabilities and connection information.
 - **Flexible Interaction:** Supports synchronous request/response, streaming (SSE), and asynchronous push notifications.
-- **Rich Data Exchange:** Handles text, files, and structured JSON data.
-- **Enterprise-Ready:** Designed with security, authentication, and observability in mind.
+- **Rich Data Exchange:** Supports text, files, and structured JSON data.
+- **Enterprise-Ready:** Designed with security, authentication, and observability as priorities.
 
 ## Getting Started
 
-- 📚 **Explore the Documentation:** Visit the [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) for a complete overview, the full protocol specification, tutorials, and guides.
+- 📚 **Explore the Documentation:** Visit the [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) for a comprehensive overview, the full protocol specification, tutorials, and guides.
 - 📝 **View the Specification:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
 - Use the SDKs:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
@@ -97,15 +97,16 @@ As AI agents become more prevalent, their ability to interoperate is crucial for
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
     - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) using maven
     - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) using [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
-- 🎬 Use our [samples](https://github.com/a2aproject/a2a-samples) to see A2A in action
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
+- 🎬 Check out our [samples](https://github.com/a2aproject/a2a-samples) to see A2A in action
 
 ## Contributing
 
-We welcome community contributions to enhance and evolve the A2A protocol!
+We welcome community contributions to enhance and grow the A2A protocol!
 
 - **Questions & Discussions:** Join our [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).
 - **Issues & Feedback:** Report issues or suggest improvements via [GitHub Issues](https://github.com/a2aproject/A2A/issues).
-- **Contribution Guide:** See our [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) for details on how to contribute.
+- **Contribution Guide:** See our [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) for how to contribute.
 - **Private Feedback:** Use this [Google Form](https://goo.gle/a2a-feedback).
 - **Partner Program:** Google Cloud customers can join our partner program via this [form](https://goo.gle/a2a-partner).
 
@@ -114,9 +115,9 @@ We welcome community contributions to enhance and evolve the A2A protocol!
 ### Protocol Enhancements
 
 - **Agent Discovery:**
-    - Formalize inclusion of authorization schemes and optional credentials directly within the `AgentCard`.
+    - Formalize the inclusion of authorization schemes and optional credentials directly within the `AgentCard`.
 - **Agent Collaboration:**
-    - Investigate a `QuerySkill()` method for dynamically checking unsupported or unanticipated skills.
+    - Investigate a `QuerySkill()` method for dynamic checking of unsupported or unanticipated skills.
 - **Task Lifecycle & UX:**
     - Support for dynamic UX negotiation _within_ a task (e.g., agent adding audio/video mid-conversation).
 - **Client Methods & Transport:**
@@ -130,6 +131,6 @@ The A2A Protocol is an open source project under the Linux Foundation, contribut
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

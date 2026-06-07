@@ -79,57 +79,58 @@ Participe deste curso rápido sobre [A2A: O Protocolo Agent2Agent](https://goo.g
 - **Promover Padrões Abertos:** Incentivar uma abordagem comunitária para comunicação entre agentes, promovendo inovação e ampla adoção.
 - **Preservar Opacidade:** Permitir que agentes colaborem sem a necessidade de compartilhar memória interna, lógica proprietária ou implementações específicas de ferramentas, aumentando a segurança e protegendo a propriedade intelectual.
 
-### Principais Funcionalidades
+### Principais Recursos
 
-- **Comunicação Padronizada:** JSON-RPC 2.0 via HTTP(S).
-- **Descoberta de Agentes:** Por meio de "Cartões de Agente" detalhando capacidades e informações de conexão.
+- **Comunicação Padronizada:** JSON-RPC 2.0 sobre HTTP(S).
+- **Descoberta de Agentes:** Por meio de "Agent Cards" detalhando capacidades e informações de conexão.
 - **Interação Flexível:** Suporta requisição/resposta síncrona, streaming (SSE) e notificações push assíncronas.
-- **Troca Rica de Dados:** Manipula texto, arquivos e dados JSON estruturados.
+- **Troca Rica de Dados:** Manipula texto, arquivos e dados estruturados em JSON.
 - **Pronto para Empresas:** Projetado com foco em segurança, autenticação e observabilidade.
 
 ## Primeiros Passos
 
 - 📚 **Explore a Documentação:** Visite o [Site de Documentação do Protocolo Agent2Agent](https://a2a-protocol.org) para uma visão completa, especificação do protocolo, tutoriais e guias.
 - 📝 **Veja a Especificação:** [Especificação do Protocolo A2A](https://a2a-protocol.org/latest/specification/)
-- Utilize os SDKs:
+- Use os SDKs:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
     - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) usando maven
     - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) usando [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
 - 🎬 Use nossos [exemplos](https://github.com/a2aproject/a2a-samples) para ver o A2A em ação
 
 ## Contribuindo
 
 Recebemos contribuições da comunidade para aprimorar e evoluir o protocolo A2A!
 
-- **Perguntas & Discussões:** Participe de nossas [Discussões no GitHub](https://github.com/a2aproject/A2A/discussions).
-- **Problemas & Feedback:** Relate problemas ou sugira melhorias via [Issues do GitHub](https://github.com/a2aproject/A2A/issues).
-- **Guia de Contribuição:** Veja nosso [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) para saber como contribuir.
+- **Perguntas & Discussões:** Participe das nossas [Discussões no GitHub](https://github.com/a2aproject/A2A/discussions).
+- **Problemas & Feedback:** Relate problemas ou sugira melhorias via [Issues no GitHub](https://github.com/a2aproject/A2A/issues).
+- **Guia de Contribuição:** Veja nosso [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) para detalhes sobre como contribuir.
 - **Feedback Privado:** Use este [Formulário Google](https://goo.gle/a2a-feedback).
 - **Programa de Parceiros:** Clientes do Google Cloud podem aderir ao programa de parceiros através deste [formulário](https://goo.gle/a2a-partner).
 
-## O que vem a seguir
+## Próximos Passos
 
-### Melhorias no Protocolo
+### Melhorias do Protocolo
 
-- **Descoberta de Agente:**
+- **Descoberta de Agentes:**
     - Formalizar inclusão de esquemas de autorização e credenciais opcionais diretamente no `AgentCard`.
 - **Colaboração entre Agentes:**
     - Investigar um método `QuerySkill()` para verificar dinamicamente habilidades não suportadas ou inesperadas.
 - **Ciclo de Vida da Tarefa & UX:**
     - Suporte para negociação dinâmica de UX _dentro_ de uma tarefa (por exemplo, agente adicionando áudio/vídeo durante a conversa).
 - **Métodos do Cliente & Transporte:**
-    - Explorar a ampliação do suporte para métodos iniciados pelo cliente (além do gerenciamento de tarefas).
+    - Explorar a extensão do suporte para métodos iniciados pelo cliente (além do gerenciamento de tarefas).
     - Melhorias na confiabilidade de streaming e mecanismos de notificações push.
 
 ## Sobre
 
-O Protocolo A2A é um projeto open source sob a Linux Foundation, contribuído pelo Google. Ele é licenciado sob a [Licença Apache 2.0](LICENSE) e está aberto a contribuições da comunidade.
+O Protocolo A2A é um projeto open source sob a Linux Foundation, contribuído pelo Google. Ele está licenciado sob a [Apache License 2.0](LICENSE) e está aberto a contribuições da comunidade.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

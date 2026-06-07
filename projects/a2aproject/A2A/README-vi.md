@@ -79,57 +79,58 @@ Khi các đại lý AI ngày càng phổ biến, khả năng tương tác là đ
 - **Thúc đẩy tiêu chuẩn mở:** Khuyến khích cách tiếp cận cộng đồng cho giao tiếp đại lý, thúc đẩy đổi mới và áp dụng rộng rãi.
 - **Giữ tính mờ đục:** Cho phép đại lý hợp tác mà không cần chia sẻ bộ nhớ nội bộ, logic độc quyền hoặc triển khai công cụ cụ thể, tăng cường bảo mật và bảo vệ quyền sở hữu trí tuệ.
 
-### Các Tính Năng Chính
+### Tính năng chính
 
 - **Giao tiếp chuẩn hóa:** JSON-RPC 2.0 qua HTTP(S).
-- **Khám phá Agent:** Thông qua "Agent Cards" cung cấp thông tin năng lực và kết nối.
-- **Tương tác linh hoạt:** Hỗ trợ yêu cầu/đáp ứng đồng bộ, streaming (SSE), và push thông báo bất đồng bộ.
-- **Trao đổi dữ liệu phong phú:** Xử lý văn bản, tập tin, và dữ liệu JSON có cấu trúc.
-- **Đáp ứng doanh nghiệp:** Thiết kế với tiêu chí bảo mật, xác thực, và khả năng quan sát.
+- **Khám phá Agent:** Thông qua "Agent Cards" mô tả khả năng và thông tin kết nối.
+- **Tương tác linh hoạt:** Hỗ trợ yêu cầu/phản hồi đồng bộ, streaming (SSE) và thông báo đẩy bất đồng bộ.
+- **Trao đổi dữ liệu phong phú:** Xử lý văn bản, tệp tin và dữ liệu JSON có cấu trúc.
+- **Sẵn sàng cho doanh nghiệp:** Thiết kế với bảo mật, xác thực và khả năng quan sát.
 
-## Bắt Đầu
+## Bắt đầu
 
-- 📚 **Khám phá Tài liệu:** Truy cập [Trang Tài liệu Giao thức Agent2Agent](https://a2a-protocol.org) để xem tổng quan, đặc tả giao thức đầy đủ, hướng dẫn và tài liệu tham khảo.
-- 📝 **Xem Đặc tả:** [Đặc tả Giao thức A2A](https://a2a-protocol.org/latest/specification/)
+- 📚 **Khám phá tài liệu:** Truy cập [Trang tài liệu giao thức Agent2Agent](https://a2a-protocol.org) để xem tổng quan, đặc tả giao thức đầy đủ, hướng dẫn và tutorial.
+- 📝 **Xem đặc tả:** [Đặc tả giao thức A2A](https://a2a-protocol.org/latest/specification/)
 - Sử dụng các SDK:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) sử dụng maven
-    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) sử dụng [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) dùng maven
+    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) dùng [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
 - 🎬 Sử dụng [mẫu](https://github.com/a2aproject/a2a-samples) của chúng tôi để xem A2A hoạt động
 
-## Đóng Góp
+## Đóng góp
 
-Chúng tôi hoan nghênh sự đóng góp từ cộng đồng để nâng cao và phát triển giao thức A2A!
+Chúng tôi hoan nghênh sự đóng góp của cộng đồng để nâng cao và phát triển giao thức A2A!
 
 - **Câu hỏi & Thảo luận:** Tham gia [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).
-- **Vấn đề & Góp ý:** Báo cáo vấn đề hoặc đề xuất cải tiến qua [GitHub Issues](https://github.com/a2aproject/A2A/issues).
-- **Hướng dẫn đóng góp:** Xem [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) để biết chi tiết về cách đóng góp.
-- **Góp ý riêng:** Sử dụng [Google Form](https://goo.gle/a2a-feedback) này.
+- **Vấn đề & Phản hồi:** Báo cáo vấn đề hoặc đề xuất cải tiến qua [GitHub Issues](https://github.com/a2aproject/A2A/issues).
+- **Hướng dẫn đóng góp:** Xem [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) để biết chi tiết cách đóng góp.
+- **Phản hồi riêng:** Sử dụng [Google Form](https://goo.gle/a2a-feedback) này.
 - **Chương trình đối tác:** Khách hàng Google Cloud có thể tham gia chương trình đối tác qua [form](https://goo.gle/a2a-partner) này.
 
-## Tiếp theo là gì
+## Tiếp theo
 
-### Cải tiến Giao thức
+### Cải tiến giao thức
 
 - **Khám phá Agent:**
-    - Chính thức hóa việc bổ sung các phương thức ủy quyền và thông tin xác thực tùy chọn trực tiếp trong `AgentCard`.
-- **Hợp tác Agent:**
-    - Nghiên cứu phương thức `QuerySkill()` để kiểm tra động các kỹ năng chưa hỗ trợ hoặc bất ngờ.
-- **Vòng đời nhiệm vụ & UX:**
-    - Hỗ trợ đàm phán UX động _trong_ một tác vụ (ví dụ, tác nhân thêm âm thanh/hình ảnh vào giữa cuộc trò chuyện).
-- **Phương pháp & Giao thức phía Client:**
-    - Khám phá việc mở rộng hỗ trợ cho các phương pháp do client khởi tạo (ngoài quản lý tác vụ).
-    - Cải thiện độ tin cậy của streaming và cơ chế thông báo đẩy.
+    - Chính thức hóa việc đưa các cơ chế ủy quyền và thông tin xác thực tùy chọn trực tiếp vào `AgentCard`.
+- **Cộng tác Agent:**
+    - Khảo sát phương thức `QuerySkill()` để kiểm tra động các kỹ năng chưa hỗ trợ hoặc chưa dự đoán.
+- **Vòng đời Tác vụ & Trải nghiệm Người dùng (UX):**
+    - Hỗ trợ đàm phán UX động _trong_ một tác vụ (ví dụ: agent thêm âm thanh/hình ảnh trong quá trình trò chuyện).
+- **Phương thức Client & Giao thức Truyền tải:**
+    - Xem xét mở rộng hỗ trợ cho các phương thức do client khởi tạo (ngoài quản lý tác vụ).
+    - Cải thiện độ tin cậy khi truyền phát và cơ chế thông báo đẩy.
 
 ## Giới thiệu
 
-Giao thức A2A là một dự án mã nguồn mở thuộc Quỹ Linux, do Google đóng góp. Dự án được cấp phép theo [Giấy phép Apache 2.0](LICENSE) và mở cửa cho các đóng góp từ cộng đồng.
+Giao thức A2A là một dự án mã nguồn mở dưới sự bảo trợ của Linux Foundation, do Google đóng góp. Dự án được cấp phép theo [Giấy phép Apache 2.0](LICENSE) và mở cho sự đóng góp từ cộng đồng.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

@@ -1,0 +1,1130 @@
+[
+  {
+    "row": 1,
+    "rowsha": "QPgFpyQ2plnUywYklW+z5QBg0yi10BH8Npq4fh1jWlA=",
+    "originContent": "# WG Commander ",
+    "translatedContent": "# WG Commander "
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "MtLR9qROLVx0KBtgfCysvk5EmsbAOUW30/+r94g2uMk=",
+    "originContent": "aka \"wg-cmd\" — TUI for managing WireGuard configuration files",
+    "translatedContent": "別名 \"wg-cmd\" — WireGuard設定ファイル管理のためのTUI"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "dBT2hRlKR7MSLmprxUQgssOfS0CEdBjpjfB6KwF1/0o=",
+    "originContent": "<a href=\"https://github.com/andrianbdn/wg-cmd/releases/latest\"><img src=\"https://img.shields.io/github/v/release/andrianbdn/wg-cmd\" /></a>",
+    "translatedContent": "<a href=\"https://github.com/andrianbdn/wg-cmd/releases/latest\"><img src=\"https://img.shields.io/github/v/release/andrianbdn/wg-cmd\" /></a>"
+  },
+  {
+    "row": 6,
+    "rowsha": "YMe8B7ckFZpXZGgt8gMf9n89KkucxW+k89g4pd3sNQk=",
+    "originContent": "<a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/andrianbdn/wg-cmd\" /></a>",
+    "translatedContent": "<a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/andrianbdn/wg-cmd\" /></a>"
+  },
+  {
+    "row": 7,
+    "rowsha": "tZjnUT7suWxYbcS/ySRnhgX5qB11Q7kN5Y8RXNCq5wQ=",
+    "originContent": "<a href=\"./go.mod\"><img src=\"https://img.shields.io/github/go-mod/go-version/andrianbdn/wg-cmd\" /></a>",
+    "translatedContent": "<a href=\"./go.mod\"><img src=\"https://img.shields.io/github/go-mod/go-version/andrianbdn/wg-cmd\" /></a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "T6btjlWOF80gS/1jgW8rM/pgJUZrrdYwtQvBqH/hXJg=",
+    "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/andrianbdn/wg-cmd)](https://goreportcard.com/report/github.com/andrianbdn/wg-cmd)",
+    "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/andrianbdn/wg-cmd)](https://goreportcard.com/report/github.com/andrianbdn/wg-cmd)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "ILH6oshQIMMgmXQabYxDH7qmIHJIRKVtBTsijPJlv2M=",
+    "originContent": "![screenshot](https://user-images.githubusercontent.com/994900/218720566-e5b3ab22-d7fc-4df7-a777-ad9b6280ada8.png)",
+    "translatedContent": "![スクリーンショット](https://user-images.githubusercontent.com/994900/218720566-e5b3ab22-d7fc-4df7-a777-ad9b6280ada8.png)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Qxdp3Hj7dWmz+GAKg4NkEzKgHfg+ZfXXUNg0RDB9+KI=",
+    "originContent": "# Features",
+    "translatedContent": "# 機能"
+  },
+  {
+    "row": 13,
+    "rowsha": "0q1v7ycsEXhjO69L6Dm3TVgE0FrzK/01e/X9CoOpcfQ=",
+    "originContent": "- no need for a browser or HTTP port - works in the terminal, over SSH too",
+    "translatedContent": "- ブラウザやHTTPポート不要 - ターミナル上で動作、SSH経由でも使用可能"
+  },
+  {
+    "row": 14,
+    "rowsha": "F658Ky16aZ8JwNq7lknIbb80lfQ0ifoRJPylkUpRgQA=",
+    "originContent": "- has a nice Setup Wizard",
+    "translatedContent": "- 使いやすいセットアップウィザード付き"
+  },
+  {
+    "row": 15,
+    "rowsha": "HmMl9jtBFqnZOq6+GY6fn+1DO1xGgQOugudG0GGofP4=",
+    "originContent": "- text-based user interface for managing peers",
+    "translatedContent": "- ピア管理のためのテキストベースユーザーインターフェース"
+  },
+  {
+    "row": 16,
+    "rowsha": "TdwMnET5MtIpffC+E/KGC7r+uhK7HV+3Cmk0Qqe8Qss=",
+    "originContent": "- view QR code in the terminal",
+    "translatedContent": "- ターミナル内でQRコードを表示"
+  },
+  {
+    "row": 17,
+    "rowsha": "0bv8/QNA+WqdeCDl+OIIvHHjT4Rf9b09HZ0ypHvG6Tc=",
+    "originContent": "- copy configuration to clipboard (OSC 52)",
+    "translatedContent": "- クリップボードへ設定をコピー（OSC 52対応）"
+  },
+  {
+    "row": 18,
+    "rowsha": "QdIkMpxSFsvjaGPGTGTSM11F1NvNtWM/lttLfFOjekc=",
+    "originContent": "- automatically configures sysctl, systemd, NAT",
+    "translatedContent": "- sysctl、systemd、NATを自動的に設定"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "lJtCUfyVA+N+2G4CryX7xPxANRXaon99nLkTBv3WoiQ=",
+    "originContent": "## Current Limitations",
+    "translatedContent": "## 現在の制限事項"
+  },
+  {
+    "row": 21,
+    "rowsha": "83SYZGjPTKfQnFPbq+EqKyfHrxK8JhBhfygJCRlJRgg=",
+    "originContent": "- supports simple client-server WireGuard setup",
+    "translatedContent": "- シンプルなクライアント・サーバー型WireGuardセットアップのみ対応"
+  },
+  {
+    "row": 22,
+    "rowsha": "Bk+pA+xhHVebZx1jPbc209o3u+2d1v/GtDA7dDVCgmQ=",
+    "originContent": "- mostly for Linux (assumes iptables, systemd, sysctl are available) — see [Other OS](#other-os-besides-linux) section",
+    "translatedContent": "- 主にLinux向け（iptables、systemd、sysctlが利用可能であることが前提）— [Linux以外のOS](#other-os-besides-linux)セクション参照"
+  },
+  {
+    "row": 23,
+    "rowsha": "DUjng0Zxp9GPWDMnS8hPqzE82W4YzYKZUwG7hO8WWBY=",
+    "originContent": "- can't manage existing WireGuard configuration (but you can create new WireGuard interfaces on the same host)",
+    "translatedContent": "- 既存のWireGuard設定は管理できない（同じホスト上で新規WireGuardインターフェースの作成は可能）"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "jXtVfaOSO0aaCud+S9FT+GMeHNn/S6se3b99kJA4xd8=",
+    "originContent": "# Installation ",
+    "translatedContent": "# インストール "
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "KJjtQ45z1q9BKtagY2Bcq6o47mOIZkOUdSLyieGdMW0=",
+    "originContent": "Make sure you have WireGuard and iptables installed ",
+    "translatedContent": "WireGuardとiptablesがインストールされていることを確認してください  "
+  },
+  {
+    "row": 28,
+    "rowsha": "Ng4XG0J9j9BX0yFUkk48JrHF5DEeNS/o1FaWylhqPto=",
+    "originContent": "(`apt install wireguard-tools` in Ubuntu / Debian, `dnf install wireguard-tools iptables` in Rocky/Alma 9). ",
+    "translatedContent": "（Ubuntu / Debianでは`apt install wireguard-tools`、Rocky/Alma 9では`dnf install wireguard-tools iptables`）。  "
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "913k5u299mxpVff/1O9LhVoWbACLnA1JrDOySOfZ9mg=",
+    "originContent": "To download using curl run:",
+    "translatedContent": "curlを使ってダウンロードするには、以下を実行してください："
+  },
+  {
+    "row": 31,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 32,
+    "rowsha": "fmSfvDf+QdcbnQq8b7As93+zTnKGVMasNILR9sc551k=",
+    "originContent": "# for x86_64 ",
+    "translatedContent": "# for x86_64 "
+  },
+  {
+    "row": 33,
+    "rowsha": "5t2yrktHP23B/5Emjv3QSZGWua3RhOizabhoclesdvQ=",
+    "originContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-amd64 -o /usr/local/bin/wg-cmd",
+    "translatedContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-amd64 -o /usr/local/bin/wg-cmd"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "s9YgpjWanNmh+dBmfKtvHz+mkDCo3OVn/b+T02Cmwas=",
+    "originContent": "# for arm64 ",
+    "translatedContent": "# for arm64 "
+  },
+  {
+    "row": 36,
+    "rowsha": "xqHm28HAFdQoK3WscCzcd10GrWqtTuVwQ9Tnbt7uSnY=",
+    "originContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-arm64 -o /usr/local/bin/wg-cmd",
+    "translatedContent": "curl -SL https://github.com/andrianbdn/wg-cmd/releases/download/v0.1.7/wg-cmd-0.1.7-linux-arm64 -o /usr/local/bin/wg-cmd"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "適切な権限を設定し、ツールを実行してください:  "
+  },
+  {
+    "row": 39,
+    "rowsha": "dlTQdYCBwYTJEEq2Ltzrucp9nOEhUqFtUU+deInj62c=",
+    "originContent": "Set proper permissions and run the tool: ",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "7vZfEkAxBPlVzatdJ6bL9sf2G6f9mxOU85pCaO5wk6I=",
+    "originContent": "chmod 755 /usr/local/bin/wg-cmd",
+    "translatedContent": "chmod 755 /usr/local/bin/wg-cmd"
+  },
+  {
+    "row": 42,
+    "rowsha": "HZSZ1dxxVwgOYpTxL4CzLkfOj6/UB8EKIOGX95XQAEg=",
+    "originContent": "wg-cmd",
+    "translatedContent": "wg-cmd"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "もし`/usr/local/bin`が$PATHに含まれていない場合は、  "
+  },
+  {
+    "row": 45,
+    "rowsha": "rU/cnuLsLHtU/zW0LgDZPFWw5JrAYMHe0JI6Nm/j2Jc=",
+    "originContent": "If you don't have `/usr/local/bin` in $PATH you will have to",
+    "translatedContent": "`/usr/local/bin/wg-cmd`コマンドをフルパスで実行する必要があります。  "
+  },
+  {
+    "row": 46,
+    "rowsha": "QlSkpLOiOSjj6CMpUevGi2F/URMxL1YLRMFUJBTrXz8=",
+    "originContent": "run `/usr/local/bin/wg-cmd` command using the full path.",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "WG Commanderはsysctlの自動調整、systemdユニットの作成、/etc/wireguardへの書き込みのためにroot権限を必要とします。  "
+  },
+  {
+    "row": 48,
+    "rowsha": "v+qNEKDnb7kYfplLHnB8dfXHuFjlCsuDD4oEVnIwtkA=",
+    "originContent": "WG Commander requires root permissions to automatically tune sysctl, to create systemd units and to write to /etc/wireguard.",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 使用方法  "
+  },
+  {
+    "row": 50,
+    "rowsha": "rUB/PvbzurYkhhs31kI+7MmvE8FGsjHz3ULyZykfYmw=",
+    "originContent": "# Usage ",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "初回起動時、WG Commanderはセットアップウィザードを表示し、新しいWireGuardインターフェースを対話的に設定できます。  "
+  },
+  {
+    "row": 52,
+    "rowsha": "68htxqVQo+9HuKbOu027eHjEFm847fGMFmsPJNUQ3Ec=",
+    "originContent": "On first run WG Commander will show the setup wizard, that allows to configure new WireGuard interface interactively.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2回目以降の起動（ウィザードが成功した場合）は、管理用のTUIを表示します。  "
+  },
+  {
+    "row": 54,
+    "rowsha": "DhSC40tHm6/3BrcY6dLjTHB227coVRjwYv4ceFERfXc=",
+    "originContent": "On subsequent runs (if wizard was successful) it will just display management TUI.",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "QRコードに関する注意：一部のデバイス（Android？）ではより高品質のQRコードが必要な場合があります。WG Commanderはターミナルウィンドウの解像度を大きく（フォントを小さく、ウィンドウを大きく）すると自動的に品質を向上させます。  "
+  },
+  {
+    "row": 56,
+    "rowsha": "cF7bEovBZXtlFTVJ+3kX+4NpS1wiGZe0Lggbp13o5oA=",
+    "originContent": "Note regarding the QR code: some devices (Android?) may require a higher quality QR code. WG Commander will automatically increase quality when you make Terminal window resolution larger (smaller font, larger window).",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 高度な使用法  "
+  },
+  {
+    "row": 58,
+    "rowsha": "FmSmVlAoS4Hnl2F5sGnQVfoAH2+CAUxSh6jccJ8XtsA=",
+    "originContent": "## Advanced usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "権限を変更し、sysctl/systemdを手動で設定すれば、非rootユーザーとしてWG Commanderを実行できます。  "
+  },
+  {
+    "row": 60,
+    "rowsha": "6zhooABDyIxwGlU+t6HTuHb0b31XUi8G9lpWCcjBpBw=",
+    "originContent": "You can run WG Commander as a non-root user if you change permissions on ",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "f+AKE47b9BcAJWD0sQKPP7L0xzFTi+QKS/MfZWjZo98=",
+    "originContent": "/etc/wireguard and configure sysctl/systemd manually.",
+    "translatedContent": "WG Commanderは自身のUI設定を`~/.config/wg-cmd/wg-cmd.toml`に保持します。  "
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "ljDrWmESf9A0V0eDlHfABgfaXMeqKIj0d2v7qpZa/rM=",
+    "originContent": "WG Commander keeps its own UI config in `~/.config/wg-cmd/wg-cmd.toml`",
+    "translatedContent": "最も重要なオプションは次の通りです："
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "eHcFsjDrpWo0GNjNsRGHcNSeDuwH/ZqTNcPNug/ifb4=",
+    "originContent": "The most important options are:",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 67,
+    "rowsha": "GOJMa7nE2ptCk/OCyOz5cwexGYG3fqf1qILWVp4a/e0=",
+    "originContent": "WireguardDir = \"/etc/wireguard\"",
+    "translatedContent": "WireguardDir = \"/etc/wireguard\""
+  },
+  {
+    "row": 68,
+    "rowsha": "IPS5cdzlzBv+N5393KoTs709+zjaciGit0Xdlxqw3kY=",
+    "originContent": "# directory for WireGuard configuration files ",
+    "translatedContent": "# directory for WireGuard configuration files "
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "NUATL3e4+pspYNsa7p19MuCh0A5Ki3BMKukKJVqfJC8=",
+    "originContent": "DatabaseDir = \"/etc/wireguard\"",
+    "translatedContent": "DatabaseDir = \"/etc/wireguard\""
+  },
+  {
+    "row": 71,
+    "rowsha": "t3ScziXQD4ZpR/l12D0NFtMaXEArCU2gewCyrfJyFu0=",
+    "originContent": "# directory for WG Commander database files (wgc-<interface-name>)",
+    "translatedContent": "# directory for WG Commander database files (wgc-<interface-name>)"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "これらのオプションは、書き込みアクセス権のあるディレクトリを指すように変更できます。"
+  },
+  {
+    "row": 74,
+    "rowsha": "34LrvaxfX+OTVdwEyHcjbhWyfvA9DNOdaK82CA5kd+I=",
+    "originContent": "You can change these options to point to directories that you have write access to.",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 特別なオプション"
+  },
+  {
+    "row": 76,
+    "rowsha": "I5wa7kNZQK2uEugLNUJT3AzoqqowQYlMI0o9JUXsjDw=",
+    "originContent": "### Special options ",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`wg-cmd new` を実行すると、新しいインターフェース構成のウィザードが開始されます。"
+  },
+  {
+    "row": 78,
+    "rowsha": "h7REau/rCkXuxlMz/QjaG/QKT3jECbloQZPkiZnNdpQ=",
+    "originContent": "Run `wg-cmd new` to start the wizard for new interface configuration.",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`wg-cmd <wg-interface>` を実行すると、特定のインターフェースに切り替えます（事前に wg-cmd で作成されている必要があります）。"
+  },
+  {
+    "row": 80,
+    "rowsha": "ZO1dLRolRbS153nFzvmTB35FmwnrXKnCqAdx3S+J7t0=",
+    "originContent": "Run `wg-cmd <wg-interface>` to switch to specific interface (must be created before with wg-cmd).",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`wg-cmd <wg-interface> make` を実行すると、UIを表示せずにWireguard構成を生成します。"
+  },
+  {
+    "row": 82,
+    "rowsha": "bX1vZ8vDSQcl8B70lTEwlUxqugdF9R2a+bwg3ulOBoA=",
+    "originContent": "Run `wg-cmd <wg-interface> make` to generate Wireguard configuration without showing UI.",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 設定"
+  },
+  {
+    "row": 84,
+    "rowsha": "KR1cPLpZ3VrRS9YNmFnBAtdnOPFFe7oz+1GLke5ATxM=",
+    "originContent": "### Configuration ",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "WG Commander はディレクトリを「データベース」として使用します。  "
+  },
+  {
+    "row": 86,
+    "rowsha": "c0sVf/ytk0IjEMTsWf5d99HUsUjE4bA2t42B2jeujeM=",
+    "originContent": "WG Commander uses directories as its \"database\". ",
+    "translatedContent": "インターフェース構成は /etc/wireguard/wgc-<interface-name> ディレクトリに保存されます。"
+  },
+  {
+    "row": 87,
+    "rowsha": "eg9GoczdC4GpoGNJsS0BOJjh8szCavGXKX8l+SU1Mqg=",
+    "originContent": "It stores the interface configuration in /etc/wireguard/wgc-<interface-name> directory. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "設定は [TOML](https://toml.io) ファイル形式で保存されます。"
+  },
+  {
+    "row": 89,
+    "rowsha": "XgvuQFTV1F3ldu7icmabMhTD8qSGkzltQPVpPg9mbZA=",
+    "originContent": "The configuration is stored using [TOML](https://toml.io) file format.",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ほとんどの設定キーは WireGuard のものに似ています。"
+  },
+  {
+    "row": 91,
+    "rowsha": "hSrN5cOAe5E0fN9aXb+CUJyaM9T177jv4SaMOH0JYUw=",
+    "originContent": "Most configuration keys are similar to WireGuard ones. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### サーバー構成 (0001-server.toml)  "
+  },
+  {
+    "row": 93,
+    "rowsha": "ej1BUlKzPjrjfk3ks7dC9q1+t4HLyS6wZ0uxEjfAh0Q=",
+    "originContent": "#### server configuration (0001-server.toml)",
+    "translatedContent": "この構成ファイルの一部のキーは、実際にはクライアント構成ファイルの生成に使用されます。"
+  },
+  {
+    "row": 94,
+    "rowsha": "IQLqaVDIX3tAFmhPYt6c64STZUCNtJTNbJ7cllfyQl0=",
+    "originContent": "Some keys in this configuration file will actually be used for generating ",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "YblPwDVhsTFcESnuoCp3uALBK/HoU8FFVgSG9tqiluI=",
+    "originContent": "client configuration files. ",
+    "translatedContent": "`ClientRoute` - クライアント構成の AllowedIPs"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "XRB2cNUojlytJge5FZd4SAoIA3Wnn8Zdc0To2gjIeNs=",
+    "originContent": "`ClientRoute` - AllowedIPs for client config",
+    "translatedContent": "`ClientDNS` - 全クライアントの DNS 設定値"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "5Nm3VUiVeb3XFgnioNE4YndrtUeYq0siiclOjGcnep0=",
+    "originContent": "`ClientDNS` - DNS configuration value for all clients",
+    "translatedContent": "`ClientServerEndpoint` - クライアント構成のエンドポイント"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "4tPOYmaTZGKZ7TFHe1UFllLRGpMy/w4AXIaFMkuwr0M=",
+    "originContent": "`ClientServerEndpoint` - Endpoint for client config",
+    "translatedContent": "`ClientPersistentKeepalive` - クライアント構成の PersistentKeepalive"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "QLBIlZJaqx8Hf7wF/Vo4nJLOVPfCdQVAwQLtQYH0gUQ=",
+    "originContent": "`ClientPersistentKeepalive` - PersistentKeepalive for client config ",
+    "translatedContent": "`MTU` - サーバーとクライアントの MTU（0 — WireGuard に選択させる）"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "jJ8pqTdZnPjXR0amJ512FeiTI2s+LaEQVsJu323XVX4=",
+    "originContent": "`MTU` - MTU for the server and client (0 — make WireGuard choose)",
+    "translatedContent": "#### クライアント構成 (nnnn-%client%.toml)"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "q3/ZNhd3UT2ZIFuYq92bIjbMMTm8xMXaA9jX2Yq+8FM=",
+    "originContent": "#### client configuration (nnnn-%client%.toml)",
+    "translatedContent": "`ClientRoute` - サーバー構成の `ClientRoute` を完全に上書きする"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "CgdRRDquPWyZPxo7rpp0BcTibBz3uAxs0FSrdv2Rm6Q=",
+    "originContent": "`ClientRoute` - completely overrides the `ClientRoute` from the server config",
+    "translatedContent": "`AddServerRoute` - サーバー側でクライアントの AllowedIPs に追加のネットワークを加える（  "
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "特定のクライアントのトラフィックを別のクライアントのネットワークへサーバー経由でルーティングしたい場合に便利）"
+  },
+  {
+    "row": 111,
+    "rowsha": "W7p08bcbHCIYWGnfJJRnsumqgFD/a9x+HN8zv53INlg=",
+    "originContent": "`AddServerRoute` - adds additional network to AllowedIPs for the client on the server side (useful ",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "Ng5oNMHpJsscFmJjiJrhkguFWkA1vCGJ/GUOk71Kzno=",
+    "originContent": "when you want to route traffic to one client to another client's network through the server)",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`MTU` - このクライアントのためにサーバーのMTUを異なる値で上書きします。-1に設定すると、このWireGuardクライアント設定からMTUを省略します。"
+  },
+  {
+    "row": 114,
+    "rowsha": "0YhrTPjrD5JJ1IYpZJ1CC5LkkIkYS0QADzig+3EICiE=",
+    "originContent": "`MTU` - Override server MTU with a different value for this client. Set to -1 to omit MTU from this WireGuard client config.",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`DNS` - すべてのクライアントに対してサーバーの`ClientDNS`設定を上書きします。カンマ区切りのIPリストを指定してください。  "
+  },
+  {
+    "row": 116,
+    "rowsha": "G/uEE230B+u96amOvj7vSlHzdJC+LlvLHtMZ+RAZ6dY=",
+    "originContent": "`DNS` - Override server `ClientDNS` setting for all clients. Specify a comma separated IP list. ",
+    "translatedContent": "`no`または`none`に設定すると、このWireGuardクライアント設定からDNSを省略します。"
+  },
+  {
+    "row": 117,
+    "rowsha": "PqI7V2iQgCXc0gPoB7fnKf42Bo6I95Oa4rwj9YCkssU=",
+    "originContent": "Set to `no` or `none` to omit DNS from this WireGuard client config.",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "クライアント設定ファイルには`PrivateKey`フィールドが含まれています。  "
+  },
+  {
+    "row": 119,
+    "rowsha": "iaJ2Qtcv+mPse/kVVV/dyXC/m+5i+Udigucm6E/4+Gk=",
+    "originContent": "Client configuration files contain `PrivateKey` field. ",
+    "translatedContent": "これを受け入れられない場合は、クライアントに設定（またはQRコード）をエクスポートした後にファイルから削除できます。"
+  },
+  {
+    "row": 120,
+    "rowsha": "RYS4B/I7Zcx1f7/5hqJxfrSEsuVTxIvc/lHS0v5bpsc=",
+    "originContent": "If you find it unacceptable, you can remove it from the file after you exported ",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "D4P5PB0dBZRJqxxVpVtGRa9GQ/Sjw5z79g0U9h8kjeQ=",
+    "originContent": "configuration (or QR code) to the client.",
+    "translatedContent": "### Linux以外のOS"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "NzXPMeK/CQ9wgicN+UeGZhHxJf8xw6ZqHhmifkgjmtU=",
+    "originContent": "### Other OS besides Linux",
+    "translatedContent": "WG Commanderはprocfs、systemd、iptables、sysctlを使用するためLinuxでの動作を想定しています。  "
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "しかし、純粋なGoで書かれているため、Goがサポートする任意のOSで動作するはずです。"
+  },
+  {
+    "row": 125,
+    "rowsha": "9KVS36mkN+i0E10xrOXzT9bg4Hu/V322wYoez4TvZX0=",
+    "originContent": "WG Commander is designed to work on Linux, because it uses procfs, systemd, iptables, sysctl. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "V+9zRGAFlN8krFu9hR1DVHAQQwqs+GhI88BxqqaS7nY=",
+    "originContent": "However, it is written in plain Go, so it should work on any OS that Go supports.",
+    "translatedContent": "- バイナリは自分でコンパイルする必要があります。  "
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 起動時のLinux固有のチェックを無効にするには環境変数`WG_CMD_NO_DEPS`を1に設定してください。  "
+  },
+  {
+    "row": 128,
+    "rowsha": "hRs7RshHLRvuNrjsH9peGJSM2D0QbBmFC7gObqCnYf4=",
+    "originContent": "- You will need to compile binary yourself.",
+    "translatedContent": "- 0001-server.tomlを編集し、PostUp4/PostUp6/PostDown4/PostDown6フィールドにOSコマンドを設定してください。  "
+  },
+  {
+    "row": 129,
+    "rowsha": "CZjCSuWVQ6/byCsq3AqicFM3ZxT9udSBBAxe56Jdls0=",
+    "originContent": "- Set the environment variable `WG_CMD_NO_DEPS` to 1 to disable any Linux-specific checks on start. ",
+    "translatedContent": "- WireGuardの設定をリロードする必要があります。何か変更した場合は手動で、または/etc/wireguard/wg*.confファイルの変更を監視して自動的にリロードしてください。"
+  },
+  {
+    "row": 130,
+    "rowsha": "ouVWeBeKcX8SojvlB7Psot6+uujJk2Yue/FiVuDn40Q=",
+    "originContent": "- Edit 0001-server.toml and set your OS commands in PostUp4/PostUp6/PostDown4/PostDown6 fields.",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "tg19xo19Xdc39XTSLqr7pD4qG436/qDUJuBNbBpqnO0=",
+    "originContent": "- You will need to reload WireGuard configuration: manually when you change something",
+    "translatedContent": "他のOSのサポートを追加するPRは歓迎します。"
+  },
+  {
+    "row": 132,
+    "rowsha": "ikAccaV40OU/wqcZIbLyCF5E1RwdIf3QlsST7+9mZgw=",
+    "originContent": "or monitor /etc/wireguard/wg*.conf files for changes and reload WireGuard automatically.",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Dockerでの実行"
+  },
+  {
+    "row": 134,
+    "rowsha": "8a3tC3HW9RMa8ZllnW1xIQgTAgX4t9XpxgnB19dBYfQ=",
+    "originContent": "PRs are welcome to add support for other OSes.",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "可能ではありますが、WG CommanderをDockerで実行することは推奨されません。"
+  },
+  {
+    "row": 136,
+    "rowsha": "rjZkqeZv1I4Lj3xD4izlOghfdvROUHu4khgvYKMMm54=",
+    "originContent": "### Running in Docker ",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "セットアップウィザードは正常に動作しません。systemdユニットの作成やsysctlの変更が必要なためです。"
+  },
+  {
+    "row": 138,
+    "rowsha": "lq1nBUbaqmgPNQr4b2nOOXNH/BaW1qiIX+2saQ1yiMo=",
+    "originContent": "Although it is possible, it is not recommended to run WG Commander in Docker. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### アンインストール"
+  },
+  {
+    "row": 140,
+    "rowsha": "HABS82PoEEMfGq0MYi34NeYegfCOQbPqtJBhJ3ycXGQ=",
+    "originContent": "The Setup Wizard will not work properly, because it needs to create systemd units and modify sysctl.",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "WG Commanderをアンインストールするには、/usr/local/bin/wg-cmdからバイナリを削除してください。  "
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "また、/etc/wireguard/wgc-*および~/.config/wg-cmdディレクトリも削除できます。"
+  },
+  {
+    "row": 143,
+    "rowsha": "aLobb+JQAJjl7nnfNEOLx0mNkw0DOeyhTB9gsNILMQM=",
+    "originContent": "### Uninstall ",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "systemdユニットを作成している場合は、手動で削除する必要があります。"
+  },
+  {
+    "row": 145,
+    "rowsha": "0Q2doC2nzfmy2WoxI2lXrSz/DYnC+pwoJa3AvTL7kfM=",
+    "originContent": "To uninstall WG Commander, just remove the binary from /usr/local/bin/wg-cmd. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "zMdLzunPr7JgFmd4I3S9CNx76a2Cc2ZXKpqdweq4Hts=",
+    "originContent": "You can also remove directories /etc/wireguard/wgc-* and ~/.config/wg-cmd",
+    "translatedContent": "以下はWG Commanderが管理するインターフェースwg7を削除する例です。  "
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "（削除したいインターフェース名に変更してください）:"
+  },
+  {
+    "row": 148,
+    "rowsha": "H+EDaLcYyKY0iMRUZvPoQXCXCy+5fCR8ybEi6ftbmK4=",
+    "originContent": "If you have created systemd units, you will need to remove them manually.",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "s4CVUOhi2+USvHlG41Xh6UqjcnJmTVwO6XpBabmhfns=",
+    "originContent": "Below is an example of how to remove WG Commander managed interface wg7 ",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "Fv1tr8Pu93x1tGo8ZlMxwhlLMQvzM6tPmyOHuMnEL0k=",
+    "originContent": "(change it to whatever interface you need to delete):",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 154,
+    "rowsha": "+w1W+nsZQGoO9ZvmUg0St14S7XjBpOzQizf71dfnNG8=",
+    "originContent": "systemctl stop wgc-wg7.{path,service}",
+    "translatedContent": "systemctl stop wgc-wg7.{path,service}"
+  },
+  {
+    "row": 155,
+    "rowsha": "3kBPPz8KdHwMDoYh2u4vXsM+X8CrcDIDASls9t2ZF9k=",
+    "originContent": "systemctl disable wgc-wg7.{path,service}",
+    "translatedContent": "systemctl disable wgc-wg7.{path,service}"
+  },
+  {
+    "row": 156,
+    "rowsha": "efrTBY6NorwOM6ANWxWTq6O6juY7MZaHu5f2TxUJnsY=",
+    "originContent": "rm /etc/systemd/system/wgc-wg7.{path,service}",
+    "translatedContent": "rm /etc/systemd/system/wgc-wg7.{path,service}"
+  },
+  {
+    "row": 157,
+    "rowsha": "GvNY34d/U93Vsoemp5/9UA6fTiSogrpVgm4br56eEfc=",
+    "originContent": "systemctl stop wg-quick@wg7.service",
+    "translatedContent": "systemctl stop wg-quick@wg7.service"
+  },
+  {
+    "row": 158,
+    "rowsha": "zHKXEC846wJ09N2BR/rItBuYKtShh/JFETH6OcSaHQc=",
+    "originContent": "systemctl disable wg-quick@wg7.service",
+    "translatedContent": "systemctl disable wg-quick@wg7.service"
+  },
+  {
+    "row": 159,
+    "rowsha": "elg4QO34CQf4BunvcQQSfvtxHuKBH/606iT3led/2b0=",
+    "originContent": "rm /etc/wireguard/wg7.conf",
+    "translatedContent": "rm /etc/wireguard/wg7.conf"
+  },
+  {
+    "row": 160,
+    "rowsha": "207nAwzLfKB5koKW4qvsGFDO29OkSpS7CugrIdfgd/g=",
+    "originContent": "rm -Rf /etc/wireguard/wgc-wg7",
+    "translatedContent": "rm -Rf /etc/wireguard/wgc-wg7"
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# テスト済み"
+  },
+  {
+    "row": 164,
+    "rowsha": "e4kac51dsr0u8ddw/E1XC36+NfR+MALBpj90fMTqSro=",
+    "originContent": "# Tested",
+    "translatedContent": "WG Commanderは、WireGuard、iptables、sysctl、procfsが利用可能なsystemdベースのLinux"
+  },
+  {
+    "row": 165,
+    "rowsha": "bzReivm2jB03mcKJWvPy+5zu2Xihp98+jKsJYJav/nU=",
+    "originContent": "WG Commander should work well on any systemd-based Linux",
+    "translatedContent": "ディストリビューション上で問題なく動作するはずです。"
+  },
+  {
+    "row": 166,
+    "rowsha": "mJblnMQJRK4v5AgYDYIEEZpU1opsfLiMPZCMAbkDaHE=",
+    "originContent": "distribution with WireGuard, iptables, sysctl, procfs available.",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "以下の環境でテスト済みです："
+  },
+  {
+    "row": 168,
+    "rowsha": "pA89g/RjifsSkXXIwzmZNsATaSvEFKYdCQ2yHa2Ig8k=",
+    "originContent": "It was tested on:",
+    "translatedContent": "- Ubuntu 24.04（v0.1.7は2026年4月9日にテスト済み）"
+  },
+  {
+    "row": 169,
+    "rowsha": "96KhtypiwIzRaNHNpl4NrItAHoySSMfZLLMRAaMTU18=",
+    "originContent": "- Ubuntu 24.04 (v0.1.7 tested on Apr 9 2026)",
+    "translatedContent": "- Ubuntu 20.04"
+  },
+  {
+    "row": 170,
+    "rowsha": "H4vgsAgPPCPoAqwEXz2htffynRTZHi+VmNTuUHJe++Y=",
+    "originContent": "- Ubuntu 20.04",
+    "translatedContent": "- Ubuntu 22.04"
+  },
+  {
+    "row": 171,
+    "rowsha": "kMaYREmSbAP3PbWeHfokM81GyIzQ7ARSIZJ6HGGNbzU=",
+    "originContent": "- Ubuntu 22.04",
+    "translatedContent": "- Rocky Linux 9"
+  },
+  {
+    "row": 172,
+    "rowsha": "+/gBcA/QM1W0RSM6YPsBDETrD64ssd9llWqAFA4/ciY=",
+    "originContent": "- Rocky Linux 9",
+    "translatedContent": "- Debian 11"
+  },
+  {
+    "row": 173,
+    "rowsha": "EYtgNW8FzQw+hbj4P7MpAR7Z51L4ik/e0vAhhjR5Z3k=",
+    "originContent": "- Debian 11",
+    "translatedContent": "- Debian 12"
+  },
+  {
+    "row": 174,
+    "rowsha": "/dCVnTxTGcC7mDwmMLCEQUiIKi5Cow7SAUOGWhSdMEc=",
+    "originContent": "- Debian 12",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 貢献について"
+  },
+  {
+    "row": 176,
+    "rowsha": "1yCoKNoREHM/a6qGHb4WHakxWqjS55ccm8ypI1TWTPM=",
+    "originContent": "# Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "貢献は歓迎します。ガイドラインやAI開示ポリシーについては[CONTRIBUTING.md](https://raw.githubusercontent.com/AndrianBdn/wg-cmd/main/CONTRIBUTING.md)をご覧ください。"
+  },
+  {
+    "row": 178,
+    "rowsha": "4mmNF+9mWfqzH3PbNnQcyL+XKfsDkw55AqryeuuKEzc=",
+    "originContent": "Contributions are welcome. Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/AndrianBdn/wg-cmd/main/CONTRIBUTING.md) for guidelines, including our AI disclosure policy.",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 注意事項"
+  },
+  {
+    "row": 180,
+    "rowsha": "xAzfXQjCXf/7mBUNhWjjCQfw3Sp0Sr8O2xQOkB9CE7g=",
+    "originContent": "# Notes ",
+    "translatedContent": "WG Commanderには商業的な目的はありません。"
+  },
+  {
+    "row": 181,
+    "rowsha": "l6OiF8/M5+3U/fz6szrvTQiW37ksWuAiOmC1USI5Ow0=",
+    "originContent": "There is no commercial purpose behind WG Commander. ",
+    "translatedContent": "本プロジェクトは"
+  },
+  {
+    "row": 182,
+    "rowsha": "nGuZSFX1nPcy5WgwpWwEKlixhyZ9SENnQ7FmfC8vykA=",
+    "originContent": "The project is licensed under ",
+    "translatedContent": "[MITライセンス](https://github.com/andrianbdn/wg-cmd/blob/master/LICENSE)の下でライセンスされています。"
+  },
+  {
+    "row": 183,
+    "rowsha": "LgIUzdF7A1c7a4HDejkqYncBpuDOQD6zAFQ05005E4Q=",
+    "originContent": "the [MIT License](https://github.com/andrianbdn/wg-cmd/blob/master/LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本プロジェクトはWireGuard®の作者とは無関係です。"
+  },
+  {
+    "row": 185,
+    "rowsha": "g4hMWEfrsDbW7TEcPFewHR+5EbTooSDc6HhTPrfcmLg=",
+    "originContent": "This project is NOT related to the creator of WireGuard®.",
+    "translatedContent": "WG CommanderプロジェクトはWireGuard®やWireGuard®コミュニティによって"
+  },
+  {
+    "row": 186,
+    "rowsha": "H0GI0yrIfBVocBcujhzmtkdqeunsxFUGdg0C1UHQnC0=",
+    "originContent": "WG Commander project is NOT approved, sponsored, or affiliated ",
+    "translatedContent": "承認、スポンサー、または提携されていません。"
+  },
+  {
+    "row": 187,
+    "rowsha": "5DkLCrHR0b2bmTsRAr62/RdJaXNLW8FvV3T1SyJVpc0=",
+    "originContent": "with WireGuard® or with the WireGuard® community.",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

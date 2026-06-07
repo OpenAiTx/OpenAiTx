@@ -82,54 +82,55 @@ Yapay zeka ajanları daha yaygın hale geldikçe, birlikte çalışabilirlikleri
 ### Temel Özellikler
 
 - **Standartlaştırılmış İletişim:** HTTP(S) üzerinden JSON-RPC 2.0.
-- **Ajan Keşfi:** Yetenekler ve bağlantı bilgilerini detaylandıran "Ajan Kartları" ile.
+- **Ajan Keşfi:** Yetenekleri ve bağlantı bilgisini detaylandıran "Ajan Kartları" ile.
 - **Esnek Etkileşim:** Senkron istek/yanıt, akış (SSE) ve asenkron anlık bildirimleri destekler.
 - **Zengin Veri Alışverişi:** Metin, dosya ve yapılandırılmış JSON verilerini işler.
-- **Kurumsal Hazır:** Güvenlik, kimlik doğrulama ve gözlemlenebilirlik düşünülerek tasarlanmıştır.
+- **Kurumsal Düzeyde:** Güvenlik, kimlik doğrulama ve gözlemlenebilirlik ile tasarlanmıştır.
 
 ## Başlarken
 
-- 📚 **Dokümantasyonu Keşfedin:** Tam genel bakış, protokol spesifikasyonu, eğitimler ve rehberler için [Agent2Agent Protokolü Dokümantasyon Sitesini](https://a2a-protocol.org) ziyaret edin.
-- 📝 **Spesifikasyonu Görüntüleyin:** [A2A Protokolü Spesifikasyonu](https://a2a-protocol.org/latest/specification/)
-- SDK'leri kullanın:
+- 📚 **Dokümantasyonu Keşfedin:** Tam genel bakış, tüm protokol spesifikasyonu, eğitimler ve rehberler için [Agent2Agent Protokol Dokümantasyon Sitesini](https://a2a-protocol.org) ziyaret edin.
+- 📝 **Spesifikasyonu Görüntüleyin:** [A2A Protokol Spesifikasyonu](https://a2a-protocol.org/latest/specification/)
+- SDK'ları kullanın:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) maven ile
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) maven ile kullanılır
     - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A) ile `dotnet add package A2A`
-- 🎬 [örneklerimizi](https://github.com/a2aproject/a2a-samples) kullanarak A2A'yı çalışırken görün
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
+- 🎬 A2A'nın nasıl çalıştığını görmek için [örneklerimizi](https://github.com/a2aproject/a2a-samples) kullanın
 
-## Katkı Sağlamak
+## Katkıda Bulunun
 
 A2A protokolünü geliştirmek ve evrimleştirmek için topluluk katkılarını memnuniyetle karşılıyoruz!
 
-- **Sorular & Tartışmalar:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) bölümüne katılın.
-- **Sorunlar & Geri Bildirim:** [GitHub Issues](https://github.com/a2aproject/A2A/issues) üzerinden sorun bildirin veya iyileştirme önerin.
-- **Katkı Rehberi:** Katkı sağlama detayları için [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) dosyasını inceleyin.
-- **Özel Geri Bildirim:** Bu [Google Formu](https://goo.gle/a2a-feedback) ile bize ulaşın.
-- **Partner Programı:** Google Cloud müşterileri bu [form](https://goo.gle/a2a-partner) ile partner programımıza katılabilir.
+- **Sorular & Tartışmalar:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) sayfamıza katılın.
+- **Hatalar & Geri Bildirim:** [GitHub Issues](https://github.com/a2aproject/A2A/issues) üzerinden hata bildirin veya iyileştirme önerin.
+- **Katkı Rehberi:** Katkı sağlama detayları için [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) dosyamıza bakın.
+- **Özel Geri Bildirim:** [Google Formunu](https://goo.gle/a2a-feedback) kullanın.
+- **İş Ortağı Programı:** Google Cloud müşterileri [bu form](https://goo.gle/a2a-partner) üzerinden iş ortağı programımıza katılabilir.
 
-## Sıradaki Adımlar
+## Sırada Ne Var
 
 ### Protokol Geliştirmeleri
 
 - **Ajan Keşfi:**
-    - Yetkilendirme şemalarının ve isteğe bağlı kimlik bilgilerinin doğrudan `AgentCard` içine dahil edilmesini resmileştirin.
+    - Yetkilendirme şemalarının ve isteğe bağlı kimlik bilgilerinin doğrudan `AgentCard` içine dahil edilmesini resmileştir.
 - **Ajan İşbirliği:**
-    - Desteklenmeyen veya beklenmeyen yetenekleri dinamik olarak kontrol etmek için bir `QuerySkill()` yöntemi araştırın.
-- **Görev Yaşam Döngüsü & Kullanıcı Deneyimi:**
-    - Bir görev _içinde_ dinamik UX müzakeresi desteği (ör. ajan sohbet sırasında ses/video eklemesi).
+    - Desteklenmeyen veya öngörülmeyen yetenekleri dinamik olarak kontrol etmek için bir `QuerySkill()` metodu araştırılacak.
+- **Görev Yaşam Döngüsü & UX:**
+    - Bir görev _içerisinde_ dinamik UX müzakeresi desteği (örneğin, ajan konuşma sırasında ses/görüntü ekliyor).
 - **İstemci Yöntemleri & Taşıma:**
-    - İstemci başlatımlı yöntemlere desteğin genişletilmesi araştırılacak (görev yönetiminin ötesinde).
+    - İstemci tarafından başlatılan yöntemlere desteğin genişletilmesi (görev yönetiminin ötesinde) araştırılıyor.
     - Akış güvenilirliği ve anlık bildirim mekanizmalarında iyileştirmeler.
 
 ## Hakkında
 
-A2A Protokolü, Linux Foundation çatısı altında Google tarafından katkıda bulunulan açık kaynaklı bir projedir. [Apache License 2.0](LICENSE) ile lisanslanmıştır ve topluluk katkılarına açıktır.
+A2A Protokolü, Google tarafından katkı sağlanan, Linux Vakfı altında açık kaynaklı bir projedir. [Apache Lisansı 2.0](LICENSE) ile lisanslanmıştır ve topluluğun katkılarına açıktır.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---

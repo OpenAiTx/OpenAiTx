@@ -81,55 +81,56 @@ Naarmate AI-agenten steeds vaker voorkomen, is hun vermogen om samen te werken c
 
 ### Belangrijkste Kenmerken
 
-- **Gestandaardiseerde Communicatie:** JSON-RPC 2.0 over HTTP(S).
-- **Agent Ontdekking:** Via "Agent Cards" met details over mogelijkheden en verbindingsinformatie.
-- **Flexibele Interactie:** Ondersteunt synchrone request/response, streaming (SSE) en asynchrone push-notificaties.
-- **Rijke Data-uitwisseling:** Verwerkt tekst, bestanden en gestructureerde JSON-data.
-- **Enterprise-Ready:** Ontworpen met veiligheid, authenticatie en observability in gedachten.
+- **Gestandaardiseerde Communicatie:** JSON-RPC 2.0 via HTTP(S).
+- **Agent Ontdekking:** Via "Agentkaarten" met details over mogelijkheden en verbindingsinfo.
+- **Flexibele Interactie:** Ondersteunt synchrone verzoek/antwoord, streaming (SSE), en asynchrone pushmeldingen.
+- **Rijke Gegevensuitwisseling:** Verwerkt tekst, bestanden en gestructureerde JSON-data.
+- **Enterprise-Klaar:** Ontworpen met focus op beveiliging, authenticatie en observeerbaarheid.
 
-## Aan de slag
+## Aan de Slag
 
-- 📚 **Verken de Documentatie:** Bezoek de [Agent2Agent Protocol Documentatie Site](https://a2a-protocol.org) voor een compleet overzicht, de volledige protocol specificatie, tutorials en handleidingen.
+- 📚 **Bekijk de Documentatie:** Bezoek de [Agent2Agent Protocol Documentatie Site](https://a2a-protocol.org) voor een compleet overzicht, de volledige protocol specificatie, tutorials en gidsen.
 - 📝 **Bekijk de Specificatie:** [A2A Protocol Specificatie](https://a2a-protocol.org/latest/specification/)
 - Gebruik de SDK's:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) met maven
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) via maven
     - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) via [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`
 - 🎬 Gebruik onze [voorbeelden](https://github.com/a2aproject/a2a-samples) om A2A in actie te zien
 
 ## Bijdragen
 
-We verwelkomen bijdragen van de community om het A2A protocol te verbeteren en verder te ontwikkelen!
+Wij verwelkomen bijdragen uit de community om het A2A-protocol te verbeteren en verder te ontwikkelen!
 
-- **Vragen & Discussies:** Neem deel aan onze [GitHub Discussies](https://github.com/a2aproject/A2A/discussions).
-- **Issues & Feedback:** Meld problemen of stel verbeteringen voor via [GitHub Issues](https://github.com/a2aproject/A2A/issues).
-- **Bijdragegids:** Zie onze [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) voor details over hoe je kunt bijdragen.
-- **Privé Feedback:** Gebruik dit [Google Formulier](https://goo.gle/a2a-feedback).
-- **Partnerprogramma:** Google Cloud klanten kunnen deelnemen aan ons partnerprogramma via dit [formulier](https://goo.gle/a2a-partner).
+- **Vragen & Discussies:** Doe mee aan onze [GitHub Discussies](https://github.com/a2aproject/A2A/discussions).
+- **Problemen & Feedback:** Meld problemen of stel verbeteringen voor via [GitHub Issues](https://github.com/a2aproject/A2A/issues).
+- **Bijdragegids:** Zie onze [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) voor details over bijdragen.
+- **Privéfeedback:** Gebruik dit [Google Formulier](https://goo.gle/a2a-feedback).
+- **Partnerprogramma:** Google Cloud-klanten kunnen deelnemen aan ons partnerprogramma via dit [formulier](https://goo.gle/a2a-partner).
 
-## Wat is de volgende stap
+## Wat is het volgende
 
-### Protocol Verbeteringen
+### Protocolverbeteringen
 
 - **Agent Ontdekking:**
-    - Formaliseer de opname van autorisatieschema's en optionele credentials direct in de `AgentCard`.
+    - Formuleren van de opname van autorisatieschema’s en optionele credentials direct in de `AgentCard`.
 - **Agent Samenwerking:**
-    - Onderzoek een `QuerySkill()` methode voor het dynamisch controleren van niet-ondersteunde of onverwachte vaardigheden.
-- **Taak Lifecycle & UX:**
-    - Ondersteuning voor dynamische UX-onderhandeling _binnen_ een taak (bijv. agent voegt audio/video toe tijdens een gesprek).
+    - Onderzoek naar een `QuerySkill()` methode voor dynamische controle van niet-ondersteunde of onverwachte vaardigheden.
+- **Taaklevenscyclus & UX:**
+    - Ondersteuning voor dynamische UX-onderhandeling _binnen_ een taak (bijv. agent die audio/video toevoegt tijdens een gesprek).
 - **Clientmethoden & Transport:**
     - Onderzoek naar uitbreiding van ondersteuning voor door de client geïnitieerde methoden (naast taakbeheer).
-    - Verbeteringen in de betrouwbaarheid van streaming en pushmeldingsmechanismen.
+    - Verbeteringen aan streamingbetrouwbaarheid en pushmeldingsmechanismen.
 
 ## Over
 
-Het A2A-protocol is een open source-project onder de Linux Foundation, bijgedragen door Google. Het is gelicentieerd onder de [Apache License 2.0](LICENSE) en staat open voor bijdragen van de community.
+Het A2A Protocol is een open source project onder de Linux Foundation, bijgedragen door Google. Het is gelicentieerd onder de [Apache License 2.0](LICENSE) en staat open voor bijdragen uit de gemeenschap.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
 
 ---
