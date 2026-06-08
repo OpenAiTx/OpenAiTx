@@ -1,4 +1,35 @@
-# Karpov Gateway
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Karpov 网关
 
 > 一体化 API 网关 + 控制台。Go 后端（Gin + gRPC）+ Next.js 前端（App Router + shadcn/ui），自带凭据池、邮件验证、Linux.do OAuth2 SSO、配额计费、TOTP 二步验证。
 
@@ -6,15 +37,16 @@
 [![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
 
-## ✨ 功能特性
+
+## ✨ 功能
 
 - **统一 REST 网关** — 单进程或多服务模式，gateway → auth/music/pool/quota/billing/worker gRPC 后端可独立部署
 - **凭据池（加密）** — KEK + DEK 信封加密，AES-256-GCM 带 AAD，POOL_KEK_HEX 主密钥派生
-- **邮箱注册 + 激活** — SMTP 发送验证码 / 激活链接，双重保障（验证码 + 邮件链接），未配置 SMTP 自动降级为 LogSender
-- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密存库
+- **邮箱注册 + 激活** — SMTP 发码 / 激活链接，双重保险（验证码 + 邮件链接），未配置 SMTP 自动降级到 LogSender
+- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密入库
 - **配额 / 计费** — PlanQuotaMiddleware 在 gateway 层兜底，业务服务内部按 plan + scope 二次校验
-- **TOTP 二步验证** — `pquerna/otp` + Redis 重放保护
-- **审计日志** — 结构化 JSON，按类型分文件，每日滚动
+- **TOTP 双重认证** — `pquerna/otp` + Redis 重放保护
+- **审计日志** — 结构化 JSON，按 type 分文件，每天滚动
 - **CSRF + Session** — `sid` httpOnly cookie + `X-CSRF-Token` 头双重校验
 - **shadcn/ui 控制台** — Next.js 16 App Router + Radix + Tailwind v4
 
@@ -175,6 +207,6 @@ MIT — 见 [LICENSE](./LICENSE)
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-08
 
 ---

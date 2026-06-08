@@ -1,0 +1,812 @@
+[
+  {
+    "Id": 1,
+    "Content": "# mpv config\n\n![mpv logo](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)\n\n## Overview\n\n**mpv** is a free (as in freedom and free beer), open-source, and cross-platform media player. It supports\na wide variety of media file formats, audio and video codecs, and subtitle types.\n\nThis repo contains my personal mpv configurations and scripts that I use and are significantly better than default mpv, VLC, and MPC. Before installing, please take your time to read this whole README as common issues can be easily solved by simply reading carefully.\n\n\n## Preview\n\n[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)\n\n## Installation\n\n### Windows\n\nHere are the steps to install mpv and to use my configuration files on Windows:\n* Download the latest 64bit mpv Windows build by shinchiro from [mpv.io/installation](https://mpv.io/installation/) or directly from [here](https://sourceforge.net/projects/mpv-player-windows/files/) and extract it wherever you please. This is now your mpv folder\n* Run `mpv-install.bat`, which is located in `installer` folder, with administrator priviledges by right-clicking and selecting Run as administrator\n* Download this repository as a ZIP file (or you can clone it using git)\n* Create a folder named `portable_config` (**this is important**), located at the same directory as `mpv.exe`\n* Extract or copy the contents of this repository that you have downloaded to the `portable_config` folder\n* To make some scripts work, you need to modify them from the release a little bit:\n  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.\n  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `C:/Program Files/mpv/gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`.\n* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.\n* You're all set up.\n\n### Linux\n\nHere are the steps to install mpv and to use my configuration files on Linux:\n\n* Install mpv and xclip (clipboard CLI interface) using the package manager that comes with your Linux distribution. xclip is needed for [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua) and [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) scripts to work properly. The package name for mpv and xclip might also vary depending on your Linux distribution. Here, I will make Arch Linux, that comes with `pacman` as its package manager, as an example\n  ",
+    "ContentSha": "2I7+CcEQ2ClNvhbzG+RMfsFM5r5EsOQqDn/EvGUsN8g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# mpv 設定\n\n![mpv ロゴ](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)\n\n## 概要\n\n**mpv** は自由（自由と無料の両方の意味で）でオープンソース、クロスプラットフォームのメディアプレーヤーです。  \nさまざまなメディアファイル形式、音声および映像コーデック、字幕形式をサポートしています。\n\nこのリポジトリには、私が使用している個人的な mpv の設定とスクリプトが含まれており、デフォルトの mpv、VLC、MPC よりも大幅に優れています。インストール前に、この README を最後までよく読んでください。よくある問題は注意深く読むだけで簡単に解決できます。\n\n\n## プレビュー\n\n[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)\n\n## インストール\n\n### Windows\n\nWindows で mpv をインストールし、私の設定ファイルを使用する手順は以下の通りです：  \n* shinchiro による最新の 64bit mpv Windows ビルドを [mpv.io/installation](https://mpv.io/installation/) から、または直接 [こちら](https://sourceforge.net/projects/mpv-player-windows/files/) からダウンロードし、お好きな場所に解凍します。これがあなたの mpv フォルダになります  \n* `installer` フォルダ内にある `mpv-install.bat` を管理者権限で右クリックから「管理者として実行」で実行します  \n* このリポジトリを ZIP ファイルとしてダウンロードするか（または git を使ってクローンします）  \n* `mpv.exe` と同じディレクトリに `portable_config` という名前のフォルダを作成します（**これは重要です**）  \n* ダウンロードしたリポジトリの内容を `portable_config` フォルダに展開またはコピーします  \n* いくつかのスクリプトを動作させるには、リリース版から少し修正が必要です：  \n  * `mpv-gif.lua` スクリプトを動作させるには、libass が有効化されておりターミナルからアクセス可能な [FFmpeg](https://ffmpeg.org/) が必要です。詳細はスクリプトのソースリポジトリの [インストール手順](https://github.com/Scheliux/mpv-gif-generator#installation) を参照してください。  \n  * **（任意）** デフォルトでは `mpv-gif.lua` スクリプトは GIF を `C:/Program Files/mpv/gifs` に保存します。これを変更するには、`portable_config/script-opts` フォルダにある `gif.conf` をテキストエディタで開き、GIF の出力ディレクトリである `dir` をお好きな場所に設定します。例：`dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`  \n* **（任意）** ご自身の mpv 設定を作成することも可能です。私の設定ファイルを修正したり、自分で一から作成したり、他人の設定を改変したりしてください。mpv 設定ガイドについては [便利なリンク](#useful-links) セクションを参照してください。  \n* 以上で準備完了です。\n\n### Linux\n\nLinux で mpv をインストールし、私の設定ファイルを使用する手順は以下の通りです：\n\n* Linux ディストリビューションに付属のパッケージマネージャを使って mpv と xclip（クリップボード CLI インターフェース）をインストールします。xclip は [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua) と [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) スクリプトの正常動作に必要です。mpv と xclip のパッケージ名はディストリビューションによって異なる場合があります。ここでは例として、パッケージマネージャに `pacman` を使う Arch Linux を挙げます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5L8pKCn9fxCiw7aTOewPgxKW+FRCpjGeYG+aoNAev3c=",
+        "originContent": "# mpv config",
+        "translatedContent": "# mpv 設定"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "9+6ibFRnxOCbkhDsSB2rFk4FiDZgV139VNaBKbnZfHQ=",
+        "originContent": "![mpv logo](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)",
+        "translatedContent": "![mpv ロゴ](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## 概要"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+F4WZWM3bNzLnwlKYcwtjoeF/LKR4yina9Ae3ThphaQ=",
+        "originContent": "**mpv** is a free (as in freedom and free beer), open-source, and cross-platform media player. It supports",
+        "translatedContent": "**mpv** は自由（自由と無料の両方の意味で）でオープンソース、クロスプラットフォームのメディアプレーヤーです。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "2R6j9ZwrWWQozCAq4YNlggd1q5vqHyuRMJ1YD/8o1TU=",
+        "originContent": "a wide variety of media file formats, audio and video codecs, and subtitle types.",
+        "translatedContent": "さまざまなメディアファイル形式、音声および映像コーデック、字幕形式をサポートしています。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "PA37tTHwS4vhxui3VdT2fI/wIjKOGr6LtuqqbAgyim0=",
+        "originContent": "This repo contains my personal mpv configurations and scripts that I use and are significantly better than default mpv, VLC, and MPC. Before installing, please take your time to read this whole README as common issues can be easily solved by simply reading carefully.",
+        "translatedContent": "このリポジトリには、私が使用している個人的な mpv の設定とスクリプトが含まれており、デフォルトの mpv、VLC、MPC よりも大幅に優れています。インストール前に、この README を最後までよく読んでください。よくある問題は注意深く読むだけで簡単に解決できます。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "SAa2SCue0ypI0FGkgNSHyL7bpF+OrYgFRFV0McGKt3g=",
+        "originContent": "## Preview",
+        "translatedContent": "## プレビュー"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "xzKNuZD202TqB2qFYGrrrYd8JVNpvepaMXt+2mh/+78=",
+        "originContent": "[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)",
+        "translatedContent": "[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "3Jx312H9MprSgKR9FoFltP60aJuKCTrwd0xBoHCVtew=",
+        "originContent": "Here are the steps to install mpv and to use my configuration files on Windows:",
+        "translatedContent": "Windows で mpv をインストールし、私の設定ファイルを使用する手順は以下の通りです：  "
+      },
+      {
+        "row": 22,
+        "rowsha": "LmkSyA0NPE+KwJp1jRlHq5JwLJSyXBzpb/hz7jfBfvs=",
+        "originContent": "* Download the latest 64bit mpv Windows build by shinchiro from [mpv.io/installation](https://mpv.io/installation/) or directly from [here](https://sourceforge.net/projects/mpv-player-windows/files/) and extract it wherever you please. This is now your mpv folder",
+        "translatedContent": "* shinchiro による最新の 64bit mpv Windows ビルドを [mpv.io/installation](https://mpv.io/installation/) から、または直接 [こちら](https://sourceforge.net/projects/mpv-player-windows/files/) からダウンロードし、お好きな場所に解凍します。これがあなたの mpv フォルダになります  "
+      },
+      {
+        "row": 23,
+        "rowsha": "Hl7tzovbmHL8dAff36ROw/2hcwJ/Y/cxxe1hXW30DRY=",
+        "originContent": "* Run `mpv-install.bat`, which is located in `installer` folder, with administrator priviledges by right-clicking and selecting Run as administrator",
+        "translatedContent": "* `installer` フォルダ内にある `mpv-install.bat` を管理者権限で右クリックから「管理者として実行」で実行します  "
+      },
+      {
+        "row": 24,
+        "rowsha": "IPz4X2S2CNT22GVxrGleMqa5X2f1ZyG80x2HSwbAbY8=",
+        "originContent": "* Download this repository as a ZIP file (or you can clone it using git)",
+        "translatedContent": "* このリポジトリを ZIP ファイルとしてダウンロードするか（または git を使ってクローンします）  "
+      },
+      {
+        "row": 25,
+        "rowsha": "TwDqWwI6qm/6jHqg5SAVW6lu8YyhPgP87/fFsUY8NRo=",
+        "originContent": "* Create a folder named `portable_config` (**this is important**), located at the same directory as `mpv.exe`",
+        "translatedContent": "* `mpv.exe` と同じディレクトリに `portable_config` という名前のフォルダを作成します（**これは重要です**）  "
+      },
+      {
+        "row": 26,
+        "rowsha": "6mNXyShHY8W/yvFfWbMTUMSECy5Uj+JBomxGADGfZ5E=",
+        "originContent": "* Extract or copy the contents of this repository that you have downloaded to the `portable_config` folder",
+        "translatedContent": "* ダウンロードしたリポジトリの内容を `portable_config` フォルダに展開またはコピーします  "
+      },
+      {
+        "row": 27,
+        "rowsha": "UW0P8u7ELsAHkndYXehY3SwUwkazB7jT494fpoDi25k=",
+        "originContent": "* To make some scripts work, you need to modify them from the release a little bit:",
+        "translatedContent": "* いくつかのスクリプトを動作させるには、リリース版から少し修正が必要です：  "
+      },
+      {
+        "row": 28,
+        "rowsha": "qCuVppm7Qxhx32HZ3lAXmw3J7F77ycVg5xp+h5Ogxdc=",
+        "originContent": "  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.",
+        "translatedContent": "  * `mpv-gif.lua` スクリプトを動作させるには、libass が有効化されておりターミナルからアクセス可能な [FFmpeg](https://ffmpeg.org/) が必要です。詳細はスクリプトのソースリポジトリの [インストール手順](https://github.com/Scheliux/mpv-gif-generator#installation) を参照してください。  "
+      },
+      {
+        "row": 29,
+        "rowsha": "BE/GjxcgDTLR2YJbjBPmvM6e7sAL8rR6IdKU206Kgv4=",
+        "originContent": "  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `C:/Program Files/mpv/gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`.",
+        "translatedContent": "  * **（任意）** デフォルトでは `mpv-gif.lua` スクリプトは GIF を `C:/Program Files/mpv/gifs` に保存します。これを変更するには、`portable_config/script-opts` フォルダにある `gif.conf` をテキストエディタで開き、GIF の出力ディレクトリである `dir` をお好きな場所に設定します。例：`dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`  "
+      },
+      {
+        "row": 30,
+        "rowsha": "H5sXgdAppuIKyhNjJ9XvbuAUwflmJAtQfqQfAbB4krU=",
+        "originContent": "* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.",
+        "translatedContent": "* **（任意）** ご自身の mpv 設定を作成することも可能です。私の設定ファイルを修正したり、自分で一から作成したり、他人の設定を改変したりしてください。mpv 設定ガイドについては [便利なリンク](#useful-links) セクションを参照してください。  "
+      },
+      {
+        "row": 31,
+        "rowsha": "mU13mUuk8r7M5ElY1eoVrNNPptPKNRRW+X17gWypBNM=",
+        "originContent": "* You're all set up.",
+        "translatedContent": "* 以上で準備完了です。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "### Linux"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "9wyeJiseSmAlUXjbEWbBHlRYtAek0K7dWq9r4pGSLFI=",
+        "originContent": "Here are the steps to install mpv and to use my configuration files on Linux:",
+        "translatedContent": "Linux で mpv をインストールし、私の設定ファイルを使用する手順は以下の通りです："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "NOtVlu6RP5gWlxr1K4GIQJygt5Kl5KFdxcPWIx7+KJc=",
+        "originContent": "* Install mpv and xclip (clipboard CLI interface) using the package manager that comes with your Linux distribution. xclip is needed for [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua) and [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) scripts to work properly. The package name for mpv and xclip might also vary depending on your Linux distribution. Here, I will make Arch Linux, that comes with `pacman` as its package manager, as an example",
+        "translatedContent": "* Linux ディストリビューションに付属のパッケージマネージャを使って mpv と xclip（クリップボード CLI インターフェース）をインストールします。xclip は [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua) と [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) スクリプトの正常動作に必要です。mpv と xclip のパッケージ名はディストリビューションによって異なる場合があります。ここでは例として、パッケージマネージャに `pacman` を使う Arch Linux を挙げます。"
+      },
+      {
+        "row": 38,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  ```\n  sudo pacman -S mpv xclip\n  ```",
+    "ContentSha": "hzX7HDDLJQjHOcwgNCRCs5+rS7HOVFcfg0jOKeHjsuc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  sudo pacman -S mpv xclip\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ATMyMonwPFDh1Z9xdcLzt1oPEozoyre8tj2V9vLvBtk=",
+        "originContent": "  sudo pacman -S mpv xclip",
+        "translatedContent": "  sudo pacman -S mpv xclip"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n  If you, for example, use Fedora Linux, that comes with `dnf` as its package manager, you can install mpv and xclip with the following command instead.",
+    "ContentSha": "q1gf0IeNrFx9Q71grpR7mZPioGYmi281hW54wMf6IxQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  例えば、Fedora Linuxを使用していて、そのパッケージマネージャーとして`dnf`が付属している場合は、代わりに以下のコマンドでmpvとxclipをインストールできます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  例えば、Fedora Linuxを使用していて、そのパッケージマネージャーとして`dnf`が付属している場合は、代わりに以下のコマンドでmpvとxclipをインストールできます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "/FIs4P6Gya38sR0zn1nNEA5T7aIJXUTzjZlRJa5Nj3E=",
+        "originContent": "  If you, for example, use Fedora Linux, that comes with `dnf` as its package manager, you can install mpv and xclip with the following command instead.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  ```\n  sudo dnf install mpv xclip\n  ```",
+    "ContentSha": "I7q5avBA7mx4uvtnWsVtBfTItQUHjDCN7nF+m3pnXgA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  sudo dnf install mpv xclip\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "pbg0O5awfG7loUN49pZQLJmmjyz1oWgQY5oWyAYo814=",
+        "originContent": "  sudo dnf install mpv xclip",
+        "translatedContent": "  sudo dnf install mpv xclip"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n  If you use other Linux distributions, please refer to the documentation of your Linux distribution's package manager on how to install packages.\n\n* Download this repository as a ZIP file (or you can clone it using git) and extract/copy it to your standard mpv configuration directory which is `~/.config/mpv`\n* Some things to highlight:\n  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.\n  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `~/Videos/mpv-gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"~/Videos\"`.\n* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.\n* You're all set up.\n\n## Scripts\n\nScripts from external sources:\n\n* audio-visualizer.lua ([source](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\\n  Various audio visualization. It only works if you open audio files.\n  \n* autoload.lua ([source](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\\n  Automatically load playlist entries before and after the currently playing file, by scanning the directory.\n\n* copy-timestamp.lua ([source](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\\n  Copies current timecode in HH:MM:SS.MS format to clipboard. Cross-platform (Mac, Windows, Linux).\n\n* cycle-commands.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\\n  Cycles through a series of commands on a keypress. Each iteration of the cycle can contain as many commands as one wants. Syntax details are at the top of the file.\n\n* cycle-profile.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\\n  Cycles through a list of profiles sent via a script message and prints the profile-desc to the OSD. More details at the top of the file.\n\n* modernz.lua ([source](https://github.com/Samillion/ModernZ))\\\n  A modern OSC UI replacement for MPV that retains the functionality of the default OSC.\n\n* mpv-gif.lua ([source](https://github.com/Scheliux/mpv-gif-generator))\\\n  Script to generate GIFs from video playback. Requires FFmpeg with libass enabled. The exporting GIFs with subtitled currently doesn't work properly.\n\n* playlistmanager.lua ([source](https://github.com/jonniek/mpv-playlistmanager))\\\n  Allows you to see and interact with your playlist in an intuitive way.\n\n* seek-to.lua ([source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\\n  Seek to an absolute timestamp specified via keyboard input or pasted from clipboard.",
+    "ContentSha": "HExtns1Xs7kqBhsnxljsEL2vc3FwwJ20li0jI/fiufo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  他のLinuxディストリビューションを使用している場合は、パッケージのインストール方法についてはお使いのLinuxディストリビューションのパッケージマネージャのドキュメントを参照してください。\n\n* このリポジトリをZIPファイルとしてダウンロードする（またはgitでクローン）し、標準のmpv設定ディレクトリである `~/.config/mpv` に解凍/コピーします。\n* ハイライトすべき点：\n  * `mpv-gif.lua`スクリプトが動作するには、libassが有効になっており、ターミナルからアクセス可能な[FFmpeg](https://ffmpeg.org/)が必要です。スクリプトのソースリポジトリの[インストール手順](https://github.com/Scheliux/mpv-gif-generator#installation)を参照してください。\n  * **（オプション）** デフォルトでは、`mpv-gif.lua`スクリプトはGIFを `~/Videos/mpv-gifs` に保存します。これを変更するには、`portable_config/script-opts`フォルダ内にある`gif.conf`をテキストエディタで開き、GIFの出力ディレクトリである`dir`を希望の場所に指定します。例：`dir=\"~/Videos\"`。\n* **（オプション）** 独自のmpv設定を作成できます。私の設定ファイルを修正したり、ゼロから作成したり、他の設定を修正したりしても構いません。mpv設定ガイドについては[役立つリンク](#useful-links)セクションを参照してください。\n* これで準備完了です。\n\n## スクリプト\n\n外部ソースのスクリプト：\n\n* audio-visualizer.lua ([ソース](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\\n  さまざまなオーディオビジュアライゼーション。オーディオファイルを開いたときのみ動作します。\n  \n* autoload.lua ([ソース](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\\n  現在再生中のファイルの前後のプレイリストエントリを自動的に読み込み、ディレクトリをスキャンします。\n\n* copy-timestamp.lua ([ソース](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\\n  現在のタイムコードをHH:MM:SS.MS形式でクリップボードにコピーします。クロスプラットフォーム（Mac、Windows、Linux）対応。\n\n* cycle-commands.lua ([ソース](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\\n  キープレスで一連のコマンドを順に切り替えます。サイクルの各イテレーションには任意の数のコマンドを含めることが可能です。構文の詳細はファイルの先頭にあります。\n\n* cycle-profile.lua ([ソース](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\\n  スクリプトメッセージで送信されたプロファイルリストを順に切り替え、プロファイルの説明をOSDに表示します。詳細はファイルの先頭にあります。\n\n* modernz.lua ([ソース](https://github.com/Samillion/ModernZ))\\\n  MPVのモダンなOSC UI置換で、デフォルトのOSCの機能を保持しています。\n\n* mpv-gif.lua ([ソース](https://github.com/Scheliux/mpv-gif-generator))\\\n  動画再生からGIFを生成するスクリプト。libassが有効なFFmpegが必要です。字幕付きのGIFエクスポートは現在正常に動作しません。\n\n* playlistmanager.lua ([ソース](https://github.com/jonniek/mpv-playlistmanager))\\\n  プレイリストを直感的に閲覧・操作できるようにします。\n\n* seek-to.lua ([ソース](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\\n  キーボード入力またはクリップボードから貼り付けた絶対タイムスタンプへシークします。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  他のLinuxディストリビューションを使用している場合は、パッケージのインストール方法についてはお使いのLinuxディストリビューションのパッケージマネージャのドキュメントを参照してください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "MrvEmb8OI5oC2Amr7bFxObAIBMTmZ3g3YqzlihpG/t8=",
+        "originContent": "  If you use other Linux distributions, please refer to the documentation of your Linux distribution's package manager on how to install packages.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* このリポジトリをZIPファイルとしてダウンロードする（またはgitでクローン）し、標準のmpv設定ディレクトリである `~/.config/mpv` に解凍/コピーします。"
+      },
+      {
+        "row": 4,
+        "rowsha": "F9nBu+VOIRPgrL4+lY5ESGDprL5flflvl8HYR/FphTk=",
+        "originContent": "* Download this repository as a ZIP file (or you can clone it using git) and extract/copy it to your standard mpv configuration directory which is `~/.config/mpv`",
+        "translatedContent": "* ハイライトすべき点："
+      },
+      {
+        "row": 5,
+        "rowsha": "EqBdjkPxDncKd2wJJQgm5sdL2jzpBJQ3GWN1JRaHLJo=",
+        "originContent": "* Some things to highlight:",
+        "translatedContent": "  * `mpv-gif.lua`スクリプトが動作するには、libassが有効になっており、ターミナルからアクセス可能な[FFmpeg](https://ffmpeg.org/)が必要です。スクリプトのソースリポジトリの[インストール手順](https://github.com/Scheliux/mpv-gif-generator#installation)を参照してください。"
+      },
+      {
+        "row": 6,
+        "rowsha": "qCuVppm7Qxhx32HZ3lAXmw3J7F77ycVg5xp+h5Ogxdc=",
+        "originContent": "  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.",
+        "translatedContent": "  * **（オプション）** デフォルトでは、`mpv-gif.lua`スクリプトはGIFを `~/Videos/mpv-gifs` に保存します。これを変更するには、`portable_config/script-opts`フォルダ内にある`gif.conf`をテキストエディタで開き、GIFの出力ディレクトリである`dir`を希望の場所に指定します。例：`dir=\"~/Videos\"`。"
+      },
+      {
+        "row": 7,
+        "rowsha": "6Dsr3T7j9FnRzOR/WHM7eT1hiFShBFDikRP8beMwvNg=",
+        "originContent": "  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `~/Videos/mpv-gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"~/Videos\"`.",
+        "translatedContent": "* **（オプション）** 独自のmpv設定を作成できます。私の設定ファイルを修正したり、ゼロから作成したり、他の設定を修正したりしても構いません。mpv設定ガイドについては[役立つリンク](#useful-links)セクションを参照してください。"
+      },
+      {
+        "row": 8,
+        "rowsha": "H5sXgdAppuIKyhNjJ9XvbuAUwflmJAtQfqQfAbB4krU=",
+        "originContent": "* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.",
+        "translatedContent": "* これで準備完了です。"
+      },
+      {
+        "row": 9,
+        "rowsha": "mU13mUuk8r7M5ElY1eoVrNNPptPKNRRW+X17gWypBNM=",
+        "originContent": "* You're all set up.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## スクリプト"
+      },
+      {
+        "row": 11,
+        "rowsha": "pHKKV0YrSO2GtpE+3oi2IzQm3gGiWfYwinMGlvLxbkQ=",
+        "originContent": "## Scripts",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "外部ソースのスクリプト："
+      },
+      {
+        "row": 13,
+        "rowsha": "6dh1xe1rtGLB0Bdq7OlNGgE2GtoTPXahhB8Bfg6NUHA=",
+        "originContent": "Scripts from external sources:",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* audio-visualizer.lua ([ソース](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\"
+      },
+      {
+        "row": 15,
+        "rowsha": "rYRZBaOcS3pdviKgZXPL7XlSnUxvV4WbRHHjk8rfmSE=",
+        "originContent": "* audio-visualizer.lua ([source](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\",
+        "translatedContent": "  さまざまなオーディオビジュアライゼーション。オーディオファイルを開いたときのみ動作します。"
+      },
+      {
+        "row": 16,
+        "rowsha": "YghGdFOKq/4MjgtgTM9A27wKhDInwJaftJd/qB5b83M=",
+        "originContent": "  Various audio visualization. It only works if you open audio files.",
+        "translatedContent": "  "
+      },
+      {
+        "row": 17,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "* autoload.lua ([ソース](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\"
+      },
+      {
+        "row": 18,
+        "rowsha": "LAnGIwSxRwx7/amvOC/mK8+46QTP9gH59wO2b6tMsPA=",
+        "originContent": "* autoload.lua ([source](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\",
+        "translatedContent": "  現在再生中のファイルの前後のプレイリストエントリを自動的に読み込み、ディレクトリをスキャンします。"
+      },
+      {
+        "row": 19,
+        "rowsha": "0gH1H2IweuYk9vODyovdcqbQkH6JcmynRJIIpeyN0jE=",
+        "originContent": "  Automatically load playlist entries before and after the currently playing file, by scanning the directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* copy-timestamp.lua ([ソース](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\"
+      },
+      {
+        "row": 21,
+        "rowsha": "mk74ZTnmscuKKmrSwTSxuFwbRl+E5eB78CR3SQ3IpYY=",
+        "originContent": "* copy-timestamp.lua ([source](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\",
+        "translatedContent": "  現在のタイムコードをHH:MM:SS.MS形式でクリップボードにコピーします。クロスプラットフォーム（Mac、Windows、Linux）対応。"
+      },
+      {
+        "row": 22,
+        "rowsha": "Zdf52scsE7J44eQo/n+We3y/Tbp4BJBLaOf+5pa7iYc=",
+        "originContent": "  Copies current timecode in HH:MM:SS.MS format to clipboard. Cross-platform (Mac, Windows, Linux).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* cycle-commands.lua ([ソース](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\"
+      },
+      {
+        "row": 24,
+        "rowsha": "qrYUrJH7mwGh40sCBEhc7Xn7V0DmKkEGqRZ9XgwdeJM=",
+        "originContent": "* cycle-commands.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\",
+        "translatedContent": "  キープレスで一連のコマンドを順に切り替えます。サイクルの各イテレーションには任意の数のコマンドを含めることが可能です。構文の詳細はファイルの先頭にあります。"
+      },
+      {
+        "row": 25,
+        "rowsha": "E6dD8+KOITAkvJs7I59YPFcny1PIO8yLmHb/BfpJ3m8=",
+        "originContent": "  Cycles through a series of commands on a keypress. Each iteration of the cycle can contain as many commands as one wants. Syntax details are at the top of the file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* cycle-profile.lua ([ソース](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\"
+      },
+      {
+        "row": 27,
+        "rowsha": "tLsy71PMmfDozwnxp5uRZ4l5V5v11RP2vIiKnun65S8=",
+        "originContent": "* cycle-profile.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\",
+        "translatedContent": "  スクリプトメッセージで送信されたプロファイルリストを順に切り替え、プロファイルの説明をOSDに表示します。詳細はファイルの先頭にあります。"
+      },
+      {
+        "row": 28,
+        "rowsha": "xNPMQPADYVoQVNUYPTmT47Szx8fdS+DT2+glhQLp1S0=",
+        "originContent": "  Cycles through a list of profiles sent via a script message and prints the profile-desc to the OSD. More details at the top of the file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* modernz.lua ([ソース](https://github.com/Samillion/ModernZ))\\"
+      },
+      {
+        "row": 30,
+        "rowsha": "TUQXUEul6WjtoUipis13KfaM5YevgYGTZdKvV8yZqFg=",
+        "originContent": "* modernz.lua ([source](https://github.com/Samillion/ModernZ))\\",
+        "translatedContent": "  MPVのモダンなOSC UI置換で、デフォルトのOSCの機能を保持しています。"
+      },
+      {
+        "row": 31,
+        "rowsha": "XOZ05F8nuIrc2vxwHPOKMfe69ZzhfRlrJMvEKMpIDqM=",
+        "originContent": "  A modern OSC UI replacement for MPV that retains the functionality of the default OSC.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* mpv-gif.lua ([ソース](https://github.com/Scheliux/mpv-gif-generator))\\"
+      },
+      {
+        "row": 33,
+        "rowsha": "q1CA4e60B27HcbtkuX0/g2IXmuCX1zvnXVd/XdHqpqc=",
+        "originContent": "* mpv-gif.lua ([source](https://github.com/Scheliux/mpv-gif-generator))\\",
+        "translatedContent": "  動画再生からGIFを生成するスクリプト。libassが有効なFFmpegが必要です。字幕付きのGIFエクスポートは現在正常に動作しません。"
+      },
+      {
+        "row": 34,
+        "rowsha": "P/ehsmhpcp3pfsxPnzLSi5nBqxyz9gaWst4SBKmVCg4=",
+        "originContent": "  Script to generate GIFs from video playback. Requires FFmpeg with libass enabled. The exporting GIFs with subtitled currently doesn't work properly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* playlistmanager.lua ([ソース](https://github.com/jonniek/mpv-playlistmanager))\\"
+      },
+      {
+        "row": 36,
+        "rowsha": "S6YiXvJ0PRCVa+l5uuusVT3ns3/yAi6ZYfPm186EdzA=",
+        "originContent": "* playlistmanager.lua ([source](https://github.com/jonniek/mpv-playlistmanager))\\",
+        "translatedContent": "  プレイリストを直感的に閲覧・操作できるようにします。"
+      },
+      {
+        "row": 37,
+        "rowsha": "hih4KNZkPvq0lG7g8xwmbPN6j2rU2rhTlCiU4BIpWeA=",
+        "originContent": "  Allows you to see and interact with your playlist in an intuitive way.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* seek-to.lua ([ソース](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\"
+      },
+      {
+        "row": 39,
+        "rowsha": "AbCj0fvkiTahgk9ZWPU6U093mK7EPwSaWOgcJQ1M70w=",
+        "originContent": "* seek-to.lua ([source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\",
+        "translatedContent": "  キーボード入力またはクリップボードから貼り付けた絶対タイムスタンプへシークします。"
+      },
+      {
+        "row": 40,
+        "rowsha": "i/hXWNqFBKwzyNQwghkT4lYzCyvVkFvGpoTjYSO9xS0=",
+        "originContent": "  Seek to an absolute timestamp specified via keyboard input or pasted from clipboard.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "\n* sponsorblock-minimal.lua ([source](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\\n  Skip sponsor segments in YouTube videos.\n\n* thumbfast.lua ([source](https://github.com/po5/thumbfast))\\\n  High-performance on-the-fly thumbnailer for mpv. **The script does not display thumbnails on its own**, it is meant to be used alongside a UI script that calls thumbfast.\n\nConfiguration files for these scripts can be found in the `script-opts` folder. I also modified some of these scripts' default keybindings. To see my modifications, look for script keybindings in `input.conf`.\n\n## Shaders\n\nThe shaders included in the `shaders` folder:\n\n* ArtCNN_C4F32 ([source](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\\n  Used for luma upscaling.\n\n* nnedi3-nns128-win8x4 ([source](https://github.com/bjin/mpv-prescalers/tree/master))\\\n  Used for luma upscaling.\n\nUse shaders based on your preference and system capabilities. For more info about shaders, read the resources in the [useful links](#useful-links) section.\n\n## Useful Links\n\n* [mpv tutorial](https://thewiki.moe/tutorials/mpv/) by The Wiki\n* [mpv.conf guide](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) by iamscum\n* [mpv Configuration Guide for Watching Videos](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) by Kokomins\n* [mpv Resampling](https://artoriuz.github.io/blog/mpv_upscaling.html) by João Vitor Chrisóstomo\n\n## Official Links\n\n* [mpv homepage](https://mpv.io/)  \n* [mpv wiki](https://github.com/mpv-player/mpv/wiki)\n* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)\n* [mpv manual](https://mpv.io/manual/stable/)\n* [mpv User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)\n",
+    "ContentSha": "MriS1Tde1ZwyFQuKWFgrP9WweR3sHFiLC6OBR/1agFo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* sponsorblock-minimal.lua ([ソース](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\\n  YouTube動画のスポンサーセグメントをスキップします。\n\n* thumbfast.lua ([ソース](https://github.com/po5/thumbfast))\\\n  mpv用の高性能オンザフライサムネイル生成スクリプト。**スクリプト自体はサムネイルを表示しません**。thumbfastを呼び出すUIスクリプトと併用することを想定しています。\n\nこれらのスクリプトの設定ファイルは`script-opts`フォルダにあります。また、いくつかのスクリプトのデフォルトキー割り当ても変更しています。変更内容は`input.conf`内のスクリプトキー割り当てを参照してください。\n\n## シェーダー\n\n`shaders`フォルダに含まれるシェーダー:\n\n* ArtCNN_C4F32 ([ソース](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\\n  輝度のアップスケーリングに使用。\n\n* nnedi3-nns128-win8x4 ([ソース](https://github.com/bjin/mpv-prescalers/tree/master))\\\n  輝度のアップスケーリングに使用。\n\nシェーダーはお好みやシステム性能に応じて選択してください。シェーダーの詳細は[便利なリンク](#useful-links)のセクションの資料を参照してください。\n\n## 便利なリンク\n\n* [mpv チュートリアル](https://thewiki.moe/tutorials/mpv/) - The Wiki\n* [mpv.conf ガイド](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) - iamscum\n* [動画視聴用 mpv 設定ガイド](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) - Kokomins\n* [mpv リサンプリング](https://artoriuz.github.io/blog/mpv_upscaling.html) - João Vitor Chrisóstomo\n\n## 公式リンク\n\n* [mpv ホームページ](https://mpv.io/)  \n* [mpv ウィキ](https://github.com/mpv-player/mpv/wiki)\n* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)\n* [mpv マニュアル](https://mpv.io/manual/stable/)\n* [mpv ユーザースクリプト](https://github.com/mpv-player/mpv/wiki/User-Scripts)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* sponsorblock-minimal.lua ([ソース](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\"
+      },
+      {
+        "row": 2,
+        "rowsha": "+ND6akxtHdqZ+p/WpFEEMaTVJBYHVC67jfYOC9x3fCs=",
+        "originContent": "* sponsorblock-minimal.lua ([source](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\",
+        "translatedContent": "  YouTube動画のスポンサーセグメントをスキップします。"
+      },
+      {
+        "row": 3,
+        "rowsha": "kc4hRNBEHQZ1VTy+Cy/8RSFF9fHTTgL4yp6btQUd0t0=",
+        "originContent": "  Skip sponsor segments in YouTube videos.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* thumbfast.lua ([ソース](https://github.com/po5/thumbfast))\\"
+      },
+      {
+        "row": 5,
+        "rowsha": "Wy/YeIuTKgDgVGlIBypg6UrsxoiKba3+A4q/kcGH8bU=",
+        "originContent": "* thumbfast.lua ([source](https://github.com/po5/thumbfast))\\",
+        "translatedContent": "  mpv用の高性能オンザフライサムネイル生成スクリプト。**スクリプト自体はサムネイルを表示しません**。thumbfastを呼び出すUIスクリプトと併用することを想定しています。"
+      },
+      {
+        "row": 6,
+        "rowsha": "4l2Yl/1JtoMR/8t+CeFlLnGO/u6ZMkUDhPdv7KytMgE=",
+        "originContent": "  High-performance on-the-fly thumbnailer for mpv. **The script does not display thumbnails on its own**, it is meant to be used alongside a UI script that calls thumbfast.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これらのスクリプトの設定ファイルは`script-opts`フォルダにあります。また、いくつかのスクリプトのデフォルトキー割り当ても変更しています。変更内容は`input.conf`内のスクリプトキー割り当てを参照してください。"
+      },
+      {
+        "row": 8,
+        "rowsha": "RrI6wuL9ntNZAFjwHSYCvXLZn38rnW5n9oB3xqcuM9Q=",
+        "originContent": "Configuration files for these scripts can be found in the `script-opts` folder. I also modified some of these scripts' default keybindings. To see my modifications, look for script keybindings in `input.conf`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## シェーダー"
+      },
+      {
+        "row": 10,
+        "rowsha": "fIm0ce/4U7zhDgxgVnv3nEm4rhtIMtI960+GsuV5NJk=",
+        "originContent": "## Shaders",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`shaders`フォルダに含まれるシェーダー:"
+      },
+      {
+        "row": 12,
+        "rowsha": "zlRFNBW7pNEYDULYOn+aNwKKq7i1/E6i34trcf7bzPk=",
+        "originContent": "The shaders included in the `shaders` folder:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* ArtCNN_C4F32 ([ソース](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\"
+      },
+      {
+        "row": 14,
+        "rowsha": "6TB0LfUhzgQIB1oIQbQvFALL5HG7kADOKezUtReuj/g=",
+        "originContent": "* ArtCNN_C4F32 ([source](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\",
+        "translatedContent": "  輝度のアップスケーリングに使用。"
+      },
+      {
+        "row": 15,
+        "rowsha": "NMS+JyOc6F3yP0r3Rc+Nhfv284dL2oYZIJqICrF0euc=",
+        "originContent": "  Used for luma upscaling.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* nnedi3-nns128-win8x4 ([ソース](https://github.com/bjin/mpv-prescalers/tree/master))\\"
+      },
+      {
+        "row": 17,
+        "rowsha": "axj2Idx2xdIaKpbwWN1bFQ6ct/Q99sW5LovnSUUl458=",
+        "originContent": "* nnedi3-nns128-win8x4 ([source](https://github.com/bjin/mpv-prescalers/tree/master))\\",
+        "translatedContent": "  輝度のアップスケーリングに使用。"
+      },
+      {
+        "row": 18,
+        "rowsha": "NMS+JyOc6F3yP0r3Rc+Nhfv284dL2oYZIJqICrF0euc=",
+        "originContent": "  Used for luma upscaling.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "シェーダーはお好みやシステム性能に応じて選択してください。シェーダーの詳細は[便利なリンク](#useful-links)のセクションの資料を参照してください。"
+      },
+      {
+        "row": 20,
+        "rowsha": "XT4942eZim6f6xXr6ZrgUOFiLHT0Ofl5leWk8Cwvtis=",
+        "originContent": "Use shaders based on your preference and system capabilities. For more info about shaders, read the resources in the [useful links](#useful-links) section.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 便利なリンク"
+      },
+      {
+        "row": 22,
+        "rowsha": "me52My67vH5OZOCRPEVOkaAMrFYSc8tjqRFptDj8UwU=",
+        "originContent": "## Useful Links",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [mpv チュートリアル](https://thewiki.moe/tutorials/mpv/) - The Wiki"
+      },
+      {
+        "row": 24,
+        "rowsha": "yQcP/gbdwduSc/tva3m9bxeAITzWMGWqxj/MVABmQ7U=",
+        "originContent": "* [mpv tutorial](https://thewiki.moe/tutorials/mpv/) by The Wiki",
+        "translatedContent": "* [mpv.conf ガイド](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) - iamscum"
+      },
+      {
+        "row": 25,
+        "rowsha": "lI6D/puRtCx6N0C5y1wtrUK8W374+B2Lj1eNUZWAm18=",
+        "originContent": "* [mpv.conf guide](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) by iamscum",
+        "translatedContent": "* [動画視聴用 mpv 設定ガイド](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) - Kokomins"
+      },
+      {
+        "row": 26,
+        "rowsha": "WKubyjqd/+ZC/719rSGe7K+UnxgSm0BUzKFoUQrSDdQ=",
+        "originContent": "* [mpv Configuration Guide for Watching Videos](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) by Kokomins",
+        "translatedContent": "* [mpv リサンプリング](https://artoriuz.github.io/blog/mpv_upscaling.html) - João Vitor Chrisóstomo"
+      },
+      {
+        "row": 27,
+        "rowsha": "cb4NXdY1cpv+7rW533Vj9FloG+RiA7ib2QQasDvBLgE=",
+        "originContent": "* [mpv Resampling](https://artoriuz.github.io/blog/mpv_upscaling.html) by João Vitor Chrisóstomo",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 公式リンク"
+      },
+      {
+        "row": 29,
+        "rowsha": "GKjmq0qzPrL89EZ+LK/0OkXxWyZ8ijtft/nynMalivU=",
+        "originContent": "## Official Links",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [mpv ホームページ](https://mpv.io/)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "lTYh5Ay8IlTe+VpORmSGcoEA6LBb5OKL/KKPO5nyvNI=",
+        "originContent": "* [mpv homepage](https://mpv.io/)  ",
+        "translatedContent": "* [mpv ウィキ](https://github.com/mpv-player/mpv/wiki)"
+      },
+      {
+        "row": 32,
+        "rowsha": "7ZWxRQLzGtNH1pyIisVxye81FzbbjDz+T69Sh4+KIR0=",
+        "originContent": "* [mpv wiki](https://github.com/mpv-player/mpv/wiki)",
+        "translatedContent": "* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)"
+      },
+      {
+        "row": 33,
+        "rowsha": "iZ6rTCGhTOYpdOeOt+ddy+1ERDCHGOfocHqBRHzOe+0=",
+        "originContent": "* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)",
+        "translatedContent": "* [mpv マニュアル](https://mpv.io/manual/stable/)"
+      },
+      {
+        "row": 34,
+        "rowsha": "Gu3sdtfc9tELp3zHXn9Kv/fy4/mM4r6Lfs6+1ezndAo=",
+        "originContent": "* [mpv manual](https://mpv.io/manual/stable/)",
+        "translatedContent": "* [mpv ユーザースクリプト](https://github.com/mpv-player/mpv/wiki/User-Scripts)"
+      },
+      {
+        "row": 35,
+        "rowsha": "yUDYJuK/smB50/AKxDhHWm9ttzMU/Nxh8Iy5aYB2FdQ=",
+        "originContent": "* [mpv User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

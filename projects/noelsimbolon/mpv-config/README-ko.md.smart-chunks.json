@@ -1,0 +1,812 @@
+[
+  {
+    "Id": 1,
+    "Content": "# mpv config\n\n![mpv logo](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)\n\n## Overview\n\n**mpv** is a free (as in freedom and free beer), open-source, and cross-platform media player. It supports\na wide variety of media file formats, audio and video codecs, and subtitle types.\n\nThis repo contains my personal mpv configurations and scripts that I use and are significantly better than default mpv, VLC, and MPC. Before installing, please take your time to read this whole README as common issues can be easily solved by simply reading carefully.\n\n\n## Preview\n\n[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)\n\n## Installation\n\n### Windows\n\nHere are the steps to install mpv and to use my configuration files on Windows:\n* Download the latest 64bit mpv Windows build by shinchiro from [mpv.io/installation](https://mpv.io/installation/) or directly from [here](https://sourceforge.net/projects/mpv-player-windows/files/) and extract it wherever you please. This is now your mpv folder\n* Run `mpv-install.bat`, which is located in `installer` folder, with administrator priviledges by right-clicking and selecting Run as administrator\n* Download this repository as a ZIP file (or you can clone it using git)\n* Create a folder named `portable_config` (**this is important**), located at the same directory as `mpv.exe`\n* Extract or copy the contents of this repository that you have downloaded to the `portable_config` folder\n* To make some scripts work, you need to modify them from the release a little bit:\n  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.\n  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `C:/Program Files/mpv/gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`.\n* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.\n* You're all set up.\n\n### Linux\n\nHere are the steps to install mpv and to use my configuration files on Linux:\n\n* Install mpv and xclip (clipboard CLI interface) using the package manager that comes with your Linux distribution. xclip is needed for [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua) and [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) scripts to work properly. The package name for mpv and xclip might also vary depending on your Linux distribution. Here, I will make Arch Linux, that comes with `pacman` as its package manager, as an example\n  ",
+    "ContentSha": "2I7+CcEQ2ClNvhbzG+RMfsFM5r5EsOQqDn/EvGUsN8g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# mpv 설정\n\n![mpv 로고](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)\n\n## 개요\n\n**mpv**는 자유(자유 및 무료) 오픈 소스 크로스 플랫폼 미디어 플레이어입니다.  \n다양한 미디어 파일 형식, 오디오 및 비디오 코덱, 자막 유형을 지원합니다.\n\n이 저장소에는 제가 사용하는 개인 mpv 구성 및 스크립트가 포함되어 있으며 기본 mpv, VLC, MPC보다 훨씬 우수합니다. 설치 전에 이 README 전체를 천천히 읽어보시기 바랍니다. 일반적인 문제는 단순히 주의 깊게 읽는 것만으로 쉽게 해결할 수 있습니다.\n\n\n## 미리보기\n\n[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)\n\n## 설치\n\n### 윈도우\n\nWindows에서 mpv를 설치하고 제 구성 파일을 사용하는 단계는 다음과 같습니다:  \n* shinchiro가 제공하는 최신 64비트 mpv Windows 빌드를 [mpv.io/installation](https://mpv.io/installation/)에서 다운로드하거나 [여기](https://sourceforge.net/projects/mpv-player-windows/files/)에서 직접 다운로드한 후 원하는 곳에 압축을 풉니다. 이것이 이제 당신의 mpv 폴더가 됩니다.  \n* `installer` 폴더에 있는 `mpv-install.bat` 파일을 마우스 오른쪽 버튼으로 클릭하여 관리자 권한으로 실행합니다.  \n* 이 저장소를 ZIP 파일로 다운로드하거나 git을 사용해 클론합니다.  \n* `mpv.exe`와 같은 디렉터리에 `portable_config`라는 폴더를 만듭니다 (**이것이 중요합니다**).  \n* 다운로드한 저장소의 내용을 `portable_config` 폴더에 압축 해제하거나 복사합니다.  \n* 일부 스크립트를 작동시키려면 릴리스 버전에서 약간 수정해야 합니다:  \n  * `mpv-gif.lua` 스크립트가 작동하려면 libass가 활성화된 [FFmpeg](https://ffmpeg.org/)가 터미널에서 접근 가능해야 합니다. 자세한 내용은 스크립트 소스 저장소의 [설치 지침](https://github.com/Scheliux/mpv-gif-generator#installation)을 참조하세요.  \n  * **(선택 사항)** 기본적으로 `mpv-gif.lua` 스크립트는 GIF를 `C:/Program Files/mpv/gifs`에 저장합니다. 이를 변경하려면 `portable_config/script-opts` 폴더에 있는 `gif.conf`를 텍스트 편집기로 열고 GIF 출력 디렉터리인 `dir`을 원하는 대로 지정하세요. 예: `dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`.  \n* **(선택 사항)** 자신만의 mpv 구성을 만드세요. 제 구성 파일을 수정하거나 처음부터 직접 만들거나 다른 사람의 구성을 수정할 수 있습니다. mpv 구성 가이드를 위해 [유용한 링크](#useful-links) 섹션을 확인하세요.  \n* 설정이 모두 완료되었습니다.\n\n### 리눅스\n\nLinux에서 mpv를 설치하고 제 구성 파일을 사용하는 단계는 다음과 같습니다:\n\n* Linux 배포판에 기본 제공되는 패키지 관리자를 사용하여 mpv와 xclip(클립보드 CLI 인터페이스)을 설치하세요. xclip은 [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua)와 [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) 스크립트가 제대로 작동하는 데 필요합니다. mpv와 xclip의 패키지 이름은 Linux 배포판에 따라 다를 수 있습니다. 여기서는 패키지 관리자 `pacman`을 사용하는 Arch Linux를 예로 들겠습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5L8pKCn9fxCiw7aTOewPgxKW+FRCpjGeYG+aoNAev3c=",
+        "originContent": "# mpv config",
+        "translatedContent": "# mpv 설정"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "9+6ibFRnxOCbkhDsSB2rFk4FiDZgV139VNaBKbnZfHQ=",
+        "originContent": "![mpv logo](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)",
+        "translatedContent": "![mpv 로고](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## 개요"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+F4WZWM3bNzLnwlKYcwtjoeF/LKR4yina9Ae3ThphaQ=",
+        "originContent": "**mpv** is a free (as in freedom and free beer), open-source, and cross-platform media player. It supports",
+        "translatedContent": "**mpv**는 자유(자유 및 무료) 오픈 소스 크로스 플랫폼 미디어 플레이어입니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "2R6j9ZwrWWQozCAq4YNlggd1q5vqHyuRMJ1YD/8o1TU=",
+        "originContent": "a wide variety of media file formats, audio and video codecs, and subtitle types.",
+        "translatedContent": "다양한 미디어 파일 형식, 오디오 및 비디오 코덱, 자막 유형을 지원합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "PA37tTHwS4vhxui3VdT2fI/wIjKOGr6LtuqqbAgyim0=",
+        "originContent": "This repo contains my personal mpv configurations and scripts that I use and are significantly better than default mpv, VLC, and MPC. Before installing, please take your time to read this whole README as common issues can be easily solved by simply reading carefully.",
+        "translatedContent": "이 저장소에는 제가 사용하는 개인 mpv 구성 및 스크립트가 포함되어 있으며 기본 mpv, VLC, MPC보다 훨씬 우수합니다. 설치 전에 이 README 전체를 천천히 읽어보시기 바랍니다. 일반적인 문제는 단순히 주의 깊게 읽는 것만으로 쉽게 해결할 수 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "SAa2SCue0ypI0FGkgNSHyL7bpF+OrYgFRFV0McGKt3g=",
+        "originContent": "## Preview",
+        "translatedContent": "## 미리보기"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "xzKNuZD202TqB2qFYGrrrYd8JVNpvepaMXt+2mh/+78=",
+        "originContent": "[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)",
+        "translatedContent": "[![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### 윈도우"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "3Jx312H9MprSgKR9FoFltP60aJuKCTrwd0xBoHCVtew=",
+        "originContent": "Here are the steps to install mpv and to use my configuration files on Windows:",
+        "translatedContent": "Windows에서 mpv를 설치하고 제 구성 파일을 사용하는 단계는 다음과 같습니다:  "
+      },
+      {
+        "row": 22,
+        "rowsha": "LmkSyA0NPE+KwJp1jRlHq5JwLJSyXBzpb/hz7jfBfvs=",
+        "originContent": "* Download the latest 64bit mpv Windows build by shinchiro from [mpv.io/installation](https://mpv.io/installation/) or directly from [here](https://sourceforge.net/projects/mpv-player-windows/files/) and extract it wherever you please. This is now your mpv folder",
+        "translatedContent": "* shinchiro가 제공하는 최신 64비트 mpv Windows 빌드를 [mpv.io/installation](https://mpv.io/installation/)에서 다운로드하거나 [여기](https://sourceforge.net/projects/mpv-player-windows/files/)에서 직접 다운로드한 후 원하는 곳에 압축을 풉니다. 이것이 이제 당신의 mpv 폴더가 됩니다.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "Hl7tzovbmHL8dAff36ROw/2hcwJ/Y/cxxe1hXW30DRY=",
+        "originContent": "* Run `mpv-install.bat`, which is located in `installer` folder, with administrator priviledges by right-clicking and selecting Run as administrator",
+        "translatedContent": "* `installer` 폴더에 있는 `mpv-install.bat` 파일을 마우스 오른쪽 버튼으로 클릭하여 관리자 권한으로 실행합니다.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "IPz4X2S2CNT22GVxrGleMqa5X2f1ZyG80x2HSwbAbY8=",
+        "originContent": "* Download this repository as a ZIP file (or you can clone it using git)",
+        "translatedContent": "* 이 저장소를 ZIP 파일로 다운로드하거나 git을 사용해 클론합니다.  "
+      },
+      {
+        "row": 25,
+        "rowsha": "TwDqWwI6qm/6jHqg5SAVW6lu8YyhPgP87/fFsUY8NRo=",
+        "originContent": "* Create a folder named `portable_config` (**this is important**), located at the same directory as `mpv.exe`",
+        "translatedContent": "* `mpv.exe`와 같은 디렉터리에 `portable_config`라는 폴더를 만듭니다 (**이것이 중요합니다**).  "
+      },
+      {
+        "row": 26,
+        "rowsha": "6mNXyShHY8W/yvFfWbMTUMSECy5Uj+JBomxGADGfZ5E=",
+        "originContent": "* Extract or copy the contents of this repository that you have downloaded to the `portable_config` folder",
+        "translatedContent": "* 다운로드한 저장소의 내용을 `portable_config` 폴더에 압축 해제하거나 복사합니다.  "
+      },
+      {
+        "row": 27,
+        "rowsha": "UW0P8u7ELsAHkndYXehY3SwUwkazB7jT494fpoDi25k=",
+        "originContent": "* To make some scripts work, you need to modify them from the release a little bit:",
+        "translatedContent": "* 일부 스크립트를 작동시키려면 릴리스 버전에서 약간 수정해야 합니다:  "
+      },
+      {
+        "row": 28,
+        "rowsha": "qCuVppm7Qxhx32HZ3lAXmw3J7F77ycVg5xp+h5Ogxdc=",
+        "originContent": "  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.",
+        "translatedContent": "  * `mpv-gif.lua` 스크립트가 작동하려면 libass가 활성화된 [FFmpeg](https://ffmpeg.org/)가 터미널에서 접근 가능해야 합니다. 자세한 내용은 스크립트 소스 저장소의 [설치 지침](https://github.com/Scheliux/mpv-gif-generator#installation)을 참조하세요.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "BE/GjxcgDTLR2YJbjBPmvM6e7sAL8rR6IdKU206Kgv4=",
+        "originContent": "  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `C:/Program Files/mpv/gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`.",
+        "translatedContent": "  * **(선택 사항)** 기본적으로 `mpv-gif.lua` 스크립트는 GIF를 `C:/Program Files/mpv/gifs`에 저장합니다. 이를 변경하려면 `portable_config/script-opts` 폴더에 있는 `gif.conf`를 텍스트 편집기로 열고 GIF 출력 디렉터리인 `dir`을 원하는 대로 지정하세요. 예: `dir=\"C:/Users/USERNAME/Pictures/mpv-gifs\"`.  "
+      },
+      {
+        "row": 30,
+        "rowsha": "H5sXgdAppuIKyhNjJ9XvbuAUwflmJAtQfqQfAbB4krU=",
+        "originContent": "* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.",
+        "translatedContent": "* **(선택 사항)** 자신만의 mpv 구성을 만드세요. 제 구성 파일을 수정하거나 처음부터 직접 만들거나 다른 사람의 구성을 수정할 수 있습니다. mpv 구성 가이드를 위해 [유용한 링크](#useful-links) 섹션을 확인하세요.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "mU13mUuk8r7M5ElY1eoVrNNPptPKNRRW+X17gWypBNM=",
+        "originContent": "* You're all set up.",
+        "translatedContent": "* 설정이 모두 완료되었습니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "### 리눅스"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "9wyeJiseSmAlUXjbEWbBHlRYtAek0K7dWq9r4pGSLFI=",
+        "originContent": "Here are the steps to install mpv and to use my configuration files on Linux:",
+        "translatedContent": "Linux에서 mpv를 설치하고 제 구성 파일을 사용하는 단계는 다음과 같습니다:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "NOtVlu6RP5gWlxr1K4GIQJygt5Kl5KFdxcPWIx7+KJc=",
+        "originContent": "* Install mpv and xclip (clipboard CLI interface) using the package manager that comes with your Linux distribution. xclip is needed for [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua) and [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) scripts to work properly. The package name for mpv and xclip might also vary depending on your Linux distribution. Here, I will make Arch Linux, that comes with `pacman` as its package manager, as an example",
+        "translatedContent": "* Linux 배포판에 기본 제공되는 패키지 관리자를 사용하여 mpv와 xclip(클립보드 CLI 인터페이스)을 설치하세요. xclip은 [copy-time.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/copy-time.lua)와 [seek-to.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/seek-to.lua) 스크립트가 제대로 작동하는 데 필요합니다. mpv와 xclip의 패키지 이름은 Linux 배포판에 따라 다를 수 있습니다. 여기서는 패키지 관리자 `pacman`을 사용하는 Arch Linux를 예로 들겠습니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  ```\n  sudo pacman -S mpv xclip\n  ```",
+    "ContentSha": "hzX7HDDLJQjHOcwgNCRCs5+rS7HOVFcfg0jOKeHjsuc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  sudo pacman -S mpv xclip\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ATMyMonwPFDh1Z9xdcLzt1oPEozoyre8tj2V9vLvBtk=",
+        "originContent": "  sudo pacman -S mpv xclip",
+        "translatedContent": "  sudo pacman -S mpv xclip"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n  If you, for example, use Fedora Linux, that comes with `dnf` as its package manager, you can install mpv and xclip with the following command instead.",
+    "ContentSha": "q1gf0IeNrFx9Q71grpR7mZPioGYmi281hW54wMf6IxQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  예를 들어 Fedora Linux를 사용한다면, 패키지 관리자로 `dnf`가 제공되며, 다음 명령어로 mpv와 xclip을 설치할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  예를 들어 Fedora Linux를 사용한다면, 패키지 관리자로 `dnf`가 제공되며, 다음 명령어로 mpv와 xclip을 설치할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "/FIs4P6Gya38sR0zn1nNEA5T7aIJXUTzjZlRJa5Nj3E=",
+        "originContent": "  If you, for example, use Fedora Linux, that comes with `dnf` as its package manager, you can install mpv and xclip with the following command instead.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  ```\n  sudo dnf install mpv xclip\n  ```",
+    "ContentSha": "I7q5avBA7mx4uvtnWsVtBfTItQUHjDCN7nF+m3pnXgA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  sudo dnf install mpv xclip\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "pbg0O5awfG7loUN49pZQLJmmjyz1oWgQY5oWyAYo814=",
+        "originContent": "  sudo dnf install mpv xclip",
+        "translatedContent": "  sudo dnf install mpv xclip"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n  If you use other Linux distributions, please refer to the documentation of your Linux distribution's package manager on how to install packages.\n\n* Download this repository as a ZIP file (or you can clone it using git) and extract/copy it to your standard mpv configuration directory which is `~/.config/mpv`\n* Some things to highlight:\n  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.\n  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `~/Videos/mpv-gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"~/Videos\"`.\n* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.\n* You're all set up.\n\n## Scripts\n\nScripts from external sources:\n\n* audio-visualizer.lua ([source](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\\n  Various audio visualization. It only works if you open audio files.\n  \n* autoload.lua ([source](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\\n  Automatically load playlist entries before and after the currently playing file, by scanning the directory.\n\n* copy-timestamp.lua ([source](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\\n  Copies current timecode in HH:MM:SS.MS format to clipboard. Cross-platform (Mac, Windows, Linux).\n\n* cycle-commands.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\\n  Cycles through a series of commands on a keypress. Each iteration of the cycle can contain as many commands as one wants. Syntax details are at the top of the file.\n\n* cycle-profile.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\\n  Cycles through a list of profiles sent via a script message and prints the profile-desc to the OSD. More details at the top of the file.\n\n* modernz.lua ([source](https://github.com/Samillion/ModernZ))\\\n  A modern OSC UI replacement for MPV that retains the functionality of the default OSC.\n\n* mpv-gif.lua ([source](https://github.com/Scheliux/mpv-gif-generator))\\\n  Script to generate GIFs from video playback. Requires FFmpeg with libass enabled. The exporting GIFs with subtitled currently doesn't work properly.\n\n* playlistmanager.lua ([source](https://github.com/jonniek/mpv-playlistmanager))\\\n  Allows you to see and interact with your playlist in an intuitive way.\n\n* seek-to.lua ([source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\\n  Seek to an absolute timestamp specified via keyboard input or pasted from clipboard.",
+    "ContentSha": "HExtns1Xs7kqBhsnxljsEL2vc3FwwJ20li0jI/fiufo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  다른 리눅스 배포판을 사용하는 경우, 패키지 설치 방법에 대해서는 해당 리눅스 배포판의 패키지 관리자 문서를 참조하세요.\n\n* 이 저장소를 ZIP 파일로 다운로드하거나(또는 git으로 클론) 표준 mpv 설정 디렉토리인 `~/.config/mpv`에 압축을 풀거나 복사하세요.\n* 강조할 몇 가지 사항:\n  * `mpv-gif.lua` 스크립트가 작동하려면 libass가 활성화된 [FFmpeg](https://ffmpeg.org/)가 터미널에서 접근 가능해야 합니다. 자세한 내용은 스크립트 소스 저장소의 [설치 지침](https://github.com/Scheliux/mpv-gif-generator#installation)을 참조하세요.\n  * **(선택 사항)** 기본적으로 `mpv-gif.lua` 스크립트는 GIF를 `~/Videos/mpv-gifs`에 저장합니다. 이를 변경하려면 `portable_config/script-opts` 폴더 내 `gif.conf` 파일을 텍스트 편집기로 열고 GIF 출력 디렉토리인 `dir`을 원하는 대로 지정하세요. 예: `dir=\"~/Videos\"`.\n* **(선택 사항)** 직접 mpv 설정을 만드세요. 제 설정 파일을 수정하거나 새로 만들거나 다른 설정을 수정하여 가능합니다. mpv 설정 가이드는 [유용한 링크](#useful-links) 섹션을 확인하세요.\n* 모든 준비가 완료되었습니다.\n\n## 스크립트\n\n외부 소스의 스크립트:\n\n* audio-visualizer.lua ([소스](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\\n  다양한 오디오 시각화. 오디오 파일을 열었을 때만 작동합니다.\n  \n* autoload.lua ([소스](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\\n  현재 재생 중인 파일 전후의 재생목록 항목을 자동으로 불러오며, 디렉토리를 스캔합니다.\n\n* copy-timestamp.lua ([소스](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\\n  현재 시간 코드를 HH:MM:SS.MS 형식으로 클립보드에 복사합니다. 플랫폼 간 호환(Mac, Windows, Linux).\n\n* cycle-commands.lua ([소스](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\\n  키 입력 시 일련의 명령을 순환 실행합니다. 각 순환에는 원하는 만큼 명령을 포함할 수 있습니다. 구문 상세는 파일 상단 참조.\n\n* cycle-profile.lua ([소스](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\\n  스크립트 메시지를 통해 전달된 프로필 목록을 순환하며 프로필 설명을 OSD에 출력합니다. 자세한 내용은 파일 상단 참조.\n\n* modernz.lua ([소스](https://github.com/Samillion/ModernZ))\\\n  기본 OSC 기능을 유지한 현대적인 MPV OSC UI 대체 스크립트입니다.\n\n* mpv-gif.lua ([소스](https://github.com/Scheliux/mpv-gif-generator))\\\n  비디오 재생에서 GIF를 생성하는 스크립트입니다. libass가 활성화된 FFmpeg가 필요합니다. 자막이 포함된 GIF 내보내기는 현재 제대로 작동하지 않습니다.\n\n* playlistmanager.lua ([소스](https://github.com/jonniek/mpv-playlistmanager))\\\n  재생목록을 직관적으로 보고 조작할 수 있게 해줍니다.\n\n* seek-to.lua ([소스](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\\n  키보드 입력이나 클립보드에서 붙여넣은 절대 타임스탬프로 이동합니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  다른 리눅스 배포판을 사용하는 경우, 패키지 설치 방법에 대해서는 해당 리눅스 배포판의 패키지 관리자 문서를 참조하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "MrvEmb8OI5oC2Amr7bFxObAIBMTmZ3g3YqzlihpG/t8=",
+        "originContent": "  If you use other Linux distributions, please refer to the documentation of your Linux distribution's package manager on how to install packages.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 이 저장소를 ZIP 파일로 다운로드하거나(또는 git으로 클론) 표준 mpv 설정 디렉토리인 `~/.config/mpv`에 압축을 풀거나 복사하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "F9nBu+VOIRPgrL4+lY5ESGDprL5flflvl8HYR/FphTk=",
+        "originContent": "* Download this repository as a ZIP file (or you can clone it using git) and extract/copy it to your standard mpv configuration directory which is `~/.config/mpv`",
+        "translatedContent": "* 강조할 몇 가지 사항:"
+      },
+      {
+        "row": 5,
+        "rowsha": "EqBdjkPxDncKd2wJJQgm5sdL2jzpBJQ3GWN1JRaHLJo=",
+        "originContent": "* Some things to highlight:",
+        "translatedContent": "  * `mpv-gif.lua` 스크립트가 작동하려면 libass가 활성화된 [FFmpeg](https://ffmpeg.org/)가 터미널에서 접근 가능해야 합니다. 자세한 내용은 스크립트 소스 저장소의 [설치 지침](https://github.com/Scheliux/mpv-gif-generator#installation)을 참조하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "qCuVppm7Qxhx32HZ3lAXmw3J7F77ycVg5xp+h5Ogxdc=",
+        "originContent": "  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.",
+        "translatedContent": "  * **(선택 사항)** 기본적으로 `mpv-gif.lua` 스크립트는 GIF를 `~/Videos/mpv-gifs`에 저장합니다. 이를 변경하려면 `portable_config/script-opts` 폴더 내 `gif.conf` 파일을 텍스트 편집기로 열고 GIF 출력 디렉토리인 `dir`을 원하는 대로 지정하세요. 예: `dir=\"~/Videos\"`."
+      },
+      {
+        "row": 7,
+        "rowsha": "6Dsr3T7j9FnRzOR/WHM7eT1hiFShBFDikRP8beMwvNg=",
+        "originContent": "  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `~/Videos/mpv-gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir=\"~/Videos\"`.",
+        "translatedContent": "* **(선택 사항)** 직접 mpv 설정을 만드세요. 제 설정 파일을 수정하거나 새로 만들거나 다른 설정을 수정하여 가능합니다. mpv 설정 가이드는 [유용한 링크](#useful-links) 섹션을 확인하세요."
+      },
+      {
+        "row": 8,
+        "rowsha": "H5sXgdAppuIKyhNjJ9XvbuAUwflmJAtQfqQfAbB4krU=",
+        "originContent": "* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.",
+        "translatedContent": "* 모든 준비가 완료되었습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "mU13mUuk8r7M5ElY1eoVrNNPptPKNRRW+X17gWypBNM=",
+        "originContent": "* You're all set up.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 스크립트"
+      },
+      {
+        "row": 11,
+        "rowsha": "pHKKV0YrSO2GtpE+3oi2IzQm3gGiWfYwinMGlvLxbkQ=",
+        "originContent": "## Scripts",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "외부 소스의 스크립트:"
+      },
+      {
+        "row": 13,
+        "rowsha": "6dh1xe1rtGLB0Bdq7OlNGgE2GtoTPXahhB8Bfg6NUHA=",
+        "originContent": "Scripts from external sources:",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* audio-visualizer.lua ([소스](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\"
+      },
+      {
+        "row": 15,
+        "rowsha": "rYRZBaOcS3pdviKgZXPL7XlSnUxvV4WbRHHjk8rfmSE=",
+        "originContent": "* audio-visualizer.lua ([source](https://github.com/mfcc64/mpv-scripts#visualizerlua))\\",
+        "translatedContent": "  다양한 오디오 시각화. 오디오 파일을 열었을 때만 작동합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "YghGdFOKq/4MjgtgTM9A27wKhDInwJaftJd/qB5b83M=",
+        "originContent": "  Various audio visualization. It only works if you open audio files.",
+        "translatedContent": "  "
+      },
+      {
+        "row": 17,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "* autoload.lua ([소스](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\"
+      },
+      {
+        "row": 18,
+        "rowsha": "LAnGIwSxRwx7/amvOC/mK8+46QTP9gH59wO2b6tMsPA=",
+        "originContent": "* autoload.lua ([source](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua))\\",
+        "translatedContent": "  현재 재생 중인 파일 전후의 재생목록 항목을 자동으로 불러오며, 디렉토리를 스캔합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "0gH1H2IweuYk9vODyovdcqbQkH6JcmynRJIIpeyN0jE=",
+        "originContent": "  Automatically load playlist entries before and after the currently playing file, by scanning the directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* copy-timestamp.lua ([소스](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\"
+      },
+      {
+        "row": 21,
+        "rowsha": "mk74ZTnmscuKKmrSwTSxuFwbRl+E5eB78CR3SQ3IpYY=",
+        "originContent": "* copy-timestamp.lua ([source](https://github.com/linguisticmind/mpv-scripts/tree/master/copy-timestamp))\\",
+        "translatedContent": "  현재 시간 코드를 HH:MM:SS.MS 형식으로 클립보드에 복사합니다. 플랫폼 간 호환(Mac, Windows, Linux)."
+      },
+      {
+        "row": 22,
+        "rowsha": "Zdf52scsE7J44eQo/n+We3y/Tbp4BJBLaOf+5pa7iYc=",
+        "originContent": "  Copies current timecode in HH:MM:SS.MS format to clipboard. Cross-platform (Mac, Windows, Linux).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* cycle-commands.lua ([소스](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\"
+      },
+      {
+        "row": 24,
+        "rowsha": "qrYUrJH7mwGh40sCBEhc7Xn7V0DmKkEGqRZ9XgwdeJM=",
+        "originContent": "* cycle-commands.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-commands))\\",
+        "translatedContent": "  키 입력 시 일련의 명령을 순환 실행합니다. 각 순환에는 원하는 만큼 명령을 포함할 수 있습니다. 구문 상세는 파일 상단 참조."
+      },
+      {
+        "row": 25,
+        "rowsha": "E6dD8+KOITAkvJs7I59YPFcny1PIO8yLmHb/BfpJ3m8=",
+        "originContent": "  Cycles through a series of commands on a keypress. Each iteration of the cycle can contain as many commands as one wants. Syntax details are at the top of the file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* cycle-profile.lua ([소스](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\"
+      },
+      {
+        "row": 27,
+        "rowsha": "tLsy71PMmfDozwnxp5uRZ4l5V5v11RP2vIiKnun65S8=",
+        "originContent": "* cycle-profile.lua ([source](https://github.com/CogentRedTester/mpv-scripts#cycle-profile))\\",
+        "translatedContent": "  스크립트 메시지를 통해 전달된 프로필 목록을 순환하며 프로필 설명을 OSD에 출력합니다. 자세한 내용은 파일 상단 참조."
+      },
+      {
+        "row": 28,
+        "rowsha": "xNPMQPADYVoQVNUYPTmT47Szx8fdS+DT2+glhQLp1S0=",
+        "originContent": "  Cycles through a list of profiles sent via a script message and prints the profile-desc to the OSD. More details at the top of the file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* modernz.lua ([소스](https://github.com/Samillion/ModernZ))\\"
+      },
+      {
+        "row": 30,
+        "rowsha": "TUQXUEul6WjtoUipis13KfaM5YevgYGTZdKvV8yZqFg=",
+        "originContent": "* modernz.lua ([source](https://github.com/Samillion/ModernZ))\\",
+        "translatedContent": "  기본 OSC 기능을 유지한 현대적인 MPV OSC UI 대체 스크립트입니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "XOZ05F8nuIrc2vxwHPOKMfe69ZzhfRlrJMvEKMpIDqM=",
+        "originContent": "  A modern OSC UI replacement for MPV that retains the functionality of the default OSC.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* mpv-gif.lua ([소스](https://github.com/Scheliux/mpv-gif-generator))\\"
+      },
+      {
+        "row": 33,
+        "rowsha": "q1CA4e60B27HcbtkuX0/g2IXmuCX1zvnXVd/XdHqpqc=",
+        "originContent": "* mpv-gif.lua ([source](https://github.com/Scheliux/mpv-gif-generator))\\",
+        "translatedContent": "  비디오 재생에서 GIF를 생성하는 스크립트입니다. libass가 활성화된 FFmpeg가 필요합니다. 자막이 포함된 GIF 내보내기는 현재 제대로 작동하지 않습니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "P/ehsmhpcp3pfsxPnzLSi5nBqxyz9gaWst4SBKmVCg4=",
+        "originContent": "  Script to generate GIFs from video playback. Requires FFmpeg with libass enabled. The exporting GIFs with subtitled currently doesn't work properly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* playlistmanager.lua ([소스](https://github.com/jonniek/mpv-playlistmanager))\\"
+      },
+      {
+        "row": 36,
+        "rowsha": "S6YiXvJ0PRCVa+l5uuusVT3ns3/yAi6ZYfPm186EdzA=",
+        "originContent": "* playlistmanager.lua ([source](https://github.com/jonniek/mpv-playlistmanager))\\",
+        "translatedContent": "  재생목록을 직관적으로 보고 조작할 수 있게 해줍니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "hih4KNZkPvq0lG7g8xwmbPN6j2rU2rhTlCiU4BIpWeA=",
+        "originContent": "  Allows you to see and interact with your playlist in an intuitive way.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* seek-to.lua ([소스](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\"
+      },
+      {
+        "row": 39,
+        "rowsha": "AbCj0fvkiTahgk9ZWPU6U093mK7EPwSaWOgcJQ1M70w=",
+        "originContent": "* seek-to.lua ([source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua))\\",
+        "translatedContent": "  키보드 입력이나 클립보드에서 붙여넣은 절대 타임스탬프로 이동합니다."
+      },
+      {
+        "row": 40,
+        "rowsha": "i/hXWNqFBKwzyNQwghkT4lYzCyvVkFvGpoTjYSO9xS0=",
+        "originContent": "  Seek to an absolute timestamp specified via keyboard input or pasted from clipboard.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "\n* sponsorblock-minimal.lua ([source](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\\n  Skip sponsor segments in YouTube videos.\n\n* thumbfast.lua ([source](https://github.com/po5/thumbfast))\\\n  High-performance on-the-fly thumbnailer for mpv. **The script does not display thumbnails on its own**, it is meant to be used alongside a UI script that calls thumbfast.\n\nConfiguration files for these scripts can be found in the `script-opts` folder. I also modified some of these scripts' default keybindings. To see my modifications, look for script keybindings in `input.conf`.\n\n## Shaders\n\nThe shaders included in the `shaders` folder:\n\n* ArtCNN_C4F32 ([source](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\\n  Used for luma upscaling.\n\n* nnedi3-nns128-win8x4 ([source](https://github.com/bjin/mpv-prescalers/tree/master))\\\n  Used for luma upscaling.\n\nUse shaders based on your preference and system capabilities. For more info about shaders, read the resources in the [useful links](#useful-links) section.\n\n## Useful Links\n\n* [mpv tutorial](https://thewiki.moe/tutorials/mpv/) by The Wiki\n* [mpv.conf guide](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) by iamscum\n* [mpv Configuration Guide for Watching Videos](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) by Kokomins\n* [mpv Resampling](https://artoriuz.github.io/blog/mpv_upscaling.html) by João Vitor Chrisóstomo\n\n## Official Links\n\n* [mpv homepage](https://mpv.io/)  \n* [mpv wiki](https://github.com/mpv-player/mpv/wiki)\n* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)\n* [mpv manual](https://mpv.io/manual/stable/)\n* [mpv User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)\n",
+    "ContentSha": "MriS1Tde1ZwyFQuKWFgrP9WweR3sHFiLC6OBR/1agFo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* sponsorblock-minimal.lua ([소스](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\\n  유튜브 영상에서 스폰서 구간을 건너뜁니다.\n\n* thumbfast.lua ([소스](https://github.com/po5/thumbfast))\\\n  mpv를 위한 고성능 실시간 썸네일러입니다. **이 스크립트는 자체적으로 썸네일을 표시하지 않으며**, thumbfast를 호출하는 UI 스크립트와 함께 사용하도록 설계되었습니다.\n\n이 스크립트들의 설정 파일은 `script-opts` 폴더에서 찾을 수 있습니다. 또한 일부 스크립트의 기본 키 바인딩을 수정했습니다. 수정 내용을 보려면 `input.conf`에서 스크립트 키 바인딩을 확인하세요.\n\n## 셰이더\n\n`shaders` 폴더에 포함된 셰이더:\n\n* ArtCNN_C4F32 ([소스](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\\n  명도 업스케일링에 사용됩니다.\n\n* nnedi3-nns128-win8x4 ([소스](https://github.com/bjin/mpv-prescalers/tree/master))\\\n  명도 업스케일링에 사용됩니다.\n\n선호도와 시스템 성능에 따라 셰이더를 선택하여 사용하세요. 셰이더에 대한 자세한 정보는 [유용한 링크](#useful-links) 섹션의 자료를 참고하세요.\n\n## 유용한 링크\n\n* The Wiki의 [mpv 튜토리얼](https://thewiki.moe/tutorials/mpv/)\n* iamscum의 [mpv.conf 가이드](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/)\n* Kokomins의 [비디오 감상을 위한 mpv 설정 가이드](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/)\n* João Vitor Chrisóstomo의 [mpv 리샘플링](https://artoriuz.github.io/blog/mpv_upscaling.html)\n\n## 공식 링크\n\n* [mpv 홈페이지](https://mpv.io/)  \n* [mpv 위키](https://github.com/mpv-player/mpv/wiki)\n* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)\n* [mpv 매뉴얼](https://mpv.io/manual/stable/)\n* [mpv 사용자 스크립트](https://github.com/mpv-player/mpv/wiki/User-Scripts)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* sponsorblock-minimal.lua ([소스](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\"
+      },
+      {
+        "row": 2,
+        "rowsha": "+ND6akxtHdqZ+p/WpFEEMaTVJBYHVC67jfYOC9x3fCs=",
+        "originContent": "* sponsorblock-minimal.lua ([source](https://codeberg.org/jouni/mpv_sponsorblock_minimal))\\",
+        "translatedContent": "  유튜브 영상에서 스폰서 구간을 건너뜁니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "kc4hRNBEHQZ1VTy+Cy/8RSFF9fHTTgL4yp6btQUd0t0=",
+        "originContent": "  Skip sponsor segments in YouTube videos.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* thumbfast.lua ([소스](https://github.com/po5/thumbfast))\\"
+      },
+      {
+        "row": 5,
+        "rowsha": "Wy/YeIuTKgDgVGlIBypg6UrsxoiKba3+A4q/kcGH8bU=",
+        "originContent": "* thumbfast.lua ([source](https://github.com/po5/thumbfast))\\",
+        "translatedContent": "  mpv를 위한 고성능 실시간 썸네일러입니다. **이 스크립트는 자체적으로 썸네일을 표시하지 않으며**, thumbfast를 호출하는 UI 스크립트와 함께 사용하도록 설계되었습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "4l2Yl/1JtoMR/8t+CeFlLnGO/u6ZMkUDhPdv7KytMgE=",
+        "originContent": "  High-performance on-the-fly thumbnailer for mpv. **The script does not display thumbnails on its own**, it is meant to be used alongside a UI script that calls thumbfast.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 스크립트들의 설정 파일은 `script-opts` 폴더에서 찾을 수 있습니다. 또한 일부 스크립트의 기본 키 바인딩을 수정했습니다. 수정 내용을 보려면 `input.conf`에서 스크립트 키 바인딩을 확인하세요."
+      },
+      {
+        "row": 8,
+        "rowsha": "RrI6wuL9ntNZAFjwHSYCvXLZn38rnW5n9oB3xqcuM9Q=",
+        "originContent": "Configuration files for these scripts can be found in the `script-opts` folder. I also modified some of these scripts' default keybindings. To see my modifications, look for script keybindings in `input.conf`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 셰이더"
+      },
+      {
+        "row": 10,
+        "rowsha": "fIm0ce/4U7zhDgxgVnv3nEm4rhtIMtI960+GsuV5NJk=",
+        "originContent": "## Shaders",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`shaders` 폴더에 포함된 셰이더:"
+      },
+      {
+        "row": 12,
+        "rowsha": "zlRFNBW7pNEYDULYOn+aNwKKq7i1/E6i34trcf7bzPk=",
+        "originContent": "The shaders included in the `shaders` folder:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* ArtCNN_C4F32 ([소스](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\"
+      },
+      {
+        "row": 14,
+        "rowsha": "6TB0LfUhzgQIB1oIQbQvFALL5HG7kADOKezUtReuj/g=",
+        "originContent": "* ArtCNN_C4F32 ([source](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\\",
+        "translatedContent": "  명도 업스케일링에 사용됩니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "NMS+JyOc6F3yP0r3Rc+Nhfv284dL2oYZIJqICrF0euc=",
+        "originContent": "  Used for luma upscaling.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* nnedi3-nns128-win8x4 ([소스](https://github.com/bjin/mpv-prescalers/tree/master))\\"
+      },
+      {
+        "row": 17,
+        "rowsha": "axj2Idx2xdIaKpbwWN1bFQ6ct/Q99sW5LovnSUUl458=",
+        "originContent": "* nnedi3-nns128-win8x4 ([source](https://github.com/bjin/mpv-prescalers/tree/master))\\",
+        "translatedContent": "  명도 업스케일링에 사용됩니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "NMS+JyOc6F3yP0r3Rc+Nhfv284dL2oYZIJqICrF0euc=",
+        "originContent": "  Used for luma upscaling.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "선호도와 시스템 성능에 따라 셰이더를 선택하여 사용하세요. 셰이더에 대한 자세한 정보는 [유용한 링크](#useful-links) 섹션의 자료를 참고하세요."
+      },
+      {
+        "row": 20,
+        "rowsha": "XT4942eZim6f6xXr6ZrgUOFiLHT0Ofl5leWk8Cwvtis=",
+        "originContent": "Use shaders based on your preference and system capabilities. For more info about shaders, read the resources in the [useful links](#useful-links) section.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 유용한 링크"
+      },
+      {
+        "row": 22,
+        "rowsha": "me52My67vH5OZOCRPEVOkaAMrFYSc8tjqRFptDj8UwU=",
+        "originContent": "## Useful Links",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* The Wiki의 [mpv 튜토리얼](https://thewiki.moe/tutorials/mpv/)"
+      },
+      {
+        "row": 24,
+        "rowsha": "yQcP/gbdwduSc/tva3m9bxeAITzWMGWqxj/MVABmQ7U=",
+        "originContent": "* [mpv tutorial](https://thewiki.moe/tutorials/mpv/) by The Wiki",
+        "translatedContent": "* iamscum의 [mpv.conf 가이드](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/)"
+      },
+      {
+        "row": 25,
+        "rowsha": "lI6D/puRtCx6N0C5y1wtrUK8W374+B2Lj1eNUZWAm18=",
+        "originContent": "* [mpv.conf guide](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) by iamscum",
+        "translatedContent": "* Kokomins의 [비디오 감상을 위한 mpv 설정 가이드](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/)"
+      },
+      {
+        "row": 26,
+        "rowsha": "WKubyjqd/+ZC/719rSGe7K+UnxgSm0BUzKFoUQrSDdQ=",
+        "originContent": "* [mpv Configuration Guide for Watching Videos](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) by Kokomins",
+        "translatedContent": "* João Vitor Chrisóstomo의 [mpv 리샘플링](https://artoriuz.github.io/blog/mpv_upscaling.html)"
+      },
+      {
+        "row": 27,
+        "rowsha": "cb4NXdY1cpv+7rW533Vj9FloG+RiA7ib2QQasDvBLgE=",
+        "originContent": "* [mpv Resampling](https://artoriuz.github.io/blog/mpv_upscaling.html) by João Vitor Chrisóstomo",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 공식 링크"
+      },
+      {
+        "row": 29,
+        "rowsha": "GKjmq0qzPrL89EZ+LK/0OkXxWyZ8ijtft/nynMalivU=",
+        "originContent": "## Official Links",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [mpv 홈페이지](https://mpv.io/)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "lTYh5Ay8IlTe+VpORmSGcoEA6LBb5OKL/KKPO5nyvNI=",
+        "originContent": "* [mpv homepage](https://mpv.io/)  ",
+        "translatedContent": "* [mpv 위키](https://github.com/mpv-player/mpv/wiki)"
+      },
+      {
+        "row": 32,
+        "rowsha": "7ZWxRQLzGtNH1pyIisVxye81FzbbjDz+T69Sh4+KIR0=",
+        "originContent": "* [mpv wiki](https://github.com/mpv-player/mpv/wiki)",
+        "translatedContent": "* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)"
+      },
+      {
+        "row": 33,
+        "rowsha": "iZ6rTCGhTOYpdOeOt+ddy+1ERDCHGOfocHqBRHzOe+0=",
+        "originContent": "* [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)",
+        "translatedContent": "* [mpv 매뉴얼](https://mpv.io/manual/stable/)"
+      },
+      {
+        "row": 34,
+        "rowsha": "Gu3sdtfc9tELp3zHXn9Kv/fy4/mM4r6Lfs6+1ezndAo=",
+        "originContent": "* [mpv manual](https://mpv.io/manual/stable/)",
+        "translatedContent": "* [mpv 사용자 스크립트](https://github.com/mpv-player/mpv/wiki/User-Scripts)"
+      },
+      {
+        "row": 35,
+        "rowsha": "yUDYJuK/smB50/AKxDhHWm9ttzMU/Nxh8Iy5aYB2FdQ=",
+        "originContent": "* [mpv User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

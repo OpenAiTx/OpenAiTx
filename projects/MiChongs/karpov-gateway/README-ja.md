@@ -1,6 +1,38 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Karpov Gateway
 
-> 統合 API ゲートウェイ + コンソール。Go バックエンド（Gin + gRPC）+ Next.js フロントエンド（App Router + shadcn/ui）、資格情報プール、メール認証、Linux.do OAuth2 SSO、クォータ課金、TOTP 二段階認証を内蔵。
+> オールインワン API ゲートウェイ＋コンソール。Go バックエンド（Gin + gRPC）＋ Next.js フロントエンド（App Router + shadcn/ui）、認証情報プール、メール認証、Linux.do OAuth2 SSO、クォータ課金、TOTP 二段階認証を標準搭載。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)
@@ -8,17 +40,17 @@
 
 ## ✨ 機能
 
-- **統一 REST ゲートウェイ** — 単一プロセスまたはマルチサービスモード、gateway → auth/music/pool/quota/billing/worker gRPC バックエンドは独立デプロイ可能
-- **資格情報プール (暗号化済み)** — KEK + DEK エンベロープ暗号化、AES-256-GCM with AAD、POOL_KEK_HEX マスターキー派生
-- **メール登録 + 有効化** — SMTP コード送信 / 有効化リンク、二重保険（認証コード + メールリンク）、SMTP 未設定時は自動的に LogSender に降格
-- **OAuth2 サードパーティログイン** — Linux.do SSO（PKCE S256 + HMAC 署名 state cookie）、ログイン / バインド / バインド解除の三状態判定、トークン暗号化保存
-- **クォータ / 課金** — PlanQuotaMiddleware が gateway 層でカバー、ビジネスサービス内で plan + scope による二重検証
-- **TOTP 二段階認証** — `pquerna/otp` + Redis リプレイ防止
-- **監査ログ** — 構造化 JSON、タイプ別ファイル、日次ローテーション
-- **CSRF + セッション** — `sid` httpOnly cookie + `X-CSRF-Token` ヘッダーによる二重検証
-- **shadcn/ui コンソール** — Next.js 16 App Router + Radix + Tailwind v4
+- **統一 REST ゲートウェイ** — 単一プロセスまたは複数サービスモード、gateway → auth/music/pool/quota/billing/worker gRPC バックエンドは独立してデプロイ可能
+- **認証情報プール（暗号化）** — KEK + DEK 封筒暗号化、AES-256-GCM with AAD、POOL_KEK_HEX 主鍵派生
+- **メール登録 + アクティベーション** — SMTP コード送信／アクティベーションリンク、二重保護（認証コード＋メールリンク）、SMTP 未設定時は自動的に LogSender へ降格
+- **OAuth2 サードパーティログイン** — Linux.do SSO（PKCE S256 + HMAC 署名 state cookie）、ログイン／バインド／解除の三状態判定、token 暗号化保存
+- **クォータ／課金** — PlanQuotaMiddleware が gateway 層で保護、business service 内部で plan＋scope による二重検証
+- **TOTP 二段階認証** — `pquerna/otp` ＋ Redis リプレイ防止
+- **監査ログ** — 構造化 JSON、type ごとにファイル分割、毎日ローテーション
+- **CSRF + セッション** — `sid` httpOnly cookie ＋ `X-CSRF-Token` ヘッダーによる二重検証
+- **shadcn/ui コンソール** — Next.js 16 App Router ＋ Radix ＋ Tailwind v4
 
-## 🏗 リポジトリ構造
+## 🏗 リポジトリ構成
 
 ```
 karpov-gateway/
@@ -175,6 +207,6 @@ Built with ❤️ by [MiChongs](https://github.com/MiChongs)
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-08
 
 ---

@@ -1,0 +1,1446 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Karpov Gateway\n\n> 一体化 API 网关 + 控制台。Go 后端（Gin + gRPC）+ Next.js 前端（App Router + shadcn/ui），自带凭据池、邮件验证、Linux.do OAuth2 SSO、配额计费、TOTP 二步验证。\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\n[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)\n[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)\n",
+    "ContentSha": "SVqqp9QwVLlhX9osKD/ws/B5SqE8CT3KSyvO59s+uoE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 ভাষা</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# কাৰ্পভ গেটৱে\n\n> একত্ৰিত API গেটৱে + নিয়ন্ত্ৰণ কনচোল। Go বেকএণ্ড (Gin + gRPC) + Next.js ফ্ৰণ্টএণ্ড (App Router + shadcn/ui), নিজা প্ৰমাণীকৰণ পুল, ই-মেইল ভেৰিফিকেশ্যন, Linux.do OAuth2 SSO, কোটাৰ হিচাপ, TOTP দুবাৰীয়া ভেৰিফিকেশ্যনসহ।\n\n[![অনুজ্ঞাপত্ৰ: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\n[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)\n[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 ভাষা</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "cyUbPMr3Bo886kzOEe8vuWS9zDAARyvd3xW/Z/hX+Pk=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "q/Q1IphRJoOnGBZgZuUs9+B3xbX+lL+cHK+S6gexBfo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "Tazza2GgVeMEXkR9aQZRLMwu91ZkqX1bm0trehYB22o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "uGa2VKUfbArxOhAHzAXImgCd53ZRPPHUwHAOi5Yzuvs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "Ai2XmdV0LjChm07PUbuZwgwVWTjiuGp+EjUzE3iqHOg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "nU3PCFfSyy235D7pXRcV6mtL28h+HQXWo8cd5FZ7vlU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "uoeNky43xVa9QJmODR7fxIGk+oAkADch+WFJehlR5xo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "rv21N6lLB3pNZ3tQTrdj70s6I7tCdYE+ZEIM2HAhq9M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "/Kkk/AYTdgp8dwVENy0oG4lBJBXgWZMdHnUiZ/VZAO8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "npg2jeeoX4+EdFeVqHLAiK27vqBvYszXCHcxjqgGx1I=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "xSu07NUvrqDy3nEEfK249ukMlwtQay6LkA1RYXwli/o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "EBlB5s/YYcTKSLcoUpcotUwz9S+RgJjoZ6ijkeq8ias=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "Fn7fn1yw9RyxGimVtIm0n+a8AZ1KHw61scNeTyUkv8M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "npj4fHIKgECUSVFuRnLIWbmNZkhBuS0fvxVVg+h7nWU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "V0GuXLADsICZoElljE/RH1DhJ8xyDIW6qkeexNm84rE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "Ux/hcjNP6uj+/UCOu9H7WF45xY+b8J4JYuq1J4pP3yk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "l7wvfPJVWQ/KG/Xn81+zjEspDaHRkQyq+XWESfpn9EI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "SCcdT8O0Pf1l++zcVNhSuZqWAV2wunnj8TVvEhojV4E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "JGJ89hbrwUoBT4NM3ZmAnRqC6r29gEWDKVuWAKSW0g4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "Tt9iwph7z0K6nd2P2CNFgaWduwIg5MBDMBk4PtTRnhg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "n4JYG/2BYHqVbH3xKKINPbp2sWtmLA82rP/jh6CpnHY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=MiChongs&project=karpov-gateway&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "aqcGmUqPlkT3T39RIPTrOjW334GErCAmtWPE0Zi0j4Y=",
+        "originContent": "# Karpov Gateway",
+        "translatedContent": "# কাৰ্পভ গেটৱে"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "bOwLeymNnIDwrPt31NVBAOdJKDO/H4Mbzt4EC1RyAOw=",
+        "originContent": "> 一体化 API 网关 + 控制台。Go 后端（Gin + gRPC）+ Next.js 前端（App Router + shadcn/ui），自带凭据池、邮件验证、Linux.do OAuth2 SSO、配额计费、TOTP 二步验证。",
+        "translatedContent": "> একত্ৰিত API গেটৱে + নিয়ন্ত্ৰণ কনচোল। Go বেকএণ্ড (Gin + gRPC) + Next.js ফ্ৰণ্টএণ্ড (App Router + shadcn/ui), নিজা প্ৰমাণীকৰণ পুল, ই-মেইল ভেৰিফিকেশ্যন, Linux.do OAuth2 SSO, কোটাৰ হিচাপ, TOTP দুবাৰীয়া ভেৰিফিকেশ্যনসহ।"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "fYlYW6DQuJWgVxdBRiX3n5SMT9QAMQ2pI+uek9SI9AE=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)",
+        "translatedContent": "[![অনুজ্ঞাপত্ৰ: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)"
+      },
+      {
+        "row": 38,
+        "rowsha": "GRUlrI6/xXbkAjuCWA13z5G8pSl+cmpJQgs6NVhjF0w=",
+        "originContent": "[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)",
+        "translatedContent": "[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)"
+      },
+      {
+        "row": 39,
+        "rowsha": "r6ModBFIpNu3lYR7fNbI9cf/MY9GFOjn5BKFKr8Pt8E=",
+        "originContent": "[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)",
+        "translatedContent": "[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## ✨ Features\n\n- **统一 REST 网关** — 单进程或多 service 模式，gateway → auth/music/pool/quota/billing/worker gRPC 后端可独立部署\n- **凭据池 (encrypted)** — KEK + DEK 信封加密，AES-256-GCM with AAD，POOL_KEK_HEX 主密钥派生\n- **邮箱注册 + 激活** — SMTP 发码 / 激活链接，双重保险（验证码 + 邮件链接），未配置 SMTP 自动 demote 到 LogSender\n- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密落库\n- **配额 / 计费** — PlanQuotaMiddleware 在 gateway 层兜底，business service 内部按 plan + scope 二次校验\n- **TOTP 二步** — `pquerna/otp` + Redis 重放保护\n- **审计日志** — 结构化 JSON，按 type 分文件，每天滚动\n- **CSRF + Session** — `sid` httpOnly cookie + `X-CSRF-Token` 头双校验\n- **shadcn/ui 控制台** — Next.js 16 App Router + Radix + Tailwind v4\n\n## 🏗 仓库结构\n",
+    "ContentSha": "ogg0SSS/l8BkxfnZN3xm5l+LjVzuuc2qYBzYMrla3xA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## ✨ বৈশিষ্ট্যবোৰ\n\n- **একীভূত REST গেটৱে** — একক প্ৰক্ৰিয়া বা বহু service ৰূপত, gateway → auth/music/pool/quota/billing/worker gRPC পিছৰ অংশ স্বতন্ত্ৰভাৱে মোতায়েন কৰিব পাৰি\n- **প্ৰমাণপত্ৰ সংৰক্ষণ (গোপনীয়)** — KEK + DEK খাম এনক্ৰিপচন, AES-256-GCM with AAD, POOL_KEK_HEX মুখ্য চাবি ডেৰিভেশন\n- **ই-মেইল ৰেজিষ্ট্ৰেশ্বন + সক্ৰিয়কৰণ** — SMTP ক'ড পঠিয়াব/সক্ৰিয় লিংক, দ্বৈত সুৰক্ষা (ভেৰিফিকেশ্বন ক'ড + ই-মেইল লিংক), SMTP সংৰূপ নোহোৱিলে স্বয়ংক্ৰিয়ভাৱে LogSender লৈ নামি যায়\n- **OAuth2 তৃতীয় পক্ষ লগইন** — Linux.do SSO (PKCE S256 + HMAC স্বাক্ষৰিত state কুকি), লগইন / সংলগ্ন / বিযুক্ত তিনিটা অৱস্থাৰ সিদ্ধান্ত, ট'কেন এনক্ৰিপ্ট কৰি সংৰক্ষণ\n- **কোট/বিলিং** — PlanQuotaMiddleware গেটৱে স্তৰত সংৰক্ষিত, business service ভিতৰত plan + scope অনুৰূপ দ্বিতীয়বাৰ পৰীক্ষা\n- **TOTP দুচৰণ** — `pquerna/otp` + Redis পুনৰাবৃত্তি সুৰক্ষা\n- **অডিট লগ** — গঠনমূলক JSON, type অনুসৰি পৃথক ফাইল, প্ৰতিদিনে ঘূৰে\n- **CSRF + ছেছন** — `sid` httpOnly কুকি + `X-CSRF-Token` শিৰোনাম দ্বৈত পৰীক্ষা\n- **shadcn/ui কণ্ট্ৰ'ল পেনেল** — Next.js 16 App Router + Radix + Tailwind v4\n\n## 🏗 ৰেপ’জিট'ৰী গঠন\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ বৈশিষ্ট্যবোৰ"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "lP65EgfUzq8RSLkx321Jhv0Ojs+ePwR7JoK1YXE/8CU=",
+        "originContent": "- **统一 REST 网关** — 单进程或多 service 模式，gateway → auth/music/pool/quota/billing/worker gRPC 后端可独立部署",
+        "translatedContent": "- **একীভূত REST গেটৱে** — একক প্ৰক্ৰিয়া বা বহু service ৰূপত, gateway → auth/music/pool/quota/billing/worker gRPC পিছৰ অংশ স্বতন্ত্ৰভাৱে মোতায়েন কৰিব পাৰি"
+      },
+      {
+        "row": 4,
+        "rowsha": "EQe8S5LndYRLGIyBLgXjtEk/ftpYeHLeUx+OsHT/Dtg=",
+        "originContent": "- **凭据池 (encrypted)** — KEK + DEK 信封加密，AES-256-GCM with AAD，POOL_KEK_HEX 主密钥派生",
+        "translatedContent": "- **প্ৰমাণপত্ৰ সংৰক্ষণ (গোপনীয়)** — KEK + DEK খাম এনক্ৰিপচন, AES-256-GCM with AAD, POOL_KEK_HEX মুখ্য চাবি ডেৰিভেশন"
+      },
+      {
+        "row": 5,
+        "rowsha": "dhjzBa10X4QQQo2HTXxJTusMkd4Gh9n7jQX/JHsOJe0=",
+        "originContent": "- **邮箱注册 + 激活** — SMTP 发码 / 激活链接，双重保险（验证码 + 邮件链接），未配置 SMTP 自动 demote 到 LogSender",
+        "translatedContent": "- **ই-মেইল ৰেজিষ্ট্ৰেশ্বন + সক্ৰিয়কৰণ** — SMTP ক'ড পঠিয়াব/সক্ৰিয় লিংক, দ্বৈত সুৰক্ষা (ভেৰিফিকেশ্বন ক'ড + ই-মেইল লিংক), SMTP সংৰূপ নোহোৱিলে স্বয়ংক্ৰিয়ভাৱে LogSender লৈ নামি যায়"
+      },
+      {
+        "row": 6,
+        "rowsha": "KrzP0ljtL082nsYrQNLwEhf+xzaMz2/tdObGzOIvNCk=",
+        "originContent": "- **OAuth2 第三方登录** — Linux.do SSO（PKCE S256 + HMAC 签名 state cookie），登录 / 绑定 / 解绑三态决策，token 加密落库",
+        "translatedContent": "- **OAuth2 তৃতীয় পক্ষ লগইন** — Linux.do SSO (PKCE S256 + HMAC স্বাক্ষৰিত state কুকি), লগইন / সংলগ্ন / বিযুক্ত তিনিটা অৱস্থাৰ সিদ্ধান্ত, ট'কেন এনক্ৰিপ্ট কৰি সংৰক্ষণ"
+      },
+      {
+        "row": 7,
+        "rowsha": "IBLKY0k8spUeRPG1YQn6apMXNApAze8IAhC670okxnU=",
+        "originContent": "- **配额 / 计费** — PlanQuotaMiddleware 在 gateway 层兜底，business service 内部按 plan + scope 二次校验",
+        "translatedContent": "- **কোট/বিলিং** — PlanQuotaMiddleware গেটৱে স্তৰত সংৰক্ষিত, business service ভিতৰত plan + scope অনুৰূপ দ্বিতীয়বাৰ পৰীক্ষা"
+      },
+      {
+        "row": 8,
+        "rowsha": "RCprNdU6InmseqHg4m8dEJqbk1AuCTsNANZQbKMECIQ=",
+        "originContent": "- **TOTP 二步** — `pquerna/otp` + Redis 重放保护",
+        "translatedContent": "- **TOTP দুচৰণ** — `pquerna/otp` + Redis পুনৰাবৃত্তি সুৰক্ষা"
+      },
+      {
+        "row": 9,
+        "rowsha": "DApM7AXuY7ilIz56VThvZG/AYAeJoqJtTu9NjNelJmg=",
+        "originContent": "- **审计日志** — 结构化 JSON，按 type 分文件，每天滚动",
+        "translatedContent": "- **অডিট লগ** — গঠনমূলক JSON, type অনুসৰি পৃথক ফাইল, প্ৰতিদিনে ঘূৰে"
+      },
+      {
+        "row": 10,
+        "rowsha": "PjO2TmVb5LSYGlHCYcsMTh/aO22kfD3RBW3LUbi9FqY=",
+        "originContent": "- **CSRF + Session** — `sid` httpOnly cookie + `X-CSRF-Token` 头双校验",
+        "translatedContent": "- **CSRF + ছেছন** — `sid` httpOnly কুকি + `X-CSRF-Token` শিৰোনাম দ্বৈত পৰীক্ষা"
+      },
+      {
+        "row": 11,
+        "rowsha": "nroqHXK5Oti/Yjt6s4H818IJxaSc01YusAYiSTtTY50=",
+        "originContent": "- **shadcn/ui 控制台** — Next.js 16 App Router + Radix + Tailwind v4",
+        "translatedContent": "- **shadcn/ui কণ্ট্ৰ'ল পেনেল** — Next.js 16 App Router + Radix + Tailwind v4"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "gY1FLMlgOFiGlXuygCwFolNqUIv4x0MtoINQdf3SF34=",
+        "originContent": "## 🏗 仓库结构",
+        "translatedContent": "## 🏗 ৰেপ’জিট'ৰী গঠন"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\nkarpov-gateway/\n├── gateway/             # Go 后端 (Gin + gRPC)\n│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)\n│   ├── internal/        # 业务实现 (private)\n│   ├── api/             # protobuf 定义\n│   ├── migrations/      # PostgreSQL schema\n│   ├── go.mod           # Go 模块 (go 1.24+)\n│   └── Dockerfile\n├── web/                 # Next.js 16 前端控制台\n│   ├── src/             # App Router pages + components\n│   ├── middleware.ts    # CSRF / session / CSP nonce\n│   ├── package.json     # pnpm workspace\n│   └── Dockerfile\n├── deploy/\n│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)\n│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)\n└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)\n```",
+    "ContentSha": "gC0XlsOKYTJrCuLEy8CrY5cv102oRVklTuZZeZyeyPY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nkarpov-gateway/\n├── gateway/             # Go 后端 (Gin + gRPC)\n│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)\n│   ├── internal/        # 业务实现 (private)\n│   ├── api/             # protobuf 定义\n│   ├── migrations/      # PostgreSQL schema\n│   ├── go.mod           # Go 模块 (go 1.24+)\n│   └── Dockerfile\n├── web/                 # Next.js 16 前端控制台\n│   ├── src/             # App Router pages + components\n│   ├── middleware.ts    # CSRF / session / CSP nonce\n│   ├── package.json     # pnpm workspace\n│   └── Dockerfile\n├── deploy/\n│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)\n│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)\n└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "/KTt+JdF59TTWdJMxtPdaHzxzoQj4rA9W2HtQr1DaIg=",
+        "originContent": "karpov-gateway/",
+        "translatedContent": "karpov-gateway/"
+      },
+      {
+        "row": 3,
+        "rowsha": "rw9E8huVabUrVrHrQpjW3JTUKNf7J7YvCmojh7xnJMI=",
+        "originContent": "├── gateway/             # Go 后端 (Gin + gRPC)",
+        "translatedContent": "├── gateway/             # Go 后端 (Gin + gRPC)"
+      },
+      {
+        "row": 4,
+        "rowsha": "NC3gnapPANlRjSnlnzI2ifp1nPNVhsv2OB5x0midt14=",
+        "originContent": "│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)",
+        "translatedContent": "│   ├── cmd/             # 各 service 入口 (gateway/auth/music/pool/...)"
+      },
+      {
+        "row": 5,
+        "rowsha": "r4AEi90EqcmwTX+P77035KsOAMMGMZroNiKF/OdPlT8=",
+        "originContent": "│   ├── internal/        # 业务实现 (private)",
+        "translatedContent": "│   ├── internal/        # 业务实现 (private)"
+      },
+      {
+        "row": 6,
+        "rowsha": "DI6HGg1cO7jt30wSlpdlmXSulRAMnbQkDYEDZufCemo=",
+        "originContent": "│   ├── api/             # protobuf 定义",
+        "translatedContent": "│   ├── api/             # protobuf 定义"
+      },
+      {
+        "row": 7,
+        "rowsha": "u9fCXjRltjn39eVHU7SVh4MEkrw+vqV6ZgzTZdjBhsc=",
+        "originContent": "│   ├── migrations/      # PostgreSQL schema",
+        "translatedContent": "│   ├── migrations/      # PostgreSQL schema"
+      },
+      {
+        "row": 8,
+        "rowsha": "v+t/yjmPq4GOLKhVyrJBwZMCf/GIlIcJLuEc1lbTwaU=",
+        "originContent": "│   ├── go.mod           # Go 模块 (go 1.24+)",
+        "translatedContent": "│   ├── go.mod           # Go 模块 (go 1.24+)"
+      },
+      {
+        "row": 9,
+        "rowsha": "r1YDtt8BPMO2a0HoyWDXD/t6dtkXfkDtXP8oGXA18lo=",
+        "originContent": "│   └── Dockerfile",
+        "translatedContent": "│   └── Dockerfile"
+      },
+      {
+        "row": 10,
+        "rowsha": "mBSygroC7YyRc7n7PvWO2g+oOaXvczhdDBB6SLi7RR8=",
+        "originContent": "├── web/                 # Next.js 16 前端控制台",
+        "translatedContent": "├── web/                 # Next.js 16 前端控制台"
+      },
+      {
+        "row": 11,
+        "rowsha": "8naP2N4w//2+Qjs+CzKQWG3kGTqD81o6XOg+8CubF5o=",
+        "originContent": "│   ├── src/             # App Router pages + components",
+        "translatedContent": "│   ├── src/             # App Router pages + components"
+      },
+      {
+        "row": 12,
+        "rowsha": "GJwwmu9waaF9pUvDGC6LGz3ElKgs0gvTqCCqCXnftQs=",
+        "originContent": "│   ├── middleware.ts    # CSRF / session / CSP nonce",
+        "translatedContent": "│   ├── middleware.ts    # CSRF / session / CSP nonce"
+      },
+      {
+        "row": 13,
+        "rowsha": "O41e9vyGidS9fOYj92IcfyLx2IOiMq+BCOX0LFlSeiY=",
+        "originContent": "│   ├── package.json     # pnpm workspace",
+        "translatedContent": "│   ├── package.json     # pnpm workspace"
+      },
+      {
+        "row": 14,
+        "rowsha": "r1YDtt8BPMO2a0HoyWDXD/t6dtkXfkDtXP8oGXA18lo=",
+        "originContent": "│   └── Dockerfile",
+        "translatedContent": "│   └── Dockerfile"
+      },
+      {
+        "row": 15,
+        "rowsha": "YQ5FKGfU98XQ60CsWxuc9OQPp+8dOD/il8+lHTPqFs4=",
+        "originContent": "├── deploy/",
+        "translatedContent": "├── deploy/"
+      },
+      {
+        "row": 16,
+        "rowsha": "ROySOcQ45WHLdR3MPodjAcBaPUpoz9dgBEsK27ACZHs=",
+        "originContent": "│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)",
+        "translatedContent": "│   ├── compose/         # 本地开发 (PG + Redis + pgAdmin)"
+      },
+      {
+        "row": 17,
+        "rowsha": "5eVZ6u5GQHYAZKFBE8V3bCSQ+5NxlxTk7ADbbHkaUws=",
+        "originContent": "│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)",
+        "translatedContent": "│   └── compose-prod/    # 生产单机 (gateway + web + PG + Redis 全栈)"
+      },
+      {
+        "row": 18,
+        "rowsha": "5kQyaCAYFWeH272owkMi29ZnGqtBzqfOvWAkc8rZZyU=",
+        "originContent": "└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)",
+        "translatedContent": "└── .github/workflows/   # GitHub Actions CI (lint / test / build / govulncheck / gosec)"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## 🚀 Quick Start\n\n### 1. 前置要求\n\n| 工具       | 版本    |\n| ---------- | ------- |\n| Go         | 1.24+   |\n| Node.js    | 20.11+  |\n| pnpm       | 9+      |\n| Docker     | 24+     |\n| PostgreSQL | 14+     |\n| Redis      | 7+      |\n\n### 2. 启动依赖（Postgres + Redis + pgAdmin）\n",
+    "ContentSha": "5RF9AJGRCh32efI/cA2MFjEgdQ30SjcXb/6H7yPC7qM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🚀 দ্ৰুত আৰম্ভণি\n\n### 1. পূৰ্বৰ প্ৰয়োজনীয়তা\n\n| সঁজুলি      | সংস্কৰণ   |\n| ------------ | ---------- |\n| Go           | 1.24+      |\n| Node.js      | 20.11+     |\n| pnpm         | 9+         |\n| Docker       | 24+        |\n| PostgreSQL   | 14+        |\n| Redis        | 7+         |\n\n### 2. নিৰ্ভৰতা আৰম্ভ কৰা (Postgres + Redis + pgAdmin)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 দ্ৰুত আৰম্ভণি"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "K90CV4i7OG0LYVdXYNRHMH7G+THLCqXd1HnXEMyzAK0=",
+        "originContent": "### 1. 前置要求",
+        "translatedContent": "### 1. পূৰ্বৰ প্ৰয়োজনীয়তা"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lIwvbZsykKAu/JhUNFhHw/BgR5FiESZabKcGnnsh8XA=",
+        "originContent": "| 工具       | 版本    |",
+        "translatedContent": "| সঁজুলি      | সংস্কৰণ   |"
+      },
+      {
+        "row": 7,
+        "rowsha": "pwArBfsR3IuIyzBMR7YkY2Ug4l3yOAgRilp4eIYOmQ4=",
+        "originContent": "| ---------- | ------- |",
+        "translatedContent": "| ------------ | ---------- |"
+      },
+      {
+        "row": 8,
+        "rowsha": "EsIGptrAFYjnwSVdJv4+tzL0nR0CnCloiPl74pYt88s=",
+        "originContent": "| Go         | 1.24+   |",
+        "translatedContent": "| Go           | 1.24+      |"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZyQMuBZVs0DSf80SOPOg0IQzvjy67k4hVCs2d+j/KEs=",
+        "originContent": "| Node.js    | 20.11+  |",
+        "translatedContent": "| Node.js      | 20.11+     |"
+      },
+      {
+        "row": 10,
+        "rowsha": "eJg+QIklZ9Q8RLqXtAlatIYNbvzA6dFDxu+O9qtr/r0=",
+        "originContent": "| pnpm       | 9+      |",
+        "translatedContent": "| pnpm         | 9+         |"
+      },
+      {
+        "row": 11,
+        "rowsha": "pBLBXNXoaWmTrj+3aVWJlCzHj+7FEhD2F3pbMtVnXgg=",
+        "originContent": "| Docker     | 24+     |",
+        "translatedContent": "| Docker       | 24+        |"
+      },
+      {
+        "row": 12,
+        "rowsha": "Fyw29rv8X1LNQIyCw5RhaSYbP/7LbwRfrCKM4VOZ+VU=",
+        "originContent": "| PostgreSQL | 14+     |",
+        "translatedContent": "| PostgreSQL   | 14+        |"
+      },
+      {
+        "row": 13,
+        "rowsha": "Uagl+1oeWuqoNQ5c1qNzxHaSZlAVuDkmk3YBJxxZsLc=",
+        "originContent": "| Redis      | 7+      |",
+        "translatedContent": "| Redis        | 7+         |"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "V1ZPfvpliPMK19pIZyp9zSc+kC699JO65yO5M9fyzx4=",
+        "originContent": "### 2. 启动依赖（Postgres + Redis + pgAdmin）",
+        "translatedContent": "### 2. নিৰ্ভৰতা আৰম্ভ কৰা (Postgres + Redis + pgAdmin)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\ncd deploy/compose\ncp .env.example .env       # 改强密码！\ndocker compose up -d\n```",
+    "ContentSha": "DR8AEIUwoRrwq9tPH5r7hCW1T7NuX8J0shdu/xnSYzI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd deploy/compose\ncp .env.example .env       # 改强密码！\ndocker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "tIHWzhc0dBeg7GRe6PHElLKCC2tOUwFIdDqMmC9Ptqc=",
+        "originContent": "cd deploy/compose",
+        "translatedContent": "cd deploy/compose"
+      },
+      {
+        "row": 3,
+        "rowsha": "80SMOjALapW4qp1wCHRvhxmP08UKLr/F4vgdRlTmBtY=",
+        "originContent": "cp .env.example .env       # 改强密码！",
+        "translatedContent": "cp .env.example .env       # 改强密码！"
+      },
+      {
+        "row": 4,
+        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+        "originContent": "docker compose up -d",
+        "translatedContent": "docker compose up -d"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### 3. 启动 Gateway 后端\n",
+    "ContentSha": "6b5R0LKhvoi0NNU3FH6sLNpTfTkE66qGRg/E2NWuItE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ৩. Gateway পিছৰ অংশ আৰম্ভ কৰক\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jC8JhrzMiN+MkFRNyyZdNrSTB/DBBKFUai5v5o8dzMI=",
+        "originContent": "### 3. 启动 Gateway 后端",
+        "translatedContent": "### ৩. Gateway পিছৰ অংশ আৰম্ভ কৰক"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\ncd gateway\ncp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致\ngo mod download\ngo run ./cmd/qqmusic-gateway\n# 默认 :8080 (HTTP) + :9000 (gRPC)\n# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码\n```",
+    "ContentSha": "U5o2hFbBik20vV6SwjVjJuZEIRqG2W1zTNM1o5u/Xrk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd gateway\ncp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致\ngo mod download\ngo run ./cmd/qqmusic-gateway\n# 默认 :8080 (HTTP) + :9000 (gRPC)\n# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aRyw4eWi03dbh9T7/j2QfJqn71QEaG/perbTMOXSiMk=",
+        "originContent": "cd gateway",
+        "translatedContent": "cd gateway"
+      },
+      {
+        "row": 3,
+        "rowsha": "Y48sIVl6pT/FvRM4+w5t1Q9XKfYvt9SY7We9Su2Dde0=",
+        "originContent": "cp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致",
+        "translatedContent": "cp .env.example .env       # 与 deploy/compose/.env 的 PG/Redis 密码保持一致"
+      },
+      {
+        "row": 4,
+        "rowsha": "QqgmOmQ8y+aS1wdS/92M6jKPwtMZBnffFIXuBvVbNQo=",
+        "originContent": "go mod download",
+        "translatedContent": "go mod download"
+      },
+      {
+        "row": 5,
+        "rowsha": "3iZSWQt6D2xcg4vgGTz4ocC+Fe/NRn1T52Urrsy16Zw=",
+        "originContent": "go run ./cmd/qqmusic-gateway",
+        "translatedContent": "go run ./cmd/qqmusic-gateway"
+      },
+      {
+        "row": 6,
+        "rowsha": "IvFmJyXuykLPg62jt8sQlX58k7qonH6ZQFNj5rA2Z80=",
+        "originContent": "# 默认 :8080 (HTTP) + :9000 (gRPC)",
+        "translatedContent": "# 默认 :8080 (HTTP) + :9000 (gRPC)"
+      },
+      {
+        "row": 7,
+        "rowsha": "Omb+eGbRnEIL+gZZM1wFIODucc+HMOPIOsQhaFcwD0U=",
+        "originContent": "# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码",
+        "translatedContent": "# 首次启动会在 stderr 打印一个 superadmin 账号 + 临时密码"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### 4. 启动 Web 控制台\n",
+    "ContentSha": "Rl2RFV+kbamLnGy7dTFZfFFXaSBtmkOCNS9EDz2dfwU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4. ৱেব কন্ট্ৰোল পেনেল আৰম্ভ কৰক\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jPYils/jlF/+Nq2x4gkI5xZa7J/h8E9tBePrh607Tu0=",
+        "originContent": "### 4. 启动 Web 控制台",
+        "translatedContent": "### 4. ৱেব কন্ট্ৰোল পেনেল আৰম্ভ কৰক"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\ncd web\ncp .env.example .env.local\npnpm install\npnpm dev\n# http://localhost:3000\n```",
+    "ContentSha": "k7tnYqZ76cNEO+tnFwGRRa3BsKCB++M5U9NfLNiI/fQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd web\ncp .env.example .env.local\npnpm install\npnpm dev\n# http://localhost:3000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0iapI5PXSy6wKiQE7W6hlHpGVzWZMQ5C/4a8FZf8uD8=",
+        "originContent": "cd web",
+        "translatedContent": "cd web"
+      },
+      {
+        "row": 3,
+        "rowsha": "p+WZO+vOMpQHbz2zS3rdfhWLywdZQ0t9JtpqPZY7O5I=",
+        "originContent": "cp .env.example .env.local",
+        "translatedContent": "cp .env.example .env.local"
+      },
+      {
+        "row": 4,
+        "rowsha": "AF0LflwmHcxeL4Vo5poLMOiJoydbVbGOwgp97vAIHpA=",
+        "originContent": "pnpm install",
+        "translatedContent": "pnpm install"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZYvNuHAYTkCLCEkYZ1c2s8LyrrXCkHjQE4e47PWrzOI=",
+        "originContent": "pnpm dev",
+        "translatedContent": "pnpm dev"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZbIIj8rfzBiHCd5TLjHZXgzxtJq0sm/kOI7YdckOhVg=",
+        "originContent": "# http://localhost:3000",
+        "translatedContent": "# http://localhost:3000"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n## 🐳 生产部署 (Docker Compose 单机)\n",
+    "ContentSha": "r1AVOUAuMrwGVUrH6b4feNNuOTEfDIiVPcGv8Q7n6xQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🐳 উৎপাদন স্থাপন (Docker Compose একক যন্ত্ৰ)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SEcMRy8+RQakSqMasCrlQkCkqYv4UGyyd4RC8/3AH0A=",
+        "originContent": "## 🐳 生产部署 (Docker Compose 单机)",
+        "translatedContent": "## 🐳 উৎপাদন স্থাপন (Docker Compose একক যন্ত্ৰ)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\ncd deploy/compose-prod\ncp .env.example .env\n# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client\nnano .env\n\n# 生成 KEK\nopenssl rand -hex 32     # → 写到 POOL_KEK_HEX=\n\ndocker compose up -d --build\ndocker compose logs -f gateway\n```",
+    "ContentSha": "wpEXHFFON0BhdNFTDp6PXHPs/x52cxxjE6Q2bIN4RAM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd deploy/compose-prod\ncp .env.example .env\n# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client\nnano .env\n\n# 生成 KEK\nopenssl rand -hex 32     # → 写到 POOL_KEK_HEX=\n\ndocker compose up -d --build\ndocker compose logs -f gateway\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "knjbGxsEPF+TgDkzqQt6bnTeLhV2jBY6kyTe9xMp9/E=",
+        "originContent": "cd deploy/compose-prod",
+        "translatedContent": "cd deploy/compose-prod"
+      },
+      {
+        "row": 3,
+        "rowsha": "pFxdvPKVWlcbGNfSybU7jLc6h2jjaF/ey8hGKiBArIw=",
+        "originContent": "cp .env.example .env",
+        "translatedContent": "cp .env.example .env"
+      },
+      {
+        "row": 4,
+        "rowsha": "iuVj7BMleMRsX4uMjpuEIo5lDBFULbltn3mMAB4tH3M=",
+        "originContent": "# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client",
+        "translatedContent": "# 编辑 .env：填入真域名 / 强密码 / SMTP 凭据 / OAuth client"
+      },
+      {
+        "row": 5,
+        "rowsha": "NI3/hNZ0dFlgRs1mHm/Kuocd7O8VVbEbf7ak8WAKAoU=",
+        "originContent": "nano .env",
+        "translatedContent": "nano .env"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "62XdxfPEVeJ94dhJ9p12UjcpC206zS96Go531A9gDKM=",
+        "originContent": "# 生成 KEK",
+        "translatedContent": "# 生成 KEK"
+      },
+      {
+        "row": 8,
+        "rowsha": "FxS6m3bP663uh78vznybBvj34S1EKJQO58iLxDrhjBc=",
+        "originContent": "openssl rand -hex 32     # → 写到 POOL_KEK_HEX=",
+        "translatedContent": "openssl rand -hex 32     # → 写到 POOL_KEK_HEX="
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "NC4W0I4ZbdbheSJVwURD97vlNqtmhhrFdNM8D1YKeCg=",
+        "originContent": "docker compose up -d --build",
+        "translatedContent": "docker compose up -d --build"
+      },
+      {
+        "row": 11,
+        "rowsha": "LCBXMu6m3Fy16Kv8vcN4CDePRc3O07ONx3wqEnwUYWc=",
+        "originContent": "docker compose logs -f gateway",
+        "translatedContent": "docker compose logs -f gateway"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n注意事项：\n\n- `NEXT_PUBLIC_APP_URL` 改了**必须** `docker compose build --no-cache web`，因为它会被 inline 进 client bundle\n- 反向代理（Nginx/Caddy）后必须开 `TRUST_PROXY=true`，否则 X-Forwarded-Proto 不生效\n- KEK 一旦改变，旧凭据池 / 旧 OAuth token **全部不可读**\n\n## 🔐 OAuth2 (Linux.do) 接入\n\n1. 去 [https://connect.linux.do](https://connect.linux.do) 申请应用\n2. 回调地址填：`https://your-domain/v1/auth/oauth/linuxdo/callback`\n3. 把拿到的 client_id / client_secret 写到 `.env`：",
+    "ContentSha": "qwLhsLhZdZjhazyrvLVErcjXlYVP8mb27PEC5t2QjJw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nসাৱধানতা:\n\n- `NEXT_PUBLIC_APP_URL` সলনি কৰিলে **অবশ্যেই** `docker compose build --no-cache web` চলাব লাগিব, কিয়নো এইটো client bundle-ত inline কৰা হয়\n- বিপৰীত প্ৰক্সি (Nginx/Caddy) ব্যৱহাৰ কৰাৰ পিছত `TRUST_PROXY=true` খুলিবই লাগিব, নহ’লে X-Forwarded-Proto কাম কৰিব নোৱাৰিব\n- KEK সলনি হলেই, পুৰণি credential pool / পুৰণি OAuth token **সমূহ একো পঢ়িব নোৱাৰিব**\n\n## 🔐 OAuth2 (Linux.do) সংযোগ\n\n1. [https://connect.linux.do](https://connect.linux.do) লৈ গৈ আবেদন কৰক\n2. Callback address-ত লিখক: `https://your-domain/v1/auth/oauth/linuxdo/callback`\n3. Client_id / client_secret যি পাব, সেইটো `.env`-ত লিখক:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "G1BAt82E8LQTjX5lA6R0uszLNKzXl7Y1WNRzyxe/YM4=",
+        "originContent": "注意事项：",
+        "translatedContent": "সাৱধানতা:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aIkzS5NW29F4wwl2Lc58G3zaKS6eSAhezWHsvTazgxc=",
+        "originContent": "- `NEXT_PUBLIC_APP_URL` 改了**必须** `docker compose build --no-cache web`，因为它会被 inline 进 client bundle",
+        "translatedContent": "- `NEXT_PUBLIC_APP_URL` সলনি কৰিলে **অবশ্যেই** `docker compose build --no-cache web` চলাব লাগিব, কিয়নো এইটো client bundle-ত inline কৰা হয়"
+      },
+      {
+        "row": 5,
+        "rowsha": "F6j46UL7hGlcwZ/NaCopu0zk/SBJAtso0XjpO6nuhcU=",
+        "originContent": "- 反向代理（Nginx/Caddy）后必须开 `TRUST_PROXY=true`，否则 X-Forwarded-Proto 不生效",
+        "translatedContent": "- বিপৰীত প্ৰক্সি (Nginx/Caddy) ব্যৱহাৰ কৰাৰ পিছত `TRUST_PROXY=true` খুলিবই লাগিব, নহ’লে X-Forwarded-Proto কাম কৰিব নোৱাৰিব"
+      },
+      {
+        "row": 6,
+        "rowsha": "Q/PCY5wW9IJPAoxwnB/VHHqgvkcHsxf58pdHt49IME0=",
+        "originContent": "- KEK 一旦改变，旧凭据池 / 旧 OAuth token **全部不可读**",
+        "translatedContent": "- KEK সলনি হলেই, পুৰণি credential pool / পুৰণি OAuth token **সমূহ একো পঢ়িব নোৱাৰিব**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "QADfqITQp8kPlBX9xmHdQaDfKYELRJSqrjwZzU+Of0U=",
+        "originContent": "## 🔐 OAuth2 (Linux.do) 接入",
+        "translatedContent": "## 🔐 OAuth2 (Linux.do) সংযোগ"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qfyMPZiSTUnLW3wc3wDDRfxc3H1Gxd6HTKEvIbSgqtU=",
+        "originContent": "1. 去 [https://connect.linux.do](https://connect.linux.do) 申请应用",
+        "translatedContent": "1. [https://connect.linux.do](https://connect.linux.do) লৈ গৈ আবেদন কৰক"
+      },
+      {
+        "row": 11,
+        "rowsha": "r/njFnWkffBi93n6HH9/8r4OPaOimfEtJlrHjcyk5kQ=",
+        "originContent": "2. 回调地址填：`https://your-domain/v1/auth/oauth/linuxdo/callback`",
+        "translatedContent": "2. Callback address-ত লিখক: `https://your-domain/v1/auth/oauth/linuxdo/callback`"
+      },
+      {
+        "row": 12,
+        "rowsha": "3nuqV8NfMVIC/WhzVUIYH8AhQiXVIwEu042giPvjaUk=",
+        "originContent": "3. 把拿到的 client_id / client_secret 写到 `.env`：",
+        "translatedContent": "3. Client_id / client_secret যি পাব, সেইটো `.env`-ত লিখক:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "   ```\n   OAUTH_LINUXDO_ENABLED=true\n   OAUTH_LINUXDO_CLIENT_ID=...\n   OAUTH_LINUXDO_CLIENT_SECRET=...\n   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1\n   OAUTH_PUBLIC_BASE=https://your-domain\n   OAUTH_FRONTEND_BASE=https://your-domain\n   ```",
+    "ContentSha": "qWKpixlYSh6yGxbsvoNdRfmPJebKMKWxm5fNOjoKmuM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n   OAUTH_LINUXDO_ENABLED=true\n   OAUTH_LINUXDO_CLIENT_ID=...\n   OAUTH_LINUXDO_CLIENT_SECRET=...\n   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1\n   OAUTH_PUBLIC_BASE=https://your-domain\n   OAUTH_FRONTEND_BASE=https://your-domain\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "4u1MShssA2Uilf4HO6ll5yFUfStJhd8sgDTib8IqZqc=",
+        "originContent": "   OAUTH_LINUXDO_ENABLED=true",
+        "translatedContent": "   OAUTH_LINUXDO_ENABLED=true"
+      },
+      {
+        "row": 3,
+        "rowsha": "vUXLVAravej9Q437f61FDqw1lacWzSIeTVW5Mz8kN5M=",
+        "originContent": "   OAUTH_LINUXDO_CLIENT_ID=...",
+        "translatedContent": "   OAUTH_LINUXDO_CLIENT_ID=..."
+      },
+      {
+        "row": 4,
+        "rowsha": "XGN6vKdvSMra/IrMnMiqeBzQJXUKA0U72cDyMCzPTF8=",
+        "originContent": "   OAUTH_LINUXDO_CLIENT_SECRET=...",
+        "translatedContent": "   OAUTH_LINUXDO_CLIENT_SECRET=..."
+      },
+      {
+        "row": 5,
+        "rowsha": "TVgYdlSjQ6wL1w706zzpY1ms5at3ifRgfMOTICPHl7s=",
+        "originContent": "   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1",
+        "translatedContent": "   OAUTH_LINUXDO_MIN_TRUST_LEVEL=1"
+      },
+      {
+        "row": 6,
+        "rowsha": "YUBsNHbGRur4hKMkgf6SX9f8pG8i3F5XMKyXKC7eQtc=",
+        "originContent": "   OAUTH_PUBLIC_BASE=https://your-domain",
+        "translatedContent": "   OAUTH_PUBLIC_BASE=https://your-domain"
+      },
+      {
+        "row": 7,
+        "rowsha": "IZamNSQPSTKq/MGm9+7ndncEhoL+mCA8QF30w2ql3GM=",
+        "originContent": "   OAUTH_FRONTEND_BASE=https://your-domain",
+        "translatedContent": "   OAUTH_FRONTEND_BASE=https://your-domain"
+      },
+      {
+        "row": 8,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "4. 重启 gateway，登录页 / 注册页会自动出现 \"Linux.do 一键登录\"\n\n## 🧪 测试 / Lint\n",
+    "ContentSha": "/ma1TS6NXFVJtGEbYhNBfYwuSR8cKS9CbVkBo4QLU3Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. gateway পুনৰ আৰম্ভ কৰক, লগইন পৃষ্ঠা / পঞ্জীয়ন পৃষ্ঠা স্বয়ংক্ৰিয়ভাৱে \"Linux.do এক-ক্লিক লগইন\" দেখুৱাব\n\n## 🧪 পৰীক্ষা / Lint\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QMSBUa9P+/7BnsadWVYtgJDUB7oF6aVQCNnZcRRVgfo=",
+        "originContent": "4. 重启 gateway，登录页 / 注册页会自动出现 \"Linux.do 一键登录\"",
+        "translatedContent": "4. gateway পুনৰ আৰম্ভ কৰক, লগইন পৃষ্ঠা / পঞ্জীয়ন পৃষ্ঠা স্বয়ংক্ৰিয়ভাৱে \"Linux.do এক-ক্লিক লগইন\" দেখুৱাব"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "XQql3ivkJE2K9rZLa5C7BCYQyUQ39vsjlsw5rPe6OHI=",
+        "originContent": "## 🧪 测试 / Lint",
+        "translatedContent": "## 🧪 পৰীক্ষা / Lint"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```bash\n# Go\ncd gateway\ngo vet ./...\ngo test -race ./...\ngolangci-lint run --timeout=5m\n\n# Web\ncd web\npnpm lint\npnpm typecheck\n```",
+    "ContentSha": "pAQ/3zLRDkPqucn+C41Mo2ih7t9mTmmKe5vad9ypVoI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Go\ncd gateway\ngo vet ./...\ngo test -race ./...\ngolangci-lint run --timeout=5m\n\n# Web\ncd web\npnpm lint\npnpm typecheck\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7quY+qVXSPj4l8JjfPfNdmTxWWcuT160KCIcFQIWu24=",
+        "originContent": "# Go",
+        "translatedContent": "# Go"
+      },
+      {
+        "row": 3,
+        "rowsha": "aRyw4eWi03dbh9T7/j2QfJqn71QEaG/perbTMOXSiMk=",
+        "originContent": "cd gateway",
+        "translatedContent": "cd gateway"
+      },
+      {
+        "row": 4,
+        "rowsha": "PUtCT2/NEfUwUl3eqaRq6v/sfIg7bAS2uvffNr9HgAs=",
+        "originContent": "go vet ./...",
+        "translatedContent": "go vet ./..."
+      },
+      {
+        "row": 5,
+        "rowsha": "Z5N/odZFaTpwfDhVIcMFw3GdPnXEBdL4wApWt+jPQ4I=",
+        "originContent": "go test -race ./...",
+        "translatedContent": "go test -race ./..."
+      },
+      {
+        "row": 6,
+        "rowsha": "OF5i5ISFhhqf/Myycs7xZchou9rMC/wOz/8LmVnFo6A=",
+        "originContent": "golangci-lint run --timeout=5m",
+        "translatedContent": "golangci-lint run --timeout=5m"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "fcVU8INE/7iJPAf8ZA0UA9D6wC9QqoH7w7Hqvayv76k=",
+        "originContent": "# Web",
+        "translatedContent": "# Web"
+      },
+      {
+        "row": 9,
+        "rowsha": "0iapI5PXSy6wKiQE7W6hlHpGVzWZMQ5C/4a8FZf8uD8=",
+        "originContent": "cd web",
+        "translatedContent": "cd web"
+      },
+      {
+        "row": 10,
+        "rowsha": "7egjotXygU223diilpUE1RO/WkQouAaqTRoEmfs4Ri8=",
+        "originContent": "pnpm lint",
+        "translatedContent": "pnpm lint"
+      },
+      {
+        "row": 11,
+        "rowsha": "G2Wtqy1p4PFI3dEcFcfc1zygh7ZswC2sJnL5STCTzG0=",
+        "originContent": "pnpm typecheck",
+        "translatedContent": "pnpm typecheck"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n## 📦 关键依赖\n\n**后端**：\n\n- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP 框架\n- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway\n- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL 驱动\n- [redis/go-redis](https://github.com/redis/go-redis) — Redis 客户端\n- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE\n- [pquerna/otp](https://github.com/pquerna/otp) — TOTP\n\n**前端**：\n\n- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)\n- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)\n- [Tailwind CSS v4](https://tailwindcss.com/)\n- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF\n\n## 📜 License\n\nMIT — 见 [LICENSE](./LICENSE)\n\n## 🤝 Contributing\n\nPR / Issue 欢迎。提 PR 前请：\n\n1. `golangci-lint run` + `gofmt -l .` 全绿\n2. `go test -race ./...` 全绿\n3. Web 改动跑 `pnpm lint && pnpm typecheck`\n4. 不要提交 `.env` / `data/.kek` 或任何包含真实密码的文件\n\n## 🔒 Security\n\n发现安全问题请直接联系 maintainer，**不要**开 public issue。\n\n---\n\nBuilt with ❤️ by [MiChongs](https://github.com/MiChongs)\n",
+    "ContentSha": "T1/+rGX6l2w+eYLCo0Vz4UrBKQat+tHc5/Yws2lgf04=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📦 মুখ্য নিৰ্ভৰশীলতা\n\n**বেকএন্ড**ঃ\n\n- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP ফ্ৰেমৱাৰ্ক\n- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway\n- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL ড্ৰাইভাৰ\n- [redis/go-redis](https://github.com/redis/go-redis) — Redis ক্লায়েন্ট\n- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE\n- [pquerna/otp](https://github.com/pquerna/otp) — TOTP\n\n**ফ্ৰণ্টএন্ড**ঃ\n\n- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)\n- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)\n- [Tailwind CSS v4](https://tailwindcss.com/)\n- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF\n\n## 📜 লাইচেঞ্চ\n\nMIT — চাওক [LICENSE](./LICENSE)\n\n## 🤝 অৱদান\n\nPR / Issue স্বাগতম। PR দিয়াৰ আগতে অনুগ্ৰহ কৰি:\n\n1. `golangci-lint run` + `gofmt -l .` সম্পূৰ্ণ সঠিক\n2. `go test -race ./...` সম্পূৰ্ণ সঠিক\n3. Web পৰিবৰ্তন চলাও `pnpm lint && pnpm typecheck`\n4. অনুগ্ৰহ কৰি `.env` / `data/.kek` বা যিকোনো বাস্তব পাছৱৰ্ড থকা ফাইল জমা নিদিব\n\n## 🔒 সুৰক্ষা\n\nসুৰক্ষাৰ সমস্যা পালে দয়া কৰি সোজাকৈ maintainer-ক যোগাযোগ কৰক, **public issue** খুলিব নালাগে।\n\n---\n\n[MiChongs](https://github.com/MiChongs) দ্বাৰা ❤️-সহ নিৰ্মিত\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lS2CS+LfHtXKvYWWFMKeh8TCYHagpsLYhgP8VB2hTak=",
+        "originContent": "## 📦 关键依赖",
+        "translatedContent": "## 📦 মুখ্য নিৰ্ভৰশীলতা"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yRlbAyaum1nQe6bx0X6ybwWCFFO+c78gCCxIF+LPHgo=",
+        "originContent": "**后端**：",
+        "translatedContent": "**বেকএন্ড**ঃ"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lVts6L5Fqk51a7DEQ5ZwyxdMXFn+9vqnjo6QPwQlFs0=",
+        "originContent": "- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP 框架",
+        "translatedContent": "- [gin-gonic/gin](https://github.com/gin-gonic/gin) — HTTP ফ্ৰেমৱাৰ্ক"
+      },
+      {
+        "row": 7,
+        "rowsha": "3ExmiehMHwz77k9t7nCM/OdYIFvZd/774F6MwQ2JCIg=",
+        "originContent": "- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway",
+        "translatedContent": "- [grpc-ecosystem](https://github.com/grpc-ecosystem) — gRPC + gateway"
+      },
+      {
+        "row": 8,
+        "rowsha": "FeG4YFzs3HItckN4xfRzj3q+Hv68wpePFL3KPpYno8Y=",
+        "originContent": "- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL 驱动",
+        "translatedContent": "- [jackc/pgx](https://github.com/jackc/pgx/v5) — PostgreSQL ড্ৰাইভাৰ"
+      },
+      {
+        "row": 9,
+        "rowsha": "HxjoM12OgF7xfY/7ITuihGFUu7GECFZLoAR/+FRs0Ss=",
+        "originContent": "- [redis/go-redis](https://github.com/redis/go-redis) — Redis 客户端",
+        "translatedContent": "- [redis/go-redis](https://github.com/redis/go-redis) — Redis ক্লায়েন্ট"
+      },
+      {
+        "row": 10,
+        "rowsha": "8rmp/tGSBfPqETNu3lncCvoqy6SWUTqEIH0X8YO0fXM=",
+        "originContent": "- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE",
+        "translatedContent": "- [golang.org/x/oauth2](https://pkg.go.dev/golang.org/x/oauth2) — OAuth2 / PKCE"
+      },
+      {
+        "row": 11,
+        "rowsha": "Jq+mPKcj+Pq6ewZEN6L4dV9GWpj5H2sg7fGPLJByHlg=",
+        "originContent": "- [pquerna/otp](https://github.com/pquerna/otp) — TOTP",
+        "translatedContent": "- [pquerna/otp](https://github.com/pquerna/otp) — TOTP"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "EiszYfGt89dEc2HM9Bh+91jFzuTnQwL2uOp1GNtyIzI=",
+        "originContent": "**前端**：",
+        "translatedContent": "**ফ্ৰণ্টএন্ড**ঃ"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "FpgYvJGor0j99DEdCiod905V1ZZ88tDrCAnGZuZ4p08=",
+        "originContent": "- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)",
+        "translatedContent": "- [Next.js 16](https://nextjs.org/) (App Router + Turbopack)"
+      },
+      {
+        "row": 16,
+        "rowsha": "WCjNB35QWYER4Esi7SbxZWBhF+8JclgtZufH16JtWjk=",
+        "originContent": "- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)",
+        "translatedContent": "- [shadcn/ui](https://ui.shadcn.com/) + [Radix](https://www.radix-ui.com/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "n0ENyqDivsWYUAtAS465oKGOGHrbPU22+RUPmKPR8+A=",
+        "originContent": "- [Tailwind CSS v4](https://tailwindcss.com/)",
+        "translatedContent": "- [Tailwind CSS v4](https://tailwindcss.com/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "zFWULeLSmTlL9HgiSJQ2CqwbBLY2ehgsmY/kv8HfNuc=",
+        "originContent": "- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF",
+        "translatedContent": "- [next-auth-csrf](https://github.com/edge-runtime/) edge-safe CSRF"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Xg7z9THMMv8mm3IS7LJHSaXGCrZhD8D4NGbb/+/ra/Y=",
+        "originContent": "## 📜 License",
+        "translatedContent": "## 📜 লাইচেঞ্চ"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "jucpFdFGdGNarkR6jUC0vpi0AgPjXChS9il5NJ06N0Y=",
+        "originContent": "MIT — 见 [LICENSE](./LICENSE)",
+        "translatedContent": "MIT — চাওক [LICENSE](./LICENSE)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 অৱদান"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "QyuWB5P2UukDzBKyPoODKSisUq7xh0oc4NSU9qAPjas=",
+        "originContent": "PR / Issue 欢迎。提 PR 前请：",
+        "translatedContent": "PR / Issue স্বাগতম। PR দিয়াৰ আগতে অনুগ্ৰহ কৰি:"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "rjYeuTF+N59GiflbkJ6ZDiuhOPFfSqQATp4ZJiwXJxg=",
+        "originContent": "1. `golangci-lint run` + `gofmt -l .` 全绿",
+        "translatedContent": "1. `golangci-lint run` + `gofmt -l .` সম্পূৰ্ণ সঠিক"
+      },
+      {
+        "row": 29,
+        "rowsha": "P12S59ydftv8/3bjEWKRobWi+gw6QxUfp6K+vg8g0Es=",
+        "originContent": "2. `go test -race ./...` 全绿",
+        "translatedContent": "2. `go test -race ./...` সম্পূৰ্ণ সঠিক"
+      },
+      {
+        "row": 30,
+        "rowsha": "IkiorJJIp+BmYuM03K4rVDSFgkYDgUbmpygxXcgjEtA=",
+        "originContent": "3. Web 改动跑 `pnpm lint && pnpm typecheck`",
+        "translatedContent": "3. Web পৰিবৰ্তন চলাও `pnpm lint && pnpm typecheck`"
+      },
+      {
+        "row": 31,
+        "rowsha": "hYXx2FRJPJr0/TNCMRM14GqLquh9qZsZZeYn26oQhA4=",
+        "originContent": "4. 不要提交 `.env` / `data/.kek` 或任何包含真实密码的文件",
+        "translatedContent": "4. অনুগ্ৰহ কৰি `.env` / `data/.kek` বা যিকোনো বাস্তব পাছৱৰ্ড থকা ফাইল জমা নিদিব"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "hwum4xDLO9VI0SBcJa2jW8MIa7DParIfHVwyfNTmM5M=",
+        "originContent": "## 🔒 Security",
+        "translatedContent": "## 🔒 সুৰক্ষা"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "EtIRcN7R8WN3JBh+Y3EqFf5wCy2XLCOYqoBbkoUzq9Y=",
+        "originContent": "发现安全问题请直接联系 maintainer，**不要**开 public issue。",
+        "translatedContent": "সুৰক্ষাৰ সমস্যা পালে দয়া কৰি সোজাকৈ maintainer-ক যোগাযোগ কৰক, **public issue** খুলিব নালাগে।"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "mgu5AAk/dGpm4YMSmowDzeOWXCbeaLM/dfhTesL7guE=",
+        "originContent": "Built with ❤️ by [MiChongs](https://github.com/MiChongs)",
+        "translatedContent": "[MiChongs](https://github.com/MiChongs) দ্বাৰা ❤️-সহ নিৰ্মিত"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
