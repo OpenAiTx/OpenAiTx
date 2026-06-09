@@ -1,0 +1,280 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Hornet Nest Alarm Panel for ESPHome\n\nThis repository houses the officially supported **ESPHome** firmware configuration files for the **Hornet Nest Alarm Panel**, developed by **Technology Automation Consulting LLC**. The Hornet Nest Alarm Panel is a scalable and customizable IoT solution designed to integrate traditional wired alarm systems into your smart home using **Home Assistant**. With 42 optoisolated zones, 3 relay outputs, and flexible PoE or 12V power options, it’s built for flexibility and reliability.\n\n<div style=\"display: flex; justify-content: space-between;\">\n  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/3D_AlarmPanel_2024-10-06.png\" alt=\"3D Model\" width=\"400\"/>\n  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/hornet-nest-operational.jpg\" alt=\"Installed\" width=\"400\"/>\n</div>\n\n## Quick Start\n\nGet started quickly by adopting and flashing your Hornet Nest Alarm Panel with the latest ESPHome firmware:\n\n1. Plug a PoE powered ethernet cable into the Hornet Nest Alarm Panel.\n2. Open the **ESPHome Dashboard** and locate the device \"hornet-nest-XXXXXX\" (where XXXXXX is a unique hexadecimal identifier).\n3. Click on the **Adopt** option on the device.\n4. The **Adopt Device** dialog will open.  You can rename your device if desired and then click the **Adopt** option again.\n5. The **Configuration Created** dialog will open and indicate that a new configuration needs to be installed on the device, click the **Install** button.\n6. ESPHome will begin to compile the new firmware. When the line **\"INFO Sucessfully uploaded program.\"** is diplayed, click **STOP** to close the window.\n4. Discover the Hornet Nest Alarm Panel in **Home Assistant** > **Settings** > **Devices & Services**.\n5. Click **Configure** on the new device to add it into Home Assistant.\n\n## Changes and Release Notes\n\nSee **Releases** for release notes and downloadable pre-built firmware images.\n\n## Made for ESPHome\n\nThe **Hornet Nest Alarm Panel** uses the **wESP32 PoE** microcontroller and is fully compatible with **ESPHome** firmware. It is an open-source product, designed for easy user customization, making it ideal for Home Assistant users who need a scalable and flexible alarm solution. The included **ESPHome YAML configuration files** are fully documented, allowing advanced users to easily customize, build, and update their device with a few simple modifications.\n\n## Works with Home Assistant\n\nThese **ESPHome** firmware configurations allow for a simple, plug-and-play setup within **Home Assistant**. The integration is local, fast, and fully customizable, giving users complete control over their home security system.\n<img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/esphome-integrated.png\" alt=\"ESPHome Device\" width=\"600\">\n\n## In This Repository\n\nThis repository contains **complete firmware configuration YAML templates** for the **Hornet Nest Alarm Panel** at the top level. These templates are ready to be imported using **ESPHome Dashboard**, where they can be customized and deployed.\n\n## User Manual",
+    "ContentSha": "C7kC8kVVOr5yQQ8hytDKtto+fNK0nxcpyd/dZtgsEtg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Panneau d'Alarme Hornet Nest pour ESPHome\n\nCe dépôt contient les fichiers de configuration du firmware **ESPHome** officiellement pris en charge pour le **Panneau d'Alarme Hornet Nest**, développé par **Technology Automation Consulting LLC**. Le Panneau d'Alarme Hornet Nest est une solution IoT évolutive et personnalisable conçue pour intégrer les systèmes d'alarme filaires traditionnels dans votre maison intelligente via **Home Assistant**. Avec 42 zones optocouplées, 3 sorties relais et des options d’alimentation flexibles PoE ou 12V, il est conçu pour la flexibilité et la fiabilité.\n\n<div style=\"display: flex; justify-content: space-between;\">\n  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/3D_AlarmPanel_2024-10-06.png\" alt=\"Modèle 3D\" width=\"400\"/>\n  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/hornet-nest-operational.jpg\" alt=\"Installé\" width=\"400\"/>\n</div>\n\n## Démarrage Rapide\n\nCommencez rapidement en adoptant et en flashant votre Panneau d'Alarme Hornet Nest avec le dernier firmware ESPHome :\n\n1. Branchez un câble Ethernet alimenté en PoE dans le Panneau d'Alarme Hornet Nest.\n2. Ouvrez le **Tableau de bord ESPHome** et localisez l’appareil \"hornet-nest-XXXXXX\" (où XXXXXX est un identifiant hexadécimal unique).\n3. Cliquez sur l’option **Adopter** sur l’appareil.\n4. La boîte de dialogue **Adopter l’appareil** s’ouvre. Vous pouvez renommer votre appareil si vous le souhaitez puis cliquez de nouveau sur l’option **Adopter**.\n5. La boîte de dialogue **Configuration créée** s’ouvre et indique qu’une nouvelle configuration doit être installée sur l’appareil, cliquez sur le bouton **Installer**.\n6. ESPHome commencera à compiler le nouveau firmware. Lorsque la ligne **\"INFO Sucessfully uploaded program.\"** s’affiche, cliquez sur **STOP** pour fermer la fenêtre.\n4. Découvrez le Panneau d'Alarme Hornet Nest dans **Home Assistant** > **Paramètres** > **Appareils & Services**.\n5. Cliquez sur **Configurer** sur le nouvel appareil pour l’ajouter dans Home Assistant.\n\n## Modifications et Notes de Version\n\nConsultez les **Releases** pour les notes de version et les images firmware précompilées téléchargeables.\n\n## Conçu pour ESPHome\n\nLe **Panneau d'Alarme Hornet Nest** utilise le microcontrôleur **wESP32 PoE** et est entièrement compatible avec le firmware **ESPHome**. C’est un produit open-source, conçu pour une personnalisation facile par l’utilisateur, idéal pour les utilisateurs de Home Assistant qui recherchent une solution d’alarme évolutive et flexible. Les **fichiers de configuration YAML ESPHome** inclus sont entièrement documentés, permettant aux utilisateurs avancés de personnaliser, construire et mettre à jour leur appareil avec quelques modifications simples.\n\n## Fonctionne avec Home Assistant\n\nCes configurations firmware **ESPHome** permettent une installation simple et plug-and-play dans **Home Assistant**. L’intégration est locale, rapide et entièrement personnalisable, offrant aux utilisateurs un contrôle complet sur leur système de sécurité domestique.\n<img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/esphome-integrated.png\" alt=\"Appareil ESPHome\" width=\"600\">\n\n## Dans Ce Dépôt\n\nCe dépôt contient des **modèles complets de configuration firmware YAML** pour le **Panneau d'Alarme Hornet Nest** au niveau supérieur. Ces modèles sont prêts à être importés via le **Tableau de bord ESPHome**, où ils peuvent être personnalisés et déployés.\n\n## Manuel Utilisateur",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "v9OLIaFyP8eNUEwxvadOApZd1TuBUS6QQgjzvkWWQqs=",
+        "originContent": "# Hornet Nest Alarm Panel for ESPHome",
+        "translatedContent": "# Panneau d'Alarme Hornet Nest pour ESPHome"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "SrrCwVMvZExbBEJQFsZJzEwxX5v5mp49refiwG1O/Jw=",
+        "originContent": "This repository houses the officially supported **ESPHome** firmware configuration files for the **Hornet Nest Alarm Panel**, developed by **Technology Automation Consulting LLC**. The Hornet Nest Alarm Panel is a scalable and customizable IoT solution designed to integrate traditional wired alarm systems into your smart home using **Home Assistant**. With 42 optoisolated zones, 3 relay outputs, and flexible PoE or 12V power options, it’s built for flexibility and reliability.",
+        "translatedContent": "Ce dépôt contient les fichiers de configuration du firmware **ESPHome** officiellement pris en charge pour le **Panneau d'Alarme Hornet Nest**, développé par **Technology Automation Consulting LLC**. Le Panneau d'Alarme Hornet Nest est une solution IoT évolutive et personnalisable conçue pour intégrer les systèmes d'alarme filaires traditionnels dans votre maison intelligente via **Home Assistant**. Avec 42 zones optocouplées, 3 sorties relais et des options d’alimentation flexibles PoE ou 12V, il est conçu pour la flexibilité et la fiabilité."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iHz/uaHWP9xSr0s6UdCPFV802+dG2QP9BFnP5UuZ5Sw=",
+        "originContent": "<div style=\"display: flex; justify-content: space-between;\">",
+        "translatedContent": "<div style=\"display: flex; justify-content: space-between;\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "14ZJRqZytttG8VdgDE3sQ+b4mdaMAZ5N95EnYDrAhH0=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/3D_AlarmPanel_2024-10-06.png\" alt=\"3D Model\" width=\"400\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/3D_AlarmPanel_2024-10-06.png\" alt=\"Modèle 3D\" width=\"400\"/>"
+      },
+      {
+        "row": 7,
+        "rowsha": "AhZIqcHG14BnOa/u/rZhKLypfCXbKY6lzwh78NoUbbg=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/hornet-nest-operational.jpg\" alt=\"Installed\" width=\"400\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/hornet-nest-operational.jpg\" alt=\"Installé\" width=\"400\"/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Démarrage Rapide"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "MpZs1Y4tDEj9bdTdg88xfS60qgnhnJstA8UiqdfcMR0=",
+        "originContent": "Get started quickly by adopting and flashing your Hornet Nest Alarm Panel with the latest ESPHome firmware:",
+        "translatedContent": "Commencez rapidement en adoptant et en flashant votre Panneau d'Alarme Hornet Nest avec le dernier firmware ESPHome :"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ByELAwv5etFbAa9ARanqSEXxtgxWlXBZppANfKXMtdg=",
+        "originContent": "1. Plug a PoE powered ethernet cable into the Hornet Nest Alarm Panel.",
+        "translatedContent": "1. Branchez un câble Ethernet alimenté en PoE dans le Panneau d'Alarme Hornet Nest."
+      },
+      {
+        "row": 15,
+        "rowsha": "9HIBTgQVxaPpWmnz0rYYpbJbYUFfc2kDjSmcClcnEMI=",
+        "originContent": "2. Open the **ESPHome Dashboard** and locate the device \"hornet-nest-XXXXXX\" (where XXXXXX is a unique hexadecimal identifier).",
+        "translatedContent": "2. Ouvrez le **Tableau de bord ESPHome** et localisez l’appareil \"hornet-nest-XXXXXX\" (où XXXXXX est un identifiant hexadécimal unique)."
+      },
+      {
+        "row": 16,
+        "rowsha": "FzlGDQ0UgQf2zT9EWWilN3ar3Dgvl2HJsK2QxtspB28=",
+        "originContent": "3. Click on the **Adopt** option on the device.",
+        "translatedContent": "3. Cliquez sur l’option **Adopter** sur l’appareil."
+      },
+      {
+        "row": 17,
+        "rowsha": "YQzSl/ovYi7UsYW12yZqObBFNczARiM6IN1ML77LUgY=",
+        "originContent": "4. The **Adopt Device** dialog will open.  You can rename your device if desired and then click the **Adopt** option again.",
+        "translatedContent": "4. La boîte de dialogue **Adopter l’appareil** s’ouvre. Vous pouvez renommer votre appareil si vous le souhaitez puis cliquez de nouveau sur l’option **Adopter**."
+      },
+      {
+        "row": 18,
+        "rowsha": "iqJrc7Pg0OZ6ijyfVATUSQM2R2btVFi1sbdsgvJwIhU=",
+        "originContent": "5. The **Configuration Created** dialog will open and indicate that a new configuration needs to be installed on the device, click the **Install** button.",
+        "translatedContent": "5. La boîte de dialogue **Configuration créée** s’ouvre et indique qu’une nouvelle configuration doit être installée sur l’appareil, cliquez sur le bouton **Installer**."
+      },
+      {
+        "row": 19,
+        "rowsha": "Il0tGtw2QYzVFJsZ10jgEaXizXHFNF1jSw4prSQ/rUo=",
+        "originContent": "6. ESPHome will begin to compile the new firmware. When the line **\"INFO Sucessfully uploaded program.\"** is diplayed, click **STOP** to close the window.",
+        "translatedContent": "6. ESPHome commencera à compiler le nouveau firmware. Lorsque la ligne **\"INFO Sucessfully uploaded program.\"** s’affiche, cliquez sur **STOP** pour fermer la fenêtre."
+      },
+      {
+        "row": 20,
+        "rowsha": "2fF9TiGYNo7ars72F5irNTotYiYJh7EopO2Iucu7RnQ=",
+        "originContent": "4. Discover the Hornet Nest Alarm Panel in **Home Assistant** > **Settings** > **Devices & Services**.",
+        "translatedContent": "4. Découvrez le Panneau d'Alarme Hornet Nest dans **Home Assistant** > **Paramètres** > **Appareils & Services**."
+      },
+      {
+        "row": 21,
+        "rowsha": "+KC+02Q1frvWeHlFnDzSlxDUPx0ruG5aJGkAvcyyl0s=",
+        "originContent": "5. Click **Configure** on the new device to add it into Home Assistant.",
+        "translatedContent": "5. Cliquez sur **Configurer** sur le nouvel appareil pour l’ajouter dans Home Assistant."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "NwYQeHiR/zaQTGsvBTRMMIQlVkrq8O3OwHfpB52fB3c=",
+        "originContent": "## Changes and Release Notes",
+        "translatedContent": "## Modifications et Notes de Version"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "rygzpjhK/LjoB7bo9DQUB5xhjy8J0vNcc6lVnNUyXLI=",
+        "originContent": "See **Releases** for release notes and downloadable pre-built firmware images.",
+        "translatedContent": "Consultez les **Releases** pour les notes de version et les images firmware précompilées téléchargeables."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "4Aj8u/kI/OtAoOolG8edl4CTxhP5FnrX+uvxoMAWehU=",
+        "originContent": "## Made for ESPHome",
+        "translatedContent": "## Conçu pour ESPHome"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "paS4TDoxvQnEbkCUn6/ceYoYtpnuf6Wd+Chw2C29Kos=",
+        "originContent": "The **Hornet Nest Alarm Panel** uses the **wESP32 PoE** microcontroller and is fully compatible with **ESPHome** firmware. It is an open-source product, designed for easy user customization, making it ideal for Home Assistant users who need a scalable and flexible alarm solution. The included **ESPHome YAML configuration files** are fully documented, allowing advanced users to easily customize, build, and update their device with a few simple modifications.",
+        "translatedContent": "Le **Panneau d'Alarme Hornet Nest** utilise le microcontrôleur **wESP32 PoE** et est entièrement compatible avec le firmware **ESPHome**. C’est un produit open-source, conçu pour une personnalisation facile par l’utilisateur, idéal pour les utilisateurs de Home Assistant qui recherchent une solution d’alarme évolutive et flexible. Les **fichiers de configuration YAML ESPHome** inclus sont entièrement documentés, permettant aux utilisateurs avancés de personnaliser, construire et mettre à jour leur appareil avec quelques modifications simples."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "XJz+np5b8dD3BM4PEasZ5S6OZY40+JKp4ZRLFX0n3qc=",
+        "originContent": "## Works with Home Assistant",
+        "translatedContent": "## Fonctionne avec Home Assistant"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Ua6BVTss5A5hBvZ+/YSuxRXUUiYqjNbwAowmT7DS5+s=",
+        "originContent": "These **ESPHome** firmware configurations allow for a simple, plug-and-play setup within **Home Assistant**. The integration is local, fast, and fully customizable, giving users complete control over their home security system.",
+        "translatedContent": "Ces configurations firmware **ESPHome** permettent une installation simple et plug-and-play dans **Home Assistant**. L’intégration est locale, rapide et entièrement personnalisable, offrant aux utilisateurs un contrôle complet sur leur système de sécurité domestique."
+      },
+      {
+        "row": 34,
+        "rowsha": "VNsqrfM4PwAbwiSyZhAJ41SMttm3/zY2UWWLTXxNV6I=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/esphome-integrated.png\" alt=\"ESPHome Device\" width=\"600\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/esphome-integrated.png\" alt=\"Appareil ESPHome\" width=\"600\">"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "MIFr6/VE/qsGf2jTNMSiMShibCH7SVud0wmrTgyx9qA=",
+        "originContent": "## In This Repository",
+        "translatedContent": "## Dans Ce Dépôt"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "gbBSZvmnTZydTzqUn7asgAFBGbuobhoxIzUow+YjdOg=",
+        "originContent": "This repository contains **complete firmware configuration YAML templates** for the **Hornet Nest Alarm Panel** at the top level. These templates are ready to be imported using **ESPHome Dashboard**, where they can be customized and deployed.",
+        "translatedContent": "Ce dépôt contient des **modèles complets de configuration firmware YAML** pour le **Panneau d'Alarme Hornet Nest** au niveau supérieur. Ces modèles sont prêts à être importés via le **Tableau de bord ESPHome**, où ils peuvent être personnalisés et déployés."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "YMcEGjHtAwmyyOaFZVKDP0EhxI9EmdRxsZ305u7e+Bk=",
+        "originContent": "## User Manual",
+        "translatedContent": "## Manuel Utilisateur"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nFor detailed instructions, please refer to the official user manual [here.](https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/hnap-user-manual.pdf)",
+    "ContentSha": "71OO637RrR+s1rOhWQav498/UbQ1D01SyV7q6LIDwAg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Pour des instructions détaillées, veuillez vous référer au manuel utilisateur officiel [ici.](https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/hnap-user-manual.pdf)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Pour des instructions détaillées, veuillez vous référer au manuel utilisateur officiel [ici.](https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/hnap-user-manual.pdf)"
+      },
+      {
+        "row": 2,
+        "rowsha": "0XE70E4mV9ZJHJApAImNEGk0QXxUfnyi2JGdz3dzfxQ=",
+        "originContent": "For detailed instructions, please refer to the official user manual [here.](https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/hnap-user-manual.pdf)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

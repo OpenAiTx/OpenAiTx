@@ -1,0 +1,683 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Tailwind to Inline styles converter\n\nConverts Tailwind CSS classes to inline styles for email-ready HTML templates.\n\n### [Try it online](https://tailwind-to-inline.vercel.app)\n\n### Installation\n`npm install tailwind-to-inline`\n\n\n### Usage\n\n#### From a file path\n",
+    "ContentSha": "7V+0hIxzJMNMyeo0tFmhhgUutt2JY9bqGOCmdXvhDGM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Convertidor de Tailwind a estilos en línea\n\nConvierte clases de Tailwind CSS a estilos en línea para plantillas HTML listas para email.\n\n### [Pruébalo en línea](https://tailwind-to-inline.vercel.app)\n\n### Instalación\n`npm install tailwind-to-inline`\n\n\n### Uso\n\n#### Desde una ruta de archivo\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/Cy7scjl3E8QyYz11bttBLt3hfgy4DBEFsTxMQw7UkE=",
+        "originContent": "# Tailwind to Inline styles converter",
+        "translatedContent": "# Convertidor de Tailwind a estilos en línea"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "j3RJo6PhY9uzwnjIzBgZZ3kL3xKgAPyaxByueyIOsbE=",
+        "originContent": "Converts Tailwind CSS classes to inline styles for email-ready HTML templates.",
+        "translatedContent": "Convierte clases de Tailwind CSS a estilos en línea para plantillas HTML listas para email."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "LiwbfHWkec9ldDK74xulbxJDvbdSvbJSnRULanmI+l8=",
+        "originContent": "### [Try it online](https://tailwind-to-inline.vercel.app)",
+        "translatedContent": "### [Pruébalo en línea](https://tailwind-to-inline.vercel.app)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### Instalación"
+      },
+      {
+        "row": 8,
+        "rowsha": "/0VJHfvimGKAaxcbn8IVxvZXuQL0LC4qsgCiJlZ7lHQ=",
+        "originContent": "`npm install tailwind-to-inline`",
+        "translatedContent": "`npm install tailwind-to-inline`"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": "### Uso"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nD0P8vbRy8pmqjGt6/upA3lc6Kr2YI1byST0F8Bisck=",
+        "originContent": "#### From a file path",
+        "translatedContent": "#### Desde una ruta de archivo"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```js\nimport { makeStylesInline } from 'tailwind-to-inline';\n\nconst htmlTemplate = await makeStylesInline('templates/welcome-email.html', {\n  name: 'John',\n  cta_text: 'Complete Profile'\n});\n```",
+    "ContentSha": "sW/PbtGn0c0CjzwhSigOlQgwkU8lazY9JEXRCHYJkos=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport { makeStylesInline } from 'tailwind-to-inline';\n\nconst htmlTemplate = await makeStylesInline('templates/welcome-email.html', {\n  name: 'John',\n  cta_text: 'Complete Profile'\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "mOsGAUu5ybZNZNeSstGIu+EKnlPviOkAj8f/bfrgEQ0=",
+        "originContent": "import { makeStylesInline } from 'tailwind-to-inline';",
+        "translatedContent": "import { makeStylesInline } from 'tailwind-to-inline';"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CGx43U9ttTDbNRhdHo7dowYTMKY3lGNiSmQ8kVHPuWE=",
+        "originContent": "const htmlTemplate = await makeStylesInline('templates/welcome-email.html', {",
+        "translatedContent": "const htmlTemplate = await makeStylesInline('templates/welcome-email.html', {"
+      },
+      {
+        "row": 5,
+        "rowsha": "QSUUPtNqfcJdI0CwhzHV7S/BLVy0CcFw2zhHLG9zJeQ=",
+        "originContent": "  name: 'John',",
+        "translatedContent": "  name: 'John',"
+      },
+      {
+        "row": 6,
+        "rowsha": "bHDOEpo7IMzwjd9tAxoalhwt+GRgD+ebVMMxlFn/e+o=",
+        "originContent": "  cta_text: 'Complete Profile'",
+        "translatedContent": "  cta_text: 'Complete Profile'"
+      },
+      {
+        "row": 7,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**Parameters:**\n\n- `templatePath` — Path to the template file.\n- `placeholderValues` *(optional)* — A key-value pair object to replace dynamic content in the template.\n\n#### From a raw HTML string\n",
+    "ContentSha": "olNADGJwfkcq24Y9HOblPWI5T1Y4MFReTVMONUZtU6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Parámetros:**\n\n- `templatePath` — Ruta al archivo de plantilla.\n- `placeholderValues` *(opcional)* — Un objeto de pares clave-valor para reemplazar contenido dinámico en la plantilla.\n\n#### Desde una cadena HTML sin procesar\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "TP+/wPP2TqZ4KfVIMKmfbB9B9h4l26dtMha6vZMjnSg=",
+        "originContent": "**Parameters:**",
+        "translatedContent": "**Parámetros:**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AxmDZ178kcBjb8raEOptmJ33a5Gr6PSJpKStdXT7vTs=",
+        "originContent": "- `templatePath` — Path to the template file.",
+        "translatedContent": "- `templatePath` — Ruta al archivo de plantilla."
+      },
+      {
+        "row": 5,
+        "rowsha": "E/OV4N2F5FwcKvDr+VuflD0wYqQQ+Hn03jl0d8KbO70=",
+        "originContent": "- `placeholderValues` *(optional)* — A key-value pair object to replace dynamic content in the template.",
+        "translatedContent": "- `placeholderValues` *(opcional)* — Un objeto de pares clave-valor para reemplazar contenido dinámico en la plantilla."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "5acdUUzOUzzEPgo6osMl4g1jKlAOjQdHx96sOzmP0ds=",
+        "originContent": "#### From a raw HTML string",
+        "translatedContent": "#### Desde una cadena HTML sin procesar"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```js\nimport { makeStylesInlineFromString } from 'tailwind-to-inline';\n\nconst html = `<div class=\"pt-10 text-yellow-300\">Hello, {{name}}</div>`;\nconst htmlTemplate = await makeStylesInlineFromString(html, {\n  name: 'John',\n});\n```",
+    "ContentSha": "qqIDrvq1Pej4aYffCeUjHHAuJQ92sv/FnUnqkY94Xwk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport { makeStylesInlineFromString } from 'tailwind-to-inline';\n\nconst html = `<div class=\"pt-10 text-yellow-300\">Hello, {{name}}</div>`;\nconst htmlTemplate = await makeStylesInlineFromString(html, {\n  name: 'John',\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "4bV7Y4cviUbkQ4JwmP7SFDwEuoPHa8zJ3Yym9C0iSXU=",
+        "originContent": "import { makeStylesInlineFromString } from 'tailwind-to-inline';",
+        "translatedContent": "import { makeStylesInlineFromString } from 'tailwind-to-inline';"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZZB2KOvQCkRrFhB+u80MHxGhbOv/uXeWXxwC2UtsVZc=",
+        "originContent": "const html = `<div class=\"pt-10 text-yellow-300\">Hello, {{name}}</div>`;",
+        "translatedContent": "const html = `<div class=\"pt-10 text-yellow-300\">Hello, {{name}}</div>`;"
+      },
+      {
+        "row": 5,
+        "rowsha": "AhB5u1gwfVgG2zuksMKL30Zl/krBMemdzMMOJzv7ok0=",
+        "originContent": "const htmlTemplate = await makeStylesInlineFromString(html, {",
+        "translatedContent": "const htmlTemplate = await makeStylesInlineFromString(html, {"
+      },
+      {
+        "row": 6,
+        "rowsha": "QSUUPtNqfcJdI0CwhzHV7S/BLVy0CcFw2zhHLG9zJeQ=",
+        "originContent": "  name: 'John',",
+        "translatedContent": "  name: 'John',"
+      },
+      {
+        "row": 7,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n**Parameters:**\n\n- `templateString` — A raw HTML string containing Tailwind CSS classes.\n- `data` *(optional)* — A key-value pair object to replace dynamic content in the template.\n\n\n### Example\n#### Original template `welcome-email.html`:\n",
+    "ContentSha": "1A2iZqhp7v7CaTnfjkU8DB7taeMFG/hSoItANRfftt0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Parámetros:**\n\n- `templateString` — Una cadena HTML sin procesar que contiene clases de Tailwind CSS.\n- `data` *(opcional)* — Un objeto de pares clave-valor para reemplazar contenido dinámico en la plantilla.\n\n\n### Ejemplo\n#### Plantilla original `welcome-email.html`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "TP+/wPP2TqZ4KfVIMKmfbB9B9h4l26dtMha6vZMjnSg=",
+        "originContent": "**Parameters:**",
+        "translatedContent": "**Parámetros:**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "l2klUQUOuHjuVxWuJ//KuO95f7M0iFf4/72uOtTP1Ww=",
+        "originContent": "- `templateString` — A raw HTML string containing Tailwind CSS classes.",
+        "translatedContent": "- `templateString` — Una cadena HTML sin procesar que contiene clases de Tailwind CSS."
+      },
+      {
+        "row": 5,
+        "rowsha": "/X36M4o/SwtM7rUv4witjICLgmOLHIxSz/B4YVVqGBI=",
+        "originContent": "- `data` *(optional)* — A key-value pair object to replace dynamic content in the template.",
+        "translatedContent": "- `data` *(opcional)* — Un objeto de pares clave-valor para reemplazar contenido dinámico en la plantilla."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ubVEm05cwr9zkNMJhipJo9vwQDDsclfTaTISW9TgglY=",
+        "originContent": "### Example",
+        "translatedContent": "### Ejemplo"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZYqXNp0mCOvhaR/SMDGxaiMXOK2NYbNo7oUBoyDg6gY=",
+        "originContent": "#### Original template `welcome-email.html`:",
+        "translatedContent": "#### Plantilla original `welcome-email.html`:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```html\n<html>\n  <body class=\"bg-gray-800\">\n    <div class=\"pt-10 mb-4 pl-4 max-w-[512px] relative z-20\">\n      <span class=\"mr-5 text-yellow-300\">Welcome, {{name}}</span>\n    </div>\n    <div>\n      <a href=\"https://example.com/complete-profile\" class=\"bg-blue-500\">\n        {{cta_text}}\n      </a>\n    </div>\n  </body>\n</html>\n```",
+    "ContentSha": "BZKwBupRfZcG30wRSFom6lqtyICJ7ckDf4iMj0icnpQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<html>\n  <body class=\"bg-gray-800\">\n    <div class=\"pt-10 mb-4 pl-4 max-w-[512px] relative z-20\">\n      <span class=\"mr-5 text-yellow-300\">Welcome, {{name}}</span>\n    </div>\n    <div>\n      <a href=\"https://example.com/complete-profile\" class=\"bg-blue-500\">\n        {{cta_text}}\n      </a>\n    </div>\n  </body>\n</html>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+        "originContent": "<html>",
+        "translatedContent": "<html>"
+      },
+      {
+        "row": 3,
+        "rowsha": "PMQ0nUquKUGLN1FdPEFwR3fz1XAFzbXFWmL/jWplxyY=",
+        "originContent": "  <body class=\"bg-gray-800\">",
+        "translatedContent": "  <body class=\"bg-gray-800\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "BKUTbgkQ22v4hgBOE+9dcSdKmnXT2OlhB+i+XR573WI=",
+        "originContent": "    <div class=\"pt-10 mb-4 pl-4 max-w-[512px] relative z-20\">",
+        "translatedContent": "    <div class=\"pt-10 mb-4 pl-4 max-w-[512px] relative z-20\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "H7IzKhLZaWH8f/ylHTEY4OF4z2UmlT5hfsWAEbKUr18=",
+        "originContent": "      <span class=\"mr-5 text-yellow-300\">Welcome, {{name}}</span>",
+        "translatedContent": "      <span class=\"mr-5 text-yellow-300\">Welcome, {{name}}</span>"
+      },
+      {
+        "row": 6,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 8,
+        "rowsha": "BJnESqfrpDQMh/gZQQ2wXu2MdMlqh9Fj7tgdrWNvyRA=",
+        "originContent": "      <a href=\"https://example.com/complete-profile\" class=\"bg-blue-500\">",
+        "translatedContent": "      <a href=\"https://example.com/complete-profile\" class=\"bg-blue-500\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "TSAdkas9gAy+X1owT+LKg0vRKrAs1wnzdyc3MU0UuWE=",
+        "originContent": "        {{cta_text}}",
+        "translatedContent": "        {{cta_text}}"
+      },
+      {
+        "row": 10,
+        "rowsha": "0B4P+p6XHkrXSUQLSKiSepEg3R4dE5vt8a9bfRzbVhA=",
+        "originContent": "      </a>",
+        "translatedContent": "      </a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "uU+hYtMR94RAvkk+BNoMJ6ERkm4EIzoZdIu9Wl1w6bk=",
+        "originContent": "  </body>",
+        "translatedContent": "  </body>"
+      },
+      {
+        "row": 13,
+        "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+        "originContent": "</html>",
+        "translatedContent": "</html>"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n#### Converted result:\n",
+    "ContentSha": "xSvT7Gfs21jVUc8N+8sVhksntHN5MvVetbk8Pd5lU3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Resultado convertido:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Resultado convertido:"
+      },
+      {
+        "row": 2,
+        "rowsha": "4wsrSFPeuIQhc204tQaUSvUoefUKY27zXXqFSbyFKl8=",
+        "originContent": "#### Converted result:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```html\n<html>\n  <body style=\"background-color: #1f2937;\">\n    <div style=\"position: relative; z-index: 20; max-width: 512px; margin-bottom: 1rem; padding-left: 1rem; padding-top: 2.5rem;\">\n      <span style=\"margin-right: 1.25rem; color: #fde047;\">Welcome, John</span>\n    </div>\n    <div>\n      <a href=\"https://example.com/complete-profile\" style=\"background-color: #3b82f6;\">\n        Complete Profile\n      </a>\n    </div>\n  </body>\n</html>\n```",
+    "ContentSha": "UyMSHTLKxEcdTst9jBkBU2cqxS3/6xdG8nTK3sgpOeU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<html>\n  <body style=\"background-color: #1f2937;\">\n    <div style=\"position: relative; z-index: 20; max-width: 512px; margin-bottom: 1rem; padding-left: 1rem; padding-top: 2.5rem;\">\n      <span style=\"margin-right: 1.25rem; color: #fde047;\">Welcome, John</span>\n    </div>\n    <div>\n      <a href=\"https://example.com/complete-profile\" style=\"background-color: #3b82f6;\">\n        Complete Profile\n      </a>\n    </div>\n  </body>\n</html>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+        "originContent": "<html>",
+        "translatedContent": "<html>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Voa++sIDBt1AGYDB1Wb4S7Lqxap3N5qq/XCt4rzjBiE=",
+        "originContent": "  <body style=\"background-color: #1f2937;\">",
+        "translatedContent": "  <body style=\"background-color: #1f2937;\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "3KiXp2kcdyragsPbVyKo5KqY+3T4krA1IgD95CsIewI=",
+        "originContent": "    <div style=\"position: relative; z-index: 20; max-width: 512px; margin-bottom: 1rem; padding-left: 1rem; padding-top: 2.5rem;\">",
+        "translatedContent": "    <div style=\"position: relative; z-index: 20; max-width: 512px; margin-bottom: 1rem; padding-left: 1rem; padding-top: 2.5rem;\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "P6qfzhskuhOtl1uTk1YHsNQNNurbAL8dRdbJHVLsYgQ=",
+        "originContent": "      <span style=\"margin-right: 1.25rem; color: #fde047;\">Welcome, John</span>",
+        "translatedContent": "      <span style=\"margin-right: 1.25rem; color: #fde047;\">Welcome, John</span>"
+      },
+      {
+        "row": 6,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 8,
+        "rowsha": "GvVaKDNUnWMB5Rci/5jBDyUoXnw+BQ29GWJO7b2dQfU=",
+        "originContent": "      <a href=\"https://example.com/complete-profile\" style=\"background-color: #3b82f6;\">",
+        "translatedContent": "      <a href=\"https://example.com/complete-profile\" style=\"background-color: #3b82f6;\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "vnHGPzXe2YlmOU/61IZGeMDGkblu/u1sWYtpXeN4T9M=",
+        "originContent": "        Complete Profile",
+        "translatedContent": "        Complete Profile"
+      },
+      {
+        "row": 10,
+        "rowsha": "0B4P+p6XHkrXSUQLSKiSepEg3R4dE5vt8a9bfRzbVhA=",
+        "originContent": "      </a>",
+        "translatedContent": "      </a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "uU+hYtMR94RAvkk+BNoMJ6ERkm4EIzoZdIu9Wl1w6bk=",
+        "originContent": "  </body>",
+        "translatedContent": "  </body>"
+      },
+      {
+        "row": 13,
+        "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+        "originContent": "</html>",
+        "translatedContent": "</html>"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Contributing\n\nContributions, issues, and feature requests are welcome!\n\n### Contributors\n\n<a href=\"https://github.com/vardan-arm\"><img src=\"https://github.com/vardan-arm.png\" width=\"50\" height=\"50\" alt=\"vardan-arm\" /></a>\n<a href=\"https://github.com/diogomoretti\"><img src=\"https://github.com/diogomoretti.png\" width=\"50\" height=\"50\" alt=\"diogomoretti\" /></a>\n<a href=\"https://github.com/markosmk\"><img src=\"https://github.com/markosmk.png\" width=\"50\" height=\"50\" alt=\"markosmk\" /></a>\n\n### License\n\nThis project is MIT licensed.\n",
+    "ContentSha": "hGxuT/jfbHQH/3LR3bxvrpt+OXOpv3MFOfEFuBp92mA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Contribuyendo\n\n¡Se aceptan contribuciones, problemas y solicitudes de funciones!\n\n### Colaboradores\n\n<a href=\"https://github.com/vardan-arm\"><img src=\"https://github.com/vardan-arm.png\" width=\"50\" height=\"50\" alt=\"vardan-arm\" /></a>\n<a href=\"https://github.com/diogomoretti\"><img src=\"https://github.com/diogomoretti.png\" width=\"50\" height=\"50\" alt=\"diogomoretti\" /></a>\n<a href=\"https://github.com/markosmk\"><img src=\"https://github.com/markosmk.png\" width=\"50\" height=\"50\" alt=\"markosmk\" /></a>\n\n### Licencia\n\nEste proyecto tiene licencia MIT.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5ww9yAUhltb679bzey3v6rRmdriJbfvnrASADmXR90c=",
+        "originContent": "### Contributing",
+        "translatedContent": "### Contribuyendo"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BscvBRIBwbXLSvomahgcLR7/f4bJrSVIaOxT1O0f7mk=",
+        "originContent": "Contributions, issues, and feature requests are welcome!",
+        "translatedContent": "¡Se aceptan contribuciones, problemas y solicitudes de funciones!"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/4Et9o+Nc2BpGTu6T1BzUrIOmNkSEj9bvHTAdcqb3Zg=",
+        "originContent": "### Contributors",
+        "translatedContent": "### Colaboradores"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "UmfLaFWw7jGVvutddHE610A47RfnPT1BfaCj+MBcsps=",
+        "originContent": "<a href=\"https://github.com/vardan-arm\"><img src=\"https://github.com/vardan-arm.png\" width=\"50\" height=\"50\" alt=\"vardan-arm\" /></a>",
+        "translatedContent": "<a href=\"https://github.com/vardan-arm\"><img src=\"https://github.com/vardan-arm.png\" width=\"50\" height=\"50\" alt=\"vardan-arm\" /></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "o2QukFmpD38Q7nOlds4i0CjiSydOes/UR8cadgDZffs=",
+        "originContent": "<a href=\"https://github.com/diogomoretti\"><img src=\"https://github.com/diogomoretti.png\" width=\"50\" height=\"50\" alt=\"diogomoretti\" /></a>",
+        "translatedContent": "<a href=\"https://github.com/diogomoretti\"><img src=\"https://github.com/diogomoretti.png\" width=\"50\" height=\"50\" alt=\"diogomoretti\" /></a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "826gq7Nw+ZvEka3G62edh2dLKbmmyOkpB6hM4yqzKKE=",
+        "originContent": "<a href=\"https://github.com/markosmk\"><img src=\"https://github.com/markosmk.png\" width=\"50\" height=\"50\" alt=\"markosmk\" /></a>",
+        "translatedContent": "<a href=\"https://github.com/markosmk\"><img src=\"https://github.com/markosmk.png\" width=\"50\" height=\"50\" alt=\"markosmk\" /></a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yQxCDp1zblVb6PkKhbgZ2Y8kW5iQPeq17cih4/6NsYY=",
+        "originContent": "### License",
+        "translatedContent": "### Licencia"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ew8OYXPKlzRSJTkNeVh6V0HFYfp1ppt/8okhg9GLx0o=",
+        "originContent": "This project is MIT licensed.",
+        "translatedContent": "Este proyecto tiene licencia MIT."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

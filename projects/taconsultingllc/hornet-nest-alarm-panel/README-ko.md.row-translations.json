@@ -1,0 +1,254 @@
+[
+  {
+    "row": 1,
+    "rowsha": "v9OLIaFyP8eNUEwxvadOApZd1TuBUS6QQgjzvkWWQqs=",
+    "originContent": "# Hornet Nest Alarm Panel for ESPHome",
+    "translatedContent": "# ESPHome용 Hornet Nest 알람 패널"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "SrrCwVMvZExbBEJQFsZJzEwxX5v5mp49refiwG1O/Jw=",
+    "originContent": "This repository houses the officially supported **ESPHome** firmware configuration files for the **Hornet Nest Alarm Panel**, developed by **Technology Automation Consulting LLC**. The Hornet Nest Alarm Panel is a scalable and customizable IoT solution designed to integrate traditional wired alarm systems into your smart home using **Home Assistant**. With 42 optoisolated zones, 3 relay outputs, and flexible PoE or 12V power options, it’s built for flexibility and reliability.",
+    "translatedContent": "이 저장소는 **Technology Automation Consulting LLC**에서 개발한 **Hornet Nest 알람 패널**용 공식 지원 **ESPHome** 펌웨어 구성 파일을 보관합니다. Hornet Nest 알람 패널은 전통적인 유선 알람 시스템을 **Home Assistant**를 사용하여 스마트 홈에 통합하도록 설계된 확장 가능하고 맞춤형 IoT 솔루션입니다. 42개의 옵토아이솔레이션 구역, 3개의 릴레이 출력, 유연한 PoE 또는 12V 전원 옵션을 갖추어 유연성과 신뢰성을 제공합니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "iHz/uaHWP9xSr0s6UdCPFV802+dG2QP9BFnP5UuZ5Sw=",
+    "originContent": "<div style=\"display: flex; justify-content: space-between;\">",
+    "translatedContent": "<div style=\"display: flex; justify-content: space-between;\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "14ZJRqZytttG8VdgDE3sQ+b4mdaMAZ5N95EnYDrAhH0=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/3D_AlarmPanel_2024-10-06.png\" alt=\"3D Model\" width=\"400\"/>",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/3D_AlarmPanel_2024-10-06.png\" alt=\"3D Model\" width=\"400\"/>"
+  },
+  {
+    "row": 7,
+    "rowsha": "AhZIqcHG14BnOa/u/rZhKLypfCXbKY6lzwh78NoUbbg=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/hornet-nest-operational.jpg\" alt=\"Installed\" width=\"400\"/>",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/hornet-nest-operational.jpg\" alt=\"Installed\" width=\"400\"/>"
+  },
+  {
+    "row": 8,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 빠른 시작"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "MpZs1Y4tDEj9bdTdg88xfS60qgnhnJstA8UiqdfcMR0=",
+    "originContent": "Get started quickly by adopting and flashing your Hornet Nest Alarm Panel with the latest ESPHome firmware:",
+    "translatedContent": "최신 ESPHome 펌웨어로 Hornet Nest 알람 패널을 신속하게 채택하고 플래싱하여 시작하세요:"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ByELAwv5etFbAa9ARanqSEXxtgxWlXBZppANfKXMtdg=",
+    "originContent": "1. Plug a PoE powered ethernet cable into the Hornet Nest Alarm Panel.",
+    "translatedContent": "1. Hornet Nest 알람 패널에 PoE 전원 이더넷 케이블을 연결합니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "9HIBTgQVxaPpWmnz0rYYpbJbYUFfc2kDjSmcClcnEMI=",
+    "originContent": "2. Open the **ESPHome Dashboard** and locate the device \"hornet-nest-XXXXXX\" (where XXXXXX is a unique hexadecimal identifier).",
+    "translatedContent": "2. **ESPHome 대시보드**를 열고 \"hornet-nest-XXXXXX\"(여기서 XXXXXX는 고유한 16진수 식별자) 장치를 찾습니다."
+  },
+  {
+    "row": 16,
+    "rowsha": "FzlGDQ0UgQf2zT9EWWilN3ar3Dgvl2HJsK2QxtspB28=",
+    "originContent": "3. Click on the **Adopt** option on the device.",
+    "translatedContent": "3. 장치에서 **Adopt** 옵션을 클릭합니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "YQzSl/ovYi7UsYW12yZqObBFNczARiM6IN1ML77LUgY=",
+    "originContent": "4. The **Adopt Device** dialog will open.  You can rename your device if desired and then click the **Adopt** option again.",
+    "translatedContent": "4. **장치 채택** 대화 상자가 열립니다. 원하면 장치 이름을 변경한 후 다시 **Adopt** 옵션을 클릭합니다."
+  },
+  {
+    "row": 18,
+    "rowsha": "iqJrc7Pg0OZ6ijyfVATUSQM2R2btVFi1sbdsgvJwIhU=",
+    "originContent": "5. The **Configuration Created** dialog will open and indicate that a new configuration needs to be installed on the device, click the **Install** button.",
+    "translatedContent": "5. **구성 생성됨** 대화 상자가 열리고 새 구성을 장치에 설치해야 함을 알립니다. **설치** 버튼을 클릭합니다."
+  },
+  {
+    "row": 19,
+    "rowsha": "Il0tGtw2QYzVFJsZ10jgEaXizXHFNF1jSw4prSQ/rUo=",
+    "originContent": "6. ESPHome will begin to compile the new firmware. When the line **\"INFO Sucessfully uploaded program.\"** is diplayed, click **STOP** to close the window.",
+    "translatedContent": "6. ESPHome이 새 펌웨어 컴파일을 시작합니다. **\"INFO Sucessfully uploaded program.\"** 문구가 표시되면 **중지**를 클릭하여 창을 닫습니다."
+  },
+  {
+    "row": 20,
+    "rowsha": "2fF9TiGYNo7ars72F5irNTotYiYJh7EopO2Iucu7RnQ=",
+    "originContent": "4. Discover the Hornet Nest Alarm Panel in **Home Assistant** > **Settings** > **Devices & Services**.",
+    "translatedContent": "4. **Home Assistant** > **설정** > **장치 및 서비스**에서 Hornet Nest 알람 패널을 찾습니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "+KC+02Q1frvWeHlFnDzSlxDUPx0ruG5aJGkAvcyyl0s=",
+    "originContent": "5. Click **Configure** on the new device to add it into Home Assistant.",
+    "translatedContent": "5. 새 장치에서 **구성**을 클릭하여 Home Assistant에 추가합니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "NwYQeHiR/zaQTGsvBTRMMIQlVkrq8O3OwHfpB52fB3c=",
+    "originContent": "## Changes and Release Notes",
+    "translatedContent": "## 변경 사항 및 릴리스 노트"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "rygzpjhK/LjoB7bo9DQUB5xhjy8J0vNcc6lVnNUyXLI=",
+    "originContent": "See **Releases** for release notes and downloadable pre-built firmware images.",
+    "translatedContent": "릴리스 노트 및 다운로드 가능한 사전 빌드 펌웨어 이미지는 **릴리스**를 참조하세요."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "4Aj8u/kI/OtAoOolG8edl4CTxhP5FnrX+uvxoMAWehU=",
+    "originContent": "## Made for ESPHome",
+    "translatedContent": "## ESPHome용 제작"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "paS4TDoxvQnEbkCUn6/ceYoYtpnuf6Wd+Chw2C29Kos=",
+    "originContent": "The **Hornet Nest Alarm Panel** uses the **wESP32 PoE** microcontroller and is fully compatible with **ESPHome** firmware. It is an open-source product, designed for easy user customization, making it ideal for Home Assistant users who need a scalable and flexible alarm solution. The included **ESPHome YAML configuration files** are fully documented, allowing advanced users to easily customize, build, and update their device with a few simple modifications.",
+    "translatedContent": "**Hornet Nest 알람 패널**은 **wESP32 PoE** 마이크로컨트롤러를 사용하며 **ESPHome** 펌웨어와 완벽하게 호환됩니다. 이는 오픈 소스 제품으로 사용자 맞춤화가 용이하도록 설계되어, 확장 가능하고 유연한 알람 솔루션이 필요한 Home Assistant 사용자에게 이상적입니다. 포함된 **ESPHome YAML 구성 파일**은 완전히 문서화되어 있어 고급 사용자가 간단한 수정만으로 장치를 쉽게 맞춤화, 빌드 및 업데이트할 수 있습니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "XJz+np5b8dD3BM4PEasZ5S6OZY40+JKp4ZRLFX0n3qc=",
+    "originContent": "## Works with Home Assistant",
+    "translatedContent": "## Home Assistant와 연동"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "Ua6BVTss5A5hBvZ+/YSuxRXUUiYqjNbwAowmT7DS5+s=",
+    "originContent": "These **ESPHome** firmware configurations allow for a simple, plug-and-play setup within **Home Assistant**. The integration is local, fast, and fully customizable, giving users complete control over their home security system.",
+    "translatedContent": "이러한 **ESPHome** 펌웨어 구성은 **Home Assistant** 내에서 간단하고 플러그 앤 플레이 설정을 가능하게 합니다. 통합은 로컬이며 빠르고 완전히 사용자 정의할 수 있어 사용자가 홈 보안 시스템을 완벽하게 제어할 수 있습니다."
+  },
+  {
+    "row": 34,
+    "rowsha": "VNsqrfM4PwAbwiSyZhAJ41SMttm3/zY2UWWLTXxNV6I=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/esphome-integrated.png\" alt=\"ESPHome Device\" width=\"600\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/images/esphome-integrated.png\" alt=\"ESPHome Device\" width=\"600\">"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "MIFr6/VE/qsGf2jTNMSiMShibCH7SVud0wmrTgyx9qA=",
+    "originContent": "## In This Repository",
+    "translatedContent": "## 이 저장소에 포함된 내용"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "gbBSZvmnTZydTzqUn7asgAFBGbuobhoxIzUow+YjdOg=",
+    "originContent": "This repository contains **complete firmware configuration YAML templates** for the **Hornet Nest Alarm Panel** at the top level. These templates are ready to be imported using **ESPHome Dashboard**, where they can be customized and deployed.",
+    "translatedContent": "이 저장소는 최상위에 **Hornet Nest 알람 패널**용 **완전한 펌웨어 구성 YAML 템플릿**을 포함합니다. 이 템플릿들은 **ESPHome 대시보드**를 통해 가져와 맞춤화하고 배포할 수 있도록 준비되어 있습니다."
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "YMcEGjHtAwmyyOaFZVKDP0EhxI9EmdRxsZ305u7e+Bk=",
+    "originContent": "## User Manual",
+    "translatedContent": "## 사용자 매뉴얼"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "자세한 지침은 공식 사용자 설명서 [여기](https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/hnap-user-manual.pdf)를 참조하십시오."
+  },
+  {
+    "row": 42,
+    "rowsha": "0XE70E4mV9ZJHJApAImNEGk0QXxUfnyi2JGdz3dzfxQ=",
+    "originContent": "For detailed instructions, please refer to the official user manual [here.](https://raw.githubusercontent.com/taconsultingllc/hornet-nest-alarm-panel/main/hnap-user-manual.pdf)",
+    "translatedContent": ""
+  }
+]
