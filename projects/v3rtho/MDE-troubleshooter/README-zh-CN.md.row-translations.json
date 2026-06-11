@@ -1,0 +1,482 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Z/5jkQmdVqsGYukGRRV2cavdLHZ+BgB0DHGCz47x0yg=",
+    "originContent": "# MDE-troubleshooter",
+    "translatedContent": "# MDE-troubleshooter"
+  },
+  {
+    "row": 2,
+    "rowsha": "QwC8+SyaUHuVRI54wXs09OpVvmpoZUf7aBsGdVJAMWY=",
+    "originContent": "# INFO",
+    "translatedContent": "# 信息"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "BXketpUgCXksD77ydJca8yoWxeuKFc65XsTvTJoDULM=",
+    "originContent": "This tool is designed to assist you in analyzing issues related to Defender for Endpoint on your local endpoint. It offers a centralized view of the security configuration, log files, updates, and provides access to the Performance Analyzer.",
+    "translatedContent": "此工具旨在帮助您分析本地端点上与端点防护相关的问题。它提供安全配置、日志文件、更新的集中视图，并可访问性能分析器。"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "/7S6/on8sUrV20ZwuYmzJYQMV8IpgIz0lhZfijk7cR4=",
+    "originContent": "Please note that this is the initial version of the tool. If you encounter any bugs or have suggestions for enhancements, I encourage you to submit them on my GitHub page. Your feedback and reports are greatly appreciated.",
+    "translatedContent": "请注意，这是工具的初始版本。如果您遇到任何错误或有改进建议，欢迎在我的GitHub页面提交。非常感谢您的反馈和报告。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "auWi/KIB9QpOVD9ZumanzfPNW1a7aL/SUjF/teV5QNw=",
+    "originContent": "<img width=\"1482\" height=\"1041\" alt=\"2026-03-09 10_40_30-MDE Troubleshooter v3 0\" src=\"https://github.com/user-attachments/assets/34d80bab-525d-4bf2-ae10-ae8b0c62358d\" />",
+    "translatedContent": "<img width=\"1482\" height=\"1041\" alt=\"2026-03-09 10_40_30-MDE Troubleshooter v3 0\" src=\"https://github.com/user-attachments/assets/34d80bab-525d-4bf2-ae10-ae8b0c62358d\" />"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "WoQprPTXwMCBk2K9OeFx9EorHJI/DG9GVplltxgvWM8=",
+    "originContent": "# Prerequisites",
+    "translatedContent": "# 先决条件"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "sHXuTFWJjZxiwNxmLT3oT1Ncvp9r3L2M6qn6hNasS90=",
+    "originContent": "Script need to run as admin to view all settings.",
+    "translatedContent": "脚本需以管理员身份运行以查看所有设置。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "wqGKUVB0KxrcrjF89etFwTXJsq8VgZLDHQAaG1Kl0ug=",
+    "originContent": "# Disclaimer",
+    "translatedContent": "# 免责声明"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "wKTZRo9WwKyavvTIqR9jvbd1YuzQyRU3mgXc5u8iJuk=",
+    "originContent": "Script provided as is. Use at own risk. No guarantees or warranty provided.",
+    "translatedContent": "脚本按原样提供。风险自负。不提供任何保证或担保。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Aj0rL4m/yHInSgJInd/7UEIZEN3IQku/5q3Q7Ftid5I=",
+    "originContent": "# Contact",
+    "translatedContent": "# 联系方式"
+  },
+  {
+    "row": 21,
+    "rowsha": "gDAVZ3+ERa4DIY7ViDH9laZYWWcHzb8a19dEhTqBru0=",
+    "originContent": "linkedin: https://www.linkedin.com/in/thomasvrhydn/",
+    "translatedContent": "linkedin: https://www.linkedin.com/in/thomasvrhydn/"
+  },
+  {
+    "row": 22,
+    "rowsha": "8P0WkwfnZZ4chV/Vf0TH67jj8nbD0Z1HEJQ5qvtkwc0=",
+    "originContent": "twitter:  @thomasvrhydn",
+    "translatedContent": "twitter:  @thomasvrhydn"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "p+QVTUkRwCRUBecY9LwLlO5shHdnGHSv2pRnYaeolJY=",
+    "originContent": "# Features  ",
+    "translatedContent": "# 功能  "
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "6n7bXPKzTJ1q76iLr/OJBQi/1IbFA50UolFVh1fdZuY=",
+    "originContent": "Defender AV  ",
+    "translatedContent": "Defender AV  "
+  },
+  {
+    "row": 27,
+    "rowsha": "9BiKQigzXbpEAVPWXHByWmQRdJo58S+YOjd6z9iO9s4=",
+    "originContent": "Version Information — AM Engine, AM Product, AM Service, NIS Engine versions, AM Running Mode, Computer State  ",
+    "translatedContent": "版本信息 — AM引擎、AM产品、AM服务、NIS引擎版本，AM运行模式，计算机状态  "
+  },
+  {
+    "row": 28,
+    "rowsha": "PbY7GVdjkiOT2oEcfXggchAzanDCtTzrC70iHv8U7yw=",
+    "originContent": "Service Status — AM Service, Antivirus, Antispyware, NIS enabled states, Virtual Machine detection, Computer ID  ",
+    "translatedContent": "服务状态 — AM服务、杀毒、反间谍软件、NIS启用状态、虚拟机检测、计算机ID  "
+  },
+  {
+    "row": 29,
+    "rowsha": "c6Bj/XvvyIgQ5clJcdbFGOvNjxlFId3A9JasoPGzheA=",
+    "originContent": "Real-Time Protection — RealTime Protection, OnAccess Protection, Behavior Monitor, IOAV Protection, Tamper Protection status and source  ",
+    "translatedContent": "实时保护 — 实时保护、访问时保护、行为监控、IOAV保护、防篡改状态及来源  "
+  },
+  {
+    "row": 30,
+    "rowsha": "Bh85UnydXUcmYr3+uhL+62LJua3nwR8vAKNuVsT1hp0=",
+    "originContent": "Scan Information — Full and Quick scan age, start/end times  ",
+    "translatedContent": "扫描信息 — 全面和快速扫描时间间隔，开始/结束时间  "
+  },
+  {
+    "row": 31,
+    "rowsha": "EYZ9lCj307zdPfz1qFP6hDbXSKoPdVXp2alPsfzMQzc=",
+    "originContent": "Protection Settings — Cloud Block Level, Block at First Seen, Cloud Timeout, Quarantine purge days, File Hash Computation, Device Control state  ",
+    "translatedContent": "保护设置 — 云阻止级别、首次发现阻止、云超时、隔离清理天数、文件哈希计算、设备控制状态  "
+  },
+  {
+    "row": 32,
+    "rowsha": "P771XOPiW+blnkstjK/wQILgSEZbqsERM1dGpVRu9OI=",
+    "originContent": "Additional Information — Signature Fallback Order, NIS Signature last updated, Last Quick Scan source   ",
+    "translatedContent": "附加信息 — 签名回退顺序、NIS签名最后更新时间、上次快速扫描来源  "
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "g/ayWu/04Z6jHpfzqRknJteXScwTjtcF+mX8KMYzl8E=",
+    "originContent": "Attack Surface Reduction  ",
+    "translatedContent": "攻击面缩减  "
+  },
+  {
+    "row": 35,
+    "rowsha": "9JrcHlIeC2Hn0pMRQz4HGUvOfx97AQMzHqeXEf94WJY=",
+    "originContent": "ASR Rules Status — View all 19 ASR rules with their current state (Enabled / Audit / Warning / Not Enabled), with filtering by status in a sortable DataGrid popup  ",
+    "translatedContent": "ASR规则状态 — 查看所有19条ASR规则及其当前状态（启用/审核/警告/未启用），支持状态过滤和可排序DataGrid弹出窗口  "
+  },
+  {
+    "row": 36,
+    "rowsha": "0krw0nhwFs9KVoSfK0LWb90Ld2mE0HhXXKAnjFTfsgQ=",
+    "originContent": "ASR Per-Rule Exclusions — View per-rule and global ASR exclusions read from the registry (HKLM:\\...\\Windows Defender Exploit Guard\\ASR), with filtering by rule name  ",
+    "translatedContent": "ASR单规则排除 — 查看注册表中读取的按规则及全局ASR排除项（HKLM:\\...\\Windows Defender Exploit Guard\\ASR），支持规则名称过滤  "
+  },
+  {
+    "row": 37,
+    "rowsha": "Iu1GLS9zL7Ly421csSYBGems3nhx8PdH5AzF0uvXXaQ=",
+    "originContent": "Exploit Protection — Export and open the Exploit Protection XML configuration  ",
+    "translatedContent": "利用防护 — 导出并打开利用防护XML配置  "
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "+4XJ13UycujdDQU33f+Rifzl1tX1CW/PtV2WUAH53DA=",
+    "originContent": "Exclusions  ",
+    "translatedContent": "排除项  "
+  },
+  {
+    "row": 40,
+    "rowsha": "Up7JJN7fLkHCqPlHwHKP/8H4y3e0rxN9VwZwEnLiIfw=",
+    "originContent": "Defender AV Exclusions — View all configured exclusions (Path, Extension, Process, IP Address) with search and type filtering in a popup DataGrid  ",
+    "translatedContent": "Defender AV排除项 — 查看所有配置的排除项（路径、扩展名、进程、IP地址），在弹出DataGrid中支持搜索和类型过滤  "
+  },
+  {
+    "row": 41,
+    "rowsha": "/5AncT1UOj3aJviLYPR0q+rXiB0H5lgZQmh9k0rUiAM=",
+    "originContent": "Registry Key Information — Shows ManagedDefenderProductType, EnrollmentStatus, HideExclusionsFromLocalAdmins, DisableLocalAdminMerge, and determines management status with tamper protection validation (Intune-only, ConfigMgr, Co-managed scenarios)  ",
+    "translatedContent": "注册表项信息 — 显示 ManagedDefenderProductType、EnrollmentStatus、HideExclusionsFromLocalAdmins、DisableLocalAdminMerge，并通过篡改保护验证确定管理状态（仅限 Intune、ConfigMgr、联合管理场景）  "
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "tYKetjdpZjQI+zHPWnzdRYDgqkXsRSLDervCLlKLgXA=",
+    "originContent": "Updates  ",
+    "translatedContent": "更新  "
+  },
+  {
+    "row": 44,
+    "rowsha": "zIQyf3pz3zfjum7G4IePu5F3NCM8WEe/IgyqVyTSnNo=",
+    "originContent": "Current Signature Information — AV Signature version/age/last updated, Antispyware Signature version/age, NIS Signature version  ",
+    "translatedContent": "当前签名信息 — AV 签名版本/年龄/最后更新，反间谍软件签名版本/年龄，NIS 签名版本  "
+  },
+  {
+    "row": 45,
+    "rowsha": "lz5ttJSnoam2s7dgOxxClFHxPtBr8EZ8rxomBL+UZ1U=",
+    "originContent": "Latest Microsoft Versions — Fetches the latest Engine, Platform, and Signature versions from Microsoft's website for comparison  ",
+    "translatedContent": "最新微软版本 — 从微软网站获取最新引擎、平台和签名版本以供比较  "
+  },
+  {
+    "row": 46,
+    "rowsha": "N41rQJuMInrsajFD1E6rr8KWmrPen6dYOtqEPMenbVQ=",
+    "originContent": "Update Actions — Trigger a signature update via MpCmdRun.exe directly from the UI  ",
+    "translatedContent": "更新操作 — 通过 UI 直接触发 MpCmdRun.exe 进行签名更新  "
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "eeq8sqaiVqgm5Y6dyfYq6cwdofBFjlpfFPx5dciowLc=",
+    "originContent": "Logs  ",
+    "translatedContent": "日志  "
+  },
+  {
+    "row": 49,
+    "rowsha": "ot0DxNLYjZ/FNKEbTzYt3nnpqqmOa8OBOa9l3RE13qk=",
+    "originContent": "SENSE Logs — View EDR sensor event logs (Microsoft-Windows-SENSE/Operational) with filtering by text and level (Information/Warning/Error), plus a detail pane for selected entries  ",
+    "translatedContent": "SENSE 日志 — 查看 EDR 传感器事件日志（Microsoft-Windows-SENSE/Operational），支持按文本和级别（信息/警告/错误）过滤，及选中条目的详细面板  "
+  },
+  {
+    "row": 50,
+    "rowsha": "uRNTdy7BZJoIw9e+NtQa+uo9JKmeeL6KYQgiEZ/76zY=",
+    "originContent": "Defender AV Logs — View antivirus event logs (Microsoft-Windows-Windows Defender/Operational) with the same filtering and detail capabilities  ",
+    "translatedContent": "Defender AV 日志 — 查看杀毒事件日志（Microsoft-Windows-Windows Defender/Operational），具备相同的过滤和详细功能  "
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "yyk93FnINUv1PUpJSjPDpj9IcWzhCE/DM8NE4SVKYIQ=",
+    "originContent": "Performance  ",
+    "translatedContent": "性能  "
+  },
+  {
+    "row": 53,
+    "rowsha": "qgC3suRm8DXqm4k4PFXUiO4W8vpwgAYYzy5z0Jcp2uo=",
+    "originContent": "Performance Recording — Start a Defender AV performance recording session (New-MpPerformanceRecording) that captures scan activity to an ETL file  ",
+    "translatedContent": "性能录制 — 启动 Defender AV 性能录制会话（New-MpPerformanceRecording），将扫描活动捕获到 ETL 文件  "
+  },
+  {
+    "row": 54,
+    "rowsha": "1w83ljryB/cGcTTMP7yFwzldIyzzDHtrdX5rMpCxYKU=",
+    "originContent": "Performance Reports — Generate reports from ETL recordings with selectable report types: Overview, Top 10 Files, Top 10 Extensions, Top 10 Processes, Top 10 Scans (multiple reports open simultaneously in separate windows)  ",
+    "translatedContent": "性能报告 — 从 ETL 录制生成报告，支持选择报告类型：概览、十大文件、十大扩展名、十大进程、十大扫描（多个报告可同时在独立窗口打开）  "
+  },
+  {
+    "row": 55,
+    "rowsha": "Rvo1LN3YOEa6hsZySEpIPyMhELfzZjs7QkgcT9+2TIA=",
+    "originContent": "Estimated Impact (MPlog) — Parse the latest MPlog file for EstimatedImpact entries, sorted by impact value, to identify high-impact scan targets  ",
+    "translatedContent": "估计影响（MPlog） — 解析最新 MPlog 文件中的 EstimatedImpact 条目，按影响值排序，以识别高影响扫描目标  "
+  },
+  {
+    "row": 56,
+    "rowsha": "TJZBpi6rfgS7rrjNr44SLETzQbeHWmcRCsqDTYShjo0=",
+    "originContent": "Client Analyzer Download — Download the official Microsoft Defender Client Analyzer tool (MDEClientAnalyzer.zip) to a folder of your choice  ",
+    "translatedContent": "客户端分析器下载 — 下载官方 Microsoft Defender 客户端分析器工具（MDEClientAnalyzer.zip）到指定文件夹  "
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "q6vOGdxka7kX/KqyxT+KNFYAQa68Qsj97sXhz88PqNs=",
+    "originContent": "Proxy  ",
+    "translatedContent": "代理  "
+  },
+  {
+    "row": 59,
+    "rowsha": "Gl3nT8eXX2NEBpSOpvyDsjhsdFnRgtXXd+ow7nIx2cE=",
+    "originContent": "Proxy Configuration — Displays the current Proxy URL and Proxy PAC configured for Defender  ",
+    "translatedContent": "代理配置 — 显示 Defender 当前配置的代理 URL 和代理 PAC  "
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "PrGnSmNMiSTGB6HihBhWE9qPwWuxLlBITXcX/wEMtds=",
+    "originContent": "Firewall  ",
+    "translatedContent": "防火墙  "
+  },
+  {
+    "row": 62,
+    "rowsha": "IR1yoasRajCP+4kGv9N0iBCHNA+fSH27dsJD2oaBGNI=",
+    "originContent": "Profile Status — View Domain, Private, and Public firewall profile settings (Enabled, Default Inbound/Outbound Action, Log Allowed)  ",
+    "translatedContent": "配置文件状态 — 查看域、专用和公共防火墙配置文件设置（启用状态、默认入站/出站动作、允许日志）  "
+  },
+  {
+    "row": 63,
+    "rowsha": "bEsicd8QNSxCHVRmCZ9ozklhuuexPurHeT2c8S/14TM=",
+    "originContent": "Firewall Rules Browser — View all Windows Firewall rules in a filterable DataGrid with search, direction, action, enabled state, and profile filters. Shows rule name, ports, protocol, and program path  ",
+    "translatedContent": "防火墙规则浏览器 — 在可筛选的数据网格中查看所有 Windows 防火墙规则，支持搜索、方向、动作、启用状态和配置文件过滤。显示规则名称、端口、协议和程序路径  "
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "qqeNqFl8bX8V8FRsr3DWoSY6UcRkyD/D0ebbNa6tY8Y=",
+    "originContent": "# References",
+    "translatedContent": "# 参考资料"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "32P6XokAEgGV/6XmAWMB032zFYHd9JwnqyhyWXloTI0=",
+    "originContent": "https://github.com/ugurkocde/Intune/blob/main/Defender%20for%20Endpoint/MDE%20-%20Update%20Tool/MDE_Update_Tool.ps1",
+    "translatedContent": "https://github.com/ugurkocde/Intune/blob/main/Defender%20for%20Endpoint/MDE%20-%20Update%20Tool/MDE_Update_Tool.ps1"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "Q74eINlteCgOr/5f+rdIV5kZzxCtwH4F9BNRZN7IySo=",
+    "originContent": "https://github.com/directorcia/Office365/blob/master/win10-asr-get.ps1",
+    "translatedContent": "https://github.com/directorcia/Office365/blob/master/win10-asr-get.ps1"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "z9PM1CHxLiI/pfHxdIQK4WlOwghazzZBjNnAmP5BEHo=",
+    "originContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction",
+    "translatedContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "B2XVPjcm6j75B/jGMu0ZdQErMmS6th5V+nhv5h/zSsA=",
+    "originContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction",
+    "translatedContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "rWweICzmbHFj5GzFTk8zz2uJsvz9obbgaf37aZYy9rA=",
+    "originContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction-faq",
+    "translatedContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction-faq"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

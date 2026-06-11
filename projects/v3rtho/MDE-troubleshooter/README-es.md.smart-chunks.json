@@ -1,0 +1,508 @@
+[
+  {
+    "Id": 1,
+    "Content": "# MDE-troubleshooter\n# INFO\n\nThis tool is designed to assist you in analyzing issues related to Defender for Endpoint on your local endpoint. It offers a centralized view of the security configuration, log files, updates, and provides access to the Performance Analyzer.\n\nPlease note that this is the initial version of the tool. If you encounter any bugs or have suggestions for enhancements, I encourage you to submit them on my GitHub page. Your feedback and reports are greatly appreciated.\n\n<img width=\"1482\" height=\"1041\" alt=\"2026-03-09 10_40_30-MDE Troubleshooter v3 0\" src=\"https://github.com/user-attachments/assets/34d80bab-525d-4bf2-ae10-ae8b0c62358d\" />\n\n\n\n# Prerequisites\n\nScript need to run as admin to view all settings.\n\n# Disclaimer\n\nScript provided as is. Use at own risk. No guarantees or warranty provided.\n\n# Contact\nlinkedin: https://www.linkedin.com/in/thomasvrhydn/\ntwitter:  @thomasvrhydn\n\n# Features  \n\nDefender AV  \nVersion Information — AM Engine, AM Product, AM Service, NIS Engine versions, AM Running Mode, Computer State  \nService Status — AM Service, Antivirus, Antispyware, NIS enabled states, Virtual Machine detection, Computer ID  \nReal-Time Protection — RealTime Protection, OnAccess Protection, Behavior Monitor, IOAV Protection, Tamper Protection status and source  \nScan Information — Full and Quick scan age, start/end times  \nProtection Settings — Cloud Block Level, Block at First Seen, Cloud Timeout, Quarantine purge days, File Hash Computation, Device Control state  \nAdditional Information — Signature Fallback Order, NIS Signature last updated, Last Quick Scan source   \n\nAttack Surface Reduction  \nASR Rules Status — View all 19 ASR rules with their current state (Enabled / Audit / Warning / Not Enabled), with filtering by status in a sortable DataGrid popup  \nASR Per-Rule Exclusions — View per-rule and global ASR exclusions read from the registry (HKLM:\\...\\Windows Defender Exploit Guard\\ASR), with filtering by rule name  \nExploit Protection — Export and open the Exploit Protection XML configuration  \n\nExclusions  \nDefender AV Exclusions — View all configured exclusions (Path, Extension, Process, IP Address) with search and type filtering in a popup DataGrid  ",
+    "ContentSha": "mzzQnfmHkgGmoZtHBM9rwiCKCBuLTQvyKRNCFvQNvCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MDE-troubleshooter\n# INFO\n\nEsta herramienta está diseñada para ayudarte a analizar problemas relacionados con Defender for Endpoint en tu endpoint local. Ofrece una vista centralizada de la configuración de seguridad, archivos de registro, actualizaciones y proporciona acceso al Analizador de Rendimiento.\n\nTen en cuenta que esta es la versión inicial de la herramienta. Si encuentras algún error o tienes sugerencias para mejoras, te animo a que las envíes en mi página de GitHub. Tus comentarios e informes son muy apreciados.\n\n<img width=\"1482\" height=\"1041\" alt=\"2026-03-09 10_40_30-MDE Troubleshooter v3 0\" src=\"https://github.com/user-attachments/assets/34d80bab-525d-4bf2-ae10-ae8b0c62358d\" />\n\n\n\n# Prerrequisitos\n\nEl script debe ejecutarse como administrador para ver todas las configuraciones.\n\n# Descargo de responsabilidad\n\nScript proporcionado tal cual. Úsalo bajo tu propio riesgo. No se ofrecen garantías ni responsabilidades.\n\n# Contacto\nlinkedin: https://www.linkedin.com/in/thomasvrhydn/\ntwitter:  @thomasvrhydn\n\n# Funcionalidades  \n\nDefender AV  \nInformación de versión — Motor AM, Producto AM, Servicio AM, versiones de Motor NIS, Modo de ejecución AM, Estado del equipo  \nEstado del servicio — Servicio AM, Antivirus, Antispyware, estados habilitados de NIS, detección de máquina virtual, ID del equipo  \nProtección en tiempo real — Protección en Tiempo Real, Protección al Acceso, Monitor de Comportamiento, Protección IOAV, estado y fuente de Protección contra manipulación  \nInformación de escaneo — Antigüedad del escaneo completo y rápido, horas de inicio/fin  \nConfiguración de protección — Nivel de bloqueo en la nube, Bloquear al primer visto, Tiempo de espera en la nube, días para purga de cuarentena, Cómputo de hash de archivo, estado del Control de dispositivo  \nInformación adicional — Orden de respaldo de firmas, última actualización de firma NIS, última fuente de escaneo rápido  \n\nReducción de superficie de ataque  \nEstado de reglas ASR — Ver las 19 reglas ASR con su estado actual (Habilitado / Auditoría / Advertencia / No habilitado), con filtrado por estado en una ventana emergente DataGrid ordenable  \nExclusiones por regla ASR — Ver exclusiones ASR por regla y globales leídas del registro (HKLM:\\...\\Windows Defender Exploit Guard\\ASR), con filtrado por nombre de regla  \nProtección contra exploits — Exportar y abrir la configuración XML de Protección contra Exploits  \n\nExclusiones  \nExclusiones de Defender AV — Ver todas las exclusiones configuradas (Ruta, Extensión, Proceso, Dirección IP) con búsqueda y filtrado por tipo en una ventana emergente DataGrid  ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Z/5jkQmdVqsGYukGRRV2cavdLHZ+BgB0DHGCz47x0yg=",
+        "originContent": "# MDE-troubleshooter",
+        "translatedContent": "# MDE-troubleshooter"
+      },
+      {
+        "row": 2,
+        "rowsha": "QwC8+SyaUHuVRI54wXs09OpVvmpoZUf7aBsGdVJAMWY=",
+        "originContent": "# INFO",
+        "translatedContent": "# INFO"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BXketpUgCXksD77ydJca8yoWxeuKFc65XsTvTJoDULM=",
+        "originContent": "This tool is designed to assist you in analyzing issues related to Defender for Endpoint on your local endpoint. It offers a centralized view of the security configuration, log files, updates, and provides access to the Performance Analyzer.",
+        "translatedContent": "Esta herramienta está diseñada para ayudarte a analizar problemas relacionados con Defender for Endpoint en tu endpoint local. Ofrece una vista centralizada de la configuración de seguridad, archivos de registro, actualizaciones y proporciona acceso al Analizador de Rendimiento."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/7S6/on8sUrV20ZwuYmzJYQMV8IpgIz0lhZfijk7cR4=",
+        "originContent": "Please note that this is the initial version of the tool. If you encounter any bugs or have suggestions for enhancements, I encourage you to submit them on my GitHub page. Your feedback and reports are greatly appreciated.",
+        "translatedContent": "Ten en cuenta que esta es la versión inicial de la herramienta. Si encuentras algún error o tienes sugerencias para mejoras, te animo a que las envíes en mi página de GitHub. Tus comentarios e informes son muy apreciados."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "auWi/KIB9QpOVD9ZumanzfPNW1a7aL/SUjF/teV5QNw=",
+        "originContent": "<img width=\"1482\" height=\"1041\" alt=\"2026-03-09 10_40_30-MDE Troubleshooter v3 0\" src=\"https://github.com/user-attachments/assets/34d80bab-525d-4bf2-ae10-ae8b0c62358d\" />",
+        "translatedContent": "<img width=\"1482\" height=\"1041\" alt=\"2026-03-09 10_40_30-MDE Troubleshooter v3 0\" src=\"https://github.com/user-attachments/assets/34d80bab-525d-4bf2-ae10-ae8b0c62358d\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "WoQprPTXwMCBk2K9OeFx9EorHJI/DG9GVplltxgvWM8=",
+        "originContent": "# Prerequisites",
+        "translatedContent": "# Prerrequisitos"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "sHXuTFWJjZxiwNxmLT3oT1Ncvp9r3L2M6qn6hNasS90=",
+        "originContent": "Script need to run as admin to view all settings.",
+        "translatedContent": "El script debe ejecutarse como administrador para ver todas las configuraciones."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "wqGKUVB0KxrcrjF89etFwTXJsq8VgZLDHQAaG1Kl0ug=",
+        "originContent": "# Disclaimer",
+        "translatedContent": "# Descargo de responsabilidad"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "wKTZRo9WwKyavvTIqR9jvbd1YuzQyRU3mgXc5u8iJuk=",
+        "originContent": "Script provided as is. Use at own risk. No guarantees or warranty provided.",
+        "translatedContent": "Script proporcionado tal cual. Úsalo bajo tu propio riesgo. No se ofrecen garantías ni responsabilidades."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Aj0rL4m/yHInSgJInd/7UEIZEN3IQku/5q3Q7Ftid5I=",
+        "originContent": "# Contact",
+        "translatedContent": "# Contacto"
+      },
+      {
+        "row": 21,
+        "rowsha": "gDAVZ3+ERa4DIY7ViDH9laZYWWcHzb8a19dEhTqBru0=",
+        "originContent": "linkedin: https://www.linkedin.com/in/thomasvrhydn/",
+        "translatedContent": "linkedin: https://www.linkedin.com/in/thomasvrhydn/"
+      },
+      {
+        "row": 22,
+        "rowsha": "8P0WkwfnZZ4chV/Vf0TH67jj8nbD0Z1HEJQ5qvtkwc0=",
+        "originContent": "twitter:  @thomasvrhydn",
+        "translatedContent": "twitter:  @thomasvrhydn"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "p+QVTUkRwCRUBecY9LwLlO5shHdnGHSv2pRnYaeolJY=",
+        "originContent": "# Features  ",
+        "translatedContent": "# Funcionalidades  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "6n7bXPKzTJ1q76iLr/OJBQi/1IbFA50UolFVh1fdZuY=",
+        "originContent": "Defender AV  ",
+        "translatedContent": "Defender AV  "
+      },
+      {
+        "row": 27,
+        "rowsha": "9BiKQigzXbpEAVPWXHByWmQRdJo58S+YOjd6z9iO9s4=",
+        "originContent": "Version Information — AM Engine, AM Product, AM Service, NIS Engine versions, AM Running Mode, Computer State  ",
+        "translatedContent": "Información de versión — Motor AM, Producto AM, Servicio AM, versiones de Motor NIS, Modo de ejecución AM, Estado del equipo  "
+      },
+      {
+        "row": 28,
+        "rowsha": "PbY7GVdjkiOT2oEcfXggchAzanDCtTzrC70iHv8U7yw=",
+        "originContent": "Service Status — AM Service, Antivirus, Antispyware, NIS enabled states, Virtual Machine detection, Computer ID  ",
+        "translatedContent": "Estado del servicio — Servicio AM, Antivirus, Antispyware, estados habilitados de NIS, detección de máquina virtual, ID del equipo  "
+      },
+      {
+        "row": 29,
+        "rowsha": "c6Bj/XvvyIgQ5clJcdbFGOvNjxlFId3A9JasoPGzheA=",
+        "originContent": "Real-Time Protection — RealTime Protection, OnAccess Protection, Behavior Monitor, IOAV Protection, Tamper Protection status and source  ",
+        "translatedContent": "Protección en tiempo real — Protección en Tiempo Real, Protección al Acceso, Monitor de Comportamiento, Protección IOAV, estado y fuente de Protección contra manipulación  "
+      },
+      {
+        "row": 30,
+        "rowsha": "Bh85UnydXUcmYr3+uhL+62LJua3nwR8vAKNuVsT1hp0=",
+        "originContent": "Scan Information — Full and Quick scan age, start/end times  ",
+        "translatedContent": "Información de escaneo — Antigüedad del escaneo completo y rápido, horas de inicio/fin  "
+      },
+      {
+        "row": 31,
+        "rowsha": "EYZ9lCj307zdPfz1qFP6hDbXSKoPdVXp2alPsfzMQzc=",
+        "originContent": "Protection Settings — Cloud Block Level, Block at First Seen, Cloud Timeout, Quarantine purge days, File Hash Computation, Device Control state  ",
+        "translatedContent": "Configuración de protección — Nivel de bloqueo en la nube, Bloquear al primer visto, Tiempo de espera en la nube, días para purga de cuarentena, Cómputo de hash de archivo, estado del Control de dispositivo  "
+      },
+      {
+        "row": 32,
+        "rowsha": "P771XOPiW+blnkstjK/wQILgSEZbqsERM1dGpVRu9OI=",
+        "originContent": "Additional Information — Signature Fallback Order, NIS Signature last updated, Last Quick Scan source   ",
+        "translatedContent": "Información adicional — Orden de respaldo de firmas, última actualización de firma NIS, última fuente de escaneo rápido  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "g/ayWu/04Z6jHpfzqRknJteXScwTjtcF+mX8KMYzl8E=",
+        "originContent": "Attack Surface Reduction  ",
+        "translatedContent": "Reducción de superficie de ataque  "
+      },
+      {
+        "row": 35,
+        "rowsha": "9JrcHlIeC2Hn0pMRQz4HGUvOfx97AQMzHqeXEf94WJY=",
+        "originContent": "ASR Rules Status — View all 19 ASR rules with their current state (Enabled / Audit / Warning / Not Enabled), with filtering by status in a sortable DataGrid popup  ",
+        "translatedContent": "Estado de reglas ASR — Ver las 19 reglas ASR con su estado actual (Habilitado / Auditoría / Advertencia / No habilitado), con filtrado por estado en una ventana emergente DataGrid ordenable  "
+      },
+      {
+        "row": 36,
+        "rowsha": "0krw0nhwFs9KVoSfK0LWb90Ld2mE0HhXXKAnjFTfsgQ=",
+        "originContent": "ASR Per-Rule Exclusions — View per-rule and global ASR exclusions read from the registry (HKLM:\\...\\Windows Defender Exploit Guard\\ASR), with filtering by rule name  ",
+        "translatedContent": "Exclusiones por regla ASR — Ver exclusiones ASR por regla y globales leídas del registro (HKLM:\\...\\Windows Defender Exploit Guard\\ASR), con filtrado por nombre de regla  "
+      },
+      {
+        "row": 37,
+        "rowsha": "Iu1GLS9zL7Ly421csSYBGems3nhx8PdH5AzF0uvXXaQ=",
+        "originContent": "Exploit Protection — Export and open the Exploit Protection XML configuration  ",
+        "translatedContent": "Protección contra exploits — Exportar y abrir la configuración XML de Protección contra Exploits  "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "+4XJ13UycujdDQU33f+Rifzl1tX1CW/PtV2WUAH53DA=",
+        "originContent": "Exclusions  ",
+        "translatedContent": "Exclusiones  "
+      },
+      {
+        "row": 40,
+        "rowsha": "Up7JJN7fLkHCqPlHwHKP/8H4y3e0rxN9VwZwEnLiIfw=",
+        "originContent": "Defender AV Exclusions — View all configured exclusions (Path, Extension, Process, IP Address) with search and type filtering in a popup DataGrid  ",
+        "translatedContent": "Exclusiones de Defender AV — Ver todas las exclusiones configuradas (Ruta, Extensión, Proceso, Dirección IP) con búsqueda y filtrado por tipo en una ventana emergente DataGrid  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Registry Key Information — Shows ManagedDefenderProductType, EnrollmentStatus, HideExclusionsFromLocalAdmins, DisableLocalAdminMerge, and determines management status with tamper protection validation (Intune-only, ConfigMgr, Co-managed scenarios)  \n\nUpdates  \nCurrent Signature Information — AV Signature version/age/last updated, Antispyware Signature version/age, NIS Signature version  \nLatest Microsoft Versions — Fetches the latest Engine, Platform, and Signature versions from Microsoft's website for comparison  \nUpdate Actions — Trigger a signature update via MpCmdRun.exe directly from the UI  \n\nLogs  \nSENSE Logs — View EDR sensor event logs (Microsoft-Windows-SENSE/Operational) with filtering by text and level (Information/Warning/Error), plus a detail pane for selected entries  \nDefender AV Logs — View antivirus event logs (Microsoft-Windows-Windows Defender/Operational) with the same filtering and detail capabilities  \n\nPerformance  \nPerformance Recording — Start a Defender AV performance recording session (New-MpPerformanceRecording) that captures scan activity to an ETL file  \nPerformance Reports — Generate reports from ETL recordings with selectable report types: Overview, Top 10 Files, Top 10 Extensions, Top 10 Processes, Top 10 Scans (multiple reports open simultaneously in separate windows)  \nEstimated Impact (MPlog) — Parse the latest MPlog file for EstimatedImpact entries, sorted by impact value, to identify high-impact scan targets  \nClient Analyzer Download — Download the official Microsoft Defender Client Analyzer tool (MDEClientAnalyzer.zip) to a folder of your choice  \n\nProxy  \nProxy Configuration — Displays the current Proxy URL and Proxy PAC configured for Defender  \n\nFirewall  \nProfile Status — View Domain, Private, and Public firewall profile settings (Enabled, Default Inbound/Outbound Action, Log Allowed)  \nFirewall Rules Browser — View all Windows Firewall rules in a filterable DataGrid with search, direction, action, enabled state, and profile filters. Shows rule name, ports, protocol, and program path  \n\n\n# References\n\nhttps://github.com/ugurkocde/Intune/blob/main/Defender%20for%20Endpoint/MDE%20-%20Update%20Tool/MDE_Update_Tool.ps1\n\nhttps://github.com/directorcia/Office365/blob/master/win10-asr-get.ps1\n\nhttps://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction\n\nhttps://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction\n\nhttps://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction-faq\n\n\n\n",
+    "ContentSha": "PUoMNXFeTP/6EVVxqEEmdaTEHFCMefXKe6BLUwZH98g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Información de la clave del registro — Muestra ManagedDefenderProductType, EnrollmentStatus, HideExclusionsFromLocalAdmins, DisableLocalAdminMerge, y determina el estado de gestión con validación de protección contra manipulaciones (solo Intune, ConfigMgr, escenarios co-gestionados)  \n\nActualizaciones  \nInformación actual de la firma — Versión/edad/última actualización de la firma AV, versión/edad de la firma antispyware, versión de la firma NIS  \nÚltimas versiones de Microsoft — Obtiene las últimas versiones del motor, plataforma y firmas desde el sitio web de Microsoft para comparación  \nAcciones de actualización — Ejecuta una actualización de firmas mediante MpCmdRun.exe directamente desde la interfaz de usuario  \n\nRegistros  \nRegistros SENSE — Ver registros de eventos del sensor EDR (Microsoft-Windows-SENSE/Operational) con filtrado por texto y nivel (Información/Advertencia/Error), además de un panel de detalles para entradas seleccionadas  \nRegistros de Defender AV — Ver registros de eventos del antivirus (Microsoft-Windows-Windows Defender/Operational) con las mismas capacidades de filtrado y detalle  \n\nRendimiento  \nGrabación de rendimiento — Iniciar una sesión de grabación de rendimiento de Defender AV (New-MpPerformanceRecording) que captura la actividad de escaneo en un archivo ETL  \nInformes de rendimiento — Generar informes a partir de grabaciones ETL con tipos de informes seleccionables: Visión general, Top 10 archivos, Top 10 extensiones, Top 10 procesos, Top 10 escaneos (múltiples informes abiertos simultáneamente en ventanas separadas)  \nImpacto estimado (MPlog) — Analizar el archivo MPlog más reciente para entradas EstimatedImpact, ordenadas por valor de impacto, para identificar objetivos de escaneo de alto impacto  \nDescarga del analizador de cliente — Descargar la herramienta oficial Microsoft Defender Client Analyzer (MDEClientAnalyzer.zip) a una carpeta de su elección  \n\nProxy  \nConfiguración del proxy — Muestra la URL de proxy actual y el PAC proxy configurados para Defender  \n\nCortafuegos  \nEstado del perfil — Ver configuraciones de perfil de cortafuegos de Dominio, Privado y Público (Habilitado, Acción predeterminada de entrada/salida, Registro permitido)  \nExplorador de reglas del cortafuegos — Ver todas las reglas del cortafuegos de Windows en un DataGrid filtrable con búsqueda, dirección, acción, estado habilitado y filtros de perfil. Muestra nombre de regla, puertos, protocolo y ruta del programa  \n\n\n# Referencias\n\nhttps://github.com/ugurkocde/Intune/blob/main/Defender%20for%20Endpoint/MDE%20-%20Update%20Tool/MDE_Update_Tool.ps1\n\nhttps://github.com/directorcia/Office365/blob/master/win10-asr-get.ps1\n\nhttps://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction\n\nhttps://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction\n\nhttps://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction-faq\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/5AncT1UOj3aJviLYPR0q+rXiB0H5lgZQmh9k0rUiAM=",
+        "originContent": "Registry Key Information — Shows ManagedDefenderProductType, EnrollmentStatus, HideExclusionsFromLocalAdmins, DisableLocalAdminMerge, and determines management status with tamper protection validation (Intune-only, ConfigMgr, Co-managed scenarios)  ",
+        "translatedContent": "Información de la clave del registro — Muestra ManagedDefenderProductType, EnrollmentStatus, HideExclusionsFromLocalAdmins, DisableLocalAdminMerge, y determina el estado de gestión con validación de protección contra manipulaciones (solo Intune, ConfigMgr, escenarios co-gestionados)  "
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "tYKetjdpZjQI+zHPWnzdRYDgqkXsRSLDervCLlKLgXA=",
+        "originContent": "Updates  ",
+        "translatedContent": "Actualizaciones  "
+      },
+      {
+        "row": 4,
+        "rowsha": "zIQyf3pz3zfjum7G4IePu5F3NCM8WEe/IgyqVyTSnNo=",
+        "originContent": "Current Signature Information — AV Signature version/age/last updated, Antispyware Signature version/age, NIS Signature version  ",
+        "translatedContent": "Información actual de la firma — Versión/edad/última actualización de la firma AV, versión/edad de la firma antispyware, versión de la firma NIS  "
+      },
+      {
+        "row": 5,
+        "rowsha": "lz5ttJSnoam2s7dgOxxClFHxPtBr8EZ8rxomBL+UZ1U=",
+        "originContent": "Latest Microsoft Versions — Fetches the latest Engine, Platform, and Signature versions from Microsoft's website for comparison  ",
+        "translatedContent": "Últimas versiones de Microsoft — Obtiene las últimas versiones del motor, plataforma y firmas desde el sitio web de Microsoft para comparación  "
+      },
+      {
+        "row": 6,
+        "rowsha": "N41rQJuMInrsajFD1E6rr8KWmrPen6dYOtqEPMenbVQ=",
+        "originContent": "Update Actions — Trigger a signature update via MpCmdRun.exe directly from the UI  ",
+        "translatedContent": "Acciones de actualización — Ejecuta una actualización de firmas mediante MpCmdRun.exe directamente desde la interfaz de usuario  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "eeq8sqaiVqgm5Y6dyfYq6cwdofBFjlpfFPx5dciowLc=",
+        "originContent": "Logs  ",
+        "translatedContent": "Registros  "
+      },
+      {
+        "row": 9,
+        "rowsha": "ot0DxNLYjZ/FNKEbTzYt3nnpqqmOa8OBOa9l3RE13qk=",
+        "originContent": "SENSE Logs — View EDR sensor event logs (Microsoft-Windows-SENSE/Operational) with filtering by text and level (Information/Warning/Error), plus a detail pane for selected entries  ",
+        "translatedContent": "Registros SENSE — Ver registros de eventos del sensor EDR (Microsoft-Windows-SENSE/Operational) con filtrado por texto y nivel (Información/Advertencia/Error), además de un panel de detalles para entradas seleccionadas  "
+      },
+      {
+        "row": 10,
+        "rowsha": "uRNTdy7BZJoIw9e+NtQa+uo9JKmeeL6KYQgiEZ/76zY=",
+        "originContent": "Defender AV Logs — View antivirus event logs (Microsoft-Windows-Windows Defender/Operational) with the same filtering and detail capabilities  ",
+        "translatedContent": "Registros de Defender AV — Ver registros de eventos del antivirus (Microsoft-Windows-Windows Defender/Operational) con las mismas capacidades de filtrado y detalle  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yyk93FnINUv1PUpJSjPDpj9IcWzhCE/DM8NE4SVKYIQ=",
+        "originContent": "Performance  ",
+        "translatedContent": "Rendimiento  "
+      },
+      {
+        "row": 13,
+        "rowsha": "qgC3suRm8DXqm4k4PFXUiO4W8vpwgAYYzy5z0Jcp2uo=",
+        "originContent": "Performance Recording — Start a Defender AV performance recording session (New-MpPerformanceRecording) that captures scan activity to an ETL file  ",
+        "translatedContent": "Grabación de rendimiento — Iniciar una sesión de grabación de rendimiento de Defender AV (New-MpPerformanceRecording) que captura la actividad de escaneo en un archivo ETL  "
+      },
+      {
+        "row": 14,
+        "rowsha": "1w83ljryB/cGcTTMP7yFwzldIyzzDHtrdX5rMpCxYKU=",
+        "originContent": "Performance Reports — Generate reports from ETL recordings with selectable report types: Overview, Top 10 Files, Top 10 Extensions, Top 10 Processes, Top 10 Scans (multiple reports open simultaneously in separate windows)  ",
+        "translatedContent": "Informes de rendimiento — Generar informes a partir de grabaciones ETL con tipos de informes seleccionables: Visión general, Top 10 archivos, Top 10 extensiones, Top 10 procesos, Top 10 escaneos (múltiples informes abiertos simultáneamente en ventanas separadas)  "
+      },
+      {
+        "row": 15,
+        "rowsha": "Rvo1LN3YOEa6hsZySEpIPyMhELfzZjs7QkgcT9+2TIA=",
+        "originContent": "Estimated Impact (MPlog) — Parse the latest MPlog file for EstimatedImpact entries, sorted by impact value, to identify high-impact scan targets  ",
+        "translatedContent": "Impacto estimado (MPlog) — Analizar el archivo MPlog más reciente para entradas EstimatedImpact, ordenadas por valor de impacto, para identificar objetivos de escaneo de alto impacto  "
+      },
+      {
+        "row": 16,
+        "rowsha": "TJZBpi6rfgS7rrjNr44SLETzQbeHWmcRCsqDTYShjo0=",
+        "originContent": "Client Analyzer Download — Download the official Microsoft Defender Client Analyzer tool (MDEClientAnalyzer.zip) to a folder of your choice  ",
+        "translatedContent": "Descarga del analizador de cliente — Descargar la herramienta oficial Microsoft Defender Client Analyzer (MDEClientAnalyzer.zip) a una carpeta de su elección  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "q6vOGdxka7kX/KqyxT+KNFYAQa68Qsj97sXhz88PqNs=",
+        "originContent": "Proxy  ",
+        "translatedContent": "Proxy  "
+      },
+      {
+        "row": 19,
+        "rowsha": "Gl3nT8eXX2NEBpSOpvyDsjhsdFnRgtXXd+ow7nIx2cE=",
+        "originContent": "Proxy Configuration — Displays the current Proxy URL and Proxy PAC configured for Defender  ",
+        "translatedContent": "Configuración del proxy — Muestra la URL de proxy actual y el PAC proxy configurados para Defender  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "PrGnSmNMiSTGB6HihBhWE9qPwWuxLlBITXcX/wEMtds=",
+        "originContent": "Firewall  ",
+        "translatedContent": "Cortafuegos  "
+      },
+      {
+        "row": 22,
+        "rowsha": "IR1yoasRajCP+4kGv9N0iBCHNA+fSH27dsJD2oaBGNI=",
+        "originContent": "Profile Status — View Domain, Private, and Public firewall profile settings (Enabled, Default Inbound/Outbound Action, Log Allowed)  ",
+        "translatedContent": "Estado del perfil — Ver configuraciones de perfil de cortafuegos de Dominio, Privado y Público (Habilitado, Acción predeterminada de entrada/salida, Registro permitido)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "bEsicd8QNSxCHVRmCZ9ozklhuuexPurHeT2c8S/14TM=",
+        "originContent": "Firewall Rules Browser — View all Windows Firewall rules in a filterable DataGrid with search, direction, action, enabled state, and profile filters. Shows rule name, ports, protocol, and program path  ",
+        "translatedContent": "Explorador de reglas del cortafuegos — Ver todas las reglas del cortafuegos de Windows en un DataGrid filtrable con búsqueda, dirección, acción, estado habilitado y filtros de perfil. Muestra nombre de regla, puertos, protocolo y ruta del programa  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "qqeNqFl8bX8V8FRsr3DWoSY6UcRkyD/D0ebbNa6tY8Y=",
+        "originContent": "# References",
+        "translatedContent": "# Referencias"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "32P6XokAEgGV/6XmAWMB032zFYHd9JwnqyhyWXloTI0=",
+        "originContent": "https://github.com/ugurkocde/Intune/blob/main/Defender%20for%20Endpoint/MDE%20-%20Update%20Tool/MDE_Update_Tool.ps1",
+        "translatedContent": "https://github.com/ugurkocde/Intune/blob/main/Defender%20for%20Endpoint/MDE%20-%20Update%20Tool/MDE_Update_Tool.ps1"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Q74eINlteCgOr/5f+rdIV5kZzxCtwH4F9BNRZN7IySo=",
+        "originContent": "https://github.com/directorcia/Office365/blob/master/win10-asr-get.ps1",
+        "translatedContent": "https://github.com/directorcia/Office365/blob/master/win10-asr-get.ps1"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "z9PM1CHxLiI/pfHxdIQK4WlOwghazzZBjNnAmP5BEHo=",
+        "originContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction",
+        "translatedContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "B2XVPjcm6j75B/jGMu0ZdQErMmS6th5V+nhv5h/zSsA=",
+        "originContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction",
+        "translatedContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "rWweICzmbHFj5GzFTk8zz2uJsvz9obbgaf37aZYy9rA=",
+        "originContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction-faq",
+        "translatedContent": "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction-faq"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
