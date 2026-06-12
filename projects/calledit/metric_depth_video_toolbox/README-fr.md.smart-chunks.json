@@ -1,0 +1,963 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Metric depth video toolbox (MDVToolbox)\n\nTools for Generating and working with metric 3D depth videos.\n\n![gif_banner](https://github.com/user-attachments/assets/4d737bb3-6fb6-4135-b01e-b35528371d22)\n\n_Banner created with 3d_view_depthfile.py_\n\n## Demos\n\n**Showcase video:** https://youtu.be/nEiUloZ591Q\n\n**Movie → 3D conversion demo**: https://www.youtube.com/watch?v=PLFjoNgkZDY\n\n**Sample stereo clips:**\nhttps://github.com/calledit/metric_depth_video_toolbox/releases/tag/Showcase\n\n\n## Features\n\n### Metric Depth Video Generation\n\nConvert rgb videos into metric depth videos using multiple SOTA models:\n\n- Depth-Anything series (`video_metric_convert.py`) and (`videoanythingmetric_video.py`)\n- MoGe  (`moge_video.py`)\n- UniDepth  (`unidepth_video.py`)\n- UniK3D  (`unik3d_video.py`)\n- DepthPro  (`depthpro_video.py`)\n- DepthCrafter  (`depthcrafter_video.py`)\n- MVSAnywhere  (`video_mvsa.py`)\n\n### Stereo / 3D Conversion\n\n- 2D movies → 3D (`movie_2_3D.py`)\n- Stereo rendering from depth and rgb video (`stereo_rerender.py`)\n- Parallax infill & diffusion-based stereo inpainting (`stereo_crafter_infill.py`)\n\n### Visualization\n",
+    "ContentSha": "foqpIps7nU6Mm5KmT83uiVZUpPjtzWDW4sT2ZXmxnAA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Boîte à outils vidéo de profondeur métrique (MDVToolbox)\n\nOutils pour générer et travailler avec des vidéos 3D de profondeur métrique.\n\n![gif_banner](https://github.com/user-attachments/assets/4d737bb3-6fb6-4135-b01e-b35528371d22)\n\n_Bannière créée avec 3d_view_depthfile.py_\n\n## Démonstrations\n\n**Vidéo de présentation :** https://youtu.be/nEiUloZ591Q\n\n**Démo conversion film → 3D** : https://www.youtube.com/watch?v=PLFjoNgkZDY\n\n**Extraits stéréo d’exemple :**\nhttps://github.com/calledit/metric_depth_video_toolbox/releases/tag/Showcase\n\n\n## Fonctionnalités\n\n### Génération de vidéos de profondeur métrique\n\nConvertir des vidéos rgb en vidéos de profondeur métrique en utilisant plusieurs modèles SOTA :\n\n- Série Depth-Anything (`video_metric_convert.py`) et (`videoanythingmetric_video.py`)\n- MoGe  (`moge_video.py`)\n- UniDepth  (`unidepth_video.py`)\n- UniK3D  (`unik3d_video.py`)\n- DepthPro  (`depthpro_video.py`)\n- DepthCrafter  (`depthcrafter_video.py`)\n- MVSAnywhere  (`video_mvsa.py`)\n\n### Conversion stéréo / 3D\n\n- Films 2D → 3D (`movie_2_3D.py`)\n- Rendu stéréo à partir de vidéos de profondeur et rgb (`stereo_rerender.py`)\n- Remplissage de parallaxe & inpainting stéréo basé sur la diffusion (`stereo_crafter_infill.py`)\n\n### Visualisation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4CZPjy54DUv/gugsr5i90cyc03wuvddmFhS5O852gtU=",
+        "originContent": "# Metric depth video toolbox (MDVToolbox)",
+        "translatedContent": "# Boîte à outils vidéo de profondeur métrique (MDVToolbox)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "RTsnr8CK/dH9eMFvuBxcArpuJm/xXTzay1oE+o3cd20=",
+        "originContent": "Tools for Generating and working with metric 3D depth videos.",
+        "translatedContent": "Outils pour générer et travailler avec des vidéos 3D de profondeur métrique."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wUTXZ8WCTci9YUmOlsFUsbtzxWekHtiZw4lLXsxcETg=",
+        "originContent": "![gif_banner](https://github.com/user-attachments/assets/4d737bb3-6fb6-4135-b01e-b35528371d22)",
+        "translatedContent": "![gif_banner](https://github.com/user-attachments/assets/4d737bb3-6fb6-4135-b01e-b35528371d22)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "72xgyr+zsXtwcZxTv6Nvluf2JXFZUP5+Uq2LOnpptFk=",
+        "originContent": "_Banner created with 3d_view_depthfile.py_",
+        "translatedContent": "_Bannière créée avec 3d_view_depthfile.py_"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "t5ZY7hdgJWgoAzJoT0P8EoI2v+qmVbi7gITr3Qnf1Ow=",
+        "originContent": "## Demos",
+        "translatedContent": "## Démonstrations"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "O5ZGvIs3YqlVd6ob1lE8UitvcLjACsrsxn59omOW9AA=",
+        "originContent": "**Showcase video:** https://youtu.be/nEiUloZ591Q",
+        "translatedContent": "**Vidéo de présentation :** https://youtu.be/nEiUloZ591Q"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "gSmrjvR2wv1DoKTRjD78QHq2vF9Ly3hK2yXMNc3lbO8=",
+        "originContent": "**Movie → 3D conversion demo**: https://www.youtube.com/watch?v=PLFjoNgkZDY",
+        "translatedContent": "**Démo conversion film → 3D** : https://www.youtube.com/watch?v=PLFjoNgkZDY"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "JE1Z6NuqgH76EKj4oyfNZt1C0Gq4ZsP914T/qowk4+k=",
+        "originContent": "**Sample stereo clips:**",
+        "translatedContent": "**Extraits stéréo d’exemple :**"
+      },
+      {
+        "row": 16,
+        "rowsha": "IyWOW1gAV7op93O6nQvnM9rXp/0EvfuQeCt9Dh6JuvQ=",
+        "originContent": "https://github.com/calledit/metric_depth_video_toolbox/releases/tag/Showcase",
+        "translatedContent": "https://github.com/calledit/metric_depth_video_toolbox/releases/tag/Showcase"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "fn7GBI38RxIv/o5Q66xvkdUHonW5F24wj8adADxJDA4=",
+        "originContent": "### Metric Depth Video Generation",
+        "translatedContent": "### Génération de vidéos de profondeur métrique"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Ir3FYb+v5ZoVVg70v9u5fTZK2TxB9fiPbfmGj6R03l0=",
+        "originContent": "Convert rgb videos into metric depth videos using multiple SOTA models:",
+        "translatedContent": "Convertir des vidéos rgb en vidéos de profondeur métrique en utilisant plusieurs modèles SOTA :"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "9gyVR1l6XMwCafPomm4tDC4HgP75qeKvt1hMQbXevv0=",
+        "originContent": "- Depth-Anything series (`video_metric_convert.py`) and (`videoanythingmetric_video.py`)",
+        "translatedContent": "- Série Depth-Anything (`video_metric_convert.py`) et (`videoanythingmetric_video.py`)"
+      },
+      {
+        "row": 26,
+        "rowsha": "r4oD/HfsqGQlHX3BM6A3bhbZkyFBbUfbDbkRlQekTO0=",
+        "originContent": "- MoGe  (`moge_video.py`)",
+        "translatedContent": "- MoGe  (`moge_video.py`)"
+      },
+      {
+        "row": 27,
+        "rowsha": "0K+1OjYVq4+3hkwb6HziDvTLdVHavq796gXclLgfliM=",
+        "originContent": "- UniDepth  (`unidepth_video.py`)",
+        "translatedContent": "- UniDepth  (`unidepth_video.py`)"
+      },
+      {
+        "row": 28,
+        "rowsha": "rTGRZ+htEAuZN3XiHPQWCLMufJbFBWfjoip/GM5CF4s=",
+        "originContent": "- UniK3D  (`unik3d_video.py`)",
+        "translatedContent": "- UniK3D  (`unik3d_video.py`)"
+      },
+      {
+        "row": 29,
+        "rowsha": "GjEsjTDk6z3AAtIoSSWejXW+LruSO/TdcmPzWoumDUE=",
+        "originContent": "- DepthPro  (`depthpro_video.py`)",
+        "translatedContent": "- DepthPro  (`depthpro_video.py`)"
+      },
+      {
+        "row": 30,
+        "rowsha": "E+pMXFyFyXGxMvYz6FbpoI7CDP1x8Zv5td+eLKDNU5c=",
+        "originContent": "- DepthCrafter  (`depthcrafter_video.py`)",
+        "translatedContent": "- DepthCrafter  (`depthcrafter_video.py`)"
+      },
+      {
+        "row": 31,
+        "rowsha": "KDcYhdAzMxdYjgvGVpqvJPoHfdz9JZHsg37b00xbXCU=",
+        "originContent": "- MVSAnywhere  (`video_mvsa.py`)",
+        "translatedContent": "- MVSAnywhere  (`video_mvsa.py`)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "LlohIWdtCm5od15PP+kd8Mwth7z49Kjtnj5m/wAwCqg=",
+        "originContent": "### Stereo / 3D Conversion",
+        "translatedContent": "### Conversion stéréo / 3D"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Pflp1crlxgzbtvwT1gFoGIHXR/gnDdFJczqWud8IKm8=",
+        "originContent": "- 2D movies → 3D (`movie_2_3D.py`)",
+        "translatedContent": "- Films 2D → 3D (`movie_2_3D.py`)"
+      },
+      {
+        "row": 36,
+        "rowsha": "zkOJaT723Vs+ZOSMF2Uh5vMxBdVmwuQeLI5VfI1ykhk=",
+        "originContent": "- Stereo rendering from depth and rgb video (`stereo_rerender.py`)",
+        "translatedContent": "- Rendu stéréo à partir de vidéos de profondeur et rgb (`stereo_rerender.py`)"
+      },
+      {
+        "row": 37,
+        "rowsha": "aNELU9en8iP0V0dRQwzxC1+EH03+teiE/rYqojg/5+k=",
+        "originContent": "- Parallax infill & diffusion-based stereo inpainting (`stereo_crafter_infill.py`)",
+        "translatedContent": "- Remplissage de parallaxe & inpainting stéréo basé sur la diffusion (`stereo_crafter_infill.py`)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "uIadiY4PHc953ca16pZkIBylvGxxowqU+YI/ocJ2Y9c=",
+        "originContent": "### Visualization",
+        "translatedContent": "### Visualisation"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Real-time 3D viewer for metric depth videos (`3d_view_depthfile.py`)\n- Novel-view rendering from depth video (`3d_view_depthfile.py`)\n\n### Camera Tracking & 3D Reconstruction\n\n- Depth-assisted camera tracking (`sam_track_video.py`) and (`align_3d_points.py`)\n- Long-term point tracking (CoTracker3) (`track_points_in_video.py`)\n- Pose extraction & alignment tools\n\n### Export Tools\n\nExport metric depth video to standard formats for use in other tools: (`convert_metric_depth_video_to_other_format.py`)\n\n- `.ply` point clouds\n- `.obj` meshes\n- Blender `.blend` & Alembic `.abc` camera tracks\n- 8-bit / 16-bit depth maps\n- Depth rescaling based on triangulation\n\n### Masking & Cleanup\n\n- Automatic main subject masking (`generate_video_mask.py`)\n- Subtitle/logo inpainting (`apply_inpainting.sh`)\n\n\n## Documentation\n\n| Topic | Link |\n|---|---|\nBeginner guide | [`HOWTO.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO.md)  \nMovie → 3D guide | [`HOWTO_movie2_3d.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO_movie2_3d.md)  \nFull tool reference | [`USAGE.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/USAGE.md)  \nGUI tutorial video | https://youtu.be/BE_aJCI7DHI  \n\n\n## Depth Video Format\n\nMDVT uses **RGB-encoded 16-bit metric depth**:\n\n- **Red + Green** = upper 8 bits (duplicated for visibility)  ",
+    "ContentSha": "W245sfC+ws7AOfSSKhSNR1iFVo36CZTdwZLQ5rM2Wy4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Visionneuse 3D en temps réel pour vidéos de profondeur métrique (`3d_view_depthfile.py`)\n- Rendu de nouvelle vue à partir de vidéo de profondeur (`3d_view_depthfile.py`)\n\n### Suivi de Caméra & Reconstruction 3D\n\n- Suivi de caméra assisté par profondeur (`sam_track_video.py`) et (`align_3d_points.py`)\n- Suivi de points à long terme (CoTracker3) (`track_points_in_video.py`)\n- Outils d'extraction et d'alignement de pose\n\n### Outils d'Exportation\n\nExporter la vidéo de profondeur métrique vers des formats standards pour utilisation dans d'autres outils : (`convert_metric_depth_video_to_other_format.py`)\n\n- Nuages de points `.ply`\n- Maillages `.obj`\n- Pistes de caméra Blender `.blend` & Alembic `.abc`\n- Cartes de profondeur 8 bits / 16 bits\n- Recalibrage de profondeur basé sur la triangulation\n\n### Masquage & Nettoyage\n\n- Masquage automatique du sujet principal (`generate_video_mask.py`)\n- Retouche de sous-titres/logo par inpainting (`apply_inpainting.sh`)\n\n\n## Documentation\n\n| Sujet | Lien |\n|---|---|\nGuide débutant | [`HOWTO.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO.md)  \nGuide Film → 3D | [`HOWTO_movie2_3d.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO_movie2_3d.md)  \nRéférence complète de l'outil | [`USAGE.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/USAGE.md)  \nTutoriel vidéo GUI | https://youtu.be/BE_aJCI7DHI  \n\n\n## Format Vidéo de Profondeur\n\nMDVT utilise une **profondeur métrique 16 bits encodée en RGB** :\n\n- **Rouge + Vert** = 8 bits supérieurs (dupliqués pour visibilité)  ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ql1wR3tIyALak5Cxu7cDbrgxpMaG9RgkiHEUgKXO1uQ=",
+        "originContent": "- Real-time 3D viewer for metric depth videos (`3d_view_depthfile.py`)",
+        "translatedContent": "- Visionneuse 3D en temps réel pour vidéos de profondeur métrique (`3d_view_depthfile.py`)"
+      },
+      {
+        "row": 2,
+        "rowsha": "kzP8vjdt0fO3Lnk9i9hK9SvJG+QjBfDRB1fImXSIDwU=",
+        "originContent": "- Novel-view rendering from depth video (`3d_view_depthfile.py`)",
+        "translatedContent": "- Rendu de nouvelle vue à partir de vidéo de profondeur (`3d_view_depthfile.py`)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "YJkE+arWcxB57fY+kayWjMFBjY/X2Qfo/a92OFg2dQI=",
+        "originContent": "### Camera Tracking & 3D Reconstruction",
+        "translatedContent": "### Suivi de Caméra & Reconstruction 3D"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ly4QNQam8YDRpziWJFd9vYGsjSTdU391Bbg3GGk2yuQ=",
+        "originContent": "- Depth-assisted camera tracking (`sam_track_video.py`) and (`align_3d_points.py`)",
+        "translatedContent": "- Suivi de caméra assisté par profondeur (`sam_track_video.py`) et (`align_3d_points.py`)"
+      },
+      {
+        "row": 7,
+        "rowsha": "/bK6/46xwkV/a9kLGEluI4zAGWCDgDdAB5xt8MpnAeI=",
+        "originContent": "- Long-term point tracking (CoTracker3) (`track_points_in_video.py`)",
+        "translatedContent": "- Suivi de points à long terme (CoTracker3) (`track_points_in_video.py`)"
+      },
+      {
+        "row": 8,
+        "rowsha": "e68Dh8NQ7jVijk+9jR+tguG1AJl9lANPTnyyBd8RYmM=",
+        "originContent": "- Pose extraction & alignment tools",
+        "translatedContent": "- Outils d'extraction et d'alignement de pose"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "n4VVfw2YeHptd8TUNMgNFx4WSHnMi8oDHpoQXlEGZO0=",
+        "originContent": "### Export Tools",
+        "translatedContent": "### Outils d'Exportation"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "mFAigT8hxfNKjnuWFxrGBx8GcIG8OObQbZUFLk+hmBM=",
+        "originContent": "Export metric depth video to standard formats for use in other tools: (`convert_metric_depth_video_to_other_format.py`)",
+        "translatedContent": "Exporter la vidéo de profondeur métrique vers des formats standards pour utilisation dans d'autres outils : (`convert_metric_depth_video_to_other_format.py`)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "6IwWehS+1jAdgeoofB3nDFCWJ409w98EMb5pZt2aixc=",
+        "originContent": "- `.ply` point clouds",
+        "translatedContent": "- Nuages de points `.ply`"
+      },
+      {
+        "row": 15,
+        "rowsha": "aNSu9fxN8JA/6myFvRDucaCUU59AuXSPZje55oljfws=",
+        "originContent": "- `.obj` meshes",
+        "translatedContent": "- Maillages `.obj`"
+      },
+      {
+        "row": 16,
+        "rowsha": "6Wtls9GnFmNn41CiCENu7TFBQZZWQ85hCZnHBphA/7g=",
+        "originContent": "- Blender `.blend` & Alembic `.abc` camera tracks",
+        "translatedContent": "- Pistes de caméra Blender `.blend` & Alembic `.abc`"
+      },
+      {
+        "row": 17,
+        "rowsha": "cFpy3zr/Z5agzlv5q/otxZEPhcPRKi2KSZ+wQXbnLc0=",
+        "originContent": "- 8-bit / 16-bit depth maps",
+        "translatedContent": "- Cartes de profondeur 8 bits / 16 bits"
+      },
+      {
+        "row": 18,
+        "rowsha": "iyyu7YOTYluDsVx6+b5s+rgB6/862uIsuRa0sr+9SfI=",
+        "originContent": "- Depth rescaling based on triangulation",
+        "translatedContent": "- Recalibrage de profondeur basé sur la triangulation"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "gC6gTpZeUZaUPzjn4dIggI5/obxvZLibQc/M97TfRrQ=",
+        "originContent": "### Masking & Cleanup",
+        "translatedContent": "### Masquage & Nettoyage"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Cs07rSHJxEuElJ6z1AjaEQjIjOQHlBcU9XH0+HwYf2Q=",
+        "originContent": "- Automatic main subject masking (`generate_video_mask.py`)",
+        "translatedContent": "- Masquage automatique du sujet principal (`generate_video_mask.py`)"
+      },
+      {
+        "row": 23,
+        "rowsha": "XeaG41PwnJjIVWzOUfzjb9V4GQhoffpi6K1AfsEdthQ=",
+        "originContent": "- Subtitle/logo inpainting (`apply_inpainting.sh`)",
+        "translatedContent": "- Retouche de sous-titres/logo par inpainting (`apply_inpainting.sh`)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## Documentation"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "7oO+223uI2XyyzMHsQ+E2GlClakBGLwvhUAVAYjvOSk=",
+        "originContent": "| Topic | Link |",
+        "translatedContent": "| Sujet | Lien |"
+      },
+      {
+        "row": 29,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 30,
+        "rowsha": "mWzcQf7qbDOibjOoiuGIIbdvmcjg11PhqyRcuEGHZBc=",
+        "originContent": "Beginner guide | [`HOWTO.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO.md)  ",
+        "translatedContent": "Guide débutant | [`HOWTO.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO.md)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "DGKeo60xx6SVysk5cxxGyDF7VNMAc+FkY25ZugdObZ4=",
+        "originContent": "Movie → 3D guide | [`HOWTO_movie2_3d.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO_movie2_3d.md)  ",
+        "translatedContent": "Guide Film → 3D | [`HOWTO_movie2_3d.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO_movie2_3d.md)  "
+      },
+      {
+        "row": 32,
+        "rowsha": "EfsgJSy6rS/Xw9CfzB0JzR3EQyrCa4bfFmeqpt1E00A=",
+        "originContent": "Full tool reference | [`USAGE.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/USAGE.md)  ",
+        "translatedContent": "Référence complète de l'outil | [`USAGE.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/USAGE.md)  "
+      },
+      {
+        "row": 33,
+        "rowsha": "WDVNtwVUukm39i+4WCrNZnhb8bBU76RulQTCo9P6/gE=",
+        "originContent": "GUI tutorial video | https://youtu.be/BE_aJCI7DHI  ",
+        "translatedContent": "Tutoriel vidéo GUI | https://youtu.be/BE_aJCI7DHI  "
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "GezC4B2Fmuk97Q3hcm0N2TICAfgMFaLHXTISQ6TQ5dI=",
+        "originContent": "## Depth Video Format",
+        "translatedContent": "## Format Vidéo de Profondeur"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "F5MeuavcDJ6/z34mTgH2D2gDLI8jZzITE/bZX1jaBH4=",
+        "originContent": "MDVT uses **RGB-encoded 16-bit metric depth**:",
+        "translatedContent": "MDVT utilise une **profondeur métrique 16 bits encodée en RGB** :"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "zg7f+3zC+rsD0y8q2NhwsPmU/AwX3xJSg20LnY1DgMM=",
+        "originContent": "- **Red + Green** = upper 8 bits (duplicated for visibility)  ",
+        "translatedContent": "- **Rouge + Vert** = 8 bits supérieurs (dupliqués pour visibilité)  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "- **Blue** = lower 8 bits  \n- Default range: **100 meters**\n- Resolution: **~1.5mm depth precision**\n\nFuture upgrade for more precision will be done with: **24-bit depth** or **log-encoded depth** for long-range accuracy.\n\n---\n\n## Installation\n\n### Windows\n1. install git https://git-scm.com/downloads/win\n2. Install miniconda https://docs.conda.io/en/latest/\n3. Open the Anacoda prompt(miniconda) from the start menu\n4. run",
+    "ContentSha": "gJhbDdh6BVyB/uiM79sxWGnNewZJOm82eVdEZGSxxP4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Bleu** = 8 bits inférieurs  \n- Plage par défaut : **100 mètres**  \n- Résolution : **~1,5 mm de précision en profondeur**  \n\nLa mise à niveau future pour plus de précision sera effectuée avec : **profondeur 24 bits** ou **profondeur encodée en log** pour une précision à longue portée.  \n\n---  \n\n## Installation  \n\n### Windows  \n1. installer git https://git-scm.com/downloads/win  \n2. Installer miniconda https://docs.conda.io/en/latest/  \n3. Ouvrir l'invite Anaconda (miniconda) depuis le menu démarrer  \n4. exécuter",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iq6KcMyM0DgyKp+RK3XY/X1AdDznMgHk+O/TYwvcsdA=",
+        "originContent": "- **Blue** = lower 8 bits  ",
+        "translatedContent": "- **Bleu** = 8 bits inférieurs  "
+      },
+      {
+        "row": 2,
+        "rowsha": "3SsAyNrrd7ETp+MFPCuQvB37JZUERU8tL1GFHxUakA0=",
+        "originContent": "- Default range: **100 meters**",
+        "translatedContent": "- Plage par défaut : **100 mètres**  "
+      },
+      {
+        "row": 3,
+        "rowsha": "Onwe2wSh44MlIplglxYKf9MwJRWrudLBLEpA2u60MK8=",
+        "originContent": "- Resolution: **~1.5mm depth precision**",
+        "translatedContent": "- Résolution : **~1,5 mm de précision en profondeur**  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "YvJe3ic1jWOIWrjcRk2hOmQCVHbHqdZP+7QB80aLOs4=",
+        "originContent": "Future upgrade for more precision will be done with: **24-bit depth** or **log-encoded depth** for long-range accuracy.",
+        "translatedContent": "La mise à niveau future pour plus de précision sera effectuée avec : **profondeur 24 bits** ou **profondeur encodée en log** pour une précision à longue portée.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows  "
+      },
+      {
+        "row": 12,
+        "rowsha": "Hscp709M+b5jAIZDe9iyXkUDeeWDt6/53cLjtrS9SOA=",
+        "originContent": "1. install git https://git-scm.com/downloads/win",
+        "translatedContent": "1. installer git https://git-scm.com/downloads/win  "
+      },
+      {
+        "row": 13,
+        "rowsha": "872FJsqHAHMsCCHqp7jbQIujgLsh5y91EKbfgJpunJU=",
+        "originContent": "2. Install miniconda https://docs.conda.io/en/latest/",
+        "translatedContent": "2. Installer miniconda https://docs.conda.io/en/latest/  "
+      },
+      {
+        "row": 14,
+        "rowsha": "qPFmS65240rJpOP2PvIxnKtBEAVkFj5scPxGlRPHQlA=",
+        "originContent": "3. Open the Anacoda prompt(miniconda) from the start menu",
+        "translatedContent": "3. Ouvrir l'invite Anaconda (miniconda) depuis le menu démarrer  "
+      },
+      {
+        "row": 15,
+        "rowsha": "j+SW7idR68/Hd4fV0IxSNPngaaVnjd02uwg77VQuW2o=",
+        "originContent": "4. run",
+        "translatedContent": "4. exécuter"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```batch\ngit clone https://github.com/calledit/metric_depth_video_toolbox\ncd metric_depth_video_toolbox\nwindows_installer.bat\n```",
+    "ContentSha": "C8mPbX6iQZeKnj06GprbLEKWxV5Q3NPuIeFhUTriZSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```batch\ngit clone https://github.com/calledit/metric_depth_video_toolbox\ncd metric_depth_video_toolbox\nwindows_installer.bat\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "txd8/pv679SjSm8htmDZPuJhLossz7JhjWQEnvDYj6I=",
+        "originContent": "```batch",
+        "translatedContent": "```batch"
+      },
+      {
+        "row": 2,
+        "rowsha": "v5X//CsMPD4FicSbcuItGKpG45U6QFMRD3ArRCV0LEg=",
+        "originContent": "git clone https://github.com/calledit/metric_depth_video_toolbox",
+        "translatedContent": "git clone https://github.com/calledit/metric_depth_video_toolbox"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZnaJGHabm9Z3083hjXJlTPHx9lFc7l/FtWOBmEgvOt8=",
+        "originContent": "cd metric_depth_video_toolbox",
+        "translatedContent": "cd metric_depth_video_toolbox"
+      },
+      {
+        "row": 4,
+        "rowsha": "LyExWcKXr5NksdZZQHY4Kn0QjfkQy9WfGO3FF+Q3Qq4=",
+        "originContent": "windows_installer.bat",
+        "translatedContent": "windows_installer.bat"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "5. use `conda activate mdvt` to activate conda and use the tools. Some ML models are not supported on windows but the most esential ones are supported like Sterecrafter and depth anything.\n\n### Ubuntu/Debian and OSX\n",
+    "ContentSha": "FDhmwhVJwysyn8uCn0i/Gn2hFoN25tV78D9SycDKkK4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "5. utilisez `conda activate mdvt` pour activer conda et utiliser les outils. Certains modèles ML ne sont pas pris en charge sous Windows mais les plus essentiels le sont, comme Sterecrafter et depth anything.\n\n### Ubuntu/Debian et OSX\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eeziDE1aQi06AvWb3xqPTmwiZw2cxIW3Pt5f+CODzYE=",
+        "originContent": "5. use `conda activate mdvt` to activate conda and use the tools. Some ML models are not supported on windows but the most esential ones are supported like Sterecrafter and depth anything.",
+        "translatedContent": "5. utilisez `conda activate mdvt` pour activer conda et utiliser les outils. Certains modèles ML ne sont pas pris en charge sous Windows mais les plus essentiels le sont, comme Sterecrafter et depth anything."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jRZc4PEKdkm/r6x7NLGKG8SZb94E6a+cGU/Rzm5IqWw=",
+        "originContent": "### Ubuntu/Debian and OSX",
+        "translatedContent": "### Ubuntu/Debian et OSX"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n\n\ngit clone https://github.com/calledit/metric_depth_video_toolbox\ncd metric_depth_video_toolbox\n\n# on linux\nsudo apt-get install -y libgl1\n./install_mdvtoolbox.sh\n\n#Optional (only required for some tools)\n./install_mdvtoolbox.sh -megasam\n./install_mdvtoolbox.sh -geometrycrafter\n./install_mdvtoolbox.sh -unik3d\n./install_mdvtoolbox.sh -depthpro\n./install_mdvtoolbox.sh -stereocrafter\n./install_mdvtoolbox.sh -madpose\n./install_mdvtoolbox.sh -unidepth\n./install_mdvtoolbox.sh -moge\n./install_mdvtoolbox.sh -promptda\n\n# if using headless linux you need to start a virtual x11 server\napt-get install xvfb\nXvfb :2 &\nexport DISPLAY=:2\n\n# OSX (OSX only supports post processing of depth videos not generation of them. As the ML models need CUDA)\n# (open3d requires python3.11 on OSX (as of 2025)))\npip3.11 install open3d numpy opencv-python\n\n```",
+    "ContentSha": "x+3Pcuf+5Ffiwo/vROiKJn2OKRxY/NPHMyY+BLjUU/U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n\n\ngit clone https://github.com/calledit/metric_depth_video_toolbox\ncd metric_depth_video_toolbox\n\n# on linux\nsudo apt-get install -y libgl1\n./install_mdvtoolbox.sh\n\n#Optional (only required for some tools)\n./install_mdvtoolbox.sh -megasam\n./install_mdvtoolbox.sh -geometrycrafter\n./install_mdvtoolbox.sh -unik3d\n./install_mdvtoolbox.sh -depthpro\n./install_mdvtoolbox.sh -stereocrafter\n./install_mdvtoolbox.sh -madpose\n./install_mdvtoolbox.sh -unidepth\n./install_mdvtoolbox.sh -moge\n./install_mdvtoolbox.sh -promptda\n\n# if using headless linux you need to start a virtual x11 server\napt-get install xvfb\nXvfb :2 &\nexport DISPLAY=:2\n\n# OSX (OSX only supports post processing of depth videos not generation of them. As the ML models need CUDA)\n# (open3d requires python3.11 on OSX (as of 2025)))\npip3.11 install open3d numpy opencv-python\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "v5X//CsMPD4FicSbcuItGKpG45U6QFMRD3ArRCV0LEg=",
+        "originContent": "git clone https://github.com/calledit/metric_depth_video_toolbox",
+        "translatedContent": "git clone https://github.com/calledit/metric_depth_video_toolbox"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZnaJGHabm9Z3083hjXJlTPHx9lFc7l/FtWOBmEgvOt8=",
+        "originContent": "cd metric_depth_video_toolbox",
+        "translatedContent": "cd metric_depth_video_toolbox"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "cehuiYayltjIgpXyt93hAXHuRdVLENLRb+7VgiWU17U=",
+        "originContent": "# on linux",
+        "translatedContent": "# on linux"
+      },
+      {
+        "row": 8,
+        "rowsha": "u7rVqDMm0BR5tespFDuKnjs8QA67QTmXQUXFPcRLBX4=",
+        "originContent": "sudo apt-get install -y libgl1",
+        "translatedContent": "sudo apt-get install -y libgl1"
+      },
+      {
+        "row": 9,
+        "rowsha": "f3ZKTd/bas2maUJtz63UiSRpoNrxHld9me3WKZYi81E=",
+        "originContent": "./install_mdvtoolbox.sh",
+        "translatedContent": "./install_mdvtoolbox.sh"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "tizaWEgSg2og5mjGLAy1CPco1G70Kf7/ssNqn/XSHTc=",
+        "originContent": "#Optional (only required for some tools)",
+        "translatedContent": "#Optional (only required for some tools)"
+      },
+      {
+        "row": 12,
+        "rowsha": "j4ZpMOmSY+UMERx6cBUnxuCjuM5gih5/RmG9MTS5UoE=",
+        "originContent": "./install_mdvtoolbox.sh -megasam",
+        "translatedContent": "./install_mdvtoolbox.sh -megasam"
+      },
+      {
+        "row": 13,
+        "rowsha": "spMVy6grD3vjHTnZEKQNpF51lGgqDBW+PoKfz5Wi6kU=",
+        "originContent": "./install_mdvtoolbox.sh -geometrycrafter",
+        "translatedContent": "./install_mdvtoolbox.sh -geometrycrafter"
+      },
+      {
+        "row": 14,
+        "rowsha": "Lj/HMCUVwoBX0jowSQsbxzUYdY8bAVMMVLGXE7mi1eo=",
+        "originContent": "./install_mdvtoolbox.sh -unik3d",
+        "translatedContent": "./install_mdvtoolbox.sh -unik3d"
+      },
+      {
+        "row": 15,
+        "rowsha": "0fqRwfUh+6EKXtxR/NKucoGefZEZ8w6k3ykkGZEIvOc=",
+        "originContent": "./install_mdvtoolbox.sh -depthpro",
+        "translatedContent": "./install_mdvtoolbox.sh -depthpro"
+      },
+      {
+        "row": 16,
+        "rowsha": "Nq2c8n0RVCTDbEZWINK0pBTej+pRubtgjCCmCm4KncM=",
+        "originContent": "./install_mdvtoolbox.sh -stereocrafter",
+        "translatedContent": "./install_mdvtoolbox.sh -stereocrafter"
+      },
+      {
+        "row": 17,
+        "rowsha": "rTCfnArauwUm7L+c6YTMeJ3si5H8YkklASMH7HVzoW4=",
+        "originContent": "./install_mdvtoolbox.sh -madpose",
+        "translatedContent": "./install_mdvtoolbox.sh -madpose"
+      },
+      {
+        "row": 18,
+        "rowsha": "OJuqZeRkVZzel8CRj6LEgxefl4JoWqKWRp60Zf4tJCg=",
+        "originContent": "./install_mdvtoolbox.sh -unidepth",
+        "translatedContent": "./install_mdvtoolbox.sh -unidepth"
+      },
+      {
+        "row": 19,
+        "rowsha": "A2SppYLi0/sFzNp+jZZehVqGJ34e8rkIRADtuPXsXXw=",
+        "originContent": "./install_mdvtoolbox.sh -moge",
+        "translatedContent": "./install_mdvtoolbox.sh -moge"
+      },
+      {
+        "row": 20,
+        "rowsha": "YohEyI9Z4YcwSRY6QyKtTHgxOVhhrnSgECxp4jZQMUA=",
+        "originContent": "./install_mdvtoolbox.sh -promptda",
+        "translatedContent": "./install_mdvtoolbox.sh -promptda"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "+cjNrzZ+a3zfCVL6i3GCDsqn8z84yl3h70C5PRI7m4g=",
+        "originContent": "# if using headless linux you need to start a virtual x11 server",
+        "translatedContent": "# if using headless linux you need to start a virtual x11 server"
+      },
+      {
+        "row": 23,
+        "rowsha": "JjTYGzSlQZ1oM+UKFYC3zqIHCpRW6mDmNg8FkVA2TKU=",
+        "originContent": "apt-get install xvfb",
+        "translatedContent": "apt-get install xvfb"
+      },
+      {
+        "row": 24,
+        "rowsha": "qjBQW/yYlyvdulInBvzKbC5RBujv3miycOWxXn8ymuM=",
+        "originContent": "Xvfb :2 &",
+        "translatedContent": "Xvfb :2 &"
+      },
+      {
+        "row": 25,
+        "rowsha": "gZsOMZXwpLZTI7L9+vb899KOXIHvb3/z42rVEGkpwtg=",
+        "originContent": "export DISPLAY=:2",
+        "translatedContent": "export DISPLAY=:2"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "KILPNQIDL9sHVQxmRvP8fMTmRWTKqvpHvV3J8WnDBjQ=",
+        "originContent": "# OSX (OSX only supports post processing of depth videos not generation of them. As the ML models need CUDA)",
+        "translatedContent": "# OSX (OSX only supports post processing of depth videos not generation of them. As the ML models need CUDA)"
+      },
+      {
+        "row": 28,
+        "rowsha": "1LmGHuZ2RiLfoxidKmYEnfLtLXq7lmQyH7g0Hqo4TQo=",
+        "originContent": "# (open3d requires python3.11 on OSX (as of 2025)))",
+        "translatedContent": "# (open3d requires python3.11 on OSX (as of 2025)))"
+      },
+      {
+        "row": 29,
+        "rowsha": "1aZeCvDgQZrFSsHg8BdirqHjg4yoXJD8X6fSrsi8vuA=",
+        "originContent": "pip3.11 install open3d numpy opencv-python",
+        "translatedContent": "pip3.11 install open3d numpy opencv-python"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Requirements\nThe tools that reuire ML models have been tested on machines with nvida 3090 cards that support Cuda 12.4 and Torch 2.5.1 on [vast.ai](https://cloud.vast.ai/?ref_id=148636) using \"template PyTorch (cuDNN Devel)\"\n\n### Next steps\n- Currently waiting for new stable and accurate depth models.\n\n### Contributing\nIs appreciated. Even for simple things like spelling.\n",
+    "ContentSha": "y4UYq21FVlypcgGyiFtrffg99WwlZW+iVBWRxI10XK8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Exigences\nLes outils nécessitant des modèles ML ont été testés sur des machines avec des cartes nvidia 3090 supportant Cuda 12.4 et Torch 2.5.1 sur [vast.ai](https://cloud.vast.ai/?ref_id=148636) utilisant \"template PyTorch (cuDNN Devel)\"\n\n### Étapes suivantes\n- En attente actuellement de nouveaux modèles de profondeur stables et précis.\n\n### Contribution\nEst appréciée. Même pour des choses simples comme l’orthographe.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KwwZECoP4kRDXuM51+OU8riOqXaInCVmQBkA2VtaG7g=",
+        "originContent": "### Requirements",
+        "translatedContent": "### Exigences"
+      },
+      {
+        "row": 3,
+        "rowsha": "kbZMWZ+tKo5Je9w3qDcOnDLZk9GA+M7ZMhZDqSUtcy8=",
+        "originContent": "The tools that reuire ML models have been tested on machines with nvida 3090 cards that support Cuda 12.4 and Torch 2.5.1 on [vast.ai](https://cloud.vast.ai/?ref_id=148636) using \"template PyTorch (cuDNN Devel)\"",
+        "translatedContent": "Les outils nécessitant des modèles ML ont été testés sur des machines avec des cartes nvidia 3090 supportant Cuda 12.4 et Torch 2.5.1 sur [vast.ai](https://cloud.vast.ai/?ref_id=148636) utilisant \"template PyTorch (cuDNN Devel)\""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "eWO1dBlvofnKonHt7aPex1kVvTYRVQ3hKIUgwLpAd4U=",
+        "originContent": "### Next steps",
+        "translatedContent": "### Étapes suivantes"
+      },
+      {
+        "row": 6,
+        "rowsha": "69jW8xNIIzrCy7yqrfdza/gotp5f9exEBwaVZ35BKII=",
+        "originContent": "- Currently waiting for new stable and accurate depth models.",
+        "translatedContent": "- En attente actuellement de nouveaux modèles de profondeur stables et précis."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "5ww9yAUhltb679bzey3v6rRmdriJbfvnrASADmXR90c=",
+        "originContent": "### Contributing",
+        "translatedContent": "### Contribution"
+      },
+      {
+        "row": 9,
+        "rowsha": "eoHWWM/L8ximdWYoBjVmuzvCaPsUs/LVNo+MWrat0as=",
+        "originContent": "Is appreciated. Even for simple things like spelling.",
+        "translatedContent": "Est appréciée. Même pour des choses simples comme l’orthographe."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=IlyaPavlovskii&project=YouTubePlayer&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # YouTubePlayer
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.ilyapavlovskii/youtubeplayer-compose.svg)](https://central.sonatype.com/artifact/io.github.ilyapavlovskii/youtubeplayer-compose)
@@ -7,25 +39,25 @@
 ![badge-android](http://img.shields.io/badge/platform-android-6EDB8D.svg?style=flat)
 ![badge-ios](http://img.shields.io/badge/platform-ios-CDCDCD.svg?style=flat)
 
-Lecteur multiplateforme YouTube Kotlin.  
-Le composable `YouTubePlayer` vous permet d’intégrer un lecteur vidéo YouTube dans votre application Jetpack Compose.
+Lecteur multiplateforme YouTube Kotlin.
+Le composant `YouTubePlayer` vous permet d'intégrer un lecteur vidéo YouTube dans votre application Jetpack Compose.
 
-## Faire un don  
-Si vous souhaitez me remercier ou contribuer au développement du backlog, vous pouvez me faire un don. Cela m’aide à me concentrer davantage sur le projet.
+## Faire un don
+Si vous souhaitez me remercier ou contribuer au développement du projet, vous pouvez me faire un don. Cela m'aide à me concentrer davantage sur ce projet.
 
-[!["PayPal"](https://raw.githubusercontent.com/IlyaPavlovskii/IlyaPavlovskii/main/resources/paypal.svg)](https://www.paypal.com/paypalme/ipavlovskii)  
+[!["PayPal"](https://raw.githubusercontent.com/IlyaPavlovskii/IlyaPavlovskii/main/resources/paypal.svg)](https://www.paypal.com/paypalme/ipavlovskii)
 [!["Buy Me A Coffee"](https://raw.githubusercontent.com/IlyaPavlovskii/IlyaPavlovskii/main/resources/buy_me_a_coffee.svg)](https://www.buymeacoffee.com/ipavlovskii)
 
-Vous pouvez également vous abonner à mes plateformes suivantes pour voir toutes les mises à jour de mes sujets
+Vous pouvez également vous abonner à moi sur les plateformes suivantes pour suivre les mises à jour de mes sujets
 
-[![medium](https://raw.githubusercontent.com/IlyaPavlovskii/IlyaPavlovskii/main/resources/medium.svg)](https://pavlovskiiilia.medium.com/)  
+[![medium](https://raw.githubusercontent.com/IlyaPavlovskii/IlyaPavlovskii/main/resources/medium.svg)](https://pavlovskiiilia.medium.com/)
 [![habr](https://raw.githubusercontent.com/IlyaPavlovskii/IlyaPavlovskii/main/resources/habr.svg)](https://habr.com/ru/users/TranE91/posts/)
 
-# Installation  
+# Installation
 Vous pouvez ajouter cette bibliothèque à votre projet en utilisant Gradle.
 
-Multiplateforme  
-Pour l’ajouter à un projet multiplateforme, ajoutez la dépendance au source-set commun :
+Multiplateforme
+Pour l'ajouter à un projet multiplateforme, ajoutez la dépendance au jeu de sources commun :
 
 ```gradle
 repositories {
@@ -168,6 +200,6 @@ limitations under the License.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-12
 
 ---

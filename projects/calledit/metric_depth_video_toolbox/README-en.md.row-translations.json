@@ -1,0 +1,872 @@
+[
+  {
+    "row": 1,
+    "rowsha": "4CZPjy54DUv/gugsr5i90cyc03wuvddmFhS5O852gtU=",
+    "originContent": "# Metric depth video toolbox (MDVToolbox)",
+    "translatedContent": "# Metric depth video toolbox (MDVToolbox)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "RTsnr8CK/dH9eMFvuBxcArpuJm/xXTzay1oE+o3cd20=",
+    "originContent": "Tools for Generating and working with metric 3D depth videos.",
+    "translatedContent": "Tools for Generating and working with metric 3D depth videos."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "wUTXZ8WCTci9YUmOlsFUsbtzxWekHtiZw4lLXsxcETg=",
+    "originContent": "![gif_banner](https://github.com/user-attachments/assets/4d737bb3-6fb6-4135-b01e-b35528371d22)",
+    "translatedContent": "![gif_banner](https://github.com/user-attachments/assets/4d737bb3-6fb6-4135-b01e-b35528371d22)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "72xgyr+zsXtwcZxTv6Nvluf2JXFZUP5+Uq2LOnpptFk=",
+    "originContent": "_Banner created with 3d_view_depthfile.py_",
+    "translatedContent": "_Banner created with 3d_view_depthfile.py_"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "t5ZY7hdgJWgoAzJoT0P8EoI2v+qmVbi7gITr3Qnf1Ow=",
+    "originContent": "## Demos",
+    "translatedContent": "## Demos"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "O5ZGvIs3YqlVd6ob1lE8UitvcLjACsrsxn59omOW9AA=",
+    "originContent": "**Showcase video:** https://youtu.be/nEiUloZ591Q",
+    "translatedContent": "**Showcase video:** https://youtu.be/nEiUloZ591Q"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "gSmrjvR2wv1DoKTRjD78QHq2vF9Ly3hK2yXMNc3lbO8=",
+    "originContent": "**Movie → 3D conversion demo**: https://www.youtube.com/watch?v=PLFjoNgkZDY",
+    "translatedContent": "**Movie → 3D conversion demo**: https://www.youtube.com/watch?v=PLFjoNgkZDY"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "JE1Z6NuqgH76EKj4oyfNZt1C0Gq4ZsP914T/qowk4+k=",
+    "originContent": "**Sample stereo clips:**",
+    "translatedContent": "**Sample stereo clips:**"
+  },
+  {
+    "row": 16,
+    "rowsha": "IyWOW1gAV7op93O6nQvnM9rXp/0EvfuQeCt9Dh6JuvQ=",
+    "originContent": "https://github.com/calledit/metric_depth_video_toolbox/releases/tag/Showcase",
+    "translatedContent": "https://github.com/calledit/metric_depth_video_toolbox/releases/tag/Showcase"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "fn7GBI38RxIv/o5Q66xvkdUHonW5F24wj8adADxJDA4=",
+    "originContent": "### Metric Depth Video Generation",
+    "translatedContent": "### Metric Depth Video Generation"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "Ir3FYb+v5ZoVVg70v9u5fTZK2TxB9fiPbfmGj6R03l0=",
+    "originContent": "Convert rgb videos into metric depth videos using multiple SOTA models:",
+    "translatedContent": "Convert rgb videos into metric depth videos using multiple SOTA models:"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "9gyVR1l6XMwCafPomm4tDC4HgP75qeKvt1hMQbXevv0=",
+    "originContent": "- Depth-Anything series (`video_metric_convert.py`) and (`videoanythingmetric_video.py`)",
+    "translatedContent": "- Depth-Anything series (`video_metric_convert.py`) and (`videoanythingmetric_video.py`)"
+  },
+  {
+    "row": 26,
+    "rowsha": "r4oD/HfsqGQlHX3BM6A3bhbZkyFBbUfbDbkRlQekTO0=",
+    "originContent": "- MoGe  (`moge_video.py`)",
+    "translatedContent": "- MoGe  (`moge_video.py`)"
+  },
+  {
+    "row": 27,
+    "rowsha": "0K+1OjYVq4+3hkwb6HziDvTLdVHavq796gXclLgfliM=",
+    "originContent": "- UniDepth  (`unidepth_video.py`)",
+    "translatedContent": "- UniDepth  (`unidepth_video.py`)"
+  },
+  {
+    "row": 28,
+    "rowsha": "rTGRZ+htEAuZN3XiHPQWCLMufJbFBWfjoip/GM5CF4s=",
+    "originContent": "- UniK3D  (`unik3d_video.py`)",
+    "translatedContent": "- UniK3D  (`unik3d_video.py`)"
+  },
+  {
+    "row": 29,
+    "rowsha": "GjEsjTDk6z3AAtIoSSWejXW+LruSO/TdcmPzWoumDUE=",
+    "originContent": "- DepthPro  (`depthpro_video.py`)",
+    "translatedContent": "- DepthPro  (`depthpro_video.py`)"
+  },
+  {
+    "row": 30,
+    "rowsha": "E+pMXFyFyXGxMvYz6FbpoI7CDP1x8Zv5td+eLKDNU5c=",
+    "originContent": "- DepthCrafter  (`depthcrafter_video.py`)",
+    "translatedContent": "- DepthCrafter  (`depthcrafter_video.py`)"
+  },
+  {
+    "row": 31,
+    "rowsha": "KDcYhdAzMxdYjgvGVpqvJPoHfdz9JZHsg37b00xbXCU=",
+    "originContent": "- MVSAnywhere  (`video_mvsa.py`)",
+    "translatedContent": "- MVSAnywhere  (`video_mvsa.py`)"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "LlohIWdtCm5od15PP+kd8Mwth7z49Kjtnj5m/wAwCqg=",
+    "originContent": "### Stereo / 3D Conversion",
+    "translatedContent": "### Stereo / 3D Conversion"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Pflp1crlxgzbtvwT1gFoGIHXR/gnDdFJczqWud8IKm8=",
+    "originContent": "- 2D movies → 3D (`movie_2_3D.py`)",
+    "translatedContent": "- 2D movies → 3D (`movie_2_3D.py`)"
+  },
+  {
+    "row": 36,
+    "rowsha": "zkOJaT723Vs+ZOSMF2Uh5vMxBdVmwuQeLI5VfI1ykhk=",
+    "originContent": "- Stereo rendering from depth and rgb video (`stereo_rerender.py`)",
+    "translatedContent": "- Stereo rendering from depth and rgb video (`stereo_rerender.py`)"
+  },
+  {
+    "row": 37,
+    "rowsha": "aNELU9en8iP0V0dRQwzxC1+EH03+teiE/rYqojg/5+k=",
+    "originContent": "- Parallax infill & diffusion-based stereo inpainting (`stereo_crafter_infill.py`)",
+    "translatedContent": "- Parallax infill & diffusion-based stereo inpainting (`stereo_crafter_infill.py`)"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "uIadiY4PHc953ca16pZkIBylvGxxowqU+YI/ocJ2Y9c=",
+    "originContent": "### Visualization",
+    "translatedContent": "### Visualization"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "ql1wR3tIyALak5Cxu7cDbrgxpMaG9RgkiHEUgKXO1uQ=",
+    "originContent": "- Real-time 3D viewer for metric depth videos (`3d_view_depthfile.py`)",
+    "translatedContent": "- Real-time 3D viewer for metric depth videos (`3d_view_depthfile.py`)  "
+  },
+  {
+    "row": 42,
+    "rowsha": "kzP8vjdt0fO3Lnk9i9hK9SvJG+QjBfDRB1fImXSIDwU=",
+    "originContent": "- Novel-view rendering from depth video (`3d_view_depthfile.py`)",
+    "translatedContent": "- Novel-view rendering from depth video (`3d_view_depthfile.py`)  "
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "YJkE+arWcxB57fY+kayWjMFBjY/X2Qfo/a92OFg2dQI=",
+    "originContent": "### Camera Tracking & 3D Reconstruction",
+    "translatedContent": "### Camera Tracking & 3D Reconstruction  "
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "ly4QNQam8YDRpziWJFd9vYGsjSTdU391Bbg3GGk2yuQ=",
+    "originContent": "- Depth-assisted camera tracking (`sam_track_video.py`) and (`align_3d_points.py`)",
+    "translatedContent": "- Depth-assisted camera tracking (`sam_track_video.py`) and (`align_3d_points.py`)  "
+  },
+  {
+    "row": 47,
+    "rowsha": "/bK6/46xwkV/a9kLGEluI4zAGWCDgDdAB5xt8MpnAeI=",
+    "originContent": "- Long-term point tracking (CoTracker3) (`track_points_in_video.py`)",
+    "translatedContent": "- Long-term point tracking (CoTracker3) (`track_points_in_video.py`)  "
+  },
+  {
+    "row": 48,
+    "rowsha": "e68Dh8NQ7jVijk+9jR+tguG1AJl9lANPTnyyBd8RYmM=",
+    "originContent": "- Pose extraction & alignment tools",
+    "translatedContent": "- Pose extraction & alignment tools  "
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "n4VVfw2YeHptd8TUNMgNFx4WSHnMi8oDHpoQXlEGZO0=",
+    "originContent": "### Export Tools",
+    "translatedContent": "### Export Tools  "
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "mFAigT8hxfNKjnuWFxrGBx8GcIG8OObQbZUFLk+hmBM=",
+    "originContent": "Export metric depth video to standard formats for use in other tools: (`convert_metric_depth_video_to_other_format.py`)",
+    "translatedContent": "Export metric depth video to standard formats for use in other tools: (`convert_metric_depth_video_to_other_format.py`)  "
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "6IwWehS+1jAdgeoofB3nDFCWJ409w98EMb5pZt2aixc=",
+    "originContent": "- `.ply` point clouds",
+    "translatedContent": "- `.ply` point clouds  "
+  },
+  {
+    "row": 55,
+    "rowsha": "aNSu9fxN8JA/6myFvRDucaCUU59AuXSPZje55oljfws=",
+    "originContent": "- `.obj` meshes",
+    "translatedContent": "- `.obj` meshes  "
+  },
+  {
+    "row": 56,
+    "rowsha": "6Wtls9GnFmNn41CiCENu7TFBQZZWQ85hCZnHBphA/7g=",
+    "originContent": "- Blender `.blend` & Alembic `.abc` camera tracks",
+    "translatedContent": "- Blender `.blend` & Alembic `.abc` camera tracks  "
+  },
+  {
+    "row": 57,
+    "rowsha": "cFpy3zr/Z5agzlv5q/otxZEPhcPRKi2KSZ+wQXbnLc0=",
+    "originContent": "- 8-bit / 16-bit depth maps",
+    "translatedContent": "- 8-bit / 16-bit depth maps  "
+  },
+  {
+    "row": 58,
+    "rowsha": "iyyu7YOTYluDsVx6+b5s+rgB6/862uIsuRa0sr+9SfI=",
+    "originContent": "- Depth rescaling based on triangulation",
+    "translatedContent": "- Depth rescaling based on triangulation  "
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "gC6gTpZeUZaUPzjn4dIggI5/obxvZLibQc/M97TfRrQ=",
+    "originContent": "### Masking & Cleanup",
+    "translatedContent": "### Masking & Cleanup  "
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "Cs07rSHJxEuElJ6z1AjaEQjIjOQHlBcU9XH0+HwYf2Q=",
+    "originContent": "- Automatic main subject masking (`generate_video_mask.py`)",
+    "translatedContent": "- Automatic main subject masking (`generate_video_mask.py`)  "
+  },
+  {
+    "row": 63,
+    "rowsha": "XeaG41PwnJjIVWzOUfzjb9V4GQhoffpi6K1AfsEdthQ=",
+    "originContent": "- Subtitle/logo inpainting (`apply_inpainting.sh`)",
+    "translatedContent": "- Subtitle/logo inpainting (`apply_inpainting.sh`)  "
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": "## Documentation  "
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "7oO+223uI2XyyzMHsQ+E2GlClakBGLwvhUAVAYjvOSk=",
+    "originContent": "| Topic | Link |",
+    "translatedContent": "| Topic | Link |  "
+  },
+  {
+    "row": 69,
+    "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+    "originContent": "|---|---|",
+    "translatedContent": "|---|---|  "
+  },
+  {
+    "row": 70,
+    "rowsha": "mWzcQf7qbDOibjOoiuGIIbdvmcjg11PhqyRcuEGHZBc=",
+    "originContent": "Beginner guide | [`HOWTO.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO.md)  ",
+    "translatedContent": "Beginner guide | [`HOWTO.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO.md)  "
+  },
+  {
+    "row": 71,
+    "rowsha": "DGKeo60xx6SVysk5cxxGyDF7VNMAc+FkY25ZugdObZ4=",
+    "originContent": "Movie → 3D guide | [`HOWTO_movie2_3d.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO_movie2_3d.md)  ",
+    "translatedContent": "Movie → 3D guide | [`HOWTO_movie2_3d.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/HOWTO_movie2_3d.md)  "
+  },
+  {
+    "row": 72,
+    "rowsha": "EfsgJSy6rS/Xw9CfzB0JzR3EQyrCa4bfFmeqpt1E00A=",
+    "originContent": "Full tool reference | [`USAGE.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/USAGE.md)  ",
+    "translatedContent": "Full tool reference | [`USAGE.md`](https://raw.githubusercontent.com/calledit/metric_depth_video_toolbox/main/docs/USAGE.md)  "
+  },
+  {
+    "row": 73,
+    "rowsha": "WDVNtwVUukm39i+4WCrNZnhb8bBU76RulQTCo9P6/gE=",
+    "originContent": "GUI tutorial video | https://youtu.be/BE_aJCI7DHI  ",
+    "translatedContent": "GUI tutorial video | https://youtu.be/BE_aJCI7DHI  "
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "GezC4B2Fmuk97Q3hcm0N2TICAfgMFaLHXTISQ6TQ5dI=",
+    "originContent": "## Depth Video Format",
+    "translatedContent": "## Depth Video Format  "
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "F5MeuavcDJ6/z34mTgH2D2gDLI8jZzITE/bZX1jaBH4=",
+    "originContent": "MDVT uses **RGB-encoded 16-bit metric depth**:",
+    "translatedContent": "MDVT uses **RGB-encoded 16-bit metric depth**:  "
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "zg7f+3zC+rsD0y8q2NhwsPmU/AwX3xJSg20LnY1DgMM=",
+    "originContent": "- **Red + Green** = upper 8 bits (duplicated for visibility)  ",
+    "translatedContent": "- **Red + Green** = upper 8 bits (duplicated for visibility)  "
+  },
+  {
+    "row": 81,
+    "rowsha": "iq6KcMyM0DgyKp+RK3XY/X1AdDznMgHk+O/TYwvcsdA=",
+    "originContent": "- **Blue** = lower 8 bits  ",
+    "translatedContent": "- **Blue** = lower 8 bits  "
+  },
+  {
+    "row": 82,
+    "rowsha": "3SsAyNrrd7ETp+MFPCuQvB37JZUERU8tL1GFHxUakA0=",
+    "originContent": "- Default range: **100 meters**",
+    "translatedContent": "- Default range: **100 meters**"
+  },
+  {
+    "row": 83,
+    "rowsha": "Onwe2wSh44MlIplglxYKf9MwJRWrudLBLEpA2u60MK8=",
+    "originContent": "- Resolution: **~1.5mm depth precision**",
+    "translatedContent": "- Resolution: **~1.5mm depth precision**"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "YvJe3ic1jWOIWrjcRk2hOmQCVHbHqdZP+7QB80aLOs4=",
+    "originContent": "Future upgrade for more precision will be done with: **24-bit depth** or **log-encoded depth** for long-range accuracy.",
+    "translatedContent": "Future upgrade for more precision will be done with: **24-bit depth** or **log-encoded depth** for long-range accuracy."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 92,
+    "rowsha": "Hscp709M+b5jAIZDe9iyXkUDeeWDt6/53cLjtrS9SOA=",
+    "originContent": "1. install git https://git-scm.com/downloads/win",
+    "translatedContent": "1. install git https://git-scm.com/downloads/win"
+  },
+  {
+    "row": 93,
+    "rowsha": "872FJsqHAHMsCCHqp7jbQIujgLsh5y91EKbfgJpunJU=",
+    "originContent": "2. Install miniconda https://docs.conda.io/en/latest/",
+    "translatedContent": "2. Install miniconda https://docs.conda.io/en/latest/"
+  },
+  {
+    "row": 94,
+    "rowsha": "qPFmS65240rJpOP2PvIxnKtBEAVkFj5scPxGlRPHQlA=",
+    "originContent": "3. Open the Anacoda prompt(miniconda) from the start menu",
+    "translatedContent": "3. Open the Anacoda prompt(miniconda) from the start menu"
+  },
+  {
+    "row": 95,
+    "rowsha": "j+SW7idR68/Hd4fV0IxSNPngaaVnjd02uwg77VQuW2o=",
+    "originContent": "4. run",
+    "translatedContent": "4. run"
+  },
+  {
+    "row": 96,
+    "rowsha": "txd8/pv679SjSm8htmDZPuJhLossz7JhjWQEnvDYj6I=",
+    "originContent": "```batch",
+    "translatedContent": "```batch"
+  },
+  {
+    "row": 97,
+    "rowsha": "v5X//CsMPD4FicSbcuItGKpG45U6QFMRD3ArRCV0LEg=",
+    "originContent": "git clone https://github.com/calledit/metric_depth_video_toolbox",
+    "translatedContent": "git clone https://github.com/calledit/metric_depth_video_toolbox"
+  },
+  {
+    "row": 98,
+    "rowsha": "ZnaJGHabm9Z3083hjXJlTPHx9lFc7l/FtWOBmEgvOt8=",
+    "originContent": "cd metric_depth_video_toolbox",
+    "translatedContent": "cd metric_depth_video_toolbox"
+  },
+  {
+    "row": 99,
+    "rowsha": "LyExWcKXr5NksdZZQHY4Kn0QjfkQy9WfGO3FF+Q3Qq4=",
+    "originContent": "windows_installer.bat",
+    "translatedContent": "windows_installer.bat"
+  },
+  {
+    "row": 100,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 101,
+    "rowsha": "eeziDE1aQi06AvWb3xqPTmwiZw2cxIW3Pt5f+CODzYE=",
+    "originContent": "5. use `conda activate mdvt` to activate conda and use the tools. Some ML models are not supported on windows but the most esential ones are supported like Sterecrafter and depth anything.",
+    "translatedContent": "5. use `conda activate mdvt` to activate conda and use the tools. Some ML models are not supported on windows but the most essential ones are supported like Sterecrafter and depth anything."
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "jRZc4PEKdkm/r6x7NLGKG8SZb94E6a+cGU/Rzm5IqWw=",
+    "originContent": "### Ubuntu/Debian and OSX",
+    "translatedContent": "### Ubuntu/Debian and OSX"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "v5X//CsMPD4FicSbcuItGKpG45U6QFMRD3ArRCV0LEg=",
+    "originContent": "git clone https://github.com/calledit/metric_depth_video_toolbox",
+    "translatedContent": "git clone https://github.com/calledit/metric_depth_video_toolbox"
+  },
+  {
+    "row": 109,
+    "rowsha": "ZnaJGHabm9Z3083hjXJlTPHx9lFc7l/FtWOBmEgvOt8=",
+    "originContent": "cd metric_depth_video_toolbox",
+    "translatedContent": "cd metric_depth_video_toolbox"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "cehuiYayltjIgpXyt93hAXHuRdVLENLRb+7VgiWU17U=",
+    "originContent": "# on linux",
+    "translatedContent": "# on linux"
+  },
+  {
+    "row": 112,
+    "rowsha": "u7rVqDMm0BR5tespFDuKnjs8QA67QTmXQUXFPcRLBX4=",
+    "originContent": "sudo apt-get install -y libgl1",
+    "translatedContent": "sudo apt-get install -y libgl1"
+  },
+  {
+    "row": 113,
+    "rowsha": "f3ZKTd/bas2maUJtz63UiSRpoNrxHld9me3WKZYi81E=",
+    "originContent": "./install_mdvtoolbox.sh",
+    "translatedContent": "./install_mdvtoolbox.sh"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "tizaWEgSg2og5mjGLAy1CPco1G70Kf7/ssNqn/XSHTc=",
+    "originContent": "#Optional (only required for some tools)",
+    "translatedContent": "#Optional (only required for some tools)"
+  },
+  {
+    "row": 116,
+    "rowsha": "j4ZpMOmSY+UMERx6cBUnxuCjuM5gih5/RmG9MTS5UoE=",
+    "originContent": "./install_mdvtoolbox.sh -megasam",
+    "translatedContent": "./install_mdvtoolbox.sh -megasam"
+  },
+  {
+    "row": 117,
+    "rowsha": "spMVy6grD3vjHTnZEKQNpF51lGgqDBW+PoKfz5Wi6kU=",
+    "originContent": "./install_mdvtoolbox.sh -geometrycrafter",
+    "translatedContent": "./install_mdvtoolbox.sh -geometrycrafter"
+  },
+  {
+    "row": 118,
+    "rowsha": "Lj/HMCUVwoBX0jowSQsbxzUYdY8bAVMMVLGXE7mi1eo=",
+    "originContent": "./install_mdvtoolbox.sh -unik3d",
+    "translatedContent": "./install_mdvtoolbox.sh -unik3d"
+  },
+  {
+    "row": 119,
+    "rowsha": "0fqRwfUh+6EKXtxR/NKucoGefZEZ8w6k3ykkGZEIvOc=",
+    "originContent": "./install_mdvtoolbox.sh -depthpro",
+    "translatedContent": "./install_mdvtoolbox.sh -depthpro"
+  },
+  {
+    "row": 120,
+    "rowsha": "Nq2c8n0RVCTDbEZWINK0pBTej+pRubtgjCCmCm4KncM=",
+    "originContent": "./install_mdvtoolbox.sh -stereocrafter",
+    "translatedContent": "./install_mdvtoolbox.sh -stereocrafter"
+  },
+  {
+    "row": 121,
+    "rowsha": "rTCfnArauwUm7L+c6YTMeJ3si5H8YkklASMH7HVzoW4=",
+    "originContent": "./install_mdvtoolbox.sh -madpose",
+    "translatedContent": "./install_mdvtoolbox.sh -madpose"
+  },
+  {
+    "row": 122,
+    "rowsha": "OJuqZeRkVZzel8CRj6LEgxefl4JoWqKWRp60Zf4tJCg=",
+    "originContent": "./install_mdvtoolbox.sh -unidepth",
+    "translatedContent": "./install_mdvtoolbox.sh -unidepth"
+  },
+  {
+    "row": 123,
+    "rowsha": "A2SppYLi0/sFzNp+jZZehVqGJ34e8rkIRADtuPXsXXw=",
+    "originContent": "./install_mdvtoolbox.sh -moge",
+    "translatedContent": "./install_mdvtoolbox.sh -moge"
+  },
+  {
+    "row": 124,
+    "rowsha": "YohEyI9Z4YcwSRY6QyKtTHgxOVhhrnSgECxp4jZQMUA=",
+    "originContent": "./install_mdvtoolbox.sh -promptda",
+    "translatedContent": "./install_mdvtoolbox.sh -promptda"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "+cjNrzZ+a3zfCVL6i3GCDsqn8z84yl3h70C5PRI7m4g=",
+    "originContent": "# if using headless linux you need to start a virtual x11 server",
+    "translatedContent": "# if using headless linux you need to start a virtual x11 server"
+  },
+  {
+    "row": 127,
+    "rowsha": "JjTYGzSlQZ1oM+UKFYC3zqIHCpRW6mDmNg8FkVA2TKU=",
+    "originContent": "apt-get install xvfb",
+    "translatedContent": "apt-get install xvfb"
+  },
+  {
+    "row": 128,
+    "rowsha": "qjBQW/yYlyvdulInBvzKbC5RBujv3miycOWxXn8ymuM=",
+    "originContent": "Xvfb :2 &",
+    "translatedContent": "Xvfb :2 &"
+  },
+  {
+    "row": 129,
+    "rowsha": "gZsOMZXwpLZTI7L9+vb899KOXIHvb3/z42rVEGkpwtg=",
+    "originContent": "export DISPLAY=:2",
+    "translatedContent": "export DISPLAY=:2"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "KILPNQIDL9sHVQxmRvP8fMTmRWTKqvpHvV3J8WnDBjQ=",
+    "originContent": "# OSX (OSX only supports post processing of depth videos not generation of them. As the ML models need CUDA)",
+    "translatedContent": "# OSX (OSX only supports post processing of depth videos not generation of them. As the ML models need CUDA)"
+  },
+  {
+    "row": 132,
+    "rowsha": "1LmGHuZ2RiLfoxidKmYEnfLtLXq7lmQyH7g0Hqo4TQo=",
+    "originContent": "# (open3d requires python3.11 on OSX (as of 2025)))",
+    "translatedContent": "# (open3d requires python3.11 on OSX (as of 2025)))"
+  },
+  {
+    "row": 133,
+    "rowsha": "1aZeCvDgQZrFSsHg8BdirqHjg4yoXJD8X6fSrsi8vuA=",
+    "originContent": "pip3.11 install open3d numpy opencv-python",
+    "translatedContent": "pip3.11 install open3d numpy opencv-python"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "KwwZECoP4kRDXuM51+OU8riOqXaInCVmQBkA2VtaG7g=",
+    "originContent": "### Requirements",
+    "translatedContent": "### Requirements"
+  },
+  {
+    "row": 138,
+    "rowsha": "kbZMWZ+tKo5Je9w3qDcOnDLZk9GA+M7ZMhZDqSUtcy8=",
+    "originContent": "The tools that reuire ML models have been tested on machines with nvida 3090 cards that support Cuda 12.4 and Torch 2.5.1 on [vast.ai](https://cloud.vast.ai/?ref_id=148636) using \"template PyTorch (cuDNN Devel)\"",
+    "translatedContent": "The tools that require ML models have been tested on machines with NVIDIA 3090 cards that support CUDA 12.4 and Torch 2.5.1 on [vast.ai](https://cloud.vast.ai/?ref_id=148636) using \"template PyTorch (cuDNN Devel)\""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "eWO1dBlvofnKonHt7aPex1kVvTYRVQ3hKIUgwLpAd4U=",
+    "originContent": "### Next steps",
+    "translatedContent": "### Next steps"
+  },
+  {
+    "row": 141,
+    "rowsha": "69jW8xNIIzrCy7yqrfdza/gotp5f9exEBwaVZ35BKII=",
+    "originContent": "- Currently waiting for new stable and accurate depth models.",
+    "translatedContent": "- Currently waiting for new stable and accurate depth models."
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "5ww9yAUhltb679bzey3v6rRmdriJbfvnrASADmXR90c=",
+    "originContent": "### Contributing",
+    "translatedContent": "### Contributing"
+  },
+  {
+    "row": 144,
+    "rowsha": "eoHWWM/L8ximdWYoBjVmuzvCaPsUs/LVNo+MWrat0as=",
+    "originContent": "Is appreciated. Even for simple things like spelling.",
+    "translatedContent": "Is appreciated. Even for simple things like spelling."
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

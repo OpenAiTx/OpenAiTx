@@ -1,0 +1,231 @@
+[
+  {
+    "Id": 1,
+    "Content": "# VHVR-Mod\nThis is an experimental mod for the PC game Valheim that adds in native VR support using Unity and SteamVR with OpenVR.\n\nDownload the mod at [Nexus Mods](https://www.nexusmods.com/valheim/mods/847)!\n\nCheck out the development log of progress on [YouTube](https://www.youtube.com/playlist?list=PL9EDvRwka57-swWbcOAq0lhIp5jSFPg-u).\n\nJoin the [Flatscreen to VR Modding Discord](https://discord.gg/ZFSCSDe)\n\n## What's in this package?\n### Unity Project\nThis project exists primarily as an asset generator to produce necessary AssetBundles used by the mod as well as a way to build SteamVR and Unity XR libraries necessary in the proper environment.\n\nThere are several assets being generated in the Unity package, but the most important include:\n* SteamVR Player prefab: This prefab is a Unity GameObject hierarchy that includes allt he needed scripts to properly use SteamVR. It includes a Camera in the hierarchy that will be swapped out for the main game's camera. The camera is configured to use stereoscopic 3D displayed in the HMD.\n* Unity and OpenVR assets: These are assets required to properly bootstrap Unity's XR engine when the game starts up.\n* [Amplify Occlusion](https://github.com/AmplifyCreations/AmplifyOcclusion) graphics post-processor: Used as a higher performance substitute to in game SSAO graphics effect.\n\n### ValheimVRMod C# Project\nThis project contains the bulk of the code for the mod. It includes classes/Unity MonoBehaviour scripts that implement the following functionality:\n* initialize Unity's/OpenVR XR engine\n* instantiate the SteamVR prefabs from the AssetBundles\n* swap out the game's main camera with the VR camera and position it appropriately\n* translates the game's GUI into VR\n* implements motion controls (WIP)\n\n### Requirements\nThis mod requires [BepInExPack Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/). BepInEx is a mod framework for Unity games that allows modders to inject their code into the game's runtime. It also includes [Harmony](https://harmony.pardeike.net/articles/intro.html), which is a tool used to patch existing methods in C# libraries.\n\nAdditionally, you need an HMD that supports OpenVR/SteamVR.\n\n### Other Info\nThis is an experimental mod and almost certainly will contain a bunch of bugs and glitches. Additionally, Valheim is currently an early access game, so there is a high probability that patches will be released for the game that break this mod. Please be patient as fixes are worked on and feel free to report any issues you find :)\n\nAs Valheim was not made for VR, this implementation isn't going to be as comfortable as a built-for-VR game. If VR tends to make you feel queasy, then this mod probably isn't for you.\n",
+    "ContentSha": "EXtHELQl67ZbLCg1b2guXU7hwl3q6De9P8VxCsIM+d0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# VHVR-Mod  \nEste es un mod experimental para el juego de PC Valheim que añade soporte nativo para VR usando Unity y SteamVR con OpenVR.  \n\nDescarga el mod en [Nexus Mods](https://www.nexusmods.com/valheim/mods/847)!  \n\nConsulta el registro de desarrollo del progreso en [YouTube](https://www.youtube.com/playlist?list=PL9EDvRwka57-swWbcOAq0lhIp5jSFPg-u).  \n\nÚnete al [Discord de Flatscreen to VR Modding](https://discord.gg/ZFSCSDe)  \n\n## ¿Qué contiene este paquete?  \n### Proyecto Unity  \nEste proyecto existe principalmente como un generador de assets para producir los AssetBundles necesarios usados por el mod, así como una forma de construir las librerías SteamVR y Unity XR necesarias en el entorno adecuado.  \n\nSe generan varios assets en el paquete de Unity, pero los más importantes incluyen:  \n* Prefab SteamVR Player: Este prefab es una jerarquía de GameObjects de Unity que incluye todos los scripts necesarios para usar SteamVR correctamente. Incluye una cámara en la jerarquía que será reemplazada por la cámara principal del juego. La cámara está configurada para usar 3D estereoscópico mostrado en el HMD.  \n* Assets de Unity y OpenVR: Son assets requeridos para arrancar correctamente el motor XR de Unity cuando el juego inicia.  \n* Post-procesador gráfico [Amplify Occlusion](https://github.com/AmplifyCreations/AmplifyOcclusion): Usado como un sustituto de mayor rendimiento al efecto gráfico SSAO dentro del juego.  \n\n### Proyecto ValheimVRMod en C#  \nEste proyecto contiene la mayor parte del código del mod. Incluye clases/scripts de Unity MonoBehaviour que implementan la siguiente funcionalidad:  \n* inicializar el motor XR de Unity/OpenVR  \n* instanciar los prefabs de SteamVR desde los AssetBundles  \n* reemplazar la cámara principal del juego con la cámara VR y posicionarla adecuadamente  \n* traducir la GUI del juego a VR  \n* implementar controles de movimiento (en progreso)  \n\n### Requisitos  \nEste mod requiere [BepInExPack Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/). BepInEx es un framework de mods para juegos Unity que permite a los modders inyectar su código en el runtime del juego. También incluye [Harmony](https://harmony.pardeike.net/articles/intro.html), que es una herramienta usada para parchear métodos existentes en librerías C#.  \n\nAdemás, necesitas un HMD que soporte OpenVR/SteamVR.  \n\n### Otra información  \nEste es un mod experimental y casi con seguridad contendrá varios errores y fallos. Además, Valheim es actualmente un juego en acceso anticipado, por lo que existe una alta probabilidad de que se publiquen parches que rompan este mod. Por favor, ten paciencia mientras se trabajan las correcciones y siéntete libre de reportar cualquier problema que encuentres :)  \n\nComo Valheim no fue hecho para VR, esta implementación no será tan cómoda como un juego diseñado para VR. Si la VR suele causarte mareos, probablemente este mod no sea para ti.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KEAixKti5kQUpocMN+olx/qInr3OXO+vAsr9CXPrKrw=",
+        "originContent": "# VHVR-Mod",
+        "translatedContent": "# VHVR-Mod  "
+      },
+      {
+        "row": 2,
+        "rowsha": "OSZGuZjG/yA9n08ewmdUSA4uAnXdAU5s20ip4ps547c=",
+        "originContent": "This is an experimental mod for the PC game Valheim that adds in native VR support using Unity and SteamVR with OpenVR.",
+        "translatedContent": "Este es un mod experimental para el juego de PC Valheim que añade soporte nativo para VR usando Unity y SteamVR con OpenVR.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Q7N+d+s947MtrN0CwwiW0Bv2SktbuWJhS4s/jr6v3Dc=",
+        "originContent": "Download the mod at [Nexus Mods](https://www.nexusmods.com/valheim/mods/847)!",
+        "translatedContent": "Descarga el mod en [Nexus Mods](https://www.nexusmods.com/valheim/mods/847)!  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "5gdo6WNuxFx7xts9L1LSXH+qs/2LNeiv6IxUNz+Xw4s=",
+        "originContent": "Check out the development log of progress on [YouTube](https://www.youtube.com/playlist?list=PL9EDvRwka57-swWbcOAq0lhIp5jSFPg-u).",
+        "translatedContent": "Consulta el registro de desarrollo del progreso en [YouTube](https://www.youtube.com/playlist?list=PL9EDvRwka57-swWbcOAq0lhIp5jSFPg-u).  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "9Ip0NgMhowUXahjLD76+sjzl98tpDvym30mEXUKfbCQ=",
+        "originContent": "Join the [Flatscreen to VR Modding Discord](https://discord.gg/ZFSCSDe)",
+        "translatedContent": "Únete al [Discord de Flatscreen to VR Modding](https://discord.gg/ZFSCSDe)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "DMxPrZfGcQDT2nxe8N9uLhNDxRmMcuQiMu8F5ZLcFP4=",
+        "originContent": "## What's in this package?",
+        "translatedContent": "## ¿Qué contiene este paquete?  "
+      },
+      {
+        "row": 11,
+        "rowsha": "0HGXBT5m6Jl8jeJQcIR4ApTH/AbGjCObmEATIIzhnTo=",
+        "originContent": "### Unity Project",
+        "translatedContent": "### Proyecto Unity  "
+      },
+      {
+        "row": 12,
+        "rowsha": "R79YNDK6GUJiCRy4TELAAoz9D0g7n4Jp6l+Rdacd5o4=",
+        "originContent": "This project exists primarily as an asset generator to produce necessary AssetBundles used by the mod as well as a way to build SteamVR and Unity XR libraries necessary in the proper environment.",
+        "translatedContent": "Este proyecto existe principalmente como un generador de assets para producir los AssetBundles necesarios usados por el mod, así como una forma de construir las librerías SteamVR y Unity XR necesarias en el entorno adecuado.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "27mhP2R1+5bTm7J52OJCBGecrSUiH1YLZMClFuJd2QM=",
+        "originContent": "There are several assets being generated in the Unity package, but the most important include:",
+        "translatedContent": "Se generan varios assets en el paquete de Unity, pero los más importantes incluyen:  "
+      },
+      {
+        "row": 15,
+        "rowsha": "sjc6tQULYpo0DnScqwDRTdIzsjd04+bi3AnptRWs+kw=",
+        "originContent": "* SteamVR Player prefab: This prefab is a Unity GameObject hierarchy that includes allt he needed scripts to properly use SteamVR. It includes a Camera in the hierarchy that will be swapped out for the main game's camera. The camera is configured to use stereoscopic 3D displayed in the HMD.",
+        "translatedContent": "* Prefab SteamVR Player: Este prefab es una jerarquía de GameObjects de Unity que incluye todos los scripts necesarios para usar SteamVR correctamente. Incluye una cámara en la jerarquía que será reemplazada por la cámara principal del juego. La cámara está configurada para usar 3D estereoscópico mostrado en el HMD.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "q3asy8L0zlQSZy/91pBIyjQLdWTHHe2qm45sQ9UV+pc=",
+        "originContent": "* Unity and OpenVR assets: These are assets required to properly bootstrap Unity's XR engine when the game starts up.",
+        "translatedContent": "* Assets de Unity y OpenVR: Son assets requeridos para arrancar correctamente el motor XR de Unity cuando el juego inicia.  "
+      },
+      {
+        "row": 17,
+        "rowsha": "clLbrrXyUQlRCIwL4tYq6tZ10/Q3dtUKbqQdjqZ2gdE=",
+        "originContent": "* [Amplify Occlusion](https://github.com/AmplifyCreations/AmplifyOcclusion) graphics post-processor: Used as a higher performance substitute to in game SSAO graphics effect.",
+        "translatedContent": "* Post-procesador gráfico [Amplify Occlusion](https://github.com/AmplifyCreations/AmplifyOcclusion): Usado como un sustituto de mayor rendimiento al efecto gráfico SSAO dentro del juego.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "vT6zcqzGmnB6eeqz9JF587Qnv/lFizsVPYASaOkjg3s=",
+        "originContent": "### ValheimVRMod C# Project",
+        "translatedContent": "### Proyecto ValheimVRMod en C#  "
+      },
+      {
+        "row": 20,
+        "rowsha": "Gcso2NNPmd2/w2sA/YAo8rIwSkRZuWhGplUpAkRZBK4=",
+        "originContent": "This project contains the bulk of the code for the mod. It includes classes/Unity MonoBehaviour scripts that implement the following functionality:",
+        "translatedContent": "Este proyecto contiene la mayor parte del código del mod. Incluye clases/scripts de Unity MonoBehaviour que implementan la siguiente funcionalidad:  "
+      },
+      {
+        "row": 21,
+        "rowsha": "SpLC8hWYPXulZ3YAQjsPL7G6SlXMASjHTiNM4isXq7M=",
+        "originContent": "* initialize Unity's/OpenVR XR engine",
+        "translatedContent": "* inicializar el motor XR de Unity/OpenVR  "
+      },
+      {
+        "row": 22,
+        "rowsha": "gWh8/O5sB3ikxeMCg0y1izRJBin6VRDAkJK2coLw3lQ=",
+        "originContent": "* instantiate the SteamVR prefabs from the AssetBundles",
+        "translatedContent": "* instanciar los prefabs de SteamVR desde los AssetBundles  "
+      },
+      {
+        "row": 23,
+        "rowsha": "EXBMJfrZQ9JiUVcEp3VDobOHEUTGzXayYMoVscl+z/k=",
+        "originContent": "* swap out the game's main camera with the VR camera and position it appropriately",
+        "translatedContent": "* reemplazar la cámara principal del juego con la cámara VR y posicionarla adecuadamente  "
+      },
+      {
+        "row": 24,
+        "rowsha": "291TvMjjuIQnL7gCeN/+AXXFyH7tp1vOQowAvvrj9EY=",
+        "originContent": "* translates the game's GUI into VR",
+        "translatedContent": "* traducir la GUI del juego a VR  "
+      },
+      {
+        "row": 25,
+        "rowsha": "VPKk6KiDhcwak0+2NT/dUYTpF5DdPQqGJwyw25RBuCw=",
+        "originContent": "* implements motion controls (WIP)",
+        "translatedContent": "* implementar controles de movimiento (en progreso)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "KwwZECoP4kRDXuM51+OU8riOqXaInCVmQBkA2VtaG7g=",
+        "originContent": "### Requirements",
+        "translatedContent": "### Requisitos  "
+      },
+      {
+        "row": 28,
+        "rowsha": "jFtznDbtSY9G6lXZmVg3IQVV9sx/NNo0kWXmQOifd8w=",
+        "originContent": "This mod requires [BepInExPack Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/). BepInEx is a mod framework for Unity games that allows modders to inject their code into the game's runtime. It also includes [Harmony](https://harmony.pardeike.net/articles/intro.html), which is a tool used to patch existing methods in C# libraries.",
+        "translatedContent": "Este mod requiere [BepInExPack Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/). BepInEx es un framework de mods para juegos Unity que permite a los modders inyectar su código en el runtime del juego. También incluye [Harmony](https://harmony.pardeike.net/articles/intro.html), que es una herramienta usada para parchear métodos existentes en librerías C#.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "eqIRsoCChThN/Gk0lCRBfThNKcNSan9t10BWyF4jnGE=",
+        "originContent": "Additionally, you need an HMD that supports OpenVR/SteamVR.",
+        "translatedContent": "Además, necesitas un HMD que soporte OpenVR/SteamVR.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "qsEaL93fOrv6K3kMqest5spNa3WCqfU+cpgIl7TkIT0=",
+        "originContent": "### Other Info",
+        "translatedContent": "### Otra información  "
+      },
+      {
+        "row": 33,
+        "rowsha": "zancKkXYdAc5XaYGa40YCUJHxlL5UrFnvt5bKdJ0its=",
+        "originContent": "This is an experimental mod and almost certainly will contain a bunch of bugs and glitches. Additionally, Valheim is currently an early access game, so there is a high probability that patches will be released for the game that break this mod. Please be patient as fixes are worked on and feel free to report any issues you find :)",
+        "translatedContent": "Este es un mod experimental y casi con seguridad contendrá varios errores y fallos. Además, Valheim es actualmente un juego en acceso anticipado, por lo que existe una alta probabilidad de que se publiquen parches que rompan este mod. Por favor, ten paciencia mientras se trabajan las correcciones y siéntete libre de reportar cualquier problema que encuentres :)  "
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ydNBBT07ZhgRJJprrIzLej3UHjgd7L86BiS0gcZg49c=",
+        "originContent": "As Valheim was not made for VR, this implementation isn't going to be as comfortable as a built-for-VR game. If VR tends to make you feel queasy, then this mod probably isn't for you.",
+        "translatedContent": "Como Valheim no fue hecho para VR, esta implementación no será tan cómoda como un juego diseñado para VR. Si la VR suele causarte mareos, probablemente este mod no sea para ti."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
