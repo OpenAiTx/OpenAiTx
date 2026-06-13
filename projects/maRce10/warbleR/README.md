@@ -1,37 +1,28 @@
-<div align="right">
-  <details>
-    <summary >🌐 Language</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as">অসমীয়া</
-      </div>
-    </div>
-  </details>
-</div>
-
-
 warbleR: Streamline Bioacoustic Analysis
 ================
+
+🌐 **Languages:**  
+[English](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en) |
+[Español](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es) |
+[Français](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr) |
+[Deutsch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de) |
+[Português](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt) |
+[Italiano](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it) |
+[Русский](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru) |
+[中文 (简体)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN) |
+[中文 (繁體)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW) |
+[日本語](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja) |
+[한국어](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko) |
+[हिन्दी](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi) |
+[ไทย](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th) |
+[Nederlands](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl) |
+[Polski](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl) |
+[العربية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar) |
+[فارسی](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa) |
+[Türkçe](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr) |
+[Tiếng Việt](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi) |
+[Bahasa Indonesia](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id) |
+[অসমীয়া](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->

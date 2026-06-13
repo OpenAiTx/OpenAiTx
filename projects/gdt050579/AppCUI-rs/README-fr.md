@@ -1,7 +1,7 @@
 
 <div align="right">
   <details>
-    <summary >🌐 Langue</summary>
+    <summary>🌐 Langue</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=en">English</a>
@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -38,9 +38,9 @@
 ⯈ 𝗔𝗽𝗽𝗖𝗨𝗜-𝗿𝘀 🖳
 ```
 
-![Statut de la compilation Windows](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
-![Statut de la compilation Linux](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
-![Statut de la compilation MacOS](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
+![Statut de compilation Windows](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
+![Statut de compilation Linux](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
+![Statut de compilation macOS](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
 ![Couverture du code](https://gist.githubusercontent.com/gdt050579/f7d7e7d56b2725a3b33a265e8a9d8e9c/raw/coverage.svg)
 ![Licence](https://img.shields.io/github/license/gdt050579/AppCUI-rs)
 [![Crates.io](https://img.shields.io/crates/v/appcui.svg)](https://crates.io/crates/appcui)
@@ -48,44 +48,44 @@
 [![Galerie](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-AppCUI-rs est une bibliothèque Rust rapide et multiplateforme pour construire des interfaces utilisateur modernes en mode texte (TUIs) avec des widgets riches, des thèmes, et un support complet de l’Unicode — une alternative à ncurses et autres frameworks d’interface terminale.
+AppCUI-rs est une bibliothèque Rust rapide et multiplateforme pour créer des interfaces utilisateur modernes en mode texte (TUI) avec des widgets riches, des thèmes et une prise en charge complète d’Unicode—une alternative à ncurses et autres frameworks d’UI terminal.
 * [Livre](https://gdt050579.github.io/AppCUI-rs/)
 * [Documentation](https://docs.rs/appcui)
 * [Galerie](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
 ## ✨ Fonctionnalités
-- [x] multiples contrôles prêts à l’emploi (boutons, étiquettes, zones de texte, cases à cocher, boutons radio, vues en liste, vues en arbre, boîtes combinées, sélecteurs de date/heure, sélecteurs de couleur, onglets, accordéons, etc.). Une liste complète des contrôles est disponible [ici](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) 
-- [x] système de disposition puissant permettant de positionner les contrôles avec des coordonnées absolues, coordonnées relatives, ancrage, alignement, ancres ou positionnement par pivot (voir plus [ici](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html)) 
+- [x] nombreux contrôles prêts à l’emploi (boutons, labels, champs texte, cases à cocher, boutons radio, listes, arbres, boîtes combinées, sélectionneurs de date/heure, sélectionneurs de couleur, onglets, accordéons, etc.). La liste complète des contrôles se trouve [ici](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) 
+- [x] système de mise en page puissant permettant de positionner les contrôles avec des coordonnées absolues, relatives, docking, alignement, ancres ou positionnement par pivot (voir plus [ici](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html)) 
 - [x] menus et barres d’outils
-- [x] support multiplateforme (Windows via API et terminal virtuel, Linux via ncurses, MacOS via termios)
-- [x] support du multithreading pour permettre des tâches en arrière-plan
+- [x] prise en charge multiplateforme (Windows via API et terminal virtuel, Linux via ncurses, macOS via termios)
+- [x] prise en charge du multithreading pour permettre des tâches en arrière-plan
 - [x] minuteurs
-- [x] support de la souris
-- [x] support du presse-papiers
-- [x] thèmes de couleur
-- [x] support des caractères Unicode
-- [x] dialogues prédéfinis (boîte de message, boîte de saisie, sélecteur de couleur, dialogues de sauvegarde & ouverture, navigateur de dossiers, etc)
-- [x] support des vraies couleurs (24 bits par pixel) pour les terminaux qui le supportent.
+- [x] prise en charge de la souris
+- [x] prise en charge du presse-papiers
+- [x] thèmes de couleurs
+- [x] prise en charge des caractères Unicode
+- [x] dialogues prédéfinis (boîte de message, boîte de saisie, sélectionneur de couleur, dialogues d’enregistrement et d’ouverture, navigateur de dossiers, etc.)
+- [x] prise en charge des couleurs vraies (24 bits par pixel) pour les terminaux compatibles.
 
 ## 📸 Captures d’écran 
 
 <img src="https://github.com/gdt050579/AppCUI-rs/raw/main/docs/chapter-1/img/appcui-rs-demo.gif" align="center" />
 
-👉 **Découvrez la [Galerie](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) pour voir des démos complètes de tous les contrôles !**
+👉 **Découvrez la [Galerie](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) pour des démonstrations complètes de tous les contrôles !**
 
 ## 🖥️ Backends
 
-AppCUI supporte plusieurs backends selon le système d’exploitation utilisé :
+AppCUI prend en charge différents backends selon le système d’exploitation :
 
-* **Console Windows** - basé sur l'API bas niveau Win32, conçu pour la console Windows classique
-* **Windows VT** - basé sur les séquences ANSI, conçu pour les terminaux virtuels Windows modernes
+* **Console Windows** - basé sur l'API bas niveau Win32, conçu pour la console classique de Windows
+* **Windows VT** - basé sur les séquences ANSI, conçu pour les terminaux virtuels modernes de Windows
 * **NCurses** - basé sur l'API NCurses pour les environnements Linux
-* **Termios** - basé sur les séquences ANSI et les API bas niveau pour MAC OSX
-* **Terminal Web** - conçu pour une implémentation Web (basé sur webgl)
-* **CrossTerm** - basé sur la crate `crossterm`, mais activé via un flag de fonctionnalité
+* **Termios** - basé sur les séquences ANSI et les API bas niveau pour macOS
+* **Terminal Web** - conçu pour les implémentations web (basé sur WebGL)
+* **CrossTerm** - basé sur le crate `crossterm`, activé via un drapeau de fonctionnalité
 
-Plus d'informations sur les backends supportés sont disponibles [ici](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html)
+Plus d'informations sur les backends pris en charge sont disponibles [ici](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html)
 
 
 ## 🚀 Démarrage rapide
@@ -119,7 +119,7 @@ fn main() -> Result<(), appcui::system::Error> {
 }
 ```
 
-ou une version plus compacte utilisant des proc-macros :
+Ou une version plus compacte utilisant les proc-macros :
 
 ```rs
 use appcui::prelude::*;
@@ -134,20 +134,20 @@ fn main() -> Result<(), appcui::system::Error> {
 }
 ```
 
-Ensuite, lancez le projet avec `cargo run`. Vous devriez voir une fenêtre avec le titre `Test` et le texte `Hello World !` au centre.
+Exécutez ensuite le projet avec `cargo run`. Vous devriez voir une fenêtre avec le titre `Test` et le texte `Hello World !` au centre.
 
 ## 🧪 Exemples
 
-AppCUI-rs est livré avec un ensemble d'exemples pour vous aider à démarrer. Vous pouvez les trouver dans le dossier [examples](examples), comprenant :
-- **Jeux** tels que [Tic Tac Toe](examples/tic-tac-toe/), [Snake](examples/snake/), [Flappy Bird](examples/flappy), [Démineur](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Chees](examples/games/), [Puissance 4](examples/games/), [2048](examples/games/) ou [Tetris](examples/games/)
-- **Utilitaires** tels que [Calculatrice](examples/calculator/), [Visionneuse CSV](examples/csv_viewer/), [Convertisseur de température](examples/temperature_convertor/) ou un [Minuteur](examples/timer/)
-- **Animations** telles que [Matrix](examples/matrix/), [Fractales](examples/fractals/) ou [Spirale](examples/spiral/)
+AppCUI-rs est fourni avec un ensemble d'exemples pour vous aider à démarrer. Vous pouvez les trouver dans le dossier [examples](examples), notamment :
+- **Jeux** tels que [Tic Tac Toe](examples/tic-tac-toe/), [Snake](examples/snake/), [Flappy Bird](examples/flappy), [Démineur](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Échecs](examples/games/), [Puissance 4](examples/games/), [2048](examples/games/) ou [Tetris](examples/games/)
+- **Utilitaires** tels que [Calculatrice](examples/calculator/), [Visionneuse CSV](examples/csv_viewer/), [Convertisseur de température](examples/temperature_convertor/), ou un [Minuteur](examples/timer/)
+- **Animations** telles que [Matrix](examples/matrix/), [Fractales](examples/fractals/), ou [Spirale](examples/spiral/)
 - **Contrôles**/**Widgets** tels que [Bouton](examples/buttons/), [Case à cocher](examples/checkboxes/), [ComboBox](examples/combobox/), [Sélecteur de date](examples/datepicker/), [ListView](examples/listview/), [TreeView](examples/treeview/) et bien d'autres.
-- **Dialogues** tels que [Notification](examples/notification_dialogs/) ou [Saisie](examples/input_dialog/)
+- **Boîtes de dialogue** telles que [Notification](examples/notification_dialogs/) ou [Entrée](examples/input_dialog/)
 
 ## 🛠️ Un exemple plus complexe
 
-Un exemple qui crée une fenêtre avec un bouton qui, lorsqu'il est pressé, augmente un compteur.
+Un exemple qui crée une fenêtre avec un bouton qui, lorsqu'il est pressé, incrémente un compteur.
 
 ```rust
 use appcui::prelude::*;
@@ -179,11 +179,11 @@ impl ButtonEvents for CounterWindow {
     fn on_pressed(&mut self, handle: Handle<Button>) -> EventProcessStatus {
         // increase the counter
         self.counter += 1;
-        // create a text that containe the new counter
+        // create a text that contains the new counter
         let text = format!("{}",self.counter);
-        // aquire a mutable reference to the button using its handle
+        // acquire a mutable reference to the button using its handle
         if let Some(button) = self.control_mut(handle) {
-            // set the caption of the button to th new text
+            // set the caption of the button to the new text
             button.set_caption(&text);
         }
         // Tell the AppCUI framework that we have processed this event
@@ -197,7 +197,7 @@ fn main() -> Result<(), appcui::system::Error> {
     let mut a = App::new().build()?;
     // add a new window (of type CounterWindow) to the application
     a.add_window(CounterWindow::new());
-    // Run AppCUI framework (this wil start the window loop and messaage passing)
+    // Run AppCUI framework (this will start the window loop and message passing)
     a.run();
     Ok(())
 }
@@ -205,21 +205,21 @@ fn main() -> Result<(), appcui::system::Error> {
 
 ## 🛣️ Feuille de route
 
-- [x] Ensemble de widgets de base et prise en charge de Windows, Linux et MacOS
-- [x] Support WebGL
-- [ ] Support OpenGL / SDL / Vulkan
-- [ ] Support TextArea pour la mise en surbrillance du code
+- [x] Ensemble de widgets de base et prise en charge de Windows, Linux et macOS
+- [x] Prise en charge WebGL
+- [ ] Prise en charge OpenGL / SDL / Vulkan
+- [ ] Prise en charge TextArea pour la coloration syntaxique
 
 ## 🤝 Contribution
 
 Les contributions, problèmes et demandes de fonctionnalités sont les bienvenus !  
 Consultez [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) pour commencer.
 
-Rejoignez la discussion dans [GitHub Discussions](https://github.com/gdt050579/AppCUI-rs/discussions).
+Rejoignez la discussion sur [GitHub Discussions](https://github.com/gdt050579/AppCUI-rs/discussions).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

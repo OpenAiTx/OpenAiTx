@@ -1,98 +1,89 @@
-<div align="right">
-  <details>
-    <summary >🌐 اللغة</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as">অসমীয়া</
-      </div>
-    </div>
-  </details>
-</div>
-
-
-warbleR: تسهيل التحليل الحيوي الصوتي
+warbleR: تبسيط تحليل الصوتيات الحيوية
 ================
 
-<!-- README.md تم إنشاؤه من README.Rmd. الرجاء تعديل ذلك الملف -->
+🌐 **اللغات:**  
+[الإنجليزية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en) |
+[الإسبانية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es) |
+[الفرنسية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr) |
+[الألمانية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de) |
+[البرتغالية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt) |
+[الإيطالية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it) |
+[الروسية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru) |
+[الصينية (المبسطة)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN) |
+[الصينية (التقليدية)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW) |
+[اليابانية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja) |
+[الكورية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko) |
+[الهندية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi) |
+[التايلاندية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th) |
+[الهولندية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl) |
+[البولندية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl) |
+[العربية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar) |
+[الفارسية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa) |
+[التركية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr) |
+[الفيتنامية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi) |
+[الإندونيسية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id) |
+[الآساميّة](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as)
+
+<!-- README.md يتم إنشاؤه من README.Rmd. يرجى تعديل ذلك الملف -->
 <!-- الشارات: البداية -->
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
-[![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)
-[![حالة المشروع: نشط وصل المشروع إلى حالة مستقرة وقابلة للاستخدام
-ويتم تطويره بنشاط.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![دورة الحياة](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+[![الحالة](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)
+[![حالة المشروع: نشط المشروع قد وصل إلى حالة مستقرة وقابلة للاستخدام
+ويتم تطويره بنشاط
+.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![الترخيص: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![شارة حالة CRAN](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)
 [![إجمالي
-عمليات التحميل](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
-[![تغطية اختبار Codecov](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
-<!-- badges: end -->
+التنزيلات](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
+[![Codecov test
+التغطية](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
+<!-- شارات: النهاية -->
 
-<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="شعار warbleR" align="right" width = "25%" height="25%"/>
+<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="warbleR logo" align="right" width = "25%" height="25%"/>
 
-يهدف [warbleR](https://cran.r-project.org/package=warbleR) إلى
-تسهيل تحليل بنية الإشارات الصوتية للحيوانات في
-برنامج R. يمكن للمستخدمين جمع تسجيلات الطيور مفتوحة المصدر أو إدخال بياناتهم الخاصة
-ضمن سير عمل يسهل التصور الطيفي
-وقياس المعاملات الصوتية.
+[warbleR](https://cran.r-project.org/package=warbleR) مصمم لتسهيل
+تحليل بنية الإشارات الصوتية الحيوانية في
+لغة R. يمكن للمستخدمين جمع تسجيلات الطيور المفتوحة المصدر أو إدخال بياناتهم الخاصة
+في سير عمل يسهل التصور الطيفي و
+قياس المعلمات الصوتية.
 يستخدم [warbleR](https://cran.r-project.org/package=warbleR)
 أدوات تحليل الصوت الأساسية من حزمة seewave، ويقدم أدوات جديدة
-لتحليل البنية الصوتية. تتوفر هذه الأدوات لتحليل دفعات من الإشارات الصوتية.
+لتحليل البنية الصوتية. هذه الأدوات متاحة
+للتحليل الجماعي للإشارات الصوتية.
 
 الميزات الرئيسية للحزمة هي:
 
 - أدوات متنوعة لقياس البنية الصوتية
-- استخدام الحلقات لتطبيق المهام عبر إشارات صوتية مشار إليها في
-  جدول تحديد
-- إنتاج صور في دليل العمل تتضمن مخططات طيفية لتمكين المستخدمين من تنظيم البيانات والتحقق من التحليلات الصوتية
+- استخدام الحلقات لتطبيق المهام عبر الإشارات الصوتية المشار إليها في
+  جدول اختيار
+- إنتاج صور في دليل العمل مع مخططات طيفية لتمكين المستخدمين من تنظيم البيانات والتحقق من التحليلات الصوتية
 
 تقدم الحزمة وظائف لـ:
 
 - استكشاف وتحميل تسجيلات [Xeno‐Canto](https://xeno-canto.org/)
-- استكشاف وتنظيم ومعالجة ملفات صوتية متعددة
-- اكتشاف الإشارات تلقائيًا (في التردد والزمن) (ولكن تحقق من حزمة R
-  [ohun](https://docs.ropensci.org/ohun/) للحصول على تنفيذ أكثر شمولية وسهولة)
+- استكشاف وتنظيم ومعالجة ملفات الصوت المتعددة
+- الكشف التلقائي عن الإشارات (في التردد والوقت) (لكن تحقق من حزمة R
+  [ohun](https://docs.ropensci.org/ohun/) لتنفيذ أكثر شمولاً وودياً)
 - إنشاء مخططات طيفية للتسجيلات الكاملة أو الإشارات الفردية
-
-
-
-
-
-- تشغيل مقاييس مختلفة لبنية الإشارة الصوتية
+- إجراء قياسات مختلفة لبنية الإشارة الصوتية
 - تقييم أداء طرق القياس
 - فهرسة الإشارات
-- توصيف المستويات البنيوية المختلفة في الإشارات الصوتية
+- توصيف مستويات بنائية مختلفة في الإشارات الصوتية
 - التحليل الإحصائي لتنسيق الثنائيات
-- دمج قواعد البيانات وجداول التعليقات التوضيحية
+- توحيد قواعد البيانات وجداول التعليقات التوضيحية
 
-تسمح معظم الوظائف بتنفيذ المهام بشكل متوازي،
-مما يوزع المهام بين عدة معالجات لتحسين الكفاءة الحاسوبية.
-تتوفر أيضًا أدوات لتقييم أداء التحليل في كل خطوة.
+تسمح معظم الوظائف بتوازي المهام، مما
+يوزع المهام بين عدة معالجات لتحسين الحسابات
+
+
+الكفاءة. تتوفر أيضًا أدوات لتقييم أداء التحليل في كل
+مرحلة.
 
 ## التثبيت
 
 قم بتثبيت/تحميل الحزمة من CRAN كما يلي:
-
 
 ``` r
 install.packages("warbleR")
@@ -167,6 +158,6 @@ Araya-Salas، M. و Smith-Vidaurre، G. (2017)، *warbleR: حزمة r لتسهي
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

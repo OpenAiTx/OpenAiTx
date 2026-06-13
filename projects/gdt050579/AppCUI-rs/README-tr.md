@@ -1,7 +1,7 @@
 
 <div align="right">
   <details>
-    <summary >🌐 Dil</summary>
+    <summary>🌐 Dil</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=en">English</a>
@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -40,7 +40,7 @@
 
 ![Windows Derleme Durumu](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
 ![Linux Derleme Durumu](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
-![MacOS Derleme Durumu](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
+![macOS Derleme Durumu](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
 ![Kod Kapsamı](https://gist.githubusercontent.com/gdt050579/f7d7e7d56b2725a3b33a265e8a9d8e9c/raw/coverage.svg)
 ![Lisans](https://img.shields.io/github/license/gdt050579/AppCUI-rs)
 [![Crates.io](https://img.shields.io/crates/v/appcui.svg)](https://crates.io/crates/appcui)
@@ -48,49 +48,49 @@
 [![Galeri](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-AppCUI-rs; zengin araçlar, temalar ve tam Unicode desteği ile modern, metin tabanlı kullanıcı arayüzleri (TUI) oluşturmak için hızlı, çok platformlu bir Rust kütüphanesidir—ncurses ve diğer terminal UI çerçevelerine alternatif olarak kullanılabilir.
+AppCUI-rs, modern, metin tabanlı kullanıcı arayüzleri (TUI) oluşturmak için zengin widget'lar, temalar ve tam Unicode desteği sunan, hızlı ve çapraz platform Rust kütüphanesidir—ncurses ve diğer terminal arayüz çerçevelerine alternatif olarak tasarlanmıştır.
 * [Kitap](https://gdt050579.github.io/AppCUI-rs/)
 * [Dokümantasyon](https://docs.rs/appcui)
 * [Galeri](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
 ## ✨ Özellikler
-- [x] kutudan çıktığı gibi çoklu kontrol (butonlar, etiketler, metin kutuları, onay kutuları, radyo butonları, liste görünümleri, ağaç görünümleri, açılır kutular, tarih/saat seçiciler, renk seçiciler, sekmeler, akordeonlar, vb.). Tüm kontrol listesini [buradan](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) bulabilirsiniz
-- [x] kontrolleri mutlak koordinatlar, göreli koordinatlar, dock, hizalama, sabitleyiciler veya pivot konumlandırma ile yerleştirmenizi sağlayan güçlü bir yerleşim sistemi (daha fazlası için [buraya bakın](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html))
+- [x] kutudan çıkar çıkmaz birden fazla kontrol (butonlar, etiketler, metin kutuları, onay kutuları, radyo düğmeleri, liste görünümleri, ağaç görünümleri, kombolar, tarih/saat seçiciler, renk seçiciler, sekmeler, akordeonlar vb.). Kontrollerin tam listesi için [buraya](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) bakabilirsiniz
+- [x] güçlü bir yerleşim sistemi ile mutlak koordinatlar, göreli koordinatlar, kenetleme, hizalama, sabitleme veya pivot konumlandırma ile kontrolleri yerleştirebilirsiniz (daha fazla bilgi için [buraya](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html) bakınız)
 - [x] menüler ve araç çubukları
-- [x] çoklu platform desteği (Windows için API ve sanal terminal, Linux için ncurses, MacOS için termios)
+- [x] çoklu platform desteği (Windows API ve sanal terminal ile, Linux'ta ncurses ile, macOS'ta termios ile)
 - [x] arka plan görevleri için çoklu iş parçacığı desteği
 - [x] zamanlayıcılar
 - [x] fare desteği
-- [x] panoya kopyalama desteği
+- [x] pano desteği
 - [x] renk temaları
-- [x] Unicode karakterler için destek
+- [x] Unicode karakter desteği
 - [x] önceden tanımlı diyaloglar (mesaj kutusu, giriş kutusu, renk seçici, kaydet & aç diyalogları, klasör gezgini vb.)
-- [x] bunu destekleyen terminallerde gerçek renk desteği (piksel başına 24 bit).
+- [x] destekleyen terminallerde gerçek renk desteği (piksel başına 24 bit).
 
 ## 📸 Ekran Görüntüleri
 
 <img src="https://github.com/gdt050579/AppCUI-rs/raw/main/docs/chapter-1/img/appcui-rs-demo.gif" align="center" />
 
-👉 **Tüm kontrol demoları için [Galeriye](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) göz atın!**
+👉 **Tüm kontrollerin tam demoları için [Galeri](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)'ye göz atın!**
 
-## 🖥️ Arka Uçlar
+## 🖥️ Backend'ler
 
-AppCUI, kullanıldığı işletim sistemine bağlı olarak çeşitli arka uçları destekler:
+AppCUI, işletim sistemine bağlı olarak çeşitli backend'leri destekler:
 
 * **Windows Konsolu** - Win32 düşük seviyeli API'ye dayalı, klasik Windows konsolu için tasarlanmıştır
 * **Windows VT** - ANSI dizilerine dayalı, modern Windows sanal terminalleri için tasarlanmıştır
-* **NCurses** - Linux ortamları için NCurses API'ye dayalıdır
-* **Termios** - MAC OSX için ANSI dizileri ve düşük seviyeli API'lere dayalıdır
-* **Web Terminali** - Web uygulamaları için tasarlanmıştır (webgl tabanlı)
-* **CrossTerm** - `crossterm` crate'ine dayalıdır, ancak bir özellik bayrağı ile etkinleştirilir
+* **NCurses** - Linux ortamları için NCurses API'sine dayalıdır
+* **Termios** - macOS için ANSI dizileri ve düşük seviyeli API'lere dayalıdır
+* **Web Terminali** - web uygulamaları için tasarlanmıştır (WebGL tabanlı)
+* **CrossTerm** - `crossterm` crate'ine dayalıdır, bir özellik bayrağı ile etkinleştirilir
 
 Desteklenen arka uçlar hakkında daha fazla bilgiye [buradan](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html) ulaşabilirsiniz
 
 
 ## 🚀 Hızlı Başlangıç
 
-Aşağıdakini `Cargo.toml` dosyanıza ekleyin:
+Aşağıdakileri `Cargo.toml` dosyanıza ekleyin:
 
 ```toml
 [dependencies]
@@ -119,7 +119,7 @@ fn main() -> Result<(), appcui::system::Error> {
 }
 ```
 
-veya proc-macros kullanarak daha kompakt bir sürüm:
+Ya da proc-makroları kullanan daha kompakt bir versiyon:
 
 ```rs
 use appcui::prelude::*;
@@ -133,21 +133,21 @@ fn main() -> Result<(), appcui::system::Error> {
     Ok(())
 }
 ```
-
-Ardından projeyi `cargo run` komutuyla çalıştırın. Merkezde `Hello World !` yazısı ve başlığı `Test` olan bir pencere görmelisiniz.
+Ardından projeyi `cargo run` ile çalıştırın. Ekranda başlığı `Test` olan ve ortasında `Hello World !` yazan bir pencere görmelisiniz.
 
 ## 🧪 Örnekler
 
-AppCUI-rs, başlamanıza yardımcı olacak bir dizi örnekle birlikte gelir. [examples](examples) klasöründe şunları bulabilirsiniz:
-- [Tic Tac Toe](examples/tic-tac-toe/), [Snake](examples/snake/), [Flappy Bird](examples/flappy), [Minesweeper](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Chees](examples/games/), [Connect Four](examples/games/), [2048](examples/games/) veya [Tetris](examples/games/) gibi **Oyunlar**
-- [Calculator](examples/calculator/), [CSV Viewer](examples/csv_viewer/), [Temperature Converter](examples/temperature_convertor/) veya bir [Timer](examples/timer/) gibi **Araçlar**
-- [Matrix](examples/matrix/), [Fractals](examples/fractals/) veya [Spiral](examples/spiral/) gibi **Animasyonlar**
-- [Button](examples/buttons/), [CheckBox](examples/checkboxes/), [ComboBox](examples/combobox/), [DatePicker](examples/datepicker/), [ListView](examples/listview/), [TreeView](examples/treeview/) ve çok daha fazlası gibi **Kontroller**/**Bileşenler**
-- [Notification](examples/notification_dialogs/) veya [Input](examples/input_dialog/) gibi **Diyaloglar**
+AppCUI-rs, başlamanıza yardımcı olmak için bir dizi örnekle birlikte gelir. Bunları [examples](examples) klasöründe bulabilirsiniz, örnekler arasında:
+- **Oyunlar**: [Tic Tac Toe](examples/tic-tac-toe/), [Yılan](examples/snake/), [Flappy Bird](examples/flappy), [Mayın Tarlası](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Satranç](examples/games/), [Connect Four](examples/games/), [2048](examples/games/) veya [Tetris](examples/games/)
+- **Araçlar**: [Hesap Makinesi](examples/calculator/), [CSV Görüntüleyici](examples/csv_viewer/), [Sıcaklık Dönüştürücü](examples/temperature_convertor/) veya bir [Zamanlayıcı](examples/timer/)
+- **Animasyonlar**: [Matrix](examples/matrix/), [Fraktallar](examples/fractals/) veya [Spiral](examples/spiral/)
+- **Kontroller**/**Bileşenler**: [Buton](examples/buttons/), [Onay Kutusu](examples/checkboxes/), [Açılır Kutu](examples/combobox/), [Tarih Seçici](examples/datepicker/), [Liste Görünümü](examples/listview/), [Ağaç Görünümü](examples/treeview/) ve daha fazlası.
+- **Diyaloglar**: [Bildirim](examples/notification_dialogs/) veya [Girdi](examples/input_dialog/)
 
 ## 🛠️ Daha karmaşık bir örnek
 
-Bir butona basıldığında bir sayacı artıran bir pencere oluşturan bir örnek.
+Bir pencere oluşturan ve butona basıldığında bir sayacı artıran bir örnek.
+
 
 ```rust
 use appcui::prelude::*;
@@ -179,11 +179,11 @@ impl ButtonEvents for CounterWindow {
     fn on_pressed(&mut self, handle: Handle<Button>) -> EventProcessStatus {
         // increase the counter
         self.counter += 1;
-        // create a text that containe the new counter
+        // create a text that contains the new counter
         let text = format!("{}",self.counter);
-        // aquire a mutable reference to the button using its handle
+        // acquire a mutable reference to the button using its handle
         if let Some(button) = self.control_mut(handle) {
-            // set the caption of the button to th new text
+            // set the caption of the button to the new text
             button.set_caption(&text);
         }
         // Tell the AppCUI framework that we have processed this event
@@ -197,7 +197,7 @@ fn main() -> Result<(), appcui::system::Error> {
     let mut a = App::new().build()?;
     // add a new window (of type CounterWindow) to the application
     a.add_window(CounterWindow::new());
-    // Run AppCUI framework (this wil start the window loop and messaage passing)
+    // Run AppCUI framework (this will start the window loop and message passing)
     a.run();
     Ok(())
 }
@@ -205,21 +205,21 @@ fn main() -> Result<(), appcui::system::Error> {
 
 ## 🛣️ Yol Haritası
 
-- [x] Temel widget seti ve Windows, Linux ile MacOS desteği
+- [x] Temel widget seti ve Windows, Linux, macOS desteği
 - [x] WebGL desteği
 - [ ] OpenGL / SDL / Vulkan desteği
-- [ ] Kod vurgulama için TextArea desteği
+- [ ] Kod vurgulaması için TextArea desteği
 
 ## 🤝 Katkı Sağlama
 
 Katkılar, sorunlar ve özellik talepleri memnuniyetle karşılanır!  
 Başlamak için [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) dosyasına göz atın.
 
-[GitHub Tartışmaları](https://github.com/gdt050579/AppCUI-rs/discussions) bölümünde tartışmalara katılın.
+[GitHub Discussions](https://github.com/gdt050579/AppCUI-rs/discussions) bölümünde tartışmaya katılın.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

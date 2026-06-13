@@ -1,7 +1,7 @@
 
 <div align="right">
   <details>
-    <summary >🌐 اللغة</summary>
+    <summary>🌐 اللغة</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=en">English</a>
@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -40,52 +40,52 @@
 
 ![حالة البناء على ويندوز](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
 ![حالة البناء على لينكس](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
-![حالة البناء على ماك أو إس](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
-![تغطية الشيفرة](https://gist.githubusercontent.com/gdt050579/f7d7e7d56b2725a3b33a265e8a9d8e9c/raw/coverage.svg)
+![حالة البناء على macOS](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
+![تغطية الكود](https://gist.githubusercontent.com/gdt050579/f7d7e7d56b2725a3b33a265e8a9d8e9c/raw/coverage.svg)
 ![الرخصة](https://img.shields.io/github/license/gdt050579/AppCUI-rs)
 [![Crates.io](https://img.shields.io/crates/v/appcui.svg)](https://crates.io/crates/appcui)
 [![Docs.rs](https://docs.rs/appcui/badge.svg)](https://docs.rs/appcui)
 [![المعرض](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-AppCUI-rs هي مكتبة Rust سريعة ومتعددة المنصات لبناء واجهات مستخدم حديثة قائمة على النصوص (TUIs) مع عناصر واجهة غنية ومواضيع ودعم كامل لـ Unicode—بديل لـ ncurses وأطر واجهات الطرفية الأخرى.
+AppCUI-rs هي مكتبة Rust سريعة وعبرية للمنصات لبناء واجهات مستخدم حديثة قائمة على النص (TUI) مع عناصر واجهة غنية، وثيمات، ودعم كامل لـ Unicode—بديل لـ ncurses وأطر واجهات المستخدم الطرفية الأخرى.
 * [الكتاب](https://gdt050579.github.io/AppCUI-rs/)
 * [التوثيق](https://docs.rs/appcui)
 * [المعرض](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
 ## ✨ الميزات
-- [x] عناصر تحكم جاهزة متعددة (أزرار، تسميات، صناديق نصية، صناديق اختيار، أزرار اختيار، قوائم، شجرات، قوائم منسدلة، منتقيات تاريخ/وقت، منتقيات ألوان، تبويبات، أكورديونات، إلخ). القائمة الكاملة لعناصر التحكم يمكن العثور عليها [هنا](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) 
-- [x] نظام تخطيط قوي يسمح لك بترتيب العناصر باستخدام إحداثيات مطلقة، نسبية، إرساء، محاذاة، نقاط ارتكاز أو تموضع محوري (اطلع على المزيد [هنا](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html)) 
+- [x] العديد من عناصر التحكم الجاهزة (أزرار، ملصقات، صناديق نصية، مربعات اختيار، أزرار راديو، قوائم، عروض شجرية، صناديق كومبو، أدوات اختيار التاريخ/الوقت، أدوات اختيار اللون، علامات تبويب، أكورديون، إلخ). القائمة الكاملة للعناصر تجدها [هنا](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html)
+- [x] نظام تخطيط قوي يسمح لك بتموضع العناصر باستخدام إحداثيات مطلقة، إحداثيات نسبية، إرساء، محاذاة، مرساة، أو تحديد نقطة ارتكاز (اطلع أكثر [هنا](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html))
 - [x] قوائم وأشرطة أدوات
-- [x] دعم متعدد المنصات (ويندوز عبر API والطرفية الافتراضية، لينكس عبر ncurses، ماك أو إس عبر termios)
-- [x] دعم للتعددية في المعالجة للسماح بالمهام الخلفية
+- [x] دعم متعدد المنصات (ويندوز عبر API والطرفية الافتراضية، لينكس عبر ncurses، macOS عبر termios)
+- [x] دعم تعدد المهام لتمكين عمليات الخلفية
 - [x] مؤقتات
-- [x] دعم للفأرة
-- [x] دعم للحافظة
-- [x] مواضيع ألوان
-- [x] دعم لحروف الـ Unicode
-- [x] حوارات معرفة مسبقًا (صندوق رسائل، صندوق إدخال، منتقي ألوان، حوارات حفظ وفتح، مستعرض مجلدات، إلخ)
+- [x] دعم الفأرة
+- [x] دعم الحافظة
+- [x] ثيمات الألوان
+- [x] دعم أحرف Unicode
+- [x] مربعات حوار معرفة مسبقاً (رسالة، إدخال، اختيار لون، حفظ وفتح، متصفح المجلدات، إلخ)
 - [x] دعم الألوان الحقيقية (24 بت لكل بكسل) للطرفيات التي تدعمها.
 
-## 📸 لقطات شاشة 
+## 📸 لقطات شاشة
 
 <img src="https://github.com/gdt050579/AppCUI-rs/raw/main/docs/chapter-1/img/appcui-rs-demo.gif" align="center" />
 
-👉 **اطلع على [المعرض](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) لمشاهدة عروض كاملة لجميع العناصر!**
+👉 **اطلع على [المعرض](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) لمشاهدة عروض كاملة لكل العناصر!**
 
 ## 🖥️ الأنظمة الخلفية
 
-يدعم AppCUI العديد من الأنظمة الخلفية حسب نظام التشغيل المستخدم:
+يدعم AppCUI العديد من الأنظمة الخلفية حسب نظام التشغيل:
 
-* **كونسول ويندوز** - يعتمد على واجهة برمجة التطبيقات Win32 منخفضة المستوى، مصمم للكونسول الكلاسيكي في ويندوز
-* **ويندوز VT** - يعتمد على تسلسل ANSI، مصمم للمحطات الافتراضية الحديثة في ويندوز
-* **NCurses** - يعتمد على واجهة برمجة تطبيقات NCurses لبيئات لينكس
-* **Termios** - يعتمد على تسلسلات ANSI وواجهات برمجة التطبيقات منخفضة المستوى لنظام MAC OSX
-* **ويب تيرمينال** - مصمم للتنفيذ على الويب (معتمد على webgl)
-* **CrossTerm** - يعتمد على مكتبة `crossterm`، ويتم تفعيله عبر علم خاص بالميزات
+* **وحدة تحكم ويندوز** - تعتمد على واجهة برمجة التطبيقات Win32 منخفضة المستوى، مصممة لوحدة تحكم ويندوز التقليدية
+* **Windows VT** - تعتمد على تسلسل ANSI، مصممة لأجهزة ويندوز الحديثة مع المحطات الافتراضية
+* **NCurses** - تعتمد على واجهة برمجة التطبيقات NCurses لبيئات لينكس
+* **Termios** - تعتمد على تسلسل ANSI وواجهات برمجة التطبيقات منخفضة المستوى لنظام macOS
+* **Web Terminal** - مصممة للتطبيقات على الويب (تعتمد على WebGL)
+* **CrossTerm** - تعتمد على مكتبة `crossterm`، يتم تفعيلها عبر علامة ميزة
 
-يمكنك معرفة المزيد حول الأنظمة الخلفية المدعومة من خلال [هذا الرابط](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html)
+يمكنك معرفة المزيد عن الأنظمة المدعومة [هنا](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html)
 
 
 ## 🚀 البداية السريعة
@@ -118,7 +118,7 @@ fn main() -> Result<(), appcui::system::Error> {
     Ok(())
 }
 ```
-أو نسخة أكثر إحكامًا باستخدام وحدات الماكرو الإجرائية:
+أو نسخة أكثر اختصارًا باستخدام proc-macros:
 
 
 ```rs
@@ -133,21 +133,21 @@ fn main() -> Result<(), appcui::system::Error> {
     Ok(())
 }
 ```
-
-ثم قم بتشغيل المشروع باستخدام الأمر `cargo run`. يجب أن تظهر نافذة بعنوان `Test` ونص `Hello World !` في الوسط.
+ثم قم بتشغيل المشروع باستخدام الأمر `cargo run`. يجب أن ترى نافذة بعنوان `Test` والنص `Hello World !` في المنتصف.
 
 ## 🧪 أمثلة
 
 يأتي AppCUI-rs مع مجموعة من الأمثلة لمساعدتك على البدء. يمكنك العثور عليها في مجلد [examples](examples)، بما في ذلك:
-- **الألعاب** مثل [Tic Tac Toe](examples/tic-tac-toe/)، [Snake](examples/snake/)، [Flappy Bird](examples/flappy)، [Minesweeper](examples/minesweeper/)، [Ram it](examples/ramit/)، [PacMan](examples/games/)، [Chees](examples/games/)، [Connect Four](examples/games/)، [2048](examples/games/) أو [Tetris](examples/games/)
-- **الأدوات** مثل [Calculator](examples/calculator/)، [CSV Viewer](examples/csv_viewer/)، [Temperature Converter](examples/temperature_convertor/) أو [Timer](examples/timer/)
-- **الرسوم المتحركة** مثل [Matrix](examples/matrix/)، [Fractals](examples/fractals/) أو [Spiral](examples/spiral/)
-- **عناصر التحكم**/**الحاجيات** مثل [Button](examples/buttons/)، [CheckBox](examples/checkboxes/)، [ComboBox](examples/combobox/)، [DatePicker](examples/datepicker/)، [ListView](examples/listview/)، [TreeView](examples/treeview/) والمزيد.
-- **الحوارات** مثل [Notification](examples/notification_dialogs/) أو [Input](examples/input_dialog/)
+- **ألعاب** مثل [Tic Tac Toe](examples/tic-tac-toe/)، [Snake](examples/snake/)، [Flappy Bird](examples/flappy)، [Minesweeper](examples/minesweeper/)، [Ram it](examples/ramit/)، [PacMan](examples/games/)، [Chess](examples/games/)، [Connect Four](examples/games/)، [2048](examples/games/)، أو [Tetris](examples/games/)
+- **أدوات** مثل [Calculator](examples/calculator/)، [CSV Viewer](examples/csv_viewer/)، [Temperature Converter](examples/temperature_convertor/)، أو [Timer](examples/timer/)
+- **حركات** مثل [Matrix](examples/matrix/)، [Fractals](examples/fractals/)، أو [Spiral](examples/spiral/)
+- **عناصر تحكم**/**ودجات** مثل [Button](examples/buttons/)، [CheckBox](examples/checkboxes/)، [ComboBox](examples/combobox/)، [DatePicker](examples/datepicker/)، [ListView](examples/listview/)، [TreeView](examples/treeview/) وغيرها الكثير.
+- **حوارات** مثل [Notification](examples/notification_dialogs/) أو [Input](examples/input_dialog/)
 
 ## 🛠️ مثال أكثر تعقيداً
 
-مثال ينشئ نافذة تحتوي على زر، وعند الضغط عليه يزيد عداداً.
+مثال يقوم بإنشاء نافذة تحتوي على زر، عند الضغط عليه، يزيد عداداً.
+
 
 ```rust
 use appcui::prelude::*;
@@ -179,11 +179,11 @@ impl ButtonEvents for CounterWindow {
     fn on_pressed(&mut self, handle: Handle<Button>) -> EventProcessStatus {
         // increase the counter
         self.counter += 1;
-        // create a text that containe the new counter
+        // create a text that contains the new counter
         let text = format!("{}",self.counter);
-        // aquire a mutable reference to the button using its handle
+        // acquire a mutable reference to the button using its handle
         if let Some(button) = self.control_mut(handle) {
-            // set the caption of the button to th new text
+            // set the caption of the button to the new text
             button.set_caption(&text);
         }
         // Tell the AppCUI framework that we have processed this event
@@ -197,7 +197,7 @@ fn main() -> Result<(), appcui::system::Error> {
     let mut a = App::new().build()?;
     // add a new window (of type CounterWindow) to the application
     a.add_window(CounterWindow::new());
-    // Run AppCUI framework (this wil start the window loop and messaage passing)
+    // Run AppCUI framework (this will start the window loop and message passing)
     a.run();
     Ok(())
 }
@@ -205,21 +205,21 @@ fn main() -> Result<(), appcui::system::Error> {
 
 ## 🛣️ خارطة الطريق
 
-- [x] مجموعة أساسية من العناصر ودعم لأنظمة ويندوز، لينكس وماك أو إس
+- [x] مجموعة الأدوات الأساسية ودعم لأنظمة ويندوز، لينكس، وماك أو إس
 - [x] دعم WebGL
 - [ ] دعم OpenGL / SDL / Vulkan
 - [ ] دعم TextArea لإبراز الشيفرة
 
 ## 🤝 المساهمة
 
-المساهمات، والمشكلات، وطلبات الميزات مرحب بها!  
+المساهمات، المشاكل، وطلبات الميزات مرحب بها!  
 اطلع على [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) للبدء.
 
-انضم للنقاش في [مناقشات GitHub](https://github.com/gdt050579/AppCUI-rs/discussions).
+انضم إلى النقاش في [مناقشات GitHub](https://github.com/gdt050579/AppCUI-rs/discussions).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

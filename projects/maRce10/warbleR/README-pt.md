@@ -1,70 +1,61 @@
-<div align="right">
-  <details>
-    <summary >🌐 Idioma</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as">অসমীয়া</
-      </div>
-    </div>
-  </details>
-</div>
-
-
 warbleR: Simplifique a Análise Bioacústica
 ================
 
+🌐 **Idiomas:**  
+[English](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en) |
+[Español](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es) |
+[Français](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr) |
+[Deutsch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de) |
+[Português](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt) |
+[Italiano](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it) |
+[Русский](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru) |
+[中文 (简体)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN) |
+[中文 (繁體)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW) |
+[日本語](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja) |
+[한국어](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko) |
+[हिन्दी](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi) |
+[ไทย](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th) |
+[Nederlands](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl) |
+[Polski](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl) |
+[العربية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar) |
+[فارسی](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa) |
+[Türkçe](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr) |
+[Tiếng Việt](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi) |
+[Bahasa Indonesia](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id) |
+[অসমীয়া](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as)
+
 <!-- README.md é gerado a partir de README.Rmd. Por favor, edite esse arquivo -->
-<!-- badges: início -->
+<!-- badges: start -->
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)
-[![Status do Projeto: Ativo O projeto atingiu um estado estável e utilizável
-e está sendo
-desenvolvido ativamente.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Status do Projeto: Ativo O projeto atingiu um estado estável, utilizável
+e está sendo ativamente
+desenvolvido.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Licença: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)
-[![Total de
+[![Total
 Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
-[![Cobertura dos testes do
-Codecov](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
+[![Codecov test
+cobertura](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
 <!-- badges: end -->
 
-<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="logo warbleR" align="right" width = "25%" height="25%"/>
+<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="logo do warbleR" align="right" width = "25%" height="25%"/>
 
-O [warbleR](https://cran.r-project.org/package=warbleR) tem como objetivo
+O [warbleR](https://cran.r-project.org/package=warbleR) foi desenvolvido para
 facilitar a análise da estrutura de sinais acústicos de animais no
 R. Usuários podem coletar gravações de aves de acesso aberto ou inserir seus próprios
 dados em um fluxo de trabalho que facilita a visualização espectrográfica e a
-mensuração de parâmetros acústicos.
+medição de parâmetros acústicos.
 O [warbleR](https://cran.r-project.org/package=warbleR) faz uso das
-ferramentas fundamentais de análise sonora do pacote seewave, e oferece novas
-ferramentas para análise de estrutura acústica. Essas ferramentas estão disponíveis para
+ferramentas fundamentais de análise de som do pacote seewave, e oferece novas
+ferramentas para análise da estrutura acústica. Essas ferramentas estão disponíveis para
 análise em lote de sinais acústicos.
 
 As principais características do pacote são:
 
-- Diversas ferramentas para medir estrutura acústica
+- Diversas ferramentas para medir a estrutura acústica
 - O uso de loops para aplicar tarefas em sinais acústicos referenciados em
   uma tabela de seleção
 - A produção de imagens no diretório de trabalho com espectrogramas para
@@ -74,20 +65,20 @@ O pacote oferece funções para:
 
 - Explorar e baixar gravações do [Xeno‐Canto](https://xeno-canto.org/)
 - Explorar, organizar e manipular múltiplos arquivos de áudio
-- Detectar sinais automaticamente (em frequência e tempo) (mas confira o pacote R
+- Detectar sinais automaticamente (em frequência e tempo) (mas consulte o pacote R
   [ohun](https://docs.ropensci.org/ohun/) para uma implementação mais completa
   e amigável)
 - Criar espectrogramas de gravações completas ou sinais individuais
-- Execute diferentes medidas da estrutura do sinal acústico
-- Avalie o desempenho dos métodos de medição
-- Catalogue sinais
-- Caracterize diferentes níveis estruturais em sinais acústicos
+- Executar diferentes medições da estrutura do sinal acústico
+- Avaliar o desempenho dos métodos de medição
+- Catalogar sinais
+- Caracterizar diferentes níveis estruturais em sinais acústicos
 - Análise estatística da coordenação de duetos
-- Consolide bancos de dados e tabelas de anotação
+- Consolidar bancos de dados e tabelas de anotação
 
 A maioria das funções permite a paralelização de tarefas, o que
-distribui as tarefas entre vários processadores para melhorar a
-eficiência computacional. Ferramentas para avaliar o desempenho da análise em cada
+distribui as tarefas entre vários processadores para melhorar o processamento computacional
+eficiência. Ferramentas para avaliar o desempenho da análise em cada
 etapa também estão disponíveis.
 
 ## Instalação
@@ -167,6 +158,6 @@ quaisquer funções de criação de espectrogramas ou medição acústica
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

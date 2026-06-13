@@ -1,72 +1,63 @@
-<div align="right">
-  <details>
-    <summary >🌐 Taal</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en">Engels</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja">Japans</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko">Koreaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th">Thai</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr">Frans</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de">Duits</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es">Spaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it">Italiaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru">Russisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt">Portugees</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl">Pools</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar">Arabisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa">Perzisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr">Turks</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi">Vietnamees</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id">Indonesisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as">অসমীয়া</
-      </div>
-    </div>
-  </details>
-</div>
-
-
-warbleR: Versnel Bioakoestische Analyse
+warbleR: Stroomlijn Bioacoustische Analyse
 ================
 
-<!-- README.md is gegenereerd uit README.Rmd. Bewerk dat bestand -->
+🌐 **Talen:**  
+[Engels](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en) |
+[Spaans](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es) |
+[Frans](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr) |
+[Duits](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de) |
+[Portugees](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt) |
+[Italiaans](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it) |
+[Russisch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru) |
+[Chinees (Vereenvoudigd)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN) |
+[Chinees (Traditioneel)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW) |
+[Japans](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja) |
+[Koreaans](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko) |
+[Hindi](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi) |
+[Thais](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th) |
+[Nederlands](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl) |
+[Pools](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl) |
+[Arabisch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar) |
+[Perzisch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa) |
+[Turks](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr) |
+[Vietnamees](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi) |
+[Indonesisch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id) |
+[Assamees](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as)
+
+<!-- README.md wordt gegenereerd vanuit README.Rmd. Gelieve dat bestand te bewerken -->
 <!-- badges: start -->
 
 [![levenscyclus](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)
-[![Projectstatus: Actief Het project heeft een stabiele, bruikbare status bereikt
+[![Projectstatus: Actief Het project heeft een stabiele, bruikbare staat bereikt
 en wordt actief
 ontwikkeld.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Licentie: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)
 [![Totaal
-Aantal Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
 [![Codecov test
-dekking](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
+coverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
 <!-- badges: end -->
 
 <img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="warbleR logo" align="right" width = "25%" height="25%"/>
 
 [warbleR](https://cran.r-project.org/package=warbleR) is bedoeld om
 de analyse van de structuur van dierlijke akoestische signalen in
-R te vergemakkelijken. Gebruikers kunnen open-access vogelopnames verzamelen of hun eigen
+R te vergemakkelijken. Gebruikers kunnen open-toegankelijke vogelopnames verzamelen of hun eigen
 gegevens invoeren in een workflow die spectrografische visualisatie en
-meting van akoestische parameters mogelijk maakt.
+meting van akoestische parameters ondersteunt.
 [warbleR](https://cran.r-project.org/package=warbleR) maakt gebruik van de
 fundamentele geluidsanalysetools van het seewave-pakket, en biedt nieuwe
-tools voor analyse van akoestische structuur. Deze tools zijn beschikbaar voor
+hulpmiddelen voor de analyse van akoestische structuren. Deze tools zijn beschikbaar voor
 batchanalyse van akoestische signalen.
 
 De belangrijkste kenmerken van het pakket zijn:
 
-- Diverse tools voor het meten van akoestische structuur
-- Het gebruik van loops om taken toe te passen op akoestische signalen die in
-  een selectietabel zijn gerefereerd
+- Diverse hulpmiddelen voor het meten van akoestische structuur
+- Het gebruik van loops om taken toe te passen op akoestische signalen die worden vermeld in
+  een selectietabel
 - Het produceren van afbeeldingen in de werkdirectory met spectrogrammen om
   gebruikers te helpen data te organiseren en akoestische analyses te verifiëren
 
@@ -74,25 +65,25 @@ Het pakket biedt functies om:
 
 - [Xeno‐Canto](https://xeno-canto.org/) opnames te verkennen en te downloaden
 - Meerdere geluidsbestanden te verkennen, organiseren en manipuleren
-- Signalen automatisch te detecteren (in frequentie en tijd) (maar bekijk het R
-  pakket [ohun](https://docs.ropensci.org/ohun/) voor een meer grondige
-  en gebruiksvriendelijke implementatie)
+- Signaleren automatisch te detecteren (in frequentie en tijd) (maar bekijk het R-
+  pakket [ohun](https://docs.ropensci.org/ohun/) voor een grondigere
+  en gebruiksvriendelijkere implementatie)
 - Spectrogrammen te maken van volledige opnames of individuele signalen
-- Voer verschillende maten van de structuur van het akoestisch signaal uit
-- Evalueer de prestaties van meetmethoden
-- Catalogiseer signalen
-- Karakteriseer verschillende structurele niveaus in akoestische signalen
+- Verschillende maten van de structuur van akoestische signalen uit te voeren
+- De prestaties van meetmethoden te evalueren
+- Signaleringen te catalogiseren
+- Verschillende structurele niveaus in akoestische signalen te karakteriseren
 - Statistische analyse van duetcoördinatie
-- Consolideer databases en annotatietabellen
+- Databases en annotatietabellen te consolideren
 
-De meeste functies maken parallelisatie van taken mogelijk, wat
-de taken verdeelt over meerdere processoren om de computationele
-efficiëntie te verbeteren. Er zijn ook tools beschikbaar om de prestaties van de analyse bij elke
-stap te evalueren.
+De meeste functies maken parallelisatie van taken mogelijk, waardoor
+de taken over meerdere processors worden verdeeld om de rekentijd te verbeteren
+efficiëntie. Hulpmiddelen om de prestaties van de analyse bij elke stap te evalueren zijn ook beschikbaar.
 
 ## Installatie
 
 Installeer/laad het pakket vanaf CRAN als volgt:
+
 
 ``` r
 install.packages("warbleR")
@@ -167,6 +158,6 @@ spectrogramma-creërende of akoestische-meetfuncties gebruikt
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

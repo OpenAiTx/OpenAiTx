@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 भाषा</summary>
+    <summary>🌐 भाषा</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=en">English</a>
@@ -23,7 +23,7 @@
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -38,57 +38,57 @@
 ⯈ 𝗔𝗽𝗽𝗖𝗨𝗜-𝗿𝘀 🖳
 ```
 
-![Windows बिल्ड स्टेटस](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
-![Linux बिल्ड स्टेटस](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
-![MacOS बिल्ड स्टेटस](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
+![Windows बिल्ड स्थिति](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
+![Linux बिल्ड स्थिति](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
+![macOS बिल्ड स्थिति](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
 ![कोड कवरेज](https://gist.githubusercontent.com/gdt050579/f7d7e7d56b2725a3b33a265e8a9d8e9c/raw/coverage.svg)
 ![लाइसेंस](https://img.shields.io/github/license/gdt050579/AppCUI-rs)
 [![Crates.io](https://img.shields.io/crates/v/appcui.svg)](https://crates.io/crates/appcui)
 [![Docs.rs](https://docs.rs/appcui/badge.svg)](https://docs.rs/appcui)
-[![गैलरी](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
+[![Gallery](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-AppCUI-rs एक तेज़, क्रॉस-प्लेटफ़ॉर्म Rust लाइब्रेरी है, जो आधुनिक, टेक्स्ट-आधारित यूजर इंटरफेस (TUI) बनाने के लिए समृद्ध विजेट्स, थीम्स और पूर्ण यूनिकोड समर्थन प्रदान करती है—यह ncurses और अन्य टर्मिनल UI फ्रेमवर्क का एक विकल्प है।
-* [पुस्तक](https://gdt050579.github.io/AppCUI-rs/)
-* [प्रलेखन](https://docs.rs/appcui)
+AppCUI-rs एक तेज, क्रॉस-प्लेटफॉर्म Rust लाइब्रेरी है जो आधुनिक, टेक्स्ट-आधारित यूजर इंटरफेस (TUI) बनाने के लिए है, जिसमें समृद्ध विजेट, थीम, और पूर्ण यूनिकोड सपोर्ट है—यह ncurses और अन्य टर्मिनल UI फ्रेमवर्क का विकल्प है।
+* [बुक](https://gdt050579.github.io/AppCUI-rs/)
+* [दस्तावेज़](https://docs.rs/appcui)
 * [गैलरी](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-## ✨ विशेषताएं
-- [x] कई इनबिल्ट कंट्रोल्स (बटन, लेबल, टेक्स्ट बॉक्स, चेक बॉक्स, रेडियो बटन, लिस्ट व्यू, ट्री व्यू, कॉम्बो बॉक्स, डेट/टाइम पिकर, कलर पिकर, टैब्स, एकॉर्डियन्स, आदि)। सभी कंट्रोल्स की पूरी सूची [यहाँ](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) देख सकते हैं
-- [x] शक्तिशाली लेआउट सिस्टम जो आपको कंट्रोल्स को absolute coordinates, relative coordinates, docking, alignment, anchors या pivot positioning द्वारा स्थान देने की अनुमति देता है (अधिक जानकारी [यहाँ](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html))
-- [x] मेनू और टूलबार
-- [x] मल्टी-प्लेटफ़ॉर्म सपोर्ट (Windows API और वर्चुअल टर्मिनल, Linux ncurses के माध्यम से, MacOS termios के माध्यम से)
-- [x] मल्टी-थ्रेडिंग सपोर्ट ताकि बैकग्राउंड टास्क संभव हो
+## ✨ विशेषताएँ
+- [x] कई आउट-ऑफ-द-बॉक्स कंट्रोल्स (बटन, लेबल, टेक्स्ट बॉक्स, चेक बॉक्स, रेडियो बटन, लिस्ट व्यू, ट्री व्यू, कॉम्बो बॉक्स, दिनांक/समय पिकर, रंग पिकर, टैब्स, एकॉर्डियन्स आदि)। सभी कंट्रोल्स की पूरी सूची [यहाँ](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) देखी जा सकती है 
+- [x] शक्तिशाली लेआउट सिस्टम जो आपको कंट्रोल्स को पूर्ण निर्देशांक, सापेक्ष निर्देशांक, डॉकिंग, अलाइनमेंट, एंकर, या पिवट पोजिशनिंग द्वारा स्थित करने देता है (और देखें [यहाँ](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html)) 
+- [x] मेन्यू और टूलबार
+- [x] मल्टी-प्लेटफॉर्म सपोर्ट (Windows API और वर्चुअल टर्मिनल के जरिए, Linux में ncurses के जरिए, macOS में termios के जरिए)
+- [x] बैकग्राउंड टास्क के लिए मल्टी-थ्रेडिंग सपोर्ट
 - [x] टाइमर
 - [x] माउस सपोर्ट
 - [x] क्लिपबोर्ड सपोर्ट
-- [x] कलर थीम्स
-- [x] यूनिकोड कैरेक्टर्स का समर्थन
-- [x] पूर्वनिर्धारित डायलॉग्स (मैसेज बॉक्स, इनपुट बॉक्स, कलर पिकर, सेव एवं ओपन डायलॉग्स, फोल्डर नेविगेटर, आदि)
-- [x] टर्मिनल में True Colors सपोर्ट (24 बिट्स प्रति पिक्सल), जहाँ उपलब्ध हो।
+- [x] रंग थीम्स
+- [x] यूनिकोड कैरेक्टर का समर्थन
+- [x] पूर्व-निर्धारित डायलॉग (संदेश बॉक्स, इनपुट बॉक्स, रंग पिकर, सेव व ओपन डायलॉग, फोल्डर नेविगेटर आदि)
+- [x] टर्मिनल के लिए ट्रू-कलर सपोर्ट (24 बिट प्रति पिक्सेल) जो इसे सपोर्ट करते हैं।
 
 ## 📸 स्क्रीनशॉट्स 
 
 <img src="https://github.com/gdt050579/AppCUI-rs/raw/main/docs/chapter-1/img/appcui-rs-demo.gif" align="center" />
 
-👉 **[गैलरी](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) में सभी कंट्रोल्स के पूर्ण डेमो देखें!**
+👉 **[गैलरी](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) देखें, सभी कंट्रोल्स के पूर्ण डेमो के लिए!**
 
 ## 🖥️ बैकएंड्स
 
-AppCUI विभिन्न ऑपरेटिंग सिस्टम के अनुसार विभिन्न बैकएंड्स का समर्थन करता है:
+AppCUI विभिन्न ऑपरेटिंग सिस्टम के अनुसार कई बैकएंड्स को सपोर्ट करता है:
 
-* **Windows Console** - Win32 लो-लेवल API पर आधारित, क्लासिकल विंडोज़ कंसोल के लिए डिज़ाइन किया गया
-* **Windows VT** - ANSI अनुक्रमों पर आधारित, आधुनिक विंडोज़ वर्चुअल टर्मिनल्स के लिए डिज़ाइन किया गया
-* **NCurses** - लिनक्स वातावरण के लिए NCurses API पर आधारित
-* **Termios** - ANSI अनुक्रमों और MAC OSX के लिए लो-लेवल APIs पर आधारित
-* **Web Terminal** - वेब इम्प्लीमेंटेशन के लिए डिज़ाइन किया गया (webgl पर आधारित)
-* **CrossTerm** - `crossterm` क्रेट पर आधारित, लेकिन फीचर फ्लैग के माध्यम से सक्षम किया गया
+* **विंडोज़ कंसोल** - Win32 लो-लेवल API पर आधारित, पारंपरिक विंडोज़ कंसोल के लिए डिज़ाइन किया गया
+* **विंडोज़ VT** - ANSI सीक्वेंस पर आधारित, आधुनिक विंडोज़ वर्चुअल टर्मिनलों के लिए डिज़ाइन किया गया
+* **एनकर्सेस** - लिनक्स परिवेशों के लिए NCurses API पर आधारित
+* **टर्मियोस** - macOS के लिए ANSI सीक्वेंस और लो-लेवल API पर आधारित
+* **वेब टर्मिनल** - वेब कार्यान्वयन के लिए डिज़ाइन किया गया (WebGL पर आधारित)
+* **क्रॉसटर्म** - `crossterm` क्रेट पर आधारित, फीचर फ्लैग के माध्यम से सक्षम
 
 समर्थित बैकएंड्स के बारे में अधिक जानकारी [यहाँ](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html) पाई जा सकती है
 
 
-## 🚀 त्वरित शुरुआत
+## 🚀 त्वरित प्रारंभ
 
 अपने `Cargo.toml` में निम्नलिखित जोड़ें:
 
@@ -118,7 +118,7 @@ fn main() -> Result<(), appcui::system::Error> {
     Ok(())
 }
 ```
-या प्रोसीजरल मैक्रो का उपयोग करते हुए एक और संक्षिप्त संस्करण:
+या proc-macros का उपयोग करके एक अधिक संक्षिप्त संस्करण:
 
 
 ```rs
@@ -133,16 +133,16 @@ fn main() -> Result<(), appcui::system::Error> {
     Ok(())
 }
 ```
-फिर प्रोजेक्ट को `cargo run` के साथ चलाएँ। आपको एक विंडो दिखाई देगी जिसका शीर्षक `Test` होगा और केंद्र में `Hello World !` लिखा होगा।
+फिर प्रोजेक्ट को `cargo run` के साथ चलाएँ। आपको एक विंडो दिखाई देगी जिसका शीर्षक `Test` है और केंद्र में `Hello World !` लिखा होगा।
 
 ## 🧪 उदाहरण
 
-AppCUI-rs के साथ शुरुआत करने में मदद के लिए एक उदाहरणों का सेट आता है। आप इन्हें [examples](examples) फ़ोल्डर में पा सकते हैं, जिनमें शामिल हैं:
-- **गेम्स** जैसे [Tic Tac Toe](examples/tic-tac-toe/), [Snake](examples/snake/), [Flappy Bird](examples/flappy), [Minesweeper](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Chees](examples/games/), [Connect Four](examples/games/), [2048](examples/games/) या [Tetris](examples/games/)
-- **उपयोगिताएँ** जैसे [Calculator](examples/calculator/), [CSV Viewer](examples/csv_viewer/), [Temperature Converter](examples/temperature_convertor/) या [Timer](examples/timer/)
-- **एनिमेशन** जैसे [Matrix](examples/matrix/), [Fractals](examples/fractals/) या [Spiral](examples/spiral/)
-- **नियंत्रण**/**विजेट्स** जैसे [Button](examples/buttons/), [CheckBox](examples/checkboxes/), [ComboBox](examples/combobox/), [DatePicker](examples/datepicker/), [ListView](examples/listview/), [TreeView](examples/treeview/) और भी बहुत कुछ।
-- **डायालॉग्स** जैसे [Notification](examples/notification_dialogs/) या [Input](examples/input_dialog/)
+AppCUI-rs कुछ उदाहरणों के सेट के साथ आता है, जो आपको शुरुआत करने में मदद करते हैं। आप इन्हें [examples](examples) फ़ोल्डर में पा सकते हैं, जिनमें शामिल हैं:
+- **गेम्स** जैसे [टिक टैक टो](examples/tic-tac-toe/), [स्नेक](examples/snake/), [फ्लैपी बर्ड](examples/flappy), [माइनस्वीपर](examples/minesweeper/), [राम इट](examples/ramit/), [पैकमैन](examples/games/), [चेस](examples/games/), [कनेक्ट फोर](examples/games/), [2048](examples/games/) या [टेट्रिस](examples/games/)
+- **यूटिलिटीज** जैसे [कैलकुलेटर](examples/calculator/), [CSV व्यूअर](examples/csv_viewer/), [तापमान कन्वर्टर](examples/temperature_convertor/), या [टाइमर](examples/timer/)
+- **एनिमेशन** जैसे [मैट्रिक्स](examples/matrix/), [फ्रैक्टल्स](examples/fractals/), या [स्पाइरल](examples/spiral/)
+- **कंट्रोल्स**/**विजेट्स** जैसे [बटन](examples/buttons/), [चेकबॉक्स](examples/checkboxes/), [कॉम्बोबॉक्स](examples/combobox/), [डेटपिकर](examples/datepicker/), [लिस्टव्यू](examples/listview/), [ट्रीव्यू](examples/treeview/) और बहुत कुछ।
+- **डायलॉग्स** जैसे [नोटिफिकेशन](examples/notification_dialogs/) या [इनपुट](examples/input_dialog/)
 
 ## 🛠️ एक अधिक जटिल उदाहरण
 
@@ -179,11 +179,11 @@ impl ButtonEvents for CounterWindow {
     fn on_pressed(&mut self, handle: Handle<Button>) -> EventProcessStatus {
         // increase the counter
         self.counter += 1;
-        // create a text that containe the new counter
+        // create a text that contains the new counter
         let text = format!("{}",self.counter);
-        // aquire a mutable reference to the button using its handle
+        // acquire a mutable reference to the button using its handle
         if let Some(button) = self.control_mut(handle) {
-            // set the caption of the button to th new text
+            // set the caption of the button to the new text
             button.set_caption(&text);
         }
         // Tell the AppCUI framework that we have processed this event
@@ -197,7 +197,7 @@ fn main() -> Result<(), appcui::system::Error> {
     let mut a = App::new().build()?;
     // add a new window (of type CounterWindow) to the application
     a.add_window(CounterWindow::new());
-    // Run AppCUI framework (this wil start the window loop and messaage passing)
+    // Run AppCUI framework (this will start the window loop and message passing)
     a.run();
     Ok(())
 }
@@ -205,21 +205,21 @@ fn main() -> Result<(), appcui::system::Error> {
 
 ## 🛣️ रोडमैप
 
-- [x] बेसिक विजेट सेट और विंडोज़, लिनक्स और मैकोएस के लिए सपोर्ट
-- [x] वेबजीएल सपोर्ट
-- [ ] ओपनजीएल / एसडीएल / वल्कन सपोर्ट
-- [ ] कोड हाइलाइटिंग के लिए टेक्स्टएरिया सपोर्ट
+- [x] विंडोज, लिनक्स, और मैकओएस के लिए बेसिक विजेट्स और समर्थन
+- [x] WebGL समर्थन
+- [ ] OpenGL / SDL / Vulkan समर्थन
+- [ ] कोड हाइलाइटिंग के लिए TextArea समर्थन
 
 ## 🤝 योगदान
 
-योगदान, समस्याएं, और फीचर अनुरोध स्वागत योग्य हैं!  
-शुरू करने के लिए [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) देखें।
+योगदान, समस्याएँ, और फीचर अनुरोध स्वागत योग्य हैं!  
+शुरुआत करने के लिए [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) देखें।
 
 [GitHub Discussions](https://github.com/gdt050579/AppCUI-rs/discussions) में चर्चा में शामिल हों।
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

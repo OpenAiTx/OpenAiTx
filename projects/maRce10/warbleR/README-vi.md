@@ -1,98 +1,89 @@
-<div align="right">
-  <details>
-    <summary >🌐 Ngôn ngữ</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as">অসমীয়া</
-      </div>
-    </div>
-  </details>
-</div>
-
-
-warbleR: Đơn giản hóa Phân tích Âm sinh học
+warbleR: Đơn Giản Hóa Phân Tích Âm Sinh Học
 ================
 
-<!-- README.md được tạo từ README.Rmd. Vui lòng chỉnh sửa tệp đó -->
-<!-- huy hiệu: bắt đầu -->
+🌐 **Ngôn ngữ:**  
+[English](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en) |
+[Español](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es) |
+[Français](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr) |
+[Deutsch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de) |
+[Português](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt) |
+[Italiano](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it) |
+[Русский](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru) |
+[中文 (简体)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN) |
+[中文 (繁體)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW) |
+[日本語](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja) |
+[한국어](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko) |
+[हिन्दी](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi) |
+[ไทย](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th) |
+[Nederlands](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl) |
+[Polski](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl) |
+[العربية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar) |
+[فارسی](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa) |
+[Türkçe](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr) |
+[Tiếng Việt](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi) |
+[Bahasa Indonesia](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id) |
+[অসমীয়া](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as)
+
+<!-- README.md được tạo ra từ README.Rmd. Vui lòng chỉnh sửa tệp đó -->
+<!-- badges: start -->
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)
-[![Trạng thái Dự án: Đang hoạt động Dự án đã đạt trạng thái ổn định, có thể sử dụng
-và đang được phát triển
-tích cực.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Giấy phép: GPL
+[![Project Status: Active The project has reached a stable, usable state
+and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![License: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)
-[![Tổng số lượt
-tải xuống](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
-[![Độ phủ kiểm thử Codecov](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
+[![Codecov test
+coverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
 <!-- badges: end -->
 
-<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="logo warbleR" align="right" width = "25%" height="25%"/>
+<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="warbleR logo" align="right" width = "25%" height="25%"/>
 
-[warbleR](https://cran.r-project.org/package=warbleR) được thiết kế để
-hỗ trợ phân tích cấu trúc tín hiệu âm học động vật trong
-R. Người dùng có thể thu thập các bản ghi chim mở hoặc nhập dữ liệu của mình
-vào quy trình làm việc giúp trực quan hóa phổ tần và
+[warbleR](https://cran.r-project.org/package=warbleR) nhằm mục đích hỗ trợ
+phân tích cấu trúc tín hiệu âm thanh động vật trong
+R. Người dùng có thể thu thập các bản ghi chim truy cập mở hoặc nhập dữ liệu của riêng mình
+vào một quy trình làm việc giúp trực quan hóa phổ âm và
 đo lường các tham số âm học.
 [warbleR](https://cran.r-project.org/package=warbleR) sử dụng các
-công cụ phân tích âm thanh cơ bản từ gói seewave, và cung cấp các công cụ mới
-phân tích cấu trúc âm học. Những công cụ này có thể sử dụng cho
-phân tích hàng loạt các tín hiệu âm học.
+công cụ phân tích âm thanh cơ bản của gói seewave, và cung cấp các
+công cụ mới để phân tích cấu trúc âm học. Các công cụ này có thể được sử dụng
+để phân tích hàng loạt tín hiệu âm học.
 
 Các tính năng chính của gói bao gồm:
 
-- Nhiều công cụ đo lường cấu trúc âm học đa dạng
-- Sử dụng vòng lặp để thực hiện các tác vụ trên các tín hiệu âm học tham chiếu trong
+- Nhiều công cụ để đo cấu trúc âm học
+- Sử dụng vòng lặp để áp dụng các tác vụ qua các tín hiệu âm học được tham chiếu trong
   bảng lựa chọn
-- Tạo ra hình ảnh trong thư mục làm việc với các phổ âm để
+- Tạo hình ảnh trong thư mục làm việc với phổ âm để
   giúp người dùng tổ chức dữ liệu và xác minh các phân tích âm học
 
 Gói cung cấp các hàm để:
 
 - Khám phá và tải về các bản ghi [Xeno‐Canto](https://xeno-canto.org/)
-- Khám phá, tổ chức và thao tác với nhiều tệp âm thanh
-- Tự động phát hiện tín hiệu (theo tần số và thời gian) (nhưng hãy xem gói R
-  [ohun](https://docs.ropensci.org/ohun/) để có triển khai toàn diện và thân thiện hơn)
-- Tạo phổ tần của toàn bộ bản ghi hoặc các tín hiệu riêng lẻ
-
-
-- Chạy các phương pháp đo lường cấu trúc tín hiệu âm học khác nhau
-- Đánh giá hiệu suất của các phương pháp đo lường
-- Phân loại các tín hiệu
-- Đặc trưng các cấp độ cấu trúc khác nhau trong tín hiệu âm học
+- Khám phá, tổ chức và xử lý nhiều tệp âm thanh
+- Phát hiện tín hiệu tự động (theo tần số và thời gian) (nhưng xem thêm gói R
+  [ohun](https://docs.ropensci.org/ohun/) để có triển khai đầy đủ và thân thiện hơn)
+- Tạo phổ âm của toàn bộ bản ghi hoặc các tín hiệu riêng lẻ
+- Chạy các phép đo khác nhau về cấu trúc tín hiệu âm học
+- Đánh giá hiệu suất các phương pháp đo
+- Phân loại tín hiệu
+- Đặc trưng các mức cấu trúc khác nhau trong tín hiệu âm học
 - Phân tích thống kê sự phối hợp song ca
-- Tổng hợp các cơ sở dữ liệu và bảng chú thích
+- Hợp nhất cơ sở dữ liệu và bảng chú thích
 
-Hầu hết các chức năng cho phép song song hóa nhiệm vụ, điều này
-phân phối các nhiệm vụ giữa nhiều bộ xử lý để nâng cao hiệu quả tính toán.
-Các công cụ để đánh giá hiệu suất phân tích ở mỗi bước cũng có sẵn.
+Hầu hết các hàm cho phép song song hóa các tác vụ, giúp
+phân phối các tác vụ lên nhiều bộ xử lý để cải thiện hiệu suất tính toán
+
+hiệu quả. Các công cụ để đánh giá hiệu suất của phân tích ở mỗi
+bước cũng có sẵn.
 
 ## Cài đặt
 
 Cài đặt/tải gói từ CRAN như sau:
-
 
 ``` r
 install.packages("warbleR")
@@ -167,6 +158,6 @@ sử dụng bất kỳ chức năng tạo phổ âm hoặc đo lường âm than
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

@@ -1,0 +1,1332 @@
+[
+  {
+    "Id": 1,
+    "Content": "_Library crate:_\n[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)\n[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)\n\n_Editor crate:_\n[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)\n[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)\n\n[![CI](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml/badge.svg)](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml)\n\n# Bevy Animation Graph\n\n> **_NOTICE:_** If you're currently using version `0.8.0` or lower, note that\n> `0.9.0` has introduced a number of breaking changes. Check out the\n> [migration guide](https://mbrea-c.github.io/bevy_animation_graph/migration_guides/0.8_to_0.9.html)\n> for upgrading.\n\n## Motivation\n\nAnimation graphs are an essential tool for managing the complexity present in\nthe animation pipelines for modern 3D games. When your game has tens of\nanimations with complex blends and transitions, or you want to generate your\nanimations procedurally from very few keyframes, simple animation clip playback\nis not enough.\n\nThis crate works as an alternative to most of `bevy_animation`, and aims to\nprovide a complete animation system and development workflow including animation\ngraphs, animation state machines (i.e. animation controllers) and a graphical\neditor to create your animation graphs and state machines.\n\n_NOTE: This project is separate from the animation graphs introduced in\n`bevy_animation` in version 0.14._\n\n![example usage screenshot](https://raw.githubusercontent.com/mbrea-c/bevy_animation_graph/master/locomotion_graph.png)\n\n## Current Features\n\n- Animation graphs are assets. They can be loaded from asset files, or created\n  in code with an ergonomic API.\n- Visual graph editor.",
+    "ContentSha": "OuGtmIdFmRoVB1SmGZcHxUuKOesuO/DLjDhByf6Ievo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "_라이브러리 크레이트:_  \n[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)  \n[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)  \n\n_에디터 크레이트:_  \n[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)  \n[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)  \n\n[![CI](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml/badge.svg)](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml)  \n\n# Bevy 애니메이션 그래프  \n\n> **_공지:_** 현재 `0.8.0` 버전 이하를 사용 중이라면,  \n> `0.9.0`에서 여러 가지 파괴적 변경사항이 도입되었음을 참고하세요.  \n> 업그레이드를 위한  \n> [마이그레이션 가이드](https://mbrea-c.github.io/bevy_animation_graph/migration_guides/0.8_to_0.9.html)를 확인하세요.  \n\n## 동기  \n\n애니메이션 그래프는 현대 3D 게임의 애니메이션 파이프라인에서 존재하는 복잡성을 관리하는 데 필수적인 도구입니다.  \n게임에 복잡한 블렌드와 전환을 가진 수십 개의 애니메이션이 있거나,  \n아주 적은 키프레임으로부터 절차적으로 애니메이션을 생성하고 싶을 때, 단순한 애니메이션 클립 재생만으로는 부족합니다.  \n\n이 크레이트는 대부분의 `bevy_animation`을 대체하는 역할을 하며,  \n애니메이션 그래프, 애니메이션 상태 머신(즉, 애니메이션 컨트롤러) 및 애니메이션 그래프와 상태 머신을 생성하기 위한 그래픽 에디터를 포함한  \n완전한 애니메이션 시스템과 개발 워크플로우를 제공하는 것을 목표로 합니다.  \n\n_참고: 이 프로젝트는 `bevy_animation` 0.14 버전에서 도입된 애니메이션 그래프와는 별개입니다._  \n\n![예시 사용 스크린샷](https://raw.githubusercontent.com/mbrea-c/bevy_animation_graph/master/locomotion_graph.png)  \n\n## 현재 기능  \n\n- 애니메이션 그래프는 에셋입니다. 에셋 파일에서 로드하거나,  \n  코드에서 인체공학적인 API를 통해 생성할 수 있습니다.  \n- 시각적 그래프 에디터.\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tw3WHLVzUKvhga6al/BftEy2GTDy0vXXH8yzzUIRh3U=",
+        "originContent": "_Library crate:_",
+        "translatedContent": "_라이브러리 크레이트:_  "
+      },
+      {
+        "row": 2,
+        "rowsha": "vz5vNStsWUoS09efCY0bxBZ3SH/8Ko80RkJcdO1x3Pc=",
+        "originContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)",
+        "translatedContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)  "
+      },
+      {
+        "row": 3,
+        "rowsha": "zzIApicS1HDHMQzkfH4PBKAC75KExvVeAI+QqrBfyD8=",
+        "originContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)",
+        "translatedContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "xlPUCXsQUp4VBeztqDdt+R13Us6h5uS6KUbP403TV+4=",
+        "originContent": "_Editor crate:_",
+        "translatedContent": "_에디터 크레이트:_  "
+      },
+      {
+        "row": 6,
+        "rowsha": "UCOMVW1nb7WRqDms8HCW2PX5y1AVQ2vVqswbBNDkIxM=",
+        "originContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)",
+        "translatedContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)  "
+      },
+      {
+        "row": 7,
+        "rowsha": "3SB3QkbqbgfVokcyH+9rlOgqfRCd6MIPSc3fzG3H//g=",
+        "originContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)",
+        "translatedContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "mpJ/ZC52UrBxTPcqkX60rUYEkBaET37h7buEZ0nTnG4=",
+        "originContent": "[![CI](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml/badge.svg)](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml)",
+        "translatedContent": "[![CI](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml/badge.svg)](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml)  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dyPzNAPUYmSwhvqpYdCvp9oyZICDytGOrCUYiRVEUow=",
+        "originContent": "# Bevy Animation Graph",
+        "translatedContent": "# Bevy 애니메이션 그래프  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "9MhpxDtmUcj0IQ0zqjNmnuQxIQ+SgfpT9zklpQfOl44=",
+        "originContent": "> **_NOTICE:_** If you're currently using version `0.8.0` or lower, note that",
+        "translatedContent": "> **_공지:_** 현재 `0.8.0` 버전 이하를 사용 중이라면,  "
+      },
+      {
+        "row": 14,
+        "rowsha": "hj07GxJEuhPdTOeze40JZPX7kBLnOOquXSMkm9Xin7A=",
+        "originContent": "> `0.9.0` has introduced a number of breaking changes. Check out the",
+        "translatedContent": "> `0.9.0`에서 여러 가지 파괴적 변경사항이 도입되었음을 참고하세요.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "OyUSdCQZhGfBoS2hyQ7F4SMj/SWQER2NwcDBXBjkunU=",
+        "originContent": "> [migration guide](https://mbrea-c.github.io/bevy_animation_graph/migration_guides/0.8_to_0.9.html)",
+        "translatedContent": "> 업그레이드를 위한  "
+      },
+      {
+        "row": 16,
+        "rowsha": "ejr7OihvXmvdlGl4d4AbsUC626j0JtlBoxujF8uMrEM=",
+        "originContent": "> for upgrading.",
+        "translatedContent": "> [마이그레이션 가이드](https://mbrea-c.github.io/bevy_animation_graph/migration_guides/0.8_to_0.9.html)를 확인하세요.  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+        "originContent": "## Motivation",
+        "translatedContent": "## 동기  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "S/FmevxxOq1wYir+ajbWgUA8OmYhFjEB281m7DHQSZU=",
+        "originContent": "Animation graphs are an essential tool for managing the complexity present in",
+        "translatedContent": "애니메이션 그래프는 현대 3D 게임의 애니메이션 파이프라인에서 존재하는 복잡성을 관리하는 데 필수적인 도구입니다.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "ODutFojpeaPxD1bBgXFe/kAZJo4HW2Qi2MdhPsdcZLI=",
+        "originContent": "the animation pipelines for modern 3D games. When your game has tens of",
+        "translatedContent": "게임에 복잡한 블렌드와 전환을 가진 수십 개의 애니메이션이 있거나,  "
+      },
+      {
+        "row": 22,
+        "rowsha": "7pDknpVnL5dHDvFUX8HVav1INaEl6MaKHqed3gZbSdc=",
+        "originContent": "animations with complex blends and transitions, or you want to generate your",
+        "translatedContent": "아주 적은 키프레임으로부터 절차적으로 애니메이션을 생성하고 싶을 때, 단순한 애니메이션 클립 재생만으로는 부족합니다.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "LJuuJgRGWTGp+LWEHFpWYCuL+LwI9BqhUknITVHR7e0=",
+        "originContent": "animations procedurally from very few keyframes, simple animation clip playback",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "LfvhhOacy0Ns4WQaYrqTzD0SR/o/8FnQOXWBqSPnin0=",
+        "originContent": "is not enough.",
+        "translatedContent": "이 크레이트는 대부분의 `bevy_animation`을 대체하는 역할을 하며,  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "애니메이션 그래프, 애니메이션 상태 머신(즉, 애니메이션 컨트롤러) 및 애니메이션 그래프와 상태 머신을 생성하기 위한 그래픽 에디터를 포함한  "
+      },
+      {
+        "row": 26,
+        "rowsha": "f8/XZP+bL1aE8su10ZVSH5cYi1UQj6U5iwNk1z/p2rI=",
+        "originContent": "This crate works as an alternative to most of `bevy_animation`, and aims to",
+        "translatedContent": "완전한 애니메이션 시스템과 개발 워크플로우를 제공하는 것을 목표로 합니다.  "
+      },
+      {
+        "row": 27,
+        "rowsha": "Gf3YjGNVaDuPKyNHAUFzablqZjkQYJ88pKrd/T/aBNw=",
+        "originContent": "provide a complete animation system and development workflow including animation",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "DvepCfOHlnJe1+xyqtwMVaLqrwIwtBsU3caHw82XX/U=",
+        "originContent": "graphs, animation state machines (i.e. animation controllers) and a graphical",
+        "translatedContent": "_참고: 이 프로젝트는 `bevy_animation` 0.14 버전에서 도입된 애니메이션 그래프와는 별개입니다._  "
+      },
+      {
+        "row": 29,
+        "rowsha": "HejRfeNTYnyepV0yLN4Hq3RhUZqRrgRMprGlEWctAwQ=",
+        "originContent": "editor to create your animation graphs and state machines.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![예시 사용 스크린샷](https://raw.githubusercontent.com/mbrea-c/bevy_animation_graph/master/locomotion_graph.png)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "r4N0Wy2njR9x1ksaNzykUbdpmGtab9FLPOC1vm/Dl+0=",
+        "originContent": "_NOTE: This project is separate from the animation graphs introduced in",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "hh0kzZRd6K3a2Nihl6jancQLKaETM+98YsFoif1ydPg=",
+        "originContent": "`bevy_animation` in version 0.14._",
+        "translatedContent": "## 현재 기능  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "LhTY8eSBTWfFcPVov9zm/hEMpN2efCMeR80m56hPM90=",
+        "originContent": "![example usage screenshot](https://raw.githubusercontent.com/mbrea-c/bevy_animation_graph/master/locomotion_graph.png)",
+        "translatedContent": "- 애니메이션 그래프는 에셋입니다. 에셋 파일에서 로드하거나,  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  코드에서 인체공학적인 API를 통해 생성할 수 있습니다.  "
+      },
+      {
+        "row": 36,
+        "rowsha": "VsOY7dxcNnT8chph5ZIzmj7+smEcdlA3XrYDXMgVaUU=",
+        "originContent": "## Current Features",
+        "translatedContent": "- 시각적 그래프 에디터."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "6elyRWlRkCKgViw2rjjMwZ85+E59cCbqcir1PDKyM9E=",
+        "originContent": "- Animation graphs are assets. They can be loaded from asset files, or created",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "HY9gmzHkWjYLT6p0Xkn7PJkdwy7q9PmamTq5qjsSTF4=",
+        "originContent": "  in code with an ergonomic API.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "QiOmSNgBL1UwGYSF+htO/EH3lSUdjLB1SSPfoVT9HkQ=",
+        "originContent": "- Visual graph editor.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Animation state machines:\n  - Animation state machines are embedded as nodes in animation graphs.\n  - Each state in a state machines plays back its own animation graph on demand.\n  - Transitions also have their own animation graph, and they can query source\n    and target states' animation graphs.\n- Ragdoll support:\n  - Visual ragdoll editing in the editor.\n  - Support for _partial ragdolls_, where some bones are simulated and others\n    kinematically driven by a target animation pose.\n- Support for custom nodes written in Rust.\n  - Users can create their own editor binary by adding the editor plugin and\n    registering their additional custom nodes in the Bevy type registry. The\n    editor will automatically pick up all registered nodes.\n- Available built-in nodes include:\n  - Animation chaining (i.e. play one node after another).\n  - Two-bone inverse kinematics.\n  - Looping.\n  - Linear Blending (in bone space).\n  - 2D Blend space node.\n  - Mirror animation about the YZ plane.\n  - Animation clip playback.\n  - Apply a given rotation to some bones in a pose using a bone mask.\n  - Speed up or slow down animation playback.\n  - Animation graph node.\n  - Animation state machine node.\n  - Arithmetic nodes: a variety of common operations on f32, Vec3, Quat, etc.\n- Nesting animation graphs as nodes within other graphs.\n- Animation synchronization using event tracks.\n- Output from graph nodes is cached to avoid unnecessary computations.\n\n## Planned Features\n\n1. Ragdoll \"pose following\" modes, where a simulated ragdoll bones try to match\n   a target pose using physical forces:\n   - _Absolute_ matching mode, where the world space position/rotation of the\n     target bone is tracked and use as an anchor for a spring force on the\n     ragdoll bone.\n   - _Relative_ matching mode, where the ragdoll bone tries to match the\n     target's position/rotation relative to its parent bone. We may need joint\n     motors support on Avian to implement this mode properly.",
+    "ContentSha": "5OS0xoBnbjs5CD+5ciCaaJJppt64f+ubsudYukx5El4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 애니메이션 상태 머신:\n  - 애니메이션 상태 머신은 애니메이션 그래프 내의 노드로 내장되어 있습니다.\n  - 상태 머신의 각 상태는 필요에 따라 자체 애니메이션 그래프를 재생합니다.\n  - 전환도 자체 애니메이션 그래프를 가지며, 출발 상태와 도착 상태의 애니메이션 그래프를 조회할 수 있습니다.\n- 래그돌 지원:\n  - 에디터 내 시각적 래그돌 편집 기능.\n  - 일부 뼈는 시뮬레이션되고 다른 뼈는 목표 애니메이션 포즈에 의해 운동학적으로 구동되는 _부분 래그돌_ 지원.\n- Rust로 작성된 사용자 정의 노드 지원.\n  - 사용자는 에디터 플러그인을 추가하고 Bevy 타입 레지스트리에 추가 사용자 정의 노드를 등록하여 자체 에디터 바이너리를 만들 수 있습니다. 에디터는 등록된 모든 노드를 자동으로 인식합니다.\n- 제공되는 내장 노드에는 다음이 포함됩니다:\n  - 애니메이션 체이닝(즉, 한 노드가 끝난 후 다음 노드를 재생).\n  - 두 뼈 역운동학.\n  - 반복 재생.\n  - 선형 블렌딩(뼈 공간에서).\n  - 2D 블렌드 스페이스 노드.\n  - YZ 평면을 기준으로 애니메이션 미러링.\n  - 애니메이션 클립 재생.\n  - 뼈 마스크를 사용하여 포즈 내 일부 뼈에 회전 적용.\n  - 애니메이션 재생 속도 가속 또는 감속.\n  - 애니메이션 그래프 노드.\n  - 애니메이션 상태 머신 노드.\n  - 산술 노드: f32, Vec3, Quat 등에서의 다양한 일반 연산.\n- 다른 그래프 내 노드로 애니메이션 그래프 중첩.\n- 이벤트 트랙을 사용한 애니메이션 동기화.\n- 불필요한 계산을 방지하기 위해 그래프 노드 출력 캐싱.\n\n## 계획된 기능\n\n1. 래그돌 \"포즈 따라가기\" 모드, 시뮬레이션된 래그돌 뼈가 물리적 힘을 사용하여 목표 포즈와 일치하려고 시도하는 모드:\n   - _절대_ 일치 모드: 목표 뼈의 월드 공간 위치/회전을 추적하여 래그돌 뼈에 대한 스프링 힘의 앵커로 사용.\n   - _상대_ 일치 모드: 래그돌 뼈가 부모 뼈에 대한 목표 위치/회전을 맞추려고 시도. 이 모드를 제대로 구현하려면 Avian에서 조인트 모터 지원이 필요할 수 있습니다.\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "inj1lby+yUIMQ28kELZY+nzxkpwr/yX/78TcVKzW3u4=",
+        "originContent": "- Animation state machines:",
+        "translatedContent": "- 애니메이션 상태 머신:"
+      },
+      {
+        "row": 2,
+        "rowsha": "W8xhXbA3N1iKUqmdLFLxhvrz5BBNh0N/FSihdoLM43o=",
+        "originContent": "  - Animation state machines are embedded as nodes in animation graphs.",
+        "translatedContent": "  - 애니메이션 상태 머신은 애니메이션 그래프 내의 노드로 내장되어 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "NQz6+v+y0ILQ+zlXxCUw7b3z/gA3pydMLGRF9ItqJQ4=",
+        "originContent": "  - Each state in a state machines plays back its own animation graph on demand.",
+        "translatedContent": "  - 상태 머신의 각 상태는 필요에 따라 자체 애니메이션 그래프를 재생합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "awHZbKfcd1K9ZbQittCdqINVqriDnhVhC0dcV/zZEzU=",
+        "originContent": "  - Transitions also have their own animation graph, and they can query source",
+        "translatedContent": "  - 전환도 자체 애니메이션 그래프를 가지며, 출발 상태와 도착 상태의 애니메이션 그래프를 조회할 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "H0qPAUaSIwSWcnFnBNdtYXkHK/S9adqQzrAOiGxm3KQ=",
+        "originContent": "    and target states' animation graphs.",
+        "translatedContent": "- 래그돌 지원:"
+      },
+      {
+        "row": 6,
+        "rowsha": "OIOfnKaQgyzs0+Mnhfd1qpqHtjpeJY0cnP/riO96jrw=",
+        "originContent": "- Ragdoll support:",
+        "translatedContent": "  - 에디터 내 시각적 래그돌 편집 기능."
+      },
+      {
+        "row": 7,
+        "rowsha": "AOf0RPnnqN1ypmN+8AJiJ7nQDOWAbhC/QV7QYAWfwrI=",
+        "originContent": "  - Visual ragdoll editing in the editor.",
+        "translatedContent": "  - 일부 뼈는 시뮬레이션되고 다른 뼈는 목표 애니메이션 포즈에 의해 운동학적으로 구동되는 _부분 래그돌_ 지원."
+      },
+      {
+        "row": 8,
+        "rowsha": "XsMaDalCkY3XDnMOUUcNoggyMXqMwpt6dFsSsKJaND8=",
+        "originContent": "  - Support for _partial ragdolls_, where some bones are simulated and others",
+        "translatedContent": "- Rust로 작성된 사용자 정의 노드 지원."
+      },
+      {
+        "row": 9,
+        "rowsha": "7hgwawS5zw31MvwVw/tfUlkGTItRvjwo9+fb8A8k8tw=",
+        "originContent": "    kinematically driven by a target animation pose.",
+        "translatedContent": "  - 사용자는 에디터 플러그인을 추가하고 Bevy 타입 레지스트리에 추가 사용자 정의 노드를 등록하여 자체 에디터 바이너리를 만들 수 있습니다. 에디터는 등록된 모든 노드를 자동으로 인식합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "ihoU/z+Jq2pzAjWWc1AaBDcGhIbnWYlaUxup8MCIlcA=",
+        "originContent": "- Support for custom nodes written in Rust.",
+        "translatedContent": "- 제공되는 내장 노드에는 다음이 포함됩니다:"
+      },
+      {
+        "row": 11,
+        "rowsha": "VR7KqtqXkE4QR4aC2xXim4H4In4SDsCh8T4JVySeTXE=",
+        "originContent": "  - Users can create their own editor binary by adding the editor plugin and",
+        "translatedContent": "  - 애니메이션 체이닝(즉, 한 노드가 끝난 후 다음 노드를 재생)."
+      },
+      {
+        "row": 12,
+        "rowsha": "3M+agQC4m+yuh5adKmuEMpTTwjSr69/GTQbJgH+ZNnw=",
+        "originContent": "    registering their additional custom nodes in the Bevy type registry. The",
+        "translatedContent": "  - 두 뼈 역운동학."
+      },
+      {
+        "row": 13,
+        "rowsha": "a46YSxg1l7Pp93sgGUN1q+KVCtfXOUiZI1gOcxg487w=",
+        "originContent": "    editor will automatically pick up all registered nodes.",
+        "translatedContent": "  - 반복 재생."
+      },
+      {
+        "row": 14,
+        "rowsha": "I7i/OiGfnjG8FtAenaNfKG0Y3JFxrOLJHYyz20do+h4=",
+        "originContent": "- Available built-in nodes include:",
+        "translatedContent": "  - 선형 블렌딩(뼈 공간에서)."
+      },
+      {
+        "row": 15,
+        "rowsha": "6xA9SUpUq/Xdvk9KYYxhKgU8yYFDaVmZVpkZVcL2Kl4=",
+        "originContent": "  - Animation chaining (i.e. play one node after another).",
+        "translatedContent": "  - 2D 블렌드 스페이스 노드."
+      },
+      {
+        "row": 16,
+        "rowsha": "xvrG4Ip9DLtgto3Qi4iYfpK5eYwHZ3Er7nO3lWnhhMw=",
+        "originContent": "  - Two-bone inverse kinematics.",
+        "translatedContent": "  - YZ 평면을 기준으로 애니메이션 미러링."
+      },
+      {
+        "row": 17,
+        "rowsha": "tvp46zPtUq7m/6A6xcIaQocfHnL6LdHyu9+3YUsr91c=",
+        "originContent": "  - Looping.",
+        "translatedContent": "  - 애니메이션 클립 재생."
+      },
+      {
+        "row": 18,
+        "rowsha": "pJfLwGWETShrEWhjalQE9FYkgqSVBtjSyP3XW2r7oFI=",
+        "originContent": "  - Linear Blending (in bone space).",
+        "translatedContent": "  - 뼈 마스크를 사용하여 포즈 내 일부 뼈에 회전 적용."
+      },
+      {
+        "row": 19,
+        "rowsha": "+lhKapB+QHTZsdKcH/xcHC/Xhgzf8Dqr/35JCIV7bOE=",
+        "originContent": "  - 2D Blend space node.",
+        "translatedContent": "  - 애니메이션 재생 속도 가속 또는 감속."
+      },
+      {
+        "row": 20,
+        "rowsha": "NWp6Oe/qVfRFktepwInk+osvVjqST/0GVAFkscbsxrE=",
+        "originContent": "  - Mirror animation about the YZ plane.",
+        "translatedContent": "  - 애니메이션 그래프 노드."
+      },
+      {
+        "row": 21,
+        "rowsha": "3fqOdZ+6y9ggWkUIEYuyqCZ/8iB2xsAswtF9zr1TZnk=",
+        "originContent": "  - Animation clip playback.",
+        "translatedContent": "  - 애니메이션 상태 머신 노드."
+      },
+      {
+        "row": 22,
+        "rowsha": "3uBWenEDRyP28OCwr84+WGpHXBICX8gmUvuuRkAidL4=",
+        "originContent": "  - Apply a given rotation to some bones in a pose using a bone mask.",
+        "translatedContent": "  - 산술 노드: f32, Vec3, Quat 등에서의 다양한 일반 연산."
+      },
+      {
+        "row": 23,
+        "rowsha": "/MmGt00ruFb3SBSkbSn35uGtVl7D0aOtIblztSHdU80=",
+        "originContent": "  - Speed up or slow down animation playback.",
+        "translatedContent": "- 다른 그래프 내 노드로 애니메이션 그래프 중첩."
+      },
+      {
+        "row": 24,
+        "rowsha": "607NDqRXBkMUdcqkbcOZD/vNZWjl3tSKdL0/ntNb8Zc=",
+        "originContent": "  - Animation graph node.",
+        "translatedContent": "- 이벤트 트랙을 사용한 애니메이션 동기화."
+      },
+      {
+        "row": 25,
+        "rowsha": "yIk9p9+rsqyeV4eQka6Ej2HuASqR4hfJu5sWO/ijpr0=",
+        "originContent": "  - Animation state machine node.",
+        "translatedContent": "- 불필요한 계산을 방지하기 위해 그래프 노드 출력 캐싱."
+      },
+      {
+        "row": 26,
+        "rowsha": "LvgOkFz/JDHPAOPDJTzWQpMZf1Z6jKveJzYLZMwUVj8=",
+        "originContent": "  - Arithmetic nodes: a variety of common operations on f32, Vec3, Quat, etc.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "lPhBixoc8/fsb55QNo9/UKS1bQC28B7Gkvb6fy2sNts=",
+        "originContent": "- Nesting animation graphs as nodes within other graphs.",
+        "translatedContent": "## 계획된 기능"
+      },
+      {
+        "row": 28,
+        "rowsha": "OAO5AVKV7DAK0nlLYGkjRQW7lhoWTYG3WHwpA3qmr1o=",
+        "originContent": "- Animation synchronization using event tracks.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "dyJV5neQxiPyiP6jFtmTIUDlQZmHgRe08APsEPp4SV4=",
+        "originContent": "- Output from graph nodes is cached to avoid unnecessary computations.",
+        "translatedContent": "1. 래그돌 \"포즈 따라가기\" 모드, 시뮬레이션된 래그돌 뼈가 물리적 힘을 사용하여 목표 포즈와 일치하려고 시도하는 모드:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   - _절대_ 일치 모드: 목표 뼈의 월드 공간 위치/회전을 추적하여 래그돌 뼈에 대한 스프링 힘의 앵커로 사용."
+      },
+      {
+        "row": 31,
+        "rowsha": "m8VYPv6MlPmvDAxmcWcJghJATdr9ezmdfLEXGpbdA/E=",
+        "originContent": "## Planned Features",
+        "translatedContent": "   - _상대_ 일치 모드: 래그돌 뼈가 부모 뼈에 대한 목표 위치/회전을 맞추려고 시도. 이 모드를 제대로 구현하려면 Avian에서 조인트 모터 지원이 필요할 수 있습니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "4UibTFrhTMDzIQMaDGjV4zR8EASk4jYmM6+NXfhVc9M=",
+        "originContent": "1. Ragdoll \"pose following\" modes, where a simulated ragdoll bones try to match",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "FU5lGAw7wSOVCX1boFue4QpIkuo3IBNtAKHqgpuiHk0=",
+        "originContent": "   a target pose using physical forces:",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "1oJoE30X6aMCS74bBWXkcy5Obw6qqdBwRKLS5YPceuk=",
+        "originContent": "   - _Absolute_ matching mode, where the world space position/rotation of the",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "RKBaThcqdSxQ5k/Rks0m7bXCMoQcP04qxRKIku6ovw4=",
+        "originContent": "     target bone is tracked and use as an anchor for a spring force on the",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "5r5i+Wx/7BY8P9dbt9hK/c3WskYTJlwjrrRqm4pcrno=",
+        "originContent": "     ragdoll bone.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "7EJZF6UbaPxjdVkqFmwYhP8rNALQ1roZunWwC4v3L0c=",
+        "originContent": "   - _Relative_ matching mode, where the ragdoll bone tries to match the",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "3RGBFUd/uY+bAd2gnx80I9Y6GKM3QIv7578x+EHgtdk=",
+        "originContent": "     target's position/rotation relative to its parent bone. We may need joint",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "+anFId6Aljesy+AH0IBfQRn7j2LsweT0exGP26CIHqU=",
+        "originContent": "     motors support on Avian to implement this mode properly.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Installation\n\n### Library\n\n[bevy_animation_graph](https://crates.io/crates/bevy_animation_graph) is the\nlibrary part of this project. This should be added as a dependency to your\nproject in order to use animation graphs. To install the latest published\nversion from crates.io run\n",
+    "ContentSha": "UBheADfJHLL8iMIk0cNSxnn2oxyXhEBEz8AY5mt2sT8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 설치\n\n### 라이브러리\n\n[bevy_animation_graph](https://crates.io/crates/bevy_animation_graph)는\n이 프로젝트의 라이브러리 부분입니다. 애니메이션 그래프를 사용하려면\n프로젝트에 의존성으로 추가해야 합니다. crates.io에서 최신 공개\n버전을 설치하려면 다음을 실행하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 2,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 라이브러리"
+      },
+      {
+        "row": 4,
+        "rowsha": "OejrVNXnpMHSB5Rc1gUz/8tGv/z8S6FNywAF0d4zGBk=",
+        "originContent": "### Library",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[bevy_animation_graph](https://crates.io/crates/bevy_animation_graph)는"
+      },
+      {
+        "row": 6,
+        "rowsha": "HBmkLO1vNKvZE/OyLg/zST4enQBqaO0mV/G401T5N+I=",
+        "originContent": "[bevy_animation_graph](https://crates.io/crates/bevy_animation_graph) is the",
+        "translatedContent": "이 프로젝트의 라이브러리 부분입니다. 애니메이션 그래프를 사용하려면"
+      },
+      {
+        "row": 7,
+        "rowsha": "RcUdMRNPyFy1AvnlauhsCdRGkZ1DO6/C9sNMGtIdvkw=",
+        "originContent": "library part of this project. This should be added as a dependency to your",
+        "translatedContent": "프로젝트에 의존성으로 추가해야 합니다. crates.io에서 최신 공개"
+      },
+      {
+        "row": 8,
+        "rowsha": "Aege1HE1glwKlhfKXGdYnFZ/gsuOPuOZmNxcwj7PW5Q=",
+        "originContent": "project in order to use animation graphs. To install the latest published",
+        "translatedContent": "버전을 설치하려면 다음을 실행하세요."
+      },
+      {
+        "row": 9,
+        "rowsha": "/J+bia/hPPgGjLMXol2LF2A7TNqhyUrxSCeF87dUB/g=",
+        "originContent": "version from crates.io run",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ncargo add bevy_animation_graph\n```",
+    "ContentSha": "o8dOx0E1rRww/8h167Pxpobr9ilcJdgdBntXtYMgn8Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncargo add bevy_animation_graph\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "wNIMdPdYZIMDJ2YdMryLXfndtZz+F5HNToA+K3BX1EA=",
+        "originContent": "cargo add bevy_animation_graph",
+        "translatedContent": "cargo add bevy_animation_graph"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nor manually add the latest version to your `Cargo.toml`.\n\nTo install the latest git master, add the following to `Cargo.toml`:\n",
+    "ContentSha": "6K/k3kqWmhA7B7dmK6y1rU5h9VoiAfziCnA2emew3sQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또는 최신 버전을 수동으로 `Cargo.toml`에 추가하세요.\n\n최신 git 마스터를 설치하려면, 다음을 `Cargo.toml`에 추가하세요:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또는 최신 버전을 수동으로 `Cargo.toml`에 추가하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "3dJwkG+RpGjf4ydFaLcLwZh7rz29XsEsbJeq21V9+0I=",
+        "originContent": "or manually add the latest version to your `Cargo.toml`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "최신 git 마스터를 설치하려면, 다음을 `Cargo.toml`에 추가하세요:"
+      },
+      {
+        "row": 4,
+        "rowsha": "42vpprQsZsKi7ez13jx9idWFki+vrj1v6IHAsklokrw=",
+        "originContent": "To install the latest git master, add the following to `Cargo.toml`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```toml\n# ...\n[dependencies]\n# ...\nbevy_animation_graph = { git = \"https://github.com/mbrea-c/bevy_animation_graph.git\" }\n# ...\n```",
+    "ContentSha": "GUpbxAKefsnG273ukUBlgRet30E5BrlXeXX7xHb60U4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n# ...\n[dependencies]\n# ...\nbevy_animation_graph = { git = \"https://github.com/mbrea-c/bevy_animation_graph.git\" }\n# ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "zDO8S9hmzzthQ48Km7zRF6+i39zTFsHCxee0Z9jxZAE=",
+        "originContent": "# ...",
+        "translatedContent": "# ..."
+      },
+      {
+        "row": 3,
+        "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+        "originContent": "[dependencies]",
+        "translatedContent": "[dependencies]"
+      },
+      {
+        "row": 4,
+        "rowsha": "zDO8S9hmzzthQ48Km7zRF6+i39zTFsHCxee0Z9jxZAE=",
+        "originContent": "# ...",
+        "translatedContent": "# ..."
+      },
+      {
+        "row": 5,
+        "rowsha": "8/tOUJmHaWXPmN5JiBDxI4IJPbUx9Uy0nYgvF7fnetY=",
+        "originContent": "bevy_animation_graph = { git = \"https://github.com/mbrea-c/bevy_animation_graph.git\" }",
+        "translatedContent": "bevy_animation_graph = { git = \"https://github.com/mbrea-c/bevy_animation_graph.git\" }"
+      },
+      {
+        "row": 6,
+        "rowsha": "zDO8S9hmzzthQ48Km7zRF6+i39zTFsHCxee0Z9jxZAE=",
+        "originContent": "# ...",
+        "translatedContent": "# ..."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Editor\n\n[bevy_animation_graph_editor](https://crates.io/crates/bevy_animation_graph_editor)\nis the editor. You can install like you would install any other rust binary:\n",
+    "ContentSha": "cvPC+dwHidR46hGgqXp+ZbeahklXHDCYisXPmbY+g+Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 에디터\n\n[bevy_animation_graph_editor](https://crates.io/crates/bevy_animation_graph_editor)\n는 에디터입니다. 다른 러스트 바이너리를 설치하는 것처럼 설치할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 에디터"
+      },
+      {
+        "row": 2,
+        "rowsha": "pU7DKUVCKOIXxoSX9OklYcOzu+RyxxZexjrRl/cQa2c=",
+        "originContent": "### Editor",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[bevy_animation_graph_editor](https://crates.io/crates/bevy_animation_graph_editor)"
+      },
+      {
+        "row": 4,
+        "rowsha": "SU2ZBc6WCwXVGWmw9ddeI6y3saAzxgPTiDmeunuSrOg=",
+        "originContent": "[bevy_animation_graph_editor](https://crates.io/crates/bevy_animation_graph_editor)",
+        "translatedContent": "는 에디터입니다. 다른 러스트 바이너리를 설치하는 것처럼 설치할 수 있습니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "BqS14NSLrL5OI8Jp3XKs/fET9ubkg2SVyS4+XuuiEho=",
+        "originContent": "is the editor. You can install like you would install any other rust binary:",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# for the latest crates.io version\ncargo install bevy_animation_graph_editor\n# for the latest master\ncargo install --git https://github.com/mbrea-c/bevy_animation_graph bevy_animation_graph_editor\n# for the version from a local workspace\ncargo install --path <PATH_TO_WORKSPACE> bevy_animation_graph_editor\n\n# use the --force flag to force reinstall\n```",
+    "ContentSha": "XME3whq2fp7vdRrOcZrc7Fa6izYSBEsYq0AgeIAZZ64=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# for the latest crates.io version\ncargo install bevy_animation_graph_editor\n# for the latest master\ncargo install --git https://github.com/mbrea-c/bevy_animation_graph bevy_animation_graph_editor\n# for the version from a local workspace\ncargo install --path <PATH_TO_WORKSPACE> bevy_animation_graph_editor\n\n# use the --force flag to force reinstall\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "iTQAquuernvZobDS8kZOiUUCDypFRMukej/iqCuTr1k=",
+        "originContent": "# for the latest crates.io version",
+        "translatedContent": "# for the latest crates.io version"
+      },
+      {
+        "row": 3,
+        "rowsha": "cCsuZMlZ3/t8z1Ckh6/0NiDirG+jVCUUks3s0WN33Yg=",
+        "originContent": "cargo install bevy_animation_graph_editor",
+        "translatedContent": "cargo install bevy_animation_graph_editor"
+      },
+      {
+        "row": 4,
+        "rowsha": "8RJ0jkF4mh3U11ZBDB9TVNPoKFwdskZpCl8d+ZLd5Tc=",
+        "originContent": "# for the latest master",
+        "translatedContent": "# for the latest master"
+      },
+      {
+        "row": 5,
+        "rowsha": "c/DynUJ1tFBl41nMb0QJBdAe0xTq5vMONWUgeCxF77k=",
+        "originContent": "cargo install --git https://github.com/mbrea-c/bevy_animation_graph bevy_animation_graph_editor",
+        "translatedContent": "cargo install --git https://github.com/mbrea-c/bevy_animation_graph bevy_animation_graph_editor"
+      },
+      {
+        "row": 6,
+        "rowsha": "gLFL1SxrAvh7zxj1QVEOWY+dZTxbFjSxUM/aRtwZtqI=",
+        "originContent": "# for the version from a local workspace",
+        "translatedContent": "# for the version from a local workspace"
+      },
+      {
+        "row": 7,
+        "rowsha": "gKV9KZQ7mRzmcDuBw6Npiwh5Ka8CpJ/jeXMdhpDxM9Q=",
+        "originContent": "cargo install --path <PATH_TO_WORKSPACE> bevy_animation_graph_editor",
+        "translatedContent": "cargo install --path <PATH_TO_WORKSPACE> bevy_animation_graph_editor"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "YursLSAWhoDBisLUmNuRFaczAS+MCXxGF/L6PSGZoUc=",
+        "originContent": "# use the --force flag to force reinstall",
+        "translatedContent": "# use the --force flag to force reinstall"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nAlternatively, I recommend taking a look at the\n[editor as a plugin example](https://github.com/mbrea-c/bevy_animation_graph/blob/master/examples/editor_as_a_plugin/examples/editor_as_a_plugin.rs)\nin order to set up your own editor binary in your crate/workspace, consuming the\nsame library version as your game. This will let you register custom animation\ngraph nodes, which are a powerful feature of this crate.\n\n## Getting started\n\nCheck out the tutorials in the\n[work in progress book](https://sarahihme.github.io/initial_book_bevy_animation_graph/)\n(many thanks to @SarahIhme for getting this started!).\n\nAdditional, up to date examples are included in the\n[examples](https://github.com/mbrea-c/bevy_animation_graph/tree/master/examples)\ndirectory.\n\nThe following resources may also be useful, but they are somewhat out of date:\n\n- The documentation in [docs.rs](https://docs.rs/bevy_animation_graph) contains\n  an introduction of the library and editor and an explanation of a simple\n  animation graph example. See also the video below for a demonstration of\n  editor usage.\n- There is an outdated\n  [usage video walkthrough](https://www.youtube.com/watch?v=q-JBSQJIcX0).\n\n## Contributing or getting help\n\nIf you run into a bug or want to discuss potential new features, feel free to\npost an issue, open a PR or reach out to me in Discord (@mbreac in the Bevy\ndiscord, there's a crate-help post for `bevy_animation_graph` there:\n[link](https://discord.com/channels/691052431525675048/1202998277482479616)).\n\n## FAQ\n\n### Is this ready for production?\n\nDepends.\n\nIt can already be useful for small-ish projects, but I cannot guarantee API",
+    "ContentSha": "AyjyyMX673WX/HOy55gc0+Xaol/1BwCp3tbw5a6brLU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또는 자신의 크레이트/워크스페이스에서 동일한 라이브러리 버전을 사용하는\n자체 에디터 바이너리를 설정하기 위해\n[플러그인 예제로서의 에디터](https://github.com/mbrea-c/bevy_animation_graph/blob/master/examples/editor_as_a_plugin/examples/editor_as_a_plugin.rs)를\n참고할 것을 권장합니다. 이를 통해 이 크레이트의 강력한 기능인\n사용자 정의 애니메이션 그래프 노드를 등록할 수 있습니다.\n\n## 시작하기\n\n[진행 중인 책](https://sarahihme.github.io/initial_book_bevy_animation_graph/)의\n튜토리얼을 확인하세요 (이 작업을 시작해 주신 @SarahIhme 님께 감사드립니다!).\n\n추가로 최신 예제들은\n[examples](https://github.com/mbrea-c/bevy_animation_graph/tree/master/examples)\n디렉토리에 포함되어 있습니다.\n\n다음 자료들도 유용할 수 있지만, 다소 구식입니다:\n\n- [docs.rs](https://docs.rs/bevy_animation_graph)에 있는 문서에는\n  라이브러리와 에디터 소개 및 간단한 애니메이션 그래프 예제 설명이 포함되어 있습니다.\n  아래 비디오도 에디터 사용법 시연에 참고하세요.\n- 구식인\n  [사용법 비디오 워크스루](https://www.youtube.com/watch?v=q-JBSQJIcX0)가 있습니다.\n\n## 기여하거나 도움 받기\n\n버그가 발생하거나 새로운 기능에 대해 논의하고 싶다면,\n이슈를 올리거나 PR을 열거나 Discord에서 저에게 연락하세요 (@mbreac, Bevy Discord 내,\n`bevy_animation_graph`에 대한 crate-help 게시판이 있습니다:\n[링크](https://discord.com/channels/691052431525675048/1202998277482479616)).\n\n## FAQ\n\n### 이것이 프로덕션용으로 준비되었나요?\n\n상황에 따라 다릅니다.\n\n작고 중간 규모 프로젝트에는 이미 유용할 수 있지만, API를 보장할 수는 없습니다.\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또는 자신의 크레이트/워크스페이스에서 동일한 라이브러리 버전을 사용하는"
+      },
+      {
+        "row": 2,
+        "rowsha": "Hy5GRVWbBiv2ncRZdJivsLr0lUz43vUlQrlFk4mzSVA=",
+        "originContent": "Alternatively, I recommend taking a look at the",
+        "translatedContent": "자체 에디터 바이너리를 설정하기 위해"
+      },
+      {
+        "row": 3,
+        "rowsha": "bYGwjP2pOcz3xA61zcH4pLAyMHfohWLiEQiw2WQB0iA=",
+        "originContent": "[editor as a plugin example](https://github.com/mbrea-c/bevy_animation_graph/blob/master/examples/editor_as_a_plugin/examples/editor_as_a_plugin.rs)",
+        "translatedContent": "[플러그인 예제로서의 에디터](https://github.com/mbrea-c/bevy_animation_graph/blob/master/examples/editor_as_a_plugin/examples/editor_as_a_plugin.rs)를"
+      },
+      {
+        "row": 4,
+        "rowsha": "0cn+w9I9L6dg/m/cztjt5crpX38b0jsvl18YUB/W6sk=",
+        "originContent": "in order to set up your own editor binary in your crate/workspace, consuming the",
+        "translatedContent": "참고할 것을 권장합니다. 이를 통해 이 크레이트의 강력한 기능인"
+      },
+      {
+        "row": 5,
+        "rowsha": "BuvQDXf/1Q/DtZ6P7LFhYmZSwLY70xK52J2lNvHSAqM=",
+        "originContent": "same library version as your game. This will let you register custom animation",
+        "translatedContent": "사용자 정의 애니메이션 그래프 노드를 등록할 수 있습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "n9Y1rMn7JpMywhJ8spMUwItiLrDYR/37ZN8Tj8LDFkA=",
+        "originContent": "graph nodes, which are a powerful feature of this crate.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 시작하기"
+      },
+      {
+        "row": 8,
+        "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+        "originContent": "## Getting started",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[진행 중인 책](https://sarahihme.github.io/initial_book_bevy_animation_graph/)의"
+      },
+      {
+        "row": 10,
+        "rowsha": "AzKczAMAviXbf0c+m+oMFnyiFLDrWg7SKLXDUFcKJKY=",
+        "originContent": "Check out the tutorials in the",
+        "translatedContent": "튜토리얼을 확인하세요 (이 작업을 시작해 주신 @SarahIhme 님께 감사드립니다!)."
+      },
+      {
+        "row": 11,
+        "rowsha": "zgPZFjvKHSB2CG/YEyhcy1hRUq/7abKA38TPjcmBA3Q=",
+        "originContent": "[work in progress book](https://sarahihme.github.io/initial_book_bevy_animation_graph/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ePGsNUV4Zz1pK59pt+sOUa4nDE5aE8OaDdYkjbIhbzI=",
+        "originContent": "(many thanks to @SarahIhme for getting this started!).",
+        "translatedContent": "추가로 최신 예제들은"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[examples](https://github.com/mbrea-c/bevy_animation_graph/tree/master/examples)"
+      },
+      {
+        "row": 14,
+        "rowsha": "lf2/bIO2JyjgYG23pS6n4w4MluoKTQJA0N56HcnVZ/c=",
+        "originContent": "Additional, up to date examples are included in the",
+        "translatedContent": "디렉토리에 포함되어 있습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "HO3uI8xjMMbER/hkr9KqajWQ38CxyIB+kAQCv8HcQRU=",
+        "originContent": "[examples](https://github.com/mbrea-c/bevy_animation_graph/tree/master/examples)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "B+RILhRqQsC32O5Sow3lkUvab0kxeSxgCp6KCGiqMSI=",
+        "originContent": "directory.",
+        "translatedContent": "다음 자료들도 유용할 수 있지만, 다소 구식입니다:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "831sFhARsUfWPLHK2LYYAdW3dyithNw+7qU+ZnRC5ss=",
+        "originContent": "The following resources may also be useful, but they are somewhat out of date:",
+        "translatedContent": "- [docs.rs](https://docs.rs/bevy_animation_graph)에 있는 문서에는"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  라이브러리와 에디터 소개 및 간단한 애니메이션 그래프 예제 설명이 포함되어 있습니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "Pkmj6XCm2/wtwrAR4QXdc2DOUpTXXH6B4IjbBnbMTcU=",
+        "originContent": "- The documentation in [docs.rs](https://docs.rs/bevy_animation_graph) contains",
+        "translatedContent": "  아래 비디오도 에디터 사용법 시연에 참고하세요."
+      },
+      {
+        "row": 21,
+        "rowsha": "TzOC4ehxcYeK2tlhjnTllF+XdlshKuwxatdy/midLjo=",
+        "originContent": "  an introduction of the library and editor and an explanation of a simple",
+        "translatedContent": "- 구식인"
+      },
+      {
+        "row": 22,
+        "rowsha": "VBIoZSYA+9EzriRAQE5xrIIqigYTOJIl5Yv0fWQkEdg=",
+        "originContent": "  animation graph example. See also the video below for a demonstration of",
+        "translatedContent": "  [사용법 비디오 워크스루](https://www.youtube.com/watch?v=q-JBSQJIcX0)가 있습니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "xECHj/UkTitBS6IIILas9NNymH1y5VNf/U4KPL7QNCA=",
+        "originContent": "  editor usage.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "YuKpkWHOxLC84+7qxKvSzxPttOAUn+VuzMcBvnnD39k=",
+        "originContent": "- There is an outdated",
+        "translatedContent": "## 기여하거나 도움 받기"
+      },
+      {
+        "row": 25,
+        "rowsha": "LIuUb45E57RZK4aWYUN27XxOoaf+nvGYho3ynoijTuA=",
+        "originContent": "  [usage video walkthrough](https://www.youtube.com/watch?v=q-JBSQJIcX0).",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "버그가 발생하거나 새로운 기능에 대해 논의하고 싶다면,"
+      },
+      {
+        "row": 27,
+        "rowsha": "3cVGi790XrZhvVg9YHIOPTX7ht8OV6XOsFm6ebM4tQU=",
+        "originContent": "## Contributing or getting help",
+        "translatedContent": "이슈를 올리거나 PR을 열거나 Discord에서 저에게 연락하세요 (@mbreac, Bevy Discord 내,"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`bevy_animation_graph`에 대한 crate-help 게시판이 있습니다:"
+      },
+      {
+        "row": 29,
+        "rowsha": "jyokUG30optpvhWNjMeYd2y4249taHGPoYpKEjf5wAM=",
+        "originContent": "If you run into a bug or want to discuss potential new features, feel free to",
+        "translatedContent": "[링크](https://discord.com/channels/691052431525675048/1202998277482479616))."
+      },
+      {
+        "row": 30,
+        "rowsha": "3jL7VbKP03zvsTnwJ/bqedn8xqiuNtBOU+hNa1XjN4c=",
+        "originContent": "post an issue, open a PR or reach out to me in Discord (@mbreac in the Bevy",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "qcYI1t6SmFeQd009n1dAU4NhCGtUaJotaeli6ZgM/wM=",
+        "originContent": "discord, there's a crate-help post for `bevy_animation_graph` there:",
+        "translatedContent": "## FAQ"
+      },
+      {
+        "row": 32,
+        "rowsha": "1Dtl6wN90a+yh5guAPsVy9FFe7JBTOKZeamA64R3y5I=",
+        "originContent": "[link](https://discord.com/channels/691052431525675048/1202998277482479616)).",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 이것이 프로덕션용으로 준비되었나요?"
+      },
+      {
+        "row": 34,
+        "rowsha": "sH7VUgPw2I6+13pp6nUDM/T2LsOBk7Micqophzdve4Y=",
+        "originContent": "## FAQ",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "상황에 따라 다릅니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "h5FfumRerCYAmKdItIQDjtDUE0cek+FjrE3uWbe9LKk=",
+        "originContent": "### Is this ready for production?",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "작고 중간 규모 프로젝트에는 이미 유용할 수 있지만, API를 보장할 수는 없습니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "RfWchs4aKXHjUddjSzjisrm2u8vm1rOzvmE6Li3dgfc=",
+        "originContent": "Depends.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "rOod34JsW3nBUEt12woD75lXuobKrdE+ane1hSxwlZg=",
+        "originContent": "It can already be useful for small-ish projects, but I cannot guarantee API",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "stability between different `0.x` versions (it is a big library, it is\nrelatively young and I don't have previous experience with animation\nprogramming, so I'm still figuring out the best ways of doing things). This\nmeans that it will likely be necessary to go into your animation graph assets\nand manually migrate them between versions, at least until I find a better way\nto handle migrations.\n\nAdditionally, there ~~may~~ will be bugs and other issues. I try to get them\nfixed as they come up.\n\n### Will you implement feature X?\n\nIf it's a small feature (e.g. some additional vector or floating point\narithmetic node) it's likely that I have just not got around to it. If you open\nan issue I will probably implement it quickly. PRs are also welcome.\n\nFor larger features, it's better to start by opening an issue for discussion or\npinging me in the Bevy discord.\n\n## Version table\n\n| `bevy` | `bevy_animation_graph` | \n| ------ | ---------------------- | \n| 0.18 | master | \n| 0.18 | 0.10 | \n| 0.17 | 0.9 | \n| 0.17 | 0.8 | \n| 0.16 | 0.7 | \n| 0.15 | 0.6 | \n| 0.14 | 0.5 | \n| 0.13 | 0.4 | \n| 0.13 | 0.3 | \n| 0.12 | 0.2 |\n\n## Acknowledgements\n\nMany thanks to [Bobby Anguelov](https://www.youtube.com/@BobbyAnguelov) for his\nlectures on animation programming.\n",
+    "ContentSha": "qA/a3Bfks6szK+yY75xBl9jY1Q8r3j18pCU0FKcqg5s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`0.x` 버전 간의 안정성 문제(이 라이브러리는 크고, 비교적 젊으며 애니메이션 프로그래밍에 대한 이전 경험이 없기 때문에\n아직 최적의 방법을 찾는 중입니다)가 있습니다. 이는 애니메이션 그래프 자산을 버전 간에 수동으로 마이그레이션해야 할 가능성이\n높다는 의미이며, 더 나은 마이그레이션 방법을 찾기 전까지는 이 과정이 필요할 것입니다.\n\n또한, 버그 및 기타 문제가 발생할 수 있습니다. 발생하는 즉시 고치려고 노력하고 있습니다.\n\n### 기능 X를 구현할 예정인가요?\n\n작은 기능(예: 추가 벡터 또는 부동 소수점 산술 노드 등)이라면 단지 아직 구현하지 않은 경우일 가능성이 큽니다.\n이슈를 열면 아마도 빠르게 구현할 것입니다. PR도 환영합니다.\n\n더 큰 기능의 경우, 논의를 위해 이슈를 먼저 열거나 Bevy 디스코드에서 저에게 연락하는 것이 좋습니다.\n\n## 버전 표\n\n| `bevy` | `bevy_animation_graph` | \n| ------ | ---------------------- | \n| 0.18 | master | \n| 0.18 | 0.10 | \n| 0.17 | 0.9 | \n| 0.17 | 0.8 | \n| 0.16 | 0.7 | \n| 0.15 | 0.6 | \n| 0.14 | 0.5 | \n| 0.13 | 0.4 | \n| 0.13 | 0.3 | \n| 0.12 | 0.2 |\n\n## 감사의 말\n\n애니메이션 프로그래밍 강의를 해주신 [Bobby Anguelov](https://www.youtube.com/@BobbyAnguelov) 님께 깊은 감사를 드립니다.\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "T4RFptuki+/MTSogzVeGSQiNw93EWd6K4ByMzaL9YJo=",
+        "originContent": "stability between different `0.x` versions (it is a big library, it is",
+        "translatedContent": "`0.x` 버전 간의 안정성 문제(이 라이브러리는 크고, 비교적 젊으며 애니메이션 프로그래밍에 대한 이전 경험이 없기 때문에"
+      },
+      {
+        "row": 2,
+        "rowsha": "kj91k5YAYvavoVOxz+cCBoWD8HKoYZzV730SVnoQBEo=",
+        "originContent": "relatively young and I don't have previous experience with animation",
+        "translatedContent": "아직 최적의 방법을 찾는 중입니다)가 있습니다. 이는 애니메이션 그래프 자산을 버전 간에 수동으로 마이그레이션해야 할 가능성이"
+      },
+      {
+        "row": 3,
+        "rowsha": "ay608x8x4rVmRcDmMfyeOBmItG5xNClsw33WRymduTI=",
+        "originContent": "programming, so I'm still figuring out the best ways of doing things). This",
+        "translatedContent": "높다는 의미이며, 더 나은 마이그레이션 방법을 찾기 전까지는 이 과정이 필요할 것입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "V1xo5yobieYadWwI8v8TSvHi7AJhqEOlinIlAgDuPvs=",
+        "originContent": "means that it will likely be necessary to go into your animation graph assets",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Eotkfjr2AbjW/uNJvV7/udrogH+JmelZv/ligbstgF8=",
+        "originContent": "and manually migrate them between versions, at least until I find a better way",
+        "translatedContent": "또한, 버그 및 기타 문제가 발생할 수 있습니다. 발생하는 즉시 고치려고 노력하고 있습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "TWoV0OeeBEebbe304oxNfu/wYdBas+V8UN+MNRWDZHk=",
+        "originContent": "to handle migrations.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 기능 X를 구현할 예정인가요?"
+      },
+      {
+        "row": 8,
+        "rowsha": "ep/nR5IPq1TwABQapYQBJUN72RIheBQLvbBhgzSWB5o=",
+        "originContent": "Additionally, there ~~may~~ will be bugs and other issues. I try to get them",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "h95pSRjQ0+txn0EttONjed/mXqidZ5a2P2jJYfUrCyk=",
+        "originContent": "fixed as they come up.",
+        "translatedContent": "작은 기능(예: 추가 벡터 또는 부동 소수점 산술 노드 등)이라면 단지 아직 구현하지 않은 경우일 가능성이 큽니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이슈를 열면 아마도 빠르게 구현할 것입니다. PR도 환영합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "MKDS64yl3hTNxYhHVPkO9dHQcfX8DmOOcebV9CNuOA4=",
+        "originContent": "### Will you implement feature X?",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "더 큰 기능의 경우, 논의를 위해 이슈를 먼저 열거나 Bevy 디스코드에서 저에게 연락하는 것이 좋습니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "2/hDpOBlyS+d/Ue0T77cM9LLgGtaypHtZ8W+MxFfqW4=",
+        "originContent": "If it's a small feature (e.g. some additional vector or floating point",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "JnDFXgbbvkyGBcpAZqpkZ+kCvscwv2oVw+LuNL1FyJs=",
+        "originContent": "arithmetic node) it's likely that I have just not got around to it. If you open",
+        "translatedContent": "## 버전 표"
+      },
+      {
+        "row": 15,
+        "rowsha": "9Ra/Wd0NUl1Ww8ZYa0o4UYbN4UXTJOa3+D1hagHCKrY=",
+        "originContent": "an issue I will probably implement it quickly. PRs are also welcome.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| `bevy` | `bevy_animation_graph` | "
+      },
+      {
+        "row": 17,
+        "rowsha": "xQ0HWYPCM6eUGaJfOzoaDwwatyOJ+9BcUSptx6XuIlE=",
+        "originContent": "For larger features, it's better to start by opening an issue for discussion or",
+        "translatedContent": "| ------ | ---------------------- | "
+      },
+      {
+        "row": 18,
+        "rowsha": "eWM+A1WwFcGPgEgux99zCCdQseOzULe9rR6HCnzz3V0=",
+        "originContent": "pinging me in the Bevy discord.",
+        "translatedContent": "| 0.18 | master | "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 0.18 | 0.10 | "
+      },
+      {
+        "row": 20,
+        "rowsha": "JbF4wyTVKQfmF7UA4NKAjntLVYPxIS8QrHLAuQCDHbM=",
+        "originContent": "## Version table",
+        "translatedContent": "| 0.17 | 0.9 | "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 0.17 | 0.8 | "
+      },
+      {
+        "row": 22,
+        "rowsha": "UmENOrm7uN2/+fYcRQxMMo7iDixT4FLt6bgxBdD2j9s=",
+        "originContent": "| `bevy` | `bevy_animation_graph` | ",
+        "translatedContent": "| 0.16 | 0.7 | "
+      },
+      {
+        "row": 23,
+        "rowsha": "uNRHsUwV8o2QJLRZw5aT4Ow0QbH4t3vedfBn8jDfmo8=",
+        "originContent": "| ------ | ---------------------- | ",
+        "translatedContent": "| 0.15 | 0.6 | "
+      },
+      {
+        "row": 24,
+        "rowsha": "AvXmSjTCl3R1he2jOaUYbsWPCtaF2PBTPKwyjR6d/d0=",
+        "originContent": "| 0.18 | master | ",
+        "translatedContent": "| 0.14 | 0.5 | "
+      },
+      {
+        "row": 25,
+        "rowsha": "9xmub9cl3KDpPLRMLtZl5uMfTi08jjO2SkRyle+d1EU=",
+        "originContent": "| 0.18 | 0.10 | ",
+        "translatedContent": "| 0.13 | 0.4 | "
+      },
+      {
+        "row": 26,
+        "rowsha": "iGzw8u2nSXCuLg19r+WPgMsVSa+sxGaeiSDCV8Hqrpg=",
+        "originContent": "| 0.17 | 0.9 | ",
+        "translatedContent": "| 0.13 | 0.3 | "
+      },
+      {
+        "row": 27,
+        "rowsha": "y3uWzbSu3dPs60gv4A3iGGz+gXJscqrYsNTgFNcEgOU=",
+        "originContent": "| 0.17 | 0.8 | ",
+        "translatedContent": "| 0.12 | 0.2 |"
+      },
+      {
+        "row": 28,
+        "rowsha": "+jkg3TF3J+5Tr16ooq9yyt33LFEDVbu+FAxFWpDaUYY=",
+        "originContent": "| 0.16 | 0.7 | ",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "RNuVcp+CmsW9HLB/NP3i3giV+Vp+O2arFlTMGfa8Z68=",
+        "originContent": "| 0.15 | 0.6 | ",
+        "translatedContent": "## 감사의 말"
+      },
+      {
+        "row": 30,
+        "rowsha": "78erSZpgCYM5KfPRVl8CHVoiIlq6xLD125La4XCfd/4=",
+        "originContent": "| 0.14 | 0.5 | ",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "5tuYmrSXhBDjSk1PCytAq1iloJ21AsTiwVYgf52wzYw=",
+        "originContent": "| 0.13 | 0.4 | ",
+        "translatedContent": "애니메이션 프로그래밍 강의를 해주신 [Bobby Anguelov](https://www.youtube.com/@BobbyAnguelov) 님께 깊은 감사를 드립니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "XNGYBE/bUlIjlAY0l9TJStnw8WCHCVzS4m0AzPv6Aw0=",
+        "originContent": "| 0.13 | 0.3 | ",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qD9fsVw9iK+oz6CUvQbIw0GLS9NK5S3r5qBO1hKg9Wg=",
+        "originContent": "| 0.12 | 0.2 |",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "u8dGqML3rV6T/JbN3WUoakxAAZFdRkmOTBr3xpGdpdE=",
+        "originContent": "Many thanks to [Bobby Anguelov](https://www.youtube.com/@BobbyAnguelov) for his",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "jVcfIsejXsn3Pcs1JoKgpz/sKiXwzbup2hcfhWGn+lk=",
+        "originContent": "lectures on animation programming.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,97 +1,88 @@
-<div align="right">
-  <details>
-    <summary >🌐 언어</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en">영어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN">간체중국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW">번체중국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja">일본어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi">힌디어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th">태국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr">프랑스어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de">독일어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es">스페인어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it">이탈리아어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru">러시아어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt">포르투갈어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl">네덜란드어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl">폴란드어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar">아랍어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa">페르시아어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr">터키어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi">베트남어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id">인도네시아어</a>
-        | <a href="https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as">아삼어</
-      </div>
-    </div>
-  </details>
-</div>
-
-
-warbleR: 생물음향 분석의 간소화
+warbleR: 생물음향 분석의 효율화
 ================
 
+🌐 **언어:**  
+[English](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en) |
+[Español](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es) |
+[Français](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr) |
+[Deutsch](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de) |
+[Português](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt) |
+[Italiano](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it) |
+[Русский](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru) |
+[中文 (简体)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN) |
+[中文 (繁體)](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW) |
+[日本語](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja) |
+[한국어](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko) |
+[हिन्दी](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi) |
+[ไทย](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th) |
+[Nederlands](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl) |
+[Polski](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl) |
+[العربية](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar) |
+[فارسی](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa) |
+[Türkçe](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr) |
+[Tiếng Việt](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi) |
+[Bahasa Indonesia](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id) |
+[অসমীয়া](https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as)
+
 <!-- README.md는 README.Rmd에서 생성됩니다. 해당 파일을 수정해 주세요 -->
-<!-- 배지: 시작 -->
+<!-- badges: start -->
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)
-[![프로젝트 상태: Active 프로젝트가 안정적이고 사용 가능한 상태에 도달했으며
-활발하게 개발되고 있습니다.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![라이선스: GPL
+[![Project Status: Active The project has reached a stable, usable state
+and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![License: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![CRAN_상태_배지](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)
-[![총
-다운로드](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
-[![Codecov 테스트
-커버리지](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
-<!-- 배지: 끝 -->
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)
+[![Codecov test
+coverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)
+<!-- badges: end -->
 
-<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="warbleR 로고" align="right" width = "25%" height="25%"/>
+<img src="https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png" alt="warbleR logo" align="right" width = "25%" height="25%"/>
 
 [warbleR](https://cran.r-project.org/package=warbleR)는
-R에서 동물 음향 신호의 구조 분석을 용이하게 하기 위해
-개발되었습니다. 사용자는 오픈 액세스 조류 녹음 데이터를 수집하거나 자신의
-데이터를 입력하여 스펙트로그램 시각화와
-음향 매개변수 측정을 쉽게 진행할 수 있습니다.
-[warbleR](https://cran.r-project.org/package=warbleR)는 seewave 패키지의
-기본적인 음향 분석 도구를 활용하며, 새로운
-음향 구조 분석 도구를 제공합니다. 이 도구들은
-음향 신호의 일괄 분석(batch analysis)에 사용할 수 있습니다.
+R에서 동물 음향 신호의 구조 분석을
+용이하게 하기 위해 설계되었습니다. 사용자는 오픈 액세스 조류 녹음 데이터를 수집하거나
+자신의 데이터를 입력하여 스펙트로그램 시각화와
+음향 파라미터 측정을 쉽게 할 수 있는 워크플로우에 넣을 수 있습니다.
+[warbleR](https://cran.r-project.org/package=warbleR)는
+seewave 패키지의 기본적인 음향 분석 도구를 활용하며,
+음향 구조 분석을 위한 새로운 도구도 제공합니다. 이러한 도구들은
+음향 신호의 배치 분석이 가능합니다.
 
-이 패키지의 주요 기능은 다음과 같습니다:
+패키지의 주요 특징은 다음과 같습니다:
 
-- 음향 구조 측정을 위한 다양한 도구 제공
-- 선택 테이블에 참조된 음향 신호에 대해
-  반복문을 사용하여 작업을 적용
-- 작업 디렉터리 내에서 스펙트로그램 이미지를 생성하여
-  사용자가 데이터를 정리하고 음향 분석을 검증할 수 있도록 함
+- 음향 구조를 측정하는 다양한 도구 제공
+- 선택 테이블에 참조된 음향 신호를 통해 작업을 적용하는 루프 사용
+- 작업 디렉토리 내 스펙트로그램 이미지를 생성하여
+  사용자가 데이터를 조직하고 음향 분석을 검증할 수 있도록 지원
 
-패키지에서 제공하는 함수는 다음과 같습니다:
+패키지가 제공하는 함수는 다음과 같습니다:
 
 - [Xeno‐Canto](https://xeno-canto.org/) 녹음 탐색 및 다운로드
-- 여러 음향 파일 탐색, 정리, 조작
-- 신호 자동 감지(주파수 및 시간 영역) (보다 철저하고 친화적인 구현은 R 패키지 [ohun](https://docs.ropensci.org/ohun/) 참고)
+- 여러 음향 파일 탐색, 정리 및 조작
+- 신호 자동 감지(주파수 및 시간 기준) (더 완전하고 사용하기 쉬운 구현을 원한다면 R
+  패키지 [ohun](https://docs.ropensci.org/ohun/)을 확인하세요)
 - 전체 녹음 또는 개별 신호의 스펙트로그램 생성
-
-
-
-- 다양한 음향 신호 구조 측정 방법 실행
+- 음향 신호 구조의 다양한 측정 실행
 - 측정 방법의 성능 평가
-- 신호 목록화
-- 음향 신호의 다양한 구조적 수준 특성화
-- 이중창 조정의 통계 분석
+- 신호 분류
+- 음향 신호 내 다양한 구조적 수준 특성화
+- 듀엣 조정의 통계 분석
 - 데이터베이스 및 주석 테이블 통합
 
-대부분의 기능은 작업을 병렬화할 수 있어 여러 프로세서에 작업을 분산시켜 계산 효율성을 향상시킵니다. 각 단계에서 분석 성능을 평가하는 도구도 제공됩니다.
+대부분의 함수는 작업 병렬 처리를 지원하며, 이는 여러 프로세서에 작업을 분산시켜 계산 성능을 향상시킵니다
+
+
+
+효율성. 각 단계에서 분석 성능을 평가하는 도구도 제공됩니다.
 
 ## 설치
 
-다음과 같이 CRAN에서 패키지를 설치/로드하세요:
-
-
+CRAN에서 다음과 같이 패키지를 설치/로드하세요:
 
 
 ``` r
@@ -167,6 +158,6 @@ streamline analysis of animal acoustic signals*. Methods Ecol Evol. 8,
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

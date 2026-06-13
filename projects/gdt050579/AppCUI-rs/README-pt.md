@@ -1,7 +1,7 @@
 
 <div align="right">
   <details>
-    <summary >🌐 Idioma</summary>
+    <summary>🌐 Idioma</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=en">English</a>
@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -37,10 +37,9 @@
 ```                                                              
 ⯈ 𝗔𝗽𝗽𝗖𝗨𝗜-𝗿𝘀 🖳
 ```
-
 ![Status de Build do Windows](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
 ![Status de Build do Linux](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
-![Status de Build do MacOS](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
+![Status de Build do macOS](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
 ![Cobertura de Código](https://gist.githubusercontent.com/gdt050579/f7d7e7d56b2725a3b33a265e8a9d8e9c/raw/coverage.svg)
 ![Licença](https://img.shields.io/github/license/gdt050579/AppCUI-rs)
 [![Crates.io](https://img.shields.io/crates/v/appcui.svg)](https://crates.io/crates/appcui)
@@ -48,25 +47,25 @@
 [![Galeria](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-AppCUI-rs é uma biblioteca Rust rápida e multiplataforma para construir interfaces de usuário modernas baseadas em texto (TUIs) com widgets ricos, temas e suporte total a Unicode—uma alternativa ao ncurses e outros frameworks de UI para terminal.
+AppCUI-rs é uma biblioteca Rust rápida e multiplataforma para construir interfaces de usuário modernas baseadas em texto (TUIs) com widgets ricos, temas e suporte total a Unicode—uma alternativa ao ncurses e outros frameworks de UI para terminais.
 * [Livro](https://gdt050579.github.io/AppCUI-rs/)
 * [Documentação](https://docs.rs/appcui)
 * [Galeria](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
 ## ✨ Funcionalidades
-- [x] múltiplos controles prontos para uso (botões, rótulos, caixas de texto, caixas de seleção, botões de rádio, listas, árvores, combos, seletores de data/hora, seletores de cor, abas, acordeões, etc.). Uma lista completa de controles pode ser encontrada [aqui](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html)
-- [x] sistema de layout poderoso que permite posicionar controles usando coordenadas absolutas, relativas, dock, alinhamento, âncoras ou posicionamento por pivô (veja mais [aqui](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html))
+- [x] múltiplos controles prontos para uso (botões, rótulos, caixas de texto, caixas de seleção, botões de rádio, visualizações de lista, visualizações de árvore, caixas de combinação, seletores de data/hora, seletores de cor, abas, acordes, etc.). Uma lista completa de controles pode ser encontrada [aqui](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) 
+- [x] sistema de layout poderoso que permite posicionar controles usando coordenadas absolutas, relativas, encaixe, alinhamento, âncoras ou posicionamento por pivô (veja mais [aqui](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html)) 
 - [x] menus e barras de ferramentas
-- [x] suporte multiplataforma (Windows via API e terminal virtual, Linux via ncurses, MacOS via termios)
-- [x] suporte a multi-threading para tarefas em segundo plano
+- [x] suporte multiplataforma (Windows via API e terminal virtual, Linux via ncurses, macOS via termios)
+- [x] suporte a multithreading para permitir tarefas em segundo plano
 - [x] timers
 - [x] suporte a mouse
-- [x] suporte a área de transferência
+- [x] suporte à área de transferência
 - [x] temas de cores
-- [x] suporte a caracteres Unicode
-- [x] diálogos predefinidos (caixa de mensagem, caixa de entrada, seletor de cor, diálogos de salvar & abrir, navegador de pastas, etc)
-- [x] suporte a cores reais (24 bits por pixel) para terminais compatíveis.
+- [x] suporte para caracteres Unicode
+- [x] diálogos predefinidos (caixa de mensagem, caixa de entrada, seletor de cores, diálogos de salvar & abrir, navegador de pastas, etc.)
+- [x] suporte a true-color (24 bits por pixel) para terminais que suportam.
 
 ## 📸 Capturas de Tela 
 
@@ -76,14 +75,15 @@ AppCUI-rs é uma biblioteca Rust rápida e multiplataforma para construir interf
 
 ## 🖥️ Backends
 
-AppCUI suporta vários backends baseados no sistema operacional em que está sendo utilizado:
+AppCUI suporta vários backends dependendo do sistema operacional:
 
-* **Console do Windows** - baseado na API de baixo nível Win32, projetado para o console clássico do Windows
+
+* **Console do Windows** - baseado na API Win32 de baixo nível, projetado para o console clássico do Windows
 * **Windows VT** - baseado em sequências ANSI, projetado para terminais virtuais modernos do Windows
 * **NCurses** - baseado na API NCurses para ambientes Linux
-* **Termios** - baseado em sequências ANSI e APIs de baixo nível para MAC OSX
-* **Terminal Web** - projetado para implementação na Web (baseado em webgl)
-* **CrossTerm** - baseado no crate `crossterm`, mas habilitado via uma flag de recurso
+* **Termios** - baseado em sequências ANSI e APIs de baixo nível para macOS
+* **Terminal Web** - projetado para implementações web (baseado em WebGL)
+* **CrossTerm** - baseado no crate `crossterm`, habilitado via uma flag de recurso
 
 Mais informações sobre os backends suportados podem ser encontradas [aqui](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html)
 
@@ -118,8 +118,8 @@ fn main() -> Result<(), appcui::system::Error> {
     Ok(())
 }
 ```
-ou uma versão mais compacta usando proc-macros:
 
+Ou uma versão mais compacta usando proc-macros:
 
 ```rs
 use appcui::prelude::*;
@@ -139,15 +139,15 @@ Em seguida, execute o projeto com `cargo run`. Você deverá ver uma janela com 
 ## 🧪 Exemplos
 
 O AppCUI-rs vem com um conjunto de exemplos para ajudá-lo a começar. Você pode encontrá-los na pasta [examples](examples), incluindo:
-- **Jogos** como [Jogo da Velha](examples/tic-tac-toe/), [Cobra](examples/snake/), [Flappy Bird](examples/flappy), [Campo Minado](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Chees](examples/games/), [Connect Four](examples/games/), [2048](examples/games/) ou [Tetris](examples/games/)
-- **Utilitários** como [Calculadora](examples/calculator/), [Visualizador de CSV](examples/csv_viewer/), [Conversor de Temperatura](examples/temperature_convertor/) ou um [Timer](examples/timer/)
-- **Animações** como [Matrix](examples/matrix/), [Fractais](examples/fractals/) ou [Espiral](examples/spiral/)
+- **Jogos** como [Tic Tac Toe](examples/tic-tac-toe/), [Snake](examples/snake/), [Flappy Bird](examples/flappy), [Minesweeper](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Chess](examples/games/), [Connect Four](examples/games/), [2048](examples/games/), ou [Tetris](examples/games/)
+- **Utilitários** como [Calculadora](examples/calculator/), [Visualizador de CSV](examples/csv_viewer/), [Conversor de Temperatura](examples/temperature_convertor/), ou um [Timer](examples/timer/)
+- **Animações** como [Matrix](examples/matrix/), [Fractais](examples/fractals/), ou [Espiral](examples/spiral/)
 - **Controles**/**Widgets** como [Botão](examples/buttons/), [CheckBox](examples/checkboxes/), [ComboBox](examples/combobox/), [DatePicker](examples/datepicker/), [ListView](examples/listview/), [TreeView](examples/treeview/) e muitos outros.
 - **Diálogos** como [Notificação](examples/notification_dialogs/) ou [Entrada](examples/input_dialog/)
 
 ## 🛠️ Um exemplo mais complexo
 
-Um exemplo que cria uma janela com um botão que, quando pressionado, aumenta um contador.
+Um exemplo que cria uma janela com um botão que, ao ser pressionado, aumenta um contador.
 
 ```rust
 use appcui::prelude::*;
@@ -179,11 +179,11 @@ impl ButtonEvents for CounterWindow {
     fn on_pressed(&mut self, handle: Handle<Button>) -> EventProcessStatus {
         // increase the counter
         self.counter += 1;
-        // create a text that containe the new counter
+        // create a text that contains the new counter
         let text = format!("{}",self.counter);
-        // aquire a mutable reference to the button using its handle
+        // acquire a mutable reference to the button using its handle
         if let Some(button) = self.control_mut(handle) {
-            // set the caption of the button to th new text
+            // set the caption of the button to the new text
             button.set_caption(&text);
         }
         // Tell the AppCUI framework that we have processed this event
@@ -197,7 +197,7 @@ fn main() -> Result<(), appcui::system::Error> {
     let mut a = App::new().build()?;
     // add a new window (of type CounterWindow) to the application
     a.add_window(CounterWindow::new());
-    // Run AppCUI framework (this wil start the window loop and messaage passing)
+    // Run AppCUI framework (this will start the window loop and message passing)
     a.run();
     Ok(())
 }
@@ -205,21 +205,21 @@ fn main() -> Result<(), appcui::system::Error> {
 
 ## 🛣️ Roteiro
 
-- [x] Conjunto básico de widgets e suporte para Windows, Linux e MacOS
-- [x] Suporte a WebGL
-- [ ] Suporte a OpenGL / SDL / Vulkan
-- [ ] Suporte a TextArea para destaque de código
+- [x] Conjunto básico de widgets e suporte para Windows, Linux e macOS
+- [x] Suporte WebGL
+- [ ] Suporte OpenGL / SDL / Vulkan
+- [ ] Suporte TextArea para destaque de código
 
 ## 🤝 Contribuindo
 
 Contribuições, problemas e solicitações de recursos são bem-vindos!  
-Confira [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) para começar.
+Confira o [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) para começar.
 
 Participe da discussão em [GitHub Discussions](https://github.com/gdt050579/AppCUI-rs/discussions).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---

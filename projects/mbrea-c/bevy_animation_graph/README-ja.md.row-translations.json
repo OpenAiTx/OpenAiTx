@@ -1,0 +1,1202 @@
+[
+  {
+    "row": 1,
+    "rowsha": "tw3WHLVzUKvhga6al/BftEy2GTDy0vXXH8yzzUIRh3U=",
+    "originContent": "_Library crate:_",
+    "translatedContent": "_ライブラリクレート:_"
+  },
+  {
+    "row": 2,
+    "rowsha": "vz5vNStsWUoS09efCY0bxBZ3SH/8Ko80RkJcdO1x3Pc=",
+    "originContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)",
+    "translatedContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)"
+  },
+  {
+    "row": 3,
+    "rowsha": "zzIApicS1HDHMQzkfH4PBKAC75KExvVeAI+QqrBfyD8=",
+    "originContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)",
+    "translatedContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph)](https://crates.io/crates/bevy_animation_graph)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "xlPUCXsQUp4VBeztqDdt+R13Us6h5uS6KUbP403TV+4=",
+    "originContent": "_Editor crate:_",
+    "translatedContent": "_エディタークレート:_"
+  },
+  {
+    "row": 6,
+    "rowsha": "UCOMVW1nb7WRqDms8HCW2PX5y1AVQ2vVqswbBNDkIxM=",
+    "originContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)",
+    "translatedContent": "[![Crates.io](https://img.shields.io/crates/v/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)"
+  },
+  {
+    "row": 7,
+    "rowsha": "3SB3QkbqbgfVokcyH+9rlOgqfRCd6MIPSc3fzG3H//g=",
+    "originContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)",
+    "translatedContent": "[![Crates.io](https://img.shields.io/crates/d/bevy_animation_graph_editor)](https://crates.io/crates/bevy_animation_graph_editor)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "mpJ/ZC52UrBxTPcqkX60rUYEkBaET37h7buEZ0nTnG4=",
+    "originContent": "[![CI](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml/badge.svg)](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml)",
+    "translatedContent": "[![CI](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml/badge.svg)](https://github.com/mbrea-c/bevy_animation_graph/actions/workflows/ci.yaml)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "dyPzNAPUYmSwhvqpYdCvp9oyZICDytGOrCUYiRVEUow=",
+    "originContent": "# Bevy Animation Graph",
+    "translatedContent": "# Bevy Animation Graph"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "9MhpxDtmUcj0IQ0zqjNmnuQxIQ+SgfpT9zklpQfOl44=",
+    "originContent": "> **_NOTICE:_** If you're currently using version `0.8.0` or lower, note that",
+    "translatedContent": "> **_注意:_** 現在バージョン `0.8.0` 以下を使用している場合、"
+  },
+  {
+    "row": 14,
+    "rowsha": "hj07GxJEuhPdTOeze40JZPX7kBLnOOquXSMkm9Xin7A=",
+    "originContent": "> `0.9.0` has introduced a number of breaking changes. Check out the",
+    "translatedContent": "> `0.9.0` では多くの破壊的変更が導入されています。"
+  },
+  {
+    "row": 15,
+    "rowsha": "OyUSdCQZhGfBoS2hyQ7F4SMj/SWQER2NwcDBXBjkunU=",
+    "originContent": "> [migration guide](https://mbrea-c.github.io/bevy_animation_graph/migration_guides/0.8_to_0.9.html)",
+    "translatedContent": "> アップグレードには"
+  },
+  {
+    "row": 16,
+    "rowsha": "ejr7OihvXmvdlGl4d4AbsUC626j0JtlBoxujF8uMrEM=",
+    "originContent": "> for upgrading.",
+    "translatedContent": "> [マイグレーションガイド](https://mbrea-c.github.io/bevy_animation_graph/migration_guides/0.8_to_0.9.html)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> をご覧ください。"
+  },
+  {
+    "row": 18,
+    "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+    "originContent": "## Motivation",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 動機"
+  },
+  {
+    "row": 20,
+    "rowsha": "S/FmevxxOq1wYir+ajbWgUA8OmYhFjEB281m7DHQSZU=",
+    "originContent": "Animation graphs are an essential tool for managing the complexity present in",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "ODutFojpeaPxD1bBgXFe/kAZJo4HW2Qi2MdhPsdcZLI=",
+    "originContent": "the animation pipelines for modern 3D games. When your game has tens of",
+    "translatedContent": "アニメーショングラフは、現代の3Dゲームのアニメーションパイプラインに存在する複雑さを管理するための重要なツールです。"
+  },
+  {
+    "row": 22,
+    "rowsha": "7pDknpVnL5dHDvFUX8HVav1INaEl6MaKHqed3gZbSdc=",
+    "originContent": "animations with complex blends and transitions, or you want to generate your",
+    "translatedContent": "ゲームに複雑なブレンドや遷移を持つ数十のアニメーションがある場合や、"
+  },
+  {
+    "row": 23,
+    "rowsha": "LJuuJgRGWTGp+LWEHFpWYCuL+LwI9BqhUknITVHR7e0=",
+    "originContent": "animations procedurally from very few keyframes, simple animation clip playback",
+    "translatedContent": "ごく少数のキーフレームからアニメーションを手続き的に生成したい場合、単純なアニメーションクリップの再生だけでは不十分です。"
+  },
+  {
+    "row": 24,
+    "rowsha": "LfvhhOacy0Ns4WQaYrqTzD0SR/o/8FnQOXWBqSPnin0=",
+    "originContent": "is not enough.",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このクレートは `bevy_animation` の多くの機能に代わるものとして機能し、"
+  },
+  {
+    "row": 26,
+    "rowsha": "f8/XZP+bL1aE8su10ZVSH5cYi1UQj6U5iwNk1z/p2rI=",
+    "originContent": "This crate works as an alternative to most of `bevy_animation`, and aims to",
+    "translatedContent": "アニメーショングラフ、アニメーションステートマシン（すなわちアニメーションコントローラー）、"
+  },
+  {
+    "row": 27,
+    "rowsha": "Gf3YjGNVaDuPKyNHAUFzablqZjkQYJ88pKrd/T/aBNw=",
+    "originContent": "provide a complete animation system and development workflow including animation",
+    "translatedContent": "およびアニメーショングラフとステートマシンを作成するためのグラフィカルエディターを含む"
+  },
+  {
+    "row": 28,
+    "rowsha": "DvepCfOHlnJe1+xyqtwMVaLqrwIwtBsU3caHw82XX/U=",
+    "originContent": "graphs, animation state machines (i.e. animation controllers) and a graphical",
+    "translatedContent": "完全なアニメーションシステムと開発ワークフローを提供することを目的としています。"
+  },
+  {
+    "row": 29,
+    "rowsha": "HejRfeNTYnyepV0yLN4Hq3RhUZqRrgRMprGlEWctAwQ=",
+    "originContent": "editor to create your animation graphs and state machines.",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_注: このプロジェクトは `bevy_animation` バージョン0.14で導入されたアニメーショングラフとは別物です。_"
+  },
+  {
+    "row": 31,
+    "rowsha": "r4N0Wy2njR9x1ksaNzykUbdpmGtab9FLPOC1vm/Dl+0=",
+    "originContent": "_NOTE: This project is separate from the animation graphs introduced in",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "hh0kzZRd6K3a2Nihl6jancQLKaETM+98YsFoif1ydPg=",
+    "originContent": "`bevy_animation` in version 0.14._",
+    "translatedContent": "![利用例スクリーンショット](https://raw.githubusercontent.com/mbrea-c/bevy_animation_graph/master/locomotion_graph.png)"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "LhTY8eSBTWfFcPVov9zm/hEMpN2efCMeR80m56hPM90=",
+    "originContent": "![example usage screenshot](https://raw.githubusercontent.com/mbrea-c/bevy_animation_graph/master/locomotion_graph.png)",
+    "translatedContent": "## 現在の機能"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "VsOY7dxcNnT8chph5ZIzmj7+smEcdlA3XrYDXMgVaUU=",
+    "originContent": "## Current Features",
+    "translatedContent": "- アニメーショングラフはアセットです。アセットファイルからロードできるほか、"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  エルゴノミックなAPIを使ってコード内で作成可能です。"
+  },
+  {
+    "row": 38,
+    "rowsha": "6elyRWlRkCKgViw2rjjMwZ85+E59cCbqcir1PDKyM9E=",
+    "originContent": "- Animation graphs are assets. They can be loaded from asset files, or created",
+    "translatedContent": "- ビジュアルグラフエディター。"
+  },
+  {
+    "row": 39,
+    "rowsha": "HY9gmzHkWjYLT6p0Xkn7PJkdwy7q9PmamTq5qjsSTF4=",
+    "originContent": "  in code with an ergonomic API.",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "QiOmSNgBL1UwGYSF+htO/EH3lSUdjLB1SSPfoVT9HkQ=",
+    "originContent": "- Visual graph editor.",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "inj1lby+yUIMQ28kELZY+nzxkpwr/yX/78TcVKzW3u4=",
+    "originContent": "- Animation state machines:",
+    "translatedContent": "- アニメーションステートマシン:"
+  },
+  {
+    "row": 42,
+    "rowsha": "W8xhXbA3N1iKUqmdLFLxhvrz5BBNh0N/FSihdoLM43o=",
+    "originContent": "  - Animation state machines are embedded as nodes in animation graphs.",
+    "translatedContent": "  - アニメーションステートマシンはアニメーショングラフ内のノードとして埋め込まれています。"
+  },
+  {
+    "row": 43,
+    "rowsha": "NQz6+v+y0ILQ+zlXxCUw7b3z/gA3pydMLGRF9ItqJQ4=",
+    "originContent": "  - Each state in a state machines plays back its own animation graph on demand.",
+    "translatedContent": "  - ステートマシン内の各ステートは要求に応じて自身のアニメーショングラフを再生します。"
+  },
+  {
+    "row": 44,
+    "rowsha": "awHZbKfcd1K9ZbQittCdqINVqriDnhVhC0dcV/zZEzU=",
+    "originContent": "  - Transitions also have their own animation graph, and they can query source",
+    "translatedContent": "  - トランジションも独自のアニメーショングラフを持ち、ソースおよびターゲットステートのアニメーショングラフを参照できます。"
+  },
+  {
+    "row": 45,
+    "rowsha": "H0qPAUaSIwSWcnFnBNdtYXkHK/S9adqQzrAOiGxm3KQ=",
+    "originContent": "    and target states' animation graphs.",
+    "translatedContent": "- ラグドールサポート:"
+  },
+  {
+    "row": 46,
+    "rowsha": "OIOfnKaQgyzs0+Mnhfd1qpqHtjpeJY0cnP/riO96jrw=",
+    "originContent": "- Ragdoll support:",
+    "translatedContent": "  - エディタ内での視覚的なラグドール編集が可能です。"
+  },
+  {
+    "row": 47,
+    "rowsha": "AOf0RPnnqN1ypmN+8AJiJ7nQDOWAbhC/QV7QYAWfwrI=",
+    "originContent": "  - Visual ragdoll editing in the editor.",
+    "translatedContent": "  - 一部のボーンのみ物理シミュレーションされ、その他はターゲットのアニメーションポーズでキネマティックに駆動される"
+  },
+  {
+    "row": 48,
+    "rowsha": "XsMaDalCkY3XDnMOUUcNoggyMXqMwpt6dFsSsKJaND8=",
+    "originContent": "  - Support for _partial ragdolls_, where some bones are simulated and others",
+    "translatedContent": "    _部分ラグドール_をサポートしています。"
+  },
+  {
+    "row": 49,
+    "rowsha": "7hgwawS5zw31MvwVw/tfUlkGTItRvjwo9+fb8A8k8tw=",
+    "originContent": "    kinematically driven by a target animation pose.",
+    "translatedContent": "- Rustで書かれたカスタムノードのサポート。"
+  },
+  {
+    "row": 50,
+    "rowsha": "ihoU/z+Jq2pzAjWWc1AaBDcGhIbnWYlaUxup8MCIlcA=",
+    "originContent": "- Support for custom nodes written in Rust.",
+    "translatedContent": "  - ユーザーはエディタプラグインを追加し、Bevyのタイプレジストリに独自のカスタムノードを登録することで"
+  },
+  {
+    "row": 51,
+    "rowsha": "VR7KqtqXkE4QR4aC2xXim4H4In4SDsCh8T4JVySeTXE=",
+    "originContent": "  - Users can create their own editor binary by adding the editor plugin and",
+    "translatedContent": "    独自のエディタバイナリを作成できます。エディタは登録されたすべてのノードを自動的に認識します。"
+  },
+  {
+    "row": 52,
+    "rowsha": "3M+agQC4m+yuh5adKmuEMpTTwjSr69/GTQbJgH+ZNnw=",
+    "originContent": "    registering their additional custom nodes in the Bevy type registry. The",
+    "translatedContent": "- 利用可能な組み込みノードには以下が含まれます:"
+  },
+  {
+    "row": 53,
+    "rowsha": "a46YSxg1l7Pp93sgGUN1q+KVCtfXOUiZI1gOcxg487w=",
+    "originContent": "    editor will automatically pick up all registered nodes.",
+    "translatedContent": "  - アニメーションチェイニング（すなわち、あるノードの後に別のノードを再生）。"
+  },
+  {
+    "row": 54,
+    "rowsha": "I7i/OiGfnjG8FtAenaNfKG0Y3JFxrOLJHYyz20do+h4=",
+    "originContent": "- Available built-in nodes include:",
+    "translatedContent": "  - 2ボーン逆運動学。"
+  },
+  {
+    "row": 55,
+    "rowsha": "6xA9SUpUq/Xdvk9KYYxhKgU8yYFDaVmZVpkZVcL2Kl4=",
+    "originContent": "  - Animation chaining (i.e. play one node after another).",
+    "translatedContent": "  - ループ再生。"
+  },
+  {
+    "row": 56,
+    "rowsha": "xvrG4Ip9DLtgto3Qi4iYfpK5eYwHZ3Er7nO3lWnhhMw=",
+    "originContent": "  - Two-bone inverse kinematics.",
+    "translatedContent": "  - 線形ブレンディング（ボーン空間内）。"
+  },
+  {
+    "row": 57,
+    "rowsha": "tvp46zPtUq7m/6A6xcIaQocfHnL6LdHyu9+3YUsr91c=",
+    "originContent": "  - Looping.",
+    "translatedContent": "  - 2Dブレンドスペースノード。"
+  },
+  {
+    "row": 58,
+    "rowsha": "pJfLwGWETShrEWhjalQE9FYkgqSVBtjSyP3XW2r7oFI=",
+    "originContent": "  - Linear Blending (in bone space).",
+    "translatedContent": "  - YZ平面を中心にアニメーションをミラーリング。"
+  },
+  {
+    "row": 59,
+    "rowsha": "+lhKapB+QHTZsdKcH/xcHC/Xhgzf8Dqr/35JCIV7bOE=",
+    "originContent": "  - 2D Blend space node.",
+    "translatedContent": "  - アニメーションクリップ再生。"
+  },
+  {
+    "row": 60,
+    "rowsha": "NWp6Oe/qVfRFktepwInk+osvVjqST/0GVAFkscbsxrE=",
+    "originContent": "  - Mirror animation about the YZ plane.",
+    "translatedContent": "  - ボーンマスクを使用してポーズ内の特定のボーンに回転を適用。"
+  },
+  {
+    "row": 61,
+    "rowsha": "3fqOdZ+6y9ggWkUIEYuyqCZ/8iB2xsAswtF9zr1TZnk=",
+    "originContent": "  - Animation clip playback.",
+    "translatedContent": "  - アニメーション再生速度の加速・減速。"
+  },
+  {
+    "row": 62,
+    "rowsha": "3uBWenEDRyP28OCwr84+WGpHXBICX8gmUvuuRkAidL4=",
+    "originContent": "  - Apply a given rotation to some bones in a pose using a bone mask.",
+    "translatedContent": "  - アニメーショングラフノード。"
+  },
+  {
+    "row": 63,
+    "rowsha": "/MmGt00ruFb3SBSkbSn35uGtVl7D0aOtIblztSHdU80=",
+    "originContent": "  - Speed up or slow down animation playback.",
+    "translatedContent": "  - アニメーションステートマシンノード。"
+  },
+  {
+    "row": 64,
+    "rowsha": "607NDqRXBkMUdcqkbcOZD/vNZWjl3tSKdL0/ntNb8Zc=",
+    "originContent": "  - Animation graph node.",
+    "translatedContent": "  - 算術ノード：f32、Vec3、Quatなどの一般的な演算を多様に提供。"
+  },
+  {
+    "row": 65,
+    "rowsha": "yIk9p9+rsqyeV4eQka6Ej2HuASqR4hfJu5sWO/ijpr0=",
+    "originContent": "  - Animation state machine node.",
+    "translatedContent": "- 他のグラフ内にアニメーショングラフをノードとして入れ子にできます。"
+  },
+  {
+    "row": 66,
+    "rowsha": "LvgOkFz/JDHPAOPDJTzWQpMZf1Z6jKveJzYLZMwUVj8=",
+    "originContent": "  - Arithmetic nodes: a variety of common operations on f32, Vec3, Quat, etc.",
+    "translatedContent": "- イベントトラックを使ったアニメーション同期。"
+  },
+  {
+    "row": 67,
+    "rowsha": "lPhBixoc8/fsb55QNo9/UKS1bQC28B7Gkvb6fy2sNts=",
+    "originContent": "- Nesting animation graphs as nodes within other graphs.",
+    "translatedContent": "- 不要な計算を避けるためにグラフノードの出力はキャッシュされます。"
+  },
+  {
+    "row": 68,
+    "rowsha": "OAO5AVKV7DAK0nlLYGkjRQW7lhoWTYG3WHwpA3qmr1o=",
+    "originContent": "- Animation synchronization using event tracks.",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "dyJV5neQxiPyiP6jFtmTIUDlQZmHgRe08APsEPp4SV4=",
+    "originContent": "- Output from graph nodes is cached to avoid unnecessary computations.",
+    "translatedContent": "## 今後の計画機能"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "m8VYPv6MlPmvDAxmcWcJghJATdr9ezmdfLEXGpbdA/E=",
+    "originContent": "## Planned Features",
+    "translatedContent": "1. ラグドールの「ポーズ追従」モード。物理的な力を用いてシミュレーションされたラグドールボーンが"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "   ターゲットポーズに追従しようとします:"
+  },
+  {
+    "row": 73,
+    "rowsha": "4UibTFrhTMDzIQMaDGjV4zR8EASk4jYmM6+NXfhVc9M=",
+    "originContent": "1. Ragdoll \"pose following\" modes, where a simulated ragdoll bones try to match",
+    "translatedContent": "   - _絶対_追従モード：ターゲットボーンのワールド空間位置・回転を追跡し、"
+  },
+  {
+    "row": 74,
+    "rowsha": "FU5lGAw7wSOVCX1boFue4QpIkuo3IBNtAKHqgpuiHk0=",
+    "originContent": "   a target pose using physical forces:",
+    "translatedContent": "     ラグドールボーンに対するバネ力の基点として使用します。"
+  },
+  {
+    "row": 75,
+    "rowsha": "1oJoE30X6aMCS74bBWXkcy5Obw6qqdBwRKLS5YPceuk=",
+    "originContent": "   - _Absolute_ matching mode, where the world space position/rotation of the",
+    "translatedContent": "   - _相対_追従モード：ラグドールボーンが親ボーンに対するターゲットの位置・回転に合わせて追従します。"
+  },
+  {
+    "row": 76,
+    "rowsha": "RKBaThcqdSxQ5k/Rks0m7bXCMoQcP04qxRKIku6ovw4=",
+    "originContent": "     target bone is tracked and use as an anchor for a spring force on the",
+    "translatedContent": "     このモードを適切に実装するにはAvianでのジョイントモーターサポートが必要になるかもしれません。"
+  },
+  {
+    "row": 77,
+    "rowsha": "5r5i+Wx/7BY8P9dbt9hK/c3WskYTJlwjrrRqm4pcrno=",
+    "originContent": "     ragdoll bone.",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "7EJZF6UbaPxjdVkqFmwYhP8rNALQ1roZunWwC4v3L0c=",
+    "originContent": "   - _Relative_ matching mode, where the ragdoll bone tries to match the",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "3RGBFUd/uY+bAd2gnx80I9Y6GKM3QIv7578x+EHgtdk=",
+    "originContent": "     target's position/rotation relative to its parent bone. We may need joint",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "+anFId6Aljesy+AH0IBfQRn7j2LsweT0exGP26CIHqU=",
+    "originContent": "     motors support on Avian to implement this mode properly.",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "OejrVNXnpMHSB5Rc1gUz/8tGv/z8S6FNywAF0d4zGBk=",
+    "originContent": "### Library",
+    "translatedContent": "### ライブラリ"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "HBmkLO1vNKvZE/OyLg/zST4enQBqaO0mV/G401T5N+I=",
+    "originContent": "[bevy_animation_graph](https://crates.io/crates/bevy_animation_graph) is the",
+    "translatedContent": "[bevy_animation_graph](https://crates.io/crates/bevy_animation_graph) は"
+  },
+  {
+    "row": 87,
+    "rowsha": "RcUdMRNPyFy1AvnlauhsCdRGkZ1DO6/C9sNMGtIdvkw=",
+    "originContent": "library part of this project. This should be added as a dependency to your",
+    "translatedContent": "このプロジェクトのライブラリ部分です。アニメーショングラフを使用するために、"
+  },
+  {
+    "row": 88,
+    "rowsha": "Aege1HE1glwKlhfKXGdYnFZ/gsuOPuOZmNxcwj7PW5Q=",
+    "originContent": "project in order to use animation graphs. To install the latest published",
+    "translatedContent": "あなたのプロジェクトの依存関係として追加する必要があります。crates.ioから"
+  },
+  {
+    "row": 89,
+    "rowsha": "/J+bia/hPPgGjLMXol2LF2A7TNqhyUrxSCeF87dUB/g=",
+    "originContent": "version from crates.io run",
+    "translatedContent": "最新の公開バージョンをインストールするには、次のコマンドを実行してください。"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 92,
+    "rowsha": "wNIMdPdYZIMDJ2YdMryLXfndtZz+F5HNToA+K3BX1EA=",
+    "originContent": "cargo add bevy_animation_graph",
+    "translatedContent": "cargo add bevy_animation_graph"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "または最新バージョンを手動で `Cargo.toml` に追加してください。"
+  },
+  {
+    "row": 95,
+    "rowsha": "3dJwkG+RpGjf4ydFaLcLwZh7rz29XsEsbJeq21V9+0I=",
+    "originContent": "or manually add the latest version to your `Cargo.toml`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "最新のgitマスターをインストールするには、次の内容を `Cargo.toml` に追加してください："
+  },
+  {
+    "row": 97,
+    "rowsha": "42vpprQsZsKi7ez13jx9idWFki+vrj1v6IHAsklokrw=",
+    "originContent": "To install the latest git master, add the following to `Cargo.toml`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 100,
+    "rowsha": "zDO8S9hmzzthQ48Km7zRF6+i39zTFsHCxee0Z9jxZAE=",
+    "originContent": "# ...",
+    "translatedContent": "# ..."
+  },
+  {
+    "row": 101,
+    "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+    "originContent": "[dependencies]",
+    "translatedContent": "[dependencies]"
+  },
+  {
+    "row": 102,
+    "rowsha": "zDO8S9hmzzthQ48Km7zRF6+i39zTFsHCxee0Z9jxZAE=",
+    "originContent": "# ...",
+    "translatedContent": "# ..."
+  },
+  {
+    "row": 103,
+    "rowsha": "8/tOUJmHaWXPmN5JiBDxI4IJPbUx9Uy0nYgvF7fnetY=",
+    "originContent": "bevy_animation_graph = { git = \"https://github.com/mbrea-c/bevy_animation_graph.git\" }",
+    "translatedContent": "bevy_animation_graph = { git = \"https://github.com/mbrea-c/bevy_animation_graph.git\" }"
+  },
+  {
+    "row": 104,
+    "rowsha": "zDO8S9hmzzthQ48Km7zRF6+i39zTFsHCxee0Z9jxZAE=",
+    "originContent": "# ...",
+    "translatedContent": "# ..."
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "pU7DKUVCKOIXxoSX9OklYcOzu+RyxxZexjrRl/cQa2c=",
+    "originContent": "### Editor",
+    "translatedContent": "### エディター"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "SU2ZBc6WCwXVGWmw9ddeI6y3saAzxgPTiDmeunuSrOg=",
+    "originContent": "[bevy_animation_graph_editor](https://crates.io/crates/bevy_animation_graph_editor)",
+    "translatedContent": "[bevy_animation_graph_editor](https://crates.io/crates/bevy_animation_graph_editor)"
+  },
+  {
+    "row": 110,
+    "rowsha": "BqS14NSLrL5OI8Jp3XKs/fET9ubkg2SVyS4+XuuiEho=",
+    "originContent": "is the editor. You can install like you would install any other rust binary:",
+    "translatedContent": "はエディターです。通常のRustバイナリと同様にインストールできます："
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 113,
+    "rowsha": "iTQAquuernvZobDS8kZOiUUCDypFRMukej/iqCuTr1k=",
+    "originContent": "# for the latest crates.io version",
+    "translatedContent": "# for the latest crates.io version"
+  },
+  {
+    "row": 114,
+    "rowsha": "cCsuZMlZ3/t8z1Ckh6/0NiDirG+jVCUUks3s0WN33Yg=",
+    "originContent": "cargo install bevy_animation_graph_editor",
+    "translatedContent": "cargo install bevy_animation_graph_editor"
+  },
+  {
+    "row": 115,
+    "rowsha": "8RJ0jkF4mh3U11ZBDB9TVNPoKFwdskZpCl8d+ZLd5Tc=",
+    "originContent": "# for the latest master",
+    "translatedContent": "# for the latest master"
+  },
+  {
+    "row": 116,
+    "rowsha": "c/DynUJ1tFBl41nMb0QJBdAe0xTq5vMONWUgeCxF77k=",
+    "originContent": "cargo install --git https://github.com/mbrea-c/bevy_animation_graph bevy_animation_graph_editor",
+    "translatedContent": "cargo install --git https://github.com/mbrea-c/bevy_animation_graph bevy_animation_graph_editor"
+  },
+  {
+    "row": 117,
+    "rowsha": "gLFL1SxrAvh7zxj1QVEOWY+dZTxbFjSxUM/aRtwZtqI=",
+    "originContent": "# for the version from a local workspace",
+    "translatedContent": "# for the version from a local workspace"
+  },
+  {
+    "row": 118,
+    "rowsha": "gKV9KZQ7mRzmcDuBw6Npiwh5Ka8CpJ/jeXMdhpDxM9Q=",
+    "originContent": "cargo install --path <PATH_TO_WORKSPACE> bevy_animation_graph_editor",
+    "translatedContent": "cargo install --path <PATH_TO_WORKSPACE> bevy_animation_graph_editor"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "YursLSAWhoDBisLUmNuRFaczAS+MCXxGF/L6PSGZoUc=",
+    "originContent": "# use the --force flag to force reinstall",
+    "translatedContent": "# use the --force flag to force reinstall"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "あるいは、  "
+  },
+  {
+    "row": 123,
+    "rowsha": "Hy5GRVWbBiv2ncRZdJivsLr0lUz43vUlQrlFk4mzSVA=",
+    "originContent": "Alternatively, I recommend taking a look at the",
+    "translatedContent": "[プラグインとしてのエディターの例](https://github.com/mbrea-c/bevy_animation_graph/blob/master/examples/editor_as_a_plugin/examples/editor_as_a_plugin.rs)  "
+  },
+  {
+    "row": 124,
+    "rowsha": "bYGwjP2pOcz3xA61zcH4pLAyMHfohWLiEQiw2WQB0iA=",
+    "originContent": "[editor as a plugin example](https://github.com/mbrea-c/bevy_animation_graph/blob/master/examples/editor_as_a_plugin/examples/editor_as_a_plugin.rs)",
+    "translatedContent": "を参照して、クレート／ワークスペース内に独自のエディターバイナリを設定し、  "
+  },
+  {
+    "row": 125,
+    "rowsha": "0cn+w9I9L6dg/m/cztjt5crpX38b0jsvl18YUB/W6sk=",
+    "originContent": "in order to set up your own editor binary in your crate/workspace, consuming the",
+    "translatedContent": "ゲームと同じライブラリバージョンを使用することをお勧めします。  "
+  },
+  {
+    "row": 126,
+    "rowsha": "BuvQDXf/1Q/DtZ6P7LFhYmZSwLY70xK52J2lNvHSAqM=",
+    "originContent": "same library version as your game. This will let you register custom animation",
+    "translatedContent": "これにより、このクレートの強力な機能であるカスタムアニメーショングラフノードを登録できます。  "
+  },
+  {
+    "row": 127,
+    "rowsha": "n9Y1rMn7JpMywhJ8spMUwItiLrDYR/37ZN8Tj8LDFkA=",
+    "originContent": "graph nodes, which are a powerful feature of this crate.",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## はじめに  "
+  },
+  {
+    "row": 129,
+    "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+    "originContent": "## Getting started",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[進行中の書籍](https://sarahihme.github.io/initial_book_bevy_animation_graph/)  "
+  },
+  {
+    "row": 131,
+    "rowsha": "AzKczAMAviXbf0c+m+oMFnyiFLDrWg7SKLXDUFcKJKY=",
+    "originContent": "Check out the tutorials in the",
+    "translatedContent": "のチュートリアルをチェックしてください（@SarahIhme に感謝します！）。  "
+  },
+  {
+    "row": 132,
+    "rowsha": "zgPZFjvKHSB2CG/YEyhcy1hRUq/7abKA38TPjcmBA3Q=",
+    "originContent": "[work in progress book](https://sarahihme.github.io/initial_book_bevy_animation_graph/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "ePGsNUV4Zz1pK59pt+sOUa4nDE5aE8OaDdYkjbIhbzI=",
+    "originContent": "(many thanks to @SarahIhme for getting this started!).",
+    "translatedContent": "最新の追加例は、  "
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[examples](https://github.com/mbrea-c/bevy_animation_graph/tree/master/examples)  "
+  },
+  {
+    "row": 135,
+    "rowsha": "lf2/bIO2JyjgYG23pS6n4w4MluoKTQJA0N56HcnVZ/c=",
+    "originContent": "Additional, up to date examples are included in the",
+    "translatedContent": "ディレクトリに含まれています。  "
+  },
+  {
+    "row": 136,
+    "rowsha": "HO3uI8xjMMbER/hkr9KqajWQ38CxyIB+kAQCv8HcQRU=",
+    "originContent": "[examples](https://github.com/mbrea-c/bevy_animation_graph/tree/master/examples)",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "B+RILhRqQsC32O5Sow3lkUvab0kxeSxgCp6KCGiqMSI=",
+    "originContent": "directory.",
+    "translatedContent": "以下のリソースも参考になりますが、やや古い情報です：  "
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "831sFhARsUfWPLHK2LYYAdW3dyithNw+7qU+ZnRC5ss=",
+    "originContent": "The following resources may also be useful, but they are somewhat out of date:",
+    "translatedContent": "- [docs.rs](https://docs.rs/bevy_animation_graph) のドキュメントには、  "
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  ライブラリとエディターの紹介や簡単なアニメーショングラフの例の説明があります。  "
+  },
+  {
+    "row": 141,
+    "rowsha": "Pkmj6XCm2/wtwrAR4QXdc2DOUpTXXH6B4IjbBnbMTcU=",
+    "originContent": "- The documentation in [docs.rs](https://docs.rs/bevy_animation_graph) contains",
+    "translatedContent": "  エディターの使い方のデモについては下記の動画もご覧ください。  "
+  },
+  {
+    "row": 142,
+    "rowsha": "TzOC4ehxcYeK2tlhjnTllF+XdlshKuwxatdy/midLjo=",
+    "originContent": "  an introduction of the library and editor and an explanation of a simple",
+    "translatedContent": "- 古い  "
+  },
+  {
+    "row": 143,
+    "rowsha": "VBIoZSYA+9EzriRAQE5xrIIqigYTOJIl5Yv0fWQkEdg=",
+    "originContent": "  animation graph example. See also the video below for a demonstration of",
+    "translatedContent": "  [使用方法の動画ウォークスルー](https://www.youtube.com/watch?v=q-JBSQJIcX0) があります。  "
+  },
+  {
+    "row": 144,
+    "rowsha": "xECHj/UkTitBS6IIILas9NNymH1y5VNf/U4KPL7QNCA=",
+    "originContent": "  editor usage.",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "YuKpkWHOxLC84+7qxKvSzxPttOAUn+VuzMcBvnnD39k=",
+    "originContent": "- There is an outdated",
+    "translatedContent": "## 貢献やサポートについて  "
+  },
+  {
+    "row": 146,
+    "rowsha": "LIuUb45E57RZK4aWYUN27XxOoaf+nvGYho3ynoijTuA=",
+    "originContent": "  [usage video walkthrough](https://www.youtube.com/watch?v=q-JBSQJIcX0).",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "バグに遭遇した場合や新機能について議論したい場合は、  "
+  },
+  {
+    "row": 148,
+    "rowsha": "3cVGi790XrZhvVg9YHIOPTX7ht8OV6XOsFm6ebM4tQU=",
+    "originContent": "## Contributing or getting help",
+    "translatedContent": "Issueを投稿したりPRを開いたり、Discordで私に連絡してください（Bevy Discord内の@mbreac、  "
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`bevy_animation_graph`用のcrate-helpチャンネルがあります：  "
+  },
+  {
+    "row": 150,
+    "rowsha": "jyokUG30optpvhWNjMeYd2y4249taHGPoYpKEjf5wAM=",
+    "originContent": "If you run into a bug or want to discuss potential new features, feel free to",
+    "translatedContent": "[リンク](https://discord.com/channels/691052431525675048/1202998277482479616)）。  "
+  },
+  {
+    "row": 151,
+    "rowsha": "3jL7VbKP03zvsTnwJ/bqedn8xqiuNtBOU+hNa1XjN4c=",
+    "originContent": "post an issue, open a PR or reach out to me in Discord (@mbreac in the Bevy",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "qcYI1t6SmFeQd009n1dAU4NhCGtUaJotaeli6ZgM/wM=",
+    "originContent": "discord, there's a crate-help post for `bevy_animation_graph` there:",
+    "translatedContent": "## FAQ  "
+  },
+  {
+    "row": 153,
+    "rowsha": "1Dtl6wN90a+yh5guAPsVy9FFe7JBTOKZeamA64R3y5I=",
+    "originContent": "[link](https://discord.com/channels/691052431525675048/1202998277482479616)).",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### これは本番環境向けですか？  "
+  },
+  {
+    "row": 155,
+    "rowsha": "sH7VUgPw2I6+13pp6nUDM/T2LsOBk7Micqophzdve4Y=",
+    "originContent": "## FAQ",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "状況によります。  "
+  },
+  {
+    "row": 157,
+    "rowsha": "h5FfumRerCYAmKdItIQDjtDUE0cek+FjrE3uWbe9LKk=",
+    "originContent": "### Is this ready for production?",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "小規模なプロジェクトにはすでに有用ですが、APIの保証はできません。"
+  },
+  {
+    "row": 159,
+    "rowsha": "RfWchs4aKXHjUddjSzjisrm2u8vm1rOzvmE6Li3dgfc=",
+    "originContent": "Depends.",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "rOod34JsW3nBUEt12woD75lXuobKrdE+ane1hSxwlZg=",
+    "originContent": "It can already be useful for small-ish projects, but I cannot guarantee API",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "T4RFptuki+/MTSogzVeGSQiNw93EWd6K4ByMzaL9YJo=",
+    "originContent": "stability between different `0.x` versions (it is a big library, it is",
+    "translatedContent": "異なる `0.x` バージョン間の安定性（これは大きなライブラリで、比較的新しく、アニメーションプログラミングの経験がないため、最適な方法を模索しているところです）を保つことは難しいです。  "
+  },
+  {
+    "row": 163,
+    "rowsha": "kj91k5YAYvavoVOxz+cCBoWD8HKoYZzV730SVnoQBEo=",
+    "originContent": "relatively young and I don't have previous experience with animation",
+    "translatedContent": "つまり、より良いマイグレーション方法を見つけるまでは、アニメーショングラフのアセットを手動でバージョン間移行する必要がある可能性が高いということです。  "
+  },
+  {
+    "row": 164,
+    "rowsha": "ay608x8x4rVmRcDmMfyeOBmItG5xNClsw33WRymduTI=",
+    "originContent": "programming, so I'm still figuring out the best ways of doing things). This",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "V1xo5yobieYadWwI8v8TSvHi7AJhqEOlinIlAgDuPvs=",
+    "originContent": "means that it will likely be necessary to go into your animation graph assets",
+    "translatedContent": "さらに、バグやその他の問題が発生することは ~~あるかもしれません~~ あります。  "
+  },
+  {
+    "row": 166,
+    "rowsha": "Eotkfjr2AbjW/uNJvV7/udrogH+JmelZv/ligbstgF8=",
+    "originContent": "and manually migrate them between versions, at least until I find a better way",
+    "translatedContent": "発生した際にはできるだけ修正するよう努めています。  "
+  },
+  {
+    "row": 167,
+    "rowsha": "TWoV0OeeBEebbe304oxNfu/wYdBas+V8UN+MNRWDZHk=",
+    "originContent": "to handle migrations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 機能 X は実装されますか？  "
+  },
+  {
+    "row": 169,
+    "rowsha": "ep/nR5IPq1TwABQapYQBJUN72RIheBQLvbBhgzSWB5o=",
+    "originContent": "Additionally, there ~~may~~ will be bugs and other issues. I try to get them",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "h95pSRjQ0+txn0EttONjed/mXqidZ5a2P2jJYfUrCyk=",
+    "originContent": "fixed as they come up.",
+    "translatedContent": "もし小さな機能（例えば追加のベクトルや浮動小数点演算ノードなど）であれば、単にまだ対応できていないだけの可能性が高いです。  "
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Issue を開いていただければ、迅速に実装することが多いです。PR も歓迎します。  "
+  },
+  {
+    "row": 172,
+    "rowsha": "MKDS64yl3hTNxYhHVPkO9dHQcfX8DmOOcebV9CNuOA4=",
+    "originContent": "### Will you implement feature X?",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "より大きな機能については、まず Issue を開いて議論を始めるか、Bevy の Discord で私に連絡するのが良いでしょう。  "
+  },
+  {
+    "row": 174,
+    "rowsha": "2/hDpOBlyS+d/Ue0T77cM9LLgGtaypHtZ8W+MxFfqW4=",
+    "originContent": "If it's a small feature (e.g. some additional vector or floating point",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "JnDFXgbbvkyGBcpAZqpkZ+kCvscwv2oVw+LuNL1FyJs=",
+    "originContent": "arithmetic node) it's likely that I have just not got around to it. If you open",
+    "translatedContent": "## バージョン表  "
+  },
+  {
+    "row": 176,
+    "rowsha": "9Ra/Wd0NUl1Ww8ZYa0o4UYbN4UXTJOa3+D1hagHCKrY=",
+    "originContent": "an issue I will probably implement it quickly. PRs are also welcome.",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| `bevy` | `bevy_animation_graph` |  "
+  },
+  {
+    "row": 178,
+    "rowsha": "xQ0HWYPCM6eUGaJfOzoaDwwatyOJ+9BcUSptx6XuIlE=",
+    "originContent": "For larger features, it's better to start by opening an issue for discussion or",
+    "translatedContent": "| ------ | ---------------------- |  "
+  },
+  {
+    "row": 179,
+    "rowsha": "eWM+A1WwFcGPgEgux99zCCdQseOzULe9rR6HCnzz3V0=",
+    "originContent": "pinging me in the Bevy discord.",
+    "translatedContent": "| 0.18 | master |  "
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 0.18 | 0.10 |  "
+  },
+  {
+    "row": 181,
+    "rowsha": "JbF4wyTVKQfmF7UA4NKAjntLVYPxIS8QrHLAuQCDHbM=",
+    "originContent": "## Version table",
+    "translatedContent": "| 0.17 | 0.9 |  "
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 0.17 | 0.8 |  "
+  },
+  {
+    "row": 183,
+    "rowsha": "UmENOrm7uN2/+fYcRQxMMo7iDixT4FLt6bgxBdD2j9s=",
+    "originContent": "| `bevy` | `bevy_animation_graph` | ",
+    "translatedContent": "| 0.16 | 0.7 |  "
+  },
+  {
+    "row": 184,
+    "rowsha": "uNRHsUwV8o2QJLRZw5aT4Ow0QbH4t3vedfBn8jDfmo8=",
+    "originContent": "| ------ | ---------------------- | ",
+    "translatedContent": "| 0.15 | 0.6 |  "
+  },
+  {
+    "row": 185,
+    "rowsha": "AvXmSjTCl3R1he2jOaUYbsWPCtaF2PBTPKwyjR6d/d0=",
+    "originContent": "| 0.18 | master | ",
+    "translatedContent": "| 0.14 | 0.5 |  "
+  },
+  {
+    "row": 186,
+    "rowsha": "9xmub9cl3KDpPLRMLtZl5uMfTi08jjO2SkRyle+d1EU=",
+    "originContent": "| 0.18 | 0.10 | ",
+    "translatedContent": "| 0.13 | 0.4 |  "
+  },
+  {
+    "row": 187,
+    "rowsha": "iGzw8u2nSXCuLg19r+WPgMsVSa+sxGaeiSDCV8Hqrpg=",
+    "originContent": "| 0.17 | 0.9 | ",
+    "translatedContent": "| 0.13 | 0.3 |  "
+  },
+  {
+    "row": 188,
+    "rowsha": "y3uWzbSu3dPs60gv4A3iGGz+gXJscqrYsNTgFNcEgOU=",
+    "originContent": "| 0.17 | 0.8 | ",
+    "translatedContent": "| 0.12 | 0.2 |  "
+  },
+  {
+    "row": 189,
+    "rowsha": "+jkg3TF3J+5Tr16ooq9yyt33LFEDVbu+FAxFWpDaUYY=",
+    "originContent": "| 0.16 | 0.7 | ",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "RNuVcp+CmsW9HLB/NP3i3giV+Vp+O2arFlTMGfa8Z68=",
+    "originContent": "| 0.15 | 0.6 | ",
+    "translatedContent": "## 謝辞  "
+  },
+  {
+    "row": 191,
+    "rowsha": "78erSZpgCYM5KfPRVl8CHVoiIlq6xLD125La4XCfd/4=",
+    "originContent": "| 0.14 | 0.5 | ",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "5tuYmrSXhBDjSk1PCytAq1iloJ21AsTiwVYgf52wzYw=",
+    "originContent": "| 0.13 | 0.4 | ",
+    "translatedContent": "アニメーションプログラミングに関する講義を行っている [Bobby Anguelov](https://www.youtube.com/@BobbyAnguelov) に多大なる感謝を捧げます。"
+  },
+  {
+    "row": 193,
+    "rowsha": "XNGYBE/bUlIjlAY0l9TJStnw8WCHCVzS4m0AzPv6Aw0=",
+    "originContent": "| 0.13 | 0.3 | ",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "qD9fsVw9iK+oz6CUvQbIw0GLS9NK5S3r5qBO1hKg9Wg=",
+    "originContent": "| 0.12 | 0.2 |",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+    "originContent": "## Acknowledgements",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "u8dGqML3rV6T/JbN3WUoakxAAZFdRkmOTBr3xpGdpdE=",
+    "originContent": "Many thanks to [Bobby Anguelov](https://www.youtube.com/@BobbyAnguelov) for his",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "jVcfIsejXsn3Pcs1JoKgpz/sKiXwzbup2hcfhWGn+lk=",
+    "originContent": "lectures on animation programming.",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

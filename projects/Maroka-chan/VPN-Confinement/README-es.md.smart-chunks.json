@@ -1,0 +1,851 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n\n<div align=\"center\" id=\"user-content-toc\">\n  <ul style=\"list-style: none;\">\n    <summary>\n      <h1>⛓️ VPN-Confinement ⛓️</h1>\n      <p>A NixOS module that lets you route traffic from systemd services through a VPN while preventing DNS leaks.</p>\n    </summary>\n  </ul>\n</div>\n\n<br />\n\n> [!IMPORTANT]\n> To \"prevent\" DNS leaks, this module simply makes the NSCD socket inaccessible to a systemd service. This might cause other problems, and leaks have only been tested when resolving DNS over UDP. Other ways of resolving DNS like DoT and DoH have not been tested, and DNS can leak in other ways, so you are always advised to monitor and test for DNS leaks yourself.\n\n# Installation\n\n## Nix Flake\n",
+    "ContentSha": "8rYPO95xZL9BTxzjThUMSjIBm5N2oy2mHdTPIgpDnls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n<div align=\"center\" id=\"user-content-toc\">\n  <ul style=\"list-style: none;\">\n    <summary>\n      <h1>⛓️ VPN-Confinement ⛓️</h1>\n      <p>Un módulo de NixOS que te permite enrutar el tráfico de servicios systemd a través de una VPN mientras previene fugas de DNS.</p>\n    </summary>\n  </ul>\n</div>\n\n<br />\n\n> [!IMPORTANT]\n> Para \"prevenir\" fugas de DNS, este módulo simplemente hace que el socket NSCD sea inaccesible para un servicio systemd. Esto podría causar otros problemas, y las fugas solo se han probado al resolver DNS sobre UDP. No se han probado otras formas de resolver DNS como DoT y DoH, y el DNS puede fugarse de otras maneras, por lo que siempre se recomienda monitorear y probar las fugas de DNS por ti mismo.\n\n# Instalación\n\n## Nix Flake\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "9QL/35VursKkYRbvtwynSxD2mtk3PVrdA/nlY2eWw80=",
+        "originContent": "<div align=\"center\" id=\"user-content-toc\">",
+        "translatedContent": "<div align=\"center\" id=\"user-content-toc\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "LWF2gcp1rcsHMRfqkdlZQvprtWhPHOf5MFY+0DZxzyQ=",
+        "originContent": "  <ul style=\"list-style: none;\">",
+        "translatedContent": "  <ul style=\"list-style: none;\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "gCaRcpCXbR+j+nuKkLLP3fBjoEItaH6ZsygibfFxmOE=",
+        "originContent": "    <summary>",
+        "translatedContent": "    <summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "Zh2O7XILMJrYlHZBhMVTznJkgtYCPE2WQ1IBqT/jh7Y=",
+        "originContent": "      <h1>⛓️ VPN-Confinement ⛓️</h1>",
+        "translatedContent": "      <h1>⛓️ VPN-Confinement ⛓️</h1>"
+      },
+      {
+        "row": 7,
+        "rowsha": "2ZB03Xv7p+QO4bXjzh233tGZkQM7aVQHMoTxgVnaKYM=",
+        "originContent": "      <p>A NixOS module that lets you route traffic from systemd services through a VPN while preventing DNS leaks.</p>",
+        "translatedContent": "      <p>Un módulo de NixOS que te permite enrutar el tráfico de servicios systemd a través de una VPN mientras previene fugas de DNS.</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "vrF0dkkIT7Mu/6wZIj0PUpNI93G/armgC1iMxrCuBE8=",
+        "originContent": "    </summary>",
+        "translatedContent": "    </summary>"
+      },
+      {
+        "row": 9,
+        "rowsha": "Oogu7B/dKxnpZoLDegPWfPRC923A5xhkq7JXg/5Lm1E=",
+        "originContent": "  </ul>",
+        "translatedContent": "  </ul>"
+      },
+      {
+        "row": 10,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ehcYo8xYuYV7nQFLGhjTB5+eE1Gr/pDU+GS2vkLDTJ0=",
+        "originContent": "<br />",
+        "translatedContent": "<br />"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!IMPORTANT]"
+      },
+      {
+        "row": 15,
+        "rowsha": "UL6wbUTRUt6tMgG9+52QZyPGtuLdVz0vvDeQeIx04mQ=",
+        "originContent": "> To \"prevent\" DNS leaks, this module simply makes the NSCD socket inaccessible to a systemd service. This might cause other problems, and leaks have only been tested when resolving DNS over UDP. Other ways of resolving DNS like DoT and DoH have not been tested, and DNS can leak in other ways, so you are always advised to monitor and test for DNS leaks yourself.",
+        "translatedContent": "> Para \"prevenir\" fugas de DNS, este módulo simplemente hace que el socket NSCD sea inaccesible para un servicio systemd. Esto podría causar otros problemas, y las fugas solo se han probado al resolver DNS sobre UDP. No se han probado otras formas de resolver DNS como DoT y DoH, y el DNS puede fugarse de otras maneras, por lo que siempre se recomienda monitorear y probar las fugas de DNS por ti mismo."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+        "originContent": "# Installation",
+        "translatedContent": "# Instalación"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "6V3wT7GRylklqX7D5AZIGTguXlXDDTBcBwiFNMNzMxM=",
+        "originContent": "## Nix Flake",
+        "translatedContent": "## Nix Flake"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```nix\n{\n  inputs = {\n    nixpkgs.url = \"github:NixOS/nixpkgs/nixos-unstable\";\n    vpn-confinement.url = \"github:Maroka-chan/VPN-Confinement\";\n  };\n\n  outputs = { self, nixpkgs, vpn-confinement, ... }:\n  {\n    # Change hostname, system, etc. as needed\n    nixosConfigurations.hostname = nixpkgs.lib.nixosSystem {\n      system = \"x86_64-linux\";\n      modules = [\n        ./configuration.nix\n        vpn-confinement.nixosModules.default\n      ];\n    };\n  };\n}\n\n```",
+    "ContentSha": "8/WAAyxiPE+zu2qvmYjkORH0AQX9PZORikmh29QoarE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nix\n{\n  inputs = {\n    nixpkgs.url = \"github:NixOS/nixpkgs/nixos-unstable\";\n    vpn-confinement.url = \"github:Maroka-chan/VPN-Confinement\";\n  };\n\n  outputs = { self, nixpkgs, vpn-confinement, ... }:\n  {\n    # Change hostname, system, etc. as needed\n    nixosConfigurations.hostname = nixpkgs.lib.nixosSystem {\n      system = \"x86_64-linux\";\n      modules = [\n        ./configuration.nix\n        vpn-confinement.nixosModules.default\n      ];\n    };\n  };\n}\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZgRihY8BNUF18r3dpZazh5OELh/daPAHGWD6O3hjcs4=",
+        "originContent": "```nix",
+        "translatedContent": "```nix"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "H7BtU8+XFiuQvPqCMwdtppE1Q/K4shGFFCUh5niq/w0=",
+        "originContent": "  inputs = {",
+        "translatedContent": "  inputs = {"
+      },
+      {
+        "row": 4,
+        "rowsha": "+5zxcHaDDUHmkJRat+RYDD5ehXgt/4eNCxPZtBcCXTA=",
+        "originContent": "    nixpkgs.url = \"github:NixOS/nixpkgs/nixos-unstable\";",
+        "translatedContent": "    nixpkgs.url = \"github:NixOS/nixpkgs/nixos-unstable\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "dBtkWuQIVOC801fbJgIdLpyKIK26A609GX4MX6SMY6A=",
+        "originContent": "    vpn-confinement.url = \"github:Maroka-chan/VPN-Confinement\";",
+        "translatedContent": "    vpn-confinement.url = \"github:Maroka-chan/VPN-Confinement\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "XAJUrNAlFhkCm3dCzjPtaS8QmVcc8YIRfrToe3G88DE=",
+        "originContent": "  };",
+        "translatedContent": "  };"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6Yua4SGSKkF1qGhMME8rORoeiMAhXRZU9YIIZIT7C9o=",
+        "originContent": "  outputs = { self, nixpkgs, vpn-confinement, ... }:",
+        "translatedContent": "  outputs = { self, nixpkgs, vpn-confinement, ... }:"
+      },
+      {
+        "row": 9,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 10,
+        "rowsha": "ir5KZqfQgVdfQzu5VUoErJ5WhABIinUNqGG9lsXF3AI=",
+        "originContent": "    # Change hostname, system, etc. as needed",
+        "translatedContent": "    # Change hostname, system, etc. as needed"
+      },
+      {
+        "row": 11,
+        "rowsha": "192/ZuRw9hKTCcodslhy6/9waK/hmD2PPqNQZT6Pt7Q=",
+        "originContent": "    nixosConfigurations.hostname = nixpkgs.lib.nixosSystem {",
+        "translatedContent": "    nixosConfigurations.hostname = nixpkgs.lib.nixosSystem {"
+      },
+      {
+        "row": 12,
+        "rowsha": "30i18rJ739RGQc1jhEhrsn5Zr36ucVGdK0+NgshZEc8=",
+        "originContent": "      system = \"x86_64-linux\";",
+        "translatedContent": "      system = \"x86_64-linux\";"
+      },
+      {
+        "row": 13,
+        "rowsha": "GZZ8mZVnVK6UES9jDgTc0BgOfsrXZcKVUI6ShAUuqNY=",
+        "originContent": "      modules = [",
+        "translatedContent": "      modules = ["
+      },
+      {
+        "row": 14,
+        "rowsha": "1JGJbK6uFyzLQcdgFqO+mOQviHbZnha2FS3xOQMmYmQ=",
+        "originContent": "        ./configuration.nix",
+        "translatedContent": "        ./configuration.nix"
+      },
+      {
+        "row": 15,
+        "rowsha": "ftiG6L73DM/bbhvnem2hZWlgkUKKkbghjX9rceGbmNg=",
+        "originContent": "        vpn-confinement.nixosModules.default",
+        "translatedContent": "        vpn-confinement.nixosModules.default"
+      },
+      {
+        "row": 16,
+        "rowsha": "reiPLYERq6wUfTyREgM8zO3TiWUaEmDSYRDWW6fGnZI=",
+        "originContent": "      ];",
+        "translatedContent": "      ];"
+      },
+      {
+        "row": 17,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 18,
+        "rowsha": "XAJUrNAlFhkCm3dCzjPtaS8QmVcc8YIRfrToe3G88DE=",
+        "originContent": "  };",
+        "translatedContent": "  };"
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n# Usage\n\n## Define VPN network namespace\n",
+    "ContentSha": "khqGHbI8VRHDWcTMLFBTxR+kYMf1QFYT4JwOfLal2n0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Uso\n\n## Definir el espacio de nombres de red VPN\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# Uso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KZGYarReX2k8+vPtBWrw0WIhFEs8J5J/1Dh+eMLSwo0=",
+        "originContent": "## Define VPN network namespace",
+        "translatedContent": "## Definir el espacio de nombres de red VPN"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```nix\nvpnNamespaces.<name> = { # The name is limited to 7 characters\n  enable = true;\n  wireguardConfigFile = <path to secret wireguard config file>;\n  accessibleFrom = [\n    \"<ip or subnet>\"\n  ];\n  portMappings = [{\n      from = <port on host>;\n      to = <port in VPN network namespace>;\n      protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\"\n  }];\n  openVPNPorts = [{\n    port = <port to access through VPN interface>;\n    protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\"\n  }];\n};\n```",
+    "ContentSha": "P4Wzn7sVRIuRgO8Azqko4s1GsqVNmwOrjM1kkxFvOdk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nix\nvpnNamespaces.<name> = { # The name is limited to 7 characters\n  enable = true;\n  wireguardConfigFile = <path to secret wireguard config file>;\n  accessibleFrom = [\n    \"<ip or subnet>\"\n  ];\n  portMappings = [{\n      from = <port on host>;\n      to = <port in VPN network namespace>;\n      protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\"\n  }];\n  openVPNPorts = [{\n    port = <port to access through VPN interface>;\n    protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\"\n  }];\n};\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZgRihY8BNUF18r3dpZazh5OELh/daPAHGWD6O3hjcs4=",
+        "originContent": "```nix",
+        "translatedContent": "```nix"
+      },
+      {
+        "row": 2,
+        "rowsha": "7+9JidB2G2so5jOOuDp+3vkELX86vyNdUl19Jy7iflE=",
+        "originContent": "vpnNamespaces.<name> = { # The name is limited to 7 characters",
+        "translatedContent": "vpnNamespaces.<name> = { # The name is limited to 7 characters"
+      },
+      {
+        "row": 3,
+        "rowsha": "xZJLjWuvrmR2bUAwcyAhdUrWIjD9yh4aO2h6Dhs1erY=",
+        "originContent": "  enable = true;",
+        "translatedContent": "  enable = true;"
+      },
+      {
+        "row": 4,
+        "rowsha": "dr05AmvPCQpp7MQbb2rRXOvUG3Sqh8lPzQgw2DLzGUw=",
+        "originContent": "  wireguardConfigFile = <path to secret wireguard config file>;",
+        "translatedContent": "  wireguardConfigFile = <path to secret wireguard config file>;"
+      },
+      {
+        "row": 5,
+        "rowsha": "/jBPl5VAyrcPYFX1G4IETxRjKyIDy0S+RtOjcIhNwPE=",
+        "originContent": "  accessibleFrom = [",
+        "translatedContent": "  accessibleFrom = ["
+      },
+      {
+        "row": 6,
+        "rowsha": "YjbjAtAePqjQayyW4Hiv3EyYxY8RLaIeLGV1AjmSh+0=",
+        "originContent": "    \"<ip or subnet>\"",
+        "translatedContent": "    \"<ip or subnet>\""
+      },
+      {
+        "row": 7,
+        "rowsha": "mMI7keMopjE6J+2xNN1I2uXPHYIaFeV7o+4HglQUFEE=",
+        "originContent": "  ];",
+        "translatedContent": "  ];"
+      },
+      {
+        "row": 8,
+        "rowsha": "AkXum0V94fA0f18ejPNIQSS6UpPFrUqtKndFg/uzVVA=",
+        "originContent": "  portMappings = [{",
+        "translatedContent": "  portMappings = [{"
+      },
+      {
+        "row": 9,
+        "rowsha": "cLBrEssepNftEJPURmAoq/MlrVZaxqYyWTF12I7/SvI=",
+        "originContent": "      from = <port on host>;",
+        "translatedContent": "      from = <port on host>;"
+      },
+      {
+        "row": 10,
+        "rowsha": "WU/SloZVqRfcR3/l/2TzJif3qqKbxwIwSbRApXGT3vI=",
+        "originContent": "      to = <port in VPN network namespace>;",
+        "translatedContent": "      to = <port in VPN network namespace>;"
+      },
+      {
+        "row": 11,
+        "rowsha": "aePO9VxpXBAAM33B9G9o4O4zmXgoieoslPN/HDXvNhg=",
+        "originContent": "      protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\"",
+        "translatedContent": "      protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\""
+      },
+      {
+        "row": 12,
+        "rowsha": "RgpGkziZQ6uhigPvV64TJBJlecRUeOPts8orWf89vHY=",
+        "originContent": "  }];",
+        "translatedContent": "  }];"
+      },
+      {
+        "row": 13,
+        "rowsha": "5FygOaa6HQlxdcF1Kheg5Q9VqFlPaE7+LOYmMG3cR3A=",
+        "originContent": "  openVPNPorts = [{",
+        "translatedContent": "  openVPNPorts = [{"
+      },
+      {
+        "row": 14,
+        "rowsha": "BASvU1gkkj+CWAi2aSiMjNENTc3r9pvmdbX57mhvbM4=",
+        "originContent": "    port = <port to access through VPN interface>;",
+        "translatedContent": "    port = <port to access through VPN interface>;"
+      },
+      {
+        "row": 15,
+        "rowsha": "RZcznwSDQlnJA7zrzYfH1be4j1Gpmb8chM7HGSiOSPM=",
+        "originContent": "    protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\"",
+        "translatedContent": "    protocol = \"<transport protocol>\"; # protocol = \"tcp\"(default), \"udp\", or \"both\""
+      },
+      {
+        "row": 16,
+        "rowsha": "RgpGkziZQ6uhigPvV64TJBJlecRUeOPts8orWf89vHY=",
+        "originContent": "  }];",
+        "translatedContent": "  }];"
+      },
+      {
+        "row": 17,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Add systemd service to VPN network namespace\n",
+    "ContentSha": "I+pZbjRJlKzNqQBNjdEq1ibAWdAQt+hVEB0fB2ERjQE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Añadir servicio systemd al espacio de nombres de red VPN\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BjsjIaRKHNiGVSvo+VHoMYi3I9W2fLpQvFJ5Vp665zo=",
+        "originContent": "## Add systemd service to VPN network namespace",
+        "translatedContent": "## Añadir servicio systemd al espacio de nombres de red VPN"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```nix\nsystemd.services.<name>.vpnConfinement = {\n  enable = true;\n  vpnNamespace = \"<network namespace name>\";\n};\n```",
+    "ContentSha": "UIVo9Y/GH+9jACoqCkCr+WaM+cuAbn4qwlq3NLwp8Rc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nix\nsystemd.services.<name>.vpnConfinement = {\n  enable = true;\n  vpnNamespace = \"<network namespace name>\";\n};\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZgRihY8BNUF18r3dpZazh5OELh/daPAHGWD6O3hjcs4=",
+        "originContent": "```nix",
+        "translatedContent": "```nix"
+      },
+      {
+        "row": 2,
+        "rowsha": "2vzK77b62qi7xcb20hB1vBb0IeWQUGge8jqkMQAMJw0=",
+        "originContent": "systemd.services.<name>.vpnConfinement = {",
+        "translatedContent": "systemd.services.<name>.vpnConfinement = {"
+      },
+      {
+        "row": 3,
+        "rowsha": "xZJLjWuvrmR2bUAwcyAhdUrWIjD9yh4aO2h6Dhs1erY=",
+        "originContent": "  enable = true;",
+        "translatedContent": "  enable = true;"
+      },
+      {
+        "row": 4,
+        "rowsha": "QogBPIPuW9EKLW9/hEmFb4ndnc+ZQuBb8uZxMGSNv70=",
+        "originContent": "  vpnNamespace = \"<network namespace name>\";",
+        "translatedContent": "  vpnNamespace = \"<network namespace name>\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Example\n",
+    "ContentSha": "nkZPDpAjDktJooY1clzaWLvfcEcsPsxr3JodX9/ozto=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Ejemplo\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": "## Ejemplo"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```nix\n# configuration.nix\n{ pkgs, lib, config, ... }:\n{\n  # Define VPN network namespace\n  vpnNamespaces.wg = {\n    enable = true;\n    wireguardConfigFile = /. + \"/secrets/wg0.conf\";\n    accessibleFrom = [\n      \"192.168.0.0/24\"\n    ];\n    portMappings = [\n      { from = 9091; to = 9091; }\n    ];\n    openVPNPorts = [{\n      port = 60729;\n      protocol = \"both\";\n    }];\n  };\n\n  # Add systemd service to VPN network namespace\n  systemd.services.transmission.vpnConfinement = {\n    enable = true;\n    vpnNamespace = \"wg\";\n  };\n\n  services.transmission = {\n    enable = true;\n    settings = {\n      \"rpc-bind-address\" = \"192.168.15.1\"; # Bind RPC/WebUI to VPN network namespace address\n\n      # RPC-whitelist examples\n      \"rpc-whitelist\" = \"192.168.15.5\"; # Access from default network namespace\n      \"rpc-whitelist\" = \"192.168.1.*\";  # Access from other machines on specific subnet\n      \"rpc-whitelist\" = \"127.0.0.1\";    # Access through loopback within VPN network namespace\n    };\n  };\n}\n```",
+    "ContentSha": "ECCHfVsXzpyImQaZ3Kr4OuejSF3vjVMZg3lpL50yIEo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nix\n# configuration.nix\n{ pkgs, lib, config, ... }:\n{\n  # Define VPN network namespace\n  vpnNamespaces.wg = {\n    enable = true;\n    wireguardConfigFile = /. + \"/secrets/wg0.conf\";\n    accessibleFrom = [\n      \"192.168.0.0/24\"\n    ];\n    portMappings = [\n      { from = 9091; to = 9091; }\n    ];\n    openVPNPorts = [{\n      port = 60729;\n      protocol = \"both\";\n    }];\n  };\n\n  # Add systemd service to VPN network namespace\n  systemd.services.transmission.vpnConfinement = {\n    enable = true;\n    vpnNamespace = \"wg\";\n  };\n\n  services.transmission = {\n    enable = true;\n    settings = {\n      \"rpc-bind-address\" = \"192.168.15.1\"; # Bind RPC/WebUI to VPN network namespace address\n\n      # RPC-whitelist examples\n      \"rpc-whitelist\" = \"192.168.15.5\"; # Access from default network namespace\n      \"rpc-whitelist\" = \"192.168.1.*\";  # Access from other machines on specific subnet\n      \"rpc-whitelist\" = \"127.0.0.1\";    # Access through loopback within VPN network namespace\n    };\n  };\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZgRihY8BNUF18r3dpZazh5OELh/daPAHGWD6O3hjcs4=",
+        "originContent": "```nix",
+        "translatedContent": "```nix"
+      },
+      {
+        "row": 2,
+        "rowsha": "yAWpyZWrUswIOAnmA9jc1XdrDTgliulY7bHi7H/AfMI=",
+        "originContent": "# configuration.nix",
+        "translatedContent": "# configuration.nix"
+      },
+      {
+        "row": 3,
+        "rowsha": "6qATb8S6dmPLfrzv9nEc99ItL6H5z4oAt1N5JobdhGo=",
+        "originContent": "{ pkgs, lib, config, ... }:",
+        "translatedContent": "{ pkgs, lib, config, ... }:"
+      },
+      {
+        "row": 4,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 5,
+        "rowsha": "mN8OhZab691W27ftkwCBCfyUkALXUsf5RIZuBzHUt/Y=",
+        "originContent": "  # Define VPN network namespace",
+        "translatedContent": "  # Define VPN network namespace"
+      },
+      {
+        "row": 6,
+        "rowsha": "fcF/zQL8HXm4s45IK/tzmM9ecZpJOu6kmTBq27xhhiA=",
+        "originContent": "  vpnNamespaces.wg = {",
+        "translatedContent": "  vpnNamespaces.wg = {"
+      },
+      {
+        "row": 7,
+        "rowsha": "3/sOVpdy4RLB8wu66QTlZvxKTImLAJ5sKNfMMPU/DT4=",
+        "originContent": "    enable = true;",
+        "translatedContent": "    enable = true;"
+      },
+      {
+        "row": 8,
+        "rowsha": "2J6TgKwM3M36NXLDKObu8icULGlEBjhpL46up1v5Ppg=",
+        "originContent": "    wireguardConfigFile = /. + \"/secrets/wg0.conf\";",
+        "translatedContent": "    wireguardConfigFile = /. + \"/secrets/wg0.conf\";"
+      },
+      {
+        "row": 9,
+        "rowsha": "6R28YZ28vHXRO1FHEMe0RC1pym1jrz8CylV/j5p8TNY=",
+        "originContent": "    accessibleFrom = [",
+        "translatedContent": "    accessibleFrom = ["
+      },
+      {
+        "row": 10,
+        "rowsha": "QZmf2w4p7LYAM4BrLdDQ/+cuyvzvI9JGCndCCoQ4dYc=",
+        "originContent": "      \"192.168.0.0/24\"",
+        "translatedContent": "      \"192.168.0.0/24\""
+      },
+      {
+        "row": 11,
+        "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+        "originContent": "    ];",
+        "translatedContent": "    ];"
+      },
+      {
+        "row": 12,
+        "rowsha": "WfGU7j0LOi9nlAC5G9TPPmfpKswRkocDGIaHSB/LksI=",
+        "originContent": "    portMappings = [",
+        "translatedContent": "    portMappings = ["
+      },
+      {
+        "row": 13,
+        "rowsha": "KarMT75qSPZ9LTXPNnCIyQ9IOmLUxwG+Z81HqKj2LW0=",
+        "originContent": "      { from = 9091; to = 9091; }",
+        "translatedContent": "      { from = 9091; to = 9091; }"
+      },
+      {
+        "row": 14,
+        "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+        "originContent": "    ];",
+        "translatedContent": "    ];"
+      },
+      {
+        "row": 15,
+        "rowsha": "kS+qMKmLTWiyjTH5S8eQ7LRTFA2pnY8hMIPGMXNlNYo=",
+        "originContent": "    openVPNPorts = [{",
+        "translatedContent": "    openVPNPorts = [{"
+      },
+      {
+        "row": 16,
+        "rowsha": "2ymvPMyCY4imXYTcuqN26Pd0QaWa9Yw6C4flcu1dqLY=",
+        "originContent": "      port = 60729;",
+        "translatedContent": "      port = 60729;"
+      },
+      {
+        "row": 17,
+        "rowsha": "6XO6pId71uHJ7wh1mh2SYsjA+k3g4+NMYxDJ2Jq1LSM=",
+        "originContent": "      protocol = \"both\";",
+        "translatedContent": "      protocol = \"both\";"
+      },
+      {
+        "row": 18,
+        "rowsha": "etTtPToLBw19L5+j7yBg44aOOSbXMcjiLiIBus+Ik4g=",
+        "originContent": "    }];",
+        "translatedContent": "    }];"
+      },
+      {
+        "row": 19,
+        "rowsha": "XAJUrNAlFhkCm3dCzjPtaS8QmVcc8YIRfrToe3G88DE=",
+        "originContent": "  };",
+        "translatedContent": "  };"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "weFv5EPyiS0IBhKsvSAiqIPIzsuE1qmmIMkr+hieRxc=",
+        "originContent": "  # Add systemd service to VPN network namespace",
+        "translatedContent": "  # Add systemd service to VPN network namespace"
+      },
+      {
+        "row": 22,
+        "rowsha": "zRFFFG32JSDHz+CHv4FW72GblyR5ENuezx5foLvmYTI=",
+        "originContent": "  systemd.services.transmission.vpnConfinement = {",
+        "translatedContent": "  systemd.services.transmission.vpnConfinement = {"
+      },
+      {
+        "row": 23,
+        "rowsha": "3/sOVpdy4RLB8wu66QTlZvxKTImLAJ5sKNfMMPU/DT4=",
+        "originContent": "    enable = true;",
+        "translatedContent": "    enable = true;"
+      },
+      {
+        "row": 24,
+        "rowsha": "YHoYesqtWaw8DX5ViAP4GGFmDFDaa/n0M9pbIX0UkP0=",
+        "originContent": "    vpnNamespace = \"wg\";",
+        "translatedContent": "    vpnNamespace = \"wg\";"
+      },
+      {
+        "row": 25,
+        "rowsha": "XAJUrNAlFhkCm3dCzjPtaS8QmVcc8YIRfrToe3G88DE=",
+        "originContent": "  };",
+        "translatedContent": "  };"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Ctp2ZC7+IcQV0c+hcGUEwq3+H5saYZBr3mp0Ues3+iI=",
+        "originContent": "  services.transmission = {",
+        "translatedContent": "  services.transmission = {"
+      },
+      {
+        "row": 28,
+        "rowsha": "3/sOVpdy4RLB8wu66QTlZvxKTImLAJ5sKNfMMPU/DT4=",
+        "originContent": "    enable = true;",
+        "translatedContent": "    enable = true;"
+      },
+      {
+        "row": 29,
+        "rowsha": "O7yqPWqoBCt8qsCVebuFzWtQS38LqT/SpxR+t8RI/Bg=",
+        "originContent": "    settings = {",
+        "translatedContent": "    settings = {"
+      },
+      {
+        "row": 30,
+        "rowsha": "h9IbdEsifoReLylO+TnwNgKz1n6BwkSSGoYJ0EyKsFo=",
+        "originContent": "      \"rpc-bind-address\" = \"192.168.15.1\"; # Bind RPC/WebUI to VPN network namespace address",
+        "translatedContent": "      \"rpc-bind-address\" = \"192.168.15.1\"; # Bind RPC/WebUI to VPN network namespace address"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "01V37ZAwOwnafzxE+btYC6/lW1EavIjCleJp7FK49po=",
+        "originContent": "      # RPC-whitelist examples",
+        "translatedContent": "      # RPC-whitelist examples"
+      },
+      {
+        "row": 33,
+        "rowsha": "zTdPVoZKpZcHHaCWJ3eu29jD1rqwbvO0iqDDZ2rnDYU=",
+        "originContent": "      \"rpc-whitelist\" = \"192.168.15.5\"; # Access from default network namespace",
+        "translatedContent": "      \"rpc-whitelist\" = \"192.168.15.5\"; # Access from default network namespace"
+      },
+      {
+        "row": 34,
+        "rowsha": "9nwcu/NiNXmtbNvLjmzMFLr18NtnOZGTebKqsSLjFDA=",
+        "originContent": "      \"rpc-whitelist\" = \"192.168.1.*\";  # Access from other machines on specific subnet",
+        "translatedContent": "      \"rpc-whitelist\" = \"192.168.1.*\";  # Access from other machines on specific subnet"
+      },
+      {
+        "row": 35,
+        "rowsha": "rwfrgVhsxHHEUjHmQYyFgpw7wA0mFUY2jVZFC4PffwM=",
+        "originContent": "      \"rpc-whitelist\" = \"127.0.0.1\";    # Access through loopback within VPN network namespace",
+        "translatedContent": "      \"rpc-whitelist\" = \"127.0.0.1\";    # Access through loopback within VPN network namespace"
+      },
+      {
+        "row": 36,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 37,
+        "rowsha": "XAJUrNAlFhkCm3dCzjPtaS8QmVcc8YIRfrToe3G88DE=",
+        "originContent": "  };",
+        "translatedContent": "  };"
+      },
+      {
+        "row": 38,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 39,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n> [!NOTE]\n> Access from the default network namespace is done using the VPN network namespace address.\\\n> `curl 192.168.15.1:9091`\n\nSee all options and their descriptions in the [module file](https://raw.githubusercontent.com/Maroka-chan/VPN-Confinement/master/modules/options.nix).\n",
+    "ContentSha": "Uyen0WVTbwzWx3rvLE17RkxBoHBFo+Fm+YjmIS+DaDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!NOTA]\n> El acceso desde el espacio de nombres de red predeterminado se realiza utilizando la dirección del espacio de nombres de red VPN.\\\n> `curl 192.168.15.1:9091`\n\nVea todas las opciones y sus descripciones en el [archivo del módulo](https://raw.githubusercontent.com/Maroka-chan/VPN-Confinement/master/modules/options.nix).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTA]"
+      },
+      {
+        "row": 3,
+        "rowsha": "JV6TAmIcKOuGmutl6tG5dodtsEBBdhfqvdZ12NuZZKM=",
+        "originContent": "> Access from the default network namespace is done using the VPN network namespace address.\\",
+        "translatedContent": "> El acceso desde el espacio de nombres de red predeterminado se realiza utilizando la dirección del espacio de nombres de red VPN.\\"
+      },
+      {
+        "row": 4,
+        "rowsha": "jenTaRumkG5Abf877ruaECcV8QS6hJUNLVpTkxIjNh4=",
+        "originContent": "> `curl 192.168.15.1:9091`",
+        "translatedContent": "> `curl 192.168.15.1:9091`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SStE2KLervMYIWUJms+gnrIBPyBXbG+LhpxI+jp9wwo=",
+        "originContent": "See all options and their descriptions in the [module file](https://raw.githubusercontent.com/Maroka-chan/VPN-Confinement/master/modules/options.nix).",
+        "translatedContent": "Vea todas las opciones y sus descripciones en el [archivo del módulo](https://raw.githubusercontent.com/Maroka-chan/VPN-Confinement/master/modules/options.nix)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

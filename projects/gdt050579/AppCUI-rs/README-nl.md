@@ -1,12 +1,12 @@
 
 <div align="right">
   <details>
-    <summary >🌐 Taal</summary>
+    <summary>🌐 Taal</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=en">Engels</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=zh-CN">Vereenvoudigd Chinees</a>
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=zh-TW">Traditioneel Chinees</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=ja">Japans</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=ko">Koreaans</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=hi">Hindi</a>
@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=vi">Vietnamees</a>
         | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=id">Indonesisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=gdt050579&project=AppCUI-rs&lang=as">Assamees</a>
       </div>
     </div>
   </details>
@@ -40,55 +40,55 @@
 
 ![Windows Build Status](https://github.com/gdt050579/AppCUI-rs/actions/workflows/windows.yml/badge.svg)
 ![Linux Build Status](https://github.com/gdt050579/AppCUI-rs/actions/workflows/linux.yml/badge.svg)
-![MacOS Build Status](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
+![macOS Build Status](https://github.com/gdt050579/AppCUI-rs/actions/workflows/macos.yml/badge.svg)
 ![Code Coverage](https://gist.githubusercontent.com/gdt050579/f7d7e7d56b2725a3b33a265e8a9d8e9c/raw/coverage.svg)
-![Licentie](https://img.shields.io/github/license/gdt050579/AppCUI-rs)
+![License](https://img.shields.io/github/license/gdt050579/AppCUI-rs)
 [![Crates.io](https://img.shields.io/crates/v/appcui.svg)](https://crates.io/crates/appcui)
 [![Docs.rs](https://docs.rs/appcui/badge.svg)](https://docs.rs/appcui)
-[![Galerij](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
+[![Gallery](https://img.shields.io/badge/Gallery-See%20Examples-blue)](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-AppCUI-rs is een snelle, cross-platform Rust bibliotheek voor het bouwen van moderne, tekstgebaseerde gebruikersinterfaces (TUIs) met rijke widgets, thema's en volledige Unicode-ondersteuning—een alternatief voor ncurses en andere terminal UI frameworks.
+AppCUI-rs is een snelle, cross-platform Rust-bibliotheek voor het bouwen van moderne, tekstgebaseerde gebruikersinterfaces (TUI’s) met rijke widgets, thema’s en volledige Unicode-ondersteuning—een alternatief voor ncurses en andere terminal UI-raamwerken.
 * [Boek](https://gdt050579.github.io/AppCUI-rs/)
 * [Documentatie](https://docs.rs/appcui)
 * [Galerij](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html)
 
 
-## ✨ Functies
-- [x] meerdere kant-en-klare controls (knoppen, labels, tekstvakken, selectievakjes, keuzerondjes, lijstweergaven, boomstructuren, comboboxen, datum/tijd-kiezers, kleurkiezers, tabbladen, accordeons, enz.). Een volledige lijst van controls vind je [hier](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) 
-- [x] krachtig lay-outsysteem waarmee je controls kunt positioneren met absolute coördinaten, relatieve coördinaten, docking, uitlijning, ankers of pivot-positionering (meer info [hier](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html)) 
-- [x] menu's en werkbalken
-- [x] multi-platform ondersteuning (Windows via API en virtuele terminal, Linux via ncurses, MacOS via termios)
+## ✨ Functionaliteiten
+- [x] meerdere kant-en-klare besturingselementen (knoppen, labels, tekstvakken, selectievakjes, keuzerondjes, lijstweergaven, boomstructuren, comboboxen, datum/tijd-kiezers, kleurkiezers, tabbladen, accordeons, enz.). Een volledige lijst van besturingselementen is te vinden [hier](https://gdt050579.github.io/AppCUI-rs/chapter-3/stock_controls.html) 
+- [x] krachtig layout-systeem waarmee je besturingselementen kunt positioneren met absolute coördinaten, relatieve coördinaten, docking, uitlijning, ankers of pivot-positionering (zie meer [hier](https://gdt050579.github.io/AppCUI-rs/chapter-3/layout.html)) 
+- [x] menu’s en werkbalken
+- [x] multi-platform ondersteuning (Windows via API en virtueel terminal, Linux via ncurses, macOS via termios)
 - [x] multi-threading ondersteuning voor achtergrondtaken
 - [x] timers
 - [x] muisondersteuning
 - [x] klembordondersteuning
-- [x] kleurthema's
+- [x] kleurthema’s
 - [x] ondersteuning voor Unicode-tekens
-- [x] vooraf gedefinieerde dialogen (berichtvenster, invoerveld, kleurkiezer, opslaan & openen dialogen, mapnavigatie, enz.)
-- [x] ondersteuning voor ware kleuren (24 bits per pixel) voor terminals die dit ondersteunen.
+- [x] vooraf gedefinieerde dialogen (berichtvenster, invoerveld, kleurkiezer, opslaan & openen dialogen, mapnavigator, enz.)
+- [x] true-color ondersteuning (24 bits per pixel) voor terminals die dit ondersteunen.
 
-## 📸 Screenshots 
+## 📸 Schermafbeeldingen 
 
 <img src="https://github.com/gdt050579/AppCUI-rs/raw/main/docs/chapter-1/img/appcui-rs-demo.gif" align="center" />
 
-👉 **Bekijk de [Galerij](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) voor volledige demo's van alle controls!**
+👉 **Bekijk de [Galerij](https://gdt050579.github.io/AppCUI-rs/gallery/screenshots.html) voor volledige demo’s van alle besturingselementen!**
 
 ## 🖥️ Backends
 
-AppCUI ondersteunt verschillende backends afhankelijk van het besturingssysteem waarop het wordt gebruikt:
+AppCUI ondersteunt verschillende backends afhankelijk van het besturingssysteem:
 
 * **Windows Console** - gebaseerd op de Win32 low-level API, ontworpen voor de klassieke Windows-console
-* **Windows VT** - gebaseerd op ANSI-sequenties, ontworpen voor moderne Windows-virtuele terminals
+* **Windows VT** - gebaseerd op ANSI-sequenties, ontworpen voor moderne Windows virtuele terminals
 * **NCurses** - gebaseerd op de NCurses API voor Linux-omgevingen
-* **Termios** - gebaseerd op ANSI-sequenties en low-level API's voor MAC OSX
-* **Web Terminal** - ontworpen voor webimplementatie (gebaseerd op webgl)
-* **CrossTerm** - gebaseerd op de `crossterm` crate, maar ingeschakeld via een feature flag
+* **Termios** - gebaseerd op ANSI-sequenties en low-level API's voor macOS
+* **Web Terminal** - ontworpen voor web-implementaties (gebaseerd op WebGL)
+* **CrossTerm** - gebaseerd op de `crossterm` crate, ingeschakeld via een feature-vlag
 
 Meer over de ondersteunde backends is te vinden [hier](https://gdt050579.github.io/AppCUI-rs/chapter-2/backends.html)
 
 
-## 🚀 Snel van start
+## 🚀 Snelstart
 
 Voeg het volgende toe aan je `Cargo.toml`:
 
@@ -118,8 +118,8 @@ fn main() -> Result<(), appcui::system::Error> {
     Ok(())
 }
 ```
-of een compactere versie met behulp van proc-macro's:
 
+Of een compactere versie met behulp van proc-macro's:
 
 ```rs
 use appcui::prelude::*;
@@ -137,16 +137,16 @@ Voer vervolgens het project uit met `cargo run`. Je zou een venster moeten zien 
 
 ## 🧪 Voorbeelden
 
-AppCUI-rs wordt geleverd met een reeks voorbeelden om je op weg te helpen. Je kunt ze vinden in de map [examples](examples), waaronder:
-- **Spellen** zoals [Tic Tac Toe](examples/tic-tac-toe/), [Snake](examples/snake/), [Flappy Bird](examples/flappy), [Mijnenveger](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Chees](examples/games/), [Connect Four](examples/games/), [2048](examples/games/) of [Tetris](examples/games/)
-- **Hulpprogramma’s** zoals [Rekenmachine](examples/calculator/), [CSV Viewer](examples/csv_viewer/), [Temperatuur Omzetter](examples/temperature_convertor/) of een [Timer](examples/timer/)
-- **Animaties** zoals [Matrix](examples/matrix/), [Fractals](examples/fractals/) of [Spiraal](examples/spiral/)
+AppCUI-rs wordt geleverd met een reeks voorbeelden om je op weg te helpen. Je kunt ze vinden in de [examples](examples) map, waaronder:
+- **Spellen** zoals [Tic Tac Toe](examples/tic-tac-toe/), [Snake](examples/snake/), [Flappy Bird](examples/flappy), [Mijnenveger](examples/minesweeper/), [Ram it](examples/ramit/), [PacMan](examples/games/), [Schaken](examples/games/), [Vier op een rij](examples/games/), [2048](examples/games/), of [Tetris](examples/games/)
+- **Hulpprogramma's** zoals [Rekenmachine](examples/calculator/), [CSV Viewer](examples/csv_viewer/), [Temperatuurconverter](examples/temperature_convertor/), of een [Timer](examples/timer/)
+- **Animaties** zoals [Matrix](examples/matrix/), [Fractals](examples/fractals/), of [Spiraal](examples/spiral/)
 - **Besturingselementen**/**Widgets** zoals [Button](examples/buttons/), [CheckBox](examples/checkboxes/), [ComboBox](examples/combobox/), [DatePicker](examples/datepicker/), [ListView](examples/listview/), [TreeView](examples/treeview/) en nog veel meer.
-- **Dialoogvensters** zoals [Notificatie](examples/notification_dialogs/) of [Invoer](examples/input_dialog/)
+- **Dialoogvensters** zoals [Melding](examples/notification_dialogs/) of [Invoer](examples/input_dialog/)
 
 ## 🛠️ Een complexer voorbeeld
 
-Een voorbeeld dat een venster maakt met een knop die, wanneer erop wordt gedrukt, een teller verhoogt.
+Een voorbeeld dat een venster maakt met een knop die, wanneer ingedrukt, een teller verhoogt.
 
 
 ```rust
@@ -179,11 +179,11 @@ impl ButtonEvents for CounterWindow {
     fn on_pressed(&mut self, handle: Handle<Button>) -> EventProcessStatus {
         // increase the counter
         self.counter += 1;
-        // create a text that containe the new counter
+        // create a text that contains the new counter
         let text = format!("{}",self.counter);
-        // aquire a mutable reference to the button using its handle
+        // acquire a mutable reference to the button using its handle
         if let Some(button) = self.control_mut(handle) {
-            // set the caption of the button to th new text
+            // set the caption of the button to the new text
             button.set_caption(&text);
         }
         // Tell the AppCUI framework that we have processed this event
@@ -197,7 +197,7 @@ fn main() -> Result<(), appcui::system::Error> {
     let mut a = App::new().build()?;
     // add a new window (of type CounterWindow) to the application
     a.add_window(CounterWindow::new());
-    // Run AppCUI framework (this wil start the window loop and messaage passing)
+    // Run AppCUI framework (this will start the window loop and message passing)
     a.run();
     Ok(())
 }
@@ -205,7 +205,7 @@ fn main() -> Result<(), appcui::system::Error> {
 
 ## 🛣️ Routekaart
 
-- [x] Basisset van widgets en ondersteuning voor Windows, Linux en MacOS
+- [x] Basisset widgets en ondersteuning voor Windows, Linux en macOS
 - [x] WebGL-ondersteuning
 - [ ] OpenGL / SDL / Vulkan-ondersteuning
 - [ ] TextArea-ondersteuning voor code-highlighting
@@ -213,13 +213,13 @@ fn main() -> Result<(), appcui::system::Error> {
 ## 🤝 Bijdragen
 
 Bijdragen, issues en functieverzoeken zijn welkom!  
-Bekijk [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) om aan de slag te gaan.
+Bekijk [CONTRIBUTING.md](https://raw.githubusercontent.com/gdt050579/AppCUI-rs/main/CONTRIBUTING.md) om te beginnen.
 
 Doe mee aan de discussie in [GitHub Discussions](https://github.com/gdt050579/AppCUI-rs/discussions).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-13
 
 ---
