@@ -1,0 +1,759 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ARLib \nAn open-source framework for conducting data poisoning attacks on recommendation systems, designed to assist researchers and practitioners. This repo is released with our [survey paper](https://arxiv.org/abs/2406.01022) on poisoning attack against recommender system. <br>\n\n**Members:** <br>\nWei Yuan, Queensland University, Australia, warrenyuan97@gmail.com <br>\nHao Ma, Chongqing University, China, ma_hao@cqu.edu.cn <br>\nZeao Chen, Chongqing University, China, zeao_chen@stu.cqu.edu.cn<br>\nChenyu Li, Chongqing University, China, chenyu_li@stu.cqu.edu.cn\n\n**Creator:** <br>\nZongwei Wang, Chongqing University, China, zongwei@cqu.edu.cn <br>\n\n**Supported by:** <br>\nProf. Min Gao, Chongqing University, China, gaomin@cqu.edu.cn <br>\nARC Training Centre for Information Resilience (CIRES), University of Queensland, Australia\n\n<h2>Framework</h2>\n\n<img src=\"https://github.com/CoderWZW/ARLib/blob/main/img/framework.png\" alt=\"Alt text\" width=\"80%\" /><br><br>\n\n<h2>Usage</h2>\n\n1. Two configure files **attack_parser.py** and **recommend_parser.py** are in the directory named conf, and you can select and configure the recommendation model and attack model by modifying the configuration files. <br>\n2. Run main.py.\n\n\n<h2>Implemented Models</h2>\n\n| **Recommend Model** | **Paper** |\n| --- | --- |\n| GMF | Yehuda et al. Matrix Factorization Techniques for Recommender Systems, IEEE Computer'09.|\n| WRMF | Hu et al.Collaborative Filtering for Implicit Feedback Datasets, KDD'09. |\n| NCF | He et al. Neural Collaborative Filtering, WWW'17. |\n| NGCF | Wang et al. Neural Graph Collaborative Filtering, SIGIR'19. |\n| LightGCN | He et al. Lightgcn: Simplifying and powering graph convolution network for recommendation, SIGIR'2020. |\n| SSL4Rec | Yao et al. Self-supervised learning for large-scale item recommendations. CIKM'2021. |\n| NCL | Lin et al. Improving graph collaborative filtering with neighborhood-enriched contrastive learning. WWW'2022. |\n| SGL | Wu et al. Self-supervised Graph Learning for Recommendation, SIGIR'21. |\n| SimGCL | Yu et al. Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation, SIGIR'22. |\n| XSimGCL | Yu et al. XSimGCL: Towards extremely simple graph contrastive learning for recommendation, TKDE'23. |",
+    "ContentSha": "FUvdvQ5qBDDqSrmZheoXW905LcY3Z0JVdACmLeQPATM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ARLib \nUn marco de trabajo de código abierto para realizar ataques de envenenamiento de datos en sistemas de recomendación, diseñado para ayudar a investigadores y profesionales. Este repositorio se publica junto con nuestro [artículo de revisión](https://arxiv.org/abs/2406.01022) sobre ataques de envenenamiento contra sistemas de recomendación. <br>\n\n**Miembros:** <br>\nWei Yuan, Universidad de Queensland, Australia, warrenyuan97@gmail.com <br>\nHao Ma, Universidad de Chongqing, China, ma_hao@cqu.edu.cn <br>\nZeao Chen, Universidad de Chongqing, China, zeao_chen@stu.cqu.edu.cn<br>\nChenyu Li, Universidad de Chongqing, China, chenyu_li@stu.cqu.edu.cn\n\n**Creador:** <br>\nZongwei Wang, Universidad de Chongqing, China, zongwei@cqu.edu.cn <br>\n\n**Apoyado por:** <br>\nProf. Min Gao, Universidad de Chongqing, China, gaomin@cqu.edu.cn <br>\nCentro de Capacitación ARC para Resiliencia de la Información (CIRES), Universidad de Queensland, Australia\n\n<h2>Marco de trabajo</h2>\n\n<img src=\"https://github.com/CoderWZW/ARLib/blob/main/img/framework.png\" alt=\"Texto alternativo\" width=\"80%\" /><br><br>\n\n<h2>Uso</h2>\n\n1. Dos archivos de configuración **attack_parser.py** y **recommend_parser.py** están en el directorio llamado conf, y puede seleccionar y configurar el modelo de recomendación y el modelo de ataque modificando los archivos de configuración. <br>\n2. Ejecute main.py.\n\n\n<h2>Modelos implementados</h2>\n\n| **Modelo de recomendación** | **Artículo** |\n| --- | --- |\n| GMF | Yehuda et al. Técnicas de factorización matricial para sistemas de recomendación, IEEE Computer'09.|\n| WRMF | Hu et al. Filtrado colaborativo para conjuntos de datos de retroalimentación implícita, KDD'09. |\n| NCF | He et al. Filtrado colaborativo neuronal, WWW'17. |\n| NGCF | Wang et al. Filtrado colaborativo en grafos neuronal, SIGIR'19. |\n| LightGCN | He et al. Lightgcn: Simplificación y potenciación de redes convolucionales de grafos para recomendación, SIGIR'2020. |\n| SSL4Rec | Yao et al. Aprendizaje auto-supervisado para recomendaciones de ítems a gran escala. CIKM'2021. |\n| NCL | Lin et al. Mejora del filtrado colaborativo en grafos con aprendizaje contrastivo enriquecido por vecindad. WWW'2022. |\n| SGL | Wu et al. Aprendizaje auto-supervisado en grafos para recomendación, SIGIR'21. |\n| SimGCL | Yu et al. ¿Son necesarias las aumentaciones de grafos? Aprendizaje contrastivo simple en grafos para recomendación, SIGIR'22. |\n| XSimGCL | Yu et al. XSimGCL: Hacia un aprendizaje contrastivo en grafos extremadamente simple para recomendación, TKDE'23. |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "X0MBb5I/1N5Pf4nBsaqPWSPE7j7n09y1QjGHiMetAEU=",
+        "originContent": "# ARLib ",
+        "translatedContent": "# ARLib "
+      },
+      {
+        "row": 2,
+        "rowsha": "rAR1ifeQhcCt3kL7iFANBUprLEbocPUvYi9N54EJA0s=",
+        "originContent": "An open-source framework for conducting data poisoning attacks on recommendation systems, designed to assist researchers and practitioners. This repo is released with our [survey paper](https://arxiv.org/abs/2406.01022) on poisoning attack against recommender system. <br>",
+        "translatedContent": "Un marco de trabajo de código abierto para realizar ataques de envenenamiento de datos en sistemas de recomendación, diseñado para ayudar a investigadores y profesionales. Este repositorio se publica junto con nuestro [artículo de revisión](https://arxiv.org/abs/2406.01022) sobre ataques de envenenamiento contra sistemas de recomendación. <br>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DqYZUR2uig4FPF6JvcNGvcIQSKmQRXi48O2TuIhdiTE=",
+        "originContent": "**Members:** <br>",
+        "translatedContent": "**Miembros:** <br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "g4Cc5we7/0o3gHJKiLgEGctvvbjLsivmWX/2ikzJH10=",
+        "originContent": "Wei Yuan, Queensland University, Australia, warrenyuan97@gmail.com <br>",
+        "translatedContent": "Wei Yuan, Universidad de Queensland, Australia, warrenyuan97@gmail.com <br>"
+      },
+      {
+        "row": 6,
+        "rowsha": "y9ZCytnoxiIvXJRg0XOKohIuBPdK+gvEpY5PaVRmfKQ=",
+        "originContent": "Hao Ma, Chongqing University, China, ma_hao@cqu.edu.cn <br>",
+        "translatedContent": "Hao Ma, Universidad de Chongqing, China, ma_hao@cqu.edu.cn <br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "6krQ6vc1TZBoC/7+Fm1kqvrHsq6QEaDpv0GKbTKj+/Q=",
+        "originContent": "Zeao Chen, Chongqing University, China, zeao_chen@stu.cqu.edu.cn<br>",
+        "translatedContent": "Zeao Chen, Universidad de Chongqing, China, zeao_chen@stu.cqu.edu.cn<br>"
+      },
+      {
+        "row": 8,
+        "rowsha": "DvNCQS8DLRECKkgh+6k170D9+mgfbE8zZ3ZO2PF4kXU=",
+        "originContent": "Chenyu Li, Chongqing University, China, chenyu_li@stu.cqu.edu.cn",
+        "translatedContent": "Chenyu Li, Universidad de Chongqing, China, chenyu_li@stu.cqu.edu.cn"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "q+m/FtvRhGVZxjDdD5Mb9P06bqaU7cOK0IJ2vjtsRNo=",
+        "originContent": "**Creator:** <br>",
+        "translatedContent": "**Creador:** <br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "MTWxX05BtMipZmuV/p6dlK+eQJhp6ZFu2oSNy6scjm4=",
+        "originContent": "Zongwei Wang, Chongqing University, China, zongwei@cqu.edu.cn <br>",
+        "translatedContent": "Zongwei Wang, Universidad de Chongqing, China, zongwei@cqu.edu.cn <br>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "6+ED61T9Ecgl6FUMWI3K5yktZSY5v7M3euxKRoRE6sM=",
+        "originContent": "**Supported by:** <br>",
+        "translatedContent": "**Apoyado por:** <br>"
+      },
+      {
+        "row": 14,
+        "rowsha": "p8BCm9ZVU4tGcxaZxp2DH4DsBrkgrVO2rSmiSwm3FUU=",
+        "originContent": "Prof. Min Gao, Chongqing University, China, gaomin@cqu.edu.cn <br>",
+        "translatedContent": "Prof. Min Gao, Universidad de Chongqing, China, gaomin@cqu.edu.cn <br>"
+      },
+      {
+        "row": 15,
+        "rowsha": "1QRFvFo7G83PX90Kydr3ReQ0+qQfZfNXQG6DaYN34j4=",
+        "originContent": "ARC Training Centre for Information Resilience (CIRES), University of Queensland, Australia",
+        "translatedContent": "Centro de Capacitación ARC para Resiliencia de la Información (CIRES), Universidad de Queensland, Australia"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "7AUQtrU6arIZSO86RLRvEmDq0R2OYOdME0LqO4epv3o=",
+        "originContent": "<h2>Framework</h2>",
+        "translatedContent": "<h2>Marco de trabajo</h2>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "biBM9UxpSCGlw5tyBU6uTDyELaqR0kxRA1rEk3IQIeE=",
+        "originContent": "<img src=\"https://github.com/CoderWZW/ARLib/blob/main/img/framework.png\" alt=\"Alt text\" width=\"80%\" /><br><br>",
+        "translatedContent": "<img src=\"https://github.com/CoderWZW/ARLib/blob/main/img/framework.png\" alt=\"Texto alternativo\" width=\"80%\" /><br><br>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "RQKHhHJZoJeKjnLeCT2unr3dfFstphzdRvdkjxiVqAQ=",
+        "originContent": "<h2>Usage</h2>",
+        "translatedContent": "<h2>Uso</h2>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "5fvgSwEpGfL4iZFYLmJkkmIiez+EqvRpsYcwfEZHPsw=",
+        "originContent": "1. Two configure files **attack_parser.py** and **recommend_parser.py** are in the directory named conf, and you can select and configure the recommendation model and attack model by modifying the configuration files. <br>",
+        "translatedContent": "1. Dos archivos de configuración **attack_parser.py** y **recommend_parser.py** están en el directorio llamado conf, y puede seleccionar y configurar el modelo de recomendación y el modelo de ataque modificando los archivos de configuración. <br>"
+      },
+      {
+        "row": 24,
+        "rowsha": "rWcjw7lxoCisS9Kb2nATWK3FtokyQDefEZpvyWmmucI=",
+        "originContent": "2. Run main.py.",
+        "translatedContent": "2. Ejecute main.py."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "udawN/mwXK0gcLxZ1iimte364YHRM7ILfVxw8mfT2os=",
+        "originContent": "<h2>Implemented Models</h2>",
+        "translatedContent": "<h2>Modelos implementados</h2>"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "cf+wdhU4SqZrpTebmUzqvgf7yOfTwgx51HysjnS48h8=",
+        "originContent": "| **Recommend Model** | **Paper** |",
+        "translatedContent": "| **Modelo de recomendación** | **Artículo** |"
+      },
+      {
+        "row": 30,
+        "rowsha": "gx8R59cCa8JALkZK5nFKkyGPYiMhgFv7UznUi9VQ394=",
+        "originContent": "| --- | --- |",
+        "translatedContent": "| --- | --- |"
+      },
+      {
+        "row": 31,
+        "rowsha": "rcJgYaG8E8Yn+rYyP06wVwv5H1h/y26m0iQnrCdPVRg=",
+        "originContent": "| GMF | Yehuda et al. Matrix Factorization Techniques for Recommender Systems, IEEE Computer'09.|",
+        "translatedContent": "| GMF | Yehuda et al. Técnicas de factorización matricial para sistemas de recomendación, IEEE Computer'09.|"
+      },
+      {
+        "row": 32,
+        "rowsha": "pq7wUkcikw2pW2dJyhLlU/MCbSF4/iwB/voG/fQid9U=",
+        "originContent": "| WRMF | Hu et al.Collaborative Filtering for Implicit Feedback Datasets, KDD'09. |",
+        "translatedContent": "| WRMF | Hu et al. Filtrado colaborativo para conjuntos de datos de retroalimentación implícita, KDD'09. |"
+      },
+      {
+        "row": 33,
+        "rowsha": "Crqucs1g1t/1oua5u0Z7ZAVTjYLuCfXW5chegp20GzA=",
+        "originContent": "| NCF | He et al. Neural Collaborative Filtering, WWW'17. |",
+        "translatedContent": "| NCF | He et al. Filtrado colaborativo neuronal, WWW'17. |"
+      },
+      {
+        "row": 34,
+        "rowsha": "K8Noqz1X0CYCA/dos0ZNEWdK7lm00JrDUIbnBmyUTiU=",
+        "originContent": "| NGCF | Wang et al. Neural Graph Collaborative Filtering, SIGIR'19. |",
+        "translatedContent": "| NGCF | Wang et al. Filtrado colaborativo en grafos neuronal, SIGIR'19. |"
+      },
+      {
+        "row": 35,
+        "rowsha": "AwuabD4f4yCjkoQ7fsPZ6NdO+lIofqsxOKFvd7CPIq0=",
+        "originContent": "| LightGCN | He et al. Lightgcn: Simplifying and powering graph convolution network for recommendation, SIGIR'2020. |",
+        "translatedContent": "| LightGCN | He et al. Lightgcn: Simplificación y potenciación de redes convolucionales de grafos para recomendación, SIGIR'2020. |"
+      },
+      {
+        "row": 36,
+        "rowsha": "5Q66ijxrv0sKSWq4bjfS8EQM6NvTyRWLDO8anfLLS2k=",
+        "originContent": "| SSL4Rec | Yao et al. Self-supervised learning for large-scale item recommendations. CIKM'2021. |",
+        "translatedContent": "| SSL4Rec | Yao et al. Aprendizaje auto-supervisado para recomendaciones de ítems a gran escala. CIKM'2021. |"
+      },
+      {
+        "row": 37,
+        "rowsha": "+Citadfqju9o3BmwIip9TKObwrI4mje05S+e5KSgB1k=",
+        "originContent": "| NCL | Lin et al. Improving graph collaborative filtering with neighborhood-enriched contrastive learning. WWW'2022. |",
+        "translatedContent": "| NCL | Lin et al. Mejora del filtrado colaborativo en grafos con aprendizaje contrastivo enriquecido por vecindad. WWW'2022. |"
+      },
+      {
+        "row": 38,
+        "rowsha": "D2brvIdVbiCxF1JqJE/QvPo97m61WkuHOSWVpPTC/uU=",
+        "originContent": "| SGL | Wu et al. Self-supervised Graph Learning for Recommendation, SIGIR'21. |",
+        "translatedContent": "| SGL | Wu et al. Aprendizaje auto-supervisado en grafos para recomendación, SIGIR'21. |"
+      },
+      {
+        "row": 39,
+        "rowsha": "7vOVuSII9zVpYdQz1+ZHWp6X6LaFPmNisOngmdWx8+c=",
+        "originContent": "| SimGCL | Yu et al. Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation, SIGIR'22. |",
+        "translatedContent": "| SimGCL | Yu et al. ¿Son necesarias las aumentaciones de grafos? Aprendizaje contrastivo simple en grafos para recomendación, SIGIR'22. |"
+      },
+      {
+        "row": 40,
+        "rowsha": "M0sE7YE7do6ML3IfEE2GnWwf5Nh5VGKMvOfqerDjZL0=",
+        "originContent": "| XSimGCL | Yu et al. XSimGCL: Towards extremely simple graph contrastive learning for recommendation, TKDE'23. |",
+        "translatedContent": "| XSimGCL | Yu et al. XSimGCL: Hacia un aprendizaje contrastivo en grafos extremadamente simple para recomendación, TKDE'23. |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n| **Attack Model** | **Paper** | **Case** |\n| --- | --- | --- |\n| NoneAttack | N/A | Black |\n| RandomAttack | Lam et al. Shilling Recommender Systems for Fun and Profit. WWW'2004| Black |\n| BandwagonAttack | Gunes et al. Shilling Attacks against Recommender Systems: A Comprehensive Survey. Artif.Intell.Rev.'2014 | Black |\n| AUSH | Lin C et al. Attacking recommender systems with augmented user profiles. CIKM'2020. | Gray |\n| LegUP | Lin C et al. Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles. IEEE Transactions on Neural Networks and Learning Systems'2022. | Gray |\n| GOAT | Wu et al. Ready for emerging threats to recommender systems? A graph convolution-based generative shilling attack. Information Sciences'2021. | Gray |\n| FedRecAttack | Rong  et al. Fedrecattack: Model poisoning attack to federated recommendation. ICDE'2022. | Gray |\n| A_ra | Rong et al. Poisoning Deep Learning Based Recommender Model in Federated Learning Scenarios. IJCAI'2022. | Gray |\n| PGA | Li et al. Data poisoning attacks on factorization-based collaborative filtering. NIPS'2016. | White |\n| DL_Attack| Huang et al. Data poisoning attacks to deep learning based recommender systems. arXiv'2021| White|\n| PipAttack | Zhang et al. Pipattack: Poisoning federated recommender systems for manipulating item promotion. WSDM'2022. | Gray |\n| RAPU | Zhang et al. Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data. KDD'2021. | White |\n| PoisonRec | Song et al. Poisonrec: an adaptive data poisoning framework for attacking black-box recommender systems. ICDE'2021. | Black |\n| CLeaR | Wang et al. Poisoning Attacks Against Contrastive Recommender Systems. arXiv'2023 | White |\n| GTA | Wang et al.  Revisiting data poisoning attacks on deep learning based recommender systems. ISCC 2023 | Black |\n\n<h2>Implement Your Model</h2>\n\n\nDetermine whether you want to implement the attack model or the recommendation model, and then add the file under the corresponding directory. <br>\n\nIf you have an attack method, make sure：<br>\n1. Whether you need information of the recommender model, and then set **self.recommenderGradientRequired=True**. <br>\n2. Whether you need information of training recommender model, and then set **self.recommenderModelRequired=True**. <br>\n3. Reimplement function **posionDataAttack()**\n\nIf you have a recommender method, reimplement the following functions：<br>\n  * init()\n  * posionDataAttack()  \n  * save()\n  * predict()  \n  * evaluate()  \n  * test()\n\n\n<h2>Downlod Dataset</h2>\n",
+    "ContentSha": "+/HHMzSvZoPHH0uTA0Fv/dmH09yHYZOc0EYmnn57nh0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| **Modelo de Ataque** | **Artículo** | **Caso** |\n| --- | --- | --- |\n| NoneAttack | N/A | Negro |\n| RandomAttack | Lam et al. Shilling Recommender Systems for Fun and Profit. WWW'2004 | Negro |\n| BandwagonAttack | Gunes et al. Shilling Attacks against Recommender Systems: A Comprehensive Survey. Artif.Intell.Rev.'2014 | Negro |\n| AUSH | Lin C et al. Attacking recommender systems with augmented user profiles. CIKM'2020. | Gris |\n| LegUP | Lin C et al. Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles. IEEE Transactions on Neural Networks and Learning Systems'2022. | Gris |\n| GOAT | Wu et al. Ready for emerging threats to recommender systems? A graph convolution-based generative shilling attack. Information Sciences'2021. | Gris |\n| FedRecAttack | Rong et al. Fedrecattack: Model poisoning attack to federated recommendation. ICDE'2022. | Gris |\n| A_ra | Rong et al. Poisoning Deep Learning Based Recommender Model in Federated Learning Scenarios. IJCAI'2022. | Gris |\n| PGA | Li et al. Data poisoning attacks on factorization-based collaborative filtering. NIPS'2016. | Blanco |\n| DL_Attack | Huang et al. Data poisoning attacks to deep learning based recommender systems. arXiv'2021 | Blanco |\n| PipAttack | Zhang et al. Pipattack: Poisoning federated recommender systems for manipulating item promotion. WSDM'2022. | Gris |\n| RAPU | Zhang et al. Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data. KDD'2021. | Blanco |\n| PoisonRec | Song et al. Poisonrec: an adaptive data poisoning framework for attacking black-box recommender systems. ICDE'2021. | Negro |\n| CLeaR | Wang et al. Poisoning Attacks Against Contrastive Recommender Systems. arXiv'2023 | Blanco |\n| GTA | Wang et al. Revisiting data poisoning attacks on deep learning based recommender systems. ISCC 2023 | Negro |\n\n<h2>Implemente Su Modelo</h2>\n\nDetermine si desea implementar el modelo de ataque o el modelo de recomendación, y luego agregue el archivo bajo el directorio correspondiente. <br>\n\nSi tiene un método de ataque, asegúrese de：<br>\n1. Si necesita información del modelo recomendador, y luego configure **self.recommenderGradientRequired=True**. <br>\n2. Si necesita información del modelo recomendador en entrenamiento, y luego configure **self.recommenderModelRequired=True**. <br>\n3. Reimplemente la función **posionDataAttack()**\n\nSi tiene un método recomendador, reimplemente las siguientes funciones：<br>\n  * init()\n  * posionDataAttack()  \n  * save()\n  * predict()  \n  * evaluate()  \n  * test()\n\n<h2>Descargar Conjunto de Datos</h2>\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| **Modelo de Ataque** | **Artículo** | **Caso** |"
+      },
+      {
+        "row": 2,
+        "rowsha": "gn+rgwXbVuuAVy9+Sj643Qs1+siJ/Eazt4wfbszgHQM=",
+        "originContent": "| **Attack Model** | **Paper** | **Case** |",
+        "translatedContent": "| --- | --- | --- |"
+      },
+      {
+        "row": 3,
+        "rowsha": "uOxIVVYHvGICEmxdtkLxHPiYFR+28qoZ0uKK6hnX5TI=",
+        "originContent": "| --- | --- | --- |",
+        "translatedContent": "| NoneAttack | N/A | Negro |"
+      },
+      {
+        "row": 4,
+        "rowsha": "eee47mO5tcXuFcm5SsKvNIlgpAwW8c1N8jK8xZFrZWw=",
+        "originContent": "| NoneAttack | N/A | Black |",
+        "translatedContent": "| RandomAttack | Lam et al. Shilling Recommender Systems for Fun and Profit. WWW'2004 | Negro |"
+      },
+      {
+        "row": 5,
+        "rowsha": "yvtnn6sd79iFbT/UXLJdPauuFRYL2fT5a/xDQBmry+M=",
+        "originContent": "| RandomAttack | Lam et al. Shilling Recommender Systems for Fun and Profit. WWW'2004| Black |",
+        "translatedContent": "| BandwagonAttack | Gunes et al. Shilling Attacks against Recommender Systems: A Comprehensive Survey. Artif.Intell.Rev.'2014 | Negro |"
+      },
+      {
+        "row": 6,
+        "rowsha": "mVt6U1fWthLSgPqc6RsOjkH2N/pvmxx99rJomdXiO98=",
+        "originContent": "| BandwagonAttack | Gunes et al. Shilling Attacks against Recommender Systems: A Comprehensive Survey. Artif.Intell.Rev.'2014 | Black |",
+        "translatedContent": "| AUSH | Lin C et al. Attacking recommender systems with augmented user profiles. CIKM'2020. | Gris |"
+      },
+      {
+        "row": 7,
+        "rowsha": "eKin6JZozNrEGNtRkdbitWCwnbzfmpdMgBDtDKU/Db0=",
+        "originContent": "| AUSH | Lin C et al. Attacking recommender systems with augmented user profiles. CIKM'2020. | Gray |",
+        "translatedContent": "| LegUP | Lin C et al. Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles. IEEE Transactions on Neural Networks and Learning Systems'2022. | Gris |"
+      },
+      {
+        "row": 8,
+        "rowsha": "/YEVpqoHdlD6zXaO8ACbY6CPKO/e+UjNxV6C3KaUtIA=",
+        "originContent": "| LegUP | Lin C et al. Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles. IEEE Transactions on Neural Networks and Learning Systems'2022. | Gray |",
+        "translatedContent": "| GOAT | Wu et al. Ready for emerging threats to recommender systems? A graph convolution-based generative shilling attack. Information Sciences'2021. | Gris |"
+      },
+      {
+        "row": 9,
+        "rowsha": "WujBwED9G+vp3wlTOHaOV/DXd791EnHGNiv+uJfyR8o=",
+        "originContent": "| GOAT | Wu et al. Ready for emerging threats to recommender systems? A graph convolution-based generative shilling attack. Information Sciences'2021. | Gray |",
+        "translatedContent": "| FedRecAttack | Rong et al. Fedrecattack: Model poisoning attack to federated recommendation. ICDE'2022. | Gris |"
+      },
+      {
+        "row": 10,
+        "rowsha": "r5hVnhTb+BSktRWSkW/e5+u2XxSzihGREmDwzhcdAP4=",
+        "originContent": "| FedRecAttack | Rong  et al. Fedrecattack: Model poisoning attack to federated recommendation. ICDE'2022. | Gray |",
+        "translatedContent": "| A_ra | Rong et al. Poisoning Deep Learning Based Recommender Model in Federated Learning Scenarios. IJCAI'2022. | Gris |"
+      },
+      {
+        "row": 11,
+        "rowsha": "5KjDTGJ1iV5VSrpBLiJhTAzQ4qgv04hDXtXCFsBcLR4=",
+        "originContent": "| A_ra | Rong et al. Poisoning Deep Learning Based Recommender Model in Federated Learning Scenarios. IJCAI'2022. | Gray |",
+        "translatedContent": "| PGA | Li et al. Data poisoning attacks on factorization-based collaborative filtering. NIPS'2016. | Blanco |"
+      },
+      {
+        "row": 12,
+        "rowsha": "9RYc6vq6LxOTarUy0keaSFawLbe/9v51LuaPRRpLo0U=",
+        "originContent": "| PGA | Li et al. Data poisoning attacks on factorization-based collaborative filtering. NIPS'2016. | White |",
+        "translatedContent": "| DL_Attack | Huang et al. Data poisoning attacks to deep learning based recommender systems. arXiv'2021 | Blanco |"
+      },
+      {
+        "row": 13,
+        "rowsha": "MZAuwLekGbGxmCshMkKf3ewRYKj5EjlFHKRHGs4s84o=",
+        "originContent": "| DL_Attack| Huang et al. Data poisoning attacks to deep learning based recommender systems. arXiv'2021| White|",
+        "translatedContent": "| PipAttack | Zhang et al. Pipattack: Poisoning federated recommender systems for manipulating item promotion. WSDM'2022. | Gris |"
+      },
+      {
+        "row": 14,
+        "rowsha": "pXnreUw6AYmKWR3LSSnOxhtkJ6dLr6F6eEfwDqPa7iw=",
+        "originContent": "| PipAttack | Zhang et al. Pipattack: Poisoning federated recommender systems for manipulating item promotion. WSDM'2022. | Gray |",
+        "translatedContent": "| RAPU | Zhang et al. Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data. KDD'2021. | Blanco |"
+      },
+      {
+        "row": 15,
+        "rowsha": "NACw3hPLX2jQBBsoJe3XjPZ+j0+DQBKL8DZWGwzPWo4=",
+        "originContent": "| RAPU | Zhang et al. Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data. KDD'2021. | White |",
+        "translatedContent": "| PoisonRec | Song et al. Poisonrec: an adaptive data poisoning framework for attacking black-box recommender systems. ICDE'2021. | Negro |"
+      },
+      {
+        "row": 16,
+        "rowsha": "zXa/9mH2nu72nddHQ68wUTCzSaTS/Dpkli9JQhrQtmE=",
+        "originContent": "| PoisonRec | Song et al. Poisonrec: an adaptive data poisoning framework for attacking black-box recommender systems. ICDE'2021. | Black |",
+        "translatedContent": "| CLeaR | Wang et al. Poisoning Attacks Against Contrastive Recommender Systems. arXiv'2023 | Blanco |"
+      },
+      {
+        "row": 17,
+        "rowsha": "I2DY6CoNXxTXeNu4oOjMHFB7C5zRHupnTFFsCHjgYJA=",
+        "originContent": "| CLeaR | Wang et al. Poisoning Attacks Against Contrastive Recommender Systems. arXiv'2023 | White |",
+        "translatedContent": "| GTA | Wang et al. Revisiting data poisoning attacks on deep learning based recommender systems. ISCC 2023 | Negro |"
+      },
+      {
+        "row": 18,
+        "rowsha": "m9BiOQHDcY9Em/50jjooVBTZagj8gabxjO201opOVeI=",
+        "originContent": "| GTA | Wang et al.  Revisiting data poisoning attacks on deep learning based recommender systems. ISCC 2023 | Black |",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h2>Implemente Su Modelo</h2>"
+      },
+      {
+        "row": 20,
+        "rowsha": "Ct1SP55qyt4SUCcVswC782ImiAiF5NJwQOVQ5bcDDao=",
+        "originContent": "<h2>Implement Your Model</h2>",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Determine si desea implementar el modelo de ataque o el modelo de recomendación, y luego agregue el archivo bajo el directorio correspondiente. <br>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Pq4uEosgRLtA+sti16OpYNhurUsskK/YGnlBamloIuo=",
+        "originContent": "Determine whether you want to implement the attack model or the recommendation model, and then add the file under the corresponding directory. <br>",
+        "translatedContent": "Si tiene un método de ataque, asegúrese de：<br>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Si necesita información del modelo recomendador, y luego configure **self.recommenderGradientRequired=True**. <br>"
+      },
+      {
+        "row": 25,
+        "rowsha": "ams8zatBwsgrk/J/RzEB5rE5Eo+WFTcWhHPPpcA9qRs=",
+        "originContent": "If you have an attack method, make sure：<br>",
+        "translatedContent": "2. Si necesita información del modelo recomendador en entrenamiento, y luego configure **self.recommenderModelRequired=True**. <br>"
+      },
+      {
+        "row": 26,
+        "rowsha": "kkUHkj3JzJCxLVZRRoefwnK5vF/aQajh9Oy3wJ1KZ9w=",
+        "originContent": "1. Whether you need information of the recommender model, and then set **self.recommenderGradientRequired=True**. <br>",
+        "translatedContent": "3. Reimplemente la función **posionDataAttack()**"
+      },
+      {
+        "row": 27,
+        "rowsha": "xMmn30bNCI/Gzx8OhL45DWRdH0Q13Q8+L57NrQGcvvY=",
+        "originContent": "2. Whether you need information of training recommender model, and then set **self.recommenderModelRequired=True**. <br>",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "yW96k9rb9cIOzNI+t+uJMqHMQIrV8KAtXND6wc6uG00=",
+        "originContent": "3. Reimplement function **posionDataAttack()**",
+        "translatedContent": "Si tiene un método recomendador, reimplemente las siguientes funciones：<br>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  * init()"
+      },
+      {
+        "row": 30,
+        "rowsha": "0slvcPC9iWtB3JjcB0IlzUnQ03nZVCtvaxXFZcDyAG0=",
+        "originContent": "If you have a recommender method, reimplement the following functions：<br>",
+        "translatedContent": "  * posionDataAttack()  "
+      },
+      {
+        "row": 31,
+        "rowsha": "KzohbpVA1ViUMyjUgBMW1YU+drtc7FTNpIxIEcvd1Ks=",
+        "originContent": "  * init()",
+        "translatedContent": "  * save()"
+      },
+      {
+        "row": 32,
+        "rowsha": "OYHnxwq2BNQsE23I2l3PiktbdljRgqIVdWGZ56tBuRw=",
+        "originContent": "  * posionDataAttack()  ",
+        "translatedContent": "  * predict()  "
+      },
+      {
+        "row": 33,
+        "rowsha": "SKb/8VfWXSqLQq/eAr6tOQS0pbIq43OiRSZ4GXaKBJQ=",
+        "originContent": "  * save()",
+        "translatedContent": "  * evaluate()  "
+      },
+      {
+        "row": 34,
+        "rowsha": "1jOf0CFhA146D+k+K3JunMdRQde7bH+URs0bWWXDCBE=",
+        "originContent": "  * predict()  ",
+        "translatedContent": "  * test()"
+      },
+      {
+        "row": 35,
+        "rowsha": "K0vHbRnB1oysxFvrN1ssOVysL78+icXub2qKaBMeYx8=",
+        "originContent": "  * evaluate()  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "IpxQsPDtnThtSeO3Y12eF4hW35IIjxytvAliq1H4e3E=",
+        "originContent": "  * test()",
+        "translatedContent": "<h2>Descargar Conjunto de Datos</h2>"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "MvXdIOv76+SIptYmf2sIK3dFv0QYvkI3YfsGrFxIWFU=",
+        "originContent": "<h2>Downlod Dataset</h2>",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\nBAIDU DISK\nLink: https://pan.baidu.com/s/1Gw0SI_GZsykPQEngiMvZgA?pwd=akgm\nkey: akgm\n\nGoogle Drive\nLink: https://drive.google.com/drive/folders/1QLDickAMEuhi8mUOyAa66dicCTd40CG5?usp=sharing\n```",
+    "ContentSha": "RGgDKT5ZC39OY9ARZOETpPG4AlsNjM93ReG4V76+4x0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nBAIDU DISK\nLink: https://pan.baidu.com/s/1Gw0SI_GZsykPQEngiMvZgA?pwd=akgm\nkey: akgm\n\nGoogle Drive\nLink: https://drive.google.com/drive/folders/1QLDickAMEuhi8mUOyAa66dicCTd40CG5?usp=sharing\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZGLDc7aDRALAWApIXjeJofM07LtPauDdThpbdp+PkLI=",
+        "originContent": "BAIDU DISK",
+        "translatedContent": "BAIDU DISK"
+      },
+      {
+        "row": 3,
+        "rowsha": "eCywD3AU2NcS3dHysr6Vg5SY5bBF928toSIhyQlbPss=",
+        "originContent": "Link: https://pan.baidu.com/s/1Gw0SI_GZsykPQEngiMvZgA?pwd=akgm",
+        "translatedContent": "Link: https://pan.baidu.com/s/1Gw0SI_GZsykPQEngiMvZgA?pwd=akgm"
+      },
+      {
+        "row": 4,
+        "rowsha": "SkwfJas0vcq6qMTWDFOt9TynrmsoZosma80AC2x0nS0=",
+        "originContent": "key: akgm",
+        "translatedContent": "key: akgm"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kV70utWaEynit0Ly3IbLnuYKkG+4vegc7rnRb2PqTL0=",
+        "originContent": "Google Drive",
+        "translatedContent": "Google Drive"
+      },
+      {
+        "row": 7,
+        "rowsha": "7vP8Z7Wi8jMuIlbKmgFbZ45Z+jcX4J3Tzyd8bGJJLl8=",
+        "originContent": "Link: https://drive.google.com/drive/folders/1QLDickAMEuhi8mUOyAa66dicCTd40CG5?usp=sharing",
+        "translatedContent": "Link: https://drive.google.com/drive/folders/1QLDickAMEuhi8mUOyAa66dicCTd40CG5?usp=sharing"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n<h2>Requirements</h2>\n",
+    "ContentSha": "IeO/H2FXQgVWNF+uMe0Z/WH/wdJHn3U1Zn4bSaiJYbw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h2>Requisitos</h2>\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h2>Requisitos</h2>"
+      },
+      {
+        "row": 2,
+        "rowsha": "SPHyyIm+UI2x2z8uclAG9hZWMelQTOEe50lsZWJGZts=",
+        "originContent": "<h2>Requirements</h2>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\nbase==1.0.4\nnumba==0.53.1\nnumpy==1.18.0\nscipy==1.4.1\ntorch==1.7.1\n```",
+    "ContentSha": "3gUq+lRgRh9Xd8UPS/sc2+6fYBIvteAKpjadNeqn/R8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nbase==1.0.4\nnumba==0.53.1\nnumpy==1.18.0\nscipy==1.4.1\ntorch==1.7.1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Wd71kQb94ea6sTpAryxL0lP+tL9IytuBJ9IRvaGrGGs=",
+        "originContent": "base==1.0.4",
+        "translatedContent": "base==1.0.4"
+      },
+      {
+        "row": 3,
+        "rowsha": "bHR/6sO2lGjRnvHz7c2MgnviS0+g/ttE2tkqfmB9OaQ=",
+        "originContent": "numba==0.53.1",
+        "translatedContent": "numba==0.53.1"
+      },
+      {
+        "row": 4,
+        "rowsha": "bYraqG1GV23Ucc/nqSYZzCR/PghNVYkvUabaCePqQIE=",
+        "originContent": "numpy==1.18.0",
+        "translatedContent": "numpy==1.18.0"
+      },
+      {
+        "row": 5,
+        "rowsha": "AiBOGU92cZ18V1DmtgtHXaDk9XU+lfK9AvDo1ax0JJ0=",
+        "originContent": "scipy==1.4.1",
+        "translatedContent": "scipy==1.4.1"
+      },
+      {
+        "row": 6,
+        "rowsha": "DBzN7HdC5VLP9PG0dqPUHDrzlJ6Kum9zXMDMLassMrg=",
+        "originContent": "torch==1.7.1",
+        "translatedContent": "torch==1.7.1"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n<h2>Reference</h2>\n\nIf you find this repo helpful to your research, please cite our paper.\n",
+    "ContentSha": "S4o0Uw87jQynMvbzSEkb+bjOG32rZc4doBPu/MLRCU4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h2>Referencia</h2>\n\nSi encuentra este repositorio útil para su investigación, por favor cite nuestro artículo.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h2>Referencia</h2>"
+      },
+      {
+        "row": 2,
+        "rowsha": "9OEWVUhPHv6ZY6CstSQ6glV6FztGv1bjjC1CmMtDSTE=",
+        "originContent": "<h2>Reference</h2>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Si encuentra este repositorio útil para su investigación, por favor cite nuestro artículo."
+      },
+      {
+        "row": 4,
+        "rowsha": "Nk5JaVV1JmdrDFacz0ur5lkSGb1nHI98Fj/ManLqxGE=",
+        "originContent": "If you find this repo helpful to your research, please cite our paper.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bibtex\n@article{wang2024poisoning,\n  title={Poisoning Attacks and Defenses in Recommender Systems: A Survey},\n  author={Wang, Zongwei and Yu, Junliang and Gao, Min and Yuan, Wei and Ye, Guanhua and Sadiq, Shazia and Yin, Hongzhi},\n  journal={arXiv preprint arXiv:2406.01022},\n  year={2024}\n}\n",
+    "ContentSha": "SfwOu49lBd/F9nopsmU6bSzwiY00fmLhEwt3H7c4roc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{wang2024poisoning,\n  title={Ataques de Envenenamiento y Defensas en Sistemas de Recomendación: Una Encuesta},\n  author={Wang, Zongwei y Yu, Junliang y Gao, Min y Yuan, Wei y Ye, Guanhua y Sadiq, Shazia y Yin, Hongzhi},\n  journal={arXiv preprint arXiv:2406.01022},\n  year={2024}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "xwbCZoVqieCj/tjTh7vk4RuUYeQ3Z4FbtW1bRcLALwg=",
+        "originContent": "@article{wang2024poisoning,",
+        "translatedContent": "@article{wang2024poisoning,"
+      },
+      {
+        "row": 3,
+        "rowsha": "8SkmFV8os+kLmPRySfuRb+eOr+IcLgJhb9UwiVbjFhM=",
+        "originContent": "  title={Poisoning Attacks and Defenses in Recommender Systems: A Survey},",
+        "translatedContent": "  title={Ataques de Envenenamiento y Defensas en Sistemas de Recomendación: Una Encuesta},"
+      },
+      {
+        "row": 4,
+        "rowsha": "+QDROaQT1/rpmU6g0YB8oELrHMgMeNN+H4e6P/rkWKo=",
+        "originContent": "  author={Wang, Zongwei and Yu, Junliang and Gao, Min and Yuan, Wei and Ye, Guanhua and Sadiq, Shazia and Yin, Hongzhi},",
+        "translatedContent": "  author={Wang, Zongwei y Yu, Junliang y Gao, Min y Yuan, Wei y Ye, Guanhua y Sadiq, Shazia y Yin, Hongzhi},"
+      },
+      {
+        "row": 5,
+        "rowsha": "A1hDUCQwm/G/nQuONuSPYnwzxpeXTaVRBGexWyw7Iro=",
+        "originContent": "  journal={arXiv preprint arXiv:2406.01022},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2406.01022},"
+      },
+      {
+        "row": 6,
+        "rowsha": "9vunU7Tk7EiCUudFrq1MUG4YCfjMDMPMikZF6BT/eLU=",
+        "originContent": "  year={2024}",
+        "translatedContent": "  year={2024}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

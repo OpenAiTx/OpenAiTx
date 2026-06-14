@@ -1,0 +1,1875 @@
+[
+  {
+    "Id": 1,
+    "Content": "# wsl-screenshot-cli\n\n[![downloads](https://img.shields.io/github/downloads/Nailuu/wsl-screenshot-cli/total)](https://github.com/Nailuu/wsl-screenshot-cli/releases)\n\nCLI tool that monitors the Windows clipboard for screenshots, making them pasteable in WSL (e.g. Claude Code CLI, Codex CLI, ...) while preserving Windows paste functionality.\n\nTake a screenshot on Windows, then paste in your WSL terminal — you get a file path. Paste in Paint — you get the image. Paste in Explorer — you get the file. All at the same time.\n\n![Demo](https://raw.githubusercontent.com/Nailuu/wsl-screenshot-cli/main/assets/demo.gif)\n\n### Quick Start\n",
+    "ContentSha": "uz+OFRTo43OvBKWpCcX6JptAePMlrikX5iSPd34rHJo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# wsl-screenshot-cli\n\n[![downloads](https://img.shields.io/github/downloads/Nailuu/wsl-screenshot-cli/total)](https://github.com/Nailuu/wsl-screenshot-cli/releases)\n\nCLI tool that monitors the Windows clipboard for screenshots, making them pasteable in WSL (e.g. Claude Code CLI, Codex CLI, ...) while preserving Windows paste functionality.\n\nTake a screenshot on Windows, then paste in your WSL terminal — you get a file path. Paste in Paint — you get the image. Paste in Explorer — you get the file. All at the same time.\n\n![Demo](https://raw.githubusercontent.com/Nailuu/wsl-screenshot-cli/main/assets/demo.gif)\n\n### Quick Start\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EsRy8WmYq4vDIXi7hA+IClZcbrp74Kjkh2l0Z6vyGqw=",
+        "originContent": "# wsl-screenshot-cli",
+        "translatedContent": "# wsl-screenshot-cli"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "tsUem4DcogulwfQPX0hxfjkpnmJ1HIUs262TqUb+sjw=",
+        "originContent": "[![downloads](https://img.shields.io/github/downloads/Nailuu/wsl-screenshot-cli/total)](https://github.com/Nailuu/wsl-screenshot-cli/releases)",
+        "translatedContent": "[![downloads](https://img.shields.io/github/downloads/Nailuu/wsl-screenshot-cli/total)](https://github.com/Nailuu/wsl-screenshot-cli/releases)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QcPQzLL47QTTozWAFhMWef3T4EfZAjoSU4tjUjmoLJ0=",
+        "originContent": "CLI tool that monitors the Windows clipboard for screenshots, making them pasteable in WSL (e.g. Claude Code CLI, Codex CLI, ...) while preserving Windows paste functionality.",
+        "translatedContent": "CLI tool that monitors the Windows clipboard for screenshots, making them pasteable in WSL (e.g. Claude Code CLI, Codex CLI, ...) while preserving Windows paste functionality."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "3UjYNPZJM+n1LBF1mY4WDXcp8vCA8AXZ+N5Msb9Em84=",
+        "originContent": "Take a screenshot on Windows, then paste in your WSL terminal — you get a file path. Paste in Paint — you get the image. Paste in Explorer — you get the file. All at the same time.",
+        "translatedContent": "Take a screenshot on Windows, then paste in your WSL terminal — you get a file path. Paste in Paint — you get the image. Paste in Explorer — you get the file. All at the same time."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8epBTWX9kdGg3ywaHl1Py3utH8wemwAdYrV9ynkPTjg=",
+        "originContent": "![Demo](https://raw.githubusercontent.com/Nailuu/wsl-screenshot-cli/main/assets/demo.gif)",
+        "translatedContent": "![Demo](https://raw.githubusercontent.com/Nailuu/wsl-screenshot-cli/main/assets/demo.gif)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "u5bI2CcA813zbjM8WizOS8vBOnXEWtnX6X1vxuHIkZg=",
+        "originContent": "### Quick Start",
+        "translatedContent": "### Quick Start"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nwsl-screenshot-cli start --daemon   # start monitoring\nwsl-screenshot-cli status           # check it's running\nwsl-screenshot-cli stop             # stop monitoring\nwsl-screenshot-cli update           # update to latest version\n```",
+    "ContentSha": "3OqXxqLoJ+sYSRSS7vKZJNaVSldgkORSGUdd08AYACY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwsl-screenshot-cli start --daemon   # start monitoring\nwsl-screenshot-cli status           # check it's running\nwsl-screenshot-cli stop             # stop monitoring\nwsl-screenshot-cli update           # update to latest version\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "QuN7Mz7EdhPfSTDesCyTwmTlCiP4X42dwk+OKb22gGg=",
+        "originContent": "wsl-screenshot-cli start --daemon   # start monitoring",
+        "translatedContent": "wsl-screenshot-cli start --daemon   # start monitoring"
+      },
+      {
+        "row": 3,
+        "rowsha": "H3Pvy9wxNWVP72SZ9f9iXbbDmjNdeA8gb5341A2RnUg=",
+        "originContent": "wsl-screenshot-cli status           # check it's running",
+        "translatedContent": "wsl-screenshot-cli status           # check it's running"
+      },
+      {
+        "row": 4,
+        "rowsha": "us/9UZRQTMLwQbHLCkdnqVXcWDNhYamvonhFRlojBqk=",
+        "originContent": "wsl-screenshot-cli stop             # stop monitoring",
+        "translatedContent": "wsl-screenshot-cli stop             # stop monitoring"
+      },
+      {
+        "row": 5,
+        "rowsha": "Yxw4XE/tRP06zghlTgw1boj1nWXKUhIKNhSimZtf/3w=",
+        "originContent": "wsl-screenshot-cli update           # update to latest version",
+        "translatedContent": "wsl-screenshot-cli update           # update to latest version"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Installation\n\n### Quick install (recommended)\n",
+    "ContentSha": "RTZ3UkNe7YisIdDFx651EAmCA1p2Pypqq1nLWSsgBLg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Installation\n\n### Quick install (recommended)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U/QhUbY5h0TP/TSEQjTDsnR5sfQrseItyBkr8OhhBaE=",
+        "originContent": "### Quick install (recommended)",
+        "translatedContent": "### Quick install (recommended)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ncurl -fsSL https://nailu.dev/wscli/install.sh | bash\n```",
+    "ContentSha": "DgqVnX6GLMxvjRhCaddbEbcTOqgQhy3F8Tf8TborN38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -fsSL https://nailu.dev/wscli/install.sh | bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TKyK5MaKHzDGwDH9abeXexBE79Wzbg1IoYYim3oIBaQ=",
+        "originContent": "curl -fsSL https://nailu.dev/wscli/install.sh | bash",
+        "translatedContent": "curl -fsSL https://nailu.dev/wscli/install.sh | bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThis downloads the latest binary to `~/.local/bin/`. No Go toolchain required.\n\n### Via Go\n",
+    "ContentSha": "jLPnvCajvTNkV5SMvbNjG2gat3spJcsA7lx0g+E+YCg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nThis downloads the latest binary to `~/.local/bin/`. No Go toolchain required.\n\n### Via Go\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CskfRl78B5wbUvLa+kkBKQ+lqFusPzFcaVt57zk8lfs=",
+        "originContent": "This downloads the latest binary to `~/.local/bin/`. No Go toolchain required.",
+        "translatedContent": "This downloads the latest binary to `~/.local/bin/`. No Go toolchain required."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DzcktdoM8b4tPy/uU1+w2kyXuJgMYb1IBiM+UbC+Amo=",
+        "originContent": "### Via Go",
+        "translatedContent": "### Via Go"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ngo install github.com/nailuu/wsl-screenshot-cli@latest\n```",
+    "ContentSha": "wmUEC9bWZgoIYbtB/qEVnQqxRzFp381aRAdAVk2fG0Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo install github.com/nailuu/wsl-screenshot-cli@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rrOVZefMhPTaUpiUkvmp1dNCaz4HhMX/pywytgSoSSY=",
+        "originContent": "go install github.com/nailuu/wsl-screenshot-cli@latest",
+        "translatedContent": "go install github.com/nailuu/wsl-screenshot-cli@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### From source\n",
+    "ContentSha": "xCOmAiE3hyZERbRsaEt6Jkflhm3uwl6mP1yVfjxdByg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### From source\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0oUPV6jIxHMtjc/3YyA/4fctwLLumTsCsZAewC4f0fw=",
+        "originContent": "### From source",
+        "translatedContent": "### From source"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\ngit clone https://github.com/Nailuu/wsl-screenshot-cli.git\ncd wsl-screenshot-cli\ngo build -o wsl-screenshot-cli .\n```",
+    "ContentSha": "VMEF09qbDg4VGH4+SqH7XhBkQ/BdxSivpmHgNNuSlOo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/Nailuu/wsl-screenshot-cli.git\ncd wsl-screenshot-cli\ngo build -o wsl-screenshot-cli .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aQa8tlxzFB5Q5H7Vez3xB9bhYwH+nDvh33PixQu8uJ0=",
+        "originContent": "git clone https://github.com/Nailuu/wsl-screenshot-cli.git",
+        "translatedContent": "git clone https://github.com/Nailuu/wsl-screenshot-cli.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "Uitois9WSk+Ve5ggL55xfuLg0x9Shj68YyH6VpV7z70=",
+        "originContent": "cd wsl-screenshot-cli",
+        "translatedContent": "cd wsl-screenshot-cli"
+      },
+      {
+        "row": 4,
+        "rowsha": "4i3ZPJwkYM/yOfXrkvXNe5UMtV7vMswa2NhXYtvyh1s=",
+        "originContent": "go build -o wsl-screenshot-cli .",
+        "translatedContent": "go build -o wsl-screenshot-cli ."
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Auto-start options\n\n**Option 1** — Auto-start with your shell (add to `~/.bashrc` or `~/.zshrc`):\n",
+    "ContentSha": "JYMtUFjBlqSVIRt2rOlyKDNJincLYfqvfySqyhzfaQI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Auto-start options\n\n**Option 1** — Auto-start with your shell (add to `~/.bashrc` or `~/.zshrc`):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nXCD/zV9yEn5ZHV2Ht6NL3IGG0PgD0ZDnoXOWEXmpMk=",
+        "originContent": "### Auto-start options",
+        "translatedContent": "### Auto-start options"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "sLGtPnO6yBFP5t94HY+4tCzAbWofWeX0Rh9/n/7G2C4=",
+        "originContent": "**Option 1** — Auto-start with your shell (add to `~/.bashrc` or `~/.zshrc`):",
+        "translatedContent": "**Option 1** — Auto-start with your shell (add to `~/.bashrc` or `~/.zshrc`):"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nwsl-screenshot-cli start --daemon --quiet\n```",
+    "ContentSha": "OLOjWnYb+/mNHWvJz7tBrJy5nTldOluv+cvEXLe1mEc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwsl-screenshot-cli start --daemon --quiet\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rRtrC0xfF3tPhWK1stEJzuGn/hwVki17JHqlqKEt9Qg=",
+        "originContent": "wsl-screenshot-cli start --daemon --quiet",
+        "translatedContent": "wsl-screenshot-cli start --daemon --quiet"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n> **Tip:** The `--quiet` flag prevents the `Polling process is already running` message from appearing each time you open a new terminal.\n\n> **Note:** The install script places the binary in `~/.local/bin/`, which is typically added to PATH by `~/.profile` (login shells only). If you get `command not found` in `.bashrc`, add this **before** the line above:\n> ```bash\n> if [ -d \"$HOME/.local/bin\" ] && [[ \":$PATH:\" != *\":$HOME/.local/bin:\"* ]]; then\n>     export PATH=\"$HOME/.local/bin:$PATH\"\n> fi\n> ```\n\n**Option 2** — Auto-start/stop with Claude Code hooks (add to `~/.claude/settings.json`):\n",
+    "ContentSha": "ezI7Z4xBvTE6JZC6+UU6nVTPbW5j61K5t17hUKob0RY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> **Tip:** The `--quiet` flag prevents the `Polling process is already running` message from appearing each time you open a new terminal.\n\n> **Note:** The install script places the binary in `~/.local/bin/`, which is typically added to PATH by `~/.profile` (login shells only). If you get `command not found` in `.bashrc`, add this **before** the line above:\n> ```bash\n> if [ -d \"$HOME/.local/bin\" ] && [[ \":$PATH:\" != *\":$HOME/.local/bin:\"* ]]; then\n>     export PATH=\"$HOME/.local/bin:$PATH\"\n> fi\n> ```\n\n**Option 2** — Auto-start/stop with Claude Code hooks (add to `~/.claude/settings.json`):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dPLLEodgXZ/kqN3foPhQtKOrArGQ64B2JN9uUnzCw+A=",
+        "originContent": "> **Tip:** The `--quiet` flag prevents the `Polling process is already running` message from appearing each time you open a new terminal.",
+        "translatedContent": "> **Tip:** The `--quiet` flag prevents the `Polling process is already running` message from appearing each time you open a new terminal."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+/YsmPlhTAtDieKPLh0bNCtx8+KQgGCzM4kp2Jpo5cs=",
+        "originContent": "> **Note:** The install script places the binary in `~/.local/bin/`, which is typically added to PATH by `~/.profile` (login shells only). If you get `command not found` in `.bashrc`, add this **before** the line above:",
+        "translatedContent": "> **Note:** The install script places the binary in `~/.local/bin/`, which is typically added to PATH by `~/.profile` (login shells only). If you get `command not found` in `.bashrc`, add this **before** the line above:"
+      },
+      {
+        "row": 5,
+        "rowsha": "wdkEOeFso6tqiT11qRgwNFig8+xjxbk3wJKCvpYihdM=",
+        "originContent": "> ```bash",
+        "translatedContent": "> ```bash"
+      },
+      {
+        "row": 6,
+        "rowsha": "TIGM6wWVrlm2dbgHKNL06K1fvPldNky7p8bdrYL9yug=",
+        "originContent": "> if [ -d \"$HOME/.local/bin\" ] && [[ \":$PATH:\" != *\":$HOME/.local/bin:\"* ]]; then",
+        "translatedContent": "> if [ -d \"$HOME/.local/bin\" ] && [[ \":$PATH:\" != *\":$HOME/.local/bin:\"* ]]; then"
+      },
+      {
+        "row": 7,
+        "rowsha": "ahpIz7RNn3dVmbcTZj1uBaeyttZaMcPq2P2g0u3e5qo=",
+        "originContent": ">     export PATH=\"$HOME/.local/bin:$PATH\"",
+        "translatedContent": ">     export PATH=\"$HOME/.local/bin:$PATH\""
+      },
+      {
+        "row": 8,
+        "rowsha": "rD1YmgRhF9dz0VjsteEj6cb6UjSXnJiUotiiTEBfzO8=",
+        "originContent": "> fi",
+        "translatedContent": "> fi"
+      },
+      {
+        "row": 9,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "sd1octcQNkcf7nPWDOASZueuxRoRokKxnm5it33SFiA=",
+        "originContent": "**Option 2** — Auto-start/stop with Claude Code hooks (add to `~/.claude/settings.json`):",
+        "translatedContent": "**Option 2** — Auto-start/stop with Claude Code hooks (add to `~/.claude/settings.json`):"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```json\n{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"wsl-screenshot-cli start --daemon --quiet 2>/dev/null; echo 'wsl-screenshot-cli started'\"\n          }\n        ]\n      }\n    ],\n    \"SessionEnd\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"wsl-screenshot-cli stop 2>/dev/null\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+    "ContentSha": "TgsNMZeDW6r+j2jbOtMKVk/G9EH8UAxWuIfMN0ah/Ko=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"wsl-screenshot-cli start --daemon --quiet 2>/dev/null; echo 'wsl-screenshot-cli started'\"\n          }\n        ]\n      }\n    ],\n    \"SessionEnd\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"wsl-screenshot-cli stop 2>/dev/null\"\n          }\n        ]\n      }\n    ]\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "CzZKygE9ScEdDnsWMlBphzk0w9tm7iNARlro5h7jHn0=",
+        "originContent": "  \"hooks\": {",
+        "translatedContent": "  \"hooks\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "NAGtQqibSKwEf3rZJZawPHNwRKuNmgKhn9EttlI3gTE=",
+        "originContent": "    \"SessionStart\": [",
+        "translatedContent": "    \"SessionStart\": ["
+      },
+      {
+        "row": 5,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 6,
+        "rowsha": "t5pSw9SGUMN94ffTFXP0m4UB1L0Vjs3IEEeQcCcZjpI=",
+        "originContent": "        \"matcher\": \"\",",
+        "translatedContent": "        \"matcher\": \"\","
+      },
+      {
+        "row": 7,
+        "rowsha": "aop0mtHnZ3VebDRFlFjpCf7QimVALdwCnrIxeK64efI=",
+        "originContent": "        \"hooks\": [",
+        "translatedContent": "        \"hooks\": ["
+      },
+      {
+        "row": 8,
+        "rowsha": "jDCd96Ge0v7+/ljCWQOX10iZI4/17fzHwg6LvQHu2o4=",
+        "originContent": "          {",
+        "translatedContent": "          {"
+      },
+      {
+        "row": 9,
+        "rowsha": "MTG3iVYAUa4qoIv7mrP3W5x0SOBL8SV125G7eIGOijE=",
+        "originContent": "            \"type\": \"command\",",
+        "translatedContent": "            \"type\": \"command\","
+      },
+      {
+        "row": 10,
+        "rowsha": "omcSXkw3wgG3NtJvvaXcD4zrjGAwMFE6zpdWq2GP6tA=",
+        "originContent": "            \"command\": \"wsl-screenshot-cli start --daemon --quiet 2>/dev/null; echo 'wsl-screenshot-cli started'\"",
+        "translatedContent": "            \"command\": \"wsl-screenshot-cli start --daemon --quiet 2>/dev/null; echo 'wsl-screenshot-cli started'\""
+      },
+      {
+        "row": 11,
+        "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+        "originContent": "          }",
+        "translatedContent": "          }"
+      },
+      {
+        "row": 12,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 13,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 14,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 15,
+        "rowsha": "W7tgxB2C0lcGgBN8H3vI7S99YGX4f6Kjb5DVNrNxZB4=",
+        "originContent": "    \"SessionEnd\": [",
+        "translatedContent": "    \"SessionEnd\": ["
+      },
+      {
+        "row": 16,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 17,
+        "rowsha": "t5pSw9SGUMN94ffTFXP0m4UB1L0Vjs3IEEeQcCcZjpI=",
+        "originContent": "        \"matcher\": \"\",",
+        "translatedContent": "        \"matcher\": \"\","
+      },
+      {
+        "row": 18,
+        "rowsha": "aop0mtHnZ3VebDRFlFjpCf7QimVALdwCnrIxeK64efI=",
+        "originContent": "        \"hooks\": [",
+        "translatedContent": "        \"hooks\": ["
+      },
+      {
+        "row": 19,
+        "rowsha": "jDCd96Ge0v7+/ljCWQOX10iZI4/17fzHwg6LvQHu2o4=",
+        "originContent": "          {",
+        "translatedContent": "          {"
+      },
+      {
+        "row": 20,
+        "rowsha": "MTG3iVYAUa4qoIv7mrP3W5x0SOBL8SV125G7eIGOijE=",
+        "originContent": "            \"type\": \"command\",",
+        "translatedContent": "            \"type\": \"command\","
+      },
+      {
+        "row": 21,
+        "rowsha": "b4qFQjZYpEdIUYnFaZSTdjC8aDs8LgSLGcz/E5lGDPo=",
+        "originContent": "            \"command\": \"wsl-screenshot-cli stop 2>/dev/null\"",
+        "translatedContent": "            \"command\": \"wsl-screenshot-cli stop 2>/dev/null\""
+      },
+      {
+        "row": 22,
+        "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+        "originContent": "          }",
+        "translatedContent": "          }"
+      },
+      {
+        "row": 23,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 24,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 25,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 26,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 27,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 28,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## How It Works\n",
+    "ContentSha": "ltRu2UuGv01vkuKW1jUaBrwY5wbsNRGI5LQIaAQcqc0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## How It Works\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## How It Works"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```mermaid\ngraph LR\n    subgraph WSL\n        CLI[\"wsl-screenshot-cli\"]\n        Poller\n        GoClient[\"Clipboard Client\"]\n    end\n\n    subgraph Windows\n        PS[\"PowerShell · STA\"]\n        DotNet[\".NET Clipboard API\"]\n        CB[\"Clipboard\"]\n    end\n\n    subgraph Output\n        PNG[\"SHA256.png\"]\n    end\n\n    CLI -- \"start / stop / status\" --> Poller\n    Poller -- \"poll every 250ms\" --> GoClient\n    GoClient -- \"stdin / stdout\" --> PS\n    PS -- \"CHECK\" --> DotNet\n    DotNet -- \"read image\" --> CB\n    Poller -- \"save & dedup\" --> PNG\n```",
+    "ContentSha": "Y6EhECmsXFJsvM2EcT469SHJ2viJWMF8/j30ZMo7wn0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```mermaid\ngraph LR\n    subgraph WSL\n        CLI[\"wsl-screenshot-cli\"]\n        Poller\n        GoClient[\"Clipboard Client\"]\n    end\n\n    subgraph Windows\n        PS[\"PowerShell · STA\"]\n        DotNet[\".NET Clipboard API\"]\n        CB[\"Clipboard\"]\n    end\n\n    subgraph Output\n        PNG[\"SHA256.png\"]\n    end\n\n    CLI -- \"start / stop / status\" --> Poller\n    Poller -- \"poll every 250ms\" --> GoClient\n    GoClient -- \"stdin / stdout\" --> PS\n    PS -- \"CHECK\" --> DotNet\n    DotNet -- \"read image\" --> CB\n    Poller -- \"save & dedup\" --> PNG\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RtlHQpG+V59KLQkk05f8+fLlxsq4KdWUwAAs6jH0zbs=",
+        "originContent": "```mermaid",
+        "translatedContent": "```mermaid"
+      },
+      {
+        "row": 2,
+        "rowsha": "5u/rPWUbNxOmxPh93WgBsOHWkyyrFxRL3H4As+Bq9wU=",
+        "originContent": "graph LR",
+        "translatedContent": "graph LR"
+      },
+      {
+        "row": 3,
+        "rowsha": "RE+ph6AtVikvoIO+hVbeDHrjvaB8gdIphWktoWdyVe8=",
+        "originContent": "    subgraph WSL",
+        "translatedContent": "    subgraph WSL"
+      },
+      {
+        "row": 4,
+        "rowsha": "S2xIdPLF1/yfqKVdfFqHENGvHewqs4NwYDgpmMfXoiA=",
+        "originContent": "        CLI[\"wsl-screenshot-cli\"]",
+        "translatedContent": "        CLI[\"wsl-screenshot-cli\"]"
+      },
+      {
+        "row": 5,
+        "rowsha": "zeIZvrggKj0KsKtXezo+asv+rRgg/sQfIA3DEWsAeto=",
+        "originContent": "        Poller",
+        "translatedContent": "        Poller"
+      },
+      {
+        "row": 6,
+        "rowsha": "vY3UapBhLxDb24PWxNxI37BShdJfHJ2V+sdgTgTykO4=",
+        "originContent": "        GoClient[\"Clipboard Client\"]",
+        "translatedContent": "        GoClient[\"Clipboard Client\"]"
+      },
+      {
+        "row": 7,
+        "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+        "originContent": "    end",
+        "translatedContent": "    end"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "81Mj53ur/NLV1bZ1JxeWvv7vdwN/HsBll4Avw7cU0+Q=",
+        "originContent": "    subgraph Windows",
+        "translatedContent": "    subgraph Windows"
+      },
+      {
+        "row": 10,
+        "rowsha": "CXQldA42hmvwqe6AznWAlZtTlinf58qZgfaJLVg1vWY=",
+        "originContent": "        PS[\"PowerShell · STA\"]",
+        "translatedContent": "        PS[\"PowerShell · STA\"]"
+      },
+      {
+        "row": 11,
+        "rowsha": "H+h+KR7ivaafb4IDFVonXbcYKmoseEx2vtQCRUKLz80=",
+        "originContent": "        DotNet[\".NET Clipboard API\"]",
+        "translatedContent": "        DotNet[\".NET Clipboard API\"]"
+      },
+      {
+        "row": 12,
+        "rowsha": "mdUthWt1rtwCzihJq4OVqBPPJPC8Lq53s0nXdN6Ve0k=",
+        "originContent": "        CB[\"Clipboard\"]",
+        "translatedContent": "        CB[\"Clipboard\"]"
+      },
+      {
+        "row": 13,
+        "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+        "originContent": "    end",
+        "translatedContent": "    end"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "9tP/kzR8kQZz5D0cIPtMrPwoPr6jMhuPyFcl247V48E=",
+        "originContent": "    subgraph Output",
+        "translatedContent": "    subgraph Output"
+      },
+      {
+        "row": 16,
+        "rowsha": "092epvj/qycETHfjP1e9T7OtbZQHFAEgXuKmKJA+CV4=",
+        "originContent": "        PNG[\"SHA256.png\"]",
+        "translatedContent": "        PNG[\"SHA256.png\"]"
+      },
+      {
+        "row": 17,
+        "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+        "originContent": "    end",
+        "translatedContent": "    end"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "ufPumpXTJou8atMuOhoAy/oFAnSGgmmhhff9fnRVekw=",
+        "originContent": "    CLI -- \"start / stop / status\" --> Poller",
+        "translatedContent": "    CLI -- \"start / stop / status\" --> Poller"
+      },
+      {
+        "row": 20,
+        "rowsha": "0VvLj7W6tlZxoE3CYhDcLTOtzGNPnFtMvsAyijaAcsY=",
+        "originContent": "    Poller -- \"poll every 250ms\" --> GoClient",
+        "translatedContent": "    Poller -- \"poll every 250ms\" --> GoClient"
+      },
+      {
+        "row": 21,
+        "rowsha": "ucufVrsj7XwHpCnH2cuubFwyC2zF+ZkwYm43qOO4C24=",
+        "originContent": "    GoClient -- \"stdin / stdout\" --> PS",
+        "translatedContent": "    GoClient -- \"stdin / stdout\" --> PS"
+      },
+      {
+        "row": 22,
+        "rowsha": "4ZGsSWqdy3rrTOPxwbI+soxOa1aBNakf/j1zuIT/n3M=",
+        "originContent": "    PS -- \"CHECK\" --> DotNet",
+        "translatedContent": "    PS -- \"CHECK\" --> DotNet"
+      },
+      {
+        "row": 23,
+        "rowsha": "xnwOwLSwhhqV2lzzKVaU1ph0IFc3Bu1i+Km4oUmpd1k=",
+        "originContent": "    DotNet -- \"read image\" --> CB",
+        "translatedContent": "    DotNet -- \"read image\" --> CB"
+      },
+      {
+        "row": 24,
+        "rowsha": "WR13vBvZpZGfT5+HmQUES4GXZ4RihV+rQMKX1rAr5IQ=",
+        "originContent": "    Poller -- \"save & dedup\" --> PNG",
+        "translatedContent": "    Poller -- \"save & dedup\" --> PNG"
+      },
+      {
+        "row": 25,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nA persistent `powershell.exe -STA` subprocess handles all clipboard access via a simple stdin/stdout text protocol (`CHECK` / `UPDATE` / `EXIT`). The Go side polls by sending `CHECK` commands; PowerShell uses pre-compiled .NET Clipboard APIs (`System.Windows.Forms.Clipboard`) for change detection — no runtime C# compilation, so it works even when EDR products (SentinelOne, CrowdStrike, etc.) block `csc.exe`. `DoEvents()` pumps Windows messages to keep the STA thread responsive — preventing freezes in Explorer, Snipping Tool, and other apps during clipboard operations.\n\nWhen a new screenshot is detected, the poller:\n\n1. Receives the image as base64 PNG from PowerShell\n2. Deduplicates by SHA256 hash and saves to disk\n3. Converts the WSL path to a Windows path via `wslpath -w`\n4. Tells PowerShell to set three clipboard formats at once\n\n### What Happens When You Paste\n\nAfter a screenshot is captured, the clipboard contains three formats simultaneously:\n\n| Where you paste | Clipboard format | What you get |\n|---|---|---|\n| WSL terminal (Ctrl+Shift+V) | `CF_UNICODETEXT` | File path: `/tmp/.wsl-screenshot-cli/<hash>.png` |\n| Windows image app (Paint, etc.) | `CF_BITMAP` | The screenshot as an image |\n| Windows Explorer / file dialog | `CF_HDROP` | The PNG file (paste-as-file) |\n\n## Usage\n\n### Start\n",
+    "ContentSha": "1kxmMlSvJUD1WMW6vVbi2OTp3102Q4KOe2fihneNdSQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "A persistent `powershell.exe -STA` subprocess handles all clipboard access via a simple stdin/stdout text protocol (`CHECK` / `UPDATE` / `EXIT`). The Go side polls by sending `CHECK` commands; PowerShell uses pre-compiled .NET Clipboard APIs (`System.Windows.Forms.Clipboard`) for change detection — no runtime C# compilation, so it works even when EDR products (SentinelOne, CrowdStrike, etc.) block `csc.exe`. `DoEvents()` pumps Windows messages to keep the STA thread responsive — preventing freezes in Explorer, Snipping Tool, and other apps during clipboard operations.\n\nWhen a new screenshot is detected, the poller:\n\n1. Receives the image as base64 PNG from PowerShell\n2. Deduplicates by SHA256 hash and saves to disk\n3. Converts the WSL path to a Windows path via `wslpath -w`\n4. Tells PowerShell to set three clipboard formats at once\n\n### What Happens When You Paste\n\nAfter a screenshot is captured, the clipboard contains three formats simultaneously:\n\n| Where you paste | Clipboard format | What you get |\n|---|---|---|\n| WSL terminal (Ctrl+Shift+V) | `CF_UNICODETEXT` | File path: `/tmp/.wsl-screenshot-cli/<hash>.png` |\n| Windows image app (Paint, etc.) | `CF_BITMAP` | The screenshot as an image |\n| Windows Explorer / file dialog | `CF_HDROP` | The PNG file (paste-as-file) |\n\n## Usage\n\n### Start\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "A persistent `powershell.exe -STA` subprocess handles all clipboard access via a simple stdin/stdout text protocol (`CHECK` / `UPDATE` / `EXIT`). The Go side polls by sending `CHECK` commands; PowerShell uses pre-compiled .NET Clipboard APIs (`System.Windows.Forms.Clipboard`) for change detection — no runtime C# compilation, so it works even when EDR products (SentinelOne, CrowdStrike, etc.) block `csc.exe`. `DoEvents()` pumps Windows messages to keep the STA thread responsive — preventing freezes in Explorer, Snipping Tool, and other apps during clipboard operations."
+      },
+      {
+        "row": 2,
+        "rowsha": "AQXzYav5rcUi0S7aycMyknG7NJF548yMds34VzwPvqE=",
+        "originContent": "A persistent `powershell.exe -STA` subprocess handles all clipboard access via a simple stdin/stdout text protocol (`CHECK` / `UPDATE` / `EXIT`). The Go side polls by sending `CHECK` commands; PowerShell uses pre-compiled .NET Clipboard APIs (`System.Windows.Forms.Clipboard`) for change detection — no runtime C# compilation, so it works even when EDR products (SentinelOne, CrowdStrike, etc.) block `csc.exe`. `DoEvents()` pumps Windows messages to keep the STA thread responsive — preventing freezes in Explorer, Snipping Tool, and other apps during clipboard operations.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "When a new screenshot is detected, the poller:"
+      },
+      {
+        "row": 4,
+        "rowsha": "rUSYLKnjNodM5aF7ALTe8bCg9jpFZcnGW+5TXtdn5tE=",
+        "originContent": "When a new screenshot is detected, the poller:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Receives the image as base64 PNG from PowerShell"
+      },
+      {
+        "row": 6,
+        "rowsha": "Hnw2SVq9vg+xZE6+ut1em8b1TWr7IsMyDAt/7speQGQ=",
+        "originContent": "1. Receives the image as base64 PNG from PowerShell",
+        "translatedContent": "2. Deduplicates by SHA256 hash and saves to disk"
+      },
+      {
+        "row": 7,
+        "rowsha": "GUaQZvdg8zCt4y3QiXYGL9U5wfrwIoDLUN1/8NTx9Ow=",
+        "originContent": "2. Deduplicates by SHA256 hash and saves to disk",
+        "translatedContent": "3. Converts the WSL path to a Windows path via `wslpath -w`"
+      },
+      {
+        "row": 8,
+        "rowsha": "WCg/jctsOXl/uhq/UiIJf7sHGWCCAiOqUwHR2G7ZxPs=",
+        "originContent": "3. Converts the WSL path to a Windows path via `wslpath -w`",
+        "translatedContent": "4. Tells PowerShell to set three clipboard formats at once"
+      },
+      {
+        "row": 9,
+        "rowsha": "Szsfhj5o/SCKtLFUtJkxBuxEsE2syLPSEU8Tfq+f9eg=",
+        "originContent": "4. Tells PowerShell to set three clipboard formats at once",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### What Happens When You Paste"
+      },
+      {
+        "row": 11,
+        "rowsha": "irgneBqYjT74oTC9TvscdWWEGGLBUsLEbGZJC8FEMBo=",
+        "originContent": "### What Happens When You Paste",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "After a screenshot is captured, the clipboard contains three formats simultaneously:"
+      },
+      {
+        "row": 13,
+        "rowsha": "DQ4GY5FNELknzXHdx+1Mw6ciUmhleEZyt4CU8aQvXK4=",
+        "originContent": "After a screenshot is captured, the clipboard contains three formats simultaneously:",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Where you paste | Clipboard format | What you get |"
+      },
+      {
+        "row": 15,
+        "rowsha": "i0IouV+/Mm0zdrBKutT1F8p5fGtC5PSVFF6ibYPHgsQ=",
+        "originContent": "| Where you paste | Clipboard format | What you get |",
+        "translatedContent": "|---|---|---|"
+      },
+      {
+        "row": 16,
+        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+        "originContent": "|---|---|---|",
+        "translatedContent": "| WSL terminal (Ctrl+Shift+V) | `CF_UNICODETEXT` | File path: `/tmp/.wsl-screenshot-cli/<hash>.png` |"
+      },
+      {
+        "row": 17,
+        "rowsha": "wc9Q0lUNKihdRrEU6rmQC02j0pqGj14jZQnSMbFtqRE=",
+        "originContent": "| WSL terminal (Ctrl+Shift+V) | `CF_UNICODETEXT` | File path: `/tmp/.wsl-screenshot-cli/<hash>.png` |",
+        "translatedContent": "| Windows image app (Paint, etc.) | `CF_BITMAP` | The screenshot as an image |"
+      },
+      {
+        "row": 18,
+        "rowsha": "KTNShFzskblonOrkRzF9pfBiU/G7ucRgC1qtZR18U8k=",
+        "originContent": "| Windows image app (Paint, etc.) | `CF_BITMAP` | The screenshot as an image |",
+        "translatedContent": "| Windows Explorer / file dialog | `CF_HDROP` | The PNG file (paste-as-file) |"
+      },
+      {
+        "row": 19,
+        "rowsha": "py18f7u50xFSqHJ6vR7LZm8+5pzl/O/RztEgZttxEsE=",
+        "originContent": "| Windows Explorer / file dialog | `CF_HDROP` | The PNG file (paste-as-file) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 21,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Start"
+      },
+      {
+        "row": 23,
+        "rowsha": "+ZjWfnEcsQnppfRReRquqQUgqUvEUMKFKY2Lp0v7KIc=",
+        "originContent": "### Start",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\n# Foreground (useful for debugging)\nwsl-screenshot-cli start\n\n# Background daemon (typical usage)\nwsl-screenshot-cli start --daemon\n\n# Custom interval and output directory\nwsl-screenshot-cli start --daemon --interval 1000 --output ~/screenshots/\n\n# Debug mode — logs all PowerShell I/O\nwsl-screenshot-cli start --verbose\n```",
+    "ContentSha": "V+HikNhbhr3ssw10Iq/i4woXMtQJ2/NloWjH/6NCNSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Foreground (useful for debugging)\nwsl-screenshot-cli start\n\n# Background daemon (typical usage)\nwsl-screenshot-cli start --daemon\n\n# Custom interval and output directory\nwsl-screenshot-cli start --daemon --interval 1000 --output ~/screenshots/\n\n# Debug mode — logs all PowerShell I/O\nwsl-screenshot-cli start --verbose\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "sTbxBNhNV5RIurM0auxpYnj73JOrWaItqhlrxLNrLPE=",
+        "originContent": "# Foreground (useful for debugging)",
+        "translatedContent": "# Foreground (useful for debugging)"
+      },
+      {
+        "row": 3,
+        "rowsha": "vblyagxuu+e5lfpHysT62FnANEGo7+9k52eBdTUirc4=",
+        "originContent": "wsl-screenshot-cli start",
+        "translatedContent": "wsl-screenshot-cli start"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "xgdxYRxaIooUQORdFDjlxMDQ7vjNqN3NZ2NCs3uf6co=",
+        "originContent": "# Background daemon (typical usage)",
+        "translatedContent": "# Background daemon (typical usage)"
+      },
+      {
+        "row": 6,
+        "rowsha": "HNfc5/AnulUsXZgVjQVSGZGHAFM+tLn42gH/ryKd8fU=",
+        "originContent": "wsl-screenshot-cli start --daemon",
+        "translatedContent": "wsl-screenshot-cli start --daemon"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "0rdSvESA3VHcDtuz4yl5y3EW6Z+GKsENXMbtWNs0ddw=",
+        "originContent": "# Custom interval and output directory",
+        "translatedContent": "# Custom interval and output directory"
+      },
+      {
+        "row": 9,
+        "rowsha": "6Kwdf0VdWiatfqEiLMD1klClh8WDbXHxF0Ug5wPstgs=",
+        "originContent": "wsl-screenshot-cli start --daemon --interval 1000 --output ~/screenshots/",
+        "translatedContent": "wsl-screenshot-cli start --daemon --interval 1000 --output ~/screenshots/"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ajdu5Pon+CblR2uHSxnwK718YMWSz1VJUBpa9rRqZPI=",
+        "originContent": "# Debug mode — logs all PowerShell I/O",
+        "translatedContent": "# Debug mode — logs all PowerShell I/O"
+      },
+      {
+        "row": 12,
+        "rowsha": "eHF38bTF4472LBScsfil/BQWJrvkD/xOturkTVEeM5c=",
+        "originContent": "wsl-screenshot-cli start --verbose",
+        "translatedContent": "wsl-screenshot-cli start --verbose"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n| Flag | Short | Default | Description |\n|---|---|---|---|\n| `--daemon` | `-d` | `false` | Run as a background daemon |\n| `--interval` | `-i` | `250` | Polling interval in ms (100–5000) |\n| `--output` | `-o` | `/tmp/.wsl-screenshot-cli/` | Directory to store PNGs |\n| `--quiet` | `-q` | `false` | Suppress informational messages |\n| `--verbose` | `-v` | `false` | Log all PowerShell I/O for debugging |\n\n### Status\n",
+    "ContentSha": "PcMEIoGycQ7XCLy1QiSMZvXZRkIYcRCpJXMMED34m7s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n| Flag | Short | Default | Description |\n|---|---|---|---|\n| `--daemon` | `-d` | `false` | Run as a background daemon |\n| `--interval` | `-i` | `250` | Polling interval in ms (100–5000) |\n| `--output` | `-o` | `/tmp/.wsl-screenshot-cli/` | Directory to store PNGs |\n| `--quiet` | `-q` | `false` | Suppress informational messages |\n| `--verbose` | `-v` | `false` | Log all PowerShell I/O for debugging |\n\n### Status\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oolUxXM5KGjGWkZc8cBMxPdY6PJjGQYHpRE6IJQzpZE=",
+        "originContent": "| Flag | Short | Default | Description |",
+        "translatedContent": "| Flag | Short | Default | Description |"
+      },
+      {
+        "row": 3,
+        "rowsha": "TaHsb0d4IJAQLcFr2peO+1ZV+/Ldzg+E7PH695qTDy0=",
+        "originContent": "|---|---|---|---|",
+        "translatedContent": "|---|---|---|---|"
+      },
+      {
+        "row": 4,
+        "rowsha": "FYoIc67TooCFQS7cOTYGpRWOaViso/rKw8kA3wCsPrU=",
+        "originContent": "| `--daemon` | `-d` | `false` | Run as a background daemon |",
+        "translatedContent": "| `--daemon` | `-d` | `false` | Run as a background daemon |"
+      },
+      {
+        "row": 5,
+        "rowsha": "cotNnucTPHyoTE0j3wh8yDnQQd2uyDtor2x1XGwGxzs=",
+        "originContent": "| `--interval` | `-i` | `250` | Polling interval in ms (100–5000) |",
+        "translatedContent": "| `--interval` | `-i` | `250` | Polling interval in ms (100–5000) |"
+      },
+      {
+        "row": 6,
+        "rowsha": "fN+faZnKIWyQM/UgG3dKjX5zyTswbOf1D1TDJ3Pf504=",
+        "originContent": "| `--output` | `-o` | `/tmp/.wsl-screenshot-cli/` | Directory to store PNGs |",
+        "translatedContent": "| `--output` | `-o` | `/tmp/.wsl-screenshot-cli/` | Directory to store PNGs |"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ft2wsr2DStBZIZD45et675YAQyK6Dv1QG23ed0gXniM=",
+        "originContent": "| `--quiet` | `-q` | `false` | Suppress informational messages |",
+        "translatedContent": "| `--quiet` | `-q` | `false` | Suppress informational messages |"
+      },
+      {
+        "row": 8,
+        "rowsha": "RkA/MjfJn6SubUyc1ZvXQsdT6MXSN+B5nemHkcAVOsY=",
+        "originContent": "| `--verbose` | `-v` | `false` | Log all PowerShell I/O for debugging |",
+        "translatedContent": "| `--verbose` | `-v` | `false` | Log all PowerShell I/O for debugging |"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "7CuN+mjb73/PeTIhDhjVg+8Znq/JQOqD13LlD22pKqU=",
+        "originContent": "### Status",
+        "translatedContent": "### Status"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\n$ wsl-screenshot-cli status\nStatus:       running\nPID:          12345\nUptime:       2h 15m 30s\nCPU usage:    2.5%\nMemory:       45.2 MB\nScreenshots:  127\nOutput dir:   /tmp/.wsl-screenshot-cli/\nLog file:     /tmp/.wsl-screenshot-cli.log\n```",
+    "ContentSha": "yykRpX7CONDdbUO14k/LHDHrNCp8VkiXmcLASKfPsyU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ wsl-screenshot-cli status\nStatus:       running\nPID:          12345\nUptime:       2h 15m 30s\nCPU usage:    2.5%\nMemory:       45.2 MB\nScreenshots:  127\nOutput dir:   /tmp/.wsl-screenshot-cli/\nLog file:     /tmp/.wsl-screenshot-cli.log\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aP+quXXlg7XVpvuaIsjwDdTarTrwT48ccNRpmbyJiXc=",
+        "originContent": "$ wsl-screenshot-cli status",
+        "translatedContent": "$ wsl-screenshot-cli status"
+      },
+      {
+        "row": 3,
+        "rowsha": "bztvcwfDERv3jutBwaL9QSTJwShfKoh17EsRyi+wqKQ=",
+        "originContent": "Status:       running",
+        "translatedContent": "Status:       running"
+      },
+      {
+        "row": 4,
+        "rowsha": "MlfbXmMceLFxqB8qOSM88sViGLHnIKTt3SQLo3Acd9U=",
+        "originContent": "PID:          12345",
+        "translatedContent": "PID:          12345"
+      },
+      {
+        "row": 5,
+        "rowsha": "ztwVCkAvo3MLovOGOpVq+K58Ej2GFQxAj+LIYuuJboQ=",
+        "originContent": "Uptime:       2h 15m 30s",
+        "translatedContent": "Uptime:       2h 15m 30s"
+      },
+      {
+        "row": 6,
+        "rowsha": "j52pDTxy5oX/MP/8dkIGKQv5D3zhK79JCjWT/Qu+3kc=",
+        "originContent": "CPU usage:    2.5%",
+        "translatedContent": "CPU usage:    2.5%"
+      },
+      {
+        "row": 7,
+        "rowsha": "tZd6klvDqWbQ59Ur24l438OlueEUcoKkvXl9aR8LPEg=",
+        "originContent": "Memory:       45.2 MB",
+        "translatedContent": "Memory:       45.2 MB"
+      },
+      {
+        "row": 8,
+        "rowsha": "VezVHsUMFkbrTVwedcFcvNDfHFiqaloCikbo+5fMxiQ=",
+        "originContent": "Screenshots:  127",
+        "translatedContent": "Screenshots:  127"
+      },
+      {
+        "row": 9,
+        "rowsha": "KZxwOptgylDiR+U61aQBCyuADMnnV8ZfVaJFDmV44Nw=",
+        "originContent": "Output dir:   /tmp/.wsl-screenshot-cli/",
+        "translatedContent": "Output dir:   /tmp/.wsl-screenshot-cli/"
+      },
+      {
+        "row": 10,
+        "rowsha": "ImwrRg5T/S5qv9aP30YBywjBlEGJk/MB6z//4hy9XIc=",
+        "originContent": "Log file:     /tmp/.wsl-screenshot-cli.log",
+        "translatedContent": "Log file:     /tmp/.wsl-screenshot-cli.log"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Stop\n",
+    "ContentSha": "tzJNJYWB1Fjt7VDDLpTnIkDeTN0VOxA1lSXVPrl5e3s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Stop\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Stop"
+      },
+      {
+        "row": 2,
+        "rowsha": "zyIZji9C+zX/Xgh/s4vy3MvC59lC8uSJISZUOYYGaWE=",
+        "originContent": "### Stop",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bash\nwsl-screenshot-cli stop\n```",
+    "ContentSha": "FG3eP2czPE/5sPBGqAEMjIjEJvrm4ZkowgqCJTXn3OI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwsl-screenshot-cli stop\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "sNtJn+3ZQcrk8hQSTxY0Y3q8kbbJPRkYS86zSgrxnNA=",
+        "originContent": "wsl-screenshot-cli stop",
+        "translatedContent": "wsl-screenshot-cli stop"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Update\n",
+    "ContentSha": "0KfLXyYX+EZtO9NHJ8w/dozz6rx2dAAbUCBjV/BbH+c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Update\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ssSJAgg38PqeqMuiXawYsqaO0+hL0+Q/hRGHxsC844U=",
+        "originContent": "### Update",
+        "translatedContent": "### Update"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\nwsl-screenshot-cli update\n```",
+    "ContentSha": "ICW6H89PDIHzug4et1S9QXeSM9PzmjRL1u465tomu4c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwsl-screenshot-cli update\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "hZxu881yJkv6vrSxTWwi9xFeyFFlERjKszo6wqMA5ls=",
+        "originContent": "wsl-screenshot-cli update",
+        "translatedContent": "wsl-screenshot-cli update"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nUpdates to the latest release from GitHub. If the daemon is running, it will be stopped before updating. Re-running the install script when already on the latest version will skip the download.\n\n## Prerequisites\n\n- **WSL2** with Windows interop enabled\n- **PowerShell** accessible from WSL (`powershell.exe` must be in PATH)\n- **Go 1.25+** (only if building from source)\n\n## Tests\n\n### Requirements\n\n- **Go 1.25+**\n- **gcc** — required for the `-race` flag (cgo dependency). Install with:",
+    "ContentSha": "Q8etV/f3eyRtEA6AULz5Z+IEbxq8fz7A8MvoSa4v84Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nUpdates to the latest release from GitHub. If the daemon is running, it will be stopped before updating. Re-running the install script when already on the latest version will skip the download.\n\n## Prerequisites\n\n- **WSL2** with Windows interop enabled\n- **PowerShell** accessible from WSL (`powershell.exe` must be in PATH)\n- **Go 1.25+** (only if building from source)\n\n## Tests\n\n### Requirements\n\n- **Go 1.25+**\n- **gcc** — required for the `-race` flag (cgo dependency). Install with:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "M6sVGhlbyrUD2mHET+Dym7eWZQN9r6zYiT6cwiRdj5w=",
+        "originContent": "Updates to the latest release from GitHub. If the daemon is running, it will be stopped before updating. Re-running the install script when already on the latest version will skip the download.",
+        "translatedContent": "Updates to the latest release from GitHub. If the daemon is running, it will be stopped before updating. Re-running the install script when already on the latest version will skip the download."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## Prerequisites"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/5cOw7u0Ukz3QGwE4BQ03uDzxfgnn0R13WryW81O0Sc=",
+        "originContent": "- **WSL2** with Windows interop enabled",
+        "translatedContent": "- **WSL2** with Windows interop enabled"
+      },
+      {
+        "row": 7,
+        "rowsha": "QXOxlPOTklkA2S3pbUAO8t8HOcWCL8trNiO/LA0xbZA=",
+        "originContent": "- **PowerShell** accessible from WSL (`powershell.exe` must be in PATH)",
+        "translatedContent": "- **PowerShell** accessible from WSL (`powershell.exe` must be in PATH)"
+      },
+      {
+        "row": 8,
+        "rowsha": "8MQcwX50YmzZEml0Q1hmMqG3SC0bKQdH4xkvLS60vY8=",
+        "originContent": "- **Go 1.25+** (only if building from source)",
+        "translatedContent": "- **Go 1.25+** (only if building from source)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ixorykg8zuCaRukP5G6Nu9Bs0rAGdXVyc8AggtYxu0k=",
+        "originContent": "## Tests",
+        "translatedContent": "## Tests"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "KwwZECoP4kRDXuM51+OU8riOqXaInCVmQBkA2VtaG7g=",
+        "originContent": "### Requirements",
+        "translatedContent": "### Requirements"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "h0NZ9GqOj/NTqHc6XC1E23qVvwg551fTOcLKTAYzNT0=",
+        "originContent": "- **Go 1.25+**",
+        "translatedContent": "- **Go 1.25+**"
+      },
+      {
+        "row": 15,
+        "rowsha": "rHpwuSFpZtWr0xqv5UTDZBGbdVeOkPIcqat10yUM3Qg=",
+        "originContent": "- **gcc** — required for the `-race` flag (cgo dependency). Install with:",
+        "translatedContent": "- **gcc** — required for the `-race` flag (cgo dependency). Install with:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "  ```bash\n  sudo apt update && sudo apt install -y gcc\n  ```",
+    "ContentSha": "j2xyD737FOg7nzuwYUsDZgvjiz6LJPNZvSuu2gVproY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  sudo apt update && sudo apt install -y gcc\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "B6ZQ0gKb0LKs6qsJQF0Litf2JDJwE5w0DAqMmyxYm/Y=",
+        "originContent": "  sudo apt update && sudo apt install -y gcc",
+        "translatedContent": "  sudo apt update && sudo apt install -y gcc"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### Running tests\n\nRun the full suite with the race detector:\n",
+    "ContentSha": "21D1CA/gDcTkInNf5VdjBtIPoiE6mEUJiqnW/zqL28E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Running tests\n\nRun the full suite with the race detector:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rHpGYvzTu+C8XttkpDIfss7cQzzIRlUR/yRO8wb71sw=",
+        "originContent": "### Running tests",
+        "translatedContent": "### Running tests"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DWlN1XifDeFYn15ZBdahu/mk05KXqjF6/ocUsxRrMqQ=",
+        "originContent": "Run the full suite with the race detector:",
+        "translatedContent": "Run the full suite with the race detector:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bash\nCGO_ENABLED=1 go test -race -count=1 -v ./...\n```",
+    "ContentSha": "iNdn6GiPgRSdgPZdv3ryYHn77tYd/LFe+7sakvaVgL4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nCGO_ENABLED=1 go test -race -count=1 -v ./...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "B70agmT0Y5lA4uT6eNxE7WQYwsVRXlgH3yHU4BFxU4w=",
+        "originContent": "CGO_ENABLED=1 go test -race -count=1 -v ./...",
+        "translatedContent": "CGO_ENABLED=1 go test -race -count=1 -v ./..."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nWithout gcc, you can still run tests without race detection:\n",
+    "ContentSha": "en+rBh9g8hWAI7/AetAv3PJVlepKCajhnUbYc2YY69M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nWithout gcc, you can still run tests without race detection:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "r5iU/nWi44+Y5jBXKDpqeTAJchLlwJ2uvm06+zxON9M=",
+        "originContent": "Without gcc, you can still run tests without race detection:",
+        "translatedContent": "Without gcc, you can still run tests without race detection:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```bash\ngo test -count=1 -v ./...\n```",
+    "ContentSha": "Npk3G2A84rsgkbphv5WyhGQ9gCURoQceT8Rgern2Di4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo test -count=1 -v ./...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "WU1hF5S24zZEzOzHaa0Jp6M9GEm1IPpSbaua5EaYslk=",
+        "originContent": "go test -count=1 -v ./...",
+        "translatedContent": "go test -count=1 -v ./..."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n## Project Structure\n",
+    "ContentSha": "Xp0+GUdICCPsqucpL8zEFe8P1DQ93oAnF/F+IXMMsiw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Project Structure\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fgyvOUxAVQzAAJBynGYLLFVgQh7X0IXOshtNb9Ky0Sw=",
+        "originContent": "## Project Structure",
+        "translatedContent": "## Project Structure"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```\n├── main.go                        # Entry point\n├── cmd/\n│   ├── root.go                    # Root cobra command\n│   ├── start.go                   # start command (flags, daemon/foreground)\n│   ├── status.go                  # status command (process diagnostics)\n│   ├── stop.go                    # stop command (SIGTERM)\n│   └── update.go                  # update command (self-update via install script)\n└── internal/\n    ├── clipboard/\n    │   ├── clipboard.go           # Go ↔ PowerShell client (stdin/stdout pipes)\n    │   └── clipboard.ps1          # Embedded PowerShell script (Win32 clipboard)\n    ├── daemon/\n    │   ├── daemon.go              # Daemonize, PID management, lifecycle\n    │   └── status.go              # /proc parsing (CPU, memory, uptime)\n    ├── platform/\n    │   └── platform.go            # WSL environment checks\n    └── poller/\n        └── poller.go              # Poll loop, SHA256 dedup, circuit breaker\n```",
+    "ContentSha": "XVnh87UohU/UFYKJ1uw0aXfhNdFaiUmDUT0eGDqD8gc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n├── main.go                        # Entry point\n├── cmd/\n│   ├── root.go                    # Root cobra command\n│   ├── start.go                   # start command (flags, daemon/foreground)\n│   ├── status.go                  # status command (process diagnostics)\n│   ├── stop.go                    # stop command (SIGTERM)\n│   └── update.go                  # update command (self-update via install script)\n└── internal/\n    ├── clipboard/\n    │   ├── clipboard.go           # Go ↔ PowerShell client (stdin/stdout pipes)\n    │   └── clipboard.ps1          # Embedded PowerShell script (Win32 clipboard)\n    ├── daemon/\n    │   ├── daemon.go              # Daemonize, PID management, lifecycle\n    │   └── status.go              # /proc parsing (CPU, memory, uptime)\n    ├── platform/\n    │   └── platform.go            # WSL environment checks\n    └── poller/\n        └── poller.go              # Poll loop, SHA256 dedup, circuit breaker\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ShOzdCS9oMAMBn/ASwyKKaA5nphkYT37e4huZvQ0rSg=",
+        "originContent": "├── main.go                        # Entry point",
+        "translatedContent": "├── main.go                        # Entry point"
+      },
+      {
+        "row": 3,
+        "rowsha": "lFVxTPVxiwzROgv/4olMTzS7IwWZWJQ+VghR/+j1Rc8=",
+        "originContent": "├── cmd/",
+        "translatedContent": "├── cmd/"
+      },
+      {
+        "row": 4,
+        "rowsha": "MTufUWqYMIR+NEAFBW7KyBV+0W/uevUC5UQqiAovJbA=",
+        "originContent": "│   ├── root.go                    # Root cobra command",
+        "translatedContent": "│   ├── root.go                    # Root cobra command"
+      },
+      {
+        "row": 5,
+        "rowsha": "xkoGpA5y7yXpTzC+cC/A2kn/MDyOjuUVgUaVqH+fEqs=",
+        "originContent": "│   ├── start.go                   # start command (flags, daemon/foreground)",
+        "translatedContent": "│   ├── start.go                   # start command (flags, daemon/foreground)"
+      },
+      {
+        "row": 6,
+        "rowsha": "MnLdhH7OdY92cX0mKF7sNBkN2z2ej5iybvuZWWvcCXg=",
+        "originContent": "│   ├── status.go                  # status command (process diagnostics)",
+        "translatedContent": "│   ├── status.go                  # status command (process diagnostics)"
+      },
+      {
+        "row": 7,
+        "rowsha": "DP+cYjiodDIaQ/I34eAC1sg6O0uorqwHGJw0WUkj6tw=",
+        "originContent": "│   ├── stop.go                    # stop command (SIGTERM)",
+        "translatedContent": "│   ├── stop.go                    # stop command (SIGTERM)"
+      },
+      {
+        "row": 8,
+        "rowsha": "trOsPSAnjK5qizn2OTWlAbckrXBHcNGlTN0kQZ45rAg=",
+        "originContent": "│   └── update.go                  # update command (self-update via install script)",
+        "translatedContent": "│   └── update.go                  # update command (self-update via install script)"
+      },
+      {
+        "row": 9,
+        "rowsha": "8uA6c//W7uJe1h7JJWGWNTlsK3TVhN+QpnqhzuRTSIo=",
+        "originContent": "└── internal/",
+        "translatedContent": "└── internal/"
+      },
+      {
+        "row": 10,
+        "rowsha": "bnm+hwQs1BM2Dz7i9hdiCZHPJwqyVf8UXQPw1A3u9RM=",
+        "originContent": "    ├── clipboard/",
+        "translatedContent": "    ├── clipboard/"
+      },
+      {
+        "row": 11,
+        "rowsha": "joklzHODcEWusZqhK9Bb+2QJCKHp88tQW/RlSL0SJmo=",
+        "originContent": "    │   ├── clipboard.go           # Go ↔ PowerShell client (stdin/stdout pipes)",
+        "translatedContent": "    │   ├── clipboard.go           # Go ↔ PowerShell client (stdin/stdout pipes)"
+      },
+      {
+        "row": 12,
+        "rowsha": "AV/woOyTGywISck1PJB1VGjqPDxHFU8mQ2dElx83BfY=",
+        "originContent": "    │   └── clipboard.ps1          # Embedded PowerShell script (Win32 clipboard)",
+        "translatedContent": "    │   └── clipboard.ps1          # Embedded PowerShell script (Win32 clipboard)"
+      },
+      {
+        "row": 13,
+        "rowsha": "i/JrDeHUJiTGrYjZRshoeLAnPyI4tdE3hZdwCqjSZaA=",
+        "originContent": "    ├── daemon/",
+        "translatedContent": "    ├── daemon/"
+      },
+      {
+        "row": 14,
+        "rowsha": "endcwSeb+OG8D+Q6xpfQDwg+K+RUenwzfzk2XSkFWZM=",
+        "originContent": "    │   ├── daemon.go              # Daemonize, PID management, lifecycle",
+        "translatedContent": "    │   ├── daemon.go              # Daemonize, PID management, lifecycle"
+      },
+      {
+        "row": 15,
+        "rowsha": "QDFMxANPEtfASbJPd5oF5Jswyt23K5CcLNSiz4BCtxY=",
+        "originContent": "    │   └── status.go              # /proc parsing (CPU, memory, uptime)",
+        "translatedContent": "    │   └── status.go              # /proc parsing (CPU, memory, uptime)"
+      },
+      {
+        "row": 16,
+        "rowsha": "BDadTeHlytNhvbE5bqsvD30zyT4gg/7zKIIcC/B0r7E=",
+        "originContent": "    ├── platform/",
+        "translatedContent": "    ├── platform/"
+      },
+      {
+        "row": 17,
+        "rowsha": "HhIRJjREP0q6ogFlKl1Sgy3mXyAMqSUayV5vze8d/ls=",
+        "originContent": "    │   └── platform.go            # WSL environment checks",
+        "translatedContent": "    │   └── platform.go            # WSL environment checks"
+      },
+      {
+        "row": 18,
+        "rowsha": "Pw8H+dMSO2JMDcFFKhHs8JIBQ0PqhDw70TavJGPpthQ=",
+        "originContent": "    └── poller/",
+        "translatedContent": "    └── poller/"
+      },
+      {
+        "row": 19,
+        "rowsha": "eCZ0sOaH2zUtncF7E/10+7wQ/0dP+z3vo+92Va86fcc=",
+        "originContent": "        └── poller.go              # Poll loop, SHA256 dedup, circuit breaker",
+        "translatedContent": "        └── poller.go              # Poll loop, SHA256 dedup, circuit breaker"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
