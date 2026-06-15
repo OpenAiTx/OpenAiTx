@@ -1,0 +1,913 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Trimmer\n\n[![ci](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml)\n[![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)\n[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)\n[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jonlabelle/Trimmer/blob/master/LICENSE.md)\n\n> [Trimmer](https://github.com/jonlabelle/Trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.\n\n## Features\n\n- Trim whitespace at the end of each line.\n- Trim whitespace at the start of each line.\n- Trim whitespace at the start and end of each line.\n- Trim whitespace from selection(s).\n- Delete empty, whitespace only lines.\n- Collapse multiple consecutive empty lines into one empty line.\n- Collapse multiple consecutive spaces into one space.\n- Trim empty, whitespace only lines at the beginning and end of file.\n- Remove blank space characters.\n- Normalize spaces (consecutive spaces reduced, empty lines removed and lines trimmed).\n- Tokenize a string by collapsing consecutive spaces, and trimming leading and trailing spaces.\n- Delete empty, whitespace only HTML and XML tags.\n- Remove code comments and collapse lines.\n- Delete adjacent duplicate lines.\n\n## Additional Features\n\nA **Replace Smart Characters** command that performs the following actions:\n\n- **Smart single quotes:** `’` _to_ `'`\n- **Smart double quotes:** `“` _to_ `\"`\n- **Prime:** `′` _to_ `'`\n- **Double Prime:** `″` _to_ `\"`\n- **German quotes:** `„` _to_ `\"` and `‚` _to_ `'`\n- **Ellipsis:** `…` _to_ `...`\n- **Em dash:** `—` _to_ `---`\n- **En dash:** `–` _to_ `--`\n- **Bullet:** `•` _to_ `*`\n- **Middle dot:** `·` _to_ `-`",
+    "ContentSha": "yquATEfJ073h/iDVkSbhaT8pKxSFQW+KgVOhSsF7KJc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Trimmer\n\n[![ci](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml)\n[![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)\n[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)\n[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jonlabelle/Trimmer/blob/master/LICENSE.md)\n\n> [Trimmer](https://github.com/jonlabelle/Trimmer) 是一个用于清理空白字符的 [Sublime Text](http://www.sublimetext.com) 插件。\n\n## 功能\n\n- 修剪每行末尾的空白字符。\n- 修剪每行开头的空白字符。\n- 修剪每行开头和末尾的空白字符。\n- 修剪选中的内容中的空白字符。\n- 删除空行及仅包含空白字符的行。\n- 将连续多个空行合并为一行空行。\n- 将连续多个空格合并为一个空格。\n- 修剪文件开头和结尾的空行及仅包含空白字符的行。\n- 移除空白字符。\n- 规范化空格（减少连续空格，删除空行并修剪行）。\n- 通过合并连续空格并修剪首尾空白来分词字符串。\n- 删除空的、仅包含空白字符的 HTML 和 XML 标签。\n- 移除代码注释并合并行。\n- 删除相邻重复的行。\n\n## 额外功能\n\n一个 **替换智能字符** 命令，执行以下操作：\n\n- **智能单引号：** `’` _替换为_ `'`\n- **智能双引号：** `“` _替换为_ `\"`\n- **分钟符号：** `′` _替换为_ `'`\n- **秒钟符号：** `″` _替换为_ `\"`\n- **德语引号：** `„` _替换为_ `\"` 和 `‚` _替换为_ `'`\n- **省略号：** `…` _替换为_ `...`\n- **长破折号：** `—` _替换为_ `---`\n- **短破折号：** `–` _替换为_ `--`\n- **项目符号：** `•` _替换为_ `*`\n- **中点符号：** `·` _替换为_ `-`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QN5R0lNhVqENw+2c5k3b2Wli5lR7m5UU0k07BmbjDnc=",
+        "originContent": "# Trimmer",
+        "translatedContent": "# Trimmer"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "uIMC8IGXRNreGV8NN//Iew6L8eYXX3M6EIE0QwouLM8=",
+        "originContent": "[![ci](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml)",
+        "translatedContent": "[![ci](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8eczSZnBsmTBAH/G87HHSK8zvE46J47QTSD2HjzfzuQ=",
+        "originContent": "[![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)",
+        "translatedContent": "[![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)"
+      },
+      {
+        "row": 5,
+        "rowsha": "bgLM9ZiZPeWRJ3uvwZnZKSRxto+V9ih4vvadbLKRDFs=",
+        "originContent": "[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)",
+        "translatedContent": "[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)"
+      },
+      {
+        "row": 6,
+        "rowsha": "lovsfi/ZXJiejgSa944dFaHpL6tGK34h7kq4vfJisEY=",
+        "originContent": "[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jonlabelle/Trimmer/blob/master/LICENSE.md)",
+        "translatedContent": "[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jonlabelle/Trimmer/blob/master/LICENSE.md)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "vGgiPraExXHmzvS/WFQYJ9MDg343ykcE88aRFQgpeoo=",
+        "originContent": "> [Trimmer](https://github.com/jonlabelle/Trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.",
+        "translatedContent": "> [Trimmer](https://github.com/jonlabelle/Trimmer) 是一个用于清理空白字符的 [Sublime Text](http://www.sublimetext.com) 插件。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "SM5Yz9/w4TK6UHfhq2+KovA85cBNSlGvoCGPaQ7VmB0=",
+        "originContent": "- Trim whitespace at the end of each line.",
+        "translatedContent": "- 修剪每行末尾的空白字符。"
+      },
+      {
+        "row": 13,
+        "rowsha": "9Wu8aetRk1pS/Zw9HxDl9sIm1u+EL3nlWhCVLcd3YDA=",
+        "originContent": "- Trim whitespace at the start of each line.",
+        "translatedContent": "- 修剪每行开头的空白字符。"
+      },
+      {
+        "row": 14,
+        "rowsha": "rLwCzC0w7gi+1A0IkLMkrT3P7SHugd4702QofgSCsNI=",
+        "originContent": "- Trim whitespace at the start and end of each line.",
+        "translatedContent": "- 修剪每行开头和末尾的空白字符。"
+      },
+      {
+        "row": 15,
+        "rowsha": "AoZdZvYNLu4kQWC9DvdJ6YFoyWTDGqJXbCb2peVoZys=",
+        "originContent": "- Trim whitespace from selection(s).",
+        "translatedContent": "- 修剪选中的内容中的空白字符。"
+      },
+      {
+        "row": 16,
+        "rowsha": "45RKzJzasGMv8/Scvvk7iVzGq9LOY+l2xW/RGAFCb0Y=",
+        "originContent": "- Delete empty, whitespace only lines.",
+        "translatedContent": "- 删除空行及仅包含空白字符的行。"
+      },
+      {
+        "row": 17,
+        "rowsha": "iGZMcHmUundtViOqM27iQortXw9ny0uyBY3x0U8/xms=",
+        "originContent": "- Collapse multiple consecutive empty lines into one empty line.",
+        "translatedContent": "- 将连续多个空行合并为一行空行。"
+      },
+      {
+        "row": 18,
+        "rowsha": "fvyVZJjamfsRl9YoYsUbieCj6hedYtVxwfwcpuj4WVQ=",
+        "originContent": "- Collapse multiple consecutive spaces into one space.",
+        "translatedContent": "- 将连续多个空格合并为一个空格。"
+      },
+      {
+        "row": 19,
+        "rowsha": "9sPWdk54+UXvBmhjxcsTr6u6Xf4oKicjdggKf105C+I=",
+        "originContent": "- Trim empty, whitespace only lines at the beginning and end of file.",
+        "translatedContent": "- 修剪文件开头和结尾的空行及仅包含空白字符的行。"
+      },
+      {
+        "row": 20,
+        "rowsha": "S9RDAR/kKKG7IRopcIdIklDnl4O9HRO3gGWN02Oif/Q=",
+        "originContent": "- Remove blank space characters.",
+        "translatedContent": "- 移除空白字符。"
+      },
+      {
+        "row": 21,
+        "rowsha": "EiBINFg3TQcyMuaLGttwgc6+lGBBbjxoUykHF7Ovjog=",
+        "originContent": "- Normalize spaces (consecutive spaces reduced, empty lines removed and lines trimmed).",
+        "translatedContent": "- 规范化空格（减少连续空格，删除空行并修剪行）。"
+      },
+      {
+        "row": 22,
+        "rowsha": "jYyou9vGuc2+HBxQbNpQ1CUmxQEOiBgmiil24s8gXLg=",
+        "originContent": "- Tokenize a string by collapsing consecutive spaces, and trimming leading and trailing spaces.",
+        "translatedContent": "- 通过合并连续空格并修剪首尾空白来分词字符串。"
+      },
+      {
+        "row": 23,
+        "rowsha": "/2mR4CzpA6/DglBg4sT80OyJ/KjBsAxY2e7GJGnMXVA=",
+        "originContent": "- Delete empty, whitespace only HTML and XML tags.",
+        "translatedContent": "- 删除空的、仅包含空白字符的 HTML 和 XML 标签。"
+      },
+      {
+        "row": 24,
+        "rowsha": "KaTzIuyODMZ1Z9kmLYGBzHN3tZ8B0lOFQVmwT7vvXEs=",
+        "originContent": "- Remove code comments and collapse lines.",
+        "translatedContent": "- 移除代码注释并合并行。"
+      },
+      {
+        "row": 25,
+        "rowsha": "vFOMvH7Ur6g4Hp6kgkSwb+mATmNltqjMTzuTEiGv4N8=",
+        "originContent": "- Delete adjacent duplicate lines.",
+        "translatedContent": "- 删除相邻重复的行。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "wLmuoCIczd16HLBu1qxxuxGXONuZVLnNNG3eDaQONXw=",
+        "originContent": "## Additional Features",
+        "translatedContent": "## 额外功能"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "ixdHAYlratoEiIxJ8mROTU1uWFm4Rs2fxVOeZnNia1g=",
+        "originContent": "A **Replace Smart Characters** command that performs the following actions:",
+        "translatedContent": "一个 **替换智能字符** 命令，执行以下操作："
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "UI8y4TNpPBo5eTQuIG75XjYUO2Zm1zD0q2le33sHaFY=",
+        "originContent": "- **Smart single quotes:** `’` _to_ `'`",
+        "translatedContent": "- **智能单引号：** `’` _替换为_ `'`"
+      },
+      {
+        "row": 32,
+        "rowsha": "KTjhduRpcwyPQbw8L+iXRamXM73sGYTKCxFItZuTuAo=",
+        "originContent": "- **Smart double quotes:** `“` _to_ `\"`",
+        "translatedContent": "- **智能双引号：** `“` _替换为_ `\"`"
+      },
+      {
+        "row": 33,
+        "rowsha": "ZVO+MGrJ5XaQRQvXRspiHTDmqMwHmcRuUdSEaknvjZg=",
+        "originContent": "- **Prime:** `′` _to_ `'`",
+        "translatedContent": "- **分钟符号：** `′` _替换为_ `'`"
+      },
+      {
+        "row": 34,
+        "rowsha": "9lN49ArwtvYtR9idskBnQEZYnp3VZrPneSfRA85t/sI=",
+        "originContent": "- **Double Prime:** `″` _to_ `\"`",
+        "translatedContent": "- **秒钟符号：** `″` _替换为_ `\"`"
+      },
+      {
+        "row": 35,
+        "rowsha": "wyImez2NdereQFMm+b0F0sbpJ4Ttl/6SNrWlBYv9/iw=",
+        "originContent": "- **German quotes:** `„` _to_ `\"` and `‚` _to_ `'`",
+        "translatedContent": "- **德语引号：** `„` _替换为_ `\"` 和 `‚` _替换为_ `'`"
+      },
+      {
+        "row": 36,
+        "rowsha": "XEjtM7bBCrCgy8W7e43a27x+mct4tNFybQtLZs5Cqfc=",
+        "originContent": "- **Ellipsis:** `…` _to_ `...`",
+        "translatedContent": "- **省略号：** `…` _替换为_ `...`"
+      },
+      {
+        "row": 37,
+        "rowsha": "B2izoQHCUswNaIYTR2V6l4kpsYUllSQAMUFzOjmwU64=",
+        "originContent": "- **Em dash:** `—` _to_ `---`",
+        "translatedContent": "- **长破折号：** `—` _替换为_ `---`"
+      },
+      {
+        "row": 38,
+        "rowsha": "bomnu2G1BMc1NHz2Hw2fF8qpZFo1Xl2omfLInJ6Wy44=",
+        "originContent": "- **En dash:** `–` _to_ `--`",
+        "translatedContent": "- **短破折号：** `–` _替换为_ `--`"
+      },
+      {
+        "row": 39,
+        "rowsha": "tVsZoof0MAPulu/IBFYIW/1Kdi7XHc4zr7Wybmlo/5k=",
+        "originContent": "- **Bullet:** `•` _to_ `*`",
+        "translatedContent": "- **项目符号：** `•` _替换为_ `*`"
+      },
+      {
+        "row": 40,
+        "rowsha": "tihTD/HDCZx9fo4mnXxW54Mfld1MvAEJnnGH5nFABCE=",
+        "originContent": "- **Middle dot:** `·` _to_ `-`",
+        "translatedContent": "- **中点符号：** `·` _替换为_ `-`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **Em space** _to_ three spaces\n- **En space** _to_ two spaces\n- **Non-breaking space** _to_ one space\n- **Thin space** _to_ one space\n- **Hair space** _to_ one space\n- **Left angle quote:** `«` _to_ `<<`\n- **Right angle quote:** `»` _to_ `>>`\n- **Copyright symbol:** `©` _to_ `(C)`\n- **Trademark symbol:** `™` _to_ `(T)`\n- **Registered trademark symbol:** `®` _to_ `(R)`\n\n![ScreenShot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)\n\nWatch a [**Quick Demo**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)\n\n## Install\n\nTrimmer is compatible with both Sublime Text 2 and 3 and all supported Operating Systems.\n\n### Package Control\n\nThe easiest, and recommended way to install Trimmer is using [Package Control](https://packagecontrol.io).\n\nFrom the main application menu, navigate to:\n\n- `Tools` -> `Command Palette...` -> `Package Control: Install Package`, type\n  the word **_Trimmer_**, then select it to complete installation.\n\n### Git\n\nTo install Trimmer using Git, change to your **Sublime Text Packages** directory\nand clone the [Trimmer repository](https://github.com/jonlabelle/Trimmer).\n\nFor example, on **OS X**... start a new **Terminal** session and enter the following\ncommands:\n",
+    "ContentSha": "Q2An0rsoUpe3W7O+Tqwnmuty97+ZD8oxnprmZqZu4oM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Em 空格** _替换为_ 三个空格  \n- **En 空格** _替换为_ 两个空格  \n- **不间断空格** _替换为_ 一个空格  \n- **细空格** _替换为_ 一个空格  \n- **发丝空格** _替换为_ 一个空格  \n- **左尖括号引用:** `«` _替换为_ `<<`  \n- **右尖括号引用:** `»` _替换为_ `>>`  \n- **版权符号:** `©` _替换为_ `(C)`  \n- **商标符号:** `™` _替换为_ `(T)`  \n- **注册商标符号:** `®` _替换为_ `(R)`  \n\n![屏幕截图](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)  \n\n观看一个[**快速演示**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)  \n\n## 安装  \n\nTrimmer 兼容 Sublime Text 2 和 3 以及所有支持的操作系统。  \n\n### Package Control  \n\n安装 Trimmer 最简单且推荐的方式是使用 [Package Control](https://packagecontrol.io)。  \n\n从主应用菜单，导航到：  \n\n- `工具` -> `命令面板...` -> `Package Control: 安装软件包`，输入  \n  词语 **_Trimmer_**，然后选择它以完成安装。  \n\n### Git  \n\n使用 Git 安装 Trimmer，请切换到您的 **Sublime Text Packages** 目录  \n并克隆 [Trimmer 仓库](https://github.com/jonlabelle/Trimmer)。  \n\n例如，在 **OS X** 上……启动一个新的 **终端** 会话并输入以下命令：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JoBZDYB/e/NcEr3xzpFlr6tnMZvbdEBqC+IvOQ9Upyw=",
+        "originContent": "- **Em space** _to_ three spaces",
+        "translatedContent": "- **Em 空格** _替换为_ 三个空格  "
+      },
+      {
+        "row": 2,
+        "rowsha": "RCb+sbco+QKvNJ0e3dNHN1jNBScUt/ALKKmfVfBYk/A=",
+        "originContent": "- **En space** _to_ two spaces",
+        "translatedContent": "- **En 空格** _替换为_ 两个空格  "
+      },
+      {
+        "row": 3,
+        "rowsha": "Gt5b4QWRhcAVr4VQz5LWkFcexHPikhUmhg0FJ5SVHD8=",
+        "originContent": "- **Non-breaking space** _to_ one space",
+        "translatedContent": "- **不间断空格** _替换为_ 一个空格  "
+      },
+      {
+        "row": 4,
+        "rowsha": "L37lcg2+l0S5PqdwgYUTRd8LjdWUEhWXQablb7t5OGA=",
+        "originContent": "- **Thin space** _to_ one space",
+        "translatedContent": "- **细空格** _替换为_ 一个空格  "
+      },
+      {
+        "row": 5,
+        "rowsha": "KwpG5MpXXwKZ4rqxlseSFIWvCl/WIc+LNtoYYvg2Bh4=",
+        "originContent": "- **Hair space** _to_ one space",
+        "translatedContent": "- **发丝空格** _替换为_ 一个空格  "
+      },
+      {
+        "row": 6,
+        "rowsha": "ivnJ7d1uwh243dHqWeVOIPTa9Ho/KB8EW8gFNseecRE=",
+        "originContent": "- **Left angle quote:** `«` _to_ `<<`",
+        "translatedContent": "- **左尖括号引用:** `«` _替换为_ `<<`  "
+      },
+      {
+        "row": 7,
+        "rowsha": "BkuJ/JRatz2yqHaHrfw5oAopnB5fd60I4jBlW9QqULw=",
+        "originContent": "- **Right angle quote:** `»` _to_ `>>`",
+        "translatedContent": "- **右尖括号引用:** `»` _替换为_ `>>`  "
+      },
+      {
+        "row": 8,
+        "rowsha": "oPyOPLzdtgk12YOnxIPxWZQtTrNJxdgJzQf0bRgcdqU=",
+        "originContent": "- **Copyright symbol:** `©` _to_ `(C)`",
+        "translatedContent": "- **版权符号:** `©` _替换为_ `(C)`  "
+      },
+      {
+        "row": 9,
+        "rowsha": "ggp0eIZPdRSPHtEt/ZAirf7L1p1qFqTGT+rTeDqffkg=",
+        "originContent": "- **Trademark symbol:** `™` _to_ `(T)`",
+        "translatedContent": "- **商标符号:** `™` _替换为_ `(T)`  "
+      },
+      {
+        "row": 10,
+        "rowsha": "gFDyUwTUuQoiMQx3y0UxtA2O/gPJWhie5lzqdKd1Jo8=",
+        "originContent": "- **Registered trademark symbol:** `®` _to_ `(R)`",
+        "translatedContent": "- **注册商标符号:** `®` _替换为_ `(R)`  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "sNJfzvqNFXpPdaAVUBGN0bPNPNb+kDtDzbsTj4xh2JE=",
+        "originContent": "![ScreenShot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)",
+        "translatedContent": "![屏幕截图](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ARSrhDrjzBl3jqCsZoaDGHGr8f77rWik/7LF5EdOak8=",
+        "originContent": "Watch a [**Quick Demo**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)",
+        "translatedContent": "观看一个[**快速演示**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## 安装  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "xrfF/UZnV+G0AcSDqti73CpK2IqKM6VHpVXyC+bNSVQ=",
+        "originContent": "Trimmer is compatible with both Sublime Text 2 and 3 and all supported Operating Systems.",
+        "translatedContent": "Trimmer 兼容 Sublime Text 2 和 3 以及所有支持的操作系统。  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "lp8xusPNEJcZPjIOhuG4PSS6rFLNOOMm1qJ1UlmxXKw=",
+        "originContent": "### Package Control",
+        "translatedContent": "### Package Control  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ol14fsh+KQ5rmGidlhXL7JThFTkWPyu8m5EA1i2aCk8=",
+        "originContent": "The easiest, and recommended way to install Trimmer is using [Package Control](https://packagecontrol.io).",
+        "translatedContent": "安装 Trimmer 最简单且推荐的方式是使用 [Package Control](https://packagecontrol.io)。  "
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "MC9vLn1b0/w/sYI4gw5Ru0C8kZPsf3B1ECkWhbvFoXI=",
+        "originContent": "From the main application menu, navigate to:",
+        "translatedContent": "从主应用菜单，导航到：  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "fdKikd1QjDjOKq9RHHQBfCLk8NPQRye2cKXKMQTbfQU=",
+        "originContent": "- `Tools` -> `Command Palette...` -> `Package Control: Install Package`, type",
+        "translatedContent": "- `工具` -> `命令面板...` -> `Package Control: 安装软件包`，输入  "
+      },
+      {
+        "row": 27,
+        "rowsha": "55uNTcycrXL+U01Nrr6XrOgqaZdukHLknKRakRjkAsM=",
+        "originContent": "  the word **_Trimmer_**, then select it to complete installation.",
+        "translatedContent": "  词语 **_Trimmer_**，然后选择它以完成安装。  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "R/EH6ijFPuptOa537L0rZ2RPAMjxwxVG8Q3Kmq89R5s=",
+        "originContent": "### Git",
+        "translatedContent": "### Git  "
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "C/H9604TE8rkE9HA/cc5lNA62FQKEqUowdm/e72p+ak=",
+        "originContent": "To install Trimmer using Git, change to your **Sublime Text Packages** directory",
+        "translatedContent": "使用 Git 安装 Trimmer，请切换到您的 **Sublime Text Packages** 目录  "
+      },
+      {
+        "row": 32,
+        "rowsha": "SESMk74RKg8Vf8uxHXnZcKwU+aVijkWiFzKkXxgLTgo=",
+        "originContent": "and clone the [Trimmer repository](https://github.com/jonlabelle/Trimmer).",
+        "translatedContent": "并克隆 [Trimmer 仓库](https://github.com/jonlabelle/Trimmer)。  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "AjfVb1Xigz0uKNCjSbMN/Re2RMeIexj24qWdxbB9eFg=",
+        "originContent": "For example, on **OS X**... start a new **Terminal** session and enter the following",
+        "translatedContent": "例如，在 **OS X** 上……启动一个新的 **终端** 会话并输入以下命令："
+      },
+      {
+        "row": 35,
+        "rowsha": "jhSyQhdVgiT3HbkVBDcWMse1CswhVs4g9L0b9Zt6sDg=",
+        "originContent": "commands:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```shell\n$ cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/\n$ git clone https://github.com/jonlabelle/Trimmer\n```",
+    "ContentSha": "iVMEp15EbVCPKhRU256D8ILEIJIZ3ko5ARHwe0uFeLE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$ cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/\n$ git clone https://github.com/jonlabelle/Trimmer\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Jz1E791xnBF+L4c+y9omwnu6sEDL3mMyMFuxU7Xz9gs=",
+        "originContent": "$ cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/",
+        "translatedContent": "$ cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/"
+      },
+      {
+        "row": 3,
+        "rowsha": "zuWlrA6XfoYj67+AdFaFcaC/g+ZMnJo8dePTVRiMyo8=",
+        "originContent": "$ git clone https://github.com/jonlabelle/Trimmer",
+        "translatedContent": "$ git clone https://github.com/jonlabelle/Trimmer"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Manually\n\n**Download** and **extract** the [zip](https://github.com/jonlabelle/Trimmer/zipball/master)\nor [tarball](https://github.com/jonlabelle/Trimmer/tarball/master) to your\nSublime Text packages directory.\n\n**Default Sublime Text Packages Paths:**\n\n- **OS X:** `~/Library/Application Support/Sublime Text [2|3]/Packages`\n- **Linux:** `~/.Sublime Text [2|3]/Packages`\n- **Windows:** `%APPDATA%/Sublime Text [2|3]/Packages`\n\n> **NOTE** Replace the `[2|3]` part with the appropriate Sublime Text\n> version for your installation.\n\n## Usage\n\nAll commands are accessible from the **Command Palette** using prefix\n**_Trimmer_**, and in the **Main Menu** under `Edit` -> `Line` -> _Trimmer_ command.\n\n- [Command Palette screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)\n- [Main Menu screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/main_menu.png)\n\n### Key Bindings\n\nThe _default_ key binding will trim trailing whitespace at the end of each of\nline (entire file).\n\n- **OS X**: `Ctrl + S`\n- **Linux**: `Ctrl + Alt + S`\n- **Windows**: `Ctrl + Alt + S`\n\n### Trimmer Command API\n\n| Command                            | Description                                                                                            | Context                   |\n| ---------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------- |\n| `trimmer`                          | trim whitespace at the end of each line                                                                | entire file               |\n| `trim_leading_whitespace`          | trim whitespace at the start of each line                                                              | selection, or entire file |\n| `trim_leading_trailing_whitespace` | trim whitespace at the start and end of each line                                                      | selection, or entire file |",
+    "ContentSha": "pNxVYSS8cVO3wOWko1SXuBHDpjVmIDjVrhqsX2QV4+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 手动安装\n\n**下载**并**解压**[zip](https://github.com/jonlabelle/Trimmer/zipball/master)\n或[tarball](https://github.com/jonlabelle/Trimmer/tarball/master)到你的\nSublime Text 插件目录。\n\n**默认 Sublime Text 插件路径：**\n\n- **OS X:** `~/Library/Application Support/Sublime Text [2|3]/Packages`\n- **Linux:** `~/.Sublime Text [2|3]/Packages`\n- **Windows:** `%APPDATA%/Sublime Text [2|3]/Packages`\n\n> **注意** 将 `[2|3]` 替换为你安装的 Sublime Text 版本。\n\n## 使用方法\n\n所有命令都可以通过**命令面板**使用前缀\n**_Trimmer_**访问，也可以在**主菜单**中通过 `编辑` -> `行` -> _Trimmer_ 命令找到。\n\n- [命令面板截图](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)\n- [主菜单截图](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/main_menu.png)\n\n### 快捷键绑定\n\n_默认_快捷键绑定会修剪每行末尾的多余空白（整个文件）。\n\n- **OS X**: `Ctrl + S`\n- **Linux**: `Ctrl + Alt + S`\n- **Windows**: `Ctrl + Alt + S`\n\n### Trimmer 命令 API\n\n| 命令                                | 描述                                                                                                  | 作用范围                   |\n| ---------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------- |\n| `trimmer`                          | 修剪每行末尾的空白                                                                                      | 整个文件                   |\n| `trim_leading_whitespace`          | 修剪每行开头的空白                                                                                      | 选区或整个文件             |\n| `trim_leading_trailing_whitespace` | 修剪每行开头和末尾的空白                                                                                | 选区或整个文件             |\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 手动安装"
+      },
+      {
+        "row": 2,
+        "rowsha": "KXSrYIQWk5yT2gE0ZMclnorluxzsdqzUBcBngF0ol40=",
+        "originContent": "### Manually",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**下载**并**解压**[zip](https://github.com/jonlabelle/Trimmer/zipball/master)"
+      },
+      {
+        "row": 4,
+        "rowsha": "+1HpoydhlTpMLY46TWyWGLtg8HN++++jMdIyti1muwc=",
+        "originContent": "**Download** and **extract** the [zip](https://github.com/jonlabelle/Trimmer/zipball/master)",
+        "translatedContent": "或[tarball](https://github.com/jonlabelle/Trimmer/tarball/master)到你的"
+      },
+      {
+        "row": 5,
+        "rowsha": "aRWHKImJOCUNscPaeKwbKg+zDfBdpnJ7CMcJKHpaEb4=",
+        "originContent": "or [tarball](https://github.com/jonlabelle/Trimmer/tarball/master) to your",
+        "translatedContent": "Sublime Text 插件目录。"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZR2ur/j/t/9OPa3hbiuJIT8CbmqI3gq3d/aMfgKG+hw=",
+        "originContent": "Sublime Text packages directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**默认 Sublime Text 插件路径：**"
+      },
+      {
+        "row": 8,
+        "rowsha": "Jc4AKkQOGEweo2/1XG/njdanMTb+tBenjnnudVJwoz0=",
+        "originContent": "**Default Sublime Text Packages Paths:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **OS X:** `~/Library/Application Support/Sublime Text [2|3]/Packages`"
+      },
+      {
+        "row": 10,
+        "rowsha": "2HvUVzEFXLwVEw4LUij5y+RQtQoZCqKJfCbvtNNt5KU=",
+        "originContent": "- **OS X:** `~/Library/Application Support/Sublime Text [2|3]/Packages`",
+        "translatedContent": "- **Linux:** `~/.Sublime Text [2|3]/Packages`"
+      },
+      {
+        "row": 11,
+        "rowsha": "BeM8/JXQG6N4oBOnkHcEOycyqDaNIQLp4tuf61wU87k=",
+        "originContent": "- **Linux:** `~/.Sublime Text [2|3]/Packages`",
+        "translatedContent": "- **Windows:** `%APPDATA%/Sublime Text [2|3]/Packages`"
+      },
+      {
+        "row": 12,
+        "rowsha": "z9+GjdmXSbg7lL55Yq13soD1QByh2ZfK9wlTGO8g6kQ=",
+        "originContent": "- **Windows:** `%APPDATA%/Sublime Text [2|3]/Packages`",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **注意** 将 `[2|3]` 替换为你安装的 Sublime Text 版本。"
+      },
+      {
+        "row": 14,
+        "rowsha": "LOA18vpBteqE2hJD0/5TQwHPgCYWHR+9LdjicpBgpb8=",
+        "originContent": "> **NOTE** Replace the `[2|3]` part with the appropriate Sublime Text",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "8lFsdeKH5YPhQWV9jcTzBnrDYmfs9eMfNTsVDzT1fh4=",
+        "originContent": "> version for your installation.",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "所有命令都可以通过**命令面板**使用前缀"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**_Trimmer_**访问，也可以在**主菜单**中通过 `编辑` -> `行` -> _Trimmer_ 命令找到。"
+      },
+      {
+        "row": 19,
+        "rowsha": "hfM34VVZUS9jsRcFuzbB63AROXRDDW1ZRrQBqpoubhc=",
+        "originContent": "All commands are accessible from the **Command Palette** using prefix",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ndJYfA2aNzMwaweBsHWscFek+FnxbGDgrYIbRBQjIbw=",
+        "originContent": "**_Trimmer_**, and in the **Main Menu** under `Edit` -> `Line` -> _Trimmer_ command.",
+        "translatedContent": "- [命令面板截图](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [主菜单截图](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/main_menu.png)"
+      },
+      {
+        "row": 22,
+        "rowsha": "TKlI4MpIEUF+3YpY8G8cogcNqzcAnKdvt/Y6tUfZLj8=",
+        "originContent": "- [Command Palette screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "3IE1iEHnNhkCpmadDTx6hii0lC809usouegEFaY+4bU=",
+        "originContent": "- [Main Menu screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/main_menu.png)",
+        "translatedContent": "### 快捷键绑定"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "/iTj3bdnnKl/o5E5U6Wq5gdBc/asU7TDkjBNGLdMJko=",
+        "originContent": "### Key Bindings",
+        "translatedContent": "_默认_快捷键绑定会修剪每行末尾的多余空白（整个文件）。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "MP7hYFwpzw4iwz9IXrErZsPstteeq3WFTC3e3oQz6n4=",
+        "originContent": "The _default_ key binding will trim trailing whitespace at the end of each of",
+        "translatedContent": "- **OS X**: `Ctrl + S`"
+      },
+      {
+        "row": 28,
+        "rowsha": "AKLEsJPhqgV9i3GyyMRsBKSmRET+f0lP+kBw41GVNZM=",
+        "originContent": "line (entire file).",
+        "translatedContent": "- **Linux**: `Ctrl + Alt + S`"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Windows**: `Ctrl + Alt + S`"
+      },
+      {
+        "row": 30,
+        "rowsha": "47UUjn2jRmJrPL9jzpBQ2myQo41IRUPrMVDxUwlwePA=",
+        "originContent": "- **OS X**: `Ctrl + S`",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "VAZjzb+O9eRGvhsnx0soTOZ1V11nsMEnyyW3HEkRIxU=",
+        "originContent": "- **Linux**: `Ctrl + Alt + S`",
+        "translatedContent": "### Trimmer 命令 API"
+      },
+      {
+        "row": 32,
+        "rowsha": "aAYrOGsImimIN9z2COlHEyuV0S7izQWcBdoV8pRvVaY=",
+        "originContent": "- **Windows**: `Ctrl + Alt + S`",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 命令                                | 描述                                                                                                  | 作用范围                   |"
+      },
+      {
+        "row": 34,
+        "rowsha": "tq8T3GYsRt59cBFfiBUlMYAF6QuQbMy5Cema3daeeAE=",
+        "originContent": "### Trimmer Command API",
+        "translatedContent": "| ---------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------- |"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| `trimmer`                          | 修剪每行末尾的空白                                                                                      | 整个文件                   |"
+      },
+      {
+        "row": 36,
+        "rowsha": "e19KISne9hmH2NEUIFIz7tWp/H23Y1YfX3FTLaW/wws=",
+        "originContent": "| Command                            | Description                                                                                            | Context                   |",
+        "translatedContent": "| `trim_leading_whitespace`          | 修剪每行开头的空白                                                                                      | 选区或整个文件             |"
+      },
+      {
+        "row": 37,
+        "rowsha": "KXaiHUXpoBInhovk+llWeg0mcCxeY6jmuYp8U3Kv+AU=",
+        "originContent": "| ---------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------- |",
+        "translatedContent": "| `trim_leading_trailing_whitespace` | 修剪每行开头和末尾的空白                                                                                | 选区或整个文件             |"
+      },
+      {
+        "row": 38,
+        "rowsha": "OPl8jZQrL8dk6aTCo1LhVAbn36aDxlFJ1irOLGx5TvM=",
+        "originContent": "| `trimmer`                          | trim whitespace at the end of each line                                                                | entire file               |",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "5VNqi2a3nfdhczwL9KVXtNXRR1Rvv4J1qZDXqBgiqQA=",
+        "originContent": "| `trim_leading_whitespace`          | trim whitespace at the start of each line                                                              | selection, or entire file |",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "A8FuNKT+jILAYADNQQX5ISfRMwD1vpqLzLNwMCw+pHI=",
+        "originContent": "| `trim_leading_trailing_whitespace` | trim whitespace at the start and end of each line                                                      | selection, or entire file |",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "| `trim_selections`                  | trim whitespace from selection(s)                                                                      | selection                 |\n| `delete_empty_lines`               | delete empty, whitespace only lines                                                                    | selection, or entire file |\n| `collapse_lines`                   | collapse multiple consecutive empty lines into one empty line                                          | selection, or entire file |\n| `collapse_spaces`                  | collapse multiple consecutive spaces into one space                                                    | selection, or entire file |\n| `trim_edges`                       | trim empty, whitespace only lines at the beginning and end of the file                                 | entire file               |\n| `remove_blank_spaces`              | remove all blank space characters (tab, cr, ff, vt, space)                                             | selection, or entire file |\n| `normalize_spaces`                 | consecutive spaces reduced, empty lines removed and lines trimmed                                      | selection, or entire file |\n| `replace_smart_characters`         | replace smart characters (smart quotes, em/en dash, ellipsis, nbsp)                                    | selection, or entire file |\n| `tokenize_string`                  | convert a string to a token by collapsing consecutive spaces, and trimming leading and trailing spaces | selection, or entire file |\n| `delete_empty_tags`                | delete empty, whitespace only html and xml tags                                                        | selection, or entire file |\n| `remove_comments`                  | remove code comments and collapse lines                                                                | selection, or entire file |\n| `delete_adjacent_duplicate_lines`  | delete adjacent duplicate lines                                                                        | selection, or entire file |\n\n## Author\n\n[Jon LaBelle](https://jonlabelle.com)\n\n## License\n\nTrimmer is licensed under the [MIT license](http://opensource.org/licenses/MIT).\n",
+    "ContentSha": "69VBBluA+dHvkqMwSH5ccgQG9IlrxtHQnTy+mujO1DQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| `trim_selections`                  | 从选区修剪空白字符                                                                              | 选区                     |\n| `delete_empty_lines`               | 删除空行，仅含空白字符的行                                                                      | 选区，或整个文件          |\n| `collapse_lines`                   | 将多个连续空行合并为一个空行                                                                    | 选区，或整个文件          |\n| `collapse_spaces`                  | 将多个连续空格合并为一个空格                                                                    | 选区，或整个文件          |\n| `trim_edges`                       | 修剪文件开头和结尾的空行，仅含空白字符的行                                                    | 整个文件                  |\n| `remove_blank_spaces`              | 移除所有空白字符（制表符、回车符、换页符、垂直制表符、空格）                                  | 选区，或整个文件          |\n| `normalize_spaces`                 | 连续空格缩减，删除空行，行首尾修剪                                                              | 选区，或整个文件          |\n| `replace_smart_characters`         | 替换智能字符（智能引号、长短破折号、省略号、不间断空格）                                        | 选区，或整个文件          |\n| `tokenize_string`                  | 通过合并连续空格并修剪首尾空白，将字符串转换为标记                                            | 选区，或整个文件          |\n| `delete_empty_tags`                | 删除空的，仅含空白字符的 HTML 和 XML 标签                                                      | 选区，或整个文件          |\n| `remove_comments`                  | 移除代码注释并合并行                                                                            | 选区，或整个文件          |\n| `delete_adjacent_duplicate_lines`  | 删除相邻重复行                                                                                  | 选区，或整个文件          |\n\n## 作者\n\n[Jon LaBelle](https://jonlabelle.com)\n\n## 许可证\n\nTrimmer 采用 [MIT 许可证](http://opensource.org/licenses/MIT) 许可。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KB+THLbIl2K/BlFe6ZVjqRWYFvGu7Z+DWRjcPoVpcAE=",
+        "originContent": "| `trim_selections`                  | trim whitespace from selection(s)                                                                      | selection                 |",
+        "translatedContent": "| `trim_selections`                  | 从选区修剪空白字符                                                                              | 选区                     |"
+      },
+      {
+        "row": 2,
+        "rowsha": "2OSdwF8tlIco0RsiGxm8JyJMneN9JWmFNa3AvvaknLI=",
+        "originContent": "| `delete_empty_lines`               | delete empty, whitespace only lines                                                                    | selection, or entire file |",
+        "translatedContent": "| `delete_empty_lines`               | 删除空行，仅含空白字符的行                                                                      | 选区，或整个文件          |"
+      },
+      {
+        "row": 3,
+        "rowsha": "p6T0UCmfXHTU85DC8+dZCVbH3QivbTcJpojiBeApaVw=",
+        "originContent": "| `collapse_lines`                   | collapse multiple consecutive empty lines into one empty line                                          | selection, or entire file |",
+        "translatedContent": "| `collapse_lines`                   | 将多个连续空行合并为一个空行                                                                    | 选区，或整个文件          |"
+      },
+      {
+        "row": 4,
+        "rowsha": "f1mZUnSwa4Lcs4sNz7lPC2ssKls4IDxp84zoptkp+tQ=",
+        "originContent": "| `collapse_spaces`                  | collapse multiple consecutive spaces into one space                                                    | selection, or entire file |",
+        "translatedContent": "| `collapse_spaces`                  | 将多个连续空格合并为一个空格                                                                    | 选区，或整个文件          |"
+      },
+      {
+        "row": 5,
+        "rowsha": "fVT/Jn1od92d73R6MqMA4gUckwq6xuclo0ge8kzKdWI=",
+        "originContent": "| `trim_edges`                       | trim empty, whitespace only lines at the beginning and end of the file                                 | entire file               |",
+        "translatedContent": "| `trim_edges`                       | 修剪文件开头和结尾的空行，仅含空白字符的行                                                    | 整个文件                  |"
+      },
+      {
+        "row": 6,
+        "rowsha": "HJrM7UkPUXgS6ztYetkDaodEDGWDb5nUlDqvqyRC7Pw=",
+        "originContent": "| `remove_blank_spaces`              | remove all blank space characters (tab, cr, ff, vt, space)                                             | selection, or entire file |",
+        "translatedContent": "| `remove_blank_spaces`              | 移除所有空白字符（制表符、回车符、换页符、垂直制表符、空格）                                  | 选区，或整个文件          |"
+      },
+      {
+        "row": 7,
+        "rowsha": "OQBO+EpcprDyEMRwM3fEh1iFsQY9h1A0mJQMOEE7xZc=",
+        "originContent": "| `normalize_spaces`                 | consecutive spaces reduced, empty lines removed and lines trimmed                                      | selection, or entire file |",
+        "translatedContent": "| `normalize_spaces`                 | 连续空格缩减，删除空行，行首尾修剪                                                              | 选区，或整个文件          |"
+      },
+      {
+        "row": 8,
+        "rowsha": "vquXsiEx4qB43tqv18GRU87yG3LbK9wMyJTuqGsuijI=",
+        "originContent": "| `replace_smart_characters`         | replace smart characters (smart quotes, em/en dash, ellipsis, nbsp)                                    | selection, or entire file |",
+        "translatedContent": "| `replace_smart_characters`         | 替换智能字符（智能引号、长短破折号、省略号、不间断空格）                                        | 选区，或整个文件          |"
+      },
+      {
+        "row": 9,
+        "rowsha": "DxCzN2zn9n+F05wXPS0yJOj8dz3hHYywcvsN8t0vfd4=",
+        "originContent": "| `tokenize_string`                  | convert a string to a token by collapsing consecutive spaces, and trimming leading and trailing spaces | selection, or entire file |",
+        "translatedContent": "| `tokenize_string`                  | 通过合并连续空格并修剪首尾空白，将字符串转换为标记                                            | 选区，或整个文件          |"
+      },
+      {
+        "row": 10,
+        "rowsha": "pawFHgY0vfk4wCZBzz4UkRXRUAiNpL3tdXZxLsWo40w=",
+        "originContent": "| `delete_empty_tags`                | delete empty, whitespace only html and xml tags                                                        | selection, or entire file |",
+        "translatedContent": "| `delete_empty_tags`                | 删除空的，仅含空白字符的 HTML 和 XML 标签                                                      | 选区，或整个文件          |"
+      },
+      {
+        "row": 11,
+        "rowsha": "o5gIERbRqq54wT3CrPy2TUIBfekxLEXcjcOcqt3S5e4=",
+        "originContent": "| `remove_comments`                  | remove code comments and collapse lines                                                                | selection, or entire file |",
+        "translatedContent": "| `remove_comments`                  | 移除代码注释并合并行                                                                            | 选区，或整个文件          |"
+      },
+      {
+        "row": 12,
+        "rowsha": "XIe7XOOwkw5Q+WEbQberioD/PiByCC/t0AJEiBq33yk=",
+        "originContent": "| `delete_adjacent_duplicate_lines`  | delete adjacent duplicate lines                                                                        | selection, or entire file |",
+        "translatedContent": "| `delete_adjacent_duplicate_lines`  | 删除相邻重复行                                                                                  | 选区，或整个文件          |"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "/lJ7vsDcUGNTwbzMlvGpyMrTh1D9NOPyP9aFA7E/nEw=",
+        "originContent": "## Author",
+        "translatedContent": "## 作者"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "8zHcslzBkN0Bf3d5JZINa2+vg4hQeWU5imOEdvzbuTk=",
+        "originContent": "[Jon LaBelle](https://jonlabelle.com)",
+        "translatedContent": "[Jon LaBelle](https://jonlabelle.com)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "AXdfckISdccnLRyZicxubhCIeAgCVAPIWkPynnnZ7Us=",
+        "originContent": "Trimmer is licensed under the [MIT license](http://opensource.org/licenses/MIT).",
+        "translatedContent": "Trimmer 采用 [MIT 许可证](http://opensource.org/licenses/MIT) 许可。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

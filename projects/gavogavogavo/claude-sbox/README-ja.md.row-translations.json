@@ -1,0 +1,764 @@
+[
+  {
+    "row": 1,
+    "rowsha": "JhS39zFZMHmanrZjEilJu3WiikJo+us6GrP9za7TUZQ=",
+    "originContent": "# claude-sbox",
+    "translatedContent": "# claude-sbox"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "4wTWnQ10oro6SrawhGNo/TKL4wxl2G9uRNLPPH0vmTI=",
+    "originContent": "A [Claude Code](https://code.claude.com) skill that teaches Claude to write idiomatic [s&box](https://sbox.game) code — C# components, Razor UI, physics, and networking — without falling back on Unity patterns.",
+    "translatedContent": "[Claude Code](https://code.claude.com) スキルで、Unityのパターンに頼らずに、慣用的な [s&box](https://sbox.game) コード（C# コンポーネント、Razor UI、物理演算、ネットワーキング）を書く方法をClaudeに教えます。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y7XoBNnzmpAB+RaUTYA1pVcB0ITXKrRHmtymk4MF1jE=",
+    "originContent": "s&box is Facepunch's Source 2 game engine with a C# scripting layer. Its API, lifecycle, and networking model are *nothing like* Unity's, which means stock Claude hallucinates constantly: `void Start()`, `GetComponent<T>()` in the Unity sense, `Physics.Raycast`, `[SerializeField]`, `StartCoroutine` — all wrong in s&box. This skill loads when you're writing s&box code and redirects Claude to the correct APIs, verified against the engine's exported schema.",
+    "translatedContent": "s&boxはFacepunchのSource 2ゲームエンジンで、C#のスクリプトレイヤーを備えています。そのAPI、ライフサイクル、ネットワーキングモデルはUnityとは*全く異なり*、そのためClaudeはしばしば幻覚を起こします：`void Start()`、Unityの意味での`GetComponent<T>()`、`Physics.Raycast`、`[SerializeField]`、`StartCoroutine` — これらはすべてs&boxでは誤りです。このスキルはs&boxコードを書いているときにロードされ、Claudeをエンジンのエクスポートされたスキーマで検証された正しいAPIへと誘導します。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Oh9bqWyeg6rBCed6Uc7/05DDbou+iHvIM6V2gBLUXf0=",
+    "originContent": "**Personal (available across all your projects):**",
+    "translatedContent": "**個人用（すべてのプロジェクトで利用可能）：**"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 14,
+    "rowsha": "XBls2XdpyusUhisNrgODdF9GGC5RDImaUkSlscprDg8=",
+    "originContent": "mkdir -p ~/.claude/skills",
+    "translatedContent": "mkdir -p ~/.claude/skills"
+  },
+  {
+    "row": 15,
+    "rowsha": "ZRgzCQGCSLuvsOW+rCXltEDczOnehCIJ4QvnusVa+Fw=",
+    "originContent": "git clone https://github.com/gavogavogavo/claude-sbox ~/.claude/skills/sbox",
+    "translatedContent": "git clone https://github.com/gavogavogavo/claude-sbox ~/.claude/skills/sbox"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "NfZv0wDDR0Mn6iBMlFxQZlG/vkyJa15ldoLVd5THO1o=",
+    "originContent": "**Project-local (this game only):**",
+    "translatedContent": "**プロジェクトローカル（このゲームのみ）：**"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 21,
+    "rowsha": "BR3h+OHgOKNT4WpeFfIUmwE6o9QgdGnnR+PHWHbREPM=",
+    "originContent": "cd my-sbox-game",
+    "translatedContent": "cd my-sbox-game"
+  },
+  {
+    "row": 22,
+    "rowsha": "eM4DnyVpG34U0UrTLNlCKNOLRp0Y2wyIjJTDxz0FNTg=",
+    "originContent": "mkdir -p .claude/skills",
+    "translatedContent": "mkdir -p .claude/skills"
+  },
+  {
+    "row": 23,
+    "rowsha": "/dB5Yj3hRAUuNnW0Qr5VEH/LIM++DNNkmHX6YFm2ohM=",
+    "originContent": "git clone https://github.com/gavogavogavo/claude-sbox .claude/skills/sbox",
+    "translatedContent": "git clone https://github.com/gavogavogavo/claude-sbox .claude/skills/sbox"
+  },
+  {
+    "row": 24,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "YM14KKCo+svZZj0gYAzxZY/D+1ZawBHgiTPkiBJjFR4=",
+    "originContent": "Claude Code picks up skill file changes live. However, if `~/.claude/skills/` did not exist when your Claude Code session started (i.e. this is your first personal skill), you need to **restart Claude Code** after the `mkdir` so the watcher registers the new directory.",
+    "translatedContent": "Claude Codeはスキルファイルの変更をライブで検出します。ただし、`~/.claude/skills/`がClaude Codeセッション開始時に存在しなかった場合（つまり、これが初めてのパーソナルスキルの場合）、`mkdir`の後に**Claude Codeを再起動**する必要があります。そうしないとウォッチャーが新しいディレクトリを登録しません。"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "H8ObU3hdUhpUlD9puPYVx2R/O1oh+oCkiq+MB4Iw36M=",
+    "originContent": "> **Why the `sbox` (not `claude-sbox`) directory name?** The `name:` frontmatter in `SKILL.md` is `sbox`, which becomes the `/sbox` slash command. Cloning into `~/.claude/skills/sbox/` keeps the directory name and the invocation name in sync.",
+    "translatedContent": "> **なぜ`sbox`（`claude-sbox`ではなく）というディレクトリ名なのか？** `SKILL.md`のフロントマターの`name:`が`sbox`であり、これが`/sbox`というスラッシュコマンドになります。`~/.claude/skills/sbox/`にクローンすることで、ディレクトリ名と呼び出し名を同期させています。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "PtElI06A8Zet7xrgR8NhxBJb625Ujgw1Krg5s3Et4lk=",
+    "originContent": "## Verify it's working",
+    "translatedContent": "## 動作確認"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "seAHFsFmi5aYP046ZxeP3zhD/zd9zp/7MrOh5HLWa5M=",
+    "originContent": "In any Claude Code session, type:",
+    "translatedContent": "任意のClaude Codeセッションで以下を入力してください："
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "kCxBgbIvIseXCSlrwTYjwOtFzhz0XHw68eByUKEzvAY=",
+    "originContent": "/sbox",
+    "translatedContent": "/sbox"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ルーターが読み込まれます。あるいは、トリガーとなる質問をして、クロードが参照ファイルを探す様子を見てください："
+  },
+  {
+    "row": 40,
+    "rowsha": "LZdouyYJfIudRDln1SDHSPVbSoH7CsgNlBcmq7pY5Bg=",
+    "originContent": "The router loads. Alternatively, ask a triggering question and watch Claude reach for a reference file:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "gZaaEIv8Hn9D15OJMew4Rkkeva45uuNBHAA8utszekU=",
+    "originContent": "How do I write a networked player controller in s&box?",
+    "translatedContent": "How do I write a networked player controller in s&box?"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "mfqPebCAXzRJ5OW5KOQDhyO53UTyb7J50xEoUCPsOs4=",
+    "originContent": "Claude should open `references/core-concepts.md`, `references/networking.md`, and/or `references/patterns-and-examples.md` before answering — *that's the signal the skill is working*. If it answers from memory without reading a file, something's wrong; see [Troubleshooting](#troubleshooting).",
+    "translatedContent": "Claudeは回答する前に`references/core-concepts.md`、`references/networking.md`、および/または`references/patterns-and-examples.md`を開くべきです — *これがスキルが機能している合図です*。ファイルを読まずに記憶から回答する場合は何か問題があります；詳しくは[Troubleshooting](#troubleshooting)を参照してください。"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "JAnziMVO9ws30swwdK2FOW8ldJJCvbtdKhFUcO3uw8s=",
+    "originContent": "## What's inside",
+    "translatedContent": "## 内容"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "UTK/yILt3bLEBNsLEtawa+y+nc6NIPGQmlNfUZzdQqs=",
+    "originContent": "`SKILL.md` is a router, not a reference. When Claude needs detail, it opens one of these:",
+    "translatedContent": "`SKILL.md`はリファレンスではなくルーターです。Claudeが詳細を必要とする場合、以下のいずれかを開きます："
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "p6TMJHRQ6DJTgb2AwPnMyJOLTi8xSgnp9YHq0NmQQPI=",
+    "originContent": "| File | Lines | Covers |",
+    "translatedContent": "| ファイル | 行数 | 対象範囲 |"
+  },
+  {
+    "row": 55,
+    "rowsha": "aiFaYbkiQuvRtp0YlS8yNqOrzJRcPkFeAY5Dk3quH+Q=",
+    "originContent": "|---|---:|---|",
+    "translatedContent": "|---|---:|---|"
+  },
+  {
+    "row": 56,
+    "rowsha": "NYjupU8N+B9lo1aS1Pn7ZOa4W/oF8ZIXCRNhomAEwAo=",
+    "originContent": "| `SKILL.md` | 271 | Router + Unity→s&box translation table + the ten rules |",
+    "translatedContent": "| `SKILL.md` | 271 | ルーター + Unity→s&box変換表 + 10のルール |"
+  },
+  {
+    "row": 57,
+    "rowsha": "GTowUrEZggDFmOF5tZrft4Os00A8CS12p8xJxNb9x9M=",
+    "originContent": "| `references/core-concepts.md` | 575 | Scene system, GameObjects, Components, lifecycle, `[Property]`, prefabs, scene events, `GameObjectSystem`, async |",
+    "translatedContent": "| `references/core-concepts.md` | 575 | シーンシステム、GameObjects、コンポーネント、ライフサイクル、`[Property]`、プレハブ、シーンイベント、`GameObjectSystem`、非同期 |"
+  },
+  {
+    "row": 58,
+    "rowsha": "bIlt4xMkZMOjksydDS/ezThiltx8AXXGq/PYsroJeZY=",
+    "originContent": "| `references/components-builtin.md` | 729 | 144 built-in components — renderers, rigidbodies, colliders, `CharacterController`, `CameraComponent`, lights, audio, UI, `NavMeshAgent`, `PlayerController`, particles, post-processing |",
+    "translatedContent": "| `references/components-builtin.md` | 729 | 144の組み込みコンポーネント — レンダラー、リジッドボディ、コライダー、`CharacterController`、`CameraComponent`、ライト、オーディオ、UI、`NavMeshAgent`、`PlayerController`、パーティクル、ポストプロセッシング |"
+  },
+  {
+    "row": 59,
+    "rowsha": "0c2SuLlfuLyGhOoAXG8+Wk9V8Gv/rkUvgy+bpcrB0U8=",
+    "originContent": "| `references/ui-razor.md` | 834 | Razor panels, SCSS, flexbox layout, built-in controls (Button / TextEntry / DropDown / SliderControl / VirtualGrid), `NavigationHost`, transitions |",
+    "translatedContent": "| `references/ui-razor.md` | 834 | Razorパネル、SCSS、フレックスボックスレイアウト、組み込みコントロール（Button / TextEntry / DropDown / SliderControl / VirtualGrid）、`NavigationHost`、トランジション |"
+  },
+  {
+    "row": 60,
+    "rowsha": "P9Bux+SF4HertFn67i9J/YH9Etat/cfHUzaUJu7fCqo=",
+    "originContent": "| `references/networking.md` | 672 | Lobbies, `Connection`, `[Sync]` + `SyncFlags`, `[Rpc.Broadcast/Host/Owner]`, ownership, `INetworkListener`, `INetworkSpawn`, snapshot data, dedicated servers |",
+    "translatedContent": "| `references/networking.md` | 672 | ロビー、`Connection`、`[Sync]` + `SyncFlags`、`[Rpc.Broadcast/Host/Owner]`、所有権、`INetworkListener`、`INetworkSpawn`、スナップショットデータ、専用サーバー |"
+  },
+  {
+    "row": 61,
+    "rowsha": "Xd5Weh70aLSasNxUm+lPLC6ii4ky0zbq7jN5RbAGtUY=",
+    "originContent": "| `references/input-and-physics.md` | 597 | Input system, `SceneTrace` builder API, `PhysicsWorld`, collision, `Vector3`/`Rotation`/`Angles`/`Transform`/`BBox`/`Ray`/`Capsule`, `TimeSince`/`TimeUntil`, `Gizmo.Draw` |",
+    "translatedContent": "| `references/input-and-physics.md` | 597 | 入力システム、`SceneTrace`ビルダーAPI、`PhysicsWorld`、衝突、`Vector3`/`Rotation`/`Angles`/`Transform`/`BBox`/`Ray`/`Capsule`、`TimeSince`/`TimeUntil`、`Gizmo.Draw` |"
+  },
+  {
+    "row": 62,
+    "rowsha": "gXbgpkK0+MwldCd2jT2K01GOCT2uRw2SqvEen8oLG28=",
+    "originContent": "| `references/api-schema-core.md` | 930 | Full public signatures for the ~50 most-used types |",
+    "translatedContent": "| `references/api-schema-core.md` | 930 | 最もよく使われる約50タイプの完全な公開シグネチャ |"
+  },
+  {
+    "row": 63,
+    "rowsha": "0zAmVQHgWmsUm4XDtKOphBV9rNrRWRGzkMOlTInSn2I=",
+    "originContent": "| `references/api-schema-extended.md` | 2753 | Namespace-organized index of 738 additional types for discovery |",
+    "translatedContent": "| `references/api-schema-extended.md` | 2753 | 名前空間別に整理された738の追加タイプのインデックス |"
+  },
+  {
+    "row": 64,
+    "rowsha": "TJjfLpOfLLS6vNTttpeQLVWI9EgACWtY1oUtIhR6h7A=",
+    "originContent": "| `references/patterns-and-examples.md` | 1056 | 10 complete runnable examples (Health + `IDamageable`, first-person `CharacterController`, hitscan weapon, networked game manager, player with `[Sync]`/RPCs, Razor HUD, rigidbody grenade, NavMeshAgent AI state machine, prefab spawner, trigger pickup) |",
+    "translatedContent": "| `references/patterns-and-examples.md` | 1056 | 10の完全な実行可能な例（Health + `IDamageable`、一人称`CharacterController`、ヒットスキャン武器、ネットワークゲームマネージャー、`[Sync]`/RPC付きプレイヤー、Razor HUD、リジッドボディグレネード、NavMeshAgent AIステートマシン、プレハブスポナー、トリガーピックアップ） |"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "Om0AKcZAQvPyInUM+dWN1sqDCpy6teU7QsvkpKh/JFM=",
+    "originContent": "Every API signature in every reference file is verified against the s&box engine's exported schema (`raw/api-schema.json`, ~1,850 types across 61 namespaces). Schema is the single source of truth — if the docs and the schema disagree, the schema wins.",
+    "translatedContent": "すべてのリファレンスファイル内のAPIシグネチャは、s&boxエンジンのエクスポートされたスキーマ（`raw/api-schema.json`、61の名前空間に渡る約1,850タイプ）と照合されています。スキーマが唯一の真実のソースです — ドキュメントとスキーマが異なる場合はスキーマが優先されます。"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "inmKwtmqzepzwerIOo0UHdLnYx91LdYUCbcKELTX2PY=",
+    "originContent": "## Updating",
+    "translatedContent": "## 更新"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 73,
+    "rowsha": "O5liZC/f+D3LvlOO+lvy1n03xxGfHNfjA//yva0bGvY=",
+    "originContent": "cd ~/.claude/skills/sbox",
+    "translatedContent": "cd ~/.claude/skills/sbox"
+  },
+  {
+    "row": 74,
+    "rowsha": "syRMV/GDPABIz5fwYldpOQoe3aWAf2mXc0QnZG0QgSw=",
+    "originContent": "git pull",
+    "translatedContent": "git pull"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "81g8Hgf30jDCV+QPnPZuTowAb0zLQgF37H8R4J2XCiQ=",
+    "originContent": "Claude Code reloads modified skill files within the current session.",
+    "translatedContent": "Claude Codeは、現在のセッション内で変更されたスキルファイルを再読み込みします。"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "iT68PSZ9/jBT2Ju+2ySV0kRpMPJcvH7In3b044gM5vw=",
+    "originContent": "## Regenerating from source",
+    "translatedContent": "## ソースからの再生成"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "VhNVEhgyPhVs/igjI2Fdo5PBRzlyWNPFueYmChb5Fdg=",
+    "originContent": "End users don't need this. For maintainers who want to rebuild the reference files against a newer s&box engine:",
+    "translatedContent": "エンドユーザーには不要です。新しいs&boxエンジンに対してリファレンスファイルを再構築したいメンテナ向け："
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 86,
+    "rowsha": "qBoc8vWK1jbSw4JH70HluDvzqFv7pYT59SRU6jmXAds=",
+    "originContent": "./scripts/fetch-raw.sh         # clones Facepunch/sbox-docs into raw/sbox-docs",
+    "translatedContent": "./scripts/fetch-raw.sh         # clones Facepunch/sbox-docs into raw/sbox-docs"
+  },
+  {
+    "row": 87,
+    "rowsha": "oypGwJZGHuoAc2Vng5CYbj39bOe7yTMZbUfj5s5EDDU=",
+    "originContent": "# manually place raw/api-schema.json (see docs/DESIGN.md)",
+    "translatedContent": "# manually place raw/api-schema.json (see docs/DESIGN.md)"
+  },
+  {
+    "row": 88,
+    "rowsha": "w9SBakeEskBNKKzXksfr0cAX/CJ5bXI6bcfq+dTWL/g=",
+    "originContent": "node scripts/build_extended.js # rebuilds references/api-schema-extended.md",
+    "translatedContent": "node scripts/build_extended.js # rebuilds references/api-schema-extended.md"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "完全なビルドワークフロー — 各リファレンスファイルのキュレーション方法、スキーマ検証ループ、および既知の注意点 — は [`docs/DESIGN.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/DESIGN.md) と [`docs/BUILD_LOG.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/BUILD_LOG.md) に記録されています。"
+  },
+  {
+    "row": 91,
+    "rowsha": "NGiNAVT2SAVFFOaMlHU3lVd/+q/t1vIJvep4VenSjLI=",
+    "originContent": "The full build workflow — including how each reference file was curated, the schema-verification loop, and known gotchas — is documented in [`docs/DESIGN.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/DESIGN.md) and [`docs/BUILD_LOG.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/BUILD_LOG.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 93,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## トラブルシューティング"
+  },
+  {
+    "row": 95,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**Claudeがs&boxの質問でスキルを起動しない。**  "
+  },
+  {
+    "row": 97,
+    "rowsha": "LdFYEziClM1tq/gOKqGsKToIsJqYAuZicBp6K2oGWcM=",
+    "originContent": "**Claude isn't triggering the skill on s&box questions.**",
+    "translatedContent": "ディレクトリが `~/.claude/skills/sbox/` にあるか確認してください（`~/.claude/skills/claude-sbox/` や `~/.claude/skills/sbox-skill/` ではありません）。ディレクトリ名は `name:` フロントマターと一致している必要があります。明示的に `/sbox` を使ってインストール済みか確認することも試してください。"
+  },
+  {
+    "row": 98,
+    "rowsha": "Ddfun76bBUCJjzl8LvUlABJJhFOFzTIlWMbjjWltKhU=",
+    "originContent": "Check that the directory is at `~/.claude/skills/sbox/` (not `~/.claude/skills/claude-sbox/` or `~/.claude/skills/sbox-skill/`). The directory name must match the `name:` frontmatter. Also try invoking it explicitly with `/sbox` to confirm it's installed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**Claudeがリファレンスファイルを開かずにs&boxの質問に答える。**  "
+  },
+  {
+    "row": 100,
+    "rowsha": "H4H9msTCtUobDVHLq7SPPHWMX3x8twN/Bor9KBJHjpk=",
+    "originContent": "**Claude answers s&box questions without opening a reference file.**",
+    "translatedContent": "これはUnityの筋肉記憶から幻覚を見ていることを意味します — このスキルが防ぐべき正確な失敗です。スキルが読み込まれていないか、説明が一致していません。`/sbox` で強制読み込みし、再度質問してみてください。"
+  },
+  {
+    "row": 101,
+    "rowsha": "WhGuMmVZFsNgvuadGD6xe3JY0K1N5sVO+dexwPvhkvw=",
+    "originContent": "That means it's hallucinating from Unity muscle memory — the exact failure this skill exists to prevent. Either the skill isn't loading, or the description isn't matching. Try `/sbox` to force-load it, then retry the question.",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**スキルは読み込まれているが、コンパイルできないAPIを提案する。**  "
+  },
+  {
+    "row": 103,
+    "rowsha": "7EPpZeChYkVvP/f/pCNly8ooMFPTH80dKmSqghQ4n6A=",
+    "originContent": "**The skill is loading but suggesting APIs that don't compile.**",
+    "translatedContent": "提案されたコードとClaudeがそれがどのリファレンスファイルから来たと主張しているかを含めてIssueを開いてください。出荷されているすべてのシグネチャはスキーマ検証済みであるべきです。回帰はバグです。"
+  },
+  {
+    "row": 104,
+    "rowsha": "HwzxSl2PHL7hHx473TgWrdJDJqsSOmdTbaSobnfMjxE=",
+    "originContent": "Open an issue with the suggested code and which reference file Claude claims it came from. Every shipped signature should be schema-verified; regressions are bugs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**`~/.claude/skills/claude-sbox/` にクローンしたけど、次は？**  "
+  },
+  {
+    "row": 106,
+    "rowsha": "scVR13WlA0iOSc5qlEzF4L1gg0GwHD2UWJ+BCjJ7x1Q=",
+    "originContent": "**I cloned it into `~/.claude/skills/claude-sbox/` — now what?**",
+    "translatedContent": "ディレクトリ名を `sbox` に変更するか、`SKILL.md` の `name:` フィールドを `claude-sbox` に合わせて変更してください。プロジェクトローカルインストールでも同様です。"
+  },
+  {
+    "row": 107,
+    "rowsha": "6riArH7wTfeRnE5IuYTz+zGFHHmXR114YxG88M08BTc=",
+    "originContent": "Either rename the directory to `sbox`, or change the `name:` field in `SKILL.md` to `claude-sbox` to match. Same deal for project-local installs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 109,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## コントリビューション"
+  },
+  {
+    "row": 111,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "IssueやPRは歓迎します。提出前に："
+  },
+  {
+    "row": 113,
+    "rowsha": "NOj7EK/rLhKpc8uIbJsFnALTFAvWVvdZcutnmUqP6UM=",
+    "originContent": "Issues and PRs welcome. Before submitting:",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **新しいAPIシグネチャを `raw/api-schema.json` に対して検証してください。** スキーマが真実の基準です。スキーマにメソッドが見つからなければ追加しないでください。  "
+  },
+  {
+    "row": 115,
+    "rowsha": "z5fwXHzA/0hrMH9gJZuTPPPjWfZG9ulvDXwqLPj8Fyw=",
+    "originContent": "- **Verify new API signatures against `raw/api-schema.json`.** The schema is ground truth. If you can't find a method in the schema, don't add it.",
+    "translatedContent": "- **`SKILL.md` を500行以下に保ってください。** これはルーターです — 参照の詳細は `references/` にあります。`SKILL.md` だけでリファレンスファイルを開かずにs&boxの質問に答えられるなら、ルーターに詳細が多すぎます。  "
+  },
+  {
+    "row": 116,
+    "rowsha": "u2h0lyxdihjVb8s8IuPTYMMx56zwrEkLUZeqGh52R/Q=",
+    "originContent": "- **Keep `SKILL.md` under 500 lines.** It's a router — reference detail lives in `references/`. If you can answer an s&box question using only `SKILL.md` without opening a reference file, the router has too much detail.",
+    "translatedContent": "- **ユーザーに見える変更があれば `CHANGELOG.md` を更新してください。**  "
+  },
+  {
+    "row": 117,
+    "rowsha": "NCGD1j5FVLE0QXqpASYasNL1Lfh4t9G0A5cjG8tUZeo=",
+    "originContent": "- **Update `CHANGELOG.md`** for any user-visible change.",
+    "translatedContent": "- **既存の文体を合わせてください** — 簡潔で密度が高く、チュートリアル読者ではなくClaude向けに書かれています。"
+  },
+  {
+    "row": 118,
+    "rowsha": "I2Bhre5xp8OPmNI6yRi/TBr9yDF8ZYN+5pTSzoTkEpo=",
+    "originContent": "- **Match the existing prose style** — terse, dense, written for Claude rather than for a tutorial reader.",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 120,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 122,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT — [LICENSE](LICENSE) を参照してください。"
+  },
+  {
+    "row": 124,
+    "rowsha": "ZHeFzII7A7DgzGA/2Y4KzibHIfqdv57D/4HhUTnFv4o=",
+    "originContent": "MIT — see [LICENSE](LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このプロジェクトはFacepunchやAnthropicとは提携も承認もされていません。s&boxはFacepunch Studiosの製品です。Claude CodeとAgent SkillsフォーマットはAnthropicの製品です。"
+  },
+  {
+    "row": 126,
+    "rowsha": "HW/S3acax/3nNkzhMsi3RrNFOxn+gN2u1/mKj/zp/9w=",
+    "originContent": "This project is not affiliated with or endorsed by Facepunch or Anthropic. s&box is a product of Facepunch Studios. Claude Code and the Agent Skills format are products of Anthropic.",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

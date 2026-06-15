@@ -1,0 +1,764 @@
+[
+  {
+    "row": 1,
+    "rowsha": "JhS39zFZMHmanrZjEilJu3WiikJo+us6GrP9za7TUZQ=",
+    "originContent": "# claude-sbox",
+    "translatedContent": "# claude-sbox"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "4wTWnQ10oro6SrawhGNo/TKL4wxl2G9uRNLPPH0vmTI=",
+    "originContent": "A [Claude Code](https://code.claude.com) skill that teaches Claude to write idiomatic [s&box](https://sbox.game) code — C# components, Razor UI, physics, and networking — without falling back on Unity patterns.",
+    "translatedContent": "Une compétence [Claude Code](https://code.claude.com) qui apprend à Claude à écrire du code idiomatique [s&box](https://sbox.game) — composants C#, interface Razor, physique et réseau — sans recourir aux modèles Unity."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y7XoBNnzmpAB+RaUTYA1pVcB0ITXKrRHmtymk4MF1jE=",
+    "originContent": "s&box is Facepunch's Source 2 game engine with a C# scripting layer. Its API, lifecycle, and networking model are *nothing like* Unity's, which means stock Claude hallucinates constantly: `void Start()`, `GetComponent<T>()` in the Unity sense, `Physics.Raycast`, `[SerializeField]`, `StartCoroutine` — all wrong in s&box. This skill loads when you're writing s&box code and redirects Claude to the correct APIs, verified against the engine's exported schema.",
+    "translatedContent": "s&box est le moteur de jeu Source 2 de Facepunch avec une couche de script C#. Son API, son cycle de vie et son modèle réseau *n’ont rien à voir* avec ceux d’Unity, ce qui fait que Claude génère constamment des hallucinations : `void Start()`, `GetComponent<T>()` au sens Unity, `Physics.Raycast`, `[SerializeField]`, `StartCoroutine` — tout cela est faux dans s&box. Cette compétence se charge lorsque vous écrivez du code s&box et redirige Claude vers les API correctes, vérifiées contre le schéma exporté du moteur."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## Installer"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Oh9bqWyeg6rBCed6Uc7/05DDbou+iHvIM6V2gBLUXf0=",
+    "originContent": "**Personal (available across all your projects):**",
+    "translatedContent": "**Personnel (disponible dans tous vos projets) :**"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 14,
+    "rowsha": "XBls2XdpyusUhisNrgODdF9GGC5RDImaUkSlscprDg8=",
+    "originContent": "mkdir -p ~/.claude/skills",
+    "translatedContent": "mkdir -p ~/.claude/skills"
+  },
+  {
+    "row": 15,
+    "rowsha": "ZRgzCQGCSLuvsOW+rCXltEDczOnehCIJ4QvnusVa+Fw=",
+    "originContent": "git clone https://github.com/gavogavogavo/claude-sbox ~/.claude/skills/sbox",
+    "translatedContent": "git clone https://github.com/gavogavogavo/claude-sbox ~/.claude/skills/sbox"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "NfZv0wDDR0Mn6iBMlFxQZlG/vkyJa15ldoLVd5THO1o=",
+    "originContent": "**Project-local (this game only):**",
+    "translatedContent": "**Local au projet (ce jeu uniquement) :**"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 21,
+    "rowsha": "BR3h+OHgOKNT4WpeFfIUmwE6o9QgdGnnR+PHWHbREPM=",
+    "originContent": "cd my-sbox-game",
+    "translatedContent": "cd my-sbox-game"
+  },
+  {
+    "row": 22,
+    "rowsha": "eM4DnyVpG34U0UrTLNlCKNOLRp0Y2wyIjJTDxz0FNTg=",
+    "originContent": "mkdir -p .claude/skills",
+    "translatedContent": "mkdir -p .claude/skills"
+  },
+  {
+    "row": 23,
+    "rowsha": "/dB5Yj3hRAUuNnW0Qr5VEH/LIM++DNNkmHX6YFm2ohM=",
+    "originContent": "git clone https://github.com/gavogavogavo/claude-sbox .claude/skills/sbox",
+    "translatedContent": "git clone https://github.com/gavogavogavo/claude-sbox .claude/skills/sbox"
+  },
+  {
+    "row": 24,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Claude Code détecte en direct les modifications des fichiers de compétences. Cependant, si `~/.claude/skills/` n'existait pas lorsque votre session Claude Code a démarré (c’est-à-dire qu’il s’agit de votre première compétence personnelle), vous devez **redémarrer Claude Code** après le `mkdir` afin que le surveillant enregistre le nouveau répertoire."
+  },
+  {
+    "row": 26,
+    "rowsha": "YM14KKCo+svZZj0gYAzxZY/D+1ZawBHgiTPkiBJjFR4=",
+    "originContent": "Claude Code picks up skill file changes live. However, if `~/.claude/skills/` did not exist when your Claude Code session started (i.e. this is your first personal skill), you need to **restart Claude Code** after the `mkdir` so the watcher registers the new directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **Pourquoi le nom du répertoire `sbox` (et non `claude-sbox`) ?** Le frontmatter `name:` dans `SKILL.md` est `sbox`, ce qui devient la commande slash `/sbox`. Cloner dans `~/.claude/skills/sbox/` maintient la cohérence entre le nom du répertoire et le nom d’invocation."
+  },
+  {
+    "row": 28,
+    "rowsha": "H8ObU3hdUhpUlD9puPYVx2R/O1oh+oCkiq+MB4Iw36M=",
+    "originContent": "> **Why the `sbox` (not `claude-sbox`) directory name?** The `name:` frontmatter in `SKILL.md` is `sbox`, which becomes the `/sbox` slash command. Cloning into `~/.claude/skills/sbox/` keeps the directory name and the invocation name in sync.",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 30,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Vérifiez que ça fonctionne"
+  },
+  {
+    "row": 32,
+    "rowsha": "PtElI06A8Zet7xrgR8NhxBJb625Ujgw1Krg5s3Et4lk=",
+    "originContent": "## Verify it's working",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Dans n’importe quelle session Claude Code, tapez :"
+  },
+  {
+    "row": 34,
+    "rowsha": "seAHFsFmi5aYP046ZxeP3zhD/zd9zp/7MrOh5HLWa5M=",
+    "originContent": "In any Claude Code session, type:",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "kCxBgbIvIseXCSlrwTYjwOtFzhz0XHw68eByUKEzvAY=",
+    "originContent": "/sbox",
+    "translatedContent": "/sbox"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "LZdouyYJfIudRDln1SDHSPVbSoH7CsgNlBcmq7pY5Bg=",
+    "originContent": "The router loads. Alternatively, ask a triggering question and watch Claude reach for a reference file:",
+    "translatedContent": "Le routeur se charge. Alternativement, posez une question déclencheuse et regardez Claude consulter un fichier de référence :"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "gZaaEIv8Hn9D15OJMew4Rkkeva45uuNBHAA8utszekU=",
+    "originContent": "How do I write a networked player controller in s&box?",
+    "translatedContent": "How do I write a networked player controller in s&box?"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "mfqPebCAXzRJ5OW5KOQDhyO53UTyb7J50xEoUCPsOs4=",
+    "originContent": "Claude should open `references/core-concepts.md`, `references/networking.md`, and/or `references/patterns-and-examples.md` before answering — *that's the signal the skill is working*. If it answers from memory without reading a file, something's wrong; see [Troubleshooting](#troubleshooting).",
+    "translatedContent": "Claude doit ouvrir `references/core-concepts.md`, `references/networking.md`, et/ou `references/patterns-and-examples.md` avant de répondre — *c’est le signal que la compétence fonctionne*. S’il répond de mémoire sans lire un fichier, quelque chose ne va pas ; voir [Dépannage](#troubleshooting)."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "JAnziMVO9ws30swwdK2FOW8ldJJCvbtdKhFUcO3uw8s=",
+    "originContent": "## What's inside",
+    "translatedContent": "## Contenu"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "UTK/yILt3bLEBNsLEtawa+y+nc6NIPGQmlNfUZzdQqs=",
+    "originContent": "`SKILL.md` is a router, not a reference. When Claude needs detail, it opens one of these:",
+    "translatedContent": "`SKILL.md` est un routeur, pas une référence. Quand Claude a besoin de détails, il ouvre l’un de ceux-ci :"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "p6TMJHRQ6DJTgb2AwPnMyJOLTi8xSgnp9YHq0NmQQPI=",
+    "originContent": "| File | Lines | Covers |",
+    "translatedContent": "| Fichier | Lignes | Couvre |"
+  },
+  {
+    "row": 55,
+    "rowsha": "aiFaYbkiQuvRtp0YlS8yNqOrzJRcPkFeAY5Dk3quH+Q=",
+    "originContent": "|---|---:|---|",
+    "translatedContent": "|---|---:|---|"
+  },
+  {
+    "row": 56,
+    "rowsha": "NYjupU8N+B9lo1aS1Pn7ZOa4W/oF8ZIXCRNhomAEwAo=",
+    "originContent": "| `SKILL.md` | 271 | Router + Unity→s&box translation table + the ten rules |",
+    "translatedContent": "| `SKILL.md` | 271 | Routeur + table de traduction Unity→s&box + les dix règles |"
+  },
+  {
+    "row": 57,
+    "rowsha": "GTowUrEZggDFmOF5tZrft4Os00A8CS12p8xJxNb9x9M=",
+    "originContent": "| `references/core-concepts.md` | 575 | Scene system, GameObjects, Components, lifecycle, `[Property]`, prefabs, scene events, `GameObjectSystem`, async |",
+    "translatedContent": "| `references/core-concepts.md` | 575 | Système de scènes, GameObjects, Composants, cycle de vie, `[Property]`, prefabs, événements de scène, `GameObjectSystem`, asynchrone |"
+  },
+  {
+    "row": 58,
+    "rowsha": "bIlt4xMkZMOjksydDS/ezThiltx8AXXGq/PYsroJeZY=",
+    "originContent": "| `references/components-builtin.md` | 729 | 144 built-in components — renderers, rigidbodies, colliders, `CharacterController`, `CameraComponent`, lights, audio, UI, `NavMeshAgent`, `PlayerController`, particles, post-processing |",
+    "translatedContent": "| `references/components-builtin.md` | 729 | 144 composants intégrés — renderers, rigidbodies, colliders, `CharacterController`, `CameraComponent`, lumières, audio, UI, `NavMeshAgent`, `PlayerController`, particules, post-traitement |"
+  },
+  {
+    "row": 59,
+    "rowsha": "0c2SuLlfuLyGhOoAXG8+Wk9V8Gv/rkUvgy+bpcrB0U8=",
+    "originContent": "| `references/ui-razor.md` | 834 | Razor panels, SCSS, flexbox layout, built-in controls (Button / TextEntry / DropDown / SliderControl / VirtualGrid), `NavigationHost`, transitions |",
+    "translatedContent": "| `references/ui-razor.md` | 834 | Panneaux Razor, SCSS, mise en page flexbox, contrôles intégrés (Button / TextEntry / DropDown / SliderControl / VirtualGrid), `NavigationHost`, transitions |"
+  },
+  {
+    "row": 60,
+    "rowsha": "P9Bux+SF4HertFn67i9J/YH9Etat/cfHUzaUJu7fCqo=",
+    "originContent": "| `references/networking.md` | 672 | Lobbies, `Connection`, `[Sync]` + `SyncFlags`, `[Rpc.Broadcast/Host/Owner]`, ownership, `INetworkListener`, `INetworkSpawn`, snapshot data, dedicated servers |",
+    "translatedContent": "| `references/networking.md` | 672 | Lobbies, `Connection`, `[Sync]` + `SyncFlags`, `[Rpc.Broadcast/Host/Owner]`, propriété, `INetworkListener`, `INetworkSpawn`, données snapshot, serveurs dédiés |"
+  },
+  {
+    "row": 61,
+    "rowsha": "Xd5Weh70aLSasNxUm+lPLC6ii4ky0zbq7jN5RbAGtUY=",
+    "originContent": "| `references/input-and-physics.md` | 597 | Input system, `SceneTrace` builder API, `PhysicsWorld`, collision, `Vector3`/`Rotation`/`Angles`/`Transform`/`BBox`/`Ray`/`Capsule`, `TimeSince`/`TimeUntil`, `Gizmo.Draw` |",
+    "translatedContent": "| `references/input-and-physics.md` | 597 | Système d’entrée, API constructeur `SceneTrace`, `PhysicsWorld`, collision, `Vector3`/`Rotation`/`Angles`/`Transform`/`BBox`/`Ray`/`Capsule`, `TimeSince`/`TimeUntil`, `Gizmo.Draw` |"
+  },
+  {
+    "row": 62,
+    "rowsha": "gXbgpkK0+MwldCd2jT2K01GOCT2uRw2SqvEen8oLG28=",
+    "originContent": "| `references/api-schema-core.md` | 930 | Full public signatures for the ~50 most-used types |",
+    "translatedContent": "| `references/api-schema-core.md` | 930 | Signatures publiques complètes pour les ~50 types les plus utilisés |"
+  },
+  {
+    "row": 63,
+    "rowsha": "0zAmVQHgWmsUm4XDtKOphBV9rNrRWRGzkMOlTInSn2I=",
+    "originContent": "| `references/api-schema-extended.md` | 2753 | Namespace-organized index of 738 additional types for discovery |",
+    "translatedContent": "| `references/api-schema-extended.md` | 2753 | Index organisé par namespace de 738 types supplémentaires pour la découverte |"
+  },
+  {
+    "row": 64,
+    "rowsha": "TJjfLpOfLLS6vNTttpeQLVWI9EgACWtY1oUtIhR6h7A=",
+    "originContent": "| `references/patterns-and-examples.md` | 1056 | 10 complete runnable examples (Health + `IDamageable`, first-person `CharacterController`, hitscan weapon, networked game manager, player with `[Sync]`/RPCs, Razor HUD, rigidbody grenade, NavMeshAgent AI state machine, prefab spawner, trigger pickup) |",
+    "translatedContent": "| `references/patterns-and-examples.md` | 1056 | 10 exemples complets exécutables (Health + `IDamageable`, `CharacterController` à la première personne, arme hitscan, gestionnaire de jeu réseau, joueur avec `[Sync]`/RPCs, HUD Razor, grenade rigide, machine d’état IA NavMeshAgent, générateur de prefabs, déclencheur de ramassage) |"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "Om0AKcZAQvPyInUM+dWN1sqDCpy6teU7QsvkpKh/JFM=",
+    "originContent": "Every API signature in every reference file is verified against the s&box engine's exported schema (`raw/api-schema.json`, ~1,850 types across 61 namespaces). Schema is the single source of truth — if the docs and the schema disagree, the schema wins.",
+    "translatedContent": "Chaque signature d’API dans chaque fichier de référence est vérifiée par rapport au schéma exporté du moteur s&box (`raw/api-schema.json`, ~1 850 types répartis sur 61 namespaces). Le schéma est la source unique de vérité — si la documentation et le schéma diffèrent, c’est le schéma qui prévaut."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "inmKwtmqzepzwerIOo0UHdLnYx91LdYUCbcKELTX2PY=",
+    "originContent": "## Updating",
+    "translatedContent": "## Mise à jour"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 73,
+    "rowsha": "O5liZC/f+D3LvlOO+lvy1n03xxGfHNfjA//yva0bGvY=",
+    "originContent": "cd ~/.claude/skills/sbox",
+    "translatedContent": "cd ~/.claude/skills/sbox"
+  },
+  {
+    "row": 74,
+    "rowsha": "syRMV/GDPABIz5fwYldpOQoe3aWAf2mXc0QnZG0QgSw=",
+    "originContent": "git pull",
+    "translatedContent": "git pull"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "81g8Hgf30jDCV+QPnPZuTowAb0zLQgF37H8R4J2XCiQ=",
+    "originContent": "Claude Code reloads modified skill files within the current session.",
+    "translatedContent": "Claude Code recharge les fichiers de compétences modifiés dans la session en cours."
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "iT68PSZ9/jBT2Ju+2ySV0kRpMPJcvH7In3b044gM5vw=",
+    "originContent": "## Regenerating from source",
+    "translatedContent": "## Régénération à partir de la source"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "VhNVEhgyPhVs/igjI2Fdo5PBRzlyWNPFueYmChb5Fdg=",
+    "originContent": "End users don't need this. For maintainers who want to rebuild the reference files against a newer s&box engine:",
+    "translatedContent": "Les utilisateurs finaux n’en ont pas besoin. Pour les mainteneurs qui souhaitent reconstruire les fichiers de référence avec une version plus récente du moteur s&box :"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 86,
+    "rowsha": "qBoc8vWK1jbSw4JH70HluDvzqFv7pYT59SRU6jmXAds=",
+    "originContent": "./scripts/fetch-raw.sh         # clones Facepunch/sbox-docs into raw/sbox-docs",
+    "translatedContent": "./scripts/fetch-raw.sh         # clones Facepunch/sbox-docs into raw/sbox-docs"
+  },
+  {
+    "row": 87,
+    "rowsha": "oypGwJZGHuoAc2Vng5CYbj39bOe7yTMZbUfj5s5EDDU=",
+    "originContent": "# manually place raw/api-schema.json (see docs/DESIGN.md)",
+    "translatedContent": "# manually place raw/api-schema.json (see docs/DESIGN.md)"
+  },
+  {
+    "row": 88,
+    "rowsha": "w9SBakeEskBNKKzXksfr0cAX/CJ5bXI6bcfq+dTWL/g=",
+    "originContent": "node scripts/build_extended.js # rebuilds references/api-schema-extended.md",
+    "translatedContent": "node scripts/build_extended.js # rebuilds references/api-schema-extended.md"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "NGiNAVT2SAVFFOaMlHU3lVd/+q/t1vIJvep4VenSjLI=",
+    "originContent": "The full build workflow — including how each reference file was curated, the schema-verification loop, and known gotchas — is documented in [`docs/DESIGN.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/DESIGN.md) and [`docs/BUILD_LOG.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/BUILD_LOG.md).",
+    "translatedContent": "Le flux de travail complet de construction — incluant la façon dont chaque fichier de référence a été élaboré, la boucle de vérification du schéma, et les pièges connus — est documenté dans [`docs/DESIGN.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/DESIGN.md) et [`docs/BUILD_LOG.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/BUILD_LOG.md)."
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": "## Dépannage"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "LdFYEziClM1tq/gOKqGsKToIsJqYAuZicBp6K2oGWcM=",
+    "originContent": "**Claude isn't triggering the skill on s&box questions.**",
+    "translatedContent": "**Claude ne déclenche pas la compétence sur les questions s&box.**"
+  },
+  {
+    "row": 98,
+    "rowsha": "Ddfun76bBUCJjzl8LvUlABJJhFOFzTIlWMbjjWltKhU=",
+    "originContent": "Check that the directory is at `~/.claude/skills/sbox/` (not `~/.claude/skills/claude-sbox/` or `~/.claude/skills/sbox-skill/`). The directory name must match the `name:` frontmatter. Also try invoking it explicitly with `/sbox` to confirm it's installed.",
+    "translatedContent": "Vérifiez que le répertoire est à `~/.claude/skills/sbox/` (pas `~/.claude/skills/claude-sbox/` ni `~/.claude/skills/sbox-skill/`). Le nom du répertoire doit correspondre au champ `name:` du frontmatter. Essayez aussi de l’invoquer explicitement avec `/sbox` pour confirmer qu’il est installé."
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "H4H9msTCtUobDVHLq7SPPHWMX3x8twN/Bor9KBJHjpk=",
+    "originContent": "**Claude answers s&box questions without opening a reference file.**",
+    "translatedContent": "**Claude répond aux questions s&box sans ouvrir de fichier de référence.**"
+  },
+  {
+    "row": 101,
+    "rowsha": "WhGuMmVZFsNgvuadGD6xe3JY0K1N5sVO+dexwPvhkvw=",
+    "originContent": "That means it's hallucinating from Unity muscle memory — the exact failure this skill exists to prevent. Either the skill isn't loading, or the description isn't matching. Try `/sbox` to force-load it, then retry the question.",
+    "translatedContent": "Cela signifie qu’il hallucine à partir de la mémoire musculaire Unity — l’échec exact que cette compétence vise à prévenir. Soit la compétence ne se charge pas, soit la description ne correspond pas. Essayez `/sbox` pour forcer son chargement, puis reposez la question."
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "7EPpZeChYkVvP/f/pCNly8ooMFPTH80dKmSqghQ4n6A=",
+    "originContent": "**The skill is loading but suggesting APIs that don't compile.**",
+    "translatedContent": "**La compétence se charge mais suggère des APIs qui ne compilent pas.**"
+  },
+  {
+    "row": 104,
+    "rowsha": "HwzxSl2PHL7hHx473TgWrdJDJqsSOmdTbaSobnfMjxE=",
+    "originContent": "Open an issue with the suggested code and which reference file Claude claims it came from. Every shipped signature should be schema-verified; regressions are bugs.",
+    "translatedContent": "Ouvrez un ticket avec le code suggéré et le fichier de référence dont Claude affirme qu’il provient. Chaque signature fournie doit être vérifiée par le schéma ; les régressions sont des bugs."
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "scVR13WlA0iOSc5qlEzF4L1gg0GwHD2UWJ+BCjJ7x1Q=",
+    "originContent": "**I cloned it into `~/.claude/skills/claude-sbox/` — now what?**",
+    "translatedContent": "**Je l’ai cloné dans `~/.claude/skills/claude-sbox/` — et maintenant ?**"
+  },
+  {
+    "row": 107,
+    "rowsha": "6riArH7wTfeRnE5IuYTz+zGFHHmXR114YxG88M08BTc=",
+    "originContent": "Either rename the directory to `sbox`, or change the `name:` field in `SKILL.md` to `claude-sbox` to match. Same deal for project-local installs.",
+    "translatedContent": "Renommez soit le répertoire en `sbox`, soit changez le champ `name:` dans `SKILL.md` en `claude-sbox` pour que cela corresponde. Même chose pour les installations locales au projet."
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contribution"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "NOj7EK/rLhKpc8uIbJsFnALTFAvWVvdZcutnmUqP6UM=",
+    "originContent": "Issues and PRs welcome. Before submitting:",
+    "translatedContent": "Issues et PRs bienvenues. Avant de soumettre :"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "z5fwXHzA/0hrMH9gJZuTPPPjWfZG9ulvDXwqLPj8Fyw=",
+    "originContent": "- **Verify new API signatures against `raw/api-schema.json`.** The schema is ground truth. If you can't find a method in the schema, don't add it.",
+    "translatedContent": "- **Vérifiez les nouvelles signatures d’API avec `raw/api-schema.json`.** Le schéma est la vérité fondamentale. Si vous ne trouvez pas une méthode dans le schéma, ne l’ajoutez pas."
+  },
+  {
+    "row": 116,
+    "rowsha": "u2h0lyxdihjVb8s8IuPTYMMx56zwrEkLUZeqGh52R/Q=",
+    "originContent": "- **Keep `SKILL.md` under 500 lines.** It's a router — reference detail lives in `references/`. If you can answer an s&box question using only `SKILL.md` without opening a reference file, the router has too much detail.",
+    "translatedContent": "- **Gardez `SKILL.md` sous 500 lignes.** C’est un routeur — les détails des références vivent dans `references/`. Si vous pouvez répondre à une question s&box en n’utilisant que `SKILL.md` sans ouvrir un fichier de référence, le routeur contient trop de détails."
+  },
+  {
+    "row": 117,
+    "rowsha": "NCGD1j5FVLE0QXqpASYasNL1Lfh4t9G0A5cjG8tUZeo=",
+    "originContent": "- **Update `CHANGELOG.md`** for any user-visible change.",
+    "translatedContent": "- **Mettez à jour `CHANGELOG.md`** pour tout changement visible par l’utilisateur."
+  },
+  {
+    "row": 118,
+    "rowsha": "I2Bhre5xp8OPmNI6yRi/TBr9yDF8ZYN+5pTSzoTkEpo=",
+    "originContent": "- **Match the existing prose style** — terse, dense, written for Claude rather than for a tutorial reader.",
+    "translatedContent": "- **Respectez le style de prose existant** — concis, dense, écrit pour Claude plutôt que pour un lecteur de tutoriel."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## Licence"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "ZHeFzII7A7DgzGA/2Y4KzibHIfqdv57D/4HhUTnFv4o=",
+    "originContent": "MIT — see [LICENSE](LICENSE).",
+    "translatedContent": "MIT — voir [LICENSE](LICENSE)."
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "HW/S3acax/3nNkzhMsi3RrNFOxn+gN2u1/mKj/zp/9w=",
+    "originContent": "This project is not affiliated with or endorsed by Facepunch or Anthropic. s&box is a product of Facepunch Studios. Claude Code and the Agent Skills format are products of Anthropic.",
+    "translatedContent": "Ce projet n’est affilié ni approuvé par Facepunch ou Anthropic. s&box est un produit de Facepunch Studios. Claude Code et le format Agent Skills sont des produits d’Anthropic."
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

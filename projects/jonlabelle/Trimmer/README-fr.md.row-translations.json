@@ -1,0 +1,848 @@
+[
+  {
+    "row": 1,
+    "rowsha": "QN5R0lNhVqENw+2c5k3b2Wli5lR7m5UU0k07BmbjDnc=",
+    "originContent": "# Trimmer",
+    "translatedContent": "# Trimmer"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "uIMC8IGXRNreGV8NN//Iew6L8eYXX3M6EIE0QwouLM8=",
+    "originContent": "[![ci](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml)",
+    "translatedContent": "[![ci](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jonlabelle/Trimmer/actions/workflows/ci.yml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "8eczSZnBsmTBAH/G87HHSK8zvE46J47QTSD2HjzfzuQ=",
+    "originContent": "[![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)",
+    "translatedContent": "[![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)"
+  },
+  {
+    "row": 5,
+    "rowsha": "bgLM9ZiZPeWRJ3uvwZnZKSRxto+V9ih4vvadbLKRDFs=",
+    "originContent": "[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)",
+    "translatedContent": "[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)"
+  },
+  {
+    "row": 6,
+    "rowsha": "lovsfi/ZXJiejgSa944dFaHpL6tGK34h7kq4vfJisEY=",
+    "originContent": "[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jonlabelle/Trimmer/blob/master/LICENSE.md)",
+    "translatedContent": "[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jonlabelle/Trimmer/blob/master/LICENSE.md)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "vGgiPraExXHmzvS/WFQYJ9MDg343ykcE88aRFQgpeoo=",
+    "originContent": "> [Trimmer](https://github.com/jonlabelle/Trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.",
+    "translatedContent": "> [Trimmer](https://github.com/jonlabelle/Trimmer) est un plug-in pour [Sublime Text](http://www.sublimetext.com) permettant de nettoyer les espaces blancs."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Fonctionnalités"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "SM5Yz9/w4TK6UHfhq2+KovA85cBNSlGvoCGPaQ7VmB0=",
+    "originContent": "- Trim whitespace at the end of each line.",
+    "translatedContent": "- Supprimer les espaces blancs à la fin de chaque ligne."
+  },
+  {
+    "row": 13,
+    "rowsha": "9Wu8aetRk1pS/Zw9HxDl9sIm1u+EL3nlWhCVLcd3YDA=",
+    "originContent": "- Trim whitespace at the start of each line.",
+    "translatedContent": "- Supprimer les espaces blancs au début de chaque ligne."
+  },
+  {
+    "row": 14,
+    "rowsha": "rLwCzC0w7gi+1A0IkLMkrT3P7SHugd4702QofgSCsNI=",
+    "originContent": "- Trim whitespace at the start and end of each line.",
+    "translatedContent": "- Supprimer les espaces blancs au début et à la fin de chaque ligne."
+  },
+  {
+    "row": 15,
+    "rowsha": "AoZdZvYNLu4kQWC9DvdJ6YFoyWTDGqJXbCb2peVoZys=",
+    "originContent": "- Trim whitespace from selection(s).",
+    "translatedContent": "- Supprimer les espaces blancs des sélections."
+  },
+  {
+    "row": 16,
+    "rowsha": "45RKzJzasGMv8/Scvvk7iVzGq9LOY+l2xW/RGAFCb0Y=",
+    "originContent": "- Delete empty, whitespace only lines.",
+    "translatedContent": "- Supprimer les lignes vides ne contenant que des espaces blancs."
+  },
+  {
+    "row": 17,
+    "rowsha": "iGZMcHmUundtViOqM27iQortXw9ny0uyBY3x0U8/xms=",
+    "originContent": "- Collapse multiple consecutive empty lines into one empty line.",
+    "translatedContent": "- Réduire plusieurs lignes vides consécutives en une seule ligne vide."
+  },
+  {
+    "row": 18,
+    "rowsha": "fvyVZJjamfsRl9YoYsUbieCj6hedYtVxwfwcpuj4WVQ=",
+    "originContent": "- Collapse multiple consecutive spaces into one space.",
+    "translatedContent": "- Réduire plusieurs espaces consécutifs en un seul espace."
+  },
+  {
+    "row": 19,
+    "rowsha": "9sPWdk54+UXvBmhjxcsTr6u6Xf4oKicjdggKf105C+I=",
+    "originContent": "- Trim empty, whitespace only lines at the beginning and end of file.",
+    "translatedContent": "- Supprimer les lignes vides ne contenant que des espaces blancs au début et à la fin du fichier."
+  },
+  {
+    "row": 20,
+    "rowsha": "S9RDAR/kKKG7IRopcIdIklDnl4O9HRO3gGWN02Oif/Q=",
+    "originContent": "- Remove blank space characters.",
+    "translatedContent": "- Supprimer les caractères d’espacement."
+  },
+  {
+    "row": 21,
+    "rowsha": "EiBINFg3TQcyMuaLGttwgc6+lGBBbjxoUykHF7Ovjog=",
+    "originContent": "- Normalize spaces (consecutive spaces reduced, empty lines removed and lines trimmed).",
+    "translatedContent": "- Normaliser les espaces (réduction des espaces consécutifs, suppression des lignes vides et suppression des espaces en début et fin de ligne)."
+  },
+  {
+    "row": 22,
+    "rowsha": "jYyou9vGuc2+HBxQbNpQ1CUmxQEOiBgmiil24s8gXLg=",
+    "originContent": "- Tokenize a string by collapsing consecutive spaces, and trimming leading and trailing spaces.",
+    "translatedContent": "- Tokeniser une chaîne en réduisant les espaces consécutifs, et en supprimant les espaces en début et fin de chaîne."
+  },
+  {
+    "row": 23,
+    "rowsha": "/2mR4CzpA6/DglBg4sT80OyJ/KjBsAxY2e7GJGnMXVA=",
+    "originContent": "- Delete empty, whitespace only HTML and XML tags.",
+    "translatedContent": "- Supprimer les balises HTML et XML vides ne contenant que des espaces blancs."
+  },
+  {
+    "row": 24,
+    "rowsha": "KaTzIuyODMZ1Z9kmLYGBzHN3tZ8B0lOFQVmwT7vvXEs=",
+    "originContent": "- Remove code comments and collapse lines.",
+    "translatedContent": "- Supprimer les commentaires de code et réduire les lignes."
+  },
+  {
+    "row": 25,
+    "rowsha": "vFOMvH7Ur6g4Hp6kgkSwb+mATmNltqjMTzuTEiGv4N8=",
+    "originContent": "- Delete adjacent duplicate lines.",
+    "translatedContent": "- Supprimer les lignes dupliquées adjacentes."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "wLmuoCIczd16HLBu1qxxuxGXONuZVLnNNG3eDaQONXw=",
+    "originContent": "## Additional Features",
+    "translatedContent": "## Fonctionnalités supplémentaires"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "ixdHAYlratoEiIxJ8mROTU1uWFm4Rs2fxVOeZnNia1g=",
+    "originContent": "A **Replace Smart Characters** command that performs the following actions:",
+    "translatedContent": "Une commande **Remplacer les caractères intelligents** qui effectue les actions suivantes :"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "UI8y4TNpPBo5eTQuIG75XjYUO2Zm1zD0q2le33sHaFY=",
+    "originContent": "- **Smart single quotes:** `’` _to_ `'`",
+    "translatedContent": "- **Guillemets simples intelligents :** `’` _vers_ `'`"
+  },
+  {
+    "row": 32,
+    "rowsha": "KTjhduRpcwyPQbw8L+iXRamXM73sGYTKCxFItZuTuAo=",
+    "originContent": "- **Smart double quotes:** `“` _to_ `\"`",
+    "translatedContent": "- **Guillemets doubles intelligents :** `“` _vers_ `\"`"
+  },
+  {
+    "row": 33,
+    "rowsha": "ZVO+MGrJ5XaQRQvXRspiHTDmqMwHmcRuUdSEaknvjZg=",
+    "originContent": "- **Prime:** `′` _to_ `'`",
+    "translatedContent": "- **Prime :** `′` _vers_ `'`"
+  },
+  {
+    "row": 34,
+    "rowsha": "9lN49ArwtvYtR9idskBnQEZYnp3VZrPneSfRA85t/sI=",
+    "originContent": "- **Double Prime:** `″` _to_ `\"`",
+    "translatedContent": "- **Double prime :** `″` _vers_ `\"`"
+  },
+  {
+    "row": 35,
+    "rowsha": "wyImez2NdereQFMm+b0F0sbpJ4Ttl/6SNrWlBYv9/iw=",
+    "originContent": "- **German quotes:** `„` _to_ `\"` and `‚` _to_ `'`",
+    "translatedContent": "- **Guillemets allemands :** `„` _vers_ `\"` et `‚` _vers_ `'`"
+  },
+  {
+    "row": 36,
+    "rowsha": "XEjtM7bBCrCgy8W7e43a27x+mct4tNFybQtLZs5Cqfc=",
+    "originContent": "- **Ellipsis:** `…` _to_ `...`",
+    "translatedContent": "- **Points de suspension :** `…` _vers_ `...`"
+  },
+  {
+    "row": 37,
+    "rowsha": "B2izoQHCUswNaIYTR2V6l4kpsYUllSQAMUFzOjmwU64=",
+    "originContent": "- **Em dash:** `—` _to_ `---`",
+    "translatedContent": "- **Tiret cadratin :** `—` _vers_ `---`"
+  },
+  {
+    "row": 38,
+    "rowsha": "bomnu2G1BMc1NHz2Hw2fF8qpZFo1Xl2omfLInJ6Wy44=",
+    "originContent": "- **En dash:** `–` _to_ `--`",
+    "translatedContent": "- **Tiret demi-cadratin :** `–` _vers_ `--`"
+  },
+  {
+    "row": 39,
+    "rowsha": "tVsZoof0MAPulu/IBFYIW/1Kdi7XHc4zr7Wybmlo/5k=",
+    "originContent": "- **Bullet:** `•` _to_ `*`",
+    "translatedContent": "- **Puces :** `•` _vers_ `*`"
+  },
+  {
+    "row": 40,
+    "rowsha": "tihTD/HDCZx9fo4mnXxW54Mfld1MvAEJnnGH5nFABCE=",
+    "originContent": "- **Middle dot:** `·` _to_ `-`",
+    "translatedContent": "- **Point médian :** `·` _vers_ `-`"
+  },
+  {
+    "row": 41,
+    "rowsha": "JoBZDYB/e/NcEr3xzpFlr6tnMZvbdEBqC+IvOQ9Upyw=",
+    "originContent": "- **Em space** _to_ three spaces",
+    "translatedContent": "- **Espace cadratin** _en_ trois espaces  "
+  },
+  {
+    "row": 42,
+    "rowsha": "RCb+sbco+QKvNJ0e3dNHN1jNBScUt/ALKKmfVfBYk/A=",
+    "originContent": "- **En space** _to_ two spaces",
+    "translatedContent": "- **Espace demi-cadratin** _en_ deux espaces  "
+  },
+  {
+    "row": 43,
+    "rowsha": "Gt5b4QWRhcAVr4VQz5LWkFcexHPikhUmhg0FJ5SVHD8=",
+    "originContent": "- **Non-breaking space** _to_ one space",
+    "translatedContent": "- **Espace insécable** _en_ un espace  "
+  },
+  {
+    "row": 44,
+    "rowsha": "L37lcg2+l0S5PqdwgYUTRd8LjdWUEhWXQablb7t5OGA=",
+    "originContent": "- **Thin space** _to_ one space",
+    "translatedContent": "- **Espace fine** _en_ un espace  "
+  },
+  {
+    "row": 45,
+    "rowsha": "KwpG5MpXXwKZ4rqxlseSFIWvCl/WIc+LNtoYYvg2Bh4=",
+    "originContent": "- **Hair space** _to_ one space",
+    "translatedContent": "- **Espace cheveu** _en_ un espace  "
+  },
+  {
+    "row": 46,
+    "rowsha": "ivnJ7d1uwh243dHqWeVOIPTa9Ho/KB8EW8gFNseecRE=",
+    "originContent": "- **Left angle quote:** `«` _to_ `<<`",
+    "translatedContent": "- **Guillemet ouvrant :** `«` _en_ `<<`  "
+  },
+  {
+    "row": 47,
+    "rowsha": "BkuJ/JRatz2yqHaHrfw5oAopnB5fd60I4jBlW9QqULw=",
+    "originContent": "- **Right angle quote:** `»` _to_ `>>`",
+    "translatedContent": "- **Guillemet fermant :** `»` _en_ `>>`  "
+  },
+  {
+    "row": 48,
+    "rowsha": "oPyOPLzdtgk12YOnxIPxWZQtTrNJxdgJzQf0bRgcdqU=",
+    "originContent": "- **Copyright symbol:** `©` _to_ `(C)`",
+    "translatedContent": "- **Symbole copyright :** `©` _en_ `(C)`  "
+  },
+  {
+    "row": 49,
+    "rowsha": "ggp0eIZPdRSPHtEt/ZAirf7L1p1qFqTGT+rTeDqffkg=",
+    "originContent": "- **Trademark symbol:** `™` _to_ `(T)`",
+    "translatedContent": "- **Symbole marque déposée :** `™` _en_ `(T)`  "
+  },
+  {
+    "row": 50,
+    "rowsha": "gFDyUwTUuQoiMQx3y0UxtA2O/gPJWhie5lzqdKd1Jo8=",
+    "originContent": "- **Registered trademark symbol:** `®` _to_ `(R)`",
+    "translatedContent": "- **Symbole marque enregistrée :** `®` _en_ `(R)`  "
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "sNJfzvqNFXpPdaAVUBGN0bPNPNb+kDtDzbsTj4xh2JE=",
+    "originContent": "![ScreenShot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)",
+    "translatedContent": "![Capture d’écran](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)  "
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "ARSrhDrjzBl3jqCsZoaDGHGr8f77rWik/7LF5EdOak8=",
+    "originContent": "Watch a [**Quick Demo**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)",
+    "translatedContent": "Regardez une [**Démonstration rapide**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)  "
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## Installation  "
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "xrfF/UZnV+G0AcSDqti73CpK2IqKM6VHpVXyC+bNSVQ=",
+    "originContent": "Trimmer is compatible with both Sublime Text 2 and 3 and all supported Operating Systems.",
+    "translatedContent": "Trimmer est compatible avec Sublime Text 2 et 3 ainsi qu’avec tous les systèmes d’exploitation supportés.  "
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "lp8xusPNEJcZPjIOhuG4PSS6rFLNOOMm1qJ1UlmxXKw=",
+    "originContent": "### Package Control",
+    "translatedContent": "### Package Control  "
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "ol14fsh+KQ5rmGidlhXL7JThFTkWPyu8m5EA1i2aCk8=",
+    "originContent": "The easiest, and recommended way to install Trimmer is using [Package Control](https://packagecontrol.io).",
+    "translatedContent": "La méthode la plus simple et recommandée pour installer Trimmer est d’utiliser [Package Control](https://packagecontrol.io).  "
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "MC9vLn1b0/w/sYI4gw5Ru0C8kZPsf3B1ECkWhbvFoXI=",
+    "originContent": "From the main application menu, navigate to:",
+    "translatedContent": "Dans le menu principal de l’application, naviguez vers :  "
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "fdKikd1QjDjOKq9RHHQBfCLk8NPQRye2cKXKMQTbfQU=",
+    "originContent": "- `Tools` -> `Command Palette...` -> `Package Control: Install Package`, type",
+    "translatedContent": "- `Outils` -> `Palette de commandes...` -> `Package Control : Installer un package`, tapez  "
+  },
+  {
+    "row": 67,
+    "rowsha": "55uNTcycrXL+U01Nrr6XrOgqaZdukHLknKRakRjkAsM=",
+    "originContent": "  the word **_Trimmer_**, then select it to complete installation.",
+    "translatedContent": "  le mot **_Trimmer_**, puis sélectionnez-le pour terminer l’installation.  "
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "R/EH6ijFPuptOa537L0rZ2RPAMjxwxVG8Q3Kmq89R5s=",
+    "originContent": "### Git",
+    "translatedContent": "### Git  "
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "C/H9604TE8rkE9HA/cc5lNA62FQKEqUowdm/e72p+ak=",
+    "originContent": "To install Trimmer using Git, change to your **Sublime Text Packages** directory",
+    "translatedContent": "Pour installer Trimmer avec Git, rendez-vous dans votre répertoire **Packages de Sublime Text**  "
+  },
+  {
+    "row": 72,
+    "rowsha": "SESMk74RKg8Vf8uxHXnZcKwU+aVijkWiFzKkXxgLTgo=",
+    "originContent": "and clone the [Trimmer repository](https://github.com/jonlabelle/Trimmer).",
+    "translatedContent": "et clonez le [dépôt Trimmer](https://github.com/jonlabelle/Trimmer).  "
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "AjfVb1Xigz0uKNCjSbMN/Re2RMeIexj24qWdxbB9eFg=",
+    "originContent": "For example, on **OS X**... start a new **Terminal** session and enter the following",
+    "translatedContent": "Par exemple, sur **OS X**… lancez une nouvelle session **Terminal** et saisissez les commandes suivantes :"
+  },
+  {
+    "row": 75,
+    "rowsha": "jhSyQhdVgiT3HbkVBDcWMse1CswhVs4g9L0b9Zt6sDg=",
+    "originContent": "commands:",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 78,
+    "rowsha": "Jz1E791xnBF+L4c+y9omwnu6sEDL3mMyMFuxU7Xz9gs=",
+    "originContent": "$ cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/",
+    "translatedContent": "$ cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/"
+  },
+  {
+    "row": 79,
+    "rowsha": "zuWlrA6XfoYj67+AdFaFcaC/g+ZMnJo8dePTVRiMyo8=",
+    "originContent": "$ git clone https://github.com/jonlabelle/Trimmer",
+    "translatedContent": "$ git clone https://github.com/jonlabelle/Trimmer"
+  },
+  {
+    "row": 80,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "KXSrYIQWk5yT2gE0ZMclnorluxzsdqzUBcBngF0ol40=",
+    "originContent": "### Manually",
+    "translatedContent": "### Manuellement"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "+1HpoydhlTpMLY46TWyWGLtg8HN++++jMdIyti1muwc=",
+    "originContent": "**Download** and **extract** the [zip](https://github.com/jonlabelle/Trimmer/zipball/master)",
+    "translatedContent": "**Téléchargez** et **extrayez** le [zip](https://github.com/jonlabelle/Trimmer/zipball/master)"
+  },
+  {
+    "row": 85,
+    "rowsha": "aRWHKImJOCUNscPaeKwbKg+zDfBdpnJ7CMcJKHpaEb4=",
+    "originContent": "or [tarball](https://github.com/jonlabelle/Trimmer/tarball/master) to your",
+    "translatedContent": "ou [tarball](https://github.com/jonlabelle/Trimmer/tarball/master) dans votre"
+  },
+  {
+    "row": 86,
+    "rowsha": "ZR2ur/j/t/9OPa3hbiuJIT8CbmqI3gq3d/aMfgKG+hw=",
+    "originContent": "Sublime Text packages directory.",
+    "translatedContent": "répertoire des packages de Sublime Text."
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "Jc4AKkQOGEweo2/1XG/njdanMTb+tBenjnnudVJwoz0=",
+    "originContent": "**Default Sublime Text Packages Paths:**",
+    "translatedContent": "**Chemins par défaut des packages Sublime Text :**"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "2HvUVzEFXLwVEw4LUij5y+RQtQoZCqKJfCbvtNNt5KU=",
+    "originContent": "- **OS X:** `~/Library/Application Support/Sublime Text [2|3]/Packages`",
+    "translatedContent": "- **OS X :** `~/Library/Application Support/Sublime Text [2|3]/Packages`"
+  },
+  {
+    "row": 91,
+    "rowsha": "BeM8/JXQG6N4oBOnkHcEOycyqDaNIQLp4tuf61wU87k=",
+    "originContent": "- **Linux:** `~/.Sublime Text [2|3]/Packages`",
+    "translatedContent": "- **Linux :** `~/.Sublime Text [2|3]/Packages`"
+  },
+  {
+    "row": 92,
+    "rowsha": "z9+GjdmXSbg7lL55Yq13soD1QByh2ZfK9wlTGO8g6kQ=",
+    "originContent": "- **Windows:** `%APPDATA%/Sublime Text [2|3]/Packages`",
+    "translatedContent": "- **Windows :** `%APPDATA%/Sublime Text [2|3]/Packages`"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "LOA18vpBteqE2hJD0/5TQwHPgCYWHR+9LdjicpBgpb8=",
+    "originContent": "> **NOTE** Replace the `[2|3]` part with the appropriate Sublime Text",
+    "translatedContent": "> **NOTE** Remplacez la partie `[2|3]` par la version appropriée de Sublime Text"
+  },
+  {
+    "row": 95,
+    "rowsha": "8lFsdeKH5YPhQWV9jcTzBnrDYmfs9eMfNTsVDzT1fh4=",
+    "originContent": "> version for your installation.",
+    "translatedContent": "> pour votre installation."
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "hfM34VVZUS9jsRcFuzbB63AROXRDDW1ZRrQBqpoubhc=",
+    "originContent": "All commands are accessible from the **Command Palette** using prefix",
+    "translatedContent": "Toutes les commandes sont accessibles depuis la **Palette de commandes** avec le préfixe"
+  },
+  {
+    "row": 100,
+    "rowsha": "ndJYfA2aNzMwaweBsHWscFek+FnxbGDgrYIbRBQjIbw=",
+    "originContent": "**_Trimmer_**, and in the **Main Menu** under `Edit` -> `Line` -> _Trimmer_ command.",
+    "translatedContent": "**_Trimmer_**, et dans le **Menu principal** sous `Édition` -> `Ligne` -> commande _Trimmer_."
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "TKlI4MpIEUF+3YpY8G8cogcNqzcAnKdvt/Y6tUfZLj8=",
+    "originContent": "- [Command Palette screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)",
+    "translatedContent": "- [Capture d’écran de la Palette de commandes](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)"
+  },
+  {
+    "row": 103,
+    "rowsha": "3IE1iEHnNhkCpmadDTx6hii0lC809usouegEFaY+4bU=",
+    "originContent": "- [Main Menu screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/main_menu.png)",
+    "translatedContent": "- [Capture d’écran du Menu principal](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/main_menu.png)"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "/iTj3bdnnKl/o5E5U6Wq5gdBc/asU7TDkjBNGLdMJko=",
+    "originContent": "### Key Bindings",
+    "translatedContent": "### Raccourcis clavier"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "MP7hYFwpzw4iwz9IXrErZsPstteeq3WFTC3e3oQz6n4=",
+    "originContent": "The _default_ key binding will trim trailing whitespace at the end of each of",
+    "translatedContent": "Le raccourci _par défaut_ supprime les espaces en fin de ligne pour chaque"
+  },
+  {
+    "row": 108,
+    "rowsha": "AKLEsJPhqgV9i3GyyMRsBKSmRET+f0lP+kBw41GVNZM=",
+    "originContent": "line (entire file).",
+    "translatedContent": "ligne (fichier entier)."
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47UUjn2jRmJrPL9jzpBQ2myQo41IRUPrMVDxUwlwePA=",
+    "originContent": "- **OS X**: `Ctrl + S`",
+    "translatedContent": "- **OS X** : `Ctrl + S`"
+  },
+  {
+    "row": 111,
+    "rowsha": "VAZjzb+O9eRGvhsnx0soTOZ1V11nsMEnyyW3HEkRIxU=",
+    "originContent": "- **Linux**: `Ctrl + Alt + S`",
+    "translatedContent": "- **Linux** : `Ctrl + Alt + S`"
+  },
+  {
+    "row": 112,
+    "rowsha": "aAYrOGsImimIN9z2COlHEyuV0S7izQWcBdoV8pRvVaY=",
+    "originContent": "- **Windows**: `Ctrl + Alt + S`",
+    "translatedContent": "- **Windows** : `Ctrl + Alt + S`"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "tq8T3GYsRt59cBFfiBUlMYAF6QuQbMy5Cema3daeeAE=",
+    "originContent": "### Trimmer Command API",
+    "translatedContent": "### API de la commande Trimmer"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "e19KISne9hmH2NEUIFIz7tWp/H23Y1YfX3FTLaW/wws=",
+    "originContent": "| Command                            | Description                                                                                            | Context                   |",
+    "translatedContent": "| Commande                          | Description                                                                                           | Contexte                  |"
+  },
+  {
+    "row": 117,
+    "rowsha": "KXaiHUXpoBInhovk+llWeg0mcCxeY6jmuYp8U3Kv+AU=",
+    "originContent": "| ---------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------- |",
+    "translatedContent": "| -------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------- |"
+  },
+  {
+    "row": 118,
+    "rowsha": "OPl8jZQrL8dk6aTCo1LhVAbn36aDxlFJ1irOLGx5TvM=",
+    "originContent": "| `trimmer`                          | trim whitespace at the end of each line                                                                | entire file               |",
+    "translatedContent": "| `trimmer`                        | supprime les espaces en fin de chaque ligne                                                         | fichier entier            |"
+  },
+  {
+    "row": 119,
+    "rowsha": "5VNqi2a3nfdhczwL9KVXtNXRR1Rvv4J1qZDXqBgiqQA=",
+    "originContent": "| `trim_leading_whitespace`          | trim whitespace at the start of each line                                                              | selection, or entire file |",
+    "translatedContent": "| `trim_leading_whitespace`        | supprime les espaces au début de chaque ligne                                                       | sélection, ou fichier entier |"
+  },
+  {
+    "row": 120,
+    "rowsha": "A8FuNKT+jILAYADNQQX5ISfRMwD1vpqLzLNwMCw+pHI=",
+    "originContent": "| `trim_leading_trailing_whitespace` | trim whitespace at the start and end of each line                                                      | selection, or entire file |",
+    "translatedContent": "| `trim_leading_trailing_whitespace` | supprime les espaces au début et à la fin de chaque ligne                                           | sélection, ou fichier entier |"
+  },
+  {
+    "row": 121,
+    "rowsha": "KB+THLbIl2K/BlFe6ZVjqRWYFvGu7Z+DWRjcPoVpcAE=",
+    "originContent": "| `trim_selections`                  | trim whitespace from selection(s)                                                                      | selection                 |",
+    "translatedContent": "| `trim_selections`                  | supprimer les espaces blancs des sélections                                                           | sélection                 |"
+  },
+  {
+    "row": 122,
+    "rowsha": "2OSdwF8tlIco0RsiGxm8JyJMneN9JWmFNa3AvvaknLI=",
+    "originContent": "| `delete_empty_lines`               | delete empty, whitespace only lines                                                                    | selection, or entire file |",
+    "translatedContent": "| `delete_empty_lines`               | supprimer les lignes vides ou ne contenant que des espaces                                            | sélection, ou fichier entier |"
+  },
+  {
+    "row": 123,
+    "rowsha": "p6T0UCmfXHTU85DC8+dZCVbH3QivbTcJpojiBeApaVw=",
+    "originContent": "| `collapse_lines`                   | collapse multiple consecutive empty lines into one empty line                                          | selection, or entire file |",
+    "translatedContent": "| `collapse_lines`                   | réduire plusieurs lignes vides consécutives en une seule ligne vide                                   | sélection, ou fichier entier |"
+  },
+  {
+    "row": 124,
+    "rowsha": "f1mZUnSwa4Lcs4sNz7lPC2ssKls4IDxp84zoptkp+tQ=",
+    "originContent": "| `collapse_spaces`                  | collapse multiple consecutive spaces into one space                                                    | selection, or entire file |",
+    "translatedContent": "| `collapse_spaces`                  | réduire plusieurs espaces consécutifs en un seul espace                                              | sélection, ou fichier entier |"
+  },
+  {
+    "row": 125,
+    "rowsha": "fVT/Jn1od92d73R6MqMA4gUckwq6xuclo0ge8kzKdWI=",
+    "originContent": "| `trim_edges`                       | trim empty, whitespace only lines at the beginning and end of the file                                 | entire file               |",
+    "translatedContent": "| `trim_edges`                       | supprimer les lignes vides ou ne contenant que des espaces au début et à la fin du fichier           | fichier entier            |"
+  },
+  {
+    "row": 126,
+    "rowsha": "HJrM7UkPUXgS6ztYetkDaodEDGWDb5nUlDqvqyRC7Pw=",
+    "originContent": "| `remove_blank_spaces`              | remove all blank space characters (tab, cr, ff, vt, space)                                             | selection, or entire file |",
+    "translatedContent": "| `remove_blank_spaces`              | supprimer tous les caractères d'espacement (tabulation, cr, ff, vt, espace)                           | sélection, ou fichier entier |"
+  },
+  {
+    "row": 127,
+    "rowsha": "OQBO+EpcprDyEMRwM3fEh1iFsQY9h1A0mJQMOEE7xZc=",
+    "originContent": "| `normalize_spaces`                 | consecutive spaces reduced, empty lines removed and lines trimmed                                      | selection, or entire file |",
+    "translatedContent": "| `normalize_spaces`                 | réduire les espaces consécutifs, supprimer les lignes vides et couper les lignes                     | sélection, ou fichier entier |"
+  },
+  {
+    "row": 128,
+    "rowsha": "vquXsiEx4qB43tqv18GRU87yG3LbK9wMyJTuqGsuijI=",
+    "originContent": "| `replace_smart_characters`         | replace smart characters (smart quotes, em/en dash, ellipsis, nbsp)                                    | selection, or entire file |",
+    "translatedContent": "| `replace_smart_characters`         | remplacer les caractères spéciaux (guillemets typographiques, tirets cadratin/demi-cadratin, points de suspension, nbsp) | sélection, ou fichier entier |"
+  },
+  {
+    "row": 129,
+    "rowsha": "DxCzN2zn9n+F05wXPS0yJOj8dz3hHYywcvsN8t0vfd4=",
+    "originContent": "| `tokenize_string`                  | convert a string to a token by collapsing consecutive spaces, and trimming leading and trailing spaces | selection, or entire file |",
+    "translatedContent": "| `tokenize_string`                  | convertir une chaîne en jeton en réduisant les espaces consécutifs et en supprimant les espaces en début et fin | sélection, ou fichier entier |"
+  },
+  {
+    "row": 130,
+    "rowsha": "pawFHgY0vfk4wCZBzz4UkRXRUAiNpL3tdXZxLsWo40w=",
+    "originContent": "| `delete_empty_tags`                | delete empty, whitespace only html and xml tags                                                        | selection, or entire file |",
+    "translatedContent": "| `delete_empty_tags`                | supprimer les balises HTML et XML vides ou ne contenant que des espaces                              | sélection, ou fichier entier |"
+  },
+  {
+    "row": 131,
+    "rowsha": "o5gIERbRqq54wT3CrPy2TUIBfekxLEXcjcOcqt3S5e4=",
+    "originContent": "| `remove_comments`                  | remove code comments and collapse lines                                                                | selection, or entire file |",
+    "translatedContent": "| `remove_comments`                  | supprimer les commentaires de code et réduire les lignes                                             | sélection, ou fichier entier |"
+  },
+  {
+    "row": 132,
+    "rowsha": "XIe7XOOwkw5Q+WEbQberioD/PiByCC/t0AJEiBq33yk=",
+    "originContent": "| `delete_adjacent_duplicate_lines`  | delete adjacent duplicate lines                                                                        | selection, or entire file |",
+    "translatedContent": "| `delete_adjacent_duplicate_lines`  | supprimer les lignes dupliquées adjacentes                                                          | sélection, ou fichier entier |"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "/lJ7vsDcUGNTwbzMlvGpyMrTh1D9NOPyP9aFA7E/nEw=",
+    "originContent": "## Author",
+    "translatedContent": "## Auteur"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "8zHcslzBkN0Bf3d5JZINa2+vg4hQeWU5imOEdvzbuTk=",
+    "originContent": "[Jon LaBelle](https://jonlabelle.com)",
+    "translatedContent": "[Jon LaBelle](https://jonlabelle.com)"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## Licence"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "AXdfckISdccnLRyZicxubhCIeAgCVAPIWkPynnnZ7Us=",
+    "originContent": "Trimmer is licensed under the [MIT license](http://opensource.org/licenses/MIT).",
+    "translatedContent": "Trimmer est licencié sous la [licence MIT](http://opensource.org/licenses/MIT)."
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

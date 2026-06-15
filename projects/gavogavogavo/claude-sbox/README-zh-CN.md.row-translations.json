@@ -1,0 +1,764 @@
+[
+  {
+    "row": 1,
+    "rowsha": "JhS39zFZMHmanrZjEilJu3WiikJo+us6GrP9za7TUZQ=",
+    "originContent": "# claude-sbox",
+    "translatedContent": "# claude-sbox"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "4wTWnQ10oro6SrawhGNo/TKL4wxl2G9uRNLPPH0vmTI=",
+    "originContent": "A [Claude Code](https://code.claude.com) skill that teaches Claude to write idiomatic [s&box](https://sbox.game) code — C# components, Razor UI, physics, and networking — without falling back on Unity patterns.",
+    "translatedContent": "一个 [Claude Code](https://code.claude.com) 技能，教 Claude 编写地道的 [s&box](https://sbox.game) 代码 — C# 组件、Razor UI、物理和网络 — 不依赖 Unity 模式。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y7XoBNnzmpAB+RaUTYA1pVcB0ITXKrRHmtymk4MF1jE=",
+    "originContent": "s&box is Facepunch's Source 2 game engine with a C# scripting layer. Its API, lifecycle, and networking model are *nothing like* Unity's, which means stock Claude hallucinates constantly: `void Start()`, `GetComponent<T>()` in the Unity sense, `Physics.Raycast`, `[SerializeField]`, `StartCoroutine` — all wrong in s&box. This skill loads when you're writing s&box code and redirects Claude to the correct APIs, verified against the engine's exported schema.",
+    "translatedContent": "s&box 是 Facepunch 的 Source 2 游戏引擎，带有 C# 脚本层。它的 API、生命周期和网络模型与 Unity *完全不同*，这意味着普通 Claude 经常产生幻觉：`void Start()`、Unity 语境中的 `GetComponent<T>()`、`Physics.Raycast`、`[SerializeField]`、`StartCoroutine` — 在 s&box 中全都错。这项技能在你编写 s&box 代码时加载，并将 Claude 引导到正确的 API，基于引擎导出的架构进行验证。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Oh9bqWyeg6rBCed6Uc7/05DDbou+iHvIM6V2gBLUXf0=",
+    "originContent": "**Personal (available across all your projects):**",
+    "translatedContent": "**个人（适用于你所有项目）：**"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 14,
+    "rowsha": "XBls2XdpyusUhisNrgODdF9GGC5RDImaUkSlscprDg8=",
+    "originContent": "mkdir -p ~/.claude/skills",
+    "translatedContent": "mkdir -p ~/.claude/skills"
+  },
+  {
+    "row": 15,
+    "rowsha": "ZRgzCQGCSLuvsOW+rCXltEDczOnehCIJ4QvnusVa+Fw=",
+    "originContent": "git clone https://github.com/gavogavogavo/claude-sbox ~/.claude/skills/sbox",
+    "translatedContent": "git clone https://github.com/gavogavogavo/claude-sbox ~/.claude/skills/sbox"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "NfZv0wDDR0Mn6iBMlFxQZlG/vkyJa15ldoLVd5THO1o=",
+    "originContent": "**Project-local (this game only):**",
+    "translatedContent": "**项目本地（仅限本游戏）：**"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 21,
+    "rowsha": "BR3h+OHgOKNT4WpeFfIUmwE6o9QgdGnnR+PHWHbREPM=",
+    "originContent": "cd my-sbox-game",
+    "translatedContent": "cd my-sbox-game"
+  },
+  {
+    "row": 22,
+    "rowsha": "eM4DnyVpG34U0UrTLNlCKNOLRp0Y2wyIjJTDxz0FNTg=",
+    "originContent": "mkdir -p .claude/skills",
+    "translatedContent": "mkdir -p .claude/skills"
+  },
+  {
+    "row": 23,
+    "rowsha": "/dB5Yj3hRAUuNnW0Qr5VEH/LIM++DNNkmHX6YFm2ohM=",
+    "originContent": "git clone https://github.com/gavogavogavo/claude-sbox .claude/skills/sbox",
+    "translatedContent": "git clone https://github.com/gavogavogavo/claude-sbox .claude/skills/sbox"
+  },
+  {
+    "row": 24,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Claude Code 会实时捕捉技能文件的更改。然而，如果在启动 Claude Code 会话时 `~/.claude/skills/` 不存在（即这是您的第一个个人技能），您需要在执行 `mkdir` 后**重新启动 Claude Code**，以便监视器注册新目录。"
+  },
+  {
+    "row": 26,
+    "rowsha": "YM14KKCo+svZZj0gYAzxZY/D+1ZawBHgiTPkiBJjFR4=",
+    "originContent": "Claude Code picks up skill file changes live. However, if `~/.claude/skills/` did not exist when your Claude Code session started (i.e. this is your first personal skill), you need to **restart Claude Code** after the `mkdir` so the watcher registers the new directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **为什么目录名是 `sbox`（而不是 `claude-sbox`）？** `SKILL.md` 中的 `name:` 前置内容是 `sbox`，这会变成 `/sbox` 斜杠命令。克隆到 `~/.claude/skills/sbox/` 保持了目录名和调用名的一致。"
+  },
+  {
+    "row": 28,
+    "rowsha": "H8ObU3hdUhpUlD9puPYVx2R/O1oh+oCkiq+MB4Iw36M=",
+    "originContent": "> **Why the `sbox` (not `claude-sbox`) directory name?** The `name:` frontmatter in `SKILL.md` is `sbox`, which becomes the `/sbox` slash command. Cloning into `~/.claude/skills/sbox/` keeps the directory name and the invocation name in sync.",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 30,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 验证是否工作正常"
+  },
+  {
+    "row": 32,
+    "rowsha": "PtElI06A8Zet7xrgR8NhxBJb625Ujgw1Krg5s3Et4lk=",
+    "originContent": "## Verify it's working",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在任何 Claude Code 会话中，输入："
+  },
+  {
+    "row": 34,
+    "rowsha": "seAHFsFmi5aYP046ZxeP3zhD/zd9zp/7MrOh5HLWa5M=",
+    "originContent": "In any Claude Code session, type:",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "kCxBgbIvIseXCSlrwTYjwOtFzhz0XHw68eByUKEzvAY=",
+    "originContent": "/sbox",
+    "translatedContent": "/sbox"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "路由器加载完成。或者，提出一个触发性问题，观察Claude查找参考文件："
+  },
+  {
+    "row": 40,
+    "rowsha": "LZdouyYJfIudRDln1SDHSPVbSoH7CsgNlBcmq7pY5Bg=",
+    "originContent": "The router loads. Alternatively, ask a triggering question and watch Claude reach for a reference file:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "gZaaEIv8Hn9D15OJMew4Rkkeva45uuNBHAA8utszekU=",
+    "originContent": "How do I write a networked player controller in s&box?",
+    "translatedContent": "How do I write a networked player controller in s&box?"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Claude 应该先打开 `references/core-concepts.md`、`references/networking.md` 和/或 `references/patterns-and-examples.md` 再回答——*这是技能正常工作的信号*。如果它在未阅读任何文件的情况下凭记忆回答，那就是出了问题；请参见[故障排除](#troubleshooting)。"
+  },
+  {
+    "row": 46,
+    "rowsha": "mfqPebCAXzRJ5OW5KOQDhyO53UTyb7J50xEoUCPsOs4=",
+    "originContent": "Claude should open `references/core-concepts.md`, `references/networking.md`, and/or `references/patterns-and-examples.md` before answering — *that's the signal the skill is working*. If it answers from memory without reading a file, something's wrong; see [Troubleshooting](#troubleshooting).",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 48,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 内容简介"
+  },
+  {
+    "row": 50,
+    "rowsha": "JAnziMVO9ws30swwdK2FOW8ldJJCvbtdKhFUcO3uw8s=",
+    "originContent": "## What's inside",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`SKILL.md` 是路由器，而非参考资料。当 Claude 需要细节时，它会打开以下文件之一："
+  },
+  {
+    "row": 52,
+    "rowsha": "UTK/yILt3bLEBNsLEtawa+y+nc6NIPGQmlNfUZzdQqs=",
+    "originContent": "`SKILL.md` is a router, not a reference. When Claude needs detail, it opens one of these:",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 文件 | 行数 | 涵盖内容 |"
+  },
+  {
+    "row": 54,
+    "rowsha": "p6TMJHRQ6DJTgb2AwPnMyJOLTi8xSgnp9YHq0NmQQPI=",
+    "originContent": "| File | Lines | Covers |",
+    "translatedContent": "|---|---:|---|"
+  },
+  {
+    "row": 55,
+    "rowsha": "aiFaYbkiQuvRtp0YlS8yNqOrzJRcPkFeAY5Dk3quH+Q=",
+    "originContent": "|---|---:|---|",
+    "translatedContent": "| `SKILL.md` | 271 | 路由器 + Unity→s&box 转换表 + 十条规则 |"
+  },
+  {
+    "row": 56,
+    "rowsha": "NYjupU8N+B9lo1aS1Pn7ZOa4W/oF8ZIXCRNhomAEwAo=",
+    "originContent": "| `SKILL.md` | 271 | Router + Unity→s&box translation table + the ten rules |",
+    "translatedContent": "| `references/core-concepts.md` | 575 | 场景系统、游戏对象、组件、生命周期、`[Property]`、预制件、场景事件、`GameObjectSystem`、异步 |"
+  },
+  {
+    "row": 57,
+    "rowsha": "GTowUrEZggDFmOF5tZrft4Os00A8CS12p8xJxNb9x9M=",
+    "originContent": "| `references/core-concepts.md` | 575 | Scene system, GameObjects, Components, lifecycle, `[Property]`, prefabs, scene events, `GameObjectSystem`, async |",
+    "translatedContent": "| `references/components-builtin.md` | 729 | 144 个内置组件——渲染器、刚体、碰撞体、`CharacterController`、`CameraComponent`、灯光、音频、UI、`NavMeshAgent`、`PlayerController`、粒子、后期处理 |"
+  },
+  {
+    "row": 58,
+    "rowsha": "bIlt4xMkZMOjksydDS/ezThiltx8AXXGq/PYsroJeZY=",
+    "originContent": "| `references/components-builtin.md` | 729 | 144 built-in components — renderers, rigidbodies, colliders, `CharacterController`, `CameraComponent`, lights, audio, UI, `NavMeshAgent`, `PlayerController`, particles, post-processing |",
+    "translatedContent": "| `references/ui-razor.md` | 834 | Razor 面板、SCSS、弹性盒布局、内置控件（按钮 / 文本输入 / 下拉菜单 / 滑块控件 / 虚拟网格）、`NavigationHost`、过渡效果 |"
+  },
+  {
+    "row": 59,
+    "rowsha": "0c2SuLlfuLyGhOoAXG8+Wk9V8Gv/rkUvgy+bpcrB0U8=",
+    "originContent": "| `references/ui-razor.md` | 834 | Razor panels, SCSS, flexbox layout, built-in controls (Button / TextEntry / DropDown / SliderControl / VirtualGrid), `NavigationHost`, transitions |",
+    "translatedContent": "| `references/networking.md` | 672 | 大厅、`Connection`、`[Sync]` + `SyncFlags`、`[Rpc.Broadcast/Host/Owner]`、所有权、`INetworkListener`、`INetworkSpawn`、快照数据、专用服务器 |"
+  },
+  {
+    "row": 60,
+    "rowsha": "P9Bux+SF4HertFn67i9J/YH9Etat/cfHUzaUJu7fCqo=",
+    "originContent": "| `references/networking.md` | 672 | Lobbies, `Connection`, `[Sync]` + `SyncFlags`, `[Rpc.Broadcast/Host/Owner]`, ownership, `INetworkListener`, `INetworkSpawn`, snapshot data, dedicated servers |",
+    "translatedContent": "| `references/input-and-physics.md` | 597 | 输入系统、`SceneTrace` 构建 API、`PhysicsWorld`、碰撞、`Vector3`/`Rotation`/`Angles`/`Transform`/`BBox`/`Ray`/`Capsule`、`TimeSince`/`TimeUntil`、`Gizmo.Draw` |"
+  },
+  {
+    "row": 61,
+    "rowsha": "Xd5Weh70aLSasNxUm+lPLC6ii4ky0zbq7jN5RbAGtUY=",
+    "originContent": "| `references/input-and-physics.md` | 597 | Input system, `SceneTrace` builder API, `PhysicsWorld`, collision, `Vector3`/`Rotation`/`Angles`/`Transform`/`BBox`/`Ray`/`Capsule`, `TimeSince`/`TimeUntil`, `Gizmo.Draw` |",
+    "translatedContent": "| `references/api-schema-core.md` | 930 | 约 50 个最常用类型的完整公共签名 |"
+  },
+  {
+    "row": 62,
+    "rowsha": "gXbgpkK0+MwldCd2jT2K01GOCT2uRw2SqvEen8oLG28=",
+    "originContent": "| `references/api-schema-core.md` | 930 | Full public signatures for the ~50 most-used types |",
+    "translatedContent": "| `references/api-schema-extended.md` | 2753 | 按命名空间组织的 738 个附加类型索引以供查找 |"
+  },
+  {
+    "row": 63,
+    "rowsha": "0zAmVQHgWmsUm4XDtKOphBV9rNrRWRGzkMOlTInSn2I=",
+    "originContent": "| `references/api-schema-extended.md` | 2753 | Namespace-organized index of 738 additional types for discovery |",
+    "translatedContent": "| `references/patterns-and-examples.md` | 1056 | 10 个完整可运行示例（Health + `IDamageable`、第一人称 `CharacterController`、命中扫描武器、联网游戏管理器、带 `[Sync]`/RPC 的玩家、Razor HUD、刚体手榴弹、NavMeshAgent AI 状态机、预制件生成器、触发拾取） |"
+  },
+  {
+    "row": 64,
+    "rowsha": "TJjfLpOfLLS6vNTttpeQLVWI9EgACWtY1oUtIhR6h7A=",
+    "originContent": "| `references/patterns-and-examples.md` | 1056 | 10 complete runnable examples (Health + `IDamageable`, first-person `CharacterController`, hitscan weapon, networked game manager, player with `[Sync]`/RPCs, Razor HUD, rigidbody grenade, NavMeshAgent AI state machine, prefab spawner, trigger pickup) |",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "每个参考文件中的每个 API 签名均经过与 s&box 引擎导出的架构（`raw/api-schema.json`，约 1,850 个类型，涵盖 61 个命名空间）的验证。架构是唯一的真实来源——如果文档与架构不符，以架构为准。"
+  },
+  {
+    "row": 66,
+    "rowsha": "Om0AKcZAQvPyInUM+dWN1sqDCpy6teU7QsvkpKh/JFM=",
+    "originContent": "Every API signature in every reference file is verified against the s&box engine's exported schema (`raw/api-schema.json`, ~1,850 types across 61 namespaces). Schema is the single source of truth — if the docs and the schema disagree, the schema wins.",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 68,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 更新"
+  },
+  {
+    "row": 70,
+    "rowsha": "inmKwtmqzepzwerIOo0UHdLnYx91LdYUCbcKELTX2PY=",
+    "originContent": "## Updating",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 73,
+    "rowsha": "O5liZC/f+D3LvlOO+lvy1n03xxGfHNfjA//yva0bGvY=",
+    "originContent": "cd ~/.claude/skills/sbox",
+    "translatedContent": "cd ~/.claude/skills/sbox"
+  },
+  {
+    "row": 74,
+    "rowsha": "syRMV/GDPABIz5fwYldpOQoe3aWAf2mXc0QnZG0QgSw=",
+    "originContent": "git pull",
+    "translatedContent": "git pull"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "81g8Hgf30jDCV+QPnPZuTowAb0zLQgF37H8R4J2XCiQ=",
+    "originContent": "Claude Code reloads modified skill files within the current session.",
+    "translatedContent": "Claude Code 会在当前会话中重新加载已修改的技能文件。"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "iT68PSZ9/jBT2Ju+2ySV0kRpMPJcvH7In3b044gM5vw=",
+    "originContent": "## Regenerating from source",
+    "translatedContent": "## 从源代码重新生成"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "VhNVEhgyPhVs/igjI2Fdo5PBRzlyWNPFueYmChb5Fdg=",
+    "originContent": "End users don't need this. For maintainers who want to rebuild the reference files against a newer s&box engine:",
+    "translatedContent": "最终用户不需要此操作。对于希望针对较新 s&box 引擎重建参考文件的维护者："
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 86,
+    "rowsha": "qBoc8vWK1jbSw4JH70HluDvzqFv7pYT59SRU6jmXAds=",
+    "originContent": "./scripts/fetch-raw.sh         # clones Facepunch/sbox-docs into raw/sbox-docs",
+    "translatedContent": "./scripts/fetch-raw.sh         # clones Facepunch/sbox-docs into raw/sbox-docs"
+  },
+  {
+    "row": 87,
+    "rowsha": "oypGwJZGHuoAc2Vng5CYbj39bOe7yTMZbUfj5s5EDDU=",
+    "originContent": "# manually place raw/api-schema.json (see docs/DESIGN.md)",
+    "translatedContent": "# manually place raw/api-schema.json (see docs/DESIGN.md)"
+  },
+  {
+    "row": 88,
+    "rowsha": "w9SBakeEskBNKKzXksfr0cAX/CJ5bXI6bcfq+dTWL/g=",
+    "originContent": "node scripts/build_extended.js # rebuilds references/api-schema-extended.md",
+    "translatedContent": "node scripts/build_extended.js # rebuilds references/api-schema-extended.md"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "完整的构建工作流程——包括每个参考文件的整理方式、架构验证循环以及已知的注意事项——记录在 [`docs/DESIGN.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/DESIGN.md) 和 [`docs/BUILD_LOG.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/BUILD_LOG.md) 中。"
+  },
+  {
+    "row": 91,
+    "rowsha": "NGiNAVT2SAVFFOaMlHU3lVd/+q/t1vIJvep4VenSjLI=",
+    "originContent": "The full build workflow — including how each reference file was curated, the schema-verification loop, and known gotchas — is documented in [`docs/DESIGN.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/DESIGN.md) and [`docs/BUILD_LOG.md`](https://raw.githubusercontent.com/gavogavogavo/claude-sbox/main/docs/BUILD_LOG.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 93,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 故障排除"
+  },
+  {
+    "row": 95,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**Claude 没有在 s&box 问题上触发技能。**  "
+  },
+  {
+    "row": 97,
+    "rowsha": "LdFYEziClM1tq/gOKqGsKToIsJqYAuZicBp6K2oGWcM=",
+    "originContent": "**Claude isn't triggering the skill on s&box questions.**",
+    "translatedContent": "检查目录是否位于 `~/.claude/skills/sbox/`（而非 `~/.claude/skills/claude-sbox/` 或 `~/.claude/skills/sbox-skill/`）。目录名称必须与 `name:` 前置字段匹配。也尝试用 `/sbox` 显式调用以确认技能已安装。"
+  },
+  {
+    "row": 98,
+    "rowsha": "Ddfun76bBUCJjzl8LvUlABJJhFOFzTIlWMbjjWltKhU=",
+    "originContent": "Check that the directory is at `~/.claude/skills/sbox/` (not `~/.claude/skills/claude-sbox/` or `~/.claude/skills/sbox-skill/`). The directory name must match the `name:` frontmatter. Also try invoking it explicitly with `/sbox` to confirm it's installed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**Claude 回答 s&box 问题时没有打开参考文件。**  "
+  },
+  {
+    "row": 100,
+    "rowsha": "H4H9msTCtUobDVHLq7SPPHWMX3x8twN/Bor9KBJHjpk=",
+    "originContent": "**Claude answers s&box questions without opening a reference file.**",
+    "translatedContent": "这意味着它在凭借 Unity 肌肉记忆进行幻觉——这正是该技能存在以防止的失败。要么技能未加载，要么描述不匹配。尝试 `/sbox` 强制加载，然后重新提问。"
+  },
+  {
+    "row": 101,
+    "rowsha": "WhGuMmVZFsNgvuadGD6xe3JY0K1N5sVO+dexwPvhkvw=",
+    "originContent": "That means it's hallucinating from Unity muscle memory — the exact failure this skill exists to prevent. Either the skill isn't loading, or the description isn't matching. Try `/sbox` to force-load it, then retry the question.",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**技能已加载但建议的 API 无法编译。**  "
+  },
+  {
+    "row": 103,
+    "rowsha": "7EPpZeChYkVvP/f/pCNly8ooMFPTH80dKmSqghQ4n6A=",
+    "originContent": "**The skill is loading but suggesting APIs that don't compile.**",
+    "translatedContent": "请提交一个问题，附上建议的代码和 Claude 声称来源的参考文件。每个发布的签名都应经过架构验证；出现回归即为错误。"
+  },
+  {
+    "row": 104,
+    "rowsha": "HwzxSl2PHL7hHx473TgWrdJDJqsSOmdTbaSobnfMjxE=",
+    "originContent": "Open an issue with the suggested code and which reference file Claude claims it came from. Every shipped signature should be schema-verified; regressions are bugs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**我把它克隆到了 `~/.claude/skills/claude-sbox/`——接下来怎么办？**  "
+  },
+  {
+    "row": 106,
+    "rowsha": "scVR13WlA0iOSc5qlEzF4L1gg0GwHD2UWJ+BCjJ7x1Q=",
+    "originContent": "**I cloned it into `~/.claude/skills/claude-sbox/` — now what?**",
+    "translatedContent": "要么将目录重命名为 `sbox`，要么将 `SKILL.md` 中的 `name:` 字段改为 `claude-sbox` 以匹配。本地项目安装同理。"
+  },
+  {
+    "row": 107,
+    "rowsha": "6riArH7wTfeRnE5IuYTz+zGFHHmXR114YxG88M08BTc=",
+    "originContent": "Either rename the directory to `sbox`, or change the `name:` field in `SKILL.md` to `claude-sbox` to match. Same deal for project-local installs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 109,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 贡献指南"
+  },
+  {
+    "row": 111,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "欢迎提交问题和 PR。提交前请："
+  },
+  {
+    "row": 113,
+    "rowsha": "NOj7EK/rLhKpc8uIbJsFnALTFAvWVvdZcutnmUqP6UM=",
+    "originContent": "Issues and PRs welcome. Before submitting:",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **验证新的 API 签名是否符合 `raw/api-schema.json`。** 架构即权威真相。如果在架构中找不到方法，请勿添加。  "
+  },
+  {
+    "row": 115,
+    "rowsha": "z5fwXHzA/0hrMH9gJZuTPPPjWfZG9ulvDXwqLPj8Fyw=",
+    "originContent": "- **Verify new API signatures against `raw/api-schema.json`.** The schema is ground truth. If you can't find a method in the schema, don't add it.",
+    "translatedContent": "- **保持 `SKILL.md` 少于 500 行。** 它是路由器——详细参考内容存放在 `references/`。如果你能仅用 `SKILL.md` 回答一个 s&box 问题而无需打开参考文件，说明路由器内容过于冗杂。  "
+  },
+  {
+    "row": 116,
+    "rowsha": "u2h0lyxdihjVb8s8IuPTYMMx56zwrEkLUZeqGh52R/Q=",
+    "originContent": "- **Keep `SKILL.md` under 500 lines.** It's a router — reference detail lives in `references/`. If you can answer an s&box question using only `SKILL.md` without opening a reference file, the router has too much detail.",
+    "translatedContent": "- **更新 `CHANGELOG.md`** 以反映任何用户可见的更改。  "
+  },
+  {
+    "row": 117,
+    "rowsha": "NCGD1j5FVLE0QXqpASYasNL1Lfh4t9G0A5cjG8tUZeo=",
+    "originContent": "- **Update `CHANGELOG.md`** for any user-visible change.",
+    "translatedContent": "- **保持现有文风一致**——简洁、密集，面向 Claude 而非教程读者。"
+  },
+  {
+    "row": 118,
+    "rowsha": "I2Bhre5xp8OPmNI6yRi/TBr9yDF8ZYN+5pTSzoTkEpo=",
+    "originContent": "- **Match the existing prose style** — terse, dense, written for Claude rather than for a tutorial reader.",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 120,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 122,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT — 详见 [LICENSE](LICENSE)。"
+  },
+  {
+    "row": 124,
+    "rowsha": "ZHeFzII7A7DgzGA/2Y4KzibHIfqdv57D/4HhUTnFv4o=",
+    "originContent": "MIT — see [LICENSE](LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本项目与 Facepunch 或 Anthropic 无任何关联或背书。s&box 是 Facepunch Studios 的产品。Claude Code 和 Agent Skills 格式是 Anthropic 的产品。"
+  },
+  {
+    "row": 126,
+    "rowsha": "HW/S3acax/3nNkzhMsi3RrNFOxn+gN2u1/mKj/zp/9w=",
+    "originContent": "This project is not affiliated with or endorsed by Facepunch or Anthropic. s&box is a product of Facepunch Studios. Claude Code and the Agent Skills format are products of Anthropic.",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
