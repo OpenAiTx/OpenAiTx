@@ -1,0 +1,322 @@
+[
+  {
+    "Id": 1,
+    "Content": "# RemoteVideoCam\n\nRemote Video Cam is an open-source Android application that allows two devices to stream high-quality video and audio to each other over a local connection. Whether you're using it as a baby monitor, a DIY security camera, or a walkie-talkie, RemoteVideoCam offers a secure, offline-first solution without the need for internet access or third-party servers.\n\n## ✨ Features\n\n- **Zero Configuration**: Devices automatically discover and connect to each other.\n- **Robust Connection**: Automatically negotiates the best available connection method:\n  - **Local Network (LAN)**: Uses your existing Wi-Fi network.\n  - **Wi-Fi Aware / Wi-Fi Direct**: Connects devices directly without an access point (offline).\n- **Secure & Private**: No external servers. No cloud. Video and audio streams never leave your local environment.\n- **Modern UI**: Built with **Jetpack Compose** and **Material 3**, offering a beautiful, responsive, and intuitive interface with dynamic colors.\n- **Two Modes**:\n  - **Camera Mode**: Acts as the broadcaster.\n  - **Display Mode**: View the feed from the other device.\n    - *Includes \"Mirror\" option to flip the video horizontally.*\n  - *Note: Both devices can be in Display Mode to see each other (bidirectional).*\n- **Audio Support**: Hear what's happening on the other end.\n\n## ⚠️ Important Note\n\n**Not a Medical Device**: While RemoteVideoCam can be useful for monitoring (e.g., as a baby monitor), it is **not** a certified medical device. \n- Video feeds may freeze due to network interference.\n- Always have a backup monitoring method.\n- **Tip**: Place a moving object (like a clock with a second hand) in the frame to easily verify that the video is live.\n\n## 🛠️ Tech Stack\n\n- **Language**: Kotlin\n- **UI Framework**: Jetpack Compose (Material 3)\n- **Video/Audio**: WebRTC (Local negotiation)\n- **Computer Vision**: OpenCV (used for specific image processing tasks)\n- **Architecture**: MVVM with reactive data streams (RxJava/RxAndroid)\n\n## 📥 distinct\n\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n     alt=\"Get it on F-Droid\"\n     height=\"80\">](https://f-droid.org/packages/org.avmedia.remotevideocam/)\n[<img src=\"https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png\"",
+    "ContentSha": "HUyfteYaeQT3PPm47wrucJza/rtyPMI3AfxT4UUiYXI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# RemoteVideoCam\n\nRemote Video Cam은 두 기기가 로컬 연결을 통해 고화질 비디오와 오디오를 서로 스트리밍할 수 있게 해주는 오픈 소스 안드로이드 애플리케이션입니다. 아기 모니터, DIY 보안 카메라, 워키토키 등으로 사용하든, RemoteVideoCam은 인터넷 접속이나 제3자 서버 없이도 안전하고 오프라인 우선 솔루션을 제공합니다.\n\n## ✨ 기능\n\n- **제로 구성**: 기기들이 자동으로 서로를 발견하고 연결합니다.\n- **견고한 연결**: 사용 가능한 최적의 연결 방식을 자동으로 협상합니다:\n  - **로컬 네트워크(LAN)**: 기존 Wi-Fi 네트워크를 사용합니다.\n  - **Wi-Fi Aware / Wi-Fi Direct**: 액세스 포인트 없이 기기들을 직접 연결합니다 (오프라인).\n- **안전하고 프라이빗함**: 외부 서버 없음. 클라우드 없음. 비디오와 오디오 스트림은 로컬 환경을 벗어나지 않습니다.\n- **모던 UI**: **Jetpack Compose**와 **Material 3**로 구축되어, 아름답고 반응형이며 직관적인 인터페이스와 동적 색상을 제공합니다.\n- **두 가지 모드**:\n  - **카메라 모드**: 방송 역할을 합니다.\n  - **디스플레이 모드**: 다른 기기의 영상을 봅니다.\n    - *영상 좌우 반전을 위한 \"미러\" 옵션 포함.*\n  - *참고: 양쪽 기기 모두 디스플레이 모드일 경우 서로를 볼 수 있습니다 (양방향).*\n- **오디오 지원**: 상대방에서 일어나는 소리를 들을 수 있습니다.\n\n## ⚠️ 중요 안내\n\n**의료 기기가 아님**: RemoteVideoCam은 모니터링(예: 아기 모니터)에 유용할 수 있으나, 인증된 의료 기기가 아닙니다.\n- 네트워크 간섭으로 영상이 멈출 수 있습니다.\n- 항상 백업 모니터링 수단을 준비하세요.\n- **팁**: 초침이 있는 시계 같은 움직이는 물체를 영상에 넣어 영상이 실시간임을 쉽게 확인하세요.\n\n## 🛠️ 기술 스택\n\n- **언어**: Kotlin\n- **UI 프레임워크**: Jetpack Compose (Material 3)\n- **비디오/오디오**: WebRTC (로컬 협상)\n- **컴퓨터 비전**: OpenCV (특정 이미지 처리 작업용)\n- **아키텍처**: MVVM과 반응형 데이터 스트림 (RxJava/RxAndroid)\n\n## 📥 distinct\n\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n     alt=\"Get it on F-Droid\"\n     height=\"80\">](https://f-droid.org/packages/org.avmedia.remotevideocam/)\n[<img src=\"https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png\"",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uurAaUo5BuREh1V4190nNmmWBx3kFfUqChU2d9KEShA=",
+        "originContent": "# RemoteVideoCam",
+        "translatedContent": "# RemoteVideoCam"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "FUZxxC4xfotVMbrNAtNlVIxm2cPFr5MQA2pdIEzmv44=",
+        "originContent": "Remote Video Cam is an open-source Android application that allows two devices to stream high-quality video and audio to each other over a local connection. Whether you're using it as a baby monitor, a DIY security camera, or a walkie-talkie, RemoteVideoCam offers a secure, offline-first solution without the need for internet access or third-party servers.",
+        "translatedContent": "Remote Video Cam은 두 기기가 로컬 연결을 통해 고화질 비디오와 오디오를 서로 스트리밍할 수 있게 해주는 오픈 소스 안드로이드 애플리케이션입니다. 아기 모니터, DIY 보안 카메라, 워키토키 등으로 사용하든, RemoteVideoCam은 인터넷 접속이나 제3자 서버 없이도 안전하고 오프라인 우선 솔루션을 제공합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ 기능"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Kcax4SBGAEKsRWm/q9hKRjCkh+WIXD9/5tRyXrGISfQ=",
+        "originContent": "- **Zero Configuration**: Devices automatically discover and connect to each other.",
+        "translatedContent": "- **제로 구성**: 기기들이 자동으로 서로를 발견하고 연결합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "cM5W/eAL4T5MjIt2pLvPaZBaLvEccOZH00Y9H5iOW3U=",
+        "originContent": "- **Robust Connection**: Automatically negotiates the best available connection method:",
+        "translatedContent": "- **견고한 연결**: 사용 가능한 최적의 연결 방식을 자동으로 협상합니다:"
+      },
+      {
+        "row": 9,
+        "rowsha": "rBvdtO7FFsAOvCpPXj9xvcPGCwyNmtoQNypBhbvxYv8=",
+        "originContent": "  - **Local Network (LAN)**: Uses your existing Wi-Fi network.",
+        "translatedContent": "  - **로컬 네트워크(LAN)**: 기존 Wi-Fi 네트워크를 사용합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "oRyo7g3AewG7bVtCGZqNdssrWDFRVZtbQacd6v99rVY=",
+        "originContent": "  - **Wi-Fi Aware / Wi-Fi Direct**: Connects devices directly without an access point (offline).",
+        "translatedContent": "  - **Wi-Fi Aware / Wi-Fi Direct**: 액세스 포인트 없이 기기들을 직접 연결합니다 (오프라인)."
+      },
+      {
+        "row": 11,
+        "rowsha": "ETKXXJV34vqSfiGddY++bzB9kHcaFgx9j7WAY0EfPJE=",
+        "originContent": "- **Secure & Private**: No external servers. No cloud. Video and audio streams never leave your local environment.",
+        "translatedContent": "- **안전하고 프라이빗함**: 외부 서버 없음. 클라우드 없음. 비디오와 오디오 스트림은 로컬 환경을 벗어나지 않습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "yVP3v3hecMUqUULkKB9I+t6Y936aLbbUaGTkTbdhArA=",
+        "originContent": "- **Modern UI**: Built with **Jetpack Compose** and **Material 3**, offering a beautiful, responsive, and intuitive interface with dynamic colors.",
+        "translatedContent": "- **모던 UI**: **Jetpack Compose**와 **Material 3**로 구축되어, 아름답고 반응형이며 직관적인 인터페이스와 동적 색상을 제공합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "utpriRUBJAaPzSdWFRdxUX/yynjmfVITN4hw4mZPPnI=",
+        "originContent": "- **Two Modes**:",
+        "translatedContent": "- **두 가지 모드**:"
+      },
+      {
+        "row": 14,
+        "rowsha": "x6itzEAD0RGeDGk+jh2bZNLjEwCNF83SiR9nx0NPpKg=",
+        "originContent": "  - **Camera Mode**: Acts as the broadcaster.",
+        "translatedContent": "  - **카메라 모드**: 방송 역할을 합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "j/IHrRnohRjM6mblzWNZn3v3BYlI/2t6lIi4GAeiPYI=",
+        "originContent": "  - **Display Mode**: View the feed from the other device.",
+        "translatedContent": "  - **디스플레이 모드**: 다른 기기의 영상을 봅니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "FppkeFBWV4apCL03C3xudWoAxcdZTzMRPBbPtHyAVBE=",
+        "originContent": "    - *Includes \"Mirror\" option to flip the video horizontally.*",
+        "translatedContent": "    - *영상 좌우 반전을 위한 \"미러\" 옵션 포함.*"
+      },
+      {
+        "row": 17,
+        "rowsha": "5Jg+QAqfflYmGQgY9FnLP78Bi27jjHRSwxeVBfSe+q0=",
+        "originContent": "  - *Note: Both devices can be in Display Mode to see each other (bidirectional).*",
+        "translatedContent": "  - *참고: 양쪽 기기 모두 디스플레이 모드일 경우 서로를 볼 수 있습니다 (양방향).*"
+      },
+      {
+        "row": 18,
+        "rowsha": "M2w7DTpGG9AGtQnAr1ieP4dm8E3PYzsaEsb26c1R24I=",
+        "originContent": "- **Audio Support**: Hear what's happening on the other end.",
+        "translatedContent": "- **오디오 지원**: 상대방에서 일어나는 소리를 들을 수 있습니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "kBmzpB0xmj81IdvSvqeA/+tocfn/LzFcIRSU6Ubdu/k=",
+        "originContent": "## ⚠️ Important Note",
+        "translatedContent": "## ⚠️ 중요 안내"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "mBSy9kp4ChSzxwe8riDLRDyd4IduHMkPHIFEhEXUeAA=",
+        "originContent": "**Not a Medical Device**: While RemoteVideoCam can be useful for monitoring (e.g., as a baby monitor), it is **not** a certified medical device. ",
+        "translatedContent": "**의료 기기가 아님**: RemoteVideoCam은 모니터링(예: 아기 모니터)에 유용할 수 있으나, 인증된 의료 기기가 아닙니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "hUEF42McXm7TRloNJziIDac2eceIlyng9/KsU+NjCMM=",
+        "originContent": "- Video feeds may freeze due to network interference.",
+        "translatedContent": "- 네트워크 간섭으로 영상이 멈출 수 있습니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "a4c9Owd0DhFCZUEtCWr/4S4eA80eQI/nGqzocYaXEZA=",
+        "originContent": "- Always have a backup monitoring method.",
+        "translatedContent": "- 항상 백업 모니터링 수단을 준비하세요."
+      },
+      {
+        "row": 25,
+        "rowsha": "45o4BrW+6xaeBVZhiEzn/8aVbbYkHhRCLOPrgNJUXNw=",
+        "originContent": "- **Tip**: Place a moving object (like a clock with a second hand) in the frame to easily verify that the video is live.",
+        "translatedContent": "- **팁**: 초침이 있는 시계 같은 움직이는 물체를 영상에 넣어 영상이 실시간임을 쉽게 확인하세요."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "uF9tv30A/VV9RFgGHS2kim96TfH1k0m8iVMp/yKQrfc=",
+        "originContent": "## 🛠️ Tech Stack",
+        "translatedContent": "## 🛠️ 기술 스택"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "XZiV8HNQJVsY9a+D5ouvxrWuaAx8e6m7tbCLkE67bl0=",
+        "originContent": "- **Language**: Kotlin",
+        "translatedContent": "- **언어**: Kotlin"
+      },
+      {
+        "row": 30,
+        "rowsha": "4XiV6x5KYv4SsJi43nGcCUgA9LYy6PpPOppHQO0OwUY=",
+        "originContent": "- **UI Framework**: Jetpack Compose (Material 3)",
+        "translatedContent": "- **UI 프레임워크**: Jetpack Compose (Material 3)"
+      },
+      {
+        "row": 31,
+        "rowsha": "6z4YM0C9XYlvYK4j04dJS6GD39hpKNOx09kLdaOeWDM=",
+        "originContent": "- **Video/Audio**: WebRTC (Local negotiation)",
+        "translatedContent": "- **비디오/오디오**: WebRTC (로컬 협상)"
+      },
+      {
+        "row": 32,
+        "rowsha": "16l6HCA+xzL3U7SUMcJAKUfcPp6BFUf2u9vY3dAv0Ng=",
+        "originContent": "- **Computer Vision**: OpenCV (used for specific image processing tasks)",
+        "translatedContent": "- **컴퓨터 비전**: OpenCV (특정 이미지 처리 작업용)"
+      },
+      {
+        "row": 33,
+        "rowsha": "/Zh2xZOMRAmJxd9dO34fvaOlrw1zYZHVJAkvv8Uazxg=",
+        "originContent": "- **Architecture**: MVVM with reactive data streams (RxJava/RxAndroid)",
+        "translatedContent": "- **아키텍처**: MVVM과 반응형 데이터 스트림 (RxJava/RxAndroid)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "04bnfSPTJ/t0VKMRpNxm/OXTv/2CWk1io9eaYb9QMso=",
+        "originContent": "## 📥 distinct",
+        "translatedContent": "## 📥 distinct"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "ao3yTABp7nRz88F3YBDTOgunPIkEjsoTdcAo1UQsH/g=",
+        "originContent": "[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"",
+        "translatedContent": "[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\""
+      },
+      {
+        "row": 38,
+        "rowsha": "vsPJ9MvrY5SuY7MyWy2F8se6oFQ9/zjjuVAzm1WKSns=",
+        "originContent": "     alt=\"Get it on F-Droid\"",
+        "translatedContent": "     alt=\"Get it on F-Droid\""
+      },
+      {
+        "row": 39,
+        "rowsha": "Ti9JL0fgiTIPOeizbLixdhmwXN1Rrvriwkb/Q0SxT8U=",
+        "originContent": "     height=\"80\">](https://f-droid.org/packages/org.avmedia.remotevideocam/)",
+        "translatedContent": "     height=\"80\">](https://f-droid.org/packages/org.avmedia.remotevideocam/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "ZjxJXb1W9xCg9YzPyFXst+80JnAnRx5ROOM4Pq6Lv0M=",
+        "originContent": "[<img src=\"https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png\"",
+        "translatedContent": "[<img src=\"https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png\""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "     alt=\"Get it on Google Play\"\n     height=\"80\">](https://play.google.com/store/apps/details?id=org.avmedia.remotevideocam)\n\n## 🤝 Contributing\n\nContributions are welcome! If you're a developer and want to help improve RemoteVideoCam, please feel free to fork the repository and submit a pull request.\n\nFor major changes or questions, please contact the maintainer at `izivkov@gmail.com`.\n",
+    "ContentSha": "2gc0KU8PZU/EZh+q7Ug09Tj9wc5nzJ7cRQaKi/Qs1Ag=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "     alt=\"Google Play에서 받기\"\n     height=\"80\">](https://play.google.com/store/apps/details?id=org.avmedia.remotevideocam)\n\n## 🤝 기여하기\n\n기여는 언제나 환영합니다! 개발자이시고 RemoteVideoCam 개선에 도움을 주고 싶다면, 자유롭게 저장소를 포크하고 풀 리퀘스트를 제출해 주세요.\n\n중대한 변경사항이나 문의가 있을 경우, 유지 관리자에게 `izivkov@gmail.com`으로 연락해 주세요.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aTK6YX70+K5rIvp/cPFdO+RLkZHt9qdxENfsY4Llq8o=",
+        "originContent": "     alt=\"Get it on Google Play\"",
+        "translatedContent": "     alt=\"Google Play에서 받기\""
+      },
+      {
+        "row": 2,
+        "rowsha": "mmYHotkgztVXA+dOZjzkkzXG2w57QvKBDs/iHwfjtx0=",
+        "originContent": "     height=\"80\">](https://play.google.com/store/apps/details?id=org.avmedia.remotevideocam)",
+        "translatedContent": "     height=\"80\">](https://play.google.com/store/apps/details?id=org.avmedia.remotevideocam)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 기여하기"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Zl+jJDQ0MwxeqWBGjkPbK9MCwshOHJV35smt2CKGeDY=",
+        "originContent": "Contributions are welcome! If you're a developer and want to help improve RemoteVideoCam, please feel free to fork the repository and submit a pull request.",
+        "translatedContent": "기여는 언제나 환영합니다! 개발자이시고 RemoteVideoCam 개선에 도움을 주고 싶다면, 자유롭게 저장소를 포크하고 풀 리퀘스트를 제출해 주세요."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Gv2A1AmYEiDqM0XU8zaosj4/S/+4dTKpAYCTFDO4Gw4=",
+        "originContent": "For major changes or questions, please contact the maintainer at `izivkov@gmail.com`.",
+        "translatedContent": "중대한 변경사항이나 문의가 있을 경우, 유지 관리자에게 `izivkov@gmail.com`으로 연락해 주세요."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

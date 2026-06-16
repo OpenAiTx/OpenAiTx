@@ -1,0 +1,392 @@
+[
+  {
+    "row": 1,
+    "rowsha": "PNChVYM57bjFTj2cm1prTMC13j9gHpH6MPu4HxRgtE0=",
+    "originContent": "# frp-android",
+    "translatedContent": "# frp-android"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "GhFY+WY7uLVto8dUxd7BqscTmehF5Hrs/q38xHzyA9U=",
+    "originContent": "A frp client for Android. 一个 Android 平台的 frp 客户端。",
+    "translatedContent": "A frp client for Android. An frp client for the Android platform."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "YM68fWw4ux8MIsAKEXrlyIfrdAF8k63fcMwI8t3wf5M=",
+    "originContent": "## 关于 frp",
+    "translatedContent": "## About frp"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "7sFtu7QdOc/rN9hlxQipoHnCTUCHOLmW3byj6tsuhcg=",
+    "originContent": "[frp](https://github.com/fatedier/frp) 是一个专注于内网穿透的高性能反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。",
+    "translatedContent": "[frp](https://github.com/fatedier/frp) is a high-performance reverse proxy application focused on intranet penetration, supporting multiple protocols such as TCP, UDP, HTTP, and HTTPS."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+    "originContent": "## 功能特性",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "0NVytLqeLgKOuBKgqubB0ia5tYNUYF8qTG5dX+49qFA=",
+    "originContent": "- **frpc 和 frps 双模式**：支持作为客户端或服务端运行",
+    "translatedContent": "- **Dual mode frpc and frps**: supports running as client or server"
+  },
+  {
+    "row": 12,
+    "rowsha": "naX1AeAD0MJWFwL00RUai2kPfX6CJ3YIUAGqpOiv8/Q=",
+    "originContent": "- **多配置格式**：支持 INI、TOML、YAML、JSON",
+    "translatedContent": "- **Multiple configuration formats**: supports INI, TOML, YAML, JSON"
+  },
+  {
+    "row": 13,
+    "rowsha": "tsptWk7NFzZc6/et22NZswoNsPI0y1mG2xlUYNxk4go=",
+    "originContent": "- **配置管理**：长按拖动排序、导入导出配置",
+    "translatedContent": "- **Configuration management**: long press to drag and sort, import and export configurations"
+  },
+  {
+    "row": 14,
+    "rowsha": "PESflgeuVE7D28b/A6WH9BH+FYJvFhxp5psZz5M3PNs=",
+    "originContent": "- **免 Root**：手机端无需 root 即可使用",
+    "translatedContent": "- **No Root required**: can be used on mobile without root"
+  },
+  {
+    "row": 15,
+    "rowsha": "Q5Gc/pfvNEBZKFgQsGoOGY4FBh/8PuKaK64CfggLtOA=",
+    "originContent": "- **后台运行**：支持后台服务，可单独启动/停止每条配置",
+    "translatedContent": "- **Background running**: supports background service, can start/stop each configuration separately"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "myqEQDLBwLANKuy+HMM7IIpqVyqsEHrHyHIxWm+Zfus=",
+    "originContent": "## 构建说明",
+    "translatedContent": "## Build Instructions"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "+r2y2uXVS4A9gUZOoxSZy1nkMpyD7saUQ4rPpon3Ucw=",
+    "originContent": "### 环境要求",
+    "translatedContent": "### Environment Requirements"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "JUaoCTjk71oQQRGdj4zkeObYcO7feFfqUelaNZfQtcc=",
+    "originContent": "- [Android Studio](https://developer.android.com/studio) 3.2+",
+    "translatedContent": "- [Android Studio](https://developer.android.com/studio) 3.2+"
+  },
+  {
+    "row": 22,
+    "rowsha": "Pm9qrJ4obBk+7Sfnf080+uWPErY50DnF7C+EOlF+LQA=",
+    "originContent": "- JDK 8+",
+    "translatedContent": "- JDK 8+"
+  },
+  {
+    "row": 23,
+    "rowsha": "eA+ICujtoQD12cidM8O0rivwWmTEYyUegyfM+aDv4rQ=",
+    "originContent": "- Android SDK API 19+ (minSdk)",
+    "translatedContent": "- Android SDK API 19+ (minSdk)"
+  },
+  {
+    "row": 24,
+    "rowsha": "/LumxmFWQ6/rVXUtT2B1jqM2WeS5hvISMspwXtTQBmU=",
+    "originContent": "- frp 动态库：需自行准备或通过应用内版本管理下载",
+    "translatedContent": "- frp dynamic library: need to prepare by yourself or download through in-app version management"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "qQwdL8cse+DCK1yvJKYytEsIMAvKCC+FzMkUtsUC47Y=",
+    "originContent": "### 构建步骤",
+    "translatedContent": "### Build Steps"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 29,
+    "rowsha": "jD16B1CQRHbIz1VTuNY+3Ik42euvkT9HVcCZZuKVlrs=",
+    "originContent": "# 克隆仓库",
+    "translatedContent": "# 克隆仓库"
+  },
+  {
+    "row": 30,
+    "rowsha": "EH43cSmMwzn/g0AqLvQAawXpUTz+Z80pJo3w/3D7xmU=",
+    "originContent": "git clone https://github.com/jahen/frp-android.git",
+    "translatedContent": "git clone https://github.com/jahen/frp-android.git"
+  },
+  {
+    "row": 31,
+    "rowsha": "Jgbiyzfs+E4nKAkPJpGebpKjyCqxw5GgklhY6tPWW34=",
+    "originContent": "cd frp-android",
+    "translatedContent": "cd frp-android"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "We/n4aTknfsQS9aXEs5hzqozAz6t1AdjXVJ/TakuJNE=",
+    "originContent": "# 构建 Debug",
+    "translatedContent": "# 构建 Debug"
+  },
+  {
+    "row": 34,
+    "rowsha": "cdFdvh3N2kPK96CJBL6Ogx8YTH7ER+ZNOXMHxq/4epo=",
+    "originContent": "./gradlew assembleDebug",
+    "translatedContent": "./gradlew assembleDebug"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "/a4b28qtevyvnJ6lmVAtMj1+enkfVEoVKEcvw6JoGYU=",
+    "originContent": "# 构建 Release（默认使用 debug 签名，如需正式签名请配置 keystore）",
+    "translatedContent": "# 构建 Release（默认使用 debug 签名，如需正式签名请配置 keystore）"
+  },
+  {
+    "row": 37,
+    "rowsha": "F8dnau98SusjJZTntVDaP5aPz5tXEYdmfI778YdCy00=",
+    "originContent": "./gradlew assembleRelease",
+    "translatedContent": "./gradlew assembleRelease"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "kDaWM5Q470qB1OctnO3/1DOorWfgBjXXvGfvUpWxBGw=",
+    "originContent": "### Release 签名（可选）",
+    "translatedContent": "### Release Signing (Optional)"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "GpvmJGKQHy3dQ8u3ge0TCNq71hQdlZxYi3PiaibNDK8=",
+    "originContent": "如需使用自定义 keystore 签名 Release 包：",
+    "translatedContent": "If you need to sign the Release package using a custom keystore:"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "XMrZfmsYKzrb9Al5yZ4N3zJPy+s/873leDTnl1VkDSk=",
+    "originContent": "1. 将 `keystore.properties.example` 复制并重命名为 `keystore.properties`（放在项目根目录）",
+    "translatedContent": "1. Copy `keystore.properties.example` and rename it to `keystore.properties` (place it in the project root directory)"
+  },
+  {
+    "row": 45,
+    "rowsha": "FEOBmanaSzI1Is4Cr/COcatbtTgf2ocLpR2CABdA+ZA=",
+    "originContent": "2. 用文本编辑器打开 `keystore.properties`，填入你的 keystore 信息：",
+    "translatedContent": "2. Open `keystore.properties` with a text editor and fill in your keystore information:"
+  },
+  {
+    "row": 46,
+    "rowsha": "+e7fVsMiBL+u6fWwPx9WJwy9npOxLeEcxZdDGE2jX4Y=",
+    "originContent": "   - `storeFile`：keystore 文件路径（相对于项目根目录，如 `../release.keystore` 表示上一级目录）",
+    "translatedContent": "   - `storeFile`: path to the keystore file (relative to the project root, e.g., `../release.keystore` means the parent directory)"
+  },
+  {
+    "row": 47,
+    "rowsha": "SIs+6M2AXn6KRjwgj/HrGMJ0pme/FClOI/chbpzTE/E=",
+    "originContent": "   - `storePassword`：keystore 密码",
+    "translatedContent": "   - `storePassword`: keystore password"
+  },
+  {
+    "row": 48,
+    "rowsha": "yNpCpxzUYC4fU6lJECXeG/M46HHneBCywIg7jAB2sEQ=",
+    "originContent": "   - `keyAlias`：密钥别名",
+    "translatedContent": "   - `keyAlias`: key alias"
+  },
+  {
+    "row": 49,
+    "rowsha": "Y0Q4JU9m1XkoJ8/m/h0j9O8pEB1YNnw9E/OsK1kMR/E=",
+    "originContent": "   - `keyPassword`：密钥密码",
+    "translatedContent": "   - `keyPassword`: key password"
+  },
+  {
+    "row": 50,
+    "rowsha": "vktsIuwD6nKI/XImFYzng/hWKdVbBJ+r/XytqdrY6EA=",
+    "originContent": "3. 确保 keystore 文件存在于 `storeFile` 指定的路径",
+    "translatedContent": "3. Ensure the keystore file exists at the path specified by `storeFile`"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "7PCY8L4UWp+PfU5H31sdGaZpAbtkbTtzEqdEtnP5FVU=",
+    "originContent": "```properties",
+    "translatedContent": "```properties"
+  },
+  {
+    "row": 53,
+    "rowsha": "+sVpGPn4oGs/FrwAYjc2ss9BkE1CCCntlRRIeT2MQvc=",
+    "originContent": "# keystore.properties 示例",
+    "translatedContent": "# keystore.properties 示例"
+  },
+  {
+    "row": 54,
+    "rowsha": "SbDXb/TYTDUUcfn1c6Jcnpk3T7HapMxRCUo3Yx2L7mU=",
+    "originContent": "storeFile=../release.keystore",
+    "translatedContent": "storeFile=../release.keystore"
+  },
+  {
+    "row": 55,
+    "rowsha": "A3SwZaPSxC80ItNL7HXiD98y5fmP0xwfxG61WhYSYk4=",
+    "originContent": "storePassword=your_store_password",
+    "translatedContent": "storePassword=your_store_password"
+  },
+  {
+    "row": 56,
+    "rowsha": "n10cG94DhbWITaQiFfRP5laV+y2DX9pMp+L+xQ+DgWg=",
+    "originContent": "keyAlias=your_key_alias",
+    "translatedContent": "keyAlias=your_key_alias"
+  },
+  {
+    "row": 57,
+    "rowsha": "79YuJafJ33MIceJHc4ueQemqiT0ZXGQYir3rFYbjubY=",
+    "originContent": "keyPassword=your_key_password",
+    "translatedContent": "keyPassword=your_key_password"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "dzMsGmQKjrq+usS5REczOZW5TdztVOrTvp5cnL85/28=",
+    "originContent": "**注意：`keystore.properties` 和 `*.keystore` 已加入 `.gitignore`，切勿提交！**",
+    "translatedContent": "**注意：`keystore.properties` 和 `*.keystore` 已加入 `.gitignore`，切勿提交！**"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+    "originContent": "## 许可证",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "Agmq2rBiMeNHEmf5ufEbDZ4iyyD2ZDUFPP4ECC0JoJI=",
+    "originContent": "[Apache License 2.0](LICENSE)",
+    "translatedContent": "[Apache License 2.0](LICENSE)"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
