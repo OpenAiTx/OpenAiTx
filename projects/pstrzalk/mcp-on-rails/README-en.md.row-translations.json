@@ -1,0 +1,1520 @@
+[
+  {
+    "row": 1,
+    "rowsha": "IPbCLqhOlq7RfGB+CKRvjkd2dpJjzU9t0hF80s1vumY=",
+    "originContent": "# MCP on Rails (with optional OAuth)",
+    "translatedContent": "# MCP on Rails (with optional OAuth)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "u68BBPCJ+2voQ2xTInrBHRlknHHlYSLvshKejs7SMTo=",
+    "originContent": "A Rails application template that integrates the [Model Context Protocol (MCP)](https://github.com/anthropics/model-context-protocol) with Ruby on Rails. During setup, the template asks whether to add OAuth 2.1 protection using [Devise](https://github.com/heartcombo/devise) and [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) — so one template supports both plain MCP and fully authenticated setups.",
+    "translatedContent": "A Rails application template that integrates the [Model Context Protocol (MCP)](https://github.com/anthropics/model-context-protocol) with Ruby on Rails. During setup, the template asks whether to add OAuth 2.1 protection using [Devise](https://github.com/heartcombo/devise) and [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) — so one template supports both plain MCP and fully authenticated setups."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## Quick Start"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 8,
+    "rowsha": "6OwUc9bjBqXIdpYkjt89fSpJoJWOEN09oTkKrZQd2rM=",
+    "originContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git",
+    "translatedContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git"
+  },
+  {
+    "row": 9,
+    "rowsha": "maTl3nihaZ2vnjKeDbGxYofg0vcdIgWY5NyCRxPn9dQ=",
+    "originContent": "rails new myapp -m mcp-on-rails/mcp",
+    "translatedContent": "rails new myapp -m mcp-on-rails/mcp"
+  },
+  {
+    "row": 10,
+    "rowsha": "QcO6NfSxsYK8az1uqNTFe9k8OnCfSt5+UiIl5MW/JJU=",
+    "originContent": "cd myapp",
+    "translatedContent": "cd myapp"
+  },
+  {
+    "row": 11,
+    "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+    "originContent": "rails db:migrate",
+    "translatedContent": "rails db:migrate"
+  },
+  {
+    "row": 12,
+    "rowsha": "5kOEs45ewyYCySY24zGXaM+LmqtVzlO57iS/OGPy1Is=",
+    "originContent": "rails server",
+    "translatedContent": "rails server"
+  },
+  {
+    "row": 13,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "The template will prompt:"
+  },
+  {
+    "row": 15,
+    "rowsha": "rb8M9cWihuRA9KeBIM9M7cquwnHOQyjEG6w9qPXhw2o=",
+    "originContent": "The template will prompt:",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "VSraGHnm3ZDFQtkCtr4UjYN58BlPZbjD3UKy8Xmu1To=",
+    "originContent": "Add Devise + Doorkeeper OAuth 2.1 authentication? (y/n)",
+    "translatedContent": "Add Devise + Doorkeeper OAuth 2.1 authentication? (y/n)"
+  },
+  {
+    "row": 19,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "vTdQSem0/YNwiK6xmsCvA8ThReXLH1eeabF8olTD6bQ=",
+    "originContent": "Answer **n** for a plain MCP server or **y** for full OAuth protection.",
+    "translatedContent": "Answer **n** for a plain MCP server or **y** for full OAuth protection."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "INDMI6+V3Z/KZPwYR6IpZWdWeT/9vsr7NS18mHYI5do=",
+    "originContent": "### Adding the MCP template to an existing Rails application",
+    "translatedContent": "### Adding the MCP template to an existing Rails application"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "QQoXF8ubb1v+86a5iBIYZ1Si87nLPRX3lmKpLwV9wmU=",
+    "originContent": "You may just as easily apply this template to an existing Rails app.",
+    "translatedContent": "You may just as easily apply this template to an existing Rails app."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 28,
+    "rowsha": "6OwUc9bjBqXIdpYkjt89fSpJoJWOEN09oTkKrZQd2rM=",
+    "originContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git",
+    "translatedContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git"
+  },
+  {
+    "row": 29,
+    "rowsha": "x0WTqEgTIRvSZedCjgiLHfXzU4qZoZnw4Ffu9XPjdv8=",
+    "originContent": "cd your-project/",
+    "translatedContent": "cd your-project/"
+  },
+  {
+    "row": 30,
+    "rowsha": "PfHh02SQIyPQGJ9HXn6O+maL1RZzrjgzgcxVyciuWJo=",
+    "originContent": "rails app:template LOCATION=../mcp-on-rails/mcp",
+    "translatedContent": "rails app:template LOCATION=../mcp-on-rails/mcp"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "kmh+7Ls/yVJrw1M1U6Q5kjqIL2aElLIDok8eWcsPNoY=",
+    "originContent": "## Plain MCP (answer \"n\")",
+    "translatedContent": "## Plain MCP (answer \"n\")"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "opxTmrP4/LUOjDklqdVznwqKuGe8hUa39Pv65Ypc3Po=",
+    "originContent": "Creates a Rails app with an open MCP server — no authentication required.",
+    "translatedContent": "Creates a Rails app with an open MCP server — no authentication required."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "D/uJ87rUqWn7zaaTGt7afpLsRJiQ94wgAff+Tj6uTOk=",
+    "originContent": "### What you get",
+    "translatedContent": "### What you get"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "9+vSFE/h2L+Oj8hW8wcxq8LE/hqHuY7zNfsauQUXb2Q=",
+    "originContent": "- **`mcp` gem** added to Gemfile",
+    "translatedContent": "- **`mcp` gem** added to Gemfile"
+  },
+  {
+    "row": 42,
+    "rowsha": "HLKAyqb0NYztDg8VkNUfkIRkRjYB6TTPsKHo22y3bpA=",
+    "originContent": "- **`McpController`** at `/mcp` — inherits `ActionController::API`, handles MCP protocol",
+    "translatedContent": "- **`McpController`** at `/mcp` — inherits `ActionController::API`, handles MCP protocol"
+  },
+  {
+    "row": 43,
+    "rowsha": "8QtSG7vuwbSQTSVdOZDC3AyixEILuIVAk+or4Iy6I+g=",
+    "originContent": "- **MCP routes** — `POST /mcp`, `GET /mcp`",
+    "translatedContent": "- **MCP routes** — `POST /mcp`, `GET /mcp`"
+  },
+  {
+    "row": 44,
+    "rowsha": "YiRMV0WMHxHGN6hg+s0JMHCjIx5ZBVYJAlAgviBRReM=",
+    "originContent": "- **Scaffold hook** — `rails generate scaffold` automatically creates MCP tools",
+    "translatedContent": "- **Scaffold hook** — `rails generate scaffold` automatically creates MCP tools"
+  },
+  {
+    "row": 45,
+    "rowsha": "e63PvykoTyIuD+wBo4zFhDbgYiyzbBrXtsZpyaN18ho=",
+    "originContent": "- **Custom tool generator** — `rails generate mcp_tool ToolName field:type`",
+    "translatedContent": "- **Custom tool generator** — `rails generate mcp_tool ToolName field:type`"
+  },
+  {
+    "row": 46,
+    "rowsha": "v1hutRcAXmriVepT6VB/q4zAiC/n0QQRfuGlSA7Mvws=",
+    "originContent": "- **Custom prompt generator** — `rails generate mcp_prompt PromptName arg arg:required`",
+    "translatedContent": "- **Custom prompt generator** — `rails generate mcp_prompt PromptName arg arg:required`"
+  },
+  {
+    "row": 47,
+    "rowsha": "l7n0X1uw3/qlbL3jpwmUhdEUw8ZCjT1C+3HB8Ap0cqw=",
+    "originContent": "- **`to_mcp_response`** on ApplicationRecord for consistent text formatting",
+    "translatedContent": "- **`to_mcp_response`** on ApplicationRecord for consistent text formatting"
+  },
+  {
+    "row": 48,
+    "rowsha": "avcjTsu+Cf3uU1pRwMZSql+GIyPIWI/iWB0GvWvrVqI=",
+    "originContent": "- **`rake mcp:tools`** and **`rake mcp:prompts`** to list all registered tools and prompts (use `mcp:tools:verbose` / `mcp:prompts:verbose` for full details)",
+    "translatedContent": "- **`rake mcp:tools`** and **`rake mcp:prompts`** to list all registered tools and prompts (use `mcp:tools:verbose` / `mcp:prompts:verbose` for full details)"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": "### Usage"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 53,
+    "rowsha": "V0OGWjKBShGPf6Tkn9unpOMx4lQbZygI3gEHd/Zj+30=",
+    "originContent": "rails new myapp -m mcp-on-rails/mcp   # answer n",
+    "translatedContent": "rails new myapp -m mcp-on-rails/mcp   # answer n"
+  },
+  {
+    "row": 54,
+    "rowsha": "4E6Jn+Q6IQdtEJHwR9BUQ6nhMKLoEBZhyshOl2vMg30=",
+    "originContent": "cd myapp && rails db:migrate",
+    "translatedContent": "cd myapp && rails db:migrate"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "VdSDYzMyI3m6fTt7CJTVNax5M3kav8hyc9sGXg3lJwE=",
+    "originContent": "rails generate scaffold Post title:string body:text",
+    "translatedContent": "rails generate scaffold Post title:string body:text"
+  },
+  {
+    "row": 57,
+    "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+    "originContent": "rails db:migrate",
+    "translatedContent": "rails db:migrate"
+  },
+  {
+    "row": 58,
+    "rowsha": "5kOEs45ewyYCySY24zGXaM+LmqtVzlO57iS/OGPy1Is=",
+    "originContent": "rails server",
+    "translatedContent": "rails server"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "DaI4BoxBWQFBtEH6Kfjye93q1pPDQ23k9FTgARcjBzc=",
+    "originContent": "Test it:",
+    "translatedContent": "Test it:"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 64,
+    "rowsha": "sANZ6zkq2KmjcnLFfdZCoNdxCuadh4BP3DZdS1Nu+gE=",
+    "originContent": "# MCP initialize",
+    "translatedContent": "# MCP initialize"
+  },
+  {
+    "row": 65,
+    "rowsha": "m/BqTCCoGBGESUteuc4S0+rBS2DyUuH8XtVEq0m+yTk=",
+    "originContent": "curl -X POST http://localhost:3000/mcp \\",
+    "translatedContent": "curl -X POST http://localhost:3000/mcp \\"
+  },
+  {
+    "row": 66,
+    "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+    "originContent": "  -H \"Content-Type: application/json\" \\",
+    "translatedContent": "  -H \"Content-Type: application/json\" \\"
+  },
+  {
+    "row": 67,
+    "rowsha": "ChVBy5GnEsy7nz0QPZYhal8SLpe4K5qHOz6fy+ecoZs=",
+    "originContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"1.0\"}}}'",
+    "translatedContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"1.0\"}}}'"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "UNe4Cph8CrpxHeFL4eyHt61yfW8FUJWSam7RL/rkWOA=",
+    "originContent": "# List tools",
+    "translatedContent": "# List tools"
+  },
+  {
+    "row": 70,
+    "rowsha": "m/BqTCCoGBGESUteuc4S0+rBS2DyUuH8XtVEq0m+yTk=",
+    "originContent": "curl -X POST http://localhost:3000/mcp \\",
+    "translatedContent": "curl -X POST http://localhost:3000/mcp \\"
+  },
+  {
+    "row": 71,
+    "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+    "originContent": "  -H \"Content-Type: application/json\" \\",
+    "translatedContent": "  -H \"Content-Type: application/json\" \\"
+  },
+  {
+    "row": 72,
+    "rowsha": "G1vPTV+gqB+MfyD2j4R9bCu9Zg89TJoYkPVNifybQiw=",
+    "originContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\"}'",
+    "translatedContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\"}'"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "fjGVL0vCbgGWb8HdsOE26NjmUhfTOPTYMeJsV+pZZO8=",
+    "originContent": "### Project structure (plain mode)",
+    "translatedContent": "### Project structure (plain mode)"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "sY2l2NhvX5d/87Akx3WsW2n9SInniE4m17KO2DwOpBY=",
+    "originContent": "app/",
+    "translatedContent": "app/"
+  },
+  {
+    "row": 79,
+    "rowsha": "mFCVinhwcfqTlL/Y4INcgoLct0RPVsz3TPod1edWv4s=",
+    "originContent": "├── controllers/",
+    "translatedContent": "├── controllers/"
+  },
+  {
+    "row": 80,
+    "rowsha": "qLsjVVozfJovhI7ZgernHD9TC4MmlxMQQgPNcc5BQS4=",
+    "originContent": "│   └── mcp_controller.rb              # Open MCP endpoint (no auth)",
+    "translatedContent": "│   └── mcp_controller.rb              # Open MCP endpoint (no auth)"
+  },
+  {
+    "row": 81,
+    "rowsha": "7aPkii1RadnahFqmBTT7FXnFQca2zOPBGQe3YITomAc=",
+    "originContent": "├── models/",
+    "translatedContent": "├── models/"
+  },
+  {
+    "row": 82,
+    "rowsha": "tPKo0y8/8PibVDel1cDa8dkXC6MFKRdD29zNIAMeB9Q=",
+    "originContent": "│   └── application_record.rb          # Extended with to_mcp_response",
+    "translatedContent": "│   └── application_record.rb          # Extended with to_mcp_response"
+  },
+  {
+    "row": 83,
+    "rowsha": "OGavgPEQs+YYPLP35zyFcdd+zqPI7eN8mQJPASyPGd4=",
+    "originContent": "├── prompts/                           # MCP prompts (created via generator)",
+    "translatedContent": "├── prompts/                           # MCP prompts (created via generator)"
+  },
+  {
+    "row": 84,
+    "rowsha": "i9wgsbjZclCz0jEVp3s46fh7WaCsrfFz+A9hzpRdEH8=",
+    "originContent": "└── tools/                             # MCP tools (auto-generated per scaffold)",
+    "translatedContent": "└── tools/                             # MCP tools (auto-generated per scaffold)"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "F3QDEDyvHYYVeMNKATb3q9ch1vSUIGRrMuFUWrDHkwU=",
+    "originContent": "config/",
+    "translatedContent": "config/"
+  },
+  {
+    "row": 87,
+    "rowsha": "F3rHFMeQc7sfCKIqa8xY+gTYBwThDyK3Yy0OcuX1264=",
+    "originContent": "├── initializers/",
+    "translatedContent": "├── initializers/"
+  },
+  {
+    "row": 88,
+    "rowsha": "H8hy4EOyonpP+DTGZAfNchY6BKXrk/9/w0aWa7VOuzU=",
+    "originContent": "│   └── mcp.rb                         # MCP tool and prompt autoloading",
+    "translatedContent": "│   └── mcp.rb                         # MCP tool and prompt autoloading"
+  },
+  {
+    "row": 89,
+    "rowsha": "2EET4aTpVAauglF8swY4uqSj8bpQtsK6CnnLwkT0ZY8=",
+    "originContent": "└── routes.rb                          # MCP routes",
+    "translatedContent": "└── routes.rb                          # MCP routes"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "j0/icp2IGthgyT96+ZqvEucrp6uo0MOWCztCTd8mn0k=",
+    "originContent": "lib/",
+    "translatedContent": "lib/"
+  },
+  {
+    "row": 92,
+    "rowsha": "ooy9Kjd6zoMqXGU3W6+EpkbHRvsK/OYHsEQMvh4rcZw=",
+    "originContent": "├── generators/                        # MCP tool and prompt generators",
+    "translatedContent": "├── generators/                        # MCP tool and prompt generators"
+  },
+  {
+    "row": 93,
+    "rowsha": "1WMmFChurZCIH0FO5lS2V0QDsuRICMJ6x82WPzFBVug=",
+    "originContent": "└── tasks/",
+    "translatedContent": "└── tasks/"
+  },
+  {
+    "row": 94,
+    "rowsha": "tjEHKt4wsULDqJyG/haKNvZelNEpm6po3DW50T+CT20=",
+    "originContent": "    └── mcp.rake                       # rake mcp:tools, rake mcp:prompts (and verbose variants)",
+    "translatedContent": "    └── mcp.rake                       # rake mcp:tools, rake mcp:prompts (and verbose variants)"
+  },
+  {
+    "row": 95,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "87ib84uwN5Djl40LcZJ/lWluQ4KLDBTrLv/UjnDRM5o=",
+    "originContent": "### Connecting AI assistants (plain mode)",
+    "translatedContent": "### Connecting AI assistants (plain mode)"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 100,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 101,
+    "rowsha": "imvxvbywJs3PdmCngBhD3G/oMkXXAdJlpPCsW7UppZU=",
+    "originContent": "  \"name\": \"my-rails-app\",",
+    "translatedContent": "  \"name\": \"my-rails-app\","
+  },
+  {
+    "row": 102,
+    "rowsha": "/kzHoBlU/Ka26XKBRCbCzLcQEHMQW3vE2kh/kkMf0Eg=",
+    "originContent": "  \"type\": \"StreamableHttp\",",
+    "translatedContent": "  \"type\": \"StreamableHttp\","
+  },
+  {
+    "row": 103,
+    "rowsha": "INRnG+BDOpNsAypBp5Ne/aIDTYth+UoBJ6WuG/MyXxQ=",
+    "originContent": "  \"url\": \"http://localhost:3000/mcp\"",
+    "translatedContent": "  \"url\": \"http://localhost:3000/mcp\""
+  },
+  {
+    "row": 104,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "No authentication needed — the `/mcp` endpoint is open."
+  },
+  {
+    "row": 107,
+    "rowsha": "0cH0+7U1dfE0dVdzuDGCPBnRvGVmlRgLIpyosMNCtAQ=",
+    "originContent": "No authentication needed — the `/mcp` endpoint is open.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 109,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## OAuth MCP (answer \"y\")"
+  },
+  {
+    "row": 111,
+    "rowsha": "B/TY0nmjmGky8QBJsJE5YyaheWnCvlZN+Zr0+S4BtlA=",
+    "originContent": "## OAuth MCP (answer \"y\")",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Creates a Rails app with an OAuth 2.1-protected MCP server, including PKCE, dynamic client registration, and resource indicator support — everything needed for MCP's OAuth authorization flow."
+  },
+  {
+    "row": 113,
+    "rowsha": "juhtCHKXKNvbpfPCP9nB3B5f2z6Y9sseroqKWrXuFMQ=",
+    "originContent": "Creates a Rails app with an OAuth 2.1-protected MCP server, including PKCE, dynamic client registration, and resource indicator support — everything needed for MCP's OAuth authorization flow.",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### What you get"
+  },
+  {
+    "row": 115,
+    "rowsha": "D/uJ87rUqWn7zaaTGt7afpLsRJiQ94wgAff+Tj6uTOk=",
+    "originContent": "### What you get",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Everything from plain mode, plus:"
+  },
+  {
+    "row": 117,
+    "rowsha": "b1eQW3Q8u/fkXwG0zQk8mihU1STMRF/RuJhLe6ldBtw=",
+    "originContent": "Everything from plain mode, plus:",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **`devise` + `doorkeeper` gems** added to Gemfile"
+  },
+  {
+    "row": 119,
+    "rowsha": "upJqotENxJf9OGmmb/elM+eIcHYtr6bE5g/HNXjBh74=",
+    "originContent": "- **`devise` + `doorkeeper` gems** added to Gemfile",
+    "translatedContent": "- **Devise** user authentication (sign-up, sign-in, password reset)"
+  },
+  {
+    "row": 120,
+    "rowsha": "gDCBGOtUrnkaewHy6nX6WvSzXCc0Mq8bSuIMTyxPNH0=",
+    "originContent": "- **Devise** user authentication (sign-up, sign-in, password reset)",
+    "translatedContent": "- **Doorkeeper** OAuth 2.1 provider with PKCE enforcement (S256)"
+  },
+  {
+    "row": 121,
+    "rowsha": "jnKXABW7IDhfzV+LU7NLYsLMnHYrpfg1qU3TtKXzv8E=",
+    "originContent": "- **Doorkeeper** OAuth 2.1 provider with PKCE enforcement (S256)",
+    "translatedContent": "- **`McpController`** protected by `doorkeeper_authorize!` with token audience validation (RFC 8707)"
+  },
+  {
+    "row": 122,
+    "rowsha": "szg0WKPw2y8q/scTEAiTWrzVREUdkHUr6Fu80GLmXcc=",
+    "originContent": "- **`McpController`** protected by `doorkeeper_authorize!` with token audience validation (RFC 8707)",
+    "translatedContent": "- **Dynamic client registration** at `POST /oauth/register` (RFC 7591)"
+  },
+  {
+    "row": 123,
+    "rowsha": "qY+ZOIuf6NcJRAgrYMvOegggbcQW1YA0i7026OkAvt4=",
+    "originContent": "- **Dynamic client registration** at `POST /oauth/register` (RFC 7591)",
+    "translatedContent": "- **Protected resource metadata** at `GET /.well-known/oauth-protected-resource` (RFC 9728)"
+  },
+  {
+    "row": 124,
+    "rowsha": "5myMIAdNcd6pfF5eWFDKcpHeoLf6TX8s6IafnpIz2VU=",
+    "originContent": "- **Protected resource metadata** at `GET /.well-known/oauth-protected-resource` (RFC 9728)",
+    "translatedContent": "- **Authorization server metadata** at `GET /.well-known/oauth-authorization-server` (RFC 8414)"
+  },
+  {
+    "row": 125,
+    "rowsha": "uNZ/sHmo7Zs5AIV0AcPyNKBMYHl4Ojsinxwy1sRHcLw=",
+    "originContent": "- **Authorization server metadata** at `GET /.well-known/oauth-authorization-server` (RFC 8414)",
+    "translatedContent": "- **Resource indicators** — tokens are scoped to the `/mcp` resource (RFC 8707)"
+  },
+  {
+    "row": 126,
+    "rowsha": "4ucYMi1UPWNKODSK0fOabS9lQ8gJlePjUZG35lqV1+A=",
+    "originContent": "- **Resource indicators** — tokens are scoped to the `/mcp` resource (RFC 8707)",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Usage"
+  },
+  {
+    "row": 128,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 131,
+    "rowsha": "HoEySFC8u2gmRlUtg29cXllZgpD4vCDp/QRMqNFcI3s=",
+    "originContent": "rails new myapp -m mcp-on-rails/mcp   # answer y",
+    "translatedContent": "rails new myapp -m mcp-on-rails/mcp   # answer y"
+  },
+  {
+    "row": 132,
+    "rowsha": "4E6Jn+Q6IQdtEJHwR9BUQ6nhMKLoEBZhyshOl2vMg30=",
+    "originContent": "cd myapp && rails db:migrate",
+    "translatedContent": "cd myapp && rails db:migrate"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "VdSDYzMyI3m6fTt7CJTVNax5M3kav8hyc9sGXg3lJwE=",
+    "originContent": "rails generate scaffold Post title:string body:text",
+    "translatedContent": "rails generate scaffold Post title:string body:text"
+  },
+  {
+    "row": 135,
+    "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+    "originContent": "rails db:migrate",
+    "translatedContent": "rails db:migrate"
+  },
+  {
+    "row": 136,
+    "rowsha": "5kOEs45ewyYCySY24zGXaM+LmqtVzlO57iS/OGPy1Is=",
+    "originContent": "rails server",
+    "translatedContent": "rails server"
+  },
+  {
+    "row": 137,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "dKzGftFW5uTDQLmuyHbH02IZa45+DG4ynusPMo0Ll+I=",
+    "originContent": "The `/mcp` endpoint now requires a Bearer token — unauthenticated requests return 401.",
+    "translatedContent": "The `/mcp` endpoint now requires a Bearer token — unauthenticated requests return 401."
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "hhntOC/PtFpWl+BNCIXrcmQ9s8p7xUIiJckXTW3qnxY=",
+    "originContent": "### OAuth flow",
+    "translatedContent": "### OAuth flow"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "bFgwZBVASpo31o2gZ0eVCFgVH7BWsfS1NB2HBquLgkg=",
+    "originContent": "The full authorization flow follows MCP's OAuth specification:",
+    "translatedContent": "The full authorization flow follows MCP's OAuth specification:"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "FUStfi1lIyUKlJ5/REAKFtPCPtEu2uHeStGcwUnBzN0=",
+    "originContent": "1. **Discovery** — Client fetches `GET /.well-known/oauth-protected-resource` to find the authorization server",
+    "translatedContent": "1. **Discovery** — Client fetches `GET /.well-known/oauth-protected-resource` to find the authorization server"
+  },
+  {
+    "row": 146,
+    "rowsha": "XSfMKfuK102wohcugcymFy0Y+2/IRkYck7jamp9e0H0=",
+    "originContent": "2. **Server metadata** — Client fetches `GET /.well-known/oauth-authorization-server` for endpoints and capabilities",
+    "translatedContent": "2. **Server metadata** — Client fetches `GET /.well-known/oauth-authorization-server` for endpoints and capabilities"
+  },
+  {
+    "row": 147,
+    "rowsha": "wXRF+3v9h8hKMrCIGGNpPEUob9eGsk6rk9IgtzSBtsE=",
+    "originContent": "3. **Client registration** — `POST /oauth/register` with client metadata (RFC 7591)",
+    "translatedContent": "3. **Client registration** — `POST /oauth/register` with client metadata (RFC 7591)"
+  },
+  {
+    "row": 148,
+    "rowsha": "Bqu56kwL6gr5abW24a1S1CUXKt+qWg6x07wnhz9h1mg=",
+    "originContent": "4. **Authorization** — `GET /oauth/authorize` with PKCE `code_challenge` (S256) and `resource` parameter",
+    "translatedContent": "4. **Authorization** — `GET /oauth/authorize` with PKCE `code_challenge` (S256) and `resource` parameter"
+  },
+  {
+    "row": 149,
+    "rowsha": "WgCRM+1sa3WN1u6CJOb5DxnM47RXWqx+PEBJHhmI+aE=",
+    "originContent": "5. **User authentication** — Devise handles sign-in/sign-up",
+    "translatedContent": "5. **User authentication** — Devise handles sign-in/sign-up"
+  },
+  {
+    "row": 150,
+    "rowsha": "Kq6J2iDYkhUIakhbnpCAwERkFhh8aoAME0meQW5O/LE=",
+    "originContent": "6. **Token exchange** — `POST /oauth/token` with `code_verifier` and `resource` parameter",
+    "translatedContent": "6. **Token exchange** — `POST /oauth/token` with `code_verifier` and `resource` parameter"
+  },
+  {
+    "row": 151,
+    "rowsha": "f8L5ym1s6lprkYPZkrfEN45cvl4N7YLkTYPp13z/mvM=",
+    "originContent": "7. **MCP requests** — `POST /mcp` with `Authorization: Bearer <token>`",
+    "translatedContent": "7. **MCP requests** — `POST /mcp` with `Authorization: Bearer <token>`"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "p8TCj00fEzuz0SpjIaQdncPuOVV1sQLRQIiYNt8/9I8=",
+    "originContent": "### Supported RFCs",
+    "translatedContent": "### Supported RFCs"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "7Gz5xGFgxtibvMN22iwoA5Q1S0dy6j+M1Y0IOvTTRzI=",
+    "originContent": "| RFC | Description | Endpoint |",
+    "translatedContent": "| RFC | Description | Endpoint |"
+  },
+  {
+    "row": 156,
+    "rowsha": "ivVC3zZI04+RLP6EO8HkImBhLxuG/Eux4LWhXrxfVn8=",
+    "originContent": "|-----|-------------|----------|",
+    "translatedContent": "|-----|-------------|----------|"
+  },
+  {
+    "row": 157,
+    "rowsha": "wPYWzwt7LdvGWNkgzlRCp+ShymaHWMpi7Py9E2H4ckY=",
+    "originContent": "| OAuth 2.1 + PKCE | Authorization with Proof Key for Code Exchange (S256) | `/oauth/authorize`, `/oauth/token` |",
+    "translatedContent": "| OAuth 2.1 + PKCE | Authorization with Proof Key for Code Exchange (S256) | `/oauth/authorize`, `/oauth/token` |"
+  },
+  {
+    "row": 158,
+    "rowsha": "Ys7phJEmcXb+bEJa52X4KCsybLG8SZpZyhb+vztIU3o=",
+    "originContent": "| RFC 7591 | Dynamic Client Registration | `POST /oauth/register` |",
+    "translatedContent": "| RFC 7591 | Dynamic Client Registration | `POST /oauth/register` |"
+  },
+  {
+    "row": 159,
+    "rowsha": "PedPvZwNZAYy19Gd2RHqQeubp6LFUYFuTaNJYymK6nQ=",
+    "originContent": "| RFC 8414 | Authorization Server Metadata | `GET /.well-known/oauth-authorization-server` |",
+    "translatedContent": "| RFC 8414 | Authorization Server Metadata | `GET /.well-known/oauth-authorization-server` |"
+  },
+  {
+    "row": 160,
+    "rowsha": "TVVCKprGsnpQWCEXkTe/VWaiA1AufxpyU+Ri2AtdgBw=",
+    "originContent": "| RFC 8707 | Resource Indicators | `resource` parameter in auth + token requests |",
+    "translatedContent": "| RFC 8707 | Resource Indicators | `resource` parameter in auth + token requests |"
+  },
+  {
+    "row": 161,
+    "rowsha": "vnwYK5SDeIeVt+kj6yKiId0ajb0vyjqycqPdwCWr0NU=",
+    "originContent": "| RFC 9728 | Protected Resource Metadata | `GET /.well-known/oauth-protected-resource` |",
+    "translatedContent": "| RFC 9728 | Protected Resource Metadata | `GET /.well-known/oauth-protected-resource` |"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "ZEsRWtdrUgOKv3JZZKc/Ui0nvCTA/4finCchVqbIP6Y=",
+    "originContent": "### Project structure (OAuth mode)",
+    "translatedContent": "### Project structure (OAuth mode)"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 166,
+    "rowsha": "sY2l2NhvX5d/87Akx3WsW2n9SInniE4m17KO2DwOpBY=",
+    "originContent": "app/",
+    "translatedContent": "app/"
+  },
+  {
+    "row": 167,
+    "rowsha": "mFCVinhwcfqTlL/Y4INcgoLct0RPVsz3TPod1edWv4s=",
+    "originContent": "├── controllers/",
+    "translatedContent": "├── controllers/"
+  },
+  {
+    "row": 168,
+    "rowsha": "ppQG9TJMIS2SVQvgJ6IRcDZdNrgBik1QBjiAv8oNego=",
+    "originContent": "│   ├── mcp_controller.rb                              # OAuth-protected MCP endpoint",
+    "translatedContent": "│   ├── mcp_controller.rb                              # OAuth-protected MCP endpoint"
+  },
+  {
+    "row": 169,
+    "rowsha": "XqCBD7soKgO8SPQwWOxmA2hXv0jlJP7IH22exuTwtRU=",
+    "originContent": "│   ├── oauth_client_registration_controller.rb        # RFC 7591",
+    "translatedContent": "│   ├── oauth_client_registration_controller.rb        # RFC 7591"
+  },
+  {
+    "row": 170,
+    "rowsha": "Tzf4RZC/zaRktFisIosiHrAU57pLEewGfy3YwJMvMCo=",
+    "originContent": "│   └── oauth_authorization_server_metadata_controller.rb  # RFC 8414 + 9728",
+    "translatedContent": "│   └── oauth_authorization_server_metadata_controller.rb  # RFC 8414 + 9728"
+  },
+  {
+    "row": 171,
+    "rowsha": "7aPkii1RadnahFqmBTT7FXnFQca2zOPBGQe3YITomAc=",
+    "originContent": "├── models/",
+    "translatedContent": "├── models/"
+  },
+  {
+    "row": 172,
+    "rowsha": "lvGMN/7lGCH/rSVSlD2EnpvutuhaQNexUaOEj7mijsY=",
+    "originContent": "│   ├── user.rb                                        # Devise user with OAuth associations",
+    "translatedContent": "│   ├── user.rb                                        # Devise user with OAuth associations"
+  },
+  {
+    "row": 173,
+    "rowsha": "2G2D8iLuzRxRhj7qhgdd1O+rxKdrtg8dhad1gzcylo8=",
+    "originContent": "│   ├── oauth_application.rb",
+    "translatedContent": "│   ├── oauth_application.rb"
+  },
+  {
+    "row": 174,
+    "rowsha": "WYkbyA2iPlvQhWd8PrUISCJKEoB07sO1jI40G5c9qjg=",
+    "originContent": "│   ├── oauth_access_token.rb",
+    "translatedContent": "│   ├── oauth_access_token.rb"
+  },
+  {
+    "row": 175,
+    "rowsha": "7u1bP0FL6WmhkAwndSxmKFLa+CF40AUaelJiVeDnnqQ=",
+    "originContent": "│   └── oauth_access_grant.rb",
+    "translatedContent": "│   └── oauth_access_grant.rb"
+  },
+  {
+    "row": 176,
+    "rowsha": "2Tbp0YURRWcaABZEw+hSnapEjmrwaZ+ZULstMeqbUbQ=",
+    "originContent": "├── prompts/                                           # MCP prompts (created via generator)",
+    "translatedContent": "├── prompts/                                           # MCP prompts (created via generator)"
+  },
+  {
+    "row": 177,
+    "rowsha": "MHpjyOyHyFD1zrYBhgnS3vaStQAIVCw1sl4IofELfTI=",
+    "originContent": "├── tools/                                             # MCP tools (auto-generated per scaffold)",
+    "translatedContent": "├── tools/                                             # MCP tools (auto-generated per scaffold)"
+  },
+  {
+    "row": 178,
+    "rowsha": "QHH/BxDk/8tMZPycIPjN1uZ89nIKHfeMsGbPA+OCnWE=",
+    "originContent": "└── views/",
+    "translatedContent": "└── views/"
+  },
+  {
+    "row": 179,
+    "rowsha": "DIPLop+/cvDlNdyKRm1J1KXa8JlOtm22YBSKYkKY1wc=",
+    "originContent": "    └── devise/                                        # Customizable auth views",
+    "translatedContent": "    └── devise/                                        # Customizable auth views"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "F3QDEDyvHYYVeMNKATb3q9ch1vSUIGRrMuFUWrDHkwU=",
+    "originContent": "config/",
+    "translatedContent": "config/"
+  },
+  {
+    "row": 182,
+    "rowsha": "F3rHFMeQc7sfCKIqa8xY+gTYBwThDyK3Yy0OcuX1264=",
+    "originContent": "├── initializers/",
+    "translatedContent": "├── initializers/"
+  },
+  {
+    "row": 183,
+    "rowsha": "N6/qJgeH87kEuQA3oMJeoKnYTMNkyqzK9m9weoo+Zbo=",
+    "originContent": "│   ├── doorkeeper.rb                                  # OAuth + PKCE config",
+    "translatedContent": "│   ├── doorkeeper.rb                                  # OAuth + PKCE config"
+  },
+  {
+    "row": 184,
+    "rowsha": "PfSlUSfXmEKLNHgt8PaasgZBDNliKIC+fmpN5t8fwQE=",
+    "originContent": "│   ├── devise.rb                                      # User auth config",
+    "translatedContent": "│   ├── devise.rb                                      # User auth config"
+  },
+  {
+    "row": 185,
+    "rowsha": "azsiVrPNmqyPsz4a9fN8GY8OOsNqEWsEOOKhwM5e2rc=",
+    "originContent": "│   └── mcp.rb                                         # MCP tool autoloading",
+    "translatedContent": "│   └── mcp.rb                                         # MCP tool autoloading"
+  },
+  {
+    "row": 186,
+    "rowsha": "mbkoTvoVG8DPmjE1yJW5eueiD8B/9rcA6rHXjtEtcCk=",
+    "originContent": "└── routes.rb                                          # All OAuth + MCP routes",
+    "translatedContent": "└── routes.rb                                          # All OAuth + MCP routes"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "RmdD6YUGOfH0sUES9tL+U8tMUJVLyYUsdIsv+pIVnsc=",
+    "originContent": "db/migrate/",
+    "translatedContent": "db/migrate/"
+  },
+  {
+    "row": 189,
+    "rowsha": "eg1URzKR/AMZBhggJ/ykHoMOsxCzv8Uz/pLMvgUzTIM=",
+    "originContent": "├── *_devise_create_users.rb",
+    "translatedContent": "├── *_devise_create_users.rb"
+  },
+  {
+    "row": 190,
+    "rowsha": "rOgRlTbEf+1uxbV6ZsWDXt+e6/ks0BGA7V97pqp1l+o=",
+    "originContent": "├── *_create_doorkeeper_tables.rb",
+    "translatedContent": "├── *_create_doorkeeper_tables.rb"
+  },
+  {
+    "row": 191,
+    "rowsha": "acF9tH3C80m3JfQ909QCc3KdvFwI4pZalqQrLllFNa4=",
+    "originContent": "├── *_enable_pkce.rb",
+    "translatedContent": "├── *_enable_pkce.rb"
+  },
+  {
+    "row": 192,
+    "rowsha": "r+TfHpKNU9dG8yekIsdNVxaA1msQfwDsxAYV52jf9Gc=",
+    "originContent": "└── *_add_resource_to_oauth_tables.rb",
+    "translatedContent": "└── *_add_resource_to_oauth_tables.rb"
+  },
+  {
+    "row": 193,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "lHB8VW1tj0FRJgRdIVw+LyjYuJl+WX6oVfWpmABf3vk=",
+    "originContent": "### Connecting AI assistants (OAuth mode)",
+    "translatedContent": "### Connecting AI assistants (OAuth mode)"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 198,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 199,
+    "rowsha": "imvxvbywJs3PdmCngBhD3G/oMkXXAdJlpPCsW7UppZU=",
+    "originContent": "  \"name\": \"my-rails-app\",",
+    "translatedContent": "  \"name\": \"my-rails-app\","
+  },
+  {
+    "row": 200,
+    "rowsha": "/kzHoBlU/Ka26XKBRCbCzLcQEHMQW3vE2kh/kkMf0Eg=",
+    "originContent": "  \"type\": \"StreamableHttp\",",
+    "translatedContent": "  \"type\": \"StreamableHttp\","
+  },
+  {
+    "row": 201,
+    "rowsha": "INRnG+BDOpNsAypBp5Ne/aIDTYth+UoBJ6WuG/MyXxQ=",
+    "originContent": "  \"url\": \"http://localhost:3000/mcp\"",
+    "translatedContent": "  \"url\": \"http://localhost:3000/mcp\""
+  },
+  {
+    "row": 202,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 203,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "/k+zNnowRP3TF0dOTKZ2LxwuM/zolnlA3KjaVN+IKyA=",
+    "originContent": "The client must complete the OAuth PKCE flow before making MCP requests — the `/mcp` endpoint returns 401 without a valid Bearer token.",
+    "translatedContent": "The client must complete the OAuth PKCE flow before making MCP requests — the `/mcp` endpoint returns 401 without a valid Bearer token."
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "J9knLkgmTuqttQFxWKlT308IIwOEsLGCjv5z4k62/+Y=",
+    "originContent": "## Common Features (both modes)",
+    "translatedContent": "## Common Features (both modes)"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "Z7FAflJcbEw52qaR5+4Fiehc6MUhOVfRY2J4TIt1bmk=",
+    "originContent": "### Scaffolding models with MCP tools",
+    "translatedContent": "### Scaffolding models with MCP tools"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 214,
+    "rowsha": "zuWCVOxdIKlqE96/7CAZMdfDDJFMwyL6KKp1AcVjxjU=",
+    "originContent": "rails generate scaffold Post title:string content:text",
+    "translatedContent": "rails generate scaffold Post title:string content:text"
+  },
+  {
+    "row": 215,
+    "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+    "originContent": "rails db:migrate",
+    "translatedContent": "rails db:migrate"
+  },
+  {
+    "row": 216,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "wM+ftjbcmmdjtnooA/6JV09CYo42Hr9HHEbznZmlFQ4=",
+    "originContent": "This creates standard Rails files plus 5 MCP tools in `app/tools/posts/`:",
+    "translatedContent": "This creates standard Rails files plus 5 MCP tools in `app/tools/posts/`:"
+  },
+  {
+    "row": 219,
+    "rowsha": "29ko1NuZlH0Lo3Reeg7zyaVqS9+SfE+ujsWS4zp2WhE=",
+    "originContent": "- `show_tool.rb` — Retrieve a single post by ID",
+    "translatedContent": "- `show_tool.rb` — Retrieve a single post by ID"
+  },
+  {
+    "row": 220,
+    "rowsha": "DsP4aO0hWeojOVXb/8HoVLY0gY09J2VC265fA1xsjcA=",
+    "originContent": "- `index_tool.rb` — List posts with pagination",
+    "translatedContent": "- `index_tool.rb` — List posts with pagination"
+  },
+  {
+    "row": 221,
+    "rowsha": "Xun7DmP7W/0dkPyCAFE8zyWvknIQxbBGLzqxrjXo61w=",
+    "originContent": "- `create_tool.rb` — Create new posts",
+    "translatedContent": "- `create_tool.rb` — Create new posts"
+  },
+  {
+    "row": 222,
+    "rowsha": "sRrzskkfkMuYGjawHBJef0tr9Xc23bAW3Wg41/h2G+Q=",
+    "originContent": "- `update_tool.rb` — Update existing posts",
+    "translatedContent": "- `update_tool.rb` — Update existing posts"
+  },
+  {
+    "row": 223,
+    "rowsha": "gDJeintDC3VW303mUmfhAEpluC2pEjLsizwWckQmO8Y=",
+    "originContent": "- `delete_tool.rb` — Delete posts",
+    "translatedContent": "- `delete_tool.rb` — Delete posts"
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "BhXzzzPPwHQGVACFHFQXeN7gpphKONoqnMEKDMsq1Y8=",
+    "originContent": "### Creating custom MCP tools",
+    "translatedContent": "### Creating custom MCP tools"
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 228,
+    "rowsha": "oTlqCt1QHUfdrmQs4QKb2xuGFXWBHsLB76cAeSLuqIs=",
+    "originContent": "rails generate mcp_tool WeatherCheck location:string",
+    "translatedContent": "rails generate mcp_tool WeatherCheck location:string"
+  },
+  {
+    "row": 229,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 231,
+    "rowsha": "UpGmzI6M8QKfQQN8dknYKzNZy6K5ATCy8FDt9TTUSYU=",
+    "originContent": "### Creating custom MCP prompts",
+    "translatedContent": "### Creating custom MCP prompts"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 234,
+    "rowsha": "P6DmYklVcpuYhMH/YQQkm8rVYNbZhs9bIbGOnsXw+h8=",
+    "originContent": "rails generate mcp_prompt hotel_finder location:required check_in_date:required adults price_max",
+    "translatedContent": "rails generate mcp_prompt hotel_finder location:required check_in_date:required adults price_max"
+  },
+  {
+    "row": 235,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 237,
+    "rowsha": "68tWSNaJU7zp6C/D+xaUXBTB4BR93gKUNHrP+cW4vaA=",
+    "originContent": "This creates `app/prompts/hotel_finder.rb` with a prompt class inheriting from `MCP::Prompt`. Arguments are optional by default — append `:required` to make them required.",
+    "translatedContent": "This creates `app/prompts/hotel_finder.rb` with a prompt class inheriting from `MCP::Prompt`. Arguments are optional by default — append `:required` to make them required."
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "cCIrkK+tEpGgEsUgJmV3Ns2ibI3JOSQSpwOubenza08=",
+    "originContent": "Prompts are automatically loaded from `app/prompts/` and registered with the MCP server. Unlike tools, prompts are **not** auto-generated during scaffolding — they are created explicitly via the generator.",
+    "translatedContent": "Prompts are automatically loaded from `app/prompts/` and registered with the MCP server. Unlike tools, prompts are **not** auto-generated during scaffolding — they are created explicitly via the generator."
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "bvyDa3ejJn12hAxaYcBs9aCbBaEz/xsDCqQp4jo9vO8=",
+    "originContent": "### Listing available tools and prompts",
+    "translatedContent": "### Listing available tools and prompts"
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 243,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 244,
+    "rowsha": "ZLlfKWB4d5kKuZX++VdiIt1NU4d9OupdlSKLZHCC9wE=",
+    "originContent": "rake mcp:tools             # compact one-line-per-tool summary",
+    "translatedContent": "rake mcp:tools             # compact one-line-per-tool summary"
+  },
+  {
+    "row": 245,
+    "rowsha": "3dpn8ELQ2jefiN9xGV++a8rvb8rkDQyQapzWHF0GNR4=",
+    "originContent": "rake mcp:tools:verbose     # full details with schema",
+    "translatedContent": "rake mcp:tools:verbose     # full details with schema"
+  },
+  {
+    "row": 246,
+    "rowsha": "qxqJFpD72v2jPjsBSIErjey92SFJ/FUf1ZNOPtRjcmY=",
+    "originContent": "rake mcp:prompts           # compact one-line-per-prompt summary",
+    "translatedContent": "rake mcp:prompts           # compact one-line-per-prompt summary"
+  },
+  {
+    "row": 247,
+    "rowsha": "+5J4nco75ozzYWudlURcE/8kaK1EnhGC5lvJ29Rz2oM=",
+    "originContent": "rake mcp:prompts:verbose   # full details with arguments",
+    "translatedContent": "rake mcp:prompts:verbose   # full details with arguments"
+  },
+  {
+    "row": 248,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+    "originContent": "MIT License",
+    "translatedContent": "MIT License"
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "row": 1,
+    "rowsha": "i7AjyMIp53QgdAwCNfUlHaQDoNMxCJKUj89HkfCiL84=",
+    "originContent": "# PicoLoader",
+    "translatedContent": "# PicoLoader  "
+  },
+  {
+    "row": 2,
+    "rowsha": "mgp8XZKI0Y4SVZHS9PcCIhttNb+T3wKBMO1VMNlkTqE=",
+    "originContent": "This is an ODE-based modchip for the Nintendo GameCube to boot homebrew.\\",
+    "translatedContent": "这是一个基于ODE的任天堂GameCube光驱改装芯片，用于启动自制软件。\\"
+  },
+  {
+    "row": 3,
+    "rowsha": "ymUS1m7/TW9e+KuQanRRxGny6lu0UJB7g7SaDHeB8Zw=",
+    "originContent": "Its price and functionality are very similar to [PicoBoot](https://github.com/webhdx/PicoBoot) but it has multiple advantages.",
+    "translatedContent": "其价格和功能与[PicoBoot](https://github.com/webhdx/PicoBoot)非常相似，但它具有多种优势。  "
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Zg67sJfzcvNT5p0CbW4SXk39GaSwmWSE/mVARAMEj40=",
+    "originContent": "Join the [Discord server](https://discord.gg/YtA9aU3BKZ) to get support and discuss the mod!",
+    "translatedContent": "加入[Discord服务器](https://discord.gg/YtA9aU3BKZ)以获得支持并讨论该改装！  "
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yr57TqElHtwjXcJf3z7vIOjG+gIgOGwCk8iSckpPsXc=",
+    "originContent": "## How does it work?",
+    "translatedContent": "## 它是如何工作的？  "
+  },
+  {
+    "row": 8,
+    "rowsha": "fg5yV+wpHh89UUyrdSdnRKGfFAauiogBmaS7SFbxMl8=",
+    "originContent": "This mod works by emulating a disk drive during boot, executing a homebrew app, and afterwards re-enabling the disk drive.\\",
+    "translatedContent": "该改装通过在启动时模拟光驱，执行自制应用程序，然后重新启用光驱来工作。\\"
+  },
+  {
+    "row": 9,
+    "rowsha": "TTuY7+qfUu0FFTWKO20Xc6SJ7k2B3ONUzvpMSzI2ANE=",
+    "originContent": "This is achieved using a flex PCB similar to FlippyDrive.",
+    "translatedContent": "这是通过类似FlippyDrive的柔性PCB实现的。  "
+  },
+  {
+    "row": 10,
+    "rowsha": "cQTCR6eBXjTCFGKz8MOCNCKi9CE2uc+fSYmvw0Cj7o8=",
+    "originContent": "However, it is not a full optical drive emulator and only allows executing small homebrew apps (e.g. [swiss](https://github.com/emukidid/swiss-gc)) from flash just like PicoBoot.",
+    "translatedContent": "然而，它不是完整的光驱模拟器，仅允许像PicoBoot一样从闪存执行小型自制应用程序（例如[swiss](https://github.com/emukidid/swiss-gc)）。  "
+  },
+  {
+    "row": 11,
+    "rowsha": "8UewuZB7uw753H3nurnjXzesfVyK4aqKcNCibIUorgU=",
+    "originContent": "To access files on an SD card, you need an SDGecko, SD2SP2, or similar adapter, which can be purchased separately.",
+    "translatedContent": "要访问SD卡上的文件，需要SDGecko、SD2SP2或类似适配器，这些可以单独购买。  "
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特性  "
+  },
+  {
+    "row": 14,
+    "rowsha": "/FzxbkFlQRUQz6P3eXCB2aOqLSZoSQ/R7tipfdjUN2o=",
+    "originContent": "- Open source",
+    "translatedContent": "- 开源  "
+  },
+  {
+    "row": 15,
+    "rowsha": "0g1nZgLEbPWQDA2zKUbRnGulH7e4aDvkPu/hCGZMzdM=",
+    "originContent": "- You can keep the disk drive",
+    "translatedContent": "- 可保留光驱  "
+  },
+  {
+    "row": 16,
+    "rowsha": "FtvrpkxD5Y72E4yjy0sYO9QE3qkctGp9Ue7gdN/J6FM=",
+    "originContent": "- Simple to boot most homebrew apps using an [online converter](https://makeo.github.io/PicoLoader/converter/)",
+    "translatedContent": "- 使用[在线转换器](https://makeo.github.io/PicoLoader/converter/)简单启动大多数自制应用  "
+  },
+  {
+    "row": 17,
+    "rowsha": "KI263x57f0jGI0LWejKnWiEW9DCMqJCGre8NRsLFano=",
+    "originContent": "- No permanent modifications to the GameCube",
+    "translatedContent": "- 不会对GameCube做永久改动  "
+  },
+  {
+    "row": 18,
+    "rowsha": "oWwGXScw6ACgr2Cs1HJ5Ikr3RmXYRgYH2TKkUJE7Jfc=",
+    "originContent": "- [3D printed plug](https://github.com/makeo/PicoLoader/raw/refs/heads/main/mount/Drive_PlugV1.1.stl) for installs without a disk drive ",
+    "translatedContent": "- [3D打印插头](https://github.com/makeo/PicoLoader/raw/refs/heads/main/mount/Drive_PlugV1.1.stl)，适用于无光驱安装  "
+  },
+  {
+    "row": 19,
+    "rowsha": "A42CQ/p9r8WRu4UJz/NlGJ2T91lTtelSuh6s/kLiXRU=",
+    "originContent": "- Easy to remove",
+    "translatedContent": "- 易于拆卸  "
+  },
+  {
+    "row": 20,
+    "rowsha": "66pzeAxad3DMfGkw/OHMUglQzSRKrpKP7vKkEm6nRdg=",
+    "originContent": "- Running Pico at 200Mhz for better compatibility with clone boards",
+    "translatedContent": "- Pico运行在200MHz，提升与克隆主板的兼容性  "
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "zyfObLZme1Or/ZlGWH6o+yGnUM6LvwL8yO9ZKAJXJlU=",
+    "originContent": "#### Soldered Variant",
+    "translatedContent": "#### 焊接版本  "
+  },
+  {
+    "row": 23,
+    "rowsha": "wV9KFgdsqu7lCmCMs+dEJPvamnBCUDq9g/WDk4BLk3c=",
+    "originContent": "- Cheap and easy to get components (Raspberry Pi Pico/Pico 2 + Flex PCB + Diode)",
+    "translatedContent": "- 便宜且易得的组件（Raspberry Pi Pico/Pico 2 + 柔性PCB + 二极管）  "
+  },
+  {
+    "row": 24,
+    "rowsha": "6aA1RpSpJit7K9R2pMpGzEdC5HhqPCLj1Aws72TKyDM=",
+    "originContent": "- Readily available",
+    "translatedContent": "- 现货供应充足  "
+  },
+  {
+    "row": 25,
+    "rowsha": "GDCvFzgEpz7c48Jpe+pF39upHTLgvkgTa1Zc6DQG8EM=",
+    "originContent": "- No soldering directly to the GameCube",
+    "translatedContent": "- 无需直接焊接到GameCube  "
+  },
+  {
+    "row": 26,
+    "rowsha": "Ba7t5sQRDx7y3ZeRSLNjVx1C3/Q/eiee+gy1elrnybo=",
+    "originContent": "- Easy soldering",
+    "translatedContent": "- 焊接简单  "
+  },
+  {
+    "row": 27,
+    "rowsha": "W+it3AI8OBbeyy1vjB51Ol1GCuccFnbf5CcRWs6AVQE=",
+    "originContent": "- Alternative install options: [Panasonic Q](https://github.com/makeo/PicoLoader/wiki/4.-Advanced-Section#panasonic-q-install-option), [low-profile](https://github.com/makeo/PicoLoader/wiki/4.-Advanced-Section#low-profile-install-option)",
+    "translatedContent": "- 替代安装选项：[Panasonic Q](https://github.com/makeo/PicoLoader/wiki/4.-Advanced-Section#panasonic-q-install-option)、[低矮型](https://github.com/makeo/PicoLoader/wiki/4.-Advanced-Section#low-profile-install-option)  "
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "d1uhBT0VPLAFFN1q7G7NCiF701o6PiOv/z05W/y9liU=",
+    "originContent": "#### Solderless Variant",
+    "translatedContent": "#### 无焊版本  "
+  },
+  {
+    "row": 30,
+    "rowsha": "JGQsn2GmJ+P/+PlDobC2XQlLpG/og2FABiAjus8ZAPU=",
+    "originContent": "- No soldering",
+    "translatedContent": "- 无需焊接  "
+  },
+  {
+    "row": 31,
+    "rowsha": "ujHeKJsGZklQQFgV1pgUfxpvlSra5Wat7uwzGqPJxzc=",
+    "originContent": "- Easily replaceable flex PCB",
+    "translatedContent": "- 柔性PCB易于更换  "
+  },
+  {
+    "row": 32,
+    "rowsha": "IEwJgO/t66jXerZduIA2tdX27sSpO1eBcl3VD49jpjk=",
+    "originContent": "- Pre-programmed with PicoLoader firmware and [Swiss](https://github.com/emukidid/swiss-gc)",
+    "translatedContent": "- 预装PicoLoader固件和[Swiss](https://github.com/emukidid/swiss-gc)  "
+  },
+  {
+    "row": 33,
+    "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+    "originContent": "> [!TIP]",
+    "translatedContent": "> [!TIP]  "
+  },
+  {
+    "row": 34,
+    "rowsha": "D05QQDQyYuBX/0D5B9OA2ajIlfNXfLLG8f5sy4jMces=",
+    "originContent": "> You can buy the solderless and normal variant from [store.makstech.io](https://store.makstech.io/).",
+    "translatedContent": "> 你可以从[store.makstech.io](https://store.makstech.io/)购买无焊和普通版本。  "
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "m8VYPv6MlPmvDAxmcWcJghJATdr9ezmdfLEXGpbdA/E=",
+    "originContent": "## Planned Features",
+    "translatedContent": "## 计划功能  "
+  },
+  {
+    "row": 37,
+    "rowsha": "lmzQmBzYVksQifOSMkQHN99g9T3ezaWxDbjC9qVRPys=",
+    "originContent": "*cricket sound*",
+    "translatedContent": "*蟋蟀声*  "
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "vUIOzmAQpuuS0+55SyfGq4bWOk3BtdPlAMmLpBcamSo=",
+    "originContent": "## Installation & Documentation",
+    "translatedContent": "## 安装与文档  "
+  },
+  {
+    "row": 40,
+    "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+    "originContent": "> [!IMPORTANT]",
+    "translatedContent": "> [!IMPORTANT]"
+  },
+  {
+    "row": 41,
+    "rowsha": "Q7NumwXpDgWS9xO++1zdPmnxAioQA20Oyx1atAM1Q4s=",
+    "originContent": "> Please follow the [installation instructions](https://makeo.github.io/PicoLoader/) in the wiki.\\",
+    "translatedContent": "> 请遵循维基中的[安装说明](https://makeo.github.io/PicoLoader/)。\\"
+  },
+  {
+    "row": 42,
+    "rowsha": "9af8fO+6/0pDD8sADfTtqU512x2vqHJBe8VCorMgRWQ=",
+    "originContent": "> When not following the instructions, there is a chance of breaking the flex PCB during installation.",
+    "translatedContent": "> 不按说明操作，有可能在安装过程中损坏柔性电路板。"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "nofIttU84Hvkv32mG9jq8dQw6Obz8EMuOVi/hZbHBzc=",
+    "originContent": "Get started by looking at the 📖[Wiki](https://github.com/makeo/PicoLoader/wiki/1.-Home)!",
+    "translatedContent": "开始请查看📖[维基](https://github.com/makeo/PicoLoader/wiki/1.-Home)！"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+    "originContent": "## Gallery",
+    "translatedContent": "## 图库"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "gDeFnOLghIafiMZbHRLIAXK2i7AhEzz0rf1IoYNKfOQ=",
+    "originContent": "<div style=\"display: flex; gap: 10px; flex-wrap: nowrap; justify-content: center;\">",
+    "translatedContent": "<div style=\"display: flex; gap: 10px; flex-wrap: nowrap; justify-content: center;\">"
+  },
+  {
+    "row": 49,
+    "rowsha": "+0Qwp8bnbFvC8cObNbsHUyljsCh04y8oKUgKgVApBwo=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"1\" src=\"https://github.com/user-attachments/assets/9dbe6a59-c3cd-4a4b-9462-4ebc6618a6cf\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"1\" src=\"https://github.com/user-attachments/assets/9dbe6a59-c3cd-4a4b-9462-4ebc6618a6cf\" /></a>"
+  },
+  {
+    "row": 50,
+    "rowsha": "Kt01OAB+fzhGYcvHjCss0tWIybjtZbKKwJx0sMcH5vE=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"2\" src=\"https://github.com/user-attachments/assets/87efdaf1-e2e6-4f9f-9bec-5a52d9c549fe\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"2\" src=\"https://github.com/user-attachments/assets/87efdaf1-e2e6-4f9f-9bec-5a52d9c549fe\" /></a>"
+  },
+  {
+    "row": 51,
+    "rowsha": "o+IXJzAcqMqtmMYyOypMLiUjqXfBwpOYxYRcxw32+Lc=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"3\" src=\"https://github.com/user-attachments/assets/02900e41-325a-48d2-bb01-8081845d7696\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"3\" src=\"https://github.com/user-attachments/assets/02900e41-325a-48d2-bb01-8081845d7696\" /></a>"
+  },
+  {
+    "row": 52,
+    "rowsha": "v9j6iw2IkUUvD+ayxINI8FD2oTgR1p0WYrXGKQ0JnPo=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"4\" src=\"https://github.com/user-attachments/assets/9d39575d-f7d6-4cbe-b33c-1c6f40ef0f82\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"4\" src=\"https://github.com/user-attachments/assets/9d39575d-f7d6-4cbe-b33c-1c6f40ef0f82\" /></a>"
+  },
+  {
+    "row": 53,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 54,
+    "rowsha": "gDeFnOLghIafiMZbHRLIAXK2i7AhEzz0rf1IoYNKfOQ=",
+    "originContent": "<div style=\"display: flex; gap: 10px; flex-wrap: nowrap; justify-content: center;\">",
+    "translatedContent": "<div style=\"display: flex; gap: 10px; flex-wrap: nowrap; justify-content: center;\">"
+  },
+  {
+    "row": 55,
+    "rowsha": "uenwBmYBQb4KZkJHwWBcEFsCAOJN4DOTnFlRNtExCmQ=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"1\" src=\"https://github.com/user-attachments/assets/6027feaa-74c6-407d-be00-104c46bffad4\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"1\" src=\"https://github.com/user-attachments/assets/6027feaa-74c6-407d-be00-104c46bffad4\" /></a>"
+  },
+  {
+    "row": 56,
+    "rowsha": "eY4mYMErhVn4AZ09swxT3GCzeshWv+/zJZ57C9Mqg6Q=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"2\" src=\"https://github.com/user-attachments/assets/d55b692a-20f6-4cfc-925d-57860416c55e\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"2\" src=\"https://github.com/user-attachments/assets/d55b692a-20f6-4cfc-925d-57860416c55e\" /></a>"
+  },
+  {
+    "row": 57,
+    "rowsha": "KAsu5AOOKQwldOoFLydXyUqgZB420vOLMqwJQ2pk4U4=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"3\" src=\"https://github.com/user-attachments/assets/2b155744-3261-40e2-8d08-9167f2aca5f7\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"3\" src=\"https://github.com/user-attachments/assets/2b155744-3261-40e2-8d08-9167f2aca5f7\" /></a>"
+  },
+  {
+    "row": 58,
+    "rowsha": "/1FBtef4DFk6jmmV93DvDUV00OLBLKIYZGogDNY52zI=",
+    "originContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"4\" src=\"https://github.com/user-attachments/assets/85811813-3d21-497a-a214-eda23bb56491\" /></a>",
+    "translatedContent": "  <a href=\"#\"><img style=\"width: 23%; height: auto;\" alt=\"4\" src=\"https://github.com/user-attachments/assets/85811813-3d21-497a-a214-eda23bb56491\" /></a>"
+  },
+  {
+    "row": 59,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "UOO8Fv2Q4Gd0I3S2PlCa266jO2hKjmPVJtFIHmBuPpc=",
+    "originContent": "## Special Thanks",
+    "translatedContent": "## 特别感谢"
+  },
+  {
+    "row": 62,
+    "rowsha": "XbtrUySrn6V6JF6uMx+tzZhdnYt6U0H8ssGPH+YP1ak=",
+    "originContent": "- [silversteel](https://github.com/silverstee1) for his help, especially for making the flex PCBs and mounts",
+    "translatedContent": "- 感谢 [silversteel](https://github.com/silverstee1) 的帮助，尤其是制作柔性PCB和支架"
+  },
+  {
+    "row": 63,
+    "rowsha": "zMPJ+84+/DSce05Q+RTMTkS6t2d670nHPNwcCJ6In0k=",
+    "originContent": "- [TeamOffBroadway](https://github.com/OffBroadway) for the amazing idea to use a flex PCB to intercept the drive signals",
+    "translatedContent": "- 感谢 [TeamOffBroadway](https://github.com/OffBroadway) 提出的使用柔性PCB截取驱动信号的绝妙创意"
+  },
+  {
+    "row": 64,
+    "rowsha": "58fFzr1sh4C5k/rMQKYEws4M48dj2/UEAjH5KqokFMg=",
+    "originContent": "- [Extrems](https://github.com/Extrems), [emukidid](https://github.com/emukidid) and everyone involved in creating Swiss",
+    "translatedContent": "- 感谢 [Extrems](https://github.com/Extrems)、[emukidid](https://github.com/emukidid) 及所有参与 Swiss 创建的人"
+  },
+  {
+    "row": 65,
+    "rowsha": "jcVB+ExIFscuE+ypn03gT7m+1vB/6WR1acVnbkFqK3Y=",
+    "originContent": "- [novenary (9ary)](https://github.com/9ary) for gekkoboot",
+    "translatedContent": "- 感谢 [novenary (9ary)](https://github.com/9ary) 为 gekkoboot 所做贡献"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+    "originContent": "## Acknowledgements",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 68,
+    "rowsha": "C2a4txrG9Bl3zo9JyujNg6tIB/TAkLeDMRctqLKJc3I=",
+    "originContent": "The source of [gbi.hdr](https://github.com/makeo/PicoLoader/blob/main/picoloader/data/gbi.hdr) and [gbi_disable_ipl.hdr](https://github.com/makeo/PicoLoader/blob/main/picoloader/data/gbi_disable_ipl.hdr) is licensed under GPL-2.0 and available [here](https://github.com/makeo/cubeboot-tools)",
+    "translatedContent": "[gbi.hdr](https://github.com/makeo/PicoLoader/blob/main/picoloader/data/gbi.hdr) 和 [gbi_disable_ipl.hdr](https://github.com/makeo/PicoLoader/blob/main/picoloader/data/gbi_disable_ipl.hdr) 的源代码采用 GPL-2.0 许可，代码可在[此处](https://github.com/makeo/cubeboot-tools)获得。"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

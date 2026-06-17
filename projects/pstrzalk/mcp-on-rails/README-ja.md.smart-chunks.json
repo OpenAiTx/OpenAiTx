@@ -1,0 +1,1897 @@
+[
+  {
+    "Id": 1,
+    "Content": "# MCP on Rails (with optional OAuth)\n\nA Rails application template that integrates the [Model Context Protocol (MCP)](https://github.com/anthropics/model-context-protocol) with Ruby on Rails. During setup, the template asks whether to add OAuth 2.1 protection using [Devise](https://github.com/heartcombo/devise) and [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) — so one template supports both plain MCP and fully authenticated setups.\n\n## Quick Start\n",
+    "ContentSha": "Jb0SDOo/qJpxmpX0L0dBP3Ndh0AWd3YJYlw2X/x8PA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MCP on Rails（オプションでOAuth対応）\n\nRuby on Railsと[Model Context Protocol (MCP)](https://github.com/anthropics/model-context-protocol)を統合するRailsアプリケーションテンプレートです。セットアップ時に[Devise](https://github.com/heartcombo/devise)と[Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper)を使ったOAuth 2.1保護を追加するかどうかを尋ねるため、1つのテンプレートでプレーンなMCPと完全認証済みのセットアップの両方に対応します。\n\n## クイックスタート\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IPbCLqhOlq7RfGB+CKRvjkd2dpJjzU9t0hF80s1vumY=",
+        "originContent": "# MCP on Rails (with optional OAuth)",
+        "translatedContent": "# MCP on Rails（オプションでOAuth対応）"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "u68BBPCJ+2voQ2xTInrBHRlknHHlYSLvshKejs7SMTo=",
+        "originContent": "A Rails application template that integrates the [Model Context Protocol (MCP)](https://github.com/anthropics/model-context-protocol) with Ruby on Rails. During setup, the template asks whether to add OAuth 2.1 protection using [Devise](https://github.com/heartcombo/devise) and [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) — so one template supports both plain MCP and fully authenticated setups.",
+        "translatedContent": "Ruby on Railsと[Model Context Protocol (MCP)](https://github.com/anthropics/model-context-protocol)を統合するRailsアプリケーションテンプレートです。セットアップ時に[Devise](https://github.com/heartcombo/devise)と[Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper)を使ったOAuth 2.1保護を追加するかどうかを尋ねるため、1つのテンプレートでプレーンなMCPと完全認証済みのセットアップの両方に対応します。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/pstrzalk/mcp-on-rails.git\nrails new myapp -m mcp-on-rails/mcp\ncd myapp\nrails db:migrate\nrails server\n```",
+    "ContentSha": "uCi1j7UG1fQWmoIF3PF1PIFWe6pDEt5MY1tYZqYE3wI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/pstrzalk/mcp-on-rails.git\nrails new myapp -m mcp-on-rails/mcp\ncd myapp\nrails db:migrate\nrails server\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6OwUc9bjBqXIdpYkjt89fSpJoJWOEN09oTkKrZQd2rM=",
+        "originContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git",
+        "translatedContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "maTl3nihaZ2vnjKeDbGxYofg0vcdIgWY5NyCRxPn9dQ=",
+        "originContent": "rails new myapp -m mcp-on-rails/mcp",
+        "translatedContent": "rails new myapp -m mcp-on-rails/mcp"
+      },
+      {
+        "row": 4,
+        "rowsha": "QcO6NfSxsYK8az1uqNTFe9k8OnCfSt5+UiIl5MW/JJU=",
+        "originContent": "cd myapp",
+        "translatedContent": "cd myapp"
+      },
+      {
+        "row": 5,
+        "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+        "originContent": "rails db:migrate",
+        "translatedContent": "rails db:migrate"
+      },
+      {
+        "row": 6,
+        "rowsha": "5kOEs45ewyYCySY24zGXaM+LmqtVzlO57iS/OGPy1Is=",
+        "originContent": "rails server",
+        "translatedContent": "rails server"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThe template will prompt:\n",
+    "ContentSha": "RgYiBSoBqLtf435Z7kJJqIX6ZxVC+FtDMJUFj221fbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "テンプレートは次のように促します：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "テンプレートは次のように促します："
+      },
+      {
+        "row": 2,
+        "rowsha": "rb8M9cWihuRA9KeBIM9M7cquwnHOQyjEG6w9qPXhw2o=",
+        "originContent": "The template will prompt:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nAdd Devise + Doorkeeper OAuth 2.1 authentication? (y/n)\n```",
+    "ContentSha": "oZwM4VsTfAaHkzj0p4GPa/+ioWRmycPZqBrcPfEE59g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nAdd Devise + Doorkeeper OAuth 2.1 authentication? (y/n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "VSraGHnm3ZDFQtkCtr4UjYN58BlPZbjD3UKy8Xmu1To=",
+        "originContent": "Add Devise + Doorkeeper OAuth 2.1 authentication? (y/n)",
+        "translatedContent": "Add Devise + Doorkeeper OAuth 2.1 authentication? (y/n)"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nAnswer **n** for a plain MCP server or **y** for full OAuth protection.\n\n### Adding the MCP template to an existing Rails application\n\nYou may just as easily apply this template to an existing Rails app.\n",
+    "ContentSha": "Xa5gPUgPKnPcwDISO1V6lUOvIosloPwbvQqsNnvmMHY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n通常のMCPサーバーには **n** を、完全なOAuth保護には **y** を入力してください。\n\n### 既存のRailsアプリケーションへのMCPテンプレートの追加\n\nこのテンプレートは既存のRailsアプリにも簡単に適用できます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vTdQSem0/YNwiK6xmsCvA8ThReXLH1eeabF8olTD6bQ=",
+        "originContent": "Answer **n** for a plain MCP server or **y** for full OAuth protection.",
+        "translatedContent": "通常のMCPサーバーには **n** を、完全なOAuth保護には **y** を入力してください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "INDMI6+V3Z/KZPwYR6IpZWdWeT/9vsr7NS18mHYI5do=",
+        "originContent": "### Adding the MCP template to an existing Rails application",
+        "translatedContent": "### 既存のRailsアプリケーションへのMCPテンプレートの追加"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "QQoXF8ubb1v+86a5iBIYZ1Si87nLPRX3lmKpLwV9wmU=",
+        "originContent": "You may just as easily apply this template to an existing Rails app.",
+        "translatedContent": "このテンプレートは既存のRailsアプリにも簡単に適用できます。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ngit clone https://github.com/pstrzalk/mcp-on-rails.git\ncd your-project/\nrails app:template LOCATION=../mcp-on-rails/mcp\n```",
+    "ContentSha": "VBCWpcrMkYAyrKPz1HVD+p7BwRWjxj5mOMzSdwNeK98=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/pstrzalk/mcp-on-rails.git\ncd your-project/\nrails app:template LOCATION=../mcp-on-rails/mcp\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6OwUc9bjBqXIdpYkjt89fSpJoJWOEN09oTkKrZQd2rM=",
+        "originContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git",
+        "translatedContent": "git clone https://github.com/pstrzalk/mcp-on-rails.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "x0WTqEgTIRvSZedCjgiLHfXzU4qZoZnw4Ffu9XPjdv8=",
+        "originContent": "cd your-project/",
+        "translatedContent": "cd your-project/"
+      },
+      {
+        "row": 4,
+        "rowsha": "PfHh02SQIyPQGJ9HXn6O+maL1RZzrjgzgcxVyciuWJo=",
+        "originContent": "rails app:template LOCATION=../mcp-on-rails/mcp",
+        "translatedContent": "rails app:template LOCATION=../mcp-on-rails/mcp"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n---\n\n## Plain MCP (answer \"n\")\n\nCreates a Rails app with an open MCP server — no authentication required.\n\n### What you get\n\n- **`mcp` gem** added to Gemfile\n- **`McpController`** at `/mcp` — inherits `ActionController::API`, handles MCP protocol\n- **MCP routes** — `POST /mcp`, `GET /mcp`\n- **Scaffold hook** — `rails generate scaffold` automatically creates MCP tools\n- **Custom tool generator** — `rails generate mcp_tool ToolName field:type`\n- **Custom prompt generator** — `rails generate mcp_prompt PromptName arg arg:required`\n- **`to_mcp_response`** on ApplicationRecord for consistent text formatting\n- **`rake mcp:tools`** and **`rake mcp:prompts`** to list all registered tools and prompts (use `mcp:tools:verbose` / `mcp:prompts:verbose` for full details)\n\n### Usage\n",
+    "ContentSha": "MaRc7z8lg5HNMP3DBNYCiuwGxeO8PbD6l+kg0FpLMas=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## プレーンMCP（「n」と回答）\n\n認証不要のオープンMCPサーバー付きのRailsアプリを作成します。\n\n### 得られるもの\n\n- Gemfileに追加される**`mcp` gem**\n- `/mcp`にある**`McpController`** — `ActionController::API`を継承し、MCPプロトコルを処理\n- **MCPルート** — `POST /mcp`、`GET /mcp`\n- **スキャフォールドフック** — `rails generate scaffold`で自動的にMCPツールを作成\n- **カスタムツールジェネレーター** — `rails generate mcp_tool ToolName field:type`\n- **カスタムプロンプトジェネレーター** — `rails generate mcp_prompt PromptName arg arg:required`\n- ApplicationRecordにある一貫したテキストフォーマット用の**`to_mcp_response`**\n- 登録されたすべてのツールとプロンプトを一覧表示する**`rake mcp:tools`**と**`rake mcp:prompts`**（詳細表示には`mcp:tools:verbose` / `mcp:prompts:verbose`を使用）\n\n### 使い方\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## プレーンMCP（「n」と回答）"
+      },
+      {
+        "row": 4,
+        "rowsha": "kmh+7Ls/yVJrw1M1U6Q5kjqIL2aElLIDok8eWcsPNoY=",
+        "originContent": "## Plain MCP (answer \"n\")",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "認証不要のオープンMCPサーバー付きのRailsアプリを作成します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "opxTmrP4/LUOjDklqdVznwqKuGe8hUa39Pv65Ypc3Po=",
+        "originContent": "Creates a Rails app with an open MCP server — no authentication required.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 得られるもの"
+      },
+      {
+        "row": 8,
+        "rowsha": "D/uJ87rUqWn7zaaTGt7afpLsRJiQ94wgAff+Tj6uTOk=",
+        "originContent": "### What you get",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Gemfileに追加される**`mcp` gem**"
+      },
+      {
+        "row": 10,
+        "rowsha": "9+vSFE/h2L+Oj8hW8wcxq8LE/hqHuY7zNfsauQUXb2Q=",
+        "originContent": "- **`mcp` gem** added to Gemfile",
+        "translatedContent": "- `/mcp`にある**`McpController`** — `ActionController::API`を継承し、MCPプロトコルを処理"
+      },
+      {
+        "row": 11,
+        "rowsha": "HLKAyqb0NYztDg8VkNUfkIRkRjYB6TTPsKHo22y3bpA=",
+        "originContent": "- **`McpController`** at `/mcp` — inherits `ActionController::API`, handles MCP protocol",
+        "translatedContent": "- **MCPルート** — `POST /mcp`、`GET /mcp`"
+      },
+      {
+        "row": 12,
+        "rowsha": "8QtSG7vuwbSQTSVdOZDC3AyixEILuIVAk+or4Iy6I+g=",
+        "originContent": "- **MCP routes** — `POST /mcp`, `GET /mcp`",
+        "translatedContent": "- **スキャフォールドフック** — `rails generate scaffold`で自動的にMCPツールを作成"
+      },
+      {
+        "row": 13,
+        "rowsha": "YiRMV0WMHxHGN6hg+s0JMHCjIx5ZBVYJAlAgviBRReM=",
+        "originContent": "- **Scaffold hook** — `rails generate scaffold` automatically creates MCP tools",
+        "translatedContent": "- **カスタムツールジェネレーター** — `rails generate mcp_tool ToolName field:type`"
+      },
+      {
+        "row": 14,
+        "rowsha": "e63PvykoTyIuD+wBo4zFhDbgYiyzbBrXtsZpyaN18ho=",
+        "originContent": "- **Custom tool generator** — `rails generate mcp_tool ToolName field:type`",
+        "translatedContent": "- **カスタムプロンプトジェネレーター** — `rails generate mcp_prompt PromptName arg arg:required`"
+      },
+      {
+        "row": 15,
+        "rowsha": "v1hutRcAXmriVepT6VB/q4zAiC/n0QQRfuGlSA7Mvws=",
+        "originContent": "- **Custom prompt generator** — `rails generate mcp_prompt PromptName arg arg:required`",
+        "translatedContent": "- ApplicationRecordにある一貫したテキストフォーマット用の**`to_mcp_response`**"
+      },
+      {
+        "row": 16,
+        "rowsha": "l7n0X1uw3/qlbL3jpwmUhdEUw8ZCjT1C+3HB8Ap0cqw=",
+        "originContent": "- **`to_mcp_response`** on ApplicationRecord for consistent text formatting",
+        "translatedContent": "- 登録されたすべてのツールとプロンプトを一覧表示する**`rake mcp:tools`**と**`rake mcp:prompts`**（詳細表示には`mcp:tools:verbose` / `mcp:prompts:verbose`を使用）"
+      },
+      {
+        "row": 17,
+        "rowsha": "avcjTsu+Cf3uU1pRwMZSql+GIyPIWI/iWB0GvWvrVqI=",
+        "originContent": "- **`rake mcp:tools`** and **`rake mcp:prompts`** to list all registered tools and prompts (use `mcp:tools:verbose` / `mcp:prompts:verbose` for full details)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 使い方"
+      },
+      {
+        "row": 19,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nrails new myapp -m mcp-on-rails/mcp   # answer n\ncd myapp && rails db:migrate\n\nrails generate scaffold Post title:string body:text\nrails db:migrate\nrails server\n```",
+    "ContentSha": "zoR3kYgayE9W5SVGDOMQdZMZAVbzbhbBuq/J+pHJGyc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrails new myapp -m mcp-on-rails/mcp   # answer n\ncd myapp && rails db:migrate\n\nrails generate scaffold Post title:string body:text\nrails db:migrate\nrails server\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "V0OGWjKBShGPf6Tkn9unpOMx4lQbZygI3gEHd/Zj+30=",
+        "originContent": "rails new myapp -m mcp-on-rails/mcp   # answer n",
+        "translatedContent": "rails new myapp -m mcp-on-rails/mcp   # answer n"
+      },
+      {
+        "row": 3,
+        "rowsha": "4E6Jn+Q6IQdtEJHwR9BUQ6nhMKLoEBZhyshOl2vMg30=",
+        "originContent": "cd myapp && rails db:migrate",
+        "translatedContent": "cd myapp && rails db:migrate"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VdSDYzMyI3m6fTt7CJTVNax5M3kav8hyc9sGXg3lJwE=",
+        "originContent": "rails generate scaffold Post title:string body:text",
+        "translatedContent": "rails generate scaffold Post title:string body:text"
+      },
+      {
+        "row": 6,
+        "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+        "originContent": "rails db:migrate",
+        "translatedContent": "rails db:migrate"
+      },
+      {
+        "row": 7,
+        "rowsha": "5kOEs45ewyYCySY24zGXaM+LmqtVzlO57iS/OGPy1Is=",
+        "originContent": "rails server",
+        "translatedContent": "rails server"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nTest it:\n",
+    "ContentSha": "7XdcyptGk+KGrFLu1wYxr28Lve182zKm8Ax2x05vpBI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "テストしてください：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "テストしてください："
+      },
+      {
+        "row": 2,
+        "rowsha": "DaI4BoxBWQFBtEH6Kfjye93q1pPDQ23k9FTgARcjBzc=",
+        "originContent": "Test it:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# MCP initialize\ncurl -X POST http://localhost:3000/mcp \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"1.0\"}}}'\n\n# List tools\ncurl -X POST http://localhost:3000/mcp \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\"}'\n```",
+    "ContentSha": "Ih1odbslric097UBBjb+LGn8K3C5eVQOUgN+JhZBQUU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# MCP initialize\ncurl -X POST http://localhost:3000/mcp \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"1.0\"}}}'\n\n# List tools\ncurl -X POST http://localhost:3000/mcp \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\"}'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "sANZ6zkq2KmjcnLFfdZCoNdxCuadh4BP3DZdS1Nu+gE=",
+        "originContent": "# MCP initialize",
+        "translatedContent": "# MCP initialize"
+      },
+      {
+        "row": 3,
+        "rowsha": "m/BqTCCoGBGESUteuc4S0+rBS2DyUuH8XtVEq0m+yTk=",
+        "originContent": "curl -X POST http://localhost:3000/mcp \\",
+        "translatedContent": "curl -X POST http://localhost:3000/mcp \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "ChVBy5GnEsy7nz0QPZYhal8SLpe4K5qHOz6fy+ecoZs=",
+        "originContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"1.0\"}}}'",
+        "translatedContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"1.0\"}}}'"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "UNe4Cph8CrpxHeFL4eyHt61yfW8FUJWSam7RL/rkWOA=",
+        "originContent": "# List tools",
+        "translatedContent": "# List tools"
+      },
+      {
+        "row": 8,
+        "rowsha": "m/BqTCCoGBGESUteuc4S0+rBS2DyUuH8XtVEq0m+yTk=",
+        "originContent": "curl -X POST http://localhost:3000/mcp \\",
+        "translatedContent": "curl -X POST http://localhost:3000/mcp \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "G1vPTV+gqB+MfyD2j4R9bCu9Zg89TJoYkPVNifybQiw=",
+        "originContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\"}'",
+        "translatedContent": "  -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\"}'"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Project structure (plain mode)\n",
+    "ContentSha": "WqdL6WwSZrEH2yvh8N1dMsu+bpFo31xrnz4/ILbRxK0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### プロジェクト構成（プレーンモード）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fjGVL0vCbgGWb8HdsOE26NjmUhfTOPTYMeJsV+pZZO8=",
+        "originContent": "### Project structure (plain mode)",
+        "translatedContent": "### プロジェクト構成（プレーンモード）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\napp/\n├── controllers/\n│   └── mcp_controller.rb              # Open MCP endpoint (no auth)\n├── models/\n│   └── application_record.rb          # Extended with to_mcp_response\n├── prompts/                           # MCP prompts (created via generator)\n└── tools/                             # MCP tools (auto-generated per scaffold)\n\nconfig/\n├── initializers/\n│   └── mcp.rb                         # MCP tool and prompt autoloading\n└── routes.rb                          # MCP routes\n\nlib/\n├── generators/                        # MCP tool and prompt generators\n└── tasks/\n    └── mcp.rake                       # rake mcp:tools, rake mcp:prompts (and verbose variants)\n```",
+    "ContentSha": "R2vdkZyzg360rtxrC4+BTClxHoqUyWv6I3pzOU6W+nY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\napp/\n├── controllers/\n│   └── mcp_controller.rb              # Open MCP endpoint (no auth)\n├── models/\n│   └── application_record.rb          # Extended with to_mcp_response\n├── prompts/                           # MCP prompts (created via generator)\n└── tools/                             # MCP tools (auto-generated per scaffold)\n\nconfig/\n├── initializers/\n│   └── mcp.rb                         # MCP tool and prompt autoloading\n└── routes.rb                          # MCP routes\n\nlib/\n├── generators/                        # MCP tool and prompt generators\n└── tasks/\n    └── mcp.rake                       # rake mcp:tools, rake mcp:prompts (and verbose variants)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "sY2l2NhvX5d/87Akx3WsW2n9SInniE4m17KO2DwOpBY=",
+        "originContent": "app/",
+        "translatedContent": "app/"
+      },
+      {
+        "row": 3,
+        "rowsha": "mFCVinhwcfqTlL/Y4INcgoLct0RPVsz3TPod1edWv4s=",
+        "originContent": "├── controllers/",
+        "translatedContent": "├── controllers/"
+      },
+      {
+        "row": 4,
+        "rowsha": "qLsjVVozfJovhI7ZgernHD9TC4MmlxMQQgPNcc5BQS4=",
+        "originContent": "│   └── mcp_controller.rb              # Open MCP endpoint (no auth)",
+        "translatedContent": "│   └── mcp_controller.rb              # Open MCP endpoint (no auth)"
+      },
+      {
+        "row": 5,
+        "rowsha": "7aPkii1RadnahFqmBTT7FXnFQca2zOPBGQe3YITomAc=",
+        "originContent": "├── models/",
+        "translatedContent": "├── models/"
+      },
+      {
+        "row": 6,
+        "rowsha": "tPKo0y8/8PibVDel1cDa8dkXC6MFKRdD29zNIAMeB9Q=",
+        "originContent": "│   └── application_record.rb          # Extended with to_mcp_response",
+        "translatedContent": "│   └── application_record.rb          # Extended with to_mcp_response"
+      },
+      {
+        "row": 7,
+        "rowsha": "OGavgPEQs+YYPLP35zyFcdd+zqPI7eN8mQJPASyPGd4=",
+        "originContent": "├── prompts/                           # MCP prompts (created via generator)",
+        "translatedContent": "├── prompts/                           # MCP prompts (created via generator)"
+      },
+      {
+        "row": 8,
+        "rowsha": "i9wgsbjZclCz0jEVp3s46fh7WaCsrfFz+A9hzpRdEH8=",
+        "originContent": "└── tools/                             # MCP tools (auto-generated per scaffold)",
+        "translatedContent": "└── tools/                             # MCP tools (auto-generated per scaffold)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "F3QDEDyvHYYVeMNKATb3q9ch1vSUIGRrMuFUWrDHkwU=",
+        "originContent": "config/",
+        "translatedContent": "config/"
+      },
+      {
+        "row": 11,
+        "rowsha": "F3rHFMeQc7sfCKIqa8xY+gTYBwThDyK3Yy0OcuX1264=",
+        "originContent": "├── initializers/",
+        "translatedContent": "├── initializers/"
+      },
+      {
+        "row": 12,
+        "rowsha": "H8hy4EOyonpP+DTGZAfNchY6BKXrk/9/w0aWa7VOuzU=",
+        "originContent": "│   └── mcp.rb                         # MCP tool and prompt autoloading",
+        "translatedContent": "│   └── mcp.rb                         # MCP tool and prompt autoloading"
+      },
+      {
+        "row": 13,
+        "rowsha": "2EET4aTpVAauglF8swY4uqSj8bpQtsK6CnnLwkT0ZY8=",
+        "originContent": "└── routes.rb                          # MCP routes",
+        "translatedContent": "└── routes.rb                          # MCP routes"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "j0/icp2IGthgyT96+ZqvEucrp6uo0MOWCztCTd8mn0k=",
+        "originContent": "lib/",
+        "translatedContent": "lib/"
+      },
+      {
+        "row": 16,
+        "rowsha": "ooy9Kjd6zoMqXGU3W6+EpkbHRvsK/OYHsEQMvh4rcZw=",
+        "originContent": "├── generators/                        # MCP tool and prompt generators",
+        "translatedContent": "├── generators/                        # MCP tool and prompt generators"
+      },
+      {
+        "row": 17,
+        "rowsha": "1WMmFChurZCIH0FO5lS2V0QDsuRICMJ6x82WPzFBVug=",
+        "originContent": "└── tasks/",
+        "translatedContent": "└── tasks/"
+      },
+      {
+        "row": 18,
+        "rowsha": "tjEHKt4wsULDqJyG/haKNvZelNEpm6po3DW50T+CT20=",
+        "originContent": "    └── mcp.rake                       # rake mcp:tools, rake mcp:prompts (and verbose variants)",
+        "translatedContent": "    └── mcp.rake                       # rake mcp:tools, rake mcp:prompts (and verbose variants)"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Connecting AI assistants (plain mode)\n",
+    "ContentSha": "ultc1EsrCMxByP0i2eSnV/0G14hC6H6ceTLEbNdYcWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### AIアシスタントの接続（プレーンモード）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "87ib84uwN5Djl40LcZJ/lWluQ4KLDBTrLv/UjnDRM5o=",
+        "originContent": "### Connecting AI assistants (plain mode)",
+        "translatedContent": "### AIアシスタントの接続（プレーンモード）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```json\n{\n  \"name\": \"my-rails-app\",\n  \"type\": \"StreamableHttp\",\n  \"url\": \"http://localhost:3000/mcp\"\n}\n```",
+    "ContentSha": "0Z+nM2b2AEtwJMSVQmXIXaWRo/RHqJz+yUiYEu8JHHo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"name\": \"my-rails-app\",\n  \"type\": \"StreamableHttp\",\n  \"url\": \"http://localhost:3000/mcp\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "imvxvbywJs3PdmCngBhD3G/oMkXXAdJlpPCsW7UppZU=",
+        "originContent": "  \"name\": \"my-rails-app\",",
+        "translatedContent": "  \"name\": \"my-rails-app\","
+      },
+      {
+        "row": 4,
+        "rowsha": "/kzHoBlU/Ka26XKBRCbCzLcQEHMQW3vE2kh/kkMf0Eg=",
+        "originContent": "  \"type\": \"StreamableHttp\",",
+        "translatedContent": "  \"type\": \"StreamableHttp\","
+      },
+      {
+        "row": 5,
+        "rowsha": "INRnG+BDOpNsAypBp5Ne/aIDTYth+UoBJ6WuG/MyXxQ=",
+        "originContent": "  \"url\": \"http://localhost:3000/mcp\"",
+        "translatedContent": "  \"url\": \"http://localhost:3000/mcp\""
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nNo authentication needed — the `/mcp` endpoint is open.\n\n---\n\n## OAuth MCP (answer \"y\")\n\nCreates a Rails app with an OAuth 2.1-protected MCP server, including PKCE, dynamic client registration, and resource indicator support — everything needed for MCP's OAuth authorization flow.\n\n### What you get\n\nEverything from plain mode, plus:\n\n- **`devise` + `doorkeeper` gems** added to Gemfile\n- **Devise** user authentication (sign-up, sign-in, password reset)\n- **Doorkeeper** OAuth 2.1 provider with PKCE enforcement (S256)\n- **`McpController`** protected by `doorkeeper_authorize!` with token audience validation (RFC 8707)\n- **Dynamic client registration** at `POST /oauth/register` (RFC 7591)\n- **Protected resource metadata** at `GET /.well-known/oauth-protected-resource` (RFC 9728)\n- **Authorization server metadata** at `GET /.well-known/oauth-authorization-server` (RFC 8414)\n- **Resource indicators** — tokens are scoped to the `/mcp` resource (RFC 8707)\n\n### Usage\n",
+    "ContentSha": "e0vGUkr8l5ubLi5BtJv2Egc7jrLUX3g4XDThYtD4EQ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "認証不要 — `/mcp` エンドポイントはオープンです。\n\n---\n\n## OAuth MCP（「y」と答える）\n\nPKCE、動的クライアント登録、リソースインジケーター対応を含むOAuth 2.1保護されたMCPサーバーを備えたRailsアプリを作成します — MCPのOAuth認可フローに必要なすべてを含みます。\n\n### 取得できるもの\n\nプレーンモードの内容に加え、以下が含まれます：\n\n- Gemfileに**`devise` + `doorkeeper` gems**を追加\n- **Devise**によるユーザー認証（サインアップ、サインイン、パスワードリセット）\n- **Doorkeeper**によるPKCE強制（S256）のOAuth 2.1プロバイダー\n- `doorkeeper_authorize!`で保護され、トークンのオーディエンス検証（RFC 8707）を行う**`McpController`**\n- `POST /oauth/register`での**動的クライアント登録**（RFC 7591）\n- `GET /.well-known/oauth-protected-resource`での**保護リソースメタデータ**（RFC 9728）\n- `GET /.well-known/oauth-authorization-server`での**認可サーバーメタデータ**（RFC 8414）\n- **リソースインジケーター** — トークンは`/mcp`リソースにスコープされる（RFC 8707）\n\n### 使い方\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "認証不要 — `/mcp` エンドポイントはオープンです。"
+      },
+      {
+        "row": 2,
+        "rowsha": "0cH0+7U1dfE0dVdzuDGCPBnRvGVmlRgLIpyosMNCtAQ=",
+        "originContent": "No authentication needed — the `/mcp` endpoint is open.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## OAuth MCP（「y」と答える）"
+      },
+      {
+        "row": 6,
+        "rowsha": "B/TY0nmjmGky8QBJsJE5YyaheWnCvlZN+Zr0+S4BtlA=",
+        "originContent": "## OAuth MCP (answer \"y\")",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PKCE、動的クライアント登録、リソースインジケーター対応を含むOAuth 2.1保護されたMCPサーバーを備えたRailsアプリを作成します — MCPのOAuth認可フローに必要なすべてを含みます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "juhtCHKXKNvbpfPCP9nB3B5f2z6Y9sseroqKWrXuFMQ=",
+        "originContent": "Creates a Rails app with an OAuth 2.1-protected MCP server, including PKCE, dynamic client registration, and resource indicator support — everything needed for MCP's OAuth authorization flow.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 取得できるもの"
+      },
+      {
+        "row": 10,
+        "rowsha": "D/uJ87rUqWn7zaaTGt7afpLsRJiQ94wgAff+Tj6uTOk=",
+        "originContent": "### What you get",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プレーンモードの内容に加え、以下が含まれます："
+      },
+      {
+        "row": 12,
+        "rowsha": "b1eQW3Q8u/fkXwG0zQk8mihU1STMRF/RuJhLe6ldBtw=",
+        "originContent": "Everything from plain mode, plus:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Gemfileに**`devise` + `doorkeeper` gems**を追加"
+      },
+      {
+        "row": 14,
+        "rowsha": "upJqotENxJf9OGmmb/elM+eIcHYtr6bE5g/HNXjBh74=",
+        "originContent": "- **`devise` + `doorkeeper` gems** added to Gemfile",
+        "translatedContent": "- **Devise**によるユーザー認証（サインアップ、サインイン、パスワードリセット）"
+      },
+      {
+        "row": 15,
+        "rowsha": "gDCBGOtUrnkaewHy6nX6WvSzXCc0Mq8bSuIMTyxPNH0=",
+        "originContent": "- **Devise** user authentication (sign-up, sign-in, password reset)",
+        "translatedContent": "- **Doorkeeper**によるPKCE強制（S256）のOAuth 2.1プロバイダー"
+      },
+      {
+        "row": 16,
+        "rowsha": "jnKXABW7IDhfzV+LU7NLYsLMnHYrpfg1qU3TtKXzv8E=",
+        "originContent": "- **Doorkeeper** OAuth 2.1 provider with PKCE enforcement (S256)",
+        "translatedContent": "- `doorkeeper_authorize!`で保護され、トークンのオーディエンス検証（RFC 8707）を行う**`McpController`**"
+      },
+      {
+        "row": 17,
+        "rowsha": "szg0WKPw2y8q/scTEAiTWrzVREUdkHUr6Fu80GLmXcc=",
+        "originContent": "- **`McpController`** protected by `doorkeeper_authorize!` with token audience validation (RFC 8707)",
+        "translatedContent": "- `POST /oauth/register`での**動的クライアント登録**（RFC 7591）"
+      },
+      {
+        "row": 18,
+        "rowsha": "qY+ZOIuf6NcJRAgrYMvOegggbcQW1YA0i7026OkAvt4=",
+        "originContent": "- **Dynamic client registration** at `POST /oauth/register` (RFC 7591)",
+        "translatedContent": "- `GET /.well-known/oauth-protected-resource`での**保護リソースメタデータ**（RFC 9728）"
+      },
+      {
+        "row": 19,
+        "rowsha": "5myMIAdNcd6pfF5eWFDKcpHeoLf6TX8s6IafnpIz2VU=",
+        "originContent": "- **Protected resource metadata** at `GET /.well-known/oauth-protected-resource` (RFC 9728)",
+        "translatedContent": "- `GET /.well-known/oauth-authorization-server`での**認可サーバーメタデータ**（RFC 8414）"
+      },
+      {
+        "row": 20,
+        "rowsha": "uNZ/sHmo7Zs5AIV0AcPyNKBMYHl4Ojsinxwy1sRHcLw=",
+        "originContent": "- **Authorization server metadata** at `GET /.well-known/oauth-authorization-server` (RFC 8414)",
+        "translatedContent": "- **リソースインジケーター** — トークンは`/mcp`リソースにスコープされる（RFC 8707）"
+      },
+      {
+        "row": 21,
+        "rowsha": "4ucYMi1UPWNKODSK0fOabS9lQ8gJlePjUZG35lqV1+A=",
+        "originContent": "- **Resource indicators** — tokens are scoped to the `/mcp` resource (RFC 8707)",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 使い方"
+      },
+      {
+        "row": 23,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\nrails new myapp -m mcp-on-rails/mcp   # answer y\ncd myapp && rails db:migrate\n\nrails generate scaffold Post title:string body:text\nrails db:migrate\nrails server\n```",
+    "ContentSha": "vdHVW9h9LysN7gJ/YP7LyKCLh/YCsDVuke3d5mU/9TU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrails new myapp -m mcp-on-rails/mcp   # answer y\ncd myapp && rails db:migrate\n\nrails generate scaffold Post title:string body:text\nrails db:migrate\nrails server\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "HoEySFC8u2gmRlUtg29cXllZgpD4vCDp/QRMqNFcI3s=",
+        "originContent": "rails new myapp -m mcp-on-rails/mcp   # answer y",
+        "translatedContent": "rails new myapp -m mcp-on-rails/mcp   # answer y"
+      },
+      {
+        "row": 3,
+        "rowsha": "4E6Jn+Q6IQdtEJHwR9BUQ6nhMKLoEBZhyshOl2vMg30=",
+        "originContent": "cd myapp && rails db:migrate",
+        "translatedContent": "cd myapp && rails db:migrate"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VdSDYzMyI3m6fTt7CJTVNax5M3kav8hyc9sGXg3lJwE=",
+        "originContent": "rails generate scaffold Post title:string body:text",
+        "translatedContent": "rails generate scaffold Post title:string body:text"
+      },
+      {
+        "row": 6,
+        "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+        "originContent": "rails db:migrate",
+        "translatedContent": "rails db:migrate"
+      },
+      {
+        "row": 7,
+        "rowsha": "5kOEs45ewyYCySY24zGXaM+LmqtVzlO57iS/OGPy1Is=",
+        "originContent": "rails server",
+        "translatedContent": "rails server"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nThe `/mcp` endpoint now requires a Bearer token — unauthenticated requests return 401.\n\n### OAuth flow\n\nThe full authorization flow follows MCP's OAuth specification:\n\n1. **Discovery** — Client fetches `GET /.well-known/oauth-protected-resource` to find the authorization server\n2. **Server metadata** — Client fetches `GET /.well-known/oauth-authorization-server` for endpoints and capabilities\n3. **Client registration** — `POST /oauth/register` with client metadata (RFC 7591)\n4. **Authorization** — `GET /oauth/authorize` with PKCE `code_challenge` (S256) and `resource` parameter\n5. **User authentication** — Devise handles sign-in/sign-up\n6. **Token exchange** — `POST /oauth/token` with `code_verifier` and `resource` parameter\n7. **MCP requests** — `POST /mcp` with `Authorization: Bearer <token>`\n\n### Supported RFCs\n\n| RFC | Description | Endpoint |\n|-----|-------------|----------|\n| OAuth 2.1 + PKCE | Authorization with Proof Key for Code Exchange (S256) | `/oauth/authorize`, `/oauth/token` |\n| RFC 7591 | Dynamic Client Registration | `POST /oauth/register` |\n| RFC 8414 | Authorization Server Metadata | `GET /.well-known/oauth-authorization-server` |\n| RFC 8707 | Resource Indicators | `resource` parameter in auth + token requests |\n| RFC 9728 | Protected Resource Metadata | `GET /.well-known/oauth-protected-resource` |\n\n### Project structure (OAuth mode)\n",
+    "ContentSha": "PP9katS0qb0JFARGi64jjDT61Oi/DrS63ZHWkdF/d7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`/mcp` エンドポイントは現在 Bearer トークンを必要とします — 認証されていないリクエストは 401 を返します。\n\n### OAuth フロー\n\n完全な認可フローは MCP の OAuth 仕様に従います:\n\n1. **ディスカバリー** — クライアントは認可サーバを見つけるために `GET /.well-known/oauth-protected-resource` を取得します\n2. **サーバーメタデータ** — クライアントはエンドポイントと機能のために `GET /.well-known/oauth-authorization-server` を取得します\n3. **クライアント登録** — クライアントメタデータと共に `POST /oauth/register` を実行します (RFC 7591)\n4. **認可** — PKCE の `code_challenge` (S256) と `resource` パラメータを付けて `GET /oauth/authorize`\n5. **ユーザー認証** — Devise がサインイン/サインアップを処理します\n6. **トークン交換** — `code_verifier` と `resource` パラメータを付けて `POST /oauth/token`\n7. **MCP リクエスト** — `Authorization: Bearer <token>` を付けて `POST /mcp`\n\n### サポートされる RFC\n\n| RFC | 説明 | エンドポイント |\n|-----|-------------|----------|\n| OAuth 2.1 + PKCE | 認可コード交換のための証明キー付き認可 (S256) | `/oauth/authorize`, `/oauth/token` |\n| RFC 7591 | 動的クライアント登録 | `POST /oauth/register` |\n| RFC 8414 | 認可サーバメタデータ | `GET /.well-known/oauth-authorization-server` |\n| RFC 8707 | リソースインジケータ | 認可およびトークンリクエストの `resource` パラメータ |\n| RFC 9728 | 保護リソースメタデータ | `GET /.well-known/oauth-protected-resource` |\n\n### プロジェクト構成 (OAuth モード)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`/mcp` エンドポイントは現在 Bearer トークンを必要とします — 認証されていないリクエストは 401 を返します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "dKzGftFW5uTDQLmuyHbH02IZa45+DG4ynusPMo0Ll+I=",
+        "originContent": "The `/mcp` endpoint now requires a Bearer token — unauthenticated requests return 401.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### OAuth フロー"
+      },
+      {
+        "row": 4,
+        "rowsha": "hhntOC/PtFpWl+BNCIXrcmQ9s8p7xUIiJckXTW3qnxY=",
+        "originContent": "### OAuth flow",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "完全な認可フローは MCP の OAuth 仕様に従います:"
+      },
+      {
+        "row": 6,
+        "rowsha": "bFgwZBVASpo31o2gZ0eVCFgVH7BWsfS1NB2HBquLgkg=",
+        "originContent": "The full authorization flow follows MCP's OAuth specification:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **ディスカバリー** — クライアントは認可サーバを見つけるために `GET /.well-known/oauth-protected-resource` を取得します"
+      },
+      {
+        "row": 8,
+        "rowsha": "FUStfi1lIyUKlJ5/REAKFtPCPtEu2uHeStGcwUnBzN0=",
+        "originContent": "1. **Discovery** — Client fetches `GET /.well-known/oauth-protected-resource` to find the authorization server",
+        "translatedContent": "2. **サーバーメタデータ** — クライアントはエンドポイントと機能のために `GET /.well-known/oauth-authorization-server` を取得します"
+      },
+      {
+        "row": 9,
+        "rowsha": "XSfMKfuK102wohcugcymFy0Y+2/IRkYck7jamp9e0H0=",
+        "originContent": "2. **Server metadata** — Client fetches `GET /.well-known/oauth-authorization-server` for endpoints and capabilities",
+        "translatedContent": "3. **クライアント登録** — クライアントメタデータと共に `POST /oauth/register` を実行します (RFC 7591)"
+      },
+      {
+        "row": 10,
+        "rowsha": "wXRF+3v9h8hKMrCIGGNpPEUob9eGsk6rk9IgtzSBtsE=",
+        "originContent": "3. **Client registration** — `POST /oauth/register` with client metadata (RFC 7591)",
+        "translatedContent": "4. **認可** — PKCE の `code_challenge` (S256) と `resource` パラメータを付けて `GET /oauth/authorize`"
+      },
+      {
+        "row": 11,
+        "rowsha": "Bqu56kwL6gr5abW24a1S1CUXKt+qWg6x07wnhz9h1mg=",
+        "originContent": "4. **Authorization** — `GET /oauth/authorize` with PKCE `code_challenge` (S256) and `resource` parameter",
+        "translatedContent": "5. **ユーザー認証** — Devise がサインイン/サインアップを処理します"
+      },
+      {
+        "row": 12,
+        "rowsha": "WgCRM+1sa3WN1u6CJOb5DxnM47RXWqx+PEBJHhmI+aE=",
+        "originContent": "5. **User authentication** — Devise handles sign-in/sign-up",
+        "translatedContent": "6. **トークン交換** — `code_verifier` と `resource` パラメータを付けて `POST /oauth/token`"
+      },
+      {
+        "row": 13,
+        "rowsha": "Kq6J2iDYkhUIakhbnpCAwERkFhh8aoAME0meQW5O/LE=",
+        "originContent": "6. **Token exchange** — `POST /oauth/token` with `code_verifier` and `resource` parameter",
+        "translatedContent": "7. **MCP リクエスト** — `Authorization: Bearer <token>` を付けて `POST /mcp`"
+      },
+      {
+        "row": 14,
+        "rowsha": "f8L5ym1s6lprkYPZkrfEN45cvl4N7YLkTYPp13z/mvM=",
+        "originContent": "7. **MCP requests** — `POST /mcp` with `Authorization: Bearer <token>`",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### サポートされる RFC"
+      },
+      {
+        "row": 16,
+        "rowsha": "p8TCj00fEzuz0SpjIaQdncPuOVV1sQLRQIiYNt8/9I8=",
+        "originContent": "### Supported RFCs",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| RFC | 説明 | エンドポイント |"
+      },
+      {
+        "row": 18,
+        "rowsha": "7Gz5xGFgxtibvMN22iwoA5Q1S0dy6j+M1Y0IOvTTRzI=",
+        "originContent": "| RFC | Description | Endpoint |",
+        "translatedContent": "|-----|-------------|----------|"
+      },
+      {
+        "row": 19,
+        "rowsha": "ivVC3zZI04+RLP6EO8HkImBhLxuG/Eux4LWhXrxfVn8=",
+        "originContent": "|-----|-------------|----------|",
+        "translatedContent": "| OAuth 2.1 + PKCE | 認可コード交換のための証明キー付き認可 (S256) | `/oauth/authorize`, `/oauth/token` |"
+      },
+      {
+        "row": 20,
+        "rowsha": "wPYWzwt7LdvGWNkgzlRCp+ShymaHWMpi7Py9E2H4ckY=",
+        "originContent": "| OAuth 2.1 + PKCE | Authorization with Proof Key for Code Exchange (S256) | `/oauth/authorize`, `/oauth/token` |",
+        "translatedContent": "| RFC 7591 | 動的クライアント登録 | `POST /oauth/register` |"
+      },
+      {
+        "row": 21,
+        "rowsha": "Ys7phJEmcXb+bEJa52X4KCsybLG8SZpZyhb+vztIU3o=",
+        "originContent": "| RFC 7591 | Dynamic Client Registration | `POST /oauth/register` |",
+        "translatedContent": "| RFC 8414 | 認可サーバメタデータ | `GET /.well-known/oauth-authorization-server` |"
+      },
+      {
+        "row": 22,
+        "rowsha": "PedPvZwNZAYy19Gd2RHqQeubp6LFUYFuTaNJYymK6nQ=",
+        "originContent": "| RFC 8414 | Authorization Server Metadata | `GET /.well-known/oauth-authorization-server` |",
+        "translatedContent": "| RFC 8707 | リソースインジケータ | 認可およびトークンリクエストの `resource` パラメータ |"
+      },
+      {
+        "row": 23,
+        "rowsha": "TVVCKprGsnpQWCEXkTe/VWaiA1AufxpyU+Ri2AtdgBw=",
+        "originContent": "| RFC 8707 | Resource Indicators | `resource` parameter in auth + token requests |",
+        "translatedContent": "| RFC 9728 | 保護リソースメタデータ | `GET /.well-known/oauth-protected-resource` |"
+      },
+      {
+        "row": 24,
+        "rowsha": "vnwYK5SDeIeVt+kj6yKiId0ajb0vyjqycqPdwCWr0NU=",
+        "originContent": "| RFC 9728 | Protected Resource Metadata | `GET /.well-known/oauth-protected-resource` |",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### プロジェクト構成 (OAuth モード)"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZEsRWtdrUgOKv3JZZKc/Ui0nvCTA/4finCchVqbIP6Y=",
+        "originContent": "### Project structure (OAuth mode)",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\napp/\n├── controllers/\n│   ├── mcp_controller.rb                              # OAuth-protected MCP endpoint\n│   ├── oauth_client_registration_controller.rb        # RFC 7591\n│   └── oauth_authorization_server_metadata_controller.rb  # RFC 8414 + 9728\n├── models/\n│   ├── user.rb                                        # Devise user with OAuth associations\n│   ├── oauth_application.rb\n│   ├── oauth_access_token.rb\n│   └── oauth_access_grant.rb\n├── prompts/                                           # MCP prompts (created via generator)\n├── tools/                                             # MCP tools (auto-generated per scaffold)\n└── views/\n    └── devise/                                        # Customizable auth views\n\nconfig/\n├── initializers/\n│   ├── doorkeeper.rb                                  # OAuth + PKCE config\n│   ├── devise.rb                                      # User auth config\n│   └── mcp.rb                                         # MCP tool autoloading\n└── routes.rb                                          # All OAuth + MCP routes\n\ndb/migrate/\n├── *_devise_create_users.rb\n├── *_create_doorkeeper_tables.rb\n├── *_enable_pkce.rb\n└── *_add_resource_to_oauth_tables.rb\n```",
+    "ContentSha": "U1via+S3z3w2dcm3aiDjoINohUnvcUBIsBYlHgPsqMo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\napp/\n├── controllers/\n│   ├── mcp_controller.rb                              # OAuth-protected MCP endpoint\n│   ├── oauth_client_registration_controller.rb        # RFC 7591\n│   └── oauth_authorization_server_metadata_controller.rb  # RFC 8414 + 9728\n├── models/\n│   ├── user.rb                                        # Devise user with OAuth associations\n│   ├── oauth_application.rb\n│   ├── oauth_access_token.rb\n│   └── oauth_access_grant.rb\n├── prompts/                                           # MCP prompts (created via generator)\n├── tools/                                             # MCP tools (auto-generated per scaffold)\n└── views/\n    └── devise/                                        # Customizable auth views\n\nconfig/\n├── initializers/\n│   ├── doorkeeper.rb                                  # OAuth + PKCE config\n│   ├── devise.rb                                      # User auth config\n│   └── mcp.rb                                         # MCP tool autoloading\n└── routes.rb                                          # All OAuth + MCP routes\n\ndb/migrate/\n├── *_devise_create_users.rb\n├── *_create_doorkeeper_tables.rb\n├── *_enable_pkce.rb\n└── *_add_resource_to_oauth_tables.rb\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "sY2l2NhvX5d/87Akx3WsW2n9SInniE4m17KO2DwOpBY=",
+        "originContent": "app/",
+        "translatedContent": "app/"
+      },
+      {
+        "row": 3,
+        "rowsha": "mFCVinhwcfqTlL/Y4INcgoLct0RPVsz3TPod1edWv4s=",
+        "originContent": "├── controllers/",
+        "translatedContent": "├── controllers/"
+      },
+      {
+        "row": 4,
+        "rowsha": "ppQG9TJMIS2SVQvgJ6IRcDZdNrgBik1QBjiAv8oNego=",
+        "originContent": "│   ├── mcp_controller.rb                              # OAuth-protected MCP endpoint",
+        "translatedContent": "│   ├── mcp_controller.rb                              # OAuth-protected MCP endpoint"
+      },
+      {
+        "row": 5,
+        "rowsha": "XqCBD7soKgO8SPQwWOxmA2hXv0jlJP7IH22exuTwtRU=",
+        "originContent": "│   ├── oauth_client_registration_controller.rb        # RFC 7591",
+        "translatedContent": "│   ├── oauth_client_registration_controller.rb        # RFC 7591"
+      },
+      {
+        "row": 6,
+        "rowsha": "Tzf4RZC/zaRktFisIosiHrAU57pLEewGfy3YwJMvMCo=",
+        "originContent": "│   └── oauth_authorization_server_metadata_controller.rb  # RFC 8414 + 9728",
+        "translatedContent": "│   └── oauth_authorization_server_metadata_controller.rb  # RFC 8414 + 9728"
+      },
+      {
+        "row": 7,
+        "rowsha": "7aPkii1RadnahFqmBTT7FXnFQca2zOPBGQe3YITomAc=",
+        "originContent": "├── models/",
+        "translatedContent": "├── models/"
+      },
+      {
+        "row": 8,
+        "rowsha": "lvGMN/7lGCH/rSVSlD2EnpvutuhaQNexUaOEj7mijsY=",
+        "originContent": "│   ├── user.rb                                        # Devise user with OAuth associations",
+        "translatedContent": "│   ├── user.rb                                        # Devise user with OAuth associations"
+      },
+      {
+        "row": 9,
+        "rowsha": "2G2D8iLuzRxRhj7qhgdd1O+rxKdrtg8dhad1gzcylo8=",
+        "originContent": "│   ├── oauth_application.rb",
+        "translatedContent": "│   ├── oauth_application.rb"
+      },
+      {
+        "row": 10,
+        "rowsha": "WYkbyA2iPlvQhWd8PrUISCJKEoB07sO1jI40G5c9qjg=",
+        "originContent": "│   ├── oauth_access_token.rb",
+        "translatedContent": "│   ├── oauth_access_token.rb"
+      },
+      {
+        "row": 11,
+        "rowsha": "7u1bP0FL6WmhkAwndSxmKFLa+CF40AUaelJiVeDnnqQ=",
+        "originContent": "│   └── oauth_access_grant.rb",
+        "translatedContent": "│   └── oauth_access_grant.rb"
+      },
+      {
+        "row": 12,
+        "rowsha": "2Tbp0YURRWcaABZEw+hSnapEjmrwaZ+ZULstMeqbUbQ=",
+        "originContent": "├── prompts/                                           # MCP prompts (created via generator)",
+        "translatedContent": "├── prompts/                                           # MCP prompts (created via generator)"
+      },
+      {
+        "row": 13,
+        "rowsha": "MHpjyOyHyFD1zrYBhgnS3vaStQAIVCw1sl4IofELfTI=",
+        "originContent": "├── tools/                                             # MCP tools (auto-generated per scaffold)",
+        "translatedContent": "├── tools/                                             # MCP tools (auto-generated per scaffold)"
+      },
+      {
+        "row": 14,
+        "rowsha": "QHH/BxDk/8tMZPycIPjN1uZ89nIKHfeMsGbPA+OCnWE=",
+        "originContent": "└── views/",
+        "translatedContent": "└── views/"
+      },
+      {
+        "row": 15,
+        "rowsha": "DIPLop+/cvDlNdyKRm1J1KXa8JlOtm22YBSKYkKY1wc=",
+        "originContent": "    └── devise/                                        # Customizable auth views",
+        "translatedContent": "    └── devise/                                        # Customizable auth views"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "F3QDEDyvHYYVeMNKATb3q9ch1vSUIGRrMuFUWrDHkwU=",
+        "originContent": "config/",
+        "translatedContent": "config/"
+      },
+      {
+        "row": 18,
+        "rowsha": "F3rHFMeQc7sfCKIqa8xY+gTYBwThDyK3Yy0OcuX1264=",
+        "originContent": "├── initializers/",
+        "translatedContent": "├── initializers/"
+      },
+      {
+        "row": 19,
+        "rowsha": "N6/qJgeH87kEuQA3oMJeoKnYTMNkyqzK9m9weoo+Zbo=",
+        "originContent": "│   ├── doorkeeper.rb                                  # OAuth + PKCE config",
+        "translatedContent": "│   ├── doorkeeper.rb                                  # OAuth + PKCE config"
+      },
+      {
+        "row": 20,
+        "rowsha": "PfSlUSfXmEKLNHgt8PaasgZBDNliKIC+fmpN5t8fwQE=",
+        "originContent": "│   ├── devise.rb                                      # User auth config",
+        "translatedContent": "│   ├── devise.rb                                      # User auth config"
+      },
+      {
+        "row": 21,
+        "rowsha": "azsiVrPNmqyPsz4a9fN8GY8OOsNqEWsEOOKhwM5e2rc=",
+        "originContent": "│   └── mcp.rb                                         # MCP tool autoloading",
+        "translatedContent": "│   └── mcp.rb                                         # MCP tool autoloading"
+      },
+      {
+        "row": 22,
+        "rowsha": "mbkoTvoVG8DPmjE1yJW5eueiD8B/9rcA6rHXjtEtcCk=",
+        "originContent": "└── routes.rb                                          # All OAuth + MCP routes",
+        "translatedContent": "└── routes.rb                                          # All OAuth + MCP routes"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "RmdD6YUGOfH0sUES9tL+U8tMUJVLyYUsdIsv+pIVnsc=",
+        "originContent": "db/migrate/",
+        "translatedContent": "db/migrate/"
+      },
+      {
+        "row": 25,
+        "rowsha": "eg1URzKR/AMZBhggJ/ykHoMOsxCzv8Uz/pLMvgUzTIM=",
+        "originContent": "├── *_devise_create_users.rb",
+        "translatedContent": "├── *_devise_create_users.rb"
+      },
+      {
+        "row": 26,
+        "rowsha": "rOgRlTbEf+1uxbV6ZsWDXt+e6/ks0BGA7V97pqp1l+o=",
+        "originContent": "├── *_create_doorkeeper_tables.rb",
+        "translatedContent": "├── *_create_doorkeeper_tables.rb"
+      },
+      {
+        "row": 27,
+        "rowsha": "acF9tH3C80m3JfQ909QCc3KdvFwI4pZalqQrLllFNa4=",
+        "originContent": "├── *_enable_pkce.rb",
+        "translatedContent": "├── *_enable_pkce.rb"
+      },
+      {
+        "row": 28,
+        "rowsha": "r+TfHpKNU9dG8yekIsdNVxaA1msQfwDsxAYV52jf9Gc=",
+        "originContent": "└── *_add_resource_to_oauth_tables.rb",
+        "translatedContent": "└── *_add_resource_to_oauth_tables.rb"
+      },
+      {
+        "row": 29,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Connecting AI assistants (OAuth mode)\n",
+    "ContentSha": "WzFgfJys/1g3vX2kWpkrKAFIMHTg11YkfHoGokOLzYc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### AIアシスタントの接続（OAuthモード）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lHB8VW1tj0FRJgRdIVw+LyjYuJl+WX6oVfWpmABf3vk=",
+        "originContent": "### Connecting AI assistants (OAuth mode)",
+        "translatedContent": "### AIアシスタントの接続（OAuthモード）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```json\n{\n  \"name\": \"my-rails-app\",\n  \"type\": \"StreamableHttp\",\n  \"url\": \"http://localhost:3000/mcp\"\n}\n```",
+    "ContentSha": "0Z+nM2b2AEtwJMSVQmXIXaWRo/RHqJz+yUiYEu8JHHo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"name\": \"my-rails-app\",\n  \"type\": \"StreamableHttp\",\n  \"url\": \"http://localhost:3000/mcp\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "imvxvbywJs3PdmCngBhD3G/oMkXXAdJlpPCsW7UppZU=",
+        "originContent": "  \"name\": \"my-rails-app\",",
+        "translatedContent": "  \"name\": \"my-rails-app\","
+      },
+      {
+        "row": 4,
+        "rowsha": "/kzHoBlU/Ka26XKBRCbCzLcQEHMQW3vE2kh/kkMf0Eg=",
+        "originContent": "  \"type\": \"StreamableHttp\",",
+        "translatedContent": "  \"type\": \"StreamableHttp\","
+      },
+      {
+        "row": 5,
+        "rowsha": "INRnG+BDOpNsAypBp5Ne/aIDTYth+UoBJ6WuG/MyXxQ=",
+        "originContent": "  \"url\": \"http://localhost:3000/mcp\"",
+        "translatedContent": "  \"url\": \"http://localhost:3000/mcp\""
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nThe client must complete the OAuth PKCE flow before making MCP requests — the `/mcp` endpoint returns 401 without a valid Bearer token.\n\n---\n\n## Common Features (both modes)\n\n### Scaffolding models with MCP tools\n",
+    "ContentSha": "O5khd+5eSSC0osbYFbBf3/0AV99gffZmR7rHLnK7t+Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nクライアントはMCPリクエストを行う前にOAuth PKCEフローを完了する必要があります — 有効なBearerトークンなしでは`/mcp`エンドポイントは401を返します。\n\n---\n\n## 共通機能（両モード）\n\n### MCPツールによるモデルのスキャフォールディング\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/k+zNnowRP3TF0dOTKZ2LxwuM/zolnlA3KjaVN+IKyA=",
+        "originContent": "The client must complete the OAuth PKCE flow before making MCP requests — the `/mcp` endpoint returns 401 without a valid Bearer token.",
+        "translatedContent": "クライアントはMCPリクエストを行う前にOAuth PKCEフローを完了する必要があります — 有効なBearerトークンなしでは`/mcp`エンドポイントは401を返します。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "J9knLkgmTuqttQFxWKlT308IIwOEsLGCjv5z4k62/+Y=",
+        "originContent": "## Common Features (both modes)",
+        "translatedContent": "## 共通機能（両モード）"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Z7FAflJcbEw52qaR5+4Fiehc6MUhOVfRY2J4TIt1bmk=",
+        "originContent": "### Scaffolding models with MCP tools",
+        "translatedContent": "### MCPツールによるモデルのスキャフォールディング"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\nrails generate scaffold Post title:string content:text\nrails db:migrate\n```",
+    "ContentSha": "SzzQ4kaoIBSLJ5B911DIXqnH8ghi1YlTqyKewp9Gb8w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrails generate scaffold Post title:string content:text\nrails db:migrate\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zuWCVOxdIKlqE96/7CAZMdfDDJFMwyL6KKp1AcVjxjU=",
+        "originContent": "rails generate scaffold Post title:string content:text",
+        "translatedContent": "rails generate scaffold Post title:string content:text"
+      },
+      {
+        "row": 3,
+        "rowsha": "hF+7C5VBxuhaonbmbfep6lWZRx/3SW558ck1jlvMGiA=",
+        "originContent": "rails db:migrate",
+        "translatedContent": "rails db:migrate"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nThis creates standard Rails files plus 5 MCP tools in `app/tools/posts/`:\n- `show_tool.rb` — Retrieve a single post by ID\n- `index_tool.rb` — List posts with pagination\n- `create_tool.rb` — Create new posts\n- `update_tool.rb` — Update existing posts\n- `delete_tool.rb` — Delete posts\n\n### Creating custom MCP tools\n",
+    "ContentSha": "8mckB2XKA7i/0LSIQnvqB9k0w4xRx9zzyzmRTvysq6s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nこれにより、標準のRailsファイルに加えて `app/tools/posts/` に5つのMCPツールが作成されます：\n- `show_tool.rb` — IDで単一の投稿を取得\n- `index_tool.rb` — ページネーション付きで投稿一覧を表示\n- `create_tool.rb` — 新しい投稿を作成\n- `update_tool.rb` — 既存の投稿を更新\n- `delete_tool.rb` — 投稿を削除\n\n### カスタムMCPツールの作成\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wM+ftjbcmmdjtnooA/6JV09CYo42Hr9HHEbznZmlFQ4=",
+        "originContent": "This creates standard Rails files plus 5 MCP tools in `app/tools/posts/`:",
+        "translatedContent": "これにより、標準のRailsファイルに加えて `app/tools/posts/` に5つのMCPツールが作成されます："
+      },
+      {
+        "row": 3,
+        "rowsha": "29ko1NuZlH0Lo3Reeg7zyaVqS9+SfE+ujsWS4zp2WhE=",
+        "originContent": "- `show_tool.rb` — Retrieve a single post by ID",
+        "translatedContent": "- `show_tool.rb` — IDで単一の投稿を取得"
+      },
+      {
+        "row": 4,
+        "rowsha": "DsP4aO0hWeojOVXb/8HoVLY0gY09J2VC265fA1xsjcA=",
+        "originContent": "- `index_tool.rb` — List posts with pagination",
+        "translatedContent": "- `index_tool.rb` — ページネーション付きで投稿一覧を表示"
+      },
+      {
+        "row": 5,
+        "rowsha": "Xun7DmP7W/0dkPyCAFE8zyWvknIQxbBGLzqxrjXo61w=",
+        "originContent": "- `create_tool.rb` — Create new posts",
+        "translatedContent": "- `create_tool.rb` — 新しい投稿を作成"
+      },
+      {
+        "row": 6,
+        "rowsha": "sRrzskkfkMuYGjawHBJef0tr9Xc23bAW3Wg41/h2G+Q=",
+        "originContent": "- `update_tool.rb` — Update existing posts",
+        "translatedContent": "- `update_tool.rb` — 既存の投稿を更新"
+      },
+      {
+        "row": 7,
+        "rowsha": "gDJeintDC3VW303mUmfhAEpluC2pEjLsizwWckQmO8Y=",
+        "originContent": "- `delete_tool.rb` — Delete posts",
+        "translatedContent": "- `delete_tool.rb` — 投稿を削除"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "BhXzzzPPwHQGVACFHFQXeN7gpphKONoqnMEKDMsq1Y8=",
+        "originContent": "### Creating custom MCP tools",
+        "translatedContent": "### カスタムMCPツールの作成"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\nrails generate mcp_tool WeatherCheck location:string\n```",
+    "ContentSha": "61iI4hplU+bzZ4TauqkNhA0haQzb+lvCwAMQrQ5GSqg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrails generate mcp_tool WeatherCheck location:string\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "oTlqCt1QHUfdrmQs4QKb2xuGFXWBHsLB76cAeSLuqIs=",
+        "originContent": "rails generate mcp_tool WeatherCheck location:string",
+        "translatedContent": "rails generate mcp_tool WeatherCheck location:string"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### Creating custom MCP prompts\n",
+    "ContentSha": "pz+E1GzWmYYOXKh60NR1vQa9ZUdhCqMZp4oH7ERHkrw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### カスタムMCPプロンプトの作成\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UpGmzI6M8QKfQQN8dknYKzNZy6K5ATCy8FDt9TTUSYU=",
+        "originContent": "### Creating custom MCP prompts",
+        "translatedContent": "### カスタムMCPプロンプトの作成"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bash\nrails generate mcp_prompt hotel_finder location:required check_in_date:required adults price_max\n```",
+    "ContentSha": "dHOquvyxxJBSIw/V8wqBtPS/qWD8GLc/6LOwTa+1YCU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrails generate mcp_prompt hotel_finder location:required check_in_date:required adults price_max\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "P6DmYklVcpuYhMH/YQQkm8rVYNbZhs9bIbGOnsXw+h8=",
+        "originContent": "rails generate mcp_prompt hotel_finder location:required check_in_date:required adults price_max",
+        "translatedContent": "rails generate mcp_prompt hotel_finder location:required check_in_date:required adults price_max"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nThis creates `app/prompts/hotel_finder.rb` with a prompt class inheriting from `MCP::Prompt`. Arguments are optional by default — append `:required` to make them required.\n\nPrompts are automatically loaded from `app/prompts/` and registered with the MCP server. Unlike tools, prompts are **not** auto-generated during scaffolding — they are created explicitly via the generator.\n\n### Listing available tools and prompts\n",
+    "ContentSha": "dSFgFeuCISTgYWzlrCw83sBblfBmjWeuonM7hoIFlKw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nこれにより、`app/prompts/hotel_finder.rb` が作成され、`MCP::Prompt` を継承したプロンプトクラスが生成されます。引数はデフォルトで任意です — 必須にするには `:required` を付け加えます。\n\nプロンプトは `app/prompts/` から自動的に読み込まれ、MCPサーバーに登録されます。ツールとは異なり、プロンプトはスキャフォールディング中に自動生成されません — ジェネレーターを使って明示的に作成します。\n\n### 使用可能なツールとプロンプトの一覧表示\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "68tWSNaJU7zp6C/D+xaUXBTB4BR93gKUNHrP+cW4vaA=",
+        "originContent": "This creates `app/prompts/hotel_finder.rb` with a prompt class inheriting from `MCP::Prompt`. Arguments are optional by default — append `:required` to make them required.",
+        "translatedContent": "これにより、`app/prompts/hotel_finder.rb` が作成され、`MCP::Prompt` を継承したプロンプトクラスが生成されます。引数はデフォルトで任意です — 必須にするには `:required` を付け加えます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "cCIrkK+tEpGgEsUgJmV3Ns2ibI3JOSQSpwOubenza08=",
+        "originContent": "Prompts are automatically loaded from `app/prompts/` and registered with the MCP server. Unlike tools, prompts are **not** auto-generated during scaffolding — they are created explicitly via the generator.",
+        "translatedContent": "プロンプトは `app/prompts/` から自動的に読み込まれ、MCPサーバーに登録されます。ツールとは異なり、プロンプトはスキャフォールディング中に自動生成されません — ジェネレーターを使って明示的に作成します。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "bvyDa3ejJn12hAxaYcBs9aCbBaEz/xsDCqQp4jo9vO8=",
+        "originContent": "### Listing available tools and prompts",
+        "translatedContent": "### 使用可能なツールとプロンプトの一覧表示"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```bash\nrake mcp:tools             # compact one-line-per-tool summary\nrake mcp:tools:verbose     # full details with schema\nrake mcp:prompts           # compact one-line-per-prompt summary\nrake mcp:prompts:verbose   # full details with arguments\n```",
+    "ContentSha": "VKsuhImPqku89JlRu5OntPfpcE0ih8waqZ2DV1im4gs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrake mcp:tools             # compact one-line-per-tool summary\nrake mcp:tools:verbose     # full details with schema\nrake mcp:prompts           # compact one-line-per-prompt summary\nrake mcp:prompts:verbose   # full details with arguments\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZLlfKWB4d5kKuZX++VdiIt1NU4d9OupdlSKLZHCC9wE=",
+        "originContent": "rake mcp:tools             # compact one-line-per-tool summary",
+        "translatedContent": "rake mcp:tools             # compact one-line-per-tool summary"
+      },
+      {
+        "row": 3,
+        "rowsha": "3dpn8ELQ2jefiN9xGV++a8rvb8rkDQyQapzWHF0GNR4=",
+        "originContent": "rake mcp:tools:verbose     # full details with schema",
+        "translatedContent": "rake mcp:tools:verbose     # full details with schema"
+      },
+      {
+        "row": 4,
+        "rowsha": "qxqJFpD72v2jPjsBSIErjey92SFJ/FUf1ZNOPtRjcmY=",
+        "originContent": "rake mcp:prompts           # compact one-line-per-prompt summary",
+        "translatedContent": "rake mcp:prompts           # compact one-line-per-prompt summary"
+      },
+      {
+        "row": 5,
+        "rowsha": "+5J4nco75ozzYWudlURcE/8kaK1EnhGC5lvJ29Rz2oM=",
+        "originContent": "rake mcp:prompts:verbose   # full details with arguments",
+        "translatedContent": "rake mcp:prompts:verbose   # full details with arguments"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n## License\n\nMIT License\n",
+    "ContentSha": "QhpwS+92dlGA1YvZOUH35jaFqaFtHdhu0zAIXgUKXxo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ライセンス\n\nMIT ライセンス\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": "MIT ライセンス"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
