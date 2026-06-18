@@ -1,0 +1,1880 @@
+[
+  {
+    "row": 1,
+    "rowsha": "yDpa4ujqj8pf1gx2CB/87Om2+lB0JxgjRJLdKvjPjpI=",
+    "originContent": "# Parse Partial JSON Stream - Turn your slow AI app into an engaging real-time app",
+    "translatedContent": "# 部分JSONストリームの解析 - あなたの遅いAIアプリを魅力的なリアルタイムアプリに変える"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "6hf562ls+TDeA6RLcK0I3UJBU97/aIi6eXm/Ktd4gUY=",
+    "originContent": "- Convert a **stream of token** into a **parsable JSON** object before the stream ends.",
+    "translatedContent": "- **トークンのストリーム**をストリーム終了前に**解析可能なJSON**オブジェクトに変換します。"
+  },
+  {
+    "row": 4,
+    "rowsha": "h/7VLrpVMs+YH4IRAg5JadHTeoNSHL5k58MqVY9v7lU=",
+    "originContent": "- Implement **Streaming UI** in **LLM**-based AI application.",
+    "translatedContent": "- **LLM**ベースのAIアプリケーションで**ストリーミングUI**を実装します。"
+  },
+  {
+    "row": 5,
+    "rowsha": "k7hd5vB+Tpq9B4dr+lIRdIg+PKze+ij3m+jwLqmdgxw=",
+    "originContent": "- Leverage **OpenAI Function Calling** for early stream processing.",
+    "translatedContent": "- 早期ストリーム処理のために**OpenAI関数呼び出し**を活用します。"
+  },
+  {
+    "row": 6,
+    "rowsha": "Y2vwhFnz1JPC+m16ntAgsyIOBEJ+xZNAlIdCDz4UULk=",
+    "originContent": "- Parse **JSON streams** into distinct **entities**.",
+    "translatedContent": "- **JSONストリーム**を個別の**エンティティ**に解析します。"
+  },
+  {
+    "row": 7,
+    "rowsha": "TX3yBgzNf3zH9uLwpDJZF3EaaUVe/BpYNmSCSq8OPkk=",
+    "originContent": "- Engage your users with a **real-time** experience.",
+    "translatedContent": "- ユーザーを**リアルタイム**体験で引き込みます。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "CFkwOdv7vxc55a+A258YunBtxdtXnp/qzurrZOkcYUk=",
+    "originContent": "![json_stream_color](https://github.com/st3w4r/openai-partial-stream/assets/4228332/04c4bdfc-d991-4ad0-85fc-04eb35b106f3)",
+    "translatedContent": "![json_stream_color](https://github.com/st3w4r/openai-partial-stream/assets/4228332/04c4bdfc-d991-4ad0-85fc-04eb35b106f3)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "a9q44hcMeQzKTrXddLk4XyXPmh5Zpwe4knhbvUOAWiw=",
+    "originContent": "## Follow the Work",
+    "translatedContent": "## 進捗をフォローする"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "ku2t0wR1B2oPw4TlrjoRc18bJ/Q6qgrbH5IdUETodbo=",
+    "originContent": "- [✖️ Twitter](https://twitter.com/YanaelBarbier)",
+    "translatedContent": "- [✖️ Twitter](https://twitter.com/YanaelBarbier)"
+  },
+  {
+    "row": 14,
+    "rowsha": "LUTzEyecmRRe7AtRI32kIhHt3ZqeYgcZi8PpEJO5te8=",
+    "originContent": "- [🧵 Threads](https://www.threads.net/@yanaelbarbier)",
+    "translatedContent": "- [🧵 Threads](https://www.threads.net/@yanaelbarbier)"
+  },
+  {
+    "row": 15,
+    "rowsha": "F3AzJ4I0g+imDV6P+s8E+SrIJOCSgW855m6c1ImucEw=",
+    "originContent": "- [📰 Blog](https://yanael.io/subscribe/)",
+    "translatedContent": "- [📰 ブログ](https://yanael.io/subscribe/)"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "d9BCt8Ylq4hu43Oe5Bm8vOVsO+THSIIVmiIZzJx+bYU=",
+    "originContent": "To install dependencies:",
+    "translatedContent": "依存関係をインストールするには："
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 22,
+    "rowsha": "X4WfKxa1mAKDBRcFQZ5gMXFM2GuEhJUH9GZl5SuUt38=",
+    "originContent": "npm install --save openai-partial-stream",
+    "translatedContent": "npm install --save openai-partial-stream"
+  },
+  {
+    "row": 23,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "PZo8Kbk/QU2htaa/2M7IV1eu+nK0LMaIlnE8vI6lUqg=",
+    "originContent": "## Usage with simple stream",
+    "translatedContent": "## シンプルなストリームでの使用"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "yWoowegigSuxn5P39m1ZyErck2tM1AcpacYa9Mh/tVI=",
+    "originContent": "Turn a stream of token into a parsable JSON object as soon as possible.",
+    "translatedContent": "トークンのストリームをできるだけ早く解析可能なJSONオブジェクトに変換します。"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 30,
+    "rowsha": "TxsJTx7zBanoJ3i52s2MhALZymDBidwb5iASR0bO2cA=",
+    "originContent": "import OpenAi from \"openai\";",
+    "translatedContent": "import OpenAi from \"openai\";"
+  },
+  {
+    "row": 31,
+    "rowsha": "DmprLtChUJ3M/gAvGOgg8npAa5MFh66UkqVhMxjNF1I=",
+    "originContent": "import { OpenAiHandler, StreamMode } from \"openai-partial-stream\";",
+    "translatedContent": "import { OpenAiHandler, StreamMode } from \"openai-partial-stream\";"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "duavWjoFCY8kwhLedsFOVNEML1yMhbiWWogszIpkPPU=",
+    "originContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY",
+    "translatedContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY"
+  },
+  {
+    "row": 34,
+    "rowsha": "p01QQIXBUVEnWqcdLUA2/AwmiPLhq7JVB4QX3cOfeZQ=",
+    "originContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });",
+    "translatedContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Ju2KEP2ccWqXFl5oxcYeIQVEqt5vLMm21u6g3iK5q+M=",
+    "originContent": "const stream = await openai.chat.completions.create({",
+    "translatedContent": "const stream = await openai.chat.completions.create({"
+  },
+  {
+    "row": 37,
+    "rowsha": "ANRPtM85vlGaGsYUAxlaNLYdS/3hOAfaxgw8qd/u2bQ=",
+    "originContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],",
+    "translatedContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],"
+  },
+  {
+    "row": 38,
+    "rowsha": "4GPh/czGc4/35fZBFaI9T+7ESFlanI0OyxX9cgwX+FA=",
+    "originContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"",
+    "translatedContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\""
+  },
+  {
+    "row": 39,
+    "rowsha": "klPb4uvlMtLjRCDGBnons/vta6sQY6e1lwYgRcykp2g=",
+    "originContent": "  stream: true, // ENABLE STREAMING",
+    "translatedContent": "  stream: true, // ENABLE STREAMING"
+  },
+  {
+    "row": 40,
+    "rowsha": "R++zRhyxz/PtsefNhbAOt9DEwEgKb84IRPc9AwJQfh4=",
+    "originContent": "  temperature: 1,",
+    "translatedContent": "  temperature: 1,"
+  },
+  {
+    "row": 41,
+    "rowsha": "5komL/S2XZ1E38RqPsQAa5TWCrIhbMt6GCZvuWKA24E=",
+    "originContent": "  functions: [",
+    "translatedContent": "  functions: ["
+  },
+  {
+    "row": 42,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 43,
+    "rowsha": "y9VoIZdx2jCmySQQM3JD3ihYnER1JwNkJ7NLTmdiNao=",
+    "originContent": "      name: \"say_hello\",",
+    "translatedContent": "      name: \"say_hello\","
+  },
+  {
+    "row": 44,
+    "rowsha": "PeZQ2JEfdDi8SbQHmNIzx7BsF2gorHULgVnsghAQDS8=",
+    "originContent": "      description: \"say hello\",",
+    "translatedContent": "      description: \"say hello\","
+  },
+  {
+    "row": 45,
+    "rowsha": "amfev8yahUT8VjJ03ignunQ1tn5cODZmNJAgdiuBFcc=",
+    "originContent": "      parameters: {",
+    "translatedContent": "      parameters: {"
+  },
+  {
+    "row": 46,
+    "rowsha": "SlOthO1M8uWnDC06VcdTcVWGCtIueaOiUav9mzzmiiY=",
+    "originContent": "        type: \"object\",",
+    "translatedContent": "        type: \"object\","
+  },
+  {
+    "row": 47,
+    "rowsha": "NYwr8KUnGU9XzoVXdHDRRyvYcEEgA32ca0Y1n1zqKUM=",
+    "originContent": "        properties: {",
+    "translatedContent": "        properties: {"
+  },
+  {
+    "row": 48,
+    "rowsha": "88JOhWpVWDe2WAH1AAahHb+cw5uwG+Naiut2r28YGJc=",
+    "originContent": "          sentence: {",
+    "translatedContent": "          sentence: {"
+  },
+  {
+    "row": 49,
+    "rowsha": "M+W21XG4KBrBdCjc+R1reTZA4MIDyQCoKbQEmLVH4hg=",
+    "originContent": "            type: \"string\",",
+    "translatedContent": "            type: \"string\","
+  },
+  {
+    "row": 50,
+    "rowsha": "o/f7GcJhgwLCcvyQy6ubuA86KKbd9BC1/BMT44qR1P4=",
+    "originContent": "            description: \"The sentence generated\",",
+    "translatedContent": "            description: \"The sentence generated\","
+  },
+  {
+    "row": 51,
+    "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+    "originContent": "          },",
+    "translatedContent": "          },"
+  },
+  {
+    "row": 52,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 53,
+    "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+    "originContent": "      },",
+    "translatedContent": "      },"
+  },
+  {
+    "row": 54,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 55,
+    "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+    "originContent": "  ],",
+    "translatedContent": "  ],"
+  },
+  {
+    "row": 56,
+    "rowsha": "p/yz+3LU0Gp7v4W2C/2Q+kGNWCzqLb/M1LwJhaQb3e8=",
+    "originContent": "  function_call: { name: \"say_hello\" },",
+    "translatedContent": "  function_call: { name: \"say_hello\" },"
+  },
+  {
+    "row": 57,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "wVa+OD4IfV0OQxqQ07GJ/RIEjXHNEgmHTrmRA2luFlM=",
+    "originContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);",
+    "translatedContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);"
+  },
+  {
+    "row": 60,
+    "rowsha": "z9h7MSdGZ+isu9vL15fMWkKu86ZqJriK3nzFA+q0zlQ=",
+    "originContent": "const entityStream = openAiHandler.process(stream);",
+    "translatedContent": "const entityStream = openAiHandler.process(stream);"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "xDSKj08gsXDcozgXUSYBiHO8+pWOgsXBaRss3WxpwSo=",
+    "originContent": "for await (const item of entityStream) {",
+    "translatedContent": "for await (const item of entityStream) {"
+  },
+  {
+    "row": 63,
+    "rowsha": "nZ9PPc/c5MRmEJTdcRP7YcppMomPJskl9PIClrNYJ8o=",
+    "originContent": "  console.log(item);",
+    "translatedContent": "  console.log(item);"
+  },
+  {
+    "row": 64,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "出力："
+  },
+  {
+    "row": 67,
+    "rowsha": "RX9JV6+EKlJRz7cZAjTmpvwwwctp17nQhrSznIn4qwY=",
+    "originContent": "Output:",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 70,
+    "rowsha": "QgkYVaS1SCDGXqcgs+idtld0tMuBYO7CSvJQbxw7tzI=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: {} }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: {} }"
+  },
+  {
+    "row": 71,
+    "rowsha": "IR4iJjkJEVibfZ0YOoZP8aSbQejM4QmRMqM+cMtrwgY=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' } }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' } }"
+  },
+  {
+    "row": 72,
+    "rowsha": "2MLMSoykuwVAGtWIYWzQkBeczIVeqDu0gWSR7EBzFuY=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello' } }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello' } }"
+  },
+  {
+    "row": 73,
+    "rowsha": "Ofwg7bVVbjZPXFSZgHGZWw1Yib/q5jdBjs9xdavVDTw=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello,' } }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello,' } }"
+  },
+  {
+    "row": 74,
+    "rowsha": "1pWd5c+k2E8IWGRcoemAC8PiYe0LUuwbDupp8yb5gns=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world' } }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world' } }"
+  },
+  {
+    "row": 75,
+    "rowsha": "etqFcFPlO+UacIg3MR7g4owb0ApFCp/nm/qlws++Rn0=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world!' } }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world!' } }"
+  },
+  {
+    "row": 76,
+    "rowsha": "JNIMGockkWM3EOmMTebSH6ggGJV/x/0/azKNmATscrQ=",
+    "originContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hello, world!' } }",
+    "translatedContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hello, world!' } }"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "lRHqMQWdworcTA0wlXjFM2sxpvvJCXbw6BQbkQ79KrM=",
+    "originContent": "## Usage with stream and entity parsing",
+    "translatedContent": "## ストリームおよびエンティティ解析での使用"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "8I3/fhcF92TnllNukczmOFdDtJkx3I6dfMLDvmWF/0w=",
+    "originContent": "Validate the data against a schema and only return the data when it is valid.",
+    "translatedContent": "スキーマに対してデータを検証し、有効な場合にのみデータを返します。"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 84,
+    "rowsha": "JKfAayqwDbBxt9fU/+36Aq/TZ0pBRaaJZrXfB//tnR0=",
+    "originContent": "import { z } from \"zod\";",
+    "translatedContent": "import { z } from \"zod\";"
+  },
+  {
+    "row": 85,
+    "rowsha": "TxsJTx7zBanoJ3i52s2MhALZymDBidwb5iASR0bO2cA=",
+    "originContent": "import OpenAi from \"openai\";",
+    "translatedContent": "import OpenAi from \"openai\";"
+  },
+  {
+    "row": 86,
+    "rowsha": "Zsh9zynUm/NxyAPeMQpfJLfdb3t2Lqt8Br72dosvMjo=",
+    "originContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";",
+    "translatedContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "duavWjoFCY8kwhLedsFOVNEML1yMhbiWWogszIpkPPU=",
+    "originContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY",
+    "translatedContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY"
+  },
+  {
+    "row": 89,
+    "rowsha": "p01QQIXBUVEnWqcdLUA2/AwmiPLhq7JVB4QX3cOfeZQ=",
+    "originContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });",
+    "translatedContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "Ju2KEP2ccWqXFl5oxcYeIQVEqt5vLMm21u6g3iK5q+M=",
+    "originContent": "const stream = await openai.chat.completions.create({",
+    "translatedContent": "const stream = await openai.chat.completions.create({"
+  },
+  {
+    "row": 92,
+    "rowsha": "ANRPtM85vlGaGsYUAxlaNLYdS/3hOAfaxgw8qd/u2bQ=",
+    "originContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],",
+    "translatedContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],"
+  },
+  {
+    "row": 93,
+    "rowsha": "4GPh/czGc4/35fZBFaI9T+7ESFlanI0OyxX9cgwX+FA=",
+    "originContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"",
+    "translatedContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\""
+  },
+  {
+    "row": 94,
+    "rowsha": "klPb4uvlMtLjRCDGBnons/vta6sQY6e1lwYgRcykp2g=",
+    "originContent": "  stream: true, // ENABLE STREAMING",
+    "translatedContent": "  stream: true, // ENABLE STREAMING"
+  },
+  {
+    "row": 95,
+    "rowsha": "R++zRhyxz/PtsefNhbAOt9DEwEgKb84IRPc9AwJQfh4=",
+    "originContent": "  temperature: 1,",
+    "translatedContent": "  temperature: 1,"
+  },
+  {
+    "row": 96,
+    "rowsha": "5komL/S2XZ1E38RqPsQAa5TWCrIhbMt6GCZvuWKA24E=",
+    "originContent": "  functions: [",
+    "translatedContent": "  functions: ["
+  },
+  {
+    "row": 97,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 98,
+    "rowsha": "y9VoIZdx2jCmySQQM3JD3ihYnER1JwNkJ7NLTmdiNao=",
+    "originContent": "      name: \"say_hello\",",
+    "translatedContent": "      name: \"say_hello\","
+  },
+  {
+    "row": 99,
+    "rowsha": "PeZQ2JEfdDi8SbQHmNIzx7BsF2gorHULgVnsghAQDS8=",
+    "originContent": "      description: \"say hello\",",
+    "translatedContent": "      description: \"say hello\","
+  },
+  {
+    "row": 100,
+    "rowsha": "amfev8yahUT8VjJ03ignunQ1tn5cODZmNJAgdiuBFcc=",
+    "originContent": "      parameters: {",
+    "translatedContent": "      parameters: {"
+  },
+  {
+    "row": 101,
+    "rowsha": "SlOthO1M8uWnDC06VcdTcVWGCtIueaOiUav9mzzmiiY=",
+    "originContent": "        type: \"object\",",
+    "translatedContent": "        type: \"object\","
+  },
+  {
+    "row": 102,
+    "rowsha": "NYwr8KUnGU9XzoVXdHDRRyvYcEEgA32ca0Y1n1zqKUM=",
+    "originContent": "        properties: {",
+    "translatedContent": "        properties: {"
+  },
+  {
+    "row": 103,
+    "rowsha": "88JOhWpVWDe2WAH1AAahHb+cw5uwG+Naiut2r28YGJc=",
+    "originContent": "          sentence: {",
+    "translatedContent": "          sentence: {"
+  },
+  {
+    "row": 104,
+    "rowsha": "M+W21XG4KBrBdCjc+R1reTZA4MIDyQCoKbQEmLVH4hg=",
+    "originContent": "            type: \"string\",",
+    "translatedContent": "            type: \"string\","
+  },
+  {
+    "row": 105,
+    "rowsha": "o/f7GcJhgwLCcvyQy6ubuA86KKbd9BC1/BMT44qR1P4=",
+    "originContent": "            description: \"The sentence generated\",",
+    "translatedContent": "            description: \"The sentence generated\","
+  },
+  {
+    "row": 106,
+    "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+    "originContent": "          },",
+    "translatedContent": "          },"
+  },
+  {
+    "row": 107,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 108,
+    "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+    "originContent": "      },",
+    "translatedContent": "      },"
+  },
+  {
+    "row": 109,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 110,
+    "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+    "originContent": "  ],",
+    "translatedContent": "  ],"
+  },
+  {
+    "row": 111,
+    "rowsha": "p/yz+3LU0Gp7v4W2C/2Q+kGNWCzqLb/M1LwJhaQb3e8=",
+    "originContent": "  function_call: { name: \"say_hello\" },",
+    "translatedContent": "  function_call: { name: \"say_hello\" },"
+  },
+  {
+    "row": 112,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "wVa+OD4IfV0OQxqQ07GJ/RIEjXHNEgmHTrmRA2luFlM=",
+    "originContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);",
+    "translatedContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);"
+  },
+  {
+    "row": 115,
+    "rowsha": "z9h7MSdGZ+isu9vL15fMWkKu86ZqJriK3nzFA+q0zlQ=",
+    "originContent": "const entityStream = openAiHandler.process(stream);",
+    "translatedContent": "const entityStream = openAiHandler.process(stream);"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "ZHzRyXJ7P5Hb90sucyYeilloyYQGg25CZp1jgSVnnsg=",
+    "originContent": "// Entity Parsing to validate the data",
+    "translatedContent": "// Entity Parsing to validate the data"
+  },
+  {
+    "row": 118,
+    "rowsha": "bc20SD+tuyAT+kGG0HyUeh8uYY+PfXTRnvy9mvqM0Lo=",
+    "originContent": "const HelloSchema = z.object({",
+    "translatedContent": "const HelloSchema = z.object({"
+  },
+  {
+    "row": 119,
+    "rowsha": "8befjDiJV14qrCBlwadwgHA1sfJCU1YBnDcb7ysdnmU=",
+    "originContent": "  sentence: z.string().optional(),",
+    "translatedContent": "  sentence: z.string().optional(),"
+  },
+  {
+    "row": 120,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "MgUyG+7NuUPtLniFfH42zUerkAXZT3it0IzV5NgrEoQ=",
+    "originContent": "const entityHello = new Entity(\"sentence\", HelloSchema);",
+    "translatedContent": "const entityHello = new Entity(\"sentence\", HelloSchema);"
+  },
+  {
+    "row": 123,
+    "rowsha": "B8z1vdAL4LioMJ5O92ZxcR/VYmkQL7fSG2mr0xay3L4=",
+    "originContent": "const helloEntityStream = entityHello.genParse(entityStream);",
+    "translatedContent": "const helloEntityStream = entityHello.genParse(entityStream);"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "IqVphTdmi1ut1HM51EB3zsEkkquK4vkaahFRfN42vt8=",
+    "originContent": "for await (const item of helloEntityStream) {",
+    "translatedContent": "for await (const item of helloEntityStream) {"
+  },
+  {
+    "row": 126,
+    "rowsha": "nZ9PPc/c5MRmEJTdcRP7YcppMomPJskl9PIClrNYJ8o=",
+    "originContent": "  console.log(item);",
+    "translatedContent": "  console.log(item);"
+  },
+  {
+    "row": 127,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "出力："
+  },
+  {
+    "row": 130,
+    "rowsha": "RX9JV6+EKlJRz7cZAjTmpvwwwctp17nQhrSznIn4qwY=",
+    "originContent": "Output:",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 133,
+    "rowsha": "d9aUYehMldkTtrXG4mUpi/6J6UdToHTlaFMICTEqMMQ=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: {}, entity: 'sentence' }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: {}, entity: 'sentence' }"
+  },
+  {
+    "row": 134,
+    "rowsha": "auQUZvcFF+tvYCDmIb9Ulw17RU+9Hv2qTzn3/Gb0nhQ=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' }, entity: 'sentence' }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' }, entity: 'sentence' }"
+  },
+  {
+    "row": 135,
+    "rowsha": "mqewWMiD4X5aRoXX6+KHBamS9VUsy04ZZjpyInyywcE=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi' }, entity: 'sentence' }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi' }, entity: 'sentence' }"
+  },
+  {
+    "row": 136,
+    "rowsha": "ESlWPs1PDdrKXJz1oV/R6yVulkVl53LhUVXrvDrmw4A=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi,' }, entity: 'sentence' }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi,' }, entity: 'sentence' }"
+  },
+  {
+    "row": 137,
+    "rowsha": "kVswPvHuGlTGM2wTQwQfn90UJdOgeBH/GGKGqTfc3uU=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world' }, entity: 'sentence' }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world' }, entity: 'sentence' }"
+  },
+  {
+    "row": 138,
+    "rowsha": "Qg++N6SbPclpBABz/MjhxydPGSmj18l2i2DnYCOeWYo=",
+    "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world!' }, entity: 'sentence' }",
+    "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world!' }, entity: 'sentence' }"
+  },
+  {
+    "row": 139,
+    "rowsha": "4akza8269IoYKhC87nqsdrybL3tYw5ssjRmxcEi9RUk=",
+    "originContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hi, world!' }, entity: 'sentence'}",
+    "translatedContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hi, world!' }, entity: 'sentence'}"
+  },
+  {
+    "row": 140,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "1urAkPr7e2rm+dlt+uafpKIAjoG8r0rgKTbtTKywshI=",
+    "originContent": "## Usage with stream and entity parsing with multiple entities",
+    "translatedContent": "## 複数のエンティティを用いたストリームおよびエンティティ解析での使用法"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 145,
+    "rowsha": "JKfAayqwDbBxt9fU/+36Aq/TZ0pBRaaJZrXfB//tnR0=",
+    "originContent": "import { z } from \"zod\";",
+    "translatedContent": "import { z } from \"zod\";"
+  },
+  {
+    "row": 146,
+    "rowsha": "TxsJTx7zBanoJ3i52s2MhALZymDBidwb5iASR0bO2cA=",
+    "originContent": "import OpenAi from \"openai\";",
+    "translatedContent": "import OpenAi from \"openai\";"
+  },
+  {
+    "row": 147,
+    "rowsha": "Zsh9zynUm/NxyAPeMQpfJLfdb3t2Lqt8Br72dosvMjo=",
+    "originContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";",
+    "translatedContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "xswcA5L1wjMF4yUM4BjBT/P6kGMZfALgCpLfeoic9MM=",
+    "originContent": "// Intanciate OpenAI client with your API key",
+    "translatedContent": "// Intanciate OpenAI client with your API key"
+  },
+  {
+    "row": 150,
+    "rowsha": "2TooMO3uu8iVXfaE1Wjh6Yd/F3mBTZm1Fu9WtVlWeUc=",
+    "originContent": "const openai = new OpenAi({",
+    "translatedContent": "const openai = new OpenAi({"
+  },
+  {
+    "row": 151,
+    "rowsha": "5y4Oreq6c7zYZrdvAu20WQVYCwAInitGARq9Y/AlYQw=",
+    "originContent": "  apiKey: process.env.OPENAI_API_KEY,",
+    "translatedContent": "  apiKey: process.env.OPENAI_API_KEY,"
+  },
+  {
+    "row": 152,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "AHeysPkUl1uzIJY+nD7DQokca3QX29Cw5x9stdNB1dw=",
+    "originContent": "const PostcodeSchema = z.object({",
+    "translatedContent": "const PostcodeSchema = z.object({"
+  },
+  {
+    "row": 155,
+    "rowsha": "AOEooEDA3rHfBRh4dwFtuZ0LFPab5wwoW0RgJgqUKx8=",
+    "originContent": "  name: z.string().optional(),",
+    "translatedContent": "  name: z.string().optional(),"
+  },
+  {
+    "row": 156,
+    "rowsha": "nEfunLfmSiuEQ+nxmb49MeHllDWKI+MmNGSawcOKUpQ=",
+    "originContent": "  postcode: z.string().optional(),",
+    "translatedContent": "  postcode: z.string().optional(),"
+  },
+  {
+    "row": 157,
+    "rowsha": "exTCYxRR1EJAw8XU45pDHhwpGFKa+H1PC7ojvM8cEj4=",
+    "originContent": "  population: z.number().optional(),",
+    "translatedContent": "  population: z.number().optional(),"
+  },
+  {
+    "row": 158,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "TZLUFkP0BuEmB62izdHc5Rf5lILUIra0LEHUseKwSMU=",
+    "originContent": "// Call the API with stream enabled and a function",
+    "translatedContent": "// Call the API with stream enabled and a function"
+  },
+  {
+    "row": 161,
+    "rowsha": "Ju2KEP2ccWqXFl5oxcYeIQVEqt5vLMm21u6g3iK5q+M=",
+    "originContent": "const stream = await openai.chat.completions.create({",
+    "translatedContent": "const stream = await openai.chat.completions.create({"
+  },
+  {
+    "row": 162,
+    "rowsha": "ZBdRwKdz93ZDKf4/SfzVoYpAECOMH83kmx0gSpvhPQo=",
+    "originContent": "  messages: [",
+    "translatedContent": "  messages: ["
+  },
+  {
+    "row": 163,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 164,
+    "rowsha": "QfuQztHfgh2QOkgSSrfeCMMyHh4hyZ+fRwV2xLav/ZI=",
+    "originContent": "      role: \"system\",",
+    "translatedContent": "      role: \"system\","
+  },
+  {
+    "row": 165,
+    "rowsha": "soqjYuT0oo3WRb/3BIHx9u4sSeJwuj4wD9a2Sb1pIEk=",
+    "originContent": "      content: \"Give me 3 cities and their postcodes in California.\",",
+    "translatedContent": "      content: \"Give me 3 cities and their postcodes in California.\","
+  },
+  {
+    "row": 166,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 167,
+    "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+    "originContent": "  ],",
+    "translatedContent": "  ],"
+  },
+  {
+    "row": 168,
+    "rowsha": "4GPh/czGc4/35fZBFaI9T+7ESFlanI0OyxX9cgwX+FA=",
+    "originContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"",
+    "translatedContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\""
+  },
+  {
+    "row": 169,
+    "rowsha": "klPb4uvlMtLjRCDGBnons/vta6sQY6e1lwYgRcykp2g=",
+    "originContent": "  stream: true, // ENABLE STREAMING",
+    "translatedContent": "  stream: true, // ENABLE STREAMING"
+  },
+  {
+    "row": 170,
+    "rowsha": "m8FGWUwvMSuDozo3iOz86EqRr0cZe3PI4D15GmR1dUc=",
+    "originContent": "  temperature: 1.1,",
+    "translatedContent": "  temperature: 1.1,"
+  },
+  {
+    "row": 171,
+    "rowsha": "5komL/S2XZ1E38RqPsQAa5TWCrIhbMt6GCZvuWKA24E=",
+    "originContent": "  functions: [",
+    "translatedContent": "  functions: ["
+  },
+  {
+    "row": 172,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 173,
+    "rowsha": "l28LFC2Lm5hfvp1HsfqGAlInaYArRSVkmOFw4CkYj34=",
+    "originContent": "      name: \"set_postcode\",",
+    "translatedContent": "      name: \"set_postcode\","
+  },
+  {
+    "row": 174,
+    "rowsha": "Yf+DWwoJTTfAQjEOIT8ZFmUwLbTINy321CWcoMN79YM=",
+    "originContent": "      description: \"Set a postcode and a city\",",
+    "translatedContent": "      description: \"Set a postcode and a city\","
+  },
+  {
+    "row": 175,
+    "rowsha": "amfev8yahUT8VjJ03ignunQ1tn5cODZmNJAgdiuBFcc=",
+    "originContent": "      parameters: {",
+    "translatedContent": "      parameters: {"
+  },
+  {
+    "row": 176,
+    "rowsha": "SlOthO1M8uWnDC06VcdTcVWGCtIueaOiUav9mzzmiiY=",
+    "originContent": "        type: \"object\",",
+    "translatedContent": "        type: \"object\","
+  },
+  {
+    "row": 177,
+    "rowsha": "NYwr8KUnGU9XzoVXdHDRRyvYcEEgA32ca0Y1n1zqKUM=",
+    "originContent": "        properties: {",
+    "translatedContent": "        properties: {"
+  },
+  {
+    "row": 178,
+    "rowsha": "jcuji2ua3CoZ2DXa+xRy2SqEPGtQixMIkc5dpgrdQ1I=",
+    "originContent": "          // The name of the entity",
+    "translatedContent": "          // The name of the entity"
+  },
+  {
+    "row": 179,
+    "rowsha": "OnSCK3xQ4jI940uvhnRO6zvdaAD9XUwsDBd1OVwJ8pk=",
+    "originContent": "          postcodes: {",
+    "translatedContent": "          postcodes: {"
+  },
+  {
+    "row": 180,
+    "rowsha": "xXiLpPc+o/FFS+Ymp+IVd25pdSV+z7kEN/FDusWdEas=",
+    "originContent": "            type: \"array\",",
+    "translatedContent": "            type: \"array\","
+  },
+  {
+    "row": 181,
+    "rowsha": "59Xi0oXm94g6WP0fklwlpcw88rC2zMn/JSJk2sFHeM8=",
+    "originContent": "            items: {",
+    "translatedContent": "            items: {"
+  },
+  {
+    "row": 182,
+    "rowsha": "oIARO9+NDCeh5zTduJHTESHAjsP3DcItRsyKeSFkLF4=",
+    "originContent": "              type: \"object\",",
+    "translatedContent": "              type: \"object\","
+  },
+  {
+    "row": 183,
+    "rowsha": "MBWt9Zoa6RoYFc58tp8jmvVdr6wTExFJh+r16SuX7PY=",
+    "originContent": "              properties: {",
+    "translatedContent": "              properties: {"
+  },
+  {
+    "row": 184,
+    "rowsha": "R5S2EOWLkTrgVyuYLi0n8snisKXs/rEA35BTGGt9Qm4=",
+    "originContent": "                name: {",
+    "translatedContent": "                name: {"
+  },
+  {
+    "row": 185,
+    "rowsha": "Paf1qIkd9IVE3qoTf4nY8JCGYszOkS2uS1WFSvEkcCA=",
+    "originContent": "                  type: \"string\",",
+    "translatedContent": "                  type: \"string\","
+  },
+  {
+    "row": 186,
+    "rowsha": "ZuUd0QKbtx7S6KU0JFWSACwDUawnq4v+EJxYCxrwbUk=",
+    "originContent": "                  description: \"Name of the city\",",
+    "translatedContent": "                  description: \"Name of the city\","
+  },
+  {
+    "row": 187,
+    "rowsha": "K3VK//8pJxU5uxs1ygqkGkkrAPsGmTn8APfAzfKgBHQ=",
+    "originContent": "                },",
+    "translatedContent": "                },"
+  },
+  {
+    "row": 188,
+    "rowsha": "/+Ivt/pGhI6qpRhmrcCxhZ3GbeOvEJPCdhceKOVhris=",
+    "originContent": "                postcode: {",
+    "translatedContent": "                postcode: {"
+  },
+  {
+    "row": 189,
+    "rowsha": "Paf1qIkd9IVE3qoTf4nY8JCGYszOkS2uS1WFSvEkcCA=",
+    "originContent": "                  type: \"string\",",
+    "translatedContent": "                  type: \"string\","
+  },
+  {
+    "row": 190,
+    "rowsha": "38IaFORfYoBdQ0Z83we6Y2pLhYz/0F68PZiQySULrko=",
+    "originContent": "                  description: \"The postcode of the city\",",
+    "translatedContent": "                  description: \"The postcode of the city\","
+  },
+  {
+    "row": 191,
+    "rowsha": "K3VK//8pJxU5uxs1ygqkGkkrAPsGmTn8APfAzfKgBHQ=",
+    "originContent": "                },",
+    "translatedContent": "                },"
+  },
+  {
+    "row": 192,
+    "rowsha": "3zLSG7FYXZmWkpAWigZdWWZhRFHd+PqxyjEu8plRHa4=",
+    "originContent": "                population: {",
+    "translatedContent": "                population: {"
+  },
+  {
+    "row": 193,
+    "rowsha": "qjxq9d8JD42d6Kg0hpYN28EKnvdQD1vQU8ShoBt57EI=",
+    "originContent": "                  type: \"number\",",
+    "translatedContent": "                  type: \"number\","
+  },
+  {
+    "row": 194,
+    "rowsha": "kIFQU0eXRPdxG+RE52frdc4vsp0ckCSbHWndV2dwPhE=",
+    "originContent": "                  description: \"The population of the city\",",
+    "translatedContent": "                  description: \"The population of the city\","
+  },
+  {
+    "row": 195,
+    "rowsha": "K3VK//8pJxU5uxs1ygqkGkkrAPsGmTn8APfAzfKgBHQ=",
+    "originContent": "                },",
+    "translatedContent": "                },"
+  },
+  {
+    "row": 196,
+    "rowsha": "L3GOe69wfgabwZapH3maD2pmo0jrMKMNZthZ7NyNkEM=",
+    "originContent": "              },",
+    "translatedContent": "              },"
+  },
+  {
+    "row": 197,
+    "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
+    "originContent": "            },",
+    "translatedContent": "            },"
+  },
+  {
+    "row": 198,
+    "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+    "originContent": "          },",
+    "translatedContent": "          },"
+  },
+  {
+    "row": 199,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 200,
+    "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+    "originContent": "      },",
+    "translatedContent": "      },"
+  },
+  {
+    "row": 201,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 202,
+    "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+    "originContent": "  ],",
+    "translatedContent": "  ],"
+  },
+  {
+    "row": 203,
+    "rowsha": "q5pG5WXd811oU59yXUnzImI2fKkIeUnsJ/xISJsjy2U=",
+    "originContent": "  function_call: { name: \"set_postcode\" },",
+    "translatedContent": "  function_call: { name: \"set_postcode\" },"
+  },
+  {
+    "row": 204,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "jWYVWqlLBDc75Kualff8u8r9Lbi53ODjF53pdTnw7RA=",
+    "originContent": "// Select the mode of the stream parser",
+    "translatedContent": "// Select the mode of the stream parser"
+  },
+  {
+    "row": 207,
+    "rowsha": "cseGbCfKRmgUs7RCAbdGKz2QkmmcMp5KHUYcneeomWY=",
+    "originContent": "// - StreamObjectKeyValueTokens: (REALTIME)     Stream of JSON objects, key value pairs and tokens",
+    "translatedContent": "// - StreamObjectKeyValueTokens: (REALTIME)     Stream of JSON objects, key value pairs and tokens"
+  },
+  {
+    "row": 208,
+    "rowsha": "jypxGGLueXaT3jSrTUBrS5Ld44C6PwEiQ2/qljMhqMY=",
+    "originContent": "// - StreamObjectKeyValue:       (PROGRESSIVE)  Stream of JSON objects and key value pairs",
+    "translatedContent": "// - StreamObjectKeyValue:       (PROGRESSIVE)  Stream of JSON objects and key value pairs"
+  },
+  {
+    "row": 209,
+    "rowsha": "N6QK2G2IDLzRuuKbHzPz2QKqVAgDU/MTF1d2HZLa9OM=",
+    "originContent": "// - StreamObject:               (ONE-BY-ONE)   Stream of JSON objects",
+    "translatedContent": "// - StreamObject:               (ONE-BY-ONE)   Stream of JSON objects"
+  },
+  {
+    "row": 210,
+    "rowsha": "2qQqov2n3tFOsYeCOox9piCQX1mjId6hEmXRsKjuaKQ=",
+    "originContent": "// - NoStream:                   (ALL-TOGETHER) All the data is returned at the end of the process",
+    "translatedContent": "// - NoStream:                   (ALL-TOGETHER) All the data is returned at the end of the process"
+  },
+  {
+    "row": 211,
+    "rowsha": "WkV1pwaBs6NRVJgm4+GoxCNZjKnMsR2Xb6KJzIdkRfY=",
+    "originContent": "const mode = StreamMode.StreamObject;",
+    "translatedContent": "const mode = StreamMode.StreamObject;"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "uC2vTZmdwq/yPcHz+LJgawgTp7/8+9PN5BuI/53yoV4=",
+    "originContent": "// Create an instance of the handler",
+    "translatedContent": "// Create an instance of the handler"
+  },
+  {
+    "row": 214,
+    "rowsha": "K14uKRmp5zNJPpGo4yT2Cfr2Qg1RJKNX8lAN9Jb07x4=",
+    "originContent": "const openAiHandler = new OpenAiHandler(mode);",
+    "translatedContent": "const openAiHandler = new OpenAiHandler(mode);"
+  },
+  {
+    "row": 215,
+    "rowsha": "c1MOJThtvLN8mDgfzO/cdMdurnOV6Iakg4dZyqKyq0c=",
+    "originContent": "// Process the stream",
+    "translatedContent": "// Process the stream"
+  },
+  {
+    "row": 216,
+    "rowsha": "z9h7MSdGZ+isu9vL15fMWkKu86ZqJriK3nzFA+q0zlQ=",
+    "originContent": "const entityStream = openAiHandler.process(stream);",
+    "translatedContent": "const entityStream = openAiHandler.process(stream);"
+  },
+  {
+    "row": 217,
+    "rowsha": "WVL8nODLZRz0cZIMaoYNz35r2RLSNJD46Kl+qD5Dgrk=",
+    "originContent": "// Create an entity with the schema to validate the data",
+    "translatedContent": "// Create an entity with the schema to validate the data"
+  },
+  {
+    "row": 218,
+    "rowsha": "VpypudElhWe7T6yY1rxtIrNW8LQIdNEzqI2J2UF4/UY=",
+    "originContent": "const entityPostcode = new Entity(\"postcodes\", PostcodeSchema);",
+    "translatedContent": "const entityPostcode = new Entity(\"postcodes\", PostcodeSchema);"
+  },
+  {
+    "row": 219,
+    "rowsha": "FDeHC1QsbHjmmHGx07LJsivMs52K/Da4JwW2VvZGkQw=",
+    "originContent": "// Parse the stream to an entity, using the schema to validate the data",
+    "translatedContent": "// Parse the stream to an entity, using the schema to validate the data"
+  },
+  {
+    "row": 220,
+    "rowsha": "67QD1svGKQV5dXwyYF1kW+rYDJnIUMRiYomQaiRTmbw=",
+    "originContent": "const postcodeEntityStream = entityPostcode.genParseArray(entityStream);",
+    "translatedContent": "const postcodeEntityStream = entityPostcode.genParseArray(entityStream);"
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "5zcnvE9Q6MVY69SJL5dEcH4S8rvjxYtKeV472c9DmcM=",
+    "originContent": "// Iterate over the stream of entities",
+    "translatedContent": "// Iterate over the stream of entities"
+  },
+  {
+    "row": 223,
+    "rowsha": "I7uCPaT///81bT09bPbRKLqCWd/k8ZEsS3M7t9yJXxw=",
+    "originContent": "for await (const item of postcodeEntityStream) {",
+    "translatedContent": "for await (const item of postcodeEntityStream) {"
+  },
+  {
+    "row": 224,
+    "rowsha": "Jk2Plqj9MJ8bg6uKjVYSMd/J6JIMYUSaG/SeRkrDEns=",
+    "originContent": "  if (item) {",
+    "translatedContent": "  if (item) {"
+  },
+  {
+    "row": 225,
+    "rowsha": "pbMX7ttASwPiFdBKS3zqoPNXiMN5LUf8PzxsE0oXD1U=",
+    "originContent": "    // Display the entity",
+    "translatedContent": "    // Display the entity"
+  },
+  {
+    "row": 226,
+    "rowsha": "b5gtcNosqrfKqvyIm7wdzhXA0RHPlYo0A4DQgKFLeIA=",
+    "originContent": "    console.log(item);",
+    "translatedContent": "    console.log(item);"
+  },
+  {
+    "row": 227,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 228,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 229,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "出力:"
+  },
+  {
+    "row": 231,
+    "rowsha": "RX9JV6+EKlJRz7cZAjTmpvwwwctp17nQhrSznIn4qwY=",
+    "originContent": "Output:",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 234,
+    "rowsha": "ykdLMP8VBVPofLum3yAHma5gbH2jNgZxgvXbBzRh8x8=",
+    "originContent": "{ index: 0, status: 'COMPLETED', data: { name: 'Los Angeles', postcode: '90001', population: 3971883 }, entity: 'postcodes' }",
+    "translatedContent": "{ index: 0, status: 'COMPLETED', data: { name: 'Los Angeles', postcode: '90001', population: 3971883 }, entity: 'postcodes' }"
+  },
+  {
+    "row": 235,
+    "rowsha": "HZf+Ad75qykNat4pPSfDgv84B4Rf7QHSHTlu0kdmkJI=",
+    "originContent": "{ index: 1, status: 'COMPLETED', data: { name: 'San Francisco', postcode: '94102', population: 883305 }, entity: 'postcodes' }",
+    "translatedContent": "{ index: 1, status: 'COMPLETED', data: { name: 'San Francisco', postcode: '94102', population: 883305 }, entity: 'postcodes' }"
+  },
+  {
+    "row": 236,
+    "rowsha": "y2F6Lq2AgqLhI9Ng3KTV2/Z5LCsvXvUcJOwHtaQJ6gA=",
+    "originContent": "{ index: 2, status: 'COMPLETED', data: { name: 'San Diego', postcode: '92101', population: 1425976 }, entity: 'postcodes'}",
+    "translatedContent": "{ index: 2, status: 'COMPLETED', data: { name: 'San Diego', postcode: '92101', population: 1425976 }, entity: 'postcodes'}"
+  },
+  {
+    "row": 237,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "EkeJ3Byve/VvXHH9KReF9FszeSj+2cEBlZ3A9LYOBks=",
+    "originContent": "# Modes",
+    "translatedContent": "# モード"
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "VIw0aQzdhhFFb/lyqjVmI20eTSe/XOQmuTEDmqT3r+I=",
+    "originContent": "Select a mode from the list below that best suits your requirements:",
+    "translatedContent": "以下のリストから、あなたの要件に最も適したモードを選択してください："
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 243,
+    "rowsha": "6PFhZztJyQG894KTWvfwswKaG7tLytde2HzH95044sQ=",
+    "originContent": "1. **NoStream**",
+    "translatedContent": "1. **NoStream**"
+  },
+  {
+    "row": 244,
+    "rowsha": "1wspcXJJ6ECWBU9llGmlSkrEg6Kqt0pXvnCXBrvUOL0=",
+    "originContent": "2. **StreamObject**",
+    "translatedContent": "2. **StreamObject**"
+  },
+  {
+    "row": 245,
+    "rowsha": "L872cbbQuArv+EgKYByRgVZzZFrpKdSPcEDNR+lIt9Y=",
+    "originContent": "3. **StreamObjectKeyValue**",
+    "translatedContent": "3. **StreamObjectKeyValue**"
+  },
+  {
+    "row": 246,
+    "rowsha": "oHGr+BPgahS2QKSW2VYud2T2+KBig6d0o5M8iIq2nE0=",
+    "originContent": "4. **StreamObjectKeyValueTokens**",
+    "translatedContent": "4. **StreamObjectKeyValueTokens**"
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "rZJVaDIHUGSy6mmAXv2xY1O0NCteIa4kLpMcJEPoCNA=",
+    "originContent": "### NoStream",
+    "translatedContent": "### NoStream"
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "gqoOLCvWZANooSy++mcGAnlewZA+uIvInhj7/aXcZPw=",
+    "originContent": "Results are returned only after the entire query completes.",
+    "translatedContent": "結果はクエリ全体が完了してから返されます。"
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 254,
+    "rowsha": "J1rDWi018IJXevxmudFGqwZoF3xLWp19n7MBATHmgEs=",
+    "originContent": "| **NoStream Details**                                             |",
+    "translatedContent": "| **NoStreamの詳細**                                               |"
+  },
+  {
+    "row": 255,
+    "rowsha": "2UtPTic2Qp3ZYSYCMYcExkm7ezOxQ5s0OpAritm38rw=",
+    "originContent": "| ---------------------------------------------------------------- |",
+    "translatedContent": "| --------------------------------------------------------------- |"
+  },
+  {
+    "row": 256,
+    "rowsha": "qKFDQ6hb/UMMZZ57tnv2jlygMmdwoZig8DkfpcwHfmE=",
+    "originContent": "| ✅ Single query retrieves all data                               |",
+    "translatedContent": "| ✅ 単一のクエリで全データを取得                                |"
+  },
+  {
+    "row": 257,
+    "rowsha": "S1NFGzNm90ZUsSLdHIT08YH6HRg4OHQ32oZXz4o6dSc=",
+    "originContent": "| ✅ Reduces network traffic                                       |",
+    "translatedContent": "| ✅ ネットワークトラフィックを削減                              |"
+  },
+  {
+    "row": 258,
+    "rowsha": "oO4/LWz6tTak54bZU2YOSLSFuiLm8tcOv1IuYC+CWwo=",
+    "originContent": "| ⚠️ User experience may be compromised due to extended wait times |",
+    "translatedContent": "| ⚠️ 待機時間が長くなるためユーザー体験が損なわれる可能性あり |"
+  },
+  {
+    "row": 259,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 260,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 261,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "Xn7tOxjLFkiXxLeOsZ35t8+MXBWCBkzTJ1GBL7DfxXI=",
+    "originContent": "### StreamObject",
+    "translatedContent": "### StreamObject"
+  },
+  {
+    "row": 263,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 264,
+    "rowsha": "bWKS0gt5u0041ZHk0ScZQRDGt16NDzlqc1mWP7NhvKg=",
+    "originContent": "An event is generated for each item in the list. Items appear as they become ready.",
+    "translatedContent": "リスト内の各アイテムに対してイベントが生成されます。アイテムは準備ができ次第表示されます。"
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "pGv85hPTHJxQfWLKIxTbA6iiCXds6Z0sIvW9Ce22ja4=",
+    "originContent": "| **StreamObject Details**                                                        |",
+    "translatedContent": "| **StreamObjectの詳細**                                                           |"
+  },
+  {
+    "row": 267,
+    "rowsha": "BZNUT+XX7iKL4PuOKBinO2uSrKNQ/IkTQ1HFbb9pw10=",
+    "originContent": "| ------------------------------------------------------------------------------- |",
+    "translatedContent": "| -------------------------------------------------------------------------------- |"
+  },
+  {
+    "row": 268,
+    "rowsha": "Jf6rxljNYKOONzJfCq7PfzZzpBScNq9Z+OXKa2HFcaE=",
+    "originContent": "| ✅ Each message corresponds to a fully-formed item                              |",
+    "translatedContent": "| ✅ 各メッセージは完全なアイテムに対応                                          |"
+  },
+  {
+    "row": 269,
+    "rowsha": "5+/Rgh0ge89Z17Wvp/4SRlKmi/L+HurBupFjSe69Xl0=",
+    "originContent": "| ✅ Fewer messages                                                               |",
+    "translatedContent": "| ✅ メッセージ数が少ない                                                         |"
+  },
+  {
+    "row": 270,
+    "rowsha": "d7gq8T+VjgDZSVJ2NpbZuzyGaf6pFY1+jypRTCm2XSg=",
+    "originContent": "| ✅ All essential fields are received at once                                    |",
+    "translatedContent": "| ✅ すべての必須フィールドが一度に受信される                                    |"
+  },
+  {
+    "row": 271,
+    "rowsha": "1/yiQlNGVoUDh38a7MWbMD0BQR2ZoOgg81xtHZtcmyE=",
+    "originContent": "| ⚠️ Some delay: users need to wait until an item is fully ready to update the UI |",
+    "translatedContent": "| ⚠️ 一部遅延あり：アイテムの準備完了までユーザーはUIの更新を待つ必要がある       |"
+  },
+  {
+    "row": 272,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 273,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "moMlSTvIsZ9S8GBd82fygJFyQpKW4neOluralkArzLE=",
+    "originContent": "### StreamObjectKeyValue",
+    "translatedContent": "### StreamObjectKeyValue"
+  },
+  {
+    "row": 276,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 277,
+    "rowsha": "T6d2iJrCj/bQ9Wt5Vzcg2Tk/SLSgWN02GEP2FeIXkXs=",
+    "originContent": "Objects are received in fragments: both a key and its corresponding value are sent together.",
+    "translatedContent": "オブジェクトは断片で受信されます：キーと対応する値が一緒に送信されます。"
+  },
+  {
+    "row": 278,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| **StreamObjectKeyValue の詳細**                          |"
+  },
+  {
+    "row": 279,
+    "rowsha": "v0c11Nzyu4j4DDs67zRAxFrKgy3urMyHwq0Zuj/qzCk=",
+    "originContent": "| **StreamObjectKeyValue Details**                          |",
+    "translatedContent": "| --------------------------------------------------------- |"
+  },
+  {
+    "row": 280,
+    "rowsha": "vcMHlIoZDpuef7EV4ydp8fT2yXYyF38smS8B0zbag24=",
+    "originContent": "| --------------------------------------------------------- |",
+    "translatedContent": "| ✅ ユーザーはUIの一部と対話可能                            |"
+  },
+  {
+    "row": 281,
+    "rowsha": "ORKgjSlMT6L55dQTn+ykW4pGbv2H8FD0As1AM1iQGl4=",
+    "originContent": "| ✅ Users can engage with portions of the UI               |",
+    "translatedContent": "| ✅ より定期的なUI更新をサポート                            |"
+  },
+  {
+    "row": 282,
+    "rowsha": "0IzL/X1PEoNpuh+he4D4mn2dxrZ4qy2p68OGuduAjno=",
+    "originContent": "| ✅ Supports more regular UI updates                       |",
+    "translatedContent": "| ⚠️ ネットワークトラフィックが増加                          |"
+  },
+  {
+    "row": 283,
+    "rowsha": "P1k0hsinV/hDQrW0xGVJIuNAeArI2e5Rjh/ADzsOeAM=",
+    "originContent": "| ⚠️ Higher network traffic                                 |",
+    "translatedContent": "| ⚠️ 不完全なオブジェクトによるキーの強制が困難             |"
+  },
+  {
+    "row": 284,
+    "rowsha": "/Rgs0r9CbihNem1q2puvpKJg9z16R9Lb0STTelrsGIY=",
+    "originContent": "| ⚠️ Challenges in enforcing keys due to incomplete objects |",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 286,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 287,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### StreamObjectKeyValueTokens"
+  },
+  {
+    "row": 288,
+    "rowsha": "B6nqChhTY1FXF8actwDz2uS5W8mrL5cYBgx/M7jlMek=",
+    "originContent": "### StreamObjectKeyValueTokens",
+    "translatedContent": ""
+  },
+  {
+    "row": 289,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "キーは完全な状態で受信され、値は完全になるまで断片的に配信されます。この方法はトークン単位でのUI更新を可能にします。"
+  },
+  {
+    "row": 290,
+    "rowsha": "ZSaRBPVEtS10nlIaS6/7eLr0oX86yereOPp01tmmQC4=",
+    "originContent": "Keys are received in full, while values are delivered piecemeal until they're complete. This method offers token-by-token UI updating.",
+    "translatedContent": ""
+  },
+  {
+    "row": 291,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| **StreamObjectKeyValueToken の詳細**                               |"
+  },
+  {
+    "row": 292,
+    "rowsha": "FEiLNuz/sV5UR9DOJB9SRygkIItUpeXRuyL8YZHzpkU=",
+    "originContent": "| **StreamObjectKeyValueToken Details**                               |",
+    "translatedContent": "| ------------------------------------------------------------------- |"
+  },
+  {
+    "row": 293,
+    "rowsha": "4TxvYMwQJR1/4IOAMuOYw4OkHimb5RBG3CJ5Y+5YHDk=",
+    "originContent": "| ------------------------------------------------------------------- |",
+    "translatedContent": "| ✅ ダイナミックなユーザー体験を提供                               |"
+  },
+  {
+    "row": 294,
+    "rowsha": "W6+hD07+VDUEdktMBZaSRTSZcR0Q4ezzK8HwAjCIY/A=",
+    "originContent": "| ✅ Offers a dynamic user experience                                 |",
+    "translatedContent": "| ✅ コンテンツを段階的に消費可能                                   |"
+  },
+  {
+    "row": 295,
+    "rowsha": "YbsnngrCGimR+cJX01RG6Fg3qwSf6SwwWYPwShcU3l0=",
+    "originContent": "| ✅ Enables step-by-step content consumption                         |",
+    "translatedContent": "| ✅ ユーザーの待機時間を短縮                                       |"
+  },
+  {
+    "row": 296,
+    "rowsha": "U4lbpS3nc1Uyg22fyomncR7/wOej6s0Rz6mNx3ik4rg=",
+    "originContent": "| ✅ Decreases user waiting times                                     |",
+    "translatedContent": "| ⚠️ 値が断続的に到着することでUIの不整合が発生する可能性           |"
+  },
+  {
+    "row": 297,
+    "rowsha": "Sg2QD1uY8WGnNIhKduyYNKMYAvsr72MrdKF6thUxQcU=",
+    "originContent": "| ⚠️ Possible UI inconsistencies due to values arriving incrementally |",
+    "translatedContent": "| ⚠️ ネットワークトラフィックの増加                                 |"
+  },
+  {
+    "row": 298,
+    "rowsha": "7CNoZdAUDixEwbrqBjPVsvdCRZN9mEM+DEtA9FNpRgE=",
+    "originContent": "| ⚠️ Augmented network traffic                                        |",
+    "translatedContent": ""
+  },
+  {
+    "row": 299,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## デモ"
+  },
+  {
+    "row": 300,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": ""
+  },
+  {
+    "row": 301,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "キーと値のペアでJSONオブジェクトを段階的にストリーム："
+  },
+  {
+    "row": 302,
+    "rowsha": "/PC/alIw+4uHfCMxALkaNJnQZAZp1NJ+E1U+BACkFUY=",
+    "originContent": "Stream of JSON object progressively by key value pairs:",
+    "translatedContent": ""
+  },
+  {
+    "row": 303,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/55643614-b92b-4b1f-9cf9-e60d6d783a0c"
+  },
+  {
+    "row": 304,
+    "rowsha": "p8vWVkM7YK65iI5XO9Ml54KaN6YsZASUuPHlVblpzgw=",
+    "originContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/55643614-b92b-4b1f-9cf9-e60d6d783a0c",
+    "translatedContent": ""
+  },
+  {
+    "row": 305,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "リアルタイムでJSONオブジェクトをストリーム："
+  },
+  {
+    "row": 306,
+    "rowsha": "8HRP74HKh4jVsYwFjyn9Z7H0S0hQC0KuAvA/gfkOjRg=",
+    "originContent": "Stream of JSON objects in realtime:",
+    "translatedContent": ""
+  },
+  {
+    "row": 307,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/73289d38-8526-46cf-a68c-ac80019092ab"
+  },
+  {
+    "row": 308,
+    "rowsha": "GwlicHn+kN0l5PopbuiwC09I19JclsNFmxbHlbBbtyk=",
+    "originContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/73289d38-8526-46cf-a68c-ac80019092ab",
+    "translatedContent": ""
+  },
+  {
+    "row": 309,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 参考文献"
+  },
+  {
+    "row": 310,
+    "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+    "originContent": "## References",
+    "translatedContent": ""
+  },
+  {
+    "row": 311,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[npmパッケージ](https://www.npmjs.com/package/openai-partial-stream)"
+  },
+  {
+    "row": 312,
+    "rowsha": "oxgEp1fTn6fIUnJyYHc7NTPd8WOQ9aleDYss2ihsRVQ=",
+    "originContent": "[npm pakcage](https://www.npmjs.com/package/openai-partial-stream)",
+    "translatedContent": ""
+  },
+  {
+    "row": 313,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

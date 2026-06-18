@@ -1,0 +1,2088 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Parse Partial JSON Stream - Turn your slow AI app into an engaging real-time app\n\n- Convert a **stream of token** into a **parsable JSON** object before the stream ends.\n- Implement **Streaming UI** in **LLM**-based AI application.\n- Leverage **OpenAI Function Calling** for early stream processing.\n- Parse **JSON streams** into distinct **entities**.\n- Engage your users with a **real-time** experience.\n\n![json_stream_color](https://github.com/st3w4r/openai-partial-stream/assets/4228332/04c4bdfc-d991-4ad0-85fc-04eb35b106f3)\n\n## Follow the Work\n\n- [✖️ Twitter](https://twitter.com/YanaelBarbier)\n- [🧵 Threads](https://www.threads.net/@yanaelbarbier)\n- [📰 Blog](https://yanael.io/subscribe/)\n\n## Install\n\nTo install dependencies:\n",
+    "ContentSha": "YbEZlOGoDvXme6j2WPQX5ecAXjxvxoAHrT+aOr2jptA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 解析部分 JSON 流 - 将你的慢速 AI 应用变成引人入胜的实时应用\n\n- 在流结束前，将**令牌流**转换为**可解析的 JSON**对象。\n- 在基于**大语言模型（LLM）**的 AI 应用中实现**流式 UI**。\n- 利用**OpenAI 函数调用**进行早期流处理。\n- 将**JSON 流**解析为不同的**实体**。\n- 通过**实时**体验吸引用户。\n\n![json_stream_color](https://github.com/st3w4r/openai-partial-stream/assets/4228332/04c4bdfc-d991-4ad0-85fc-04eb35b106f3)\n\n## 关注动态\n\n- [✖️ Twitter](https://twitter.com/YanaelBarbier)\n- [🧵 Threads](https://www.threads.net/@yanaelbarbier)\n- [📰 博客](https://yanael.io/subscribe/)\n\n## 安装\n\n安装依赖：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yDpa4ujqj8pf1gx2CB/87Om2+lB0JxgjRJLdKvjPjpI=",
+        "originContent": "# Parse Partial JSON Stream - Turn your slow AI app into an engaging real-time app",
+        "translatedContent": "# 解析部分 JSON 流 - 将你的慢速 AI 应用变成引人入胜的实时应用"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "6hf562ls+TDeA6RLcK0I3UJBU97/aIi6eXm/Ktd4gUY=",
+        "originContent": "- Convert a **stream of token** into a **parsable JSON** object before the stream ends.",
+        "translatedContent": "- 在流结束前，将**令牌流**转换为**可解析的 JSON**对象。"
+      },
+      {
+        "row": 4,
+        "rowsha": "h/7VLrpVMs+YH4IRAg5JadHTeoNSHL5k58MqVY9v7lU=",
+        "originContent": "- Implement **Streaming UI** in **LLM**-based AI application.",
+        "translatedContent": "- 在基于**大语言模型（LLM）**的 AI 应用中实现**流式 UI**。"
+      },
+      {
+        "row": 5,
+        "rowsha": "k7hd5vB+Tpq9B4dr+lIRdIg+PKze+ij3m+jwLqmdgxw=",
+        "originContent": "- Leverage **OpenAI Function Calling** for early stream processing.",
+        "translatedContent": "- 利用**OpenAI 函数调用**进行早期流处理。"
+      },
+      {
+        "row": 6,
+        "rowsha": "Y2vwhFnz1JPC+m16ntAgsyIOBEJ+xZNAlIdCDz4UULk=",
+        "originContent": "- Parse **JSON streams** into distinct **entities**.",
+        "translatedContent": "- 将**JSON 流**解析为不同的**实体**。"
+      },
+      {
+        "row": 7,
+        "rowsha": "TX3yBgzNf3zH9uLwpDJZF3EaaUVe/BpYNmSCSq8OPkk=",
+        "originContent": "- Engage your users with a **real-time** experience.",
+        "translatedContent": "- 通过**实时**体验吸引用户。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "CFkwOdv7vxc55a+A258YunBtxdtXnp/qzurrZOkcYUk=",
+        "originContent": "![json_stream_color](https://github.com/st3w4r/openai-partial-stream/assets/4228332/04c4bdfc-d991-4ad0-85fc-04eb35b106f3)",
+        "translatedContent": "![json_stream_color](https://github.com/st3w4r/openai-partial-stream/assets/4228332/04c4bdfc-d991-4ad0-85fc-04eb35b106f3)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "a9q44hcMeQzKTrXddLk4XyXPmh5Zpwe4knhbvUOAWiw=",
+        "originContent": "## Follow the Work",
+        "translatedContent": "## 关注动态"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ku2t0wR1B2oPw4TlrjoRc18bJ/Q6qgrbH5IdUETodbo=",
+        "originContent": "- [✖️ Twitter](https://twitter.com/YanaelBarbier)",
+        "translatedContent": "- [✖️ Twitter](https://twitter.com/YanaelBarbier)"
+      },
+      {
+        "row": 14,
+        "rowsha": "LUTzEyecmRRe7AtRI32kIhHt3ZqeYgcZi8PpEJO5te8=",
+        "originContent": "- [🧵 Threads](https://www.threads.net/@yanaelbarbier)",
+        "translatedContent": "- [🧵 Threads](https://www.threads.net/@yanaelbarbier)"
+      },
+      {
+        "row": 15,
+        "rowsha": "F3AzJ4I0g+imDV6P+s8E+SrIJOCSgW855m6c1ImucEw=",
+        "originContent": "- [📰 Blog](https://yanael.io/subscribe/)",
+        "translatedContent": "- [📰 博客](https://yanael.io/subscribe/)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "d9BCt8Ylq4hu43Oe5Bm8vOVsO+THSIIVmiIZzJx+bYU=",
+        "originContent": "To install dependencies:",
+        "translatedContent": "安装依赖："
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpm install --save openai-partial-stream\n```",
+    "ContentSha": "nDCOiSffZbin0ksMNgHQAKplrpjNfBSeOa6yjiCJosE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install --save openai-partial-stream\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "X4WfKxa1mAKDBRcFQZ5gMXFM2GuEhJUH9GZl5SuUt38=",
+        "originContent": "npm install --save openai-partial-stream",
+        "translatedContent": "npm install --save openai-partial-stream"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage with simple stream\n\nTurn a stream of token into a parsable JSON object as soon as possible.\n",
+    "ContentSha": "veZ6jwlCs3exu4n8Y3tkpvEa6RaUSGlhFi3dflZo6To=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 简单流的使用\n\n尽快将一个标记流转换为可解析的 JSON 对象。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PZo8Kbk/QU2htaa/2M7IV1eu+nK0LMaIlnE8vI6lUqg=",
+        "originContent": "## Usage with simple stream",
+        "translatedContent": "## 简单流的使用"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yWoowegigSuxn5P39m1ZyErck2tM1AcpacYa9Mh/tVI=",
+        "originContent": "Turn a stream of token into a parsable JSON object as soon as possible.",
+        "translatedContent": "尽快将一个标记流转换为可解析的 JSON 对象。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```javascript\nimport OpenAi from \"openai\";\nimport { OpenAiHandler, StreamMode } from \"openai-partial-stream\";\n\n// Set your OpenAI API key as an environment variable: OPENAI_API_KEY\nconst openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });\n\nconst stream = await openai.chat.completions.create({\n  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],\n  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"\n  stream: true, // ENABLE STREAMING\n  temperature: 1,\n  functions: [\n    {\n      name: \"say_hello\",\n      description: \"say hello\",\n      parameters: {\n        type: \"object\",\n        properties: {\n          sentence: {\n            type: \"string\",\n            description: \"The sentence generated\",\n          },\n        },\n      },\n    },\n  ],\n  function_call: { name: \"say_hello\" },\n});\n\nconst openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);\nconst entityStream = openAiHandler.process(stream);\n\nfor await (const item of entityStream) {\n  console.log(item);\n}\n```",
+    "ContentSha": "Hz6HuhDtZt2bZLpgSCRV+rW5ZJTSb4Eg+LmE1feF0j0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\nimport OpenAi from \"openai\";\nimport { OpenAiHandler, StreamMode } from \"openai-partial-stream\";\n\n// Set your OpenAI API key as an environment variable: OPENAI_API_KEY\nconst openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });\n\nconst stream = await openai.chat.completions.create({\n  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],\n  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"\n  stream: true, // ENABLE STREAMING\n  temperature: 1,\n  functions: [\n    {\n      name: \"say_hello\",\n      description: \"say hello\",\n      parameters: {\n        type: \"object\",\n        properties: {\n          sentence: {\n            type: \"string\",\n            description: \"The sentence generated\",\n          },\n        },\n      },\n    },\n  ],\n  function_call: { name: \"say_hello\" },\n});\n\nconst openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);\nconst entityStream = openAiHandler.process(stream);\n\nfor await (const item of entityStream) {\n  console.log(item);\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "TxsJTx7zBanoJ3i52s2MhALZymDBidwb5iASR0bO2cA=",
+        "originContent": "import OpenAi from \"openai\";",
+        "translatedContent": "import OpenAi from \"openai\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "DmprLtChUJ3M/gAvGOgg8npAa5MFh66UkqVhMxjNF1I=",
+        "originContent": "import { OpenAiHandler, StreamMode } from \"openai-partial-stream\";",
+        "translatedContent": "import { OpenAiHandler, StreamMode } from \"openai-partial-stream\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "duavWjoFCY8kwhLedsFOVNEML1yMhbiWWogszIpkPPU=",
+        "originContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY",
+        "translatedContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY"
+      },
+      {
+        "row": 6,
+        "rowsha": "p01QQIXBUVEnWqcdLUA2/AwmiPLhq7JVB4QX3cOfeZQ=",
+        "originContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });",
+        "translatedContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Ju2KEP2ccWqXFl5oxcYeIQVEqt5vLMm21u6g3iK5q+M=",
+        "originContent": "const stream = await openai.chat.completions.create({",
+        "translatedContent": "const stream = await openai.chat.completions.create({"
+      },
+      {
+        "row": 9,
+        "rowsha": "ANRPtM85vlGaGsYUAxlaNLYdS/3hOAfaxgw8qd/u2bQ=",
+        "originContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],",
+        "translatedContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],"
+      },
+      {
+        "row": 10,
+        "rowsha": "4GPh/czGc4/35fZBFaI9T+7ESFlanI0OyxX9cgwX+FA=",
+        "originContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"",
+        "translatedContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\""
+      },
+      {
+        "row": 11,
+        "rowsha": "klPb4uvlMtLjRCDGBnons/vta6sQY6e1lwYgRcykp2g=",
+        "originContent": "  stream: true, // ENABLE STREAMING",
+        "translatedContent": "  stream: true, // ENABLE STREAMING"
+      },
+      {
+        "row": 12,
+        "rowsha": "R++zRhyxz/PtsefNhbAOt9DEwEgKb84IRPc9AwJQfh4=",
+        "originContent": "  temperature: 1,",
+        "translatedContent": "  temperature: 1,"
+      },
+      {
+        "row": 13,
+        "rowsha": "5komL/S2XZ1E38RqPsQAa5TWCrIhbMt6GCZvuWKA24E=",
+        "originContent": "  functions: [",
+        "translatedContent": "  functions: ["
+      },
+      {
+        "row": 14,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 15,
+        "rowsha": "y9VoIZdx2jCmySQQM3JD3ihYnER1JwNkJ7NLTmdiNao=",
+        "originContent": "      name: \"say_hello\",",
+        "translatedContent": "      name: \"say_hello\","
+      },
+      {
+        "row": 16,
+        "rowsha": "PeZQ2JEfdDi8SbQHmNIzx7BsF2gorHULgVnsghAQDS8=",
+        "originContent": "      description: \"say hello\",",
+        "translatedContent": "      description: \"say hello\","
+      },
+      {
+        "row": 17,
+        "rowsha": "amfev8yahUT8VjJ03ignunQ1tn5cODZmNJAgdiuBFcc=",
+        "originContent": "      parameters: {",
+        "translatedContent": "      parameters: {"
+      },
+      {
+        "row": 18,
+        "rowsha": "SlOthO1M8uWnDC06VcdTcVWGCtIueaOiUav9mzzmiiY=",
+        "originContent": "        type: \"object\",",
+        "translatedContent": "        type: \"object\","
+      },
+      {
+        "row": 19,
+        "rowsha": "NYwr8KUnGU9XzoVXdHDRRyvYcEEgA32ca0Y1n1zqKUM=",
+        "originContent": "        properties: {",
+        "translatedContent": "        properties: {"
+      },
+      {
+        "row": 20,
+        "rowsha": "88JOhWpVWDe2WAH1AAahHb+cw5uwG+Naiut2r28YGJc=",
+        "originContent": "          sentence: {",
+        "translatedContent": "          sentence: {"
+      },
+      {
+        "row": 21,
+        "rowsha": "M+W21XG4KBrBdCjc+R1reTZA4MIDyQCoKbQEmLVH4hg=",
+        "originContent": "            type: \"string\",",
+        "translatedContent": "            type: \"string\","
+      },
+      {
+        "row": 22,
+        "rowsha": "o/f7GcJhgwLCcvyQy6ubuA86KKbd9BC1/BMT44qR1P4=",
+        "originContent": "            description: \"The sentence generated\",",
+        "translatedContent": "            description: \"The sentence generated\","
+      },
+      {
+        "row": 23,
+        "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+        "originContent": "          },",
+        "translatedContent": "          },"
+      },
+      {
+        "row": 24,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 25,
+        "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+        "originContent": "      },",
+        "translatedContent": "      },"
+      },
+      {
+        "row": 26,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 27,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 28,
+        "rowsha": "p/yz+3LU0Gp7v4W2C/2Q+kGNWCzqLb/M1LwJhaQb3e8=",
+        "originContent": "  function_call: { name: \"say_hello\" },",
+        "translatedContent": "  function_call: { name: \"say_hello\" },"
+      },
+      {
+        "row": 29,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "wVa+OD4IfV0OQxqQ07GJ/RIEjXHNEgmHTrmRA2luFlM=",
+        "originContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);",
+        "translatedContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);"
+      },
+      {
+        "row": 32,
+        "rowsha": "z9h7MSdGZ+isu9vL15fMWkKu86ZqJriK3nzFA+q0zlQ=",
+        "originContent": "const entityStream = openAiHandler.process(stream);",
+        "translatedContent": "const entityStream = openAiHandler.process(stream);"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "xDSKj08gsXDcozgXUSYBiHO8+pWOgsXBaRss3WxpwSo=",
+        "originContent": "for await (const item of entityStream) {",
+        "translatedContent": "for await (const item of entityStream) {"
+      },
+      {
+        "row": 35,
+        "rowsha": "nZ9PPc/c5MRmEJTdcRP7YcppMomPJskl9PIClrNYJ8o=",
+        "originContent": "  console.log(item);",
+        "translatedContent": "  console.log(item);"
+      },
+      {
+        "row": 36,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 37,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOutput:\n",
+    "ContentSha": "jiM3qancCgMsr7E8iIvK5HHfRac0zmnFNzZC3qcOuUg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "输出：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "输出："
+      },
+      {
+        "row": 2,
+        "rowsha": "RX9JV6+EKlJRz7cZAjTmpvwwwctp17nQhrSznIn4qwY=",
+        "originContent": "Output:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```js\n{ index: 0, status: 'PARTIAL', data: {} }\n{ index: 0, status: 'PARTIAL', data: { sentence: '' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello,' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world!' } }\n{ index: 0, status: 'COMPLETED', data: { sentence: 'Hello, world!' } }\n```",
+    "ContentSha": "0Ys0Cp92tHZDwavHTBvRpCicW1CvuxIW/i1/g8Z1rME=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n{ index: 0, status: 'PARTIAL', data: {} }\n{ index: 0, status: 'PARTIAL', data: { sentence: '' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello,' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world' } }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world!' } }\n{ index: 0, status: 'COMPLETED', data: { sentence: 'Hello, world!' } }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "QgkYVaS1SCDGXqcgs+idtld0tMuBYO7CSvJQbxw7tzI=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: {} }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: {} }"
+      },
+      {
+        "row": 3,
+        "rowsha": "IR4iJjkJEVibfZ0YOoZP8aSbQejM4QmRMqM+cMtrwgY=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' } }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' } }"
+      },
+      {
+        "row": 4,
+        "rowsha": "2MLMSoykuwVAGtWIYWzQkBeczIVeqDu0gWSR7EBzFuY=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello' } }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello' } }"
+      },
+      {
+        "row": 5,
+        "rowsha": "Ofwg7bVVbjZPXFSZgHGZWw1Yib/q5jdBjs9xdavVDTw=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello,' } }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello,' } }"
+      },
+      {
+        "row": 6,
+        "rowsha": "1pWd5c+k2E8IWGRcoemAC8PiYe0LUuwbDupp8yb5gns=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world' } }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world' } }"
+      },
+      {
+        "row": 7,
+        "rowsha": "etqFcFPlO+UacIg3MR7g4owb0ApFCp/nm/qlws++Rn0=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world!' } }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hello, world!' } }"
+      },
+      {
+        "row": 8,
+        "rowsha": "JNIMGockkWM3EOmMTebSH6ggGJV/x/0/azKNmATscrQ=",
+        "originContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hello, world!' } }",
+        "translatedContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hello, world!' } }"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Usage with stream and entity parsing\n\nValidate the data against a schema and only return the data when it is valid.\n",
+    "ContentSha": "MlKe9cXyfVJP0OmHHBwxgnw6Q4DyFRHHC/Os5K1I53o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用流和实体解析\n\n根据模式验证数据，仅在数据有效时返回数据。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lRHqMQWdworcTA0wlXjFM2sxpvvJCXbw6BQbkQ79KrM=",
+        "originContent": "## Usage with stream and entity parsing",
+        "translatedContent": "## 使用流和实体解析"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8I3/fhcF92TnllNukczmOFdDtJkx3I6dfMLDvmWF/0w=",
+        "originContent": "Validate the data against a schema and only return the data when it is valid.",
+        "translatedContent": "根据模式验证数据，仅在数据有效时返回数据。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```javascript\nimport { z } from \"zod\";\nimport OpenAi from \"openai\";\nimport { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";\n\n// Set your OpenAI API key as an environment variable: OPENAI_API_KEY\nconst openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });\n\nconst stream = await openai.chat.completions.create({\n  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],\n  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"\n  stream: true, // ENABLE STREAMING\n  temperature: 1,\n  functions: [\n    {\n      name: \"say_hello\",\n      description: \"say hello\",\n      parameters: {\n        type: \"object\",\n        properties: {\n          sentence: {\n            type: \"string\",\n            description: \"The sentence generated\",\n          },\n        },\n      },\n    },\n  ],\n  function_call: { name: \"say_hello\" },\n});\n\nconst openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);\nconst entityStream = openAiHandler.process(stream);\n\n// Entity Parsing to validate the data\nconst HelloSchema = z.object({\n  sentence: z.string().optional(),\n});\n\nconst entityHello = new Entity(\"sentence\", HelloSchema);\nconst helloEntityStream = entityHello.genParse(entityStream);\n\nfor await (const item of helloEntityStream) {\n  console.log(item);\n}\n```",
+    "ContentSha": "jcMWtGpl3ZmFe/E3Kh68e6KCztf3lz0qNZgFzgy2rfY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\nimport { z } from \"zod\";\nimport OpenAi from \"openai\";\nimport { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";\n\n// Set your OpenAI API key as an environment variable: OPENAI_API_KEY\nconst openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });\n\nconst stream = await openai.chat.completions.create({\n  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],\n  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"\n  stream: true, // ENABLE STREAMING\n  temperature: 1,\n  functions: [\n    {\n      name: \"say_hello\",\n      description: \"say hello\",\n      parameters: {\n        type: \"object\",\n        properties: {\n          sentence: {\n            type: \"string\",\n            description: \"The sentence generated\",\n          },\n        },\n      },\n    },\n  ],\n  function_call: { name: \"say_hello\" },\n});\n\nconst openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);\nconst entityStream = openAiHandler.process(stream);\n\n// Entity Parsing to validate the data\nconst HelloSchema = z.object({\n  sentence: z.string().optional(),\n});\n\nconst entityHello = new Entity(\"sentence\", HelloSchema);\nconst helloEntityStream = entityHello.genParse(entityStream);\n\nfor await (const item of helloEntityStream) {\n  console.log(item);\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "JKfAayqwDbBxt9fU/+36Aq/TZ0pBRaaJZrXfB//tnR0=",
+        "originContent": "import { z } from \"zod\";",
+        "translatedContent": "import { z } from \"zod\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "TxsJTx7zBanoJ3i52s2MhALZymDBidwb5iASR0bO2cA=",
+        "originContent": "import OpenAi from \"openai\";",
+        "translatedContent": "import OpenAi from \"openai\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "Zsh9zynUm/NxyAPeMQpfJLfdb3t2Lqt8Br72dosvMjo=",
+        "originContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";",
+        "translatedContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "duavWjoFCY8kwhLedsFOVNEML1yMhbiWWogszIpkPPU=",
+        "originContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY",
+        "translatedContent": "// Set your OpenAI API key as an environment variable: OPENAI_API_KEY"
+      },
+      {
+        "row": 7,
+        "rowsha": "p01QQIXBUVEnWqcdLUA2/AwmiPLhq7JVB4QX3cOfeZQ=",
+        "originContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });",
+        "translatedContent": "const openai = new OpenAi({ apiKey: process.env.OPENAI_API_KEY });"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Ju2KEP2ccWqXFl5oxcYeIQVEqt5vLMm21u6g3iK5q+M=",
+        "originContent": "const stream = await openai.chat.completions.create({",
+        "translatedContent": "const stream = await openai.chat.completions.create({"
+      },
+      {
+        "row": 10,
+        "rowsha": "ANRPtM85vlGaGsYUAxlaNLYdS/3hOAfaxgw8qd/u2bQ=",
+        "originContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],",
+        "translatedContent": "  messages: [{ role: \"system\", content: \"Say hello to the world.\" }],"
+      },
+      {
+        "row": 11,
+        "rowsha": "4GPh/czGc4/35fZBFaI9T+7ESFlanI0OyxX9cgwX+FA=",
+        "originContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"",
+        "translatedContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\""
+      },
+      {
+        "row": 12,
+        "rowsha": "klPb4uvlMtLjRCDGBnons/vta6sQY6e1lwYgRcykp2g=",
+        "originContent": "  stream: true, // ENABLE STREAMING",
+        "translatedContent": "  stream: true, // ENABLE STREAMING"
+      },
+      {
+        "row": 13,
+        "rowsha": "R++zRhyxz/PtsefNhbAOt9DEwEgKb84IRPc9AwJQfh4=",
+        "originContent": "  temperature: 1,",
+        "translatedContent": "  temperature: 1,"
+      },
+      {
+        "row": 14,
+        "rowsha": "5komL/S2XZ1E38RqPsQAa5TWCrIhbMt6GCZvuWKA24E=",
+        "originContent": "  functions: [",
+        "translatedContent": "  functions: ["
+      },
+      {
+        "row": 15,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 16,
+        "rowsha": "y9VoIZdx2jCmySQQM3JD3ihYnER1JwNkJ7NLTmdiNao=",
+        "originContent": "      name: \"say_hello\",",
+        "translatedContent": "      name: \"say_hello\","
+      },
+      {
+        "row": 17,
+        "rowsha": "PeZQ2JEfdDi8SbQHmNIzx7BsF2gorHULgVnsghAQDS8=",
+        "originContent": "      description: \"say hello\",",
+        "translatedContent": "      description: \"say hello\","
+      },
+      {
+        "row": 18,
+        "rowsha": "amfev8yahUT8VjJ03ignunQ1tn5cODZmNJAgdiuBFcc=",
+        "originContent": "      parameters: {",
+        "translatedContent": "      parameters: {"
+      },
+      {
+        "row": 19,
+        "rowsha": "SlOthO1M8uWnDC06VcdTcVWGCtIueaOiUav9mzzmiiY=",
+        "originContent": "        type: \"object\",",
+        "translatedContent": "        type: \"object\","
+      },
+      {
+        "row": 20,
+        "rowsha": "NYwr8KUnGU9XzoVXdHDRRyvYcEEgA32ca0Y1n1zqKUM=",
+        "originContent": "        properties: {",
+        "translatedContent": "        properties: {"
+      },
+      {
+        "row": 21,
+        "rowsha": "88JOhWpVWDe2WAH1AAahHb+cw5uwG+Naiut2r28YGJc=",
+        "originContent": "          sentence: {",
+        "translatedContent": "          sentence: {"
+      },
+      {
+        "row": 22,
+        "rowsha": "M+W21XG4KBrBdCjc+R1reTZA4MIDyQCoKbQEmLVH4hg=",
+        "originContent": "            type: \"string\",",
+        "translatedContent": "            type: \"string\","
+      },
+      {
+        "row": 23,
+        "rowsha": "o/f7GcJhgwLCcvyQy6ubuA86KKbd9BC1/BMT44qR1P4=",
+        "originContent": "            description: \"The sentence generated\",",
+        "translatedContent": "            description: \"The sentence generated\","
+      },
+      {
+        "row": 24,
+        "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+        "originContent": "          },",
+        "translatedContent": "          },"
+      },
+      {
+        "row": 25,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 26,
+        "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+        "originContent": "      },",
+        "translatedContent": "      },"
+      },
+      {
+        "row": 27,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 28,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 29,
+        "rowsha": "p/yz+3LU0Gp7v4W2C/2Q+kGNWCzqLb/M1LwJhaQb3e8=",
+        "originContent": "  function_call: { name: \"say_hello\" },",
+        "translatedContent": "  function_call: { name: \"say_hello\" },"
+      },
+      {
+        "row": 30,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "wVa+OD4IfV0OQxqQ07GJ/RIEjXHNEgmHTrmRA2luFlM=",
+        "originContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);",
+        "translatedContent": "const openAiHandler = new OpenAiHandler(StreamMode.StreamObjectKeyValueTokens);"
+      },
+      {
+        "row": 33,
+        "rowsha": "z9h7MSdGZ+isu9vL15fMWkKu86ZqJriK3nzFA+q0zlQ=",
+        "originContent": "const entityStream = openAiHandler.process(stream);",
+        "translatedContent": "const entityStream = openAiHandler.process(stream);"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ZHzRyXJ7P5Hb90sucyYeilloyYQGg25CZp1jgSVnnsg=",
+        "originContent": "// Entity Parsing to validate the data",
+        "translatedContent": "// Entity Parsing to validate the data"
+      },
+      {
+        "row": 36,
+        "rowsha": "bc20SD+tuyAT+kGG0HyUeh8uYY+PfXTRnvy9mvqM0Lo=",
+        "originContent": "const HelloSchema = z.object({",
+        "translatedContent": "const HelloSchema = z.object({"
+      },
+      {
+        "row": 37,
+        "rowsha": "8befjDiJV14qrCBlwadwgHA1sfJCU1YBnDcb7ysdnmU=",
+        "originContent": "  sentence: z.string().optional(),",
+        "translatedContent": "  sentence: z.string().optional(),"
+      },
+      {
+        "row": 38,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "MgUyG+7NuUPtLniFfH42zUerkAXZT3it0IzV5NgrEoQ=",
+        "originContent": "const entityHello = new Entity(\"sentence\", HelloSchema);",
+        "translatedContent": "const entityHello = new Entity(\"sentence\", HelloSchema);"
+      },
+      {
+        "row": 41,
+        "rowsha": "B8z1vdAL4LioMJ5O92ZxcR/VYmkQL7fSG2mr0xay3L4=",
+        "originContent": "const helloEntityStream = entityHello.genParse(entityStream);",
+        "translatedContent": "const helloEntityStream = entityHello.genParse(entityStream);"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "IqVphTdmi1ut1HM51EB3zsEkkquK4vkaahFRfN42vt8=",
+        "originContent": "for await (const item of helloEntityStream) {",
+        "translatedContent": "for await (const item of helloEntityStream) {"
+      },
+      {
+        "row": 44,
+        "rowsha": "nZ9PPc/c5MRmEJTdcRP7YcppMomPJskl9PIClrNYJ8o=",
+        "originContent": "  console.log(item);",
+        "translatedContent": "  console.log(item);"
+      },
+      {
+        "row": 45,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 46,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nOutput:\n",
+    "ContentSha": "jiM3qancCgMsr7E8iIvK5HHfRac0zmnFNzZC3qcOuUg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "输出：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "输出："
+      },
+      {
+        "row": 2,
+        "rowsha": "RX9JV6+EKlJRz7cZAjTmpvwwwctp17nQhrSznIn4qwY=",
+        "originContent": "Output:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\n{ index: 0, status: 'PARTIAL', data: {}, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: '' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi,' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world!' }, entity: 'sentence' }\n{ index: 0, status: 'COMPLETED', data: { sentence: 'Hi, world!' }, entity: 'sentence'}\n```",
+    "ContentSha": "67a2epEMBEJBGX5tz943RBoBOkobZkbyy47ic5Lcnzg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n{ index: 0, status: 'PARTIAL', data: {}, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: '' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi,' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world' }, entity: 'sentence' }\n{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world!' }, entity: 'sentence' }\n{ index: 0, status: 'COMPLETED', data: { sentence: 'Hi, world!' }, entity: 'sentence'}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "d9aUYehMldkTtrXG4mUpi/6J6UdToHTlaFMICTEqMMQ=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: {}, entity: 'sentence' }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: {}, entity: 'sentence' }"
+      },
+      {
+        "row": 3,
+        "rowsha": "auQUZvcFF+tvYCDmIb9Ulw17RU+9Hv2qTzn3/Gb0nhQ=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' }, entity: 'sentence' }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: '' }, entity: 'sentence' }"
+      },
+      {
+        "row": 4,
+        "rowsha": "mqewWMiD4X5aRoXX6+KHBamS9VUsy04ZZjpyInyywcE=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi' }, entity: 'sentence' }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi' }, entity: 'sentence' }"
+      },
+      {
+        "row": 5,
+        "rowsha": "ESlWPs1PDdrKXJz1oV/R6yVulkVl53LhUVXrvDrmw4A=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi,' }, entity: 'sentence' }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi,' }, entity: 'sentence' }"
+      },
+      {
+        "row": 6,
+        "rowsha": "kVswPvHuGlTGM2wTQwQfn90UJdOgeBH/GGKGqTfc3uU=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world' }, entity: 'sentence' }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world' }, entity: 'sentence' }"
+      },
+      {
+        "row": 7,
+        "rowsha": "Qg++N6SbPclpBABz/MjhxydPGSmj18l2i2DnYCOeWYo=",
+        "originContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world!' }, entity: 'sentence' }",
+        "translatedContent": "{ index: 0, status: 'PARTIAL', data: { sentence: 'Hi, world!' }, entity: 'sentence' }"
+      },
+      {
+        "row": 8,
+        "rowsha": "4akza8269IoYKhC87nqsdrybL3tYw5ssjRmxcEi9RUk=",
+        "originContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hi, world!' }, entity: 'sentence'}",
+        "translatedContent": "{ index: 0, status: 'COMPLETED', data: { sentence: 'Hi, world!' }, entity: 'sentence'}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Usage with stream and entity parsing with multiple entities\n",
+    "ContentSha": "eoMJobgZcaywS19x2kKbzhhXpwuMlkiLeXQ820PgfRU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用流和实体解析处理多个实体\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1urAkPr7e2rm+dlt+uafpKIAjoG8r0rgKTbtTKywshI=",
+        "originContent": "## Usage with stream and entity parsing with multiple entities",
+        "translatedContent": "## 使用流和实体解析处理多个实体"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```javascript\nimport { z } from \"zod\";\nimport OpenAi from \"openai\";\nimport { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";\n\n// Intanciate OpenAI client with your API key\nconst openai = new OpenAi({\n  apiKey: process.env.OPENAI_API_KEY,\n});\n\nconst PostcodeSchema = z.object({\n  name: z.string().optional(),\n  postcode: z.string().optional(),\n  population: z.number().optional(),\n});\n\n// Call the API with stream enabled and a function\nconst stream = await openai.chat.completions.create({\n  messages: [\n    {\n      role: \"system\",\n      content: \"Give me 3 cities and their postcodes in California.\",\n    },\n  ],\n  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"\n  stream: true, // ENABLE STREAMING\n  temperature: 1.1,\n  functions: [\n    {\n      name: \"set_postcode\",\n      description: \"Set a postcode and a city\",\n      parameters: {\n        type: \"object\",\n        properties: {\n          // The name of the entity\n          postcodes: {\n            type: \"array\",\n            items: {\n              type: \"object\",\n              properties: {\n                name: {\n                  type: \"string\",\n                  description: \"Name of the city\",\n                },\n                postcode: {\n                  type: \"string\",\n                  description: \"The postcode of the city\",\n                },\n                population: {\n                  type: \"number\",\n                  description: \"The population of the city\",\n                },\n              },\n            },\n          },\n        },\n      },\n    },\n  ],\n  function_call: { name: \"set_postcode\" },\n});\n\n// Select the mode of the stream parser\n// - StreamObjectKeyValueTokens: (REALTIME)     Stream of JSON objects, key value pairs and tokens\n// - StreamObjectKeyValue:       (PROGRESSIVE)  Stream of JSON objects and key value pairs\n// - StreamObject:               (ONE-BY-ONE)   Stream of JSON objects\n// - NoStream:                   (ALL-TOGETHER) All the data is returned at the end of the process\nconst mode = StreamMode.StreamObject;\n\n// Create an instance of the handler\nconst openAiHandler = new OpenAiHandler(mode);\n// Process the stream\nconst entityStream = openAiHandler.process(stream);\n// Create an entity with the schema to validate the data\nconst entityPostcode = new Entity(\"postcodes\", PostcodeSchema);\n// Parse the stream to an entity, using the schema to validate the data\nconst postcodeEntityStream = entityPostcode.genParseArray(entityStream);\n\n// Iterate over the stream of entities\nfor await (const item of postcodeEntityStream) {\n  if (item) {\n    // Display the entity\n    console.log(item);\n  }\n}\n```",
+    "ContentSha": "og9N3bSyTRT51ueQjCBRlLRP9f2DDQi+rJGB1JKhrD8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\nimport { z } from \"zod\";\nimport OpenAi from \"openai\";\nimport { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";\n\n// Intanciate OpenAI client with your API key\nconst openai = new OpenAi({\n  apiKey: process.env.OPENAI_API_KEY,\n});\n\nconst PostcodeSchema = z.object({\n  name: z.string().optional(),\n  postcode: z.string().optional(),\n  population: z.number().optional(),\n});\n\n// Call the API with stream enabled and a function\nconst stream = await openai.chat.completions.create({\n  messages: [\n    {\n      role: \"system\",\n      content: \"Give me 3 cities and their postcodes in California.\",\n    },\n  ],\n  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"\n  stream: true, // ENABLE STREAMING\n  temperature: 1.1,\n  functions: [\n    {\n      name: \"set_postcode\",\n      description: \"Set a postcode and a city\",\n      parameters: {\n        type: \"object\",\n        properties: {\n          // The name of the entity\n          postcodes: {\n            type: \"array\",\n            items: {\n              type: \"object\",\n              properties: {\n                name: {\n                  type: \"string\",\n                  description: \"Name of the city\",\n                },\n                postcode: {\n                  type: \"string\",\n                  description: \"The postcode of the city\",\n                },\n                population: {\n                  type: \"number\",\n                  description: \"The population of the city\",\n                },\n              },\n            },\n          },\n        },\n      },\n    },\n  ],\n  function_call: { name: \"set_postcode\" },\n});\n\n// Select the mode of the stream parser\n// - StreamObjectKeyValueTokens: (REALTIME)     Stream of JSON objects, key value pairs and tokens\n// - StreamObjectKeyValue:       (PROGRESSIVE)  Stream of JSON objects and key value pairs\n// - StreamObject:               (ONE-BY-ONE)   Stream of JSON objects\n// - NoStream:                   (ALL-TOGETHER) All the data is returned at the end of the process\nconst mode = StreamMode.StreamObject;\n\n// Create an instance of the handler\nconst openAiHandler = new OpenAiHandler(mode);\n// Process the stream\nconst entityStream = openAiHandler.process(stream);\n// Create an entity with the schema to validate the data\nconst entityPostcode = new Entity(\"postcodes\", PostcodeSchema);\n// Parse the stream to an entity, using the schema to validate the data\nconst postcodeEntityStream = entityPostcode.genParseArray(entityStream);\n\n// Iterate over the stream of entities\nfor await (const item of postcodeEntityStream) {\n  if (item) {\n    // Display the entity\n    console.log(item);\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "JKfAayqwDbBxt9fU/+36Aq/TZ0pBRaaJZrXfB//tnR0=",
+        "originContent": "import { z } from \"zod\";",
+        "translatedContent": "import { z } from \"zod\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "TxsJTx7zBanoJ3i52s2MhALZymDBidwb5iASR0bO2cA=",
+        "originContent": "import OpenAi from \"openai\";",
+        "translatedContent": "import OpenAi from \"openai\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "Zsh9zynUm/NxyAPeMQpfJLfdb3t2Lqt8Br72dosvMjo=",
+        "originContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";",
+        "translatedContent": "import { OpenAiHandler, StreamMode, Entity } from \"openai-partial-stream\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "xswcA5L1wjMF4yUM4BjBT/P6kGMZfALgCpLfeoic9MM=",
+        "originContent": "// Intanciate OpenAI client with your API key",
+        "translatedContent": "// Intanciate OpenAI client with your API key"
+      },
+      {
+        "row": 7,
+        "rowsha": "2TooMO3uu8iVXfaE1Wjh6Yd/F3mBTZm1Fu9WtVlWeUc=",
+        "originContent": "const openai = new OpenAi({",
+        "translatedContent": "const openai = new OpenAi({"
+      },
+      {
+        "row": 8,
+        "rowsha": "5y4Oreq6c7zYZrdvAu20WQVYCwAInitGARq9Y/AlYQw=",
+        "originContent": "  apiKey: process.env.OPENAI_API_KEY,",
+        "translatedContent": "  apiKey: process.env.OPENAI_API_KEY,"
+      },
+      {
+        "row": 9,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "AHeysPkUl1uzIJY+nD7DQokca3QX29Cw5x9stdNB1dw=",
+        "originContent": "const PostcodeSchema = z.object({",
+        "translatedContent": "const PostcodeSchema = z.object({"
+      },
+      {
+        "row": 12,
+        "rowsha": "AOEooEDA3rHfBRh4dwFtuZ0LFPab5wwoW0RgJgqUKx8=",
+        "originContent": "  name: z.string().optional(),",
+        "translatedContent": "  name: z.string().optional(),"
+      },
+      {
+        "row": 13,
+        "rowsha": "nEfunLfmSiuEQ+nxmb49MeHllDWKI+MmNGSawcOKUpQ=",
+        "originContent": "  postcode: z.string().optional(),",
+        "translatedContent": "  postcode: z.string().optional(),"
+      },
+      {
+        "row": 14,
+        "rowsha": "exTCYxRR1EJAw8XU45pDHhwpGFKa+H1PC7ojvM8cEj4=",
+        "originContent": "  population: z.number().optional(),",
+        "translatedContent": "  population: z.number().optional(),"
+      },
+      {
+        "row": 15,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "TZLUFkP0BuEmB62izdHc5Rf5lILUIra0LEHUseKwSMU=",
+        "originContent": "// Call the API with stream enabled and a function",
+        "translatedContent": "// Call the API with stream enabled and a function"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ju2KEP2ccWqXFl5oxcYeIQVEqt5vLMm21u6g3iK5q+M=",
+        "originContent": "const stream = await openai.chat.completions.create({",
+        "translatedContent": "const stream = await openai.chat.completions.create({"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZBdRwKdz93ZDKf4/SfzVoYpAECOMH83kmx0gSpvhPQo=",
+        "originContent": "  messages: [",
+        "translatedContent": "  messages: ["
+      },
+      {
+        "row": 20,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 21,
+        "rowsha": "QfuQztHfgh2QOkgSSrfeCMMyHh4hyZ+fRwV2xLav/ZI=",
+        "originContent": "      role: \"system\",",
+        "translatedContent": "      role: \"system\","
+      },
+      {
+        "row": 22,
+        "rowsha": "soqjYuT0oo3WRb/3BIHx9u4sSeJwuj4wD9a2Sb1pIEk=",
+        "originContent": "      content: \"Give me 3 cities and their postcodes in California.\",",
+        "translatedContent": "      content: \"Give me 3 cities and their postcodes in California.\","
+      },
+      {
+        "row": 23,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 24,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 25,
+        "rowsha": "4GPh/czGc4/35fZBFaI9T+7ESFlanI0OyxX9cgwX+FA=",
+        "originContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\"",
+        "translatedContent": "  model: \"gpt-3.5-turbo\", // OR \"gpt-4\""
+      },
+      {
+        "row": 26,
+        "rowsha": "klPb4uvlMtLjRCDGBnons/vta6sQY6e1lwYgRcykp2g=",
+        "originContent": "  stream: true, // ENABLE STREAMING",
+        "translatedContent": "  stream: true, // ENABLE STREAMING"
+      },
+      {
+        "row": 27,
+        "rowsha": "m8FGWUwvMSuDozo3iOz86EqRr0cZe3PI4D15GmR1dUc=",
+        "originContent": "  temperature: 1.1,",
+        "translatedContent": "  temperature: 1.1,"
+      },
+      {
+        "row": 28,
+        "rowsha": "5komL/S2XZ1E38RqPsQAa5TWCrIhbMt6GCZvuWKA24E=",
+        "originContent": "  functions: [",
+        "translatedContent": "  functions: ["
+      },
+      {
+        "row": 29,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 30,
+        "rowsha": "l28LFC2Lm5hfvp1HsfqGAlInaYArRSVkmOFw4CkYj34=",
+        "originContent": "      name: \"set_postcode\",",
+        "translatedContent": "      name: \"set_postcode\","
+      },
+      {
+        "row": 31,
+        "rowsha": "Yf+DWwoJTTfAQjEOIT8ZFmUwLbTINy321CWcoMN79YM=",
+        "originContent": "      description: \"Set a postcode and a city\",",
+        "translatedContent": "      description: \"Set a postcode and a city\","
+      },
+      {
+        "row": 32,
+        "rowsha": "amfev8yahUT8VjJ03ignunQ1tn5cODZmNJAgdiuBFcc=",
+        "originContent": "      parameters: {",
+        "translatedContent": "      parameters: {"
+      },
+      {
+        "row": 33,
+        "rowsha": "SlOthO1M8uWnDC06VcdTcVWGCtIueaOiUav9mzzmiiY=",
+        "originContent": "        type: \"object\",",
+        "translatedContent": "        type: \"object\","
+      },
+      {
+        "row": 34,
+        "rowsha": "NYwr8KUnGU9XzoVXdHDRRyvYcEEgA32ca0Y1n1zqKUM=",
+        "originContent": "        properties: {",
+        "translatedContent": "        properties: {"
+      },
+      {
+        "row": 35,
+        "rowsha": "jcuji2ua3CoZ2DXa+xRy2SqEPGtQixMIkc5dpgrdQ1I=",
+        "originContent": "          // The name of the entity",
+        "translatedContent": "          // The name of the entity"
+      },
+      {
+        "row": 36,
+        "rowsha": "OnSCK3xQ4jI940uvhnRO6zvdaAD9XUwsDBd1OVwJ8pk=",
+        "originContent": "          postcodes: {",
+        "translatedContent": "          postcodes: {"
+      },
+      {
+        "row": 37,
+        "rowsha": "xXiLpPc+o/FFS+Ymp+IVd25pdSV+z7kEN/FDusWdEas=",
+        "originContent": "            type: \"array\",",
+        "translatedContent": "            type: \"array\","
+      },
+      {
+        "row": 38,
+        "rowsha": "59Xi0oXm94g6WP0fklwlpcw88rC2zMn/JSJk2sFHeM8=",
+        "originContent": "            items: {",
+        "translatedContent": "            items: {"
+      },
+      {
+        "row": 39,
+        "rowsha": "oIARO9+NDCeh5zTduJHTESHAjsP3DcItRsyKeSFkLF4=",
+        "originContent": "              type: \"object\",",
+        "translatedContent": "              type: \"object\","
+      },
+      {
+        "row": 40,
+        "rowsha": "MBWt9Zoa6RoYFc58tp8jmvVdr6wTExFJh+r16SuX7PY=",
+        "originContent": "              properties: {",
+        "translatedContent": "              properties: {"
+      },
+      {
+        "row": 41,
+        "rowsha": "R5S2EOWLkTrgVyuYLi0n8snisKXs/rEA35BTGGt9Qm4=",
+        "originContent": "                name: {",
+        "translatedContent": "                name: {"
+      },
+      {
+        "row": 42,
+        "rowsha": "Paf1qIkd9IVE3qoTf4nY8JCGYszOkS2uS1WFSvEkcCA=",
+        "originContent": "                  type: \"string\",",
+        "translatedContent": "                  type: \"string\","
+      },
+      {
+        "row": 43,
+        "rowsha": "ZuUd0QKbtx7S6KU0JFWSACwDUawnq4v+EJxYCxrwbUk=",
+        "originContent": "                  description: \"Name of the city\",",
+        "translatedContent": "                  description: \"Name of the city\","
+      },
+      {
+        "row": 44,
+        "rowsha": "K3VK//8pJxU5uxs1ygqkGkkrAPsGmTn8APfAzfKgBHQ=",
+        "originContent": "                },",
+        "translatedContent": "                },"
+      },
+      {
+        "row": 45,
+        "rowsha": "/+Ivt/pGhI6qpRhmrcCxhZ3GbeOvEJPCdhceKOVhris=",
+        "originContent": "                postcode: {",
+        "translatedContent": "                postcode: {"
+      },
+      {
+        "row": 46,
+        "rowsha": "Paf1qIkd9IVE3qoTf4nY8JCGYszOkS2uS1WFSvEkcCA=",
+        "originContent": "                  type: \"string\",",
+        "translatedContent": "                  type: \"string\","
+      },
+      {
+        "row": 47,
+        "rowsha": "38IaFORfYoBdQ0Z83we6Y2pLhYz/0F68PZiQySULrko=",
+        "originContent": "                  description: \"The postcode of the city\",",
+        "translatedContent": "                  description: \"The postcode of the city\","
+      },
+      {
+        "row": 48,
+        "rowsha": "K3VK//8pJxU5uxs1ygqkGkkrAPsGmTn8APfAzfKgBHQ=",
+        "originContent": "                },",
+        "translatedContent": "                },"
+      },
+      {
+        "row": 49,
+        "rowsha": "3zLSG7FYXZmWkpAWigZdWWZhRFHd+PqxyjEu8plRHa4=",
+        "originContent": "                population: {",
+        "translatedContent": "                population: {"
+      },
+      {
+        "row": 50,
+        "rowsha": "qjxq9d8JD42d6Kg0hpYN28EKnvdQD1vQU8ShoBt57EI=",
+        "originContent": "                  type: \"number\",",
+        "translatedContent": "                  type: \"number\","
+      },
+      {
+        "row": 51,
+        "rowsha": "kIFQU0eXRPdxG+RE52frdc4vsp0ckCSbHWndV2dwPhE=",
+        "originContent": "                  description: \"The population of the city\",",
+        "translatedContent": "                  description: \"The population of the city\","
+      },
+      {
+        "row": 52,
+        "rowsha": "K3VK//8pJxU5uxs1ygqkGkkrAPsGmTn8APfAzfKgBHQ=",
+        "originContent": "                },",
+        "translatedContent": "                },"
+      },
+      {
+        "row": 53,
+        "rowsha": "L3GOe69wfgabwZapH3maD2pmo0jrMKMNZthZ7NyNkEM=",
+        "originContent": "              },",
+        "translatedContent": "              },"
+      },
+      {
+        "row": 54,
+        "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
+        "originContent": "            },",
+        "translatedContent": "            },"
+      },
+      {
+        "row": 55,
+        "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+        "originContent": "          },",
+        "translatedContent": "          },"
+      },
+      {
+        "row": 56,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 57,
+        "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+        "originContent": "      },",
+        "translatedContent": "      },"
+      },
+      {
+        "row": 58,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 59,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 60,
+        "rowsha": "q5pG5WXd811oU59yXUnzImI2fKkIeUnsJ/xISJsjy2U=",
+        "originContent": "  function_call: { name: \"set_postcode\" },",
+        "translatedContent": "  function_call: { name: \"set_postcode\" },"
+      },
+      {
+        "row": 61,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "jWYVWqlLBDc75Kualff8u8r9Lbi53ODjF53pdTnw7RA=",
+        "originContent": "// Select the mode of the stream parser",
+        "translatedContent": "// Select the mode of the stream parser"
+      },
+      {
+        "row": 64,
+        "rowsha": "cseGbCfKRmgUs7RCAbdGKz2QkmmcMp5KHUYcneeomWY=",
+        "originContent": "// - StreamObjectKeyValueTokens: (REALTIME)     Stream of JSON objects, key value pairs and tokens",
+        "translatedContent": "// - StreamObjectKeyValueTokens: (REALTIME)     Stream of JSON objects, key value pairs and tokens"
+      },
+      {
+        "row": 65,
+        "rowsha": "jypxGGLueXaT3jSrTUBrS5Ld44C6PwEiQ2/qljMhqMY=",
+        "originContent": "// - StreamObjectKeyValue:       (PROGRESSIVE)  Stream of JSON objects and key value pairs",
+        "translatedContent": "// - StreamObjectKeyValue:       (PROGRESSIVE)  Stream of JSON objects and key value pairs"
+      },
+      {
+        "row": 66,
+        "rowsha": "N6QK2G2IDLzRuuKbHzPz2QKqVAgDU/MTF1d2HZLa9OM=",
+        "originContent": "// - StreamObject:               (ONE-BY-ONE)   Stream of JSON objects",
+        "translatedContent": "// - StreamObject:               (ONE-BY-ONE)   Stream of JSON objects"
+      },
+      {
+        "row": 67,
+        "rowsha": "2qQqov2n3tFOsYeCOox9piCQX1mjId6hEmXRsKjuaKQ=",
+        "originContent": "// - NoStream:                   (ALL-TOGETHER) All the data is returned at the end of the process",
+        "translatedContent": "// - NoStream:                   (ALL-TOGETHER) All the data is returned at the end of the process"
+      },
+      {
+        "row": 68,
+        "rowsha": "WkV1pwaBs6NRVJgm4+GoxCNZjKnMsR2Xb6KJzIdkRfY=",
+        "originContent": "const mode = StreamMode.StreamObject;",
+        "translatedContent": "const mode = StreamMode.StreamObject;"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "uC2vTZmdwq/yPcHz+LJgawgTp7/8+9PN5BuI/53yoV4=",
+        "originContent": "// Create an instance of the handler",
+        "translatedContent": "// Create an instance of the handler"
+      },
+      {
+        "row": 71,
+        "rowsha": "K14uKRmp5zNJPpGo4yT2Cfr2Qg1RJKNX8lAN9Jb07x4=",
+        "originContent": "const openAiHandler = new OpenAiHandler(mode);",
+        "translatedContent": "const openAiHandler = new OpenAiHandler(mode);"
+      },
+      {
+        "row": 72,
+        "rowsha": "c1MOJThtvLN8mDgfzO/cdMdurnOV6Iakg4dZyqKyq0c=",
+        "originContent": "// Process the stream",
+        "translatedContent": "// Process the stream"
+      },
+      {
+        "row": 73,
+        "rowsha": "z9h7MSdGZ+isu9vL15fMWkKu86ZqJriK3nzFA+q0zlQ=",
+        "originContent": "const entityStream = openAiHandler.process(stream);",
+        "translatedContent": "const entityStream = openAiHandler.process(stream);"
+      },
+      {
+        "row": 74,
+        "rowsha": "WVL8nODLZRz0cZIMaoYNz35r2RLSNJD46Kl+qD5Dgrk=",
+        "originContent": "// Create an entity with the schema to validate the data",
+        "translatedContent": "// Create an entity with the schema to validate the data"
+      },
+      {
+        "row": 75,
+        "rowsha": "VpypudElhWe7T6yY1rxtIrNW8LQIdNEzqI2J2UF4/UY=",
+        "originContent": "const entityPostcode = new Entity(\"postcodes\", PostcodeSchema);",
+        "translatedContent": "const entityPostcode = new Entity(\"postcodes\", PostcodeSchema);"
+      },
+      {
+        "row": 76,
+        "rowsha": "FDeHC1QsbHjmmHGx07LJsivMs52K/Da4JwW2VvZGkQw=",
+        "originContent": "// Parse the stream to an entity, using the schema to validate the data",
+        "translatedContent": "// Parse the stream to an entity, using the schema to validate the data"
+      },
+      {
+        "row": 77,
+        "rowsha": "67QD1svGKQV5dXwyYF1kW+rYDJnIUMRiYomQaiRTmbw=",
+        "originContent": "const postcodeEntityStream = entityPostcode.genParseArray(entityStream);",
+        "translatedContent": "const postcodeEntityStream = entityPostcode.genParseArray(entityStream);"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "5zcnvE9Q6MVY69SJL5dEcH4S8rvjxYtKeV472c9DmcM=",
+        "originContent": "// Iterate over the stream of entities",
+        "translatedContent": "// Iterate over the stream of entities"
+      },
+      {
+        "row": 80,
+        "rowsha": "I7uCPaT///81bT09bPbRKLqCWd/k8ZEsS3M7t9yJXxw=",
+        "originContent": "for await (const item of postcodeEntityStream) {",
+        "translatedContent": "for await (const item of postcodeEntityStream) {"
+      },
+      {
+        "row": 81,
+        "rowsha": "Jk2Plqj9MJ8bg6uKjVYSMd/J6JIMYUSaG/SeRkrDEns=",
+        "originContent": "  if (item) {",
+        "translatedContent": "  if (item) {"
+      },
+      {
+        "row": 82,
+        "rowsha": "pbMX7ttASwPiFdBKS3zqoPNXiMN5LUf8PzxsE0oXD1U=",
+        "originContent": "    // Display the entity",
+        "translatedContent": "    // Display the entity"
+      },
+      {
+        "row": 83,
+        "rowsha": "b5gtcNosqrfKqvyIm7wdzhXA0RHPlYo0A4DQgKFLeIA=",
+        "originContent": "    console.log(item);",
+        "translatedContent": "    console.log(item);"
+      },
+      {
+        "row": 84,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 85,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 86,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nOutput:\n",
+    "ContentSha": "jiM3qancCgMsr7E8iIvK5HHfRac0zmnFNzZC3qcOuUg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "输出：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "输出："
+      },
+      {
+        "row": 2,
+        "rowsha": "RX9JV6+EKlJRz7cZAjTmpvwwwctp17nQhrSznIn4qwY=",
+        "originContent": "Output:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```js\n{ index: 0, status: 'COMPLETED', data: { name: 'Los Angeles', postcode: '90001', population: 3971883 }, entity: 'postcodes' }\n{ index: 1, status: 'COMPLETED', data: { name: 'San Francisco', postcode: '94102', population: 883305 }, entity: 'postcodes' }\n{ index: 2, status: 'COMPLETED', data: { name: 'San Diego', postcode: '92101', population: 1425976 }, entity: 'postcodes'}\n```",
+    "ContentSha": "Sgp2t7fQRqU0k9rN/eCVo6bDS3W8EywZIkcFAy2CF3g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n{ index: 0, status: 'COMPLETED', data: { name: 'Los Angeles', postcode: '90001', population: 3971883 }, entity: 'postcodes' }\n{ index: 1, status: 'COMPLETED', data: { name: 'San Francisco', postcode: '94102', population: 883305 }, entity: 'postcodes' }\n{ index: 2, status: 'COMPLETED', data: { name: 'San Diego', postcode: '92101', population: 1425976 }, entity: 'postcodes'}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "ykdLMP8VBVPofLum3yAHma5gbH2jNgZxgvXbBzRh8x8=",
+        "originContent": "{ index: 0, status: 'COMPLETED', data: { name: 'Los Angeles', postcode: '90001', population: 3971883 }, entity: 'postcodes' }",
+        "translatedContent": "{ index: 0, status: 'COMPLETED', data: { name: 'Los Angeles', postcode: '90001', population: 3971883 }, entity: 'postcodes' }"
+      },
+      {
+        "row": 3,
+        "rowsha": "HZf+Ad75qykNat4pPSfDgv84B4Rf7QHSHTlu0kdmkJI=",
+        "originContent": "{ index: 1, status: 'COMPLETED', data: { name: 'San Francisco', postcode: '94102', population: 883305 }, entity: 'postcodes' }",
+        "translatedContent": "{ index: 1, status: 'COMPLETED', data: { name: 'San Francisco', postcode: '94102', population: 883305 }, entity: 'postcodes' }"
+      },
+      {
+        "row": 4,
+        "rowsha": "y2F6Lq2AgqLhI9Ng3KTV2/Z5LCsvXvUcJOwHtaQJ6gA=",
+        "originContent": "{ index: 2, status: 'COMPLETED', data: { name: 'San Diego', postcode: '92101', population: 1425976 }, entity: 'postcodes'}",
+        "translatedContent": "{ index: 2, status: 'COMPLETED', data: { name: 'San Diego', postcode: '92101', population: 1425976 }, entity: 'postcodes'}"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n# Modes\n\nSelect a mode from the list below that best suits your requirements:\n\n1. **NoStream**\n2. **StreamObject**\n3. **StreamObjectKeyValue**\n4. **StreamObjectKeyValueTokens**\n\n---\n\n### NoStream\n\nResults are returned only after the entire query completes.\n\n| **NoStream Details**                                             |\n| ---------------------------------------------------------------- |\n| ✅ Single query retrieves all data                               |\n| ✅ Reduces network traffic                                       |\n| ⚠️ User experience may be compromised due to extended wait times |\n\n---\n\n### StreamObject\n\nAn event is generated for each item in the list. Items appear as they become ready.\n\n| **StreamObject Details**                                                        |\n| ------------------------------------------------------------------------------- |\n| ✅ Each message corresponds to a fully-formed item                              |\n| ✅ Fewer messages                                                               |\n| ✅ All essential fields are received at once                                    |\n| ⚠️ Some delay: users need to wait until an item is fully ready to update the UI |\n\n---\n\n### StreamObjectKeyValue\n\nObjects are received in fragments: both a key and its corresponding value are sent together.",
+    "ContentSha": "St+SgDH7K0fQD+TNm5g/gzsVKzzQLIw7neXAW0Nago0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# 模式\n\n从以下列表中选择最适合您需求的模式：\n\n1. **无流式 (NoStream)**\n2. **流式对象 (StreamObject)**\n3. **流式对象键值 (StreamObjectKeyValue)**\n4. **流式对象键值令牌 (StreamObjectKeyValueTokens)**\n\n---\n\n### 无流式 (NoStream)\n\n结果仅在整个查询完成后返回。\n\n| **无流式详情**                                                     |\n| ----------------------------------------------------------------- |\n| ✅ 单次查询检索所有数据                                           |\n| ✅ 减少网络流量                                                   |\n| ⚠️ 用户体验可能因等待时间延长而受到影响                           |\n\n---\n\n### 流式对象 (StreamObject)\n\n为列表中的每个项目生成一个事件。项目在准备好后显示。\n\n| **流式对象详情**                                                      |\n| ------------------------------------------------------------------- |\n| ✅ 每条消息对应一个完整的项目                                       |\n| ✅ 消息数量较少                                                     |\n| ✅ 所有必要字段一次性接收                                           |\n| ⚠️ 有一定延迟：用户需等待项目完全准备好后才能更新界面               |\n\n---\n\n### 流式对象键值 (StreamObjectKeyValue)\n\n对象以片段形式接收：键及其对应的值一同发送。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EkeJ3Byve/VvXHH9KReF9FszeSj+2cEBlZ3A9LYOBks=",
+        "originContent": "# Modes",
+        "translatedContent": "# 模式"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VIw0aQzdhhFFb/lyqjVmI20eTSe/XOQmuTEDmqT3r+I=",
+        "originContent": "Select a mode from the list below that best suits your requirements:",
+        "translatedContent": "从以下列表中选择最适合您需求的模式："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6PFhZztJyQG894KTWvfwswKaG7tLytde2HzH95044sQ=",
+        "originContent": "1. **NoStream**",
+        "translatedContent": "1. **无流式 (NoStream)**"
+      },
+      {
+        "row": 7,
+        "rowsha": "1wspcXJJ6ECWBU9llGmlSkrEg6Kqt0pXvnCXBrvUOL0=",
+        "originContent": "2. **StreamObject**",
+        "translatedContent": "2. **流式对象 (StreamObject)**"
+      },
+      {
+        "row": 8,
+        "rowsha": "L872cbbQuArv+EgKYByRgVZzZFrpKdSPcEDNR+lIt9Y=",
+        "originContent": "3. **StreamObjectKeyValue**",
+        "translatedContent": "3. **流式对象键值 (StreamObjectKeyValue)**"
+      },
+      {
+        "row": 9,
+        "rowsha": "oHGr+BPgahS2QKSW2VYud2T2+KBig6d0o5M8iIq2nE0=",
+        "originContent": "4. **StreamObjectKeyValueTokens**",
+        "translatedContent": "4. **流式对象键值令牌 (StreamObjectKeyValueTokens)**"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "rZJVaDIHUGSy6mmAXv2xY1O0NCteIa4kLpMcJEPoCNA=",
+        "originContent": "### NoStream",
+        "translatedContent": "### 无流式 (NoStream)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "gqoOLCvWZANooSy++mcGAnlewZA+uIvInhj7/aXcZPw=",
+        "originContent": "Results are returned only after the entire query completes.",
+        "translatedContent": "结果仅在整个查询完成后返回。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "J1rDWi018IJXevxmudFGqwZoF3xLWp19n7MBATHmgEs=",
+        "originContent": "| **NoStream Details**                                             |",
+        "translatedContent": "| **无流式详情**                                                     |"
+      },
+      {
+        "row": 18,
+        "rowsha": "2UtPTic2Qp3ZYSYCMYcExkm7ezOxQ5s0OpAritm38rw=",
+        "originContent": "| ---------------------------------------------------------------- |",
+        "translatedContent": "| ----------------------------------------------------------------- |"
+      },
+      {
+        "row": 19,
+        "rowsha": "qKFDQ6hb/UMMZZ57tnv2jlygMmdwoZig8DkfpcwHfmE=",
+        "originContent": "| ✅ Single query retrieves all data                               |",
+        "translatedContent": "| ✅ 单次查询检索所有数据                                           |"
+      },
+      {
+        "row": 20,
+        "rowsha": "S1NFGzNm90ZUsSLdHIT08YH6HRg4OHQ32oZXz4o6dSc=",
+        "originContent": "| ✅ Reduces network traffic                                       |",
+        "translatedContent": "| ✅ 减少网络流量                                                   |"
+      },
+      {
+        "row": 21,
+        "rowsha": "oO4/LWz6tTak54bZU2YOSLSFuiLm8tcOv1IuYC+CWwo=",
+        "originContent": "| ⚠️ User experience may be compromised due to extended wait times |",
+        "translatedContent": "| ⚠️ 用户体验可能因等待时间延长而受到影响                           |"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Xn7tOxjLFkiXxLeOsZ35t8+MXBWCBkzTJ1GBL7DfxXI=",
+        "originContent": "### StreamObject",
+        "translatedContent": "### 流式对象 (StreamObject)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bWKS0gt5u0041ZHk0ScZQRDGt16NDzlqc1mWP7NhvKg=",
+        "originContent": "An event is generated for each item in the list. Items appear as they become ready.",
+        "translatedContent": "为列表中的每个项目生成一个事件。项目在准备好后显示。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "pGv85hPTHJxQfWLKIxTbA6iiCXds6Z0sIvW9Ce22ja4=",
+        "originContent": "| **StreamObject Details**                                                        |",
+        "translatedContent": "| **流式对象详情**                                                      |"
+      },
+      {
+        "row": 30,
+        "rowsha": "BZNUT+XX7iKL4PuOKBinO2uSrKNQ/IkTQ1HFbb9pw10=",
+        "originContent": "| ------------------------------------------------------------------------------- |",
+        "translatedContent": "| ------------------------------------------------------------------- |"
+      },
+      {
+        "row": 31,
+        "rowsha": "Jf6rxljNYKOONzJfCq7PfzZzpBScNq9Z+OXKa2HFcaE=",
+        "originContent": "| ✅ Each message corresponds to a fully-formed item                              |",
+        "translatedContent": "| ✅ 每条消息对应一个完整的项目                                       |"
+      },
+      {
+        "row": 32,
+        "rowsha": "5+/Rgh0ge89Z17Wvp/4SRlKmi/L+HurBupFjSe69Xl0=",
+        "originContent": "| ✅ Fewer messages                                                               |",
+        "translatedContent": "| ✅ 消息数量较少                                                     |"
+      },
+      {
+        "row": 33,
+        "rowsha": "d7gq8T+VjgDZSVJ2NpbZuzyGaf6pFY1+jypRTCm2XSg=",
+        "originContent": "| ✅ All essential fields are received at once                                    |",
+        "translatedContent": "| ✅ 所有必要字段一次性接收                                           |"
+      },
+      {
+        "row": 34,
+        "rowsha": "1/yiQlNGVoUDh38a7MWbMD0BQR2ZoOgg81xtHZtcmyE=",
+        "originContent": "| ⚠️ Some delay: users need to wait until an item is fully ready to update the UI |",
+        "translatedContent": "| ⚠️ 有一定延迟：用户需等待项目完全准备好后才能更新界面               |"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "moMlSTvIsZ9S8GBd82fygJFyQpKW4neOluralkArzLE=",
+        "originContent": "### StreamObjectKeyValue",
+        "translatedContent": "### 流式对象键值 (StreamObjectKeyValue)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "T6d2iJrCj/bQ9Wt5Vzcg2Tk/SLSgWN02GEP2FeIXkXs=",
+        "originContent": "Objects are received in fragments: both a key and its corresponding value are sent together.",
+        "translatedContent": "对象以片段形式接收：键及其对应的值一同发送。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "\n| **StreamObjectKeyValue Details**                          |\n| --------------------------------------------------------- |\n| ✅ Users can engage with portions of the UI               |\n| ✅ Supports more regular UI updates                       |\n| ⚠️ Higher network traffic                                 |\n| ⚠️ Challenges in enforcing keys due to incomplete objects |\n\n---\n\n### StreamObjectKeyValueTokens\n\nKeys are received in full, while values are delivered piecemeal until they're complete. This method offers token-by-token UI updating.\n\n| **StreamObjectKeyValueToken Details**                               |\n| ------------------------------------------------------------------- |\n| ✅ Offers a dynamic user experience                                 |\n| ✅ Enables step-by-step content consumption                         |\n| ✅ Decreases user waiting times                                     |\n| ⚠️ Possible UI inconsistencies due to values arriving incrementally |\n| ⚠️ Augmented network traffic                                        |\n\n## Demo\n\nStream of JSON object progressively by key value pairs:\n\nhttps://github.com/st3w4r/openai-partial-stream/assets/4228332/55643614-b92b-4b1f-9cf9-e60d6d783a0c\n\nStream of JSON objects in realtime:\n\nhttps://github.com/st3w4r/openai-partial-stream/assets/4228332/73289d38-8526-46cf-a68c-ac80019092ab\n\n## References\n\n[npm pakcage](https://www.npmjs.com/package/openai-partial-stream)\n",
+    "ContentSha": "czqKaZVLfXXL4EWiFMWGmWOlNJLfEFHjUTxEJhFS0lA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| **StreamObjectKeyValue 详情**                          |\n| --------------------------------------------------------- |\n| ✅ 用户可以与部分 UI 交互                                  |\n| ✅ 支持更常规的 UI 更新                                   |\n| ⚠️ 网络流量较高                                           |\n| ⚠️ 由于对象不完整，强制执行键存在挑战                   |\n\n---\n\n### StreamObjectKeyValueTokens\n\n键是完整接收的，而值则是分段传递直到完整。此方法提供逐令牌的 UI 更新。\n\n| **StreamObjectKeyValueToken 详情**                               |\n| ------------------------------------------------------------------- |\n| ✅ 提供动态的用户体验                                               |\n| ✅ 支持内容逐步消费                                               |\n| ✅ 减少用户等待时间                                               |\n| ⚠️ 由于值逐步到达，可能导致 UI 不一致                             |\n| ⚠️ 网络流量增加                                                   |\n\n## 演示\n\n按键值对逐步流式传输 JSON 对象：\n\nhttps://github.com/st3w4r/openai-partial-stream/assets/4228332/55643614-b92b-4b1f-9cf9-e60d6d783a0c\n\n实时流式传输 JSON 对象：\n\nhttps://github.com/st3w4r/openai-partial-stream/assets/4228332/73289d38-8526-46cf-a68c-ac80019092ab\n\n## 参考\n\n[npm 包](https://www.npmjs.com/package/openai-partial-stream)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| **StreamObjectKeyValue 详情**                          |"
+      },
+      {
+        "row": 2,
+        "rowsha": "v0c11Nzyu4j4DDs67zRAxFrKgy3urMyHwq0Zuj/qzCk=",
+        "originContent": "| **StreamObjectKeyValue Details**                          |",
+        "translatedContent": "| --------------------------------------------------------- |"
+      },
+      {
+        "row": 3,
+        "rowsha": "vcMHlIoZDpuef7EV4ydp8fT2yXYyF38smS8B0zbag24=",
+        "originContent": "| --------------------------------------------------------- |",
+        "translatedContent": "| ✅ 用户可以与部分 UI 交互                                  |"
+      },
+      {
+        "row": 4,
+        "rowsha": "ORKgjSlMT6L55dQTn+ykW4pGbv2H8FD0As1AM1iQGl4=",
+        "originContent": "| ✅ Users can engage with portions of the UI               |",
+        "translatedContent": "| ✅ 支持更常规的 UI 更新                                   |"
+      },
+      {
+        "row": 5,
+        "rowsha": "0IzL/X1PEoNpuh+he4D4mn2dxrZ4qy2p68OGuduAjno=",
+        "originContent": "| ✅ Supports more regular UI updates                       |",
+        "translatedContent": "| ⚠️ 网络流量较高                                           |"
+      },
+      {
+        "row": 6,
+        "rowsha": "P1k0hsinV/hDQrW0xGVJIuNAeArI2e5Rjh/ADzsOeAM=",
+        "originContent": "| ⚠️ Higher network traffic                                 |",
+        "translatedContent": "| ⚠️ 由于对象不完整，强制执行键存在挑战                   |"
+      },
+      {
+        "row": 7,
+        "rowsha": "/Rgs0r9CbihNem1q2puvpKJg9z16R9Lb0STTelrsGIY=",
+        "originContent": "| ⚠️ Challenges in enforcing keys due to incomplete objects |",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### StreamObjectKeyValueTokens"
+      },
+      {
+        "row": 11,
+        "rowsha": "B6nqChhTY1FXF8actwDz2uS5W8mrL5cYBgx/M7jlMek=",
+        "originContent": "### StreamObjectKeyValueTokens",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "键是完整接收的，而值则是分段传递直到完整。此方法提供逐令牌的 UI 更新。"
+      },
+      {
+        "row": 13,
+        "rowsha": "ZSaRBPVEtS10nlIaS6/7eLr0oX86yereOPp01tmmQC4=",
+        "originContent": "Keys are received in full, while values are delivered piecemeal until they're complete. This method offers token-by-token UI updating.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| **StreamObjectKeyValueToken 详情**                               |"
+      },
+      {
+        "row": 15,
+        "rowsha": "FEiLNuz/sV5UR9DOJB9SRygkIItUpeXRuyL8YZHzpkU=",
+        "originContent": "| **StreamObjectKeyValueToken Details**                               |",
+        "translatedContent": "| ------------------------------------------------------------------- |"
+      },
+      {
+        "row": 16,
+        "rowsha": "4TxvYMwQJR1/4IOAMuOYw4OkHimb5RBG3CJ5Y+5YHDk=",
+        "originContent": "| ------------------------------------------------------------------- |",
+        "translatedContent": "| ✅ 提供动态的用户体验                                               |"
+      },
+      {
+        "row": 17,
+        "rowsha": "W6+hD07+VDUEdktMBZaSRTSZcR0Q4ezzK8HwAjCIY/A=",
+        "originContent": "| ✅ Offers a dynamic user experience                                 |",
+        "translatedContent": "| ✅ 支持内容逐步消费                                               |"
+      },
+      {
+        "row": 18,
+        "rowsha": "YbsnngrCGimR+cJX01RG6Fg3qwSf6SwwWYPwShcU3l0=",
+        "originContent": "| ✅ Enables step-by-step content consumption                         |",
+        "translatedContent": "| ✅ 减少用户等待时间                                               |"
+      },
+      {
+        "row": 19,
+        "rowsha": "U4lbpS3nc1Uyg22fyomncR7/wOej6s0Rz6mNx3ik4rg=",
+        "originContent": "| ✅ Decreases user waiting times                                     |",
+        "translatedContent": "| ⚠️ 由于值逐步到达，可能导致 UI 不一致                             |"
+      },
+      {
+        "row": 20,
+        "rowsha": "Sg2QD1uY8WGnNIhKduyYNKMYAvsr72MrdKF6thUxQcU=",
+        "originContent": "| ⚠️ Possible UI inconsistencies due to values arriving incrementally |",
+        "translatedContent": "| ⚠️ 网络流量增加                                                   |"
+      },
+      {
+        "row": 21,
+        "rowsha": "7CNoZdAUDixEwbrqBjPVsvdCRZN9mEM+DEtA9FNpRgE=",
+        "originContent": "| ⚠️ Augmented network traffic                                        |",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 演示"
+      },
+      {
+        "row": 23,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "按键值对逐步流式传输 JSON 对象："
+      },
+      {
+        "row": 25,
+        "rowsha": "/PC/alIw+4uHfCMxALkaNJnQZAZp1NJ+E1U+BACkFUY=",
+        "originContent": "Stream of JSON object progressively by key value pairs:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/55643614-b92b-4b1f-9cf9-e60d6d783a0c"
+      },
+      {
+        "row": 27,
+        "rowsha": "p8vWVkM7YK65iI5XO9Ml54KaN6YsZASUuPHlVblpzgw=",
+        "originContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/55643614-b92b-4b1f-9cf9-e60d6d783a0c",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "实时流式传输 JSON 对象："
+      },
+      {
+        "row": 29,
+        "rowsha": "8HRP74HKh4jVsYwFjyn9Z7H0S0hQC0KuAvA/gfkOjRg=",
+        "originContent": "Stream of JSON objects in realtime:",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/73289d38-8526-46cf-a68c-ac80019092ab"
+      },
+      {
+        "row": 31,
+        "rowsha": "GwlicHn+kN0l5PopbuiwC09I19JclsNFmxbHlbBbtyk=",
+        "originContent": "https://github.com/st3w4r/openai-partial-stream/assets/4228332/73289d38-8526-46cf-a68c-ac80019092ab",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 参考"
+      },
+      {
+        "row": 33,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[npm 包](https://www.npmjs.com/package/openai-partial-stream)"
+      },
+      {
+        "row": 35,
+        "rowsha": "oxgEp1fTn6fIUnJyYHc7NTPd8WOQ9aleDYss2ihsRVQ=",
+        "originContent": "[npm pakcage](https://www.npmjs.com/package/openai-partial-stream)",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,789 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🤖 ros2-dockergen\n\n<p align=\"center\">\n  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml/badge.svg\" alt=\"Publish to PyPI\"></a>\n  <a href=\"https://pypi.org/project/ros2-dockergen/\"><img src=\"https://img.shields.io/pypi/v/ros2-dockergen.svg\" alt=\"PyPI version\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License: MIT\"></a>\n  <a href=\"https://www.python.org/downloads/\"><img src=\"https://img.shields.io/badge/python-3.10+-blue.svg\" alt=\"Python 3.10+\"></a>\n  <a href=\"https://ppswaroopa.github.io/ros2-dockergen/\"><img src=\"https://img.shields.io/badge/Web-Interactive_UI-00ff88.svg\" alt=\"Web UI\"></a>\n</p>\n\n<br />\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/docs/hero.png\" alt=\"ROS2 DockerGen Flow\" width=\"100%\">\n</p>\n<br />\n\n> **One command. Interactive. Zero fuss.**  \n> Generate production-ready `Dockerfile` + `docker-compose.yml` + `README.md` for any ROS2 project — straight from your terminal or on the [webpage](https://ppswaroopa.github.io/ros2-dockergen/) here\n\n---\n\n## Quick Install\n\n### From PyPI (Recommended)",
+    "ContentSha": "wnuhwVmdTxCLbCn4gs2CzkAon9Zfm0cspLdmy0ggbqI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🤖 ros2-dockergen\n\n<p align=\"center\">\n  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml/badge.svg\" alt=\"Publish to PyPI\"></a>\n  <a href=\"https://pypi.org/project/ros2-dockergen/\"><img src=\"https://img.shields.io/pypi/v/ros2-dockergen.svg\" alt=\"PyPI version\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License: MIT\"></a>\n  <a href=\"https://www.python.org/downloads/\"><img src=\"https://img.shields.io/badge/python-3.10+-blue.svg\" alt=\"Python 3.10+\"></a>\n  <a href=\"https://ppswaroopa.github.io/ros2-dockergen/\"><img src=\"https://img.shields.io/badge/Web-Interactive_UI-00ff88.svg\" alt=\"Web UI\"></a>\n</p>\n\n<br />\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/docs/hero.png\" alt=\"ROS2 DockerGen Flow\" width=\"100%\">\n</p>\n<br />\n\n> **一条命令。交互式。零烦恼。**  \n> 为任何 ROS2 项目生成生产级别的 `Dockerfile` + `docker-compose.yml` + `README.md` — 直接在你的终端或[网页](https://ppswaroopa.github.io/ros2-dockergen/)上操作\n\n---\n\n## 快速安装\n\n### 通过 PyPI（推荐）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xX1H33S6rD9Gzbg97i7dQ8Iz1DH2lHrH2kkG9O1Jcb4=",
+        "originContent": "# 🤖 ros2-dockergen",
+        "translatedContent": "# 🤖 ros2-dockergen"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "Gy0+opeOx97W+jdLgHFpXRDzXPHChgekamEnfLYEp+c=",
+        "originContent": "  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>"
+      },
+      {
+        "row": 5,
+        "rowsha": "SdnkgmL6oxooqVkIEIjV83m2BxY2QhEKJtt7o7tZE2w=",
+        "originContent": "  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml/badge.svg\" alt=\"Publish to PyPI\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml\"><img src=\"https://github.com/ppswaroopa/ros2-dockergen/actions/workflows/publish.yml/badge.svg\" alt=\"Publish to PyPI\"></a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "s98bvgorduScKNBeA5/DrsjGwab4vQGRuKchj77sU+A=",
+        "originContent": "  <a href=\"https://pypi.org/project/ros2-dockergen/\"><img src=\"https://img.shields.io/pypi/v/ros2-dockergen.svg\" alt=\"PyPI version\"></a>",
+        "translatedContent": "  <a href=\"https://pypi.org/project/ros2-dockergen/\"><img src=\"https://img.shields.io/pypi/v/ros2-dockergen.svg\" alt=\"PyPI version\"></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "jO2+4328ILCes9AFJNlxSO51/Wl3o39p7CKvC/569ag=",
+        "originContent": "  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License: MIT\"></a>",
+        "translatedContent": "  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License: MIT\"></a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "iSIiSZvR+Mf0ue/unYKUBtOABmF1DL7Tt5arMzO4HoQ=",
+        "originContent": "  <a href=\"https://www.python.org/downloads/\"><img src=\"https://img.shields.io/badge/python-3.10+-blue.svg\" alt=\"Python 3.10+\"></a>",
+        "translatedContent": "  <a href=\"https://www.python.org/downloads/\"><img src=\"https://img.shields.io/badge/python-3.10+-blue.svg\" alt=\"Python 3.10+\"></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "fojLaC3xYWugCPeq04Z6KAuk9eV9d4DzhLBP9T+nDPQ=",
+        "originContent": "  <a href=\"https://ppswaroopa.github.io/ros2-dockergen/\"><img src=\"https://img.shields.io/badge/Web-Interactive_UI-00ff88.svg\" alt=\"Web UI\"></a>",
+        "translatedContent": "  <a href=\"https://ppswaroopa.github.io/ros2-dockergen/\"><img src=\"https://img.shields.io/badge/Web-Interactive_UI-00ff88.svg\" alt=\"Web UI\"></a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ehcYo8xYuYV7nQFLGhjTB5+eE1Gr/pDU+GS2vkLDTJ0=",
+        "originContent": "<br />",
+        "translatedContent": "<br />"
+      },
+      {
+        "row": 13,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "4Ipa7+Nt6gR41fg2LH5dbDya9DkxCIB77GWkRPXyKJ8=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/docs/hero.png\" alt=\"ROS2 DockerGen Flow\" width=\"100%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/docs/hero.png\" alt=\"ROS2 DockerGen Flow\" width=\"100%\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "ehcYo8xYuYV7nQFLGhjTB5+eE1Gr/pDU+GS2vkLDTJ0=",
+        "originContent": "<br />",
+        "translatedContent": "<br />"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "mi6Fq1j9yo6qng67fs5co18Qum3KPfrI2vXAkwJm91o=",
+        "originContent": "> **One command. Interactive. Zero fuss.**  ",
+        "translatedContent": "> **一条命令。交互式。零烦恼。**  "
+      },
+      {
+        "row": 19,
+        "rowsha": "zBZv+l6oiftwVDl2+jj1cl17f8qwOvdxa7560RND7EI=",
+        "originContent": "> Generate production-ready `Dockerfile` + `docker-compose.yml` + `README.md` for any ROS2 project — straight from your terminal or on the [webpage](https://ppswaroopa.github.io/ros2-dockergen/) here",
+        "translatedContent": "> 为任何 ROS2 项目生成生产级别的 `Dockerfile` + `docker-compose.yml` + `README.md` — 直接在你的终端或[网页](https://ppswaroopa.github.io/ros2-dockergen/)上操作"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "cuU/O1Om6RHxlWvai7tCtYCeZBG1YTOAManuEhXDnjU=",
+        "originContent": "## Quick Install",
+        "translatedContent": "## 快速安装"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "5LEbcZAJphyuOQhvBOsqHqKC3ddiU6Z5XvlsJx+s+4Q=",
+        "originContent": "### From PyPI (Recommended)",
+        "translatedContent": "### 通过 PyPI（推荐）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install ros2-dockergen\n```",
+    "ContentSha": "4T0Auo5OQwm/B0FLkbBxpSIe0NnXeQLzD1TuPbsg6FM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install ros2-dockergen\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yG9AJI6aIdFJZHAEuocG4YaUuSispzgCmTr3mOw+n4A=",
+        "originContent": "pip install ros2-dockergen",
+        "translatedContent": "pip install ros2-dockergen"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### One-line installer (Bash)",
+    "ContentSha": "7zFClsNllqgVCO7FYcYjYLL1VVX/ILFwki22oHI+VuA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 一行安装程序（Bash）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5ugyGboRkfmj9hG7O255d7pgRPSRNddbcDDgxKwmnaA=",
+        "originContent": "### One-line installer (Bash)",
+        "translatedContent": "### 一行安装程序（Bash）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ncurl -fsSL https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/install.sh | bash\n```",
+    "ContentSha": "I/BYteqiVEbEpzRVo/iw2KTHdPlvRdcGUiQbxEAB1jo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -fsSL https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/install.sh | bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "QWXF512/NQXOfRXNS6+U3hry3iEdr5+37BQkykGFbS8=",
+        "originContent": "curl -fsSL https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/install.sh | bash",
+        "translatedContent": "curl -fsSL https://raw.githubusercontent.com/ppswaroopa/ros2-dockergen/main/install.sh | bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n---\n\n## Features\n\n- **Full Distribution Support**: Choose between **Jazzy**, **Humble**, and **Kilted** ROS2 distros.\n- **GPU Acceleration**: Automatically configures `nvidia/cuda` base images and runtime capabilities if CUDA or TensorRT is selected.\n- **User Choice**: Handles **non-root user** creation with automatic UID/GID mapping to prevent host volume permission headaches.\n- **Comprehensive Tooling**: Toggle common ROS2 packages (Nav2, MoveIt2, SLAM Toolbox, MoveIt, Gazebo GZ, etc.) and dev tools (colcon, rosdep, Oh-My-Zsh, SSH, X11).\n- **Complete Output**: Generates not just a `Dockerfile`, but also a matching `docker-compose.yml` and a workspace-specific `README.md` with instructions.\n- **Web Parity**: Identical logic engine shared with the [Web UI](https://ppswaroopa.github.io/ros2-dockergen/).\n\n---\n\n## Usage\n\nSimply run:",
+    "ContentSha": "IU0bJdOFry+f37/wu17bHHJY2NeGl7zPQSAf0wOrhPk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 特性\n\n- **完整发行版支持**：可选择 **Jazzy**、**Humble** 和 **Kilted** ROS2 发行版。\n- **GPU 加速**：如果选择 CUDA 或 TensorRT，自动配置 `nvidia/cuda` 基础镜像和运行时能力。\n- **用户选择**：支持创建**非 root 用户**，并自动映射 UID/GID，避免宿主卷权限问题。\n- **全面工具链**：可切换常用 ROS2 包（Nav2、MoveIt2、SLAM Toolbox、MoveIt、Gazebo GZ 等）和开发工具（colcon、rosdep、Oh-My-Zsh、SSH、X11）。\n- **完整输出**：不仅生成 `Dockerfile`，还生成匹配的 `docker-compose.yml` 和包含说明的工作区专属 `README.md`。\n- **网页同步**：与 [Web UI](https://ppswaroopa.github.io/ros2-dockergen/) 共享相同的逻辑引擎。\n\n---\n\n## 使用方法\n\n只需运行：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特性"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "h0cPLmSuKz8ZWNOooWRzj04BFtCelBhlMc2TXHixOU0=",
+        "originContent": "- **Full Distribution Support**: Choose between **Jazzy**, **Humble**, and **Kilted** ROS2 distros.",
+        "translatedContent": "- **完整发行版支持**：可选择 **Jazzy**、**Humble** 和 **Kilted** ROS2 发行版。"
+      },
+      {
+        "row": 7,
+        "rowsha": "+JZ1b1g0x6PmNj3YWVyMb06MTCpTeNgw5ct3zq7j6kE=",
+        "originContent": "- **GPU Acceleration**: Automatically configures `nvidia/cuda` base images and runtime capabilities if CUDA or TensorRT is selected.",
+        "translatedContent": "- **GPU 加速**：如果选择 CUDA 或 TensorRT，自动配置 `nvidia/cuda` 基础镜像和运行时能力。"
+      },
+      {
+        "row": 8,
+        "rowsha": "cfG+HmL/k1qtUzvobp0GHhfASwF/vsfDDDkEWYmLR+E=",
+        "originContent": "- **User Choice**: Handles **non-root user** creation with automatic UID/GID mapping to prevent host volume permission headaches.",
+        "translatedContent": "- **用户选择**：支持创建**非 root 用户**，并自动映射 UID/GID，避免宿主卷权限问题。"
+      },
+      {
+        "row": 9,
+        "rowsha": "4a6CwS8Av8NxXDJ0YO2JTYWFbp2OhqH9aSRXEGcJb34=",
+        "originContent": "- **Comprehensive Tooling**: Toggle common ROS2 packages (Nav2, MoveIt2, SLAM Toolbox, MoveIt, Gazebo GZ, etc.) and dev tools (colcon, rosdep, Oh-My-Zsh, SSH, X11).",
+        "translatedContent": "- **全面工具链**：可切换常用 ROS2 包（Nav2、MoveIt2、SLAM Toolbox、MoveIt、Gazebo GZ 等）和开发工具（colcon、rosdep、Oh-My-Zsh、SSH、X11）。"
+      },
+      {
+        "row": 10,
+        "rowsha": "0IB4myGopm4IpDsIAfGtP9KktvJyoqGe/jAIPrBvcaY=",
+        "originContent": "- **Complete Output**: Generates not just a `Dockerfile`, but also a matching `docker-compose.yml` and a workspace-specific `README.md` with instructions.",
+        "translatedContent": "- **完整输出**：不仅生成 `Dockerfile`，还生成匹配的 `docker-compose.yml` 和包含说明的工作区专属 `README.md`。"
+      },
+      {
+        "row": 11,
+        "rowsha": "S+dZDjKJTKvbfaAJC7xMzuQ1hQkPI6seXdRY0G4J28Y=",
+        "originContent": "- **Web Parity**: Identical logic engine shared with the [Web UI](https://ppswaroopa.github.io/ros2-dockergen/).",
+        "translatedContent": "- **网页同步**：与 [Web UI](https://ppswaroopa.github.io/ros2-dockergen/) 共享相同的逻辑引擎。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "etC5Q58L406ZW8wuZAe1QExGUBD0RWlcZdPpZl9X/I4=",
+        "originContent": "Simply run:",
+        "translatedContent": "只需运行："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nros2-dockergen\n```",
+    "ContentSha": "h4zL+xDe0ZGV2oMnQDcKYqjNNsRV9tkATk05kIVq7is=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nros2-dockergen\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MmN7UEXlgu3FKISnJwX5ovbF2os0CS/kbTbzuM5yB6o=",
+        "originContent": "ros2-dockergen",
+        "translatedContent": "ros2-dockergen"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "The interactive wizard will walk you through 8 steps to configure your environment.\n\n### Command Line Options",
+    "ContentSha": "HsriAiIVfHjLmoo5jQPxk7Fz3MLhI8uq1CWg8TuhMmU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "交互式向导将引导您完成8个步骤以配置您的环境。\n\n### 命令行选项",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fYbZ5kW4re3ZUAHomEobz2iAUEQFZaqGMmPqiN49oaA=",
+        "originContent": "The interactive wizard will walk you through 8 steps to configure your environment.",
+        "translatedContent": "交互式向导将引导您完成8个步骤以配置您的环境。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dmpI+ry4lxfDT4aF6SrsqiDwcHMJiMnhe1SrFr0RbMA=",
+        "originContent": "### Command Line Options",
+        "translatedContent": "### 命令行选项"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nros2-dockergen --help    # Show help\nros2-dockergen --version # Show version\n```",
+    "ContentSha": "IlRMNYw6bY+4isaBH6JU/aPDHRgF2890ru+/fLz1kkM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nros2-dockergen --help    # Show help\nros2-dockergen --version # Show version\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "G/xjMSPtjBoGZGq2BW7ciYDjTb37+kDv4+ErQeLBRm8=",
+        "originContent": "ros2-dockergen --help    # Show help",
+        "translatedContent": "ros2-dockergen --help    # Show help"
+      },
+      {
+        "row": 3,
+        "rowsha": "6AMLkF/d0VRfIpcew47ssudMogfkNKvyiVPf/Wlj4lQ=",
+        "originContent": "ros2-dockergen --version # Show version",
+        "translatedContent": "ros2-dockergen --version # Show version"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "---\n\n## Local CI With `act`\n\nTo reproduce the main GitHub Actions workflow locally, install [`act`](https://nektosact.com/installation/) and run:\n",
+    "ContentSha": "5LVcOJrF1BKA+w/uSrBFf2qAfrOUaWkh7hViC6ogvKQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 使用 `act` 进行本地持续集成\n\n要在本地重现主要的 GitHub Actions 工作流，请安装 [`act`](https://nektosact.com/installation/) 并运行：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "3ggBfte8qB4fBWdZBnMFXsxLCw1OCDp6qUKZmfVWJeg=",
+        "originContent": "## Local CI With `act`",
+        "translatedContent": "## 使用 `act` 进行本地持续集成"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "B1WheRdB21XQAnQWRJ/XAtq/M+uwDbu99/4eAK041CA=",
+        "originContent": "To reproduce the main GitHub Actions workflow locally, install [`act`](https://nektosact.com/installation/) and run:",
+        "translatedContent": "要在本地重现主要的 GitHub Actions 工作流，请安装 [`act`](https://nektosact.com/installation/) 并运行："
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n./scripts/run_act.sh\n```",
+    "ContentSha": "j7HWf8q4gQ8INgdvlvAwZRV7WkeB/1xjopDDV4vJ2t4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n./scripts/run_act.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "omtkC98F1oO0jga20MvgNzrXvDIXhxReFxNj/T6GfmQ=",
+        "originContent": "./scripts/run_act.sh",
+        "translatedContent": "./scripts/run_act.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nBy default this runs the CI jobs one-by-one so local Docker usage stays manageable and each job's output is easy to read.\n\nIf you want the original full-workflow `act` behavior instead, run:\n",
+    "ContentSha": "Owa2mY1DMpgLVW9pF5rd5CFi5O2Y7RmQ//UeoE5SaJM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "默认情况下，这会一个接一个地运行 CI 任务，以便本地 Docker 使用保持可控，并且每个任务的输出易于阅读。\n\n如果您想要使用原始的完整工作流 `act` 行为，请运行：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "默认情况下，这会一个接一个地运行 CI 任务，以便本地 Docker 使用保持可控，并且每个任务的输出易于阅读。"
+      },
+      {
+        "row": 2,
+        "rowsha": "uM7Z450YtMtLdZF725XrMyMY9gclDYbiORViViYUt8Y=",
+        "originContent": "By default this runs the CI jobs one-by-one so local Docker usage stays manageable and each job's output is easy to read.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您想要使用原始的完整工作流 `act` 行为，请运行："
+      },
+      {
+        "row": 4,
+        "rowsha": "poo6jpvu5OaHq2x6vpBioLRFXiMR9U1nVCFYA/yIshY=",
+        "originContent": "If you want the original full-workflow `act` behavior instead, run:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n./scripts/run_act.sh full\n```",
+    "ContentSha": "1oyuhNCqfS0YWjVtV1rq4Q6St4Pa1wr2CRdmI1Gm+N0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n./scripts/run_act.sh full\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RtT1Dxi7J5QdI5NJML+2tOHxO4Yh1pPUjovJAC+Yq/4=",
+        "originContent": "./scripts/run_act.sh full",
+        "translatedContent": "./scripts/run_act.sh full"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n---\n\n## 📁 Project Structure\n\n- `src/ros2_dockergen/`: Core Python package (CLI + Logic).\n- `src/core.js`: Shared engine (ESM) for Web and Node.js.\n- `index.html`: Stunning browser-based interactive generator.\n- `docs/`: Visual assets and project documentation.\n- `tests/`: Parity validation suite (Ensures Python/JS outputs are byte-identical).\n\n---\n\n## 🔗 Related Resources\n\n- [Web Utility](https://ppswaroopa.github.io/ros2-dockergen/)\n- [Official ROS Documentation](https://docs.ros.org)\n- [OSRF ROS Docker Hub](https://hub.docker.com/r/osrf/ros)\n\n---\n\n## License\n\nReleased under the [MIT License](LICENSE).\nCopyright © 2026 Pranava Swaroopa.\n",
+    "ContentSha": "aggUk90mlYLklMWR8CSQE/AYHNYRiTYhyRgeuWb6ybs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 📁 项目结构\n\n- `src/ros2_dockergen/`：核心 Python 包（CLI + 逻辑）。\n- `src/core.js`：Web 和 Node.js 共享引擎（ESM）。\n- `index.html`：炫酷的浏览器交互式生成器。\n- `docs/`：视觉资源和项目文档。\n- `tests/`：一致性验证套件（确保 Python/JS 输出字节完全相同）。\n\n---\n\n## 🔗 相关资源\n\n- [网页工具](https://ppswaroopa.github.io/ros2-dockergen/)\n- [官方 ROS 文档](https://docs.ros.org)\n- [OSRF ROS Docker Hub](https://hub.docker.com/r/osrf/ros)\n\n---\n\n## 许可证\n\n根据 [MIT 许可证](LICENSE) 发行。\n版权所有 © 2026 Pranava Swaroopa。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "J+2kA+i8tz3LjivQ0RcsUzCYWvN2UHGcYExXmtR1Hsk=",
+        "originContent": "## 📁 Project Structure",
+        "translatedContent": "## 📁 项目结构"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RBS+zD7jU9ERF04GRRwT0L+WeaIjUwstw371SfSrpj0=",
+        "originContent": "- `src/ros2_dockergen/`: Core Python package (CLI + Logic).",
+        "translatedContent": "- `src/ros2_dockergen/`：核心 Python 包（CLI + 逻辑）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "TtVQlrbgIEo53u7zehApMxf+4+IqjXW4he4phNNhu8A=",
+        "originContent": "- `src/core.js`: Shared engine (ESM) for Web and Node.js.",
+        "translatedContent": "- `src/core.js`：Web 和 Node.js 共享引擎（ESM）。"
+      },
+      {
+        "row": 8,
+        "rowsha": "yUQIbmo0jSA+JdC0hLfM2E/J1vvA0lQ4GyZNm+M7gEk=",
+        "originContent": "- `index.html`: Stunning browser-based interactive generator.",
+        "translatedContent": "- `index.html`：炫酷的浏览器交互式生成器。"
+      },
+      {
+        "row": 9,
+        "rowsha": "tEU2mQBMOX+4CPLY3+32YxoykdF0vzJuM7ErCl6bq5k=",
+        "originContent": "- `docs/`: Visual assets and project documentation.",
+        "translatedContent": "- `docs/`：视觉资源和项目文档。"
+      },
+      {
+        "row": 10,
+        "rowsha": "rSp/Pc+5H0yyWp2hkyFuzVZ0Km+uyehtlVpeXMDcOE0=",
+        "originContent": "- `tests/`: Parity validation suite (Ensures Python/JS outputs are byte-identical).",
+        "translatedContent": "- `tests/`：一致性验证套件（确保 Python/JS 输出字节完全相同）。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "vFBouc1fk5Vq2T/yOrVgbvWUwHh/e6mJPwbukZjWzjA=",
+        "originContent": "## 🔗 Related Resources",
+        "translatedContent": "## 🔗 相关资源"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "kUyHHHrzXv6vO15RQsIzbMgLPDj0PoL8VeHBCpDDjGY=",
+        "originContent": "- [Web Utility](https://ppswaroopa.github.io/ros2-dockergen/)",
+        "translatedContent": "- [网页工具](https://ppswaroopa.github.io/ros2-dockergen/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "yraTjKR6X2JtxZfWbVKz4gFP5eEr7YpXbHRo/CrzgS0=",
+        "originContent": "- [Official ROS Documentation](https://docs.ros.org)",
+        "translatedContent": "- [官方 ROS 文档](https://docs.ros.org)"
+      },
+      {
+        "row": 18,
+        "rowsha": "6Rfgc0w3QHY6orLSpoHaXYQRuYIfOe48vONADCL848g=",
+        "originContent": "- [OSRF ROS Docker Hub](https://hub.docker.com/r/osrf/ros)",
+        "translatedContent": "- [OSRF ROS Docker Hub](https://hub.docker.com/r/osrf/ros)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "MrfUn6LxuCjXR1TVnPekEfEW+8LcDgqhcLXoNI09a2w=",
+        "originContent": "Released under the [MIT License](LICENSE).",
+        "translatedContent": "根据 [MIT 许可证](LICENSE) 发行。"
+      },
+      {
+        "row": 25,
+        "rowsha": "5A+iw30eRZKlyG40s8Wkoq+g6F4AldunEsBhJFwJ4dw=",
+        "originContent": "Copyright © 2026 Pranava Swaroopa.",
+        "translatedContent": "版权所有 © 2026 Pranava Swaroopa。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
