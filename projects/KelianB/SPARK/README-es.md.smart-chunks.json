@@ -1,0 +1,892 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n    <h1 align=\"center\">SPARK: Self-supervised Personalized Real-time Monocular Face Capture</h1>\n    <p align=\"center\">\n        <a href=\"mailto://kelian.baert@gmail.com\"><strong>Kelian Baert</strong></a>\n        ·\n        <a href=\"https://sbharadwajj.github.io/\"><strong>Shrisha Bharadwaj</strong></a>\n        ·\n        <a href=\"https://www.linkedin.com/in/fabien-castan/\"><strong>Fabien Castan</strong></a>\n        ·\n        <a href=\"https://www.linkedin.com/in/benoitmaujean/\"><strong>Benoit Maujean</strong></a>\n        ·\n        <a href=\"https://people.irisa.fr/Marc.Christie/\"><strong>Marc Christie</strong></a>\n        ·\n        <a href=\"https://vabrevaya.github.io/\"><strong>Victoria Fernandez Abrevaya</strong></a>\n        ·\n        <a href=\"https://boukhayma.github.io/\"><strong>Adnane Boukhayma</strong></a>\n    </p>\n    <p align=\"center\">\n        <a href=\"https://technicolor.com\">Technicolor</a> | <a href=\"https://is.mpg.de/\">Max Planck Institute</a> | <a href=\"https://www.inria.fr/en/inria-centre-rennes-university\">INRIA Rennes</a>\n        <br>\n        <strong>SIGGRAPH Asia 2024 Conference Papers</strong>\n    </p>\n    <p align=\"center\">\n        <a href=\"https://kelianb.github.io/SPARK/\" style=\"padding-left: 0.5rem;\">\n            <img src=\"https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue\" alt=\"Project Page\">\n        </a>\n        <a href=\"https://dl.acm.org/doi/10.1145/3680528\">\n            <img src=\"https://img.shields.io/badge/Paper-red\" alt=\"PDF\">\n        </a>\n        <a href=\"https://arxiv.org/abs/2409.07984\">\n            <img src=\"https://img.shields.io/badge/Arxiv-red\" alt=\"arxiv PDF\">\n        </a>\n    </p>\n    <p align=\"center\">\n        <img src=\"https://raw.githubusercontent.com/KelianB/SPARK/main/assets/teaser.webp\" width=\"98%\" />\n    </p>\n</p>\n\n## Citation\n",
+    "ContentSha": "1+kgoyKNo9cOaQOSsFmIrq4hxI9xmiMZqzvYDGiMiKw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n    <h1 align=\"center\">SPARK: Captura Monocular de Rostro Personalizada en Tiempo Real y Auto-supervisada</h1>\n    <p align=\"center\">\n        <a href=\"mailto://kelian.baert@gmail.com\"><strong>Kelian Baert</strong></a>\n        ·\n        <a href=\"https://sbharadwajj.github.io/\"><strong>Shrisha Bharadwaj</strong></a>\n        ·\n        <a href=\"https://www.linkedin.com/in/fabien-castan/\"><strong>Fabien Castan</strong></a>\n        ·\n        <a href=\"https://www.linkedin.com/in/benoitmaujean/\"><strong>Benoit Maujean</strong></a>\n        ·\n        <a href=\"https://people.irisa.fr/Marc.Christie/\"><strong>Marc Christie</strong></a>\n        ·\n        <a href=\"https://vabrevaya.github.io/\"><strong>Victoria Fernandez Abrevaya</strong></a>\n        ·\n        <a href=\"https://boukhayma.github.io/\"><strong>Adnane Boukhayma</strong></a>\n    </p>\n    <p align=\"center\">\n        <a href=\"https://technicolor.com\">Technicolor</a> | <a href=\"https://is.mpg.de/\">Instituto Max Planck</a> | <a href=\"https://www.inria.fr/en/inria-centre-rennes-university\">INRIA Rennes</a>\n        <br>\n        <strong>Artículos de la Conferencia SIGGRAPH Asia 2024</strong>\n    </p>\n    <p align=\"center\">\n        <a href=\"https://kelianb.github.io/SPARK/\" style=\"padding-left: 0.5rem;\">\n            <img src=\"https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue\" alt=\"Página del Proyecto\">\n        </a>\n        <a href=\"https://dl.acm.org/doi/10.1145/3680528\">\n            <img src=\"https://img.shields.io/badge/Paper-red\" alt=\"PDF\">\n        </a>\n        <a href=\"https://arxiv.org/abs/2409.07984\">\n            <img src=\"https://img.shields.io/badge/Arxiv-red\" alt=\"PDF arxiv\">\n        </a>\n    </p>\n    <p align=\"center\">\n        <img src=\"https://raw.githubusercontent.com/KelianB/SPARK/main/assets/teaser.webp\" width=\"98%\" />\n    </p>\n</p>\n\n## Cita\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "viJU0FzBsuJ8b5jWu8Tl67zlGHgUN1FHqtViOsri/Wc=",
+        "originContent": "    <h1 align=\"center\">SPARK: Self-supervised Personalized Real-time Monocular Face Capture</h1>",
+        "translatedContent": "    <h1 align=\"center\">SPARK: Captura Monocular de Rostro Personalizada en Tiempo Real y Auto-supervisada</h1>"
+      },
+      {
+        "row": 3,
+        "rowsha": "9NXEf3zy2HDXN00OVcZwMKk/fnudkzZKkxrML/bUL2g=",
+        "originContent": "    <p align=\"center\">",
+        "translatedContent": "    <p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "uQCPVW4+WE8cwJ/psjEWm1Ilq1ij9nN9vLYTsAwhgCA=",
+        "originContent": "        <a href=\"mailto://kelian.baert@gmail.com\"><strong>Kelian Baert</strong></a>",
+        "translatedContent": "        <a href=\"mailto://kelian.baert@gmail.com\"><strong>Kelian Baert</strong></a>"
+      },
+      {
+        "row": 5,
+        "rowsha": "CdnyBeYL8+it+FH7K5renBSbL/yufRbD90rBhp1x+Hs=",
+        "originContent": "        ·",
+        "translatedContent": "        ·"
+      },
+      {
+        "row": 6,
+        "rowsha": "vnXfxkZiGwF37hdgFM9xwDdbrl0v65aZ+YzCPCP6wR4=",
+        "originContent": "        <a href=\"https://sbharadwajj.github.io/\"><strong>Shrisha Bharadwaj</strong></a>",
+        "translatedContent": "        <a href=\"https://sbharadwajj.github.io/\"><strong>Shrisha Bharadwaj</strong></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "CdnyBeYL8+it+FH7K5renBSbL/yufRbD90rBhp1x+Hs=",
+        "originContent": "        ·",
+        "translatedContent": "        ·"
+      },
+      {
+        "row": 8,
+        "rowsha": "HOErTJav4R4qk+9RKQQQc0wlk7YJoeRrgR3bx2YKWn4=",
+        "originContent": "        <a href=\"https://www.linkedin.com/in/fabien-castan/\"><strong>Fabien Castan</strong></a>",
+        "translatedContent": "        <a href=\"https://www.linkedin.com/in/fabien-castan/\"><strong>Fabien Castan</strong></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "CdnyBeYL8+it+FH7K5renBSbL/yufRbD90rBhp1x+Hs=",
+        "originContent": "        ·",
+        "translatedContent": "        ·"
+      },
+      {
+        "row": 10,
+        "rowsha": "skKYwCXKVroaDws4Z1a+QAL5ielTxOLKqGrSCHIBIUo=",
+        "originContent": "        <a href=\"https://www.linkedin.com/in/benoitmaujean/\"><strong>Benoit Maujean</strong></a>",
+        "translatedContent": "        <a href=\"https://www.linkedin.com/in/benoitmaujean/\"><strong>Benoit Maujean</strong></a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "CdnyBeYL8+it+FH7K5renBSbL/yufRbD90rBhp1x+Hs=",
+        "originContent": "        ·",
+        "translatedContent": "        ·"
+      },
+      {
+        "row": 12,
+        "rowsha": "0BLHAf9XWHR16JoXTJcjgh83n2xuIXLLphdjAI0fRTE=",
+        "originContent": "        <a href=\"https://people.irisa.fr/Marc.Christie/\"><strong>Marc Christie</strong></a>",
+        "translatedContent": "        <a href=\"https://people.irisa.fr/Marc.Christie/\"><strong>Marc Christie</strong></a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "CdnyBeYL8+it+FH7K5renBSbL/yufRbD90rBhp1x+Hs=",
+        "originContent": "        ·",
+        "translatedContent": "        ·"
+      },
+      {
+        "row": 14,
+        "rowsha": "+0wApLevoSQXCfaktCc5nou7hsH+A4qafXbKzt1FDx4=",
+        "originContent": "        <a href=\"https://vabrevaya.github.io/\"><strong>Victoria Fernandez Abrevaya</strong></a>",
+        "translatedContent": "        <a href=\"https://vabrevaya.github.io/\"><strong>Victoria Fernandez Abrevaya</strong></a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "CdnyBeYL8+it+FH7K5renBSbL/yufRbD90rBhp1x+Hs=",
+        "originContent": "        ·",
+        "translatedContent": "        ·"
+      },
+      {
+        "row": 16,
+        "rowsha": "+fpTQ76KqnMaZwFwgYYThs6kr+zsLYlUTMvIgC4e2JQ=",
+        "originContent": "        <a href=\"https://boukhayma.github.io/\"><strong>Adnane Boukhayma</strong></a>",
+        "translatedContent": "        <a href=\"https://boukhayma.github.io/\"><strong>Adnane Boukhayma</strong></a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "/rQRZ9mibGieY1t6hGL4zjA7A6WcR06n++W3pFg56Ko=",
+        "originContent": "    </p>",
+        "translatedContent": "    </p>"
+      },
+      {
+        "row": 18,
+        "rowsha": "9NXEf3zy2HDXN00OVcZwMKk/fnudkzZKkxrML/bUL2g=",
+        "originContent": "    <p align=\"center\">",
+        "translatedContent": "    <p align=\"center\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "a1Fir5yd+IwrFNU0v4D3Vqw7e4StqXI+xot6cPdHhjw=",
+        "originContent": "        <a href=\"https://technicolor.com\">Technicolor</a> | <a href=\"https://is.mpg.de/\">Max Planck Institute</a> | <a href=\"https://www.inria.fr/en/inria-centre-rennes-university\">INRIA Rennes</a>",
+        "translatedContent": "        <a href=\"https://technicolor.com\">Technicolor</a> | <a href=\"https://is.mpg.de/\">Instituto Max Planck</a> | <a href=\"https://www.inria.fr/en/inria-centre-rennes-university\">INRIA Rennes</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "4/ycmZOiowOsgqA2q6q/qTqL74d80OcAvHVwFANE3yQ=",
+        "originContent": "        <br>",
+        "translatedContent": "        <br>"
+      },
+      {
+        "row": 21,
+        "rowsha": "66lyw8WcT2vo0KZLRPAPp9fUc7dhql1Xl9xDtoXMX1w=",
+        "originContent": "        <strong>SIGGRAPH Asia 2024 Conference Papers</strong>",
+        "translatedContent": "        <strong>Artículos de la Conferencia SIGGRAPH Asia 2024</strong>"
+      },
+      {
+        "row": 22,
+        "rowsha": "/rQRZ9mibGieY1t6hGL4zjA7A6WcR06n++W3pFg56Ko=",
+        "originContent": "    </p>",
+        "translatedContent": "    </p>"
+      },
+      {
+        "row": 23,
+        "rowsha": "9NXEf3zy2HDXN00OVcZwMKk/fnudkzZKkxrML/bUL2g=",
+        "originContent": "    <p align=\"center\">",
+        "translatedContent": "    <p align=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "oem0O82u3EyVf9I88F8io9L+P8Jzes7q2IFu9K5NWaA=",
+        "originContent": "        <a href=\"https://kelianb.github.io/SPARK/\" style=\"padding-left: 0.5rem;\">",
+        "translatedContent": "        <a href=\"https://kelianb.github.io/SPARK/\" style=\"padding-left: 0.5rem;\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "v4s+HjQMYLfYCJLOHBAwy/S36aDG4kLR/WdlzyOfvoY=",
+        "originContent": "            <img src=\"https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue\" alt=\"Project Page\">",
+        "translatedContent": "            <img src=\"https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue\" alt=\"Página del Proyecto\">"
+      },
+      {
+        "row": 26,
+        "rowsha": "Co3B6EpwXcCQtOdLkatevFO6yLSSUKD+qxCcJXUMyWU=",
+        "originContent": "        </a>",
+        "translatedContent": "        </a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "nN3wkdzalT2LfEDRNRdzjUyf+pTctZwBlLQ2lPxq2kc=",
+        "originContent": "        <a href=\"https://dl.acm.org/doi/10.1145/3680528\">",
+        "translatedContent": "        <a href=\"https://dl.acm.org/doi/10.1145/3680528\">"
+      },
+      {
+        "row": 28,
+        "rowsha": "RzGcuuaWyPGh2QWEBmNvVu57yrE9juL/+KmwxWZTNbw=",
+        "originContent": "            <img src=\"https://img.shields.io/badge/Paper-red\" alt=\"PDF\">",
+        "translatedContent": "            <img src=\"https://img.shields.io/badge/Paper-red\" alt=\"PDF\">"
+      },
+      {
+        "row": 29,
+        "rowsha": "Co3B6EpwXcCQtOdLkatevFO6yLSSUKD+qxCcJXUMyWU=",
+        "originContent": "        </a>",
+        "translatedContent": "        </a>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qpaaExasWNhmdxLU64U5NGgk+jWddnr9cRByYg09F5U=",
+        "originContent": "        <a href=\"https://arxiv.org/abs/2409.07984\">",
+        "translatedContent": "        <a href=\"https://arxiv.org/abs/2409.07984\">"
+      },
+      {
+        "row": 31,
+        "rowsha": "gPrEvVnk4iOcsdFqw+NRIRQlOcGBmFb7d3Mpd2pUagU=",
+        "originContent": "            <img src=\"https://img.shields.io/badge/Arxiv-red\" alt=\"arxiv PDF\">",
+        "translatedContent": "            <img src=\"https://img.shields.io/badge/Arxiv-red\" alt=\"PDF arxiv\">"
+      },
+      {
+        "row": 32,
+        "rowsha": "Co3B6EpwXcCQtOdLkatevFO6yLSSUKD+qxCcJXUMyWU=",
+        "originContent": "        </a>",
+        "translatedContent": "        </a>"
+      },
+      {
+        "row": 33,
+        "rowsha": "/rQRZ9mibGieY1t6hGL4zjA7A6WcR06n++W3pFg56Ko=",
+        "originContent": "    </p>",
+        "translatedContent": "    </p>"
+      },
+      {
+        "row": 34,
+        "rowsha": "9NXEf3zy2HDXN00OVcZwMKk/fnudkzZKkxrML/bUL2g=",
+        "originContent": "    <p align=\"center\">",
+        "translatedContent": "    <p align=\"center\">"
+      },
+      {
+        "row": 35,
+        "rowsha": "W0MXxX6CQWgVM2hHa1LMbCy7TgyH7S/pnT04olW0D78=",
+        "originContent": "        <img src=\"https://raw.githubusercontent.com/KelianB/SPARK/main/assets/teaser.webp\" width=\"98%\" />",
+        "translatedContent": "        <img src=\"https://raw.githubusercontent.com/KelianB/SPARK/main/assets/teaser.webp\" width=\"98%\" />"
+      },
+      {
+        "row": 36,
+        "rowsha": "/rQRZ9mibGieY1t6hGL4zjA7A6WcR06n++W3pFg56Ko=",
+        "originContent": "    </p>",
+        "translatedContent": "    </p>"
+      },
+      {
+        "row": 37,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## Cita"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "If you find our code or paper useful, please cite as:\n",
+    "ContentSha": "Q/J6bp7NHBFDsKFZ9ZBjHyZjD3BOQiAgzKo7U4pXLJM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Si encuentra útil nuestro código o artículo, por favor cite como:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RrYwxYr3NmJkRAuJtPwMNo+E4lPLP7uVLHD4H9NpIJM=",
+        "originContent": "If you find our code or paper useful, please cite as:",
+        "translatedContent": "Si encuentra útil nuestro código o artículo, por favor cite como:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bibtex\n@inproceedings{baert2024spark,\n  title = {{SPARK}: Self-supervised Personalized Real-time Monocular Face Capture},\n  author = {Baert, Kelian and Bharadwaj, Shrisha and Castan, Fabien and Maujean, Benoit and Christie, Marc and Abrevaya, Victoria and Boukhayma, Adnane},\n  year = {2024},\n  month = dec,\n  booktitle = {SIGGRAPH Asia 2024 Conference Proceedings},\n  articleno = {113},\n  doi = {10.1145/3680528.3687704},\n  isbn = {979-8-4007-1131-2/24/12},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  numpages = {12},\n  url = {https://kelianb.github.io/SPARK/},\n}\n```",
+    "ContentSha": "yFgYuT/LUTJvbR2JAnC1LH5AHgQOs0e7sYRuJhEqVVI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@inproceedings{baert2024spark,\n  title = {{SPARK}: Self-supervised Personalized Real-time Monocular Face Capture},\n  author = {Baert, Kelian and Bharadwaj, Shrisha and Castan, Fabien and Maujean, Benoit and Christie, Marc and Abrevaya, Victoria and Boukhayma, Adnane},\n  year = {2024},\n  month = dec,\n  booktitle = {SIGGRAPH Asia 2024 Conference Proceedings},\n  articleno = {113},\n  doi = {10.1145/3680528.3687704},\n  isbn = {979-8-4007-1131-2/24/12},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  numpages = {12},\n  url = {https://kelianb.github.io/SPARK/},\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "Hl+36lLQy3fQTmetUb47yAxKGlXMDlj1yhKrV1n4FTw=",
+        "originContent": "@inproceedings{baert2024spark,",
+        "translatedContent": "@inproceedings{baert2024spark,"
+      },
+      {
+        "row": 3,
+        "rowsha": "9JMXG4yIN1xkE/tNMTdV7nSBaHWjKdA2Yk/1MYpgd4k=",
+        "originContent": "  title = {{SPARK}: Self-supervised Personalized Real-time Monocular Face Capture},",
+        "translatedContent": "  title = {{SPARK}: Self-supervised Personalized Real-time Monocular Face Capture},"
+      },
+      {
+        "row": 4,
+        "rowsha": "D3qfiFlt1fPAnHBFoguE2QeZJix/Yj5t2O3qHg+5B30=",
+        "originContent": "  author = {Baert, Kelian and Bharadwaj, Shrisha and Castan, Fabien and Maujean, Benoit and Christie, Marc and Abrevaya, Victoria and Boukhayma, Adnane},",
+        "translatedContent": "  author = {Baert, Kelian and Bharadwaj, Shrisha and Castan, Fabien and Maujean, Benoit and Christie, Marc and Abrevaya, Victoria and Boukhayma, Adnane},"
+      },
+      {
+        "row": 5,
+        "rowsha": "h00KZGKSO3uBT44Qk+hg2PecC2sNAsBPA3+Z8WeuriU=",
+        "originContent": "  year = {2024},",
+        "translatedContent": "  year = {2024},"
+      },
+      {
+        "row": 6,
+        "rowsha": "+G0wdjnVJSqAMywRLRjIDtYqdfSZzuBTiYtfATEA9Xk=",
+        "originContent": "  month = dec,",
+        "translatedContent": "  month = dec,"
+      },
+      {
+        "row": 7,
+        "rowsha": "nT/yXBL3/1RCn0Yfma0ElC/iiUWE7uo6lNdmL+0kj34=",
+        "originContent": "  booktitle = {SIGGRAPH Asia 2024 Conference Proceedings},",
+        "translatedContent": "  booktitle = {SIGGRAPH Asia 2024 Conference Proceedings},"
+      },
+      {
+        "row": 8,
+        "rowsha": "r6O/H1a0bewHFaBVsSY05WpkhfnDzHgokoajet1fboE=",
+        "originContent": "  articleno = {113},",
+        "translatedContent": "  articleno = {113},"
+      },
+      {
+        "row": 9,
+        "rowsha": "fBCMx07qfNOmM4Das/wXLxcPAwkaxQntO5BkkSDuWHo=",
+        "originContent": "  doi = {10.1145/3680528.3687704},",
+        "translatedContent": "  doi = {10.1145/3680528.3687704},"
+      },
+      {
+        "row": 10,
+        "rowsha": "6JIPnIqwfTBoEjVYCYTzVenQbAFoBc9gbrRufLLTJTs=",
+        "originContent": "  isbn = {979-8-4007-1131-2/24/12},",
+        "translatedContent": "  isbn = {979-8-4007-1131-2/24/12},"
+      },
+      {
+        "row": 11,
+        "rowsha": "Sv9tsI1rnbEVjCI1RGsC5cvBl/1b26fVf2kwW/Wa9gk=",
+        "originContent": "  publisher = {Association for Computing Machinery},",
+        "translatedContent": "  publisher = {Association for Computing Machinery},"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZyBQhG9fqwHbCcrROxgofdTaHF4xV3PSDq5ez5OBRYM=",
+        "originContent": "  address = {New York, NY, USA},",
+        "translatedContent": "  address = {New York, NY, USA},"
+      },
+      {
+        "row": 13,
+        "rowsha": "uBPepYPak7lO38Xupq60tZNtR9KCaGSl0+IA+lk3X9Q=",
+        "originContent": "  numpages = {12},",
+        "translatedContent": "  numpages = {12},"
+      },
+      {
+        "row": 14,
+        "rowsha": "kzBuHBL9KnMIKij3GFw82yVUl4jdcu3s/cOLu5apzSA=",
+        "originContent": "  url = {https://kelianb.github.io/SPARK/},",
+        "translatedContent": "  url = {https://kelianb.github.io/SPARK/},"
+      },
+      {
+        "row": 15,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Installation\n\n<details>\n    <summary>Details</summary>\n\n- Create the environment using [setup.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./setup.sh).\n- Run [TrackerAdaptation/setup_submodules.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./TrackerAdaptation/setup_submodules.sh). This may take a few minutes.\n- Link FLAME from MultiFLARE to EMOCA: `ln TrackerAdaptation/submodules/EMOCA/assets/FLAME/geometry/generic_model.pkl MultiFLARE/assets/flame/flame2020.pkl`\n    - This is equivalent to downloading [FLAME](https://flame.is.tue.mpg.de/download.php) (2020 version), unzipping it and copying `generic_model.pkl` at `./MultiFLARE/assets/flame/flame2020.pkl`.\n- Get Basel Face Model texture space adapted to FLAME. Unfortunately, we are not allowed to distribute the texture space since the license does not permit it. Therefore, please use the tool from this [repo](https://github.com/TimoBolkart/BFM_to_FLAME) to convert the texture space to FLAME. Put the resulting texture model file at `TrackerAdaptation/submodules/EMOCA/assets/FLAME/texture/FLAME_albedo_from_BFM.npz`.\n\nSPARK has been tested with NVIDIA RTX A5000 (24GB) or RTX A4000 (16GB) GPUs. It is possible to train on GPUs with less memory by reducing the batch size.\n\n</details>\n\n## Dataset\n\nPlease refer to the [MonoFaceCompute](https://github.com/KelianB/MonoFaceCompute) repository to preprocess your own data.\n\n## Usage\n\nSPARK is a two-stage approach. First, run [MultiFLARE](./MultiFLARE/) to reconstruct a 3D Face Avatar from multiple videos. Then, use [TrackerAdaptation](./TrackerAdaptation/) to adapt an existing 3D face tracker to your avatar for real-time tracking through transfer learning.\n\n<details>\n    <summary>Details</summary>\n\n### 1. MultiFLARE\n",
+    "ContentSha": "z1FfHeoyu2Q4T6JM6VFyfvxJzRvYIVMZ6PChfvPQw7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Instalación\n\n<details>\n    <summary>Detalles</summary>\n\n- Crea el entorno usando [setup.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./setup.sh).\n- Ejecuta [TrackerAdaptation/setup_submodules.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./TrackerAdaptation/setup_submodules.sh). Esto puede tomar algunos minutos.\n- Enlaza FLAME desde MultiFLARE a EMOCA: `ln TrackerAdaptation/submodules/EMOCA/assets/FLAME/geometry/generic_model.pkl MultiFLARE/assets/flame/flame2020.pkl`\n    - Esto es equivalente a descargar [FLAME](https://flame.is.tue.mpg.de/download.php) (versión 2020), descomprimirlo y copiar `generic_model.pkl` en `./MultiFLARE/assets/flame/flame2020.pkl`.\n- Obtén el espacio de textura del Basel Face Model adaptado a FLAME. Desafortunadamente, no podemos distribuir el espacio de textura ya que la licencia no lo permite. Por lo tanto, utiliza la herramienta de este [repositorio](https://github.com/TimoBolkart/BFM_to_FLAME) para convertir el espacio de textura a FLAME. Coloca el archivo resultante del modelo de textura en `TrackerAdaptation/submodules/EMOCA/assets/FLAME/texture/FLAME_albedo_from_BFM.npz`.\n\nSPARK ha sido probado con GPUs NVIDIA RTX A5000 (24GB) o RTX A4000 (16GB). Es posible entrenar en GPUs con menos memoria reduciendo el tamaño del lote.\n\n</details>\n\n## Conjunto de datos\n\nConsulta el repositorio [MonoFaceCompute](https://github.com/KelianB/MonoFaceCompute) para preprocesar tus propios datos.\n\n## Uso\n\nSPARK es un enfoque de dos etapas. Primero, ejecuta [MultiFLARE](./MultiFLARE/) para reconstruir un Avatar Facial 3D a partir de múltiples vídeos. Luego, usa [TrackerAdaptation](./TrackerAdaptation/) para adaptar un rastreador facial 3D existente a tu avatar para seguimiento en tiempo real mediante aprendizaje por transferencia.\n\n<details>\n    <summary>Detalles</summary>\n\n### 1. MultiFLARE\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZqkpspkiEAJmzqYC12VziHLN3sK6FUGBuAmJ7GUhFRQ=",
+        "originContent": "    <summary>Details</summary>",
+        "translatedContent": "    <summary>Detalles</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "TV3dYBI4jp5fPbu+p1ovRFHuwW1LwgFuJNMWXkqdSmw=",
+        "originContent": "- Create the environment using [setup.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./setup.sh).",
+        "translatedContent": "- Crea el entorno usando [setup.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./setup.sh)."
+      },
+      {
+        "row": 8,
+        "rowsha": "o7HYOare0jEWuwAME8aRfbHri9PkUjVTGj+suP87SJs=",
+        "originContent": "- Run [TrackerAdaptation/setup_submodules.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./TrackerAdaptation/setup_submodules.sh). This may take a few minutes.",
+        "translatedContent": "- Ejecuta [TrackerAdaptation/setup_submodules.sh](https://raw.githubusercontent.com/KelianB/SPARK/main/./TrackerAdaptation/setup_submodules.sh). Esto puede tomar algunos minutos."
+      },
+      {
+        "row": 9,
+        "rowsha": "FZj9n6yq8x2bJD0LriCTN8WRn2YwUQ5A6Wanc/lEnas=",
+        "originContent": "- Link FLAME from MultiFLARE to EMOCA: `ln TrackerAdaptation/submodules/EMOCA/assets/FLAME/geometry/generic_model.pkl MultiFLARE/assets/flame/flame2020.pkl`",
+        "translatedContent": "- Enlaza FLAME desde MultiFLARE a EMOCA: `ln TrackerAdaptation/submodules/EMOCA/assets/FLAME/geometry/generic_model.pkl MultiFLARE/assets/flame/flame2020.pkl`"
+      },
+      {
+        "row": 10,
+        "rowsha": "QPtTIvwytdi0WBlNETYb3zxinLjxaxKn3fQQxMGqezA=",
+        "originContent": "    - This is equivalent to downloading [FLAME](https://flame.is.tue.mpg.de/download.php) (2020 version), unzipping it and copying `generic_model.pkl` at `./MultiFLARE/assets/flame/flame2020.pkl`.",
+        "translatedContent": "    - Esto es equivalente a descargar [FLAME](https://flame.is.tue.mpg.de/download.php) (versión 2020), descomprimirlo y copiar `generic_model.pkl` en `./MultiFLARE/assets/flame/flame2020.pkl`."
+      },
+      {
+        "row": 11,
+        "rowsha": "dv8UqBptHMK53WzSS8Z2Dl1gzV1uA29fj2z3Z2ax9KA=",
+        "originContent": "- Get Basel Face Model texture space adapted to FLAME. Unfortunately, we are not allowed to distribute the texture space since the license does not permit it. Therefore, please use the tool from this [repo](https://github.com/TimoBolkart/BFM_to_FLAME) to convert the texture space to FLAME. Put the resulting texture model file at `TrackerAdaptation/submodules/EMOCA/assets/FLAME/texture/FLAME_albedo_from_BFM.npz`.",
+        "translatedContent": "- Obtén el espacio de textura del Basel Face Model adaptado a FLAME. Desafortunadamente, no podemos distribuir el espacio de textura ya que la licencia no lo permite. Por lo tanto, utiliza la herramienta de este [repositorio](https://github.com/TimoBolkart/BFM_to_FLAME) para convertir el espacio de textura a FLAME. Coloca el archivo resultante del modelo de textura en `TrackerAdaptation/submodules/EMOCA/assets/FLAME/texture/FLAME_albedo_from_BFM.npz`."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "FrDbJ0TAgM4Eq3LjF3puxCkc0komkbZJDoLS/+NLaA4=",
+        "originContent": "SPARK has been tested with NVIDIA RTX A5000 (24GB) or RTX A4000 (16GB) GPUs. It is possible to train on GPUs with less memory by reducing the batch size.",
+        "translatedContent": "SPARK ha sido probado con GPUs NVIDIA RTX A5000 (24GB) o RTX A4000 (16GB). Es posible entrenar en GPUs con menos memoria reduciendo el tamaño del lote."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "b78xXK39qETPK4hVKtMuRkDqmW+LfM4n0ASOYbXbu9c=",
+        "originContent": "## Dataset",
+        "translatedContent": "## Conjunto de datos"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "ZfQNOsYzG4maOgV46mOtK9+QFwxRXsGm+vhsZcpojtg=",
+        "originContent": "Please refer to the [MonoFaceCompute](https://github.com/KelianB/MonoFaceCompute) repository to preprocess your own data.",
+        "translatedContent": "Consulta el repositorio [MonoFaceCompute](https://github.com/KelianB/MonoFaceCompute) para preprocesar tus propios datos."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "p1d4HPucnsk9YbDFbH+cPm30G4cLdUIIixml3spydOc=",
+        "originContent": "SPARK is a two-stage approach. First, run [MultiFLARE](./MultiFLARE/) to reconstruct a 3D Face Avatar from multiple videos. Then, use [TrackerAdaptation](./TrackerAdaptation/) to adapt an existing 3D face tracker to your avatar for real-time tracking through transfer learning.",
+        "translatedContent": "SPARK es un enfoque de dos etapas. Primero, ejecuta [MultiFLARE](./MultiFLARE/) para reconstruir un Avatar Facial 3D a partir de múltiples vídeos. Luego, usa [TrackerAdaptation](./TrackerAdaptation/) para adaptar un rastreador facial 3D existente a tu avatar para seguimiento en tiempo real mediante aprendizaje por transferencia."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZqkpspkiEAJmzqYC12VziHLN3sK6FUGBuAmJ7GUhFRQ=",
+        "originContent": "    <summary>Details</summary>",
+        "translatedContent": "    <summary>Detalles</summary>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "jNiKuTRi658yQrxdleWEHIuAhZFyk5AJllEjwFfSKek=",
+        "originContent": "### 1. MultiFLARE",
+        "translatedContent": "### 1. MultiFLARE"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\ncd MultiFLARE\npython train.py --config configs/example.txt\n\n# Export neutral mesh\npython export_mesh.py --config configs/example.txt --resume 3000 --out_dir /tmp/example_mesh --tex_type albedo\n```",
+    "ContentSha": "UJQCo5oP5dqnM92pzckZYA+4IWA3E/GBuXjfutdIcyU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd MultiFLARE\npython train.py --config configs/example.txt\n\n# Export neutral mesh\npython export_mesh.py --config configs/example.txt --resume 3000 --out_dir /tmp/example_mesh --tex_type albedo\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "daZ6rJCeVM2jJd1mbyQ20IT6j8yvgu+PvmsqfCd+p4s=",
+        "originContent": "cd MultiFLARE",
+        "translatedContent": "cd MultiFLARE"
+      },
+      {
+        "row": 3,
+        "rowsha": "UFDtez5oTFt7m8oPasJhzUbOAB2P3FuNcpsXyfHenOU=",
+        "originContent": "python train.py --config configs/example.txt",
+        "translatedContent": "python train.py --config configs/example.txt"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uvoxXFO8WSAuqGFQfDIJNSLng1XznY4c5SaRkvkjwYw=",
+        "originContent": "# Export neutral mesh",
+        "translatedContent": "# Export neutral mesh"
+      },
+      {
+        "row": 6,
+        "rowsha": "cqGMR/5+iuCGXtB8Xq+PITkngc8l6T2bS9yC4VhMSNs=",
+        "originContent": "python export_mesh.py --config configs/example.txt --resume 3000 --out_dir /tmp/example_mesh --tex_type albedo",
+        "translatedContent": "python export_mesh.py --config configs/example.txt --resume 3000 --out_dir /tmp/example_mesh --tex_type albedo"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nWe advise starting from the provided example config and modifying `input_dir`, `train_dir` and `output_dir`. For a list of all parameters, please refer to [arguments.py](https://raw.githubusercontent.com/KelianB/SPARK/main/./MultiFLARE/arguments.py) or the output of `python train.py --help`. Parameters can be passed either in the config file or as command line arguments.\n\n### 2. TrackerAdaptation\n",
+    "ContentSha": "7f8ERvuCy3joyKdpQp7aBJ5aMqDgG9PcnSFygYW2r7s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nRecomendamos comenzar con el archivo de configuración de ejemplo proporcionado y modificar `input_dir`, `train_dir` y `output_dir`. Para una lista de todos los parámetros, por favor consulte [arguments.py](https://raw.githubusercontent.com/KelianB/SPARK/main/./MultiFLARE/arguments.py) o la salida de `python train.py --help`. Los parámetros se pueden pasar ya sea en el archivo de configuración o como argumentos de línea de comandos.\n\n### 2. Adaptación del Rastreador\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "g2Rpdf0M1C7pCVY7dsiLuw7vpv6qyQ8FA1VEjpQRRPo=",
+        "originContent": "We advise starting from the provided example config and modifying `input_dir`, `train_dir` and `output_dir`. For a list of all parameters, please refer to [arguments.py](https://raw.githubusercontent.com/KelianB/SPARK/main/./MultiFLARE/arguments.py) or the output of `python train.py --help`. Parameters can be passed either in the config file or as command line arguments.",
+        "translatedContent": "Recomendamos comenzar con el archivo de configuración de ejemplo proporcionado y modificar `input_dir`, `train_dir` y `output_dir`. Para una lista de todos los parámetros, por favor consulte [arguments.py](https://raw.githubusercontent.com/KelianB/SPARK/main/./MultiFLARE/arguments.py) o la salida de `python train.py --help`. Los parámetros se pueden pasar ya sea en el archivo de configuración o como argumentos de línea de comandos."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NJ4eg1TaBn8daW103rXDuTxbA8G7ob6tr0aljuA5aKA=",
+        "originContent": "### 2. TrackerAdaptation",
+        "translatedContent": "### 2. Adaptación del Rastreador"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\ncd TrackerAdaptation\n# DECA encoder + MultiFLARE decoder\npython train.py --config configs/example_deca.txt\n# EMOCA encoder + MultiFLARE decoder\npython train.py --config configs/example_emoca.txt\n# SMIRK encoder + MultiFLARE decoder (recommended!)\npython train.py --config configs/example_smirk.txt\n# EMOCA encoder + EMOCA decoder (baseline)\npython train.py --config configs/example_emoca_baseline.txt\n\n# Quantitative eval\npython evaluate.py --config configs/example_smirk.txt --tracker_resume 3000 --frame_interval 5 --num_frames 64\n\n# Visualization videos\npython make_comparison_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 5 6 --n_frames 1000 --smooth_crops --framerate 24\npython make_overlay_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 2 --out test_beard --texture /path/to/texture.png --n_frames 1000 --smooth_crops --framerate 24\n```",
+    "ContentSha": "VeAgkc/fPJeY/ercSiExChGb+/4g0euTXiAkJBBYOqI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd TrackerAdaptation\n# DECA encoder + MultiFLARE decoder\npython train.py --config configs/example_deca.txt\n# EMOCA encoder + MultiFLARE decoder\npython train.py --config configs/example_emoca.txt\n# SMIRK encoder + MultiFLARE decoder (recommended!)\npython train.py --config configs/example_smirk.txt\n# EMOCA encoder + EMOCA decoder (baseline)\npython train.py --config configs/example_emoca_baseline.txt\n\n# Quantitative eval\npython evaluate.py --config configs/example_smirk.txt --tracker_resume 3000 --frame_interval 5 --num_frames 64\n\n# Visualization videos\npython make_comparison_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 5 6 --n_frames 1000 --smooth_crops --framerate 24\npython make_overlay_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 2 --out test_beard --texture /path/to/texture.png --n_frames 1000 --smooth_crops --framerate 24\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "k12T4a9OqogEUFGV2wkrIVie+8A4aVpSmCfQj6C9Suk=",
+        "originContent": "cd TrackerAdaptation",
+        "translatedContent": "cd TrackerAdaptation"
+      },
+      {
+        "row": 3,
+        "rowsha": "OjnyLOipwiMTasHO7ixQO3JF/hc7b5yWFP2lkCldf1w=",
+        "originContent": "# DECA encoder + MultiFLARE decoder",
+        "translatedContent": "# DECA encoder + MultiFLARE decoder"
+      },
+      {
+        "row": 4,
+        "rowsha": "CFDVmj+N+7UmxCIomigufRLIK0xjQq5sB9cBgzjYTV0=",
+        "originContent": "python train.py --config configs/example_deca.txt",
+        "translatedContent": "python train.py --config configs/example_deca.txt"
+      },
+      {
+        "row": 5,
+        "rowsha": "2+fz9CM2zprzrlvXDRkFQwmgMFD2eXF9NxgbbbokyUA=",
+        "originContent": "# EMOCA encoder + MultiFLARE decoder",
+        "translatedContent": "# EMOCA encoder + MultiFLARE decoder"
+      },
+      {
+        "row": 6,
+        "rowsha": "RjhQCi/Y+jqOt65NiHflSbZ75qN96u2a57oMuCnfYzw=",
+        "originContent": "python train.py --config configs/example_emoca.txt",
+        "translatedContent": "python train.py --config configs/example_emoca.txt"
+      },
+      {
+        "row": 7,
+        "rowsha": "FfovB23jqUbCbGremGVUAt0LSi4+Iz14xrHZvHY+bSs=",
+        "originContent": "# SMIRK encoder + MultiFLARE decoder (recommended!)",
+        "translatedContent": "# SMIRK encoder + MultiFLARE decoder (recommended!)"
+      },
+      {
+        "row": 8,
+        "rowsha": "63qLbtHtTBPHYb2L5mU3DU453qUlwfYFYQjP1kGJ3xk=",
+        "originContent": "python train.py --config configs/example_smirk.txt",
+        "translatedContent": "python train.py --config configs/example_smirk.txt"
+      },
+      {
+        "row": 9,
+        "rowsha": "5hAvF8253nBP2h8Ox+4yFghSwMt2csd1qJPBmBP176o=",
+        "originContent": "# EMOCA encoder + EMOCA decoder (baseline)",
+        "translatedContent": "# EMOCA encoder + EMOCA decoder (baseline)"
+      },
+      {
+        "row": 10,
+        "rowsha": "FMrdacWEZUHJdO5arpADc/lf32Bk3c5xbSVTb22klqc=",
+        "originContent": "python train.py --config configs/example_emoca_baseline.txt",
+        "translatedContent": "python train.py --config configs/example_emoca_baseline.txt"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "1CKi8H1ntgRqvdCIlg1Q35rXvPwlILLbe74+5Imn8Bc=",
+        "originContent": "# Quantitative eval",
+        "translatedContent": "# Quantitative eval"
+      },
+      {
+        "row": 13,
+        "rowsha": "WmLK+IhEcEX8OPsSRO3MbYP1UZm3BGD8XhPEmZjkWI0=",
+        "originContent": "python evaluate.py --config configs/example_smirk.txt --tracker_resume 3000 --frame_interval 5 --num_frames 64",
+        "translatedContent": "python evaluate.py --config configs/example_smirk.txt --tracker_resume 3000 --frame_interval 5 --num_frames 64"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "IfniYmLi55tC4lG4mkdMNXtqeG9wQzFh62tAyQ7KbPE=",
+        "originContent": "# Visualization videos",
+        "translatedContent": "# Visualization videos"
+      },
+      {
+        "row": 16,
+        "rowsha": "/i+hEXIqfK0q4N7GgOTJFaZ2WSMTkzh9lJJ5gnmIeP8=",
+        "originContent": "python make_comparison_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 5 6 --n_frames 1000 --smooth_crops --framerate 24",
+        "translatedContent": "python make_comparison_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 5 6 --n_frames 1000 --smooth_crops --framerate 24"
+      },
+      {
+        "row": 17,
+        "rowsha": "O/Vu0pxgeG84ufWV3XqdCztSZ5mx3jd7cvHuGRJd3hI=",
+        "originContent": "python make_overlay_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 2 --out test_beard --texture /path/to/texture.png --n_frames 1000 --smooth_crops --framerate 24",
+        "translatedContent": "python make_overlay_video.py --config configs/example_smirk.txt --tracker_resume 3000 --test_dirs 2 --out test_beard --texture /path/to/texture.png --n_frames 1000 --smooth_crops --framerate 24"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n</details>\n\n## License Information\n\nThe code in this repository is subject to multiple licenses.\n\n1. **Original Code** (Technicolor Group & INRIA Rennes)\n   - All code in this repository, except where otherwise specified, is licensed under the [CC BY-NC-SA License](./LICENSE).\n\n2. **Third-Party Code** (Max Planck Institute for Intelligent Systems)\n   - Location: `./MultiFLARE/flame`, `./MultiFLARE/flare`, `./TrackerAdaptation/submodules`\n   - These directories contain code by Max Planck Institute, with some modifications. Please carefully read the [MPI License](./LICENSE_MPI) and note that this is only available for **non-commercial scientific research purposes**.\n",
+    "ContentSha": "xzbAYHUWEttYxDsAtEI6OHtaY2C0XiVoYoGq4/ZPI+0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n## Información de la Licencia\n\nEl código en este repositorio está sujeto a múltiples licencias.\n\n1. **Código Original** (Technicolor Group & INRIA Rennes)\n   - Todo el código en este repositorio, excepto donde se especifique lo contrario, está licenciado bajo la [Licencia CC BY-NC-SA](./LICENSE).\n\n2. **Código de Terceros** (Instituto Max Planck para Sistemas Inteligentes)\n   - Ubicación: `./MultiFLARE/flame`, `./MultiFLARE/flare`, `./TrackerAdaptation/submodules`\n   - Estos directorios contienen código del Instituto Max Planck, con algunas modificaciones. Por favor, lea cuidadosamente la [Licencia MPI](./LICENSE_MPI) y tenga en cuenta que esto está disponible solo para **fines de investigación científica no comercial**.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/4YBttlnKxJW8w3KDCWxF92QMxJSrAqa0bPhB8k3q/s=",
+        "originContent": "## License Information",
+        "translatedContent": "## Información de la Licencia"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "vnHV1wq7rj3l+RM/Rop8MLmh2dO0MvW1QsrNLdbxDq8=",
+        "originContent": "The code in this repository is subject to multiple licenses.",
+        "translatedContent": "El código en este repositorio está sujeto a múltiples licencias."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "CbPZP82IrypMsTnRLe2aZvhnfoO72npfWx9MfQHb1a8=",
+        "originContent": "1. **Original Code** (Technicolor Group & INRIA Rennes)",
+        "translatedContent": "1. **Código Original** (Technicolor Group & INRIA Rennes)"
+      },
+      {
+        "row": 9,
+        "rowsha": "MMqH5uEBIIVhGmCiHhAt9ZHIcBD6LFm0JehogvELxls=",
+        "originContent": "   - All code in this repository, except where otherwise specified, is licensed under the [CC BY-NC-SA License](./LICENSE).",
+        "translatedContent": "   - Todo el código en este repositorio, excepto donde se especifique lo contrario, está licenciado bajo la [Licencia CC BY-NC-SA](./LICENSE)."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "XFVCttbIPlFPFng5m8PwVylfj5oNHKGBB+kmN6KgPH8=",
+        "originContent": "2. **Third-Party Code** (Max Planck Institute for Intelligent Systems)",
+        "translatedContent": "2. **Código de Terceros** (Instituto Max Planck para Sistemas Inteligentes)"
+      },
+      {
+        "row": 12,
+        "rowsha": "8FDJLcHhs07FQi5jEO6aQZyMWsxnRTW7gAchuXS3mNY=",
+        "originContent": "   - Location: `./MultiFLARE/flame`, `./MultiFLARE/flare`, `./TrackerAdaptation/submodules`",
+        "translatedContent": "   - Ubicación: `./MultiFLARE/flame`, `./MultiFLARE/flare`, `./TrackerAdaptation/submodules`"
+      },
+      {
+        "row": 13,
+        "rowsha": "o1dR2beeqGXhF7OLMxMD1drzCEmFUozS+aq/HVirQQw=",
+        "originContent": "   - These directories contain code by Max Planck Institute, with some modifications. Please carefully read the [MPI License](./LICENSE_MPI) and note that this is only available for **non-commercial scientific research purposes**.",
+        "translatedContent": "   - Estos directorios contienen código del Instituto Max Planck, con algunas modificaciones. Por favor, lea cuidadosamente la [Licencia MPI](./LICENSE_MPI) y tenga en cuenta que esto está disponible solo para **fines de investigación científica no comercial**."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

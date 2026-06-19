@@ -1,0 +1,729 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# Metho - A new method for methods\n\n<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">A small library to allow you to safely add 'dynamic properties' to objects, with the help of Symbols. This is useful (among other things) for 'monkey patching' native JavaScript types to give them new capabilities (see [metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), and [metho-string](https://github.com/jonrandy/metho-string)).\n\nSome examples of what is possible:\n",
+    "ContentSha": "idX8Z6KCDREzgs1H1AR4bcqe0uiUymBgpRrQnOlN4wQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Metho - 一种新的方法方法\n\n<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">一个小型库，允许你借助 Symbols 安全地向对象添加“动态属性”。这在（除其他用途外）“猴子补丁”原生 JavaScript 类型以赋予它们新功能时非常有用（参见 [metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), 和 [metho-string](https://github.com/jonrandy/metho-string)）。\n\n一些可能的示例：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lFl3Hyt7nAcaRJaVPUSULmH/MQYhlY8UTJsxRGNEK2Y=",
+        "originContent": "# Metho - A new method for methods",
+        "translatedContent": "# Metho - 一种新的方法方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XeBZsRtxmxHPxjnHBXEcDBlgs4qRk497FIRUfwAtJTA=",
+        "originContent": "<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">A small library to allow you to safely add 'dynamic properties' to objects, with the help of Symbols. This is useful (among other things) for 'monkey patching' native JavaScript types to give them new capabilities (see [metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), and [metho-string](https://github.com/jonrandy/metho-string)).",
+        "translatedContent": "<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">一个小型库，允许你借助 Symbols 安全地向对象添加“动态属性”。这在（除其他用途外）“猴子补丁”原生 JavaScript 类型以赋予它们新功能时非常有用（参见 [metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), 和 [metho-string](https://github.com/jonrandy/metho-string)）。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "YIo4MOEAPSa6oKbrf678/7VioIQcuR1Kaome7mwC+UU=",
+        "originContent": "Some examples of what is possible:",
+        "translatedContent": "一些可能的示例："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```js\nimport * as Metho from 'metho'\n\nconst asHex = Metho.add(\n  Number.prototype,\n  function() { return this.toString(16) }\n)\n\nconsole.log(65534[asHex])  // fffe\n\nconst upper = Metho.add(\n  String.prototype,\n  function() { return this.toUpperCase() }\n)\nconst chunk = Metho.add(\n  String.prototype,\n  function(length) {\n    return this.match(new RegExp('.{1,' + length + '}', 'g'))\n  }\n)\n\nconsole.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']\n```",
+    "ContentSha": "s5JL0fqpvs6curzJoywY3T/mSVQoih343scWKJ27vVc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport * as Metho from 'metho'\n\nconst asHex = Metho.add(\n  Number.prototype,\n  function() { return this.toString(16) }\n)\n\nconsole.log(65534[asHex])  // fffe\n\nconst upper = Metho.add(\n  String.prototype,\n  function() { return this.toUpperCase() }\n)\nconst chunk = Metho.add(\n  String.prototype,\n  function(length) {\n    return this.match(new RegExp('.{1,' + length + '}', 'g'))\n  }\n)\n\nconsole.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "NCLt7hw/oEMTNhJg9VDJJIQdO54cSkvEQQ4xtp/q6F8=",
+        "originContent": "import * as Metho from 'metho'",
+        "translatedContent": "import * as Metho from 'metho'"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8kb2ngUCE1s9BApkTDGH1C0FKNmxRVU4MJ4xjLhc6dI=",
+        "originContent": "const asHex = Metho.add(",
+        "translatedContent": "const asHex = Metho.add("
+      },
+      {
+        "row": 5,
+        "rowsha": "ROZ7b5YWkahN0WhpEGmeLI6HBcV4XJVUT0SpDkhokX0=",
+        "originContent": "  Number.prototype,",
+        "translatedContent": "  Number.prototype,"
+      },
+      {
+        "row": 6,
+        "rowsha": "pa7pkg+9pMMhA7JrQZPIAiElg9CN5QCgtyjrQOMj6js=",
+        "originContent": "  function() { return this.toString(16) }",
+        "translatedContent": "  function() { return this.toString(16) }"
+      },
+      {
+        "row": 7,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ivC9tNDQ5Z1mryibkKZUAhZslgBFE+RoAjsgClChIyg=",
+        "originContent": "console.log(65534[asHex])  // fffe",
+        "translatedContent": "console.log(65534[asHex])  // fffe"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "wjZJvcjcGeo/3P0mThg6ROa4EyCrzMdpGfehAFu6YJw=",
+        "originContent": "const upper = Metho.add(",
+        "translatedContent": "const upper = Metho.add("
+      },
+      {
+        "row": 12,
+        "rowsha": "45cDTRt8NISF93DqzqMG8cnMMITd6jdfqgWDju8nHNs=",
+        "originContent": "  String.prototype,",
+        "translatedContent": "  String.prototype,"
+      },
+      {
+        "row": 13,
+        "rowsha": "s7FCWYY+nvOdQWWQukSXjMr5+DPPySZwsFplsEx0Zvk=",
+        "originContent": "  function() { return this.toUpperCase() }",
+        "translatedContent": "  function() { return this.toUpperCase() }"
+      },
+      {
+        "row": 14,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 15,
+        "rowsha": "GJFSR/T/IWoXrnYl5YTs/R0KV7tXOvnGmwumOS0kFXE=",
+        "originContent": "const chunk = Metho.add(",
+        "translatedContent": "const chunk = Metho.add("
+      },
+      {
+        "row": 16,
+        "rowsha": "45cDTRt8NISF93DqzqMG8cnMMITd6jdfqgWDju8nHNs=",
+        "originContent": "  String.prototype,",
+        "translatedContent": "  String.prototype,"
+      },
+      {
+        "row": 17,
+        "rowsha": "//kOh5NWu43od6pWo143Yg9STJYthHbKEFg+BUv0xyo=",
+        "originContent": "  function(length) {",
+        "translatedContent": "  function(length) {"
+      },
+      {
+        "row": 18,
+        "rowsha": "7svO+ROROIpLwx2s/E4nA5QtnyOpVuuR8I8jW11K6ac=",
+        "originContent": "    return this.match(new RegExp('.{1,' + length + '}', 'g'))",
+        "translatedContent": "    return this.match(new RegExp('.{1,' + length + '}', 'g'))"
+      },
+      {
+        "row": 19,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 20,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "O/kFYTv5nBgBHiWdc2ncE2EnmVbsGud2/soMLOAT7qE=",
+        "originContent": "console.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']",
+        "translatedContent": "console.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## How to use\n\nMetho is fairly simple, and offers 4 basic functions for adding these 'dynamic properties' to your target object(s). All functions will return either a Symbol, or a function that returns a Symbol. These Symbols are the property 'names'.\n\n### `add(targetOrTargets, function, [options={}])`\nThis is probably the function you'll need most often. It will use either `addWithParams` or `addSimple` based on the number of arguments the passed function expects - 0 will cause `addSimple` to be used, anything else will cause `addWithParams` or `addProperty` to be used - based upon the state of the `outerSyntax` option. When added with `outerSyntax` set to `true` - the syntax for your property will be that of a more regular function call:",
+    "ContentSha": "LsEU7J4rhvk4WpZFNFYwCuAbj+wIwW+4PaS2KXnqQ8Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 如何使用\n\nMetho 非常简单，提供了 4 个基本功能，用于向目标对象添加这些“动态属性”。所有函数都会返回一个 Symbol，或者返回一个返回 Symbol 的函数。这些 Symbol 是属性的“名称”。\n\n### `add(targetOrTargets, function, [options={}])`\n这可能是你最常用的函数。它会根据传入函数预期的参数数量使用 `addWithParams` 或 `addSimple` —— 参数为 0 时使用 `addSimple`，否则根据 `outerSyntax` 选项的状态使用 `addWithParams` 或 `addProperty`。当 `outerSyntax` 设置为 `true` 时，属性的语法将类似于常规函数调用：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 如何使用"
+      },
+      {
+        "row": 2,
+        "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+        "originContent": "## How to use",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Metho 非常简单，提供了 4 个基本功能，用于向目标对象添加这些“动态属性”。所有函数都会返回一个 Symbol，或者返回一个返回 Symbol 的函数。这些 Symbol 是属性的“名称”。"
+      },
+      {
+        "row": 4,
+        "rowsha": "Biyj5xRAyBJaOKUslyBpmOr2xjY0z+xcc20jNyoVx/c=",
+        "originContent": "Metho is fairly simple, and offers 4 basic functions for adding these 'dynamic properties' to your target object(s). All functions will return either a Symbol, or a function that returns a Symbol. These Symbols are the property 'names'.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `add(targetOrTargets, function, [options={}])`"
+      },
+      {
+        "row": 6,
+        "rowsha": "srBIZKS81filX3pzueh8cWeFhgEN8lxrwqkrLJ/llzA=",
+        "originContent": "### `add(targetOrTargets, function, [options={}])`",
+        "translatedContent": "这可能是你最常用的函数。它会根据传入函数预期的参数数量使用 `addWithParams` 或 `addSimple` —— 参数为 0 时使用 `addSimple`，否则根据 `outerSyntax` 选项的状态使用 `addWithParams` 或 `addProperty`。当 `outerSyntax` 设置为 `true` 时，属性的语法将类似于常规函数调用："
+      },
+      {
+        "row": 7,
+        "rowsha": "HEi0bU8zsrKDvwy8wFH5ZiSrKCiD6AUkBLqrdaQEuOU=",
+        "originContent": "This is probably the function you'll need most often. It will use either `addWithParams` or `addSimple` based on the number of arguments the passed function expects - 0 will cause `addSimple` to be used, anything else will cause `addWithParams` or `addProperty` to be used - based upon the state of the `outerSyntax` option. When added with `outerSyntax` set to `true` - the syntax for your property will be that of a more regular function call:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```js\n// options.outerSyntax = false\nobject[property(x)]\n\n// options.outerSyntax = true\nobject[property](x)\n```",
+    "ContentSha": "Ss8cmpP2PqdQyA5dciwYXYVj8qK4ItCeZ6p7fybqm80=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// options.outerSyntax = false\nobject[property(x)]\n\n// options.outerSyntax = true\nobject[property](x)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "2qO0dAxxGatyO1FbQQ/jLhZ3uW8smPbm+fmTddNbIMs=",
+        "originContent": "// options.outerSyntax = false",
+        "translatedContent": "// options.outerSyntax = false"
+      },
+      {
+        "row": 3,
+        "rowsha": "XFxa9UDiD61vGqf9RLMD3oruKd+785uJ+R7vBRTIjBo=",
+        "originContent": "object[property(x)]",
+        "translatedContent": "object[property(x)]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "HH1rVy/8dQzuE+gOIwXWEislp+y5QmWqWPpdh4R29Rc=",
+        "originContent": "// options.outerSyntax = true",
+        "translatedContent": "// options.outerSyntax = true"
+      },
+      {
+        "row": 6,
+        "rowsha": "Kol6Z8L0qBXE8PQxm7FLqTrerTYq0NptYkDy5Y38l2s=",
+        "originContent": "object[property](x)",
+        "translatedContent": "object[property](x)"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "There is a slight performance hit when not using `outerSyntax` - hence the reason for the switch. To specify more than one target for the function, you should pass an array of targets.\n\n**Important note** - it has been pointed out that functions with a default argument(s) that start from the first argument do not seem to work correctly with the `add` method. Whilst they do *seem* to behave oddly, they are actually behaving correctly as they do not actually *expect* any arguments (for a clearer explanation, see the information about [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) on MDN). If you want to add such methods you should use the `addWithParams` method directly.\n\n### `addWithParams(targetOrTargets, function, [options={}])`\nAdds a 'dynamic property` that can accept parameters. If you wish to pass **no** parameters when calling it, you can simply omit the parentheses - this is particularly useful in the case of functions where all parameters have defaults or are entirely optional.",
+    "ContentSha": "kLMC8Mp80tW1Y2c3lc34PpXClW/m88i2rGjKC+sHFoo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "不使用 `outerSyntax` 时性能会略有下降——这就是切换的原因。要为函数指定多个目标，应传递目标数组。\n\n**重要提示** - 有人指出带有从第一个参数开始的默认参数的函数在使用 `add` 方法时似乎无法正常工作。虽然它们看起来表现得很奇怪，但实际上它们的行为是正确的，因为它们实际上并不*期望*任何参数（更清楚的解释，请参见 MDN 上关于 [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) 的信息）。如果你想添加这类方法，应直接使用 `addWithParams` 方法。\n\n### `addWithParams(targetOrTargets, function, [options={}])`\n添加一个可以接受参数的“动态属性”。如果你希望调用时**不**传递参数，可以省略括号——这在所有参数都有默认值或完全可选的函数中特别有用。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RGz0wgNNrGz/Dhpx5RHQphFBBJOfEvMKJnovKRGGsgM=",
+        "originContent": "There is a slight performance hit when not using `outerSyntax` - hence the reason for the switch. To specify more than one target for the function, you should pass an array of targets.",
+        "translatedContent": "不使用 `outerSyntax` 时性能会略有下降——这就是切换的原因。要为函数指定多个目标，应传递目标数组。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "UbWMWMQ9VL1EBWqSzyyzIjW+Ter0iO92PIRVM6RhrFU=",
+        "originContent": "**Important note** - it has been pointed out that functions with a default argument(s) that start from the first argument do not seem to work correctly with the `add` method. Whilst they do *seem* to behave oddly, they are actually behaving correctly as they do not actually *expect* any arguments (for a clearer explanation, see the information about [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) on MDN). If you want to add such methods you should use the `addWithParams` method directly.",
+        "translatedContent": "**重要提示** - 有人指出带有从第一个参数开始的默认参数的函数在使用 `add` 方法时似乎无法正常工作。虽然它们看起来表现得很奇怪，但实际上它们的行为是正确的，因为它们实际上并不*期望*任何参数（更清楚的解释，请参见 MDN 上关于 [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) 的信息）。如果你想添加这类方法，应直接使用 `addWithParams` 方法。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0fmiVDrN2RyNHkszTJxD7fJ4O03lgA38L8O83SxWNHE=",
+        "originContent": "### `addWithParams(targetOrTargets, function, [options={}])`",
+        "translatedContent": "### `addWithParams(targetOrTargets, function, [options={}])`"
+      },
+      {
+        "row": 6,
+        "rowsha": "TR1jZxgXKaAbWt2Al+zcmLzxAjWioB9BOKOYgGbQJdk=",
+        "originContent": "Adds a 'dynamic property` that can accept parameters. If you wish to pass **no** parameters when calling it, you can simply omit the parentheses - this is particularly useful in the case of functions where all parameters have defaults or are entirely optional.",
+        "translatedContent": "添加一个可以接受参数的“动态属性”。如果你希望调用时**不**传递参数，可以省略括号——这在所有参数都有默认值或完全可选的函数中特别有用。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```js\nconsole.log(object[property(param1, param2)]  // call the dynamic property and pass parameters\nconsole.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]\n\n```",
+    "ContentSha": "QajR62srPBAXKwBz2u8673WSD786Tt4rIdhT+lojA6k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nconsole.log(object[property(param1, param2)]  // call the dynamic property and pass parameters\nconsole.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ly0OMPi87Gw1D4st2ybsm48q9SzSU3hMuxn53Kl2fK8=",
+        "originContent": "console.log(object[property(param1, param2)]  // call the dynamic property and pass parameters",
+        "translatedContent": "console.log(object[property(param1, param2)]  // call the dynamic property and pass parameters"
+      },
+      {
+        "row": 3,
+        "rowsha": "hSs28CgyjblECWWbojDkMbZ+VbrWq6oeNE+MDutzHvI=",
+        "originContent": "console.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]",
+        "translatedContent": "console.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### `addSimple(targetOrTargets, function, [options={}])`\nAdds a 'dynamic property` that has no parameters",
+    "ContentSha": "HvRWUEUBlztVhll1xecDzeci+y7AJxVysWKNMtxqfOI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `addSimple(targetOrTargets, function, [options={}])`\n添加一个没有参数的“动态属性”",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xOYpEplzuotjHqhhL7H0Oqi4q1AYAr6jMo7Y4l4EeqQ=",
+        "originContent": "### `addSimple(targetOrTargets, function, [options={}])`",
+        "translatedContent": "### `addSimple(targetOrTargets, function, [options={}])`"
+      },
+      {
+        "row": 3,
+        "rowsha": "9vfs8XjD3wPlCuCUMBK7+g3XPOKSw+HL1aAU1Kblwwg=",
+        "originContent": "Adds a 'dynamic property` that has no parameters",
+        "translatedContent": "添加一个没有参数的“动态属性”"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```js\nconsole.log(object[property])\n```",
+    "ContentSha": "+gsg9HV38cdPpOwsYKm90cWDXrZD9s4y7Qbl4PaHQ7c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nconsole.log(object[property])\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "vcX+nhQFICaoL8mcl+CWaIqVLsZrt5uv3Irh7dpRdzc=",
+        "originContent": "console.log(object[property])",
+        "translatedContent": "console.log(object[property])"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### `addProperty(targetOrTargets, propertyValue, [options={}])`\nAdds a regular property to the target(s) (will not be automatically called if it is a function)",
+    "ContentSha": "lwAQR8DFn8vkaPuWwBGoXpApRrMf6oOnhnSpnV2XVvI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `addProperty(targetOrTargets, propertyValue, [options={}])`\n向目标添加一个普通属性（如果是函数，则不会自动调用）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FDri9/Bd5ZEpMhTa7rCbEvg7Ym4YExjsBItDvqHP3g0=",
+        "originContent": "### `addProperty(targetOrTargets, propertyValue, [options={}])`",
+        "translatedContent": "### `addProperty(targetOrTargets, propertyValue, [options={}])`"
+      },
+      {
+        "row": 3,
+        "rowsha": "/hKKTxbM0neLzDGWEfc/RyFcxx8COE6lFFbec9OojYM=",
+        "originContent": "Adds a regular property to the target(s) (will not be automatically called if it is a function)",
+        "translatedContent": "向目标添加一个普通属性（如果是函数，则不会自动调用）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\nconsole.log(object[property])\n```",
+    "ContentSha": "+gsg9HV38cdPpOwsYKm90cWDXrZD9s4y7Qbl4PaHQ7c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nconsole.log(object[property])\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "vcX+nhQFICaoL8mcl+CWaIqVLsZrt5uv3Irh7dpRdzc=",
+        "originContent": "console.log(object[property])",
+        "translatedContent": "console.log(object[property])"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Advanced usage and `options`\n\nMost, if not all of the below were added to facilitate the ability to have Metho 'methods' that can be shared between different targets in different libraries (e.g. the 'method' would acquire more capabilities when a second library is imported that uses it). For an example of this in action, please refer to the [metho-string](https://github.com/jonrandy/metho-string) and [metho-array](https://github.com/jonrandy/metho-array) libraries - where this functionality is used to create shared 'methods' such as `reverse` and `chunk`.\n\n### Option `symbolName`\nThis is used to give a name to the generated Symbol (i.e. when it is created with `new Symbol(symbolName`)\n\n### Option `register`\nUsed to internally register the created/used `Symbol` (or function) in an internal registry within Metho - used in conjunction `symbolName` which will become the 'key' in the registry\n\n### Option `useSymbol`\nThis allows an existing Symbol to be used instead of a new one being created. This is available only for `addProperty` and `addSimple` - meaning that it can also be passed to `add`\n\n### `data`\nThis is a symbol created by Metho for the intended purpose of being a key to store arbitary 'data' on a target object",
+    "ContentSha": "Rzv97vZFzYf54PzCIivjIYob2weQAOWO0X0bWfMQjZ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 高级用法和 `options`\n\n下面大部分（如果不是全部的话）都是为了支持 Metho “方法” 能够在不同库中的不同目标之间共享（例如，当导入第二个使用该方法的库时，该“方法”会获得更多功能）。有关此功能的示例，请参见 [metho-string](https://github.com/jonrandy/metho-string) 和 [metho-array](https://github.com/jonrandy/metho-array) 库 —— 这些库使用该功能创建共享的“方法”，如 `reverse` 和 `chunk`。\n\n### 选项 `symbolName`\n用于为生成的 Symbol 命名（即在使用 `new Symbol(symbolName` 创建时）\n\n### 选项 `register`\n用于在 Metho 内部注册创建/使用的 `Symbol`（或函数），配合 `symbolName` 使用，`symbolName` 将成为注册表中的“键”\n\n### 选项 `useSymbol`\n允许使用已存在的 Symbol，而不是创建新的。此选项仅适用于 `addProperty` 和 `addSimple` —— 也就是说，它可以传递给 `add`\n\n### `data`\n这是 Metho 创建的一个 Symbol，目的是用作在目标对象上存储任意“数据”的键",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VGwSXU7N/j3DZ1V3GAzfpBXEB2xbzRuq+rWSRbqzV3k=",
+        "originContent": "## Advanced usage and `options`",
+        "translatedContent": "## 高级用法和 `options`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "K1v5EKeH4j+EI1EOZvhRhk5ryYX+o3D8aJMNmgzZ0oU=",
+        "originContent": "Most, if not all of the below were added to facilitate the ability to have Metho 'methods' that can be shared between different targets in different libraries (e.g. the 'method' would acquire more capabilities when a second library is imported that uses it). For an example of this in action, please refer to the [metho-string](https://github.com/jonrandy/metho-string) and [metho-array](https://github.com/jonrandy/metho-array) libraries - where this functionality is used to create shared 'methods' such as `reverse` and `chunk`.",
+        "translatedContent": "下面大部分（如果不是全部的话）都是为了支持 Metho “方法” 能够在不同库中的不同目标之间共享（例如，当导入第二个使用该方法的库时，该“方法”会获得更多功能）。有关此功能的示例，请参见 [metho-string](https://github.com/jonrandy/metho-string) 和 [metho-array](https://github.com/jonrandy/metho-array) 库 —— 这些库使用该功能创建共享的“方法”，如 `reverse` 和 `chunk`。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "js7qeD8ESJpAJaexHeRcl3+yvxzKTvyea2F3zA2wBPQ=",
+        "originContent": "### Option `symbolName`",
+        "translatedContent": "### 选项 `symbolName`"
+      },
+      {
+        "row": 7,
+        "rowsha": "zpOuRR9YS3WFi5qErQ/HYYnoBvrDP/8nV74HDMq8+ew=",
+        "originContent": "This is used to give a name to the generated Symbol (i.e. when it is created with `new Symbol(symbolName`)",
+        "translatedContent": "用于为生成的 Symbol 命名（即在使用 `new Symbol(symbolName` 创建时）"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "/He8pwowianIjlVQmsKQcfTz/KWxi0C2jXSz6MNk1Xs=",
+        "originContent": "### Option `register`",
+        "translatedContent": "### 选项 `register`"
+      },
+      {
+        "row": 10,
+        "rowsha": "hPf4k2ZflBkKGScrcl+1KTE+Ki2FuGPRxsouRBBVSQ4=",
+        "originContent": "Used to internally register the created/used `Symbol` (or function) in an internal registry within Metho - used in conjunction `symbolName` which will become the 'key' in the registry",
+        "translatedContent": "用于在 Metho 内部注册创建/使用的 `Symbol`（或函数），配合 `symbolName` 使用，`symbolName` 将成为注册表中的“键”"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "z0UAnoYJZRgS65QoO/fRj9OUT7vyWe1WvJC9TGmn+hQ=",
+        "originContent": "### Option `useSymbol`",
+        "translatedContent": "### 选项 `useSymbol`"
+      },
+      {
+        "row": 13,
+        "rowsha": "AFtom/B/rZCa+JvZ5R8ADTfexZpb42HBKWQidCS0xak=",
+        "originContent": "This allows an existing Symbol to be used instead of a new one being created. This is available only for `addProperty` and `addSimple` - meaning that it can also be passed to `add`",
+        "translatedContent": "允许使用已存在的 Symbol，而不是创建新的。此选项仅适用于 `addProperty` 和 `addSimple` —— 也就是说，它可以传递给 `add`"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "lukiCfOFqpRp7q8fk3vB/CIZVsmj5CE0CprGbiMjDFg=",
+        "originContent": "### `data`",
+        "translatedContent": "### `data`"
+      },
+      {
+        "row": 16,
+        "rowsha": "WMC4RK++rrOFHZscufpRH3TOFhEUZBPPCzRhQKLoHMs=",
+        "originContent": "This is a symbol created by Metho for the intended purpose of being a key to store arbitary 'data' on a target object",
+        "translatedContent": "这是 Metho 创建的一个 Symbol，目的是用作在目标对象上存储任意“数据”的键"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```js\nmyTarget[Metho.data] = \"Arbitrary value\"\n```",
+    "ContentSha": "NVcieYOPc7+ISwAZ4inZHetA3pSpzRX3ZfHLuvyZZHg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nmyTarget[Metho.data] = \"Arbitrary value\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "l0VzfPTM6B/rMraSVcZ5xjj9JMRI3K4h2RY3e7skCAk=",
+        "originContent": "myTarget[Metho.data] = \"Arbitrary value\"",
+        "translatedContent": "myTarget[Metho.data] = \"Arbitrary value\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### `getRegistered(name)`\nThis will return the Symbol or function stored in the registry with the given name as key\n\n### `addWithSharedSymbolName(target, function, symbolName)`\nA convenience function to assist when adding new 'methods' to new targets, where the 'method' may already be in existence. This is best understood in conjunction with `metho-string` and `metho-array` mentioned above\n",
+    "ContentSha": "mmWzNuDNP0/Y94A4ktLZYPXmLHc6ou3qksYxq3CDpeU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `getRegistered(name)`\n这将返回使用给定名称作为键存储在注册表中的 Symbol 或函数\n\n### `addWithSharedSymbolName(target, function, symbolName)`\n一个辅助函数，用于在向新目标添加新的“方法”时使用，该“方法”可能已经存在。结合上面提到的 `metho-string` 和 `metho-array` 最易理解\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q4SuxxLAjo50gfVQfZdD6EtVHBxiEfO348DZ0TrQhkA=",
+        "originContent": "### `getRegistered(name)`",
+        "translatedContent": "### `getRegistered(name)`"
+      },
+      {
+        "row": 3,
+        "rowsha": "sFsZ4x/tVXIDz+CzeWsYpJVFz3p2/GOGmo73loZXEGI=",
+        "originContent": "This will return the Symbol or function stored in the registry with the given name as key",
+        "translatedContent": "这将返回使用给定名称作为键存储在注册表中的 Symbol 或函数"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "9IJRGAUc3LrDanEkZABpDd79wy+JdL9U/NYtZknRAlE=",
+        "originContent": "### `addWithSharedSymbolName(target, function, symbolName)`",
+        "translatedContent": "### `addWithSharedSymbolName(target, function, symbolName)`"
+      },
+      {
+        "row": 6,
+        "rowsha": "aNZ0Y/bK/lbD8xPbOVRK4FbNUK1vHSS1h9ttnjR5TEs=",
+        "originContent": "A convenience function to assist when adding new 'methods' to new targets, where the 'method' may already be in existence. This is best understood in conjunction with `metho-string` and `metho-array` mentioned above",
+        "translatedContent": "一个辅助函数，用于在向新目标添加新的“方法”时使用，该“方法”可能已经存在。结合上面提到的 `metho-string` 和 `metho-array` 最易理解"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

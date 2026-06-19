@@ -1,0 +1,729 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# Metho - A new method for methods\n\n<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">A small library to allow you to safely add 'dynamic properties' to objects, with the help of Symbols. This is useful (among other things) for 'monkey patching' native JavaScript types to give them new capabilities (see [metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), and [metho-string](https://github.com/jonrandy/metho-string)).\n\nSome examples of what is possible:\n",
+    "ContentSha": "idX8Z6KCDREzgs1H1AR4bcqe0uiUymBgpRrQnOlN4wQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Metho - 메서드를 위한 새로운 방법\n\n<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">심볼(Symbol)의 도움으로 객체에 '동적 속성'을 안전하게 추가할 수 있게 해주는 작은 라이브러리입니다. 이것은 네이티브 자바스크립트 타입에 새로운 기능을 부여하는 '몽키 패칭(monkey patching)' 등 여러 용도에 유용합니다 ([metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), 그리고 [metho-string](https://github.com/jonrandy/metho-string)을 참조).\n\n가능한 몇 가지 예시는 다음과 같습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lFl3Hyt7nAcaRJaVPUSULmH/MQYhlY8UTJsxRGNEK2Y=",
+        "originContent": "# Metho - A new method for methods",
+        "translatedContent": "# Metho - 메서드를 위한 새로운 방법"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XeBZsRtxmxHPxjnHBXEcDBlgs4qRk497FIRUfwAtJTA=",
+        "originContent": "<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">A small library to allow you to safely add 'dynamic properties' to objects, with the help of Symbols. This is useful (among other things) for 'monkey patching' native JavaScript types to give them new capabilities (see [metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), and [metho-string](https://github.com/jonrandy/metho-string)).",
+        "translatedContent": "<img align=\"right\" height=100 src=\"https://user-images.githubusercontent.com/1510194/173243187-08fdcc0f-204d-43c0-b07e-5b7bcb2713a4.png\">심볼(Symbol)의 도움으로 객체에 '동적 속성'을 안전하게 추가할 수 있게 해주는 작은 라이브러리입니다. 이것은 네이티브 자바스크립트 타입에 새로운 기능을 부여하는 '몽키 패칭(monkey patching)' 등 여러 용도에 유용합니다 ([metho-number](https://github.com/jonrandy/metho-number), [metho-set](https://github.com/jonrandy/metho-set), [metho-function](https://github.com/jonrandy/metho-function), [metho-array](https://github.com/jonrandy/metho-array), 그리고 [metho-string](https://github.com/jonrandy/metho-string)을 참조)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "YIo4MOEAPSa6oKbrf678/7VioIQcuR1Kaome7mwC+UU=",
+        "originContent": "Some examples of what is possible:",
+        "translatedContent": "가능한 몇 가지 예시는 다음과 같습니다:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```js\nimport * as Metho from 'metho'\n\nconst asHex = Metho.add(\n  Number.prototype,\n  function() { return this.toString(16) }\n)\n\nconsole.log(65534[asHex])  // fffe\n\nconst upper = Metho.add(\n  String.prototype,\n  function() { return this.toUpperCase() }\n)\nconst chunk = Metho.add(\n  String.prototype,\n  function(length) {\n    return this.match(new RegExp('.{1,' + length + '}', 'g'))\n  }\n)\n\nconsole.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']\n```",
+    "ContentSha": "s5JL0fqpvs6curzJoywY3T/mSVQoih343scWKJ27vVc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport * as Metho from 'metho'\n\nconst asHex = Metho.add(\n  Number.prototype,\n  function() { return this.toString(16) }\n)\n\nconsole.log(65534[asHex])  // fffe\n\nconst upper = Metho.add(\n  String.prototype,\n  function() { return this.toUpperCase() }\n)\nconst chunk = Metho.add(\n  String.prototype,\n  function(length) {\n    return this.match(new RegExp('.{1,' + length + '}', 'g'))\n  }\n)\n\nconsole.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "NCLt7hw/oEMTNhJg9VDJJIQdO54cSkvEQQ4xtp/q6F8=",
+        "originContent": "import * as Metho from 'metho'",
+        "translatedContent": "import * as Metho from 'metho'"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8kb2ngUCE1s9BApkTDGH1C0FKNmxRVU4MJ4xjLhc6dI=",
+        "originContent": "const asHex = Metho.add(",
+        "translatedContent": "const asHex = Metho.add("
+      },
+      {
+        "row": 5,
+        "rowsha": "ROZ7b5YWkahN0WhpEGmeLI6HBcV4XJVUT0SpDkhokX0=",
+        "originContent": "  Number.prototype,",
+        "translatedContent": "  Number.prototype,"
+      },
+      {
+        "row": 6,
+        "rowsha": "pa7pkg+9pMMhA7JrQZPIAiElg9CN5QCgtyjrQOMj6js=",
+        "originContent": "  function() { return this.toString(16) }",
+        "translatedContent": "  function() { return this.toString(16) }"
+      },
+      {
+        "row": 7,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ivC9tNDQ5Z1mryibkKZUAhZslgBFE+RoAjsgClChIyg=",
+        "originContent": "console.log(65534[asHex])  // fffe",
+        "translatedContent": "console.log(65534[asHex])  // fffe"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "wjZJvcjcGeo/3P0mThg6ROa4EyCrzMdpGfehAFu6YJw=",
+        "originContent": "const upper = Metho.add(",
+        "translatedContent": "const upper = Metho.add("
+      },
+      {
+        "row": 12,
+        "rowsha": "45cDTRt8NISF93DqzqMG8cnMMITd6jdfqgWDju8nHNs=",
+        "originContent": "  String.prototype,",
+        "translatedContent": "  String.prototype,"
+      },
+      {
+        "row": 13,
+        "rowsha": "s7FCWYY+nvOdQWWQukSXjMr5+DPPySZwsFplsEx0Zvk=",
+        "originContent": "  function() { return this.toUpperCase() }",
+        "translatedContent": "  function() { return this.toUpperCase() }"
+      },
+      {
+        "row": 14,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 15,
+        "rowsha": "GJFSR/T/IWoXrnYl5YTs/R0KV7tXOvnGmwumOS0kFXE=",
+        "originContent": "const chunk = Metho.add(",
+        "translatedContent": "const chunk = Metho.add("
+      },
+      {
+        "row": 16,
+        "rowsha": "45cDTRt8NISF93DqzqMG8cnMMITd6jdfqgWDju8nHNs=",
+        "originContent": "  String.prototype,",
+        "translatedContent": "  String.prototype,"
+      },
+      {
+        "row": 17,
+        "rowsha": "//kOh5NWu43od6pWo143Yg9STJYthHbKEFg+BUv0xyo=",
+        "originContent": "  function(length) {",
+        "translatedContent": "  function(length) {"
+      },
+      {
+        "row": 18,
+        "rowsha": "7svO+ROROIpLwx2s/E4nA5QtnyOpVuuR8I8jW11K6ac=",
+        "originContent": "    return this.match(new RegExp('.{1,' + length + '}', 'g'))",
+        "translatedContent": "    return this.match(new RegExp('.{1,' + length + '}', 'g'))"
+      },
+      {
+        "row": 19,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 20,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "O/kFYTv5nBgBHiWdc2ncE2EnmVbsGud2/soMLOAT7qE=",
+        "originContent": "console.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']",
+        "translatedContent": "console.log(\"Hello World!\"[upper][chunk(2)])  // ['HE', 'LL', 'O ', 'WO', 'RL', 'D!']"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## How to use\n\nMetho is fairly simple, and offers 4 basic functions for adding these 'dynamic properties' to your target object(s). All functions will return either a Symbol, or a function that returns a Symbol. These Symbols are the property 'names'.\n\n### `add(targetOrTargets, function, [options={}])`\nThis is probably the function you'll need most often. It will use either `addWithParams` or `addSimple` based on the number of arguments the passed function expects - 0 will cause `addSimple` to be used, anything else will cause `addWithParams` or `addProperty` to be used - based upon the state of the `outerSyntax` option. When added with `outerSyntax` set to `true` - the syntax for your property will be that of a more regular function call:",
+    "ContentSha": "LsEU7J4rhvk4WpZFNFYwCuAbj+wIwW+4PaS2KXnqQ8Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 사용 방법\n\nMetho는 상당히 간단하며, 대상 객체에 이러한 '동적 속성'을 추가하기 위한 4가지 기본 기능을 제공합니다. 모든 함수는 Symbol 또는 Symbol을 반환하는 함수를 반환합니다. 이 Symbol들은 속성의 '이름'입니다.\n\n### `add(targetOrTargets, function, [options={}])`\n이 함수가 아마 가장 자주 필요할 것입니다. 전달된 함수가 기대하는 인수의 수에 따라 `addWithParams` 또는 `addSimple`을 사용합니다 - 0이면 `addSimple`이 사용되고, 그 외의 경우에는 `outerSyntax` 옵션의 상태에 따라 `addWithParams` 또는 `addProperty`가 사용됩니다. `outerSyntax`가 `true`로 설정된 상태에서 추가하면 - 속성의 문법은 보다 일반적인 함수 호출 문법이 됩니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용 방법"
+      },
+      {
+        "row": 2,
+        "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+        "originContent": "## How to use",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Metho는 상당히 간단하며, 대상 객체에 이러한 '동적 속성'을 추가하기 위한 4가지 기본 기능을 제공합니다. 모든 함수는 Symbol 또는 Symbol을 반환하는 함수를 반환합니다. 이 Symbol들은 속성의 '이름'입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "Biyj5xRAyBJaOKUslyBpmOr2xjY0z+xcc20jNyoVx/c=",
+        "originContent": "Metho is fairly simple, and offers 4 basic functions for adding these 'dynamic properties' to your target object(s). All functions will return either a Symbol, or a function that returns a Symbol. These Symbols are the property 'names'.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `add(targetOrTargets, function, [options={}])`"
+      },
+      {
+        "row": 6,
+        "rowsha": "srBIZKS81filX3pzueh8cWeFhgEN8lxrwqkrLJ/llzA=",
+        "originContent": "### `add(targetOrTargets, function, [options={}])`",
+        "translatedContent": "이 함수가 아마 가장 자주 필요할 것입니다. 전달된 함수가 기대하는 인수의 수에 따라 `addWithParams` 또는 `addSimple`을 사용합니다 - 0이면 `addSimple`이 사용되고, 그 외의 경우에는 `outerSyntax` 옵션의 상태에 따라 `addWithParams` 또는 `addProperty`가 사용됩니다. `outerSyntax`가 `true`로 설정된 상태에서 추가하면 - 속성의 문법은 보다 일반적인 함수 호출 문법이 됩니다:"
+      },
+      {
+        "row": 7,
+        "rowsha": "HEi0bU8zsrKDvwy8wFH5ZiSrKCiD6AUkBLqrdaQEuOU=",
+        "originContent": "This is probably the function you'll need most often. It will use either `addWithParams` or `addSimple` based on the number of arguments the passed function expects - 0 will cause `addSimple` to be used, anything else will cause `addWithParams` or `addProperty` to be used - based upon the state of the `outerSyntax` option. When added with `outerSyntax` set to `true` - the syntax for your property will be that of a more regular function call:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```js\n// options.outerSyntax = false\nobject[property(x)]\n\n// options.outerSyntax = true\nobject[property](x)\n```",
+    "ContentSha": "Ss8cmpP2PqdQyA5dciwYXYVj8qK4ItCeZ6p7fybqm80=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// options.outerSyntax = false\nobject[property(x)]\n\n// options.outerSyntax = true\nobject[property](x)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "2qO0dAxxGatyO1FbQQ/jLhZ3uW8smPbm+fmTddNbIMs=",
+        "originContent": "// options.outerSyntax = false",
+        "translatedContent": "// options.outerSyntax = false"
+      },
+      {
+        "row": 3,
+        "rowsha": "XFxa9UDiD61vGqf9RLMD3oruKd+785uJ+R7vBRTIjBo=",
+        "originContent": "object[property(x)]",
+        "translatedContent": "object[property(x)]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "HH1rVy/8dQzuE+gOIwXWEislp+y5QmWqWPpdh4R29Rc=",
+        "originContent": "// options.outerSyntax = true",
+        "translatedContent": "// options.outerSyntax = true"
+      },
+      {
+        "row": 6,
+        "rowsha": "Kol6Z8L0qBXE8PQxm7FLqTrerTYq0NptYkDy5Y38l2s=",
+        "originContent": "object[property](x)",
+        "translatedContent": "object[property](x)"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "There is a slight performance hit when not using `outerSyntax` - hence the reason for the switch. To specify more than one target for the function, you should pass an array of targets.\n\n**Important note** - it has been pointed out that functions with a default argument(s) that start from the first argument do not seem to work correctly with the `add` method. Whilst they do *seem* to behave oddly, they are actually behaving correctly as they do not actually *expect* any arguments (for a clearer explanation, see the information about [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) on MDN). If you want to add such methods you should use the `addWithParams` method directly.\n\n### `addWithParams(targetOrTargets, function, [options={}])`\nAdds a 'dynamic property` that can accept parameters. If you wish to pass **no** parameters when calling it, you can simply omit the parentheses - this is particularly useful in the case of functions where all parameters have defaults or are entirely optional.",
+    "ContentSha": "kLMC8Mp80tW1Y2c3lc34PpXClW/m88i2rGjKC+sHFoo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`outerSyntax`를 사용하지 않을 때 약간의 성능 저하가 발생하므로 스위치를 사용하는 이유입니다. 함수에 대해 여러 대상(target)을 지정하려면 대상의 배열을 전달해야 합니다.\n\n**중요 참고 사항** - 첫 번째 인수부터 시작하는 기본 인수가 있는 함수는 `add` 메서드와 함께 올바르게 작동하지 않는 것처럼 보인다는 지적이 있었습니다. 이상하게 보일 수 있지만, 실제로는 인수를 *실제로 기대하지 않기* 때문에 정상적으로 작동하는 것입니다 (자세한 설명은 MDN의 [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) 정보를 참조하십시오). 이러한 메서드를 추가하려면 `addWithParams` 메서드를 직접 사용해야 합니다.\n\n### `addWithParams(targetOrTargets, function, [options={}])`\n매개변수를 받을 수 있는 '동적 속성'을 추가합니다. 호출 시 **매개변수를 전혀** 전달하지 않으려면 괄호를 생략할 수 있으며, 이는 모든 매개변수가 기본값이거나 완전히 선택적인 함수에 특히 유용합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RGz0wgNNrGz/Dhpx5RHQphFBBJOfEvMKJnovKRGGsgM=",
+        "originContent": "There is a slight performance hit when not using `outerSyntax` - hence the reason for the switch. To specify more than one target for the function, you should pass an array of targets.",
+        "translatedContent": "`outerSyntax`를 사용하지 않을 때 약간의 성능 저하가 발생하므로 스위치를 사용하는 이유입니다. 함수에 대해 여러 대상(target)을 지정하려면 대상의 배열을 전달해야 합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "UbWMWMQ9VL1EBWqSzyyzIjW+Ter0iO92PIRVM6RhrFU=",
+        "originContent": "**Important note** - it has been pointed out that functions with a default argument(s) that start from the first argument do not seem to work correctly with the `add` method. Whilst they do *seem* to behave oddly, they are actually behaving correctly as they do not actually *expect* any arguments (for a clearer explanation, see the information about [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) on MDN). If you want to add such methods you should use the `addWithParams` method directly.",
+        "translatedContent": "**중요 참고 사항** - 첫 번째 인수부터 시작하는 기본 인수가 있는 함수는 `add` 메서드와 함께 올바르게 작동하지 않는 것처럼 보인다는 지적이 있었습니다. 이상하게 보일 수 있지만, 실제로는 인수를 *실제로 기대하지 않기* 때문에 정상적으로 작동하는 것입니다 (자세한 설명은 MDN의 [`function.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length) 정보를 참조하십시오). 이러한 메서드를 추가하려면 `addWithParams` 메서드를 직접 사용해야 합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0fmiVDrN2RyNHkszTJxD7fJ4O03lgA38L8O83SxWNHE=",
+        "originContent": "### `addWithParams(targetOrTargets, function, [options={}])`",
+        "translatedContent": "### `addWithParams(targetOrTargets, function, [options={}])`"
+      },
+      {
+        "row": 6,
+        "rowsha": "TR1jZxgXKaAbWt2Al+zcmLzxAjWioB9BOKOYgGbQJdk=",
+        "originContent": "Adds a 'dynamic property` that can accept parameters. If you wish to pass **no** parameters when calling it, you can simply omit the parentheses - this is particularly useful in the case of functions where all parameters have defaults or are entirely optional.",
+        "translatedContent": "매개변수를 받을 수 있는 '동적 속성'을 추가합니다. 호출 시 **매개변수를 전혀** 전달하지 않으려면 괄호를 생략할 수 있으며, 이는 모든 매개변수가 기본값이거나 완전히 선택적인 함수에 특히 유용합니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```js\nconsole.log(object[property(param1, param2)]  // call the dynamic property and pass parameters\nconsole.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]\n\n```",
+    "ContentSha": "QajR62srPBAXKwBz2u8673WSD786Tt4rIdhT+lojA6k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nconsole.log(object[property(param1, param2)]  // call the dynamic property and pass parameters\nconsole.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ly0OMPi87Gw1D4st2ybsm48q9SzSU3hMuxn53Kl2fK8=",
+        "originContent": "console.log(object[property(param1, param2)]  // call the dynamic property and pass parameters",
+        "translatedContent": "console.log(object[property(param1, param2)]  // call the dynamic property and pass parameters"
+      },
+      {
+        "row": 3,
+        "rowsha": "hSs28CgyjblECWWbojDkMbZ+VbrWq6oeNE+MDutzHvI=",
+        "originContent": "console.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]",
+        "translatedContent": "console.log(object[propertyWithDefaultParams])  // equivalent to object[propertyWithDefaultParams()]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### `addSimple(targetOrTargets, function, [options={}])`\nAdds a 'dynamic property` that has no parameters",
+    "ContentSha": "HvRWUEUBlztVhll1xecDzeci+y7AJxVysWKNMtxqfOI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `addSimple(targetOrTargets, function, [options={}])`\n매개변수가 없는 '동적 속성'을 추가합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xOYpEplzuotjHqhhL7H0Oqi4q1AYAr6jMo7Y4l4EeqQ=",
+        "originContent": "### `addSimple(targetOrTargets, function, [options={}])`",
+        "translatedContent": "### `addSimple(targetOrTargets, function, [options={}])`"
+      },
+      {
+        "row": 3,
+        "rowsha": "9vfs8XjD3wPlCuCUMBK7+g3XPOKSw+HL1aAU1Kblwwg=",
+        "originContent": "Adds a 'dynamic property` that has no parameters",
+        "translatedContent": "매개변수가 없는 '동적 속성'을 추가합니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```js\nconsole.log(object[property])\n```",
+    "ContentSha": "+gsg9HV38cdPpOwsYKm90cWDXrZD9s4y7Qbl4PaHQ7c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nconsole.log(object[property])\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "vcX+nhQFICaoL8mcl+CWaIqVLsZrt5uv3Irh7dpRdzc=",
+        "originContent": "console.log(object[property])",
+        "translatedContent": "console.log(object[property])"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### `addProperty(targetOrTargets, propertyValue, [options={}])`\nAdds a regular property to the target(s) (will not be automatically called if it is a function)",
+    "ContentSha": "lwAQR8DFn8vkaPuWwBGoXpApRrMf6oOnhnSpnV2XVvI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `addProperty(targetOrTargets, propertyValue, [options={}])`\n대상에 일반 속성을 추가합니다(함수일 경우 자동으로 호출되지 않음).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FDri9/Bd5ZEpMhTa7rCbEvg7Ym4YExjsBItDvqHP3g0=",
+        "originContent": "### `addProperty(targetOrTargets, propertyValue, [options={}])`",
+        "translatedContent": "### `addProperty(targetOrTargets, propertyValue, [options={}])`"
+      },
+      {
+        "row": 3,
+        "rowsha": "/hKKTxbM0neLzDGWEfc/RyFcxx8COE6lFFbec9OojYM=",
+        "originContent": "Adds a regular property to the target(s) (will not be automatically called if it is a function)",
+        "translatedContent": "대상에 일반 속성을 추가합니다(함수일 경우 자동으로 호출되지 않음)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\nconsole.log(object[property])\n```",
+    "ContentSha": "+gsg9HV38cdPpOwsYKm90cWDXrZD9s4y7Qbl4PaHQ7c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nconsole.log(object[property])\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "vcX+nhQFICaoL8mcl+CWaIqVLsZrt5uv3Irh7dpRdzc=",
+        "originContent": "console.log(object[property])",
+        "translatedContent": "console.log(object[property])"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Advanced usage and `options`\n\nMost, if not all of the below were added to facilitate the ability to have Metho 'methods' that can be shared between different targets in different libraries (e.g. the 'method' would acquire more capabilities when a second library is imported that uses it). For an example of this in action, please refer to the [metho-string](https://github.com/jonrandy/metho-string) and [metho-array](https://github.com/jonrandy/metho-array) libraries - where this functionality is used to create shared 'methods' such as `reverse` and `chunk`.\n\n### Option `symbolName`\nThis is used to give a name to the generated Symbol (i.e. when it is created with `new Symbol(symbolName`)\n\n### Option `register`\nUsed to internally register the created/used `Symbol` (or function) in an internal registry within Metho - used in conjunction `symbolName` which will become the 'key' in the registry\n\n### Option `useSymbol`\nThis allows an existing Symbol to be used instead of a new one being created. This is available only for `addProperty` and `addSimple` - meaning that it can also be passed to `add`\n\n### `data`\nThis is a symbol created by Metho for the intended purpose of being a key to store arbitary 'data' on a target object",
+    "ContentSha": "Rzv97vZFzYf54PzCIivjIYob2weQAOWO0X0bWfMQjZ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 고급 사용법 및 `options`\n\n아래 내용 중 대부분은 Metho 'methods'가 서로 다른 라이브러리의 서로 다른 대상 간에 공유될 수 있는 기능을 지원하기 위해 추가되었습니다(예: 두 번째 라이브러리가 해당 메서드를 사용할 때 'method'가 더 많은 기능을 획득함). 이 기능이 실제로 어떻게 사용되는지에 대한 예는 [metho-string](https://github.com/jonrandy/metho-string) 및 [metho-array](https://github.com/jonrandy/metho-array) 라이브러리를 참조하십시오 - 여기서 이 기능은 `reverse`와 `chunk`와 같은 공유 'methods'를 생성하는 데 사용됩니다.\n\n### 옵션 `symbolName`\n이 옵션은 생성된 Symbol에 이름을 부여하는 데 사용됩니다(즉, `new Symbol(symbolName`으로 생성될 때).\n\n### 옵션 `register`\n생성되거나 사용된 `Symbol`(또는 함수)을 Metho 내의 내부 레지스트리에 등록하는 데 사용됩니다 - `symbolName`과 함께 사용되며, 레지스트리 내에서 '키'가 됩니다.\n\n### 옵션 `useSymbol`\n새로운 Symbol을 생성하는 대신 기존 Symbol을 사용할 수 있게 합니다. 이 옵션은 `addProperty`와 `addSimple`에만 제공되며, 따라서 `add`에도 전달할 수 있습니다.\n\n### `data`\nMetho가 의도한 목적을 위해 생성한 심볼로, 대상 객체에 임의의 '데이터'를 저장하는 키로 사용됩니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 고급 사용법 및 `options`"
+      },
+      {
+        "row": 2,
+        "rowsha": "VGwSXU7N/j3DZ1V3GAzfpBXEB2xbzRuq+rWSRbqzV3k=",
+        "originContent": "## Advanced usage and `options`",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "아래 내용 중 대부분은 Metho 'methods'가 서로 다른 라이브러리의 서로 다른 대상 간에 공유될 수 있는 기능을 지원하기 위해 추가되었습니다(예: 두 번째 라이브러리가 해당 메서드를 사용할 때 'method'가 더 많은 기능을 획득함). 이 기능이 실제로 어떻게 사용되는지에 대한 예는 [metho-string](https://github.com/jonrandy/metho-string) 및 [metho-array](https://github.com/jonrandy/metho-array) 라이브러리를 참조하십시오 - 여기서 이 기능은 `reverse`와 `chunk`와 같은 공유 'methods'를 생성하는 데 사용됩니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "K1v5EKeH4j+EI1EOZvhRhk5ryYX+o3D8aJMNmgzZ0oU=",
+        "originContent": "Most, if not all of the below were added to facilitate the ability to have Metho 'methods' that can be shared between different targets in different libraries (e.g. the 'method' would acquire more capabilities when a second library is imported that uses it). For an example of this in action, please refer to the [metho-string](https://github.com/jonrandy/metho-string) and [metho-array](https://github.com/jonrandy/metho-array) libraries - where this functionality is used to create shared 'methods' such as `reverse` and `chunk`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 옵션 `symbolName`"
+      },
+      {
+        "row": 6,
+        "rowsha": "js7qeD8ESJpAJaexHeRcl3+yvxzKTvyea2F3zA2wBPQ=",
+        "originContent": "### Option `symbolName`",
+        "translatedContent": "이 옵션은 생성된 Symbol에 이름을 부여하는 데 사용됩니다(즉, `new Symbol(symbolName`으로 생성될 때)."
+      },
+      {
+        "row": 7,
+        "rowsha": "zpOuRR9YS3WFi5qErQ/HYYnoBvrDP/8nV74HDMq8+ew=",
+        "originContent": "This is used to give a name to the generated Symbol (i.e. when it is created with `new Symbol(symbolName`)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 옵션 `register`"
+      },
+      {
+        "row": 9,
+        "rowsha": "/He8pwowianIjlVQmsKQcfTz/KWxi0C2jXSz6MNk1Xs=",
+        "originContent": "### Option `register`",
+        "translatedContent": "생성되거나 사용된 `Symbol`(또는 함수)을 Metho 내의 내부 레지스트리에 등록하는 데 사용됩니다 - `symbolName`과 함께 사용되며, 레지스트리 내에서 '키'가 됩니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "hPf4k2ZflBkKGScrcl+1KTE+Ki2FuGPRxsouRBBVSQ4=",
+        "originContent": "Used to internally register the created/used `Symbol` (or function) in an internal registry within Metho - used in conjunction `symbolName` which will become the 'key' in the registry",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 옵션 `useSymbol`"
+      },
+      {
+        "row": 12,
+        "rowsha": "z0UAnoYJZRgS65QoO/fRj9OUT7vyWe1WvJC9TGmn+hQ=",
+        "originContent": "### Option `useSymbol`",
+        "translatedContent": "새로운 Symbol을 생성하는 대신 기존 Symbol을 사용할 수 있게 합니다. 이 옵션은 `addProperty`와 `addSimple`에만 제공되며, 따라서 `add`에도 전달할 수 있습니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "AFtom/B/rZCa+JvZ5R8ADTfexZpb42HBKWQidCS0xak=",
+        "originContent": "This allows an existing Symbol to be used instead of a new one being created. This is available only for `addProperty` and `addSimple` - meaning that it can also be passed to `add`",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `data`"
+      },
+      {
+        "row": 15,
+        "rowsha": "lukiCfOFqpRp7q8fk3vB/CIZVsmj5CE0CprGbiMjDFg=",
+        "originContent": "### `data`",
+        "translatedContent": "Metho가 의도한 목적을 위해 생성한 심볼로, 대상 객체에 임의의 '데이터'를 저장하는 키로 사용됩니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "WMC4RK++rrOFHZscufpRH3TOFhEUZBPPCzRhQKLoHMs=",
+        "originContent": "This is a symbol created by Metho for the intended purpose of being a key to store arbitary 'data' on a target object",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```js\nmyTarget[Metho.data] = \"Arbitrary value\"\n```",
+    "ContentSha": "NVcieYOPc7+ISwAZ4inZHetA3pSpzRX3ZfHLuvyZZHg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nmyTarget[Metho.data] = \"Arbitrary value\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "l0VzfPTM6B/rMraSVcZ5xjj9JMRI3K4h2RY3e7skCAk=",
+        "originContent": "myTarget[Metho.data] = \"Arbitrary value\"",
+        "translatedContent": "myTarget[Metho.data] = \"Arbitrary value\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### `getRegistered(name)`\nThis will return the Symbol or function stored in the registry with the given name as key\n\n### `addWithSharedSymbolName(target, function, symbolName)`\nA convenience function to assist when adding new 'methods' to new targets, where the 'method' may already be in existence. This is best understood in conjunction with `metho-string` and `metho-array` mentioned above\n",
+    "ContentSha": "mmWzNuDNP0/Y94A4ktLZYPXmLHc6ou3qksYxq3CDpeU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `getRegistered(name)`\n이는 주어진 이름을 키로 하여 레지스트리에 저장된 Symbol 또는 함수를 반환합니다.\n\n### `addWithSharedSymbolName(target, function, symbolName)`\n새로운 대상에 새로운 '메서드'를 추가할 때, 해당 '메서드'가 이미 존재할 수 있는 경우를 지원하는 편의 함수입니다. 이는 위에서 언급한 `metho-string` 및 `metho-array`와 함께 이해하는 것이 가장 좋습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q4SuxxLAjo50gfVQfZdD6EtVHBxiEfO348DZ0TrQhkA=",
+        "originContent": "### `getRegistered(name)`",
+        "translatedContent": "### `getRegistered(name)`"
+      },
+      {
+        "row": 3,
+        "rowsha": "sFsZ4x/tVXIDz+CzeWsYpJVFz3p2/GOGmo73loZXEGI=",
+        "originContent": "This will return the Symbol or function stored in the registry with the given name as key",
+        "translatedContent": "이는 주어진 이름을 키로 하여 레지스트리에 저장된 Symbol 또는 함수를 반환합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "9IJRGAUc3LrDanEkZABpDd79wy+JdL9U/NYtZknRAlE=",
+        "originContent": "### `addWithSharedSymbolName(target, function, symbolName)`",
+        "translatedContent": "### `addWithSharedSymbolName(target, function, symbolName)`"
+      },
+      {
+        "row": 6,
+        "rowsha": "aNZ0Y/bK/lbD8xPbOVRK4FbNUK1vHSS1h9ttnjR5TEs=",
+        "originContent": "A convenience function to assist when adding new 'methods' to new targets, where the 'method' may already be in existence. This is best understood in conjunction with `metho-string` and `metho-array` mentioned above",
+        "translatedContent": "새로운 대상에 새로운 '메서드'를 추가할 때, 해당 '메서드'가 이미 존재할 수 있는 경우를 지원하는 편의 함수입니다. 이는 위에서 언급한 `metho-string` 및 `metho-array`와 함께 이해하는 것이 가장 좋습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
