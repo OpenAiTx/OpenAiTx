@@ -1,0 +1,610 @@
+[
+  {
+    "Id": 1,
+    "Content": "# opencode-anthropic-oauth\n\nOpenCode plugin for Anthropic Claude Pro/Max OAuth login — no Claude Code needed.\n\n## What it does\n\nLets you authenticate with your Claude Pro/Max subscription directly in OpenCode via browser OAuth. No need to install Claude Code or manage credentials files.\n\n## Installation\n",
+    "ContentSha": "qEJao4mY6LHZ8Y+p9duBk0gl8vloPPvnGOZ14GFwosI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# opencode-anthropic-oauth\n\nPlugin OpenCode pour la connexion OAuth Anthropic Claude Pro/Max — aucun code Claude requis.\n\n## Ce que cela fait\n\nVous permet de vous authentifier avec votre abonnement Claude Pro/Max directement dans OpenCode via OAuth navigateur. Pas besoin d’installer Claude Code ou de gérer des fichiers de crédentiels.\n\n## Installation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jMF6+AT7f64Olakz7ZC1Nrzu41GBIghwVdvH+YxameI=",
+        "originContent": "# opencode-anthropic-oauth",
+        "translatedContent": "# opencode-anthropic-oauth"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Fay8my2PbQQvuK159207oZVhIzC2wxUrpX8iVMwrYjo=",
+        "originContent": "OpenCode plugin for Anthropic Claude Pro/Max OAuth login — no Claude Code needed.",
+        "translatedContent": "Plugin OpenCode pour la connexion OAuth Anthropic Claude Pro/Max — aucun code Claude requis."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "MauDhLAD6Y+SIrKkvC/ip7pWaaMGzWibdMaYCu53J/A=",
+        "originContent": "## What it does",
+        "translatedContent": "## Ce que cela fait"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FbZXzgeuCepRtirieFTV1jSfueQOxXFKh/WUrVvz4ZA=",
+        "originContent": "Lets you authenticate with your Claude Pro/Max subscription directly in OpenCode via browser OAuth. No need to install Claude Code or manage credentials files.",
+        "translatedContent": "Vous permet de vous authentifier avec votre abonnement Claude Pro/Max directement dans OpenCode via OAuth navigateur. Pas besoin d’installer Claude Code ou de gérer des fichiers de crédentiels."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpm install -g opencode-anthropic-oauth\n```",
+    "ContentSha": "OQs5giHoT+/XjQHS2UVys7wr+Sa+DGdFSryeY5dTbYQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install -g opencode-anthropic-oauth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bsu5B1adzYDsCqNhRhjKET+c35eq5i1yVqeiX7y9kK4=",
+        "originContent": "npm install -g opencode-anthropic-oauth",
+        "translatedContent": "npm install -g opencode-anthropic-oauth"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThen add to your `opencode.json`:\n",
+    "ContentSha": "mNcrCsA9E5we8+QOPfJz63Vd8cax72C3Y+n1MO6ZSeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAjoutez ensuite à votre `opencode.json` :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HuZc5LlmCsEZgysDQyUPX4Pq4h+9207kqa9tK5LxXUw=",
+        "originContent": "Then add to your `opencode.json`:",
+        "translatedContent": "Ajoutez ensuite à votre `opencode.json` :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```json\n{\n  \"plugin\": [\"opencode-anthropic-oauth\"]\n}\n```",
+    "ContentSha": "F1XxcqEgyRMOnpAvpE4ETJO58Zp1zo6jyqg+DkOTdcU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"plugin\": [\"opencode-anthropic-oauth\"]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "Hx+AMOQ4+68UDhrz7RAS/Dkirw9wB5c6xUc5vz0vqZM=",
+        "originContent": "  \"plugin\": [\"opencode-anthropic-oauth\"]",
+        "translatedContent": "  \"plugin\": [\"opencode-anthropic-oauth\"]"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Usage\n\n1. Run `/connect` in OpenCode (or `oc auth login` from CLI)\n2. Select **Anthropic** > **Claude Pro/Max**\n3. Open the link in your browser and authorize\n4. Paste the code back into OpenCode\n5. Done — all Anthropic models are now available\n\n## How it works\n\n- Implements the OAuth PKCE flow directly against Anthropic's auth endpoints\n- Opens your browser for authentication — you log in with your Claude account\n- Exchanges the authorization code for access + refresh tokens\n- **Auto-refreshes tokens** when they expire — no manual re-auth needed\n- Sets the required API headers on Anthropic requests\n- **Preserves prompt caching** for efficient token usage\n\n## Changelog\n\n### 0.4.1\n- **Fixed high token consumption** — removed `cache_control` stripping that was disabling prompt caching\n- Added `x-anthropic-billing-header` for proper token tracking\n- Aligned beta flags with official Claude CLI plugin\n\n### 0.4.0\n- Added `?beta=true` URL parameter for OAuth compatibility\n- Injected system identity prefix for claude-code beta\n- Stripped `cache_control` (now removed in 0.4.1)\n\n### 0.3.0\n- Added auto token refresh via loader hook\n- Background proactive refresh timer (5min intervals)\n\n## Environment variable overrides\n\nAll OAuth parameters can be overridden via environment variables. If Anthropic changes something before we publish an update, set an env var and keep working:\n\n| Variable | Description |\n|---|---|",
+    "ContentSha": "vUa5N2bXmtf1rNcXTIOoQffuQJvacRp9IcOuYDJdkrI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Utilisation\n\n1. Exécutez `/connect` dans OpenCode (ou `oc auth login` depuis la CLI)  \n2. Sélectionnez **Anthropic** > **Claude Pro/Max**  \n3. Ouvrez le lien dans votre navigateur et autorisez  \n4. Collez le code dans OpenCode  \n5. Terminé — tous les modèles Anthropic sont maintenant disponibles  \n\n## Fonctionnement\n\n- Implémente le flux OAuth PKCE directement via les endpoints d'authentification Anthropic  \n- Ouvre votre navigateur pour l'authentification — vous vous connectez avec votre compte Claude  \n- Échange le code d'autorisation contre des tokens d'accès + de rafraîchissement  \n- **Rafraîchit automatiquement les tokens** à leur expiration — pas besoin de re-authentification manuelle  \n- Définit les en-têtes API requis sur les requêtes Anthropic  \n- **Préserve la mise en cache des invites** pour une utilisation efficace des tokens  \n\n## Journal des modifications\n\n### 0.4.1  \n- **Correction de la consommation élevée de tokens** — suppression du `cache_control` qui désactivait la mise en cache des invites  \n- Ajout de `x-anthropic-billing-header` pour un suivi correct des tokens  \n- Alignement des flags beta avec le plugin officiel Claude CLI  \n\n### 0.4.0  \n- Ajout du paramètre URL `?beta=true` pour compatibilité OAuth  \n- Injection du préfixe d’identité système pour la beta claude-code  \n- Suppression du `cache_control` (maintenant corrigée en 0.4.1)  \n\n### 0.3.0  \n- Ajout du rafraîchissement automatique des tokens via hook de chargeur  \n- Minuteur de rafraîchissement proactif en arrière-plan (intervalles de 5 min)  \n\n## Surcharges des variables d’environnement\n\nTous les paramètres OAuth peuvent être surchargés via des variables d’environnement. Si Anthropic change quelque chose avant que nous publiions une mise à jour, définissez une variable d’environnement et continuez à travailler :  \n\n| Variable | Description |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Utilisation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "b/VyZI4KRt8c0K09jVszPQMcXTzqgQM+DStFi+jjs2w=",
+        "originContent": "1. Run `/connect` in OpenCode (or `oc auth login` from CLI)",
+        "translatedContent": "1. Exécutez `/connect` dans OpenCode (ou `oc auth login` depuis la CLI)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "oumtY/iryra2PmefjqJ8pMgpbzFgnnEvFsgjdoiv15U=",
+        "originContent": "2. Select **Anthropic** > **Claude Pro/Max**",
+        "translatedContent": "2. Sélectionnez **Anthropic** > **Claude Pro/Max**  "
+      },
+      {
+        "row": 6,
+        "rowsha": "plnFFpRC1PFX0zRdTFu9NlVurQpcbjI8n0mNBA1AYjc=",
+        "originContent": "3. Open the link in your browser and authorize",
+        "translatedContent": "3. Ouvrez le lien dans votre navigateur et autorisez  "
+      },
+      {
+        "row": 7,
+        "rowsha": "IhNx/0zaQDSizKFVB5LTFeWGET/EIhlrD+TYS2G4Ga8=",
+        "originContent": "4. Paste the code back into OpenCode",
+        "translatedContent": "4. Collez le code dans OpenCode  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Zjze4XqHN4ndDbw4MUePT80AhKJSb0pSUM7FeUHoPi0=",
+        "originContent": "5. Done — all Anthropic models are now available",
+        "translatedContent": "5. Terminé — tous les modèles Anthropic sont maintenant disponibles  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+        "originContent": "## How it works",
+        "translatedContent": "## Fonctionnement"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "V+oG/F43LzIyxSwljPcfXVnTveCze6Aa3cIL/+c9/Pc=",
+        "originContent": "- Implements the OAuth PKCE flow directly against Anthropic's auth endpoints",
+        "translatedContent": "- Implémente le flux OAuth PKCE directement via les endpoints d'authentification Anthropic  "
+      },
+      {
+        "row": 13,
+        "rowsha": "qIs6qQ9fyGnuCJVYzJvanq42ORb//+B2bPxvmHSawqY=",
+        "originContent": "- Opens your browser for authentication — you log in with your Claude account",
+        "translatedContent": "- Ouvre votre navigateur pour l'authentification — vous vous connectez avec votre compte Claude  "
+      },
+      {
+        "row": 14,
+        "rowsha": "T7bvaYLpHWi2l/G7Zzs146TahLzluwYcBrew55/CBG4=",
+        "originContent": "- Exchanges the authorization code for access + refresh tokens",
+        "translatedContent": "- Échange le code d'autorisation contre des tokens d'accès + de rafraîchissement  "
+      },
+      {
+        "row": 15,
+        "rowsha": "JOHmNganoQMrjMdsCTkLkuxg6yyFokKZle2qjkJQb0s=",
+        "originContent": "- **Auto-refreshes tokens** when they expire — no manual re-auth needed",
+        "translatedContent": "- **Rafraîchit automatiquement les tokens** à leur expiration — pas besoin de re-authentification manuelle  "
+      },
+      {
+        "row": 16,
+        "rowsha": "6z6sFde9G6bFUhgNenqgfUErmf0QhZRxirSv8VPPzu0=",
+        "originContent": "- Sets the required API headers on Anthropic requests",
+        "translatedContent": "- Définit les en-têtes API requis sur les requêtes Anthropic  "
+      },
+      {
+        "row": 17,
+        "rowsha": "ghpggQPMuNg3rINP/Q7Qlbwnz0eFjKHab4F8IJuDOKo=",
+        "originContent": "- **Preserves prompt caching** for efficient token usage",
+        "translatedContent": "- **Préserve la mise en cache des invites** pour une utilisation efficace des tokens  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+        "originContent": "## Changelog",
+        "translatedContent": "## Journal des modifications"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "GX3S06pW/ucbT6i9KTHyVvqQFfXECJwvAYyrSPjNOc4=",
+        "originContent": "### 0.4.1",
+        "translatedContent": "### 0.4.1  "
+      },
+      {
+        "row": 22,
+        "rowsha": "xrVM51rkQ+KC98W/sYuHuPSJwMrQ4hyYd9jV0YBHe0U=",
+        "originContent": "- **Fixed high token consumption** — removed `cache_control` stripping that was disabling prompt caching",
+        "translatedContent": "- **Correction de la consommation élevée de tokens** — suppression du `cache_control` qui désactivait la mise en cache des invites  "
+      },
+      {
+        "row": 23,
+        "rowsha": "/n6s8TXY6WHfOm5sJew1ReanLaTTnQR5SYGLKZwnDkQ=",
+        "originContent": "- Added `x-anthropic-billing-header` for proper token tracking",
+        "translatedContent": "- Ajout de `x-anthropic-billing-header` pour un suivi correct des tokens  "
+      },
+      {
+        "row": 24,
+        "rowsha": "nMNU5QdaFEX9vwLvM/Jy6n1mbAMVyKQrgPe/eWiI2hE=",
+        "originContent": "- Aligned beta flags with official Claude CLI plugin",
+        "translatedContent": "- Alignement des flags beta avec le plugin officiel Claude CLI  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "sSARp9MxeHTiShH4Pqfop5rxMb3XsmkgJcAZX6viQKI=",
+        "originContent": "### 0.4.0",
+        "translatedContent": "### 0.4.0  "
+      },
+      {
+        "row": 27,
+        "rowsha": "g7abHzTBVBsJogEEiXqgv2WyQPiXtIu6XNMUtGI11d4=",
+        "originContent": "- Added `?beta=true` URL parameter for OAuth compatibility",
+        "translatedContent": "- Ajout du paramètre URL `?beta=true` pour compatibilité OAuth  "
+      },
+      {
+        "row": 28,
+        "rowsha": "WS49Ndjnzwp0URMgZMxJl1cj0MlH8EjCwT8LT075GcA=",
+        "originContent": "- Injected system identity prefix for claude-code beta",
+        "translatedContent": "- Injection du préfixe d’identité système pour la beta claude-code  "
+      },
+      {
+        "row": 29,
+        "rowsha": "iRhE+ZsSmSA082bCS5NTAAtkA5xaoZm8+GOxmELkw9o=",
+        "originContent": "- Stripped `cache_control` (now removed in 0.4.1)",
+        "translatedContent": "- Suppression du `cache_control` (maintenant corrigée en 0.4.1)  "
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Rbpr7sbao4JZ/ZvJEDPxgqmM4esjVhf+NpoL76l0AUM=",
+        "originContent": "### 0.3.0",
+        "translatedContent": "### 0.3.0  "
+      },
+      {
+        "row": 32,
+        "rowsha": "PvURqZ7djScAQN86p4KEBHFrS/anj4nB2qBnTrBTzlI=",
+        "originContent": "- Added auto token refresh via loader hook",
+        "translatedContent": "- Ajout du rafraîchissement automatique des tokens via hook de chargeur  "
+      },
+      {
+        "row": 33,
+        "rowsha": "Rt70PWKRosn8cwLZNeWO8srKrOgVBzcG/Mh3SywCFtI=",
+        "originContent": "- Background proactive refresh timer (5min intervals)",
+        "translatedContent": "- Minuteur de rafraîchissement proactif en arrière-plan (intervalles de 5 min)  "
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "s6rSk0x1l7onjSbPN0eqTPCq0zbh5VGhqTSoIotwFXw=",
+        "originContent": "## Environment variable overrides",
+        "translatedContent": "## Surcharges des variables d’environnement"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "wJh9R+MetHXcny0N+HlRJPZ7knkW3lRDG5tGfbJ63DY=",
+        "originContent": "All OAuth parameters can be overridden via environment variables. If Anthropic changes something before we publish an update, set an env var and keep working:",
+        "translatedContent": "Tous les paramètres OAuth peuvent être surchargés via des variables d’environnement. Si Anthropic change quelque chose avant que nous publiions une mise à jour, définissez une variable d’environnement et continuez à travailler :  "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Ekm+WxRGQZfraruJY6ZuncjJW1O298YosVHARNj0EoM=",
+        "originContent": "| Variable | Description |",
+        "translatedContent": "| Variable | Description |"
+      },
+      {
+        "row": 40,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "| `ANTHROPIC_CLIENT_ID` | OAuth client ID |\n| `ANTHROPIC_CLI_VERSION` | Claude CLI version for User-Agent |\n| `ANTHROPIC_USER_AGENT` | Full User-Agent string (overrides version) |\n| `ANTHROPIC_AUTHORIZE_URL` | OAuth authorization endpoint |\n| `ANTHROPIC_TOKEN_URL` | OAuth token endpoint |\n| `ANTHROPIC_REDIRECT_URI` | OAuth redirect URI |\n| `ANTHROPIC_SCOPES` | OAuth scopes |\n| `ANTHROPIC_BETA_FLAGS` | Anthropic beta feature flags |\n\nExample:\n",
+    "ContentSha": "sd+otacYGuLayG/s2HFZFkYR7o4aCwH/aN3ntfBDBCI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| `ANTHROPIC_CLIENT_ID` | ID client OAuth |\n| `ANTHROPIC_CLI_VERSION` | Version CLI Claude pour User-Agent |\n| `ANTHROPIC_USER_AGENT` | Chaîne complète User-Agent (remplace la version) |\n| `ANTHROPIC_AUTHORIZE_URL` | Point de terminaison d'autorisation OAuth |\n| `ANTHROPIC_TOKEN_URL` | Point de terminaison de jeton OAuth |\n| `ANTHROPIC_REDIRECT_URI` | URI de redirection OAuth |\n| `ANTHROPIC_SCOPES` | Périmètres OAuth |\n| `ANTHROPIC_BETA_FLAGS` | Indicateurs de fonctionnalités bêta Anthropic |\n\nExemple :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PRApVc8NLIC6cTPH88vDjTxlEIsBwkEU7/+WmRd5p88=",
+        "originContent": "| `ANTHROPIC_CLIENT_ID` | OAuth client ID |",
+        "translatedContent": "| `ANTHROPIC_CLIENT_ID` | ID client OAuth |"
+      },
+      {
+        "row": 2,
+        "rowsha": "8LaELggeDEfFRs/jqQTuK7zJVMqlcP1FRij9octjAbI=",
+        "originContent": "| `ANTHROPIC_CLI_VERSION` | Claude CLI version for User-Agent |",
+        "translatedContent": "| `ANTHROPIC_CLI_VERSION` | Version CLI Claude pour User-Agent |"
+      },
+      {
+        "row": 3,
+        "rowsha": "NuniNTBPuVuAV26fY7v9ULc7NTaa4s/Pk+6tsC94UZc=",
+        "originContent": "| `ANTHROPIC_USER_AGENT` | Full User-Agent string (overrides version) |",
+        "translatedContent": "| `ANTHROPIC_USER_AGENT` | Chaîne complète User-Agent (remplace la version) |"
+      },
+      {
+        "row": 4,
+        "rowsha": "CLMg5y30bO9WJtt/ocS74xEuth2mPA70S6HYL0bTu3I=",
+        "originContent": "| `ANTHROPIC_AUTHORIZE_URL` | OAuth authorization endpoint |",
+        "translatedContent": "| `ANTHROPIC_AUTHORIZE_URL` | Point de terminaison d'autorisation OAuth |"
+      },
+      {
+        "row": 5,
+        "rowsha": "oxNDrmcmKr1sLyCIYrZfbtAq75b7S4t5wxtldm7cVv8=",
+        "originContent": "| `ANTHROPIC_TOKEN_URL` | OAuth token endpoint |",
+        "translatedContent": "| `ANTHROPIC_TOKEN_URL` | Point de terminaison de jeton OAuth |"
+      },
+      {
+        "row": 6,
+        "rowsha": "I0eTIcUUB9nrrthoKdNYXZULMH4jE7Hv5Q93dWLBVS0=",
+        "originContent": "| `ANTHROPIC_REDIRECT_URI` | OAuth redirect URI |",
+        "translatedContent": "| `ANTHROPIC_REDIRECT_URI` | URI de redirection OAuth |"
+      },
+      {
+        "row": 7,
+        "rowsha": "g1gK3wBYBtsugqP7sW3oIoV80NtV7cz1zRXPGx3IDHE=",
+        "originContent": "| `ANTHROPIC_SCOPES` | OAuth scopes |",
+        "translatedContent": "| `ANTHROPIC_SCOPES` | Périmètres OAuth |"
+      },
+      {
+        "row": 8,
+        "rowsha": "wjQ3ctEmoo5RCwZbBcBDAQDcKQ/tTpfbS4jxSdWCcl4=",
+        "originContent": "| `ANTHROPIC_BETA_FLAGS` | Anthropic beta feature flags |",
+        "translatedContent": "| `ANTHROPIC_BETA_FLAGS` | Indicateurs de fonctionnalités bêta Anthropic |"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Exemple :"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\nexport ANTHROPIC_CLI_VERSION=2.2.0\n```",
+    "ContentSha": "7EpmUEa/qGN4CAZg38WPFUPhHgdys0s1LgHqpyaGhvk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nexport ANTHROPIC_CLI_VERSION=2.2.0\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Wb+ZtmgTkvQk+Veq99WKPVWB/T7vWdyertoq8qswbwQ=",
+        "originContent": "export ANTHROPIC_CLI_VERSION=2.2.0",
+        "translatedContent": "export ANTHROPIC_CLI_VERSION=2.2.0"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## Disclaimer\n\nThis plugin uses Anthropic's public OAuth client ID to authenticate. Anthropic's Terms of Service (February 2026) state that Claude Pro/Max subscription tokens should only be used with official Anthropic clients. This plugin exists as a community workaround and may stop working if Anthropic changes their OAuth infrastructure. Use at your own discretion.\n\n## License\n\nMIT\n",
+    "ContentSha": "opclt6vArqqMsLMnmD3TKAvXLb9uUmNgHBXF9pGLmiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Avertissement\n\nCe plugin utilise l'ID client OAuth public d'Anthropic pour s'authentifier. Les conditions d'utilisation d'Anthropic (février 2026) stipulent que les tokens d'abonnement Claude Pro/Max doivent uniquement être utilisés avec les clients officiels d'Anthropic. Ce plugin existe comme solution communautaire de contournement et peut cesser de fonctionner si Anthropic modifie son infrastructure OAuth. Utilisez-le à votre propre discrétion.\n\n## Licence\n\nMIT\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## Avertissement"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0LNq266Cbo15GrrjvroHvpfu97bVfEq/Z8OUwIm6guU=",
+        "originContent": "This plugin uses Anthropic's public OAuth client ID to authenticate. Anthropic's Terms of Service (February 2026) state that Claude Pro/Max subscription tokens should only be used with official Anthropic clients. This plugin exists as a community workaround and may stop working if Anthropic changes their OAuth infrastructure. Use at your own discretion.",
+        "translatedContent": "Ce plugin utilise l'ID client OAuth public d'Anthropic pour s'authentifier. Les conditions d'utilisation d'Anthropic (février 2026) stipulent que les tokens d'abonnement Claude Pro/Max doivent uniquement être utilisés avec les clients officiels d'Anthropic. Ce plugin existe comme solution communautaire de contournement et peut cesser de fonctionner si Anthropic modifie son infrastructure OAuth. Utilisez-le à votre propre discrétion."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

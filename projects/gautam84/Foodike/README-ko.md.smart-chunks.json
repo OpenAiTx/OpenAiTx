@@ -1,0 +1,732 @@
+[
+  {
+    "Id": 1,
+    "Content": "![GitHub Cards Preview](https://github.com/gautam84/Foodike/blob/master/art/FoodikeIntrouctionMockUp.jpg?raw=true)\n\n# 🍔 Foodike\nFoodike is a simple, easy-to-use food delivery app. It is built using Android-Jetpack Compose and is built on the principle of MVVM with Modern Android Architecture Components.\n\n## Demo \n![](https://github.com/gautam84/Foodike/blob/master/art/demo.gif)\n\n## Screenshots 📱 \nOnboarding | Login | Home | Details | History | Cart | Profile\n--- | --- | --- | --- |--- |--- |--- \n![](https://github.com/gautam84/Foodike/blob/master/screenshots/onboarding.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/login.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/home.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/details.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/history.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/cart.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/profile.jpeg) \n\n\n## Build With 🛠\n\n- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android\n  development.\n- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose is Android’s\n  modern toolkit for building native UI.\n- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - A coroutine is a\n  concurrency design pattern that you can use on Android to simplify code that executes\n  asynchronously.\n- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - A flow is an asynchronous\n  version of a Sequence, a type of collection whose values are lazily produced.\n- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) -\n  Collection of libraries that help you design robust, testable, and maintainable apps.\n  - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow is a\n    state-holder observable flow that emits the current and new state updates to its collectors.\n  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - A flow is an asynchronous\n    version of a Sequence, a type of collection whose values are lazily produced.\n  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores\n    UI-related data that isn\"t destroyed on UI changes.\n  - [Jetpack Compose Navigation](https://developer.android.com/jetpack/compose/navigation) - The\n    Navigation component provides support for Jetpack Compose applications.\n  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack\n    DataStore is a data storage solution that allows you to store key-value pairs or typed objects\n    with protocol buffers. DataStore uses Kotlin coroutines and Flow to store data asynchronously,\n    consistently, and transactionally.\n- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt is a dependency injection library for Android that reduces the     boilerplate of doing manual dependency injection in your project. Doing manual dependency injection requires you to construct every class and its                 dependencies by hand, and to use containers to reuse and manage dependencies.",
+    "ContentSha": "4OgasHHhUdB+LpA6/xgTJxcie9bTLxr2OUNQID8S4Tc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![GitHub Cards Preview](https://github.com/gautam84/Foodike/blob/master/art/FoodikeIntrouctionMockUp.jpg?raw=true)\n\n# 🍔 Foodike\nFoodike는 간단하고 사용하기 쉬운 음식 배달 앱입니다. Android-Jetpack Compose를 사용하여 구축되었으며, 최신 Android 아키텍처 컴포넌트를 활용한 MVVM 원칙에 따라 설계되었습니다.\n\n## 데모 \n![](https://github.com/gautam84/Foodike/blob/master/art/demo.gif)\n\n## 스크린샷 📱 \n온보딩 | 로그인 | 홈 | 상세 | 히스토리 | 장바구니 | 프로필\n--- | --- | --- | --- |--- |--- |--- \n![](https://github.com/gautam84/Foodike/blob/master/screenshots/onboarding.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/login.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/home.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/details.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/history.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/cart.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/profile.jpeg) \n\n\n## 사용 기술 🛠\n\n- [Kotlin](https://kotlinlang.org/) - Android 개발을 위한 공식 1급 프로그래밍 언어입니다.\n- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose는 Android의 최신 네이티브 UI 빌드 툴킷입니다.\n- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - 코루틴은 비동기 실행 코드를 간소화하기 위해 Android에서 사용할 수 있는 동시성 설계 패턴입니다.\n- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow는 지연 생성되는 값을 가진 컬렉션 타입인 Sequence의 비동기 버전입니다.\n- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) -\n  견고하고 테스트 가능하며 유지보수가 쉬운 앱 설계를 돕는 라이브러리 모음입니다.\n  - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow는 현재 상태와 새 상태 업데이트를 수집자에게 방출하는 상태 보유 관찰 가능한 플로우입니다.\n  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow는 지연 생성되는 값을 가진 컬렉션 타입인 Sequence의 비동기 버전입니다.\n  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - UI 변경 시에도 파괴되지 않는 UI 관련 데이터를 저장합니다.\n  - [Jetpack Compose Navigation](https://developer.android.com/jetpack/compose/navigation) - Navigation 컴포넌트는 Jetpack Compose 애플리케이션을 지원합니다.\n  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack DataStore는 키-값 쌍 또는 프로토콜 버퍼를 이용한 타입 객체를 저장할 수 있는 데이터 저장 솔루션입니다. DataStore는 Kotlin 코루틴과 Flow를 사용하여 데이터를 비동기적이고 일관성 있게, 트랜잭션 방식으로 저장합니다.\n- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt는 Android용 의존성 주입 라이브러리로, 프로젝트에서 수동 의존성 주입 시 발생하는 보일러플레이트 코드를 줄여줍니다. 수동 의존성 주입은 모든 클래스와 그 의존성을 직접 생성하고, 의존성 재사용 및 관리를 위해 컨테이너를 사용하는 작업을 요구합니다.\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1U6XPnC7A75ZgNPwgy9ASI+HcS8W9q/QjwUgI+e+/gc=",
+        "originContent": "![GitHub Cards Preview](https://github.com/gautam84/Foodike/blob/master/art/FoodikeIntrouctionMockUp.jpg?raw=true)",
+        "translatedContent": "![GitHub Cards Preview](https://github.com/gautam84/Foodike/blob/master/art/FoodikeIntrouctionMockUp.jpg?raw=true)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "fsESsCFZ28+sjmtYN1eC9yNUyNbXHAwyvWs8AkLP2QI=",
+        "originContent": "# 🍔 Foodike",
+        "translatedContent": "# 🍔 Foodike"
+      },
+      {
+        "row": 4,
+        "rowsha": "nuLNfO7VvgY6G1h1mL6utI+ZXsHSkio97onV3X6StrA=",
+        "originContent": "Foodike is a simple, easy-to-use food delivery app. It is built using Android-Jetpack Compose and is built on the principle of MVVM with Modern Android Architecture Components.",
+        "translatedContent": "Foodike는 간단하고 사용하기 쉬운 음식 배달 앱입니다. Android-Jetpack Compose를 사용하여 구축되었으며, 최신 Android 아키텍처 컴포넌트를 활용한 MVVM 원칙에 따라 설계되었습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "OVWgJXooGqCquTJqJGQOms8w9cYI61ERJOWvbdFiQlY=",
+        "originContent": "## Demo ",
+        "translatedContent": "## 데모 "
+      },
+      {
+        "row": 7,
+        "rowsha": "8CugBIMxAXy64p1x3BpEidcGx0NyattjKOVERftQj9w=",
+        "originContent": "![](https://github.com/gautam84/Foodike/blob/master/art/demo.gif)",
+        "translatedContent": "![](https://github.com/gautam84/Foodike/blob/master/art/demo.gif)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "9y7NffP+/Li8pqX0KS4n20suUGvze+RB1yaTbeoiqGQ=",
+        "originContent": "## Screenshots 📱 ",
+        "translatedContent": "## 스크린샷 📱 "
+      },
+      {
+        "row": 10,
+        "rowsha": "qoGVO9BqDI246sLpyA00Z3/h3LojHQrcA96k1d8WCmc=",
+        "originContent": "Onboarding | Login | Home | Details | History | Cart | Profile",
+        "translatedContent": "온보딩 | 로그인 | 홈 | 상세 | 히스토리 | 장바구니 | 프로필"
+      },
+      {
+        "row": 11,
+        "rowsha": "nsiyrVoeKLG6B21zH1ikLlIZ84n1/omn842nnWwb51I=",
+        "originContent": "--- | --- | --- | --- |--- |--- |--- ",
+        "translatedContent": "--- | --- | --- | --- |--- |--- |--- "
+      },
+      {
+        "row": 12,
+        "rowsha": "GB+xrG77jUxD4IpM0M0nT4dcRqAoayHsgauVApdSH8k=",
+        "originContent": "![](https://github.com/gautam84/Foodike/blob/master/screenshots/onboarding.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/login.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/home.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/details.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/history.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/cart.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/profile.jpeg) ",
+        "translatedContent": "![](https://github.com/gautam84/Foodike/blob/master/screenshots/onboarding.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/login.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/home.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/details.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/history.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/cart.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/profile.jpeg) "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "o0m3c+XsoQS450z+teyjNLzs3+xwjftsyCuqB0DGMho=",
+        "originContent": "## Build With 🛠",
+        "translatedContent": "## 사용 기술 🛠"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "1UGmql6TSmungHgJHiS6XnxduY0gaI6NJozNPaPEzR0=",
+        "originContent": "- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android",
+        "translatedContent": "- [Kotlin](https://kotlinlang.org/) - Android 개발을 위한 공식 1급 프로그래밍 언어입니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "JX+bsLMFVWekfJgiehjZalk8NqId8y6TyjuAoPXDdKU=",
+        "originContent": "  development.",
+        "translatedContent": "- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose는 Android의 최신 네이티브 UI 빌드 툴킷입니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "/QscKImbV9eJiukSmPqSGcJcrJmXep36oN+nwEFDH48=",
+        "originContent": "- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose is Android’s",
+        "translatedContent": "- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - 코루틴은 비동기 실행 코드를 간소화하기 위해 Android에서 사용할 수 있는 동시성 설계 패턴입니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "ikGCMDxMARpwWkcDH/+GKRQ/0VD6ra8Q4W+++TD6pa4=",
+        "originContent": "  modern toolkit for building native UI.",
+        "translatedContent": "- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow는 지연 생성되는 값을 가진 컬렉션 타입인 Sequence의 비동기 버전입니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "6ch7FoAJzJWb4qu/i3JUodmjhN1gcfZxMjxXkAMddXo=",
+        "originContent": "- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - A coroutine is a",
+        "translatedContent": "- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) -"
+      },
+      {
+        "row": 22,
+        "rowsha": "T+jI9/IiVfHsmst6RiXMkrdjDkWcR2iYNMB6oSQB/6w=",
+        "originContent": "  concurrency design pattern that you can use on Android to simplify code that executes",
+        "translatedContent": "  견고하고 테스트 가능하며 유지보수가 쉬운 앱 설계를 돕는 라이브러리 모음입니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "+BoK7xnzDd8iJoMYXkOboGIIqAJXCZ4O9A5hnSGq4o8=",
+        "originContent": "  asynchronously.",
+        "translatedContent": "  - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow는 현재 상태와 새 상태 업데이트를 수집자에게 방출하는 상태 보유 관찰 가능한 플로우입니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "A0sGr1FskbVcH7AsFJnDSFbrYSQOqZR40GTtjL+AeXI=",
+        "originContent": "- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - A flow is an asynchronous",
+        "translatedContent": "  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow는 지연 생성되는 값을 가진 컬렉션 타입인 Sequence의 비동기 버전입니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "YxZs2PTY9qy4o9bd4Tv37yEXGUWieSntJtoCvWjErJw=",
+        "originContent": "  version of a Sequence, a type of collection whose values are lazily produced.",
+        "translatedContent": "  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - UI 변경 시에도 파괴되지 않는 UI 관련 데이터를 저장합니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "20DvBfUEFmfm/utFxNYRA9tbvJaC87sAKX9LhWXxQgo=",
+        "originContent": "- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) -",
+        "translatedContent": "  - [Jetpack Compose Navigation](https://developer.android.com/jetpack/compose/navigation) - Navigation 컴포넌트는 Jetpack Compose 애플리케이션을 지원합니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "M7lc3wYEY/5+x4v9s5AcgElxv8YsCS6IdmY5mtLUuo0=",
+        "originContent": "  Collection of libraries that help you design robust, testable, and maintainable apps.",
+        "translatedContent": "  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack DataStore는 키-값 쌍 또는 프로토콜 버퍼를 이용한 타입 객체를 저장할 수 있는 데이터 저장 솔루션입니다. DataStore는 Kotlin 코루틴과 Flow를 사용하여 데이터를 비동기적이고 일관성 있게, 트랜잭션 방식으로 저장합니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "FZpb6pfA5LBxm8FL1IlVgtiBSOebdut/TZrd8w8Qd1c=",
+        "originContent": "  - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow is a",
+        "translatedContent": "- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt는 Android용 의존성 주입 라이브러리로, 프로젝트에서 수동 의존성 주입 시 발생하는 보일러플레이트 코드를 줄여줍니다. 수동 의존성 주입은 모든 클래스와 그 의존성을 직접 생성하고, 의존성 재사용 및 관리를 위해 컨테이너를 사용하는 작업을 요구합니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "bFY3G+02/WR05o+pHYs9ewbkGmoOsPg6Xz9fTtSktrs=",
+        "originContent": "    state-holder observable flow that emits the current and new state updates to its collectors.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "w1/Cd45HkjgY6JM73L0RPx++O1K3n1GjNcNFYtgwuOs=",
+        "originContent": "  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - A flow is an asynchronous",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "B105m1vkhGLa8sN8APbH4cCV6gUnpy699fzffE1idN8=",
+        "originContent": "    version of a Sequence, a type of collection whose values are lazily produced.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "9V6ZP74BNOduPcBF8OFArVcRJS1bFlb/dVKtZT3GzkM=",
+        "originContent": "  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "cj90S0aWpcBL4izLdPVlu3NhTAkxU9LNq1GD8++PQ+4=",
+        "originContent": "    UI-related data that isn\"t destroyed on UI changes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Eb7NY9QwR19DeVRLIBOaX7K9h1XbJsc5JFUho5B37i0=",
+        "originContent": "  - [Jetpack Compose Navigation](https://developer.android.com/jetpack/compose/navigation) - The",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "hpmr+nP7lB4twhaXozyRbd2q9nQsBHr2ZrQ24K44ROE=",
+        "originContent": "    Navigation component provides support for Jetpack Compose applications.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "vdngOtKOZx+1uqsUoPWwCd+p5fxYnnuh5ZCsHTNSNlg=",
+        "originContent": "  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "5yC3vxQMdv6MP965b8tO2PHqCYeBP/ZD/Lmfyjaokxo=",
+        "originContent": "    DataStore is a data storage solution that allows you to store key-value pairs or typed objects",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "bx8xrx/7X6J6+EV6oFKEAK4yrVu8f/xsfDKnl9TweIM=",
+        "originContent": "    with protocol buffers. DataStore uses Kotlin coroutines and Flow to store data asynchronously,",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "6a6uX0kmKOS2gv331++LKfKSIKtjEP1OtYBkfaAhB04=",
+        "originContent": "    consistently, and transactionally.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "42DToblSD7D1sLN3MdXRH8FlzkZwYvvS8zNZ2OgB9h8=",
+        "originContent": "- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt is a dependency injection library for Android that reduces the     boilerplate of doing manual dependency injection in your project. Doing manual dependency injection requires you to construct every class and its                 dependencies by hand, and to use containers to reuse and manage dependencies.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  \n- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - Starting in Android 12, the SplashScreen API lets apps launch with animation, including an into-app motion at launch, a splash screen showing your app icon, and a transition to your app itself. A SplashScreen is a Window and therefore covers an Activity.\n- [Material Components for Android](https://github.com/material-components/material-components-android)\n  - Modular and customizable Material Design UI components for Android.\n- [Figma](https://figma.com/) - Figma is a vector graphics editor and prototyping tool which is\n  primarily web-based.\n\n## Architecture 🗼\n\nThis app uses [***MVVM (Model View\nView-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.\n\n![](https://github.com/gautam84/Foodike/blob/master/art/mvvm.png)\n\n## Build-tool 🧰\nYou need to have [Android Studio Beta 3 or above](https://developer.android.com/studio/preview) to build this project.\n\n## Contact 📩\n\nWanna reach out to me? DM me at 👇\n\nDrop a mail to:- gautamhazarika01@gmail.com\n\nMy Portfolio:- www.gautamhz.com\n\n## Donation 💰\n\nIf this project help you reduce time to develop, you can give me a cup of coffee :)\n\n<a href=\"https://www.buymeacoffee.com/gautam.hz\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>\n\n\n## License 🔖\n",
+    "ContentSha": "GlVrzZzQ+f82LyFCB2PyZimVkHpZoezxzGxGn6X42pM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  \n- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - Android 12부터 SplashScreen API를 사용하면 앱 시작 시 애니메이션을 포함하여, 시작 시 앱 내 모션, 앱 아이콘을 보여주는 스플래시 화면, 그리고 앱 자체로의 전환을 구현할 수 있습니다. SplashScreen은 Window이므로 Activity를 덮습니다.\n- [Material Components for Android](https://github.com/material-components/material-components-android)\n  - Android용 모듈화되고 커스터마이즈 가능한 Material Design UI 컴포넌트입니다.\n- [Figma](https://figma.com/) - Figma는 주로 웹 기반인 벡터 그래픽 편집기이자 프로토타이핑 도구입니다.\n\n## Architecture 🗼\n\n이 앱은 [***MVVM (Model View\nView-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) 아키텍처를 사용합니다.\n\n![](https://github.com/gautam84/Foodike/blob/master/art/mvvm.png)\n\n## Build-tool 🧰\n이 프로젝트를 빌드하려면 [Android Studio Beta 3 이상](https://developer.android.com/studio/preview)이 필요합니다.\n\n## Contact 📩\n\n저에게 연락하고 싶으신가요? 아래에서 DM 주세요 👇\n\n메일 보내기:- gautamhazarika01@gmail.com\n\n제 포트폴리오:- www.gautamhz.com\n\n## Donation 💰\n\n이 프로젝트가 개발 시간을 줄이는 데 도움이 되었다면, 커피 한 잔 사주세요 :)\n\n<a href=\"https://www.buymeacoffee.com/gautam.hz\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>\n\n\n## License 🔖\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 2,
+        "rowsha": "E0akqMl4qS4M5TuH/IJuTda49zzQu77u94ptKD2Khjo=",
+        "originContent": "- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - Starting in Android 12, the SplashScreen API lets apps launch with animation, including an into-app motion at launch, a splash screen showing your app icon, and a transition to your app itself. A SplashScreen is a Window and therefore covers an Activity.",
+        "translatedContent": "- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - Android 12부터 SplashScreen API를 사용하면 앱 시작 시 애니메이션을 포함하여, 시작 시 앱 내 모션, 앱 아이콘을 보여주는 스플래시 화면, 그리고 앱 자체로의 전환을 구현할 수 있습니다. SplashScreen은 Window이므로 Activity를 덮습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "qNyuN3rcZ9vQwXqqAD95GCOFYXEFUapm7X4ZnnyCJYA=",
+        "originContent": "- [Material Components for Android](https://github.com/material-components/material-components-android)",
+        "translatedContent": "- [Material Components for Android](https://github.com/material-components/material-components-android)"
+      },
+      {
+        "row": 4,
+        "rowsha": "tGGrgDhbYKRhO3+pR90+fWS5alHeip/I3fjPaqd6Jik=",
+        "originContent": "  - Modular and customizable Material Design UI components for Android.",
+        "translatedContent": "  - Android용 모듈화되고 커스터마이즈 가능한 Material Design UI 컴포넌트입니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "tfcZPlihz/sTa/mgjU5g6JGtN69O2+1BeI3/6KJPJJk=",
+        "originContent": "- [Figma](https://figma.com/) - Figma is a vector graphics editor and prototyping tool which is",
+        "translatedContent": "- [Figma](https://figma.com/) - Figma는 주로 웹 기반인 벡터 그래픽 편집기이자 프로토타이핑 도구입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "8WASh0naP1ywD+hGN5dH8rRddhy8qNb5Vy/2jHrc+MQ=",
+        "originContent": "  primarily web-based.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Architecture 🗼"
+      },
+      {
+        "row": 8,
+        "rowsha": "qVaN3rwLsBQMvvlsLqriIYxpTKCj64KQDYc4glprVdo=",
+        "originContent": "## Architecture 🗼",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 앱은 [***MVVM (Model View"
+      },
+      {
+        "row": 10,
+        "rowsha": "JD21YOmDi85uauAe3tWRVyoZPhyVfIPIgYteKNmLr3s=",
+        "originContent": "This app uses [***MVVM (Model View",
+        "translatedContent": "View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) 아키텍처를 사용합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "xynwvopTqfSvP8n1JJnwsbbZH4RVrhGFIS38I77XSPc=",
+        "originContent": "View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://github.com/gautam84/Foodike/blob/master/art/mvvm.png)"
+      },
+      {
+        "row": 13,
+        "rowsha": "vMWuuRZyewqiRhfkxhDvZRbaGjpuPsHcnnjtBTod2+Q=",
+        "originContent": "![](https://github.com/gautam84/Foodike/blob/master/art/mvvm.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Build-tool 🧰"
+      },
+      {
+        "row": 15,
+        "rowsha": "7UWRddVYpnJkFNbAKlhHIE8B1Tu1OLgI/UvOgyfyWPs=",
+        "originContent": "## Build-tool 🧰",
+        "translatedContent": "이 프로젝트를 빌드하려면 [Android Studio Beta 3 이상](https://developer.android.com/studio/preview)이 필요합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "MZRCVZEdl8Z4uZY+ZdzXZTyeyQ4nURx3J1S0LxDNtyY=",
+        "originContent": "You need to have [Android Studio Beta 3 or above](https://developer.android.com/studio/preview) to build this project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contact 📩"
+      },
+      {
+        "row": 18,
+        "rowsha": "7pXqb9b/H9k4ysl6ZHYZSFc865A6XtbZzmlRrBaykpo=",
+        "originContent": "## Contact 📩",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "저에게 연락하고 싶으신가요? 아래에서 DM 주세요 👇"
+      },
+      {
+        "row": 20,
+        "rowsha": "IdTNqY9w+05aCYvDIUvok+V4sEi9ZGqvmAxkjtzfwb8=",
+        "originContent": "Wanna reach out to me? DM me at 👇",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "메일 보내기:- gautamhazarika01@gmail.com"
+      },
+      {
+        "row": 22,
+        "rowsha": "UfS60bWKs14B/B048GyevVqr/b7o5vY0wnJTSwi14hk=",
+        "originContent": "Drop a mail to:- gautamhazarika01@gmail.com",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "제 포트폴리오:- www.gautamhz.com"
+      },
+      {
+        "row": 24,
+        "rowsha": "ASspxMPl5emu+C7fdYVqGVce7Gp6zkpGURxekbsa3g4=",
+        "originContent": "My Portfolio:- www.gautamhz.com",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Donation 💰"
+      },
+      {
+        "row": 26,
+        "rowsha": "L06fI8GGbCRKrwFcZk4tFMcaMl/MEWAi1p5FqeDeEtI=",
+        "originContent": "## Donation 💰",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트가 개발 시간을 줄이는 데 도움이 되었다면, 커피 한 잔 사주세요 :)"
+      },
+      {
+        "row": 28,
+        "rowsha": "gP7rFqqCa90d/UCyrEtlMTbqXtkoPLYFS7QlHw3QRhA=",
+        "originContent": "If this project help you reduce time to develop, you can give me a cup of coffee :)",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://www.buymeacoffee.com/gautam.hz\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>"
+      },
+      {
+        "row": 30,
+        "rowsha": "3n9QM7CC1KR6/MlZKYrF8WGB9yO/zeqsPrnYk5NUKlM=",
+        "originContent": "<a href=\"https://www.buymeacoffee.com/gautam.hz\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## License 🔖"
+      },
+      {
+        "row": 33,
+        "rowsha": "IcufPcFyPqrfmTTuqx41ggwg84k4SA7515cNDx55PJQ=",
+        "originContent": "## License 🔖",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\n\nMIT License\n\nCopyright (c) 2026 Gautam Hazarika\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n\n\n```",
+    "ContentSha": "rfwQ/OLcWeduOyB5je5VXasP3qFaxXIWmi1xmaybAXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\nMIT License\n\nCopyright (c) 2026 Gautam Hazarika\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": "MIT License"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "UphJ5hoW735HVn9JrrjcPhpO1RdsM7YBzVGsYqRBl48=",
+        "originContent": "Copyright (c) 2026 Gautam Hazarika",
+        "translatedContent": "Copyright (c) 2026 Gautam Hazarika"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "6ygdewCoVnearKfR7FGXp2NGz0d0vZZ/lMRTkwkHaog=",
+        "originContent": "Permission is hereby granted, free of charge, to any person obtaining a copy",
+        "translatedContent": "Permission is hereby granted, free of charge, to any person obtaining a copy"
+      },
+      {
+        "row": 8,
+        "rowsha": "tB6IBZRBlGdDbRUpcPNnEASfdOCGi6OVvavIByTSt9Q=",
+        "originContent": "of this software and associated documentation files (the \"Software\"), to deal",
+        "translatedContent": "of this software and associated documentation files (the \"Software\"), to deal"
+      },
+      {
+        "row": 9,
+        "rowsha": "qVeJMVdSBNt5caouhRNwg0dCuXZ0vq5F3wtlaAWeffI=",
+        "originContent": "in the Software without restriction, including without limitation the rights",
+        "translatedContent": "in the Software without restriction, including without limitation the rights"
+      },
+      {
+        "row": 10,
+        "rowsha": "cQWjY7xQ66jpP2dtuwvRRWSnldQwGLaGMNrpD3N/1bU=",
+        "originContent": "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+        "translatedContent": "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell"
+      },
+      {
+        "row": 11,
+        "rowsha": "EOduAtLdwPqRWQ5lJJ27tXL9njInefim7qIo7ykIfDw=",
+        "originContent": "copies of the Software, and to permit persons to whom the Software is",
+        "translatedContent": "copies of the Software, and to permit persons to whom the Software is"
+      },
+      {
+        "row": 12,
+        "rowsha": "yyuTUVyg3VCFD9PhSRvwbDI1IZwo8VyU39LMiocdVvs=",
+        "originContent": "furnished to do so, subject to the following conditions:",
+        "translatedContent": "furnished to do so, subject to the following conditions:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "2T6mDcJBdisYMKaqGZeyXXtS+TBSXP5ga9O4qrwlGJM=",
+        "originContent": "The above copyright notice and this permission notice shall be included in all",
+        "translatedContent": "The above copyright notice and this permission notice shall be included in all"
+      },
+      {
+        "row": 15,
+        "rowsha": "WF2w9fp99xXGvWkAfCZJ48tiQQ27cd4jLoOV2W/ii7s=",
+        "originContent": "copies or substantial portions of the Software.",
+        "translatedContent": "copies or substantial portions of the Software."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "WNq4iXJWd93FonCgffg5XjP0LHjB005/rO7dHFEfBMQ=",
+        "originContent": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR",
+        "translatedContent": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+      },
+      {
+        "row": 18,
+        "rowsha": "tH5wC51OBORnBEi7OQZ+0siGPIrV5z8Dfde/mrDydOA=",
+        "originContent": "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,",
+        "translatedContent": "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+      },
+      {
+        "row": 19,
+        "rowsha": "/1019OAyTISZuBmAx9pLfEMX++Qj8KPJPK5Et6pnBb8=",
+        "originContent": "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE",
+        "translatedContent": "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE"
+      },
+      {
+        "row": 20,
+        "rowsha": "bcSYy9bifbENokMc/MMukEKKUvAifo52S48A8MxW5Bs=",
+        "originContent": "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER",
+        "translatedContent": "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER"
+      },
+      {
+        "row": 21,
+        "rowsha": "y2S6grz9x1yNaNplcVngDXV/K+rs8D8qzCg7BrK/i0s=",
+        "originContent": "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+        "translatedContent": "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,"
+      },
+      {
+        "row": 22,
+        "rowsha": "FEQpFvEsO27s3/hIhTddi6j1At/huhtAF8dpa3LcOaE=",
+        "originContent": "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE",
+        "translatedContent": "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE"
+      },
+      {
+        "row": 23,
+        "rowsha": "2EKUEweHqGAPrmh06ntaxm75mKmb6Jasj34Acdz+wGM=",
+        "originContent": "SOFTWARE.",
+        "translatedContent": "SOFTWARE."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Backend:\n\nI am building the backend in full kotlin using ktor [here](https://github.com/gautam84/foodike-backend).\n\n\n## Next Steps:\n\n- Integrate the backend to the android app.\n- Update every piece of code to the latest version.\n- Write unit tests, integration tests and UI/End-to-End tests.\n",
+    "ContentSha": "lbQuKRE/BuDCxFwG6jmMPt7wDAY3C0GoLcWuqY+duww=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 백엔드:\n\n저는 전체 코틀린을 사용하여 ktor로 백엔드를 구축하고 있습니다 [여기](https://github.com/gautam84/foodike-backend).\n\n\n## 다음 단계:\n\n- 백엔드를 안드로이드 앱에 통합합니다.\n- 모든 코드를 최신 버전으로 업데이트합니다.\n- 단위 테스트, 통합 테스트 및 UI/엔드 투 엔드 테스트를 작성합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 백엔드:"
+      },
+      {
+        "row": 2,
+        "rowsha": "nKFsBmuKCVmjFC8HWPejYkwimir2V5Kz+YicKU8yDyA=",
+        "originContent": "## Backend:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "저는 전체 코틀린을 사용하여 ktor로 백엔드를 구축하고 있습니다 [여기](https://github.com/gautam84/foodike-backend)."
+      },
+      {
+        "row": 4,
+        "rowsha": "gqQD4vbBIfiQj2CPMsuxGlGDcq01DeIlGaG7XM6kj6U=",
+        "originContent": "I am building the backend in full kotlin using ktor [here](https://github.com/gautam84/foodike-backend).",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 다음 단계:"
+      },
+      {
+        "row": 7,
+        "rowsha": "t1G9iBNZ2Q5lWEHZXKgtiOQuoCd7eFfl2O+Yq6NpP3o=",
+        "originContent": "## Next Steps:",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 백엔드를 안드로이드 앱에 통합합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "F1EppmMyRlMJtpsnkst3CJdEj6JK2P3bSNEnTYa6DE4=",
+        "originContent": "- Integrate the backend to the android app.",
+        "translatedContent": "- 모든 코드를 최신 버전으로 업데이트합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "C7nnKwyh/8Gx4mWpgFWL2qO437hlO9mqyEkeYlvOeCY=",
+        "originContent": "- Update every piece of code to the latest version.",
+        "translatedContent": "- 단위 테스트, 통합 테스트 및 UI/엔드 투 엔드 테스트를 작성합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "4yGAprrO5AbIlkxvIgUMdgEp9KVXfB3WHAh7gVwF44Q=",
+        "originContent": "- Write unit tests, integration tests and UI/End-to-End tests.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "row": 1,
+    "rowsha": "jMF6+AT7f64Olakz7ZC1Nrzu41GBIghwVdvH+YxameI=",
+    "originContent": "# opencode-anthropic-oauth",
+    "translatedContent": "# opencode-anthropic-oauth"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Fay8my2PbQQvuK159207oZVhIzC2wxUrpX8iVMwrYjo=",
+    "originContent": "OpenCode plugin for Anthropic Claude Pro/Max OAuth login — no Claude Code needed.",
+    "translatedContent": "Anthropic Claude Pro/Max OAuth 로그인을 위한 OpenCode 플러그인 — Claude Code가 필요 없습니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "MauDhLAD6Y+SIrKkvC/ip7pWaaMGzWibdMaYCu53J/A=",
+    "originContent": "## What it does",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "FbZXzgeuCepRtirieFTV1jSfueQOxXFKh/WUrVvz4ZA=",
+    "originContent": "Lets you authenticate with your Claude Pro/Max subscription directly in OpenCode via browser OAuth. No need to install Claude Code or manage credentials files.",
+    "translatedContent": "브라우저 OAuth를 통해 OpenCode에서 직접 Claude Pro/Max 구독으로 인증할 수 있습니다. Claude Code를 설치하거나 자격 증명 파일을 관리할 필요가 없습니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 12,
+    "rowsha": "bsu5B1adzYDsCqNhRhjKET+c35eq5i1yVqeiX7y9kK4=",
+    "originContent": "npm install -g opencode-anthropic-oauth",
+    "translatedContent": "npm install -g opencode-anthropic-oauth"
+  },
+  {
+    "row": 13,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "HuZc5LlmCsEZgysDQyUPX4Pq4h+9207kqa9tK5LxXUw=",
+    "originContent": "Then add to your `opencode.json`:",
+    "translatedContent": "그런 다음 `opencode.json`에 추가하세요:"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 18,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 19,
+    "rowsha": "Hx+AMOQ4+68UDhrz7RAS/Dkirw9wB5c6xUc5vz0vqZM=",
+    "originContent": "  \"plugin\": [\"opencode-anthropic-oauth\"]",
+    "translatedContent": "  \"plugin\": [\"opencode-anthropic-oauth\"]"
+  },
+  {
+    "row": 20,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 23,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. OpenCode에서 `/connect` 실행 (또는 CLI에서 `oc auth login`)"
+  },
+  {
+    "row": 25,
+    "rowsha": "b/VyZI4KRt8c0K09jVszPQMcXTzqgQM+DStFi+jjs2w=",
+    "originContent": "1. Run `/connect` in OpenCode (or `oc auth login` from CLI)",
+    "translatedContent": "2. **Anthropic** > **Claude Pro/Max** 선택"
+  },
+  {
+    "row": 26,
+    "rowsha": "oumtY/iryra2PmefjqJ8pMgpbzFgnnEvFsgjdoiv15U=",
+    "originContent": "2. Select **Anthropic** > **Claude Pro/Max**",
+    "translatedContent": "3. 브라우저에서 링크를 열고 인증"
+  },
+  {
+    "row": 27,
+    "rowsha": "plnFFpRC1PFX0zRdTFu9NlVurQpcbjI8n0mNBA1AYjc=",
+    "originContent": "3. Open the link in your browser and authorize",
+    "translatedContent": "4. 코드를 복사하여 OpenCode에 붙여넣기"
+  },
+  {
+    "row": 28,
+    "rowsha": "IhNx/0zaQDSizKFVB5LTFeWGET/EIhlrD+TYS2G4Ga8=",
+    "originContent": "4. Paste the code back into OpenCode",
+    "translatedContent": "5. 완료 — 모든 Anthropic 모델 사용 가능"
+  },
+  {
+    "row": 29,
+    "rowsha": "Zjze4XqHN4ndDbw4MUePT80AhKJSb0pSUM7FeUHoPi0=",
+    "originContent": "5. Done — all Anthropic models are now available",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 작동 방식"
+  },
+  {
+    "row": 31,
+    "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+    "originContent": "## How it works",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Anthropic의 인증 엔드포인트에 직접 OAuth PKCE 플로우 구현"
+  },
+  {
+    "row": 33,
+    "rowsha": "V+oG/F43LzIyxSwljPcfXVnTveCze6Aa3cIL/+c9/Pc=",
+    "originContent": "- Implements the OAuth PKCE flow directly against Anthropic's auth endpoints",
+    "translatedContent": "- 인증을 위해 브라우저를 열고 Claude 계정으로 로그인"
+  },
+  {
+    "row": 34,
+    "rowsha": "qIs6qQ9fyGnuCJVYzJvanq42ORb//+B2bPxvmHSawqY=",
+    "originContent": "- Opens your browser for authentication — you log in with your Claude account",
+    "translatedContent": "- 인증 코드를 액세스 및 리프레시 토큰으로 교환"
+  },
+  {
+    "row": 35,
+    "rowsha": "T7bvaYLpHWi2l/G7Zzs146TahLzluwYcBrew55/CBG4=",
+    "originContent": "- Exchanges the authorization code for access + refresh tokens",
+    "translatedContent": "- **토큰 만료 시 자동 갱신** — 수동 인증 불필요"
+  },
+  {
+    "row": 36,
+    "rowsha": "JOHmNganoQMrjMdsCTkLkuxg6yyFokKZle2qjkJQb0s=",
+    "originContent": "- **Auto-refreshes tokens** when they expire — no manual re-auth needed",
+    "translatedContent": "- Anthropic 요청에 필요한 API 헤더 설정"
+  },
+  {
+    "row": 37,
+    "rowsha": "6z6sFde9G6bFUhgNenqgfUErmf0QhZRxirSv8VPPzu0=",
+    "originContent": "- Sets the required API headers on Anthropic requests",
+    "translatedContent": "- **프롬프트 캐싱 유지**로 효율적인 토큰 사용"
+  },
+  {
+    "row": 38,
+    "rowsha": "ghpggQPMuNg3rINP/Q7Qlbwnz0eFjKHab4F8IJuDOKo=",
+    "originContent": "- **Preserves prompt caching** for efficient token usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 변경 내역"
+  },
+  {
+    "row": 40,
+    "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+    "originContent": "## Changelog",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 0.4.1"
+  },
+  {
+    "row": 42,
+    "rowsha": "GX3S06pW/ucbT6i9KTHyVvqQFfXECJwvAYyrSPjNOc4=",
+    "originContent": "### 0.4.1",
+    "translatedContent": "- **높은 토큰 사용 문제 해결** — 프롬프트 캐싱을 비활성화하던 `cache_control` 제거"
+  },
+  {
+    "row": 43,
+    "rowsha": "xrVM51rkQ+KC98W/sYuHuPSJwMrQ4hyYd9jV0YBHe0U=",
+    "originContent": "- **Fixed high token consumption** — removed `cache_control` stripping that was disabling prompt caching",
+    "translatedContent": "- 올바른 토큰 추적을 위한 `x-anthropic-billing-header` 추가"
+  },
+  {
+    "row": 44,
+    "rowsha": "/n6s8TXY6WHfOm5sJew1ReanLaTTnQR5SYGLKZwnDkQ=",
+    "originContent": "- Added `x-anthropic-billing-header` for proper token tracking",
+    "translatedContent": "- 공식 Claude CLI 플러그인과 베타 플래그 정렬"
+  },
+  {
+    "row": 45,
+    "rowsha": "nMNU5QdaFEX9vwLvM/Jy6n1mbAMVyKQrgPe/eWiI2hE=",
+    "originContent": "- Aligned beta flags with official Claude CLI plugin",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 0.4.0"
+  },
+  {
+    "row": 47,
+    "rowsha": "sSARp9MxeHTiShH4Pqfop5rxMb3XsmkgJcAZX6viQKI=",
+    "originContent": "### 0.4.0",
+    "translatedContent": "- OAuth 호환을 위한 `?beta=true` URL 매개변수 추가"
+  },
+  {
+    "row": 48,
+    "rowsha": "g7abHzTBVBsJogEEiXqgv2WyQPiXtIu6XNMUtGI11d4=",
+    "originContent": "- Added `?beta=true` URL parameter for OAuth compatibility",
+    "translatedContent": "- claude-code 베타용 시스템 아이덴티티 접두사 주입"
+  },
+  {
+    "row": 49,
+    "rowsha": "WS49Ndjnzwp0URMgZMxJl1cj0MlH8EjCwT8LT075GcA=",
+    "originContent": "- Injected system identity prefix for claude-code beta",
+    "translatedContent": "- `cache_control` 제거 (0.4.1에서 다시 복구)"
+  },
+  {
+    "row": 50,
+    "rowsha": "iRhE+ZsSmSA082bCS5NTAAtkA5xaoZm8+GOxmELkw9o=",
+    "originContent": "- Stripped `cache_control` (now removed in 0.4.1)",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 0.3.0"
+  },
+  {
+    "row": 52,
+    "rowsha": "Rbpr7sbao4JZ/ZvJEDPxgqmM4esjVhf+NpoL76l0AUM=",
+    "originContent": "### 0.3.0",
+    "translatedContent": "- 로더 훅을 통한 자동 토큰 갱신 추가"
+  },
+  {
+    "row": 53,
+    "rowsha": "PvURqZ7djScAQN86p4KEBHFrS/anj4nB2qBnTrBTzlI=",
+    "originContent": "- Added auto token refresh via loader hook",
+    "translatedContent": "- 백그라운드 선제 갱신 타이머 (5분 간격)"
+  },
+  {
+    "row": 54,
+    "rowsha": "Rt70PWKRosn8cwLZNeWO8srKrOgVBzcG/Mh3SywCFtI=",
+    "originContent": "- Background proactive refresh timer (5min intervals)",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 환경 변수 오버라이드"
+  },
+  {
+    "row": 56,
+    "rowsha": "s6rSk0x1l7onjSbPN0eqTPCq0zbh5VGhqTSoIotwFXw=",
+    "originContent": "## Environment variable overrides",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "모든 OAuth 매개변수는 환경 변수로 덮어쓸 수 있습니다. Anthropic이 업데이트 전에 변경사항이 있을 경우 환경 변수를 설정하여 계속 작업하세요:"
+  },
+  {
+    "row": 58,
+    "rowsha": "wJh9R+MetHXcny0N+HlRJPZ7knkW3lRDG5tGfbJ63DY=",
+    "originContent": "All OAuth parameters can be overridden via environment variables. If Anthropic changes something before we publish an update, set an env var and keep working:",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 변수 | 설명 |"
+  },
+  {
+    "row": 60,
+    "rowsha": "Ekm+WxRGQZfraruJY6ZuncjJW1O298YosVHARNj0EoM=",
+    "originContent": "| Variable | Description |",
+    "translatedContent": "|---|---|"
+  },
+  {
+    "row": 61,
+    "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+    "originContent": "|---|---|",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "PRApVc8NLIC6cTPH88vDjTxlEIsBwkEU7/+WmRd5p88=",
+    "originContent": "| `ANTHROPIC_CLIENT_ID` | OAuth client ID |",
+    "translatedContent": "| `ANTHROPIC_CLIENT_ID` | OAuth 클라이언트 ID |"
+  },
+  {
+    "row": 63,
+    "rowsha": "8LaELggeDEfFRs/jqQTuK7zJVMqlcP1FRij9octjAbI=",
+    "originContent": "| `ANTHROPIC_CLI_VERSION` | Claude CLI version for User-Agent |",
+    "translatedContent": "| `ANTHROPIC_CLI_VERSION` | User-Agent용 Claude CLI 버전 |"
+  },
+  {
+    "row": 64,
+    "rowsha": "NuniNTBPuVuAV26fY7v9ULc7NTaa4s/Pk+6tsC94UZc=",
+    "originContent": "| `ANTHROPIC_USER_AGENT` | Full User-Agent string (overrides version) |",
+    "translatedContent": "| `ANTHROPIC_USER_AGENT` | 전체 User-Agent 문자열 (버전 무시) |"
+  },
+  {
+    "row": 65,
+    "rowsha": "CLMg5y30bO9WJtt/ocS74xEuth2mPA70S6HYL0bTu3I=",
+    "originContent": "| `ANTHROPIC_AUTHORIZE_URL` | OAuth authorization endpoint |",
+    "translatedContent": "| `ANTHROPIC_AUTHORIZE_URL` | OAuth 승인 엔드포인트 |"
+  },
+  {
+    "row": 66,
+    "rowsha": "oxNDrmcmKr1sLyCIYrZfbtAq75b7S4t5wxtldm7cVv8=",
+    "originContent": "| `ANTHROPIC_TOKEN_URL` | OAuth token endpoint |",
+    "translatedContent": "| `ANTHROPIC_TOKEN_URL` | OAuth 토큰 엔드포인트 |"
+  },
+  {
+    "row": 67,
+    "rowsha": "I0eTIcUUB9nrrthoKdNYXZULMH4jE7Hv5Q93dWLBVS0=",
+    "originContent": "| `ANTHROPIC_REDIRECT_URI` | OAuth redirect URI |",
+    "translatedContent": "| `ANTHROPIC_REDIRECT_URI` | OAuth 리디렉션 URI |"
+  },
+  {
+    "row": 68,
+    "rowsha": "g1gK3wBYBtsugqP7sW3oIoV80NtV7cz1zRXPGx3IDHE=",
+    "originContent": "| `ANTHROPIC_SCOPES` | OAuth scopes |",
+    "translatedContent": "| `ANTHROPIC_SCOPES` | OAuth 범위 |"
+  },
+  {
+    "row": 69,
+    "rowsha": "wjQ3ctEmoo5RCwZbBcBDAQDcKQ/tTpfbS4jxSdWCcl4=",
+    "originContent": "| `ANTHROPIC_BETA_FLAGS` | Anthropic beta feature flags |",
+    "translatedContent": "| `ANTHROPIC_BETA_FLAGS` | Anthropic 베타 기능 플래그 |"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "예:"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 74,
+    "rowsha": "Wb+ZtmgTkvQk+Veq99WKPVWB/T7vWdyertoq8qswbwQ=",
+    "originContent": "export ANTHROPIC_CLI_VERSION=2.2.0",
+    "translatedContent": "export ANTHROPIC_CLI_VERSION=2.2.0"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+    "originContent": "## Disclaimer",
+    "translatedContent": "## 면책 조항"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "0LNq266Cbo15GrrjvroHvpfu97bVfEq/Z8OUwIm6guU=",
+    "originContent": "This plugin uses Anthropic's public OAuth client ID to authenticate. Anthropic's Terms of Service (February 2026) state that Claude Pro/Max subscription tokens should only be used with official Anthropic clients. This plugin exists as a community workaround and may stop working if Anthropic changes their OAuth infrastructure. Use at your own discretion.",
+    "translatedContent": "이 플러그인은 Anthropic의 공개 OAuth 클라이언트 ID를 사용하여 인증합니다. Anthropic의 서비스 약관(2026년 2월)에 따르면 Claude Pro/Max 구독 토큰은 공식 Anthropic 클라이언트와 함께 사용해야 합니다. 이 플러그인은 커뮤니티 차원의 우회 방법으로 존재하며, Anthropic이 OAuth 인프라를 변경할 경우 작동이 중단될 수 있습니다. 사용은 본인의 책임 하에 이루어져야 합니다."
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
