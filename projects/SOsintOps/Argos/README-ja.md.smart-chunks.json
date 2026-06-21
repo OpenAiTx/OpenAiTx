@@ -1,0 +1,1197 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ARGOS — Beta\n<img align=\"right\" width=\"86\" height=\"150\" src=\"https://github.com/SOsintOps/Argos/blob/master/multimedia/images/scribblenauts-argos.png\">\n\n> **WARNING: BETA VERSION**\n> This script has been updated for Ubuntu 24.04 LTS and Ubuntu Budgie 24.04 LTS.\n> It is under active testing. Always run it on a clean VM before using it in production.\n> Report any problems by opening an issue.\n\nArgos automatically configures an open-source OSINT workstation from a clean Ubuntu 24.04 LTS virtual machine.\n\nBest practice recommends using a dedicated VM for each OSINT investigation.\nThis script follows the methods described by Michael Bazzell in [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html).\n\n## Contents\n- [Requirements](#requirements)\n- [Tools](#tools)\n- [Installation](#installation)\n- [Installation Log](#installation-log)\n- [To Do](#to-do)\n- [Resources](#resources)\n- [Credits](#credits)\n- [Licences](#licences)\n- [Version History](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/VERSION_HISTORY.md)\n- [OSINT Analysis Guidelines](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/guidelines.md)\n- [FAQ](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/faq.md)\n\n---\n\n## Requirements\n\n- Ubuntu **24.04 LTS** or **Ubuntu Budgie 24.04 LTS** (VM or workstation)\n- Any Linux username (the previous requirement to use `osint` has been removed)\n- System language: **English**\n- Active internet connection during installation\n- **VirtualBox Guest Additions already installed** — the script does not install them. Install Guest Additions before running `setup.sh` to enable clipboard sharing, drag-and-drop, and fullscreen support.\n\n> The script is optimised for VirtualBox. Code for VMware Tools is available in the comments.\n\n**Tested on:**\n- Ubuntu Budgie 24.04 LTS (VM)",
+    "ContentSha": "EucHQ1ZgrTEhp38J+G5qu7hbS3ah2JIrMaNuxKoZaxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ARGOS — ベータ版\n<img align=\"right\" width=\"86\" height=\"150\" src=\"https://github.com/SOsintOps/Argos/blob/master/multimedia/images/scribblenauts-argos.png\">\n\n> **警告：ベータ版**\n> このスクリプトはUbuntu 24.04 LTSおよびUbuntu Budgie 24.04 LTS向けに更新されています。\n> 現在テスト中です。実運用前に必ずクリーンなVMで実行してください。\n> 問題があればIssueを開いて報告してください。\n\nArgosは、クリーンなUbuntu 24.04 LTS仮想マシンからオープンソースのOSINTワークステーションを自動構成します。\n\nベストプラクティスとして、各OSINT調査ごとに専用のVMを使用することが推奨されます。\nこのスクリプトは、Michael Bazzellの[Open Source Intelligence Techniques](https://inteltechniques.com/book1.html)で説明されている手法に従っています。\n\n## 目次\n- [要件](#requirements)\n- [ツール](#tools)\n- [インストール](#installation)\n- [インストールログ](#installation-log)\n- [今後の予定](#to-do)\n- [リソース](#resources)\n- [クレジット](#credits)\n- [ライセンス](#licences)\n- [バージョン履歴](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/VERSION_HISTORY.md)\n- [OSINT解析ガイドライン](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/guidelines.md)\n- [FAQ](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/faq.md)\n\n---\n\n## 要件\n\n- Ubuntu **24.04 LTS** または **Ubuntu Budgie 24.04 LTS**（VMまたはワークステーション）\n- 任意のLinuxユーザー名（以前の`osint`ユーザー限定の要件は削除されました）\n- システム言語：**英語**\n- インストール中に有効なインターネット接続\n- **VirtualBox Guest Additionsが事前にインストール済み** — スクリプトはこれをインストールしません。`setup.sh`を実行する前にGuest Additionsをインストールして、クリップボード共有、ドラッグ＆ドロップ、フルスクリーン対応を有効にしてください。\n\n> このスクリプトはVirtualBox向けに最適化されています。VMware Tools用のコードはコメント内にあります。\n\n**テスト環境:**\n- Ubuntu Budgie 24.04 LTS（VM）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "J/PNyr0fXRataAtr2hHQdiM0oOYUMUlxf+Xpf5ChQdo=",
+        "originContent": "# ARGOS — Beta",
+        "translatedContent": "# ARGOS — ベータ版"
+      },
+      {
+        "row": 2,
+        "rowsha": "9u5N9rtEXIUVEFD1tFLLnCN4IDckVMBHOufmM4thsAo=",
+        "originContent": "<img align=\"right\" width=\"86\" height=\"150\" src=\"https://github.com/SOsintOps/Argos/blob/master/multimedia/images/scribblenauts-argos.png\">",
+        "translatedContent": "<img align=\"right\" width=\"86\" height=\"150\" src=\"https://github.com/SOsintOps/Argos/blob/master/multimedia/images/scribblenauts-argos.png\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "QnFJWucMVvRLxF2cFLIwPSBK9OlraoP6oGLeXqtZjYg=",
+        "originContent": "> **WARNING: BETA VERSION**",
+        "translatedContent": "> **警告：ベータ版**"
+      },
+      {
+        "row": 5,
+        "rowsha": "jsce2w2vWg4snUTTmeERq/LgcjTgFNFQU/Zu4M9fJSs=",
+        "originContent": "> This script has been updated for Ubuntu 24.04 LTS and Ubuntu Budgie 24.04 LTS.",
+        "translatedContent": "> このスクリプトはUbuntu 24.04 LTSおよびUbuntu Budgie 24.04 LTS向けに更新されています。"
+      },
+      {
+        "row": 6,
+        "rowsha": "wlPhB9DwV9HbNMks4gzCGY05FYP3kwzgINSA6+DTrBg=",
+        "originContent": "> It is under active testing. Always run it on a clean VM before using it in production.",
+        "translatedContent": "> 現在テスト中です。実運用前に必ずクリーンなVMで実行してください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "zZHh7Uel4QQw8tvJCMPvt2d9vVmuvQled1fPzMT5ylk=",
+        "originContent": "> Report any problems by opening an issue.",
+        "translatedContent": "> 問題があればIssueを開いて報告してください。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cILngmvNC4L5Ytj83Gvg3UwoHGtic8//R2IA6L+kb/k=",
+        "originContent": "Argos automatically configures an open-source OSINT workstation from a clean Ubuntu 24.04 LTS virtual machine.",
+        "translatedContent": "Argosは、クリーンなUbuntu 24.04 LTS仮想マシンからオープンソースのOSINTワークステーションを自動構成します。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "XHJAu3dzYvIDeVP8kVUTZVwwNr/HWcme04Ft8vQNU3k=",
+        "originContent": "Best practice recommends using a dedicated VM for each OSINT investigation.",
+        "translatedContent": "ベストプラクティスとして、各OSINT調査ごとに専用のVMを使用することが推奨されます。"
+      },
+      {
+        "row": 12,
+        "rowsha": "WEZHRgJ9sUVDO8XiL01+WCHpPiN0qNKRDAxA+gNr2kQ=",
+        "originContent": "This script follows the methods described by Michael Bazzell in [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html).",
+        "translatedContent": "このスクリプトは、Michael Bazzellの[Open Source Intelligence Techniques](https://inteltechniques.com/book1.html)で説明されている手法に従っています。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Yk5cZ3S6lnsBfRjsT/4ud8HP+iWBYqbxG0YlzTcI+ew=",
+        "originContent": "## Contents",
+        "translatedContent": "## 目次"
+      },
+      {
+        "row": 15,
+        "rowsha": "qNrl27qsv0ZwGdVt+bM00bMPVtSnSnR4DeQhqB6obhE=",
+        "originContent": "- [Requirements](#requirements)",
+        "translatedContent": "- [要件](#requirements)"
+      },
+      {
+        "row": 16,
+        "rowsha": "N6zLaONIghXA79XX1vL4d+jaYVck+ampdbQ19Bn0wI8=",
+        "originContent": "- [Tools](#tools)",
+        "translatedContent": "- [ツール](#tools)"
+      },
+      {
+        "row": 17,
+        "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+        "originContent": "- [Installation](#installation)",
+        "translatedContent": "- [インストール](#installation)"
+      },
+      {
+        "row": 18,
+        "rowsha": "vHag+Zmtv9vfnpwlUUszmRAIsYoRZEKYgO2QVvjIpPo=",
+        "originContent": "- [Installation Log](#installation-log)",
+        "translatedContent": "- [インストールログ](#installation-log)"
+      },
+      {
+        "row": 19,
+        "rowsha": "HoaxWx/DpEwUG9c6OlGREnjlXAPWkIRNXMApAaXpQGU=",
+        "originContent": "- [To Do](#to-do)",
+        "translatedContent": "- [今後の予定](#to-do)"
+      },
+      {
+        "row": 20,
+        "rowsha": "zG3KT2CD1F3w48VwBUJA+4tQKeJbTxaZxaBXKaCVVtc=",
+        "originContent": "- [Resources](#resources)",
+        "translatedContent": "- [リソース](#resources)"
+      },
+      {
+        "row": 21,
+        "rowsha": "lQGUCOQ/xOEbYz+qSEoqBl0sddngw6cTjfCUohSdCl4=",
+        "originContent": "- [Credits](#credits)",
+        "translatedContent": "- [クレジット](#credits)"
+      },
+      {
+        "row": 22,
+        "rowsha": "NwJBsdK76KPt8H9EgxJAy0yLSCPB8i8B50VphuiIDl0=",
+        "originContent": "- [Licences](#licences)",
+        "translatedContent": "- [ライセンス](#licences)"
+      },
+      {
+        "row": 23,
+        "rowsha": "qIi6M8U/nrYC0Pjwc6M0OEr9glZSo00qhQ1axG+X6ys=",
+        "originContent": "- [Version History](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/VERSION_HISTORY.md)",
+        "translatedContent": "- [バージョン履歴](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/VERSION_HISTORY.md)"
+      },
+      {
+        "row": 24,
+        "rowsha": "a8a1h5EIrWdr8EabkEA5zDEu9685yyZQCPEDSXEaLXQ=",
+        "originContent": "- [OSINT Analysis Guidelines](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/guidelines.md)",
+        "translatedContent": "- [OSINT解析ガイドライン](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/guidelines.md)"
+      },
+      {
+        "row": 25,
+        "rowsha": "DgVtYdS1l/KbtTrY0Kgpflvet1UItTsThILPWBxiEqo=",
+        "originContent": "- [FAQ](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/faq.md)",
+        "translatedContent": "- [FAQ](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/faq.md)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 要件"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "1HQtkdyOd8sB7zuIsxuKOtLtws2T4+bRnEpLpuF3T0s=",
+        "originContent": "- Ubuntu **24.04 LTS** or **Ubuntu Budgie 24.04 LTS** (VM or workstation)",
+        "translatedContent": "- Ubuntu **24.04 LTS** または **Ubuntu Budgie 24.04 LTS**（VMまたはワークステーション）"
+      },
+      {
+        "row": 32,
+        "rowsha": "ObISR4LNWSsfTrB0/c0vwNdwkX9pcv1/JuhwIkXs7Aw=",
+        "originContent": "- Any Linux username (the previous requirement to use `osint` has been removed)",
+        "translatedContent": "- 任意のLinuxユーザー名（以前の`osint`ユーザー限定の要件は削除されました）"
+      },
+      {
+        "row": 33,
+        "rowsha": "ryG/QPY8ICiZ4DHCuJJ8UeUjX9RoyLdRZMoHAvchO+M=",
+        "originContent": "- System language: **English**",
+        "translatedContent": "- システム言語：**英語**"
+      },
+      {
+        "row": 34,
+        "rowsha": "lyuP6Cf8KIdmN8KzzPGPBv3uI1CYuOcURaX3xtST7Z8=",
+        "originContent": "- Active internet connection during installation",
+        "translatedContent": "- インストール中に有効なインターネット接続"
+      },
+      {
+        "row": 35,
+        "rowsha": "hExohokWzlSq4c682H73m89Hz4Jj5eG9ET8kSWV5CU4=",
+        "originContent": "- **VirtualBox Guest Additions already installed** — the script does not install them. Install Guest Additions before running `setup.sh` to enable clipboard sharing, drag-and-drop, and fullscreen support.",
+        "translatedContent": "- **VirtualBox Guest Additionsが事前にインストール済み** — スクリプトはこれをインストールしません。`setup.sh`を実行する前にGuest Additionsをインストールして、クリップボード共有、ドラッグ＆ドロップ、フルスクリーン対応を有効にしてください。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "CZYecoEPKT9l0aToBWrW+EKbiQJk3cgqPry+0hjsbMM=",
+        "originContent": "> The script is optimised for VirtualBox. Code for VMware Tools is available in the comments.",
+        "translatedContent": "> このスクリプトはVirtualBox向けに最適化されています。VMware Tools用のコードはコメント内にあります。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "WKNe17YeoBOMQrrZbByriLMpF8I1/pLeJuijINxyki8=",
+        "originContent": "**Tested on:**",
+        "translatedContent": "**テスト環境:**"
+      },
+      {
+        "row": 40,
+        "rowsha": "SqA1iWH6UO48nryg65i7EVPEShvMXyS9USzJJO0k9xY=",
+        "originContent": "- Ubuntu Budgie 24.04 LTS (VM)",
+        "translatedContent": "- Ubuntu Budgie 24.04 LTS（VM）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Ubuntu 24.04 LTS (VM)\n\n**No longer supported:**\n- Ubuntu 22.04 LTS (some dependencies are incompatible)\n- Ubuntu 20.04 LTS\n\n---\n\n## Tools\n\n### OSINT\n\n| Tool | Status | Notes |\n|------|--------|-------|\n| [Amass](https://github.com/owasp-amass/amass) | Active | Subdomain enumeration |\n| [Instaloader](https://instaloader.github.io/) | Active | Instagram OSINT |\n| [Toutatis](https://github.com/megadose/toutatis) | Limited | Requires Instagram session ID |\n| [HTTrack](https://www.httrack.com/) | Active | Web crawling and mirroring |\n| [MediaInfo](https://mediaarea.net/en/MediaInfo) | Active | Media metadata analysis |\n| [ExifTool](https://exiftool.org/) | Active | Metadata from documents and images |\n| [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) | Active | Website screenshots |\n| [The Harvester](https://github.com/laramies/theHarvester) | Active | Email and domain recon |\n| [Metagoofil](https://github.com/opsdisk/metagoofil) | Active | Metadata from public documents |\n| [recon-ng](https://github.com/lanmaster53/recon-ng) | Active | Modular OSINT framework |\n| [Sherlock](https://github.com/sherlock-project/sherlock) | Active | Username search |\n| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Active | OSINT automation |\n| [blackbird](https://github.com/p1ngul1n0/blackbird) | Active | Advanced username search |\n| [holehe](https://github.com/megadose/holehe) | Active | Email OSINT |\n| [maigret](https://github.com/soxoj/maigret) | Active | Username search (advanced Sherlock fork) |\n| [Maltego](https://www.maltego.com/) | Active | Link analysis (requires account) |\n| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Active | Video downloader (replaces youtube-dl) |\n\n**Removed tools (abandoned or discontinued):**\n- ~~Instalooter~~: use Instaloader\n- ~~Sublist3r~~: use Amass\n- ~~Photon~~: use Katana or GoSpider\n- ~~youtube-dl~~: replaced by yt-dlp\n- ~~Moriarty-Project~~: use PhoneInfoga\n- ~~Elasticsearch-Crawler~~: use Shodan CLI\n- ~~Atom Editor~~ (discontinued December 2022): replaced by VSCodium",
+    "ContentSha": "IC+SSZq1vr3Y/y+2PBBZHcJuuPz+v8ZCMNApd6B9DPA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Ubuntu 24.04 LTS (VM)\n\n**サポート終了:**\n- Ubuntu 22.04 LTS（一部依存関係が非互換）\n- Ubuntu 20.04 LTS\n\n---\n\n## ツール\n\n### OSINT\n\n| ツール | ステータス | 備考 |\n|------|--------|-------|\n| [Amass](https://github.com/owasp-amass/amass) | 稼働中 | サブドメイン列挙 |\n| [Instaloader](https://instaloader.github.io/) | 稼働中 | Instagram OSINT |\n| [Toutatis](https://github.com/megadose/toutatis) | 制限あり | InstagramセッションIDが必要 |\n| [HTTrack](https://www.httrack.com/) | 稼働中 | ウェブクロール＆ミラーリング |\n| [MediaInfo](https://mediaarea.net/en/MediaInfo) | 稼働中 | メディアメタデータ解析 |\n| [ExifTool](https://exiftool.org/) | 稼働中 | ドキュメント・画像のメタデータ |\n| [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) | 稼働中 | ウェブサイトのスクリーンショット |\n| [The Harvester](https://github.com/laramies/theHarvester) | 稼働中 | メール・ドメイン情報収集 |\n| [Metagoofil](https://github.com/opsdisk/metagoofil) | 稼働中 | 公開ドキュメントのメタデータ |\n| [recon-ng](https://github.com/lanmaster53/recon-ng) | 稼働中 | モジュール式OSINTフレームワーク |\n| [Sherlock](https://github.com/sherlock-project/sherlock) | 稼働中 | ユーザー名検索 |\n| [SpiderFoot](https://github.com/smicallef/spiderfoot) | 稼働中 | OSINT自動化 |\n| [blackbird](https://github.com/p1ngul1n0/blackbird) | 稼働中 | 高度なユーザー名検索 |\n| [holehe](https://github.com/megadose/holehe) | 稼働中 | メールOSINT |\n| [maigret](https://github.com/soxoj/maigret) | 稼働中 | ユーザー名検索（Sherlockの高度フォーク） |\n| [Maltego](https://www.maltego.com/) | 稼働中 | リンク解析（アカウント要） |\n| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 稼働中 | 動画ダウンローダー（youtube-dlの代替） |\n\n**削除済みツール（放棄または終了）:**\n- ~~Instalooter~~: Instaloaderを使用してください\n- ~~Sublist3r~~: Amassを使用してください\n- ~~Photon~~: KatanaまたはGoSpiderを使用してください\n- ~~youtube-dl~~: yt-dlpに置き換えられました\n- ~~Moriarty-Project~~: PhoneInfogaを使用してください\n- ~~Elasticsearch-Crawler~~: Shodan CLIを使用してください\n- ~~Atom Editor~~（2022年12月終了）: VSCodiumに置き換えられました",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mQE/mQ1C4dEUOq21n7v4vJjaB1TA8LdpQ7gKyqJ3rGY=",
+        "originContent": "- Ubuntu 24.04 LTS (VM)",
+        "translatedContent": "- Ubuntu 24.04 LTS (VM)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "NEtljKjJhLlCuNcHCpxWzEtaXCqRhYjfNLb1eUbp+SQ=",
+        "originContent": "**No longer supported:**",
+        "translatedContent": "**サポート終了:**"
+      },
+      {
+        "row": 4,
+        "rowsha": "6r5vKGED5Pcar6fZCJfF/nv+zQ2j2BilYFTQvd1tdNk=",
+        "originContent": "- Ubuntu 22.04 LTS (some dependencies are incompatible)",
+        "translatedContent": "- Ubuntu 22.04 LTS（一部依存関係が非互換）"
+      },
+      {
+        "row": 5,
+        "rowsha": "xToXcKeivns2zIErZyUcNquG7IILFYZ65hp53Hk9fvA=",
+        "originContent": "- Ubuntu 20.04 LTS",
+        "translatedContent": "- Ubuntu 20.04 LTS"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "CydzS0b79+8mTX3P9FBaCLh3NxcUH6yHLsxNHGhspUw=",
+        "originContent": "## Tools",
+        "translatedContent": "## ツール"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "cic5HpWUWbGUbAjKkGve8BZsCtQnpA+p7xAWpKT3IKc=",
+        "originContent": "### OSINT",
+        "translatedContent": "### OSINT"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "rLBgfWm4wZnb3kLL281bHQRZyR4PoVNaiCU2H3o11/A=",
+        "originContent": "| Tool | Status | Notes |",
+        "translatedContent": "| ツール | ステータス | 備考 |"
+      },
+      {
+        "row": 14,
+        "rowsha": "0woUQOfQypFhZn91VhPAWssRyRbx3KfLYY9ZJWCFXAs=",
+        "originContent": "|------|--------|-------|",
+        "translatedContent": "|------|--------|-------|"
+      },
+      {
+        "row": 15,
+        "rowsha": "DINz/TkeTwy9VGher9ehpg/1bFSOJKmoVbG1B0awx5M=",
+        "originContent": "| [Amass](https://github.com/owasp-amass/amass) | Active | Subdomain enumeration |",
+        "translatedContent": "| [Amass](https://github.com/owasp-amass/amass) | 稼働中 | サブドメイン列挙 |"
+      },
+      {
+        "row": 16,
+        "rowsha": "ADG1MF2uCrypcYewYMtfYe6atL+krR1Y7JMtP2k4i1w=",
+        "originContent": "| [Instaloader](https://instaloader.github.io/) | Active | Instagram OSINT |",
+        "translatedContent": "| [Instaloader](https://instaloader.github.io/) | 稼働中 | Instagram OSINT |"
+      },
+      {
+        "row": 17,
+        "rowsha": "Jl0Db2Hs46fGPIsWputSMq1a0zRau01vzQXHJDIFJAc=",
+        "originContent": "| [Toutatis](https://github.com/megadose/toutatis) | Limited | Requires Instagram session ID |",
+        "translatedContent": "| [Toutatis](https://github.com/megadose/toutatis) | 制限あり | InstagramセッションIDが必要 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "rtb7z+tYidhQ8l45rHSd5rDrDn3RVEIxfKCXpONOsyI=",
+        "originContent": "| [HTTrack](https://www.httrack.com/) | Active | Web crawling and mirroring |",
+        "translatedContent": "| [HTTrack](https://www.httrack.com/) | 稼働中 | ウェブクロール＆ミラーリング |"
+      },
+      {
+        "row": 19,
+        "rowsha": "kV6oGLVghq2ir6VIRPrGyWK/vB2lix8+cB6t8CxqyoA=",
+        "originContent": "| [MediaInfo](https://mediaarea.net/en/MediaInfo) | Active | Media metadata analysis |",
+        "translatedContent": "| [MediaInfo](https://mediaarea.net/en/MediaInfo) | 稼働中 | メディアメタデータ解析 |"
+      },
+      {
+        "row": 20,
+        "rowsha": "X+Lr8MDQKYBCkK5EQS1d2o4lu9mIayAvcboaslHLpRc=",
+        "originContent": "| [ExifTool](https://exiftool.org/) | Active | Metadata from documents and images |",
+        "translatedContent": "| [ExifTool](https://exiftool.org/) | 稼働中 | ドキュメント・画像のメタデータ |"
+      },
+      {
+        "row": 21,
+        "rowsha": "N5AETNreJxvcx6DvppGFGsP/7ADr+en+E2g71KZTCes=",
+        "originContent": "| [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) | Active | Website screenshots |",
+        "translatedContent": "| [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) | 稼働中 | ウェブサイトのスクリーンショット |"
+      },
+      {
+        "row": 22,
+        "rowsha": "XJlD8AH68g1pJf8bDFCLAgYnBObWbL4enAZb8S9pMXw=",
+        "originContent": "| [The Harvester](https://github.com/laramies/theHarvester) | Active | Email and domain recon |",
+        "translatedContent": "| [The Harvester](https://github.com/laramies/theHarvester) | 稼働中 | メール・ドメイン情報収集 |"
+      },
+      {
+        "row": 23,
+        "rowsha": "cEU6+KIi2hg7Ck1cZ/zuPzW6nO9ZWqBlPlZ4vaY6AlA=",
+        "originContent": "| [Metagoofil](https://github.com/opsdisk/metagoofil) | Active | Metadata from public documents |",
+        "translatedContent": "| [Metagoofil](https://github.com/opsdisk/metagoofil) | 稼働中 | 公開ドキュメントのメタデータ |"
+      },
+      {
+        "row": 24,
+        "rowsha": "EX6JnJ62rO5V79jRgvlWIme5rXhMrjSazHm3G2S6uMs=",
+        "originContent": "| [recon-ng](https://github.com/lanmaster53/recon-ng) | Active | Modular OSINT framework |",
+        "translatedContent": "| [recon-ng](https://github.com/lanmaster53/recon-ng) | 稼働中 | モジュール式OSINTフレームワーク |"
+      },
+      {
+        "row": 25,
+        "rowsha": "N5sq69yFwsx4qM+vBZC1J3KevarkhieXwO2n4p2YyJ8=",
+        "originContent": "| [Sherlock](https://github.com/sherlock-project/sherlock) | Active | Username search |",
+        "translatedContent": "| [Sherlock](https://github.com/sherlock-project/sherlock) | 稼働中 | ユーザー名検索 |"
+      },
+      {
+        "row": 26,
+        "rowsha": "+K1ft3xzGv5P6YcthQRT2wjznv/xatuY+wSIbqImLwg=",
+        "originContent": "| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Active | OSINT automation |",
+        "translatedContent": "| [SpiderFoot](https://github.com/smicallef/spiderfoot) | 稼働中 | OSINT自動化 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "Fo/7ZSF9tBTh2dLHD1PV2S0h7y685RucXkDMGqbBM9k=",
+        "originContent": "| [blackbird](https://github.com/p1ngul1n0/blackbird) | Active | Advanced username search |",
+        "translatedContent": "| [blackbird](https://github.com/p1ngul1n0/blackbird) | 稼働中 | 高度なユーザー名検索 |"
+      },
+      {
+        "row": 28,
+        "rowsha": "G7WRZ68uhvDIYEnZJVuogp57kirgn4Wp7XNWVv9I710=",
+        "originContent": "| [holehe](https://github.com/megadose/holehe) | Active | Email OSINT |",
+        "translatedContent": "| [holehe](https://github.com/megadose/holehe) | 稼働中 | メールOSINT |"
+      },
+      {
+        "row": 29,
+        "rowsha": "ZMSeegqs2Qw55v3cT88raDhKWil/FBj785bptTC83yM=",
+        "originContent": "| [maigret](https://github.com/soxoj/maigret) | Active | Username search (advanced Sherlock fork) |",
+        "translatedContent": "| [maigret](https://github.com/soxoj/maigret) | 稼働中 | ユーザー名検索（Sherlockの高度フォーク） |"
+      },
+      {
+        "row": 30,
+        "rowsha": "UakRJB5Ub25ZxYOIyUqjScm7UP6kLc21pfqUj9swxuk=",
+        "originContent": "| [Maltego](https://www.maltego.com/) | Active | Link analysis (requires account) |",
+        "translatedContent": "| [Maltego](https://www.maltego.com/) | 稼働中 | リンク解析（アカウント要） |"
+      },
+      {
+        "row": 31,
+        "rowsha": "b8A83lUJ17inx3TeUCOw6RNa1BzHb+BiDY8DNj1TpbI=",
+        "originContent": "| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Active | Video downloader (replaces youtube-dl) |",
+        "translatedContent": "| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 稼働中 | 動画ダウンローダー（youtube-dlの代替） |"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "/VEpuI+1jt6F/ef/zAvEa6P33QAFQ6GWuO4yhOExHl0=",
+        "originContent": "**Removed tools (abandoned or discontinued):**",
+        "translatedContent": "**削除済みツール（放棄または終了）:**"
+      },
+      {
+        "row": 34,
+        "rowsha": "bSFuqLFPBVqSDsMmjrgQphxh+tz7W/9eeQcQnWVe5mc=",
+        "originContent": "- ~~Instalooter~~: use Instaloader",
+        "translatedContent": "- ~~Instalooter~~: Instaloaderを使用してください"
+      },
+      {
+        "row": 35,
+        "rowsha": "8w6+A9MY8whjm66rl5tGP9K+THoBfNRvVKgOU9Yyark=",
+        "originContent": "- ~~Sublist3r~~: use Amass",
+        "translatedContent": "- ~~Sublist3r~~: Amassを使用してください"
+      },
+      {
+        "row": 36,
+        "rowsha": "msIRk52ycbgD0njKJL0O5AWjfmwbEv2gANjqhth7SpM=",
+        "originContent": "- ~~Photon~~: use Katana or GoSpider",
+        "translatedContent": "- ~~Photon~~: KatanaまたはGoSpiderを使用してください"
+      },
+      {
+        "row": 37,
+        "rowsha": "OtXjNyRyhlcKnrXghtXfvGp0A2GVYXVvzjnFFbJXqrg=",
+        "originContent": "- ~~youtube-dl~~: replaced by yt-dlp",
+        "translatedContent": "- ~~youtube-dl~~: yt-dlpに置き換えられました"
+      },
+      {
+        "row": 38,
+        "rowsha": "suOl+2rgm8KOnowdYUXt3JtESAmlE0b6sjnDwKzgfjs=",
+        "originContent": "- ~~Moriarty-Project~~: use PhoneInfoga",
+        "translatedContent": "- ~~Moriarty-Project~~: PhoneInfogaを使用してください"
+      },
+      {
+        "row": 39,
+        "rowsha": "rhlRnCT0hCIavn2Y5G7YgGDQf5E5uzuwgqAcz4UVGIw=",
+        "originContent": "- ~~Elasticsearch-Crawler~~: use Shodan CLI",
+        "translatedContent": "- ~~Elasticsearch-Crawler~~: Shodan CLIを使用してください"
+      },
+      {
+        "row": 40,
+        "rowsha": "oEK0VKmdmT+joPECI/AFNZwWCte4owyGu3ywwt22KuA=",
+        "originContent": "- ~~Atom Editor~~ (discontinued December 2022): replaced by VSCodium",
+        "translatedContent": "- ~~Atom Editor~~（2022年12月終了）: VSCodiumに置き換えられました"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n### General Tools\n\n| Tool | Status |\n|------|--------|\n| [VLC](https://www.videolan.org/vlc/) | Active |\n| [Google Earth Pro](https://www.google.com/earth/versions/#earth-pro) | Active |\n| [VSCodium](https://vscodium.com/) | Active (replaces Atom) |\n| [CherryTree](https://www.giuspen.com/cherrytree/) | Active |\n| [KeePassXC](https://keepassxc.org/) | Active |\n| [Kazam](https://launchpad.net/kazam) | Active |\n| [Audacity](https://www.audacityteam.org/) | Active |\n| [Tor Browser](https://www.torproject.org/) | Active |\n| [OpenShot](https://www.openshot.org/) | Active |\n| [Obsidian](https://obsidian.md/) | Active (latest version fetched dynamically) |\n| [Ripgrep](https://github.com/BurntSushi/ripgrep) | Active |\n| [Threat Intelligence Resources](https://github.com/pstirparo/threatintel-resources) | Active |\n\n---\n\n## Installation\n\n1. Open a terminal.\n\n2. Install Git if it is not already present:",
+    "ContentSha": "Xa9tZyxmCqDduRtAw6Dyo9V3iOUD2ecCKCoXC74EvLY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 一般ツール\n\n| ツール | ステータス |\n|------|--------|\n| [VLC](https://www.videolan.org/vlc/) | アクティブ |\n| [Google Earth Pro](https://www.google.com/earth/versions/#earth-pro) | アクティブ |\n| [VSCodium](https://vscodium.com/) | アクティブ（Atomの代替） |\n| [CherryTree](https://www.giuspen.com/cherrytree/) | アクティブ |\n| [KeePassXC](https://keepassxc.org/) | アクティブ |\n| [Kazam](https://launchpad.net/kazam) | アクティブ |\n| [Audacity](https://www.audacityteam.org/) | アクティブ |\n| [Tor Browser](https://www.torproject.org/) | アクティブ |\n| [OpenShot](https://www.openshot.org/) | アクティブ |\n| [Obsidian](https://obsidian.md/) | アクティブ（最新バージョンを動的に取得） |\n| [Ripgrep](https://github.com/BurntSushi/ripgrep) | アクティブ |\n| [Threat Intelligence Resources](https://github.com/pstirparo/threatintel-resources) | アクティブ |\n\n---\n\n## インストール\n\n1. ターミナルを開きます。\n\n2. Gitがまだインストールされていない場合はインストールします：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 一般ツール"
+      },
+      {
+        "row": 2,
+        "rowsha": "i9qIf55hFUDR3ghifc7YlISJgzSKqazf8XLDf/Ne5gk=",
+        "originContent": "### General Tools",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| ツール | ステータス |"
+      },
+      {
+        "row": 4,
+        "rowsha": "tvv60SmpSoGPqvfHgTKWaKnoRn1pVb+d/utwv4H8iSA=",
+        "originContent": "| Tool | Status |",
+        "translatedContent": "|------|--------|"
+      },
+      {
+        "row": 5,
+        "rowsha": "og0KenfPdCpRqYhEwgvBl7PsxsQ0kPyeLwthfcEwYbo=",
+        "originContent": "|------|--------|",
+        "translatedContent": "| [VLC](https://www.videolan.org/vlc/) | アクティブ |"
+      },
+      {
+        "row": 6,
+        "rowsha": "CENvHfaWGeXDtT9PdgrFJ/ORvfTPCsTXa46Sjm1khgw=",
+        "originContent": "| [VLC](https://www.videolan.org/vlc/) | Active |",
+        "translatedContent": "| [Google Earth Pro](https://www.google.com/earth/versions/#earth-pro) | アクティブ |"
+      },
+      {
+        "row": 7,
+        "rowsha": "hY1+Ik5EjJs56w4MdppUM42CSMhLfzjkEaLan5GxeKQ=",
+        "originContent": "| [Google Earth Pro](https://www.google.com/earth/versions/#earth-pro) | Active |",
+        "translatedContent": "| [VSCodium](https://vscodium.com/) | アクティブ（Atomの代替） |"
+      },
+      {
+        "row": 8,
+        "rowsha": "dk98zcYvKi7LRBNmSWTcyyKWIlKGyjmx1xZIt9h8Hyc=",
+        "originContent": "| [VSCodium](https://vscodium.com/) | Active (replaces Atom) |",
+        "translatedContent": "| [CherryTree](https://www.giuspen.com/cherrytree/) | アクティブ |"
+      },
+      {
+        "row": 9,
+        "rowsha": "q4MqqSSht10d8V0cBtcpBZRTfsnaUdcb8KA5UMdK5GM=",
+        "originContent": "| [CherryTree](https://www.giuspen.com/cherrytree/) | Active |",
+        "translatedContent": "| [KeePassXC](https://keepassxc.org/) | アクティブ |"
+      },
+      {
+        "row": 10,
+        "rowsha": "6lmzFM0miR0gvas+tCGxoVZZKH2Q6n2diXrpN0TAXIc=",
+        "originContent": "| [KeePassXC](https://keepassxc.org/) | Active |",
+        "translatedContent": "| [Kazam](https://launchpad.net/kazam) | アクティブ |"
+      },
+      {
+        "row": 11,
+        "rowsha": "EgvXuTXW4ALivH9j9/mwsJVnPEi6fYbjP2ohyTyevyU=",
+        "originContent": "| [Kazam](https://launchpad.net/kazam) | Active |",
+        "translatedContent": "| [Audacity](https://www.audacityteam.org/) | アクティブ |"
+      },
+      {
+        "row": 12,
+        "rowsha": "vuXGNoN27cFQv5T3R3lEUejg6Z9zQL0XPUC9B+Xz+x8=",
+        "originContent": "| [Audacity](https://www.audacityteam.org/) | Active |",
+        "translatedContent": "| [Tor Browser](https://www.torproject.org/) | アクティブ |"
+      },
+      {
+        "row": 13,
+        "rowsha": "02hDBCxX5IOPbQq4lXUIQk8A1tljGlGWH8Q4dtAHyqc=",
+        "originContent": "| [Tor Browser](https://www.torproject.org/) | Active |",
+        "translatedContent": "| [OpenShot](https://www.openshot.org/) | アクティブ |"
+      },
+      {
+        "row": 14,
+        "rowsha": "nIcAA6xCN+yM01e2GqJ/i+dCy+tsAAKLwoF6/AYczlQ=",
+        "originContent": "| [OpenShot](https://www.openshot.org/) | Active |",
+        "translatedContent": "| [Obsidian](https://obsidian.md/) | アクティブ（最新バージョンを動的に取得） |"
+      },
+      {
+        "row": 15,
+        "rowsha": "bNZKV5NZgxcgxjjK2nG09D+5XeGxPsiwz7pB1ivsnds=",
+        "originContent": "| [Obsidian](https://obsidian.md/) | Active (latest version fetched dynamically) |",
+        "translatedContent": "| [Ripgrep](https://github.com/BurntSushi/ripgrep) | アクティブ |"
+      },
+      {
+        "row": 16,
+        "rowsha": "zCxQLofCK1dTRi6n/NgiSCSEBiqieGM9gHjCk8DYRfg=",
+        "originContent": "| [Ripgrep](https://github.com/BurntSushi/ripgrep) | Active |",
+        "translatedContent": "| [Threat Intelligence Resources](https://github.com/pstirparo/threatintel-resources) | アクティブ |"
+      },
+      {
+        "row": 17,
+        "rowsha": "TzZqLCwfZo5XYI7IVAPfCzzN+GHgRT23SPyq/M9F/YI=",
+        "originContent": "| [Threat Intelligence Resources](https://github.com/pstirparo/threatintel-resources) | Active |",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 21,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. ターミナルを開きます。"
+      },
+      {
+        "row": 23,
+        "rowsha": "1PC+jkf3gd4mnANsHAgm/ex0GwhPIl3ZU9e3Fv4vTeg=",
+        "originContent": "1. Open a terminal.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Gitがまだインストールされていない場合はインストールします："
+      },
+      {
+        "row": 25,
+        "rowsha": "Ac03jMEZ/Q7sm8O3gLIciUv4cVmOWC+DltSd4OkNdDc=",
+        "originContent": "2. Install Git if it is not already present:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    ```bash\n    sudo apt install -y git\n    ```",
+    "ContentSha": "IzhLcVPtmq3JFG67VfsdgQPyEMxthio0yULsmFxE5QQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    sudo apt install -y git\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pDH3/qfqLDnrPNWuaqz957CBj+QgRGByBed42Urg58A=",
+        "originContent": "    sudo apt install -y git",
+        "translatedContent": "    sudo apt install -y git"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. Clone the repository into the `Downloads` directory:",
+    "ContentSha": "EgZScPrMIgXxva7yMbF9+5TMI3TRHxq0Lhb7frZ4SMo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. リポジトリを `Downloads` ディレクトリにクローンします:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fdUjo8Dsj1ecNfqy22AWGzR/CDpXB0IestTVZZ/Fg1I=",
+        "originContent": "3. Clone the repository into the `Downloads` directory:",
+        "translatedContent": "3. リポジトリを `Downloads` ディレクトリにクローンします:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "    ```bash\n    git clone https://github.com/SOsintOps/Argos ~/Downloads/Argos\n    ```",
+    "ContentSha": "J0kNnA6ISdDaL2tbPT5Iifvd2HVh0g00tsCVK71K49c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    git clone https://github.com/SOsintOps/Argos ~/Downloads/Argos\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gV1++doWkRaqCg+70z7JItsC5Ubt6Uxl8OspSh58+Xo=",
+        "originContent": "    git clone https://github.com/SOsintOps/Argos ~/Downloads/Argos",
+        "translatedContent": "    git clone https://github.com/SOsintOps/Argos ~/Downloads/Argos"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4. Make the script executable:",
+    "ContentSha": "ieuKaVHwvKypCOV4BJ5MjmTq9lmHpdIEJDyFfWeuBbs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n4. スクリプトを実行可能にする:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qZkNU7UKruOe0UEcE5TDf3AegT9aJFS3agc76Pe785w=",
+        "originContent": "4. Make the script executable:",
+        "translatedContent": "4. スクリプトを実行可能にする:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "    ```bash\n    chmod +x ~/Downloads/Argos/setup.sh\n    ```",
+    "ContentSha": "SJe0lg+RhSG/r21d3xzhujVvAAdftTLkjeFXVld3M38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    chmod +x ~/Downloads/Argos/setup.sh\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "GZXCk1e4B6YS6qb6rNIUcSCq6cvUt+ee84dNxq84GN8=",
+        "originContent": "    chmod +x ~/Downloads/Argos/setup.sh",
+        "translatedContent": "    chmod +x ~/Downloads/Argos/setup.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n5. Run the script:",
+    "ContentSha": "yXCpYJ8Ju7uIFS+gdxjXT8OBJOfVXwg5qrtlMqZJhdU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n5. スクリプトを実行します:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xshXPxl5VZcwS3JTFUhJ104abZNaJTokoOkS6em1nBU=",
+        "originContent": "5. Run the script:",
+        "translatedContent": "5. スクリプトを実行します:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```bash\n    ~/Downloads/Argos/setup.sh\n    ```",
+    "ContentSha": "tSU5q6f6S5m3J5CASvnWJNLIr4VfGKGJW3hNnFIK12o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    ~/Downloads/Argos/setup.sh\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7AWk/VlKjpDQCFYqIo+HWQ188Ng379mOfqsGZbluEzM=",
+        "originContent": "    ~/Downloads/Argos/setup.sh",
+        "translatedContent": "    ~/Downloads/Argos/setup.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n    > Firefox does not need to be closed or opened manually. The script initialises the Firefox profile automatically if it has not been created yet.\n\n---\n\n## Installation Log\n\nThe script automatically generates a log file in the Downloads directory:\n",
+    "ContentSha": "+IRmaXrcHXTX3JKBBQnjq2Ds0s1enuuD6o1Cqsq4Zhc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n    > Firefoxは手動で閉じたり開いたりする必要はありません。スクリプトは、まだ作成されていない場合、自動的にFirefoxプロファイルを初期化します。\n\n---\n\n## インストールログ\n\nスクリプトは自動的にダウンロードディレクトリにログファイルを生成します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "pHUK/7q79AZTqVMYWBE0qIyFOPyz0OTZ2eGyePtWQNM=",
+        "originContent": "    > Firefox does not need to be closed or opened manually. The script initialises the Firefox profile automatically if it has not been created yet.",
+        "translatedContent": "    > Firefoxは手動で閉じたり開いたりする必要はありません。スクリプトは、まだ作成されていない場合、自動的にFirefoxプロファイルを初期化します。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "LrUkFd46X5mQU7WlgWBzXix8rttzwSPMHjJkD/Uapx0=",
+        "originContent": "## Installation Log",
+        "translatedContent": "## インストールログ"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oJiiPd2DZDg/XVevLttYfu2mFqHLj+s6099Xob7zlYE=",
+        "originContent": "The script automatically generates a log file in the Downloads directory:",
+        "translatedContent": "スクリプトは自動的にダウンロードディレクトリにログファイルを生成します："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n~/Downloads/argos_install_YYYYMMDD_HHMMSS.log\n```",
+    "ContentSha": "2s2iObV/F3CGeCs2UePT+YMxzpvuHo8o0HiI3TYKG8g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n~/Downloads/argos_install_YYYYMMDD_HHMMSS.log\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3OToUdcA5xrHe7myx85qMHzhKpaSMNkWbmeiaz8Hr0M=",
+        "originContent": "~/Downloads/argos_install_YYYYMMDD_HHMMSS.log",
+        "translatedContent": "~/Downloads/argos_install_YYYYMMDD_HHMMSS.log"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nThe log contains the full installation output with timestamps. If an error occurs, the exact line number is recorded in the log.\n\n---\n\n## To Do\n\n- Add PhoneInfoga as a replacement for Moriarty-Project\n- Add Katana or GoSpider as a replacement for Photon\n- Update LibreOffice report templates for OSINT investigations\n- Complete end-to-end testing on Ubuntu Budgie 24.04 LTS VM\n- Add shortcuts for holehe, maigret standalone, and blackbird standalone\n\n---\n\n## Resources\n\n- [OSIntOps website](https://osintops.com/en/)\n- [Argos project presentation (Italian)](https://osintops.com/progetto-argos/)\n- [OSInt Daily News](https://t.me/Osintlatestnews)\n- [Open Source Intelligence Techniques by Michael Bazzell](https://inteltechniques.com/book1.html)\n\n---\n\n## Credits\n\n- Skykn0t for the original OSINT_VM_Setup script\n- [oh6hay](https://github.com/oh6hay) for the script name\n- [pinkevilpimp](https://github.com/pinkevilpimp) for the wallpaper script\n\n---\n\n## Licences\n\nSee the licence files included in the repository.\n",
+    "ContentSha": "GAm/4ijNm9Ack7neyrowM1zQhIv5/xgbYHB/Zod666U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "ログにはタイムスタンプ付きの完全なインストール出力が含まれています。エラーが発生した場合、正確な行番号がログに記録されます。\n\n---\n\n## やること\n\n- Moriarty-Projectの代替としてPhoneInfogaを追加\n- Photonの代替としてKatanaまたはGoSpiderを追加\n- OSINT調査用のLibreOfficeレポートテンプレートを更新\n- Ubuntu Budgie 24.04 LTS VMでのエンドツーエンドテストを完了\n- holehe、maigretスタンドアロン、blackbirdスタンドアロンのショートカットを追加\n\n---\n\n## リソース\n\n- [OSIntOpsウェブサイト](https://osintops.com/en/)\n- [Argosプロジェクト紹介（イタリア語）](https://osintops.com/progetto-argos/)\n- [OSIntデイリーニュース](https://t.me/Osintlatestnews)\n- [Michael BazzellによるOpen Source Intelligence Techniques](https://inteltechniques.com/book1.html)\n\n---\n\n## クレジット\n\n- オリジナルのOSINT_VM_Setupスクリプト作成者 Skykn0t\n- スクリプト名提供者 [oh6hay](https://github.com/oh6hay)\n- 壁紙スクリプト作成者 [pinkevilpimp](https://github.com/pinkevilpimp)\n\n---\n\n## ライセンス\n\nリポジトリに含まれるライセンスファイルをご覧ください。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ログにはタイムスタンプ付きの完全なインストール出力が含まれています。エラーが発生した場合、正確な行番号がログに記録されます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "D93q0TaIwk750a4RpSU3KvYrqDFkW6gKRVg2oPpYleI=",
+        "originContent": "The log contains the full installation output with timestamps. If an error occurs, the exact line number is recorded in the log.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## やること"
+      },
+      {
+        "row": 6,
+        "rowsha": "oTfayJKeRZcOOOzc80qxrJY8REFMJbgGkCex4bM30hU=",
+        "originContent": "## To Do",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Moriarty-Projectの代替としてPhoneInfogaを追加"
+      },
+      {
+        "row": 8,
+        "rowsha": "JfwVIff/EFH0Ts7w5zR7ZaMd3DC9OlcwUJPfZInwwRg=",
+        "originContent": "- Add PhoneInfoga as a replacement for Moriarty-Project",
+        "translatedContent": "- Photonの代替としてKatanaまたはGoSpiderを追加"
+      },
+      {
+        "row": 9,
+        "rowsha": "f0dbXdI7Q4fFYs898/aCPmrAR8bHIKiQcDU8cNLLTLo=",
+        "originContent": "- Add Katana or GoSpider as a replacement for Photon",
+        "translatedContent": "- OSINT調査用のLibreOfficeレポートテンプレートを更新"
+      },
+      {
+        "row": 10,
+        "rowsha": "96FAOTlhO+BT/ZkWoxNpRqThVvuL0rwwQGDzsO+ezTM=",
+        "originContent": "- Update LibreOffice report templates for OSINT investigations",
+        "translatedContent": "- Ubuntu Budgie 24.04 LTS VMでのエンドツーエンドテストを完了"
+      },
+      {
+        "row": 11,
+        "rowsha": "2W4pQ8iJ4OJ3/dkDrdAB38Y0UNU75heKt5NrLWh/3IA=",
+        "originContent": "- Complete end-to-end testing on Ubuntu Budgie 24.04 LTS VM",
+        "translatedContent": "- holehe、maigretスタンドアロン、blackbirdスタンドアロンのショートカットを追加"
+      },
+      {
+        "row": 12,
+        "rowsha": "0gVfpTntJHejRuo3QkNaVUG8OWuSx3KibDijnNMShsw=",
+        "originContent": "- Add shortcuts for holehe, maigret standalone, and blackbird standalone",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## リソース"
+      },
+      {
+        "row": 16,
+        "rowsha": "dcYhHej4lR6AN9ECiePl0Bd7ihcrWTNFAGtbQqjgjg4=",
+        "originContent": "## Resources",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [OSIntOpsウェブサイト](https://osintops.com/en/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "lZOQfdlnTxj4nvrXlZKahU2YjDHvqvr4vzpkfKHji7c=",
+        "originContent": "- [OSIntOps website](https://osintops.com/en/)",
+        "translatedContent": "- [Argosプロジェクト紹介（イタリア語）](https://osintops.com/progetto-argos/)"
+      },
+      {
+        "row": 19,
+        "rowsha": "T+3kOmkQVae85PnrdWqim3KrWDDOKTGyUmvV2pRQGZY=",
+        "originContent": "- [Argos project presentation (Italian)](https://osintops.com/progetto-argos/)",
+        "translatedContent": "- [OSIntデイリーニュース](https://t.me/Osintlatestnews)"
+      },
+      {
+        "row": 20,
+        "rowsha": "iX4SLJQxdISWakyXJtCVkSjHwpvyOAL7wIiQytRg9hU=",
+        "originContent": "- [OSInt Daily News](https://t.me/Osintlatestnews)",
+        "translatedContent": "- [Michael BazzellによるOpen Source Intelligence Techniques](https://inteltechniques.com/book1.html)"
+      },
+      {
+        "row": 21,
+        "rowsha": "6defqv6X/D9M2paaLFHX9j6pfSfjKR6Rj5wYhQgV1gQ=",
+        "originContent": "- [Open Source Intelligence Techniques by Michael Bazzell](https://inteltechniques.com/book1.html)",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## クレジット"
+      },
+      {
+        "row": 25,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- オリジナルのOSINT_VM_Setupスクリプト作成者 Skykn0t"
+      },
+      {
+        "row": 27,
+        "rowsha": "B8MGH8ywZP7Or2i+ZTootYxx2Ow1+6ks7/Q+h15URaw=",
+        "originContent": "- Skykn0t for the original OSINT_VM_Setup script",
+        "translatedContent": "- スクリプト名提供者 [oh6hay](https://github.com/oh6hay)"
+      },
+      {
+        "row": 28,
+        "rowsha": "yUnA68klqK65g0AL5sCSWigBr6nxkCRFoe9ihUrYnvw=",
+        "originContent": "- [oh6hay](https://github.com/oh6hay) for the script name",
+        "translatedContent": "- 壁紙スクリプト作成者 [pinkevilpimp](https://github.com/pinkevilpimp)"
+      },
+      {
+        "row": 29,
+        "rowsha": "5r/VOT7AzAcqtjFvbWzwFB16rl1J1CRZIoTijsAwrWo=",
+        "originContent": "- [pinkevilpimp](https://github.com/pinkevilpimp) for the wallpaper script",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 31,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 33,
+        "rowsha": "CllB38VBQ96fk6Xhw9rImI0NKIrtQYlHyWMS9J2a+io=",
+        "originContent": "## Licences",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "リポジトリに含まれるライセンスファイルをご覧ください。"
+      },
+      {
+        "row": 35,
+        "rowsha": "w5Zt5Ovps0oHdsCAKExO2VL62ZXyGENGGRNX1TNsUi8=",
+        "originContent": "See the licence files included in the repository.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

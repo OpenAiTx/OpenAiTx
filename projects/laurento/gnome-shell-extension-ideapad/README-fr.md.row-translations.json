@@ -1,0 +1,290 @@
+[
+  {
+    "row": 1,
+    "rowsha": "24r78FVdtxi11rdRtJYvkBQnXOiE9AyYo9lxKMU7uBY=",
+    "originContent": "# gnome-shell-extension-ideapad",
+    "translatedContent": "# gnome-shell-extension-ideapad"
+  },
+  {
+    "row": 2,
+    "rowsha": "b7Qt0p+U0ukJJf/SCQ+O02mgTwdWWiTvEP07wdP+h7k=",
+    "originContent": "Lenovo IdeaPad goodies for GNOME Shell",
+    "translatedContent": "Fonctionnalités Lenovo IdeaPad pour GNOME Shell"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "AiwNZh2T07a0tMyvcYLj7FVZvXSKXdRiy0LTKdFyCas=",
+    "originContent": "*At the moment the extension only provides an easy and user-friendly way to toggle the battery conservation mode available on Levono Ideapad laptops and visually get its current state.*",
+    "translatedContent": "*Pour le moment, l’extension offre uniquement un moyen simple et convivial d’activer/désactiver le mode de conservation de la batterie disponible sur les ordinateurs portables Lenovo Ideapad et de visualiser son état actuel.*"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+    "originContent": "# Installation",
+    "translatedContent": "# Installation"
+  },
+  {
+    "row": 7,
+    "rowsha": "azqF1qCZDisimxhWgiUB+W45WRyepGozb4n0QRihS/M=",
+    "originContent": "Simply install the extension from the [official GNOME extensions website](https://extensions.gnome.org/extension/2992/ideapad/) (recommended). Alternatively, manually download or clone the repository under `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella`",
+    "translatedContent": "Installez simplement l’extension depuis le [site officiel des extensions GNOME](https://extensions.gnome.org/extension/2992/ideapad/) (recommandé). Alternativement, téléchargez ou clonez manuellement le dépôt sous `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella`"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "9umda6X9XplBEyXD9AqQ+U9ODuXaAuc/8GqJ/dz7Ji0=",
+    "originContent": "In both cases, few additional steps are required. Please check the dedicate following section.",
+    "translatedContent": "Dans les deux cas, quelques étapes supplémentaires sont nécessaires. Veuillez consulter la section dédiée suivante."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "+PYZu2QgwbFBO2fq1ZErZFIvRlPAGBxsprUZ2PUnW1I=",
+    "originContent": "In case you would like to have a look at the code, please consider that `master` branch targets the latest stable version of GNOME Shell. Previous versions are still supported in dedicated branches (e.g. `pre-43`).",
+    "translatedContent": "Si vous souhaitez consulter le code, sachez que la branche `master` cible la dernière version stable de GNOME Shell. Les versions antérieures sont toujours prises en charge dans des branches dédiées (par exemple `pre-43`)."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+    "originContent": "# Usage",
+    "translatedContent": "# Utilisation"
+  },
+  {
+    "row": 14,
+    "rowsha": "Yf/P9wTBek2z6T6jPH7Tj8O1UWl+Ci+M67/DkSuYefk=",
+    "originContent": "The extension adds a new entry *Toggle Conservation Mode* to the panel and shows an icon on the status menu to indicate when the battery conservation mode is enabled.",
+    "translatedContent": "L’extension ajoute une nouvelle entrée *Basculer le mode de conservation* au panneau et affiche une icône dans le menu d’état pour indiquer lorsque le mode de conservation de la batterie est activé."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "wJjeWMIw3+U1sbuaBRRaNd5FKLj/nA5ScxbkT4z5tIo=",
+    "originContent": "If your particular laptop model supports it, the conservation mode limits battery charging to 55-60% of its capacity to improve battery life. It is particularly useful when the laptop runs on external power most of the time.",
+    "translatedContent": "Si votre modèle d’ordinateur portable le supporte, le mode de conservation limite la charge de la batterie à 55-60 % de sa capacité pour prolonger sa durée de vie. Il est particulièrement utile lorsque l’ordinateur portable fonctionne principalement sur alimentation externe."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "ulc15NkiXQbayNLjoZr7nyV6/QMUHiBRZSxvpDVVsSg=",
+    "originContent": "| GNOME Shell < 43    | GNOME Shell >= 43      |",
+    "translatedContent": "| GNOME Shell < 43    | GNOME Shell >= 43      |"
+  },
+  {
+    "row": 19,
+    "rowsha": "BEb1wynOR1nmMN07Eto3HSj0eFbfMhQVyftLlFIqPJQ=",
+    "originContent": "|---------------------|------------------------|",
+    "translatedContent": "|---------------------|------------------------|"
+  },
+  {
+    "row": 20,
+    "rowsha": "tdXwBpDZLjkDfn+KG+2/zpP8gYfL3Dq6NnU3RtPlvOk=",
+    "originContent": "| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "j6xDuWxomKWoDNLxHdY5UM7hSzZS6ijGIg5A4Cm3TEM=",
+    "originContent": "# Additional Required Settings",
+    "translatedContent": "# Paramètres supplémentaires requis"
+  },
+  {
+    "row": 23,
+    "rowsha": "pQMcLbAeO4ut/W8tlMzVzIwXVbk+W6+gIrg+CWCzzis=",
+    "originContent": "Your desktop user needs read-and-write access to a specific sysfs file that is normally owned by the root user. The easiest way to achieve that is using `sudo`. The following steps have been tested on Debian, but they should work on any modern GNU/Linux system. In case of doubts, please refer to your specific distribution documentation.",
+    "translatedContent": "Votre utilisateur de bureau doit avoir un accès en lecture-écriture à un fichier sysfs spécifique normalement possédé par l’utilisateur root. Le moyen le plus simple d’y parvenir est d’utiliser `sudo`. Les étapes suivantes ont été testées sur Debian, mais elles devraient fonctionner sur tout système GNU/Linux moderne. En cas de doute, référez-vous à la documentation spécifique de votre distribution."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "0AmmEC18gwvghFqmgkyAy0m8Un25h7FExrn8XgSY3Tk=",
+    "originContent": "* Depending on your distro, you need to use the group `sudo` (e.g. Debian and Ubuntu) or `wheel` (e.g. Arch and Fedora) here. In case of doubt, run the command `groups` in a terminal and see which of the two is listed in the output.",
+    "translatedContent": "* Selon votre distribution, vous devez utiliser le groupe `sudo` (par exemple Debian et Ubuntu) ou `wheel` (par exemple Arch et Fedora). En cas de doute, exécutez la commande `groups` dans un terminal et voyez lequel des deux est listé dans la sortie."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "w8R9GsJGwKwAb8ZA/BxprJZfJdb258bf2XGhpNlg8jQ=",
+    "originContent": "  Add the following entry to your system sudoers configuration (e.g. `/etc/sudoers.d/ideapad`). **Make sure to replace** `%sudo` with `%wheel` if needed.",
+    "translatedContent": "  Ajoutez l’entrée suivante à la configuration sudoers de votre système (par exemple `/etc/sudoers.d/ideapad`). **Veillez à remplacer** `%sudo` par `%wheel` si nécessaire."
+  },
+  {
+    "row": 28,
+    "rowsha": "sN0Bk9ltVLQE6oGgj++RtpyoaUVas7y6VsoplNU6ZJU=",
+    "originContent": "  ~~~",
+    "translatedContent": "  ~~~"
+  },
+  {
+    "row": 29,
+    "rowsha": "AeNeBzFesKvA2TN6t/wkJQw0f4yOcBdQFboZ9bFfjMk=",
+    "originContent": "  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode",
+    "translatedContent": "  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode"
+  },
+  {
+    "row": 30,
+    "rowsha": "sN0Bk9ltVLQE6oGgj++RtpyoaUVas7y6VsoplNU6ZJU=",
+    "originContent": "  ~~~",
+    "translatedContent": "  ~~~"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "smpPEBBXzJMytJg/4OabrX54m48CgnjaqihdzDHpCgI=",
+    "originContent": "* To make sure the `ideapad_laptop` kernel module gets loaded automatically at boot, simply add it to the file `/etc/modules`",
+    "translatedContent": "* Pour s’assurer que le module noyau `ideapad_laptop` soit chargé automatiquement au démarrage, ajoutez-le simplement au fichier `/etc/modules`"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "37Qozp1od2nYyYkZsLG8OcNJh/r7UKKux5VtcaF2c00=",
+    "originContent": "To summarize and for easy reference...",
+    "translatedContent": "Pour résumer et pour référence rapide..."
+  },
+  {
+    "row": 35,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 36,
+    "rowsha": "fQl9CM8EXO3JlgGjpupcwyO+qtbSet8XKgrcKBWk5js=",
+    "originContent": "# Don't forget to replace %sudo with %wheel if needed!",
+    "translatedContent": "# N’oubliez pas de remplacer %sudo par %wheel si nécessaire !"
+  },
+  {
+    "row": 37,
+    "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+    "originContent": "#",
+    "translatedContent": "#"
+  },
+  {
+    "row": 38,
+    "rowsha": "zK50TzsOWuu0HN5utFrQNK2gBofWLKXt4yM1pvL5cqU=",
+    "originContent": "$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad",
+    "translatedContent": "$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad"
+  },
+  {
+    "row": 39,
+    "rowsha": "DYXYxlHFTiknUfq9BWmEWjm/m0g/i+L7kIuddcTrOI0=",
+    "originContent": "$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules",
+    "translatedContent": "$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules"
+  },
+  {
+    "row": 40,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "cownvaHh/gCljM5JTaOKdRRyQdoG1pIH/YMXSNjVhj0=",
+    "originContent": "# Wrong battery estimation displayed",
+    "translatedContent": "# Estimation incorrecte de la batterie affichée"
+  },
+  {
+    "row": 43,
+    "rowsha": "4ZsSDt2Juc04eXHnufohlcQktzGOAWX4INPZIbAHUyw=",
+    "originContent": "Depending on the kernel version you are running, a minor cosmetic issue might still exist. However, if the permanent \"Estimating...\" battery status displayed in GNOME bugs you, there is also a solution.",
+    "translatedContent": "Selon la version du noyau que vous utilisez, un petit problème esthétique peut encore exister. Cependant, si le statut permanent \"Estimation en cours...\" de la batterie affiché dans GNOME vous dérange, il existe également une solution."
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "GiLjG5Wla/5xzNHeAo1HOpkg5xKkdCgX68gHUA3WIBs=",
+    "originContent": "Actually, this issue should be fixed in kernels 5.19+. If you are running an older kernel, you can try applying [the patch here](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07). Thanks to Martino Fontana for pointing this out.",
+    "translatedContent": "En fait, ce problème devrait être corrigé dans les noyaux 5.19+. Si vous utilisez un noyau plus ancien, vous pouvez essayer d'appliquer [le correctif ici](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07). Merci à Martino Fontana de l'avoir signalé."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "2bAiIr7WpfNjnmp+r9o0AcwbCSI8yl9A/PlhkA6Q6wk=",
+    "originContent": "Alternatively, you could use the patch I initially suggested in [this uPower merge request](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46). However, I would personally advice to go for the kernel patch. It is a much cleaner solution.",
+    "translatedContent": "Sinon, vous pouvez utiliser le correctif que j'avais initialement suggéré dans [cette demande de fusion uPower](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46). Toutefois, je conseillerais personnellement d'opter pour le correctif du noyau. C'est une solution bien plus propre."
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

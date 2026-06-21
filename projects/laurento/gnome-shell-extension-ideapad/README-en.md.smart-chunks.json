@@ -1,0 +1,316 @@
+[
+  {
+    "Id": 1,
+    "Content": "# gnome-shell-extension-ideapad\nLenovo IdeaPad goodies for GNOME Shell\n\n*At the moment the extension only provides an easy and user-friendly way to toggle the battery conservation mode available on Levono Ideapad laptops and visually get its current state.*\n\n# Installation\nSimply install the extension from the [official GNOME extensions website](https://extensions.gnome.org/extension/2992/ideapad/) (recommended). Alternatively, manually download or clone the repository under `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella`\n\nIn both cases, few additional steps are required. Please check the dedicate following section.\n\nIn case you would like to have a look at the code, please consider that `master` branch targets the latest stable version of GNOME Shell. Previous versions are still supported in dedicated branches (e.g. `pre-43`).\n\n# Usage\nThe extension adds a new entry *Toggle Conservation Mode* to the panel and shows an icon on the status menu to indicate when the battery conservation mode is enabled.\n\nIf your particular laptop model supports it, the conservation mode limits battery charging to 55-60% of its capacity to improve battery life. It is particularly useful when the laptop runs on external power most of the time.\n\n| GNOME Shell < 43    | GNOME Shell >= 43      |\n|---------------------|------------------------|\n| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |\n\n# Additional Required Settings\nYour desktop user needs read-and-write access to a specific sysfs file that is normally owned by the root user. The easiest way to achieve that is using `sudo`. The following steps have been tested on Debian, but they should work on any modern GNU/Linux system. In case of doubts, please refer to your specific distribution documentation.\n\n* Depending on your distro, you need to use the group `sudo` (e.g. Debian and Ubuntu) or `wheel` (e.g. Arch and Fedora) here. In case of doubt, run the command `groups` in a terminal and see which of the two is listed in the output.\n\n  Add the following entry to your system sudoers configuration (e.g. `/etc/sudoers.d/ideapad`). **Make sure to replace** `%sudo` with `%wheel` if needed.\n  ~~~\n  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\n  ~~~\n\n* To make sure the `ideapad_laptop` kernel module gets loaded automatically at boot, simply add it to the file `/etc/modules`\n\nTo summarize and for easy reference...\n~~~\n# Don't forget to replace %sudo with %wheel if needed!\n#\n$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad\n$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules\n~~~",
+    "ContentSha": "V4yyqCel6EDoT9IKD/cXWQpRaFK6/VhVmbYQVu6zD2I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# gnome-shell-extension-ideapad\nLenovo IdeaPad goodies for GNOME Shell\n\n*At the moment the extension only provides an easy and user-friendly way to toggle the battery conservation mode available on Levono Ideapad laptops and visually get its current state.*\n\n# Installation\nSimply install the extension from the [official GNOME extensions website](https://extensions.gnome.org/extension/2992/ideapad/) (recommended). Alternatively, manually download or clone the repository under `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella`\n\nIn both cases, few additional steps are required. Please check the dedicate following section.\n\nIn case you would like to have a look at the code, please consider that `master` branch targets the latest stable version of GNOME Shell. Previous versions are still supported in dedicated branches (e.g. `pre-43`).\n\n# Usage\nThe extension adds a new entry *Toggle Conservation Mode* to the panel and shows an icon on the status menu to indicate when the battery conservation mode is enabled.\n\nIf your particular laptop model supports it, the conservation mode limits battery charging to 55-60% of its capacity to improve battery life. It is particularly useful when the laptop runs on external power most of the time.\n\n| GNOME Shell < 43    | GNOME Shell >= 43      |\n|---------------------|------------------------|\n| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |\n\n# Additional Required Settings\nYour desktop user needs read-and-write access to a specific sysfs file that is normally owned by the root user. The easiest way to achieve that is using `sudo`. The following steps have been tested on Debian, but they should work on any modern GNU/Linux system. In case of doubts, please refer to your specific distribution documentation.\n\n* Depending on your distro, you need to use the group `sudo` (e.g. Debian and Ubuntu) or `wheel` (e.g. Arch and Fedora) here. In case of doubt, run the command `groups` in a terminal and see which of the two is listed in the output.\n\n  Add the following entry to your system sudoers configuration (e.g. `/etc/sudoers.d/ideapad`). **Make sure to replace** `%sudo` with `%wheel` if needed.\n  ~~~\n  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\n  ~~~\n\n* To make sure the `ideapad_laptop` kernel module gets loaded automatically at boot, simply add it to the file `/etc/modules`\n\nTo summarize and for easy reference...\n~~~\n# Don't forget to replace %sudo with %wheel if needed!\n#\n$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad\n$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules\n~~~",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "24r78FVdtxi11rdRtJYvkBQnXOiE9AyYo9lxKMU7uBY=",
+        "originContent": "# gnome-shell-extension-ideapad",
+        "translatedContent": "# gnome-shell-extension-ideapad"
+      },
+      {
+        "row": 2,
+        "rowsha": "b7Qt0p+U0ukJJf/SCQ+O02mgTwdWWiTvEP07wdP+h7k=",
+        "originContent": "Lenovo IdeaPad goodies for GNOME Shell",
+        "translatedContent": "Lenovo IdeaPad goodies for GNOME Shell"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AiwNZh2T07a0tMyvcYLj7FVZvXSKXdRiy0LTKdFyCas=",
+        "originContent": "*At the moment the extension only provides an easy and user-friendly way to toggle the battery conservation mode available on Levono Ideapad laptops and visually get its current state.*",
+        "translatedContent": "*At the moment the extension only provides an easy and user-friendly way to toggle the battery conservation mode available on Levono Ideapad laptops and visually get its current state.*"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+        "originContent": "# Installation",
+        "translatedContent": "# Installation"
+      },
+      {
+        "row": 7,
+        "rowsha": "azqF1qCZDisimxhWgiUB+W45WRyepGozb4n0QRihS/M=",
+        "originContent": "Simply install the extension from the [official GNOME extensions website](https://extensions.gnome.org/extension/2992/ideapad/) (recommended). Alternatively, manually download or clone the repository under `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella`",
+        "translatedContent": "Simply install the extension from the [official GNOME extensions website](https://extensions.gnome.org/extension/2992/ideapad/) (recommended). Alternatively, manually download or clone the repository under `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "9umda6X9XplBEyXD9AqQ+U9ODuXaAuc/8GqJ/dz7Ji0=",
+        "originContent": "In both cases, few additional steps are required. Please check the dedicate following section.",
+        "translatedContent": "In both cases, few additional steps are required. Please check the dedicate following section."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+PYZu2QgwbFBO2fq1ZErZFIvRlPAGBxsprUZ2PUnW1I=",
+        "originContent": "In case you would like to have a look at the code, please consider that `master` branch targets the latest stable version of GNOME Shell. Previous versions are still supported in dedicated branches (e.g. `pre-43`).",
+        "translatedContent": "In case you would like to have a look at the code, please consider that `master` branch targets the latest stable version of GNOME Shell. Previous versions are still supported in dedicated branches (e.g. `pre-43`)."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# Usage"
+      },
+      {
+        "row": 14,
+        "rowsha": "Yf/P9wTBek2z6T6jPH7Tj8O1UWl+Ci+M67/DkSuYefk=",
+        "originContent": "The extension adds a new entry *Toggle Conservation Mode* to the panel and shows an icon on the status menu to indicate when the battery conservation mode is enabled.",
+        "translatedContent": "The extension adds a new entry *Toggle Conservation Mode* to the panel and shows an icon on the status menu to indicate when the battery conservation mode is enabled."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "wJjeWMIw3+U1sbuaBRRaNd5FKLj/nA5ScxbkT4z5tIo=",
+        "originContent": "If your particular laptop model supports it, the conservation mode limits battery charging to 55-60% of its capacity to improve battery life. It is particularly useful when the laptop runs on external power most of the time.",
+        "translatedContent": "If your particular laptop model supports it, the conservation mode limits battery charging to 55-60% of its capacity to improve battery life. It is particularly useful when the laptop runs on external power most of the time."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ulc15NkiXQbayNLjoZr7nyV6/QMUHiBRZSxvpDVVsSg=",
+        "originContent": "| GNOME Shell < 43    | GNOME Shell >= 43      |",
+        "translatedContent": "| GNOME Shell < 43    | GNOME Shell >= 43      |"
+      },
+      {
+        "row": 19,
+        "rowsha": "BEb1wynOR1nmMN07Eto3HSj0eFbfMhQVyftLlFIqPJQ=",
+        "originContent": "|---------------------|------------------------|",
+        "translatedContent": "|---------------------|------------------------|"
+      },
+      {
+        "row": 20,
+        "rowsha": "tdXwBpDZLjkDfn+KG+2/zpP8gYfL3Dq6NnU3RtPlvOk=",
+        "originContent": "| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |",
+        "translatedContent": "| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "j6xDuWxomKWoDNLxHdY5UM7hSzZS6ijGIg5A4Cm3TEM=",
+        "originContent": "# Additional Required Settings",
+        "translatedContent": "# Additional Required Settings"
+      },
+      {
+        "row": 23,
+        "rowsha": "pQMcLbAeO4ut/W8tlMzVzIwXVbk+W6+gIrg+CWCzzis=",
+        "originContent": "Your desktop user needs read-and-write access to a specific sysfs file that is normally owned by the root user. The easiest way to achieve that is using `sudo`. The following steps have been tested on Debian, but they should work on any modern GNU/Linux system. In case of doubts, please refer to your specific distribution documentation.",
+        "translatedContent": "Your desktop user needs read-and-write access to a specific sysfs file that is normally owned by the root user. The easiest way to achieve that is using `sudo`. The following steps have been tested on Debian, but they should work on any modern GNU/Linux system. In case of doubts, please refer to your specific distribution documentation."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "0AmmEC18gwvghFqmgkyAy0m8Un25h7FExrn8XgSY3Tk=",
+        "originContent": "* Depending on your distro, you need to use the group `sudo` (e.g. Debian and Ubuntu) or `wheel` (e.g. Arch and Fedora) here. In case of doubt, run the command `groups` in a terminal and see which of the two is listed in the output.",
+        "translatedContent": "* Depending on your distro, you need to use the group `sudo` (e.g. Debian and Ubuntu) or `wheel` (e.g. Arch and Fedora) here. In case of doubt, run the command `groups` in a terminal and see which of the two is listed in the output."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "w8R9GsJGwKwAb8ZA/BxprJZfJdb258bf2XGhpNlg8jQ=",
+        "originContent": "  Add the following entry to your system sudoers configuration (e.g. `/etc/sudoers.d/ideapad`). **Make sure to replace** `%sudo` with `%wheel` if needed.",
+        "translatedContent": "  Add the following entry to your system sudoers configuration (e.g. `/etc/sudoers.d/ideapad`). **Make sure to replace** `%sudo` with `%wheel` if needed."
+      },
+      {
+        "row": 28,
+        "rowsha": "sN0Bk9ltVLQE6oGgj++RtpyoaUVas7y6VsoplNU6ZJU=",
+        "originContent": "  ~~~",
+        "translatedContent": "  ~~~"
+      },
+      {
+        "row": 29,
+        "rowsha": "AeNeBzFesKvA2TN6t/wkJQw0f4yOcBdQFboZ9bFfjMk=",
+        "originContent": "  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode",
+        "translatedContent": "  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode"
+      },
+      {
+        "row": 30,
+        "rowsha": "sN0Bk9ltVLQE6oGgj++RtpyoaUVas7y6VsoplNU6ZJU=",
+        "originContent": "  ~~~",
+        "translatedContent": "  ~~~"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "smpPEBBXzJMytJg/4OabrX54m48CgnjaqihdzDHpCgI=",
+        "originContent": "* To make sure the `ideapad_laptop` kernel module gets loaded automatically at boot, simply add it to the file `/etc/modules`",
+        "translatedContent": "* To make sure the `ideapad_laptop` kernel module gets loaded automatically at boot, simply add it to the file `/etc/modules`"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "37Qozp1od2nYyYkZsLG8OcNJh/r7UKKux5VtcaF2c00=",
+        "originContent": "To summarize and for easy reference...",
+        "translatedContent": "To summarize and for easy reference..."
+      },
+      {
+        "row": 35,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 36,
+        "rowsha": "fQl9CM8EXO3JlgGjpupcwyO+qtbSet8XKgrcKBWk5js=",
+        "originContent": "# Don't forget to replace %sudo with %wheel if needed!",
+        "translatedContent": "# Don't forget to replace %sudo with %wheel if needed!"
+      },
+      {
+        "row": 37,
+        "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+        "originContent": "#",
+        "translatedContent": "#"
+      },
+      {
+        "row": 38,
+        "rowsha": "zK50TzsOWuu0HN5utFrQNK2gBofWLKXt4yM1pvL5cqU=",
+        "originContent": "$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad",
+        "translatedContent": "$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad"
+      },
+      {
+        "row": 39,
+        "rowsha": "DYXYxlHFTiknUfq9BWmEWjm/m0g/i+L7kIuddcTrOI0=",
+        "originContent": "$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules",
+        "translatedContent": "$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules"
+      },
+      {
+        "row": 40,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n# Wrong battery estimation displayed\nDepending on the kernel version you are running, a minor cosmetic issue might still exist. However, if the permanent \"Estimating...\" battery status displayed in GNOME bugs you, there is also a solution.\n\nActually, this issue should be fixed in kernels 5.19+. If you are running an older kernel, you can try applying [the patch here](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07). Thanks to Martino Fontana for pointing this out.\n\nAlternatively, you could use the patch I initially suggested in [this uPower merge request](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46). However, I would personally advice to go for the kernel patch. It is a much cleaner solution.\n",
+    "ContentSha": "lCuEMN4Ooz11njEO+jZTOqiE2BdISK1QnLgoGBxrN94=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Wrong battery estimation displayed\nDepending on the kernel version you are running, a minor cosmetic issue might still exist. However, if the permanent \"Estimating...\" battery status displayed in GNOME bugs you, there is also a solution.\n\nActually, this issue should be fixed in kernels 5.19+. If you are running an older kernel, you can try applying [the patch here](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07). Thanks to Martino Fontana for pointing this out.\n\nAlternatively, you could use the patch I initially suggested in [this uPower merge request](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46). However, I would personally advise going for the kernel patch. It is a much cleaner solution.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Wrong battery estimation displayed"
+      },
+      {
+        "row": 2,
+        "rowsha": "cownvaHh/gCljM5JTaOKdRRyQdoG1pIH/YMXSNjVhj0=",
+        "originContent": "# Wrong battery estimation displayed",
+        "translatedContent": "Depending on the kernel version you are running, a minor cosmetic issue might still exist. However, if the permanent \"Estimating...\" battery status displayed in GNOME bugs you, there is also a solution."
+      },
+      {
+        "row": 3,
+        "rowsha": "4ZsSDt2Juc04eXHnufohlcQktzGOAWX4INPZIbAHUyw=",
+        "originContent": "Depending on the kernel version you are running, a minor cosmetic issue might still exist. However, if the permanent \"Estimating...\" battery status displayed in GNOME bugs you, there is also a solution.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Actually, this issue should be fixed in kernels 5.19+. If you are running an older kernel, you can try applying [the patch here](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07). Thanks to Martino Fontana for pointing this out."
+      },
+      {
+        "row": 5,
+        "rowsha": "GiLjG5Wla/5xzNHeAo1HOpkg5xKkdCgX68gHUA3WIBs=",
+        "originContent": "Actually, this issue should be fixed in kernels 5.19+. If you are running an older kernel, you can try applying [the patch here](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07). Thanks to Martino Fontana for pointing this out.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Alternatively, you could use the patch I initially suggested in [this uPower merge request](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46). However, I would personally advise going for the kernel patch. It is a much cleaner solution."
+      },
+      {
+        "row": 7,
+        "rowsha": "2bAiIr7WpfNjnmp+r9o0AcwbCSI8yl9A/PlhkA6Q6wk=",
+        "originContent": "Alternatively, you could use the patch I initially suggested in [this uPower merge request](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46). However, I would personally advice to go for the kernel patch. It is a much cleaner solution.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

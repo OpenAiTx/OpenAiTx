@@ -1,0 +1,290 @@
+[
+  {
+    "row": 1,
+    "rowsha": "24r78FVdtxi11rdRtJYvkBQnXOiE9AyYo9lxKMU7uBY=",
+    "originContent": "# gnome-shell-extension-ideapad",
+    "translatedContent": "# gnome-shell-extension-ideapad"
+  },
+  {
+    "row": 2,
+    "rowsha": "b7Qt0p+U0ukJJf/SCQ+O02mgTwdWWiTvEP07wdP+h7k=",
+    "originContent": "Lenovo IdeaPad goodies for GNOME Shell",
+    "translatedContent": "Lenovo IdeaPad를 위한 GNOME Shell 기능"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "AiwNZh2T07a0tMyvcYLj7FVZvXSKXdRiy0LTKdFyCas=",
+    "originContent": "*At the moment the extension only provides an easy and user-friendly way to toggle the battery conservation mode available on Levono Ideapad laptops and visually get its current state.*",
+    "translatedContent": "*현재 이 확장 기능은 Lenovo IdeaPad 노트북에서 제공되는 배터리 절약 모드를 쉽게 전환할 수 있는 사용자 친화적인 방법과 현재 상태를 시각적으로 표시하는 기능만 제공합니다.*"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+    "originContent": "# Installation",
+    "translatedContent": "# 설치"
+  },
+  {
+    "row": 7,
+    "rowsha": "azqF1qCZDisimxhWgiUB+W45WRyepGozb4n0QRihS/M=",
+    "originContent": "Simply install the extension from the [official GNOME extensions website](https://extensions.gnome.org/extension/2992/ideapad/) (recommended). Alternatively, manually download or clone the repository under `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella`",
+    "translatedContent": "[공식 GNOME 확장 웹사이트](https://extensions.gnome.org/extension/2992/ideapad/)에서 확장 기능을 간단히 설치하세요(권장). 또는 저장소를 수동으로 다운로드하거나 클론하여 `~/.local/share/gnome-shell/extensions/ideapad@laurento.frittella` 아래에 위치시킬 수 있습니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "9umda6X9XplBEyXD9AqQ+U9ODuXaAuc/8GqJ/dz7Ji0=",
+    "originContent": "In both cases, few additional steps are required. Please check the dedicate following section.",
+    "translatedContent": "두 경우 모두 몇 가지 추가 단계가 필요합니다. 전용 섹션을 확인해 주세요."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "+PYZu2QgwbFBO2fq1ZErZFIvRlPAGBxsprUZ2PUnW1I=",
+    "originContent": "In case you would like to have a look at the code, please consider that `master` branch targets the latest stable version of GNOME Shell. Previous versions are still supported in dedicated branches (e.g. `pre-43`).",
+    "translatedContent": "코드를 직접 보고 싶다면, `master` 브랜치는 최신 안정 버전의 GNOME Shell을 대상으로 합니다. 이전 버전은 전용 브랜치(e.g. `pre-43`)에서 여전히 지원됩니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+    "originContent": "# Usage",
+    "translatedContent": "# 사용법"
+  },
+  {
+    "row": 14,
+    "rowsha": "Yf/P9wTBek2z6T6jPH7Tj8O1UWl+Ci+M67/DkSuYefk=",
+    "originContent": "The extension adds a new entry *Toggle Conservation Mode* to the panel and shows an icon on the status menu to indicate when the battery conservation mode is enabled.",
+    "translatedContent": "확장 기능은 패널에 *절약 모드 전환(Toggle Conservation Mode)* 새 항목을 추가하고, 배터리 절약 모드가 활성화되었을 때 상태 메뉴에 아이콘을 표시합니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "wJjeWMIw3+U1sbuaBRRaNd5FKLj/nA5ScxbkT4z5tIo=",
+    "originContent": "If your particular laptop model supports it, the conservation mode limits battery charging to 55-60% of its capacity to improve battery life. It is particularly useful when the laptop runs on external power most of the time.",
+    "translatedContent": "특정 노트북 모델이 지원하는 경우, 절약 모드는 배터리 충전을 용량의 55-60%로 제한하여 배터리 수명을 향상시킵니다. 노트북이 대부분 외부 전원으로 작동할 때 특히 유용합니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "ulc15NkiXQbayNLjoZr7nyV6/QMUHiBRZSxvpDVVsSg=",
+    "originContent": "| GNOME Shell < 43    | GNOME Shell >= 43      |",
+    "translatedContent": "| GNOME Shell < 43    | GNOME Shell >= 43      |"
+  },
+  {
+    "row": 19,
+    "rowsha": "BEb1wynOR1nmMN07Eto3HSj0eFbfMhQVyftLlFIqPJQ=",
+    "originContent": "|---------------------|------------------------|",
+    "translatedContent": "|---------------------|------------------------|"
+  },
+  {
+    "row": 20,
+    "rowsha": "tdXwBpDZLjkDfn+KG+2/zpP8gYfL3Dq6NnU3RtPlvOk=",
+    "originContent": "| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot.png) | ![](https://raw.githubusercontent.com/laurento/gnome-shell-extension-ideapad/master/screenshot-43.png) |"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "j6xDuWxomKWoDNLxHdY5UM7hSzZS6ijGIg5A4Cm3TEM=",
+    "originContent": "# Additional Required Settings",
+    "translatedContent": "# 추가 필수 설정"
+  },
+  {
+    "row": 23,
+    "rowsha": "pQMcLbAeO4ut/W8tlMzVzIwXVbk+W6+gIrg+CWCzzis=",
+    "originContent": "Your desktop user needs read-and-write access to a specific sysfs file that is normally owned by the root user. The easiest way to achieve that is using `sudo`. The following steps have been tested on Debian, but they should work on any modern GNU/Linux system. In case of doubts, please refer to your specific distribution documentation.",
+    "translatedContent": "데스크탑 사용자는 일반적으로 루트 사용자 소유인 특정 sysfs 파일에 읽기-쓰기 권한이 필요합니다. 가장 쉬운 방법은 `sudo`를 사용하는 것입니다. 다음 단계는 Debian에서 테스트되었지만, 현대 GNU/Linux 시스템에서는 모두 작동해야 합니다. 의심스러운 경우 배포판 문서를 참조하세요."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "0AmmEC18gwvghFqmgkyAy0m8Un25h7FExrn8XgSY3Tk=",
+    "originContent": "* Depending on your distro, you need to use the group `sudo` (e.g. Debian and Ubuntu) or `wheel` (e.g. Arch and Fedora) here. In case of doubt, run the command `groups` in a terminal and see which of the two is listed in the output.",
+    "translatedContent": "* 배포판에 따라 `sudo` 그룹(e.g. Debian 및 Ubuntu) 또는 `wheel` 그룹(e.g. Arch 및 Fedora)을 사용해야 합니다. 의심될 경우 터미널에서 `groups` 명령을 실행하여 두 그룹 중 어떤 것이 나오는지 확인하세요."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "w8R9GsJGwKwAb8ZA/BxprJZfJdb258bf2XGhpNlg8jQ=",
+    "originContent": "  Add the following entry to your system sudoers configuration (e.g. `/etc/sudoers.d/ideapad`). **Make sure to replace** `%sudo` with `%wheel` if needed.",
+    "translatedContent": "  시스템 sudoers 구성(e.g. `/etc/sudoers.d/ideapad`)에 다음 항목을 추가하세요. **필요 시 `%sudo`를 `%wheel`로 바꾸는 것을 잊지 마세요.**"
+  },
+  {
+    "row": 28,
+    "rowsha": "sN0Bk9ltVLQE6oGgj++RtpyoaUVas7y6VsoplNU6ZJU=",
+    "originContent": "  ~~~",
+    "translatedContent": "  ~~~"
+  },
+  {
+    "row": 29,
+    "rowsha": "AeNeBzFesKvA2TN6t/wkJQw0f4yOcBdQFboZ9bFfjMk=",
+    "originContent": "  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode",
+    "translatedContent": "  %sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode"
+  },
+  {
+    "row": 30,
+    "rowsha": "sN0Bk9ltVLQE6oGgj++RtpyoaUVas7y6VsoplNU6ZJU=",
+    "originContent": "  ~~~",
+    "translatedContent": "  ~~~"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "smpPEBBXzJMytJg/4OabrX54m48CgnjaqihdzDHpCgI=",
+    "originContent": "* To make sure the `ideapad_laptop` kernel module gets loaded automatically at boot, simply add it to the file `/etc/modules`",
+    "translatedContent": "* `ideapad_laptop` 커널 모듈이 부팅 시 자동으로 로드되도록 하려면, `/etc/modules` 파일에 해당 모듈을 추가하세요."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "37Qozp1od2nYyYkZsLG8OcNJh/r7UKKux5VtcaF2c00=",
+    "originContent": "To summarize and for easy reference...",
+    "translatedContent": "요약 및 참고용으로..."
+  },
+  {
+    "row": 35,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 36,
+    "rowsha": "fQl9CM8EXO3JlgGjpupcwyO+qtbSet8XKgrcKBWk5js=",
+    "originContent": "# Don't forget to replace %sudo with %wheel if needed!",
+    "translatedContent": "# 필요 시 %sudo를 %wheel로 바꾸는 것을 잊지 마세요!"
+  },
+  {
+    "row": 37,
+    "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+    "originContent": "#",
+    "translatedContent": "#"
+  },
+  {
+    "row": 38,
+    "rowsha": "zK50TzsOWuu0HN5utFrQNK2gBofWLKXt4yM1pvL5cqU=",
+    "originContent": "$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad",
+    "translatedContent": "$ echo \"%sudo ALL=(ALL) NOPASSWD: /usr/bin/tee /sys/bus/platform/drivers/ideapad_acpi/VPC????\\:??/conservation_mode\" | sudo tee /etc/sudoers.d/ideapad"
+  },
+  {
+    "row": 39,
+    "rowsha": "DYXYxlHFTiknUfq9BWmEWjm/m0g/i+L7kIuddcTrOI0=",
+    "originContent": "$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules",
+    "translatedContent": "$ echo \"ideapad_laptop\" | sudo tee -a /etc/modules"
+  },
+  {
+    "row": 40,
+    "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+    "originContent": "~~~",
+    "translatedContent": "~~~"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 잘못된 배터리 추정 표시"
+  },
+  {
+    "row": 42,
+    "rowsha": "cownvaHh/gCljM5JTaOKdRRyQdoG1pIH/YMXSNjVhj0=",
+    "originContent": "# Wrong battery estimation displayed",
+    "translatedContent": "사용 중인 커널 버전에 따라 사소한 미관상의 문제가 여전히 존재할 수 있습니다. 그러나 GNOME에서 영구적으로 \"추정 중...\" 배터리 상태가 표시되어 불편하다면 해결책도 있습니다."
+  },
+  {
+    "row": 43,
+    "rowsha": "4ZsSDt2Juc04eXHnufohlcQktzGOAWX4INPZIbAHUyw=",
+    "originContent": "Depending on the kernel version you are running, a minor cosmetic issue might still exist. However, if the permanent \"Estimating...\" battery status displayed in GNOME bugs you, there is also a solution.",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "사실 이 문제는 커널 5.19 이상에서 수정되어야 합니다. 구버전 커널을 사용 중이라면 [여기 패치](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07)를 적용해 볼 수 있습니다. 이 점을 알려준 Martino Fontana에게 감사드립니다."
+  },
+  {
+    "row": 45,
+    "rowsha": "GiLjG5Wla/5xzNHeAo1HOpkg5xKkdCgX68gHUA3WIBs=",
+    "originContent": "Actually, this issue should be fixed in kernels 5.19+. If you are running an older kernel, you can try applying [the patch here](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=185d20694a8aceb4eda9fc1314cbaad0df0aab07). Thanks to Martino Fontana for pointing this out.",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는 제가 처음 제안한 [이 uPower 병합 요청](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46)에 있는 패치를 사용할 수도 있습니다. 하지만 개인적으로는 커널 패치를 권장합니다. 훨씬 깔끔한 해결책이기 때문입니다."
+  },
+  {
+    "row": 47,
+    "rowsha": "2bAiIr7WpfNjnmp+r9o0AcwbCSI8yl9A/PlhkA6Q6wk=",
+    "originContent": "Alternatively, you could use the patch I initially suggested in [this uPower merge request](https://gitlab.freedesktop.org/upower/upower/-/merge_requests/46). However, I would personally advice to go for the kernel patch. It is a much cleaner solution.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

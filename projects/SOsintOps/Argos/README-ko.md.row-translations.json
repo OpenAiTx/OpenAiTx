@@ -1,0 +1,1028 @@
+[
+  {
+    "row": 1,
+    "rowsha": "J/PNyr0fXRataAtr2hHQdiM0oOYUMUlxf+Xpf5ChQdo=",
+    "originContent": "# ARGOS — Beta",
+    "translatedContent": "# ARGOS — 베타"
+  },
+  {
+    "row": 2,
+    "rowsha": "9u5N9rtEXIUVEFD1tFLLnCN4IDckVMBHOufmM4thsAo=",
+    "originContent": "<img align=\"right\" width=\"86\" height=\"150\" src=\"https://github.com/SOsintOps/Argos/blob/master/multimedia/images/scribblenauts-argos.png\">",
+    "translatedContent": "<img align=\"right\" width=\"86\" height=\"150\" src=\"https://github.com/SOsintOps/Argos/blob/master/multimedia/images/scribblenauts-argos.png\">"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "QnFJWucMVvRLxF2cFLIwPSBK9OlraoP6oGLeXqtZjYg=",
+    "originContent": "> **WARNING: BETA VERSION**",
+    "translatedContent": "> **경고: 베타 버전**"
+  },
+  {
+    "row": 5,
+    "rowsha": "jsce2w2vWg4snUTTmeERq/LgcjTgFNFQU/Zu4M9fJSs=",
+    "originContent": "> This script has been updated for Ubuntu 24.04 LTS and Ubuntu Budgie 24.04 LTS.",
+    "translatedContent": "> 이 스크립트는 Ubuntu 24.04 LTS와 Ubuntu Budgie 24.04 LTS용으로 업데이트되었습니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "wlPhB9DwV9HbNMks4gzCGY05FYP3kwzgINSA6+DTrBg=",
+    "originContent": "> It is under active testing. Always run it on a clean VM before using it in production.",
+    "translatedContent": "> 현재 적극적으로 테스트 중입니다. 사용 전에 항상 깨끗한 VM에서 실행하세요."
+  },
+  {
+    "row": 7,
+    "rowsha": "zZHh7Uel4QQw8tvJCMPvt2d9vVmuvQled1fPzMT5ylk=",
+    "originContent": "> Report any problems by opening an issue.",
+    "translatedContent": "> 문제 발생 시 이슈를 열어 보고해 주세요."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "cILngmvNC4L5Ytj83Gvg3UwoHGtic8//R2IA6L+kb/k=",
+    "originContent": "Argos automatically configures an open-source OSINT workstation from a clean Ubuntu 24.04 LTS virtual machine.",
+    "translatedContent": "Argos는 깨끗한 Ubuntu 24.04 LTS 가상 머신에서 오픈 소스 OSINT 워크스테이션을 자동으로 구성합니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "XHJAu3dzYvIDeVP8kVUTZVwwNr/HWcme04Ft8vQNU3k=",
+    "originContent": "Best practice recommends using a dedicated VM for each OSINT investigation.",
+    "translatedContent": "최선의 방법은 각 OSINT 조사마다 전용 VM을 사용하는 것입니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "WEZHRgJ9sUVDO8XiL01+WCHpPiN0qNKRDAxA+gNr2kQ=",
+    "originContent": "This script follows the methods described by Michael Bazzell in [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html).",
+    "translatedContent": "이 스크립트는 Michael Bazzell의 [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html)에서 설명한 방법을 따릅니다."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "Yk5cZ3S6lnsBfRjsT/4ud8HP+iWBYqbxG0YlzTcI+ew=",
+    "originContent": "## Contents",
+    "translatedContent": "## 목차"
+  },
+  {
+    "row": 15,
+    "rowsha": "qNrl27qsv0ZwGdVt+bM00bMPVtSnSnR4DeQhqB6obhE=",
+    "originContent": "- [Requirements](#requirements)",
+    "translatedContent": "- [요구 사항](#requirements)"
+  },
+  {
+    "row": 16,
+    "rowsha": "N6zLaONIghXA79XX1vL4d+jaYVck+ampdbQ19Bn0wI8=",
+    "originContent": "- [Tools](#tools)",
+    "translatedContent": "- [도구](#tools)"
+  },
+  {
+    "row": 17,
+    "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+    "originContent": "- [Installation](#installation)",
+    "translatedContent": "- [설치](#installation)"
+  },
+  {
+    "row": 18,
+    "rowsha": "vHag+Zmtv9vfnpwlUUszmRAIsYoRZEKYgO2QVvjIpPo=",
+    "originContent": "- [Installation Log](#installation-log)",
+    "translatedContent": "- [설치 로그](#installation-log)"
+  },
+  {
+    "row": 19,
+    "rowsha": "HoaxWx/DpEwUG9c6OlGREnjlXAPWkIRNXMApAaXpQGU=",
+    "originContent": "- [To Do](#to-do)",
+    "translatedContent": "- [할 일](#to-do)"
+  },
+  {
+    "row": 20,
+    "rowsha": "zG3KT2CD1F3w48VwBUJA+4tQKeJbTxaZxaBXKaCVVtc=",
+    "originContent": "- [Resources](#resources)",
+    "translatedContent": "- [자료](#resources)"
+  },
+  {
+    "row": 21,
+    "rowsha": "lQGUCOQ/xOEbYz+qSEoqBl0sddngw6cTjfCUohSdCl4=",
+    "originContent": "- [Credits](#credits)",
+    "translatedContent": "- [크레딧](#credits)"
+  },
+  {
+    "row": 22,
+    "rowsha": "NwJBsdK76KPt8H9EgxJAy0yLSCPB8i8B50VphuiIDl0=",
+    "originContent": "- [Licences](#licences)",
+    "translatedContent": "- [라이선스](#licences)"
+  },
+  {
+    "row": 23,
+    "rowsha": "qIi6M8U/nrYC0Pjwc6M0OEr9glZSo00qhQ1axG+X6ys=",
+    "originContent": "- [Version History](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/VERSION_HISTORY.md)",
+    "translatedContent": "- [버전 기록](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/VERSION_HISTORY.md)"
+  },
+  {
+    "row": 24,
+    "rowsha": "a8a1h5EIrWdr8EabkEA5zDEu9685yyZQCPEDSXEaLXQ=",
+    "originContent": "- [OSINT Analysis Guidelines](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/guidelines.md)",
+    "translatedContent": "- [OSINT 분석 가이드라인](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/guidelines.md)"
+  },
+  {
+    "row": 25,
+    "rowsha": "DgVtYdS1l/KbtTrY0Kgpflvet1UItTsThILPWBxiEqo=",
+    "originContent": "- [FAQ](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/faq.md)",
+    "translatedContent": "- [자주 묻는 질문](https://raw.githubusercontent.com/SOsintOps/Argos/master/docs/faq.md)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 요구 사항"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "1HQtkdyOd8sB7zuIsxuKOtLtws2T4+bRnEpLpuF3T0s=",
+    "originContent": "- Ubuntu **24.04 LTS** or **Ubuntu Budgie 24.04 LTS** (VM or workstation)",
+    "translatedContent": "- Ubuntu **24.04 LTS** 또는 **Ubuntu Budgie 24.04 LTS** (VM 또는 워크스테이션)"
+  },
+  {
+    "row": 32,
+    "rowsha": "ObISR4LNWSsfTrB0/c0vwNdwkX9pcv1/JuhwIkXs7Aw=",
+    "originContent": "- Any Linux username (the previous requirement to use `osint` has been removed)",
+    "translatedContent": "- 임의의 Linux 사용자명 (이전의 `osint` 사용자명 요구 사항은 제거됨)"
+  },
+  {
+    "row": 33,
+    "rowsha": "ryG/QPY8ICiZ4DHCuJJ8UeUjX9RoyLdRZMoHAvchO+M=",
+    "originContent": "- System language: **English**",
+    "translatedContent": "- 시스템 언어: **영어**"
+  },
+  {
+    "row": 34,
+    "rowsha": "lyuP6Cf8KIdmN8KzzPGPBv3uI1CYuOcURaX3xtST7Z8=",
+    "originContent": "- Active internet connection during installation",
+    "translatedContent": "- 설치 중 활성 인터넷 연결"
+  },
+  {
+    "row": 35,
+    "rowsha": "hExohokWzlSq4c682H73m89Hz4Jj5eG9ET8kSWV5CU4=",
+    "originContent": "- **VirtualBox Guest Additions already installed** — the script does not install them. Install Guest Additions before running `setup.sh` to enable clipboard sharing, drag-and-drop, and fullscreen support.",
+    "translatedContent": "- **VirtualBox Guest Additions가 이미 설치되어 있어야 함** — 스크립트는 이를 설치하지 않습니다. 클립보드 공유, 드래그 앤 드롭, 전체 화면 지원을 활성화하려면 `setup.sh` 실행 전에 Guest Additions를 설치하세요."
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "CZYecoEPKT9l0aToBWrW+EKbiQJk3cgqPry+0hjsbMM=",
+    "originContent": "> The script is optimised for VirtualBox. Code for VMware Tools is available in the comments.",
+    "translatedContent": "> 이 스크립트는 VirtualBox에 최적화되어 있습니다. VMware Tools용 코드는 주석에 있습니다."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "WKNe17YeoBOMQrrZbByriLMpF8I1/pLeJuijINxyki8=",
+    "originContent": "**Tested on:**",
+    "translatedContent": "**테스트 환경:**"
+  },
+  {
+    "row": 40,
+    "rowsha": "SqA1iWH6UO48nryg65i7EVPEShvMXyS9USzJJO0k9xY=",
+    "originContent": "- Ubuntu Budgie 24.04 LTS (VM)",
+    "translatedContent": "- Ubuntu Budgie 24.04 LTS (VM)"
+  },
+  {
+    "row": 41,
+    "rowsha": "mQE/mQ1C4dEUOq21n7v4vJjaB1TA8LdpQ7gKyqJ3rGY=",
+    "originContent": "- Ubuntu 24.04 LTS (VM)",
+    "translatedContent": "- Ubuntu 24.04 LTS (VM)"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "NEtljKjJhLlCuNcHCpxWzEtaXCqRhYjfNLb1eUbp+SQ=",
+    "originContent": "**No longer supported:**",
+    "translatedContent": "**더 이상 지원되지 않음:**"
+  },
+  {
+    "row": 44,
+    "rowsha": "6r5vKGED5Pcar6fZCJfF/nv+zQ2j2BilYFTQvd1tdNk=",
+    "originContent": "- Ubuntu 22.04 LTS (some dependencies are incompatible)",
+    "translatedContent": "- Ubuntu 22.04 LTS (일부 종속성 호환 불가)"
+  },
+  {
+    "row": 45,
+    "rowsha": "xToXcKeivns2zIErZyUcNquG7IILFYZ65hp53Hk9fvA=",
+    "originContent": "- Ubuntu 20.04 LTS",
+    "translatedContent": "- Ubuntu 20.04 LTS"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "CydzS0b79+8mTX3P9FBaCLh3NxcUH6yHLsxNHGhspUw=",
+    "originContent": "## Tools",
+    "translatedContent": "## 도구"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "cic5HpWUWbGUbAjKkGve8BZsCtQnpA+p7xAWpKT3IKc=",
+    "originContent": "### OSINT",
+    "translatedContent": "### OSINT"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "rLBgfWm4wZnb3kLL281bHQRZyR4PoVNaiCU2H3o11/A=",
+    "originContent": "| Tool | Status | Notes |",
+    "translatedContent": "| 도구 | 상태 | 비고 |"
+  },
+  {
+    "row": 54,
+    "rowsha": "0woUQOfQypFhZn91VhPAWssRyRbx3KfLYY9ZJWCFXAs=",
+    "originContent": "|------|--------|-------|",
+    "translatedContent": "|------|--------|-------|"
+  },
+  {
+    "row": 55,
+    "rowsha": "DINz/TkeTwy9VGher9ehpg/1bFSOJKmoVbG1B0awx5M=",
+    "originContent": "| [Amass](https://github.com/owasp-amass/amass) | Active | Subdomain enumeration |",
+    "translatedContent": "| [Amass](https://github.com/owasp-amass/amass) | 활성 | 서브도메인 열거 |"
+  },
+  {
+    "row": 56,
+    "rowsha": "ADG1MF2uCrypcYewYMtfYe6atL+krR1Y7JMtP2k4i1w=",
+    "originContent": "| [Instaloader](https://instaloader.github.io/) | Active | Instagram OSINT |",
+    "translatedContent": "| [Instaloader](https://instaloader.github.io/) | 활성 | 인스타그램 OSINT |"
+  },
+  {
+    "row": 57,
+    "rowsha": "Jl0Db2Hs46fGPIsWputSMq1a0zRau01vzQXHJDIFJAc=",
+    "originContent": "| [Toutatis](https://github.com/megadose/toutatis) | Limited | Requires Instagram session ID |",
+    "translatedContent": "| [Toutatis](https://github.com/megadose/toutatis) | 제한적 | 인스타그램 세션 ID 필요 |"
+  },
+  {
+    "row": 58,
+    "rowsha": "rtb7z+tYidhQ8l45rHSd5rDrDn3RVEIxfKCXpONOsyI=",
+    "originContent": "| [HTTrack](https://www.httrack.com/) | Active | Web crawling and mirroring |",
+    "translatedContent": "| [HTTrack](https://www.httrack.com/) | 활성 | 웹 크롤링 및 미러링 |"
+  },
+  {
+    "row": 59,
+    "rowsha": "kV6oGLVghq2ir6VIRPrGyWK/vB2lix8+cB6t8CxqyoA=",
+    "originContent": "| [MediaInfo](https://mediaarea.net/en/MediaInfo) | Active | Media metadata analysis |",
+    "translatedContent": "| [MediaInfo](https://mediaarea.net/en/MediaInfo) | 활성 | 미디어 메타데이터 분석 |"
+  },
+  {
+    "row": 60,
+    "rowsha": "X+Lr8MDQKYBCkK5EQS1d2o4lu9mIayAvcboaslHLpRc=",
+    "originContent": "| [ExifTool](https://exiftool.org/) | Active | Metadata from documents and images |",
+    "translatedContent": "| [ExifTool](https://exiftool.org/) | 활성 | 문서 및 이미지 메타데이터 |"
+  },
+  {
+    "row": 61,
+    "rowsha": "N5AETNreJxvcx6DvppGFGsP/7ADr+en+E2g71KZTCes=",
+    "originContent": "| [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) | Active | Website screenshots |",
+    "translatedContent": "| [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) | 활성 | 웹사이트 스크린샷 |"
+  },
+  {
+    "row": 62,
+    "rowsha": "XJlD8AH68g1pJf8bDFCLAgYnBObWbL4enAZb8S9pMXw=",
+    "originContent": "| [The Harvester](https://github.com/laramies/theHarvester) | Active | Email and domain recon |",
+    "translatedContent": "| [The Harvester](https://github.com/laramies/theHarvester) | 활성 | 이메일 및 도메인 정찰 |"
+  },
+  {
+    "row": 63,
+    "rowsha": "cEU6+KIi2hg7Ck1cZ/zuPzW6nO9ZWqBlPlZ4vaY6AlA=",
+    "originContent": "| [Metagoofil](https://github.com/opsdisk/metagoofil) | Active | Metadata from public documents |",
+    "translatedContent": "| [Metagoofil](https://github.com/opsdisk/metagoofil) | 활성 | 공개 문서 메타데이터 |"
+  },
+  {
+    "row": 64,
+    "rowsha": "EX6JnJ62rO5V79jRgvlWIme5rXhMrjSazHm3G2S6uMs=",
+    "originContent": "| [recon-ng](https://github.com/lanmaster53/recon-ng) | Active | Modular OSINT framework |",
+    "translatedContent": "| [recon-ng](https://github.com/lanmaster53/recon-ng) | 활성 | 모듈식 OSINT 프레임워크 |"
+  },
+  {
+    "row": 65,
+    "rowsha": "N5sq69yFwsx4qM+vBZC1J3KevarkhieXwO2n4p2YyJ8=",
+    "originContent": "| [Sherlock](https://github.com/sherlock-project/sherlock) | Active | Username search |",
+    "translatedContent": "| [Sherlock](https://github.com/sherlock-project/sherlock) | 활성 | 사용자 이름 검색 |"
+  },
+  {
+    "row": 66,
+    "rowsha": "+K1ft3xzGv5P6YcthQRT2wjznv/xatuY+wSIbqImLwg=",
+    "originContent": "| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Active | OSINT automation |",
+    "translatedContent": "| [SpiderFoot](https://github.com/smicallef/spiderfoot) | 활성 | OSINT 자동화 |"
+  },
+  {
+    "row": 67,
+    "rowsha": "Fo/7ZSF9tBTh2dLHD1PV2S0h7y685RucXkDMGqbBM9k=",
+    "originContent": "| [blackbird](https://github.com/p1ngul1n0/blackbird) | Active | Advanced username search |",
+    "translatedContent": "| [blackbird](https://github.com/p1ngul1n0/blackbird) | 활성 | 고급 사용자 이름 검색 |"
+  },
+  {
+    "row": 68,
+    "rowsha": "G7WRZ68uhvDIYEnZJVuogp57kirgn4Wp7XNWVv9I710=",
+    "originContent": "| [holehe](https://github.com/megadose/holehe) | Active | Email OSINT |",
+    "translatedContent": "| [holehe](https://github.com/megadose/holehe) | 활성 | 이메일 OSINT |"
+  },
+  {
+    "row": 69,
+    "rowsha": "ZMSeegqs2Qw55v3cT88raDhKWil/FBj785bptTC83yM=",
+    "originContent": "| [maigret](https://github.com/soxoj/maigret) | Active | Username search (advanced Sherlock fork) |",
+    "translatedContent": "| [maigret](https://github.com/soxoj/maigret) | 활성 | 사용자 이름 검색 (고급 Sherlock 포크) |"
+  },
+  {
+    "row": 70,
+    "rowsha": "UakRJB5Ub25ZxYOIyUqjScm7UP6kLc21pfqUj9swxuk=",
+    "originContent": "| [Maltego](https://www.maltego.com/) | Active | Link analysis (requires account) |",
+    "translatedContent": "| [Maltego](https://www.maltego.com/) | 활성 | 링크 분석 (계정 필요) |"
+  },
+  {
+    "row": 71,
+    "rowsha": "b8A83lUJ17inx3TeUCOw6RNa1BzHb+BiDY8DNj1TpbI=",
+    "originContent": "| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Active | Video downloader (replaces youtube-dl) |",
+    "translatedContent": "| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 활성 | 비디오 다운로더 (youtube-dl 대체) |"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "/VEpuI+1jt6F/ef/zAvEa6P33QAFQ6GWuO4yhOExHl0=",
+    "originContent": "**Removed tools (abandoned or discontinued):**",
+    "translatedContent": "**제거된 도구 (중단 또는 폐기):**"
+  },
+  {
+    "row": 74,
+    "rowsha": "bSFuqLFPBVqSDsMmjrgQphxh+tz7W/9eeQcQnWVe5mc=",
+    "originContent": "- ~~Instalooter~~: use Instaloader",
+    "translatedContent": "- ~~Instalooter~~: Instaloader 사용"
+  },
+  {
+    "row": 75,
+    "rowsha": "8w6+A9MY8whjm66rl5tGP9K+THoBfNRvVKgOU9Yyark=",
+    "originContent": "- ~~Sublist3r~~: use Amass",
+    "translatedContent": "- ~~Sublist3r~~: Amass 사용"
+  },
+  {
+    "row": 76,
+    "rowsha": "msIRk52ycbgD0njKJL0O5AWjfmwbEv2gANjqhth7SpM=",
+    "originContent": "- ~~Photon~~: use Katana or GoSpider",
+    "translatedContent": "- ~~Photon~~: Katana 또는 GoSpider 사용"
+  },
+  {
+    "row": 77,
+    "rowsha": "OtXjNyRyhlcKnrXghtXfvGp0A2GVYXVvzjnFFbJXqrg=",
+    "originContent": "- ~~youtube-dl~~: replaced by yt-dlp",
+    "translatedContent": "- ~~youtube-dl~~: yt-dlp로 대체"
+  },
+  {
+    "row": 78,
+    "rowsha": "suOl+2rgm8KOnowdYUXt3JtESAmlE0b6sjnDwKzgfjs=",
+    "originContent": "- ~~Moriarty-Project~~: use PhoneInfoga",
+    "translatedContent": "- ~~Moriarty-Project~~: PhoneInfoga 사용"
+  },
+  {
+    "row": 79,
+    "rowsha": "rhlRnCT0hCIavn2Y5G7YgGDQf5E5uzuwgqAcz4UVGIw=",
+    "originContent": "- ~~Elasticsearch-Crawler~~: use Shodan CLI",
+    "translatedContent": "- ~~Elasticsearch-Crawler~~: Shodan CLI 사용"
+  },
+  {
+    "row": 80,
+    "rowsha": "oEK0VKmdmT+joPECI/AFNZwWCte4owyGu3ywwt22KuA=",
+    "originContent": "- ~~Atom Editor~~ (discontinued December 2022): replaced by VSCodium",
+    "translatedContent": "- ~~Atom Editor~~ (2022년 12월 중단): VSCodium으로 대체"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 일반 도구"
+  },
+  {
+    "row": 82,
+    "rowsha": "i9qIf55hFUDR3ghifc7YlISJgzSKqazf8XLDf/Ne5gk=",
+    "originContent": "### General Tools",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 도구 | 상태 |"
+  },
+  {
+    "row": 84,
+    "rowsha": "tvv60SmpSoGPqvfHgTKWaKnoRn1pVb+d/utwv4H8iSA=",
+    "originContent": "| Tool | Status |",
+    "translatedContent": "|------|--------|"
+  },
+  {
+    "row": 85,
+    "rowsha": "og0KenfPdCpRqYhEwgvBl7PsxsQ0kPyeLwthfcEwYbo=",
+    "originContent": "|------|--------|",
+    "translatedContent": "| [VLC](https://www.videolan.org/vlc/) | 활성 |"
+  },
+  {
+    "row": 86,
+    "rowsha": "CENvHfaWGeXDtT9PdgrFJ/ORvfTPCsTXa46Sjm1khgw=",
+    "originContent": "| [VLC](https://www.videolan.org/vlc/) | Active |",
+    "translatedContent": "| [Google Earth Pro](https://www.google.com/earth/versions/#earth-pro) | 활성 |"
+  },
+  {
+    "row": 87,
+    "rowsha": "hY1+Ik5EjJs56w4MdppUM42CSMhLfzjkEaLan5GxeKQ=",
+    "originContent": "| [Google Earth Pro](https://www.google.com/earth/versions/#earth-pro) | Active |",
+    "translatedContent": "| [VSCodium](https://vscodium.com/) | 활성 (Atom 대체) |"
+  },
+  {
+    "row": 88,
+    "rowsha": "dk98zcYvKi7LRBNmSWTcyyKWIlKGyjmx1xZIt9h8Hyc=",
+    "originContent": "| [VSCodium](https://vscodium.com/) | Active (replaces Atom) |",
+    "translatedContent": "| [CherryTree](https://www.giuspen.com/cherrytree/) | 활성 |"
+  },
+  {
+    "row": 89,
+    "rowsha": "q4MqqSSht10d8V0cBtcpBZRTfsnaUdcb8KA5UMdK5GM=",
+    "originContent": "| [CherryTree](https://www.giuspen.com/cherrytree/) | Active |",
+    "translatedContent": "| [KeePassXC](https://keepassxc.org/) | 활성 |"
+  },
+  {
+    "row": 90,
+    "rowsha": "6lmzFM0miR0gvas+tCGxoVZZKH2Q6n2diXrpN0TAXIc=",
+    "originContent": "| [KeePassXC](https://keepassxc.org/) | Active |",
+    "translatedContent": "| [Kazam](https://launchpad.net/kazam) | 활성 |"
+  },
+  {
+    "row": 91,
+    "rowsha": "EgvXuTXW4ALivH9j9/mwsJVnPEi6fYbjP2ohyTyevyU=",
+    "originContent": "| [Kazam](https://launchpad.net/kazam) | Active |",
+    "translatedContent": "| [Audacity](https://www.audacityteam.org/) | 활성 |"
+  },
+  {
+    "row": 92,
+    "rowsha": "vuXGNoN27cFQv5T3R3lEUejg6Z9zQL0XPUC9B+Xz+x8=",
+    "originContent": "| [Audacity](https://www.audacityteam.org/) | Active |",
+    "translatedContent": "| [Tor Browser](https://www.torproject.org/) | 활성 |"
+  },
+  {
+    "row": 93,
+    "rowsha": "02hDBCxX5IOPbQq4lXUIQk8A1tljGlGWH8Q4dtAHyqc=",
+    "originContent": "| [Tor Browser](https://www.torproject.org/) | Active |",
+    "translatedContent": "| [OpenShot](https://www.openshot.org/) | 활성 |"
+  },
+  {
+    "row": 94,
+    "rowsha": "nIcAA6xCN+yM01e2GqJ/i+dCy+tsAAKLwoF6/AYczlQ=",
+    "originContent": "| [OpenShot](https://www.openshot.org/) | Active |",
+    "translatedContent": "| [Obsidian](https://obsidian.md/) | 활성 (최신 버전 동적 가져오기) |"
+  },
+  {
+    "row": 95,
+    "rowsha": "bNZKV5NZgxcgxjjK2nG09D+5XeGxPsiwz7pB1ivsnds=",
+    "originContent": "| [Obsidian](https://obsidian.md/) | Active (latest version fetched dynamically) |",
+    "translatedContent": "| [Ripgrep](https://github.com/BurntSushi/ripgrep) | 활성 |"
+  },
+  {
+    "row": 96,
+    "rowsha": "zCxQLofCK1dTRi6n/NgiSCSEBiqieGM9gHjCk8DYRfg=",
+    "originContent": "| [Ripgrep](https://github.com/BurntSushi/ripgrep) | Active |",
+    "translatedContent": "| [Threat Intelligence Resources](https://github.com/pstirparo/threatintel-resources) | 활성 |"
+  },
+  {
+    "row": 97,
+    "rowsha": "TzZqLCwfZo5XYI7IVAPfCzzN+GHgRT23SPyq/M9F/YI=",
+    "originContent": "| [Threat Intelligence Resources](https://github.com/pstirparo/threatintel-resources) | Active |",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 99,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 101,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 터미널을 엽니다."
+  },
+  {
+    "row": 103,
+    "rowsha": "1PC+jkf3gd4mnANsHAgm/ex0GwhPIl3ZU9e3Fv4vTeg=",
+    "originContent": "1. Open a terminal.",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Git이 설치되어 있지 않으면 설치합니다:"
+  },
+  {
+    "row": 105,
+    "rowsha": "Ac03jMEZ/Q7sm8O3gLIciUv4cVmOWC+DltSd4OkNdDc=",
+    "originContent": "2. Install Git if it is not already present:",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 107,
+    "rowsha": "pDH3/qfqLDnrPNWuaqz957CBj+QgRGByBed42Urg58A=",
+    "originContent": "    sudo apt install -y git",
+    "translatedContent": "    sudo apt install -y git"
+  },
+  {
+    "row": 108,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "fdUjo8Dsj1ecNfqy22AWGzR/CDpXB0IestTVZZ/Fg1I=",
+    "originContent": "3. Clone the repository into the `Downloads` directory:",
+    "translatedContent": "3. 저장소를 `Downloads` 디렉터리에 클론합니다:"
+  },
+  {
+    "row": 111,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 112,
+    "rowsha": "gV1++doWkRaqCg+70z7JItsC5Ubt6Uxl8OspSh58+Xo=",
+    "originContent": "    git clone https://github.com/SOsintOps/Argos ~/Downloads/Argos",
+    "translatedContent": "    git clone https://github.com/SOsintOps/Argos ~/Downloads/Argos"
+  },
+  {
+    "row": 113,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "qZkNU7UKruOe0UEcE5TDf3AegT9aJFS3agc76Pe785w=",
+    "originContent": "4. Make the script executable:",
+    "translatedContent": "4. 스크립트를 실행 가능하게 만드세요:"
+  },
+  {
+    "row": 116,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 117,
+    "rowsha": "GZXCk1e4B6YS6qb6rNIUcSCq6cvUt+ee84dNxq84GN8=",
+    "originContent": "    chmod +x ~/Downloads/Argos/setup.sh",
+    "translatedContent": "    chmod +x ~/Downloads/Argos/setup.sh"
+  },
+  {
+    "row": 118,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "xshXPxl5VZcwS3JTFUhJ104abZNaJTokoOkS6em1nBU=",
+    "originContent": "5. Run the script:",
+    "translatedContent": "5. 스크립트를 실행합니다:"
+  },
+  {
+    "row": 121,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 122,
+    "rowsha": "7AWk/VlKjpDQCFYqIo+HWQ188Ng379mOfqsGZbluEzM=",
+    "originContent": "    ~/Downloads/Argos/setup.sh",
+    "translatedContent": "    ~/Downloads/Argos/setup.sh"
+  },
+  {
+    "row": 123,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "pHUK/7q79AZTqVMYWBE0qIyFOPyz0OTZ2eGyePtWQNM=",
+    "originContent": "    > Firefox does not need to be closed or opened manually. The script initialises the Firefox profile automatically if it has not been created yet.",
+    "translatedContent": "    > Firefox는 수동으로 닫거나 열 필요가 없습니다. 스크립트는 아직 생성되지 않은 경우 Firefox 프로필을 자동으로 초기화합니다."
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "LrUkFd46X5mQU7WlgWBzXix8rttzwSPMHjJkD/Uapx0=",
+    "originContent": "## Installation Log",
+    "translatedContent": "## 설치 로그"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "oJiiPd2DZDg/XVevLttYfu2mFqHLj+s6099Xob7zlYE=",
+    "originContent": "The script automatically generates a log file in the Downloads directory:",
+    "translatedContent": "스크립트는 다운로드 디렉터리에 로그 파일을 자동으로 생성합니다:"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 134,
+    "rowsha": "3OToUdcA5xrHe7myx85qMHzhKpaSMNkWbmeiaz8Hr0M=",
+    "originContent": "~/Downloads/argos_install_YYYYMMDD_HHMMSS.log",
+    "translatedContent": "~/Downloads/argos_install_YYYYMMDD_HHMMSS.log"
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "로그에는 타임스탬프와 함께 전체 설치 출력이 포함되어 있습니다. 오류가 발생하면 로그에 정확한 행 번호가 기록됩니다."
+  },
+  {
+    "row": 137,
+    "rowsha": "D93q0TaIwk750a4RpSU3KvYrqDFkW6gKRVg2oPpYleI=",
+    "originContent": "The log contains the full installation output with timestamps. If an error occurs, the exact line number is recorded in the log.",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 139,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 할 일"
+  },
+  {
+    "row": 141,
+    "rowsha": "oTfayJKeRZcOOOzc80qxrJY8REFMJbgGkCex4bM30hU=",
+    "originContent": "## To Do",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Moriarty-Project를 대체할 PhoneInfoga 추가"
+  },
+  {
+    "row": 143,
+    "rowsha": "JfwVIff/EFH0Ts7w5zR7ZaMd3DC9OlcwUJPfZInwwRg=",
+    "originContent": "- Add PhoneInfoga as a replacement for Moriarty-Project",
+    "translatedContent": "- Photon을 대체할 Katana 또는 GoSpider 추가"
+  },
+  {
+    "row": 144,
+    "rowsha": "f0dbXdI7Q4fFYs898/aCPmrAR8bHIKiQcDU8cNLLTLo=",
+    "originContent": "- Add Katana or GoSpider as a replacement for Photon",
+    "translatedContent": "- OSINT 조사용 LibreOffice 보고서 템플릿 업데이트"
+  },
+  {
+    "row": 145,
+    "rowsha": "96FAOTlhO+BT/ZkWoxNpRqThVvuL0rwwQGDzsO+ezTM=",
+    "originContent": "- Update LibreOffice report templates for OSINT investigations",
+    "translatedContent": "- Ubuntu Budgie 24.04 LTS VM에서 종단 간 테스트 완료"
+  },
+  {
+    "row": 146,
+    "rowsha": "2W4pQ8iJ4OJ3/dkDrdAB38Y0UNU75heKt5NrLWh/3IA=",
+    "originContent": "- Complete end-to-end testing on Ubuntu Budgie 24.04 LTS VM",
+    "translatedContent": "- holehe, maigret 독립 실행형, blackbird 독립 실행형에 대한 바로 가기 추가"
+  },
+  {
+    "row": 147,
+    "rowsha": "0gVfpTntJHejRuo3QkNaVUG8OWuSx3KibDijnNMShsw=",
+    "originContent": "- Add shortcuts for holehe, maigret standalone, and blackbird standalone",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 149,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 자료"
+  },
+  {
+    "row": 151,
+    "rowsha": "dcYhHej4lR6AN9ECiePl0Bd7ihcrWTNFAGtbQqjgjg4=",
+    "originContent": "## Resources",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [OSIntOps 웹사이트](https://osintops.com/en/)"
+  },
+  {
+    "row": 153,
+    "rowsha": "lZOQfdlnTxj4nvrXlZKahU2YjDHvqvr4vzpkfKHji7c=",
+    "originContent": "- [OSIntOps website](https://osintops.com/en/)",
+    "translatedContent": "- [Argos 프로젝트 발표 (이탈리아어)](https://osintops.com/progetto-argos/)"
+  },
+  {
+    "row": 154,
+    "rowsha": "T+3kOmkQVae85PnrdWqim3KrWDDOKTGyUmvV2pRQGZY=",
+    "originContent": "- [Argos project presentation (Italian)](https://osintops.com/progetto-argos/)",
+    "translatedContent": "- [OSInt 데일리 뉴스](https://t.me/Osintlatestnews)"
+  },
+  {
+    "row": 155,
+    "rowsha": "iX4SLJQxdISWakyXJtCVkSjHwpvyOAL7wIiQytRg9hU=",
+    "originContent": "- [OSInt Daily News](https://t.me/Osintlatestnews)",
+    "translatedContent": "- [Michael Bazzell의 오픈 소스 인텔리전스 기법](https://inteltechniques.com/book1.html)"
+  },
+  {
+    "row": 156,
+    "rowsha": "6defqv6X/D9M2paaLFHX9j6pfSfjKR6Rj5wYhQgV1gQ=",
+    "originContent": "- [Open Source Intelligence Techniques by Michael Bazzell](https://inteltechniques.com/book1.html)",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 158,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 크레딧"
+  },
+  {
+    "row": 160,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 원본 OSINT_VM_Setup 스크립트의 Skykn0t"
+  },
+  {
+    "row": 162,
+    "rowsha": "B8MGH8ywZP7Or2i+ZTootYxx2Ow1+6ks7/Q+h15URaw=",
+    "originContent": "- Skykn0t for the original OSINT_VM_Setup script",
+    "translatedContent": "- 스크립트 이름 제공자 [oh6hay](https://github.com/oh6hay)"
+  },
+  {
+    "row": 163,
+    "rowsha": "yUnA68klqK65g0AL5sCSWigBr6nxkCRFoe9ihUrYnvw=",
+    "originContent": "- [oh6hay](https://github.com/oh6hay) for the script name",
+    "translatedContent": "- 배경화면 스크립트 제공자 [pinkevilpimp](https://github.com/pinkevilpimp)"
+  },
+  {
+    "row": 164,
+    "rowsha": "5r/VOT7AzAcqtjFvbWzwFB16rl1J1CRZIoTijsAwrWo=",
+    "originContent": "- [pinkevilpimp](https://github.com/pinkevilpimp) for the wallpaper script",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 166,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 168,
+    "rowsha": "CllB38VBQ96fk6Xhw9rImI0NKIrtQYlHyWMS9J2a+io=",
+    "originContent": "## Licences",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "저장소에 포함된 라이선스 파일을 참조하세요."
+  },
+  {
+    "row": 170,
+    "rowsha": "w5Zt5Ovps0oHdsCAKExO2VL62ZXyGENGGRNX1TNsUi8=",
+    "originContent": "See the licence files included in the repository.",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
