@@ -1,0 +1,896 @@
+[
+  {
+    "row": 1,
+    "rowsha": "tEAD+ms2LTy1TUUnHgzeOtaHB2qE2QKrKbTTDET5avs=",
+    "originContent": "# Fansly Scraper",
+    "translatedContent": "# Fansly 스크레이퍼"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+    "originContent": "> [!IMPORTANT]",
+    "translatedContent": "> [!IMPORTANT]"
+  },
+  {
+    "row": 4,
+    "rowsha": "McfPmxqnHCjk7tnMOa+mUDmEOn3fUz1tqV48QAGJ1v8=",
+    "originContent": "> **Project Status Update**",
+    "translatedContent": "> **프로젝트 상태 업데이트**"
+  },
+  {
+    "row": 5,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 6,
+    "rowsha": "TWQuwIWvsDaitZ+FLENcSiYLbG5wn4R5jzXTNzzk1bY=",
+    "originContent": "> Due to a recent health scare, this project is taking a very far backseat priority in my life. Updates and support will be very minimal for the foreseeable future. Thank you for your understanding.",
+    "translatedContent": "> 최근 건강 문제로 인해 이 프로젝트는 제 인생에서 매우 후순위로 밀려났습니다. 당분간 업데이트와 지원이 매우 제한적일 것입니다. 이해해 주셔서 감사합니다."
+  },
+  {
+    "row": 7,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 8,
+    "rowsha": "0S7AFP3vTZSdV3aniqSo/vkNPX1M57Ery3Ae6HRMBv4=",
+    "originContent": "> If you're looking for a more actively maintained alternative with a full WebUI, live dashboard and VOD player, and automatic background monitoring and archiving, check out **[Accerso](https://accesro.one)**.",
+    "translatedContent": "> 더 활발하게 유지 관리되며 완전한 웹 UI, 실시간 대시보드 및 VOD 플레이어, 자동 백그라운드 모니터링 및 아카이빙 기능을 원하신다면, **[Accerso](https://accesro.one)**를 확인해 보세요."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+    "originContent": "> [!WARNING]",
+    "translatedContent": "> [!WARNING]"
+  },
+  {
+    "row": 11,
+    "rowsha": "VSjGvyvE8DoGpI8MlVxNYcbK5Nlr+AeYdszHmOX1iUM=",
+    "originContent": "> **‼️ Windows Defender False Positive** (literally no idea why or where this came from)",
+    "translatedContent": "> **‼️ 윈도우 디펜더 오탐지** (정확히 왜, 어디서 발생했는지 전혀 알 수 없음)"
+  },
+  {
+    "row": 12,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 13,
+    "rowsha": "cJfzZMvWPeFYTnD55LTpPJLftACJywImjRDaZvZ/9OU=",
+    "originContent": "> The Windows executable of this program is frequently being flagged as **`Trojan:Script/Wacatac.B!ml`** by Windows Defender and other AV. This is a **false positive**.",
+    "translatedContent": "> 이 프로그램의 윈도우 실행 파일은 윈도우 디펜더 및 다른 백신에서 자주 **`Trojan:Script/Wacatac.B!ml`**로 탐지됩니다. 이는 **오탐지**입니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 15,
+    "rowsha": "uIimVJT5rdQjh4CBOPktD3ZvepT/Id/McqmHRBgYr0w=",
+    "originContent": "> **Why is this happening?**",
+    "translatedContent": "> **왜 이런 일이 발생할까요?**"
+  },
+  {
+    "row": 16,
+    "rowsha": "wctLVTpX7JuPh/gw0rjTulyEaNh5iqaKFK5ilQ1QvYk=",
+    "originContent": "> The `!ml` in the detection name means it was flagged by a Machine Learning model, not a human. Because this is an unsigned, open-source scraper tool that makes many internet requests, the automated system incorrectly flags it as suspicious. This is a common issue for many Go and Rust-based command-line tools.",
+    "translatedContent": "> 탐지 이름의 `!ml`은 사람이 아닌 머신러닝 모델에 의해 탐지되었음을 의미합니다. 이 프로그램은 서명되지 않은 오픈 소스 스크레이퍼 도구이고 많은 인터넷 요청을 하므로 자동 시스템이 이를 의심스럽다고 잘못 판단합니다. 이는 Go 및 Rust 기반 커맨드라인 도구에서 흔히 발생하는 문제입니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 18,
+    "rowsha": "z8ogJjEF5v7xs4jJzO9B/jG1W2FfFXWwOMfVYqm4DJw=",
+    "originContent": "> **Recommended Solution - Install via Go (should hopefully bypass AV issues):**",
+    "translatedContent": "> **권장 해결책 - Go를 통해 설치 (백신 문제를 우회할 수 있음):**"
+  },
+  {
+    "row": 19,
+    "rowsha": "wdkEOeFso6tqiT11qRgwNFig8+xjxbk3wJKCvpYihdM=",
+    "originContent": "> ```bash",
+    "translatedContent": "> ```bash"
+  },
+  {
+    "row": 20,
+    "rowsha": "z+QVTiwlP3J6e2FcF6fqGvfdfdxAKnkAwanzkxuMNZk=",
+    "originContent": "> go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest",
+    "translatedContent": "> go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest"
+  },
+  {
+    "row": 21,
+    "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+    "originContent": "> ```",
+    "translatedContent": "> ```"
+  },
+  {
+    "row": 22,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 23,
+    "rowsha": "oU0SVAHeqi3VBnW3QRe+kkb5pmYd04tT0oqmU7FimT0=",
+    "originContent": "> **What you can do:**",
+    "translatedContent": "> **할 수 있는 일:**"
+  },
+  {
+    "row": 24,
+    "rowsha": "EMZPDYXhQhDS06+1WVQrtSa969CxqB5zi5ZGHpa9YHE=",
+    "originContent": "> 1.  **Trust the program:** You can temporarily disable Windows Defender to download and run the program, and then add it as an exception.",
+    "translatedContent": "> 1.  **프로그램을 신뢰하세요:** 윈도우 디펜더를 일시적으로 비활성화하여 프로그램을 다운로드하고 실행한 후 예외로 추가할 수 있습니다."
+  },
+  {
+    "row": 25,
+    "rowsha": "Xuk2cblbJmI2dr12b5wmDYq8VyD6/s2xPe5ro+d9D7A=",
+    "originContent": "> 2.  **Build from source:** If you have Go installed, you can build it yourself. The program is not flagged when you compile it locally or install via go.",
+    "translatedContent": "> 2.  **소스에서 빌드하세요:** Go가 설치되어 있다면 직접 빌드할 수 있습니다. 로컬에서 컴파일하거나 go로 설치하면 탐지되지 않습니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 27,
+    "rowsha": "TgJTn6yWOu2YzaohNzluhFpcHS3bAXdyz0p4rfkAZ/U=",
+    "originContent": "> The code is fully open-source for you to inspect. It is safe to use. but I understand if the AV warnings are concerning.",
+    "translatedContent": "> 코드는 완전히 오픈 소스이므로 검토할 수 있습니다. 사용해도 안전하지만 백신 경고가 걱정될 수 있다는 점은 이해합니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "Ki+bZxOSn9px9tf8uR8UrYiAHe+nwaAhN13aMkXlJkw=",
+    "originContent": "A simple all in one tool to download and monitor content from Fansly creators.",
+    "translatedContent": "Fansly 크리에이터의 콘텐츠를 다운로드하고 모니터링하는 간단한 올인원 도구입니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "5yQ8eGVF/l2THg9kjxO8lJAsMfv6JrYJQ29C2uyX/WQ=",
+    "originContent": "> **⚠️ Currently in development** - Some features may not work perfectly. See [known issues](#known-issues) below.",
+    "translatedContent": "> **⚠️ 현재 개발 중** - 일부 기능은 완벽하게 작동하지 않을 수 있습니다. 아래 [알려진 문제](#known-issues)를 참고하세요."
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 요구 사항"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "aYal17dSTUpvoI9gc1+L5AF5gw1BJgTBpqyu77SOhjs=",
+    "originContent": "- **Optional but highly recommended**: [ffmpeg](https://ffmpeg.org/) for livestream recording and saving higher quality videos. Follow [this guide](https://phoenixnap.com/kb/ffmpeg-windows) for installing to system path on windows.",
+    "translatedContent": "- **선택 사항이지만 강력히 권장됨**: 라이브 스트림 녹화 및 고화질 비디오 저장을 위한 [ffmpeg](https://ffmpeg.org/). 윈도우에서 시스템 경로에 설치하려면 [이 가이드](https://phoenixnap.com/kb/ffmpeg-windows)를 따르세요."
+  },
+  {
+    "row": 37,
+    "rowsha": "iZmuaMsRparyoht/9qvDTmqIAbkOxGpVQzkRoVNE/jo=",
+    "originContent": "- **Optional**: [mt](https://github.com/mutschler/mt) for better contact sheets",
+    "translatedContent": "- **선택 사항**: 더 나은 컨택트 시트를 위한 [mt](https://github.com/mutschler/mt)"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 빠른 시작"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "bdwpSm5nT9913qI3tgIjaCi/rw1iaqPhOxu6qnTe8Sk=",
+    "originContent": "### 1. Download",
+    "translatedContent": "### 1. 다운로드"
+  },
+  {
+    "row": 42,
+    "rowsha": "oWB5fOmYKBAIeM5icbmKagKnKO3PsDXI1MrBPjlgsLI=",
+    "originContent": "- **Easy way**: Visit the [download page](https://agnosto.github.io/projects/fansly-scraper/) (auto-detects your system)",
+    "translatedContent": "- **쉬운 방법**: [다운로드 페이지](https://agnosto.github.io/projects/fansly-scraper/) 방문 (시스템 자동 감지)"
+  },
+  {
+    "row": 43,
+    "rowsha": "8R4SKZwvTYvTL/ki7wJgmisWPsxCpISCScOhztVBL00=",
+    "originContent": "- **Manual way**: Get from [GitHub releases](https://github.com/agnosto/fansly-scraper/releases)",
+    "translatedContent": "- **수동 방법**: [GitHub 릴리스](https://github.com/agnosto/fansly-scraper/releases)에서 받기"
+  },
+  {
+    "row": 44,
+    "rowsha": "31XUfKBrl0rWamGMCxXNyh/DjYUp6ikcCRPbuTJ8oeQ=",
+    "originContent": "- **Intall Via Go**: ",
+    "translatedContent": "- **Go로 설치**:"
+  },
+  {
+    "row": 45,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 46,
+    "rowsha": "LUBKuY6Wd1T3BAy9V5X6xRY7PjAyIS2ritpnj3Ybj30=",
+    "originContent": "go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest",
+    "translatedContent": "go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "LXInG9DRi9xSbIhWmvuYaX3MEZ9/pfk2+q1C2EN5LCw=",
+    "originContent": "### 2. Run the Program",
+    "translatedContent": "### 2. 프로그램 실행하기"
+  },
+  {
+    "row": 50,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "noGD0Fe6f3/aafn5QOBX+MQyiAlQeaXc+nfa1oufio8=",
+    "originContent": "./fansly-scraper",
+    "translatedContent": "./fansly-scraper"
+  },
+  {
+    "row": 52,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "YtF35XWYbhsvnt7Rpl6ddFt9AqubkmoTRbdOTjnGpTw=",
+    "originContent": "On first run, the setup wizard helps you configure everything. Press 'a' to use auto login: it opens Fansly and provides a one‑line snippet to paste in DevTools Console. Your token and user‑agent are captured automatically and saved to the config.",
+    "translatedContent": "첫 실행 시, 설치 마법사가 모든 설정을 도와줍니다. 자동 로그인을 사용하려면 'a'를 누르세요: Fansly가 열리고 DevTools 콘솔에 붙여넣을 한 줄 스니펫이 제공됩니다. 토큰과 사용자 에이전트가 자동으로 캡처되어 설정 파일에 저장됩니다."
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "Lh+CO4+XL4trbaDGaAT86mzGQ5FCSAp1i4b5+mSZVOk=",
+    "originContent": "## Basic Usage",
+    "translatedContent": "## 기본 사용법"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "lPOx/KQ3J3dpkt2+j3Ly1AiMxffWbf1GtZIzf+hMkt4=",
+    "originContent": "### Interactive Mode (Recommended for beginners)",
+    "translatedContent": "### 대화형 모드 (초보자에게 권장)"
+  },
+  {
+    "row": 59,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 60,
+    "rowsha": "noGD0Fe6f3/aafn5QOBX+MQyiAlQeaXc+nfa1oufio8=",
+    "originContent": "./fansly-scraper",
+    "translatedContent": "./fansly-scraper"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "7l2/1pRcC3hV0XsooUaH4SVRZg3oVF1fPOkwkmGVX8Y=",
+    "originContent": "From the main menu you can:",
+    "translatedContent": "메인 메뉴에서 할 수 있는 작업:"
+  },
+  {
+    "row": 64,
+    "rowsha": "oFb0yr3oUDR1vXiF1DwrgVtm2j/1qSBUOwlFCwVrhYU=",
+    "originContent": "- Run setup wizard (choose save location, auto login)",
+    "translatedContent": "- 설정 마법사 실행 (저장 위치 선택, 자동 로그인)"
+  },
+  {
+    "row": 65,
+    "rowsha": "+WQnXZ7YvQe0tkwua5f4ja8DmBgvCoH2ysIU3jDj8Do=",
+    "originContent": "- Reset configuration (restore defaults, re-run wizard)",
+    "translatedContent": "- 구성 재설정 (기본값 복원, 마법사 다시 실행)"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "DCkWuJKRrLLADhlLCxTxqjjWXVdTYYXbCEkbTUVUoqw=",
+    "originContent": "### Command Line Mode",
+    "translatedContent": "### 명령줄 모드"
+  },
+  {
+    "row": 68,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 69,
+    "rowsha": "GgtdK6McchrFojaDN+QpWDdIBpZyR3PKjLHK+HwrdOQ=",
+    "originContent": "# Download all content from a creator",
+    "translatedContent": "# Download all content from a creator"
+  },
+  {
+    "row": 70,
+    "rowsha": "LxyQccdnwwmiQNMRDTCzhe7AqLiahTywHsdyb9womZg=",
+    "originContent": "./fansly-scraper -u {creator-name}",
+    "translatedContent": "./fansly-scraper -u {creator-name}"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "HBGA+bO4VyYIhtzE05jP4H+0CKrSEaRb6AhQobD8Caw=",
+    "originContent": "# Download specific content types",
+    "translatedContent": "# Download specific content types"
+  },
+  {
+    "row": 73,
+    "rowsha": "7FNobPAAiViYpapwEiswMzmjtEBCVF7BUr1utB0I6gw=",
+    "originContent": "./fansly-scraper -u {creator-name} -d [all|timeline|messages|stories]",
+    "translatedContent": "./fansly-scraper -u {creator-name} -d [all|timeline|messages|stories]"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "6W2rGWEclB1IwGj0Coup/kKgknKN66pwYV33BhsV6n0=",
+    "originContent": "# Monitor for live streams",
+    "translatedContent": "# Monitor for live streams"
+  },
+  {
+    "row": 76,
+    "rowsha": "VsJpW34ubPprxLP0xrotDLdY25iaKgWBt4sF5niL5hg=",
+    "originContent": "./fansly-scraper -m {creator-name}",
+    "translatedContent": "./fansly-scraper -m {creator-name}"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "Q8yIQUa/ra1HF7jdbPDR9NZHtdGIlZV8tI4HhATbC/o=",
+    "originContent": "# Start/stop monitoring",
+    "translatedContent": "# Start/stop monitoring"
+  },
+  {
+    "row": 79,
+    "rowsha": "1SLjIkFN3FAi+rUpK7qtVaqBn4Na0nQu1ClLhzwzC5k=",
+    "originContent": "./fansly-scraper monitor [start|stop]",
+    "translatedContent": "./fansly-scraper monitor [start|stop]"
+  },
+  {
+    "row": 80,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "mFvdHhwurf6JsRTkURjQsm2lh2iRcmLg4fEvg6Cpkyc=",
+    "originContent": "**Note**: Live monitoring requires keeping your terminal session active. To run monitoring in the background, consider using terminal multiplexers like [tmux](https://github.com/tmux/tmux/wiki) or [zellij](https://github.com/zellij-org/zellij) on Linux/WSL. Starting from v0.6.3, you can monitor additional creators by running `-m creator` in separate terminal instances without restarting the existing monitor process.",
+    "translatedContent": "**참고**: 실시간 모니터링은 터미널 세션을 활성 상태로 유지해야 합니다. 백그라운드에서 모니터링을 실행하려면 Linux/WSL에서 [tmux](https://github.com/tmux/tmux/wiki) 또는 [zellij](https://github.com/zellij-org/zellij)와 같은 터미널 멀티플렉서를 사용하는 것을 고려하세요. v0.6.3부터는 기존 모니터 프로세스를 재시작하지 않고 별도의 터미널 인스턴스에서 `-m creator`를 실행하여 추가 크리에이터를 모니터링할 수 있습니다."
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "I/waCh33CnIQ43C1S52+E9F2u2BqshlAnWxayVSHBoY=",
+    "originContent": "### Update the Program",
+    "translatedContent": "### 프로그램 업데이트"
+  },
+  {
+    "row": 85,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 86,
+    "rowsha": "PgmRnkKm/pf4Ay0UKwKWxBAmDLyLCKmTmZIVk00x33w=",
+    "originContent": "./fansly-scraper update",
+    "translatedContent": "./fansly-scraper update"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 프로젝트 로드맵 및 고급 설정"
+  },
+  {
+    "row": 89,
+    "rowsha": "Jd0wgooUfs0X1D3PPrDRFlbYFsWr0ORwoF0PSRW5vjk=",
+    "originContent": "## Project Roadmap & Advanced Setup",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "우리의 개발 진행 상황은 **[프로젝트 로드맵](https://github.com/users/agnosto/projects/1)**에서 공개적으로 추적됩니다. 우리가 현재 작업 중인 내용, 미래 계획, 그리고 토론에 참여할 수 있습니다."
+  },
+  {
+    "row": 91,
+    "rowsha": "3sIWYShFHPBcTplVYnfpVpi6EHfx4n7odW8yqIw8zbk=",
+    "originContent": "Our development is tracked publicly on our **[Project Roadmap](https://github.com/users/agnosto/projects/1)**. You can see what we're working on, what's planned for the future, and contribute to the discussion.",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **설정 가이드**: **[공식 위키](https://github.com/agnosto/fansly-scraper/wiki)** 참조"
+  },
+  {
+    "row": 93,
+    "rowsha": "kxonLMDhUjf3iCYluaYvgng/D518UI5z9clfSTwNHaA=",
+    "originContent": "- **Configuration Guide**: See the **[Official Wiki](https://github.com/agnosto/fansly-scraper/wiki)**",
+    "translatedContent": "- **소스에서 빌드하기**:"
+  },
+  {
+    "row": 94,
+    "rowsha": "lKGyUD0Kn0nrGxf/P0z47nL9LbHi8f4bxH+FX/BtNQc=",
+    "originContent": "- **Build from source**:",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+    "originContent": "  ```bash",
+    "translatedContent": "  ```bash"
+  },
+  {
+    "row": 96,
+    "rowsha": "gY5y8fxs648iB3ZYxf+iuhNwUxD4C7FyuF0SxFR5BAQ=",
+    "originContent": "  git clone https://github.com/agnosto/fansly-scraper && cd fansly-scraper",
+    "translatedContent": "  git clone https://github.com/agnosto/fansly-scraper && cd fansly-scraper"
+  },
+  {
+    "row": 97,
+    "rowsha": "Y3/HapNK9+p531U5/lzJXb1FH+R+JpwNEmjdpkmElNQ=",
+    "originContent": "  go build -v -ldflags \"-w -s\" -o fansly-scraper ./cmd/fansly-scraper",
+    "translatedContent": "  go build -v -ldflags \"-w -s\" -o fansly-scraper ./cmd/fansly-scraper"
+  },
+  {
+    "row": 98,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기여하기"
+  },
+  {
+    "row": 100,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "기여는 언제나 환영하며 매우 감사드립니다! 버그 보고, 기능 제안 또는 풀 리퀘스트 제출 등 어떤 형태든 여러분의 도움이 소중합니다."
+  },
+  {
+    "row": 102,
+    "rowsha": "727SPhjw/pyRlF0j64A3KZTNc9pnT4xi+ZxHD0DEkvc=",
+    "originContent": "Contributions are welcome and greatly appreciated! Whether it's reporting a bug, proposing a feature, or submitting a pull request, your help is valued.",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![alt text](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)"
+  },
+  {
+    "row": 104,
+    "rowsha": "zF2F6pdw6GfCVXDbXGdeNUWqnd9oh5mXpSPaiEwdBC4=",
+    "originContent": "![alt text](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![alt text](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)"
+  },
+  {
+    "row": 106,
+    "rowsha": "vYalHJpDoIQJSmV+GQZyuRat31cZCXzM1jXvAorPgrg=",
+    "originContent": "![alt text](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "시작하기 전에 [기여 지침](https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./CONTRIBUTING.md)을 꼭 읽어주세요.  "
+  },
+  {
+    "row": 108,
+    "rowsha": "u0wWp2kaMAhrMxIfgVIp+CLTvP/njooxvd9/hGWOH5I=",
+    "originContent": "Please read our [Contributing Guidelines](https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./CONTRIBUTING.md) before you start.",
+    "translatedContent": "[이슈 탭](https://github.com/agnosto/fansly-scraper/issues)에서 관심 있는 작업이 있는지 확인해 보세요."
+  },
+  {
+    "row": 109,
+    "rowsha": "ugDCMk3v42CGSVTKFNgQl4jhhKWqpUz5HDJiLMd4Cjo=",
+    "originContent": "Check the [Issues tab](https://github.com/agnosto/fansly-scraper/issues) to see if there's a task you'd like to take on.",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 알려진 문제"
+  },
+  {
+    "row": 111,
+    "rowsha": "QnKQgThnoAqznwiN4+axqy8APTfZTdp6m9i+oi/OrN0=",
+    "originContent": "## Known Issues",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **재다운로드**: v0.8.3부터 파일 명명 규칙이 변경되어 미디어가 재다운로드될 수 있습니다.  "
+  },
+  {
+    "row": 113,
+    "rowsha": "YddLRspjnelbMHME3wLLUWVFMYySJd6kvUxUElar71M=",
+    "originContent": "- **Redownloading**: As of v0.8.3, file naming convention was changed causing redownloading of media.",
+    "translatedContent": "- **채팅 녹화**: 재연결 시 가끔 메시지가 누락될 수 있습니다.  "
+  },
+  {
+    "row": 114,
+    "rowsha": "j0wQwgrRLCQlo9zXSfTZYjSWwymlJQgcLa1rS/FTzZ4=",
+    "originContent": "- **Chat recording**: May occasionally miss messages during reconnections",
+    "translatedContent": "- **MacOS 사용자**: [시스템 설정](https://github.com/gen2brain/beeep/issues/67#issuecomment-2646474049)에서 알림 허용이 필요할 수 있습니다.  "
+  },
+  {
+    "row": 115,
+    "rowsha": "NnoBbdhwPXJl4g1Caiteky8E+6OE5VXL4nFlGT/DC9E=",
+    "originContent": "- **MacOS users**: May need to allow notifications in [system settings](https://github.com/gen2brain/beeep/issues/67#issuecomment-2646474049)",
+    "translatedContent": "- **라이브 상태**: TUI에서 `r` 키를 눌러 라이브 상태를 새로고침하세요.  "
+  },
+  {
+    "row": 116,
+    "rowsha": "XTBsMJ0yR6SOpzbLyGwUkq46h/YVFoWH1YVAD6nZZw4=",
+    "originContent": "- **Live status**: Press `r` in TUI to refresh live status",
+    "translatedContent": "- **중복 파일**: Fansly API 구조로 인해 같은 이미지가 두 번 나타날 수 있습니다.  "
+  },
+  {
+    "row": 117,
+    "rowsha": "WRW2i9s4HGy7yrtqyRSg2YloSflCAP6YSmbz6A2ZxuI=",
+    "originContent": "- **Duplicate files**: Sometimes the same image may appear twice due to Fansly's API structure",
+    "translatedContent": "- **라이브스트림 파일명 날짜 형식**: 스트림이 중단되고 재녹화 시도 시, 날짜 형식이 구체적이지 않으면 (예: 타임스탬프 없음) 두 VOD가 같은 이름이 되어 저장에 실패할 수 있습니다. 현재는 다음 형식 중 하나를 사용하세요: `2006-01-02_15:04:05` 또는 `20060102_150405`"
+  },
+  {
+    "row": 118,
+    "rowsha": "Ayk/FErYvAsAuC9FeHTmPkiRnKiUJCZbSnbLYFl46+8=",
+    "originContent": "- **Date formats for livestream filename**: In the event a stream gets interrupted and reattempts to record, if the date format isn't specific enough (ie, no timestamp), it may fail to save the stream after as both vods will be the same name, for now use one of these: `2006-01-02_15:04:05` or `20060102_150405`",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 프로젝트 지원하기"
+  },
+  {
+    "row": 120,
+    "rowsha": "gGL3ILFnDSmvTIvd27rHorSKn89ncWEB9sZl8LTnHss=",
+    "originContent": "## Support the Project",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 도구가 도움이 되었다면 깃허브 후원을 고려해 주세요:"
+  },
+  {
+    "row": 122,
+    "rowsha": "rt/DTWpyJKRACo+DJHUOuAp8B2lVcO3tJLzS1oq/aw0=",
+    "originContent": "If this tool helps you, consider sponsoring on github:",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[![Sponsor agnosto on GitHub](https://img.shields.io/badge/Sponsor-%23EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/agnosto)"
+  },
+  {
+    "row": 124,
+    "rowsha": "KQ3OSqlq+/Gg/DsayZDvuWJJcgJ5NphuTfH4LoFfA9A=",
+    "originContent": "[![Sponsor agnosto on GitHub](https://img.shields.io/badge/Sponsor-%23EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/agnosto)",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는 암호화폐를 통한 일회성 기부도 가능합니다:"
+  },
+  {
+    "row": 126,
+    "rowsha": "DoKs4/DL2pGo21ZiznI5x6j3j+IdG7kfHrhaR9k/530=",
+    "originContent": "Alternatively, you can make a one-time donation via cryptocurrency:",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<table>"
+  },
+  {
+    "row": 128,
+    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+    "originContent": "<table>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 129,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "    <td align=\"center\"><strong>비트코인 (BTC)</strong></td>"
+  },
+  {
+    "row": 130,
+    "rowsha": "2MM2I6zGgL/DIhIvjW9OgO+6V0nE5dcXjmxSI9s4JOo=",
+    "originContent": "    <td align=\"center\"><strong>Bitcoin (BTC)</strong></td>",
+    "translatedContent": "    <td align=\"center\"><strong>솔라나 (SOL)</strong></td>"
+  },
+  {
+    "row": 131,
+    "rowsha": "GQ65JtCk6CG++bSdUFS/e4IbHIB7TuTAw2RtmmAN+bE=",
+    "originContent": "    <td align=\"center\"><strong>Solana (SOL)</strong></td>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 132,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 133,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "    <td align=\"center\">"
+  },
+  {
+    "row": 134,
+    "rowsha": "ZCPaQqh+0Ok2/IfoIzuPUoA81jl45fnC31mvIlr6piY=",
+    "originContent": "    <td align=\"center\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/btc_qr.png\" alt=\"Bitcoin QR Code\" width=\"200\"/>"
+  },
+  {
+    "row": 135,
+    "rowsha": "6ETjTL4JYXQ26iwdyh1xZXZGJa+313tUIxEE+Orlcqs=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/btc_qr.png\" alt=\"Bitcoin QR Code\" width=\"200\"/>",
+    "translatedContent": "      <p><code>bc1q0e78wrtc9ezp6tqv000wfewgqf2ue4tpzdk7ee</code></p>"
+  },
+  {
+    "row": 136,
+    "rowsha": "0LL61knUT3YQYNQ3qmOr7+m/0NCUM6JjnS6fU9nnXlk=",
+    "originContent": "      <p><code>bc1q0e78wrtc9ezp6tqv000wfewgqf2ue4tpzdk7ee</code></p>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 137,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    <td align=\"center\">"
+  },
+  {
+    "row": 138,
+    "rowsha": "ZCPaQqh+0Ok2/IfoIzuPUoA81jl45fnC31mvIlr6piY=",
+    "originContent": "    <td align=\"center\">",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "ky1RUr2RF87i3KQQ7x669yGkKt8WfeG4TvoU6lyYbhE=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/sol_qr.png\" alt=\"Solana QR Code\" width=\"200\"/>",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/sol_qr.png\" alt=\"솔라나 QR 코드\" width=\"200\"/>"
+  },
+  {
+    "row": 140,
+    "rowsha": "+rg7G/rkzM6JRZY9XGAHM+7Hu0Jt0na8w5qL72k7DeE=",
+    "originContent": "      <p><code>Bv3kYZcwSTHXAQtnPddTF27D3F6Gc29v2MfFLqmGF6Gf</code></p>",
+    "translatedContent": "      <p><code>Bv3kYZcwSTHXAQtnPddTF27D3F6Gc29v2MfFLqmGF6Gf</code></p>"
+  },
+  {
+    "row": 141,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 142,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 143,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "789MAWgjFWXhd0mIsjASBrf6dECsMF4LAJEW0IAIrlI=",
+    "originContent": "> [!CAUTION]",
+    "translatedContent": "> [!CAUTION]"
+  },
+  {
+    "row": 148,
+    "rowsha": "Stobnto9Gee8kTtGDTP4geggTqTuy0Oo8OI1JiajVGg=",
+    "originContent": "> **Disclaimer**: This tool is not affiliated with Fansly or Select Media LLC. Use at your own risk. The developer of this script is not responsible for the end users' actions or any outcomes that may be taken upon the end users' account. Use at your own risk.",
+    "translatedContent": "> **면책 조항**: 이 도구는 Fansly 또는 Select Media LLC와 관련이 없습니다. 사용은 전적으로 사용자 책임입니다. 이 스크립트 개발자는 최종 사용자의 행동이나 최종 사용자의 계정에 발생할 수 있는 결과에 대해 책임지지 않습니다. 사용은 전적으로 사용자 책임입니다."
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

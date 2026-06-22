@@ -1,0 +1,671 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n\n# fbchat-muqit Facebook & Messenger API\n\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fbchat-muqit)\n![PyPI - Version](https://img.shields.io/pypi/v/fbchat-muqit)\n[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n\n**fbchat-muqit** An Unofficial Asynchronous Facebook Messenger API designed to interact with Facebook and Messenger. As It is an Unofficial API we are not responsible if you get banned by Facebook. We recommend to use a dummy Facebook account. For more details check the [Documentation](http://fbchat-muqit.rtfd.io/).\n\n</div>\n\n> [!Note]\n> Bumped from version `1.1.31` to `1.2.0` and version `1.2.0` is a rewrite version meaning the library has been fully rewritten and Major changes has been made. The API is now fully Documented and the usage examples are updated.\n\n> [!WARNING]\n> Due to `end-to-end` encryption sending messages to other Users is not supported anymore. You can send messages to Group Chat, Room Chat and to pages. [See more](https://about.fb.com/news/2024/03/end-to-end-encryption-on-messenger-explained/)\n> You may still be able to send messages to another User if the that User account is inactive for many years because `end-to-end` encryption is not applied when sending message to those account unless the account is Opened again.\n\n## 🛠️ Installation\n\nYou can install fbchat-muqit using pip:\n",
+    "ContentSha": "2V2l356bvzTxR5pLmdfAndhKjErc5Rf5V3Dzgz0mmk8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n\n# fbchat-muqit 페이스북 & 메신저 API\n\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fbchat-muqit)\n![PyPI - Version](https://img.shields.io/pypi/v/fbchat-muqit)\n[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n\n**fbchat-muqit** 비공식 비동기 페이스북 메신저 API로, 페이스북 및 메신저와 상호작용하도록 설계되었습니다. 비공식 API이므로 페이스북에서 차단당해도 당사는 책임지지 않습니다. 더미 페이스북 계정 사용을 권장합니다. 자세한 내용은 [문서](http://fbchat-muqit.rtfd.io/)를 참고하세요.\n\n</div>\n\n> [!Note]\n> 버전 `1.1.31`에서 `1.2.0`으로 업데이트되었으며, `1.2.0` 버전은 라이브러리가 완전히 재작성된 리라이팅 버전으로 주요 변경사항이 포함되어 있습니다. API가 완전하게 문서화되었고 사용 예제도 업데이트되었습니다.\n\n> [!WARNING]\n> `종단 간(end-to-end)` 암호화로 인해 다른 사용자에게 메시지 전송은 더 이상 지원되지 않습니다. 그룹 채팅, 룸 채팅 및 페이지에는 메시지 전송이 가능합니다. [자세히 보기](https://about.fb.com/news/2024/03/end-to-end-encryption-on-messenger-explained/)\n> 해당 사용자의 계정이 수년간 비활성 상태인 경우 `종단 간` 암호화가 적용되지 않으므로 메시지 전송이 가능할 수 있으나, 계정이 다시 활성화되면 암호화가 적용됩니다.\n\n## 🛠️ 설치\n\npip을 사용하여 fbchat-muqit을 설치할 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "/FAr+L/UHzGp7aMEn3/vMLy/VDBcprjtW/WtByrLlZs=",
+        "originContent": "# fbchat-muqit Facebook & Messenger API",
+        "translatedContent": "# fbchat-muqit 페이스북 & 메신저 API"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U/Ia9HXAiax2cg29yugh99tEiYn0i3fF7FPcQW2PaD4=",
+        "originContent": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fbchat-muqit)",
+        "translatedContent": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fbchat-muqit)"
+      },
+      {
+        "row": 6,
+        "rowsha": "WlbV0wb9yMsAzEh0wU0xuD2Kr5euTUQq6oheAgIRhGM=",
+        "originContent": "![PyPI - Version](https://img.shields.io/pypi/v/fbchat-muqit)",
+        "translatedContent": "![PyPI - Version](https://img.shields.io/pypi/v/fbchat-muqit)"
+      },
+      {
+        "row": 7,
+        "rowsha": "Cs+lyGYCBZqFCH5OBw2CIR2AQRWgOFEFSXZB+YDln3s=",
+        "originContent": "[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        "translatedContent": "[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "sBdDGsp2SrqTmQUwFKGIJ/0X9pIyPp4+w6cs2slU6yU=",
+        "originContent": "**fbchat-muqit** An Unofficial Asynchronous Facebook Messenger API designed to interact with Facebook and Messenger. As It is an Unofficial API we are not responsible if you get banned by Facebook. We recommend to use a dummy Facebook account. For more details check the [Documentation](http://fbchat-muqit.rtfd.io/).",
+        "translatedContent": "**fbchat-muqit** 비공식 비동기 페이스북 메신저 API로, 페이스북 및 메신저와 상호작용하도록 설계되었습니다. 비공식 API이므로 페이스북에서 차단당해도 당사는 책임지지 않습니다. 더미 페이스북 계정 사용을 권장합니다. 자세한 내용은 [문서](http://fbchat-muqit.rtfd.io/)를 참고하세요."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "GYyzO2jSfOc9J36Dp87a9IWg2JriE41moXjYvcPpfmg=",
+        "originContent": "> [!Note]",
+        "translatedContent": "> [!Note]"
+      },
+      {
+        "row": 14,
+        "rowsha": "gZ5F2orITZfoCp5sWOdeNsclnjoc5LuojZHtzgdrpvU=",
+        "originContent": "> Bumped from version `1.1.31` to `1.2.0` and version `1.2.0` is a rewrite version meaning the library has been fully rewritten and Major changes has been made. The API is now fully Documented and the usage examples are updated.",
+        "translatedContent": "> 버전 `1.1.31`에서 `1.2.0`으로 업데이트되었으며, `1.2.0` 버전은 라이브러리가 완전히 재작성된 리라이팅 버전으로 주요 변경사항이 포함되어 있습니다. API가 완전하게 문서화되었고 사용 예제도 업데이트되었습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 17,
+        "rowsha": "tv1P1ujJPRpPWe75glEeVM091jrXkjhuYsfYocljCbU=",
+        "originContent": "> Due to `end-to-end` encryption sending messages to other Users is not supported anymore. You can send messages to Group Chat, Room Chat and to pages. [See more](https://about.fb.com/news/2024/03/end-to-end-encryption-on-messenger-explained/)",
+        "translatedContent": "> `종단 간(end-to-end)` 암호화로 인해 다른 사용자에게 메시지 전송은 더 이상 지원되지 않습니다. 그룹 채팅, 룸 채팅 및 페이지에는 메시지 전송이 가능합니다. [자세히 보기](https://about.fb.com/news/2024/03/end-to-end-encryption-on-messenger-explained/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "dYfJhWHZz0OEnpHOqpTchuZeyFTZok/yW1rBepWQNCc=",
+        "originContent": "> You may still be able to send messages to another User if the that User account is inactive for many years because `end-to-end` encryption is not applied when sending message to those account unless the account is Opened again.",
+        "translatedContent": "> 해당 사용자의 계정이 수년간 비활성 상태인 경우 `종단 간` 암호화가 적용되지 않으므로 메시지 전송이 가능할 수 있으나, 계정이 다시 활성화되면 암호화가 적용됩니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "mjxiuRZ1/CyihNdVofQBPNtawI9pDP9M+RFrU+so5kM=",
+        "originContent": "## 🛠️ Installation",
+        "translatedContent": "## 🛠️ 설치"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "12hs+nPV5EYazbD7+YzX9Dyp5Ze8HHflsk5Fl9/UF48=",
+        "originContent": "You can install fbchat-muqit using pip:",
+        "translatedContent": "pip을 사용하여 fbchat-muqit을 설치할 수 있습니다:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install fbchat-muqit\n\n```",
+    "ContentSha": "wfSZW06Ha2D9WknlyxLQwX3jBaQyyNjRq01EdElhvX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install fbchat-muqit\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TpwqdRwKXtXYEdpw3T31d1zK6FvjP9Yh1ANQ7jW91qM=",
+        "originContent": "pip install fbchat-muqit",
+        "translatedContent": "pip install fbchat-muqit"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nFor the latest development version:\n",
+    "ContentSha": "cZjsEuuaImU1hFu5eu5it4hACCvV1amtFmvQLKIQ1f4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "최신 개발 버전의 경우:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "최신 개발 버전의 경우:"
+      },
+      {
+        "row": 2,
+        "rowsha": "0duvBz+ChyGRLp1hbDEIcl3FPfbNUV428KFtmPJWEto=",
+        "originContent": "For the latest development version:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\npip install git+https://github.com/togashigreat/fbchat-muqit.git\n\n```",
+    "ContentSha": "ywLUixIh1hbC2ecAJ2Ag8T1aULgTxAtMClRDtNye19M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install git+https://github.com/togashigreat/fbchat-muqit.git\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/WP4qNzTekpB3qJh616aZKcvcCxxvKKi7fAHCskR7vE=",
+        "originContent": "pip install git+https://github.com/togashigreat/fbchat-muqit.git",
+        "translatedContent": "pip install git+https://github.com/togashigreat/fbchat-muqit.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 📙 Documentation\n\nThe API is Documented. [Read The Documentation](http://fbchat-muqit.rtfd.io/).\nThe older version [1.1.31](https://fbchat-muqit.readthedocs.io/en/v1.1.31/) Documentation is available as well.\n\n## 🔧 Prerequisites\n\n- Python 3.9+\n- A Facebook account (It's safer to use old unused account)\n- Facebook account cookies 🍪\n\n## 📖 Usage Example\n\nTo login in Facebook you will need Facebook account cookies. Since login via email and password is no longer supported.\n\nTo get your Facebook account cookies. First login in your Facebook account and then add [C3C Chrome extension](https://github.com/c3cbot/c3c-ufc-utility) in your browser. Open a your Facebook account in a browser tab and use this extension to get your account cookies. Copy the cookies and save them in a json file. We will use the cookies to interact with Facebook server. We will call this account `Client` account.\n\nA basic example of How to use it.\n",
+    "ContentSha": "fv6OUODlWtsDSIeHoIBYHh0PRS5IO5sMvXD+bw5ZWGM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📙 문서\n\nAPI가 문서화되어 있습니다. [문서 읽기](http://fbchat-muqit.rtfd.io/).  \n이전 버전 [1.1.31](https://fbchat-muqit.readthedocs.io/en/v1.1.31/) 문서도 이용 가능합니다.\n\n## 🔧 전제 조건\n\n- Python 3.9 이상  \n- 페이스북 계정 (사용하지 않는 오래된 계정을 사용하는 것이 더 안전합니다)  \n- 페이스북 계정 쿠키 🍪  \n\n## 📖 사용 예시\n\n페이스북에 로그인하려면 페이스북 계정 쿠키가 필요합니다. 이메일과 비밀번호를 통한 로그인이 더 이상 지원되지 않기 때문입니다.\n\n페이스북 계정 쿠키를 얻으려면, 먼저 페이스북 계정에 로그인한 후 브라우저에 [C3C Chrome 확장 프로그램](https://github.com/c3cbot/c3c-ufc-utility)을 추가하세요. 브라우저 탭에서 페이스북 계정을 열고 이 확장 프로그램을 사용해 계정 쿠키를 가져옵니다. 쿠키를 복사하여 json 파일에 저장하세요. 이 쿠키를 사용하여 페이스북 서버와 상호작용할 것입니다. 이 계정을 `Client` 계정이라고 부릅니다.\n\n기본적인 사용 예시입니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📙 문서"
+      },
+      {
+        "row": 2,
+        "rowsha": "BdMNASb145DDTYtzRr5Av1ReSZ4t+IXLFJquZ6A9Gu8=",
+        "originContent": "## 📙 Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "API가 문서화되어 있습니다. [문서 읽기](http://fbchat-muqit.rtfd.io/).  "
+      },
+      {
+        "row": 4,
+        "rowsha": "9io8SBYYaEfOQrfg3quK4a99si5tORrYIN/5s5A5kCE=",
+        "originContent": "The API is Documented. [Read The Documentation](http://fbchat-muqit.rtfd.io/).",
+        "translatedContent": "이전 버전 [1.1.31](https://fbchat-muqit.readthedocs.io/en/v1.1.31/) 문서도 이용 가능합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "0tL9YVVTOEDbZeib19l0tKcdqZJCRReLeOPwBlUyjPs=",
+        "originContent": "The older version [1.1.31](https://fbchat-muqit.readthedocs.io/en/v1.1.31/) Documentation is available as well.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔧 전제 조건"
+      },
+      {
+        "row": 7,
+        "rowsha": "egnhCDsUg4X7NZXukKbrz9lAr95P4vVy1OlvKMbI7fc=",
+        "originContent": "## 🔧 Prerequisites",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Python 3.9 이상  "
+      },
+      {
+        "row": 9,
+        "rowsha": "oao46NuvlMix1AMfHFtHBJQYkEJyzvFdSI38tpKbxFQ=",
+        "originContent": "- Python 3.9+",
+        "translatedContent": "- 페이스북 계정 (사용하지 않는 오래된 계정을 사용하는 것이 더 안전합니다)  "
+      },
+      {
+        "row": 10,
+        "rowsha": "fCTYgkH8LwyQdmbNoy9NTODSrhGzuiKKRIvHCnNCnp8=",
+        "originContent": "- A Facebook account (It's safer to use old unused account)",
+        "translatedContent": "- 페이스북 계정 쿠키 🍪  "
+      },
+      {
+        "row": 11,
+        "rowsha": "OTkpscIjXOAm6l7d1Tm/DSHkDocLg3RYHWwc5d2o3kU=",
+        "originContent": "- Facebook account cookies 🍪",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📖 사용 예시"
+      },
+      {
+        "row": 13,
+        "rowsha": "5YuEHy6USRh60dbZgOPiz5qsfVHAmEBMhduUfcfWHfE=",
+        "originContent": "## 📖 Usage Example",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "페이스북에 로그인하려면 페이스북 계정 쿠키가 필요합니다. 이메일과 비밀번호를 통한 로그인이 더 이상 지원되지 않기 때문입니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "dnK/wRse8Vm5KrtPyuZhWhgHEfqfKaFMDJK/GXtuvmA=",
+        "originContent": "To login in Facebook you will need Facebook account cookies. Since login via email and password is no longer supported.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "페이스북 계정 쿠키를 얻으려면, 먼저 페이스북 계정에 로그인한 후 브라우저에 [C3C Chrome 확장 프로그램](https://github.com/c3cbot/c3c-ufc-utility)을 추가하세요. 브라우저 탭에서 페이스북 계정을 열고 이 확장 프로그램을 사용해 계정 쿠키를 가져옵니다. 쿠키를 복사하여 json 파일에 저장하세요. 이 쿠키를 사용하여 페이스북 서버와 상호작용할 것입니다. 이 계정을 `Client` 계정이라고 부릅니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "jfFVZ/cP025kMPWxHm+7tJnibYkxTtTkVEesDPe1N7c=",
+        "originContent": "To get your Facebook account cookies. First login in your Facebook account and then add [C3C Chrome extension](https://github.com/c3cbot/c3c-ufc-utility) in your browser. Open a your Facebook account in a browser tab and use this extension to get your account cookies. Copy the cookies and save them in a json file. We will use the cookies to interact with Facebook server. We will call this account `Client` account.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "기본적인 사용 예시입니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "/omMSQI1qzaN6SArXlNBQgVJXxwBF1z1TN46qA7G3bY=",
+        "originContent": "A basic example of How to use it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```python\nfrom fbchat_muqit import Client, Message, EventType\n\nclient = Client(cookies_file_path=\"cookies.json\")\n\n@client.event\nasync def on_message(message: Message):\n    # To avoid spam check if sender_id is client's id or not\n    if message.sender_id != client.uid:\n        # echo the message\n        await client.send_message(message.text, message.thread_id)\n\nclient.run()\n\n```",
+    "ContentSha": "P5hERr6ztsf8xhgIezCXYN6IFW1TbuBnpYISwEKiI7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom fbchat_muqit import Client, Message, EventType\n\nclient = Client(cookies_file_path=\"cookies.json\")\n\n@client.event\nasync def on_message(message: Message):\n    # To avoid spam check if sender_id is client's id or not\n    if message.sender_id != client.uid:\n        # echo the message\n        await client.send_message(message.text, message.thread_id)\n\nclient.run()\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "yRnVb1RpzFaHihxowZUTW+Wyr9Sd2YlIwq6H3a/unRQ=",
+        "originContent": "from fbchat_muqit import Client, Message, EventType",
+        "translatedContent": "from fbchat_muqit import Client, Message, EventType"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UHsy+2OUTqly2E2ZZAUyBGMcgDDP1Vtxoyy0Mgmbqlc=",
+        "originContent": "client = Client(cookies_file_path=\"cookies.json\")",
+        "translatedContent": "client = Client(cookies_file_path=\"cookies.json\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "R7vSbpA5UBwacUaCMjoeiRn3PK/Fzmkb5NyeVJcy7O8=",
+        "originContent": "@client.event",
+        "translatedContent": "@client.event"
+      },
+      {
+        "row": 7,
+        "rowsha": "4EnskKu3aUoiK6xIPoYVElRBarFCJ6ZJhUPiQYYYueg=",
+        "originContent": "async def on_message(message: Message):",
+        "translatedContent": "async def on_message(message: Message):"
+      },
+      {
+        "row": 8,
+        "rowsha": "Lzwz0GhAdcmYBEl4IPFh8yRd6UhLlaXOK1AZXUl4+64=",
+        "originContent": "    # To avoid spam check if sender_id is client's id or not",
+        "translatedContent": "    # To avoid spam check if sender_id is client's id or not"
+      },
+      {
+        "row": 9,
+        "rowsha": "siIJksCXuxWLj+M34NP0zJXr2Zcbruy+1msg+zZvaeg=",
+        "originContent": "    if message.sender_id != client.uid:",
+        "translatedContent": "    if message.sender_id != client.uid:"
+      },
+      {
+        "row": 10,
+        "rowsha": "Y4u8ywn7jmrjxQRAV8HkodAeeDPMYzrBy7sz/0KW54k=",
+        "originContent": "        # echo the message",
+        "translatedContent": "        # echo the message"
+      },
+      {
+        "row": 11,
+        "rowsha": "bMHYjD+4cyzj/FKe1olAYke1OcxUKi/U45TQuoRyU3g=",
+        "originContent": "        await client.send_message(message.text, message.thread_id)",
+        "translatedContent": "        await client.send_message(message.text, message.thread_id)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "6EU8zCFoJx4hKFnrMAj3UJjdeWbZPosruUA/JyQxrRw=",
+        "originContent": "client.run()",
+        "translatedContent": "client.run()"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nSave the code in file `test.py` and now run the code.\n",
+    "ContentSha": "Es9rtGorpe80UDTpDV3XFvbw+foekwKKZmXAF3M0038=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "코드를 `test.py` 파일에 저장하고 이제 코드를 실행합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "코드를 `test.py` 파일에 저장하고 이제 코드를 실행합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "6K0DgjBqmxcCRS8FL+QwIe7fGN8/+zE+9BJ62zErPtw=",
+        "originContent": "Save the code in file `test.py` and now run the code.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npython3 test.py\n```",
+    "ContentSha": "ZittP+c846rPIfcZItttgb04WfemaAtNqO5r0CHaAcI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython3 test.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "viRVRFOWa/qCm575ALZlhC/1DZJwY9ksTEbD0u5cTl8=",
+        "originContent": "python3 test.py",
+        "translatedContent": "python3 test.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nIf It logins succesfully then Use another Facebook account to create a messenger group and add both of the accounts to the group. Now, send message to the group and fbchat_muqit Client account will listen to all incoming messages and events. If everything works properly It should reply and react to the message sent by your other account with an emoji.\n\n### 📄 License\n\nThis project is distributed under a dual-license model:\n\n- **BSD-3-Clause License**: Parts of the code are reused and adapted from the original [fbchat](https://github.com/fbchat-dev/fbchat) library, licensed under the BSD-3-Clause License.\n  See [LICENSE-BSD](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE-BSD.md) for details.\n\n- **GPL v3 License**: New contributions and modifications by Muhammad MuQiT/togashigreat are licensed under the GPL v3.0 License.\n  See [LICENSE](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE.md) for details.\n\n### ✉️Contact Me\n\n- [Facebook](https://facebook.com/muqit.dev)\n",
+    "ContentSha": "jC+pxYBn5q9/izwyoF9Bm1W3xLuLMhBfIoPizqHiRQE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "만약 성공적으로 로그인되면 다른 페이스북 계정을 사용하여 메신저 그룹을 만들고 두 계정 모두를 그룹에 추가하세요. 이제 그룹에 메시지를 보내면 fbchat_muqit 클라이언트 계정이 모든 수신 메시지와 이벤트를 수신합니다. 모든 것이 제대로 작동하면 다른 계정에서 보낸 메시지에 이모지로 답장하고 반응해야 합니다.\n\n### 📄 라이선스\n\n이 프로젝트는 이중 라이선스 모델로 배포됩니다:\n\n- **BSD-3-Clause 라이선스**: 코드 일부는 원본 [fbchat](https://github.com/fbchat-dev/fbchat) 라이브러리에서 재사용 및 수정되었으며 BSD-3-Clause 라이선스 하에 있습니다.\n  자세한 내용은 [LICENSE-BSD](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE-BSD.md)를 참조하세요.\n\n- **GPL v3 라이선스**: Muhammad MuQiT/togashigreat의 새로운 기여 및 수정 사항은 GPL v3.0 라이선스 하에 있습니다.\n  자세한 내용은 [LICENSE](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE.md)를 참조하세요.\n\n### ✉️ 연락처\n\n- [페이스북](https://facebook.com/muqit.dev)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "만약 성공적으로 로그인되면 다른 페이스북 계정을 사용하여 메신저 그룹을 만들고 두 계정 모두를 그룹에 추가하세요. 이제 그룹에 메시지를 보내면 fbchat_muqit 클라이언트 계정이 모든 수신 메시지와 이벤트를 수신합니다. 모든 것이 제대로 작동하면 다른 계정에서 보낸 메시지에 이모지로 답장하고 반응해야 합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "ju+EzbA7Eyt4jCHpSKiUKSePx9r4OqPV8jTuwTYewgs=",
+        "originContent": "If It logins succesfully then Use another Facebook account to create a messenger group and add both of the accounts to the group. Now, send message to the group and fbchat_muqit Client account will listen to all incoming messages and events. If everything works properly It should reply and react to the message sent by your other account with an emoji.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 📄 라이선스"
+      },
+      {
+        "row": 4,
+        "rowsha": "84uz716F4ieblKymvF822ssVZlRcjW4TtyWPNTg/GVQ=",
+        "originContent": "### 📄 License",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트는 이중 라이선스 모델로 배포됩니다:"
+      },
+      {
+        "row": 6,
+        "rowsha": "/+0C7W6FelMHX0L7hG/z6wFknjWqSOfH0JzZVOufqzs=",
+        "originContent": "This project is distributed under a dual-license model:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **BSD-3-Clause 라이선스**: 코드 일부는 원본 [fbchat](https://github.com/fbchat-dev/fbchat) 라이브러리에서 재사용 및 수정되었으며 BSD-3-Clause 라이선스 하에 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "Zashg1SYUXaiyoydtmX+rFmV0wFT72afwp1W/e9qaZ4=",
+        "originContent": "- **BSD-3-Clause License**: Parts of the code are reused and adapted from the original [fbchat](https://github.com/fbchat-dev/fbchat) library, licensed under the BSD-3-Clause License.",
+        "translatedContent": "  자세한 내용은 [LICENSE-BSD](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE-BSD.md)를 참조하세요."
+      },
+      {
+        "row": 9,
+        "rowsha": "XXw+eXhymFu97rhkpICO/AnBH5ZX1KtZaIdna0G/yPI=",
+        "originContent": "  See [LICENSE-BSD](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE-BSD.md) for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **GPL v3 라이선스**: Muhammad MuQiT/togashigreat의 새로운 기여 및 수정 사항은 GPL v3.0 라이선스 하에 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "y+K3+dywB6mVa1PEgWuscrhn2Ls/dJ70vzlcHeqTy80=",
+        "originContent": "- **GPL v3 License**: New contributions and modifications by Muhammad MuQiT/togashigreat are licensed under the GPL v3.0 License.",
+        "translatedContent": "  자세한 내용은 [LICENSE](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE.md)를 참조하세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "e9QM4AXNK9ROWJqmqYNpqhLJyfQg/T8q1k5X64XrmV8=",
+        "originContent": "  See [LICENSE](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE.md) for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ✉️ 연락처"
+      },
+      {
+        "row": 14,
+        "rowsha": "W6D++DvOpa+th1uZ8w9yVevGqG9GK6dQfh5WhrqpUIg=",
+        "originContent": "### ✉️Contact Me",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [페이스북](https://facebook.com/muqit.dev)"
+      },
+      {
+        "row": 16,
+        "rowsha": "Pr/XO/fTQrEcY1bZei4ncSGZhC0Tmvz/DJhLDI03GB4=",
+        "originContent": "- [Facebook](https://facebook.com/muqit.dev)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

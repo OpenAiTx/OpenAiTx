@@ -1,0 +1,554 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "/FAr+L/UHzGp7aMEn3/vMLy/VDBcprjtW/WtByrLlZs=",
+    "originContent": "# fbchat-muqit Facebook & Messenger API",
+    "translatedContent": "# fbchat-muqit Facebook 与 Messenger API"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "U/Ia9HXAiax2cg29yugh99tEiYn0i3fF7FPcQW2PaD4=",
+    "originContent": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fbchat-muqit)",
+    "translatedContent": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fbchat-muqit)"
+  },
+  {
+    "row": 6,
+    "rowsha": "WlbV0wb9yMsAzEh0wU0xuD2Kr5euTUQq6oheAgIRhGM=",
+    "originContent": "![PyPI - Version](https://img.shields.io/pypi/v/fbchat-muqit)",
+    "translatedContent": "![PyPI - Version](https://img.shields.io/pypi/v/fbchat-muqit)"
+  },
+  {
+    "row": 7,
+    "rowsha": "Cs+lyGYCBZqFCH5OBw2CIR2AQRWgOFEFSXZB+YDln3s=",
+    "originContent": "[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+    "translatedContent": "[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "sBdDGsp2SrqTmQUwFKGIJ/0X9pIyPp4+w6cs2slU6yU=",
+    "originContent": "**fbchat-muqit** An Unofficial Asynchronous Facebook Messenger API designed to interact with Facebook and Messenger. As It is an Unofficial API we are not responsible if you get banned by Facebook. We recommend to use a dummy Facebook account. For more details check the [Documentation](http://fbchat-muqit.rtfd.io/).",
+    "translatedContent": "**fbchat-muqit** 是一个非官方的异步 Facebook Messenger API，旨在与 Facebook 和 Messenger 交互。由于这是非官方 API，我们不对您被 Facebook 禁止使用负责。建议使用一个虚拟 Facebook 账户。更多详情请查看 [文档](http://fbchat-muqit.rtfd.io/)。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "GYyzO2jSfOc9J36Dp87a9IWg2JriE41moXjYvcPpfmg=",
+    "originContent": "> [!Note]",
+    "translatedContent": "> [!Note]"
+  },
+  {
+    "row": 14,
+    "rowsha": "gZ5F2orITZfoCp5sWOdeNsclnjoc5LuojZHtzgdrpvU=",
+    "originContent": "> Bumped from version `1.1.31` to `1.2.0` and version `1.2.0` is a rewrite version meaning the library has been fully rewritten and Major changes has been made. The API is now fully Documented and the usage examples are updated.",
+    "translatedContent": "> 从版本 `1.1.31` 升级到 `1.2.0`，版本 `1.2.0` 是重写版本，意味着库已被完全重写并进行了重大更改。API 现已完全文档化，使用示例也已更新。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+    "originContent": "> [!WARNING]",
+    "translatedContent": "> [!WARNING]"
+  },
+  {
+    "row": 17,
+    "rowsha": "tv1P1ujJPRpPWe75glEeVM091jrXkjhuYsfYocljCbU=",
+    "originContent": "> Due to `end-to-end` encryption sending messages to other Users is not supported anymore. You can send messages to Group Chat, Room Chat and to pages. [See more](https://about.fb.com/news/2024/03/end-to-end-encryption-on-messenger-explained/)",
+    "translatedContent": "> 由于 `端到端` 加密，发送消息给其他用户已不再支持。您可以发送消息到群聊、房间聊天和页面。[查看更多](https://about.fb.com/news/2024/03/end-to-end-encryption-on-messenger-explained/)"
+  },
+  {
+    "row": 18,
+    "rowsha": "dYfJhWHZz0OEnpHOqpTchuZeyFTZok/yW1rBepWQNCc=",
+    "originContent": "> You may still be able to send messages to another User if the that User account is inactive for many years because `end-to-end` encryption is not applied when sending message to those account unless the account is Opened again.",
+    "translatedContent": "> 如果另一个用户账户多年未激活，您仍可能能够发送消息，因为发送消息到这些账户时不会应用 `端到端` 加密，除非该账户重新启用。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "mjxiuRZ1/CyihNdVofQBPNtawI9pDP9M+RFrU+so5kM=",
+    "originContent": "## 🛠️ Installation",
+    "translatedContent": "## 🛠️ 安装"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "12hs+nPV5EYazbD7+YzX9Dyp5Ze8HHflsk5Fl9/UF48=",
+    "originContent": "You can install fbchat-muqit using pip:",
+    "translatedContent": "您可以使用 pip 安装 fbchat-muqit："
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 25,
+    "rowsha": "TpwqdRwKXtXYEdpw3T31d1zK6FvjP9Yh1ANQ7jW91qM=",
+    "originContent": "pip install fbchat-muqit",
+    "translatedContent": "pip install fbchat-muqit"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "0duvBz+ChyGRLp1hbDEIcl3FPfbNUV428KFtmPJWEto=",
+    "originContent": "For the latest development version:",
+    "translatedContent": "对于最新的开发版本："
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 32,
+    "rowsha": "/WP4qNzTekpB3qJh616aZKcvcCxxvKKi7fAHCskR7vE=",
+    "originContent": "pip install git+https://github.com/togashigreat/fbchat-muqit.git",
+    "translatedContent": "pip install git+https://github.com/togashigreat/fbchat-muqit.git"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "BdMNASb145DDTYtzRr5Av1ReSZ4t+IXLFJquZ6A9Gu8=",
+    "originContent": "## 📙 Documentation",
+    "translatedContent": "## 📙 文档"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "9io8SBYYaEfOQrfg3quK4a99si5tORrYIN/5s5A5kCE=",
+    "originContent": "The API is Documented. [Read The Documentation](http://fbchat-muqit.rtfd.io/).",
+    "translatedContent": "该 API 有文档。[阅读文档](http://fbchat-muqit.rtfd.io/)。"
+  },
+  {
+    "row": 39,
+    "rowsha": "0tL9YVVTOEDbZeib19l0tKcdqZJCRReLeOPwBlUyjPs=",
+    "originContent": "The older version [1.1.31](https://fbchat-muqit.readthedocs.io/en/v1.1.31/) Documentation is available as well.",
+    "translatedContent": "旧版本 [1.1.31](https://fbchat-muqit.readthedocs.io/en/v1.1.31/) 的文档也可用。"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "egnhCDsUg4X7NZXukKbrz9lAr95P4vVy1OlvKMbI7fc=",
+    "originContent": "## 🔧 Prerequisites",
+    "translatedContent": "## 🔧 先决条件"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "oao46NuvlMix1AMfHFtHBJQYkEJyzvFdSI38tpKbxFQ=",
+    "originContent": "- Python 3.9+",
+    "translatedContent": "- Python 3.9+"
+  },
+  {
+    "row": 44,
+    "rowsha": "fCTYgkH8LwyQdmbNoy9NTODSrhGzuiKKRIvHCnNCnp8=",
+    "originContent": "- A Facebook account (It's safer to use old unused account)",
+    "translatedContent": "- 一个 Facebook 账户（使用旧的未使用账户更安全）"
+  },
+  {
+    "row": 45,
+    "rowsha": "OTkpscIjXOAm6l7d1Tm/DSHkDocLg3RYHWwc5d2o3kU=",
+    "originContent": "- Facebook account cookies 🍪",
+    "translatedContent": "- Facebook 账户 Cookies 🍪"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "5YuEHy6USRh60dbZgOPiz5qsfVHAmEBMhduUfcfWHfE=",
+    "originContent": "## 📖 Usage Example",
+    "translatedContent": "## 📖 使用示例"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "dnK/wRse8Vm5KrtPyuZhWhgHEfqfKaFMDJK/GXtuvmA=",
+    "originContent": "To login in Facebook you will need Facebook account cookies. Since login via email and password is no longer supported.",
+    "translatedContent": "登录 Facebook 需要 Facebook 账户 Cookies。因为不再支持通过邮箱和密码登录。"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "jfFVZ/cP025kMPWxHm+7tJnibYkxTtTkVEesDPe1N7c=",
+    "originContent": "To get your Facebook account cookies. First login in your Facebook account and then add [C3C Chrome extension](https://github.com/c3cbot/c3c-ufc-utility) in your browser. Open a your Facebook account in a browser tab and use this extension to get your account cookies. Copy the cookies and save them in a json file. We will use the cookies to interact with Facebook server. We will call this account `Client` account.",
+    "translatedContent": "获取 Facebook 账户 Cookies，首先登录你的 Facebook 账户，然后在浏览器中添加 [C3C Chrome 扩展](https://github.com/c3cbot/c3c-ufc-utility)。在浏览器标签页打开你的 Facebook 账户，使用该扩展获取账户 Cookies。复制 Cookies 并保存到 json 文件中。我们将使用这些 Cookies 与 Facebook 服务器交互。我们称该账户为 `Client` 账户。"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "/omMSQI1qzaN6SArXlNBQgVJXxwBF1z1TN46qA7G3bY=",
+    "originContent": "A basic example of How to use it.",
+    "translatedContent": "以下是一个基本的使用示例。"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 56,
+    "rowsha": "yRnVb1RpzFaHihxowZUTW+Wyr9Sd2YlIwq6H3a/unRQ=",
+    "originContent": "from fbchat_muqit import Client, Message, EventType",
+    "translatedContent": "from fbchat_muqit import Client, Message, EventType"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "UHsy+2OUTqly2E2ZZAUyBGMcgDDP1Vtxoyy0Mgmbqlc=",
+    "originContent": "client = Client(cookies_file_path=\"cookies.json\")",
+    "translatedContent": "client = Client(cookies_file_path=\"cookies.json\")"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "R7vSbpA5UBwacUaCMjoeiRn3PK/Fzmkb5NyeVJcy7O8=",
+    "originContent": "@client.event",
+    "translatedContent": "@client.event"
+  },
+  {
+    "row": 61,
+    "rowsha": "4EnskKu3aUoiK6xIPoYVElRBarFCJ6ZJhUPiQYYYueg=",
+    "originContent": "async def on_message(message: Message):",
+    "translatedContent": "async def on_message(message: Message):"
+  },
+  {
+    "row": 62,
+    "rowsha": "Lzwz0GhAdcmYBEl4IPFh8yRd6UhLlaXOK1AZXUl4+64=",
+    "originContent": "    # To avoid spam check if sender_id is client's id or not",
+    "translatedContent": "    # To avoid spam check if sender_id is client's id or not"
+  },
+  {
+    "row": 63,
+    "rowsha": "siIJksCXuxWLj+M34NP0zJXr2Zcbruy+1msg+zZvaeg=",
+    "originContent": "    if message.sender_id != client.uid:",
+    "translatedContent": "    if message.sender_id != client.uid:"
+  },
+  {
+    "row": 64,
+    "rowsha": "Y4u8ywn7jmrjxQRAV8HkodAeeDPMYzrBy7sz/0KW54k=",
+    "originContent": "        # echo the message",
+    "translatedContent": "        # echo the message"
+  },
+  {
+    "row": 65,
+    "rowsha": "bMHYjD+4cyzj/FKe1olAYke1OcxUKi/U45TQuoRyU3g=",
+    "originContent": "        await client.send_message(message.text, message.thread_id)",
+    "translatedContent": "        await client.send_message(message.text, message.thread_id)"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "6EU8zCFoJx4hKFnrMAj3UJjdeWbZPosruUA/JyQxrRw=",
+    "originContent": "client.run()",
+    "translatedContent": "client.run()"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "将代码保存到文件 `test.py` 中，然后运行该代码。"
+  },
+  {
+    "row": 71,
+    "rowsha": "6K0DgjBqmxcCRS8FL+QwIe7fGN8/+zE+9BJ62zErPtw=",
+    "originContent": "Save the code in file `test.py` and now run the code.",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 74,
+    "rowsha": "viRVRFOWa/qCm575ALZlhC/1DZJwY9ksTEbD0u5cTl8=",
+    "originContent": "python3 test.py",
+    "translatedContent": "python3 test.py"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果登录成功，则使用另一个 Facebook 账户创建一个 Messenger 群组，并将两个账户都添加到该群组中。现在，向群组发送消息，fbchat_muqit 客户端账户将监听所有传入的消息和事件。如果一切正常，它应该会回复并用表情符号对你另一个账户发送的消息做出反应。"
+  },
+  {
+    "row": 77,
+    "rowsha": "ju+EzbA7Eyt4jCHpSKiUKSePx9r4OqPV8jTuwTYewgs=",
+    "originContent": "If It logins succesfully then Use another Facebook account to create a messenger group and add both of the accounts to the group. Now, send message to the group and fbchat_muqit Client account will listen to all incoming messages and events. If everything works properly It should reply and react to the message sent by your other account with an emoji.",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 📄 许可证"
+  },
+  {
+    "row": 79,
+    "rowsha": "84uz716F4ieblKymvF822ssVZlRcjW4TtyWPNTg/GVQ=",
+    "originContent": "### 📄 License",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本项目采用双许可证模式分发："
+  },
+  {
+    "row": 81,
+    "rowsha": "/+0C7W6FelMHX0L7hG/z6wFknjWqSOfH0JzZVOufqzs=",
+    "originContent": "This project is distributed under a dual-license model:",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **BSD-3-Clause 许可证**：部分代码重用并改编自原始的 [fbchat](https://github.com/fbchat-dev/fbchat) 库，许可协议为 BSD-3-Clause 许可证。  "
+  },
+  {
+    "row": 83,
+    "rowsha": "Zashg1SYUXaiyoydtmX+rFmV0wFT72afwp1W/e9qaZ4=",
+    "originContent": "- **BSD-3-Clause License**: Parts of the code are reused and adapted from the original [fbchat](https://github.com/fbchat-dev/fbchat) library, licensed under the BSD-3-Clause License.",
+    "translatedContent": "  详情请参见 [LICENSE-BSD](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE-BSD.md)。"
+  },
+  {
+    "row": 84,
+    "rowsha": "XXw+eXhymFu97rhkpICO/AnBH5ZX1KtZaIdna0G/yPI=",
+    "originContent": "  See [LICENSE-BSD](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE-BSD.md) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **GPL v3 许可证**：Muhammad MuQiT/togashigreat 的新贡献和修改均采用 GPL v3.0 许可证。  "
+  },
+  {
+    "row": 86,
+    "rowsha": "y+K3+dywB6mVa1PEgWuscrhn2Ls/dJ70vzlcHeqTy80=",
+    "originContent": "- **GPL v3 License**: New contributions and modifications by Muhammad MuQiT/togashigreat are licensed under the GPL v3.0 License.",
+    "translatedContent": "  详情请参见 [LICENSE](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE.md)。"
+  },
+  {
+    "row": 87,
+    "rowsha": "e9QM4AXNK9ROWJqmqYNpqhLJyfQg/T8q1k5X64XrmV8=",
+    "originContent": "  See [LICENSE](https://raw.githubusercontent.com/togashigreat/fbchat-muqit/main/./LICENSE.md) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ✉️联系我"
+  },
+  {
+    "row": 89,
+    "rowsha": "W6D++DvOpa+th1uZ8w9yVevGqG9GK6dQfh5WhrqpUIg=",
+    "originContent": "### ✉️Contact Me",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Facebook](https://facebook.com/muqit.dev)"
+  },
+  {
+    "row": 91,
+    "rowsha": "Pr/XO/fTQrEcY1bZei4ncSGZhC0Tmvz/DJhLDI03GB4=",
+    "originContent": "- [Facebook](https://facebook.com/muqit.dev)",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,1091 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Fansly Scraper\n\n> [!IMPORTANT]\n> **Project Status Update**\n>\n> Due to a recent health scare, this project is taking a very far backseat priority in my life. Updates and support will be very minimal for the foreseeable future. Thank you for your understanding.\n>\n> If you're looking for a more actively maintained alternative with a full WebUI, live dashboard and VOD player, and automatic background monitoring and archiving, check out **[Accerso](https://accesro.one)**.\n\n> [!WARNING]\n> **‼️ Windows Defender False Positive** (literally no idea why or where this came from)\n>\n> The Windows executable of this program is frequently being flagged as **`Trojan:Script/Wacatac.B!ml`** by Windows Defender and other AV. This is a **false positive**.\n>\n> **Why is this happening?**\n> The `!ml` in the detection name means it was flagged by a Machine Learning model, not a human. Because this is an unsigned, open-source scraper tool that makes many internet requests, the automated system incorrectly flags it as suspicious. This is a common issue for many Go and Rust-based command-line tools.\n>\n> **Recommended Solution - Install via Go (should hopefully bypass AV issues):**\n> ```bash\n> go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest\n> ```\n>\n> **What you can do:**\n> 1.  **Trust the program:** You can temporarily disable Windows Defender to download and run the program, and then add it as an exception.\n> 2.  **Build from source:** If you have Go installed, you can build it yourself. The program is not flagged when you compile it locally or install via go.\n>\n> The code is fully open-source for you to inspect. It is safe to use. but I understand if the AV warnings are concerning.\n\nA simple all in one tool to download and monitor content from Fansly creators.\n\n> **⚠️ Currently in development** - Some features may not work perfectly. See [known issues](#known-issues) below.\n\n\n## Requirements\n\n- **Optional but highly recommended**: [ffmpeg](https://ffmpeg.org/) for livestream recording and saving higher quality videos. Follow [this guide](https://phoenixnap.com/kb/ffmpeg-windows) for installing to system path on windows.\n- **Optional**: [mt](https://github.com/mutschler/mt) for better contact sheets\n\n## Quick Start\n",
+    "ContentSha": "+ZvstSMo1qKevrMDfoJUeutsadFw0xygHo7RLJm8fbU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Fansly Scraper\n\n> [!IMPORTANT]\n> **Mise à jour du statut du projet**\n>\n> En raison d’un récent problème de santé, ce projet passe en très basse priorité dans ma vie. Les mises à jour et le support seront très limités pour un avenir prévisible. Merci pour votre compréhension.\n>\n> Si vous cherchez une alternative plus activement maintenue avec une interface Web complète, un tableau de bord en direct et un lecteur VOD, ainsi qu’une surveillance et archivage automatiques en arrière-plan, consultez **[Accerso](https://accesro.one)**.\n\n> [!WARNING]\n> **‼️ Faux positif de Windows Defender** (aucune idée d’où cela vient ni pourquoi)\n>\n> L’exécutable Windows de ce programme est fréquemment détecté comme **`Trojan:Script/Wacatac.B!ml`** par Windows Defender et d’autres antivirus. Il s’agit d’un **faux positif**.\n>\n> **Pourquoi cela arrive-t-il ?**\n> Le `!ml` dans le nom de détection signifie qu’il a été signalé par un modèle d’apprentissage automatique, pas par un humain. Comme il s’agit d’un outil scraper open-source non signé qui effectue de nombreuses requêtes internet, le système automatique le marque incorrectement comme suspect. C’est un problème courant pour de nombreux outils en ligne de commande basés sur Go et Rust.\n>\n> **Solution recommandée – Installer via Go (devrait idéalement contourner les problèmes AV) :**\n> ```bash\n> go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest\n> ```\n>\n> **Ce que vous pouvez faire :**\n> 1.  **Faire confiance au programme :** Vous pouvez temporairement désactiver Windows Defender pour télécharger et exécuter le programme, puis l’ajouter en exception.\n> 2.  **Compiler depuis la source :** Si vous avez Go installé, vous pouvez le compiler vous-même. Le programme n’est pas détecté lorsqu’il est compilé localement ou installé via go.\n>\n> Le code est entièrement open-source pour que vous puissiez l’inspecter. Il est sûr à utiliser, mais je comprends que les alertes AV puissent inquiéter.\n\nUn outil simple tout-en-un pour télécharger et surveiller le contenu des créateurs Fansly.\n\n> **⚠️ En cours de développement** – Certaines fonctionnalités peuvent ne pas fonctionner parfaitement. Voir les [problèmes connus](#known-issues) ci-dessous.\n\n\n## Prérequis\n\n- **Optionnel mais fortement recommandé** : [ffmpeg](https://ffmpeg.org/) pour l’enregistrement de livestreams et la sauvegarde de vidéos de meilleure qualité. Suivez [ce guide](https://phoenixnap.com/kb/ffmpeg-windows) pour l’installation dans le chemin système sous Windows.\n- **Optionnel** : [mt](https://github.com/mutschler/mt) pour de meilleures planches-contact\n\n## Démarrage rapide\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tEAD+ms2LTy1TUUnHgzeOtaHB2qE2QKrKbTTDET5avs=",
+        "originContent": "# Fansly Scraper",
+        "translatedContent": "# Fansly Scraper"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!IMPORTANT]"
+      },
+      {
+        "row": 4,
+        "rowsha": "McfPmxqnHCjk7tnMOa+mUDmEOn3fUz1tqV48QAGJ1v8=",
+        "originContent": "> **Project Status Update**",
+        "translatedContent": "> **Mise à jour du statut du projet**"
+      },
+      {
+        "row": 5,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 6,
+        "rowsha": "TWQuwIWvsDaitZ+FLENcSiYLbG5wn4R5jzXTNzzk1bY=",
+        "originContent": "> Due to a recent health scare, this project is taking a very far backseat priority in my life. Updates and support will be very minimal for the foreseeable future. Thank you for your understanding.",
+        "translatedContent": "> En raison d’un récent problème de santé, ce projet passe en très basse priorité dans ma vie. Les mises à jour et le support seront très limités pour un avenir prévisible. Merci pour votre compréhension."
+      },
+      {
+        "row": 7,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 8,
+        "rowsha": "0S7AFP3vTZSdV3aniqSo/vkNPX1M57Ery3Ae6HRMBv4=",
+        "originContent": "> If you're looking for a more actively maintained alternative with a full WebUI, live dashboard and VOD player, and automatic background monitoring and archiving, check out **[Accerso](https://accesro.one)**.",
+        "translatedContent": "> Si vous cherchez une alternative plus activement maintenue avec une interface Web complète, un tableau de bord en direct et un lecteur VOD, ainsi qu’une surveillance et archivage automatiques en arrière-plan, consultez **[Accerso](https://accesro.one)**."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 11,
+        "rowsha": "VSjGvyvE8DoGpI8MlVxNYcbK5Nlr+AeYdszHmOX1iUM=",
+        "originContent": "> **‼️ Windows Defender False Positive** (literally no idea why or where this came from)",
+        "translatedContent": "> **‼️ Faux positif de Windows Defender** (aucune idée d’où cela vient ni pourquoi)"
+      },
+      {
+        "row": 12,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 13,
+        "rowsha": "cJfzZMvWPeFYTnD55LTpPJLftACJywImjRDaZvZ/9OU=",
+        "originContent": "> The Windows executable of this program is frequently being flagged as **`Trojan:Script/Wacatac.B!ml`** by Windows Defender and other AV. This is a **false positive**.",
+        "translatedContent": "> L’exécutable Windows de ce programme est fréquemment détecté comme **`Trojan:Script/Wacatac.B!ml`** par Windows Defender et d’autres antivirus. Il s’agit d’un **faux positif**."
+      },
+      {
+        "row": 14,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 15,
+        "rowsha": "uIimVJT5rdQjh4CBOPktD3ZvepT/Id/McqmHRBgYr0w=",
+        "originContent": "> **Why is this happening?**",
+        "translatedContent": "> **Pourquoi cela arrive-t-il ?**"
+      },
+      {
+        "row": 16,
+        "rowsha": "wctLVTpX7JuPh/gw0rjTulyEaNh5iqaKFK5ilQ1QvYk=",
+        "originContent": "> The `!ml` in the detection name means it was flagged by a Machine Learning model, not a human. Because this is an unsigned, open-source scraper tool that makes many internet requests, the automated system incorrectly flags it as suspicious. This is a common issue for many Go and Rust-based command-line tools.",
+        "translatedContent": "> Le `!ml` dans le nom de détection signifie qu’il a été signalé par un modèle d’apprentissage automatique, pas par un humain. Comme il s’agit d’un outil scraper open-source non signé qui effectue de nombreuses requêtes internet, le système automatique le marque incorrectement comme suspect. C’est un problème courant pour de nombreux outils en ligne de commande basés sur Go et Rust."
+      },
+      {
+        "row": 17,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 18,
+        "rowsha": "z8ogJjEF5v7xs4jJzO9B/jG1W2FfFXWwOMfVYqm4DJw=",
+        "originContent": "> **Recommended Solution - Install via Go (should hopefully bypass AV issues):**",
+        "translatedContent": "> **Solution recommandée – Installer via Go (devrait idéalement contourner les problèmes AV) :**"
+      },
+      {
+        "row": 19,
+        "rowsha": "wdkEOeFso6tqiT11qRgwNFig8+xjxbk3wJKCvpYihdM=",
+        "originContent": "> ```bash",
+        "translatedContent": "> ```bash"
+      },
+      {
+        "row": 20,
+        "rowsha": "z+QVTiwlP3J6e2FcF6fqGvfdfdxAKnkAwanzkxuMNZk=",
+        "originContent": "> go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest",
+        "translatedContent": "> go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest"
+      },
+      {
+        "row": 21,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 22,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 23,
+        "rowsha": "oU0SVAHeqi3VBnW3QRe+kkb5pmYd04tT0oqmU7FimT0=",
+        "originContent": "> **What you can do:**",
+        "translatedContent": "> **Ce que vous pouvez faire :**"
+      },
+      {
+        "row": 24,
+        "rowsha": "EMZPDYXhQhDS06+1WVQrtSa969CxqB5zi5ZGHpa9YHE=",
+        "originContent": "> 1.  **Trust the program:** You can temporarily disable Windows Defender to download and run the program, and then add it as an exception.",
+        "translatedContent": "> 1.  **Faire confiance au programme :** Vous pouvez temporairement désactiver Windows Defender pour télécharger et exécuter le programme, puis l’ajouter en exception."
+      },
+      {
+        "row": 25,
+        "rowsha": "Xuk2cblbJmI2dr12b5wmDYq8VyD6/s2xPe5ro+d9D7A=",
+        "originContent": "> 2.  **Build from source:** If you have Go installed, you can build it yourself. The program is not flagged when you compile it locally or install via go.",
+        "translatedContent": "> 2.  **Compiler depuis la source :** Si vous avez Go installé, vous pouvez le compiler vous-même. Le programme n’est pas détecté lorsqu’il est compilé localement ou installé via go."
+      },
+      {
+        "row": 26,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 27,
+        "rowsha": "TgJTn6yWOu2YzaohNzluhFpcHS3bAXdyz0p4rfkAZ/U=",
+        "originContent": "> The code is fully open-source for you to inspect. It is safe to use. but I understand if the AV warnings are concerning.",
+        "translatedContent": "> Le code est entièrement open-source pour que vous puissiez l’inspecter. Il est sûr à utiliser, mais je comprends que les alertes AV puissent inquiéter."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Ki+bZxOSn9px9tf8uR8UrYiAHe+nwaAhN13aMkXlJkw=",
+        "originContent": "A simple all in one tool to download and monitor content from Fansly creators.",
+        "translatedContent": "Un outil simple tout-en-un pour télécharger et surveiller le contenu des créateurs Fansly."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "5yQ8eGVF/l2THg9kjxO8lJAsMfv6JrYJQ29C2uyX/WQ=",
+        "originContent": "> **⚠️ Currently in development** - Some features may not work perfectly. See [known issues](#known-issues) below.",
+        "translatedContent": "> **⚠️ En cours de développement** – Certaines fonctionnalités peuvent ne pas fonctionner parfaitement. Voir les [problèmes connus](#known-issues) ci-dessous."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Prérequis"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "aYal17dSTUpvoI9gc1+L5AF5gw1BJgTBpqyu77SOhjs=",
+        "originContent": "- **Optional but highly recommended**: [ffmpeg](https://ffmpeg.org/) for livestream recording and saving higher quality videos. Follow [this guide](https://phoenixnap.com/kb/ffmpeg-windows) for installing to system path on windows.",
+        "translatedContent": "- **Optionnel mais fortement recommandé** : [ffmpeg](https://ffmpeg.org/) pour l’enregistrement de livestreams et la sauvegarde de vidéos de meilleure qualité. Suivez [ce guide](https://phoenixnap.com/kb/ffmpeg-windows) pour l’installation dans le chemin système sous Windows."
+      },
+      {
+        "row": 37,
+        "rowsha": "iZmuaMsRparyoht/9qvDTmqIAbkOxGpVQzkRoVNE/jo=",
+        "originContent": "- **Optional**: [mt](https://github.com/mutschler/mt) for better contact sheets",
+        "translatedContent": "- **Optionnel** : [mt](https://github.com/mutschler/mt) pour de meilleures planches-contact"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Démarrage rapide"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### 1. Download\n- **Easy way**: Visit the [download page](https://agnosto.github.io/projects/fansly-scraper/) (auto-detects your system)\n- **Manual way**: Get from [GitHub releases](https://github.com/agnosto/fansly-scraper/releases)\n- **Intall Via Go**: ",
+    "ContentSha": "5HgxRdDkHL/5Szj1pXu11hcHA1w53HyRSOS0ZOyNFjg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 1. Téléchargement\n- **Méthode facile** : Visitez la [page de téléchargement](https://agnosto.github.io/projects/fansly-scraper/) (détecte automatiquement votre système)\n- **Méthode manuelle** : Téléchargez depuis les [releases GitHub](https://github.com/agnosto/fansly-scraper/releases)\n- **Installation via Go** :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bdwpSm5nT9913qI3tgIjaCi/rw1iaqPhOxu6qnTe8Sk=",
+        "originContent": "### 1. Download",
+        "translatedContent": "### 1. Téléchargement"
+      },
+      {
+        "row": 2,
+        "rowsha": "oWB5fOmYKBAIeM5icbmKagKnKO3PsDXI1MrBPjlgsLI=",
+        "originContent": "- **Easy way**: Visit the [download page](https://agnosto.github.io/projects/fansly-scraper/) (auto-detects your system)",
+        "translatedContent": "- **Méthode facile** : Visitez la [page de téléchargement](https://agnosto.github.io/projects/fansly-scraper/) (détecte automatiquement votre système)"
+      },
+      {
+        "row": 3,
+        "rowsha": "8R4SKZwvTYvTL/ki7wJgmisWPsxCpISCScOhztVBL00=",
+        "originContent": "- **Manual way**: Get from [GitHub releases](https://github.com/agnosto/fansly-scraper/releases)",
+        "translatedContent": "- **Méthode manuelle** : Téléchargez depuis les [releases GitHub](https://github.com/agnosto/fansly-scraper/releases)"
+      },
+      {
+        "row": 4,
+        "rowsha": "31XUfKBrl0rWamGMCxXNyh/DjYUp6ikcCRPbuTJ8oeQ=",
+        "originContent": "- **Intall Via Go**: ",
+        "translatedContent": "- **Installation via Go** :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ngo install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest\n```",
+    "ContentSha": "kGCljSxBjpi9qvdOF8vspHZav9oDaHyZZEK7DksFc5I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "LUBKuY6Wd1T3BAy9V5X6xRY7PjAyIS2ritpnj3Ybj30=",
+        "originContent": "go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest",
+        "translatedContent": "go install github.com/agnosto/fansly-scraper/cmd/fansly-scraper@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### 2. Run the Program",
+    "ContentSha": "i3SPdX0gtmNe9WY7M2B/FEhG5ittFFfADWaqbxZqUFA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. Exécuter le programme",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LXInG9DRi9xSbIhWmvuYaX3MEZ9/pfk2+q1C2EN5LCw=",
+        "originContent": "### 2. Run the Program",
+        "translatedContent": "### 2. Exécuter le programme"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\n./fansly-scraper\n```",
+    "ContentSha": "1bprxpIry7Ql095fqWYiGFD8vDCFxiZ6gMw2Ou0rjns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n./fansly-scraper\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "noGD0Fe6f3/aafn5QOBX+MQyiAlQeaXc+nfa1oufio8=",
+        "originContent": "./fansly-scraper",
+        "translatedContent": "./fansly-scraper"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nOn first run, the setup wizard helps you configure everything. Press 'a' to use auto login: it opens Fansly and provides a one‑line snippet to paste in DevTools Console. Your token and user‑agent are captured automatically and saved to the config.\n\n## Basic Usage\n\n### Interactive Mode (Recommended for beginners)",
+    "ContentSha": "4FuWSEBCO2XXWlU5Mn7bdhF60VeR3tvL9Uc1rKy1MSg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLors du premier lancement, l'assistant de configuration vous aide à tout configurer. Appuyez sur 'a' pour utiliser la connexion automatique : il ouvre Fansly et fournit un extrait d'une ligne à coller dans la console DevTools. Votre jeton et l'agent utilisateur sont capturés automatiquement et enregistrés dans la configuration.\n\n## Utilisation de base\n\n### Mode interactif (recommandé pour les débutants)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YtF35XWYbhsvnt7Rpl6ddFt9AqubkmoTRbdOTjnGpTw=",
+        "originContent": "On first run, the setup wizard helps you configure everything. Press 'a' to use auto login: it opens Fansly and provides a one‑line snippet to paste in DevTools Console. Your token and user‑agent are captured automatically and saved to the config.",
+        "translatedContent": "Lors du premier lancement, l'assistant de configuration vous aide à tout configurer. Appuyez sur 'a' pour utiliser la connexion automatique : il ouvre Fansly et fournit un extrait d'une ligne à coller dans la console DevTools. Votre jeton et l'agent utilisateur sont capturés automatiquement et enregistrés dans la configuration."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Lh+CO4+XL4trbaDGaAT86mzGQ5FCSAp1i4b5+mSZVOk=",
+        "originContent": "## Basic Usage",
+        "translatedContent": "## Utilisation de base"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lPOx/KQ3J3dpkt2+j3Ly1AiMxffWbf1GtZIzf+hMkt4=",
+        "originContent": "### Interactive Mode (Recommended for beginners)",
+        "translatedContent": "### Mode interactif (recommandé pour les débutants)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\n./fansly-scraper\n```",
+    "ContentSha": "1bprxpIry7Ql095fqWYiGFD8vDCFxiZ6gMw2Ou0rjns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n./fansly-scraper\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "noGD0Fe6f3/aafn5QOBX+MQyiAlQeaXc+nfa1oufio8=",
+        "originContent": "./fansly-scraper",
+        "translatedContent": "./fansly-scraper"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nFrom the main menu you can:\n- Run setup wizard (choose save location, auto login)\n- Reset configuration (restore defaults, re-run wizard)\n\n### Command Line Mode",
+    "ContentSha": "48InPxdN3ChvVlU1QIlwZdqZg83PBpHt6MsGLneibEg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nDepuis le menu principal, vous pouvez :\n- Lancer l'assistant de configuration (choisir l'emplacement de sauvegarde, connexion automatique)\n- Réinitialiser la configuration (restaurer les paramètres par défaut, relancer l'assistant)\n\n### Mode ligne de commande",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7l2/1pRcC3hV0XsooUaH4SVRZg3oVF1fPOkwkmGVX8Y=",
+        "originContent": "From the main menu you can:",
+        "translatedContent": "Depuis le menu principal, vous pouvez :"
+      },
+      {
+        "row": 3,
+        "rowsha": "oFb0yr3oUDR1vXiF1DwrgVtm2j/1qSBUOwlFCwVrhYU=",
+        "originContent": "- Run setup wizard (choose save location, auto login)",
+        "translatedContent": "- Lancer l'assistant de configuration (choisir l'emplacement de sauvegarde, connexion automatique)"
+      },
+      {
+        "row": 4,
+        "rowsha": "+WQnXZ7YvQe0tkwua5f4ja8DmBgvCoH2ysIU3jDj8Do=",
+        "originContent": "- Reset configuration (restore defaults, re-run wizard)",
+        "translatedContent": "- Réinitialiser la configuration (restaurer les paramètres par défaut, relancer l'assistant)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "DCkWuJKRrLLADhlLCxTxqjjWXVdTYYXbCEkbTUVUoqw=",
+        "originContent": "### Command Line Mode",
+        "translatedContent": "### Mode ligne de commande"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\n# Download all content from a creator\n./fansly-scraper -u {creator-name}\n\n# Download specific content types\n./fansly-scraper -u {creator-name} -d [all|timeline|messages|stories]\n\n# Monitor for live streams\n./fansly-scraper -m {creator-name}\n\n# Start/stop monitoring\n./fansly-scraper monitor [start|stop]\n```",
+    "ContentSha": "+V9u5OUgb+1YgBsfwH2Fe26oeooTnbrOxe7u1NZQDRs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download all content from a creator\n./fansly-scraper -u {creator-name}\n\n# Download specific content types\n./fansly-scraper -u {creator-name} -d [all|timeline|messages|stories]\n\n# Monitor for live streams\n./fansly-scraper -m {creator-name}\n\n# Start/stop monitoring\n./fansly-scraper monitor [start|stop]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "GgtdK6McchrFojaDN+QpWDdIBpZyR3PKjLHK+HwrdOQ=",
+        "originContent": "# Download all content from a creator",
+        "translatedContent": "# Download all content from a creator"
+      },
+      {
+        "row": 3,
+        "rowsha": "LxyQccdnwwmiQNMRDTCzhe7AqLiahTywHsdyb9womZg=",
+        "originContent": "./fansly-scraper -u {creator-name}",
+        "translatedContent": "./fansly-scraper -u {creator-name}"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "HBGA+bO4VyYIhtzE05jP4H+0CKrSEaRb6AhQobD8Caw=",
+        "originContent": "# Download specific content types",
+        "translatedContent": "# Download specific content types"
+      },
+      {
+        "row": 6,
+        "rowsha": "7FNobPAAiViYpapwEiswMzmjtEBCVF7BUr1utB0I6gw=",
+        "originContent": "./fansly-scraper -u {creator-name} -d [all|timeline|messages|stories]",
+        "translatedContent": "./fansly-scraper -u {creator-name} -d [all|timeline|messages|stories]"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6W2rGWEclB1IwGj0Coup/kKgknKN66pwYV33BhsV6n0=",
+        "originContent": "# Monitor for live streams",
+        "translatedContent": "# Monitor for live streams"
+      },
+      {
+        "row": 9,
+        "rowsha": "VsJpW34ubPprxLP0xrotDLdY25iaKgWBt4sF5niL5hg=",
+        "originContent": "./fansly-scraper -m {creator-name}",
+        "translatedContent": "./fansly-scraper -m {creator-name}"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Q8yIQUa/ra1HF7jdbPDR9NZHtdGIlZV8tI4HhATbC/o=",
+        "originContent": "# Start/stop monitoring",
+        "translatedContent": "# Start/stop monitoring"
+      },
+      {
+        "row": 12,
+        "rowsha": "1SLjIkFN3FAi+rUpK7qtVaqBn4Na0nQu1ClLhzwzC5k=",
+        "originContent": "./fansly-scraper monitor [start|stop]",
+        "translatedContent": "./fansly-scraper monitor [start|stop]"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n**Note**: Live monitoring requires keeping your terminal session active. To run monitoring in the background, consider using terminal multiplexers like [tmux](https://github.com/tmux/tmux/wiki) or [zellij](https://github.com/zellij-org/zellij) on Linux/WSL. Starting from v0.6.3, you can monitor additional creators by running `-m creator` in separate terminal instances without restarting the existing monitor process.\n\n### Update the Program",
+    "ContentSha": "q8c6zmzIVs2ZOGO1ANr28Nk3q1lMroijHYsTB2gNNDE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Note** : La surveillance en direct nécessite de garder votre session terminal active. Pour exécuter la surveillance en arrière-plan, envisagez d'utiliser des multiplexeurs de terminal comme [tmux](https://github.com/tmux/tmux/wiki) ou [zellij](https://github.com/zellij-org/zellij) sur Linux/WSL. À partir de la version 0.6.3, vous pouvez surveiller des créateurs supplémentaires en exécutant `-m creator` dans des instances de terminal séparées sans redémarrer le processus de surveillance existant.\n\n### Mettre à jour le programme",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mFvdHhwurf6JsRTkURjQsm2lh2iRcmLg4fEvg6Cpkyc=",
+        "originContent": "**Note**: Live monitoring requires keeping your terminal session active. To run monitoring in the background, consider using terminal multiplexers like [tmux](https://github.com/tmux/tmux/wiki) or [zellij](https://github.com/zellij-org/zellij) on Linux/WSL. Starting from v0.6.3, you can monitor additional creators by running `-m creator` in separate terminal instances without restarting the existing monitor process.",
+        "translatedContent": "**Note** : La surveillance en direct nécessite de garder votre session terminal active. Pour exécuter la surveillance en arrière-plan, envisagez d'utiliser des multiplexeurs de terminal comme [tmux](https://github.com/tmux/tmux/wiki) ou [zellij](https://github.com/zellij-org/zellij) sur Linux/WSL. À partir de la version 0.6.3, vous pouvez surveiller des créateurs supplémentaires en exécutant `-m creator` dans des instances de terminal séparées sans redémarrer le processus de surveillance existant."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "I/waCh33CnIQ43C1S52+E9F2u2BqshlAnWxayVSHBoY=",
+        "originContent": "### Update the Program",
+        "translatedContent": "### Mettre à jour le programme"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\n./fansly-scraper update\n```",
+    "ContentSha": "az1EZJWlPx62QCPqUegcgUaKu3zqUUw+0vXeUFQKLCA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n./fansly-scraper update\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PgmRnkKm/pf4Ay0UKwKWxBAmDLyLCKmTmZIVk00x33w=",
+        "originContent": "./fansly-scraper update",
+        "translatedContent": "./fansly-scraper update"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Project Roadmap & Advanced Setup\n\nOur development is tracked publicly on our **[Project Roadmap](https://github.com/users/agnosto/projects/1)**. You can see what we're working on, what's planned for the future, and contribute to the discussion.\n\n- **Configuration Guide**: See the **[Official Wiki](https://github.com/agnosto/fansly-scraper/wiki)**\n- **Build from source**:",
+    "ContentSha": "i3JAd1X5ExITiorhgFBPlmQjX6HUlnS5ZlU5rfvhKt0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Feuille de route du projet & Configuration avancée\n\nNotre développement est suivi publiquement sur notre **[Feuille de route du projet](https://github.com/users/agnosto/projects/1)**. Vous pouvez voir sur quoi nous travaillons, ce qui est prévu pour l'avenir, et contribuer à la discussion.\n\n- **Guide de configuration** : Voir le **[Wiki officiel](https://github.com/agnosto/fansly-scraper/wiki)**\n- **Compiler à partir des sources** :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Jd0wgooUfs0X1D3PPrDRFlbYFsWr0ORwoF0PSRW5vjk=",
+        "originContent": "## Project Roadmap & Advanced Setup",
+        "translatedContent": "## Feuille de route du projet & Configuration avancée"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "3sIWYShFHPBcTplVYnfpVpi6EHfx4n7odW8yqIw8zbk=",
+        "originContent": "Our development is tracked publicly on our **[Project Roadmap](https://github.com/users/agnosto/projects/1)**. You can see what we're working on, what's planned for the future, and contribute to the discussion.",
+        "translatedContent": "Notre développement est suivi publiquement sur notre **[Feuille de route du projet](https://github.com/users/agnosto/projects/1)**. Vous pouvez voir sur quoi nous travaillons, ce qui est prévu pour l'avenir, et contribuer à la discussion."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kxonLMDhUjf3iCYluaYvgng/D518UI5z9clfSTwNHaA=",
+        "originContent": "- **Configuration Guide**: See the **[Official Wiki](https://github.com/agnosto/fansly-scraper/wiki)**",
+        "translatedContent": "- **Guide de configuration** : Voir le **[Wiki officiel](https://github.com/agnosto/fansly-scraper/wiki)**"
+      },
+      {
+        "row": 7,
+        "rowsha": "lKGyUD0Kn0nrGxf/P0z47nL9LbHi8f4bxH+FX/BtNQc=",
+        "originContent": "- **Build from source**:",
+        "translatedContent": "- **Compiler à partir des sources** :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "  ```bash\n  git clone https://github.com/agnosto/fansly-scraper && cd fansly-scraper\n  go build -v -ldflags \"-w -s\" -o fansly-scraper ./cmd/fansly-scraper\n  ```",
+    "ContentSha": "7kF2yJ04eHOwNsvevgK5SNJXmC3YJlhsDGz62TcA+sk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  git clone https://github.com/agnosto/fansly-scraper && cd fansly-scraper\n  go build -v -ldflags \"-w -s\" -o fansly-scraper ./cmd/fansly-scraper\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gY5y8fxs648iB3ZYxf+iuhNwUxD4C7FyuF0SxFR5BAQ=",
+        "originContent": "  git clone https://github.com/agnosto/fansly-scraper && cd fansly-scraper",
+        "translatedContent": "  git clone https://github.com/agnosto/fansly-scraper && cd fansly-scraper"
+      },
+      {
+        "row": 3,
+        "rowsha": "Y3/HapNK9+p531U5/lzJXb1FH+R+JpwNEmjdpkmElNQ=",
+        "originContent": "  go build -v -ldflags \"-w -s\" -o fansly-scraper ./cmd/fansly-scraper",
+        "translatedContent": "  go build -v -ldflags \"-w -s\" -o fansly-scraper ./cmd/fansly-scraper"
+      },
+      {
+        "row": 4,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## Contributing\n\nContributions are welcome and greatly appreciated! Whether it's reporting a bug, proposing a feature, or submitting a pull request, your help is valued.\n\n![alt text](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)\n\n![alt text](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)\n\nPlease read our [Contributing Guidelines](https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./CONTRIBUTING.md) before you start.\nCheck the [Issues tab](https://github.com/agnosto/fansly-scraper/issues) to see if there's a task you'd like to take on.\n\n## Known Issues\n\n- **Redownloading**: As of v0.8.3, file naming convention was changed causing redownloading of media.\n- **Chat recording**: May occasionally miss messages during reconnections\n- **MacOS users**: May need to allow notifications in [system settings](https://github.com/gen2brain/beeep/issues/67#issuecomment-2646474049)\n- **Live status**: Press `r` in TUI to refresh live status\n- **Duplicate files**: Sometimes the same image may appear twice due to Fansly's API structure\n- **Date formats for livestream filename**: In the event a stream gets interrupted and reattempts to record, if the date format isn't specific enough (ie, no timestamp), it may fail to save the stream after as both vods will be the same name, for now use one of these: `2006-01-02_15:04:05` or `20060102_150405`\n\n## Support the Project\n\nIf this tool helps you, consider sponsoring on github:\n\n[![Sponsor agnosto on GitHub](https://img.shields.io/badge/Sponsor-%23EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/agnosto)\n\nAlternatively, you can make a one-time donation via cryptocurrency:\n\n<table>\n  <tr>\n    <td align=\"center\"><strong>Bitcoin (BTC)</strong></td>\n    <td align=\"center\"><strong>Solana (SOL)</strong></td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/btc_qr.png\" alt=\"Bitcoin QR Code\" width=\"200\"/>\n      <p><code>bc1q0e78wrtc9ezp6tqv000wfewgqf2ue4tpzdk7ee</code></p>\n    </td>\n    <td align=\"center\">",
+    "ContentSha": "J+e74Axg+pdQcKPzqWFG0uEoIK/8Zl3Ak9DL9A/hPeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Contribution\n\nLes contributions sont les bienvenues et grandement appréciées ! Que ce soit pour signaler un bug, proposer une fonctionnalité ou soumettre une pull request, votre aide est précieuse.\n\n![alt text](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)\n\n![alt text](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)\n\nVeuillez lire nos [Directives de contribution](https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./CONTRIBUTING.md) avant de commencer.\nConsultez l’[onglet Issues](https://github.com/agnosto/fansly-scraper/issues) pour voir s’il y a une tâche que vous souhaitez prendre en charge.\n\n## Problèmes connus\n\n- **Redownload** : Depuis la version 0.8.3, la convention de nommage des fichiers a été modifiée, ce qui entraîne un retéléchargement des médias.\n- **Enregistrement du chat** : Peut occasionnellement manquer des messages lors des reconnexions.\n- **Utilisateurs MacOS** : Il peut être nécessaire d’autoriser les notifications dans les [paramètres système](https://github.com/gen2brain/beeep/issues/67#issuecomment-2646474049).\n- **Statut en direct** : Appuyez sur `r` dans l’interface TUI pour rafraîchir le statut en direct.\n- **Fichiers en double** : Parfois, la même image peut apparaître deux fois en raison de la structure de l’API de Fansly.\n- **Formats de date pour le nom de fichier de livestream** : En cas d’interruption et de tentative de réenregistrement, si le format de date n’est pas assez précis (par exemple, sans horodatage), il peut échouer à sauvegarder le stream car les deux VOD auront le même nom. Pour l’instant, utilisez l’un de ces formats : `2006-01-02_15:04:05` ou `20060102_150405`.\n\n## Soutenez le projet\n\nSi cet outil vous aide, envisagez de le sponsoriser sur GitHub :\n\n[![Sponsor agnosto on GitHub](https://img.shields.io/badge/Sponsor-%23EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/agnosto)\n\nSinon, vous pouvez faire un don ponctuel via une cryptomonnaie :\n\n<table>\n  <tr>\n    <td align=\"center\"><strong>Bitcoin (BTC)</strong></td>\n    <td align=\"center\"><strong>Solana (SOL)</strong></td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/btc_qr.png\" alt=\"Code QR Bitcoin\" width=\"200\"/>\n      <p><code>bc1q0e78wrtc9ezp6tqv000wfewgqf2ue4tpzdk7ee</code></p>\n    </td>\n    <td align=\"center\">",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribution"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "727SPhjw/pyRlF0j64A3KZTNc9pnT4xi+ZxHD0DEkvc=",
+        "originContent": "Contributions are welcome and greatly appreciated! Whether it's reporting a bug, proposing a feature, or submitting a pull request, your help is valued.",
+        "translatedContent": "Les contributions sont les bienvenues et grandement appréciées ! Que ce soit pour signaler un bug, proposer une fonctionnalité ou soumettre une pull request, votre aide est précieuse."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "zF2F6pdw6GfCVXDbXGdeNUWqnd9oh5mXpSPaiEwdBC4=",
+        "originContent": "![alt text](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)",
+        "translatedContent": "![alt text](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "vYalHJpDoIQJSmV+GQZyuRat31cZCXzM1jXvAorPgrg=",
+        "originContent": "![alt text](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)",
+        "translatedContent": "![alt text](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "u0wWp2kaMAhrMxIfgVIp+CLTvP/njooxvd9/hGWOH5I=",
+        "originContent": "Please read our [Contributing Guidelines](https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./CONTRIBUTING.md) before you start.",
+        "translatedContent": "Veuillez lire nos [Directives de contribution](https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./CONTRIBUTING.md) avant de commencer."
+      },
+      {
+        "row": 11,
+        "rowsha": "ugDCMk3v42CGSVTKFNgQl4jhhKWqpUz5HDJiLMd4Cjo=",
+        "originContent": "Check the [Issues tab](https://github.com/agnosto/fansly-scraper/issues) to see if there's a task you'd like to take on.",
+        "translatedContent": "Consultez l’[onglet Issues](https://github.com/agnosto/fansly-scraper/issues) pour voir s’il y a une tâche que vous souhaitez prendre en charge."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "QnKQgThnoAqznwiN4+axqy8APTfZTdp6m9i+oi/OrN0=",
+        "originContent": "## Known Issues",
+        "translatedContent": "## Problèmes connus"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "YddLRspjnelbMHME3wLLUWVFMYySJd6kvUxUElar71M=",
+        "originContent": "- **Redownloading**: As of v0.8.3, file naming convention was changed causing redownloading of media.",
+        "translatedContent": "- **Redownload** : Depuis la version 0.8.3, la convention de nommage des fichiers a été modifiée, ce qui entraîne un retéléchargement des médias."
+      },
+      {
+        "row": 16,
+        "rowsha": "j0wQwgrRLCQlo9zXSfTZYjSWwymlJQgcLa1rS/FTzZ4=",
+        "originContent": "- **Chat recording**: May occasionally miss messages during reconnections",
+        "translatedContent": "- **Enregistrement du chat** : Peut occasionnellement manquer des messages lors des reconnexions."
+      },
+      {
+        "row": 17,
+        "rowsha": "NnoBbdhwPXJl4g1Caiteky8E+6OE5VXL4nFlGT/DC9E=",
+        "originContent": "- **MacOS users**: May need to allow notifications in [system settings](https://github.com/gen2brain/beeep/issues/67#issuecomment-2646474049)",
+        "translatedContent": "- **Utilisateurs MacOS** : Il peut être nécessaire d’autoriser les notifications dans les [paramètres système](https://github.com/gen2brain/beeep/issues/67#issuecomment-2646474049)."
+      },
+      {
+        "row": 18,
+        "rowsha": "XTBsMJ0yR6SOpzbLyGwUkq46h/YVFoWH1YVAD6nZZw4=",
+        "originContent": "- **Live status**: Press `r` in TUI to refresh live status",
+        "translatedContent": "- **Statut en direct** : Appuyez sur `r` dans l’interface TUI pour rafraîchir le statut en direct."
+      },
+      {
+        "row": 19,
+        "rowsha": "WRW2i9s4HGy7yrtqyRSg2YloSflCAP6YSmbz6A2ZxuI=",
+        "originContent": "- **Duplicate files**: Sometimes the same image may appear twice due to Fansly's API structure",
+        "translatedContent": "- **Fichiers en double** : Parfois, la même image peut apparaître deux fois en raison de la structure de l’API de Fansly."
+      },
+      {
+        "row": 20,
+        "rowsha": "Ayk/FErYvAsAuC9FeHTmPkiRnKiUJCZbSnbLYFl46+8=",
+        "originContent": "- **Date formats for livestream filename**: In the event a stream gets interrupted and reattempts to record, if the date format isn't specific enough (ie, no timestamp), it may fail to save the stream after as both vods will be the same name, for now use one of these: `2006-01-02_15:04:05` or `20060102_150405`",
+        "translatedContent": "- **Formats de date pour le nom de fichier de livestream** : En cas d’interruption et de tentative de réenregistrement, si le format de date n’est pas assez précis (par exemple, sans horodatage), il peut échouer à sauvegarder le stream car les deux VOD auront le même nom. Pour l’instant, utilisez l’un de ces formats : `2006-01-02_15:04:05` ou `20060102_150405`."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gGL3ILFnDSmvTIvd27rHorSKn89ncWEB9sZl8LTnHss=",
+        "originContent": "## Support the Project",
+        "translatedContent": "## Soutenez le projet"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "rt/DTWpyJKRACo+DJHUOuAp8B2lVcO3tJLzS1oq/aw0=",
+        "originContent": "If this tool helps you, consider sponsoring on github:",
+        "translatedContent": "Si cet outil vous aide, envisagez de le sponsoriser sur GitHub :"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "KQ3OSqlq+/Gg/DsayZDvuWJJcgJ5NphuTfH4LoFfA9A=",
+        "originContent": "[![Sponsor agnosto on GitHub](https://img.shields.io/badge/Sponsor-%23EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/agnosto)",
+        "translatedContent": "[![Sponsor agnosto on GitHub](https://img.shields.io/badge/Sponsor-%23EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/agnosto)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "DoKs4/DL2pGo21ZiznI5x6j3j+IdG7kfHrhaR9k/530=",
+        "originContent": "Alternatively, you can make a one-time donation via cryptocurrency:",
+        "translatedContent": "Sinon, vous pouvez faire un don ponctuel via une cryptomonnaie :"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 31,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 32,
+        "rowsha": "2MM2I6zGgL/DIhIvjW9OgO+6V0nE5dcXjmxSI9s4JOo=",
+        "originContent": "    <td align=\"center\"><strong>Bitcoin (BTC)</strong></td>",
+        "translatedContent": "    <td align=\"center\"><strong>Bitcoin (BTC)</strong></td>"
+      },
+      {
+        "row": 33,
+        "rowsha": "GQ65JtCk6CG++bSdUFS/e4IbHIB7TuTAw2RtmmAN+bE=",
+        "originContent": "    <td align=\"center\"><strong>Solana (SOL)</strong></td>",
+        "translatedContent": "    <td align=\"center\"><strong>Solana (SOL)</strong></td>"
+      },
+      {
+        "row": 34,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 35,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 36,
+        "rowsha": "ZCPaQqh+0Ok2/IfoIzuPUoA81jl45fnC31mvIlr6piY=",
+        "originContent": "    <td align=\"center\">",
+        "translatedContent": "    <td align=\"center\">"
+      },
+      {
+        "row": 37,
+        "rowsha": "6ETjTL4JYXQ26iwdyh1xZXZGJa+313tUIxEE+Orlcqs=",
+        "originContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/btc_qr.png\" alt=\"Bitcoin QR Code\" width=\"200\"/>",
+        "translatedContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/btc_qr.png\" alt=\"Code QR Bitcoin\" width=\"200\"/>"
+      },
+      {
+        "row": 38,
+        "rowsha": "0LL61knUT3YQYNQ3qmOr7+m/0NCUM6JjnS6fU9nnXlk=",
+        "originContent": "      <p><code>bc1q0e78wrtc9ezp6tqv000wfewgqf2ue4tpzdk7ee</code></p>",
+        "translatedContent": "      <p><code>bc1q0e78wrtc9ezp6tqv000wfewgqf2ue4tpzdk7ee</code></p>"
+      },
+      {
+        "row": 39,
+        "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+        "originContent": "    </td>",
+        "translatedContent": "    </td>"
+      },
+      {
+        "row": 40,
+        "rowsha": "ZCPaQqh+0Ok2/IfoIzuPUoA81jl45fnC31mvIlr6piY=",
+        "originContent": "    <td align=\"center\">",
+        "translatedContent": "    <td align=\"center\">"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/sol_qr.png\" alt=\"Solana QR Code\" width=\"200\"/>\n      <p><code>Bv3kYZcwSTHXAQtnPddTF27D3F6Gc29v2MfFLqmGF6Gf</code></p>\n    </td>\n  </tr>\n</table>\n\n---\n\n> [!CAUTION]\n> **Disclaimer**: This tool is not affiliated with Fansly or Select Media LLC. Use at your own risk. The developer of this script is not responsible for the end users' actions or any outcomes that may be taken upon the end users' account. Use at your own risk.\n",
+    "ContentSha": "2TVqVnmw3S4wiTzZEuiiL5yLizHf8hwchzkUHIiACNI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/sol_qr.png\" alt=\"Code QR Solana\" width=\"200\"/>\n      <p><code>Bv3kYZcwSTHXAQtnPddTF27D3F6Gc29v2MfFLqmGF6Gf</code></p>\n    </td>\n  </tr>\n</table>\n\n---\n\n> [!CAUTION]\n> **Avertissement** : Cet outil n'est pas affilié à Fansly ou Select Media LLC. Utilisez-le à vos risques et périls. Le développeur de ce script n'est pas responsable des actions des utilisateurs finaux ni des conséquences pouvant affecter leur compte. Utilisez à vos risques et périls.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ky1RUr2RF87i3KQQ7x669yGkKt8WfeG4TvoU6lyYbhE=",
+        "originContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/sol_qr.png\" alt=\"Solana QR Code\" width=\"200\"/>",
+        "translatedContent": "      <img src=\"https://raw.githubusercontent.com/agnosto/fansly-scraper/main/./assets/sol_qr.png\" alt=\"Code QR Solana\" width=\"200\"/>"
+      },
+      {
+        "row": 2,
+        "rowsha": "+rg7G/rkzM6JRZY9XGAHM+7Hu0Jt0na8w5qL72k7DeE=",
+        "originContent": "      <p><code>Bv3kYZcwSTHXAQtnPddTF27D3F6Gc29v2MfFLqmGF6Gf</code></p>",
+        "translatedContent": "      <p><code>Bv3kYZcwSTHXAQtnPddTF27D3F6Gc29v2MfFLqmGF6Gf</code></p>"
+      },
+      {
+        "row": 3,
+        "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+        "originContent": "    </td>",
+        "translatedContent": "    </td>"
+      },
+      {
+        "row": 4,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 5,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "789MAWgjFWXhd0mIsjASBrf6dECsMF4LAJEW0IAIrlI=",
+        "originContent": "> [!CAUTION]",
+        "translatedContent": "> [!CAUTION]"
+      },
+      {
+        "row": 10,
+        "rowsha": "Stobnto9Gee8kTtGDTP4geggTqTuy0Oo8OI1JiajVGg=",
+        "originContent": "> **Disclaimer**: This tool is not affiliated with Fansly or Select Media LLC. Use at your own risk. The developer of this script is not responsible for the end users' actions or any outcomes that may be taken upon the end users' account. Use at your own risk.",
+        "translatedContent": "> **Avertissement** : Cet outil n'est pas affilié à Fansly ou Select Media LLC. Utilisez-le à vos risques et périls. Le développeur de ce script n'est pas responsable des actions des utilisateurs finaux ni des conséquences pouvant affecter leur compte. Utilisez à vos risques et périls."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
