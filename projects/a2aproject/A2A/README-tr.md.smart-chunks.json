@@ -13,14 +13,255 @@
   },
   {
     "Id": 2,
-    "Content": "<div style=\"text-align: center;\">\n  <div class=\"centered-logo-text-group\">\n    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">\n    <h1>Agent2Agent (A2A) Protocol</h1>\n  </div>\n</div>\n\n**An open protocol enabling communication and interoperability between opaque agentic applications.**\n\nThe Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling gen AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively - as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.\n\nWith A2A, agents can:\n\n- Discover each other's capabilities.\n- Negotiate interaction modalities (text, forms, media).\n- Securely collaborate on long-running tasks.\n- Operate without exposing their internal state, memory, or tools.\n\n## DeepLearning.AI Course\n\n[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)\n\nJoin this short course on [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a), built in partnership with Google Cloud and IBM Research, and taught by [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), and [Sandi Besen](https://github.com/sandijean90).\n\n**What you'll learn:**\n\n- **Make agents A2A-compliant:** Expose agents built with frameworks like Google ADK, LangGraph, or BeeAI as A2A servers.\n- **Connect agents:** Create A2A clients from scratch or using integrations to connect to A2A-compliant agents.\n- **Orchestrate workflows:** Build sequential and hierarchical workflows of A2A-compliant agents.\n- **Multi-agent systems:** Build a healthcare multi-agent system using different frameworks and see how A2A enables collaboration.\n- **A2A and MCP:** Learn how A2A complements MCP by enabling agents to collaborate with each other.\n\n## Why A2A?\n\nAs AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:\n\n- **Break Down Silos:** Connect agents across different ecosystems.\n- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.\n- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.\n- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.",
-    "ContentSha": "QK7dioaNIQXBC+Tbl/YGyo1yQmMDloTALRj1xhOGYJ4=",
+    "Content": "<div style=\"text-align: center;\">\n  <div class=\"centered-logo-text-group\">\n    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">\n    <h1>Agent2Agent (A2A) Protocol</h1>\n  </div>\n</div>\n\n**An open protocol enabling communication and interoperability between opaque agentic applications.**\n\nThe Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling gen AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively - as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.\n\nWith A2A, agents can:\n\n- Discover each other's capabilities.\n- Negotiate interaction modalities (text, forms, media).\n- Securely collaborate on long-running tasks.\n- Operate without exposing their internal state, memory, or tools.\n\n## DeepLearning.AI Course\n\n[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)\n\nJoin this short course on [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a), built in partnership with Google Cloud and IBM Research, and taught by [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), and [Sandi Besen](https://github.com/sandijean90).\n\n**What you'll learn:**\n\n- **Make agents A2A-compliant:** Expose agents built with frameworks like Google ADK, LangGraph, or BeeAI as A2A servers.\n- **Connect agents:** Create A2A clients from scratch or using integrations to connect to A2A-compliant agents.\n- **Orchestrate workflows:** Build sequential and hierarchical workflows of A2A-compliant agents.\n- **Multi-agent systems:** Build a healthcare multi-agent system using different frameworks and see how A2A enables collaboration.\n- **A2A and MCP:** Learn how A2A complements MCP by enabling agents to collaborate with each other.\n\n## Why A2A?\n\nAs AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:\n\n- **Break Down Silos:** Connect agents across different ecosystems.\n- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.\n- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.\n- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.",
+    "ContentSha": "OzhKA+P6U0LVW6irNbKX2fZYTKF3yez5Snea5STI+vs=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div style=\"text-align: center;\">\n  <div class=\"centered-logo-text-group\">\n    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Agent2Agent Protokolü Logosu\" width=\"100\">\n    <h1>Agent2Agent (A2A) Protokolü</h1>\n  </div>\n</div>\n\n**Şeffaf olmayan ajan uygulamaları arasında iletişim ve birlikte çalışabilirliği mümkün kılan açık bir protokol.**\n\nAgent2Agent (A2A) protokolü, yapay zeka alanında önemli bir sorunu ele alıyor: Farklı şirketler tarafından farklı altyapılar üzerinde, ayrı sunucularda çalışan üretken AI ajanlarının yalnızca araç olarak değil, ajan olarak da etkili bir şekilde iletişim kurup işbirliği yapabilmesini sağlamak. A2A, ajanlar için ortak bir dil sunarak daha bağlantılı, güçlü ve yenilikçi bir yapay zeka ekosistemi oluşturmayı hedefliyor.\n\nA2A ile ajanlar şunları yapabilir:\n\n- Birbirlerinin yeteneklerini keşfedebilir.\n- Etkileşim türlerinde (metin, formlar, medya) pazarlık yapabilir.\n- Güvenli bir şekilde uzun süreli görevlerde işbirliği yapabilir.\n- Dahili durumunu, hafızasını veya araçlarını ifşa etmeden çalışabilir.\n\n## DeepLearning.AI Kursu\n\n[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)\n\n[Google Cloud](https://goo.gle/dlai-a2a) ve IBM Research iş birliğiyle hazırlanan ve [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) ve [Sandi Besen](https://github.com/sandijean90) tarafından verilen [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a) adlı kısa kursa katılın.\n\n**Öğrenecekleriniz:**\n\n- **Ajanları A2A-uyumlu yapın:** Google ADK, LangGraph veya BeeAI gibi çerçevelerle oluşturulan ajanları A2A sunucusu olarak açığa çıkarın.\n- **Ajanları bağlayın:** Sıfırdan veya entegrasyonlar kullanarak A2A-uyumlu ajanlara bağlanmak için A2A istemcileri oluşturun.\n- **İş akışlarını yönetin:** A2A-uyumlu ajanların sıralı ve hiyerarşik iş akışlarını oluşturun.\n- **Çoklu ajan sistemleri:** Farklı çerçeveler kullanarak bir sağlık hizmetleri çoklu ajan sistemi oluşturun ve A2A’nın işbirliğini nasıl sağladığını görün.\n- **A2A ve MCP:** A2A’nın, ajanların birbirleriyle işbirliği yapmasını nasıl mümkün kılarak MCP’yi tamamladığını öğrenin.\n\n## Neden A2A?\n\nYapay zeka ajanları daha yaygın hale geldikçe, birlikte çalışabilirlikleri karmaşık ve çok işlevli uygulamalar oluşturmak için kritik önemdedir. A2A’nın amaçları şunlardır:\n\n- **Kapalı ekosistemleri ortadan kaldırmak:** Farklı ekosistemlerdeki ajanları birbirine bağlamak.\n- **Karmaşık işbirliğini mümkün kılmak:** Uzmanlaşmış ajanların tek başına çözemeyeceği görevlerde birlikte çalışmasını sağlamak.\n- **Açık standartları teşvik etmek:** Ajan iletişimi için topluluk odaklı bir yaklaşımı teşvik ederek yenilik ve geniş çapta benimsenmeyi sağlamak.\n- **Şeffaflığı korumak:** Ajanların dahili hafızalarını, özel mantıklarını veya belirli araç uygulamalarını paylaşmadan işbirliği yapmalarını sağlayarak güvenliği ve fikri mülkiyeti korumak.",
+    "Translation": "<div style=\"text-align: center;\">\n  <div class=\"centered-logo-text-group\">\n    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">\n    <h1>Agent2Agent (A2A) Protokolü</h1>\n  </div>\n</div>\n\n**Kapalı ajan uygulamaları arasında iletişim ve birlikte çalışabilirliği sağlayan açık bir protokol.**\n\nAgent2Agent (A2A) protokolü, AI dünyasında önemli bir soruna çözüm sunar: Farklı şirketler tarafından çeşitli çerçeveler üzerinde ve ayrı sunucularda geliştirilen gen AI ajanlarının, sadece birer araç olarak değil, ajan olarak etkili bir şekilde iletişim kurup iş birliği yapabilmesi. A2A, ajanlar için ortak bir dil sağlamayı ve daha bağlantılı, güçlü, yenilikçi bir AI ekosistemi oluşturmayı hedefler.\n\nA2A ile ajanlar şunları yapabilir:\n\n- Birbirlerinin yeteneklerini keşfedebilir.\n- Etkileşim biçimlerini (metin, formlar, medya) müzakere edebilir.\n- Uzun süreli görevlerde güvenli iş birliği yapabilir.\n- Dahili durumlarını, hafızalarını veya araçlarını açığa çıkarmadan çalışabilirler.\n\n## DeepLearning.AI Kursu\n\n[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)\n\n[Google Cloud ve IBM Research](https://goo.gle/dlai-a2a) ile ortaklaşa hazırlanmış ve [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), [Sandi Besen](https://github.com/sandijean90) tarafından verilen [A2A: Agent2Agent Protokolü] kısa kursuna katılın.\n\n**Neler öğreneceksiniz:**\n\n- **Ajanları A2A-uyumlu hale getirin:** Google ADK, LangGraph veya BeeAI gibi çerçevelerle oluşturulan ajanları A2A sunucuları olarak açığa çıkarın.\n- **Ajanları bağlayın:** A2A-uyumlu ajanlara bağlanmak için sıfırdan veya entegrasyonlarla A2A istemcileri oluşturun.\n- **İş akışlarını orkestre edin:** A2A-uyumlu ajanlardan sıralı ve hiyerarşik iş akışları oluşturun.\n- **Çoklu ajan sistemleri:** Farklı çerçevelerle sağlık alanında çoklu ajan sistemi kurun ve A2A’nın iş birliğini nasıl sağladığını görün.\n- **A2A ve MCP:** A2A’nın ajanların birbirleriyle iş birliğini kolaylaştırarak MCP’yi nasıl tamamladığını öğrenin.\n\n## Neden A2A?\n\nAI ajanları giderek daha yaygın hale geldikçe, birlikte çalışabilmeleri karmaşık ve çok işlevli uygulamalar oluşturmak için kritik öneme sahip. A2A’nın hedefleri:\n\n- **Silo Engellerini Kaldırın:** Farklı ekosistemlerdeki ajanları birbirine bağlayın.\n- **Karmaşık İş Birliği Sağlayın:** Uzmanlaşmış ajanların, tek bir ajanın başa çıkamayacağı görevlerde birlikte çalışmasına imkan tanıyın.\n- **Açık Standartları Teşvik Edin:** Ajan iletişimi için topluluk odaklı bir yaklaşımı teşvik ederek yeniliği ve yaygın benimsemeyi destekleyin.\n- **Opaklığı Koruyun:** Ajanların, dahili hafıza, özel mantık veya belirli araç uygulamalarını paylaşmaksızın iş birliği yapmasına imkan tanıyarak güvenliği artırın ve fikri mülkiyeti koruyun.",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t/9YqFRKlMdfy5GnNzxfzdqrRj7H98mAPFpU/AU8Cqk=",
+        "originContent": "<div style=\"text-align: center;\">",
+        "translatedContent": "<div style=\"text-align: center;\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "KTq7qCFV5eUGPP/1S0PA2IrdT0xPzD8wCrliTZFy++o=",
+        "originContent": "  <div class=\"centered-logo-text-group\">",
+        "translatedContent": "  <div class=\"centered-logo-text-group\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "qTP+MsGFANBsFRRBuAmrkPZEQWBJ/l22Cn7DDNtHEBo=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "bXrdM69l4iJ9SO/3a49nvyQoCpcjVZoOYUJyzez+6nI=",
+        "originContent": "    <h1>Agent2Agent (A2A) Protocol</h1>",
+        "translatedContent": "    <h1>Agent2Agent (A2A) Protokolü</h1>"
+      },
+      {
+        "row": 5,
+        "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+        "originContent": "  </div>",
+        "translatedContent": "  </div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "gqU8Tgr73WxFI/+WU86moh+dw0zA2/yL4S0Gzr3m3YM=",
+        "originContent": "**An open protocol enabling communication and interoperability between opaque agentic applications.**",
+        "translatedContent": "**Kapalı ajan uygulamaları arasında iletişim ve birlikte çalışabilirliği sağlayan açık bir protokol.**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "0S302+GWbGdwqe8o809ryyNe4U8dsoxKr0ec8GwZVFY=",
+        "originContent": "The Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling gen AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively - as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.",
+        "translatedContent": "Agent2Agent (A2A) protokolü, AI dünyasında önemli bir soruna çözüm sunar: Farklı şirketler tarafından çeşitli çerçeveler üzerinde ve ayrı sunucularda geliştirilen gen AI ajanlarının, sadece birer araç olarak değil, ajan olarak etkili bir şekilde iletişim kurup iş birliği yapabilmesi. A2A, ajanlar için ortak bir dil sağlamayı ve daha bağlantılı, güçlü, yenilikçi bir AI ekosistemi oluşturmayı hedefler."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "d79OKIEL21svHIv4soMnK/2hbqgRNmxd1eTLMa5n3Ek=",
+        "originContent": "With A2A, agents can:",
+        "translatedContent": "A2A ile ajanlar şunları yapabilir:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "WyTwtztEILy0JDA4VihQZQ9QYLkA204XLC0B/iF1O2U=",
+        "originContent": "- Discover each other's capabilities.",
+        "translatedContent": "- Birbirlerinin yeteneklerini keşfedebilir."
+      },
+      {
+        "row": 15,
+        "rowsha": "uMItqYmcEpimy12TL6n3lstLdnrGgYVRUBk9LOZpfwo=",
+        "originContent": "- Negotiate interaction modalities (text, forms, media).",
+        "translatedContent": "- Etkileşim biçimlerini (metin, formlar, medya) müzakere edebilir."
+      },
+      {
+        "row": 16,
+        "rowsha": "XnBQLmTpjjTSMGKOkViq8hCnCYycjiXGw1LLOkhpNRo=",
+        "originContent": "- Securely collaborate on long-running tasks.",
+        "translatedContent": "- Uzun süreli görevlerde güvenli iş birliği yapabilir."
+      },
+      {
+        "row": 17,
+        "rowsha": "JfX9SHzlT0Bsx62PzrVFPCQ6rE+aHOeoxmFs+737jxQ=",
+        "originContent": "- Operate without exposing their internal state, memory, or tools.",
+        "translatedContent": "- Dahili durumlarını, hafızalarını veya araçlarını açığa çıkarmadan çalışabilirler."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "hpjZbH3vjlU1Wm4DLxRgqLkbrPyi4sJy/XqzK9xq3g4=",
+        "originContent": "## DeepLearning.AI Course",
+        "translatedContent": "## DeepLearning.AI Kursu"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "dG/KT1xoRkToilQfwh1rEGPMmkU+K6YVSbybsSbv/jk=",
+        "originContent": "[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)",
+        "translatedContent": "[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "J9miHuRyy/tmzNZ1Kn3C1yNtBlGHHgstJ8p4fYFXDts=",
+        "originContent": "Join this short course on [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a), built in partnership with Google Cloud and IBM Research, and taught by [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), and [Sandi Besen](https://github.com/sandijean90).",
+        "translatedContent": "[Google Cloud ve IBM Research](https://goo.gle/dlai-a2a) ile ortaklaşa hazırlanmış ve [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), [Sandi Besen](https://github.com/sandijean90) tarafından verilen [A2A: Agent2Agent Protokolü] kısa kursuna katılın."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "4Dqx8OBimSucz12qxVqJw1ciV1Qft+AT/5WXMhO3+6s=",
+        "originContent": "**What you'll learn:**",
+        "translatedContent": "**Neler öğreneceksiniz:**"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "9U/4OOXSkhkKkn+/SBA7gpPVzLJNyXOZr1g2I1351iE=",
+        "originContent": "- **Make agents A2A-compliant:** Expose agents built with frameworks like Google ADK, LangGraph, or BeeAI as A2A servers.",
+        "translatedContent": "- **Ajanları A2A-uyumlu hale getirin:** Google ADK, LangGraph veya BeeAI gibi çerçevelerle oluşturulan ajanları A2A sunucuları olarak açığa çıkarın."
+      },
+      {
+        "row": 28,
+        "rowsha": "bFCGksC405nuy5o9IuKJOrC095WQ5TvQXsxnlNAcG9s=",
+        "originContent": "- **Connect agents:** Create A2A clients from scratch or using integrations to connect to A2A-compliant agents.",
+        "translatedContent": "- **Ajanları bağlayın:** A2A-uyumlu ajanlara bağlanmak için sıfırdan veya entegrasyonlarla A2A istemcileri oluşturun."
+      },
+      {
+        "row": 29,
+        "rowsha": "6cOcMydTSgo5TUhWpnioA827iwNRHDjMNj6r8imlFR4=",
+        "originContent": "- **Orchestrate workflows:** Build sequential and hierarchical workflows of A2A-compliant agents.",
+        "translatedContent": "- **İş akışlarını orkestre edin:** A2A-uyumlu ajanlardan sıralı ve hiyerarşik iş akışları oluşturun."
+      },
+      {
+        "row": 30,
+        "rowsha": "6ZooV1iBX1hpt22Uz9Rfk0RZOpj84LAiAYUZcEpoupU=",
+        "originContent": "- **Multi-agent systems:** Build a healthcare multi-agent system using different frameworks and see how A2A enables collaboration.",
+        "translatedContent": "- **Çoklu ajan sistemleri:** Farklı çerçevelerle sağlık alanında çoklu ajan sistemi kurun ve A2A’nın iş birliğini nasıl sağladığını görün."
+      },
+      {
+        "row": 31,
+        "rowsha": "F8IJuczgV+WXIK6CS1NV4MtBJIb5NMqbsYKyVDFncJk=",
+        "originContent": "- **A2A and MCP:** Learn how A2A complements MCP by enabling agents to collaborate with each other.",
+        "translatedContent": "- **A2A ve MCP:** A2A’nın ajanların birbirleriyle iş birliğini kolaylaştırarak MCP’yi nasıl tamamladığını öğrenin."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "+OO5sTYZBCOlVltSUkgXKVK4p497CzB62D5XUYggzV4=",
+        "originContent": "## Why A2A?",
+        "translatedContent": "## Neden A2A?"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "wptnIopEDGe+Rq0h/cqyVY7BngEwNIpsHX3VBD8W7Oc=",
+        "originContent": "As AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:",
+        "translatedContent": "AI ajanları giderek daha yaygın hale geldikçe, birlikte çalışabilmeleri karmaşık ve çok işlevli uygulamalar oluşturmak için kritik öneme sahip. A2A’nın hedefleri:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "6+rVlFMCWZqh16tWhhm0ZBdp/rTFNz8t1YVdQCZoHHY=",
+        "originContent": "- **Break Down Silos:** Connect agents across different ecosystems.",
+        "translatedContent": "- **Silo Engellerini Kaldırın:** Farklı ekosistemlerdeki ajanları birbirine bağlayın."
+      },
+      {
+        "row": 38,
+        "rowsha": "kdiUspMi+lmfqXRqCPzkGzLNqr4zRAicEyL/iQynUEg=",
+        "originContent": "- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.",
+        "translatedContent": "- **Karmaşık İş Birliği Sağlayın:** Uzmanlaşmış ajanların, tek bir ajanın başa çıkamayacağı görevlerde birlikte çalışmasına imkan tanıyın."
+      },
+      {
+        "row": 39,
+        "rowsha": "q1RDby3N4mepUXsJay8ADdM0j2t9NY2sw/au2YussQg=",
+        "originContent": "- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.",
+        "translatedContent": "- **Açık Standartları Teşvik Edin:** Ajan iletişimi için topluluk odaklı bir yaklaşımı teşvik ederek yeniliği ve yaygın benimsemeyi destekleyin."
+      },
+      {
+        "row": 40,
+        "rowsha": "ID9/SgkmAYEYzU7+R09aU5E1JUwUYtFWABbZOMOrf4g=",
+        "originContent": "- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.",
+        "translatedContent": "- **Opaklığı Koruyun:** Ajanların, dahili hafıza, özel mantık veya belirli araç uygulamalarını paylaşmaksızın iş birliği yapmasına imkan tanıyarak güvenliği artırın ve fikri mülkiyeti koruyun."
+      }
+    ],
     "IsCodeBlock": false
   },
   {
@@ -32,248 +273,7 @@
     "EndLine": 0,
     "Translation": "\n### Temel Özellikler\n\n- **Standartlaştırılmış İletişim:** HTTP(S) üzerinden JSON-RPC 2.0.\n- **Ajan Keşfi:** Yetenekleri ve bağlantı bilgisini detaylandıran \"Ajan Kartları\" ile.\n- **Esnek Etkileşim:** Senkron istek/yanıt, akış (SSE) ve asenkron anlık bildirimleri destekler.\n- **Zengin Veri Alışverişi:** Metin, dosya ve yapılandırılmış JSON verilerini işler.\n- **Kurumsal Düzeyde:** Güvenlik, kimlik doğrulama ve gözlemlenebilirlik ile tasarlanmıştır.\n\n## Başlarken\n\n- 📚 **Dokümantasyonu Keşfedin:** Tam genel bakış, tüm protokol spesifikasyonu, eğitimler ve rehberler için [Agent2Agent Protokol Dokümantasyon Sitesini](https://a2a-protocol.org) ziyaret edin.\n- 📝 **Spesifikasyonu Görüntüleyin:** [A2A Protokol Spesifikasyonu](https://a2a-protocol.org/latest/specification/)\n- SDK'ları kullanın:\n    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`\n    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`\n    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`\n    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) maven ile kullanılır\n    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A) ile `dotnet add package A2A`\n    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`\n- 🎬 A2A'nın nasıl çalıştığını görmek için [örneklerimizi](https://github.com/a2aproject/a2a-samples) kullanın\n\n## Katkıda Bulunun\n\nA2A protokolünü geliştirmek ve evrimleştirmek için topluluk katkılarını memnuniyetle karşılıyoruz!\n\n- **Sorular & Tartışmalar:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) sayfamıza katılın.\n- **Hatalar & Geri Bildirim:** [GitHub Issues](https://github.com/a2aproject/A2A/issues) üzerinden hata bildirin veya iyileştirme önerin.\n- **Katkı Rehberi:** Katkı sağlama detayları için [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) dosyamıza bakın.\n- **Özel Geri Bildirim:** [Google Formunu](https://goo.gle/a2a-feedback) kullanın.\n- **İş Ortağı Programı:** Google Cloud müşterileri [bu form](https://goo.gle/a2a-partner) üzerinden iş ortağı programımıza katılabilir.\n\n## Sırada Ne Var\n\n### Protokol Geliştirmeleri\n\n- **Ajan Keşfi:**\n    - Yetkilendirme şemalarının ve isteğe bağlı kimlik bilgilerinin doğrudan `AgentCard` içine dahil edilmesini resmileştir.\n- **Ajan İşbirliği:**\n    - Desteklenmeyen veya öngörülmeyen yetenekleri dinamik olarak kontrol etmek için bir `QuerySkill()` metodu araştırılacak.",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "HGAGcACdLJLrmf+fiUszXTc0S4m7FYM0E8dxVJXQ0Hk=",
-        "originContent": "### Key Features",
-        "translatedContent": "### Temel Özellikler"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "kw3Uynvl1pap8qIdSNN7mB/oZktAFaCw+rP8ZYZlg4s=",
-        "originContent": "- **Standardized Communication:** JSON-RPC 2.0 over HTTP(S).",
-        "translatedContent": "- **Standartlaştırılmış İletişim:** HTTP(S) üzerinden JSON-RPC 2.0."
-      },
-      {
-        "row": 5,
-        "rowsha": "kQe3l7/u7SXwMWYOWXmpk4K+ehxP5pXB2WN84r+8sqY=",
-        "originContent": "- **Agent Discovery:** Via \"Agent Cards\" detailing capabilities and connection info.",
-        "translatedContent": "- **Ajan Keşfi:** Yetenekleri ve bağlantı bilgisini detaylandıran \"Ajan Kartları\" ile."
-      },
-      {
-        "row": 6,
-        "rowsha": "owOBRVc8gfxjQqSvghKSouvpnP6O3FAQPnJh1/bEymE=",
-        "originContent": "- **Flexible Interaction:** Supports synchronous request/response, streaming (SSE), and asynchronous push notifications.",
-        "translatedContent": "- **Esnek Etkileşim:** Senkron istek/yanıt, akış (SSE) ve asenkron anlık bildirimleri destekler."
-      },
-      {
-        "row": 7,
-        "rowsha": "w/6iKESnhwe9zGO8a5dcLkz52CwMQmKFYcwN2ykOE8U=",
-        "originContent": "- **Rich Data Exchange:** Handles text, files, and structured JSON data.",
-        "translatedContent": "- **Zengin Veri Alışverişi:** Metin, dosya ve yapılandırılmış JSON verilerini işler."
-      },
-      {
-        "row": 8,
-        "rowsha": "kvO1asyWwSy/Wx985/TPupqBztBSwTwirIxDsFhFgAw=",
-        "originContent": "- **Enterprise-Ready:** Designed with security, authentication, and observability in mind.",
-        "translatedContent": "- **Kurumsal Düzeyde:** Güvenlik, kimlik doğrulama ve gözlemlenebilirlik ile tasarlanmıştır."
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
-        "originContent": "## Getting Started",
-        "translatedContent": "## Başlarken"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "Xz+Vj2b+4/pywCm9/1yaIyQfsMUHLAdORCtbb2rQMpo=",
-        "originContent": "- 📚 **Explore the Documentation:** Visit the [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) for a complete overview, the full protocol specification, tutorials, and guides.",
-        "translatedContent": "- 📚 **Dokümantasyonu Keşfedin:** Tam genel bakış, tüm protokol spesifikasyonu, eğitimler ve rehberler için [Agent2Agent Protokol Dokümantasyon Sitesini](https://a2a-protocol.org) ziyaret edin."
-      },
-      {
-        "row": 13,
-        "rowsha": "BrOPTJVDgi+vHW3kWGfFaYB1gjFJyZHWWnnSVUW/G64=",
-        "originContent": "- 📝 **View the Specification:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)",
-        "translatedContent": "- 📝 **Spesifikasyonu Görüntüleyin:** [A2A Protokol Spesifikasyonu](https://a2a-protocol.org/latest/specification/)"
-      },
-      {
-        "row": 14,
-        "rowsha": "zhY11lKdWEeQ9Yo0pEho5olsS23vTgMwzaXuHvnCEQg=",
-        "originContent": "- Use the SDKs:",
-        "translatedContent": "- SDK'ları kullanın:"
-      },
-      {
-        "row": 15,
-        "rowsha": "Fs76lhQmy44IBmiqxxn779xJTlNJFGreKCYrFLNxtqY=",
-        "originContent": "    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`",
-        "translatedContent": "    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`"
-      },
-      {
-        "row": 16,
-        "rowsha": "KtaOp1Wn1FFD+/DSS75bgx2AVujJC8+MRTW1SicglKY=",
-        "originContent": "    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`",
-        "translatedContent": "    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`"
-      },
-      {
-        "row": 17,
-        "rowsha": "zQ0bQ2AW/O7Clh534BrYcGdbsTrixKjHa2sFX5/Xcxc=",
-        "originContent": "    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`",
-        "translatedContent": "    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`"
-      },
-      {
-        "row": 18,
-        "rowsha": "ovqbO92GNU6N3O/MgeCjojkjVTOnS13d1ywsbpI/f7w=",
-        "originContent": "    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) using maven",
-        "translatedContent": "    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) maven ile kullanılır"
-      },
-      {
-        "row": 19,
-        "rowsha": "k2y/GlfzJmw3Zcbycsf8RjxR3tRW4tv438OwLTes3GU=",
-        "originContent": "    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) using [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`",
-        "translatedContent": "    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A) ile `dotnet add package A2A`"
-      },
-      {
-        "row": 20,
-        "rowsha": "uaoRs0vJjEDSXe84lDXS/PjDE8GaNTsrLEIEO7qLCBU=",
-        "originContent": "    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`",
-        "translatedContent": "    - [🦀 A2A Rust SDK](https://github.com/a2aproject/a2a-rs) `cargo add a2a-lf`"
-      },
-      {
-        "row": 21,
-        "rowsha": "E0MR3R7pENC67XogOUZAHN3Z7C++IvtzU2nOfS0RthI=",
-        "originContent": "- 🎬 Use our [samples](https://github.com/a2aproject/a2a-samples) to see A2A in action",
-        "translatedContent": "- 🎬 A2A'nın nasıl çalıştığını görmek için [örneklerimizi](https://github.com/a2aproject/a2a-samples) kullanın"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
-        "originContent": "## Contributing",
-        "translatedContent": "## Katkıda Bulunun"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "TVapOybw8PJiB3eVRPBRnT5HucAKoEcmnoJBi5PkDWk=",
-        "originContent": "We welcome community contributions to enhance and evolve the A2A protocol!",
-        "translatedContent": "A2A protokolünü geliştirmek ve evrimleştirmek için topluluk katkılarını memnuniyetle karşılıyoruz!"
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 27,
-        "rowsha": "6plDjAmuKi6Ll+A5sP6ar1eoUUQkqkvAcDhtgO2802o=",
-        "originContent": "- **Questions & Discussions:** Join our [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).",
-        "translatedContent": "- **Sorular & Tartışmalar:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) sayfamıza katılın."
-      },
-      {
-        "row": 28,
-        "rowsha": "WPxuLTn+yCY8kJ5gYtAcf4O0+fr3O2io3ufWUH7cpf4=",
-        "originContent": "- **Issues & Feedback:** Report issues or suggest improvements via [GitHub Issues](https://github.com/a2aproject/A2A/issues).",
-        "translatedContent": "- **Hatalar & Geri Bildirim:** [GitHub Issues](https://github.com/a2aproject/A2A/issues) üzerinden hata bildirin veya iyileştirme önerin."
-      },
-      {
-        "row": 29,
-        "rowsha": "FFvRbdwPHuciwtHtXSP0ihz4E0teOi1zuua3lY0wIFE=",
-        "originContent": "- **Contribution Guide:** See our [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) for details on how to contribute.",
-        "translatedContent": "- **Katkı Rehberi:** Katkı sağlama detayları için [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) dosyamıza bakın."
-      },
-      {
-        "row": 30,
-        "rowsha": "b9b5zRs7kKXGB9ryilGa4W2KyHyqdQOw90y3IaXeWJE=",
-        "originContent": "- **Private Feedback:** Use this [Google Form](https://goo.gle/a2a-feedback).",
-        "translatedContent": "- **Özel Geri Bildirim:** [Google Formunu](https://goo.gle/a2a-feedback) kullanın."
-      },
-      {
-        "row": 31,
-        "rowsha": "62cGjUbM3L4SnQsBJkstHzYAQ43dC8VtsYLvTVSxhlQ=",
-        "originContent": "- **Partner Program:** Google Cloud customers can join our partner program via this [form](https://goo.gle/a2a-partner).",
-        "translatedContent": "- **İş Ortağı Programı:** Google Cloud müşterileri [bu form](https://goo.gle/a2a-partner) üzerinden iş ortağı programımıza katılabilir."
-      },
-      {
-        "row": 32,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "uQsRCpvF9Z9eRJp9PCehycrbZEZtyebCB79nZKxBpKI=",
-        "originContent": "## What's next",
-        "translatedContent": "## Sırada Ne Var"
-      },
-      {
-        "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "LzuLYAfDOBzScV0X2lLcaYMjfrND3JuXvEIMfObQ6qQ=",
-        "originContent": "### Protocol Enhancements",
-        "translatedContent": "### Protokol Geliştirmeleri"
-      },
-      {
-        "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 37,
-        "rowsha": "EsRR5ofFEg4OEHcTKml5aL0wC3Ssi4qkH8SrFEsI58E=",
-        "originContent": "- **Agent Discovery:**",
-        "translatedContent": "- **Ajan Keşfi:**"
-      },
-      {
-        "row": 38,
-        "rowsha": "eOxLiPLFbWrl4+7jb+V8d4Zmea7PeK6aQy15q1FWB+I=",
-        "originContent": "    - Formalize inclusion of authorization schemes and optional credentials directly within the `AgentCard`.",
-        "translatedContent": "    - Yetkilendirme şemalarının ve isteğe bağlı kimlik bilgilerinin doğrudan `AgentCard` içine dahil edilmesini resmileştir."
-      },
-      {
-        "row": 39,
-        "rowsha": "MNurYcV9/4LFytuCQNztTHCq0tGEdTySVrzg7toGgkI=",
-        "originContent": "- **Agent Collaboration:**",
-        "translatedContent": "- **Ajan İşbirliği:**"
-      },
-      {
-        "row": 40,
-        "rowsha": "KLtf1/JHALo4Iq7OaOoUuvc0YN2RsUyGSbhskAsDXuw=",
-        "originContent": "    - Investigate a `QuerySkill()` method for dynamically checking unsupported or unanticipated skills.",
-        "translatedContent": "    - Desteklenmeyen veya öngörülmeyen yetenekleri dinamik olarak kontrol etmek için bir `QuerySkill()` metodu araştırılacak."
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -285,68 +285,7 @@
     "EndLine": 0,
     "Translation": "- **Görev Yaşam Döngüsü & UX:**\n    - Bir görev _içerisinde_ dinamik UX müzakeresi desteği (örneğin, ajan konuşma sırasında ses/görüntü ekliyor).\n- **İstemci Yöntemleri & Taşıma:**\n    - İstemci tarafından başlatılan yöntemlere desteğin genişletilmesi (görev yönetiminin ötesinde) araştırılıyor.\n    - Akış güvenilirliği ve anlık bildirim mekanizmalarında iyileştirmeler.\n\n## Hakkında\n\nA2A Protokolü, Google tarafından katkı sağlanan, Linux Vakfı altında açık kaynaklı bir projedir. [Apache Lisansı 2.0](LICENSE) ile lisanslanmıştır ve topluluğun katkılarına açıktır.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "lhnOFKJ7DdhvHbbEkXxy9SA6O+gzWJ4hjn0qaoORjBQ=",
-        "originContent": "- **Task Lifecycle & UX:**",
-        "translatedContent": "- **Görev Yaşam Döngüsü & UX:**"
-      },
-      {
-        "row": 2,
-        "rowsha": "hQshGFULsNRlZncmMCg360xEnPvL+AqqwQ4Ov8cNKDI=",
-        "originContent": "    - Support for dynamic UX negotiation _within_ a task (e.g., agent adding audio/video mid-conversation).",
-        "translatedContent": "    - Bir görev _içerisinde_ dinamik UX müzakeresi desteği (örneğin, ajan konuşma sırasında ses/görüntü ekliyor)."
-      },
-      {
-        "row": 3,
-        "rowsha": "rz92b1bqVIkLS9oskL5xTLihlijE0GNqFAGoarUSkhU=",
-        "originContent": "- **Client Methods & Transport:**",
-        "translatedContent": "- **İstemci Yöntemleri & Taşıma:**"
-      },
-      {
-        "row": 4,
-        "rowsha": "RmElQRUKZZBAX4qpJG5CNcd5FpiEbu7ltdUGsbrCXko=",
-        "originContent": "    - Explore extending support to client-initiated methods (beyond task management).",
-        "translatedContent": "    - İstemci tarafından başlatılan yöntemlere desteğin genişletilmesi (görev yönetiminin ötesinde) araştırılıyor."
-      },
-      {
-        "row": 5,
-        "rowsha": "eJtyEeb/ZeNjKAfASkxaU8G/COjfjEfqUMb5295Ih3Q=",
-        "originContent": "    - Improvements to streaming reliability and push notification mechanisms.",
-        "translatedContent": "    - Akış güvenilirliği ve anlık bildirim mekanizmalarında iyileştirmeler."
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
-        "originContent": "## About",
-        "translatedContent": "## Hakkında"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "0w95aPSKjTl/icxWlA0PibzJuaXxRkkE0zIUgQcAdLU=",
-        "originContent": "The A2A Protocol is an open source project under the Linux Foundation, contributed by Google. It is licensed under the [Apache License 2.0](LICENSE) and is open to contributions from the community.",
-        "translatedContent": "A2A Protokolü, Google tarafından katkı sağlanan, Linux Vakfı altında açık kaynaklı bir projedir. [Apache Lisansı 2.0](LICENSE) ile lisanslanmıştır ve topluluğun katkılarına açıktır."
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

@@ -113,26 +113,32 @@ pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
 # Tutorial Video
-[![Play on Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+[![Afspelen op Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # Info
 
-**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.11.5**
+**🚀 Dart-versie: 𒁍 2.7.0-dev.2.1 ➢ 3.12.2**
 
-**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.7**
+**🚀 Flutter-versie: 𒁍 v1.12.13+hotfix.5 ➢ 3.44.2**
 
+Dart-versie vinden
+-------
+**Vind stabiele versie in `libflutter.so` : `Gebruik MT Manager Teksteditor`**
 
+**Met String**
 
+     (stable)
 
+**Met Regex**
 
-
+    \d+\.\d+\.\d+ \(stable\)
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

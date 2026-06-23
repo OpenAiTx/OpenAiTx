@@ -40,19 +40,19 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Agent2Agent Protocol Logo" width="100">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Agent2Agent Protocol Logo" width="100">
     <h1>Agent2Agent (A2A) Protocol</h1>
   </div>
 </div>
 
-**Een open protocol dat communicatie en interoperabiliteit tussen ondoorzichtige agent-applicaties mogelijk maakt.**
+**Een open protocol dat communicatie en interoperabiliteit tussen ondoorzichtige agenttoepassingen mogelijk maakt.**
 
-Het Agent2Agent (A2A) protocol pakt een cruciale uitdaging aan in het AI-landschap: het mogelijk maken dat gen AI-agenten, gebouwd op diverse frameworks door verschillende bedrijven op aparte servers, effectief kunnen communiceren en samenwerken - als agenten, niet slechts als tools. A2A biedt een gemeenschappelijke taal voor agenten en stimuleert zo een meer verbonden, krachtig en innovatief AI-ecosysteem.
+Het Agent2Agent (A2A) protocol pakt een belangrijk probleem aan in het AI-landschap: het mogelijk maken dat gen AI-agenten, gebouwd op verschillende frameworks door verschillende bedrijven en draaiend op aparte servers, effectief kunnen communiceren en samenwerken – als agenten, niet alleen als tools. A2A biedt een gemeenschappelijke taal voor agenten, en bevordert zo een meer verbonden, krachtig en innovatief AI-ecosysteem.
 
 Met A2A kunnen agenten:
 
 - Elkaars mogelijkheden ontdekken.
-- Interactie-modaliteiten onderhandelen (tekst, formulieren, media).
+- Onderhandelen over interactiemodaliteiten (tekst, formulieren, media).
 - Veilig samenwerken aan langdurige taken.
 - Opereren zonder hun interne status, geheugen of tools bloot te geven.
 
@@ -60,24 +60,24 @@ Met A2A kunnen agenten:
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-Doe mee aan deze korte cursus over [A2A: Het Agent2Agent Protocol](https://goo.gle/dlai-a2a), ontwikkeld in samenwerking met Google Cloud en IBM Research, en gegeven door [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), en [Sandi Besen](https://github.com/sandijean90).
+Volg deze korte cursus over [A2A: Het Agent2Agent Protocol](https://goo.gle/dlai-a2a), ontwikkeld in samenwerking met Google Cloud en IBM Research, en gegeven door [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), en [Sandi Besen](https://github.com/sandijean90).
 
-**Wat je zult leren:**
+**Wat je leert:**
 
 - **Maak agenten A2A-compatibel:** Stel agenten gebouwd met frameworks zoals Google ADK, LangGraph of BeeAI beschikbaar als A2A-servers.
-- **Verbind agenten:** Maak A2A-clients vanaf nul of met integraties om verbinding te maken met A2A-compatibele agenten.
+- **Verbind agenten:** Maak A2A-clients vanaf nul of via integraties om verbinding te maken met A2A-compatibele agenten.
 - **Orkestreer workflows:** Bouw sequentiële en hiërarchische workflows van A2A-compatibele agenten.
-- **Multi-agent systemen:** Bouw een multi-agent systeem voor de gezondheidszorg met verschillende frameworks en zie hoe A2A samenwerking mogelijk maakt.
-- **A2A en MCP:** Leer hoe A2A MCP aanvult door agenten in staat te stellen samen te werken.
+- **Multi-agentsystemen:** Bouw een multi-agentsysteem voor de gezondheidszorg met verschillende frameworks en zie hoe A2A samenwerking mogelijk maakt.
+- **A2A en MCP:** Leer hoe A2A MCP aanvult door agenten in staat te stellen met elkaar samen te werken.
 
 ## Waarom A2A?
 
-Naarmate AI-agenten steeds vaker voorkomen, is hun vermogen om samen te werken cruciaal voor het bouwen van complexe, multifunctionele applicaties. A2A heeft als doel om:
+Nu AI-agenten steeds vaker voorkomen, is hun vermogen tot interoperabiliteit cruciaal voor het bouwen van complexe, multifunctionele toepassingen. A2A streeft naar:
 
-- **Barrières afbreken:** Verbind agenten over verschillende ecosystemen heen.
-- **Complexe samenwerking mogelijk maken:** Laat gespecialiseerde agenten samenwerken aan taken die één agent alleen niet aankan.
-- **Open standaarden bevorderen:** Stimuleer een door de gemeenschap gedreven benadering van agent-communicatie, wat innovatie en brede adoptie aanmoedigt.
-- **Ondoorzichtigheid behouden:** Sta agenten toe samen te werken zonder interne geheugen, eigendomslogica of specifieke tool-implementaties te delen, wat de veiligheid verhoogt en intellectueel eigendom beschermt.
+- **Doorbreek silo's:** Verbind agenten over verschillende ecosystemen heen.
+- **Maak complexe samenwerking mogelijk:** Laat gespecialiseerde agenten samenwerken aan taken die een enkele agent niet alleen aankan.
+- **Stimuleer open standaarden:** Bevorder een door de gemeenschap gedreven benadering van agentcommunicatie, stimuleer innovatie en brede adoptie.
+- **Behoud ondoorzichtigheid:** Laat agenten samenwerken zonder hun interne geheugen, eigendomslogica of specifieke toolimplementaties te delen, wat de veiligheid verhoogt en intellectueel eigendom beschermt.
 
 ### Belangrijkste Kenmerken
 
@@ -131,6 +131,6 @@ Het A2A Protocol is een open source project onder de Linux Foundation, bijgedrag
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

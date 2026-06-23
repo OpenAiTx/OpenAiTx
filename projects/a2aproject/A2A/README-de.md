@@ -40,44 +40,44 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Agent2Agent Protocol Logo" width="100">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Agent2Agent Protocol Logo" width="100">
     <h1>Agent2Agent (A2A) Protokoll</h1>
   </div>
 </div>
 
-**Ein offenes Protokoll, das Kommunikation und Interoperabilität zwischen undurchsichtigen agentischen Anwendungen ermöglicht.**
+**Ein offenes Protokoll, das Kommunikation und Interoperabilität zwischen undurchsichtigen agentenbasierten Anwendungen ermöglicht.**
 
-Das Agent2Agent (A2A) Protokoll adressiert eine zentrale Herausforderung im KI-Bereich: Gen KI-Agenten, die auf unterschiedlichen Frameworks von verschiedenen Unternehmen auf separaten Servern laufen, effektiv kommunizieren und zusammenarbeiten zu lassen – als Agenten, nicht nur als Tools. A2A soll eine gemeinsame Sprache für Agenten bieten und damit ein vernetzteres, leistungsfähigeres und innovativeres KI-Ökosystem fördern.
+Das Agent2Agent (A2A) Protokoll adressiert eine zentrale Herausforderung im KI-Bereich: Es ermöglicht Gen-KI-Agenten, die auf unterschiedlichen Frameworks von verschiedenen Unternehmen auf separaten Servern laufen, effektiv zu kommunizieren und zu kooperieren – als Agenten, nicht nur als Werkzeuge. A2A zielt darauf ab, eine gemeinsame Sprache für Agenten bereitzustellen und damit ein stärker vernetztes, leistungsfähigeres und innovativeres KI-Ökosystem zu fördern.
 
 Mit A2A können Agenten:
 
 - Die Fähigkeiten anderer Agenten entdecken.
-- Modalitäten der Interaktion verhandeln (Text, Formulare, Medien).
-- Sicher an langlaufenden Aufgaben zusammenarbeiten.
-- Ohne Offenlegung ihres internen Zustands, Gedächtnisses oder ihrer Tools agieren.
+- Über Modalitäten der Interaktion verhandeln (Text, Formulare, Medien).
+- Sicher bei lang laufenden Aufgaben zusammenarbeiten.
+- Agieren, ohne ihren internen Zustand, Speicher oder Tools offenzulegen.
 
 ## DeepLearning.AI Kurs
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-Nehmen Sie an diesem kurzen Kurs zu [A2A: Das Agent2Agent Protokoll](https://goo.gle/dlai-a2a) teil, entwickelt in Partnerschaft mit Google Cloud und IBM Research und unterrichtet von [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) und [Sandi Besen](https://github.com/sandijean90).
+Nehmen Sie an diesem kurzen Kurs zu [A2A: Das Agent2Agent Protokoll](https://goo.gle/dlai-a2a) teil, entwickelt in Partnerschaft mit Google Cloud und IBM Research und geleitet von [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) und [Sandi Besen](https://github.com/sandijean90).
 
 **Was Sie lernen werden:**
 
-- **Agenten A2A-kompatibel machen:** Agenten, die mit Frameworks wie Google ADK, LangGraph oder BeeAI gebaut wurden, als A2A-Server bereitstellen.
-- **Agenten verbinden:** A2A-Clients von Grund auf oder mit Integrationen erstellen, um A2A-kompatible Agenten zu verbinden.
-- **Workflows orchestrieren:** Sequentielle und hierarchische Workflows aus A2A-kompatiblen Agenten bauen.
-- **Multi-Agenten-Systeme:** Ein Multi-Agenten-System für das Gesundheitswesen mit verschiedenen Frameworks bauen und sehen, wie A2A die Zusammenarbeit ermöglicht.
-- **A2A und MCP:** Lernen, wie A2A MCP ergänzt, indem Agenten die Zusammenarbeit miteinander ermöglicht wird.
+- **Agenten A2A-kompatibel machen:** Agenten, die mit Frameworks wie Google ADK, LangGraph oder BeeAI gebaut wurden, als A2A-Server exponieren.
+- **Agenten verbinden:** A2A-Clients von Grund auf oder mittels Integrationen erstellen, um sich mit A2A-kompatiblen Agenten zu verbinden.
+- **Workflows orchestrieren:** Sequenzielle und hierarchische Workflows mit A2A-kompatiblen Agenten bauen.
+- **Multi-Agenten-Systeme:** Ein Multi-Agenten-System im Gesundheitswesen mit verschiedenen Frameworks entwickeln und erleben, wie A2A Zusammenarbeit ermöglicht.
+- **A2A und MCP:** Erfahren Sie, wie A2A MCP ergänzt, indem Agenten zur Zusammenarbeit befähigt werden.
 
 ## Warum A2A?
 
-Da KI-Agenten immer häufiger eingesetzt werden, ist ihre Fähigkeit zur Interoperabilität entscheidend für den Aufbau komplexer, multifunktionaler Anwendungen. A2A zielt darauf ab:
+Da KI-Agenten immer verbreiteter werden, ist ihre Interoperabilität entscheidend für den Aufbau komplexer, multifunktionaler Anwendungen. A2A hat folgende Ziele:
 
 - **Silos aufbrechen:** Agenten über verschiedene Ökosysteme hinweg verbinden.
-- **Komplexe Zusammenarbeit ermöglichen:** Spezialisierten Agenten ermöglichen, gemeinsam an Aufgaben zu arbeiten, die ein einzelner Agent nicht bewältigen kann.
-- **Offene Standards fördern:** Einen gemeinschaftsorientierten Ansatz für die Agentenkommunikation fördern und Innovation sowie breite Akzeptanz ermöglichen.
-- **Opazität bewahren:** Agenten können zusammenarbeiten, ohne internes Gedächtnis, proprietäre Logik oder spezielle Tool-Implementierungen teilen zu müssen, wodurch Sicherheit und Schutz geistigen Eigentums verbessert werden.
+- **Komplexe Zusammenarbeit ermöglichen:** Spezialisierte Agenten gemeinsam an Aufgaben arbeiten lassen, die ein einzelner Agent nicht bewältigen kann.
+- **Offene Standards fördern:** Einen gemeinschaftsgetriebenen Ansatz für Agentenkommunikation fördern, um Innovation und breite Akzeptanz zu ermöglichen.
+- **Opazität bewahren:** Agenten ermöglichen, zusammenzuarbeiten, ohne interne Speicher, proprietäre Logik oder spezifische Tool-Implementierungen preiszugeben – zur Erhöhung der Sicherheit und zum Schutz geistigen Eigentums.
 
 ### Hauptfunktionen
 
@@ -131,6 +131,6 @@ Das A2A-Protokoll ist ein Open-Source-Projekt unter der Linux Foundation, beiges
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

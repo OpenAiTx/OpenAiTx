@@ -112,27 +112,33 @@ apt upgrade
 pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
-# Tutorial Video
-[![Play on Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+# ट्यूटोरियल वीडियो
+[![यूट्यूब पर चलाएं](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
-# Info
+# जानकारी
 
-**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.11.5**
+**🚀 डार्ट संस्करण: 𒁍 2.7.0-dev.2.1 ➢ 3.12.2**
 
-**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.7**
+**🚀 फ्लटर संस्करण: 𒁍 v1.12.13+hotfix.5 ➢ 3.44.2**
 
+डार्ट संस्करण खोजें
+-------
+**'libflutter.so' में स्थिर संस्करण खोजें: `MT Manager टेक्स्ट एडिटर का उपयोग करें`**
 
+**स्ट्रिंग के साथ**
 
+     (stable)
 
+**रेगुलर एक्सप्रेशन के साथ**
 
-
+    \d+\.\d+\.\d+ \(stable\)
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

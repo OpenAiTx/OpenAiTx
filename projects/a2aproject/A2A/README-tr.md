@@ -40,44 +40,44 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Agent2Agent Protokolü Logosu" width="100">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Agent2Agent Protocol Logo" width="100">
     <h1>Agent2Agent (A2A) Protokolü</h1>
   </div>
 </div>
 
-**Şeffaf olmayan ajan uygulamaları arasında iletişim ve birlikte çalışabilirliği mümkün kılan açık bir protokol.**
+**Kapalı ajan uygulamaları arasında iletişim ve birlikte çalışabilirliği sağlayan açık bir protokol.**
 
-Agent2Agent (A2A) protokolü, yapay zeka alanında önemli bir sorunu ele alıyor: Farklı şirketler tarafından farklı altyapılar üzerinde, ayrı sunucularda çalışan üretken AI ajanlarının yalnızca araç olarak değil, ajan olarak da etkili bir şekilde iletişim kurup işbirliği yapabilmesini sağlamak. A2A, ajanlar için ortak bir dil sunarak daha bağlantılı, güçlü ve yenilikçi bir yapay zeka ekosistemi oluşturmayı hedefliyor.
+Agent2Agent (A2A) protokolü, AI dünyasında önemli bir soruna çözüm sunar: Farklı şirketler tarafından çeşitli çerçeveler üzerinde ve ayrı sunucularda geliştirilen gen AI ajanlarının, sadece birer araç olarak değil, ajan olarak etkili bir şekilde iletişim kurup iş birliği yapabilmesi. A2A, ajanlar için ortak bir dil sağlamayı ve daha bağlantılı, güçlü, yenilikçi bir AI ekosistemi oluşturmayı hedefler.
 
 A2A ile ajanlar şunları yapabilir:
 
 - Birbirlerinin yeteneklerini keşfedebilir.
-- Etkileşim türlerinde (metin, formlar, medya) pazarlık yapabilir.
-- Güvenli bir şekilde uzun süreli görevlerde işbirliği yapabilir.
-- Dahili durumunu, hafızasını veya araçlarını ifşa etmeden çalışabilir.
+- Etkileşim biçimlerini (metin, formlar, medya) müzakere edebilir.
+- Uzun süreli görevlerde güvenli iş birliği yapabilir.
+- Dahili durumlarını, hafızalarını veya araçlarını açığa çıkarmadan çalışabilirler.
 
 ## DeepLearning.AI Kursu
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-[Google Cloud](https://goo.gle/dlai-a2a) ve IBM Research iş birliğiyle hazırlanan ve [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) ve [Sandi Besen](https://github.com/sandijean90) tarafından verilen [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a) adlı kısa kursa katılın.
+[Google Cloud ve IBM Research](https://goo.gle/dlai-a2a) ile ortaklaşa hazırlanmış ve [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), [Sandi Besen](https://github.com/sandijean90) tarafından verilen [A2A: Agent2Agent Protokolü] kısa kursuna katılın.
 
-**Öğrenecekleriniz:**
+**Neler öğreneceksiniz:**
 
-- **Ajanları A2A-uyumlu yapın:** Google ADK, LangGraph veya BeeAI gibi çerçevelerle oluşturulan ajanları A2A sunucusu olarak açığa çıkarın.
-- **Ajanları bağlayın:** Sıfırdan veya entegrasyonlar kullanarak A2A-uyumlu ajanlara bağlanmak için A2A istemcileri oluşturun.
-- **İş akışlarını yönetin:** A2A-uyumlu ajanların sıralı ve hiyerarşik iş akışlarını oluşturun.
-- **Çoklu ajan sistemleri:** Farklı çerçeveler kullanarak bir sağlık hizmetleri çoklu ajan sistemi oluşturun ve A2A’nın işbirliğini nasıl sağladığını görün.
-- **A2A ve MCP:** A2A’nın, ajanların birbirleriyle işbirliği yapmasını nasıl mümkün kılarak MCP’yi tamamladığını öğrenin.
+- **Ajanları A2A-uyumlu hale getirin:** Google ADK, LangGraph veya BeeAI gibi çerçevelerle oluşturulan ajanları A2A sunucuları olarak açığa çıkarın.
+- **Ajanları bağlayın:** A2A-uyumlu ajanlara bağlanmak için sıfırdan veya entegrasyonlarla A2A istemcileri oluşturun.
+- **İş akışlarını orkestre edin:** A2A-uyumlu ajanlardan sıralı ve hiyerarşik iş akışları oluşturun.
+- **Çoklu ajan sistemleri:** Farklı çerçevelerle sağlık alanında çoklu ajan sistemi kurun ve A2A’nın iş birliğini nasıl sağladığını görün.
+- **A2A ve MCP:** A2A’nın ajanların birbirleriyle iş birliğini kolaylaştırarak MCP’yi nasıl tamamladığını öğrenin.
 
 ## Neden A2A?
 
-Yapay zeka ajanları daha yaygın hale geldikçe, birlikte çalışabilirlikleri karmaşık ve çok işlevli uygulamalar oluşturmak için kritik önemdedir. A2A’nın amaçları şunlardır:
+AI ajanları giderek daha yaygın hale geldikçe, birlikte çalışabilmeleri karmaşık ve çok işlevli uygulamalar oluşturmak için kritik öneme sahip. A2A’nın hedefleri:
 
-- **Kapalı ekosistemleri ortadan kaldırmak:** Farklı ekosistemlerdeki ajanları birbirine bağlamak.
-- **Karmaşık işbirliğini mümkün kılmak:** Uzmanlaşmış ajanların tek başına çözemeyeceği görevlerde birlikte çalışmasını sağlamak.
-- **Açık standartları teşvik etmek:** Ajan iletişimi için topluluk odaklı bir yaklaşımı teşvik ederek yenilik ve geniş çapta benimsenmeyi sağlamak.
-- **Şeffaflığı korumak:** Ajanların dahili hafızalarını, özel mantıklarını veya belirli araç uygulamalarını paylaşmadan işbirliği yapmalarını sağlayarak güvenliği ve fikri mülkiyeti korumak.
+- **Silo Engellerini Kaldırın:** Farklı ekosistemlerdeki ajanları birbirine bağlayın.
+- **Karmaşık İş Birliği Sağlayın:** Uzmanlaşmış ajanların, tek bir ajanın başa çıkamayacağı görevlerde birlikte çalışmasına imkan tanıyın.
+- **Açık Standartları Teşvik Edin:** Ajan iletişimi için topluluk odaklı bir yaklaşımı teşvik ederek yeniliği ve yaygın benimsemeyi destekleyin.
+- **Opaklığı Koruyun:** Ajanların, dahili hafıza, özel mantık veya belirli araç uygulamalarını paylaşmaksızın iş birliği yapmasına imkan tanıyarak güvenliği artırın ve fikri mülkiyeti koruyun.
 
 ### Temel Özellikler
 
@@ -131,6 +131,6 @@ A2A Protokolü, Google tarafından katkı sağlanan, Linux Vakfı altında açı
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

@@ -112,27 +112,33 @@ apt upgrade
 pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
-# Tutorial Video
-[![Play on Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+# วิดีโอสอนใช้งาน
+[![เล่นบน Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
-# Info
+# ข้อมูล
 
-**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.11.5**
+**🚀 เวอร์ชัน Dart: 𒁍 2.7.0-dev.2.1 ➢ 3.12.2**
 
-**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.7**
+**🚀 เวอร์ชัน Flutter: 𒁍 v1.12.13+hotfix.5 ➢ 3.44.2**
 
+ค้นหาเวอร์ชัน Dart
+-------
+**ค้นหาเวอร์ชันเสถียรใน `libflutter.so` : `ใช้ MT Manager Text Editor`**
 
+**ด้วย String**
 
+     (stable)
 
+**ด้วย Regex**
 
-
+    \d+\.\d+\.\d+ \(stable\)
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

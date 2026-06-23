@@ -40,14 +40,14 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Logotipo do Protocolo Agent2Agent" width="100">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Logotipo do Protocolo Agent2Agent" width="100">
     <h1>Protocolo Agent2Agent (A2A)</h1>
   </div>
 </div>
 
-**Um protocolo aberto que permite comunicação e interoperabilidade entre aplicações agenticas opacas.**
+**Um protocolo aberto que possibilita comunicação e interoperabilidade entre aplicações agenticas opacas.**
 
-O protocolo Agent2Agent (A2A) aborda um desafio crítico no cenário de IA: permitir que agentes de IA generativos, construídos em diferentes frameworks por empresas distintas e executados em servidores separados, possam se comunicar e colaborar efetivamente — como agentes, não apenas como ferramentas. O A2A visa fornecer uma linguagem comum para agentes, promovendo um ecossistema de IA mais interconectado, poderoso e inovador.
+O protocolo Agent2Agent (A2A) aborda um desafio crítico no cenário de IA: permitir que agentes de IA generativos, construídos em diferentes frameworks por empresas distintas e executados em servidores separados, possam se comunicar e colaborar efetivamente - como agentes, não apenas como ferramentas. O A2A visa fornecer uma linguagem comum para agentes, promovendo um ecossistema de IA mais interconectado, poderoso e inovador.
 
 Com o A2A, agentes podem:
 
@@ -56,7 +56,7 @@ Com o A2A, agentes podem:
 - Colaborar com segurança em tarefas de longa duração.
 - Operar sem expor seu estado interno, memória ou ferramentas.
 
-## Curso DeepLearning.AI
+## Curso da DeepLearning.AI
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
@@ -64,20 +64,20 @@ Participe deste curso rápido sobre [A2A: O Protocolo Agent2Agent](https://goo.g
 
 **O que você vai aprender:**
 
-- **Torne agentes compatíveis com A2A:** Exponha agentes construídos com frameworks como Google ADK, LangGraph ou BeeAI como servidores A2A.
-- **Conecte agentes:** Crie clientes A2A do zero ou usando integrações para conectar a agentes compatíveis com A2A.
+- **Deixe agentes compatíveis com A2A:** Exponha agentes criados com frameworks como Google ADK, LangGraph ou BeeAI como servidores A2A.
+- **Conecte agentes:** Crie clientes A2A do zero ou usando integrações para conectar-se a agentes compatíveis com A2A.
 - **Orquestre fluxos de trabalho:** Construa fluxos de trabalho sequenciais e hierárquicos de agentes compatíveis com A2A.
-- **Sistemas multiagentes:** Desenvolva um sistema de saúde multiagente usando diferentes frameworks e veja como o A2A possibilita a colaboração.
-- **A2A e MCP:** Aprenda como o A2A complementa o MCP permitindo que agentes colaborem entre si.
+- **Sistemas multiagente:** Construa um sistema de saúde multiagente utilizando diferentes frameworks e veja como o A2A possibilita a colaboração.
+- **A2A e MCP:** Aprenda como o A2A complementa o MCP ao permitir que agentes colaborem entre si.
 
 ## Por que A2A?
 
-À medida que agentes de IA se tornam mais presentes, sua capacidade de interoperar é crucial para construir aplicações complexas e multifuncionais. O A2A visa:
+À medida que agentes de IA se tornam mais prevalentes, sua capacidade de interoperar é crucial para a construção de aplicações complexas e multifuncionais. O A2A busca:
 
 - **Quebrar Silos:** Conectar agentes entre diferentes ecossistemas.
-- **Permitir Colaboração Complexa:** Permitir que agentes especializados trabalhem juntos em tarefas que um agente único não conseguiria resolver sozinho.
-- **Promover Padrões Abertos:** Incentivar uma abordagem comunitária para comunicação entre agentes, promovendo inovação e ampla adoção.
-- **Preservar Opacidade:** Permitir que agentes colaborem sem a necessidade de compartilhar memória interna, lógica proprietária ou implementações específicas de ferramentas, aumentando a segurança e protegendo a propriedade intelectual.
+- **Habilitar Colaboração Complexa:** Permitir que agentes especializados trabalhem juntos em tarefas que um único agente não pode executar sozinho.
+- **Promover Padrões Abertos:** Incentivar uma abordagem comunitária para comunicação entre agentes, estimulando inovação e ampla adoção.
+- **Preservar Opacidade:** Permitir que agentes colaborem sem necessidade de compartilhar memória interna, lógica proprietária ou implementações específicas de ferramentas, aumentando a segurança e protegendo a propriedade intelectual.
 
 ### Principais Recursos
 
@@ -131,6 +131,6 @@ O Protocolo A2A é um projeto open source sob a Linux Foundation, contribuído p
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

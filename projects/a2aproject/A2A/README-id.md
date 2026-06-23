@@ -40,44 +40,44 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Logo Protokol Agent2Agent" width="100">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Logo Protokol Agent2Agent" width="100">
     <h1>Protokol Agent2Agent (A2A)</h1>
   </div>
 </div>
 
-**Protokol terbuka yang memungkinkan komunikasi dan interoperabilitas antara aplikasi agen yang tidak transparan.**
+**Protokol terbuka yang memungkinkan komunikasi dan interoperabilitas antar aplikasi agenik yang tertutup.**
 
-Protokol Agent2Agent (A2A) menangani tantangan penting dalam lanskap AI: memungkinkan agen AI generatif, yang dibangun dengan berbagai kerangka kerja oleh perusahaan berbeda dan berjalan di server terpisah, untuk berkomunikasi dan berkolaborasi secara efektif - sebagai agen, bukan hanya sebagai alat. A2A bertujuan menyediakan bahasa umum bagi agen, mendorong ekosistem AI yang lebih saling terhubung, kuat, dan inovatif.
+Protokol Agent2Agent (A2A) mengatasi tantangan penting di ranah AI: memungkinkan agen AI generatif, yang dibangun di berbagai kerangka kerja oleh perusahaan berbeda dan berjalan di server terpisah, untuk berkomunikasi dan berkolaborasi secara efektif - sebagai agen, bukan hanya sebagai alat. A2A bertujuan menyediakan bahasa umum untuk agen, mendorong ekosistem AI yang lebih terhubung, kuat, dan inovatif.
 
 Dengan A2A, agen dapat:
 
 - Menemukan kapabilitas satu sama lain.
-- Menegosiasikan mode interaksi (teks, formulir, media).
-- Berkolaborasi secara aman pada tugas yang berjalan lama.
-- Beroperasi tanpa mengungkapkan keadaan internal, memori, atau alat mereka.
+- Melakukan negosiasi mode interaksi (teks, formulir, media).
+- Berkolaborasi secara aman pada tugas jangka panjang.
+- Beroperasi tanpa membuka status internal, memori, atau alat mereka.
 
 ## Kursus DeepLearning.AI
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-Ikuti kursus singkat tentang [A2A: Protokol Agent2Agent](https://goo.gle/dlai-a2a), yang dibangun bersama Google Cloud dan IBM Research, serta diajarkan oleh [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), dan [Sandi Besen](https://github.com/sandijean90).
+Ikuti kursus singkat tentang [A2A: Protokol Agent2Agent](https://goo.gle/dlai-a2a), yang dibuat bersama Google Cloud dan IBM Research, serta diajarkan oleh [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), dan [Sandi Besen](https://github.com/sandijean90).
 
-**Apa yang akan Anda pelajari:**
+**Yang akan Anda pelajari:**
 
-- **Membuat agen kompatibel A2A:** Mengekspos agen yang dibangun dengan kerangka kerja seperti Google ADK, LangGraph, atau BeeAI sebagai server A2A.
-- **Menghubungkan agen:** Membuat klien A2A dari awal atau menggunakan integrasi untuk terhubung ke agen yang kompatibel A2A.
-- **Mengorkestrasi alur kerja:** Membangun alur kerja berurutan dan hierarkis dari agen yang kompatibel A2A.
-- **Sistem multi-agen:** Membangun sistem multi-agen di bidang kesehatan menggunakan kerangka kerja yang berbeda dan melihat bagaimana A2A memungkinkan kolaborasi.
+- **Membuat agen sesuai A2A:** Membuka agen yang dibangun dengan kerangka kerja seperti Google ADK, LangGraph, atau BeeAI sebagai server A2A.
+- **Menghubungkan agen:** Membuat klien A2A dari awal atau menggunakan integrasi untuk terhubung ke agen yang sesuai A2A.
+- **Mengorkestrasi alur kerja:** Membangun alur kerja berurutan dan hierarkis dari agen-agen yang sesuai A2A.
+- **Sistem multi-agen:** Membangun sistem multi-agen di bidang kesehatan menggunakan berbagai kerangka kerja dan melihat bagaimana A2A memungkinkan kolaborasi.
 - **A2A dan MCP:** Pelajari bagaimana A2A melengkapi MCP dengan memungkinkan agen berkolaborasi satu sama lain.
 
 ## Mengapa A2A?
 
-Seiring agen AI menjadi lebih umum, kemampuan mereka untuk saling beroperasi sangat penting untuk membangun aplikasi kompleks dan multi-fungsi. A2A bertujuan untuk:
+Seiring agen AI makin umum digunakan, kemampuan mereka untuk saling beroperasi menjadi sangat penting dalam membangun aplikasi yang kompleks dan multifungsi. A2A bertujuan untuk:
 
-- **Memecah Isolasi:** Menghubungkan agen di berbagai ekosistem.
-- **Memungkinkan Kolaborasi Kompleks:** Memungkinkan agen spesialis bekerja sama pada tugas yang tidak dapat ditangani oleh satu agen saja.
-- **Mempromosikan Standar Terbuka:** Mendorong pendekatan komunikasi agen yang digerakkan komunitas, mendukung inovasi dan adopsi yang luas.
-- **Menjaga Opasitas:** Memungkinkan agen berkolaborasi tanpa perlu berbagi memori internal, logika kepemilikan, atau implementasi alat spesifik, meningkatkan keamanan dan melindungi kekayaan intelektual.
+- **Memecah Silo:** Menghubungkan agen di berbagai ekosistem.
+- **Memungkinkan Kolaborasi Kompleks:** Memungkinkan agen khusus bekerja sama pada tugas yang tidak dapat ditangani oleh satu agen saja.
+- **Mendorong Standar Terbuka:** Membangun pendekatan komunikasi agen berbasis komunitas, mendorong inovasi dan adopsi luas.
+- **Menjaga Kerahasiaan:** Memungkinkan agen berkolaborasi tanpa perlu membagikan memori internal, logika kepemilikan, atau implementasi alat spesifik, sehingga meningkatkan keamanan dan melindungi kekayaan intelektual.
 
 ### Fitur Utama
 
@@ -131,6 +131,6 @@ Protokol A2A adalah proyek sumber terbuka di bawah Linux Foundation, yang dikont
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

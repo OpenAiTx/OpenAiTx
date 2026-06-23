@@ -40,19 +40,19 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Logo du protocole Agent2Agent" width="100">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Logo du protocole Agent2Agent" width="100">
     <h1>Protocole Agent2Agent (A2A)</h1>
   </div>
 </div>
 
-**Un protocole ouvert permettant la communication et l’interopérabilité entre des applications agentiques opaques.**
+**Un protocole ouvert permettant la communication et l’interopérabilité entre applications agentiques opaques.**
 
-Le protocole Agent2Agent (A2A) répond à un défi crucial dans le paysage de l’IA : permettre à des agents d’IA générative, construits sur divers frameworks par différentes entreprises et fonctionnant sur des serveurs distincts, de communiquer et de collaborer efficacement — en tant qu’agents, pas seulement comme outils. A2A vise à fournir un langage commun aux agents, favorisant un écosystème d’IA plus interconnecté, puissant et innovant.
+Le protocole Agent2Agent (A2A) répond à un défi majeur dans le domaine de l’IA : permettre à des agents génériques d’IA, construits sur des frameworks variés, par différentes entreprises et fonctionnant sur des serveurs séparés, de communiquer et de collaborer efficacement – en tant qu’agents, et non seulement comme outils. A2A vise à fournir un langage commun aux agents, favorisant un écosystème d’IA plus interconnecté, puissant et innovant.
 
 Avec A2A, les agents peuvent :
 
-- Découvrir les capacités des autres.
-- Négocier les modalités d’interaction (texte, formulaires, médias).
+- Découvrir les capacités des autres agents.
+- Négocier des modalités d’interaction (texte, formulaires, médias).
 - Collaborer en toute sécurité sur des tâches de longue durée.
 - Fonctionner sans exposer leur état interne, leur mémoire ou leurs outils.
 
@@ -60,24 +60,24 @@ Avec A2A, les agents peuvent :
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-Participez à ce cours court sur [A2A : Le Protocole Agent2Agent](https://goo.gle/dlai-a2a), conçu en partenariat avec Google Cloud et IBM Research, et enseigné par [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), et [Sandi Besen](https://github.com/sandijean90).
+Participez à ce cours court sur [A2A : Le protocole Agent2Agent](https://goo.gle/dlai-a2a), conçu en partenariat avec Google Cloud et IBM Research, et enseigné par [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) et [Sandi Besen](https://github.com/sandijean90).
 
 **Ce que vous apprendrez :**
 
-- **Rendre les agents compatibles A2A :** Exposez des agents construits avec des frameworks comme Google ADK, LangGraph ou BeeAI sous forme de serveurs A2A.
-- **Connecter les agents :** Créez des clients A2A à partir de zéro ou en utilisant des intégrations pour se connecter à des agents compatibles A2A.
-- **Orchestrer des workflows :** Construisez des workflows séquentiels et hiérarchiques d’agents compatibles A2A.
-- **Systèmes multi-agents :** Construisez un système multi-agent dans le domaine de la santé utilisant différents frameworks et voyez comment A2A permet la collaboration.
-- **A2A et MCP :** Découvrez comment A2A complète MCP en permettant aux agents de collaborer entre eux.
+- **Rendre les agents compatibles A2A :** Exposez des agents construits avec des frameworks comme Google ADK, LangGraph ou BeeAI en tant que serveurs A2A.
+- **Connecter des agents :** Créez des clients A2A de zéro ou à l’aide d’intégrations pour se connecter à des agents compatibles A2A.
+- **Orchestrer des flux de travail :** Construisez des flux de travail séquentiels et hiérarchiques d’agents compatibles A2A.
+- **Systèmes multi-agents :** Construisez un système multi-agents pour la santé à partir de frameworks différents et découvrez comment A2A permet la collaboration.
+- **A2A et MCP :** Apprenez comment A2A complète MCP en permettant aux agents de collaborer entre eux.
 
 ## Pourquoi A2A ?
 
-À mesure que les agents d’IA deviennent plus répandus, leur capacité à interopérer est cruciale pour construire des applications complexes et multifonctionnelles. A2A vise à :
+À mesure que les agents d’IA se généralisent, leur capacité à interopérer devient essentielle pour construire des applications complexes et multifonctionnelles. A2A vise à :
 
-- **Briser les silos :** Connecter les agents à travers différents écosystèmes.
-- **Permettre la collaboration complexe :** Autoriser des agents spécialisés à travailler ensemble sur des tâches qu’un seul agent ne pourrait pas gérer seul.
-- **Promouvoir les standards ouverts :** Favoriser une approche communautaire de la communication entre agents, encourageant l’innovation et une large adoption.
-- **Préserver l’opacité :** Permettre aux agents de collaborer sans avoir besoin de partager leur mémoire interne, leur logique propriétaire ou des implémentations d’outils spécifiques, renforçant la sécurité et protégeant la propriété intellectuelle.
+- **Casser les silos :** Connecter les agents à travers différents écosystèmes.
+- **Permettre une collaboration complexe :** Permettre à des agents spécialisés de travailler ensemble sur des tâches qu’un agent seul ne pourrait pas gérer.
+- **Promouvoir des standards ouverts :** Favoriser une approche communautaire de la communication agentique, encourageant l’innovation et une adoption large.
+- **Préserver l’opacité :** Permettre aux agents de collaborer sans partager leur mémoire interne, leur logique propriétaire ou leurs outils spécifiques, renforçant la sécurité et protégeant la propriété intellectuelle.
 
 ### Fonctionnalités clés
 
@@ -131,6 +131,6 @@ Le protocole A2A est un projet open source sous l'égide de la Linux Foundation,
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

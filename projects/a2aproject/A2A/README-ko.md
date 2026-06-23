@@ -40,44 +40,44 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Agent2Agent Protocol Logo" width="100">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Agent2Agent Protocol Logo" width="100">
     <h1>Agent2Agent (A2A) 프로토콜</h1>
   </div>
 </div>
 
-**불투명한 에이전트형 애플리케이션 간 통신 및 상호운용성을 가능하게 하는 오픈 프로토콜입니다.**
+**불투명한 에이전트형 애플리케이션 간의 통신과 상호운용성을 가능하게 하는 오픈 프로토콜입니다.**
 
-Agent2Agent (A2A) 프로토콜은 AI 분야에서 중요한 과제를 다룹니다: 다양한 프레임워크로 구축되고 서로 다른 회사의 별도 서버에서 실행되는 생성형 AI 에이전트들이, 단순한 도구가 아닌 에이전트로서 효과적으로 소통하고 협업할 수 있도록 하는 것입니다. A2A는 에이전트들을 위한 공통 언어를 제공하여, 더욱 상호연결되고 강력하며 혁신적인 AI 생태계를 조성하는 것을 목표로 합니다.
+Agent2Agent (A2A) 프로토콜은 AI 분야에서 중요한 문제를 해결합니다. 즉, 다양한 프레임워크로 구축되어 서로 다른 회사의 별도 서버에서 실행되는 생성형 AI 에이전트들이 단순한 도구가 아닌 에이전트로서 효과적으로 소통하고 협업할 수 있도록 합니다. A2A는 에이전트들을 위한 공통 언어를 제공하여 더 상호 연결되고 강력하며 혁신적인 AI 생태계를 조성하는 것을 목표로 합니다.
 
-A2A를 통해 에이전트들은 다음과 같은 일을 할 수 있습니다:
+A2A를 사용하면 에이전트는 다음과 같은 작업이 가능합니다:
 
 - 서로의 기능을 발견합니다.
-- 상호작용 방식(텍스트, 폼, 미디어 등)을 협상합니다.
-- 장기 실행되는 작업을 안전하게 협업합니다.
-- 자신의 내부 상태, 메모리, 도구를 노출하지 않고 동작합니다.
+- 상호작용 방식(텍스트, 양식, 미디어 등)을 협상합니다.
+- 장기 실행 작업을 안전하게 협업합니다.
+- 내부 상태, 메모리 또는 도구를 노출하지 않고 동작합니다.
 
-## DeepLearning.AI 강좌
+## DeepLearning.AI 과정
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-[구글 클라우드](https://goo.gle/dlai-a2a)와 IBM 리서치와의 협업으로 제작된 [A2A: Agent2Agent 프로토콜](https://goo.gle/dlai-a2a) 단기 강좌에 참여해보세요. [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), [Sandi Besen](https://github.com/sandijean90)가 강의합니다.
+[Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), [Sandi Besen](https://github.com/sandijean90) 이 가르치는 Google Cloud 및 IBM Research와의 파트너십으로 제작된 [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a) 단기 과정에 참여하세요.
 
-**배울 내용:**
+**배우게 될 내용:**
 
-- **에이전트를 A2A 준수로 만들기:** Google ADK, LangGraph, BeeAI와 같은 프레임워크로 만든 에이전트를 A2A 서버로 노출하는 방법
-- **에이전트 연결:** A2A 클라이언트를 처음부터 만들거나 통합을 이용해 A2A 준수 에이전트에 연결
-- **워크플로 오케스트레이션:** A2A 준수 에이전트의 순차적, 계층적 워크플로 구축
-- **멀티 에이전트 시스템:** 다양한 프레임워크로 헬스케어 멀티 에이전트 시스템을 구축하고 A2A로 협업하는 방법 확인
-- **A2A와 MCP:** 에이전트 간 협업을 가능하게 하여 A2A가 MCP를 어떻게 보완하는지 학습
+- **에이전트를 A2A 호환으로 만들기:** Google ADK, LangGraph, BeeAI 등으로 구축된 에이전트를 A2A 서버로 노출합니다.
+- **에이전트 연결하기:** 직접 또는 통합을 통해 A2A 클라이언트를 만들어 A2A 호환 에이전트에 연결합니다.
+- **워크플로 오케스트레이션:** A2A 호환 에이전트의 순차적, 계층적 워크플로를 구축합니다.
+- **멀티 에이전트 시스템:** 다양한 프레임워크를 활용해 의료 분야 멀티 에이전트 시스템을 구축하고, A2A가 협업을 어떻게 지원하는지 확인합니다.
+- **A2A와 MCP:** A2A가 MCP와 어떻게 보완적으로 작동하며 에이전트 간 협업을 가능하게 하는지 학습합니다.
 
 ## 왜 A2A인가?
 
-AI 에이전트의 활용도가 높아질수록, 이들의 상호운용성은 복합적이고 다기능적인 애플리케이션 구축에 필수적입니다. A2A는 다음을 목표로 합니다:
+AI 에이전트가 점점 더 보편화됨에 따라, 그들의 상호운용성은 복잡하고 다기능적인 애플리케이션을 구축하는 데 필수적입니다. A2A는 다음을 목표로 합니다:
 
-- **사일로 허물기:** 다양한 생태계의 에이전트 연결
-- **복잡한 협업 지원:** 단일 에이전트로는 처리할 수 없는 작업을 특화된 에이전트들이 함께 수행하도록 지원
-- **오픈 표준 촉진:** 에이전트 통신의 커뮤니티 중심 접근을 조성해 혁신과 폭넓은 채택 장려
-- **불투명성 유지:** 에이전트가 내부 메모리, 독점 논리, 특정 도구 구현을 공유하지 않고 협업할 수 있게 하여 보안을 강화하고 지식재산을 보호
+- **사일로 허물기:** 다양한 생태계의 에이전트를 연결합니다.
+- **복잡한 협업 가능:** 단일 에이전트가 처리할 수 없는 작업을 전문화된 에이전트들이 함께 수행하도록 합니다.
+- **오픈 스탠더드 촉진:** 에이전트 간 통신에 대한 커뮤니티 주도의 접근 방식을 장려하여 혁신과 광범위한 채택을 도모합니다.
+- **불투명성 보장:** 내부 메모리, 독점적 로직, 특정 도구 구현을 공유하지 않고도 에이전트 협업이 가능하도록 하여 보안과 지식재산 보호를 강화합니다.
 
 ### 주요 기능
 
@@ -131,6 +131,6 @@ A2A 프로토콜은 Google이 기여하고 Linux Foundation 산하에 있는 오
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---

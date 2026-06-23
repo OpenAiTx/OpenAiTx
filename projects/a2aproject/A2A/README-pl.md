@@ -40,44 +40,44 @@
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
-    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="Agent2Agent Protocol Logo" width="100">
-    <h1>Agent2Agent (A2A) Protocol</h1>
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a_logo/color/SVG/a2a_color.svg" alt="Agent2Agent Protocol Logo" width="100">
+    <h1>Protokół Agent2Agent (A2A)</h1>
   </div>
 </div>
 
-**Otwarty protokół umożliwiający komunikację i interoperacyjność między nieprzejrzystymi aplikacjami agentowymi.**
+**Otwarty protokół umożliwiający komunikację i interoperacyjność pomiędzy nieprzezroczystymi aplikacjami agentowymi.**
 
-Protokół Agent2Agent (A2A) rozwiązuje kluczowe wyzwanie w dziedzinie AI: umożliwienie agentom generatywnym AI, zbudowanym na różnych frameworkach przez różne firmy i działającym na oddzielnych serwerach, skutecznej komunikacji i współpracy – jako agenci, a nie tylko narzędzia. Celem A2A jest dostarczenie wspólnego języka dla agentów, wspierając bardziej połączony, potężny i innowacyjny ekosystem AI.
+Protokół Agent2Agent (A2A) odpowiada na kluczowe wyzwanie w świecie AI: umożliwia agentom generatywnym AI, zbudowanym na różnych frameworkach przez różne firmy i działającym na oddzielnych serwerach, skuteczną komunikację i współpracę - jako agenci, nie tylko jako narzędzia. A2A ma na celu zapewnienie wspólnego języka dla agentów, wspierając bardziej połączony, potężny i innowacyjny ekosystem AI.
 
 Dzięki A2A agenci mogą:
 
-- Odkrywać wzajemne możliwości.
-- Negocjować sposoby interakcji (tekst, formularze, multimedia).
-- Bezpiecznie współpracować przy długotrwałych zadaniach.
-- Działać bez ujawniania swojego stanu wewnętrznego, pamięci ani narzędzi.
+- Odkrywać nawzajem swoje możliwości.
+- Negocjować tryby interakcji (tekst, formularze, media).
+- Bezpiecznie współpracować nad długotrwałymi zadaniami.
+- Działać bez ujawniania swojego stanu wewnętrznego, pamięci lub narzędzi.
 
 ## Kurs DeepLearning.AI
 
 [![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-Dołącz do krótkiego kursu [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a), stworzonego we współpracy z Google Cloud i IBM Research, prowadzonego przez [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) i [Sandi Besen](https://github.com/sandijean90).
+Dołącz do tego krótkiego kursu [A2A: Protokół Agent2Agent](https://goo.gle/dlai-a2a), stworzonego we współpracy z Google Cloud i IBM Research, prowadzonego przez [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) oraz [Sandi Besen](https://github.com/sandijean90).
 
 **Czego się nauczysz:**
 
-- **Zgodność agentów z A2A:** Udostępnij agentów zbudowanych w frameworkach takich jak Google ADK, LangGraph czy BeeAI jako serwery A2A.
-- **Łączenie agentów:** Twórz klientów A2A od podstaw lub używając integracji do łączenia się z agentami zgodnymi z A2A.
-- **Orkiestracja workflow:** Buduj sekwencyjne i hierarchiczne workflow agentów zgodnych z A2A.
-- **Systemy multi-agentowe:** Stwórz system opieki zdrowotnej z udziałem wielu agentów, korzystając z różnych frameworków i zobacz, jak A2A umożliwia współpracę.
-- **A2A i MCP:** Dowiedz się, jak A2A uzupełnia MCP, umożliwiając agentom wzajemną współpracę.
+- **Przystosuj agentów do A2A:** Udostępnij agentów zbudowanych na Google ADK, LangGraph czy BeeAI jako serwery A2A.
+- **Łącz agentów:** Twórz klientów A2A od podstaw lub korzystaj z integracji, aby łączyć się z agentami zgodnymi z A2A.
+- **Orkiestruj workflow:** Buduj sekwencyjne i hierarchiczne przepływy pracy agentów zgodnych z A2A.
+- **Systemy multiagentowe:** Zbuduj system multiagentowy w sektorze zdrowia, korzystając z różnych frameworków i zobacz, jak A2A umożliwia współpracę.
+- **A2A i MCP:** Dowiedz się, jak A2A uzupełnia MCP, umożliwiając agentom współpracę ze sobą.
 
 ## Dlaczego A2A?
 
-Wraz ze wzrostem popularności agentów AI, ich zdolność do współdziałania jest kluczowa dla tworzenia złożonych, wielofunkcyjnych aplikacji. Celem A2A jest:
+Wraz ze wzrostem liczby agentów AI, ich zdolność do współpracy jest kluczowa dla budowy złożonych, wielofunkcyjnych aplikacji. A2A ma na celu:
 
-- **Likwidacja silosów:** Łączenie agentów z różnych ekosystemów.
-- **Umożliwienie złożonej współpracy:** Pozwól wyspecjalizowanym agentom współpracować nad zadaniami, których pojedynczy agent nie jest w stanie zrealizować samodzielnie.
-- **Promowanie otwartych standardów:** Budowanie komunikacji agentów w oparciu o społeczność, wspierając innowacje i szeroką adopcję.
-- **Zachowanie nieprzejrzystości:** Pozwól agentom na współpracę bez konieczności dzielenia się pamięcią wewnętrzną, logiką zastrzeżoną czy implementacją narzędzi, co zwiększa bezpieczeństwo i chroni własność intelektualną.
+- **Przełamać silosy:** Łączyć agentów w różnych ekosystemach.
+- **Umożliwić złożoną współpracę:** Pozwalać wyspecjalizowanym agentom pracować wspólnie nad zadaniami, których jeden agent nie jest w stanie obsłużyć.
+- **Promować otwarte standardy:** Wspierać społecznościowe podejście do komunikacji agentów, zachęcając do innowacji i szerokiej adopcji.
+- **Zachować nieprzezroczystość:** Pozwalać agentom współpracować bez konieczności udostępniania wewnętrznej pamięci, logiki czy implementacji narzędzi, zwiększając bezpieczeństwo i chroniąc własność intelektualną.
 
 ### Kluczowe funkcje
 
@@ -131,6 +131,6 @@ Protokół A2A to projekt open source pod egidą Linux Foundation, współtworzo
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-23
 
 ---
