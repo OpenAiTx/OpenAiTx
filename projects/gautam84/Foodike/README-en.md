@@ -1,7 +1,39 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 ![GitHub Cards Preview](https://github.com/gautam84/Foodike/blob/master/art/FoodikeIntrouctionMockUp.jpg?raw=true)
 
 # 🍔 Foodike
-Foodike is a simple, easy-to-use food delivery app. It is built using Android-Jetpack Compose and is built on the principle of MVVM with Modern Android Architecture Components.
+Foodike is a simple, easy-to-use food delivery app. It is built using Android-Jetpack Compose and is based on the principle of MVVM with Modern Android Architecture Components.
 
 ## Demo 
 ![](https://github.com/gautam84/Foodike/blob/master/art/demo.gif)
@@ -14,23 +46,23 @@ Onboarding | Login | Home | Details | History | Cart | Profile
 
 ## Build With 🛠
 
-- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android
+- [Kotlin](https://kotlinlang.org/) - The primary and official programming language for Android
   development.
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose is Android’s
   modern toolkit for building native UI.
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - A coroutine is a
-  concurrency design pattern that you can use on Android to simplify code that executes
+  concurrency design pattern you can use on Android to simplify code that executes
   asynchronously.
-- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - A flow is an asynchronous
-  version of a Sequence, a type of collection whose values are lazily produced.
+- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow is an asynchronous
+  version of a Sequence, a type of collection whose values are produced lazily.
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) -
   Collection of libraries that help you design robust, testable, and maintainable apps.
   - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow is a
-    state-holder observable flow that emits the current and new state updates to its collectors.
-  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - A flow is an asynchronous
-    version of a Sequence, a type of collection whose values are lazily produced.
+    state-holder observable flow that emits current and new state updates to its collectors.
+  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow is an asynchronous
+    version of a Sequence, a type of collection whose values are produced lazily.
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores
-    UI-related data that isn"t destroyed on UI changes.
+    UI-related data that isn’t destroyed on UI changes.
   - [Jetpack Compose Navigation](https://developer.android.com/jetpack/compose/navigation) - The
     Navigation component provides support for Jetpack Compose applications.
   - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack
@@ -39,33 +71,33 @@ Onboarding | Login | Home | Details | History | Cart | Profile
     consistently, and transactionally.
 - [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt is a dependency injection library for Android that reduces the     boilerplate of doing manual dependency injection in your project. Doing manual dependency injection requires you to construct every class and its                 dependencies by hand, and to use containers to reuse and manage dependencies.
   
-- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - Starting in Android 12, the SplashScreen API lets apps launch with animation, including an into-app motion at launch, a splash screen showing your app icon, and a transition to your app itself. A SplashScreen is a Window and therefore covers an Activity.
+- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - Starting with Android 12, the SplashScreen API allows apps to launch with animation, including an into-app motion at launch, a splash screen displaying your app icon, and a transition to your app itself. A SplashScreen is a Window and thus covers an Activity.
 - [Material Components for Android](https://github.com/material-components/material-components-android)
   - Modular and customizable Material Design UI components for Android.
-- [Figma](https://figma.com/) - Figma is a vector graphics editor and prototyping tool which is
+- [Figma](https://figma.com/) - Figma is a vector graphics editor and prototyping tool
   primarily web-based.
 
 ## Architecture 🗼
 
-This app uses [***MVVM (Model View
+This app uses the [***MVVM (Model View
 View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
 
 ![](https://github.com/gautam84/Foodike/blob/master/art/mvvm.png)
 
 ## Build-tool 🧰
-You need to have [Android Studio Beta 3 or above](https://developer.android.com/studio/preview) to build this project.
+You need [Android Studio Beta 3 or above](https://developer.android.com/studio/preview) to build this project.
 
 ## Contact 📩
 
-Wanna reach out to me? DM me at 👇
+Want to reach out to me? DM me at 👇
 
-Drop a mail to:- gautamhazarika01@gmail.com
+Send an email to: gautamhazarika01@gmail.com
 
-My Portfolio:- www.gautamhz.com
+My Portfolio: www.gautamhz.com
 
 ## Donation 💰
 
-If this project help you reduce time to develop, you can give me a cup of coffee :)
+If this project helps you save time in development, you can buy me a cup of coffee :)
 
 <a href="https://www.buymeacoffee.com/gautam.hz" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
@@ -114,6 +146,6 @@ I am building the backend in full Kotlin using Ktor [here](https://github.com/ga
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-24
 
 ---

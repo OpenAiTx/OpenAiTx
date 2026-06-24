@@ -1,0 +1,806 @@
+[
+  {
+    "row": 1,
+    "rowsha": "i6x32KUghJLG/JmY+qXvPtZVhI8PbhTSwawAWVKoqi8=",
+    "originContent": "# MonkSynth",
+    "translatedContent": "# MonkSynth"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "+yzJuYn6mSzrowO+Y2mralWqQIYLTggKeJYjNpSYjd0=",
+    "originContent": "[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)",
+    "translatedContent": "[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "kPTzm9IfutMjhhO2zCB4kfUEa/HAQt0RRTozjnOdo3A=",
+    "originContent": "[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)",
+    "translatedContent": "[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)"
+  },
+  {
+    "row": 5,
+    "rowsha": "adRN6LVgSnY9lI+K7HqbPnkXDOXiYkbhKuPcBI85eNA=",
+    "originContent": "[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)",
+    "translatedContent": "[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "XjEdeO8ZIbZ6Sjun/2wIAKzzXuroqtsfuPIMjYye3ao=",
+    "originContent": "A monophonic vocal synthesizer that sounds like a monk chanting. Built using formant-wave-function (FOF) synthesis, inspired by the classic [Delay Lama](http://www.audionerdz.nl/) VST plugin by AudioNerdz (2002).",
+    "translatedContent": "Un synthétiseur vocal monophonique qui sonne comme un moine chantant. Construit en utilisant la synthèse par fonction d’onde formante (FOF), inspiré par le classique plugin VST [Delay Lama](http://www.audionerdz.nl/) d’AudioNerdz (2002)."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "EGIQMywYLrIk1il3hgS+b2PWDqG4aBPChT5h852lOd0=",
+    "originContent": "**[Download the latest release](https://github.com/JonET/monksynth/releases)** — available for Windows, macOS, and Linux.",
+    "translatedContent": "**[Téléchargez la dernière version](https://github.com/JonET/monksynth/releases)** — disponible pour Windows, macOS, et Linux."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "3iP/5NFYpHYJGkSaYmtnSnea9RNVlLY5zc/b3kh/j60=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "py0SUiybQRsZ8iG6H1pjQfl+3cqQV6kJuHyJPJRUsUo=",
+    "originContent": "*MonkSynth v0.0.1-beta.1 in Ableton Live 12, with the classic theme imported from the original Delay Lama DLL*",
+    "translatedContent": "*MonkSynth v0.0.1-beta.1 dans Ableton Live 12, avec le thème classique importé depuis la DLL originale de Delay Lama*"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Fonctionnalités"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "xtvLmF6o18qNmn+olKucMoOlnb2wMbQFMKqQN9mFdAI=",
+    "originContent": "- FOF synthesis engine producing realistic vocal formants",
+    "translatedContent": "- Moteur de synthèse FOF produisant des formants vocaux réalistes"
+  },
+  {
+    "row": 18,
+    "rowsha": "8rp+Txu28dttExFg88di5qa2+bbksntZumPdfNZFTd8=",
+    "originContent": "- XY pad for real-time pitch and vowel control",
+    "translatedContent": "- Pavé XY pour le contrôle en temps réel de la hauteur et des voyelles"
+  },
+  {
+    "row": 19,
+    "rowsha": "sE94ylCpSOiH9VnIXyrG3Er3Z4K4RVYlL7m2QuV43ro=",
+    "originContent": "- Built-in stereo delay effect",
+    "translatedContent": "- Effet de délai stéréo intégré"
+  },
+  {
+    "row": 20,
+    "rowsha": "Z853KuBixrug+xLdk/CDBvi4e8O1vlVA2QIkwGBBgt8=",
+    "originContent": "- MIDI support: note on/off, pitch wheel, CC1 (vibrato), CC5 (glide), CC7 (volume), CC12 (delay), CC13 (voice)",
+    "translatedContent": "- Support MIDI : note on/off, molette de pitch, CC1 (vibrato), CC5 (glissando), CC7 (volume), CC12 (délai), CC13 (voix)"
+  },
+  {
+    "row": 21,
+    "rowsha": "xshOBbJ3ltJBYXiG7uQ0+UxqM4eDYSW6+CNUJ2UptRg=",
+    "originContent": "- Automatable **Pitch Bend** parameter (±12 semitones). The hardware pitch wheel is routable to either Vowel (Classic / Delay Lama compat, the default) or Pitch via right-click → Pitch Bend",
+    "translatedContent": "- Paramètre **Pitch Bend** automatisable (±12 demi-tons). La molette de pitch matérielle est routable soit vers Voyelle (Classique / compatibilité Delay Lama, par défaut) ou Pitch via clic droit → Pitch Bend"
+  },
+  {
+    "row": 22,
+    "rowsha": "5E164nA3RXy9XXnwD2CvfqKDVrlm71rFO+CWBTa1ijE=",
+    "originContent": "- ADSR envelope with configurable attack, decay, sustain, release",
+    "translatedContent": "- Enveloppe ADSR avec attaque, décroissance, sustain, release configurables"
+  },
+  {
+    "row": 23,
+    "rowsha": "rH6uzCLGYamlSsWqpAwukbVJH9O4dXebRf0gyiUC2KY=",
+    "originContent": "- Unison mode with up to 10 detuned voices and voice spread",
+    "translatedContent": "- Mode unisson avec jusqu’à 10 voix désaccordées et dispersion des voix"
+  },
+  {
+    "row": 24,
+    "rowsha": "EGV22MJBBFNeEH5i40XbkOJjW306q7n8fGt3RDJ0WTQ=",
+    "originContent": "- Theme system with right-click context menu for custom themes",
+    "translatedContent": "- Système de thèmes avec menu contextuel clic droit pour thèmes personnalisés"
+  },
+  {
+    "row": 25,
+    "rowsha": "BjOuFQJ9qoTwg/wFI1st/9c3hrNbp7dzDrXxPl+phsw=",
+    "originContent": "- Import classic theme from the original Delay Lama DLL",
+    "translatedContent": "- Import du thème classique depuis la DLL originale de Delay Lama"
+  },
+  {
+    "row": 26,
+    "rowsha": "bz/7jrJxsD178ezGnqK/gTviq6DF/l479hR9dRiIdOk=",
+    "originContent": "- 5 factory presets",
+    "translatedContent": "- 5 presets d’usine"
+  },
+  {
+    "row": 27,
+    "rowsha": "hPFQKnqm3WBJGy1RcaSUdi+aC9ftVJ9eGg2ZjiZCq7Y=",
+    "originContent": "- VST3 plugin format (Windows, macOS, Linux) and Audio Unit (macOS)",
+    "translatedContent": "- Format plugin VST3 (Windows, macOS, Linux) et Audio Unit (macOS)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+    "originContent": "## Building",
+    "translatedContent": "## Compilation"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": "### Prérequis"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "aKVScJsTX+/UucDuHS6DqDkIr12ZBaYQFySmGaJrQ/E=",
+    "originContent": "- CMake 3.20+",
+    "translatedContent": "- CMake 3.20+"
+  },
+  {
+    "row": 34,
+    "rowsha": "Mpf421X27/5wu5fSHUr2jNKLWw16OkHn9Fv0bfE1CQs=",
+    "originContent": "- C/C++ compiler (MSVC, GCC, or Clang)",
+    "translatedContent": "- Compilateur C/C++ (MSVC, GCC ou Clang)"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "8aIhgwV63hNALJUIBIX1H5jmhzVo93+f7RD+oRKpxx0=",
+    "originContent": "### Build",
+    "translatedContent": "### Compilation"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 39,
+    "rowsha": "NEP53d++GBwJqrj1uGCH4G6VQpxuy2zhx3z9y0n41S8=",
+    "originContent": "cd cpp",
+    "translatedContent": "cd cpp"
+  },
+  {
+    "row": 40,
+    "rowsha": "MbSoG/z8bGyTRv1fPPy5rCOcKq9YxJ4fqjDzHLwS6tk=",
+    "originContent": "cmake -B build",
+    "translatedContent": "cmake -B build"
+  },
+  {
+    "row": 41,
+    "rowsha": "8T8KZMsDWTxPsZyAPMZuF/thKVPbnUBvqtTJ4N5wGYY=",
+    "originContent": "cmake --build build --config Release --target MonkSynth",
+    "translatedContent": "cmake --build build --config Release --target MonkSynth"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "R0z3Ic8li+C4SU42tn9/K5FlzbrkXbcw9dS6QNICTLI=",
+    "originContent": "The VST3 SDK is fetched automatically by CMake. The built plugin is placed in your system VST3 directory.",
+    "translatedContent": "Le SDK VST3 est récupéré automatiquement par CMake. Le plugin compilé est placé dans votre répertoire système VST3."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "SVsSIeRJ8Wqh7HZVlrhmMu5EDVwRuczKZ3iyRwS6jws=",
+    "originContent": "### macOS Audio Unit",
+    "translatedContent": "### Audio Unit macOS"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "ewxwn9fx67EyhAz393xfTpYofy859xEM41xAkc9MJ7I=",
+    "originContent": "To also build the AU plugin, install the [AudioUnit SDK](https://github.com/apple/AudioUnitSDK) and configure with:",
+    "translatedContent": "Pour construire également le plugin AU, installez le [AudioUnit SDK](https://github.com/apple/AudioUnitSDK) et configurez avec :"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "695/zxRo97kmzaEFn88TABsbFcEj0BBKc25ULMMRJ4M=",
+    "originContent": "cmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK",
+    "translatedContent": "cmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK"
+  },
+  {
+    "row": 52,
+    "rowsha": "dYJfaU08EPJYlTYgkI5JCCwkuGova4X47iB2rr53tWc=",
+    "originContent": "cmake --build build --config Release --target MonkSynth-au",
+    "translatedContent": "cmake --build build --config Release --target MonkSynth-au"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "8GvNcYiYrmXLG+k3WzF5ZF/LEnBasyqy66EGalHpBDY=",
+    "originContent": "### DSP unit tests",
+    "translatedContent": "### Tests unitaires DSP"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "YmReIIE28WWxyKeAlzYr8Vzl5PPJ4iHYyPJbjah80kc=",
+    "originContent": "The pure-C DSP layer (`dsp/`) has a small unit test suite exercising ADSR envelope boundaries, the note stack, unison detune math, pitch-bend propagation, and delay-line feedback stability. Tests are opt-in so they don't affect normal plugin builds:",
+    "translatedContent": "La couche DSP en pur C (`dsp/`) dispose d'une petite suite de tests unitaires vérifiant les limites de l'enveloppe ADSR, la pile de notes, les calculs de désaccord en unisson, la propagation du pitch-bend et la stabilité du feedback de la ligne de retard. Les tests sont optionnels afin de ne pas affecter les compilations normales du plugin :"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 60,
+    "rowsha": "NEP53d++GBwJqrj1uGCH4G6VQpxuy2zhx3z9y0n41S8=",
+    "originContent": "cd cpp",
+    "translatedContent": "cd cpp"
+  },
+  {
+    "row": 61,
+    "rowsha": "Dgofk15Bo/vQzE6IdMrZexW2jS4As2INIoVeXydPBeg=",
+    "originContent": "cmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON",
+    "translatedContent": "cmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON"
+  },
+  {
+    "row": 62,
+    "rowsha": "NYgrF3GdALCtYkA/+vcUAO6Z1dU247jl1AX5dWB4lWA=",
+    "originContent": "cmake --build build-tests --config Release",
+    "translatedContent": "cmake --build build-tests --config Release"
+  },
+  {
+    "row": 63,
+    "rowsha": "nBxObvzVCg3hA9KSbZMGHn5l6m+qbHGQbj23Y80LNSA=",
+    "originContent": "ctest --test-dir build-tests --output-on-failure",
+    "translatedContent": "ctest --test-dir build-tests --output-on-failure"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "wIgJWKFbr6fS8QMuP7zmUtDWKOm1HeZ0hVlR5kbCOXo=",
+    "originContent": "CI runs the test suite on the Linux job before packaging each release, so any DSP regression blocks the build.",
+    "translatedContent": "CI exécute la suite de tests sur le travail Linux avant de packager chaque version, donc toute régression DSP bloque la construction."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "O1kmSDFdRBiiPbzDwqM+FeXZ2mJBxPAcVdXm1LXAW8A=",
+    "originContent": "- **macOS:** Run the `.pkg` installer — installs both VST3 and AU plugins",
+    "translatedContent": "- **macOS :** Exécutez l'installateur `.pkg` — installe à la fois les plugins VST3 et AU"
+  },
+  {
+    "row": 71,
+    "rowsha": "HHRenUnEVzdbjoU2U4G97x0B7LUKwRXhGJrlTGmdusU=",
+    "originContent": "- **Windows:** Run the `.exe` installer — installs the VST3 plugin",
+    "translatedContent": "- **Windows :** Exécutez l'installateur `.exe` — installe le plugin VST3"
+  },
+  {
+    "row": 72,
+    "rowsha": "ALSYuuPKCe1ZKt69dv4kwQVvhf+gkHukU1JXLRWmi8w=",
+    "originContent": "- **Linux:** Extract and copy `MonkSynth.vst3` to `~/.vst3/`",
+    "translatedContent": "- **Linux :** Extrayez et copiez `MonkSynth.vst3` dans `~/.vst3/`"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "Yk24wKSCc7nO4M29c28RHcGnHoFPoc3MXywHNHVVC2s=",
+    "originContent": "### Linux compatibility",
+    "translatedContent": "### Compatibilité Linux"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "z9wSQLl6hQCb3J06CY4c4fvSGuSwppa9clid7e7Xo9U=",
+    "originContent": "The Linux build is verified on each release to load cleanly under strict loader semantics (Bitwig-style `dlopen(RTLD_NOW)`) on these distro families:",
+    "translatedContent": "La version Linux est vérifiée à chaque sortie pour se charger proprement sous des sémantiques de chargeur strictes (style Bitwig `dlopen(RTLD_NOW)`) sur ces familles de distributions :"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "h1ElflkfFqq9b8+ckXD+spCRSlwVWyomPMQCKSAUNIw=",
+    "originContent": "- Ubuntu 22.04 / 24.04 LTS (and derivatives: Linux Mint, Pop!_OS, Elementary, KDE neon)",
+    "translatedContent": "- Ubuntu 22.04 / 24.04 LTS (et dérivés : Linux Mint, Pop!_OS, Elementary, KDE neon)"
+  },
+  {
+    "row": 79,
+    "rowsha": "99tLEmaO2ZMl4D0OH17Utrad9Q6BA95NN5yi3IHQ4hU=",
+    "originContent": "- Debian 12 (and derivatives: KX Studio, AV Linux, MX Linux)",
+    "translatedContent": "- Debian 12 (et dérivés : KX Studio, AV Linux, MX Linux)"
+  },
+  {
+    "row": 80,
+    "rowsha": "3P3U5fhiYCSgME+x2IFlyksmrJom/HR58xK4G7U/gjI=",
+    "originContent": "- Fedora (latest)",
+    "translatedContent": "- Fedora (dernière version)"
+  },
+  {
+    "row": 81,
+    "rowsha": "OXJDa5rLvjW7DQ9K8mIXj+ZbvN1LE0+CqGZmgntj7HI=",
+    "originContent": "- Arch Linux (and derivatives: Manjaro, EndeavourOS, CachyOS)",
+    "translatedContent": "- Arch Linux (et dérivés : Manjaro, EndeavourOS, CachyOS)"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "hxok1FThQkjpQEW3rY6MvMqN37pyuKKObkXbXvJSXSM=",
+    "originContent": "If your distro isn't listed it most likely still works — these are smoke-tested in CI to catch the missing-shared-library class of bug, not an exhaustive support claim. The plugin is built on Ubuntu 22.04 (glibc 2.35), so any distro with glibc ≥ 2.35 should be compatible. Reports from other distros are welcome via [GitHub Issues](https://github.com/JonET/monksynth/issues).",
+    "translatedContent": "Si votre distribution n’est pas listée, elle fonctionne très probablement encore — ces tests rapides en CI visent à détecter les bugs de type bibliothèque partagée manquante, pas une garantie de support exhaustive. Le plugin est compilé sur Ubuntu 22.04 (glibc 2.35), donc toute distribution avec glibc ≥ 2.35 devrait être compatible. Les retours d’autres distributions sont bienvenus via [GitHub Issues](https://github.com/JonET/monksynth/issues)."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "CHq86WjI/DJQ9RfWZNIWGULulkJ2OgnOX+DsFD/uuaY=",
+    "originContent": "## Themes",
+    "translatedContent": "## Thèmes"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "4h19maK9NUJ5Ur+ESc0udi+j4Ha+dTGukQhpu1+IocU=",
+    "originContent": "MonkSynth ships without a built-in theme. On first launch, it shows a setup screen where you can import the classic look from the original Delay Lama DLL (available as freeware from [audionerdz.nl](http://www.audionerdz.nl/download.htm)).",
+    "translatedContent": "MonkSynth est livré sans thème intégré. Au premier lancement, il affiche un écran de configuration où vous pouvez importer le look classique du DLL Delay Lama original (disponible en freeware sur [audionerdz.nl](http://www.audionerdz.nl/download.htm))."
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "s/DQ8Hphz2jJ1pkdVWW1oi2jpKOEi+ZxjZLmJEF81C0=",
+    "originContent": "You can also load custom themes via right-click on the plugin GUI. A theme folder contains a `theme.json` manifest and any combination of these PNG files (missing ones fall back to 1x1 placeholders):",
+    "translatedContent": "Vous pouvez aussi charger des thèmes personnalisés via clic droit sur l’interface du plugin. Un dossier thème contient un manifeste `theme.json` et toute combinaison de ces fichiers PNG (ceux manquants sont remplacés par des images 1x1) :"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "TXQF8+Bf4ng87hzbIHhzwNTz/IyrevCKnWred/VV0nc=",
+    "originContent": "- `background.png` — main background (360x510)",
+    "translatedContent": "- `background.png` — arrière-plan principal (360x510)"
+  },
+  {
+    "row": 92,
+    "rowsha": "izRodyLRRDMjZ17mvuEJ0JyM2w67Vxr3g334WzIoioc=",
+    "originContent": "- `monk-strip.png` — animation sprite sheet (5x6 grid, 311x311 frames)",
+    "translatedContent": "- `monk-strip.png` — feuille de sprite d’animation (grille 5x6, cadres 311x311)"
+  },
+  {
+    "row": 93,
+    "rowsha": "vqrx9NLEIfrpJJ6TaSL9Eaxo6OQZkwA62sya8dDAtPs=",
+    "originContent": "- `knob-left.png` / `knob-right.png` — rotary knob filmstrips (50x3000, 60 frames)",
+    "translatedContent": "- `knob-left.png` / `knob-right.png` — films de boutons rotatifs (50x3000, 60 cadres)"
+  },
+  {
+    "row": 94,
+    "rowsha": "A6hasHtMbF/Ec1H6PD8zQ9Gh7XwgtWgefPy+RZAWUFI=",
+    "originContent": "- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — fader handles",
+    "translatedContent": "- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — poignées de faders"
+  },
+  {
+    "row": 95,
+    "rowsha": "yxnQJ2Ddsuo87gjpcbgFH5JePVkPdjFOb4NSEpr/je0=",
+    "originContent": "- `info.png` — info overlay (253x275)",
+    "translatedContent": "- `info.png` — superposition d’info (253x275)"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "DdmNh2jVyoC3agYanom+m0GxUBJqncSEv0ra3ndfQK0=",
+    "originContent": "**Looking for fresh default themes to ship with the plugin.** If you design a theme you're proud of, open a PR — I'd love to include contributed themes in the next release. The right-click menu has an \"Open Themes Folder\" item that reveals where themes live on disk.",
+    "translatedContent": "**Recherche de nouveaux thèmes par défaut à intégrer au plugin.** Si vous créez un thème dont vous êtes fier, ouvrez une PR — j’aimerais inclure des thèmes proposés dans la prochaine version. Le menu clic droit propose un élément \"Ouvrir le dossier Thèmes\" qui montre où se trouvent les thèmes sur le disque."
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "gzx7WSZWkBQyHmWVMxUTrBglg7GXBqyEWp53+d+3UaI=",
+    "originContent": "## Translations",
+    "translatedContent": "## Traductions"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "z7Fjs9jAfktn1xLoBZ8cbXAqcUyxWrWykPT6UOMsDCs=",
+    "originContent": "The plugin UI (setup screen, info overlay, right-click menu, and DLL-importer error messages) is available in English, Japanese, and Korean. The language auto-detects from your OS locale; you can override it via right-click → Language.",
+    "translatedContent": "L’interface du plugin (écran de configuration, superposition d’info, menu clic droit, messages d’erreur de l’importateur DLL) est disponible en anglais, japonais et coréen. La langue est détectée automatiquement depuis la locale de votre OS ; vous pouvez la changer via clic droit → Langue."
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "FUjcX188gbrDLI9YIvcozW5/phNSndetsdg26QrblZ0=",
+    "originContent": "**Japanese and Korean translations were generated by a large language model as a starting point.** Native-speaker contributions are very welcome — please open a PR editing `cpp/src/strings_ja.h` or `cpp/src/strings_ko.h`. Every string is indexed by the `StringId` enum in `cpp/src/i18n.h`; keep entries in the same order and leave any you're unsure about as empty strings to fall back to English.",
+    "translatedContent": "**Les traductions japonaise et coréenne ont été générées par un grand modèle de langue comme point de départ.** Les contributions de locuteurs natifs sont très appréciées — merci d’ouvrir une PR en modifiant `cpp/src/strings_ja.h` ou `cpp/src/strings_ko.h`. Chaque chaîne est indexée par l’énumération `StringId` dans `cpp/src/i18n.h` ; conservez l’ordre des entrées et laissez vides celles dont vous n’êtes pas sûr pour revenir à l’anglais."
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "dqJ5P6GMGEKeogBKP7gAnWh4a+yNVKG9AZ/2Z1jvSFs=",
+    "originContent": "Parameter names (shown in your DAW's automation lanes) stay English on purpose — tutorials, presets, and community discussion all assume the English names.",
+    "translatedContent": "Les noms des paramètres (affichés dans les pistes d’automatisation de votre DAW) restent en anglais intentionnellement — les tutoriels, les presets et les discussions communautaires supposent tous les noms en anglais."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "rLTw8Luga5D+4TLn/HyDjscldhKw1vSRlptOVTXptBM=",
+    "originContent": "## Code Signing Policy",
+    "translatedContent": "## Politique de signature du code"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "vlbXn8q1cbZATTel2tK/TyyU9V3kTo31gkdhe9Nn5NQ=",
+    "originContent": "Free code signing provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).",
+    "translatedContent": "Signature de code gratuite fournie par [SignPath.io](https://about.signpath.io/), certificat par [SignPath Foundation](https://signpath.org/)."
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "jmjj24lbRC54Pp4l3L3ejCeIjtfjSlV8BDkUEjNZ5XA=",
+    "originContent": "The Windows VST3 plugin and installer are signed as part of the release build in GitHub Actions. Signing requests are submitted to SignPath only for tagged releases built from this repository, and each request is manually approved in the SignPath UI before the certificate is applied.",
+    "translatedContent": "Le plugin VST3 Windows et l’installateur sont signés dans le cadre de la compilation de la version via GitHub Actions. Les demandes de signature sont soumises à SignPath uniquement pour les versions taguées construites à partir de ce dépôt, et chaque demande est approuvée manuellement dans l’interface SignPath avant l’application du certificat."
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "K5BePE9ZIyucyyTZOZX7ap+KRTmxpGUQaGPtTV1bLnE=",
+    "originContent": "| Privileged role | Signer |",
+    "translatedContent": "| Rôle privilégié | Signataire |"
+  },
+  {
+    "row": 114,
+    "rowsha": "+MB/tfnx2Dc9nT4KKkUlacYwYrGuZhLPcYi/SFWjspQ=",
+    "originContent": "|-----------------|--------|",
+    "translatedContent": "|-----------------|------------|"
+  },
+  {
+    "row": 115,
+    "rowsha": "l+tJX5wAbjpArH5bEmjl4nAN9ehFe8uYCjGv0Vh0uO8=",
+    "originContent": "| Author          | [Jonathan Taylor](https://github.com/JonET) |",
+    "translatedContent": "| Auteur          | [Jonathan Taylor](https://github.com/JonET) |"
+  },
+  {
+    "row": 116,
+    "rowsha": "msNUp4RE4bOWKwj0bfWK4AZfdsnc3yN1H5pWw+/LudQ=",
+    "originContent": "| Reviewer        | [Jonathan Taylor](https://github.com/JonET) |",
+    "translatedContent": "| Relecteur       | [Jonathan Taylor](https://github.com/JonET) |"
+  },
+  {
+    "row": 117,
+    "rowsha": "IiXrwWFJZziGt7y86zw8aJXydNEWr2aVOENbtZyMknw=",
+    "originContent": "| Approver        | [Jonathan Taylor](https://github.com/JonET) |",
+    "translatedContent": "| Approuveur      | [Jonathan Taylor](https://github.com/JonET) |"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "A5Zp6wW7rAWfXIaRY6VEKKOoovqv5h1QW6dPLlwmn/0=",
+    "originContent": "### Privacy Policy",
+    "translatedContent": "### Politique de confidentialité"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "ppnyqa8ST5EfXwLizHx6w/Ysy6zHBsa/HaJ/nBH4D3I=",
+    "originContent": "This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.",
+    "translatedContent": "Ce programme ne transférera aucune information à d’autres systèmes en réseau sauf si cela est spécifiquement demandé par l’utilisateur ou la personne l’installant ou l’utilisant."
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": "## Remerciements"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "eDt3eVv6wAfGgiyEsWflGFm12hd0H0+UPbrnFSHLkNw=",
+    "originContent": "- [Delay Lama](http://www.audionerdz.nl/) by AudioNerdz (2002) — the beloved freeware VST plugin that inspired this project",
+    "translatedContent": "- [Delay Lama](http://www.audionerdz.nl/) par AudioNerdz (2002) — le plugin VST freeware adoré qui a inspiré ce projet"
+  },
+  {
+    "row": 126,
+    "rowsha": "GoQOZcIeN1kDXbWfdE2e9OF7vTHRUyudO5IP4INY/1w=",
+    "originContent": "- Xavier Rodet (IRCAM) — formant-wave-function (FOF) synthesis technique",
+    "translatedContent": "- Xavier Rodet (IRCAM) — technique de synthèse par fonction d’onde formante (FOF)"
+  },
+  {
+    "row": 127,
+    "rowsha": "ZJeLUEJTl/BMHho3CNCmjwpnKcOY2GWgmDYrcdbYYK0=",
+    "originContent": "- [stb_image_write](https://github.com/nothings/stb) by Sean Barrett — single-header image writing (MIT / public domain)",
+    "translatedContent": "- [stb_image_write](https://github.com/nothings/stb) par Sean Barrett — écriture d’image en un seul fichier d’en-tête (MIT / domaine public)"
+  },
+  {
+    "row": 128,
+    "rowsha": "2AsRM8ZFxeCqU18soS0D3iyApUXvZsGHQbT5VTMyFtU=",
+    "originContent": "- [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) by Steinberg — plugin framework (MIT)",
+    "translatedContent": "- [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) par Steinberg — cadre de plugin (MIT)"
+  },
+  {
+    "row": 129,
+    "rowsha": "PcLqZCvOpUlxckYrMF8AC3G9aE2ByVmpE8VGoevtlkI=",
+    "originContent": "- [SignPath Foundation](https://signpath.org/) — free Windows code signing for open source projects",
+    "translatedContent": "- [SignPath Foundation](https://signpath.org/) — signature de code Windows gratuite pour projets open source"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## Licence"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+    "originContent": "[MIT](LICENSE)",
+    "translatedContent": "[MIT](LICENSE)"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,806 @@
+[
+  {
+    "row": 1,
+    "rowsha": "i6x32KUghJLG/JmY+qXvPtZVhI8PbhTSwawAWVKoqi8=",
+    "originContent": "# MonkSynth",
+    "translatedContent": "# MonkSynth"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "+yzJuYn6mSzrowO+Y2mralWqQIYLTggKeJYjNpSYjd0=",
+    "originContent": "[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)",
+    "translatedContent": "[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "kPTzm9IfutMjhhO2zCB4kfUEa/HAQt0RRTozjnOdo3A=",
+    "originContent": "[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)",
+    "translatedContent": "[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)"
+  },
+  {
+    "row": 5,
+    "rowsha": "adRN6LVgSnY9lI+K7HqbPnkXDOXiYkbhKuPcBI85eNA=",
+    "originContent": "[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)",
+    "translatedContent": "[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "XjEdeO8ZIbZ6Sjun/2wIAKzzXuroqtsfuPIMjYye3ao=",
+    "originContent": "A monophonic vocal synthesizer that sounds like a monk chanting. Built using formant-wave-function (FOF) synthesis, inspired by the classic [Delay Lama](http://www.audionerdz.nl/) VST plugin by AudioNerdz (2002).",
+    "translatedContent": "수도승이 노래하는 듯한 소리를 내는 단성 보컬 신디사이저입니다. 고전적인 AudioNerdz(2002)의 [Delay Lama](http://www.audionerdz.nl/) VST 플러그인에서 영감을 받은 포먼트-웨이브-함수(FOF) 합성을 사용하여 제작되었습니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "EGIQMywYLrIk1il3hgS+b2PWDqG4aBPChT5h852lOd0=",
+    "originContent": "**[Download the latest release](https://github.com/JonET/monksynth/releases)** — available for Windows, macOS, and Linux.",
+    "translatedContent": "**[최신 릴리스 다운로드](https://github.com/JonET/monksynth/releases)** — Windows, macOS, Linux용으로 제공됩니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "3iP/5NFYpHYJGkSaYmtnSnea9RNVlLY5zc/b3kh/j60=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "py0SUiybQRsZ8iG6H1pjQfl+3cqQV6kJuHyJPJRUsUo=",
+    "originContent": "*MonkSynth v0.0.1-beta.1 in Ableton Live 12, with the classic theme imported from the original Delay Lama DLL*",
+    "translatedContent": "*Ableton Live 12에서 실행 중인 MonkSynth v0.0.1-beta.1, 원본 Delay Lama DLL에서 가져온 고전 테마 적용*"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "xtvLmF6o18qNmn+olKucMoOlnb2wMbQFMKqQN9mFdAI=",
+    "originContent": "- FOF synthesis engine producing realistic vocal formants",
+    "translatedContent": "- 현실적인 보컬 포먼트를 생성하는 FOF 합성 엔진"
+  },
+  {
+    "row": 18,
+    "rowsha": "8rp+Txu28dttExFg88di5qa2+bbksntZumPdfNZFTd8=",
+    "originContent": "- XY pad for real-time pitch and vowel control",
+    "translatedContent": "- 실시간 피치 및 모음 조절을 위한 XY 패드"
+  },
+  {
+    "row": 19,
+    "rowsha": "sE94ylCpSOiH9VnIXyrG3Er3Z4K4RVYlL7m2QuV43ro=",
+    "originContent": "- Built-in stereo delay effect",
+    "translatedContent": "- 내장 스테레오 딜레이 이펙트"
+  },
+  {
+    "row": 20,
+    "rowsha": "Z853KuBixrug+xLdk/CDBvi4e8O1vlVA2QIkwGBBgt8=",
+    "originContent": "- MIDI support: note on/off, pitch wheel, CC1 (vibrato), CC5 (glide), CC7 (volume), CC12 (delay), CC13 (voice)",
+    "translatedContent": "- MIDI 지원: 노트 온/오프, 피치 휠, CC1(비브라토), CC5(글라이드), CC7(볼륨), CC12(딜레이), CC13(보이스)"
+  },
+  {
+    "row": 21,
+    "rowsha": "xshOBbJ3ltJBYXiG7uQ0+UxqM4eDYSW6+CNUJ2UptRg=",
+    "originContent": "- Automatable **Pitch Bend** parameter (±12 semitones). The hardware pitch wheel is routable to either Vowel (Classic / Delay Lama compat, the default) or Pitch via right-click → Pitch Bend",
+    "translatedContent": "- 자동화 가능한 **피치 벤드** 파라미터(±12 반음). 하드웨어 피치 휠은 오른쪽 클릭 → 피치 벤드를 통해 모음(고전 / Delay Lama 호환, 기본값) 또는 피치로 라우팅 가능"
+  },
+  {
+    "row": 22,
+    "rowsha": "5E164nA3RXy9XXnwD2CvfqKDVrlm71rFO+CWBTa1ijE=",
+    "originContent": "- ADSR envelope with configurable attack, decay, sustain, release",
+    "translatedContent": "- 설정 가능한 어택, 디케이, 서스테인, 릴리스가 있는 ADSR 엔벨로프"
+  },
+  {
+    "row": 23,
+    "rowsha": "rH6uzCLGYamlSsWqpAwukbVJH9O4dXebRf0gyiUC2KY=",
+    "originContent": "- Unison mode with up to 10 detuned voices and voice spread",
+    "translatedContent": "- 최대 10개의 디튠 보이스와 보이스 스프레드를 갖춘 유니슨 모드"
+  },
+  {
+    "row": 24,
+    "rowsha": "EGV22MJBBFNeEH5i40XbkOJjW306q7n8fGt3RDJ0WTQ=",
+    "originContent": "- Theme system with right-click context menu for custom themes",
+    "translatedContent": "- 사용자 지정 테마를 위한 오른쪽 클릭 컨텍스트 메뉴가 있는 테마 시스템"
+  },
+  {
+    "row": 25,
+    "rowsha": "BjOuFQJ9qoTwg/wFI1st/9c3hrNbp7dzDrXxPl+phsw=",
+    "originContent": "- Import classic theme from the original Delay Lama DLL",
+    "translatedContent": "- 원본 Delay Lama DLL에서 고전 테마 가져오기"
+  },
+  {
+    "row": 26,
+    "rowsha": "bz/7jrJxsD178ezGnqK/gTviq6DF/l479hR9dRiIdOk=",
+    "originContent": "- 5 factory presets",
+    "translatedContent": "- 5개의 공장 프리셋"
+  },
+  {
+    "row": 27,
+    "rowsha": "hPFQKnqm3WBJGy1RcaSUdi+aC9ftVJ9eGg2ZjiZCq7Y=",
+    "originContent": "- VST3 plugin format (Windows, macOS, Linux) and Audio Unit (macOS)",
+    "translatedContent": "- VST3 플러그인 포맷(Windows, macOS, Linux) 및 Audio Unit(macOS)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+    "originContent": "## Building",
+    "translatedContent": "## 빌드"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": "### 필수 조건"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "aKVScJsTX+/UucDuHS6DqDkIr12ZBaYQFySmGaJrQ/E=",
+    "originContent": "- CMake 3.20+",
+    "translatedContent": "- CMake 3.20 이상"
+  },
+  {
+    "row": 34,
+    "rowsha": "Mpf421X27/5wu5fSHUr2jNKLWw16OkHn9Fv0bfE1CQs=",
+    "originContent": "- C/C++ compiler (MSVC, GCC, or Clang)",
+    "translatedContent": "- C/C++ 컴파일러(MSVC, GCC 또는 Clang)"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "8aIhgwV63hNALJUIBIX1H5jmhzVo93+f7RD+oRKpxx0=",
+    "originContent": "### Build",
+    "translatedContent": "### 빌드"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 39,
+    "rowsha": "NEP53d++GBwJqrj1uGCH4G6VQpxuy2zhx3z9y0n41S8=",
+    "originContent": "cd cpp",
+    "translatedContent": "cd cpp"
+  },
+  {
+    "row": 40,
+    "rowsha": "MbSoG/z8bGyTRv1fPPy5rCOcKq9YxJ4fqjDzHLwS6tk=",
+    "originContent": "cmake -B build",
+    "translatedContent": "cmake -B build"
+  },
+  {
+    "row": 41,
+    "rowsha": "8T8KZMsDWTxPsZyAPMZuF/thKVPbnUBvqtTJ4N5wGYY=",
+    "originContent": "cmake --build build --config Release --target MonkSynth",
+    "translatedContent": "cmake --build build --config Release --target MonkSynth"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "VST3 SDK는 CMake에 의해 자동으로 가져옵니다. 빌드된 플러그인은 시스템 VST3 디렉토리에 배치됩니다."
+  },
+  {
+    "row": 44,
+    "rowsha": "R0z3Ic8li+C4SU42tn9/K5FlzbrkXbcw9dS6QNICTLI=",
+    "originContent": "The VST3 SDK is fetched automatically by CMake. The built plugin is placed in your system VST3 directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### macOS 오디오 유닛"
+  },
+  {
+    "row": 46,
+    "rowsha": "SVsSIeRJ8Wqh7HZVlrhmMu5EDVwRuczKZ3iyRwS6jws=",
+    "originContent": "### macOS Audio Unit",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "AU 플러그인도 빌드하려면 [AudioUnit SDK](https://github.com/apple/AudioUnitSDK)를 설치하고 다음과 같이 구성하세요:"
+  },
+  {
+    "row": 48,
+    "rowsha": "ewxwn9fx67EyhAz393xfTpYofy859xEM41xAkc9MJ7I=",
+    "originContent": "To also build the AU plugin, install the [AudioUnit SDK](https://github.com/apple/AudioUnitSDK) and configure with:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "695/zxRo97kmzaEFn88TABsbFcEj0BBKc25ULMMRJ4M=",
+    "originContent": "cmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK",
+    "translatedContent": "cmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK"
+  },
+  {
+    "row": 52,
+    "rowsha": "dYJfaU08EPJYlTYgkI5JCCwkuGova4X47iB2rr53tWc=",
+    "originContent": "cmake --build build --config Release --target MonkSynth-au",
+    "translatedContent": "cmake --build build --config Release --target MonkSynth-au"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### DSP 단위 테스트"
+  },
+  {
+    "row": 55,
+    "rowsha": "8GvNcYiYrmXLG+k3WzF5ZF/LEnBasyqy66EGalHpBDY=",
+    "originContent": "### DSP unit tests",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "순수 C DSP 레이어(`dsp/`)는 ADSR 엔벨로프 경계, 노트 스택, 유니슨 디튠 수학, 피치 밴드 전파, 딜레이 라인 피드백 안정성을 검사하는 작은 단위 테스트 모음을 포함합니다. 테스트는 선택적이어서 일반 플러그인 빌드에 영향을 미치지 않습니다:"
+  },
+  {
+    "row": 57,
+    "rowsha": "YmReIIE28WWxyKeAlzYr8Vzl5PPJ4iHYyPJbjah80kc=",
+    "originContent": "The pure-C DSP layer (`dsp/`) has a small unit test suite exercising ADSR envelope boundaries, the note stack, unison detune math, pitch-bend propagation, and delay-line feedback stability. Tests are opt-in so they don't affect normal plugin builds:",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 60,
+    "rowsha": "NEP53d++GBwJqrj1uGCH4G6VQpxuy2zhx3z9y0n41S8=",
+    "originContent": "cd cpp",
+    "translatedContent": "cd cpp"
+  },
+  {
+    "row": 61,
+    "rowsha": "Dgofk15Bo/vQzE6IdMrZexW2jS4As2INIoVeXydPBeg=",
+    "originContent": "cmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON",
+    "translatedContent": "cmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON"
+  },
+  {
+    "row": 62,
+    "rowsha": "NYgrF3GdALCtYkA/+vcUAO6Z1dU247jl1AX5dWB4lWA=",
+    "originContent": "cmake --build build-tests --config Release",
+    "translatedContent": "cmake --build build-tests --config Release"
+  },
+  {
+    "row": 63,
+    "rowsha": "nBxObvzVCg3hA9KSbZMGHn5l6m+qbHGQbj23Y80LNSA=",
+    "originContent": "ctest --test-dir build-tests --output-on-failure",
+    "translatedContent": "ctest --test-dir build-tests --output-on-failure"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "CI는 각 릴리스 패키징 전에 Linux 작업에서 테스트 스위트를 실행하므로, DSP 회귀가 발생하면 빌드가 차단됩니다."
+  },
+  {
+    "row": 66,
+    "rowsha": "wIgJWKFbr6fS8QMuP7zmUtDWKOm1HeZ0hVlR5kbCOXo=",
+    "originContent": "CI runs the test suite on the Linux job before packaging each release, so any DSP regression blocks the build.",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 68,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **macOS:** `.pkg` 설치 프로그램 실행 — VST3 및 AU 플러그인 모두 설치"
+  },
+  {
+    "row": 70,
+    "rowsha": "O1kmSDFdRBiiPbzDwqM+FeXZ2mJBxPAcVdXm1LXAW8A=",
+    "originContent": "- **macOS:** Run the `.pkg` installer — installs both VST3 and AU plugins",
+    "translatedContent": "- **Windows:** `.exe` 설치 프로그램 실행 — VST3 플러그인 설치"
+  },
+  {
+    "row": 71,
+    "rowsha": "HHRenUnEVzdbjoU2U4G97x0B7LUKwRXhGJrlTGmdusU=",
+    "originContent": "- **Windows:** Run the `.exe` installer — installs the VST3 plugin",
+    "translatedContent": "- **Linux:** `MonkSynth.vst3`를 추출하여 `~/.vst3/`에 복사"
+  },
+  {
+    "row": 72,
+    "rowsha": "ALSYuuPKCe1ZKt69dv4kwQVvhf+gkHukU1JXLRWmi8w=",
+    "originContent": "- **Linux:** Extract and copy `MonkSynth.vst3` to `~/.vst3/`",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Linux 호환성"
+  },
+  {
+    "row": 74,
+    "rowsha": "Yk24wKSCc7nO4M29c28RHcGnHoFPoc3MXywHNHVVC2s=",
+    "originContent": "### Linux compatibility",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Linux 빌드는 각 릴리스마다 엄격한 로더 시맨틱(Bitwig 스타일 `dlopen(RTLD_NOW)`) 하에서 다음 배포판 계열에서 정상적으로 로드되는지 검증됩니다:"
+  },
+  {
+    "row": 76,
+    "rowsha": "z9wSQLl6hQCb3J06CY4c4fvSGuSwppa9clid7e7Xo9U=",
+    "originContent": "The Linux build is verified on each release to load cleanly under strict loader semantics (Bitwig-style `dlopen(RTLD_NOW)`) on these distro families:",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Ubuntu 22.04 / 24.04 LTS (및 파생판: Linux Mint, Pop!_OS, Elementary, KDE neon)"
+  },
+  {
+    "row": 78,
+    "rowsha": "h1ElflkfFqq9b8+ckXD+spCRSlwVWyomPMQCKSAUNIw=",
+    "originContent": "- Ubuntu 22.04 / 24.04 LTS (and derivatives: Linux Mint, Pop!_OS, Elementary, KDE neon)",
+    "translatedContent": "- Debian 12 (및 파생판: KX Studio, AV Linux, MX Linux)"
+  },
+  {
+    "row": 79,
+    "rowsha": "99tLEmaO2ZMl4D0OH17Utrad9Q6BA95NN5yi3IHQ4hU=",
+    "originContent": "- Debian 12 (and derivatives: KX Studio, AV Linux, MX Linux)",
+    "translatedContent": "- Fedora (최신)"
+  },
+  {
+    "row": 80,
+    "rowsha": "3P3U5fhiYCSgME+x2IFlyksmrJom/HR58xK4G7U/gjI=",
+    "originContent": "- Fedora (latest)",
+    "translatedContent": "- Arch Linux (및 파생판: Manjaro, EndeavourOS, CachyOS)"
+  },
+  {
+    "row": 81,
+    "rowsha": "OXJDa5rLvjW7DQ9K8mIXj+ZbvN1LE0+CqGZmgntj7HI=",
+    "originContent": "- Arch Linux (and derivatives: Manjaro, EndeavourOS, CachyOS)",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "목록에 없는 배포판도 대체로 작동할 가능성이 높습니다 — 이는 CI에서 누락된 공유 라이브러리 종류의 버그를 잡기 위한 스모크 테스트이지, 완전한 지원 주장이 아닙니다. 플러그인은 Ubuntu 22.04 (glibc 2.35)에서 빌드되었으므로 glibc ≥ 2.35를 사용하는 배포판과 호환되어야 합니다. 다른 배포판의 보고는 [GitHub Issues](https://github.com/JonET/monksynth/issues)를 통해 환영합니다."
+  },
+  {
+    "row": 83,
+    "rowsha": "hxok1FThQkjpQEW3rY6MvMqN37pyuKKObkXbXvJSXSM=",
+    "originContent": "If your distro isn't listed it most likely still works — these are smoke-tested in CI to catch the missing-shared-library class of bug, not an exhaustive support claim. The plugin is built on Ubuntu 22.04 (glibc 2.35), so any distro with glibc ≥ 2.35 should be compatible. Reports from other distros are welcome via [GitHub Issues](https://github.com/JonET/monksynth/issues).",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 테마"
+  },
+  {
+    "row": 85,
+    "rowsha": "CHq86WjI/DJQ9RfWZNIWGULulkJ2OgnOX+DsFD/uuaY=",
+    "originContent": "## Themes",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MonkSynth는 내장 테마 없이 제공됩니다. 처음 실행 시 설정 화면이 나타나며, 여기서 원본 Delay Lama DLL의 클래식 룩을 가져올 수 있습니다(무료로 [audionerdz.nl](http://www.audionerdz.nl/download.htm)에서 제공)."
+  },
+  {
+    "row": 87,
+    "rowsha": "4h19maK9NUJ5Ur+ESc0udi+j4Ha+dTGukQhpu1+IocU=",
+    "originContent": "MonkSynth ships without a built-in theme. On first launch, it shows a setup screen where you can import the classic look from the original Delay Lama DLL (available as freeware from [audionerdz.nl](http://www.audionerdz.nl/download.htm)).",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "플러그인 GUI에서 오른쪽 클릭을 통해 사용자 정의 테마도 불러올 수 있습니다. 테마 폴더는 `theme.json` 매니페스트와 다음 PNG 파일 조합을 포함합니다(누락된 파일은 1x1 플레이스홀더로 대체):"
+  },
+  {
+    "row": 89,
+    "rowsha": "s/DQ8Hphz2jJ1pkdVWW1oi2jpKOEi+ZxjZLmJEF81C0=",
+    "originContent": "You can also load custom themes via right-click on the plugin GUI. A theme folder contains a `theme.json` manifest and any combination of these PNG files (missing ones fall back to 1x1 placeholders):",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `background.png` — 메인 배경 (360x510)"
+  },
+  {
+    "row": 91,
+    "rowsha": "TXQF8+Bf4ng87hzbIHhzwNTz/IyrevCKnWred/VV0nc=",
+    "originContent": "- `background.png` — main background (360x510)",
+    "translatedContent": "- `monk-strip.png` — 애니메이션 스프라이트 시트 (5x6 그리드, 311x311 프레임)"
+  },
+  {
+    "row": 92,
+    "rowsha": "izRodyLRRDMjZ17mvuEJ0JyM2w67Vxr3g334WzIoioc=",
+    "originContent": "- `monk-strip.png` — animation sprite sheet (5x6 grid, 311x311 frames)",
+    "translatedContent": "- `knob-left.png` / `knob-right.png` — 로터리 노브 필름스트립 (50x3000, 60 프레임)"
+  },
+  {
+    "row": 93,
+    "rowsha": "vqrx9NLEIfrpJJ6TaSL9Eaxo6OQZkwA62sya8dDAtPs=",
+    "originContent": "- `knob-left.png` / `knob-right.png` — rotary knob filmstrips (50x3000, 60 frames)",
+    "translatedContent": "- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — 페이더 핸들"
+  },
+  {
+    "row": 94,
+    "rowsha": "A6hasHtMbF/Ec1H6PD8zQ9Gh7XwgtWgefPy+RZAWUFI=",
+    "originContent": "- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — fader handles",
+    "translatedContent": "- `info.png` — 정보 오버레이 (253x275)"
+  },
+  {
+    "row": 95,
+    "rowsha": "yxnQJ2Ddsuo87gjpcbgFH5JePVkPdjFOb4NSEpr/je0=",
+    "originContent": "- `info.png` — info overlay (253x275)",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**플러그인에 기본 제공할 새 테마를 찾고 있습니다.** 자신 있는 테마를 디자인하셨다면 PR을 열어 주세요 — 다음 릴리스에 기여된 테마를 포함하고 싶습니다. 오른쪽 클릭 메뉴에 \"Open Themes Folder\" 항목이 있어 테마가 저장된 위치를 확인할 수 있습니다."
+  },
+  {
+    "row": 97,
+    "rowsha": "DdmNh2jVyoC3agYanom+m0GxUBJqncSEv0ra3ndfQK0=",
+    "originContent": "**Looking for fresh default themes to ship with the plugin.** If you design a theme you're proud of, open a PR — I'd love to include contributed themes in the next release. The right-click menu has an \"Open Themes Folder\" item that reveals where themes live on disk.",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 번역"
+  },
+  {
+    "row": 99,
+    "rowsha": "gzx7WSZWkBQyHmWVMxUTrBglg7GXBqyEWp53+d+3UaI=",
+    "originContent": "## Translations",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "플러그인 UI(설정 화면, 정보 오버레이, 오른쪽 클릭 메뉴, DLL 임포터 오류 메시지)는 영어, 일본어, 한국어로 제공됩니다. 언어는 OS 로케일에서 자동 감지하며, 오른쪽 클릭 → Language에서 수동 변경 가능합니다."
+  },
+  {
+    "row": 101,
+    "rowsha": "z7Fjs9jAfktn1xLoBZ8cbXAqcUyxWrWykPT6UOMsDCs=",
+    "originContent": "The plugin UI (setup screen, info overlay, right-click menu, and DLL-importer error messages) is available in English, Japanese, and Korean. The language auto-detects from your OS locale; you can override it via right-click → Language.",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**일본어 및 한국어 번역은 대형 언어 모델이 초안으로 생성하였습니다.** 원어민 기여를 환영합니다 — `cpp/src/strings_ja.h` 또는 `cpp/src/strings_ko.h`를 편집하는 PR을 열어 주세요. 모든 문자열은 `cpp/src/i18n.h`의 `StringId` 열거형으로 인덱싱되어 있으며, 항목 순서를 유지하고 확신이 없는 항목은 빈 문자열로 두어 영어로 대체되도록 해 주세요."
+  },
+  {
+    "row": 103,
+    "rowsha": "FUjcX188gbrDLI9YIvcozW5/phNSndetsdg26QrblZ0=",
+    "originContent": "**Japanese and Korean translations were generated by a large language model as a starting point.** Native-speaker contributions are very welcome — please open a PR editing `cpp/src/strings_ja.h` or `cpp/src/strings_ko.h`. Every string is indexed by the `StringId` enum in `cpp/src/i18n.h`; keep entries in the same order and leave any you're unsure about as empty strings to fall back to English.",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "dqJ5P6GMGEKeogBKP7gAnWh4a+yNVKG9AZ/2Z1jvSFs=",
+    "originContent": "Parameter names (shown in your DAW's automation lanes) stay English on purpose — tutorials, presets, and community discussion all assume the English names.",
+    "translatedContent": "파라미터 이름(DAW의 자동화 레인에 표시되는 이름)은 의도적으로 영어로 유지됩니다 — 튜토리얼, 프리셋, 커뮤니티 토론 모두 영어 이름을 기준으로 합니다."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "rLTw8Luga5D+4TLn/HyDjscldhKw1vSRlptOVTXptBM=",
+    "originContent": "## Code Signing Policy",
+    "translatedContent": "## 코드 서명 정책"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "vlbXn8q1cbZATTel2tK/TyyU9V3kTo31gkdhe9Nn5NQ=",
+    "originContent": "Free code signing provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).",
+    "translatedContent": "[SignPath.io](https://about.signpath.io/)에서 제공하는 무료 코드 서명, 인증서는 [SignPath Foundation](https://signpath.org/)에서 발급합니다."
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "jmjj24lbRC54Pp4l3L3ejCeIjtfjSlV8BDkUEjNZ5XA=",
+    "originContent": "The Windows VST3 plugin and installer are signed as part of the release build in GitHub Actions. Signing requests are submitted to SignPath only for tagged releases built from this repository, and each request is manually approved in the SignPath UI before the certificate is applied.",
+    "translatedContent": "Windows VST3 플러그인과 설치 프로그램은 GitHub Actions의 릴리즈 빌드 과정에서 서명됩니다. 서명 요청은 이 저장소에서 빌드된 태그된 릴리즈에 대해서만 SignPath에 제출되며, 각 요청은 인증서 적용 전에 SignPath UI에서 수동으로 승인됩니다."
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "K5BePE9ZIyucyyTZOZX7ap+KRTmxpGUQaGPtTV1bLnE=",
+    "originContent": "| Privileged role | Signer |",
+    "translatedContent": "| 권한 역할       | 서명자 |"
+  },
+  {
+    "row": 114,
+    "rowsha": "+MB/tfnx2Dc9nT4KKkUlacYwYrGuZhLPcYi/SFWjspQ=",
+    "originContent": "|-----------------|--------|",
+    "translatedContent": "|-----------------|--------|"
+  },
+  {
+    "row": 115,
+    "rowsha": "l+tJX5wAbjpArH5bEmjl4nAN9ehFe8uYCjGv0Vh0uO8=",
+    "originContent": "| Author          | [Jonathan Taylor](https://github.com/JonET) |",
+    "translatedContent": "| 작성자          | [Jonathan Taylor](https://github.com/JonET) |"
+  },
+  {
+    "row": 116,
+    "rowsha": "msNUp4RE4bOWKwj0bfWK4AZfdsnc3yN1H5pWw+/LudQ=",
+    "originContent": "| Reviewer        | [Jonathan Taylor](https://github.com/JonET) |",
+    "translatedContent": "| 검토자          | [Jonathan Taylor](https://github.com/JonET) |"
+  },
+  {
+    "row": 117,
+    "rowsha": "IiXrwWFJZziGt7y86zw8aJXydNEWr2aVOENbtZyMknw=",
+    "originContent": "| Approver        | [Jonathan Taylor](https://github.com/JonET) |",
+    "translatedContent": "| 승인자          | [Jonathan Taylor](https://github.com/JonET) |"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "A5Zp6wW7rAWfXIaRY6VEKKOoovqv5h1QW6dPLlwmn/0=",
+    "originContent": "### Privacy Policy",
+    "translatedContent": "### 개인정보 보호 정책"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "ppnyqa8ST5EfXwLizHx6w/Ysy6zHBsa/HaJ/nBH4D3I=",
+    "originContent": "This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.",
+    "translatedContent": "이 프로그램은 사용자 또는 설치 및 운영자가 명시적으로 요청하지 않는 한 어떤 정보도 다른 네트워크 시스템으로 전송하지 않습니다."
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": "## 감사의 글"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "eDt3eVv6wAfGgiyEsWflGFm12hd0H0+UPbrnFSHLkNw=",
+    "originContent": "- [Delay Lama](http://www.audionerdz.nl/) by AudioNerdz (2002) — the beloved freeware VST plugin that inspired this project",
+    "translatedContent": "- AudioNerdz의 [Delay Lama](http://www.audionerdz.nl/) (2002) — 이 프로젝트에 영감을 준 사랑받는 프리웨어 VST 플러그인"
+  },
+  {
+    "row": 126,
+    "rowsha": "GoQOZcIeN1kDXbWfdE2e9OF7vTHRUyudO5IP4INY/1w=",
+    "originContent": "- Xavier Rodet (IRCAM) — formant-wave-function (FOF) synthesis technique",
+    "translatedContent": "- Xavier Rodet (IRCAM) — 포먼트-웨이브-펑션(FOF) 합성 기법"
+  },
+  {
+    "row": 127,
+    "rowsha": "ZJeLUEJTl/BMHho3CNCmjwpnKcOY2GWgmDYrcdbYYK0=",
+    "originContent": "- [stb_image_write](https://github.com/nothings/stb) by Sean Barrett — single-header image writing (MIT / public domain)",
+    "translatedContent": "- Sean Barrett의 [stb_image_write](https://github.com/nothings/stb) — 단일 헤더 이미지 쓰기 라이브러리 (MIT / 퍼블릭 도메인)"
+  },
+  {
+    "row": 128,
+    "rowsha": "2AsRM8ZFxeCqU18soS0D3iyApUXvZsGHQbT5VTMyFtU=",
+    "originContent": "- [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) by Steinberg — plugin framework (MIT)",
+    "translatedContent": "- Steinberg의 [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) — 플러그인 프레임워크 (MIT)"
+  },
+  {
+    "row": 129,
+    "rowsha": "PcLqZCvOpUlxckYrMF8AC3G9aE2ByVmpE8VGoevtlkI=",
+    "originContent": "- [SignPath Foundation](https://signpath.org/) — free Windows code signing for open source projects",
+    "translatedContent": "- [SignPath Foundation](https://signpath.org/) — 오픈 소스 프로젝트를 위한 무료 Windows 코드 서명"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+    "originContent": "[MIT](LICENSE)",
+    "translatedContent": "[MIT](LICENSE)"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,1028 @@
+[
+  {
+    "row": 1,
+    "rowsha": "d5jOofCeP7uyVe8DZqPdTGu+DS7P4UzYoUjFmzY0Uq8=",
+    "originContent": "# 🧠 Cursor DeepSeek V4 Proxy",
+    "translatedContent": "# 🧠 Cursor DeepSeek V4 프록시"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "wcBDR4LNE02GIoV4fJ4/JNX9N969TsmXkckBQwScwjg=",
+    "originContent": "> **一键修复 Cursor 使用 DeepSeek V4 时的 `reasoning_content` 错误，告别 `Rate limit exceeded`，让 AI Agent 模式稳定运行。**",
+    "translatedContent": "> **Cursor에서 DeepSeek V4 사용 시 발생하는 `reasoning_content` 오류를 원클릭으로 수정하고, `Rate limit exceeded` 문제를 해결하여 AI 에이전트 모드를 안정적으로 실행할 수 있습니다.**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "R2S4PjXVa0tJUG1h2YuJMb6LTLEcA4fh28c7PT1+4T4=",
+    "originContent": "[![GitHub stars](https://img.shields.io/github/stars/你的用户名/cursor-deepseek-v4-proxy?style=social)](https://github.com/你的用户名/cursor-deepseek-v4-proxy)",
+    "translatedContent": "[![GitHub stars](https://img.shields.io/github/stars/你的用户名/cursor-deepseek-v4-proxy?style=social)](https://github.com/你的用户名/cursor-deepseek-v4-proxy)"
+  },
+  {
+    "row": 6,
+    "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
+    "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "fS8l6D1EASjVCmZABJf2C0f/2L6rT3sVq5D7TBBS4oA=",
+    "originContent": "## 📌 你能用这个项目解决什么问题？",
+    "translatedContent": "## 📌 이 프로젝트로 해결할 수 있는 문제는 무엇인가요?"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "KRsq/F2vJP9CaW0lkeb1vYopsTVM+IEjy63ZTQObtbI=",
+    "originContent": "如果你在 Cursor 中调用 DeepSeek V4（Pro / Flash）时，频繁遇到下面任意一种错误：",
+    "translatedContent": "Cursor에서 DeepSeek V4(Pro / Flash)를 호출할 때 다음과 같은 오류가 자주 발생한다면:"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ElgMfJ0iDvPjV7+fTqFywpO9a0IQkvYDdKXmy8+uPTE=",
+    "originContent": "* `Provider returned error: The reasoning_content in the thinking mode must be passed back to the API.`",
+    "translatedContent": "* `Provider returned error: The reasoning_content in the thinking mode must be passed back to the API.`"
+  },
+  {
+    "row": 15,
+    "rowsha": "UJTBna9Q75j+jsmJqXAiaJBpIGn9z0HQaO8HFOwcc24=",
+    "originContent": "* `User API Key Rate limit exceeded`（明明配额还剩很多却报错）",
+    "translatedContent": "* `User API Key Rate limit exceeded` (쿼터가 충분히 남아있는데도 오류 발생)"
+  },
+  {
+    "row": 16,
+    "rowsha": "CtSnUxptJ5a01qBCY3HUaM2tPv3n8u5XDXTom0r+6Sg=",
+    "originContent": "* `AI Model Not Found: deepseek-v4-pro`（后台任务报模型名无效）",
+    "translatedContent": "* `AI Model Not Found: deepseek-v4-pro` (백엔드 작업에서 모델명이 유효하지 않다고 보고)"
+  },
+  {
+    "row": 17,
+    "rowsha": "pSbTyD+7HTo8HJggqWH7ERDou9lrTDgukfttfsGQD4w=",
+    "originContent": "* 聊天第一轮正常，第二轮就开始报错、中断",
+    "translatedContent": "* 첫 번째 대화는 정상, 두 번째 대화부터 오류 발생 및 중단"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "X0F+8qOYBaDkNPivGLlmZhCUEQ1tzep1wFicS/L9mxM=",
+    "originContent": "**不用再折腾了，跟着本指南走 5 分钟就能彻底解决。**",
+    "translatedContent": "**더 이상 고민하지 마세요, 이 가이드를 따라 5분만에 완벽히 해결할 수 있습니다.**"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "BaikfxuOJo8HqCn2ImYxB/fzAhjzdEDQNCmLLX0iC38=",
+    "originContent": "> ⚠️  **2026-05-14 修复**：纯文本模型现已自动过滤图片，解决 502 错误。详见 [更新日志](#changelog)",
+    "translatedContent": "> ⚠️  **2026-05-14 수정**: 순수 텍스트 모델이 이제 자동으로 이미지를 필터링하여 502 오류를 해결했습니다. 자세한 내용은 [업데이트 로그](#changelog)를 참고하세요."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "G/iAEAKzTiyYqZ+Y7jihz2pjwAjYQwMBE/soGCUiMM0=",
+    "originContent": "## ✨ 核心功能",
+    "translatedContent": "## ✨ 핵심 기능"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "daLvGNcXQmFlm4bpNN9Vd0IFUwOYDPU4zMlbjEatfp0=",
+    "originContent": "* ✅ **自动缓存 & 回传思维链**：再也不会因为 `reasoning_content` 缺失而报错。",
+    "translatedContent": "* ✅ **자동 캐시 & 사고 과정 회신**: `reasoning_content` 누락으로 인한 오류를 방지합니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "wm34unZlkDG59mgMn8+gUT+/Muh7LLfV099J346+nNo=",
+    "originContent": "* ✅ **智能限流**：内置令牌桶，防止突发的并发请求打满免费额度。",
+    "translatedContent": "* ✅ **지능형 속도 제한**: 내장된 토큰 버킷으로 급격한 동시 요청으로 무료 한도가 초과되는 것을 방지합니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "+5+GDEAtnKU4SAk/BHJuJzhXw6VE/rz/0wp0Ed3UoOM=",
+    "originContent": "* ✅ **支持流式输出**：不影响 Cursor 的打字机渲染效果。",
+    "translatedContent": "* ✅ **스트리밍 출력 지원**: Cursor의 타자기 효과 렌더링에 영향을 주지 않습니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "H6LaWBF6z+121LxQ91OwxswppHtX/mFCPbFHXOFANR4=",
+    "originContent": "* ✅ **一键启动脚本**：Windows / macOS / Linux 通用，双击即可运行。",
+    "translatedContent": "* ✅ **원클릭 실행 스크립트**: Windows / macOS / Linux 공용, 더블 클릭만으로 실행 가능합니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "Vji49HPYRyQ8I/wq6+bMmWoiBpVI5YkGcnJKD8kcm4I=",
+    "originContent": "* ✅ **透明日志**：终端会实时显示请求状态，方便排错。",
+    "translatedContent": "* ✅ **투명한 로그**: 터미널에서 요청 상태를 실시간으로 표시하여 문제 해결에 용이합니다."
+  },
+  {
+    "row": 32,
+    "rowsha": "LRT+G0phmpLKCeyccM1lW4cPR8VV9oUirstJwQddJhQ=",
+    "originContent": "* ✅ **零侵入**：不需要修改 Cursor 程序文件，只改一个 Base URL。",
+    "translatedContent": "* ✅ **제로 침투**: Cursor 프로그램 파일을 수정할 필요 없이 Base URL만 변경합니다."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Ev+2RRL2nre7jVvSTQ8+vPJq/gKNvH6k5vXG/Y34lPo=",
+    "originContent": "## 🖥️ 适用环境",
+    "translatedContent": "## 🖥️ 지원 환경"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "6Exf4Z/SFzQhUzq1gs5RKZDyAjlrM5knhpR5ZpWPl9s=",
+    "originContent": "| 操作系统 | 支持情况 |",
+    "translatedContent": "| 운영체제 | 지원 여부 |"
+  },
+  {
+    "row": 39,
+    "rowsha": "llWziv3JrgrvB98VYgaqy7eYXIS+i+v12/sS+dJ6O3o=",
+    "originContent": "| :--- | :--- |",
+    "translatedContent": "| :--- | :--- |"
+  },
+  {
+    "row": 40,
+    "rowsha": "f4QU6jhD3ledcxubcCMZpHjGZ8D0i0M+ho0Uz0D632A=",
+    "originContent": "| **Windows 10 / 11** | ✅ 支持 |",
+    "translatedContent": "| **Windows 10 / 11** | ✅ 지원 |"
+  },
+  {
+    "row": 41,
+    "rowsha": "AbzzKnQE7Mwdfh1ZykEFMN7fawyuVvayTcp4g3bH2Ek=",
+    "originContent": "| **macOS** | ✅ 支持 |",
+    "translatedContent": "| **macOS** | ✅ 지원 |"
+  },
+  {
+    "row": 42,
+    "rowsha": "0JwsE6kzAOg0HvaMN23DHCoSQirM9h5ba+5PxJYhtr0=",
+    "originContent": "| **Linux** | ✅ 支持 |",
+    "translatedContent": "| **Linux** | ✅ 지원 |"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "elnKmi/m5oOJZQ4i2ndncKg6kt1Dlo5eWPnoKMyOSdI=",
+    "originContent": "> **唯一要求**：安装 **Python 3.8** 或更高版本（安装时请务必勾选 `Add Python to PATH`）。",
+    "translatedContent": "> **유일한 요구사항**: **Python 3.8** 이상 버전을 설치하세요 (설치 시 반드시 `Add Python to PATH`를 선택하세요)."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "fJ2EVvKaZwOKKgDX3wvro9Zsx+gkdq6sFrQ1HW8IvEQ=",
+    "originContent": "## 🚀 超详细三步上手（小白专用）",
+    "translatedContent": "## 🚀 매우 상세한 3단계 시작 가이드 (초보자용)"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "eKG8YoE2PncX25uZg0zZPfO8WIDcRSikzgR87CBprYM=",
+    "originContent": "### 第一步：下载项目并安装依赖",
+    "translatedContent": "### 1단계: 프로젝트 다운로드 및 의존성 설치"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "Nt2ky+p1q98pRt0mdIdyrZS8dG/6zsr/czIDKXrKLy4=",
+    "originContent": "1.  下载本项目仓库的 ZIP 包，解压到本地（**路径请勿包含中文**）。",
+    "translatedContent": "1.  본 프로젝트 저장소의 ZIP 파일을 다운로드하여 로컬에 압축을 푸세요 (**경로에 한글이 포함되지 않도록 주의하세요**)."
+  },
+  {
+    "row": 53,
+    "rowsha": "EOVno/meICBLhOArQ62seaEtK9HbdxHAy2DBJrgqN1c=",
+    "originContent": "2.  进入解压后的文件夹，在文件夹地址栏输入 `cmd` 并回车，打开命令行窗口。",
+    "translatedContent": "2.  압축을 푼 폴더로 이동한 후, 폴더 주소창에 `cmd`를 입력하고 엔터를 눌러 명령 프롬프트를 엽니다."
+  },
+  {
+    "row": 54,
+    "rowsha": "5clo1ZyACTFBpeht7L5AT7H/59OWQJ23ZUl5NcVEPo4=",
+    "originContent": "3.  执行以下命令安装依赖：",
+    "translatedContent": "3.  아래 명령어를 실행하여 의존성을 설치하세요:"
+  },
+  {
+    "row": 55,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 56,
+    "rowsha": "+NKC0vwYQgnTT+HBcUv0fI91TXX3bV2l62ETZ0yRyG8=",
+    "originContent": "    pip install -r requirements.txt",
+    "translatedContent": "    pip install -r requirements.txt"
+  },
+  {
+    "row": 57,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 58,
+    "rowsha": "j9esE6pFJhjVgo4K93Uy14O0o8wCbD1t3qi1xAGoM/g=",
+    "originContent": "    *若提示 `pip不是内部命令`，请重新安装 Python 并勾选 `Add to PATH`。*",
+    "translatedContent": "    *만약 `pip은 내부 명령이 아닙니다`라는 메시지가 뜬다면, Python을 재설치하고 `Add to PATH`를 선택하세요.*"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "M4dBt/XmwM8x/1CuSZMhni8vFQEkSFRMCbjphggeoOg=",
+    "originContent": "### 第二步：启动本地代理 + 隧道",
+    "translatedContent": "### 두 번째 단계: 로컬 프록시 + 터널 시작"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "ITN+drpOPofl5Uifm1X9JjAP1E8KlKR5ytsMctWUPHE=",
+    "originContent": "你需要一个隧道来生成公网地址（Cursor 限制访问 localhost）。",
+    "translatedContent": "퍼블릭 주소 생성을 위해 터널이 필요합니다 (Cursor는 localhost 접근을 제한합니다)."
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "UwguUEgfrcj4s30HbzXvYVKpYOLW5pCUcag6LBStfjs=",
+    "originContent": "#### 🪟 Windows 用户",
+    "translatedContent": "#### 🪟 Windows 사용자"
+  },
+  {
+    "row": 65,
+    "rowsha": "5R6A0Rbc7jeGnS9vZnLD1FY3j03O3PsDogUD4pS/7Zs=",
+    "originContent": "1.  确保文件夹内有 `cloudflared-windows-amd64.exe`（若无，请前往 [Cloudflare 官网](https://github.com/cloudflare/cloudflared/releases) 下载）。",
+    "translatedContent": "1.  폴더 안에 `cloudflared-windows-amd64.exe`가 있는지 확인하세요 (없다면 [Cloudflare 공식 사이트](https://github.com/cloudflare/cloudflared/releases)에서 다운로드하세요)."
+  },
+  {
+    "row": 66,
+    "rowsha": "PxiujdCgMeK7KRvrO3mb3NEvnI+O/EIO2bm+2y8nU9o=",
+    "originContent": "2.  双击运行 **`start_proxy.bat`**。",
+    "translatedContent": "2.  **`start_proxy.bat`**를 더블 클릭하여 실행하세요."
+  },
+  {
+    "row": 67,
+    "rowsha": "8JtZOEt3kkdsPDpANWAqOmEUAN0VRIuM8R3X1RAwAPo=",
+    "originContent": "3.  会弹出两个窗口。在**隧道窗口**中，找到一串 `https://xxx.trycloudflare.com` 的地址并**复制**。",
+    "translatedContent": "3.  두 개의 창이 열립니다. **터널 창**에서 `https://xxx.trycloudflare.com` 형태의 주소를 찾아 **복사**하세요."
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "rHLUQDgxzaaF6w68IOwkACChUb1/opknGDZfmDo5p9U=",
+    "originContent": "#### 🍎 macOS / Linux 用户",
+    "translatedContent": "#### 🍎 macOS / Linux 사용자"
+  },
+  {
+    "row": 70,
+    "rowsha": "1joBf4CWOupJIkYOxyV2OxW/Ql6dATwaFY4NBZloSTg=",
+    "originContent": "1.  在终端中进入项目目录，运行：",
+    "translatedContent": "1.  터미널에서 프로젝트 디렉토리로 이동하여 다음을 실행하세요:"
+  },
+  {
+    "row": 71,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 72,
+    "rowsha": "OwwEa6F+u/D0wjfnGwx2GOkfR/r4b3NwJB4AYKUawNU=",
+    "originContent": "    bash start_proxy.sh",
+    "translatedContent": "    bash start_proxy.sh"
+  },
+  {
+    "row": 73,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 74,
+    "rowsha": "binz/33Ac11lZInNWzhUghSWWHVHH+fyvu7fVxbMu1I=",
+    "originContent": "2.  稍等片刻，复制终端输出的 `https://xxx.trycloudflare.com` 地址。",
+    "translatedContent": "2.  잠시 기다린 후, 터미널 출력된 `https://xxx.trycloudflare.com` 주소를 복사합니다."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "D/vWcJY6PTZb3vj+X0G/YVISoxrb4rvbMv6mPF3ecJg=",
+    "originContent": "> ⚠️ **注意**：窗口不能关闭。隧道地址每次重启会变化，只要不关窗口就一直有效。",
+    "translatedContent": "> ⚠️ **주의**: 창을 닫지 마십시오. 터널 주소는 매번 재시작할 때 변경되며, 창을 닫지 않는 한 계속 유효합니다."
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "VkwUT3MaGD9SSads4mHZvm9UAbBmcHW1TD4M0+9Lobs=",
+    "originContent": "### 第三步：配置 Cursor",
+    "translatedContent": "### 세 번째 단계: Cursor 설정"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "8lCbB2PJI2JuiXLwtMvJgtKYunR7eoVg+YGSPhB21qI=",
+    "originContent": "1.  打开 Cursor 设置：按 `Ctrl+Shift+P` → 输入 `Cursor Settings`。",
+    "translatedContent": "1.  Cursor 설정 열기: `Ctrl+Shift+P` → `Cursor Settings` 입력."
+  },
+  {
+    "row": 81,
+    "rowsha": "6QRZSGkwjZ/701hPSch1aUhpLeaVkX5dJDAXyVjOQdA=",
+    "originContent": "2.  进入 **Models** 选项卡。",
+    "translatedContent": "2.  **Models** 탭으로 이동합니다."
+  },
+  {
+    "row": 82,
+    "rowsha": "UoxlKzzzn5wwc4qBa7am96cVF9EVXoVxMfBB8FIPhrY=",
+    "originContent": "3.  在 **\"Override OpenAI Base URL\"** 中，粘贴刚才复制的地址，并**在末尾加上 `/v1`**：",
+    "translatedContent": "3.  **\"Override OpenAI Base URL\"** 에 아까 복사한 주소를 붙여넣고, **끝에 `/v1`을 추가**합니다:"
+  },
+  {
+    "row": 83,
+    "rowsha": "AAssV1HFZom3PjeW2tw83mV737CMILnhG0g+Gg/yao0=",
+    "originContent": "    * 例如：`https://xxxxxx.trycloudflare.com/v1`",
+    "translatedContent": "    * 예: `https://xxxxxx.trycloudflare.com/v1`"
+  },
+  {
+    "row": 84,
+    "rowsha": "uwJ6iGjjpdsgn/xphyyD3b99U5wC/iYMMp3pspg0+yc=",
+    "originContent": "4.  在 API Key 处填入你的 **DeepSeek API Key**。",
+    "translatedContent": "4.  API Key 항목에 본인의 **DeepSeek API Key**를 입력합니다."
+  },
+  {
+    "row": 85,
+    "rowsha": "V9Ek0+xom5t50URY4hPQgWgLnswAREni6EU9Qe8ltPs=",
+    "originContent": "5.  **彻底退出并重启 Cursor**。",
+    "translatedContent": "5.  **Cursor를 완전히 종료 후 재시작**합니다."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "KXrGJ5sTVxsZhVcnisyg3g1r+UNykO8S+yOcaA+VeTM=",
+    "originContent": "## 🛡️ 修复 \"Model name not valid\" 错误",
+    "translatedContent": "## 🛡️ \"Model name not valid\" 오류 수정"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "1M4YmGH0jAaNHMmGhPt13Qh16XYDHBNxs7L/AQWxa9o=",
+    "originContent": "如果在执行 Apply 或后台任务时报错，请按以下步骤操作：",
+    "translatedContent": "Apply 또는 백그라운드 작업 실행 시 오류가 발생하면 아래 단계를 따르세요:"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "BLWmgrwD5kZqvHD/VLasKNSojCJqUMejhEg7C9Ha8j0=",
+    "originContent": "1.  按 `Ctrl+Shift+P`，输入 `Preferences: Open User Settings (JSON)` 并回车。",
+    "translatedContent": "1.  `Ctrl+Shift+P`를 누르고, `Preferences: Open User Settings (JSON)` 입력 후 엔터."
+  },
+  {
+    "row": 94,
+    "rowsha": "Q9b/DWkx7uHROarP8MMdMgVZOLUbj5K9xl0nxUoe1KA=",
+    "originContent": "2.  在 JSON 的大括号 `{}` 内添加如下配置：",
+    "translatedContent": "2.  JSON 중괄호 `{}` 안에 다음 설정을 추가합니다:"
+  },
+  {
+    "row": 95,
+    "rowsha": "vtR5z08Pn5WvlbKK7N66UejjbVE7Ua9pVfsrJo/8nws=",
+    "originContent": "    ```json",
+    "translatedContent": "    ```json"
+  },
+  {
+    "row": 96,
+    "rowsha": "CJyZgK4wr67Qb0F2gB+wI8SFX2z4eVHqG20lxzAIiA0=",
+    "originContent": "    \"cursor.models\": {",
+    "translatedContent": "    \"cursor.models\": {"
+  },
+  {
+    "row": 97,
+    "rowsha": "I2zNgzSpWjkqp2KUnkO1BVAiBeTm5b2wHqBAmEZkh8I=",
+    "originContent": "        \"deepseek-v4-pro\": {",
+    "translatedContent": "        \"deepseek-v4-pro\": {"
+  },
+  {
+    "row": 98,
+    "rowsha": "/NHAsxN9z7mVKOY6BXgr7E70F9FGuwSUl2CrEjNnLO4=",
+    "originContent": "            \"provider\": \"openai\",",
+    "translatedContent": "            \"provider\": \"openai\","
+  },
+  {
+    "row": 99,
+    "rowsha": "s0+j9GhteQVCWFCNl9QR0W5vKdNqdEzudgXPwV9nzf0=",
+    "originContent": "            \"apiBase\": \"[https://你的隧道地址.trycloudflare.com/v1](https://你的隧道地址.trycloudflare.com/v1)\",",
+    "translatedContent": "            \"apiBase\": \"[https://你的隧道地址.trycloudflare.com/v1](https://你的隧道地址.trycloudflare.com/v1)\","
+  },
+  {
+    "row": 100,
+    "rowsha": "JUBR8sjEq7M8xwMvdhvwZ8/1ELoCZlmJwgktE/m6zzo=",
+    "originContent": "            \"apiKey\": \"你的DeepSeek API Key\"",
+    "translatedContent": "            \"apiKey\": \"你的DeepSeek API Key\""
+  },
+  {
+    "row": 101,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 102,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 103,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 104,
+    "rowsha": "oodNVnJpq5OT3jLwG634W/8ADx1if9YwQj1XOTmggpQ=",
+    "originContent": "3.  保存并重启 Cursor。",
+    "translatedContent": "3.  Cursor를 저장하고 재시작합니다."
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "zYr2IzSMORx1kCnUqIcAdJOpfVRL6BsfEo1dFyodaH0=",
+    "originContent": "## ❓ 常见问题 (FAQ)",
+    "translatedContent": "## ❓ 자주 묻는 질문 (FAQ)"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 111,
+    "rowsha": "KBzMlQ7I7RCi/dhMZsEjrK+oBKM8BRuMbyK2QN56v3E=",
+    "originContent": "<summary>🔁 隧道地址变了怎么办？</summary>",
+    "translatedContent": "<summary>🔁 터널 주소가 바뀌면 어떻게 하나요?</summary>"
+  },
+  {
+    "row": 112,
+    "rowsha": "0zjzq00GD0nDjuWMIFOitN/TsJfU7Gjuv8CVGShwaGQ=",
+    "originContent": "每次重启脚本都会生成新地址。你只需重新获取并更新到 Cursor 的 Base URL 即可。",
+    "translatedContent": "스크립트를 재시작할 때마다 새 주소가 생성됩니다. Cursor의 Base URL을 다시 받아서 업데이트하기만 하면 됩니다."
+  },
+  {
+    "row": 113,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 116,
+    "rowsha": "YbryiQfam519/HxcjAk42ron6KlfglpzyQQe+65NjTw=",
+    "originContent": "<summary>💸 还是提示 Rate limit exceeded？</summary>",
+    "translatedContent": "<summary>💸 여전히 Rate limit exceeded 라고 나오나요?</summary>"
+  },
+  {
+    "row": 117,
+    "rowsha": "Y2RP5Rx8NyFex2bTMGcX/+jgVLROl2zSoPWfIHm7o6g=",
+    "originContent": "DeepSeek 免费层级频率极低。你可以编辑 `proxy.py`，将 `TokenBucket(rate=5/60.0, capacity=5)` 中的 `5` 调小（如 `3`），强制降低请求频率。",
+    "translatedContent": "DeepSeek 무료 등급의 호출 빈도가 매우 낮습니다. `proxy.py` 파일에서 `TokenBucket(rate=5/60.0, capacity=5)` 중 `5`를 줄여서(예: `3`) 요청 빈도를 강제로 낮출 수 있습니다."
+  },
+  {
+    "row": 118,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 121,
+    "rowsha": "wtAcSddP9ukRxALSEg/jxXKQ9KxhfbAW6QM1aYnRxhg=",
+    "originContent": "<summary>🚫 必须用隧道吗？能不能连 localhost？</summary>",
+    "translatedContent": "<summary>🚫 반드시 터널을 사용해야 하나요? localhost에 연결할 수는 없나요?</summary>"
+  },
+  {
+    "row": 122,
+    "rowsha": "cSRY2dEmTzAzCAMOy69CyPCg8R5Ar1tLIPCI6LCGgF4=",
+    "originContent": "Cursor 出于安全原因禁止直接连接 `localhost`。Cloudflare Tunnel 是目前最简单、免费且无需注册的穿透方案。",
+    "translatedContent": "Cursor는 보안상의 이유로 직접 `localhost` 연결을 금지합니다. Cloudflare Tunnel은 현재 가장 간단하고 무료이며 회원가입이 필요 없는 터널링 솔루션입니다."
+  },
+  {
+    "row": 123,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 126,
+    "rowsha": "M+8CFsS9vLJqMpyvQFFPJwb9uIHU20z5FIIpyTIHd5Y=",
+    "originContent": "<summary>🧪 代理会影响模型智商吗？</summary>",
+    "translatedContent": "<summary>🧪 프록시가 모델의 지능에 영향을 주나요?</summary>"
+  },
+  {
+    "row": 127,
+    "rowsha": "gmnUuL/5kiNNwtL6+ZPz8Kz30UQJm3+EbpeeQvs+Srk=",
+    "originContent": "在 99% 的场景下无感知。代理仅是在模型“忘记”回传思维链时进行自动补全，确保对话不中断。",
+    "translatedContent": "99% 이상의 경우에서 체감되지 않습니다. 프록시는 모델이 생각의 흐름을 잊었을 때 자동으로 보완해 대화가 끊기지 않도록 합니다."
+  },
+  {
+    "row": 128,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 131,
+    "rowsha": "Ocr6XyBJJ+URUFcKqZCsRHM4bK6m82s2GQjPOd0J7vw=",
+    "originContent": "<summary>🧪 为什么只有 200k context，不是 1M？</summary>",
+    "translatedContent": "<summary>🧪 왜 context가 200k 밖에 없고 1M이 아닌가요?</summary>"
+  },
+  {
+    "row": 132,
+    "rowsha": "NH6/ykclRiafK01GUV0gmME46samaJI59yJ/Z7FD7vU=",
+    "originContent": "这是 Cursor 的默认限制，不是代理问题。",
+    "translatedContent": "이는 Cursor의 기본 제한으로, 프록시 문제는 아닙니다."
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "xVXQCRrvYOV6It/C5a33ymRqwzh95DwZkOP/dL2S4fs=",
+    "originContent": "Cursor 默认使用 200k context window。",
+    "translatedContent": "Cursor는 기본적으로 200k context window를 사용합니다."
+  },
+  {
+    "row": 135,
+    "rowsha": "HSY2mpL2Jj66avvRYDWs8Kgg3QxfLc1DFlJeRLHfJO4=",
+    "originContent": "如需启用模型支持的 1M context，需要在 Cursor Chat 中开启 `Max Mode`。",
+    "translatedContent": "모델이 지원하는 1M context를 활성화하려면 Cursor Chat에서 `Max Mode`를 켜야 합니다."
+  },
+  {
+    "row": 136,
+    "rowsha": "Q4CBNV5G5B97+tJ3CMcTXoP0LLn/rsaYS+CZTCezDLU=",
+    "originContent": "路径：",
+    "translatedContent": "경로:"
+  },
+  {
+    "row": 137,
+    "rowsha": "3sSqsbklDrSKEwRCLoiSDJnINXb9pfvGAw5XstQkOTI=",
+    "originContent": "Chat -> Model Selector -> Max Mode",
+    "translatedContent": "Chat -> Model Selector -> Max Mode"
+  },
+  {
+    "row": 138,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "c+L7VupAlqu7jle1WTSGLkrxGLyFYdD0MdJdNkqZXWI=",
+    "originContent": "## ⚙️ 高级自定义",
+    "translatedContent": "## ⚙️ 고급 사용자 정의"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "BDRbSaN74mkal77zYibM/iG/TvA0VKdhz8DLkwN/8h4=",
+    "originContent": "* **更换上游**：修改 `proxy.py` 中的 `UPSTREAM_URL`。",
+    "translatedContent": "* **업스트림 교체**：`proxy.py` 내의 `UPSTREAM_URL`을 수정합니다."
+  },
+  {
+    "row": 145,
+    "rowsha": "WPgRpqtJTrAnmzMwk0c6hCXT9xp2ZZtqInGOoMKucQ4=",
+    "originContent": "* **固定域名**：如果你有自己的域名，可以配置 Cloudflare 命名隧道（Persistent Tunnel）。",
+    "translatedContent": "* **고정 도메인**：자신의 도메인이 있는 경우, Cloudflare 명명 터널(Persistent Tunnel)을 구성할 수 있습니다."
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "RKSNItnTg15/4JaszLtGjFKcVFz2Gq5jtW/MF/nkQ8g=",
+    "originContent": "<a name=\"changelog\"></a>",
+    "translatedContent": "<a name=\"changelog\"></a>"
+  },
+  {
+    "row": 148,
+    "rowsha": "4MtTS3Epx0d8YfeQmuCcJMxwz2dsM/GlG5UJv1jVxic=",
+    "originContent": "## 🆕 更新日志",
+    "translatedContent": "## 🆕 업데이트 로그"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "+V50LwngUHIPhY/usGBw80w6j7QhaaaOTavSegVcpw0=",
+    "originContent": "### 2026-05-14：纯文本模型图片兼容修复",
+    "translatedContent": "### 2026-05-14：순수 텍스트 모델 이미지 호환성 수정"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "Z7HvmcECBYN6ILFuocbxLQJBVYNew+QkVCaaA4Hr7SQ=",
+    "originContent": "**修复内容**",
+    "translatedContent": "**수정 내용**"
+  },
+  {
+    "row": 153,
+    "rowsha": "/VUKPCKUBSh3xBoHVM77DDiWcLDw0AdJn7bnWbBDR5Y=",
+    "originContent": "当 Cursor 等客户端向 `deepseek-v4-pro`（纯文本模型）发送包含图片的消息时，代理层现在会自动过滤掉 `image_url` 内容块，仅保留文本部分。如果某条消息全部为图片（无文本），则替换为提示文本，避免模型收到空消息。",
+    "translatedContent": "Cursor 등 클라이언트가 `deepseek-v4-pro`(순수 텍스트 모델)로 이미지가 포함된 메시지를 보낼 때, 프록시 레이어는 이제 자동으로 `image_url` 콘텐츠 블록을 필터링하여 텍스트 부분만 남깁니다. 메시지가 전부 이미지(텍스트 없음)인 경우, 모델에 빈 메시지가 전달되는 것을 방지하기 위해 안내 텍스트로 대체합니다."
+  },
+  {
+    "row": 154,
+    "rowsha": "CrvGuXKP2rbHAFk5ISYjNvIK04nUXsFSrVnpG6s8bj8=",
+    "originContent": "此修复解决了 DeepSeek API 返回 `\"unknown variant image_url, expected text\"` 导致的 502 错误。",
+    "translatedContent": "이 수정은 DeepSeek API가 `\"unknown variant image_url, expected text\"`를 반환하여 발생하는 502 오류를 해결합니다."
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "LhL9xSEJMva5fQ/JqJE2k672maHxwQduiEAzkk35QJw=",
+    "originContent": "**额外改进**",
+    "translatedContent": "**추가 개선 사항**"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "NGhPnTAg0RyZzFIx0Zo6NNQEBgcqY+maup1JlJhNQiI=",
+    "originContent": "- 统一上游错误返回格式，客户端将收到结构化的 JSON 错误（而非原始报错或空白页）。",
+    "translatedContent": "- 업스트림 오류 반환 형식을 통일하여, 클라이언트는 구조화된 JSON 오류를 받게 됩니다(원본 오류 메시지나 빈 페이지가 아님)."
+  },
+  {
+    "row": 159,
+    "rowsha": "d4hlPz/yPRAahZRvQ31JX3jXrAQKGIfPvesTFXFj9Js=",
+    "originContent": "- 图片兼容逻辑对推理缓存 (`reasoning_content`) 无影响，历史消息处理保持正常。",
+    "translatedContent": "- 이미지 호환성 로직은 추론 캐시(`reasoning_content`)에 영향을 주지 않으며, 과거 메시지 처리도 정상 유지됩니다."
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "g55qJC4n3k+TxUAF/MftywgZtLqVOUiE3Yi3uNyck8s=",
+    "originContent": "------",
+    "translatedContent": "------"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "S+n/r1FIjqh5uSI6hGZ4YVSAdsVoBf3xCKmOiyq+oB8=",
+    "originContent": "### 致谢",
+    "translatedContent": "### 감사의 말씀"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "PJO7rdYafaIe8qx2m/chV8aE4XyqVnTZsQMxVjp/nDI=",
+    "originContent": "感谢 [@BG-ah](https://github.com/BG-ah) 在 Issue [#4](https://github.com/wustghj/cursor-deepseek-v4-proxy/issues/4) 中反馈速率限制问题，以及 [@CH-nolyn](https://github.com/CH-nolyn) 的参与讨论。你们的反馈直接推动了本次兼容性修复，让代理在纯文本模型下运行得更稳定。",
+    "translatedContent": "Issue [#4](https://github.com/wustghj/cursor-deepseek-v4-proxy/issues/4)에서 속도 제한 문제를 피드백해 주신 [@BG-ah](https://github.com/BG-ah)와 참여 토론해 주신 [@CH-nolyn](https://github.com/CH-nolyn)께 감사드립니다. 여러분의 피드백이 이번 호환성 수정에 직접적인 동기를 부여하여 프록시가 순수 텍스트 모델에서 더 안정적으로 작동할 수 있게 했습니다."
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "g55qJC4n3k+TxUAF/MftywgZtLqVOUiE3Yi3uNyck8s=",
+    "originContent": "------",
+    "translatedContent": "------"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "EagyWgnaHh38Btlq2esLlDj5jSZ2mVILj2DuP7CRKBM=",
+    "originContent": "> 💡 **提示**：如果你需要让模型真正理解图片内容，请将请求中的 `model` 字段改为支持多模态的 `deepseek-chat`，并确保你的 DeepSeek 账户已开通相应权限。",
+    "translatedContent": "> 💡 **팁**：모델이 이미지 내용을 실제로 이해하게 하려면 요청의 `model` 필드를 다중 모달을 지원하는 `deepseek-chat`으로 변경하고, DeepSeek 계정에 해당 권한이 활성화되어 있는지 확인하세요."
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

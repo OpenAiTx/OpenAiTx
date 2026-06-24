@@ -13,12 +13,12 @@
   },
   {
     "Id": 2,
-    "Content": "\n**Heads-up!** Upcoming crowdfunding campaign for \"MiciMike Home Mini Drop-In PCB\" (1st-gen Google Home Mini) is now listed in Crowd Supply pre-launch phase (project pre-view only), and if that is successful will plan a matching campaign for Nest Mini, so check it out here:\n\n* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb\n\nBoth of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.\n\n# Project scope\n\nThe goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).\n\nThis is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">\n\nThe hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).\n\nFunctionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).\n\nAs such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## Request for collaboration\n\nIf you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.\n\nFor more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### Current status\n\n- ✅ Schematic completed\n- ✅ Component placement done\n- ✅ Routing is done\n- ✅ Ground pour, shielding strategy, and EMI considerations done\n- ⚠️ 1st test batch failed on two errors - fixed",
-    "ContentSha": "fce8FPBK5r2JtrOYpWCPuXsTLZP4WInepg6E5J2ZAao=",
+    "Content": "\n**Heads-up!** There is currently an ongoing crowdfunding campaign for \"MiciMike Home Mini Drop-In PCB\" (1st-gen Google Home Mini) that is now live on Crowd Supply in a pre-sale phase (project pre-view only), and if that is successful then will plan a matching campaign for newer Nest Mini (2nd-gen), so check that out here and support this project indirectly by backing it if you can:\n\n* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb\n\nBoth of these are fully open-source hardware projects, taking some concept inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.\n\n# Project scope\n\nThe goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).\n\nThis is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg\" width=\"1000\" alt=\"First test PCB\">\n\nThe hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).\n\nFunctionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).\n\nAs such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## Request for collaboration\n\nIf you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.\n\nFor more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### Current status\n\n- ✅ Schematic completed\n- ✅ Component placement done\n- ✅ Routing is done\n- ✅ Ground pour, shielding strategy, and EMI considerations done\n- ⛔ 1st test batch failed on two errors - fixed",
+    "ContentSha": "f9Wjj2kUzArFOx9LOoXz3uBFvQwmOAH86IMzH4IHvbE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n**알림!** \"MiciMike Home Mini Drop-In PCB\"(1세대 Google Home Mini) 크라우드펀딩 캠페인이 현재 Crowd Supply 사전 출시 단계(프로젝트 미리보기 전용)에 등록되어 있습니다. 성공적으로 진행될 경우, Nest Mini에 대한 매칭 캠페인도 계획 중이니 아래 링크를 확인해 주세요:\n\n* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb\n\n이 두 프로젝트 모두 완전한 오픈소스 하드웨어 프로젝트이며, [Onju Voice](https://github.com/justLV/onju-voice)에서 영감을 일부 얻었으나, [Open Home Foundation의 오픈 보이스 어시스턴트 표준 및 Home Assistant Voice Preview Edition을 참조](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)로 하여 PCB 설계와 사양을 따르려고 합니다.\n\n# 프로젝트 범위\n\n이 프로젝트 및 저장소([Onju Voice](https://github.com/justLV/onju-voice)와 유사하지만 완전한 오픈소스 하드웨어 라이선스 하에 있음)의 목적은, 누구나 직접 제작하거나 원스톱 PCB 제조업체에서 맞춤형 교체용 PCB로 주문할 수 있는 하드웨어 회로도가 포함된 Nest Mini(2세대)용 교체용 PCB(인쇄회로기판)를 설계하는 것입니다.\n\n이는 주로 기존 Google Nest Mini 스마트 스피커를 [Home Assistant 음성 제어](https://www.home-assistant.io/voice_control/) 또는 [Music Assistant](https://www.music-assistant.io)의 미디어 플레이어 스피커 출력용 오픈소스 하드웨어로 개조/재활용하려는 사람들을 대상으로 합니다. (단, 하드웨어는 인기 있는 Espressif ESP32 플랫폼 기반이기에 다른 펌웨어와 함께 다른 응용 프로그램에도 사용 가능할 것입니다.)\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">\n\n하드웨어 설계는 ([Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)과 유사하게) WiFi, BLE, [온보드 웨이크워드 감지](https://www.home-assistant.io/voice_control/about_wake_word/)를 위한 ESP32-S3 SoC(노코드 [ESPHome 펌웨어](https://esphome.io/) 사용)와 고급 오디오 처리를 위한 XMOS xCORE XU316 칩(마이크 정리 오프로딩을 위한 커스텀 펌웨어 탑재, 로컬 실행 알고리즘으로 잡음 억제, 음향 에코 제거, 간섭 제거, 자동 이득 제어 등)으로 통합될 예정입니다.\n\n기능적으로는 [Home Assistant Voice Preview Edition(일명 Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) 참조 설계(오픈소스 하드웨어로 Open Home Foundation과 Nabu Casa가 협력하여 공개)와 대부분 하드웨어 호환되도록 제작됩니다. 주된 차이점은 Google Nest Mini 인클로저 및 구성품에 의해 정의된 제약에 따른 것(즉, nest-mini-drop-in-pcb 프로젝트 하드웨어 설계는 Google의 원래 하드웨어와 동일한 유형의 물리적 용량 입력으로 제한됨)입니다.\n\n따라서 이 프로젝트/저장소의 범위는 ESPHome 펌웨어의 새로운 기능/기능 개발이 아니므로, 해당 개발을 원한다면 Home Assistant Voice Preview Edition의 펌웨어 개발 및 상위 ESPHome 메인라인 코드로 문의해야 합니다:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## 협업 요청\n\nPCB 레이아웃 설계(특히 PCB 라우팅, 그라운드 포어링, 노이즈 민감 디지털+아날로그 레이아웃)에 경험이 있다면, **여러분의 도움이 매우 필요합니다**! 새로운 이슈를 등록하거나 제안/요청을 제출하고, 기존 이슈에 의견/피드백을 추가하거나 이 저장소를 포크해 주세요.\n\n개념/아이디어에 대한 자세한 내용 및 토론 참여는 Home Assistant 커뮤니티 포럼 스레드를 확인해 주세요:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### 현재 상태\n\n- ✅ 회로도 완성\n- ✅ 부품 배치 완료\n- ✅ 라우팅 완료\n- ✅ 그라운드 포어, 쉴딩 전략, EMI 고려 완료\n- ⚠️ 1차 테스트 배치에서 두 가지 오류로 실패 - 수정됨",
+    "Translation": "\n**알림!** \"MiciMike Home Mini Drop-In PCB\" (1세대 Google Home Mini)용 크라우드펀딩 캠페인이 현재 Crowd Supply에서 사전판매 단계(프로젝트 미리보기 전용)로 진행 중이며, 성공할 경우 최신 Nest Mini(2세대)용 일치하는 캠페인도 계획하고 있으니 아래 링크를 확인하고 가능하다면 후원으로 간접적으로 이 프로젝트를 지원해 주세요:\n\n* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb\n\n이 두 프로젝트 모두 완전 오픈소스 하드웨어 프로젝트로, [Onju Voice](https://github.com/justLV/onju-voice)의 컨셉에서 영감을 받았지만 [Open Home Foundation의 오픈 보이스 어시스턴트 표준과 Home Assistant Voice Preview Edition을 참고](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)하여 PCB 설계 및 사양을 따르려고 합니다.\n\n# 프로젝트 범위\n\n이 프로젝트와 저장소의 목표(이는 [Onju Voice](https://github.com/justLV/onju-voice)와 유사하지만 완전 오픈소스 하드웨어 라이선스 하에 진행됨)는 누구나 제작/조립하거나 일체형 PCB 제조업체에서 주문할 수 있는 Google Nest Mini(2세대)용 맞춤형 Drop-In 교체 PCB(인쇄회로기판)와 하드웨어 회로도를 설계하는 것입니다.\n\n이는 주로 [Home Assistant의 음성 제어](https://www.home-assistant.io/voice_control/) 및/또는 [Music Assistant](https://www.music-assistant.io)의 미디어 플레이어 스피커 출력용으로 기존 Google Nest Mini 스마트 스피커를 오픈소스 하드웨어로 변환/재활용하려는 사용자들을 대상으로 합니다. (하드웨어는 인기 있는 Espressif ESP32 플랫폼 기반이므로 다른 펌웨어와 함께 다양한 애플리케이션에도 사용할 수 있습니다).\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg\" width=\"1000\" alt=\"First test PCB\">\n\n하드웨어 설계는 ([Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)과 유사하게) WiFi, BLE, [온보드 웨이크 워드 감지](https://www.home-assistant.io/voice_control/about_wake_word/)용 ESP32-S3 SoC(코드 없이 [ESPHome 펌웨어](https://esphome.io/) 사용)와 고급 오디오 처리를 위한 XMOS xCORE XU316 칩(마이크 청소 오프로드를 위한 맞춤형 펌웨어, 로컬 알고리즘을 사용한 노이즈 억제, 음향 에코 제거, 간섭 제거, 자동 게인 제어 등)을 통합할 예정입니다.\n\n기능적으로는 [Home Assistant Voice Preview Edition(또는 Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) 참조 설계(이 설계는 Open Home Foundation과 Nabu Casa의 협업으로 공개된 오픈소스 하드웨어 설계)와 거의 하드웨어 호환되도록 제작됩니다. 주요 차이점은 Google Nest Mini 케이스 및 부품이 정의한 제약 때문이며, 즉 nest-mini-drop-in-pcb 프로젝트 하드웨어 설계는 Google의 기존 하드웨어와 동일한 물리적 입력 용량의 제한을 받습니다.\n\n따라서 이 프로젝트/저장소의 범위는 ESPHome 펌웨어의 새로운 기능/기능 개발이 아니므로, 해당 기능 개발을 원한다면 Home Assistant Voice Preview Edition의 펌웨어 개발과 상위 ESPHome 메인라인 코드로 이동해야 합니다:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## 협업 요청\n\nPCB 레이아웃 설계 경험이 있으시다면(특히 PCB 라우팅, 그라운드 포어링, 또는 노이즈 민감한 디지털+아날로그 레이아웃), **여러분의 도움이 매우 필요합니다**! 새로운 이슈를 열거나 제안/요청을 제출하고 기존 이슈에 의견/피드백을 자유롭게 추가하거나 저장소를 포크해 주세요.\n\n컨셉/아이디어에 대한 자세한 정보는 관련 토론을 확인하고 아래 Home Assistant 커뮤니티 포럼 스레드에 참여해 주세요:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### 현재 상태\n\n- ✅ 회로도 완성\n- ✅ 부품 배치 완료\n- ✅ 라우팅 완료\n- ✅ 그라운드 포어, 실드 전략, EMI 고려 완료\n- ⛔ 1차 테스트 배치에서 두 가지 오류로 실패 - 수정됨",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -29,9 +29,9 @@
       },
       {
         "row": 2,
-        "rowsha": "De7qWj1zEVDL1/DDG+Toth0EJlv6alH93Zebc/ZuEbg=",
-        "originContent": "**Heads-up!** Upcoming crowdfunding campaign for \"MiciMike Home Mini Drop-In PCB\" (1st-gen Google Home Mini) is now listed in Crowd Supply pre-launch phase (project pre-view only), and if that is successful will plan a matching campaign for Nest Mini, so check it out here:",
-        "translatedContent": "**알림!** \"MiciMike Home Mini Drop-In PCB\"(1세대 Google Home Mini) 크라우드펀딩 캠페인이 현재 Crowd Supply 사전 출시 단계(프로젝트 미리보기 전용)에 등록되어 있습니다. 성공적으로 진행될 경우, Nest Mini에 대한 매칭 캠페인도 계획 중이니 아래 링크를 확인해 주세요:"
+        "rowsha": "8AHaYkyt3aDceEcQDe7uL7746Ex2aSpwqbVXKdqmT/Y=",
+        "originContent": "**Heads-up!** There is currently an ongoing crowdfunding campaign for \"MiciMike Home Mini Drop-In PCB\" (1st-gen Google Home Mini) that is now live on Crowd Supply in a pre-sale phase (project pre-view only), and if that is successful then will plan a matching campaign for newer Nest Mini (2nd-gen), so check that out here and support this project indirectly by backing it if you can:",
+        "translatedContent": "**알림!** \"MiciMike Home Mini Drop-In PCB\" (1세대 Google Home Mini)용 크라우드펀딩 캠페인이 현재 Crowd Supply에서 사전판매 단계(프로젝트 미리보기 전용)로 진행 중이며, 성공할 경우 최신 Nest Mini(2세대)용 일치하는 캠페인도 계획하고 있으니 아래 링크를 확인하고 가능하다면 후원으로 간접적으로 이 프로젝트를 지원해 주세요:"
       },
       {
         "row": 3,
@@ -53,9 +53,9 @@
       },
       {
         "row": 6,
-        "rowsha": "AmDhBdukX9nT3z88d2dwU7n6cGP6CDPHvM2PnfTzSgM=",
-        "originContent": "Both of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.",
-        "translatedContent": "이 두 프로젝트 모두 완전한 오픈소스 하드웨어 프로젝트이며, [Onju Voice](https://github.com/justLV/onju-voice)에서 영감을 일부 얻었으나, [Open Home Foundation의 오픈 보이스 어시스턴트 표준 및 Home Assistant Voice Preview Edition을 참조](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)로 하여 PCB 설계와 사양을 따르려고 합니다."
+        "rowsha": "QR6InhqdpWRhhm5DssvV7PkebsPW3P1OUiUa8gOGL6U=",
+        "originContent": "Both of these are fully open-source hardware projects, taking some concept inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.",
+        "translatedContent": "이 두 프로젝트 모두 완전 오픈소스 하드웨어 프로젝트로, [Onju Voice](https://github.com/justLV/onju-voice)의 컨셉에서 영감을 받았지만 [Open Home Foundation의 오픈 보이스 어시스턴트 표준과 Home Assistant Voice Preview Edition을 참고](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)하여 PCB 설계 및 사양을 따르려고 합니다."
       },
       {
         "row": 7,
@@ -79,7 +79,7 @@
         "row": 10,
         "rowsha": "+vHQeu7yUpOenoxKptI8jdsUOfectB/a5GbH8U/dyac=",
         "originContent": "The goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).",
-        "translatedContent": "이 프로젝트 및 저장소([Onju Voice](https://github.com/justLV/onju-voice)와 유사하지만 완전한 오픈소스 하드웨어 라이선스 하에 있음)의 목적은, 누구나 직접 제작하거나 원스톱 PCB 제조업체에서 맞춤형 교체용 PCB로 주문할 수 있는 하드웨어 회로도가 포함된 Nest Mini(2세대)용 교체용 PCB(인쇄회로기판)를 설계하는 것입니다."
+        "translatedContent": "이 프로젝트와 저장소의 목표(이는 [Onju Voice](https://github.com/justLV/onju-voice)와 유사하지만 완전 오픈소스 하드웨어 라이선스 하에 진행됨)는 누구나 제작/조립하거나 일체형 PCB 제조업체에서 주문할 수 있는 Google Nest Mini(2세대)용 맞춤형 Drop-In 교체 PCB(인쇄회로기판)와 하드웨어 회로도를 설계하는 것입니다."
       },
       {
         "row": 11,
@@ -91,7 +91,7 @@
         "row": 12,
         "rowsha": "0VXe1nwfwMOoO75lMddzrenSiw77tS6pQxAY0+PheoM=",
         "originContent": "This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).",
-        "translatedContent": "이는 주로 기존 Google Nest Mini 스마트 스피커를 [Home Assistant 음성 제어](https://www.home-assistant.io/voice_control/) 또는 [Music Assistant](https://www.music-assistant.io)의 미디어 플레이어 스피커 출력용 오픈소스 하드웨어로 개조/재활용하려는 사람들을 대상으로 합니다. (단, 하드웨어는 인기 있는 Espressif ESP32 플랫폼 기반이기에 다른 펌웨어와 함께 다른 응용 프로그램에도 사용 가능할 것입니다.)"
+        "translatedContent": "이는 주로 [Home Assistant의 음성 제어](https://www.home-assistant.io/voice_control/) 및/또는 [Music Assistant](https://www.music-assistant.io)의 미디어 플레이어 스피커 출력용으로 기존 Google Nest Mini 스마트 스피커를 오픈소스 하드웨어로 변환/재활용하려는 사용자들을 대상으로 합니다. (하드웨어는 인기 있는 Espressif ESP32 플랫폼 기반이므로 다른 펌웨어와 함께 다양한 애플리케이션에도 사용할 수 있습니다)."
       },
       {
         "row": 13,
@@ -101,9 +101,9 @@
       },
       {
         "row": 14,
-        "rowsha": "pwzmkyCKiczQuxSJckMkw3qk8ntxIJ7Bop/xffjQ/Vc=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">",
-        "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">"
+        "rowsha": "yxSb4x3ZrGIhHeClusLX0OI3BF9adYQlWu1a//v7FJo=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg\" width=\"1000\" alt=\"First test PCB\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg\" width=\"1000\" alt=\"First test PCB\">"
       },
       {
         "row": 15,
@@ -115,7 +115,7 @@
         "row": 16,
         "rowsha": "iseb2UJGO3ewPYRvK4TjGLdVZQnRcyndnU6Td+qNcFw=",
         "originContent": "The hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).",
-        "translatedContent": "하드웨어 설계는 ([Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)과 유사하게) WiFi, BLE, [온보드 웨이크워드 감지](https://www.home-assistant.io/voice_control/about_wake_word/)를 위한 ESP32-S3 SoC(노코드 [ESPHome 펌웨어](https://esphome.io/) 사용)와 고급 오디오 처리를 위한 XMOS xCORE XU316 칩(마이크 정리 오프로딩을 위한 커스텀 펌웨어 탑재, 로컬 실행 알고리즘으로 잡음 억제, 음향 에코 제거, 간섭 제거, 자동 이득 제어 등)으로 통합될 예정입니다."
+        "translatedContent": "하드웨어 설계는 ([Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)과 유사하게) WiFi, BLE, [온보드 웨이크 워드 감지](https://www.home-assistant.io/voice_control/about_wake_word/)용 ESP32-S3 SoC(코드 없이 [ESPHome 펌웨어](https://esphome.io/) 사용)와 고급 오디오 처리를 위한 XMOS xCORE XU316 칩(마이크 청소 오프로드를 위한 맞춤형 펌웨어, 로컬 알고리즘을 사용한 노이즈 억제, 음향 에코 제거, 간섭 제거, 자동 게인 제어 등)을 통합할 예정입니다."
       },
       {
         "row": 17,
@@ -127,7 +127,7 @@
         "row": 18,
         "rowsha": "pzHC1+FRSSnDTTIeEZ6QnE9TzvrdHFq3NU5AJpZg0ms=",
         "originContent": "Functionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).",
-        "translatedContent": "기능적으로는 [Home Assistant Voice Preview Edition(일명 Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) 참조 설계(오픈소스 하드웨어로 Open Home Foundation과 Nabu Casa가 협력하여 공개)와 대부분 하드웨어 호환되도록 제작됩니다. 주된 차이점은 Google Nest Mini 인클로저 및 구성품에 의해 정의된 제약에 따른 것(즉, nest-mini-drop-in-pcb 프로젝트 하드웨어 설계는 Google의 원래 하드웨어와 동일한 유형의 물리적 용량 입력으로 제한됨)입니다."
+        "translatedContent": "기능적으로는 [Home Assistant Voice Preview Edition(또는 Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) 참조 설계(이 설계는 Open Home Foundation과 Nabu Casa의 협업으로 공개된 오픈소스 하드웨어 설계)와 거의 하드웨어 호환되도록 제작됩니다. 주요 차이점은 Google Nest Mini 케이스 및 부품이 정의한 제약 때문이며, 즉 nest-mini-drop-in-pcb 프로젝트 하드웨어 설계는 Google의 기존 하드웨어와 동일한 물리적 입력 용량의 제한을 받습니다."
       },
       {
         "row": 19,
@@ -139,7 +139,7 @@
         "row": 20,
         "rowsha": "ucyRyt9LKOkOFhQOkDRFRc5CUbIHEAPTxcQjoGxmy8k=",
         "originContent": "As such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:",
-        "translatedContent": "따라서 이 프로젝트/저장소의 범위는 ESPHome 펌웨어의 새로운 기능/기능 개발이 아니므로, 해당 개발을 원한다면 Home Assistant Voice Preview Edition의 펌웨어 개발 및 상위 ESPHome 메인라인 코드로 문의해야 합니다:"
+        "translatedContent": "따라서 이 프로젝트/저장소의 범위는 ESPHome 펌웨어의 새로운 기능/기능 개발이 아니므로, 해당 기능 개발을 원한다면 Home Assistant Voice Preview Edition의 펌웨어 개발과 상위 ESPHome 메인라인 코드로 이동해야 합니다:"
       },
       {
         "row": 21,
@@ -187,7 +187,7 @@
         "row": 28,
         "rowsha": "4lOZUTF/K1Tk+EJAz7StuO/vNHlsnR149oBeabjrN4c=",
         "originContent": "If you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.",
-        "translatedContent": "PCB 레이아웃 설계(특히 PCB 라우팅, 그라운드 포어링, 노이즈 민감 디지털+아날로그 레이아웃)에 경험이 있다면, **여러분의 도움이 매우 필요합니다**! 새로운 이슈를 등록하거나 제안/요청을 제출하고, 기존 이슈에 의견/피드백을 추가하거나 이 저장소를 포크해 주세요."
+        "translatedContent": "PCB 레이아웃 설계 경험이 있으시다면(특히 PCB 라우팅, 그라운드 포어링, 또는 노이즈 민감한 디지털+아날로그 레이아웃), **여러분의 도움이 매우 필요합니다**! 새로운 이슈를 열거나 제안/요청을 제출하고 기존 이슈에 의견/피드백을 자유롭게 추가하거나 저장소를 포크해 주세요."
       },
       {
         "row": 29,
@@ -199,7 +199,7 @@
         "row": 30,
         "rowsha": "L0QdLQQ4ZBFnUIznVImKnGk2ExOn/N0WNcqpMlQJPOA=",
         "originContent": "For more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:",
-        "translatedContent": "개념/아이디어에 대한 자세한 내용 및 토론 참여는 Home Assistant 커뮤니티 포럼 스레드를 확인해 주세요:"
+        "translatedContent": "컨셉/아이디어에 대한 자세한 정보는 관련 토론을 확인하고 아래 Home Assistant 커뮤니티 포럼 스레드에 참여해 주세요:"
       },
       {
         "row": 31,
@@ -253,32 +253,285 @@
         "row": 39,
         "rowsha": "4fzUi8bvsK+lqyupC+frmWosyGZXfqyndzgJIpWIB9U=",
         "originContent": "- ✅ Ground pour, shielding strategy, and EMI considerations done",
-        "translatedContent": "- ✅ 그라운드 포어, 쉴딩 전략, EMI 고려 완료"
+        "translatedContent": "- ✅ 그라운드 포어, 실드 전략, EMI 고려 완료"
       },
       {
         "row": 40,
-        "rowsha": "9FMhk9flvCDSwfZUMoVSnfO1/pWs51lInyX26zZXJKg=",
-        "originContent": "- ⚠️ 1st test batch failed on two errors - fixed",
-        "translatedContent": "- ⚠️ 1차 테스트 배치에서 두 가지 오류로 실패 - 수정됨"
+        "rowsha": "3eD3WQw5fPKjrEquArtGWKXSwEtLbsUrFbEO0XF7HTo=",
+        "originContent": "- ⛔ 1st test batch failed on two errors - fixed",
+        "translatedContent": "- ⛔ 1차 테스트 배치에서 두 가지 오류로 실패 - 수정됨"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
-    "Content": "- 🕓 waiting for the 2nd test batch\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">\n\n## Tools used\n\n- 🛠️ KiCad 9\n- 🧰 SnapEDA / LCSC for footprint sourcing\n\n## Known hardware specifications\n\n- 4-layer PCB\n- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)\n- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)\n- Dual SPI flash (as ESP32 and XMOS have their own SPI flash)\n- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)\n- TAS5805M (TAS5805MPWPR) for speaker output (I2S Class-D Mono Audio Amplifyer with DSP config via I2C)\n- 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)\n- 6x SK6812 RGB LEDs\n- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)\n\n---\n\n> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.\n\n## References\n\n### Home Assistant Voice Preview Edition resources including PCB design files\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/\n- https://voice-pe.home-assistant.io/\n\n### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip",
-    "ContentSha": "fs6SWHsP5h7/O3UqTuGNX3mvwPsvHDZ9W5u91wSOqCk=",
+    "Content": "- ⚠️ 2nd test batch partially working\n- ✅ XTAG4 debug option added for the next batch\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg\" width=\"1000\">\n\n## Tools used\n\n- 🛠️ KiCad 9\n- 🧰 SnapEDA / LCSC for footprint sourcing\n\n## Known hardware specifications\n\n- 4-layer PCB\n- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)\n- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)\n- 16 MB SPI flash (ESP32-S3)\n- 4 MB SPI flash (XMOS XU316)\n- Dual I²S buses (simultaneous audio input and output)\n- TAS5805M (TAS5805MPWPR) stereo Class-D amplifier with integrated DSP (I2S audio, I2C control), configured for mono BTL speaker output\n- 3x MEMS microphones (MMICT390200012) arranged on a 34 mm radius arc - current firmware uses 2 microphones, hardware support for a 3-microphone array is already present\n- 6x SK6812 RGB LEDs\n- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)\n- MPR121 capacitive touch controller (used for touch input instead of ESP32-S3 native touch sensing)\n\n---\n\n> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.\n\n## References\n\n### Home Assistant Voice Preview Edition resources including PCB design files\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/",
+    "ContentSha": "s9Abc7yymmDmWn/GDy3BveMP6sKoD/sikqi+HdqzlA0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- 🕓 두 번째 테스트 배치를 기다리는 중\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">\n\n## 사용된 도구\n\n- 🛠️ KiCad 9\n- 🧰 SnapEDA / LCSC를 이용한 풋프린트 소싱\n\n## 알려진 하드웨어 사양\n\n- 4-레이어 PCB\n- ESP32-S3R8 베어 칩(ESP32-S3로 WiFi, BLE, 온보드 웨이크-워드 감지 지원)\n- XMOS XU316-1024-QF60B-C24(XMOS XU316 xCORE DSP 오디오 처리)\n- 듀얼 SPI 플래시(ESP32와 XMOS가 각각의 SPI 플래시 사용)\n- 듀얼 I²S 버스(동시에 I2S 인터페이스 지원, 즉 오디오 출력 및 입력 동시 가능)\n- TAS5805M(TAS5805MPWPR) 스피커 출력용(I2S 클래스-D 모노 오디오 앰프, I2C를 통한 DSP 구성)\n- 2x MEMS 마이크(듀얼 MMICT390200012, 마이크 간 거리 68mm)\n- 6x SK6812 RGB LED\n- 커스텀 USB-C 및 14V 전원 입력(참고! USB-C와 배럴 커넥터는 동시에 연결 불가)\n\n---\n\n> ⚠️ USB-C를 통한 플래싱 시 메인 14V 전원 입력을 분리해야 합니다. 자세한 내용은 PCB의 실크스크린 참고.\n\n## 참고 자료\n\n### Home Assistant Voice Preview Edition 자료(PCB 설계 파일 포함)\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### Home Assistant Voice PE용 ESPHome 펌웨어(동일 ESP32-S3 + XMOS XU316 조합 사용):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/\n- https://voice-pe.home-assistant.io/\n\n### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC 칩",
+    "Translation": "- ⚠️ 두 번째 테스트 배치는 부분적으로 작동함\n- ✅ 다음 배치에 XTAG4 디버그 옵션 추가됨\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg\" width=\"1000\">\n\n## 사용된 도구\n\n- 🛠️ KiCad 9\n- 🧰 SnapEDA / LCSC에서 풋프린트 소싱\n\n## 알려진 하드웨어 사양\n\n- 4층 PCB\n- ESP32-S3R8 베어 칩 (WiFi, BLE, 온보드 웨이크 워드 감지를 위한 ESP32-S3)\n- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP 오디오 처리)\n- 16 MB SPI 플래시 (ESP32-S3용)\n- 4 MB SPI 플래시 (XMOS XU316용)\n- 듀얼 I²S 버스 (동시 오디오 입력 및 출력)\n- TAS5805M (TAS5805MPWPR) 스테레오 클래스-D 앰프 및 통합 DSP (I2S 오디오, I2C 제어), 모노 BTL 스피커 출력으로 구성\n- 3x MEMS 마이크(MMICT390200012) 34mm 반지름 호에 배치 - 현재 펌웨어는 2개 마이크 사용, 3마이크 어레이 하드웨어 지원 이미 탑재\n- 6x SK6812 RGB LED\n- 커스텀 USB-C 및 14V 전원 입력 (참고! USB-C와 배럴 커넥터는 동시에 연결 불가)\n- MPR121 정전식 터치 컨트롤러 (ESP32-S3의 기본 터치 감지 대신 터치 입력에 사용)\n\n---\n\n> ⚠️ USB-C를 통한 플래싱 시 메인 14V 전원 입력을 분리해야 합니다. 자세한 내용은 PCB 실크스크린 주석을 참조하세요.\n\n## 참고 자료\n\n### Home Assistant Voice Preview Edition 리소스(PCB 설계 파일 포함)\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### Home Assistant Voice PE용 ESPHome 펌웨어(동일한 ESP32-S3 + XMOS XU316 조합 사용):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "xK5y3Owwt6htNJhQn1XOrLju2R08PSWOPlFE+22sx4U=",
-        "originContent": "- 🕓 waiting for the 2nd test batch",
-        "translatedContent": "- 🕓 두 번째 테스트 배치를 기다리는 중"
+        "rowsha": "daJBrFHQ0XulGhM/3g7IPx1B6rNSrxMdsC8m46/5tKQ=",
+        "originContent": "- ⚠️ 2nd test batch partially working",
+        "translatedContent": "- ⚠️ 두 번째 테스트 배치는 부분적으로 작동함"
+      },
+      {
+        "row": 2,
+        "rowsha": "P6X7HGp6hyzW7CXrX0YOjWa/ZWpUClpccKlFwWguvmk=",
+        "originContent": "- ✅ XTAG4 debug option added for the next batch",
+        "translatedContent": "- ✅ 다음 배치에 XTAG4 디버그 옵션 추가됨"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "tJzveZXPi11l6htOnGCDrsBq/QBhSD2BhtIQR74gjLg=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg\" width=\"1000\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg\" width=\"1000\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "tvl2seuyGj95hqfgGdnZIcZC7mh0LH8LpLyvH854dpc=",
+        "originContent": "## Tools used",
+        "translatedContent": "## 사용된 도구"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "94dZW8SmyspZ/ZSVi7ujiLhhEEp/J43QZhvStrnuvHg=",
+        "originContent": "- 🛠️ KiCad 9",
+        "translatedContent": "- 🛠️ KiCad 9"
+      },
+      {
+        "row": 9,
+        "rowsha": "ly4R35r/W7F+SHRJFot/Fws7TA10I0HFD/u4GsY6KXg=",
+        "originContent": "- 🧰 SnapEDA / LCSC for footprint sourcing",
+        "translatedContent": "- 🧰 SnapEDA / LCSC에서 풋프린트 소싱"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VUye4NDLDP1i1y8nJIyVQbVKa2XmHiTSZy6SW9uFUpo=",
+        "originContent": "## Known hardware specifications",
+        "translatedContent": "## 알려진 하드웨어 사양"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "0JCq5wohuw7g46ZMtAq+5wdCPWCIp97bgpzswl6gwcM=",
+        "originContent": "- 4-layer PCB",
+        "translatedContent": "- 4층 PCB"
+      },
+      {
+        "row": 14,
+        "rowsha": "6q8FEeqzGN3vayN7RveBglmt1N2od7K/PoXcJVJH7Sg=",
+        "originContent": "- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)",
+        "translatedContent": "- ESP32-S3R8 베어 칩 (WiFi, BLE, 온보드 웨이크 워드 감지를 위한 ESP32-S3)"
+      },
+      {
+        "row": 15,
+        "rowsha": "8/n805G26I3rR6QSTOBChXIwq/E5RG6d+kjB7e8yRK4=",
+        "originContent": "- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)",
+        "translatedContent": "- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP 오디오 처리)"
+      },
+      {
+        "row": 16,
+        "rowsha": "hwhEEECCqRn9nq6T62U++ZRAHsvaf8O4YEW0l13HkpU=",
+        "originContent": "- 16 MB SPI flash (ESP32-S3)",
+        "translatedContent": "- 16 MB SPI 플래시 (ESP32-S3용)"
+      },
+      {
+        "row": 17,
+        "rowsha": "jPaV1JJtppzviq50bDAAcOHZ4Oz3w/KKBvtUyRrMOso=",
+        "originContent": "- 4 MB SPI flash (XMOS XU316)",
+        "translatedContent": "- 4 MB SPI 플래시 (XMOS XU316용)"
+      },
+      {
+        "row": 18,
+        "rowsha": "htIOQYkQfJUN4FC4Gh7yKWIkvwK3FOfxO8jbK55pIPw=",
+        "originContent": "- Dual I²S buses (simultaneous audio input and output)",
+        "translatedContent": "- 듀얼 I²S 버스 (동시 오디오 입력 및 출력)"
+      },
+      {
+        "row": 19,
+        "rowsha": "LInj+COlcFpOvpCj1Ay0T3Tkh3ZbUGBVDe4Umr8vgLs=",
+        "originContent": "- TAS5805M (TAS5805MPWPR) stereo Class-D amplifier with integrated DSP (I2S audio, I2C control), configured for mono BTL speaker output",
+        "translatedContent": "- TAS5805M (TAS5805MPWPR) 스테레오 클래스-D 앰프 및 통합 DSP (I2S 오디오, I2C 제어), 모노 BTL 스피커 출력으로 구성"
+      },
+      {
+        "row": 20,
+        "rowsha": "EVybAQnPgnZiKtkSUKt8PIc9ZYoZmS9uGdxJglW0/lg=",
+        "originContent": "- 3x MEMS microphones (MMICT390200012) arranged on a 34 mm radius arc - current firmware uses 2 microphones, hardware support for a 3-microphone array is already present",
+        "translatedContent": "- 3x MEMS 마이크(MMICT390200012) 34mm 반지름 호에 배치 - 현재 펌웨어는 2개 마이크 사용, 3마이크 어레이 하드웨어 지원 이미 탑재"
+      },
+      {
+        "row": 21,
+        "rowsha": "ovCVA7GlgOU4p79KbAys98OjQkgzBvjMZNXQ82lT4ck=",
+        "originContent": "- 6x SK6812 RGB LEDs",
+        "translatedContent": "- 6x SK6812 RGB LED"
+      },
+      {
+        "row": 22,
+        "rowsha": "rfepAX+vLbdNfRuW0rHozDp+uN07CTxTdU8J3EL7LmI=",
+        "originContent": "- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)",
+        "translatedContent": "- 커스텀 USB-C 및 14V 전원 입력 (참고! USB-C와 배럴 커넥터는 동시에 연결 불가)"
+      },
+      {
+        "row": 23,
+        "rowsha": "tmEUZNIEKiRmU+/AwOxvHMC7uumxy4c10IwInQLdfQk=",
+        "originContent": "- MPR121 capacitive touch controller (used for touch input instead of ESP32-S3 native touch sensing)",
+        "translatedContent": "- MPR121 정전식 터치 컨트롤러 (ESP32-S3의 기본 터치 감지 대신 터치 입력에 사용)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "BOp7tXP2mNvf26vY7vU7JP8C1QNbmXJfDx7XnwDKNAo=",
+        "originContent": "> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.",
+        "translatedContent": "> ⚠️ USB-C를 통한 플래싱 시 메인 14V 전원 입력을 분리해야 합니다. 자세한 내용은 PCB 실크스크린 주석을 참조하세요."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": "## 참고 자료"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "X41cMvPqTiaCaEYSoV6SW21i0EdtPI/dcRx2ucnGL6I=",
+        "originContent": "### Home Assistant Voice Preview Edition resources including PCB design files",
+        "translatedContent": "### Home Assistant Voice Preview Edition 리소스(PCB 설계 파일 포함)"
+      },
+      {
+        "row": 32,
+        "rowsha": "+00ZY6JKIvwVq2jQ+8owIdy1JE5GZ6YVTmuzRcoLYmM=",
+        "originContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/",
+        "translatedContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/"
+      },
+      {
+        "row": 33,
+        "rowsha": "23oaXch/Imav1IdSxthXQdK1TfrsplRpAt5LO0va/04=",
+        "originContent": "  - https://voice-pe.home-assistant.io/resources/",
+        "translatedContent": "  - https://voice-pe.home-assistant.io/resources/"
+      },
+      {
+        "row": 34,
+        "rowsha": "ziOIAZYXksLnliACpyD4Gmd8l7gLqYofRL3SQuM2kSo=",
+        "originContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files",
+        "translatedContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files"
+      },
+      {
+        "row": 35,
+        "rowsha": "HsDhzu/l3m2LkealzokNxLHXECqq8foAgSLzFAFoi8c=",
+        "originContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf",
+        "translatedContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf"
+      },
+      {
+        "row": 36,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "     "
+      },
+      {
+        "row": 37,
+        "rowsha": "NdlR6AENPjdT4nFAyldQpcsochTyXVLiv5iIIPED4l0=",
+        "originContent": "#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):",
+        "translatedContent": "#### Home Assistant Voice PE용 ESPHome 펌웨어(동일한 ESP32-S3 + XMOS XU316 조합 사용):"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "yXw0ViC46XCRHZ+nac2BF6dNrf2CERgctc0PdhwNYPM=",
+        "originContent": "- https://github.com/esphome/home-assistant-voice-pe",
+        "translatedContent": "- https://github.com/esphome/home-assistant-voice-pe"
+      },
+      {
+        "row": 40,
+        "rowsha": "PbOvhSxMsh6am1ypOrcDmSF13kX6VepWsSmd0ftWpwc=",
+        "originContent": "  - https://esphome.github.io/home-assistant-voice-pe/",
+        "translatedContent": "  - https://esphome.github.io/home-assistant-voice-pe/"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "- https://voice-pe.home-assistant.io/\n\n### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC chip\n\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice\n  - https://www.xmos.com/usb-multichannel-audio/\n  - https://www.xmos.com/xcore-ai\n \n#### XMOS firmware from the ESPHome project for the Home Assistant Voice Preview Edition hardware:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## License\n\nThis project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]\nAny modified version of this hardware must also be distributed under the same license.\n\n☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!\n\n\n",
+    "ContentSha": "dOZa36Bbd389+bms9BA5wdJR5VW4dfjKeVcQR/LrSZE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- https://voice-pe.home-assistant.io/\n\n### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC 칩\n\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice\n  - https://www.xmos.com/usb-multichannel-audio/\n  - https://www.xmos.com/xcore-ai\n \n#### Home Assistant Voice Preview Edition 하드웨어용 ESPHome 프로젝트의 XMOS 펌웨어:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## 라이선스\n\n이 프로젝트는 [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]에 따라 라이선스가 부여되어 있습니다.\n이 하드웨어의 수정된 버전도 동일한 라이선스 하에 배포되어야 합니다.\n\n☕ 이 프로젝트를 지원하고 싶으시면 [Ko-fi에서 커피 한 잔을 사주세요](https://ko-fi.com/imike78)!\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/9rzh29TyNS2JMM1ic4HtEtd7Ko8NWSJiP87/apVWkQ=",
+        "originContent": "- https://voice-pe.home-assistant.io/",
+        "translatedContent": "- https://voice-pe.home-assistant.io/"
       },
       {
         "row": 2,
@@ -288,9 +541,9 @@
       },
       {
         "row": 3,
-        "rowsha": "JbUAmZj4ZLm/6VFp8e4a/FebG2DE7IixxQt967dUx60=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">",
-        "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">"
+        "rowsha": "RkJ0gBaUp+oEHx3ncMzCgBSLeqWYyGulL2PsRRIzKD8=",
+        "originContent": "### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC chip",
+        "translatedContent": "### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC 칩"
       },
       {
         "row": 4,
@@ -300,99 +553,99 @@
       },
       {
         "row": 5,
-        "rowsha": "tvl2seuyGj95hqfgGdnZIcZC7mh0LH8LpLyvH854dpc=",
-        "originContent": "## Tools used",
-        "translatedContent": "## 사용된 도구"
+        "rowsha": "Ndr7rzmheK2VuFwX3uJKbyw0vAsGMwWlETbZlhNQNu0=",
+        "originContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf",
+        "translatedContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf"
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "petBg/2ZSIVNooBFs6lkCYAvAgkfJV8y+b5j0BkaUWA=",
+        "originContent": "- https://www.xmos.com/software-tools/",
+        "translatedContent": "- https://www.xmos.com/software-tools/"
       },
       {
         "row": 7,
-        "rowsha": "94dZW8SmyspZ/ZSVi7ujiLhhEEp/J43QZhvStrnuvHg=",
-        "originContent": "- 🛠️ KiCad 9",
-        "translatedContent": "- 🛠️ KiCad 9"
+        "rowsha": "ijmSbRQA+0BXakRNtRw0EU+MSDqIpvLicRCropin2pQ=",
+        "originContent": "  - https://www.xmos.com/develop/xcore-voice",
+        "translatedContent": "  - https://www.xmos.com/develop/xcore-voice"
       },
       {
         "row": 8,
-        "rowsha": "ly4R35r/W7F+SHRJFot/Fws7TA10I0HFD/u4GsY6KXg=",
-        "originContent": "- 🧰 SnapEDA / LCSC for footprint sourcing",
-        "translatedContent": "- 🧰 SnapEDA / LCSC를 이용한 풋프린트 소싱"
+        "rowsha": "hECfDgjT6KwEiPHmG1TIw1Yh2GczDWz2PPLvn81+mNs=",
+        "originContent": "  - https://www.xmos.com/usb-multichannel-audio/",
+        "translatedContent": "  - https://www.xmos.com/usb-multichannel-audio/"
       },
       {
         "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "oBg2r4L+srFf5X4iDlV1gnWa1nj/b7rSLun6WLDXv+U=",
+        "originContent": "  - https://www.xmos.com/xcore-ai",
+        "translatedContent": "  - https://www.xmos.com/xcore-ai"
       },
       {
         "row": 10,
-        "rowsha": "VUye4NDLDP1i1y8nJIyVQbVKa2XmHiTSZy6SW9uFUpo=",
-        "originContent": "## Known hardware specifications",
-        "translatedContent": "## 알려진 하드웨어 사양"
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
       },
       {
         "row": 11,
+        "rowsha": "X+c44rYr4BMJgUSxYqG+A2OLZR8FgyUcsqq/yPyjn58=",
+        "originContent": "#### XMOS firmware from the ESPHome project for the Home Assistant Voice Preview Edition hardware:",
+        "translatedContent": "#### Home Assistant Voice Preview Edition 하드웨어용 ESPHome 프로젝트의 XMOS 펌웨어:"
+      },
+      {
+        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 12,
-        "rowsha": "0JCq5wohuw7g46ZMtAq+5wdCPWCIp97bgpzswl6gwcM=",
-        "originContent": "- 4-layer PCB",
-        "translatedContent": "- 4-레이어 PCB"
-      },
-      {
         "row": 13,
-        "rowsha": "6q8FEeqzGN3vayN7RveBglmt1N2od7K/PoXcJVJH7Sg=",
-        "originContent": "- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)",
-        "translatedContent": "- ESP32-S3R8 베어 칩(ESP32-S3로 WiFi, BLE, 온보드 웨이크-워드 감지 지원)"
+        "rowsha": "4/I3VqdaZeK6r5z+hajrchuk1XD/ipv0iEeTWP+gJsE=",
+        "originContent": "- https://github.com/esphome/voice-kit-xmos-firmware",
+        "translatedContent": "- https://github.com/esphome/voice-kit-xmos-firmware"
       },
       {
         "row": 14,
-        "rowsha": "8/n805G26I3rR6QSTOBChXIwq/E5RG6d+kjB7e8yRK4=",
-        "originContent": "- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)",
-        "translatedContent": "- XMOS XU316-1024-QF60B-C24(XMOS XU316 xCORE DSP 오디오 처리)"
+        "rowsha": "KgkQO0Vpc+smahT+HMCWD/P3Td7noE052MRJuuUUjnc=",
+        "originContent": "  - https://github.com/esphome/xmos_fwk_rtos",
+        "translatedContent": "  - https://github.com/esphome/xmos_fwk_rtos"
       },
       {
         "row": 15,
-        "rowsha": "CQvuqljgmtayfD96k+bnshb3mrYDgPfH9y+iPLN5j8o=",
-        "originContent": "- Dual SPI flash (as ESP32 and XMOS have their own SPI flash)",
-        "translatedContent": "- 듀얼 SPI 플래시(ESP32와 XMOS가 각각의 SPI 플래시 사용)"
+        "rowsha": "53khxc45Wkj2Yl1U14xAVVwwWliK0pgXiaMcFSIAlzw=",
+        "originContent": "  - https://github.com/esphome/xmos_fwk_io",
+        "translatedContent": "  - https://github.com/esphome/xmos_fwk_io"
       },
       {
         "row": 16,
-        "rowsha": "93vz3qcbAs85m8AkMxt9XmFNlYSWZ+2R2TPoc/CFRVk=",
-        "originContent": "- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)",
-        "translatedContent": "- 듀얼 I²S 버스(동시에 I2S 인터페이스 지원, 즉 오디오 출력 및 입력 동시 가능)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 17,
-        "rowsha": "S3fI8m+9Ul5i2DjuMZvjwDy1KESEOCQHxvb4CVZAQww=",
-        "originContent": "- TAS5805M (TAS5805MPWPR) for speaker output (I2S Class-D Mono Audio Amplifyer with DSP config via I2C)",
-        "translatedContent": "- TAS5805M(TAS5805MPWPR) 스피커 출력용(I2S 클래스-D 모노 오디오 앰프, I2C를 통한 DSP 구성)"
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
       },
       {
         "row": 18,
-        "rowsha": "hVcinrHoWqlCxwRAW4orgLdi8Ruqbk8UOMDZfEzsioE=",
-        "originContent": "- 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)",
-        "translatedContent": "- 2x MEMS 마이크(듀얼 MMICT390200012, 마이크 간 거리 68mm)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 19,
-        "rowsha": "ovCVA7GlgOU4p79KbAys98OjQkgzBvjMZNXQ82lT4ck=",
-        "originContent": "- 6x SK6812 RGB LEDs",
-        "translatedContent": "- 6x SK6812 RGB LED"
+        "rowsha": "qGBdwzqI7utYWC9sdyXx3pQDX0gfw0uvvlIeoaE2pJ8=",
+        "originContent": "This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]",
+        "translatedContent": "이 프로젝트는 [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]에 따라 라이선스가 부여되어 있습니다."
       },
       {
         "row": 20,
-        "rowsha": "rfepAX+vLbdNfRuW0rHozDp+uN07CTxTdU8J3EL7LmI=",
-        "originContent": "- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)",
-        "translatedContent": "- 커스텀 USB-C 및 14V 전원 입력(참고! USB-C와 배럴 커넥터는 동시에 연결 불가)"
+        "rowsha": "F+2YfwWiEQKdxNCDtXt6oWZxikOp0aNayFNuTphvN6E=",
+        "originContent": "Any modified version of this hardware must also be distributed under the same license.",
+        "translatedContent": "이 하드웨어의 수정된 버전도 동일한 라이선스 하에 배포되어야 합니다."
       },
       {
         "row": 21,
@@ -402,9 +655,9 @@
       },
       {
         "row": 22,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
+        "rowsha": "21UDXmMUcs1qiP6vArzmKTV1uxjrRVeWA1Kg/pgprJc=",
+        "originContent": "☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!",
+        "translatedContent": "☕ 이 프로젝트를 지원하고 싶으시면 [Ko-fi에서 커피 한 잔을 사주세요](https://ko-fi.com/imike78)!"
       },
       {
         "row": 23,
@@ -414,247 +667,12 @@
       },
       {
         "row": 24,
-        "rowsha": "BOp7tXP2mNvf26vY7vU7JP8C1QNbmXJfDx7XnwDKNAo=",
-        "originContent": "> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.",
-        "translatedContent": "> ⚠️ USB-C를 통한 플래싱 시 메인 14V 전원 입력을 분리해야 합니다. 자세한 내용은 PCB의 실크스크린 참고."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
-        "originContent": "## References",
-        "translatedContent": "## 참고 자료"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "X41cMvPqTiaCaEYSoV6SW21i0EdtPI/dcRx2ucnGL6I=",
-        "originContent": "### Home Assistant Voice Preview Edition resources including PCB design files",
-        "translatedContent": "### Home Assistant Voice Preview Edition 자료(PCB 설계 파일 포함)"
-      },
-      {
-        "row": 29,
-        "rowsha": "+00ZY6JKIvwVq2jQ+8owIdy1JE5GZ6YVTmuzRcoLYmM=",
-        "originContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/",
-        "translatedContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/"
-      },
-      {
-        "row": 30,
-        "rowsha": "23oaXch/Imav1IdSxthXQdK1TfrsplRpAt5LO0va/04=",
-        "originContent": "  - https://voice-pe.home-assistant.io/resources/",
-        "translatedContent": "  - https://voice-pe.home-assistant.io/resources/"
-      },
-      {
-        "row": 31,
-        "rowsha": "ziOIAZYXksLnliACpyD4Gmd8l7gLqYofRL3SQuM2kSo=",
-        "originContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files",
-        "translatedContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files"
-      },
-      {
-        "row": 32,
-        "rowsha": "HsDhzu/l3m2LkealzokNxLHXECqq8foAgSLzFAFoi8c=",
-        "originContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf",
-        "translatedContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf"
-      },
-      {
-        "row": 33,
-        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
-        "originContent": "     ",
-        "translatedContent": "     "
-      },
-      {
-        "row": 34,
-        "rowsha": "NdlR6AENPjdT4nFAyldQpcsochTyXVLiv5iIIPED4l0=",
-        "originContent": "#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):",
-        "translatedContent": "#### Home Assistant Voice PE용 ESPHome 펌웨어(동일 ESP32-S3 + XMOS XU316 조합 사용):"
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "yXw0ViC46XCRHZ+nac2BF6dNrf2CERgctc0PdhwNYPM=",
-        "originContent": "- https://github.com/esphome/home-assistant-voice-pe",
-        "translatedContent": "- https://github.com/esphome/home-assistant-voice-pe"
-      },
-      {
-        "row": 37,
-        "rowsha": "PbOvhSxMsh6am1ypOrcDmSF13kX6VepWsSmd0ftWpwc=",
-        "originContent": "  - https://esphome.github.io/home-assistant-voice-pe/",
-        "translatedContent": "  - https://esphome.github.io/home-assistant-voice-pe/"
-      },
-      {
-        "row": 38,
-        "rowsha": "/9rzh29TyNS2JMM1ic4HtEtd7Ko8NWSJiP87/apVWkQ=",
-        "originContent": "- https://voice-pe.home-assistant.io/",
-        "translatedContent": "- https://voice-pe.home-assistant.io/"
-      },
-      {
-        "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "6hgjg1zwYjRfhAbAW8V8Xp8F4f0MT0Sa43IHWVo7EYU=",
-        "originContent": "### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip",
-        "translatedContent": "### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC 칩"
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 4,
-    "Content": "\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice\n  - https://www.xmos.com/usb-multichannel-audio/\n  - https://www.xmos.com/xcore-ai\n \n#### XMOS firmware from the ESPHome project for the Home Assistant Voice Preview Edition hardware:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## License\n\nThis project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]\nAny modified version of this hardware must also be distributed under the same license.\n\n☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!\n\n\n",
-    "ContentSha": "os0pnyPnJGACsuLsCnzOoof43xP56SQeOlOjEdWD5NA=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice\n  - https://www.xmos.com/usb-multichannel-audio/\n  - https://www.xmos.com/xcore-ai\n \n#### Home Assistant Voice Preview Edition 하드웨어용 ESPHome 프로젝트의 XMOS 펌웨어:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## 라이선스\n\n이 프로젝트는 [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]에 따라 라이선스가 부여됩니다.\n이 하드웨어의 수정된 버전도 동일한 라이선스하에 배포되어야 합니다.\n\n☕ 이 프로젝트를 후원하고 싶으시다면 [Ko-fi에서 커피 한 잔을 사주세요](https://ko-fi.com/imike78)!\n\n\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Ndr7rzmheK2VuFwX3uJKbyw0vAsGMwWlETbZlhNQNu0=",
-        "originContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf",
-        "translatedContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf"
-      },
-      {
-        "row": 3,
-        "rowsha": "petBg/2ZSIVNooBFs6lkCYAvAgkfJV8y+b5j0BkaUWA=",
-        "originContent": "- https://www.xmos.com/software-tools/",
-        "translatedContent": "- https://www.xmos.com/software-tools/"
-      },
-      {
-        "row": 4,
-        "rowsha": "ijmSbRQA+0BXakRNtRw0EU+MSDqIpvLicRCropin2pQ=",
-        "originContent": "  - https://www.xmos.com/develop/xcore-voice",
-        "translatedContent": "  - https://www.xmos.com/develop/xcore-voice"
-      },
-      {
-        "row": 5,
-        "rowsha": "hECfDgjT6KwEiPHmG1TIw1Yh2GczDWz2PPLvn81+mNs=",
-        "originContent": "  - https://www.xmos.com/usb-multichannel-audio/",
-        "translatedContent": "  - https://www.xmos.com/usb-multichannel-audio/"
-      },
-      {
-        "row": 6,
-        "rowsha": "oBg2r4L+srFf5X4iDlV1gnWa1nj/b7rSLun6WLDXv+U=",
-        "originContent": "  - https://www.xmos.com/xcore-ai",
-        "translatedContent": "  - https://www.xmos.com/xcore-ai"
-      },
-      {
-        "row": 7,
-        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
-        "originContent": " ",
-        "translatedContent": " "
-      },
-      {
-        "row": 8,
-        "rowsha": "X+c44rYr4BMJgUSxYqG+A2OLZR8FgyUcsqq/yPyjn58=",
-        "originContent": "#### XMOS firmware from the ESPHome project for the Home Assistant Voice Preview Edition hardware:",
-        "translatedContent": "#### Home Assistant Voice Preview Edition 하드웨어용 ESPHome 프로젝트의 XMOS 펌웨어:"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "4/I3VqdaZeK6r5z+hajrchuk1XD/ipv0iEeTWP+gJsE=",
-        "originContent": "- https://github.com/esphome/voice-kit-xmos-firmware",
-        "translatedContent": "- https://github.com/esphome/voice-kit-xmos-firmware"
-      },
-      {
-        "row": 11,
-        "rowsha": "KgkQO0Vpc+smahT+HMCWD/P3Td7noE052MRJuuUUjnc=",
-        "originContent": "  - https://github.com/esphome/xmos_fwk_rtos",
-        "translatedContent": "  - https://github.com/esphome/xmos_fwk_rtos"
-      },
-      {
-        "row": 12,
-        "rowsha": "53khxc45Wkj2Yl1U14xAVVwwWliK0pgXiaMcFSIAlzw=",
-        "originContent": "  - https://github.com/esphome/xmos_fwk_io",
-        "translatedContent": "  - https://github.com/esphome/xmos_fwk_io"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## 라이선스"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "qGBdwzqI7utYWC9sdyXx3pQDX0gfw0uvvlIeoaE2pJ8=",
-        "originContent": "This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]",
-        "translatedContent": "이 프로젝트는 [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]에 따라 라이선스가 부여됩니다."
-      },
-      {
-        "row": 17,
-        "rowsha": "F+2YfwWiEQKdxNCDtXt6oWZxikOp0aNayFNuTphvN6E=",
-        "originContent": "Any modified version of this hardware must also be distributed under the same license.",
-        "translatedContent": "이 하드웨어의 수정된 버전도 동일한 라이선스하에 배포되어야 합니다."
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "21UDXmMUcs1qiP6vArzmKTV1uxjrRVeWA1Kg/pgprJc=",
-        "originContent": "☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!",
-        "translatedContent": "☕ 이 프로젝트를 후원하고 싶으시다면 [Ko-fi에서 커피 한 잔을 사주세요](https://ko-fi.com/imike78)!"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

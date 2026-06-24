@@ -38,86 +38,89 @@
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png" width="1000">
 
 提示！如果您正在尋找適用於 "Google Home Mini"（Google 第一代智慧音箱硬體，採用 Micro-USB 充電埠）之類似的即插即用 PCB 替換方案，請參閱姊妹計畫 https://github.com/iMike78/home-mini-v1-drop-in-pcb
-**提醒！** 「MiciMike Home Mini Drop-In PCB」（第一代 Google Home Mini）即將啟動群眾募資活動，目前已在 Crowd Supply 的預啟動階段（僅限項目預覽），若此活動成功，將計劃推出 Nest Mini 的對應活動，請於下方查看：
+
+**注意！** 目前正在 Crowd Supply 進行「MiciMike Home Mini Drop-In PCB」（第一代 Google Home Mini）群眾募資活動，現正處於預售階段（僅限專案預覽），若本次活動成功，將計劃針對新版 Nest Mini（第二代）推出相應活動，歡迎點擊下方連結參考，若有能力也可透過贊助間接支持此專案：
 
 * https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
 
-這兩項皆為完全開源硬體專案，概念部分受到 [Onju Voice](https://github.com/justLV/onju-voice) 啟發，但目標是遵循 [Open Home Foundation 的開放語音助手標準，並以 Home Assistant Voice Preview Edition 為設計及規範參考](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) 進行 PCB 設計。
+這兩個專案都是完全開放原始碼硬體，部分概念靈感來自 [Onju Voice](https://github.com/justLV/onju-voice)，但目標是遵循 [Open Home Foundation 的開放語音助理標準，並以 Home Assistant Voice Preview Edition 為參考](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)設計 PCB 與規格。
 
 # 專案範疇
 
-本專案及儲存庫的目標（與 [Onju Voice](https://github.com/justLV/onju-voice) 類似，但採用完全開源硬體授權）是設計一款可替換的 PCB（印刷電路板），附硬體電路圖，任何人都能自行製作／組裝或向一站式 PCB 製造商訂購，作為 Google Nest Mini（第二代）的客製化替換 PCB。
+本專案及其程式庫目標（類似 [Onju Voice](https://github.com/justLV/onju-voice)，但採用完全開放原始碼硬體授權）是設計一塊可替換安裝的 PCB（印刷電路板）及硬體電路圖，任何人都能自製/組裝，或委託一站式 PCB 製造商製作，用於 Google Nest Mini（第二代）的專用替換主板。
 
-此專案主要針對希望將舊 Google Nest Mini 智慧音箱轉為開源硬體以用於 [Home Assistant 語音控制](https://www.home-assistant.io/voice_control/) 及／或媒體播放器音箱輸出（搭配 [Music Assistant](https://www.music-assistant.io)），（硬體亦可能適用於其他應用，搭配其他韌體，因其採用流行的 Espressif ESP32 平台）。
+本專案主要面向希望將舊的 Google Nest Mini 智慧音箱轉換/改造為開放原始碼硬體，進而實現 [Home Assistant 語音控制](https://www.home-assistant.io/voice_control/) 和/或 [Music Assistant](https://www.music-assistant.io) 媒體播放器輸出的人士，（但該硬體基於 Espressif ESP32 平台，亦可搭配其他韌體用於其他應用場景）。
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg" width="1000" alt="First test PCB">
 
-硬體設計（類似於 [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)）將整合 ESP32-S3 SoC，用於 WiFi、BLE 及 [內建喚醒詞偵測](https://www.home-assistant.io/voice_control/about_wake_word/)（採用無需編碼的 [ESPHome 韌體](https://esphome.io/)），再加上 XMOS xCORE XU316 晶片負責進階音訊處理（搭配自訂韌體，將麥克風音訊清理離線處理，以提升語音辨識能力，並採用本地運算的降噪、聲學回音消除、干擾消除、與自動增益控制演算法）。
+硬體設計將（如同 [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)）整合 ESP32-S3 SoC，實現 WiFi、BLE、以及[本地喚醒詞偵測](https://www.home-assistant.io/voice_control/about_wake_word/)（採用無程式碼 [ESPHome 韌體](https://esphome.io/)），並加上 XMOS xCORE XU316 晶片作為進階音訊處理（搭配自訂韌體，將麥克風前端降噪、回音消除、干擾抑制、自動增益控制等本地運算，提升語音辨識能力）。
 
-功能上主要與 [Home Assistant Voice Preview Edition（又名 Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)）參考設計硬體相容（此設計已由 Open Home Foundation 與 Nabu Casa 合作釋出為開源硬體）。主要差異在於 Google Nest Mini 外殼及零件的限制，（即 nest-mini-drop-in-pcb 專案硬體設計受原 Google 硬體相同物理容量輸入限制）。
+功能上本設計將最大程度對應 [Home Assistant Voice Preview Edition（簡稱 Home Assistant Voice PE）](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) 參考設計（由 Open Home Foundation 與 Nabu Casa 合作釋出開放原始碼硬體設計）。主要差異來自 Google Nest Mini 外殼及零件的物理限制（nest-mini-drop-in-pcb 專案硬體設計需受 Google 原廠硬體同型輸入限制）。
 
-因此，本專案／儲存庫範疇並非開發 ESPHome 韌體新功能，如需此類功能，請轉向 Home Assistant Voice Preview Edition 韌體開發及 ESPHome 上游主線程式碼：
+因此，本專案/程式庫的範疇並不包含 ESPHome 韌體的新功能/特性開發，若有此需求，請參與 Home Assistant Voice Preview Edition 韌體開發及上游 ESPHome 主線程式碼：
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://github.com/esphome/esphome
       - https://github.com/esphome/feature-requests
 
-## 協作邀請
+## 合作邀請
 
-若您有 PCB 佈局設計經驗（尤其是 PCB 佈線、地線覆蓋或對噪聲敏感的數位／類比佈局），**非常歡迎您的協助**！請自由開新議題、提交建議／需求、並對現有議題提供意見或反饋，或是分支此儲存庫。
+若您具備 PCB 佈局設計經驗（特別是線路佈線、鋪地層、或數位/類比混合抗干擾佈局），**非常歡迎您的協助**！請隨時提出新議題、建議/需求，或對現有議題提供意見/回饋，亦可 fork 此專案參與開發。
 
-如需更多概念／想法資訊，請參考並參與相關討論，另見 Home Assistant 社群論壇主題：
+如需更多概念/想法說明或參與討論，亦可參考並加入 Home Assistant 社群論壇主題：
 
 - https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/
 
 ### 目前狀態
 
-- ✅ 電路圖繪製完成
-- ✅ 元件佈局完成
-- ✅ 佈線完成
-- ✅ 地線覆蓋、屏蔽策略及 EMI 考量完成
-- ⚠️ 第一批測試失敗兩處錯誤－已修正
+- ✅ 電路圖已完成
+- ✅ 元件佈局已完成
+- ✅ 佈線已完成
+- ✅ 鋪地層、防護策略及 EMI 考量已完成
+- ⛔ 第一批測試板因兩處錯誤失敗－已修正
+- ⚠️ 第二批測試部分運作正常
+- ✅ 下一批已新增 XTAG4 除錯選項
 
-- 🕓 等待第二批測試
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg" width="1000">
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png" width="1000">
-
-## 使用的工具
+## 使用工具
 
 - 🛠️ KiCad 9
 - 🧰 SnapEDA / LCSC 用於封裝來源
 
 ## 已知硬體規格
 
-- 四層PCB
-- ESP32-S3R8裸晶片（ESP32-S3用於WiFi、BLE及板載喚醒詞偵測）
-- XMOS XU316-1024-QF60B-C24（XMOS XU316 xCORE DSP音訊處理）
-- 雙SPI快閃記憶體（ESP32和XMOS各自有自己的SPI快閃記憶體）
-- 雙I²S總線（允許同時有I2S介面，即音訊輸出和音訊輸入同時進行）
-- TAS5805M（TAS5805MPWPR）用於喇叭輸出（I2S Class-D單聲道音訊放大器，DSP配置透過I2C）
-- 2x MEMS麥克風（雙MMICT390200012，麥克風間距68mm）
-- 6x SK6812 RGB LED燈
-- 客製USB-C及14V電源輸入（注意！USB-C與圓形插孔不能同時連接）
+- 四層 PCB
+- ESP32-S3R8 裸晶片（ESP32-S3 用於 WiFi、BLE 及板載喚醒詞偵測）
+- XMOS XU316-1024-QF60B-C24（XMOS XU316 xCORE DSP 音訊處理）
+- 16 MB SPI 快閃記憶體（ESP32-S3）
+- 4 MB SPI 快閃記憶體（XMOS XU316）
+- 雙 I²S 匯流排（可同時音訊輸入與輸出）
+- TAS5805M（TAS5805MPWPR）立體聲 Class-D 擴大器，內建 DSP（I2S 音訊，I2C 控制），配置為單聲道 BTL 喇叭輸出
+- 3x MEMS 麥克風（MMICT390200012）排列於 34 mm 半徑弧線上－目前韌體使用 2 支麥克風，硬體已支援三麥克風陣列
+- 6x SK6812 RGB LED
+- 客製 USB-C 與 14V 電源輸入（注意！USB-C 與圓孔連接器不可同時連接）
+- MPR121 電容式觸控控制器（用於觸控輸入，取代 ESP32-S3 原生觸控感應）
 
 ---
 
-> ⚠️ 通過USB-C燒錄時需要斷開主14V電源輸入。詳情請參閱PCB上的絲印說明。
+> ⚠️ 使用 USB-C 進行燒錄時，需斷開主 14V 電源輸入。詳情請參閱 PCB 絲印標註。
 
 ## 參考資料
 
-### Home Assistant Voice Preview Edition 資源，包括PCB設計檔案
+### Home Assistant Voice Preview Edition 資源，包括 PCB 設計檔案
 - https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/
   - https://voice-pe.home-assistant.io/resources/
-    - https://support.nabucasa.com/hc/zh-tw/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files
+    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files
       - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf
      
-#### 用於Home Assistant Voice PE的ESPHome韌體（同樣使用ESP32-S3 + XMOS XU316組合）：
+#### ESPHome 韌體（適用於 Home Assistant Voice PE，亦採用相同 ESP32-S3 + XMOS XU316 組合）：
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://esphome.github.io/home-assistant-voice-pe/
 - https://voice-pe.home-assistant.io/
 
-### XMOS xCORE DSP（XU316-1024-QF60B-C32）MCU IC晶片
+### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC 晶片
 
 - https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf
 - https://www.xmos.com/software-tools/
@@ -125,24 +128,24 @@
   - https://www.xmos.com/usb-multichannel-audio/
   - https://www.xmos.com/xcore-ai
  
-#### 來自 ESPHome 專案、適用於 Home Assistant Voice Preview Edition 硬體的 XMOS 韌體：
+#### 來自 ESPHome 專案，針對 Home Assistant Voice Preview Edition 硬體的 XMOS 韌體：
 
 - https://github.com/esphome/voice-kit-xmos-firmware
   - https://github.com/esphome/xmos_fwk_rtos
   - https://github.com/esphome/xmos_fwk_io
 
-## 授權
+## 授權條款
 
-本專案採用 [CERN 開放硬體授權條款第2版 - 強烈互惠（CERN-OHL-S v2）] 授權
-任何修改版本的此硬體也必須以相同授權條款分發。
+本專案依據 [CERN 開放硬體授權條款第 2 版 - 強制互惠（CERN-OHL-S v2）] 授權。
+任何修改過的硬體版本也必須以相同授權條款發佈。
 
-☕ 如果您想支持本專案，歡迎到 [Ko-fi 購買咖啡給我](https://ko-fi.com/imike78)！
+☕ 如果您願意支持本專案，歡迎[在 Ko-fi 請我喝杯咖啡](https://ko-fi.com/imike78)！
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-24
 
 ---

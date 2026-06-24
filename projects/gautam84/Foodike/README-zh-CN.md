@@ -1,7 +1,39 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=gautam84&project=Foodike&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 ![GitHub Cards Preview](https://github.com/gautam84/Foodike/blob/master/art/FoodikeIntrouctionMockUp.jpg?raw=true)
 
 # 🍔 Foodike
-Foodike 是一个简单、易用的外卖应用。它使用 Android-Jetpack Compose 构建，基于 MVVM 原则和现代 Android 架构组件开发。
+Foodike 是一个简单易用的外卖应用程序。它基于 Android-Jetpack Compose 构建，遵循 MVVM 原则，并采用现代 Android 架构组件开发。
 
 ## 演示 
 ![](https://github.com/gautam84/Foodike/blob/master/art/demo.gif)
@@ -12,64 +44,64 @@ Foodike 是一个简单、易用的外卖应用。它使用 Android-Jetpack Comp
 ![](https://github.com/gautam84/Foodike/blob/master/screenshots/onboarding.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/login.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/home.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/details.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/history.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/cart.jpeg) | ![](https://github.com/gautam84/Foodike/blob/master/screenshots/profile.jpeg) 
 
 
-## 构建技术 🛠
+## 技术栈 🛠
 
-- [Kotlin](https://kotlinlang.org/) - Android 开发的第一语言和官方编程语言。
-- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose 是 Android 的现代原生 UI 构建工具包。
-- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - 协程是一种并发设计模式，可用于 Android 上简化异步执行的代码。
-- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow 是序列（Sequence）的异步版本，一种值惰性产生的集合类型。
-- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) -
-  一组帮助设计健壮、可测试和易维护应用的库。
-  - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow 是一个状态持有的可观察流，向收集者发出当前及新的状态更新。
-  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow 是序列（Sequence）的异步版本，一种值惰性产生的集合类型。
-  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - 存储与 UI 相关的数据，UI 变化时数据不会被销毁。
-  - [Jetpack Compose Navigation](https://developer.android.com/jetpack/compose/navigation) - Navigation 组件为 Jetpack Compose 应用提供支持。
-  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack DataStore 是一种数据存储解决方案，允许使用键值对或协议缓冲区的类型化对象存储数据。DataStore 使用 Kotlin 协程和 Flow 以异步、一致和事务的方式存储数据。
-- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt 是 Android 的依赖注入库，减少了项目中手动依赖注入的样板代码。手动依赖注入需要手工构造每个类及其依赖，并使用容器来重用和管理依赖。
-
-
-
-
-
-
-
-
-
-
-
-
+- [Kotlin](https://kotlinlang.org/) - Android官方一级编程语言。
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Jetpack Compose是Android现代化的原生UI构建工具包。
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - 协程是一种并发设计模式，可用于简化Android上异步执行的代码。
+- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow是异步版本的Sequence，一种懒加载集合。
+- [Android架构组件](https://developer.android.com/topic/libraries/architecture) - 帮助设计健壮、可测试、可维护应用的库集合。
+  - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow是状态持有的可观察Flow，向其收集者发出当前和新状态更新。
+  - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - Flow是异步版本的Sequence，一种懒加载集合。
+  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - 存储UI相关数据，不会因UI变化而销毁。
+  - [Jetpack Compose Navigation](https://developer.android.com/jetpack/compose/navigation) - Navigation组件为Jetpack Compose应用提供导航支持。
+  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack DataStore是数据存储解决方案，可存储键值对或类型对象，支持协议缓冲。DataStore利用Kotlin协程和Flow实现异步、稳定和事务性的数据存储。
+- [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt是Android依赖注入库，减少项目中手动依赖注入的样板代码。手动依赖注入需要手动构建每个类及其依赖，并使用容器管理和复用依赖。
   
-- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - 从 Android 12 开始，SplashScreen API 允许应用启动时带有动画，包括启动时的应用内动画、显示应用图标的启动屏幕，以及过渡到应用本身。SplashScreen 是一个窗口，因此会覆盖一个 Activity。
+- [Splash API](https://developer.android.com/develop/ui/views/launch/splash-screen) - 从Android 12开始，SplashScreen API允许应用启动动画，包括启动时的进入动画、显示应用图标的启动页以及应用自身的过渡。SplashScreen是一个窗口，因此覆盖一个Activity。
 - [Material Components for Android](https://github.com/material-components/material-components-android)
-  - Android 的模块化且可定制的 Material Design UI 组件。
-- [Figma](https://figma.com/) - Figma 是一个矢量图形编辑器和原型设计工具，主要基于网页。
+  - Android的模块化、可定制Material Design UI组件。
+- [Figma](https://figma.com/) - Figma是一款主要基于网页的矢量图形编辑器和原型工具。
 
-## Architecture 🗼
+## 架构 🗼
 
-该应用使用 [***MVVM（模型-视图-视图模型）***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) 架构。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+本应用使用 [***MVVM（模型-视图-视图模型）***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) 架构。
 
 ![](https://github.com/gautam84/Foodike/blob/master/art/mvvm.png)
 
-## Build-tool 🧰
-你需要安装 [Android Studio Beta 3 及以上版本](https://developer.android.com/studio/preview) 来构建此项目。
+## 构建工具 🧰
+您需要拥有 [Android Studio Beta 3 或更高版本](https://developer.android.com/studio/preview) 来构建此项目。
 
-## Contact 📩
+## 联系方式 📩
 
-想联系我？私信我 👇
+想联系我吗？欢迎私信 👇
 
-发邮件至：- gautamhazarika01@gmail.com
+发送邮件至:- gautamhazarika01@gmail.com
 
-我的作品集：- www.gautamhz.com
+我的作品集:- www.gautamhz.com
 
-## Donation 💰
+## 捐赠 💰
 
-如果这个项目帮你节省了开发时间，可以请我喝杯咖啡 :)
+如果此项目帮助您缩短开发时间，欢迎请我喝杯咖啡 :)
 
 <a href="https://www.buymeacoffee.com/gautam.hz" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
-## License 🔖
-
+## 许可证 🔖
 
 
 ```
@@ -114,6 +146,6 @@ SOFTWARE.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-24
 
 ---

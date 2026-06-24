@@ -1,0 +1,910 @@
+[
+  {
+    "Id": 1,
+    "Content": "# MonkSynth\n\n[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)\n[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)\n[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)\n\nA monophonic vocal synthesizer that sounds like a monk chanting. Built using formant-wave-function (FOF) synthesis, inspired by the classic [Delay Lama](http://www.audionerdz.nl/) VST plugin by AudioNerdz (2002).\n\n**[Download the latest release](https://github.com/JonET/monksynth/releases)** — available for Windows, macOS, and Linux.\n\n<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">\n\n*MonkSynth v0.0.1-beta.1 in Ableton Live 12, with the classic theme imported from the original Delay Lama DLL*\n\n## Features\n\n- FOF synthesis engine producing realistic vocal formants\n- XY pad for real-time pitch and vowel control\n- Built-in stereo delay effect\n- MIDI support: note on/off, pitch wheel, CC1 (vibrato), CC5 (glide), CC7 (volume), CC12 (delay), CC13 (voice)\n- Automatable **Pitch Bend** parameter (±12 semitones). The hardware pitch wheel is routable to either Vowel (Classic / Delay Lama compat, the default) or Pitch via right-click → Pitch Bend\n- ADSR envelope with configurable attack, decay, sustain, release\n- Unison mode with up to 10 detuned voices and voice spread\n- Theme system with right-click context menu for custom themes\n- Import classic theme from the original Delay Lama DLL\n- 5 factory presets\n- VST3 plugin format (Windows, macOS, Linux) and Audio Unit (macOS)\n\n## Building\n\n### Prerequisites\n\n- CMake 3.20+\n- C/C++ compiler (MSVC, GCC, or Clang)\n\n### Build\n",
+    "ContentSha": "fFA/mL0ZbnUwIvcy7OK6bYdhtEIkQX4s8Dgc+6vTxrk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MonkSynth\n\n[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)\n[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)\n[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)\n\nモンクが詠唱するような音を出す単音ボーカルシンセサイザー。AudioNerdzによるクラシックなVSTプラグイン[Delay Lama](http://www.audionerdz.nl/)（2002年）に触発され、フォルマント波関数（FOF）合成を用いて構築。\n\n**[最新リリースをダウンロード](https://github.com/JonET/monksynth/releases)** — Windows、macOS、Linux対応。\n\n<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">\n\n*Ableton Live 12上のMonkSynth v0.0.1-beta.1、元のDelay Lama DLLからインポートしたクラシックテーマ適用*\n\n## 特徴\n\n- リアルなボーカルフォルマントを生成するFOF合成エンジン\n- ピッチと母音をリアルタイム制御するXYパッド\n- 内蔵ステレオディレイエフェクト\n- MIDI対応：ノートオン/オフ、ピッチホイール、CC1（ビブラート）、CC5（グライド）、CC7（ボリューム）、CC12（ディレイ）、CC13（ボイス）\n- オートメーション可能な**ピッチベンド**パラメータ（±12セミトーン）。ハードウェアのピッチホイールは右クリック→ピッチベンドで母音（クラシック／Delay Lama互換、デフォルト）またはピッチへルーティング可能\n- アタック、ディケイ、サスティン、リリース設定可能なADSRエンベロープ\n- 最大10声のデチューンボイスとボイススプレッドを備えたユニゾンモード\n- カスタムテーマ用の右クリックコンテキストメニューを持つテーマシステム\n- 元のDelay Lama DLLからクラシックテーマをインポート可能\n- 5つのファクトリープリセット\n- VST3プラグインフォーマット（Windows、macOS、Linux）およびAudio Unit（macOS）\n\n## ビルド\n\n### 前提条件\n\n- CMake 3.20以上\n- C/C++コンパイラ（MSVC、GCC、またはClang）\n\n### ビルド\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "i6x32KUghJLG/JmY+qXvPtZVhI8PbhTSwawAWVKoqi8=",
+        "originContent": "# MonkSynth",
+        "translatedContent": "# MonkSynth"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+yzJuYn6mSzrowO+Y2mralWqQIYLTggKeJYjNpSYjd0=",
+        "originContent": "[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)",
+        "translatedContent": "[![Build](https://github.com/JonET/monksynth/actions/workflows/build.yml/badge.svg)](https://github.com/JonET/monksynth/actions/workflows/build.yml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "kPTzm9IfutMjhhO2zCB4kfUEa/HAQt0RRTozjnOdo3A=",
+        "originContent": "[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)",
+        "translatedContent": "[![Release](https://img.shields.io/github/v/release/JonET/monksynth?include_prereleases)](https://github.com/JonET/monksynth/releases)"
+      },
+      {
+        "row": 5,
+        "rowsha": "adRN6LVgSnY9lI+K7HqbPnkXDOXiYkbhKuPcBI85eNA=",
+        "originContent": "[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/github/license/JonET/monksynth)](LICENSE)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "XjEdeO8ZIbZ6Sjun/2wIAKzzXuroqtsfuPIMjYye3ao=",
+        "originContent": "A monophonic vocal synthesizer that sounds like a monk chanting. Built using formant-wave-function (FOF) synthesis, inspired by the classic [Delay Lama](http://www.audionerdz.nl/) VST plugin by AudioNerdz (2002).",
+        "translatedContent": "モンクが詠唱するような音を出す単音ボーカルシンセサイザー。AudioNerdzによるクラシックなVSTプラグイン[Delay Lama](http://www.audionerdz.nl/)（2002年）に触発され、フォルマント波関数（FOF）合成を用いて構築。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "EGIQMywYLrIk1il3hgS+b2PWDqG4aBPChT5h852lOd0=",
+        "originContent": "**[Download the latest release](https://github.com/JonET/monksynth/releases)** — available for Windows, macOS, and Linux.",
+        "translatedContent": "**[最新リリースをダウンロード](https://github.com/JonET/monksynth/releases)** — Windows、macOS、Linux対応。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "3iP/5NFYpHYJGkSaYmtnSnea9RNVlLY5zc/b3kh/j60=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/JonET/monksynth/main/docs/screenshot1.png\" alt=\"MonkSynth running in Ableton Live 12 with the classic Delay Lama theme\" width=\"600\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "py0SUiybQRsZ8iG6H1pjQfl+3cqQV6kJuHyJPJRUsUo=",
+        "originContent": "*MonkSynth v0.0.1-beta.1 in Ableton Live 12, with the classic theme imported from the original Delay Lama DLL*",
+        "translatedContent": "*Ableton Live 12上のMonkSynth v0.0.1-beta.1、元のDelay Lama DLLからインポートしたクラシックテーマ適用*"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特徴"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "xtvLmF6o18qNmn+olKucMoOlnb2wMbQFMKqQN9mFdAI=",
+        "originContent": "- FOF synthesis engine producing realistic vocal formants",
+        "translatedContent": "- リアルなボーカルフォルマントを生成するFOF合成エンジン"
+      },
+      {
+        "row": 18,
+        "rowsha": "8rp+Txu28dttExFg88di5qa2+bbksntZumPdfNZFTd8=",
+        "originContent": "- XY pad for real-time pitch and vowel control",
+        "translatedContent": "- ピッチと母音をリアルタイム制御するXYパッド"
+      },
+      {
+        "row": 19,
+        "rowsha": "sE94ylCpSOiH9VnIXyrG3Er3Z4K4RVYlL7m2QuV43ro=",
+        "originContent": "- Built-in stereo delay effect",
+        "translatedContent": "- 内蔵ステレオディレイエフェクト"
+      },
+      {
+        "row": 20,
+        "rowsha": "Z853KuBixrug+xLdk/CDBvi4e8O1vlVA2QIkwGBBgt8=",
+        "originContent": "- MIDI support: note on/off, pitch wheel, CC1 (vibrato), CC5 (glide), CC7 (volume), CC12 (delay), CC13 (voice)",
+        "translatedContent": "- MIDI対応：ノートオン/オフ、ピッチホイール、CC1（ビブラート）、CC5（グライド）、CC7（ボリューム）、CC12（ディレイ）、CC13（ボイス）"
+      },
+      {
+        "row": 21,
+        "rowsha": "xshOBbJ3ltJBYXiG7uQ0+UxqM4eDYSW6+CNUJ2UptRg=",
+        "originContent": "- Automatable **Pitch Bend** parameter (±12 semitones). The hardware pitch wheel is routable to either Vowel (Classic / Delay Lama compat, the default) or Pitch via right-click → Pitch Bend",
+        "translatedContent": "- オートメーション可能な**ピッチベンド**パラメータ（±12セミトーン）。ハードウェアのピッチホイールは右クリック→ピッチベンドで母音（クラシック／Delay Lama互換、デフォルト）またはピッチへルーティング可能"
+      },
+      {
+        "row": 22,
+        "rowsha": "5E164nA3RXy9XXnwD2CvfqKDVrlm71rFO+CWBTa1ijE=",
+        "originContent": "- ADSR envelope with configurable attack, decay, sustain, release",
+        "translatedContent": "- アタック、ディケイ、サスティン、リリース設定可能なADSRエンベロープ"
+      },
+      {
+        "row": 23,
+        "rowsha": "rH6uzCLGYamlSsWqpAwukbVJH9O4dXebRf0gyiUC2KY=",
+        "originContent": "- Unison mode with up to 10 detuned voices and voice spread",
+        "translatedContent": "- 最大10声のデチューンボイスとボイススプレッドを備えたユニゾンモード"
+      },
+      {
+        "row": 24,
+        "rowsha": "EGV22MJBBFNeEH5i40XbkOJjW306q7n8fGt3RDJ0WTQ=",
+        "originContent": "- Theme system with right-click context menu for custom themes",
+        "translatedContent": "- カスタムテーマ用の右クリックコンテキストメニューを持つテーマシステム"
+      },
+      {
+        "row": 25,
+        "rowsha": "BjOuFQJ9qoTwg/wFI1st/9c3hrNbp7dzDrXxPl+phsw=",
+        "originContent": "- Import classic theme from the original Delay Lama DLL",
+        "translatedContent": "- 元のDelay Lama DLLからクラシックテーマをインポート可能"
+      },
+      {
+        "row": 26,
+        "rowsha": "bz/7jrJxsD178ezGnqK/gTviq6DF/l479hR9dRiIdOk=",
+        "originContent": "- 5 factory presets",
+        "translatedContent": "- 5つのファクトリープリセット"
+      },
+      {
+        "row": 27,
+        "rowsha": "hPFQKnqm3WBJGy1RcaSUdi+aC9ftVJ9eGg2ZjiZCq7Y=",
+        "originContent": "- VST3 plugin format (Windows, macOS, Linux) and Audio Unit (macOS)",
+        "translatedContent": "- VST3プラグインフォーマット（Windows、macOS、Linux）およびAudio Unit（macOS）"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": "## ビルド"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "aKVScJsTX+/UucDuHS6DqDkIr12ZBaYQFySmGaJrQ/E=",
+        "originContent": "- CMake 3.20+",
+        "translatedContent": "- CMake 3.20以上"
+      },
+      {
+        "row": 34,
+        "rowsha": "Mpf421X27/5wu5fSHUr2jNKLWw16OkHn9Fv0bfE1CQs=",
+        "originContent": "- C/C++ compiler (MSVC, GCC, or Clang)",
+        "translatedContent": "- C/C++コンパイラ（MSVC、GCC、またはClang）"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "8aIhgwV63hNALJUIBIX1H5jmhzVo93+f7RD+oRKpxx0=",
+        "originContent": "### Build",
+        "translatedContent": "### ビルド"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ncd cpp\ncmake -B build\ncmake --build build --config Release --target MonkSynth\n```",
+    "ContentSha": "bqon6ccY1Kmat5aUbuXztYl5yrZA8ZLrKD1RheEBJn4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd cpp\ncmake -B build\ncmake --build build --config Release --target MonkSynth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "NEP53d++GBwJqrj1uGCH4G6VQpxuy2zhx3z9y0n41S8=",
+        "originContent": "cd cpp",
+        "translatedContent": "cd cpp"
+      },
+      {
+        "row": 3,
+        "rowsha": "MbSoG/z8bGyTRv1fPPy5rCOcKq9YxJ4fqjDzHLwS6tk=",
+        "originContent": "cmake -B build",
+        "translatedContent": "cmake -B build"
+      },
+      {
+        "row": 4,
+        "rowsha": "8T8KZMsDWTxPsZyAPMZuF/thKVPbnUBvqtTJ4N5wGYY=",
+        "originContent": "cmake --build build --config Release --target MonkSynth",
+        "translatedContent": "cmake --build build --config Release --target MonkSynth"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThe VST3 SDK is fetched automatically by CMake. The built plugin is placed in your system VST3 directory.\n\n### macOS Audio Unit\n\nTo also build the AU plugin, install the [AudioUnit SDK](https://github.com/apple/AudioUnitSDK) and configure with:\n",
+    "ContentSha": "Ic1pKWZH8qxy0FUqvZxM84DZgXEWjGNODACU6GbgyQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nVST3 SDKはCMakeによって自動的に取得されます。ビルドされたプラグインはシステムのVST3ディレクトリに配置されます。\n\n### macOS Audio Unit\n\nAUプラグインもビルドするには、[AudioUnit SDK](https://github.com/apple/AudioUnitSDK)をインストールし、以下のように設定してください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R0z3Ic8li+C4SU42tn9/K5FlzbrkXbcw9dS6QNICTLI=",
+        "originContent": "The VST3 SDK is fetched automatically by CMake. The built plugin is placed in your system VST3 directory.",
+        "translatedContent": "VST3 SDKはCMakeによって自動的に取得されます。ビルドされたプラグインはシステムのVST3ディレクトリに配置されます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "SVsSIeRJ8Wqh7HZVlrhmMu5EDVwRuczKZ3iyRwS6jws=",
+        "originContent": "### macOS Audio Unit",
+        "translatedContent": "### macOS Audio Unit"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ewxwn9fx67EyhAz393xfTpYofy859xEM41xAkc9MJ7I=",
+        "originContent": "To also build the AU plugin, install the [AudioUnit SDK](https://github.com/apple/AudioUnitSDK) and configure with:",
+        "translatedContent": "AUプラグインもビルドするには、[AudioUnit SDK](https://github.com/apple/AudioUnitSDK)をインストールし、以下のように設定してください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ncmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK\ncmake --build build --config Release --target MonkSynth-au\n```",
+    "ContentSha": "Uj2Ih4H21DyEcYHz7WmVS+jnX40xfvF5cIUzQMFOvag=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK\ncmake --build build --config Release --target MonkSynth-au\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "695/zxRo97kmzaEFn88TABsbFcEj0BBKc25ULMMRJ4M=",
+        "originContent": "cmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK",
+        "translatedContent": "cmake -B build -G Xcode -DSMTG_AUDIOUNIT_SDK_PATH=/path/to/AudioUnitSDK"
+      },
+      {
+        "row": 3,
+        "rowsha": "dYJfaU08EPJYlTYgkI5JCCwkuGova4X47iB2rr53tWc=",
+        "originContent": "cmake --build build --config Release --target MonkSynth-au",
+        "translatedContent": "cmake --build build --config Release --target MonkSynth-au"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### DSP unit tests\n\nThe pure-C DSP layer (`dsp/`) has a small unit test suite exercising ADSR envelope boundaries, the note stack, unison detune math, pitch-bend propagation, and delay-line feedback stability. Tests are opt-in so they don't affect normal plugin builds:\n",
+    "ContentSha": "p/+jdVFxAKWwG7e3cm+uUdWkAcTw/yVR+7t7V67MCWI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### DSP ユニットテスト\n\n純粋な C 言語の DSP レイヤー（`dsp/`）には、ADSR エンベロープの境界、ノートスタック、ユニゾンデチューンの計算、ピッチベンドの伝播、ディレイラインのフィードバック安定性をテストする小さなユニットテストスイートがあります。テストはオプトイン方式で、通常のプラグインビルドには影響しません：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8GvNcYiYrmXLG+k3WzF5ZF/LEnBasyqy66EGalHpBDY=",
+        "originContent": "### DSP unit tests",
+        "translatedContent": "### DSP ユニットテスト"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "YmReIIE28WWxyKeAlzYr8Vzl5PPJ4iHYyPJbjah80kc=",
+        "originContent": "The pure-C DSP layer (`dsp/`) has a small unit test suite exercising ADSR envelope boundaries, the note stack, unison detune math, pitch-bend propagation, and delay-line feedback stability. Tests are opt-in so they don't affect normal plugin builds:",
+        "translatedContent": "純粋な C 言語の DSP レイヤー（`dsp/`）には、ADSR エンベロープの境界、ノートスタック、ユニゾンデチューンの計算、ピッチベンドの伝播、ディレイラインのフィードバック安定性をテストする小さなユニットテストスイートがあります。テストはオプトイン方式で、通常のプラグインビルドには影響しません："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ncd cpp\ncmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON\ncmake --build build-tests --config Release\nctest --test-dir build-tests --output-on-failure\n```",
+    "ContentSha": "QS7IS2q4m6JWKPJRMihha9CNp4DZmIj2r+1VtYOTTH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd cpp\ncmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON\ncmake --build build-tests --config Release\nctest --test-dir build-tests --output-on-failure\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "NEP53d++GBwJqrj1uGCH4G6VQpxuy2zhx3z9y0n41S8=",
+        "originContent": "cd cpp",
+        "translatedContent": "cd cpp"
+      },
+      {
+        "row": 3,
+        "rowsha": "Dgofk15Bo/vQzE6IdMrZexW2jS4As2INIoVeXydPBeg=",
+        "originContent": "cmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON",
+        "translatedContent": "cmake -B build-tests -DMONKSYNTH_BUILD_TESTS=ON"
+      },
+      {
+        "row": 4,
+        "rowsha": "NYgrF3GdALCtYkA/+vcUAO6Z1dU247jl1AX5dWB4lWA=",
+        "originContent": "cmake --build build-tests --config Release",
+        "translatedContent": "cmake --build build-tests --config Release"
+      },
+      {
+        "row": 5,
+        "rowsha": "nBxObvzVCg3hA9KSbZMGHn5l6m+qbHGQbj23Y80LNSA=",
+        "originContent": "ctest --test-dir build-tests --output-on-failure",
+        "translatedContent": "ctest --test-dir build-tests --output-on-failure"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nCI runs the test suite on the Linux job before packaging each release, so any DSP regression blocks the build.\n\n## Installation\n\n- **macOS:** Run the `.pkg` installer — installs both VST3 and AU plugins\n- **Windows:** Run the `.exe` installer — installs the VST3 plugin\n- **Linux:** Extract and copy `MonkSynth.vst3` to `~/.vst3/`\n\n### Linux compatibility\n\nThe Linux build is verified on each release to load cleanly under strict loader semantics (Bitwig-style `dlopen(RTLD_NOW)`) on these distro families:\n\n- Ubuntu 22.04 / 24.04 LTS (and derivatives: Linux Mint, Pop!_OS, Elementary, KDE neon)\n- Debian 12 (and derivatives: KX Studio, AV Linux, MX Linux)\n- Fedora (latest)\n- Arch Linux (and derivatives: Manjaro, EndeavourOS, CachyOS)\n\nIf your distro isn't listed it most likely still works — these are smoke-tested in CI to catch the missing-shared-library class of bug, not an exhaustive support claim. The plugin is built on Ubuntu 22.04 (glibc 2.35), so any distro with glibc ≥ 2.35 should be compatible. Reports from other distros are welcome via [GitHub Issues](https://github.com/JonET/monksynth/issues).\n\n## Themes\n\nMonkSynth ships without a built-in theme. On first launch, it shows a setup screen where you can import the classic look from the original Delay Lama DLL (available as freeware from [audionerdz.nl](http://www.audionerdz.nl/download.htm)).\n\nYou can also load custom themes via right-click on the plugin GUI. A theme folder contains a `theme.json` manifest and any combination of these PNG files (missing ones fall back to 1x1 placeholders):\n\n- `background.png` — main background (360x510)\n- `monk-strip.png` — animation sprite sheet (5x6 grid, 311x311 frames)\n- `knob-left.png` / `knob-right.png` — rotary knob filmstrips (50x3000, 60 frames)\n- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — fader handles\n- `info.png` — info overlay (253x275)\n\n**Looking for fresh default themes to ship with the plugin.** If you design a theme you're proud of, open a PR — I'd love to include contributed themes in the next release. The right-click menu has an \"Open Themes Folder\" item that reveals where themes live on disk.\n\n## Translations\n\nThe plugin UI (setup screen, info overlay, right-click menu, and DLL-importer error messages) is available in English, Japanese, and Korean. The language auto-detects from your OS locale; you can override it via right-click → Language.\n\n**Japanese and Korean translations were generated by a large language model as a starting point.** Native-speaker contributions are very welcome — please open a PR editing `cpp/src/strings_ja.h` or `cpp/src/strings_ko.h`. Every string is indexed by the `StringId` enum in `cpp/src/i18n.h`; keep entries in the same order and leave any you're unsure about as empty strings to fall back to English.\n",
+    "ContentSha": "DVVVN6LLadcykwQGYpxR0NcMoqwVKsnsf+eqGgMM//Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "CIは各リリースのパッケージング前にLinuxジョブ上でテストスイートを実行するため、DSPのリグレッションがあるとビルドがブロックされます。\n\n## インストール\n\n- **macOS:** `.pkg`インストーラーを実行 — VST3とAUプラグインの両方をインストール\n- **Windows:** `.exe`インストーラーを実行 — VST3プラグインをインストール\n- **Linux:** `MonkSynth.vst3`を抽出して`~/.vst3/`にコピー\n\n### Linux互換性\n\nLinuxビルドは各リリースで、以下のディストロファミリーの厳密なローダーセマンティクス（Bitwigスタイルの`dlopen(RTLD_NOW)`）で正常にロードされることを検証しています：\n\n- Ubuntu 22.04 / 24.04 LTS（派生: Linux Mint, Pop!_OS, Elementary, KDE neon）\n- Debian 12（派生: KX Studio, AV Linux, MX Linux）\n- Fedora（最新）\n- Arch Linux（派生: Manjaro, EndeavourOS, CachyOS）\n\nリストにないディストリビューションでもおそらく動作します — これらはCIでスモークテストされ、共有ライブラリ欠如のようなバグを検出するためのもので、完全なサポート保証ではありません。プラグインはUbuntu 22.04（glibc 2.35）上でビルドされているため、glibc ≥ 2.35のディストロであれば互換性があります。他のディストロからの報告は[GitHub Issues](https://github.com/JonET/monksynth/issues)で歓迎します。\n\n## テーマ\n\nMonkSynthは組み込みのテーマを持たずに出荷されます。初回起動時にセットアップ画面が表示され、オリジナルのDelay Lama DLL（[audionerdz.nl](http://www.audionerdz.nl/download.htm)からフリーウェアとして入手可能）のクラシックルックをインポートできます。\n\nまた、プラグインGUIを右クリックしてカスタムテーマを読み込むことも可能です。テーマフォルダーには`theme.json`マニフェストと以下のPNGファイルの任意の組み合わせが含まれます（欠損ファイルは1x1のプレースホルダーにフォールバック）：\n\n- `background.png` — メイン背景（360x510）\n- `monk-strip.png` — アニメーションスプライトシート（5x6グリッド、311x311フレーム）\n- `knob-left.png` / `knob-right.png` — ロータリーノブのフィルムストリップ（50x3000、60フレーム）\n- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — フェーダーハンドル\n- `info.png` — インフォオーバーレイ（253x275）\n\n**プラグインに同梱する新しいデフォルトテーマを募集しています。** 自信のあるテーマをデザインしたら、PRを開いてください — 次のリリースに寄稿テーマを含めたいです。右クリックメニューに「Open Themes Folder」があり、テーマの保存場所を開けます。\n\n## 翻訳\n\nプラグインUI（セットアップ画面、インフォオーバーレイ、右クリックメニュー、DLLインポーターのエラーメッセージ）は英語、日本語、韓国語で利用可能です。言語はOSのロケールから自動検出され、右クリック→Languageで上書き可能です。\n\n**日本語と韓国語の翻訳は大規模言語モデルによる初期生成です。** ネイティブスピーカーによる寄稿を歓迎します — `cpp/src/strings_ja.h`または`cpp/src/strings_ko.h`の編集PRを開いてください。各文字列は`cpp/src/i18n.h`の`StringId`列挙体で索引付けされています；エントリは同じ順序で、わからないものは空文字列のままにして英語にフォールバックさせてください。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "CIは各リリースのパッケージング前にLinuxジョブ上でテストスイートを実行するため、DSPのリグレッションがあるとビルドがブロックされます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "wIgJWKFbr6fS8QMuP7zmUtDWKOm1HeZ0hVlR5kbCOXo=",
+        "originContent": "CI runs the test suite on the Linux job before packaging each release, so any DSP regression blocks the build.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 4,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **macOS:** `.pkg`インストーラーを実行 — VST3とAUプラグインの両方をインストール"
+      },
+      {
+        "row": 6,
+        "rowsha": "O1kmSDFdRBiiPbzDwqM+FeXZ2mJBxPAcVdXm1LXAW8A=",
+        "originContent": "- **macOS:** Run the `.pkg` installer — installs both VST3 and AU plugins",
+        "translatedContent": "- **Windows:** `.exe`インストーラーを実行 — VST3プラグインをインストール"
+      },
+      {
+        "row": 7,
+        "rowsha": "HHRenUnEVzdbjoU2U4G97x0B7LUKwRXhGJrlTGmdusU=",
+        "originContent": "- **Windows:** Run the `.exe` installer — installs the VST3 plugin",
+        "translatedContent": "- **Linux:** `MonkSynth.vst3`を抽出して`~/.vst3/`にコピー"
+      },
+      {
+        "row": 8,
+        "rowsha": "ALSYuuPKCe1ZKt69dv4kwQVvhf+gkHukU1JXLRWmi8w=",
+        "originContent": "- **Linux:** Extract and copy `MonkSynth.vst3` to `~/.vst3/`",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Linux互換性"
+      },
+      {
+        "row": 10,
+        "rowsha": "Yk24wKSCc7nO4M29c28RHcGnHoFPoc3MXywHNHVVC2s=",
+        "originContent": "### Linux compatibility",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Linuxビルドは各リリースで、以下のディストロファミリーの厳密なローダーセマンティクス（Bitwigスタイルの`dlopen(RTLD_NOW)`）で正常にロードされることを検証しています："
+      },
+      {
+        "row": 12,
+        "rowsha": "z9wSQLl6hQCb3J06CY4c4fvSGuSwppa9clid7e7Xo9U=",
+        "originContent": "The Linux build is verified on each release to load cleanly under strict loader semantics (Bitwig-style `dlopen(RTLD_NOW)`) on these distro families:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Ubuntu 22.04 / 24.04 LTS（派生: Linux Mint, Pop!_OS, Elementary, KDE neon）"
+      },
+      {
+        "row": 14,
+        "rowsha": "h1ElflkfFqq9b8+ckXD+spCRSlwVWyomPMQCKSAUNIw=",
+        "originContent": "- Ubuntu 22.04 / 24.04 LTS (and derivatives: Linux Mint, Pop!_OS, Elementary, KDE neon)",
+        "translatedContent": "- Debian 12（派生: KX Studio, AV Linux, MX Linux）"
+      },
+      {
+        "row": 15,
+        "rowsha": "99tLEmaO2ZMl4D0OH17Utrad9Q6BA95NN5yi3IHQ4hU=",
+        "originContent": "- Debian 12 (and derivatives: KX Studio, AV Linux, MX Linux)",
+        "translatedContent": "- Fedora（最新）"
+      },
+      {
+        "row": 16,
+        "rowsha": "3P3U5fhiYCSgME+x2IFlyksmrJom/HR58xK4G7U/gjI=",
+        "originContent": "- Fedora (latest)",
+        "translatedContent": "- Arch Linux（派生: Manjaro, EndeavourOS, CachyOS）"
+      },
+      {
+        "row": 17,
+        "rowsha": "OXJDa5rLvjW7DQ9K8mIXj+ZbvN1LE0+CqGZmgntj7HI=",
+        "originContent": "- Arch Linux (and derivatives: Manjaro, EndeavourOS, CachyOS)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "リストにないディストリビューションでもおそらく動作します — これらはCIでスモークテストされ、共有ライブラリ欠如のようなバグを検出するためのもので、完全なサポート保証ではありません。プラグインはUbuntu 22.04（glibc 2.35）上でビルドされているため、glibc ≥ 2.35のディストロであれば互換性があります。他のディストロからの報告は[GitHub Issues](https://github.com/JonET/monksynth/issues)で歓迎します。"
+      },
+      {
+        "row": 19,
+        "rowsha": "hxok1FThQkjpQEW3rY6MvMqN37pyuKKObkXbXvJSXSM=",
+        "originContent": "If your distro isn't listed it most likely still works — these are smoke-tested in CI to catch the missing-shared-library class of bug, not an exhaustive support claim. The plugin is built on Ubuntu 22.04 (glibc 2.35), so any distro with glibc ≥ 2.35 should be compatible. Reports from other distros are welcome via [GitHub Issues](https://github.com/JonET/monksynth/issues).",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## テーマ"
+      },
+      {
+        "row": 21,
+        "rowsha": "CHq86WjI/DJQ9RfWZNIWGULulkJ2OgnOX+DsFD/uuaY=",
+        "originContent": "## Themes",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MonkSynthは組み込みのテーマを持たずに出荷されます。初回起動時にセットアップ画面が表示され、オリジナルのDelay Lama DLL（[audionerdz.nl](http://www.audionerdz.nl/download.htm)からフリーウェアとして入手可能）のクラシックルックをインポートできます。"
+      },
+      {
+        "row": 23,
+        "rowsha": "4h19maK9NUJ5Ur+ESc0udi+j4Ha+dTGukQhpu1+IocU=",
+        "originContent": "MonkSynth ships without a built-in theme. On first launch, it shows a setup screen where you can import the classic look from the original Delay Lama DLL (available as freeware from [audionerdz.nl](http://www.audionerdz.nl/download.htm)).",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "また、プラグインGUIを右クリックしてカスタムテーマを読み込むことも可能です。テーマフォルダーには`theme.json`マニフェストと以下のPNGファイルの任意の組み合わせが含まれます（欠損ファイルは1x1のプレースホルダーにフォールバック）："
+      },
+      {
+        "row": 25,
+        "rowsha": "s/DQ8Hphz2jJ1pkdVWW1oi2jpKOEi+ZxjZLmJEF81C0=",
+        "originContent": "You can also load custom themes via right-click on the plugin GUI. A theme folder contains a `theme.json` manifest and any combination of these PNG files (missing ones fall back to 1x1 placeholders):",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `background.png` — メイン背景（360x510）"
+      },
+      {
+        "row": 27,
+        "rowsha": "TXQF8+Bf4ng87hzbIHhzwNTz/IyrevCKnWred/VV0nc=",
+        "originContent": "- `background.png` — main background (360x510)",
+        "translatedContent": "- `monk-strip.png` — アニメーションスプライトシート（5x6グリッド、311x311フレーム）"
+      },
+      {
+        "row": 28,
+        "rowsha": "izRodyLRRDMjZ17mvuEJ0JyM2w67Vxr3g334WzIoioc=",
+        "originContent": "- `monk-strip.png` — animation sprite sheet (5x6 grid, 311x311 frames)",
+        "translatedContent": "- `knob-left.png` / `knob-right.png` — ロータリーノブのフィルムストリップ（50x3000、60フレーム）"
+      },
+      {
+        "row": 29,
+        "rowsha": "vqrx9NLEIfrpJJ6TaSL9Eaxo6OQZkwA62sya8dDAtPs=",
+        "originContent": "- `knob-left.png` / `knob-right.png` — rotary knob filmstrips (50x3000, 60 frames)",
+        "translatedContent": "- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — フェーダーハンドル"
+      },
+      {
+        "row": 30,
+        "rowsha": "A6hasHtMbF/Ec1H6PD8zQ9Gh7XwgtWgefPy+RZAWUFI=",
+        "originContent": "- `fader-down-large.png` / `fader-down-sm.png` / `fader-right-sm.png` — fader handles",
+        "translatedContent": "- `info.png` — インフォオーバーレイ（253x275）"
+      },
+      {
+        "row": 31,
+        "rowsha": "yxnQJ2Ddsuo87gjpcbgFH5JePVkPdjFOb4NSEpr/je0=",
+        "originContent": "- `info.png` — info overlay (253x275)",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**プラグインに同梱する新しいデフォルトテーマを募集しています。** 自信のあるテーマをデザインしたら、PRを開いてください — 次のリリースに寄稿テーマを含めたいです。右クリックメニューに「Open Themes Folder」があり、テーマの保存場所を開けます。"
+      },
+      {
+        "row": 33,
+        "rowsha": "DdmNh2jVyoC3agYanom+m0GxUBJqncSEv0ra3ndfQK0=",
+        "originContent": "**Looking for fresh default themes to ship with the plugin.** If you design a theme you're proud of, open a PR — I'd love to include contributed themes in the next release. The right-click menu has an \"Open Themes Folder\" item that reveals where themes live on disk.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 翻訳"
+      },
+      {
+        "row": 35,
+        "rowsha": "gzx7WSZWkBQyHmWVMxUTrBglg7GXBqyEWp53+d+3UaI=",
+        "originContent": "## Translations",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プラグインUI（セットアップ画面、インフォオーバーレイ、右クリックメニュー、DLLインポーターのエラーメッセージ）は英語、日本語、韓国語で利用可能です。言語はOSのロケールから自動検出され、右クリック→Languageで上書き可能です。"
+      },
+      {
+        "row": 37,
+        "rowsha": "z7Fjs9jAfktn1xLoBZ8cbXAqcUyxWrWykPT6UOMsDCs=",
+        "originContent": "The plugin UI (setup screen, info overlay, right-click menu, and DLL-importer error messages) is available in English, Japanese, and Korean. The language auto-detects from your OS locale; you can override it via right-click → Language.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**日本語と韓国語の翻訳は大規模言語モデルによる初期生成です。** ネイティブスピーカーによる寄稿を歓迎します — `cpp/src/strings_ja.h`または`cpp/src/strings_ko.h`の編集PRを開いてください。各文字列は`cpp/src/i18n.h`の`StringId`列挙体で索引付けされています；エントリは同じ順序で、わからないものは空文字列のままにして英語にフォールバックさせてください。"
+      },
+      {
+        "row": 39,
+        "rowsha": "FUjcX188gbrDLI9YIvcozW5/phNSndetsdg26QrblZ0=",
+        "originContent": "**Japanese and Korean translations were generated by a large language model as a starting point.** Native-speaker contributions are very welcome — please open a PR editing `cpp/src/strings_ja.h` or `cpp/src/strings_ko.h`. Every string is indexed by the `StringId` enum in `cpp/src/i18n.h`; keep entries in the same order and leave any you're unsure about as empty strings to fall back to English.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "Parameter names (shown in your DAW's automation lanes) stay English on purpose — tutorials, presets, and community discussion all assume the English names.\n\n## Code Signing Policy\n\nFree code signing provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).\n\nThe Windows VST3 plugin and installer are signed as part of the release build in GitHub Actions. Signing requests are submitted to SignPath only for tagged releases built from this repository, and each request is manually approved in the SignPath UI before the certificate is applied.\n\n| Privileged role | Signer |\n|-----------------|--------|\n| Author          | [Jonathan Taylor](https://github.com/JonET) |\n| Reviewer        | [Jonathan Taylor](https://github.com/JonET) |\n| Approver        | [Jonathan Taylor](https://github.com/JonET) |\n\n### Privacy Policy\n\nThis program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.\n\n## Acknowledgments\n\n- [Delay Lama](http://www.audionerdz.nl/) by AudioNerdz (2002) — the beloved freeware VST plugin that inspired this project\n- Xavier Rodet (IRCAM) — formant-wave-function (FOF) synthesis technique\n- [stb_image_write](https://github.com/nothings/stb) by Sean Barrett — single-header image writing (MIT / public domain)\n- [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) by Steinberg — plugin framework (MIT)\n- [SignPath Foundation](https://signpath.org/) — free Windows code signing for open source projects\n\n## License\n\n[MIT](LICENSE)\n",
+    "ContentSha": "irMAvUJPOhOS62eKEyDa+8AZCIMFvZhO/5r+HEGquMU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Parameter names (shown in your DAW's automation lanes) stay English on purpose — tutorials, presets, and community discussion all assume the English names.\n\n## Code Signing Policy\n\nFree code signing provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).\n\nThe Windows VST3 plugin and installer are signed as part of the release build in GitHub Actions. Signing requests are submitted to SignPath only for tagged releases built from this repository, and each request is manually approved in the SignPath UI before the certificate is applied.\n\n| Privileged role | Signer |\n|-----------------|--------|\n| Author          | [Jonathan Taylor](https://github.com/JonET) |\n| Reviewer        | [Jonathan Taylor](https://github.com/JonET) |\n| Approver        | [Jonathan Taylor](https://github.com/JonET) |\n\n### Privacy Policy\n\nThis program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.\n\n## Acknowledgments\n\n- [Delay Lama](http://www.audionerdz.nl/) by AudioNerdz (2002) — このプロジェクトにインスピレーションを与えた愛されるフリーウェアVSTプラグイン\n- Xavier Rodet (IRCAM) — フォルマント波形関数（FOF）合成技術\n- [stb_image_write](https://github.com/nothings/stb) by Sean Barrett — シングルヘッダーの画像書き込みライブラリ（MIT / パブリックドメイン）\n- [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) by Steinberg — プラグインフレームワーク（MIT）\n- [SignPath Foundation](https://signpath.org/) — オープンソースプロジェクト向けの無料Windowsコード署名サービス\n\n## License\n\n[MIT](LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dqJ5P6GMGEKeogBKP7gAnWh4a+yNVKG9AZ/2Z1jvSFs=",
+        "originContent": "Parameter names (shown in your DAW's automation lanes) stay English on purpose — tutorials, presets, and community discussion all assume the English names.",
+        "translatedContent": "Parameter names (shown in your DAW's automation lanes) stay English on purpose — tutorials, presets, and community discussion all assume the English names."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "rLTw8Luga5D+4TLn/HyDjscldhKw1vSRlptOVTXptBM=",
+        "originContent": "## Code Signing Policy",
+        "translatedContent": "## Code Signing Policy"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vlbXn8q1cbZATTel2tK/TyyU9V3kTo31gkdhe9Nn5NQ=",
+        "originContent": "Free code signing provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).",
+        "translatedContent": "Free code signing provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jmjj24lbRC54Pp4l3L3ejCeIjtfjSlV8BDkUEjNZ5XA=",
+        "originContent": "The Windows VST3 plugin and installer are signed as part of the release build in GitHub Actions. Signing requests are submitted to SignPath only for tagged releases built from this repository, and each request is manually approved in the SignPath UI before the certificate is applied.",
+        "translatedContent": "The Windows VST3 plugin and installer are signed as part of the release build in GitHub Actions. Signing requests are submitted to SignPath only for tagged releases built from this repository, and each request is manually approved in the SignPath UI before the certificate is applied."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "K5BePE9ZIyucyyTZOZX7ap+KRTmxpGUQaGPtTV1bLnE=",
+        "originContent": "| Privileged role | Signer |",
+        "translatedContent": "| Privileged role | Signer |"
+      },
+      {
+        "row": 10,
+        "rowsha": "+MB/tfnx2Dc9nT4KKkUlacYwYrGuZhLPcYi/SFWjspQ=",
+        "originContent": "|-----------------|--------|",
+        "translatedContent": "|-----------------|--------|"
+      },
+      {
+        "row": 11,
+        "rowsha": "l+tJX5wAbjpArH5bEmjl4nAN9ehFe8uYCjGv0Vh0uO8=",
+        "originContent": "| Author          | [Jonathan Taylor](https://github.com/JonET) |",
+        "translatedContent": "| Author          | [Jonathan Taylor](https://github.com/JonET) |"
+      },
+      {
+        "row": 12,
+        "rowsha": "msNUp4RE4bOWKwj0bfWK4AZfdsnc3yN1H5pWw+/LudQ=",
+        "originContent": "| Reviewer        | [Jonathan Taylor](https://github.com/JonET) |",
+        "translatedContent": "| Reviewer        | [Jonathan Taylor](https://github.com/JonET) |"
+      },
+      {
+        "row": 13,
+        "rowsha": "IiXrwWFJZziGt7y86zw8aJXydNEWr2aVOENbtZyMknw=",
+        "originContent": "| Approver        | [Jonathan Taylor](https://github.com/JonET) |",
+        "translatedContent": "| Approver        | [Jonathan Taylor](https://github.com/JonET) |"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "A5Zp6wW7rAWfXIaRY6VEKKOoovqv5h1QW6dPLlwmn/0=",
+        "originContent": "### Privacy Policy",
+        "translatedContent": "### Privacy Policy"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ppnyqa8ST5EfXwLizHx6w/Ysy6zHBsa/HaJ/nBH4D3I=",
+        "originContent": "This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.",
+        "translatedContent": "This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## Acknowledgments"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "eDt3eVv6wAfGgiyEsWflGFm12hd0H0+UPbrnFSHLkNw=",
+        "originContent": "- [Delay Lama](http://www.audionerdz.nl/) by AudioNerdz (2002) — the beloved freeware VST plugin that inspired this project",
+        "translatedContent": "- [Delay Lama](http://www.audionerdz.nl/) by AudioNerdz (2002) — このプロジェクトにインスピレーションを与えた愛されるフリーウェアVSTプラグイン"
+      },
+      {
+        "row": 22,
+        "rowsha": "GoQOZcIeN1kDXbWfdE2e9OF7vTHRUyudO5IP4INY/1w=",
+        "originContent": "- Xavier Rodet (IRCAM) — formant-wave-function (FOF) synthesis technique",
+        "translatedContent": "- Xavier Rodet (IRCAM) — フォルマント波形関数（FOF）合成技術"
+      },
+      {
+        "row": 23,
+        "rowsha": "ZJeLUEJTl/BMHho3CNCmjwpnKcOY2GWgmDYrcdbYYK0=",
+        "originContent": "- [stb_image_write](https://github.com/nothings/stb) by Sean Barrett — single-header image writing (MIT / public domain)",
+        "translatedContent": "- [stb_image_write](https://github.com/nothings/stb) by Sean Barrett — シングルヘッダーの画像書き込みライブラリ（MIT / パブリックドメイン）"
+      },
+      {
+        "row": 24,
+        "rowsha": "2AsRM8ZFxeCqU18soS0D3iyApUXvZsGHQbT5VTMyFtU=",
+        "originContent": "- [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) by Steinberg — plugin framework (MIT)",
+        "translatedContent": "- [VST3 SDK](https://github.com/steinbergmedia/vst3sdk) by Steinberg — プラグインフレームワーク（MIT）"
+      },
+      {
+        "row": 25,
+        "rowsha": "PcLqZCvOpUlxckYrMF8AC3G9aE2ByVmpE8VGoevtlkI=",
+        "originContent": "- [SignPath Foundation](https://signpath.org/) — free Windows code signing for open source projects",
+        "translatedContent": "- [SignPath Foundation](https://signpath.org/) — オープンソースプロジェクト向けの無料Windowsコード署名サービス"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+        "originContent": "[MIT](LICENSE)",
+        "translatedContent": "[MIT](LICENSE)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

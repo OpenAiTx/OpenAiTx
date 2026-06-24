@@ -38,25 +38,25 @@
 <img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png" width="1000">
 
 Tips! Jika Anda justru mencari pengganti PCB drop-in serupa untuk "Google Home Mini" (perangkat keras speaker pintar generasi pertama Google dengan port pengisian daya Micro-USB) silakan lihat proyek saudara di https://github.com/iMike78/home-mini-v1-drop-in-pcb
-**Heads-up!** Kampanye crowdfunding yang akan datang untuk "MiciMike Home Mini Drop-In PCB" (Google Home Mini generasi pertama) sekarang terdaftar dalam fase pra-peluncuran Crowd Supply (hanya tampilan proyek), dan jika berhasil akan direncanakan kampanye serupa untuk Nest Mini, jadi cek di sini:
+**Heads-up!** Saat ini sedang berlangsung kampanye crowdfunding untuk "MiciMike Home Mini Drop-In PCB" (Google Home Mini generasi pertama) yang kini tayang di Crowd Supply dalam fase pre-sale (hanya tampilan awal proyek), dan jika berhasil maka akan direncanakan kampanye serupa untuk Nest Mini (generasi kedua) yang lebih baru, jadi cek tautan berikut dan dukung proyek ini secara tidak langsung dengan mendukungnya jika memungkinkan:
 
 * https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
 
-Kedua proyek ini adalah perangkat keras open-source sepenuhnya, mengambil inspirasi konsep dari [Onju Voice](https://github.com/justLV/onju-voice) namun bertujuan mengikuti [standar asisten suara open-source Open Home Foundation dengan Home Assistant Voice Preview Edition sebagai referensi](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) untuk desain dan spesifikasi PCB.
+Kedua proyek ini sepenuhnya perangkat keras open-source, mengambil inspirasi konsep dari [Onju Voice](https://github.com/justLV/onju-voice) namun bertujuan mengikuti [standar asisten suara open dari Open Home Foundation dengan Home Assistant Voice Preview Edition sebagai referensi](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) untuk desain dan spesifikasi PCB.
 
-# Ruang lingkup proyek
+# Lingkup proyek
 
-Tujuan dari proyek dan repositori ini (yang mirip dengan [Onju Voice](https://github.com/justLV/onju-voice) namun di bawah lisensi perangkat keras open-source sepenuhnya) adalah mendesain PCB pengganti drop-in (Printed Circuit Board) dengan skematik perangkat keras yang dapat dibuat/dibangun atau dipesan siapa saja dari manufaktur PCB sebagai PCB pengganti khusus drop-in untuk Google Nest Mini (Generasi ke-2).
+Tujuan dari proyek dan repository ini (yang mirip dengan [Onju Voice](https://github.com/justLV/onju-voice) namun di bawah lisensi perangkat keras open-source penuh) adalah merancang PCB pengganti drop-in (Printed Circuit Board) dengan skematik perangkat keras yang bisa dibuat/dibangun atau dipesan dari manufaktur PCB satu pintu sebagai PCB pengganti khusus untuk Google Nest Mini (Gen 2).
 
-Ini terutama menargetkan orang-orang yang ingin mengubah/memanfaatkan speaker pintar Google Nest Mini lama mereka menjadi perangkat keras open-source untuk [Kontrol Suara Home Assistant](https://www.home-assistant.io/voice_control/) dan/atau output speaker pemutar media untuk [Music Assistant](https://www.music-assistant.io), (perangkat keras ini juga mungkin dapat digunakan untuk aplikasi lain dengan firmware berbeda karena berbasis platform Espressif ESP32 yang populer).
+Ini terutama ditujukan untuk orang-orang yang ingin mengubah/memanfaatkan speaker pintar Google Nest Mini lama mereka menjadi perangkat keras open-source untuk [Kontrol Suara Home Assistant](https://www.home-assistant.io/voice_control/) dan/atau output speaker pemutar media untuk [Music Assistant](https://www.music-assistant.io), (perangkat keras ini kemungkinan juga bisa digunakan untuk aplikasi lain dengan firmware lain karena berbasis platform Espressif ESP32 yang populer).
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg" width="1000" alt="PCB uji pertama">
 
-Desain perangkat keras akan (serupa dengan [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) mengintegrasikan ESP32-S3 SoC untuk WiFi, BLE, dan [deteksi wake-word onboard](https://www.home-assistant.io/voice_control/about_wake_word/) (menggunakan firmware [ESPHome tanpa kode](https://esphome.io/)) + chip XMOS xCORE XU316 untuk pemrosesan audio lanjutan (dengan firmware khusus untuk pembersihan mikrofon offloading agar kemampuan pengenalan suara lebih baik dengan algoritma lokal untuk Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, dan Automatic Gain Control).
+Desain perangkat kerasnya akan (mirip dengan [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) mengintegrasikan ESP32-S3 SoC untuk WiFi, BLE, dan [deteksi wake-word onboard](https://www.home-assistant.io/voice_control/about_wake_word/) (menggunakan firmware [ESPHome tanpa kode](https://esphome.io/)) + chip XMOS xCORE XU316 untuk pemrosesan audio lanjutan (dengan firmware khusus untuk pembersihan mikrofon agar kemampuan pengenalan suara lebih baik dengan menjalankan algoritma lokal untuk Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, dan Automatic Gain Control).
 
-Secara fungsional, perangkat ini dibuat agar sebagian besar kompatibel perangkat keras dengan [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) desain referensi (yang telah dirilis sebagai desain perangkat keras open-source dari Open Home Foundation bekerja sama dengan Nabu Casa). Perbedaan utama akan disebabkan oleh keterbatasan yang ditentukan oleh kotak dan komponen Google Nest Mini, (yaitu desain perangkat keras proyek nest-mini-drop-in-pcb akan dibatasi oleh jenis input kapasitas fisik yang sama seperti perangkat keras asli dari Google).
+Secara fungsionalitas, perangkat keras ini dibuat agar sebagian besar kompatibel dengan [Home Assistant Voice Preview Edition (alias Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) desain referensi (yang telah dirilis sebagai desain perangkat keras open-source dari Open Home Foundation bersama Nabu Casa). Perbedaan utama akan disebabkan oleh batasan yang ditentukan oleh casing dan komponen Google Nest Mini, (yakni desain perangkat keras nest-mini-drop-in-pcb akan dibatasi oleh jenis input kapasitas fisik yang sama seperti perangkat keras asli dari Google).
 
-Dengan demikian, ruang lingkup proyek/repositori ini bukan untuk mengembangkan fitur/fungsi baru untuk firmware ESPHome, jadi jika Anda menginginkan hal tersebut silakan beralih ke pengembangan firmware Home Assistant Voice Preview Edition serta kode utama ESPHome:
+Dengan demikian, lingkup proyek/repository ini bukan untuk mengembangkan fitur/fungsi baru untuk firmware ESPHome, jadi jika menginginkan hal tersebut maka Anda perlu beralih ke pengembangan firmware Home Assistant Voice Preview Edition serta kode utama ESPHome:
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://github.com/esphome/esphome
@@ -64,9 +64,9 @@ Dengan demikian, ruang lingkup proyek/repositori ini bukan untuk mengembangkan f
 
 ## Permintaan kolaborasi
 
-Jika Anda memiliki pengalaman dengan desain tata letak PCB, (terutama dengan routing PCB, ground pouring, atau tata letak digital+analog sensitif terhadap noise), **bantuan Anda sangat dihargai**! Silakan buka issue baru, ajukan saran/permintaan, dan beri masukan/umpan balik pada issue yang sudah ada, atau fork repositori ini.
+Jika Anda memiliki pengalaman dengan desain layout PCB, (terutama routing PCB, ground pouring, atau layout digital+analog yang sensitif terhadap noise), **bantuan Anda sangat dihargai**! Silakan buka issue baru, ajukan saran/permintaan, dan tambahkan masukan/feedback ke issue yang sudah ada, atau fork repository ini.
 
-Untuk informasi lebih lanjut tentang konsep/ide lihat dan berkontribusi pada diskusi terkait juga di forum komunitas Home Assistant berikut:
+Untuk informasi lebih lanjut mengenai konsep/ide, lihat dan berkontribusi pada diskusi terkait juga di thread forum komunitas Home Assistant berikut:
 
 - https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/
 
@@ -76,11 +76,12 @@ Untuk informasi lebih lanjut tentang konsep/ide lihat dan berkontribusi pada dis
 - ✅ Penempatan komponen selesai
 - ✅ Routing selesai
 - ✅ Ground pour, strategi shielding, dan pertimbangan EMI selesai
-- ⚠️ Batch uji pertama gagal pada dua error - sudah diperbaiki
+- ⛔ Batch uji pertama gagal pada dua kesalahan - sudah diperbaiki
 
-- 🕓 menunggu batch pengujian kedua
+- ⚠️ Batch uji kedua sebagian berfungsi
+- ✅ Opsi debug XTAG4 ditambahkan untuk batch berikutnya
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png" width="1000">
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg" width="1000">
 
 ## Alat yang digunakan
 
@@ -89,19 +90,21 @@ Untuk informasi lebih lanjut tentang konsep/ide lihat dan berkontribusi pada dis
 
 ## Spesifikasi perangkat keras yang diketahui
 
-- PCB 4-lapis
-- Chip ESP32-S3R8 (ESP32-S3 untuk WiFi, BLE, dan deteksi wake-word onboard)
-- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP pemrosesan audio)
-- Dual SPI flash (karena ESP32 dan XMOS memiliki flash SPI masing-masing)
-- Dual bus I²S (untuk memungkinkan antarmuka I2S secara bersamaan, yaitu output audio dan input audio simultan)
-- TAS5805M (TAS5805MPWPR) untuk output speaker (Amplifier Audio Mono Class-D I2S dengan konfigurasi DSP via I2C)
-- 2x mikrofon MEMS (dual MMICT390200012 dengan jarak antar-mikrofon 68mm)
+- PCB 4-lapisan
+- Chip telanjang ESP32-S3R8 (ESP32-S3 untuk WiFi, BLE, dan deteksi wake-word onboard)
+- XMOS XU316-1024-QF60B-C24 (prosesor audio DSP XMOS XU316 xCORE)
+- 16 MB SPI flash (ESP32-S3)
+- 4 MB SPI flash (XMOS XU316)
+- Dua bus I²S (input dan output audio simultan)
+- TAS5805M (TAS5805MPWPR) amplifier stereo Class-D dengan DSP terintegrasi (audio I2S, kontrol I2C), dikonfigurasi untuk output speaker mono BTL
+- 3x mikrofon MEMS (MMICT390200012) diatur pada busur radius 34 mm - firmware saat ini menggunakan 2 mikrofon, dukungan perangkat keras untuk array 3 mikrofon sudah tersedia
 - 6x LED RGB SK6812
-- Input daya USB-C dan 14V custom (Catatan! USB-C dan barrel-connector tidak dapat terhubung secara bersamaan)
+- Input daya USB-C dan 14V khusus (Catatan! USB-C dan barrel-connector tidak dapat terhubung secara bersamaan)
+- Kontroler sentuh kapasitif MPR121 (digunakan untuk input sentuh menggantikan sensor sentuh native ESP32-S3)
 
 ---
 
-> ⚠️ Flashing melalui USB-C memerlukan pemutusan input daya utama 14V. Lihat catatan silkscreen pada PCB untuk detailnya.
+> ⚠️ Melakukan flashing melalui USB-C memerlukan pemutusan input daya utama 14V. Lihat catatan silkscreen pada PCB untuk detailnya.
 
 ## Referensi
 
@@ -117,15 +120,15 @@ Untuk informasi lebih lanjut tentang konsep/ide lihat dan berkontribusi pada dis
   - https://esphome.github.io/home-assistant-voice-pe/
 - https://voice-pe.home-assistant.io/
 
-### XMOS xCORE DSP (XU316-1024-QF60B-C32) chip IC MCU
+### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC chip
 
 - https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf
 - https://www.xmos.com/software-tools/
   - https://www.xmos.com/develop/xcore-voice
   - https://www.xmos.com/usb-multichannel-audio/
   - https://www.xmos.com/xcore-ai
-
-#### Firmware XMOS dari proyek ESPHome untuk perangkat Home Assistant Voice Preview Edition:
+ 
+#### Firmware XMOS dari proyek ESPHome untuk perangkat keras Home Assistant Voice Preview Edition:
 
 - https://github.com/esphome/voice-kit-xmos-firmware
   - https://github.com/esphome/xmos_fwk_rtos
@@ -134,15 +137,15 @@ Untuk informasi lebih lanjut tentang konsep/ide lihat dan berkontribusi pada dis
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]
-Setiap versi modifikasi dari perangkat keras ini juga harus didistribusikan di bawah lisensi yang sama.
+Setiap versi modifikasi perangkat keras ini juga harus didistribusikan di bawah lisensi yang sama.
 
-☕ Jika Anda ingin mendukung proyek ini, silakan [belikan saya kopi di Ko-fi](https://ko-fi.com/imike78)!
+☕ Jika Anda ingin mendukung proyek ini, silakan [beli saya kopi di Ko-fi](https://ko-fi.com/imike78)!
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-24
 
 ---

@@ -38,25 +38,26 @@
 
 টিপ! যদি আপুনি "Google Home Mini" (Google ৰ প্ৰথম প্ৰজন্মৰ স্মাৰ্ট স্পীকাৰ য’ত Micro-USB চাৰ্জিং প’ৰ্ট আছে) ৰ বাবে এনেদৰে drop-in PCB প্ৰতিস্থাপন বিচাৰি থাকেনে, তেন্তে অনুগ্ৰহ কৰি https://github.com/iMike78/home-mini-v1-drop-in-pcb এই সহোদৰ প্ৰকল্পটো চাওক।
 
-**সতৰ্কীকৰণ!** "MiciMike Home Mini Drop-In PCB" (প্ৰথম প্ৰজন্মৰ Google Home Mini) ৰ বাবে অহা সময়ৰ crowdfunding অভিযান এতিয়া Crowd Supply ৰ pre-launch পৰ্যায়ত (প্ৰকল্পৰ পূৰ্ব-দৰ্শনহে) তালিকাভুক্ত হৈছে, আৰু যদি সেইটো সফল হয় তেন্তে Nest Mini ৰ বাবে মিল থকা অভিযানৰ পৰিকল্পনা থাকিব, গতিকে ইয়াত চাওক:
+
+**সাৱধানবাণী!** বৰ্তমান "MiciMike Home Mini Drop-In PCB" (1st-gen Google Home Mini) ৰ বাবে এটা ক্রাউডফাণ্ডিং অভিযান চলি আছে যি বৰ্তমানে Crowd Supply ত প্ৰি-ছেইল পৰ্যায়ত (প্ৰকল্প পূৰ্ব-দৰ্শন মাত্ৰ) লাইভ হৈছে, আৰু যদি এইটো সফল হয় তেন্তে নতুন Nest Mini (2nd-gen) ৰ বাবে উপযুক্ত অভিযানৰ পৰিকল্পনা কৰা হ'ব, গতিকে ইয়াত চাওক আৰু সক্ষম হ'লে এই প্ৰকল্পক সমৰ্থন কৰক:
 
 * https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
 
-এই দুয়োটাই সম্পূৰ্ণৰূপে খোলা উৎসৰ হাৰ্ডৱেৰ প্ৰকল্প, যিয়ে কিছু চিন্তা [Onju Voice](https://github.com/justLV/onju-voice) ৰ পৰা অনুপ্ৰেৰণা লৈছে যদিও [Open Home Foundation ৰ খোলা ভয়েছ সহায়কৰ মানদণ্ড আৰু Home Assistant Voice Preview Edition ৰ প্ৰাসংগিক ৰূপ](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) অনুসৰণ কৰিবলৈ লক্ষ্য কৰিছে PCB ডিজাইন আৰু স্পেছিফিকেশ্যনসমূহৰ বাবে।
+এই দুয়োটা সম্পূৰ্ণ খোলা উৎসৰ হাৰ্ডৱেৰ প্ৰকল্প, [Onju Voice](https://github.com/justLV/onju-voice) ৰ পৰা কিছুমান ধাৰণা লৈছেগৈ যদিও [Open Home Foundation ৰ খোলা ভয়েছ সহায়কৰ মানদণ্ড আৰু Home Assistant Voice Preview Edition ৰ ৰূপৰেখা অনুসৰণ](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) বাবে PCB ডিজাইন আৰু স্পেচিফিকেশ্যন অনুসৰণ কৰাৰ লক্ষ্য।
 
 # প্ৰকল্পৰ পৰিসৰ
 
-এই প্ৰকল্প আৰু ৰেপ’জিটৰীৰ (যি [Onju Voice](https://github.com/justLV/onju-voice) ৰ দৰে কিন্তু সম্পূৰ্ণৰূপে খোলা উৎসৰ হাৰ্ডৱেৰ অনুজ্ঞাপত্ৰৰ অধীনত) উদ্দেশ্য হৈছে এজন যিকোনো লোকোৱে নিজে তৈয়াৰ কৰিব পৰা বা এটা একমাত্ৰ PCB নিৰ্মাতাৰ পৰা অ’ৰ্ডাৰ কৰিব পৰা ড্ৰপ-ইন রিপ্লেছমেণ্ট PCB (Printed Circuit Board) ৰ ডিজাইন আৰু হাৰ্ডৱেৰ স্কিমেটিক্স প্ৰস্তুত কৰা, Google Nest Mini (২য় প্ৰজন্ম) ৰ বাবে।
+এই প্ৰকল্প আৰু ৰেপ'জিট'ৰীৰ (যি [Onju Voice](https://github.com/justLV/onju-voice) সন্নিৱিষ্ট কিন্তু সম্পূৰ্ণ খোলা উৎস হাৰ্ডৱেৰ লাইচেঞ্চত) লক্ষ্য হৈছে এটা ড্ৰপ-ইন প্ৰতিস্থাপনযোগ্য PCB (Printed Circuit Board) ডিজাইন কৰা, যাৰ হাৰ্ডৱেৰ স্কিমেটিকস যে কোনোবাই নিজে বনাব পাৰে বা এটা এক-ষ্টপ PCB নিৰ্মাতাৰ পৰা অর্ডাৰ কৰিব পাৰে Google Nest Mini (2nd Gen) ৰ বাবে কাষ্টম ড্ৰপ-ইন PCB হিচাপে।
 
-এইটো মূলতঃ সেইসকল লোকৰ বাবে লক্ষ্য কৰা হৈছে যিসকলে নিজৰ পুৰণি Google Nest Mini স্মাৰ্ট স্পীকাৰসমূহ খোলা উৎসৰ হাৰ্ডৱেৰলৈ ৰূপান্তৰ/পুনৰুপযোগিতা কৰিব বিচাৰে [Home Assistant ৰ ভয়েছ নিয়ন্ত্ৰণৰ](https://www.home-assistant.io/voice_control/) বাবে আৰু/অথবা [Music Assistant](https://www.music-assistant.io) ৰ বাবে মিডিয়া প্লেয়াৰ স্পীকাৰ আউটপুট হিচাপে, (হাৰ্ডৱেৰটো আন ফাৰ্মৱেৰ সৈতে আন এপ্লিকেশ্যনসমূহৰ বাবে ব্যৱহাৰ কৰিব পৰা সম্ভাৱনা আছে, কাৰণ এইটো জনপ্ৰিয় Espressif ESP32 প্লেটফর্মত আধাৰিত)।
+এইটো প্ৰধানকৈ সেইসকল লোকক লক্ষ্য কৰি তৈয়াৰ কৰা হৈছে, যিসকলে নিজৰ পুৰণা Google Nest Mini স্মাৰ্ট স্পীকাৰক খোলা উৎস হাৰ্ডৱেৰ হিচাপে [Home Assistant ৰ ভয়েছ নিয়ন্ত্ৰণ](https://www.home-assistant.io/voice_control/) অথবা [Music Assistant](https://www.music-assistant.io) ৰ বাবে মিডিয়া প্লেয়াৰ স্পীকাৰ আউটপুটত ৰূপান্তৰিত কৰিব বিচাৰে, (হাৰ্ডৱেৰটো আন অনুপ্ৰয়োগৰ ক্ষেত্ৰতো ব্যৱহাৰ কৰিব পৰা যাব পাৰে, কিয়নো এইটো জনপ্ৰিয় Espressif ESP32 প্লেটফৰ্মত আধাৰিত)।
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg" width="1000" alt="First test PCB">
 
-হাৰ্ডৱেৰ ডিজাইনটো ( [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) ৰ দৰে) ESP32-S3 SoC সংহত কৰিব WiFi, BLE, আৰু [অন-ব’ৰ্ড ওয়েক-ৱৰ্ড চিনাক্তকৰণ](https://www.home-assistant.io/voice_control/about_wake_word/) ৰ বাবে (ন’-কোড [ESPHome firmware](https://esphome.io/) ব্যৱহাৰ কৰি) + XMOS xCORE XU316 চিপ উন্নত অডিঅ’ প্ৰসেচিং ৰ বাবে (মাইক্ৰ’ফোন ক্লিনআপ অফলোডিংৰ বাবে কাষ্টম ফাৰ্মৱেৰ সহ যাতে স্থানীয়ভাৱে চলা এলগৰিদম ব্যৱহাৰ কৰি ভয়েছ চিনাক্তকৰণ সক্ষমতা উন্নত কৰিবলৈ Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, আৰু Automatic Gain Control থাকে)।
+হাৰ্ডৱেৰ ডিজাইনটো ( [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) ৰ দৰে) এটা ESP32-S3 SoC সংহত কৰিব WiFi, BLE, আৰু [অন-ব'ৰ্ড ৱেক-ৱৰ্ড চিনাক্তকৰণ](https://www.home-assistant.io/voice_control/about_wake_word/) ৰ বাবে (ন'-ক'ড [ESPHome firmware](https://esphome.io/) ব্যৱহাৰ কৰি) + XMOS xCORE XU316 চিপ উন্নত অডিঅ' প্ৰসেছিংৰ বাবে (মাইক্ৰ'ফোন ক্লিনআপ অফল'ডিং আৰু উন্নত ভয়েছ চিনাক্তকৰণৰ বাবে কাষ্টম ফাৰ্মৱেৰ; ইয়াত লোকেলি চলা এলগৰিদম ব্যৱহাৰ কৰি Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, আৰু Automatic Gain Control)।
 
-কাৰ্যক্ষমতাৰ দিশৰ পৰা এইটো প্ৰায় সম্পূৰ্ণৰূপে [Home Assistant Voice Preview Edition (অর্থাৎ Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) ৰ প্ৰাসংগিক ডিজাইন (যি Open Home Foundation আৰু Nabu Casa ৰ সহযোগত খোলা উৎসৰ হাৰ্ডৱেৰ ডিজাইন হিচাপে মুক্ত কৰা হৈছে) ৰ সৈতে হাৰ্ডৱেৰ অনুকূলিত। মূল পাৰ্থক্য Google Nest Mini ৰ এনক্ল’জাৰ আৰু উপাদানসমূহৰ দ্বাৰা নিৰ্ধাৰিত সীমাবদ্ধতাৰ বাবে হব, (অৰ্থাৎ nest-mini-drop-in-pcb প্ৰকল্পৰ হাৰ্ডৱেৰ ডিজাইনটো Google ৰ মূল হাৰ্ডৱেৰটোত থকা সমান ধৰণৰ শাৰীৰিক ইনপুটসমূহত সীমাবদ্ধ হব)।
+কাৰ্যক্ষমতাৰ দিশৰ পৰা, ই প্ৰায় [Home Assistant Voice Preview Edition (অর্থাৎ Home Assistant Voice PE)](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) ৰ ৰূপৰেখা ডিজাইনৰ সৈতে হাৰ্ডৱেৰে মিল খাইছে (Open Home Foundation এ Nabu Casa ৰ সৈতে মিলি খোলা উৎস হাৰ্ডৱেৰ ডিজাইন হিচাপে মুক্ত কৰিছে)। মূল পাৰ্থক্য হব Google Nest Mini ৰ বক্স আৰু উপাদানৰ সীমাবদ্ধতাৰ বাবে, (অৰ্থাৎ nest-mini-drop-in-pcb প্ৰকল্পৰ হাৰ্ডৱেৰ ডিজাইন মূল Google ৰ হাৰ্ডৱেৰ সংস্থাপনাৰ দৰে শাৰীৰিক ইনপুটত সীমাবদ্ধ থাকিব)।
 
-সেয়ে এই প্ৰকল্প/ৰেপ’জিটৰীৰ পৰিসৰ ESPHome firmware ৰ বাবে নতুন বৈশিষ্ট্য/কাৰ্য্য বিকাশ কৰা নহয়, যদি আপুনি সেইটো বিচাৰে তেন্তে Home Assistant Voice Preview Edition ৰ firmware development আৰু ESPHome মেইনলাইন ক’ডক লৈ মনোযোগ দিব লাগিব:
+সেয়া হোৱাৰ বাবে এই প্ৰকল্প/ৰেপ'জিট'ৰীৰ পৰিসৰ ESPHome firmware ৰ বাবে নতুন বৈশিষ্ট্য/কাৰ্য্য বিকাশ কৰা নহয়, গতিকে যদি আপুনি সেইটো চায় তেন্তে Home Assistant Voice Preview Edition ৰ firmware উন্নয়ন আৰু ESPHome মেইনলাইন ক'ডলৈ মন দিব লাগিব:
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://github.com/esphome/esphome
@@ -64,9 +65,9 @@
 
 ## সহযোগিতাৰ অনুৰোধ
 
-আপোনাৰ যদি PCB লেআউট ডিজাইনৰ অভিজ্ঞতা থাকে, (বিশেষকৈ PCB ৰাউটিং, গ্ৰাউণ্ড প’ৰিং, বা শব্দ-সংবেদনশীল ডিজিটেল+এনালগ লেআউটত), **আপোনাৰ সহায় অতি মূল্যবান**! অনুগ্ৰহ কৰি নতুন issue খুলক, পৰামৰ্শ/অনুৰোধ জমা দিয়ক, আৰু বৰ্তমান issue সমূহত input/feedback যোগ কৰক, বা এই ৰেপ’জিটৰী ফ’ৰ্ক কৰক।
+আপুনি যদি PCB লেআউট ডিজাইন (বিশেষকৈ PCB ৰাউটিং, গ্ৰাউণ্ড প'ৰিং, বা নয়েজ-সংবেদনশীল ডিজিটেল+এনালগ লেআউট) ৰ অভিজ্ঞতা থাকে, **আপোনাৰ সহায় অতি গুৰুত্বপূর্ণ**! অনুগ্ৰহ কৰি নতুন ইস্যু খোলক, প্ৰস্তাৱ/অনুৰোধ সাবমিট কৰক, আৰু বিদ্যমান ইস্যুসমূহত মতামত/প্ৰতিক্ৰিয়া যোগদান কৰক, অথবা এই ৰেপ'জিট'ৰীটো ফৰ্ক কৰক।
 
-চিন্তা/ধাৰণাৰ অধিক তথ্যৰ বাবে আৰু সহযোগিতা যোগাবলৈ, সম্পৰ্কীয় আলোচনা চাবলৈ এই Home Assistant কমিউনিটি ফ’ৰাম থ্ৰেডটো চাওক:
+বিস্তারিত ধাৰণা/প্ৰস্তাৱৰ বাবে আৰু আলোচনা কৰিবলৈ তলৰ Home Assistant কমিউনিটি ফ'ৰাম থ্ৰেডটো চাওক আৰু অৱদান আগবঢ়াওক:
 
 - https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/
 
@@ -75,49 +76,51 @@
 - ✅ স্কিমেটিক সম্পূৰ্ণ
 - ✅ উপাদান স্থাপন সম্পন্ন
 - ✅ ৰাউটিং সম্পন্ন
-- ✅ গ্ৰাউণ্ড প’ৰ, শিল্ডিং কৌশল, আৰু EMI বিবেচনা সম্পন্ন
-- ⚠️ প্ৰথম টেষ্ট ব্যাচত দুইটা ত্ৰুটি – সংশোধন কৰা হৈছে
+- ✅ গ্ৰাউণ্ড প'ৰ, শিল্ডিং কৌশল, আৰু EMI বিবেচনা সম্পন্ন
+- ⛔ ১ম পৰীক্ষা ব্যাচত দুটা ভুল - সমাধান কৰা হৈছে
+- ⚠️ দ্বিতীয় পৰীক্ষামূলক ব্যাচ আংশিকভাৱে কাম কৰি আছে
+- ✅ XTAG4 ডিবাগ বিকল্প আগন্তুক ব্যাচৰ বাবে যোগ কৰা হৈছে
 
-- 🕓 দ্বিতীয় টেষ্ট বেচৰ অপেক্ষা কৰি আছে
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg" width="1000">
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png" width="1000">
-
-## ব্যৱহৃত উপকৰণ
+## ব্যৱহৃত টুলসমূহ
 
 - 🛠️ KiCad 9
-- 🧰 SnapEDA / LCSC ফুটপ্ৰিন্ট উৎসৰ বাবে
+- 🧰 SnapEDA / LCSC ফুটপ্ৰিণ্ট সংগ্ৰহৰ বাবে
 
-## জ্ঞাত হাৰ্ডৱেৰ স্পেচিফিকেশ্যন
+## পৰিচিত হাৰ্ডৱেৰ স্পেচিফিকেশ্বনসমূহ
 
 - ৪-স্তৰৰ PCB
-- ESP32-S3R8 বেয়াৰ চিপ (ESP32-S3 WiFi, BLE, আৰু অন-ব'ৰ্ড ৱেক-ৱৰ্ড ডিটেকশ্যনৰ বাবে)
-- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP অডিঅ' প্ৰসেছিং)
-- দ্বৈত SPI ফ্ল্যাশ (ESP32 আৰু XMOSৰ নিজৰ SPI ফ্ল্যাশ আছে)
-- দ্বৈত I²S বাস (একেই সময়ত I2S ইণ্টাৰফেচসমূহৰ বাবে, অৰ্থাৎ একেলগে অডিঅ' আউটপুট আৰু অডিঅ' ইনপুট)
-- TAS5805M (TAS5805MPWPR) স্পীকাৰ আউটপুটৰ বাবে (I2S ক্লাছ-D মনো অডিঅ' এম্প্লিফায়াৰ, DSP কনফিগ I2Cৰ জৰিয়তে)
-- ২টা MEMS মাইক্ৰফোন (দ্বৈত MMICT390200012, ৬৮ মিমি ইণ্টাৰ-মাইক স্পেচিং)
+- ESP32-S3R8 খালি চিপ (WiFi, BLE, আৰু অনব’ৰ্ড ৱেক-ৱৰ্ড চিনাক্তকৰণৰ বাবে ESP32-S3)
+- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP অডিঅ’ প্ৰচেছিং)
+- ১৬ MB SPI ফ্লেশ (ESP32-S3)
+- ৪ MB SPI ফ্লেশ (XMOS XU316)
+- ডুয়েল I²S বাস (একেলগে অডিঅ’ ইনপুট আৰু আউটপুট)
+- TAS5805M (TAS5805MPWPR) ষ্টেৰিঅ’ ক্লাছ-D এমপ্লিফায়াৰ সংযুক্ত DSP সহ (I2S অডিঅ’, I2C কণ্ট্ৰোল), ম’নো BTL স্পীকাৰ আউটপুটৰ বাবে কনফিগাৰ কৰা
+- ৩টা MEMS মাইক্ৰ’ফোন (MMICT390200012) ৩৪ মিমি ৰেডিয়াছ আৰ্কত সংযোজিত - বৰ্তমান ফাৰ্মৱেৰ ২টা মাইক্ৰ’ফোন ব্যৱহাৰ কৰে, ৩-মাইক্ৰ’ফোন এৰেৰ বাবে হাৰ্ডৱেৰ সমৰ্থন ইতিমধ্যে আছে
 - ৬টা SK6812 RGB LED
-- কাষ্টম USB-C আৰু ১৪V পাওৱৰ ইনপুট (দৃষ্টি! USB-C আৰু বেয়াৰেল-কনেক্টৰ একেলগে সংযোগ কৰিব নোৱাৰি)
+- কাষ্টম USB-C আৰু ১৪V পাওৱৰ ইনপুট (দ্রষ্টব্য! USB-C আৰু বেৰেল-কনেক্টৰ একে সময়তে সংযুক্ত কৰিব নোৱাৰি)
+- MPR121 কেপাচিটিভ টাচ কণ্ট্ৰোলাৰ (ESP32-S3ৰ দেশীয় টাচ সেন্সিংৰ পৰিৱর্তে টাচ ইনপুটৰ বাবে ব্যৱহৃত)
 
 ---
 
-> ⚠️ USB-Cৰ জৰিয়তে ফ্ল্যাশ কৰিবলৈ মুখ্য ১৪V পাওৱৰ ইনপুট সংযোগ বিচ্ছিন্ন কৰিব লাগিব। PCBৰ সিল্কস্ক্ৰীন নোটত বিস্তারিত চাওক।
+> ⚠️ USB-Cৰ জৰিয়তে ফ্লেছিং কৰিবলৈ মুখ্য ১৪V পাওৱাৰ ইনপুট বিচ্ছিন্ন কৰিব লাগিব। বিস্তারিতৰ বাবে PCBৰ চিল্কস্ক্ৰীন টোকা চাওক।
 
-## উৎস
+## ৰেফাৰেঞ্চসমূহ
 
-### Home Assistant Voice Preview Editionৰ উৎসসমূহ, PCB ডিজাইন ফাইলসহ
+### হোম এছিচটেণ্ট ভয়েছ প্ৰিভিউ এডিশনৰ ৰিছ’ৰ্ছসমূহ, PCB ডিজাইন ফাইলসহ
 - https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/
   - https://voice-pe.home-assistant.io/resources/
     - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files
       - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf
      
-#### ESPHome ফাৰ্মৱেৰ Home Assistant Voice PEৰ বাবে (যি ESP32-S3 + XMOS XU316 কম্বিনেশ্যন ব্যৱহাৰ কৰে):
+#### হোম এছিচটেণ্ট ভয়েছ PEৰ বাবে ESPHome ফাৰ্মৱেৰ (যি একে ESP32-S3 + XMOS XU316 সংমিশ্ৰণ ব্যৱহাৰ কৰে):
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://esphome.github.io/home-assistant-voice-pe/
 - https://voice-pe.home-assistant.io/
 
-### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC চিপ
+### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC চিপ
 
 - https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf
 - https://www.xmos.com/software-tools/
@@ -125,24 +128,24 @@
   - https://www.xmos.com/usb-multichannel-audio/
   - https://www.xmos.com/xcore-ai
  
-#### হোম এছিষ্টেণ্ট ভইচ প্ৰিভিউ এডিছনৰ বাবে ESPHome প্ৰকল্পৰ পৰা XMOS ফাৰ্মৱেৰ:
+#### Home Assistant Voice Preview Edition হাৰ্ডৱেৰটোলৈ ESPHome প্ৰকল্পৰ XMOS ফাৰ্মৱেৰ:
 
 - https://github.com/esphome/voice-kit-xmos-firmware
   - https://github.com/esphome/xmos_fwk_rtos
   - https://github.com/esphome/xmos_fwk_io
 
-## অনুজ্ঞাপত্ৰ
+## লাইচেন্স
 
-এই প্ৰকল্পটো [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)] অধীনত অনুজ্ঞাপত্ৰিত।
-এই হাৰ্ডৱেৰটো কোনো পৰিবর্তিত সংস্কৰণো একে অনুজ্ঞাপত্ৰৰ অধীনত বিতৰণ কৰিব লাগিব।
+এই প্ৰকল্পটো [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]-ৰ অধীনত লাইচেন্স কৰা হৈছে।
+এই হাৰ্ডৱেৰটো যদি পৰিবৰ্তন কৰা হয়, তেন্তে ইয়াকো একে লাইচেন্সৰ অধীনত বিতৰণ কৰিব লাগিব।
 
-☕ আপুনি যদি এই প্ৰকল্পটো সহায় কৰিব খুজে, অনুগ্ৰহ কৰি [Ko-fi ত মোৰ বাবে এখন কফি কিনিব পাৰে](https://ko-fi.com/imike78)!
+☕ যদি আপুনি এই প্ৰকল্পটো সমৰ্থন কৰিব বিচাৰে, অনুগ্ৰহ কৰি [Ko-fi-ত মোক এটা কফি ক্ৰয় কৰক](https://ko-fi.com/imike78)!
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-24
 
 ---

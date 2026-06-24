@@ -39,23 +39,23 @@
 
 Tip! If you are instead looking for a similar drop-in PCB replacement for the "Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb
 
-**Heads-up!** Upcoming crowdfunding campaign for "MiciMike Home Mini Drop-In PCB" (1st-gen Google Home Mini) is now listed in the Crowd Supply pre-launch phase (project preview only), and if that is successful, a matching campaign for the Nest Mini is planned, so check it out here:
+**Heads-up!** There is currently an ongoing crowdfunding campaign for the "MiciMike Home Mini Drop-In PCB" (1st-gen Google Home Mini) that is now live on Crowd Supply in a pre-sale phase (project preview only), and if that is successful, then a matching campaign for the newer Nest Mini (2nd-gen) is planned. So check it out here and support this project indirectly by backing it if you can:
 
 * https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
 
-Both are fully open-source hardware projects, drawing some conceptual inspiration from the [Onju Voice](https://github.com/justLV/onju-voice), but aiming to follow the [Open Home Foundation's open voice assistants standard with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
+Both projects are fully open-source hardware, drawing some conceptual inspiration from [Onju Voice](https://github.com/justLV/onju-voice) but aiming to follow the [Open Home Foundation's open voice assistants standard with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
 
 # Project scope
 
-The goal of this project and repository (similar to [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).
+The goal of this project and repository (similar to [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).
 
-This primarily targets people seeking to convert or repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware could also be used for other applications with other firmware, as it is based on the popular Espressif ESP32 platform).
+This is primarily targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can likely also be used with other applications and firmware as it is based on the popular Espressif ESP32 platform).
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/front_render.jpg" width="1000" alt="First test PCB">
 
-The hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using the no-code [ESPHome firmware](https://esphome.io/)) plus an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading to enhance voice recognition, using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).
+The hardware design will (like [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading to improve voice recognition by using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).
 
-Functionally, it is designed to be mostly hardware compatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE)](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in collaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and components, i.e., the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google.
+Functionality-wise, it is made to be mostly hardware compatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware from the Open Home Foundation in collaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and components, (i.e., the nest-mini-drop-in-pcb project hardware design will be limited by the same physical capacity inputs as the original hardware from Google).
 
 Therefore, the scope of this project/repository is not to develop new features/functions for the ESPHome firmware. If you want that, you need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as the upstream ESPHome mainline code:
 
@@ -65,9 +65,9 @@ Therefore, the scope of this project/repository is not to develop new features/f
 
 ## Request for collaboration
 
-If you have some experience with PCB layout design (especially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.
+If you have experience with PCB layout design (especially PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.
 
-For more information about the concept/idea, and to contribute to related discussions, also see this Home Assistant community forum thread:
+For more information about the concept/idea, see and contribute to related discussions in this Home Assistant community forum thread:
 
 - https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/
 
@@ -77,10 +77,11 @@ For more information about the concept/idea, and to contribute to related discus
 - ✅ Component placement done
 - ✅ Routing is done
 - ✅ Ground pour, shielding strategy, and EMI considerations done
-- ⚠️ 1st test batch failed on two errors - fixed
-- 🕓 waiting for the 2nd test batch
+- ⛔ 1st test batch failed on two errors - fixed
+- ⚠️ 2nd test batch partially working
+- ✅ XTAG4 debug option added for the next batch
 
-<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png" width="1000">
+<img src="https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/back_render.jpg" width="1000">
 
 ## Tools used
 
@@ -92,12 +93,14 @@ For more information about the concept/idea, and to contribute to related discus
 - 4-layer PCB
 - ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)
 - XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)
-- Dual SPI flash (as ESP32 and XMOS have their own SPI flash)
-- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)
-- TAS5805M (TAS5805MPWPR) for speaker output (I2S Class-D Mono Audio Amplifier with DSP config via I2C)
-- 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)
+- 16 MB SPI flash (ESP32-S3)
+- 4 MB SPI flash (XMOS XU316)
+- Dual I²S buses (simultaneous audio input and output)
+- TAS5805M (TAS5805MPWPR) stereo Class-D amplifier with integrated DSP (I2S audio, I2C control), configured for mono BTL speaker output
+- 3x MEMS microphones (MMICT390200012) arranged on a 34 mm radius arc - current firmware uses 2 microphones, hardware support for a 3-microphone array is already present
 - 6x SK6812 RGB LEDs
-- Custom USB-C and 14V power input (Note! USB-C and barrel-connector cannot be connected at the same time)
+- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)
+- MPR121 capacitive touch controller (used for touch input instead of ESP32-S3 native touch sensing)
 
 ---
 
@@ -117,7 +120,7 @@ For more information about the concept/idea, and to contribute to related discus
   - https://esphome.github.io/home-assistant-voice-pe/
 - https://voice-pe.home-assistant.io/
 
-### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip
+### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC chip
 
 - https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf
 - https://www.xmos.com/software-tools/
@@ -143,6 +146,6 @@ Any modified version of this hardware must also be distributed under the same li
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-24
 
 ---
