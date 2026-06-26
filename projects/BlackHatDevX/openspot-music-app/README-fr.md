@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -79,8 +80,9 @@
 
 <!-- Texte CTA -->
 <h3>
- Télécharger 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">ICI</a>
+ Télécharger (v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">ICI</a>
 </h3>
+<i>date de sortie : 03/06/2026</i>
 
 <br>
 
@@ -88,13 +90,26 @@
 
 </div>
 
+### Nouveautés de la v3.1.5
+
+- Importez de la musique directement depuis n'importe quelle URL de playlist publique Spotify.
+- Ajout du support pour les tendances (provenant de Spotify) dans plus de 75 pays.
+- Correction d'un problème où certaines playlists, albums ou chansons apparaissaient vides ou incomplètes dans certains pays.
+- Correction des téléchargements interrompus ou arrêtés lors de l'exécution en arrière-plan.
+- Correction de divers problèmes liés au mode hors ligne pour une expérience d'écoute plus fiable.
+- Corrections de bugs mineurs et améliorations des performances.
+
+### Si vous avez une suggestion (nouveau module ou correctif), envoyez-moi un message sur telegram
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Fonctionnalités
 
 <div align="center">
 
-🎧 **Streaming Haute Qualité**   ·   📥 **Téléchargements Hors Ligne**   ·   ❤️ **Likes & Playlists Personnalisées**  
-🔄 **Lecture en Arrière-plan**   ·   🚫 **Aucune Connexion Requise**   ·   🆓 **100% Gratuit & Sans Publicité**
+🎧 **Streaming Haute Qualité**   ·   📥 **Téléchargements Hors Ligne**   ·   ❤️ **Favoris & Playlists Personnalisées**  
+🔄 **Lecture en Arrière-Plan**   ·   🚫 **Aucune Connexion Requise**   ·   🆓 **100% Gratuit & Sans Publicité**
 
 </div>
 
@@ -102,51 +117,52 @@
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*D'autres langues arrivent bientôt — contributions bienvenues !*
+*Plus de langues à venir — contributions bienvenues !*
 
 
 ---
 
-### 🎨 Apparence & Expérience
-- **UI repensée** – design épuré et moderne avec transitions fluides
-- **Mini Lecteur** – mini lecteur en forme de capsule sur appareils compatibles (OnePlus, etc.)
-- **Thèmes** – Mode sombre, mode clair et mode automatique
+### 🎨 Apparence & Sensation
+- **Interface renouvelée** – design épuré et moderne avec transitions fluides
+- **Mini lecteur** – mini lecteur en forme de capsule sur les appareils compatibles (OnePlus, etc.)
+- **Thématisation** – Mode sombre, mode clair et mode automatique
 
 ### 🎼 Expérience musicale
 - **Recherche** – trouvez des chansons, playlists publiques, albums et artistes
-- **Écoute hors ligne** – téléchargez des morceaux et écoutez-les sans connexion internet
+- **Écoute hors ligne** – téléchargez des titres et écoutez-les sans internet
 - **Playlists personnalisées** – créez, gérez et organisez vos propres collections
-- **Chansons tendance** – morceaux populaires par région grâce à IPinfo
-- **Albums & Playlists d'artistes** – navigation complète dans la discographie désormais prise en charge
+- **Importer de la musique** directement depuis l’URL de la playlist spotify
+- **Chansons tendances** – titres tendances par région grâce à IPinfo
+- **Albums & playlists d’artiste** – navigation complète dans la discographie désormais prise en charge
 
-### ⚡ Performance et Stabilité
+### ⚡ Performance & Stabilité
 - **API YouTube améliorée** – streaming plus fiable
 - **Améliorations de lecture** – performance plus fluide, correction des bugs de durée et de lecture en arrière-plan
-- **Contrôles casque & écran verrouillé** – commandes de notification transparentes
-- **Chansons d’artiste paginées** – tous les morceaux se chargent complètement
+- **Contrôles casque & écran verrouillé** – contrôles de notification fluides
+- **Chansons d’artiste paginées** – toutes les chansons se chargent complètement
 
 ---
 
 ## 📖 Aperçu
 
-Ce monorepo propose **deux applications de streaming musical totalement indépendantes** construites avec des technologies de pointe :
+Ce monorepo propose **deux applications de streaming musical totalement indépendantes** construites avec des technologies de pointe :
 
 | Application | Plateformes | Framework | Emplacement |
 |-------------|-------------|-----------|-------------|
-| 📱 **Mobile** | Android, iOS *(à venir)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Bureau** | macOS, Windows/Linux *(à venir)* | Tauri + React | `openspot-desktop/` |
+| 📱 **Mobile** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-Les deux applications partagent le même moteur de streaming puissant, vous offrant une expérience d’écoute fluide sur tous vos appareils.
+Les deux applications partagent le même noyau de streaming puissant, vous offrant une expérience d’écoute fluide sur tous vos appareils.
 
 ---
 
-## 🧰 Pile technique
+## 🧰 Pile technologique
 
 ### 📱 Mobile
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
 
 ### 🖥️ Bureau
-`Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
+`Tauri` · `React` · `Material‑UI` · `React Context + useReducer`
 
 ### 📊 Composition du code
 ![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
@@ -159,7 +175,7 @@ Les deux applications partagent le même moteur de streaming puissant, vous offr
 ## 🌍 Communauté & Support
 
 - 💬 **Telegram** : [@openspot_music](https://t.me/openspot_music)
-- 🐛 **Problèmes** : [Problèmes GitHub](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 🐛 **Problèmes** : [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
@@ -181,12 +197,12 @@ Ce projet est sous licence **MIT License** – voir le fichier [LICENSE](./LICEN
 <div align="center">
   <strong>⭐ Si vous appréciez OpenSpot Music, laissez une étoile – cela aide vraiment !</strong>
   <br />
-  <em>Votre soutien fait vivre la musique pour tous.</em>
+  <em>Votre soutien permet à la musique de continuer pour tout le monde.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

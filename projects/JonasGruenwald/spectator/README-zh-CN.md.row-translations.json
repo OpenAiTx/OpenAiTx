@@ -1,0 +1,428 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GHZj3At4HssXypgMgOv5ZxyOdV6iOxp4v4hBAGJ9Y6Y=",
+    "originContent": "## <img width=16 src=\"https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/spectator/src/spectator/internal/assets/lucy_spectator.svg\"> Spectator",
+    "translatedContent": "## <img width=16 src=\"https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/spectator/src/spectator/internal/assets/lucy_spectator.svg\"> Spectator"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "KrX0Ejrxnbnufh77yYfPhDNFJmeR0l+ooSYc+IDdlhw=",
+    "originContent": "[![Package Version](https://img.shields.io/hexpm/v/spectator)](https://hex.pm/packages/spectator)",
+    "translatedContent": "[![Package Version](https://img.shields.io/hexpm/v/spectator)](https://hex.pm/packages/spectator)"
+  },
+  {
+    "row": 4,
+    "rowsha": "Er3mpk+hhPPzgvXYgSjJqz4Qrljf7adjyGQ4WtkCt9w=",
+    "originContent": "[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/spectator/)",
+    "translatedContent": "[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/spectator/)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "Qj7Uai1SGDIEEouBVq+ZCJVcqXxppfaW9K575871zHM=",
+    "originContent": "Spectator is a BEAM observer tool written in Gleam, that plays well with gleam_otp processes.",
+    "translatedContent": "Spectator 是一个用 Gleam 编写的 BEAM 观察工具，能够很好地配合 gleam_otp 进程使用。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "mhgIEBzHgTqORa+AgrYyXlxvabpqDik75IU24nPxq5M=",
+    "originContent": "![](https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/screenshot.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/screenshot.png)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 功能"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "SzI/aYY28WmZnD0Y6qu4b+pOnyHqDRQ/jEINUjXlOoA=",
+    "originContent": "So far, spectator has the following features:",
+    "translatedContent": "到目前为止，spectator 具备以下功能："
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ATwlONLUf3iXDwqRtk8NhkQGOz29bX7QLPYQZlG07y0=",
+    "originContent": "- Show processes in a sortable table",
+    "translatedContent": "- 以可排序的表格显示进程"
+  },
+  {
+    "row": 15,
+    "rowsha": "4DPxZZ5vQYD7ZOjiiARlkhkINsHZ77FnlrXHm5Q3otQ=",
+    "originContent": "- Tag individual processes for easy identification",
+    "translatedContent": "- 为单个进程添加标签，便于识别"
+  },
+  {
+    "row": 16,
+    "rowsha": "sGH8tLlPaBKdgsB3wojsb8NygQSFurnsuxozHzDumsM=",
+    "originContent": "- Show process details",
+    "translatedContent": "- 显示进程详情"
+  },
+  {
+    "row": 17,
+    "rowsha": "/LeltNnKKf6ZmpNl5GlWtBb442utU37tA7I8TPaobmA=",
+    "originContent": "- Show OTP process state",
+    "translatedContent": "- 显示 OTP 进程状态"
+  },
+  {
+    "row": 18,
+    "rowsha": "1X6HvS/vOTX2GrHCFnea+A+tpUP8oKGZNS15JhYkacs=",
+    "originContent": "- Suspend / resume OTP processes",
+    "translatedContent": "- 挂起 / 恢复 OTP 进程"
+  },
+  {
+    "row": 19,
+    "rowsha": "R2SEBFZtQDdX3SD6Dtyr7vmF18zJAqygIu8SDbV4nwg=",
+    "originContent": "- List ETS tables",
+    "translatedContent": "- 列出 ETS 表"
+  },
+  {
+    "row": 20,
+    "rowsha": "HQbEeYyWgm4QkGFURktiPr0pBIpwN0SO3WzNUZLdxPM=",
+    "originContent": "- View content of ETS tables",
+    "translatedContent": "- 查看 ETS 表内容"
+  },
+  {
+    "row": 21,
+    "rowsha": "66owAoksyWf3W/qt8bGgNUr7iSw8Ts2RbGQTVm3EPt4=",
+    "originContent": "- List of active ports",
+    "translatedContent": "- 列出活动端口"
+  },
+  {
+    "row": 22,
+    "rowsha": "m7RJi71tFgANzg/LVxIgryLXAl/j/DeWmOiu5EQTs+w=",
+    "originContent": "- Clickable links between resources",
+    "translatedContent": "- 资源间可点击链接"
+  },
+  {
+    "row": 23,
+    "rowsha": "bjD735Dt8WmOawTLOWJjoY1YNCUulbIbtIUeGtKXWLw=",
+    "originContent": "- Dashboard with basic statistics",
+    "translatedContent": "- 带有基础统计信息的仪表盘"
+  },
+  {
+    "row": 24,
+    "rowsha": "lIkMRFCSgLkCzqjturIuYDSdClBmGOuCrJ1vzkIlILo=",
+    "originContent": "- Inspect other BEAM nodes",
+    "translatedContent": "- 检查其他 BEAM 节点"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "4LWcgf68Ev0M01La2vkgHaxhb0lOdaqHnZgsKajLZoE=",
+    "originContent": "## Use Spectator in Development",
+    "translatedContent": "## 在开发中使用 Spectator"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "BIVEs8m4mPCR3sBCvDx1Y05HnHpmgQdDdxmYPsIskRQ=",
+    "originContent": "You can install spectator as a dependency in your project, and run it as part of your application to inspect your app in development.",
+    "translatedContent": "你可以将 spectator 作为依赖安装到你的项目中，并将其作为应用的一部分运行，以便在开发中检查你的应用。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 31,
+    "rowsha": "EFJCxGk8lO7RgFjKMC0GBj6cAdNgJqTXXXG4vEpHir8=",
+    "originContent": "gleam add spectator",
+    "translatedContent": "gleam add spectator"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "有关如何操作的详细信息，请参见 [package README](https://hexdocs.pm/spectator/)"
+  },
+  {
+    "row": 34,
+    "rowsha": "l5o/MgebruBjPipExa+SKg4oilEYAWG4aoaHLvEazeY=",
+    "originContent": "For details on how to do this, see the [package README](https://hexdocs.pm/spectator/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 在生产环境中使用 Spectator"
+  },
+  {
+    "row": 36,
+    "rowsha": "KwqEMsenMHhwG/G3e1NziMYhwp5Srbi493b0GyiPJL0=",
+    "originContent": "## Use Spectator in Production",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "您可以通过将 spectator 作为独立应用运行，并通过分布式连接到您的应用运行的 erlang 节点，使用 spectator 来检查运行您已部署应用的 BEAM 节点。"
+  },
+  {
+    "row": 38,
+    "rowsha": "D4i2/GWbJ3UynZ5muz/KkrAKNf3tJNlT/59mfJ1kBkE=",
+    "originContent": "You can use spectator to inspect the BEAM node running your deployed application by running spectator as a standalone app, and connecting it to the erlang node your application is running on via distribution.",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "独立的 spectator 应用程序可通过 `ghcr.io/jonasgruenwald/spectator` 作为 docker 镜像获得，也可通过 [releases 页面](https://github.com/JonasGruenwald/spectator/releases) 以 escript 形式获得。"
+  },
+  {
+    "row": 40,
+    "rowsha": "fji1CCBM7B/eeSDgshCVgBpAfnjbYVIsRzFmCIK3q6I=",
+    "originContent": "The standalone spectator application is available as a docker image via `ghcr.io/jonasgruenwald/spectator`, and as an escript via the [releases page](https://github.com/JonasGruenwald/spectator/releases).",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "仓库中包含[如何使用 spectator 检查通过 docker 部署的应用的完整示例](https://github.com/JonasGruenwald/spectator/tree/main/example#readme)。"
+  },
+  {
+    "row": 42,
+    "rowsha": "9Qo+PoSD4lw1uLY/WNPbwhd1Uxs7adz5sGuFpPac1Wg=",
+    "originContent": "The repo contains [a full example of how to use spectator to inspect an app deployed via docker](https://github.com/JonasGruenwald/spectator/tree/main/example#readme).",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "首先，确保您的应用程序已设置 Erlang 名称和 cookie，例如通过在应用启动前设置 `ERL_FLAGS` 环境变量："
+  },
+  {
+    "row": 44,
+    "rowsha": "MuPefChhWTvxDi8SH7Mqax41HmUUW4t9+9E8C4v06wQ=",
+    "originContent": "First, ensure your application has an Erlang name and cookie set, for example by setting the `ERL_FLAGS` environment variable before your application is started:",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 47,
+    "rowsha": "GPNDF6AcGepoaAvlyjcwD8yD7DO7Cxnfe7Auz6sBdlQ=",
+    "originContent": "ERL_FLAGS=\"-name myapp@host -setcookie mycookie\"",
+    "translatedContent": "ERL_FLAGS=\"-name myapp@host -setcookie mycookie\""
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您的应用程序运行在 Docker 容器中，请将您的应用程序容器和运行 spectator 的容器放在同一个 Docker 网络中，并确保您的应用程序容器的主机名设置为您知道的值。"
+  },
+  {
+    "row": 50,
+    "rowsha": "1vNRa//LVCopOEDcIhr2N0kuuJxrWhGRI3PkGH8VW8E=",
+    "originContent": "If your application is running in a docker container, put both your applications container, and the container running spectator on the same docker network, and ensure that your applications container has its hostname set to a value you know.",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "启动 spectator，点击应用程序右上角的“Change Target（更改目标）”。"
+  },
+  {
+    "row": 52,
+    "rowsha": "1FZebZfLbn9p0i6SV+m6uzDWaWZjx4CusseDDEUfyco=",
+    "originContent": "Start spectator, and click 'Change Target' in the top right corner of the application.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "输入您希望检查的节点的详细信息，名称应为您通过 `-sname` 设置的名称，后跟 `@`，然后是主机名。"
+  },
+  {
+    "row": 54,
+    "rowsha": "Kcen9t5LSTIpW9UEOxzmaz2J49VtUp0tggAYnnVX4KM=",
+    "originContent": "Enter the details of the node you wish to inspect, the name should be the name you set via `-sname`, followed by `@`, and then the hostname.",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "最后，点击“Connect（连接）”，以检查您的应用程序节点。"
+  },
+  {
+    "row": 56,
+    "rowsha": "Fi27MlrQ30e0a09arQss9HEGDHIrKdXq3C8YoVEMjHI=",
+    "originContent": "Finally, click 'Connect', to inspect the your application node.",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "请注意，检查目标必须设置与 spectator 相同的 Erlang cookie。就像您的应用程序一样，您可以通过 `ERL_FLAGS` 环境变量配置 spectator 的 cookie，例如 `ERL_FLAGS=\"-name spectator@127.0.0.1 -setcookie mycookie\"`。"
+  },
+  {
+    "row": 58,
+    "rowsha": "kjM2CfbW1H/34d3DvmSCwNe/T/vMcDHVlhbZj6/gqh0=",
+    "originContent": "Note that the inspection target must have the same Erlang cookie set as spectator. Just like with your application, you can configure spectator's cookie via the `ERL_FLAGS` environment variable, e.g. `ERL_FLAGS=\"-name spectator@127.0.0.1 -setcookie mycookie\"`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 注意事项"
+  },
+  {
+    "row": 60,
+    "rowsha": "wRZ+2t7Sixqc50m5Nnik6iBxpB5a2whf+nEcX0VW8P0=",
+    "originContent": "## Considerations",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "请注意运行 spectator 可能带来的以下影响："
+  },
+  {
+    "row": 62,
+    "rowsha": "iaRVyHmJH6+xrETBhS7zz5m5E5ACNiPDqNNKnfx2cDE=",
+    "originContent": "Please be aware of the following implications of running spectator:",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Spectator 可能会降低系统性能**  "
+  },
+  {
+    "row": 64,
+    "rowsha": "RPr8p9cLRFFh+A5wbdJsR5mr24uPMD47FSUr887xu7o=",
+    "originContent": "- **Spectator may slow down your system**  ",
+    "translatedContent": "  所有显示的进程都会在配置的时间间隔内通过 Erlang 的 `process_info/2` 函数进行探测，该函数会对被探测的进程施加临时锁定。如果进程处理大量消息，这可能会对系统性能产生影响。"
+  },
+  {
+    "row": 65,
+    "rowsha": "5fEYllauXR3kcmSyFMJIMczou3Yp0weWfPLSVjUxbiU=",
+    "originContent": "  All displayed processes are probed in the configured interval using Erlang's `process_info/2` function which puts a temporary lock on the process being infoed. If the process is handling a lot of messages, this may have performance implications for the system",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Spectator 会动态创建原子**  "
+  },
+  {
+    "row": 67,
+    "rowsha": "EqjB8zD6Yi/IeGUzuyJ+DHMHtZ44KZ0Mv9au09QXaNU=",
+    "originContent": "- **Spectator will create atoms dynamically**  ",
+    "translatedContent": "  当您选择连接到其他 Erlang 节点时，spectator 需要将您提供的节点名称转换为原子。因此，使用其用户界面有可能耗尽运行 spectator 的 BEAM 实例的内存，因为原子永远不会被垃圾回收。"
+  },
+  {
+    "row": 68,
+    "rowsha": "RpO4ylX5vik8atFiaODFJvj8lQMr2j+s5OP/ovMFrGc=",
+    "originContent": "  When you choose to connect to other Erlang nodes, spectator needs to convert the node name you provide into an atom. Therefore it is possible to exhaust the memory of the BEAM instance running spectator using its user interface, as atoms are never garbage collected.",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "FVx/fdAGVaI+6A4hsHi72qSrK2V68Cxly/TkjygSt4U=",
+    "originContent": "- **Spectator does not include Access Control**  ",
+    "translatedContent": "- **Spectator 不包含访问控制**  "
+  },
+  {
+    "row": 70,
+    "rowsha": "/Z/Bqw0n3lUa1vKfzW/5U9XkRMnQpK+wG/ivyzTD8VU=",
+    "originContent": "  Spectator exposes sensitive details about the runtime it is inspecting via its web interface and does not currently gate access to it.  ",
+    "translatedContent": "  Spectator 通过其 Web 界面暴露了其正在检查的运行时的敏感细节，当前并未限制访问。  "
+  },
+  {
+    "row": 71,
+    "rowsha": "k+IPm7iuCWqaoBTyLsC7xrvA8WwCoBqWKMiincNQg/k=",
+    "originContent": "  If you use spectator in a production environment, you are responsible for securing it – make sure to never expose spectator to the public internet.",
+    "translatedContent": "  如果您在生产环境中使用 spectator，您有责任保护它——确保绝不将 spectator 暴露在公共互联网中。"
+  }
+]

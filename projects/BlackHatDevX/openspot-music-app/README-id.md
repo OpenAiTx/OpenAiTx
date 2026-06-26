@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -79,8 +80,9 @@
 
 <!-- Teks CTA -->
 <h3>
- Unduh 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">DI SINI</a>
+ Unduh(v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">DI SINI</a>
 </h3>
+<i>tanggal rilis: 03/06/2026</i>
 
 <br>
 
@@ -88,6 +90,19 @@
 
 </div>
 
+### Apa yang Baru di v3.1.5
+
+- Impor musik langsung dari URL playlist publik Spotify mana pun.
+- Menambahkan dukungan untuk Trending (dari Spotify) di 75+ negara.
+- Memperbaiki masalah di mana beberapa playlist, album, atau lagu tampak kosong atau tidak lengkap di beberapa negara.
+- Memperbaiki unduhan yang terputus atau berhenti saat berjalan di latar belakang.
+- Memperbaiki berbagai masalah mode offline untuk pengalaman mendengarkan yang lebih andal.
+- Perbaikan bug minor dan peningkatan performa.
+
+### Jika Anda memiliki saran (fitur baru atau perbaikan), kirim pesan ke telegram saya
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Fitur
 
@@ -103,44 +118,45 @@
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
 *Lebih banyak bahasa akan segera hadir — kontribusi sangat diterima!*
-
-
 ---
 
 ### 🎨 Tampilan & Nuansa
-- **UI Diperbarui** – desain bersih dan modern dengan transisi mulus
-- **Mini Player** – pemutar mini bergaya kapsul di perangkat yang kompatibel (OnePlus, dll.)
+- **UI Diperbarui** – desain bersih dan modern dengan transisi yang mulus
+- **Mini Player** – mini player bergaya kapsul di perangkat yang kompatibel (OnePlus, dll.)
 - **Tema** – Mode Gelap, Mode Terang, dan Mode Otomatis
 
 ### 🎼 Pengalaman Musik
-- **Cari** – temukan lagu, playlist publik, album, dan artis
-- **Dengarkan Offline** – unduh lagu dan putar tanpa internet
+- **Pencarian** – temukan lagu, playlist publik, album, dan artis
+- **Mendengarkan Offline** – unduh lagu dan putar tanpa internet
 - **Playlist Kustom** – buat, kelola, dan atur koleksi Anda sendiri
-- **Lagu Trending** – lagu trending berdasarkan wilayah didukung oleh IPinfo
+- **Impor Musik** langsung dari url playlist spotify
+- **Lagu Trending** – lagu trending berbasis wilayah didukung oleh IPinfo
 - **Album & Playlist Artis** – penjelajahan diskografi lengkap kini didukung
 
 ### ⚡ Performa & Stabilitas
-- **API YouTube yang Ditingkatkan** – streaming lebih andal
-- **Peningkatan Pemutaran** – performa lebih halus, perbaikan bug durasi dan pemutaran latar belakang
-- **Kontrol Headset & Lockscreen** – kontrol notifikasi tanpa hambatan
-- **Paginated Artist Songs** – semua lagu dimuat secara lengkap
+- **API YouTube Ditingkatkan** – streaming lebih andal
+- **Peningkatan Pemutaran** – performa lebih mulus, perbaikan bug durasi dan pemutaran latar belakang
+- **Kontrol Headset & Lockscreen** – kontrol notifikasi yang mulus
+- **Lagu Artis Berpaginasi** – semua lagu dimuat secara lengkap
 
 ---
 
 ## 📖 Ikhtisar
 
-Monorepo ini menghadirkan **dua aplikasi streaming musik independen** yang dibangun dengan teknologi mutakhir:
+Monorepo ini menghadirkan **dua aplikasi streaming musik yang benar-benar independen** dengan teknologi mutakhir:
 
 | Aplikasi | Platform | Framework | Lokasi |
 |----------|----------|-----------|--------|
-| 📱 **Mobile** | Android, iOS *(segera)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Desktop** | macOS, Windows/Linux *(segera)* | Tauri + React | `openspot-desktop/` |
+| 📱 **Mobile** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-Kedua aplikasi berbagi inti streaming yang sama, memberikan pengalaman mendengarkan yang mulus di semua perangkat Anda.
+Kedua aplikasi menggunakan inti streaming yang sama, memberikan pengalaman mendengarkan yang mulus di semua perangkat Anda.
 
 ---
 
-## 🧰 Stack Teknologi
+## 🧰 Tumpukan Teknologi
+
+
 
 ### 📱 Mobile
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -179,14 +195,14 @@ Proyek ini dilisensikan di bawah **MIT License** – lihat file [LICENSE](./LICE
 ---
 
 <div align="center">
-  <strong>⭐ Jika Anda menikmati OpenSpot Music, beri bintang – ini sangat membantu!</strong>
+  <strong>⭐ Jika Anda menikmati OpenSpot Music, berikan bintang – ini sangat membantu!</strong>
   <br />
-  <em>Dukungan Anda membuat musik tetap mengalun untuk semua orang.</em>
+  <em>Dukungan Anda membuat musik tetap mengalir untuk semua orang.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

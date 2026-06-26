@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -77,11 +78,11 @@
 
 <br>
 
-<!-- 文字行動呼籲 -->
-
+<!-- 文字 CTA -->
 <h3>
- 下載 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">這裡</a>
+ 下載(v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">這裡</a>
 </h3>
+<i>發布日期：03/06/2026</i>
 
 <br>
 
@@ -89,64 +90,78 @@
 
 </div>
 
+### v3.1.5 的新功能
 
-## ✨ 功能特色
+- 可直接從任何公開 Spotify 播放清單網址匯入音樂。
+- 新增支援 75+ 國家 Spotify 熱門榜單。
+- 修正部分國家播放清單、專輯或歌曲顯示為空或不完整的問題。
+- 修復在背景執行時下載會中斷或被終止的問題。
+- 修正離線模式的各種問題，提升聆聽體驗穩定性。
+- 其他小錯誤修復及效能提升。
+
+### 如果有任何建議（新增功能或修正），請在 Telegram 上聯絡我
+> https://t.me/deveIoper_X
+
+---
+
+## ✨ 特色
 
 <div align="center">
 
-🎧 **高品質串流**   ·   📥 **離線下載**   ·   ❤️ **喜愛與自訂播放清單**  
-🔄 **背景播放**   ·   🚫 **免登入使用**   ·   🆓 **100% 免費且無廣告**
+🎧 **高音質串流**   ·   📥 **離線下載**   ·   ❤️ **收藏及自訂播放清單**  
+🔄 **背景播放**   ·   🚫 **免登入**   ·   🆓 **100% 免費且無廣告**
 
 </div>
 
 ### 🌍 支援語言 (i18n)
-| 🇩🇪 德語 | 🇺🇸 英文 | 🇪🇸 西班牙文 | 🇫🇷 法文 | 🇮🇱 希伯來文 | 🇮🇳 印地語 | 🇷🇺 俄文 | 🇨🇳 中文 | 🇹🇷 土耳其文 |
+| 🇩🇪 德語 | 🇺🇸 英語 | 🇪🇸 西班牙語 | 🇫🇷 法語 | 🇮🇱 希伯來語 | 🇮🇳 印地語 | 🇷🇺 俄語 | 🇨🇳 中文 | 🇹🇷 土耳其語 |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*更多語言即將推出 — 歡迎貢獻！*
-
-
+*更多語言即將推出 — 歡迎貢獻!*
 ---
 
-### 🎨 介面設計
-- **全新介面** – 乾淨現代風格，動畫流暢切換
-- **迷你播放器** – 支援相容裝置（如 OnePlus）膠囊式迷你播放器
-- **主題切換** – 支援深色模式、淺色模式與自動模式
+### 🎨 外觀與感受
+- **全新 UI** – 乾淨、現代的設計，流暢的過場動畫
+- **迷你播放器** – 膠囊式迷你播放器，適用於兼容裝置（如 OnePlus 等）
+- **主題切換** – 深色模式、淺色模式、自動模式
 
 ### 🎼 音樂體驗
-- **搜尋功能** – 尋找歌曲、公開歌單、專輯與藝人
-- **離線收聽** – 下載曲目，無網路也能播放
-- **自訂播放清單** – 建立、管理與整理個人收藏
-- **熱門歌曲** – 根據地區顯示 IPinfo 推薦熱門曲目
-- **藝人專輯與歌單** – 現支援完整瀏覽藝人作品集
+- **搜尋** – 尋找歌曲、公開播放清單、專輯和藝人
+- **離線收聽** – 下載曲目，無網路也可播放
+- **自訂播放清單** – 建立、管理並組織自己的收藏
+- **直接匯入音樂** 從 spotify 播放清單網址
+- **熱門歌曲** – 基於區域的熱門曲目，由 IPinfo 提供
+- **藝人專輯與播放清單** – 現已支援完整作品集瀏覽
 
 ### ⚡ 效能與穩定性
-- **改進的 YouTube API** – 更可靠的串流播放
-- **播放升級** – 更順暢的效能，修正時長與背景播放錯誤
-- **耳機及鎖定畫面控制** – 流暢的通知控制
-- **分頁載入歌手歌曲** – 所有歌曲完全載入
+- **優化 YouTube API** – 串流更可靠
+- **播放升級** – 更流暢的效能，修復播放時長及背景播放問題
+- **耳機與鎖定螢幕控制** – 通知控制無縫運作
+- **分頁載入藝人歌曲** – 所有歌曲完整載入
 
 ---
 
-## 📖 概覽
+## 📖 概述
 
-此單一程式庫提供了**兩套完全獨立的音樂串流應用程式**，採用最先進的技術構建：
+此 monorepo 提供了**兩款完全獨立的音樂串流應用程式**，採用最先進技術打造：
 
 | 應用程式 | 平台 | 框架 | 位置 |
 |----------|------|------|------|
-| 📱 **行動版** | Android, iOS *(即將推出)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **桌面版** | macOS, Windows/Linux *(即將推出)* | Tauri + React | `openspot-desktop/` |
+| 📱 **行動版** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **桌面版** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-兩個應用程式共用同一強大的串流核心，讓你在所有裝置上享受無縫的聆聽體驗。
+兩款應用程式共用強大的串流核心，讓你在所有裝置上享受無縫聽音樂體驗。
 
 ---
 
 ## 🧰 技術堆疊
 
-### 📱 行動版
+
+
+### 📱 行動裝置
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
 
-### 🖥️ 桌面版
+### 🖥️ 桌面端
 `Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
 ### 📊 程式碼組成
@@ -170,24 +185,24 @@
 
 [![GitHub](https://img.shields.io/badge/BlackHatDevX-181717?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX)  
 [![LinkedIn](https://img.shields.io/badge/jash--gro-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jash-gro/)  
-[![作品集](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
+[![Portfolio](https://img.shields.io/badge/Portfolio-bit.ly/jashgro-ff69b4?style=for-the-badge)](https://bit.ly/jashgro)
 
 
-## 📄 授權
+## 📄 授權條款
 
-本專案採用 **MIT 授權條款** – 詳情請參閱 [LICENSE](./LICENSE) 文件。
+本專案採用 **MIT License** 授權 – 詳情請參閱 [LICENSE](./LICENSE) 檔案。
 
 ---
 
 <div align="center">
-  <strong>⭐ 如果你喜歡 OpenSpot Music，請給個星星鼓勵——你的支持真的很重要！</strong>
+  <strong>⭐ 如果你喜歡 OpenSpot Music，請幫我們加顆星——這真的很有幫助！</strong>
   <br />
-  <em>你的支持讓大家都能繼續聆聽音樂。</em>
+  <em>您的支持讓音樂持續為大家播放。</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

@@ -1,0 +1,428 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GHZj3At4HssXypgMgOv5ZxyOdV6iOxp4v4hBAGJ9Y6Y=",
+    "originContent": "## <img width=16 src=\"https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/spectator/src/spectator/internal/assets/lucy_spectator.svg\"> Spectator",
+    "translatedContent": "## <img width=16 src=\"https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/spectator/src/spectator/internal/assets/lucy_spectator.svg\"> Spectator"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "KrX0Ejrxnbnufh77yYfPhDNFJmeR0l+ooSYc+IDdlhw=",
+    "originContent": "[![Package Version](https://img.shields.io/hexpm/v/spectator)](https://hex.pm/packages/spectator)",
+    "translatedContent": "[![Package Version](https://img.shields.io/hexpm/v/spectator)](https://hex.pm/packages/spectator)"
+  },
+  {
+    "row": 4,
+    "rowsha": "Er3mpk+hhPPzgvXYgSjJqz4Qrljf7adjyGQ4WtkCt9w=",
+    "originContent": "[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/spectator/)",
+    "translatedContent": "[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/spectator/)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "Qj7Uai1SGDIEEouBVq+ZCJVcqXxppfaW9K575871zHM=",
+    "originContent": "Spectator is a BEAM observer tool written in Gleam, that plays well with gleam_otp processes.",
+    "translatedContent": "Spectator est un outil d’observation BEAM écrit en Gleam, qui fonctionne bien avec les processus gleam_otp."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "mhgIEBzHgTqORa+AgrYyXlxvabpqDik75IU24nPxq5M=",
+    "originContent": "![](https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/screenshot.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/screenshot.png)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Fonctionnalités"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "SzI/aYY28WmZnD0Y6qu4b+pOnyHqDRQ/jEINUjXlOoA=",
+    "originContent": "So far, spectator has the following features:",
+    "translatedContent": "Jusqu’à présent, spectator offre les fonctionnalités suivantes :"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ATwlONLUf3iXDwqRtk8NhkQGOz29bX7QLPYQZlG07y0=",
+    "originContent": "- Show processes in a sortable table",
+    "translatedContent": "- Afficher les processus dans un tableau triable"
+  },
+  {
+    "row": 15,
+    "rowsha": "4DPxZZ5vQYD7ZOjiiARlkhkINsHZ77FnlrXHm5Q3otQ=",
+    "originContent": "- Tag individual processes for easy identification",
+    "translatedContent": "- Marquer des processus individuels pour une identification facile"
+  },
+  {
+    "row": 16,
+    "rowsha": "sGH8tLlPaBKdgsB3wojsb8NygQSFurnsuxozHzDumsM=",
+    "originContent": "- Show process details",
+    "translatedContent": "- Afficher les détails du processus"
+  },
+  {
+    "row": 17,
+    "rowsha": "/LeltNnKKf6ZmpNl5GlWtBb442utU37tA7I8TPaobmA=",
+    "originContent": "- Show OTP process state",
+    "translatedContent": "- Afficher l’état du processus OTP"
+  },
+  {
+    "row": 18,
+    "rowsha": "1X6HvS/vOTX2GrHCFnea+A+tpUP8oKGZNS15JhYkacs=",
+    "originContent": "- Suspend / resume OTP processes",
+    "translatedContent": "- Suspendre / reprendre les processus OTP"
+  },
+  {
+    "row": 19,
+    "rowsha": "R2SEBFZtQDdX3SD6Dtyr7vmF18zJAqygIu8SDbV4nwg=",
+    "originContent": "- List ETS tables",
+    "translatedContent": "- Lister les tables ETS"
+  },
+  {
+    "row": 20,
+    "rowsha": "HQbEeYyWgm4QkGFURktiPr0pBIpwN0SO3WzNUZLdxPM=",
+    "originContent": "- View content of ETS tables",
+    "translatedContent": "- Voir le contenu des tables ETS"
+  },
+  {
+    "row": 21,
+    "rowsha": "66owAoksyWf3W/qt8bGgNUr7iSw8Ts2RbGQTVm3EPt4=",
+    "originContent": "- List of active ports",
+    "translatedContent": "- Liste des ports actifs"
+  },
+  {
+    "row": 22,
+    "rowsha": "m7RJi71tFgANzg/LVxIgryLXAl/j/DeWmOiu5EQTs+w=",
+    "originContent": "- Clickable links between resources",
+    "translatedContent": "- Liens cliquables entre les ressources"
+  },
+  {
+    "row": 23,
+    "rowsha": "bjD735Dt8WmOawTLOWJjoY1YNCUulbIbtIUeGtKXWLw=",
+    "originContent": "- Dashboard with basic statistics",
+    "translatedContent": "- Tableau de bord avec statistiques de base"
+  },
+  {
+    "row": 24,
+    "rowsha": "lIkMRFCSgLkCzqjturIuYDSdClBmGOuCrJ1vzkIlILo=",
+    "originContent": "- Inspect other BEAM nodes",
+    "translatedContent": "- Inspecter d’autres nœuds BEAM"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "4LWcgf68Ev0M01La2vkgHaxhb0lOdaqHnZgsKajLZoE=",
+    "originContent": "## Use Spectator in Development",
+    "translatedContent": "## Utiliser Spectator en développement"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "BIVEs8m4mPCR3sBCvDx1Y05HnHpmgQdDdxmYPsIskRQ=",
+    "originContent": "You can install spectator as a dependency in your project, and run it as part of your application to inspect your app in development.",
+    "translatedContent": "Vous pouvez installer spectator comme dépendance dans votre projet, et l’exécuter comme partie de votre application pour inspecter votre app en développement."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 31,
+    "rowsha": "EFJCxGk8lO7RgFjKMC0GBj6cAdNgJqTXXXG4vEpHir8=",
+    "originContent": "gleam add spectator",
+    "translatedContent": "gleam add spectator"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pour plus de détails sur la façon de faire cela, consultez le [README du package](https://hexdocs.pm/spectator/)"
+  },
+  {
+    "row": 34,
+    "rowsha": "l5o/MgebruBjPipExa+SKg4oilEYAWG4aoaHLvEazeY=",
+    "originContent": "For details on how to do this, see the [package README](https://hexdocs.pm/spectator/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Utiliser Spectator en Production"
+  },
+  {
+    "row": 36,
+    "rowsha": "KwqEMsenMHhwG/G3e1NziMYhwp5Srbi493b0GyiPJL0=",
+    "originContent": "## Use Spectator in Production",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Vous pouvez utiliser spectator pour inspecter le nœud BEAM exécutant votre application déployée en lançant spectator comme une application autonome, et en le connectant au nœud erlang sur lequel votre application tourne via la distribution."
+  },
+  {
+    "row": 38,
+    "rowsha": "D4i2/GWbJ3UynZ5muz/KkrAKNf3tJNlT/59mfJ1kBkE=",
+    "originContent": "You can use spectator to inspect the BEAM node running your deployed application by running spectator as a standalone app, and connecting it to the erlang node your application is running on via distribution.",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "L'application spectator autonome est disponible sous forme d'image docker via `ghcr.io/jonasgruenwald/spectator`, et sous forme d'escript via la [page des releases](https://github.com/JonasGruenwald/spectator/releases)."
+  },
+  {
+    "row": 40,
+    "rowsha": "fji1CCBM7B/eeSDgshCVgBpAfnjbYVIsRzFmCIK3q6I=",
+    "originContent": "The standalone spectator application is available as a docker image via `ghcr.io/jonasgruenwald/spectator`, and as an escript via the [releases page](https://github.com/JonasGruenwald/spectator/releases).",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Le dépôt contient [un exemple complet de l'utilisation de spectator pour inspecter une application déployée via docker](https://github.com/JonasGruenwald/spectator/tree/main/example#readme)."
+  },
+  {
+    "row": 42,
+    "rowsha": "9Qo+PoSD4lw1uLY/WNPbwhd1Uxs7adz5sGuFpPac1Wg=",
+    "originContent": "The repo contains [a full example of how to use spectator to inspect an app deployed via docker](https://github.com/JonasGruenwald/spectator/tree/main/example#readme).",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Premièrement, assurez-vous que votre application a un nom Erlang et un cookie définis, par exemple en configurant la variable d'environnement `ERL_FLAGS` avant le démarrage de votre application :"
+  },
+  {
+    "row": 44,
+    "rowsha": "MuPefChhWTvxDi8SH7Mqax41HmUUW4t9+9E8C4v06wQ=",
+    "originContent": "First, ensure your application has an Erlang name and cookie set, for example by setting the `ERL_FLAGS` environment variable before your application is started:",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 47,
+    "rowsha": "GPNDF6AcGepoaAvlyjcwD8yD7DO7Cxnfe7Auz6sBdlQ=",
+    "originContent": "ERL_FLAGS=\"-name myapp@host -setcookie mycookie\"",
+    "translatedContent": "ERL_FLAGS=\"-name myapp@host -setcookie mycookie\""
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "1vNRa//LVCopOEDcIhr2N0kuuJxrWhGRI3PkGH8VW8E=",
+    "originContent": "If your application is running in a docker container, put both your applications container, and the container running spectator on the same docker network, and ensure that your applications container has its hostname set to a value you know.",
+    "translatedContent": "Si votre application s'exécute dans un conteneur Docker, placez à la fois le conteneur de votre application et le conteneur exécutant spectator sur le même réseau Docker, et assurez-vous que le conteneur de votre application a son nom d'hôte défini sur une valeur que vous connaissez."
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "1FZebZfLbn9p0i6SV+m6uzDWaWZjx4CusseDDEUfyco=",
+    "originContent": "Start spectator, and click 'Change Target' in the top right corner of the application.",
+    "translatedContent": "Démarrez spectator, puis cliquez sur « Change Target » dans le coin supérieur droit de l'application."
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "Kcen9t5LSTIpW9UEOxzmaz2J49VtUp0tggAYnnVX4KM=",
+    "originContent": "Enter the details of the node you wish to inspect, the name should be the name you set via `-sname`, followed by `@`, and then the hostname.",
+    "translatedContent": "Entrez les détails du nœud que vous souhaitez inspecter, le nom doit être celui que vous avez défini via `-sname`, suivi de `@`, puis du nom d'hôte."
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "Fi27MlrQ30e0a09arQss9HEGDHIrKdXq3C8YoVEMjHI=",
+    "originContent": "Finally, click 'Connect', to inspect the your application node.",
+    "translatedContent": "Enfin, cliquez sur « Connect » pour inspecter votre nœud d'application."
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "kjM2CfbW1H/34d3DvmSCwNe/T/vMcDHVlhbZj6/gqh0=",
+    "originContent": "Note that the inspection target must have the same Erlang cookie set as spectator. Just like with your application, you can configure spectator's cookie via the `ERL_FLAGS` environment variable, e.g. `ERL_FLAGS=\"-name spectator@127.0.0.1 -setcookie mycookie\"`.",
+    "translatedContent": "Notez que la cible d'inspection doit avoir le même cookie Erlang que spectator. Tout comme pour votre application, vous pouvez configurer le cookie de spectator via la variable d'environnement `ERL_FLAGS`, par exemple `ERL_FLAGS=\"-name spectator@127.0.0.1 -setcookie mycookie\"`."
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "wRZ+2t7Sixqc50m5Nnik6iBxpB5a2whf+nEcX0VW8P0=",
+    "originContent": "## Considerations",
+    "translatedContent": "## Considérations"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "iaRVyHmJH6+xrETBhS7zz5m5E5ACNiPDqNNKnfx2cDE=",
+    "originContent": "Please be aware of the following implications of running spectator:",
+    "translatedContent": "Veuillez prendre en compte les implications suivantes lors de l'utilisation de spectator :"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "RPr8p9cLRFFh+A5wbdJsR5mr24uPMD47FSUr887xu7o=",
+    "originContent": "- **Spectator may slow down your system**  ",
+    "translatedContent": "- **Spectator peut ralentir votre système**  "
+  },
+  {
+    "row": 65,
+    "rowsha": "5fEYllauXR3kcmSyFMJIMczou3Yp0weWfPLSVjUxbiU=",
+    "originContent": "  All displayed processes are probed in the configured interval using Erlang's `process_info/2` function which puts a temporary lock on the process being infoed. If the process is handling a lot of messages, this may have performance implications for the system",
+    "translatedContent": "  Tous les processus affichés sont sondés à l'intervalle configuré en utilisant la fonction Erlang `process_info/2` qui impose un verrou temporaire sur le processus interrogé. Si le processus traite beaucoup de messages, cela peut avoir des répercussions sur les performances du système."
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "EqjB8zD6Yi/IeGUzuyJ+DHMHtZ44KZ0Mv9au09QXaNU=",
+    "originContent": "- **Spectator will create atoms dynamically**  ",
+    "translatedContent": "- **Spectator créera des atomes dynamiquement**  "
+  },
+  {
+    "row": 68,
+    "rowsha": "RpO4ylX5vik8atFiaODFJvj8lQMr2j+s5OP/ovMFrGc=",
+    "originContent": "  When you choose to connect to other Erlang nodes, spectator needs to convert the node name you provide into an atom. Therefore it is possible to exhaust the memory of the BEAM instance running spectator using its user interface, as atoms are never garbage collected.",
+    "translatedContent": "  Lorsque vous choisissez de vous connecter à d'autres nœuds Erlang, spectator doit convertir le nom du nœud que vous fournissez en un atome. Il est donc possible d'épuiser la mémoire de l'instance BEAM exécutant spectator via son interface utilisateur, car les atomes ne sont jamais collectés par le ramasse-miettes."
+  },
+  {
+    "row": 69,
+    "rowsha": "FVx/fdAGVaI+6A4hsHi72qSrK2V68Cxly/TkjygSt4U=",
+    "originContent": "- **Spectator does not include Access Control**  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "/Z/Bqw0n3lUa1vKfzW/5U9XkRMnQpK+wG/ivyzTD8VU=",
+    "originContent": "  Spectator exposes sensitive details about the runtime it is inspecting via its web interface and does not currently gate access to it.  ",
+    "translatedContent": "- **Spectator n'inclut pas de contrôle d'accès**  "
+  },
+  {
+    "row": 71,
+    "rowsha": "k+IPm7iuCWqaoBTyLsC7xrvA8WwCoBqWKMiincNQg/k=",
+    "originContent": "  If you use spectator in a production environment, you are responsible for securing it – make sure to never expose spectator to the public internet.",
+    "translatedContent": "  Spectator expose des détails sensibles sur le runtime qu'il inspecte via son interface web et ne limite actuellement pas l'accès.  "
+  }
+]

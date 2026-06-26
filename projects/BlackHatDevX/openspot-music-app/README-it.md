@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -79,8 +80,9 @@
 
 <!-- Testo CTA -->
 <h3>
- Scarica 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">QUI</a>
+ Scarica(v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">QUI</a>
 </h3>
+<i>data di rilascio: 03/06/2026</i>
 
 <br>
 
@@ -88,6 +90,19 @@
 
 </div>
 
+### Novità della versione v3.1.5
+
+- Importa musica direttamente da qualsiasi URL pubblico di playlist Spotify.
+- Aggiunto supporto per le Tendenze (da Spotify) in oltre 75 paesi.
+- Risolto un problema per cui alcune playlist, album o brani apparivano vuoti o incompleti in alcuni paesi.
+- Risolto il problema dei download interrotti o chiusi mentre erano in esecuzione in background.
+- Risolti vari problemi della modalità offline per un'esperienza di ascolto più affidabile.
+- Correzioni di bug minori e miglioramenti delle prestazioni.
+
+### Se hai suggerimenti (nuove funzioni o correzioni), scrivimi su telegram
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Funzionalità
 
@@ -103,44 +118,45 @@
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
 *Altre lingue in arrivo — contributi benvenuti!*
-
-
 ---
 
-### 🎨 Aspetto & Design
-- **UI Rivisitata** – design pulito e moderno con transizioni fluide
+### 🎨 Aspetto e Sensazione
+- **Interfaccia Utente Rinnovata** – design pulito e moderno con transizioni fluide
 - **Mini Player** – mini player in stile capsula su dispositivi compatibili (OnePlus, ecc.)
-- **Temi** – Modalità Scura, Modalità Chiara e Modalità Automatica
+- **Temi** – Modalità scura, modalità chiara e modalità automatica
 
 ### 🎼 Esperienza Musicale
 - **Ricerca** – trova canzoni, playlist pubbliche, album e artisti
 - **Ascolto Offline** – scarica brani e ascoltali senza internet
 - **Playlist Personalizzate** – crea, gestisci e organizza le tue raccolte
-- **Canzoni di Tendenza** – brani di tendenza basati sulla regione tramite IPinfo
-- **Album & Playlist Artisti** – ora supportata la navigazione completa della discografia
+- **Importa Musica** direttamente dall'URL della playlist di Spotify
+- **Brani di Tendenza** – brani di tendenza in base alla regione grazie a IPinfo
+- **Album e Playlist Artista** – ora supportata la navigazione della discografia completa
 
 ### ⚡ Prestazioni & Stabilità
-- **API YouTube migliorata** – streaming più affidabile
-- **Migliorie alla riproduzione** – prestazioni più fluide, risolti bug sulla durata e sulla riproduzione in background
-- **Controlli cuffie & schermo bloccato** – controlli sulle notifiche senza interruzioni
-- **Paginazione brani artista** – tutti i brani vengono caricati completamente
+- **API YouTube Migliorata** – streaming più affidabile
+- **Migliorie nella Riproduzione** – prestazioni più fluide, risolti bug di durata e riproduzione in background
+- **Controlli Cuffie & Schermata Blocco** – controlli tramite notifiche senza interruzioni
+- **Canzoni Artista Paginati** – tutti i brani vengono caricati completamente
 
 ---
 
 ## 📖 Panoramica
 
-Questo monorepo offre **due app di streaming musicale completamente indipendenti** costruite con tecnologie all’avanguardia:
+Questo monorepo offre **due app di streaming musicale completamente indipendenti** costruite con tecnologie all'avanguardia:
 
-| App | Piattaforme | Framework | Percorso |
-|-----|-------------|-----------|----------|
-| 📱 **Mobile** | Android, iOS *(in arrivo)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Desktop** | macOS, Windows/Linux *(in arrivo)* | Tauri + React | `openspot-desktop/` |
+| App | Piattaforme | Framework | Posizione |
+|-----|-------------|-----------|-----------|
+| 📱 **Mobile** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-Entrambe le app condividono lo stesso potente core di streaming, offrendo un’esperienza di ascolto senza interruzioni su tutti i tuoi dispositivi.
+Entrambe le app condividono lo stesso potente core di streaming, offrendo un'esperienza di ascolto senza interruzioni su tutti i tuoi dispositivi.
 
 ---
 
 ## 🧰 Stack Tecnologico
+
+
 
 ### 📱 Mobile
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -148,7 +164,7 @@ Entrambe le app condividono lo stesso potente core di streaming, offrendo un’e
 ### 🖥️ Desktop
 `Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
-### 📊 Composizione del codice
+### 📊 Composizione del Codice
 ![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-2.6%25-F7DF1E?style=flat-square&logo=javascript)  
 ![CSS](https://img.shields.io/badge/CSS-1.2%25-1572B6?style=flat-square&logo=css3)  
@@ -174,19 +190,19 @@ Entrambe le app condividono lo stesso potente core di streaming, offrendo un’e
 
 ## 📄 Licenza
 
-Questo progetto è concesso sotto licenza **MIT License** – vedi il file [LICENSE](./LICENSE) per i dettagli.
+Questo progetto è concesso in licenza sotto la **Licenza MIT** – vedi il file [LICENSE](./LICENSE) per i dettagli.
 
 ---
 
 <div align="center">
   <strong>⭐ Se ti piace OpenSpot Music, lascia una stella – aiuta davvero!</strong>
   <br />
-  <em>Il tuo supporto mantiene la musica attiva per tutti.</em>
+  <em>Il tuo supporto mantiene la musica viva per tutti.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

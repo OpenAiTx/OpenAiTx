@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -77,10 +78,11 @@
 
 <br>
 
-<!-- CTA de Texto -->
+<!-- Texto CTA -->
 <h3>
- Descarga 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">AQUÍ</a>
+ Descargar(v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">AQUÍ</a>
 </h3>
+<i>fecha de lanzamiento: 03/06/2026</i>
 
 <br>
 
@@ -88,59 +90,73 @@
 
 </div>
 
+### Novedades en v3.1.5
+
+- Importa música directamente desde cualquier URL de playlist pública de Spotify.
+- Soporte añadido para Tendencias (de Spotify) en más de 75 países.
+- Se corrigió un problema donde algunas listas de reproducción, álbumes o canciones aparecían vacías o incompletas en ciertos países.
+- Se corrigió que las descargas fueran interrumpidas o eliminadas al ejecutarse en segundo plano.
+- Se corrigieron varios problemas del modo sin conexión para una experiencia de escucha más confiable.
+- Correcciones menores de errores y mejoras de rendimiento.
+
+### Si tienes alguna sugerencia (nuevo complemento o corrección), envíame un mensaje en telegram
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Características
 
 <div align="center">
 
-🎧 **Streaming de alta calidad**   ·   📥 **Descargas offline**   ·   ❤️ **Favoritos y listas personalizadas**  
+🎧 **Streaming de alta calidad**   ·   📥 **Descargas sin conexión**   ·   ❤️ **Me gusta y listas personalizadas**  
 🔄 **Reproducción en segundo plano**   ·   🚫 **No requiere inicio de sesión**   ·   🆓 **100% Gratis y sin anuncios**
 
 </div>
 
-### 🌍 Idiomas Soportados (i18n)
+### 🌍 Idiomas soportados (i18n)
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Más idiomas próximamente — ¡colabora si quieres!*
-
+*Más idiomas próximamente — ¡contribuciones bienvenidas!*
 ---
 
-### 🎨 Apariencia y Experiencia
+### 🎨 Apariencia y Sensación
 - **Interfaz renovada** – diseño limpio y moderno con transiciones suaves
-- **Mini Reproductor** – mini reproductor tipo cápsula en dispositivos compatibles (OnePlus, etc.)
-- **Temas** – Modo oscuro, modo claro y modo automático
+- **Mini Reproductor** – mini reproductor estilo cápsula en dispositivos compatibles (OnePlus, etc.)
+- **Temas** – Modo oscuro, Modo claro y Modo automático
 
 ### 🎼 Experiencia Musical
 - **Búsqueda** – encuentra canciones, listas públicas, álbumes y artistas
 - **Escucha sin conexión** – descarga pistas y reprodúcelas sin internet
 - **Listas personalizadas** – crea, gestiona y organiza tus propias colecciones
-- **Canciones en tendencia** – canciones en tendencia por región gracias a IPinfo
-- **Álbumes y listas de artistas** – ahora se puede navegar por discografías completas
-
+- **Importar música** directamente desde la URL de una playlist de Spotify
+- **Canciones en tendencia** – pistas populares por región impulsadas por IPinfo
+- **Álbumes y listas de artistas** – exploración completa de discografías ahora soportada
 
 ### ⚡ Rendimiento y Estabilidad
-- **API de YouTube Mejorada** – streaming más confiable
-- **Mejoras de Reproducción** – rendimiento más fluido, corrección de errores de duración y reproducción en segundo plano
-- **Controles de Auriculares y Pantalla de Bloqueo** – controles de notificación sin interrupciones
-- **Canciones de Artista Paginadas** – todas las canciones se cargan completamente
+- **API de YouTube mejorada** – transmisión más confiable
+- **Mejoras de reproducción** – mayor fluidez, corrección de errores de duración y reproducción en segundo plano
+- **Controles de auriculares y pantalla de bloqueo** – controles de notificación integrados
+- **Canciones de artista paginadas** – todas las canciones se cargan completamente
 
 ---
 
-## 📖 Descripción General
+## 📖 Resumen
 
-Este monorepo ofrece **dos aplicaciones de streaming de música totalmente independientes** construidas con tecnologías de vanguardia:
+Este monorepo ofrece **dos aplicaciones de streaming de música totalmente independientes** desarrolladas con tecnologías de vanguardia:
 
 | App | Plataformas | Framework | Ubicación |
 |-----|-------------|-----------|-----------|
-| 📱 **Móvil** | Android, iOS *(próximamente)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Escritorio** | macOS, Windows/Linux *(próximamente)* | Tauri + React | `openspot-desktop/` |
+| 📱 **Móvil** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Escritorio** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-Ambas aplicaciones comparten el mismo núcleo potente de streaming, brindando una experiencia de escucha fluida en todos tus dispositivos.
+Ambas aplicaciones comparten el mismo núcleo de streaming potente, brindándote una experiencia de escucha fluida en todos tus dispositivos.
 
 ---
 
 ## 🧰 Stack Tecnológico
+
+
 
 ### 📱 Móvil
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -179,7 +195,7 @@ Este proyecto está licenciado bajo la **Licencia MIT** – consulta el archivo 
 ---
 
 <div align="center">
-  <strong>⭐ Si disfrutas OpenSpot Music, déjanos una estrella – ¡realmente ayuda!</strong>
+  <strong>⭐ Si te gusta OpenSpot Music, deja una estrella – ¡realmente ayuda!</strong>
   <br />
   <em>Tu apoyo mantiene la música sonando para todos.</em>
 </div>
@@ -187,6 +203,6 @@ Este proyecto está licenciado bajo la **Licencia MIT** – consulta el archivo 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

@@ -1,0 +1,428 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GHZj3At4HssXypgMgOv5ZxyOdV6iOxp4v4hBAGJ9Y6Y=",
+    "originContent": "## <img width=16 src=\"https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/spectator/src/spectator/internal/assets/lucy_spectator.svg\"> Spectator",
+    "translatedContent": "## <img width=16 src=\"https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/spectator/src/spectator/internal/assets/lucy_spectator.svg\"> Spectator"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "KrX0Ejrxnbnufh77yYfPhDNFJmeR0l+ooSYc+IDdlhw=",
+    "originContent": "[![Package Version](https://img.shields.io/hexpm/v/spectator)](https://hex.pm/packages/spectator)",
+    "translatedContent": "[![패키지 버전](https://img.shields.io/hexpm/v/spectator)](https://hex.pm/packages/spectator)"
+  },
+  {
+    "row": 4,
+    "rowsha": "Er3mpk+hhPPzgvXYgSjJqz4Qrljf7adjyGQ4WtkCt9w=",
+    "originContent": "[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/spectator/)",
+    "translatedContent": "[![Hex 문서](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/spectator/)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "Qj7Uai1SGDIEEouBVq+ZCJVcqXxppfaW9K575871zHM=",
+    "originContent": "Spectator is a BEAM observer tool written in Gleam, that plays well with gleam_otp processes.",
+    "translatedContent": "Spectator는 Gleam으로 작성된 BEAM 관찰 도구로, gleam_otp 프로세스와 잘 작동합니다."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "mhgIEBzHgTqORa+AgrYyXlxvabpqDik75IU24nPxq5M=",
+    "originContent": "![](https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/screenshot.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/JonasGruenwald/spectator/refs/heads/main/screenshot.png)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 특징"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "SzI/aYY28WmZnD0Y6qu4b+pOnyHqDRQ/jEINUjXlOoA=",
+    "originContent": "So far, spectator has the following features:",
+    "translatedContent": "현재까지 spectator는 다음과 같은 기능을 제공합니다:"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ATwlONLUf3iXDwqRtk8NhkQGOz29bX7QLPYQZlG07y0=",
+    "originContent": "- Show processes in a sortable table",
+    "translatedContent": "- 정렬 가능한 테이블에서 프로세스 표시"
+  },
+  {
+    "row": 15,
+    "rowsha": "4DPxZZ5vQYD7ZOjiiARlkhkINsHZ77FnlrXHm5Q3otQ=",
+    "originContent": "- Tag individual processes for easy identification",
+    "translatedContent": "- 개별 프로세스에 태그 지정으로 쉽게 식별"
+  },
+  {
+    "row": 16,
+    "rowsha": "sGH8tLlPaBKdgsB3wojsb8NygQSFurnsuxozHzDumsM=",
+    "originContent": "- Show process details",
+    "translatedContent": "- 프로세스 상세 정보 표시"
+  },
+  {
+    "row": 17,
+    "rowsha": "/LeltNnKKf6ZmpNl5GlWtBb442utU37tA7I8TPaobmA=",
+    "originContent": "- Show OTP process state",
+    "translatedContent": "- OTP 프로세스 상태 표시"
+  },
+  {
+    "row": 18,
+    "rowsha": "1X6HvS/vOTX2GrHCFnea+A+tpUP8oKGZNS15JhYkacs=",
+    "originContent": "- Suspend / resume OTP processes",
+    "translatedContent": "- OTP 프로세스 일시 중지 / 재개"
+  },
+  {
+    "row": 19,
+    "rowsha": "R2SEBFZtQDdX3SD6Dtyr7vmF18zJAqygIu8SDbV4nwg=",
+    "originContent": "- List ETS tables",
+    "translatedContent": "- ETS 테이블 목록"
+  },
+  {
+    "row": 20,
+    "rowsha": "HQbEeYyWgm4QkGFURktiPr0pBIpwN0SO3WzNUZLdxPM=",
+    "originContent": "- View content of ETS tables",
+    "translatedContent": "- ETS 테이블 내용 보기"
+  },
+  {
+    "row": 21,
+    "rowsha": "66owAoksyWf3W/qt8bGgNUr7iSw8Ts2RbGQTVm3EPt4=",
+    "originContent": "- List of active ports",
+    "translatedContent": "- 활성 포트 목록"
+  },
+  {
+    "row": 22,
+    "rowsha": "m7RJi71tFgANzg/LVxIgryLXAl/j/DeWmOiu5EQTs+w=",
+    "originContent": "- Clickable links between resources",
+    "translatedContent": "- 리소스 간 클릭 가능한 링크"
+  },
+  {
+    "row": 23,
+    "rowsha": "bjD735Dt8WmOawTLOWJjoY1YNCUulbIbtIUeGtKXWLw=",
+    "originContent": "- Dashboard with basic statistics",
+    "translatedContent": "- 기본 통계가 포함된 대시보드"
+  },
+  {
+    "row": 24,
+    "rowsha": "lIkMRFCSgLkCzqjturIuYDSdClBmGOuCrJ1vzkIlILo=",
+    "originContent": "- Inspect other BEAM nodes",
+    "translatedContent": "- 다른 BEAM 노드 검사"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "4LWcgf68Ev0M01La2vkgHaxhb0lOdaqHnZgsKajLZoE=",
+    "originContent": "## Use Spectator in Development",
+    "translatedContent": "## 개발 환경에서 Spectator 사용하기"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "BIVEs8m4mPCR3sBCvDx1Y05HnHpmgQdDdxmYPsIskRQ=",
+    "originContent": "You can install spectator as a dependency in your project, and run it as part of your application to inspect your app in development.",
+    "translatedContent": "프로젝트에 spectator를 의존성으로 설치하고, 애플리케이션의 일부로 실행하여 개발 중인 앱을 검사할 수 있습니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 31,
+    "rowsha": "EFJCxGk8lO7RgFjKMC0GBj6cAdNgJqTXXXG4vEpHir8=",
+    "originContent": "gleam add spectator",
+    "translatedContent": "gleam add spectator"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "자세한 내용은 [패키지 README](https://hexdocs.pm/spectator/)를 참조하십시오."
+  },
+  {
+    "row": 34,
+    "rowsha": "l5o/MgebruBjPipExa+SKg4oilEYAWG4aoaHLvEazeY=",
+    "originContent": "For details on how to do this, see the [package README](https://hexdocs.pm/spectator/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 프로덕션에서 Spectator 사용하기"
+  },
+  {
+    "row": 36,
+    "rowsha": "KwqEMsenMHhwG/G3e1NziMYhwp5Srbi493b0GyiPJL0=",
+    "originContent": "## Use Spectator in Production",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Spectator를 독립 실행형 앱으로 실행하고 배포된 애플리케이션이 실행 중인 Erlang 노드에 분산 연결하여 BEAM 노드를 검사할 수 있습니다."
+  },
+  {
+    "row": 38,
+    "rowsha": "D4i2/GWbJ3UynZ5muz/KkrAKNf3tJNlT/59mfJ1kBkE=",
+    "originContent": "You can use spectator to inspect the BEAM node running your deployed application by running spectator as a standalone app, and connecting it to the erlang node your application is running on via distribution.",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "독립 실행형 spectator 애플리케이션은 `ghcr.io/jonasgruenwald/spectator`의 도커 이미지와 [릴리스 페이지](https://github.com/JonasGruenwald/spectator/releases)의 escript로 제공됩니다."
+  },
+  {
+    "row": 40,
+    "rowsha": "fji1CCBM7B/eeSDgshCVgBpAfnjbYVIsRzFmCIK3q6I=",
+    "originContent": "The standalone spectator application is available as a docker image via `ghcr.io/jonasgruenwald/spectator`, and as an escript via the [releases page](https://github.com/JonasGruenwald/spectator/releases).",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "레포에는 [도커로 배포된 앱을 검사하기 위해 spectator를 사용하는 전체 예제](https://github.com/JonasGruenwald/spectator/tree/main/example#readme)가 포함되어 있습니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "9Qo+PoSD4lw1uLY/WNPbwhd1Uxs7adz5sGuFpPac1Wg=",
+    "originContent": "The repo contains [a full example of how to use spectator to inspect an app deployed via docker](https://github.com/JonasGruenwald/spectator/tree/main/example#readme).",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "먼저, 애플리케이션이 Erlang 이름과 쿠키를 설정했는지 확인하십시오. 예를 들어 애플리케이션 시작 전에 `ERL_FLAGS` 환경 변수를 설정하여 할 수 있습니다:"
+  },
+  {
+    "row": 44,
+    "rowsha": "MuPefChhWTvxDi8SH7Mqax41HmUUW4t9+9E8C4v06wQ=",
+    "originContent": "First, ensure your application has an Erlang name and cookie set, for example by setting the `ERL_FLAGS` environment variable before your application is started:",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 47,
+    "rowsha": "GPNDF6AcGepoaAvlyjcwD8yD7DO7Cxnfe7Auz6sBdlQ=",
+    "originContent": "ERL_FLAGS=\"-name myapp@host -setcookie mycookie\"",
+    "translatedContent": "ERL_FLAGS=\"-name myapp@host -setcookie mycookie\""
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "만약 애플리케이션이 도커 컨테이너에서 실행 중이라면, 애플리케이션 컨테이너와 spectator를 실행하는 컨테이너를 같은 도커 네트워크에 두고, 애플리케이션 컨테이너의 호스트명이 알고 있는 값으로 설정되어 있는지 확인하세요."
+  },
+  {
+    "row": 50,
+    "rowsha": "1vNRa//LVCopOEDcIhr2N0kuuJxrWhGRI3PkGH8VW8E=",
+    "originContent": "If your application is running in a docker container, put both your applications container, and the container running spectator on the same docker network, and ensure that your applications container has its hostname set to a value you know.",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "spectator를 시작하고, 애플리케이션 우측 상단의 'Change Target'을 클릭하세요."
+  },
+  {
+    "row": 52,
+    "rowsha": "1FZebZfLbn9p0i6SV+m6uzDWaWZjx4CusseDDEUfyco=",
+    "originContent": "Start spectator, and click 'Change Target' in the top right corner of the application.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "검사하고자 하는 노드의 세부 정보를 입력하세요. 이름은 `-sname`으로 설정한 이름에 `@`와 호스트명이 이어져야 합니다."
+  },
+  {
+    "row": 54,
+    "rowsha": "Kcen9t5LSTIpW9UEOxzmaz2J49VtUp0tggAYnnVX4KM=",
+    "originContent": "Enter the details of the node you wish to inspect, the name should be the name you set via `-sname`, followed by `@`, and then the hostname.",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "마지막으로, 'Connect'를 클릭하여 애플리케이션 노드를 검사하세요."
+  },
+  {
+    "row": 56,
+    "rowsha": "Fi27MlrQ30e0a09arQss9HEGDHIrKdXq3C8YoVEMjHI=",
+    "originContent": "Finally, click 'Connect', to inspect the your application node.",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "검사 대상은 spectator와 같은 Erlang 쿠키를 설정해야 합니다. 애플리케이션과 마찬가지로, spectator의 쿠키도 `ERL_FLAGS` 환경 변수로 설정할 수 있습니다. 예: `ERL_FLAGS=\"-name spectator@127.0.0.1 -setcookie mycookie\"`."
+  },
+  {
+    "row": 58,
+    "rowsha": "kjM2CfbW1H/34d3DvmSCwNe/T/vMcDHVlhbZj6/gqh0=",
+    "originContent": "Note that the inspection target must have the same Erlang cookie set as spectator. Just like with your application, you can configure spectator's cookie via the `ERL_FLAGS` environment variable, e.g. `ERL_FLAGS=\"-name spectator@127.0.0.1 -setcookie mycookie\"`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 고려 사항"
+  },
+  {
+    "row": 60,
+    "rowsha": "wRZ+2t7Sixqc50m5Nnik6iBxpB5a2whf+nEcX0VW8P0=",
+    "originContent": "## Considerations",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "spectator 실행 시 다음 사항을 유의하세요:"
+  },
+  {
+    "row": 62,
+    "rowsha": "iaRVyHmJH6+xrETBhS7zz5m5E5ACNiPDqNNKnfx2cDE=",
+    "originContent": "Please be aware of the following implications of running spectator:",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Spectator는 시스템 속도를 늦출 수 있습니다**  "
+  },
+  {
+    "row": 64,
+    "rowsha": "RPr8p9cLRFFh+A5wbdJsR5mr24uPMD47FSUr887xu7o=",
+    "originContent": "- **Spectator may slow down your system**  ",
+    "translatedContent": "  모든 표시된 프로세스는 Erlang의 `process_info/2` 함수를 사용해 설정된 간격마다 조사되며, 이 함수는 조사되는 프로세스에 일시적인 락을 겁니다. 프로세스가 많은 메시지를 처리 중이라면 시스템 성능에 영향을 줄 수 있습니다."
+  },
+  {
+    "row": 65,
+    "rowsha": "5fEYllauXR3kcmSyFMJIMczou3Yp0weWfPLSVjUxbiU=",
+    "originContent": "  All displayed processes are probed in the configured interval using Erlang's `process_info/2` function which puts a temporary lock on the process being infoed. If the process is handling a lot of messages, this may have performance implications for the system",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Spectator는 동적으로 atom을 생성합니다**  "
+  },
+  {
+    "row": 67,
+    "rowsha": "EqjB8zD6Yi/IeGUzuyJ+DHMHtZ44KZ0Mv9au09QXaNU=",
+    "originContent": "- **Spectator will create atoms dynamically**  ",
+    "translatedContent": "  다른 Erlang 노드에 연결할 때, spectator는 제공한 노드 이름을 atom으로 변환해야 합니다. 따라서 사용자 인터페이스를 통해 spectator가 실행되는 BEAM 인스턴스의 메모리가 고갈될 수 있습니다. atom은 가비지 컬렉션되지 않기 때문입니다."
+  },
+  {
+    "row": 68,
+    "rowsha": "RpO4ylX5vik8atFiaODFJvj8lQMr2j+s5OP/ovMFrGc=",
+    "originContent": "  When you choose to connect to other Erlang nodes, spectator needs to convert the node name you provide into an atom. Therefore it is possible to exhaust the memory of the BEAM instance running spectator using its user interface, as atoms are never garbage collected.",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "FVx/fdAGVaI+6A4hsHi72qSrK2V68Cxly/TkjygSt4U=",
+    "originContent": "- **Spectator does not include Access Control**  ",
+    "translatedContent": "- **Spectator는 접근 제어를 포함하지 않습니다**  "
+  },
+  {
+    "row": 70,
+    "rowsha": "/Z/Bqw0n3lUa1vKfzW/5U9XkRMnQpK+wG/ivyzTD8VU=",
+    "originContent": "  Spectator exposes sensitive details about the runtime it is inspecting via its web interface and does not currently gate access to it.  ",
+    "translatedContent": "  spectator는 검사 중인 런타임의 민감한 정보를 웹 인터페이스를 통해 노출하며, 현재 접근을 제한하지 않습니다.  "
+  },
+  {
+    "row": 71,
+    "rowsha": "k+IPm7iuCWqaoBTyLsC7xrvA8WwCoBqWKMiincNQg/k=",
+    "originContent": "  If you use spectator in a production environment, you are responsible for securing it – make sure to never expose spectator to the public internet.",
+    "translatedContent": "  프로덕션 환경에서 spectator를 사용할 경우 보안 책임은 사용자에게 있으니, 절대 public 인터넷에 노출하지 마십시오."
+  }
+]

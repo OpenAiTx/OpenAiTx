@@ -1,0 +1,362 @@
+[
+  {
+    "row": 1,
+    "rowsha": "/bZkkq1W1GGqMGRqGauCwLkefU8vDMq9rvFtjdWdHco=",
+    "originContent": "# dblp-to-csv",
+    "translatedContent": "# dblp-to-csv"
+  },
+  {
+    "row": 2,
+    "rowsha": "QHjMwXRqwVizx0M3EDDPTiVrqARs1EylscmC8l2o2gE=",
+    "originContent": "Convert a DBLP (Computer Science Bibliography) XML file to CSV format.",
+    "translatedContent": "DBLP(컴퓨터 과학 참고 문헌) XML 파일을 CSV 형식으로 변환합니다."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 5,
+    "rowsha": "z1/iFrxHCjwhxXfVWg2tcL1bL9lk9XNiVzW0Rjedh7Y=",
+    "originContent": "For each element in the XML file, so article, book, phdthesis, etc, this tool will generate an output file.",
+    "translatedContent": "XML 파일의 각 요소, 예를 들어 article, book, phdthesis 등에 대해 이 도구는 출력 파일을 생성합니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "2ZUwnITe9p8k2kGsqo6jw+xl2ogR3nHZRkiQRxvbKxE=",
+    "originContent": "Each element output file contains only the necessary columns for that element, meaning each column will be non-empty on at least one row.",
+    "translatedContent": "각 요소 출력 파일은 해당 요소에 필요한 열만 포함하며, 각 열은 적어도 한 행에서 비어 있지 않습니다."
+  },
+  {
+    "row": 7,
+    "rowsha": "QhHrBbTUKwEowEog/t686yGeY9RAOZFto0iV8OqRAvE=",
+    "originContent": "When multiple similar attribute tags are encountered on an element, e.g. multiple authors of an article, then those values will be contained within an array \"[item1|item2|...|itemN]\".",
+    "translatedContent": "요소에서 여러 유사 속성 태그가 발견되면, 예를 들어 논문의 여러 저자, 해당 값들은 배열 \"[item1|item2|...|itemN]\"로 포함됩니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "LCAG0F/aFI7FhW63Tvj/cCXnoiItDf2evKmIAO8JQSU=",
+    "originContent": "When calling the tool, pass as parameters the input XML file, the DTD file and the desired output file name format; e.g. output.csv will generate output_article.csv, output_book.csv, etc.",
+    "translatedContent": "도구를 호출할 때 입력 XML 파일, DTD 파일 및 원하는 출력 파일 이름 형식을 매개변수로 전달합니다; 예를 들어 output.csv는 output_article.csv, output_book.csv 등을 생성합니다."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "PGIyljJiOeg8+RPd7n9tWwukh2/NKEzan20tipdyyZw=",
+    "originContent": "## Optional type annotated headers",
+    "translatedContent": "## 선택적 타입 주석 헤더"
+  },
+  {
+    "row": 11,
+    "rowsha": "KXNRkN3aIZ76CdDgP55S76tEVusvnSRqEobkoYJ83Jg=",
+    "originContent": "Optionally, one can use --annotate to enable type annotation. Per element, this will create an extra header file containing a single line with an annotated header. This annotated header is of the format name:type per column or name:type[] for columns that contain at least one array entry. The type can be integer, float, boolean or string.",
+    "translatedContent": "선택적으로 --annotate를 사용하여 타입 주석을 활성화할 수 있습니다. 요소별로, 이 옵션은 주석이 달린 헤더가 포함된 한 줄짜리 추가 헤더 파일을 생성합니다. 이 주석 헤더는 각 열에 대해 name:type 형식 또는 배열 항목이 하나 이상 있는 열에 대해 name:type[] 형식입니다. 타입은 integer, float, boolean 또는 string일 수 있습니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "YdvXWq2hEpmtBkiQXFGvAypBZc6pxKj1VGeL9hvzXU8=",
+    "originContent": "## Commandline options",
+    "translatedContent": "## 명령줄 옵션"
+  },
+  {
+    "row": 14,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 15,
+    "rowsha": "lmgk9krn/aGAG74uYEAbABBfaV3Flf2EMTniupyJVNY=",
+    "originContent": "usage: XMLToCSV.py [-h] [--annotate] [--neo4j]",
+    "translatedContent": "usage: XMLToCSV.py [-h] [--annotate] [--neo4j]"
+  },
+  {
+    "row": 16,
+    "rowsha": "V5wN4DPsSe9lTvKLwUI7OF/JMYdP/BtyNjb410tFRNQ=",
+    "originContent": "                   [--relations RELATIONS [RELATIONS ...]]",
+    "translatedContent": "                   [--relations RELATIONS [RELATIONS ...]]"
+  },
+  {
+    "row": 17,
+    "rowsha": "8SygbaQAxOAH1BKPVhWsqfh/PZkDA0y21/v679SFKKU=",
+    "originContent": "                   xml_filename dtd_filename outputfile",
+    "translatedContent": "                   xml_filename dtd_filename outputfile"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "FY8AZ5qko6YrxodCSoPDxoWUfmaaRW/8VwBy3ZNzaCA=",
+    "originContent": "Parse the DBLP XML file and convert it to CSV",
+    "translatedContent": "Parse the DBLP XML file and convert it to CSV"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "GrDHfJnEgQJVyPzomW5CpYeIaEQ0qO894Tu4h4G1XxE=",
+    "originContent": "positional arguments:",
+    "translatedContent": "positional arguments:"
+  },
+  {
+    "row": 22,
+    "rowsha": "pFEUohrSf0ZMoN1ovydXLeStCsDcds5aXINJz4VFhaU=",
+    "originContent": "  xml_filename          The XML file that will be parsed",
+    "translatedContent": "  xml_filename          The XML file that will be parsed"
+  },
+  {
+    "row": 23,
+    "rowsha": "VGeCwOmhMV07lbSB8FNXMuBDEgsuvhA0e2hXSkj0+D8=",
+    "originContent": "  dtd_filename          The DTD file used to parse the XML file",
+    "translatedContent": "  dtd_filename          The DTD file used to parse the XML file"
+  },
+  {
+    "row": 24,
+    "rowsha": "53wlULoPwqltzpDdNw6ozCgivHihBrXYHH+e6qjaQyA=",
+    "originContent": "  outputfile            The output CSV file",
+    "translatedContent": "  outputfile            The output CSV file"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "32XlRrxXV32ZWwgnoGyJBkmVXUm6Hl6Qz6XsGg6Tomg=",
+    "originContent": "optional arguments:",
+    "translatedContent": "optional arguments:"
+  },
+  {
+    "row": 27,
+    "rowsha": "Oyu3AhN8A0G0Zoh6z/rFKUnhbT8d+SKxzTGxF5pIhN8=",
+    "originContent": "  -h, --help            show this help message and exit",
+    "translatedContent": "  -h, --help            show this help message and exit"
+  },
+  {
+    "row": 28,
+    "rowsha": "5SsPW0x9T3Mz7hm3ZwuF0//YditLufP3uD6rmLyOf00=",
+    "originContent": "  --annotate            Write a separate annotated header with type",
+    "translatedContent": "  --annotate            Write a separate annotated header with type"
+  },
+  {
+    "row": 29,
+    "rowsha": "yhJyBlhYfgrGXYC0XtWbbBaOhu7tgggf446cIFlY7IU=",
+    "originContent": "                        information",
+    "translatedContent": "                        information"
+  },
+  {
+    "row": 30,
+    "rowsha": "JRAOTRUuIej744cmeSMPRmx7Uk7xJd41LyXeYXSekxE=",
+    "originContent": "  --neo4j               Headers become more Neo4J-specific and a neo4j-import",
+    "translatedContent": "  --neo4j               Headers become more Neo4J-specific and a neo4j-import"
+  },
+  {
+    "row": 31,
+    "rowsha": "iPKNlARzwPH0t8Snl5hgnZbTjdloakraEE1AqancOnY=",
+    "originContent": "                        shell script is generated for easy importing. Implies",
+    "translatedContent": "                        shell script is generated for easy importing. Implies"
+  },
+  {
+    "row": 32,
+    "rowsha": "XBY+GERpuA2OTfw0TbOA7rydHSqWowArdcz0459DOdk=",
+    "originContent": "                        --annotate.",
+    "translatedContent": "                        --annotate."
+  },
+  {
+    "row": 33,
+    "rowsha": "jXAf86MlSCY2NG6LyzlISkliwdL5bOwFGqWAoHaOVyI=",
+    "originContent": "  --relations RELATIONS [RELATIONS ...]",
+    "translatedContent": "  --relations RELATIONS [RELATIONS ...]"
+  },
+  {
+    "row": 34,
+    "rowsha": "gv/cr5MVUDCfQg4B1BuJbGB0+1Bj4vzrnQhXR08y5b0=",
+    "originContent": "                        The element attributes that will be treated as",
+    "translatedContent": "                        The element attributes that will be treated as"
+  },
+  {
+    "row": 35,
+    "rowsha": "OUrhwkYPeQ1sXgirORmmqm2UFMrjO90ZpWd+0l0b1eI=",
+    "originContent": "                        elements, and for which a relation to the parent",
+    "translatedContent": "                        elements, and for which a relation to the parent"
+  },
+  {
+    "row": 36,
+    "rowsha": "3wznwlCG1TpimSVE3ijFZORdoCCkVdzvS9iOpNm7N4I=",
+    "originContent": "                        element will be created. For example, in order to turn",
+    "translatedContent": "                        element will be created. For example, in order to turn"
+  },
+  {
+    "row": 37,
+    "rowsha": "cn2rKDF/jjyEzrILMU7+kTkMp7ZYmCM/MKqG+Gf11nE=",
+    "originContent": "                        the author attribute of the article element into an",
+    "translatedContent": "                        the author attribute of the article element into an"
+  },
+  {
+    "row": 38,
+    "rowsha": "LTeZkUxcwFoamkdYy0dQe3A/v+ATpk02ShH4nsJD4KU=",
+    "originContent": "                        element with a relation, use \"author:authors\". The",
+    "translatedContent": "                        element with a relation, use \"author:authors\". The"
+  },
+  {
+    "row": 39,
+    "rowsha": "BINHfG09uvZnJmTTYpQitUkZGF/xoFll8WR5ruzwqaA=",
+    "originContent": "                        part after the colon is used as the name of the",
+    "translatedContent": "                        part after the colon is used as the name of the"
+  },
+  {
+    "row": 40,
+    "rowsha": "OIeWLIfvEKW7+ADJ10R4/9egxxBCKlv4VvGhT4GiqXU=",
+    "originContent": "                        relation.",
+    "translatedContent": "                        relation."
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 예제"
+  },
+  {
+    "row": 44,
+    "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+    "originContent": "## Example",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "7bbF16xlilzA/+u3yOWYvD5/isivRrG5HtRmmlFWA2A=",
+    "originContent": "chmod +x XMLToCSV.py",
+    "translatedContent": "chmod +x XMLToCSV.py"
+  },
+  {
+    "row": 47,
+    "rowsha": "tT5i2iDurjqY25d5RIRfUSHoccPTVnvzWLOjZveMZWw=",
+    "originContent": "./XMLToCSV.py --annotate --neo4j dblp.xml dblp.dtd output.csv --relations author:authored_by journal:published_in publisher:published_by school:submitted_at editor:edited_by cite:has_citation series:is_part_of",
+    "translatedContent": "./XMLToCSV.py --annotate --neo4j dblp.xml dblp.dtd output.csv --relations author:authored_by journal:published_in publisher:published_by school:submitted_at editor:edited_by cite:has_citation series:is_part_of"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "kR1uMCmfQa8+HpQmHXnZj3YUuoB0lrL7DACYo726J4U=",
+    "originContent": "This command will parse the DBLP XML file dblp.xml using the DTD file dblp.dtd. Because the ```--annotate``` option is used, type annotations will be generated as well. The ```--relations``` option is given, so the element attributes author, journal, publisher, school and editor will be treated as nodes and relations will be created between these nodes and the elements that contained them. The string ```output.csv``` is used as a pattern, so generated files will be named ```output_article.csv``` etc. The type annotations will be stored in similarly named files, for example ```output_article_header.csv```. Since we also passed the ```--neo4j``` option, the type annotations will be Neo4j compatible, and the tool generates a shell script called ```neo4j_import.sh``` that can be run to import the generated CSV files into a Neo4j graph database using the ```neo4j-admin import``` bulk importer tool.",
+    "translatedContent": "이 명령어는 DTD 파일 dblp.dtd를 사용하여 DBLP XML 파일 dblp.xml을 파싱합니다. ```--annotate``` 옵션이 사용되었기 때문에 타입 주석도 생성됩니다. ```--relations``` 옵션이 주어졌으므로, author, journal, publisher, school, editor 요소 속성들이 노드로 처리되고, 이 노드들과 이를 포함하는 요소들 사이에 관계가 생성됩니다. 문자열 ```output.csv```가 패턴으로 사용되어 생성된 파일들은 ```output_article.csv``` 등으로 이름이 지정됩니다. 타입 주석은 유사한 이름의 파일들, 예를 들어 ```output_article_header.csv```에 저장됩니다. 또한 ```--neo4j``` 옵션도 전달되었기 때문에 타입 주석은 Neo4j 호환 형식으로 생성되며, 도구는 ```neo4j-admin import``` 대량 가져오기 도구를 사용하여 생성된 CSV 파일들을 Neo4j 그래프 데이터베이스에 가져오기 위해 실행할 수 있는 ```neo4j_import.sh```라는 셸 스크립트를 생성합니다."
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 요구사항"
+  },
+  {
+    "row": 52,
+    "rowsha": "G78erusf+eLsB+xJfPG3M7QulXIISfjIjRw+hOmJqOE=",
+    "originContent": "- Python 3.7+ (use ```python3 --version``` to confirm)",
+    "translatedContent": "- Python 3.7+ (확인을 위해 ```python3 --version``` 사용)"
+  },
+  {
+    "row": 53,
+    "rowsha": "2lVnGunP/kTBktD4/MGp7aTEz91O2mnnVjVqPkAxIe4=",
+    "originContent": "- lxml (```pip3 install lxml```)",
+    "translatedContent": "- lxml (```pip3 install lxml``` )"
+  },
+  {
+    "row": 54,
+    "rowsha": "+VF5b5yEYshqP5eE9QINvhCn8NlqM9UcIOn38s4nCCA=",
+    "originContent": "- Or: ```pip3 install -r requirements.txt```",
+    "translatedContent": "- 또는: ```pip3 install -r requirements.txt```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "diHpFstuV7UK+A46mhFkbkPIHzxRakTriwoPTCVX3QI=",
+    "originContent": "## Links",
+    "translatedContent": "## 링크"
+  },
+  {
+    "row": 57,
+    "rowsha": "U8VQZso2w6be4ZYefMNtroXqvDmWVred8gZpRD4CFy8=",
+    "originContent": "- To learn more about DBLP: https://dblp.dagstuhl.de",
+    "translatedContent": "- DBLP에 대해 더 알아보기: https://dblp.dagstuhl.de"
+  },
+  {
+    "row": 58,
+    "rowsha": "YI2dNoyZWT9hXoqBPFux7/r2lACvXn8ice3iJSs2Nxk=",
+    "originContent": "- Download the DBLP XML files at: https://dblp.dagstuhl.de/xml/",
+    "translatedContent": "- DBLP XML 파일 다운로드: https://dblp.dagstuhl.de/xml/"
+  },
+  {
+    "row": 59,
+    "rowsha": "Q7uWzD3m5eDZiwU6WRXxfObFBCggiHK65jn5r7W0yXM=",
+    "originContent": "  - To unpack the gzipped XML file: ```gunzip dblp.xml.gz```",
+    "translatedContent": "  - gzipped XML 파일 압축 해제: ```gunzip dblp.xml.gz```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

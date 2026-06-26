@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -79,8 +80,9 @@
 
 <!-- Text CTA -->
 <h3>
- Download 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">HERE</a>
+ Download(v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">HERE</a>
 </h3>
+<i>release date: 03/06/2026</i>
 
 <br>
 
@@ -88,6 +90,19 @@
 
 </div>
 
+### What's New in v3.1.5
+
+- Import music directly from any public Spotify playlist URL.
+- Added support for Trending (from Spotify) in 75+ countries.
+- Fixed an issue where some playlists, albums, or songs appeared empty or incomplete in certain countries.
+- Fixed downloads being interrupted or killed while running in the background.
+- Fixed various offline mode issues for a more reliable listening experience.
+- Minor bug fixes and performance improvements.
+
+### If you have any suggestion (new add-on or fix), message me on telegram
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Features
 
@@ -99,7 +114,7 @@
 </div>
 
 ### 🌍 Languages Supported (i18n)
-| 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
+| 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 Hebrew | 🇮🇳 Hindi | 🇷🇺 Russian | 🇨🇳 Chinese | 🇹🇷 Turkish |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
 *More languages coming soon — contributions welcome!*
@@ -116,6 +131,7 @@
 - **Search** – find songs, public playlists, albums, and artists
 - **Offline Listening** – download tracks and play them without internet
 - **Custom Playlists** – create, manage, and organize your own collections
+- **Import Music** directly from spotify playlist url
 - **Trending Songs** – region‑based trending tracks powered by IPinfo
 - **Artist Albums & Playlists** – full discography browsing now supported
 
@@ -133,8 +149,8 @@ This monorepo delivers **two fully independent music streaming apps** built with
 
 | App | Platforms | Framework | Location |
 |-----|-----------|-----------|----------|
-| 📱 **Mobile** | Android, iOS *(coming)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Desktop** | macOS, Windows/Linux *(coming)* | Tauri + React | `openspot-desktop/` |
+| 📱 **Mobile** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
 Both apps share the same powerful streaming core, giving you a seamless listening experience across all your devices.
 
@@ -187,6 +203,6 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

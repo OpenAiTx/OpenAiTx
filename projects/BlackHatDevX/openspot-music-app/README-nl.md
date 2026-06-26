@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -79,8 +80,9 @@
 
 <!-- Tekst CTA -->
 <h3>
- Download 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">HIER</a>
+ Download(v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">HIER</a>
 </h3>
+<i>releasedatum: 03/06/2026</i>
 
 <br>
 
@@ -88,42 +90,54 @@
 
 </div>
 
+### Wat is er nieuw in v3.1.5
+
+- Importeer muziek direct vanaf elke openbare Spotify-afspeellijst-URL.
+- Ondersteuning toegevoegd voor Trending (van Spotify) in 75+ landen.
+- Een probleem opgelost waarbij sommige afspeellijsten, albums of nummers leeg of onvolledig leken in bepaalde landen.
+- Opgelost dat downloads werden onderbroken of gestopt bij gebruik op de achtergrond.
+- Diverse offline modus problemen opgelost voor een betrouwbaardere luisterervaring.
+- Kleine bugfixes en prestatieverbeteringen.
+
+### Heb je een suggestie (nieuwe add-on of fix), stuur me een bericht op telegram
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Functies
 
 <div align="center">
 
-🎧 **Hoogwaardige streaming**   ·   📥 **Offline downloads**   ·   ❤️ **Likes & aangepaste afspeellijsten**  
-🔄 **Achtergrond afspelen**   ·   🚫 **Geen login vereist**   ·   🆓 **100% gratis & reclamevrij**
+🎧 **Hoge‑kwaliteit streaming**   ·   📥 **Offline downloads**   ·   ❤️ **Likes & aangepaste afspeellijsten**  
+🔄 **Achtergrondafspelen**   ·   🚫 **Geen login vereist**   ·   🆓 **100% gratis & reclamevrij**
 
 </div>
 
-### 🌍 Ondersteunde Talen (i18n)
-| 🇩🇪 Deutsch | 🇺🇸 Engels | 🇪🇸 Spaans | 🇫🇷 Frans | 🇮🇱 Hebreeuws | 🇮🇳 Hindi | 🇷🇺 Russisch | 🇨🇳 Chinees | 🇹🇷 Turks |
+### 🌍 Ondersteunde talen (i18n)
+| 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
 *Meer talen binnenkort beschikbaar — bijdragen welkom!*
-
 ---
 
-### 🎨 Uiterlijk & Gevoel
-- **Vernieuwde UI** – strak, modern ontwerp met vloeiende overgangen
-- **Mini-speler** – capsule‑stijl mini-speler op compatibele apparaten (OnePlus, etc.)
-- **Thema's** – Donkere modus, lichte modus en automatische modus
+### 🎨 Look & Feel
+- **Vernieuwde UI** – strak, modern ontwerp met soepele overgangen
+- **Mini Speler** – capsule‑stijl mini speler op compatibele apparaten (OnePlus, etc.)
+- **Thema's** – Donkere modus, Lichte modus en Automatische modus
 
 ### 🎼 Muziekervaring
 - **Zoeken** – vind nummers, openbare afspeellijsten, albums en artiesten
-- **Offline luisteren** – download tracks en speel ze af zonder internet
-- **Aangepaste afspeellijsten** – maak, beheer en organiseer je eigen collecties
-- **Trending nummers** – regio gebaseerde trending tracks mogelijk gemaakt door IPinfo
-- **Artiestalbums & afspeellijsten** – volledige discografie bladeren nu ondersteund
-
+- **Offline Luisteren** – download tracks en speel ze af zonder internet
+- **Aangepaste Afspeellijsten** – maak, beheer en organiseer je eigen collecties
+- **Importeer Muziek** direct van spotify afspeellijst-url
+- **Trending Nummers** – regiogebaseerde trending tracks aangedreven door IPinfo
+- **Artiest Albums & Afspeellijsten** – volledige discografie bladeren nu ondersteund
 
 ### ⚡ Prestaties & Stabiliteit
 - **Verbeterde YouTube API** – betrouwbaardere streaming
-- **Afspelverbeteringen** – soepelere prestaties, bugs met duur en achtergrondafspelen opgelost
-- **Headset- & Lockschermbediening** – naadloze meldingsbesturing
-- **Geporteerde artiestnummers** – alle nummers laden volledig
+- **Afspeelverbeteringen** – soepelere prestaties, opgeloste duur- en achtergrondafspeelfouten
+- **Headset & Vergrendelschermbediening** – naadloze notificatiebediening
+- **Paginagewijs Laden Artiest Nummers** – alle nummers laden volledig
 
 ---
 
@@ -131,16 +145,18 @@
 
 Deze monorepo levert **twee volledig onafhankelijke muziekstreaming-apps** gebouwd met geavanceerde technologieën:
 
-| App | Platforms | Framework | Locatie |
-|-----|-----------|-----------|---------|
-| 📱 **Mobiel** | Android, iOS *(binnenkort)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Desktop** | macOS, Windows/Linux *(binnenkort)* | Tauri + React | `openspot-desktop/` |
+| App | Platformen | Framework | Locatie |
+|-----|------------|-----------|---------|
+| 📱 **Mobiel** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-Beide apps delen dezelfde krachtige streamingkern, voor een naadloze luisterervaring op al je apparaten.
+Beide apps delen dezelfde krachtige streamingkern, wat zorgt voor een naadloze luisterervaring op al je apparaten.
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Technische Stack
+
+
 
 ### 📱 Mobiel
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
@@ -159,7 +175,7 @@ Beide apps delen dezelfde krachtige streamingkern, voor een naadloze luistererva
 ## 🌍 Community & Support
 
 - 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
-- 🐛 **Problemen**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
@@ -174,19 +190,19 @@ Beide apps delen dezelfde krachtige streamingkern, voor een naadloze luistererva
 
 ## 📄 Licentie
 
-Dit project is gelicentieerd onder de **MIT Licentie** – zie het [LICENSE](./LICENSE) bestand voor details.
+Dit project is gelicentieerd onder de **MIT-licentie** – zie het [LICENSE](./LICENSE) bestand voor details.
 
 ---
 
 <div align="center">
-  <strong>⭐ Vind je OpenSpot Music leuk, geef dan een ster – het helpt echt!</strong>
+  <strong>⭐ Als je OpenSpot Music waardeert, geef een ster – het helpt echt!</strong>
   <br />
-  <em>Jouw steun houdt de muziek voor iedereen draaiende.</em>
+  <em>Jouw steun houdt de muziek aan voor iedereen.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

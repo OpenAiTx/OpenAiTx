@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -51,7 +52,7 @@
 
 <br>
 
-<!-- Platform Badges -->
+<!-- Odznaki platformy -->
 
 <p>
   <a href="https://blackhatdevx.github.io/openspot-music-app/">
@@ -79,8 +80,9 @@
 
 <!-- Tekst CTA -->
 <h3>
- Pobierz 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">TUTAJ</a>
+ Pobierz (v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">TUTAJ</a>
 </h3>
+<i>data wydania: 03/06/2026</i>
 
 <br>
 
@@ -88,13 +90,26 @@
 
 </div>
 
+### Co nowego w v3.1.5
+
+- Importuj muzykę bezpośrednio z dowolnego publicznego URL playlisty Spotify.
+- Dodano obsługę Trendów (ze Spotify) w ponad 75 krajach.
+- Naprawiono problem, gdzie niektóre playlisty, albumy lub utwory były puste lub niekompletne w wybranych krajach.
+- Naprawiono przerywanie lub zatrzymywanie pobierania podczas pracy w tle.
+- Naprawiono różne problemy z trybem offline dla bardziej niezawodnego słuchania.
+- Drobne poprawki błędów i ulepszenia wydajności.
+
+### Jeśli masz sugestię (nowy dodatek lub poprawka), napisz do mnie na telegramie
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Funkcje
 
 <div align="center">
 
-🎧 **Streaming wysokiej jakości**   ·   📥 **Pobieranie offline**   ·   ❤️ **Polubienia & Własne playlisty**  
-🔄 **Odtwarzanie w tle**   ·   🚫 **Brak wymogu logowania**   ·   🆓 **100% Darmowe i bez reklam**
+🎧 **Streaming wysokiej jakości**   ·   📥 **Pobieranie offline**   ·   ❤️ **Polubienia i własne playlisty**  
+🔄 **Odtwarzanie w tle**   ·   🚫 **Bez logowania**   ·   🆓 **100% darmowe i bez reklam**
 
 </div>
 
@@ -102,50 +117,51 @@
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Więcej języków już wkrótce — zapraszamy do współpracy!*
-
-
+*Więcej języków wkrótce — zapraszamy do współpracy!*
 ---
 
-### 🎨 Wygląd i styl
+### 🎨 Wygląd i Styl
 - **Odświeżony interfejs** – czysty, nowoczesny design z płynnymi przejściami
-- **Mini odtwarzacz** – kapsułowy mini odtwarzacz na kompatybilnych urządzeniach (OnePlus, itd.)
-- **Motywy** – Tryb ciemny, jasny oraz automatyczny
+- **Mini Odtwarzacz** – mini odtwarzacz w stylu kapsuły na kompatybilnych urządzeniach (OnePlus itp.)
+- **Motywy** – tryb ciemny, jasny i automatyczny
 
-### 🎼 Doświadczenie muzyczne
+### 🎼 Doświadczenie Muzyczne
 - **Wyszukiwanie** – znajdź utwory, publiczne playlisty, albumy i wykonawców
-- **Słuchanie offline** – pobieraj utwory i słuchaj bez internetu
-- **Własne playlisty** – twórz, zarządzaj i organizuj swoje kolekcje
-- **Popularne utwory** – trendy regionalne zasilane przez IPinfo
-- **Albumy i playlisty wykonawców** – pełna dyskografia teraz dostępna
+- **Słuchanie Offline** – pobieraj utwory i słuchaj ich bez internetu
+- **Własne Playlisty** – twórz, zarządzaj i organizuj własne kolekcje
+- **Importuj Muzykę** bezpośrednio z linku do playlisty Spotify
+- **Popularne Utwory** – trendy regionalne dzięki IPinfo
+- **Albumy i Playlisty Artystów** – pełna nawigacja po dyskografii już dostępna
 
 ### ⚡ Wydajność i Stabilność
-- **Ulepszony YouTube API** – bardziej niezawodne strumieniowanie
-- **Usprawnienia odtwarzania** – płynniejsze działanie, naprawione błędy długości i odtwarzania w tle
-- **Sterowanie zestawem słuchawkowym i ekranem blokady** – płynna kontrola przez powiadomienia
-- **Stronicowane utwory wykonawców** – wszystkie utwory ładują się w całości
+- **Ulepszone API YouTube** – bardziej niezawodne strumieniowanie
+- **Ulepszenia Odtwarzania** – płynniejsze działanie, naprawione błędy czasu trwania i odtwarzania w tle
+- **Sterowanie Słuchawkami i Ekranem Blokady** – płynna obsługa powiadomień
+- **Stronicowane Utwory Artysty** – wszystkie utwory ładują się w całości
 
 ---
 
 ## 📖 Przegląd
 
-To monorepo dostarcza **dwie całkowicie niezależne aplikacje do streamingu muzyki** zbudowane przy użyciu najnowocześniejszych technologii:
+To monorepo dostarcza **dwie całkowicie niezależne aplikacje do streamingu muzyki** zbudowane w najnowocześniejszych technologiach:
 
 | Aplikacja | Platformy | Framework | Lokalizacja |
 |-----------|-----------|-----------|-------------|
-| 📱 **Mobilna** | Android, iOS *(wkrótce)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Desktop** | macOS, Windows/Linux *(wkrótce)* | Tauri + React | `openspot-desktop/` |
+| 📱 **Mobilna** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Desktop** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-Obie aplikacje korzystają z tego samego, wydajnego silnika streamingu, zapewniając płynne słuchanie na wszystkich Twoich urządzeniach.
+Obie aplikacje korzystają z tego samego wydajnego silnika streamingu, zapewniając płynne słuchanie na wszystkich Twoich urządzeniach.
 
 ---
 
 ## 🧰 Stos technologiczny
 
-### 📱 Mobilna
+
+
+### 📱 Mobilne
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
 
-### 🖥️ Desktop
+### 🖥️ Komputer stacjonarny
 `Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
 ### 📊 Skład kodu
@@ -174,19 +190,19 @@ Obie aplikacje korzystają z tego samego, wydajnego silnika streamingu, zapewnia
 
 ## 📄 Licencja
 
-Ten projekt jest objęty licencją **MIT License** – zobacz plik [LICENSE](./LICENSE) po szczegóły.
+Ten projekt jest objęty licencją **MIT License** – szczegóły znajdziesz w pliku [LICENSE](./LICENSE).
 
 ---
 
 <div align="center">
   <strong>⭐ Jeśli podoba Ci się OpenSpot Music, zostaw gwiazdkę – to naprawdę pomaga!</strong>
   <br />
-  <em>Twoje wsparcie sprawia, że muzyka gra dla wszystkich.</em>
+  <em>Twoje wsparcie pozwala muzyce grać dla wszystkich.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---

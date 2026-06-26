@@ -41,7 +41,8 @@
 
 ---
 
-<img width="1376" height="768" alt="IMG_20260428_163423" src="https://github.com/user-attachments/assets/0cd68ebc-d8c9-4d49-8266-7f8be9690d25" />
+<img width="1774" height="887" alt="ChatGPT Image May 8, 2026, 10_50_16 AM" src="https://github.com/user-attachments/assets/46e244fd-a59b-4158-bde1-a4cded55810c" />
+
 
 <div align="center">
 
@@ -79,8 +80,9 @@
 
 <!-- Metin CTA -->
 <h3>
- İndir 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">BURADA</a>
+ İndir (v3.1.5) 👉 <a href="https://blackhatdevx.github.io/openspot-music-app/">BURADA</a>
 </h3>
+<i>yayın tarihi: 03/06/2026</i>
 
 <br>
 
@@ -88,12 +90,25 @@
 
 </div>
 
+### v3.1.5'te Neler Yeni
+
+- Herhangi bir herkese açık Spotify çalma listesi URL'sinden doğrudan müzik içe aktarın.
+- 75+ ülkede Spotify'dan Trendler desteği eklendi.
+- Bazı ülkelerde bazı çalma listeleri, albümler veya şarkıların boş ya da eksik görünmesine neden olan bir sorun giderildi.
+- Arka planda çalışırken indirmelerin kesilmesi veya iptal edilmesi sorunu düzeltildi.
+- Daha güvenilir bir dinleme deneyimi için çeşitli çevrimdışı mod sorunları giderildi.
+- Küçük hata düzeltmeleri ve performans iyileştirmeleri yapıldı.
+
+### Herhangi bir öneriniz varsa (yeni ekleme veya düzeltme), bana telegramdan mesaj atın
+> https://t.me/deveIoper_X
+
+---
 
 ## ✨ Özellikler
 
 <div align="center">
 
-🎧 **Yüksek Kaliteli Akış**   ·   📥 **Çevrimdışı İndirme**   ·   ❤️ **Beğeniler & Kişisel Oynatma Listeleri**  
+🎧 **Yüksek Kaliteli Yayın**   ·   📥 **Çevrimdışı İndirme**   ·   ❤️ **Beğeniler & Özel Çalma Listeleri**  
 🔄 **Arka Planda Çalma**   ·   🚫 **Giriş Gerekmez**   ·   🆓 **%100 Ücretsiz & Reklamsız**
 
 </div>
@@ -102,41 +117,42 @@
 | 🇩🇪 Deutsch | 🇺🇸 English | 🇪🇸 Español | 🇫🇷 Français | 🇮🇱 עברית | 🇮🇳 हिन्दी | 🇷🇺 Русский | 🇨🇳 中文 | 🇹🇷 Türkçe |
 |------------|------------|------------|------------|----------|------------|------------|--------|------------|
 
-*Daha fazla dil yakında eklenecek — katkılarınızı bekliyoruz!*
+*Yakında daha fazla dil eklenecek — katkılarınızı bekliyoruz!*
 
 
 ---
 
 ### 🎨 Görünüm & Hissiyat
-- **Yenilenen Arayüz** – temiz, modern tasarım ve akıcı geçişler
-- **Mini Oynatıcı** – kapsül tarzı mini oynatıcı, uyumlu cihazlarda (OnePlus vb.)
-- **Tema** – Karanlık mod, Aydınlık mod ve Otomatik mod
+- **Yenilenmiş Arayüz** – temiz, modern tasarım ve yumuşak geçişler
+- **Mini Oynatıcı** – uyumlu cihazlarda kapsül tarzı mini oynatıcı (OnePlus vb.)
+- **Tema Desteği** – Koyu mod, Açık mod ve Otomatik mod
 
 ### 🎼 Müzik Deneyimi
-- **Arama** – şarkı, halka açık oynatma listeleri, albüm ve sanatçı bul
-- **Çevrimdışı Dinleme** – şarkıları indirip internetsiz dinleyin
-- **Kişisel Oynatma Listeleri** – kendi koleksiyonlarını oluştur, yönet ve düzenle
-- **Trend Şarkılar** – IPinfo destekli bölgeye göre popüler parçalar
-- **Sanatçı Albümleri & Oynatma Listeleri** – tam diskografi gezintisi artık destekleniyor
+- **Arama** – şarkı, halka açık çalma listesi, albüm ve sanatçı bul
+- **Çevrimdışı Dinleme** – parçaları indir ve internetsiz dinle
+- **Özel Çalma Listeleri** – kendi koleksiyonlarını oluştur, yönet ve düzenle
+- **Spotify Çalma Listesi URL'sinden** müzikleri doğrudan içe aktar
+- **Trend Şarkılar** – IPinfo ile bölgeye göre trend parçalar
+- **Sanatçı Albümleri & Çalma Listeleri** – tam diskografi gezintisi artık destekleniyor
 
-### ⚡ Performans & Kararlılık
-- **Geliştirilmiş YouTube API** – daha güvenilir yayın
-- **Oynatma Yükseltmeleri** – daha akıcı performans, düzeltilmiş süre ve arka plan oynatma hataları
-- **Kulaklık & Kilit Ekranı Kontrolleri** – kesintisiz bildirim kontrolleri
-- **Sayfalandırılmış Sanatçı Şarkıları** – tüm şarkılar tamamen yüklenir
+### ⚡ Performans & Stabilite
+- **Geliştirilmiş YouTube API** – daha güvenilir akış
+- **Oynatma Geliştirmeleri** – daha akıcı performans, sabit süre ve arka planda oynatma hataları düzeltildi
+- **Kulaklık & Kilit Ekranı Kontrolleri** – sorunsuz bildirim kontrolleri
+- **Sayfalanmış Sanatçı Şarkıları** – tüm şarkılar tamamen yüklenir
 
 ---
 
 ## 📖 Genel Bakış
 
-Bu monorepo, **iki tamamen bağımsız müzik akış uygulaması** sunar ve en yeni teknolojilerle inşa edilmiştir:
+Bu monorepo, **iki tamamen bağımsız müzik akış uygulaması** sunar ve en yeni teknolojilerle geliştirilmiştir:
 
 | Uygulama | Platformlar | Çerçeve | Konum |
-|----------|-------------|---------|--------|
-| 📱 **Mobil** | Android, iOS *(yakında)* | React Native + Expo | `openspot-mobile/` |
-| 🖥️ **Masaüstü** | macOS, Windows/Linux *(yakında)* | Tauri + React | `openspot-desktop/` |
+|----------|-------------|---------|-------|
+| 📱 **Mobil** | Android, iOS | React Native + Expo | `openspot-mobile/` |
+| 🖥️ **Masaüstü** | macOS, Windows/Linux | Tauri + React | `openspot-desktop/` |
 
-Her iki uygulama da aynı güçlü yayın çekirdeğini paylaşır ve tüm cihazlarınızda kusursuz bir dinleme deneyimi sunar.
+Her iki uygulama da aynı güçlü akış çekirdeğini paylaşır ve tüm cihazlarınızda sorunsuz bir dinleme deneyimi sunar.
 
 ---
 
@@ -146,7 +162,7 @@ Her iki uygulama da aynı güçlü yayın çekirdeğini paylaşır ve tüm cihaz
 `React Native` · `Expo Router` · `Expo AV` · `EAS Build` · `IPinfo API`
 
 ### 🖥️ Masaüstü
-`Tauri` · `React` · `Material‑UI` · `React Context + useReducer`
+`Tauri` · `React` · `Material‑UI` · `React Context + useReducer` 
 
 ### 📊 Kod Kompozisyonu
 ![TypeScript](https://img.shields.io/badge/TypeScript-95.7%25-3178C6?style=flat-square&logo=typescript)  
@@ -159,7 +175,7 @@ Her iki uygulama da aynı güçlü yayın çekirdeğini paylaşır ve tüm cihaz
 ## 🌍 Topluluk & Destek
 
 - 💬 **Telegram**: [@openspot_music](https://t.me/openspot_music)
-- 🐛 **Sorunlar**: [GitHub Sorunları](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- 🐛 **Sorunlar**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ---
 
@@ -174,19 +190,19 @@ Her iki uygulama da aynı güçlü yayın çekirdeğini paylaşır ve tüm cihaz
 
 ## 📄 Lisans
 
-Bu proje **MIT Lisansı** ile lisanslanmıştır – detaylar için [LİSANS](./LICENSE) dosyasına bakınız.
+Bu proje **MIT Lisansı** ile lisanslanmıştır – ayrıntılar için [LICENSE](./LICENSE) dosyasına bakınız.
 
 ---
 
 <div align="center">
-  <strong>⭐ OpenSpot Music'i beğendiyseniz bir yıldız bırakın – gerçekten çok yardımcı olur!</strong>
+  <strong>⭐ OpenSpot Music’i beğendiyseniz bir yıldız bırakın – gerçekten çok yardımcı olur!</strong>
   <br />
-  <em>Desteğiniz müziğin herkes için devam etmesini sağlıyor.</em>
+  <em>Desteğiniz müziğin herkes için çalmasını sağlıyor.</em>
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-26
 
 ---
