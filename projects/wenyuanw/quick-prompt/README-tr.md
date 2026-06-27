@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Güçlü bir tarayıcı uzantısı; prompt yönetimi ve hızlı girdi üzerine odaklanır. Kullanıcıların prompt kütüphanesi oluşturmasını, yönetmesini ve düzenlemesini sağlar; ayrıca her türlü web sayfasındaki giriş kutularına önceden ayarlanmış Prompt içeriklerini hızlıca ekleyerek iş verimliliğini artırır.
+Güçlü bir tarayıcı uzantısı, prompt yönetimi ve hızlı veri girişi üzerine odaklanır. Kullanıcıların prompt havuzları oluşturmasına, yönetmesine ve düzenlemesine yardımcı olur; ayrıca herhangi bir web sayfası giriş kutusunda önceden ayarlanmış Prompt içeriğini hızlıca ekleyerek iş verimliliğini artırır.
 
 ## ✨ Özellikler
 
@@ -191,6 +191,6 @@ Projeye katkıda bulunan tüm geliştiricilere teşekkürler!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

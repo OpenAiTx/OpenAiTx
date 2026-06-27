@@ -1,4 +1,6 @@
-# 빠른 프롬프트
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,13 +32,11 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-강력한 브라우저 확장 프로그램으로, 프롬프트 관리 및 빠른 입력에 특화되어 있습니다. 사용자가 프롬프트 라이브러리를 생성, 관리, 조직할 수 있게 하며, 모든 웹페이지 입력창에 미리 설정된 프롬프트 내용을 신속하게 삽입할 수 있도록 도와 업무 효율성을 높입니다.
+강력한 브라우저 확장 프로그램으로, 프롬프트 관리와 빠른 입력에 특화되어 있습니다. 사용자가 프롬프트 라이브러리를 생성, 관리, 구성할 수 있도록 도와주며, 어떤 웹페이지 입력란에서도 사전 설정된 프롬프트 내용을 신속하게 삽입해 업무 효율을 높입니다.
 
-## ✨ 기능 특징
+## ✨ 기능 특성
 
 - 📚 **프롬프트 관리**: 프롬프트 라이브러리를 손쉽게 생성, 편집 및 관리할 수 있습니다
 - 🚀 **빠른 입력**: 모든 웹페이지 입력란에서 `/p` 입력으로 프롬프트 선택기를 빠르게 호출
@@ -191,6 +191,6 @@ Pull Request 및 Issue 제출을 환영합니다!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

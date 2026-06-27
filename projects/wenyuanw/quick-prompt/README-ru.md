@@ -1,4 +1,6 @@
-# Быстрый Промпт
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Мощное расширение для браузера, ориентированное на управление подсказками и быструю вставку. Помогает пользователям создавать, управлять и организовывать базу подсказок, а также быстро вставлять заранее настроенные Prompt-сообщения в любое текстовое поле на веб-странице, повышая эффективность работы.
+Мощное расширение для браузера, сфокусированное на управлении подсказками и быстром вводе. Помогает пользователям создавать, управлять и организовывать библиотеку подсказок, а также быстро вставлять заранее заданные Prompts в любые поля ввода на веб-страницах, повышая эффективность работы.
 
 ## ✨ Особенности
 
@@ -191,6 +191,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

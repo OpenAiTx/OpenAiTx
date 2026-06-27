@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Logo Quick Prompt" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Ekstensi browser yang kuat, berfokus pada manajemen prompt dan input cepat. Membantu pengguna membuat, mengelola, dan mengorganisasi pustaka prompt, serta dengan cepat memasukkan konten Prompt yang telah disetel di kotak input pada halaman web mana pun, meningkatkan efisiensi kerja.
+Ekstensi browser yang kuat, berfokus pada manajemen prompt dan input cepat. Membantu pengguna membuat, mengelola, dan mengorganisir kumpulan prompt, serta memasukkan konten Prompt yang telah ditetapkan ke kotak input di halaman web mana pun dengan cepat untuk meningkatkan efisiensi kerja.
 
 ## ✨ Fitur Utama
 
@@ -191,6 +191,6 @@ Terima kasih kepada semua pengembang yang telah berkontribusi pada proyek ini!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

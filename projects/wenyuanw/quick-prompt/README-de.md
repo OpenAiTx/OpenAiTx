@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,13 +32,11 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Eine leistungsstarke Browser-Erweiterung, die sich auf das Management und die schnelle Eingabe von Prompts konzentriert. Sie hilft Nutzern dabei, eine Prompt-Bibliothek zu erstellen, zu verwalten und zu organisieren und voreingestellte Prompt-Inhalte schnell in jedes beliebige Eingabefeld einer Webseite einzufügen, um die Arbeitseffizienz zu steigern.
+Eine leistungsstarke Browser-Erweiterung, die sich auf das Management und die schnelle Eingabe von Prompts spezialisiert. Sie hilft Nutzern, Prompt-Bibliotheken zu erstellen, zu verwalten und zu organisieren, und ermöglicht das schnelle Einfügen vordefinierter Prompt-Inhalte in jedes Eingabefeld einer Webseite, um die Arbeitseffizienz zu steigern.
 
-## ✨ Funktionen und Merkmale
+## ✨ Funktionsmerkmale
 
 - 📚 **Prompt-Verwaltung**: Erstelle, bearbeite und verwalte deine Prompt-Bibliothek bequem
 - 🚀 **Schnelleingabe**: Trigger den Prompt-Auswahldialog in jedem Webseiteneingabefeld schnell mit `/p`
@@ -191,6 +191,6 @@ Vielen Dank an alle Entwickler, die zum Projekt beitragen!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

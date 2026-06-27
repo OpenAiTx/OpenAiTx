@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,13 +32,11 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-ส่วนขยายเบราว์เซอร์ที่ทรงพลัง มุ่งเน้นการจัดการและป้อนคำ Prompt อย่างรวดเร็ว ช่วยผู้ใช้สร้าง จัดการ และจัดระเบียบคลังคำ Prompt รวมถึงสามารถแทรกเนื้อหา Prompt ที่ตั้งไว้ล่วงหน้าในช่องกรอกข้อมูลบนหน้าเว็บใดก็ได้ เพิ่มประสิทธิภาพการทำงาน
+ส่วนขยายเบราว์เซอร์ที่ทรงพลัง มุ่งเน้นการจัดการและป้อนข้อความ Prompt อย่างรวดเร็ว ช่วยให้ผู้ใช้สร้าง จัดการ และจัดระเบียบคลังคำสั่ง Prompt และสามารถแทรกเนื้อหา Prompt ที่ตั้งไว้ล่วงหน้าในช่องกรอกข้อมูลของเว็บใดๆ ได้อย่างรวดเร็ว เพิ่มประสิทธิภาพการทำงาน
 
-## ✨ คุณสมบัติเด่น
+## ✨ คุณสมบัติ
 
 - 📚 **การจัดการพรอมต์**: สร้าง แก้ไข และจัดการคลังพรอมต์ของคุณได้อย่างสะดวก
 - 🚀 **การกรอกข้อมูลอย่างรวดเร็ว**: พิมพ์ `/p` ในกล่องกรอกข้อความของเว็บเพจใด ๆ เพื่อเรียกตัวเลือกพรอมต์อย่างรวดเร็ว
@@ -191,6 +191,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

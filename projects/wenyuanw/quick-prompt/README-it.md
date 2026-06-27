@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Una potente estensione per browser, focalizzata sulla gestione dei prompt e sull'inserimento rapido. Aiuta gli utenti a creare, gestire e organizzare una libreria di prompt e a inserire rapidamente contenuti preimpostati nei campi di input di qualsiasi pagina web, aumentando l'efficienza lavorativa.
+Una potente estensione per browser, focalizzata sulla gestione dei prompt e sull'inserimento rapido. Aiuta gli utenti a creare, gestire e organizzare una libreria di prompt, e ad inserire rapidamente contenuti Prompt preimpostati in qualsiasi campo di input delle pagine web, aumentando l'efficienza lavorativa.
 
 ## ✨ Caratteristiche principali
 
@@ -191,6 +191,6 @@ Grazie a tutti gli sviluppatori che hanno contribuito al progetto!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

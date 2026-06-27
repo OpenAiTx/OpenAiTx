@@ -1,0 +1,2078 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n<img src=\"https://github.com/dahlend/kete/blob/main/docs/_static/kete.svg\" style=\"width:20%\">\n</p> \n\n# *Kete*\n\nPredict orbits of asteroids and comets at large scales.\n\nSee the [arXiv paper](http://arxiv.org/abs/2509.04666).\n\n![Github Actions](https://github.com/dahlend/kete/actions/workflows/test-lint.yml/badge.svg?branch=main)\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15259732.svg)](https://doi.org/10.5281/zenodo.15259732)\n[![arXiv](https://img.shields.io/badge/arXiv-2509.04666-00ff00.svg)](http://arxiv.org/abs/2509.04666)\n\nThe kete tools are intended to enable the simulation of all-sky surveys of minor\nplanets. This includes multi-body physics orbital dynamics, orbit determination and\nfitting, thermal and optical modeling of the objects, as well as field of view and light\ndelay corrections. These tools in conjunction with the Minor Planet Centers (MPC) and\nJPL's databases of known asteroids can be used to not only plan surveys but can also be\nused to predict what objects are visible for existing or past surveys.\n\nThe primary goal for kete is to enable a set of tools that can operate on the entire\nMPC catalog at once, without having to do queries on specific objects. It has been\nused to simulate over 10 years of survey time for the NEO Surveyor mission using 10\nmillion main-belt and near-Earth asteroids.\n\n[Documentation](https://dahlend.github.io/kete/)  \n   - [Examples](https://dahlend.github.io/kete/auto_examples/index.html)\n   - [Tutorials](https://dahlend.github.io/kete/tutorials/index.html)\n\n\nhttps://github.com/user-attachments/assets/a48491d8-9c15-4659-9022-1767a3aa1e94\n\nHere is a simulation of what the ZTF survey would observe during the entirety of 2023.\nThis is every position of every numbered asteroid, along with a calculation of the\nexpected V-band magnitudes. If the expected magnitude is less than ZTF's reported\nmagnitude limit for the specific frame, then the object will flash light grey.\n\nThis took about 50 minutes on a desktop computer to compute, and about 40 minutes\nto generate the movie.",
+    "ContentSha": "nDnYGCEWHBvOQFDBjUe7eoAkpghlkiV6mWRxA3h2OFY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n<img src=\"https://github.com/dahlend/kete/blob/main/docs/_static/kete.svg\" style=\"width:20%\">\n</p> \n\n# *Kete*\n\n小惑星や彗星の軌道を大規模に予測します。\n\n[arXiv論文](http://arxiv.org/abs/2509.04666)をご覧ください。\n\n![Github Actions](https://github.com/dahlend/kete/actions/workflows/test-lint.yml/badge.svg?branch=main)\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15259732.svg)](https://doi.org/10.5281/zenodo.15259732)\n[![arXiv](https://img.shields.io/badge/arXiv-2509.04666-00ff00.svg)](http://arxiv.org/abs/2509.04666)\n\nketeツールは、小惑星の全天サーベイのシミュレーションを可能にすることを目的としています。  \nこれには多体物理の軌道力学、軌道決定とフィッティング、天体の熱および光学モデリング、視野と光遅延の補正が含まれます。  \nこれらのツールは、小惑星センター（MPC）やJPLの既知小惑星データベースと組み合わせて、サーベイの計画だけでなく、既存または過去のサーベイで観測可能な天体の予測にも使用できます。\n\nketeの主な目標は、特定の天体をクエリすることなく、MPCカタログ全体に対して一括で動作するツールセットを提供することです。  \nNEO Surveyorミッションの10年以上にわたるサーベイ時間を、1000万のメインベルトおよび地球近傍小惑星を用いてシミュレーションするために使用されました。\n\n[ドキュメント](https://dahlend.github.io/kete/)  \n   - [例](https://dahlend.github.io/kete/auto_examples/index.html)\n   - [チュートリアル](https://dahlend.github.io/kete/tutorials/index.html)\n\n\nhttps://github.com/user-attachments/assets/a48491d8-9c15-4659-9022-1767a3aa1e94\n\nこちらは2023年全期間にわたってZTFサーベイが観測するシミュレーションです。  \nこれはすべての番号付き小惑星のすべての位置と、期待されるVバンド等級の計算を含みます。  \n期待される等級がZTFが報告した特定フレームの等級限界より明るければ、その天体は薄い灰色で点滅します。\n\nこの計算はデスクトップコンピュータで約50分かかり、  \n動画生成には約40分かかりました。\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "Af3qnJiZGfbaEj1aCL3HH4w7IqeKZG4qEbs4CUWrSUw=",
+        "originContent": "<img src=\"https://github.com/dahlend/kete/blob/main/docs/_static/kete.svg\" style=\"width:20%\">",
+        "translatedContent": "<img src=\"https://github.com/dahlend/kete/blob/main/docs/_static/kete.svg\" style=\"width:20%\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "RQr7lByWIqZz60ednePsGWNYqnBJLJQJUVy1Wdbj1Eg=",
+        "originContent": "</p> ",
+        "translatedContent": "</p> "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "w9FCEtCS+P/muN1oMcrudVL75YEcUu8GHA4Bawl5Wng=",
+        "originContent": "# *Kete*",
+        "translatedContent": "# *Kete*"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "x5fYi/KZWcgISbWZk1TOPvLjLDewf6cEhBDwRwO8gkY=",
+        "originContent": "Predict orbits of asteroids and comets at large scales.",
+        "translatedContent": "小惑星や彗星の軌道を大規模に予測します。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "heZI7ne/MKMuqkD8071FfqvTHkLtI7wzIXFUsdXn6TI=",
+        "originContent": "See the [arXiv paper](http://arxiv.org/abs/2509.04666).",
+        "translatedContent": "[arXiv論文](http://arxiv.org/abs/2509.04666)をご覧ください。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "J2paK5oRKLbfS/DJvtJW3ThrmoSqVBw4S4hzEyPbc1I=",
+        "originContent": "![Github Actions](https://github.com/dahlend/kete/actions/workflows/test-lint.yml/badge.svg?branch=main)",
+        "translatedContent": "![Github Actions](https://github.com/dahlend/kete/actions/workflows/test-lint.yml/badge.svg?branch=main)"
+      },
+      {
+        "row": 12,
+        "rowsha": "fETkzbXAqMfhLhSTC5L5Rt9jvsEBsvXlxrDjkDSnBfo=",
+        "originContent": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15259732.svg)](https://doi.org/10.5281/zenodo.15259732)",
+        "translatedContent": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15259732.svg)](https://doi.org/10.5281/zenodo.15259732)"
+      },
+      {
+        "row": 13,
+        "rowsha": "BDz4XsdGXodKSTi1DU51U0XagaQIdMXvyvnZO6yrLKc=",
+        "originContent": "[![arXiv](https://img.shields.io/badge/arXiv-2509.04666-00ff00.svg)](http://arxiv.org/abs/2509.04666)",
+        "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv-2509.04666-00ff00.svg)](http://arxiv.org/abs/2509.04666)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "XpOnSP5/8TGndfUvlbTsXrpn5DXMzXdQ63QWhk8eZFo=",
+        "originContent": "The kete tools are intended to enable the simulation of all-sky surveys of minor",
+        "translatedContent": "keteツールは、小惑星の全天サーベイのシミュレーションを可能にすることを目的としています。  "
+      },
+      {
+        "row": 16,
+        "rowsha": "t2P8EDz8QUd2QtuQGnpo1rn9tcRPoCqSv0W6+3/cvEU=",
+        "originContent": "planets. This includes multi-body physics orbital dynamics, orbit determination and",
+        "translatedContent": "これには多体物理の軌道力学、軌道決定とフィッティング、天体の熱および光学モデリング、視野と光遅延の補正が含まれます。  "
+      },
+      {
+        "row": 17,
+        "rowsha": "xspWmmBhVIo/WkF0PUBHzd7i/AzWqJF8u+RtQACnXrU=",
+        "originContent": "fitting, thermal and optical modeling of the objects, as well as field of view and light",
+        "translatedContent": "これらのツールは、小惑星センター（MPC）やJPLの既知小惑星データベースと組み合わせて、サーベイの計画だけでなく、既存または過去のサーベイで観測可能な天体の予測にも使用できます。"
+      },
+      {
+        "row": 18,
+        "rowsha": "M6fkm2FV+IVfK6lhZbIWxf3DKaGl7kBauGZ8JwDQGW4=",
+        "originContent": "delay corrections. These tools in conjunction with the Minor Planet Centers (MPC) and",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "r8dHRgBQtV1NUEOOQxqNAR42Qv1dULpaLHECB9RZ+3I=",
+        "originContent": "JPL's databases of known asteroids can be used to not only plan surveys but can also be",
+        "translatedContent": "keteの主な目標は、特定の天体をクエリすることなく、MPCカタログ全体に対して一括で動作するツールセットを提供することです。  "
+      },
+      {
+        "row": 20,
+        "rowsha": "SxrlsCdtnTQsQ3ULmpkztvLm6mpiVDSlpuAJKoMwURc=",
+        "originContent": "used to predict what objects are visible for existing or past surveys.",
+        "translatedContent": "NEO Surveyorミッションの10年以上にわたるサーベイ時間を、1000万のメインベルトおよび地球近傍小惑星を用いてシミュレーションするために使用されました。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "AyuXfM2wNyXjvBUjlSKsPympehrccPyXGC2Fi97MJlQ=",
+        "originContent": "The primary goal for kete is to enable a set of tools that can operate on the entire",
+        "translatedContent": "[ドキュメント](https://dahlend.github.io/kete/)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "Pw5f7LJ+Rdo7KUNB3730luq8pRdFqArXx7z5Gc64gRc=",
+        "originContent": "MPC catalog at once, without having to do queries on specific objects. It has been",
+        "translatedContent": "   - [例](https://dahlend.github.io/kete/auto_examples/index.html)"
+      },
+      {
+        "row": 24,
+        "rowsha": "un+3ludFQPGha3S//aYVDdlLa5sRbmu0MyaHyiZ/ol0=",
+        "originContent": "used to simulate over 10 years of survey time for the NEO Surveyor mission using 10",
+        "translatedContent": "   - [チュートリアル](https://dahlend.github.io/kete/tutorials/index.html)"
+      },
+      {
+        "row": 25,
+        "rowsha": "nBKqt5qNG7rDA9jcMsCf2kVr0x3zWdnrKrhJcYd9Njk=",
+        "originContent": "million main-belt and near-Earth asteroids.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "f3xHOrNAzzeS6oDQZsr/7m7PLH5vAzk6xIQ8BSWCQ1k=",
+        "originContent": "[Documentation](https://dahlend.github.io/kete/)  ",
+        "translatedContent": "https://github.com/user-attachments/assets/a48491d8-9c15-4659-9022-1767a3aa1e94"
+      },
+      {
+        "row": 28,
+        "rowsha": "h2CSve2kpbe5kmY2OThrxs3/yv+7hLaghs20NIQrPUQ=",
+        "originContent": "   - [Examples](https://dahlend.github.io/kete/auto_examples/index.html)",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "SB6+l0uPPEPlScaDEVZxEtxssCl/3+nH2V2kMWvJ8n4=",
+        "originContent": "   - [Tutorials](https://dahlend.github.io/kete/tutorials/index.html)",
+        "translatedContent": "こちらは2023年全期間にわたってZTFサーベイが観測するシミュレーションです。  "
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これはすべての番号付き小惑星のすべての位置と、期待されるVバンド等級の計算を含みます。  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "期待される等級がZTFが報告した特定フレームの等級限界より明るければ、その天体は薄い灰色で点滅します。"
+      },
+      {
+        "row": 32,
+        "rowsha": "jxwkVpcVyJazGv6ov8D2LvIk9mtVIGnqCfyVbwUVbRI=",
+        "originContent": "https://github.com/user-attachments/assets/a48491d8-9c15-4659-9022-1767a3aa1e94",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "この計算はデスクトップコンピュータで約50分かかり、  "
+      },
+      {
+        "row": 34,
+        "rowsha": "ru+6RbaRoZmgelDJ/x4z8YgRDcxmavuVSue99NjFa1Y=",
+        "originContent": "Here is a simulation of what the ZTF survey would observe during the entirety of 2023.",
+        "translatedContent": "動画生成には約40分かかりました。"
+      },
+      {
+        "row": 35,
+        "rowsha": "5h1gnCQteVswrAvhUOebmQRm8UlH68T8u+gAGyV4NBc=",
+        "originContent": "This is every position of every numbered asteroid, along with a calculation of the",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "aGQoapj/liNoo+19u+OWWDS2jAmNr8cUyidT2aEUx4k=",
+        "originContent": "expected V-band magnitudes. If the expected magnitude is less than ZTF's reported",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Wgoa3vuHBVfCJmAaF6GVYFfo+CF2HKXdbJjWaiA2ohU=",
+        "originContent": "magnitude limit for the specific frame, then the object will flash light grey.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "xM7ZBTxNgy1oZy026jQsp7baYWEYxAxRxVxP8zACCLI=",
+        "originContent": "This took about 50 minutes on a desktop computer to compute, and about 40 minutes",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "yeYHqf5Z7f2p0KrFbLMLtQD4j8hfL1Q9v9sggfORsy4=",
+        "originContent": "to generate the movie.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nKete can be used to answer many questions, for example, identifying all known asteroids\ninside of a [given image](https://dahlend.github.io/kete/tutorials/kona.html).\n\nKete can also be used as a backend for more fun visualizations, such as:  \n\n[Ketev](https://dahlend.github.io/ketev/) - Solar System Visualizer in your browser\n\n\n## Installation\n\nKete may be installed using pip:\n",
+    "ContentSha": "eLvu7gwdnGMVF0Q/uQz8pcwDn0xB3kn6LWxayQEuwUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nKeteは、多くの質問に答えるために使用できます。例えば、[指定された画像](https://dahlend.github.io/kete/tutorials/kona.html)内の既知の小惑星をすべて特定することなどです。\n\nKeteは、より楽しい可視化のバックエンドとしても使用できます。例えば：\n\n[Ketev](https://dahlend.github.io/ketev/) - ブラウザで使える太陽系ビジュアライザー\n\n\n## インストール\n\nKeteはpipを使ってインストールできます：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Ush+MoMTciDjCH2FUQCtPq+FhOqrkiRPC5UvzWOhzTg=",
+        "originContent": "Kete can be used to answer many questions, for example, identifying all known asteroids",
+        "translatedContent": "Keteは、多くの質問に答えるために使用できます。例えば、[指定された画像](https://dahlend.github.io/kete/tutorials/kona.html)内の既知の小惑星をすべて特定することなどです。"
+      },
+      {
+        "row": 3,
+        "rowsha": "SB/br6mhWHX3Pp/S6ybcpxW2I8BRZfHjGIDRmug1ioM=",
+        "originContent": "inside of a [given image](https://dahlend.github.io/kete/tutorials/kona.html).",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Keteは、より楽しい可視化のバックエンドとしても使用できます。例えば："
+      },
+      {
+        "row": 5,
+        "rowsha": "XYGTPDfpNkWCMnXqdaul6gPxQJTfCKLF0pEwG6NbNns=",
+        "originContent": "Kete can also be used as a backend for more fun visualizations, such as:  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Ketev](https://dahlend.github.io/ketev/) - ブラウザで使える太陽系ビジュアライザー"
+      },
+      {
+        "row": 7,
+        "rowsha": "BibGIFbhX2f68fRUVlXo6tbLoz4Ki/SFxJkdm4Ivbks=",
+        "originContent": "[Ketev](https://dahlend.github.io/ketev/) - Solar System Visualizer in your browser",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 10,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Keteはpipを使ってインストールできます："
+      },
+      {
+        "row": 12,
+        "rowsha": "0xmSU2+XnxjcuBlCuDRb4XFrcmtpW7d9JfrkVDw1Hl4=",
+        "originContent": "Kete may be installed using pip:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "``` bash\npip install kete\n```",
+    "ContentSha": "4ZLTwyqUq1FkPI+ABD5rZZaAofSmGuwQNq31grEj4zE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npip install kete\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "12sgikubD+R65SQzBvNNfV7cHhwREYd8aBM7XLiv4+Q=",
+        "originContent": "pip install kete",
+        "translatedContent": "pip install kete"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Example of Code\n\nHere is a small example showing off what programming with kete looks like.\nThis calculates the closest distance that the asteroid Apophis will be at\nduring its *very* close approach to Earth in April of 2029.\n\nA more in-depth look at this example can be found\n[here](https://dahlend.github.io/kete/auto_examples/plot_close_approach.html).\n",
+    "ContentSha": "Y/RzOwwQsR176pzIXBbgDUgWaBJWHnpQ+ZYUIH5a6fA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## コードの例\n\nここに、keteでのプログラミングがどのようなものかを示す小さな例があります。\nこれは、小惑星アポフィスが2029年4月に地球に\n*非常に*近接する際の最接近距離を計算します。\n\nこの例のより詳細な説明は\n[こちら](https://dahlend.github.io/kete/auto_examples/plot_close_approach.html)にあります。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wPuf4ixbtajgGP8X4HVu5iQSTCenoLA1vj+ORfv/ols=",
+        "originContent": "## Example of Code",
+        "translatedContent": "## コードの例"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VSsySNALnbqAoaEdLPHo+hD1GX6AJjmdAzRs1sh2Ubs=",
+        "originContent": "Here is a small example showing off what programming with kete looks like.",
+        "translatedContent": "ここに、keteでのプログラミングがどのようなものかを示す小さな例があります。"
+      },
+      {
+        "row": 5,
+        "rowsha": "L48nNn6v9V6V3FXJ9xqsdvXJbufnkuxtoKBj48tg2Sk=",
+        "originContent": "This calculates the closest distance that the asteroid Apophis will be at",
+        "translatedContent": "これは、小惑星アポフィスが2029年4月に地球に"
+      },
+      {
+        "row": 6,
+        "rowsha": "i1iaPy0MsvknuZDFGqjDzRvVefSSGNC9gIo1fX3ZtFI=",
+        "originContent": "during its *very* close approach to Earth in April of 2029.",
+        "translatedContent": "*非常に*近接する際の最接近距離を計算します。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Ma+Ay8E7xGpJvS6KOhDMGLQC8L8172S6bRYJG5667RE=",
+        "originContent": "A more in-depth look at this example can be found",
+        "translatedContent": "この例のより詳細な説明は"
+      },
+      {
+        "row": 9,
+        "rowsha": "G+cjDVGDM35KbQX1OlaTpUkVJxNzAleFtmKqkKH/T0k=",
+        "originContent": "[here](https://dahlend.github.io/kete/auto_examples/plot_close_approach.html).",
+        "translatedContent": "[こちら](https://dahlend.github.io/kete/auto_examples/plot_close_approach.html)にあります。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```python\n\n      import kete\n      import numpy as np\n\n      # Date of impact +- 1 day in Julian Date\n      jd_center = kete.Time.from_ymd(2029, 4, 13.9066).jd\n\n      # Step the orbit every 1 minute for +- 1 day.\n      step_size = 1 / 24 / 60\n      jd_range = np.arange(-1, 1, step_size) + jd_center\n\n      # load Apophis from JPL Horizons\n      obj = kete.HorizonsProperties.fetch(\"Apophis\")\n      cur_state = obj.state\n\n      # keep track the the closest approach\n      closest_approach = [np.inf, 0]\n      for jd in jd_range:\n            # propagate the object, and include the massive main belt asteroids\n            cur_state = kete.propagate_n_body(cur_state, jd, include_asteroids=True)\n\n            # calculate position relative to earth\n            earth_vec = cur_state.pos - kete.spice.get_state(\"Earth\", cur_state.jd).pos\n            earth_dist = earth_vec.r * kete.constants.AU_KM\n            if earth_dist < closest_approach[0]:\n                  closest_approach = [earth_dist, cur_state.jd]\n\n      print(\"Closest approach is on:\")\n      print(kete.Time(closest_approach[1]).iso)\n      print(f\"At a distance of about {closest_approach[0]:0.0f} km\")\n      #  Closest approach is on:\n      #  2029-04-13T21:45:30.239+00:00\n      #  At a distance of about 38015 km\n\n```",
+    "ContentSha": "QKJUUIJmv6AVznPkJ8CnF/y7RP7T42fNFUlDgbCXOok=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\n\n      import kete\n      import numpy as np\n\n      # Date of impact +- 1 day in Julian Date\n      jd_center = kete.Time.from_ymd(2029, 4, 13.9066).jd\n\n      # Step the orbit every 1 minute for +- 1 day.\n      step_size = 1 / 24 / 60\n      jd_range = np.arange(-1, 1, step_size) + jd_center\n\n      # load Apophis from JPL Horizons\n      obj = kete.HorizonsProperties.fetch(\"Apophis\")\n      cur_state = obj.state\n\n      # keep track the the closest approach\n      closest_approach = [np.inf, 0]\n      for jd in jd_range:\n            # propagate the object, and include the massive main belt asteroids\n            cur_state = kete.propagate_n_body(cur_state, jd, include_asteroids=True)\n\n            # calculate position relative to earth\n            earth_vec = cur_state.pos - kete.spice.get_state(\"Earth\", cur_state.jd).pos\n            earth_dist = earth_vec.r * kete.constants.AU_KM\n            if earth_dist < closest_approach[0]:\n                  closest_approach = [earth_dist, cur_state.jd]\n\n      print(\"Closest approach is on:\")\n      print(kete.Time(closest_approach[1]).iso)\n      print(f\"At a distance of about {closest_approach[0]:0.0f} km\")\n      #  Closest approach is on:\n      #  2029-04-13T21:45:30.239+00:00\n      #  At a distance of about 38015 km\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xM8RRcDk2NZ3qAsvQiRy0KS1S1+3ltAfxdtUN8BNohA=",
+        "originContent": "      import kete",
+        "translatedContent": "      import kete"
+      },
+      {
+        "row": 4,
+        "rowsha": "OIeduUmWBYwy5MbIpotc5n8mqzrTQH5EIPiPI8xK6/k=",
+        "originContent": "      import numpy as np",
+        "translatedContent": "      import numpy as np"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yvirfO9qnRV4SmqQ6plYFmh0QxXaW21I69XbthSLwbY=",
+        "originContent": "      # Date of impact +- 1 day in Julian Date",
+        "translatedContent": "      # Date of impact +- 1 day in Julian Date"
+      },
+      {
+        "row": 7,
+        "rowsha": "H4MC15iC3e/D5O0wrPI7dQEQMCsaxtDH9tbbyVxO63I=",
+        "originContent": "      jd_center = kete.Time.from_ymd(2029, 4, 13.9066).jd",
+        "translatedContent": "      jd_center = kete.Time.from_ymd(2029, 4, 13.9066).jd"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "4LG3Z2B3yM4LkvwDNqK8KsWxt5wwGik8Y4pXXp1kMgE=",
+        "originContent": "      # Step the orbit every 1 minute for +- 1 day.",
+        "translatedContent": "      # Step the orbit every 1 minute for +- 1 day."
+      },
+      {
+        "row": 10,
+        "rowsha": "zEtQcGM0Xe641xAXDWy4iebkABf5CD+eiFHxLzPdvhY=",
+        "originContent": "      step_size = 1 / 24 / 60",
+        "translatedContent": "      step_size = 1 / 24 / 60"
+      },
+      {
+        "row": 11,
+        "rowsha": "gTNTpUx8l0+O4pHMcnUXHb0uxcD6Ct9JxCm5DlevXMw=",
+        "originContent": "      jd_range = np.arange(-1, 1, step_size) + jd_center",
+        "translatedContent": "      jd_range = np.arange(-1, 1, step_size) + jd_center"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "W5CQl5KHh2Y+l/3fnURqZNY4wtBu8l+c1i7ITAZNgtc=",
+        "originContent": "      # load Apophis from JPL Horizons",
+        "translatedContent": "      # load Apophis from JPL Horizons"
+      },
+      {
+        "row": 14,
+        "rowsha": "uRMK9UJi1pJgPcMCb+6aaO0nqEViRaN3H+khzi2tVNs=",
+        "originContent": "      obj = kete.HorizonsProperties.fetch(\"Apophis\")",
+        "translatedContent": "      obj = kete.HorizonsProperties.fetch(\"Apophis\")"
+      },
+      {
+        "row": 15,
+        "rowsha": "Y+M6zuoHAHLv+7EtkPoyNzMifANnx/UNVMaYq+m5N2U=",
+        "originContent": "      cur_state = obj.state",
+        "translatedContent": "      cur_state = obj.state"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Vk3hYQvsP6fZ3VP3/5iqTTPNULolNxwSFgPaYW4iLeU=",
+        "originContent": "      # keep track the the closest approach",
+        "translatedContent": "      # keep track the the closest approach"
+      },
+      {
+        "row": 18,
+        "rowsha": "OrThowWho+q44T1oHD3blItkIBwyubiBXS0joDEuPuQ=",
+        "originContent": "      closest_approach = [np.inf, 0]",
+        "translatedContent": "      closest_approach = [np.inf, 0]"
+      },
+      {
+        "row": 19,
+        "rowsha": "xziqhQRqEWrcCYQfws6KZGSHdhO5y6MY1QnGw8u1K7g=",
+        "originContent": "      for jd in jd_range:",
+        "translatedContent": "      for jd in jd_range:"
+      },
+      {
+        "row": 20,
+        "rowsha": "t07Kkp1pM+QC//T8tMEOKJmivQTIWO3B/nWa9K9+7l4=",
+        "originContent": "            # propagate the object, and include the massive main belt asteroids",
+        "translatedContent": "            # propagate the object, and include the massive main belt asteroids"
+      },
+      {
+        "row": 21,
+        "rowsha": "MLOJYd6U47soZbBIPhiGvOoRYJVaE4vDxdwzhlS+c8g=",
+        "originContent": "            cur_state = kete.propagate_n_body(cur_state, jd, include_asteroids=True)",
+        "translatedContent": "            cur_state = kete.propagate_n_body(cur_state, jd, include_asteroids=True)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "SUrkke2VNseUVMKOWvbB2zR9YopqzJ5qt90T+F/8pxs=",
+        "originContent": "            # calculate position relative to earth",
+        "translatedContent": "            # calculate position relative to earth"
+      },
+      {
+        "row": 24,
+        "rowsha": "UQX4lOsU0pBcJMlP2/kBKqr95tCAz5ktbv1mPFLGb34=",
+        "originContent": "            earth_vec = cur_state.pos - kete.spice.get_state(\"Earth\", cur_state.jd).pos",
+        "translatedContent": "            earth_vec = cur_state.pos - kete.spice.get_state(\"Earth\", cur_state.jd).pos"
+      },
+      {
+        "row": 25,
+        "rowsha": "LYaZkbaP/sS/FmOdvY58UMLQK8A97NVHyZqKMTV0sxg=",
+        "originContent": "            earth_dist = earth_vec.r * kete.constants.AU_KM",
+        "translatedContent": "            earth_dist = earth_vec.r * kete.constants.AU_KM"
+      },
+      {
+        "row": 26,
+        "rowsha": "2ph/XLg+dVcaNVIYTCUIWdjgSBac5P+8vMW6jcL4KKc=",
+        "originContent": "            if earth_dist < closest_approach[0]:",
+        "translatedContent": "            if earth_dist < closest_approach[0]:"
+      },
+      {
+        "row": 27,
+        "rowsha": "1k9Vvq14ucO1qSxZkT72groJgIvo24DnnL1CxRo9iog=",
+        "originContent": "                  closest_approach = [earth_dist, cur_state.jd]",
+        "translatedContent": "                  closest_approach = [earth_dist, cur_state.jd]"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "aSSTsCnzkjvPFn0KmnVr4Yk/Fv3l2zD3Mawx7l+uJlc=",
+        "originContent": "      print(\"Closest approach is on:\")",
+        "translatedContent": "      print(\"Closest approach is on:\")"
+      },
+      {
+        "row": 30,
+        "rowsha": "eEjeNpy+WLIdVHpUg4ZHjfe4jmrP5QdCP6mikb+QczY=",
+        "originContent": "      print(kete.Time(closest_approach[1]).iso)",
+        "translatedContent": "      print(kete.Time(closest_approach[1]).iso)"
+      },
+      {
+        "row": 31,
+        "rowsha": "6ZZrWAzg31iL1acz06DZGewLm1N1+s5bFXnNX/xNvCg=",
+        "originContent": "      print(f\"At a distance of about {closest_approach[0]:0.0f} km\")",
+        "translatedContent": "      print(f\"At a distance of about {closest_approach[0]:0.0f} km\")"
+      },
+      {
+        "row": 32,
+        "rowsha": "0tZKHTfU95kl8OUi+zqqiq/XNm2oR2gtfFgwPUIaMmg=",
+        "originContent": "      #  Closest approach is on:",
+        "translatedContent": "      #  Closest approach is on:"
+      },
+      {
+        "row": 33,
+        "rowsha": "es1ud3md1wrx07K4xGjsvdlEN8iNf7forz9fZCyOIgc=",
+        "originContent": "      #  2029-04-13T21:45:30.239+00:00",
+        "translatedContent": "      #  2029-04-13T21:45:30.239+00:00"
+      },
+      {
+        "row": 34,
+        "rowsha": "01+l78WYj9qEfnB5IcUqEIwet06moPcNjgdZtQlzh1M=",
+        "originContent": "      #  At a distance of about 38015 km",
+        "translatedContent": "      #  At a distance of about 38015 km"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n\n## Name\n\n'Kete' comes from ancient greek mythology, meaning sea monsters, and is the root word\nfor Cetaceans (Whales).\n\n## Licensing:\n\nThe original version of this code was developed while the original author (Dar Dahlen)\nwas working at Caltech IPAC. This is a fork of that repo where the work will continue as\na personal project. Difference between this fork and previous code is licensed as\nBSD 3-Clause but copyright to Dar Dahlen & future collaborators.\n\n### Units and Reference Frame\n\nKete uses the ICRF Reference frame as the base coordinate frame, with units of AU,\nwith time in JD with Barycentric Dynamical Time (TDB) scaling. Internally this frame\nconverted to an Ecliptic coordinate system which is defined by the Obliquity Angle\ndefinition used by JPL Horizons, which is the defined IAU76/80 model in the J2000 frame.\n\n      - https://en.wikipedia.org/wiki/Axial_tilt#Short_term\n      - https://ssd.jpl.nasa.gov/horizons/manual.html#defs\n\nBoth JPL Horizons and the Minor Planet Center (MPC) use this coordinate frame, which is\nessentially equivalent to J2000 Ecliptic coordinates. Conversion tools are available in\nkete which enable conversion to the Equatorial frame and to various flavors of time.\n\n### Cache directory\n\nMany operations in kete result in downloading various files. These files are cached\nautomatically, the directory where this cache is stored may be set by setting the\nenvironment variable `KETE_CACHE_DIR`. The default directory is `~/.kete/`.",
+    "ContentSha": "Jfoa5NljXkb52CYCsnwY88S1w91cWpMzMlw+GCXg69c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 名前\n\n「Kete」は古代ギリシャ神話に由来し、海の怪物を意味し、クジラ類（セタシアン）の語源となっています。\n\n## ライセンス:\n\nこのコードのオリジナル版は、元の作者（Dar Dahlen）がCaltech IPACで勤務していた際に開発されました。  \nこれはそのリポジトリのフォークであり、個人プロジェクトとして作業が継続されます。  \nこのフォークと以前のコードの違いはBSD 3-Clauseでライセンスされていますが、著作権はDar Dahlenおよび将来の協力者に帰属します。\n\n### 単位と基準座標系\n\nKeteはICRF基準座標系を基本座標系として使用し、単位はAU、時間はバリセントリック力学時（TDB）スケールのJDです。  \n内部的にはこの座標系は、JPL Horizonsで使用される傾斜角の定義に基づく黄道座標系に変換されます。  \nこれはJ2000フレームのIAU76/80モデルとして定義されています。\n\n      - https://en.wikipedia.org/wiki/Axial_tilt#Short_term\n      - https://ssd.jpl.nasa.gov/horizons/manual.html#defs\n\nJPL Horizonsおよび小惑星センター（MPC）はこの座標系を使用しており、  \n実質的にJ2000黄道座標系と同等です。  \nketeには赤道座標系や様々な時間の形式への変換ツールが用意されています。\n\n### キャッシュディレクトリ\n\nketeの多くの操作は様々なファイルのダウンロードを伴います。  \nこれらのファイルは自動的にキャッシュされ、このキャッシュが保存されるディレクトリは環境変数`KETE_CACHE_DIR`を設定することで変更できます。  \nデフォルトのディレクトリは`~/.kete/`です。\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 名前"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "PapSjnAzWknD+IYNeIBjTz5qcHlrTvGD6YOtElI5uzs=",
+        "originContent": "## Name",
+        "translatedContent": "「Kete」は古代ギリシャ神話に由来し、海の怪物を意味し、クジラ類（セタシアン）の語源となっています。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+0pOY+jUuQBQBBwDc2nXPaJLhNZLriW+AyaaYAitEL0=",
+        "originContent": "'Kete' comes from ancient greek mythology, meaning sea monsters, and is the root word",
+        "translatedContent": "## ライセンス:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ym9YiOLRPjCrT7Sx3uZEUmNdQx0SaiQRH1ePhshvk+8=",
+        "originContent": "for Cetaceans (Whales).",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このコードのオリジナル版は、元の作者（Dar Dahlen）がCaltech IPACで勤務していた際に開発されました。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "M4FUOTQwvv3PRCf7LHPBE6H928rWqGByvoaDEQlW39M=",
+        "originContent": "## Licensing:",
+        "translatedContent": "これはそのリポジトリのフォークであり、個人プロジェクトとして作業が継続されます。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このフォークと以前のコードの違いはBSD 3-Clauseでライセンスされていますが、著作権はDar Dahlenおよび将来の協力者に帰属します。"
+      },
+      {
+        "row": 10,
+        "rowsha": "4sx2NpeO9jJysotzT2NADQnN3vzRi9V32rcG0hPZ3Yc=",
+        "originContent": "The original version of this code was developed while the original author (Dar Dahlen)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "AWEC0B5Y/J9JYTgbBDmt0929+pYQqsMIYKHRXFABU4c=",
+        "originContent": "was working at Caltech IPAC. This is a fork of that repo where the work will continue as",
+        "translatedContent": "### 単位と基準座標系"
+      },
+      {
+        "row": 12,
+        "rowsha": "wfummkQ3Jm9YygSPLcrzy5NsgvSkj2+FpqzGWzgFCxc=",
+        "originContent": "a personal project. Difference between this fork and previous code is licensed as",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "uo9e71fXzyWzj2JFeB7jS2QtYwAwHottEo3DcTC6ubA=",
+        "originContent": "BSD 3-Clause but copyright to Dar Dahlen & future collaborators.",
+        "translatedContent": "KeteはICRF基準座標系を基本座標系として使用し、単位はAU、時間はバリセントリック力学時（TDB）スケールのJDです。  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "内部的にはこの座標系は、JPL Horizonsで使用される傾斜角の定義に基づく黄道座標系に変換されます。  "
+      },
+      {
+        "row": 15,
+        "rowsha": "s9JS3xYTQxDDI3zM1wqFM4wz6WnEhKBftu44FDZNkf4=",
+        "originContent": "### Units and Reference Frame",
+        "translatedContent": "これはJ2000フレームのIAU76/80モデルとして定義されています。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Nla27IWA3eoabgVNdqYuXn6q6ZFbUihg5m15L9o7ehM=",
+        "originContent": "Kete uses the ICRF Reference frame as the base coordinate frame, with units of AU,",
+        "translatedContent": "      - https://en.wikipedia.org/wiki/Axial_tilt#Short_term"
+      },
+      {
+        "row": 18,
+        "rowsha": "i32447UznCDhtXEaGMgoCAJr0N3qAqMp2kjOG5HBfF0=",
+        "originContent": "with time in JD with Barycentric Dynamical Time (TDB) scaling. Internally this frame",
+        "translatedContent": "      - https://ssd.jpl.nasa.gov/horizons/manual.html#defs"
+      },
+      {
+        "row": 19,
+        "rowsha": "oKL2KgWfD/LnNoAqisVZPmSljXCmBfvq3qne81QRFPM=",
+        "originContent": "converted to an Ecliptic coordinate system which is defined by the Obliquity Angle",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "B2akj+PNMZg/NsQYniEghQV7zj2uj1BW8lCFUnc5dvM=",
+        "originContent": "definition used by JPL Horizons, which is the defined IAU76/80 model in the J2000 frame.",
+        "translatedContent": "JPL Horizonsおよび小惑星センター（MPC）はこの座標系を使用しており、  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "実質的にJ2000黄道座標系と同等です。  "
+      },
+      {
+        "row": 22,
+        "rowsha": "RCg3bRAx0m3NP3tdU5ysh0zTzKBOUKKGJ2IxjIkLZA4=",
+        "originContent": "      - https://en.wikipedia.org/wiki/Axial_tilt#Short_term",
+        "translatedContent": "keteには赤道座標系や様々な時間の形式への変換ツールが用意されています。"
+      },
+      {
+        "row": 23,
+        "rowsha": "/X6X322yOuBLItlAe+v5H39l5hk1qLDtsrCT8SRCfV4=",
+        "originContent": "      - https://ssd.jpl.nasa.gov/horizons/manual.html#defs",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### キャッシュディレクトリ"
+      },
+      {
+        "row": 25,
+        "rowsha": "yvW+zlFaOxWeLLgCI9SHUyQs2Oo2WQZTBFqZoMkpam4=",
+        "originContent": "Both JPL Horizons and the Minor Planet Center (MPC) use this coordinate frame, which is",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "j72Mg7P0VMYOJfm4pMBCn1++ADtmBsJpuZ97TjnVPcU=",
+        "originContent": "essentially equivalent to J2000 Ecliptic coordinates. Conversion tools are available in",
+        "translatedContent": "keteの多くの操作は様々なファイルのダウンロードを伴います。  "
+      },
+      {
+        "row": 27,
+        "rowsha": "A6JJFMvlAInvc8ZWJm8ac40OuJwGmTIjylpg6u2prL8=",
+        "originContent": "kete which enable conversion to the Equatorial frame and to various flavors of time.",
+        "translatedContent": "これらのファイルは自動的にキャッシュされ、このキャッシュが保存されるディレクトリは環境変数`KETE_CACHE_DIR`を設定することで変更できます。  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "デフォルトのディレクトリは`~/.kete/`です。"
+      },
+      {
+        "row": 29,
+        "rowsha": "YJenWvLx64rifQ/jBsOiwPWBmp0VC6vHYBskUm3YMIk=",
+        "originContent": "### Cache directory",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Y4PBZ9ywayntNv9SoMjcPsmp6gxDIRIyvEyFOPqJXko=",
+        "originContent": "Many operations in kete result in downloading various files. These files are cached",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "yJkFcM+BIsWyeKcIuuynzZelqh9FY0CvpGmovz5F0qc=",
+        "originContent": "automatically, the directory where this cache is stored may be set by setting the",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "p548nGoR3QHCeF02bxijJ1YktgjsswiEGDzKtEhr2pg=",
+        "originContent": "environment variable `KETE_CACHE_DIR`. The default directory is `~/.kete/`.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "``` bash\nexport KETE_CACHE_DIR=\"~/.kete/\"\n```",
+    "ContentSha": "HjjGcvtdWsfu2ctKXZrUEPrWt+ijz2m72QKxWksrSTw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\nexport KETE_CACHE_DIR=\"~/.kete/\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "UDYI5UsVYdAPytyc2WgSiP+MMHYkBm5KnYK71EzbK9E=",
+        "originContent": "export KETE_CACHE_DIR=\"~/.kete/\"",
+        "translatedContent": "export KETE_CACHE_DIR=\"~/.kete/\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Use with Containers - Docker/Podman\n\nBe aware that kete downloads several large SPICE kernel files on first use, which are\nsaved to a cache directory.\n\n**Important for Docker/Podman:**\n- If you trigger the download **during the Docker build** (e.g.,\n  `RUN python -c \"import kete\"`), the files will be baked into the image.\n- If you skip this step, the files will download on first container run but\n  **will be lost when the container stops** unless you use a volume mount for the cache\n  directory.\n\n**Recommended Dockerfile approach:**",
+    "ContentSha": "nkUuVebPL14AAtPI1aDxkfTm3/Lpt5HxApXnZwZqWuM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### コンテナでの使用 - Docker/Podman\n\nketeは初回使用時に複数の大きなSPICEカーネルファイルをダウンロードし、\nキャッシュディレクトリに保存することに注意してください。\n\n**Docker/Podmanでの重要事項:**\n- ダウンロードを**Dockerビルド中に実行した場合**（例：\n  `RUN python -c \"import kete\"`）、ファイルはイメージに組み込まれます。\n- この手順をスキップした場合、ファイルは初回コンテナ起動時にダウンロードされますが、\n  **コンテナ停止時に失われます**。キャッシュディレクトリにボリュームマウントを使用しない限り。\n\n**推奨されるDockerfileの方法:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EFx8M/8OxiVNd2bqEPbmeafG+OmilPezmuOr7rQtoU8=",
+        "originContent": "### Use with Containers - Docker/Podman",
+        "translatedContent": "### コンテナでの使用 - Docker/Podman"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DdjzST9HsF6SJriihfA30NQm5If15ND+n906vm9gx10=",
+        "originContent": "Be aware that kete downloads several large SPICE kernel files on first use, which are",
+        "translatedContent": "keteは初回使用時に複数の大きなSPICEカーネルファイルをダウンロードし、"
+      },
+      {
+        "row": 5,
+        "rowsha": "LKiM9baZvfNXgw9ceneOSKFyq58+9ROpZoALjOmlUeI=",
+        "originContent": "saved to a cache directory.",
+        "translatedContent": "キャッシュディレクトリに保存することに注意してください。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "DrhyVmwnq1K9IPDXhLGOUuf8y2sGXuyUsEX3pn2TO7s=",
+        "originContent": "**Important for Docker/Podman:**",
+        "translatedContent": "**Docker/Podmanでの重要事項:**"
+      },
+      {
+        "row": 8,
+        "rowsha": "k0VStGdQv7P8paWHvQW3LrSaDCnlhDAlKbvSHa4QuLw=",
+        "originContent": "- If you trigger the download **during the Docker build** (e.g.,",
+        "translatedContent": "- ダウンロードを**Dockerビルド中に実行した場合**（例："
+      },
+      {
+        "row": 9,
+        "rowsha": "EZbZHNh9CZNeQBmouw3gwD22oW9xGvWF505HNG4R3I4=",
+        "originContent": "  `RUN python -c \"import kete\"`), the files will be baked into the image.",
+        "translatedContent": "  `RUN python -c \"import kete\"`）、ファイルはイメージに組み込まれます。"
+      },
+      {
+        "row": 10,
+        "rowsha": "qoKgQE3Kydy0q42VG6AWw3wz/PCqfNWNsEBKi59nwu4=",
+        "originContent": "- If you skip this step, the files will download on first container run but",
+        "translatedContent": "- この手順をスキップした場合、ファイルは初回コンテナ起動時にダウンロードされますが、"
+      },
+      {
+        "row": 11,
+        "rowsha": "jicoV+v2yncdU+dobp8Gin2DTv/54J2JdduAt6U0s7o=",
+        "originContent": "  **will be lost when the container stops** unless you use a volume mount for the cache",
+        "translatedContent": "  **コンテナ停止時に失われます**。キャッシュディレクトリにボリュームマウントを使用しない限り。"
+      },
+      {
+        "row": 12,
+        "rowsha": "bcw8nqawBrUzq6kX2Hr5GgJcCRx0sYcSB648Q0H1VSg=",
+        "originContent": "  directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**推奨されるDockerfileの方法:**"
+      },
+      {
+        "row": 14,
+        "rowsha": "qelPpNXqPHcqeWEG0Qp5A+y9cGaP8X/1DWvgWsCdrfU=",
+        "originContent": "**Recommended Dockerfile approach:**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```dockerfile\nRUN pip install kete && \\\n    python -c \"import kete\"  # Triggers kernel downloads during build\n```",
+    "ContentSha": "OIgDcap9T9jz75hSXC10b4ajKA2OyAjNq23mlw+xXQo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```dockerfile\nRUN pip install kete && \\\n    python -c \"import kete\"  # Triggers kernel downloads during build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4bPEYdBYIDUz5h13b5B4HMnbaGiXJuPl17bKWqWIlBk=",
+        "originContent": "```dockerfile",
+        "translatedContent": "```dockerfile"
+      },
+      {
+        "row": 2,
+        "rowsha": "wZKY0xHV9+NMIGUYOlCLr/gFthtb4Q1/lkCXbaduezk=",
+        "originContent": "RUN pip install kete && \\",
+        "translatedContent": "RUN pip install kete && \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "QRQeeCIZkAupdvav3u4VVQe0cmi8vYyiuHLFqRx6NeM=",
+        "originContent": "    python -c \"import kete\"  # Triggers kernel downloads during build",
+        "translatedContent": "    python -c \"import kete\"  # Triggers kernel downloads during build"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nThis ensures the SPICE kernels are part of your image and don't need re-downloading.\n\n# Developer information:\n\nInformation below is aimed for developers, and is not necessary for end users.\n\n## Installation - From Source\n\nIf kete is built from source, the rust compiler must be installed. Installation\ninstructions may be found here: \n\nhttps://www.rust-lang.org/learn/get-started\n\nEnsure that your Python is up to date, this code runs on Python 3.9+.",
+    "ContentSha": "I5IqDuY4iDbL4k7lhBfbL7t08z65r5RtMZ5C0/wyOvA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nこれにより、SPICEカーネルがイメージの一部となり、再ダウンロードの必要がなくなります。\n\n# 開発者向け情報：\n\n以下の情報は開発者向けであり、エンドユーザーには必要ありません。\n\n## インストール - ソースから\n\nketeをソースからビルドする場合、Rustコンパイラのインストールが必要です。インストール手順は以下で確認できます：\n\nhttps://www.rust-lang.org/learn/get-started\n\nPythonが最新であることを確認してください。本コードはPython 3.9以上で動作します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uCHo6LJG5b6PKNiLf4663gpSnXnU4qS83IlAiB4vrY0=",
+        "originContent": "This ensures the SPICE kernels are part of your image and don't need re-downloading.",
+        "translatedContent": "これにより、SPICEカーネルがイメージの一部となり、再ダウンロードの必要がなくなります。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gfQ1n/WPBCmC/GGcUQvLtcfF8loGm1N1z+yqmaAkU3E=",
+        "originContent": "# Developer information:",
+        "translatedContent": "# 開発者向け情報："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/DeekViilsVYtRooYUhJ1evdNDXgs+RE8Nlqzd3I5mg=",
+        "originContent": "Information below is aimed for developers, and is not necessary for end users.",
+        "translatedContent": "以下の情報は開発者向けであり、エンドユーザーには必要ありません。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "17LTqbNVp88EFYCLCWGpnqAgznV0/IzVZtomB6LlfAQ=",
+        "originContent": "## Installation - From Source",
+        "translatedContent": "## インストール - ソースから"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "fk0FfxuEfmruSjYL++dXSYxeQ+GuCA6BfrSz70yXvJ4=",
+        "originContent": "If kete is built from source, the rust compiler must be installed. Installation",
+        "translatedContent": "keteをソースからビルドする場合、Rustコンパイラのインストールが必要です。インストール手順は以下で確認できます："
+      },
+      {
+        "row": 11,
+        "rowsha": "/NG8SoooH64pddxrdIi7iC/hgy0NZzY8ommRPGnJNZQ=",
+        "originContent": "instructions may be found here: ",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://www.rust-lang.org/learn/get-started"
+      },
+      {
+        "row": 13,
+        "rowsha": "+tRPIGuyBJe0idLCsMBa/YvFFzjh/L/qIIvJqFHYWDI=",
+        "originContent": "https://www.rust-lang.org/learn/get-started",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Pythonが最新であることを確認してください。本コードはPython 3.9以上で動作します。"
+      },
+      {
+        "row": 15,
+        "rowsha": "h0gbymVkjo2toJjkRqzb/8mU1J+R85YAwnJWGwbtXTk=",
+        "originContent": "Ensure that your Python is up to date, this code runs on Python 3.9+.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "``` bash\npython --version\n```",
+    "ContentSha": "XrNl9Uy02LMxU7+3IwzWwNAMWUu+KxJsHdLFhitWlpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npython --version\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8rMKDl2Cs/mDqYZtmRF9hTBJcp8xIB5rqK/KueUgsuc=",
+        "originContent": "python --version",
+        "translatedContent": "python --version"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nEnsure that your pip is up to date, this should be at least version `22.0.0`.",
+    "ContentSha": "dol3MyAFV6pnJZYkyhEE/0ntebiKvcGCQbfPZ6tbvBg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\npipが最新であることを確認してください。バージョンは少なくとも`22.0.0`である必要があります。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3/UYmjwlcMkjGxczoC78FQaujsFDtW3lcOBUZvYq0aU=",
+        "originContent": "Ensure that your pip is up to date, this should be at least version `22.0.0`.",
+        "translatedContent": "pipが最新であることを確認してください。バージョンは少なくとも`22.0.0`である必要があります。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "``` bash\npip --version\n```",
+    "ContentSha": "R2pQOyVNS6hGMGtczJLt7f3pRLZtY2U1/2k2NQy8anY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npip --version\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ULcaN0OVKmIHqf9o/O74L6Ckui8MgL1yWCQ09EIL3lY=",
+        "originContent": "pip --version",
+        "translatedContent": "pip --version"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\nThis can be updated using:",
+    "ContentSha": "LCCNr0LE/rG1mXDkJu83PdP8tR6ePix7Gk8B3sfY5PM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nこれは次のコマンドで更新できます:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QerttvtRE2VYyiYx7t/dfmU7eFKFnVnc0JYCePr+px8=",
+        "originContent": "This can be updated using:",
+        "translatedContent": "これは次のコマンドで更新できます:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "``` bash\npython -m pip install \"pip>=22.0.0\" --upgrade\npip install setuptools --upgrade\n```",
+    "ContentSha": "8nRF+mw+Wxi3kW2jcxekm4kJ1lDtHI5F6t/x+ZnYk0g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npython -m pip install \"pip>=22.0.0\" --upgrade\npip install setuptools --upgrade\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "grf+mNAGLn7i606gF9C9sedUcIgvRD5Lg4/LU06LYGE=",
+        "originContent": "python -m pip install \"pip>=22.0.0\" --upgrade",
+        "translatedContent": "python -m pip install \"pip>=22.0.0\" --upgrade"
+      },
+      {
+        "row": 3,
+        "rowsha": "lbXLrqET1x5W6VZQlQG10+NOnT5U0B3XFV1N8cAX800=",
+        "originContent": "pip install setuptools --upgrade",
+        "translatedContent": "pip install setuptools --upgrade"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n### Development\n\nIf you plan on doing development, it is recommended to install with the following:",
+    "ContentSha": "g7bxpfQATo2q16CUCqIDIJSQGR7AbE21oQxSxJxqvLw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 開発\n\n開発を行う予定がある場合は、以下の方法でのインストールを推奨します：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "x04EB7BlvMSKobvvwbPlJfxbjTla+pt6AhDspqW/UFU=",
+        "originContent": "### Development",
+        "translatedContent": "### 開発"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "bWUJ0rnZh4zL3uBbDelVgOSSNYsrARxKAgoAhUd0sSc=",
+        "originContent": "If you plan on doing development, it is recommended to install with the following:",
+        "translatedContent": "開発を行う予定がある場合は、以下の方法でのインストールを推奨します："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "``` bash\npip install '.[dev]'\n```",
+    "ContentSha": "zfB1oXGiOgw0n0A9PLQk5+k6MyY7tYC8OGxeQG3/4cA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npip install '.[dev]'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "V4zLrOox58nMEWKluGuguNX5Lm7YPenV1+ubU2gtptc=",
+        "originContent": "pip install '.[dev]'",
+        "translatedContent": "pip install '.[dev]'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "The `[dev]` in that line has pip install a number of optional dependencies which\nare useful for development. Including pytest and documentation tools.\n\n### Building Documentation\n\nIn order for documentation to be built, some additional Python libraries are needed.\nThese can be installed with:",
+    "ContentSha": "4NL7dr0YAi280SOv9y4rQjo9tLb3A2E2c6tdwF23XeQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "その行の `[dev]` は、開発に役立ついくつかのオプションの依存関係をpipでインストールします。  \npytestやドキュメント作成ツールを含みます。\n\n### ドキュメントのビルド\n\nドキュメントをビルドするためには、追加のPythonライブラリが必要です。  \nこれらは以下のコマンドでインストールできます：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "z7ecEFxM4sr+Ywzmwf1ixcj6CFI5IqlHwlKHopeah0E=",
+        "originContent": "The `[dev]` in that line has pip install a number of optional dependencies which",
+        "translatedContent": "その行の `[dev]` は、開発に役立ついくつかのオプションの依存関係をpipでインストールします。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "MdqUYyS1PgMhkaQEgzXrnYjdg/yGzBaUGPvOaDvAuuI=",
+        "originContent": "are useful for development. Including pytest and documentation tools.",
+        "translatedContent": "pytestやドキュメント作成ツールを含みます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OfLg/rx9qHvwZNjkW5fNCddgUu/V/vPNdSgaS2XFu4M=",
+        "originContent": "### Building Documentation",
+        "translatedContent": "### ドキュメントのビルド"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "tlXnkAmpBfmric0iIx+vBRpGl5ypoEOnNgQlAqlM874=",
+        "originContent": "In order for documentation to be built, some additional Python libraries are needed.",
+        "translatedContent": "ドキュメントをビルドするためには、追加のPythonライブラリが必要です。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "hK+w8v/uAZiuyW6qqPZQ+3VIWNIS7lclddsF3QLffwE=",
+        "originContent": "These can be installed with:",
+        "translatedContent": "これらは以下のコマンドでインストールできます："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "``` bash\npip install sphinx sphinx_gallery autodoc\n```",
+    "ContentSha": "LWX7LdOdkMxm8bjtEhSHF9nuKpWqfgkx/YGK22lZZkM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npip install sphinx sphinx_gallery autodoc\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "4+oUmLD0OOU58jEYyVwbE956lI3FEFEud9cvtGd9LQ4=",
+        "originContent": "pip install sphinx sphinx_gallery autodoc",
+        "translatedContent": "pip install sphinx sphinx_gallery autodoc"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "After this has been installed, the documentation can be built by running inside the\nkete directory.",
+    "ContentSha": "ow+h7oW3l9D5W0ptoPCXpCqJSaV/0iLK/7VEM/0FCoM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "これがインストールされた後、ドキュメントはketeディレクトリ内で実行することでビルドできます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QdlhIQEz/36AguKlAgdDgvnssed652cz3WuNFpfDggc=",
+        "originContent": "After this has been installed, the documentation can be built by running inside the",
+        "translatedContent": "これがインストールされた後、ドキュメントはketeディレクトリ内で実行することでビルドできます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "HZZIyopt0H6/qI3hxQpNqM8kzp65Zp9OHdDS4NxKIew=",
+        "originContent": "kete directory.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "``` bash\n(cd docs && make html && open html/index.html&)\n```",
+    "ContentSha": "1gHa4Hi8TrYHcG8zsj9egMmv+YsPCH5YSwWRomiiqCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n(cd docs && make html && open html/index.html&)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "hypviMeWHYFaQ19YlWOb6SnTWdgqa31xK8uAVfIKSvs=",
+        "originContent": "(cd docs && make html && open html/index.html&)",
+        "translatedContent": "(cd docs && make html && open html/index.html&)"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "Once this has completed running, open the file `kete/docs/html/index.html` for access\nto the HTML documentation.\n\nTo clean the previous docs build:",
+    "ContentSha": "WwXpgHHpbSkN5M/FBgeWnbTDbzWfxaNEtN453JOpacw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "実行が完了したら、HTMLドキュメントにアクセスするためにファイル `kete/docs/html/index.html` を開いてください。\n\n以前のドキュメントビルドをクリーンアップするには：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "I+Dg7oZ4XdvobeJX1CgO9bLWpPb8kFmvKRFwuf4NxRM=",
+        "originContent": "Once this has completed running, open the file `kete/docs/html/index.html` for access",
+        "translatedContent": "実行が完了したら、HTMLドキュメントにアクセスするためにファイル `kete/docs/html/index.html` を開いてください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "YQXf1a2IqWeQEgd+2R7k22rnXxKJKQFtP6m+iMgGqns=",
+        "originContent": "to the HTML documentation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "以前のドキュメントビルドをクリーンアップするには："
+      },
+      {
+        "row": 4,
+        "rowsha": "seEl3Tm29pR354a9rua1ltf5jycOllpenLT8BympCj8=",
+        "originContent": "To clean the previous docs build:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "``` bash\n(cd docs && make clean)\n```",
+    "ContentSha": "aMOqU5ggdYci1nPB+/f+qi0hcaVQFfKzjNZ6Vo39k2A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n(cd docs && make clean)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mXJvKskds/t3bvv4P7ocY/XyxZXgKZhGsgJsMthrbJc=",
+        "originContent": "(cd docs && make clean)",
+        "translatedContent": "(cd docs && make clean)"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\nDocumentation tests may be run with:",
+    "ContentSha": "w5PaDVOxcONIF3PsC8PE9K+2czA28NLsYJb8nqkofUw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nドキュメントテストは次のコマンドで実行できます:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aqunYqqr8Qiw0l3A9eNwe7se0nwZtst/0gS29Hfk2uo=",
+        "originContent": "Documentation tests may be run with:",
+        "translatedContent": "ドキュメントテストは次のコマンドで実行できます:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "``` bash\n(cd docs && make doctest)\n```",
+    "ContentSha": "qbv7MBoFjYwcLKnUPYLHcyVXFlaKn/nydf8hYcECw/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n(cd docs && make doctest)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "H1Iu4XkPN+d6W1MQSC3CFhBlas6G52NNg2+k3cMP2yw=",
+        "originContent": "(cd docs && make doctest)",
+        "translatedContent": "(cd docs && make doctest)"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\n### Running tests\n\nRunning tests require that the `pytest` and `pytest-cov` packages be installed.\n\nOpen a terminal in the base of this folder and run the following command:",
+    "ContentSha": "UgBIgEkLp4vpdDy83qnXHQTsg36+Q/gvXkQc1MOeesc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### テストの実行\n\nテストの実行には `pytest` と `pytest-cov` パッケージのインストールが必要です。\n\nこのフォルダのベースでターミナルを開き、次のコマンドを実行してください:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rHpGYvzTu+C8XttkpDIfss7cQzzIRlUR/yRO8wb71sw=",
+        "originContent": "### Running tests",
+        "translatedContent": "### テストの実行"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oWASkkiMyOmCW0rDsiOFxg82R8TlelsZAwXPMs6YhBU=",
+        "originContent": "Running tests require that the `pytest` and `pytest-cov` packages be installed.",
+        "translatedContent": "テストの実行には `pytest` と `pytest-cov` パッケージのインストールが必要です。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4w4jCdDMpfo2xXnhGqavoTB+3DZenq4hXkkBhR+EMPg=",
+        "originContent": "Open a terminal in the base of this folder and run the following command:",
+        "translatedContent": "このフォルダのベースでターミナルを開き、次のコマンドを実行してください:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "``` bash\npytest --cov-report term-missing --cov=kete   \n```",
+    "ContentSha": "wTpY+Yyhi0lNzCxyBQbuwOjmNiaVsfKoVWFDhAt+4SA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npytest --cov-report term-missing --cov=kete   \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "T4FoSZfBfKmF4DjfcEUPk6lYS1y5IoCb4Z5Qj3or8RI=",
+        "originContent": "pytest --cov-report term-missing --cov=kete   ",
+        "translatedContent": "pytest --cov-report term-missing --cov=kete   "
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\nAnother coverage report type is HTML, this will generate a folder called `htmlcov`\nin the directory where the command was run, then you can open the `htmlcov/index.html`\nfile. This is a user-friendly website representation of the code coverage.",
+    "ContentSha": "MIeLb04eE4e8kyTTYTxmFuyr0c28cZIMAHhxZa3vP10=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "別のカバレッジレポートの種類としてHTMLがあり、これはコマンドが実行されたディレクトリに`htmlcov`というフォルダを生成します。  \nその後、`htmlcov/index.html`ファイルを開くことができます。  \nこれはコードカバレッジのユーザーフレンドリーなウェブサイト表現です。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "別のカバレッジレポートの種類としてHTMLがあり、これはコマンドが実行されたディレクトリに`htmlcov`というフォルダを生成します。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "fdEVwICjleAL6SOO1C8XMte1hO3uVwx6t3o3l4yRfp0=",
+        "originContent": "Another coverage report type is HTML, this will generate a folder called `htmlcov`",
+        "translatedContent": "その後、`htmlcov/index.html`ファイルを開くことができます。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "UMXXHnwAIWC1p5uLxIteMZkS+yJ+QvmzchP8bpDby4Y=",
+        "originContent": "in the directory where the command was run, then you can open the `htmlcov/index.html`",
+        "translatedContent": "これはコードカバレッジのユーザーフレンドリーなウェブサイト表現です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "/O8qTgQyIcFvVx7HNw63itnjKI0uZsfY7xX6Fy+kKgM=",
+        "originContent": "file. This is a user-friendly website representation of the code coverage.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 29,
+    "Content": "``` bash\npytest --cov-report html --cov=kete   \n```",
+    "ContentSha": "UDB9ff5zD0Tem7SA6OtfMOFZ6IyZUqWrM/ZOKu3lM7A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\npytest --cov-report html --cov=kete   \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rcxMilaYbxB54iCHoMvDGCzKIGWhyNXhNe5VWlXg6AA=",
+        "originContent": "pytest --cov-report html --cov=kete   ",
+        "translatedContent": "pytest --cov-report html --cov=kete   "
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 30,
+    "Content": "\n### Running Tutorials\n\nTutorials are computationally expensive examples which are more indicative of typical\nexpected use. Since these examples are so expensive to run, they are not run unless\nmanually performed. A convenience python script has been provided to do just this.\n",
+    "ContentSha": "LcGjglt64Gu70Ue9rP/6INCsCpcq8VLTImal/RJN41M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### チュートリアルの実行\n\nチュートリアルは、典型的な使用例をより示す計算負荷の高い例です。  \nこれらの例は実行に非常にコストがかかるため、手動で実行しない限り実行されません。  \nそのための便利なPythonスクリプトが用意されています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FWcqbOMfFGno+kQRgphEro9tnoCQnI8wEIczLSPCg5Y=",
+        "originContent": "### Running Tutorials",
+        "translatedContent": "### チュートリアルの実行"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wfdux6rOIqQUnSRtolnF156tWErBPS2dSQteR+re1ZA=",
+        "originContent": "Tutorials are computationally expensive examples which are more indicative of typical",
+        "translatedContent": "チュートリアルは、典型的な使用例をより示す計算負荷の高い例です。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "Xx20fwfLC5dGOdwtEtug6fO0b/MzkLVcYdL+UbcOpSc=",
+        "originContent": "expected use. Since these examples are so expensive to run, they are not run unless",
+        "translatedContent": "これらの例は実行に非常にコストがかかるため、手動で実行しない限り実行されません。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "Mupec3Gkv2SLJHHqX8IZa70Sr5gYTTKh/g/ao1nTs6w=",
+        "originContent": "manually performed. A convenience python script has been provided to do just this.",
+        "translatedContent": "そのための便利なPythonスクリプトが用意されています。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 31,
+    "Content": "``` bash\ncd docs\npython utils.py\n```",
+    "ContentSha": "wonu8fDcazQ6SG6Nb98QpcXqpVBlVn/R84ZzSOdpuBM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\ncd docs\npython utils.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fV0fHQk51n2HQGhMeu7nBaGxoChgoS/WUBl6lxkVATY=",
+        "originContent": "cd docs",
+        "translatedContent": "cd docs"
+      },
+      {
+        "row": 3,
+        "rowsha": "wb2wkhnloP7t/CQvqmq9zwEm8+dhEVjsoPLITW4ayTA=",
+        "originContent": "python utils.py",
+        "translatedContent": "python utils.py"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 32,
+    "Content": "\n### Running Benchmarks\n\nThere are a test suite of micro-benchmarks in the rust backend of kete. These require\n`gnuplot` to be installed, and may be run using the following command:\n",
+    "ContentSha": "iXDDkjdB+hm49GD/NrYHXCP2HH+yWar5Sg8NddEl/B4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ベンチマークの実行\n\nketeのRustバックエンドにはマイクロベンチマークのテストスイートがあります。これらは\n`gnuplot` のインストールが必要で、以下のコマンドで実行できます：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "09UYEsKB/9Fruj+kflfBBjz0XgXe1doX/NJkFtzxpVI=",
+        "originContent": "### Running Benchmarks",
+        "translatedContent": "### ベンチマークの実行"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Nf986FvZMeQf8ZjgfvqnMOYRs+MY5lG8U+VGX2oDNjo=",
+        "originContent": "There are a test suite of micro-benchmarks in the rust backend of kete. These require",
+        "translatedContent": "keteのRustバックエンドにはマイクロベンチマークのテストスイートがあります。これらは"
+      },
+      {
+        "row": 5,
+        "rowsha": "+ZIH/P0bBzAGAqOQkH9DomaK88DuJPhQpKfF6fedMJU=",
+        "originContent": "`gnuplot` to be installed, and may be run using the following command:",
+        "translatedContent": "`gnuplot` のインストールが必要で、以下のコマンドで実行できます："
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 33,
+    "Content": "``` bash\ncargo bench\nopen target/criterion/report/index.html\n```",
+    "ContentSha": "ssJkg5fzb193Q94D1w66/VsDRHnqLDIRawRsUOh2scg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\ncargo bench\nopen target/criterion/report/index.html\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2RHviTp3G/UawCuvbbd575F8RqguMRhgJXWGp1Sx7GI=",
+        "originContent": "cargo bench",
+        "translatedContent": "cargo bench"
+      },
+      {
+        "row": 3,
+        "rowsha": "SlX1tErXZd7APXGRMEMs9fZgvKFrtgXlqtZFQ20qX8I=",
+        "originContent": "open target/criterion/report/index.html",
+        "translatedContent": "open target/criterion/report/index.html"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 34,
+    "Content": "\nAdditionally, Flamegraphs may be produced using the following:\n",
+    "ContentSha": "I/i5RePcaJnt0RFcIcF15xerVSFJWgdAPH9ResRnV6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "さらに、以下を使用してFlamegraphを生成することもできます:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "さらに、以下を使用してFlamegraphを生成することもできます:"
+      },
+      {
+        "row": 2,
+        "rowsha": "5H68kkmE1Tflnu+BBOIMP6I8E+KiLW3Cuo136KSScfU=",
+        "originContent": "Additionally, Flamegraphs may be produced using the following:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 35,
+    "Content": "``` bash\ncargo bench --bench propagation -- --profile-time=5\ncargo bench --bench spice -- --profile-time=5\ncargo bench --bench thermal -- --profile-time=5\n```",
+    "ContentSha": "iHknv9BYlK7z1B50AO3wtcy3m9EqiWGLt6s++78KT20=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\ncargo bench --bench propagation -- --profile-time=5\ncargo bench --bench spice -- --profile-time=5\ncargo bench --bench thermal -- --profile-time=5\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "4x5aI6sm7CD7roo6F7Mdfw2V8RD3FdbnNcWqZYfzByE=",
+        "originContent": "cargo bench --bench propagation -- --profile-time=5",
+        "translatedContent": "cargo bench --bench propagation -- --profile-time=5"
+      },
+      {
+        "row": 3,
+        "rowsha": "4QamNlf71onaxTuNwnBPU3VYn354p+wkywdQ1U2NJKY=",
+        "originContent": "cargo bench --bench spice -- --profile-time=5",
+        "translatedContent": "cargo bench --bench spice -- --profile-time=5"
+      },
+      {
+        "row": 4,
+        "rowsha": "TffhW5wsprIUR515slAynUNfW0bJ6bb/LfeClQePCg0=",
+        "originContent": "cargo bench --bench thermal -- --profile-time=5",
+        "translatedContent": "cargo bench --bench thermal -- --profile-time=5"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 36,
+    "Content": "\nThese flamegraphs will be put in `target/criterion/*/profile/flamegraph.svg`. Opening\nthese files in a web browser will show what functions are being used during the bench.\n",
+    "ContentSha": "4jrxZAFtJ536eIZrpwZVY4AeN+UdA7Mq7W8xYCRRSAg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "これらのフレームグラフは `target/criterion/*/profile/flamegraph.svg` に保存されます。  \nこれらのファイルをウェブブラウザで開くと、ベンチマーク中に使用されている関数が表示されます。  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これらのフレームグラフは `target/criterion/*/profile/flamegraph.svg` に保存されます。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "V93LRa+Ti5Ojxdz8wjdjSIsJ+6z4LvSwGLvekWwvYpY=",
+        "originContent": "These flamegraphs will be put in `target/criterion/*/profile/flamegraph.svg`. Opening",
+        "translatedContent": "これらのファイルをウェブブラウザで開くと、ベンチマーク中に使用されている関数が表示されます。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "ZYsY2wCPnF25JQer1x2PRtKArrGNrXBlnYCUHnKniAE=",
+        "originContent": "these files in a web browser will show what functions are being used during the bench.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

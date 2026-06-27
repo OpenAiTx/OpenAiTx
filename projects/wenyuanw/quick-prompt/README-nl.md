@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -8,10 +10,10 @@
         <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">Japans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">Koreaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">Thais</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr">Frans</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de">Duits</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es">Spaans</a>
@@ -20,8 +22,8 @@
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl">Nederlands</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl">Pools</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa">Perzisch</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi">Vietnamees</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id">Indonesisch</a>
@@ -30,13 +32,11 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Een krachtige browserextensie, gericht op promptbeheer en snelle invoer. Helpt gebruikers bij het creëren, beheren en organiseren van promptbibliotheken, en bij het snel invoegen van vooraf ingestelde Prompt-inhoud in elk webformulier, om de efficiëntie te verhogen.
+Een krachtige browserextensie, gericht op promptbeheer en snelle invoer. Helpt gebruikers bij het maken, beheren en organiseren van een promptbibliotheek, en bij het snel invoegen van vooraf ingestelde prompts in elk invoerveld op een webpagina om de efficiëntie te verhogen.
 
-## ✨ Functies
+## ✨ Functies en Kenmerken
 
 - 📚 **Promptbeheer**: Eenvoudig prompts aanmaken, bewerken en beheren in je promptbibliotheek
 - 🚀 **Snelle invoer**: Roep de promptkiezer snel op in elk webpagina-invoerveld met `/p`
@@ -191,6 +191,6 @@ Dank aan alle ontwikkelaars die aan het project hebben bijgedragen!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

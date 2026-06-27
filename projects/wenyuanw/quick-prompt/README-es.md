@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,13 +32,11 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Una poderosa extensión de navegador, enfocada en la gestión y entrada rápida de prompts. Ayuda a los usuarios a crear, gestionar y organizar una biblioteca de prompts, e insertar rápidamente el contenido de prompts predefinidos en cualquier campo de entrada de una página web, mejorando la eficiencia laboral.
+Una potente extensión de navegador enfocada en la gestión de prompts y entrada rápida. Ayuda a los usuarios a crear, gestionar y organizar una biblioteca de prompts, e insertar rápidamente contenido preestablecido en cualquier campo de texto web, mejorando la eficiencia del trabajo.
 
-## ✨ Funcionalidades
+## ✨ Características principales
 
 - 📚 **Gestión de frases de aviso**: crea, edita y gestiona fácilmente tu biblioteca de frases de aviso
 - 🚀 **Entrada rápida**: usa `/p` en cualquier campo de texto de una web para activar el selector de frases de aviso
@@ -191,6 +191,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

@@ -1,4 +1,6 @@
-# Quick Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Một tiện ích mở rộng trình duyệt mạnh mẽ, tập trung vào quản lý prompt và nhập liệu nhanh. Hỗ trợ người dùng tạo, quản lý và tổ chức thư viện prompt, đồng thời chèn nhanh nội dung Prompt đã thiết lập vào bất kỳ ô nhập liệu nào trên web, nâng cao hiệu suất làm việc.
+Một tiện ích mở rộng trình duyệt mạnh mẽ, tập trung vào quản lý và nhập nhanh các từ khóa gợi ý. Hỗ trợ người dùng tạo, quản lý và tổ chức thư viện từ khóa gợi ý, đồng thời chèn nhanh nội dung Prompt đã lưu vào bất kỳ ô nhập liệu nào trên trang web, nâng cao hiệu suất làm việc.
 
 ## ✨ Tính năng nổi bật
 
@@ -191,6 +191,6 @@ Cảm ơn tất cả các nhà phát triển đã đóng góp cho dự án!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

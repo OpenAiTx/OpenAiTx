@@ -1,4 +1,6 @@
-# پرسش سریع
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -8,33 +10,31 @@
         <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en">انگلیسی</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">ژاپنی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">کره‌ای</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">هندی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">تایلندی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr">فرانسوی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de">آلمانی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es">اسپانیایی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it">ایتالیایی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru">روسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt">پرتغالی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl">هلندی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl">لهستانی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">عربی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr">ترکی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi">ویتنامی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id">اندونزیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="لوگوی پرسش سریع" width="128" style="background: transparent;">
-</p>
+<h1 align="center">پرومپت سریع</h1>
 
-یک افزونه قدرتمند مرورگر که بر مدیریت و ورود سریع پرسش‌ها تمرکز دارد. این افزونه به کاربران کمک می‌کند تا بانک پرسش‌های خود را ایجاد، مدیریت و سازماندهی کنند و محتوای پرسش‌های آماده را در هر کادر ورودی وب‌سایت به سرعت درج نمایند تا بهره‌وری را افزایش دهد.
+یک افزونه قدرتمند مرورگر که بر مدیریت پرومپت و ورود سریع تمرکز دارد. این ابزار به کاربران کمک می‌کند تا بانک پرومپت‌های خود را ایجاد، مدیریت و سازماندهی کنند و محتوای پرومپت از پیش تعیین‌شده را در هر کادر متنی وب‌سایت به سرعت وارد کرده و بهره‌وری را افزایش دهند.
 
 ## ✨ ویژگی‌های اصلی
 
@@ -191,6 +191,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

@@ -1,4 +1,6 @@
-# برومبت السريع
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,13 +32,11 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="شعار برومبت السريع" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-امتداد متصفح قوي يركز على إدارة كلمات البرومبت والإدخال السريع. يساعد المستخدمين على إنشاء وإدارة وتنظيم مكتبة البرومبتات، وإدراج محتوى البرومبت المسبق في أي مربع إدخال على صفحات الويب، مما يعزز كفاءة العمل.
+إضافة متصفح قوية تركز على إدارة الكلمات المفتاحية والإدخال السريع. تساعد المستخدمين على إنشاء وإدارة وتنظيم مكتبة الكلمات المفتاحية، وإدراج محتوى Prompt المُعد مسبقاً بسرعة في أي مربع إدخال على صفحات الويب، مما يعزز من كفاءة العمل.
 
-## ✨ ميزات الوظائف
+## ✨ الميزات الرئيسية
 
 - 📚 **إدارة الكلمات المفتاحية**: إنشاء وتحرير وإدارة مكتبة الكلمات المفتاحية الخاصة بك بسهولة
 - 🚀 **إدخال سريع**: يمكنك تفعيل منتقي الكلمات المفتاحية بسرعة عبر `/p` في أي مربع إدخال نصي في صفحات الويب
@@ -191,6 +191,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

@@ -1,4 +1,6 @@
-# クイックプロンプト
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-強力なブラウザ拡張機能で、プロンプト管理と素早い入力に特化しています。ユーザーがプロンプトライブラリを作成・管理・整理でき、あらゆるウェブページの入力欄にプリセットのプロンプト内容をすばやく挿入し、作業効率を向上させます。
+強力なブラウザー拡張機能で、プロンプトの管理と高速入力に特化しています。ユーザーがプロンプトライブラリを作成・管理・整理し、どのウェブページの入力欄にもプリセットしたプロンプト内容を素早く挿入でき、作業効率を向上させます。
 
 ## ✨ 機能特長
 
@@ -191,6 +191,6 @@ Pull Request や Issue の提出を歓迎します！
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

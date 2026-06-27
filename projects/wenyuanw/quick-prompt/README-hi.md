@@ -1,4 +1,6 @@
-# क्विक प्रॉम्प्ट
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">क्विक प्रॉम्प्ट</h1>
 
-एक शक्तिशाली ब्राउज़र एक्सटेंशन, जो प्रॉम्प्ट प्रबंधन और त्वरित इनपुट पर केंद्रित है। यह उपयोगकर्ताओं को प्रॉम्प्ट लाइब्रेरी बनाने, प्रबंधित करने और व्यवस्थित करने में मदद करता है, और किसी भी वेबपेज के इनपुट बॉक्स में प्रीसेट प्रॉम्प्ट सामग्री को जल्दी से डालने की सुविधा देता है, जिससे कार्यक्षमता बढ़ती है।
+एक शक्तिशाली ब्राउज़र एक्सटेंशन, जो प्रॉम्प्ट प्रबंधन और त्वरित इनपुट पर केंद्रित है। यह उपयोगकर्ताओं को प्रॉम्प्ट पुस्तकालय बनाने, प्रबंधित करने और व्यवस्थित करने में मदद करता है, और किसी भी वेबपेज इनपुट बॉक्स में पूर्वनिर्धारित प्रॉम्प्ट सामग्री को जल्दी से सम्मिलित करके कार्यक्षमता बढ़ाता है।
 
 ## ✨ फीचर विशेषताएँ
 
@@ -191,6 +191,6 @@ Pull Requests और Issues का स्वागत है!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---

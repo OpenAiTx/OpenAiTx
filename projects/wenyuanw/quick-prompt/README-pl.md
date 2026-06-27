@@ -1,4 +1,6 @@
-# Szybki Prompt
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/banner.svg" alt="Quick Prompt" width="100%">
+</p>
 
 <div align="right">
   <details>
@@ -30,11 +32,9 @@
   </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
-</p>
+<h1 align="center">Quick Prompt</h1>
 
-Potężne rozszerzenie przeglądarki skupiające się na zarządzaniu promptami i szybkim wpisywaniu. Pomaga użytkownikom tworzyć, zarządzać i organizować bibliotekę promptów oraz szybko wstawiać zapisane treści Prompt do dowolnego pola tekstowego w przeglądarce, zwiększając wydajność pracy.
+Potężne rozszerzenie przeglądarki, skoncentrowane na zarządzaniu promptami i szybkim ich wprowadzaniu. Pomaga użytkownikom tworzyć, zarządzać i organizować bibliotekę promptów, oraz szybko wstawiać gotowe treści Prompt w dowolnym polu tekstowym na stronie, zwiększając efektywność pracy.
 
 ## ✨ Funkcje i cechy
 
@@ -191,6 +191,6 @@ Dziękujemy wszystkim deweloperom, którzy przyczynili się do projektu!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
 
 ---
