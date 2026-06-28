@@ -1,0 +1,1780 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/micr0-dev/Altbot/main/assets/micr0-alty-banner.png\" alt=\"A decorative banner featuring a repeating pattern of small purple robot icons against a light background, creating a retro-tech wallpaper effect\">\n\n# Altbot アクセシビリティロボット\n\n_Making the Fediverse more inclusive, one image at a time_\n\n[![Latest Release](https://img.shields.io/github/v/release/micr0-dev/Altbot)](https://github.com/micr0-dev/Altbot/releases)\n[![Mastodon Follow](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)\n[![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)\n[![Go Version](https://img.shields.io/github/go-mod/go-version/micr0-dev/Altbot)](https://go.dev/)\n![Status](https://img.shields.io/badge/status-active-success)\n![Environment](https://img.shields.io/badge/environment-friendly-green)\n\n</div>\n\n## About\n\nAltbot is an open-source accessibility bot designed to enhance the Fediverse by generating alt-text descriptions for images, video, and audio. This helps make content more accessible to users with visual impairments.\n\n## Privacy & GDPR Compliance\n\n**Altbot 2.0 now processes everything 100% locally with zero data retention!** [![Mastodon Follow](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)\n\nIn compliance with GDPR, Altbot requires explicit informed consent before processing any user requests. When you interact with Altbot for the first time, you'll receive a consent request with information about data collection practices and a link to our [Privacy Policy](https://raw.githubusercontent.com/micr0-dev/Altbot/main/PRIVACY.md).\n\n- **What we collect:** Request timestamps, processing times, language preferences, media type\n- **What we don't collect:** Images, personal information, content of your posts\n- **How to revoke consent:** Simply block the bot account\n\nYour post content is never saved or shared. Only images without existing alt-text will be processed, and all processing happens privately on our local server.\n\n## Disclaimer\n\nAlt-texts are generated using a Large Language Model (LLM). While we strive for accuracy, results may sometimes be factually incorrect. Always double-check the alt-text before using it.\n\n## How It Works\n\nAltbot listens for mentions and follows on Mastodon. When it detects a mention or a new post from a followed user, it checks for images without alt-text. If it finds any, it uses a Large Language Model (LLM) to generate descriptive alt-text and replies with the generated text.\n",
+    "ContentSha": "kSlgVx/ifKC1RAEwHPuwpNNxb1JA5CNSDQAxeZMa0eU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/micr0-dev/Altbot/main/assets/micr0-alty-banner.png\" alt=\"一个装饰性横幅，展示了在浅色背景下重复排列的小紫色机器人图标图案，营造出复古科技壁纸效果\">\n\n# Altbot 无障碍机器人\n\n_让联邦宇宙更具包容性，一次描述一张图片_\n\n[![最新版本](https://img.shields.io/github/v/release/micr0-dev/Altbot)](https://github.com/micr0-dev/Altbot/releases)\n[![Mastodon 关注](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)\n[![许可证: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)\n[![Go 版本](https://img.shields.io/github/go-mod/go-version/micr0-dev/Altbot)](https://go.dev/)\n![状态](https://img.shields.io/badge/status-active-success)\n![环境](https://img.shields.io/badge/environment-friendly-green)\n\n</div>\n\n## 关于\n\nAltbot 是一个开源无障碍机器人，旨在通过为图片、视频和音频生成替代文本描述来增强联邦宇宙的可访问性。这样有助于视觉障碍用户更容易访问内容。\n\n## 隐私与 GDPR 合规\n\n**Altbot 2.0 现已实现所有处理100%本地完成，零数据保留！** [![Mastodon 关注](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)\n\n为符合 GDPR，Altbot 在处理任何用户请求前需要明确的知情同意。首次与 Altbot 互动时，您将收到同意请求，包含数据收集实践的信息及我们的[隐私政策](https://raw.githubusercontent.com/micr0-dev/Altbot/main/PRIVACY.md)链接。\n\n- **我们收集的信息：** 请求时间戳、处理时间、语言偏好、媒体类型\n- **我们不收集的信息：** 图片、个人信息、帖子内容\n- **如何撤回同意：** 只需屏蔽该机器人账号\n\n您的帖子内容绝不会被保存或分享。只有没有现有替代文本的图片会被处理，且所有处理均在我们的本地服务器私密完成。\n\n## 免责声明\n\n替代文本由大型语言模型（LLM）生成。虽然我们力求准确，但结果有时可能存在事实错误。请务必在使用前仔细核对替代文本。\n\n## 工作原理\n\nAltbot 监听 Mastodon 上的提及和关注。当检测到提及或关注用户的新帖子时，会检查是否有无替代文本的图片。如果发现，会使用大型语言模型（LLM）生成描述性的替代文本并回复生成的文本。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "Qe+6KUIZhbMpnb3wm4C7KOVEU7v20vL4fiyN5Dc3q28=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/micr0-dev/Altbot/main/assets/micr0-alty-banner.png\" alt=\"A decorative banner featuring a repeating pattern of small purple robot icons against a light background, creating a retro-tech wallpaper effect\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/micr0-dev/Altbot/main/assets/micr0-alty-banner.png\" alt=\"一个装饰性横幅，展示了在浅色背景下重复排列的小紫色机器人图标图案，营造出复古科技壁纸效果\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8Zv0bnRqv0OS4JglEOD6A7GZB0NBco+uGjCG+SxFgEQ=",
+        "originContent": "# Altbot アクセシビリティロボット",
+        "translatedContent": "# Altbot 无障碍机器人"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "QibsqDU3jc7Bo8/iMucIPSEi0sN20ZjcojPL1BszYDw=",
+        "originContent": "_Making the Fediverse more inclusive, one image at a time_",
+        "translatedContent": "_让联邦宇宙更具包容性，一次描述一张图片_"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "E4gU9Q00dFFOaMDd2ShaBoBmrd2sHhweEBvyuuU4XVY=",
+        "originContent": "[![Latest Release](https://img.shields.io/github/v/release/micr0-dev/Altbot)](https://github.com/micr0-dev/Altbot/releases)",
+        "translatedContent": "[![最新版本](https://img.shields.io/github/v/release/micr0-dev/Altbot)](https://github.com/micr0-dev/Altbot/releases)"
+      },
+      {
+        "row": 9,
+        "rowsha": "//IF1MQbY1t+lrabgAFCaZvvEgTl+2CoD3eZcXObCWc=",
+        "originContent": "[![Mastodon Follow](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)",
+        "translatedContent": "[![Mastodon 关注](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)"
+      },
+      {
+        "row": 10,
+        "rowsha": "nIQK4cz84bzM1tQ8VwNybvMVCxx2X1Dn8rGFCLz+Y6s=",
+        "originContent": "[![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)",
+        "translatedContent": "[![许可证: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)"
+      },
+      {
+        "row": 11,
+        "rowsha": "dx2ngdxdlN5fXdA0IH+HEj5How8CLHKTUT7mV1sMsAI=",
+        "originContent": "[![Go Version](https://img.shields.io/github/go-mod/go-version/micr0-dev/Altbot)](https://go.dev/)",
+        "translatedContent": "[![Go 版本](https://img.shields.io/github/go-mod/go-version/micr0-dev/Altbot)](https://go.dev/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "Bmmna6o86j8YVM/z15BmoF9khaK9uNFMJHgPqjNoFg8=",
+        "originContent": "![Status](https://img.shields.io/badge/status-active-success)",
+        "translatedContent": "![状态](https://img.shields.io/badge/status-active-success)"
+      },
+      {
+        "row": 13,
+        "rowsha": "IeHfJ9rxvnWwKG59rjzt73ZGPJnxkVmMY7ztGn7nJCY=",
+        "originContent": "![Environment](https://img.shields.io/badge/environment-friendly-green)",
+        "translatedContent": "![环境](https://img.shields.io/badge/environment-friendly-green)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## 关于"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GYoVnuiOVf+SYSJ7WAxxw1SLF1ZekkYlixtJh//BKTE=",
+        "originContent": "Altbot is an open-source accessibility bot designed to enhance the Fediverse by generating alt-text descriptions for images, video, and audio. This helps make content more accessible to users with visual impairments.",
+        "translatedContent": "Altbot 是一个开源无障碍机器人，旨在通过为图片、视频和音频生成替代文本描述来增强联邦宇宙的可访问性。这样有助于视觉障碍用户更容易访问内容。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "F3w6vVN5ebgz/LpBcIIan/bO73ASB3VUVKyeknwUwpQ=",
+        "originContent": "## Privacy & GDPR Compliance",
+        "translatedContent": "## 隐私与 GDPR 合规"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "LiXxjjYXqkMFlYyPYVMR1bpaDT4tvJglrNuB58hQotQ=",
+        "originContent": "**Altbot 2.0 now processes everything 100% locally with zero data retention!** [![Mastodon Follow](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)",
+        "translatedContent": "**Altbot 2.0 现已实现所有处理100%本地完成，零数据保留！** [![Mastodon 关注](https://img.shields.io/mastodon/follow/113183205946060973?domain=fuzzies.wtf&style=social)](https://fuzzies.wtf/@altbot)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "UpMcNp1DoB2ndtR94nE6deSzHqCEekoFqlBglz5W8qI=",
+        "originContent": "In compliance with GDPR, Altbot requires explicit informed consent before processing any user requests. When you interact with Altbot for the first time, you'll receive a consent request with information about data collection practices and a link to our [Privacy Policy](https://raw.githubusercontent.com/micr0-dev/Altbot/main/PRIVACY.md).",
+        "translatedContent": "为符合 GDPR，Altbot 在处理任何用户请求前需要明确的知情同意。首次与 Altbot 互动时，您将收到同意请求，包含数据收集实践的信息及我们的[隐私政策](https://raw.githubusercontent.com/micr0-dev/Altbot/main/PRIVACY.md)链接。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "/mP50c7cMr+Pf88OvIJTQCviMjQkbImRbC1EZ2Sy7H8=",
+        "originContent": "- **What we collect:** Request timestamps, processing times, language preferences, media type",
+        "translatedContent": "- **我们收集的信息：** 请求时间戳、处理时间、语言偏好、媒体类型"
+      },
+      {
+        "row": 28,
+        "rowsha": "O1gokAxBTRwcx4V/cZ2YihDX7BHdTefM/Y2kgfu6I50=",
+        "originContent": "- **What we don't collect:** Images, personal information, content of your posts",
+        "translatedContent": "- **我们不收集的信息：** 图片、个人信息、帖子内容"
+      },
+      {
+        "row": 29,
+        "rowsha": "z0jjxdDT83DEOXsVoyuDaRVxvPFQrn/HdBBLXbzpBD4=",
+        "originContent": "- **How to revoke consent:** Simply block the bot account",
+        "translatedContent": "- **如何撤回同意：** 只需屏蔽该机器人账号"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "MwlFKoUHUMThc4XeoSd1gAI2y/THKVClB0AqPb2spgY=",
+        "originContent": "Your post content is never saved or shared. Only images without existing alt-text will be processed, and all processing happens privately on our local server.",
+        "translatedContent": "您的帖子内容绝不会被保存或分享。只有没有现有替代文本的图片会被处理，且所有处理均在我们的本地服务器私密完成。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## 免责声明"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "6JHWzgUVC/bqxJu7SFjVzuie238fMHr6gmQU2okDtdA=",
+        "originContent": "Alt-texts are generated using a Large Language Model (LLM). While we strive for accuracy, results may sometimes be factually incorrect. Always double-check the alt-text before using it.",
+        "translatedContent": "替代文本由大型语言模型（LLM）生成。虽然我们力求准确，但结果有时可能存在事实错误。请务必在使用前仔细核对替代文本。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## 工作原理"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "f0QoZc129E/Y9XiakhKWxzg4uEBrcYfXiSF4CRR5CoQ=",
+        "originContent": "Altbot listens for mentions and follows on Mastodon. When it detects a mention or a new post from a followed user, it checks for images without alt-text. If it finds any, it uses a Large Language Model (LLM) to generate descriptive alt-text and replies with the generated text.",
+        "translatedContent": "Altbot 监听 Mastodon 上的提及和关注。当检测到提及或关注用户的新帖子时，会检查是否有无替代文本的图片。如果发现，会使用大型语言模型（LLM）生成描述性的替代文本并回复生成的文本。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### Features\n\n- **Mention-Based Alt-Text Generation:** Mention @Altbot in a reply to any post containing an image, video, or audio, and Altbot will generate an alt-text description for it.\n- **Automatic Alt-Text for Followers:** Follow @Altbot, and it will monitor your posts. If you post an image, video, or audio without alt-text, Altbot will automatically generate one for you.\n- **Local LLM Support:** Use local LLMs via Ollama for generating alt-text descriptions.\n- **GDPR Compliance:** Explicit informed consent system that requires users to provide consent before processing their requests, with clear information about data usage.\n- **Consent Requests:** Ask for consent from the original poster before generating alt-text when mentioned by non-OP users.\n- **Configurable Settings:** Easily configure the bot using a TOML file.\n\n## Setup\n\n### Standard\n\n1. Clone the repository:\n",
+    "ContentSha": "2/L7hZAxATlQKybQq0ON+De5gxnzfPRke3ZdKgnA2+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 功能\n\n- **基于提及的替代文本生成：** 在任何包含图片、视频或音频的帖子回复中提及 @Altbot，Altbot 将为其生成替代文本描述。  \n- **为关注者自动生成替代文本：** 关注 @Altbot，它会监控你的帖子。如果你发布了没有替代文本的图片、视频或音频，Altbot 会自动为你生成替代文本。  \n- **本地大语言模型支持：** 通过 Ollama 使用本地大语言模型生成替代文本描述。  \n- **符合 GDPR 规定：** 明确的知情同意系统，要求用户在处理请求前提供同意，并清晰告知数据使用情况。  \n- **同意请求：** 当非原帖用户提及时，生成替代文本前会向原帖发布者请求同意。  \n- **可配置设置：** 通过 TOML 文件轻松配置机器人。  \n\n## 安装\n\n### 标准\n\n1. 克隆仓库：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": "### 功能"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "5Y7gqECXECFIlvF49fPvkG6B1m8bskRcYynCr9IPALA=",
+        "originContent": "- **Mention-Based Alt-Text Generation:** Mention @Altbot in a reply to any post containing an image, video, or audio, and Altbot will generate an alt-text description for it.",
+        "translatedContent": "- **基于提及的替代文本生成：** 在任何包含图片、视频或音频的帖子回复中提及 @Altbot，Altbot 将为其生成替代文本描述。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "ZrYwZdmZlOhhBSbVXs0FrG2PovTnCL0jvt21bxoua3M=",
+        "originContent": "- **Automatic Alt-Text for Followers:** Follow @Altbot, and it will monitor your posts. If you post an image, video, or audio without alt-text, Altbot will automatically generate one for you.",
+        "translatedContent": "- **为关注者自动生成替代文本：** 关注 @Altbot，它会监控你的帖子。如果你发布了没有替代文本的图片、视频或音频，Altbot 会自动为你生成替代文本。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "fcPS4M7F7Dl3Ig2cRCgjAM2816AZT6jtSpAvO4WCSUA=",
+        "originContent": "- **Local LLM Support:** Use local LLMs via Ollama for generating alt-text descriptions.",
+        "translatedContent": "- **本地大语言模型支持：** 通过 Ollama 使用本地大语言模型生成替代文本描述。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "2iPXaNlvGaTXKpt1rWZ0QDXP8n366YcSaWIyUAEfU/o=",
+        "originContent": "- **GDPR Compliance:** Explicit informed consent system that requires users to provide consent before processing their requests, with clear information about data usage.",
+        "translatedContent": "- **符合 GDPR 规定：** 明确的知情同意系统，要求用户在处理请求前提供同意，并清晰告知数据使用情况。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "69JxK7haXBDrhUUlJqxsKPCeHmUbG5OdIN+9AMz4iag=",
+        "originContent": "- **Consent Requests:** Ask for consent from the original poster before generating alt-text when mentioned by non-OP users.",
+        "translatedContent": "- **同意请求：** 当非原帖用户提及时，生成替代文本前会向原帖发布者请求同意。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "+XeSbwMSrKEPzQ4fQRFXo1cjDzQ+xibCrts45GgjVks=",
+        "originContent": "- **Configurable Settings:** Easily configure the bot using a TOML file.",
+        "translatedContent": "- **可配置设置：** 通过 TOML 文件轻松配置机器人。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "stNdbuzSQtEnq6YXYpnDdkb+xpxI5xmoJtQSsULZQqg=",
+        "originContent": "### Standard",
+        "translatedContent": "### 标准"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. 克隆仓库："
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```sh\n   git clone https://github.com/micr0-dev/Altbot.git\n   cd Altbot\n   ```",
+    "ContentSha": "zwzDn9prevVDcWkJhtOXLqItG13opfb48FKoVZEowOc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   git clone https://github.com/micr0-dev/Altbot.git\n   cd Altbot\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "2Y7gbcG35wO7Xf+uiUg7YN7tx/CyKRQdB4XiAvygXSg=",
+        "originContent": "   git clone https://github.com/micr0-dev/Altbot.git",
+        "translatedContent": "   git clone https://github.com/micr0-dev/Altbot.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "ibMiGDoCpd1vw1vTDXCOSCqc6k5cks1pg/XZNFhyZ4Q=",
+        "originContent": "   cd Altbot",
+        "translatedContent": "   cd Altbot"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n2. Run the setup wizard:\n",
+    "ContentSha": "vqX3znSwvIQDJ2Mbmw4NQqpO3gsJhIJx2IaEYW0N/fU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 运行安装向导：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 运行安装向导："
+      },
+      {
+        "row": 2,
+        "rowsha": "Bxdte7BBXKNTNKnbJg6I+iHshfsLGhT260otFay87xw=",
+        "originContent": "2. Run the setup wizard:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```sh\n   go run .\n   ```",
+    "ContentSha": "DfVa1ZEFIDNCvOEBPhbq5rpAEgN7D0j4HoXDqrme2LU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   go run .\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "YkEOxDz3T2zlYjpWSnzbN0/iljs7esVu6ADQYylZZcg=",
+        "originContent": "   go run .",
+        "translatedContent": "   go run ."
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n   The setup wizard will guide you through configuring the essential values required for the bot, including:\n\n   - Your Mastodon server URL, client secret, access token, and bot username.\n   - The admin contact handle for moderation notifications.\n   - Enabling optional features like metrics and alt-text reminders.\n\n   Alternatively, copy the example configuration file and edit it manually:\n",
+    "ContentSha": "9DpW12X2WoOy9wCYtS/0AoTblk8buS0/bo4gCtGhGls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n   安装向导将引导您配置机器人所需的基本值，包括：\n\n   - 您的 Mastodon 服务器 URL、客户端密钥、访问令牌和机器人用户名。\n   - 用于管理通知的管理员联系账号。\n   - 启用可选功能，如指标和替代文本提醒。\n\n   或者，复制示例配置文件并手动编辑：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PA3nBook1zVeCAz5zJJfJz0BhHVBJKbU92g2JuIp7VY=",
+        "originContent": "   The setup wizard will guide you through configuring the essential values required for the bot, including:",
+        "translatedContent": "   安装向导将引导您配置机器人所需的基本值，包括："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XodAwcNip3natni7F93X3eNhskduiCwmWFsOLeU9OZU=",
+        "originContent": "   - Your Mastodon server URL, client secret, access token, and bot username.",
+        "translatedContent": "   - 您的 Mastodon 服务器 URL、客户端密钥、访问令牌和机器人用户名。"
+      },
+      {
+        "row": 5,
+        "rowsha": "a4Nrsz3Xd3lKSlKebfwVVVPC6pEcjqCrnaq01GZ4mPg=",
+        "originContent": "   - The admin contact handle for moderation notifications.",
+        "translatedContent": "   - 用于管理通知的管理员联系账号。"
+      },
+      {
+        "row": 6,
+        "rowsha": "WtYNyVZSGPDQ8hC75UuoHhcxg+kTUEHSHAY7VtOtwic=",
+        "originContent": "   - Enabling optional features like metrics and alt-text reminders.",
+        "translatedContent": "   - 启用可选功能，如指标和替代文本提醒。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dhQtnGfQvla7KGKsQ4UDKHtqmD4suR/gqOHa49KXFKs=",
+        "originContent": "   Alternatively, copy the example configuration file and edit it manually:",
+        "translatedContent": "   或者，复制示例配置文件并手动编辑："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```sh\n   cp example.config.toml config.toml\n   ```",
+    "ContentSha": "oW2fAKgtJb7Tv7Zg18HW6kx7mVbjPwPcpkQatApJoCM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   cp example.config.toml config.toml\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "txF2RPoG9Mu/WsoCmfDi0YKePXLZbZ56zXEgUiQlvqo=",
+        "originContent": "   cp example.config.toml config.toml",
+        "translatedContent": "   cp example.config.toml config.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n3. Run the bot:",
+    "ContentSha": "OFsxGPHk6n+y2bLCS2PMnOJbipgvB37i4aSjAF63nLw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. 运行机器人：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "caETAIx+Jk5lURRSvZK6Qmo7TWLvIoDI6HwxM26jlc8=",
+        "originContent": "3. Run the bot:",
+        "translatedContent": "3. 运行机器人："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "   ```sh\n   go run .\n   ```",
+    "ContentSha": "DfVa1ZEFIDNCvOEBPhbq5rpAEgN7D0j4HoXDqrme2LU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   go run .\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "YkEOxDz3T2zlYjpWSnzbN0/iljs7esVu6ADQYylZZcg=",
+        "originContent": "   go run .",
+        "translatedContent": "   go run ."
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Docker\n\n1. Clone the repository:\n",
+    "ContentSha": "8mc8CAwd584dSRa9KAvPUSLrcryrdCqr1M7jZ37KVX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Docker\n\n1. 克隆仓库：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rJkp0SR6AFuVEobhFmXJXexK+tjY3K/G58vFhiH70GA=",
+        "originContent": "### Docker",
+        "translatedContent": "### Docker"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. 克隆仓库："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "   ```sh\n   git clone https://github.com/micr0-dev/Altbot.git\n   cd Altbot\n   ```",
+    "ContentSha": "zwzDn9prevVDcWkJhtOXLqItG13opfb48FKoVZEowOc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   git clone https://github.com/micr0-dev/Altbot.git\n   cd Altbot\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "2Y7gbcG35wO7Xf+uiUg7YN7tx/CyKRQdB4XiAvygXSg=",
+        "originContent": "   git clone https://github.com/micr0-dev/Altbot.git",
+        "translatedContent": "   git clone https://github.com/micr0-dev/Altbot.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "ibMiGDoCpd1vw1vTDXCOSCqc6k5cks1pg/XZNFhyZ4Q=",
+        "originContent": "   cd Altbot",
+        "translatedContent": "   cd Altbot"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n2. Run the setup wizard:\n",
+    "ContentSha": "vqX3znSwvIQDJ2Mbmw4NQqpO3gsJhIJx2IaEYW0N/fU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 运行安装向导：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 运行安装向导："
+      },
+      {
+        "row": 2,
+        "rowsha": "Bxdte7BBXKNTNKnbJg6I+iHshfsLGhT260otFay87xw=",
+        "originContent": "2. Run the setup wizard:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "   ```sh\n   docker run -it -v ./:/data --rm ghcr.io/micr0-dev/altbot:latest\n   ```",
+    "ContentSha": "LZmq+quvWCvJzPphJOt8LjtikgFgAzviIi65Ay2YByM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   docker run -it -v ./:/data --rm ghcr.io/micr0-dev/altbot:latest\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "f2M1MQ3hKHqSW3C9b2PxjR4/H8qMmkR3yIjJmwVSW/w=",
+        "originContent": "   docker run -it -v ./:/data --rm ghcr.io/micr0-dev/altbot:latest",
+        "translatedContent": "   docker run -it -v ./:/data --rm ghcr.io/micr0-dev/altbot:latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n   The setup wizard will guide you through configuring the essential values required for the bot, including:\n\n   - Your Mastodon server URL, client secret, access token, and bot username.\n   - The admin contact handle for moderation notifications.\n   - Enabling optional features like metrics and alt-text reminders.\n\n   Alternatively, copy the example configuration file and edit it manually:\n",
+    "ContentSha": "9DpW12X2WoOy9wCYtS/0AoTblk8buS0/bo4gCtGhGls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n   设置向导将引导您配置机器人所需的基本值，包括：\n\n   - 您的 Mastodon 服务器 URL、客户端密钥、访问令牌和机器人用户名。\n   - 用于管理通知的管理员联系账号。\n   - 启用可选功能，如指标和替代文本提醒。\n\n   或者，复制示例配置文件并手动编辑：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PA3nBook1zVeCAz5zJJfJz0BhHVBJKbU92g2JuIp7VY=",
+        "originContent": "   The setup wizard will guide you through configuring the essential values required for the bot, including:",
+        "translatedContent": "   设置向导将引导您配置机器人所需的基本值，包括："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XodAwcNip3natni7F93X3eNhskduiCwmWFsOLeU9OZU=",
+        "originContent": "   - Your Mastodon server URL, client secret, access token, and bot username.",
+        "translatedContent": "   - 您的 Mastodon 服务器 URL、客户端密钥、访问令牌和机器人用户名。"
+      },
+      {
+        "row": 5,
+        "rowsha": "a4Nrsz3Xd3lKSlKebfwVVVPC6pEcjqCrnaq01GZ4mPg=",
+        "originContent": "   - The admin contact handle for moderation notifications.",
+        "translatedContent": "   - 用于管理通知的管理员联系账号。"
+      },
+      {
+        "row": 6,
+        "rowsha": "WtYNyVZSGPDQ8hC75UuoHhcxg+kTUEHSHAY7VtOtwic=",
+        "originContent": "   - Enabling optional features like metrics and alt-text reminders.",
+        "translatedContent": "   - 启用可选功能，如指标和替代文本提醒。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dhQtnGfQvla7KGKsQ4UDKHtqmD4suR/gqOHa49KXFKs=",
+        "originContent": "   Alternatively, copy the example configuration file and edit it manually:",
+        "translatedContent": "   或者，复制示例配置文件并手动编辑："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "   ```sh\n   cp example.config.toml config.toml\n   ```",
+    "ContentSha": "oW2fAKgtJb7Tv7Zg18HW6kx7mVbjPwPcpkQatApJoCM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   cp example.config.toml config.toml\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "txF2RPoG9Mu/WsoCmfDi0YKePXLZbZ56zXEgUiQlvqo=",
+        "originContent": "   cp example.config.toml config.toml",
+        "translatedContent": "   cp example.config.toml config.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n3. Run the bot:",
+    "ContentSha": "OFsxGPHk6n+y2bLCS2PMnOJbipgvB37i4aSjAF63nLw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. 运行机器人：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "caETAIx+Jk5lURRSvZK6Qmo7TWLvIoDI6HwxM26jlc8=",
+        "originContent": "3. Run the bot:",
+        "translatedContent": "3. 运行机器人："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "   ```sh\n   docker compose up -d\n   ```",
+    "ContentSha": "trKKe3hTdDUiDr6YHA36plSztNQHY75ss4/YSLAk9vg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   docker compose up -d\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "9f7Bg6s7+R8vc+jX0UtoCdNeymWtgTPNHduPQ0XKIAY=",
+        "originContent": "   docker compose up -d",
+        "translatedContent": "   docker compose up -d"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n## Development Setup\n\n### Prerequisites\n\n- **Go 1.24+**: Install from [go.dev](https://go.dev/dl/)\n- **LLM Provider** (one of the following):\n  - **Gemini API**: Get an API key from [Google AI Studio](https://aistudio.google.com/app/apikey)\n  - **Ollama**: Install from [ollama.ai](https://ollama.ai/) and pull a vision model (e.g., `ollama pull llava-phi3`)\n  - **Transformers**: Requires Python with transformers library and a compatible GPU\n\n### Getting Started\n\n1. Clone the repository:\n",
+    "ContentSha": "zBCKXxV5Nae5Dmg4V/Lss39AOY9NC33tb90aPr0lq2U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 开发环境搭建\n\n### 前提条件\n\n- **Go 1.24+**：从 [go.dev](https://go.dev/dl/) 安装\n- **LLM 提供商**（以下之一）：\n  - **Gemini API**：从 [Google AI Studio](https://aistudio.google.com/app/apikey) 获取 API 密钥\n  - **Ollama**：从 [ollama.ai](https://ollama.ai/) 安装并拉取视觉模型（例如，`ollama pull llava-phi3`）\n  - **Transformers**：需要安装带有 transformers 库的 Python 及兼容的 GPU\n\n### 快速开始\n\n1. 克隆代码库：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EghPDzrgJgkIVkdqNcVLOoghIh1mlRghAey9VnAyHEU=",
+        "originContent": "## Development Setup",
+        "translatedContent": "## 开发环境搭建"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "i0Rr0asJXpYCNYRHv4bg7jRjOj+iFTjcjw8yHOxNxwg=",
+        "originContent": "- **Go 1.24+**: Install from [go.dev](https://go.dev/dl/)",
+        "translatedContent": "- **Go 1.24+**：从 [go.dev](https://go.dev/dl/) 安装"
+      },
+      {
+        "row": 7,
+        "rowsha": "yb4L4t3+0cRRWvf7cklQzUv87Wj3klrT49zngAtchdg=",
+        "originContent": "- **LLM Provider** (one of the following):",
+        "translatedContent": "- **LLM 提供商**（以下之一）："
+      },
+      {
+        "row": 8,
+        "rowsha": "VEfWx25gpnc4zCvY9zJV36xPhS+XwGMlaHgKfr1yAjA=",
+        "originContent": "  - **Gemini API**: Get an API key from [Google AI Studio](https://aistudio.google.com/app/apikey)",
+        "translatedContent": "  - **Gemini API**：从 [Google AI Studio](https://aistudio.google.com/app/apikey) 获取 API 密钥"
+      },
+      {
+        "row": 9,
+        "rowsha": "XADluEdXN8Vr5Wg4aXA3AVUGZCg9B8/f/Xr/IvbCNHg=",
+        "originContent": "  - **Ollama**: Install from [ollama.ai](https://ollama.ai/) and pull a vision model (e.g., `ollama pull llava-phi3`)",
+        "translatedContent": "  - **Ollama**：从 [ollama.ai](https://ollama.ai/) 安装并拉取视觉模型（例如，`ollama pull llava-phi3`）"
+      },
+      {
+        "row": 10,
+        "rowsha": "njyRKsBfWsGgmeJvybUsM0yTNzKIrPpCqEgmwnk2aSk=",
+        "originContent": "  - **Transformers**: Requires Python with transformers library and a compatible GPU",
+        "translatedContent": "  - **Transformers**：需要安装带有 transformers 库的 Python 及兼容的 GPU"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "RGchVQnbC9Dg9hz27i76MxbIKFsqRtREn/hfnvhZI9k=",
+        "originContent": "### Getting Started",
+        "translatedContent": "### 快速开始"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. 克隆代码库："
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "   ```sh\n   git clone https://github.com/micr0-dev/Altbot.git\n   cd Altbot\n   ```",
+    "ContentSha": "zwzDn9prevVDcWkJhtOXLqItG13opfb48FKoVZEowOc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   git clone https://github.com/micr0-dev/Altbot.git\n   cd Altbot\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "2Y7gbcG35wO7Xf+uiUg7YN7tx/CyKRQdB4XiAvygXSg=",
+        "originContent": "   git clone https://github.com/micr0-dev/Altbot.git",
+        "translatedContent": "   git clone https://github.com/micr0-dev/Altbot.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "ibMiGDoCpd1vw1vTDXCOSCqc6k5cks1pg/XZNFhyZ4Q=",
+        "originContent": "   cd Altbot",
+        "translatedContent": "   cd Altbot"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n2. Install dependencies:\n",
+    "ContentSha": "TzgJWOcHny20Z9FPiZ+VMN3YbJpgYjiQ4Kb7o9qy2LQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 安装依赖项：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 安装依赖项："
+      },
+      {
+        "row": 2,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "   ```sh\n   go mod download\n   ```",
+    "ContentSha": "8PJCxZPtME8TkUMtD3qem8+ETKESj6rcNbVQqhoQ/UQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   go mod download\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "BH8zvsp6p7xra/IKa7CDeUVJfVMwSAC0yl73EzKVigU=",
+        "originContent": "   go mod download",
+        "translatedContent": "   go mod download"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n3. Copy and configure the config file:\n",
+    "ContentSha": "5Ik2xFXCXCgZZBiSvuXjkS13s1QxW1Q07yUnUyv+KYg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. 复制并配置配置文件：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ESHaddLdnioQzynrC6Opgl0D22+MYoivUQlDsSjYXu8=",
+        "originContent": "3. Copy and configure the config file:",
+        "translatedContent": "3. 复制并配置配置文件："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "   ```sh\n   cp example.config.toml config.toml\n   # Edit config.toml with your LLM API and model of choice\n   ```",
+    "ContentSha": "pzaMBEmwzkYisZXxMvkFyY9++n8ihuF4XUWKfkJI3bI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   cp example.config.toml config.toml\n   # Edit config.toml with your LLM API and model of choice\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "txF2RPoG9Mu/WsoCmfDi0YKePXLZbZ56zXEgUiQlvqo=",
+        "originContent": "   cp example.config.toml config.toml",
+        "translatedContent": "   cp example.config.toml config.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "68TnD+DqfFUI+YLIRJeDqMlfs+Qt0G1cOe8M+r2KgSs=",
+        "originContent": "   # Edit config.toml with your LLM API and model of choice",
+        "translatedContent": "   # Edit config.toml with your LLM API and model of choice"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n4. Run the bot:",
+    "ContentSha": "IVzN9bhgrUBlXbmiBVMMQbcpK5XzkEBU8ezM7eTlyWE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n4. 运行机器人：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JlAT/hfbp1hg+55mO3JKD1DuTg0wph0UQWWpiZesfxs=",
+        "originContent": "4. Run the bot:",
+        "translatedContent": "4. 运行机器人："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "   ```sh\n   go run .\n   ```",
+    "ContentSha": "DfVa1ZEFIDNCvOEBPhbq5rpAEgN7D0j4HoXDqrme2LU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```sh\n   go run .\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WyeaF9526liZcxeaZuwc3VGn6nCepuAl6z6guKRMez8=",
+        "originContent": "   ```sh",
+        "translatedContent": "   ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "YkEOxDz3T2zlYjpWSnzbN0/iljs7esVu6ADQYylZZcg=",
+        "originContent": "   go run .",
+        "translatedContent": "   go run ."
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\n### Development Mode\n\nUse the `--dev` flag to run the bot in development mode. This provides an interactive command-line interface for testing without posting to Mastodon:\n",
+    "ContentSha": "UtnZFLFHpyt1jru00uMRUUTKo8d6BtZ5+bw4ToS15Gs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 开发模式\n\n使用 `--dev` 标志以开发模式运行机器人。 这提供了一个交互式命令行界面，用于测试而不发布到 Mastodon：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "e55z2KwW5Y41634bkfr0mcY621tFU/x3LRc7lQtum4c=",
+        "originContent": "### Development Mode",
+        "translatedContent": "### 开发模式"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "T5p2y6juhNuuLck9bo4RQpUEkbYxUCYXd+xzhl9GFaw=",
+        "originContent": "Use the `--dev` flag to run the bot in development mode. This provides an interactive command-line interface for testing without posting to Mastodon:",
+        "translatedContent": "使用 `--dev` 标志以开发模式运行机器人。 这提供了一个交互式命令行界面，用于测试而不发布到 Mastodon："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "```sh\ngo run . --dev\n```",
+    "ContentSha": "ulFAo1Bs9CugrwR3q3HSjrSOspyDUFZI5DpfuYnVylY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngo run . --dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "5DyikcGci+XU7+TPCesdBjt8+23k6gyZGxAfnSS6rjw=",
+        "originContent": "go run . --dev",
+        "translatedContent": "go run . --dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\n**Note:** Dev mode skips Mastodon authentication, but you still need a valid LLM API (Gemini, Ollama, etc.) configured in `config.toml` to test image/video/audio processing.\n\n#### Dev Mode Commands\n\n| Command        | Description                                        |\n| -------------- | -------------------------------------------------- |\n| `/image <url>` | Process an image URL and generate alt-text         |\n| `/video <url>` | Process a video URL and generate alt-text          |\n| `/audio <url>` | Process an audio URL and generate alt-text         |\n| `/lang [code]` | Set/show language for responses (e.g., en, de, ja) |\n| `/follow`      | Simulate a follow event                            |\n| `/status`      | Show current dev mode status                       |\n| `/help`        | Show available commands                            |\n| `/quit`        | Exit dev mode                                      |\n\nYou can also paste a URL directly to process it as an image.\n\n**Example session:**\n",
+    "ContentSha": "jDUylXap6CNYGqdIYeiLrM6vDfzxDWBUkOmvl60j83Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**注意：** 开发模式跳过 Mastodon 认证，但仍需在 `config.toml` 中配置有效的 LLM API（如 Gemini、Ollama 等）以测试图像/视频/音频处理。\n\n#### 开发模式命令\n\n| 命令           | 描述                                               |\n| -------------- | -------------------------------------------------- |\n| `/image <url>` | 处理图像 URL 并生成替代文本                        |\n| `/video <url>` | 处理视频 URL 并生成替代文本                        |\n| `/audio <url>` | 处理音频 URL 并生成替代文本                        |\n| `/lang [code]` | 设置/显示响应语言（例如 en、de、ja）              |\n| `/follow`      | 模拟关注事件                                       |\n| `/status`      | 显示当前开发模式状态                               |\n| `/help`        | 显示可用命令                                       |\n| `/quit`        | 退出开发模式                                       |\n\n你也可以直接粘贴 URL 来处理为图像。\n\n**示例会话：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "toXw/d/RE3LmLJUTrenGH2v6ld5cqy/9he79VYgz2vQ=",
+        "originContent": "**Note:** Dev mode skips Mastodon authentication, but you still need a valid LLM API (Gemini, Ollama, etc.) configured in `config.toml` to test image/video/audio processing.",
+        "translatedContent": "**注意：** 开发模式跳过 Mastodon 认证，但仍需在 `config.toml` 中配置有效的 LLM API（如 Gemini、Ollama 等）以测试图像/视频/音频处理。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ghmssflaA51PZDDgtEyOa73XyB11VO7yNMJ12KoCwMU=",
+        "originContent": "#### Dev Mode Commands",
+        "translatedContent": "#### 开发模式命令"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/KALkMPDK09dQdL956DrWmvp1ZxI+1ZUfS8uNXK7OWk=",
+        "originContent": "| Command        | Description                                        |",
+        "translatedContent": "| 命令           | 描述                                               |"
+      },
+      {
+        "row": 7,
+        "rowsha": "NniVwzE/aYssCTlC4Tyqjs3y58Dtbk8blhgj13lheMQ=",
+        "originContent": "| -------------- | -------------------------------------------------- |",
+        "translatedContent": "| -------------- | -------------------------------------------------- |"
+      },
+      {
+        "row": 8,
+        "rowsha": "0rM/A8P1oaYI/7kt5RrA/qRUkIueyAQ3moRcLA7J97Q=",
+        "originContent": "| `/image <url>` | Process an image URL and generate alt-text         |",
+        "translatedContent": "| `/image <url>` | 处理图像 URL 并生成替代文本                        |"
+      },
+      {
+        "row": 9,
+        "rowsha": "mMIIlXeLK3MgV1y71R+G9YeO8GIHKdZZHOyldMslk1k=",
+        "originContent": "| `/video <url>` | Process a video URL and generate alt-text          |",
+        "translatedContent": "| `/video <url>` | 处理视频 URL 并生成替代文本                        |"
+      },
+      {
+        "row": 10,
+        "rowsha": "bE5foyBpSWxDc0zZDvXYatYQ+DkFVZEqYk/SPkT3vt4=",
+        "originContent": "| `/audio <url>` | Process an audio URL and generate alt-text         |",
+        "translatedContent": "| `/audio <url>` | 处理音频 URL 并生成替代文本                        |"
+      },
+      {
+        "row": 11,
+        "rowsha": "4ho8MOeHXrqW+E30ub3hou5BlVurNT6kKgdaV8Q3eWA=",
+        "originContent": "| `/lang [code]` | Set/show language for responses (e.g., en, de, ja) |",
+        "translatedContent": "| `/lang [code]` | 设置/显示响应语言（例如 en、de、ja）              |"
+      },
+      {
+        "row": 12,
+        "rowsha": "aDBKevD0mimnTs/9yUMKGWtydaGlcEpKAp5/t5Cn9eQ=",
+        "originContent": "| `/follow`      | Simulate a follow event                            |",
+        "translatedContent": "| `/follow`      | 模拟关注事件                                       |"
+      },
+      {
+        "row": 13,
+        "rowsha": "IlyGQEnc/idwV8ljU2fdK6XDpIz8Zo8TVR4PgoX4foY=",
+        "originContent": "| `/status`      | Show current dev mode status                       |",
+        "translatedContent": "| `/status`      | 显示当前开发模式状态                               |"
+      },
+      {
+        "row": 14,
+        "rowsha": "80he0Uy/U5BReJ87WfhWUIe1GyL/l8wFRyRmbX73ksE=",
+        "originContent": "| `/help`        | Show available commands                            |",
+        "translatedContent": "| `/help`        | 显示可用命令                                       |"
+      },
+      {
+        "row": 15,
+        "rowsha": "Mnl9QxGA5CREKRHo+2EtMo3onBfQkq4Ge0eLPge8TT8=",
+        "originContent": "| `/quit`        | Exit dev mode                                      |",
+        "translatedContent": "| `/quit`        | 退出开发模式                                       |"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "baM8Ux2N3ey+gtN3WFetI4acxG3T07ZRkSspvtac2RI=",
+        "originContent": "You can also paste a URL directly to process it as an image.",
+        "translatedContent": "你也可以直接粘贴 URL 来处理为图像。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "rYJJbeAk9+W5ku5hQimfs+gjYqkCzT5kAQH9jvS8Meo=",
+        "originContent": "**Example session:**",
+        "translatedContent": "**示例会话：**"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 29,
+    "Content": "```\n[dev] > /lang de\nLanguage set to: de\n\n[dev] > https://example.com/image.jpg\nProcessing image: https://example.com/image.jpg\nPlease wait...\n\n=== Generated Alt-Text ===\nEin Foto von...\n```",
+    "ContentSha": "j8TNGkS5YUNCAeAnJ34RQ8FG+uj1Tn6OzxXzgwNlqLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n[dev] > /lang de\nLanguage set to: de\n\n[dev] > https://example.com/image.jpg\nProcessing image: https://example.com/image.jpg\nPlease wait...\n\n=== Generated Alt-Text ===\nEin Foto von...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "RV+zO4eeMMIq0zkb3X/W9HY1yirJoIwRvUk12EXsEUQ=",
+        "originContent": "[dev] > /lang de",
+        "translatedContent": "[dev] > /lang de"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZRjpkpCKgKEyT0SKVXjyP54KbkY+co82VjLQbLMCAyo=",
+        "originContent": "Language set to: de",
+        "translatedContent": "Language set to: de"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tOXZJfDcy7udybedeYyzYoA3/U1wDxBqFZnMFklU1BI=",
+        "originContent": "[dev] > https://example.com/image.jpg",
+        "translatedContent": "[dev] > https://example.com/image.jpg"
+      },
+      {
+        "row": 6,
+        "rowsha": "DiFWp6805HeGcVkgM7L1dBpP6p0C4FXmxK6/KI5buHk=",
+        "originContent": "Processing image: https://example.com/image.jpg",
+        "translatedContent": "Processing image: https://example.com/image.jpg"
+      },
+      {
+        "row": 7,
+        "rowsha": "Lf2Ij91egBjO6Od982QBI5sSB2h1/yq4KbFyjS03F3Q=",
+        "originContent": "Please wait...",
+        "translatedContent": "Please wait..."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "q1Rd5PbzFpYo0FYNRK0v5wfEXTt7xu0Krk5jyhy5isA=",
+        "originContent": "=== Generated Alt-Text ===",
+        "translatedContent": "=== Generated Alt-Text ==="
+      },
+      {
+        "row": 10,
+        "rowsha": "fCCNzatKOdOPGv98Q1LAEd4ej08kt0l5lTZT3p0pAbM=",
+        "originContent": "Ein Foto von...",
+        "translatedContent": "Ein Foto von..."
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 30,
+    "Content": "\n### Building\n",
+    "ContentSha": "lqKWjQm55VOw2r783uTTMqVsb5XaCwh5Ur4LIeVKsto=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 建筑\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "XF0OQHXARHAPgAsmm/yQrbyX0gEge0yzSplZ0vXfSIU=",
+        "originContent": "### Building",
+        "translatedContent": "### 建筑"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 31,
+    "Content": "```sh\ngo build -o altbot .\n```",
+    "ContentSha": "sZ3vEnFewnqx58jlNaYIYsMAy0nFpy3k3H/2QTzyBug=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngo build -o altbot .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "uFj+C9nHYROqrJCTHiUmr0DYvgNLpwtDyy44+chr3rY=",
+        "originContent": "go build -o altbot .",
+        "translatedContent": "go build -o altbot ."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 32,
+    "Content": "\n## Contributing\n\nWe welcome contributions! Please open an issue or submit a pull request with your improvements.\n\n## Support / Community\n\nQuestions? Want to chat? Join us at [chat.micr0.dev](https://chat.micr0.dev)\n\nChannels: #dev for project discussion, #help for support\n\nIRC: irc.micr0.dev (ports 6667/6697)\n\n## Thank You\n\n### Special Thanks\n\nI would like to express my deepest gratitude to **Henrik Schönemann** ([@Schoeneh](https://github.com/Schoeneh)) who motivated me throughout this journey. His help with handling criticism and transforming it into constructive feedback has been invaluable. I truly would not be where I am today without his support and guidance.\n\n### Kofi Supporters\n\nA heartfelt thank you to all my [Ko-fi](https://ko-fi.com/) supporters! Your generous contributions help keep Altbot running and continually improving. Your support means the world to me and helps make the Fediverse a more accessible place for everyone.\n\n## License\n\nThis project is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3 (AGPLv3).](https://www.gnu.org/licenses/agpl-3.0.en.html) See the [LICENSE](LICENSE) file for details.\n\n---\n\nJoin us in making the Fediverse a more inclusive place for everyone!\n",
+    "ContentSha": "RWUfpIjIiU17+nJC2UKCv6JD9pRtxnZ5tkU0GxTu7OA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 贡献\n\n我们欢迎贡献！请打开一个 issue 或提交一个 pull request 来改进项目。\n\n## 支持 / 社区\n\n有问题？想聊天？加入我们：[chat.micr0.dev](https://chat.micr0.dev)\n\n频道：#dev 讨论项目，#help 寻求支持\n\nIRC：irc.micr0.dev（端口 6667/6697）\n\n## 感谢\n\n### 特别感谢\n\n我要向 **Henrik Schönemann**（[@Schoeneh](https://github.com/Schoeneh)）表达最深切的感谢，他在整个过程中激励着我。他在处理批评并将其转化为建设性反馈方面的帮助非常宝贵。没有他的支持和指导，我真的不会有今天的成就。\n\n### Kofi 支持者\n\n衷心感谢所有支持我的 [Ko-fi](https://ko-fi.com/) 朋友！你们的慷慨支持帮助 Altbot 继续运行和不断改进。你们的支持对我意义重大，也帮助让联邦宇宙对每个人更加友好。\n\n## 许可\n\n本项目采用 [GNU AFFERO 通用公共许可证 第3版 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.en.html) 许可。详见 [LICENSE](LICENSE) 文件。\n\n---\n\n加入我们，一起让联邦宇宙成为一个更具包容性的空间！\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JZlvAKgU9gvemCYTKWRqkTbuSAhZRjTzcdIFRXKUBSM=",
+        "originContent": "We welcome contributions! Please open an issue or submit a pull request with your improvements.",
+        "translatedContent": "我们欢迎贡献！请打开一个 issue 或提交一个 pull request 来改进项目。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "dBGZcIbM2h74fkSM1SncR6VDu/lrvaOXtFK6f9VMEh4=",
+        "originContent": "## Support / Community",
+        "translatedContent": "## 支持 / 社区"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "k9GTL5TulKEujIJ3vVWoZqTNhhrwhRc1LW5gUKpk7Lg=",
+        "originContent": "Questions? Want to chat? Join us at [chat.micr0.dev](https://chat.micr0.dev)",
+        "translatedContent": "有问题？想聊天？加入我们：[chat.micr0.dev](https://chat.micr0.dev)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Eo7TdSbKPIdXvKJE9YQKHmJQCDb399NFMTGiCpi0xgw=",
+        "originContent": "Channels: #dev for project discussion, #help for support",
+        "translatedContent": "频道：#dev 讨论项目，#help 寻求支持"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "EZKQblKpBLDi6MgCF/A2uvOpYrZPLbPeTrskyXgM6Qo=",
+        "originContent": "IRC: irc.micr0.dev (ports 6667/6697)",
+        "translatedContent": "IRC：irc.micr0.dev（端口 6667/6697）"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "bjsjBenmW1eMExSK1tnXTV+3IcMai1DIDCypYLnHWDQ=",
+        "originContent": "## Thank You",
+        "translatedContent": "## 感谢"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Emlg/lnbqOFcgXvnxigLK5zdsVTnkq/T/yDWezYV6Js=",
+        "originContent": "### Special Thanks",
+        "translatedContent": "### 特别感谢"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "FhYzy+qRpC9cdgGAtT6Oa+iamfZiAS9uvjWkTCuYpFc=",
+        "originContent": "I would like to express my deepest gratitude to **Henrik Schönemann** ([@Schoeneh](https://github.com/Schoeneh)) who motivated me throughout this journey. His help with handling criticism and transforming it into constructive feedback has been invaluable. I truly would not be where I am today without his support and guidance.",
+        "translatedContent": "我要向 **Henrik Schönemann**（[@Schoeneh](https://github.com/Schoeneh)）表达最深切的感谢，他在整个过程中激励着我。他在处理批评并将其转化为建设性反馈方面的帮助非常宝贵。没有他的支持和指导，我真的不会有今天的成就。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "mI6F0RAfbHGjYGl/Pb7e2spG4UjfcdDxMKGZ6tmZ7KQ=",
+        "originContent": "### Kofi Supporters",
+        "translatedContent": "### Kofi 支持者"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "KLNU6jK+qIlxi873EBZCy5sf2V2dsg8l6NmluWy5dgI=",
+        "originContent": "A heartfelt thank you to all my [Ko-fi](https://ko-fi.com/) supporters! Your generous contributions help keep Altbot running and continually improving. Your support means the world to me and helps make the Fediverse a more accessible place for everyone.",
+        "translatedContent": "衷心感谢所有支持我的 [Ko-fi](https://ko-fi.com/) 朋友！你们的慷慨支持帮助 Altbot 继续运行和不断改进。你们的支持对我意义重大，也帮助让联邦宇宙对每个人更加友好。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "f2PGNAVZ8b+ImM6CTEmeTpqCOAM0z2KNfYXQtcJmXbo=",
+        "originContent": "This project is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3 (AGPLv3).](https://www.gnu.org/licenses/agpl-3.0.en.html) See the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "本项目采用 [GNU AFFERO 通用公共许可证 第3版 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.en.html) 许可。详见 [LICENSE](LICENSE) 文件。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "hGmYmK6od8XBeDxHikhun2kTVTzpygsUsCW8lfDF3uA=",
+        "originContent": "Join us in making the Fediverse a more inclusive place for everyone!",
+        "translatedContent": "加入我们，一起让联邦宇宙成为一个更具包容性的空间！"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
