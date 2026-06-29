@@ -1,6 +1,5 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
 <a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>Proyek ini merupakan bagian dari <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> dan beroperasi di bawah <a href="https://www.dotnetfoundation.org/code-of-conduct">kode etik</a> mereka.</p>
+<p>Proyek ini merupakan bagian dari <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> dan beroperasi di bawah <a href="https://www.dotnetfoundation.org/code-of-conduct">kode etik</a> mereka. </p>
 </div>
 
 ---
@@ -1450,10 +1449,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. CultureInfo Kustom
 
-Sejak 1.22.0, Anda dapat mengkustomisasi CultureInfo seperti di bawah ini, default sistem adalah `CultureInfo.InvariantCulture`.
+#### 3. Konversi Excel ke PDF
 
+Jika Anda perlu mengonversi file Excel ke PDF, Anda dapat menggunakan [MiniPdf](https://github.com/mini-software/MiniPdf).
+
+#### 4. Kustomisasi CultureInfo
+
+Sejak versi 1.22.0, Anda dapat mengkustomisasi CultureInfo seperti di bawah ini, default sistem adalah `CultureInfo.InvariantCulture`.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1465,28 +1468,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. Ukuran Buffer Kustom
 
 
+#### 5. Ukuran Buffer Kustom
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. FastMode
+
+#### 6. ModeCepat
 
 Sistem tidak akan mengontrol memori, tetapi Anda dapat memperoleh kecepatan penyimpanan yang lebih cepat.
-
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. Batch Tambah Gambar (MiniExcel.AddPicture)
 
-Silakan tambahkan gambar sebelum melakukan batch generate data baris, atau sistem akan menggunakan memori besar saat memanggil AddPicture.
+#### 7. Tambah Gambar Secara Massal (MiniExcel.AddPicture)
 
+Silakan tambahkan gambar sebelum membuat data baris secara massal, atau sistem akan menggunakan memori besar saat memanggil AddPicture.
 
 ```csharp
 var images = new[]
@@ -1509,9 +1512,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![Gambar](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Dapatkan Dimensi Lembar
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2048,6 +2051,6 @@ Tautan https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

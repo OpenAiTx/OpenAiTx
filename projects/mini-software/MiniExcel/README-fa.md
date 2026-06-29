@@ -1,6 +1,5 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
 <a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>این پروژه بخشی از <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> است و تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">قوانین رفتار حرفه‌ای</a> آن فعالیت می‌کند. </p>
+<p>این پروژه بخشی از <a href="https://www.dotnetfoundation.org/">بنیاد دات‌نت</a> است و تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">منشور رفتار</a> آنها فعالیت می‌کند.</p>
 </div>
 
 ---
@@ -1456,10 +1455,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. فرهنگ‌اطلاعات (CultureInfo) سفارشی
 
-از نسخه 1.22.0، شما می‌توانید CultureInfo را به صورت زیر سفارشی‌سازی کنید، پیش‌فرض سیستم `CultureInfo.InvariantCulture` است.
+#### ۳. تبدیل اکسل به PDF
 
+اگر نیاز به تبدیل فایل‌های اکسل به PDF دارید، می‌توانید از [MiniPdf](https://github.com/mini-software/MiniPdf) استفاده کنید.
+
+#### ۴. CultureInfo سفارشی
+
+از نسخه ۱.۲۲.۰، می‌توانید CultureInfo را به صورت زیر سفارشی کنید، به طور پیش‌فرض سیستم از `CultureInfo.InvariantCulture` استفاده می‌کند.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1471,28 +1474,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. اندازه بافر سفارشی
 
 
+#### ۵. اندازه بافر سفارشی
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. حالت سریع
 
-سیستم حافظه را کنترل نخواهد کرد، اما می‌توانید سرعت ذخیره‌سازی بالاتری داشته باشید.
+#### ۶. حالت سریع
 
+سیستم حافظه را کنترل نخواهد کرد، اما می‌توانید سرعت ذخیره‌سازی بیشتری داشته باشید.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. افزودن دسته‌ای تصویر (MiniExcel.AddPicture)
 
-لطفاً تصاویر را قبل از تولید دسته‌ای داده‌های ردیف اضافه کنید، در غیر این صورت سیستم هنگام فراخوانی AddPicture از حافظه زیادی استفاده خواهد کرد.
+#### ۷. افزودن تصویر به صورت گروهی (MiniExcel.AddPicture)
 
+لطفاً تصاویر را قبل از تولید گروهی داده‌های ردیف‌ها اضافه کنید، در غیر این صورت سیستم هنگام فراخوانی AddPicture مصرف حافظه زیادی خواهد داشت.
 
 ```csharp
 var images = new[]
@@ -1515,9 +1518,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![تصویر](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### ۷. دریافت ابعاد شیت‌ها
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2056,6 +2059,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

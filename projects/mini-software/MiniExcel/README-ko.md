@@ -1,6 +1,5 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
 <a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>이 프로젝트는 <a href="https://www.dotnetfoundation.org/">.NET 재단</a>의 일부이며, 해당 <a href="https://www.dotnetfoundation.org/code-of-conduct">행동 강령</a>을 준수합니다. </p>
+<p>이 프로젝트는 <a href="https://www.dotnetfoundation.org/">.NET Foundation</a>의 일부이며 <a href="https://www.dotnetfoundation.org/code-of-conduct">행동 강령</a>을 준수합니다. </p>
 </div>
 
 ---
@@ -1456,10 +1455,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. 사용자 지정 CultureInfo
 
-1.22.0부터 아래와 같이 사용자 지정 CultureInfo를 사용할 수 있으며, 시스템 기본값은 `CultureInfo.InvariantCulture`입니다.
+#### 3. 엑셀을 PDF로 변환
 
+엑셀 파일을 PDF로 변환해야 하는 경우 [MiniPdf](https://github.com/mini-software/MiniPdf)를 사용할 수 있습니다.
+
+#### 4. 사용자 지정 CultureInfo
+
+버전 1.22.0부터 아래와 같이 사용자 지정 CultureInfo를 설정할 수 있으며, 시스템 기본값은 `CultureInfo.InvariantCulture`입니다.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1471,28 +1474,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. 사용자 지정 버퍼 크기
 
 
+#### 5. 사용자 지정 버퍼 크기
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. FastMode
 
-시스템이 메모리를 제어하지 않지만, 더 빠른 저장 속도를 얻을 수 있습니다.
+#### 6. FastMode
 
+시스템은 메모리를 제어하지 않지만, 더 빠른 저장 속도를 얻을 수 있습니다.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. 이미지 일괄 추가 (MiniExcel.AddPicture)
 
-행 데이터를 일괄로 생성하기 전에 이미지를 추가해 주세요. 그렇지 않으면 AddPicture를 호출할 때 시스템이 많은 메모리를 사용하게 됩니다.
+#### 7. 이미지 일괄 추가 (MiniExcel.AddPicture)
 
+이미지 추가는 행 데이터를 일괄 생성하기 전에 수행하십시오. 그렇지 않으면 AddPicture를 호출할 때 시스템에서 많은 메모리를 사용하게 됩니다.
 
 ```csharp
 var images = new[]
@@ -1517,7 +1520,7 @@ MiniExcel.AddPicture(path, images);
 ```
 ![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. 시트 크기 가져오기
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2056,6 +2059,6 @@ Stream 클래스를 사용하여 파일 생성 로직을 직접 구현하세요.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

@@ -1,9 +1,8 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Statut de construction"></a>
-<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="étoile"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="Étoiles GitHub"></a>
+<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
-<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Demander à DeepWiki"></a>
+<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 </div>
 
@@ -1448,10 +1447,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. CultureInfo personnalisée
 
-Depuis la version 1.22.0, vous pouvez personnaliser CultureInfo comme ci-dessous, par défaut le système utilise `CultureInfo.InvariantCulture`.
+#### 3. Convertir Excel en PDF
 
+Si vous devez convertir des fichiers Excel en PDF, vous pouvez utiliser [MiniPdf](https://github.com/mini-software/MiniPdf).
+
+#### 4. CultureInfo personnalisée
+
+Depuis la version 1.22.0, vous pouvez personnaliser CultureInfo comme ci-dessous, la valeur par défaut du système est `CultureInfo.InvariantCulture`.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1463,28 +1466,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. Taille de mémoire tampon personnalisée
 
 
+#### 5. Taille personnalisée du tampon
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. ModeRapide
+
+#### 6. ModeRapide
 
 Le système ne contrôlera pas la mémoire, mais vous pouvez obtenir une vitesse de sauvegarde plus rapide.
-
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. Ajout d'image en lot (MiniExcel.AddPicture)
 
-Veuillez ajouter les images avant de générer les lignes de données en lot, sinon le système utilisera beaucoup de mémoire lors de l'appel à AddPicture.
+#### 7. Ajout d'images par lot (MiniExcel.AddPicture)
 
+Veuillez ajouter les images avant de générer les données des lignes en lot, sinon le système utilisera une grande quantité de mémoire lors de l'appel à AddPicture.
 
 ```csharp
 var images = new[]
@@ -1509,7 +1512,7 @@ MiniExcel.AddPicture(path, images);
 ```
 ![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Obtenir les dimensions des feuilles
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2042,6 +2045,6 @@ Lien https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

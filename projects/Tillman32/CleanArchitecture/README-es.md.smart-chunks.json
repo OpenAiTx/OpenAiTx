@@ -1,0 +1,346 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![CI - Build and Test](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml)\n[![Deploy to GitHub Pages](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml)\n\n![](https://raw.githubusercontent.com/Tillman32/CleanArchitecture/master/./src/CleanArchitecture.WASM/Preview.png)\n\n[LIVE DEMO - WASM on GitHub Pages](https://tillman32.github.io/CleanArchitecture/)\n\n# The motivation behind it all\n\nWhat is the point of all this? Well, besides showcasing Bob Ross... I thought it would be clever to have a \"real world\" application to reference when talking architecture. I want something to set a standard, something to clone, something to utilize in all my next .Net Core projects. Like all software (and wine), this will improve with time. \n\nI also found it fitting, that \"Uncle Bob\" (Robert C. Martin) shares a similar name, and this project makes an attempt to align with his architecture [outlined here on his website.](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)\n\nI also wrote a blog post to pair with it here: [https://www.brandontillman.com/blog/clean-architecture-dotnet](https://www.brandontillman.com/blog/clean-architecture-dotnet)\n\n# Key Points:\n\n### :trident: N-Tier Architecture\n\nA 3 layered approach, to set us up for multiple UI's that use the same core business functionality/back-end. \n\n### :open_file_folder: Separation of Concerns\n\nClosely related to the [\"Single Responsibility\"](http://deviq.com/single-responsibility-principle/) principle, Separation of Concerns (SoC) makes your code more maintainable, by not co-locating ideas. When things change, SoC will help ensure your changes are limited to your feature set, and not spread throughout your application.\n\n### :droplet: No Leaky Abstractions\n\nBy using interfaces, we can avoid leaky abstractions, and have better control of how our code is used. On the contrary, consumers of our code don't have to know the implementation details, they can simply use your interfaces/classes.\n\n### :microscope: Testable\n\nTesting code that is tightly coupled is nearly impossible. By following the SOC principal, and using interfaces our code will be easier to rest in result.\n\n### :electric_plug: Modular\n\nThe code will be easier to modify in the future, because of a few reasons. Separation of concerns allows for fewer changes/testing throughout the application. You can build on specific feature sets, without modifying the rest of the code.\n\n### :wrench: Maintainable\n",
+    "ContentSha": "/oIUpzw42hjGjaTU0JBIX1v6vhtcRdj0R1kEXonR+cM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Licencia: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![CI - Build and Test](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml)\n[![Deploy to GitHub Pages](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml)\n\n![](https://raw.githubusercontent.com/Tillman32/CleanArchitecture/master/./src/CleanArchitecture.WASM/Preview.png)\n\n[DEMO EN VIVO - WASM en GitHub Pages](https://tillman32.github.io/CleanArchitecture/)\n\n# La motivación detrás de todo esto\n\n¿Para qué sirve todo esto? Bueno, además de mostrar a Bob Ross... pensé que sería inteligente tener una aplicación \"del mundo real\" para referenciar al hablar de arquitectura. Quiero algo para establecer un estándar, algo para clonar, algo para utilizar en todos mis próximos proyectos .Net Core. Como todo software (y el vino), esto mejorará con el tiempo.\n\nTambién me pareció apropiado que \"Tío Bob\" (Robert C. Martin) comparta un nombre similar, y este proyecto intenta alinearse con su arquitectura [descrita aquí en su sitio web.](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)\n\nTambién escribí una publicación en el blog para acompañarlo aquí: [https://www.brandontillman.com/blog/clean-architecture-dotnet](https://www.brandontillman.com/blog/clean-architecture-dotnet)\n\n# Puntos clave:\n\n### :trident: Arquitectura N-Capas\n\nUn enfoque de 3 capas, para prepararnos para múltiples interfaces de usuario que usen la misma funcionalidad núcleo de negocio/back-end.\n\n### :open_file_folder: Separación de Responsabilidades\n\nEstrechamente relacionado con el principio de [\"Responsabilidad Única\"](http://deviq.com/single-responsibility-principle/), la Separación de Responsabilidades (SoC) hace que tu código sea más mantenible, al no colocar ideas juntas. Cuando las cosas cambian, SoC ayudará a asegurar que tus cambios se limiten a tu conjunto de características, y no se extiendan por toda tu aplicación.\n\n### :droplet: No hay Abstracciones que Fugan\n\nAl usar interfaces, podemos evitar abstracciones que fugan, y tener mejor control de cómo se usa nuestro código. Por el contrario, los consumidores de nuestro código no tienen que conocer los detalles de implementación, simplemente pueden usar tus interfaces/clases.\n\n### :microscope: Testeable\n\nProbar código que está fuertemente acoplado es casi imposible. Siguiendo el principio SoC, y usando interfaces nuestro código será más fácil de probar.\n\n### :electric_plug: Modular\n\nEl código será más fácil de modificar en el futuro, por varias razones. La separación de responsabilidades permite menos cambios/pruebas en toda la aplicación. Puedes construir sobre conjuntos específicos de características, sin modificar el resto del código.\n\n### :wrench: Mantenible\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        "translatedContent": "[![Licencia: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 2,
+        "rowsha": "E2lso/ppRLpvbLiUSP25oCGP8+CYbc3eDOZ00sjkyw8=",
+        "originContent": "[![CI - Build and Test](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml)",
+        "translatedContent": "[![CI - Build and Test](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/ci.yml)"
+      },
+      {
+        "row": 3,
+        "rowsha": "UHWzsFF1KNj7gX79apWKykGVevgzYVeyw9fTDZYovXs=",
+        "originContent": "[![Deploy to GitHub Pages](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml)",
+        "translatedContent": "[![Deploy to GitHub Pages](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml/badge.svg)](https://github.com/Tillman32/CleanArchitecture/actions/workflows/pages.yml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2EXTNUo5G7JJ1j0L07kmleffUlMwXtFBWLVvFahoe1M=",
+        "originContent": "![](https://raw.githubusercontent.com/Tillman32/CleanArchitecture/master/./src/CleanArchitecture.WASM/Preview.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/Tillman32/CleanArchitecture/master/./src/CleanArchitecture.WASM/Preview.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "utDddG2Vz5dGyrQMXr8jMZFk8STPVOtpWh2SXy0LzWs=",
+        "originContent": "[LIVE DEMO - WASM on GitHub Pages](https://tillman32.github.io/CleanArchitecture/)",
+        "translatedContent": "[DEMO EN VIVO - WASM en GitHub Pages](https://tillman32.github.io/CleanArchitecture/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8mPbAK9OJrkz0+WowRHGQs6qOZJdgH/4IDN9RG4/Yr4=",
+        "originContent": "# The motivation behind it all",
+        "translatedContent": "# La motivación detrás de todo esto"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "lewxERidl1X+pPasQdQw7/P7wF7tkV646XGIdXc6fVw=",
+        "originContent": "What is the point of all this? Well, besides showcasing Bob Ross... I thought it would be clever to have a \"real world\" application to reference when talking architecture. I want something to set a standard, something to clone, something to utilize in all my next .Net Core projects. Like all software (and wine), this will improve with time. ",
+        "translatedContent": "¿Para qué sirve todo esto? Bueno, además de mostrar a Bob Ross... pensé que sería inteligente tener una aplicación \"del mundo real\" para referenciar al hablar de arquitectura. Quiero algo para establecer un estándar, algo para clonar, algo para utilizar en todos mis próximos proyectos .Net Core. Como todo software (y el vino), esto mejorará con el tiempo."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "B3pzLUv4hu9ci4K3YXV844FxFH9yH2ZVRN7UmapxAlU=",
+        "originContent": "I also found it fitting, that \"Uncle Bob\" (Robert C. Martin) shares a similar name, and this project makes an attempt to align with his architecture [outlined here on his website.](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)",
+        "translatedContent": "También me pareció apropiado que \"Tío Bob\" (Robert C. Martin) comparta un nombre similar, y este proyecto intenta alinearse con su arquitectura [descrita aquí en su sitio web.](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Opair+/NAF47qoqKgEFvubmOYYDQRzioQ8pL103EUWA=",
+        "originContent": "I also wrote a blog post to pair with it here: [https://www.brandontillman.com/blog/clean-architecture-dotnet](https://www.brandontillman.com/blog/clean-architecture-dotnet)",
+        "translatedContent": "También escribí una publicación en el blog para acompañarlo aquí: [https://www.brandontillman.com/blog/clean-architecture-dotnet](https://www.brandontillman.com/blog/clean-architecture-dotnet)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "+FabOWY5SUx9FaVaVRjx2QT5vZBEIPAuHuUgDFNOV7s=",
+        "originContent": "# Key Points:",
+        "translatedContent": "# Puntos clave:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "JauUJXKEp4h5WhPGPjinQL2rGWkNoSrHQtuqjy3q0GE=",
+        "originContent": "### :trident: N-Tier Architecture",
+        "translatedContent": "### :trident: Arquitectura N-Capas"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Ne9Qr1LfhBIdLVJVXWqKSTLlTyeRdhueiPIrGPcQn24=",
+        "originContent": "A 3 layered approach, to set us up for multiple UI's that use the same core business functionality/back-end. ",
+        "translatedContent": "Un enfoque de 3 capas, para prepararnos para múltiples interfaces de usuario que usen la misma funcionalidad núcleo de negocio/back-end."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "x1uYrEUOkUA6Lb3A1nI5EbiAUiUo4JjWiVdtQYIpNlg=",
+        "originContent": "### :open_file_folder: Separation of Concerns",
+        "translatedContent": "### :open_file_folder: Separación de Responsabilidades"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "McUE0VYScGcu4UCvjuuJ6REMrSHkZip2mtY8Ia2uZSw=",
+        "originContent": "Closely related to the [\"Single Responsibility\"](http://deviq.com/single-responsibility-principle/) principle, Separation of Concerns (SoC) makes your code more maintainable, by not co-locating ideas. When things change, SoC will help ensure your changes are limited to your feature set, and not spread throughout your application.",
+        "translatedContent": "Estrechamente relacionado con el principio de [\"Responsabilidad Única\"](http://deviq.com/single-responsibility-principle/), la Separación de Responsabilidades (SoC) hace que tu código sea más mantenible, al no colocar ideas juntas. Cuando las cosas cambian, SoC ayudará a asegurar que tus cambios se limiten a tu conjunto de características, y no se extiendan por toda tu aplicación."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "W50b5wRIUn6kDk0jv4KiBGWxuqvFy8tM3sUP+54yZmU=",
+        "originContent": "### :droplet: No Leaky Abstractions",
+        "translatedContent": "### :droplet: No hay Abstracciones que Fugan"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "UA9EQIcmJgIUYj49yBUtxxRNM4GVbyDKE/P2gs4efco=",
+        "originContent": "By using interfaces, we can avoid leaky abstractions, and have better control of how our code is used. On the contrary, consumers of our code don't have to know the implementation details, they can simply use your interfaces/classes.",
+        "translatedContent": "Al usar interfaces, podemos evitar abstracciones que fugan, y tener mejor control de cómo se usa nuestro código. Por el contrario, los consumidores de nuestro código no tienen que conocer los detalles de implementación, simplemente pueden usar tus interfaces/clases."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "AEMECMTTU/xgUPuQS3MXlTLO2FkU1rO0oTUV73nybAI=",
+        "originContent": "### :microscope: Testable",
+        "translatedContent": "### :microscope: Testeable"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "RsBYx2GQodUzgQN2Ak0WDT0pGpA0TAk8JfIy27cDKhg=",
+        "originContent": "Testing code that is tightly coupled is nearly impossible. By following the SOC principal, and using interfaces our code will be easier to rest in result.",
+        "translatedContent": "Probar código que está fuertemente acoplado es casi imposible. Siguiendo el principio SoC, y usando interfaces nuestro código será más fácil de probar."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "tXqaDVipQC435bNRqktlvuRavZXv6DLzMklH26hxUuw=",
+        "originContent": "### :electric_plug: Modular",
+        "translatedContent": "### :electric_plug: Modular"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "yIkRY/duH2Ze2W0hmMt3IHB6p9IVGxiGDGp1yeuGcoI=",
+        "originContent": "The code will be easier to modify in the future, because of a few reasons. Separation of concerns allows for fewer changes/testing throughout the application. You can build on specific feature sets, without modifying the rest of the code.",
+        "translatedContent": "El código será más fácil de modificar en el futuro, por varias razones. La separación de responsabilidades permite menos cambios/pruebas en toda la aplicación. Puedes construir sobre conjuntos específicos de características, sin modificar el resto del código."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "5otxkZedC0VUwSIC58qZJCu7as44fPlGHHEu7tw/syU=",
+        "originContent": "### :wrench: Maintainable",
+        "translatedContent": "### :wrench: Mantenible"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "The code will inherently be more maintainable by following Clean Architecture patterns. Other developers will see the benefit of the clean separation, and follow suit.\n\n# Primary Technologies Used\n\n- [.Net](https://dotnet.microsoft.com/)\n- [Blazor WASM](https://www.learnblazor.com/)\n- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)\n- [AutoMapper](https://automapper.org/)\n- [NLog](https://nlog-project.org/)\n\n### :star2: Give it a Star! \nIf you like or are using this project to learn or start your solution, please consider giving it a star. Thank you!\n",
+    "ContentSha": "qMjmYnU9elWy69Zdp6b1eiNT/nBJUFUvsAlk9v91Kpc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "El código será inherentemente más mantenible siguiendo los patrones de Arquitectura Limpia. Otros desarrolladores verán el beneficio de la separación limpia y seguirán su ejemplo.\n\n# Tecnologías Primarias Usadas\n\n- [.Net](https://dotnet.microsoft.com/)\n- [Blazor WASM](https://www.learnblazor.com/)\n- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)\n- [AutoMapper](https://automapper.org/)\n- [NLog](https://nlog-project.org/)\n\n### :star2: ¡Dale una Estrella! \nSi te gusta o estás usando este proyecto para aprender o comenzar tu solución, por favor considera darle una estrella. ¡Gracias!\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R9PXOaRYw0kxey7/SnooQ8/6zSbyx9r2k1crgXtt4Kc=",
+        "originContent": "The code will inherently be more maintainable by following Clean Architecture patterns. Other developers will see the benefit of the clean separation, and follow suit.",
+        "translatedContent": "El código será inherentemente más mantenible siguiendo los patrones de Arquitectura Limpia. Otros desarrolladores verán el beneficio de la separación limpia y seguirán su ejemplo."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "3JxtkQgx8tbfSlLYhVsJ1yD7gGs9lRZe8DzZ2oTz0e0=",
+        "originContent": "# Primary Technologies Used",
+        "translatedContent": "# Tecnologías Primarias Usadas"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "5L4T4qssxEv0paLpzbQb7otKV5beeFjcUkF08yx1fCo=",
+        "originContent": "- [.Net](https://dotnet.microsoft.com/)",
+        "translatedContent": "- [.Net](https://dotnet.microsoft.com/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "MjV8PcD+krPqVRQy73qMaZCV3ETQmaLAH4jb51TUUL0=",
+        "originContent": "- [Blazor WASM](https://www.learnblazor.com/)",
+        "translatedContent": "- [Blazor WASM](https://www.learnblazor.com/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "5oBw7T+Em6ydXhHYETAsA6xSh/ouAMzoqi1mnc7xets=",
+        "originContent": "- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)",
+        "translatedContent": "- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "bx01tzPTgh+ig2v0aGdALFn6OoGlCRfPVl16kbyRE6c=",
+        "originContent": "- [AutoMapper](https://automapper.org/)",
+        "translatedContent": "- [AutoMapper](https://automapper.org/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "QBUjAZDBFgB3DIJtgCM8kcnIHieP9MSbZO77jOvDRl4=",
+        "originContent": "- [NLog](https://nlog-project.org/)",
+        "translatedContent": "- [NLog](https://nlog-project.org/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Mwry2UBtfSvg0jYd81rUS/l2CbCIna9ybSwGZ4i/Q3M=",
+        "originContent": "### :star2: Give it a Star! ",
+        "translatedContent": "### :star2: ¡Dale una Estrella! "
+      },
+      {
+        "row": 12,
+        "rowsha": "3y6tS8n2vN42AHYUdf591SI2kZtNZvjIjIhXjnn/Xx8=",
+        "originContent": "If you like or are using this project to learn or start your solution, please consider giving it a star. Thank you!",
+        "translatedContent": "Si te gusta o estás usando este proyecto para aprender o comenzar tu solución, por favor considera darle una estrella. ¡Gracias!"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

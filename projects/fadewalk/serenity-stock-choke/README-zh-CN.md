@@ -1,20 +1,52 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Serenity Stock Choke · A股卡脖子选股框架
 
-> "**沿着产业链向上游追溯，找到那个'一旦断货，万亿产业就要地震'的关键节点——那个节点上的小盘股，就是下一个暴击机会。**"
+> “**沿着产业链向上游追溯，找到那个‘一旦断货，万亿产业就要地震’的关键节点——那个节点上的小盘股，就是下一个暴击机会。**”
 
-本 Skill 基于 Reddit 传奇人物 **Serenity（@aleabitoreddit）** 的供应链瓶颈理论，将其适配到 A 股市场，形成一套通用的板块分析框架。
+本Skill基于Reddit传奇人物**Serenity（@aleabitoreddit）**的供应链瓶颈理论，将其适配到A股市场，形成一套通用的板块分析框架。
 
 ---
 
-## 核心方法论
+## Core Methodology
 
-### 霍尔木兹海峡类比
+### Hormuz Strait Analogy
 
-> "霍尔木兹海峡是全球石油的咽喉。一旦封锁，所有人受影响。但如果你在霍尔木兹海峡拥有股份，你就拥有了定价权。"
+> "The Hormuz Strait is the throat of global oil. Once blocked, everyone is affected. But if you have a stake in the Hormuz Strait, you have pricing power."
 
-**翻译到 A 股**：哪个环节是某个大赛道的"霍尔木兹"？哪个 A 股公司控制它？
+**Translation to A-shares**: Which segment is the 'Hormuz' of a major track? Which A-share company controls it?
 
-### 三步核心逻辑
+### Three-step Core Logic
 
 ```
 ① AI大爆发 / 政策驱动 / 技术跃迁
@@ -120,6 +152,6 @@ serenity-stock-choke/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

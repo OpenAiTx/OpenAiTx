@@ -1,8 +1,40 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Serenity Stock Choke · A-share Bottleneck Stock Selection Framework
 
-> "**Trace upstream along the industrial chain to find that 'key node where if the supply is cut off, the trillion-yuan industry will quake' — the small-cap stock at that node is the next critical hit opportunity.**"
+> "**Trace upstream along the industrial chain to find that 'once supply is cut off, trillion-dollar industries will quake' critical node—the small-cap stock at that node is the next explosive opportunity.**"
 
-This Skill is based on the supply chain bottleneck theory of the Reddit legend **Serenity (@aleabitoreddit)**, adapted to the A-share market to form a universal sector analysis framework.
+This Skill is based on the supply chain bottleneck theory of Reddit legend **Serenity (@aleabitoreddit)**, adapted to the A-share market to form a universal sector analysis framework.
 
 ---
 
@@ -10,9 +42,9 @@ This Skill is based on the supply chain bottleneck theory of the Reddit legend *
 
 ### Strait of Hormuz Analogy
 
-> "The Strait of Hormuz is the throat of global oil. Once blocked, everyone is affected. But if you hold shares in the Strait of Hormuz, you hold pricing power."
+> "The Strait of Hormuz is the global chokepoint for oil. If it is blocked, everyone is affected. But if you have a stake in the Strait of Hormuz, you possess pricing power."
 
-**Translated to A-shares**: Which link is the "Hormuz" of a major sector? Which A-share company controls it?
+**Translated to A-shares**: Which segment is the "Strait of Hormuz" for a major sector? Which A-share company controls it?
 
 ### Three-step Core Logic
 
@@ -120,6 +152,6 @@ serenity-stock-choke/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

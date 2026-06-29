@@ -1,6 +1,5 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
 <a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>Este projeto faz parte da <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> e opera sob o seu <a href="https://www.dotnetfoundation.org/code-of-conduct">código de conduta</a>. </p>
+<p>Este projeto faz parte da <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> e opera sob o <a href="https://www.dotnetfoundation.org/code-of-conduct">código de conduta</a> deles. </p>
 </div>
 
 ---
@@ -1452,10 +1451,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. CultureInfo Personalizado
 
-Desde a versão 1.22.0, você pode personalizar o CultureInfo conforme abaixo, sendo o padrão do sistema `CultureInfo.InvariantCulture`.
+#### 3. Converter Excel para PDF
 
+Se você precisar converter arquivos Excel para PDF, pode usar o [MiniPdf](https://github.com/mini-software/MiniPdf).
+
+#### 4. CultureInfo Personalizado
+
+Desde a versão 1.22.0, você pode personalizar o CultureInfo como abaixo, padrão do sistema `CultureInfo.InvariantCulture`.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1467,28 +1470,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. Tamanho Personalizado do Buffer
 
 
+#### 5. Tamanho Personalizado do Buffer
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. ModoRápido
 
-O sistema não irá controlar a memória, mas você pode obter uma velocidade de salvamento mais rápida.
+#### 6. ModoRápido
 
+O sistema não controlará a memória, mas você pode obter uma velocidade de salvamento mais rápida.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. Adicionar Imagem em Lote (MiniExcel.AddPicture)
 
-Por favor, adicione as imagens antes de gerar os dados das linhas em lote, ou o sistema irá usar muita memória ao chamar AddPicture.
+#### 7. Adicionar Imagem em Lote (MiniExcel.AddPicture)
 
+Por favor, adicione as imagens antes de gerar os dados das linhas em lote, ou o sistema irá consumir muita memória ao chamar AddPicture.
 
 ```csharp
 var images = new[]
@@ -1511,9 +1514,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![Imagem](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Obter Dimensão das Planilhas
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2050,6 +2053,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

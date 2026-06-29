@@ -1,9 +1,8 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build durumu"></a>
-<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub yıldızları"></a>
-<a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="sürüm"></a>
-<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="DeepWiki'ye Sor"></a>
+<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
+<a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
+<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 </div>
 
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>Bu proje <a href="https://www.dotnetfoundation.org/">.NET Foundation</a>'ın bir parçasıdır ve onların <a href="https://www.dotnetfoundation.org/code-of-conduct">davranış kuralları</a> kapsamında çalışmaktadır. </p>
+<p>Bu proje <a href="https://www.dotnetfoundation.org/">.NET Foundation</a>'ın bir parçasıdır ve <a href="https://www.dotnetfoundation.org/code-of-conduct">davranış kuralları</a> kapsamında yürütülmektedir.</p>
 </div>
 
 ---
@@ -1448,10 +1447,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. Özel CultureInfo
 
-1.22.0 sürümünden itibaren, aşağıdaki gibi özel CultureInfo kullanabilirsiniz, sistem varsayılanı `CultureInfo.InvariantCulture`'dır.
+#### 3. Excel'i PDF'ye Dönüştürme
 
+Excel dosyalarını PDF'ye dönüştürmeniz gerekiyorsa, [MiniPdf](https://github.com/mini-software/MiniPdf) kullanabilirsiniz.
+
+#### 4. Özelleştirilmiş CultureInfo
+
+1.22.0 sürümünden itibaren, aşağıdaki gibi özelleştirilmiş CultureInfo kullanabilirsiniz, sistem varsayılanı `CultureInfo.InvariantCulture`.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1463,28 +1466,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. Özel Tampon Boyutu
 
 
+#### 5. Özel Arabellek Boyutu
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. HızlıMod
+
+#### 6. HızlıMod
 
 Sistem belleği kontrol etmeyecek, ancak daha hızlı kayıt hızı elde edebilirsiniz.
-
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. Toplu Resim Ekleme (MiniExcel.AddPicture)
 
-Lütfen toplu olarak satır verisi oluşturmadan önce resimleri ekleyin, aksi takdirde AddPicture çağrıldığında sistem yüksek bellek kullanımıyla karşılaşabilir.
+#### 7. Toplu Resim Ekleme (MiniExcel.AddPicture)
 
+Lütfen toplu satır verisi oluşturulmadan önce resimleri ekleyin, aksi takdirde AddPicture çağrıldığında sistem yüksek bellek kullanımıyla karşılaşacaktır.
 
 ```csharp
 var images = new[]
@@ -1507,9 +1510,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![Görsel](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Sayfa Boyutlarını Al
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2044,6 +2047,6 @@ Bağlantı https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

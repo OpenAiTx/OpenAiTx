@@ -1,9 +1,8 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build-Status"></a>
-<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub-Sterne"></a>
-<a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="Version"></a>
-<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="DeepWiki fragen"></a>
+<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
+<a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
+<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 </div>
 
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>Dieses Projekt ist Teil der <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> und unterliegt deren <a href="https://www.dotnetfoundation.org/code-of-conduct">Verhaltenskodex</a>. </p>
+<p>Dieses Projekt ist Teil der <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> und wird unter deren <a href="https://www.dotnetfoundation.org/code-of-conduct">Verhaltenskodex</a> betrieben. </p>
 </div>
 
 ---
@@ -1446,10 +1445,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. Benutzerdefinierte CultureInfo
 
-Seit Version 1.22.0 können Sie die CultureInfo wie unten gezeigt anpassen, standardmäßig verwendet das System `CultureInfo.InvariantCulture`.
+#### 3. Excel in PDF umwandeln
 
+Wenn Sie Excel-Dateien in PDF umwandeln müssen, können Sie [MiniPdf](https://github.com/mini-software/MiniPdf) verwenden.
+
+#### 4. Benutzerdefinierte CultureInfo
+
+Seit Version 1.22.0 können Sie CultureInfo wie unten angegeben anpassen, systemstandardmäßig `CultureInfo.InvariantCulture`.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1461,28 +1464,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. Benutzerdefinierte Puffergröße
 
 
+#### 5. Benutzerdefinierte Puffergröße
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. Schnellmodus
 
-Das System steuert den Speicher nicht, aber Sie können eine schnellere Speicher-Geschwindigkeit erzielen.
+#### 6. Schnellmodus
 
+Das System kontrolliert den Speicher nicht, aber Sie können eine schnellere Speicher-Geschwindigkeit erzielen.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. Batch-Bilder hinzufügen (MiniExcel.AddPicture)
 
-Bitte fügen Sie Bilder hinzu, bevor Sie die Zeilendaten stapelweise generieren, da das System sonst beim Aufruf von AddPicture einen hohen Speicherverbrauch haben wird.
+#### 7. Bilder stapelweise hinzufügen (MiniExcel.AddPicture)
 
+Bitte fügen Sie Bilder hinzu, bevor Sie die Zeilendaten stapelweise generieren, andernfalls führt das System zu hohem Speicherverbrauch beim Aufruf von AddPicture.
 
 ```csharp
 var images = new[]
@@ -1505,9 +1508,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![Bild](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Blattabmessungen abrufen
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2042,6 +2045,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

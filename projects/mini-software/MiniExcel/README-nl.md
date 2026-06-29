@@ -1,7 +1,6 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
-<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub sterren"></a>
+<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="ster"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub sterren"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="versie"></a>
 <a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Vraag DeepWiki"></a>
 </p>
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>Dit project is onderdeel van de <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> en opereert onder hun <a href="https://www.dotnetfoundation.org/code-of-conduct">gedragscode</a>. </p>
+<p>Dit project is onderdeel van de <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> en werkt onder hun <a href="https://www.dotnetfoundation.org/code-of-conduct">gedragscode</a>. </p>
 </div>
 
 ---
@@ -1448,10 +1447,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. Aangepaste CultureInfo
 
-Sinds 1.22.0 kun je een aangepaste CultureInfo gebruiken zoals hieronder, standaard gebruikt het systeem `CultureInfo.InvariantCulture`.
+#### 3. Excel naar PDF converteren
 
+Als je Excel-bestanden naar PDF wilt converteren, kun je [MiniPdf](https://github.com/mini-software/MiniPdf) gebruiken.
+
+#### 4. Aangepaste CultureInfo
+
+Sinds versie 1.22.0 kun je een aangepaste CultureInfo instellen zoals hieronder, systeemstandaard is `CultureInfo.InvariantCulture`.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1463,28 +1466,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. Aangepaste buffergrootte
 
 
+#### 5. Aangepaste buffer grootte
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. SnelModus
 
-Het systeem beheert het geheugen niet, maar je kunt wel sneller opslaan.
+#### 6. SnelModus
 
+Het systeem zal het geheugen niet beheren, maar je kunt een snellere opslagsnelheid krijgen.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. Batch Afbeelding Toevoegen (MiniExcel.AddPicture)
 
-Voeg alstublieft afbeeldingen toe voordat u batchgewijs rijen met gegevens genereert, anders zal het systeem veel geheugen gebruiken bij het aanroepen van AddPicture.
+#### 7. Batch Afbeelding Toevoegen (MiniExcel.AddPicture)
 
+Voeg afbeeldingen toe voordat u rijen met gegevens batchgewijs genereert, anders zal het systeem veel geheugen gebruiken bij het aanroepen van AddPicture.
 
 ```csharp
 var images = new[]
@@ -1507,9 +1510,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![Afbeelding](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Verkrijg Afmetingen van Sheets
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2044,6 +2047,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

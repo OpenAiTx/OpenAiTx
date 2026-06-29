@@ -1,9 +1,8 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="构建状态"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
-<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="向 DeepWiki 提问"></a>
+<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 </div>
 
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>该项目是 <a href="https://www.dotnetfoundation.org/">.NET 基金会</a> 的一部分，并遵循其 <a href="https://www.dotnetfoundation.org/code-of-conduct">行为准则</a> 运作。</p>
+<p>本项目是 <a href="https://www.dotnetfoundation.org/">.NET 基金会</a> 的一部分，并遵循其 <a href="https://www.dotnetfoundation.org/code-of-conduct">行为准则</a> 运营。</p>
 </div>
 
 ---
@@ -1446,10 +1445,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. 自定义 CultureInfo
 
-自 1.22.0 起，您可以像下面这样自定义 CultureInfo，系统默认使用 `CultureInfo.InvariantCulture`。
+#### 3. 将 Excel 转换为 PDF
 
+如果你需要将 Excel 文件转换为 PDF，可以使用 [MiniPdf](https://github.com/mini-software/MiniPdf)。
+
+#### 4. 自定义 CultureInfo
+
+从 1.22.0 起，你可以像下面这样自定义 CultureInfo，系统默认使用 `CultureInfo.InvariantCulture`。
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1461,28 +1464,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. 自定义缓冲区大小
 
 
+#### 5. 自定义缓冲区大小
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. 快速模式
+
+#### 6. 快速模式
 
 系统不会控制内存，但你可以获得更快的保存速度。
-
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. 批量添加图片（MiniExcel.AddPicture）
 
-请在批量生成行数据之前添加图片，否则在调用 AddPicture 时系统会占用大量内存。
+#### 7. 批量添加图片（MiniExcel.AddPicture）
 
+请在批量生成行数据之前添加图片，否则在调用 AddPicture 时系统将加载大量内存。
 
 ```csharp
 var images = new[]
@@ -1505,9 +1508,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![图片](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. 获取工作表尺寸
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2046,6 +2049,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

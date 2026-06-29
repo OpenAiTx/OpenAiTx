@@ -1,6 +1,5 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
 <a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
@@ -12,7 +11,7 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>โปรเจ็กต์นี้เป็นส่วนหนึ่งของ <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> และดำเนินงานภายใต้ <a href="https://www.dotnetfoundation.org/code-of-conduct">จรรยาบรรณ</a> ของพวกเขา </p>
+<p>โปรเจกต์นี้เป็นส่วนหนึ่งของ <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> และดำเนินงานภายใต้ <a href="https://www.dotnetfoundation.org/code-of-conduct">จรรยาบรรณ</a> ของพวกเขา </p>
 </div>
 
 ---
@@ -1465,10 +1464,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. กำหนดค่า CultureInfo เอง
 
-ตั้งแต่เวอร์ชัน 1.22.0 คุณสามารถกำหนด CultureInfo เองได้ตามตัวอย่างด้านล่าง โดยปกติระบบจะใช้ `CultureInfo.InvariantCulture` เป็นค่าเริ่มต้น
+#### 3. แปลงไฟล์ Excel เป็น PDF
 
+หากคุณต้องการแปลงไฟล์ Excel เป็น PDF คุณสามารถใช้ [MiniPdf](https://github.com/mini-software/MiniPdf) ได้
+
+#### 4. กำหนด CultureInfo เอง
+
+ตั้งแต่เวอร์ชัน 1.22.0 คุณสามารถกำหนด CultureInfo เองได้ดังตัวอย่างด้านล่าง ค่ามาตรฐานของระบบคือ `CultureInfo.InvariantCulture`
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1480,28 +1483,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. ขนาดบัฟเฟอร์ที่กำหนดเอง
 
 
+#### 5. ขนาดบัฟเฟอร์แบบกำหนดเอง
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. FastMode
 
-ระบบจะไม่ควบคุมหน่วยความจำ แต่คุณจะสามารถบันทึกข้อมูลได้เร็วขึ้น
+#### 6. โหมดเร็ว
 
+ระบบจะไม่ควบคุมหน่วยความจำ แต่คุณจะสามารถบันทึกได้เร็วขึ้น
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. การเพิ่มรูปภาพแบบชุด (MiniExcel.AddPicture)
 
-กรุณาเพิ่มรูปภาพก่อนการสร้างข้อมูลแถวแบบชุด มิฉะนั้นระบบจะใช้หน่วยความจำจำนวนมากเมื่อเรียกใช้ AddPicture
+#### 7. เพิ่มรูปภาพแบบกลุ่ม (MiniExcel.AddPicture)
 
+กรุณาเพิ่มรูปภาพก่อนที่จะสร้างข้อมูลแถวแบบกลุ่ม มิฉะนั้นระบบจะใช้หน่วยความจำจำนวนมากเมื่อเรียกใช้ AddPicture.
 
 ```csharp
 var images = new[]
@@ -1526,7 +1529,7 @@ MiniExcel.AddPicture(path, images);
 ```
 ![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. รับขนาดของชีต
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2063,6 +2066,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

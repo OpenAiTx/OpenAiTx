@@ -1,20 +1,52 @@
-# Cadre de sélection Serenity Stock Choke · Actions A
 
-> "**Remonter la chaîne industrielle vers l'amont, trouver ce 'maillon clé qui, s'il venait à manquer, ferait trembler une industrie de mille milliards' — la petite valeur à ce maillon est la prochaine opportunité de coup critique.**"
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-Cette compétence est basée sur la théorie des goulets d'étranglement de la chaîne d'approvisionnement du légendaire Reddit **Serenity (@aleabitoreddit)**, adaptée au marché des actions A pour former un cadre d'analyse sectorielle universel.
+# Serenity Stock Choke · Cadre de sélection des actions A-shares « goulot d’étranglement »
+
+> "**Remontez la chaîne industrielle jusqu’à l’amont, identifiez ce 'maillon clé qui, s’il est coupé, ferait trembler une industrie de mille milliards' — et la petite capitalisation à ce nœud est la prochaine opportunité de choc.**"
+
+Cette compétence est basée sur la théorie du goulot d’étranglement de la chaîne d’approvisionnement du légendaire Redditor **Serenity (@aleabitoreddit)**, adaptée au marché des actions A chinoises pour former un cadre d’analyse sectorielle universel.
 
 ---
 
-## Méthodologie principale
+## Méthodologie clé
 
-### Analogique du détroit d'Hormuz
+### Analogie du détroit d'Ormuz
 
-> "Le détroit d'Hormuz est la gorge pétrolière mondiale. S'il est bloqué, tout le monde est impacté. Mais si vous détenez des parts dans le détroit d'Hormuz, vous détenez le pouvoir de fixation des prix."
+> "Le détroit d'Ormuz est la gorge du pétrole mondial. Une fois bloqué, tout le monde est affecté. Mais si vous détenez des parts dans le détroit d'Ormuz, vous détenez le pouvoir de fixation des prix."
 
-**Traduction aux actions A** : quel maillon est le "Hormuz" d'un grand secteur ? Quelle entreprise A le contrôle ?
+**Traduction vers les actions A** : Quelle étape est le 'détroit d'Ormuz' d'une grande filière ? Quelle entreprise A contrôle-t-elle ?
 
-### Logique en trois étapes clés
+### Logique clé en trois étapes
 
 ```
 ① AI大爆发 / 政策驱动 / 技术跃迁
@@ -120,6 +152,6 @@ serenity-stock-choke/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

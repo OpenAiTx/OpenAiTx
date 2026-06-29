@@ -1,8 +1,40 @@
-# Serenity Stock Choke · A股 카보키 선정 프레임워크
 
-> "**산업 체인을 따라 상류로 거슬러 올라가, '만약 공급이 끊기면 조 단위 산업이 지진을 겪을' 핵심 노드를 찾는다——그 노드에 위치한 소형주는 다음 폭격 기회다.**"
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-본 스킬은 Reddit 전설적 인물 **Serenity(@aleabitoreddit)** 의 공급망 병목 이론을 기반으로 하여, 이를 A주 시장에 맞게 적용한 범용 섹터 분석 프레임워크이다.
+# Serenity Stock Choke · A주 카보지 선별 프레임워크
+
+> "**산업체인을 따라 상류로 거슬러 올라가면, '만약 공급이 끊기면 수조원 규모 산업이 지진을 맞는다'는 핵심 노드를 찾을 수 있습니다—그 노드의 소형주가 바로 다음 폭발적 기회입니다.**"
+
+본 Skill은 Reddit의 전설적인 인물 **Serenity（@aleabitoreddit）**의 공급망 병목 이론을 기반으로 하며, 이를 A주 시장에 맞게 적용하여 범용적인 섹터 분석 프레임워크로 구성했습니다.
 
 ---
 
@@ -10,9 +42,9 @@
 
 ### 호르무즈 해협 비유
 
-> "호르무즈 해협은 전 세계 석유의 목구멍이다. 일단 봉쇄되면 모두가 영향을 받는다. 그러나 만약 호르무즈 해협에 지분을 가지고 있다면, 가격 결정권을 가진 것이다."
+> "호르무즈 해협은 전 세계 석유의 목줄이다. 봉쇄되면 모두가 영향을 받는다. 하지만 호르무즈 해협에 지분을 가지고 있다면, 당신은 가격 결정권을 갖게 된다."
 
-**A주에 번역하면**: 어느 고리가 특정 대형 트랙의 '호르무즈'인가? 어떤 A주 회사가 이를 통제하는가?
+**A주로 번역**: 어떤 단계가 주요 산업의 '호르무즈'인가? 어떤 A주 회사가 그것을 통제하는가?
 
 ### 세 단계 핵심 논리
 
@@ -120,6 +152,6 @@ serenity-stock-choke/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

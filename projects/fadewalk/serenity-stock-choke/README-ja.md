@@ -1,20 +1,52 @@
-# Serenity Stock Choke · A股卡脖子選股フレームワーク
 
-> "**産業チェーンを上流にさかのぼり、「もし供給が途絶えれば、兆単位の産業に地震が起きる」キーポイントを見つける──そのポイントにある小型株こそが次の暴騰チャンス。**"
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-CN">簡体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-TW">繁体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ko">韓国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=hi">ヒンディー語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=th">タイ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fr">フランス語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=de">ドイツ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=es">スペイン語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fa">ペルシャ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=id">インドネシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=as">アッサム語</
+      </div>
+    </div>
+  </details>
+</div>
 
-本スキルはRedditの伝説的人物**Serenity（@aleabitoreddit）**のサプライチェーンボトルネック理論を基に、A株市場に適用した汎用的なセクター分析フレームワークを形成しています。
+# Serenity Stock Choke · A株サプライチェーン・ボトルネック銘柄選定フレームワーク
+
+> 「**産業チェーンを上流にさかのぼり、『もし供給が止まれば、何兆円規模の産業全体が地震のような衝撃を受ける』その重要な節点を見つける——その節点にいる小型株こそ、次なる爆発的チャンスだ。**」
+
+本SkillはRedditの伝説的人物**Serenity（@aleabitoreddit）**のサプライチェーン・ボトルネック理論をA株市場に適用し、汎用的なセクター分析フレームワークを形成しています。
 
 ---
 
 ## コアメソドロジー
 
-### ホルムズ海峡の類推
+### ホルムズ海峡のアナロジー
 
-> "ホルムズ海峡は世界の石油の喉元。一度封鎖されれば、全員が影響を受ける。しかしホルムズ海峡の株式を持っていれば、価格決定権を握れる。"
+> 「ホルムズ海峡は世界の石油の咽喉だ。もし封鎖されれば、誰もが影響を受ける。しかし、もしあなたがホルムズ海峡に持分を持っていれば、あなたは価格決定権を持つことになる。」
 
-**A株に翻訳すると**：どの環節がある大セクターの「ホルムズ」なのか？どのA株企業がそれを支配しているのか？
+**A株への翻訳**：どの工程がある大きなテーマの「ホルムズ」なのか？どのA株企業がそれを支配しているのか？
 
-### 三段階コアロジック
+### 三つのコアロジック
 
 ```
 ① AI大爆发 / 政策驱动 / 技术跃迁
@@ -120,6 +152,6 @@ serenity-stock-choke/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

@@ -1,0 +1,1244 @@
+[
+  {
+    "row": 1,
+    "rowsha": "lmJ1MwKGAUHOKcUl6xxEqHMaqtbW0PYHqfBh6TTFvNQ=",
+    "originContent": "# RefineAnything",
+    "translatedContent": "# RefineAnything"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "gqZdiEasVDTxcWDS943rGayZH/D3l9oK9pRHPxTXFiA=",
+    "originContent": "**Multimodal Region-Specific Refinement for Perfect Local Details**",
+    "translatedContent": "**Multimodal Region-Specific Refinement for Perfect Local Details**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "qInIsu6Qu5vrvnMRmgP2aH5jPS5DOeaYIUB0ASmH5pY=",
+    "originContent": "<a href=\"https://limuloo.github.io/RefineAnything/\"><img src=\"https://img.shields.io/badge/Project-Page-blue\" /></a>",
+    "translatedContent": "<a href=\"https://limuloo.github.io/RefineAnything/\"><img src=\"https://img.shields.io/badge/Project-Page-blue\" /></a>"
+  },
+  {
+    "row": 6,
+    "rowsha": "8K1a+Bosn/bxAKzqXdgf8NqGXpOyAlqTgv+J3rCZamI=",
+    "originContent": "<a href=\"https://arxiv.org/abs/2604.06870\"><img src=\"https://img.shields.io/badge/arXiv-2604.06870-b31b1b\" /></a>",
+    "translatedContent": "<a href=\"https://arxiv.org/abs/2604.06870\"><img src=\"https://img.shields.io/badge/arXiv-2604.06870-b31b1b\" /></a>"
+  },
+  {
+    "row": 7,
+    "rowsha": "b2I2pJwOJjycIojyGIgTrfMl8bBTvEnbnEnDycMIXjE=",
+    "originContent": "<a href=\"https://github.com/limuloo/RefineAnything\"><img src=\"https://img.shields.io/badge/GitHub-Code-black?logo=github\" /></a>",
+    "translatedContent": "<a href=\"https://github.com/limuloo/RefineAnything\"><img src=\"https://img.shields.io/badge/GitHub-Code-black?logo=github\" /></a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "JDi6oVJzYh0MvCcO3ZRKTaSmnYHPuoCskyakhWeMg0w=",
+    "originContent": "<a href=\"https://huggingface.co/limuloo1999/RefineAnything\"><img src=\"https://img.shields.io/badge/HuggingFace-Checkpoint-yellow?logo=huggingface\" /></a>",
+    "translatedContent": "<a href=\"https://huggingface.co/limuloo1999/RefineAnything\"><img src=\"https://img.shields.io/badge/HuggingFace-Checkpoint-yellow?logo=huggingface\" /></a>"
+  },
+  {
+    "row": 9,
+    "rowsha": "1+L7kefMN49f0vXW7pJsgVENVYCyTGsZ24+aDwdzTLw=",
+    "originContent": "<a href=\"https://huggingface.co/spaces/limuloo1999/RefineAnything\"><img src=\"https://img.shields.io/badge/HuggingFace-Space-orange?logo=huggingface\" /></a>",
+    "translatedContent": "<a href=\"https://huggingface.co/spaces/limuloo1999/RefineAnything\"><img src=\"https://img.shields.io/badge/HuggingFace-Space-orange?logo=huggingface\" /></a>"
+  },
+  {
+    "row": 10,
+    "rowsha": "Kzwmpyq7+qiF6sg7AuC1SaBx34tPt2dHZDoG+qq8ZDc=",
+    "originContent": "<a href=\"https://github.com/smthemex/ComfyUI_RefineAnything\"><img src=\"https://img.shields.io/badge/ComfyUI-Plugin-green?logo=github\" /></a>",
+    "translatedContent": "<a href=\"https://github.com/smthemex/ComfyUI_RefineAnything\"><img src=\"https://img.shields.io/badge/ComfyUI-Plugin-green?logo=github\" /></a>"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "W3xxzhAiDfK/ybHsUx49DHBkUYwoCxCe5FQXSHr5TZA=",
+    "originContent": "RefineAnything targets **region-specific image refinement**: given an input image and a user-specified region (e.g., scribble mask or bounding box), it restores fine-grained details—text, logos, thin structures—while keeping **all non-edited pixels unchanged**. It supports both **reference-based** and **reference-free** refinement.",
+    "translatedContent": "RefineAnything targets **region-specific image refinement**: given an input image and a user-specified region (e.g., scribble mask or bounding box), it restores fine-grained details—text, logos, thin structures—while keeping **all non-edited pixels unchanged**. It supports both **reference-based** and **reference-free** refinement."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "q0yE2vuyvljdFOM6/qECKPujXveaspboakrwoLi+5xs=",
+    "originContent": "![Teaser](https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/teaser.png)",
+    "translatedContent": "![Teaser](https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/teaser.png)"
+  },
+  {
+    "row": 15,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "4SzYJwNNDn2R2kkHsB4X4H4ZhUVuQo9QZvhInidlbxE=",
+    "originContent": "## News",
+    "translatedContent": "## News"
+  },
+  {
+    "row": 18,
+    "rowsha": "tJdXMCCDeqf/inK8TH3LGDUm9hjPzTBb8m7GFXxxfCA=",
+    "originContent": "- **2026-04-21** — **Environment pinning update.** For best results (and to avoid color shifts), please use **exactly** the versions pinned in `requirement.txt`: `diffusers==0.36.0`, `transformers==4.55.0`, `safetensors==0.5.3`, `peft==0.17.0`. See [Environment Notice](#environment-notice) below for a visual comparison.",
+    "translatedContent": "- **2026-04-21** — **Environment pinning update.** For best results (and to avoid color shifts), please use **exactly** the versions pinned in `requirement.txt`: `diffusers==0.36.0`, `transformers==4.55.0`, `safetensors==0.5.3`, `peft==0.17.0`. See [Environment Notice](#environment-notice) below for a visual comparison."
+  },
+  {
+    "row": 19,
+    "rowsha": "Ta9sLSqSwSM8qaHm6XG9N1D5Pr6tbH6PSrvQMz4CUOk=",
+    "originContent": "- **2026-04-21** — **Hugging Face Space environment fixed.** The online demo now runs on the correct dependency versions, so refinement results are noticeably better: <https://huggingface.co/spaces/limuloo1999/RefineAnything>.",
+    "translatedContent": "- **2026-04-21** — **Hugging Face Space environment fixed.** The online demo now runs on the correct dependency versions, so refinement results are noticeably better: <https://huggingface.co/spaces/limuloo1999/RefineAnything>."
+  },
+  {
+    "row": 20,
+    "rowsha": "0BM6sGSsqwoIaROzFrtBmrnIbEnzI7gXHH5l1npBzzY=",
+    "originContent": "- **2026-04-14** — Community ComfyUI integration by [@smthemex](https://github.com/smthemex): [ComfyUI_RefineAnything](https://github.com/smthemex/ComfyUI_RefineAnything). Thanks for the great work!",
+    "translatedContent": "- **2026-04-14** — Community ComfyUI integration by [@smthemex](https://github.com/smthemex): [ComfyUI_RefineAnything](https://github.com/smthemex/ComfyUI_RefineAnything). Thanks for the great work!"
+  },
+  {
+    "row": 21,
+    "rowsha": "D0lRzJAkBjDQux2ga0XPaFh5vCXsEhWfWtf12epXoFQ=",
+    "originContent": "- **2026-04-14** — Local Gradio demo (`app.py`) is available for interactive testing.",
+    "translatedContent": "- **2026-04-14** — Local Gradio demo (`app.py`) is available for interactive testing."
+  },
+  {
+    "row": 22,
+    "rowsha": "HM5Of/fyU8oXqACdPVE6gvKYykJ9WD9oCmxOoT8TpP0=",
+    "originContent": "- **2026-04-12** — Hugging Face Space demo is live: <https://huggingface.co/spaces/limuloo1999/RefineAnything>.",
+    "translatedContent": "- **2026-04-12** — Hugging Face Space demo is live: <https://huggingface.co/spaces/limuloo1999/RefineAnything>."
+  },
+  {
+    "row": 23,
+    "rowsha": "5/S2hQmf528wWYmByG9seha8xjhRXQ6kyaAmDIuD2HU=",
+    "originContent": "- **2026-04-09** — Checkpoint released on Hugging Face: <https://huggingface.co/limuloo1999/RefineAnything>.",
+    "translatedContent": "- **2026-04-09** — Checkpoint released on Hugging Face: <https://huggingface.co/limuloo1999/RefineAnything>."
+  },
+  {
+    "row": 24,
+    "rowsha": "to+ujJMtrxkP6RbWOGiBoZ6ZeGJcwPgKoMBqbSztnjk=",
+    "originContent": "- **2026-04-09** — Release inference scripts.",
+    "translatedContent": "- **2026-04-09** — Release inference scripts."
+  },
+  {
+    "row": 25,
+    "rowsha": "UW5d8mLJjN3v2VpY/lfUzcGmO2BsWsXlNep1CCXftgE=",
+    "originContent": "- **2026-04-08** — Documentation skeleton added; **code release coming this month** (inference scripts, environment, and checkpoints will be linked here).",
+    "translatedContent": "- **2026-04-08** — Documentation skeleton added; **code release coming this month** (inference scripts, environment, and checkpoints will be linked here)."
+  },
+  {
+    "row": 26,
+    "rowsha": "bYCmjbKEWYtzifEmpqzWm4vHMKsMZrLzLCzZm+QMb9Y=",
+    "originContent": "- **TBD** — Checkpoints and training/evaluation resources will be announced once finalized.",
+    "translatedContent": "- **TBD** — Checkpoints and training/evaluation resources will be announced once finalized."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "9a7bFLa52kiZxUzfAxlhz72mDTNtxgr9teEvC4OUXoQ=",
+    "originContent": "## Highlights",
+    "translatedContent": "## Highlights"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "dnzCwNMRxcQFkhWUQBMvgE6Uc7bpbZCyccC59/Vv9YU=",
+    "originContent": "- **Region-accurate refinement** — Explicit region cues (scribbles or boxes) steer edits to the target area.",
+    "translatedContent": "- **Region-accurate refinement** — Explicit region cues (scribbles or boxes) steer edits to the target area."
+  },
+  {
+    "row": 33,
+    "rowsha": "xkMMYN9B/xbYzq4J9lYYU0oNFl4c1es10F31G1cwvIQ=",
+    "originContent": "- **Reference-based and reference-free** — Optional reference image for guided local detail recovery.",
+    "translatedContent": "- **Reference-based and reference-free** — Optional reference image for guided local detail recovery."
+  },
+  {
+    "row": 34,
+    "rowsha": "q6sF4QCRrwbtJDy+RhmCjzvJJxlg0Db8/la5xEkqibQ=",
+    "originContent": "- **Strict background preservation** — Edits stay inside the target region; training emphasizes seamless boundaries.",
+    "translatedContent": "- **Strict background preservation** — Edits stay inside the target region; training emphasizes seamless boundaries."
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "C5cuzVcck8wxWl+bVOmDH9MDes2l1jmV5bvQ1F/oWDU=",
+    "originContent": "## Comparisons",
+    "translatedContent": "## Comparisons"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "xuardY27X83J/MnYSlurVV5Z3OP0hrEn4RquF0Hpeio=",
+    "originContent": "![Reference-free qualitative comparisons](https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/qualitative_free.png)",
+    "translatedContent": "![Reference-free qualitative comparisons](https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/qualitative_free.png)"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "doM75NdTc1UbtCT+BJdaFoHsUOBmJ33P5iyzB0iv6Go=",
+    "originContent": "![Reference-based qualitative comparisons](https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/qualitative_reference.png)",
+    "translatedContent": "![Reference-based qualitative comparisons](https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/qualitative_reference.png)"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 49,
+    "rowsha": "hkfp0y9b9cYA8ANEKl/+xxjTeH0TZ5DuMUM+Njs4e+8=",
+    "originContent": "pip install -r requirement.txt",
+    "translatedContent": "pip install -r requirement.txt"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "FQKi0sHmdnkWlVssh91TG4aAFNfI68cZpLR4fHKCDz8=",
+    "originContent": "> **Important — pin these versions exactly.** RefineAnything is sensitive to small numerical differences in the underlying libraries. Please install **exactly** the versions below; using newer or older releases can cause visible artifacts such as color shifts in the refined region.",
+    "translatedContent": "> **Important — pin these versions exactly.** RefineAnything is sensitive to small numerical differences in the underlying libraries. Please install **exactly** the versions below; using newer or older releases can cause visible artifacts such as color shifts in the refined region."
+  },
+  {
+    "row": 53,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 54,
+    "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+    "originContent": "> ```",
+    "translatedContent": "> ```"
+  },
+  {
+    "row": 55,
+    "rowsha": "XPKUW7TfmNcCNbkX3xvBVJxN1skeUpM1v3UqYhb0j1A=",
+    "originContent": "> diffusers==0.36.0",
+    "translatedContent": "> diffusers==0.36.0"
+  },
+  {
+    "row": 56,
+    "rowsha": "TJeo/iPoO428WqChmpVvxRHQb/UgpTq6CUofbW6ZASE=",
+    "originContent": "> transformers==4.55.0",
+    "translatedContent": "> transformers==4.55.0"
+  },
+  {
+    "row": 57,
+    "rowsha": "cOPOjwsfAx7K6hAU6ZDA0o6PCjtwnMg6NmBg+iUS570=",
+    "originContent": "> safetensors==0.5.3",
+    "translatedContent": "> safetensors==0.5.3"
+  },
+  {
+    "row": 58,
+    "rowsha": "bCkW1P3Tb4Va9aY9RXnfNQ3FYCYaK16+m+tEJdEx1Nw=",
+    "originContent": "> peft==0.17.0",
+    "translatedContent": "> peft==0.17.0"
+  },
+  {
+    "row": 59,
+    "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+    "originContent": "> ```",
+    "translatedContent": "> ```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "tGPB0xmwTuYdvhU5XWuKMh2PJrf4RNWncHaim1GxXHY=",
+    "originContent": "## Environment Notice",
+    "translatedContent": "## Environment Notice"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "bkzoA6LfePlgDSlEwIySlbMqtXD7F67zvdiim36YyzA=",
+    "originContent": "We have observed that mismatched versions of `diffusers` / `transformers` / `safetensors` / `peft` can introduce **color shifts** in the refined region, even when everything else is identical. The example below uses the prompt *\"remove the hand\"*:",
+    "translatedContent": "We have observed that mismatched versions of `diffusers` / `transformers` / `safetensors` / `peft` can introduce **color shifts** in the refined region, even when everything else is identical. The example below uses the prompt *\"remove the hand\"*:"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+    "originContent": "<table>",
+    "translatedContent": "<table>"
+  },
+  {
+    "row": 68,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 69,
+    "rowsha": "3rcFRbGB8whPvuzEsjOgNiYusdDDAeSSeLR3Fe3j08I=",
+    "originContent": "<td align=\"center\"><b>Input (masked region = hand)</b></td>",
+    "translatedContent": "<td align=\"center\"><b>Input (masked region = hand)</b></td>"
+  },
+  {
+    "row": 70,
+    "rowsha": "PrXHYsFmW2awJEmPRPQ5lKwpU3tGgZrqjErQDlfoNlA=",
+    "originContent": "<td align=\"center\"><b>Correct environment</b></td>",
+    "translatedContent": "<td align=\"center\"><b>Correct environment</b></td>"
+  },
+  {
+    "row": 71,
+    "rowsha": "8MKJ1UEPft3qOoAAVtKE4bk9m/H9Djux4ezkE1AVQjs=",
+    "originContent": "<td align=\"center\"><b>Wrong environment (color shift)</b></td>",
+    "translatedContent": "<td align=\"center\"><b>Wrong environment (color shift)</b></td>"
+  },
+  {
+    "row": 72,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 73,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 74,
+    "rowsha": "Cw4ccGv4489Zpzg0ETiP92PCuCIPswwJbEFeF7Boxjk=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/env_check_input.png\" width=\"100%\"></td>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/env_check_input.png\" width=\"100%\"></td>"
+  },
+  {
+    "row": 75,
+    "rowsha": "IVDoahV5qF0Pn+zaG7QoJIHrGWV9qBaZNWw3KqwX1Wc=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/correct_env_result.png\" width=\"100%\"></td>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/correct_env_result.png\" width=\"100%\"></td>"
+  },
+  {
+    "row": 76,
+    "rowsha": "8By/em11Z1GMPWds8xokZKlcseNYC4i8g4GyiFzpa4o=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/wrong_env_result.png\" width=\"100%\"></td>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/wrong_env_result.png\" width=\"100%\"></td>"
+  },
+  {
+    "row": 77,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 78,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "czIYWMimcc6OKRiWqC8Xwyie0NHoU9gG6L7PyBfnPj8=",
+    "originContent": "If your output shows a mild color/tone mismatch inside the mask while the rest of the image looks fine, the first thing to check is your package versions.",
+    "translatedContent": "If your output shows a mild color/tone mismatch inside the mask while the rest of the image looks fine, the first thing to check is your package versions."
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## Quick Start"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "hhrU3Bt50dqG/Og3R7+iBWdd8qwKcQgQ4/iRuEj0w+U=",
+    "originContent": "Only **three** things are required to run RefineAnything:",
+    "translatedContent": "Only **three** things are required to run RefineAnything:"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "3tMzT4Kncn/qT1KrU6TJN6+3kK1yL5AV1Soo/TgUiJU=",
+    "originContent": "| Argument | Description |",
+    "translatedContent": "| Argument | Description |"
+  },
+  {
+    "row": 89,
+    "rowsha": "tkIETMJFXsZuFrAwyod8za8rnBpkWaFGEtOgogeluKg=",
+    "originContent": "|----------|-------------|",
+    "translatedContent": "|----------|-------------|"
+  },
+  {
+    "row": 90,
+    "rowsha": "S/EjncLH9mteXWTvlbk/cJUB1yjC+CSJA9V7jtknppM=",
+    "originContent": "| `--input` | Source image |",
+    "translatedContent": "| `--input` | Source image |"
+  },
+  {
+    "row": 91,
+    "rowsha": "7PGg/71HovjBAl9YilOqlxQLMbcxEQszxXXqDcm4VfU=",
+    "originContent": "| `--mask` | Binary mask (white = region to refine) |",
+    "translatedContent": "| `--mask` | Binary mask (white = region to refine) |"
+  },
+  {
+    "row": 92,
+    "rowsha": "KUPeg3nPXyze0++TfddAiGrJyBLE9q8JwoJETjZdN4c=",
+    "originContent": "| `--prompt` | What to refine |",
+    "translatedContent": "| `--prompt` | What to refine |"
+  },
+  {
+    "row": 93,
+    "rowsha": "3jbGADuU9z/4Rt8MvUC/BLRcoxGTYfsi292Pdi1DTIo=",
+    "originContent": "| `--ref` | *(optional)* Reference image for guided refinement |",
+    "translatedContent": "| `--ref` | *(optional)* Reference image for guided refinement |"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "L0F28Cg9DeJAXXaSDGjoxsI1NXf1R/8S03k1VXLA/4Y=",
+    "originContent": "### Demo 1 — Reference-based Logo Refinement",
+    "translatedContent": "### Demo 1 — Reference-based Logo Refinement"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "v2jQg8o3Tf9I1xFrONA1ruoXDZbjL0QbYa7VC7UsQqw=",
+    "originContent": "Refine a blurry logo on a pillow using a reference image.",
+    "translatedContent": "Refine a blurry logo on a pillow using a reference image."
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 102,
+    "rowsha": "APFGvX6lmP9s/z4deJIFrSoq4FkMxnGUXgx1ey+5VsY=",
+    "originContent": "python scripts/fast_inference.py \\",
+    "translatedContent": "python scripts/fast_inference.py \\"
+  },
+  {
+    "row": 103,
+    "rowsha": "uqyMJoR1FDSRfP6e6mBT2l7z4uaPGENB/MApvuALABE=",
+    "originContent": "    --input  src/input1.png \\",
+    "translatedContent": "    --input  src/input1.png \\"
+  },
+  {
+    "row": 104,
+    "rowsha": "34fxT/T30mjSn5IsZJ5ll3lliuUTu33eizfxdDr303E=",
+    "originContent": "    --mask   src/mask1.png \\",
+    "translatedContent": "    --mask   src/mask1.png \\"
+  },
+  {
+    "row": 105,
+    "rowsha": "DLBXKIh3kSM2C6rpem1l5muARuZPiTIFJq8y/WTesSE=",
+    "originContent": "    --prompt \"Refine the LOGO.\" \\",
+    "translatedContent": "    --prompt \"Refine the LOGO.\" \\"
+  },
+  {
+    "row": 106,
+    "rowsha": "qypNYn+czgzI+X4+gNEzWwwCuW7R9YxIQxYl1bkJzMk=",
+    "originContent": "    --ref    src/ref1.png \\",
+    "translatedContent": "    --ref    src/ref1.png \\"
+  },
+  {
+    "row": 107,
+    "rowsha": "DRtWD0FX/wuqn0K4Z3cvd7qfQHpEpIfLbEiXrJHuPlo=",
+    "originContent": "    --output output/demo1.png",
+    "translatedContent": "    --output output/demo1.png"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<table>"
+  },
+  {
+    "row": 110,
+    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+    "originContent": "<table>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 111,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td align=\"center\"><b>Input</b></td>"
+  },
+  {
+    "row": 112,
+    "rowsha": "zDmL7lSO1QMi+8tM9leQa2DohLdShTGcbWCk/H3puOI=",
+    "originContent": "<td align=\"center\"><b>Input</b></td>",
+    "translatedContent": "<td align=\"center\"><b>Reference</b></td>"
+  },
+  {
+    "row": 113,
+    "rowsha": "24RCor2Q7ZwRpc2K7gnyCI9j+jAlNdHED8GtNbqkO2g=",
+    "originContent": "<td align=\"center\"><b>Reference</b></td>",
+    "translatedContent": "<td align=\"center\"><b>Prompt</b></td>"
+  },
+  {
+    "row": 114,
+    "rowsha": "wZzVCfXVLyafJePf+L+JUvfPfLlS6276gLRdJNVIfUw=",
+    "originContent": "<td align=\"center\"><b>Prompt</b></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 115,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 116,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo1_input_zoom.jpg\" width=\"100%\"></td>"
+  },
+  {
+    "row": 117,
+    "rowsha": "08DowP6KH7OJyazoWvJ4JPt6RNox95Hs86Elcy6vebo=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo1_input_zoom.jpg\" width=\"100%\"></td>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/src/ref1.png\" width=\"100%\"></td>"
+  },
+  {
+    "row": 118,
+    "rowsha": "cMbr8nIm/Hfpukx8cQcR80TNLFkm/TW/iMtUUl6VUig=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/src/ref1.png\" width=\"100%\"></td>",
+    "translatedContent": "<td><i>\"Refine the LOGO.\"</i></td>"
+  },
+  {
+    "row": 119,
+    "rowsha": "9M1p2RrHsEzP3WphGQ85jgWtM83dMOx49fLlxrspVbE=",
+    "originContent": "<td><i>\"Refine the LOGO.\"</i></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 120,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 121,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td align=\"center\" colspan=\"3\"><b>Output</b></td>"
+  },
+  {
+    "row": 122,
+    "rowsha": "J+XVge/Ks2Yduehv/8b9K5/rqjtKJyqQn9KtGheVic8=",
+    "originContent": "<td align=\"center\" colspan=\"3\"><b>Output</b></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 123,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 124,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td colspan=\"3\"><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo1_output_zoom.jpg\" width=\"100%\"></td>"
+  },
+  {
+    "row": 125,
+    "rowsha": "niI4GSBL8RoSFZYJmCtvz2O41MoXwv5Ms+IytiQqIt4=",
+    "originContent": "<td colspan=\"3\"><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo1_output_zoom.jpg\" width=\"100%\"></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 126,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 127,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 129,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Demo 2 — Reference-free Text Refinement"
+  },
+  {
+    "row": 131,
+    "rowsha": "tirBqEQUW+YcWcAw1s3GlAdc9A8f4j+pHk9MNMyIzdo=",
+    "originContent": "### Demo 2 — Reference-free Text Refinement",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Refine blurry Chinese text on a building sign — no reference image needed."
+  },
+  {
+    "row": 133,
+    "rowsha": "tOtCP3pyB4N9ehGvAhSaNbeVWWo/ix2KSbIgBMMFPqM=",
+    "originContent": "Refine blurry Chinese text on a building sign — no reference image needed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 136,
+    "rowsha": "APFGvX6lmP9s/z4deJIFrSoq4FkMxnGUXgx1ey+5VsY=",
+    "originContent": "python scripts/fast_inference.py \\",
+    "translatedContent": "python scripts/fast_inference.py \\"
+  },
+  {
+    "row": 137,
+    "rowsha": "NFsYxVMMUQz1eCI6PRgMnGMptK1sN7LF9bYwB9tS9Bg=",
+    "originContent": "    --input  src/input2.png \\",
+    "translatedContent": "    --input  src/input2.png \\"
+  },
+  {
+    "row": 138,
+    "rowsha": "eaGghsZEMuoME01Wgc/2bqpuxzvV7+YU08s2Y+c7HYU=",
+    "originContent": "    --mask   src/mask2.png \\",
+    "translatedContent": "    --mask   src/mask2.png \\"
+  },
+  {
+    "row": 139,
+    "rowsha": "3cjfIDZwmr+cfV1dBwbQyVW6In0rKWOV/z+HAwm3vPA=",
+    "originContent": "    --prompt \"refine the text '鼎好商城'\" \\",
+    "translatedContent": "    --prompt \"refine the text '鼎好商城'\" \\"
+  },
+  {
+    "row": 140,
+    "rowsha": "jheXS+f5L47UhRmd3/OecuG2LZdEO3QaeOAZ/VgV8rk=",
+    "originContent": "    --output output/demo2.png",
+    "translatedContent": "    --output output/demo2.png"
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<table>"
+  },
+  {
+    "row": 143,
+    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+    "originContent": "<table>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 144,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td align=\"center\"><b>Input</b></td>"
+  },
+  {
+    "row": 145,
+    "rowsha": "zDmL7lSO1QMi+8tM9leQa2DohLdShTGcbWCk/H3puOI=",
+    "originContent": "<td align=\"center\"><b>Input</b></td>",
+    "translatedContent": "<td align=\"center\"><b>Prompt</b></td>"
+  },
+  {
+    "row": 146,
+    "rowsha": "wZzVCfXVLyafJePf+L+JUvfPfLlS6276gLRdJNVIfUw=",
+    "originContent": "<td align=\"center\"><b>Prompt</b></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 147,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 148,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo2_input_zoom.jpg\" width=\"100%\"></td>"
+  },
+  {
+    "row": 149,
+    "rowsha": "ajJXoLj4q4xla8D64otu55iI8SWgilMG0rsQMAullwA=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo2_input_zoom.jpg\" width=\"100%\"></td>",
+    "translatedContent": "<td><i>\"refine the text '鼎好商城'\"</i></td>"
+  },
+  {
+    "row": 150,
+    "rowsha": "SmASegBGx45RtsxmkULlWVP6jnbUDyhkjMQyqOP0PtM=",
+    "originContent": "<td><i>\"refine the text '鼎好商城'\"</i></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 151,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 152,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td align=\"center\" colspan=\"2\"><b>Output</b></td>"
+  },
+  {
+    "row": 153,
+    "rowsha": "auo2Tu84D9cYTv5FqYc2QZ0IJiTS0lZHHbjZ32JB/Cg=",
+    "originContent": "<td align=\"center\" colspan=\"2\"><b>Output</b></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 154,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 155,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td colspan=\"2\"><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo2_output_zoom.jpg\" width=\"100%\"></td>"
+  },
+  {
+    "row": 156,
+    "rowsha": "KIjxygT6JVFd9J1JWIQ3G9DsqE5zosVPuCwsJ93YQ0I=",
+    "originContent": "<td colspan=\"2\"><img src=\"https://raw.githubusercontent.com/limuloo/RefineAnything/main/docs/static/demo2_output_zoom.jpg\" width=\"100%\"></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 157,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 158,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 160,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Local Gradio Demo"
+  },
+  {
+    "row": 162,
+    "rowsha": "UwpVmtj7AXoMSDrlnL1QfsiduHqUQu2gaj4LhFsaR8o=",
+    "originContent": "## Local Gradio Demo",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "We also provide a Gradio-based web UI for interactive testing. You can brush regions, upload reference images, and adjust all inference parameters in the browser."
+  },
+  {
+    "row": 164,
+    "rowsha": "1sKG8mwp4NISC+17t/+h/7Ca5aqa0xLvAEa7ZaMcn4I=",
+    "originContent": "We also provide a Gradio-based web UI for interactive testing. You can brush regions, upload reference images, and adjust all inference parameters in the browser.",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 167,
+    "rowsha": "yTP73cr3O39gKLRUBLHoG37pGRVYjUGUDuod1taGRp8=",
+    "originContent": "python app.py",
+    "translatedContent": "python app.py"
+  },
+  {
+    "row": 168,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "TFOHrWslMDenKGe36ne1oiek8LNTtRmcMr7iJfBrCI8=",
+    "originContent": "Then open `http://localhost:7860` in your browser. The app will automatically download the base model (`Qwen/Qwen-Image-Edit-2511`) and the RefineAnything LoRA from Hugging Face on first launch.",
+    "translatedContent": "Then open `http://localhost:7860` in your browser. The app will automatically download the base model (`Qwen/Qwen-Image-Edit-2511`) and the RefineAnything LoRA from Hugging Face on first launch."
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "BiJ61vSbajzldbz4FIJCFowD/Yr1PqQ4d/ZROZxs+CY=",
+    "originContent": "You can specify a custom base model path via the `MODEL_DIR` environment variable:",
+    "translatedContent": "You can specify a custom base model path via the `MODEL_DIR` environment variable:"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 175,
+    "rowsha": "qPqB8SkdITmfNmzadHQgTse60sVd51iGjQfLGLrysEo=",
+    "originContent": "MODEL_DIR=/path/to/local/Qwen-Image-Edit-2511 python app.py",
+    "translatedContent": "MODEL_DIR=/path/to/local/Qwen-Image-Edit-2511 python app.py"
+  },
+  {
+    "row": 176,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "D/TFBPjveucOoqUdIpXORIVFV6LRCLc3DkQyxbj4T/M=",
+    "originContent": "**Features of the Gradio demo:**",
+    "translatedContent": "**Features of the Gradio demo:**"
+  },
+  {
+    "row": 179,
+    "rowsha": "EN6irNL6H4HVCn+BzwYojyTmT8YlBG9Pomp9Tzx0lhE=",
+    "originContent": "- **Brush-to-select**: paint directly on the source image to define the refinement region.",
+    "translatedContent": "- **Brush-to-select**: paint directly on the source image to define the refinement region."
+  },
+  {
+    "row": 180,
+    "rowsha": "EBkG7jqDHvtbVi/RJA01fsqOoFfPJ9+NorIfU26ycDc=",
+    "originContent": "- **Optional reference image**: upload a second image and optionally brush to crop a specific reference area.",
+    "translatedContent": "- **Optional reference image**: upload a second image and optionally brush to crop a specific reference area."
+  },
+  {
+    "row": 181,
+    "rowsha": "IZcjd5857e/X7/6A3M/NXenfgk0BTDlsLg9CfvkYA8I=",
+    "originContent": "- **Focus crop**: automatically crops and zooms into the edit region for higher detail fidelity, then composites back seamlessly.",
+    "translatedContent": "- **Focus crop**: automatically crops and zooms into the edit region for higher detail fidelity, then composites back seamlessly."
+  },
+  {
+    "row": 182,
+    "rowsha": "7krXrlGqTbLD5mYxIRcT5rNFw3wLjC5BTd9sA0tNhv4=",
+    "originContent": "- **Lightning LoRA**: one-click toggle for faster inference with fewer steps.",
+    "translatedContent": "- **Lightning LoRA**: one-click toggle for faster inference with fewer steps."
+  },
+  {
+    "row": 183,
+    "rowsha": "EyMoy2yiVl+ACSTy58zxW8nZrhUAxhNj2TOPcG7Ldnk=",
+    "originContent": "- **Before / After slider**: instantly compare input and output.",
+    "translatedContent": "- **Before / After slider**: instantly compare input and output."
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "AVVtQyh8qlCVnErsT8S2FUGm0muC04wCGptVXc545fo=",
+    "originContent": "If you use this repository, please cite:",
+    "translatedContent": "If you use this repository, please cite:"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 192,
+    "rowsha": "HqcOn154C82ewE6tC10naeiKdLhwvzOc8vz7iXSvQpE=",
+    "originContent": "@article{zhou2026refineanything,",
+    "translatedContent": "@article{zhou2026refineanything,"
+  },
+  {
+    "row": 193,
+    "rowsha": "wfnEku4Perrhuo/6sbwPJqxJb0gvV6zaY8qWwKxmoIA=",
+    "originContent": "  title={RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details},",
+    "translatedContent": "  title={RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details},"
+  },
+  {
+    "row": 194,
+    "rowsha": "HvuQ0sIymOmm0bNzM8yAA7TbZ3wygEcAwjwbu2/4UqM=",
+    "originContent": "  author={Zhou, Dewei and Li, You and Yang, Zongxin and Yang, Yi},",
+    "translatedContent": "  author={Zhou, Dewei and Li, You and Yang, Zongxin and Yang, Yi},"
+  },
+  {
+    "row": 195,
+    "rowsha": "I441AlCiHS4uxakfNQsOmw8P85QCI0WpuEE9uFKYVak=",
+    "originContent": "  journal={arXiv preprint arXiv:2604.06870},",
+    "translatedContent": "  journal={arXiv preprint arXiv:2604.06870},"
+  },
+  {
+    "row": 196,
+    "rowsha": "6ACLjvQauAPI1eqXLRYXeac1BKP8j5U+6MzhyT6NzRE=",
+    "originContent": "  year={2026}",
+    "translatedContent": "  year={2026}"
+  },
+  {
+    "row": 197,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 198,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "hXdgirvEwRWotvwX4GrVtQIepnzS5pXDNgTtJumOUJA=",
+    "originContent": "## Acknowledgements and License",
+    "translatedContent": "## Acknowledgements and License"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "fGf9PCzCsStqcm4qB8a1Ke/lL3gUStWa+e4mNrSeGwQ=",
+    "originContent": "RefineAnything builds on ideas and components from the broader diffusion and multimodal ecosystem (including **Qwen2.5-VL**, **Qwen-Image**, and latent diffusion with **VAE** + **MMDiT**). Base model weights and API terms are subject to their respective licenses—**verify compliance before redistributing checkpoints or derived weights**.",
+    "translatedContent": "RefineAnything builds on ideas and components from the broader diffusion and multimodal ecosystem (including **Qwen2.5-VL**, **Qwen-Image**, and latent diffusion with **VAE** + **MMDiT**). Base model weights and API terms are subject to their respective licenses—**verify compliance before redistributing checkpoints or derived weights**."
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "hNS+mdWsqPKobptXp4ZlrMyaRBjKjjabxktkitcmgIs=",
+    "originContent": "Repository **code license**: *TBD* (e.g., Apache-2.0 or MIT)—set `LICENSE` when you open-source the implementation.",
+    "translatedContent": "Repository **code license**: *TBD* (e.g., Apache-2.0 or MIT)—set `LICENSE` when you open-source the implementation."
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

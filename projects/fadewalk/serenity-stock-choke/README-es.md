@@ -1,8 +1,40 @@
-# Serenity Stock Choke · Marco de selección de acciones A
 
-> "**Rastreando hacia arriba en la cadena industrial, encuentra ese 'nodo crítico que, si se interrumpe el suministro, hará temblar una industria de billones' — esa acción de pequeña capitalización en ese nodo es la próxima oportunidad explosiva.**"
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=fadewalk&project=serenity-stock-choke&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-Esta habilidad se basa en la teoría del cuello de botella en la cadena de suministro del legendario usuario de Reddit **Serenity (@aleabitoreddit)**, adaptándola al mercado A para formar un marco universal de análisis sectorial.
+# Serenity Stock Choke · Marco de Selección de Acciones "Cuello de Botella" en A-shares
+
+> "**Sigue la cadena industrial hacia arriba para encontrar ese 'nodo clave que, si se corta el suministro, provocaría un terremoto en una industria de billones'—esa pequeña acción en ese nodo es la próxima gran oportunidad de impacto.**"
+
+Esta Skill se basa en la teoría de cuellos de botella en la cadena de suministro del legendario usuario de Reddit **Serenity (@aleabitoreddit)**, adaptada al mercado de acciones A, formando un marco universal para el análisis sectorial.
 
 ---
 
@@ -10,11 +42,11 @@ Esta habilidad se basa en la teoría del cuello de botella en la cadena de sumin
 
 ### Analogía del Estrecho de Ormuz
 
-> "El Estrecho de Ormuz es la garganta petrolera global. Si se bloquea, todos se ven afectados. Pero si tienes acciones en el Estrecho de Ormuz, tienes poder de fijación de precios."
+> "El Estrecho de Ormuz es la garganta del petróleo mundial. Si se bloquea, todos se ven afectados. Pero si tienes participación en el Estrecho de Ormuz, tienes poder de fijar precios."
 
-**Traducción al A**: ¿Qué es el "Ormuz" de un gran sector? ¿Qué empresa A lo controla?
+**Traducción a A-shares**: ¿Qué segmento es el 'Ormuz' de una gran industria? ¿Qué empresa de A-shares lo controla?
 
-### Lógica central en tres pasos
+### Lógica central de tres pasos
 
 ```
 ① AI大爆发 / 政策驱动 / 技术跃迁
@@ -120,6 +152,6 @@ serenity-stock-choke/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---

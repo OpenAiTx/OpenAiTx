@@ -1,9 +1,8 @@
 <div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
-<a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Статус сборки"></a>
-<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="звезда"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub звезды"></a>
-<a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="версия"></a>
-<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Спросить DeepWiki"></a>
+<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
+<a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
+<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 </div>
 
@@ -1448,10 +1447,14 @@ using (var csvStream = new MemoryStream())
    MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);
 }
 ```
-#### 3. Пользовательский CultureInfo
 
-Начиная с версии 1.22.0, вы можете настроить CultureInfo, как показано ниже, по умолчанию используется системный `CultureInfo.InvariantCulture`.
+#### 3. Конвертация Excel в PDF
 
+Если вам нужно конвертировать файлы Excel в PDF, вы можете использовать [MiniPdf](https://github.com/mini-software/MiniPdf).
+
+#### 4. Пользовательский CultureInfo
+
+Начиная с версии 1.22.0, вы можете настраивать CultureInfo как показано ниже, по умолчанию используется системный `CultureInfo.InvariantCulture`.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1463,28 +1466,28 @@ MiniExcel.SaveAs(path, value, configuration: config);
 // or
 MiniExcel.Query(path, configuration: config);
 ```
-#### 4. Пользовательский размер буфера
 
 
+#### 5. Пользовательский размер буфера
 ```csharp
     public abstract class Configuration : IConfiguration
     {
         public int BufferSize { get; set; } = 1024 * 512;
     }
 ```
-#### 5. Быстрый режим
 
-Система не будет управлять памятью, но вы сможете получить более высокую скорость сохранения.
+#### 6. Быстрый режим
 
+Система не будет контролировать память, но вы сможете получить более высокую скорость сохранения.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
-#### 6. Пакетное добавление изображения (MiniExcel.AddPicture)
 
-Пожалуйста, добавляйте изображения до пакетной генерации данных строк, иначе при вызове AddPicture система будет использовать много памяти.
+#### 7. Пакетное добавление изображения (MiniExcel.AddPicture)
 
+Пожалуйста, добавляйте изображения до пакетной генерации строк данных, иначе при вызове AddPicture система будет использовать много памяти.
 
 ```csharp
 var images = new[]
@@ -1507,9 +1510,9 @@ var images = new[]
 };
 MiniExcel.AddPicture(path, images);
 ```
-![Изображение](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
+![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Получить размеры листов
+#### 8. Get Sheets Dimension
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -2044,6 +2047,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-29
 
 ---
