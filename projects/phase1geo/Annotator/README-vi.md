@@ -78,16 +78,16 @@ Bạn sẽ cần các phụ thuộc sau để biên dịch Annotator:
 
 Để cài đặt Annotator từ mã nguồn, hãy chạy `./app install`.
 
-Để chạy Annotator, hãy chạy `com.github.phase1geo.annotator`.
+Để chạy Annotator, hãy chạy `io.github.phase1geo.annotator`.
 
 ### Ubuntu (PPA)
 
-Bạn có thể sử dụng [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) được duy trì bởi @PandaJim. PPA hỗ trợ Ubuntu 20.04+. Nhập lần lượt các lệnh sau
+Bạn có thể sử dụng [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) được duy trì bởi @PandaJim. PPA hỗ trợ Ubuntu 20.04+. Nhập các lệnh sau từng lệnh một
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### Arch Linux
@@ -125,6 +125,6 @@ theo điều khoản của giấy phép GPL v3.0.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

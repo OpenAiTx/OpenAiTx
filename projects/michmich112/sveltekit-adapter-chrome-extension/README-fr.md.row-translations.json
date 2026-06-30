@@ -1,0 +1,350 @@
+[
+  {
+    "row": 1,
+    "rowsha": "5TU/F/iNf/mLKWzDxZPU5zdwpTI+BGmY0PO/fCbGcio=",
+    "originContent": "# sveltekit-adapter-chrome-extension",
+    "translatedContent": "# sveltekit-adapter-chrome-extension"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qUe60YTZmLx7oDgTsXEbG9XomfqW9OdAwg7L+9bR4bU=",
+    "originContent": "[Adapter](https://kit.svelte.dev/docs#adapters) for SvelteKit apps that prerenders your site as a collection of static files and removes inline scripts to comply with content source policies of Chrome extensions using manifest v3.",
+    "translatedContent": "[Adaptateur](https://kit.svelte.dev/docs#adapters) pour les applications SvelteKit qui pré-rendent votre site sous forme d’une collection de fichiers statiques et supprime les scripts en ligne pour se conformer aux politiques de contenu des extensions Chrome utilisant le manifeste v3."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "n701Lpu019hmLEQMBCqzdXHDRHG1O+6ya3wq1gHJF7g=",
+    "originContent": "> Based on [@sveltekit/adapter-static](https://github.com/sveltejs/kit/blob/master/packages/adapter-static). Credit goes to [these people](https://github.com/sveltejs/kit/graphs/contributors) for their hard work to make Svelte so great",
+    "translatedContent": "> Basé sur [@sveltekit/adapter-static](https://github.com/sveltejs/kit/blob/master/packages/adapter-static). Le mérite revient à [ces personnes](https://github.com/sveltejs/kit/graphs/contributors) pour leur travail acharné qui rend Svelte si exceptionnel"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "WsTnH+4aPQo3LoRGj5WGBxU1T90JdizUu3OxML4X+BE=",
+    "originContent": "> 🚧 If you are using SvelteKit v1.0.0+, make sure to set your `prerender=true` for every page reference by your extension so SvelteKit generates the HTML files. (c.f. Issue #27)",
+    "translatedContent": "> 🚧 Si vous utilisez SvelteKit v1.0.0+, assurez-vous de définir `prerender=true` pour chaque page référencée par votre extension afin que SvelteKit génère les fichiers HTML. (voir Issue #27)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "eIeGAB4tZ+RhDi2pc2J/G8FA0K7x/VczgAD07XKM7ro=",
+    "originContent": "Install with `npm i -D sveltekit-adapter-chrome-extension`, then add the adapter to your `svelte.config.js`:",
+    "translatedContent": "Installez avec `npm i -D sveltekit-adapter-chrome-extension`, puis ajoutez l’adaptateur à votre `svelte.config.js` :"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 14,
+    "rowsha": "LZF7Sd65i19spA1f/ffEqG72Fm0WtXtPTq7EVjn6Nl8=",
+    "originContent": "// svelte.config.js",
+    "translatedContent": "// svelte.config.js"
+  },
+  {
+    "row": 15,
+    "rowsha": "d587ePD8wneoVpLh0OSK9l9ExA2ZVfueKM43rPqDh0k=",
+    "originContent": "import adapter from \"sveltekit-adapter-chrome-extension\";",
+    "translatedContent": "import adapter from \"sveltekit-adapter-chrome-extension\";"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
+    "originContent": "export default {",
+    "translatedContent": "export default {"
+  },
+  {
+    "row": 18,
+    "rowsha": "Lrh+l9vOUVTgeRuOPQtDzf4CyMQX/PypdIJY94yP63A=",
+    "originContent": "  kit: {",
+    "translatedContent": "  kit: {"
+  },
+  {
+    "row": 19,
+    "rowsha": "gG5h1ei+5BK8OqC0gEo5qS5PJr1Soh5qNxs1ZsH1J5g=",
+    "originContent": "    adapter: adapter({",
+    "translatedContent": "    adapter: adapter({"
+  },
+  {
+    "row": 20,
+    "rowsha": "UpnrQii6wT0Oo4fVxnvfZOhcnb6k5t7t6Sy7yEveMp0=",
+    "originContent": "      // default options are shown",
+    "translatedContent": "      // default options are shown"
+  },
+  {
+    "row": 21,
+    "rowsha": "E6gHmzqFcW75ATlSdVcCqAwI3YEOhe0NEig5sDR8e14=",
+    "originContent": "      pages: \"build\",",
+    "translatedContent": "      pages: \"build\","
+  },
+  {
+    "row": 22,
+    "rowsha": "O1kskkJnPKoNKBStK8rNTypZvkyFHLB+TJduc55el6I=",
+    "originContent": "      assets: \"build\",",
+    "translatedContent": "      assets: \"build\","
+  },
+  {
+    "row": 23,
+    "rowsha": "wFIT8sFsJuXE9GbNhlDLgQL+b3IGljz6pNDEVqqpEX4=",
+    "originContent": "      fallback: null,",
+    "translatedContent": "      fallback: null,"
+  },
+  {
+    "row": 24,
+    "rowsha": "1qubZpO7uwMZkk5WZUsYO+6k9sjOa/5fHtcYPDD4ITE=",
+    "originContent": "      precompress: false,",
+    "translatedContent": "      precompress: false,"
+  },
+  {
+    "row": 25,
+    "rowsha": "XOpMHDOBebaPcpXgOyLvp/DnM0vufme/pwWWwyCKwVQ=",
+    "originContent": "      manifest: \"manifest.json\",",
+    "translatedContent": "      manifest: \"manifest.json\","
+  },
+  {
+    "row": 26,
+    "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+    "originContent": "    }),",
+    "translatedContent": "    }),"
+  },
+  {
+    "row": 27,
+    "rowsha": "SWapuFspLDM6d+evs7fN3swOa0Zhq3dyf5Bpyg7fWcU=",
+    "originContent": "    appDir: \"app\",",
+    "translatedContent": "    appDir: \"app\","
+  },
+  {
+    "row": 28,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 29,
+    "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+    "originContent": "};",
+    "translatedContent": "};"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Options"
+  },
+  {
+    "row": 32,
+    "rowsha": "061veB7IsP6MLX2VaAsyznYrdLIx3av88lknlRwMrww=",
+    "originContent": "## Options",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### pages"
+  },
+  {
+    "row": 34,
+    "rowsha": "k8KUALzXZYrNdwJvZIi+98KHgi3FusZa5LNPloIbIl8=",
+    "originContent": "### pages",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Le répertoire dans lequel écrire les pages pré-rendues. Par défaut, c’est `build`."
+  },
+  {
+    "row": 36,
+    "rowsha": "a+GTQBv5QTA88Qw9vjo0h6it/Wrx5kw04KWdpstxl0k=",
+    "originContent": "The directory to write prerendered pages to. It defaults to `build`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### assets"
+  },
+  {
+    "row": 38,
+    "rowsha": "V5EVeSC0jb20WQQHblY6Xh+I7s5662Z7VZXt1+8bufo=",
+    "originContent": "### assets",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Le répertoire dans lequel écrire les ressources statiques (le contenu de `static`, plus le JS et CSS côté client générés par SvelteKit). Normalement, il doit être le même que `pages`, et il prendra par défaut la valeur de `pages`, mais dans de rares cas, vous pourriez avoir besoin de sortir les pages et les ressources dans des emplacements séparés."
+  },
+  {
+    "row": 40,
+    "rowsha": "uqqwRyKdgD0Vya7HRkCbepXySzsEa62TeBZS4F/f1Eo=",
+    "originContent": "The directory to write static assets (the contents of `static`, plus client-side JS and CSS generated by SvelteKit) to. Ordinarily this should be the same as `pages`, and it will default to whatever the value of `pages` is, but in rare circumstances you might need to output pages and assets to separate locations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### fallback"
+  },
+  {
+    "row": 42,
+    "rowsha": "WEFc+ItFoHBA48YbmCPEOd2kjnq8dQBErXENjZ0mN6I=",
+    "originContent": "### fallback",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Spécifiez une page de secours pour le mode SPA, par exemple `index.html` ou `200.html` ou `404.html`."
+  },
+  {
+    "row": 44,
+    "rowsha": "qT2GxSu9t71kiO1KFphiUg1BGUmnyJTIIiCh3F+raHM=",
+    "originContent": "Specify a fallback page for SPA mode, e.g. `index.html` or `200.html` or `404.html`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### precompress"
+  },
+  {
+    "row": 46,
+    "rowsha": "Ps44qpJ341rqTjP+pRhVNPISQks68ljiSk1QRhaHbYw=",
+    "originContent": "### precompress",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si `true`, compresse à l’avance les fichiers avec brotli et gzip. Cela générera des fichiers `.br` et `.gz`."
+  },
+  {
+    "row": 48,
+    "rowsha": "xZYtIMz8mslSHt9dfc+qylsCKcWD5omIEIvf2szWSV0=",
+    "originContent": "If `true`, precompresses files with brotli and gzip. This will generate `.br` and `.gz` files.",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### manifest"
+  },
+  {
+    "row": 50,
+    "rowsha": "aNS9+y4FmJPnf1/DFmwL7xMd0/JGUp74bk4655Zkbyg=",
+    "originContent": "### manifest",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Spécifiez le nom du fichier manifeste si vous voulez différents manifestes pour différentes plateformes cibles, par exemple `chrome_manifest.json`, `firefox_manifest.json`.  "
+  },
+  {
+    "row": 52,
+    "rowsha": "6nn0eq2bFjU+EcuHCtIWlwHEHZiUOIWk1En2Iri+y7o=",
+    "originContent": "Specify manifest file name if you want different manifests for different target platforms, e.g. `chrome_manifest.json`, `firefox_manifest.json`.",
+    "translatedContent": "Ce nom de fichier doit correspondre à un fichier présent dans le répertoire `static` (le dossier contenant vos fichiers statiques). Le fichier cible sélectionné sera renommé en `manifest.json` dans le répertoire de build, et tous les autres fichiers `.json` contenant `manifest` dans le nom ne seront pas copiés."
+  },
+  {
+    "row": 53,
+    "rowsha": "j/KHAzHBVLRFJ6TGeLWKgd2XbyHonuHR2ciUo/V+0fk=",
+    "originContent": "This file name must match one that is present in the `static` directory (the dir containing your static files). The selected target file will be renamed to `manifest.json` in the build directory, and all other `.json` files with `manifest` in the name won't be copied.",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 55,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[MIT](LICENSE)"
+  },
+  {
+    "row": 57,
+    "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+    "originContent": "[MIT](LICENSE)",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

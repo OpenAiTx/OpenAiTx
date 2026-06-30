@@ -78,16 +78,16 @@
 
 لتثبيت Annotator من المصدر، شغل الأمر `./app install`.
 
-لتشغيل Annotator، شغّل `com.github.phase1geo.annotator`.
+لتشغيل Annotator، قم بتشغيل `io.github.phase1geo.annotator`.
 
 ### أوبونتو (PPA)
 
-يمكنك استخدام [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) الذي يديره @PandaJim. يدعم الـ PPA أوبونتو 20.04+. أدخل الأوامر التالية واحداً تلو الآخر
+يمكنك استخدام [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) الذي يديره @PandaJim. يدعم هذا الـ PPA أوبونتو 20.04+. أدخل الأوامر التالية واحدًا تلو الآخر
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### آرتش لينكس
@@ -125,6 +125,6 @@ sudo apt install com.github.phase1geo.annotator
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

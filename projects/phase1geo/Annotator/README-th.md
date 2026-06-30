@@ -78,16 +78,16 @@
 
 เพื่อทำการติดตั้ง Annotator จากซอร์ส ให้เรียกใช้ `./app install`
 
-เพื่อเรียกใช้ Annotator ให้รัน `com.github.phase1geo.annotator`
+ในการใช้งาน Annotator ให้รัน `io.github.phase1geo.annotator`
 
 ### Ubuntu (PPA)
 
-คุณสามารถใช้ [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) ที่ดูแลโดย @PandaJim ได้ PPA นี้รองรับ Ubuntu 20.04+ ให้ป้อนคำสั่งต่อไปนี้ทีละคำสั่ง
+คุณสามารถใช้ [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) ที่ดูแลโดย @PandaJim ได้ PPA รองรับ Ubuntu 20.04+ ให้ใส่คำสั่งต่อไปนี้ทีละคำสั่ง
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### Arch Linux
@@ -125,6 +125,6 @@ sudo apt install com.github.phase1geo.annotator
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

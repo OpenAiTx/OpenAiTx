@@ -78,16 +78,16 @@ Annotator'ı derlemek için aşağıdaki bağımlılıklara ihtiyacınız olacak
 
 Annotator'ı kaynak koddan kurmak için `./app install` komutunu çalıştırın.
 
-Annotator'ı çalıştırmak için `com.github.phase1geo.annotator` komutunu çalıştırın.
+Annotator'ı çalıştırmak için `io.github.phase1geo.annotator` komutunu çalıştırın.
 
 ### Ubuntu (PPA)
 
-@PandaJim tarafından bakımı yapılan [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) kullanabilirsiniz. PPA, Ubuntu 20.04+ sürümlerini destekler. Aşağıdaki komutları sırayla girin
+@PandaJim tarafından yönetilen [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) kullanabilirsiniz. PPA, Ubuntu 20.04+ sürümlerini destekler. Aşağıdaki komutları tek tek girin
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### Arch Linux
@@ -125,6 +125,6 @@ GPL v3.0 lisansı şartları altında içermektedir.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

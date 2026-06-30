@@ -1,0 +1,1854 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/cover.jpg\" alt=\"claudex — one terminal, six providers, bring your own key\" width=\"100%\">\n</p>\n\n# claudex\n\n> **Claude Code'u tek terminalden çoklu hesap + çoklu sağlayıcı (Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter…) ile kullan. Kendi key'lerini getir.**\n\n`claudex`, [Claude Code](https://www.anthropic.com/claude-code)'un kendi `ANTHROPIC_BASE_URL` / `CLAUDE_CONFIG_DIR` env override mekanikleri üzerine kurulu — **proxy yok, router yok**. Tek komutla yeni bir `claudeX` alias'ı eklersin: kendi API key'ini girersin, sağlayıcıyı + modeli seçersin, hazır.\n\n[English version below ↓](#english)\n\n---\n\n## 🇹🇷 Türkçe\n\n### Neden?\n\n- DeepSeek / Z.ai / MiniMax gibi **çok daha ucuz veya ücretsiz** Anthropic-uyumlu sağlayıcıları Claude Code üzerinden kullanmak\n- Birden fazla **ayrı-faturalı** API hesabını (örn. kişisel + şirket) tek terminalde, izole `CLAUDE_CONFIG_DIR`'larla yönetmek\n- Her şey Claude Code'un kendi UI/skill/MCP/agent dünyasında, sadece arkadaki model + key değişiyor\n\n> ⚠️ **Bu araç bir Anthropic Pro/Max aboneliğini birden fazla kullanıcıya yaymak veya hesap-başı rate-limit'i dolanmak için DEĞİLDİR.** Anthropic [Tüketici Koşulları](https://www.anthropic.com/legal/consumer-terms) ve [Kullanım Politikası](https://www.anthropic.com/legal/aup) bunu yasaklar. `claudex` yalnızca **ayrı yetkilendirilmiş** sağlayıcı hesaplarını / API key'lerini birbirinden bağımsız profil olarak yönetir.\n\n### Önkoşullar\n\n| Gereken | Nasıl yüklerim |\n|---|---|\n| Node.js 20+ | https://nodejs.org/ |\n| Claude Code | `npm install -g @anthropic-ai/claude-code` |\n| zsh veya bash | macOS / Linux'ta default |\n\n### Kurulum (30 saniye)\n",
+    "ContentSha": "XG9pBONiepM3WJqFfR5bXJMMd8gElGUbAD7Ac9J3d3w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/cover.jpg\" alt=\"claudex — un terminal, seis proveedores, trae tu propia clave\" width=\"100%\">\n</p>\n\n# claudex\n\n> **Usa Claude Code desde un solo terminal con múltiples cuentas + múltiples proveedores (Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter…) Trae tus propias claves.**\n\n`claudex` está construido sobre los propios mecanismos de anulación de env `ANTHROPIC_BASE_URL` / `CLAUDE_CONFIG_DIR` de [Claude Code](https://www.anthropic.com/claude-code) — **sin proxy, sin router**. Con un solo comando agregas un nuevo alias `claudeX`: ingresas tu clave API, eliges proveedor + modelo, listo.\n\n[Versión en inglés abajo ↓](#english)\n\n---\n\n## 🇹🇷 Turco\n\n### ¿Por qué?\n\n- Usar proveedores compatibles con Anthropic como DeepSeek / Z.ai / MiniMax que son **mucho más baratos o gratuitos** a través de Claude Code\n- Gestionar múltiples cuentas API con **facturación separada** (ej. personal + empresa) en un solo terminal con `CLAUDE_CONFIG_DIR` aislados\n- Todo dentro del propio mundo UI/skill/MCP/agent de Claude Code, solo cambia el modelo + la clave en el backend\n\n> ⚠️ **Esta herramienta NO está diseñada para compartir una suscripción Anthropic Pro/Max entre múltiples usuarios ni para evadir límites de tasa por cuenta.** Anthropic prohíbe esto en sus [Términos de consumidor](https://www.anthropic.com/legal/consumer-terms) y [Política de uso](https://www.anthropic.com/legal/aup). `claudex` solo gestiona **cuentas de proveedores autorizadas por separado** / claves API como perfiles independientes.\n\n### Requisitos previos\n\n| Requerido | Cómo instalar |\n|---|---|\n| Node.js 20+ | https://nodejs.org/ |\n| Claude Code | `npm install -g @anthropic-ai/claude-code` |\n| zsh o bash | Por defecto en macOS / Linux |\n\n### Instalación (30 segundos)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "6lwTq48skyVSZGw55pfUGKWTFn8viIUC40G2F1p5NTk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/cover.jpg\" alt=\"claudex — one terminal, six providers, bring your own key\" width=\"100%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/cover.jpg\" alt=\"claudex — un terminal, seis proveedores, trae tu propia clave\" width=\"100%\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "odd/A8DF6931lhisR7Q5XU6VLz7OiR1QD2flEqN4Cqk=",
+        "originContent": "# claudex",
+        "translatedContent": "# claudex"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "YRgn5HIHaCPmMWbhXfTC/MbKTN0fVvOzqeTELbnsciY=",
+        "originContent": "> **Claude Code'u tek terminalden çoklu hesap + çoklu sağlayıcı (Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter…) ile kullan. Kendi key'lerini getir.**",
+        "translatedContent": "> **Usa Claude Code desde un solo terminal con múltiples cuentas + múltiples proveedores (Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter…) Trae tus propias claves.**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "KK4t91us9nq11PJM8pjbt6xFXqqU5mFGS8w1ugK1qWI=",
+        "originContent": "`claudex`, [Claude Code](https://www.anthropic.com/claude-code)'un kendi `ANTHROPIC_BASE_URL` / `CLAUDE_CONFIG_DIR` env override mekanikleri üzerine kurulu — **proxy yok, router yok**. Tek komutla yeni bir `claudeX` alias'ı eklersin: kendi API key'ini girersin, sağlayıcıyı + modeli seçersin, hazır.",
+        "translatedContent": "`claudex` está construido sobre los propios mecanismos de anulación de env `ANTHROPIC_BASE_URL` / `CLAUDE_CONFIG_DIR` de [Claude Code](https://www.anthropic.com/claude-code) — **sin proxy, sin router**. Con un solo comando agregas un nuevo alias `claudeX`: ingresas tu clave API, eliges proveedor + modelo, listo."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "5fvt6WZFvLAJ8v5VrgYiUWlZZpprVNqynJIrLxvA/yI=",
+        "originContent": "[English version below ↓](#english)",
+        "translatedContent": "[Versión en inglés abajo ↓](#english)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "SboV9VkkZQcSjgfw7CoJDasFts3326P4Q7isWMX5lYE=",
+        "originContent": "## 🇹🇷 Türkçe",
+        "translatedContent": "## 🇹🇷 Turco"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "5l59hrAQBoqdT5IopXPnhet8jp8PoiaOSYL+h74WXFw=",
+        "originContent": "### Neden?",
+        "translatedContent": "### ¿Por qué?"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "dZQiPGVFcwIB/xKsrpUO9oFr3g4xjjL+OnaC1edDuwA=",
+        "originContent": "- DeepSeek / Z.ai / MiniMax gibi **çok daha ucuz veya ücretsiz** Anthropic-uyumlu sağlayıcıları Claude Code üzerinden kullanmak",
+        "translatedContent": "- Usar proveedores compatibles con Anthropic como DeepSeek / Z.ai / MiniMax que son **mucho más baratos o gratuitos** a través de Claude Code"
+      },
+      {
+        "row": 20,
+        "rowsha": "hPgnFBc77PaB4iCNmZE2f2/jEdXH4Tei48+hPxYk1OA=",
+        "originContent": "- Birden fazla **ayrı-faturalı** API hesabını (örn. kişisel + şirket) tek terminalde, izole `CLAUDE_CONFIG_DIR`'larla yönetmek",
+        "translatedContent": "- Gestionar múltiples cuentas API con **facturación separada** (ej. personal + empresa) en un solo terminal con `CLAUDE_CONFIG_DIR` aislados"
+      },
+      {
+        "row": 21,
+        "rowsha": "/0w7Gwd78mf3I9MO6iparD/1mVozzFbPF1H3ls6c5vI=",
+        "originContent": "- Her şey Claude Code'un kendi UI/skill/MCP/agent dünyasında, sadece arkadaki model + key değişiyor",
+        "translatedContent": "- Todo dentro del propio mundo UI/skill/MCP/agent de Claude Code, solo cambia el modelo + la clave en el backend"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "n8JvOwIMnmmvBbMHjTRG9tRuk8UokGPCEHZ5Qe21+Co=",
+        "originContent": "> ⚠️ **Bu araç bir Anthropic Pro/Max aboneliğini birden fazla kullanıcıya yaymak veya hesap-başı rate-limit'i dolanmak için DEĞİLDİR.** Anthropic [Tüketici Koşulları](https://www.anthropic.com/legal/consumer-terms) ve [Kullanım Politikası](https://www.anthropic.com/legal/aup) bunu yasaklar. `claudex` yalnızca **ayrı yetkilendirilmiş** sağlayıcı hesaplarını / API key'lerini birbirinden bağımsız profil olarak yönetir.",
+        "translatedContent": "> ⚠️ **Esta herramienta NO está diseñada para compartir una suscripción Anthropic Pro/Max entre múltiples usuarios ni para evadir límites de tasa por cuenta.** Anthropic prohíbe esto en sus [Términos de consumidor](https://www.anthropic.com/legal/consumer-terms) y [Política de uso](https://www.anthropic.com/legal/aup). `claudex` solo gestiona **cuentas de proveedores autorizadas por separado** / claves API como perfiles independientes."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "AB5tG7xjt7OcXNeq8SxepOQGPUay/E+Rh/Z1qR4vysE=",
+        "originContent": "### Önkoşullar",
+        "translatedContent": "### Requisitos previos"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "46/KYy+DlWh6l4frkg6hWD/reE1pnrS5PUKRTgaiIdo=",
+        "originContent": "| Gereken | Nasıl yüklerim |",
+        "translatedContent": "| Requerido | Cómo instalar |"
+      },
+      {
+        "row": 28,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 29,
+        "rowsha": "k4eOCCzTOhTD3VzsDFlsGBPoJysw1jz5AbAqu48m8G8=",
+        "originContent": "| Node.js 20+ | https://nodejs.org/ |",
+        "translatedContent": "| Node.js 20+ | https://nodejs.org/ |"
+      },
+      {
+        "row": 30,
+        "rowsha": "H3jdwqv9XBY+BleCRU450aMwiptiWy4+WcqrbVyrl9k=",
+        "originContent": "| Claude Code | `npm install -g @anthropic-ai/claude-code` |",
+        "translatedContent": "| Claude Code | `npm install -g @anthropic-ai/claude-code` |"
+      },
+      {
+        "row": 31,
+        "rowsha": "lSwrbeyiGQb23RM1Cmuf6t+spmcoUAAi0IpYY2M+zL4=",
+        "originContent": "| zsh veya bash | macOS / Linux'ta default |",
+        "translatedContent": "| zsh o bash | Por defecto en macOS / Linux |"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "HmsqZQZBUk56147sDqcgP7ZX1rwWiuTFKAvx5KF8ZuU=",
+        "originContent": "### Kurulum (30 saniye)",
+        "translatedContent": "### Instalación (30 segundos)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/sasdsamatt123/claudex.git\ncd claudex\nnpm install && npm run build && npm link\nclaudex init\n```",
+    "ContentSha": "HKQMciibn7Nv5oPFr76ywrpE/Ezw5PhaE/8MtAWaS6c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/sasdsamatt123/claudex.git\ncd claudex\nnpm install && npm run build && npm link\nclaudex init\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yEkhGPyq7Yu8ObqRW1nq8pL4RR5NF9F05diVgpqBwPs=",
+        "originContent": "git clone https://github.com/sasdsamatt123/claudex.git",
+        "translatedContent": "git clone https://github.com/sasdsamatt123/claudex.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "bWvNQNS3dK0GNz80BFUbc+7BnrDDhwRKqzeC1aeAoEE=",
+        "originContent": "cd claudex",
+        "translatedContent": "cd claudex"
+      },
+      {
+        "row": 4,
+        "rowsha": "e6mcqKvQFzFxoDIom0VES6H18iy720fl2pi+ysCsCqw=",
+        "originContent": "npm install && npm run build && npm link",
+        "translatedContent": "npm install && npm run build && npm link"
+      },
+      {
+        "row": 5,
+        "rowsha": "hNY/jws7AqAcb84Au7ujgEOQ4BvU6Co8ScBQ95u4Az8=",
+        "originContent": "claudex init",
+        "translatedContent": "claudex init"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n> ℹ️ `npm install -g claudex` yayını yakında. Şimdilik `git clone`.\n\n### İlk profil (kılavuzlu)\n",
+    "ContentSha": "kEteWJN9a6zgutW8IurzcQTucNN0GfQ5f3Dr1HxDgLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> ℹ️ `npm install -g claudex` lanzamiento pronto. Por ahora `git clone`.\n\n### Primer perfil (guiado)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aoAUV84jgVRU6c2zGjWkI/4kgQ7Qj7PSV4zm7I8zOpE=",
+        "originContent": "> ℹ️ `npm install -g claudex` yayını yakında. Şimdilik `git clone`.",
+        "translatedContent": "> ℹ️ `npm install -g claudex` lanzamiento pronto. Por ahora `git clone`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XFTBU1U3tMw9l8hWOnp64q8ARYKDXChsQMNYF212xb4=",
+        "originContent": "### İlk profil (kılavuzlu)",
+        "translatedContent": "### Primer perfil (guiado)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nclaudex quickstart\n```",
+    "ContentSha": "hDhfvl06sFu6V5x0LjkEJyUqyswnvdxOPES/qDVhPSc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex quickstart\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "z5Xh+KNodQ+zhKFPiHs7tHRANWN4PWZfoLcpHsJk6XY=",
+        "originContent": "claudex quickstart",
+        "translatedContent": "claudex quickstart"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nZ.ai → MiniMax → OpenRouter sırasıyla ilerler. Her birinde:\n- Key URL'sini gösterir (kayıt → API key oluştur)\n- Key'i yapıştırırsın (gizli)\n- \"Atlamak istiyorum\" → enter → atlanır\nBittiğinde `source ~/.zshrc` → `claude-zai` (veya `claude-minimax`, `claude-or`) yazınca Claude Code başlar.\n\n### Hangi modeli seçeyim?\n",
+    "ContentSha": "6V/lSxoJIpF1B1hLdDN3zxkPBQAjP03sFwg0GrVjKpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nZ.ai → MiniMax → OpenRouter avanzan en ese orden. En cada uno:\n- Muestra la URL de la clave (registro → crear clave API)\n- Pegas la clave (secreta)\n- \"Quiero saltar\" → enter → se omite\nAl terminar `source ~/.zshrc` → al escribir `claude-zai` (o `claude-minimax`, `claude-or`) comienza Claude Code.\n\n### ¿Qué modelo debo elegir?\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ic7IuoI2U/6bG4vsiYmPFtYKm+LEPEMgU4ePVjftKNs=",
+        "originContent": "Z.ai → MiniMax → OpenRouter sırasıyla ilerler. Her birinde:",
+        "translatedContent": "Z.ai → MiniMax → OpenRouter avanzan en ese orden. En cada uno:"
+      },
+      {
+        "row": 3,
+        "rowsha": "H87DGdnUKKUy1hDbcMI33XkXSQgks13VA4yeu5EdMzU=",
+        "originContent": "- Key URL'sini gösterir (kayıt → API key oluştur)",
+        "translatedContent": "- Muestra la URL de la clave (registro → crear clave API)"
+      },
+      {
+        "row": 4,
+        "rowsha": "IKC6Gp+sxkoibS6FYq8gNSR1CP3hsQ9uEwXJcgJLZlQ=",
+        "originContent": "- Key'i yapıştırırsın (gizli)",
+        "translatedContent": "- Pegas la clave (secreta)"
+      },
+      {
+        "row": 5,
+        "rowsha": "pU8MzF2Tad08tY7luiu+Q1ZQNDJQ3p6b7K9i4B93oC0=",
+        "originContent": "- \"Atlamak istiyorum\" → enter → atlanır",
+        "translatedContent": "- \"Quiero saltar\" → enter → se omite"
+      },
+      {
+        "row": 6,
+        "rowsha": "oR7whculHf/gHISm0GnQliUJ6EOLlkzOSLHW5vIPLQY=",
+        "originContent": "Bittiğinde `source ~/.zshrc` → `claude-zai` (veya `claude-minimax`, `claude-or`) yazınca Claude Code başlar.",
+        "translatedContent": "Al terminar `source ~/.zshrc` → al escribir `claude-zai` (o `claude-minimax`, `claude-or`) comienza Claude Code."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "32MxNUZS/afwXSrXZJPkOURbf1tF8a4AShUG2qXmcpA=",
+        "originContent": "### Hangi modeli seçeyim?",
+        "translatedContent": "### ¿Qué modelo debo elegir?"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nclaudex recommend\n```",
+    "ContentSha": "SV6Eq9FnQePkcyu6PU0gSvj2Tve/aDdOV9KB3yL5U3E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex recommend\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "g8p2QGrlmbqwYHjsk4+QPkYEhnhDHNDUPnTaQT+iBT4=",
+        "originContent": "claudex recommend",
+        "translatedContent": "claudex recommend"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nİnteraktif: \"Ne yapmak istiyorsun?\" → 8 use-case (hızlı kod / refactor / uzun context / vision / …). Top-3 öneriyi rationale'la birlikte gösterir, kuracağın komutu yazdırır.\n\nVeya non-interactive:",
+    "ContentSha": "vw52pTo9EKtbECruL41BUGS3J9nHmkaTanLVC01VtK4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Interactivo: \"¿Qué quieres hacer?\" → 8 casos de uso (código rápido / refactorización / contexto largo / visión / …). Muestra las 3 mejores sugerencias con su justificación, y escribe el comando que vas a ejecutar.\n\nO no interactivo:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Interactivo: \"¿Qué quieres hacer?\" → 8 casos de uso (código rápido / refactorización / contexto largo / visión / …). Muestra las 3 mejores sugerencias con su justificación, y escribe el comando que vas a ejecutar."
+      },
+      {
+        "row": 2,
+        "rowsha": "nmiBQtn3KWD15Z0r9s+Dy9qsKa1op0birVNQWdHyDk8=",
+        "originContent": "İnteraktif: \"Ne yapmak istiyorsun?\" → 8 use-case (hızlı kod / refactor / uzun context / vision / …). Top-3 öneriyi rationale'la birlikte gösterir, kuracağın komutu yazdırır.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "O no interactivo:"
+      },
+      {
+        "row": 4,
+        "rowsha": "ryC27qFpGcss9vGpXo6Pnuv/B6tEl3e0El4W4O2aPQc=",
+        "originContent": "Veya non-interactive:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nclaudex recommend coding-fast --json\n```",
+    "ContentSha": "inRfIfY38XlcoOcwBjLEwUuoF09NPs/SaQv7wXnB7Q4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex recommend coding-fast --json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vUOQWVwUWXPOBoWcmAWX97OiyAWU/A6peLbL+FjNs3U=",
+        "originContent": "claudex recommend coding-fast --json",
+        "translatedContent": "claudex recommend coding-fast --json"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Karar ağacı\n",
+    "ContentSha": "WtOJzTejP2L+J8Her+j4ATCL/ISZmFG+uHpMk4983EI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Árbol de decisión\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "boBcNQHLdC7eJefq096IcvTmEmpY2LopAG0z7oqBnmI=",
+        "originContent": "### Karar ağacı",
+        "translatedContent": "### Árbol de decisión"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nÜcretsiz?\n├── Süresiz ücretsiz model → claudex add <name> --provider zai\n├── 32 ücretsiz modelin biri → claudex add <name> --provider openrouter\n└── Trial (Kasım 7 2026'a kadar) → claudex add <name> --provider minimax\n\nUcuz ödemeli?\n└── DeepSeek (~10x Sonnet'ten ucuz) → claudex add <name> --provider deepseek\n\nBirden fazla ayrı-faturalı Anthropic API hesabı (kişisel/şirket/proje izolasyonu)?\n└── claudex add <name> --provider anthropic --no-share\n```",
+    "ContentSha": "KvlRHi5IqO322wfyupjh9QDxYIcsMR0vRb6U9NZi5mw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nÜcretsiz?\n├── Süresiz ücretsiz model → claudex add <name> --provider zai\n├── 32 ücretsiz modelin biri → claudex add <name> --provider openrouter\n└── Trial (Kasım 7 2026'a kadar) → claudex add <name> --provider minimax\n\nUcuz ödemeli?\n└── DeepSeek (~10x Sonnet'ten ucuz) → claudex add <name> --provider deepseek\n\nBirden fazla ayrı-faturalı Anthropic API hesabı (kişisel/şirket/proje izolasyonu)?\n└── claudex add <name> --provider anthropic --no-share\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "P7Z8pLYIOBkhZINsKRcZtkFBagfcV60vY3s0wS/onHo=",
+        "originContent": "Ücretsiz?",
+        "translatedContent": "Ücretsiz?"
+      },
+      {
+        "row": 3,
+        "rowsha": "aMmQzkFUx7Dvv1px8oBkJMBPkbeFlhUm500sD11r4dA=",
+        "originContent": "├── Süresiz ücretsiz model → claudex add <name> --provider zai",
+        "translatedContent": "├── Süresiz ücretsiz model → claudex add <name> --provider zai"
+      },
+      {
+        "row": 4,
+        "rowsha": "ibU0p6cEp/2GUnlJg7Brl9hZ8b0ggaTaKaA1QPp40bY=",
+        "originContent": "├── 32 ücretsiz modelin biri → claudex add <name> --provider openrouter",
+        "translatedContent": "├── 32 ücretsiz modelin biri → claudex add <name> --provider openrouter"
+      },
+      {
+        "row": 5,
+        "rowsha": "alDA4soasJgCp56QUfCiV4OlVsER0DVMwhuqhR+ArP4=",
+        "originContent": "└── Trial (Kasım 7 2026'a kadar) → claudex add <name> --provider minimax",
+        "translatedContent": "└── Trial (Kasım 7 2026'a kadar) → claudex add <name> --provider minimax"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "eP8L4PkDi3xTPeCBBMMlTiSHt+qMciLnLCJWBXC80yc=",
+        "originContent": "Ucuz ödemeli?",
+        "translatedContent": "Ucuz ödemeli?"
+      },
+      {
+        "row": 8,
+        "rowsha": "tvQwkjl0q3y3BQp6rW7zYlOtvY6yKnFr9Q8aEuMFC3U=",
+        "originContent": "└── DeepSeek (~10x Sonnet'ten ucuz) → claudex add <name> --provider deepseek",
+        "translatedContent": "└── DeepSeek (~10x Sonnet'ten ucuz) → claudex add <name> --provider deepseek"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "HLI2OffUrFm1qX6O3sd6QY9ZN4aJsLmZkiKABn5pJ7M=",
+        "originContent": "Birden fazla ayrı-faturalı Anthropic API hesabı (kişisel/şirket/proje izolasyonu)?",
+        "translatedContent": "Birden fazla ayrı-faturalı Anthropic API hesabı (kişisel/şirket/proje izolasyonu)?"
+      },
+      {
+        "row": 11,
+        "rowsha": "/eHoSD1kux/dKvtL4suMZ+WHP/lBRyAc8Nz30o0qhoM=",
+        "originContent": "└── claudex add <name> --provider anthropic --no-share",
+        "translatedContent": "└── claudex add <name> --provider anthropic --no-share"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Tüm komutlar\n",
+    "ContentSha": "e7uR3S3FJn8/dexnwHXYpolh5HN0CndJDFznFCHUSAI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Todos los comandos\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Todos los comandos"
+      },
+      {
+        "row": 2,
+        "rowsha": "sN1YYQYA6OOhN85pFt+su2UoEdjHehsi4r4v0qgqIWs=",
+        "originContent": "### Tüm komutlar",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nclaudex init                       # ilk kurulum (~/.claudex + shell rc block)\nclaudex quickstart                 # 3 ücretsiz sağlayıcı için kılavuzlu setup\nclaudex recommend [<intent>]       # ne yapmak istediğine göre top-3 model önerisi\nclaudex add <isim> [-p <provider>] # yeni alias (interactive)\nclaudex validate <isim>            # 1-token ping ile key + model doğrula\nclaudex list                       # tüm profilleri listele\nclaudex remove <isim>              # alias kaldır\nclaudex providers [info <id>]      # sağlayıcı kataloğu\nclaudex export <isim> [-o file]    # redacted JSON template (key olmadan)\nclaudex import <file>              # template'i yükle, key sor, profil oluştur\nclaudex doctor                     # kurulum sağlığı\nclaudex --lang en                  # İngilizce output\n```",
+    "ContentSha": "mIMe5JVWzkJxsbHxKaQOsaWaKZwOqZWfnCzgDkJfJn8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex init                       # ilk kurulum (~/.claudex + shell rc block)\nclaudex quickstart                 # 3 ücretsiz sağlayıcı için kılavuzlu setup\nclaudex recommend [<intent>]       # ne yapmak istediğine göre top-3 model önerisi\nclaudex add <isim> [-p <provider>] # yeni alias (interactive)\nclaudex validate <isim>            # 1-token ping ile key + model doğrula\nclaudex list                       # tüm profilleri listele\nclaudex remove <isim>              # alias kaldır\nclaudex providers [info <id>]      # sağlayıcı kataloğu\nclaudex export <isim> [-o file]    # redacted JSON template (key olmadan)\nclaudex import <file>              # template'i yükle, key sor, profil oluştur\nclaudex doctor                     # kurulum sağlığı\nclaudex --lang en                  # İngilizce output\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "wS0HR/JJjo+T9WCU3VtVLPk1/oPA28nRjcv3jKop0JQ=",
+        "originContent": "claudex init                       # ilk kurulum (~/.claudex + shell rc block)",
+        "translatedContent": "claudex init                       # ilk kurulum (~/.claudex + shell rc block)"
+      },
+      {
+        "row": 3,
+        "rowsha": "WPpUYFvdUnZ8lEKySAUOBbvihV+uHyDUlaGqSMG6Kn8=",
+        "originContent": "claudex quickstart                 # 3 ücretsiz sağlayıcı için kılavuzlu setup",
+        "translatedContent": "claudex quickstart                 # 3 ücretsiz sağlayıcı için kılavuzlu setup"
+      },
+      {
+        "row": 4,
+        "rowsha": "TLObDUs067e95IKtizWFeLFKFkFephWPQrWAvK/V7S4=",
+        "originContent": "claudex recommend [<intent>]       # ne yapmak istediğine göre top-3 model önerisi",
+        "translatedContent": "claudex recommend [<intent>]       # ne yapmak istediğine göre top-3 model önerisi"
+      },
+      {
+        "row": 5,
+        "rowsha": "3ez5IzbU829698w8OZqLkmBSipiwaac/lcfKzdbERhU=",
+        "originContent": "claudex add <isim> [-p <provider>] # yeni alias (interactive)",
+        "translatedContent": "claudex add <isim> [-p <provider>] # yeni alias (interactive)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Qf/WJXt2EkgNjNTVBtw8k0X4UNP0QKMEp+sbEGx7qPI=",
+        "originContent": "claudex validate <isim>            # 1-token ping ile key + model doğrula",
+        "translatedContent": "claudex validate <isim>            # 1-token ping ile key + model doğrula"
+      },
+      {
+        "row": 7,
+        "rowsha": "J2RKWclwGbp5tGcH1Jkdp6T4FFWLGVtKkwPcFX7FBfg=",
+        "originContent": "claudex list                       # tüm profilleri listele",
+        "translatedContent": "claudex list                       # tüm profilleri listele"
+      },
+      {
+        "row": 8,
+        "rowsha": "NjNfc5LOgit44BnAGVKqKbLLF2/U4GLm3XRZYQQ9Sek=",
+        "originContent": "claudex remove <isim>              # alias kaldır",
+        "translatedContent": "claudex remove <isim>              # alias kaldır"
+      },
+      {
+        "row": 9,
+        "rowsha": "0X+ixGYox9hDzjS+C4n7mKhxfneGWXo67bWcsme/w8E=",
+        "originContent": "claudex providers [info <id>]      # sağlayıcı kataloğu",
+        "translatedContent": "claudex providers [info <id>]      # sağlayıcı kataloğu"
+      },
+      {
+        "row": 10,
+        "rowsha": "5mK8M6LgzRN3IkpavgcraGO0YAbZnm7sKVNac8Pj/VE=",
+        "originContent": "claudex export <isim> [-o file]    # redacted JSON template (key olmadan)",
+        "translatedContent": "claudex export <isim> [-o file]    # redacted JSON template (key olmadan)"
+      },
+      {
+        "row": 11,
+        "rowsha": "/E0VJlKhkSMNKxgC0GGOJpuczMTB44JZ3QIMNZEOgPk=",
+        "originContent": "claudex import <file>              # template'i yükle, key sor, profil oluştur",
+        "translatedContent": "claudex import <file>              # template'i yükle, key sor, profil oluştur"
+      },
+      {
+        "row": 12,
+        "rowsha": "DMPE00KrtCwzIiMavMaiq6tUAa2wH6r1XDmUTPko1QE=",
+        "originContent": "claudex doctor                     # kurulum sağlığı",
+        "translatedContent": "claudex doctor                     # kurulum sağlığı"
+      },
+      {
+        "row": 13,
+        "rowsha": "u4BbbaVrQw8kB/7SlKueVeEBdYHzFhhfN6La1T8Qdik=",
+        "originContent": "claudex --lang en                  # İngilizce output",
+        "translatedContent": "claudex --lang en                  # İngilizce output"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Bundled sağlayıcılar\n\n| ID | Tier | Site | Default |\n|----|------|------|---------|\n| `anthropic` | Resmi | https://console.anthropic.com | (default) |\n| `zai` | **ÜCRETSİZ FOREVER** | https://z.ai | GLM-4.7-Flash |\n| `minimax` | **ÜCRETSİZ TRIAL** (Kasım 7 2026) | https://platform.minimax.io | M2.7 |\n| `deepseek` | Ucuz ödemeli | https://platform.deepseek.com | deepseek-v4-pro |\n| `moonshot` | Ödemeli (long-context uzmanı) | https://platform.moonshot.ai | Kimi K2.5 |\n| `openrouter` | 32 ücretsiz model | https://openrouter.ai | qwen3-coder:free |\n\nHepsi **Anthropic-uyumlu** endpoint'lere sahip — proxy gerek yok. Detay → [docs/PROVIDERS.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/PROVIDERS.md).\n\n### Nasıl çalışıyor?\n\nClaude Code 5 env değişkenine bakar:\n- `CLAUDE_CONFIG_DIR` — sessions, history, kullanıcı state'i nereye yazılsın\n- `ANTHROPIC_BASE_URL` — API endpoint (default: api.anthropic.com)\n- `ANTHROPIC_AUTH_TOKEN` — endpoint'in key'i\n- `ANTHROPIC_MODEL`, `ANTHROPIC_SMALL_FAST_MODEL` — main + small modeller\n\n`claudex add` her profil için bir shell function üretir. Function `.env`'den key'i okur, env'leri set eder, `claude` binary'sini çağırır. Key argv'de görünmez, history'e düşmez.\n\n### Dosya yapısı\n",
+    "ContentSha": "NYf3ERzulmWLJ9hkoEmkXF4B1pRNaY7dPr0YHR1b7Yg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Proveedores incluidos\n\n| ID | Nivel | Sitio | Predeterminado |\n|----|------|------|---------|\n| `anthropic` | Oficial | https://console.anthropic.com | (predeterminado) |\n| `zai` | **GRATIS PARA SIEMPRE** | https://z.ai | GLM-4.7-Flash |\n| `minimax` | **PRUEBA GRATUITA** (7 de noviembre de 2026) | https://platform.minimax.io | M2.7 |\n| `deepseek` | Pago económico | https://platform.deepseek.com | deepseek-v4-pro |\n| `moonshot` | Pago (experto en contexto largo) | https://platform.moonshot.ai | Kimi K2.5 |\n| `openrouter` | 32 modelos gratuitos | https://openrouter.ai | qwen3-coder:free |\n\nTodos tienen endpoints **compatibles con Anthropic** — no se requiere proxy. Detalles → [docs/PROVIDERS.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/PROVIDERS.md).\n\n### ¿Cómo funciona?\n\nClaude Code revisa 5 variables de entorno:\n- `CLAUDE_CONFIG_DIR` — dónde se guardan sesiones, historial, estado del usuario\n- `ANTHROPIC_BASE_URL` — endpoint API (por defecto: api.anthropic.com)\n- `ANTHROPIC_AUTH_TOKEN` — clave del endpoint\n- `ANTHROPIC_MODEL`, `ANTHROPIC_SMALL_FAST_MODEL` — modelos principal + pequeño\n\n`claudex add` genera una función shell para cada perfil. La función lee la clave desde `.env`, configura las variables de entorno, llama al binario `claude`. La clave no aparece en argv ni en el historial.\n\n### Estructura de archivos\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VWkJwupzCG51/Gobg8ixLyuvGKayDmtLjCqVyh3IlDU=",
+        "originContent": "### Bundled sağlayıcılar",
+        "translatedContent": "### Proveedores incluidos"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+/iqETExRafMoDn0yC8a81OBl8dLjiszOew0S6BgqIE=",
+        "originContent": "| ID | Tier | Site | Default |",
+        "translatedContent": "| ID | Nivel | Sitio | Predeterminado |"
+      },
+      {
+        "row": 5,
+        "rowsha": "QhfVL2RqSUgrUYz9TxLrIdZAkbgeWgqcDqID+9VIJV4=",
+        "originContent": "|----|------|------|---------|",
+        "translatedContent": "|----|------|------|---------|"
+      },
+      {
+        "row": 6,
+        "rowsha": "97LXyCeRqdzgBpLme8txfZ0hfpiLh2rg8KBzXCclpTI=",
+        "originContent": "| `anthropic` | Resmi | https://console.anthropic.com | (default) |",
+        "translatedContent": "| `anthropic` | Oficial | https://console.anthropic.com | (predeterminado) |"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZS4jfD8ct+MgdBoG0kW835K48ifP7fsZuYOVa8SGwlY=",
+        "originContent": "| `zai` | **ÜCRETSİZ FOREVER** | https://z.ai | GLM-4.7-Flash |",
+        "translatedContent": "| `zai` | **GRATIS PARA SIEMPRE** | https://z.ai | GLM-4.7-Flash |"
+      },
+      {
+        "row": 8,
+        "rowsha": "cfUCGPpCBjUPnF+ZX5UyvRZp8ouyYc41ufhbqRKHXA4=",
+        "originContent": "| `minimax` | **ÜCRETSİZ TRIAL** (Kasım 7 2026) | https://platform.minimax.io | M2.7 |",
+        "translatedContent": "| `minimax` | **PRUEBA GRATUITA** (7 de noviembre de 2026) | https://platform.minimax.io | M2.7 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "GPwzE1T171ETh+M+U2HgS3xRgae8KksCDHd9orqAzNc=",
+        "originContent": "| `deepseek` | Ucuz ödemeli | https://platform.deepseek.com | deepseek-v4-pro |",
+        "translatedContent": "| `deepseek` | Pago económico | https://platform.deepseek.com | deepseek-v4-pro |"
+      },
+      {
+        "row": 10,
+        "rowsha": "sx9x6kOA3u8LFv0kqSXLfVyKgqcrHJVvM32RHkezgz4=",
+        "originContent": "| `moonshot` | Ödemeli (long-context uzmanı) | https://platform.moonshot.ai | Kimi K2.5 |",
+        "translatedContent": "| `moonshot` | Pago (experto en contexto largo) | https://platform.moonshot.ai | Kimi K2.5 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "TNIMzqrLEINzdBKpTJhPIGq7ZHWK32EMc+mijK8ozZo=",
+        "originContent": "| `openrouter` | 32 ücretsiz model | https://openrouter.ai | qwen3-coder:free |",
+        "translatedContent": "| `openrouter` | 32 modelos gratuitos | https://openrouter.ai | qwen3-coder:free |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "HgFJ3M/RQa8ID1MTwOiHdql0QRIyjvDo9guGpwe109E=",
+        "originContent": "Hepsi **Anthropic-uyumlu** endpoint'lere sahip — proxy gerek yok. Detay → [docs/PROVIDERS.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/PROVIDERS.md).",
+        "translatedContent": "Todos tienen endpoints **compatibles con Anthropic** — no se requiere proxy. Detalles → [docs/PROVIDERS.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/PROVIDERS.md)."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "cFYLg4caWjDVnYMIrayAi3W8WcSfxxxl8UFbahfDhls=",
+        "originContent": "### Nasıl çalışıyor?",
+        "translatedContent": "### ¿Cómo funciona?"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "WdQVMH4x6yHQi0dpj2bbmVTvgXrg7f3TVXOt0aJnjbs=",
+        "originContent": "Claude Code 5 env değişkenine bakar:",
+        "translatedContent": "Claude Code revisa 5 variables de entorno:"
+      },
+      {
+        "row": 18,
+        "rowsha": "LrLjguXneL1XrTxcs0WuY3dc94JnJKWkyB5Uhu0hlFk=",
+        "originContent": "- `CLAUDE_CONFIG_DIR` — sessions, history, kullanıcı state'i nereye yazılsın",
+        "translatedContent": "- `CLAUDE_CONFIG_DIR` — dónde se guardan sesiones, historial, estado del usuario"
+      },
+      {
+        "row": 19,
+        "rowsha": "mNkFZPIbfQ0fGWdNP+eoee4qE1sVtV6c1c2D7DlKIj8=",
+        "originContent": "- `ANTHROPIC_BASE_URL` — API endpoint (default: api.anthropic.com)",
+        "translatedContent": "- `ANTHROPIC_BASE_URL` — endpoint API (por defecto: api.anthropic.com)"
+      },
+      {
+        "row": 20,
+        "rowsha": "ocVOf7tqDCxm71syS8yTuP5AVb9EwFu27OaOwl8iKA8=",
+        "originContent": "- `ANTHROPIC_AUTH_TOKEN` — endpoint'in key'i",
+        "translatedContent": "- `ANTHROPIC_AUTH_TOKEN` — clave del endpoint"
+      },
+      {
+        "row": 21,
+        "rowsha": "HLYnM25faVopqA1iiLjIFuO6hcHK5E8CHpgbzuJrOKQ=",
+        "originContent": "- `ANTHROPIC_MODEL`, `ANTHROPIC_SMALL_FAST_MODEL` — main + small modeller",
+        "translatedContent": "- `ANTHROPIC_MODEL`, `ANTHROPIC_SMALL_FAST_MODEL` — modelos principal + pequeño"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "G81niD7t7CtrDQ6Fk4/8EaD0ij0hNqWpQccTT1RgkJc=",
+        "originContent": "`claudex add` her profil için bir shell function üretir. Function `.env`'den key'i okur, env'leri set eder, `claude` binary'sini çağırır. Key argv'de görünmez, history'e düşmez.",
+        "translatedContent": "`claudex add` genera una función shell para cada perfil. La función lee la clave desde `.env`, configura las variables de entorno, llama al binario `claude`. La clave no aparece en argv ni en el historial."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "cDRucUTnGTyIAcc4IhGuHfwKL0jA229Gtn0N8KJprkw=",
+        "originContent": "### Dosya yapısı",
+        "translatedContent": "### Estructura de archivos"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n~/.claudex/\n├── profiles/<isim>/\n│   ├── .env                # API key (mode 0600)\n│   └── (CLAUDE_CONFIG_DIR — symlink veya isolated)\n├── generated/aliases.sh    # ~/.zshrc tarafından source edilir\n└── backups/                # her rc edit'inde otomatik backup\n```",
+    "ContentSha": "aoUiD4fjXGFShknjo/6Tvhha6uPi56+DJMwLdg1bF+4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n~/.claudex/\n├── profiles/<isim>/\n│   ├── .env                # API key (mode 0600)\n│   └── (CLAUDE_CONFIG_DIR — symlink veya isolated)\n├── generated/aliases.sh    # ~/.zshrc tarafından source edilir\n└── backups/                # her rc edit'inde otomatik backup\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "KCfKsZ+Zysqe0H1z6shx60BSPiVeLBGaD9ljclcnQIc=",
+        "originContent": "~/.claudex/",
+        "translatedContent": "~/.claudex/"
+      },
+      {
+        "row": 3,
+        "rowsha": "LmdkhgmCeHCZbHopbtNbHmIo5tkPXy/9++GVmGOPd2Q=",
+        "originContent": "├── profiles/<isim>/",
+        "translatedContent": "├── profiles/<isim>/"
+      },
+      {
+        "row": 4,
+        "rowsha": "CIAp4T5OWjSLX/qbcj6b0+1h6I8423Du9Pl0lFWRNGs=",
+        "originContent": "│   ├── .env                # API key (mode 0600)",
+        "translatedContent": "│   ├── .env                # API key (mode 0600)"
+      },
+      {
+        "row": 5,
+        "rowsha": "zVKTDBt9QmY+1j4Rw5WKjbN33Mzuyl3jtVbByrFmDpA=",
+        "originContent": "│   └── (CLAUDE_CONFIG_DIR — symlink veya isolated)",
+        "translatedContent": "│   └── (CLAUDE_CONFIG_DIR — symlink veya isolated)"
+      },
+      {
+        "row": 6,
+        "rowsha": "5fPdFPRVnvYarIFV11hYtFdPjr8DqBUvNQCKESIgeZk=",
+        "originContent": "├── generated/aliases.sh    # ~/.zshrc tarafından source edilir",
+        "translatedContent": "├── generated/aliases.sh    # ~/.zshrc tarafından source edilir"
+      },
+      {
+        "row": 7,
+        "rowsha": "YgffK/aBSDBw70gA4Kg+1Y69rr/QpNVM0xoFAUfkQRM=",
+        "originContent": "└── backups/                # her rc edit'inde otomatik backup",
+        "translatedContent": "└── backups/                # her rc edit'inde otomatik backup"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nMevcut `~/.claude/` ile paylaşım: default olarak agents/commands/skills/plugins/CLAUDE.md/settings.json/mcp.json **symlink** edilir → her profilde aynı tooling. `--no-share` ile tamamen izole profile.\n\n### Güvenlik\n\n- Key'ler `~/.claudex/profiles/<isim>/.env`, mode 0600\n- `claudex` repo'ya hiçbir key commit edilmez (otomatik `.gitignore`)\n- Detay → [docs/SECURITY.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/SECURITY.md)\n\n### Yeni sağlayıcı eklemek\n\n[`src/templates/providers.json`](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/src/templates/providers.json)'a JSON entry ekle, PR aç. Kod değişmez. Detay → [CONTRIBUTING.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/CONTRIBUTING.md).\n\n### Roadmap (v0.3+)\n\n- `claudex bench` — profilleri latency/cost karşılaştır\n- macOS Keychain encrypted secrets (opt-in)\n- Cost tracking — Claude Code log'larından token sayımı\n- Tab completion (zsh/bash/fish)\n- Anthropic-uyumlu olmayan sağlayıcılar (Groq, Gemini direkt) için claude-code-router proxy modu\n\n### Yasal uyarı\n\n`claudex` **bağımsız** bir açık-kaynak araçtır. Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter veya başka bir sağlayıcı tarafından desteklenmez veya onaylanmaz. Sağlayıcı kullanım koşullarına uymak senin sorumluluğun.\n\n---\n\n## English\n\n### Why?\n\n- Use **much cheaper or free** Anthropic-compatible providers (DeepSeek, Z.ai, MiniMax, OpenRouter…) through Claude Code\n- Manage multiple **separately-billed** API accounts (e.g., personal + company) in one terminal with isolated `CLAUDE_CONFIG_DIR`s\n- Everything stays in Claude Code's UI/skills/MCP/agent ecosystem — only the model + key behind it changes\n\n> ⚠️ **This is NOT a way to share or duplicate an Anthropic Pro/Max subscription across users, nor to circumvent per-account rate limits.** Anthropic's [Consumer Terms](https://www.anthropic.com/legal/consumer-terms) and [Usage Policy](https://www.anthropic.com/legal/aup) prohibit that. `claudex` only manages **separately authorized** provider accounts / API keys as independent profiles.\n\n### Prerequisites\n\n- Node.js 20+ — https://nodejs.org/",
+    "ContentSha": "Qgj5GSakKYrazgkeeU06Q/LtZZB+WdLX+C9sAAbPT3o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCompartición con el existente `~/.claude/`: por defecto se crea un **symlink** a agents/commands/skills/plugins/CLAUDE.md/settings.json/mcp.json → misma herramienta en todos los perfiles. Perfil completamente aislado con `--no-share`.\n\n### Seguridad\n\n- Las claves en `~/.claudex/profiles/<nombre>/.env`, modo 0600\n- Ninguna clave se comitea en el repositorio `claudex` (auto `.gitignore`)\n- Detalles → [docs/SECURITY.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/SECURITY.md)\n\n### Añadir nuevo proveedor\n\nAgrega una entrada JSON en [`src/templates/providers.json`](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/src/templates/providers.json), abre un PR. Código no cambia. Detalles → [CONTRIBUTING.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/CONTRIBUTING.md).\n\n### Hoja de ruta (v0.3+)\n\n- `claudex bench` — comparar latencia/costo de perfiles\n- Secretos cifrados en macOS Keychain (opt-in)\n- Seguimiento de costos — conteo de tokens desde logs de Claude Code\n- Autocompletado (zsh/bash/fish)\n- Modo proxy claude-code-router para proveedores no compatibles con Anthropic (Groq, Gemini directo)\n\n### Aviso legal\n\n`claudex` es una herramienta **independiente** y de código abierto. No está respaldada ni aprobada por Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter ni ningún otro proveedor. Cumplir con los términos de uso del proveedor es tu responsabilidad.\n\n---\n\n## English\n\n### Why?\n\n- Use **much cheaper or free** Anthropic-compatible providers (DeepSeek, Z.ai, MiniMax, OpenRouter…) through Claude Code\n- Manage multiple **separately-billed** API accounts (e.g., personal + company) in one terminal with isolated `CLAUDE_CONFIG_DIR`s\n- Everything stays in Claude Code's UI/skills/MCP/agent ecosystem — only the model + key behind it changes\n\n> ⚠️ **This is NOT a way to share or duplicate an Anthropic Pro/Max subscription across users, nor to circumvent per-account rate limits.** Anthropic's [Consumer Terms](https://www.anthropic.com/legal/consumer-terms) and [Usage Policy](https://www.anthropic.com/legal/aup) prohibit that. `claudex` only manages **separately authorized** provider accounts / API keys as independent profiles.\n\n### Prerequisites\n\n- Node.js 20+ — https://nodejs.org/",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5Uwhz8aYJ4xEtzvH1RP72vHzO8pH72lPeT0CPQLh68s=",
+        "originContent": "Mevcut `~/.claude/` ile paylaşım: default olarak agents/commands/skills/plugins/CLAUDE.md/settings.json/mcp.json **symlink** edilir → her profilde aynı tooling. `--no-share` ile tamamen izole profile.",
+        "translatedContent": "Compartición con el existente `~/.claude/`: por defecto se crea un **symlink** a agents/commands/skills/plugins/CLAUDE.md/settings.json/mcp.json → misma herramienta en todos los perfiles. Perfil completamente aislado con `--no-share`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+LA5797t2wBO+D12nXegBlm1qwgKguS4LywDMs+AKk4=",
+        "originContent": "### Güvenlik",
+        "translatedContent": "### Seguridad"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "KglM1Xk/F2gcBWmjXhJKTjb2SzlnGbR/BEzreu6lZ2g=",
+        "originContent": "- Key'ler `~/.claudex/profiles/<isim>/.env`, mode 0600",
+        "translatedContent": "- Las claves en `~/.claudex/profiles/<nombre>/.env`, modo 0600"
+      },
+      {
+        "row": 7,
+        "rowsha": "50GCodkl0FrI/NNv3jDkML63H3VRxaoLtdnS98D7AEc=",
+        "originContent": "- `claudex` repo'ya hiçbir key commit edilmez (otomatik `.gitignore`)",
+        "translatedContent": "- Ninguna clave se comitea en el repositorio `claudex` (auto `.gitignore`)"
+      },
+      {
+        "row": 8,
+        "rowsha": "ALuO2Hvg6mIsicMV2a6RVT2VUEOpGgZAcmjFpxKgBE8=",
+        "originContent": "- Detay → [docs/SECURITY.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/SECURITY.md)",
+        "translatedContent": "- Detalles → [docs/SECURITY.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/docs/SECURITY.md)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "6M09p2+50MyLOTfUDBXWW8n9B6iyFsrtdQ5yYc9HYd4=",
+        "originContent": "### Yeni sağlayıcı eklemek",
+        "translatedContent": "### Añadir nuevo proveedor"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "C+dXPU68iZTCi66CLo6kuo/x6DJqV3eiiJtB8fS9z24=",
+        "originContent": "[`src/templates/providers.json`](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/src/templates/providers.json)'a JSON entry ekle, PR aç. Kod değişmez. Detay → [CONTRIBUTING.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/CONTRIBUTING.md).",
+        "translatedContent": "Agrega una entrada JSON en [`src/templates/providers.json`](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/src/templates/providers.json), abre un PR. Código no cambia. Detalles → [CONTRIBUTING.md](https://raw.githubusercontent.com/sasdsamatt123/claudex/main/CONTRIBUTING.md)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "1lyt/GufJb0S7oUhZbZR2mIuWV5exXtG+sAUqOPvjck=",
+        "originContent": "### Roadmap (v0.3+)",
+        "translatedContent": "### Hoja de ruta (v0.3+)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "KgBCde1YhmkZ2Piy18gb96oMP7cTpXECPrUCWJMCNB8=",
+        "originContent": "- `claudex bench` — profilleri latency/cost karşılaştır",
+        "translatedContent": "- `claudex bench` — comparar latencia/costo de perfiles"
+      },
+      {
+        "row": 17,
+        "rowsha": "+2z4phgop+QP2yLeXH0yWZtClPcuVQO9yx45Njlwu68=",
+        "originContent": "- macOS Keychain encrypted secrets (opt-in)",
+        "translatedContent": "- Secretos cifrados en macOS Keychain (opt-in)"
+      },
+      {
+        "row": 18,
+        "rowsha": "btskBuKEu//FlYmxGBh3l/nps2h/pTAYLfXgD3q3E1k=",
+        "originContent": "- Cost tracking — Claude Code log'larından token sayımı",
+        "translatedContent": "- Seguimiento de costos — conteo de tokens desde logs de Claude Code"
+      },
+      {
+        "row": 19,
+        "rowsha": "CS3owb5yi8q5dAHyFCguddQTIyr/FcnmppCWR3nf7rE=",
+        "originContent": "- Tab completion (zsh/bash/fish)",
+        "translatedContent": "- Autocompletado (zsh/bash/fish)"
+      },
+      {
+        "row": 20,
+        "rowsha": "LxUh99bWsB3umfcAsNs9HcZhFSRB19VAOmyPcSS+mpE=",
+        "originContent": "- Anthropic-uyumlu olmayan sağlayıcılar (Groq, Gemini direkt) için claude-code-router proxy modu",
+        "translatedContent": "- Modo proxy claude-code-router para proveedores no compatibles con Anthropic (Groq, Gemini directo)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "dwos2G4I30DyOP9RmUFthbSfg2uo3hgGtSuKv2eUmNE=",
+        "originContent": "### Yasal uyarı",
+        "translatedContent": "### Aviso legal"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "0B10dwtwNp56MP4lfThUH6dIrz5RJU/20EW1GjNt8gk=",
+        "originContent": "`claudex` **bağımsız** bir açık-kaynak araçtır. Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter veya başka bir sağlayıcı tarafından desteklenmez veya onaylanmaz. Sağlayıcı kullanım koşullarına uymak senin sorumluluğun.",
+        "translatedContent": "`claudex` es una herramienta **independiente** y de código abierto. No está respaldada ni aprobada por Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter ni ningún otro proveedor. Cumplir con los términos de uso del proveedor es tu responsabilidad."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "miY0apOCbZdk5nFLoa4JnvQTK6cfH7r4GtkFN2Gxd/c=",
+        "originContent": "## English",
+        "translatedContent": "## English"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "AthraE7i9My5XM8K20tI5oYNb2bzkgqu6XebpZsrqJg=",
+        "originContent": "### Why?",
+        "translatedContent": "### Why?"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "iN6Qxf+bn0c9H3KVesd2+49LMZ0SyFZjE+ygpUvhgqE=",
+        "originContent": "- Use **much cheaper or free** Anthropic-compatible providers (DeepSeek, Z.ai, MiniMax, OpenRouter…) through Claude Code",
+        "translatedContent": "- Use **much cheaper or free** Anthropic-compatible providers (DeepSeek, Z.ai, MiniMax, OpenRouter…) through Claude Code"
+      },
+      {
+        "row": 33,
+        "rowsha": "PO8eTTPrDjgTGuKAd48zi98trn6PCPG4hYUc2k2qjWQ=",
+        "originContent": "- Manage multiple **separately-billed** API accounts (e.g., personal + company) in one terminal with isolated `CLAUDE_CONFIG_DIR`s",
+        "translatedContent": "- Manage multiple **separately-billed** API accounts (e.g., personal + company) in one terminal with isolated `CLAUDE_CONFIG_DIR`s"
+      },
+      {
+        "row": 34,
+        "rowsha": "1stKciJz4eh0MJ+UYEQOCTdITKemd40qksS+Oxu3jeo=",
+        "originContent": "- Everything stays in Claude Code's UI/skills/MCP/agent ecosystem — only the model + key behind it changes",
+        "translatedContent": "- Everything stays in Claude Code's UI/skills/MCP/agent ecosystem — only the model + key behind it changes"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "kZkqCRXcrWSl0q5l7kS+Z3KRgCq5F+nNYrimgmB+M68=",
+        "originContent": "> ⚠️ **This is NOT a way to share or duplicate an Anthropic Pro/Max subscription across users, nor to circumvent per-account rate limits.** Anthropic's [Consumer Terms](https://www.anthropic.com/legal/consumer-terms) and [Usage Policy](https://www.anthropic.com/legal/aup) prohibit that. `claudex` only manages **separately authorized** provider accounts / API keys as independent profiles.",
+        "translatedContent": "> ⚠️ **This is NOT a way to share or duplicate an Anthropic Pro/Max subscription across users, nor to circumvent per-account rate limits.** Anthropic's [Consumer Terms](https://www.anthropic.com/legal/consumer-terms) and [Usage Policy](https://www.anthropic.com/legal/aup) prohibit that. `claudex` only manages **separately authorized** provider accounts / API keys as independent profiles."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### Prerequisites"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "734ZHUlQKn8udrXlnQgRgh9KYsvse79PcNc5ZnffDjg=",
+        "originContent": "- Node.js 20+ — https://nodejs.org/",
+        "translatedContent": "- Node.js 20+ — https://nodejs.org/"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "- Claude Code — `npm install -g @anthropic-ai/claude-code`\n- zsh or bash\n\n### Install (30 seconds)\n",
+    "ContentSha": "pGkLHManT+njcyk0wf6Zy+ruYMowO8ahmpE2ON9uiSg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Claude Code — `npm install -g @anthropic-ai/claude-code`\n- zsh o bash\n\n### Instalación (30 segundos)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Xi5xDBbl22dDAsgUVMFq/czX8e90Gng2OnsUlIcz9O4=",
+        "originContent": "- Claude Code — `npm install -g @anthropic-ai/claude-code`",
+        "translatedContent": "- Claude Code — `npm install -g @anthropic-ai/claude-code`"
+      },
+      {
+        "row": 2,
+        "rowsha": "PRU94WXiV5KKtr4BwMlxmowbrmAVxtB4RlXWqXp64M4=",
+        "originContent": "- zsh or bash",
+        "translatedContent": "- zsh o bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gs/MCQlOMs6KRnP6GMrolbfE2fPPcT0CY17eWofqfFo=",
+        "originContent": "### Install (30 seconds)",
+        "translatedContent": "### Instalación (30 segundos)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```bash\ngit clone https://github.com/sasdsamatt123/claudex.git\ncd claudex\nnpm install && npm run build && npm link\nclaudex init\n```",
+    "ContentSha": "HKQMciibn7Nv5oPFr76ywrpE/Ezw5PhaE/8MtAWaS6c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/sasdsamatt123/claudex.git\ncd claudex\nnpm install && npm run build && npm link\nclaudex init\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yEkhGPyq7Yu8ObqRW1nq8pL4RR5NF9F05diVgpqBwPs=",
+        "originContent": "git clone https://github.com/sasdsamatt123/claudex.git",
+        "translatedContent": "git clone https://github.com/sasdsamatt123/claudex.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "bWvNQNS3dK0GNz80BFUbc+7BnrDDhwRKqzeC1aeAoEE=",
+        "originContent": "cd claudex",
+        "translatedContent": "cd claudex"
+      },
+      {
+        "row": 4,
+        "rowsha": "e6mcqKvQFzFxoDIom0VES6H18iy720fl2pi+ysCsCqw=",
+        "originContent": "npm install && npm run build && npm link",
+        "translatedContent": "npm install && npm run build && npm link"
+      },
+      {
+        "row": 5,
+        "rowsha": "hNY/jws7AqAcb84Au7ujgEOQ4BvU6Co8ScBQ95u4Az8=",
+        "originContent": "claudex init",
+        "translatedContent": "claudex init"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n> ℹ️ `npm install -g claudex` publish coming soon. For now: git clone.\n\n### First profile (guided)\n",
+    "ContentSha": "A+ZWE+fVLP94O7KgxY3cE/GPmj3mECtwwLmVa/26CLk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> ℹ️ `npm install -g claudex` publicación próximamente. Por ahora: git clone.\n\n### Primer perfil (guiado)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KXNec4Q1a6K0E2mt7u6nrJDzBrcvzv562BoUnI2yidw=",
+        "originContent": "> ℹ️ `npm install -g claudex` publish coming soon. For now: git clone.",
+        "translatedContent": "> ℹ️ `npm install -g claudex` publicación próximamente. Por ahora: git clone."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wbMZtHjnQR3Prp/M2mrIIYnheC5q+LWuQlD0W771HJk=",
+        "originContent": "### First profile (guided)",
+        "translatedContent": "### Primer perfil (guiado)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```bash\nclaudex quickstart\n```",
+    "ContentSha": "hDhfvl06sFu6V5x0LjkEJyUqyswnvdxOPES/qDVhPSc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex quickstart\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "z5Xh+KNodQ+zhKFPiHs7tHRANWN4PWZfoLcpHsJk6XY=",
+        "originContent": "claudex quickstart",
+        "translatedContent": "claudex quickstart"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\nWalks you through Z.ai → MiniMax → OpenRouter (skip any). When done: `source ~/.zshrc`, then `claude-zai` (or `claude-minimax`, `claude-or`) launches Claude Code with the new model.\n\n### Which model?\n",
+    "ContentSha": "OTiOuCyNukRBemQ9jm3O6kpG2xqRbC8qf7wvm43QSIg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Te guía a través de Z.ai → MiniMax → OpenRouter (omite cualquiera). Cuando termines: `source ~/.zshrc`, luego `claude-zai` (o `claude-minimax`, `claude-or`) lanza Claude Code con el nuevo modelo.\n\n### ¿Qué modelo?\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Te guía a través de Z.ai → MiniMax → OpenRouter (omite cualquiera). Cuando termines: `source ~/.zshrc`, luego `claude-zai` (o `claude-minimax`, `claude-or`) lanza Claude Code con el nuevo modelo."
+      },
+      {
+        "row": 2,
+        "rowsha": "8fhmW2TLsjhJxScVvmvI13qZBMzggAgd+pVxSX6bjuE=",
+        "originContent": "Walks you through Z.ai → MiniMax → OpenRouter (skip any). When done: `source ~/.zshrc`, then `claude-zai` (or `claude-minimax`, `claude-or`) launches Claude Code with the new model.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ¿Qué modelo?"
+      },
+      {
+        "row": 4,
+        "rowsha": "EuQDzgSH+3kjt/LpfNm7RCtYvin79LJAO7tIMtq955w=",
+        "originContent": "### Which model?",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```bash\nclaudex recommend\n```",
+    "ContentSha": "SV6Eq9FnQePkcyu6PU0gSvj2Tve/aDdOV9KB3yL5U3E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex recommend\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "g8p2QGrlmbqwYHjsk4+QPkYEhnhDHNDUPnTaQT+iBT4=",
+        "originContent": "claudex recommend",
+        "translatedContent": "claudex recommend"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\nInteractive: \"What do you want to do?\" → 8 use cases (fast coding / refactor / long context / vision / …). Shows top-3 with rationale and the install command.\n\nNon-interactive:",
+    "ContentSha": "3lDTTBUyoJKZVQxo6/+tALdxcr5rN3NSBsmd0yWoFXE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Interactivo: \"¿Qué quieres hacer?\" → 8 casos de uso (codificación rápida / refactorización / contexto largo / visión / …). Muestra los 3 principales con justificación y el comando de instalación.\n\nNo interactivo:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Interactivo: \"¿Qué quieres hacer?\" → 8 casos de uso (codificación rápida / refactorización / contexto largo / visión / …). Muestra los 3 principales con justificación y el comando de instalación."
+      },
+      {
+        "row": 2,
+        "rowsha": "U8eCBZG1/DvvFijzbG0lzeJX1WmXZBQOnJGGhyqLtZY=",
+        "originContent": "Interactive: \"What do you want to do?\" → 8 use cases (fast coding / refactor / long context / vision / …). Shows top-3 with rationale and the install command.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "No interactivo:"
+      },
+      {
+        "row": 4,
+        "rowsha": "pgwWELZ38T6wvCoC9ZoubLh0tOFDdizwEkdingFiMFM=",
+        "originContent": "Non-interactive:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "```bash\nclaudex recommend coding-fast --json\n```",
+    "ContentSha": "inRfIfY38XlcoOcwBjLEwUuoF09NPs/SaQv7wXnB7Q4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex recommend coding-fast --json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vUOQWVwUWXPOBoWcmAWX97OiyAWU/A6peLbL+FjNs3U=",
+        "originContent": "claudex recommend coding-fast --json",
+        "translatedContent": "claudex recommend coding-fast --json"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n### Decision tree\n",
+    "ContentSha": "O+Gy5ivgGl2Gz29ucrhXucnlfe2tFIIQ/yuTQlPux5s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Árbol de decisión\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "t6wiCbbpixIGVMw56dNp8/YShiOnQLjQ8N5R6fDjf0c=",
+        "originContent": "### Decision tree",
+        "translatedContent": "### Árbol de decisión"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "```\nFree?\n├── Forever-free model → claudex add <name> --provider zai\n├── One of 32 free models → claudex add <name> --provider openrouter\n└── Trial (until Nov 7 2026) → claudex add <name> --provider minimax\n\nCheap paid?\n└── DeepSeek (~10x cheaper than Sonnet) → claudex add <name> --provider deepseek\n\nMultiple separately-billed Anthropic API accounts (personal/company/project isolation)?\n└── claudex add <name> --provider anthropic --no-share\n```",
+    "ContentSha": "YJ6ilduo6wJ5sKXi6MHuhEQrf7rOiM5dvh95qyD/Q70=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nFree?\n├── Forever-free model → claudex add <name> --provider zai\n├── One of 32 free models → claudex add <name> --provider openrouter\n└── Trial (until Nov 7 2026) → claudex add <name> --provider minimax\n\nCheap paid?\n└── DeepSeek (~10x cheaper than Sonnet) → claudex add <name> --provider deepseek\n\nMultiple separately-billed Anthropic API accounts (personal/company/project isolation)?\n└── claudex add <name> --provider anthropic --no-share\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3zB4P0lxZqpKoOYx30gHMEnvcGTMy9Xzlk2M4JuYZcU=",
+        "originContent": "Free?",
+        "translatedContent": "Free?"
+      },
+      {
+        "row": 3,
+        "rowsha": "sem+/Acz4FFbHB2ZUaAjryeUhDjNYHD0CV+FClRAGYQ=",
+        "originContent": "├── Forever-free model → claudex add <name> --provider zai",
+        "translatedContent": "├── Forever-free model → claudex add <name> --provider zai"
+      },
+      {
+        "row": 4,
+        "rowsha": "jNVsEuZVun3MpTqvFHFxEvEJelzQTAiUZyDUrLhE7VE=",
+        "originContent": "├── One of 32 free models → claudex add <name> --provider openrouter",
+        "translatedContent": "├── One of 32 free models → claudex add <name> --provider openrouter"
+      },
+      {
+        "row": 5,
+        "rowsha": "trEV2iPG3X21rbddsa0LNhxdpaCkaNS+JJzmCZYz9jA=",
+        "originContent": "└── Trial (until Nov 7 2026) → claudex add <name> --provider minimax",
+        "translatedContent": "└── Trial (until Nov 7 2026) → claudex add <name> --provider minimax"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "IJ0hLOP5iNLFQyiA7QhTrLCUfMs8YyXUP+03lwPIFAk=",
+        "originContent": "Cheap paid?",
+        "translatedContent": "Cheap paid?"
+      },
+      {
+        "row": 8,
+        "rowsha": "TDifVfy3QdDmOcPzYMqvEMIb8FQbksiEwlzy4dAAbUI=",
+        "originContent": "└── DeepSeek (~10x cheaper than Sonnet) → claudex add <name> --provider deepseek",
+        "translatedContent": "└── DeepSeek (~10x cheaper than Sonnet) → claudex add <name> --provider deepseek"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Byf4YA1tEA+5/j+yrAhuOtIiWo5V7p+DB93qrZqCggI=",
+        "originContent": "Multiple separately-billed Anthropic API accounts (personal/company/project isolation)?",
+        "translatedContent": "Multiple separately-billed Anthropic API accounts (personal/company/project isolation)?"
+      },
+      {
+        "row": 11,
+        "rowsha": "/eHoSD1kux/dKvtL4suMZ+WHP/lBRyAc8Nz30o0qhoM=",
+        "originContent": "└── claudex add <name> --provider anthropic --no-share",
+        "translatedContent": "└── claudex add <name> --provider anthropic --no-share"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\n### Commands\n",
+    "ContentSha": "zOXO9S4U9jjd595sRNDvFJZYpnBV22AOi3hiGzvSaN4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Comandos\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ojzHaJvBjq4QJPpFn43w2+csgojMuzApUE3HFrdJmQI=",
+        "originContent": "### Commands",
+        "translatedContent": "### Comandos"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "```bash\nclaudex init                        # initial setup (~/.claudex + shell rc block)\nclaudex quickstart                  # guided setup of 3 free providers\nclaudex recommend [<intent>]        # top-3 model suggestions per use case\nclaudex add <name> [-p <provider>]  # add an alias (interactive)\nclaudex validate <name>             # ping the provider with a 1-token test\nclaudex list                        # list all profiles\nclaudex remove <name>               # remove alias\nclaudex providers [info <id>]       # provider catalog\nclaudex export <name> [-o file]     # redacted JSON template (no key)\nclaudex import <file>               # load template, prompt for key\nclaudex doctor                      # health check\nclaudex --lang tr                   # Turkish output\n```",
+    "ContentSha": "Tn3TtxADfFmCEoAs44aRzAq73GsHCTavwTRFXe8Wjqg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaudex init                        # initial setup (~/.claudex + shell rc block)\nclaudex quickstart                  # guided setup of 3 free providers\nclaudex recommend [<intent>]        # top-3 model suggestions per use case\nclaudex add <name> [-p <provider>]  # add an alias (interactive)\nclaudex validate <name>             # ping the provider with a 1-token test\nclaudex list                        # list all profiles\nclaudex remove <name>               # remove alias\nclaudex providers [info <id>]       # provider catalog\nclaudex export <name> [-o file]     # redacted JSON template (no key)\nclaudex import <file>               # load template, prompt for key\nclaudex doctor                      # health check\nclaudex --lang tr                   # Turkish output\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TrhB2jPa9ZHY4X4cfFRmx+Pj7MYdRMoFEyI4i090k5s=",
+        "originContent": "claudex init                        # initial setup (~/.claudex + shell rc block)",
+        "translatedContent": "claudex init                        # initial setup (~/.claudex + shell rc block)"
+      },
+      {
+        "row": 3,
+        "rowsha": "qFKK+lv2roB01hvvJMKDyJvxpGxlsorvsfvrntF0MUU=",
+        "originContent": "claudex quickstart                  # guided setup of 3 free providers",
+        "translatedContent": "claudex quickstart                  # guided setup of 3 free providers"
+      },
+      {
+        "row": 4,
+        "rowsha": "xjwbdxrU7S/X1HVn+E4iGUJbGDo+lOWxeOabv869/q0=",
+        "originContent": "claudex recommend [<intent>]        # top-3 model suggestions per use case",
+        "translatedContent": "claudex recommend [<intent>]        # top-3 model suggestions per use case"
+      },
+      {
+        "row": 5,
+        "rowsha": "nduII/5iAwzmQoIT9eM1MX0FRK8QioZGNSnNEl9GZ3g=",
+        "originContent": "claudex add <name> [-p <provider>]  # add an alias (interactive)",
+        "translatedContent": "claudex add <name> [-p <provider>]  # add an alias (interactive)"
+      },
+      {
+        "row": 6,
+        "rowsha": "v2LJ1N5EqFYOfw+4Ls1e4dHlpequz7PfpWZMGoZBbW4=",
+        "originContent": "claudex validate <name>             # ping the provider with a 1-token test",
+        "translatedContent": "claudex validate <name>             # ping the provider with a 1-token test"
+      },
+      {
+        "row": 7,
+        "rowsha": "WwIdMibPGLNVunMC3gOeCfgv6GnLJULWMsFfOqvQ+oE=",
+        "originContent": "claudex list                        # list all profiles",
+        "translatedContent": "claudex list                        # list all profiles"
+      },
+      {
+        "row": 8,
+        "rowsha": "L7+Q1kApFKyAVWl7RPpx+uCGiE97tWx4zGO4OpUgzwA=",
+        "originContent": "claudex remove <name>               # remove alias",
+        "translatedContent": "claudex remove <name>               # remove alias"
+      },
+      {
+        "row": 9,
+        "rowsha": "iOhno5UwP+50MucpNcS8cSywT8r5gg43wySKljAevt0=",
+        "originContent": "claudex providers [info <id>]       # provider catalog",
+        "translatedContent": "claudex providers [info <id>]       # provider catalog"
+      },
+      {
+        "row": 10,
+        "rowsha": "LDbDMS7vUmzHfeQdZ66LevdIMiG1L85acaVbHyJLjk8=",
+        "originContent": "claudex export <name> [-o file]     # redacted JSON template (no key)",
+        "translatedContent": "claudex export <name> [-o file]     # redacted JSON template (no key)"
+      },
+      {
+        "row": 11,
+        "rowsha": "27XN2ypzMbtnp46owBz+kUIhLxVGIY3Fi0IQObPtvgc=",
+        "originContent": "claudex import <file>               # load template, prompt for key",
+        "translatedContent": "claudex import <file>               # load template, prompt for key"
+      },
+      {
+        "row": 12,
+        "rowsha": "M5Cu+g2+Lx28ucIBMBcmtzR1fBqBSkIOVaK0fCI4qWs=",
+        "originContent": "claudex doctor                      # health check",
+        "translatedContent": "claudex doctor                      # health check"
+      },
+      {
+        "row": 13,
+        "rowsha": "tyzKja7crpfgPO0H/e9u8NMvjfcL4fvAeX7CwYxPBws=",
+        "originContent": "claudex --lang tr                   # Turkish output",
+        "translatedContent": "claudex --lang tr                   # Turkish output"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\n### Disclaimer\n\n`claudex` is an independent open-source tool. **Not affiliated with, endorsed by, or sponsored by Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter, or any other provider.** Compliance with each provider's terms of service is your responsibility.\n\n### License\n\n[MIT](LICENSE)\n",
+    "ContentSha": "AnunHki6Ov1Pj4EaajXpyJuWYI+CVR4E1oHXvsFMLcI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Descargo de responsabilidad\n\n`claudex` es una herramienta independiente de código abierto. **No está afiliada, respaldada ni patrocinada por Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter u otro proveedor.** El cumplimiento de los términos de servicio de cada proveedor es su responsabilidad.\n\n### Licencia\n\n[MIT](LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Gkh7IdNBb+bCOfXpKe29WbhR/CvwU3tDs0vYCR1ZE9g=",
+        "originContent": "### Disclaimer",
+        "translatedContent": "### Descargo de responsabilidad"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oTALVcgrn3KmWS/fz3rVeS2j2/tJH2nAm585knPYTxc=",
+        "originContent": "`claudex` is an independent open-source tool. **Not affiliated with, endorsed by, or sponsored by Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter, or any other provider.** Compliance with each provider's terms of service is your responsibility.",
+        "translatedContent": "`claudex` es una herramienta independiente de código abierto. **No está afiliada, respaldada ni patrocinada por Anthropic, Z.ai, MiniMax, DeepSeek, Moonshot, OpenRouter u otro proveedor.** El cumplimiento de los términos de servicio de cada proveedor es su responsabilidad."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yQxCDp1zblVb6PkKhbgZ2Y8kW5iQPeq17cih4/6NsYY=",
+        "originContent": "### License",
+        "translatedContent": "### Licencia"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+        "originContent": "[MIT](LICENSE)",
+        "translatedContent": "[MIT](LICENSE)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

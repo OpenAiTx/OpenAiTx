@@ -78,7 +78,7 @@ Sie benötigen folgende Abhängigkeiten, um Annotator zu bauen:
 
 Um Annotator aus dem Quellcode zu installieren, führen Sie `./app install` aus.
 
-Um Annotator auszuführen, starten Sie `com.github.phase1geo.annotator`.
+Um Annotator auszuführen, starten Sie `io.github.phase1geo.annotator`.
 
 ### Ubuntu (PPA)
 
@@ -87,7 +87,7 @@ Sie können das von @PandaJim gepflegte [PPA](https://launchpad.net/~ubuntuhandb
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### Arch Linux
@@ -125,6 +125,6 @@ unter den Bedingungen der GPL v3.0-Lizenz.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

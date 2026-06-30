@@ -78,16 +78,16 @@
 
 Для установки Annotator из исходников выполните команду `./app install`.
 
-Чтобы запустить Annotator, выполните `com.github.phase1geo.annotator`.
+Чтобы запустить Annotator, выполните `io.github.phase1geo.annotator`.
 
 ### Ubuntu (PPA)
 
-Вы можете воспользоваться [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/), поддерживаемым @PandaJim. PPA поддерживает Ubuntu 20.04+. Введите следующие команды одну за другой
+Вы можете использовать [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/), поддерживаемый @PandaJim. Этот PPA поддерживает Ubuntu 20.04+. Введите следующие команды по очереди
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### Arch Linux
@@ -125,6 +125,6 @@ sudo apt install com.github.phase1geo.annotator
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

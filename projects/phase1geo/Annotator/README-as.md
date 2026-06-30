@@ -78,16 +78,16 @@ Annotator নিৰ্মাণৰ বাবে তলত উল্লেখ ক
 
 সৰ্চৰ পৰা Annotator ইনষ্টল কৰিবলৈ, `./app install` চলাওক।
 
-Annotator চলাবলৈ, `com.github.phase1geo.annotator` চলাওক।
+Annotator চলাবলৈ, `io.github.phase1geo.annotator` চলাওক।
 
-### Ubuntu (PPA)
+### উবুন্টু (PPA)
 
-আপুনি @PandaJim দ্বাৰা সংৰক্ষিত [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) ব্যৱহাৰ কৰিব পাৰে। এই PPA-এ Ubuntu 20.04+ সমৰ্থন কৰে। তলত দিয়া আদেশবোৰ এবাৰকৈ প্ৰৱিষ্ট কৰক
+আপুনি @PandaJim দ্বাৰা ৰক্ষণাবেক্ষিত [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) ব্যৱহাৰ কৰিব পাৰে। PPA-এ Ubuntu 20.04+ সমৰ্থন কৰে। তলৰ নিৰ্দেশনাবোৰ এটা এটাকৈ সুমুৱাওক
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### আৰ্চ লিনাক্স
@@ -125,6 +125,6 @@ GPL v3.0 লাইচেঞ্চৰ অধীনত।
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

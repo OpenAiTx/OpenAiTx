@@ -78,16 +78,16 @@
 
 要从源码安装 Annotator，请运行 `./app install`。
 
-要运行 Annotator，请运行 `com.github.phase1geo.annotator`。
+要运行 Annotator，请运行 `io.github.phase1geo.annotator`。
 
-### Ubuntu (PPA)
+### Ubuntu（PPA）
 
-你可以使用由 @PandaJim 维护的 [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/)。该 PPA 支持 Ubuntu 20.04+。请依次输入以下命令
+你可以使用由 @PandaJim 维护的 [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/)。该 PPA 支持 Ubuntu 20.04 及以上版本。请依次输入以下命令
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### Arch Linux
@@ -125,6 +125,6 @@ sudo apt install com.github.phase1geo.annotator
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

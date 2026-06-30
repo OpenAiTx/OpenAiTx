@@ -78,16 +78,16 @@ Annotator를 빌드하기 위해 다음과 같은 의존성이 필요합니다:
 
 Annotator를 소스에서 설치하려면 `./app install`을 실행하세요.
 
-Annotator를 실행하려면 `com.github.phase1geo.annotator`를 실행하세요.
+Annotator를 실행하려면 `io.github.phase1geo.annotator`를 실행하세요.
 
-### 우분투 (PPA)
+### Ubuntu (PPA)
 
-@PandaJim이 관리하는 [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/)를 사용할 수 있습니다. 이 PPA는 Ubuntu 20.04+를 지원합니다. 다음 명령어를 하나씩 입력하세요.
+@PandaJim이 관리하는 [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/)를 사용할 수 있습니다. 이 PPA는 Ubuntu 20.04+를 지원합니다. 아래 명령어들을 차례대로 입력하세요.
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 ### Arch Linux
 
@@ -125,6 +125,6 @@ GPL v3.0 라이선스 조건에 따라 사용합니다.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---

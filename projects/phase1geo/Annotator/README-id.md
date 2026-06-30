@@ -78,7 +78,7 @@ Anda akan membutuhkan dependensi berikut untuk membangun Annotator:
 
 Untuk menginstal Annotator dari sumber, jalankan `./app install`.
 
-Untuk menjalankan Annotator, jalankan `com.github.phase1geo.annotator`.
+Untuk menjalankan Annotator, jalankan `io.github.phase1geo.annotator`.
 
 ### Ubuntu (PPA)
 
@@ -87,7 +87,7 @@ Anda dapat menggunakan [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubu
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/annotator
 sudo apt update
-sudo apt install com.github.phase1geo.annotator
+sudo apt install io.github.phase1geo.annotator
 ```
 
 ### Arch Linux
@@ -125,6 +125,6 @@ di bawah ketentuan lisensi GPL v3.0.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-06-30
 
 ---
