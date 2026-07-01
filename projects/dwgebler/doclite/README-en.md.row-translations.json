@@ -1,0 +1,362 @@
+[
+  {
+    "row": 1,
+    "rowsha": "0fwgWJfSe/oogxGSjYlmgnYhHYhXfcF8gTvCFca6e7o=",
+    "originContent": "# DocLite",
+    "translatedContent": "# DocLite"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "jsvvuT+vTk3K3hRXFsMgd9Tccn0Z2wz8nseY5Bnlh+I=",
+    "originContent": "A powerful PHP NoSQL document store built on top of SQLite.",
+    "translatedContent": "A powerful PHP NoSQL document store built on top of SQLite."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "SuZgV1zSn9Q1ZD5XY0d5qMvppICKEZdjzkQuBOCEu+Q=",
+    "originContent": "[![CI](https://github.com/dwgebler/doclite/actions/workflows/ci.yml/badge.svg)](https://github.com/dwgebler/doclite/actions/workflows/ci.yml)",
+    "translatedContent": "[![CI](https://github.com/dwgebler/doclite/actions/workflows/ci.yml/badge.svg)](https://github.com/dwgebler/doclite/actions/workflows/ci.yml)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+    "originContent": "## About",
+    "translatedContent": "## About"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Wenbqb79x/DhumHuWnbuvQCNyE3gXGK9Ck2N+TKr3jE=",
+    "originContent": "DocLite is a NoSQL document store for PHP built on SQLite. It uses the PHP PDO SQLite library to automatically manage documents organised into named collections, stored as JSON. DocLite takes advantage of the SQLite JSON1 extension to store, parse, index, and query JSON documents — giving you the power of a fully transactional, ACID-compliant NoSQL solution contained entirely within the local filesystem.",
+    "translatedContent": "DocLite is a NoSQL document store for PHP built on SQLite. It uses the PHP PDO SQLite library to automatically manage documents organised into named collections, stored as JSON. DocLite takes advantage of the SQLite JSON1 extension to store, parse, index, and query JSON documents — giving you the power of a fully transactional, ACID-compliant NoSQL solution contained entirely within the local filesystem."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "plcR/L/dBWBiLI3bX8+PzMYnS2UNcVyAvcQNKszc6dM=",
+    "originContent": "DocLite lends itself to a variety of use cases: rapid prototyping, small-to-medium websites and applications, a fast local cache for remote API data, a robust replacement for flat-file stores, and a database for microservices or local web apps. Broadly, it suits the [same use cases as SQLite itself](https://www.sqlite.org/whentouse.html), but where a NoSQL document model is preferred.",
+    "translatedContent": "DocLite lends itself to a variety of use cases: rapid prototyping, small-to-medium websites and applications, a fast local cache for remote API data, a robust replacement for flat-file stores, and a database for microservices or local web apps. Broadly, it suits the [same use cases as SQLite itself](https://www.sqlite.org/whentouse.html), but where a NoSQL document model is preferred."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## Install"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 16,
+    "rowsha": "lWA44WmdxHY3IPP0Wwf4czXzUTpFtUfbCHww9GS8B7s=",
+    "originContent": "composer require dwgebler/doclite",
+    "translatedContent": "composer require dwgebler/doclite"
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "axXeegV78apjuASxB6+1DGX09q2BkPaSt4tKy0dCkrU=",
+    "originContent": "Requires PHP 8.1+ and the `pdo_sqlite` extension.",
+    "translatedContent": "Requires PHP 8.1+ and the `pdo_sqlite` extension."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "GPdYqCbvWPy0CO4Maw0OpK2K2UyKwCdPh7EF0uCvvEU=",
+    "originContent": "Upgrading from 1.x? See [UPGRADE-2.0.md](https://raw.githubusercontent.com/dwgebler/doclite/main/UPGRADE-2.0.md).",
+    "translatedContent": "Upgrading from 1.x? See [UPGRADE-2.0.md](https://raw.githubusercontent.com/dwgebler/doclite/main/UPGRADE-2.0.md)."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
+    "originContent": "## Quick start",
+    "translatedContent": "## Quick start"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 26,
+    "rowsha": "IuRlh3LAQ+8CEQ8QOQPRC+MfPoj7EUP5CwmFB3aLUmk=",
+    "originContent": "use Gebler\\Doclite\\FileDatabase;",
+    "translatedContent": "use Gebler\\Doclite\\FileDatabase;"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "DOkPR3YXPRF3D/7m1ugLxT8lg6+YU23odZKm33Vp9AA=",
+    "originContent": "$db = new FileDatabase('./data');",
+    "translatedContent": "$db = new FileDatabase('./data');"
+  },
+  {
+    "row": 29,
+    "rowsha": "IEHZpLOefPy0uk3W84bA6ZO+aDrwbA5j1MALLDfxQTY=",
+    "originContent": "$users = $db->collection('users');",
+    "translatedContent": "$users = $db->collection('users');"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "X97fIKRJ6qEHfVnYFF669S79tRpCshjwRhJewytshyk=",
+    "originContent": "$alice = $users->get();",
+    "translatedContent": "$alice = $users->get();"
+  },
+  {
+    "row": 32,
+    "rowsha": "6miMbofyPiyD45Hn/Dn2XOYTnYPCkO4p/5jUMk9V7TI=",
+    "originContent": "$alice->setValue('name', 'Alice');",
+    "translatedContent": "$alice->setValue('name', 'Alice');"
+  },
+  {
+    "row": 33,
+    "rowsha": "Ocuj+Xkf0mP+Cskrz82LDBq9CwCg3qLNBJ4f8IsL54A=",
+    "originContent": "$alice->setValue('email', 'alice@example.com');",
+    "translatedContent": "$alice->setValue('email', 'alice@example.com');"
+  },
+  {
+    "row": 34,
+    "rowsha": "bCbs3alEitRtcGOpLDDBdTo423Avs/8CNEckIMaDaf8=",
+    "originContent": "$alice->save();",
+    "translatedContent": "$alice->save();"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "w7JvStfxTGyQAbZwNjujmKW8IehRI8GF++uPpkVy5bM=",
+    "originContent": "$found = $users->findOneBy(['email' => 'alice@example.com']);",
+    "translatedContent": "$found = $users->findOneBy(['email' => 'alice@example.com']);"
+  },
+  {
+    "row": 37,
+    "rowsha": "biwQfr9IaXrEYv1VgIFoweKF6SQSzlvumj2qMWFmPyg=",
+    "originContent": "echo $found->getValue('name'); // Alice",
+    "translatedContent": "echo $found->getValue('name'); // Alice"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": "## Documentation"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "QxOxuAOZO6a3lVVs0YWDRUR80VIOkccZDozm+xRw5Ek=",
+    "originContent": "- [Getting started](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/getting-started.md) — installation, requirements, your first database",
+    "translatedContent": "- [Getting started](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/getting-started.md) — installation, requirements, your first database"
+  },
+  {
+    "row": 43,
+    "rowsha": "n15iWR0JeIzgW3o7qdfiATLFjlfnm2nH6X+CGjP9NTM=",
+    "originContent": "- [Collections & documents](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/collections.md) — CRUD, transactions, schemas, custom class mapping",
+    "translatedContent": "- [Collections & documents](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/collections.md) — CRUD, transactions, schemas, custom class mapping"
+  },
+  {
+    "row": 44,
+    "rowsha": "ip//ibHd6RQ12I0rQKYY/N7P9k7AaZCjZdD6mQhLilQ=",
+    "originContent": "- [Queries](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/queries.md) — query builder, joins, pagination, aggregation, indexing",
+    "translatedContent": "- [Queries](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/queries.md) — query builder, joins, pagination, aggregation, indexing"
+  },
+  {
+    "row": 45,
+    "rowsha": "loL+1CnxneCQUp7AqXKo6lfow8Ktact8+7gneRHYEeI=",
+    "originContent": "- [Full-text search](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/full-text-search.md) — FTS5-powered search",
+    "translatedContent": "- [Full-text search](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/full-text-search.md) — FTS5-powered search"
+  },
+  {
+    "row": 46,
+    "rowsha": "uH9iX608RCtbJ2q31TC5vQEpnwhkv5md1y3q5wlRkfU=",
+    "originContent": "- [Advanced](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/advanced.md) — import/export, journal modes, JSONB, PSR-16 cache adapter, logging",
+    "translatedContent": "- [Advanced](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/advanced.md) — import/export, journal modes, JSONB, PSR-16 cache adapter, logging"
+  },
+  {
+    "row": 47,
+    "rowsha": "PYCr3V8jzRbLeACdGKvIujubG8feg9/AVlWlW570Y8M=",
+    "originContent": "- [Symfony integration](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/symfony.md) — wiring DocLite into a Symfony app",
+    "translatedContent": "- [Symfony integration](https://raw.githubusercontent.com/dwgebler/doclite/main/docs/symfony.md) — wiring DocLite into a Symfony app"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "sDVyrHjNjPM7ScoqM5rFaCDUTgPWPu8aG16ilToPQIU=",
+    "originContent": "MIT. See [LICENSE](LICENSE).",
+    "translatedContent": "MIT. See [LICENSE](LICENSE)."
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "YiczPES2QNrfPFrXG+SHrUy27clLUGL8C0RYRg1w0aw=",
+    "originContent": "## Reporting bugs",
+    "translatedContent": "## Reporting bugs"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "Rlae11CaFfoSnNX1X02MaEL7x+EUxuJB2XdYPdl9xqA=",
+    "originContent": "Please raise an issue on [GitHub](https://github.com/dwgebler/doclite/issues).",
+    "translatedContent": "Please raise an issue on [GitHub](https://github.com/dwgebler/doclite/issues)."
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "1Jk/I9fKWyLEyxAixVvzu8YMXSFfDd5WjHEfyjDTBMw=",
+    "originContent": "## Reporting vulnerabilities",
+    "translatedContent": "## Reporting vulnerabilities"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "PDkgMxASSe7AfPBcA1rL2FdevuIsiIbUvgd+Z9g/D7w=",
+    "originContent": "See [SECURITY.md](https://raw.githubusercontent.com/dwgebler/doclite/main/SECURITY.md).",
+    "translatedContent": "See [SECURITY.md](https://raw.githubusercontent.com/dwgebler/doclite/main/SECURITY.md)."
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
