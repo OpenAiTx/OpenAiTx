@@ -1,0 +1,906 @@
+[
+  {
+    "Id": 1,
+    "Content": "# validate\n[![Build Status](https://travis-ci.org/dealancer/validate.svg?branch=v2)](https://travis-ci.org/dealancer/validate)\n[![codecov](https://codecov.io/gh/dealancer/validate/branch/v2/graph/badge.svg)](https://codecov.io/gh/dealancer/validate)\n[![Go Report Card](https://goreportcard.com/badge/gopkg.in/dealancer/validate.v2)](https://goreportcard.com/report/gopkg.in/dealancer/validate.v2)\n[![GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2?status.svg)](https://godoc.org/gopkg.in/dealancer/validate.v2)\n[![GitHub release](https://img.shields.io/github/release/dealancer/validate.svg)](https://github.com/dealancer/validate/releases)\n[![License](https://img.shields.io/github/license/dealancer/validate.svg)](./LICENSE)\n\nPackage **validate** validates Go struct and types recursively based on tags.\nIt provides powerful syntax to perform validation for substructs, maps, slices, arrays, and pointers. Package also allows to run custom validation methods.\n\nUse this package to make sure that the content of the struct is in the format you need.\nFor example, **validate** package is useful when unmarshalling YAML or JSON.\n\n## Installation\n\n1. Use `go get` to download validate package.",
+    "ContentSha": "wl/3yc+2pAsc4HEH8V21vZHfXw4ZY6HqU1RKllLL+Xk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# validate\n[![Build Status](https://travis-ci.org/dealancer/validate.svg?branch=v2)](https://travis-ci.org/dealancer/validate)\n[![codecov](https://codecov.io/gh/dealancer/validate/branch/v2/graph/badge.svg)](https://codecov.io/gh/dealancer/validate)\n[![Go Report Card](https://goreportcard.com/badge/gopkg.in/dealancer/validate.v2)](https://goreportcard.com/report/gopkg.in/dealancer/validate.v2)\n[![GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2?status.svg)](https://godoc.org/gopkg.in/dealancer/validate.v2)\n[![GitHub release](https://img.shields.io/github/release/dealancer/validate.svg)](https://github.com/dealancer/validate/releases)\n[![License](https://img.shields.io/github/license/dealancer/validate.svg)](./LICENSE)\n\nパッケージ**validate**はタグに基づいてGoの構造体および型を再帰的に検証します。\nサブ構造体、マップ、スライス、配列、ポインタの検証を行うための強力な構文を提供します。パッケージはカスタム検証メソッドの実行も可能です。\n\nこのパッケージを使用して、構造体の内容が必要な形式であることを確認してください。\n例えば、**validate**パッケージはYAMLやJSONのアンマーシャリング時に便利です。\n\n## インストール\n\n1. `go get`を使ってvalidateパッケージをダウンロードします。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LeihH2g5VC9+32asD+G83EpVhqr6ixa9OWMpuyXjHC4=",
+        "originContent": "# validate",
+        "translatedContent": "# validate"
+      },
+      {
+        "row": 2,
+        "rowsha": "vWBOqT4HbOhYCEL2Mo+yaItefwBz1yB2Y30BIoKTWMI=",
+        "originContent": "[![Build Status](https://travis-ci.org/dealancer/validate.svg?branch=v2)](https://travis-ci.org/dealancer/validate)",
+        "translatedContent": "[![Build Status](https://travis-ci.org/dealancer/validate.svg?branch=v2)](https://travis-ci.org/dealancer/validate)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Uh7CGym2QyDigB7ZohE0dYaYTSRk32hpkXXraeDAD6U=",
+        "originContent": "[![codecov](https://codecov.io/gh/dealancer/validate/branch/v2/graph/badge.svg)](https://codecov.io/gh/dealancer/validate)",
+        "translatedContent": "[![codecov](https://codecov.io/gh/dealancer/validate/branch/v2/graph/badge.svg)](https://codecov.io/gh/dealancer/validate)"
+      },
+      {
+        "row": 4,
+        "rowsha": "+2J1XVV1caHjVyLH3wthRNPHFco+04g4w9m0T4dS5gI=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/gopkg.in/dealancer/validate.v2)](https://goreportcard.com/report/gopkg.in/dealancer/validate.v2)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/gopkg.in/dealancer/validate.v2)](https://goreportcard.com/report/gopkg.in/dealancer/validate.v2)"
+      },
+      {
+        "row": 5,
+        "rowsha": "io1z4nIYNwfou0K3Xo89gGqZMr+/P4kI2ZFsPFJTrMU=",
+        "originContent": "[![GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2?status.svg)](https://godoc.org/gopkg.in/dealancer/validate.v2)",
+        "translatedContent": "[![GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2?status.svg)](https://godoc.org/gopkg.in/dealancer/validate.v2)"
+      },
+      {
+        "row": 6,
+        "rowsha": "B40aWq2YQnRmkd1mPZtGmcPQgqqdS5an7g3bJLvlGcM=",
+        "originContent": "[![GitHub release](https://img.shields.io/github/release/dealancer/validate.svg)](https://github.com/dealancer/validate/releases)",
+        "translatedContent": "[![GitHub release](https://img.shields.io/github/release/dealancer/validate.svg)](https://github.com/dealancer/validate/releases)"
+      },
+      {
+        "row": 7,
+        "rowsha": "RCFjgvcNhD9DI7Jebl/6a9itwlGjlePFf+DudA3ZfG4=",
+        "originContent": "[![License](https://img.shields.io/github/license/dealancer/validate.svg)](./LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/github/license/dealancer/validate.svg)](./LICENSE)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1X0bPpCxzAMeaEjSAUqlz+LvxLQ0HarA0rCvKHcH3T0=",
+        "originContent": "Package **validate** validates Go struct and types recursively based on tags.",
+        "translatedContent": "パッケージ**validate**はタグに基づいてGoの構造体および型を再帰的に検証します。"
+      },
+      {
+        "row": 10,
+        "rowsha": "yzIeH9mLjif1uliwAWSkY0hK40iVcK41r/d/MiX7Vnw=",
+        "originContent": "It provides powerful syntax to perform validation for substructs, maps, slices, arrays, and pointers. Package also allows to run custom validation methods.",
+        "translatedContent": "サブ構造体、マップ、スライス、配列、ポインタの検証を行うための強力な構文を提供します。パッケージはカスタム検証メソッドの実行も可能です。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "LJlhtEJpsM/PTr+p8n/BCYSb19pDeOcqezjlzRCZRU0=",
+        "originContent": "Use this package to make sure that the content of the struct is in the format you need.",
+        "translatedContent": "このパッケージを使用して、構造体の内容が必要な形式であることを確認してください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "J4XVEQfZj3nA4G4P00/VocGJBrOlLJG97JcPRqYeRnM=",
+        "originContent": "For example, **validate** package is useful when unmarshalling YAML or JSON.",
+        "translatedContent": "例えば、**validate**パッケージはYAMLやJSONのアンマーシャリング時に便利です。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "k9fJXcNLEgHxyTV1+hNUeHgV4YumLZSkJzC+nkUCJd0=",
+        "originContent": "1. Use `go get` to download validate package.",
+        "translatedContent": "1. `go get`を使ってvalidateパッケージをダウンロードします。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```\n   go get gopkg.in/dealancer/validate.v2\n   ```",
+    "ContentSha": "DWJ4A53eXSWRrrHGctB56MA1OK+GEPqaWZQfUBFaW/c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n   go get gopkg.in/dealancer/validate.v2\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OeT1u+jA+BajgZm8wxJDwi1o5MZ5lYVMbY1bAaRov7I=",
+        "originContent": "   go get gopkg.in/dealancer/validate.v2",
+        "translatedContent": "   go get gopkg.in/dealancer/validate.v2"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "2. Import validate package into your project.",
+    "ContentSha": "fTkqyizCkH2TAJl1eVQMgdWK7dEecBikV+J3+4dU2Wo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. プロジェクトにvalidateパッケージをインポートします。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fTkqyizCkH2TAJl1eVQMgdWK7dEecBikV+J3+4dU2Wo=",
+        "originContent": "2. Import validate package into your project.",
+        "translatedContent": "2. プロジェクトにvalidateパッケージをインポートします。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```go\n   import \"gopkg.in/dealancer/validate.v2\"\n   ```",
+    "ContentSha": "ziQIm9w8h1Oan0P/HrOwPU2wuq/Ubp/YkH9OEFt1GzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```go\n   import \"gopkg.in/dealancer/validate.v2\"\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iTYZ7m0/WgYl854aH0HlrV2RrMvwtwB4bLNO3Qk7df8=",
+        "originContent": "   ```go",
+        "translatedContent": "   ```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "pCSTxhG+LB5HiM5Q7a4CmH8VCHZrBP8EbCy9zAOeuzU=",
+        "originContent": "   import \"gopkg.in/dealancer/validate.v2\"",
+        "translatedContent": "   import \"gopkg.in/dealancer/validate.v2\""
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n\n## Types\n\nThis package supports a wide variety of types.\n\n* Most of the built-in types:\n  * `int`, `int8` `int16`, `int32`, `int64`\n  * `uint`, `uint8`, `uint16`, `uint32`, `uint64`\n  * `float32`, `float64`\n  * `uintptr`\n  * `string`\n* Aliased types:\n  * `time.Duration`\n  * `byte` (`uint8`)\n  * `rune` (`int32`)\n  * e.g. `type Enum string`\n* Complex types:\n  * Struct\n  * Map\n  * Slice\n  * Array\n  * Pointer\n\n## Validators\n\nThis package provides the following validators.\n\n* `eq` (equals), `ne` (not equals), `gt` (greater than), `lt` (less than), `gte` (greater than or equal to), `lte` (less than or equal to) validators compare a numeric value of a number or compare a count of elements in a string, a map, a slice, or an array.\n* `empty` validator checks if a string, a map, a slice, or an array is (not) empty.\n* `nil` validator checks if a pointer is (not) nil.\n* `one_of` validator checks if a number or a string contains any of the given elements.\n* `format` validator checks if a string in one of the following formats: `alpha`, `alnum`, `alpha_unicode`, `alnum_unicode`, `numeric`, `number`, `hexadecimal`, `hexcolor`, `rgb`, `rgba`, `hsl`, `hsla`, `email`, `url`, `uri`, `urn_rfc2141`, `file`, `base64`, `base64url`, `isbn`, `isbn10`, `isbn13`, `eth_addr`, `btc_addr`, `btc_addr_bech32`, `uuid`, `uuid3`, `uuid4`, `uuid5`, `ascii`, `ascii_print`, `datauri`, `latitude`, `longitude`, `ssn`, `ipv4`, `ipv6`, `ip`, `cidrv4`, `cidrv6`, `cidr`, `mac`, `hostname`, `hostname_rfc1123`, `fqdn`, `url_encoded`, `dir`, `postcode`.\n\n## Operators\n\nFollowing operators are used. There are listed in the descending order of their precedence.\n\n* `[]` (brackets) are used to validate map keys.\n* `>` (greater-than sign) is used to validate values of maps, slices, arrays or to dereference a pointer.",
+    "ContentSha": "SY/PiuVoCkYPKyUN+kTD8zvqg7ax4EIIgVKBJ1diXF4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 種類\n\nこのパッケージは多種多様な型をサポートしています。\n\n* ほとんどの組み込み型：\n  * `int`、`int8`、`int16`、`int32`、`int64`\n  * `uint`、`uint8`、`uint16`、`uint32`、`uint64`\n  * `float32`、`float64`\n  * `uintptr`\n  * `string`\n* 別名型：\n  * `time.Duration`\n  * `byte`（`uint8`）\n  * `rune`（`int32`）\n  * 例：`type Enum string`\n* 複合型：\n  * 構造体（Struct）\n  * マップ（Map）\n  * スライス（Slice）\n  * 配列（Array）\n  * ポインタ（Pointer）\n\n## バリデータ\n\nこのパッケージは次のバリデータを提供します。\n\n* `eq`（等しい）、`ne`（等しくない）、`gt`（より大きい）、`lt`（より小さい）、`gte`（以上）、`lte`（以下）バリデータは、数値の数値的値を比較するか、文字列、マップ、スライス、配列の要素数を比較します。\n* `empty` バリデータは、文字列、マップ、スライス、配列が（空であるか）空でないかをチェックします。\n* `nil` バリデータは、ポインタが（nilであるか）nilでないかをチェックします。\n* `one_of` バリデータは、数値または文字列が指定された要素のいずれかを含むかをチェックします。\n* `format` バリデータは、文字列が次のいずれかの形式であるかをチェックします：`alpha`、`alnum`、`alpha_unicode`、`alnum_unicode`、`numeric`、`number`、`hexadecimal`、`hexcolor`、`rgb`、`rgba`、`hsl`、`hsla`、`email`、`url`、`uri`、`urn_rfc2141`、`file`、`base64`、`base64url`、`isbn`、`isbn10`、`isbn13`、`eth_addr`、`btc_addr`、`btc_addr_bech32`、`uuid`、`uuid3`、`uuid4`、`uuid5`、`ascii`、`ascii_print`、`datauri`、`latitude`、`longitude`、`ssn`、`ipv4`、`ipv6`、`ip`、`cidrv4`、`cidrv6`、`cidr`、`mac`、`hostname`、`hostname_rfc1123`、`fqdn`、`url_encoded`、`dir`、`postcode`。\n\n## 演算子\n\n以下の演算子が使用されます。優先度の高い順にリストされています。\n\n* `[]`（ブラケット）はマップのキーを検証するために使用されます。\n* `>`（大なり記号）はマップ、スライス、配列の値を検証するか、ポインタの参照外しに使用されます。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 種類"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "01Aafc+hOBptpZNs+8VFaCiM+m1oME1nJdNjEYlumCw=",
+        "originContent": "## Types",
+        "translatedContent": "このパッケージは多種多様な型をサポートしています。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Nv/4TNA3CMQhAQOhq4s7F9QrrjtJ/qRFGvDrqwtGInY=",
+        "originContent": "This package supports a wide variety of types.",
+        "translatedContent": "* ほとんどの組み込み型："
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  * `int`、`int8`、`int16`、`int32`、`int64`"
+      },
+      {
+        "row": 7,
+        "rowsha": "eB4awtbYeX1ir+y/vERMqHBbUIGhxBnSdvlxzbfWx18=",
+        "originContent": "* Most of the built-in types:",
+        "translatedContent": "  * `uint`、`uint8`、`uint16`、`uint32`、`uint64`"
+      },
+      {
+        "row": 8,
+        "rowsha": "U3nJdbrxA6Np5uyKY4VQLu3H/ks7D7KqaHXH9Sy50kE=",
+        "originContent": "  * `int`, `int8` `int16`, `int32`, `int64`",
+        "translatedContent": "  * `float32`、`float64`"
+      },
+      {
+        "row": 9,
+        "rowsha": "61kK7XUhQ2DlDOgxJQagpdnQ6oEvzIeeRADS8TgnV8E=",
+        "originContent": "  * `uint`, `uint8`, `uint16`, `uint32`, `uint64`",
+        "translatedContent": "  * `uintptr`"
+      },
+      {
+        "row": 10,
+        "rowsha": "1kUZTkYoSjuQL2Frxi5UOiIG69p94+TAzPauwybWjpQ=",
+        "originContent": "  * `float32`, `float64`",
+        "translatedContent": "  * `string`"
+      },
+      {
+        "row": 11,
+        "rowsha": "1bQ5gpQJaMjdpiwBJnV5//tzh7YgFKo+ZJwlCAI2168=",
+        "originContent": "  * `uintptr`",
+        "translatedContent": "* 別名型："
+      },
+      {
+        "row": 12,
+        "rowsha": "WpBUbRkZTDVjouVjqvJtx2XUnF3Z92so3JZEd9quZ90=",
+        "originContent": "  * `string`",
+        "translatedContent": "  * `time.Duration`"
+      },
+      {
+        "row": 13,
+        "rowsha": "lbLcsjOsWLDTsE7Z91uo+L2aDV31Y0vsujzyyrhnRjM=",
+        "originContent": "* Aliased types:",
+        "translatedContent": "  * `byte`（`uint8`）"
+      },
+      {
+        "row": 14,
+        "rowsha": "Jv6raRY+ItBmSMi1hmvOwZNSLmHpaMUpb6hodJshUSM=",
+        "originContent": "  * `time.Duration`",
+        "translatedContent": "  * `rune`（`int32`）"
+      },
+      {
+        "row": 15,
+        "rowsha": "gp08tAj4UYo1fTEXbgS/+8tqj7aoFD6yJJ/FURDpWSg=",
+        "originContent": "  * `byte` (`uint8`)",
+        "translatedContent": "  * 例：`type Enum string`"
+      },
+      {
+        "row": 16,
+        "rowsha": "GTgeezBnZLH1mlVIjP6gjWFIoemUOCpJfseQoYCu2ws=",
+        "originContent": "  * `rune` (`int32`)",
+        "translatedContent": "* 複合型："
+      },
+      {
+        "row": 17,
+        "rowsha": "UVge62JoyEOK0bSMw6rICv/FLrfsvhUl/xfQWTtpRwc=",
+        "originContent": "  * e.g. `type Enum string`",
+        "translatedContent": "  * 構造体（Struct）"
+      },
+      {
+        "row": 18,
+        "rowsha": "EdEWIcbsmMjJZc1QbmRNVVzoxV9OVKbLWMJobgE4e7U=",
+        "originContent": "* Complex types:",
+        "translatedContent": "  * マップ（Map）"
+      },
+      {
+        "row": 19,
+        "rowsha": "I8gjVF1iaypqyM9CU3mIGa/h3aooi0hQRbOlQcTv4C8=",
+        "originContent": "  * Struct",
+        "translatedContent": "  * スライス（Slice）"
+      },
+      {
+        "row": 20,
+        "rowsha": "v063RcA5nli2S+JjYxsllTHdYCxgv/GM1s6inWgizIM=",
+        "originContent": "  * Map",
+        "translatedContent": "  * 配列（Array）"
+      },
+      {
+        "row": 21,
+        "rowsha": "qKoDvszCBssrN1nioemXPMX0LOfivNURPrsUpxSTjAQ=",
+        "originContent": "  * Slice",
+        "translatedContent": "  * ポインタ（Pointer）"
+      },
+      {
+        "row": 22,
+        "rowsha": "1h1Pcb/fZdho6CLz5HoufpJDKykDuIVIb6VT8LkOKBQ=",
+        "originContent": "  * Array",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "eVEYEerEbMhTK44SYxirfZDsTB2is+e5Ht0FdUgoK8k=",
+        "originContent": "  * Pointer",
+        "translatedContent": "## バリデータ"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "OMi3lpVBzy7wEnkKSPChWfhM6iKg3pXVk2nI4E21LV0=",
+        "originContent": "## Validators",
+        "translatedContent": "このパッケージは次のバリデータを提供します。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "IZxj006HMxD89df5Rqq/CUQN88yZb24/WBX8eQ6pXPk=",
+        "originContent": "This package provides the following validators.",
+        "translatedContent": "* `eq`（等しい）、`ne`（等しくない）、`gt`（より大きい）、`lt`（より小さい）、`gte`（以上）、`lte`（以下）バリデータは、数値の数値的値を比較するか、文字列、マップ、スライス、配列の要素数を比較します。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `empty` バリデータは、文字列、マップ、スライス、配列が（空であるか）空でないかをチェックします。"
+      },
+      {
+        "row": 29,
+        "rowsha": "yGd4TC/JFmmMjypWJZvbCR86+RNb5i+8YK/0EPcAu0g=",
+        "originContent": "* `eq` (equals), `ne` (not equals), `gt` (greater than), `lt` (less than), `gte` (greater than or equal to), `lte` (less than or equal to) validators compare a numeric value of a number or compare a count of elements in a string, a map, a slice, or an array.",
+        "translatedContent": "* `nil` バリデータは、ポインタが（nilであるか）nilでないかをチェックします。"
+      },
+      {
+        "row": 30,
+        "rowsha": "7Ga7l81l5SBFosYUTZaUIcJelfGRVfkmOFugdHc68iU=",
+        "originContent": "* `empty` validator checks if a string, a map, a slice, or an array is (not) empty.",
+        "translatedContent": "* `one_of` バリデータは、数値または文字列が指定された要素のいずれかを含むかをチェックします。"
+      },
+      {
+        "row": 31,
+        "rowsha": "wVRXJrkQ0yau25/f+9TJrgerrdxplTUWaYWgyVlFsP4=",
+        "originContent": "* `nil` validator checks if a pointer is (not) nil.",
+        "translatedContent": "* `format` バリデータは、文字列が次のいずれかの形式であるかをチェックします：`alpha`、`alnum`、`alpha_unicode`、`alnum_unicode`、`numeric`、`number`、`hexadecimal`、`hexcolor`、`rgb`、`rgba`、`hsl`、`hsla`、`email`、`url`、`uri`、`urn_rfc2141`、`file`、`base64`、`base64url`、`isbn`、`isbn10`、`isbn13`、`eth_addr`、`btc_addr`、`btc_addr_bech32`、`uuid`、`uuid3`、`uuid4`、`uuid5`、`ascii`、`ascii_print`、`datauri`、`latitude`、`longitude`、`ssn`、`ipv4`、`ipv6`、`ip`、`cidrv4`、`cidrv6`、`cidr`、`mac`、`hostname`、`hostname_rfc1123`、`fqdn`、`url_encoded`、`dir`、`postcode`。"
+      },
+      {
+        "row": 32,
+        "rowsha": "/eQ32fTb99OWJcTHLyVp7cbURHOzrlUu7oxld0f/42o=",
+        "originContent": "* `one_of` validator checks if a number or a string contains any of the given elements.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "uDK4YvKKGQ5sTMU0npOL01kIHJu+i+b6J+NVoRR152w=",
+        "originContent": "* `format` validator checks if a string in one of the following formats: `alpha`, `alnum`, `alpha_unicode`, `alnum_unicode`, `numeric`, `number`, `hexadecimal`, `hexcolor`, `rgb`, `rgba`, `hsl`, `hsla`, `email`, `url`, `uri`, `urn_rfc2141`, `file`, `base64`, `base64url`, `isbn`, `isbn10`, `isbn13`, `eth_addr`, `btc_addr`, `btc_addr_bech32`, `uuid`, `uuid3`, `uuid4`, `uuid5`, `ascii`, `ascii_print`, `datauri`, `latitude`, `longitude`, `ssn`, `ipv4`, `ipv6`, `ip`, `cidrv4`, `cidrv6`, `cidr`, `mac`, `hostname`, `hostname_rfc1123`, `fqdn`, `url_encoded`, `dir`, `postcode`.",
+        "translatedContent": "## 演算子"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "6ES/Qm+jCSb6zg7xVfTYrTaTNE/yvAkTsJx5hEvzJkw=",
+        "originContent": "## Operators",
+        "translatedContent": "以下の演算子が使用されます。優先度の高い順にリストされています。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "rl41L2v5ArIdtEWbEP1kBnnXB3dGPxV0vFKoEU4J2Ic=",
+        "originContent": "Following operators are used. There are listed in the descending order of their precedence.",
+        "translatedContent": "* `[]`（ブラケット）はマップのキーを検証するために使用されます。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `>`（大なり記号）はマップ、スライス、配列の値を検証するか、ポインタの参照外しに使用されます。"
+      },
+      {
+        "row": 39,
+        "rowsha": "80JlQP3PUhCQWAxQ5wdi7s3u6rsZo9lkqBZLffhmzvo=",
+        "originContent": "* `[]` (brackets) are used to validate map keys.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "QkBTaGMQEDGIyXUXY4JV7C8aMxsteXbZXvDZxqaWiVI=",
+        "originContent": "* `>` (greater-than sign) is used to validate values of maps, slices, arrays or to dereference a pointer.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "* `&` (ampersand) is used to perform multiple validators using AND logic.\n* `|` (vertical bar) is used to perform multiple validators using OR logic.\n* `=` (equal sign) is used to separate validator type from value.\n* `,` (comma) is used to specify multiple tokens for a validator (e.g. `one_of`).\n\n## Usage\n",
+    "ContentSha": "CgCzFa9hMX5362Y0C9+FfWoI2stBEKevMVQu1otsBwg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* `&`（アンパサンド）は、AND論理を使用して複数のバリデータを実行するために使用されます。  \n* `|`（縦棒）は、OR論理を使用して複数のバリデータを実行するために使用されます。  \n* `=`（等号）は、バリデータの種類と値を区切るために使用されます。  \n* `,`（コンマ）は、バリデータに複数のトークンを指定するために使用されます（例：`one_of`）。  \n\n## 使用方法\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hdythHyT2CWbYSEW8d3Lkjb1VvperrKsG/TKfWTwjYs=",
+        "originContent": "* `&` (ampersand) is used to perform multiple validators using AND logic.",
+        "translatedContent": "* `&`（アンパサンド）は、AND論理を使用して複数のバリデータを実行するために使用されます。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "zIMPIBqYI6T/bLhZK5LYVVqmK+1bcajjTuqO9YXlFj4=",
+        "originContent": "* `|` (vertical bar) is used to perform multiple validators using OR logic.",
+        "translatedContent": "* `|`（縦棒）は、OR論理を使用して複数のバリデータを実行するために使用されます。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "1uiCD4HvvS+V3rLRAZjriDfEbihgPd/G/1VmJN/hR5c=",
+        "originContent": "* `=` (equal sign) is used to separate validator type from value.",
+        "translatedContent": "* `=`（等号）は、バリデータの種類と値を区切るために使用されます。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "JVRkskS6OfFk8tFMoHujGF8xUfRuHw6+9eT/dg9DrcI=",
+        "originContent": "* `,` (comma) is used to specify multiple tokens for a validator (e.g. `one_of`).",
+        "translatedContent": "* `,`（コンマ）は、バリデータに複数のトークンを指定するために使用されます（例：`one_of`）。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```go\ntype Registration struct {\n    // Username should be between 3 and 25 characters and in alphanumeric unicode format\n    Username string `validate:\"gte=3 & lte=25 & format=alnum_unicode\"`\n\n    // Email should be empty or in the email format\n    Email string `validate:\"empty=true | format=email\"`\n\n    // Password is validated using a custom validation method\n    Password string\n\n    // Role should be one of \"admin\", \"publisher\", or \"author\"\n    Role string `validate:\"one_of=admin,publisher,author\"`\n\n    // URLs should not be empty, URLs values should be in the url format\n    URLs []string `validate:\"empty=false > format=url\"`\n\n    // Retired (pointer) should not be nil\n    Retired *bool `validate:\"nil=false\"`\n\n    // Some complex field with validation\n    Complex []map[*string]int `validate:\"gte=1 & lte=2 | eq=4 > empty=false [nil=false > empty=false] > ne=0\"`\n}\n\n// Custom validation\nfunc (r Registration) Validate() error {\n    if !StrongPass(r.Password) {\n        return errors.New(\"Password should be strong!\")\n    }\n\n    return nil\n}\n\ntype Registrations struct {\n\tr []Registration `validate:\"gte=2\"` // There should be at least two registrations\n}\n```",
+    "ContentSha": "DfCooQ2Zc7tiCHHlK6PIDEecWKOhmxO2ondtmqIHDFc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\ntype Registration struct {\n    // Username should be between 3 and 25 characters and in alphanumeric unicode format\n    Username string `validate:\"gte=3 & lte=25 & format=alnum_unicode\"`\n\n    // Email should be empty or in the email format\n    Email string `validate:\"empty=true | format=email\"`\n\n    // Password is validated using a custom validation method\n    Password string\n\n    // Role should be one of \"admin\", \"publisher\", or \"author\"\n    Role string `validate:\"one_of=admin,publisher,author\"`\n\n    // URLs should not be empty, URLs values should be in the url format\n    URLs []string `validate:\"empty=false > format=url\"`\n\n    // Retired (pointer) should not be nil\n    Retired *bool `validate:\"nil=false\"`\n\n    // Some complex field with validation\n    Complex []map[*string]int `validate:\"gte=1 & lte=2 | eq=4 > empty=false [nil=false > empty=false] > ne=0\"`\n}\n\n// Custom validation\nfunc (r Registration) Validate() error {\n    if !StrongPass(r.Password) {\n        return errors.New(\"Password should be strong!\")\n    }\n\n    return nil\n}\n\ntype Registrations struct {\n\tr []Registration `validate:\"gte=2\"` // There should be at least two registrations\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "Kxh0yJZw+HvnpeazXJ9hvkINriJtbvzYcbDgM4bETVk=",
+        "originContent": "type Registration struct {",
+        "translatedContent": "type Registration struct {"
+      },
+      {
+        "row": 3,
+        "rowsha": "FX80W9bG5zIiux8unvI4gH9pIOwE3m3L2igiAIMjPgw=",
+        "originContent": "    // Username should be between 3 and 25 characters and in alphanumeric unicode format",
+        "translatedContent": "    // Username should be between 3 and 25 characters and in alphanumeric unicode format"
+      },
+      {
+        "row": 4,
+        "rowsha": "E3vddC2tIvoSvuSj6X9aBuNcFhi7o4X47VYDCuM5yRM=",
+        "originContent": "    Username string `validate:\"gte=3 & lte=25 & format=alnum_unicode\"`",
+        "translatedContent": "    Username string `validate:\"gte=3 & lte=25 & format=alnum_unicode\"`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "V1yHdxqnIaBo39WwKjP1HjwUAYKY/okMF+Eifxya/IA=",
+        "originContent": "    // Email should be empty or in the email format",
+        "translatedContent": "    // Email should be empty or in the email format"
+      },
+      {
+        "row": 7,
+        "rowsha": "+Sq6fspKa9kxSNS5MhpmQZncLoqmRG5lpeB9yfZ8+/Y=",
+        "originContent": "    Email string `validate:\"empty=true | format=email\"`",
+        "translatedContent": "    Email string `validate:\"empty=true | format=email\"`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UHjtN7B+J6d4nOSVVQCEMR/FDWDrb61s9WK9aOkRdk4=",
+        "originContent": "    // Password is validated using a custom validation method",
+        "translatedContent": "    // Password is validated using a custom validation method"
+      },
+      {
+        "row": 10,
+        "rowsha": "mruQG3Teq52cY3HfKitwTFD8FQ5Ua/6rAHv4gL2ZT/I=",
+        "originContent": "    Password string",
+        "translatedContent": "    Password string"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "39snCOc31GedauktHPo8kfv6oRVcIojvkw56VrnqnO8=",
+        "originContent": "    // Role should be one of \"admin\", \"publisher\", or \"author\"",
+        "translatedContent": "    // Role should be one of \"admin\", \"publisher\", or \"author\""
+      },
+      {
+        "row": 13,
+        "rowsha": "Bl/gIyRT8CiBMzy35z/VcGDnxUd51ZjRipPEUC11cfk=",
+        "originContent": "    Role string `validate:\"one_of=admin,publisher,author\"`",
+        "translatedContent": "    Role string `validate:\"one_of=admin,publisher,author\"`"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "hKjk14KGqNVMbJXyCoxeVhCTWz1nZQIz0vSaDnw9MCM=",
+        "originContent": "    // URLs should not be empty, URLs values should be in the url format",
+        "translatedContent": "    // URLs should not be empty, URLs values should be in the url format"
+      },
+      {
+        "row": 16,
+        "rowsha": "+V7BqqyibtjTqQAoK3B1LaL0o769I/n8//KxOM71flQ=",
+        "originContent": "    URLs []string `validate:\"empty=false > format=url\"`",
+        "translatedContent": "    URLs []string `validate:\"empty=false > format=url\"`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "0Yr2LMZckY0ozi+T82Ohd327VXGabOHOnX3X5H2ny7E=",
+        "originContent": "    // Retired (pointer) should not be nil",
+        "translatedContent": "    // Retired (pointer) should not be nil"
+      },
+      {
+        "row": 19,
+        "rowsha": "MwTksnGdsf2AedR0wptYBVYl3kv+NU1MEKor6Laa+jM=",
+        "originContent": "    Retired *bool `validate:\"nil=false\"`",
+        "translatedContent": "    Retired *bool `validate:\"nil=false\"`"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "AGZjJl46iblRBTGWK3SCUumvlWe7OTjaO5K0T2e27T8=",
+        "originContent": "    // Some complex field with validation",
+        "translatedContent": "    // Some complex field with validation"
+      },
+      {
+        "row": 22,
+        "rowsha": "JsT1HtSWoWM5yKcIs4L8fHtpr5tZLmVImblTTbF8PDE=",
+        "originContent": "    Complex []map[*string]int `validate:\"gte=1 & lte=2 | eq=4 > empty=false [nil=false > empty=false] > ne=0\"`",
+        "translatedContent": "    Complex []map[*string]int `validate:\"gte=1 & lte=2 | eq=4 > empty=false [nil=false > empty=false] > ne=0\"`"
+      },
+      {
+        "row": 23,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "TKS2sBelUobe6oNvVRkjJSYbPVQETJeuurEMqboFsa0=",
+        "originContent": "// Custom validation",
+        "translatedContent": "// Custom validation"
+      },
+      {
+        "row": 26,
+        "rowsha": "xflpJjXrZAPmO0iVklZWXPp6Yt2WR5pOAypmf8WzXHY=",
+        "originContent": "func (r Registration) Validate() error {",
+        "translatedContent": "func (r Registration) Validate() error {"
+      },
+      {
+        "row": 27,
+        "rowsha": "3ast7N8cQM4fuD41VLU2gd+mSwAVaszLNKw0rAo5ogM=",
+        "originContent": "    if !StrongPass(r.Password) {",
+        "translatedContent": "    if !StrongPass(r.Password) {"
+      },
+      {
+        "row": 28,
+        "rowsha": "19BpPlka+QhsfAOD2Sh0+d1lKMYoPWDE4BVPI3enolU=",
+        "originContent": "        return errors.New(\"Password should be strong!\")",
+        "translatedContent": "        return errors.New(\"Password should be strong!\")"
+      },
+      {
+        "row": 29,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "mx2TENlbB5idIYjONijnV5b02hvDRXNK73xwl6InYJg=",
+        "originContent": "    return nil",
+        "translatedContent": "    return nil"
+      },
+      {
+        "row": 32,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "CrzlRqE6nLvh6gFKwVFxvpix9K65J116hiZqxRumpHo=",
+        "originContent": "type Registrations struct {",
+        "translatedContent": "type Registrations struct {"
+      },
+      {
+        "row": 35,
+        "rowsha": "xDYIhm4+PHmJ6DqsQYDXU0HAhldWqZntl8Hh2Dm7Irw=",
+        "originContent": "\tr []Registration `validate:\"gte=2\"` // There should be at least two registrations",
+        "translatedContent": "\tr []Registration `validate:\"gte=2\"` // There should be at least two registrations"
+      },
+      {
+        "row": 36,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 37,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```go\nregistrations := Registrations{\n\tr: []Registration{\n\t\tRegistration{\n\t\t\tUsername: \"admin\",\n\t\t},\n\t},\n}\n\nif err := validate.Validate(&registrations); err != nil {\n\tpanic(err)\n}\n```",
+    "ContentSha": "1J3csQeq6jcPkxkxPUNvcp5EuxVvFS5h3GGid+b7GEY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\nregistrations := Registrations{\n\tr: []Registration{\n\t\tRegistration{\n\t\t\tUsername: \"admin\",\n\t\t},\n\t},\n}\n\nif err := validate.Validate(&registrations); err != nil {\n\tpanic(err)\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "HplbislOF2SVE6Lw+QBWxE3rMit79a1WXtB8TQsw3UQ=",
+        "originContent": "registrations := Registrations{",
+        "translatedContent": "registrations := Registrations{"
+      },
+      {
+        "row": 3,
+        "rowsha": "Tjg0VZs6EWHFihXURAu+0T98AKIjx8+cruTKk2RjCwU=",
+        "originContent": "\tr: []Registration{",
+        "translatedContent": "\tr: []Registration{"
+      },
+      {
+        "row": 4,
+        "rowsha": "hLQak0vP5hG25moetAydsRnwyT1yfXd2DJNFQ7MAxi0=",
+        "originContent": "\t\tRegistration{",
+        "translatedContent": "\t\tRegistration{"
+      },
+      {
+        "row": 5,
+        "rowsha": "4qzkq2pgYmDqiS4RRb9k3JS2TN8OA7KK4QbhvJ57ztQ=",
+        "originContent": "\t\t\tUsername: \"admin\",",
+        "translatedContent": "\t\t\tUsername: \"admin\","
+      },
+      {
+        "row": 6,
+        "rowsha": "t/qIiHG/kN3jFttACMW275mPNfC2TXM1wrRLFI9dihk=",
+        "originContent": "\t\t},",
+        "translatedContent": "\t\t},"
+      },
+      {
+        "row": 7,
+        "rowsha": "7Q299uZf+Uj/1YxxhHt72H+AODJ+jAacNGWecbWMC5w=",
+        "originContent": "\t},",
+        "translatedContent": "\t},"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LN3RoXwPITHPq8GW83Osk0jPWqKjWPl1ZkRIDX+79yY=",
+        "originContent": "if err := validate.Validate(&registrations); err != nil {",
+        "translatedContent": "if err := validate.Validate(&registrations); err != nil {"
+      },
+      {
+        "row": 11,
+        "rowsha": "HjSrfxsAmYWWIXl3bBlQTfpwHLGcELpJV3ZVHrvzfxo=",
+        "originContent": "\tpanic(err)",
+        "translatedContent": "\tpanic(err)"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nSee [GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2) for the complete reference.\n\n## Credits\n\nThis project has been written by Ben Myrgorod before Vibe Coding tools existed. Insipred by [go-playground/validator](https://github.com/go-playground/validator).\n",
+    "ContentSha": "idiUdImfup1WtLd7TQStLiIc+/wE851qDKor4dJNcp4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n完全なリファレンスについては、[GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2) を参照してください。\n\n## クレジット\n\nこのプロジェクトは、Vibe Coding ツールが存在する前に Ben Myrgorod によって書かれました。[go-playground/validator](https://github.com/go-playground/validator) に触発されています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VrZIxhvDEQRWV8ejKYywX+97TM0+pHpR6epXRLfUfOU=",
+        "originContent": "See [GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2) for the complete reference.",
+        "translatedContent": "完全なリファレンスについては、[GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2) を参照してください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## クレジット"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Elsu0WClgLqRHziVFfWcGpOBLVpeljmB+nPYzFV58JI=",
+        "originContent": "This project has been written by Ben Myrgorod before Vibe Coding tools existed. Insipred by [go-playground/validator](https://github.com/go-playground/validator).",
+        "translatedContent": "このプロジェクトは、Vibe Coding ツールが存在する前に Ben Myrgorod によって書かれました。[go-playground/validator](https://github.com/go-playground/validator) に触発されています。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

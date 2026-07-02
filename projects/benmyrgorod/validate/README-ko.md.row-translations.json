@@ -1,0 +1,776 @@
+[
+  {
+    "row": 1,
+    "rowsha": "LeihH2g5VC9+32asD+G83EpVhqr6ixa9OWMpuyXjHC4=",
+    "originContent": "# validate",
+    "translatedContent": "# validate"
+  },
+  {
+    "row": 2,
+    "rowsha": "vWBOqT4HbOhYCEL2Mo+yaItefwBz1yB2Y30BIoKTWMI=",
+    "originContent": "[![Build Status](https://travis-ci.org/dealancer/validate.svg?branch=v2)](https://travis-ci.org/dealancer/validate)",
+    "translatedContent": "[![Build Status](https://travis-ci.org/dealancer/validate.svg?branch=v2)](https://travis-ci.org/dealancer/validate)"
+  },
+  {
+    "row": 3,
+    "rowsha": "Uh7CGym2QyDigB7ZohE0dYaYTSRk32hpkXXraeDAD6U=",
+    "originContent": "[![codecov](https://codecov.io/gh/dealancer/validate/branch/v2/graph/badge.svg)](https://codecov.io/gh/dealancer/validate)",
+    "translatedContent": "[![codecov](https://codecov.io/gh/dealancer/validate/branch/v2/graph/badge.svg)](https://codecov.io/gh/dealancer/validate)"
+  },
+  {
+    "row": 4,
+    "rowsha": "+2J1XVV1caHjVyLH3wthRNPHFco+04g4w9m0T4dS5gI=",
+    "originContent": "[![Go Report Card](https://goreportcard.com/badge/gopkg.in/dealancer/validate.v2)](https://goreportcard.com/report/gopkg.in/dealancer/validate.v2)",
+    "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/gopkg.in/dealancer/validate.v2)](https://goreportcard.com/report/gopkg.in/dealancer/validate.v2)"
+  },
+  {
+    "row": 5,
+    "rowsha": "io1z4nIYNwfou0K3Xo89gGqZMr+/P4kI2ZFsPFJTrMU=",
+    "originContent": "[![GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2?status.svg)](https://godoc.org/gopkg.in/dealancer/validate.v2)",
+    "translatedContent": "[![GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2?status.svg)](https://godoc.org/gopkg.in/dealancer/validate.v2)"
+  },
+  {
+    "row": 6,
+    "rowsha": "B40aWq2YQnRmkd1mPZtGmcPQgqqdS5an7g3bJLvlGcM=",
+    "originContent": "[![GitHub release](https://img.shields.io/github/release/dealancer/validate.svg)](https://github.com/dealancer/validate/releases)",
+    "translatedContent": "[![GitHub release](https://img.shields.io/github/release/dealancer/validate.svg)](https://github.com/dealancer/validate/releases)"
+  },
+  {
+    "row": 7,
+    "rowsha": "RCFjgvcNhD9DI7Jebl/6a9itwlGjlePFf+DudA3ZfG4=",
+    "originContent": "[![License](https://img.shields.io/github/license/dealancer/validate.svg)](./LICENSE)",
+    "translatedContent": "[![License](https://img.shields.io/github/license/dealancer/validate.svg)](./LICENSE)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "1X0bPpCxzAMeaEjSAUqlz+LvxLQ0HarA0rCvKHcH3T0=",
+    "originContent": "Package **validate** validates Go struct and types recursively based on tags.",
+    "translatedContent": "패키지 **validate**는 태그를 기반으로 Go 구조체와 타입을 재귀적으로 검증합니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "yzIeH9mLjif1uliwAWSkY0hK40iVcK41r/d/MiX7Vnw=",
+    "originContent": "It provides powerful syntax to perform validation for substructs, maps, slices, arrays, and pointers. Package also allows to run custom validation methods.",
+    "translatedContent": "서브구조체, 맵, 슬라이스, 배열, 포인터에 대한 검증을 수행하는 강력한 문법을 제공합니다. 패키지는 또한 사용자 정의 검증 메서드를 실행할 수 있도록 허용합니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "LJlhtEJpsM/PTr+p8n/BCYSb19pDeOcqezjlzRCZRU0=",
+    "originContent": "Use this package to make sure that the content of the struct is in the format you need.",
+    "translatedContent": "이 패키지를 사용하여 구조체의 내용이 필요한 형식인지 확인할 수 있습니다."
+  },
+  {
+    "row": 13,
+    "rowsha": "J4XVEQfZj3nA4G4P00/VocGJBrOlLJG97JcPRqYeRnM=",
+    "originContent": "For example, **validate** package is useful when unmarshalling YAML or JSON.",
+    "translatedContent": "예를 들어, **validate** 패키지는 YAML 또는 JSON을 언마샬링할 때 유용합니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "k9fJXcNLEgHxyTV1+hNUeHgV4YumLZSkJzC+nkUCJd0=",
+    "originContent": "1. Use `go get` to download validate package.",
+    "translatedContent": "1. `go get`을 사용하여 validate 패키지를 다운로드합니다."
+  },
+  {
+    "row": 18,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 19,
+    "rowsha": "OeT1u+jA+BajgZm8wxJDwi1o5MZ5lYVMbY1bAaRov7I=",
+    "originContent": "   go get gopkg.in/dealancer/validate.v2",
+    "translatedContent": "   go get gopkg.in/dealancer/validate.v2"
+  },
+  {
+    "row": 20,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 21,
+    "rowsha": "fTkqyizCkH2TAJl1eVQMgdWK7dEecBikV+J3+4dU2Wo=",
+    "originContent": "2. Import validate package into your project.",
+    "translatedContent": "2. validate 패키지를 프로젝트에 가져옵니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "iTYZ7m0/WgYl854aH0HlrV2RrMvwtwB4bLNO3Qk7df8=",
+    "originContent": "   ```go",
+    "translatedContent": "   ```go"
+  },
+  {
+    "row": 23,
+    "rowsha": "pCSTxhG+LB5HiM5Q7a4CmH8VCHZrBP8EbCy9zAOeuzU=",
+    "originContent": "   import \"gopkg.in/dealancer/validate.v2\"",
+    "translatedContent": "   import \"gopkg.in/dealancer/validate.v2\""
+  },
+  {
+    "row": 24,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 타입"
+  },
+  {
+    "row": 27,
+    "rowsha": "01Aafc+hOBptpZNs+8VFaCiM+m1oME1nJdNjEYlumCw=",
+    "originContent": "## Types",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 패키지는 다양한 타입을 지원합니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "Nv/4TNA3CMQhAQOhq4s7F9QrrjtJ/qRFGvDrqwtGInY=",
+    "originContent": "This package supports a wide variety of types.",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 대부분의 내장 타입:"
+  },
+  {
+    "row": 31,
+    "rowsha": "eB4awtbYeX1ir+y/vERMqHBbUIGhxBnSdvlxzbfWx18=",
+    "originContent": "* Most of the built-in types:",
+    "translatedContent": "  * `int`, `int8` `int16`, `int32`, `int64`"
+  },
+  {
+    "row": 32,
+    "rowsha": "U3nJdbrxA6Np5uyKY4VQLu3H/ks7D7KqaHXH9Sy50kE=",
+    "originContent": "  * `int`, `int8` `int16`, `int32`, `int64`",
+    "translatedContent": "  * `uint`, `uint8`, `uint16`, `uint32`, `uint64`"
+  },
+  {
+    "row": 33,
+    "rowsha": "61kK7XUhQ2DlDOgxJQagpdnQ6oEvzIeeRADS8TgnV8E=",
+    "originContent": "  * `uint`, `uint8`, `uint16`, `uint32`, `uint64`",
+    "translatedContent": "  * `float32`, `float64`"
+  },
+  {
+    "row": 34,
+    "rowsha": "1kUZTkYoSjuQL2Frxi5UOiIG69p94+TAzPauwybWjpQ=",
+    "originContent": "  * `float32`, `float64`",
+    "translatedContent": "  * `uintptr`"
+  },
+  {
+    "row": 35,
+    "rowsha": "1bQ5gpQJaMjdpiwBJnV5//tzh7YgFKo+ZJwlCAI2168=",
+    "originContent": "  * `uintptr`",
+    "translatedContent": "  * `string`"
+  },
+  {
+    "row": 36,
+    "rowsha": "WpBUbRkZTDVjouVjqvJtx2XUnF3Z92so3JZEd9quZ90=",
+    "originContent": "  * `string`",
+    "translatedContent": "* 별칭 타입:"
+  },
+  {
+    "row": 37,
+    "rowsha": "lbLcsjOsWLDTsE7Z91uo+L2aDV31Y0vsujzyyrhnRjM=",
+    "originContent": "* Aliased types:",
+    "translatedContent": "  * `time.Duration`"
+  },
+  {
+    "row": 38,
+    "rowsha": "Jv6raRY+ItBmSMi1hmvOwZNSLmHpaMUpb6hodJshUSM=",
+    "originContent": "  * `time.Duration`",
+    "translatedContent": "  * `byte` (`uint8`)"
+  },
+  {
+    "row": 39,
+    "rowsha": "gp08tAj4UYo1fTEXbgS/+8tqj7aoFD6yJJ/FURDpWSg=",
+    "originContent": "  * `byte` (`uint8`)",
+    "translatedContent": "  * `rune` (`int32`)"
+  },
+  {
+    "row": 40,
+    "rowsha": "GTgeezBnZLH1mlVIjP6gjWFIoemUOCpJfseQoYCu2ws=",
+    "originContent": "  * `rune` (`int32`)",
+    "translatedContent": "  * 예: `type Enum string`"
+  },
+  {
+    "row": 41,
+    "rowsha": "UVge62JoyEOK0bSMw6rICv/FLrfsvhUl/xfQWTtpRwc=",
+    "originContent": "  * e.g. `type Enum string`",
+    "translatedContent": "* 복합 타입:"
+  },
+  {
+    "row": 42,
+    "rowsha": "EdEWIcbsmMjJZc1QbmRNVVzoxV9OVKbLWMJobgE4e7U=",
+    "originContent": "* Complex types:",
+    "translatedContent": "  * 구조체"
+  },
+  {
+    "row": 43,
+    "rowsha": "I8gjVF1iaypqyM9CU3mIGa/h3aooi0hQRbOlQcTv4C8=",
+    "originContent": "  * Struct",
+    "translatedContent": "  * 맵"
+  },
+  {
+    "row": 44,
+    "rowsha": "v063RcA5nli2S+JjYxsllTHdYCxgv/GM1s6inWgizIM=",
+    "originContent": "  * Map",
+    "translatedContent": "  * 슬라이스"
+  },
+  {
+    "row": 45,
+    "rowsha": "qKoDvszCBssrN1nioemXPMX0LOfivNURPrsUpxSTjAQ=",
+    "originContent": "  * Slice",
+    "translatedContent": "  * 배열"
+  },
+  {
+    "row": 46,
+    "rowsha": "1h1Pcb/fZdho6CLz5HoufpJDKykDuIVIb6VT8LkOKBQ=",
+    "originContent": "  * Array",
+    "translatedContent": "  * 포인터"
+  },
+  {
+    "row": 47,
+    "rowsha": "eVEYEerEbMhTK44SYxirfZDsTB2is+e5Ht0FdUgoK8k=",
+    "originContent": "  * Pointer",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 검증기"
+  },
+  {
+    "row": 49,
+    "rowsha": "OMi3lpVBzy7wEnkKSPChWfhM6iKg3pXVk2nI4E21LV0=",
+    "originContent": "## Validators",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 패키지는 다음과 같은 검증기를 제공합니다."
+  },
+  {
+    "row": 51,
+    "rowsha": "IZxj006HMxD89df5Rqq/CUQN88yZb24/WBX8eQ6pXPk=",
+    "originContent": "This package provides the following validators.",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `eq` (같음), `ne` (같지 않음), `gt` (보다 큼), `lt` (보다 작음), `gte` (보다 크거나 같음), `lte` (보다 작거나 같음) 검증기는 숫자의 값이나 문자열, 맵, 슬라이스, 배열의 요소 개수를 비교합니다."
+  },
+  {
+    "row": 53,
+    "rowsha": "yGd4TC/JFmmMjypWJZvbCR86+RNb5i+8YK/0EPcAu0g=",
+    "originContent": "* `eq` (equals), `ne` (not equals), `gt` (greater than), `lt` (less than), `gte` (greater than or equal to), `lte` (less than or equal to) validators compare a numeric value of a number or compare a count of elements in a string, a map, a slice, or an array.",
+    "translatedContent": "* `empty` 검증기는 문자열, 맵, 슬라이스, 배열이 비어있는지(또는 비어있지 않은지) 확인합니다."
+  },
+  {
+    "row": 54,
+    "rowsha": "7Ga7l81l5SBFosYUTZaUIcJelfGRVfkmOFugdHc68iU=",
+    "originContent": "* `empty` validator checks if a string, a map, a slice, or an array is (not) empty.",
+    "translatedContent": "* `nil` 검증기는 포인터가 nil인지(또는 아닌지) 확인합니다."
+  },
+  {
+    "row": 55,
+    "rowsha": "wVRXJrkQ0yau25/f+9TJrgerrdxplTUWaYWgyVlFsP4=",
+    "originContent": "* `nil` validator checks if a pointer is (not) nil.",
+    "translatedContent": "* `one_of` 검증기는 숫자나 문자열이 주어진 요소 중 하나를 포함하는지 확인합니다."
+  },
+  {
+    "row": 56,
+    "rowsha": "/eQ32fTb99OWJcTHLyVp7cbURHOzrlUu7oxld0f/42o=",
+    "originContent": "* `one_of` validator checks if a number or a string contains any of the given elements.",
+    "translatedContent": "* `format` 검증기는 문자열이 다음 형식 중 하나인지 확인합니다: `alpha`, `alnum`, `alpha_unicode`, `alnum_unicode`, `numeric`, `number`, `hexadecimal`, `hexcolor`, `rgb`, `rgba`, `hsl`, `hsla`, `email`, `url`, `uri`, `urn_rfc2141`, `file`, `base64`, `base64url`, `isbn`, `isbn10`, `isbn13`, `eth_addr`, `btc_addr`, `btc_addr_bech32`, `uuid`, `uuid3`, `uuid4`, `uuid5`, `ascii`, `ascii_print`, `datauri`, `latitude`, `longitude`, `ssn`, `ipv4`, `ipv6`, `ip`, `cidrv4`, `cidrv6`, `cidr`, `mac`, `hostname`, `hostname_rfc1123`, `fqdn`, `url_encoded`, `dir`, `postcode`."
+  },
+  {
+    "row": 57,
+    "rowsha": "uDK4YvKKGQ5sTMU0npOL01kIHJu+i+b6J+NVoRR152w=",
+    "originContent": "* `format` validator checks if a string in one of the following formats: `alpha`, `alnum`, `alpha_unicode`, `alnum_unicode`, `numeric`, `number`, `hexadecimal`, `hexcolor`, `rgb`, `rgba`, `hsl`, `hsla`, `email`, `url`, `uri`, `urn_rfc2141`, `file`, `base64`, `base64url`, `isbn`, `isbn10`, `isbn13`, `eth_addr`, `btc_addr`, `btc_addr_bech32`, `uuid`, `uuid3`, `uuid4`, `uuid5`, `ascii`, `ascii_print`, `datauri`, `latitude`, `longitude`, `ssn`, `ipv4`, `ipv6`, `ip`, `cidrv4`, `cidrv6`, `cidr`, `mac`, `hostname`, `hostname_rfc1123`, `fqdn`, `url_encoded`, `dir`, `postcode`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 연산자"
+  },
+  {
+    "row": 59,
+    "rowsha": "6ES/Qm+jCSb6zg7xVfTYrTaTNE/yvAkTsJx5hEvzJkw=",
+    "originContent": "## Operators",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음 연산자가 사용됩니다. 우선순위가 높은 순서대로 나열되어 있습니다."
+  },
+  {
+    "row": 61,
+    "rowsha": "rl41L2v5ArIdtEWbEP1kBnnXB3dGPxV0vFKoEU4J2Ic=",
+    "originContent": "Following operators are used. There are listed in the descending order of their precedence.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `[]` (대괄호)는 맵 키를 검증하는 데 사용됩니다."
+  },
+  {
+    "row": 63,
+    "rowsha": "80JlQP3PUhCQWAxQ5wdi7s3u6rsZo9lkqBZLffhmzvo=",
+    "originContent": "* `[]` (brackets) are used to validate map keys.",
+    "translatedContent": "* `>` (부등호)는 맵, 슬라이스, 배열의 값을 검증하거나 포인터를 역참조하는 데 사용됩니다."
+  },
+  {
+    "row": 64,
+    "rowsha": "QkBTaGMQEDGIyXUXY4JV7C8aMxsteXbZXvDZxqaWiVI=",
+    "originContent": "* `>` (greater-than sign) is used to validate values of maps, slices, arrays or to dereference a pointer.",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "hdythHyT2CWbYSEW8d3Lkjb1VvperrKsG/TKfWTwjYs=",
+    "originContent": "* `&` (ampersand) is used to perform multiple validators using AND logic.",
+    "translatedContent": "* `&` (앤퍼샌드)는 AND 논리를 사용하여 여러 유효성 검사기를 수행하는 데 사용됩니다."
+  },
+  {
+    "row": 66,
+    "rowsha": "zIMPIBqYI6T/bLhZK5LYVVqmK+1bcajjTuqO9YXlFj4=",
+    "originContent": "* `|` (vertical bar) is used to perform multiple validators using OR logic.",
+    "translatedContent": "* `|` (수직 막대)는 OR 논리를 사용하여 여러 유효성 검사기를 수행하는 데 사용됩니다."
+  },
+  {
+    "row": 67,
+    "rowsha": "1uiCD4HvvS+V3rLRAZjriDfEbihgPd/G/1VmJN/hR5c=",
+    "originContent": "* `=` (equal sign) is used to separate validator type from value.",
+    "translatedContent": "* `=` (등호)는 유효성 검사 유형과 값을 구분하는 데 사용됩니다."
+  },
+  {
+    "row": 68,
+    "rowsha": "JVRkskS6OfFk8tFMoHujGF8xUfRuHw6+9eT/dg9DrcI=",
+    "originContent": "* `,` (comma) is used to specify multiple tokens for a validator (e.g. `one_of`).",
+    "translatedContent": "* `,` (쉼표)는 유효성 검사기에서 여러 토큰을 지정하는 데 사용됩니다(예: `one_of`)."
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 73,
+    "rowsha": "Kxh0yJZw+HvnpeazXJ9hvkINriJtbvzYcbDgM4bETVk=",
+    "originContent": "type Registration struct {",
+    "translatedContent": "type Registration struct {"
+  },
+  {
+    "row": 74,
+    "rowsha": "FX80W9bG5zIiux8unvI4gH9pIOwE3m3L2igiAIMjPgw=",
+    "originContent": "    // Username should be between 3 and 25 characters and in alphanumeric unicode format",
+    "translatedContent": "    // Username should be between 3 and 25 characters and in alphanumeric unicode format"
+  },
+  {
+    "row": 75,
+    "rowsha": "E3vddC2tIvoSvuSj6X9aBuNcFhi7o4X47VYDCuM5yRM=",
+    "originContent": "    Username string `validate:\"gte=3 & lte=25 & format=alnum_unicode\"`",
+    "translatedContent": "    Username string `validate:\"gte=3 & lte=25 & format=alnum_unicode\"`"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "V1yHdxqnIaBo39WwKjP1HjwUAYKY/okMF+Eifxya/IA=",
+    "originContent": "    // Email should be empty or in the email format",
+    "translatedContent": "    // Email should be empty or in the email format"
+  },
+  {
+    "row": 78,
+    "rowsha": "+Sq6fspKa9kxSNS5MhpmQZncLoqmRG5lpeB9yfZ8+/Y=",
+    "originContent": "    Email string `validate:\"empty=true | format=email\"`",
+    "translatedContent": "    Email string `validate:\"empty=true | format=email\"`"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "UHjtN7B+J6d4nOSVVQCEMR/FDWDrb61s9WK9aOkRdk4=",
+    "originContent": "    // Password is validated using a custom validation method",
+    "translatedContent": "    // Password is validated using a custom validation method"
+  },
+  {
+    "row": 81,
+    "rowsha": "mruQG3Teq52cY3HfKitwTFD8FQ5Ua/6rAHv4gL2ZT/I=",
+    "originContent": "    Password string",
+    "translatedContent": "    Password string"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "39snCOc31GedauktHPo8kfv6oRVcIojvkw56VrnqnO8=",
+    "originContent": "    // Role should be one of \"admin\", \"publisher\", or \"author\"",
+    "translatedContent": "    // Role should be one of \"admin\", \"publisher\", or \"author\""
+  },
+  {
+    "row": 84,
+    "rowsha": "Bl/gIyRT8CiBMzy35z/VcGDnxUd51ZjRipPEUC11cfk=",
+    "originContent": "    Role string `validate:\"one_of=admin,publisher,author\"`",
+    "translatedContent": "    Role string `validate:\"one_of=admin,publisher,author\"`"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "hKjk14KGqNVMbJXyCoxeVhCTWz1nZQIz0vSaDnw9MCM=",
+    "originContent": "    // URLs should not be empty, URLs values should be in the url format",
+    "translatedContent": "    // URLs should not be empty, URLs values should be in the url format"
+  },
+  {
+    "row": 87,
+    "rowsha": "+V7BqqyibtjTqQAoK3B1LaL0o769I/n8//KxOM71flQ=",
+    "originContent": "    URLs []string `validate:\"empty=false > format=url\"`",
+    "translatedContent": "    URLs []string `validate:\"empty=false > format=url\"`"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "0Yr2LMZckY0ozi+T82Ohd327VXGabOHOnX3X5H2ny7E=",
+    "originContent": "    // Retired (pointer) should not be nil",
+    "translatedContent": "    // Retired (pointer) should not be nil"
+  },
+  {
+    "row": 90,
+    "rowsha": "MwTksnGdsf2AedR0wptYBVYl3kv+NU1MEKor6Laa+jM=",
+    "originContent": "    Retired *bool `validate:\"nil=false\"`",
+    "translatedContent": "    Retired *bool `validate:\"nil=false\"`"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "AGZjJl46iblRBTGWK3SCUumvlWe7OTjaO5K0T2e27T8=",
+    "originContent": "    // Some complex field with validation",
+    "translatedContent": "    // Some complex field with validation"
+  },
+  {
+    "row": 93,
+    "rowsha": "JsT1HtSWoWM5yKcIs4L8fHtpr5tZLmVImblTTbF8PDE=",
+    "originContent": "    Complex []map[*string]int `validate:\"gte=1 & lte=2 | eq=4 > empty=false [nil=false > empty=false] > ne=0\"`",
+    "translatedContent": "    Complex []map[*string]int `validate:\"gte=1 & lte=2 | eq=4 > empty=false [nil=false > empty=false] > ne=0\"`"
+  },
+  {
+    "row": 94,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "TKS2sBelUobe6oNvVRkjJSYbPVQETJeuurEMqboFsa0=",
+    "originContent": "// Custom validation",
+    "translatedContent": "// Custom validation"
+  },
+  {
+    "row": 97,
+    "rowsha": "xflpJjXrZAPmO0iVklZWXPp6Yt2WR5pOAypmf8WzXHY=",
+    "originContent": "func (r Registration) Validate() error {",
+    "translatedContent": "func (r Registration) Validate() error {"
+  },
+  {
+    "row": 98,
+    "rowsha": "3ast7N8cQM4fuD41VLU2gd+mSwAVaszLNKw0rAo5ogM=",
+    "originContent": "    if !StrongPass(r.Password) {",
+    "translatedContent": "    if !StrongPass(r.Password) {"
+  },
+  {
+    "row": 99,
+    "rowsha": "19BpPlka+QhsfAOD2Sh0+d1lKMYoPWDE4BVPI3enolU=",
+    "originContent": "        return errors.New(\"Password should be strong!\")",
+    "translatedContent": "        return errors.New(\"Password should be strong!\")"
+  },
+  {
+    "row": 100,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "mx2TENlbB5idIYjONijnV5b02hvDRXNK73xwl6InYJg=",
+    "originContent": "    return nil",
+    "translatedContent": "    return nil"
+  },
+  {
+    "row": 103,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "CrzlRqE6nLvh6gFKwVFxvpix9K65J116hiZqxRumpHo=",
+    "originContent": "type Registrations struct {",
+    "translatedContent": "type Registrations struct {"
+  },
+  {
+    "row": 106,
+    "rowsha": "xDYIhm4+PHmJ6DqsQYDXU0HAhldWqZntl8Hh2Dm7Irw=",
+    "originContent": "\tr []Registration `validate:\"gte=2\"` // There should be at least two registrations",
+    "translatedContent": "\tr []Registration `validate:\"gte=2\"` // There should be at least two registrations"
+  },
+  {
+    "row": 107,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 111,
+    "rowsha": "HplbislOF2SVE6Lw+QBWxE3rMit79a1WXtB8TQsw3UQ=",
+    "originContent": "registrations := Registrations{",
+    "translatedContent": "registrations := Registrations{"
+  },
+  {
+    "row": 112,
+    "rowsha": "Tjg0VZs6EWHFihXURAu+0T98AKIjx8+cruTKk2RjCwU=",
+    "originContent": "\tr: []Registration{",
+    "translatedContent": "\tr: []Registration{"
+  },
+  {
+    "row": 113,
+    "rowsha": "hLQak0vP5hG25moetAydsRnwyT1yfXd2DJNFQ7MAxi0=",
+    "originContent": "\t\tRegistration{",
+    "translatedContent": "\t\tRegistration{"
+  },
+  {
+    "row": 114,
+    "rowsha": "4qzkq2pgYmDqiS4RRb9k3JS2TN8OA7KK4QbhvJ57ztQ=",
+    "originContent": "\t\t\tUsername: \"admin\",",
+    "translatedContent": "\t\t\tUsername: \"admin\","
+  },
+  {
+    "row": 115,
+    "rowsha": "t/qIiHG/kN3jFttACMW275mPNfC2TXM1wrRLFI9dihk=",
+    "originContent": "\t\t},",
+    "translatedContent": "\t\t},"
+  },
+  {
+    "row": 116,
+    "rowsha": "7Q299uZf+Uj/1YxxhHt72H+AODJ+jAacNGWecbWMC5w=",
+    "originContent": "\t},",
+    "translatedContent": "\t},"
+  },
+  {
+    "row": 117,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "LN3RoXwPITHPq8GW83Osk0jPWqKjWPl1ZkRIDX+79yY=",
+    "originContent": "if err := validate.Validate(&registrations); err != nil {",
+    "translatedContent": "if err := validate.Validate(&registrations); err != nil {"
+  },
+  {
+    "row": 120,
+    "rowsha": "HjSrfxsAmYWWIXl3bBlQTfpwHLGcELpJV3ZVHrvzfxo=",
+    "originContent": "\tpanic(err)",
+    "translatedContent": "\tpanic(err)"
+  },
+  {
+    "row": 121,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 122,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "VrZIxhvDEQRWV8ejKYywX+97TM0+pHpR6epXRLfUfOU=",
+    "originContent": "See [GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2) for the complete reference.",
+    "translatedContent": "전체 참조는 [GoDoc](https://godoc.org/gopkg.in/dealancer/validate.v2)에서 확인하세요."
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "## 크레딧"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "Elsu0WClgLqRHziVFfWcGpOBLVpeljmB+nPYzFV58JI=",
+    "originContent": "This project has been written by Ben Myrgorod before Vibe Coding tools existed. Insipred by [go-playground/validator](https://github.com/go-playground/validator).",
+    "translatedContent": "이 프로젝트는 Vibe 코딩 도구가 존재하기 전에 Ben Myrgorod에 의해 작성되었습니다. [go-playground/validator](https://github.com/go-playground/validator)에서 영감을 받았습니다."
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
