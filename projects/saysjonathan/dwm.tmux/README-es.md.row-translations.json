@@ -1,0 +1,650 @@
+[
+  {
+    "row": 1,
+    "rowsha": "9nBmQQgVzOGhNvABuF9Lt51B5siXu1n37fUHkFyH3UI=",
+    "originContent": "dwm.tmux",
+    "translatedContent": "dwm.tmux"
+  },
+  {
+    "row": 2,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 3,
+    "rowsha": "b2sIqOvCRdB1tNMbjy/xWyVz2ytBp9Fdo4X+pxH/x7I=",
+    "originContent": "[dwm](http://dwm.suckless.org/)-inspired tiling pane and window manager for Tmux.",
+    "translatedContent": "Administrador de ventanas y paneles en mosaico para Tmux inspirado en [dwm](http://dwm.suckless.org/)."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "B6PRxcUhr7J7kKxMihc57Kx4S+vfed8RRGDrmM+CUWA=",
+    "originContent": "![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+    "originContent": "## Dependencies",
+    "translatedContent": "## Dependencias"
+  },
+  {
+    "row": 8,
+    "rowsha": "N4Irfx9isTa/ZCewmaaWQzceWwGX8O+C6HfYSOsCFUI=",
+    "originContent": "dwm.tmux requires tmux >= 3.2.",
+    "translatedContent": "dwm.tmux requiere tmux >= 3.2."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 11,
+    "rowsha": "2cRcNw2pIlkVuOAqD2GrYnJd1i6+zrt29LxDpAggQ54=",
+    "originContent": "### Via TPM (recommended)",
+    "translatedContent": "### Vía TPM (recomendado)"
+  },
+  {
+    "row": 12,
+    "rowsha": "vfY6dLtZnO1gP9QHTLtDr3GZ6ZgC5bYqyib+gvi7gC0=",
+    "originContent": "Add to `~/.tmux.conf`:",
+    "translatedContent": "Agregar a `~/.tmux.conf`:"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 15,
+    "rowsha": "0pcZ8FWXhsLyNpFTBVVDaq++Ts2XzIJ/4PYZYtB41zE=",
+    "originContent": "set -g @plugin 'saysjonathan/dwm.tmux'",
+    "translatedContent": "set -g @plugin 'saysjonathan/dwm.tmux'"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "gCs/yRQqjvSeRPT1mrSi2/8TMlM05O/oOQJQBsbUU0g=",
+    "originContent": "Reload and run `prefix-I` to fetch.",
+    "translatedContent": "Recargar y ejecutar `prefix-I` para obtener."
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "0FAuYwibTEdmZ1PcnglBDUKKrJsCE3hZPDp+L95gEEU=",
+    "originContent": "### Manual install (legacy)",
+    "translatedContent": "### Instalación manual (legado)"
+  },
+  {
+    "row": 21,
+    "rowsha": "7d6ZW2ktGTS+XVJavSu2BYZdI9MfSuoBp0Yjzl10zoQ=",
+    "originContent": "To install, use the provided `Makefile`:",
+    "translatedContent": "Para instalar, use el `Makefile` proporcionado:"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 24,
+    "rowsha": "Elnm9OFx6gQ5o+fCizO9AqnZlmibpbRMTwADriGZcCY=",
+    "originContent": "git clone https://github.com/saysjonathan/dwm.tmux.git",
+    "translatedContent": "git clone https://github.com/saysjonathan/dwm.tmux.git"
+  },
+  {
+    "row": 25,
+    "rowsha": "8ZlQXbwLGYe0TQzzmVO9073g6WW5G2hzNoZSOVLHCNM=",
+    "originContent": "cd dwm.tmux",
+    "translatedContent": "cd dwm.tmux"
+  },
+  {
+    "row": 26,
+    "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+    "originContent": "make",
+    "translatedContent": "make"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Por defecto, `dwm.tmux` utiliza `/usr/local` como su prefijo. Para cambiar el prefijo:"
+  },
+  {
+    "row": 29,
+    "rowsha": "rc/TFKChfniVlal46YFUQ8n435MUOQCV0ahSqBe37ek=",
+    "originContent": "By default `dwm.tmux` uses `/usr/local` as its prefix. To change the prefix:",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 32,
+    "rowsha": "bJSCDZa+MhVEZ+dbxk3d8sehjsJyF6fxUz1ksq0KyBw=",
+    "originContent": "make PREFIX=$HOME",
+    "translatedContent": "make PREFIX=$HOME"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Crubxh7qAAued2XyX/J25OW7MPlAq+s1E35tHA6hMGE=",
+    "originContent": "Ensure that `$PREFIX/bin` is in your `PATH`.",
+    "translatedContent": "Asegúrese de que `$PREFIX/bin` esté en su `PATH`."
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "2G+RXNYmFng7SDlLcfx21ULzFygjnVtlj+g/uwj0rV4=",
+    "originContent": "To use, source the `dwm.tmux` tmux config:",
+    "translatedContent": "Para usarlo, cargue la configuración de tmux `dwm.tmux` con source:"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 40,
+    "rowsha": "R4xApo8E3THEC4lXaD4myHlbyO+zFIF3EOM7jZgrVg0=",
+    "originContent": "echo 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf",
+    "translatedContent": "echo 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 44,
+    "rowsha": "OlhWkeTHXPh7fIc8wfUZ9IBMIdYfFPhMKXfSqiTmRIw=",
+    "originContent": "`dwm.tmux` defines the following command aliases, each with a default keybinding:",
+    "translatedContent": "`dwm.tmux` define los siguientes alias de comandos, cada uno con un atajo de teclado predeterminado:"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "bC6ZO6bW/cCZu25f3U9wYXwEAg1qX92nrv9gZeqlL+U=",
+    "originContent": "- `newpane` `Meta-n` Create a new pane and place it in the Main pane",
+    "translatedContent": "- `newpane` `Meta-n` Crear un nuevo panel y colocarlo en el panel principal"
+  },
+  {
+    "row": 47,
+    "rowsha": "7ESFAcrChhOHt9T6t6onidmaqiyTB0lcaLPae7i2jhg=",
+    "originContent": "- `newpanecurdir` `Meta-w` Create a new pane starting in the same directory and place it in the Main pane",
+    "translatedContent": "- `newpanecurdir` `Meta-w` Crear un nuevo panel que comience en el mismo directorio y colocarlo en el panel principal"
+  },
+  {
+    "row": 48,
+    "rowsha": "G4bbr4cbrXnCHU3EKFJC3i7NPMzthNXAPpE0tOb+wEQ=",
+    "originContent": "- `killpane` `Meta-c` Close the current pane. If the pane is in the Main pane, close the pane and promote the first pane in the stack to the Main pane",
+    "translatedContent": "- `killpane` `Meta-c` Cerrar el panel actual. Si el panel está en el panel principal, cerrar el panel y promover el primer panel en la pila a panel principal"
+  },
+  {
+    "row": 49,
+    "rowsha": "8W1J3vBNdKHDRB+6ZjCz3X2TD9eBJS4Avkc6LVf6eE4=",
+    "originContent": "- `movepane[0-9]` `Meta-Shift-[0-9]` Move the current pane to the specified window",
+    "translatedContent": "- `movepane[0-9]` `Meta-Shift-[0-9]` Mover el panel actual a la ventana especificada"
+  },
+  {
+    "row": 50,
+    "rowsha": "iCEUFkQ7R4OuvqK2XQ5+0mArvnQICfOXQM8jWymDErA=",
+    "originContent": "- `nextpane` `Meta-j` Select the next pane (clockwise); swaps fullscreen pane in monocle mode",
+    "translatedContent": "- `nextpane` `Meta-j` Seleccionar el siguiente panel (en sentido horario); intercambia el panel de pantalla completa en modo monocle"
+  },
+  {
+    "row": 51,
+    "rowsha": "3IJklbZz3hyb9Sf2x15NzmK7jZO/9ej0RZaURnjCCKo=",
+    "originContent": "- `prevpane` `Meta-k` Select the previous pane (counterclockwise); swaps fullscreen pane in monocle mode",
+    "translatedContent": "- `prevpane` `Meta-k` Seleccionar el panel anterior (en sentido antihorario); intercambia el panel de pantalla completa en modo monocle"
+  },
+  {
+    "row": 52,
+    "rowsha": "I+KTFUiA5/Gp+DtIO/OeIo/IVL8ApAUrflhTfZeD/oU=",
+    "originContent": "- `stackup` `Meta-J` Move focused pane up the stack",
+    "translatedContent": "- `stackup` `Meta-J` Mover el panel enfocado hacia arriba en la pila"
+  },
+  {
+    "row": 53,
+    "rowsha": "wG/wUtvwtnCJPGuwwbKQSneqNkNsbDhYOJDW8OmksHY=",
+    "originContent": "- `stackdown` `Meta-K` Move focused pane down the stack",
+    "translatedContent": "- `stackdown` `Meta-K` Mover el panel enfocado hacia abajo en la pila"
+  },
+  {
+    "row": 54,
+    "rowsha": "k3YGXJuwQv0r97DJ0XphgfwOzRBqUh0qHo1kvGWv+9g=",
+    "originContent": "- `rotateccw` `Meta-<` Rotate panes counterclockwise",
+    "translatedContent": "- `rotateccw` `Meta-<` Rotar los paneles en sentido antihorario"
+  },
+  {
+    "row": 55,
+    "rowsha": "IkAr1NhWxEMr4avIlBwDIh/fnp0TPHiFam5NvrFpiC4=",
+    "originContent": "- `rotatecw` `Meta->` Rotate panes clockwise",
+    "translatedContent": "- `rotatecw` `Meta->` Rotar los paneles en sentido horario"
+  },
+  {
+    "row": 56,
+    "rowsha": "gfTx9GkearPbwGLAPlBDpown4UIwBHH0+zrkUOaDDfQ=",
+    "originContent": "- `tile` `Meta-t` Return to tiled layout, exiting monocle if active",
+    "translatedContent": "- `tile` `Meta-t` Volver al diseño en mosaico, saliendo del modo monocle si está activo"
+  },
+  {
+    "row": 57,
+    "rowsha": "e8VmYDZMbfniwxyI7Co9a7hOwccN8QoBByyTo3T6iFU=",
+    "originContent": "- `monocle` `Meta-Space` Toggle monocle mode (fullscreen current pane)",
+    "translatedContent": "- `monocle` `Meta-Space` Alternar modo monocle (pantalla completa del panel actual)"
+  },
+  {
+    "row": 58,
+    "rowsha": "AWkY2sCBbnUZRD/os6KcKs8BuPJQn6BXbltdmUzikZA=",
+    "originContent": "- `zoom` `Meta-Enter` Place selected pane in the Main pane",
+    "translatedContent": "- `zoom` `Meta-Enter` Colocar el panel seleccionado en el panel principal"
+  },
+  {
+    "row": 59,
+    "rowsha": "F1ZM3KlpBjNUBjfCZhm/caU9YcVwYt85wcyLQvmf/FU=",
+    "originContent": "- `decmfact` `Meta-h` Decrease the main pane space factor",
+    "translatedContent": "- `decmfact` `Meta-h` Disminuir el factor de espacio del panel principal"
+  },
+  {
+    "row": 60,
+    "rowsha": "t4RIe2b8pox3ODQC2xBSRyW0VQ6DW5sCbmN+bkCntbA=",
+    "originContent": "- `incmfact` `Meta-l` Increase the main pane space factor",
+    "translatedContent": "- `incmfact` `Meta-l` Aumentar el factor de espacio del panel principal"
+  },
+  {
+    "row": 61,
+    "rowsha": "jUBDhiDs5XeodTefg2eVlySLY47tR8U+ZvVB25P/aUk=",
+    "originContent": "- `window[0-9]` `Meta-[0-9]` Select the target window by ID",
+    "translatedContent": "- `window[0-9]` `Meta-[0-9]` Seleccionar la ventana objetivo por ID"
+  },
+  {
+    "row": 62,
+    "rowsha": "jUn9ddOsTMQ6o97RQCp54GHIl/aSQOP2qL1uJoA959w=",
+    "originContent": "- `newwindow` `Meta-N` Create a new window starting in the same directory as the current pane",
+    "translatedContent": "- `newwindow` `Meta-N` Crear una nueva ventana comenzando en el mismo directorio que el panel actual"
+  },
+  {
+    "row": 63,
+    "rowsha": "OsC6hIo0Veh2jnOjjfKE+Y7sjrJ/YJZfGepFarwmjmY=",
+    "originContent": "- `killwindow` `Meta-X` Delete the current active window",
+    "translatedContent": "- `killwindow` `Meta-X` Eliminar la ventana activa actual"
+  },
+  {
+    "row": 64,
+    "rowsha": "j85RAJUTkPRNHBS7nsIo3vBw6JBIUBct6KGm79qn4fk=",
+    "originContent": "- `popup` `Meta-p` Display a floating pane popup in the current pane's directory",
+    "translatedContent": "- `popup` `Meta-p` Mostrar un panel emergente flotante en el directorio del panel actual"
+  },
+  {
+    "row": 65,
+    "rowsha": "du3JjJulIxMts57FDdzdqz1c0Wsm86jlFcg/zTMV5gI=",
+    "originContent": "- `incpfact` `Meta-.` Increase the size of the focused pane in the stack, relative to the other panes",
+    "translatedContent": "- `incpfact` `Meta-.` Aumentar el tamaño del panel enfocado en la pila, relativo a los otros paneles"
+  },
+  {
+    "row": 66,
+    "rowsha": "UOgN2uiYQdxYETUuiMU9jWOt/NQEcLA0Z7I5kHfn9hA=",
+    "originContent": "- `decpfact` `Meta-,` Decrease the size of the focused pane in the stack, relative to the other panes",
+    "translatedContent": "- `decpfact` `Meta-,` Disminuir el tamaño del panel enfocado en la pila, relativo a los otros paneles"
+  },
+  {
+    "row": 67,
+    "rowsha": "qh4PfWmMP4IZQVuQ5TBWKeKTjZ1TPmxNzdJkOzhVLFk=",
+    "originContent": "- `resetpfact` `Meta-=` Reset the pfact of the focused pane",
+    "translatedContent": "- `resetpfact` `Meta-=` Restablecer el pfact del panel enfocado"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "nV97/x8ZYiV1WkhMe+9nUL07eLw3n2I6asubCjdcjrc=",
+    "originContent": "Additional keybindings for window cycling are also included:",
+    "translatedContent": "También se incluyen atajos adicionales para ciclar ventanas:"
+  },
+  {
+    "row": 70,
+    "rowsha": "3hh+Z7DRHwZqNuFD5sv8frmnGvSZ8OCKUXdgaWhuJMM=",
+    "originContent": "- `Meta-[` Previous window",
+    "translatedContent": "- `Meta-[` Ventana anterior"
+  },
+  {
+    "row": 71,
+    "rowsha": "xJYkqxQYX3NuMyIiq9u6Z0MchOoLKdDuugkcsWBENfo=",
+    "originContent": "- `Meta-]` Next window",
+    "translatedContent": "- `Meta-]` Ventana siguiente"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "zJBoGelO4vYvAUCdBznFQiSZ8YyoqSZ9+chKUet4cF0=",
+    "originContent": "Also defined are global options to tweak behavior:",
+    "translatedContent": "Además, se definen opciones globales para ajustar el comportamiento:"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "IdYcz20Ry2+5Map5fDXev0ifo+Yb5pBmUg4vLsAj/Qc=",
+    "originContent": "- `mfact` Main pane space factor, the size of the main pane as a percentage of total window size",
+    "translatedContent": "- `mfact` Factor de espacio del panel principal, el tamaño del panel principal como porcentaje del tamaño total de la ventana"
+  },
+  {
+    "row": 76,
+    "rowsha": "aSDe/nKLVYetSOGu/x7GWnmzV8owKMHjzCypjd2fXXo=",
+    "originContent": "- `killlast` If value is greater than `0`, kill pane even if it is the last pane in a window",
+    "translatedContent": "- `killlast` Si el valor es mayor que `0`, eliminar el panel incluso si es el último panel en una ventana"
+  },
+  {
+    "row": 77,
+    "rowsha": "2tZLKKrnrw85VRolLm8uwq2xf4HgNNHYrIxU1uA5tmk=",
+    "originContent": "- `monocle` Tracks active layout mode; 0 for tile, 1 for monocle. Set automatically but can be read to inspect current state.",
+    "translatedContent": "- `monocle` Rastrea el modo de diseño activo; 0 para mosaico, 1 para monocle. Se establece automáticamente pero puede leerse para inspeccionar el estado actual."
+  },
+  {
+    "row": 78,
+    "rowsha": "8OwAZ11R+2vuDh1ouIkqT3V0yDeDNHZcJ/LLQnt15QU=",
+    "originContent": "- `pfact` Per-pane stack size factor, scale 1-9, default 5. Higher values give the pane more relative height in the stack",
+    "translatedContent": "- `pfact` Factor de tamaño de la pila por panel, escala de 1 a 9, valor predeterminado 5. Valores más altos dan al panel mayor altura relativa en la pila"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "8SFkCqumt3iV6Kk8Bz1ktti6gd5aVS1lqkzSajQ6Nlg=",
+    "originContent": "### Customizations",
+    "translatedContent": "### Personalizaciones"
+  },
+  {
+    "row": 81,
+    "rowsha": "VAgh19+IOE2GNtzTbvdT0DW4BxcNIGWcg+ZiqJUDNkw=",
+    "originContent": "Keybindings and default values can be set in a configuration file. When using TPM, these must be set after the `run '~/.tmux/plugins/tpm/tpm'` line in `~/.tmux.conf`.",
+    "translatedContent": "Los atajos de teclado y valores predeterminados pueden configurarse en un archivo de configuración. Al usar TPM, estos deben establecerse después de la línea `run '~/.tmux/plugins/tpm/tpm'` en `~/.tmux.conf`."
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+    "originContent": "Examples:",
+    "translatedContent": "Ejemplos:"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "jGRLMxNh9jwGAF8iQEQP810tPZMrWb6Fz5LWMMDQG3Y=",
+    "originContent": "setenv -g killlast 1 # kill pane even if it's the last",
+    "translatedContent": "setenv -g killlast 1 # kill pane even if it's the last"
+  },
+  {
+    "row": 87,
+    "rowsha": "fHHjZDdT82J963Fd3ZRE6HPvG9sR3l57dpipdppgTkA=",
+    "originContent": "set-option -wg @mfact 60",
+    "translatedContent": "set-option -wg @mfact 60"
+  },
+  {
+    "row": 88,
+    "rowsha": "61AHw7ya0ksjktiPiGcZ/GHlxAYhpjFApOdH+i5ulI8=",
+    "originContent": "set-option -wg @pfact 4",
+    "translatedContent": "set-option -wg @pfact 4"
+  },
+  {
+    "row": 89,
+    "rowsha": "x9uXr+GcPVJCXOSO9WhVhzZJAyyNb+UU8LXLAvtPcUs=",
+    "originContent": "bind -n M-q killpane",
+    "translatedContent": "bind -n M-q killpane"
+  },
+  {
+    "row": 90,
+    "rowsha": "63wHW7v7W9fV14kfmaR5B4hRYx5ts/WmPaNgHNqkKWY=",
+    "originContent": "bind -n M-w newpanecurdir",
+    "translatedContent": "bind -n M-w newpanecurdir"
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "mGGFcNQM8KvTONeh1B6E6fX38pmfFOJkVisO4joYDMo=",
+    "originContent": "## Details",
+    "translatedContent": "## Detalles"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "XWAEocR1t6wb6gMvquCKqZlTffbgnAklU8FKG3O5fgg=",
+    "originContent": "Similar to dwm, windows are always organized as follows:",
+    "translatedContent": "Similar a dwm, las ventanas siempre se organizan de la siguiente manera:"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "LyWEWF9Y8UjpVhzND9ICf23eCEGcq0n9ZRMgUSsWLRY=",
+    "originContent": " ====================================",
+    "translatedContent": " ===================================="
+  },
+  {
+    "row": 99,
+    "rowsha": "263ocDT9Le72tSa5uuovEcYcxoO800DWNaNHHOKrcYA=",
+    "originContent": "|                 |        S1        |",
+    "translatedContent": "|                 |        S1        |"
+  },
+  {
+    "row": 100,
+    "rowsha": "18yfQQAhQEdFbtxGjRStWj1Zugw8WGiU83tbJCOEROI=",
+    "originContent": "|                 |==================",
+    "translatedContent": "|                 |=================="
+  },
+  {
+    "row": 101,
+    "rowsha": "WTGL5/14uPb0/jG6pyTdQITp/821LtYppkFEF4qq8UY=",
+    "originContent": "|      M(0)       |        S2        |",
+    "translatedContent": "|      M(0)       |        S2        |"
+  },
+  {
+    "row": 102,
+    "rowsha": "18yfQQAhQEdFbtxGjRStWj1Zugw8WGiU83tbJCOEROI=",
+    "originContent": "|                 |==================",
+    "translatedContent": "|                 |=================="
+  },
+  {
+    "row": 103,
+    "rowsha": "5jCbAdYG8Yk6Mx7vqXNIIUZZZRTY8NCz558/jfrB6YE=",
+    "originContent": "|                 |        S3        |",
+    "translatedContent": "|                 |        S3        |"
+  },
+  {
+    "row": 104,
+    "rowsha": "LyWEWF9Y8UjpVhzND9ICf23eCEGcq0n9ZRMgUSsWLRY=",
+    "originContent": " ====================================",
+    "translatedContent": " ===================================="
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "I94T4TSpVFXxwxmBnJcZ4AXVMGlbVUirrhDZb6IcFwI=",
+    "originContent": "A large Main pane is placed on the left side of the screen while a stack of smaller panes is placed on the right. The Main pane is always pane 0, while the stack of panes is numbered sequentially in ascending order.",
+    "translatedContent": "Un panel principal grande se coloca en el lado izquierdo de la pantalla mientras que una pila de paneles más pequeños se coloca a la derecha. El panel principal siempre es el panel 0, mientras que la pila de paneles se numera secuencialmente en orden ascendente."
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

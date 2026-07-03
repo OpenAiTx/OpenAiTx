@@ -1,0 +1,1163 @@
+[
+  {
+    "Id": 1,
+    "Content": "# FlashVID: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging\n\n<div align=\"center\">\n<a href=\"https://scholar.google.com/citations?user=myU7V58AAAAJ&hl=en\">Ziyang Fan</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/Mirei124\">Keyu Chen</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/xrlexpert\">Ruilong Xing</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=dQssXVsAAAAJ&hl=en\">Yulin Li</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=5cIodxsAAAAJ&hl=en\">Li Jiang</a><sup>2,3</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=mEjhz-IAAAAJ&hl=en\">Zhuotao Tian</a><sup>1,3*</sup>&nbsp;\n<br>\n<sup>1</sup> Harbin Institute of Technology (Shenzhen) &nbsp;&nbsp;&nbsp; <sup>2</sup> The Chinese University of Hong Kong (Shenzhen)<br> <sup>3</sup> Shenzhen Loop Area Institute\n<br>\n<sup>*</sup>Corresponding Author\n<br>\n<a href='https://iclr.cc/'><img src='https://img.shields.io/badge/ICLR-2026-78CA2E.svg'></a> &nbsp;\n<a href='https://openreview.net/forum?id=H6rDX4w6Al'><img src='https://img.shields.io/badge/Paper-Openreview-8D1B12.svg'></a> &nbsp;\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License\"></a> &nbsp;\n<a href='https://fanziyang-v.github.io/FlashVID/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;\n<a href=\"https://arxiv.org/abs/2602.08024\"><img src=\"https://img.shields.io/badge/arXiv-2602.08024-b31b1b.svg\"></a> &nbsp;\n<a href=\"https://huggingface.co/\"><img src=\"https://img.shields.io/badge/transformers-4.57-FFD21E.svg\" alt=\"transformers\"></a> &nbsp;\n<!-- <a href=\"https://python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10%2B-3776ab.svg\" alt=\"Python\"></a> &nbsp; -->\n<!-- <a href=\"https://pytorch.org/\"><img src=\"https://img.shields.io/badge/PyTorch-2.5%2B-DF3411.svg\" alt=\"PyTorch\"></a> &nbsp; -->\n<!-- <a href=\"#\"><img src=\"https://img.shields.io/badge/#.svg\"></a> &nbsp; -->\n</div>\n\n## 🔖Table of Contents\n\n1. [News](#news)\n2. [Todo List](#todo-list)\n3. [Highlights](#highlights)\n4. [Motivation](#motivation)\n5. [Method](#method)\n6. [Installation](#installation)\n7. [Quickstart](#quickstart)\n8. [Evaluation](#evaluation)\n9. [Acknowledgement](#acknowledgement)\n10. [Citation](#citation)\n\n## 🔥News\n\n- [2026.05.01] 🔍Fix a potential OOM bug in manual [CLS] attention extraction in Qwen2.5-VL and Qwen3-VL.\n- [2026.02.10] 🚀Release our paper on arXiv.\n- [2026.02.06] 🍾Our paper has been selected as an **Oral Presentation** at **ICLR 2026**.\n- [2026.02.01] ✨Release FlashVID code and inference demos on *Qwen2.5-VL* and *Qwen3-VL*.\n- [2026.01.31] 🚀Release this repository to the public.",
+    "ContentSha": "YX3tga1zbWd5QLZhDSd+PNIzoHrO5dUR5uyjh2Kld/Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# FlashVID: 훈련 불필요한 트리 기반 시공간 토큰 병합을 통한 효율적인 비디오 대형 언어 모델\n\n<div align=\"center\">\n<a href=\"https://scholar.google.com/citations?user=myU7V58AAAAJ&hl=en\">Ziyang Fan</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/Mirei124\">Keyu Chen</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/xrlexpert\">Ruilong Xing</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=dQssXVsAAAAJ&hl=en\">Yulin Li</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=5cIodxsAAAAJ&hl=en\">Li Jiang</a><sup>2,3</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=mEjhz-IAAAAJ&hl=en\">Zhuotao Tian</a><sup>1,3*</sup>&nbsp;\n<br>\n<sup>1</sup> 하얼빈 공과대학교 (선전) &nbsp;&nbsp;&nbsp; <sup>2</sup> 홍콩중문대학교 (선전)<br> <sup>3</sup> 선전 루프 에어리어 연구소\n<br>\n<sup>*</sup>교신저자\n<br>\n<a href='https://iclr.cc/'><img src='https://img.shields.io/badge/ICLR-2026-78CA2E.svg'></a> &nbsp;\n<a href='https://openreview.net/forum?id=H6rDX4w6Al'><img src='https://img.shields.io/badge/Paper-Openreview-8D1B12.svg'></a> &nbsp;\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License\"></a> &nbsp;\n<a href='https://fanziyang-v.github.io/FlashVID/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;\n<a href=\"https://arxiv.org/abs/2602.08024\"><img src=\"https://img.shields.io/badge/arXiv-2602.08024-b31b1b.svg\"></a> &nbsp;\n<a href=\"https://huggingface.co/\"><img src=\"https://img.shields.io/badge/transformers-4.57-FFD21E.svg\" alt=\"transformers\"></a> &nbsp;\n<!-- <a href=\"https://python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10%2B-3776ab.svg\" alt=\"Python\"></a> &nbsp; -->\n<!-- <a href=\"https://pytorch.org/\"><img src=\"https://img.shields.io/badge/PyTorch-2.5%2B-DF3411.svg\" alt=\"PyTorch\"></a> &nbsp; -->\n<!-- <a href=\"#\"><img src=\"https://img.shields.io/badge/#.svg\"></a> &nbsp; -->\n</div>\n\n## 🔖목차\n\n1. [뉴스](#news)\n2. [할 일 목록](#todo-list)\n3. [하이라이트](#highlights)\n4. [동기](#motivation)\n5. [방법](#method)\n6. [설치](#installation)\n7. [빠른 시작](#quickstart)\n8. [평가](#evaluation)\n9. [감사의 글](#acknowledgement)\n10. [인용](#citation)\n\n## 🔥뉴스\n\n- [2026.05.01] 🔍Qwen2.5-VL 및 Qwen3-VL에서 수동 [CLS] 어텐션 추출 시 발생할 수 있는 OOM 버그 수정.\n- [2026.02.10] 🚀우리 논문을 arXiv에 공개.\n- [2026.02.06] 🍾우리 논문이 **ICLR 2026**에서 **구두 발표**로 선정됨.\n- [2026.02.01] ✨*Qwen2.5-VL*과 *Qwen3-VL*에 대한 FlashVID 코드 및 추론 데모 공개.\n- [2026.01.31] 🚀이 저장소를 공개함.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Aqir1yt3oYfr1sEFfPU9UBuDwhuOWzWKiD2TpnT4oP8=",
+        "originContent": "# FlashVID: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging",
+        "translatedContent": "# FlashVID: 훈련 불필요한 트리 기반 시공간 토큰 병합을 통한 효율적인 비디오 대형 언어 모델"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "z2IuSjkjkl30LUwQdqVtMCOyDdbHxRsrlL6XS2Gr9OA=",
+        "originContent": "<a href=\"https://scholar.google.com/citations?user=myU7V58AAAAJ&hl=en\">Ziyang Fan</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/Mirei124\">Keyu Chen</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/xrlexpert\">Ruilong Xing</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=dQssXVsAAAAJ&hl=en\">Yulin Li</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=5cIodxsAAAAJ&hl=en\">Li Jiang</a><sup>2,3</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=mEjhz-IAAAAJ&hl=en\">Zhuotao Tian</a><sup>1,3*</sup>&nbsp;",
+        "translatedContent": "<a href=\"https://scholar.google.com/citations?user=myU7V58AAAAJ&hl=en\">Ziyang Fan</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/Mirei124\">Keyu Chen</a><sup>1</sup>,&nbsp; <a href=\"https://github.com/xrlexpert\">Ruilong Xing</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=dQssXVsAAAAJ&hl=en\">Yulin Li</a><sup>1</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=5cIodxsAAAAJ&hl=en\">Li Jiang</a><sup>2,3</sup>,&nbsp; <a href=\"https://scholar.google.com/citations?user=mEjhz-IAAAAJ&hl=en\">Zhuotao Tian</a><sup>1,3*</sup>&nbsp;"
+      },
+      {
+        "row": 5,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 6,
+        "rowsha": "q6zZVTWouvCjqCj39T23NIsaKXthl7Rq4FGdkmxuDbc=",
+        "originContent": "<sup>1</sup> Harbin Institute of Technology (Shenzhen) &nbsp;&nbsp;&nbsp; <sup>2</sup> The Chinese University of Hong Kong (Shenzhen)<br> <sup>3</sup> Shenzhen Loop Area Institute",
+        "translatedContent": "<sup>1</sup> 하얼빈 공과대학교 (선전) &nbsp;&nbsp;&nbsp; <sup>2</sup> 홍콩중문대학교 (선전)<br> <sup>3</sup> 선전 루프 에어리어 연구소"
+      },
+      {
+        "row": 7,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Gi+9orv4isXUvewoUPimIciKmZ0IyOaGONUdb77eKjk=",
+        "originContent": "<sup>*</sup>Corresponding Author",
+        "translatedContent": "<sup>*</sup>교신저자"
+      },
+      {
+        "row": 9,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 10,
+        "rowsha": "sDi0z7n4DcPFMqQ20cjiYL9K3tn2CupPcUcyFiFJvbk=",
+        "originContent": "<a href='https://iclr.cc/'><img src='https://img.shields.io/badge/ICLR-2026-78CA2E.svg'></a> &nbsp;",
+        "translatedContent": "<a href='https://iclr.cc/'><img src='https://img.shields.io/badge/ICLR-2026-78CA2E.svg'></a> &nbsp;"
+      },
+      {
+        "row": 11,
+        "rowsha": "d0RoHRjyBC/pPSi/MTO3d96EYrHSU4JkRkEMlo+jdIo=",
+        "originContent": "<a href='https://openreview.net/forum?id=H6rDX4w6Al'><img src='https://img.shields.io/badge/Paper-Openreview-8D1B12.svg'></a> &nbsp;",
+        "translatedContent": "<a href='https://openreview.net/forum?id=H6rDX4w6Al'><img src='https://img.shields.io/badge/Paper-Openreview-8D1B12.svg'></a> &nbsp;"
+      },
+      {
+        "row": 12,
+        "rowsha": "b4iBfwItNS+SmFxVZeR1DqJB+CIcpOPFcNt1NzXo9Xs=",
+        "originContent": "<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License\"></a> &nbsp;",
+        "translatedContent": "<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License\"></a> &nbsp;"
+      },
+      {
+        "row": 13,
+        "rowsha": "KoaUsy1FZvI19FMWsBR+PUSwaD/1vZwUwtMBCo7Tgp8=",
+        "originContent": "<a href='https://fanziyang-v.github.io/FlashVID/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;",
+        "translatedContent": "<a href='https://fanziyang-v.github.io/FlashVID/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;"
+      },
+      {
+        "row": 14,
+        "rowsha": "MBLuyPedrd5TfuRlDMnzk279A01BQsQwQksYyVeXjMc=",
+        "originContent": "<a href=\"https://arxiv.org/abs/2602.08024\"><img src=\"https://img.shields.io/badge/arXiv-2602.08024-b31b1b.svg\"></a> &nbsp;",
+        "translatedContent": "<a href=\"https://arxiv.org/abs/2602.08024\"><img src=\"https://img.shields.io/badge/arXiv-2602.08024-b31b1b.svg\"></a> &nbsp;"
+      },
+      {
+        "row": 15,
+        "rowsha": "vlf3NpGHLyybmQq1CwYeJS99PdnMb2467ruGRkMG22E=",
+        "originContent": "<a href=\"https://huggingface.co/\"><img src=\"https://img.shields.io/badge/transformers-4.57-FFD21E.svg\" alt=\"transformers\"></a> &nbsp;",
+        "translatedContent": "<a href=\"https://huggingface.co/\"><img src=\"https://img.shields.io/badge/transformers-4.57-FFD21E.svg\" alt=\"transformers\"></a> &nbsp;"
+      },
+      {
+        "row": 16,
+        "rowsha": "aZqFJVy7GE3xif5l74tkfX9OXttuafXp8DJTE4i6zW0=",
+        "originContent": "<!-- <a href=\"https://python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10%2B-3776ab.svg\" alt=\"Python\"></a> &nbsp; -->",
+        "translatedContent": "<!-- <a href=\"https://python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10%2B-3776ab.svg\" alt=\"Python\"></a> &nbsp; -->"
+      },
+      {
+        "row": 17,
+        "rowsha": "gqNf9gNO/aHYJIOo0BjR2+UOlU/DLVWJiX0anh6ZKNc=",
+        "originContent": "<!-- <a href=\"https://pytorch.org/\"><img src=\"https://img.shields.io/badge/PyTorch-2.5%2B-DF3411.svg\" alt=\"PyTorch\"></a> &nbsp; -->",
+        "translatedContent": "<!-- <a href=\"https://pytorch.org/\"><img src=\"https://img.shields.io/badge/PyTorch-2.5%2B-DF3411.svg\" alt=\"PyTorch\"></a> &nbsp; -->"
+      },
+      {
+        "row": 18,
+        "rowsha": "Xn7horubxpduXlJMyxwKDABXPGUDSlcEyQiNOxpEiTg=",
+        "originContent": "<!-- <a href=\"#\"><img src=\"https://img.shields.io/badge/#.svg\"></a> &nbsp; -->",
+        "translatedContent": "<!-- <a href=\"#\"><img src=\"https://img.shields.io/badge/#.svg\"></a> &nbsp; -->"
+      },
+      {
+        "row": 19,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "7fop6TtGsXZpCXBsWq33/YukjBTvGpthI7irUodhlp8=",
+        "originContent": "## 🔖Table of Contents",
+        "translatedContent": "## 🔖목차"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "vPeYrTAb4gXbKQ1MMnW5E3LnRiL6l+8sM1i+LIMAteY=",
+        "originContent": "1. [News](#news)",
+        "translatedContent": "1. [뉴스](#news)"
+      },
+      {
+        "row": 24,
+        "rowsha": "gmZGhTN1c0bMJ3rVLQ/v+GZBjPjixeTDbaSTVI9zHcQ=",
+        "originContent": "2. [Todo List](#todo-list)",
+        "translatedContent": "2. [할 일 목록](#todo-list)"
+      },
+      {
+        "row": 25,
+        "rowsha": "86vKxRQnqb/yDYK8rr5r2WXnHK/C+21tk/8OIva+9F4=",
+        "originContent": "3. [Highlights](#highlights)",
+        "translatedContent": "3. [하이라이트](#highlights)"
+      },
+      {
+        "row": 26,
+        "rowsha": "mck4nAe3zX/kkRudM4WIqq3842RSjXPLonLbcotoqTE=",
+        "originContent": "4. [Motivation](#motivation)",
+        "translatedContent": "4. [동기](#motivation)"
+      },
+      {
+        "row": 27,
+        "rowsha": "bdserghcAEWLD4Axx46A007Am4hgXQLITmh+Kqenh5o=",
+        "originContent": "5. [Method](#method)",
+        "translatedContent": "5. [방법](#method)"
+      },
+      {
+        "row": 28,
+        "rowsha": "1iqJNy3wgSrDiFo6wZNUCZsTpV/tfWpDhpI2nlkVwcg=",
+        "originContent": "6. [Installation](#installation)",
+        "translatedContent": "6. [설치](#installation)"
+      },
+      {
+        "row": 29,
+        "rowsha": "MY9JOHZEHLPS3kbRVb9FPb7Iffx/adBVJlE7++tGPEY=",
+        "originContent": "7. [Quickstart](#quickstart)",
+        "translatedContent": "7. [빠른 시작](#quickstart)"
+      },
+      {
+        "row": 30,
+        "rowsha": "eYPEFckh4xkhZivQaGIAKz3gk+S1fMqSOwd+kGUEER0=",
+        "originContent": "8. [Evaluation](#evaluation)",
+        "translatedContent": "8. [평가](#evaluation)"
+      },
+      {
+        "row": 31,
+        "rowsha": "em5Ge/p/IvE8m14xus6ojCRdSQIyp36bD6L85DLvRg8=",
+        "originContent": "9. [Acknowledgement](#acknowledgement)",
+        "translatedContent": "9. [감사의 글](#acknowledgement)"
+      },
+      {
+        "row": 32,
+        "rowsha": "/0PfiYuN5gEFqwnTtCsRBmKS/ZzrMOcxEeu+5f5kwzQ=",
+        "originContent": "10. [Citation](#citation)",
+        "translatedContent": "10. [인용](#citation)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "mhMu2MHQNUPGHe2Lk6tbWL7LwCsqP8wJnW0xHYs/LKE=",
+        "originContent": "## 🔥News",
+        "translatedContent": "## 🔥뉴스"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "QUFMqXzo0hAX40yQPp8nmJdunsJ9ATSFRWuasqqAKBI=",
+        "originContent": "- [2026.05.01] 🔍Fix a potential OOM bug in manual [CLS] attention extraction in Qwen2.5-VL and Qwen3-VL.",
+        "translatedContent": "- [2026.05.01] 🔍Qwen2.5-VL 및 Qwen3-VL에서 수동 [CLS] 어텐션 추출 시 발생할 수 있는 OOM 버그 수정."
+      },
+      {
+        "row": 37,
+        "rowsha": "EwIVDmOrCkpIQzdnk0dSTqO/LJrU3OGUDF5yWkDB8zk=",
+        "originContent": "- [2026.02.10] 🚀Release our paper on arXiv.",
+        "translatedContent": "- [2026.02.10] 🚀우리 논문을 arXiv에 공개."
+      },
+      {
+        "row": 38,
+        "rowsha": "Uqw4EZ2ruvrN/L70YsDZhdhB9RnFrpQhSC1bsnTL0Zk=",
+        "originContent": "- [2026.02.06] 🍾Our paper has been selected as an **Oral Presentation** at **ICLR 2026**.",
+        "translatedContent": "- [2026.02.06] 🍾우리 논문이 **ICLR 2026**에서 **구두 발표**로 선정됨."
+      },
+      {
+        "row": 39,
+        "rowsha": "wzv6HkVuLMHSWLAMHqnWGy2vtBruzW103DrDUs7OiPE=",
+        "originContent": "- [2026.02.01] ✨Release FlashVID code and inference demos on *Qwen2.5-VL* and *Qwen3-VL*.",
+        "translatedContent": "- [2026.02.01] ✨*Qwen2.5-VL*과 *Qwen3-VL*에 대한 FlashVID 코드 및 추론 데모 공개."
+      },
+      {
+        "row": 40,
+        "rowsha": "w0ui/3/XLWqWwr5iezy9oO7fmWmynQslLAZVNUFcagE=",
+        "originContent": "- [2026.01.31] 🚀Release this repository to the public.",
+        "translatedContent": "- [2026.01.31] 🚀이 저장소를 공개함."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- [2026.01.30] ✨Release FlashVID code and inference demos on *LLaVA-OneVision* and *LLaVA-Video*.\n- [2026.01.30] 👏Initialize this GitHub repository.\n- [2026.01.26] 🎉Our training-free inference acceleration method [FlashVID](https://openreview.net/forum?id=H6rDX4w6Al) has been accepted at **ICLR 2026**.\n- [2025.12.06] 🌟Release the GitHub repository of [DyTok](https://github.com/yu-lin-li/DyToK).\n- [2025.09.18] 🎉 Our training-free inference acceleration framework [DyTok](https://www.arxiv.org/abs/2512.06866) has been accepted at **NeurIPS 2025**.\n\n## 📋Todo List\n\n- [ ] Optimize code efficiency\n- [x] Release FlashVID code on LLaVA-OneVision and LLaVA-Video.\n- [x] Release inference demos on different Video LLMs with FlashVID.\n- [x] Support evaluation using [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).\n- [x] Release FlashVID code on Qwen2.5-VL and Qwen3-VL.\n- [x] Release our paper on arXiv.\n\n## ✨Highlights\n\n![FlashVID Teaser](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/teaser.png)\n\n1. Our FlashVID significantly outperforms previous state-of-the-art acceleration frameworks (e.g., VisionZip, FastVID) across **three** representative VLLMs (i.e., LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL) on **five** widely used video understanding benchmarks (i.e., VideoMME, EgoSchema, LongVideoBench, MVBench, MLVU).\n2. FlashVID can serve as a training-free and plug-and-play module for extending long video frames, enabling a **10x** increase in video frame input to Qwen2.5-VL, resulting in **8.6%** within the same computational budget.\n3. Existing efficient Video LLM methods often independently compress spatial and temporal redundancy, overlooking the intrinsic spatiotemporal relationships in videos. To address this, we present a **simple yet effective** solution: Tree-based Spatiotemporal Token Merging (TSTM) for fine-grained spatiotemporal redundancy compression.\n\n## 💡Motivation\n\n![Motivation](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/motivation.png)\n\nIn this work, we identify two key observations about spatiotemporal redundancy in videos:\n\n1. **Temporal redundancy is not bound to fixed spatial locations.** Semantically consistent elements in videos often shift in spatial position, scale, or appearance due to motion and scene dynamics, making rigid spatial correspondence across frames unreliable\n2. **Spatial and temporal redundancy are inherently coupled.** Redundant regions within a single frame frequently persist across multiple frames. Decoupled spatiotemporal redundancy compression overlooks the intrinsic spatiotemporal relationships, leading to suboptimal compression.\n\nTo achieve better spatiotemporal redundancy compression, we present a **simple yet effective** solution: **Tree-based Spatiotemporal Token Merging (TSTM)** for fine-grained spatiotemporal redundancy compression, complemented by the **Attention and Diversity-based Token Selection (ADTS)** module for informative token selection.\n\n## 🌈Method\n\n![Method](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/method.png)\n\n**Illustration of FlashVID**. We compress visual tokens by two synergistic modules.\n",
+    "ContentSha": "9YZUjlcJn4Ny8Kn0qNFeejMZruCXAmAnuaHL0ggXibs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [2026.01.30] ✨*LLaVA-OneVision* 및 *LLaVA-Video*에서 FlashVID 코드와 추론 데모를 공개했습니다.\n- [2026.01.30] 👏이 GitHub 저장소를 초기화했습니다.\n- [2026.01.26] 🎉훈련이 필요 없는 추론 가속화 방법 [FlashVID](https://openreview.net/forum?id=H6rDX4w6Al)가 **ICLR 2026**에 채택되었습니다.\n- [2025.12.06] 🌟[DyTok](https://github.com/yu-lin-li/DyToK) GitHub 저장소를 공개했습니다.\n- [2025.09.18] 🎉훈련이 필요 없는 추론 가속화 프레임워크 [DyTok](https://www.arxiv.org/abs/2512.06866)가 **NeurIPS 2025**에 채택되었습니다.\n\n## 📋해야 할 일 목록\n\n- [ ] 코드 효율성 최적화\n- [x] LLaVA-OneVision 및 LLaVA-Video에서 FlashVID 코드 공개.\n- [x] FlashVID를 이용한 다양한 비디오 LLM 추론 데모 공개.\n- [x] [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)을 사용한 평가 지원.\n- [x] Qwen2.5-VL 및 Qwen3-VL에서 FlashVID 코드 공개.\n- [x] 논문을 arXiv에 공개.\n\n## ✨주요 내용\n\n![FlashVID 티저](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/teaser.png)\n\n1. 우리 FlashVID는 **세 개**의 대표적인 VLLM(즉, LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL)에서 **다섯 개**의 널리 사용되는 비디오 이해 벤치마크(즉, VideoMME, EgoSchema, LongVideoBench, MVBench, MLVU)에 대해 이전 최첨단 가속 프레임워크(예: VisionZip, FastVID)를 크게 능가합니다.\n2. FlashVID는 훈련이 필요 없고 플러그 앤 플레이 모듈로서 긴 비디오 프레임 확장이 가능하여 Qwen2.5-VL에 대해 비디오 프레임 입력을 **10배** 증가시키면서 동일한 계산 예산 내에서 **8.6%** 향상을 달성합니다.\n3. 기존 효율적인 비디오 LLM 방법은 공간적 및 시간적 중복을 독립적으로 압축하는 경우가 많아 비디오 내 고유한 시공간적 관계를 간과합니다. 이를 해결하기 위해, 우리는 미세한 시공간 중복 압축을 위한 **간단하지만 효과적인** 방법인 트리 기반 시공간 토큰 병합(Tree-based Spatiotemporal Token Merging, TSTM)을 제안합니다.\n\n## 💡동기\n\n![동기](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/motivation.png)\n\n본 연구에서는 비디오 내 시공간 중복에 대해 두 가지 주요 관찰을 했습니다:\n\n1. **시간적 중복은 고정된 공간 위치에 국한되지 않습니다.** 비디오 내 의미상 일관된 요소들은 움직임과 장면 변화로 인해 공간 위치, 크기, 외관이 변할 수 있어 프레임 간 엄격한 공간 대응이 신뢰할 수 없습니다.\n2. **공간적 및 시간적 중복은 본질적으로 결합되어 있습니다.** 단일 프레임 내 중복 영역은 여러 프레임에 걸쳐 지속되는 경우가 많습니다. 시공간 중복 압축을 분리하면 고유한 시공간 관계를 무시하여 비효율적인 압축이 됩니다.\n\n더 나은 시공간 중복 압축을 위해, 우리는 미세한 시공간 중복 압축을 위한 **간단하지만 효과적인** 방법인 **트리 기반 시공간 토큰 병합(TSTM)**과 정보성 토큰 선정을 위한 **어텐션 및 다양성 기반 토큰 선택(ADTS)** 모듈을 함께 제안합니다.\n\n## 🌈방법\n\n![방법](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/method.png)\n\n**FlashVID 개요**. 우리는 두 가지 시너지 모듈로 시각 토큰을 압축합니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fdFagxjr3WJn3Ilm+uzeZtirXEpiMQYzRbyU0KPdRAc=",
+        "originContent": "- [2026.01.30] ✨Release FlashVID code and inference demos on *LLaVA-OneVision* and *LLaVA-Video*.",
+        "translatedContent": "- [2026.01.30] ✨*LLaVA-OneVision* 및 *LLaVA-Video*에서 FlashVID 코드와 추론 데모를 공개했습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "MBYWsiAzT2+TBhGxmBTfrzG1oqyNL0xCVHtzIDyrKB0=",
+        "originContent": "- [2026.01.30] 👏Initialize this GitHub repository.",
+        "translatedContent": "- [2026.01.30] 👏이 GitHub 저장소를 초기화했습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "J3GmmUSIhtvut5/qIWg5F1zAdKys0duS41nAWurIrls=",
+        "originContent": "- [2026.01.26] 🎉Our training-free inference acceleration method [FlashVID](https://openreview.net/forum?id=H6rDX4w6Al) has been accepted at **ICLR 2026**.",
+        "translatedContent": "- [2026.01.26] 🎉훈련이 필요 없는 추론 가속화 방법 [FlashVID](https://openreview.net/forum?id=H6rDX4w6Al)가 **ICLR 2026**에 채택되었습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "NqmJZFWY/s84kbamoEKXD8cBMJFU27JMTaCAydx5dw8=",
+        "originContent": "- [2025.12.06] 🌟Release the GitHub repository of [DyTok](https://github.com/yu-lin-li/DyToK).",
+        "translatedContent": "- [2025.12.06] 🌟[DyTok](https://github.com/yu-lin-li/DyToK) GitHub 저장소를 공개했습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "E6cGn7XtqvVCqWD0olevAK1dTh430YXp69bjWOuepyo=",
+        "originContent": "- [2025.09.18] 🎉 Our training-free inference acceleration framework [DyTok](https://www.arxiv.org/abs/2512.06866) has been accepted at **NeurIPS 2025**.",
+        "translatedContent": "- [2025.09.18] 🎉훈련이 필요 없는 추론 가속화 프레임워크 [DyTok](https://www.arxiv.org/abs/2512.06866)가 **NeurIPS 2025**에 채택되었습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "mqKnkVMCXHcjAcqMG+eyjO1KflmKhOvUv/SYSoiBFhk=",
+        "originContent": "## 📋Todo List",
+        "translatedContent": "## 📋해야 할 일 목록"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "T4MUKy14MnXxsVJB4tyxZfr7y6+zWNOjjNuRgiVqtXI=",
+        "originContent": "- [ ] Optimize code efficiency",
+        "translatedContent": "- [ ] 코드 효율성 최적화"
+      },
+      {
+        "row": 10,
+        "rowsha": "Xq1JIrlay40dwgvbP0uPblFynZmJm0irudF80WpSO/M=",
+        "originContent": "- [x] Release FlashVID code on LLaVA-OneVision and LLaVA-Video.",
+        "translatedContent": "- [x] LLaVA-OneVision 및 LLaVA-Video에서 FlashVID 코드 공개."
+      },
+      {
+        "row": 11,
+        "rowsha": "ti1I8Nx+48viLsExtZJ5CF2cNFce9davXROH1jTjJOk=",
+        "originContent": "- [x] Release inference demos on different Video LLMs with FlashVID.",
+        "translatedContent": "- [x] FlashVID를 이용한 다양한 비디오 LLM 추론 데모 공개."
+      },
+      {
+        "row": 12,
+        "rowsha": "LbafbJZXVh/Ghc8/dVuwXOlCNnYqLYWfbQIHMz6bEu8=",
+        "originContent": "- [x] Support evaluation using [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).",
+        "translatedContent": "- [x] [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)을 사용한 평가 지원."
+      },
+      {
+        "row": 13,
+        "rowsha": "K6LfrRWbWGNK7hpUbKkv3uTZM9lNy+2j6azPqNoptcs=",
+        "originContent": "- [x] Release FlashVID code on Qwen2.5-VL and Qwen3-VL.",
+        "translatedContent": "- [x] Qwen2.5-VL 및 Qwen3-VL에서 FlashVID 코드 공개."
+      },
+      {
+        "row": 14,
+        "rowsha": "8UFJPLZt2ta9lhQS+xA0JltpUGOhZd6F84dOZZ+kd1c=",
+        "originContent": "- [x] Release our paper on arXiv.",
+        "translatedContent": "- [x] 논문을 arXiv에 공개."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "uW/442uwTM01JJJL7LkcxB1/TY4/QHWuCwNhPLYiG7Q=",
+        "originContent": "## ✨Highlights",
+        "translatedContent": "## ✨주요 내용"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "6sFqYmiEmQCt9OkDJejXR9JS1F8ss/339+nMRm5WhE4=",
+        "originContent": "![FlashVID Teaser](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/teaser.png)",
+        "translatedContent": "![FlashVID 티저](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/teaser.png)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "h26oiUmzk6jjllHSzQe4O9CRp6L76lqCMM4eLLM1H4Q=",
+        "originContent": "1. Our FlashVID significantly outperforms previous state-of-the-art acceleration frameworks (e.g., VisionZip, FastVID) across **three** representative VLLMs (i.e., LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL) on **five** widely used video understanding benchmarks (i.e., VideoMME, EgoSchema, LongVideoBench, MVBench, MLVU).",
+        "translatedContent": "1. 우리 FlashVID는 **세 개**의 대표적인 VLLM(즉, LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL)에서 **다섯 개**의 널리 사용되는 비디오 이해 벤치마크(즉, VideoMME, EgoSchema, LongVideoBench, MVBench, MLVU)에 대해 이전 최첨단 가속 프레임워크(예: VisionZip, FastVID)를 크게 능가합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "iA4fQxNlDxoIH6JYXlDKIXX67k3gkpxvDlc5d1SYGvk=",
+        "originContent": "2. FlashVID can serve as a training-free and plug-and-play module for extending long video frames, enabling a **10x** increase in video frame input to Qwen2.5-VL, resulting in **8.6%** within the same computational budget.",
+        "translatedContent": "2. FlashVID는 훈련이 필요 없고 플러그 앤 플레이 모듈로서 긴 비디오 프레임 확장이 가능하여 Qwen2.5-VL에 대해 비디오 프레임 입력을 **10배** 증가시키면서 동일한 계산 예산 내에서 **8.6%** 향상을 달성합니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "5Qz5A5GfL8yY1HTkeBzUVgKMrcCFC+NBc4Ih66QqGMY=",
+        "originContent": "3. Existing efficient Video LLM methods often independently compress spatial and temporal redundancy, overlooking the intrinsic spatiotemporal relationships in videos. To address this, we present a **simple yet effective** solution: Tree-based Spatiotemporal Token Merging (TSTM) for fine-grained spatiotemporal redundancy compression.",
+        "translatedContent": "3. 기존 효율적인 비디오 LLM 방법은 공간적 및 시간적 중복을 독립적으로 압축하는 경우가 많아 비디오 내 고유한 시공간적 관계를 간과합니다. 이를 해결하기 위해, 우리는 미세한 시공간 중복 압축을 위한 **간단하지만 효과적인** 방법인 트리 기반 시공간 토큰 병합(Tree-based Spatiotemporal Token Merging, TSTM)을 제안합니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "01AIkkqd4lzDIWJEKyzfJU04SgXNNevsOMVCVSEBb/0=",
+        "originContent": "## 💡Motivation",
+        "translatedContent": "## 💡동기"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "IztEG2xb739fcRz6aaUX9ZLGqwQw68fNdftlftSR1bE=",
+        "originContent": "![Motivation](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/motivation.png)",
+        "translatedContent": "![동기](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/motivation.png)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "DJp9BDMEJ8BpmDxk7k5WQY5eQOA6gvjOlbmgeH2smvE=",
+        "originContent": "In this work, we identify two key observations about spatiotemporal redundancy in videos:",
+        "translatedContent": "본 연구에서는 비디오 내 시공간 중복에 대해 두 가지 주요 관찰을 했습니다:"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "XrVJtV45ywDMllFL27/fVWGTV+q/NFWrO3YgM4mqYiE=",
+        "originContent": "1. **Temporal redundancy is not bound to fixed spatial locations.** Semantically consistent elements in videos often shift in spatial position, scale, or appearance due to motion and scene dynamics, making rigid spatial correspondence across frames unreliable",
+        "translatedContent": "1. **시간적 중복은 고정된 공간 위치에 국한되지 않습니다.** 비디오 내 의미상 일관된 요소들은 움직임과 장면 변화로 인해 공간 위치, 크기, 외관이 변할 수 있어 프레임 간 엄격한 공간 대응이 신뢰할 수 없습니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "TEMsmp1RBEsj1SihbpdTb3vb48KhDEhwUfbUd6mdCpI=",
+        "originContent": "2. **Spatial and temporal redundancy are inherently coupled.** Redundant regions within a single frame frequently persist across multiple frames. Decoupled spatiotemporal redundancy compression overlooks the intrinsic spatiotemporal relationships, leading to suboptimal compression.",
+        "translatedContent": "2. **공간적 및 시간적 중복은 본질적으로 결합되어 있습니다.** 단일 프레임 내 중복 영역은 여러 프레임에 걸쳐 지속되는 경우가 많습니다. 시공간 중복 압축을 분리하면 고유한 시공간 관계를 무시하여 비효율적인 압축이 됩니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "NjDgFdOGGB7hOwOfvq6vkN0An6X3pX3ejgn7OZzn0Hg=",
+        "originContent": "To achieve better spatiotemporal redundancy compression, we present a **simple yet effective** solution: **Tree-based Spatiotemporal Token Merging (TSTM)** for fine-grained spatiotemporal redundancy compression, complemented by the **Attention and Diversity-based Token Selection (ADTS)** module for informative token selection.",
+        "translatedContent": "더 나은 시공간 중복 압축을 위해, 우리는 미세한 시공간 중복 압축을 위한 **간단하지만 효과적인** 방법인 **트리 기반 시공간 토큰 병합(TSTM)**과 정보성 토큰 선정을 위한 **어텐션 및 다양성 기반 토큰 선택(ADTS)** 모듈을 함께 제안합니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ejQq2m+k020QWs9P0sax++B9HEI4B62KQ6bRqQ1R1zM=",
+        "originContent": "## 🌈Method",
+        "translatedContent": "## 🌈방법"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "7UF4nbSOb7QNWbG5zebXq4OJpL2Pjxhp12Ic/a/X/hc=",
+        "originContent": "![Method](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/method.png)",
+        "translatedContent": "![방법](https://raw.githubusercontent.com/Fanziyang-v/FlashVID/main/assets/method.png)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "e0GKkW3f2JnRVevTPuQWYYBi0DYc32a2mKJu/4nXUN8=",
+        "originContent": "**Illustration of FlashVID**. We compress visual tokens by two synergistic modules.",
+        "translatedContent": "**FlashVID 개요**. 우리는 두 가지 시너지 모듈로 시각 토큰을 압축합니다."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "1. **Attention and Diversity-based Token Selection (ADTS)** prioritizes spatiotemporally informative tokens while ensuring feature diversity by solving a calibrated Max-Min Diversity Problem (MMDP);\n2. **Tree-based Saptiotemporal Token Merging (TSTM)** models redundancy by spatiotemporal redundancy trees, which effectively capture fine-grained video dynamics. Each redundancy tree will be aggregated into a single token representation.\n\n\n## 📦Installation\n\nIn this project, we use [uv](https://github.com/astral-sh/uv) for package management.\n\n1. **Clone this repository and navigate to the FlashVID folder:**\n",
+    "ContentSha": "tGjjsGpavhTrRgmhMXQiRAQ6T0BEQvvGNvGoE0I408g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. **주의집중 및 다양성 기반 토큰 선택(ADTS)**은 보정된 최대-최소 다양성 문제(MMDP)를 해결하여 시공간적으로 정보가 풍부한 토큰을 우선 선택하면서 특징 다양성을 보장합니다;\n2. **트리 기반 시공간 토큰 병합(TSTM)**은 시공간 중복성 트리를 통해 중복성을 모델링하며, 이는 미세한 비디오 동적 변화를 효과적으로 포착합니다. 각 중복성 트리는 단일 토큰 표현으로 집계됩니다.\n\n\n## 📦설치\n\n이 프로젝트에서는 패키지 관리를 위해 [uv](https://github.com/astral-sh/uv)를 사용합니다.\n\n1. **이 저장소를 클론하고 FlashVID 폴더로 이동하세요:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vCaSff41fiRQ/lm90ZiTjj2PBcrxJdI8+ebktaLEplY=",
+        "originContent": "1. **Attention and Diversity-based Token Selection (ADTS)** prioritizes spatiotemporally informative tokens while ensuring feature diversity by solving a calibrated Max-Min Diversity Problem (MMDP);",
+        "translatedContent": "1. **주의집중 및 다양성 기반 토큰 선택(ADTS)**은 보정된 최대-최소 다양성 문제(MMDP)를 해결하여 시공간적으로 정보가 풍부한 토큰을 우선 선택하면서 특징 다양성을 보장합니다;"
+      },
+      {
+        "row": 2,
+        "rowsha": "bAxMJqJxiQHYewAZEDxpHjNVBuQMiAzNSbhfw0pLLUM=",
+        "originContent": "2. **Tree-based Saptiotemporal Token Merging (TSTM)** models redundancy by spatiotemporal redundancy trees, which effectively capture fine-grained video dynamics. Each redundancy tree will be aggregated into a single token representation.",
+        "translatedContent": "2. **트리 기반 시공간 토큰 병합(TSTM)**은 시공간 중복성 트리를 통해 중복성을 모델링하며, 이는 미세한 비디오 동적 변화를 효과적으로 포착합니다. 각 중복성 트리는 단일 토큰 표현으로 집계됩니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1cy+RgQwqEii4xijtc5ENDz7wsD4nwO0q/pPtOWqWSI=",
+        "originContent": "## 📦Installation",
+        "translatedContent": "## 📦설치"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "QAdaZyCpMZOrDpMzd0YiaBVuAKSO8FZdmVpADL+8+bg=",
+        "originContent": "In this project, we use [uv](https://github.com/astral-sh/uv) for package management.",
+        "translatedContent": "이 프로젝트에서는 패키지 관리를 위해 [uv](https://github.com/astral-sh/uv)를 사용합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "l1ZGJ6q5iLVncM+BjoQvMLXHaf54ETIyMtgfM5/4KLQ=",
+        "originContent": "1. **Clone this repository and navigate to the FlashVID folder:**",
+        "translatedContent": "1. **이 저장소를 클론하고 FlashVID 폴더로 이동하세요:**"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/Fanziyang-v/FlashVID.git\ncd FlashVID\n```",
+    "ContentSha": "hY9clMuzomnBgdNKcLUKACpyY015uzFYrFT4Vmi44SM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/Fanziyang-v/FlashVID.git\ncd FlashVID\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zUAABJMRogUxG/piL8efizAJ3kLn/8cEHS/58OuHxkY=",
+        "originContent": "git clone https://github.com/Fanziyang-v/FlashVID.git",
+        "translatedContent": "git clone https://github.com/Fanziyang-v/FlashVID.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "tg2oytPECUVtGQgY+7gdNiuKmDUK8CcNdT2im4Evewo=",
+        "originContent": "cd FlashVID",
+        "translatedContent": "cd FlashVID"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n2. **Install the inference package:**\n",
+    "ContentSha": "JfzhsqKwOeL5UopG23p1vYjc8KAqnXHzVyd+W4CuMU8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **추론 패키지 설치:**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **추론 패키지 설치:**"
+      },
+      {
+        "row": 2,
+        "rowsha": "jAKTwDHss7xSd0SApP/R1UrI/0HirgfsYueYXEOnw7s=",
+        "originContent": "2. **Install the inference package:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nuv sync\n```",
+    "ContentSha": "kSlyD80nyOKkqXIWhU4CMpJuzZc6P9NpPZuEhB0p5Gw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nuv sync\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6IUt3swb9NwCpg2AB8+2bWbPmZ9skvhon0N/15abJBU=",
+        "originContent": "uv sync",
+        "translatedContent": "uv sync"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## 🚀Quickstart\n\nFlashVID's code is easy to use and works out of the box. Just wrap the model with the `flashvid()` function. Currently, FlashVID supports LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, and Qwen3-VL.\n",
+    "ContentSha": "MZ834L8540HDvN5sGKgwWwv4j9w2KsCYmWGt7tRJyNM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🚀빠른 시작\n\nFlashVID의 코드는 사용하기 쉽고 바로 작동합니다. 모델을 `flashvid()` 함수로 감싸기만 하면 됩니다. 현재 FlashVID는 LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, Qwen3-VL을 지원합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🚀빠른 시작"
+      },
+      {
+        "row": 2,
+        "rowsha": "lSmRTBNTp1uFm0I6N9cCUqvGwlmqrrrfxnu9+avPdpY=",
+        "originContent": "## 🚀Quickstart",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "FlashVID의 코드는 사용하기 쉽고 바로 작동합니다. 모델을 `flashvid()` 함수로 감싸기만 하면 됩니다. 현재 FlashVID는 LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, Qwen3-VL을 지원합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "5qOVvpXiJ2uN2f/tXDY7RZVNYyj6FJV65x10cuuTsUc=",
+        "originContent": "FlashVID's code is easy to use and works out of the box. Just wrap the model with the `flashvid()` function. Currently, FlashVID supports LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, and Qwen3-VL.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```python\nfrom flashvid import flashvid\n\nmodel = flashvid(\n    model,\n    retention_ratio=0.1,\n    alpha=0.7,\n    temporal_threshold=0.8,\n)\n```",
+    "ContentSha": "MWrin7+/grksPuuFz+EqTsgkhtUIB1hcxcaX7HxENVg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom flashvid import flashvid\n\nmodel = flashvid(\n    model,\n    retention_ratio=0.1,\n    alpha=0.7,\n    temporal_threshold=0.8,\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "4VS1i1q124jCjS5W80BpdAGyuwPNMy9xMXw+M6AuunU=",
+        "originContent": "from flashvid import flashvid",
+        "translatedContent": "from flashvid import flashvid"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XwswwgaD1hKwXQTL1OdIEKzAa0KFTMZpViIU6VP4uvY=",
+        "originContent": "model = flashvid(",
+        "translatedContent": "model = flashvid("
+      },
+      {
+        "row": 5,
+        "rowsha": "51vWAftCburV3lrmTmlI+db0cJBlGMgUEAR7ccMw5QI=",
+        "originContent": "    model,",
+        "translatedContent": "    model,"
+      },
+      {
+        "row": 6,
+        "rowsha": "MY0j6Fdego845BEnmI00apCUTXdUnkPsN+KG5kexizk=",
+        "originContent": "    retention_ratio=0.1,",
+        "translatedContent": "    retention_ratio=0.1,"
+      },
+      {
+        "row": 7,
+        "rowsha": "OX6/2VoZiLuN/40cnCLuqu2UF+9fJWrzndT8SZD6c98=",
+        "originContent": "    alpha=0.7,",
+        "translatedContent": "    alpha=0.7,"
+      },
+      {
+        "row": 8,
+        "rowsha": "+eWF4lSt6+Z5qrMjF1kleotCUsLab3l1VETGEDWyZaQ=",
+        "originContent": "    temporal_threshold=0.8,",
+        "translatedContent": "    temporal_threshold=0.8,"
+      },
+      {
+        "row": 9,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n📝**Note**: You can override the default parameters (e.g., retention ratio) in the `flashvid()` wrapper function.\n\nInference demos are provided in `playground/`. Here is an running example:\n",
+    "ContentSha": "KdQjBb4i1THCXVCfAeLi+WX8GpAO/J8T9o4OPT6vK38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n📝**참고**: 기본 매개변수(예: 유지 비율)는 `flashvid()` 래퍼 함수에서 재정의할 수 있습니다.\n\n추론 데모는 `playground/`에 제공됩니다. 실행 예시는 다음과 같습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uWEVuQRYBFoTuO4DgeCIfCdKnOpoChXFchSwbMC9guU=",
+        "originContent": "📝**Note**: You can override the default parameters (e.g., retention ratio) in the `flashvid()` wrapper function.",
+        "translatedContent": "📝**참고**: 기본 매개변수(예: 유지 비율)는 `flashvid()` 래퍼 함수에서 재정의할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IIgFihe/Q/vVsIsFxySYy9sogp6pHUzzef3bK3alC6I=",
+        "originContent": "Inference demos are provided in `playground/`. Here is an running example:",
+        "translatedContent": "추론 데모는 `playground/`에 제공됩니다. 실행 예시는 다음과 같습니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\npython playground/llava_ov_infer.py \\\n    --video-path assets/Qgr4dcsY-60.mp4 \\\n    --question \"Describe the video in detail.\" \\\n    --num-frames 32 \\\n    --enable-flashvid\n```",
+    "ContentSha": "i5JpmJIrWOHa0GJZC9ebUplVbkG98Of31Pekhtp3FKs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython playground/llava_ov_infer.py \\\n    --video-path assets/Qgr4dcsY-60.mp4 \\\n    --question \"Describe the video in detail.\" \\\n    --num-frames 32 \\\n    --enable-flashvid\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "AF5Vtb8MrZsFAZFbrh0UtD8zHs0QVZQcAWAWnEh5SuM=",
+        "originContent": "python playground/llava_ov_infer.py \\",
+        "translatedContent": "python playground/llava_ov_infer.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "793OGTdXtLdGk/hEoS2grRJ3TWOA6FXUGTqviA1fvzY=",
+        "originContent": "    --video-path assets/Qgr4dcsY-60.mp4 \\",
+        "translatedContent": "    --video-path assets/Qgr4dcsY-60.mp4 \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "Iw/nrBetIpMKm1E7U8+MLTIAz2U50oyHQWN/fBPAEEY=",
+        "originContent": "    --question \"Describe the video in detail.\" \\",
+        "translatedContent": "    --question \"Describe the video in detail.\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "G+ZPLhsdGDp9e2OMO9i71AX4az7Ic+wyPhfywKjB38M=",
+        "originContent": "    --num-frames 32 \\",
+        "translatedContent": "    --num-frames 32 \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "BVCS31JM5upUUwciScWnC6DSql6OM4QqvdGBNftfG2s=",
+        "originContent": "    --enable-flashvid",
+        "translatedContent": "    --enable-flashvid"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## 📊Evaluation\n\nIn this project, all the experiments are conducted using [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). We provide FlashVID evaluation scripts in `scripts/`, including LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, and Qwen3-VL. You can run the scripts to reproduce our experimental results:\n",
+    "ContentSha": "MmlhY+dAZhBsQzpvmsbYdJIRZUOFUsyfZ5nRs9is90A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📊평가\n\n이 프로젝트에서는 모든 실험이 [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)을 사용하여 수행됩니다. `scripts/`에는 LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, Qwen3-VL을 포함한 FlashVID 평가 스크립트가 제공됩니다. 스크립트를 실행하여 우리의 실험 결과를 재현할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📊평가"
+      },
+      {
+        "row": 2,
+        "rowsha": "IzN7BX/7SKQTNSKEEnQBtmqWP5txWVU5A8ThOgKVJNo=",
+        "originContent": "## 📊Evaluation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트에서는 모든 실험이 [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)을 사용하여 수행됩니다. `scripts/`에는 LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, Qwen3-VL을 포함한 FlashVID 평가 스크립트가 제공됩니다. 스크립트를 실행하여 우리의 실험 결과를 재현할 수 있습니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "cAe7XmFYX10y0FQ+uBaOoMvMss6MJ7ugCT6UOgQ74Kc=",
+        "originContent": "In this project, all the experiments are conducted using [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). We provide FlashVID evaluation scripts in `scripts/`, including LLaVA-OneVision, LLaVA-Video, Qwen2.5-VL, and Qwen3-VL. You can run the scripts to reproduce our experimental results:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nbash scripts/llava_ov.sh\n```",
+    "ContentSha": "3NhAZ2l4Xxdiwisrs0oeLoy54rqOu5owJ7i1leuQWWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash scripts/llava_ov.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gmJxLwfrGnIMeOgw4CqUjPK57FWqrlMhcrJ1deQIp3A=",
+        "originContent": "bash scripts/llava_ov.sh",
+        "translatedContent": "bash scripts/llava_ov.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n📝**Note**: It is extremely easy to integrate FlashVID into LMMs-Eval by adding specific parameters in `__init__()` and wrapping the loaded model with the `flashvid()` function. (See `lmms_eval/models/simple/llava_onevision.py`)\n\n## 👏Acknowledgement\n\nThis project is built upon recent open-source works: [FastV](https://github.com/pkunlp-icler/FastV), [VisionZip](https://github.com/dvlab-research/VisionZip), [PruneVID](https://github.com/visual-ai/prunevid), [FastVID](https://github.com/LunarShen/FastVID), [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT), [Qwen2.5-VL/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL), [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). Thanks for their excellent work!\n\n## 📜Citation\n\nIf you find this project useful in your research, please consider citing:\n",
+    "ContentSha": "w0nYXmtBEkoaP1mYhpTGd8MNEPruh5wj7CnJWbuzF5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n📝**참고**: `__init__()`에 특정 매개변수를 추가하고 로드된 모델을 `flashvid()` 함수로 감싸기만 하면 FlashVID를 LMMs-Eval에 매우 쉽게 통합할 수 있습니다. (`lmms_eval/models/simple/llava_onevision.py` 참고)\n\n## 👏감사의 글\n\n이 프로젝트는 최근 오픈소스 작업들을 기반으로 구축되었습니다: [FastV](https://github.com/pkunlp-icler/FastV), [VisionZip](https://github.com/dvlab-research/VisionZip), [PruneVID](https://github.com/visual-ai/prunevid), [FastVID](https://github.com/LunarShen/FastVID), [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT), [Qwen2.5-VL/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL), [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). 이들의 훌륭한 작업에 감사드립니다!\n\n## 📜인용\n\n이 프로젝트가 연구에 유용하다면, 인용을 고려해 주시기 바랍니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MnanS9Q01KEtZS6qBevJM6bqhLSqngiXzlw5qO2cMf4=",
+        "originContent": "📝**Note**: It is extremely easy to integrate FlashVID into LMMs-Eval by adding specific parameters in `__init__()` and wrapping the loaded model with the `flashvid()` function. (See `lmms_eval/models/simple/llava_onevision.py`)",
+        "translatedContent": "📝**참고**: `__init__()`에 특정 매개변수를 추가하고 로드된 모델을 `flashvid()` 함수로 감싸기만 하면 FlashVID를 LMMs-Eval에 매우 쉽게 통합할 수 있습니다. (`lmms_eval/models/simple/llava_onevision.py` 참고)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "kCovFIgtaHw3YdEZG85NyQl+2GLRyw1q22qEweBOqN4=",
+        "originContent": "## 👏Acknowledgement",
+        "translatedContent": "## 👏감사의 글"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "btQsuay6rhXDEZGGNdoL68xdcHC8KvRs5XFhW1h4fK8=",
+        "originContent": "This project is built upon recent open-source works: [FastV](https://github.com/pkunlp-icler/FastV), [VisionZip](https://github.com/dvlab-research/VisionZip), [PruneVID](https://github.com/visual-ai/prunevid), [FastVID](https://github.com/LunarShen/FastVID), [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT), [Qwen2.5-VL/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL), [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). Thanks for their excellent work!",
+        "translatedContent": "이 프로젝트는 최근 오픈소스 작업들을 기반으로 구축되었습니다: [FastV](https://github.com/pkunlp-icler/FastV), [VisionZip](https://github.com/dvlab-research/VisionZip), [PruneVID](https://github.com/visual-ai/prunevid), [FastVID](https://github.com/LunarShen/FastVID), [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT), [Qwen2.5-VL/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL), [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). 이들의 훌륭한 작업에 감사드립니다!"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "SNBqPhFbbW9h1lfR8WpngjjfsexCkG3CndtobgldTOk=",
+        "originContent": "## 📜Citation",
+        "translatedContent": "## 📜인용"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Ozy43cTXMHL14T5UJL1tJYi5z7SBxeNLx7pJ6vRhzns=",
+        "originContent": "If you find this project useful in your research, please consider citing:",
+        "translatedContent": "이 프로젝트가 연구에 유용하다면, 인용을 고려해 주시기 바랍니다:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bib\n@inproceedings{\n    fan2026flashvid,\n    title={Flash{VID}: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging},\n    author={Ziyang Fan and Keyu Chen and Ruilong Xing and Yulin Li and Li Jiang and Zhuotao Tian},\n    booktitle={The Fourteenth International Conference on Learning Representations},\n    year={2026},\n    url={https://openreview.net/forum?id=H6rDX4w6Al}\n}\n```",
+    "ContentSha": "vlZ8XY7T85p/Y22Wi2Z3OmpRZhrYX1s9CO61yPTUlzc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bib\n@inproceedings{\n    fan2026flashvid,\n    title={Flash{VID}: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging},\n    author={Ziyang Fan and Keyu Chen and Ruilong Xing and Yulin Li and Li Jiang and Zhuotao Tian},\n    booktitle={The Fourteenth International Conference on Learning Representations},\n    year={2026},\n    url={https://openreview.net/forum?id=H6rDX4w6Al}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Il8j2Vm3hvNZx4Fst7nBt2r81qCfcdEN+Cvj5sBcBxY=",
+        "originContent": "```bib",
+        "translatedContent": "```bib"
+      },
+      {
+        "row": 2,
+        "rowsha": "a41gvp9ljXe3n/DGTCbh/H1WaYS4oApt/l2rGBizMj0=",
+        "originContent": "@inproceedings{",
+        "translatedContent": "@inproceedings{"
+      },
+      {
+        "row": 3,
+        "rowsha": "mOSaBF5rGdmWapoGNIiDlorHexAzJM4+RfDO+8AUgZw=",
+        "originContent": "    fan2026flashvid,",
+        "translatedContent": "    fan2026flashvid,"
+      },
+      {
+        "row": 4,
+        "rowsha": "YXqyB6K1MS+x0nVU3M3zEpbzX8yO0FwkrU/aw0rn2QA=",
+        "originContent": "    title={Flash{VID}: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging},",
+        "translatedContent": "    title={Flash{VID}: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging},"
+      },
+      {
+        "row": 5,
+        "rowsha": "VzTiEuvT7AnakS27TfrFCGLCJ3Ha/b6OMwXMDUqFBa4=",
+        "originContent": "    author={Ziyang Fan and Keyu Chen and Ruilong Xing and Yulin Li and Li Jiang and Zhuotao Tian},",
+        "translatedContent": "    author={Ziyang Fan and Keyu Chen and Ruilong Xing and Yulin Li and Li Jiang and Zhuotao Tian},"
+      },
+      {
+        "row": 6,
+        "rowsha": "sSibrGO/3sQajMNKW2su9M5pyVS098odLUQiowhzfsA=",
+        "originContent": "    booktitle={The Fourteenth International Conference on Learning Representations},",
+        "translatedContent": "    booktitle={The Fourteenth International Conference on Learning Representations},"
+      },
+      {
+        "row": 7,
+        "rowsha": "jgZJt64PkeR+4caE4QSJaLsVOz/EkibXlaT+Id9uvek=",
+        "originContent": "    year={2026},",
+        "translatedContent": "    year={2026},"
+      },
+      {
+        "row": 8,
+        "rowsha": "emeed9YIlwJCQ1BkteTX2y1ivgjR5B3TUAc1xxQV/fs=",
+        "originContent": "    url={https://openreview.net/forum?id=H6rDX4w6Al}",
+        "translatedContent": "    url={https://openreview.net/forum?id=H6rDX4w6Al}"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## ⭐️Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=Fanziyang-v/FlashVID&type=Date)](https://star-history.com/#Fanziyang-v/FlashVID&Date)\n",
+    "ContentSha": "pxTtZFf8zany/mnbWPRdxaysrAvZjE9HecGaf/TQHCs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ⭐️Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=Fanziyang-v/FlashVID&type=Date)](https://star-history.com/#Fanziyang-v/FlashVID&Date)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "++y6E2/yYltleopMHwAEeug6dVWtiGBKpjxWV81kba4=",
+        "originContent": "## ⭐️Star History",
+        "translatedContent": "## ⭐️Star History"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RXTwVgTzF6n+k+cjXNssMiHqIfjGUisnBtMuBFp+GvE=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=Fanziyang-v/FlashVID&type=Date)](https://star-history.com/#Fanziyang-v/FlashVID&Date)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=Fanziyang-v/FlashVID&type=Date)](https://star-history.com/#Fanziyang-v/FlashVID&Date)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

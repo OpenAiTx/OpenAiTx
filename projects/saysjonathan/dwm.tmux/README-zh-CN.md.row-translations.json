@@ -1,0 +1,650 @@
+[
+  {
+    "row": 1,
+    "rowsha": "9nBmQQgVzOGhNvABuF9Lt51B5siXu1n37fUHkFyH3UI=",
+    "originContent": "dwm.tmux",
+    "translatedContent": "dwm.tmux"
+  },
+  {
+    "row": 2,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 3,
+    "rowsha": "b2sIqOvCRdB1tNMbjy/xWyVz2ytBp9Fdo4X+pxH/x7I=",
+    "originContent": "[dwm](http://dwm.suckless.org/)-inspired tiling pane and window manager for Tmux.",
+    "translatedContent": "受[dwm](http://dwm.suckless.org/)启发的 Tmux 平铺窗格和窗口管理器。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "B6PRxcUhr7J7kKxMihc57Kx4S+vfed8RRGDrmM+CUWA=",
+    "originContent": "![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+    "originContent": "## Dependencies",
+    "translatedContent": "## 依赖"
+  },
+  {
+    "row": 8,
+    "rowsha": "N4Irfx9isTa/ZCewmaaWQzceWwGX8O+C6HfYSOsCFUI=",
+    "originContent": "dwm.tmux requires tmux >= 3.2.",
+    "translatedContent": "dwm.tmux 需要 tmux 版本 >= 3.2。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 11,
+    "rowsha": "2cRcNw2pIlkVuOAqD2GrYnJd1i6+zrt29LxDpAggQ54=",
+    "originContent": "### Via TPM (recommended)",
+    "translatedContent": "### 通过 TPM（推荐）"
+  },
+  {
+    "row": 12,
+    "rowsha": "vfY6dLtZnO1gP9QHTLtDr3GZ6ZgC5bYqyib+gvi7gC0=",
+    "originContent": "Add to `~/.tmux.conf`:",
+    "translatedContent": "添加到 `~/.tmux.conf`："
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 15,
+    "rowsha": "0pcZ8FWXhsLyNpFTBVVDaq++Ts2XzIJ/4PYZYtB41zE=",
+    "originContent": "set -g @plugin 'saysjonathan/dwm.tmux'",
+    "translatedContent": "set -g @plugin 'saysjonathan/dwm.tmux'"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "gCs/yRQqjvSeRPT1mrSi2/8TMlM05O/oOQJQBsbUU0g=",
+    "originContent": "Reload and run `prefix-I` to fetch.",
+    "translatedContent": "重新加载并运行 `prefix-I` 以获取。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "0FAuYwibTEdmZ1PcnglBDUKKrJsCE3hZPDp+L95gEEU=",
+    "originContent": "### Manual install (legacy)",
+    "translatedContent": "### 手动安装（传统方式）"
+  },
+  {
+    "row": 21,
+    "rowsha": "7d6ZW2ktGTS+XVJavSu2BYZdI9MfSuoBp0Yjzl10zoQ=",
+    "originContent": "To install, use the provided `Makefile`:",
+    "translatedContent": "要安装，请使用提供的 `Makefile`："
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 24,
+    "rowsha": "Elnm9OFx6gQ5o+fCizO9AqnZlmibpbRMTwADriGZcCY=",
+    "originContent": "git clone https://github.com/saysjonathan/dwm.tmux.git",
+    "translatedContent": "git clone https://github.com/saysjonathan/dwm.tmux.git"
+  },
+  {
+    "row": 25,
+    "rowsha": "8ZlQXbwLGYe0TQzzmVO9073g6WW5G2hzNoZSOVLHCNM=",
+    "originContent": "cd dwm.tmux",
+    "translatedContent": "cd dwm.tmux"
+  },
+  {
+    "row": 26,
+    "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+    "originContent": "make",
+    "translatedContent": "make"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "默认情况下，`dwm.tmux` 使用 `/usr/local` 作为其前缀。要更改前缀："
+  },
+  {
+    "row": 29,
+    "rowsha": "rc/TFKChfniVlal46YFUQ8n435MUOQCV0ahSqBe37ek=",
+    "originContent": "By default `dwm.tmux` uses `/usr/local` as its prefix. To change the prefix:",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 32,
+    "rowsha": "bJSCDZa+MhVEZ+dbxk3d8sehjsJyF6fxUz1ksq0KyBw=",
+    "originContent": "make PREFIX=$HOME",
+    "translatedContent": "make PREFIX=$HOME"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Crubxh7qAAued2XyX/J25OW7MPlAq+s1E35tHA6hMGE=",
+    "originContent": "Ensure that `$PREFIX/bin` is in your `PATH`.",
+    "translatedContent": "确保 `$PREFIX/bin` 在你的 `PATH` 中。"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "2G+RXNYmFng7SDlLcfx21ULzFygjnVtlj+g/uwj0rV4=",
+    "originContent": "To use, source the `dwm.tmux` tmux config:",
+    "translatedContent": "要使用，请加载 `dwm.tmux` tmux 配置："
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 40,
+    "rowsha": "R4xApo8E3THEC4lXaD4myHlbyO+zFIF3EOM7jZgrVg0=",
+    "originContent": "echo 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf",
+    "translatedContent": "echo 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 43,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "`dwm.tmux` 定义了以下命令别名，每个都有默认快捷键绑定："
+  },
+  {
+    "row": 44,
+    "rowsha": "OlhWkeTHXPh7fIc8wfUZ9IBMIdYfFPhMKXfSqiTmRIw=",
+    "originContent": "`dwm.tmux` defines the following command aliases, each with a default keybinding:",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `newpane` `Meta-n` 创建一个新窗格并将其放置在主窗格中"
+  },
+  {
+    "row": 46,
+    "rowsha": "bC6ZO6bW/cCZu25f3U9wYXwEAg1qX92nrv9gZeqlL+U=",
+    "originContent": "- `newpane` `Meta-n` Create a new pane and place it in the Main pane",
+    "translatedContent": "- `newpanecurdir` `Meta-w` 创建一个新窗格，起始目录与当前相同，并将其放置在主窗格中"
+  },
+  {
+    "row": 47,
+    "rowsha": "7ESFAcrChhOHt9T6t6onidmaqiyTB0lcaLPae7i2jhg=",
+    "originContent": "- `newpanecurdir` `Meta-w` Create a new pane starting in the same directory and place it in the Main pane",
+    "translatedContent": "- `killpane` `Meta-c` 关闭当前窗格。如果该窗格是主窗格，则关闭该窗格并将堆栈中的第一个窗格提升为主窗格"
+  },
+  {
+    "row": 48,
+    "rowsha": "G4bbr4cbrXnCHU3EKFJC3i7NPMzthNXAPpE0tOb+wEQ=",
+    "originContent": "- `killpane` `Meta-c` Close the current pane. If the pane is in the Main pane, close the pane and promote the first pane in the stack to the Main pane",
+    "translatedContent": "- `movepane[0-9]` `Meta-Shift-[0-9]` 将当前窗格移动到指定窗口"
+  },
+  {
+    "row": 49,
+    "rowsha": "8W1J3vBNdKHDRB+6ZjCz3X2TD9eBJS4Avkc6LVf6eE4=",
+    "originContent": "- `movepane[0-9]` `Meta-Shift-[0-9]` Move the current pane to the specified window",
+    "translatedContent": "- `nextpane` `Meta-j` 选择下一个窗格（顺时针）；在单片模式下交换全屏窗格"
+  },
+  {
+    "row": 50,
+    "rowsha": "iCEUFkQ7R4OuvqK2XQ5+0mArvnQICfOXQM8jWymDErA=",
+    "originContent": "- `nextpane` `Meta-j` Select the next pane (clockwise); swaps fullscreen pane in monocle mode",
+    "translatedContent": "- `prevpane` `Meta-k` 选择上一个窗格（逆时针）；在单片模式下交换全屏窗格"
+  },
+  {
+    "row": 51,
+    "rowsha": "3IJklbZz3hyb9Sf2x15NzmK7jZO/9ej0RZaURnjCCKo=",
+    "originContent": "- `prevpane` `Meta-k` Select the previous pane (counterclockwise); swaps fullscreen pane in monocle mode",
+    "translatedContent": "- `stackup` `Meta-J` 将聚焦窗格向上移动堆栈"
+  },
+  {
+    "row": 52,
+    "rowsha": "I+KTFUiA5/Gp+DtIO/OeIo/IVL8ApAUrflhTfZeD/oU=",
+    "originContent": "- `stackup` `Meta-J` Move focused pane up the stack",
+    "translatedContent": "- `stackdown` `Meta-K` 将聚焦窗格向下移动堆栈"
+  },
+  {
+    "row": 53,
+    "rowsha": "wG/wUtvwtnCJPGuwwbKQSneqNkNsbDhYOJDW8OmksHY=",
+    "originContent": "- `stackdown` `Meta-K` Move focused pane down the stack",
+    "translatedContent": "- `rotateccw` `Meta-<` 逆时针旋转窗格"
+  },
+  {
+    "row": 54,
+    "rowsha": "k3YGXJuwQv0r97DJ0XphgfwOzRBqUh0qHo1kvGWv+9g=",
+    "originContent": "- `rotateccw` `Meta-<` Rotate panes counterclockwise",
+    "translatedContent": "- `rotatecw` `Meta->` 顺时针旋转窗格"
+  },
+  {
+    "row": 55,
+    "rowsha": "IkAr1NhWxEMr4avIlBwDIh/fnp0TPHiFam5NvrFpiC4=",
+    "originContent": "- `rotatecw` `Meta->` Rotate panes clockwise",
+    "translatedContent": "- `tile` `Meta-t` 返回平铺布局，退出单片模式（如果激活）"
+  },
+  {
+    "row": 56,
+    "rowsha": "gfTx9GkearPbwGLAPlBDpown4UIwBHH0+zrkUOaDDfQ=",
+    "originContent": "- `tile` `Meta-t` Return to tiled layout, exiting monocle if active",
+    "translatedContent": "- `monocle` `Meta-Space` 切换单片模式（当前窗格全屏）"
+  },
+  {
+    "row": 57,
+    "rowsha": "e8VmYDZMbfniwxyI7Co9a7hOwccN8QoBByyTo3T6iFU=",
+    "originContent": "- `monocle` `Meta-Space` Toggle monocle mode (fullscreen current pane)",
+    "translatedContent": "- `zoom` `Meta-Enter` 将选中窗格放置到主窗格中"
+  },
+  {
+    "row": 58,
+    "rowsha": "AWkY2sCBbnUZRD/os6KcKs8BuPJQn6BXbltdmUzikZA=",
+    "originContent": "- `zoom` `Meta-Enter` Place selected pane in the Main pane",
+    "translatedContent": "- `decmfact` `Meta-h` 减小主窗格空间因子"
+  },
+  {
+    "row": 59,
+    "rowsha": "F1ZM3KlpBjNUBjfCZhm/caU9YcVwYt85wcyLQvmf/FU=",
+    "originContent": "- `decmfact` `Meta-h` Decrease the main pane space factor",
+    "translatedContent": "- `incmfact` `Meta-l` 增大主窗格空间因子"
+  },
+  {
+    "row": 60,
+    "rowsha": "t4RIe2b8pox3ODQC2xBSRyW0VQ6DW5sCbmN+bkCntbA=",
+    "originContent": "- `incmfact` `Meta-l` Increase the main pane space factor",
+    "translatedContent": "- `window[0-9]` `Meta-[0-9]` 按 ID 选择目标窗口"
+  },
+  {
+    "row": 61,
+    "rowsha": "jUBDhiDs5XeodTefg2eVlySLY47tR8U+ZvVB25P/aUk=",
+    "originContent": "- `window[0-9]` `Meta-[0-9]` Select the target window by ID",
+    "translatedContent": "- `newwindow` `Meta-N` 创建一个新窗口，起始目录与当前窗格相同"
+  },
+  {
+    "row": 62,
+    "rowsha": "jUn9ddOsTMQ6o97RQCp54GHIl/aSQOP2qL1uJoA959w=",
+    "originContent": "- `newwindow` `Meta-N` Create a new window starting in the same directory as the current pane",
+    "translatedContent": "- `killwindow` `Meta-X` 删除当前活动窗口"
+  },
+  {
+    "row": 63,
+    "rowsha": "OsC6hIo0Veh2jnOjjfKE+Y7sjrJ/YJZfGepFarwmjmY=",
+    "originContent": "- `killwindow` `Meta-X` Delete the current active window",
+    "translatedContent": "- `popup` `Meta-p` 在当前窗格目录下显示一个浮动窗格弹出窗口"
+  },
+  {
+    "row": 64,
+    "rowsha": "j85RAJUTkPRNHBS7nsIo3vBw6JBIUBct6KGm79qn4fk=",
+    "originContent": "- `popup` `Meta-p` Display a floating pane popup in the current pane's directory",
+    "translatedContent": "- `incpfact` `Meta-.` 相对于其他窗格，增加堆栈中聚焦窗格的大小"
+  },
+  {
+    "row": 65,
+    "rowsha": "du3JjJulIxMts57FDdzdqz1c0Wsm86jlFcg/zTMV5gI=",
+    "originContent": "- `incpfact` `Meta-.` Increase the size of the focused pane in the stack, relative to the other panes",
+    "translatedContent": "- `decpfact` `Meta-,` 相对于其他窗格，减少堆栈中聚焦窗格的大小"
+  },
+  {
+    "row": 66,
+    "rowsha": "UOgN2uiYQdxYETUuiMU9jWOt/NQEcLA0Z7I5kHfn9hA=",
+    "originContent": "- `decpfact` `Meta-,` Decrease the size of the focused pane in the stack, relative to the other panes",
+    "translatedContent": "- `resetpfact` `Meta-=` 重置聚焦窗格的 pfact"
+  },
+  {
+    "row": 67,
+    "rowsha": "qh4PfWmMP4IZQVuQ5TBWKeKTjZ1TPmxNzdJkOzhVLFk=",
+    "originContent": "- `resetpfact` `Meta-=` Reset the pfact of the focused pane",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "还包括窗口切换的额外快捷键绑定："
+  },
+  {
+    "row": 69,
+    "rowsha": "nV97/x8ZYiV1WkhMe+9nUL07eLw3n2I6asubCjdcjrc=",
+    "originContent": "Additional keybindings for window cycling are also included:",
+    "translatedContent": "- `Meta-[` 上一个窗口"
+  },
+  {
+    "row": 70,
+    "rowsha": "3hh+Z7DRHwZqNuFD5sv8frmnGvSZ8OCKUXdgaWhuJMM=",
+    "originContent": "- `Meta-[` Previous window",
+    "translatedContent": "- `Meta-]` 下一个窗口"
+  },
+  {
+    "row": 71,
+    "rowsha": "xJYkqxQYX3NuMyIiq9u6Z0MchOoLKdDuugkcsWBENfo=",
+    "originContent": "- `Meta-]` Next window",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "还定义了调整行为的全局选项："
+  },
+  {
+    "row": 73,
+    "rowsha": "zJBoGelO4vYvAUCdBznFQiSZ8YyoqSZ9+chKUet4cF0=",
+    "originContent": "Also defined are global options to tweak behavior:",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `mfact` 主窗格空间因子，主窗格大小占窗口总大小的百分比"
+  },
+  {
+    "row": 75,
+    "rowsha": "IdYcz20Ry2+5Map5fDXev0ifo+Yb5pBmUg4vLsAj/Qc=",
+    "originContent": "- `mfact` Main pane space factor, the size of the main pane as a percentage of total window size",
+    "translatedContent": "- `killlast` 如果值大于 `0`，即使是窗口中的最后一个窗格也会被关闭"
+  },
+  {
+    "row": 76,
+    "rowsha": "aSDe/nKLVYetSOGu/x7GWnmzV8owKMHjzCypjd2fXXo=",
+    "originContent": "- `killlast` If value is greater than `0`, kill pane even if it is the last pane in a window",
+    "translatedContent": "- `monocle` 跟踪活动布局模式；0 为平铺，1 为单片。自动设置，但可读取以检查当前状态"
+  },
+  {
+    "row": 77,
+    "rowsha": "2tZLKKrnrw85VRolLm8uwq2xf4HgNNHYrIxU1uA5tmk=",
+    "originContent": "- `monocle` Tracks active layout mode; 0 for tile, 1 for monocle. Set automatically but can be read to inspect current state.",
+    "translatedContent": "- `pfact` 每个窗格的堆栈大小因子，范围 1-9，默认 5。值越大，该窗格在堆栈中占用的相对高度越大"
+  },
+  {
+    "row": 78,
+    "rowsha": "8OwAZ11R+2vuDh1ouIkqT3V0yDeDNHZcJ/LLQnt15QU=",
+    "originContent": "- `pfact` Per-pane stack size factor, scale 1-9, default 5. Higher values give the pane more relative height in the stack",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 自定义"
+  },
+  {
+    "row": 80,
+    "rowsha": "8SFkCqumt3iV6Kk8Bz1ktti6gd5aVS1lqkzSajQ6Nlg=",
+    "originContent": "### Customizations",
+    "translatedContent": "快捷键绑定和默认值可以在配置文件中设置。使用 TPM 时，这些设置必须在 `~/.tmux.conf` 中的 `run '~/.tmux/plugins/tpm/tpm'` 语句之后进行。"
+  },
+  {
+    "row": 81,
+    "rowsha": "VAgh19+IOE2GNtzTbvdT0DW4BxcNIGWcg+ZiqJUDNkw=",
+    "originContent": "Keybindings and default values can be set in a configuration file. When using TPM, these must be set after the `run '~/.tmux/plugins/tpm/tpm'` line in `~/.tmux.conf`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "示例："
+  },
+  {
+    "row": 83,
+    "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+    "originContent": "Examples:",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "jGRLMxNh9jwGAF8iQEQP810tPZMrWb6Fz5LWMMDQG3Y=",
+    "originContent": "setenv -g killlast 1 # kill pane even if it's the last",
+    "translatedContent": "setenv -g killlast 1 # kill pane even if it's the last"
+  },
+  {
+    "row": 87,
+    "rowsha": "fHHjZDdT82J963Fd3ZRE6HPvG9sR3l57dpipdppgTkA=",
+    "originContent": "set-option -wg @mfact 60",
+    "translatedContent": "set-option -wg @mfact 60"
+  },
+  {
+    "row": 88,
+    "rowsha": "61AHw7ya0ksjktiPiGcZ/GHlxAYhpjFApOdH+i5ulI8=",
+    "originContent": "set-option -wg @pfact 4",
+    "translatedContent": "set-option -wg @pfact 4"
+  },
+  {
+    "row": 89,
+    "rowsha": "x9uXr+GcPVJCXOSO9WhVhzZJAyyNb+UU8LXLAvtPcUs=",
+    "originContent": "bind -n M-q killpane",
+    "translatedContent": "bind -n M-q killpane"
+  },
+  {
+    "row": 90,
+    "rowsha": "63wHW7v7W9fV14kfmaR5B4hRYx5ts/WmPaNgHNqkKWY=",
+    "originContent": "bind -n M-w newpanecurdir",
+    "translatedContent": "bind -n M-w newpanecurdir"
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "mGGFcNQM8KvTONeh1B6E6fX38pmfFOJkVisO4joYDMo=",
+    "originContent": "## Details",
+    "translatedContent": "## 详情"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "XWAEocR1t6wb6gMvquCKqZlTffbgnAklU8FKG3O5fgg=",
+    "originContent": "Similar to dwm, windows are always organized as follows:",
+    "translatedContent": "类似于 dwm，窗口始终按以下方式组织："
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "LyWEWF9Y8UjpVhzND9ICf23eCEGcq0n9ZRMgUSsWLRY=",
+    "originContent": " ====================================",
+    "translatedContent": " ===================================="
+  },
+  {
+    "row": 99,
+    "rowsha": "263ocDT9Le72tSa5uuovEcYcxoO800DWNaNHHOKrcYA=",
+    "originContent": "|                 |        S1        |",
+    "translatedContent": "|                 |        S1        |"
+  },
+  {
+    "row": 100,
+    "rowsha": "18yfQQAhQEdFbtxGjRStWj1Zugw8WGiU83tbJCOEROI=",
+    "originContent": "|                 |==================",
+    "translatedContent": "|                 |=================="
+  },
+  {
+    "row": 101,
+    "rowsha": "WTGL5/14uPb0/jG6pyTdQITp/821LtYppkFEF4qq8UY=",
+    "originContent": "|      M(0)       |        S2        |",
+    "translatedContent": "|      M(0)       |        S2        |"
+  },
+  {
+    "row": 102,
+    "rowsha": "18yfQQAhQEdFbtxGjRStWj1Zugw8WGiU83tbJCOEROI=",
+    "originContent": "|                 |==================",
+    "translatedContent": "|                 |=================="
+  },
+  {
+    "row": 103,
+    "rowsha": "5jCbAdYG8Yk6Mx7vqXNIIUZZZRTY8NCz558/jfrB6YE=",
+    "originContent": "|                 |        S3        |",
+    "translatedContent": "|                 |        S3        |"
+  },
+  {
+    "row": 104,
+    "rowsha": "LyWEWF9Y8UjpVhzND9ICf23eCEGcq0n9ZRMgUSsWLRY=",
+    "originContent": " ====================================",
+    "translatedContent": " ===================================="
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "屏幕左侧放置一个大型主面板，右侧放置一组较小的面板堆叠。主面板始终为面板0，而面板堆叠按顺序递增编号。"
+  },
+  {
+    "row": 107,
+    "rowsha": "I94T4TSpVFXxwxmBnJcZ4AXVMGlbVUirrhDZb6IcFwI=",
+    "originContent": "A large Main pane is placed on the left side of the screen while a stack of smaller panes is placed on the right. The Main pane is always pane 0, while the stack of panes is numbered sequentially in ascending order.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

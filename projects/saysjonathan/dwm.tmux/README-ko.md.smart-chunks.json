@@ -1,0 +1,832 @@
+[
+  {
+    "Id": 1,
+    "Content": "dwm.tmux\n===\n[dwm](http://dwm.suckless.org/)-inspired tiling pane and window manager for Tmux.\n\n![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)\n\n## Dependencies\ndwm.tmux requires tmux >= 3.2.\n\n## Installation\n### Via TPM (recommended)\nAdd to `~/.tmux.conf`:\n",
+    "ContentSha": "qfDM4ssVJkqDnhvbRMkqHMEngfPEDI8QWNbkvM8Rs6M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "dwm.tmux\n===\n[dwm](http://dwm.suckless.org/)에서 영감을 받은 Tmux용 타일형 창 및 창 관리자.\n\n![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)\n\n## 의존성\ndwm.tmux는 tmux >= 3.2를 필요로 합니다.\n\n## 설치\n### TPM을 통한 설치 (권장)\n`~/.tmux.conf`에 다음을 추가하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9nBmQQgVzOGhNvABuF9Lt51B5siXu1n37fUHkFyH3UI=",
+        "originContent": "dwm.tmux",
+        "translatedContent": "dwm.tmux"
+      },
+      {
+        "row": 2,
+        "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+        "originContent": "===",
+        "translatedContent": "==="
+      },
+      {
+        "row": 3,
+        "rowsha": "b2sIqOvCRdB1tNMbjy/xWyVz2ytBp9Fdo4X+pxH/x7I=",
+        "originContent": "[dwm](http://dwm.suckless.org/)-inspired tiling pane and window manager for Tmux.",
+        "translatedContent": "[dwm](http://dwm.suckless.org/)에서 영감을 받은 Tmux용 타일형 창 및 창 관리자."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "B6PRxcUhr7J7kKxMihc57Kx4S+vfed8RRGDrmM+CUWA=",
+        "originContent": "![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/saysjonathan/dwm.tmux/master/screenshot.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+        "originContent": "## Dependencies",
+        "translatedContent": "## 의존성"
+      },
+      {
+        "row": 8,
+        "rowsha": "N4Irfx9isTa/ZCewmaaWQzceWwGX8O+C6HfYSOsCFUI=",
+        "originContent": "dwm.tmux requires tmux >= 3.2.",
+        "translatedContent": "dwm.tmux는 tmux >= 3.2를 필요로 합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 11,
+        "rowsha": "2cRcNw2pIlkVuOAqD2GrYnJd1i6+zrt29LxDpAggQ54=",
+        "originContent": "### Via TPM (recommended)",
+        "translatedContent": "### TPM을 통한 설치 (권장)"
+      },
+      {
+        "row": 12,
+        "rowsha": "vfY6dLtZnO1gP9QHTLtDr3GZ6ZgC5bYqyib+gvi7gC0=",
+        "originContent": "Add to `~/.tmux.conf`:",
+        "translatedContent": "`~/.tmux.conf`에 다음을 추가하세요:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\nset -g @plugin 'saysjonathan/dwm.tmux'\n```",
+    "ContentSha": "KIV7fiAJi1InznrgrCPejHbAjKFJamCL34NY2nD66Uk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nset -g @plugin 'saysjonathan/dwm.tmux'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "0pcZ8FWXhsLyNpFTBVVDaq++Ts2XzIJ/4PYZYtB41zE=",
+        "originContent": "set -g @plugin 'saysjonathan/dwm.tmux'",
+        "translatedContent": "set -g @plugin 'saysjonathan/dwm.tmux'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nReload and run `prefix-I` to fetch.\n\n### Manual install (legacy)\nTo install, use the provided `Makefile`:\n",
+    "ContentSha": "oDnVWsuxCNNgYUBpBk50+/HX9zoB6++dGXHWP9iuPro=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n다시 로드하고 `prefix-I`를 실행하여 가져옵니다.\n\n### 수동 설치 (레거시)\n설치하려면 제공된 `Makefile`을 사용하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gCs/yRQqjvSeRPT1mrSi2/8TMlM05O/oOQJQBsbUU0g=",
+        "originContent": "Reload and run `prefix-I` to fetch.",
+        "translatedContent": "다시 로드하고 `prefix-I`를 실행하여 가져옵니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0FAuYwibTEdmZ1PcnglBDUKKrJsCE3hZPDp+L95gEEU=",
+        "originContent": "### Manual install (legacy)",
+        "translatedContent": "### 수동 설치 (레거시)"
+      },
+      {
+        "row": 5,
+        "rowsha": "7d6ZW2ktGTS+XVJavSu2BYZdI9MfSuoBp0Yjzl10zoQ=",
+        "originContent": "To install, use the provided `Makefile`:",
+        "translatedContent": "설치하려면 제공된 `Makefile`을 사용하세요:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\ngit clone https://github.com/saysjonathan/dwm.tmux.git\ncd dwm.tmux\nmake\n```",
+    "ContentSha": "5r/wIBSJLnn1u68WjC8MD6hRnhOEYxYZvAZXJZlfT4c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngit clone https://github.com/saysjonathan/dwm.tmux.git\ncd dwm.tmux\nmake\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Elnm9OFx6gQ5o+fCizO9AqnZlmibpbRMTwADriGZcCY=",
+        "originContent": "git clone https://github.com/saysjonathan/dwm.tmux.git",
+        "translatedContent": "git clone https://github.com/saysjonathan/dwm.tmux.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8ZlQXbwLGYe0TQzzmVO9073g6WW5G2hzNoZSOVLHCNM=",
+        "originContent": "cd dwm.tmux",
+        "translatedContent": "cd dwm.tmux"
+      },
+      {
+        "row": 4,
+        "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+        "originContent": "make",
+        "translatedContent": "make"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nBy default `dwm.tmux` uses `/usr/local` as its prefix. To change the prefix:\n",
+    "ContentSha": "Rc4bR9NZSvN05fmH3wk3Hko7urHtXurDHqIBRQjY1G0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "기본적으로 `dwm.tmux`는 `/usr/local`을 접두사로 사용합니다. 접두사를 변경하려면:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "기본적으로 `dwm.tmux`는 `/usr/local`을 접두사로 사용합니다. 접두사를 변경하려면:"
+      },
+      {
+        "row": 2,
+        "rowsha": "rc/TFKChfniVlal46YFUQ8n435MUOQCV0ahSqBe37ek=",
+        "originContent": "By default `dwm.tmux` uses `/usr/local` as its prefix. To change the prefix:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\nmake PREFIX=$HOME\n```",
+    "ContentSha": "IjcufSAm9iyuffJbqVJYoQq9TMlOScQBbtPK1n7bCAs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nmake PREFIX=$HOME\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "bJSCDZa+MhVEZ+dbxk3d8sehjsJyF6fxUz1ksq0KyBw=",
+        "originContent": "make PREFIX=$HOME",
+        "translatedContent": "make PREFIX=$HOME"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nEnsure that `$PREFIX/bin` is in your `PATH`.\n\nTo use, source the `dwm.tmux` tmux config:\n",
+    "ContentSha": "cD3agGd35wYbiNpIZW9bdWNhcPqDCRy7LXIHk4Ljk/M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`$PREFIX/bin`이(가) `PATH`에 포함되어 있는지 확인하세요.\n\n사용하려면, `dwm.tmux` tmux 설정 파일을 소스하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Crubxh7qAAued2XyX/J25OW7MPlAq+s1E35tHA6hMGE=",
+        "originContent": "Ensure that `$PREFIX/bin` is in your `PATH`.",
+        "translatedContent": "`$PREFIX/bin`이(가) `PATH`에 포함되어 있는지 확인하세요."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2G+RXNYmFng7SDlLcfx21ULzFygjnVtlj+g/uwj0rV4=",
+        "originContent": "To use, source the `dwm.tmux` tmux config:",
+        "translatedContent": "사용하려면, `dwm.tmux` tmux 설정 파일을 소스하세요:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh\necho 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf\n```",
+    "ContentSha": "NwbJYYPcbkYWTqu1D3P7GTk6KU67Jxqi2DvAeKKXxPo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\necho 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "R4xApo8E3THEC4lXaD4myHlbyO+zFIF3EOM7jZgrVg0=",
+        "originContent": "echo 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf",
+        "translatedContent": "echo 'source-file /usr/local/lib/dwm.tmux' >> $HOME/.tmux.conf"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Usage\n`dwm.tmux` defines the following command aliases, each with a default keybinding:\n\n- `newpane` `Meta-n` Create a new pane and place it in the Main pane\n- `newpanecurdir` `Meta-w` Create a new pane starting in the same directory and place it in the Main pane\n- `killpane` `Meta-c` Close the current pane. If the pane is in the Main pane, close the pane and promote the first pane in the stack to the Main pane\n- `movepane[0-9]` `Meta-Shift-[0-9]` Move the current pane to the specified window\n- `nextpane` `Meta-j` Select the next pane (clockwise); swaps fullscreen pane in monocle mode\n- `prevpane` `Meta-k` Select the previous pane (counterclockwise); swaps fullscreen pane in monocle mode\n- `stackup` `Meta-J` Move focused pane up the stack\n- `stackdown` `Meta-K` Move focused pane down the stack\n- `rotateccw` `Meta-<` Rotate panes counterclockwise\n- `rotatecw` `Meta->` Rotate panes clockwise\n- `tile` `Meta-t` Return to tiled layout, exiting monocle if active\n- `monocle` `Meta-Space` Toggle monocle mode (fullscreen current pane)\n- `zoom` `Meta-Enter` Place selected pane in the Main pane\n- `decmfact` `Meta-h` Decrease the main pane space factor\n- `incmfact` `Meta-l` Increase the main pane space factor\n- `window[0-9]` `Meta-[0-9]` Select the target window by ID\n- `newwindow` `Meta-N` Create a new window starting in the same directory as the current pane\n- `killwindow` `Meta-X` Delete the current active window\n- `popup` `Meta-p` Display a floating pane popup in the current pane's directory\n- `incpfact` `Meta-.` Increase the size of the focused pane in the stack, relative to the other panes\n- `decpfact` `Meta-,` Decrease the size of the focused pane in the stack, relative to the other panes\n- `resetpfact` `Meta-=` Reset the pfact of the focused pane\n\nAdditional keybindings for window cycling are also included:\n- `Meta-[` Previous window\n- `Meta-]` Next window\n\nAlso defined are global options to tweak behavior:\n\n- `mfact` Main pane space factor, the size of the main pane as a percentage of total window size\n- `killlast` If value is greater than `0`, kill pane even if it is the last pane in a window\n- `monocle` Tracks active layout mode; 0 for tile, 1 for monocle. Set automatically but can be read to inspect current state.\n- `pfact` Per-pane stack size factor, scale 1-9, default 5. Higher values give the pane more relative height in the stack\n\n### Customizations\nKeybindings and default values can be set in a configuration file. When using TPM, these must be set after the `run '~/.tmux/plugins/tpm/tpm'` line in `~/.tmux.conf`.",
+    "ContentSha": "PwQB10cNIxe14BFq8A8AG+6TiMbaW+Byxzo6ap/K/9E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 사용법\n`dwm.tmux`는 각각 기본 키 바인딩이 있는 다음 명령 별칭들을 정의합니다:\n\n- `newpane` `Meta-n` 새 창을 만들고 메인 창에 배치\n- `newpanecurdir` `Meta-w` 현재 디렉토리에서 새 창을 만들고 메인 창에 배치\n- `killpane` `Meta-c` 현재 창을 닫음. 창이 메인 창에 있으면 창을 닫고 스택의 첫 번째 창을 메인 창으로 승격\n- `movepane[0-9]` `Meta-Shift-[0-9]` 현재 창을 지정된 창으로 이동\n- `nextpane` `Meta-j` 다음 창 선택(시계 방향); 모노클 모드에서 전체 화면 창 교체\n- `prevpane` `Meta-k` 이전 창 선택(반시계 방향); 모노클 모드에서 전체 화면 창 교체\n- `stackup` `Meta-J` 포커스된 창을 스택 위로 이동\n- `stackdown` `Meta-K` 포커스된 창을 스택 아래로 이동\n- `rotateccw` `Meta-<` 창을 반시계 방향으로 회전\n- `rotatecw` `Meta->` 창을 시계 방향으로 회전\n- `tile` `Meta-t` 타일 레이아웃으로 복귀, 모노클 모드 종료\n- `monocle` `Meta-Space` 모노클 모드 토글(현재 창 전체 화면)\n- `zoom` `Meta-Enter` 선택한 창을 메인 창에 배치\n- `decmfact` `Meta-h` 메인 창 공간 계수 감소\n- `incmfact` `Meta-l` 메인 창 공간 계수 증가\n- `window[0-9]` `Meta-[0-9]` ID로 대상 창 선택\n- `newwindow` `Meta-N` 현재 창과 동일한 디렉토리에서 새 창 생성\n- `killwindow` `Meta-X` 현재 활성 창 삭제\n- `popup` `Meta-p` 현재 창 디렉토리에서 플로팅 창 팝업 표시\n- `incpfact` `Meta-.` 스택 내 포커스된 창 크기 증가 (다른 창 대비)\n- `decpfact` `Meta-,` 스택 내 포커스된 창 크기 감소 (다른 창 대비)\n- `resetpfact` `Meta-=` 포커스된 창의 pfact 초기화\n\n창 순환을 위한 추가 키 바인딩도 포함되어 있습니다:\n- `Meta-[` 이전 창\n- `Meta-]` 다음 창\n\n동작을 조절하기 위한 전역 옵션도 정의되어 있습니다:\n\n- `mfact` 메인 창 공간 계수, 전체 창 크기에 대한 메인 창 크기 비율(%)\n- `killlast` 값이 `0`보다 크면, 창이 마지막 창이어도 종료\n- `monocle` 활성 레이아웃 모드 추적; 0은 타일, 1은 모노클. 자동 설정되며 현재 상태 확인용으로 읽기 가능\n- `pfact` 창별 스택 크기 계수, 1-9 범위, 기본 5. 값이 높을수록 스택 내 창의 상대적 높이 증가\n\n### 커스터마이징\n키 바인딩과 기본값은 구성 파일에서 설정할 수 있습니다. TPM 사용 시, 이들은 `~/.tmux.conf`의 `run '~/.tmux/plugins/tpm/tpm'` 라인 뒤에 설정해야 합니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "`dwm.tmux`는 각각 기본 키 바인딩이 있는 다음 명령 별칭들을 정의합니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "OlhWkeTHXPh7fIc8wfUZ9IBMIdYfFPhMKXfSqiTmRIw=",
+        "originContent": "`dwm.tmux` defines the following command aliases, each with a default keybinding:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `newpane` `Meta-n` 새 창을 만들고 메인 창에 배치"
+      },
+      {
+        "row": 5,
+        "rowsha": "bC6ZO6bW/cCZu25f3U9wYXwEAg1qX92nrv9gZeqlL+U=",
+        "originContent": "- `newpane` `Meta-n` Create a new pane and place it in the Main pane",
+        "translatedContent": "- `newpanecurdir` `Meta-w` 현재 디렉토리에서 새 창을 만들고 메인 창에 배치"
+      },
+      {
+        "row": 6,
+        "rowsha": "7ESFAcrChhOHt9T6t6onidmaqiyTB0lcaLPae7i2jhg=",
+        "originContent": "- `newpanecurdir` `Meta-w` Create a new pane starting in the same directory and place it in the Main pane",
+        "translatedContent": "- `killpane` `Meta-c` 현재 창을 닫음. 창이 메인 창에 있으면 창을 닫고 스택의 첫 번째 창을 메인 창으로 승격"
+      },
+      {
+        "row": 7,
+        "rowsha": "G4bbr4cbrXnCHU3EKFJC3i7NPMzthNXAPpE0tOb+wEQ=",
+        "originContent": "- `killpane` `Meta-c` Close the current pane. If the pane is in the Main pane, close the pane and promote the first pane in the stack to the Main pane",
+        "translatedContent": "- `movepane[0-9]` `Meta-Shift-[0-9]` 현재 창을 지정된 창으로 이동"
+      },
+      {
+        "row": 8,
+        "rowsha": "8W1J3vBNdKHDRB+6ZjCz3X2TD9eBJS4Avkc6LVf6eE4=",
+        "originContent": "- `movepane[0-9]` `Meta-Shift-[0-9]` Move the current pane to the specified window",
+        "translatedContent": "- `nextpane` `Meta-j` 다음 창 선택(시계 방향); 모노클 모드에서 전체 화면 창 교체"
+      },
+      {
+        "row": 9,
+        "rowsha": "iCEUFkQ7R4OuvqK2XQ5+0mArvnQICfOXQM8jWymDErA=",
+        "originContent": "- `nextpane` `Meta-j` Select the next pane (clockwise); swaps fullscreen pane in monocle mode",
+        "translatedContent": "- `prevpane` `Meta-k` 이전 창 선택(반시계 방향); 모노클 모드에서 전체 화면 창 교체"
+      },
+      {
+        "row": 10,
+        "rowsha": "3IJklbZz3hyb9Sf2x15NzmK7jZO/9ej0RZaURnjCCKo=",
+        "originContent": "- `prevpane` `Meta-k` Select the previous pane (counterclockwise); swaps fullscreen pane in monocle mode",
+        "translatedContent": "- `stackup` `Meta-J` 포커스된 창을 스택 위로 이동"
+      },
+      {
+        "row": 11,
+        "rowsha": "I+KTFUiA5/Gp+DtIO/OeIo/IVL8ApAUrflhTfZeD/oU=",
+        "originContent": "- `stackup` `Meta-J` Move focused pane up the stack",
+        "translatedContent": "- `stackdown` `Meta-K` 포커스된 창을 스택 아래로 이동"
+      },
+      {
+        "row": 12,
+        "rowsha": "wG/wUtvwtnCJPGuwwbKQSneqNkNsbDhYOJDW8OmksHY=",
+        "originContent": "- `stackdown` `Meta-K` Move focused pane down the stack",
+        "translatedContent": "- `rotateccw` `Meta-<` 창을 반시계 방향으로 회전"
+      },
+      {
+        "row": 13,
+        "rowsha": "k3YGXJuwQv0r97DJ0XphgfwOzRBqUh0qHo1kvGWv+9g=",
+        "originContent": "- `rotateccw` `Meta-<` Rotate panes counterclockwise",
+        "translatedContent": "- `rotatecw` `Meta->` 창을 시계 방향으로 회전"
+      },
+      {
+        "row": 14,
+        "rowsha": "IkAr1NhWxEMr4avIlBwDIh/fnp0TPHiFam5NvrFpiC4=",
+        "originContent": "- `rotatecw` `Meta->` Rotate panes clockwise",
+        "translatedContent": "- `tile` `Meta-t` 타일 레이아웃으로 복귀, 모노클 모드 종료"
+      },
+      {
+        "row": 15,
+        "rowsha": "gfTx9GkearPbwGLAPlBDpown4UIwBHH0+zrkUOaDDfQ=",
+        "originContent": "- `tile` `Meta-t` Return to tiled layout, exiting monocle if active",
+        "translatedContent": "- `monocle` `Meta-Space` 모노클 모드 토글(현재 창 전체 화면)"
+      },
+      {
+        "row": 16,
+        "rowsha": "e8VmYDZMbfniwxyI7Co9a7hOwccN8QoBByyTo3T6iFU=",
+        "originContent": "- `monocle` `Meta-Space` Toggle monocle mode (fullscreen current pane)",
+        "translatedContent": "- `zoom` `Meta-Enter` 선택한 창을 메인 창에 배치"
+      },
+      {
+        "row": 17,
+        "rowsha": "AWkY2sCBbnUZRD/os6KcKs8BuPJQn6BXbltdmUzikZA=",
+        "originContent": "- `zoom` `Meta-Enter` Place selected pane in the Main pane",
+        "translatedContent": "- `decmfact` `Meta-h` 메인 창 공간 계수 감소"
+      },
+      {
+        "row": 18,
+        "rowsha": "F1ZM3KlpBjNUBjfCZhm/caU9YcVwYt85wcyLQvmf/FU=",
+        "originContent": "- `decmfact` `Meta-h` Decrease the main pane space factor",
+        "translatedContent": "- `incmfact` `Meta-l` 메인 창 공간 계수 증가"
+      },
+      {
+        "row": 19,
+        "rowsha": "t4RIe2b8pox3ODQC2xBSRyW0VQ6DW5sCbmN+bkCntbA=",
+        "originContent": "- `incmfact` `Meta-l` Increase the main pane space factor",
+        "translatedContent": "- `window[0-9]` `Meta-[0-9]` ID로 대상 창 선택"
+      },
+      {
+        "row": 20,
+        "rowsha": "jUBDhiDs5XeodTefg2eVlySLY47tR8U+ZvVB25P/aUk=",
+        "originContent": "- `window[0-9]` `Meta-[0-9]` Select the target window by ID",
+        "translatedContent": "- `newwindow` `Meta-N` 현재 창과 동일한 디렉토리에서 새 창 생성"
+      },
+      {
+        "row": 21,
+        "rowsha": "jUn9ddOsTMQ6o97RQCp54GHIl/aSQOP2qL1uJoA959w=",
+        "originContent": "- `newwindow` `Meta-N` Create a new window starting in the same directory as the current pane",
+        "translatedContent": "- `killwindow` `Meta-X` 현재 활성 창 삭제"
+      },
+      {
+        "row": 22,
+        "rowsha": "OsC6hIo0Veh2jnOjjfKE+Y7sjrJ/YJZfGepFarwmjmY=",
+        "originContent": "- `killwindow` `Meta-X` Delete the current active window",
+        "translatedContent": "- `popup` `Meta-p` 현재 창 디렉토리에서 플로팅 창 팝업 표시"
+      },
+      {
+        "row": 23,
+        "rowsha": "j85RAJUTkPRNHBS7nsIo3vBw6JBIUBct6KGm79qn4fk=",
+        "originContent": "- `popup` `Meta-p` Display a floating pane popup in the current pane's directory",
+        "translatedContent": "- `incpfact` `Meta-.` 스택 내 포커스된 창 크기 증가 (다른 창 대비)"
+      },
+      {
+        "row": 24,
+        "rowsha": "du3JjJulIxMts57FDdzdqz1c0Wsm86jlFcg/zTMV5gI=",
+        "originContent": "- `incpfact` `Meta-.` Increase the size of the focused pane in the stack, relative to the other panes",
+        "translatedContent": "- `decpfact` `Meta-,` 스택 내 포커스된 창 크기 감소 (다른 창 대비)"
+      },
+      {
+        "row": 25,
+        "rowsha": "UOgN2uiYQdxYETUuiMU9jWOt/NQEcLA0Z7I5kHfn9hA=",
+        "originContent": "- `decpfact` `Meta-,` Decrease the size of the focused pane in the stack, relative to the other panes",
+        "translatedContent": "- `resetpfact` `Meta-=` 포커스된 창의 pfact 초기화"
+      },
+      {
+        "row": 26,
+        "rowsha": "qh4PfWmMP4IZQVuQ5TBWKeKTjZ1TPmxNzdJkOzhVLFk=",
+        "originContent": "- `resetpfact` `Meta-=` Reset the pfact of the focused pane",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "창 순환을 위한 추가 키 바인딩도 포함되어 있습니다:"
+      },
+      {
+        "row": 28,
+        "rowsha": "nV97/x8ZYiV1WkhMe+9nUL07eLw3n2I6asubCjdcjrc=",
+        "originContent": "Additional keybindings for window cycling are also included:",
+        "translatedContent": "- `Meta-[` 이전 창"
+      },
+      {
+        "row": 29,
+        "rowsha": "3hh+Z7DRHwZqNuFD5sv8frmnGvSZ8OCKUXdgaWhuJMM=",
+        "originContent": "- `Meta-[` Previous window",
+        "translatedContent": "- `Meta-]` 다음 창"
+      },
+      {
+        "row": 30,
+        "rowsha": "xJYkqxQYX3NuMyIiq9u6Z0MchOoLKdDuugkcsWBENfo=",
+        "originContent": "- `Meta-]` Next window",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "동작을 조절하기 위한 전역 옵션도 정의되어 있습니다:"
+      },
+      {
+        "row": 32,
+        "rowsha": "zJBoGelO4vYvAUCdBznFQiSZ8YyoqSZ9+chKUet4cF0=",
+        "originContent": "Also defined are global options to tweak behavior:",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `mfact` 메인 창 공간 계수, 전체 창 크기에 대한 메인 창 크기 비율(%)"
+      },
+      {
+        "row": 34,
+        "rowsha": "IdYcz20Ry2+5Map5fDXev0ifo+Yb5pBmUg4vLsAj/Qc=",
+        "originContent": "- `mfact` Main pane space factor, the size of the main pane as a percentage of total window size",
+        "translatedContent": "- `killlast` 값이 `0`보다 크면, 창이 마지막 창이어도 종료"
+      },
+      {
+        "row": 35,
+        "rowsha": "aSDe/nKLVYetSOGu/x7GWnmzV8owKMHjzCypjd2fXXo=",
+        "originContent": "- `killlast` If value is greater than `0`, kill pane even if it is the last pane in a window",
+        "translatedContent": "- `monocle` 활성 레이아웃 모드 추적; 0은 타일, 1은 모노클. 자동 설정되며 현재 상태 확인용으로 읽기 가능"
+      },
+      {
+        "row": 36,
+        "rowsha": "2tZLKKrnrw85VRolLm8uwq2xf4HgNNHYrIxU1uA5tmk=",
+        "originContent": "- `monocle` Tracks active layout mode; 0 for tile, 1 for monocle. Set automatically but can be read to inspect current state.",
+        "translatedContent": "- `pfact` 창별 스택 크기 계수, 1-9 범위, 기본 5. 값이 높을수록 스택 내 창의 상대적 높이 증가"
+      },
+      {
+        "row": 37,
+        "rowsha": "8OwAZ11R+2vuDh1ouIkqT3V0yDeDNHZcJ/LLQnt15QU=",
+        "originContent": "- `pfact` Per-pane stack size factor, scale 1-9, default 5. Higher values give the pane more relative height in the stack",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 커스터마이징"
+      },
+      {
+        "row": 39,
+        "rowsha": "8SFkCqumt3iV6Kk8Bz1ktti6gd5aVS1lqkzSajQ6Nlg=",
+        "originContent": "### Customizations",
+        "translatedContent": "키 바인딩과 기본값은 구성 파일에서 설정할 수 있습니다. TPM 사용 시, 이들은 `~/.tmux.conf`의 `run '~/.tmux/plugins/tpm/tpm'` 라인 뒤에 설정해야 합니다."
+      },
+      {
+        "row": 40,
+        "rowsha": "VAgh19+IOE2GNtzTbvdT0DW4BxcNIGWcg+ZiqJUDNkw=",
+        "originContent": "Keybindings and default values can be set in a configuration file. When using TPM, these must be set after the `run '~/.tmux/plugins/tpm/tpm'` line in `~/.tmux.conf`.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "\nExamples:\n",
+    "ContentSha": "/2o1FJtl5OqIkTw/DWZXiOHY537M7CwZU4uPew5GMK8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n예시:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+        "originContent": "Examples:",
+        "translatedContent": "예시:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\nsetenv -g killlast 1 # kill pane even if it's the last\nset-option -wg @mfact 60\nset-option -wg @pfact 4\nbind -n M-q killpane\nbind -n M-w newpanecurdir\n```",
+    "ContentSha": "dEOeCkUVwzEnQGFysVzcwFLJuCZMj+96eX4iJuTt7Z8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsetenv -g killlast 1 # kill pane even if it's the last\nset-option -wg @mfact 60\nset-option -wg @pfact 4\nbind -n M-q killpane\nbind -n M-w newpanecurdir\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "jGRLMxNh9jwGAF8iQEQP810tPZMrWb6Fz5LWMMDQG3Y=",
+        "originContent": "setenv -g killlast 1 # kill pane even if it's the last",
+        "translatedContent": "setenv -g killlast 1 # kill pane even if it's the last"
+      },
+      {
+        "row": 3,
+        "rowsha": "fHHjZDdT82J963Fd3ZRE6HPvG9sR3l57dpipdppgTkA=",
+        "originContent": "set-option -wg @mfact 60",
+        "translatedContent": "set-option -wg @mfact 60"
+      },
+      {
+        "row": 4,
+        "rowsha": "61AHw7ya0ksjktiPiGcZ/GHlxAYhpjFApOdH+i5ulI8=",
+        "originContent": "set-option -wg @pfact 4",
+        "translatedContent": "set-option -wg @pfact 4"
+      },
+      {
+        "row": 5,
+        "rowsha": "x9uXr+GcPVJCXOSO9WhVhzZJAyyNb+UU8LXLAvtPcUs=",
+        "originContent": "bind -n M-q killpane",
+        "translatedContent": "bind -n M-q killpane"
+      },
+      {
+        "row": 6,
+        "rowsha": "63wHW7v7W9fV14kfmaR5B4hRYx5ts/WmPaNgHNqkKWY=",
+        "originContent": "bind -n M-w newpanecurdir",
+        "translatedContent": "bind -n M-w newpanecurdir"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Details\n\nSimilar to dwm, windows are always organized as follows:\n",
+    "ContentSha": "RnKo5z1zVMhRKEIENqWBoDjFPFQ/OqRjnXmzqG99ZCY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 세부 사항\n\ndwm과 유사하게, 창은 항상 다음과 같이 정리됩니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mGGFcNQM8KvTONeh1B6E6fX38pmfFOJkVisO4joYDMo=",
+        "originContent": "## Details",
+        "translatedContent": "## 세부 사항"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XWAEocR1t6wb6gMvquCKqZlTffbgnAklU8FKG3O5fgg=",
+        "originContent": "Similar to dwm, windows are always organized as follows:",
+        "translatedContent": "dwm과 유사하게, 창은 항상 다음과 같이 정리됩니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```\n ====================================\n|                 |        S1        |\n|                 |==================\n|      M(0)       |        S2        |\n|                 |==================\n|                 |        S3        |\n ====================================\n```",
+    "ContentSha": "xhDUs60rEWCAt2Z+DlhkF7lCfXBcyF4EsRGIZAJn8qc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n ====================================\n|                 |        S1        |\n|                 |==================\n|      M(0)       |        S2        |\n|                 |==================\n|                 |        S3        |\n ====================================\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "LyWEWF9Y8UjpVhzND9ICf23eCEGcq0n9ZRMgUSsWLRY=",
+        "originContent": " ====================================",
+        "translatedContent": " ===================================="
+      },
+      {
+        "row": 3,
+        "rowsha": "263ocDT9Le72tSa5uuovEcYcxoO800DWNaNHHOKrcYA=",
+        "originContent": "|                 |        S1        |",
+        "translatedContent": "|                 |        S1        |"
+      },
+      {
+        "row": 4,
+        "rowsha": "18yfQQAhQEdFbtxGjRStWj1Zugw8WGiU83tbJCOEROI=",
+        "originContent": "|                 |==================",
+        "translatedContent": "|                 |=================="
+      },
+      {
+        "row": 5,
+        "rowsha": "WTGL5/14uPb0/jG6pyTdQITp/821LtYppkFEF4qq8UY=",
+        "originContent": "|      M(0)       |        S2        |",
+        "translatedContent": "|      M(0)       |        S2        |"
+      },
+      {
+        "row": 6,
+        "rowsha": "18yfQQAhQEdFbtxGjRStWj1Zugw8WGiU83tbJCOEROI=",
+        "originContent": "|                 |==================",
+        "translatedContent": "|                 |=================="
+      },
+      {
+        "row": 7,
+        "rowsha": "5jCbAdYG8Yk6Mx7vqXNIIUZZZRTY8NCz558/jfrB6YE=",
+        "originContent": "|                 |        S3        |",
+        "translatedContent": "|                 |        S3        |"
+      },
+      {
+        "row": 8,
+        "rowsha": "LyWEWF9Y8UjpVhzND9ICf23eCEGcq0n9ZRMgUSsWLRY=",
+        "originContent": " ====================================",
+        "translatedContent": " ===================================="
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\nA large Main pane is placed on the left side of the screen while a stack of smaller panes is placed on the right. The Main pane is always pane 0, while the stack of panes is numbered sequentially in ascending order.\n",
+    "ContentSha": "dntuJD5xcIA95uusxA9KbxedAkPwh7zdQhfN4kzr47M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "큰 메인 창은 화면 왼쪽에 배치되고, 작은 창들이 쌓여 있는 스택은 오른쪽에 배치됩니다. 메인 창은 항상 창 0이며, 스택에 쌓인 창들은 오름차순으로 순차적으로 번호가 매겨집니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "큰 메인 창은 화면 왼쪽에 배치되고, 작은 창들이 쌓여 있는 스택은 오른쪽에 배치됩니다. 메인 창은 항상 창 0이며, 스택에 쌓인 창들은 오름차순으로 순차적으로 번호가 매겨집니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "I94T4TSpVFXxwxmBnJcZ4AXVMGlbVUirrhDZb6IcFwI=",
+        "originContent": "A large Main pane is placed on the left side of the screen while a stack of smaller panes is placed on the right. The Main pane is always pane 0, while the stack of panes is numbered sequentially in ascending order.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
