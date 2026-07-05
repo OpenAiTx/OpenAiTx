@@ -1,0 +1,176 @@
+[
+  {
+    "row": 1,
+    "rowsha": "QwIao172I8Kee02NCejwzSBQmB3d9GL2tlw7u0GrDNc=",
+    "originContent": "![Banner](https://i.imgur.com/qyWHmxW.png)",
+    "translatedContent": "![Banner](https://i.imgur.com/qyWHmxW.png)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "3p0ru7gwdq/0r/ukw+UV/zhSNv64tLFE0NkMiczaFqc=",
+    "originContent": "Gizmo3D encapsulates the Godot Engines 3D move/scale/rotation gizmos into a customizable node for use at runtime. The major differences are that you can edit all transformations at the same time, and customization options have been added. The selection box and axes can be toggled, colors changed, snapping intervals changed, and more. Transformation methods can be easily overriden to customize the default behavior. It is available in both C# and GDScript.",
+    "translatedContent": "Gizmo3DはGodotエンジンの3D移動/スケール/回転ギズモをランタイムで使用可能なカスタマイズ可能なノードにカプセル化したものです。主な違いは、すべての変換を同時に編集できることと、カスタマイズオプションが追加されていることです。選択ボックスや軸の表示切替、色の変更、スナップ間隔の変更などが可能です。変換メソッドは簡単にオーバーライドしてデフォルトの動作をカスタマイズできます。C#とGDScriptの両方で利用可能です。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### インストール"
+  },
+  {
+    "row": 6,
+    "rowsha": "bmsJLrVVhdQH7k7jew9IcCwLz0+QB16k52bVJQw8WK0=",
+    "originContent": "Copy either Gizmo3DScript or Gizmo3DSharp from the addons folder into the addons folder of your project. Read more about installing and enabling addons [here](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html). ",
+    "translatedContent": "addonsフォルダからGizmo3DScriptまたはGizmo3DSharpをプロジェクトのaddonsフォルダにコピーします。アドオンのインストールと有効化については[こちら](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html)を参照してください。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "hdYoVA2n4gzDZazTypLpq/qW44Cud6EnnjZzqKMdVnI=",
+    "originContent": "Once installed, you can add a Gizmo3D node to your project. For usage, it's recommended to take a look at the demo project - note that to use the demo you will have to **git clone** the repo, since the artifact is setup for use with the Godot Asset Library.",
+    "translatedContent": "インストール後、プロジェクトにGizmo3Dノードを追加できます。使用方法についてはデモプロジェクトを見ることをお勧めします。デモを使用するにはリポジトリを**git clone**する必要があります。アーティファクトはGodot Asset Library用に設定されています。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "hXsapfilV3X6xqXnrdJyvBkoZxsocBhLU5xAlHHOgms=",
+    "originContent": "### Signals",
+    "translatedContent": "### シグナル"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "NChVGK+6rTTFh0gpFA6FvF/q5HmDQWnRjR74r2BICac=",
+    "originContent": "C#                  | GDScript            |",
+    "translatedContent": "C#                  | GDScript            |"
+  },
+  {
+    "row": 13,
+    "rowsha": "k/IzjX87/0J5uQzUbH4igZ5XD6BywcGCIxUoTB43Qjc=",
+    "originContent": "--------------------|---------------------|",
+    "translatedContent": "--------------------|---------------------|"
+  },
+  {
+    "row": 14,
+    "rowsha": "3g0la6Ek4yeSXx+K9/5QklPRcv3LjEme0k3Lc5ej/Os=",
+    "originContent": "`SelectionChanged`  | `selection_changed` |",
+    "translatedContent": "`SelectionChanged`  | `selection_changed` |"
+  },
+  {
+    "row": 15,
+    "rowsha": "sws22ZVfiSxfxNpTWQXt/eT01kxCKi2PyOhQWiwNWeQ=",
+    "originContent": "`TransformBegin`    | `transform_begin`   |",
+    "translatedContent": "`TransformBegin`    | `transform_begin`   |"
+  },
+  {
+    "row": 16,
+    "rowsha": "wwEd8hF+bVL57ZDnc82A7F6iXDjN+HwV2LiJH0M5h0s=",
+    "originContent": "`TransformChanged`  | `transform_changed` |",
+    "translatedContent": "`TransformChanged`  | `transform_changed` |"
+  },
+  {
+    "row": 17,
+    "rowsha": "wsmujItoeWLix4LPac37GKLUj5UWhZzbiRSNDLdSPzc=",
+    "originContent": "`TransformEnd`      | `transform_end`     |",
+    "translatedContent": "`TransformEnd`      | `transform_end`     |"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "KGtMiZC3fQJN5qEVatpVWtJAPoMlcH5JtMAZsFArw8k=",
+    "originContent": "### Overridable Transformations",
+    "translatedContent": "### オーバーライド可能な変換メソッド"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Cv8MyGfqBpDwZ48N1Au/fTLYK3ZG1/iBZ1SuVRAqWFQ=",
+    "originContent": "| C#                | GDScript             |",
+    "translatedContent": "| C#                | GDScript             |"
+  },
+  {
+    "row": 22,
+    "rowsha": "F4fVShha0+v4KsAlsWdY4Cqk95KQwYeY1XIXQQx4dQs=",
+    "originContent": "|-------------------|----------------------|",
+    "translatedContent": "|-------------------|----------------------|"
+  },
+  {
+    "row": 23,
+    "rowsha": "KtwwG9+RUFghIul0Xvi/ZeyuW2pATgKbUuWKmuStI5E=",
+    "originContent": "| `EditTranslate()` | `_edit_translate()`  |",
+    "translatedContent": "| `EditTranslate()` | `_edit_translate()`  |"
+  },
+  {
+    "row": 24,
+    "rowsha": "bwP+bD8voEcqQDx1hq9xSG15y/kIBJerA0psdwvP5PM=",
+    "originContent": "| `EditScale()`     | `_edit_scale()`      |",
+    "translatedContent": "| `EditScale()`     | `_edit_scale()`      |"
+  },
+  {
+    "row": 25,
+    "rowsha": "7vpLkwUctQGvpp+I9IDXW6V3dbLajHfdxatXxI1a4f0=",
+    "originContent": "| `EditRotate()`    | `_edit_rotate()`     |",
+    "translatedContent": "| `EditRotate()`    | `_edit_rotate()`     |"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "dXkr6wemyKgxTt/uNinJsjyukD0ACvvcNpOp2IR4J3A=",
+    "originContent": "### Licensing",
+    "translatedContent": "### ライセンス"
+  },
+  {
+    "row": 28,
+    "rowsha": "8VtHj8syBBrgOp5htVbyI9DB/+kIv/qrNpy2lt7trac=",
+    "originContent": "Gizmo3D is largely a port of C++ code from the Godot Engine source. Gizmo3D is licensed under MIT, while the license for the Godot Engine can be found [here](https://godotengine.org/license/). The demo project uses assets from Kenney's CC0 licensed [Mini Dungeon](https://kenney.nl/assets/mini-dungeon) asset pack. The banner logo uses the [Dimbo](https://www.dafont.com/dimbo.font) font.",
+    "translatedContent": "Gizmo3Dは主にGodotエンジンのソースコードからのC++コードの移植です。Gizmo3DはMITライセンスで提供されており、Godotエンジンのライセンスは[こちら](https://godotengine.org/license/)にあります。デモプロジェクトではKenneyのCC0ライセンスの[Mini Dungeon](https://kenney.nl/assets/mini-dungeon)アセットパックの資産を使用しています。バナーロゴには[Dimbo](https://www.dafont.com/dimbo.font)フォントを使用しています。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,731 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🚀 The 80/20 DSA Interview Playbook\n\nThis is not a list of 500 random problems. This is the **highly curated, zero-BS** collection of the exact Data Structures & Algorithmic patterns that top tech companies (Microsoft, Amazon, Google, Meta, Apple) actually test in their technical rounds.\n\n---\n\n## 🛑 STEP 1: The Core Foundation (Do This First)\n\nBefore you begin grinding LeetCode, you need to make sure your core logic and data structure fundamentals are rock solid. If your foundational logic is weak, you will struggle to recognize these patterns during a live interview. \n\nBefore diving into the patterns below, it is **highly recommended** that you brush up on your core logic using Microsoft's official, 100% free developer training hub.\n\n👉 **[Access the Official Microsoft Developer Training Hub Here (DSA Fundamentals & Logic)](https://learn.microsoft.com/training/?wt.mc_id=studentamb_514816)**\n\n*(Do not skip this step if your core fundamentals are rusty. Top companies care more about your underlying logic than your ability to memorize LeetCode solutions.)*\n\n---\n\n## 🧠 STEP 2: The Core DSA Patterns (The 80/20 Rule)\n\n### 1. Sliding Window\n*   [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) (Easy)\n*   [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medium)\n*   [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Medium)\n*   [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) (Medium)\n*   [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)\n*   [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Hard)\n*   [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) (Hard)\n\n### 2. Two Pointers\n*   [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (Easy)\n*   [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medium)\n*   [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Easy)\n*   [3Sum](https://leetcode.com/problems/3sum/) (Medium)\n*   [4Sum](https://leetcode.com/problems/4sum/) (Medium)\n*   [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium)\n*   [Sort Colors](https://leetcode.com/problems/sort-colors/) (Medium)\n*   [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Hard)\n\n### 3. Fast & Slow Pointers",
+    "ContentSha": "H8m8G3magyE4EBBERkmGKSlZyZ4Xd6o0zlb7IUFgHMY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🚀 El Manual 80/20 para Entrevistas de Estructuras de Datos y Algoritmos\n\nEsto no es una lista de 500 problemas aleatorios. Esta es la colección **altamente seleccionada y sin tonterías** de los patrones exactos de Estructuras de Datos y Algoritmos que las principales empresas tecnológicas (Microsoft, Amazon, Google, Meta, Apple) realmente evalúan en sus rondas técnicas.\n\n---\n\n## 🛑 PASO 1: La Fundación Básica (Haz Esto Primero)\n\nAntes de comenzar a practicar en LeetCode, necesitas asegurarte de que tus fundamentos de lógica y estructuras de datos sean sólidos como una roca. Si tu lógica básica es débil, te costará reconocer estos patrones durante una entrevista en vivo.\n\nAntes de sumergirte en los patrones a continuación, es **altamente recomendable** que repases tu lógica básica usando el centro oficial de capacitación para desarrolladores de Microsoft, 100% gratuito.\n\n👉 **[Accede Aquí al Centro Oficial de Capacitación para Desarrolladores de Microsoft (Fundamentos DSA y Lógica)](https://learn.microsoft.com/training/?wt.mc_id=studentamb_514816)**\n\n*(No omitas este paso si tus fundamentos están oxidados. Las principales empresas valoran más tu lógica subyacente que tu capacidad para memorizar soluciones de LeetCode.)*\n\n---\n\n## 🧠 PASO 2: Los Patrones Básicos de DSA (La Regla 80/20)\n\n### 1. Ventana Deslizante\n*   [Subarreglo con Promedio Máximo I](https://leetcode.com/problems/maximum-average-subarray-i/) (Fácil)\n*   [Subcadena Más Larga Sin Caracteres Repetidos](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medio)\n*   [Reemplazo del Caracter Repetido Más Largo](https://leetcode.com/problems/longest-repeating-character-replacement/) (Medio)\n*   [Máximo Número de Unos Consecutivos III](https://leetcode.com/problems/max-consecutive-ones-iii/) (Medio)\n*   [Frutas en Cestas](https://leetcode.com/problems/fruit-into-baskets/) (Medio)\n*   [Subcadena Mínima de Ventana](https://leetcode.com/problems/minimum-window-substring/) (Difícil)\n*   [Máximo de Ventana Deslizante](https://leetcode.com/problems/sliding-window-maximum/) (Difícil)\n\n### 2. Dos Punteros\n*   [Palíndromo Válido](https://leetcode.com/problems/valid-palindrome/) (Fácil)\n*   [Suma de Dos II - El Arreglo de Entrada Está Ordenado](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medio)\n*   [Eliminar Duplicados de un Arreglo Ordenado](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Fácil)\n*   [3Sum](https://leetcode.com/problems/3sum/) (Medio)\n*   [4Sum](https://leetcode.com/problems/4sum/) (Medio)\n*   [Contenedor con Más Agua](https://leetcode.com/problems/container-with-most-water/) (Medio)\n*   [Ordenar Colores](https://leetcode.com/problems/sort-colors/) (Medio)\n*   [Atrapar Agua de Lluvia](https://leetcode.com/problems/trapping-rain-water/) (Difícil)\n\n### 3. Punteros Rápido y Lento",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dVtkSdcmMue6rdx0NvMYULa7UUpO/w9L7x/kgYq1A4s=",
+        "originContent": "# 🚀 The 80/20 DSA Interview Playbook",
+        "translatedContent": "# 🚀 El Manual 80/20 para Entrevistas de Estructuras de Datos y Algoritmos"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "NNZvHLWQ8Gur6cJHJ/qFg4nKXaEEhzHcYIqjWx1cAaw=",
+        "originContent": "This is not a list of 500 random problems. This is the **highly curated, zero-BS** collection of the exact Data Structures & Algorithmic patterns that top tech companies (Microsoft, Amazon, Google, Meta, Apple) actually test in their technical rounds.",
+        "translatedContent": "Esto no es una lista de 500 problemas aleatorios. Esta es la colección **altamente seleccionada y sin tonterías** de los patrones exactos de Estructuras de Datos y Algoritmos que las principales empresas tecnológicas (Microsoft, Amazon, Google, Meta, Apple) realmente evalúan en sus rondas técnicas."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "BVa4IGDfrn4frOZvr+9PWKTq0CdOenVg6bj60uJTVj8=",
+        "originContent": "## 🛑 STEP 1: The Core Foundation (Do This First)",
+        "translatedContent": "## 🛑 PASO 1: La Fundación Básica (Haz Esto Primero)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JrWMjV7dcdsYQ9wQyLmmRrgswp5XR6VWzN598z60+bo=",
+        "originContent": "Before you begin grinding LeetCode, you need to make sure your core logic and data structure fundamentals are rock solid. If your foundational logic is weak, you will struggle to recognize these patterns during a live interview. ",
+        "translatedContent": "Antes de comenzar a practicar en LeetCode, necesitas asegurarte de que tus fundamentos de lógica y estructuras de datos sean sólidos como una roca. Si tu lógica básica es débil, te costará reconocer estos patrones durante una entrevista en vivo."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "fZgSFhflnaKxXNnkDnqpRKBLxSJTi8zwf5CVjPbqy38=",
+        "originContent": "Before diving into the patterns below, it is **highly recommended** that you brush up on your core logic using Microsoft's official, 100% free developer training hub.",
+        "translatedContent": "Antes de sumergirte en los patrones a continuación, es **altamente recomendable** que repases tu lógica básica usando el centro oficial de capacitación para desarrolladores de Microsoft, 100% gratuito."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "E2Xk4JorMP7Dj/Xp6FYfwNEO1ed10QQOnQENkVHy/j4=",
+        "originContent": "👉 **[Access the Official Microsoft Developer Training Hub Here (DSA Fundamentals & Logic)](https://learn.microsoft.com/training/?wt.mc_id=studentamb_514816)**",
+        "translatedContent": "👉 **[Accede Aquí al Centro Oficial de Capacitación para Desarrolladores de Microsoft (Fundamentos DSA y Lógica)](https://learn.microsoft.com/training/?wt.mc_id=studentamb_514816)**"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "sJxS42PSrWBerl1WtuDJ/EyPSbKG7pKrQODjnN1aYmw=",
+        "originContent": "*(Do not skip this step if your core fundamentals are rusty. Top companies care more about your underlying logic than your ability to memorize LeetCode solutions.)*",
+        "translatedContent": "*(No omitas este paso si tus fundamentos están oxidados. Las principales empresas valoran más tu lógica subyacente que tu capacidad para memorizar soluciones de LeetCode.)*"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "30j9O/jXlu+NcCPu07wCTaBn5hbcG22HV2/x9axnDY4=",
+        "originContent": "## 🧠 STEP 2: The Core DSA Patterns (The 80/20 Rule)",
+        "translatedContent": "## 🧠 PASO 2: Los Patrones Básicos de DSA (La Regla 80/20)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "FdIodxd1vxqiFacbZeBpXN79p0QUYMSH0OjIU9bsdpk=",
+        "originContent": "### 1. Sliding Window",
+        "translatedContent": "### 1. Ventana Deslizante"
+      },
+      {
+        "row": 22,
+        "rowsha": "ke2wwRJaPSPjecAP1tkMjR6vF18oZb9/OYBptjGYdwc=",
+        "originContent": "*   [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) (Easy)",
+        "translatedContent": "*   [Subarreglo con Promedio Máximo I](https://leetcode.com/problems/maximum-average-subarray-i/) (Fácil)"
+      },
+      {
+        "row": 23,
+        "rowsha": "SNuTBtjOowumDIkm5HU3GLMnnh+CE3TY141x2QokuA8=",
+        "originContent": "*   [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medium)",
+        "translatedContent": "*   [Subcadena Más Larga Sin Caracteres Repetidos](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medio)"
+      },
+      {
+        "row": 24,
+        "rowsha": "9baYXmq5R+oyi235qJXlWQEiLd3/AJGIqaY4gm0uS70=",
+        "originContent": "*   [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Medium)",
+        "translatedContent": "*   [Reemplazo del Caracter Repetido Más Largo](https://leetcode.com/problems/longest-repeating-character-replacement/) (Medio)"
+      },
+      {
+        "row": 25,
+        "rowsha": "I/vFa4/UgJfLF2e7K6KFH4E3Qk+6CZV4fxQv0jUUgqc=",
+        "originContent": "*   [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) (Medium)",
+        "translatedContent": "*   [Máximo Número de Unos Consecutivos III](https://leetcode.com/problems/max-consecutive-ones-iii/) (Medio)"
+      },
+      {
+        "row": 26,
+        "rowsha": "xPrabqEusqyyKU6D1hB6pG7tcFY822ZXZjcKnexjTTg=",
+        "originContent": "*   [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)",
+        "translatedContent": "*   [Frutas en Cestas](https://leetcode.com/problems/fruit-into-baskets/) (Medio)"
+      },
+      {
+        "row": 27,
+        "rowsha": "61x5ucJQRKmcqGkp2vS6oJl9bV6FUZi24hCGIjVaWrQ=",
+        "originContent": "*   [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Hard)",
+        "translatedContent": "*   [Subcadena Mínima de Ventana](https://leetcode.com/problems/minimum-window-substring/) (Difícil)"
+      },
+      {
+        "row": 28,
+        "rowsha": "Xnyk60odYzelafXZ4g+bAFdLZaKm9dB6LYTzr1s2QbA=",
+        "originContent": "*   [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) (Hard)",
+        "translatedContent": "*   [Máximo de Ventana Deslizante](https://leetcode.com/problems/sliding-window-maximum/) (Difícil)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "kDImBWp7cvgfc7XfKy2FGCQZeewqJtRmXw1EcuiGsfo=",
+        "originContent": "### 2. Two Pointers",
+        "translatedContent": "### 2. Dos Punteros"
+      },
+      {
+        "row": 31,
+        "rowsha": "dRTeNyZTv+4HoMD9pnXjG2ErBECdb+WoRiVgbh+URfs=",
+        "originContent": "*   [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (Easy)",
+        "translatedContent": "*   [Palíndromo Válido](https://leetcode.com/problems/valid-palindrome/) (Fácil)"
+      },
+      {
+        "row": 32,
+        "rowsha": "PMhpI/r9CzNhNbSkZ1np81Ov7zH+u5PVRbqOgobqD5c=",
+        "originContent": "*   [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medium)",
+        "translatedContent": "*   [Suma de Dos II - El Arreglo de Entrada Está Ordenado](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medio)"
+      },
+      {
+        "row": 33,
+        "rowsha": "nb0CK/APtlqz7MHDX/9mc4K2Rx0KStLamvIVajx6UqY=",
+        "originContent": "*   [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Easy)",
+        "translatedContent": "*   [Eliminar Duplicados de un Arreglo Ordenado](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Fácil)"
+      },
+      {
+        "row": 34,
+        "rowsha": "AXKmO2SscqqHTqAgNd7CWN6nHaSXH6O7THkVmwiJKQg=",
+        "originContent": "*   [3Sum](https://leetcode.com/problems/3sum/) (Medium)",
+        "translatedContent": "*   [3Sum](https://leetcode.com/problems/3sum/) (Medio)"
+      },
+      {
+        "row": 35,
+        "rowsha": "zWG1rJfAiKkXwqtxn0jz2Wk5O29jRU1gZjroWf41+u0=",
+        "originContent": "*   [4Sum](https://leetcode.com/problems/4sum/) (Medium)",
+        "translatedContent": "*   [4Sum](https://leetcode.com/problems/4sum/) (Medio)"
+      },
+      {
+        "row": 36,
+        "rowsha": "DHADZ2byBuw4A5kPn5GL/fqieV3Xak2tJQeKYqffubI=",
+        "originContent": "*   [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium)",
+        "translatedContent": "*   [Contenedor con Más Agua](https://leetcode.com/problems/container-with-most-water/) (Medio)"
+      },
+      {
+        "row": 37,
+        "rowsha": "9MUlDqBusBdu0SW2G+Hga8td1ZcJImSNud611IebLNE=",
+        "originContent": "*   [Sort Colors](https://leetcode.com/problems/sort-colors/) (Medium)",
+        "translatedContent": "*   [Ordenar Colores](https://leetcode.com/problems/sort-colors/) (Medio)"
+      },
+      {
+        "row": 38,
+        "rowsha": "N1q5zbHwD3ERQcM9PjFINMU/TBN+dHENwzYT5Estz/4=",
+        "originContent": "*   [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Hard)",
+        "translatedContent": "*   [Atrapar Agua de Lluvia](https://leetcode.com/problems/trapping-rain-water/) (Difícil)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "SrcSP3lf+fMjtR4y4plFY4YfEeCVbpfNLhV1VjfaGx8=",
+        "originContent": "### 3. Fast & Slow Pointers",
+        "translatedContent": "### 3. Punteros Rápido y Lento"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "*   [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (Easy)\n*   [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)\n*   [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) (Easy)\n*   [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) (Medium)\n*   [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) (Medium)\n*   [Reorder List](https://leetcode.com/problems/reorder-list/) (Medium)\n\n### 4. Merge Intervals\n*   [Merge Intervals](https://leetcode.com/problems/merge-intervals/) (Medium)\n*   [Insert Interval](https://leetcode.com/problems/insert-interval/) (Medium)\n*   [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) (Medium)\n*   [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) (Easy) *(Premium)*\n*   [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) (Medium) *(Premium)*\n*   [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) (Medium)\n\n### 5. Binary Search (Modified)\n*   [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)\n*   [Search Insert Position](https://leetcode.com/problems/search-insert-position/) (Easy)\n*   [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medium)\n*   [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (Medium)\n*   [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (Medium)\n*   [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) (Medium)\n*   [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)\n\n---\n\n## 🌳 STEP 3: Advanced Structures\n\n### 6. Tree / Graph BFS\n*   [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (Medium)\n*   [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (Medium)\n*   [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medium)\n*   [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) (Medium)\n*   [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medium)\n*   [Word Ladder](https://leetcode.com/problems/word-ladder/) (Hard)\n\n### 7. Tree / Graph DFS\n*   [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (Easy)\n*   [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Easy)\n*   [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)",
+    "ContentSha": "faCc3lGtx+vHlsDbAqnOSvtdJYirEnO9MGprz5KIoZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "*   [Ciclo en Lista Enlazada](https://leetcode.com/problems/linked-list-cycle/) (Fácil)\n*   [Mitad de la Lista Enlazada](https://leetcode.com/problems/middle-of-the-linked-list/) (Fácil)\n*   [Lista Enlazada Palíndroma](https://leetcode.com/problems/palindrome-linked-list/) (Fácil)\n*   [Encontrar el Número Duplicado](https://leetcode.com/problems/find-the-duplicate-number/) (Medio)\n*   [Ciclo en Lista Enlazada II](https://leetcode.com/problems/linked-list-cycle-ii/) (Medio)\n*   [Reordenar Lista](https://leetcode.com/problems/reorder-list/) (Medio)\n\n### 4. Fusionar Intervalos\n*   [Fusionar Intervalos](https://leetcode.com/problems/merge-intervals/) (Medio)\n*   [Insertar Intervalo](https://leetcode.com/problems/insert-interval/) (Medio)\n*   [Intervalos No Superpuestos](https://leetcode.com/problems/non-overlapping-intervals/) (Medio)\n*   [Salas de Reunión](https://leetcode.com/problems/meeting-rooms/) (Fácil) *(Premium)*\n*   [Salas de Reunión II](https://leetcode.com/problems/meeting-rooms-ii/) (Medio) *(Premium)*\n*   [Número Mínimo de Flechas para Reventar Globos](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) (Medio)\n\n### 5. Búsqueda Binaria (Modificada)\n*   [Búsqueda Binaria](https://leetcode.com/problems/binary-search/) (Fácil)\n*   [Posición de Inserción de Búsqueda](https://leetcode.com/problems/search-insert-position/) (Fácil)\n*   [Encontrar Primera y Última Posición de Elemento en Arreglo Ordenado](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medio)\n*   [Buscar en Arreglo Rotado Ordenado](https://leetcode.com/problems/search-in-rotated-sorted-array/) (Medio)\n*   [Encontrar Mínimo en Arreglo Rotado Ordenado](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (Medio)\n*   [Buscar en Matriz 2D](https://leetcode.com/problems/search-a-2d-matrix/) (Medio)\n*   [Koko Comiendo Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medio)\n\n---\n\n## 🌳 PASO 3: Estructuras Avanzadas\n\n### 6. Árbol / Grafo BFS\n*   [Recorrido por Niveles de Árbol Binario](https://leetcode.com/problems/binary-tree-level-order-traversal/) (Medio)\n*   [Vista Lateral Derecha de Árbol Binario](https://leetcode.com/problems/binary-tree-right-side-view/) (Medio)\n*   [Recorrido Zigzag por Niveles de Árbol Binario](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medio)\n*   [Naranjas Pudriéndose](https://leetcode.com/problems/rotting-oranges/) (Medio)\n*   [Poblar Punteros a la Derecha en Cada Nodo](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medio)\n*   [Escalera de Palabras](https://leetcode.com/problems/word-ladder/) (Difícil)\n\n### 7. Árbol / Grafo DFS\n*   [Profundidad Máxima de Árbol Binario](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (Fácil)\n*   [Invertir Árbol Binario](https://leetcode.com/problems/invert-binary-tree/) (Fácil)\n*   [Diámetro de Árbol Binario](https://leetcode.com/problems/diameter-of-binary-tree/) (Fácil)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "L9IblQOY43GYlET7nQ2CHXCa9xV0Eovo38Uq03NqUM0=",
+        "originContent": "*   [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (Easy)",
+        "translatedContent": "*   [Ciclo en Lista Enlazada](https://leetcode.com/problems/linked-list-cycle/) (Fácil)"
+      },
+      {
+        "row": 2,
+        "rowsha": "h7Ln/lsoR6R6bAzuxaERXl/cZMbZP+CesrJFuzC0BEI=",
+        "originContent": "*   [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)",
+        "translatedContent": "*   [Mitad de la Lista Enlazada](https://leetcode.com/problems/middle-of-the-linked-list/) (Fácil)"
+      },
+      {
+        "row": 3,
+        "rowsha": "VWlPLfLU11XIBKDMguKknZjsQJjUmyAV9cZ4rurITPc=",
+        "originContent": "*   [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) (Easy)",
+        "translatedContent": "*   [Lista Enlazada Palíndroma](https://leetcode.com/problems/palindrome-linked-list/) (Fácil)"
+      },
+      {
+        "row": 4,
+        "rowsha": "0bMIKiSejtP5Z1ZZVE3U1sdbZHAORFWqE4YjGK4kZ5I=",
+        "originContent": "*   [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) (Medium)",
+        "translatedContent": "*   [Encontrar el Número Duplicado](https://leetcode.com/problems/find-the-duplicate-number/) (Medio)"
+      },
+      {
+        "row": 5,
+        "rowsha": "RR5e0k8wh1s6kCpkQp6nlpnIB54iRU5QhaYLsccPUT0=",
+        "originContent": "*   [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) (Medium)",
+        "translatedContent": "*   [Ciclo en Lista Enlazada II](https://leetcode.com/problems/linked-list-cycle-ii/) (Medio)"
+      },
+      {
+        "row": 6,
+        "rowsha": "p47lKnTP50ryPltMgqlWjv4lrn9KkQLGgaLoEDoLwL8=",
+        "originContent": "*   [Reorder List](https://leetcode.com/problems/reorder-list/) (Medium)",
+        "translatedContent": "*   [Reordenar Lista](https://leetcode.com/problems/reorder-list/) (Medio)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "iBqGnxnupet54fPKLk83QhyXYnnsGp5k3O35tHNCBFw=",
+        "originContent": "### 4. Merge Intervals",
+        "translatedContent": "### 4. Fusionar Intervalos"
+      },
+      {
+        "row": 9,
+        "rowsha": "TkV/ldX0cFpMqsupgUO8QhiKjjjM2uKDhfwttTg8XvQ=",
+        "originContent": "*   [Merge Intervals](https://leetcode.com/problems/merge-intervals/) (Medium)",
+        "translatedContent": "*   [Fusionar Intervalos](https://leetcode.com/problems/merge-intervals/) (Medio)"
+      },
+      {
+        "row": 10,
+        "rowsha": "IUTPz2rZ+XsprXAGHYBRRcqHhz+pFqlxgR355iD3D6c=",
+        "originContent": "*   [Insert Interval](https://leetcode.com/problems/insert-interval/) (Medium)",
+        "translatedContent": "*   [Insertar Intervalo](https://leetcode.com/problems/insert-interval/) (Medio)"
+      },
+      {
+        "row": 11,
+        "rowsha": "IxdW9zAsV4BGAstGvFMbaWTLxBttwAdk5t075uKQRs0=",
+        "originContent": "*   [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) (Medium)",
+        "translatedContent": "*   [Intervalos No Superpuestos](https://leetcode.com/problems/non-overlapping-intervals/) (Medio)"
+      },
+      {
+        "row": 12,
+        "rowsha": "HytHuVUgleDnzd3e5uXLBRyS6CZTBLoTt6IyAk6Sya0=",
+        "originContent": "*   [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) (Easy) *(Premium)*",
+        "translatedContent": "*   [Salas de Reunión](https://leetcode.com/problems/meeting-rooms/) (Fácil) *(Premium)*"
+      },
+      {
+        "row": 13,
+        "rowsha": "CsvbedlT1negHQuv9Jn2tmju+svO5MdyFskMQBpXCV4=",
+        "originContent": "*   [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) (Medium) *(Premium)*",
+        "translatedContent": "*   [Salas de Reunión II](https://leetcode.com/problems/meeting-rooms-ii/) (Medio) *(Premium)*"
+      },
+      {
+        "row": 14,
+        "rowsha": "V18jGiRyWZABeoOmvbF3hhWp/iRsdSyI1Him+WWWeck=",
+        "originContent": "*   [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) (Medium)",
+        "translatedContent": "*   [Número Mínimo de Flechas para Reventar Globos](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) (Medio)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ZetCEtk/gdC2pN64tSpPXcN7PBPe5SzDHJiRqGK/HKc=",
+        "originContent": "### 5. Binary Search (Modified)",
+        "translatedContent": "### 5. Búsqueda Binaria (Modificada)"
+      },
+      {
+        "row": 17,
+        "rowsha": "pxGmsdtrY2/Wy/2hGQvOYvI/QMDRT79OT8+KA5oPH7Y=",
+        "originContent": "*   [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)",
+        "translatedContent": "*   [Búsqueda Binaria](https://leetcode.com/problems/binary-search/) (Fácil)"
+      },
+      {
+        "row": 18,
+        "rowsha": "VeFLGoA5s7cxrxOuFSOsjKKW0Bw34b88QjqrHdB1F8s=",
+        "originContent": "*   [Search Insert Position](https://leetcode.com/problems/search-insert-position/) (Easy)",
+        "translatedContent": "*   [Posición de Inserción de Búsqueda](https://leetcode.com/problems/search-insert-position/) (Fácil)"
+      },
+      {
+        "row": 19,
+        "rowsha": "s3CijHPG/hwksojko5nDz+HJcY4xZS+oZPRqXMgwDXY=",
+        "originContent": "*   [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medium)",
+        "translatedContent": "*   [Encontrar Primera y Última Posición de Elemento en Arreglo Ordenado](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medio)"
+      },
+      {
+        "row": 20,
+        "rowsha": "Gk/+8mECdxNohrwclp/s5Ms6ADfVAlp/XqY78TjsQkE=",
+        "originContent": "*   [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (Medium)",
+        "translatedContent": "*   [Buscar en Arreglo Rotado Ordenado](https://leetcode.com/problems/search-in-rotated-sorted-array/) (Medio)"
+      },
+      {
+        "row": 21,
+        "rowsha": "NjwmhsL4zKbb80+5dU634QEq5S8Tsrgdi6aZm4MIeDg=",
+        "originContent": "*   [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (Medium)",
+        "translatedContent": "*   [Encontrar Mínimo en Arreglo Rotado Ordenado](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (Medio)"
+      },
+      {
+        "row": 22,
+        "rowsha": "us9lbdrUrE1PbSKVpb6uWaf+dX40SorkriSHICG6N9U=",
+        "originContent": "*   [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) (Medium)",
+        "translatedContent": "*   [Buscar en Matriz 2D](https://leetcode.com/problems/search-a-2d-matrix/) (Medio)"
+      },
+      {
+        "row": 23,
+        "rowsha": "w8LKYojBTCc7opagvtZg7Xlfx5U1Y4m9tf+R8yPAhoM=",
+        "originContent": "*   [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)",
+        "translatedContent": "*   [Koko Comiendo Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medio)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "2ye+70qCjfZq0Xq3gdT3Bhjz1O1FG+Opa1yGeaKZ8Vo=",
+        "originContent": "## 🌳 STEP 3: Advanced Structures",
+        "translatedContent": "## 🌳 PASO 3: Estructuras Avanzadas"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "5ThY1OXMQ+H1irSYYdRtR6Bm8XitUr3ix+wMLqrlCRc=",
+        "originContent": "### 6. Tree / Graph BFS",
+        "translatedContent": "### 6. Árbol / Grafo BFS"
+      },
+      {
+        "row": 30,
+        "rowsha": "wSvd+ZQdjY7hWH1qyhQu+5Yk5GlTLsTqUJu/CVsL16g=",
+        "originContent": "*   [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (Medium)",
+        "translatedContent": "*   [Recorrido por Niveles de Árbol Binario](https://leetcode.com/problems/binary-tree-level-order-traversal/) (Medio)"
+      },
+      {
+        "row": 31,
+        "rowsha": "pt/0QNMRsjCXAqSJVFoquYVsSUvjlS1br4TprVyHORo=",
+        "originContent": "*   [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (Medium)",
+        "translatedContent": "*   [Vista Lateral Derecha de Árbol Binario](https://leetcode.com/problems/binary-tree-right-side-view/) (Medio)"
+      },
+      {
+        "row": 32,
+        "rowsha": "zh8bFwm8rFgVcVKWCtdNikOmdLxJZWLWQbNwIMVIEwA=",
+        "originContent": "*   [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medium)",
+        "translatedContent": "*   [Recorrido Zigzag por Niveles de Árbol Binario](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medio)"
+      },
+      {
+        "row": 33,
+        "rowsha": "2eTsEveMvPxgJRaSUqT3rXrKxzAE1mAPyItwtZrz+Qo=",
+        "originContent": "*   [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) (Medium)",
+        "translatedContent": "*   [Naranjas Pudriéndose](https://leetcode.com/problems/rotting-oranges/) (Medio)"
+      },
+      {
+        "row": 34,
+        "rowsha": "ZyDmwDmnrFaA4DTxf8X7J42DhvqnceirH99K0RpbGy4=",
+        "originContent": "*   [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medium)",
+        "translatedContent": "*   [Poblar Punteros a la Derecha en Cada Nodo](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medio)"
+      },
+      {
+        "row": 35,
+        "rowsha": "gBjuE5nOI6WSrty1naGQ40YQRfpBwDuyYl44MSH3+vM=",
+        "originContent": "*   [Word Ladder](https://leetcode.com/problems/word-ladder/) (Hard)",
+        "translatedContent": "*   [Escalera de Palabras](https://leetcode.com/problems/word-ladder/) (Difícil)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "h5AU4vxbDUb7f1v21a/GQW+5GOvjMMzMBGdbCzY8v7E=",
+        "originContent": "### 7. Tree / Graph DFS",
+        "translatedContent": "### 7. Árbol / Grafo DFS"
+      },
+      {
+        "row": 38,
+        "rowsha": "rZiHGRauLJsCX+5OKhgBxFj3XVXf2USVraiVPjVaJ3M=",
+        "originContent": "*   [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (Easy)",
+        "translatedContent": "*   [Profundidad Máxima de Árbol Binario](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (Fácil)"
+      },
+      {
+        "row": 39,
+        "rowsha": "ueyYVFRS4LH8pka6xmFOnNMmv7008dIgIdtZr5KT4HM=",
+        "originContent": "*   [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Easy)",
+        "translatedContent": "*   [Invertir Árbol Binario](https://leetcode.com/problems/invert-binary-tree/) (Fácil)"
+      },
+      {
+        "row": 40,
+        "rowsha": "+DetRVkasjl7mZdkSX2mxGunazfgJm21r9lTHW82c6w=",
+        "originContent": "*   [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)",
+        "translatedContent": "*   [Diámetro de Árbol Binario](https://leetcode.com/problems/diameter-of-binary-tree/) (Fácil)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "*   [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (Medium)\n*   [Number of Islands](https://leetcode.com/problems/number-of-islands/) (Medium)\n*   [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) (Medium)\n*   [Course Schedule](https://leetcode.com/problems/course-schedule/) (Medium)\n*   [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Medium)\n\n### 8. Subsets / Backtracking\n*   [Subsets](https://leetcode.com/problems/subsets/) (Medium)\n*   [Subsets II](https://leetcode.com/problems/subsets-ii/) (Medium)\n*   [Permutations](https://leetcode.com/problems/permutations/) (Medium)\n*   [Combination Sum](https://leetcode.com/problems/combination-sum/) (Medium)\n*   [Word Search](https://leetcode.com/problems/word-search/) (Medium)\n*   [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) (Medium)\n*   [N-Queens](https://leetcode.com/problems/n-queens/) (Hard)\n\n### 9. Top K Elements (Heaps)\n*   [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (Medium)\n*   [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) (Medium)\n*   [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (Medium)\n*   [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (Hard)\n*   [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (Hard)\n\n### 10. Dynamic Programming (1D & 2D)\n*   [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (Easy)\n*   [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) (Easy)\n*   [House Robber](https://leetcode.com/problems/house-robber/) (Medium)\n*   [Coin Change](https://leetcode.com/problems/coin-change/) (Medium)\n*   [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (Medium)\n*   [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) (Medium)\n*   [Unique Paths](https://leetcode.com/problems/unique-paths/) (Medium)\n*   [Word Break](https://leetcode.com/problems/word-break/) (Medium)\n\n---\n*Bookmark this repository, and share it with your friends to help them crush their interviews! Good luck.*\n",
+    "ContentSha": "I8eWNSWiMtCLZ6TEF5mSd/ZBioDlsBHeYDLYVIOHc6M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "*   [Ancestro Común Más Bajo de un Árbol Binario](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (Medio)\n*   [Número de Islas](https://leetcode.com/problems/number-of-islands/) (Medio)\n*   [Área Máxima de una Isla](https://leetcode.com/problems/max-area-of-island/) (Medio)\n*   [Horario de Cursos](https://leetcode.com/problems/course-schedule/) (Medio)\n*   [Horario de Cursos II](https://leetcode.com/problems/course-schedule-ii/) (Medio)\n\n### 8. Subconjuntos / Backtracking\n*   [Subconjuntos](https://leetcode.com/problems/subsets/) (Medio)\n*   [Subconjuntos II](https://leetcode.com/problems/subsets-ii/) (Medio)\n*   [Permutaciones](https://leetcode.com/problems/permutations/) (Medio)\n*   [Suma de Combinaciones](https://leetcode.com/problems/combination-sum/) (Medio)\n*   [Búsqueda de Palabras](https://leetcode.com/problems/word-search/) (Medio)\n*   [Particionamiento de Palíndromos](https://leetcode.com/problems/palindrome-partitioning/) (Medio)\n*   [N-Reinas](https://leetcode.com/problems/n-queens/) (Difícil)\n\n### 9. Elementos Top K (Montículos)\n*   [K-ésimo Elemento Más Grande en un Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (Medio)\n*   [Elementos Más Frecuentes Top K](https://leetcode.com/problems/top-k-frequent-elements/) (Medio)\n*   [K Puntos Más Cercanos al Origen](https://leetcode.com/problems/k-closest-points-to-origin/) (Medio)\n*   [Combinar k Listas Ordenadas](https://leetcode.com/problems/merge-k-sorted-lists/) (Difícil)\n*   [Encontrar la Mediana de un Flujo de Datos](https://leetcode.com/problems/find-median-from-data-stream/) (Difícil)\n\n### 10. Programación Dinámica (1D y 2D)\n*   [Subir Escaleras](https://leetcode.com/problems/climbing-stairs/) (Fácil)\n*   [Costo Mínimo para Subir Escaleras](https://leetcode.com/problems/min-cost-climbing-stairs/) (Fácil)\n*   [Ladrón de Casas](https://leetcode.com/problems/house-robber/) (Medio)\n*   [Cambio de Monedas](https://leetcode.com/problems/coin-change/) (Medio)\n*   [Subsecuencia Creciente Más Larga](https://leetcode.com/problems/longest-increasing-subsequence/) (Medio)\n*   [Subsecuencia Común Más Larga](https://leetcode.com/problems/longest-common-subsequence/) (Medio)\n*   [Caminos Únicos](https://leetcode.com/problems/unique-paths/) (Medio)\n*   [Romper Palabras](https://leetcode.com/problems/word-break/) (Medio)\n\n---\n*Marca este repositorio y compártelo con tus amigos para ayudarlos a triunfar en sus entrevistas. ¡Buena suerte!*\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GERECo4Qw3MtQY2MgmiH8/0GQINusg65sXVI0QkhXXw=",
+        "originContent": "*   [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (Medium)",
+        "translatedContent": "*   [Ancestro Común Más Bajo de un Árbol Binario](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (Medio)"
+      },
+      {
+        "row": 2,
+        "rowsha": "LbYwCfzORyjMDfBjnUNdkhyyfeNAlJxRhbByd2pR2LE=",
+        "originContent": "*   [Number of Islands](https://leetcode.com/problems/number-of-islands/) (Medium)",
+        "translatedContent": "*   [Número de Islas](https://leetcode.com/problems/number-of-islands/) (Medio)"
+      },
+      {
+        "row": 3,
+        "rowsha": "R/04FnQCpIzd/tzvtWJWsRjHUzmiLg/0BJ9qi11gOGA=",
+        "originContent": "*   [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) (Medium)",
+        "translatedContent": "*   [Área Máxima de una Isla](https://leetcode.com/problems/max-area-of-island/) (Medio)"
+      },
+      {
+        "row": 4,
+        "rowsha": "elpXeEc0r26sfQyHKZLqrptTFIue2tvakc3E7tXA9TQ=",
+        "originContent": "*   [Course Schedule](https://leetcode.com/problems/course-schedule/) (Medium)",
+        "translatedContent": "*   [Horario de Cursos](https://leetcode.com/problems/course-schedule/) (Medio)"
+      },
+      {
+        "row": 5,
+        "rowsha": "tdZLgD98qXlKep+xjfD1spcfqZN+HgGbmsICEZVgmw8=",
+        "originContent": "*   [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Medium)",
+        "translatedContent": "*   [Horario de Cursos II](https://leetcode.com/problems/course-schedule-ii/) (Medio)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FNSCGo22JFr5QKdj7q6yMAzc6Fij5jMlBvBI8BVTvNQ=",
+        "originContent": "### 8. Subsets / Backtracking",
+        "translatedContent": "### 8. Subconjuntos / Backtracking"
+      },
+      {
+        "row": 8,
+        "rowsha": "SCVaGnU0fPx1cfBKP3AFILliECrLztcnJT+0+f7SMwA=",
+        "originContent": "*   [Subsets](https://leetcode.com/problems/subsets/) (Medium)",
+        "translatedContent": "*   [Subconjuntos](https://leetcode.com/problems/subsets/) (Medio)"
+      },
+      {
+        "row": 9,
+        "rowsha": "WsZGAuU3BcIc4AsJC0Gu2BW3uC3ClhgWmNgYSIlUucA=",
+        "originContent": "*   [Subsets II](https://leetcode.com/problems/subsets-ii/) (Medium)",
+        "translatedContent": "*   [Subconjuntos II](https://leetcode.com/problems/subsets-ii/) (Medio)"
+      },
+      {
+        "row": 10,
+        "rowsha": "wB9kxAI4Sb8mepqp99pQW8+uJb53uEujDPRuH6IyYO4=",
+        "originContent": "*   [Permutations](https://leetcode.com/problems/permutations/) (Medium)",
+        "translatedContent": "*   [Permutaciones](https://leetcode.com/problems/permutations/) (Medio)"
+      },
+      {
+        "row": 11,
+        "rowsha": "KHFd2307TIP5vcM8YlsOtSG7Med+HufZtPt0cARk+wk=",
+        "originContent": "*   [Combination Sum](https://leetcode.com/problems/combination-sum/) (Medium)",
+        "translatedContent": "*   [Suma de Combinaciones](https://leetcode.com/problems/combination-sum/) (Medio)"
+      },
+      {
+        "row": 12,
+        "rowsha": "uiwN29TwO0WMmdt4XU2acGoDoTCBPawq/m7B+fuMifo=",
+        "originContent": "*   [Word Search](https://leetcode.com/problems/word-search/) (Medium)",
+        "translatedContent": "*   [Búsqueda de Palabras](https://leetcode.com/problems/word-search/) (Medio)"
+      },
+      {
+        "row": 13,
+        "rowsha": "NIbTnI847NnEIbVQW3EKIB2Wkl7ttopMt7tfDOMBScs=",
+        "originContent": "*   [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) (Medium)",
+        "translatedContent": "*   [Particionamiento de Palíndromos](https://leetcode.com/problems/palindrome-partitioning/) (Medio)"
+      },
+      {
+        "row": 14,
+        "rowsha": "MZkEGSiye5jONqEjbMqt0kfEM91c65L3abOGMn0NsHE=",
+        "originContent": "*   [N-Queens](https://leetcode.com/problems/n-queens/) (Hard)",
+        "translatedContent": "*   [N-Reinas](https://leetcode.com/problems/n-queens/) (Difícil)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "6WKJd9hpoBrrURqguDCFpn2HtiXHb00NVIKFzAQvYJo=",
+        "originContent": "### 9. Top K Elements (Heaps)",
+        "translatedContent": "### 9. Elementos Top K (Montículos)"
+      },
+      {
+        "row": 17,
+        "rowsha": "RM/sSpgJBPGcBrY6q4ycqJ5EIc4oVTLuW5iw66zNOSQ=",
+        "originContent": "*   [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (Medium)",
+        "translatedContent": "*   [K-ésimo Elemento Más Grande en un Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (Medio)"
+      },
+      {
+        "row": 18,
+        "rowsha": "kBzj/HWjEe/5ZSbrfsAtHxP9+JfYI8t7JjlY7NVf8Q4=",
+        "originContent": "*   [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) (Medium)",
+        "translatedContent": "*   [Elementos Más Frecuentes Top K](https://leetcode.com/problems/top-k-frequent-elements/) (Medio)"
+      },
+      {
+        "row": 19,
+        "rowsha": "jpMt+E1EPP2oB4HoFHlvzrchzHuLUggea6E8MesWKVg=",
+        "originContent": "*   [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (Medium)",
+        "translatedContent": "*   [K Puntos Más Cercanos al Origen](https://leetcode.com/problems/k-closest-points-to-origin/) (Medio)"
+      },
+      {
+        "row": 20,
+        "rowsha": "t3lRZc4vVbBv3I3GFxrQeXCtlth0dI6fzEvE+Rixr0Q=",
+        "originContent": "*   [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (Hard)",
+        "translatedContent": "*   [Combinar k Listas Ordenadas](https://leetcode.com/problems/merge-k-sorted-lists/) (Difícil)"
+      },
+      {
+        "row": 21,
+        "rowsha": "EP5USivR0uDSvLSYPvoIpUqqNvnZDwFuo6P2ojuo/dQ=",
+        "originContent": "*   [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (Hard)",
+        "translatedContent": "*   [Encontrar la Mediana de un Flujo de Datos](https://leetcode.com/problems/find-median-from-data-stream/) (Difícil)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "u5JVuE5WGbtWafmsQc1WCYDsbrio6Wz8lvoaanPITYQ=",
+        "originContent": "### 10. Dynamic Programming (1D & 2D)",
+        "translatedContent": "### 10. Programación Dinámica (1D y 2D)"
+      },
+      {
+        "row": 24,
+        "rowsha": "+g/jwgppr/9EGtHXueVkBXFv3RlwvAde/c9OYUTwyAo=",
+        "originContent": "*   [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (Easy)",
+        "translatedContent": "*   [Subir Escaleras](https://leetcode.com/problems/climbing-stairs/) (Fácil)"
+      },
+      {
+        "row": 25,
+        "rowsha": "KOZ2qr7YC+eDM25tqwVR/YGeJeRG8lKNFoG8/C8mjV0=",
+        "originContent": "*   [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) (Easy)",
+        "translatedContent": "*   [Costo Mínimo para Subir Escaleras](https://leetcode.com/problems/min-cost-climbing-stairs/) (Fácil)"
+      },
+      {
+        "row": 26,
+        "rowsha": "CjpwTnzfYyyEECcu64wyX7wPp1DBdO0L0lmfaowR9iQ=",
+        "originContent": "*   [House Robber](https://leetcode.com/problems/house-robber/) (Medium)",
+        "translatedContent": "*   [Ladrón de Casas](https://leetcode.com/problems/house-robber/) (Medio)"
+      },
+      {
+        "row": 27,
+        "rowsha": "LsklKJMn3S3b72g72ZpyQL2PyLtYs1MRrSIVmk4OKY8=",
+        "originContent": "*   [Coin Change](https://leetcode.com/problems/coin-change/) (Medium)",
+        "translatedContent": "*   [Cambio de Monedas](https://leetcode.com/problems/coin-change/) (Medio)"
+      },
+      {
+        "row": 28,
+        "rowsha": "CfSqgnuk5jCxZkocOqPod7xGzY7JvJT/fweNdapSFQE=",
+        "originContent": "*   [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (Medium)",
+        "translatedContent": "*   [Subsecuencia Creciente Más Larga](https://leetcode.com/problems/longest-increasing-subsequence/) (Medio)"
+      },
+      {
+        "row": 29,
+        "rowsha": "5BjptVAktdOpmX5RHHV1DTWmq7Tb3pwuqkQQtc53sbw=",
+        "originContent": "*   [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) (Medium)",
+        "translatedContent": "*   [Subsecuencia Común Más Larga](https://leetcode.com/problems/longest-common-subsequence/) (Medio)"
+      },
+      {
+        "row": 30,
+        "rowsha": "Xd3cXIdWMXBjt0VWsfXHbVcbzf65gUrGi5BUo5XGzmw=",
+        "originContent": "*   [Unique Paths](https://leetcode.com/problems/unique-paths/) (Medium)",
+        "translatedContent": "*   [Caminos Únicos](https://leetcode.com/problems/unique-paths/) (Medio)"
+      },
+      {
+        "row": 31,
+        "rowsha": "jmGfnSnt755DVf8hE+KUqPp0yJApxpzFUDmdzyExcbk=",
+        "originContent": "*   [Word Break](https://leetcode.com/problems/word-break/) (Medium)",
+        "translatedContent": "*   [Romper Palabras](https://leetcode.com/problems/word-break/) (Medio)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 34,
+        "rowsha": "QxKrN1Gik/d4epsxxNn++VMdvH6zulUfXW2APLcSZxw=",
+        "originContent": "*Bookmark this repository, and share it with your friends to help them crush their interviews! Good luck.*",
+        "translatedContent": "*Marca este repositorio y compártelo con tus amigos para ayudarlos a triunfar en sus entrevistas. ¡Buena suerte!*"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

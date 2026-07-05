@@ -1,0 +1,692 @@
+[
+  {
+    "row": 1,
+    "rowsha": "dVtkSdcmMue6rdx0NvMYULa7UUpO/w9L7x/kgYq1A4s=",
+    "originContent": "# 🚀 The 80/20 DSA Interview Playbook",
+    "translatedContent": "# 🚀 80/20 DSA 인터뷰 플레이북"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "NNZvHLWQ8Gur6cJHJ/qFg4nKXaEEhzHcYIqjWx1cAaw=",
+    "originContent": "This is not a list of 500 random problems. This is the **highly curated, zero-BS** collection of the exact Data Structures & Algorithmic patterns that top tech companies (Microsoft, Amazon, Google, Meta, Apple) actually test in their technical rounds.",
+    "translatedContent": "이것은 500개의 무작위 문제 리스트가 아닙니다. 이것은 상위 기술 회사들(마이크로소프트, 아마존, 구글, 메타, 애플)이 실제 기술 면접에서 테스트하는 정확한 데이터 구조 및 알고리즘 패턴을 **엄선하고, 불필요한 내용 없이** 모은 컬렉션입니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "BVa4IGDfrn4frOZvr+9PWKTq0CdOenVg6bj60uJTVj8=",
+    "originContent": "## 🛑 STEP 1: The Core Foundation (Do This First)",
+    "translatedContent": "## 🛑 1단계: 핵심 기초 (먼저 이것을 하세요)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "JrWMjV7dcdsYQ9wQyLmmRrgswp5XR6VWzN598z60+bo=",
+    "originContent": "Before you begin grinding LeetCode, you need to make sure your core logic and data structure fundamentals are rock solid. If your foundational logic is weak, you will struggle to recognize these patterns during a live interview. ",
+    "translatedContent": "LeetCode 문제 풀이를 시작하기 전에, 핵심 논리와 데이터 구조 기초가 탄탄한지 확인해야 합니다. 기초 논리가 약하면 실제 면접에서 이런 패턴을 인식하는 데 어려움을 겪게 됩니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "fZgSFhflnaKxXNnkDnqpRKBLxSJTi8zwf5CVjPbqy38=",
+    "originContent": "Before diving into the patterns below, it is **highly recommended** that you brush up on your core logic using Microsoft's official, 100% free developer training hub.",
+    "translatedContent": "아래 패턴에 뛰어들기 전에, 마이크로소프트의 공식 100% 무료 개발자 교육 허브를 통해 핵심 논리를 복습하는 것을 **강력히 권장**합니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "E2Xk4JorMP7Dj/Xp6FYfwNEO1ed10QQOnQENkVHy/j4=",
+    "originContent": "👉 **[Access the Official Microsoft Developer Training Hub Here (DSA Fundamentals & Logic)](https://learn.microsoft.com/training/?wt.mc_id=studentamb_514816)**",
+    "translatedContent": "👉 **[마이크로소프트 공식 개발자 교육 허브 접속하기 (DSA 기초 및 논리)](https://learn.microsoft.com/training/?wt.mc_id=studentamb_514816)**"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "sJxS42PSrWBerl1WtuDJ/EyPSbKG7pKrQODjnN1aYmw=",
+    "originContent": "*(Do not skip this step if your core fundamentals are rusty. Top companies care more about your underlying logic than your ability to memorize LeetCode solutions.)*",
+    "translatedContent": "*(기초가 약하다면 이 단계를 건너뛰지 마세요. 상위 기업들은 LeetCode 해법 암기 능력보다 근본적인 논리를 더 중요하게 생각합니다.)*"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "30j9O/jXlu+NcCPu07wCTaBn5hbcG22HV2/x9axnDY4=",
+    "originContent": "## 🧠 STEP 2: The Core DSA Patterns (The 80/20 Rule)",
+    "translatedContent": "## 🧠 2단계: 핵심 DSA 패턴 (80/20 법칙)"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "FdIodxd1vxqiFacbZeBpXN79p0QUYMSH0OjIU9bsdpk=",
+    "originContent": "### 1. Sliding Window",
+    "translatedContent": "### 1. 슬라이딩 윈도우"
+  },
+  {
+    "row": 22,
+    "rowsha": "ke2wwRJaPSPjecAP1tkMjR6vF18oZb9/OYBptjGYdwc=",
+    "originContent": "*   [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) (Easy)",
+    "translatedContent": "*   [최대 평균 부분배열 I](https://leetcode.com/problems/maximum-average-subarray-i/) (쉬움)"
+  },
+  {
+    "row": 23,
+    "rowsha": "SNuTBtjOowumDIkm5HU3GLMnnh+CE3TY141x2QokuA8=",
+    "originContent": "*   [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medium)",
+    "translatedContent": "*   [반복 없는 가장 긴 부분 문자열](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (중간)"
+  },
+  {
+    "row": 24,
+    "rowsha": "9baYXmq5R+oyi235qJXlWQEiLd3/AJGIqaY4gm0uS70=",
+    "originContent": "*   [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) (Medium)",
+    "translatedContent": "*   [가장 긴 반복 문자 교체](https://leetcode.com/problems/longest-repeating-character-replacement/) (중간)"
+  },
+  {
+    "row": 25,
+    "rowsha": "I/vFa4/UgJfLF2e7K6KFH4E3Qk+6CZV4fxQv0jUUgqc=",
+    "originContent": "*   [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) (Medium)",
+    "translatedContent": "*   [최대 연속 1의 개수 III](https://leetcode.com/problems/max-consecutive-ones-iii/) (중간)"
+  },
+  {
+    "row": 26,
+    "rowsha": "xPrabqEusqyyKU6D1hB6pG7tcFY822ZXZjcKnexjTTg=",
+    "originContent": "*   [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)",
+    "translatedContent": "*   [과일 바구니](https://leetcode.com/problems/fruit-into-baskets/) (중간)"
+  },
+  {
+    "row": 27,
+    "rowsha": "61x5ucJQRKmcqGkp2vS6oJl9bV6FUZi24hCGIjVaWrQ=",
+    "originContent": "*   [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Hard)",
+    "translatedContent": "*   [최소 윈도우 부분 문자열](https://leetcode.com/problems/minimum-window-substring/) (어려움)"
+  },
+  {
+    "row": 28,
+    "rowsha": "Xnyk60odYzelafXZ4g+bAFdLZaKm9dB6LYTzr1s2QbA=",
+    "originContent": "*   [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) (Hard)",
+    "translatedContent": "*   [슬라이딩 윈도우 최대값](https://leetcode.com/problems/sliding-window-maximum/) (어려움)"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "kDImBWp7cvgfc7XfKy2FGCQZeewqJtRmXw1EcuiGsfo=",
+    "originContent": "### 2. Two Pointers",
+    "translatedContent": "### 2. 두 포인터"
+  },
+  {
+    "row": 31,
+    "rowsha": "dRTeNyZTv+4HoMD9pnXjG2ErBECdb+WoRiVgbh+URfs=",
+    "originContent": "*   [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (Easy)",
+    "translatedContent": "*   [유효한 팰린드롬](https://leetcode.com/problems/valid-palindrome/) (쉬움)"
+  },
+  {
+    "row": 32,
+    "rowsha": "PMhpI/r9CzNhNbSkZ1np81Ov7zH+u5PVRbqOgobqD5c=",
+    "originContent": "*   [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (Medium)",
+    "translatedContent": "*   [두 수 합 II - 입력 배열 정렬됨](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (중간)"
+  },
+  {
+    "row": 33,
+    "rowsha": "nb0CK/APtlqz7MHDX/9mc4K2Rx0KStLamvIVajx6UqY=",
+    "originContent": "*   [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Easy)",
+    "translatedContent": "*   [정렬된 배열에서 중복 제거](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (쉬움)"
+  },
+  {
+    "row": 34,
+    "rowsha": "AXKmO2SscqqHTqAgNd7CWN6nHaSXH6O7THkVmwiJKQg=",
+    "originContent": "*   [3Sum](https://leetcode.com/problems/3sum/) (Medium)",
+    "translatedContent": "*   [3합](https://leetcode.com/problems/3sum/) (중간)"
+  },
+  {
+    "row": 35,
+    "rowsha": "zWG1rJfAiKkXwqtxn0jz2Wk5O29jRU1gZjroWf41+u0=",
+    "originContent": "*   [4Sum](https://leetcode.com/problems/4sum/) (Medium)",
+    "translatedContent": "*   [4합](https://leetcode.com/problems/4sum/) (중간)"
+  },
+  {
+    "row": 36,
+    "rowsha": "DHADZ2byBuw4A5kPn5GL/fqieV3Xak2tJQeKYqffubI=",
+    "originContent": "*   [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium)",
+    "translatedContent": "*   [가장 많은 물을 담을 수 있는 용기](https://leetcode.com/problems/container-with-most-water/) (중간)"
+  },
+  {
+    "row": 37,
+    "rowsha": "9MUlDqBusBdu0SW2G+Hga8td1ZcJImSNud611IebLNE=",
+    "originContent": "*   [Sort Colors](https://leetcode.com/problems/sort-colors/) (Medium)",
+    "translatedContent": "*   [색깔 정렬](https://leetcode.com/problems/sort-colors/) (중간)"
+  },
+  {
+    "row": 38,
+    "rowsha": "N1q5zbHwD3ERQcM9PjFINMU/TBN+dHENwzYT5Estz/4=",
+    "originContent": "*   [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Hard)",
+    "translatedContent": "*   [빗물 트래핑](https://leetcode.com/problems/trapping-rain-water/) (어려움)"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "SrcSP3lf+fMjtR4y4plFY4YfEeCVbpfNLhV1VjfaGx8=",
+    "originContent": "### 3. Fast & Slow Pointers",
+    "translatedContent": "### 3. 빠른 & 느린 포인터"
+  },
+  {
+    "row": 41,
+    "rowsha": "L9IblQOY43GYlET7nQ2CHXCa9xV0Eovo38Uq03NqUM0=",
+    "originContent": "*   [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (Easy)",
+    "translatedContent": "*   [연결 리스트 사이클](https://leetcode.com/problems/linked-list-cycle/) (쉬움)"
+  },
+  {
+    "row": 42,
+    "rowsha": "h7Ln/lsoR6R6bAzuxaERXl/cZMbZP+CesrJFuzC0BEI=",
+    "originContent": "*   [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy)",
+    "translatedContent": "*   [연결 리스트의 중간 노드](https://leetcode.com/problems/middle-of-the-linked-list/) (쉬움)"
+  },
+  {
+    "row": 43,
+    "rowsha": "VWlPLfLU11XIBKDMguKknZjsQJjUmyAV9cZ4rurITPc=",
+    "originContent": "*   [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) (Easy)",
+    "translatedContent": "*   [팰린드롬 연결 리스트](https://leetcode.com/problems/palindrome-linked-list/) (쉬움)"
+  },
+  {
+    "row": 44,
+    "rowsha": "0bMIKiSejtP5Z1ZZVE3U1sdbZHAORFWqE4YjGK4kZ5I=",
+    "originContent": "*   [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) (Medium)",
+    "translatedContent": "*   [중복 숫자 찾기](https://leetcode.com/problems/find-the-duplicate-number/) (보통)"
+  },
+  {
+    "row": 45,
+    "rowsha": "RR5e0k8wh1s6kCpkQp6nlpnIB54iRU5QhaYLsccPUT0=",
+    "originContent": "*   [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) (Medium)",
+    "translatedContent": "*   [연결 리스트 사이클 II](https://leetcode.com/problems/linked-list-cycle-ii/) (보통)"
+  },
+  {
+    "row": 46,
+    "rowsha": "p47lKnTP50ryPltMgqlWjv4lrn9KkQLGgaLoEDoLwL8=",
+    "originContent": "*   [Reorder List](https://leetcode.com/problems/reorder-list/) (Medium)",
+    "translatedContent": "*   [리스트 재정렬](https://leetcode.com/problems/reorder-list/) (보통)"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "iBqGnxnupet54fPKLk83QhyXYnnsGp5k3O35tHNCBFw=",
+    "originContent": "### 4. Merge Intervals",
+    "translatedContent": "### 4. 구간 합치기"
+  },
+  {
+    "row": 49,
+    "rowsha": "TkV/ldX0cFpMqsupgUO8QhiKjjjM2uKDhfwttTg8XvQ=",
+    "originContent": "*   [Merge Intervals](https://leetcode.com/problems/merge-intervals/) (Medium)",
+    "translatedContent": "*   [구간 합치기](https://leetcode.com/problems/merge-intervals/) (보통)"
+  },
+  {
+    "row": 50,
+    "rowsha": "IUTPz2rZ+XsprXAGHYBRRcqHhz+pFqlxgR355iD3D6c=",
+    "originContent": "*   [Insert Interval](https://leetcode.com/problems/insert-interval/) (Medium)",
+    "translatedContent": "*   [구간 삽입](https://leetcode.com/problems/insert-interval/) (보통)"
+  },
+  {
+    "row": 51,
+    "rowsha": "IxdW9zAsV4BGAstGvFMbaWTLxBttwAdk5t075uKQRs0=",
+    "originContent": "*   [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) (Medium)",
+    "translatedContent": "*   [겹치지 않는 구간](https://leetcode.com/problems/non-overlapping-intervals/) (보통)"
+  },
+  {
+    "row": 52,
+    "rowsha": "HytHuVUgleDnzd3e5uXLBRyS6CZTBLoTt6IyAk6Sya0=",
+    "originContent": "*   [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) (Easy) *(Premium)*",
+    "translatedContent": "*   [회의실](https://leetcode.com/problems/meeting-rooms/) (쉬움) *(프리미엄)*"
+  },
+  {
+    "row": 53,
+    "rowsha": "CsvbedlT1negHQuv9Jn2tmju+svO5MdyFskMQBpXCV4=",
+    "originContent": "*   [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) (Medium) *(Premium)*",
+    "translatedContent": "*   [회의실 II](https://leetcode.com/problems/meeting-rooms-ii/) (보통) *(프리미엄)*"
+  },
+  {
+    "row": 54,
+    "rowsha": "V18jGiRyWZABeoOmvbF3hhWp/iRsdSyI1Him+WWWeck=",
+    "originContent": "*   [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) (Medium)",
+    "translatedContent": "*   [풍선 터뜨리는 최소 화살 개수](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) (보통)"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "ZetCEtk/gdC2pN64tSpPXcN7PBPe5SzDHJiRqGK/HKc=",
+    "originContent": "### 5. Binary Search (Modified)",
+    "translatedContent": "### 5. 이진 탐색 (변형)"
+  },
+  {
+    "row": 57,
+    "rowsha": "pxGmsdtrY2/Wy/2hGQvOYvI/QMDRT79OT8+KA5oPH7Y=",
+    "originContent": "*   [Binary Search](https://leetcode.com/problems/binary-search/) (Easy)",
+    "translatedContent": "*   [이진 탐색](https://leetcode.com/problems/binary-search/) (쉬움)"
+  },
+  {
+    "row": 58,
+    "rowsha": "VeFLGoA5s7cxrxOuFSOsjKKW0Bw34b88QjqrHdB1F8s=",
+    "originContent": "*   [Search Insert Position](https://leetcode.com/problems/search-insert-position/) (Easy)",
+    "translatedContent": "*   [삽입 위치 찾기](https://leetcode.com/problems/search-insert-position/) (쉬움)"
+  },
+  {
+    "row": 59,
+    "rowsha": "s3CijHPG/hwksojko5nDz+HJcY4xZS+oZPRqXMgwDXY=",
+    "originContent": "*   [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (Medium)",
+    "translatedContent": "*   [정렬된 배열에서 원소의 첫 번째와 마지막 위치 찾기](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (보통)"
+  },
+  {
+    "row": 60,
+    "rowsha": "Gk/+8mECdxNohrwclp/s5Ms6ADfVAlp/XqY78TjsQkE=",
+    "originContent": "*   [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (Medium)",
+    "translatedContent": "*   [회전된 정렬 배열에서 탐색](https://leetcode.com/problems/search-in-rotated-sorted-array/) (보통)"
+  },
+  {
+    "row": 61,
+    "rowsha": "NjwmhsL4zKbb80+5dU634QEq5S8Tsrgdi6aZm4MIeDg=",
+    "originContent": "*   [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (Medium)",
+    "translatedContent": "*   [회전된 정렬 배열에서 최솟값 찾기](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (보통)"
+  },
+  {
+    "row": 62,
+    "rowsha": "us9lbdrUrE1PbSKVpb6uWaf+dX40SorkriSHICG6N9U=",
+    "originContent": "*   [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) (Medium)",
+    "translatedContent": "*   [2차원 행렬 탐색](https://leetcode.com/problems/search-a-2d-matrix/) (보통)"
+  },
+  {
+    "row": 63,
+    "rowsha": "w8LKYojBTCc7opagvtZg7Xlfx5U1Y4m9tf+R8yPAhoM=",
+    "originContent": "*   [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) (Medium)",
+    "translatedContent": "*   [코코의 바나나 먹기](https://leetcode.com/problems/koko-eating-bananas/) (보통)"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "2ye+70qCjfZq0Xq3gdT3Bhjz1O1FG+Opa1yGeaKZ8Vo=",
+    "originContent": "## 🌳 STEP 3: Advanced Structures",
+    "translatedContent": "## 🌳 단계 3: 고급 자료구조"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "5ThY1OXMQ+H1irSYYdRtR6Bm8XitUr3ix+wMLqrlCRc=",
+    "originContent": "### 6. Tree / Graph BFS",
+    "translatedContent": "### 6. 트리 / 그래프 BFS"
+  },
+  {
+    "row": 70,
+    "rowsha": "wSvd+ZQdjY7hWH1qyhQu+5Yk5GlTLsTqUJu/CVsL16g=",
+    "originContent": "*   [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (Medium)",
+    "translatedContent": "*   [이진 트리 레벨 순회](https://leetcode.com/problems/binary-tree-level-order-traversal/) (보통)"
+  },
+  {
+    "row": 71,
+    "rowsha": "pt/0QNMRsjCXAqSJVFoquYVsSUvjlS1br4TprVyHORo=",
+    "originContent": "*   [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (Medium)",
+    "translatedContent": "*   [이진 트리 오른쪽 시야](https://leetcode.com/problems/binary-tree-right-side-view/) (보통)"
+  },
+  {
+    "row": 72,
+    "rowsha": "zh8bFwm8rFgVcVKWCtdNikOmdLxJZWLWQbNwIMVIEwA=",
+    "originContent": "*   [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medium)",
+    "translatedContent": "*   [이진 트리 지그재그 레벨 순회](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (보통)"
+  },
+  {
+    "row": 73,
+    "rowsha": "2eTsEveMvPxgJRaSUqT3rXrKxzAE1mAPyItwtZrz+Qo=",
+    "originContent": "*   [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) (Medium)",
+    "translatedContent": "*   [썩은 오렌지](https://leetcode.com/problems/rotting-oranges/) (보통)"
+  },
+  {
+    "row": 74,
+    "rowsha": "ZyDmwDmnrFaA4DTxf8X7J42DhvqnceirH99K0RpbGy4=",
+    "originContent": "*   [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (Medium)",
+    "translatedContent": "*   [각 노드의 다음 오른쪽 포인터 채우기](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) (보통)"
+  },
+  {
+    "row": 75,
+    "rowsha": "gBjuE5nOI6WSrty1naGQ40YQRfpBwDuyYl44MSH3+vM=",
+    "originContent": "*   [Word Ladder](https://leetcode.com/problems/word-ladder/) (Hard)",
+    "translatedContent": "*   [단어 사다리](https://leetcode.com/problems/word-ladder/) (어려움)"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "h5AU4vxbDUb7f1v21a/GQW+5GOvjMMzMBGdbCzY8v7E=",
+    "originContent": "### 7. Tree / Graph DFS",
+    "translatedContent": "### 7. 트리 / 그래프 DFS"
+  },
+  {
+    "row": 78,
+    "rowsha": "rZiHGRauLJsCX+5OKhgBxFj3XVXf2USVraiVPjVaJ3M=",
+    "originContent": "*   [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (Easy)",
+    "translatedContent": "*   [이진 트리 최대 깊이](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (쉬움)"
+  },
+  {
+    "row": 79,
+    "rowsha": "ueyYVFRS4LH8pka6xmFOnNMmv7008dIgIdtZr5KT4HM=",
+    "originContent": "*   [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Easy)",
+    "translatedContent": "*   [이진 트리 뒤집기](https://leetcode.com/problems/invert-binary-tree/) (쉬움)"
+  },
+  {
+    "row": 80,
+    "rowsha": "+DetRVkasjl7mZdkSX2mxGunazfgJm21r9lTHW82c6w=",
+    "originContent": "*   [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (Easy)",
+    "translatedContent": "*   [이진 트리 지름](https://leetcode.com/problems/diameter-of-binary-tree/) (쉬움)"
+  },
+  {
+    "row": 81,
+    "rowsha": "GERECo4Qw3MtQY2MgmiH8/0GQINusg65sXVI0QkhXXw=",
+    "originContent": "*   [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (Medium)",
+    "translatedContent": "*   [이진 트리의 최저 공통 조상](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (중간)"
+  },
+  {
+    "row": 82,
+    "rowsha": "LbYwCfzORyjMDfBjnUNdkhyyfeNAlJxRhbByd2pR2LE=",
+    "originContent": "*   [Number of Islands](https://leetcode.com/problems/number-of-islands/) (Medium)",
+    "translatedContent": "*   [섬의 개수](https://leetcode.com/problems/number-of-islands/) (중간)"
+  },
+  {
+    "row": 83,
+    "rowsha": "R/04FnQCpIzd/tzvtWJWsRjHUzmiLg/0BJ9qi11gOGA=",
+    "originContent": "*   [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) (Medium)",
+    "translatedContent": "*   [섬의 최대 면적](https://leetcode.com/problems/max-area-of-island/) (중간)"
+  },
+  {
+    "row": 84,
+    "rowsha": "elpXeEc0r26sfQyHKZLqrptTFIue2tvakc3E7tXA9TQ=",
+    "originContent": "*   [Course Schedule](https://leetcode.com/problems/course-schedule/) (Medium)",
+    "translatedContent": "*   [강의 계획서](https://leetcode.com/problems/course-schedule/) (중간)"
+  },
+  {
+    "row": 85,
+    "rowsha": "tdZLgD98qXlKep+xjfD1spcfqZN+HgGbmsICEZVgmw8=",
+    "originContent": "*   [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Medium)",
+    "translatedContent": "*   [강의 계획서 II](https://leetcode.com/problems/course-schedule-ii/) (중간)"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "FNSCGo22JFr5QKdj7q6yMAzc6Fij5jMlBvBI8BVTvNQ=",
+    "originContent": "### 8. Subsets / Backtracking",
+    "translatedContent": "### 8. 부분 집합 / 백트래킹"
+  },
+  {
+    "row": 88,
+    "rowsha": "SCVaGnU0fPx1cfBKP3AFILliECrLztcnJT+0+f7SMwA=",
+    "originContent": "*   [Subsets](https://leetcode.com/problems/subsets/) (Medium)",
+    "translatedContent": "*   [부분 집합](https://leetcode.com/problems/subsets/) (중간)"
+  },
+  {
+    "row": 89,
+    "rowsha": "WsZGAuU3BcIc4AsJC0Gu2BW3uC3ClhgWmNgYSIlUucA=",
+    "originContent": "*   [Subsets II](https://leetcode.com/problems/subsets-ii/) (Medium)",
+    "translatedContent": "*   [부분 집합 II](https://leetcode.com/problems/subsets-ii/) (중간)"
+  },
+  {
+    "row": 90,
+    "rowsha": "wB9kxAI4Sb8mepqp99pQW8+uJb53uEujDPRuH6IyYO4=",
+    "originContent": "*   [Permutations](https://leetcode.com/problems/permutations/) (Medium)",
+    "translatedContent": "*   [순열](https://leetcode.com/problems/permutations/) (중간)"
+  },
+  {
+    "row": 91,
+    "rowsha": "KHFd2307TIP5vcM8YlsOtSG7Med+HufZtPt0cARk+wk=",
+    "originContent": "*   [Combination Sum](https://leetcode.com/problems/combination-sum/) (Medium)",
+    "translatedContent": "*   [조합 합](https://leetcode.com/problems/combination-sum/) (중간)"
+  },
+  {
+    "row": 92,
+    "rowsha": "uiwN29TwO0WMmdt4XU2acGoDoTCBPawq/m7B+fuMifo=",
+    "originContent": "*   [Word Search](https://leetcode.com/problems/word-search/) (Medium)",
+    "translatedContent": "*   [단어 찾기](https://leetcode.com/problems/word-search/) (중간)"
+  },
+  {
+    "row": 93,
+    "rowsha": "NIbTnI847NnEIbVQW3EKIB2Wkl7ttopMt7tfDOMBScs=",
+    "originContent": "*   [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) (Medium)",
+    "translatedContent": "*   [팰린드롬 분할](https://leetcode.com/problems/palindrome-partitioning/) (중간)"
+  },
+  {
+    "row": 94,
+    "rowsha": "MZkEGSiye5jONqEjbMqt0kfEM91c65L3abOGMn0NsHE=",
+    "originContent": "*   [N-Queens](https://leetcode.com/problems/n-queens/) (Hard)",
+    "translatedContent": "*   [N-퀸](https://leetcode.com/problems/n-queens/) (어려움)"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "6WKJd9hpoBrrURqguDCFpn2HtiXHb00NVIKFzAQvYJo=",
+    "originContent": "### 9. Top K Elements (Heaps)",
+    "translatedContent": "### 9. 상위 K개 요소 (힙)"
+  },
+  {
+    "row": 97,
+    "rowsha": "RM/sSpgJBPGcBrY6q4ycqJ5EIc4oVTLuW5iw66zNOSQ=",
+    "originContent": "*   [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (Medium)",
+    "translatedContent": "*   [배열에서 K번째 큰 요소](https://leetcode.com/problems/kth-largest-element-in-an-array/) (중간)"
+  },
+  {
+    "row": 98,
+    "rowsha": "kBzj/HWjEe/5ZSbrfsAtHxP9+JfYI8t7JjlY7NVf8Q4=",
+    "originContent": "*   [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) (Medium)",
+    "translatedContent": "*   [가장 자주 등장하는 상위 K개 요소](https://leetcode.com/problems/top-k-frequent-elements/) (중간)"
+  },
+  {
+    "row": 99,
+    "rowsha": "jpMt+E1EPP2oB4HoFHlvzrchzHuLUggea6E8MesWKVg=",
+    "originContent": "*   [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (Medium)",
+    "translatedContent": "*   [원점에 가장 가까운 K개 점](https://leetcode.com/problems/k-closest-points-to-origin/) (중간)"
+  },
+  {
+    "row": 100,
+    "rowsha": "t3lRZc4vVbBv3I3GFxrQeXCtlth0dI6fzEvE+Rixr0Q=",
+    "originContent": "*   [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (Hard)",
+    "translatedContent": "*   [K개의 정렬된 리스트 병합](https://leetcode.com/problems/merge-k-sorted-lists/) (어려움)"
+  },
+  {
+    "row": 101,
+    "rowsha": "EP5USivR0uDSvLSYPvoIpUqqNvnZDwFuo6P2ojuo/dQ=",
+    "originContent": "*   [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (Hard)",
+    "translatedContent": "*   [데이터 스트림에서 중앙값 찾기](https://leetcode.com/problems/find-median-from-data-stream/) (어려움)"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "u5JVuE5WGbtWafmsQc1WCYDsbrio6Wz8lvoaanPITYQ=",
+    "originContent": "### 10. Dynamic Programming (1D & 2D)",
+    "translatedContent": "### 10. 동적 계획법 (1D & 2D)"
+  },
+  {
+    "row": 104,
+    "rowsha": "+g/jwgppr/9EGtHXueVkBXFv3RlwvAde/c9OYUTwyAo=",
+    "originContent": "*   [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (Easy)",
+    "translatedContent": "*   [계단 오르기](https://leetcode.com/problems/climbing-stairs/) (쉬움)"
+  },
+  {
+    "row": 105,
+    "rowsha": "KOZ2qr7YC+eDM25tqwVR/YGeJeRG8lKNFoG8/C8mjV0=",
+    "originContent": "*   [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) (Easy)",
+    "translatedContent": "*   [최소 비용 계단 오르기](https://leetcode.com/problems/min-cost-climbing-stairs/) (쉬움)"
+  },
+  {
+    "row": 106,
+    "rowsha": "CjpwTnzfYyyEECcu64wyX7wPp1DBdO0L0lmfaowR9iQ=",
+    "originContent": "*   [House Robber](https://leetcode.com/problems/house-robber/) (Medium)",
+    "translatedContent": "*   [도둑질 문제](https://leetcode.com/problems/house-robber/) (중간)"
+  },
+  {
+    "row": 107,
+    "rowsha": "LsklKJMn3S3b72g72ZpyQL2PyLtYs1MRrSIVmk4OKY8=",
+    "originContent": "*   [Coin Change](https://leetcode.com/problems/coin-change/) (Medium)",
+    "translatedContent": "*   [동전 교환](https://leetcode.com/problems/coin-change/) (중간)"
+  },
+  {
+    "row": 108,
+    "rowsha": "CfSqgnuk5jCxZkocOqPod7xGzY7JvJT/fweNdapSFQE=",
+    "originContent": "*   [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (Medium)",
+    "translatedContent": "*   [최장 증가 부분 수열](https://leetcode.com/problems/longest-increasing-subsequence/) (중간)"
+  },
+  {
+    "row": 109,
+    "rowsha": "5BjptVAktdOpmX5RHHV1DTWmq7Tb3pwuqkQQtc53sbw=",
+    "originContent": "*   [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) (Medium)",
+    "translatedContent": "*   [최장 공통 부분 수열](https://leetcode.com/problems/longest-common-subsequence/) (중간)"
+  },
+  {
+    "row": 110,
+    "rowsha": "Xd3cXIdWMXBjt0VWsfXHbVcbzf65gUrGi5BUo5XGzmw=",
+    "originContent": "*   [Unique Paths](https://leetcode.com/problems/unique-paths/) (Medium)",
+    "translatedContent": "*   [유일한 경로](https://leetcode.com/problems/unique-paths/) (중간)"
+  },
+  {
+    "row": 111,
+    "rowsha": "jmGfnSnt755DVf8hE+KUqPp0yJApxpzFUDmdzyExcbk=",
+    "originContent": "*   [Word Break](https://leetcode.com/problems/word-break/) (Medium)",
+    "translatedContent": "*   [단어 분할](https://leetcode.com/problems/word-break/) (중간)"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 114,
+    "rowsha": "QxKrN1Gik/d4epsxxNn++VMdvH6zulUfXW2APLcSZxw=",
+    "originContent": "*Bookmark this repository, and share it with your friends to help them crush their interviews! Good luck.*",
+    "translatedContent": "*이 저장소를 즐겨찾기에 추가하고 친구들과 공유하여 면접 준비에 도움을 주세요! 행운을 빕니다.*"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
