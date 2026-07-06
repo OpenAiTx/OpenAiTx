@@ -1,0 +1,595 @@
+[
+  {
+    "Id": 1,
+    "Content": "# SQLite Online\n\n<div align=\"center\">\n  <a href=\"https://yzua.github.io/sqlite-online/\">\n    <img\n      src=\"https://github.com/user-attachments/assets/aef749bf-df08-4a84-8148-d34b796449d8\"\n      alt=\"SQLite Online Logo\"\n      width=\"128\"\n    />\n  </a>\n</div>\n\nA client-side SQLite editor built with React, TypeScript, Vite, and `sql.js`.\nIt runs in the browser, initializes a demo database by default, and can open\nlocal SQLite files without a backend.\n\n## Overview\n\n- **Open local `.db`, `.sqlite`, and `.sqlite3` files**\n- **Create and modify tables, views, and indexes with SQL**\n- **Browse, filter, sort, paginate, add, edit, and delete rows**\n- **Run custom SQL and export results as CSV**\n\nMost database work runs locally in the browser through WebAssembly and a web\nworker. Optional features such as URL loading, the CORS proxy fallback, Google\nFonts, and Gemini-powered query generation use network requests.\n\n## Features\n\n- **Local-first database editing:** open files from disk, drag and drop a\n  database into the page, and download the current database as\n  `database.sqlite`.\n- **Schema and data workflows:** inspect schema, browse table data, edit rows,\n  insert new rows, delete rows, and execute custom SQL statements.\n- **CSV export paths:** export an entire table, the current table page, or the\n  current custom query result set as CSV.\n- **Additional UX features:** dark mode, high-contrast mode, keyboard\n  shortcuts, skip links, and live regions for accessibility.\n- **Optional integrations:** load a database from a `?url=` query parameter and\n  generate SQL from `/ai ...` prompts after configuring a Gemini API key.",
+    "ContentSha": "05kgn3Mk3d4oRbPReaCiN7uzZu1yoSTLpGuWmTxAaNo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# SQLite 在线版\n\n<div align=\"center\">\n  <a href=\"https://yzua.github.io/sqlite-online/\">\n    <img\n      src=\"https://github.com/user-attachments/assets/aef749bf-df08-4a84-8148-d34b796449d8\"\n      alt=\"SQLite 在线版标志\"\n      width=\"128\"\n    />\n  </a>\n</div>\n\n一个基于 React、TypeScript、Vite 和 `sql.js` 构建的客户端 SQLite 编辑器。  \n它运行在浏览器中，默认初始化一个演示数据库，并且可以打开本地 SQLite 文件，无需后端支持。\n\n## 概述\n\n- **打开本地 `.db`、`.sqlite` 和 `.sqlite3` 文件**\n- **使用 SQL 创建和修改表、视图和索引**\n- **浏览、筛选、排序、分页、添加、编辑和删除行**\n- **运行自定义 SQL 并导出结果为 CSV**\n\n大部分数据库操作在浏览器中通过 WebAssembly 和 web worker 本地运行。  \n可选功能如 URL 加载、CORS 代理回退、Google 字体和 Gemini 驱动的查询生成使用网络请求。\n\n## 功能\n\n- **本地优先的数据库编辑：**从磁盘打开文件，将数据库拖放到页面中，并下载当前数据库为  \n  `database.sqlite`。\n- **模式和数据工作流：**查看模式、浏览表数据、编辑行、插入新行、删除行以及执行自定义 SQL 语句。\n- **CSV 导出路径：**导出整张表、当前表页或当前自定义查询结果集为 CSV。\n- **附加用户体验功能：**暗黑模式、高对比度模式、键盘快捷键、跳过链接和无障碍的实时区域。\n- **可选集成：**从 `?url=` 查询参数加载数据库，配置 Gemini API 密钥后通过 `/ai ...` 提示生成 SQL。\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PV11ZcVOJGq387lu3wfmB0ZQyoDPafBiFQAPdD2rNZI=",
+        "originContent": "# SQLite Online",
+        "translatedContent": "# SQLite 在线版"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZwUq9lmGUMI5/u0BAOTfEqkSPBwdkU7MoxxWaT2GzD0=",
+        "originContent": "  <a href=\"https://yzua.github.io/sqlite-online/\">",
+        "translatedContent": "  <a href=\"https://yzua.github.io/sqlite-online/\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gr0pZELN7XcHINLmuDAsJbCMgRyGnADCGXiCrqJDlk4=",
+        "originContent": "    <img",
+        "translatedContent": "    <img"
+      },
+      {
+        "row": 6,
+        "rowsha": "60ZuNSyUh9CrQiz4Jy5+skRbkbofukoGwj8V4suHJFQ=",
+        "originContent": "      src=\"https://github.com/user-attachments/assets/aef749bf-df08-4a84-8148-d34b796449d8\"",
+        "translatedContent": "      src=\"https://github.com/user-attachments/assets/aef749bf-df08-4a84-8148-d34b796449d8\""
+      },
+      {
+        "row": 7,
+        "rowsha": "XzA4UqRx45R8wuzVoE/cdSt0XAe14sRgu4Wwi+kqsps=",
+        "originContent": "      alt=\"SQLite Online Logo\"",
+        "translatedContent": "      alt=\"SQLite 在线版标志\""
+      },
+      {
+        "row": 8,
+        "rowsha": "Zt5FnpiOiI7J0AAgrRja34XePxLr2z6TMdwiiyWCYio=",
+        "originContent": "      width=\"128\"",
+        "translatedContent": "      width=\"128\""
+      },
+      {
+        "row": 9,
+        "rowsha": "t1z5EXV6ILLG9CsfTGp9vgc9Q8QGq69au2IRyL8Zpl8=",
+        "originContent": "    />",
+        "translatedContent": "    />"
+      },
+      {
+        "row": 10,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "MIFTBs9+YT+QWR3WfuzcOwoU49EtpXXJxX1bqlBKyN8=",
+        "originContent": "A client-side SQLite editor built with React, TypeScript, Vite, and `sql.js`.",
+        "translatedContent": "一个基于 React、TypeScript、Vite 和 `sql.js` 构建的客户端 SQLite 编辑器。  "
+      },
+      {
+        "row": 14,
+        "rowsha": "rw2ptl5MpdJungsQsHRllwhJcUY7VJuL6rOhvoPZFA8=",
+        "originContent": "It runs in the browser, initializes a demo database by default, and can open",
+        "translatedContent": "它运行在浏览器中，默认初始化一个演示数据库，并且可以打开本地 SQLite 文件，无需后端支持。"
+      },
+      {
+        "row": 15,
+        "rowsha": "gNx+WVVWZc6ruuyC2cjBKAu6/SjBQbR/0f7gGRlKwxY=",
+        "originContent": "local SQLite files without a backend.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 概述"
+      },
+      {
+        "row": 17,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **打开本地 `.db`、`.sqlite` 和 `.sqlite3` 文件**"
+      },
+      {
+        "row": 19,
+        "rowsha": "xrW7ImjLOi0awYd6HIYQePFFyQMl2nspyocitwzyDz0=",
+        "originContent": "- **Open local `.db`, `.sqlite`, and `.sqlite3` files**",
+        "translatedContent": "- **使用 SQL 创建和修改表、视图和索引**"
+      },
+      {
+        "row": 20,
+        "rowsha": "S0P0UvHCvIXwkE1Qu1ANoNBnttvgL2K1XvIZNt8/PKU=",
+        "originContent": "- **Create and modify tables, views, and indexes with SQL**",
+        "translatedContent": "- **浏览、筛选、排序、分页、添加、编辑和删除行**"
+      },
+      {
+        "row": 21,
+        "rowsha": "/rVJgVqf2TjqGCJAvUaei9GTYbIwLVmgQXCB+HSZVss=",
+        "originContent": "- **Browse, filter, sort, paginate, add, edit, and delete rows**",
+        "translatedContent": "- **运行自定义 SQL 并导出结果为 CSV**"
+      },
+      {
+        "row": 22,
+        "rowsha": "Nc4Fg5sUkjlcC/XCVv8w7z8iVFbcFaWTI6qjRcyiSQM=",
+        "originContent": "- **Run custom SQL and export results as CSV**",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "大部分数据库操作在浏览器中通过 WebAssembly 和 web worker 本地运行。  "
+      },
+      {
+        "row": 24,
+        "rowsha": "co9p+mpyRovUCF96VIRAb+t95qzgOawBzpGHi/KhiMQ=",
+        "originContent": "Most database work runs locally in the browser through WebAssembly and a web",
+        "translatedContent": "可选功能如 URL 加载、CORS 代理回退、Google 字体和 Gemini 驱动的查询生成使用网络请求。"
+      },
+      {
+        "row": 25,
+        "rowsha": "ACgf4LzCHyBZpQcfzBhfbCaT7Y8pOdVgBz5zXTABKtI=",
+        "originContent": "worker. Optional features such as URL loading, the CORS proxy fallback, Google",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Z4pUjGtMVc1mwBltU1i6mrXdKZLCMcdyWhcB+vyDunE=",
+        "originContent": "Fonts, and Gemini-powered query generation use network requests.",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "- **本地优先的数据库编辑：**从磁盘打开文件，将数据库拖放到页面中，并下载当前数据库为  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  `database.sqlite`。"
+      },
+      {
+        "row": 30,
+        "rowsha": "vQkL6JsYWqJrYaH5FQrQ1MYlT8DS8VjsyjjMlGkGD7o=",
+        "originContent": "- **Local-first database editing:** open files from disk, drag and drop a",
+        "translatedContent": "- **模式和数据工作流：**查看模式、浏览表数据、编辑行、插入新行、删除行以及执行自定义 SQL 语句。"
+      },
+      {
+        "row": 31,
+        "rowsha": "sY0S0ieq5gB3PQRkk3ylQJrJUon8LQApKak6UgWyG4I=",
+        "originContent": "  database into the page, and download the current database as",
+        "translatedContent": "- **CSV 导出路径：**导出整张表、当前表页或当前自定义查询结果集为 CSV。"
+      },
+      {
+        "row": 32,
+        "rowsha": "oKxATVmFhM0RwQEEELj1ts6zcyQ5qZYH09uMcMHZAsk=",
+        "originContent": "  `database.sqlite`.",
+        "translatedContent": "- **附加用户体验功能：**暗黑模式、高对比度模式、键盘快捷键、跳过链接和无障碍的实时区域。"
+      },
+      {
+        "row": 33,
+        "rowsha": "xe/8d+AkIsdwvIyo5EiCdg2o3ISGN55aA8/UivgbDwA=",
+        "originContent": "- **Schema and data workflows:** inspect schema, browse table data, edit rows,",
+        "translatedContent": "- **可选集成：**从 `?url=` 查询参数加载数据库，配置 Gemini API 密钥后通过 `/ai ...` 提示生成 SQL。"
+      },
+      {
+        "row": 34,
+        "rowsha": "OaKz1c/2cpwUV79OHu9+Lytclwurl0C5L1OPz8FgWg8=",
+        "originContent": "  insert new rows, delete rows, and execute custom SQL statements.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "SCyRsU3xBs9uATjIeYxP3YFu21S8+JdQDCfkHiBfh30=",
+        "originContent": "- **CSV export paths:** export an entire table, the current table page, or the",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "UwzaNeF0VTUizf4EGlMDbJGReAD33IGx4JF8PBgKRN4=",
+        "originContent": "  current custom query result set as CSV.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "jT5pJ0Wsu2dE6UXqZ/T65PTeMuap8fOUty9h5samI88=",
+        "originContent": "- **Additional UX features:** dark mode, high-contrast mode, keyboard",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "TkfULDQ1Dp343XQ4zOisng469A4FCwb3IoEBj26KzkY=",
+        "originContent": "  shortcuts, skip links, and live regions for accessibility.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "OBZDqKE8yJLylbTQ7gZciFS+oAumRNdhVmPxy9blYLc=",
+        "originContent": "- **Optional integrations:** load a database from a `?url=` query parameter and",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "q/tjbHRrZuAPAd1fvxw0JT8MEZePDPkNkwvw7tCRXl4=",
+        "originContent": "  generate SQL from `/ai ...` prompts after configuring a Gemini API key.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## Development\n",
+    "ContentSha": "gmEZCy0pZ9RfvPNwRhEyu85Rf5cdr+x1B6YQoLz3e40=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 开发\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## 开发"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\nnpm install\nnpm run dev\n```",
+    "ContentSha": "ZtfJJKc+kYhK97dbNbXdERpijlRw+KKmOoZaW9SYU4s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install\nnpm run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+        "originContent": "npm run dev",
+        "translatedContent": "npm run dev"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nUseful project commands:\n\n- `npm run build`\n- `npm run build:pages`\n- `npm run typecheck`\n- `npm run check`\n- `npm run check:fix`\n- `npm run doctor`\n- `npm run preview`\n- `npm run preview:pages`\n- `npm run lint`\n- `npm run lint:fix`\n- `npm run format`\n- `npm run format:check`\n- `npm test`\n- `npm run test:watch`\n- `npm run knip`\n- `npm run deploy`\n\n## Keyboard Shortcuts (Hotkeys)\n\nStreamline your workflow with these built-in hotkeys:\n\n| Shortcut              | Action                      |\n| --------------------- | --------------------------- |\n| **Ctrl + s**          | Download the database       |\n| **Ctrl + ArrowRight** | Go to the next page         |\n| **Ctrl + ArrowUp**    | Jump to the first page      |\n| **Ctrl + ArrowDown**  | Jump to the last page       |\n| **Ctrl + ArrowLeft**  | Go to the previous page     |\n| **Ctrl + \\`**         | Close the edit panel        |\n| **Ctrl + i**          | Insert mode / submit insert |\n| **Ctrl + u**          | Submit an update edit       |\n| **Ctrl + d**          | Submit a delete edit        |\n| **Ctrl + q**          | Execute the SQL query       |\n\n## License\n\nSQLite Online is released under the [GNU GPL v3.0](https://github.com/yzua/sqlite-online/blob/main/LICENSE).",
+    "ContentSha": "GpCIchtun2o87yuvVfJvcb8iFiowzXftnF1jHqm2nE8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "有用的项目命令：\n\n- `npm run build`\n- `npm run build:pages`\n- `npm run typecheck`\n- `npm run check`\n- `npm run check:fix`\n- `npm run doctor`\n- `npm run preview`\n- `npm run preview:pages`\n- `npm run lint`\n- `npm run lint:fix`\n- `npm run format`\n- `npm run format:check`\n- `npm test`\n- `npm run test:watch`\n- `npm run knip`\n- `npm run deploy`\n\n## 键盘快捷键（热键）\n\n使用这些内置热键简化您的工作流程：\n\n| 快捷键               | 操作                        |\n| -------------------- | --------------------------- |\n| **Ctrl + s**         | 下载数据库                  |\n| **Ctrl + ArrowRight**| 转到下一页                  |\n| **Ctrl + ArrowUp**   | 跳转到第一页                |\n| **Ctrl + ArrowDown** | 跳转到最后一页              |\n| **Ctrl + ArrowLeft** | 转到上一页                  |\n| **Ctrl + \\`**        | 关闭编辑面板                |\n| **Ctrl + i**         | 插入模式 / 提交插入         |\n| **Ctrl + u**         | 提交更新编辑                |\n| **Ctrl + d**         | 提交删除编辑                |\n| **Ctrl + q**         | 执行 SQL 查询               |\n\n## 许可协议\n\nSQLite Online 采用 [GNU GPL v3.0](https://github.com/yzua/sqlite-online/blob/main/LICENSE) 许可发布。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "有用的项目命令："
+      },
+      {
+        "row": 2,
+        "rowsha": "Ph4LU96LyzLcSAnrUiJaT9D5Uer3/S0K+FNJBemYoY0=",
+        "originContent": "Useful project commands:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `npm run build`"
+      },
+      {
+        "row": 4,
+        "rowsha": "JZvjxb9FbyZ+iG8pSzTIo1VHyC3RDLaeiv/n0UdJQqU=",
+        "originContent": "- `npm run build`",
+        "translatedContent": "- `npm run build:pages`"
+      },
+      {
+        "row": 5,
+        "rowsha": "DrrIWdG2W2iGEwNC0pebOxcLfzDW3FzQTbUw8ox/8wI=",
+        "originContent": "- `npm run build:pages`",
+        "translatedContent": "- `npm run typecheck`"
+      },
+      {
+        "row": 6,
+        "rowsha": "5TCwx54enrJ2H9oakLloJKMnxHcxdmDQwi8T2xbUk6w=",
+        "originContent": "- `npm run typecheck`",
+        "translatedContent": "- `npm run check`"
+      },
+      {
+        "row": 7,
+        "rowsha": "+j7jN/h4f7cvv48x2BBbdeBJ9Rv08+nrtz7j0j4t/10=",
+        "originContent": "- `npm run check`",
+        "translatedContent": "- `npm run check:fix`"
+      },
+      {
+        "row": 8,
+        "rowsha": "wtbvDxz/nWXH9aRZFeCiTy+smlSm7mm8bnruxE+Vamo=",
+        "originContent": "- `npm run check:fix`",
+        "translatedContent": "- `npm run doctor`"
+      },
+      {
+        "row": 9,
+        "rowsha": "8ExxUnj2OjPoUbe1n4Fk6Dhg1z5fLJBWIW1+e6rf4DA=",
+        "originContent": "- `npm run doctor`",
+        "translatedContent": "- `npm run preview`"
+      },
+      {
+        "row": 10,
+        "rowsha": "CsRYDfS+WwFZM0lPFAqqqiHJG9aYk7f8cQqZ1uSpVKk=",
+        "originContent": "- `npm run preview`",
+        "translatedContent": "- `npm run preview:pages`"
+      },
+      {
+        "row": 11,
+        "rowsha": "A+J35hUGEc6pGrAs1lc32BADOPVVUnx8w3q6RCKU/xo=",
+        "originContent": "- `npm run preview:pages`",
+        "translatedContent": "- `npm run lint`"
+      },
+      {
+        "row": 12,
+        "rowsha": "VMeKq3EYsX0Rq3wUy0Gr8TP2ONbRrR3TJVbK/Jn2EkA=",
+        "originContent": "- `npm run lint`",
+        "translatedContent": "- `npm run lint:fix`"
+      },
+      {
+        "row": 13,
+        "rowsha": "Cnei2cXUKHE8jdvz0659NC5qIdO9u3kNURJT2DM3IdY=",
+        "originContent": "- `npm run lint:fix`",
+        "translatedContent": "- `npm run format`"
+      },
+      {
+        "row": 14,
+        "rowsha": "RgztCAVJmuKlsYP3/dkgoENH3318V5w2iG1/j9Sko4w=",
+        "originContent": "- `npm run format`",
+        "translatedContent": "- `npm run format:check`"
+      },
+      {
+        "row": 15,
+        "rowsha": "aj28WP+jd4E1Vy49KN9A27EAZg/B9YEJWlB6HYtXmbs=",
+        "originContent": "- `npm run format:check`",
+        "translatedContent": "- `npm test`"
+      },
+      {
+        "row": 16,
+        "rowsha": "DBeYHUv17wvJaY+WvmCj4ktPfBSeQ0XVd+vGNFwxZG0=",
+        "originContent": "- `npm test`",
+        "translatedContent": "- `npm run test:watch`"
+      },
+      {
+        "row": 17,
+        "rowsha": "X30zEq31HR+9G5Bg6ETxBtXOgWcbYGl3XdZ9gUbPnUI=",
+        "originContent": "- `npm run test:watch`",
+        "translatedContent": "- `npm run knip`"
+      },
+      {
+        "row": 18,
+        "rowsha": "1iEm6a/QwJqGC8sxs8++Hf28bhATJJ4WsHUoa4wAaU0=",
+        "originContent": "- `npm run knip`",
+        "translatedContent": "- `npm run deploy`"
+      },
+      {
+        "row": 19,
+        "rowsha": "1IzrKuqfRVP3EAHLSnZCHqPDxxmuxcz/jDZvcJoEts0=",
+        "originContent": "- `npm run deploy`",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 键盘快捷键（热键）"
+      },
+      {
+        "row": 21,
+        "rowsha": "HwNfnRUC3wkLtLzk7hHPoZXZz3njPaztM42Vi+IbJ0o=",
+        "originContent": "## Keyboard Shortcuts (Hotkeys)",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "使用这些内置热键简化您的工作流程："
+      },
+      {
+        "row": 23,
+        "rowsha": "xTExaf9Q1q5PjEyC7EDJuDoV0lgPwqImXys/SKhD5o8=",
+        "originContent": "Streamline your workflow with these built-in hotkeys:",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 快捷键               | 操作                        |"
+      },
+      {
+        "row": 25,
+        "rowsha": "kufVyOOm7Z4Kt87Rz7J4wROdFIEKGyop3QB4AnaszcE=",
+        "originContent": "| Shortcut              | Action                      |",
+        "translatedContent": "| -------------------- | --------------------------- |"
+      },
+      {
+        "row": 26,
+        "rowsha": "5Hu1iX5GT95mDHcgpgVc1smrFtOr8X0GaDga8X6A1es=",
+        "originContent": "| --------------------- | --------------------------- |",
+        "translatedContent": "| **Ctrl + s**         | 下载数据库                  |"
+      },
+      {
+        "row": 27,
+        "rowsha": "ne/kp1qkGOd84mIEuFO8qR8EObRlvXd42yfoP0fbC7k=",
+        "originContent": "| **Ctrl + s**          | Download the database       |",
+        "translatedContent": "| **Ctrl + ArrowRight**| 转到下一页                  |"
+      },
+      {
+        "row": 28,
+        "rowsha": "z0o9EWgIn3+a19gOQXhsexftVakh+yyDXqUo3f5CSDI=",
+        "originContent": "| **Ctrl + ArrowRight** | Go to the next page         |",
+        "translatedContent": "| **Ctrl + ArrowUp**   | 跳转到第一页                |"
+      },
+      {
+        "row": 29,
+        "rowsha": "ygxbIOexwEhA9x+BFpwoGVadXzMg/TU686ysQWcRPsE=",
+        "originContent": "| **Ctrl + ArrowUp**    | Jump to the first page      |",
+        "translatedContent": "| **Ctrl + ArrowDown** | 跳转到最后一页              |"
+      },
+      {
+        "row": 30,
+        "rowsha": "dY8DM3j+MNMVD+tWJRecvHK13v8nJUcp/afAgsORO64=",
+        "originContent": "| **Ctrl + ArrowDown**  | Jump to the last page       |",
+        "translatedContent": "| **Ctrl + ArrowLeft** | 转到上一页                  |"
+      },
+      {
+        "row": 31,
+        "rowsha": "3RzPszZCkDCCq9Sp+YFL8l3OnRkgtmQ3F8QGf9ycDdo=",
+        "originContent": "| **Ctrl + ArrowLeft**  | Go to the previous page     |",
+        "translatedContent": "| **Ctrl + \\`**        | 关闭编辑面板                |"
+      },
+      {
+        "row": 32,
+        "rowsha": "nMDHJCj19fK+Owjjv4rBMSxgJFxMP8twzP8j9t7qL2s=",
+        "originContent": "| **Ctrl + \\`**         | Close the edit panel        |",
+        "translatedContent": "| **Ctrl + i**         | 插入模式 / 提交插入         |"
+      },
+      {
+        "row": 33,
+        "rowsha": "2vNsdNGWIAy47rhjxmZhFHCnfIYwNPMi+XMUNsh0J3Y=",
+        "originContent": "| **Ctrl + i**          | Insert mode / submit insert |",
+        "translatedContent": "| **Ctrl + u**         | 提交更新编辑                |"
+      },
+      {
+        "row": 34,
+        "rowsha": "tstRP/cD5km9TOWxBsUjTdGjdXdhTcsWpZ2UG4Rxlcg=",
+        "originContent": "| **Ctrl + u**          | Submit an update edit       |",
+        "translatedContent": "| **Ctrl + d**         | 提交删除编辑                |"
+      },
+      {
+        "row": 35,
+        "rowsha": "QzcO4fxHqSoYr3BiCww29QJ7f5QVjVz8wrNunQ342lU=",
+        "originContent": "| **Ctrl + d**          | Submit a delete edit        |",
+        "translatedContent": "| **Ctrl + q**         | 执行 SQL 查询               |"
+      },
+      {
+        "row": 36,
+        "rowsha": "KWUMFx+5fTQagGBnbwIV/GPCaiBaE1DJ358U0q2YPkI=",
+        "originContent": "| **Ctrl + q**          | Execute the SQL query       |",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可协议"
+      },
+      {
+        "row": 38,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "SQLite Online 采用 [GNU GPL v3.0](https://github.com/yzua/sqlite-online/blob/main/LICENSE) 许可发布。"
+      },
+      {
+        "row": 40,
+        "rowsha": "0JwURry7R6CZSK+OROjguXrcLyCpuyMH0syxQL2PjOA=",
+        "originContent": "SQLite Online is released under the [GNU GPL v3.0](https://github.com/yzua/sqlite-online/blob/main/LICENSE).",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
