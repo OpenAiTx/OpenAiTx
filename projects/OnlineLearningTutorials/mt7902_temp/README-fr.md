@@ -1,11 +1,43 @@
-# 🎯 Pilote MT7902 en tant que sous-partie du pilote MT7921 (✅ Fonctionne)
-Chip wifi 6E Mediatek mt7902 Support Bluetooth et WiFi
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=en">Anglais</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=ja">Japonais</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=ko">Coréen</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=th">Thaï</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=de">Allemand</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=es">Espagnol</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=it">Italien</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=ru">Russe</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=pt">Portugais</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=nl">Néerlandais</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=pl">Polonais</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=tr">Turc</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=vi">Vietnamien</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=id">Indonésien</a>
+        | <a href="https://openaitx.github.io/view.html?user=OnlineLearningTutorials&project=mt7902_temp&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# 🎯 Pilote MT7902 en sous-partie du pilote MT7921 (✅ Fonctionnel)
+Puce Mediatek mt7902 wifi 6E Prise en charge Bluetooth et WiFi
 
 > [!IMPORTANT]
-> Le noyau Linux 7.1 prend officiellement en charge la puce WIFI 6E MT7902
+> Le noyau Linux 7.1 prend officiellement en charge la puce MT7902 WIFI 6E
 
 
-## 📁 Cloner le dépôt
+## 📁 Clonage du dépôt
 Clonez le dépôt sur votre PC local
   ```
   git clone https://github.com/OnlineLearningTutorials/mt7902_temp
@@ -123,6 +155,6 @@ make module_install
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-07
 
 ---

@@ -3,25 +3,25 @@
     <summary >🌐 Sprache</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">Englisch</a>
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">Japanisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">Thai</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Französisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Spanisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italienisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Russisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Portugiesisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Niederländisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polnisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Vietnamesisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
@@ -30,14 +30,16 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img width="200px" alt="CORE Logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
+    <img width="140px" alt="CORE butler — aufmerksam" src="https://raw.githubusercontent.com/RedPlanetHQ/core/main/docs/images/attentive.gif" />
   </a>
 
-# Dein persönliches KI-Betriebssystem.
 
-Kein Chatbot, den du öffnest. Eine KI, die immer aktiv ist, immer beobachtet.
-Gib ihm einen Namen. Gestalte es. Verbinde es mit allem, was du nutzt. Erreiche es, wie immer du arbeitest.
-Open Source, selbst gehostet, für immer dein.
+# Dein persönliches KI-Betriebssystem
+
+Kein Chatbot, den du öffnest. Eine KI, die immer an ist, immer beobachtet.
+Gib ihr einen Namen. Gestalte sie. Verbinde sie mit allem, was du nutzt. Erreiche sie, wo immer du arbeitest.
+Open Source, selbst gehostet, für immer deins.
+
 <p align="center">
     <a href="https://getcore.me">
         <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
@@ -59,9 +61,9 @@ Open Source, selbst gehostet, für immer dein.
 
 ---
 
-## Sehen Sie es in Aktion
+## Sieh es in Aktion
 
-Sehen Sie, wie CORE eine Klartext-Aufgabe übernimmt, Kontext von GitHub und dem Speicher sammelt, die Arbeit plant, eine Claude-Code-Sitzung startet und einen PR öffnet:
+Sieh zu, wie CORE eine Klartextaufgabe übernimmt, Kontext von GitHub und Speicher sammelt, die Arbeit plant, eine Claude Code-Session startet und einen PR öffnet:
 
 [![CORE Demo](https://img.youtube.com/vi/7y_kt_UTYQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=7y_kt_UTYQs)
 
@@ -71,70 +73,69 @@ Sehen Sie, wie CORE eine Klartext-Aufgabe übernimmt, Kontext von GitHub und dem
 
 Die meisten KI-Tools warten darauf, gefragt zu werden. CORE beobachtet.
 
-Verbinden Sie es mit Ihren Apps, und es überwacht die Aktivitäten in allen Anwendungen. Eine E-Mail kommt von einem Kunden, ein GitHub-Issue wird zugewiesen, ein Sentry-Alarm wird ausgelöst, ein Meeting endet. CORE sieht es, prüft Ihren Speicher und die eingestellten Fähigkeiten und erledigt es entweder selbstständig oder leitet es zur Entscheidung an Sie weiter. Sie lösen es nicht aus. Es erkennt Situationen selbstständig.
+Verbinde es mit deinen Apps und es überwacht die Aktivitäten in allen von ihnen. Eine E-Mail von einem Kunden kommt an, ein GitHub-Issue wird zugewiesen, ein Sentry-Alarm wird ausgelöst, ein Meeting endet. CORE sieht es, prüft dein Gedächtnis und die von dir festgelegten Fähigkeiten und bearbeitet es entweder oder legt es dir zur Entscheidung vor. Du musst es nicht auslösen. Es bemerkt es von selbst.
 
-Installieren Sie das CORE-Plugin in Claude Code, Codex oder Cursor und Ihre Agentengespräche werden ebenfalls überwacht. Diskutierter Kontext, getroffene Entscheidungen, geschriebener Code – alles speist den Wissensgraphen des Speichers. Die nächste Aufgabe, die CORE übernimmt, weiß bereits, was in Ihrer letzten Sitzung passiert ist.
+Installiere das CORE-Plugin in Claude Code, Codex oder Cursor und deine Agentengespräche werden ebenfalls überwacht. Besprochener Kontext, getroffene Entscheidungen, geschriebener Code – alles speist den Wissensgraphen des Speichers. Die nächste Aufgabe, die CORE übernimmt, weiß bereits, was in deiner letzten Sitzung passiert ist.
 
-Wenn es handelt, handelt es direkt. Es kann E-Mails beantworten, Linear-Issues aktualisieren, GitHub-PRs erstellen, Slack-Nachrichten senden, Terminalbefehle ausführen, einen Browser steuern und eine Claude-Code- oder Codex-Sitzung aus jeder Oberfläche starten. Senden Sie eine WhatsApp-Nachricht vom Flughafen, und CORE kann bereits eine Codingsitzung starten und einen PR öffnen, bevor Sie an Bord gehen.
+Wenn es handelt, handelt es direkt. Es kann auf E-Mails antworten, Linear-Issues aktualisieren, GitHub-PRs erstellen, Slack-Nachrichten senden, Terminalbefehle ausführen, einen Browser steuern und eine Claude Code- oder Codex-Session aus jeder Oberfläche starten. Sende eine WhatsApp-Nachricht vom Flughafen und CORE kann eine Codingsession starten und einen PR eröffnen, bevor du an Bord gehst.
 
-
-Sie entscheiden, wo es eigenständig handelt und wo es auf Ihren Aufruf wartet. Sentry-Warnungen werden automatisch bearbeitet, aber vor jedem Merge wird immer gefragt. Einen Plan genehmigen, bevor eine Codingsession startet. Eine Bestätigung verlangen, bevor eine E-Mail versendet wird. Das Maß an Autonomie bestimmen Sie, pro Aufgabe, pro App, pro Aktion.
+Sie entscheiden, wo es selbstständig handelt und wo es auf Ihren Befehl wartet. Sentry-Benachrichtigungen werden automatisch bearbeitet, aber vor dem Zusammenführen wird immer gefragt. Einen Plan vor Beginn einer Codingsession genehmigen. Bestätigung verlangen, bevor eine E-Mail versendet wird. Das Maß an Autonomie bestimmen Sie, pro Aufgabe, pro App, pro Aktion.
 
 ---
 
-## Vier Wege zur Interaktion
+## Vier Wege, es zu erreichen
 
-Ein Chatbot hat eine Schnittstelle. Ein Betriebssystem viele.
+Ein Chatbot hat eine Schnittstelle. Ein Betriebssystem hat viele.
 
-**Sprache.** Drücken Sie Ctrl+Option auf dem Mac und sagen Sie, was erledigt werden soll. CORE führt es im Hintergrund aus, ohne Ihren Arbeitsfluss zu unterbrechen.
+**Sprache.** Drücken Sie Ctrl+Option auf dem Mac und sagen Sie, was erledigt werden soll. CORE führt es im Hintergrund aus, ohne Ihren Arbeitsfluss zu stören.
 
-**Notizblock.** Öffnen Sie Ihre Tagesseite und schreiben Sie `[ ] Auth-Fehler aus Issue #47 beheben`. CORE nimmt es innerhalb von 3 Minuten auf, lädt Kontext aus Ihrem Repo und Gedächtnis und entwirft einen Plan.
+**Notizblock.** Öffnen Sie Ihre Tagesseite und schreiben Sie `[ ] Auth-Fehler aus Issue #47 beheben`. CORE nimmt es innerhalb von 3 Minuten auf, lädt Kontext aus Ihrem Repository und Speicher und entwirft einen Plan.
 
-**Messaging.** WhatsApp, Slack, Telegram. Senden Sie eine Aufgabe vom Flughafen, vom Handy, aus dem Bett. CORE hat Ihren vollen Kontext, unabhängig davon, woher die Nachricht stammt.
+**Messaging.** WhatsApp, Slack, Telegram. Senden Sie eine Aufgabe vom Flughafen, vom Handy, vom Bett. CORE kennt Ihren vollständigen Kontext, unabhängig davon, woher die Nachricht kommt.
 
-**Chat.** Öffnen Sie das Dashboard und sprechen Sie direkt, wie mit jedem Assistenten. Wenn Sie vor der Übergabe erst Rücksprache halten möchten.
+**Chat.** Öffnen Sie das Dashboard und sprechen Sie direkt, wie mit jedem Assistenten. Wenn Sie einen Dialog führen möchten, bevor Sie delegieren.
 
-Eine KI, vier Oberflächen, derselbe Speicher und Kontext hinter allen.
+Eine KI, vier Oberflächen, derselbe Speicher und Kontext dahinter.
 
 ---
 
 ## Machen Sie es zu Ihrem
 
-Geben Sie ihm einen Namen. Wählen Sie, wie es spricht. Legen Sie die Regeln fest, denen es überall folgt.
+Geben Sie ihm einen Namen. Wählen Sie, wie es spricht. Legen Sie die Regeln fest, die es überall befolgt.
 
-Wählen Sie aus fünf integrierten Persönlichkeiten – TARS’ trockene Effizienz, Alfreds loyale Förmlichkeit, Hudsons warme Pragmatik – oder erstellen Sie Ihre eigene. Die Persönlichkeit prägt jede Aufgabe, jeden Plan, jede Nachricht, die es in Ihrem Auftrag sendet.
+Wählen Sie aus fünf integrierten Persönlichkeiten – TARS' trockene Effizienz, Alfreds loyale Förmlichkeit, Hudsons warme Praktikabilität – oder schreiben Sie Ihre eigene. Die Persönlichkeit zieht sich durch jede Aufgabe, jeden Plan, jede Nachricht, die es für Sie sendet.
 
-Wählen Sie seine Stimme für gesprochene Interaktionen. Ab dann klingt und verhält es sich wie die von Ihnen konfigurierte KI, über alle Schnittstellen hinweg.
+Wählen Sie seine Stimme für gesprochene Interaktionen. Ab dann klingt und verhält es sich wie die KI, die Sie konfiguriert haben – über jede Schnittstelle hinweg.
 
 ---
 
-## CORE im Einsatz
+## CORE in Aktion
 
 ### Sagen Sie es, kehren Sie zu einem PR zurück.
 
-*Drücken Sie Ctrl+Option, sprechen Sie:* "Behebe das Race-Condition-Problem im Checkout-Prozess aus Issue #312."
+*Drücken Sie Ctrl+Option, sprechen Sie:* "Behebe das Race Condition im Checkout-Flow aus Issue #312."
 
-CORE lädt das Issue, zieht relevante Commits und Slack-Threads, entwirft einen Plan und startet eine Claude-Code-Session. Sie kehren zu einem Diff zurück. Sie waren nie am Schreibtisch.
+CORE lädt das Issue, zieht verwandte Commits und Slack-Threads, entwirft einen Plan und startet eine Claude-Code-Sitzung. Sie kehren zu einem Diff zurück. Sie waren nie am Schreibtisch.
 
 ### Schreiben Sie es nachts, prüfen Sie es morgens.
 
-*Notizblock:* `[ ] Arbeite heute Nacht ab 23 Uhr den Rückstand durch`
+*Notizblock:* `[ ] Arbeite das heutige Backlog ab, Beginn um 23 Uhr`
 
-CORE zieht Daten aus Linear, GitHub und dem Speicher, priorisiert und arbeitet alles ab, während du schläfst. Reibungslose Abläufe warten auf deine Überprüfung. Festsitzende Sitzungen kommen mit einer klaren Frage zurück, nicht mit einem blockierten Tab.
+CORE zieht Daten aus Linear, GitHub und dem Gedächtnis, priorisiert und arbeitet sie ab, während du schläfst. Reibungslose Abläufe warten auf deine Überprüfung. Hängengebliebene Sitzungen kommen mit einer präzisen Frage zurück, nicht als festgefahrener Tab.
 
-### Sende Nachrichten von überall.
+### Sende ihm Nachrichten von überall.
 
 *WhatsApp vom Flughafen:* "Shippe das Auth-Refactoring."
 
-CORE kennt bereits den Branch, den Kontext und deine Präferenzen. Es läuft auf Railway. Die Sitzung wird gestartet, bevor du einsteigst.
+CORE kennt bereits den Branch, den Kontext und deine Präferenzen. Es läuft auf Railway. Die Session wird gestartet, bevor du einsteigst.
 
-### Untersuche Warnungen, bevor sie zu Vorfällen werden.
+### Untersuche Alarme, bevor sie zu Vorfällen werden.
 
-*Sentry löst um 2 Uhr nachts aus.* CORE untersucht, zieht relevante Traces und frühere Vorfälle aus dem Speicher, schlägt eine Lösung vor und pingt dich auf Slack: "Issue #847, Lösung vorgeschlagen, warte auf deine Freigabe." Du gibst die Freigabe vom Handy aus.
+*Sentry löst um 2 Uhr nachts aus.* CORE untersucht, zieht zugehörige Traces und frühere Vorfälle aus dem Gedächtnis, schlägt eine Lösung vor und benachrichtigt dich auf Slack: "Issue #847, Fix vorgeschlagen, wartet auf deine Überprüfung." Du stimmst am Handy zu.
 
-### Erhalte einen Überblick, der deine Woche bereits kennt.
+### Erhalte ein Briefing, das deine Woche schon kennt.
 
-*Wiederkehrende Aufgabe, jeden Morgen um 8 Uhr.* CORE zieht aus E-Mail, GitHub, Linear und Slack, hebt hervor, was tatsächlich Aufmerksamkeit braucht, überspringt Unwichtiges und wandelt Folgeaktionen automatisch in Aufgaben um.
+*Wiederkehrende Aufgabe, jeden Morgen um 8 Uhr.* CORE zieht aus E-Mail, GitHub, Linear und Slack, hebt wirklich Wichtige hervor, überspringt Unwichtiges und verwandelt Folgeaufgaben automatisch in Tasks.
 
 ---
 
@@ -142,12 +143,12 @@ CORE kennt bereits den Branch, den Kontext und deine Präferenzen. Es läuft auf
 
 | | |
 |---|---|
-| **Speicher** | Temporaler Wissensgraph über alle Tools und Gespräche hinweg. Präferenzen, Entscheidungen, Ziele und Anweisungen, damit jede Aufgabe mit geladenem Kontext startet. |
-| **Aufgaben** | Einmalige oder wiederkehrende Arbeitseinheiten mit deiner Spezifikation, COREs Plan, Live-Status und einem eigenen Chat-Thread. Jede Aufgabe kann Coding-, Browser- oder Terminal-Sitzungen auslösen. |
-| **Connectoren** | Über 50 Apps über einen MCP-Endpunkt, plus Webhook-Trigger für proaktive Automatisierung. GitHub, Linear, Jira, Slack, Gmail, Kalender, Sentry, Notion, Todoist und mehr. |
-| **Fähigkeiten** | Wiederverwendbare Anweisungen, die automatisch je nach Kontext ausgelöst werden. Zum Beispiel: "immer verwandte Linear-Issues vor einer Lösung ziehen," "Tests ausführen, bevor ein PR eröffnet wird," oder "eine Slack-Zusammenfassung posten, wenn eine Aufgabe abgeschlossen ist." Über 100 integriert, oder eigene schreiben. |
-| **Gateway** | Führt Claude Code, Codex, Browser-Agents und Terminal-Kommandos auf deinem Rechner oder in Docker und Railway aus, damit CORE weiterarbeitet, wenn dein Laptop geschlossen ist. |
-| **Modell-agnostisch** | Nutze deinen eigenen Anbieter: Anthropic, OpenAI oder Open-Weight-Modelle. Self-host den gesamten Stack für volle Isolation. |
+| **Gedächtnis** | Temporaler Wissensgraph über jedes Tool und jede Unterhaltung. Präferenzen, Entscheidungen, Ziele und Direktiven, sodass jede Aufgabe mit Kontext startet. |
+| **Tasks** | Einmalige oder wiederkehrende Arbeitseinheiten mit deiner Vorgabe, COREs Plan, Live-Status und einem dedizierten Chat-Thread. Jede Aufgabe kann Coding-, Browser- oder Terminal-Sessions starten. |
+| **Konnektoren** | Über 50 Apps über einen MCP-Endpunkt, plus Webhook-Trigger für proaktive Automatisierung. GitHub, Linear, Jira, Slack, Gmail, Kalender, Sentry, Notion, Todoist und mehr. |
+| **Skills** | Wiederverwendbare Instruktionen, die automatisch kontextbasiert ausgelöst werden. Zum Beispiel: „Immer verwandte Linear-Issues ziehen, bevor ein Fix geplant wird“, „Tests laufen lassen, bevor ein PR geöffnet wird“ oder „Slack-Zusammenfassung posten, wenn eine Aufgabe abgeschlossen ist.“ Über 100 integriert oder eigene schreiben. |
+| **Gateway** | Führt Claude Code, Codex, Browser-Agents und Terminal-Kommandos auf deinem Rechner oder in Docker und Railway aus, sodass CORE weiterarbeitet, wenn dein Laptop zu ist. |
+| **Modellagnostisch** | Nutze deinen eigenen Anbieter: Anthropic, OpenAI oder Open-Weight-Modelle. Betreibe den gesamten Stack selbst für vollständige Isolation. |
 
 ---
 
@@ -155,31 +156,31 @@ CORE kennt bereits den Branch, den Kontext und deine Präferenzen. Es läuft auf
 
 | | CORE | OpenClaw | Hermes Agent | Devin / Copilot |
 |---|:---:|:---:|:---:|:---:|
-| Mehrere Schnittstellen (Sprache, Notizblock, Chat, Messaging) | ✅ | Teilweise | ❌ | ❌ |
-| Persistenter Speicher über Aufgaben hinweg | ✅ | ❌ | ✅ | ❌ |
-| Delegiert an Coding-Agents (Claude Code, Codex) | ✅ | ❌ | ❌ | ✅ |
+| Mehrere Interfaces (Voice, Notizblock, Chat, Messaging) | ✅ | Teilweise | ❌ | ❌ |
+| Persistentes Gedächtnis über Aufgaben hinweg | ✅ | ❌ | ✅ | ❌ |
+| Delegiert an Coding-Agenten (Claude Code, Codex) | ✅ | ❌ | ❌ | ✅ |
 | Strukturierte Aufgabenplanung mit menschlicher Freigabe | ✅ | ❌ | ❌ | Teilweise |
-| Benutzerdefinierter Name, Persönlichkeit und Stimme | ✅ | ❌ | ❌ | ❌ |
+| Eigener Name, Persönlichkeit und Stimme | ✅ | ❌ | ❌ | ❌ |
 | 50+ App-Konnektoren | ✅ | Teilweise | Teilweise | ❌ |
 | Terminal- und Browserzugriff über Gateway | ✅ | ✅ | ✅ | ✅ |
-| Mensch in der Schleife standardmäßig | ✅ | ❌ | ❌ | ❌ |
-| Open Source und selbst gehostet | ✅ | ✅ | ✅ | ❌ |
+| Mensch-in-der-Schleife standardmäßig | ✅ | ❌ | ❌ | ❌ |
+| Open Source und selbstgehostet | ✅ | ✅ | ✅ | ❌ |
 
 ---
 
 ## Schnellstart
 
-Open Source und selbst gehostet. Ihre Daten bleiben in Ihrer Infrastruktur.
+Open Source und selbstgehostet. Ihre Daten bleiben in Ihrer Infrastruktur.
 
 **Wählen Sie Ihren Weg:**
 
 | Ich möchte... | Wie |
 |---|---|
-| Es auf meinem Rechner ausprobieren | Führen Sie die nachstehende Ein-Schritt-Installation aus (benötigt Docker) |
-| Auf einem Server oder VPS bereitstellen | One-Click-Deployment mit Railway |
-| Die Mac-App nutzen | [Zur Warteliste anmelden](https://www.getcore.me/) |
+| Es auf meinem Rechner ausprobieren | Führen Sie die Ein-Schritt-Installation unten aus (erfordert Docker) |
+| Auf einem Server oder VPS bereitstellen | Ein-Klick-Deploy mit Railway |
+| Die Mac-App nutzen | [Auf die Warteliste setzen](https://www.getcore.me/) |
 
-**Installieren und starten Sie CORE:**
+**CORE installieren und starten:**
 
 ```bash
 npm install -g @redplanethq/corebrain && corebrain setup
@@ -274,6 +275,6 @@ Wir teilen die Roadmap und architektonische Entscheidungen offen, weil die schwi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-07
 
 ---

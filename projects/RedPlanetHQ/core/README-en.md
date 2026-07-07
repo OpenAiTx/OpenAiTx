@@ -4,25 +4,25 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Indonesian</a>
       </div>
     </div>
   </details>
@@ -30,10 +30,11 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
+    <img width="140px" alt="CORE butler — attentive" src="https://raw.githubusercontent.com/RedPlanetHQ/core/main/docs/images/attentive.gif" />
   </a>
 
-# Your personal AI OS.
+
+# Your Personal AI OS
 
 Not a chatbot you open. An AI that is always on, always watching.
 Name it. Shape it. Connect it to everything you use. Reach it however you work.
@@ -78,33 +79,33 @@ Install the CORE plugin in Claude Code, Codex, or Cursor and your agent conversa
 
 When it acts, it acts directly. It can reply to emails, update Linear issues, file GitHub PRs, send Slack messages, run terminal commands, drive a browser, and spawn a Claude Code or Codex session from any interface. Send a WhatsApp message from the airport and CORE can have a coding session running and a PR open before you board.
 
-You decide where it acts on its own and where it waits for your call. Handle Sentry alerts automatically but always ask before merging. Approve a plan before a coding session starts. Require confirmation before any email goes out. The level of autonomy is yours to set, per task, per app, per action.
+You decide where it acts independently and where it waits for your input. Automatically handle Sentry alerts but always ask before merging. Approve a plan before a coding session begins. Require confirmation before any email is sent. The level of autonomy is yours to set—per task, per app, per action.
 
 ---
 
-## Four ways to reach it
+## Four ways to access it
 
-A chatbot has one interface. An OS has many.
+A chatbot has a single interface. An OS offers many.
 
-**Voice.** Press Ctrl+Option on Mac and say what needs doing. CORE runs it in the background without breaking your flow.
+**Voice.** Press Ctrl+Option on Mac and say what needs to be done. CORE executes it in the background without interrupting your workflow.
 
 **Scratchpad.** Open your daily page and write `[ ] Fix the auth bug from issue #47`. CORE picks it up within 3 minutes, loads context from your repo and memory, and drafts a plan.
 
-**Messaging.** WhatsApp, Slack, Telegram. Send a task from the airport, from your phone, from bed. CORE has your full context regardless of where the message comes from.
+**Messaging.** WhatsApp, Slack, Telegram. Send a task from the airport, from your phone, from bed. CORE has your full context no matter where the message originates.
 
-**Chat.** Open the dashboard and talk directly, like any assistant. When you want a back-and-forth before delegating.
+**Chat.** Open the dashboard and converse directly, like any assistant. For when you want a back-and-forth before delegating.
 
-One AI, four surfaces, the same memory and context behind all of them.
+One AI, four surfaces, the same memory and context behind them all.
 
 ---
 
 ## Make it yours
 
-Give it a name. Choose how it speaks. Set the rules it follows everywhere.
+Give it a name. Choose its speaking style. Set the rules it follows everywhere.
 
-Pick from five built-in personalities — TARS's dry efficiency, Alfred's loyal formality, Hudson's warm practicality — or write your own. The personality carries into every task it runs, every plan it drafts, every message it sends on your behalf.
+Pick from five built-in personalities — TARS's dry efficiency, Alfred's loyal formality, Hudson's warm practicality — or craft your own. The personality carries through every task it handles, every plan it drafts, every message it sends for you.
 
-Choose its voice for spoken interactions. From then on, it sounds and behaves like the AI you configured, across every interface.
+Choose its voice for spoken interactions. From then on, it sounds and acts like the AI you configured, across every interface.
 
 ---
 
@@ -114,7 +115,7 @@ Choose its voice for spoken interactions. From then on, it sounds and behaves li
 
 *Press Ctrl+Option, speak:* "Fix the race condition in the checkout flow from issue #312."
 
-CORE loads the issue, pulls related commits and Slack threads, drafts a plan, and runs a Claude Code session. You come back to a diff. You were never at your desk.
+CORE loads the issue, pulls related commits and Slack threads, drafts a plan, and runs a Claude Code session. You return to a diff. You were never at your desk.
 
 ### Write it at night, review it in the morning.
 
@@ -169,7 +170,7 @@ CORE already knows the branch, the context, and your preferences. It is running 
 
 ## Quickstart
 
-Open source and self-hosted. Your data stays within your infrastructure.
+Open source and self-hosted. Your data stays in your infrastructure.
 
 **Choose your path:**
 
@@ -274,6 +275,6 @@ We share the roadmap and architectural decisions openly because the hardest prob
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-07
 
 ---

@@ -1,0 +1,502 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Tail Tray\nTailscale tray menu and UI for Plasma Desktop\n\n**Disclaimer** Please note that I have _no_ association whatsoever with Tailscale Inc. \n\nThis is a personal project and is not endorsed by Tailscale Inc. in any shape or form.\n\n### Features\n- [X] Control your Tailscale connection from the tray\n- [X] Show IPs\n- [X] Show current connection status of your devices\n- [X] Overview of your network and network status\n- [X] Set and change your Tailscale exit node\n- [X] Proper multi account handling \n- [X] Mullvad Exit nodes\n- [X] Tail drive support - Working with davfs2 support + additional help setting up davfs2 and mounting etc\n- [X] Send files to any device on your Tailnet directly from the tray menu\n- [X] Get notified and receive files from any device on your Tailnet to a pre-defined location on disk\n- [X] Pre-built binaries for major distros and experimental Windows support\n\n### License\nGNU General Public License v3.0 - see [LICENSE](LICENSE) for more details\n\n### Installation\nFor now the easiest and most reliable way to install this is to build it from source.\nTo do that, please see the Getting started section below.\n\n### Prerequisites\n* Tailscale installed and running - https://tailscale.com \n* davfs2 installed and configured (If you plan on using Tail drives or accessing Tail drives. Tail Tray also helps you to automatically configure this) - https://wiki.archlinux.org/title/Davfs2\n\n\n### Supported architectures\n* x86_64\n* ARM64\n* Any other architecture that QT 6 supports and where you can compile this project and where Tailscale runs\n\n### Getting started\n\n### Pre-built packages",
+    "ContentSha": "+QyOFDtQkjL78pTZB4Sz3/WvjR7s7M6Fgj3gMTKT43w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Tail Tray\nTailscale 트레이 메뉴 및 Plasma 데스크탑용 UI\n\n**면책 조항** 저는 Tailscale Inc.와 _전혀_ 관련이 없음을 알려드립니다.\n\n이 프로젝트는 개인 프로젝트이며 Tailscale Inc.의 어떤 형태로도 승인받지 않았습니다.\n\n### 기능\n- [X] 트레이에서 Tailscale 연결 제어\n- [X] IP 표시\n- [X] 장치의 현재 연결 상태 표시\n- [X] 네트워크 및 네트워크 상태 개요\n- [X] Tailscale 출구 노드 설정 및 변경\n- [X] 적절한 다중 계정 처리\n- [X] Mullvad 출구 노드\n- [X] Tail 드라이브 지원 - davfs2 지원과 추가적인 davfs2 설정 및 마운트 도움\n- [X] 트레이 메뉴에서 Tailnet의 모든 장치로 파일 전송\n- [X] 미리 정의된 디스크 위치로 Tailnet의 모든 장치에서 알림 및 파일 수신\n- [X] 주요 배포판용 사전 빌드 바이너리 및 실험적 Windows 지원\n\n### 라이선스\nGNU 일반 공중 사용 허가서 v3.0 - 자세한 내용은 [LICENSE](LICENSE) 참조\n\n### 설치\n현재 가장 쉽고 신뢰할 수 있는 설치 방법은 소스에서 빌드하는 것입니다.\n자세한 내용은 아래의 시작하기 섹션을 참고하세요.\n\n### 전제 조건\n* Tailscale 설치 및 실행 - https://tailscale.com\n* davfs2 설치 및 구성 (Tail 드라이브 사용 또는 접근 예정인 경우. Tail Tray가 자동 구성도 도와줌) - https://wiki.archlinux.org/title/Davfs2\n\n### 지원 아키텍처\n* x86_64\n* ARM64\n* QT 6이 지원하고 이 프로젝트를 컴파일할 수 있으며 Tailscale이 실행되는 기타 모든 아키텍처\n\n### 시작하기\n\n### 사전 빌드 패키지\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1i6CToLA+7oR2FOV7+ufjdq1vftXarLiB2H4Q9LmBhg=",
+        "originContent": "# Tail Tray",
+        "translatedContent": "# Tail Tray"
+      },
+      {
+        "row": 2,
+        "rowsha": "/rACLOOnDScw/mb7ayzA5ZjKR5ycadsRBbkmVBwMpbo=",
+        "originContent": "Tailscale tray menu and UI for Plasma Desktop",
+        "translatedContent": "Tailscale 트레이 메뉴 및 Plasma 데스크탑용 UI"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "sXgfTtMU24H7QxXTJNFU8d/GKmF8hdJ7LBRW9mOPqJg=",
+        "originContent": "**Disclaimer** Please note that I have _no_ association whatsoever with Tailscale Inc. ",
+        "translatedContent": "**면책 조항** 저는 Tailscale Inc.와 _전혀_ 관련이 없음을 알려드립니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mnMvMHc2aWQ3oMlOLWtraIuL6AjvmJV8wYH5K3dVq5Q=",
+        "originContent": "This is a personal project and is not endorsed by Tailscale Inc. in any shape or form.",
+        "translatedContent": "이 프로젝트는 개인 프로젝트이며 Tailscale Inc.의 어떤 형태로도 승인받지 않았습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": "### 기능"
+      },
+      {
+        "row": 9,
+        "rowsha": "oNAZraMIWHvtOdDK3SmD17LcPXgAkpz0pFMkKsoMwHo=",
+        "originContent": "- [X] Control your Tailscale connection from the tray",
+        "translatedContent": "- [X] 트레이에서 Tailscale 연결 제어"
+      },
+      {
+        "row": 10,
+        "rowsha": "vfj5XgH9umQGvkuMon7Sj+nYAukDPmgdC5KaLcg3EZ8=",
+        "originContent": "- [X] Show IPs",
+        "translatedContent": "- [X] IP 표시"
+      },
+      {
+        "row": 11,
+        "rowsha": "psqIVrq68hjkLHO/D8fJ9W3QOyBPJy8uZ5xSvM1hx3k=",
+        "originContent": "- [X] Show current connection status of your devices",
+        "translatedContent": "- [X] 장치의 현재 연결 상태 표시"
+      },
+      {
+        "row": 12,
+        "rowsha": "7yCCOvpVTtaeHNii3hsc2pWHLn3TvRrJPum9S22U9D8=",
+        "originContent": "- [X] Overview of your network and network status",
+        "translatedContent": "- [X] 네트워크 및 네트워크 상태 개요"
+      },
+      {
+        "row": 13,
+        "rowsha": "KrQcpLcE1Azoe1LB+fPwWQfYYNrOqcLM7qpnt4nuEkg=",
+        "originContent": "- [X] Set and change your Tailscale exit node",
+        "translatedContent": "- [X] Tailscale 출구 노드 설정 및 변경"
+      },
+      {
+        "row": 14,
+        "rowsha": "5PWPwSA7M3/anf1jRUpvOHqvdgGiKUZyjc1HAHXN5eQ=",
+        "originContent": "- [X] Proper multi account handling ",
+        "translatedContent": "- [X] 적절한 다중 계정 처리"
+      },
+      {
+        "row": 15,
+        "rowsha": "NAd6t7RU8BR0YLgEHFE+MWbnQrJPuYN7dKRQHudnp+E=",
+        "originContent": "- [X] Mullvad Exit nodes",
+        "translatedContent": "- [X] Mullvad 출구 노드"
+      },
+      {
+        "row": 16,
+        "rowsha": "LFtTMGURbWP2GhF44b8MRW4WIz5wLNi/xzGflUUp3uk=",
+        "originContent": "- [X] Tail drive support - Working with davfs2 support + additional help setting up davfs2 and mounting etc",
+        "translatedContent": "- [X] Tail 드라이브 지원 - davfs2 지원과 추가적인 davfs2 설정 및 마운트 도움"
+      },
+      {
+        "row": 17,
+        "rowsha": "Z5qAbELNhlwdHiMc5idC/gk9LiRNj48ckHDgo4FI/MQ=",
+        "originContent": "- [X] Send files to any device on your Tailnet directly from the tray menu",
+        "translatedContent": "- [X] 트레이 메뉴에서 Tailnet의 모든 장치로 파일 전송"
+      },
+      {
+        "row": 18,
+        "rowsha": "326DE+2z6bZ3Ys/qrTbZDBbBuT9dmw0kV9sZ4SN+1CE=",
+        "originContent": "- [X] Get notified and receive files from any device on your Tailnet to a pre-defined location on disk",
+        "translatedContent": "- [X] 미리 정의된 디스크 위치로 Tailnet의 모든 장치에서 알림 및 파일 수신"
+      },
+      {
+        "row": 19,
+        "rowsha": "7ZbANi1S2229CpqrkufNWftu3c2ogkk/QU8OIKBnWTI=",
+        "originContent": "- [X] Pre-built binaries for major distros and experimental Windows support",
+        "translatedContent": "- [X] 주요 배포판용 사전 빌드 바이너리 및 실험적 Windows 지원"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yQxCDp1zblVb6PkKhbgZ2Y8kW5iQPeq17cih4/6NsYY=",
+        "originContent": "### License",
+        "translatedContent": "### 라이선스"
+      },
+      {
+        "row": 22,
+        "rowsha": "PUNFZhOdB9QZPzSu03xRdIEk8R20Qs6yIQwzoVoRe50=",
+        "originContent": "GNU General Public License v3.0 - see [LICENSE](LICENSE) for more details",
+        "translatedContent": "GNU 일반 공중 사용 허가서 v3.0 - 자세한 내용은 [LICENSE](LICENSE) 참조"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### 설치"
+      },
+      {
+        "row": 25,
+        "rowsha": "TOGzRRL/PaDIpIwqTq+0XSXdyn/v9lGI+WKUFqlca60=",
+        "originContent": "For now the easiest and most reliable way to install this is to build it from source.",
+        "translatedContent": "현재 가장 쉽고 신뢰할 수 있는 설치 방법은 소스에서 빌드하는 것입니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "bchgDe9lE2HvHYtobeMiYl9ywDSF+oYwRN3963sPfcQ=",
+        "originContent": "To do that, please see the Getting started section below.",
+        "translatedContent": "자세한 내용은 아래의 시작하기 섹션을 참고하세요."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 전제 조건"
+      },
+      {
+        "row": 29,
+        "rowsha": "qAWJgDA5qAdDa/HlPJ6GmE2aFWGd3hKXZb6NxoyEbL4=",
+        "originContent": "* Tailscale installed and running - https://tailscale.com ",
+        "translatedContent": "* Tailscale 설치 및 실행 - https://tailscale.com"
+      },
+      {
+        "row": 30,
+        "rowsha": "F2Syj8QFMKqppvEGKuiaNT4PhXMJYLV3aAY98WyKWLc=",
+        "originContent": "* davfs2 installed and configured (If you plan on using Tail drives or accessing Tail drives. Tail Tray also helps you to automatically configure this) - https://wiki.archlinux.org/title/Davfs2",
+        "translatedContent": "* davfs2 설치 및 구성 (Tail 드라이브 사용 또는 접근 예정인 경우. Tail Tray가 자동 구성도 도와줌) - https://wiki.archlinux.org/title/Davfs2"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 지원 아키텍처"
+      },
+      {
+        "row": 33,
+        "rowsha": "2bFWUjG+4yaF+7yOQVO2RYBbBaaLEiENxjBNArDKW8c=",
+        "originContent": "### Supported architectures",
+        "translatedContent": "* x86_64"
+      },
+      {
+        "row": 34,
+        "rowsha": "kFXa9tHKH+zY2dit1rMKsnznNhark89zS4DixlKs4HY=",
+        "originContent": "* x86_64",
+        "translatedContent": "* ARM64"
+      },
+      {
+        "row": 35,
+        "rowsha": "M1VP5+yQjMQsOil+XFEagB6SL2zyibIHvKpnOCsPcF4=",
+        "originContent": "* ARM64",
+        "translatedContent": "* QT 6이 지원하고 이 프로젝트를 컴파일할 수 있으며 Tailscale이 실행되는 기타 모든 아키텍처"
+      },
+      {
+        "row": 36,
+        "rowsha": "MjDshJ25JDCfDn65Y/gYWQ7kak+5F4VUbqp8OFWMtJo=",
+        "originContent": "* Any other architecture that QT 6 supports and where you can compile this project and where Tailscale runs",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 시작하기"
+      },
+      {
+        "row": 38,
+        "rowsha": "j3jR4/DuC/BU2CLBZKYxPbjEIgx9IJ1tgzd0aYIH3ng=",
+        "originContent": "### Getting started",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 사전 빌드 패키지"
+      },
+      {
+        "row": 40,
+        "rowsha": "r5hFqeDF6K+nlF08e5OuLzAS2rruSnRC29ej3oe9Zgs=",
+        "originContent": "### Pre-built packages",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": " * [Debian / Ubuntu / Mint based distros](https://github.com/SneWs/tail-tray/releases)\n * [OpenSUSE & Fedora RPMs](https://software.opensuse.org/download.html?project=home%3Aayankov&package=tail-tray)\n * [NixOS](/docs/nix-os.md)\n * [Windows (EXPERIMENTAL! latest unstable only, and not signed)](https://github.com/SneWs/tail-tray/releases/download/latest/Tail-Tray-Windows.zip)\n\n### Build and install from Source\n * [On Linux](/docs/build-from-src.md)\n * [On Windows](/docs/build-from-src-windows.md)\n\n### Scriptable actions\nTo learn more about how to write and use scriptable actions, please read the [Scriptable actions Guid](https://raw.githubusercontent.com/SneWs/tail-tray/master/docs/scriptable-actions.md)\n\n### Participating & Filing bugs\n* If you would like to participate in the development of this project, feel free to fork the repo and submit a pull request.\n* Bugs, we all get them... Please file an issue in the issues tab and we'll sort it out together.\n\n### Screenshots\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/launcher.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/connected-tray.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/disconnected-tray.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/settings-ui.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/network-status.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/file-sharing.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/devices-ui.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/ui-settings.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives01.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives02.png)\n\n![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives03.png)\n",
+    "ContentSha": "XvkXjCFs3T4fRUl8EcgLOEEbUi+Iqr8RJvxX/9///GU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " * [Debian / Ubuntu / Mint 기반 배포판](https://github.com/SneWs/tail-tray/releases)\n * [OpenSUSE 및 Fedora RPM](https://software.opensuse.org/download.html?project=home%3Aayankov&package=tail-tray)\n * [NixOS](/docs/nix-os.md)\n * [Windows (실험적! 최신 불안정 버전만, 서명되지 않음)](https://github.com/SneWs/tail-tray/releases/download/latest/Tail-Tray-Windows.zip)\n\n### 소스에서 빌드 및 설치\n * [리눅스에서](/docs/build-from-src.md)\n * [윈도우에서](/docs/build-from-src-windows.md)\n\n### 스크립트 가능한 동작\n스크립트 가능한 동작을 작성하고 사용하는 방법에 대해 더 알고 싶다면, [스크립트 가능한 동작 가이드](https://raw.githubusercontent.com/SneWs/tail-tray/master/docs/scriptable-actions.md)를 읽어보세요.\n\n### 참여 및 버그 신고\n* 이 프로젝트 개발에 참여하고 싶다면, 자유롭게 저장소를 포크하고 풀 리퀘스트를 제출해 주세요.\n* 버그는 누구나 겪습니다... 문제 탭에 이슈를 등록해 주시면 함께 해결해 나가겠습니다.\n\n### 스크린샷\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/launcher.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/connected-tray.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/disconnected-tray.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/settings-ui.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/network-status.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/file-sharing.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/devices-ui.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/ui-settings.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives01.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives02.png)\n\n![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives03.png)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SJv0fcM2qw+WdCo07vjgGdy37X9bOtlllIMi7ZkgXuk=",
+        "originContent": " * [Debian / Ubuntu / Mint based distros](https://github.com/SneWs/tail-tray/releases)",
+        "translatedContent": " * [Debian / Ubuntu / Mint 기반 배포판](https://github.com/SneWs/tail-tray/releases)"
+      },
+      {
+        "row": 2,
+        "rowsha": "yoZJqXMSqKeBpBk1VdS8ibMdAVu3QygPH6sEphzIz6E=",
+        "originContent": " * [OpenSUSE & Fedora RPMs](https://software.opensuse.org/download.html?project=home%3Aayankov&package=tail-tray)",
+        "translatedContent": " * [OpenSUSE 및 Fedora RPM](https://software.opensuse.org/download.html?project=home%3Aayankov&package=tail-tray)"
+      },
+      {
+        "row": 3,
+        "rowsha": "c4bJWufydn5QLhWzsGhg6Eee2JAeBXqhcqvyHUsnSLE=",
+        "originContent": " * [NixOS](/docs/nix-os.md)",
+        "translatedContent": " * [NixOS](/docs/nix-os.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "Rfj/PXBckKX03SiaFHl0ErbRjK64zw5Cps+c3AOO+Jc=",
+        "originContent": " * [Windows (EXPERIMENTAL! latest unstable only, and not signed)](https://github.com/SneWs/tail-tray/releases/download/latest/Tail-Tray-Windows.zip)",
+        "translatedContent": " * [Windows (실험적! 최신 불안정 버전만, 서명되지 않음)](https://github.com/SneWs/tail-tray/releases/download/latest/Tail-Tray-Windows.zip)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "F1DvanXaNuh2MKKmydLG2licWMexjuvYy9e1Sl+NOQ4=",
+        "originContent": "### Build and install from Source",
+        "translatedContent": "### 소스에서 빌드 및 설치"
+      },
+      {
+        "row": 7,
+        "rowsha": "S99AYfUrK57EhBUJ+BlI+h8FNqkqKh/obKJVeR/sN+A=",
+        "originContent": " * [On Linux](/docs/build-from-src.md)",
+        "translatedContent": " * [리눅스에서](/docs/build-from-src.md)"
+      },
+      {
+        "row": 8,
+        "rowsha": "Lg0NDwENk9ZjO+3Kth04jl7RyqNBo9ud9HvFGMUTII0=",
+        "originContent": " * [On Windows](/docs/build-from-src-windows.md)",
+        "translatedContent": " * [윈도우에서](/docs/build-from-src-windows.md)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "XXPKDjjV/F6+9A+jlcyfvK4gn9jSnrsnKDQexfegBjU=",
+        "originContent": "### Scriptable actions",
+        "translatedContent": "### 스크립트 가능한 동작"
+      },
+      {
+        "row": 11,
+        "rowsha": "SF4XqxgkMDS30gJinitixtuo8hiIDrjQoASJoPDhtJc=",
+        "originContent": "To learn more about how to write and use scriptable actions, please read the [Scriptable actions Guid](https://raw.githubusercontent.com/SneWs/tail-tray/master/docs/scriptable-actions.md)",
+        "translatedContent": "스크립트 가능한 동작을 작성하고 사용하는 방법에 대해 더 알고 싶다면, [스크립트 가능한 동작 가이드](https://raw.githubusercontent.com/SneWs/tail-tray/master/docs/scriptable-actions.md)를 읽어보세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "DezgemNo2n2qvJoUvagvEZQN/Ad+jRuhWLvrNQxkCZs=",
+        "originContent": "### Participating & Filing bugs",
+        "translatedContent": "### 참여 및 버그 신고"
+      },
+      {
+        "row": 14,
+        "rowsha": "ayuFfxqfr8zo8XbJhDcK3FqiJ68FMsmEPJsQuJfWyc8=",
+        "originContent": "* If you would like to participate in the development of this project, feel free to fork the repo and submit a pull request.",
+        "translatedContent": "* 이 프로젝트 개발에 참여하고 싶다면, 자유롭게 저장소를 포크하고 풀 리퀘스트를 제출해 주세요."
+      },
+      {
+        "row": 15,
+        "rowsha": "PEkj0zJZw8zvO3pQB4gGUg6vQMNEuFHZ83DR80cC394=",
+        "originContent": "* Bugs, we all get them... Please file an issue in the issues tab and we'll sort it out together.",
+        "translatedContent": "* 버그는 누구나 겪습니다... 문제 탭에 이슈를 등록해 주시면 함께 해결해 나가겠습니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "+GZMPDw1QrnophPxZwy1+UMhFIkKRwwdeNWqc9PVveA=",
+        "originContent": "### Screenshots",
+        "translatedContent": "### 스크린샷"
+      },
+      {
+        "row": 18,
+        "rowsha": "8GR6XxarAESU0WQfJsuToMXYZOyrLUEWcy7/pUN7kZ0=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/launcher.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/launcher.png)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "YcQlGoj+tHQfSRyFTD6aSZE0Qlt1Bjx31/GCulD1g8k=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/connected-tray.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/connected-tray.png)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NbNRybmniDxTuwUoqoJRIzfMEKOT+SNlJco1b4teYUA=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/disconnected-tray.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/disconnected-tray.png)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "niOxJ9myFEmO6ize3HA9kxz++LU4GKyCiBEqqfYGZxY=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/settings-ui.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/settings-ui.png)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "9yotsrreKVHcpBPFeRzL+QtAoDZbjLRN4ups7thxPbM=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/network-status.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/network-status.png)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "1QgWUJw9qQ0jwNt+gZTJpAd82GMotwM2E/c+MhBo6B8=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/file-sharing.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/file-sharing.png)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "EboTvnfkvKLrHAGap4k9o94drkqxez3EEWFQK8naIwM=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/devices-ui.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/devices-ui.png)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "0iHDid3K/En0wx+aqZzPdGYaGP8/F4O5/QfAijc1TJQ=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/ui-settings.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/ui-settings.png)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "W6lYKfP6l8FllVklxjTi3mi34NzOt3qaTykiiz38BsU=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives01.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives01.png)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "qdt2mrsBYSOHDKjfahKW/A3LvU/vQdCzAzeplfuiobE=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives02.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives02.png)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "NeAQ7g5ZyhPxMxUZrYNLOlyZ3I3QiBGN2+6EbSk0G/A=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives03.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/SneWs/tail-tray/master/screenshots/tail-drives03.png)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
