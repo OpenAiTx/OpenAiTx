@@ -1,0 +1,892 @@
+[
+  {
+    "Id": 1,
+    "Content": "## What is it?\n\n[![CI](https://github.com/dronnix/bwarr/actions/workflows/ci.yml/badge.svg)](https://github.com/dronnix/bwarr/actions)\n[![codecov](https://codecov.io/gh/dronnix/bwarr/branch/main/graph/badge.svg)](https://codecov.io/gh/dronnix/bwarr)\n[![Go Reference](https://pkg.go.dev/badge/github.com/dronnix/bwarr.svg)](https://pkg.go.dev/github.com/dronnix/bwarr)\n[![Go Report Card](https://goreportcard.com/badge/github.com/dronnix/bwarr)](https://goreportcard.com/report/github.com/dronnix/bwarr)\n\nThe Black-White Array (aka BWArr) is a fast, ordered data structure based on arrays with ***$O(\\log N)$*** **memory allocations**.\n\n## Data Structure\nThe idea of Black-White Array was invented and published by professor [Z. George Mou](https://www.cs.brandeis.edu/~mou/) in [Black-White Array: A New Data Structure for\nDynamic Data Sets](https://arxiv.org/abs/2004.09051). This repository contains the first public implementation.\n\n![Professor Z. George Mou](https://www.cs.brandeis.edu/~mou/mou.gif)\n\n### Key features:\n- $O(\\log N)$ memory allocations for Inserts - no pressure on GC;\n- Fast insert, delete, and search operations $O(\\log N)$ time amortized complexity;\n- Array-based and pointerless makes it CPU-friendly: cache locality / sequential iteration / etc;\n- Supports duplicate elements natively (multiset behavior) - no need for wrapping values into structs to make them unique;\n- Drop-in replacement for `github.com/google/btree` and `github.com/petar/GoLLRB`;\n- Low memory overhead - no pointers per element, compact memory representation;\n- Easily serializable;\n\n### Tradeoffs\n- One per $N$ insert operations complexity falls down to $O(N)$, though amortized remains $O(\\log N)$. For real-time systems, it may introduce latency spikes for collections with millions of elements. Could be mitigated by async/background inserts.\n- For a small number of elements `Search()/Delete()` operations may take $O((\\log N)^2)$. 50% of elements take $O(\\log N)$ time, 75%  - $O(2\\log N)$, 87.5% - $O(3\\log N)$, etc.\n- When deleting long series of elements, a `Max()/Min()` operation can take $O(N/4)$. Amortized complexity for series of calls remains $O(\\log N)$.\n- When deleting long series of elements, iteration step can take $O(N/4)$. Amortized complexity for iteration over the whole collection remains $O(\\log N)$ per element.\n\n###  Benchmarks\n\nBenchmarks in comparison with [Google BTree](https://github.com/google/btree).\n\n#### Insert \nMeasures the time, allocs and allocated KBs to insert N unique random int64 values into an empty data structure. Both BWArr and BTree start empty and insert all values one by one.\n\n![Insert performance](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values.png?raw=true)\n![Insert Allocs](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_allocs.png?raw=true)\n![Insert Alloc_Bytes](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_bytes.png?raw=true)",
+    "ContentSha": "Kj2cp7CqANvI73MgIgjHGHeuv89PCTYSExm3V7hkLQE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## What is it?\n\n[![CI](https://github.com/dronnix/bwarr/actions/workflows/ci.yml/badge.svg)](https://github.com/dronnix/bwarr/actions)\n[![codecov](https://codecov.io/gh/dronnix/bwarr/branch/main/graph/badge.svg)](https://codecov.io/gh/dronnix/bwarr)\n[![Go Reference](https://pkg.go.dev/badge/github.com/dronnix/bwarr.svg)](https://pkg.go.dev/github.com/dronnix/bwarr)\n[![Go Report Card](https://goreportcard.com/badge/github.com/dronnix/bwarr)](https://goreportcard.com/report/github.com/dronnix/bwarr)\n\nThe Black-White Array (aka BWArr) is a fast, ordered data structure based on arrays with ***$O(\\log N)$*** **memory allocations**.\n\n## Data Structure\nThe idea of Black-White Array was invented and published by professor [Z. George Mou](https://www.cs.brandeis.edu/~mou/) in [Black-White Array: A New Data Structure for\nDynamic Data Sets](https://arxiv.org/abs/2004.09051). This repository contains the first public implementation.\n\n![Professor Z. George Mou](https://www.cs.brandeis.edu/~mou/mou.gif)\n\n### Key features:\n- $O(\\log N)$ memory allocations for Inserts - no pressure on GC;\n- Fast insert, delete, and search operations $O(\\log N)$ time amortized complexity;\n- Array-based and pointerless makes it CPU-friendly: cache locality / sequential iteration / etc;\n- Supports duplicate elements natively (multiset behavior) - no need for wrapping values into structs to make them unique;\n- Drop-in replacement for `github.com/google/btree` and `github.com/petar/GoLLRB`;\n- Low memory overhead - no pointers per element, compact memory representation;\n- Easily serializable;\n\n### Tradeoffs\n- One per $N$ insert operations complexity falls down to $O(N)$, though amortized remains $O(\\log N)$. For real-time systems, it may introduce latency spikes for collections with millions of elements. Could be mitigated by async/background inserts.\n- For a small number of elements `Search()/Delete()` operations may take $O((\\log N)^2)$. 50% of elements take $O(\\log N)$ time, 75%  - $O(2\\log N)$, 87.5% - $O(3\\log N)$, etc.\n- When deleting long series of elements, a `Max()/Min()` operation can take $O(N/4)$. Amortized complexity for series of calls remains $O(\\log N)$.\n- When deleting long series of elements, iteration step can take $O(N/4)$. Amortized complexity for iteration over the whole collection remains $O(\\log N)$ per element.\n\n###  Benchmarks\n\nBenchmarks in comparison with [Google BTree](https://github.com/google/btree).\n\n#### Insert \nMeasures the time, allocs and allocated KBs to insert N unique random int64 values into an empty data structure. Both BWArr and BTree start empty and insert all values one by one.\n\n![Insert performance](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values.png?raw=true)\n![Insert Allocs](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_allocs.png?raw=true)\n![Insert Alloc_Bytes](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_bytes.png?raw=true)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fctjAjQX3xiCCt+lgMw3JU1PoQ/4tJL702r7vWB+xCs=",
+        "originContent": "## What is it?",
+        "translatedContent": "## What is it?"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "/LvMHn1DuJdMulpjf/0UyUL8G8JjWq3i5oBFnWgrSwk=",
+        "originContent": "[![CI](https://github.com/dronnix/bwarr/actions/workflows/ci.yml/badge.svg)](https://github.com/dronnix/bwarr/actions)",
+        "translatedContent": "[![CI](https://github.com/dronnix/bwarr/actions/workflows/ci.yml/badge.svg)](https://github.com/dronnix/bwarr/actions)"
+      },
+      {
+        "row": 4,
+        "rowsha": "f3Axe9x7+ld1WWbUySNkD/5tdZHa5XyBWlAqggzUMm8=",
+        "originContent": "[![codecov](https://codecov.io/gh/dronnix/bwarr/branch/main/graph/badge.svg)](https://codecov.io/gh/dronnix/bwarr)",
+        "translatedContent": "[![codecov](https://codecov.io/gh/dronnix/bwarr/branch/main/graph/badge.svg)](https://codecov.io/gh/dronnix/bwarr)"
+      },
+      {
+        "row": 5,
+        "rowsha": "TLTyHX8UNRmH38WSrvdbyhbcwD1G6h9vooH4nUN989Y=",
+        "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/dronnix/bwarr.svg)](https://pkg.go.dev/github.com/dronnix/bwarr)",
+        "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/dronnix/bwarr.svg)](https://pkg.go.dev/github.com/dronnix/bwarr)"
+      },
+      {
+        "row": 6,
+        "rowsha": "VDT6QiFPV9Bb/I8TlZ1hoeDZnyHk1IxRh1t0woa0TWk=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/dronnix/bwarr)](https://goreportcard.com/report/github.com/dronnix/bwarr)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/dronnix/bwarr)](https://goreportcard.com/report/github.com/dronnix/bwarr)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "F5T1MZxO47yRCqgqlD2Hza/gAIa9VACgUyr3NmXnAII=",
+        "originContent": "The Black-White Array (aka BWArr) is a fast, ordered data structure based on arrays with ***$O(\\log N)$*** **memory allocations**.",
+        "translatedContent": "The Black-White Array (aka BWArr) is a fast, ordered data structure based on arrays with ***$O(\\log N)$*** **memory allocations**."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "lhxbgBw4wghEwBUqgyyS4P0fmHLGNCWf8O44XgjbUmQ=",
+        "originContent": "## Data Structure",
+        "translatedContent": "## Data Structure"
+      },
+      {
+        "row": 11,
+        "rowsha": "lT+hp3xlMxyFfB74DQDXrmWasGpYsbZKh1+evR1yVFA=",
+        "originContent": "The idea of Black-White Array was invented and published by professor [Z. George Mou](https://www.cs.brandeis.edu/~mou/) in [Black-White Array: A New Data Structure for",
+        "translatedContent": "The idea of Black-White Array was invented and published by professor [Z. George Mou](https://www.cs.brandeis.edu/~mou/) in [Black-White Array: A New Data Structure for"
+      },
+      {
+        "row": 12,
+        "rowsha": "M88jdQzBqgNrpe/GKzgX35oT0iC4SP69w4KeTQwuWEk=",
+        "originContent": "Dynamic Data Sets](https://arxiv.org/abs/2004.09051). This repository contains the first public implementation.",
+        "translatedContent": "Dynamic Data Sets](https://arxiv.org/abs/2004.09051). This repository contains the first public implementation."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "HBp0lAzIVg9VpqK/MH3xN6yjeGxaf9rp9+r1ER+pgf8=",
+        "originContent": "![Professor Z. George Mou](https://www.cs.brandeis.edu/~mou/mou.gif)",
+        "translatedContent": "![Professor Z. George Mou](https://www.cs.brandeis.edu/~mou/mou.gif)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "VsZAU7rMiqkcGQQkOJ3W+qxWqhSie5CtfIHg7SMQNmM=",
+        "originContent": "### Key features:",
+        "translatedContent": "### Key features:"
+      },
+      {
+        "row": 17,
+        "rowsha": "v4E4bJsVVheMdOs3WVmzdrI25D5unfbTeDDEdS1iEdI=",
+        "originContent": "- $O(\\log N)$ memory allocations for Inserts - no pressure on GC;",
+        "translatedContent": "- $O(\\log N)$ memory allocations for Inserts - no pressure on GC;"
+      },
+      {
+        "row": 18,
+        "rowsha": "xGBrXjY5hyoWmP28SwmNbHjDhlCIMOWsMBwfXeQlbM4=",
+        "originContent": "- Fast insert, delete, and search operations $O(\\log N)$ time amortized complexity;",
+        "translatedContent": "- Fast insert, delete, and search operations $O(\\log N)$ time amortized complexity;"
+      },
+      {
+        "row": 19,
+        "rowsha": "hhEwea68Fw0WtuL5K+G64jRh1/AI+qCaIm49hmH5isw=",
+        "originContent": "- Array-based and pointerless makes it CPU-friendly: cache locality / sequential iteration / etc;",
+        "translatedContent": "- Array-based and pointerless makes it CPU-friendly: cache locality / sequential iteration / etc;"
+      },
+      {
+        "row": 20,
+        "rowsha": "5od857hbmPI7OMGNuTcFCe7MoahqPJuPG4IGFky7o/0=",
+        "originContent": "- Supports duplicate elements natively (multiset behavior) - no need for wrapping values into structs to make them unique;",
+        "translatedContent": "- Supports duplicate elements natively (multiset behavior) - no need for wrapping values into structs to make them unique;"
+      },
+      {
+        "row": 21,
+        "rowsha": "u36A0pQ7MGLbK5dId48ycI2vsL8Ywi3+Tinh5OTBSY0=",
+        "originContent": "- Drop-in replacement for `github.com/google/btree` and `github.com/petar/GoLLRB`;",
+        "translatedContent": "- Drop-in replacement for `github.com/google/btree` and `github.com/petar/GoLLRB`;"
+      },
+      {
+        "row": 22,
+        "rowsha": "xtIsidQ3Fpw8hjYwZ3ilWSW8sLwOLBjM9OR9JLrAkIg=",
+        "originContent": "- Low memory overhead - no pointers per element, compact memory representation;",
+        "translatedContent": "- Low memory overhead - no pointers per element, compact memory representation;"
+      },
+      {
+        "row": 23,
+        "rowsha": "V7ccYv6HkwovrJoi8MNZbpQ2I6a7Ko66AccpAJjA28Q=",
+        "originContent": "- Easily serializable;",
+        "translatedContent": "- Easily serializable;"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "9Tw02qGfo8Az15d1lUsKdVqCkG2vKQqoGI4nYbQ9oqE=",
+        "originContent": "### Tradeoffs",
+        "translatedContent": "### Tradeoffs"
+      },
+      {
+        "row": 26,
+        "rowsha": "0AcAfCkrXWBOOi43U0tG/ZvK3wYWD35Dj7EifTGZExE=",
+        "originContent": "- One per $N$ insert operations complexity falls down to $O(N)$, though amortized remains $O(\\log N)$. For real-time systems, it may introduce latency spikes for collections with millions of elements. Could be mitigated by async/background inserts.",
+        "translatedContent": "- One per $N$ insert operations complexity falls down to $O(N)$, though amortized remains $O(\\log N)$. For real-time systems, it may introduce latency spikes for collections with millions of elements. Could be mitigated by async/background inserts."
+      },
+      {
+        "row": 27,
+        "rowsha": "1j6+7whxS4ecUu2eBhLjFG1/Zs4NN8mffu+tm7OYj/o=",
+        "originContent": "- For a small number of elements `Search()/Delete()` operations may take $O((\\log N)^2)$. 50% of elements take $O(\\log N)$ time, 75%  - $O(2\\log N)$, 87.5% - $O(3\\log N)$, etc.",
+        "translatedContent": "- For a small number of elements `Search()/Delete()` operations may take $O((\\log N)^2)$. 50% of elements take $O(\\log N)$ time, 75%  - $O(2\\log N)$, 87.5% - $O(3\\log N)$, etc."
+      },
+      {
+        "row": 28,
+        "rowsha": "Wqyxt3DjWPNJ7KhmAS/iaPFt3lrP66jhd0VKmKMSBwc=",
+        "originContent": "- When deleting long series of elements, a `Max()/Min()` operation can take $O(N/4)$. Amortized complexity for series of calls remains $O(\\log N)$.",
+        "translatedContent": "- When deleting long series of elements, a `Max()/Min()` operation can take $O(N/4)$. Amortized complexity for series of calls remains $O(\\log N)$."
+      },
+      {
+        "row": 29,
+        "rowsha": "SWzpCPRJ+acBHR62n7XDnuOc49el5gMHTq1RMM/Nt+k=",
+        "originContent": "- When deleting long series of elements, iteration step can take $O(N/4)$. Amortized complexity for iteration over the whole collection remains $O(\\log N)$ per element.",
+        "translatedContent": "- When deleting long series of elements, iteration step can take $O(N/4)$. Amortized complexity for iteration over the whole collection remains $O(\\log N)$ per element."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "6Sr6QlnISrzNQZW95jJFGcO1MiRUwczDk+epeB9tRUw=",
+        "originContent": "###  Benchmarks",
+        "translatedContent": "###  Benchmarks"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "j1x17hX6Atmbql1gvlEa+VIYLEqtA5oPrMysec0IR24=",
+        "originContent": "Benchmarks in comparison with [Google BTree](https://github.com/google/btree).",
+        "translatedContent": "Benchmarks in comparison with [Google BTree](https://github.com/google/btree)."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "HqrKocB55lzSbj1/KE/mV08Z74262HVE4j7c7bXwxlQ=",
+        "originContent": "#### Insert ",
+        "translatedContent": "#### Insert "
+      },
+      {
+        "row": 36,
+        "rowsha": "4RR3PIgXbNWFd3xhWPqzZKydTDx/zB1fHk3qUCqqjl8=",
+        "originContent": "Measures the time, allocs and allocated KBs to insert N unique random int64 values into an empty data structure. Both BWArr and BTree start empty and insert all values one by one.",
+        "translatedContent": "Measures the time, allocs and allocated KBs to insert N unique random int64 values into an empty data structure. Both BWArr and BTree start empty and insert all values one by one."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "ii07x0LR4zPBbM8GNpeJFPrPR0xfVOBC2fWf5ica+N8=",
+        "originContent": "![Insert performance](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values.png?raw=true)",
+        "translatedContent": "![Insert performance](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values.png?raw=true)"
+      },
+      {
+        "row": 39,
+        "rowsha": "qYqJ3rjMwViqGpPsXDMfG18mjIXs3BjySSgt3AboSto=",
+        "originContent": "![Insert Allocs](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_allocs.png?raw=true)",
+        "translatedContent": "![Insert Allocs](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_allocs.png?raw=true)"
+      },
+      {
+        "row": 40,
+        "rowsha": "dCw5T/BT4B3a4sQ7XpDolGEEy7QKok9OFwJSOKP3jqM=",
+        "originContent": "![Insert Alloc_Bytes](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_bytes.png?raw=true)",
+        "translatedContent": "![Insert Alloc_Bytes](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_bytes.png?raw=true)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nAllocations on smaller values: \n\n![Insert Allocs small](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_performance_allocs_detailed.png?raw=true)\n\n\n#### Get \nMeasures the time to look up N values by their keys in a pre-populated data structure. The data structure is populated with all values before timing starts, then each value is retrieved by key.\n\n![Get performance](https://github.com/dronnix/bwarr-bench/blob/main/images/get_all_values_by_key.png?raw=true)\n\n#### Iterate\nMeasures the time to iterate through all N values in sorted and non-sorted orders.\n![Ordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/ordered_iteration_over_all_values.png?raw=true)\n![Unordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/unordered_iteration_over_all_values.png?raw=true)\n\n#### More benchmarks\nAdditional benchmarks and details are available in the [bwarr-bench](https://github.com/dronnix/bwarr-bench) repository.\nMore methods will be added, also expect separate benchmarks for AMD64 and ARM64 architectures.\n\n## Installation\n\nRequires Go 1.22 or higher.\n",
+    "ContentSha": "2/IAhx9f2aMl6gPKUuIVpjk464ikElqAdkL5/MbvzmQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAllocations on smaller values: \n\n![Insert Allocs small](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_performance_allocs_detailed.png?raw=true)\n\n\n#### Get \nMeasures the time to look up N values by their keys in a pre-populated data structure. The data structure is populated with all values before timing starts, then each value is retrieved by key.\n\n![Get performance](https://github.com/dronnix/bwarr-bench/blob/main/images/get_all_values_by_key.png?raw=true)\n\n#### Iterate\nMeasures the time to iterate through all N values in sorted and non-sorted orders.\n![Ordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/ordered_iteration_over_all_values.png?raw=true)\n![Unordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/unordered_iteration_over_all_values.png?raw=true)\n\n#### More benchmarks\nAdditional benchmarks and details are available in the [bwarr-bench](https://github.com/dronnix/bwarr-bench) repository.\nMore methods will be added, also expect separate benchmarks for AMD64 and ARM64 architectures.\n\n## Installation\n\nRequires Go 1.22 or higher.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "OidcerahqnRGY/GM92VNVt04LJ0olNd5lbt3OJgdjnw=",
+        "originContent": "Allocations on smaller values: ",
+        "translatedContent": "Allocations on smaller values: "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+JI4Yie/zFJL9tDuaFScVST0IirQU26IW1sSVwLyDRc=",
+        "originContent": "![Insert Allocs small](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_performance_allocs_detailed.png?raw=true)",
+        "translatedContent": "![Insert Allocs small](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_performance_allocs_detailed.png?raw=true)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "XoIoAa9AInz2wAarrOywOx+9vCcK4OiES64kBdh48fM=",
+        "originContent": "#### Get ",
+        "translatedContent": "#### Get "
+      },
+      {
+        "row": 8,
+        "rowsha": "G0IKDXF2geVqSK3UrScuBbAO7mPilqPUes/TeK12By8=",
+        "originContent": "Measures the time to look up N values by their keys in a pre-populated data structure. The data structure is populated with all values before timing starts, then each value is retrieved by key.",
+        "translatedContent": "Measures the time to look up N values by their keys in a pre-populated data structure. The data structure is populated with all values before timing starts, then each value is retrieved by key."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "sLQZAiiYHbZbGTAo0XJcpsDLukOTL8B1xhd68a3eKyw=",
+        "originContent": "![Get performance](https://github.com/dronnix/bwarr-bench/blob/main/images/get_all_values_by_key.png?raw=true)",
+        "translatedContent": "![Get performance](https://github.com/dronnix/bwarr-bench/blob/main/images/get_all_values_by_key.png?raw=true)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "bZagpuLHBBP+C9B5dB+KzpD3pjTJirXtLin5nIllt+0=",
+        "originContent": "#### Iterate",
+        "translatedContent": "#### Iterate"
+      },
+      {
+        "row": 13,
+        "rowsha": "2shQkhaUWirUKk76HnfvsvfR/FarXJsrNpjziy8hxkk=",
+        "originContent": "Measures the time to iterate through all N values in sorted and non-sorted orders.",
+        "translatedContent": "Measures the time to iterate through all N values in sorted and non-sorted orders."
+      },
+      {
+        "row": 14,
+        "rowsha": "HDn4oJJUZEXsXUVrOu+PSNz4y6Fq7SWdTuUhJvNqYIE=",
+        "originContent": "![Ordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/ordered_iteration_over_all_values.png?raw=true)",
+        "translatedContent": "![Ordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/ordered_iteration_over_all_values.png?raw=true)"
+      },
+      {
+        "row": 15,
+        "rowsha": "K4EF3bI/C4qsTtZk2XoL40RtZfapmKJIo4FrsUSOLmM=",
+        "originContent": "![Unordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/unordered_iteration_over_all_values.png?raw=true)",
+        "translatedContent": "![Unordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/unordered_iteration_over_all_values.png?raw=true)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "BkqUtJtdOrfGafmVtUgpEbe+g8QFYHXxAbehCbKWmeI=",
+        "originContent": "#### More benchmarks",
+        "translatedContent": "#### More benchmarks"
+      },
+      {
+        "row": 18,
+        "rowsha": "CBX08XJFfk8S7DkKH+RNq+5/ptRd67hckif3fGhzlL0=",
+        "originContent": "Additional benchmarks and details are available in the [bwarr-bench](https://github.com/dronnix/bwarr-bench) repository.",
+        "translatedContent": "Additional benchmarks and details are available in the [bwarr-bench](https://github.com/dronnix/bwarr-bench) repository."
+      },
+      {
+        "row": 19,
+        "rowsha": "XnozEj55MM1BGt5XdU7y6BBYi//Fzh0HNmu837Swuxs=",
+        "originContent": "More methods will be added, also expect separate benchmarks for AMD64 and ARM64 architectures.",
+        "translatedContent": "More methods will be added, also expect separate benchmarks for AMD64 and ARM64 architectures."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Uu+xmqV/fKPpi9t/noIBs/WuLdz3SB0ztHDn5pTFWdo=",
+        "originContent": "Requires Go 1.22 or higher.",
+        "translatedContent": "Requires Go 1.22 or higher."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ngo get github.com/dronnix/bwarr\n```",
+    "ContentSha": "XTVtwDdlRT9OW8vB8i7Dkziw6GDhctC/x87shb79cdw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo get github.com/dronnix/bwarr\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+cIokt71VHzGUqslicq8H19E7wZe1wcHSMZSa5racCw=",
+        "originContent": "go get github.com/dronnix/bwarr",
+        "translatedContent": "go get github.com/dronnix/bwarr"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nThen import in your code:\n",
+    "ContentSha": "u7r5xrIyyWKfjgtY6NvtwF0tJrUO99mNxGYIAYFLV7s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nThen import in your code:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wslLLeyZGhNrZrNZWL8gMzxRLI6+0vq/a07mZwNAN94=",
+        "originContent": "Then import in your code:",
+        "translatedContent": "Then import in your code:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```go\nimport \"github.com/dronnix/bwarr\"\n```",
+    "ContentSha": "zSVacSSw7VYcRCifvaMnhWFMXX+oqYW+HEN+8jKKanE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\nimport \"github.com/dronnix/bwarr\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "+RHL1UXHhHMBELSyIRZG72LUHKUHCJjg7IDNYmVFwIk=",
+        "originContent": "import \"github.com/dronnix/bwarr\"",
+        "translatedContent": "import \"github.com/dronnix/bwarr\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Usage\n\n### Basic Example\n",
+    "ContentSha": "NaAWiieRkxp7PFoZW8RwuSK7oZTQHr4NlJpC1w9SVuE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Usage\n\n### Basic Example\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gxLwD+JB2FVB2SJG/n+DrKPN4dWAEdMEmz0Zdz1iqII=",
+        "originContent": "### Basic Example",
+        "translatedContent": "### Basic Example"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```go\npackage main\n\nimport (\n    \"fmt\"\n\n    \"github.com/dronnix/bwarr\"\n)\n\nfunc main() {\n    // Create a BWArr with an integer comparison function\n    // The second parameter (10) is the initial capacity hint\n    bwa := bwarr.New(func(a, b int64) int {\n        return int(a - b)\n    }, 10)\n\n    // Insert elements\n    bwa.Insert(42)\n    bwa.Insert(17)\n    bwa.Insert(99)\n    bwa.Insert(23)\n    bwa.Insert(8)\n\n    fmt.Printf(\"Length: %d\\n\", bwa.Len()) // Output: Length: 5\n\n    // Get an element\n    val, found := bwa.Get(42)\n    if found {\n        fmt.Printf(\"Found: %d\\n\", val) // Output: Found: 42\n    }\n\n    // Delete an element\n    deleted, found := bwa.Delete(17)\n    if found {\n        fmt.Printf(\"Deleted: %d\\n\", deleted) // Output: Deleted: 17\n    }\n\n    // Iterate in ascending order\n    fmt.Println(\"Elements in sorted order:\")\n    bwa.Ascend(func(item int64) bool {\n        fmt.Printf(\"  %d\\n\", item)\n        return true // return false to stop iteration early\n    })\n    // Output:\n    //   8\n    //   23\n    //   42\n    //   99\n}\n```",
+    "ContentSha": "UQxtuErizG7v0y/mK0HJE9EMzvFhZrsILlIkMbMAQi0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\npackage main\n\nimport (\n    \"fmt\"\n\n    \"github.com/dronnix/bwarr\"\n)\n\nfunc main() {\n    // Create a BWArr with an integer comparison function\n    // The second parameter (10) is the initial capacity hint\n    bwa := bwarr.New(func(a, b int64) int {\n        return int(a - b)\n    }, 10)\n\n    // Insert elements\n    bwa.Insert(42)\n    bwa.Insert(17)\n    bwa.Insert(99)\n    bwa.Insert(23)\n    bwa.Insert(8)\n\n    fmt.Printf(\"Length: %d\\n\", bwa.Len()) // Output: Length: 5\n\n    // Get an element\n    val, found := bwa.Get(42)\n    if found {\n        fmt.Printf(\"Found: %d\\n\", val) // Output: Found: 42\n    }\n\n    // Delete an element\n    deleted, found := bwa.Delete(17)\n    if found {\n        fmt.Printf(\"Deleted: %d\\n\", deleted) // Output: Deleted: 17\n    }\n\n    // Iterate in ascending order\n    fmt.Println(\"Elements in sorted order:\")\n    bwa.Ascend(func(item int64) bool {\n        fmt.Printf(\"  %d\\n\", item)\n        return true // return false to stop iteration early\n    })\n    // Output:\n    //   8\n    //   23\n    //   42\n    //   99\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+        "originContent": "package main",
+        "translatedContent": "package main"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+        "originContent": "import (",
+        "translatedContent": "import ("
+      },
+      {
+        "row": 5,
+        "rowsha": "EAPr76oa8fzcs55id5iMP3Yuskg4xmO3RA1CduMJk7w=",
+        "originContent": "    \"fmt\"",
+        "translatedContent": "    \"fmt\""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZYLzygIzLZ+u8z4HcMT6DglYKAV72FuBxy4/lMElQHI=",
+        "originContent": "    \"github.com/dronnix/bwarr\"",
+        "translatedContent": "    \"github.com/dronnix/bwarr\""
+      },
+      {
+        "row": 8,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+        "originContent": "func main() {",
+        "translatedContent": "func main() {"
+      },
+      {
+        "row": 11,
+        "rowsha": "wpA6UOSqt0+JPEgKWgrGJLH5iaUzFw2i/GvL9EqZucs=",
+        "originContent": "    // Create a BWArr with an integer comparison function",
+        "translatedContent": "    // Create a BWArr with an integer comparison function"
+      },
+      {
+        "row": 12,
+        "rowsha": "goiRiS4n12pltw8ZPB5ikHQwc4yeVLyAtoCOMNS0RjQ=",
+        "originContent": "    // The second parameter (10) is the initial capacity hint",
+        "translatedContent": "    // The second parameter (10) is the initial capacity hint"
+      },
+      {
+        "row": 13,
+        "rowsha": "x3TOyRqbcyM19V+9uIhDF9bwGhkCBhB48z96ItQrkaU=",
+        "originContent": "    bwa := bwarr.New(func(a, b int64) int {",
+        "translatedContent": "    bwa := bwarr.New(func(a, b int64) int {"
+      },
+      {
+        "row": 14,
+        "rowsha": "zxAYRpEeKYRXYotcY+WrLpJlIufKeVk507zaCLk9mEU=",
+        "originContent": "        return int(a - b)",
+        "translatedContent": "        return int(a - b)"
+      },
+      {
+        "row": 15,
+        "rowsha": "ya7qeWF0cxsyrDN99p3mo17ToohLV9MC1zRk2Fcd9RE=",
+        "originContent": "    }, 10)",
+        "translatedContent": "    }, 10)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "bAM1NZpNBUpqALy9uDYAPsjt2TI63nO22PmP9wtJLY4=",
+        "originContent": "    // Insert elements",
+        "translatedContent": "    // Insert elements"
+      },
+      {
+        "row": 18,
+        "rowsha": "mXm5i9lxG6r92LNRH65xgFGp8vdmq/8S8QtX8swIkYo=",
+        "originContent": "    bwa.Insert(42)",
+        "translatedContent": "    bwa.Insert(42)"
+      },
+      {
+        "row": 19,
+        "rowsha": "R4qWm5N+oIlleetXE0isWJsPN4J0TNvwN6zFJcSmREg=",
+        "originContent": "    bwa.Insert(17)",
+        "translatedContent": "    bwa.Insert(17)"
+      },
+      {
+        "row": 20,
+        "rowsha": "rId2GLlgmVatBRJCImmch0Fv2++PaLHH11fGUfVkBqo=",
+        "originContent": "    bwa.Insert(99)",
+        "translatedContent": "    bwa.Insert(99)"
+      },
+      {
+        "row": 21,
+        "rowsha": "qCEK/1dgaDE1+m+0VBS3GcFzjBtCEqisDSYhBQS4NEo=",
+        "originContent": "    bwa.Insert(23)",
+        "translatedContent": "    bwa.Insert(23)"
+      },
+      {
+        "row": 22,
+        "rowsha": "T/ZTbwZGydl6pQ4ZhIB2gXgGIBOhVTSP+pHCk3Sb44M=",
+        "originContent": "    bwa.Insert(8)",
+        "translatedContent": "    bwa.Insert(8)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "bf2rifRYZbcXCKHUPz/Df5Eys5bfkt16U98wHmo7G9g=",
+        "originContent": "    fmt.Printf(\"Length: %d\\n\", bwa.Len()) // Output: Length: 5",
+        "translatedContent": "    fmt.Printf(\"Length: %d\\n\", bwa.Len()) // Output: Length: 5"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "hwakztqai1AAOTKGebkojXveB5lNoOZkB0h78AQLy54=",
+        "originContent": "    // Get an element",
+        "translatedContent": "    // Get an element"
+      },
+      {
+        "row": 27,
+        "rowsha": "D+3pXN4us+QD/FkjvyZZCnPy/P+N1TsMZ5Q3AM3bp9A=",
+        "originContent": "    val, found := bwa.Get(42)",
+        "translatedContent": "    val, found := bwa.Get(42)"
+      },
+      {
+        "row": 28,
+        "rowsha": "q6xHUShQC5fEzNLpCm4ArBmKwS2Rn4/0lb3pb50qJzQ=",
+        "originContent": "    if found {",
+        "translatedContent": "    if found {"
+      },
+      {
+        "row": 29,
+        "rowsha": "0FJ8IZFkbmOTFgMx64W9qdGCsTguCVX/soTmsj9lVwk=",
+        "originContent": "        fmt.Printf(\"Found: %d\\n\", val) // Output: Found: 42",
+        "translatedContent": "        fmt.Printf(\"Found: %d\\n\", val) // Output: Found: 42"
+      },
+      {
+        "row": 30,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "j4YT6nH0Hs5UGmco+WHoTnaBeP/of22YMgTbWWHU+CA=",
+        "originContent": "    // Delete an element",
+        "translatedContent": "    // Delete an element"
+      },
+      {
+        "row": 33,
+        "rowsha": "Nk85aCrfzi3uGawyDfp7DbDxI0Gurv6bL7duW4zCy5k=",
+        "originContent": "    deleted, found := bwa.Delete(17)",
+        "translatedContent": "    deleted, found := bwa.Delete(17)"
+      },
+      {
+        "row": 34,
+        "rowsha": "q6xHUShQC5fEzNLpCm4ArBmKwS2Rn4/0lb3pb50qJzQ=",
+        "originContent": "    if found {",
+        "translatedContent": "    if found {"
+      },
+      {
+        "row": 35,
+        "rowsha": "g9JcEYdwFXX1Gddk+IPfFnXJRLidKp2a2dZxY9pPn6E=",
+        "originContent": "        fmt.Printf(\"Deleted: %d\\n\", deleted) // Output: Deleted: 17",
+        "translatedContent": "        fmt.Printf(\"Deleted: %d\\n\", deleted) // Output: Deleted: 17"
+      },
+      {
+        "row": 36,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "fn6z9rxOrBBRmYQLQUWyLFDhb0U3/yoEllHloyeFOIA=",
+        "originContent": "    // Iterate in ascending order",
+        "translatedContent": "    // Iterate in ascending order"
+      },
+      {
+        "row": 39,
+        "rowsha": "lsuep/DvSmwCX72u5cMwFAgURM49a8VZdziMrfzJGjk=",
+        "originContent": "    fmt.Println(\"Elements in sorted order:\")",
+        "translatedContent": "    fmt.Println(\"Elements in sorted order:\")"
+      },
+      {
+        "row": 40,
+        "rowsha": "b8a3Nr7EY9GfDk9LkIoOUaUBY1Y9HX2bACOuNQ5rXE0=",
+        "originContent": "    bwa.Ascend(func(item int64) bool {",
+        "translatedContent": "    bwa.Ascend(func(item int64) bool {"
+      },
+      {
+        "row": 41,
+        "rowsha": "7SVYXGajHaBZT2TVGacb7X4ZhJypoE+yuSjPa8IEfnc=",
+        "originContent": "        fmt.Printf(\"  %d\\n\", item)",
+        "translatedContent": "        fmt.Printf(\"  %d\\n\", item)"
+      },
+      {
+        "row": 42,
+        "rowsha": "YiIu6ZXyvIbZlF4I8b/RVaWIuDN2ab3C3s3XEJQdEJQ=",
+        "originContent": "        return true // return false to stop iteration early",
+        "translatedContent": "        return true // return false to stop iteration early"
+      },
+      {
+        "row": 43,
+        "rowsha": "odBdVYeaD6cbal1IjtFl4g+1UKhbjDBNurRPY9Ce3gA=",
+        "originContent": "    })",
+        "translatedContent": "    })"
+      },
+      {
+        "row": 44,
+        "rowsha": "VpdKwUCATQ39+HCtu65BUROcmS2baH/5VQ069V8tQw4=",
+        "originContent": "    // Output:",
+        "translatedContent": "    // Output:"
+      },
+      {
+        "row": 45,
+        "rowsha": "oLL+GIb2u7BoJoN2egxsgm9wzrvLxnxF/4WEEw/Scu4=",
+        "originContent": "    //   8",
+        "translatedContent": "    //   8"
+      },
+      {
+        "row": 46,
+        "rowsha": "6p/oohRrVj92a2FC1A1Bu79bcRwlHz8bQaEviaebRyE=",
+        "originContent": "    //   23",
+        "translatedContent": "    //   23"
+      },
+      {
+        "row": 47,
+        "rowsha": "+zplU0FK57sxO9JgnktJ/zmp8ZKI5PwPZBGKsFR3GDk=",
+        "originContent": "    //   42",
+        "translatedContent": "    //   42"
+      },
+      {
+        "row": 48,
+        "rowsha": "fZE+9IEFvZoZsiSqCIsZe/9VYpOLJ1gPCZG7nCnbKUM=",
+        "originContent": "    //   99",
+        "translatedContent": "    //   99"
+      },
+      {
+        "row": 49,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 50,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n\n",
+    "ContentSha": "daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes/sHA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

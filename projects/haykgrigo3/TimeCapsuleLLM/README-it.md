@@ -9,22 +9,22 @@
 
 # TimeCapsule LLM
 
-*Un modello linguistico addestrato **da zero** esclusivamente su dati provenienti da determinati luoghi e periodi storici per ridurre il bias moderno ed emulare la voce, il vocabolario e la visione del mondo dell’epoca.*
+*Un modello linguistico addestrato **da zero** esclusivamente su dati provenienti da determinati luoghi e periodi storici per ridurre i bias moderni ed emulare la voce, il vocabolario e la visione del mondo dell'epoca.*
 
-Immagina se un modello AI non si limitasse a fingere di essere storico, ma lo fosse davvero.
+Immagina se un modello di IA non si limitasse a fingere di essere storico, ma lo fosse davvero.
 
-Le versioni v0 e v0.5 sono state costruite su [nanoGPT di Andrej Karpathy](https://github.com/karpathy/nanoGPT). Gli script di training principali e l’architettura del modello sono opera sua.
+v0 e v0.5 basati su [nanoGPT di Andrej Karpathy](https://github.com/karpathy/nanoGPT) Gli script principali di training e l'architettura del modello sono opera sua.
 
-La versione v1 è stata costruita su [Phi 1.5 di Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 basato su [Phi 1.5 di Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-La versione v2 è stata costruita su llamaforcausallm
+v2 basato su llamaforcausallm
 
 [Link Hugging Face](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
 ## Stato della Ricerca
 Questo progetto è stato avviato e sviluppato in modo indipendente.
 
-Attualmente è condotto sotto supervisione accademica, con una collaborazione di ricerca affiliata presso il Muhlenberg College.
+Attualmente viene condotto sotto supervisione accademica, con una collaborazione di ricerca affiliata presso Muhlenberg College & Georgia State University.
 
 ## Citazione
 
@@ -43,50 +43,64 @@ Se utilizzi questo dataset o modello in lavori accademici, cita:
 
 ## Unisciti al Discord di Vintage LLM
 
-Se sei interessato a **modelli linguistici storici**, **dataset specifici per epoca** o al futuro di progetti come **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox**, entra nella community.
+Se sei interessato a **modelli linguistici storici**, **dataset specifici per periodi storici** o al futuro di progetti come **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox**, entra a far parte della community.
 
-Usiamo il server per discutere idee, condividere progressi e connetterci con altri che lavorano in questo settore.
+Utilizziamo il server per discutere idee, condividere progressi e connetterci con altri che lavorano in questo settore.
 
 [Unisciti al Discord](https://discord.gg/JeWkk4z5)
 
-##  Comportamento del modello & Limitazioni
+## Sponsor
+
+<div align="center">
+  <a href="https://doloffer.com">
+    <img src="https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/logo.png" width="500">
+  </a>
+</div>
+
+Grazie a DolOffer per il supporto a questo progetto!
+
+DolOffer è una piattaforma focalizzata su raccomandazioni di prodotti digitali e condivisione di sconti, che aiuta gli utenti a scoprire rapidamente strumenti, servizi e offerte a tempo limitato. La piattaforma offre una varietà di servizi in abbonamento popolari, tra cui YouTube Premium, Claude, ChatGPT Plus, Spotify e Apple Music, con prezzi fino al 30% del prezzo ufficiale o anche meno.
+
+Registrati ora tramite questo link esclusivo [doloffer](https://doloffer.com/en/) ed inserisci il codice promozionale AI8888 al momento della ricarica per ottenere uno sconto aggiuntivo del 10%.
+
+##  Comportamento del Modello & Limitazioni
 
 ### **v0**  
 
-I primi prompt mostrano il modello rispondere con linguaggio e comportamento dell'800.
-Esempio: Prompt: "Who art Henry?" e ha risposto "I know that man, I have did not a black, the storm."
+I primi prompt mostrano il modello che risponde con linguaggio e comportamento dell'Ottocento. 
+Esempio: Prompt: "Chi è Henry?" e ha risposto "Conosco quell'uomo, non ho fatto un nero, la tempesta."
 
-![TimeCapsuleLLM Output di esempio](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Nessun riferimento a concetti moderni  
 - Vocabolario per lo più accurato per l'epoca  
-- Frasi per lo più incoerenti (atteso per dati di addestramento di ~187MB)
+- Le frasi sono per lo più incoerenti (previsto per ~187MB di dati di addestramento)
 
 ### **v0.5-london** 
 
-Un miglioramento significativo rispetto alla v0.
+Un notevole miglioramento rispetto alla v0.  
 - Stile di scrittura vittoriano, punteggiatura corretta, frasi per lo più grammaticali  
 - Tasso di allucinazione fattuale ancora elevato  
-- Rumore OCR (“Digitized by Google”) ancora presente negli output
+- Rumore OCR (“Digitalizzato da Google”) ancora presente nei risultati
 
-![TimeCapsuleLLM Output di esempio](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1-london**
 
-Primo modello a richiamare e collegare un vero evento storico con una figura reale dal dataset.
+Primo modello a ricordare e collegare un vero evento storico con una figura reale dal dataset.
 
-Esempio: Prompt: "It was the year of our Lord 1834"
+Esempio: Prompt: "Era l’anno del Signore 1834"
 
-L’output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
+L’output: "Era l’anno del Signore 1834 e le strade di Londra erano piene di proteste e petizioni. La causa, come molti hanno raccontato, non era vincolata nel modo privato, ma avendo preso lo stesso giorno nel giorno di Lord Palmerston, il pubblico riceverà una breve dichiarazione delle difficoltà sotto cui il giorno della legge ci è giunto. È motivo di profondo rammarico che gli eventi attuali nella storia del mondo siano chiari e, di conseguenza, saranno conosciuti. Non è vero che gli stessi uomini che per primi si stabilirono nel Vangelo a Gerusalemme dovrebbero avere un registro così esteso e così interessante della prosperità e prosperità"
 
-All’inizio ho supposto che una protesta potesse essere avvenuta casualmente nello stesso anno, ma guarda qui: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Inizialmente ho pensato che una protesta potesse essere avvenuta casualmente nello stesso anno, ma guarda qui: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1-london**
 
-Addestrato utilizzando un campione da 15GB del dataset v2 da 90GB.
+Addestrato utilizzando un campione di 15GB dal dataset di 90GB della v2.
 Modello addestrato solo per 10K step.
 
-C'è stato un problema con la tokenizzazione che fa sì che l'output appaia così:
+C’era un problema con la tokenizzazione che causa un output simile a questo:
 
 PROMPT:
 Chi è Charles Dickens?
@@ -95,42 +109,42 @@ Chi è Charles Dickens?
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
 Corretto:
 
-"Chi è Charles Dickens? Quell’opera suscita ancora di più il suo eccellente fermento, nelle sue commedie, nella fattoria della Grande Compagnia? Cosa devo ancora citare da Jack Pickett? Non sai che erano una specie di galoppata, o di segare i loro petti, o cosa si doveva fare nel periodo in cui Jackson guardava dalla finestra? Qual è il successo di un inglese, e cosa suo figlio non mi ha ancora rivelato, in modo da raggiungere un tale peso? Hai mai fatto un passaggio sulla vecchia strada, o a una brezza d’ancora ai piedi della nostra barca, che devi lasciarci? Il fatto è che, se il vento si alzerà dalla pianura sabato notte o a mezzogiorno, o fino al nord, o in altro modo, saremo costretti a descrivere una barriera formidabile, con gli stessi effetti dell’attuale. In questa situazione, almeno, non è esagerato dire che abbiamo lasciato quella stanza. Credo che ci siano tre copie nei ‘Cinque Centuplo’, a cui fare riferimento, come il primo numero dei nostri lettori che desiderano t[o]...”
+"Chi è Charles Dickens? Quella opera è forse un altro dei suoi eccellenti scritti emozionanti, nelle sue commedie, nella fattoria della Grande Compagnia? Cosa devo ancora citare da Jack Pickett? Non sapete che erano una specie di galoppata, o di segatura dei loro petti, o cosa si doveva fare nel periodo in cui Jackson guardava dalla finestra? Qual è il successo di un inglese, e che suo figlio non ha ancora scoperto per me, con cui realizzare un tale peso? Avete mai fatto un passaggio nella vecchia strada, o ad una brezza d'ancora ai piedi della nostra barca, che dovete lasciarci? Il fatto è che, sia che il vento si alzi dalla pianura il sabato sera o a mezzogiorno, o verso nord, o altro, saremo costretti a descrivere una barriera formidabile, con gli stessi effetti dell’attuale. In questa situazione, almeno, non è esagerato dire che abbiamo lasciato quella stanza. Credo che ci siano tre copie nei 'Cinque Cento Volte', a cui far riferimento, come il primo numero dei nostri lettori che desiderano [c]...”
 
 ### **v2mini-eval2-london**
 
-Addestrato utilizzando lo stesso campione da 15GB usato per l’addestramento di eval1.
-Il modello è stato nuovamente addestrato solo fino a 10.000 step.
+Addestrato utilizzando lo stesso campione da 15GB utilizzato per l'addestramento di eval1.
+Il modello è stato nuovamente addestrato solo fino a 10K step.
 
-PROMPT:Charles Darwin
+PROMPT: Charles Darwin
 
-Charles DarwinECCEMACY. Signore, — Il seguente caso mi interessa: — Sono stato a Londra per due settimane, e sono stato molto colpito da un attacco di reumatismo. Il primo attacco di reumatismo è stato una settimana prima che la vedessi, il secondo quando la vidi, e il terzo quando la vidi, e il terzo nello stesso periodo. Il secondo attacco di gotta, tuttavia, non era accompagnato da sintomi febbrili, ma era accompagnato da un aumento del flusso urinario e da una più abbondante escrezione di urina. Il terzo attacco è avvenuto un’ora dopo che l’ho vista, ed è stato seguito da un ritorno di un parossismo di gotta, e da un ritorno più rapido della gotta. Il quarto attacco è stato anch’esso accompagnato da febbre, ma non sempre accompagnato da sintomi febbrili. Il terzo attacco di gotta è avvenuto due settimane dopo che era stato male, e il quarto è stato seguito da un parossismo di gotta. Il quarto attacco è stato due settimane dopo che era stato colpito, ed è stato accompagnato da una sensazione
+Charles DarwinECCEMACY. Signore, — Il seguente caso mi interessa: — Sono stato a Londra per due settimane, e sono stato molto colpito da un attacco di reumatismo. Il primo attacco di reumatismo è stato una settimana prima che la vedessi, il secondo quando l’ho vista, e il terzo quando l’ho vista, e il terzo nello stesso periodo. Il secondo attacco di gotta, tuttavia, non è stato accompagnato da sintomi febbrili, ma da un aumento del flusso urinario, e da una più abbondante escrezione di urina. Il terzo attacco è stato un’ora dopo che l’ho vista, e fu seguito da un ritorno di un parossismo di gotta, e da un ritorno più rapido della gotta. Il quarto attacco fu anch’esso accompagnato da febbre, ma non sempre con sintomi febbrili. Il terzo attacco di gotta fu due settimane dopo che lei era stato male, e il quarto fu seguito da un parossismo di gotta. Il quarto attacco fu due settimane dopo che fu attaccato, e fu accompagnato da una sensazione
 
 ### **v2-london**
 
-Addestrato utilizzando un dataset da 90GB (112GB tokenizzato)
-Addestrato fino a 182.000 step 
+Addestrato usando un dataset da 90GB (112GB tokenizzato)
+Addestrato fino a 182K step
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+![TimeCapsuleLLM Output di esempio](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
+![TimeCapsuleLLM Output di esempio](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
 ### **E ora?**
 
-- Sviluppo avviato su TimeCapsuleLLM v3
-- Espansione della dimensione del dataset e della copertura geografica
-- Estensione oltre Londra ad altre città
+- È iniziato lo sviluppo di TimeCapsuleLLM v3
+- Si stanno ampliando le dimensioni del dataset e la copertura geografica
+- L’espansione va oltre Londra verso altre città
 
-Il lavoro è svolto in collaborazione con ricercatori dello University College London (UCL) e si sta discutendo un ulteriore coinvolgimento istituzionale. 
+Il lavoro è svolto in collaborazione con ricercatori del Muhlenberg College & della Georgia State University.
 
 
-##  Dataset
+##  Dati
 
 ### **v2**
 
-- 90GB (grezzi) di testi londinesi del 1800-1875
+- 90GB (grezzi) di testi londinesi dal 1800 al 1875
 - 136.344 documenti
-- Il dataset tokenizzato completo è ora disponibile qui: https://huggingface.co/datasets/postgrammar/london-llm-1800
+- Il dataset completamente tokenizzato è ora disponibile qui: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
 
 ### Statistiche sui Bias
@@ -218,26 +232,29 @@ GPU: A100 SXM noleggiata
 ### v2
 GPU: H100 SXM noleggiata
 
-## Lavori correlati
+## Lavori Correlati
 
 - **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
-  - LLM da 13B parametri addestrato su 260B token di testo precedenti al 1930 con Q&A. Esiste anche una versione [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base).
+  - Modello LLM da 13B parametri addestrato su 260B token di testi precedenti al 1930 con Q&A. Esiste anche una versione [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base).
  
 - **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
-  - LLM da 1,4B parametri addestrato su testi dal 1800 al 1899 con Q&A. Esiste anche una versione da [160M](https://huggingface.co/zakarth/violet-160m-chat).
+  - Modello LLM da 1.4B parametri addestrato su testi del periodo 1800-1899 con Q&A. Esiste anche una versione [160M](https://huggingface.co/zakarth/violet-160m-chat).
  
 - **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
-  - LLM da 340M parametri addestrato su oltre 28.000 testi tra il 1837 e il 1899 con Q&A.
+  - Modello LLM da 340M parametri addestrato su oltre 28.000 testi tra il 1837-1899 con Q&A. 
 
 - **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
-  - Una famiglia di LLM da 4B parametri basati sull'architettura Qwen3, addestrati da zero su 80B token di dati storici fino ai cutoff di conoscenza 1913,1929,1933,1939,1946.
+  - Una famiglia di LLM da 4B parametri basata sull’architettura Qwen3, addestrata da zero su 80B token di dati storici fino ai knowledge-cutoff 1913,1929,1933,1939,1946.
+ 
+- **[TypewriterLM](https://huggingface.co/typewriter-ai/typewriter-1913-7B-base)**
+  - Modello linguistico storico (LM) da 7.24B parametri preaddestrato esclusivamente su testi inglesi antecedenti al 1913. Creato da ricercatori delle Università di Waterloo, Adelaide, Oxford e University College London. [Link al paper](https://arxiv.org/abs/2606.02991)
 
 - **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
-  - MonadGPT è un finetuning di Mistral-Hermes 2 su 11.000 testi della prima età moderna in inglese, francese e latino, provenienti principalmente da EEBO e Gallica.
+  - MonadGPT è un fine-tune di Mistral-Hermes 2 su 11.000 testi di epoca moderna in inglese, francese e latino, provenienti principalmente da EEBO e Gallica.
 
 ## Ringraziamenti
 
-Vorrei ringraziare il [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) per la supervisione accademica, la guida nell'inquadramento e nella valutazione della ricerca, e per l'assistenza nell'addestramento del tokenizer e nella preparazione del dataset per il rilascio v2. I suoi feedback ed esperienza sono stati fondamentali per perfezionare la presentazione di questo lavoro.
+Vorrei ringraziare [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) per la supervisione accademica, l’orientamento nell’impostazione e valutazione della ricerca, e per l’assistenza nell’addestramento del tokenizer e nella preparazione del dataset per la release v2. Il suo feedback ed esperienza sono stati fondamentali nel perfezionare la presentazione di questo lavoro.
 
 
 
@@ -282,6 +299,6 @@ Vorrei ringraziare il [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) per la
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-08
 
 ---

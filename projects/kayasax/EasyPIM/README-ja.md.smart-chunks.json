@@ -1,0 +1,1276 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/kayasax/EasyPIM/main/docs/assets/logo_transparent.svg\" alt=\"EasyPIM logo\" width=\"180\">\n  <h1 align=\"center\">🛡️ EasyPIM</h1>\n  <p align=\"center\">\n    <strong>PowerShell automation for Azure Privileged Identity Management.</strong>\n  </p>\n  <p align=\"center\">\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/v/easypim?label=Core&logo=powershell&color=blue\" alt=\"Core Version\"></a>\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/v/EasyPIM.Orchestrator?label=Orchestrator&logo=powershell&color=blue\" alt=\"Orchestrator Version\"></a>\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/dt/easypim?label=Core%20Downloads&color=green\" alt=\"Core Downloads\"></a>\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/dt/EasyPIM.Orchestrator?label=Orchestrator%20Downloads&color=green\" alt=\"Orchestrator Downloads\"></a>\n    <a href=\"https://github.com/kayasax/EasyPIM/stargazers\"><img src=\"https://img.shields.io/github/stars/kayasax/EasyPIM?style=social\" alt=\"GitHub Stars\"></a>\n    <a href=\"https://github.com/kayasax/EasyPIM/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/kayasax/EasyPIM\" alt=\"License\"></a>\n  </p>\n</p>\n\n---\n\nBulk-harden role policies. Clone settings across roles. Export assignments. Detect configuration drift. Approve or deny requests. Deploy full PIM models from JSON.\n\n**One PowerShell module covering Azure Resources, Entra ID Roles, and Security Groups** — with cmdlets that do what the portal can't. Unified ARM and Graph APIs, 50+ commands, 4 Azure clouds.\n\n> 🌐 **Start here →** The **[EasyPIM Adoption Hub](https://kayasax.github.io/EasyPIM/)** walks you from first install to enterprise-grade PIM governance in three stages.\n\n## 🚀 Quick Start\n",
+    "ContentSha": "bykFVOOvtNs4fd5Xi4nOVciQ77ClqM0aXsUG/0eDHBY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/kayasax/EasyPIM/main/docs/assets/logo_transparent.svg\" alt=\"EasyPIM ロゴ\" width=\"180\">\n  <h1 align=\"center\">🛡️ EasyPIM</h1>\n  <p align=\"center\">\n    <strong>Azure Privileged Identity Management のための PowerShell 自動化。</strong>\n  </p>\n  <p align=\"center\">\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/v/easypim?label=Core&logo=powershell&color=blue\" alt=\"Core バージョン\"></a>\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/v/EasyPIM.Orchestrator?label=Orchestrator&logo=powershell&color=blue\" alt=\"Orchestrator バージョン\"></a>\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/dt/easypim?label=Core%20Downloads&color=green\" alt=\"Core ダウンロード数\"></a>\n    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/dt/EasyPIM.Orchestrator?label=Orchestrator%20Downloads&color=green\" alt=\"Orchestrator ダウンロード数\"></a>\n    <a href=\"https://github.com/kayasax/EasyPIM/stargazers\"><img src=\"https://img.shields.io/github/stars/kayasax/EasyPIM?style=social\" alt=\"GitHub スター数\"></a>\n    <a href=\"https://github.com/kayasax/EasyPIM/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/kayasax/EasyPIM\" alt=\"ライセンス\"></a>\n  </p>\n</p>\n\n---\n\nロールポリシーの一括強化。ロール間で設定をクローン。割り当てをエクスポート。構成のドリフトを検出。要求の承認または拒否。JSONから完全なPIMモデルを展開。\n\n**Azure リソース、Entra ID ロール、セキュリティグループをカバーする単一の PowerShell モジュール** — ポータルではできないことを実現するコマンドレット群。統合された ARM と Graph API、50以上のコマンド、4つの Azure クラウド対応。\n\n> 🌐 **ここから始める →** **[EasyPIM Adoption Hub](https://kayasax.github.io/EasyPIM/)** は、初回インストールからエンタープライズレベルの PIM ガバナンスまでを三段階で案内します。\n\n## 🚀 クイックスタート\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "XpohTtJCad9SNcYnVZTWscIQfd9cpnMmlbgayhHbrSQ=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/kayasax/EasyPIM/main/docs/assets/logo_transparent.svg\" alt=\"EasyPIM logo\" width=\"180\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/kayasax/EasyPIM/main/docs/assets/logo_transparent.svg\" alt=\"EasyPIM ロゴ\" width=\"180\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "BgEbfEGSSNnt0UkCMVdb+DafdOS3VCru2A3b2vKWAZ0=",
+        "originContent": "  <h1 align=\"center\">🛡️ EasyPIM</h1>",
+        "translatedContent": "  <h1 align=\"center\">🛡️ EasyPIM</h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "bxjJn5W5U4615UwnNH02Y8/BQYk3ChIXDUAi1KtQj40=",
+        "originContent": "  <p align=\"center\">",
+        "translatedContent": "  <p align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "FvyIntkPqH7J5fWsbuRqU+px94/Qp7KlWm3YUv3XWpY=",
+        "originContent": "    <strong>PowerShell automation for Azure Privileged Identity Management.</strong>",
+        "translatedContent": "    <strong>Azure Privileged Identity Management のための PowerShell 自動化。</strong>"
+      },
+      {
+        "row": 6,
+        "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
+        "originContent": "  </p>",
+        "translatedContent": "  </p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "bxjJn5W5U4615UwnNH02Y8/BQYk3ChIXDUAi1KtQj40=",
+        "originContent": "  <p align=\"center\">",
+        "translatedContent": "  <p align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "1Uj545ePZZKJJyX6kxm/p39c+cE1DwPjo6Lv14Sob0s=",
+        "originContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/v/easypim?label=Core&logo=powershell&color=blue\" alt=\"Core Version\"></a>",
+        "translatedContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/v/easypim?label=Core&logo=powershell&color=blue\" alt=\"Core バージョン\"></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "5R/E1a/4l0GsfP+mW8Of5wK39r+1AyrWjLPNNIRUNx0=",
+        "originContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/v/EasyPIM.Orchestrator?label=Orchestrator&logo=powershell&color=blue\" alt=\"Orchestrator Version\"></a>",
+        "translatedContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/v/EasyPIM.Orchestrator?label=Orchestrator&logo=powershell&color=blue\" alt=\"Orchestrator バージョン\"></a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "ClS/fpecNM0UL9/gGoBr9FdeOve3ju73Yf6/JOHFbco=",
+        "originContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/dt/easypim?label=Core%20Downloads&color=green\" alt=\"Core Downloads\"></a>",
+        "translatedContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM\"><img src=\"https://img.shields.io/powershellgallery/dt/easypim?label=Core%20Downloads&color=green\" alt=\"Core ダウンロード数\"></a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "Crccx2dGgbCgnAz0Li0kfHkEQmb+TEg3xVzuWMaTDq0=",
+        "originContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/dt/EasyPIM.Orchestrator?label=Orchestrator%20Downloads&color=green\" alt=\"Orchestrator Downloads\"></a>",
+        "translatedContent": "    <a href=\"https://www.powershellgallery.com/packages/EasyPIM.Orchestrator\"><img src=\"https://img.shields.io/powershellgallery/dt/EasyPIM.Orchestrator?label=Orchestrator%20Downloads&color=green\" alt=\"Orchestrator ダウンロード数\"></a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "xdKfIfDhoGF4LQMr8Ysm9Vny+RW9Np2bNsdJo7DMExc=",
+        "originContent": "    <a href=\"https://github.com/kayasax/EasyPIM/stargazers\"><img src=\"https://img.shields.io/github/stars/kayasax/EasyPIM?style=social\" alt=\"GitHub Stars\"></a>",
+        "translatedContent": "    <a href=\"https://github.com/kayasax/EasyPIM/stargazers\"><img src=\"https://img.shields.io/github/stars/kayasax/EasyPIM?style=social\" alt=\"GitHub スター数\"></a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "cirxQ30v3C9CRMq/QCEjnpOW7AcjTNZW3mx70xdKLTk=",
+        "originContent": "    <a href=\"https://github.com/kayasax/EasyPIM/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/kayasax/EasyPIM\" alt=\"License\"></a>",
+        "translatedContent": "    <a href=\"https://github.com/kayasax/EasyPIM/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/kayasax/EasyPIM\" alt=\"ライセンス\"></a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
+        "originContent": "  </p>",
+        "translatedContent": "  </p>"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "4M9U3DKGN3WscNGrK5xMFP7APubq/ZKplxUGcDYMLfE=",
+        "originContent": "Bulk-harden role policies. Clone settings across roles. Export assignments. Detect configuration drift. Approve or deny requests. Deploy full PIM models from JSON.",
+        "translatedContent": "ロールポリシーの一括強化。ロール間で設定をクローン。割り当てをエクスポート。構成のドリフトを検出。要求の承認または拒否。JSONから完全なPIMモデルを展開。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "IpAuGfa1EwpDyPFsjmxgGWHBPtHAn7kIAXKxqYeCCwI=",
+        "originContent": "**One PowerShell module covering Azure Resources, Entra ID Roles, and Security Groups** — with cmdlets that do what the portal can't. Unified ARM and Graph APIs, 50+ commands, 4 Azure clouds.",
+        "translatedContent": "**Azure リソース、Entra ID ロール、セキュリティグループをカバーする単一の PowerShell モジュール** — ポータルではできないことを実現するコマンドレット群。統合された ARM と Graph API、50以上のコマンド、4つの Azure クラウド対応。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "B3yZRV8yM8l51zumBBnAbjZAdyIzS/bi8KjHnlFjjBw=",
+        "originContent": "> 🌐 **Start here →** The **[EasyPIM Adoption Hub](https://kayasax.github.io/EasyPIM/)** walks you from first install to enterprise-grade PIM governance in three stages.",
+        "translatedContent": "> 🌐 **ここから始める →** **[EasyPIM Adoption Hub](https://kayasax.github.io/EasyPIM/)** は、初回インストールからエンタープライズレベルの PIM ガバナンスまでを三段階で案内します。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 クイックスタート"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```powershell\nInstall-Module EasyPIM, EasyPIM.Orchestrator -Force\n\n# Harden 3 Entra roles in one shot — try that in the portal\nSet-PIMEntraRolePolicy -TenantID $tenantId `\n    -RoleName \"Global Administrator\",\"Security Administrator\",\"Exchange Administrator\" `\n    -ActivationRequirement \"Justification\",\"Ticketing\",\"MultiFactorAuthentication\" `\n    -ActivationDuration \"PT4H\"\n\n# Audit every eligible assignment across a subscription\nGet-PIMAzureResourceEligibleAssignment -TenantID $tenantId -SubscriptionId $subId\n\n# Deploy a full PIM model from JSON — Entra + Azure + Groups in one run\nInvoke-EasyPIMOrchestrator -TenantId $tenantId -ConfigurationPath \"./pim-config.json\"\n```",
+    "ContentSha": "4K/0UkCszWgWIBam/hP6bYHK4CUbTfou3KrNlbpttX4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\nInstall-Module EasyPIM, EasyPIM.Orchestrator -Force\n\n# Harden 3 Entra roles in one shot — try that in the portal\nSet-PIMEntraRolePolicy -TenantID $tenantId `\n    -RoleName \"Global Administrator\",\"Security Administrator\",\"Exchange Administrator\" `\n    -ActivationRequirement \"Justification\",\"Ticketing\",\"MultiFactorAuthentication\" `\n    -ActivationDuration \"PT4H\"\n\n# Audit every eligible assignment across a subscription\nGet-PIMAzureResourceEligibleAssignment -TenantID $tenantId -SubscriptionId $subId\n\n# Deploy a full PIM model from JSON — Entra + Azure + Groups in one run\nInvoke-EasyPIMOrchestrator -TenantId $tenantId -ConfigurationPath \"./pim-config.json\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "/auM4TTByQIMi1LA8X+DV9EQkQFgP0ATyl+Z68ucc6M=",
+        "originContent": "Install-Module EasyPIM, EasyPIM.Orchestrator -Force",
+        "translatedContent": "Install-Module EasyPIM, EasyPIM.Orchestrator -Force"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "sy6YRwNS2Sz07dcnXSipblQzVFfb61wwxFsc4yN2eMk=",
+        "originContent": "# Harden 3 Entra roles in one shot — try that in the portal",
+        "translatedContent": "# Harden 3 Entra roles in one shot — try that in the portal"
+      },
+      {
+        "row": 5,
+        "rowsha": "1zArjSqINY/zfeNGxAIbfLJ9Qf5iep1M8Y7iX+X1R4Y=",
+        "originContent": "Set-PIMEntraRolePolicy -TenantID $tenantId `",
+        "translatedContent": "Set-PIMEntraRolePolicy -TenantID $tenantId `"
+      },
+      {
+        "row": 6,
+        "rowsha": "yRkbwCZQCzWok2T/T1nBAvMH39L6VCswYm3zemTMpk8=",
+        "originContent": "    -RoleName \"Global Administrator\",\"Security Administrator\",\"Exchange Administrator\" `",
+        "translatedContent": "    -RoleName \"Global Administrator\",\"Security Administrator\",\"Exchange Administrator\" `"
+      },
+      {
+        "row": 7,
+        "rowsha": "ISI4q6Hn3avaKmDbW8m9rAZ7UyBac+3XUiSuPh8ZK9k=",
+        "originContent": "    -ActivationRequirement \"Justification\",\"Ticketing\",\"MultiFactorAuthentication\" `",
+        "translatedContent": "    -ActivationRequirement \"Justification\",\"Ticketing\",\"MultiFactorAuthentication\" `"
+      },
+      {
+        "row": 8,
+        "rowsha": "2zgcNKiNqonOArwCROd9fQlQ9rlZIYT3bNoM91kP6WQ=",
+        "originContent": "    -ActivationDuration \"PT4H\"",
+        "translatedContent": "    -ActivationDuration \"PT4H\""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LqQhmvfXgaFHwuDkj+LzyU6/tH71CJbeB0g+p1K+pJE=",
+        "originContent": "# Audit every eligible assignment across a subscription",
+        "translatedContent": "# Audit every eligible assignment across a subscription"
+      },
+      {
+        "row": 11,
+        "rowsha": "BaVBEm9l7WbP56xQgx3X/+M83LpMtSu12jL41GaNbt8=",
+        "originContent": "Get-PIMAzureResourceEligibleAssignment -TenantID $tenantId -SubscriptionId $subId",
+        "translatedContent": "Get-PIMAzureResourceEligibleAssignment -TenantID $tenantId -SubscriptionId $subId"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "OYkmzzHek06+x7i+YF2W7V2Im7qy9uozWkLcREdVF/o=",
+        "originContent": "# Deploy a full PIM model from JSON — Entra + Azure + Groups in one run",
+        "translatedContent": "# Deploy a full PIM model from JSON — Entra + Azure + Groups in one run"
+      },
+      {
+        "row": 14,
+        "rowsha": "FrfSplydjJ1Rx/4gyyenkr0IIFiC2tM4OP29dV1BCZo=",
+        "originContent": "Invoke-EasyPIMOrchestrator -TenantId $tenantId -ConfigurationPath \"./pim-config.json\"",
+        "translatedContent": "Invoke-EasyPIMOrchestrator -TenantId $tenantId -ConfigurationPath \"./pim-config.json\""
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## ✨ Things The Portal Can't Do\n\n| | |\n|---|---|\n| ⚡ **Bulk-harden roles** | Set MFA + justification + ticketing on 30 roles in one command |\n| 🔄 **Clone role settings** | Copy a hardened policy to other roles/users — no manual re-clicking |\n| 📊 **Export & import** | Assignments to CSV, full configs to JSON — audit-ready in seconds |\n| 🔍 **Detect policy drift** | Compare live state vs declared config, get a diff report |\n| 🏢 **CI/CD governance** | GitHub Actions & Azure DevOps ([Event-Driven Demo](https://github.com/kayasax/EasyPIM-EventDriven-Governance)) |\n| ☁️ **Multi-cloud** | Public, Government, China, Germany — same cmdlets everywhere |\n| 🔗 **Unified ARM + Graph** | One module abstracts both APIs — no context-switching |\n\n---\n\n## 📦 Install\n",
+    "ContentSha": "1YaGnNkymsNdFSrIY8jcSJY0M+qrbZIhRxHlpXHheOk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## ✨ ポータルでできないこと\n\n| | |\n|---|---|\n| ⚡ **ロールの一括強化** | 30のロールに対してMFA＋正当化＋チケット発行を一括設定 |\n| 🔄 **ロール設定のクローン** | 強化済みポリシーを他のロールやユーザーにコピー — 手動で再クリック不要 |\n| 📊 **エクスポート＆インポート** | 割り当てをCSVに、完全設定をJSONに — 数秒で監査準備完了 |\n| 🔍 **ポリシードリフト検出** | ライブ状態と宣言済み設定を比較し、差分レポートを取得 |\n| 🏢 **CI/CDガバナンス** | GitHub Actions＆Azure DevOps（[イベント駆動デモ](https://github.com/kayasax/EasyPIM-EventDriven-Governance)） |\n| ☁️ **マルチクラウド対応** | パブリック、政府、中国、ドイツ — どこでも同じコマンドレット |\n| 🔗 **統合ARM＋Graph** | 1つのモジュールで両APIを抽象化 — コンテキスト切り替え不要 |\n\n---\n\n## 📦 インストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "zZearlSzU2Wzd3GJhbN848MNElJEK7s47GSVXnraoqs=",
+        "originContent": "## ✨ Things The Portal Can't Do",
+        "translatedContent": "## ✨ ポータルでできないこと"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "3b12Pv1xQ/qHWTia5rGQC2+f0r9tzw8Pxpw9o3d/OX0=",
+        "originContent": "| | |",
+        "translatedContent": "| | |"
+      },
+      {
+        "row": 7,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 8,
+        "rowsha": "fMjBbvATnt1bDVfpaJ4R2yToG98fpcC5VM+WIpNAkTU=",
+        "originContent": "| ⚡ **Bulk-harden roles** | Set MFA + justification + ticketing on 30 roles in one command |",
+        "translatedContent": "| ⚡ **ロールの一括強化** | 30のロールに対してMFA＋正当化＋チケット発行を一括設定 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "K/qzROdkzyEEB+RO7jQmHxv2Eoc+bCYsuzZwtxBkAlE=",
+        "originContent": "| 🔄 **Clone role settings** | Copy a hardened policy to other roles/users — no manual re-clicking |",
+        "translatedContent": "| 🔄 **ロール設定のクローン** | 強化済みポリシーを他のロールやユーザーにコピー — 手動で再クリック不要 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "YoJfp/xU0OUYEsQjXVBKhgBWif+yAHVW55ZHUhgGpCQ=",
+        "originContent": "| 📊 **Export & import** | Assignments to CSV, full configs to JSON — audit-ready in seconds |",
+        "translatedContent": "| 📊 **エクスポート＆インポート** | 割り当てをCSVに、完全設定をJSONに — 数秒で監査準備完了 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "SHMEHNN+ZFcS2B7Yv1dfUg3HZk5TF2/cUtUadOX/+mg=",
+        "originContent": "| 🔍 **Detect policy drift** | Compare live state vs declared config, get a diff report |",
+        "translatedContent": "| 🔍 **ポリシードリフト検出** | ライブ状態と宣言済み設定を比較し、差分レポートを取得 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "QHtx0h+YFT0Q6RC+BQyltvMH/Ep3aJ4X258owdgCK/E=",
+        "originContent": "| 🏢 **CI/CD governance** | GitHub Actions & Azure DevOps ([Event-Driven Demo](https://github.com/kayasax/EasyPIM-EventDriven-Governance)) |",
+        "translatedContent": "| 🏢 **CI/CDガバナンス** | GitHub Actions＆Azure DevOps（[イベント駆動デモ](https://github.com/kayasax/EasyPIM-EventDriven-Governance)） |"
+      },
+      {
+        "row": 13,
+        "rowsha": "1p0ZPy0Ff2v52tebzBxiNCTXaUYS3r4q1CpfhHy5LW4=",
+        "originContent": "| ☁️ **Multi-cloud** | Public, Government, China, Germany — same cmdlets everywhere |",
+        "translatedContent": "| ☁️ **マルチクラウド対応** | パブリック、政府、中国、ドイツ — どこでも同じコマンドレット |"
+      },
+      {
+        "row": 14,
+        "rowsha": "TNEBhEZNldlPxizkOCb6hctePm0R9of8BSsgZmDQlqA=",
+        "originContent": "| 🔗 **Unified ARM + Graph** | One module abstracts both APIs — no context-switching |",
+        "translatedContent": "| 🔗 **統合ARM＋Graph** | 1つのモジュールで両APIを抽象化 — コンテキスト切り替え不要 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "oIWOw/o+LmdswwY+UCz9BBOST57cDk6r6Wxdf+6Kc1E=",
+        "originContent": "## 📦 Install",
+        "translatedContent": "## 📦 インストール"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```powershell\nInstall-Module EasyPIM, EasyPIM.Orchestrator -Scope CurrentUser\n```",
+    "ContentSha": "HzHbynzPIvz4QBw14hpG/iyUrVTFmXhlPXgUFMYNr8Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\nInstall-Module EasyPIM, EasyPIM.Orchestrator -Scope CurrentUser\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "FIOIIX68JqiG+y93sB/tNLQLBtZPOMruhGzItjEiFP8=",
+        "originContent": "Install-Module EasyPIM, EasyPIM.Orchestrator -Scope CurrentUser",
+        "translatedContent": "Install-Module EasyPIM, EasyPIM.Orchestrator -Scope CurrentUser"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n| Requirement | Details |\n|---|---|\n| PowerShell | 5.1+ or 7.0+ |\n| Modules | `Az.Accounts`, `Microsoft.Graph.Authentication` (auto-installed) |\n| Azure Resources | `Owner` or `User Access Administrator` on the subscription |\n| Entra ID / Groups | Graph permissions: `RoleManagement.ReadWrite.Directory`, `RoleManagementPolicy.ReadWrite.Directory`, and [others](https://github.com/kayasax/EasyPIM/wiki/Documentation) |\n\n---\n\n## 📖 Learn More\n\n| | |\n|---|---|\n| **[🌐 Adoption Hub](https://kayasax.github.io/EasyPIM/)** | **Three-stage journey: quick-starts, best practices, enterprise patterns** |\n| [📋 Full Documentation](https://github.com/kayasax/EasyPIM/wiki/Documentation) | In-depth guides and API reference |\n| [🎯 Use Cases & Examples](https://github.com/kayasax/EasyPIM/wiki/Use-Cases) | Real-world implementation scenarios |\n| [🏗 Orchestrator Guide](https://github.com/kayasax/EasyPIM/wiki/Invoke%E2%80%90EasyPIMOrchestrator-step%E2%80%90by%E2%80%90step-guide) | JSON-driven workflows step-by-step |\n| [🔄 Migration v1→v2](https://github.com/kayasax/EasyPIM/wiki/Module-Migration) | Upgrading from v1.x |\n| [📝 Changelog](https://github.com/kayasax/EasyPIM/wiki/Changelog) | Version history |\n\n---\n\n## 🔧 Two Modules, One Platform\n\n| Module | Purpose | Key Commands |\n|---|---|---|\n| **EasyPIM** (Core) | Direct PIM API management — policies, assignments, approvals | `Get-PIM*`, `Set-PIM*`, `New-PIM*` |\n| **EasyPIM.Orchestrator** | JSON workflows, drift detection, business rules, CI/CD | `Invoke-EasyPIMOrchestrator`, `Test-PIMPolicyDrift` |\n\n<details>\n<summary>Click to expand the full cmdlet list (50+)</summary>\n\n### Azure Resource Roles\n\n| Cmdlet | Description |\n|---|---|\n| `Get-PIMAzureResourcePolicy` | Get role policy settings |\n| `Set-PIMAzureResourcePolicy` | Configure activation requirements, duration, approvers |\n| `Get-PIMAzureResourceEligibleAssignment` | List eligible assignments |",
+    "ContentSha": "E9D5LdEwJ6YoEppWBs0XLgSvgeVp4yFUZJGmEJMGFi8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| 要件 | 詳細 |\n|---|---|\n| PowerShell | 5.1+ または 7.0+ |\n| モジュール | `Az.Accounts`、`Microsoft.Graph.Authentication`（自動インストール） |\n| Azure リソース | サブスクリプションの `Owner` または `User Access Administrator` |\n| Entra ID / グループ | グラフ権限: `RoleManagement.ReadWrite.Directory`、`RoleManagementPolicy.ReadWrite.Directory`、および[その他](https://github.com/kayasax/EasyPIM/wiki/Documentation) |\n\n---\n\n## 📖 詳細情報\n\n| | |\n|---|---|\n| **[🌐 Adoption Hub](https://kayasax.github.io/EasyPIM/)** | **3段階の旅程：クイックスタート、ベストプラクティス、エンタープライズパターン** |\n| [📋 完全ドキュメント](https://github.com/kayasax/EasyPIM/wiki/Documentation) | 詳細なガイドとAPIリファレンス |\n| [🎯 ユースケース＆例](https://github.com/kayasax/EasyPIM/wiki/Use-Cases) | 実際の導入シナリオ |\n| [🏗 オーケストレーターガイド](https://github.com/kayasax/EasyPIM/wiki/Invoke%E2%80%90EasyPIMOrchestrator-step%E2%80%90by%E2%80%90step-guide) | JSON駆動ワークフローのステップバイステップ |\n| [🔄 v1→v2 移行](https://github.com/kayasax/EasyPIM/wiki/Module-Migration) | v1.xからのアップグレード |\n| [📝 変更履歴](https://github.com/kayasax/EasyPIM/wiki/Changelog) | バージョン履歴 |\n\n---\n\n## 🔧 2つのモジュール、1つのプラットフォーム\n\n| モジュール | 目的 | 主なコマンド |\n|---|---|---|\n| **EasyPIM**（コア） | 直接PIM API管理 — ポリシー、割り当て、承認 | `Get-PIM*`、`Set-PIM*`、`New-PIM*` |\n| **EasyPIM.Orchestrator** | JSONワークフロー、ドリフト検出、ビジネスルール、CI/CD | `Invoke-EasyPIMOrchestrator`、`Test-PIMPolicyDrift` |\n\n<details>\n<summary>クリックして全コマンドリストを展開（50以上）</summary>\n\n### Azureリソースロール\n\n| コマンドレット | 説明 |\n|---|---|\n| `Get-PIMAzureResourcePolicy` | ロールポリシー設定の取得 |\n| `Set-PIMAzureResourcePolicy` | アクティベーション要件、期間、承認者の設定 |\n| `Get-PIMAzureResourceEligibleAssignment` | 対象割り当ての一覧取得 |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 要件 | 詳細 |"
+      },
+      {
+        "row": 2,
+        "rowsha": "FhHNLaU2jBTtNTL5Np//KmiK14UMUSUu0caKhMUezgc=",
+        "originContent": "| Requirement | Details |",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 3,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "| PowerShell | 5.1+ または 7.0+ |"
+      },
+      {
+        "row": 4,
+        "rowsha": "axqQlqB04BzSJMtfUIFZFi5AZgzP6h/uqA377IQA5MU=",
+        "originContent": "| PowerShell | 5.1+ or 7.0+ |",
+        "translatedContent": "| モジュール | `Az.Accounts`、`Microsoft.Graph.Authentication`（自動インストール） |"
+      },
+      {
+        "row": 5,
+        "rowsha": "CZ9CPGS0CREOEdSEauWbhXOpUtDhdaND1YceBah0ApU=",
+        "originContent": "| Modules | `Az.Accounts`, `Microsoft.Graph.Authentication` (auto-installed) |",
+        "translatedContent": "| Azure リソース | サブスクリプションの `Owner` または `User Access Administrator` |"
+      },
+      {
+        "row": 6,
+        "rowsha": "blRYwhEP6hLMA+malByPqMJUX613w9Rw4sa4iSfTn7Q=",
+        "originContent": "| Azure Resources | `Owner` or `User Access Administrator` on the subscription |",
+        "translatedContent": "| Entra ID / グループ | グラフ権限: `RoleManagement.ReadWrite.Directory`、`RoleManagementPolicy.ReadWrite.Directory`、および[その他](https://github.com/kayasax/EasyPIM/wiki/Documentation) |"
+      },
+      {
+        "row": 7,
+        "rowsha": "aYRMJPoL3A2n+cfrBdleFNJbYKssN0pgVBTdiB6+6uQ=",
+        "originContent": "| Entra ID / Groups | Graph permissions: `RoleManagement.ReadWrite.Directory`, `RoleManagementPolicy.ReadWrite.Directory`, and [others](https://github.com/kayasax/EasyPIM/wiki/Documentation) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📖 詳細情報"
+      },
+      {
+        "row": 11,
+        "rowsha": "KsKdGHn8+MVpZUDyQ0kpLOsR3YvjDkwGdyCrIV4mz3I=",
+        "originContent": "## 📖 Learn More",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| | |"
+      },
+      {
+        "row": 13,
+        "rowsha": "3b12Pv1xQ/qHWTia5rGQC2+f0r9tzw8Pxpw9o3d/OX0=",
+        "originContent": "| | |",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 14,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "| **[🌐 Adoption Hub](https://kayasax.github.io/EasyPIM/)** | **3段階の旅程：クイックスタート、ベストプラクティス、エンタープライズパターン** |"
+      },
+      {
+        "row": 15,
+        "rowsha": "2nz9YYbjGQ95owlhfyWvE7TtpmN3TH/JJKayr8WSXXQ=",
+        "originContent": "| **[🌐 Adoption Hub](https://kayasax.github.io/EasyPIM/)** | **Three-stage journey: quick-starts, best practices, enterprise patterns** |",
+        "translatedContent": "| [📋 完全ドキュメント](https://github.com/kayasax/EasyPIM/wiki/Documentation) | 詳細なガイドとAPIリファレンス |"
+      },
+      {
+        "row": 16,
+        "rowsha": "AxZ8oDNWHuFKfEYc4nFyF3LO5nzGlEhKT4Gm2zGb8WE=",
+        "originContent": "| [📋 Full Documentation](https://github.com/kayasax/EasyPIM/wiki/Documentation) | In-depth guides and API reference |",
+        "translatedContent": "| [🎯 ユースケース＆例](https://github.com/kayasax/EasyPIM/wiki/Use-Cases) | 実際の導入シナリオ |"
+      },
+      {
+        "row": 17,
+        "rowsha": "LuhzLoogbjMhbUEg/fBQt9bKIlgrKl7DvgQyeVUpx6Y=",
+        "originContent": "| [🎯 Use Cases & Examples](https://github.com/kayasax/EasyPIM/wiki/Use-Cases) | Real-world implementation scenarios |",
+        "translatedContent": "| [🏗 オーケストレーターガイド](https://github.com/kayasax/EasyPIM/wiki/Invoke%E2%80%90EasyPIMOrchestrator-step%E2%80%90by%E2%80%90step-guide) | JSON駆動ワークフローのステップバイステップ |"
+      },
+      {
+        "row": 18,
+        "rowsha": "eGrv69Ow1eP+aXE59xWhULXkm64hO3NeTSMJIXmtt2s=",
+        "originContent": "| [🏗 Orchestrator Guide](https://github.com/kayasax/EasyPIM/wiki/Invoke%E2%80%90EasyPIMOrchestrator-step%E2%80%90by%E2%80%90step-guide) | JSON-driven workflows step-by-step |",
+        "translatedContent": "| [🔄 v1→v2 移行](https://github.com/kayasax/EasyPIM/wiki/Module-Migration) | v1.xからのアップグレード |"
+      },
+      {
+        "row": 19,
+        "rowsha": "dFx4qYlIO+Iyz5yIvjLBvVCrIqzS/ajkZf6jKcoF+pI=",
+        "originContent": "| [🔄 Migration v1→v2](https://github.com/kayasax/EasyPIM/wiki/Module-Migration) | Upgrading from v1.x |",
+        "translatedContent": "| [📝 変更履歴](https://github.com/kayasax/EasyPIM/wiki/Changelog) | バージョン履歴 |"
+      },
+      {
+        "row": 20,
+        "rowsha": "smDVNi7E7idmk/yGutTojQALImiorU+njKJPcLGPH8g=",
+        "originContent": "| [📝 Changelog](https://github.com/kayasax/EasyPIM/wiki/Changelog) | Version history |",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔧 2つのモジュール、1つのプラットフォーム"
+      },
+      {
+        "row": 24,
+        "rowsha": "l/8W06jAFBOMKjDqA2xapeJWHoqggtne90WOSW9BAtg=",
+        "originContent": "## 🔧 Two Modules, One Platform",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| モジュール | 目的 | 主なコマンド |"
+      },
+      {
+        "row": 26,
+        "rowsha": "X3A6bVDAqpzvsvjXRRkjU4fPLOhIPlV2+x+uvyIPxWI=",
+        "originContent": "| Module | Purpose | Key Commands |",
+        "translatedContent": "|---|---|---|"
+      },
+      {
+        "row": 27,
+        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
+        "originContent": "|---|---|---|",
+        "translatedContent": "| **EasyPIM**（コア） | 直接PIM API管理 — ポリシー、割り当て、承認 | `Get-PIM*`、`Set-PIM*`、`New-PIM*` |"
+      },
+      {
+        "row": 28,
+        "rowsha": "5BhlmxJaYcQrMq3tvJmkvqhij8slQfkzxbfBqZVocVY=",
+        "originContent": "| **EasyPIM** (Core) | Direct PIM API management — policies, assignments, approvals | `Get-PIM*`, `Set-PIM*`, `New-PIM*` |",
+        "translatedContent": "| **EasyPIM.Orchestrator** | JSONワークフロー、ドリフト検出、ビジネスルール、CI/CD | `Invoke-EasyPIMOrchestrator`、`Test-PIMPolicyDrift` |"
+      },
+      {
+        "row": 29,
+        "rowsha": "PR0RTCdIk90uaKpnZSK7NcpI0mjG7YphpBVlXAC9zmo=",
+        "originContent": "| **EasyPIM.Orchestrator** | JSON workflows, drift detection, business rules, CI/CD | `Invoke-EasyPIMOrchestrator`, `Test-PIMPolicyDrift` |",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>クリックして全コマンドリストを展開（50以上）</summary>"
+      },
+      {
+        "row": 32,
+        "rowsha": "370Y/2D1hdUpG79bNt9cm3MPnNLR9R2z+OiR5YwrS1E=",
+        "originContent": "<summary>Click to expand the full cmdlet list (50+)</summary>",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Azureリソースロール"
+      },
+      {
+        "row": 34,
+        "rowsha": "6ouVSMysL8onSEyTn4522BLU2BDzOMJJKZEXK6DOt60=",
+        "originContent": "### Azure Resource Roles",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| コマンドレット | 説明 |"
+      },
+      {
+        "row": 36,
+        "rowsha": "04Lgq6FjYHc5WkbEaU4uas4CjF/qPFQdKLf2CKiUQ6A=",
+        "originContent": "| Cmdlet | Description |",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 37,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "| `Get-PIMAzureResourcePolicy` | ロールポリシー設定の取得 |"
+      },
+      {
+        "row": 38,
+        "rowsha": "RTREmLeBm/H2WA9+jhnGdevHObOOx39FrUquhKe65lM=",
+        "originContent": "| `Get-PIMAzureResourcePolicy` | Get role policy settings |",
+        "translatedContent": "| `Set-PIMAzureResourcePolicy` | アクティベーション要件、期間、承認者の設定 |"
+      },
+      {
+        "row": 39,
+        "rowsha": "XLAZ7jR9Wzz37B6XJ7kdZIjNidxS2XkYmJ4D3QMMk2Y=",
+        "originContent": "| `Set-PIMAzureResourcePolicy` | Configure activation requirements, duration, approvers |",
+        "translatedContent": "| `Get-PIMAzureResourceEligibleAssignment` | 対象割り当ての一覧取得 |"
+      },
+      {
+        "row": 40,
+        "rowsha": "mwWS4zsfWYRcrt+Tx1Hkzu+UIPuvVN4D/kWSnwmz5bI=",
+        "originContent": "| `Get-PIMAzureResourceEligibleAssignment` | List eligible assignments |",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "| `New-PIMAzureResourceEligibleAssignment` | Create eligible assignment |\n| `Remove-PIMAzureResourceEligibleAssignment` | Remove eligible assignment |\n| `Get-PIMAzureResourceActiveAssignment` | List active assignments |\n| `New-PIMAzureResourceActiveAssignment` | Create active assignment |\n| `Remove-PIMAzureResourceActiveAssignment` | Remove active assignment |\n\n### Entra ID Roles\n\n| Cmdlet | Description |\n|---|---|\n| `Get-PIMEntraRolePolicy` | Get Entra role policy settings |\n| `Set-PIMEntraRolePolicy` | Configure activation requirements, MFA, approvers |\n| `Get-PIMEntraRoleEligibleAssignment` | List eligible assignments |\n| `New-PIMEntraRoleEligibleAssignment` | Create eligible assignment |\n| `Remove-PIMEntraRoleEligibleAssignment` | Remove eligible assignment |\n| `Get-PIMEntraRoleActiveAssignment` | List active assignments |\n| `New-PIMEntraRoleActiveAssignment` | Create active assignment |\n| `Remove-PIMEntraRoleActiveAssignment` | Remove active assignment |\n\n### Groups\n\n| Cmdlet | Description |\n|---|---|\n| `Get-PIMGroupPolicy` | Get group PIM policy settings |\n| `Set-PIMGroupPolicy` | Configure group activation requirements |\n| `Get-PIMGroupEligibleAssignment` | List eligible group assignments |\n| `New-PIMGroupEligibleAssignment` | Create eligible group assignment |\n| `Remove-PIMGroupEligibleAssignment` | Remove eligible group assignment |\n| `Get-PIMGroupActiveAssignment` | List active group assignments |\n| `New-PIMGroupActiveAssignment` | Create active group assignment |\n| `Remove-PIMGroupActiveAssignment` | Remove active group assignment |\n\n### Operations & Utilities\n\n| Cmdlet | Description |\n|---|---|\n| `Approve-PIMPendingRequest` | Approve pending activation requests |\n| `Deny-PIMPendingRequest` | Deny pending activation requests |\n| `Get-PIMReport` | PIM activity analytics and audit trails |\n| `Backup-PIMConfiguration` | Full PIM state backup |",
+    "ContentSha": "Kmlp3QaUZXOUq69nruWN1WJjGxuUHP70Nz6vdP2tGQE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| `New-PIMAzureResourceEligibleAssignment` | 適格割り当てを作成 |\n| `Remove-PIMAzureResourceEligibleAssignment` | 適格割り当てを削除 |\n| `Get-PIMAzureResourceActiveAssignment` | アクティブな割り当てを一覧表示 |\n| `New-PIMAzureResourceActiveAssignment` | アクティブな割り当てを作成 |\n| `Remove-PIMAzureResourceActiveAssignment` | アクティブな割り当てを削除 |\n\n### Entra ID ロール\n\n| Cmdlet | 説明 |\n|---|---|\n| `Get-PIMEntraRolePolicy` | Entra ロールポリシー設定を取得 |\n| `Set-PIMEntraRolePolicy` | アクティベーション要件、MFA、承認者を構成 |\n| `Get-PIMEntraRoleEligibleAssignment` | 適格割り当てを一覧表示 |\n| `New-PIMEntraRoleEligibleAssignment` | 適格割り当てを作成 |\n| `Remove-PIMEntraRoleEligibleAssignment` | 適格割り当てを削除 |\n| `Get-PIMEntraRoleActiveAssignment` | アクティブな割り当てを一覧表示 |\n| `New-PIMEntraRoleActiveAssignment` | アクティブな割り当てを作成 |\n| `Remove-PIMEntraRoleActiveAssignment` | アクティブな割り当てを削除 |\n\n### グループ\n\n| Cmdlet | 説明 |\n|---|---|\n| `Get-PIMGroupPolicy` | グループ PIM ポリシー設定を取得 |\n| `Set-PIMGroupPolicy` | グループのアクティベーション要件を構成 |\n| `Get-PIMGroupEligibleAssignment` | 適格なグループ割り当てを一覧表示 |\n| `New-PIMGroupEligibleAssignment` | 適格なグループ割り当てを作成 |\n| `Remove-PIMGroupEligibleAssignment` | 適格なグループ割り当てを削除 |\n| `Get-PIMGroupActiveAssignment` | アクティブなグループ割り当てを一覧表示 |\n| `New-PIMGroupActiveAssignment` | アクティブなグループ割り当てを作成 |\n| `Remove-PIMGroupActiveAssignment` | アクティブなグループ割り当てを削除 |\n\n### 操作とユーティリティ\n\n| Cmdlet | 説明 |\n|---|---|\n| `Approve-PIMPendingRequest` | 保留中のアクティベーション要求を承認 |\n| `Deny-PIMPendingRequest` | 保留中のアクティベーション要求を拒否 |\n| `Get-PIMReport` | PIM アクティビティ分析および監査証跡 |\n| `Backup-PIMConfiguration` | PIM 状態の完全バックアップ |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xdcKOtzhjfezM9Er606QhLvKTdyfcTm3MIQyq5x0PKE=",
+        "originContent": "| `New-PIMAzureResourceEligibleAssignment` | Create eligible assignment |",
+        "translatedContent": "| `New-PIMAzureResourceEligibleAssignment` | 適格割り当てを作成 |"
+      },
+      {
+        "row": 2,
+        "rowsha": "vckVY2T0N8JzhM+ChYL7GRivNmUzVCc2x18yLFwHolI=",
+        "originContent": "| `Remove-PIMAzureResourceEligibleAssignment` | Remove eligible assignment |",
+        "translatedContent": "| `Remove-PIMAzureResourceEligibleAssignment` | 適格割り当てを削除 |"
+      },
+      {
+        "row": 3,
+        "rowsha": "TxcJ8kwPkB9qZSVD6j4yMHP7Gf/DH06Mb7JmQbqUVjE=",
+        "originContent": "| `Get-PIMAzureResourceActiveAssignment` | List active assignments |",
+        "translatedContent": "| `Get-PIMAzureResourceActiveAssignment` | アクティブな割り当てを一覧表示 |"
+      },
+      {
+        "row": 4,
+        "rowsha": "2zHJF3AZqNtBGgyINYOUgSsH6+y32QPT+f93RfQX8qI=",
+        "originContent": "| `New-PIMAzureResourceActiveAssignment` | Create active assignment |",
+        "translatedContent": "| `New-PIMAzureResourceActiveAssignment` | アクティブな割り当てを作成 |"
+      },
+      {
+        "row": 5,
+        "rowsha": "/r54toBwDUHyDjvKxi+4MyOXplK5HKH8vayZhIaizzU=",
+        "originContent": "| `Remove-PIMAzureResourceActiveAssignment` | Remove active assignment |",
+        "translatedContent": "| `Remove-PIMAzureResourceActiveAssignment` | アクティブな割り当てを削除 |"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "m7xswKgINYVSdwTMqAW6HUoiqXCO0b0obO0FCuO2FSg=",
+        "originContent": "### Entra ID Roles",
+        "translatedContent": "### Entra ID ロール"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "04Lgq6FjYHc5WkbEaU4uas4CjF/qPFQdKLf2CKiUQ6A=",
+        "originContent": "| Cmdlet | Description |",
+        "translatedContent": "| Cmdlet | 説明 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 11,
+        "rowsha": "Wma7ghGBHYeMi7EhJuOpTvarOhWBZOjuUbxPFuZzPzU=",
+        "originContent": "| `Get-PIMEntraRolePolicy` | Get Entra role policy settings |",
+        "translatedContent": "| `Get-PIMEntraRolePolicy` | Entra ロールポリシー設定を取得 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "jzC7/WJyufE3dhOs59TuZqZ3+PvF5mj/OFrVHBmyZ3o=",
+        "originContent": "| `Set-PIMEntraRolePolicy` | Configure activation requirements, MFA, approvers |",
+        "translatedContent": "| `Set-PIMEntraRolePolicy` | アクティベーション要件、MFA、承認者を構成 |"
+      },
+      {
+        "row": 13,
+        "rowsha": "lx3jEcS8DJf78CqrU6Gzw9bIga6f3SORSpO8rdB0XoQ=",
+        "originContent": "| `Get-PIMEntraRoleEligibleAssignment` | List eligible assignments |",
+        "translatedContent": "| `Get-PIMEntraRoleEligibleAssignment` | 適格割り当てを一覧表示 |"
+      },
+      {
+        "row": 14,
+        "rowsha": "qqPYpY9y6BgbMwF+rmiMD3A50/hbOAlcX0iCf0th0h4=",
+        "originContent": "| `New-PIMEntraRoleEligibleAssignment` | Create eligible assignment |",
+        "translatedContent": "| `New-PIMEntraRoleEligibleAssignment` | 適格割り当てを作成 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "4qHB0P86RUAH+XATp4UN8L3gs+bztfdKsgZ2mFx7TVg=",
+        "originContent": "| `Remove-PIMEntraRoleEligibleAssignment` | Remove eligible assignment |",
+        "translatedContent": "| `Remove-PIMEntraRoleEligibleAssignment` | 適格割り当てを削除 |"
+      },
+      {
+        "row": 16,
+        "rowsha": "AqEFGZwTqyaLL0wq+nS+F4BWDDicMiq8X8xWZ3KCxS0=",
+        "originContent": "| `Get-PIMEntraRoleActiveAssignment` | List active assignments |",
+        "translatedContent": "| `Get-PIMEntraRoleActiveAssignment` | アクティブな割り当てを一覧表示 |"
+      },
+      {
+        "row": 17,
+        "rowsha": "z9cztqaCkJjAB+692FW5WQ3RpKxfFQLtClVx8l9g2OQ=",
+        "originContent": "| `New-PIMEntraRoleActiveAssignment` | Create active assignment |",
+        "translatedContent": "| `New-PIMEntraRoleActiveAssignment` | アクティブな割り当てを作成 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "PcBmVhuC8lvDmCDrpNZbjHHCYFMa6wzCzsOo5zb6980=",
+        "originContent": "| `Remove-PIMEntraRoleActiveAssignment` | Remove active assignment |",
+        "translatedContent": "| `Remove-PIMEntraRoleActiveAssignment` | アクティブな割り当てを削除 |"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "XwpGkmoPc1A3RN7b39HMZH4trj3oNPCyPOnhbfE+09I=",
+        "originContent": "### Groups",
+        "translatedContent": "### グループ"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "04Lgq6FjYHc5WkbEaU4uas4CjF/qPFQdKLf2CKiUQ6A=",
+        "originContent": "| Cmdlet | Description |",
+        "translatedContent": "| Cmdlet | 説明 |"
+      },
+      {
+        "row": 23,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 24,
+        "rowsha": "O+lmQc1jQYXAc86LMQFS/ADHcbJ30fKmpbrxNho0dfo=",
+        "originContent": "| `Get-PIMGroupPolicy` | Get group PIM policy settings |",
+        "translatedContent": "| `Get-PIMGroupPolicy` | グループ PIM ポリシー設定を取得 |"
+      },
+      {
+        "row": 25,
+        "rowsha": "PZhucl0vh3RwGOlyjUFtkviRr7gZZzEsnc6p/kOotcc=",
+        "originContent": "| `Set-PIMGroupPolicy` | Configure group activation requirements |",
+        "translatedContent": "| `Set-PIMGroupPolicy` | グループのアクティベーション要件を構成 |"
+      },
+      {
+        "row": 26,
+        "rowsha": "fV8ivVmNOC+Db24y6AZnY4+hmd2tn2xPYmtlqMYROsw=",
+        "originContent": "| `Get-PIMGroupEligibleAssignment` | List eligible group assignments |",
+        "translatedContent": "| `Get-PIMGroupEligibleAssignment` | 適格なグループ割り当てを一覧表示 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "BH3cLvQdVUwrXaxlAAYXYOLyAENDp18cFyMNVFGeSa8=",
+        "originContent": "| `New-PIMGroupEligibleAssignment` | Create eligible group assignment |",
+        "translatedContent": "| `New-PIMGroupEligibleAssignment` | 適格なグループ割り当てを作成 |"
+      },
+      {
+        "row": 28,
+        "rowsha": "Pdt7HRxSuoBwvjBulYnrasI1cF+OAHS5mCX6AuQ8DJI=",
+        "originContent": "| `Remove-PIMGroupEligibleAssignment` | Remove eligible group assignment |",
+        "translatedContent": "| `Remove-PIMGroupEligibleAssignment` | 適格なグループ割り当てを削除 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "gPfrPSv43+nhZ9IIzUGYiGmm0qpmJnNJyeL+PArXsXc=",
+        "originContent": "| `Get-PIMGroupActiveAssignment` | List active group assignments |",
+        "translatedContent": "| `Get-PIMGroupActiveAssignment` | アクティブなグループ割り当てを一覧表示 |"
+      },
+      {
+        "row": 30,
+        "rowsha": "66mJkJxfW0yBPRThBWzUB6Oj487isWMaY8FQCjxcm4U=",
+        "originContent": "| `New-PIMGroupActiveAssignment` | Create active group assignment |",
+        "translatedContent": "| `New-PIMGroupActiveAssignment` | アクティブなグループ割り当てを作成 |"
+      },
+      {
+        "row": 31,
+        "rowsha": "V0Cdp3r2yJTa9t9bSMXh8mVkJTfup6ZEN3DxMCvAWGQ=",
+        "originContent": "| `Remove-PIMGroupActiveAssignment` | Remove active group assignment |",
+        "translatedContent": "| `Remove-PIMGroupActiveAssignment` | アクティブなグループ割り当てを削除 |"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "k4fra3LRrE3lHtUB3xGwKZU3+Ex5TWowL1CPdZksoUI=",
+        "originContent": "### Operations & Utilities",
+        "translatedContent": "### 操作とユーティリティ"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "04Lgq6FjYHc5WkbEaU4uas4CjF/qPFQdKLf2CKiUQ6A=",
+        "originContent": "| Cmdlet | Description |",
+        "translatedContent": "| Cmdlet | 説明 |"
+      },
+      {
+        "row": 36,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 37,
+        "rowsha": "6sHITPoEBcHZT/0QwCggEA/XHR+tP284AmnsKn51YXU=",
+        "originContent": "| `Approve-PIMPendingRequest` | Approve pending activation requests |",
+        "translatedContent": "| `Approve-PIMPendingRequest` | 保留中のアクティベーション要求を承認 |"
+      },
+      {
+        "row": 38,
+        "rowsha": "8RhjeHnaAHL8Vm0guh6n9bV3KsLDdAFqTr8TGvWlqVw=",
+        "originContent": "| `Deny-PIMPendingRequest` | Deny pending activation requests |",
+        "translatedContent": "| `Deny-PIMPendingRequest` | 保留中のアクティベーション要求を拒否 |"
+      },
+      {
+        "row": 39,
+        "rowsha": "yj9AgU9V8nDw83O1XvLM0PIHabJKJ4Zfu3fY+qAG3Os=",
+        "originContent": "| `Get-PIMReport` | PIM activity analytics and audit trails |",
+        "translatedContent": "| `Get-PIMReport` | PIM アクティビティ分析および監査証跡 |"
+      },
+      {
+        "row": 40,
+        "rowsha": "0PNYM0CqhOqKJrvupG68e20Iz1FyMGslyNYRskjtgpE=",
+        "originContent": "| `Backup-PIMConfiguration` | Full PIM state backup |",
+        "translatedContent": "| `Backup-PIMConfiguration` | PIM 状態の完全バックアップ |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "| `Restore-PIMConfiguration` | Restore from backup |\n| `Copy-PIMRoleSettings` | Clone settings between roles |\n| `Export-PIMAssignment` | Export assignments to CSV |\n| `Import-PIMAssignment` | Import assignments from CSV |\n\n### Orchestrator\n\n| Cmdlet | Description |\n|---|---|\n| `Invoke-EasyPIMOrchestrator` | Deploy complete PIM configuration from JSON |\n| `Test-PIMPolicyDrift` | Detect policy drift against declared state |\n| `Test-PIMEndpointDiscovery` | Connectivity and permissions validation |\n\n</details>\n\n---\n\n## 🌐 Coverage\n\n**3 PIM scopes**: Azure Resources (subscription, management group, resource group) · Entra ID Roles · Security Groups\n\n**4 clouds**: Public · Government · China · Germany\n\n---\n\n## 🤝 Related Projects\n\n| | |\n|---|---|\n| **[EasyTCM](https://github.com/kayasax/EasyTCM)** | Tenant Configuration Monitoring — detect config drift across Entra, Exchange, Intune, Teams & Compliance |\n| **[Event-Driven Governance](https://github.com/kayasax/EasyPIM-EventDriven-Governance)** | Production CI/CD demo: GitHub Actions + Azure DevOps + Event Grid |\n\n---\n\n## 🤝 Contributing\n\nSee [CONTRIBUTING.md](https://raw.githubusercontent.com/kayasax/EasyPIM/main/CONTRIBUTING.md) for guidelines.\n\n### Contributors\n",
+    "ContentSha": "x9sKZkNp0Px8XoelvH7KOGxiPrz3EmA6tMgsutgvSJw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| `Restore-PIMConfiguration` | バックアップから復元 |\n| `Copy-PIMRoleSettings` | ロール間で設定を複製 |\n| `Export-PIMAssignment` | 割り当てをCSVにエクスポート |\n| `Import-PIMAssignment` | CSVから割り当てをインポート |\n\n### オーケストレーター\n\n| Cmdlet | 説明 |\n|---|---|\n| `Invoke-EasyPIMOrchestrator` | JSONから完全なPIM構成を展開 |\n| `Test-PIMPolicyDrift` | 宣言された状態に対するポリシードリフトを検出 |\n| `Test-PIMEndpointDiscovery` | 接続性と権限の検証 |\n\n</details>\n\n---\n\n## 🌐 対応範囲\n\n**3つのPIMスコープ**: Azureリソース（サブスクリプション、管理グループ、リソースグループ）· Entra IDロール · セキュリティグループ\n\n**4つのクラウド**: パブリック · ガバメント · 中国 · ドイツ\n\n---\n\n## 🤝 関連プロジェクト\n\n| | |\n|---|---|\n| **[EasyTCM](https://github.com/kayasax/EasyTCM)** | テナント構成監視 — Entra、Exchange、Intune、Teams、コンプライアンス間の構成ドリフトを検出 |\n| **[Event-Driven Governance](https://github.com/kayasax/EasyPIM-EventDriven-Governance)** | 本番CI/CDデモ: GitHub Actions + Azure DevOps + Event Grid |\n\n---\n\n## 🤝 コントリビューション\n\nガイドラインは[CONTRIBUTING.md](https://raw.githubusercontent.com/kayasax/EasyPIM/main/CONTRIBUTING.md)を参照してください。\n\n### コントリビューター\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5tiik6s1cyUkYPTVtX6jV+Fp+eMIqFm0zZ7ZmVRLxeY=",
+        "originContent": "| `Restore-PIMConfiguration` | Restore from backup |",
+        "translatedContent": "| `Restore-PIMConfiguration` | バックアップから復元 |"
+      },
+      {
+        "row": 2,
+        "rowsha": "axMSwo2zpY+okL6/GrOB6K4Qj5fRekQRZO8KOnGd4rU=",
+        "originContent": "| `Copy-PIMRoleSettings` | Clone settings between roles |",
+        "translatedContent": "| `Copy-PIMRoleSettings` | ロール間で設定を複製 |"
+      },
+      {
+        "row": 3,
+        "rowsha": "XzcfA1fXrs3y9EkqZTUjrTwE0RpCU9N/QD1oSzxr+UM=",
+        "originContent": "| `Export-PIMAssignment` | Export assignments to CSV |",
+        "translatedContent": "| `Export-PIMAssignment` | 割り当てをCSVにエクスポート |"
+      },
+      {
+        "row": 4,
+        "rowsha": "Iu/7ylTzFCyzbnkYHzU6PW6+Qm5KgDipy+RspA05Ftw=",
+        "originContent": "| `Import-PIMAssignment` | Import assignments from CSV |",
+        "translatedContent": "| `Import-PIMAssignment` | CSVから割り当てをインポート |"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "cYMInPYcTJgFPOIet1AvmBS98kDlyD2phRw6bm4d6DA=",
+        "originContent": "### Orchestrator",
+        "translatedContent": "### オーケストレーター"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "04Lgq6FjYHc5WkbEaU4uas4CjF/qPFQdKLf2CKiUQ6A=",
+        "originContent": "| Cmdlet | Description |",
+        "translatedContent": "| Cmdlet | 説明 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 10,
+        "rowsha": "fQdDM8uaNNjPNbGZehrrH9q2Nl2tz20Yyhdl4p/Ne7Y=",
+        "originContent": "| `Invoke-EasyPIMOrchestrator` | Deploy complete PIM configuration from JSON |",
+        "translatedContent": "| `Invoke-EasyPIMOrchestrator` | JSONから完全なPIM構成を展開 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "geKDSfyAt6grWYz8OIQJsDBpfC3PrvuyGesihdyYmFI=",
+        "originContent": "| `Test-PIMPolicyDrift` | Detect policy drift against declared state |",
+        "translatedContent": "| `Test-PIMPolicyDrift` | 宣言された状態に対するポリシードリフトを検出 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "/4wrVdJX0ccPV8lENhnJOnqdL8YxWfVwi0cJEJzms1Q=",
+        "originContent": "| `Test-PIMEndpointDiscovery` | Connectivity and permissions validation |",
+        "translatedContent": "| `Test-PIMEndpointDiscovery` | 接続性と権限の検証 |"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "DTINfsGCv+eYvIjhB8ugprABldQhNtWAHFBkzZuS4R8=",
+        "originContent": "## 🌐 Coverage",
+        "translatedContent": "## 🌐 対応範囲"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "aDpDlIittR5f71JCIJf99K0iT5wMKEafbEYu9Zm4Rkw=",
+        "originContent": "**3 PIM scopes**: Azure Resources (subscription, management group, resource group) · Entra ID Roles · Security Groups",
+        "translatedContent": "**3つのPIMスコープ**: Azureリソース（サブスクリプション、管理グループ、リソースグループ）· Entra IDロール · セキュリティグループ"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "BOJJepCdj6lL+/NRVyqysrdqQxEVKgDLc0jhSeuHyKE=",
+        "originContent": "**4 clouds**: Public · Government · China · Germany",
+        "translatedContent": "**4つのクラウド**: パブリック · ガバメント · 中国 · ドイツ"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "lnbV3Pj/FELTq629cdV6E/co8PoQnS7lw8yHYRkUUL4=",
+        "originContent": "## 🤝 Related Projects",
+        "translatedContent": "## 🤝 関連プロジェクト"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "3b12Pv1xQ/qHWTia5rGQC2+f0r9tzw8Pxpw9o3d/OX0=",
+        "originContent": "| | |",
+        "translatedContent": "| | |"
+      },
+      {
+        "row": 29,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 30,
+        "rowsha": "IiqPcjTgfEPuk5xAlkNTor5DGc0ESRjcTCdIB0t5DDQ=",
+        "originContent": "| **[EasyTCM](https://github.com/kayasax/EasyTCM)** | Tenant Configuration Monitoring — detect config drift across Entra, Exchange, Intune, Teams & Compliance |",
+        "translatedContent": "| **[EasyTCM](https://github.com/kayasax/EasyTCM)** | テナント構成監視 — Entra、Exchange、Intune、Teams、コンプライアンス間の構成ドリフトを検出 |"
+      },
+      {
+        "row": 31,
+        "rowsha": "HG6OoiOBRdooiF5C0sQ+fKtsJK143XBXscsbmXX6kSA=",
+        "originContent": "| **[Event-Driven Governance](https://github.com/kayasax/EasyPIM-EventDriven-Governance)** | Production CI/CD demo: GitHub Actions + Azure DevOps + Event Grid |",
+        "translatedContent": "| **[Event-Driven Governance](https://github.com/kayasax/EasyPIM-EventDriven-Governance)** | 本番CI/CDデモ: GitHub Actions + Azure DevOps + Event Grid |"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 コントリビューション"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "ipm6cnBN/d7NPplc6eArPrDrlpIr37vtyqYQ+RnHbQo=",
+        "originContent": "See [CONTRIBUTING.md](https://raw.githubusercontent.com/kayasax/EasyPIM/main/CONTRIBUTING.md) for guidelines.",
+        "translatedContent": "ガイドラインは[CONTRIBUTING.md](https://raw.githubusercontent.com/kayasax/EasyPIM/main/CONTRIBUTING.md)を参照してください。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "/4Et9o+Nc2BpGTu6T1BzUrIOmNkSEj9bvHTAdcqb3Zg=",
+        "originContent": "### Contributors",
+        "translatedContent": "### コントリビューター"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "- **[Loïc MICHEL](https://github.com/kayasax)** — Author and maintainer\n- **[AzureStackNerd](https://github.com/AzureStackNerd)** — ABAC condition support for Azure Resource assignments, Graph scope optimization\n- **[Chase Dafnis](https://github.com/CHDAFNI-MSFT)** — Multi-cloud / Azure environment support\n- **[jeenvan](https://github.com/jeevanions)** — Orchestrator: array format & management group scope fixes\n\n---\n\n<p align=\"center\">\n  Built with ❤️ for the Azure Administrator Community<br>\n  <strong>Also by the author: <a href=\"https://github.com/kayasax/EasyTCM\">EasyTCM</a> — M365 tenant config drift detection</strong>\n</p>\n",
+    "ContentSha": "kKQa9H8lrkulZX7B2hEd9rlin43R4zA3Itkz4BWnAtM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **[Loïc MICHEL](https://github.com/kayasax)** — 著者およびメンテナ\n- **[AzureStackNerd](https://github.com/AzureStackNerd)** — Azureリソース割り当てのABAC条件サポート、Graphスコープ最適化\n- **[Chase Dafnis](https://github.com/CHDAFNI-MSFT)** — マルチクラウド / Azure環境サポート\n- **[jeenvan](https://github.com/jeevanions)** — オーケストレーター：配列形式と管理グループスコープの修正\n\n---\n\n<p align=\"center\">\n  Azure管理者コミュニティのために❤️で作成<br>\n  <strong>著者によるその他の作品: <a href=\"https://github.com/kayasax/EasyTCM\">EasyTCM</a> — M365テナント構成ドリフト検出</strong>\n</p>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ET7Vd/H6ttmMmsgp8IzNrCt/7c2PS+0ubNeh0mn3gD8=",
+        "originContent": "- **[Loïc MICHEL](https://github.com/kayasax)** — Author and maintainer",
+        "translatedContent": "- **[Loïc MICHEL](https://github.com/kayasax)** — 著者およびメンテナ"
+      },
+      {
+        "row": 2,
+        "rowsha": "W5ni4oiLP9BgDzPuZ4y3oA9LugZITdn8qhGRVghjALU=",
+        "originContent": "- **[AzureStackNerd](https://github.com/AzureStackNerd)** — ABAC condition support for Azure Resource assignments, Graph scope optimization",
+        "translatedContent": "- **[AzureStackNerd](https://github.com/AzureStackNerd)** — Azureリソース割り当てのABAC条件サポート、Graphスコープ最適化"
+      },
+      {
+        "row": 3,
+        "rowsha": "pCB9+q60j0yftaKvzTkkEx12901efySTBNN0b5dalkg=",
+        "originContent": "- **[Chase Dafnis](https://github.com/CHDAFNI-MSFT)** — Multi-cloud / Azure environment support",
+        "translatedContent": "- **[Chase Dafnis](https://github.com/CHDAFNI-MSFT)** — マルチクラウド / Azure環境サポート"
+      },
+      {
+        "row": 4,
+        "rowsha": "uc/GuXX+fTXXFe97ACfWdBmgKfwwtJ5sbbMoPVSupAs=",
+        "originContent": "- **[jeenvan](https://github.com/jeevanions)** — Orchestrator: array format & management group scope fixes",
+        "translatedContent": "- **[jeenvan](https://github.com/jeevanions)** — オーケストレーター：配列形式と管理グループスコープの修正"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "Ew8kyqQQxQd7NG9AN/0gAu8OigaW3oSeQg7iaCaQF4M=",
+        "originContent": "  Built with ❤️ for the Azure Administrator Community<br>",
+        "translatedContent": "  Azure管理者コミュニティのために❤️で作成<br>"
+      },
+      {
+        "row": 10,
+        "rowsha": "U5Z0lcBnmSGee+g7hoYp2WQb1nsHZpcqyQIgEvn0Jcs=",
+        "originContent": "  <strong>Also by the author: <a href=\"https://github.com/kayasax/EasyTCM\">EasyTCM</a> — M365 tenant config drift detection</strong>",
+        "translatedContent": "  <strong>著者によるその他の作品: <a href=\"https://github.com/kayasax/EasyTCM\">EasyTCM</a> — M365テナント構成ドリフト検出</strong>"
+      },
+      {
+        "row": 11,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

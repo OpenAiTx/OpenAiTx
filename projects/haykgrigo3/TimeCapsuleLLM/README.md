@@ -25,7 +25,7 @@ v2 built on llamaforcausallm
 ## Research Status
 This project was initiated and developed independently.
 
-It is currently conducted under academic supervision, with an affiliated research collaboration at Muhlenberg College.
+It is currently conducted under academic supervision, with an affiliated research collaboration at Muhlenberg College & Georgia State University.
 
 ## Citation
 
@@ -48,6 +48,20 @@ If you're interested in **historical language models**, **time-specific datasets
 We use the server to discuss ideas, share progress, and connect with others building in this space.
 
 [Join the Discord](https://discord.gg/JeWkk4z5)
+
+## Sponsors
+
+<div align="center">
+  <a href="https://doloffer.com">
+    <img src="https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/logo.png" width="500">
+  </a>
+</div>
+
+Thanks to DolOffer for supporting this project!
+
+DolOffer is a platform focused on digital product recommendations and discount sharing, helping users quickly discover worthwhile tools, services, and limited-time deals. The platform offers a variety of popular subscription services, including YouTube Premium, Claude, ChatGPT Plus, Spotify, and Apple Music, with prices as low as 30% of the official price or even less.
+
+Register now through this exclusive link [doloffer](https://doloffer.com/en/), and enter the promo code AI8888 when topping up to enjoy an additional 10% discount.
 
 ##  Model Behavior & Limitations
 
@@ -122,7 +136,7 @@ Trained to 182K steps
 - Scaling dataset size and geographic coverage
 - Expanding beyond London to additional cities
 
-The work is being carried out in collaboration with researchers from University College London (UCL) and additional institutional involvement is under discussion. 
+The work is being carried out in collaboration with researchers from Muhlenberg College & Georgia State University. 
 
 
 ##  Datasets
@@ -231,6 +245,9 @@ GPU: H100 SXM rented
 
 - **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
   - a family of 4B parameter LLMs based on the Qwen3 architecture trained from scratch on 80B tokens of historical data up to knowledge-cutoffs 1913,1929,1933,1939,1946.
+ 
+- **[TypewriterLM](https://huggingface.co/typewriter-ai/typewriter-1913-7B-base)**
+  - a 7.24B History language model (LM) pretrained exclusively on English text predating 1913. Created by researchers from University of Waterloo, Adelaide University, University of Oxford, and University College London. [Link to paper](https://arxiv.org/abs/2606.02991)
 
 - **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
   - MonadGPT is a finetune of Mistral-Hermes 2 on 11,000 early modern texts in English, French and Latin, mostly coming from EEBO and Gallica.

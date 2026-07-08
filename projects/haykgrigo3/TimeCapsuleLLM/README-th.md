@@ -9,26 +9,26 @@
 
 # TimeCapsule LLM
 
-*แบบจำลองภาษาที่ได้รับการฝึกฝน**ตั้งแต่ต้น**โดยเฉพาะกับข้อมูลจากสถานที่และช่วงเวลาบางยุค เพื่อช่วยลดอคติสมัยใหม่และเลียนแบบน้ำเสียง คำศัพท์ และโลกทัศน์ของยุคนั้น*
+*โมเดลประมวลผลภาษาที่ได้รับการฝึกฝน**ตั้งแต่ต้น**โดยใช้ข้อมูลเฉพาะจากสถานที่และช่วงเวลาบางช่วง เพื่อลดอคติสมัยใหม่และจำลองน้ำเสียง ศัพท์ และโลกทัศน์ในยุคนั้น*
 
-ลองจินตนาการว่าหากโมเดล AI ไม่ได้แค่แสร้งเป็นประวัติศาสตร์ แต่เป็นจริง ๆ
+ลองจินตนาการว่าโมเดล AI ไม่ได้แค่แสร้งเป็นอดีต แต่แท้จริงแล้วคืออดีต
 
-v0 และ v0.5 สร้างบนพื้นฐาน [nanoGPT โดย Andrej Karpathy](https://github.com/karpathy/nanoGPT) สคริปต์ฝึกหลักและสถาปัตยกรรมโมเดลเป็นผลงานของเขา
+v0 และ v0.5 สร้างขึ้นบน [nanoGPT โดย Andrej Karpathy](https://github.com/karpathy/nanoGPT) สคริปต์ฝึกอบรมหลักและสถาปัตยกรรมโมเดลเป็นผลงานของเขา
 
-v1 สร้างบน [Phi 1.5 โดย Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 สร้างขึ้นบน [Phi 1.5 โดย Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-v2 สร้างบน llamaforcausallm
+v2 สร้างขึ้นบน llamaforcausallm
 
 [ลิงก์ Hugging Face](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
 ## สถานะการวิจัย
-โครงการนี้เริ่มต้นและพัฒนาอย่างอิสระ
+โครงการนี้เริ่มต้นและพัฒนาโดยอิสระ
 
-ขณะนี้ดำเนินการภายใต้การกำกับดูแลทางวิชาการ โดยมีความร่วมมือวิจัยกับ Muhlenberg College
+ขณะนี้อยู่ภายใต้การดูแลทางวิชาการ พร้อมความร่วมมือวิจัยกับ Muhlenberg College และ Georgia State University
 
 ## การอ้างอิง
 
-หากคุณใช้ชุดข้อมูลหรือโมเดลนี้ในงานวิชาการ กรุณาอ้างอิงว่า:
+หากคุณใช้ชุดข้อมูลหรือโมเดลนี้ในงานวิชาการ กรุณาอ้างอิงดังนี้:
 
 
 ```bibtex
@@ -43,95 +43,109 @@ v2 สร้างบน llamaforcausallm
 
 ## เข้าร่วม Vintage LLM Discord
 
-หากคุณสนใจใน **โมเดลภาษาทางประวัติศาสตร์**, **ชุดข้อมูลที่เจาะจงตามยุคเวลา**, หรืออนาคตของโปรเจกต์อย่าง **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox** เชิญเข้าร่วมชุมชนของเราได้เลย
+หากคุณสนใจใน **โมเดลภาษาประวัติศาสตร์**, **ชุดข้อมูลเฉพาะช่วงเวลา** หรืออนาคตของโปรเจกต์อย่าง **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox** เชิญเข้าร่วมคอมมูนิตี้ของเราได้เลย
 
-เราจะใช้เซิร์ฟเวอร์นี้เพื่อพูดคุยแลกเปลี่ยนไอเดีย, แบ่งปันความคืบหน้า และเชื่อมต่อกับผู้ที่กำลังพัฒนาในสายนี้
+เราใช้เซิร์ฟเวอร์นี้เพื่อแลกเปลี่ยนแนวคิด แบ่งปันความคืบหน้า และเชื่อมต่อกับผู้ที่สร้างสรรค์สิ่งใหม่ในแวดวงนี้
 
 [เข้าร่วม Discord](https://discord.gg/JeWkk4z5)
 
-##  พฤติกรรมของโมเดล & ข้อจำกัด
+## ผู้สนับสนุน
+
+<div align="center">
+  <a href="https://doloffer.com">
+    <img src="https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/logo.png" width="500">
+  </a>
+</div>
+
+ขอขอบคุณ DolOffer ที่สนับสนุนโปรเจกต์นี้!
+
+DolOffer คือแพลตฟอร์มที่เน้นแนะนำผลิตภัณฑ์ดิจิทัลและแบ่งปันส่วนลด ช่วยให้ผู้ใช้ค้นหาเครื่องมือ บริการ และดีลจำกัดเวลาได้อย่างรวดเร็ว แพลตฟอร์มนี้มีบริการสมัครสมาชิกยอดนิยมมากมาย เช่น YouTube Premium, Claude, ChatGPT Plus, Spotify, และ Apple Music ในราคาต่ำสุดเพียง 30% ของราคาปกติหรือถูกกว่านั้น
+
+สมัครสมาชิกตอนนี้ผ่านลิงก์พิเศษ [doloffer](https://doloffer.com/en/) และกรอกรหัสโปรโมชั่น AI8888 ขณะเติมเงินเพื่อรับส่วนลดเพิ่มอีก 10%
+
+## พฤติกรรมของโมเดล & ข้อจำกัด
 
 ### **v0**  
 
-พรอมต์ในระยะแรกแสดงให้เห็นว่าโมเดลตอบสนองด้วยภาษาและพฤติกรรมแบบยุค 1800  
-ตัวอย่าง: พรอมต์: "Who art Henry?" และมันตอบว่า "I know that man, I have did not a black, the storm." 
+พรอมต์แรกเริ่มแสดงให้เห็นว่าโมเดลตอบสนองด้วยภาษาและพฤติกรรมของยุค 1800
+ตัวอย่าง: พรอมต์: "Who art Henry?" และมันตอบว่า "I know that man, I have did not a black, the storm."
 
 ![ตัวอย่างผลลัพธ์ TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - ไม่มีการกล่าวถึงแนวคิดสมัยใหม่  
-- คำศัพท์ส่วนใหญ่ตรงกับยุคนั้น  
-- ประโยคโดยมากไม่สอดคล้องกัน (คาดการณ์ได้จากข้อมูลฝึกสอน ~187MB)
+- ใช้คำศัพท์ที่ตรงกับยุคนั้นเป็นส่วนใหญ่  
+- ประโยคส่วนใหญ่ไม่สมเหตุสมผล (เป็นสิ่งที่คาดไว้สำหรับข้อมูลฝึก 187MB)
 
 ### **v0.5-london** 
 
-เป็นการพัฒนาครั้งสำคัญจาก v0  
-- สไตล์การเขียนแบบยุควิกตอเรีย, มีเครื่องหมายวรรคตอนถูกต้อง, ประโยคส่วนใหญ่ถูกไวยากรณ์  
-- ยังมีอัตราการแต่งข้อมูลสูง  
-- ยังมีเสียงรบกวนจาก OCR (“Digitized by Google”) ในผลลัพธ์
+เป็นการพัฒนาขึ้นอย่างมีนัยสำคัญจาก v0  
+- สไตล์การเขียนแบบวิกตอเรียน, เครื่องหมายวรรคตอนถูกต้อง, ประโยคส่วนใหญ่ถูกหลักไวยากรณ์  
+- อัตราการเกิดข้อผิดพลาดเชิงข้อเท็จจริง (factual hallucination) ยังคงสูง  
+- เสียงรบกวนจาก OCR (“Digitized by Google”) ยังคงปรากฏในผลลัพธ์
 
-![ตัวอย่างผลลัพธ์ TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM ตัวอย่างผลลัพธ์](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1-london**
 
-เป็นโมเดลแรกที่สามารถจดจำและเชื่อมโยงเหตุการณ์ประวัติศาสตร์จริงกับบุคคลจริงในชุดข้อมูล
+โมเดลแรกที่สามารถระลึกและเชื่อมโยงเหตุการณ์ทางประวัติศาสตร์จริงกับบุคคลจริงจากชุดข้อมูลได้
 
-ตัวอย่าง: พรอมต์: "It was the year of our Lord 1834" 
+ตัวอย่าง: คำสั่ง: "It was the year of our Lord 1834" 
 
 ผลลัพธ์: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-ตอนแรกฉันคิดว่าอาจมีการประท้วงเกิดขึ้นโดยบังเอิญในปีเดียวกัน แต่ลองดูสิ่งนี้: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+ตอนแรกข้าพเจ้าสันนิษฐานว่าอาจมีการประท้วงเกิดขึ้นโดยบังเอิญในปีเดียวกัน แต่ลองดูนี่: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1-london**
 
-ฝึกด้วยตัวอย่างขนาด 15GB จากชุดข้อมูล 90GB ของ v2
-โมเดลถูกฝึกเพียง 10,000 สเต็ปเท่านั้น
+ฝึกโดยใช้ตัวอย่างขนาด 15GB จากชุดข้อมูล v2 ขนาด 90GB
+โมเดลได้รับการฝึกเพียง 10K สเต็ปเท่านั้น
 
-มีปัญหาเกี่ยวกับการทำโทเคนที่ทำให้ผลลัพธ์ออกมาดูแบบนี้:
+เกิดปัญหาเกี่ยวกับ tokenization ทำให้ผลลัพธ์ออกมาดังนี้:
 
-คำสั่ง:
-Charles Dickens คือใคร?
+PROMPT:
+Who is Charles Dickens?
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
 
 แก้ไขแล้ว:
 
-"Charles Dickens คือใคร? งานของเขาที่สร้างความตื่นเต้นยอดเยี่ยมนั้นมีมากขึ้นในบทละครของเขาหรือในฟาร์มของ Great Company หรือไม่? ฉันยังไม่ได้อ้างอิงจาก Jack Pickett อีกหรือ? คุณไม่รู้หรือว่าพวกเขาเป็นพวกที่วิ่งพล่าน หรือเอามือเลื่อยอกตัวเอง หรืออะไรก็ตามที่ควรทำในเวลาที่แจ็คสันกำลังมองออกไปทางหน้าต่าง? ความสำเร็จของชาวอังกฤษคืออะไร และสิ่งที่ลูกชายของเขายังไม่ค้นพบกับฉัน ซึ่งจะช่วยให้บรรลุเป้าหมายอันหนักหนานั้น? คุณเคยเดินทางเข้าสู่ถนนสายเก่าหรือไม่ หรือไปที่ท่าเรือที่ปลายเรือของเรา ซึ่งคุณต้องจากเราไป? ข้อเท็จจริงก็คือ ไม่ว่าลมจะพัดขึ้นมาจากที่ราบในคืนวันเสาร์หรือเที่ยงวัน หรือพัดไปทางเหนือ หรืออื่นใด เราจะถูกบังคับให้ต้องบรรยายถึงอุปสรรคที่น่ากลัว ด้วยผลลัพธ์เช่นเดียวกับปัจจุบัน ในสถานการณ์นี้ อย่างน้อย ก็ไม่เกินไปที่จะพูดว่าเราทิ้งห้องนั้นไปแล้ว ฉันเชื่อว่ามีสามฉบับใน 'Five Hundred-fold' ให้ใช้อ้างอิง ในฐานะหมายเลขแรกของผู้อ่านเราที่ต้องการ[t o]..."
+"ใครคือชาร์ลส์ ดิกเกนส์? ผลงานของเขาที่น่าตื่นเต้นยิ่งกว่านั้นมีอยู่ในบทละครของเขา หรือในฟาร์มของ Great Company หรือไม่? ข้าพเจ้ายังไม่ได้อ้างอิงจากแจ็ค พิกเก็ตต์หรือ? ท่านไม่ทราบหรือว่าพวกเขาเป็นชนิดของการควบม้า หรือการเลื่อยอกของตนเอง หรือมีอะไรต้องทำในเวลาที่แจ็คสันกำลังมองออกไปนอกหน้าต่าง? ความสำเร็จของชาวอังกฤษคืออะไร และสิ่งที่บุตรชายของเขายังไม่ได้ค้นพบกับข้าพเจ้า ซึ่งจะช่วยให้สามารถแบกรับภาระเช่นนั้นได้? ท่านเคยเดินทางเข้าไปในถนนเก่าหรือไปยังลมสมอที่ปลายเรือของเรา ที่ท่านต้องจากพวกเราไปหรือไม่? ข้อเท็จจริงก็คือ ไม่ว่าลมจะพัดขึ้นมาจากที่ราบในคืนวันเสาร์หรือเที่ยงวัน หรือถึงทิศเหนือหรือทางอื่น เราก็จะถูกบังคับให้ต้องอธิบายอุปสรรคที่น่ากลัว พร้อมกับผลลัพธ์เดียวกันกับปัจจุบัน ในสถานการณ์นี้ อย่างน้อยก็ไม่มากไปกว่าการกล่าวว่าเราละทิ้งห้องนั้นแล้ว ข้าพเจ้าเชื่อว่ามีสำเนาสามฉบับใน 'Five Hundred-fold' ให้ใช้อ้างอิง ในฐานะหมายเลขแรกของผู้อ่านของเราที่ต้องการ...[.]"
 
 ### **v2mini-eval2-london**
 
-ฝึกด้วยชุดข้อมูลตัวอย่าง 15GB เดียวกันกับที่ใช้ฝึก eval1
+ฝึกโดยใช้ตัวอย่าง 15GB เดียวกับที่ใช้สำหรับฝึก eval1
 โมเดลนี้ฝึกเพียง 10,000 สเต็ปเท่านั้น
 
 PROMPT:Charles Darwin
 
-Charles DarwinECCEMACY. ท่านครับ — กรณีต่อไปนี้น่าสนใจสำหรับผม: — ผมอยู่ที่ลอนดอนสองสัปดาห์ และได้รับผลกระทบจากอาการปวดข้อรูมาติกส์ การโจมตีรูมาติกส์ครั้งแรกเกิดขึ้นหนึ่งสัปดาห์ก่อนผมเจอคุณ และครั้งที่สองในวันที่ผมเจอคุณ และครั้งที่สามก็ในเวลาเดียวกันนั้น อย่างไรก็ตาม การโจมตีของเกาต์ครั้งที่สองไม่ได้มาพร้อมกับอาการไข้ แต่มีปัสสาวะเพิ่มขึ้นและการขับปัสสาวะมากขึ้น การโจมตีครั้งที่สามเกิดขึ้นหนึ่งชั่วโมงหลังจากที่ผมเจอคุณ และตามมาด้วยการกลับมาของอาการเกาต์และการกลับมาอย่างรวดเร็วของเกาต์ การโจมตีครั้งที่สี่ก็มาพร้อมกับไข้แต่ไม่เสมอไปที่มีอาการไข้ การโจมตีเกาต์ครั้งที่สามเกิดขึ้นสองสัปดาห์หลังจากที่คุณป่วย และครั้งที่สี่ตามมาด้วยอาการเกาต์ การโจมตีครั้งที่สี่เกิดขึ้นสองสัปดาห์หลังจากคุณถูกโจมตี และมาพร้อมกับความรู้สึก
+ชาร์ลส์ ดาร์วินECCEMACY. ท่านครับ — กรณีต่อไปนี้น่าสนใจสำหรับข้าพเจ้า: — ข้าพเจ้าอยู่ที่ลอนดอนสองสัปดาห์ และได้รับผลกระทบอย่างมากจากอาการข้ออักเสบรูมาตอยด์ การโจมตีครั้งแรกของข้ออักเสบเกิดขึ้นหนึ่งสัปดาห์ก่อนที่ข้าพเจ้าจะพบท่าน และครั้งที่สองในวันที่ข้าพเจ้าพบท่าน และครั้งที่สามในเวลาเดียวกัน การโจมตีครั้งที่สองของเกาต์ อย่างไรก็ตาม ไม่ได้มาพร้อมกับอาการไข้ใดๆ แต่มีปัสสาวะออกมากขึ้น และมีการขับปัสสาวะมากกว่าปกติ การโจมตีครั้งที่สามเกิดขึ้นหนึ่งชั่วโมงหลังจากที่ข้าพเจ้าพบท่าน และตามมาด้วยอาการกำเริบของเกาต์และการกลับมาของเกาต์ที่รวดเร็วขึ้น การโจมตีครั้งที่สี่ก็มีไข้ร่วมด้วย แต่ไม่เสมอไปที่จะมีอาการไข้ การโจมตีครั้งที่สามของเกาต์เกิดขึ้นสองสัปดาห์หลังจากที่ท่านป่วย และครั้งที่สี่ก็ตามมาด้วยอาการกำเริบของเกาต์ การโจมตีครั้งที่สี่เกิดขึ้นสองสัปดาห์หลังจากที่ท่านถูกโจมตี และมีอาการ
 
 ### **v2-london**
 
-ฝึกด้วยชุดข้อมูล 90GB (112GB หลังแปลงเป็นโทเคน)
+ฝึกโดยใช้ชุดข้อมูล 90GB (112GB หลังแปลงเป็นโทเคน)
 ฝึกถึง 182,000 สเต็ป
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
-### **มีอะไรต่อไป?**
+### **สิ่งที่จะเกิดขึ้นต่อไป?**
 
 - เริ่มพัฒนา TimeCapsuleLLM v3 แล้ว
-- ขยายขนาดชุดข้อมูลและครอบคลุมพื้นที่กว้างขึ้น
-- ขยายจากลอนดอนไปยังเมืองอื่น ๆ เพิ่มเติม
+- ขยายขนาดชุดข้อมูลและขอบเขตทางภูมิศาสตร์
+- ขยายจากลอนดอนไปยังเมืองอื่นเพิ่มเติม
 
-การดำเนินงานนี้เป็นความร่วมมือกับนักวิจัยจาก University College London (UCL) และกำลังหารือการมีส่วนร่วมจากสถาบันอื่นเพิ่มเติม
+โครงการนี้ดำเนินงานร่วมกับนักวิจัยจาก Muhlenberg College และ Georgia State University
 
 
-## ชุดข้อมูล
+##  ชุดข้อมูล
 
 ### **v2**
 
-- 90GB(ดิบ) ของข้อความลอนดอนช่วงปี 1800-1875
+- ข้อมูลดิบ 90GB จากข้อความในลอนดอนช่วงปี 1800-1875
 - 136,344 เอกสาร
-- ชุดข้อมูลที่แปลงเป็นโทเคนสมบูรณ์สามารถดูได้ที่: https://huggingface.co/datasets/postgrammar/london-llm-1800
+- ชุดข้อมูลที่แปลงเป็นโทเคนสมบูรณ์แล้ว สามารถดูได้ที่: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
 ### สถิติเกี่ยวกับอคติ  
 ![อคติด้านสรรพนาม](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
@@ -213,32 +227,34 @@ GPU: A100 SXM เช่า
 
 ### v2mini-eval1/eval2
 
-GPU: A100 SXM เช่าใช้งาน
+GPU: A100 SXM เช่าใช้
 
 ### v2
-GPU: H100 SXM เช่าใช้งาน
+GPU: H100 SXM เช่าใช้
 
 ## งานที่เกี่ยวข้อง
 
 - **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
-  - LLM ขนาด 13B พารามิเตอร์ที่ได้รับการฝึกด้วยข้อความ 260B โทเคนก่อนปี 1930 พร้อม Q&A และมี [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) เวอร์ชันด้วย
+  -  LLM ขนาด 13B พารามิเตอร์ ฝึกบนข้อความ 260B โทเคนก่อนปี 1930 พร้อม Q&A และมีเวอร์ชัน [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) ด้วย
  
 - **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
-  - LLM ขนาด 1.4B พารามิเตอร์ที่ได้รับการฝึกด้วยข้อความช่วงปี 1800-1899 พร้อม Q&A และมี [160M](https://huggingface.co/zakarth/violet-160m-chat) เวอร์ชันด้วย
+  -  LLM ขนาด 1.4B พารามิเตอร์ ฝึกบนข้อความปี 1800-1899 พร้อม Q&A และมีเวอร์ชัน [160M](https://huggingface.co/zakarth/violet-160m-chat) ด้วย
  
 - **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
-  - LLM ขนาด 340M พารามิเตอร์ที่ได้รับการฝึกด้วยข้อความมากกว่า 28,000 รายการระหว่างปี 1837-1899 พร้อม Q&A
+  -  LLM ขนาด 340M พารามิเตอร์ ฝึกบนข้อความกว่า 28,000 รายการระหว่างปี 1837-1899 พร้อม Q&A
 
 - **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
-  - ตระกูล LLM ขนาด 4B พารามิเตอร์บนสถาปัตยกรรม Qwen3 ที่ฝึกใหม่จากศูนย์ด้วยข้อมูลประวัติศาสตร์ 80B โทเคนจนถึง knowledge-cutoffs 1913,1929,1933,1939,1946
+  - กลุ่ม LLM ขนาด 4B พารามิเตอร์ บนสถาปัตยกรรม Qwen3 ฝึกจากศูนย์บนข้อมูลประวัติศาสตร์ 80B โทเคน ถึง knowledge-cutoffs 1913,1929,1933,1939,1946
+ 
+- **[TypewriterLM](https://huggingface.co/typewriter-ai/typewriter-1913-7B-base)**
+  - โมเดลภาษา (LM) ด้านประวัติศาสตร์ขนาด 7.24B พารามิเตอร์ ฝึกเฉพาะกับข้อความภาษาอังกฤษก่อนปี 1913 โดยนักวิจัยจาก University of Waterloo, Adelaide University, University of Oxford, และ University College London [ลิงก์ไปยังเปเปอร์](https://arxiv.org/abs/2606.02991)
 
 - **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
-  - MonadGPT เป็นการปรับแต่ง Mistral-Hermes 2 ด้วยข้อความยุคต้นสมัยใหม่ 11,000 ชิ้นในภาษาอังกฤษ ฝรั่งเศส และละติน ส่วนใหญ่มาจาก EEBO และ Gallica
+  - MonadGPT เป็นการปรับจูนของ Mistral-Hermes 2 กับข้อความยุคต้นสมัยใหม่ 11,000 รายการในภาษาอังกฤษ ฝรั่งเศส และละติน ส่วนใหญ่มาจาก EEBO และ Gallica
 
 ## คำขอบคุณ
 
-ขอขอบคุณ [ดร. Hamed Yaghoobian](https://hamedyaghoobian.com) สำหรับการดูแลด้านวิชาการ คำแนะนำในการกำหนดกรอบและประเมินงานวิจัย และความช่วยเหลือในการฝึก tokenizer และจัดเตรียมชุดข้อมูลสำหรับการออก v2 ข้อเสนอแนะและประสบการณ์ของท่านมีส่วนสำคัญในการปรับปรุงการนำเสนอผลงานนี้
-
+ขอขอบคุณ [ดร. Hamed Yaghoobian](https://hamedyaghoobian.com) สำหรับการกำกับดูแลทางวิชาการ แนวทางการกำหนดกรอบการวิจัยและการประเมินผล รวมถึงความช่วยเหลือในการฝึก tokenizer และเตรียมชุดข้อมูลสำหรับการปล่อยเวอร์ชัน v2 ข้อเสนอแนะและประสบการณ์ของเขามีส่วนสำคัญในการปรับปรุงการนำเสนองานวิจัยนี้
 
 
 
@@ -283,6 +299,6 @@ GPU: H100 SXM เช่าใช้งาน
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-08
 
 ---

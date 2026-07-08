@@ -3,33 +3,33 @@
 <summary>🌐 언어</summary>
 
 [English](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th) | [Français](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de) | [Español](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it) | [Русский](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru) | [Português](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as)
-
 </details>
 </div>
 
 
 # TimeCapsule LLM
 
-*특정 장소와 시기의 데이터만을 사용하여 **처음부터** 학습시킨 언어 모델로, 현대적 편향을 줄이고 해당 시대의 어조, 어휘, 세계관을 재현합니다.*
+*특정 장소와 시간대의 데이터만을 사용하여 **처음부터** 학습된 언어 모델로, 현대적 편향을 줄이고 해당 시대의 목소리, 어휘, 세계관을 재현합니다.*
 
-AI 모델이 단순히 역사적 인물을 흉내내는 것이 아니라 실제로 그 시대를 반영한다고 상상해 보세요.
+AI 모델이 단순히 역사적인 척하는 것이 아니라 실제로 역사적이라면 어떨까요.
 
-v0 및 v0.5는 [Andrej Karpathy의 nanoGPT](https://github.com/karpathy/nanoGPT)를 기반으로 제작되었습니다. 핵심 학습 스크립트와 모델 구조는 그의 작업입니다.
+v0 및 v0.5는 [Andrej Karpathy의 nanoGPT](https://github.com/karpathy/nanoGPT)를 기반으로 구축되었습니다. 핵심 학습 스크립트와 모델 아키텍처는 그의 작업입니다.
 
-v1은 [Microsoft의 Phi 1.5](https://huggingface.co/microsoft/phi-1_5)를 기반으로 제작되었습니다.
+v1은 [Microsoft의 Phi 1.5](https://huggingface.co/microsoft/phi-1_5)를 기반으로 구축되었습니다.
 
-v2는 llamaforcausallm을 기반으로 제작되었습니다.
+v2는 llamaforcausallm을 기반으로 구축되었습니다.
 
 [허깅페이스 링크](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
 ## 연구 현황
 이 프로젝트는 독립적으로 시작되고 개발되었습니다.
 
-현재 Muhlenberg College의 관련 연구 협력과 함께 학술 감독하에 진행되고 있습니다.
+현재는 Muhlenberg College 및 Georgia State University와의 제휴 연구 협력을 통해 학문적 감독 하에 진행되고 있습니다.
 
 ## 인용
 
-이 데이터셋이나 모델을 학술 연구에 사용할 경우, 다음과 같이 인용해 주십시오:
+이 데이터셋이나 모델을 학술 연구에 사용하실 경우, 다음과 같이 인용해 주십시오:
+
 
 ```bibtex
 @misc{london_llm_1800,
@@ -43,50 +43,64 @@ v2는 llamaforcausallm을 기반으로 제작되었습니다.
 
 ## 빈티지 LLM 디스코드에 참여하세요
 
-**역사적 언어 모델**, **시대별 데이터셋**, 그리고 **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox**와 같은 프로젝트의 미래에 관심이 있다면 커뮤니티에 참여해보세요.
+**역사적 언어 모델**, **시대별 데이터셋**, 또는 **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox**와 같은 프로젝트의 미래에 관심이 있다면 커뮤니티에 참여해 보세요.
 
-서버에서는 아이디어를 논의하고, 진행 상황을 공유하며, 이 분야에서 활동하는 다른 사람들과 교류할 수 있습니다.
+이 서버에서는 아이디어를 논의하고, 진행 상황을 공유하며, 이 분야에서 활동하는 다른 사람들과 교류할 수 있습니다.
 
 [디스코드 참여하기](https://discord.gg/JeWkk4z5)
+
+## 후원사
+
+<div align="center">
+  <a href="https://doloffer.com">
+    <img src="https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/logo.png" width="500">
+  </a>
+</div>
+
+이 프로젝트를 지원해주신 DolOffer에 감사드립니다!
+
+DolOffer는 디지털 제품 추천 및 할인 공유에 중점을 둔 플랫폼으로, 사용자가 유용한 도구, 서비스, 한정 특가를 신속하게 발견할 수 있도록 돕습니다. 본 플랫폼은 YouTube Premium, Claude, ChatGPT Plus, Spotify, Apple Music 등 인기 구독 서비스를 공식 가격의 30% 혹은 그 이하로 제공하고 있습니다.
+
+지금 이 특별 링크 [doloffer](https://doloffer.com/en/)로 가입하고, 충전 시 프로모션 코드 AI8888을 입력하면 추가 10% 할인을 받을 수 있습니다.
 
 ##  모델 동작 및 한계
 
 ### **v0**  
 
-초기 프롬프트에서는 모델이 1800년대의 언어와 행동으로 응답하는 모습을 볼 수 있습니다.
-예시: 프롬프트: "Who art Henry?"에 대해 "I know that man, I have did not a black, the storm."라고 답했습니다.
+초기 프롬프트에서는 모델이 1800년대의 언어와 행동으로 응답했습니다.  
+예시: 프롬프트: "Who art Henry?"에 대한 답변: "I know that man, I have did not a black, the storm." 
 
 ![TimeCapsuleLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- 현대적 개념 언급 없음  
+- 현대 개념 언급 없음  
 - 대부분 시대에 맞는 어휘 사용  
-- 문장 대부분이 일관성이 없음 (~187MB 학습 데이터 기준 예상됨)
+- 문장은 대부분 일관성이 없음 (~187MB 학습 데이터 기준, 예상된 결과)
 
 ### **v0.5-london** 
 
-v0에 비해 상당한 개선이 이루어졌습니다.  
-- 빅토리아 시대의 글쓰기 스타일, 올바른 문장 부호, 대부분 문법적으로 정확한 문장  
+v0에 비해 큰 개선이 이루어짐  
+- 빅토리아 시대의 문체, 적절한 구두점, 대부분 문법적으로 올바른 문장
 - 여전히 높은 사실적 환각률  
-- OCR 잡음(“Digitized by Google”)이 여전히 출력에 존재함
+- OCR 노이즈(“Digitized by Google”)가 출력물에 여전히 존재함
 
 ![TimeCapsuleLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1-london**
 
-데이터셋 내 실제 인물과 실제 역사적 사건을 기억하고 연결한 최초의 모델입니다.
+데이터셋에서 실제 인물과 실제 역사적 사건을 처음으로 회상하고 연결한 모델.
 
 예시: 프롬프트: "It was the year of our Lord 1834" 
 
 출력: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-처음에는 같은 해에 시위가 우연히 일어난 것이라 생각했지만, 이것을 확인해보세요: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+처음에는 우연히 그 해에 시위가 있었을 거라고 생각했지만, 다음을 참고하세요: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1-london**
 
-v2의 90GB 데이터셋에서 15GB 샘플을 사용하여 훈련되었습니다.
-모델은 10K 스텝까지만 훈련되었습니다.
+v2의 90GB 데이터셋에서 15GB 샘플을 사용해 학습됨.
+모델은 10K 스텝만 학습됨.
 
-토크나이징 문제로 인해 출력이 다음과 같이 표시됩니다:
+토크나이즈 문제로 인해 출력이 다음과 같이 나타남:
 
 프롬프트:
 찰스 디킨스는 누구입니까?
@@ -96,33 +110,34 @@ W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring ,
 
 수정됨:
 
-"찰스 디킨스는 누구입니까? 그의 뛰어나고 감동적인 작품들은 그의 연극에서, 또는 Great Company의 농장에서 더 많이 나타납니까? 제가 아직 인용하지 않은 잭 피켓의 말은 무엇입니까? 그들이 일종의 질주를 하거나, 가슴을 켜는 듯한 행동을 하거나, 잭슨이 창밖을 바라보고 있을 때 무슨 일이 일어나야 했는지 알지 못합니까? 영국인의 성공이란 무엇이며, 그의 아들이 나에게 밝혀내지 않은 것은 무엇입니까? 당신은 예전에 오래된 도로로 진입하거나, 우리 보트의 발치에 있는 닻바람에 정박해 본 적이 있습니까? 바람이 토요일 밤이나 정오, 혹은 북쪽에서 일어나든, 그렇지 않든, 우리는 현재와 마찬가지로 강력한 장벽을 묘사해야 할 것입니다. 이런 상황에서는, 적어도 우리가 그 방을 떠났다고 말하는 것이 과하지 않습니다. 'Five Hundred-fold'에는 참고할 수 있는 사본이 세 개 있다고 생각합니다. 이는 저희 독자 중 첫 번째 번호에 해당합니다..."
+"찰스 디킨스가 누구인가? 그의 훌륭하고 감동적인 작품들은 그의 연극이나, 그레이트 컴퍼니의 농장에서 더 많이 나타나는가? 내가 아직 인용하지 않은 잭 피켓의 말은 무엇인가? 그들이 일종의 질주, 혹은 가슴을 켜는 행동이었는지, 아니면 잭슨이 창문을 바라보고 있던 때에 무엇을 해야 했는지 모르겠는가? 영국인의 성공이란 무엇이며, 그의 아들이 나에게 발견하지 않은 것이 어떤 무게를 달성하기 위한 것인가? 옛 도로로 지나가 본 적이 있는가, 아니면 우리 보트의 발치에 닻바람을 맞으러 갔던 적이 있는가, 당신은 우리를 떠나야 했는가? 사실상, 토요일 밤이나 정오에 평지에서 바람이 불어오든, 북쪽에서 오든, 아니면 그렇지 않든, 우리는 현재와 같은 효과로 강력한 장벽을 묘사할 수밖에 없다. 이 상황에서는 적어도 우리는 그 방을 떠났다고 말해도 지나치지 않다. 나는 '오백 배'에 세 부가 있다는 것을 믿으며, 참고할 수 있고, 우리 독자들 중 첫 번째 번호를 원하는 이들에게..."
 
 ### **v2mini-eval2-london**
 
-eval1 학습에 사용된 동일한 15GB 샘플로 훈련됨.
-모델은 다시 1만 스텝까지만 학습됨.
+eval1 훈련에 사용된 것과 동일한 15GB 샘플을 사용해 훈련됨.
+모델은 다시 1만 스텝까지만 훈련됨.
 
-PROMPT:찰스 다윈
+프롬프트: 찰스 다윈
 
-찰스 다윈ECCEMACY. 선생님, — 다음 사례는 저에게 흥미롭습니다 : — 저는 런던에 2주간 있었고, 류마티스에 시달려 큰 영향을 받았습니다. 첫 번째 류마티스 발작은 선생님을 만나기 일주일 전에 있었고, 두 번째는 선생님을 만났을 때, 세 번째 역시 같은 시기에 있었습니다. 그러나 두 번째 통풍 발작은 열성 증상 없이 소변의 흐름이 증가하고 더 풍부한 소변 배출을 동반했습니다. 세 번째 발작은 선생님을 만난 지 한 시간 후에 일어났고, 통풍의 발작이 재발하며 더 빠르게 진행되었습니다. 네 번째 발작 또한 열을 동반했으나 항상 열성 증상이 나타나진 않았습니다. 세 번째 통풍 발작은 선생님이 아팠던 후 2주 후에 있었고, 네 번째는 통풍 발작이 뒤따랐습니다. 네 번째 발작은 공격받은 후 2주 후에 있었고, 어떤 감각을 동반했습니다.
+찰스 다윈ECCEMACY. 선생님, — 다음 사례는 저에게 흥미롭습니다 : — 저는 런던에 보름간 있었고, 류머티즘 발작으로 많이 고생했습니다. 첫 번째 류머티즘 발작은 선생님을 뵙기 일주일 전에 있었고, 두 번째는 선생님을 뵈었을 때, 그리고 세 번째는 같은 시기에 있었습니다. 그러나 두 번째 통풍 발작은 열성 증상 없이, 소변량의 증가와 더 많은 소변 배출을 동반했습니다. 세 번째 발작은 선생님을 뵌 지 한 시간 후에 있었고, 통풍의 재발과 더 빠른 통풍 재발이 뒤따랐습니다. 네 번째 발작은 역시 열을 동반했으나 항상 열성 증상이 있었던 것은 아니었습니다. 세 번째 통풍 발작은 선생님이 아프신 후 보름 만에 있었고, 네 번째는 통풍 발작이 뒤따랐습니다. 네 번째 발작은 선생님이 발병한 후 보름 만에 있었고, 일종의
 
 ### **v2-london**
 
-90GB (토큰화 시 112GB) 데이터셋으로 훈련됨
-182K 스텝까지 학습됨
+90GB(112GB 토크나이즈) 데이터셋으로 훈련됨
+182,000 스텝까지 훈련됨
 
 ![TimeCapsuleLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
 ![TimeCapsuleLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
-### **다음 계획은?**
+### **다음 단계는?**
 
 - TimeCapsuleLLM v3 개발 시작
 - 데이터셋 크기 및 지리적 범위 확장
 - 런던을 넘어 추가 도시로 확장
 
-이 작업은 University College London (UCL)의 연구자들과 협력하여 진행 중이며, 추가 기관의 참여도 논의되고 있습니다.
+이 작업은 Muhlenberg College 및 Georgia State University 연구진과 협력하여 진행되고 있습니다.
+
 
 ##  데이터셋
 
@@ -130,8 +145,7 @@ PROMPT:찰스 다윈
 
 - 1800-1875년 런던 텍스트 90GB(원본)
 - 136,344개 문서
-- 전체 토큰화된 데이터셋은 여기에서 이용 가능: https://huggingface.co/datasets/postgrammar/london-llm-1800
-
+- 전체 토크나이즈된 데이터셋은 여기에서 확인 가능: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
 ### 편향 통계
   ![대명사 편향](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
@@ -213,31 +227,34 @@ Ram: 16GB DDR5.
 GPU: A100 SXM 임대
 
 ### v2mini-eval1/eval2
-GPU: A100 SXM 대여
+GPU: A100 SXM 임대
 
 ### v2
-GPU: H100 SXM 대여
+GPU: H100 SXM 임대
 
 ## 관련 연구
 
 - **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
-  -  1930년 이전의 260B 토큰 텍스트에 Q&A로 학습된 130억 파라미터 LLM. [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) 버전도 있음.
+  -  1930년 이전의 텍스트 260B 토큰으로 Q&A 방식으로 학습된 13B 파라미터 LLM. [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) 버전도 있음.
  
 - **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
-  -  1800-1899년 텍스트에 Q&A로 학습된 14억 파라미터 LLM. [160M](https://huggingface.co/zakarth/violet-160m-chat) 버전도 있음.
+  -  1800-1899년 텍스트로 Q&A 방식으로 학습된 1.4B 파라미터 LLM. [160M](https://huggingface.co/zakarth/violet-160m-chat) 버전도 있음.
  
 - **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
-  -  1837-1899년 사이 28,000편 이상의 텍스트에 Q&A로 학습된 3억 4천만 파라미터 LLM.
+  -  1837-1899년 사이의 28,000개 이상의 텍스트로 Q&A 방식으로 학습된 340M 파라미터 LLM.
 
 - **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
-  - 1913, 1929, 1933, 1939, 1946년까지의 역사 데이터를 바탕으로 80B 토큰으로 처음부터 학습한 Qwen3 아키텍처 기반의 40억 파라미터 LLM 계열.
+  - Qwen3 아키텍처 기반으로 80B 토큰의 역사적 데이터(1913,1929,1933,1939,1946 커트오프)로 처음부터 학습된 4B 파라미터 LLM 계열.
+ 
+- **[TypewriterLM](https://huggingface.co/typewriter-ai/typewriter-1913-7B-base)**
+  - 1913년 이전 영문 텍스트만으로 사전학습된 7.24B 역사 언어 모델(LM). 워털루대, 애들레이드대, 옥스퍼드대, 유니버시티 칼리지 런던 연구진 제작. [논문 링크](https://arxiv.org/abs/2606.02991)
 
 - **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
-  - MonadGPT는 Mistral-Hermes 2를 EEBO와 Gallica에서 주로 수집한 영어, 프랑스어, 라틴어 11,000편의 초기 근대 텍스트에 파인튜닝한 모델.
+  - MonadGPT는 EEBO와 Gallica에서 주로 수집한 영어, 프랑스어, 라틴어 초기 근대 텍스트 11,000건으로 Mistral-Hermes 2를 파인튜닝한 모델.
 
-## 감사의 말
+## 감사의 말씀
 
-본 연구의 프레이밍 및 평가, v2 릴리스를 위한 토크나이저 훈련과 데이터셋 준비에 있어 학문적 감독과 지도를 해주신 [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com)께 감사드립니다. 그의 피드백과 경험은 이 작업의 완성도를 높이는데 매우 중요한 역할을 했습니다.
+학술적 감독, 연구 프레이밍 및 평가에 대한 지도, v2 릴리스를 위한 토크나이저 훈련과 데이터셋 준비 지원에 대하여 [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com)께 감사드립니다. 그의 피드백과 경험은 이 작업의 발표를 다듬는 데 매우 중요한 역할을 했습니다.
 
 
 
@@ -282,6 +299,6 @@ GPU: H100 SXM 대여
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-08
 
 ---

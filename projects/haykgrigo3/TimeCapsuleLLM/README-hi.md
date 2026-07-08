@@ -7,28 +7,28 @@
 </div>
 
 
-# टाइमकैप्सूल LLM
+# टाइमकैप्सूल एलएलएम
 
-*एक भाषा मॉडल जिसे **शुरुआत से** विशेष स्थानों और समय अवधियों के डेटा पर प्रशिक्षित किया गया है ताकि आधुनिक पक्षपात को कम किया जा सके और उस युग की आवाज़, शब्दावली और दृष्टिकोण का अनुकरण किया जा सके।*
+*एक भाषा मॉडल जिसे विशेष रूप से कुछ स्थानों और समय अवधियों के डेटा पर **शुरुआत से** प्रशिक्षित किया गया है, ताकि आधुनिक पक्षपात को कम किया जा सके और उस युग की भाषा, शब्दावली और विश्वदृष्टि का अनुकरण किया जा सके।*
 
-कल्पना कीजिए कि एक एआई मॉडल केवल ऐतिहासिक बनने का नाटक नहीं करता, बल्कि वास्तव में होता है।
+कल्पना कीजिए अगर एक एआई मॉडल केवल ऐतिहासिक होने का नाटक नहीं करता, बल्कि वास्तव में वैसा ही होता।
 
-v0 और v0.5 [Andrej Karpathy के nanoGPT](https://github.com/karpathy/nanoGPT) पर आधारित हैं। मुख्य प्रशिक्षण स्क्रिप्ट और मॉडल आर्किटेक्चर उनका कार्य है।
+v0 और v0.5 [Andrej Karpathy द्वारा nanoGPT](https://github.com/karpathy/nanoGPT) पर बनाए गए हैं। मुख्य प्रशिक्षण स्क्रिप्ट्स और मॉडल संरचना उन्हीं का कार्य है।
 
-v1 [Microsoft के Phi 1.5](https://huggingface.co/microsoft/phi-1_5) पर आधारित है।
+v1 [Microsoft द्वारा Phi 1.5](https://huggingface.co/microsoft/phi-1_5) पर बनाया गया है
 
-v2 llamaforcausallm पर आधारित है
+v2 llamaforcausallm पर बनाया गया है
 
 [Hugging Face लिंक](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
-## अनुसंधान स्थिति
-यह परियोजना स्वतंत्र रूप से प्रारंभ की गई और विकसित की गई थी।
+## शोध स्थिति
+यह परियोजना स्वतंत्र रूप से शुरू और विकसित की गई थी।
 
-वर्तमान में इसे शैक्षणिक पर्यवेक्षण में, Muhlenberg College में एक संबद्ध अनुसंधान सहयोग के साथ संचालित किया जा रहा है।
+वर्तमान में यह शैक्षणिक पर्यवेक्षण के तहत चल रही है, जिसमें Muhlenberg College एवं Georgia State University के साथ संबद्ध अनुसंधान सहयोग है।
 
-## संदर्भ
+## उद्धरण
 
-यदि आप इस डेटा सेट या मॉडल का शैक्षणिक कार्य में उपयोग करते हैं, तो कृपया इसका उल्लेख करें:
+यदि आप इस डेटासेट या मॉडल का शैक्षणिक कार्य में उपयोग करते हैं, तो कृपया उद्धृत करें:
 
 
 ```bibtex
@@ -40,75 +40,89 @@ v2 llamaforcausallm पर आधारित है
   howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
 }
 ```
-## विंटेज LLM डिस्कॉर्ड में शामिल हों
+## विंटेज LLM डिस्कॉर्ड से जुड़ें
 
-अगर आप **ऐतिहासिक भाषा मॉडल**, **समय-विशिष्ट डेटासेट**, या **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox** जैसे प्रोजेक्ट्स के भविष्य में रुचि रखते हैं, तो हमारे समुदाय से जुड़ें।
+यदि आप **ऐतिहासिक भाषा मॉडलों**, **समय-विशिष्ट डेटासेट्स**, या **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox** जैसे परियोजनाओं के भविष्य में रुचि रखते हैं, तो समुदाय से जुड़ें।
 
-हम इस सर्वर का उपयोग विचारों पर चर्चा करने, प्रगति साझा करने, और इस क्षेत्र में काम कर रहे अन्य लोगों से जुड़ने के लिए करते हैं।
+हम इस सर्वर का उपयोग विचारों पर चर्चा करने, प्रगति साझा करने और इस क्षेत्र में काम कर रहे अन्य लोगों से जुड़ने के लिए करते हैं।
 
-[डिस्कॉर्ड में शामिल हों](https://discord.gg/JeWkk4z5)
+[डिस्कॉर्ड से जुड़ें](https://discord.gg/JeWkk4z5)
 
-## मॉडल व्यवहार एवं सीमाएँ
+## प्रायोजक
+
+<div align="center">
+  <a href="https://doloffer.com">
+    <img src="https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/logo.png" width="500">
+  </a>
+</div>
+
+इस प्रोजेक्ट को समर्थन देने के लिए DolOffer का धन्यवाद!
+
+DolOffer एक ऐसा प्लेटफ़ॉर्म है जो डिजिटल उत्पाद अनुशंसाओं और छूट साझा करने पर केंद्रित है, जिससे उपयोगकर्ता तेज़ी से उपयोगी टूल्स, सेवाएं और सीमित समय के सौदे खोज सकते हैं। यह प्लेटफ़ॉर्म YouTube Premium, Claude, ChatGPT Plus, Spotify, और Apple Music सहित कई लोकप्रिय सब्सक्रिप्शन सेवाएं प्रदान करता है, जिनकी कीमतें आधिकारिक कीमत की 30% या उससे भी कम हो सकती हैं।
+
+इस विशेष लिंक [doloffer](https://doloffer.com/en/) के माध्यम से अभी रजिस्टर करें, और टॉप-अप करते समय प्रोमो कोड AI8888 दर्ज करें ताकि आपको अतिरिक्त 10% छूट मिल सके।
+
+##  मॉडल व्यवहार एवं सीमाएँ
 
 ### **v0**  
 
-प्रारंभिक प्रम्प्ट्स में मॉडल 1800 के दशक की भाषा और व्यवहार में उत्तर देता है।
-उदाहरण: प्रम्प्ट: "Who art Henry?" और जवाब था "I know that man, I have did not a black, the storm."
+प्रारंभिक प्रॉम्प्ट्स में मॉडल 1800 के दशक की भाषा और व्यवहार में प्रतिक्रिया देता है। 
+उदाहरण: प्रॉम्प्ट: "Who art Henry?" और उत्तर था "I know that man, I have did not a black, the storm." 
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM नमूना आउटपुट](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- आधुनिक अवधारणाओं का कोई उल्लेख नहीं
-- अधिकांशतः युग के अनुरूप शब्दावली
-- वाक्य अधिकतर असंगत (लगभग ~187MB ट्रेनिंग डाटा के लिए अपेक्षित)
+- आधुनिक अवधारणाओं का कोई उल्लेख नहीं  
+- मुख्यतः उस युग की सटीक शब्दावली  
+- वाक्य आमतौर पर असंगत रहते हैं (~187MB प्रशिक्षण डेटा के लिए अपेक्षित)
 
 ### **v0.5-london** 
 
-v0 की तुलना में महत्वपूर्ण सुधार।
-- विक्टोरियन लेखन शैली, उचित विराम चिन्ह, अधिकतर व्याकरणिक वाक्य
-- अभी भी उच्च तथ्यात्मक भ्रम दर
-- OCR शोर (“Digitized by Google”) अभी भी आउटपुट में मौजूद
+v0 की तुलना में उल्लेखनीय सुधार।  
+- विक्टोरियन लेखन शैली, उचित विराम चिह्न, मुख्यतः व्याकरणिक वाक्य  
+
+- तथ्यात्मक कल्पना दर अभी भी अधिक है  
+- OCR शोर (“Digitized by Google”) अभी भी आउटपुट में मौजूद है
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1-london**
 
-पहला मॉडल जो डेटासेट से किसी वास्तविक ऐतिहासिक घटना को किसी वास्तविक व्यक्ति से जोड़ता है।
+पहला मॉडल जो किसी वास्तविक ऐतिहासिक घटना को डेटासेट में मौजूद किसी वास्तविक व्यक्ति से जोड़ कर याद करता है।
 
-उदाहरण: प्रम्प्ट: "It was the year of our Lord 1834"
+उदाहरण: प्रॉम्प्ट: "It was the year of our Lord 1834" 
 
-आउटपुट: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
+आउटपुट: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-पहले मैंने सोचा कि उसी वर्ष कोई विरोध संयोगवश हुआ होगा, लेकिन इस पर नजर डालें: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
-
+शुरुआत में मुझे लगा कि शायद उसी वर्ष कोई विरोध संयोग से हुआ होगा लेकिन इसे देखें: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1-london**
 
-v2 के 90GB डेटासेट में से 15GB सैंपल का उपयोग करके प्रशिक्षित किया गया।
-मॉडल केवल 10K स्टेप्स तक प्रशिक्षित किया गया।
+v2 के 90GB डेटासेट से 15GB के सैंपल का उपयोग कर प्रशिक्षण किया गया।
+मॉडल को केवल 10K स्टेप्स तक प्रशिक्षित किया गया।
 
-टोकनाइज़ेशन में एक समस्या थी जिससे आउटपुट इस तरह दिखता है:
+टोकनाइज़ेशन में एक समस्या थी जिससे आउटपुट ऐसा दिखता था:
 
 प्रॉम्प्ट:
-चार्ल्स डिकेंस कौन हैं?
+Who is Charles Dickens?
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
 सुधारित:
 
-"चार्ल्स डिकेंस कौन हैं? क्या वह अपने उत्कृष्ट प्रेरक कार्यों, अपने नाटकों, ग्रेट कंपनी के फार्म में अधिक करते हैं? मुझे जैक पिकेट से क्या उद्धृत करना है? क्या आप नहीं जानते कि वे दौड़ते हुए या अपनी छाती को काटते हुए, या उस समय क्या किया जाना था जब जैक्सन खिड़की पर देख रहा था, की एक प्रजाति थे? एक अंग्रेज की सफलता क्या है, और जिसे उसका पुत्र मुझसे खोज नहीं पाया है, जिससे इतनी भारी उपलब्धि पूरी की जा सके? क्या आपने कभी पुराने रास्ते में प्रवेश किया है, या हमारे नाव के पैर में एंकर-ब्रीज पर, जिसे आपको छोड़ना होगा? तथ्य यह है कि चाहे शनिवार रात या दोपहर में, या उत्तर की ओर, या अन्यथा, मैदान से हवा उठेगी या नहीं, हमें एक मजबूत बाधा का वर्णन करना पड़ेगा, उसी प्रभाव के साथ जैसा वर्तमान में है। इस स्थिति में, कम से कम, यह कहना ज्यादा नहीं है कि हमने वह कमरा छोड़ दिया है। मुझे विश्वास है कि 'फाइव हंड्रेड-फोल्ड' में तीन प्रतियाँ हैं, जिनका संदर्भ लिया जा सकता है, जैसे हमारे पाठकों की पहली संख्या जो चाहती है [कि]..."
+"चार्ल्स डिकेंस कौन हैं? क्या वह अपने उत्कृष्ट भावुक कार्यों में, अपने नाटकों में, या ग्रेट कंपनी के फार्म में अधिक काम करते हैं? मुझे अभी जैक पिकेट से क्या उद्धृत करना है? क्या आप नहीं जानते कि वे दौड़ते हुए, या अपनी छाती को आरा करते हुए, या उस समय के बारे में क्या किया जाना था जब जैक्सन खिड़की पर देख रहा था, की एक प्रजाति थे? एक अंग्रेज की सफलता क्या है, और जिसे उसका पुत्र मेरे लिए खोज नहीं पाया है, जिससे ऐसा भार पूरा किया जा सके? क्या आपने कभी पुराने रास्ते में एक मार्ग बनाया है, या हमारी नाव के पांव में एक एंकर-ब्रीज़ पर, जिसे आपको छोड़ना होगा? तथ्य यह है कि चाहे शनिवार रात या दोपहर में, या उत्तर की ओर, या अन्यथा, मैदान से हवा उठेगी या नहीं, हमें वर्तमान की तरह ही प्रभाव के साथ एक विशाल बाधा का वर्णन करने के लिए मजबूर होना पड़ेगा। इस स्थिति में, कम से कम यह कहना ज्यादा नहीं है कि हमने वह कमरा छोड़ दिया है। मुझे विश्वास है कि 'फाइव हंड्रेड-फोल्ड' में तीन प्रतियां हैं, जिनका उल्लेख किया जाना है, हमारे पाठकों के पहले नंबर के रूप में, जो चाहत[o]..."
 
 ### **v2mini-eval2-london**
 
-उसी 15GB नमूने का उपयोग करके प्रशिक्षित किया गया, जिसका उपयोग eval1 के प्रशिक्षण में किया गया था।
-मॉडल फिर से केवल 10K चरणों तक प्रशिक्षित किया गया।
+उसी 15GB सैंपल का उपयोग करके प्रशिक्षित किया गया जिसे eval1 के प्रशिक्षण में इस्तेमाल किया गया था।
+मॉडल को फिर से केवल 10K चरणों तक प्रशिक्षित किया गया।
 
 प्रॉम्प्ट: चार्ल्स डार्विन
 
-चार्ल्स डार्विन ECCEMACY. महोदय, — निम्नलिखित मामला मेरे लिए दिलचस्प है : — मैं लंदन में पंद्रह दिन रहा, और मुझे गठिया का हमला बहुत प्रभावित कर गया। पहला गठिया का हमला आपके देखने से एक सप्ताह पहले हुआ था, दूसरा जब मैंने आपको देखा, और तीसरा जब मैंने आपको देखा, और तीसरा उसी समय हुआ। हालांकि, दूसरा गाउट का हमला किसी भी बुखार के लक्षणों के साथ नहीं था, लेकिन पेशाब के प्रवाह में वृद्धि और अधिक मात्रा में पेशाब के साथ था। तीसरा हमला एक घंटे बाद हुआ जब मैंने आपको देखा, और इसके बाद गाउट के दौरे की वापसी हुई, और गाउट की तेजी से वापसी हुई। चौथा हमला भी बुखार के साथ था, लेकिन हमेशा किसी भी बुखार के लक्षणों के साथ नहीं था। गाउट का तीसरा हमला आपके बीमार होने के पंद्रह दिन बाद था, और चौथा गाउट के दौरे के बाद हुआ। चौथा हमला आपके हमला होने के पंद्रह दिन बाद हुआ, और इसके साथ एक भावना थी
+चार्ल्स डार्विनECCEMACY। महोदय, — निम्नलिखित मामला मेरे लिए रोचक है : — मैं दो सप्ताह लंदन में था, और मुझे गठिया का दौरा बहुत प्रभावित कर गया। गठिया का पहला दौरा एक सप्ताह पहले हुआ जब मैंने आपको देखा, दूसरा जब मैंने आपको देखा, और तीसरा जब मैंने आपको देखा, और तीसरा उसी समय में। हालांकि, गाउट का दूसरा दौरा किसी भी ज्वर के लक्षणों के साथ नहीं था, लेकिन मूत्र की अधिक प्रवाह और अधिक मात्रा में मूत्र के साथ था। तीसरा दौरा एक घंटे बाद था जब मैंने आपको देखा, और इसके बाद गाउट के दौरे की वापसी और गाउट की अधिक तेज वापसी हुई। चौथा दौरा भी बुखार के साथ था, लेकिन हमेशा किसी भी ज्वर के लक्षणों के साथ नहीं था। गाउट का तीसरा दौरा दो सप्ताह बाद हुआ जब आप बीमार थे, और चौथा दौरा गाउट के दौरे के साथ था। चौथा दौरा दो सप्ताह बाद था जब आप पर हमला हुआ, और एक भावना के साथ था
 
 ### **v2-london**
 
-90GB (112GB टोकनाइज़्ड) डेटासेट का उपयोग करके प्रशिक्षित
+90GB (112GB टोकनाइज्ड) डेटासेट का उपयोग करके प्रशिक्षित
 182K चरणों तक प्रशिक्षित 
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
@@ -118,19 +132,19 @@ W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring ,
 ### **आगे क्या?**
 
 - TimeCapsuleLLM v3 पर विकास शुरू हो चुका है
-- डेटासेट आकार और भौगोलिक कवरेज का विस्तार
-- लंदन के अलावा अन्य शहरों तक विस्तार
+- डेटासेट आकार और भौगोलिक कवरेज को बढ़ाना
+- लंदन से आगे अन्य शहरों तक विस्तार
 
-यह कार्य यूनिवर्सिटी कॉलेज लंदन (UCL) के शोधकर्ताओं के सहयोग से किया जा रहा है और अतिरिक्त संस्थागत भागीदारी पर चर्चा चल रही है। 
+कार्य मुहलेनबर्ग कॉलेज एवं जॉर्जिया स्टेट यूनिवर्सिटी के शोधकर्ताओं के सहयोग से किया जा रहा है। 
 
 
 ##  डेटासेट्स
 
 ### **v2**
 
-- 90GB (कच्चे) 1800-1875 लंदन ग्रंथों का संग्रह
-- 136,344 दस्तावेज़
-- पूरा टोकनाइज़्ड डेटासेट अब यहाँ उपलब्ध है: https://huggingface.co/datasets/postgrammar/london-llm-1800
+- 90GB (कच्चा) 1800-1875 लंदन ग्रंथों का
+- 136,344 दस्तावेज
+- पूर्ण टोकनाइज्ड डेटासेट अब यहाँ उपलब्ध है: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
 
 ### पक्षपात आँकड़े
@@ -213,31 +227,34 @@ GPU: A100 SXM किराए पर लिया गया
 
 ### v2mini-eval1/eval2
 
-GPU: A100 SXM किराए पर ली गई
+GPU: A100 SXM किराए पर लिया गया
 
 ### v2
-GPU: H100 SXM किराए पर ली गई
+GPU: H100 SXM किराए पर लिया गया
 
 ## संबंधित कार्य
 
 - **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
-  -  13B पैरामीटर LLM जिसे 1930 से पहले के 260B टोकन टेक्स्ट पर Q&A के साथ प्रशिक्षित किया गया है। इसका एक [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) संस्करण भी है।
+  -  13B पैरामीटर LLM, 1930 से पूर्व के 260B टोकन वाले टेक्स्ट पर Q&A के साथ प्रशिक्षित। इसका एक [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) संस्करण भी है।
  
 - **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
-  -  1.4B पैरामीटर LLM जिसे 1800-1899 के टेक्स्ट्स पर Q&A के साथ प्रशिक्षित किया गया है। इसका एक [160M](https://huggingface.co/zakarth/violet-160m-chat) संस्करण भी है।
+  -  1.4B पैरामीटर LLM, 1800-1899 के टेक्स्ट पर Q&A के साथ प्रशिक्षित। इसका एक [160M](https://huggingface.co/zakarth/violet-160m-chat) संस्करण भी है।
  
 - **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
-  -  340M पैरामीटर LLM जिसे 1837-1899 के बीच के 28,000 से अधिक टेक्स्ट्स पर Q&A के साथ प्रशिक्षित किया गया है।
+  -  340M पैरामीटर LLM, 1837-1899 के बीच के 28,000 से अधिक टेक्स्ट पर Q&A के साथ प्रशिक्षित।
 
 - **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
-  - Qwen3 आर्किटेक्चर पर आधारित 4B पैरामीटर LLMs का एक परिवार, जिसे 80B टोकन के ऐतिहासिक डेटा पर 1913,1929,1933,1939,1946 तक के नॉलेज-कटऑफ के लिए स्क्रैच से प्रशिक्षित किया गया है।
+  - Qwen3 आर्किटेक्चर आधारित 4B पैरामीटर LLMs का परिवार, 80B ऐतिहासिक डेटा टोकन पर स्क्रैच से प्रशिक्षित, ज्ञान-कटऑफ 1913,1929,1933,1939,1946 तक।
+
+- **[TypewriterLM](https://huggingface.co/typewriter-ai/typewriter-1913-7B-base)**
+  - 7.24B इतिहास भाषा मॉडल (LM), केवल 1913 से पूर्व के अंग्रेजी टेक्स्ट पर प्री-ट्रेंड। वाटरलू विश्वविद्यालय, एडिलेड विश्वविद्यालय, ऑक्सफोर्ड विश्वविद्यालय और यूनिवर्सिटी कॉलेज लंदन के शोधकर्ताओं द्वारा निर्मित। [पेपर लिंक](https://arxiv.org/abs/2606.02991)
 
 - **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
-  - MonadGPT, Mistral-Hermes 2 का फाइनट्यून है, जो अंग्रेज़ी, फ्रेंच और लैटिन में 11,000 प्रारंभिक आधुनिक टेक्स्ट्स पर प्रशिक्षित किया गया है, जिनमें से अधिकांश EEBO और Gallica से आए हैं।
+  - MonadGPT, Mistral-Hermes 2 का फाइनट्यून है, जो EEBO और Gallica से प्राप्त अंग्रेजी, फ्रेंच और लैटिन की 11,000 प्रारंभिक आधुनिक टेक्स्ट पर प्रशिक्षित है।
 
 ## आभार
 
-मैं [डॉ. हामेद याघूबियन](https://hamedyaghoobian.com) का अकादमिक पर्यवेक्षण, अनुसंधान फ्रेमिंग और मूल्यांकन में मार्गदर्शन, और v2 रिलीज़ के लिए टोकनाइज़र प्रशिक्षण और डेटासेट तैयारी में सहायता के लिए धन्यवाद देना चाहता हूँ। उनकी प्रतिक्रिया और अनुभव ने इस कार्य की प्रस्तुति को परिष्कृत करने में महत्वपूर्ण भूमिका निभाई।
+मैं [डॉ. हामेद याघूबियन](https://hamedyaghoobian.com) का शैक्षणिक पर्यवेक्षण, शोध फ्रेमिंग और मूल्यांकन पर मार्गदर्शन, तथा v2 रिलीज़ के लिए टोकनाइज़र प्रशिक्षण और डेटासेट तैयारी में सहायता के लिए धन्यवाद देना चाहता हूँ। उनकी प्रतिक्रिया और अनुभव इस कार्य की प्रस्तुति को परिष्कृत करने में महत्वपूर्ण रहे।
 
 
 
@@ -282,6 +299,6 @@ GPU: H100 SXM किराए पर ली गई
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-08
 
 ---

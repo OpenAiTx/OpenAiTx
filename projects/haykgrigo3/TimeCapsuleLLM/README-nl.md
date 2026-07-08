@@ -3,7 +3,6 @@
 <summary>🌐 Taal</summary>
 
 [English](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th) | [Français](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de) | [Español](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it) | [Русский](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru) | [Português](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as)
-
 </details>
 </div>
 
@@ -12,24 +11,25 @@
 
 *Een taalmodel dat **vanaf nul** is getraind uitsluitend op data uit bepaalde plaatsen en tijdsperioden om moderne bias te verminderen en de stem, woordenschat en wereldbeeld van het tijdperk te emuleren.*
 
-Stel je voor dat een AI-model niet alleen deed alsof het historisch was, maar het werkelijk was.
+Stel je voor dat een AI-model niet alleen deed alsof het historisch was, maar het daadwerkelijk was.
 
-v0 en v0.5 gebouwd op [nanoGPT van Andrej Karpathy](https://github.com/karpathy/nanoGPT) Kern trainingsscripts en modelarchitectuur zijn zijn werk.
+v0 en v0.5 gebouwd op [nanoGPT door Andrej Karpathy](https://github.com/karpathy/nanoGPT) Kern trainingsscripts en modelarchitectuur zijn zijn werk.
 
-v1 gebouwd op [Phi 1.5 van Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 gebouwd op [Phi 1.5 door Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
 v2 gebouwd op llamaforcausallm
 
 [Hugging Face Link](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
 ## Onderzoeksstatus
-Dit project is onafhankelijk geïnitieerd en ontwikkeld.
+Dit project werd onafhankelijk geïnitieerd en ontwikkeld.
 
-Het wordt momenteel uitgevoerd onder academisch toezicht, met een geassocieerde onderzoekssamenwerking aan Muhlenberg College.
+Het wordt momenteel uitgevoerd onder academisch toezicht, met een verbonden onderzoeks-samenwerking aan Muhlenberg College & Georgia State University.
 
-## Citatie
+## Citation
 
-Als je deze dataset of dit model gebruikt in academisch werk, citeer dan:
+Als je deze dataset of het model gebruikt in academisch werk, citeer dan als volgt:
+
 
 ```bibtex
 @misc{london_llm_1800,
@@ -45,48 +45,62 @@ Als je deze dataset of dit model gebruikt in academisch werk, citeer dan:
 
 Als je geïnteresseerd bent in **historische taalmodellen**, **tijdspecifieke datasets** of de toekomst van projecten zoals **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox**, kom dan bij de community.
 
-We gebruiken de server om ideeën te bespreken, voortgang te delen en in contact te komen met anderen die in dit vakgebied bouwen.
+We gebruiken de server om ideeën te bespreken, voortgang te delen en in contact te komen met anderen die actief zijn in dit vakgebied.
 
 [Word lid van de Discord](https://discord.gg/JeWkk4z5)
+
+## Sponsors
+
+<div align="center">
+  <a href="https://doloffer.com">
+    <img src="https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/logo.png" width="500">
+  </a>
+</div>
+
+Dank aan DolOffer voor het steunen van dit project!
+
+DolOffer is een platform gericht op aanbevelingen van digitale producten en het delen van kortingen, waarmee gebruikers snel waardevolle tools, diensten en tijdelijke aanbiedingen kunnen ontdekken. Het platform biedt een verscheidenheid aan populaire abonnementsdiensten, waaronder YouTube Premium, Claude, ChatGPT Plus, Spotify en Apple Music, met prijzen vanaf slechts 30% van de officiële prijs of zelfs lager.
+
+Registreer je nu via deze exclusieve link [doloffer](https://doloffer.com/en/), en voer de promotiecode AI8888 in bij het opwaarderen om te genieten van 10% extra korting.
 
 ##  Modelgedrag & Beperkingen
 
 ### **v0**  
 
-Vroege prompts laten het model reageren met taalgebruik en gedrag uit de 19e eeuw. 
-Voorbeeld: Prompt: "Who art Henry?" en het antwoordde: "I know that man, I have did not a black, the storm."
+Vroege prompts tonen het model dat reageert met taal en gedrag uit de 19e eeuw. 
+Voorbeeld: Prompt: "Who art Henry?" en het antwoordde "I know that man, I have did not a black, the storm." 
 
 ![TimeCapsuleLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Geen vermelding van moderne concepten  
-- Meestal tijdperk-accurate woordenschat  
+- Meestal tijdsgetrouwe woordenschat  
 - Zinnen zijn grotendeels onsamenhangend (verwacht bij ~187MB trainingsdata)
 
 ### **v0.5-london** 
 
-Een significante verbetering ten opzichte van v0.  
-- Victoriaanse schrijfstijl, juiste interpunctie, meestal grammaticale zinnen  
-- Nog steeds hoge mate van feitelijke hallucinatie  
-- OCR-ruis (“Digitized by Google”) nog aanwezig in de uitvoer
+Een aanzienlijke verbetering ten opzichte van v0.  
+- Victoriaanse schrijfstijl, correcte interpunctie, meestal grammaticaal correcte zinnen  
+- Nog steeds een hoge mate van feitelijke hallucinaties  
+- OCR-ruis (“Gedigitaliseerd door Google”) nog steeds aanwezig in de output
 
 ![TimeCapsuleLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1-london**
 
-Eerste model dat een echt historisch feit met een daadwerkelijk figuur uit de dataset kan verbinden.
+Eerste model dat een echt historisch evenement koppelt aan een daadwerkelijke persoon uit de dataset.
 
-Voorbeeld: Prompt: "It was the year of our Lord 1834" 
+Voorbeeld: Prompt: "Het was het jaar onzes Heren 1834" 
 
-De uitvoer: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
+De output: "Het was het jaar onzes Heren 1834 en de straten van Londen waren gevuld met protest en petitie. De reden, zoals velen zich herinnerden, was niet gebonden op de manier van privé, maar had dezelfde dag als de dag van Lord Palmerston opgepakt, het publiek zal een korte verklaring ontvangen van de moeilijkheden waaronder de dag van de wet ons heeft bereikt. Het is een zaak van diepe spijt, dat de huidige gebeurtenissen in de geschiedenis van de wereld duidelijk zijn, en bijgevolg bekend zullen worden. Het is niet waar dat de mannen die zich het eerst in het Evangelie te Jeruzalem vestigden, zo'n uitgebreide en interessante registratie van de voorspoed en voorspoed zouden hebben" 
 
-Eerst dacht ik dat er toevallig in dat jaar een protest was, maar kijk eens hiernaar: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Eerst dacht ik dat er toevallig een protest in datzelfde jaar had plaatsgevonden, maar kijk hier eens naar: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1-london**
 
-Getraind met een 15GB sample uit v2's 90GB dataset.
+Getraind met een 15GB-sample uit de 90GB-dataset van v2.
 Model slechts getraind tot 10K stappen.
 
-Er was een probleem met tokenisatie waardoor de output er zo uitziet:
+Er was een probleem met de tokenisatie, waardoor de output er zo uitzag:
 
 PROMPT:
 Wie is Charles Dickens?
@@ -96,40 +110,40 @@ W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring ,
 
 Gecorrigeerd:
 
-"Wie is Charles Dickens? Komt dat werk meer voort uit zijn uitstekende en aangrijpende stukken, in zijn toneelstukken, op de boerderij van de Great Company? Wat moet ik nog citeren van Jack Pickett? Weet je niet dat ze een soort galopperen waren, of zagen aan hun borst, of wat er moest gebeuren rond de tijd dat Jackson uit het raam keek? Wat is het succes van een Engelsman, en wat heeft zijn zoon nog niet aan mij ontdekt, waarmee zo'n gewicht kan worden bereikt? Heb je ooit een doorgang gemaakt naar de oude weg, of naar een ankerbries aan de voet van onze boot, die je ons moet verlaten? Het feit is, dat of de wind nu zou opsteken vanaf de vlakte op zaterdagavond of rond het middaguur, of naar het noorden, of anderszins, we genoodzaakt zullen zijn een formidabele barrière te beschrijven, met dezelfde effecten als nu. In deze situatie, althans, is het niet te veel gezegd dat we die kamer hebben verlaten. Ik geloof dat er drie exemplaren zijn in de 'Five Hundred-fold', waarnaar verwezen moet worden, als het eerste aantal van onze lezers dat wil t[o]..."
+"Wie is Charles Dickens? Werkt dat meer van zijn uitstekende opzwepende, in zijn toneelstukken, op de boerderij van het Grote Gezelschap? Wat moet ik nog citeren van Jack Pickett? Weet je niet dat ze een soort galopperen waren, of het zagen in hun borsten, of wat er moest gebeuren rond de tijd dat Jackson naar het raam keek? Wat is het succes van een Engelsman, en wat zijn zoon mij nog niet heeft onthuld, waardoor zo'n gewicht kan worden bereikt? Heb je ooit een doorgang gemaakt naar de oude weg, of naar een ankerbries aan de voet van onze boot, die je ons moet verlaten? Het feit is dat, of de wind nu op zaterdagavond of rond het middaguur uit de vlakte zou opsteken, of naar het noorden, of anders, we genoodzaakt zullen zijn een formidabele barrière te beschrijven, met dezelfde effecten als nu. In deze situatie is het op zijn minst niet overdreven om te zeggen dat we die kamer hebben verlaten. Ik geloof dat er drie exemplaren zijn in de 'Vijfhonderdvoud', waarnaar verwezen kan worden, als het eerste nummer voor onze lezers die w...
 
 ### **v2mini-eval2-london**
 
-Getraind met dezelfde 15GB sample als gebruikt bij de training van eval1.
-Model is opnieuw getraind tot slechts 10K stappen.
+Getraind met dezelfde 15GB sample die gebruikt is voor training eval1.
+Model is opnieuw slechts tot 10K stappen getraind.
 
 PROMPT:Charles Darwin
 
-Charles DarwinECCEMACY. Meneer, — Het volgende geval is interessant voor mij: — Ik was twee weken in Londen, en werd sterk getroffen door een aanval van reuma. De eerste aanval van reuma was een week voordat ik u zag, de tweede toen ik u zag, en de derde toen ik u zag, en de derde in dezelfde tijd. De tweede aanval van jicht werd echter niet vergezeld door koortsverschijnselen, maar wel door een verhoogde urinestroom en een overvloedigere urineafscheiding. De derde aanval was een uur nadat ik u zag, en werd gevolgd door een terugkeer van een jichtaanval, en een snellere terugkeer van de jicht. De vierde aanval ging ook gepaard met koorts, maar werd niet altijd vergezeld door koortsverschijnselen. De derde aanval van jicht was twee weken nadat u ziek was geworden, en de vierde werd gevolgd door een jichtaanval. De vierde aanval was twee weken nadat u werd getroffen, en ging gepaard met een gevoel
+Charles DarwinECCEMACY. Meneer, — Het volgende geval is interessant voor mij: — Ik was twee weken in Londen, en werd erg getroffen door een aanval van reuma. De eerste reuma-aanval was een week voordat ik u zag, en de tweede toen ik u zag, en de derde toen ik u zag, en de derde in dezelfde tijd. De tweede aanval van jicht, echter, ging niet gepaard met koortsverschijnselen, maar wel met een verhoogde urineproductie, en met een overvloediger urine-afscheiding. De derde aanval was een uur nadat ik u zag, en werd gevolgd door een terugkeer van een jichtaanval, en een snellere terugkeer van de jicht. De vierde aanval ging ook gepaard met koorts, maar niet altijd met koortsverschijnselen. De derde aanval van jicht was twee weken nadat u ziek was geweest, en de vierde werd gevolgd door een jichtaanval. De vierde aanval was twee weken nadat u werd aangevallen, en ging gepaard met een gevoel
 
 ### **v2-london**
 
-Getraind met een 90GB (112GB getokeniseerd) dataset
-Getraind tot 182K stappen 
+Getraind met een 90GB (112GB getokeniseerde) dataset
+Getraind tot 182K stappen
 
-![TimeCapsuleLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+![TimeCapsuleLLM Voorbeeld Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
-![TimeCapsuleLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
+![TimeCapsuleLLM Voorbeeld Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
 ### **Wat is het volgende?**
 
-- Ontwikkeling van TimeCapsuleLLM v3 is gestart
-- Opschalen van datasetgrootte en geografische dekking
-- Uitbreiden naar andere steden buiten Londen
+- Ontwikkeling is begonnen aan TimeCapsuleLLM v3
+- Datasetgrootte en geografische dekking opschalen
+- Uitbreiden buiten Londen naar extra steden
 
-Het werk wordt uitgevoerd in samenwerking met onderzoekers van University College London (UCL) en aanvullende institutionele betrokkenheid wordt besproken. 
+Het werk wordt uitgevoerd in samenwerking met onderzoekers van Muhlenberg College & Georgia State University.
 
 
 ##  Datasets
 
 ### **v2**
 
-- 90GB(ruw) aan Londense teksten uit 1800-1875
+- 90GB(ruw) aan Londen-teksten uit 1800-1875
 - 136.344 documenten
 - De volledige getokeniseerde dataset is nu hier beschikbaar: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
@@ -221,23 +235,26 @@ GPU: H100 SXM gehuurd
 ## Gerelateerd Werk
 
 - **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
-  -  13B parameter LLM getraind op 260B tokens tekst van vóór 1930 met Q&A. Er is ook een [basis](https://huggingface.co/talkie-lm/talkie-1930-13b-base) versie.
+  -  13B parameter LLM getraind op 260B tokens tekst van vóór 1930 met Q&A. Er is ook een [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) versie.
  
 - **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
   -  1.4B parameter LLM getraind op teksten uit 1800-1899 met Q&A. Er is ook een [160M](https://huggingface.co/zakarth/violet-160m-chat) versie.
  
 - **[Mr. Chatterbox](https://huggingface.co/tventurella/mr_chatterbox_model)**
-  -  340M parameter LLM getraind op meer dan 28.000 teksten tussen 1837-1899 met Q&A.
+  -  340M parameter LLM getraind op meer dan 28.000 teksten uit 1837-1899 met Q&A. 
 
 - **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
-  - een familie van 4B parameter LLM's gebaseerd op de Qwen3 architectuur, vanaf nul getraind op 80B tokens aan historische data tot kennis-cutoffs 1913, 1929, 1933, 1939, 1946.
+  - een familie van 4B parameter LLMs gebaseerd op de Qwen3-architectuur, vanaf nul getraind op 80B tokens historische data tot kennisgrenzen 1913,1929,1933,1939,1946.
+ 
+- **[TypewriterLM](https://huggingface.co/typewriter-ai/typewriter-1913-7B-base)**
+  - een 7,24B geschiedenis-taalmodel (LM) uitsluitend voorgetraind op Engelstalige teksten van vóór 1913. Gemaakt door onderzoekers van University of Waterloo, Adelaide University, University of Oxford en University College London. [Link naar paper](https://arxiv.org/abs/2606.02991)
 
 - **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
-  - MonadGPT is een finetune van Mistral-Hermes 2 op 11.000 vroegmoderne teksten in het Engels, Frans en Latijn, voornamelijk afkomstig van EEBO en Gallica.
+  - MonadGPT is een finetune van Mistral-Hermes 2 op 11.000 vroegmoderne teksten in het Engels, Frans en Latijn, voornamelijk afkomstig uit EEBO en Gallica.
 
 ## Dankbetuigingen
 
-Ik wil [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) bedanken voor academische supervisie, begeleiding bij het opzetten en evalueren van het onderzoek, en voor hulp bij tokenizer training en datasetvoorbereiding voor de v2-release. Zijn feedback en ervaring waren van groot belang bij het verfijnen van de presentatie van dit werk.
+Ik wil [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) bedanken voor academisch toezicht, begeleiding bij het opzetten en evalueren van het onderzoek, en voor hulp bij tokenizer-training en datasetvoorbereiding voor de v2-release. Zijn feedback en ervaring waren van groot belang voor het verfijnen van de presentatie van dit werk.
 
 
 
@@ -282,6 +299,6 @@ Ik wil [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) bedanken voor academi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-05-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-08
 
 ---
