@@ -1,0 +1,398 @@
+[
+  {
+    "row": 1,
+    "rowsha": "vHPfn/Ywxycb8rp+zu7S1I/U5aeb6Jv5LGMKnLaE7J8=",
+    "originContent": "# Searchlight - Postgres MacOS Client",
+    "translatedContent": "# Searchlight - Postgres MacOS 클라이언트"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "dyRa93YO6IUhm9UucunlIrI3yaoLEo89N3EN4ym6U2c=",
+    "originContent": "![Screenshot of Searchlight](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)",
+    "translatedContent": "![Searchlight 스크린샷](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "6OVBvxTEqNqNvX7ON8naonQLmFszD1hJrQPINUux2bk=",
+    "originContent": "Searchlight is a native macOS, open-source PostgreSQL client designed to be simple, lightweight, and developer-friendly. It offers a clean and intuitive interface for managing databases and running queries without the complexity of full-scale database management tools. Searchlight focuses on delivering a smooth and efficient experience for developers who need quick and easy access to their PostgreSQL databases.",
+    "translatedContent": "Searchlight은 간단하고 가벼우며 개발자 친화적인 네이티브 macOS 오픈소스 PostgreSQL 클라이언트입니다. 완전한 데이터베이스 관리 도구의 복잡성 없이 데이터베이스 관리와 쿼리 실행을 위한 깔끔하고 직관적인 인터페이스를 제공합니다. Searchlight은 PostgreSQL 데이터베이스에 빠르고 쉽게 접근해야 하는 개발자에게 원활하고 효율적인 경험을 제공하는 데 중점을 둡니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "f727MIKogYH4WVMbwWRt/OzBMl6HyAoGNvlopYtD82s=",
+    "originContent": "Download the latest release from the [Releases Page](https://github.com/ravelantunes/Searchlight/releases).",
+    "translatedContent": "[릴리즈 페이지](https://github.com/ravelantunes/Searchlight/releases)에서 최신 버전을 다운로드하세요."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "WnaPpZ9mAbL7aBn/4wuSuKT1/GFarwVIngdp5/PGw/M=",
+    "originContent": "> I’m using my personal Apple developer account so I can’t notarize the app with Apple. If you try to install from the GitHub releases page MacOS will warn that it can’t verify the developer identity, so you will need to approve the install on Settings > Privacy, or build from source.",
+    "translatedContent": "> 저는 개인 Apple 개발자 계정을 사용하므로 Apple에서 앱을 공인(notarize)할 수 없습니다. GitHub 릴리즈 페이지에서 설치를 시도하면 MacOS가 개발자 신원을 확인할 수 없다고 경고하므로 설정 > 개인정보 보호에서 설치를 승인하거나 소스에서 빌드해야 합니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "VsOY7dxcNnT8chph5ZIzmj7+smEcdlA3XrYDXMgVaUU=",
+    "originContent": "## Current Features",
+    "translatedContent": "## 현재 기능"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "sYIDmich+tRadwtcY9Em2iwMWLOLkl6U2RTD/tLTApI=",
+    "originContent": "### Connection Management",
+    "translatedContent": "### 연결 관리"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "oGAXhblaG85ZpYh4ix2Iaq7ACZfdX7pe1tA/3R5kh8A=",
+    "originContent": "- Save and manage favorite connections",
+    "translatedContent": "- 즐겨찾기 연결 저장 및 관리"
+  },
+  {
+    "row": 18,
+    "rowsha": "pnrbHUmeIMD2IaHoRuJtur8WtHvBVwhAsxfLeTugmPo=",
+    "originContent": "- SSH tunnel support with key-based authentication",
+    "translatedContent": "- 키 기반 인증을 사용하는 SSH 터널 지원"
+  },
+  {
+    "row": 19,
+    "rowsha": "UChcbEyS+ICE9AB4b13cVaO8Q/YONuNxiyszgdyUY28=",
+    "originContent": "- SSL/TLS connection support",
+    "translatedContent": "- SSL/TLS 연결 지원"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "52bIEKAoIQ5HBn1M/alv0gGX2VdsYTe4gEeeeqrqDP4=",
+    "originContent": "### Database Browser",
+    "translatedContent": "### 데이터베이스 브라우저"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "N+NHJ98FfAjQkwHfyEsVgmwHQk4F7U+5MlQrgy0Kmrw=",
+    "originContent": "- Browse databases, schemas, and tables",
+    "translatedContent": "- 데이터베이스, 스키마, 테이블 탐색"
+  },
+  {
+    "row": 24,
+    "rowsha": "gX2ITXyWBh/1A4RpLb/xUWOKr9V/bY2hz6EAAspW0Dg=",
+    "originContent": "- Quick search and filter on table data",
+    "translatedContent": "- 테이블 데이터에 대한 빠른 검색 및 필터링"
+  },
+  {
+    "row": 25,
+    "rowsha": "tHx7INts7INFsRUFChEeZSNWnvWiQD2fM9EHTb5oePU=",
+    "originContent": "- Foreign key relationship linking — click to navigate to related records",
+    "translatedContent": "- 외래 키 관계 링크 — 관련 레코드로 클릭하여 이동"
+  },
+  {
+    "row": 26,
+    "rowsha": "vbVZKAcfZJpCSO4RGkMiExt0tAcp48Jmtzf7kCROcnU=",
+    "originContent": "- Column statistics popover — view unique values, null counts, and value distribution charts",
+    "translatedContent": "- 컬럼 통계 팝오버 — 고유 값, 널 개수, 값 분포 차트 보기"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "OAVJ44+xar3oSZpY4QMU+8bOhZD8/PE1OeSJsDyulzY=",
+    "originContent": "### Data Manipulation",
+    "translatedContent": "### 데이터 조작"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "WjMMdzATh5OjxxC6Rgk6eu3LagkWWLSlDWlRbsGMet8=",
+    "originContent": "- Insert new rows directly in the table",
+    "translatedContent": "- 테이블에서 직접 새 행 삽입"
+  },
+  {
+    "row": 31,
+    "rowsha": "NWrBsUTSIzLgXoXevPnhwx6ETUwXXDt2IxUm/5YADtI=",
+    "originContent": "- Copy cell value, row, columns in different formats",
+    "translatedContent": "- 셀 값, 행, 열을 다양한 형식으로 복사"
+  },
+  {
+    "row": 32,
+    "rowsha": "VPtkMZW7HFZMH7oyfTNcoLabFlq91LB/vdoRfIRK3ms=",
+    "originContent": "- Auto-complete/data look-up from foreign key references when inserting data",
+    "translatedContent": "- 데이터 삽입 시 외래 키 참조에서 자동 완성/데이터 조회"
+  },
+  {
+    "row": 33,
+    "rowsha": "tTNC4ZLgjst2er6bW/peQQ/rKCi7KFzaEm/iDS8pJ1g=",
+    "originContent": "- Export formats: Plain text, CSV, SQL INSERT statements",
+    "translatedContent": "- 내보내기 형식: 일반 텍스트, CSV, SQL INSERT 문"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "z+BEcGAtGnzBqKf7ZuZ5NyoRkV52A5abIpRNzSvTekA=",
+    "originContent": "### Query Editor",
+    "translatedContent": "### 쿼리 편집기"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "BlqH2MRtvBjs6YK9BMtIRPIHPjNZWTZU/EOYvxDLXXM=",
+    "originContent": "- Free-form SQL query execution",
+    "translatedContent": "- 자유 형식 SQL 쿼리 실행"
+  },
+  {
+    "row": 38,
+    "rowsha": "FXb8M2abpzukyOEHPqg/7vtusHxPcMNR5uQnKL1PkPk=",
+    "originContent": "- SQL LSP support for autocompletion, diagnostics, and hover documentation",
+    "translatedContent": "- 자동 완성, 진단, 호버 문서화를 위한 SQL LSP 지원"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "XI1hCZz8VNqvnPEKYOaqVvgeKOBm9sZmtYI3V9yP14Y=",
+    "originContent": "## Building from Source",
+    "translatedContent": "## 소스에서 빌드하기"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 저장소 복제"
+  },
+  {
+    "row": 42,
+    "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+    "originContent": "1. Clone the repository",
+    "translatedContent": "2. Xcode에서 `Searchlight.xcodeproj` 열기"
+  },
+  {
+    "row": 43,
+    "rowsha": "P+YIl6PltE8yU5M3q/4xMoGaQ5oNcRKyRZ7RCZGgs/Y=",
+    "originContent": "2. Open `Searchlight.xcodeproj` in Xcode",
+    "translatedContent": "3. 두 번 빌드하기 (⌘B, ⌘B) — 첫 번째 빌드는 종속성을 다운로드하고 두 번째 빌드는 이를 포함합니다"
+  },
+  {
+    "row": 44,
+    "rowsha": "PK6GwNMyd25aGCw8bx38V8g2+3/m/nAqFaEmQQnsuZg=",
+    "originContent": "3. Build twice (⌘B, ⌘B) — the first build downloads dependencies, the second includes them",
+    "translatedContent": "4. 실행하기 (⌘R)"
+  },
+  {
+    "row": 45,
+    "rowsha": "1TyFgunuvToBQ56vPW4zr5K48pcmGoW7KybjU7txE9Y=",
+    "originContent": "4. Run (⌘R)",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "첫 번째 빌드는 SQL 자동완성, 문법 검사, 호버 문서화를 위한 [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) 바이너리(~16MB)를 자동으로 다운로드합니다. 두 번째 빌드는 이를 앱에 번들로 포함하기 위해 필요합니다."
+  },
+  {
+    "row": 47,
+    "rowsha": "Wq6EsOGE2s0CzBT2BNsgXB+Lb6Fg54/V+QGro/WwKWM=",
+    "originContent": "The first build automatically downloads the [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) binary (~16MB) for SQL autocompletion, syntax checking, and hover documentation. A second build is needed to bundle it into the app.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **참고:** LSP 바이너리는 Apple Silicon(arm64) 전용입니다."
+  },
+  {
+    "row": 49,
+    "rowsha": "lyJIM2PPklukZjKotVugYBaTSrQBKXnD2fVXSF8DVrI=",
+    "originContent": "> **Note:** The LSP binary is only for Apple Silicon (arm64).",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기술 스택"
+  },
+  {
+    "row": 51,
+    "rowsha": "XJl/FNgwR2AGsDvOaDIzGttr6EiAAyy3PJUJujZZrkw=",
+    "originContent": "## Tech Stack",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Swift & SwiftUI** — 고급 테이블 뷰를 위한 AppKit 통합을 포함한 네이티브 macOS 앱"
+  },
+  {
+    "row": 53,
+    "rowsha": "06sC7nJesocxT3cYlS+V4a7Yu9sn3IvXezQHoszeR5M=",
+    "originContent": "- **Swift & SwiftUI** — Native macOS app with AppKit integration for advanced table views",
+    "translatedContent": "- **PostgresKit / PostgresNIO** — 연결 풀링 기능이 있는 PostgreSQL 드라이버"
+  },
+  {
+    "row": 54,
+    "rowsha": "jOiEM4sif00gnTVIIRj8hWGxGXRf/DEzliV6SSNkWXk=",
+    "originContent": "- **PostgresKit / PostgresNIO** — PostgreSQL driver with connection pooling",
+    "translatedContent": "- **SwiftNIO** — 비동기 네트워킹 기반"
+  },
+  {
+    "row": 55,
+    "rowsha": "SVks+CfFmnrUR/lMRKCanNZ3e9dRZu7px6vXduDCtUw=",
+    "originContent": "- **SwiftNIO** — Async networking foundation",
+    "translatedContent": "- **System SSH** — macOS 시스템 도구를 이용한 네이티브 SSH 터널 지원"
+  },
+  {
+    "row": 56,
+    "rowsha": "eqTUR41G+tSSHsvLV+xtqNF/fXVgfZoRiv70ZsnyoB4=",
+    "originContent": "- **System SSH** — Native SSH tunnel support using macOS system tools",
+    "translatedContent": "- **Postgres Language Server** — SQL 지능(자동완성, 진단, 호버 문서)"
+  },
+  {
+    "row": 57,
+    "rowsha": "KgEihn04XwU4xPYAc9Y18Lv+Xkq72bBfHBo0aPd+/Tc=",
+    "originContent": "- **Postgres Language Server** — SQL intelligence (autocompletion, diagnostics, hover docs)",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기여"
+  },
+  {
+    "row": 59,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "기여를 환영합니다! 이슈를 열거나 풀 리퀘스트를 제출해 주세요."
+  },
+  {
+    "row": 61,
+    "rowsha": "QLa37e7hTnGCMYtMWmnOwH3fdbkRg7uqzEEBysoI7EI=",
+    "originContent": "Contributions are welcome! Feel free to open issues or submit pull requests.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 63,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "자세한 내용은 [LICENSE](LICENSE)를 참조하세요."
+  },
+  {
+    "row": 65,
+    "rowsha": "hViCiAQE3bjMyinRzVLV7rvhaLLAh6kMIIGoRIzO5Nc=",
+    "originContent": "See [LICENSE](LICENSE) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

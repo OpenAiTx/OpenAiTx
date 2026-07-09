@@ -1,0 +1,398 @@
+[
+  {
+    "row": 1,
+    "rowsha": "vHPfn/Ywxycb8rp+zu7S1I/U5aeb6Jv5LGMKnLaE7J8=",
+    "originContent": "# Searchlight - Postgres MacOS Client",
+    "translatedContent": "# Searchlight - Cliente Postgres para MacOS"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "dyRa93YO6IUhm9UucunlIrI3yaoLEo89N3EN4ym6U2c=",
+    "originContent": "![Screenshot of Searchlight](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)",
+    "translatedContent": "![Captura de pantalla de Searchlight](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "6OVBvxTEqNqNvX7ON8naonQLmFszD1hJrQPINUux2bk=",
+    "originContent": "Searchlight is a native macOS, open-source PostgreSQL client designed to be simple, lightweight, and developer-friendly. It offers a clean and intuitive interface for managing databases and running queries without the complexity of full-scale database management tools. Searchlight focuses on delivering a smooth and efficient experience for developers who need quick and easy access to their PostgreSQL databases.",
+    "translatedContent": "Searchlight es un cliente nativo de PostgreSQL para macOS, de código abierto, diseñado para ser simple, ligero y amigable para desarrolladores. Ofrece una interfaz limpia e intuitiva para gestionar bases de datos y ejecutar consultas sin la complejidad de herramientas de gestión de bases de datos a gran escala. Searchlight se enfoca en brindar una experiencia fluida y eficiente para desarrolladores que necesitan acceso rápido y sencillo a sus bases de datos PostgreSQL."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "f727MIKogYH4WVMbwWRt/OzBMl6HyAoGNvlopYtD82s=",
+    "originContent": "Download the latest release from the [Releases Page](https://github.com/ravelantunes/Searchlight/releases).",
+    "translatedContent": "Descarga la última versión desde la [Página de Releases](https://github.com/ravelantunes/Searchlight/releases)."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "WnaPpZ9mAbL7aBn/4wuSuKT1/GFarwVIngdp5/PGw/M=",
+    "originContent": "> I’m using my personal Apple developer account so I can’t notarize the app with Apple. If you try to install from the GitHub releases page MacOS will warn that it can’t verify the developer identity, so you will need to approve the install on Settings > Privacy, or build from source.",
+    "translatedContent": "> Estoy usando mi cuenta personal de desarrollador Apple, por lo que no puedo notarizar la app con Apple. Si intentas instalar desde la página de releases de GitHub, macOS advertirá que no puede verificar la identidad del desarrollador, por lo que deberás aprobar la instalación en Configuración > Privacidad, o compilar desde el código fuente."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "VsOY7dxcNnT8chph5ZIzmj7+smEcdlA3XrYDXMgVaUU=",
+    "originContent": "## Current Features",
+    "translatedContent": "## Funcionalidades actuales"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "sYIDmich+tRadwtcY9Em2iwMWLOLkl6U2RTD/tLTApI=",
+    "originContent": "### Connection Management",
+    "translatedContent": "### Gestión de Conexiones"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "oGAXhblaG85ZpYh4ix2Iaq7ACZfdX7pe1tA/3R5kh8A=",
+    "originContent": "- Save and manage favorite connections",
+    "translatedContent": "- Guardar y gestionar conexiones favoritas"
+  },
+  {
+    "row": 18,
+    "rowsha": "pnrbHUmeIMD2IaHoRuJtur8WtHvBVwhAsxfLeTugmPo=",
+    "originContent": "- SSH tunnel support with key-based authentication",
+    "translatedContent": "- Soporte de túnel SSH con autenticación basada en clave"
+  },
+  {
+    "row": 19,
+    "rowsha": "UChcbEyS+ICE9AB4b13cVaO8Q/YONuNxiyszgdyUY28=",
+    "originContent": "- SSL/TLS connection support",
+    "translatedContent": "- Soporte de conexión SSL/TLS"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "52bIEKAoIQ5HBn1M/alv0gGX2VdsYTe4gEeeeqrqDP4=",
+    "originContent": "### Database Browser",
+    "translatedContent": "### Navegador de Bases de Datos"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "N+NHJ98FfAjQkwHfyEsVgmwHQk4F7U+5MlQrgy0Kmrw=",
+    "originContent": "- Browse databases, schemas, and tables",
+    "translatedContent": "- Navegar bases de datos, esquemas y tablas"
+  },
+  {
+    "row": 24,
+    "rowsha": "gX2ITXyWBh/1A4RpLb/xUWOKr9V/bY2hz6EAAspW0Dg=",
+    "originContent": "- Quick search and filter on table data",
+    "translatedContent": "- Búsqueda rápida y filtrado en datos de tablas"
+  },
+  {
+    "row": 25,
+    "rowsha": "tHx7INts7INFsRUFChEeZSNWnvWiQD2fM9EHTb5oePU=",
+    "originContent": "- Foreign key relationship linking — click to navigate to related records",
+    "translatedContent": "- Enlace de relaciones por clave foránea — hacer clic para navegar a registros relacionados"
+  },
+  {
+    "row": 26,
+    "rowsha": "vbVZKAcfZJpCSO4RGkMiExt0tAcp48Jmtzf7kCROcnU=",
+    "originContent": "- Column statistics popover — view unique values, null counts, and value distribution charts",
+    "translatedContent": "- Ventana emergente con estadísticas de columnas — ver valores únicos, conteos de nulos y gráficos de distribución de valores"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "OAVJ44+xar3oSZpY4QMU+8bOhZD8/PE1OeSJsDyulzY=",
+    "originContent": "### Data Manipulation",
+    "translatedContent": "### Manipulación de Datos"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "WjMMdzATh5OjxxC6Rgk6eu3LagkWWLSlDWlRbsGMet8=",
+    "originContent": "- Insert new rows directly in the table",
+    "translatedContent": "- Insertar nuevas filas directamente en la tabla"
+  },
+  {
+    "row": 31,
+    "rowsha": "NWrBsUTSIzLgXoXevPnhwx6ETUwXXDt2IxUm/5YADtI=",
+    "originContent": "- Copy cell value, row, columns in different formats",
+    "translatedContent": "- Copiar valor de celda, fila, columnas en diferentes formatos"
+  },
+  {
+    "row": 32,
+    "rowsha": "VPtkMZW7HFZMH7oyfTNcoLabFlq91LB/vdoRfIRK3ms=",
+    "originContent": "- Auto-complete/data look-up from foreign key references when inserting data",
+    "translatedContent": "- Autocompletar/búsqueda de datos desde referencias de claves foráneas al insertar datos"
+  },
+  {
+    "row": 33,
+    "rowsha": "tTNC4ZLgjst2er6bW/peQQ/rKCi7KFzaEm/iDS8pJ1g=",
+    "originContent": "- Export formats: Plain text, CSV, SQL INSERT statements",
+    "translatedContent": "- Formatos de exportación: Texto plano, CSV, sentencias SQL INSERT"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "z+BEcGAtGnzBqKf7ZuZ5NyoRkV52A5abIpRNzSvTekA=",
+    "originContent": "### Query Editor",
+    "translatedContent": "### Editor de Consultas"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "BlqH2MRtvBjs6YK9BMtIRPIHPjNZWTZU/EOYvxDLXXM=",
+    "originContent": "- Free-form SQL query execution",
+    "translatedContent": "- Ejecución libre de consultas SQL"
+  },
+  {
+    "row": 38,
+    "rowsha": "FXb8M2abpzukyOEHPqg/7vtusHxPcMNR5uQnKL1PkPk=",
+    "originContent": "- SQL LSP support for autocompletion, diagnostics, and hover documentation",
+    "translatedContent": "- Soporte SQL LSP para autocompletado, diagnóstico y documentación emergente"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "XI1hCZz8VNqvnPEKYOaqVvgeKOBm9sZmtYI3V9yP14Y=",
+    "originContent": "## Building from Source",
+    "translatedContent": "## Compilar desde el código fuente"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Clona el repositorio  "
+  },
+  {
+    "row": 42,
+    "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+    "originContent": "1. Clone the repository",
+    "translatedContent": "2. Abre `Searchlight.xcodeproj` en Xcode  "
+  },
+  {
+    "row": 43,
+    "rowsha": "P+YIl6PltE8yU5M3q/4xMoGaQ5oNcRKyRZ7RCZGgs/Y=",
+    "originContent": "2. Open `Searchlight.xcodeproj` in Xcode",
+    "translatedContent": "3. Compila dos veces (⌘B, ⌘B) — la primera compilación descarga las dependencias, la segunda las incluye  "
+  },
+  {
+    "row": 44,
+    "rowsha": "PK6GwNMyd25aGCw8bx38V8g2+3/m/nAqFaEmQQnsuZg=",
+    "originContent": "3. Build twice (⌘B, ⌘B) — the first build downloads dependencies, the second includes them",
+    "translatedContent": "4. Ejecuta (⌘R)  "
+  },
+  {
+    "row": 45,
+    "rowsha": "1TyFgunuvToBQ56vPW4zr5K48pcmGoW7KybjU7txE9Y=",
+    "originContent": "4. Run (⌘R)",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "La primera compilación descarga automáticamente el binario de [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) (~16MB) para autocompletado SQL, comprobación de sintaxis y documentación al pasar el cursor. Se necesita una segunda compilación para integrarlo en la aplicación.  "
+  },
+  {
+    "row": 47,
+    "rowsha": "Wq6EsOGE2s0CzBT2BNsgXB+Lb6Fg54/V+QGro/WwKWM=",
+    "originContent": "The first build automatically downloads the [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) binary (~16MB) for SQL autocompletion, syntax checking, and hover documentation. A second build is needed to bundle it into the app.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **Nota:** El binario LSP es solo para Apple Silicon (arm64).  "
+  },
+  {
+    "row": 49,
+    "rowsha": "lyJIM2PPklukZjKotVugYBaTSrQBKXnD2fVXSF8DVrI=",
+    "originContent": "> **Note:** The LSP binary is only for Apple Silicon (arm64).",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Tecnología utilizada  "
+  },
+  {
+    "row": 51,
+    "rowsha": "XJl/FNgwR2AGsDvOaDIzGttr6EiAAyy3PJUJujZZrkw=",
+    "originContent": "## Tech Stack",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Swift & SwiftUI** — Aplicación nativa para macOS con integración AppKit para vistas avanzadas de tablas  "
+  },
+  {
+    "row": 53,
+    "rowsha": "06sC7nJesocxT3cYlS+V4a7Yu9sn3IvXezQHoszeR5M=",
+    "originContent": "- **Swift & SwiftUI** — Native macOS app with AppKit integration for advanced table views",
+    "translatedContent": "- **PostgresKit / PostgresNIO** — Driver PostgreSQL con agrupación de conexiones  "
+  },
+  {
+    "row": 54,
+    "rowsha": "jOiEM4sif00gnTVIIRj8hWGxGXRf/DEzliV6SSNkWXk=",
+    "originContent": "- **PostgresKit / PostgresNIO** — PostgreSQL driver with connection pooling",
+    "translatedContent": "- **SwiftNIO** — Fundamento de redes asíncronas  "
+  },
+  {
+    "row": 55,
+    "rowsha": "SVks+CfFmnrUR/lMRKCanNZ3e9dRZu7px6vXduDCtUw=",
+    "originContent": "- **SwiftNIO** — Async networking foundation",
+    "translatedContent": "- **SSH del sistema** — Soporte nativo de túneles SSH usando herramientas del sistema macOS  "
+  },
+  {
+    "row": 56,
+    "rowsha": "eqTUR41G+tSSHsvLV+xtqNF/fXVgfZoRiv70ZsnyoB4=",
+    "originContent": "- **System SSH** — Native SSH tunnel support using macOS system tools",
+    "translatedContent": "- **Postgres Language Server** — Inteligencia SQL (autocompletado, diagnósticos, documentación al pasar el cursor)  "
+  },
+  {
+    "row": 57,
+    "rowsha": "KgEihn04XwU4xPYAc9Y18Lv+Xkq72bBfHBo0aPd+/Tc=",
+    "originContent": "- **Postgres Language Server** — SQL intelligence (autocompletion, diagnostics, hover docs)",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Contribuciones  "
+  },
+  {
+    "row": 59,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "¡Las contribuciones son bienvenidas! No dudes en abrir issues o enviar pull requests.  "
+  },
+  {
+    "row": 61,
+    "rowsha": "QLa37e7hTnGCMYtMWmnOwH3fdbkRg7uqzEEBysoI7EI=",
+    "originContent": "Contributions are welcome! Feel free to open issues or submit pull requests.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Licencia  "
+  },
+  {
+    "row": 63,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Consulta [LICENSE](LICENSE) para más detalles."
+  },
+  {
+    "row": 65,
+    "rowsha": "hViCiAQE3bjMyinRzVLV7rvhaLLAh6kMIIGoRIzO5Nc=",
+    "originContent": "See [LICENSE](LICENSE) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

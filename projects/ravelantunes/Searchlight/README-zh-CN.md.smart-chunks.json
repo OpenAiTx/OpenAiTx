@@ -1,0 +1,424 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Searchlight - Postgres MacOS Client\n\n![Screenshot of Searchlight](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)\n\nSearchlight is a native macOS, open-source PostgreSQL client designed to be simple, lightweight, and developer-friendly. It offers a clean and intuitive interface for managing databases and running queries without the complexity of full-scale database management tools. Searchlight focuses on delivering a smooth and efficient experience for developers who need quick and easy access to their PostgreSQL databases.\n\n## Installation\n\nDownload the latest release from the [Releases Page](https://github.com/ravelantunes/Searchlight/releases).\n\n> I’m using my personal Apple developer account so I can’t notarize the app with Apple. If you try to install from the GitHub releases page MacOS will warn that it can’t verify the developer identity, so you will need to approve the install on Settings > Privacy, or build from source.\n\n## Current Features\n\n### Connection Management\n\n- Save and manage favorite connections\n- SSH tunnel support with key-based authentication\n- SSL/TLS connection support\n\n### Database Browser\n\n- Browse databases, schemas, and tables\n- Quick search and filter on table data\n- Foreign key relationship linking — click to navigate to related records\n- Column statistics popover — view unique values, null counts, and value distribution charts\n\n### Data Manipulation\n\n- Insert new rows directly in the table\n- Copy cell value, row, columns in different formats\n- Auto-complete/data look-up from foreign key references when inserting data\n- Export formats: Plain text, CSV, SQL INSERT statements\n\n### Query Editor\n\n- Free-form SQL query execution\n- SQL LSP support for autocompletion, diagnostics, and hover documentation\n\n## Building from Source",
+    "ContentSha": "/knRuZj97LgR7aJZ0GhfDhNetyoreYPz20bS7FzhZwQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Searchlight - Postgres MacOS 客户端\n\n![Searchlight 截图](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)\n\nSearchlight 是一款原生 macOS 开源 PostgreSQL 客户端，设计简洁、轻量且对开发者友好。它提供了一个干净直观的界面，用于管理数据库和执行查询，无需使用复杂的全功能数据库管理工具。Searchlight 致力于为需要快速便捷访问 PostgreSQL 数据库的开发者提供流畅高效的体验。\n\n## 安装\n\n从[发布页面](https://github.com/ravelantunes/Searchlight/releases)下载最新版本。\n\n> 我使用的是个人 Apple 开发者账号，因此无法通过 Apple 进行应用公证。如果你尝试从 GitHub 发布页面安装，MacOS 会提示无法验证开发者身份，你需要在“设置 > 隐私”中批准安装，或者从源码构建。\n\n## 当前功能\n\n### 连接管理\n\n- 保存和管理收藏连接\n- 支持基于密钥认证的 SSH 隧道\n- 支持 SSL/TLS 连接\n\n### 数据库浏览器\n\n- 浏览数据库、模式和表\n- 对表数据进行快速搜索和过滤\n- 外键关系链接 — 点击跳转到相关记录\n- 列统计弹出框 — 查看唯一值、空值数量和数值分布图表\n\n### 数据操作\n\n- 直接在表中插入新行\n- 复制单元格值、行、列（支持多种格式）\n- 插入数据时支持外键引用的自动补全/数据查找\n- 导出格式：纯文本、CSV、SQL INSERT 语句\n\n### 查询编辑器\n\n- 自由格式 SQL 查询执行\n- SQL LSP 支持自动补全、诊断和悬停文档\n\n## 从源码构建",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vHPfn/Ywxycb8rp+zu7S1I/U5aeb6Jv5LGMKnLaE7J8=",
+        "originContent": "# Searchlight - Postgres MacOS Client",
+        "translatedContent": "# Searchlight - Postgres MacOS 客户端"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dyRa93YO6IUhm9UucunlIrI3yaoLEo89N3EN4ym6U2c=",
+        "originContent": "![Screenshot of Searchlight](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)",
+        "translatedContent": "![Searchlight 截图](https://raw.githubusercontent.com/ravelantunes/Searchlight/main/./docs/screenshot1.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "6OVBvxTEqNqNvX7ON8naonQLmFszD1hJrQPINUux2bk=",
+        "originContent": "Searchlight is a native macOS, open-source PostgreSQL client designed to be simple, lightweight, and developer-friendly. It offers a clean and intuitive interface for managing databases and running queries without the complexity of full-scale database management tools. Searchlight focuses on delivering a smooth and efficient experience for developers who need quick and easy access to their PostgreSQL databases.",
+        "translatedContent": "Searchlight 是一款原生 macOS 开源 PostgreSQL 客户端，设计简洁、轻量且对开发者友好。它提供了一个干净直观的界面，用于管理数据库和执行查询，无需使用复杂的全功能数据库管理工具。Searchlight 致力于为需要快速便捷访问 PostgreSQL 数据库的开发者提供流畅高效的体验。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "f727MIKogYH4WVMbwWRt/OzBMl6HyAoGNvlopYtD82s=",
+        "originContent": "Download the latest release from the [Releases Page](https://github.com/ravelantunes/Searchlight/releases).",
+        "translatedContent": "从[发布页面](https://github.com/ravelantunes/Searchlight/releases)下载最新版本。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "WnaPpZ9mAbL7aBn/4wuSuKT1/GFarwVIngdp5/PGw/M=",
+        "originContent": "> I’m using my personal Apple developer account so I can’t notarize the app with Apple. If you try to install from the GitHub releases page MacOS will warn that it can’t verify the developer identity, so you will need to approve the install on Settings > Privacy, or build from source.",
+        "translatedContent": "> 我使用的是个人 Apple 开发者账号，因此无法通过 Apple 进行应用公证。如果你尝试从 GitHub 发布页面安装，MacOS 会提示无法验证开发者身份，你需要在“设置 > 隐私”中批准安装，或者从源码构建。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "VsOY7dxcNnT8chph5ZIzmj7+smEcdlA3XrYDXMgVaUU=",
+        "originContent": "## Current Features",
+        "translatedContent": "## 当前功能"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "sYIDmich+tRadwtcY9Em2iwMWLOLkl6U2RTD/tLTApI=",
+        "originContent": "### Connection Management",
+        "translatedContent": "### 连接管理"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "oGAXhblaG85ZpYh4ix2Iaq7ACZfdX7pe1tA/3R5kh8A=",
+        "originContent": "- Save and manage favorite connections",
+        "translatedContent": "- 保存和管理收藏连接"
+      },
+      {
+        "row": 18,
+        "rowsha": "pnrbHUmeIMD2IaHoRuJtur8WtHvBVwhAsxfLeTugmPo=",
+        "originContent": "- SSH tunnel support with key-based authentication",
+        "translatedContent": "- 支持基于密钥认证的 SSH 隧道"
+      },
+      {
+        "row": 19,
+        "rowsha": "UChcbEyS+ICE9AB4b13cVaO8Q/YONuNxiyszgdyUY28=",
+        "originContent": "- SSL/TLS connection support",
+        "translatedContent": "- 支持 SSL/TLS 连接"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "52bIEKAoIQ5HBn1M/alv0gGX2VdsYTe4gEeeeqrqDP4=",
+        "originContent": "### Database Browser",
+        "translatedContent": "### 数据库浏览器"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "N+NHJ98FfAjQkwHfyEsVgmwHQk4F7U+5MlQrgy0Kmrw=",
+        "originContent": "- Browse databases, schemas, and tables",
+        "translatedContent": "- 浏览数据库、模式和表"
+      },
+      {
+        "row": 24,
+        "rowsha": "gX2ITXyWBh/1A4RpLb/xUWOKr9V/bY2hz6EAAspW0Dg=",
+        "originContent": "- Quick search and filter on table data",
+        "translatedContent": "- 对表数据进行快速搜索和过滤"
+      },
+      {
+        "row": 25,
+        "rowsha": "tHx7INts7INFsRUFChEeZSNWnvWiQD2fM9EHTb5oePU=",
+        "originContent": "- Foreign key relationship linking — click to navigate to related records",
+        "translatedContent": "- 外键关系链接 — 点击跳转到相关记录"
+      },
+      {
+        "row": 26,
+        "rowsha": "vbVZKAcfZJpCSO4RGkMiExt0tAcp48Jmtzf7kCROcnU=",
+        "originContent": "- Column statistics popover — view unique values, null counts, and value distribution charts",
+        "translatedContent": "- 列统计弹出框 — 查看唯一值、空值数量和数值分布图表"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "OAVJ44+xar3oSZpY4QMU+8bOhZD8/PE1OeSJsDyulzY=",
+        "originContent": "### Data Manipulation",
+        "translatedContent": "### 数据操作"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "WjMMdzATh5OjxxC6Rgk6eu3LagkWWLSlDWlRbsGMet8=",
+        "originContent": "- Insert new rows directly in the table",
+        "translatedContent": "- 直接在表中插入新行"
+      },
+      {
+        "row": 31,
+        "rowsha": "NWrBsUTSIzLgXoXevPnhwx6ETUwXXDt2IxUm/5YADtI=",
+        "originContent": "- Copy cell value, row, columns in different formats",
+        "translatedContent": "- 复制单元格值、行、列（支持多种格式）"
+      },
+      {
+        "row": 32,
+        "rowsha": "VPtkMZW7HFZMH7oyfTNcoLabFlq91LB/vdoRfIRK3ms=",
+        "originContent": "- Auto-complete/data look-up from foreign key references when inserting data",
+        "translatedContent": "- 插入数据时支持外键引用的自动补全/数据查找"
+      },
+      {
+        "row": 33,
+        "rowsha": "tTNC4ZLgjst2er6bW/peQQ/rKCi7KFzaEm/iDS8pJ1g=",
+        "originContent": "- Export formats: Plain text, CSV, SQL INSERT statements",
+        "translatedContent": "- 导出格式：纯文本、CSV、SQL INSERT 语句"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "z+BEcGAtGnzBqKf7ZuZ5NyoRkV52A5abIpRNzSvTekA=",
+        "originContent": "### Query Editor",
+        "translatedContent": "### 查询编辑器"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "BlqH2MRtvBjs6YK9BMtIRPIHPjNZWTZU/EOYvxDLXXM=",
+        "originContent": "- Free-form SQL query execution",
+        "translatedContent": "- 自由格式 SQL 查询执行"
+      },
+      {
+        "row": 38,
+        "rowsha": "FXb8M2abpzukyOEHPqg/7vtusHxPcMNR5uQnKL1PkPk=",
+        "originContent": "- SQL LSP support for autocompletion, diagnostics, and hover documentation",
+        "translatedContent": "- SQL LSP 支持自动补全、诊断和悬停文档"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "XI1hCZz8VNqvnPEKYOaqVvgeKOBm9sZmtYI3V9yP14Y=",
+        "originContent": "## Building from Source",
+        "translatedContent": "## 从源码构建"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n1. Clone the repository\n2. Open `Searchlight.xcodeproj` in Xcode\n3. Build twice (⌘B, ⌘B) — the first build downloads dependencies, the second includes them\n4. Run (⌘R)\n\nThe first build automatically downloads the [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) binary (~16MB) for SQL autocompletion, syntax checking, and hover documentation. A second build is needed to bundle it into the app.\n\n> **Note:** The LSP binary is only for Apple Silicon (arm64).\n\n## Tech Stack\n\n- **Swift & SwiftUI** — Native macOS app with AppKit integration for advanced table views\n- **PostgresKit / PostgresNIO** — PostgreSQL driver with connection pooling\n- **SwiftNIO** — Async networking foundation\n- **System SSH** — Native SSH tunnel support using macOS system tools\n- **Postgres Language Server** — SQL intelligence (autocompletion, diagnostics, hover docs)\n\n## Contributing\n\nContributions are welcome! Feel free to open issues or submit pull requests.\n\n## License\n\nSee [LICENSE](LICENSE) for details.\n",
+    "ContentSha": "sqky3hul7DSjv+VHtmsqY+7UC6tQc1nxqgJb184erpo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. 克隆仓库  \n2. 在 Xcode 中打开 `Searchlight.xcodeproj`  \n3. 构建两次（⌘B，⌘B）——第一次构建会下载依赖，第二次构建会将依赖包含进去  \n4. 运行（⌘R）  \n\n第一次构建会自动下载 [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) 二进制文件（约16MB），用于 SQL 自动补全、语法检查和悬停文档。需要第二次构建将其打包进应用。  \n\n> **注意：** LSP 二进制文件仅支持 Apple Silicon（arm64）。  \n\n## 技术栈  \n\n- **Swift & SwiftUI** — 原生 macOS 应用，结合 AppKit 实现高级表格视图  \n- **PostgresKit / PostgresNIO** — 带连接池的 PostgreSQL 驱动  \n- **SwiftNIO** — 异步网络基础  \n- **系统 SSH** — 使用 macOS 系统工具的原生 SSH 隧道支持  \n- **Postgres Language Server** — SQL 智能功能（自动补全、诊断、悬停文档）  \n\n## 贡献  \n\n欢迎贡献！欢迎提出问题或提交拉取请求。  \n\n## 许可  \n\n详见 [LICENSE](LICENSE)。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 克隆仓库  "
+      },
+      {
+        "row": 2,
+        "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+        "originContent": "1. Clone the repository",
+        "translatedContent": "2. 在 Xcode 中打开 `Searchlight.xcodeproj`  "
+      },
+      {
+        "row": 3,
+        "rowsha": "P+YIl6PltE8yU5M3q/4xMoGaQ5oNcRKyRZ7RCZGgs/Y=",
+        "originContent": "2. Open `Searchlight.xcodeproj` in Xcode",
+        "translatedContent": "3. 构建两次（⌘B，⌘B）——第一次构建会下载依赖，第二次构建会将依赖包含进去  "
+      },
+      {
+        "row": 4,
+        "rowsha": "PK6GwNMyd25aGCw8bx38V8g2+3/m/nAqFaEmQQnsuZg=",
+        "originContent": "3. Build twice (⌘B, ⌘B) — the first build downloads dependencies, the second includes them",
+        "translatedContent": "4. 运行（⌘R）  "
+      },
+      {
+        "row": 5,
+        "rowsha": "1TyFgunuvToBQ56vPW4zr5K48pcmGoW7KybjU7txE9Y=",
+        "originContent": "4. Run (⌘R)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "第一次构建会自动下载 [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) 二进制文件（约16MB），用于 SQL 自动补全、语法检查和悬停文档。需要第二次构建将其打包进应用。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "Wq6EsOGE2s0CzBT2BNsgXB+Lb6Fg54/V+QGro/WwKWM=",
+        "originContent": "The first build automatically downloads the [Postgres Language Server](https://github.com/supabase-community/postgres-language-server) binary (~16MB) for SQL autocompletion, syntax checking, and hover documentation. A second build is needed to bundle it into the app.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **注意：** LSP 二进制文件仅支持 Apple Silicon（arm64）。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "lyJIM2PPklukZjKotVugYBaTSrQBKXnD2fVXSF8DVrI=",
+        "originContent": "> **Note:** The LSP binary is only for Apple Silicon (arm64).",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 技术栈  "
+      },
+      {
+        "row": 11,
+        "rowsha": "XJl/FNgwR2AGsDvOaDIzGttr6EiAAyy3PJUJujZZrkw=",
+        "originContent": "## Tech Stack",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Swift & SwiftUI** — 原生 macOS 应用，结合 AppKit 实现高级表格视图  "
+      },
+      {
+        "row": 13,
+        "rowsha": "06sC7nJesocxT3cYlS+V4a7Yu9sn3IvXezQHoszeR5M=",
+        "originContent": "- **Swift & SwiftUI** — Native macOS app with AppKit integration for advanced table views",
+        "translatedContent": "- **PostgresKit / PostgresNIO** — 带连接池的 PostgreSQL 驱动  "
+      },
+      {
+        "row": 14,
+        "rowsha": "jOiEM4sif00gnTVIIRj8hWGxGXRf/DEzliV6SSNkWXk=",
+        "originContent": "- **PostgresKit / PostgresNIO** — PostgreSQL driver with connection pooling",
+        "translatedContent": "- **SwiftNIO** — 异步网络基础  "
+      },
+      {
+        "row": 15,
+        "rowsha": "SVks+CfFmnrUR/lMRKCanNZ3e9dRZu7px6vXduDCtUw=",
+        "originContent": "- **SwiftNIO** — Async networking foundation",
+        "translatedContent": "- **系统 SSH** — 使用 macOS 系统工具的原生 SSH 隧道支持  "
+      },
+      {
+        "row": 16,
+        "rowsha": "eqTUR41G+tSSHsvLV+xtqNF/fXVgfZoRiv70ZsnyoB4=",
+        "originContent": "- **System SSH** — Native SSH tunnel support using macOS system tools",
+        "translatedContent": "- **Postgres Language Server** — SQL 智能功能（自动补全、诊断、悬停文档）  "
+      },
+      {
+        "row": 17,
+        "rowsha": "KgEihn04XwU4xPYAc9Y18Lv+Xkq72bBfHBo0aPd+/Tc=",
+        "originContent": "- **Postgres Language Server** — SQL intelligence (autocompletion, diagnostics, hover docs)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 贡献  "
+      },
+      {
+        "row": 19,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "欢迎贡献！欢迎提出问题或提交拉取请求。  "
+      },
+      {
+        "row": 21,
+        "rowsha": "QLa37e7hTnGCMYtMWmnOwH3fdbkRg7uqzEEBysoI7EI=",
+        "originContent": "Contributions are welcome! Feel free to open issues or submit pull requests.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可  "
+      },
+      {
+        "row": 23,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "详见 [LICENSE](LICENSE)。"
+      },
+      {
+        "row": 25,
+        "rowsha": "hViCiAQE3bjMyinRzVLV7rvhaLLAh6kMIIGoRIzO5Nc=",
+        "originContent": "See [LICENSE](LICENSE) for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
