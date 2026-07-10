@@ -1,0 +1,692 @@
+[
+  {
+    "row": 1,
+    "rowsha": "4AsVferjt35W2kvwhvXVil0A5qVqS/nTBKBImTmmUS8=",
+    "originContent": "# Obsidian Orgmode CM6",
+    "translatedContent": "# Obsidian Orgmode CM6"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "vsTUdhpInZfTyuyFUx1obFQBaAfPaEiqrfazPykUmLs=",
+    "originContent": "[Orgmode](https://orgmode.org) for [Obsidian](https://obsidian.md).",
+    "translatedContent": "[Orgmode](https://orgmode.org) 适用于 [Obsidian](https://obsidian.md)。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "iCN0WVWoq0Wjv6Gbe85GYkQMMCWBwx299oNXbWntc/g=",
+    "originContent": "![Screenshot](https://raw.githubusercontent.com/BBazard/obsidian-orgmode-cm6/master/./screenshot.png)",
+    "translatedContent": "![截图](https://raw.githubusercontent.com/BBazard/obsidian-orgmode-cm6/master/./screenshot.png)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "UjrQLq2VHBiBou4NBZFnD+ias4Oi3QXzDixzesaeTvY=",
+    "originContent": "By default org files are not shown in the sidebar.",
+    "translatedContent": "默认情况下，侧边栏不显示 org 文件。"
+  },
+  {
+    "row": 10,
+    "rowsha": "Y1Cgcn4063j2uFjuH4IxO/C1hDiscM+VHojtFTjpamQ=",
+    "originContent": "To display them you need to go into the obsidian settings, section `Files and links` and check `Detect all file extensions`.",
+    "translatedContent": "要显示它们，您需要进入 Obsidian 设置，找到“文件和链接”部分，勾选“检测所有文件扩展名”。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "edve7DxdAJFnKc2UZmObu5xjdUoRPGl6cacP5wDVpHo=",
+    "originContent": "![detect-all-file-extensions](https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/e6a91e66-295d-4057-bf80-e43dcdb8e3e7)",
+    "translatedContent": "![detect-all-file-extensions](https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/e6a91e66-295d-4057-bf80-e43dcdb8e3e7)"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "4BvZLMxIyvoAcAsPqcsSKUQPK5wd3mqXjRVwAqjxrtU=",
+    "originContent": "To create an org file in your vault, you currently have to create it outside obsidian, as obsidian doesn't allow to create a non-markdown file.",
+    "translatedContent": "要在您的库中创建 org 文件，目前必须在 Obsidian 外部创建，因为 Obsidian 不允许创建非 Markdown 文件。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "mob5KinvD9BH/2Ve+aojod+jSE1NfNt5HkoNQ13IsS8=",
+    "originContent": "If you don't already have an org file, try to create a file called `todo.org` with the following content:",
+    "translatedContent": "如果您还没有 org 文件，试着创建一个名为 `todo.org` 的文件，内容如下："
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "FH81+Fs8ICMT0rrOAr0iSvq6UqnqzGOEfu/G5QrWlm8=",
+    "originContent": "```org",
+    "translatedContent": "```org"
+  },
+  {
+    "row": 19,
+    "rowsha": "Ivybiu8C0/jvhEBhtIFVNFt9UGWXtOzFMZl5qw6CYmI=",
+    "originContent": "* TODO [#A] A task with *high* priority",
+    "translatedContent": "* TODO [#A] A task with *high* priority"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "UHeturtyah/8AXe5CZ1H19Br4IbARMFp9XYg5NtnCWQ=",
+    "originContent": "The description of the task",
+    "translatedContent": "The description of the task"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "og8ORFOavtCxmcaAxlxAXlHKKPMkId8m4bWFAQgsV+k=",
+    "originContent": "* A collapsed section",
+    "translatedContent": "* A collapsed section"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "BzsNdzFDJtjMm/QeTRhNtM3Uhb0jSdLfWqbXIYbZGQE=",
+    "originContent": "You cannot see the description when collapsed",
+    "translatedContent": "You cannot see the description when collapsed"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "O+xVpxHft7U8cLkKSiwks/XCgoAeahOOUVZC9xi3m8Q=",
+    "originContent": "* DONE something done already :sometag:",
+    "translatedContent": "* DONE something done already :sometag:"
+  },
+  {
+    "row": 28,
+    "rowsha": "rNl3Hk4/VbXSQnSDoawjEBY5hsgylsTNdXKEkKNL9sg=",
+    "originContent": "SCHEDULED: <2023-12-08 Fri 11:13>",
+    "translatedContent": "SCHEDULED: <2023-12-08 Fri 11:13>"
+  },
+  {
+    "row": 29,
+    "rowsha": "Zx1lWGJZyDCKLBj5fvmvGOHR0WxFgXHod1gfAhEYlc8=",
+    "originContent": ":PROPERTIES:",
+    "translatedContent": ":PROPERTIES:"
+  },
+  {
+    "row": 30,
+    "rowsha": "+Ms5DQG7hK/h+pbkdjsYRkVuL0YreB0ZaEkg2dZ1Cn4=",
+    "originContent": ":CREATED: [2023-12-03 Sun 10:48]",
+    "translatedContent": ":CREATED: [2023-12-03 Sun 10:48]"
+  },
+  {
+    "row": 31,
+    "rowsha": "w89mkkj0KweYb33pCqim3vtua3r+LG6ZoZhnMYCkK8U=",
+    "originContent": ":END:",
+    "translatedContent": ":END:"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "VesO9UT/p+5v2jUvF1jqddb6919HH/EoQBt/1G4xRw4=",
+    "originContent": "a [[https://github.com/BBazard/obsidian-orgmode-cm6][link]]",
+    "translatedContent": "a [[https://github.com/BBazard/obsidian-orgmode-cm6][link]]"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "EuTdTw93VDUPojW36rWsQWGPJa4rCVHNGQxKHB1vmuY=",
+    "originContent": "#+begin_src javascript",
+    "translatedContent": "#+begin_src javascript"
+  },
+  {
+    "row": 36,
+    "rowsha": "TYyFg0mVs5I9/oQ6JeVzsc2QC4GRtimdsZpKWHV1Ryg=",
+    "originContent": "const block = \"highlighted\"",
+    "translatedContent": "const block = \"highlighted\""
+  },
+  {
+    "row": 37,
+    "rowsha": "ceWGiMrZOjZ+cVDSvRD9Wpg6YUjx0gst/35KWSXqQNw=",
+    "originContent": "#+end_src",
+    "translatedContent": "#+end_src"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 支持的功能"
+  },
+  {
+    "row": 40,
+    "rowsha": "aXkOBG2HVO9kdxgABkGLV85F4b1ab9zoNpCvlTeZ90o=",
+    "originContent": "## Supported features",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Orgmode 编辑器"
+  },
+  {
+    "row": 42,
+    "rowsha": "Zt2on/Xe/ryjBu3D5b0YxxtGdKso4fHu4ANpdUXuBYk=",
+    "originContent": "### Orgmode Editor",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 实时预览"
+  },
+  {
+    "row": 44,
+    "rowsha": "lMMlGK/vSvfGHYbLI+XVAvrP6gJY8iCuZsDxyDTrj0E=",
+    "originContent": "- Live Preview",
+    "translatedContent": "- 语法高亮（支持可覆盖的 css 类）"
+  },
+  {
+    "row": 45,
+    "rowsha": "KxfwEb4uyYPxtjNpPBwHXngQ9Ml1mu6NAQsDy5tIH78=",
+    "originContent": "- Syntax highlighting (with overridable css classes)",
+    "translatedContent": "- 设置中可自定义待办关键词"
+  },
+  {
+    "row": 46,
+    "rowsha": "lSqEisKwqNp2g0bpFS7ByMr5+cX1LOIJwcNL2RExXoM=",
+    "originContent": "- Customizable Todo Keywords in settings",
+    "translatedContent": "- 折叠（点击元素首行的左侧空白区域即可折叠）"
+  },
+  {
+    "row": 47,
+    "rowsha": "178LT5KEKtMuDKQagAedSDRIXtbqAljiOkRHCM6MYWg=",
+    "originContent": "- Folding (click in the gutter on the first line of the element to fold it)",
+    "translatedContent": "- 维基链接（`[[unicorn]]` 会打开 vault 中的 unicorn.org 文件，若无则回退到 unicorn.md）"
+  },
+  {
+    "row": 48,
+    "rowsha": "r6n8kuLPxLTxeZ4nOxYXHylTovuMaXbWResL1xD1vbc=",
+    "originContent": "- Wiki links (`[[unicorn]]` will open the file unicorn.org anywhere in the vault or fallback to unicorn.md)",
+    "translatedContent": "- 内联图片（`[[myimage.png]]` 会显示 vault 中存在的图片）"
+  },
+  {
+    "row": 49,
+    "rowsha": "lwRROpvZeosBRGimVB3HMihh1N3zZz/yAPs8f4ma2Pw=",
+    "originContent": "- Inline images (`[[myimage.png]]` will display the image if it exists in the vault)",
+    "translatedContent": "- ID 链接（`[[id:12345]]` 会跳转到 vault 中任意 org 文件中属性抽屉内匹配 :ID: 的标题）"
+  },
+  {
+    "row": 50,
+    "rowsha": "qGU0niKFZU2gJ2Mprk4NNuUcLv+H/TdqLiPsSchIMyg=",
+    "originContent": "- ID links (`[[id:12345]]` will redirect to the heading with the matching :ID: in a property drawer located in any org file in the vault)",
+    "translatedContent": "- Vim 支持（若在 Obsidian 中激活）"
+  },
+  {
+    "row": 51,
+    "rowsha": "iYaiYchsytcFT1hGLF/PzYgJC2PCXLC8Um5p9AKMKUc=",
+    "originContent": "- Vim support (if activated in Obsidian)",
+    "translatedContent": "- 代码块高亮（支持：c、c++、css、html、java、javascript、json、php、python、rust、sass、xml）"
+  },
+  {
+    "row": 52,
+    "rowsha": "5Cvx6V/D+lhdFH/q0vfRlCcjnBq2Lkpr1nVDGs+luBY=",
+    "originContent": "- Source blocks highlighting (supported: c, c++, css, html, java, javascript, json, php, python, rust, sass, xml)",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Orgmode 解析器（语法高亮）"
+  },
+  {
+    "row": 54,
+    "rowsha": "pU3YMVDmA5V3sXjsTZcOk2KBh0++OMjPqQL93DNr2pk=",
+    "originContent": "### Orgmode Parser (syntax highlighting)",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "遵循 [Org 语法](https://orgmode.org/worg/org-syntax.html)"
+  },
+  {
+    "row": 56,
+    "rowsha": "RBZJomaSt/M6bvbGFW+4rkie/E3cl26mfBvWu0bUm2o=",
+    "originContent": "Following [Org Syntax](https://orgmode.org/worg/org-syntax.html)",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [x] 标题（支持嵌套，不支持 COMMENT 标题）"
+  },
+  {
+    "row": 58,
+    "rowsha": "l0jZk/acUgqqm4iMg+rPjWNTW/kotQ5aFnZ/3a+F148=",
+    "originContent": "- [x] Heading (nested, no support for COMMENT heading)",
+    "translatedContent": "- [x] 区块（包括第零区块）"
+  },
+  {
+    "row": 59,
+    "rowsha": "51x3RAA06su0U5eSD7EK9nm/EqYaCzx9XufnF+6+UiI=",
+    "originContent": "- [x] Section (including zeroth section)",
+    "translatedContent": "- [x] 文本标记（加粗、斜体、下划线等）"
+  },
+  {
+    "row": 60,
+    "rowsha": "npRYUwJ6PYD3x86IddkqrLsNvfHiWxjShmuxxZJ3IKg=",
+    "originContent": "- [x] Text markup (bold, italic, underline, etc...)",
+    "translatedContent": "- [x] 链接（普通链接、尖括号链接、纯文本链接）"
+  },
+  {
+    "row": 61,
+    "rowsha": "32qg1MHy8+i3NlVmF9jYN8f6wuvtj4D/bHqKEDhKwjU=",
+    "originContent": "- [x] Link (regular link, angle link, plain link)",
+    "translatedContent": "- [x] 标记与链接组合"
+  },
+  {
+    "row": 62,
+    "rowsha": "EIOBx0em41RMe5QK/P4a0MfHJ0/6PrCj9GtPHaLR+qw=",
+    "originContent": "- [x] Combination of markup and link",
+    "translatedContent": "- [x] 注释行"
+  },
+  {
+    "row": 63,
+    "rowsha": "15VI3smq48jT+1Q3iidQvDjtN7eFSzwWuPqeJG/HlVM=",
+    "originContent": "- [x] Comment line",
+    "translatedContent": "- [x] 关键词行"
+  },
+  {
+    "row": 64,
+    "rowsha": "NsR5fwspcv+MiMcnD8XMsDprFpkM6kdCq7122iyxNKA=",
+    "originContent": "- [x] Keyword line",
+    "translatedContent": "- [x] 计划行"
+  },
+  {
+    "row": 65,
+    "rowsha": "Mw4R8oNbwHhLaOLiG58ybElg72q3K3xDor0lX81WOvI=",
+    "originContent": "- [x] Planning line",
+    "translatedContent": "- [x] 属性抽屉"
+  },
+  {
+    "row": 66,
+    "rowsha": "2AuaGyQkoHULUy5MlHaN5tuDOwKCfc0cRdOS4Bb7iWI=",
+    "originContent": "- [x] Property Drawer",
+    "translatedContent": "- [x] 较小的区块（除代码块外无格式）"
+  },
+  {
+    "row": 67,
+    "rowsha": "7zBm1cj0ZAZZR1lxbuAsdnsGNzbP84FTbqusQ0P3roI=",
+    "originContent": "- [x] Lesser Block (unformatted except source blocks)",
+    "translatedContent": "- [ ] 动态区块（因 Obsidian 不允许插件任意执行，故不可用）"
+  },
+  {
+    "row": 68,
+    "rowsha": "Ycw4CnjJHYNk8cquAuFdB32memlod/uG7jbOezxYf04=",
+    "originContent": "- [ ] Dynamic Block (not possible as obsidian doesn't allow arbitrary execution in plugins)",
+    "translatedContent": "- [ ] 抽屉"
+  },
+  {
+    "row": 69,
+    "rowsha": "7x3RRZ6wTpRW4okT9JLjmbFmpcdbjAFJeX0fTKQNXUs=",
+    "originContent": "- [ ] Drawer",
+    "translatedContent": "- [ ] 列表与复选框"
+  },
+  {
+    "row": 70,
+    "rowsha": "0ad3qCLsA2qvcDFcL0gtUbxdp1XsFpJFbozTeYmMaHk=",
+    "originContent": "- [ ] List and Checkbox",
+    "translatedContent": "- [ ] 分隔线"
+  },
+  {
+    "row": 71,
+    "rowsha": "U9tlcc6liJh6qhCPriz+0c/JiwTJOngcNy6k8TRRAhQ=",
+    "originContent": "- [ ] Horizontal rule",
+    "translatedContent": "- [ ] 时间戳"
+  },
+  {
+    "row": 72,
+    "rowsha": "06iiJjk0i5ka0mYMLH35LdTri8GmlAINwsm1W0SJL70=",
+    "originContent": "- [ ] Timestamp",
+    "translatedContent": "- [ ] 计时器"
+  },
+  {
+    "row": 73,
+    "rowsha": "tdLcaku+KmW7uAewyOY3egS/jKaBSZvtr7g5XLpAd3E=",
+    "originContent": "- [ ] Clock",
+    "translatedContent": "- [ ] 日记 Sexp"
+  },
+  {
+    "row": 74,
+    "rowsha": "hHeLaKZr8yNPApbavx2F75nqjh5RwIFndJTqd/n2a8I=",
+    "originContent": "- [ ] Diary Sexp",
+    "translatedContent": "- [ ] 脚注"
+  },
+  {
+    "row": 75,
+    "rowsha": "8DZZUGJ2kFBC4oatqSIkZOXVPJl7je/I654i4K7uvgM=",
+    "originContent": "- [ ] Footnote",
+    "translatedContent": "- [ ] 表格"
+  },
+  {
+    "row": 76,
+    "rowsha": "hOkoA2GFzLMVTbdAMclSKGuHbaFbuiW5I5W7pCUPfSE=",
+    "originContent": "- [ ] Table",
+    "translatedContent": "- [ ] Latex"
+  },
+  {
+    "row": 77,
+    "rowsha": "jJ9WFY4r/BRFayRLFU/zscHqi6CBttjgQPByK/xs63I=",
+    "originContent": "- [ ] Latex",
+    "translatedContent": "- [ ] : 固定宽度行（可改用区块实现）"
+  },
+  {
+    "row": 78,
+    "rowsha": "dIKBNpBIKlS8HZ6w8ZWOjRm9zb0CCYyFno5TxmW7q5U=",
+    "originContent": "- [ ] : Fixed-width line (you can use a Block instead)",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 实现细节"
+  },
+  {
+    "row": 80,
+    "rowsha": "QiSyrgd47WZbv7ogZLRjTqGaeItReyDaidpCQx9wKcI=",
+    "originContent": "## Implementation details",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- orgmode 文件由一个独立于 markdown 文件使用的 [codemirror 6](https://codemirror.net) 实例处理。这意味着插件必须重新实现所有适用于 markdown 文件的功能。"
+  },
+  {
+    "row": 82,
+    "rowsha": "g8LqMUUPsnAosTX0D6zC+TL1c7YsnXR7cwBKlNDZ4ds=",
+    "originContent": "- The orgmode files are handled with a [codemirror 6](https://codemirror.net) instance which is separate from the one used by the markdown files. That means the plugin has to re-implement all features working for markdown files.",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 解析器通过使用带有自定义分词器的 [lezer](https://lezer.codemirror.net) 语法读取 orgmode 文件并构建语法节点树。这种方法比 Emacs 的基于正则表达式的方法更能精确匹配标记。例如，计划行只会在标题之后匹配，而不会在章节中间匹配。"
+  },
+  {
+    "row": 84,
+    "rowsha": "+a9D0ci6tbh3h43v7oetNbYYADxuuk+Ji79lntYPFi4=",
+    "originContent": "- The parser reads an orgmode file and builds a tree of syntax nodes by using a [lezer](https://lezer.codemirror.net) grammar with custom tokenizers. This approach allows to match tokens more precisely than the regex-based approach of Emacs. For example, planning lines are only matched after a heading and not in the middle of a section.",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 不允许标记重叠。例如：`*one _two three* four_`。Emacs 使用正则表达式会将 `*one _two three*` 识别为加粗，将 `_two three* four_` 识别为下划线。而 lezer 解析器则将 `*one _two three*` 识别为加粗，将 ` four_` 识别为普通文本，这使得文本标记范围可以作为其自身的语法节点。"
+  },
+  {
+    "row": 86,
+    "rowsha": "D5CJSdMiw6hukRvxNgYYS1NHGmBFoZKc4GZOwNqi1nk=",
+    "originContent": "- Overlapping tokens are not considered valid. Take for example: `*one _two three* four_`. Emacs, using regexes would have `*one _two three*` as bold and `_two three* four_` as underline. The lezer parser is instead considering `*one _two three*` as bold and ` four_` as normal text, it makes it possible to have the text markup range as its own syntax node.",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 标题级别无限制（因此没有 Inlinetask），文本标记的行数也没有限制。"
+  },
+  {
+    "row": 88,
+    "rowsha": "VtsV6kOEzEizt5BFQ5Rhhxth+gvhy/nT9m4t6olHwII=",
+    "originContent": "- There is no limits to the level of headings (so no Inlinetask) or the number of lines of a text markup.",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 在 markdown 文件中显示 orgmode 任务"
+  },
+  {
+    "row": 90,
+    "rowsha": "HQ+Czdm5hWcAeuVs2WEOG1j73qKZkOVfaEiXeFooOIY=",
+    "originContent": "## Show orgmode tasks in markdown files",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "此功能尚不稳定，未来可能会有重大更改。"
+  },
+  {
+    "row": 92,
+    "rowsha": "v+Jf3xAfT+5mTjpYEMKmZfdRUmbQYJwIWuLP07SKfIg=",
+    "originContent": "This feature is unstable and will likely change in breaking ways in the future.",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "当前仅支持 TODO 和 DONE。"
+  },
+  {
+    "row": 94,
+    "rowsha": "bmjjVaZghTknGgJoE7alHuVXHDVALyZnz6pxzfIzg3o=",
+    "originContent": "Currently only TODO and DONE are handled.",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/b071b2c8-b56e-4050-8fcf-02a922fdd1c0"
+  },
+  {
+    "row": 96,
+    "rowsha": "0cW8LU3drCI49GNu0+OBc2/JbobsmDQ+3kok1MKMsYA=",
+    "originContent": "https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/b071b2c8-b56e-4050-8fcf-02a922fdd1c0",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "支持过滤，[orgzly 搜索表达式](https://www.orgzly.com/docs#search)（已实现：s, d, c, i, it, ad）。"
+  },
+  {
+    "row": 98,
+    "rowsha": "crFH7EPJKbjwIunOBAdta9GWCFgBfQ07gfpSvTY+Gjc=",
+    "originContent": "To filter, [orgzly search expression](https://www.orgzly.com/docs#search) are supported (implemented: s, d, c, i, it, ad).",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "PAv3rafteqPtZIoJBHETwoDUUxVAPEUcqp7GHtnmhq4=",
+    "originContent": "```orgmode-tasks",
+    "translatedContent": "```orgmode-tasks"
+  },
+  {
+    "row": 101,
+    "rowsha": "GBpK4WTXPxpsbVusq0Kw13x3mVrCWC0lgWH1GyXSTdU=",
+    "originContent": "filepath: Orgmode/Orgmode file.org",
+    "translatedContent": "filepath: Orgmode/Orgmode file.org"
+  },
+  {
+    "row": 102,
+    "rowsha": "yu2ck9Gs3LA5rwwuw7Ox//1j0UytHz8RN2k9Hvz4z/0=",
+    "originContent": "query: it.todo or it.done",
+    "translatedContent": "query: it.todo or it.done"
+  },
+  {
+    "row": 103,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": "## 开发"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "iBdX4AujKQ65C3Vt8GhIOiN9M2vwBWpCqUMJXHp07fU=",
+    "originContent": "git clone https://github.com/bbazard/obsidian-orgmode-cm6",
+    "translatedContent": "git clone https://github.com/bbazard/obsidian-orgmode-cm6"
+  },
+  {
+    "row": 109,
+    "rowsha": "TDLyReNcNl424MOW2Lmdq6XnKPYtj1sRqjynfwL3hAc=",
+    "originContent": "cd obsidian-orgmode-cm6",
+    "translatedContent": "cd obsidian-orgmode-cm6"
+  },
+  {
+    "row": 110,
+    "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+    "originContent": "npm install",
+    "translatedContent": "npm install"
+  },
+  {
+    "row": 111,
+    "rowsha": "FsDkMFrCE9/zn8grabbgiu64dY4zzXLXxAl1KnDp8FQ=",
+    "originContent": "npm run build",
+    "translatedContent": "npm run build"
+  },
+  {
+    "row": 112,
+    "rowsha": "Mo4SPGOFf9hHO9S9NYHmVbCLdEDX9dLDHMN1YHWC9Tk=",
+    "originContent": "npm test",
+    "translatedContent": "npm test"
+  },
+  {
+    "row": 113,
+    "rowsha": "diZeqaf0BOtvQVT4WEE+ygaVFbv5jHTnqDpe6msRMmI=",
+    "originContent": "cp main.js styles.css manifest.json \"$OBSIDIAN_VAULT\"/.obsidian/plugins/obsidian-orgmode-cm6/",
+    "translatedContent": "cp main.js styles.css manifest.json \"$OBSIDIAN_VAULT\"/.obsidian/plugins/obsidian-orgmode-cm6/"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,796 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Obsidian Orgmode CM6\n\n[Orgmode](https://orgmode.org) for [Obsidian](https://obsidian.md).\n\n![Screenshot](https://raw.githubusercontent.com/BBazard/obsidian-orgmode-cm6/master/./screenshot.png)\n\n## Usage\n\nBy default org files are not shown in the sidebar.\nTo display them you need to go into the obsidian settings, section `Files and links` and check `Detect all file extensions`.\n\n![detect-all-file-extensions](https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/e6a91e66-295d-4057-bf80-e43dcdb8e3e7)\n\nTo create an org file in your vault, you currently have to create it outside obsidian, as obsidian doesn't allow to create a non-markdown file.\n\nIf you don't already have an org file, try to create a file called `todo.org` with the following content:\n",
+    "ContentSha": "S7n0nDknRxAdzaJ+vqyI8TaWKYLk1iIiISvFgS5LQMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Obsidian Orgmode CM6\n\n[Orgmode](https://orgmode.org) for [Obsidian](https://obsidian.md).\n\n![스크린샷](https://raw.githubusercontent.com/BBazard/obsidian-orgmode-cm6/master/./screenshot.png)\n\n## 사용법\n\n기본적으로 org 파일은 사이드바에 표시되지 않습니다.\n표시하려면 obsidian 설정의 `파일 및 링크` 섹션으로 이동하여 `모든 파일 확장자 감지`를 선택해야 합니다.\n\n![모든 파일 확장자 감지](https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/e6a91e66-295d-4057-bf80-e43dcdb8e3e7)\n\n금고에 org 파일을 만들려면 현재 obsidian 외부에서 만들어야 합니다. obsidian은 비마크다운 파일 생성을 허용하지 않기 때문입니다.\n\n이미 org 파일이 없다면, 다음 내용을 가진 `todo.org`라는 파일을 만들어 보세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4AsVferjt35W2kvwhvXVil0A5qVqS/nTBKBImTmmUS8=",
+        "originContent": "# Obsidian Orgmode CM6",
+        "translatedContent": "# Obsidian Orgmode CM6"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "vsTUdhpInZfTyuyFUx1obFQBaAfPaEiqrfazPykUmLs=",
+        "originContent": "[Orgmode](https://orgmode.org) for [Obsidian](https://obsidian.md).",
+        "translatedContent": "[Orgmode](https://orgmode.org) for [Obsidian](https://obsidian.md)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iCN0WVWoq0Wjv6Gbe85GYkQMMCWBwx299oNXbWntc/g=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/BBazard/obsidian-orgmode-cm6/master/./screenshot.png)",
+        "translatedContent": "![스크린샷](https://raw.githubusercontent.com/BBazard/obsidian-orgmode-cm6/master/./screenshot.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UjrQLq2VHBiBou4NBZFnD+ias4Oi3QXzDixzesaeTvY=",
+        "originContent": "By default org files are not shown in the sidebar.",
+        "translatedContent": "기본적으로 org 파일은 사이드바에 표시되지 않습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "Y1Cgcn4063j2uFjuH4IxO/C1hDiscM+VHojtFTjpamQ=",
+        "originContent": "To display them you need to go into the obsidian settings, section `Files and links` and check `Detect all file extensions`.",
+        "translatedContent": "표시하려면 obsidian 설정의 `파일 및 링크` 섹션으로 이동하여 `모든 파일 확장자 감지`를 선택해야 합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "edve7DxdAJFnKc2UZmObu5xjdUoRPGl6cacP5wDVpHo=",
+        "originContent": "![detect-all-file-extensions](https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/e6a91e66-295d-4057-bf80-e43dcdb8e3e7)",
+        "translatedContent": "![모든 파일 확장자 감지](https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/e6a91e66-295d-4057-bf80-e43dcdb8e3e7)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "4BvZLMxIyvoAcAsPqcsSKUQPK5wd3mqXjRVwAqjxrtU=",
+        "originContent": "To create an org file in your vault, you currently have to create it outside obsidian, as obsidian doesn't allow to create a non-markdown file.",
+        "translatedContent": "금고에 org 파일을 만들려면 현재 obsidian 외부에서 만들어야 합니다. obsidian은 비마크다운 파일 생성을 허용하지 않기 때문입니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "mob5KinvD9BH/2Ve+aojod+jSE1NfNt5HkoNQ13IsS8=",
+        "originContent": "If you don't already have an org file, try to create a file called `todo.org` with the following content:",
+        "translatedContent": "이미 org 파일이 없다면, 다음 내용을 가진 `todo.org`라는 파일을 만들어 보세요:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```org\n* TODO [#A] A task with *high* priority\n\nThe description of the task\n\n* A collapsed section\n\nYou cannot see the description when collapsed\n\n* DONE something done already :sometag:\nSCHEDULED: <2023-12-08 Fri 11:13>\n:PROPERTIES:\n:CREATED: [2023-12-03 Sun 10:48]\n:END:\n\na [[https://github.com/BBazard/obsidian-orgmode-cm6][link]]\n\n#+begin_src javascript\nconst block = \"highlighted\"\n#+end_src\n```",
+    "ContentSha": "EMjdFTQpQW7hsU7ffwHj3bC61arnaKVyOcPDoGBy7Pw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```org\n* TODO [#A] A task with *high* priority\n\nThe description of the task\n\n* A collapsed section\n\nYou cannot see the description when collapsed\n\n* DONE something done already :sometag:\nSCHEDULED: <2023-12-08 Fri 11:13>\n:PROPERTIES:\n:CREATED: [2023-12-03 Sun 10:48]\n:END:\n\na [[https://github.com/BBazard/obsidian-orgmode-cm6][link]]\n\n#+begin_src javascript\nconst block = \"highlighted\"\n#+end_src\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "FH81+Fs8ICMT0rrOAr0iSvq6UqnqzGOEfu/G5QrWlm8=",
+        "originContent": "```org",
+        "translatedContent": "```org"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ivybiu8C0/jvhEBhtIFVNFt9UGWXtOzFMZl5qw6CYmI=",
+        "originContent": "* TODO [#A] A task with *high* priority",
+        "translatedContent": "* TODO [#A] A task with *high* priority"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UHeturtyah/8AXe5CZ1H19Br4IbARMFp9XYg5NtnCWQ=",
+        "originContent": "The description of the task",
+        "translatedContent": "The description of the task"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "og8ORFOavtCxmcaAxlxAXlHKKPMkId8m4bWFAQgsV+k=",
+        "originContent": "* A collapsed section",
+        "translatedContent": "* A collapsed section"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "BzsNdzFDJtjMm/QeTRhNtM3Uhb0jSdLfWqbXIYbZGQE=",
+        "originContent": "You cannot see the description when collapsed",
+        "translatedContent": "You cannot see the description when collapsed"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "O+xVpxHft7U8cLkKSiwks/XCgoAeahOOUVZC9xi3m8Q=",
+        "originContent": "* DONE something done already :sometag:",
+        "translatedContent": "* DONE something done already :sometag:"
+      },
+      {
+        "row": 11,
+        "rowsha": "rNl3Hk4/VbXSQnSDoawjEBY5hsgylsTNdXKEkKNL9sg=",
+        "originContent": "SCHEDULED: <2023-12-08 Fri 11:13>",
+        "translatedContent": "SCHEDULED: <2023-12-08 Fri 11:13>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Zx1lWGJZyDCKLBj5fvmvGOHR0WxFgXHod1gfAhEYlc8=",
+        "originContent": ":PROPERTIES:",
+        "translatedContent": ":PROPERTIES:"
+      },
+      {
+        "row": 13,
+        "rowsha": "+Ms5DQG7hK/h+pbkdjsYRkVuL0YreB0ZaEkg2dZ1Cn4=",
+        "originContent": ":CREATED: [2023-12-03 Sun 10:48]",
+        "translatedContent": ":CREATED: [2023-12-03 Sun 10:48]"
+      },
+      {
+        "row": 14,
+        "rowsha": "w89mkkj0KweYb33pCqim3vtua3r+LG6ZoZhnMYCkK8U=",
+        "originContent": ":END:",
+        "translatedContent": ":END:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "VesO9UT/p+5v2jUvF1jqddb6919HH/EoQBt/1G4xRw4=",
+        "originContent": "a [[https://github.com/BBazard/obsidian-orgmode-cm6][link]]",
+        "translatedContent": "a [[https://github.com/BBazard/obsidian-orgmode-cm6][link]]"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "EuTdTw93VDUPojW36rWsQWGPJa4rCVHNGQxKHB1vmuY=",
+        "originContent": "#+begin_src javascript",
+        "translatedContent": "#+begin_src javascript"
+      },
+      {
+        "row": 19,
+        "rowsha": "TYyFg0mVs5I9/oQ6JeVzsc2QC4GRtimdsZpKWHV1Ryg=",
+        "originContent": "const block = \"highlighted\"",
+        "translatedContent": "const block = \"highlighted\""
+      },
+      {
+        "row": 20,
+        "rowsha": "ceWGiMrZOjZ+cVDSvRD9Wpg6YUjx0gst/35KWSXqQNw=",
+        "originContent": "#+end_src",
+        "translatedContent": "#+end_src"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Supported features\n\n### Orgmode Editor\n\n- Live Preview\n- Syntax highlighting (with overridable css classes)\n- Customizable Todo Keywords in settings\n- Folding (click in the gutter on the first line of the element to fold it)\n- Wiki links (`[[unicorn]]` will open the file unicorn.org anywhere in the vault or fallback to unicorn.md)\n- Inline images (`[[myimage.png]]` will display the image if it exists in the vault)\n- ID links (`[[id:12345]]` will redirect to the heading with the matching :ID: in a property drawer located in any org file in the vault)\n- Vim support (if activated in Obsidian)\n- Source blocks highlighting (supported: c, c++, css, html, java, javascript, json, php, python, rust, sass, xml)\n\n### Orgmode Parser (syntax highlighting)\n\nFollowing [Org Syntax](https://orgmode.org/worg/org-syntax.html)\n\n- [x] Heading (nested, no support for COMMENT heading)\n- [x] Section (including zeroth section)\n- [x] Text markup (bold, italic, underline, etc...)\n- [x] Link (regular link, angle link, plain link)\n- [x] Combination of markup and link\n- [x] Comment line\n- [x] Keyword line\n- [x] Planning line\n- [x] Property Drawer\n- [x] Lesser Block (unformatted except source blocks)\n- [ ] Dynamic Block (not possible as obsidian doesn't allow arbitrary execution in plugins)\n- [ ] Drawer\n- [ ] List and Checkbox\n- [ ] Horizontal rule\n- [ ] Timestamp\n- [ ] Clock\n- [ ] Diary Sexp\n- [ ] Footnote\n- [ ] Table\n- [ ] Latex\n- [ ] : Fixed-width line (you can use a Block instead)",
+    "ContentSha": "jrjOF0ajmVlXba3QYd4SpHnwMcDf0mVTraTSU+nODhQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 지원 기능\n\n### Orgmode 편집기\n\n- 실시간 미리보기  \n- 구문 강조 (덮어쓸 수 있는 css 클래스 포함)  \n- 설정에서 사용자 정의 가능한 할 일 키워드  \n- 접기 (요소의 첫 번째 줄 배경 영역을 클릭하여 접기)  \n- 위키 링크 (`[[unicorn]]`는 금고 내 어디서든 unicorn.org 파일을 열거나 unicorn.md로 대체)  \n- 인라인 이미지 (`[[myimage.png]]`는 금고에 이미지가 존재하면 표시)  \n- ID 링크 (`[[id:12345]]`는 금고 내 어떤 org 파일의 속성 서랍에 위치한 일치하는 :ID: 헤딩으로 리디렉션)  \n- Vim 지원 (Obsidian에서 활성화 시)  \n- 소스 블록 강조 (지원 언어: c, c++, css, html, java, javascript, json, php, python, rust, sass, xml)  \n\n### Orgmode 파서 (구문 강조)\n\n[Org Syntax](https://orgmode.org/worg/org-syntax.html) 따름\n\n- [x] 헤딩 (중첩, COMMENT 헤딩 미지원)  \n- [x] 섹션 (제로 섹션 포함)  \n- [x] 텍스트 마크업 (굵게, 기울임, 밑줄 등)  \n- [x] 링크 (일반 링크, 꺾쇠 링크, 일반 링크)  \n- [x] 마크업과 링크 조합  \n- [x] 주석 라인  \n- [x] 키워드 라인  \n- [x] 계획 라인  \n- [x] 속성 서랍  \n- [x] 소규모 블록 (소스 블록 제외 미서식)  \n- [ ] 동적 블록 (Obsidian이 플러그인에서 임의 실행을 허용하지 않아 불가능)  \n- [ ] 서랍  \n- [ ] 목록 및 체크박스  \n- [ ] 수평선  \n- [ ] 타임스탬프  \n- [ ] 시계  \n- [ ] 일기 Sexp  \n- [ ] 각주  \n- [ ] 표  \n- [ ] 라텍스  \n- [ ] : 고정 너비 라인 (대신 블록 사용 가능)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 지원 기능"
+      },
+      {
+        "row": 2,
+        "rowsha": "aXkOBG2HVO9kdxgABkGLV85F4b1ab9zoNpCvlTeZ90o=",
+        "originContent": "## Supported features",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Orgmode 편집기"
+      },
+      {
+        "row": 4,
+        "rowsha": "Zt2on/Xe/ryjBu3D5b0YxxtGdKso4fHu4ANpdUXuBYk=",
+        "originContent": "### Orgmode Editor",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 실시간 미리보기  "
+      },
+      {
+        "row": 6,
+        "rowsha": "lMMlGK/vSvfGHYbLI+XVAvrP6gJY8iCuZsDxyDTrj0E=",
+        "originContent": "- Live Preview",
+        "translatedContent": "- 구문 강조 (덮어쓸 수 있는 css 클래스 포함)  "
+      },
+      {
+        "row": 7,
+        "rowsha": "KxfwEb4uyYPxtjNpPBwHXngQ9Ml1mu6NAQsDy5tIH78=",
+        "originContent": "- Syntax highlighting (with overridable css classes)",
+        "translatedContent": "- 설정에서 사용자 정의 가능한 할 일 키워드  "
+      },
+      {
+        "row": 8,
+        "rowsha": "lSqEisKwqNp2g0bpFS7ByMr5+cX1LOIJwcNL2RExXoM=",
+        "originContent": "- Customizable Todo Keywords in settings",
+        "translatedContent": "- 접기 (요소의 첫 번째 줄 배경 영역을 클릭하여 접기)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "178LT5KEKtMuDKQagAedSDRIXtbqAljiOkRHCM6MYWg=",
+        "originContent": "- Folding (click in the gutter on the first line of the element to fold it)",
+        "translatedContent": "- 위키 링크 (`[[unicorn]]`는 금고 내 어디서든 unicorn.org 파일을 열거나 unicorn.md로 대체)  "
+      },
+      {
+        "row": 10,
+        "rowsha": "r6n8kuLPxLTxeZ4nOxYXHylTovuMaXbWResL1xD1vbc=",
+        "originContent": "- Wiki links (`[[unicorn]]` will open the file unicorn.org anywhere in the vault or fallback to unicorn.md)",
+        "translatedContent": "- 인라인 이미지 (`[[myimage.png]]`는 금고에 이미지가 존재하면 표시)  "
+      },
+      {
+        "row": 11,
+        "rowsha": "lwRROpvZeosBRGimVB3HMihh1N3zZz/yAPs8f4ma2Pw=",
+        "originContent": "- Inline images (`[[myimage.png]]` will display the image if it exists in the vault)",
+        "translatedContent": "- ID 링크 (`[[id:12345]]`는 금고 내 어떤 org 파일의 속성 서랍에 위치한 일치하는 :ID: 헤딩으로 리디렉션)  "
+      },
+      {
+        "row": 12,
+        "rowsha": "qGU0niKFZU2gJ2Mprk4NNuUcLv+H/TdqLiPsSchIMyg=",
+        "originContent": "- ID links (`[[id:12345]]` will redirect to the heading with the matching :ID: in a property drawer located in any org file in the vault)",
+        "translatedContent": "- Vim 지원 (Obsidian에서 활성화 시)  "
+      },
+      {
+        "row": 13,
+        "rowsha": "iYaiYchsytcFT1hGLF/PzYgJC2PCXLC8Um5p9AKMKUc=",
+        "originContent": "- Vim support (if activated in Obsidian)",
+        "translatedContent": "- 소스 블록 강조 (지원 언어: c, c++, css, html, java, javascript, json, php, python, rust, sass, xml)  "
+      },
+      {
+        "row": 14,
+        "rowsha": "5Cvx6V/D+lhdFH/q0vfRlCcjnBq2Lkpr1nVDGs+luBY=",
+        "originContent": "- Source blocks highlighting (supported: c, c++, css, html, java, javascript, json, php, python, rust, sass, xml)",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Orgmode 파서 (구문 강조)"
+      },
+      {
+        "row": 16,
+        "rowsha": "pU3YMVDmA5V3sXjsTZcOk2KBh0++OMjPqQL93DNr2pk=",
+        "originContent": "### Orgmode Parser (syntax highlighting)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Org Syntax](https://orgmode.org/worg/org-syntax.html) 따름"
+      },
+      {
+        "row": 18,
+        "rowsha": "RBZJomaSt/M6bvbGFW+4rkie/E3cl26mfBvWu0bUm2o=",
+        "originContent": "Following [Org Syntax](https://orgmode.org/worg/org-syntax.html)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] 헤딩 (중첩, COMMENT 헤딩 미지원)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "l0jZk/acUgqqm4iMg+rPjWNTW/kotQ5aFnZ/3a+F148=",
+        "originContent": "- [x] Heading (nested, no support for COMMENT heading)",
+        "translatedContent": "- [x] 섹션 (제로 섹션 포함)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "51x3RAA06su0U5eSD7EK9nm/EqYaCzx9XufnF+6+UiI=",
+        "originContent": "- [x] Section (including zeroth section)",
+        "translatedContent": "- [x] 텍스트 마크업 (굵게, 기울임, 밑줄 등)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "npRYUwJ6PYD3x86IddkqrLsNvfHiWxjShmuxxZJ3IKg=",
+        "originContent": "- [x] Text markup (bold, italic, underline, etc...)",
+        "translatedContent": "- [x] 링크 (일반 링크, 꺾쇠 링크, 일반 링크)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "32qg1MHy8+i3NlVmF9jYN8f6wuvtj4D/bHqKEDhKwjU=",
+        "originContent": "- [x] Link (regular link, angle link, plain link)",
+        "translatedContent": "- [x] 마크업과 링크 조합  "
+      },
+      {
+        "row": 24,
+        "rowsha": "EIOBx0em41RMe5QK/P4a0MfHJ0/6PrCj9GtPHaLR+qw=",
+        "originContent": "- [x] Combination of markup and link",
+        "translatedContent": "- [x] 주석 라인  "
+      },
+      {
+        "row": 25,
+        "rowsha": "15VI3smq48jT+1Q3iidQvDjtN7eFSzwWuPqeJG/HlVM=",
+        "originContent": "- [x] Comment line",
+        "translatedContent": "- [x] 키워드 라인  "
+      },
+      {
+        "row": 26,
+        "rowsha": "NsR5fwspcv+MiMcnD8XMsDprFpkM6kdCq7122iyxNKA=",
+        "originContent": "- [x] Keyword line",
+        "translatedContent": "- [x] 계획 라인  "
+      },
+      {
+        "row": 27,
+        "rowsha": "Mw4R8oNbwHhLaOLiG58ybElg72q3K3xDor0lX81WOvI=",
+        "originContent": "- [x] Planning line",
+        "translatedContent": "- [x] 속성 서랍  "
+      },
+      {
+        "row": 28,
+        "rowsha": "2AuaGyQkoHULUy5MlHaN5tuDOwKCfc0cRdOS4Bb7iWI=",
+        "originContent": "- [x] Property Drawer",
+        "translatedContent": "- [x] 소규모 블록 (소스 블록 제외 미서식)  "
+      },
+      {
+        "row": 29,
+        "rowsha": "7zBm1cj0ZAZZR1lxbuAsdnsGNzbP84FTbqusQ0P3roI=",
+        "originContent": "- [x] Lesser Block (unformatted except source blocks)",
+        "translatedContent": "- [ ] 동적 블록 (Obsidian이 플러그인에서 임의 실행을 허용하지 않아 불가능)  "
+      },
+      {
+        "row": 30,
+        "rowsha": "Ycw4CnjJHYNk8cquAuFdB32memlod/uG7jbOezxYf04=",
+        "originContent": "- [ ] Dynamic Block (not possible as obsidian doesn't allow arbitrary execution in plugins)",
+        "translatedContent": "- [ ] 서랍  "
+      },
+      {
+        "row": 31,
+        "rowsha": "7x3RRZ6wTpRW4okT9JLjmbFmpcdbjAFJeX0fTKQNXUs=",
+        "originContent": "- [ ] Drawer",
+        "translatedContent": "- [ ] 목록 및 체크박스  "
+      },
+      {
+        "row": 32,
+        "rowsha": "0ad3qCLsA2qvcDFcL0gtUbxdp1XsFpJFbozTeYmMaHk=",
+        "originContent": "- [ ] List and Checkbox",
+        "translatedContent": "- [ ] 수평선  "
+      },
+      {
+        "row": 33,
+        "rowsha": "U9tlcc6liJh6qhCPriz+0c/JiwTJOngcNy6k8TRRAhQ=",
+        "originContent": "- [ ] Horizontal rule",
+        "translatedContent": "- [ ] 타임스탬프  "
+      },
+      {
+        "row": 34,
+        "rowsha": "06iiJjk0i5ka0mYMLH35LdTri8GmlAINwsm1W0SJL70=",
+        "originContent": "- [ ] Timestamp",
+        "translatedContent": "- [ ] 시계  "
+      },
+      {
+        "row": 35,
+        "rowsha": "tdLcaku+KmW7uAewyOY3egS/jKaBSZvtr7g5XLpAd3E=",
+        "originContent": "- [ ] Clock",
+        "translatedContent": "- [ ] 일기 Sexp  "
+      },
+      {
+        "row": 36,
+        "rowsha": "hHeLaKZr8yNPApbavx2F75nqjh5RwIFndJTqd/n2a8I=",
+        "originContent": "- [ ] Diary Sexp",
+        "translatedContent": "- [ ] 각주  "
+      },
+      {
+        "row": 37,
+        "rowsha": "8DZZUGJ2kFBC4oatqSIkZOXVPJl7je/I654i4K7uvgM=",
+        "originContent": "- [ ] Footnote",
+        "translatedContent": "- [ ] 표  "
+      },
+      {
+        "row": 38,
+        "rowsha": "hOkoA2GFzLMVTbdAMclSKGuHbaFbuiW5I5W7pCUPfSE=",
+        "originContent": "- [ ] Table",
+        "translatedContent": "- [ ] 라텍스  "
+      },
+      {
+        "row": 39,
+        "rowsha": "jJ9WFY4r/BRFayRLFU/zscHqi6CBttjgQPByK/xs63I=",
+        "originContent": "- [ ] Latex",
+        "translatedContent": "- [ ] : 고정 너비 라인 (대신 블록 사용 가능)"
+      },
+      {
+        "row": 40,
+        "rowsha": "dIKBNpBIKlS8HZ6w8ZWOjRm9zb0CCYyFno5TxmW7q5U=",
+        "originContent": "- [ ] : Fixed-width line (you can use a Block instead)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Implementation details\n\n- The orgmode files are handled with a [codemirror 6](https://codemirror.net) instance which is separate from the one used by the markdown files. That means the plugin has to re-implement all features working for markdown files.\n\n- The parser reads an orgmode file and builds a tree of syntax nodes by using a [lezer](https://lezer.codemirror.net) grammar with custom tokenizers. This approach allows to match tokens more precisely than the regex-based approach of Emacs. For example, planning lines are only matched after a heading and not in the middle of a section.\n\n- Overlapping tokens are not considered valid. Take for example: `*one _two three* four_`. Emacs, using regexes would have `*one _two three*` as bold and `_two three* four_` as underline. The lezer parser is instead considering `*one _two three*` as bold and ` four_` as normal text, it makes it possible to have the text markup range as its own syntax node.\n\n- There is no limits to the level of headings (so no Inlinetask) or the number of lines of a text markup.\n\n## Show orgmode tasks in markdown files\n\nThis feature is unstable and will likely change in breaking ways in the future.\n\nCurrently only TODO and DONE are handled.\n\nhttps://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/b071b2c8-b56e-4050-8fcf-02a922fdd1c0\n\nTo filter, [orgzly search expression](https://www.orgzly.com/docs#search) are supported (implemented: s, d, c, i, it, ad).\n",
+    "ContentSha": "CjQi03rAdmY+NsLLnmqnrucLuDtA7g/q+rjEO0PHhAg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 구현 세부사항\n\n- orgmode 파일은 마크다운 파일에 사용되는 것과 별도의 [codemirror 6](https://codemirror.net) 인스턴스로 처리됩니다. 즉, 플러그인은 마크다운 파일에 작동하는 모든 기능을 다시 구현해야 합니다.\n\n- 파서는 orgmode 파일을 읽고 맞춤 토크나이저가 포함된 [lezer](https://lezer.codemirror.net) 문법을 사용하여 구문 노드 트리를 만듭니다. 이 접근법은 Emacs의 정규 표현식 기반 방법보다 토큰을 더 정밀하게 매칭할 수 있게 합니다. 예를 들어, 계획 라인은 섹션 중간이 아닌 헤딩 다음에만 매칭됩니다.\n\n- 겹치는 토큰은 유효하지 않은 것으로 간주됩니다. 예를 들어: `*one _two three* four_`. Emacs는 정규 표현식을 사용하여 `*one _two three*`를 볼드로, `_two three* four_`를 밑줄로 처리합니다. 반면 lezer 파서는 `*one _two three*`를 볼드로, ` four_`를 일반 텍스트로 간주하여 텍스트 마크업 범위를 자체 구문 노드로 만들 수 있게 합니다.\n\n- 헤딩 레벨(인라인태스크 없음)이나 텍스트 마크업의 줄 수에 제한이 없습니다.\n\n## 마크다운 파일에서 orgmode 작업 표시\n\n이 기능은 불안정하며 향후 호환성에 영향을 주는 방식으로 변경될 가능성이 높습니다.\n\n현재는 TODO와 DONE만 처리됩니다.\n\nhttps://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/b071b2c8-b56e-4050-8fcf-02a922fdd1c0\n\n필터링을 위해 [orgzly 검색 표현식](https://www.orgzly.com/docs#search)이 지원됩니다 (구현됨: s, d, c, i, it, ad).\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 구현 세부사항"
+      },
+      {
+        "row": 2,
+        "rowsha": "QiSyrgd47WZbv7ogZLRjTqGaeItReyDaidpCQx9wKcI=",
+        "originContent": "## Implementation details",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- orgmode 파일은 마크다운 파일에 사용되는 것과 별도의 [codemirror 6](https://codemirror.net) 인스턴스로 처리됩니다. 즉, 플러그인은 마크다운 파일에 작동하는 모든 기능을 다시 구현해야 합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "g8LqMUUPsnAosTX0D6zC+TL1c7YsnXR7cwBKlNDZ4ds=",
+        "originContent": "- The orgmode files are handled with a [codemirror 6](https://codemirror.net) instance which is separate from the one used by the markdown files. That means the plugin has to re-implement all features working for markdown files.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 파서는 orgmode 파일을 읽고 맞춤 토크나이저가 포함된 [lezer](https://lezer.codemirror.net) 문법을 사용하여 구문 노드 트리를 만듭니다. 이 접근법은 Emacs의 정규 표현식 기반 방법보다 토큰을 더 정밀하게 매칭할 수 있게 합니다. 예를 들어, 계획 라인은 섹션 중간이 아닌 헤딩 다음에만 매칭됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "+a9D0ci6tbh3h43v7oetNbYYADxuuk+Ji79lntYPFi4=",
+        "originContent": "- The parser reads an orgmode file and builds a tree of syntax nodes by using a [lezer](https://lezer.codemirror.net) grammar with custom tokenizers. This approach allows to match tokens more precisely than the regex-based approach of Emacs. For example, planning lines are only matched after a heading and not in the middle of a section.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 겹치는 토큰은 유효하지 않은 것으로 간주됩니다. 예를 들어: `*one _two three* four_`. Emacs는 정규 표현식을 사용하여 `*one _two three*`를 볼드로, `_two three* four_`를 밑줄로 처리합니다. 반면 lezer 파서는 `*one _two three*`를 볼드로, ` four_`를 일반 텍스트로 간주하여 텍스트 마크업 범위를 자체 구문 노드로 만들 수 있게 합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "D5CJSdMiw6hukRvxNgYYS1NHGmBFoZKc4GZOwNqi1nk=",
+        "originContent": "- Overlapping tokens are not considered valid. Take for example: `*one _two three* four_`. Emacs, using regexes would have `*one _two three*` as bold and `_two three* four_` as underline. The lezer parser is instead considering `*one _two three*` as bold and ` four_` as normal text, it makes it possible to have the text markup range as its own syntax node.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 헤딩 레벨(인라인태스크 없음)이나 텍스트 마크업의 줄 수에 제한이 없습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "VtsV6kOEzEizt5BFQ5Rhhxth+gvhy/nT9m4t6olHwII=",
+        "originContent": "- There is no limits to the level of headings (so no Inlinetask) or the number of lines of a text markup.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 마크다운 파일에서 orgmode 작업 표시"
+      },
+      {
+        "row": 12,
+        "rowsha": "HQ+Czdm5hWcAeuVs2WEOG1j73qKZkOVfaEiXeFooOIY=",
+        "originContent": "## Show orgmode tasks in markdown files",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 기능은 불안정하며 향후 호환성에 영향을 주는 방식으로 변경될 가능성이 높습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "v+Jf3xAfT+5mTjpYEMKmZfdRUmbQYJwIWuLP07SKfIg=",
+        "originContent": "This feature is unstable and will likely change in breaking ways in the future.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "현재는 TODO와 DONE만 처리됩니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "bmjjVaZghTknGgJoE7alHuVXHDVALyZnz6pxzfIzg3o=",
+        "originContent": "Currently only TODO and DONE are handled.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/b071b2c8-b56e-4050-8fcf-02a922fdd1c0"
+      },
+      {
+        "row": 18,
+        "rowsha": "0cW8LU3drCI49GNu0+OBc2/JbobsmDQ+3kok1MKMsYA=",
+        "originContent": "https://github.com/BBazard/obsidian-orgmode-cm6/assets/10139245/b071b2c8-b56e-4050-8fcf-02a922fdd1c0",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "필터링을 위해 [orgzly 검색 표현식](https://www.orgzly.com/docs#search)이 지원됩니다 (구현됨: s, d, c, i, it, ad)."
+      },
+      {
+        "row": 20,
+        "rowsha": "crFH7EPJKbjwIunOBAdta9GWCFgBfQ07gfpSvTY+Gjc=",
+        "originContent": "To filter, [orgzly search expression](https://www.orgzly.com/docs#search) are supported (implemented: s, d, c, i, it, ad).",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```orgmode-tasks\nfilepath: Orgmode/Orgmode file.org\nquery: it.todo or it.done\n```",
+    "ContentSha": "wE4oaJssYJRfPjkpLSOXZUqq5TYvyCvjrpT7cEL2cCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```orgmode-tasks\nfilepath: Orgmode/Orgmode file.org\nquery: it.todo or it.done\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PAv3rafteqPtZIoJBHETwoDUUxVAPEUcqp7GHtnmhq4=",
+        "originContent": "```orgmode-tasks",
+        "translatedContent": "```orgmode-tasks"
+      },
+      {
+        "row": 2,
+        "rowsha": "GBpK4WTXPxpsbVusq0Kw13x3mVrCWC0lgWH1GyXSTdU=",
+        "originContent": "filepath: Orgmode/Orgmode file.org",
+        "translatedContent": "filepath: Orgmode/Orgmode file.org"
+      },
+      {
+        "row": 3,
+        "rowsha": "yu2ck9Gs3LA5rwwuw7Ox//1j0UytHz8RN2k9Hvz4z/0=",
+        "originContent": "query: it.todo or it.done",
+        "translatedContent": "query: it.todo or it.done"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Development\n",
+    "ContentSha": "gmEZCy0pZ9RfvPNwRhEyu85Rf5cdr+x1B6YQoLz3e40=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 개발\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## 개발"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\ngit clone https://github.com/bbazard/obsidian-orgmode-cm6\ncd obsidian-orgmode-cm6\nnpm install\nnpm run build\nnpm test\ncp main.js styles.css manifest.json \"$OBSIDIAN_VAULT\"/.obsidian/plugins/obsidian-orgmode-cm6/\n```",
+    "ContentSha": "Z23joW68fRkQhoNHnxxtHUt+nJ5GONhDS4k/PtFVIx4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone https://github.com/bbazard/obsidian-orgmode-cm6\ncd obsidian-orgmode-cm6\nnpm install\nnpm run build\nnpm test\ncp main.js styles.css manifest.json \"$OBSIDIAN_VAULT\"/.obsidian/plugins/obsidian-orgmode-cm6/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "iBdX4AujKQ65C3Vt8GhIOiN9M2vwBWpCqUMJXHp07fU=",
+        "originContent": "git clone https://github.com/bbazard/obsidian-orgmode-cm6",
+        "translatedContent": "git clone https://github.com/bbazard/obsidian-orgmode-cm6"
+      },
+      {
+        "row": 3,
+        "rowsha": "TDLyReNcNl424MOW2Lmdq6XnKPYtj1sRqjynfwL3hAc=",
+        "originContent": "cd obsidian-orgmode-cm6",
+        "translatedContent": "cd obsidian-orgmode-cm6"
+      },
+      {
+        "row": 4,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 5,
+        "rowsha": "FsDkMFrCE9/zn8grabbgiu64dY4zzXLXxAl1KnDp8FQ=",
+        "originContent": "npm run build",
+        "translatedContent": "npm run build"
+      },
+      {
+        "row": 6,
+        "rowsha": "Mo4SPGOFf9hHO9S9NYHmVbCLdEDX9dLDHMN1YHWC9Tk=",
+        "originContent": "npm test",
+        "translatedContent": "npm test"
+      },
+      {
+        "row": 7,
+        "rowsha": "diZeqaf0BOtvQVT4WEE+ygaVFbv5jHTnqDpe6msRMmI=",
+        "originContent": "cp main.js styles.css manifest.json \"$OBSIDIAN_VAULT\"/.obsidian/plugins/obsidian-orgmode-cm6/",
+        "translatedContent": "cp main.js styles.css manifest.json \"$OBSIDIAN_VAULT\"/.obsidian/plugins/obsidian-orgmode-cm6/"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
