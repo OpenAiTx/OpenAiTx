@@ -1,0 +1,308 @@
+[
+  {
+    "row": 1,
+    "rowsha": "s9cgdwXY+8/qSwww42AwTsqHtQsO1wFUmf4zpWS7GAw=",
+    "originContent": "# qq-farm-bot-vision",
+    "translatedContent": "# qq-farm-bot-vision"
+  },
+  {
+    "row": 2,
+    "rowsha": "dR0n7Jh/RZDjI7iLPM3y+YQOY4If+sGkpUa5ocpbKso=",
+    "originContent": "# QQ经典农场机器人（AI视觉版本）",
+    "translatedContent": "# QQ经典农场机器人（AI视觉版本）"
+  },
+  {
+    "row": 3,
+    "rowsha": "SAal8mmLfhpNH5jxRabs7Z2BTkgxu+bl8qKZ63wdOBk=",
+    "originContent": "## 基于CV视觉匹配的初版已开发完成，Alaph版本已发布，注意：这是早期测试版本，功能不全还在持续开发和优化中，主要是想让部分用户试用一下，协助测试BUG和提意见。",
+    "translatedContent": "## 基于CV视觉匹配的初版已开发完成，Alaph版本已发布，注意：这是早期测试版本，功能不全还在持续开发和优化中，主要是想让部分用户试用一下，协助测试BUG和提意见。"
+  },
+  {
+    "row": 4,
+    "rowsha": "2gtIxd6rPfKMFZVKNaWdrVVfIEmTbzwyGDDNoHTTMJg=",
+    "originContent": "## 最新功能更新日志请查看：[update_cv.txt](https://raw.githubusercontent.com/flh155/qq-farm-bot-vision/main/./update_cv.txt)",
+    "translatedContent": "## 最新功能更新日志请查看：[update_cv.txt](https://raw.githubusercontent.com/flh155/qq-farm-bot-vision/main/./update_cv.txt)"
+  },
+  {
+    "row": 5,
+    "rowsha": "669h+t2wb6k4xgWud0o6fettGqAHse+2FU15SUBDXfo=",
+    "originContent": "## 试用过程中遇到问题可提issue：[issue问题区](https://github.com/flh155/qq-farm-bot-vision/issues)",
+    "translatedContent": "## 试用过程中遇到问题可提issue：[issue问题区](https://github.com/flh155/qq-farm-bot-vision/issues)"
+  },
+  {
+    "row": 6,
+    "rowsha": "boN/fMAOLzwuiUaFs193zzkryi6f1e/NCFQvgQAKHQM=",
+    "originContent": "## 技术交流可以进Discord：[农民交流频道](https://discord.gg/xbpVKG9wKw)",
+    "translatedContent": "## 技术交流可以进Discord：[农民交流频道](https://discord.gg/xbpVKG9wKw)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "621CMJyuWe+VLXw8Yl2t4PprX3wEoHxYLHMfMN7zefs=",
+    "originContent": "## 以下是CV版本的部署试用方法",
+    "translatedContent": "## 以下是CV版本的部署试用方法"
+  },
+  {
+    "row": 9,
+    "rowsha": "1YuzODMquB5gMzWfv7ge9R0lkQxj//2IVs8BGyTqDtI=",
+    "originContent": "### 备注：因这是测试版本，会存在很多问题以及功能的缺失，因此暂时不提供docker、exe等一键安装部署的方法使用，仅提供源码启动的方式，供一些有一定技术基础且愿意尝鲜的用户试用，后续待版本更新优化的比较完善且稳定后再提供一键部署的方案给大家使用，望理解",
+    "translatedContent": "### 备注：因这是测试版本，会存在很多问题以及功能的缺失，因此暂时不提供docker、exe等一键安装部署的方法使用，仅提供源码启动的方式，供一些有一定技术基础且愿意尝鲜的用户试用，后续待版本更新优化的比较完善且稳定后再提供一键部署的方案给大家使用，望理解"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "5HlS+Xiqwlc8jRtnBKjkGNxtyPMeKDPI1L4npPAp4aQ=",
+    "originContent": "## ❗ 用前必读：",
+    "translatedContent": "## ❗ 用前必读："
+  },
+  {
+    "row": 12,
+    "rowsha": "0YEBpwDI0G7GRSQHyRVgc6MwiCMN/j8Cs4GL3oiuDVU=",
+    "originContent": "- 当前版本要求游戏窗口必须实时保持在前台，但可以被遮挡",
+    "translatedContent": "- 当前版本要求游戏窗口必须实时保持在前台，但可以被遮挡"
+  },
+  {
+    "row": 13,
+    "rowsha": "jJTtfsmVV1CtKGDi5L6Es03mL+1x85sM+eypJJq/8hk=",
+    "originContent": "- 当前版本已有初版GUI界面，如需使用请启动`python main_gui.py`",
+    "translatedContent": "- 当前版本已有初版GUI界面，如需使用请启动`python main_gui.py`"
+  },
+  {
+    "row": 14,
+    "rowsha": "H5FeiY5O4oI/1NQMokPhr2oygOC6o3wPqRusq9DOiZA=",
+    "originContent": "- 当前版本已实现`自动收菜`、`自动除草/除虫/浇水`、`自动种植（测试中）`、`自动偷菜`、`自动帮忙除草/除虫/浇水`、`自动领取每日免费化肥` 功能，相关功能在不断测试优化中",
+    "translatedContent": "- 当前版本已实现`自动收菜`、`自动除草/除虫/浇水`、`自动种植（测试中）`、`自动偷菜`、`自动帮忙除草/除虫/浇水`、`自动领取每日免费化肥` 功能，相关功能在不断测试优化中"
+  },
+  {
+    "row": 15,
+    "rowsha": "7PO5/Z9JAQ1qyYuE6oo6TGmd6NCWic8K2jQjkl2HeYM=",
+    "originContent": "- 图像模板匹配可能会因各种因素导致匹配不到或是误匹配情况出现，需要根据使用情况调整相关参数阈值，阈值参数调整方法参考：[threshold_adjust.txt](https://raw.githubusercontent.com/flh155/qq-farm-bot-vision/main/./threshold_adjust.txt)",
+    "translatedContent": "- 图像模板匹配可能会因各种因素导致匹配不到或是误匹配情况出现，需要根据使用情况调整相关参数阈值，阈值参数调整方法参考：[threshold_adjust.txt](https://raw.githubusercontent.com/flh155/qq-farm-bot-vision/main/./threshold_adjust.txt)"
+  },
+  {
+    "row": 16,
+    "rowsha": "L/1T/trc8uCen9FJ8KDtjYYjQkz1VkHx9BKX+xzhUAI=",
+    "originContent": "- 设置了按键监听便于快捷控制机器人，快捷键：`Ctrl+c`立马停止并退出机器人，`p` 临时暂停/恢复机器人巡检",
+    "translatedContent": "- 设置了按键监听便于快捷控制机器人，快捷键：`Ctrl+c`立马停止并退出机器人，`p` 临时暂停/恢复机器人巡检"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 19,
+    "rowsha": "CdneRJFaE9L68zzmeIpXgA5hC6ZmQaxmdvRZLI9642s=",
+    "originContent": "## 分支说明",
+    "translatedContent": "## 分支说明"
+  },
+  {
+    "row": 20,
+    "rowsha": "KCVgitQkGUJmuf+eP9/3X7TWo0ursOEovzgGVNq5yuE=",
+    "originContent": "- ### ~~[silence-click分支](https://github.com/flh155/qq-farm-bot-vision/tree/silence-click)：将点击模式为了静默点击，要求游戏画面仍然在前端，但不会和用户抢鼠标进行点击，注意：这种模式下可能会存在被封号的风险，请各位自行决定是否使用，若使用了希望多观察反馈情况~~ (该分支已合并进main分支)",
+    "translatedContent": "- ### ~~[silence-click分支](https://github.com/flh155/qq-farm-bot-vision/tree/silence-click)：将点击模式为了静默点击，要求游戏画面仍然在前端，但不会和用户抢鼠标进行点击，注意：这种模式下可能会存在被封号的风险，请各位自行决定是否使用，若使用了希望多观察反馈情况~~ (该分支已合并进main分支)"
+  },
+  {
+    "row": 21,
+    "rowsha": "M/yhnJ5cLiu7Vax895xXcaRkHqRSH5kWHHeXLK2Ql2U=",
+    "originContent": "- ### [gui-pr分支](https://github.com/flh155/qq-farm-bot-vision/tree/gui-pr)：该分支提供给大家进行GUI界面的PR，项目默认GUI界面会比较简单，如果你有好的GUI界面设计，可以提交PR到这个分支（目前该分支暂时无提交）",
+    "translatedContent": "- ### [gui-pr分支](https://github.com/flh155/qq-farm-bot-vision/tree/gui-pr)：该分支提供给大家进行GUI界面的PR，项目默认GUI界面会比较简单，如果你有好的GUI界面设计，可以提交PR到这个分支（目前该分支暂时无提交）"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 24,
+    "rowsha": "s4Fp6u7cwpX+EnDb1mLHoK8Hrh3r5mxBIkhygBvh+TM=",
+    "originContent": "## GUI界面展示",
+    "translatedContent": "## GUI界面展示"
+  },
+  {
+    "row": 25,
+    "rowsha": "9M1ZSlg1Y0exm8/ZA+CaW8zT9guAf1/wUj7CXAUWNHQ=",
+    "originContent": "![GUI](https://raw.githubusercontent.com/flh155/qq-farm-bot-vision/main/./assert/gui.jpg)",
+    "translatedContent": "![GUI](https://raw.githubusercontent.com/flh155/qq-farm-bot-vision/main/./assert/gui.jpg)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "tT6AWmZ9EbA9o9QI2AKnmCWm/Es2Ls/amX/YZTT8OO8=",
+    "originContent": "## 系统配置要求",
+    "translatedContent": "## 系统配置要求"
+  },
+  {
+    "row": 28,
+    "rowsha": "tXhAWM4HJJETfdvIW0fOR98ISDC4P+BpsvaZ9U686Xs=",
+    "originContent": "- Windows 10及以上的系统（Linux等其它系统还未开发适配）",
+    "translatedContent": "- Windows 10及以上的系统（Linux等其它系统还未开发适配）"
+  },
+  {
+    "row": 29,
+    "rowsha": "N97M/vnBWWr61AXw1O4TdWt2u7tQlFWXa8+cQlUPEto=",
+    "originContent": "- 本地已安装Python（推荐使用conda环境），且Python版本 ≥ 3.9",
+    "translatedContent": "- 本地已安装Python（推荐使用conda环境），且Python版本 ≥ 3.9"
+  },
+  {
+    "row": 30,
+    "rowsha": "SK2crB2DyRgLNMpnOR13HmzMmaP3Mc2Tm14oY5dyOkM=",
+    "originContent": "- 已安装NT架构的桌面版QQ，且能打开农场页面",
+    "translatedContent": "- 已安装NT架构的桌面版QQ，且能打开农场页面"
+  },
+  {
+    "row": 31,
+    "rowsha": "aUT6y9O42EOEaSJ0Cz9bSDJwNdG5usSqLWCq7t/roXo=",
+    "originContent": "## 部署试用流程方法",
+    "translatedContent": "## 部署试用流程方法"
+  },
+  {
+    "row": 32,
+    "rowsha": "vi6B3Y2eQ8J04hHZOKdHvwpK4bFmw8wr4MfGV6shgSE=",
+    "originContent": "- 1、`git clone` 本项目到本地，打开PC版QQ并登录",
+    "translatedContent": "- 1、`git clone` 本项目到本地，打开PC版QQ并登录"
+  },
+  {
+    "row": 33,
+    "rowsha": "6DyaO4ZKWLq7sEOo5fwB8l/Td3Meq783AvKeCC9IS70=",
+    "originContent": "- 2、在项目根目录下打开终端（可选：切换conda环境），使用命令 `pip install -r requirement.txt` 安装项目运行所需依赖",
+    "translatedContent": "- 2、在项目根目录下打开终端（可选：切换conda环境），使用命令 `pip install -r requirement.txt` 安装项目运行所需依赖"
+  },
+  {
+    "row": 34,
+    "rowsha": "bOtYweEPBr+KLasqg2oqKN5seKOCmtdMke+d/1XwIug=",
+    "originContent": "- 3、检查根目录下 `config.ini` 配置文件，按照个人的需求修改相关配置项参数",
+    "translatedContent": "- 3、检查根目录下 `config.ini` 配置文件，按照个人的需求修改相关配置项参数"
+  },
+  {
+    "row": 35,
+    "rowsha": "sIWd4iX346oiopHtKcfL/ZrFyAckWf5KZYzNjE+3/iI=",
+    "originContent": "- 4、使用命令 `python main.py` 启动机器人，查看终端是否启动成功(GUI界面启动命令为 `python main_gui.py`)",
+    "translatedContent": "- 4、使用命令 `python main.py` 启动机器人，查看终端是否启动成功(GUI界面启动命令为 `python main_gui.py`)"
+  },
+  {
+    "row": 36,
+    "rowsha": "xRQv+2FDAbpAeCH1sfkB6qga2z9hJulJ2u1sn39hAvk=",
+    "originContent": "- 5、打开农场游戏窗口（注意当前版本必须保证游戏窗口无遮挡）",
+    "translatedContent": "- 5、打开农场游戏窗口（注意当前版本必须保证游戏窗口无遮挡）"
+  },
+  {
+    "row": 37,
+    "rowsha": "qEqhVzyvu1lrL7sX5P4v/4TsnEuZ/H1SJpi3Cg2InXQ=",
+    "originContent": "- 6、程序会自动控制鼠标点击相关功能按钮实现自动化",
+    "translatedContent": "- 6、程序会自动控制鼠标点击相关功能按钮实现自动化"
+  },
+  {
+    "row": 38,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 39,
+    "rowsha": "hwjA9lNojihalJ+C95NGwEiQRDyXku7Van6jM10wzK4=",
+    "originContent": "# 后续研发计划",
+    "translatedContent": "# 后续研发计划"
+  },
+  {
+    "row": 40,
+    "rowsha": "0wWuWmoe1cVdLDMZUjGhcIznaprUaeXX8RQ9sgxzQ8Y=",
+    "originContent": "- ~~初版实现以cv为基础的图像匹配模式实现收菜、驱虫、除草功能（先快速有一个简版给大家过渡使用）~~（已实现）",
+    "translatedContent": "- ~~初版实现以cv为基础的图像匹配模式实现收菜、驱虫、除草功能（先快速有一个简版给大家过渡使用）~~（已实现）"
+  },
+  {
+    "row": 41,
+    "rowsha": "i7kr/OZw3a4N8lBcjXVpaBZ0XaDLW4mBgZVJ4gc2B7M=",
+    "originContent": "- ~~加入GUI界面，便于使用~~(已实现)",
+    "translatedContent": "- ~~加入GUI界面，便于使用~~(已实现)  "
+  },
+  {
+    "row": 42,
+    "rowsha": "5qGyh4yH12SRP38zP5d62hKVNfbUuCjV7CNgifIhnv8=",
+    "originContent": "- 优化丰富CV匹配版本的功能，修复存在的问题（正在进行中）",
+    "translatedContent": "- 优化丰富CV匹配版本的功能，修复存在的问题（正在进行中）  "
+  },
+  {
+    "row": 43,
+    "rowsha": "aA2gk3wkozhoffbhyLUIjng8x/oeNHRJ7tNJvmKbIMU=",
+    "originContent": "- 采集画面数据集：清洗处理、标注、增强",
+    "translatedContent": "- 采集画面数据集：清洗处理、标注、增强  "
+  },
+  {
+    "row": 44,
+    "rowsha": "++7Q6W2sCwBV1Rt6dfhGTSHG7iLL3xp4R6IUCClDgxI=",
+    "originContent": "- 基于yolo神经网络训练目标检测模型",
+    "translatedContent": "- 基于yolo神经网络训练目标检测模型  "
+  },
+  {
+    "row": 45,
+    "rowsha": "LbNaW+rlf4Qg+jBSeIprycL/ufR0ZpCrvRatHCXlUSo=",
+    "originContent": "- 使用神经网络更加精准及丰富地识别各类图标，丰富功能（种菜、收菜、偷菜、种地等）",
+    "translatedContent": "- 使用神经网络更加精准及丰富地识别各类图标，丰富功能（种菜、收菜、偷菜、种地等）  "
+  },
+  {
+    "row": 46,
+    "rowsha": "Yceca2qyqsk+487juw1YPnzLXxPrxDZorFr9AfyGBKk=",
+    "originContent": "# 你的star⭐是我更新的动力",
+    "translatedContent": "# 你的star⭐是我更新的动力  "
+  },
+  {
+    "row": 47,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 48,
+    "rowsha": "MzV8xHJxt6LLEXLXmrOi9AC0sAT1/iK498id3S+/OII=",
+    "originContent": "## 首先非常感谢大家对项目的关注和star⭐，但是因为本人平时在搬砖，只有摸鱼和下班后才有时间更新和维护项目，且本项目又是从零开始的，所以进度会慢一些，代码质量可能会稍微差一些，希望大家能理解，也欢迎各路大神提PR成为项目贡献者，最后相关开发进度我会及时更新，请大家耐心等待",
+    "translatedContent": "## 首先非常感谢大家对项目的关注和star⭐，但是因为本人平时在搬砖，只有摸鱼和下班后才有时间更新和维护项目，且本项目又是从零开始的，所以进度会慢一些，代码质量可能会稍微差一些，希望大家能理解，也欢迎各路大神提PR成为项目贡献者，最后相关开发进度我会及时更新，请大家耐心等待  "
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 免责声明 ❗  "
+  },
+  {
+    "row": 50,
+    "rowsha": "eIG1QBeAmCYzzV9tsJevalhL2RmHjKBDQ+R3UChg+9U=",
+    "originContent": "# 免责声明 ❗  ",
+    "translatedContent": "## 本项目仅供大家作为研究、学习和交流AI与计算机视觉技术应用用途，承诺永久开源免费，严禁任何人直接或间接对项目进行二次开发、包装后进行售卖、宣传等非法用途，且使用本项目可能会违反游戏服务条款导致被封号等处罚，若使用本项目代码则视为你已知晓并同意以上信息，由此造成的一切后果由使用者自行承担，与作者无关。"
+  },
+  {
+    "row": 51,
+    "rowsha": "HuXAONe8o4YVQaQtLxeoxuHO+CGAZoo4Ccbq3a8heNs=",
+    "originContent": "## 本项目仅供大家作为研究、学习和交流AI与计算机视觉技术应用用途，承诺永久开源免费，严禁任何人直接或间接对项目进行二次开发、包装后进行售卖、宣传等非法用途，且使用本项目可能会违反游戏服务条款导致被封号等处罚，若使用本项目代码则视为你已知晓并同意以上信息，由此造成的一切后果由使用者自行承担，与作者无关。",
+    "translatedContent": ""
+  }
+]
