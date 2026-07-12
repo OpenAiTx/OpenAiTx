@@ -1,0 +1,611 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Ableton Live Extensions Experiments\n\n![Ableton Live Extensions](/images/Ableton-Extensions.png)\n\n🖥️ [Watch my introductory video on YouTube](https://www.youtube.com/watch?v=_izRiBGngGI)\n\n*Break what's expected. Make Live your own.* \n\nExtensions are a new way to enhance Live's capabilities with powerful tools that can speed up your workflow by automating repetitive tasks, sparkle or scramble new ideas and even more.\n\nThis repository is a collection of some of the extensions I've developed for you to try out, explore and edit. Most of them are just tests designed to check out the SDK's capabilities.\n\nYou can read more about Ableton Extensions here:\n\n* [Ableton.com](https://www.ableton.com/en/live/extensions)\n* [Extension SDK](https://ableton.github.io/extensions-sdk)\n* [Join Ableton's Discord](https://discord.gg/ableton) to discuss about extensions\n\n## Requirements\n\n* Ableton Live Suite 12.4.5 beta\n\n## Disclaimer\n\nI built most of these extensions with the help of *Claude Code* handling most of the heavy lifting on the code side. If that makes you uneasy or you're not on board with that approach, no worries at all. Either way, thanks a lot for taking the time to check it out.\n\nA big thank you to **Rain** and **Jackie** for helping me building the **Bird Game** extension and make it look so good. Thank you Glau [@glaurossi](https://github.com/glaurossi) for making **Doom** compatible with Windows. **Freesound Sampler** is developed in collaboration with feedback from Frederic Font Corbera [@ffont](https://github.com/ffont) the Freesound lead developer.\n\n---\n\n# Extensions\n\n| Name | Version | Description | Download | Source |\n|---|---|---|---|---|\n| Arrangement Helper | 0.0.8 | Builds structured arrangements with named, colored sections on a MIDI track. *⚠️ Please read the current known limitations in the extension's README file.* | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Arrangement-Helper-0.0.8.ablx) | [🏗️ Source](extensions/arrangement-helper) |\n| Basic Pitch ✨ | 1.0.3 | Converts audio clips to MIDI using Spotify's Basic Pitch neural network, fully offline (macOS & Windows) | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Basic-Pitch-1.0.3.ablx) | [🏗️ Source](extensions/spotify-basic-pitch) |\n| Bird Game | 1.1.0 | A just-for-fun game inspired by Flappy Bird that turns your run into a MIDI clip (macOS & Windows) | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/bird-game-1.1.0.ablx) | [🏗️ Source](extensions/bird-game) |\n| Chord Progression Helper | 0.5.1 | Builds chord progressions from any key and writes them as a MIDI clip | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Progression-Helper-0.5.1.ablx) | [🏗️ Source](extensions/chord-progression-helper) |\n| Chord Voicing Helper | 1.0.2 | Detects chords in a MIDI clip and lets you apply and preview voicing strategies | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Voicing-Helper-1.0.2.ablx) | [🏗️ Source](extensions/chord-voicings-helper) |\n| ChromaFlux | 0.0.7 | Randomizes Instrument Rack parameters with configurable mode and intensity | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/ChromaFlux-0.0.7.ablx) | [🏗️ Source](extensions/chroma-flux) |",
+    "ContentSha": "5bRcgo9nZeUt+shjcPLh3jqdLrCdz3cmwPEqQsva+90=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Ableton Live 扩展实验\n\n![Ableton Live 扩展](/images/Ableton-Extensions.png)\n\n🖥️ [观看我在 YouTube 上的介绍视频](https://www.youtube.com/watch?v=_izRiBGngGI)\n\n*打破常规。让 Live 成为你的专属工具。*\n\n扩展是一种通过强大工具增强 Live 功能的新方式，可以通过自动化重复任务来加快你的工作流程，激发或打乱新创意，甚至更多。\n\n本仓库收集了一些我为你开发的扩展，供你试用、探索和编辑。它们大多数只是用来测试 SDK 功能的实验。\n\n你可以在这里了解更多关于 Ableton 扩展的信息：\n\n* [Ableton.com](https://www.ableton.com/en/live/extensions)\n* [扩展 SDK](https://ableton.github.io/extensions-sdk)\n* [加入 Ableton 的 Discord](https://discord.gg/ableton) 讨论扩展相关话题\n\n## 要求\n\n* Ableton Live Suite 12.4.5 测试版\n\n## 免责声明\n\n这些扩展大部分是在 *Claude Code* 的帮助下开发的，他承担了代码部分的大量工作。如果这让你感到不安或者你不认同这种做法，完全没问题。无论如何，非常感谢你花时间来了解它们。\n\n特别感谢 **Rain** 和 **Jackie** 帮助我开发 **Bird Game** 扩展并让它看起来如此出色。感谢 Glau [@glaurossi](https://github.com/glaurossi) 让 **Doom** 支持 Windows。**Freesound Sampler** 是在 Freesound 主要开发者 Frederic Font Corbera [@ffont](https://github.com/ffont) 的反馈协助下开发的。\n\n---\n\n# 扩展\n\n| 名称 | 版本 | 描述 | 下载 | 源码 |\n|---|---|---|---|---|\n| Arrangement Helper | 0.0.8 | 在 MIDI 轨道上构建带有命名、着色区段的结构化编排。*⚠️ 请阅读扩展自述文件中的已知限制。* | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Arrangement-Helper-0.0.8.ablx) | [🏗️ 源码](extensions/arrangement-helper) |\n| Basic Pitch ✨ | 1.0.3 | 使用 Spotify 的 Basic Pitch 神经网络将音频片段转换为 MIDI，完全离线（macOS 和 Windows） | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Basic-Pitch-1.0.3.ablx) | [🏗️ 源码](extensions/spotify-basic-pitch) |\n| Bird Game | 1.1.0 | 一个灵感来自 Flappy Bird 的趣味游戏，将你的运行转换为 MIDI 片段（macOS 和 Windows） | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/bird-game-1.1.0.ablx) | [🏗️ 源码](extensions/bird-game) |\n| Chord Progression Helper | 0.5.1 | 从任意调构建和弦进程并写入 MIDI 片段 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Progression-Helper-0.5.1.ablx) | [🏗️ 源码](extensions/chord-progression-helper) |\n| Chord Voicing Helper | 1.0.2 | 检测 MIDI 片段中的和弦，允许你应用和预览和弦配音策略 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Voicing-Helper-1.0.2.ablx) | [🏗️ 源码](extensions/chord-voicings-helper) |\n| ChromaFlux | 0.0.7 | 使用可配置的模式和强度随机化乐器机架参数 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/ChromaFlux-0.0.7.ablx) | [🏗️ 源码](extensions/chroma-flux) |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QmJmKAABhxb5bXGpsjxjwKJNrgrscI08EK2HCYSnl/U=",
+        "originContent": "# Ableton Live Extensions Experiments",
+        "translatedContent": "# Ableton Live 扩展实验"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "NBqVa3c8arDgjljlulFNVokcirX+VG/bKwplSyRLT2E=",
+        "originContent": "![Ableton Live Extensions](/images/Ableton-Extensions.png)",
+        "translatedContent": "![Ableton Live 扩展](/images/Ableton-Extensions.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U0YbcmVpNd90n24vVQ/bBtkmsN/IN6G5Kl+xIIAMB6M=",
+        "originContent": "🖥️ [Watch my introductory video on YouTube](https://www.youtube.com/watch?v=_izRiBGngGI)",
+        "translatedContent": "🖥️ [观看我在 YouTube 上的介绍视频](https://www.youtube.com/watch?v=_izRiBGngGI)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+ecHsHQKXiPsGSDR4aiuV1anQTjibDjwkFtRDNePTYo=",
+        "originContent": "*Break what's expected. Make Live your own.* ",
+        "translatedContent": "*打破常规。让 Live 成为你的专属工具。*"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ZtT8nv/pmFXBin8xe6Ry5AeZmgaQMAhpidjf9dt34zU=",
+        "originContent": "Extensions are a new way to enhance Live's capabilities with powerful tools that can speed up your workflow by automating repetitive tasks, sparkle or scramble new ideas and even more.",
+        "translatedContent": "扩展是一种通过强大工具增强 Live 功能的新方式，可以通过自动化重复任务来加快你的工作流程，激发或打乱新创意，甚至更多。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZiZwb9sLoKdnNuF9NjMV1uCJ1CVx0XGkdRy0JEARTn8=",
+        "originContent": "This repository is a collection of some of the extensions I've developed for you to try out, explore and edit. Most of them are just tests designed to check out the SDK's capabilities.",
+        "translatedContent": "本仓库收集了一些我为你开发的扩展，供你试用、探索和编辑。它们大多数只是用来测试 SDK 功能的实验。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "5M1sNgJPYFqJNo6w6jCm3HxkSGDX8Z2OLe5WYqO4GiU=",
+        "originContent": "You can read more about Ableton Extensions here:",
+        "translatedContent": "你可以在这里了解更多关于 Ableton 扩展的信息："
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "wqVRASxrmhYG9QkFhAYW9GhLcjJDeWnVZbJxXrYzj64=",
+        "originContent": "* [Ableton.com](https://www.ableton.com/en/live/extensions)",
+        "translatedContent": "* [Ableton.com](https://www.ableton.com/en/live/extensions)"
+      },
+      {
+        "row": 16,
+        "rowsha": "7wGf9kIoN+/MqveDjINugS1KLBvJQhEDdkm4PAHPDd0=",
+        "originContent": "* [Extension SDK](https://ableton.github.io/extensions-sdk)",
+        "translatedContent": "* [扩展 SDK](https://ableton.github.io/extensions-sdk)"
+      },
+      {
+        "row": 17,
+        "rowsha": "0w3W36OYXjpIXktTWlWbuTfKqd7bZsgtjRpsC5MYYXk=",
+        "originContent": "* [Join Ableton's Discord](https://discord.gg/ableton) to discuss about extensions",
+        "translatedContent": "* [加入 Ableton 的 Discord](https://discord.gg/ableton) 讨论扩展相关话题"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 要求"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "J/oSvZ3SMaLZpRltNtkx5Jn0ATe2Og8+o5BdK63VdwY=",
+        "originContent": "* Ableton Live Suite 12.4.5 beta",
+        "translatedContent": "* Ableton Live Suite 12.4.5 测试版"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## 免责声明"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "+jqx6rM0QaVA1cwfPqi8yd3pHf+/ql64a91L+3RVlBA=",
+        "originContent": "I built most of these extensions with the help of *Claude Code* handling most of the heavy lifting on the code side. If that makes you uneasy or you're not on board with that approach, no worries at all. Either way, thanks a lot for taking the time to check it out.",
+        "translatedContent": "这些扩展大部分是在 *Claude Code* 的帮助下开发的，他承担了代码部分的大量工作。如果这让你感到不安或者你不认同这种做法，完全没问题。无论如何，非常感谢你花时间来了解它们。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "SNJ16GAzxKjTQNJ2HyUGKLtd8BZRXnDhmxlKtxIFbpY=",
+        "originContent": "A big thank you to **Rain** and **Jackie** for helping me building the **Bird Game** extension and make it look so good. Thank you Glau [@glaurossi](https://github.com/glaurossi) for making **Doom** compatible with Windows. **Freesound Sampler** is developed in collaboration with feedback from Frederic Font Corbera [@ffont](https://github.com/ffont) the Freesound lead developer.",
+        "translatedContent": "特别感谢 **Rain** 和 **Jackie** 帮助我开发 **Bird Game** 扩展并让它看起来如此出色。感谢 Glau [@glaurossi](https://github.com/glaurossi) 让 **Doom** 支持 Windows。**Freesound Sampler** 是在 Freesound 主要开发者 Frederic Font Corbera [@ffont](https://github.com/ffont) 的反馈协助下开发的。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "9vZ9qyAUbtZyIV6cR1jKVIn8KOlk8WhxuLUX5up6n78=",
+        "originContent": "# Extensions",
+        "translatedContent": "# 扩展"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "0Xe7NOWvoXCLSxab9TjF+LuwV0JR2+Qewt09NdF+FpA=",
+        "originContent": "| Name | Version | Description | Download | Source |",
+        "translatedContent": "| 名称 | 版本 | 描述 | 下载 | 源码 |"
+      },
+      {
+        "row": 34,
+        "rowsha": "Eq8A70vu0E6YMkp22XH5RBmpK3cxHPIWKQIONEm49Fc=",
+        "originContent": "|---|---|---|---|---|",
+        "translatedContent": "|---|---|---|---|---|"
+      },
+      {
+        "row": 35,
+        "rowsha": "IWpJAOwvZJkNCHH/qm6MYwpq2D/zY+/CK7TXH3+dBDQ=",
+        "originContent": "| Arrangement Helper | 0.0.8 | Builds structured arrangements with named, colored sections on a MIDI track. *⚠️ Please read the current known limitations in the extension's README file.* | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Arrangement-Helper-0.0.8.ablx) | [🏗️ Source](extensions/arrangement-helper) |",
+        "translatedContent": "| Arrangement Helper | 0.0.8 | 在 MIDI 轨道上构建带有命名、着色区段的结构化编排。*⚠️ 请阅读扩展自述文件中的已知限制。* | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Arrangement-Helper-0.0.8.ablx) | [🏗️ 源码](extensions/arrangement-helper) |"
+      },
+      {
+        "row": 36,
+        "rowsha": "Jzb/9E82GnTa8jPUPsGtBvX6Qak3ngz7SO0JxE73Ck4=",
+        "originContent": "| Basic Pitch ✨ | 1.0.3 | Converts audio clips to MIDI using Spotify's Basic Pitch neural network, fully offline (macOS & Windows) | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Basic-Pitch-1.0.3.ablx) | [🏗️ Source](extensions/spotify-basic-pitch) |",
+        "translatedContent": "| Basic Pitch ✨ | 1.0.3 | 使用 Spotify 的 Basic Pitch 神经网络将音频片段转换为 MIDI，完全离线（macOS 和 Windows） | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Basic-Pitch-1.0.3.ablx) | [🏗️ 源码](extensions/spotify-basic-pitch) |"
+      },
+      {
+        "row": 37,
+        "rowsha": "yfSQG+eEdnUYZBMJOFxz9PioZZRhstXvZna1I1zXnFc=",
+        "originContent": "| Bird Game | 1.1.0 | A just-for-fun game inspired by Flappy Bird that turns your run into a MIDI clip (macOS & Windows) | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/bird-game-1.1.0.ablx) | [🏗️ Source](extensions/bird-game) |",
+        "translatedContent": "| Bird Game | 1.1.0 | 一个灵感来自 Flappy Bird 的趣味游戏，将你的运行转换为 MIDI 片段（macOS 和 Windows） | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/bird-game-1.1.0.ablx) | [🏗️ 源码](extensions/bird-game) |"
+      },
+      {
+        "row": 38,
+        "rowsha": "VBFKP2Cwh83CbYC0QKkShvDQzvEOQ7HJa0fLTZErNec=",
+        "originContent": "| Chord Progression Helper | 0.5.1 | Builds chord progressions from any key and writes them as a MIDI clip | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Progression-Helper-0.5.1.ablx) | [🏗️ Source](extensions/chord-progression-helper) |",
+        "translatedContent": "| Chord Progression Helper | 0.5.1 | 从任意调构建和弦进程并写入 MIDI 片段 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Progression-Helper-0.5.1.ablx) | [🏗️ 源码](extensions/chord-progression-helper) |"
+      },
+      {
+        "row": 39,
+        "rowsha": "aTfdrXJwkMZNzxIz9B/R1sKC3r2krmHHBsiEIcuh/J8=",
+        "originContent": "| Chord Voicing Helper | 1.0.2 | Detects chords in a MIDI clip and lets you apply and preview voicing strategies | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Voicing-Helper-1.0.2.ablx) | [🏗️ Source](extensions/chord-voicings-helper) |",
+        "translatedContent": "| Chord Voicing Helper | 1.0.2 | 检测 MIDI 片段中的和弦，允许你应用和预览和弦配音策略 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Voicing-Helper-1.0.2.ablx) | [🏗️ 源码](extensions/chord-voicings-helper) |"
+      },
+      {
+        "row": 40,
+        "rowsha": "h8sMv4+qY20l6Y2Ku2TSg7vjgGvLW1ZRkp1lZ8snrgw=",
+        "originContent": "| ChromaFlux | 0.0.7 | Randomizes Instrument Rack parameters with configurable mode and intensity | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/ChromaFlux-0.0.7.ablx) | [🏗️ Source](extensions/chroma-flux) |",
+        "translatedContent": "| ChromaFlux | 0.0.7 | 使用可配置的模式和强度随机化乐器机架参数 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/ChromaFlux-0.0.7.ablx) | [🏗️ 源码](extensions/chroma-flux) |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "| Doom | 1.0.0 | Runs the original DOOM Shareware (1993) fully offline inside Ableton Live (macOS & Windows) | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Doom-1.0.0.ablx) | [🏗️ Source](extensions/doom) |\n| Duplicate Track | 0.0.7 | Duplicates a track without copying its clips | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Duplicate-Track-0.0.7.ablx) | [🏗️ Source](extensions/duplicate-track) |\n| Freesound Sampler | 1.1.3 | Searches Freesound.org and downloads sounds directly into your tracks | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Freesound-Sampler-1.1.3.ablx) | [🏗️ Source](extensions/freesound-sampler) |\n| Session to Arrangement Bridge | 0.0.8 | Transfers all Session View clips into Arrangement View with full fidelity. *⚠️ Please read the current known limitations in the extension's README file.* | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Session-to-Arrangement-Bridge-0.0.8.ablx) | [🏗️ Source](extensions/session-arrangement-bridge) |\n| Snake | 0.0.7 | Play Snake inside Live and turn your gameplay into a MIDI clip | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Snake-0.0.7.ablx) | [🏗️ Source](extensions/snake) |\n| Track Creator | 0.0.6 | Creates multiple audio or MIDI tracks at once from a simple dialog | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Track-Creator-0.0.6.ablx) | [🏗️ Source](extensions/track-creator) |\n| Transpose Clips | 0.1.0 | Transposes every MIDI clip in the Live Set by a chosen number of semitones | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Transpose-Clips-0.1.0.ablx) | [🏗️ Source](extensions/transposer) |\n\n✨ *Most recently updated*\n\n---\n\n# Changelog\n\n## June 28, 2026\n\n### Basic Pitch 1.0.3\n- **Indeterminate progress bar** — During transcription the progress bar now animates in indeterminate mode instead of freezing. TF.js CPU inference is synchronous and blocks Node's single thread, so a fixed percentage could not update until inference finished.\n\n## June 15, 2026\n\n### Freesound Sampler 1.1.3\n- **Inspire Me** — Click **Inspire Me** to pick a random search term and instantly discover unexpected sounds\n- **OAuth login** - Improved workflow. Removed API Key field.\n\n## June 12, 2026\n\n### Freesound Sampler 1.0.0\n- **OAuth login** — Log in with your Freesound account directly from the extension; no manual API key needed\n- **Original quality downloads** — When logged in, sounds are downloaded in their original format (WAV, FLAC, AIFF, …) instead of MP3 previews\n- **Attribution helper** — The Attributions view lists imported sounds with a one-click copy for crediting creators\n- **Advanced search filters** — Filter by timbre descriptors (brightness, warmth, roughness, etc.), key, BPM, duration, license, and more\n\n## June 9, 2026\n\n### Bird Game 1.1.0\n- **Windows support** — Now runs on both macOS and Windows\n\n### Doom 1.0.0\n- **Windows support** — Now runs on both macOS and Windows (thanks to Glau [@glaurossi](https://github.com/glaurossi))",
+    "ContentSha": "0je19dqg7GCMzk9ZN3hJbLXXg/Gt+lQwpcyWSbws+q4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| Doom | 1.0.0 | 在 Ableton Live（macOS 和 Windows）中完全离线运行原版 DOOM 试玩版（1993） | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Doom-1.0.0.ablx) | [🏗️ 源码](extensions/doom) |\n| Duplicate Track | 0.0.7 | 复制轨道但不复制其剪辑 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Duplicate-Track-0.0.7.ablx) | [🏗️ 源码](extensions/duplicate-track) |\n| Freesound Sampler | 1.1.3 | 搜索 Freesound.org 并直接将声音下载到你的轨道中 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Freesound-Sampler-1.1.3.ablx) | [🏗️ 源码](extensions/freesound-sampler) |\n| Session to Arrangement Bridge | 0.0.8 | 将所有 Session 视图剪辑以完全保真度传输到 Arrangement 视图。*⚠️ 请阅读扩展的 README 文件中的当前已知限制。* | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Session-to-Arrangement-Bridge-0.0.8.ablx) | [🏗️ 源码](extensions/session-arrangement-bridge) |\n| Snake | 0.0.7 | 在 Live 内玩贪吃蛇，并将你的游戏过程转换为 MIDI 剪辑 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Snake-0.0.7.ablx) | [🏗️ 源码](extensions/snake) |\n| Track Creator | 0.0.6 | 通过简单对话框一次创建多个音频或 MIDI 轨道 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Track-Creator-0.0.6.ablx) | [🏗️ 源码](extensions/track-creator) |\n| Transpose Clips | 0.1.0 | 将 Live 集合中每个 MIDI 剪辑升降指定半音数 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Transpose-Clips-0.1.0.ablx) | [🏗️ 源码](extensions/transposer) |\n\n✨ *最近更新*\n\n---\n\n# 更新日志\n\n## 2026年6月28日\n\n### Basic Pitch 1.0.3\n- **不确定进度条** — 转录期间进度条现在以不确定模式动画显示，而不是冻结。TF.js CPU 推理是同步的，会阻塞 Node 的单线程，因此固定百分比在推理完成前无法更新。\n\n## 2026年6月15日\n\n### Freesound Sampler 1.1.3\n- **启发我** — 点击 **启发我** 选择随机搜索词，立即发现意想不到的声音\n- **OAuth 登录** — 改进流程。移除 API 密钥字段。\n\n## 2026年6月12日\n\n### Freesound Sampler 1.0.0\n- **OAuth 登录** — 可直接通过扩展使用 Freesound 账号登录，无需手动填写 API 密钥\n- **原始质量下载** — 登录后，声音以其原始格式（WAV、FLAC、AIFF 等）下载，而非 MP3 预览\n- **归属助手** — 归属视图列出导入的声音，一键复制以便致谢创作者\n- **高级搜索过滤器** — 可按音色描述（明亮度、温暖度、粗糙度等）、调性、BPM、时长、许可证等过滤\n\n## 2026年6月9日\n\n### Bird Game 1.1.0\n- **Windows 支持** — 现支持 macOS 和 Windows 双平台\n\n### Doom 1.0.0\n- **Windows 支持** — 现支持 macOS 和 Windows 双平台（感谢 Glau [@glaurossi](https://github.com/glaurossi)）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Z5kPqn1mPF5eTds/uLHstpPmPqDQErydEWjbpBl1qLE=",
+        "originContent": "| Doom | 1.0.0 | Runs the original DOOM Shareware (1993) fully offline inside Ableton Live (macOS & Windows) | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Doom-1.0.0.ablx) | [🏗️ Source](extensions/doom) |",
+        "translatedContent": "| Doom | 1.0.0 | 在 Ableton Live（macOS 和 Windows）中完全离线运行原版 DOOM 试玩版（1993） | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Doom-1.0.0.ablx) | [🏗️ 源码](extensions/doom) |"
+      },
+      {
+        "row": 2,
+        "rowsha": "MMjKB6vd9X9/mlTPISfF28rSSDfAX1LT6R5EwbMLnQU=",
+        "originContent": "| Duplicate Track | 0.0.7 | Duplicates a track without copying its clips | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Duplicate-Track-0.0.7.ablx) | [🏗️ Source](extensions/duplicate-track) |",
+        "translatedContent": "| Duplicate Track | 0.0.7 | 复制轨道但不复制其剪辑 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Duplicate-Track-0.0.7.ablx) | [🏗️ 源码](extensions/duplicate-track) |"
+      },
+      {
+        "row": 3,
+        "rowsha": "GpqJPTM5KWPebd1KtghavjX+ZE+k6WIr1yQaQwnoVs8=",
+        "originContent": "| Freesound Sampler | 1.1.3 | Searches Freesound.org and downloads sounds directly into your tracks | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Freesound-Sampler-1.1.3.ablx) | [🏗️ Source](extensions/freesound-sampler) |",
+        "translatedContent": "| Freesound Sampler | 1.1.3 | 搜索 Freesound.org 并直接将声音下载到你的轨道中 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Freesound-Sampler-1.1.3.ablx) | [🏗️ 源码](extensions/freesound-sampler) |"
+      },
+      {
+        "row": 4,
+        "rowsha": "kFSl1r9015qZtikEt5ZSH8WINoRzP7Tz6gecHmipwWA=",
+        "originContent": "| Session to Arrangement Bridge | 0.0.8 | Transfers all Session View clips into Arrangement View with full fidelity. *⚠️ Please read the current known limitations in the extension's README file.* | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Session-to-Arrangement-Bridge-0.0.8.ablx) | [🏗️ Source](extensions/session-arrangement-bridge) |",
+        "translatedContent": "| Session to Arrangement Bridge | 0.0.8 | 将所有 Session 视图剪辑以完全保真度传输到 Arrangement 视图。*⚠️ 请阅读扩展的 README 文件中的当前已知限制。* | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Session-to-Arrangement-Bridge-0.0.8.ablx) | [🏗️ 源码](extensions/session-arrangement-bridge) |"
+      },
+      {
+        "row": 5,
+        "rowsha": "0kssV4x/br//dCKPkMXD8dAKRfnGlkJ+JqWq3AZY5Ys=",
+        "originContent": "| Snake | 0.0.7 | Play Snake inside Live and turn your gameplay into a MIDI clip | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Snake-0.0.7.ablx) | [🏗️ Source](extensions/snake) |",
+        "translatedContent": "| Snake | 0.0.7 | 在 Live 内玩贪吃蛇，并将你的游戏过程转换为 MIDI 剪辑 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Snake-0.0.7.ablx) | [🏗️ 源码](extensions/snake) |"
+      },
+      {
+        "row": 6,
+        "rowsha": "IvouwC7NwfIyTMtVN3v6TTxIVqAQgNNnzbhWnkS3zCI=",
+        "originContent": "| Track Creator | 0.0.6 | Creates multiple audio or MIDI tracks at once from a simple dialog | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Track-Creator-0.0.6.ablx) | [🏗️ Source](extensions/track-creator) |",
+        "translatedContent": "| Track Creator | 0.0.6 | 通过简单对话框一次创建多个音频或 MIDI 轨道 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Track-Creator-0.0.6.ablx) | [🏗️ 源码](extensions/track-creator) |"
+      },
+      {
+        "row": 7,
+        "rowsha": "BQ+XT2+nWicpjKu2pZvxv5HOyeY+mnjqlJpbsGdLgd4=",
+        "originContent": "| Transpose Clips | 0.1.0 | Transposes every MIDI clip in the Live Set by a chosen number of semitones | [⬇️ Download](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Transpose-Clips-0.1.0.ablx) | [🏗️ Source](extensions/transposer) |",
+        "translatedContent": "| Transpose Clips | 0.1.0 | 将 Live 集合中每个 MIDI 剪辑升降指定半音数 | [⬇️ 下载](https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Transpose-Clips-0.1.0.ablx) | [🏗️ 源码](extensions/transposer) |"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "NOKJIZLQjnjwBO/DnKI2nhjpKMhUSV777uBsB3dog6M=",
+        "originContent": "✨ *Most recently updated*",
+        "translatedContent": "✨ *最近更新*"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "S/i4H/nAMCEyoHF1iXRPMNASfMHr6aMqoIpMD6Ykc3o=",
+        "originContent": "# Changelog",
+        "translatedContent": "# 更新日志"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "LceSn/V9aCCO74PkiHlbSodCm9OS2q2dTRaD3gQIa0k=",
+        "originContent": "## June 28, 2026",
+        "translatedContent": "## 2026年6月28日"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "kGcc6eYGbhcI7mhtBkXXDKEDjvwKZq/sI7Hncc5YQqs=",
+        "originContent": "### Basic Pitch 1.0.3",
+        "translatedContent": "### Basic Pitch 1.0.3"
+      },
+      {
+        "row": 18,
+        "rowsha": "RSDUfXOvHVyy5vzdjPeekEwX1zGI2BrYrYhlfOzzMG8=",
+        "originContent": "- **Indeterminate progress bar** — During transcription the progress bar now animates in indeterminate mode instead of freezing. TF.js CPU inference is synchronous and blocks Node's single thread, so a fixed percentage could not update until inference finished.",
+        "translatedContent": "- **不确定进度条** — 转录期间进度条现在以不确定模式动画显示，而不是冻结。TF.js CPU 推理是同步的，会阻塞 Node 的单线程，因此固定百分比在推理完成前无法更新。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Q0+wX4r7jr8puWj4SB4SHnjXKagga9TzHcI9uPo1DJQ=",
+        "originContent": "## June 15, 2026",
+        "translatedContent": "## 2026年6月15日"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "hQ/2O7O+NtGs6dOUcfbD/jZhFMp7hYMKz04O9eZ3RMc=",
+        "originContent": "### Freesound Sampler 1.1.3",
+        "translatedContent": "### Freesound Sampler 1.1.3"
+      },
+      {
+        "row": 23,
+        "rowsha": "KsbXMIc8l2SRaB+m9Mq/Vgnq1Ii9RYln2T1lYn5PsfA=",
+        "originContent": "- **Inspire Me** — Click **Inspire Me** to pick a random search term and instantly discover unexpected sounds",
+        "translatedContent": "- **启发我** — 点击 **启发我** 选择随机搜索词，立即发现意想不到的声音"
+      },
+      {
+        "row": 24,
+        "rowsha": "IyboG+1d/DUX4oSl+Vpw4PV3cxG7bk681i6KVEEpENc=",
+        "originContent": "- **OAuth login** - Improved workflow. Removed API Key field.",
+        "translatedContent": "- **OAuth 登录** — 改进流程。移除 API 密钥字段。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "QWN4YuTow1HMOGSJ+sEN6rkm0p0lZa7vw0i3KAUb9XM=",
+        "originContent": "## June 12, 2026",
+        "translatedContent": "## 2026年6月12日"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "TGoqgAh/k/+mrWxNF87/6JG7TPDaYkvjax+4Hv087Sc=",
+        "originContent": "### Freesound Sampler 1.0.0",
+        "translatedContent": "### Freesound Sampler 1.0.0"
+      },
+      {
+        "row": 29,
+        "rowsha": "rAKMTsmfeNnKhKdNst7vYKLjNDOOco55AjIOtF82Mp0=",
+        "originContent": "- **OAuth login** — Log in with your Freesound account directly from the extension; no manual API key needed",
+        "translatedContent": "- **OAuth 登录** — 可直接通过扩展使用 Freesound 账号登录，无需手动填写 API 密钥"
+      },
+      {
+        "row": 30,
+        "rowsha": "ds1bhOn8oFmFhYA8j2KT5p2TRTvU68bIx5nV3bpO8HI=",
+        "originContent": "- **Original quality downloads** — When logged in, sounds are downloaded in their original format (WAV, FLAC, AIFF, …) instead of MP3 previews",
+        "translatedContent": "- **原始质量下载** — 登录后，声音以其原始格式（WAV、FLAC、AIFF 等）下载，而非 MP3 预览"
+      },
+      {
+        "row": 31,
+        "rowsha": "///g7VUXu1U+Hs1i8VG7ordQrmfNZ03TCQ1z5n0xMBA=",
+        "originContent": "- **Attribution helper** — The Attributions view lists imported sounds with a one-click copy for crediting creators",
+        "translatedContent": "- **归属助手** — 归属视图列出导入的声音，一键复制以便致谢创作者"
+      },
+      {
+        "row": 32,
+        "rowsha": "FYVNdJ6kjz6Xujtu19eSk+60jEdEfPacaTS2HYjc15s=",
+        "originContent": "- **Advanced search filters** — Filter by timbre descriptors (brightness, warmth, roughness, etc.), key, BPM, duration, license, and more",
+        "translatedContent": "- **高级搜索过滤器** — 可按音色描述（明亮度、温暖度、粗糙度等）、调性、BPM、时长、许可证等过滤"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "WAUkbrBpkRfUg2QqneA4a6O6p47agfmCpOSM/mGcX/A=",
+        "originContent": "## June 9, 2026",
+        "translatedContent": "## 2026年6月9日"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "BHeqLm6rLMir+CjETJBunWP9xQrFFANK1P/eWTIq/i0=",
+        "originContent": "### Bird Game 1.1.0",
+        "translatedContent": "### Bird Game 1.1.0"
+      },
+      {
+        "row": 37,
+        "rowsha": "x96TyQWGj8MahhHYZOgdjdX+7zkfBl3/82XjSkYs1YE=",
+        "originContent": "- **Windows support** — Now runs on both macOS and Windows",
+        "translatedContent": "- **Windows 支持** — 现支持 macOS 和 Windows 双平台"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "3wQhLUk8W/iXVoGXVc07L7FBEFxtqAKGGIDI/PFXdW8=",
+        "originContent": "### Doom 1.0.0",
+        "translatedContent": "### Doom 1.0.0"
+      },
+      {
+        "row": 40,
+        "rowsha": "7zzTWyV/5p2qX2hEkMu8zMo3Zu/typoQcHSEpk0zugU=",
+        "originContent": "- **Windows support** — Now runs on both macOS and Windows (thanks to Glau [@glaurossi](https://github.com/glaurossi))",
+        "translatedContent": "- **Windows 支持** — 现支持 macOS 和 Windows 双平台（感谢 Glau [@glaurossi](https://github.com/glaurossi)）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "- **Fully offline** — All game assets bundled; no internet connection required\n\n## June 7, 2026\n\n### Basic Pitch 1.0.0\n- **Windows support** — Full cross-platform support (macOS & Windows) thanks to [@jwfeniello](https://github.com/jwfeniello)\n- **Bundled model** — ML model runs entirely locally; no data leaves your machine\n- **Stability fixes** — Fixed host crash and handling of compressed audio samples\n\n## June 1, 2026\n\n### Initial public release\n- **Bird Game 1.0.0** — Flappy Bird-inspired game that turns your run into a MIDI clip\n- **Doom** — Original DOOM Shareware (1993) running inside Ableton Live, migrated to the new SDK\n- **Arrangement Helper**, **Basic Pitch**, **Chord Progression Helper**, **Chord Voicing Helper**, **ChromaFlux**, **Duplicate Track**, **Freesound Sampler**, **Session to Arrangement Bridge**, **Snake**, **Track Creator**, **Transpose Clips** — first public versions",
+    "ContentSha": "00eS2NZVpLss4n+Ob8JzN1fdD2OS3NT4cRn7LvEtJWk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **完全离线** — 所有游戏资源打包，无需互联网连接\n\n## 2026年6月7日\n\n### Basic Pitch 1.0.0\n- **支持Windows** — 得益于[@jwfeniello](https://github.com/jwfeniello)的贡献，实现了完整的跨平台支持（macOS和Windows）\n- **内置模型** — 机器学习模型完全本地运行，数据不离开您的设备\n- **稳定性修复** — 修复了主机崩溃及压缩音频样本的处理问题\n\n## 2026年6月1日\n\n### 首次公开发布\n- **Bird Game 1.0.0** — 受Flappy Bird启发的游戏，将您的跑动转换为MIDI片段\n- **Doom** — 原版DOOM共享版（1993）在Ableton Live内运行，迁移至新SDK\n- **Arrangement Helper**、**Basic Pitch**、**Chord Progression Helper**、**Chord Voicing Helper**、**ChromaFlux**、**Duplicate Track**、**Freesound Sampler**、**Session to Arrangement Bridge**、**Snake**、**Track Creator**、**Transpose Clips** — 首个公开版本",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/nfWJ3kKBwfko/reb0GvicoTRF5i3QsjA98pD2CVBNE=",
+        "originContent": "- **Fully offline** — All game assets bundled; no internet connection required",
+        "translatedContent": "- **完全离线** — 所有游戏资源打包，无需互联网连接"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "oR81BpC2lBYiWIRWbjmKcdS30efu6VkUtLfM6Ao4iqo=",
+        "originContent": "## June 7, 2026",
+        "translatedContent": "## 2026年6月7日"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "u8O/G6iZMm2VfW2zpOQf60byzDLytV6y8LRzoxmBVrs=",
+        "originContent": "### Basic Pitch 1.0.0",
+        "translatedContent": "### Basic Pitch 1.0.0"
+      },
+      {
+        "row": 6,
+        "rowsha": "vUyUgYhammjMcF5Db2btkLFoJ05XOAXCxk69MevmQh0=",
+        "originContent": "- **Windows support** — Full cross-platform support (macOS & Windows) thanks to [@jwfeniello](https://github.com/jwfeniello)",
+        "translatedContent": "- **支持Windows** — 得益于[@jwfeniello](https://github.com/jwfeniello)的贡献，实现了完整的跨平台支持（macOS和Windows）"
+      },
+      {
+        "row": 7,
+        "rowsha": "9Ifm1T9wC/eiWTBDHE0SXx5fjrY0/OlP+jf2M90mm4E=",
+        "originContent": "- **Bundled model** — ML model runs entirely locally; no data leaves your machine",
+        "translatedContent": "- **内置模型** — 机器学习模型完全本地运行，数据不离开您的设备"
+      },
+      {
+        "row": 8,
+        "rowsha": "TeLPTTl24AktMNvtvppzBtQL5xkisfPn0KZOKxODq1E=",
+        "originContent": "- **Stability fixes** — Fixed host crash and handling of compressed audio samples",
+        "translatedContent": "- **稳定性修复** — 修复了主机崩溃及压缩音频样本的处理问题"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LIdNbQnVGXOQhxYuHH5EO3D/nqUdUfgSLBJ5IgIVC+g=",
+        "originContent": "## June 1, 2026",
+        "translatedContent": "## 2026年6月1日"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "7nTqrm3w4ZvOEwTTi0+tY0WldTwavsainWbVjnKEwTU=",
+        "originContent": "### Initial public release",
+        "translatedContent": "### 首次公开发布"
+      },
+      {
+        "row": 13,
+        "rowsha": "w/1HSeLKmKAozpJJaTmYKLKx1bk+L/n4A5vIOgFpu60=",
+        "originContent": "- **Bird Game 1.0.0** — Flappy Bird-inspired game that turns your run into a MIDI clip",
+        "translatedContent": "- **Bird Game 1.0.0** — 受Flappy Bird启发的游戏，将您的跑动转换为MIDI片段"
+      },
+      {
+        "row": 14,
+        "rowsha": "QAL6CMDwvHK2ZuECyK1h2+jJ/TCNcvBYLToJ8Mr8a4s=",
+        "originContent": "- **Doom** — Original DOOM Shareware (1993) running inside Ableton Live, migrated to the new SDK",
+        "translatedContent": "- **Doom** — 原版DOOM共享版（1993）在Ableton Live内运行，迁移至新SDK"
+      },
+      {
+        "row": 15,
+        "rowsha": "SPgJUKU4dGNRDJQzrv2FU8PL4qDRRM133SYOy8Sa8g0=",
+        "originContent": "- **Arrangement Helper**, **Basic Pitch**, **Chord Progression Helper**, **Chord Voicing Helper**, **ChromaFlux**, **Duplicate Track**, **Freesound Sampler**, **Session to Arrangement Bridge**, **Snake**, **Track Creator**, **Transpose Clips** — first public versions",
+        "translatedContent": "- **Arrangement Helper**、**Basic Pitch**、**Chord Progression Helper**、**Chord Voicing Helper**、**ChromaFlux**、**Duplicate Track**、**Freesound Sampler**、**Session to Arrangement Bridge**、**Snake**、**Track Creator**、**Transpose Clips** — 首个公开版本"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
