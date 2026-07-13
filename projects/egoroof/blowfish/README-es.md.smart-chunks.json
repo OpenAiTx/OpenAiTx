@@ -1,0 +1,767 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Blowfish\n\n[![npm package][npm-badge]][npm]\n\n[npm-badge]: https://img.shields.io/npm/v/egoroof-blowfish.svg?style=flat-square\n[npm]: https://www.npmjs.com/package/egoroof-blowfish\n\n[Blowfish](<https://en.wikipedia.org/wiki/Blowfish_(cipher)>) encryption library for browsers and Node.js.\n\nFind the changelog in [CHANGELOG.md](https://github.com/egoroof/blowfish/blob/master/CHANGELOG.md)\n\n## Table of Contents\n\n- [Installation](#installation)\n  - [JS modules](#js-modules)\n- [Usage](#usage)\n  - [Example](#example)\n  - [Block cipher mode of operation](#block-cipher-mode-of-operation)\n  - [Padding](#padding)\n  - [Return type](#return-type)\n\n## Installation\n\nTake latest version [here](https://unpkg.com/egoroof-blowfish) or with npm:\n",
+    "ContentSha": "J60pWXRLmriJtheUyuKIPLP9+oTAfAiS6ei7b2kLO4Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Blowfish\n\n[![npm package][npm-badge]][npm]\n\n[npm-badge]: https://img.shields.io/npm/v/egoroof-blowfish.svg?style=flat-square\n[npm]: https://www.npmjs.com/package/egoroof-blowfish\n\nBiblioteca de encriptación [Blowfish](<https://en.wikipedia.org/wiki/Blowfish_(cipher)>) para navegadores y Node.js.\n\nEncuentra el registro de cambios en [CHANGELOG.md](https://github.com/egoroof/blowfish/blob/master/CHANGELOG.md)\n\n## Tabla de Contenidos\n\n- [Instalación](#installation)\n  - [Módulos JS](#js-modules)\n- [Uso](#usage)\n  - [Ejemplo](#example)\n  - [Modo de operación del cifrado por bloques](#block-cipher-mode-of-operation)\n  - [Relleno](#padding)\n  - [Tipo de retorno](#return-type)\n\n## Instalación\n\nObtén la última versión [aquí](https://unpkg.com/egoroof-blowfish) o con npm:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "npbzrH3dJW++gyuXx7G9MQi1noyr6dopldwafumbGWM=",
+        "originContent": "# Blowfish",
+        "translatedContent": "# Blowfish"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "r6vOS8egG3Pj8plHuSFtZQIKAzD3awI25DPDr0H1fhc=",
+        "originContent": "[![npm package][npm-badge]][npm]",
+        "translatedContent": "[![npm package][npm-badge]][npm]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "cbgTPsj62ChT598AviBi2LrrxHXUTMZZs3MJAe6egsA=",
+        "originContent": "[npm-badge]: https://img.shields.io/npm/v/egoroof-blowfish.svg?style=flat-square",
+        "translatedContent": "[npm-badge]: https://img.shields.io/npm/v/egoroof-blowfish.svg?style=flat-square"
+      },
+      {
+        "row": 6,
+        "rowsha": "BdIS9AUo6Md4OplLfd9DzOkCm/PJQc2u/CKogG1JUkE=",
+        "originContent": "[npm]: https://www.npmjs.com/package/egoroof-blowfish",
+        "translatedContent": "[npm]: https://www.npmjs.com/package/egoroof-blowfish"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "gi94us173GmVHnovGWN5F1HQQhfBAEauc8SNWHnDy4g=",
+        "originContent": "[Blowfish](<https://en.wikipedia.org/wiki/Blowfish_(cipher)>) encryption library for browsers and Node.js.",
+        "translatedContent": "Biblioteca de encriptación [Blowfish](<https://en.wikipedia.org/wiki/Blowfish_(cipher)>) para navegadores y Node.js."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "QYxmn91haVr7SPAsFkzsZZkTF+8bQgYzZmoNrHCp8cA=",
+        "originContent": "Find the changelog in [CHANGELOG.md](https://github.com/egoroof/blowfish/blob/master/CHANGELOG.md)",
+        "translatedContent": "Encuentra el registro de cambios en [CHANGELOG.md](https://github.com/egoroof/blowfish/blob/master/CHANGELOG.md)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Tabla de Contenidos"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+        "originContent": "- [Installation](#installation)",
+        "translatedContent": "- [Instalación](#installation)"
+      },
+      {
+        "row": 15,
+        "rowsha": "mjlue9LTrF8gr7yGtdClkXM6anjWowmpQc3PkqzR6wY=",
+        "originContent": "  - [JS modules](#js-modules)",
+        "translatedContent": "  - [Módulos JS](#js-modules)"
+      },
+      {
+        "row": 16,
+        "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+        "originContent": "- [Usage](#usage)",
+        "translatedContent": "- [Uso](#usage)"
+      },
+      {
+        "row": 17,
+        "rowsha": "LVXJ9J/K42kzaELLyzUMuJV/T2x6QzUJi0LfnI+A34M=",
+        "originContent": "  - [Example](#example)",
+        "translatedContent": "  - [Ejemplo](#example)"
+      },
+      {
+        "row": 18,
+        "rowsha": "DKWqPis+WXAAbNNJzH62hpX1EOXuTghCgH4lqOPNSx8=",
+        "originContent": "  - [Block cipher mode of operation](#block-cipher-mode-of-operation)",
+        "translatedContent": "  - [Modo de operación del cifrado por bloques](#block-cipher-mode-of-operation)"
+      },
+      {
+        "row": 19,
+        "rowsha": "plLueMmZ0jRFEEzq4+F/HXwrKlZZJ5OnaxIhkPGgOUk=",
+        "originContent": "  - [Padding](#padding)",
+        "translatedContent": "  - [Relleno](#padding)"
+      },
+      {
+        "row": 20,
+        "rowsha": "neiKJf88MQOpF8zzZGavHyy7CRkAOarozPTyRI5uBoM=",
+        "originContent": "  - [Return type](#return-type)",
+        "translatedContent": "  - [Tipo de retorno](#return-type)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ogH9EJmcqckkJWpd0gU0cLwQQi2zedLh0myzPdv1Qew=",
+        "originContent": "Take latest version [here](https://unpkg.com/egoroof-blowfish) or with npm:",
+        "translatedContent": "Obtén la última versión [aquí](https://unpkg.com/egoroof-blowfish) o con npm:"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nnpm install egoroof-blowfish --save\n```",
+    "ContentSha": "uiHDxTKmzNEPq/EAiFTysMpILOD7DOxQlx3HKpiHoXU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm install egoroof-blowfish --save\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "GfAjpp2MV7b8VJ4n4wIu8EImiV/7CWr73JJVdVXZcvw=",
+        "originContent": "npm install egoroof-blowfish --save",
+        "translatedContent": "npm install egoroof-blowfish --save"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### JS modules\n\nThe library is only deployed in [native JS modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), so in browsers you have to use `script` with type `module`:\n",
+    "ContentSha": "lojlHsjhiVItsUysOH0OrfrccPMiW1uC/YbZ4wezRl0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Módulos JS\n\nLa biblioteca solo se implementa en [módulos JS nativos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), por lo que en los navegadores debes usar `script` con tipo `module`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "elWYGSwIJRAq2Mmb1LE7BwqREbs414iN0MCpSI89fHg=",
+        "originContent": "### JS modules",
+        "translatedContent": "### Módulos JS"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "q3zu+tUmoR9XTe39mTiHuVSHiiE6KZdZDN5CJpS669Q=",
+        "originContent": "The library is only deployed in [native JS modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), so in browsers you have to use `script` with type `module`:",
+        "translatedContent": "La biblioteca solo se implementa en [módulos JS nativos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), por lo que en los navegadores debes usar `script` con tipo `module`:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```html\n<script type=\"module\">\n  import { Blowfish } from 'https://your-host/blowfish.mjs';\n  // your code here..\n</script>\n```",
+    "ContentSha": "sjbpO+srCw1yTan2daBGYhEQMcN2i0jM7/3D5IyPC00=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<script type=\"module\">\n  import { Blowfish } from 'https://your-host/blowfish.mjs';\n  // your code here..\n</script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "5pIArgxzE+Pg55It5mWgJ9NvVr5c/fX0DHBjsM4MQio=",
+        "originContent": "<script type=\"module\">",
+        "translatedContent": "<script type=\"module\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "p6QBTTdcJeTl+VlEuoE3yrOZsws8DsdICKNvQnLPH24=",
+        "originContent": "  import { Blowfish } from 'https://your-host/blowfish.mjs';",
+        "translatedContent": "  import { Blowfish } from 'https://your-host/blowfish.mjs';"
+      },
+      {
+        "row": 4,
+        "rowsha": "1TNy4i2gVjV2aFtdK4IMSXL6bi1F4A6H9pbH/ruN60k=",
+        "originContent": "  // your code here..",
+        "translatedContent": "  // your code here.."
+      },
+      {
+        "row": 5,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOr bundle the library to your code.\n\nIn Nodejs it imports easily:\n",
+    "ContentSha": "1f3gm3nhX8OXQO1Uo7Bwfm1OAR1EEicuWOPch4d9pPA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "O agrupe la biblioteca con su código.\n\nEn Nodejs se importa fácilmente:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "O agrupe la biblioteca con su código."
+      },
+      {
+        "row": 2,
+        "rowsha": "f78xXx4PMD7Oqj3Did+fUSEcdlOr8cz3L/DfDiWbgCo=",
+        "originContent": "Or bundle the library to your code.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "En Nodejs se importa fácilmente:"
+      },
+      {
+        "row": 4,
+        "rowsha": "KC/zkjf6mpwKkvPdY2CLv2dTAGepHxf4hdVtYtzXTeY=",
+        "originContent": "In Nodejs it imports easily:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```js\nimport { Blowfish } from 'egoroof-blowfish';\n```",
+    "ContentSha": "UrqfJVVtH4qEP+iVxI7vqpehdMy6UF39h6Wo5SVWdV8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport { Blowfish } from 'egoroof-blowfish';\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "2uTOpa/nHt6oQAAvW3EKC6AjNO2G8X/6s4dQb/AraQs=",
+        "originContent": "import { Blowfish } from 'egoroof-blowfish';",
+        "translatedContent": "import { Blowfish } from 'egoroof-blowfish';"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Usage\n\nAll input data including key, IV, plaintext and ciphertext should be a `String` or `ArrayBuffer` / `Buffer`.\nStrings support all unicode including emoji ✨.\n\n### Example\n",
+    "ContentSha": "tB2dShdyDuOx1fWX6xyGBK5R5SXpSvshDlp0y+sN87k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Uso\n\nTodos los datos de entrada, incluyendo la clave, IV, texto plano y texto cifrado, deben ser un `String` o `ArrayBuffer` / `Buffer`.\nLos strings soportan todo unicode incluyendo emoji ✨.\n\n### Ejemplo\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "uYm5Cv10xm2dfkkBTJVGXYRn5Zf+rqoJELZM73bAsj0=",
+        "originContent": "All input data including key, IV, plaintext and ciphertext should be a `String` or `ArrayBuffer` / `Buffer`.",
+        "translatedContent": "Todos los datos de entrada, incluyendo la clave, IV, texto plano y texto cifrado, deben ser un `String` o `ArrayBuffer` / `Buffer`."
+      },
+      {
+        "row": 5,
+        "rowsha": "OKx05mAuXx1dgS51gE/4NMBMD3Iqs16naVJI2rszFtk=",
+        "originContent": "Strings support all unicode including emoji ✨.",
+        "translatedContent": "Los strings soportan todo unicode incluyendo emoji ✨."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ubVEm05cwr9zkNMJhipJo9vwQDDsclfTaTISW9TgglY=",
+        "originContent": "### Example",
+        "translatedContent": "### Ejemplo"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```js\nimport { Blowfish } from 'egoroof-blowfish';\n\nconst bf = new Blowfish('super key', Blowfish.MODE.ECB, Blowfish.PADDING.NULL); // only key isn't optional\nbf.setIv('abcdefgh'); // optional for ECB mode; bytes length should be equal 8\n\nconst encoded = bf.encode('input text even with emoji 🎅');\nconst decoded = bf.decode(encoded, Blowfish.TYPE.STRING); // type is optional\n```",
+    "ContentSha": "tKFk3e71I3zTGiYVXqwKQiemWESqYuxpDWkQGI1PF80=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport { Blowfish } from 'egoroof-blowfish';\n\nconst bf = new Blowfish('super key', Blowfish.MODE.ECB, Blowfish.PADDING.NULL); // only key isn't optional\nbf.setIv('abcdefgh'); // optional for ECB mode; bytes length should be equal 8\n\nconst encoded = bf.encode('input text even with emoji 🎅');\nconst decoded = bf.decode(encoded, Blowfish.TYPE.STRING); // type is optional\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "2uTOpa/nHt6oQAAvW3EKC6AjNO2G8X/6s4dQb/AraQs=",
+        "originContent": "import { Blowfish } from 'egoroof-blowfish';",
+        "translatedContent": "import { Blowfish } from 'egoroof-blowfish';"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GZd685cKD5b6dD8ucNA0vdfxOttSa44yDyMORt7xXbU=",
+        "originContent": "const bf = new Blowfish('super key', Blowfish.MODE.ECB, Blowfish.PADDING.NULL); // only key isn't optional",
+        "translatedContent": "const bf = new Blowfish('super key', Blowfish.MODE.ECB, Blowfish.PADDING.NULL); // only key isn't optional"
+      },
+      {
+        "row": 5,
+        "rowsha": "BKbqUa6Pe1WiXAFCIK3VhfacIaa/Lo8XlIhk3jlsjrQ=",
+        "originContent": "bf.setIv('abcdefgh'); // optional for ECB mode; bytes length should be equal 8",
+        "translatedContent": "bf.setIv('abcdefgh'); // optional for ECB mode; bytes length should be equal 8"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "crbG/y4MAJ7mm6QvR49A9BZtfujoxVCG/mQ3jV5EMF8=",
+        "originContent": "const encoded = bf.encode('input text even with emoji 🎅');",
+        "translatedContent": "const encoded = bf.encode('input text even with emoji 🎅');"
+      },
+      {
+        "row": 8,
+        "rowsha": "JihpiWy8Xjf8XztKtLgcGdRaIKUTxXsJTohwmAKtJ9g=",
+        "originContent": "const decoded = bf.decode(encoded, Blowfish.TYPE.STRING); // type is optional",
+        "translatedContent": "const decoded = bf.decode(encoded, Blowfish.TYPE.STRING); // type is optional"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Block cipher mode of operation\n\nhttps://en.wikipedia.org/wiki/Block_cipher_mode_of_operation\n",
+    "ContentSha": "V7BeCPdxUQHgzmUzaW2sjX2HnU8e93eufpCqdrgyqqU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Block cipher mode of operation\n\nhttps://en.wikipedia.org/wiki/Block_cipher_mode_of_operation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "AFCajk5VHo2oU4EvYOUI9YUFdA6OrAixJp6i9cwnMCo=",
+        "originContent": "### Block cipher mode of operation",
+        "translatedContent": "### Block cipher mode of operation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BcB2Olovq2PvgdKpA8mPBZLTSqSAinyFjB/7kGUavw8=",
+        "originContent": "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation",
+        "translatedContent": "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\nBlowfish.MODE.ECB; // (default) Electronic Codebook\nBlowfish.MODE.CBC; // Cipher Block Chaining\n```",
+    "ContentSha": "F/bakhG9YUD5t9EIlim7hrryiKYjcKCAqTk15Qh701k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nBlowfish.MODE.ECB; // (default) Electronic Codebook\nBlowfish.MODE.CBC; // Cipher Block Chaining\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Hlm8qJjVUziEUpg7vw9HE597JujD6amZpM3qv8CxPe4=",
+        "originContent": "Blowfish.MODE.ECB; // (default) Electronic Codebook",
+        "translatedContent": "Blowfish.MODE.ECB; // (default) Electronic Codebook"
+      },
+      {
+        "row": 3,
+        "rowsha": "OZkndgieL6Nl/hJIkVM09YU1LcMC7JI3LiFTeiU2nG0=",
+        "originContent": "Blowfish.MODE.CBC; // Cipher Block Chaining",
+        "translatedContent": "Blowfish.MODE.CBC; // Cipher Block Chaining"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Padding\n\nhttp://www.di-mgt.com.au/cryptopad.html\n",
+    "ContentSha": "Hm9IvoM4DaTJAX3gjAOtE6z5t3qBTNX1TatGQJgJxNA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Padding\n\nhttp://www.di-mgt.com.au/cryptopad.html\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ehqopGRX4V+d9Yn+8DUhuRUPBrnfosXvluth9unjg+k=",
+        "originContent": "### Padding",
+        "translatedContent": "### Padding"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JRm5kNaj6/BT5Gco3pX9YSqvF1G5L/h4+iO1pIlOTsI=",
+        "originContent": "http://www.di-mgt.com.au/cryptopad.html",
+        "translatedContent": "http://www.di-mgt.com.au/cryptopad.html"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```js\nBlowfish.PADDING.PKCS5; // (default) Pad with bytes all of the same value as the number of padding bytes\nBlowfish.PADDING.ONE_AND_ZEROS; // Pad with 0x80 followed by zero bytes\nBlowfish.PADDING.LAST_BYTE; // Pad with zeroes except make the last byte equal to the number of padding bytes\nBlowfish.PADDING.NULL; // Pad with zero (null) characters\nBlowfish.PADDING.SPACES; // Pad with spaces\n```",
+    "ContentSha": "is0JBIJfudc/3TVPlJ7/NT4DTNT5NxofDHhibnf7tiM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nBlowfish.PADDING.PKCS5; // (default) Pad with bytes all of the same value as the number of padding bytes\nBlowfish.PADDING.ONE_AND_ZEROS; // Pad with 0x80 followed by zero bytes\nBlowfish.PADDING.LAST_BYTE; // Pad with zeroes except make the last byte equal to the number of padding bytes\nBlowfish.PADDING.NULL; // Pad with zero (null) characters\nBlowfish.PADDING.SPACES; // Pad with spaces\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "T6RonSnrT+jUCBIjK7OkApAwS+pTu3GjQzIRJGKPheg=",
+        "originContent": "Blowfish.PADDING.PKCS5; // (default) Pad with bytes all of the same value as the number of padding bytes",
+        "translatedContent": "Blowfish.PADDING.PKCS5; // (default) Pad with bytes all of the same value as the number of padding bytes"
+      },
+      {
+        "row": 3,
+        "rowsha": "fZsqWv8RFmX0Rpaiup18Qqx1OWxrk98WpSwOj8Et9XQ=",
+        "originContent": "Blowfish.PADDING.ONE_AND_ZEROS; // Pad with 0x80 followed by zero bytes",
+        "translatedContent": "Blowfish.PADDING.ONE_AND_ZEROS; // Pad with 0x80 followed by zero bytes"
+      },
+      {
+        "row": 4,
+        "rowsha": "QjzL8Nrw/KGws9iBQ7QKyS+qv1AWeUCEtV1K0CWlKbo=",
+        "originContent": "Blowfish.PADDING.LAST_BYTE; // Pad with zeroes except make the last byte equal to the number of padding bytes",
+        "translatedContent": "Blowfish.PADDING.LAST_BYTE; // Pad with zeroes except make the last byte equal to the number of padding bytes"
+      },
+      {
+        "row": 5,
+        "rowsha": "Fb7pjTlOK/wpss1b7Cr7ivxkgu+DZQRN8ZNyTOoY9sI=",
+        "originContent": "Blowfish.PADDING.NULL; // Pad with zero (null) characters",
+        "translatedContent": "Blowfish.PADDING.NULL; // Pad with zero (null) characters"
+      },
+      {
+        "row": 6,
+        "rowsha": "VJlFfKRsv59cGBfyiL+zQnNLI8kb/nhHQ3u0CODVKu0=",
+        "originContent": "Blowfish.PADDING.SPACES; // Pad with spaces",
+        "translatedContent": "Blowfish.PADDING.SPACES; // Pad with spaces"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Return type\n\nWhich type of data should return method `decode`:\n",
+    "ContentSha": "l/HfG+GcfeTDo5Fpz6YCsKqC5+z8AfzQn9+b2rdegR8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Tipo de retorno\n\nQué tipo de datos debe devolver el método `decode`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GhM5V6+0UjFv60EFR1Y3Ln8irU5T621VcsnvhC+ukoY=",
+        "originContent": "### Return type",
+        "translatedContent": "### Tipo de retorno"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nWO1iOPvQErzzMZDp5JhsLQaZjPh1UkY3ShFYM9QlrU=",
+        "originContent": "Which type of data should return method `decode`:",
+        "translatedContent": "Qué tipo de datos debe devolver el método `decode`:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```js\nBlowfish.TYPE.STRING; // (default) String\nBlowfish.TYPE.UINT8_ARRAY; // Uint8Array\n```",
+    "ContentSha": "Zi4r2WuFNEOQcO+0G8yO+rjYjTswf/n/Jl3gzfDb/no=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nBlowfish.TYPE.STRING; // (default) String\nBlowfish.TYPE.UINT8_ARRAY; // Uint8Array\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "c8pCH9mcgtMSZMoZQYyu4ur6pPefhX2Z3oWLWmCuOfk=",
+        "originContent": "Blowfish.TYPE.STRING; // (default) String",
+        "translatedContent": "Blowfish.TYPE.STRING; // (default) String"
+      },
+      {
+        "row": 3,
+        "rowsha": "d60MyJi782q3LM0mhVD6K9b5Rx6J4NUzyVw3rl7Wcbc=",
+        "originContent": "Blowfish.TYPE.UINT8_ARRAY; // Uint8Array",
+        "translatedContent": "Blowfish.TYPE.UINT8_ARRAY; // Uint8Array"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

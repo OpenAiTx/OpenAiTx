@@ -1,0 +1,914 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Q1MuUZRTldoNzjdDHa/wkXd2Y+5QcIVwjr+oQLiEsUs=",
+    "originContent": "# 我们这套 Prompt Cache 是怎么搭的",
+    "translatedContent": "# Comment nous avons construit ce système de cache de prompt"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "mqBS5IDO6QEAy+2KELmKRQPF2xuFZpMvr2D0B6wq1R8=",
+    "originContent": "线上实测：单轮 opus 请求 prompt **49310** token，其中 **47354** 直接从缓存读回，命中率 **96%**。近 100 条请求里 74 条命中。",
+    "translatedContent": "Test en ligne : une requête opus en un tour demande **49310** tokens, dont **47354** sont directement lus depuis le cache, taux de succès **96%**. Sur près de 100 requêtes, 74 ont été satisfaites par le cache."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "vgDxgL/uKKEccdxRrn0Kjpupjx16ziu+I7qHEi+pfww=",
+    "originContent": "这份文档讲的不是「prompt caching 是什么」，而是**我们具体把请求切成了哪几个方块、每个方块装什么、为什么这么切就能稳定命中这么高**。",
+    "translatedContent": "Ce document ne parle pas de « ce qu’est le caching de prompt », mais **de la manière dont nous découpons précisément la requête en plusieurs blocs, ce que chaque bloc contient, et pourquoi cette découpe permet un taux de succès aussi stable et élevé**."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "S6vJLpq26bo7LvdTR6LzTlK3yAJA8I0yHIzIBknFCA0=",
+    "originContent": "## 核心思路：把请求切成「会变」和「不变」两堆",
+    "translatedContent": "## Idée clé : découper la requête en deux piles, « ce qui change » et « ce qui ne change pas »"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "LDUoaMpoP11nl1pasGsoC6/Em0ILjjYy+jSwOG9OC0w=",
+    "originContent": "缓存是**前缀匹配**的。从第一个字节开始比对，只要有一个字节和上次不同，从那往后全部失效重算。",
+    "translatedContent": "Le cache est un **matching de préfixe**. La comparaison commence au premier octet, dès qu’un octet diffère de la fois précédente, tout ce qui suit est invalidé et recalculé."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "u9G2N/ELmD+SA7PtMuOArEkzkKiuw8dIwNsqyAIyTbE=",
+    "originContent": "所以我们做的唯一一件事，就是把一整个请求拆成方块，按「最不会变 → 最会变」的顺序码好，只给前面不变的方块挂缓存标记，把所有会变的东西全甩到最后面去。",
+    "translatedContent": "Donc la seule chose que nous faisons, c’est découper une requête entière en blocs, les ordonner du « le moins susceptible de changer » au « le plus susceptible de changer », n’attribuer une marque de cache qu’aux blocs fixes devant, et mettre tout ce qui peut changer à la fin."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "WR+lXxVgphXdDDRmdMte+8ovN61ifB7ZDOfgDGqvkB0=",
+    "originContent": "命中率高不是因为用了什么黑科技，是因为**我们的缓存前缀真的逐字节不变**。",
+    "translatedContent": "Le taux de succès élevé ne vient pas d’une technologie secrète, mais parce que **notre préfixe cache est vraiment identique octet par octet**."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "Hy8v6HB17qDgoSpkCTcqm5n2f2jlziRCCv3fUFE737Q=",
+    "originContent": "## 我们的方块布局（BP1 → BP4）",
+    "translatedContent": "## Notre disposition des blocs (BP1 → BP4)"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "iN1oOG54HhXfbjOGdkgT3dYueUSk8NNKQ6sI4LsyaS4=",
+    "originContent": "Anthropic 一个请求最多 4 个缓存断点。我们是这么分配的：",
+    "translatedContent": "Chez Anthropic, une requête peut avoir jusqu’à 4 points de cache. Voici comment nous les répartissons :"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 24,
+    "rowsha": "HQCZ5gPRZowC/HvmWRbuScWEf2LgMiPUV72j+SgHmZM=",
+    "originContent": "═══ system blocks（每块单独挂 cache_control）═══",
+    "translatedContent": "═══ system blocks（每块单独挂 cache_control）═══"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "+dP7mC9epnuPkuhZQB/qucI6Xzyi8v795VAs9wUCsPE=",
+    "originContent": "  ┌─────────────────────────────────────────────┐",
+    "translatedContent": "  ┌─────────────────────────────────────────────┐"
+  },
+  {
+    "row": 27,
+    "rowsha": "csnDrWKUbIRYwsZKL0A5SbVI+mkv3ZqmuTLkEJzHou4=",
+    "originContent": "  │ BP1  人设 + 语言规则 + 工具说明 + 长期记忆    │  几乎永不动",
+    "translatedContent": "  │ BP1  人设 + 语言规则 + 工具说明 + 长期记忆    │  几乎永不动"
+  },
+  {
+    "row": 28,
+    "rowsha": "VgjgfAtJGrK9DJVe/K+iX0JtHWsEhBZzuDRS7bJQg4k=",
+    "originContent": "  ├─────────────────────────────────────────────┤",
+    "translatedContent": "  ├─────────────────────────────────────────────┤"
+  },
+  {
+    "row": 29,
+    "rowsha": "x8QEQ6Q3TQFnwKL5csPzZn4LINxm5GGh+aktDVSJylA=",
+    "originContent": "  │ BP2  每日内容（gateway-bp2-daily.txt）       │  一天换一次",
+    "translatedContent": "  │ BP2  每日内容（gateway-bp2-daily.txt）       │  一天换一次"
+  },
+  {
+    "row": 30,
+    "rowsha": "VgjgfAtJGrK9DJVe/K+iX0JtHWsEhBZzuDRS7bJQg4k=",
+    "originContent": "  ├─────────────────────────────────────────────┤",
+    "translatedContent": "  ├─────────────────────────────────────────────┤"
+  },
+  {
+    "row": 31,
+    "rowsha": "8Hb8wP+pXeEw6GHfEDK8rIfHwN/7ZecEBOBovAK68G8=",
+    "originContent": "  │ BP3  当前会话压缩摘要（这个 session 专属）    │  约 80K token 触发一次压缩",
+    "translatedContent": "  │ BP3  当前会话压缩摘要（这个 session 专属）    │  约 80K token 触发一次压缩"
+  },
+  {
+    "row": 32,
+    "rowsha": "YUvTZZqfaRDlWgs5vmNsQ8qBaglUfFW7/XKSl1rwteA=",
+    "originContent": "  └─────────────────────────────────────────────┘",
+    "translatedContent": "  └─────────────────────────────────────────────┘"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "PJsK01cHMFtg8tfESa6saIYjaOF8pAuW9zqD5vZjgxY=",
+    "originContent": "═══ messages 数组 ═══",
+    "translatedContent": "═══ messages 数组 ═══"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "peLA+4GjbzbXqxWU8DVFN8T8CcbpsV0o9tcFJofzlBg=",
+    "originContent": "  ...历史轮次（一字不改）...",
+    "translatedContent": "  ...历史轮次（一字不改）..."
+  },
+  {
+    "row": 37,
+    "rowsha": "+dP7mC9epnuPkuhZQB/qucI6Xzyi8v795VAs9wUCsPE=",
+    "originContent": "  ┌─────────────────────────────────────────────┐",
+    "translatedContent": "  ┌─────────────────────────────────────────────┐"
+  },
+  {
+    "row": 38,
+    "rowsha": "YGSif9CS6RKiHi+xBfD7L0PmysTRZ5MuFoi2QDjzrbg=",
+    "originContent": "  │ BP4  倒数第二条 user 消息挂标（rolling）      │  把全部历史纳进缓存",
+    "translatedContent": "  │ BP4  倒数第二条 user 消息挂标（rolling）      │  把全部历史纳进缓存"
+  },
+  {
+    "row": 39,
+    "rowsha": "YUvTZZqfaRDlWgs5vmNsQ8qBaglUfFW7/XKSl1rwteA=",
+    "originContent": "  └─────────────────────────────────────────────┘",
+    "translatedContent": "  └─────────────────────────────────────────────┘"
+  },
+  {
+    "row": 40,
+    "rowsha": "HnXhb5Qk/yBFsAsVFX939a13w40eyoNOBRc2bJAtHZY=",
+    "originContent": "  <gateway_volatile_context> 动态注入            ← 不挂标，所有会变的塞这里",
+    "translatedContent": "  <gateway_volatile_context> 动态注入            ← 不挂标，所有会变的塞这里"
+  },
+  {
+    "row": 41,
+    "rowsha": "yqJpcgnBWHuKzm8eqvjmaBh8qPXaDfPT+dxhjlSYAf8=",
+    "originContent": "  当前这条 user 消息",
+    "translatedContent": "  当前这条 user 消息"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "753We8SflOyhY3eSzlw0rmMXug575o0jO7rCUKKqDmA=",
+    "originContent": "### 每个方块为什么这么放",
+    "translatedContent": "### Pourquoi chaque bloc est-il placé ainsi"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "OeuEASxLEZlmB29kdH70IyZKIxTnYlMqgW+xNIyrKrw=",
+    "originContent": "**BP1 — 最稳的垫底。** 人设、语言铁律、工具说明书、长期记忆，这些几乎永远不动，放最前面。它一变，后面全废，所以它必须是整个请求里最稳定的东西。",
+    "translatedContent": "**BP1 — Le fond le plus stable.** Personnage, règles linguistiques, manuel d'outils, mémoire à long terme, ces éléments changent presque jamais, donc placés en premier. Si cela change, tout le reste est inutile, donc il doit être l’élément le plus stable de toute la requête."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "o5KplqT9A7LlTgEG03wNFR4Bc+poJVTRJgtghxYau0k=",
+    "originContent": "**BP2 — 每天换一次的那层。** 从 `gateway-bp2-daily.txt` 读，一天更新一次。它变了只影响 BP2 往后，不动 BP1。",
+    "translatedContent": "**BP2 — La couche qui change chaque jour.** Lu depuis `gateway-bp2-daily.txt`, mis à jour une fois par jour. Son changement n’affecte que BP2 et les suivants, sans toucher à BP1."
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "PvcP3hzJDU58f8FrHFWBe6CadIU29cQbTS6dE42aG7s=",
+    "originContent": "**BP3 — 这个会话自己的压缩摘要。** 关键点：它是 **session-only** 的，不是全局长期骨架。当前窗口聊到约 80K token 就触发一次压缩，把老的上下文压成摘要。注意是「网关侧稳定摘要」才进 BP3 挂标；前端那种**每轮都在变的当前窗口摘要不挂标**，直接丢到下面的动态区，不然每轮重建缓存。",
+    "translatedContent": "**BP3 — Le résumé compressé propre à cette session.** Point clé : il est **uniquement sessionnel**, pas un squelette global à long terme. Quand la fenêtre atteint environ 80K tokens, un résumé est déclenché pour compresser l’ancien contexte. Notez que seul un « résumé stable côté passerelle » est accroché à BP3 ; le résumé dynamique côté front, qui change à chaque tour, **n’est pas accroché**, il est directement mis dans la zone dynamique ci-dessous, sinon le cache serait reconstruit à chaque tour."
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "gJEQyvSIp/B47jbDte1SXj2IYhLBjpi2RuEvihEW8I0=",
+    "originContent": "**BP4 — rolling 断点，省最多的就是它。** 默认缓存边界只到 system 末尾，历史对话不在缓存里。我们在**倒数第二条 user 消息**上再挂一个标，把缓存边界一路往下扩到包含全部历史。多轮长会话里，前面几十轮的 token 全部变成缓存读取，这是 96% 命中的主力。",
+    "translatedContent": "**BP4 — Point de rupture roulant, c’est lui qui économise le plus.** La limite de cache par défaut s’arrête à la fin du système, les dialogues historiques ne sont pas en cache. On accroche un marqueur sur le **avant-dernier message utilisateur**, étendant la limite de cache jusqu’à inclure tout l’historique. Dans les longues conversations multi-tours, les tokens des dizaines de tours précédents deviennent entièrement lus depuis le cache, ce qui réalise 96 % des hits."
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "pE4MJkSF6/FIx3tu9K1xWV3i9wNr9vb9mX/Su1h/zzM=",
+    "originContent": "挂在「倒数第二条」而不是「最后一条」，是因为最后一条 user 是这轮新输入，每次都不一样，挂上去等于没挂。挂倒数第二条，缓存边界正好停在「这轮之前的所有内容」。",
+    "translatedContent": "On accroche sur « avant-dernier » plutôt que « dernier » message, car le dernier message utilisateur est la nouvelle entrée de ce tour, toujours différente, donc accrocher dessus serait inutile. Accrocher sur l’avant-dernier message fait que la limite de cache s’arrête juste avant tout le contenu de ce tour."
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "yEdmGSzWC43DKxP5k/BQxzezcccBr3C67r5cJDcUL20=",
+    "originContent": "### 会变的东西去哪了",
+    "translatedContent": "### Où vont les éléments changeants"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "LGTNtafpo28w7/sIZDQ+pnU9X3D83noztE72UzDarXA=",
+    "originContent": "时间戳、本轮记忆召回、临时纸条、前端的当前窗口摘要 —— 全部塞进 BP4 之后的一个伪 user 消息里：",
+    "translatedContent": "Timestamp, rappel de mémoire de ce tour, notes temporaires, résumé actuel côté front — tout est placé dans un pseudo message utilisateur après BP4 :"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "v7qNKj4MnOVmtfaI5mDb+LcEu496ptKsoihc6fSm23A=",
+    "originContent": "<gateway_volatile_context>仅供参考，勿复述：",
+    "translatedContent": "<gateway_volatile_context>仅供参考，勿复述："
+  },
+  {
+    "row": 62,
+    "rowsha": "6eQSlpVgOnVxUpNGonifhpHJN0XOlBZarhigdL1n+3k=",
+    "originContent": "（当前时间 / 本轮召回的记忆 / 摘要 / 纸条……）",
+    "translatedContent": "（当前时间 / 本轮召回的记忆 / 摘要 / 纸条……）"
+  },
+  {
+    "row": 63,
+    "rowsha": "YTMGsK5U32oQg+PCA7gc1KIKDPPlbOkwVfjRs3Czyv4=",
+    "originContent": "</gateway_volatile_context>",
+    "translatedContent": "</gateway_volatile_context>"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "NaJ9fiDM49Qe2N1eClq0Wn2p4bZ1TcLP81TuL921fCc=",
+    "originContent": "它每轮都在变，但它排在**所有断点之后**，所以它怎么变都不碰缓存前缀。这是整套设计最关键的一刀：**把易变内容隔离到缓存边界外面**。",
+    "translatedContent": "Il change à chaque tour, mais il est placé **après tous les points d’arrêt**, donc peu importe comment il change, il ne touche jamais au préfixe du cache. C’est la clé de toute la conception : **isoler le contenu volatile en dehors de la frontière du cache**."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "WKDT5CEROji+r+XJ3QwVkpjhxIOvcCnkpwAA/ho7MJ4=",
+    "originContent": "## 让请求粘在同一个后端：user_id",
+    "translatedContent": "## Faire en sorte que les requêtes restent sur le même backend : user_id"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "t8AoE7x4LDVwUrwuZQSXnKOfXOlOsHU4JsyzyGtJrpI=",
+    "originContent": "光挂 `cache_control` 还不够。中转的负载均衡会把请求随机派到不同后端节点，缓存写在 A 节点，下一次请求飘到 B 节点就读不到，表现就是「只写不读、命中永远 0」。",
+    "translatedContent": "Il ne suffit pas de mettre `cache_control`. Le load balancer intermédiaire envoie les requêtes aléatoirement à différents nœuds backend, le cache est écrit sur le nœud A, la requête suivante arrive sur le nœud B et ne peut pas lire, ce qui donne un comportement de « écriture sans lecture, hit toujours à 0 »."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "CIs/FXI2DumyRXbrGgx2zjDybtvxa2VBR112LbradTc=",
+    "originContent": "我们的解法：请求顶层固定带",
+    "translatedContent": "Notre solution : fixer au niveau supérieur de la requête"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 77,
+    "rowsha": "3FFSRNXbKn1ZRx7eeHq7xghXF1bKosP1JO5pZGL7mHM=",
+    "originContent": "\"metadata\": { \"user_id\": \"sillage-anan-stable\" }",
+    "translatedContent": "\"metadata\": { \"user_id\": \"sillage-anan-stable\" }"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Chaîne fixe, pour que la route sticky colle toujours cette conversation au même backend. Sans cela, tous les points de rupture précédents sont inutiles."
+  },
+  {
+    "row": 80,
+    "rowsha": "I8o3kjfdpeBgjZZbYcJjLTQQz+QmoNr5/zd0hVbwKu4=",
+    "originContent": "固定字符串，让 sticky 路由永远把这个对话粘在同一个后端。这个不带，前面所有断点都白挂。",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 82,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Différents canaux, différentes méthodes de liaison"
+  },
+  {
+    "row": 84,
+    "rowsha": "KfkygoU9biGpuyXlsAI8FROpiJIjRMRyrv+x0BLrfKI=",
+    "originContent": "## 不同渠道，挂法不一样",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Tous les upstreams ne fonctionnent pas de la même manière. La passerelle détermine automatiquement selon le domaine de l'upstream, avec trois modes :"
+  },
+  {
+    "row": 86,
+    "rowsha": "NYajaJirOsgrxiQOwQIqwKbEZrFXwIdxAPhe9SR4kwM=",
+    "originContent": "不是每个上游都吃同一套。网关按上游域名自动判定，分三种模式：",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| Mode | Upstream | Protocole | cache_control attaché où | TTL |"
+  },
+  {
+    "row": 88,
+    "rowsha": "gPKa1FYUiIY5jGvXqZ7A2QL26nK2THPypSzm4e9u/40=",
+    "originContent": "| 模式 | 上游 | 协议 | cache_control 挂哪 | TTL |",
+    "translatedContent": "|---|---|---|---|---|"
+  },
+  {
+    "row": 89,
+    "rowsha": "Eq8A70vu0E6YMkp22XH5RBmpK3cxHPIWKQIONEm49Fc=",
+    "originContent": "|---|---|---|---|---|",
+    "translatedContent": "| `anthropic-bp` | Connexion directe Anthropic / msui / Jingguagua | `/v1/messages` | au-dessus des blocs system | 1h (Jingguagua supporte seulement 5m) |"
+  },
+  {
+    "row": 90,
+    "rowsha": "kglisqYHmnHoAE2r+vB7hGaUKoE3Pw72MR/+tdYPmxc=",
+    "originContent": "| `anthropic-bp` | 直连 Anthropic / msui / 金瓜瓜 | `/v1/messages` | system blocks 上 | 1h（金瓜瓜只支持 5m） |",
+    "translatedContent": "| `or-blocks` | OpenRouter | OAI `/chat/completions` | intégré dans le bloc content des messages | 1h |"
+  },
+  {
+    "row": 91,
+    "rowsha": "y6kerOsA3ZH+pDZJPI7A47YICaZyjUuPBnNg7zjDEjQ=",
+    "originContent": "| `or-blocks` | OpenRouter | OAI `/chat/completions` | 嵌进 messages 的 content block | 1h |",
+    "translatedContent": "| `oai-passthrough` | OAI classique en relais / site inconnu | OAI | pas attaché, le site gère le cache implicitement | incontrôlable |"
+  },
+  {
+    "row": 92,
+    "rowsha": "863Thotztpxc9B013bKL8MNXmd2KbNLJH2nPUmvrwX0=",
+    "originContent": "| `oai-passthrough` | 普通 OAI 中转 / 未知站 | OAI | 不挂，让站子自己隐式缓存 | 不可控 |",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Les mécanismes de persistance des deux principales routes sont différents, **à ne jamais mélanger** :"
+  },
+  {
+    "row": 94,
+    "rowsha": "npLie3gfjJ5IhpJTsEb5KvHSUGEQyLRw1mbEhWVCWqk=",
+    "originContent": "两条主路径的粘性机制不一样，**绝对不能混**：",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Route native Anthropic** utilise `metadata.user_id` pour coller au backend."
+  },
+  {
+    "row": 96,
+    "rowsha": "rar9FKs7eJICDl5wTDxibLbhXUGniAdr/54PTPsNrXc=",
+    "originContent": "- **Anthropic 原生路径**靠 `metadata.user_id` 粘后端。",
+    "translatedContent": "- **Route OpenRouter** ne regarde pas user_id, utilise `hash(première partie du system + premier message non system)` pour coller au backend. Donc changer le personnage, changer le monde ou modifier l’intro sur OR change le hash, rendant le cache inutile. Sur OR, l’intro et le personnage doivent être figés."
+  },
+  {
+    "row": 97,
+    "rowsha": "rehs/Ogox4Hpj7qZcpOjD7npfJZ+QaLPcQ9K1TAopMA=",
+    "originContent": "- **OpenRouter 路径**不看 user_id，靠 `hash(system 第一段 + 第一条非 system 消息)` 粘后端。所以在 OR 上改人设、换世界书、抖一下开场白，hash 就变，这一轮缓存全废。OR 上开场白和人设要焊死。",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "De plus, certains sites (comme ekan) renvoient directement un 4xx sur `cache_control`. La passerelle inscrit ces hôtes en erreur dans une liste noire, puis rétrograde définitivement en mode passthrough sans cache, évitant ainsi les répétitions de 400. C’est une auto-guérison sans intervention humaine."
+  },
+  {
+    "row": 99,
+    "rowsha": "uwEK9iA+NFoqpqR/Pd+HeHxiS2gQIOH9NLsi9mLOfyo=",
+    "originContent": "另外有些站（比如 ekan）对 `cache_control` 直接报 4xx。网关把报过错的 host 写进黑名单文件，之后对它永久降级成无缓存透传，不再反复撞 400。这是自愈，不用人管。",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 101,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 5min ou 1h"
+  },
+  {
+    "row": 103,
+    "rowsha": "XJCCzWRsgIJRwUUJxBOGUPVKJ4pdWERHhDCTa5qPBXA=",
+    "originContent": "## 5min 还是 1h",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| TTL | Coût d’écriture | Coût de lecture | Usage |"
+  },
+  {
+    "row": 105,
+    "rowsha": "eIsruZXOLzmpY5XEgtVW0hvxTEkaFcVjkCU17N93mdA=",
+    "originContent": "| TTL | 写入成本 | 读取成本 | 用在哪 |",
+    "translatedContent": "|---|---|---|---|"
+  },
+  {
+    "row": 106,
+    "rowsha": "TaHsb0d4IJAQLcFr2peO+1ZV+/Ldzg+E7PH695qTDy0=",
+    "originContent": "|---|---|---|---|",
+    "translatedContent": "| 5min | 1,25x | 0,1x | Conversations rapides et continues |"
+  },
+  {
+    "row": 107,
+    "rowsha": "468pnDcgSLVtUIGC80IWXcnnE4d5yNKhii2dczTsOnk=",
+    "originContent": "| 5min | 1.25x | 0.1x | 连续快速对话 |",
+    "translatedContent": "| 1h | 2x | 0,1x | Reprendre la conversation après une pause de 30 minutes, sûr |"
+  },
+  {
+    "row": 108,
+    "rowsha": "uynon7Sy0um6Xo5yKWWo4mL5SmseDWUTxIeE7niAM3U=",
+    "originContent": "| 1h | 2x | 0.1x | 隔半小时回来接着聊，稳赚 |",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "La lecture coûte toujours 0,1x (10 fois moins cher). La différence est seulement le coût d’écriture et la durée de conservation. Pour un enchaînement rapide, on utilise 5m, pour les longues sessions interrompues, 1h."
+  },
+  {
+    "row": 110,
+    "rowsha": "OiDqjHaXtI9PQSuplqjAoEmqqjjpwEE+z8PVnwQcgnY=",
+    "originContent": "读取永远 0.1x（省 10 倍）。区别只在写入贵多少、能存多久。我们日常连发用 5m，长会话隔断回来用 1h。",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 112,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Comment vérifier que le cache a vraiment fonctionné"
+  },
+  {
+    "row": 114,
+    "rowsha": "0AIZqIFJmv3ntoXsRJ/b1IZjm3LaTR2v/NvW5oU4yic=",
+    "originContent": "## 怎么确认真的命中了",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Consulter l’usage dans la réponse :"
+  },
+  {
+    "row": 116,
+    "rowsha": "kAf7ncqNyEPD6Y6zQeQ5c+Ww6OqhdnYckE8Xx05MCGc=",
+    "originContent": "看响应 usage：",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Anthropic natif : `usage.cache_read_input_tokens` (lecture) / `cache_creation_input_tokens` (écriture)"
+  },
+  {
+    "row": 118,
+    "rowsha": "K35eux3PTGMikp6eM+zY/WeIvXKfRIFJwkrF3iqKzFg=",
+    "originContent": "- Anthropic 原生：`usage.cache_read_input_tokens`（读）/ `cache_creation_input_tokens`（写）",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "KzBKZRsWSIABnpyPJjiTCWmtTwbpQnwakzDEaIjzqjg=",
+    "originContent": "- OAI 兼容：`usage.prompt_tokens_details.cached_tokens`",
+    "translatedContent": "- Compatible OAI : `usage.prompt_tokens_details.cached_tokens`"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "H+RO54M8ksONiROYCV1Wq37ILbtki/yO/p9dLAI6zf0=",
+    "originContent": "判读：",
+    "translatedContent": "Interprétation :"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "Ak8Pn71OmtIljIGxe/ieVxECTyuAGfLhNF+mjXdBnb8=",
+    "originContent": "- 第一轮 read=0、write 一大坨 → 正常，在建缓存",
+    "translatedContent": "- Première passe read=0, write un gros bloc → Normal, construction du cache"
+  },
+  {
+    "row": 124,
+    "rowsha": "+Wsm7SI6RGtyBc9YDb3A0xh4ddB3qo/xqwTlg6O5RnI=",
+    "originContent": "- 第二轮起 read 非零 → **命中了**",
+    "translatedContent": "- À partir de la deuxième passe read non nul → **Cache utilisé**"
+  },
+  {
+    "row": 125,
+    "rowsha": "/WNZw42yj+97w/2t39rXOM9+CUbXlIMgB6pnGOdiNvc=",
+    "originContent": "- 一直 read=0 write=0 → cache_control 根本没生效，故障",
+    "translatedContent": "- Toujours read=0 write=0 → cache_control n'a pas du tout fonctionné, panne"
+  },
+  {
+    "row": 126,
+    "rowsha": "9247NvZSk63kilehB4VGzjUyso8whgUdxvbfE4vdDZg=",
+    "originContent": "- 一直只 write 不 read → 路由飘了（user_id 没带 / OR 的 hash 变了）",
+    "translatedContent": "- Toujours write sans read → le routage a déraillé (user_id non transmis / ou le hash OR a changé)"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "I07B+bYWpxeGvc8vAPUEVzSEVf8wpp0i+ULnf6YD1iE=",
+    "originContent": "看网关日志：",
+    "translatedContent": "Consulter les logs de la passerelle :"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 131,
+    "rowsha": "llJYkgFZvgjEJI79oeiE7YZX5jizUttvnFrA7tF+RRk=",
+    "originContent": "pm2 logs chat-gateway-proxy | grep -E \"HIT|MISS\"",
+    "translatedContent": "pm2 logs chat-gateway-proxy | grep -E \"HIT|MISS\""
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `HIT 96% (47354/49310)` ← Notre état actuel  "
+  },
+  {
+    "row": 134,
+    "rowsha": "8nCTJj2M0x/aCGIT+EIjdzNvEfHGuBp/xjxwcvc8LEk=",
+    "originContent": "- `HIT 96% (47354/49310)` ← 我们现在的状态",
+    "translatedContent": "- `MISS (created 0)` ← Échec, ni écrit ni lu  "
+  },
+  {
+    "row": 135,
+    "rowsha": "0/EZj+d3NAgZtdVjPGE8ERqcfZCTk7f2EgoZKcMtNZQ=",
+    "originContent": "- `MISS (created 0)` ← 故障，没写也没读",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Page de surveillance : `https://catcatty.uk/llm/cache-stats`  "
+  },
+  {
+    "row": 137,
+    "rowsha": "TfteVYsjYTl+02NsdTxQ7bHG4GdZpPu74ycWS5mfSz0=",
+    "originContent": "监控页：`https://catcatty.uk/llm/cache-stats`",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 139,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Les règles d'or que nous avons établies  "
+  },
+  {
+    "row": 141,
+    "rowsha": "aaj9NofU8HD1HLeCXSH5s1WpLoj0xX/uUY2oWbjP4o8=",
+    "originContent": "## 我们踩出来的铁律",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **Le système doit impérativement séparer « segment stable + segment dynamique »**, seul le segment stable est marqué. Même une phrase comme « ce soir à 18h » dans BP1 rend tout le cache invalide.  "
+  },
+  {
+    "row": 143,
+    "rowsha": "d+QRadxa6by8ckgMZfwhL8DfmM+aYJmseaI4/tnFkMo=",
+    "originContent": "1. **system 必须拆「稳定段 + 动态段」**，只稳定段挂标。哪怕往 BP1 里塞一句「今晚 18 点」，整段缓存立刻废。",
+    "translatedContent": "2. **Tout ce qui change doit être placé après BP4**, dans `gateway_volatile_context`. Temps, rappel de mémoire, résumés temporaires, rien ne doit rester dans le préfixe.  "
+  },
+  {
+    "row": 144,
+    "rowsha": "NBf+apzvWu9MeqYsbLV03jIjjJYmanySolKGM6yD0ZY=",
+    "originContent": "2. **会变的全部排到 BP4 之后**，丢进 `gateway_volatile_context`。时间、记忆召回、临时摘要，一个都别留在前缀里。",
+    "translatedContent": "3. **`user_id` fixe et immuable**, s’il n’est pas présent, écrire sans lire.  "
+  },
+  {
+    "row": 145,
+    "rowsha": "cQqzNggDkDP5uVEtkbTyvsJGNOJgAyn889eZB/EOdFM=",
+    "originContent": "3. **`user_id` 固定不变**，不带就只写不读。",
+    "translatedContent": "4. **Le dernier user ajoute un marqueur rolling** (accroché à l’avant-dernier), intégrant l’historique dans le cache, économisant au maximum sur les longues sessions.  "
+  },
+  {
+    "row": 146,
+    "rowsha": "K4YYsKOMFF8XxpcZVeZcDwn4X/MrYz7QZMYi1pGzrvQ=",
+    "originContent": "4. **最末 user 加 rolling 标**（挂倒数第二条），把历史纳进缓存，长会话省最多。",
+    "translatedContent": "5. **Historique en lecture seule, ne pas réessayer d’écrire les tours précédents**. « Régénérer le tour précédent » modifie le préfixe, reconstruisant tout le segment.  "
+  },
+  {
+    "row": 147,
+    "rowsha": "DB9wTtzvmgU5FE6tngN8jyNMqg028kk3JyFIIxretLM=",
+    "originContent": "5. **历史只读，不要 retry 重写前面的轮次**。「重新生成上一条」会改前缀，整段重建。",
+    "translatedContent": "6. **Ordre du schéma des outils fixe**. Réordonner dynamiquement la liste des outils selon les commutateurs = miss complet.  "
+  },
+  {
+    "row": 148,
+    "rowsha": "rwGMFHZSJdibyTLCR26oJjb52RE73amEQFicOxif+Qk=",
+    "originContent": "6. **工具 schema 顺序固定**。按开关动态重排工具列表 = 整段 miss。",
+    "translatedContent": "7. **Fixer rigoureusement le personnage et l’introduction** par OR, ils se lient au backend via hash, tout changement est pris comme une nouvelle conversation.  "
+  },
+  {
+    "row": 149,
+    "rowsha": "ae8BCynmRtUjRMGjB3DJzgRb1NyH2G+wmM3XmD7360I=",
+    "originContent": "7. **OR 上人设和开场白焊死**，它靠 hash 粘后端，一动就当新对话。",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "En respectant ces sept règles, il ne reste plus qu’à choisir le bon `mode` et `ttl` en amont. C’est ainsi que nous atteignons 96%."
+  },
+  {
+    "row": 151,
+    "rowsha": "Rfm1qgh+rvFeclebLU8oa1AhjjUjEPRbReIp6wk6L8g=",
+    "originContent": "做到这七条，剩下的就是按上游选对 `mode` 和 `ttl`。我们的 96% 就是这么来的。",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
