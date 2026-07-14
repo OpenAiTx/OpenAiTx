@@ -1,25 +1,57 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # claude.sh
 
 Código de Claude reescrito como un script bash. ~1,500 líneas. Cero paquetes npm.
 
 ## Por qué
 
-El código original de Claude tiene ~380,000 líneas de TypeScript con 266 dependencias npm. Esto hace el mismo trabajo básico en bash con solo `curl` y `jq`.
+El Claude Code original tiene ~380,000 líneas de TypeScript con 266 dependencias de npm. Esto hace el mismo trabajo central en bash usando solo `curl` y `jq`.
 
 ## Características
 
-- **Transmisión en tiempo real** vía tubería FIFO — el texto aparece a medida que Claude lo genera
-- **6 herramientas**: Bash, Read, Edit, Write, Glob, Grep
-- **Encadenamiento de herramientas** — hasta 25 llamadas a herramientas por turno
-- **Solicitud de permiso** — pregunta antes de ejecutar comandos no seguros (`y/n/a`)
-- **Carga de CLAUDE.md** — lee instrucciones del proyecto desde archivos CLAUDE.md en la jerarquía de directorios
-- **Contexto consciente de Git** — rama, estado y commits recientes en el prompt del sistema
+- **Transmisión en tiempo real** vía pipe FIFO: el texto aparece a medida que Claude lo genera
+- **6 herramientas**: Bash, Leer, Editar, Escribir, Glob, Grep
+- **Encadenamiento de herramientas** — hasta 25 llamadas de herramientas por turno
+- **Solicitud de permisos** — pregunta antes de ejecutar comandos no seguros (`y/n/a`)
+- **Carga de CLAUDE.md** — lee instrucciones del proyecto desde archivos CLAUDE.md en el árbol de directorios
+- **Contexto compatible con Git** — rama, estado y commits recientes en el prompt del sistema
 - **Guardar/reanudar sesión** — guarda automáticamente al salir, reanuda con `--resume <id>`
-- **Reintentos con retroceso** — reintentos exponenciales en límites de tasa 429/529
+- **Reintento con retroceso exponencial** — reintentos exponenciales en límites de tasa 429/529
 - **Seguimiento de costos** — totales por turno y por sesión
-- **Indicador giratorio** — con los verbos originales del spinner (Clauding, Flibbertigibbeting, etc.)
-- **Comandos slash** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`
-- **Modo pipe** — `echo "explain this" | ./claude.sh`
+- **Spinner** — con los verbos originales del spinner (Clauding, Flibbertigibbeting, etc.)
+- **Comandos de barra** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`
+- **Modo pipe** — `echo "explica esto" | ./claude.sh`
 
 ## Instalación
 
@@ -132,6 +164,6 @@ bats test/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-14
 
 ---

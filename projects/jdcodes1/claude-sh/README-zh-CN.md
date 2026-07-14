@@ -1,25 +1,57 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # claude.sh
 
-Claude 代码重写为 bash 脚本。约1,500行。零 npm 包。
+Claude Code 重新编写为 bash 脚本。约 1,500 行。完全不依赖 npm 包。
 
 ## 为什么
 
-原始 Claude 代码约38万行 TypeScript，依赖266个 npm 包。该脚本用 bash 仅依赖 `curl` 和 `jq` 实现相同核心功能。
+原版 Claude Code 是约 380,000 行的 TypeScript，包含 266 个 npm 依赖。这个版本只用 `curl` 和 `jq`，就能完成同样的核心工作。
 
 ## 功能
 
-- **实时流式传输** 通过 FIFO 管道 — 文本随着 Claude 生成实时显示
-- **6个工具**：Bash、Read、Edit、Write、Glob、Grep
-- **工具链** — 每轮最多调用25个工具
-- **权限提示** — 运行非安全命令前询问（`y/n/a`）
-- **CLAUDE.md 加载** — 从目录树上读取项目指令的 CLAUDE.md 文件
-- **Git 感知上下文** — 系统提示中包含分支、状态和最近提交
-- **会话保存/恢复** — 退出时自动保存，使用 `--resume <id>` 恢复
-- **带退避的重试** — 对429/529速率限制进行指数重试
-- **费用跟踪** — 按轮次和会话总计
-- **加载动画** — 使用原版加载动画动词（Clauding, Flibbertigibbeting 等）
-- **斜杠命令** — `/help`、`/cost`、`/model`、`/clear`、`/save`、`/resume`、`/commit`、`/diff`
-- **管道模式** — `echo "explain this" | ./claude.sh`
+- **实时流式传输** 通过 FIFO 管道——文本在 Claude 生成时实时显示
+- **6 种工具**：Bash、Read、Edit、Write、Glob、Grep
+- **工具链式调用**——每轮最多调用 25 次工具
+- **权限提示**——在运行不安全命令前询问（`y/n/a`）
+- **CLAUDE.md 加载**——从目录树中的 CLAUDE.md 文件读取项目说明
+- **Git 感知上下文**——分支、状态和最近提交在系统提示中显示
+- **会话保存/恢复**——退出时自动保存，使用 `--resume <id>` 恢复
+- **退避重试**——对 429/529 速率限制进行指数级重试
+- **成本跟踪**——每轮和会话总成本
+- **加载动画**——使用原始加载动词（Clauding、Flibbertigibbeting 等）
+- **斜杠命令**——`/help`、`/cost`、`/model`、`/clear`、`/save`、`/resume`、`/commit`、`/diff`
+- **管道模式**——`echo "explain this" | ./claude.sh`
 
 ## 安装
 
@@ -132,6 +164,6 @@ bats test/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-14
 
 ---

@@ -1,0 +1,1328 @@
+[
+  {
+    "row": 1,
+    "rowsha": "VLuYsXB556rVDIegQeSMoE+a/9jTV9u/iKwnBkEtIZk=",
+    "originContent": "# mozcdict-ext",
+    "translatedContent": "# mozcdict-ext"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "gAfHMYrv4OwxSTDXSUDnBNDmhMm8h7mhCs+g0zueyBE=",
+    "originContent": "Convert external words into Mozc system dictionary",
+    "translatedContent": "Convertir des mots externes en dictionnaire système Mozc"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Gyj6lfz9zzSh1A6JkUVen8NP4hroGXKA4eSp1ZrqUX8=",
+    "originContent": "# 概要",
+    "translatedContent": "# 概要"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "CBvZg7fPMEw/ee08jNjwDsPZOhQdZ+ek2iZ18nFw07w=",
+    "originContent": "本ツール群は当初 Mozc-UT (Mozcdic-UT) を失ったことによる損失を埋めるための「緊急避難」として使うために作られた。",
+    "translatedContent": "Ce groupe d'outils a été initialement créé pour être utilisé comme « solution d'urgence » afin de compenser la perte de Mozc-UT (Mozcdic-UT).  "
+  },
+  {
+    "row": 8,
+    "rowsha": "blkm26wKAXvgzWWahAJBVgYJZrhTbLEfhqiStlrokpg=",
+    "originContent": "現在はMozc-UTとは異なるアプローチによって、より快適な変換環境を構築することを目指している。",
+    "translatedContent": "Il vise désormais à construire un environnement de conversion plus confortable grâce à une approche différente de Mozc-UT."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "Hg7NKqDrqmqNKha2J+OiFXRBNbGL4eQZi579klEzpqM=",
+    "originContent": "本ツール群はMozc外部のリソースからMozcシステム辞書を構築する。",
+    "translatedContent": "Ce groupe d'outils construit un dictionnaire système Mozc à partir de ressources externes à Mozc.  "
+  },
+  {
+    "row": 11,
+    "rowsha": "owhlk2uPgc/za4lvwUgCFWZ1qQ48pDFY4+h661o1kMQ=",
+    "originContent": "これをMozcに組み込んでビルドすることにより、Mozcの語彙力を増加させることができる。",
+    "translatedContent": "En l'intégrant à Mozc et en le compilant, il est possible d'augmenter le vocabulaire de Mozc."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "J31rX4Lk/ijnwAKGatAlRNFi70IyQ2R0fLt9mPpFphA=",
+    "originContent": "本ソフトウェアにそのようにして生成された辞書は *含まない* 。",
+    "translatedContent": "Le logiciel ne *contient pas* le dictionnaire généré de cette manière.  "
+  },
+  {
+    "row": 14,
+    "rowsha": "mFSK/nP7QYWS4UM/Ow+124yQEh3tjSPHCC8p5aX+vQ4=",
+    "originContent": "また、 *Mozc本体も含まない* 。",
+    "translatedContent": "De plus, il *ne contient pas non plus le corps principal de Mozc*."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "sXo8j5i2jAEXtZOHw9nqQi2mx9ejRwheI++luqtEyd4=",
+    "originContent": "もとは緊急回避的な「つなぎ」として作られたソフトウェアであったが、現在はMozc-UTとは少し異なる方針のもとで開発されている。",
+    "translatedContent": "À l'origine, ce logiciel a été créé comme un « palliatif » d'urgence, mais il est maintenant développé selon une politique légèrement différente de celle de Mozc-UT."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Iy10RSKUcT9EI9TuDYUVC3ARPFp0y5gBFXZ0iqz8KJE=",
+    "originContent": "Mozcdic-UTとの大きな違いは以下になる",
+    "translatedContent": "Les principales différences avec Mozcdic-UT sont les suivantes :"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "HbV/ViB9nrcC6Y76sHlwFtgjHIV9FWVA4N6nfkyQ0vc=",
+    "originContent": "* オープンなプロジェクトであり、ライセンスがGPL v3である",
+    "translatedContent": "* C'est un projet ouvert sous licence GPL v3  "
+  },
+  {
+    "row": 21,
+    "rowsha": "5JPBleBcWqfa/T8n0YtsFk7OZ3Jo5HFYekJjFPqytTE=",
+    "originContent": "* ソフトウェアは辞書生成のためのツールであり、生成された辞書ではない",
+    "translatedContent": "* Le logiciel est un outil de génération de dictionnaire, pas le dictionnaire généré lui-même  "
+  },
+  {
+    "row": 22,
+    "rowsha": "UyIpXtA2fnvcMoezlhs5beyJYx8cbQfHznDUeDztPcE=",
+    "originContent": "* Mozcdic-UTは一般名詞のみを対象とするが、Mozcdict-EXTは品詞を制限しない",
+    "translatedContent": "* Mozcdic-UT vise uniquement les noms communs, tandis que Mozcdict-EXT ne limite pas les catégories grammaticales  "
+  },
+  {
+    "row": 23,
+    "rowsha": "1mSbxtSrgAR6xdASsL/AeOFvAhd/MSkhneMKkqzAL64=",
+    "originContent": "* web辞書コンバータ以外に人の手で編纂されたByHand辞書を持つ",
+    "translatedContent": "* En plus du convertisseur de dictionnaire web, il possède un dictionnaire ByHand compilé manuellement"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "GEzDQQZh0Cf6RBempn69noW7tnAEXLYUTedmG6WU7wk=",
+    "originContent": "# 使い方",
+    "translatedContent": "# 使い方"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "9OToiX5OoT2BJiOJoBwYfrphRcg6CFLvhAuIlW7s+ak=",
+    "originContent": "## 生成の基本",
+    "translatedContent": "## Génération de base"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "cbbJFl58jmpPEPruibGTynHELNht2olTpg1q2tMU5EE=",
+    "originContent": "各ディレクトリの `mkdict.zsh` または `mkdict.rb` は変換された辞書を生成し、標準出力に吐く。",
+    "translatedContent": "Les fichiers `mkdict.zsh` ou `mkdict.rb` dans chaque répertoire génèrent le dictionnaire converti et l’écrivent sur la sortie standard."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "8qKC80NKpRzJMUvnfwwPu5nK6CovcbNd2YkeP/FxJzQ=",
+    "originContent": "この時以下の前提を満たす必要がある。",
+    "translatedContent": "À ce moment, il est nécessaire de satisfaire les conditions suivantes :"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "SN657NojlAPDoVe/g6pjyZKWJ6/GJjuA0lNYkrRSe/g=",
+    "originContent": "* スクリプトの実行はスクリプトがあるディレクトリをカレントディレクトリとして実行する",
+    "translatedContent": "* L’exécution du script doit se faire en ayant pour répertoire courant celui où se trouve le script  "
+  },
+  {
+    "row": 34,
+    "rowsha": "znZRFEBmIfwKuj5O08iFG67Y8c3rn0ZHbDuugd7QjfE=",
+    "originContent": "* 環境変数 `$MOZC_ID_FILE` にMozcの`id.def`ファイルのパスを入れておく必要がある",
+    "translatedContent": "* La variable d’environnement `$MOZC_ID_FILE` doit contenir le chemin vers le fichier `id.def` de Mozc"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "OBWrx4m/79B/f7F/yavI4C8ZzYXU5XVj11q2qGkrWvg=",
+    "originContent": "`id.def` ファイルはMozcの`src/data/dictionary_oss/id.def`に存在している。",
+    "translatedContent": "Le fichier `id.def` se trouve dans `src/data/dictionary_oss/id.def` de Mozc.  "
+  },
+  {
+    "row": 37,
+    "rowsha": "ZOlEMM8MEngY49vd+IqBPD0CsDQ3scEbi828OJKD0+g=",
+    "originContent": "このファイルは *本ソフトウェアには含まれない。*",
+    "translatedContent": "Ce fichier *n’est pas inclus dans ce logiciel.*  "
+  },
+  {
+    "row": 38,
+    "rowsha": "K016nc+Wtk8/+FfJPfmEC7zD2i8ujr8cAtzq4Q2WLh0=",
+    "originContent": "ビルドにどのみちMozcが必要となるので、先にMozcのリポジトリを入手・更新しておくことが望ましい。",
+    "translatedContent": "Puisqu’il est nécessaire d’avoir Mozc pour la compilation, il est recommandé d’obtenir et de mettre à jour le dépôt de Mozc au préalable."
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "Yryh7nyp7XHqBXOVo8PA9T1sah9wtgV7qsbSvV3S+Z0=",
+    "originContent": "このようにして標準出力に吐かれた内容はMozcのシステム辞書として扱うことができ、システム辞書に組み込んでビルドすれば含めることができる。",
+    "translatedContent": "Le contenu ainsi écrit sur la sortie standard peut être traité comme un dictionnaire système Mozc,  "
+  },
+  {
+    "row": 41,
+    "rowsha": "Zv8wAPa+w5DFSRgTwpgSgXu58tkg/qJXaXdOlDpchzs=",
+    "originContent": "おすすめは `src/data/dictionary_oss/dictionary09.txt` に追記することだ。",
+    "translatedContent": "La recommandation est d’ajouter dans `src/data/dictionary_oss/dictionary09.txt`."
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "iLbQoK2vgx2hly5tPJXSuvZQHQGWdPNKzFlrDiKUA3o=",
+    "originContent": "## 最後の整形",
+    "translatedContent": "## Mise en forme finale"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "vdfdJQ0KlSh8gjH6BQ0fW+1WrcVRNhcr/4Cu6g76RZ8=",
+    "originContent": "複数の辞書を生成した場合、複数の辞書にまたがる整形作業を加えるとより良い。",
+    "translatedContent": "Lorsqu’on génère plusieurs dictionnaires, il est préférable d’appliquer une mise en forme couvrant plusieurs dictionnaires."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "QVUYCzMCYGTtF0Rzp85+5xsAmu79eJsa5n1HePB+kDk=",
+    "originContent": "`.dev.utils/uniqword.rb` は`ARGF`から辞書を読み、品詞を含めて同一の語があれば除外してSTDOUTに出力する。",
+    "translatedContent": "`.dev.utils/uniqword.rb` lit les dictionnaires depuis `ARGF`, exclut les mots identiques incluant la catégorie grammaticale, et affiche le résultat sur STDOUT."
+  },
+  {
+    "row": 48,
+    "rowsha": "DscMBo3611Nk0NjcIb8iUsm+bfPMloyXiQzorFg8I7g=",
+    "originContent": "重複した語はSTDERRに吐かれる。",
+    "translatedContent": "Les mots en double sont envoyés sur STDERR."
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "wbv1nUny0wBDb9+IAMLzfqcRhuyYx1UDwf2184iFggc=",
+    "originContent": "ruby uniqword.rb ~/dict/neologd.txt ~/dict/sudachi.txt > ~/dict/unified.txt",
+    "translatedContent": "ruby uniqword.rb ~/dict/neologd.txt ~/dict/sudachi.txt > ~/dict/unified.txt"
+  },
+  {
+    "row": 52,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Mozcdic-UTとは異なり、固有名詞の生成を行うため、この作業は実施した方が良い。"
+  },
+  {
+    "row": 54,
+    "rowsha": "CZ5XxULwEkdhhQbl2k7c56qYYipaj3nINUmwDkAdBjA=",
+    "originContent": "Mozcdic-UTと違い、固有名詞の生成を行うので、この作業はやったほうが良い。",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Dans le cas d'Archlinux"
+  },
+  {
+    "row": 56,
+    "rowsha": "GOnApbLLque25eWz2R4t4z35jrwmLqU3jqBiJ20A3t8=",
+    "originContent": "## Archlinuxの場合",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Un paquet AUR distinct nommé `fcitx5-mozc-ext-neologd` est disponible."
+  },
+  {
+    "row": 58,
+    "rowsha": "UUTL7Gbir3z7BgSsVrFEsIQ06Qe5XDbE2p769OU1FeE=",
+    "originContent": "本プロジェクトとは別に `fcitx5-mozc-ext-neologd` というAURパッケージを用意している。",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "En installant ce paquet via AUR, il est possible de construire et d’installer Mozc avec un dictionnaire externe inclus."
+  },
+  {
+    "row": 60,
+    "rowsha": "x0k+lXkYcGURRgR5+MPVJh85ZoKekPTbqz4V7JGVUWk=",
+    "originContent": "ARUからこのパッケージをインストールすることで外部辞書を含む形でMozcをビルドしてインストールすることができる。",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "À noter que ce paquet est indépendant de ce projet."
+  },
+  {
+    "row": 62,
+    "rowsha": "b5eB77kak4dJLvp7i6jOlttZmsMewpf9c3xpte3Hk2o=",
+    "originContent": "なお、当該パッケージは本プロジェクトとは別のものである。",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# Variables d'environnement"
+  },
+  {
+    "row": 64,
+    "rowsha": "5s0m+SXt08C75GvGpWVZ4VxqJEyJRPueNalu/xMphI8=",
+    "originContent": "# 環境変数",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## `$MOZC_ID_FILE`"
+  },
+  {
+    "row": 66,
+    "rowsha": "Sn/8BxBd+tNtofwRmfWUyxZRJT34+765N8/CKLXwLp8=",
+    "originContent": "## `$MOZC_ID_FILE`",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Obligatoire. Indique l'emplacement de `id.def` de MOZC."
+  },
+  {
+    "row": 68,
+    "rowsha": "pDHC3/3vA0pFGEIqK3AWJyQlQGqfxUAQA09KjsVF6UM=",
+    "originContent": "必須。MOZCの `id.def` の所在を示す。",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## `$WORDCLASS_ROUND`"
+  },
+  {
+    "row": 70,
+    "rowsha": "FZGMrkX0WxBYPa4cC+XpkEjhUT5pORGDS/Ep++i6jAg=",
+    "originContent": "## `$WORDCLASS_ROUND`",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Lorsque aucune catégorie grammaticale exacte n'existe, arrondit à une catégorie plus générale.  "
+  },
+  {
+    "row": 72,
+    "rowsha": "kM/r6yZcRHfGfbKB5ykMLM+WORpwkCrc2KZToy2uSVY=",
+    "originContent": "厳密に一致する品詞がない場合に、よりおおまかな品詞に丸める。",
+    "translatedContent": "Spécifier `no` pour désactiver ce traitement.  "
+  },
+  {
+    "row": 73,
+    "rowsha": "lJdl4czDS6QlANQ/hsYMAvorLMNhpCGjDK/xfuVWVl0=",
+    "originContent": "`no`を指定するとこの処理を行わない。",
+    "translatedContent": "Fonctionne avec les outils dictionnaires suivants :"
+  },
+  {
+    "row": 74,
+    "rowsha": "bAWqVr3GL1P73a3uLGs2RnLzjT7t7IGEhgTfK0huGqM=",
+    "originContent": "次の辞書ツールで機能する。",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* sudachi"
+  },
+  {
+    "row": 76,
+    "rowsha": "AWsfVO1ivXLZTaUBMmHmueiR6ADA8wNvHrycZRJG0Hs=",
+    "originContent": "* sudachi",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## `$ERROR_ON_UNEXPECTED_CLASS`"
+  },
+  {
+    "row": 78,
+    "rowsha": "2uaSNJtwFkkyoXtNO0UgYAwDxB8D5bpUti4bSJHeiCk=",
+    "originContent": "## `$ERROR_ON_UNEXPECTED_CLASS`",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Génère une erreur si un mot avec une catégorie grammaticale inconnue est rencontré.  "
+  },
+  {
+    "row": 80,
+    "rowsha": "CDUS1wW38y5JlynkVEzufRaUfFC6m+TEFsGjKdUoGVs=",
+    "originContent": "品詞が不明な語がある場合にエラーを発生させる。",
+    "translatedContent": "Par défaut, aucune erreur n'est générée ; spécifier `yes` pour activer l'erreur.  "
+  },
+  {
+    "row": 81,
+    "rowsha": "IRQrv4Eu363/RXA6KusNFhpV2DURmIxI3SPVP7unOwE=",
+    "originContent": "デフォルトでは発生させず、`yes`を指定した場合に発生させる。",
+    "translatedContent": "Fonctionne avec les outils dictionnaires suivants :"
+  },
+  {
+    "row": 82,
+    "rowsha": "bAWqVr3GL1P73a3uLGs2RnLzjT7t7IGEhgTfK0huGqM=",
+    "originContent": "次の辞書ツールで機能する。",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* sudachi"
+  },
+  {
+    "row": 84,
+    "rowsha": "AWsfVO1ivXLZTaUBMmHmueiR6ADA8wNvHrycZRJG0Hs=",
+    "originContent": "* sudachi",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# Options d'exécution"
+  },
+  {
+    "row": 86,
+    "rowsha": "s4Sr4k0NKc1moFTV7jdUlu7fkQp9r9S4mxYk5gFqs2Y=",
+    "originContent": "# 実行オプション",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## -e / --english"
+  },
+  {
+    "row": 88,
+    "rowsha": "DQRwh2Y32g4IeS8/3FfNL+RcL5qIcMJb8PDysglTlWg=",
+    "originContent": "## -e / --english",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Par défaut, cet outil exclut la « conversion vers l’anglais ».  "
+  },
+  {
+    "row": 90,
+    "rowsha": "6amJNm62oHk1Z/e1TGSSlImcX8dBOwHHwOubmqFhn1Q=",
+    "originContent": "通常、このツールは「英語への変換」を除外する。",
+    "translatedContent": "L'option `-e` ou `--english` permet d'accepter les résultats de conversion en anglais."
+  },
+  {
+    "row": 91,
+    "rowsha": "clB41LtCGZcB2DczTGNyESMKrYvyca8H7tDEmms1vPo=",
+    "originContent": "`-e` あるいは `--english` オプションをつけると、英語の変換結果を許容する。",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "cCgGVKlDB9ZHANs/tsNnS7f44LMLkgwguu7pB59C/qw=",
+    "originContent": "## --english-proper",
+    "translatedContent": "## --english-proper"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "er5Wjhe4zkcA+I85hUIQjqG3zBVTazvATO7OXvble+8=",
+    "originContent": "`--english`をつけておらず、`--english-proper`をつけた場合、英語は固有名詞である場合のみ許容する。",
+    "translatedContent": "Si `--english` n'est pas utilisé mais que `--english-proper` l'est, l'anglais est autorisé uniquement s'il s'agit d'un nom propre."
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "xMB2v+gbDt9IHF+Xv8u14T4G4XlIxIkXS1CLzu3jpug=",
+    "originContent": "## -P / --no-proper",
+    "translatedContent": "## -P / --no-proper"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "NTHOSvcV6lS5GBCSekWNrtxMWazSmXzZmKkg6FnJFWc=",
+    "originContent": "固有名詞を除外する。",
+    "translatedContent": "Exclure les noms propres."
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "GtlECddP1/7l0wFT0gy188K+GGOVnd8MmSNQNdlArfg=",
+    "originContent": "## -w / --fullwidth-english (neologd, sudachi)",
+    "translatedContent": "## -w / --fullwidth-english (neologd, sudachi)"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "cbYQHLk2Y1sPCW381xOA4NTigfnb87AajVhjaNqnvn4=",
+    "originContent": "全角英数と半角カナへの変換を除外しない。",
+    "translatedContent": "Ne pas exclure la conversion en caractères anglais en pleine largeur et en kana demi-largeur."
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "2XmnGCxxlekMl4/xAYU0MRvH2CWUPCvGYPLDVP5yjxA=",
+    "originContent": "より正確には通常はOnigmoの正規表現 `/^[\\p{Symbol}\\p{In_CJK_Symbols_and_Punctuation}\\p{Punctuation}\\p{White_Space}\\p{In_Halfwidth_and_Fullwidth_Forms}]+$/` にマッチする場合除外されるが、これによる除外を停止する。",
+    "translatedContent": "Plus précisément, en temps normal, la correspondance avec l'expression régulière Onigmo `/^[\\p{Symbol}\\p{In_CJK_Symbols_and_Punctuation}\\p{Punctuation}\\p{White_Space}\\p{In_Halfwidth_and_Fullwidth_Forms}]+$/` entraîne une exclusion, mais cette exclusion est désactivée."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "vasawUriqm0QISBbgPwBIY8dn3I0fitlgv9E/xxm5FA=",
+    "originContent": "## -W / --exclude-containing-fullwidth-english (byhand)",
+    "translatedContent": "## -W / --exclude-containing-fullwidth-english (byhand)"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "LEZUWYlAaCup3TaShZeQfjmyCcGKi6YOB6nes7WlVkY=",
+    "originContent": "全角英数あるいは半角カナが含まれる場合は除外する。",
+    "translatedContent": "Exclure si des caractères anglais en pleine largeur ou des kana demi-largeur sont présents."
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "34EWvVH9vruNG9tT7NHFLw+XkzTbN5DZBrked1wiCtM=",
+    "originContent": "## --fullwidth-english-proper (neologd, sudachi)",
+    "translatedContent": "## --fullwidth-english-proper (neologd, sudachi)"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "hyF3O+FEKPeN5IZmZa4eLkUu3VtgdB8U02+LiL8tk3g=",
+    "originContent": "`--fullwidth-english`をつけていない場合に固有名詞のみ許容する。",
+    "translatedContent": "Autoriser uniquement les noms propres si `--fullwidth-english` n'est pas utilisé."
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "zrWQh2FspvIjtoyQkNv63ulxUccPeWcbrFB7MbNvcvo=",
+    "originContent": "## -s / --symbol",
+    "translatedContent": "## -s / --symbol"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "xo/rMZ1hbJLXGnejpJejzALLs/Gs9tXXpcP7Db95A6A=",
+    "originContent": "通常、このツールは変換時に支障をきたす「きごう」を変換する記号を除外するが、",
+    "translatedContent": "Habituellement, cet outil exclut les symboles qui perturbent la conversion,  "
+  },
+  {
+    "row": 118,
+    "rowsha": "sA3ZgwL9GNokXYam60Y99nhnVC9TzHU7Gju1HdxfT1I=",
+    "originContent": "`-s` あるいは `--symbol` オプションをつけると、強制的に生成に含める。",
+    "translatedContent": "mais avec l'option `-s` ou `--symbol`, ils sont forcés d'être inclus dans la génération."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "Vxx9k5hIeJtoiCNKV7pepFId+eI0T2djE+78fXzTDlA=",
+    "originContent": "# オプションのデフォルト",
+    "translatedContent": "# Options par défaut"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "3TpxwI4D3gkBgsVR3LJKbgqfMJc9bp9zbyXJN0UUv/o=",
+    "originContent": "コマンドラインオプションを使用せずにデフォルトのオプションを変更したい場合、設定ディレクトリ(`${XDG_CONFIG_HOME:-$HOME/.config}/mozcdict-ext`)の`config.yaml`によってデフォルトオプションを与えることができる。",
+    "translatedContent": "Si vous souhaitez modifier les options par défaut sans utiliser d'options en ligne de commande, vous pouvez définir les options par défaut via `config.yaml` dans le répertoire de configuration (`${XDG_CONFIG_HOME:-$HOME/.config}/mozcdict-ext`)."
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "irFOOHmQ8k5KWA9++nB0b3f1ty/WzqDV/KJgiiFCntg=",
+    "originContent": "例えば`--fullwidth-english`を常に有効にしたい場合は、次のようにする。",
+    "translatedContent": "Par exemple, pour activer toujours `--fullwidth-english`, procédez comme suit."
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 127,
+    "rowsha": "iuEqY7dovA35oDzFEOH482o2f1t6XhtL9rlHgUTdK/s=",
+    "originContent": "fullwidth-english: true",
+    "translatedContent": "fullwidth-english: true"
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "Q4qbA1XKc2WxpmpVC4ML0jfLzFiZx4EmPbhcgk3OvHM=",
+    "originContent": "# 除外",
+    "translatedContent": "# Exclusion"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "s+SGXNn0yyI5lMir2Hju6GIFd1zkwhRseUZonLqA5OU=",
+    "originContent": "設定ディレクトリの`exclude.txt`ファイルを用いて、辞書への追加を回避したいパターンを指定することができる。",
+    "translatedContent": "Vous pouvez spécifier les motifs à exclure de l’ajout au dictionnaire en utilisant le fichier `exclude.txt` dans le répertoire de configuration."
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "K+y+mD4eNyDmANZmZ3L5WiOPVIsVRDBUANKVEAnGcZk=",
+    "originContent": "除外リストは、1行あたり1パターンで、読みパターンと原形パターンを1個以上の連続するホワイトスペースで区切ったものである。",
+    "translatedContent": "La liste d’exclusion contient un motif par ligne, séparant le motif de lecture et le motif de forme de base par au moins un espace blanc consécutif."
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "QAj2qpg3Fbtfvd1zstFR9sS0NdE21kiUbMrnskXp22Q=",
+    "originContent": "パターンはそれぞれ`File.fnmatch`によってチェックされる。",
+    "translatedContent": "Chaque motif est vérifié à l’aide de `File.fnmatch`."
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "kwv6b7WWDwBHVFFbb4VCw8OV+5kw3+jCw+DNgzEeNZ0=",
+    "originContent": "例えば`ゃ`で始まる読みで変換されるすべての候補を除外したい場合は",
+    "translatedContent": "Par exemple, pour exclure tous les candidats convertis commençant par la lecture `ゃ`"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 141,
+    "rowsha": "GD/HQc6W+MYbiLHCte/OuhXdxMfJ9JhDk24vnZZ+ud8=",
+    "originContent": "ゃ*    *",
+    "translatedContent": "ゃ*    *"
+  },
+  {
+    "row": 142,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "oPSOiRf+pjwXcWOJmY5CgQ3bN4fK/nSyUIEqAXbjDzs=",
+    "originContent": "とする。",
+    "translatedContent": "et ainsi de suite."
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "yAN44F2wHmPIMPoMW6BkTD0wPGeDbdQ8ZQLd/wtYcd8=",
+    "originContent": "# IssueとPR",
+    "translatedContent": "# Issues et PR"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "RF6S0B4ujdAibPWRzEiJptRr1OzIgVksg7c2d9XKSuk=",
+    "originContent": "何か問題があれば、Issueに書くか、Pull Requestを生成してほしい。",
+    "translatedContent": "Si vous rencontrez un problème, veuillez le noter dans une Issue ou générer une Pull Request."
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "Ut3ymAmGXT/lXLDghlNv9MTOzlDFNC8vjm8UYtVayMw=",
+    "originContent": "ただ、私は既にかなり手出ししている中で善意で本ソフトウェアを作っていることを理解してほしい。",
+    "translatedContent": "Cependant, je souhaite que vous compreniez que je crée ce logiciel de bonne volonté après y avoir déjà beaucoup contribué."
+  },
+  {
+    "row": 151,
+    "rowsha": "nCJ3ORnH6sZ0JJYdbzSz+aWzeUEYlP0zfVHtaxboC2k=",
+    "originContent": "つまり、IssueやPull Requestにまで手が回るかは分からない。",
+    "translatedContent": "Autrement dit, je ne garantis pas de pouvoir répondre à toutes les Issues ou Pull Requests."
+  },
+  {
+    "row": 152,
+    "rowsha": "lUGmsUZGxrzCHNpdGST+vg2WqDaPaeYK8ASaEvu35TM=",
+    "originContent": "(少なくとも、なるべく対応したいとは思っている。)",
+    "translatedContent": "(Au moins, j’essaierai d’y répondre autant que possible.)"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "mTH18IUI3nSPShNDZ8o6dG307DtIFzDGsmDSiVP1Wf4=",
+    "originContent": "# ByHand辞書への語彙追加と欠如している語彙の報告",
+    "translatedContent": "# Ajout de vocabulaire au dictionnaire ByHand et rapport de vocabulaire manquant"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "2Culc5HnyEvJRYZ8UvxhaLpqH0yxSFmcUXbjkXYRvww=",
+    "originContent": "最新のMozcと、本ソフトウェアのすべての辞書を有効にした状態で変換できない語があれば、[Mozcdict Ext 語彙欠如報告](https://mozc.chienomi.org)にて申請してほしい。",
+    "translatedContent": "Si un mot ne peut pas être converti avec la dernière version de Mozc et tous les dictionnaires de ce logiciel activés, veuillez le signaler via [Rapport d’absence de vocabulaire Mozcdict Ext](https://mozc.chienomi.org)."
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "g7ScEkcP4c/YRhY1Wh/8AlMqkOCwhTQJFAmminU/ndI=",
+    "originContent": "同ページから申請できないものについてはissueにて報告して欲しい。",
+    "translatedContent": "Pour les mots qui ne peuvent pas être signalés depuis cette page, veuillez les rapporter via une issue."
+  },
+  {
+    "row": 159,
+    "rowsha": "U9NlG0+bufGIVNOpGiD0XsaimLt5MDXmih9WUaNOFtA=",
+    "originContent": "また、具体的なMozc品詞を指定できる場合も、同ページではなくissueを立てて欲しい。",
+    "translatedContent": "De plus, si vous pouvez spécifier une catégorie grammaticale Mozc précise, créez une issue plutôt que d’utiliser cette page."
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "hmbS894f+QEr0fMDFXcS8DyRAwL7IiBYxmJJPfdxnjE=",
+    "originContent": "# ライセンスとパッケージング",
+    "translatedContent": "# Licence et empaquetage"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "78vwirbNsizAZUvI3kt0aoUq9i7zWhg8j4G632VwIVY=",
+    "originContent": "このソフトウェアはGPL v3でライセンスされている。",
+    "translatedContent": "Ce logiciel est sous licence GPL v3."
+  },
+  {
+    "row": 164,
+    "rowsha": "Lb259lcc6ffncU8xPgncb8JcV7y4N71b5P9CmwZ9dE0=",
+    "originContent": "ソフトウェアは「自由に」コピーして使って良い。",
+    "translatedContent": "Vous êtes libre de copier et d’utiliser ce logiciel."
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "4QU2P43xFzujf2acS+YAng4m+cGhxuO8badA1P/0fr4=",
+    "originContent": "一方、このソフトウェアに何か問題があったり、あるいは不足があったりしたとしても私は一切の責任を負うことはできない。",
+    "translatedContent": "En revanche, je ne peux être tenu responsable en cas de problème ou de défauts dans ce logiciel."
+  },
+  {
+    "row": 167,
+    "rowsha": "H0Vb9W5vxDhizZmdcCl8vZ95snNIxLr9ALTscdOvkbY=",
+    "originContent": "誰もがよく知っている通り、ABSOLUTELY NO WARRANTYである。",
+    "translatedContent": "Comme tout le monde le sait bien, il est fourni SANS AUCUNE GARANTIE."
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "wh2o2j2FooNqAcbeNnCU7PTdM6Ndm+lBJZy1XcWAbgQ=",
+    "originContent": "本ソフトウェアが提供するのはあくまでも辞書生成ツールである。",
+    "translatedContent": "Ce logiciel fournit uniquement un outil de génération de dictionnaire."
+  },
+  {
+    "row": 170,
+    "rowsha": "NPBqOYr9Bn/bQTnIvNtU2aLkNgPDt/PKod7G+8fQF5U=",
+    "originContent": "しかし、恐らくディストリビューションとして配布したいとすれば、それによってビルドされたMozcだろう。",
+    "translatedContent": "Cependant, si vous souhaitez le distribuer en tant que distribution, ce sera probablement Mozc construit avec cet outil."
+  },
+  {
+    "row": 171,
+    "rowsha": "D50my9V1HtQgvFcRBZqg/k2ciEGN0CIISXmgdz+Bt2k=",
+    "originContent": "このようにしてビルドされたMozcは本ツールのライセンスとは全く関係がない。",
+    "translatedContent": "Mozc ainsi construit n’est pas du tout lié à la licence de cet outil."
+  },
+  {
+    "row": 172,
+    "rowsha": "+TjoZzkzAbNbYKp1hSIygytsr3F2ua/5tvA3wvxXoEU=",
+    "originContent": "なぜならば、そのMozcに本ツールは含まれないからだ。",
+    "translatedContent": "Car cet outil n’est pas inclus dans Mozc."
+  },
+  {
+    "row": 173,
+    "rowsha": "x1I1gMeWCkct/gHakzSNyz53n3tNiaOof8KJKfcxQEQ=",
+    "originContent": "そのようなパッケージは、Mozcと、外部辞書として使われたリソースのライセンス・規約に従うことになるだろう。",
+    "translatedContent": "Un tel paquet devra respecter la licence et les règles de Mozc ainsi que des ressources utilisées en tant que dictionnaires externes."
+  },
+  {
+    "row": 174,
+    "rowsha": "1weJfwYBB7yI45J/hUGvGrGF9vvqT8Vel3R4r3Fa7Rs=",
+    "originContent": "そのようにして配布が可能であることもまた、本ソフトウェアおよび私は保証しない。",
+    "translatedContent": "Je ne garantis pas non plus que cette distribution soit possible."
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "IMdOhBrMIqvpi9Zt+8UgEL5FrxdsD0TgM3lE0wdl3j8=",
+    "originContent": "# 現在の進捗",
+    "translatedContent": "# État actuel des progrès"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "LB0AZNptyKSY7EhToSJKjuc607q0tfGe2PuVVPcUpzw=",
+    "originContent": "* NEologd - 機能する",
+    "translatedContent": "* NEologd - Fonctionnel"
+  },
+  {
+    "row": 179,
+    "rowsha": "EScn17hkV8fTRn/lk8GYvr6xJ5ilvMYpNqPnR09kugU=",
+    "originContent": "* Sudachi - 一部の品詞についてのみ生成される (実験的・開発中)",
+    "translatedContent": "* Sudachi - Généré seulement pour certaines catégories grammaticales (expérimental, en développement)"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "qh32cASaRM8Afnc3dIbXkUbijB5YupGcX1u+XVts8iQ=",
+    "originContent": "# 注意事項",
+    "translatedContent": "# Remarques importantes"
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "6CHxu8+sEw2x3doApncefNLzMFhA2/oCxmah68Ez9X8=",
+    "originContent": "* 本ソフトウェアによって生成される辞書のライセンス、および正当性について本ソフトウェアは一切関知しない",
+    "translatedContent": "* Ce logiciel ne se porte aucunement garant de la licence ni de la légitimité des dictionnaires générés par ce logiciel."
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "lElFKewHHiN33NGvbLx/6K51KVLw9PVszkyNR+46pjU=",
+    "originContent": "# 特に貢献を求めているもの",
+    "translatedContent": "# Ce qui nécessite particulièrement une contribution"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "dymAwPGPNzRekCGyBEzreqsV20Sf4uQXR7XN5goNE/k=",
+    "originContent": "sudachiの`clsmap.yaml` (Sudachiの品詞分類からMozcの品詞分類への変換)",
+    "translatedContent": "Le fichier `clsmap.yaml` de sudachi (conversion de la classification des parties du discours de Sudachi vers celle de Mozc)"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "Jw/AgcDk6XiuP7Ok6asiJQYL9My53iKunw5TKzeF9vg=",
+    "originContent": "`utils/dev-by-cls.rb` を使うと品詞ごとの具体的なワードに分類して`.dev.reference/sudachi-cls`以下に吐く(`.gitignore`で指定されている)ので、これを参考に品詞分類を固める作業が進行中である。",
+    "translatedContent": "En utilisant `utils/dev-by-cls.rb`, les mots sont classés par partie du discours et exportés sous `.dev.reference/sudachi-cls` (spécifié dans `.gitignore`), ce qui sert de référence pour affiner la classification des parties du discours."
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "PN06mrDD7fgF2474dzmuhWJdn48ZKG35KulaEE+mCy4=",
+    "originContent": "# Dependency",
+    "translatedContent": "# Dépendances"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "4MbeqvSwBydR1P1bFycfB+MK4hTwGNVSTeiZue/PD4s=",
+    "originContent": "* Ruby >= 3.0",
+    "translatedContent": "* Ruby >= 3.0"
+  },
+  {
+    "row": 194,
+    "rowsha": "ADrzXzT+BKvnD5fpOM8YbLGzAv4/bQmZP/EZL90TKPU=",
+    "originContent": "* Zsh",
+    "translatedContent": "* Zsh"
+  },
+  {
+    "row": 195,
+    "rowsha": "jeyQihbLU5YE23u3qM60Iwzn2YsRZtWHb/vZ2V8u84E=",
+    "originContent": "* xz(1)",
+    "translatedContent": "* xz(1)"
+  },
+  {
+    "row": 196,
+    "rowsha": "pmBIuy/GicjhDqFM91+ihGfTd8qmwzGIQHt//8XzRQQ=",
+    "originContent": "* curl(1)",
+    "translatedContent": "* curl(1)"
+  },
+  {
+    "row": 197,
+    "rowsha": "xKF6pSDNhRgpl2Ar32vbZ5AIKkxCc9Vct0Z6TogQ8JU=",
+    "originContent": "* Git (Submodules)",
+    "translatedContent": "* Git (Sous-modules)"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "tlWjvSDt3zJQNjlNmjxKOEfcHwgHSUsZDJqBzL+8BQg=",
+    "originContent": "# 辞書について",
+    "translatedContent": "# À propos des dictionnaires"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "QNN0FV7AAi9bmUYjpKB/9mYzeIF0FDBPhoPFdoZr6r8=",
+    "originContent": "## neologd",
+    "translatedContent": "## neologd"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "l9n3h5NSqyW8k1KTDLzoRj3TPT6fkVaNKc2zYRYmLOg=",
+    "originContent": "mecab-ipadic-NEologdをベースとした辞書である。",
+    "translatedContent": "Il s'agit d'un dictionnaire basé sur mecab-ipadic-NEologd."
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "EB5GdfQ0nyQwflOkvYGnw+uyNPIZy7BYE+kBnWjaRdQ=",
+    "originContent": "## sudachi",
+    "translatedContent": "## sudachi"
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "HXYHLcjVN9trV5jfjqT1rY1cbh+nulhsAUFzsaV6zjI=",
+    "originContent": "形態素解析ソフトウェアSudachiの辞書を流用したものである。",
+    "translatedContent": "Il s'agit d'un dictionnaire réutilisant celui du logiciel d'analyse morphologique Sudachi."
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "KnAm6ghxNxT9aesM2DHVUBIV6++RRezMNAbht1+pG4o=",
+    "originContent": "名詞以外についても利用する予定だが、現在停滞中である。",
+    "translatedContent": "L’utilisation pour les parties du discours autres que les noms est prévue, mais actuellement en pause."
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "8eWH6pKBCwgIC9bp9dYA2bvVqFt/IYiihuKTgbsh93o=",
+    "originContent": "## byhand",
+    "translatedContent": "## byhand"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "brouL2Xw60703DRHjL5EgA/d6FVjlFe9B9hWkrrKIAE=",
+    "originContent": "neologd, sudachiを使っても変換できない、もしくは変換が困難な語について手動で編纂されている辞書である。",
+    "translatedContent": "Il s'agit d'un dictionnaire compilé manuellement pour les mots qui ne peuvent pas être convertis ou sont difficiles à convertir avec neologd ou sudachi."
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "l0c4kvSFwmI/FY3qoTyDEXYSFtGsUQyfjtfxdbvmv8M=",
+    "originContent": "原則として国語小辞典に掲載されるような一般語のみを収録し、固有名詞は収録しない。",
+    "translatedContent": "En principe, il ne contient que des mots généraux figurant dans les petits dictionnaires de langue japonaise, sans noms propres."
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "1pwKAklBobVGJ71kdd7y7k2myB1G9cFuf8nuN6Bw2y8=",
+    "originContent": "## Mozc Common User Dict",
+    "translatedContent": "## Mozc Common User Dict"
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "L3bqN27X6fRlxnprc6GkFRS075vREevyRtrNgO08cvQ=",
+    "originContent": "[Mozc Common User Dict](https://github.com/reasonset/mozc-common-user-dict)は本プロジェクトを補完する一般語のユーザー辞書である。",
+    "translatedContent": "[Mozc Common User Dict](https://github.com/reasonset/mozc-common-user-dict) est un dictionnaire utilisateur général qui complète ce projet."
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "lsnJCEtA5uSMlsQDK74m4o4wkgz1LvEmIGJa//T/WFM=",
+    "originContent": "byhandへの収録が何らかの理由で難しいものはこちらに収録される。",
+    "translatedContent": "Les mots difficiles à inclure dans byhand pour une raison quelconque sont inclus ici."
+  }
+]

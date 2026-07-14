@@ -1,21 +1,53 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # claude.sh
 
-Code Claude réécrit en script bash. ~1 500 lignes. Zéro paquet npm.
+Code Claude réécrit comme un script bash. ~1 500 lignes. Zéro paquet npm.
 
 ## Pourquoi
 
-Le code original Claude fait ~380 000 lignes de TypeScript avec 266 dépendances npm. Ceci fait le même travail principal en bash avec juste `curl` et `jq`.
+Le Claude Code original fait ~380 000 lignes de TypeScript avec 266 dépendances npm. Ceci effectue le même travail de base en bash avec seulement `curl` et `jq`.
 
 ## Fonctionnalités
 
-- **Streaming en temps réel** via un pipe FIFO — le texte apparaît au fur et à mesure que Claude le génère
+- **Diffusion en temps réel** via un tube FIFO — le texte apparaît au fur et à mesure que Claude le génère
 - **6 outils** : Bash, Read, Edit, Write, Glob, Grep
-- **Chaînage d’outils** — jusqu’à 25 appels d’outil par tour
+- **Chaînage d'outils** — jusqu'à 25 appels d'outils par tour
 - **Demande de permission** — demande avant d’exécuter des commandes non sûres (`y/n/a`)
-- **Chargement CLAUDE.md** — lit les instructions du projet depuis les fichiers CLAUDE.md dans l’arborescence
-- **Contexte Git intégré** — branche, statut, et commits récents dans l’invite système
+- **Chargement de CLAUDE.md** — lit les instructions du projet à partir des fichiers CLAUDE.md dans l’arborescence du répertoire
+- **Contexte compatible Git** — branche, statut et commits récents dans le prompt système
 - **Sauvegarde/reprise de session** — sauvegarde automatique à la sortie, reprise avec `--resume <id>`
-- **Retry avec backoff** — retry exponentiel sur erreurs 429/529 de limitation de débit
+- **Nouvel essai avec backoff** — reprise exponentielle sur limites de débit 429/529
 - **Suivi des coûts** — totaux par tour et par session
 - **Spinner** — avec les verbes originaux du spinner (Clauding, Flibbertigibbeting, etc.)
 - **Commandes slash** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`
@@ -132,6 +164,6 @@ bats test/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-14
 
 ---

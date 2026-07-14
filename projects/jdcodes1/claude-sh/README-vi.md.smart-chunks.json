@@ -1,0 +1,1188 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# claude.sh\n\nClaude Code rewritten as a bash script. ~1,500 lines. Zero npm packages.\n\n## Why\n\nThe original Claude Code is ~380,000 lines of TypeScript with 266 npm dependencies. This does the same core job in bash with just `curl` and `jq`.\n",
+    "ContentSha": "CLrXaSjZsUSUEjEs0VHJCr7WRg2BSlz9XjYP5JXPhG0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Ngôn ngữ</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# claude.sh\n\nClaude Code được viết lại dưới dạng script bash. Khoảng ~1.500 dòng. Không sử dụng gói npm nào.\n\n## Tại sao\n\nClaude Code gốc có khoảng ~380.000 dòng TypeScript với 266 phụ thuộc npm. Script này thực hiện cùng nhiệm vụ cốt lõi bằng bash chỉ với `curl` và `jq`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Ngôn ngữ</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "052p3Ui2H2pF/wtisJzD1h0EMIfRttEcNwXNXCvIUNM=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "3ALNKjU/AlytbVIImlaIEJol7sebcByl6l9Jrn5MBYg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "eGFyCYVDr26enmWqtYnPzaFRWALd4Gew7Od5yX++G+s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "x1XFVl2SAVxgyJLx0s4a+EPLDMeWpCU6zuRZ5qRdF88=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "WzvyLjmsUK91OAA2xIrRTC50ReE27UgNJNnTRUG48v0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "TbjyqI4pCY3D4TWpy6i2xxa19N9EcDuCfnLxZKMdqtQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "mdzWCAoMc6IzuMzu1opWSYUu1o/lOF9jBM9/Q9r54OI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "446jHUjMBlWUfhuGXe7RvdrZ/IctH/4jJDW2lM6zeY8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "yyq1duamWO+tDus2V91Lwbt61IqGmErH7AsbpCKellg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "MytHREs5G+ywKg+8O9Dcjj2Z20wU/ZPeLxXsjwB4VzM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "rUZAXJ04nehp+payB++59KuSTj5UM5mLs8HHJpLL02c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "nCL0LWJeL9rSeHWsXWLY/5SM5SVvdCPnFPFlPiaWPVo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "sUqDuRiniZ4kI0WJwqpYCnRwcLwmM9vJ6Qc7gipFclk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "lqi5nGV3SfvycwJ3DBPyXzk3Jfv7Ck5TfNSgJuoNXw8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "mp9s3Zz0SgD+w8559ryaNa2o9QtvV8nHJ0afXpcoSb4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "M3vVXPv1EQtQfpkZOMmHyT2GGKAlq/SYWTsEXPBqseU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "Eu9Bk0s+rx7D8fkPso+RVdvOZex6rLpovs3vyCeEQfs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "7BfXFihAIuyz/CBUAIznf1jwa4uvYIj3PgFzcRzRMeg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Cb1YRc6LZTtfM/4dWanA2Z53JD4TMH35ab1c2CU5Ny8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "VSgtccjS63YEJnJAY71wi3xKoa0imLi5mPxxJPw77DI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "fCd/4u/cugn16QqnQ8bZKWMrNQYbVXU+ZtawDjl5dlw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "YcWtATimNNNtHiHZbUBZGvnQ/rd1CCL7YlZ1xL4HFR8=",
+        "originContent": "# claude.sh",
+        "translatedContent": "# claude.sh"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "nt01ZiRqVEwbhsdFHpcqy/X6dP4iyJKV2/JhXyqJwh8=",
+        "originContent": "Claude Code rewritten as a bash script. ~1,500 lines. Zero npm packages.",
+        "translatedContent": "Claude Code được viết lại dưới dạng script bash. Khoảng ~1.500 dòng. Không sử dụng gói npm nào."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "cHbd0n3XbVIsYvWAnCbWDq4E6GCMz2Wteckgofg0Jdg=",
+        "originContent": "## Why",
+        "translatedContent": "## Tại sao"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "kReu3dCLIpEwJR0b+TBQfJTXwXS9NnYJrQTCzRJqqrY=",
+        "originContent": "The original Claude Code is ~380,000 lines of TypeScript with 266 npm dependencies. This does the same core job in bash with just `curl` and `jq`.",
+        "translatedContent": "Claude Code gốc có khoảng ~380.000 dòng TypeScript với 266 phụ thuộc npm. Script này thực hiện cùng nhiệm vụ cốt lõi bằng bash chỉ với `curl` và `jq`."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Features\n\n- **Real-time streaming** via FIFO pipe — text appears as Claude generates it\n- **6 tools**: Bash, Read, Edit, Write, Glob, Grep\n- **Tool chaining** — up to 25 tool calls per turn\n- **Permission prompting** — asks before running non-safe commands (`y/n/a`)\n- **CLAUDE.md loading** — reads project instructions from CLAUDE.md files up the directory tree\n- **Git-aware context** — branch, status, and recent commits in system prompt\n- **Session save/resume** — auto-saves on exit, resume with `--resume <id>`\n- **Retry with backoff** — exponential retry on 429/529 rate limits\n- **Cost tracking** — per-turn and session totals\n- **Spinner** — with the original spinner verbs (Clauding, Flibbertigibbeting, etc.)\n- **Slash commands** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`\n- **Pipe mode** — `echo \"explain this\" | ./claude.sh`\n\n## Install\n",
+    "ContentSha": "HxswAMQnr2awllSegJtH9KyWk6FMou4n9Yl3/R+J8nI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Tính năng\n\n- **Phát trực tuyến theo thời gian thực** qua FIFO pipe — văn bản xuất hiện khi Claude tạo ra\n- **6 công cụ**: Bash, Đọc, Sửa, Viết, Glob, Grep\n- **Chuỗi công cụ** — tối đa 25 lần gọi công cụ mỗi lượt\n- **Nhắc quyền** — hỏi trước khi chạy lệnh không an toàn (`y/n/a`)\n- **Tải CLAUDE.md** — đọc hướng dẫn dự án từ các tệp CLAUDE.md trong cây thư mục\n- **Ngữ cảnh nhận biết Git** — nhánh, trạng thái, và các cam kết gần đây trong lời nhắc hệ thống\n- **Lưu/tiếp tục phiên** — tự động lưu khi thoát, tiếp tục với `--resume <id>`\n- **Thử lại với backoff** — thử lại theo cấp số nhân khi gặp giới hạn tốc độ 429/529\n- **Theo dõi chi phí** — tổng chi phí theo lượt và theo phiên\n- **Spinner** — với các động từ spinner gốc (Clauding, Flibbertigibbeting, v.v.)\n- **Lệnh gạch chéo** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`\n- **Chế độ pipe** — `echo \"giải thích điều này\" | ./claude.sh`\n\n## Cài đặt\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Tính năng"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MKgiWm+lHwu3geAcNcB2IzEkyuhM8ure1OX9iVcKHmY=",
+        "originContent": "- **Real-time streaming** via FIFO pipe — text appears as Claude generates it",
+        "translatedContent": "- **Phát trực tuyến theo thời gian thực** qua FIFO pipe — văn bản xuất hiện khi Claude tạo ra"
+      },
+      {
+        "row": 4,
+        "rowsha": "Xq3g7CZFVZaxsX4Zc82Qve9XJr5cMB21awNoenCnCww=",
+        "originContent": "- **6 tools**: Bash, Read, Edit, Write, Glob, Grep",
+        "translatedContent": "- **6 công cụ**: Bash, Đọc, Sửa, Viết, Glob, Grep"
+      },
+      {
+        "row": 5,
+        "rowsha": "7HNurhUBeZ8LIKAfK41Kb1FweAp/AFmCXzQYAPu+B6M=",
+        "originContent": "- **Tool chaining** — up to 25 tool calls per turn",
+        "translatedContent": "- **Chuỗi công cụ** — tối đa 25 lần gọi công cụ mỗi lượt"
+      },
+      {
+        "row": 6,
+        "rowsha": "pd+pvDfZDKoavZZnLXB9Ph3dqIPI/TrWpqpraeykZP4=",
+        "originContent": "- **Permission prompting** — asks before running non-safe commands (`y/n/a`)",
+        "translatedContent": "- **Nhắc quyền** — hỏi trước khi chạy lệnh không an toàn (`y/n/a`)"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZWtQK4rRfAgX2G6MLMpSTQ7P+FNJC4MCroO815FIP9E=",
+        "originContent": "- **CLAUDE.md loading** — reads project instructions from CLAUDE.md files up the directory tree",
+        "translatedContent": "- **Tải CLAUDE.md** — đọc hướng dẫn dự án từ các tệp CLAUDE.md trong cây thư mục"
+      },
+      {
+        "row": 8,
+        "rowsha": "kTGh2aReJCkR8jtMpN6Q6kPF7pJCEjU8XDYFkl4WZNM=",
+        "originContent": "- **Git-aware context** — branch, status, and recent commits in system prompt",
+        "translatedContent": "- **Ngữ cảnh nhận biết Git** — nhánh, trạng thái, và các cam kết gần đây trong lời nhắc hệ thống"
+      },
+      {
+        "row": 9,
+        "rowsha": "aCXPuZT2KuI2+d0lVbmR4Qz9aNC2qiKmejSBC7qOeiE=",
+        "originContent": "- **Session save/resume** — auto-saves on exit, resume with `--resume <id>`",
+        "translatedContent": "- **Lưu/tiếp tục phiên** — tự động lưu khi thoát, tiếp tục với `--resume <id>`"
+      },
+      {
+        "row": 10,
+        "rowsha": "ekReIc69bWLCT8JmlrG96mRhOybGNkSEs0JH8xOnPp8=",
+        "originContent": "- **Retry with backoff** — exponential retry on 429/529 rate limits",
+        "translatedContent": "- **Thử lại với backoff** — thử lại theo cấp số nhân khi gặp giới hạn tốc độ 429/529"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZaaNzduEmQ4X4dDLnKLxczhQfVvq4/2N0yPejUibOds=",
+        "originContent": "- **Cost tracking** — per-turn and session totals",
+        "translatedContent": "- **Theo dõi chi phí** — tổng chi phí theo lượt và theo phiên"
+      },
+      {
+        "row": 12,
+        "rowsha": "Rn8H42FSDtdH4tZixEEMu33AZZeqHo1Tj2I6HShQkkM=",
+        "originContent": "- **Spinner** — with the original spinner verbs (Clauding, Flibbertigibbeting, etc.)",
+        "translatedContent": "- **Spinner** — với các động từ spinner gốc (Clauding, Flibbertigibbeting, v.v.)"
+      },
+      {
+        "row": 13,
+        "rowsha": "TRpr63+kcTxeyaYNkxUnwoM/YwU/Jvk8dM9uiDi05QA=",
+        "originContent": "- **Slash commands** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`",
+        "translatedContent": "- **Lệnh gạch chéo** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`"
+      },
+      {
+        "row": 14,
+        "rowsha": "8E5EeIs7GreSVyrSeTrfOkT76vy0Sw4Z593ZpdrXJPw=",
+        "originContent": "- **Pipe mode** — `echo \"explain this\" | ./claude.sh`",
+        "translatedContent": "- **Chế độ pipe** — `echo \"giải thích điều này\" | ./claude.sh`"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## Cài đặt"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ngit clone https://github.com/jdcodes1/claude.sh.git\ncd claude.sh\nchmod +x claude.sh\n```",
+    "ContentSha": "Jo5kPFFZcL+QC6k4+fBrSTqRD9fJeg6jc3VT3r0MyF0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/jdcodes1/claude.sh.git\ncd claude.sh\nchmod +x claude.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xmgiIkwsBCYNlz7692RDl3TJYyLH0RpfZOQzqt9f6XY=",
+        "originContent": "git clone https://github.com/jdcodes1/claude.sh.git",
+        "translatedContent": "git clone https://github.com/jdcodes1/claude.sh.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "07R+NhwCrWI+IFm52OCu/hJhvGrSdOGfpc3aP+mosjY=",
+        "originContent": "cd claude.sh",
+        "translatedContent": "cd claude.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "ac4ktzd08g68MkRB5pdntLmLu7C5Ho8AGzPH3LpOQDI=",
+        "originContent": "chmod +x claude.sh",
+        "translatedContent": "chmod +x claude.sh"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Dependencies\n\n- `curl`\n- `jq`\n- Optional: `rg` (ripgrep) for better search\n- Optional: `python3` for the edit tool\n\nRuntime versions are pinned in `.tool-versions`. Install them with [mise](https://mise.jdx.dev/):\n",
+    "ContentSha": "OoN6FH4wMM2PR6r2bcR31E3rN2k3v9M8SOjyJ9hmBik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Phụ thuộc\n\n- `curl`\n- `jq`\n- Tuỳ chọn: `rg` (ripgrep) để tìm kiếm tốt hơn\n- Tuỳ chọn: `python3` cho công cụ chỉnh sửa\n\nPhiên bản thời gian chạy được cố định trong `.tool-versions`. Cài đặt chúng với [mise](https://mise.jdx.dev/):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+        "originContent": "## Dependencies",
+        "translatedContent": "## Phụ thuộc"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8I/0WnbfDmvPy0WEZW7sDCXtjM6Cf2QstIvxw1Vr4i4=",
+        "originContent": "- `curl`",
+        "translatedContent": "- `curl`"
+      },
+      {
+        "row": 5,
+        "rowsha": "yNIrbzbLBO8+i35CyCt9jIRwF3MnFfYhIw/5v+9PfDs=",
+        "originContent": "- `jq`",
+        "translatedContent": "- `jq`"
+      },
+      {
+        "row": 6,
+        "rowsha": "gXhobVPyuGoS1X5wpNlq4SDO1vJ4s8sS5Kdh6y8iV74=",
+        "originContent": "- Optional: `rg` (ripgrep) for better search",
+        "translatedContent": "- Tuỳ chọn: `rg` (ripgrep) để tìm kiếm tốt hơn"
+      },
+      {
+        "row": 7,
+        "rowsha": "zTxGojmT2T7pVODumGqckzRM7STzh+U5wgEBomBPNzs=",
+        "originContent": "- Optional: `python3` for the edit tool",
+        "translatedContent": "- Tuỳ chọn: `python3` cho công cụ chỉnh sửa"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+oEtrQeUfvd4jxNYzUuw91M7D/LxYnOJRPwlSFhM8Uk=",
+        "originContent": "Runtime versions are pinned in `.tool-versions`. Install them with [mise](https://mise.jdx.dev/):",
+        "translatedContent": "Phiên bản thời gian chạy được cố định trong `.tool-versions`. Cài đặt chúng với [mise](https://mise.jdx.dev/):"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\nmise install\n```",
+    "ContentSha": "0vl/hePoZcAq0DoU+5cJzn5xxG74eZz+vCY8o20IMLY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmise install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "sbVjM0XqkWJGVCg5pYeDCHSTl6c9l4dOf3lBJaQpNQg=",
+        "originContent": "mise install",
+        "translatedContent": "mise install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Usage\n",
+    "ContentSha": "d4QdQvtMh2QXOhSJXnbLIKLQwW7kakrJbYZVgSkHQiE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Sử dụng\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Sử dụng"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\nexport ANTHROPIC_API_KEY=\"sk-ant-...\"\n./claude.sh\n```",
+    "ContentSha": "6SWcP+CZDS+EjoL4lcgb524/jVFT35sejMMqYDD8NVg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nexport ANTHROPIC_API_KEY=\"sk-ant-...\"\n./claude.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "R6TZ6hVZ2Qy/bV9Zg74jEgQLiRDrCwt0doYXVjENA88=",
+        "originContent": "export ANTHROPIC_API_KEY=\"sk-ant-...\"",
+        "translatedContent": "export ANTHROPIC_API_KEY=\"sk-ant-...\""
+      },
+      {
+        "row": 3,
+        "rowsha": "kvrw1C+WYppTGrm0AaTT/vmrfg0GApjwx9KSJt7bFGw=",
+        "originContent": "./claude.sh",
+        "translatedContent": "./claude.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Environment Variables\n\n| Variable | Default | Description |\n| --- | --- | --- |\n| `ANTHROPIC_API_KEY` | (required) | Your Anthropic API key |\n| `CLAUDE_MODEL` | `claude-sonnet-4-6` | Model to use |\n| `CLAUDE_MAX_TOKENS` | `8192` | Max output tokens |\n| `ANTHROPIC_API_URL` | `https://api.anthropic.com` | API base URL |\n| `CLAUDE_SH_PERMISSIONS` | `ask` | Permission mode: `ask`, `allow`, or `deny` |\n\n### Commands\n",
+    "ContentSha": "OBM51Oi00/PiKjERXMs67M2Yt8ehudYbD16XwqG2FdE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Biến Môi Trường\n\n| Biến | Mặc định | Mô tả |\n| --- | --- | --- |\n| `ANTHROPIC_API_KEY` | (bắt buộc) | Khóa API Anthropic của bạn |\n| `CLAUDE_MODEL` | `claude-sonnet-4-6` | Mô hình sử dụng |\n| `CLAUDE_MAX_TOKENS` | `8192` | Số lượng token đầu ra tối đa |\n| `ANTHROPIC_API_URL` | `https://api.anthropic.com` | URL gốc của API |\n| `CLAUDE_SH_PERMISSIONS` | `ask` | Chế độ quyền: `ask`, `allow`, hoặc `deny` |\n\n### Lệnh\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "z0e1mPGeKrXDpgwT5hpUsqWlMTlzlzBoJvcLaIVPlLI=",
+        "originContent": "### Environment Variables",
+        "translatedContent": "### Biến Môi Trường"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AVnB4G1ZQKQgQvyQJufbPSFJ6g3EOu/e+EpZa5J1JGs=",
+        "originContent": "| Variable | Default | Description |",
+        "translatedContent": "| Biến | Mặc định | Mô tả |"
+      },
+      {
+        "row": 5,
+        "rowsha": "uOxIVVYHvGICEmxdtkLxHPiYFR+28qoZ0uKK6hnX5TI=",
+        "originContent": "| --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- |"
+      },
+      {
+        "row": 6,
+        "rowsha": "n3m02qy3YRNbI9r88SlJ7wuHryIzQYZotyGj3v4fLoM=",
+        "originContent": "| `ANTHROPIC_API_KEY` | (required) | Your Anthropic API key |",
+        "translatedContent": "| `ANTHROPIC_API_KEY` | (bắt buộc) | Khóa API Anthropic của bạn |"
+      },
+      {
+        "row": 7,
+        "rowsha": "P2Rmnd6W/Vc3rf78cJaxCvKbsS8ByIsS4KFPw/6wPhw=",
+        "originContent": "| `CLAUDE_MODEL` | `claude-sonnet-4-6` | Model to use |",
+        "translatedContent": "| `CLAUDE_MODEL` | `claude-sonnet-4-6` | Mô hình sử dụng |"
+      },
+      {
+        "row": 8,
+        "rowsha": "D5gvsVkqbx4tim+MM5K8x3K1lhju5HZHfQvcwIsQMP0=",
+        "originContent": "| `CLAUDE_MAX_TOKENS` | `8192` | Max output tokens |",
+        "translatedContent": "| `CLAUDE_MAX_TOKENS` | `8192` | Số lượng token đầu ra tối đa |"
+      },
+      {
+        "row": 9,
+        "rowsha": "uJ6/r8JtzbL8lgsVNfHyO6TSScevEnR/lufhMiZBwjk=",
+        "originContent": "| `ANTHROPIC_API_URL` | `https://api.anthropic.com` | API base URL |",
+        "translatedContent": "| `ANTHROPIC_API_URL` | `https://api.anthropic.com` | URL gốc của API |"
+      },
+      {
+        "row": 10,
+        "rowsha": "USycksuoGWwXkxKX49eiwEjjzzjhfaCKh4F5L+Rr1vM=",
+        "originContent": "| `CLAUDE_SH_PERMISSIONS` | `ask` | Permission mode: `ask`, `allow`, or `deny` |",
+        "translatedContent": "| `CLAUDE_SH_PERMISSIONS` | `ask` | Chế độ quyền: `ask`, `allow`, hoặc `deny` |"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ojzHaJvBjq4QJPpFn43w2+csgojMuzApUE3HFrdJmQI=",
+        "originContent": "### Commands",
+        "translatedContent": "### Lệnh"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```txt\n/help      — Show help\n/cost      — Show session cost\n/model     — Show/change model\n/clear     — Clear conversation\n/save      — Save current session\n/resume    — List/resume saved sessions\n/commit    — Auto-generate a git commit\n/diff      — Show git diff\n/quit      — Exit\n```",
+    "ContentSha": "kkC/h+psW6x6MR2FAlMWIsUqX+xdzUHmBugHtdeDlOI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```txt\n/help      — Show help\n/cost      — Show session cost\n/model     — Show/change model\n/clear     — Clear conversation\n/save      — Save current session\n/resume    — List/resume saved sessions\n/commit    — Auto-generate a git commit\n/diff      — Show git diff\n/quit      — Exit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qUYvmp9Aa73LZSIGY0gJ1j5I9EW9X2shlDDkpRp9+Zg=",
+        "originContent": "```txt",
+        "translatedContent": "```txt"
+      },
+      {
+        "row": 2,
+        "rowsha": "a5kXiXWWpUI7XKaWn0MXHPAkudCBOO0AJmzCMExjH2I=",
+        "originContent": "/help      — Show help",
+        "translatedContent": "/help      — Show help"
+      },
+      {
+        "row": 3,
+        "rowsha": "NlFOh64n2O9XCEjqlULIwWCxkQuM+6kGUF0s5pFciJU=",
+        "originContent": "/cost      — Show session cost",
+        "translatedContent": "/cost      — Show session cost"
+      },
+      {
+        "row": 4,
+        "rowsha": "5uY03BzN1RAgO0WfbczLa26+OQqtZ62N/LZ9hy8egtY=",
+        "originContent": "/model     — Show/change model",
+        "translatedContent": "/model     — Show/change model"
+      },
+      {
+        "row": 5,
+        "rowsha": "EuHXX0mcUR9iGYfQfAFRiKG/TSREVj0uMRqqs8XYY3g=",
+        "originContent": "/clear     — Clear conversation",
+        "translatedContent": "/clear     — Clear conversation"
+      },
+      {
+        "row": 6,
+        "rowsha": "0xZLNyyVgrgmr/KR6jMRVnnpDr2OB1ddejVPE1+J5iY=",
+        "originContent": "/save      — Save current session",
+        "translatedContent": "/save      — Save current session"
+      },
+      {
+        "row": 7,
+        "rowsha": "Z0tGU177poTZf+cySNwvQKm+MnyQxmfiMOJz4Zm+0RA=",
+        "originContent": "/resume    — List/resume saved sessions",
+        "translatedContent": "/resume    — List/resume saved sessions"
+      },
+      {
+        "row": 8,
+        "rowsha": "nGe2h/n9M75ePOkR9C/tiMWEWpCpBuNdu80p7u4Asgw=",
+        "originContent": "/commit    — Auto-generate a git commit",
+        "translatedContent": "/commit    — Auto-generate a git commit"
+      },
+      {
+        "row": 9,
+        "rowsha": "F6pQo4RgWEzjSFPEoG9YWsQHjl/mSDzUf/t/nemVZ+s=",
+        "originContent": "/diff      — Show git diff",
+        "translatedContent": "/diff      — Show git diff"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZLnfDTQHBKYIrP+XlpK8KeBF3r422+EM5y4qLqB3RbQ=",
+        "originContent": "/quit      — Exit",
+        "translatedContent": "/quit      — Exit"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Resume a Session\n",
+    "ContentSha": "zapEfvMsjB6vFNXUMBUA0gwhFcnw5QQUIVsCcfIIpIE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Tiếp tục một Phiên làm việc\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bbW2nyBSxs4cclS+lytgfH6RvxgdwRFz21zxAeBYgT0=",
+        "originContent": "### Resume a Session",
+        "translatedContent": "### Tiếp tục một Phiên làm việc"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\n# List saved sessions\n./claude.sh\n> /resume\n\n# Resume by number\n> /resume 1\n\n# Resume from CLI\n./claude.sh --resume 20240101-120000-12345\n```",
+    "ContentSha": "gmAk0HQP+dJ6l5GjKZ3SWR9A7xW9oEXN2JyLfRPX8yE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# List saved sessions\n./claude.sh\n> /resume\n\n# Resume by number\n> /resume 1\n\n# Resume from CLI\n./claude.sh --resume 20240101-120000-12345\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9no1klVJ7JuDzQt7FxASO06PlMkM8PZYaQlTa+bqhtE=",
+        "originContent": "# List saved sessions",
+        "translatedContent": "# List saved sessions"
+      },
+      {
+        "row": 3,
+        "rowsha": "kvrw1C+WYppTGrm0AaTT/vmrfg0GApjwx9KSJt7bFGw=",
+        "originContent": "./claude.sh",
+        "translatedContent": "./claude.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "Qtr970AXi5IqHfDtFyl26eZlaRJGXdGHaHdrFjnCbLY=",
+        "originContent": "> /resume",
+        "translatedContent": "> /resume"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "JmK8af+LHsNwV9GeFqZi77ZQCIxFygWoXVfyICYtoN0=",
+        "originContent": "# Resume by number",
+        "translatedContent": "# Resume by number"
+      },
+      {
+        "row": 7,
+        "rowsha": "y8Eply5WCP+MdBrTXVqqDm04etM6s5AlzvJm7RlLg/Q=",
+        "originContent": "> /resume 1",
+        "translatedContent": "> /resume 1"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wm/ajSjYYouIVfLC5YIXF+xv43yrbxgvtsHIdqS2HRs=",
+        "originContent": "# Resume from CLI",
+        "translatedContent": "# Resume from CLI"
+      },
+      {
+        "row": 10,
+        "rowsha": "y8H5lRVoG2SrfF3Fq4gQIlojNNUQhjPscwnkiyO12r4=",
+        "originContent": "./claude.sh --resume 20240101-120000-12345",
+        "translatedContent": "./claude.sh --resume 20240101-120000-12345"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Architecture\n",
+    "ContentSha": "z7iwhO7gw0zYhdjnOtOQMHkyvW7q0GMSnxt1C6V6MXk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Kiến trúc\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "## Kiến trúc"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```txt\nclaude.sh          # Main REPL loop, slash commands, process_turn()\nlib/\n  api.sh           # Anthropic API client, SSE streaming via FIFO, retry\n  json.sh          # Message construction, session persistence, CLAUDE.md, git context\n  tools.sh         # 6 tool implementations + permission system\n  tui.sh           # ANSI colors, spinner, display helpers\n```",
+    "ContentSha": "DT/upTfoT/jCT7JMXY9L18t2a9GQkDtvFzvtk1TXWDU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```txt\nclaude.sh          # Main REPL loop, slash commands, process_turn()\nlib/\n  api.sh           # Anthropic API client, SSE streaming via FIFO, retry\n  json.sh          # Message construction, session persistence, CLAUDE.md, git context\n  tools.sh         # 6 tool implementations + permission system\n  tui.sh           # ANSI colors, spinner, display helpers\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qUYvmp9Aa73LZSIGY0gJ1j5I9EW9X2shlDDkpRp9+Zg=",
+        "originContent": "```txt",
+        "translatedContent": "```txt"
+      },
+      {
+        "row": 2,
+        "rowsha": "UzSRXMncdtNsFVQKtBr+U+hgQ92DRPTu/GB407Zb8u0=",
+        "originContent": "claude.sh          # Main REPL loop, slash commands, process_turn()",
+        "translatedContent": "claude.sh          # Main REPL loop, slash commands, process_turn()"
+      },
+      {
+        "row": 3,
+        "rowsha": "j0/icp2IGthgyT96+ZqvEucrp6uo0MOWCztCTd8mn0k=",
+        "originContent": "lib/",
+        "translatedContent": "lib/"
+      },
+      {
+        "row": 4,
+        "rowsha": "PH1xV8rRgayNnRhN2uwE/mOV0iyexj1YDsnj813XyK4=",
+        "originContent": "  api.sh           # Anthropic API client, SSE streaming via FIFO, retry",
+        "translatedContent": "  api.sh           # Anthropic API client, SSE streaming via FIFO, retry"
+      },
+      {
+        "row": 5,
+        "rowsha": "uohrVUvuG4NVp1ENlGUXtqO1nrXwK0i5WrsDrIquztI=",
+        "originContent": "  json.sh          # Message construction, session persistence, CLAUDE.md, git context",
+        "translatedContent": "  json.sh          # Message construction, session persistence, CLAUDE.md, git context"
+      },
+      {
+        "row": 6,
+        "rowsha": "hR7KWBDrM5b2myhRZ0zte/b6z79b/n08vUSR50BT/9o=",
+        "originContent": "  tools.sh         # 6 tool implementations + permission system",
+        "translatedContent": "  tools.sh         # 6 tool implementations + permission system"
+      },
+      {
+        "row": 7,
+        "rowsha": "P40B6A0u9w4t9vAdwOlx+WW27s8dRMMYvg4bOFIcmKs=",
+        "originContent": "  tui.sh           # ANSI colors, spinner, display helpers",
+        "translatedContent": "  tui.sh           # ANSI colors, spinner, display helpers"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## How It Works\n\n1. Read user input\n2. Build JSON request with `jq` (messages, tools, system prompt)\n3. Stream response via `curl` through a FIFO pipe\n4. Parse SSE events line-by-line, print text deltas in real-time\n5. When tool_use blocks arrive, execute the tools\n6. Feed tool results back as messages\n7. Loop until Claude stops calling tools\n\n## Comparison\n\n| | claude.sh | Claude Code (TypeScript) |\n| --- | --- | --- |\n| Lines of code | ~1,500 | ~380,000 |\n| Dependencies | curl, jq | 266 npm packages |\n| Binary size | 0 (script) | ~200MB node_modules |\n| Startup time | Instant | ~500ms |\n\n### Testing\n\nTests use [bats](https://github.com/bats-core/bats-core) (Bash Automated Testing System):\n",
+    "ContentSha": "f+CduEvZP0zenXsvfKEK+3+iFqC3Ae+LEwhsDQzGJEM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Cách Thức Hoạt Động\n\n1. Đọc đầu vào từ người dùng\n2. Xây dựng yêu cầu JSON với `jq` (tin nhắn, công cụ, lời nhắc hệ thống)\n3. Truyền phản hồi theo luồng qua `curl` thông qua một ống FIFO\n4. Phân tích các sự kiện SSE từng dòng, in phần thay đổi văn bản theo thời gian thực\n5. Khi các khối tool_use đến, thực thi các công cụ\n6. Gửi kết quả công cụ trở lại dưới dạng tin nhắn\n7. Lặp lại cho đến khi Claude ngừng gọi công cụ\n\n## So Sánh\n\n| | claude.sh | Claude Code (TypeScript) |\n| --- | --- | --- |\n| Số dòng mã | ~1,500 | ~380,000 |\n| Phụ thuộc | curl, jq | 266 gói npm |\n| Kích thước nhị phân | 0 (script) | ~200MB node_modules |\n| Thời gian khởi động | Ngay lập tức | ~500ms |\n\n### Kiểm Tra\n\nCác bài kiểm tra sử dụng [bats](https://github.com/bats-core/bats-core) (Hệ Thống Kiểm Tra Tự Động Bash):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## Cách Thức Hoạt Động"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EA0x8SBTivDGPJrMF4xOrtWBUU8btyzAvyBKqVEjhWw=",
+        "originContent": "1. Read user input",
+        "translatedContent": "1. Đọc đầu vào từ người dùng"
+      },
+      {
+        "row": 5,
+        "rowsha": "CvwrHcyS0I5Qqy8i0TvjC3b2X7vajrT8gCxqtKw3+j0=",
+        "originContent": "2. Build JSON request with `jq` (messages, tools, system prompt)",
+        "translatedContent": "2. Xây dựng yêu cầu JSON với `jq` (tin nhắn, công cụ, lời nhắc hệ thống)"
+      },
+      {
+        "row": 6,
+        "rowsha": "qJZ+MW0DO70kVHOOZ57UAU4N4qinCGldVKDtWbbgaIg=",
+        "originContent": "3. Stream response via `curl` through a FIFO pipe",
+        "translatedContent": "3. Truyền phản hồi theo luồng qua `curl` thông qua một ống FIFO"
+      },
+      {
+        "row": 7,
+        "rowsha": "w0xCJ9UX9Kr27oZe+RN4cg6PDBJrXwnK3vqpcSkealg=",
+        "originContent": "4. Parse SSE events line-by-line, print text deltas in real-time",
+        "translatedContent": "4. Phân tích các sự kiện SSE từng dòng, in phần thay đổi văn bản theo thời gian thực"
+      },
+      {
+        "row": 8,
+        "rowsha": "SLFjaVAIzH0ZcpQhuLWK9uahs7q75nLUDNy1XqaTiGM=",
+        "originContent": "5. When tool_use blocks arrive, execute the tools",
+        "translatedContent": "5. Khi các khối tool_use đến, thực thi các công cụ"
+      },
+      {
+        "row": 9,
+        "rowsha": "p6JkYsjWH8EtG5VSAZ4NipovwcvZXEzv3q0o3JZufuo=",
+        "originContent": "6. Feed tool results back as messages",
+        "translatedContent": "6. Gửi kết quả công cụ trở lại dưới dạng tin nhắn"
+      },
+      {
+        "row": 10,
+        "rowsha": "+4vRvAjE7lPtRqbEv+OaVvrcfHhl4apF+EU5cm1TdW4=",
+        "originContent": "7. Loop until Claude stops calling tools",
+        "translatedContent": "7. Lặp lại cho đến khi Claude ngừng gọi công cụ"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "9DDmcBiSCcvpJhMzUdVPg9mKK2oXRziYzueTjH7saoA=",
+        "originContent": "## Comparison",
+        "translatedContent": "## So Sánh"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nw76AzTC0inzeTJ+zGj+Oqol3qQP/i5xloL85/E9UuE=",
+        "originContent": "| | claude.sh | Claude Code (TypeScript) |",
+        "translatedContent": "| | claude.sh | Claude Code (TypeScript) |"
+      },
+      {
+        "row": 15,
+        "rowsha": "uOxIVVYHvGICEmxdtkLxHPiYFR+28qoZ0uKK6hnX5TI=",
+        "originContent": "| --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- |"
+      },
+      {
+        "row": 16,
+        "rowsha": "FeXiyiI1R/scTEz/OsSn4ufexwbgpJssaSY5uxEarHo=",
+        "originContent": "| Lines of code | ~1,500 | ~380,000 |",
+        "translatedContent": "| Số dòng mã | ~1,500 | ~380,000 |"
+      },
+      {
+        "row": 17,
+        "rowsha": "ot2QidVyfD7+NmvLvDD5egmd8qtmy5GjF4/+Cpqf72k=",
+        "originContent": "| Dependencies | curl, jq | 266 npm packages |",
+        "translatedContent": "| Phụ thuộc | curl, jq | 266 gói npm |"
+      },
+      {
+        "row": 18,
+        "rowsha": "y3nINUpumPC+7EnVsLLH2E8EkfMNpBoWZn5ny8D3IQA=",
+        "originContent": "| Binary size | 0 (script) | ~200MB node_modules |",
+        "translatedContent": "| Kích thước nhị phân | 0 (script) | ~200MB node_modules |"
+      },
+      {
+        "row": 19,
+        "rowsha": "EXqvu8NykEZXbyCr87MpOJwqwylXmbUhEN0TzsuVnGs=",
+        "originContent": "| Startup time | Instant | ~500ms |",
+        "translatedContent": "| Thời gian khởi động | Ngay lập tức | ~500ms |"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "5gDFo3ZvkOtpBCf1mWI4JGgowepLxssFRC4NJBi3KJY=",
+        "originContent": "### Testing",
+        "translatedContent": "### Kiểm Tra"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "VTjjq3gTHqOE0j7pIwIjeX9PhwxxoZGLXfg/ubpKyTY=",
+        "originContent": "Tests use [bats](https://github.com/bats-core/bats-core) (Bash Automated Testing System):",
+        "translatedContent": "Các bài kiểm tra sử dụng [bats](https://github.com/bats-core/bats-core) (Hệ Thống Kiểm Tra Tự Động Bash):"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```bash\nbats test/\n```",
+    "ContentSha": "MreNZPmOkfNcH8Pxh3gJhCPoQ5h/fwGY9hit/WLjfis=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbats test/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kzK0dpwdIbvGMHugfGLY7f0oZl7ZN+kNWCOlxvCLCiI=",
+        "originContent": "bats test/",
+        "translatedContent": "bats test/"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n## License\n\n[MIT](LICENSE)\n",
+    "ContentSha": "3IDF1WBQSdcA5RrZOwe6TLyd9whato9AvAh6VAracDo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## License\n\n[MIT](LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+        "originContent": "[MIT](LICENSE)",
+        "translatedContent": "[MIT](LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

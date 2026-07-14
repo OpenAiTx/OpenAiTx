@@ -1,23 +1,55 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # claude.sh
 
-Claude 코드를 bash 스크립트로 재작성. 약 1,500줄. npm 패키지 없음.
+Claude Code를 bash 스크립트로 재작성했습니다. 약 1,500줄. npm 패키지 없음.
 
-## 이유
+## 왜
 
-원래 Claude 코드는 약 380,000줄의 TypeScript와 266개의 npm 의존성을 가집니다. 이것은 `curl`과 `jq`만으로 bash에서 동일한 핵심 작업을 수행합니다.
+원래 Claude Code는 약 380,000줄의 TypeScript와 266개의 npm 의존성이 있습니다. 이것은 bash에서 `curl`과 `jq`만 사용하여 동일한 핵심 작업을 수행합니다.
 
 ## 기능
 
-- **실시간 스트리밍** FIFO 파이프를 통해 — Claude가 생성하는 텍스트가 바로 나타납니다
+- FIFO 파이프를 통한 **실시간 스트리밍** — Claude가 텍스트를 생성하는 대로 표시됨
 - **6가지 도구**: Bash, Read, Edit, Write, Glob, Grep
-- **도구 체이닝** — 한 턴에 최대 25개의 도구 호출 가능
-- **권한 요청** — 안전하지 않은 명령 실행 전에 확인 요청 (`y/n/a`)
-- **CLAUDE.md 로딩** — 상위 디렉토리 트리의 CLAUDE.md 파일에서 프로젝트 지침 읽기
-- **Git 인식 컨텍스트** — 시스템 프롬프트에 브랜치, 상태, 최근 커밋 표시
+- **도구 체이닝** — 한 턴에 최대 25번 도구 호출 가능
+- **권한 요청** — 안전하지 않은 명령 실행 전 확인 요청 (`y/n/a`)
+- **CLAUDE.md 로딩** — 디렉터리 트리에서 CLAUDE.md 파일을 읽어 프로젝트 지침 적용
+- **Git 인식 컨텍스트** — 시스템 프롬프트에 브랜치, 상태, 최근 커밋 정보 포함
 - **세션 저장/재개** — 종료 시 자동 저장, `--resume <id>`로 재개 가능
-- **백오프를 이용한 재시도** — 429/529 속도 제한 시 지수적 재시도
-- **비용 추적** — 턴별 및 세션 총합
-- **스피너** — 원래 스피너 동사 사용 (Clauding, Flibbertigibbeting 등)
+- **백오프 재시도** — 429/529 레이트 리밋에 대해 지수적 재시도
+- **비용 추적** — 턴별 및 세션별 총합 표시
+- **스피너** — 원래의 스피너 동사(Clauding, Flibbertigibbeting 등) 포함
 - **슬래시 명령어** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`
 - **파이프 모드** — `echo "explain this" | ./claude.sh`
 
@@ -132,6 +164,6 @@ bats test/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-14
 
 ---

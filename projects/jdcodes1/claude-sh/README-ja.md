@@ -1,23 +1,55 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=jdcodes1&project=claude-sh&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # claude.sh
 
-Claudeコードをbashスクリプトに書き直しました。約1,500行。npmパッケージは一切使用していません。
+Claude Code を bash スクリプトとして書き直しました。約1,500行。npm パッケージはゼロ。
 
 ## なぜ
 
-元のClaudeコードは約380,000行のTypeScriptで、266のnpm依存関係があります。これはcurlとjqだけでbashで同じコア機能を実現しています。
+元の Claude Code は約380,000行の TypeScript で、266個の npm 依存があります。これは同じコアの役割を bash で `curl` と `jq` のみを使って実現しています。
 
-## 特徴
+## 機能
 
-- **リアルタイムストリーミング** FIFOパイプ経由 — Claudeが生成するテキストがリアルタイムで表示されます
-- **6つのツール**: Bash, Read, Edit, Write, Glob, Grep
-- **ツールチェーン** — 1ターンあたり最大25回のツール呼び出し
-- **権限プロンプト** — 安全でないコマンド実行前に確認（`y/n/a`）
-- **CLAUDE.md読み込み** — ディレクトリ階層を遡ってCLAUDE.mdファイルからプロジェクト指示を読み込み
-- **Git対応コンテキスト** — システムプロンプトにブランチ、ステータス、最新コミットを表示
-- **セッション保存/再開** — 終了時に自動保存、`--resume <id>`で再開可能
-- **バックオフ付きリトライ** — 429/529レート制限時に指数関数的リトライ
-- **コスト追跡** — ターンごとおよびセッション合計
-- **スピナー** — オリジナルのスピナーワード（Clauding, Flibbertigibbetingなど）
+- **リアルタイムストリーミング**（FIFOパイプ経由）— Claudeが生成するテキストが即時に表示
+- **6つのツール**: Bash、Read、Edit、Write、Glob、Grep
+- **ツールの連鎖** — 1ターンにつき最大25回のツール呼び出し
+- **権限確認プロンプト** — 安全でないコマンド実行前に確認（`y/n/a`）
+- **CLAUDE.md読込** — ディレクトリツリー上のCLAUDE.mdファイルからプロジェクト指示を読込
+- **Git対応コンテキスト** — システムプロンプトにブランチ、ステータス、最近のコミットを表示
+- **セッション保存／再開** — 終了時に自動保存、`--resume <id>`で再開
+- **バックオフ付きリトライ** — 429/529レート制限時に指数的リトライ
+- **コスト追跡** — ターンごと、セッションごとの合計
+- **スピナー** — オリジナルのスピナーバーブ（Clauding, Flibbertigibbeting等）搭載
 - **スラッシュコマンド** — `/help`, `/cost`, `/model`, `/clear`, `/save`, `/resume`, `/commit`, `/diff`
 - **パイプモード** — `echo "explain this" | ./claude.sh`
 
@@ -132,6 +164,6 @@ bats test/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-14
 
 ---
