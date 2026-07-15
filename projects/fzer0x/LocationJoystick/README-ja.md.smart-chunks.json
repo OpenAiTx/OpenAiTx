@@ -1,0 +1,906 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Location Joystick\n\n## English\n\nLocation Joystick is an Xposed module designed for location simulation. It provides a joystick overlay and various location-related settings to enhance the simulation experience.\n\n⚠️ **[NEW] No Root/Xposed functionality (Mock Location)** ⚠️\n\n# LATEST RELEASE: https://github.com/fzer0x/LocationJoystick_V4/releases\n\n<div align=\"center\">\n\n## 🚀 JOIN OUR COMMUNITY 🚀\n\n<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">\n  <img src=\"https://img.shields.io/badge/👉_CLICK_HERE_TO_JOIN-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />\n</a>\n\n🔥 Join and get support & updates!\n\n</div>\n\n![Screenshot](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)\n\n## Features\n\n- **Joystick Overlay:** Navigate in real-time with a customizable joystick.\n- **Location Simulation:** Mock your GPS location with precision.\n- **GNSS Mocking:** Full GNSS status simulation (satellite count, SVID, C/N0, etc.) to simulate realistic positioning behavior.\n- **Randomization:** Add a random offset radius to your location for more natural movement.\n- **Favorites:** Save and manage your favorite locations for quick switching.\n- **Customizable UI:**\n    - Adjust joystick and minimap transparency (alpha).\n    - Configurable joystick speed.\n    - Persistent joystick position saving.\n\n## Requirements\n\n- **Android:** 10+ (Min SDK 30)\n- **Root:** Required for Xposed Framework usage.",
+    "ContentSha": "TlThgmG29SvPlj8132umdsE3MRdDP1/z+jsgwx/C8NU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Location Joystick\n\n## 日本語\n\nLocation Joystickは位置情報のシミュレーション用に設計されたXposedモジュールです。ジョイスティックのオーバーレイと様々な位置情報関連の設定を提供し、シミュレーション体験を向上させます。\n\n⚠️ **[新機能] ルート/Xposed不要機能（モックロケーション）** ⚠️\n\n# 最新リリース: https://github.com/fzer0x/LocationJoystick_V4/releases\n\n<div align=\"center\">\n\n## 🚀 コミュニティに参加しよう 🚀\n\n<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">\n  <img src=\"https://img.shields.io/badge/👉_CLICK_HERE_TO_JOIN-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />\n</a>\n\n🔥 参加してサポートと最新情報をゲット！\n\n</div>\n\n![スクリーンショット](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)\n\n## 機能\n\n- **ジョイスティックオーバーレイ:** カスタマイズ可能なジョイスティックでリアルタイムにナビゲート。\n- **位置情報シミュレーション:** 精密にGPS位置をモック。\n- **GNSSモック:** 衛星数、SVID、C/N0などの完全なGNSS状態シミュレーションにより、リアルな位置特性を再現。\n- **ランダム化:** より自然な動きを実現するために位置にランダムなオフセット半径を追加。\n- **お気に入り:** お気に入りの場所を保存・管理し、素早く切り替え可能。\n- **カスタマイズ可能なUI:**\n    - ジョイスティックとミニマップの透明度（アルファ）を調整。\n    - ジョイスティックの速度設定可能。\n    - ジョイスティックの位置を永続的に保存。\n\n## 動作要件\n\n- **Android:** 10以上（最小SDK 30）\n- **Root:** Xposed Framework使用時に必要。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SCoV0Z06wzbni+ykcuUyytfbtqAIywGShf5e9MgozLs=",
+        "originContent": "# Location Joystick",
+        "translatedContent": "# Location Joystick"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "miY0apOCbZdk5nFLoa4JnvQTK6cfH7r4GtkFN2Gxd/c=",
+        "originContent": "## English",
+        "translatedContent": "## 日本語"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uO/L/n6n8Jbg+hCJJAAtcdNGvxjBIlC0SPnjUZffneo=",
+        "originContent": "Location Joystick is an Xposed module designed for location simulation. It provides a joystick overlay and various location-related settings to enhance the simulation experience.",
+        "translatedContent": "Location Joystickは位置情報のシミュレーション用に設計されたXposedモジュールです。ジョイスティックのオーバーレイと様々な位置情報関連の設定を提供し、シミュレーション体験を向上させます。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "7IE0+k73QrJETK90Y5jqaKlTlyNfm8VzDkPiuDC2KAg=",
+        "originContent": "⚠️ **[NEW] No Root/Xposed functionality (Mock Location)** ⚠️",
+        "translatedContent": "⚠️ **[新機能] ルート/Xposed不要機能（モックロケーション）** ⚠️"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "g+RDPU7J65jWTlEtNvtcT+YJs0dNZdrVbohnNIPGhq4=",
+        "originContent": "# LATEST RELEASE: https://github.com/fzer0x/LocationJoystick_V4/releases",
+        "translatedContent": "# 最新リリース: https://github.com/fzer0x/LocationJoystick_V4/releases"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "vJcizGdlKteBzbq3zEWViTYCn5CGdIatJn42DHAiQO8=",
+        "originContent": "## 🚀 JOIN OUR COMMUNITY 🚀",
+        "translatedContent": "## 🚀 コミュニティに参加しよう 🚀"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "zfNylcJDdL3dSTHZjCzr5R1+KKSq51eRzaxPvmMgy4Q=",
+        "originContent": "<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">",
+        "translatedContent": "<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "iMhQBY/+A96pCYvAgHlk8GtJsXTKQJIl9Hq7/PTQEFU=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/👉_CLICK_HERE_TO_JOIN-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/👉_CLICK_HERE_TO_JOIN-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />"
+      },
+      {
+        "row": 17,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "3VHWZCrJgWBpEcKHzqHZLZFQMBi5aOrYyqwBZGu8WO8=",
+        "originContent": "🔥 Join and get support & updates!",
+        "translatedContent": "🔥 参加してサポートと最新情報をゲット！"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "6GiI1BeZd/Djub0f2sOuw3bJqGH6UZoVPAPJ7afFBvs=",
+        "originContent": "![Screenshot](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)",
+        "translatedContent": "![スクリーンショット](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "oscGhfH9s0xYUlpc0fbC9tETvaEMiQH7GzWDbNIWJkQ=",
+        "originContent": "- **Joystick Overlay:** Navigate in real-time with a customizable joystick.",
+        "translatedContent": "- **ジョイスティックオーバーレイ:** カスタマイズ可能なジョイスティックでリアルタイムにナビゲート。"
+      },
+      {
+        "row": 28,
+        "rowsha": "AUcdeYxLOgLFdFVSrl8n9hg/97WrgIYfoee54to1ESE=",
+        "originContent": "- **Location Simulation:** Mock your GPS location with precision.",
+        "translatedContent": "- **位置情報シミュレーション:** 精密にGPS位置をモック。"
+      },
+      {
+        "row": 29,
+        "rowsha": "uEHOlloWMKh1NtsxuTfeyGUxenaoHWnTOm3DLTq2UO4=",
+        "originContent": "- **GNSS Mocking:** Full GNSS status simulation (satellite count, SVID, C/N0, etc.) to simulate realistic positioning behavior.",
+        "translatedContent": "- **GNSSモック:** 衛星数、SVID、C/N0などの完全なGNSS状態シミュレーションにより、リアルな位置特性を再現。"
+      },
+      {
+        "row": 30,
+        "rowsha": "aia9jPZeIxlm8kYsQMCpr/FyBG1H7+6e031bBQ1eVz4=",
+        "originContent": "- **Randomization:** Add a random offset radius to your location for more natural movement.",
+        "translatedContent": "- **ランダム化:** より自然な動きを実現するために位置にランダムなオフセット半径を追加。"
+      },
+      {
+        "row": 31,
+        "rowsha": "dBvdhnaAvknbrzedgxcD9547kBJPa+flvoKystv9m/E=",
+        "originContent": "- **Favorites:** Save and manage your favorite locations for quick switching.",
+        "translatedContent": "- **お気に入り:** お気に入りの場所を保存・管理し、素早く切り替え可能。"
+      },
+      {
+        "row": 32,
+        "rowsha": "jlYy9MkW2G3k3dcD0ql1jtpCaSADjphQ46oIE+SXM5g=",
+        "originContent": "- **Customizable UI:**",
+        "translatedContent": "- **カスタマイズ可能なUI:**"
+      },
+      {
+        "row": 33,
+        "rowsha": "B1i/ggbbqyoyJwmT+z0MDgJTT/xliaJZLUqJ93zesq0=",
+        "originContent": "    - Adjust joystick and minimap transparency (alpha).",
+        "translatedContent": "    - ジョイスティックとミニマップの透明度（アルファ）を調整。"
+      },
+      {
+        "row": 34,
+        "rowsha": "T4EVHpaUtrYgUWdiZpQc2R7jLBZw8ZUAeOgs3xvzC8k=",
+        "originContent": "    - Configurable joystick speed.",
+        "translatedContent": "    - ジョイスティックの速度設定可能。"
+      },
+      {
+        "row": 35,
+        "rowsha": "zYz1ZdjlcavYIIvm7jd00mDTaDMePOMIcPF46RF7qD0=",
+        "originContent": "    - Persistent joystick position saving.",
+        "translatedContent": "    - ジョイスティックの位置を永続的に保存。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 動作要件"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "gjXHsUx1xNEK1bXVqVpZ2XGEsdwgKq/iP4EHPSB8u9Y=",
+        "originContent": "- **Android:** 10+ (Min SDK 30)",
+        "translatedContent": "- **Android:** 10以上（最小SDK 30）"
+      },
+      {
+        "row": 40,
+        "rowsha": "Fg42clIKe+ktauZPlveziAq2daW+WCgR8+SkkcLQWOE=",
+        "originContent": "- **Root:** Required for Xposed Framework usage.",
+        "translatedContent": "- **Root:** Xposed Framework使用時に必要。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **Xposed Framework:** LSPosed is recommended.\n- **[NEW] No Root/Xposed functionality (Mock Location)**\n\n## Installation & LSPosed Scope Configuration\n\n1. Install the Location Joystick APK.\n2. Open your Xposed Manager (e.g. LSPosed).\n3. Enable the **Location Joystick** module.\n4. **Important:** Configure the scope in LSPosed:\n    - **Android-System** (must be enabled for GNSS & system-wide mocking).\n    - **Target App(s)** (e.g. Pokémon GO, Maps).\n5. Reboot your device (or force stop the target app and System UI if using LSPosed).\n6. Open Location Joystick and grant the required permissions (Overlay, Location).\n\n## Usage\n\n1. Open the app and set your desired starting location on the map.\n2. Configure your simulation settings (speed, accuracy, etc.).\n3. Start the service to display the joystick overlay.\n4. Open your target app and move using the joystick.\n\n## Disclaimer\n\nThis tool is intended for educational and development purposes only. Use at your own risk.\n\n## License\n\nSee the [LICENSE](LICENSE) file for details.\n\n---\n\n# Location Joystick\n\n## 中文\n\nLocation Joystick 是一款用于模拟定位的 Xposed 模块。它提供了一个虚拟摇杆悬浮窗以及多种与定位相关的设置，以增强模拟体验。\n\n⚠️ **[新功能] 无需 Root 或 Xposed 的模拟定位功能** ⚠️\n\n",
+    "ContentSha": "Ri9CTCZYmK31VeOOdAMAzOL85NdR30JO9CJ/Em8YMnE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Xposed Framework:** LSPosed が推奨されます。\n- **[新機能] Root/Xposed 不要の機能（モック位置情報）**\n\n## インストールと LSPosed のスコープ設定\n\n1. Location Joystick APK をインストールします。\n2. Xposed マネージャー（例：LSPosed）を開きます。\n3. **Location Joystick** モジュールを有効にします。\n4. **重要:** LSPosed でスコープを設定します：\n    - **Android-System**（GNSS とシステム全体のモックに必須）。\n    - **対象アプリ**（例：ポケモンGO、マップ）。\n5. デバイスを再起動するか（LSPosed 使用時は対象アプリと System UI を強制停止してください）。\n6. Location Joystick を開き、必要な権限（オーバーレイ、位置情報）を許可します。\n\n## 使い方\n\n1. アプリを開き、地図上で希望の開始地点を設定します。\n2. シミュレーション設定（速度、精度など）を調整します。\n3. サービスを開始して、ジョイスティックのオーバーレイを表示します。\n4. 対象アプリを開いて、ジョイスティックで移動します。\n\n## 免責事項\n\nこのツールは教育および開発目的のみに使用してください。使用は自己責任でお願いします。\n\n## ライセンス\n\n詳細は [LICENSE](LICENSE) ファイルを参照してください。\n\n---\n\n# Location Joystick\n\n## 中文\n\nLocation Joystick は位置情報を模擬するための Xposed モジュールです。仮想ジョイスティックの浮動ウィンドウや、位置情報に関連した多様な設定を提供し、模擬体験を強化します。\n\n⚠️ **[新機能] Root や Xposed 不要の模擬位置情報機能** ⚠️\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2/Vi5r2GLlafDlNZWH+6aX+SpVDVs6kRT+XOSSltpXA=",
+        "originContent": "- **Xposed Framework:** LSPosed is recommended.",
+        "translatedContent": "- **Xposed Framework:** LSPosed が推奨されます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "enud47/EkiyOsipPY3Ct/lNAOCsEXwdlTk0eeyrFSIM=",
+        "originContent": "- **[NEW] No Root/Xposed functionality (Mock Location)**",
+        "translatedContent": "- **[新機能] Root/Xposed 不要の機能（モック位置情報）**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Qs2kz9x3hHdflUCADVazeFT5gtIzsI3LlA+gGI6QL8E=",
+        "originContent": "## Installation & LSPosed Scope Configuration",
+        "translatedContent": "## インストールと LSPosed のスコープ設定"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "bSOOVWQbzghKF0jbG+9/HOGQNou1wRWAZunv4i0bO9o=",
+        "originContent": "1. Install the Location Joystick APK.",
+        "translatedContent": "1. Location Joystick APK をインストールします。"
+      },
+      {
+        "row": 7,
+        "rowsha": "UmUd8YFDpgX/neMSv/dp0yRnA5vwd1YdNlBmxjFWVFo=",
+        "originContent": "2. Open your Xposed Manager (e.g. LSPosed).",
+        "translatedContent": "2. Xposed マネージャー（例：LSPosed）を開きます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "V8+wBTYuHIA9x5XalVZVmheujppfHpxitizU8Dd+zCw=",
+        "originContent": "3. Enable the **Location Joystick** module.",
+        "translatedContent": "3. **Location Joystick** モジュールを有効にします。"
+      },
+      {
+        "row": 9,
+        "rowsha": "SPLrtqOd1JNhmcloVZYqVRwJQ1fi9LCOYDqcJlxekP8=",
+        "originContent": "4. **Important:** Configure the scope in LSPosed:",
+        "translatedContent": "4. **重要:** LSPosed でスコープを設定します："
+      },
+      {
+        "row": 10,
+        "rowsha": "S8WCVlFFIouAiVrev4Tf+l31J3n3FVx2TPrmaVEbvG4=",
+        "originContent": "    - **Android-System** (must be enabled for GNSS & system-wide mocking).",
+        "translatedContent": "    - **Android-System**（GNSS とシステム全体のモックに必須）。"
+      },
+      {
+        "row": 11,
+        "rowsha": "ic9r0p6ibOIHVMPR77gduTkhp/ul/BoYmebJ6hvjw+4=",
+        "originContent": "    - **Target App(s)** (e.g. Pokémon GO, Maps).",
+        "translatedContent": "    - **対象アプリ**（例：ポケモンGO、マップ）。"
+      },
+      {
+        "row": 12,
+        "rowsha": "DgtFqn9lfZCh3G5f0mY9qvur6G70oiqEMRHMB02oA40=",
+        "originContent": "5. Reboot your device (or force stop the target app and System UI if using LSPosed).",
+        "translatedContent": "5. デバイスを再起動するか（LSPosed 使用時は対象アプリと System UI を強制停止してください）。"
+      },
+      {
+        "row": 13,
+        "rowsha": "a2kFDiy3impaavt2x6jnZ3JmZU0S3iH/1qLUg0h1DUQ=",
+        "originContent": "6. Open Location Joystick and grant the required permissions (Overlay, Location).",
+        "translatedContent": "6. Location Joystick を開き、必要な権限（オーバーレイ、位置情報）を許可します。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使い方"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "saILNrABXw6R8TcerPRuFxSL4k7K7QrkdT3oOQDFVM0=",
+        "originContent": "1. Open the app and set your desired starting location on the map.",
+        "translatedContent": "1. アプリを開き、地図上で希望の開始地点を設定します。"
+      },
+      {
+        "row": 18,
+        "rowsha": "1GNT7IUsX59ELX2FmYByDarxLPI89NkXfDNn6uZLIAk=",
+        "originContent": "2. Configure your simulation settings (speed, accuracy, etc.).",
+        "translatedContent": "2. シミュレーション設定（速度、精度など）を調整します。"
+      },
+      {
+        "row": 19,
+        "rowsha": "i20qneIov+Vz73GXq5BpHZjIyMKpZvpXEjAOOd7hWJ0=",
+        "originContent": "3. Start the service to display the joystick overlay.",
+        "translatedContent": "3. サービスを開始して、ジョイスティックのオーバーレイを表示します。"
+      },
+      {
+        "row": 20,
+        "rowsha": "exOfvM8lpzlNSjRmUn0u+hLSu+hmRzbM6XTMz8g8mTI=",
+        "originContent": "4. Open your target app and move using the joystick.",
+        "translatedContent": "4. 対象アプリを開いて、ジョイスティックで移動します。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## 免責事項"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "DZiiYQvbLvr2iuXin5ICgeJ6KoiGeD8vyiVttXFVe7s=",
+        "originContent": "This tool is intended for educational and development purposes only. Use at your own risk.",
+        "translatedContent": "このツールは教育および開発目的のみに使用してください。使用は自己責任でお願いします。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "qK1vq2G2Jgkkdkwg1vh0U3NiHyCsdXNRX70u9+hLgi0=",
+        "originContent": "See the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "詳細は [LICENSE](LICENSE) ファイルを参照してください。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "SCoV0Z06wzbni+ykcuUyytfbtqAIywGShf5e9MgozLs=",
+        "originContent": "# Location Joystick",
+        "translatedContent": "# Location Joystick"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Hbkv906uKu2Cly96VhgHZR+ErxH8QpxsWxeJBX1C/3U=",
+        "originContent": "## 中文",
+        "translatedContent": "## 中文"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "DKrT01l4l9NyPuPE7iTUrnrWAnUZO9jAg49HcQbJ0hI=",
+        "originContent": "Location Joystick 是一款用于模拟定位的 Xposed 模块。它提供了一个虚拟摇杆悬浮窗以及多种与定位相关的设置，以增强模拟体验。",
+        "translatedContent": "Location Joystick は位置情報を模擬するための Xposed モジュールです。仮想ジョイスティックの浮動ウィンドウや、位置情報に関連した多様な設定を提供し、模擬体験を強化します。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "wkn+PU2OZQogcYq1r3bKfa1r9DgKp/2A+raRjJavD40=",
+        "originContent": "⚠️ **[新功能] 无需 Root 或 Xposed 的模拟定位功能** ⚠️",
+        "translatedContent": "⚠️ **[新機能] Root や Xposed 不要の模擬位置情報機能** ⚠️"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n<div align=\"center\">\n\n## 🚀 加入我们的社区 🚀\n\n<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">\n  <img src=\"https://img.shields.io/badge/👉_点击加入-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />\n</a>\n\n🔥 加入即可获取免费福利与最新更新！\n\n# LATEST RELEASE: https://github.com/fzer0x/LocationJoystick_V4/releases\n\n</div>\n\n![截图](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)\n\n## 功能\n\n- **虚拟摇杆悬浮窗：** 使用可自定义的摇杆进行实时移动。\n- **模拟定位：** 精确模拟你的 GPS 位置。\n- **GNSS 模拟：** 完整模拟 GNSS 状态（卫星数量、SVID、C/N0 等），可用于应对高级定位检测机制。\n- **随机化：** 为定位添加随机偏移范围，使移动轨迹更加自然。\n- **收藏夹：** 保存和管理常用位置，方便快速切换。\n- **可自定义界面：**\n    - 调整摇杆和小地图透明度（Alpha）。\n    - 可配置摇杆移动速度。\n    - 自动保存摇杆位置。\n\n## 系统要求\n\n- **Android：** 10+（最低 SDK 30）\n- **Root：** 使用 Xposed 框架需要 Root 权限。\n- **Xposed 框架：** 推荐使用 LSPosed。\n- **[新功能] 无需 Root/Xposed 的模拟定位功能**\n\n## 安装与 LSPosed 作用域配置\n\n1. 安装 Location Joystick APK。\n2. 打开 Xposed 管理器（例如 LSPosed）。",
+    "ContentSha": "UyQch0MmA+0LEG4iit8kRLj/qzeqvkuESNi0NkC+cVc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n\n## 🚀 私たちのコミュニティに参加しよう 🚀\n\n<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">\n  <img src=\"https://img.shields.io/badge/👉_クリックして参加-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />\n</a>\n\n🔥 参加すると無料特典と最新アップデートを入手可能！\n\n# 最新リリース: https://github.com/fzer0x/LocationJoystick_V4/releases\n\n</div>\n\n![スクリーンショット](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)\n\n## 機能\n\n- **仮想ジョイスティックのフローティングウィンドウ：** カスタマイズ可能なジョイスティックでリアルタイム移動。\n- **位置情報のシミュレーション：** GPSの位置を正確にシミュレート。\n- **GNSSシミュレーション：** 完全なGNSS状態（衛星数、SVID、C/N0など）をシミュレートし、高度な位置検出対策に対応。\n- **ランダマイズ：** 位置にランダムな偏差範囲を追加し、移動軌跡をより自然に。\n- **お気に入り：** よく使う位置を保存・管理し、素早く切り替え可能。\n- **カスタマイズ可能なインターフェース：**\n    - ジョイスティックとミニマップの透明度（アルファ値）調整。\n    - ジョイスティックの移動速度を設定可能。\n    - ジョイスティックの位置を自動保存。\n\n## システム要件\n\n- **Android：** 10以上（最低SDK 30）\n- **Root：** Xposedフレームワーク使用時はRoot権限が必要。\n- **Xposedフレームワーク：** LSPosedの使用を推奨。\n- **[新機能] Root/Xposed不要の位置情報シミュレーション機能**\n\n## インストールとLSPosedスコープ設定\n\n1. Location Joystick APKをインストール。\n2. Xposedマネージャー（例：LSPosed）を開く。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🚀 私たちのコミュニティに参加しよう 🚀"
+      },
+      {
+        "row": 4,
+        "rowsha": "jDqqiAIPaFpFcvoZPFzD3GjeRpSgaauXoZyIFDfIqrg=",
+        "originContent": "## 🚀 加入我们的社区 🚀",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "zfNylcJDdL3dSTHZjCzr5R1+KKSq51eRzaxPvmMgy4Q=",
+        "originContent": "<a href=\"https://t.me/+LTsF8mOwkRE3YzYy\">",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/👉_クリックして参加-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />"
+      },
+      {
+        "row": 7,
+        "rowsha": "DQy537hsL7sOdiWw+ndVVY2klc6RL4Usoj1q57sXm/Y=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/👉_点击加入-FF0000?style=for-the-badge&logo=telegram&logoColor=white\" />",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "🔥 参加すると無料特典と最新アップデートを入手可能！"
+      },
+      {
+        "row": 10,
+        "rowsha": "Q2Bke+i0DKnci8G3QW1OVXaPm1OVhWz0UQM0j8n2Il8=",
+        "originContent": "🔥 加入即可获取免费福利与最新更新！",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 最新リリース: https://github.com/fzer0x/LocationJoystick_V4/releases"
+      },
+      {
+        "row": 12,
+        "rowsha": "g+RDPU7J65jWTlEtNvtcT+YJs0dNZdrVbohnNIPGhq4=",
+        "originContent": "# LATEST RELEASE: https://github.com/fzer0x/LocationJoystick_V4/releases",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![スクリーンショット](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)"
+      },
+      {
+        "row": 16,
+        "rowsha": "8T4/zekcj4BshXrghjFthWw1sDcAqp3MAxhdUOo2FtA=",
+        "originContent": "![截图](https://github.com/fzer0x/LocationJoystick/blob/main/screenshot3.jpg?raw=true)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 18,
+        "rowsha": "pFJti4ao0hEhZnpc6b0v4qTeJZWXRyhNPmlGpAk/4bA=",
+        "originContent": "## 功能",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **仮想ジョイスティックのフローティングウィンドウ：** カスタマイズ可能なジョイスティックでリアルタイム移動。"
+      },
+      {
+        "row": 20,
+        "rowsha": "s6ReVbDTwBNI9K+npEVH4AY5ro85SMRRMMdrKKXwd/o=",
+        "originContent": "- **虚拟摇杆悬浮窗：** 使用可自定义的摇杆进行实时移动。",
+        "translatedContent": "- **位置情報のシミュレーション：** GPSの位置を正確にシミュレート。"
+      },
+      {
+        "row": 21,
+        "rowsha": "V2NVu14KvMyTE7s2K5gKa2X9CaYKyEWshmboPJWsEME=",
+        "originContent": "- **模拟定位：** 精确模拟你的 GPS 位置。",
+        "translatedContent": "- **GNSSシミュレーション：** 完全なGNSS状態（衛星数、SVID、C/N0など）をシミュレートし、高度な位置検出対策に対応。"
+      },
+      {
+        "row": 22,
+        "rowsha": "0KLW8Lbfyk74jZZgtikJZDe8DZHyOrv0djjxfBtVbOs=",
+        "originContent": "- **GNSS 模拟：** 完整模拟 GNSS 状态（卫星数量、SVID、C/N0 等），可用于应对高级定位检测机制。",
+        "translatedContent": "- **ランダマイズ：** 位置にランダムな偏差範囲を追加し、移動軌跡をより自然に。"
+      },
+      {
+        "row": 23,
+        "rowsha": "ti28gQLSMYYIGlr2s7GChNSNDd5v36+/NDekxwWaN8A=",
+        "originContent": "- **随机化：** 为定位添加随机偏移范围，使移动轨迹更加自然。",
+        "translatedContent": "- **お気に入り：** よく使う位置を保存・管理し、素早く切り替え可能。"
+      },
+      {
+        "row": 24,
+        "rowsha": "UJhhPw9epeKxDl1toWJSP7shen8E8mBIr/v0UsqW9SQ=",
+        "originContent": "- **收藏夹：** 保存和管理常用位置，方便快速切换。",
+        "translatedContent": "- **カスタマイズ可能なインターフェース：**"
+      },
+      {
+        "row": 25,
+        "rowsha": "KVarV6WBGAGZqaKZVFMLvyu8+prkKpj3/cHmwfGB6lA=",
+        "originContent": "- **可自定义界面：**",
+        "translatedContent": "    - ジョイスティックとミニマップの透明度（アルファ値）調整。"
+      },
+      {
+        "row": 26,
+        "rowsha": "Yr85lDGGCz62AMY8BufO5+gKGSPVSE89ASY6jOqiJ2Y=",
+        "originContent": "    - 调整摇杆和小地图透明度（Alpha）。",
+        "translatedContent": "    - ジョイスティックの移動速度を設定可能。"
+      },
+      {
+        "row": 27,
+        "rowsha": "M/WYj0kZZlSJx0013B+LSgirwphxW47sqEmKgBuPSnY=",
+        "originContent": "    - 可配置摇杆移动速度。",
+        "translatedContent": "    - ジョイスティックの位置を自動保存。"
+      },
+      {
+        "row": 28,
+        "rowsha": "kqPsD9RhR4Ky9FNGNJsNRys1g8sPHKyzXuReZBfH9Tw=",
+        "originContent": "    - 自动保存摇杆位置。",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## システム要件"
+      },
+      {
+        "row": 30,
+        "rowsha": "Xz4G9/gzvPfk4FvCOgMjmLdyuEJc25j7cRNjKuFJs84=",
+        "originContent": "## 系统要求",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Android：** 10以上（最低SDK 30）"
+      },
+      {
+        "row": 32,
+        "rowsha": "vbX0G13FZ0FbMK9GbOcolitwE231XSHj5VVn61EfFZ4=",
+        "originContent": "- **Android：** 10+（最低 SDK 30）",
+        "translatedContent": "- **Root：** Xposedフレームワーク使用時はRoot権限が必要。"
+      },
+      {
+        "row": 33,
+        "rowsha": "kGQzq/DWjG9qZwh55ywF2VSlzEp+y4xNUQM5jlVCnWQ=",
+        "originContent": "- **Root：** 使用 Xposed 框架需要 Root 权限。",
+        "translatedContent": "- **Xposedフレームワーク：** LSPosedの使用を推奨。"
+      },
+      {
+        "row": 34,
+        "rowsha": "dETxxysI4H7oLhkT7Mmo3X89s6coaZnhj0kI+lXYpj0=",
+        "originContent": "- **Xposed 框架：** 推荐使用 LSPosed。",
+        "translatedContent": "- **[新機能] Root/Xposed不要の位置情報シミュレーション機能**"
+      },
+      {
+        "row": 35,
+        "rowsha": "sSM0WmqWSBoW0Np0K14XD2oorCEWxTZf1hC6/inDvko=",
+        "originContent": "- **[新功能] 无需 Root/Xposed 的模拟定位功能**",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストールとLSPosedスコープ設定"
+      },
+      {
+        "row": 37,
+        "rowsha": "Av/7tkMfEqEybsp/SOnSzOVE8zq2qPuPK5bOs17ItVM=",
+        "originContent": "## 安装与 LSPosed 作用域配置",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Location Joystick APKをインストール。"
+      },
+      {
+        "row": 39,
+        "rowsha": "Pq1k9X5SdEE+0fIdrn23rBl6GWm92pAza2WV7ROdS9M=",
+        "originContent": "1. 安装 Location Joystick APK。",
+        "translatedContent": "2. Xposedマネージャー（例：LSPosed）を開く。"
+      },
+      {
+        "row": 40,
+        "rowsha": "nQRpvXOtegVep2UDDufzA88jucmivWsXucnpQU+h3bI=",
+        "originContent": "2. 打开 Xposed 管理器（例如 LSPosed）。",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "3. 启用 **Location Joystick** 模块。\n4. **重要：** 在 LSPosed 中配置作用域：\n    - **Android-System**（必须勾选，用于 GNSS 和系统级定位模拟）。\n    - **目标应用**（例如 Pokémon GO、地图应用等）。\n5. 重启设备（如果使用 LSPosed，也可以强制停止目标应用和 System UI）。\n6. 打开 Location Joystick 并授予所需权限（悬浮窗、定位）。\n\n## 使用方法\n\n1. 打开应用，并在地图上设置起始位置。\n2. 配置模拟参数（速度、精度等）。\n3. 启动服务以显示摇杆悬浮窗。\n4. 打开目标应用，并使用摇杆进行移动。\n\n## 免责声明\n\n本工具仅供学习与开发用途，使用风险请自行承担。\n\n## 许可证\n\n许可证详情请参阅 [LICENSE](LICENSE) 文件。\n",
+    "ContentSha": "Rx72RH5yaCLSWogyAXUdKb2r6GSb1CKTnbf2bVp7h4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. **Location Joystick** モジュールを有効にします。  \n4. **重要：** LSPosedでスコープを設定します：  \n    - **Android-System**（必ずチェック、GNSSとシステムレベルの位置情報偽装用）。  \n    - **対象アプリ**（例：Pokémon GO、地図アプリなど）。  \n5. デバイスを再起動します（LSPosed使用時は対象アプリとSystem UIを強制停止しても可）。  \n6. Location Joystickを開き、必要な権限（オーバーレイ、位置情報）を付与します。  \n\n## 使用方法  \n\n1. アプリを開き、地図上で開始位置を設定します。  \n2. シミュレーションパラメータ（速度、精度など）を設定します。  \n3. サービスを開始してジョイスティックのオーバーレイを表示します。  \n4. 対象アプリを開き、ジョイスティックで移動操作を行います。  \n\n## 免責事項  \n\n本ツールは学習および開発目的のみに使用してください。使用に伴うリスクは自己責任でお願いします。  \n\n## ライセンス  \n\nライセンスの詳細は [LICENSE](LICENSE) ファイルをご参照ください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oCRAoSykydX/WEsv9YCNU9EgtlrGic+OMQdabD0cfNY=",
+        "originContent": "3. 启用 **Location Joystick** 模块。",
+        "translatedContent": "3. **Location Joystick** モジュールを有効にします。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "jLgcOaJz6nBYthlTlg0VvhhhCz14M/yTjHe6IHeIrXc=",
+        "originContent": "4. **重要：** 在 LSPosed 中配置作用域：",
+        "translatedContent": "4. **重要：** LSPosedでスコープを設定します：  "
+      },
+      {
+        "row": 3,
+        "rowsha": "EDWUo+57cZymTLvojs6jbsyLEoXs8b7XjMbMA8PLpHI=",
+        "originContent": "    - **Android-System**（必须勾选，用于 GNSS 和系统级定位模拟）。",
+        "translatedContent": "    - **Android-System**（必ずチェック、GNSSとシステムレベルの位置情報偽装用）。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "oTj5sfBZDsxXJL6axhnCoziYfqcu6mzRDinpQ+dP6J8=",
+        "originContent": "    - **目标应用**（例如 Pokémon GO、地图应用等）。",
+        "translatedContent": "    - **対象アプリ**（例：Pokémon GO、地図アプリなど）。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "W4T/d3b96pUMUhgbLfrahzwaynhxJPm29ypY8P3pGK4=",
+        "originContent": "5. 重启设备（如果使用 LSPosed，也可以强制停止目标应用和 System UI）。",
+        "translatedContent": "5. デバイスを再起動します（LSPosed使用時は対象アプリとSystem UIを強制停止しても可）。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "EZY9nOyQldSD8D10znEqUmzf7hqWecWAWWT3Ic38x5E=",
+        "originContent": "6. 打开 Location Joystick 并授予所需权限（悬浮窗、定位）。",
+        "translatedContent": "6. Location Joystickを開き、必要な権限（オーバーレイ、位置情報）を付与します。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
+        "originContent": "## 使用方法",
+        "translatedContent": "## 使用方法  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "kEVa5uSy3WtB9HASrDmVW6S5wiFP+6q1FV+oq+f7iwQ=",
+        "originContent": "1. 打开应用，并在地图上设置起始位置。",
+        "translatedContent": "1. アプリを開き、地図上で開始位置を設定します。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "EYVCTaIFc82la/Rf6XKIH6WqUPGbex0JdBY8QcNDXkA=",
+        "originContent": "2. 配置模拟参数（速度、精度等）。",
+        "translatedContent": "2. シミュレーションパラメータ（速度、精度など）を設定します。  "
+      },
+      {
+        "row": 12,
+        "rowsha": "KSDYZ/kdYWfNfZtv9XqrDB64QGn7fpkPK80U4TcOEf8=",
+        "originContent": "3. 启动服务以显示摇杆悬浮窗。",
+        "translatedContent": "3. サービスを開始してジョイスティックのオーバーレイを表示します。  "
+      },
+      {
+        "row": 13,
+        "rowsha": "s2Ufg/dmwvD8p4WcrWY5g1X4RDOKLyn6MoWhsyCGksA=",
+        "originContent": "4. 打开目标应用，并使用摇杆进行移动。",
+        "translatedContent": "4. 対象アプリを開き、ジョイスティックで移動操作を行います。  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "CE64YM587URMPd+jPtXxfy58lj10gDLX6vVcbC6kZMk=",
+        "originContent": "## 免责声明",
+        "translatedContent": "## 免責事項  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "pd8hGYC2swwkfVojXkj6nCJCwPp99sMtdDzXEzlw0og=",
+        "originContent": "本工具仅供学习与开发用途，使用风险请自行承担。",
+        "translatedContent": "本ツールは学習および開発目的のみに使用してください。使用に伴うリスクは自己責任でお願いします。  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": "## ライセンス  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "D5mPmWuBVlifyu891Tb/GuE8nhOaSCDyllylNbrQZeA=",
+        "originContent": "许可证详情请参阅 [LICENSE](LICENSE) 文件。",
+        "translatedContent": "ライセンスの詳細は [LICENSE](LICENSE) ファイルをご参照ください。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

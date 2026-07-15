@@ -1,0 +1,776 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Bxrf71hCpjazZRqR1R0qq5S5w/YOOl1yAIzHNwtspBs=",
+    "originContent": "# 💻 Windows in Docker Container",
+    "translatedContent": "# 💻 Docker 컨테이너 내 Windows  "
+  },
+  {
+    "row": 2,
+    "rowsha": "9MDIpSxp7/u0rAjSaoIoWNvIUwUPAHFXl09kBF43GNs=",
+    "originContent": "Discover an innovative and efficient method of deploying Windows OS (x64) on your linux system using the power of Vagrant VM, libvirt, and docker-compose. Together, these technologies help you containerize Windows OS, enabling you to manage a Windows instance just as you would any Docker container. This seamless integration into existing workflows significantly enhances convenience and optimizes resource allocation.",
+    "translatedContent": "Vagrant VM, libvirt, docker-compose의 힘을 이용하여 리눅스 시스템에서 Windows OS(x64)를 배포하는 혁신적이고 효율적인 방법을 발견하세요. 이 기술들은 함께 Windows OS를 컨테이너화하여, Windows 인스턴스를 Docker 컨테이너처럼 관리할 수 있게 합니다. 기존 워크플로우에 원활하게 통합되어 편리함을 크게 향상시키고 자원 할당을 최적화합니다.  "
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "q7u/me+1cLMxC54sHkqbHiD7L5k5xqVPUYg3uwVPeAk=",
+    "originContent": "⭐ **Don't forget to star the project if it helped you!**",
+    "translatedContent": "⭐ **도움이 되셨다면 프로젝트에 별점을 꼭 남겨주세요!**  "
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "Z5awgg+kr5FQO6v54GhblquJm6UBORGyVBi6gCsFpRk=",
+    "originContent": "## 📋 Prerequisites",
+    "translatedContent": "## 📋 전제 조건  "
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "AcSp74Lotmf5N+QtV93zzZh+VCO6XNKIYQiKbC0fs+4=",
+    "originContent": "Ensure your system meets the following requirements:",
+    "translatedContent": "시스템이 다음 요구 사항을 충족하는지 확인하세요:  "
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "s2CbnZoumfummXv+0kLdak6K1KZVUZaZb7pUlis2BLM=",
+    "originContent": "- **Docker:** Version 20 or higher [(Install Docker)](https://www.docker.com/)",
+    "translatedContent": "- **Docker:** 버전 20 이상 [(Docker 설치)](https://www.docker.com/)  "
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "geJ7DRAy2W/YEh35eX9DWijtv0BJatog771s9xXgmYs=",
+    "originContent": "- **Host OS:** Linux",
+    "translatedContent": "- **호스트 OS:** 리눅스  "
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "nUCEWyWtB/jp8KXLlu7qFMUZbKLcbxeJOB4kujMSYw4=",
+    "originContent": "- **Virtualization Enabled:**",
+    "translatedContent": "- **가상화 활성화:**  "
+  },
+  {
+    "row": 15,
+    "rowsha": "FcL8K7o/gaUt2cnIODGvomIm47WR9GQoqO/t2nIuUGU=",
+    "originContent": "  - Check with:",
+    "translatedContent": "  - 확인 명령:  "
+  },
+  {
+    "row": 16,
+    "rowsha": "G/Ckx0y6KrN9YIYxbto/sUV3JzGYmLKy6f8gqyyyw/8=",
+    "originContent": "    - `lscpu | grep -i Virtualization`",
+    "translatedContent": "    - `lscpu | grep -i Virtualization`  "
+  },
+  {
+    "row": 17,
+    "rowsha": "n6x6NThKvQGcCXaKlj5XM7FKimy/XIT3jGvrPL5kA0M=",
+    "originContent": "  - Output indicates:",
+    "translatedContent": "  - 출력 결과:  "
+  },
+  {
+    "row": 18,
+    "rowsha": "F/Wdd6S3hvnllw3R5YZh3lwWtz9BBE6e2yp9dRYMtR4=",
+    "originContent": "    - `VT-x` → Intel virtualization is supported & enabled.",
+    "translatedContent": "    - `VT-x` → Intel 가상화 지원 및 활성화  "
+  },
+  {
+    "row": 19,
+    "rowsha": "9+WgiZLPsAmLvvuPPgEVdpJRuk++sP+LOY8fsi+WJmw=",
+    "originContent": "    - `AMD-V` → AMD virtualization is supported & enabled.",
+    "translatedContent": "    - `AMD-V` → AMD 가상화 지원 및 활성화  "
+  },
+  {
+    "row": 20,
+    "rowsha": "/Jxa5Ge4iKPo7svFKSuoTnAqqWoEhx2g+tHNODETslo=",
+    "originContent": "  - If virtualization is not enabled, enable it in the BIOS/UEFI settings.",
+    "translatedContent": "  - 가상화가 활성화되어 있지 않으면 BIOS/UEFI 설정에서 활성화하세요.  "
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "+OmMtXhABRUcwaxtxui5UC95a6lCwuaSqbNeJACBMsg=",
+    "originContent": "- **`cgroup: host`** in the compose file is required: libvirt and the daemons it spawns need full cgroup access, otherwise the container fails to start on cgroup v2 hosts.",
+    "translatedContent": "- **compose 파일에 `cgroup: host` 필요:** libvirt와 관련 데몬들이 완전한 cgroup 접근 권한이 필요하며, 그렇지 않으면 cgroup v2 호스트에서 컨테이너가 시작되지 않습니다.  "
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "J+Ncq2vkvCNnffe6H5qi6T+04hPUo7wz1N6JWkXBkOw=",
+    "originContent": "## 🚀 Deployment Guide",
+    "translatedContent": "## 🚀 배포 가이드  "
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "uBwW9i/6uSKLc3UYJRAXHTIf2W98fjaFEPrHcmIc79s=",
+    "originContent": "1. Create/Update the environmental file `.env`",
+    "translatedContent": "1. 환경 파일 `.env`를 생성하거나 업데이트하세요."
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "krrkWRxRBM58twU3RKbKowz+enMFgPRX8TFxoeCWf30=",
+    "originContent": "# Vagrant image settings",
+    "translatedContent": "# Vagrant image settings"
+  },
+  {
+    "row": 29,
+    "rowsha": "c97G6DoBoqfJAl4Ly/feovOL/m/RP6W9kFgLEsdd7QI=",
+    "originContent": "MEMORY=8000     # MiB (~8 GB)",
+    "translatedContent": "MEMORY=8000     # MiB (~8 GB)"
+  },
+  {
+    "row": 30,
+    "rowsha": "4bfi5uX1L048prxrw7xPA0A9ThOL2uJ/+QIcl+blY0c=",
+    "originContent": "CPU=4",
+    "translatedContent": "CPU=4"
+  },
+  {
+    "row": 31,
+    "rowsha": "5W9Xb+o8QgzbokKIpYHboHtvbls0fjFBf2mpX1x8UJA=",
+    "originContent": "DISK_SIZE=100   # GiB",
+    "translatedContent": "DISK_SIZE=100   # GiB"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "IjqJFjuj86JKPnzLCU6I03DDR6LM3+Dkv5qxEsznwcs=",
+    "originContent": "2. Create `docker-compose.yml`",
+    "translatedContent": "2. `docker-compose.yml` 생성하기"
+  },
+  {
+    "row": 34,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 35,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 36,
+    "rowsha": "bVYZjiGApSJ6CqrHTYnvi4Gj+OBxFfJ4uUeb9z4RjIg=",
+    "originContent": "  win10:",
+    "translatedContent": "  win10:"
+  },
+  {
+    "row": 37,
+    "rowsha": "+5hH0vztr0Kx998u0AUeylEHSK0K5Xs/SBB+Uk3+RdM=",
+    "originContent": "    image: docker.io/vaggeliskls/windows-in-docker-container:latest",
+    "translatedContent": "    image: docker.io/vaggeliskls/windows-in-docker-container:latest"
+  },
+  {
+    "row": 38,
+    "rowsha": "3pac7yLBduFPa386EpYvgntasNF4VLG9pqGH89j1ML8=",
+    "originContent": "    platform: linux/amd64",
+    "translatedContent": "    platform: linux/amd64"
+  },
+  {
+    "row": 39,
+    "rowsha": "fIIXFUVzzZIzW74PhNn57ROrXo7HWwXU2hoiwyGLtEo=",
+    "originContent": "    env_file: .env",
+    "translatedContent": "    env_file: .env"
+  },
+  {
+    "row": 40,
+    "rowsha": "89GigpJ+TjtckNGkGxgEIB6UNFi8/fq85JBYwfBL6OI=",
+    "originContent": "    stdin_open: true",
+    "translatedContent": "    stdin_open: true"
+  },
+  {
+    "row": 41,
+    "rowsha": "lG5+baGKhlLM0pFn7oaJzOgKjIGvHxXLsX7ipIdRWao=",
+    "originContent": "    tty: true",
+    "translatedContent": "    tty: true"
+  },
+  {
+    "row": 42,
+    "rowsha": "q+dz1AQuZLwo/Ma0l3igxzRJts0LCXgSBKM2JLefiu4=",
+    "originContent": "    privileged: true",
+    "translatedContent": "    privileged: true"
+  },
+  {
+    "row": 43,
+    "rowsha": "NvJqVTu0wgewBMJhgF386BNJ9ANouvikLiz77e0kJfQ=",
+    "originContent": "    cgroup: host",
+    "translatedContent": "    cgroup: host"
+  },
+  {
+    "row": 44,
+    "rowsha": "/uy9d3HbOd8CYaZVypCmtWqjopelHDRf5Mvkav6H4Yc=",
+    "originContent": "    restart: always",
+    "translatedContent": "    restart: always"
+  },
+  {
+    "row": 45,
+    "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
+    "originContent": "    ports:",
+    "translatedContent": "    ports:"
+  },
+  {
+    "row": 46,
+    "rowsha": "R/Ui4h+/sqWP++W7ZZ74hiU9f6Ou+s4nq7A0Y5QNK9c=",
+    "originContent": "      - 3389:3389",
+    "translatedContent": "      - 3389:3389"
+  },
+  {
+    "row": 47,
+    "rowsha": "1YGj7b1rYfvG+AXnEqXNuoHeN1zg0u5NBJ+KLTFdcZo=",
+    "originContent": "      - 2222:2222",
+    "translatedContent": "      - 2222:2222"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "dzg7PUqoiwXfTcMepA04NjdB+NeI6yKymJE/pf2/SFA=",
+    "originContent": "3. Create `docker-compose.override.yml` when you want your VM to be persistent",
+    "translatedContent": "3. VM를 영구적으로 유지하려면 `docker-compose.override.yml`을 생성하세요"
+  },
+  {
+    "row": 50,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 51,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 52,
+    "rowsha": "bVYZjiGApSJ6CqrHTYnvi4Gj+OBxFfJ4uUeb9z4RjIg=",
+    "originContent": "  win10:",
+    "translatedContent": "  win10:"
+  },
+  {
+    "row": 53,
+    "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+    "originContent": "    volumes:",
+    "translatedContent": "    volumes:"
+  },
+  {
+    "row": 54,
+    "rowsha": "ZGFQ5gMNeXmfm6YLT2l/LedmhDgDBsZaVLJovsdwA3g=",
+    "originContent": "      - libvirt_data:/var/lib/libvirt",
+    "translatedContent": "      - libvirt_data:/var/lib/libvirt"
+  },
+  {
+    "row": 55,
+    "rowsha": "U9LB3WQAJGjRf0dp2zNw6lMkYV4yUzVXdVT2vNuM8A4=",
+    "originContent": "      - vagrant_data:/root/.vagrant.d",
+    "translatedContent": "      - vagrant_data:/root/.vagrant.d"
+  },
+  {
+    "row": 56,
+    "rowsha": "myTu26AdGtttF5k0bK23RhHsDcvLYTFfnSvPK4HCoJo=",
+    "originContent": "      - vagrant_project:/app/.vagrant",
+    "translatedContent": "      - vagrant_project:/app/.vagrant"
+  },
+  {
+    "row": 57,
+    "rowsha": "XDoV27ffHSzW5oEQFVP4a9wZZncODt2opRotZo4G3fk=",
+    "originContent": "      - libvirt_config:/etc/libvirt",
+    "translatedContent": "      - libvirt_config:/etc/libvirt"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "xddxS2HZSubkNLvKyLE6I4v1XoveCG3wK8nGhaS9vwo=",
+    "originContent": "volumes:",
+    "translatedContent": "volumes:"
+  },
+  {
+    "row": 60,
+    "rowsha": "8wEcnBgVv8XgDSijI2zr7cF7ZtE3Hx/4P1MP3I3I7nI=",
+    "originContent": "  libvirt_data:",
+    "translatedContent": "  libvirt_data:"
+  },
+  {
+    "row": 61,
+    "rowsha": "dshIW0RwoosGxNb+/rEV+X6Wv7n8ytX98iG1u9hDAxc=",
+    "originContent": "    name: libvirt_data",
+    "translatedContent": "    name: libvirt_data"
+  },
+  {
+    "row": 62,
+    "rowsha": "eD3oB0JPnFPmfmJnNLu8//cnzAbolmydIEB4vPwiqOA=",
+    "originContent": "  vagrant_data:",
+    "translatedContent": "  vagrant_data:"
+  },
+  {
+    "row": 63,
+    "rowsha": "RhtnqGxFVdjY1lEUkGNHhdpaMY7jSnziu8BUwAoxwII=",
+    "originContent": "    name: vagrant_data",
+    "translatedContent": "    name: vagrant_data"
+  },
+  {
+    "row": 64,
+    "rowsha": "TGjzp3e9XP6zBFRS7kq8i6V86vR/dqVUZsz2oRPHNGg=",
+    "originContent": "  vagrant_project:",
+    "translatedContent": "  vagrant_project:"
+  },
+  {
+    "row": 65,
+    "rowsha": "Rjr3IvOA36qGh80yjob4CvGEdQvmX0QHsq7Kqs78KLA=",
+    "originContent": "    name: vagrant_project",
+    "translatedContent": "    name: vagrant_project"
+  },
+  {
+    "row": 66,
+    "rowsha": "iamBTmO450+IXbquQzX1FORq16DmqgODOUnC20yPYR8=",
+    "originContent": "  libvirt_config:",
+    "translatedContent": "  libvirt_config:"
+  },
+  {
+    "row": 67,
+    "rowsha": "J8BBzVrCua9XS6khNsORIsrURk97oi6GeVdPNA7lueM=",
+    "originContent": "    name: libvirt_config",
+    "translatedContent": "    name: libvirt_config"
+  },
+  {
+    "row": 68,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. Run: `docker compose up -d`"
+  },
+  {
+    "row": 70,
+    "rowsha": "0agK8FVIb1N/1YR3K/jhmV/XvYp/Cm2xrIVZIdptKCQ=",
+    "originContent": "4. Run: `docker compose up -d`",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **첫 부팅에는 몇 분이 소요됩니다** — Vagrant 박스는 이미 이미지에 포함되어 있지만, VM은 여전히 부팅되고 프로비저닝 스크립트(Chocolatey 설치, 디스크 크기 조정, 레지스트리 수정)를 실행해야 합니다. 진행 상황은 `docker compose logs -f`로 확인하세요."
+  },
+  {
+    "row": 72,
+    "rowsha": "ZeKz8gBBmQmM1lJdFShAokMzIKXjbVAYmv/TecM4uU4=",
+    "originContent": "> **First boot takes several minutes** — the Vagrant box is already baked into the image, but the VM still has to boot and run the provisioning script (Chocolatey install, disk resize, registry tweaks). Follow progress with `docker compose logs -f`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> 모든 것을 삭제하려면 `docker compose down -v`"
+  },
+  {
+    "row": 74,
+    "rowsha": "C45LFhcWJvOBVZGSt/h/e53DMd/6QinH68rwYneglyw=",
+    "originContent": "> When you want to destroy everything `docker compose down -v`",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![windows screenshot](https://github.com/vaggeliskls/windows-in-docker-container/blob/main/images/screen-1.png?raw=true )"
+  },
+  {
+    "row": 76,
+    "rowsha": "UALNkfiN3fr7G1j2ODRYcslSNS2g+sE40QLW16pVqwU=",
+    "originContent": "![windows screenshot](https://github.com/vaggeliskls/windows-in-docker-container/blob/main/images/screen-1.png?raw=true )",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🌐 접근  "
+  },
+  {
+    "row": 78,
+    "rowsha": "zjlNl2hYJjb49XYdgPBUJR9+7duLuDa7fSbtFKFV2cI=",
+    "originContent": "## 🌐 Access  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 원격 데스크톱 (RDP)  "
+  },
+  {
+    "row": 80,
+    "rowsha": "8Ipt5Opv/ZVQ01NfR0lpKVGBgh0UqW0GI6R13nM/nPg=",
+    "originContent": "### Remote Desktop (RDP)  ",
+    "translatedContent": "디버깅이나 테스트를 위해 포트 `3389`에서 **원격 데스크톱**을 사용하여 VM에 연결할 수 있습니다.  "
+  },
+  {
+    "row": 81,
+    "rowsha": "/Tvs2K6apTBAm0+eNcrAJiNhY9Lh3HM2S/9hhfXfhLc=",
+    "originContent": "For debugging or testing, you can connect to the VM using **Remote Desktop** on port `3389`.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 원격 데스크톱 접속용 소프트웨어  "
+  },
+  {
+    "row": 83,
+    "rowsha": "X4mMD3h1+3a4kEdLCTtjUeCh5KEqeYAKHexSbnklg7E=",
+    "originContent": "#### Software for Remote Desktop Access  ",
+    "translatedContent": "| 운영체제   | 소프트웨어 |"
+  },
+  {
+    "row": 84,
+    "rowsha": "QcRKYmMDWAKhIWTJBcoQFw7HqGtl3byE12j0R1U8RNs=",
+    "originContent": "| OS       | Software |",
+    "translatedContent": "|----------|----------------|"
+  },
+  {
+    "row": 85,
+    "rowsha": "cHcFnDx8wTYLYyCCPcVk6nnXdiefgPKgi1YahgQ0QkY=",
+    "originContent": "|----------|----------------|",
+    "translatedContent": "| **리눅스**   | [`rdesktop`](https://github.com/rdesktop/rdesktop) → `rdesktop <ip>:3389` 또는 [`Remmina`](https://remmina.org/) |"
+  },
+  {
+    "row": 86,
+    "rowsha": "so7So4qz/P1A1UDxz844R6MKqJKVG/6rEavuBqDdS0o=",
+    "originContent": "| **Linux**   | [`rdesktop`](https://github.com/rdesktop/rdesktop) → `rdesktop <ip>:3389` or [`Remmina`](https://remmina.org/) |",
+    "translatedContent": "| **맥OS**    | [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) |"
+  },
+  {
+    "row": 87,
+    "rowsha": "wpxSAC+oLUO381unKkZMhE4jyRztH4rnC0h4bTlfuG8=",
+    "originContent": "| **MacOS**   | [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) |",
+    "translatedContent": "| **윈도우**  | 내장된 **원격 데스크톱 연결** |"
+  },
+  {
+    "row": 88,
+    "rowsha": "YXyy5gYcTAtzARDi4EWc1H43YBbJeEMfmvoyCbedhmE=",
+    "originContent": "| **Windows** | Built-in **Remote Desktop Connection** |",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 90,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### SSH   "
+  },
+  {
+    "row": 92,
+    "rowsha": "a+Zx/WZNUs/gmjH2o4goDdd8MxGxZ1bR/bSkRRswDxc=",
+    "originContent": "### SSH   ",
+    "translatedContent": "**administrator** 또는 **Vagrant** 사용자 자격증명을 사용하여 SSH로 연결할 수 있습니다.  "
+  },
+  {
+    "row": 93,
+    "rowsha": "UPpy9aOzi/R2IvDCNX4uf7jdTyj9jeGiIUO0Ar49d8o=",
+    "originContent": "You can connect via SSH using either the **administrator** or **Vagrant** user credentials.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 95,
+    "rowsha": "xDgzIkwFbJ8P4bObjjXhwetaA4KJ6IbM9a0hbo6E8IE=",
+    "originContent": "ssh <user>@<host> -p 2222",
+    "translatedContent": "ssh <user>@<host> -p 2222"
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔑 사용자 로그인"
+  },
+  {
+    "row": 98,
+    "rowsha": "3ZjdZewIgjCNA5FlWJNXpb3fREhRD3Rvtov3OeuLZyM=",
+    "originContent": "## 🔑 User Login",
+    "translatedContent": "Vagrant 이미지 기반 기본 사용자는 다음과 같습니다:"
+  },
+  {
+    "row": 99,
+    "rowsha": "/wIrDoI5hTye4kahQPpjXWwi+onuAOmwB8MMg6H+zvI=",
+    "originContent": "Default users based on the Vagrant image are:",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 관리자"
+  },
+  {
+    "row": 101,
+    "rowsha": "7wihY9g7rrCCf38A29vCw6/GdAUQMTDtOq8xUx0eLS4=",
+    "originContent": "1. Administrator",
+    "translatedContent": "    - 사용자 이름: Administrator"
+  },
+  {
+    "row": 102,
+    "rowsha": "VMGFz/PpUSVcJlDAs/+OIiw5A++bGeqnnzporPzCEcI=",
+    "originContent": "    - Username: Administrator",
+    "translatedContent": "    - 비밀번호: vagrant"
+  },
+  {
+    "row": 103,
+    "rowsha": "R0L05tvCpgZKDAq/WXa5hn5WNRAucBQ9d04FqctuFhY=",
+    "originContent": "    - Password: vagrant",
+    "translatedContent": "2. 사용자"
+  },
+  {
+    "row": 104,
+    "rowsha": "PzFGxfC3n8WNZGB2OXNecYEsZSLXIa+k4vg5/TFgqgw=",
+    "originContent": "2. User",
+    "translatedContent": "    - 사용자 이름: vagrant"
+  },
+  {
+    "row": 105,
+    "rowsha": "4NclbAQAhSMeJvvNWHbk0GfHbHTd0wDF7PuYI64oHlA=",
+    "originContent": "    - Username: vagrant",
+    "translatedContent": "    - 비밀번호: vagrant"
+  },
+  {
+    "row": 106,
+    "rowsha": "R0L05tvCpgZKDAq/WXa5hn5WNRAucBQ9d04FqctuFhY=",
+    "originContent": "    - Password: vagrant",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ⚠️ 제한 사항"
+  },
+  {
+    "row": 108,
+    "rowsha": "JqgQxxdJaTl8L4jnyDQnZjC32vt9f7OWcWLvOPLHhWU=",
+    "originContent": "## ⚠️ Limitations",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Linux 호스트 전용** — `/dev/kvm` 및 libvirt에 의존; macOS 및 Windows 호스트는 지원하지 않습니다."
+  },
+  {
+    "row": 110,
+    "rowsha": "Yux3kgWuyHiJZtxtYBgN50+/zEzL29378olZsIAp9Xs=",
+    "originContent": "- **Linux host only** — depends on `/dev/kvm` and libvirt; macOS and Windows hosts are not supported.",
+    "translatedContent": "- **평가판 라이선스** — 기본 박스는 Windows Server 2022 평가판을 제공합니다. Microsoft의 평가 조건에 따라 활성화가 만료됩니다."
+  },
+  {
+    "row": 111,
+    "rowsha": "KefUgts6YcZ02Sf9LKXzlppPC5FmV4mnz/RxVchjckk=",
+    "originContent": "- **Eval license** — the underlying box ships an evaluation copy of Windows Server 2022. Activation expires per Microsoft's eval terms.",
+    "translatedContent": "- **동기화 폴더 없음** — `rsync`, `smb`, `nfs` 모두 [Vagrantfile](Vagrantfile)에서 비활성화되어 있습니다 (rsync는 프로비저닝 실행 전 Windows 측 설치가 필요; SMB 동기화 폴더는 Linux 호스트에서 지원하지 않음; 컨테이너 내 NFS는 `현재 커널에서 지원하지 않음` 오류 발생)."
+  },
+  {
+    "row": 112,
+    "rowsha": "c4iRCRjQxLwjL9aMPE5up36j3kFhiwDYZEQPVioF/Ro=",
+    "originContent": "- **No synced folders** — `rsync`, `smb`, and `nfs` are all unwired in the [Vagrantfile](Vagrantfile) (rsync needs a Windows-side install before provisioning runs; SMB synced folders aren't supported with a Linux host; in-container NFS hits `no support in current kernel`).",
+    "translatedContent": "- **성능** — Docker에 중첩 KVM이 없으면(예: KVM을 노출하지 않는 클라우드 VM) 게스트는 일반 QEMU로 대체되어 여러 배 느려집니다."
+  },
+  {
+    "row": 113,
+    "rowsha": "Y+0RvlxrHU3llmoxvsodR8YEENKnEb4+Ta8POds8Elo=",
+    "originContent": "- **Performance** — without nested KVM available to Docker (e.g. on a cloud VM that doesn't expose KVM), the guest falls back to plain QEMU and is several times slower.",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔧 문제 해결"
+  },
+  {
+    "row": 115,
+    "rowsha": "cloYatlaykTYorMLiiWaWsZ/kzPu0t/zvQI83WjU370=",
+    "originContent": "## 🔧 Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **로그에 `KVM 가속을 사용할 수 없음` 표시** → 호스트가 `/dev/kvm`을 노출하지 않음. BIOS에서 가상화가 활성화되어 있는지, `kvm` 모듈이 로드되었는지(`lsmod | grep kvm`), 호스트에 `/dev/kvm`이 존재하는지 확인하세요. 시작 스크립트는 자동으로 QEMU로 대체되며, 큰 속도 저하가 예상됩니다."
+  },
+  {
+    "row": 117,
+    "rowsha": "/EpRXhSk7L7IMZ1iUngTYC3XtNhWwDjxaEM2ZZGIWFI=",
+    "originContent": "- **`KVM acceleration is not available`** in logs → the host isn't exposing `/dev/kvm`. Check virtualization is enabled in BIOS, the `kvm` module is loaded (`lsmod | grep kvm`), and `/dev/kvm` exists on the host. The startup script falls back to QEMU automatically; expect a large slowdown.",
+    "translatedContent": "- **포트 3389 / 2222가 이미 사용 중** → 호스트에서 다른 RDP/SSH 서비스가 바인딩되어 있습니다. 서비스를 중지하거나 `docker-compose.yml`에서 호스트 쪽 포트 매핑을 변경하세요."
+  },
+  {
+    "row": 118,
+    "rowsha": "tAe2zgh60gsTZaB/vWpRKLwQSMO4Ch+NdCcid23n4TQ=",
+    "originContent": "- **Port 3389 / 2222 already in use** → another RDP/SSH service is bound on the host. Stop it, or change the host-side port mapping in `docker-compose.yml`.",
+    "translatedContent": "- **컨테이너가 즉시 종료됨** → 거의 항상 cgroup 또는 권한 문제입니다. `privileged: true`와 `cgroup: host`가 설정되어 있는지 확인한 후 `docker compose logs win10`을 확인하세요."
+  },
+  {
+    "row": 119,
+    "rowsha": "o5Pf+2OXfg3axtaJaZAQvzzwbuzwPeatNrdbJb8f+EY=",
+    "originContent": "- **Container exits immediately** → almost always a cgroup or privilege problem. Confirm `privileged: true` and `cgroup: host` are set, then check `docker compose logs win10`.",
+    "translatedContent": "- **`vagrant up`이 \"도메인이 IP 주소를 받는 중\"에서 멈춤** → libvirt 기본 NAT 네트워크가 실행 중이지 않습니다. 컨테이너를 재시작하거나 내부에서 `virsh net-start default`를 실행하세요."
+  },
+  {
+    "row": 120,
+    "rowsha": "sxb+IkcYFRiyOyDMFEplIP3bMYygd4J9Ep0H9SjNG9k=",
+    "originContent": "- **`vagrant up` hangs at \"Waiting for domain to get an IP address\"** → libvirt's default NAT network isn't running. Restart the container, or run `virsh net-start default` from inside it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📚 추가 자료 및 참고 문서"
+  },
+  {
+    "row": 122,
+    "rowsha": "IL9lifmTvQDeqM8Ip4fij+JdB5Pm30bnrlnWOyX2hhk=",
+    "originContent": "## 📚 Further Reading and Resources",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Windows Vagrant 튜토리얼](https://github.com/SecurityWeekly/vulhub-lab)"
+  },
+  {
+    "row": 124,
+    "rowsha": "oOnApCQvEuK9KFg3hOyNZbQA3z4/1NDKGE/inP3gqa0=",
+    "originContent": "- [Windows Vagrant Tutorial](https://github.com/SecurityWeekly/vulhub-lab)",
+    "translatedContent": "- [Vagrant 이미지: peru/windows-server-2022-standard-x64-eval](https://app.vagrantup.com/peru/boxes/windows-server-2022-standard-x64-eval)"
+  },
+  {
+    "row": 125,
+    "rowsha": "/o3VYvLFKx0fbKmHMb/sezBuzfklo5+4Qeluwcej75g=",
+    "originContent": "- [Vagrant image: peru/windows-server-2022-standard-x64-eval](https://app.vagrantup.com/peru/boxes/windows-server-2022-standard-x64-eval)",
+    "translatedContent": "- [HashiCorp의 Vagrant](https://www.vagrantup.com/)"
+  },
+  {
+    "row": 126,
+    "rowsha": "Wcs8yUAoxTrTaO/EtIcb7yWg8FR0EKRUHoHw74HgOkg=",
+    "originContent": "- [Vagrant by HashiCorp](https://www.vagrantup.com/)",
+    "translatedContent": "- [Linux Docker 컨테이너 내 Windows 가상 머신](https://medium.com/axon-technologies/installing-a-windows-virtual-machine-in-a-linux-docker-container-c78e4c3f9ba1)"
+  },
+  {
+    "row": 127,
+    "rowsha": "LgzPDCaW/Qf5lvFIudtfpCOHftjdQpqt7ZFp9ON0el0=",
+    "originContent": "- [Windows Virtual Machine in a Linux Docker Container](https://medium.com/axon-technologies/installing-a-windows-virtual-machine-in-a-linux-docker-container-c78e4c3f9ba1)",
+    "translatedContent": "- [컨테이너 내 GPU](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)"
+  },
+  {
+    "row": 128,
+    "rowsha": "hRvQOq/WPJDNSjGjQso3oGrnTFFywK0xGdObR/mWK1Q=",
+    "originContent": "- [GPU inside a container](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

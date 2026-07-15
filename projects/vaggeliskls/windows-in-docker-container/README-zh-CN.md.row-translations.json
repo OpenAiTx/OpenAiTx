@@ -1,0 +1,776 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Bxrf71hCpjazZRqR1R0qq5S5w/YOOl1yAIzHNwtspBs=",
+    "originContent": "# 💻 Windows in Docker Container",
+    "translatedContent": "# 💻 在 Docker 容器中运行 Windows"
+  },
+  {
+    "row": 2,
+    "rowsha": "9MDIpSxp7/u0rAjSaoIoWNvIUwUPAHFXl09kBF43GNs=",
+    "originContent": "Discover an innovative and efficient method of deploying Windows OS (x64) on your linux system using the power of Vagrant VM, libvirt, and docker-compose. Together, these technologies help you containerize Windows OS, enabling you to manage a Windows instance just as you would any Docker container. This seamless integration into existing workflows significantly enhances convenience and optimizes resource allocation.",
+    "translatedContent": "探索一种创新且高效的方法，利用 Vagrant 虚拟机、libvirt 和 docker-compose 的力量，在您的 Linux 系统上部署 Windows 操作系统（x64）。这些技术共同帮助您将 Windows 操作系统容器化，使您能够像管理任何 Docker 容器一样管理 Windows 实例。这种无缝集成到现有工作流程中，大大提升了便利性并优化了资源分配。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "q7u/me+1cLMxC54sHkqbHiD7L5k5xqVPUYg3uwVPeAk=",
+    "originContent": "⭐ **Don't forget to star the project if it helped you!**",
+    "translatedContent": "⭐ **如果本项目对您有帮助，别忘了给项目点星！**"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "Z5awgg+kr5FQO6v54GhblquJm6UBORGyVBi6gCsFpRk=",
+    "originContent": "## 📋 Prerequisites",
+    "translatedContent": "## 📋 先决条件"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "AcSp74Lotmf5N+QtV93zzZh+VCO6XNKIYQiKbC0fs+4=",
+    "originContent": "Ensure your system meets the following requirements:",
+    "translatedContent": "确保您的系统满足以下要求："
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "s2CbnZoumfummXv+0kLdak6K1KZVUZaZb7pUlis2BLM=",
+    "originContent": "- **Docker:** Version 20 or higher [(Install Docker)](https://www.docker.com/)",
+    "translatedContent": "- **Docker：** 版本 20 或更高 [(安装 Docker)](https://www.docker.com/)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "geJ7DRAy2W/YEh35eX9DWijtv0BJatog771s9xXgmYs=",
+    "originContent": "- **Host OS:** Linux",
+    "translatedContent": "- **主机操作系统：** Linux"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "nUCEWyWtB/jp8KXLlu7qFMUZbKLcbxeJOB4kujMSYw4=",
+    "originContent": "- **Virtualization Enabled:**",
+    "translatedContent": "- **虚拟化已启用：**"
+  },
+  {
+    "row": 15,
+    "rowsha": "FcL8K7o/gaUt2cnIODGvomIm47WR9GQoqO/t2nIuUGU=",
+    "originContent": "  - Check with:",
+    "translatedContent": "  - 通过以下命令检查："
+  },
+  {
+    "row": 16,
+    "rowsha": "G/Ckx0y6KrN9YIYxbto/sUV3JzGYmLKy6f8gqyyyw/8=",
+    "originContent": "    - `lscpu | grep -i Virtualization`",
+    "translatedContent": "    - `lscpu | grep -i Virtualization`"
+  },
+  {
+    "row": 17,
+    "rowsha": "n6x6NThKvQGcCXaKlj5XM7FKimy/XIT3jGvrPL5kA0M=",
+    "originContent": "  - Output indicates:",
+    "translatedContent": "  - 输出表示："
+  },
+  {
+    "row": 18,
+    "rowsha": "F/Wdd6S3hvnllw3R5YZh3lwWtz9BBE6e2yp9dRYMtR4=",
+    "originContent": "    - `VT-x` → Intel virtualization is supported & enabled.",
+    "translatedContent": "    - `VT-x` → 支持且启用了 Intel 虚拟化。"
+  },
+  {
+    "row": 19,
+    "rowsha": "9+WgiZLPsAmLvvuPPgEVdpJRuk++sP+LOY8fsi+WJmw=",
+    "originContent": "    - `AMD-V` → AMD virtualization is supported & enabled.",
+    "translatedContent": "    - `AMD-V` → 支持且启用了 AMD 虚拟化。"
+  },
+  {
+    "row": 20,
+    "rowsha": "/Jxa5Ge4iKPo7svFKSuoTnAqqWoEhx2g+tHNODETslo=",
+    "originContent": "  - If virtualization is not enabled, enable it in the BIOS/UEFI settings.",
+    "translatedContent": "  - 如果未启用虚拟化，请在 BIOS/UEFI 设置中启用。"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "+OmMtXhABRUcwaxtxui5UC95a6lCwuaSqbNeJACBMsg=",
+    "originContent": "- **`cgroup: host`** in the compose file is required: libvirt and the daemons it spawns need full cgroup access, otherwise the container fails to start on cgroup v2 hosts.",
+    "translatedContent": "- Compose 文件中需使用 **`cgroup: host`**：libvirt 及其启动的守护进程需要完全的 cgroup 访问权限，否则容器在 cgroup v2 主机上无法启动。"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "J+Ncq2vkvCNnffe6H5qi6T+04hPUo7wz1N6JWkXBkOw=",
+    "originContent": "## 🚀 Deployment Guide",
+    "translatedContent": "## 🚀 部署指南"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "uBwW9i/6uSKLc3UYJRAXHTIf2W98fjaFEPrHcmIc79s=",
+    "originContent": "1. Create/Update the environmental file `.env`",
+    "translatedContent": "1. 创建/更新环境变量文件 `.env`"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "krrkWRxRBM58twU3RKbKowz+enMFgPRX8TFxoeCWf30=",
+    "originContent": "# Vagrant image settings",
+    "translatedContent": "# Vagrant image settings"
+  },
+  {
+    "row": 29,
+    "rowsha": "c97G6DoBoqfJAl4Ly/feovOL/m/RP6W9kFgLEsdd7QI=",
+    "originContent": "MEMORY=8000     # MiB (~8 GB)",
+    "translatedContent": "MEMORY=8000     # MiB (~8 GB)"
+  },
+  {
+    "row": 30,
+    "rowsha": "4bfi5uX1L048prxrw7xPA0A9ThOL2uJ/+QIcl+blY0c=",
+    "originContent": "CPU=4",
+    "translatedContent": "CPU=4"
+  },
+  {
+    "row": 31,
+    "rowsha": "5W9Xb+o8QgzbokKIpYHboHtvbls0fjFBf2mpX1x8UJA=",
+    "originContent": "DISK_SIZE=100   # GiB",
+    "translatedContent": "DISK_SIZE=100   # GiB"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "IjqJFjuj86JKPnzLCU6I03DDR6LM3+Dkv5qxEsznwcs=",
+    "originContent": "2. Create `docker-compose.yml`",
+    "translatedContent": "2. 创建 `docker-compose.yml`"
+  },
+  {
+    "row": 34,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 35,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 36,
+    "rowsha": "bVYZjiGApSJ6CqrHTYnvi4Gj+OBxFfJ4uUeb9z4RjIg=",
+    "originContent": "  win10:",
+    "translatedContent": "  win10:"
+  },
+  {
+    "row": 37,
+    "rowsha": "+5hH0vztr0Kx998u0AUeylEHSK0K5Xs/SBB+Uk3+RdM=",
+    "originContent": "    image: docker.io/vaggeliskls/windows-in-docker-container:latest",
+    "translatedContent": "    image: docker.io/vaggeliskls/windows-in-docker-container:latest"
+  },
+  {
+    "row": 38,
+    "rowsha": "3pac7yLBduFPa386EpYvgntasNF4VLG9pqGH89j1ML8=",
+    "originContent": "    platform: linux/amd64",
+    "translatedContent": "    platform: linux/amd64"
+  },
+  {
+    "row": 39,
+    "rowsha": "fIIXFUVzzZIzW74PhNn57ROrXo7HWwXU2hoiwyGLtEo=",
+    "originContent": "    env_file: .env",
+    "translatedContent": "    env_file: .env"
+  },
+  {
+    "row": 40,
+    "rowsha": "89GigpJ+TjtckNGkGxgEIB6UNFi8/fq85JBYwfBL6OI=",
+    "originContent": "    stdin_open: true",
+    "translatedContent": "    stdin_open: true"
+  },
+  {
+    "row": 41,
+    "rowsha": "lG5+baGKhlLM0pFn7oaJzOgKjIGvHxXLsX7ipIdRWao=",
+    "originContent": "    tty: true",
+    "translatedContent": "    tty: true"
+  },
+  {
+    "row": 42,
+    "rowsha": "q+dz1AQuZLwo/Ma0l3igxzRJts0LCXgSBKM2JLefiu4=",
+    "originContent": "    privileged: true",
+    "translatedContent": "    privileged: true"
+  },
+  {
+    "row": 43,
+    "rowsha": "NvJqVTu0wgewBMJhgF386BNJ9ANouvikLiz77e0kJfQ=",
+    "originContent": "    cgroup: host",
+    "translatedContent": "    cgroup: host"
+  },
+  {
+    "row": 44,
+    "rowsha": "/uy9d3HbOd8CYaZVypCmtWqjopelHDRf5Mvkav6H4Yc=",
+    "originContent": "    restart: always",
+    "translatedContent": "    restart: always"
+  },
+  {
+    "row": 45,
+    "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
+    "originContent": "    ports:",
+    "translatedContent": "    ports:"
+  },
+  {
+    "row": 46,
+    "rowsha": "R/Ui4h+/sqWP++W7ZZ74hiU9f6Ou+s4nq7A0Y5QNK9c=",
+    "originContent": "      - 3389:3389",
+    "translatedContent": "      - 3389:3389"
+  },
+  {
+    "row": 47,
+    "rowsha": "1YGj7b1rYfvG+AXnEqXNuoHeN1zg0u5NBJ+KLTFdcZo=",
+    "originContent": "      - 2222:2222",
+    "translatedContent": "      - 2222:2222"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "dzg7PUqoiwXfTcMepA04NjdB+NeI6yKymJE/pf2/SFA=",
+    "originContent": "3. Create `docker-compose.override.yml` when you want your VM to be persistent",
+    "translatedContent": "3. 当您希望虚拟机持久化时，创建 `docker-compose.override.yml`"
+  },
+  {
+    "row": 50,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 51,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 52,
+    "rowsha": "bVYZjiGApSJ6CqrHTYnvi4Gj+OBxFfJ4uUeb9z4RjIg=",
+    "originContent": "  win10:",
+    "translatedContent": "  win10:"
+  },
+  {
+    "row": 53,
+    "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+    "originContent": "    volumes:",
+    "translatedContent": "    volumes:"
+  },
+  {
+    "row": 54,
+    "rowsha": "ZGFQ5gMNeXmfm6YLT2l/LedmhDgDBsZaVLJovsdwA3g=",
+    "originContent": "      - libvirt_data:/var/lib/libvirt",
+    "translatedContent": "      - libvirt_data:/var/lib/libvirt"
+  },
+  {
+    "row": 55,
+    "rowsha": "U9LB3WQAJGjRf0dp2zNw6lMkYV4yUzVXdVT2vNuM8A4=",
+    "originContent": "      - vagrant_data:/root/.vagrant.d",
+    "translatedContent": "      - vagrant_data:/root/.vagrant.d"
+  },
+  {
+    "row": 56,
+    "rowsha": "myTu26AdGtttF5k0bK23RhHsDcvLYTFfnSvPK4HCoJo=",
+    "originContent": "      - vagrant_project:/app/.vagrant",
+    "translatedContent": "      - vagrant_project:/app/.vagrant"
+  },
+  {
+    "row": 57,
+    "rowsha": "XDoV27ffHSzW5oEQFVP4a9wZZncODt2opRotZo4G3fk=",
+    "originContent": "      - libvirt_config:/etc/libvirt",
+    "translatedContent": "      - libvirt_config:/etc/libvirt"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "xddxS2HZSubkNLvKyLE6I4v1XoveCG3wK8nGhaS9vwo=",
+    "originContent": "volumes:",
+    "translatedContent": "volumes:"
+  },
+  {
+    "row": 60,
+    "rowsha": "8wEcnBgVv8XgDSijI2zr7cF7ZtE3Hx/4P1MP3I3I7nI=",
+    "originContent": "  libvirt_data:",
+    "translatedContent": "  libvirt_data:"
+  },
+  {
+    "row": 61,
+    "rowsha": "dshIW0RwoosGxNb+/rEV+X6Wv7n8ytX98iG1u9hDAxc=",
+    "originContent": "    name: libvirt_data",
+    "translatedContent": "    name: libvirt_data"
+  },
+  {
+    "row": 62,
+    "rowsha": "eD3oB0JPnFPmfmJnNLu8//cnzAbolmydIEB4vPwiqOA=",
+    "originContent": "  vagrant_data:",
+    "translatedContent": "  vagrant_data:"
+  },
+  {
+    "row": 63,
+    "rowsha": "RhtnqGxFVdjY1lEUkGNHhdpaMY7jSnziu8BUwAoxwII=",
+    "originContent": "    name: vagrant_data",
+    "translatedContent": "    name: vagrant_data"
+  },
+  {
+    "row": 64,
+    "rowsha": "TGjzp3e9XP6zBFRS7kq8i6V86vR/dqVUZsz2oRPHNGg=",
+    "originContent": "  vagrant_project:",
+    "translatedContent": "  vagrant_project:"
+  },
+  {
+    "row": 65,
+    "rowsha": "Rjr3IvOA36qGh80yjob4CvGEdQvmX0QHsq7Kqs78KLA=",
+    "originContent": "    name: vagrant_project",
+    "translatedContent": "    name: vagrant_project"
+  },
+  {
+    "row": 66,
+    "rowsha": "iamBTmO450+IXbquQzX1FORq16DmqgODOUnC20yPYR8=",
+    "originContent": "  libvirt_config:",
+    "translatedContent": "  libvirt_config:"
+  },
+  {
+    "row": 67,
+    "rowsha": "J8BBzVrCua9XS6khNsORIsrURk97oi6GeVdPNA7lueM=",
+    "originContent": "    name: libvirt_config",
+    "translatedContent": "    name: libvirt_config"
+  },
+  {
+    "row": 68,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. 运行：`docker compose up -d`"
+  },
+  {
+    "row": 70,
+    "rowsha": "0agK8FVIb1N/1YR3K/jhmV/XvYp/Cm2xrIVZIdptKCQ=",
+    "originContent": "4. Run: `docker compose up -d`",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **首次启动需要几分钟时间** — Vagrant盒子已内置于镜像中，但虚拟机仍需启动并运行配置脚本（Chocolatey安装、磁盘扩展、注册表调整）。可通过 `docker compose logs -f` 查看进度。"
+  },
+  {
+    "row": 72,
+    "rowsha": "ZeKz8gBBmQmM1lJdFShAokMzIKXjbVAYmv/TecM4uU4=",
+    "originContent": "> **First boot takes several minutes** — the Vagrant box is already baked into the image, but the VM still has to boot and run the provisioning script (Chocolatey install, disk resize, registry tweaks). Follow progress with `docker compose logs -f`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> 如果想销毁所有内容，执行 `docker compose down -v`"
+  },
+  {
+    "row": 74,
+    "rowsha": "C45LFhcWJvOBVZGSt/h/e53DMd/6QinH68rwYneglyw=",
+    "originContent": "> When you want to destroy everything `docker compose down -v`",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![windows screenshot](https://github.com/vaggeliskls/windows-in-docker-container/blob/main/images/screen-1.png?raw=true )"
+  },
+  {
+    "row": 76,
+    "rowsha": "UALNkfiN3fr7G1j2ODRYcslSNS2g+sE40QLW16pVqwU=",
+    "originContent": "![windows screenshot](https://github.com/vaggeliskls/windows-in-docker-container/blob/main/images/screen-1.png?raw=true )",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🌐 访问  "
+  },
+  {
+    "row": 78,
+    "rowsha": "zjlNl2hYJjb49XYdgPBUJR9+7duLuDa7fSbtFKFV2cI=",
+    "originContent": "## 🌐 Access  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 远程桌面 (RDP)  "
+  },
+  {
+    "row": 80,
+    "rowsha": "8Ipt5Opv/ZVQ01NfR0lpKVGBgh0UqW0GI6R13nM/nPg=",
+    "originContent": "### Remote Desktop (RDP)  ",
+    "translatedContent": "用于调试或测试，可通过端口 `3389` 使用 **远程桌面** 连接虚拟机。  "
+  },
+  {
+    "row": 81,
+    "rowsha": "/Tvs2K6apTBAm0+eNcrAJiNhY9Lh3HM2S/9hhfXfhLc=",
+    "originContent": "For debugging or testing, you can connect to the VM using **Remote Desktop** on port `3389`.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 远程桌面访问软件  "
+  },
+  {
+    "row": 83,
+    "rowsha": "X4mMD3h1+3a4kEdLCTtjUeCh5KEqeYAKHexSbnklg7E=",
+    "originContent": "#### Software for Remote Desktop Access  ",
+    "translatedContent": "| 操作系统    | 软件       |"
+  },
+  {
+    "row": 84,
+    "rowsha": "QcRKYmMDWAKhIWTJBcoQFw7HqGtl3byE12j0R1U8RNs=",
+    "originContent": "| OS       | Software |",
+    "translatedContent": "|------------|------------|"
+  },
+  {
+    "row": 85,
+    "rowsha": "cHcFnDx8wTYLYyCCPcVk6nnXdiefgPKgi1YahgQ0QkY=",
+    "originContent": "|----------|----------------|",
+    "translatedContent": "| **Linux**   | [`rdesktop`](https://github.com/rdesktop/rdesktop) → `rdesktop <ip>:3389` 或 [`Remmina`](https://remmina.org/) |"
+  },
+  {
+    "row": 86,
+    "rowsha": "so7So4qz/P1A1UDxz844R6MKqJKVG/6rEavuBqDdS0o=",
+    "originContent": "| **Linux**   | [`rdesktop`](https://github.com/rdesktop/rdesktop) → `rdesktop <ip>:3389` or [`Remmina`](https://remmina.org/) |",
+    "translatedContent": "| **MacOS**   | [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) |"
+  },
+  {
+    "row": 87,
+    "rowsha": "wpxSAC+oLUO381unKkZMhE4jyRztH4rnC0h4bTlfuG8=",
+    "originContent": "| **MacOS**   | [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) |",
+    "translatedContent": "| **Windows** | 内置 **远程桌面连接** |"
+  },
+  {
+    "row": 88,
+    "rowsha": "YXyy5gYcTAtzARDi4EWc1H43YBbJeEMfmvoyCbedhmE=",
+    "originContent": "| **Windows** | Built-in **Remote Desktop Connection** |",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 90,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### SSH   "
+  },
+  {
+    "row": 92,
+    "rowsha": "a+Zx/WZNUs/gmjH2o4goDdd8MxGxZ1bR/bSkRRswDxc=",
+    "originContent": "### SSH   ",
+    "translatedContent": "您可以使用 **administrator** 或 **Vagrant** 用户凭据通过 SSH 连接。  "
+  },
+  {
+    "row": 93,
+    "rowsha": "UPpy9aOzi/R2IvDCNX4uf7jdTyj9jeGiIUO0Ar49d8o=",
+    "originContent": "You can connect via SSH using either the **administrator** or **Vagrant** user credentials.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 95,
+    "rowsha": "xDgzIkwFbJ8P4bObjjXhwetaA4KJ6IbM9a0hbo6E8IE=",
+    "originContent": "ssh <user>@<host> -p 2222",
+    "translatedContent": "ssh <user>@<host> -p 2222"
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "3ZjdZewIgjCNA5FlWJNXpb3fREhRD3Rvtov3OeuLZyM=",
+    "originContent": "## 🔑 User Login",
+    "translatedContent": "## 🔑 用户登录"
+  },
+  {
+    "row": 99,
+    "rowsha": "/wIrDoI5hTye4kahQPpjXWwi+onuAOmwB8MMg6H+zvI=",
+    "originContent": "Default users based on the Vagrant image are:",
+    "translatedContent": "基于 Vagrant 镜像的默认用户为："
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "7wihY9g7rrCCf38A29vCw6/GdAUQMTDtOq8xUx0eLS4=",
+    "originContent": "1. Administrator",
+    "translatedContent": "1. 管理员"
+  },
+  {
+    "row": 102,
+    "rowsha": "VMGFz/PpUSVcJlDAs/+OIiw5A++bGeqnnzporPzCEcI=",
+    "originContent": "    - Username: Administrator",
+    "translatedContent": "    - 用户名：Administrator"
+  },
+  {
+    "row": 103,
+    "rowsha": "R0L05tvCpgZKDAq/WXa5hn5WNRAucBQ9d04FqctuFhY=",
+    "originContent": "    - Password: vagrant",
+    "translatedContent": "    - 密码：vagrant"
+  },
+  {
+    "row": 104,
+    "rowsha": "PzFGxfC3n8WNZGB2OXNecYEsZSLXIa+k4vg5/TFgqgw=",
+    "originContent": "2. User",
+    "translatedContent": "2. 用户"
+  },
+  {
+    "row": 105,
+    "rowsha": "4NclbAQAhSMeJvvNWHbk0GfHbHTd0wDF7PuYI64oHlA=",
+    "originContent": "    - Username: vagrant",
+    "translatedContent": "    - 用户名：vagrant"
+  },
+  {
+    "row": 106,
+    "rowsha": "R0L05tvCpgZKDAq/WXa5hn5WNRAucBQ9d04FqctuFhY=",
+    "originContent": "    - Password: vagrant",
+    "translatedContent": "    - 密码：vagrant"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "JqgQxxdJaTl8L4jnyDQnZjC32vt9f7OWcWLvOPLHhWU=",
+    "originContent": "## ⚠️ Limitations",
+    "translatedContent": "## ⚠️ 限制"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "Yux3kgWuyHiJZtxtYBgN50+/zEzL29378olZsIAp9Xs=",
+    "originContent": "- **Linux host only** — depends on `/dev/kvm` and libvirt; macOS and Windows hosts are not supported.",
+    "translatedContent": "- **仅限 Linux 主机** — 依赖 `/dev/kvm` 和 libvirt；不支持 macOS 和 Windows 主机。"
+  },
+  {
+    "row": 111,
+    "rowsha": "KefUgts6YcZ02Sf9LKXzlppPC5FmV4mnz/RxVchjckk=",
+    "originContent": "- **Eval license** — the underlying box ships an evaluation copy of Windows Server 2022. Activation expires per Microsoft's eval terms.",
+    "translatedContent": "- **评估许可** — 底层镜像附带 Windows Server 2022 评估版。激活根据微软评估条款到期。"
+  },
+  {
+    "row": 112,
+    "rowsha": "c4iRCRjQxLwjL9aMPE5up36j3kFhiwDYZEQPVioF/Ro=",
+    "originContent": "- **No synced folders** — `rsync`, `smb`, and `nfs` are all unwired in the [Vagrantfile](Vagrantfile) (rsync needs a Windows-side install before provisioning runs; SMB synced folders aren't supported with a Linux host; in-container NFS hits `no support in current kernel`).",
+    "translatedContent": "- **无同步文件夹** — `rsync`、`smb` 和 `nfs` 在 [Vagrantfile](Vagrantfile) 中均未启用（rsync 需要 Windows 端安装后才能在预配置时运行；Linux 主机不支持 SMB 同步文件夹；容器内 NFS 报错“当前内核不支持”）。"
+  },
+  {
+    "row": 113,
+    "rowsha": "Y+0RvlxrHU3llmoxvsodR8YEENKnEb4+Ta8POds8Elo=",
+    "originContent": "- **Performance** — without nested KVM available to Docker (e.g. on a cloud VM that doesn't expose KVM), the guest falls back to plain QEMU and is several times slower.",
+    "translatedContent": "- **性能** — 在 Docker 中无法使用嵌套 KVM（例如云 VM 不支持 KVM），客机将回退至普通 QEMU，速度慢数倍。"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "cloYatlaykTYorMLiiWaWsZ/kzPu0t/zvQI83WjU370=",
+    "originContent": "## 🔧 Troubleshooting",
+    "translatedContent": "## 🔧 故障排除"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "/EpRXhSk7L7IMZ1iUngTYC3XtNhWwDjxaEM2ZZGIWFI=",
+    "originContent": "- **`KVM acceleration is not available`** in logs → the host isn't exposing `/dev/kvm`. Check virtualization is enabled in BIOS, the `kvm` module is loaded (`lsmod | grep kvm`), and `/dev/kvm` exists on the host. The startup script falls back to QEMU automatically; expect a large slowdown.",
+    "translatedContent": "- **日志中出现 `KVM acceleration is not available`** → 主机未暴露 `/dev/kvm`。检查 BIOS 中虚拟化是否开启，`kvm` 模块是否加载（`lsmod | grep kvm`），以及主机上是否存在 `/dev/kvm`。启动脚本会自动回退到 QEMU，性能明显下降。"
+  },
+  {
+    "row": 118,
+    "rowsha": "tAe2zgh60gsTZaB/vWpRKLwQSMO4Ch+NdCcid23n4TQ=",
+    "originContent": "- **Port 3389 / 2222 already in use** → another RDP/SSH service is bound on the host. Stop it, or change the host-side port mapping in `docker-compose.yml`.",
+    "translatedContent": "- **端口 3389 / 2222 已被占用** → 主机上已有其他 RDP/SSH 服务占用。停止该服务，或修改 `docker-compose.yml` 中主机端口映射。"
+  },
+  {
+    "row": 119,
+    "rowsha": "o5Pf+2OXfg3axtaJaZAQvzzwbuzwPeatNrdbJb8f+EY=",
+    "originContent": "- **Container exits immediately** → almost always a cgroup or privilege problem. Confirm `privileged: true` and `cgroup: host` are set, then check `docker compose logs win10`.",
+    "translatedContent": "- **容器立即退出** → 几乎总是 cgroup 或权限问题。确认设置了 `privileged: true` 和 `cgroup: host`，然后检查 `docker compose logs win10`。"
+  },
+  {
+    "row": 120,
+    "rowsha": "sxb+IkcYFRiyOyDMFEplIP3bMYygd4J9Ep0H9SjNG9k=",
+    "originContent": "- **`vagrant up` hangs at \"Waiting for domain to get an IP address\"** → libvirt's default NAT network isn't running. Restart the container, or run `virsh net-start default` from inside it.",
+    "translatedContent": "- **`vagrant up` 卡在“Waiting for domain to get an IP address”** → libvirt 默认 NAT 网络未运行。重启容器，或在容器内运行 `virsh net-start default`。"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "IL9lifmTvQDeqM8Ip4fij+JdB5Pm30bnrlnWOyX2hhk=",
+    "originContent": "## 📚 Further Reading and Resources",
+    "translatedContent": "## 📚 进一步阅读与资源"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "oOnApCQvEuK9KFg3hOyNZbQA3z4/1NDKGE/inP3gqa0=",
+    "originContent": "- [Windows Vagrant Tutorial](https://github.com/SecurityWeekly/vulhub-lab)",
+    "translatedContent": "- [Windows Vagrant 教程](https://github.com/SecurityWeekly/vulhub-lab)"
+  },
+  {
+    "row": 125,
+    "rowsha": "/o3VYvLFKx0fbKmHMb/sezBuzfklo5+4Qeluwcej75g=",
+    "originContent": "- [Vagrant image: peru/windows-server-2022-standard-x64-eval](https://app.vagrantup.com/peru/boxes/windows-server-2022-standard-x64-eval)",
+    "translatedContent": "- [Vagrant 镜像：peru/windows-server-2022-standard-x64-eval](https://app.vagrantup.com/peru/boxes/windows-server-2022-standard-x64-eval)"
+  },
+  {
+    "row": 126,
+    "rowsha": "Wcs8yUAoxTrTaO/EtIcb7yWg8FR0EKRUHoHw74HgOkg=",
+    "originContent": "- [Vagrant by HashiCorp](https://www.vagrantup.com/)",
+    "translatedContent": "- [HashiCorp 的 Vagrant](https://www.vagrantup.com/)"
+  },
+  {
+    "row": 127,
+    "rowsha": "LgzPDCaW/Qf5lvFIudtfpCOHftjdQpqt7ZFp9ON0el0=",
+    "originContent": "- [Windows Virtual Machine in a Linux Docker Container](https://medium.com/axon-technologies/installing-a-windows-virtual-machine-in-a-linux-docker-container-c78e4c3f9ba1)",
+    "translatedContent": "- [在 Linux Docker 容器中运行 Windows 虚拟机](https://medium.com/axon-technologies/installing-a-windows-virtual-machine-in-a-linux-docker-container-c78e4c3f9ba1)"
+  },
+  {
+    "row": 128,
+    "rowsha": "hRvQOq/WPJDNSjGjQso3oGrnTFFywK0xGdObR/mWK1Q=",
+    "originContent": "- [GPU inside a container](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)",
+    "translatedContent": "- [容器内的 GPU](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
