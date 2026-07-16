@@ -1,29 +1,61 @@
-# 💻 Windows dans un conteneur Docker  
-Découvrez une méthode innovante et efficace pour déployer Windows OS (x64) sur votre système Linux en utilisant la puissance de Vagrant VM, libvirt et docker-compose. Ensemble, ces technologies vous aident à containeriser Windows OS, vous permettant de gérer une instance Windows comme vous le feriez pour n’importe quel conteneur Docker. Cette intégration transparente dans les flux de travail existants améliore considérablement la commodité et optimise l’allocation des ressources.  
 
-⭐ **N’oubliez pas de mettre une étoile au projet s’il vous a aidé !**  
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-## 📋 Prérequis  
+# 💻 Windows dans un conteneur Docker
+Découvrez une méthode innovante et efficace pour déployer le système d’exploitation Windows (x64) sur votre système Linux en utilisant la puissance de Vagrant VM, libvirt et docker-compose. Ensemble, ces technologies vous permettent de conteneuriser Windows OS, vous donnant la possibilité de gérer une instance Windows comme n’importe quel autre conteneur Docker. Cette intégration transparente dans les flux de travail existants améliore considérablement la commodité et optimise l’allocation des ressources.
 
-Assurez-vous que votre système répond aux exigences suivantes :  
+⭐ **N'oubliez pas d'ajouter une étoile au projet s'il vous a aidé !**
 
-- **Docker :** Version 20 ou supérieure [(Installer Docker)](https://www.docker.com/)  
+## 📋 Prérequis
 
-- **OS hôte :** Linux  
+Assurez-vous que votre système répond aux exigences suivantes :
 
-- **Virtualisation activée :**  
-  - Vérifiez avec :  
-    - `lscpu | grep -i Virtualization`  
-  - La sortie indique :  
-    - `VT-x` → La virtualisation Intel est prise en charge et activée.  
-    - `AMD-V` → La virtualisation AMD est prise en charge et activée.  
-  - Si la virtualisation n’est pas activée, activez-la dans les paramètres BIOS/UEFI.  
+- **Docker :** Version 20 ou supérieure [(Installer Docker)](https://www.docker.com/)
 
-- **`cgroup: host`** dans le fichier compose est requis : libvirt et les démons qu’il lance ont besoin d’un accès complet aux cgroups, sinon le conteneur ne démarre pas sur les hôtes avec cgroup v2.  
+- **OS hôte :** Linux
 
-## 🚀 Guide de déploiement  
+- **Virtualisation activée :**
+  - Vérifier avec :
+    - `lscpu | grep -i Virtualization`
+  - La sortie indique :
+    - `VT-x` → La virtualisation Intel est prise en charge et activée.
+    - `AMD-V` → La virtualisation AMD est prise en charge et activée.
+  - Si la virtualisation n'est pas activée, activez-la dans les paramètres BIOS/UEFI.
 
-1. Créez/Mettre à jour le fichier environnemental `.env`
+- **`cgroup: host`** dans le fichier compose est requis : libvirt et les démons qu'il lance ont besoin d'un accès complet aux cgroups, sinon le conteneur échoue au démarrage sur les hôtes cgroup v2.
+
+## 🚀 Guide de déploiement
+
+1. Créez/Mettez à jour le fichier d'environnement `.env`
 ```
 # Vagrant image settings
 MEMORY=8000     # MiB (~8 GB)
@@ -130,6 +162,6 @@ Les utilisateurs par défaut basés sur l'image Vagrant sont :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-16
 
 ---

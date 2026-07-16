@@ -1,0 +1,2346 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 剪存 - 剪贴板历史管理工具\n\n一个基于 Wails + Vue 3 + TypeScript 的多平台剪贴板历史管理工具。\n\n## 已上架App Store\nhttps://apps.apple.com/us/app/剪存/id6754015301\n\n## 功能特性\n- [新增自定义脚本-点击查看](https://raw.githubusercontent.com/snsogbl/clip-save/main/scriptingExample/README.md)\n- 自动保存剪贴板历史\n- 支持文本、图片、文件等多种类型\n- 实时搜索和过滤功能（支持搜索图片中的 OCR 文字）\n- 本地 SQLite 数据库存储（所有数据只存本地,隐私安全有保障）\n- 个性化设置：密码保护、自动清理、快捷键配置\n\n## 项目截图\n\n<img src=\"https://raw.githubusercontent.com/snsogbl/clip-save/master/screenshots/clipboard-1.png\" alt=\"Capture\" width=\"960\">\n\n\n## 技术栈\n\n- **后端**: Go + Wails v2\n- **前端**: Vue 3 + TypeScript + Vite\n- **数据库**: SQLite3\n- **剪贴板**: golang.design/x/clipboard\n\n## 安装依赖\n\n### 1. 安装 Wails CLI\n",
+    "ContentSha": "MsXEtERhPD90WzuYRZRWkJuvcWN33EWOuLnFChbjKQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 剪存 - 클립보드 히스토리 관리 도구\n\nWails + Vue 3 + TypeScript 기반의 다중 플랫폼 클립보드 히스토리 관리 도구입니다.\n\n## App Store에 출시됨\nhttps://apps.apple.com/us/app/剪存/id6754015301\n\n## 기능 특징\n- [새로운 사용자 정의 스크립트 - 클릭하여 보기](https://raw.githubusercontent.com/snsogbl/clip-save/main/scriptingExample/README.md)\n- 클립보드 히스토리 자동 저장\n- 텍스트, 이미지, 파일 등 다양한 타입 지원\n- 실시간 검색 및 필터 기능 (이미지 내 OCR 텍스트 검색 지원)\n- 로컬 SQLite 데이터베이스 저장 (모든 데이터는 로컬에만 저장, 개인정보 보호 보장)\n- 개인화 설정: 비밀번호 보호, 자동 정리, 단축키 설정\n\n## 프로젝트 스크린샷\n\n<img src=\"https://raw.githubusercontent.com/snsogbl/clip-save/master/screenshots/clipboard-1.png\" alt=\"Capture\" width=\"960\">\n\n\n## 기술 스택\n\n- **백엔드**: Go + Wails v2\n- **프론트엔드**: Vue 3 + TypeScript + Vite\n- **데이터베이스**: SQLite3\n- **클립보드**: golang.design/x/clipboard\n\n## 의존성 설치\n\n### 1. Wails CLI 설치하기\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cyPLnc9OwvJygDMWtHuyxx23pQXvxz6GJb+BPpe7x+M=",
+        "originContent": "# 剪存 - 剪贴板历史管理工具",
+        "translatedContent": "# 剪存 - 클립보드 히스토리 관리 도구"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "uTSMnW3A+VQzJMztpVxJ0JgZ4XwenSoopo3jQ4AQ2PY=",
+        "originContent": "一个基于 Wails + Vue 3 + TypeScript 的多平台剪贴板历史管理工具。",
+        "translatedContent": "Wails + Vue 3 + TypeScript 기반의 다중 플랫폼 클립보드 히스토리 관리 도구입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Mkm2IVZjusIAJXM31agT1pe/vAMXjZVwWr5Z1j6A5Fc=",
+        "originContent": "## 已上架App Store",
+        "translatedContent": "## App Store에 출시됨"
+      },
+      {
+        "row": 6,
+        "rowsha": "yV4dedrFmEtX9UtPDOYBamfrMPZDK27BYndc6o0HUAk=",
+        "originContent": "https://apps.apple.com/us/app/剪存/id6754015301",
+        "translatedContent": "https://apps.apple.com/us/app/剪存/id6754015301"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+        "originContent": "## 功能特性",
+        "translatedContent": "## 기능 특징"
+      },
+      {
+        "row": 9,
+        "rowsha": "hdzgnqdTh9vqWQD2gK2pJHyywxphrAwPFHUph0WHwfE=",
+        "originContent": "- [新增自定义脚本-点击查看](https://raw.githubusercontent.com/snsogbl/clip-save/main/scriptingExample/README.md)",
+        "translatedContent": "- [새로운 사용자 정의 스크립트 - 클릭하여 보기](https://raw.githubusercontent.com/snsogbl/clip-save/main/scriptingExample/README.md)"
+      },
+      {
+        "row": 10,
+        "rowsha": "OugYgXkPhEu0ieV7Nxp7b6ajey/u5jl1zv5rDrV+3gk=",
+        "originContent": "- 自动保存剪贴板历史",
+        "translatedContent": "- 클립보드 히스토리 자동 저장"
+      },
+      {
+        "row": 11,
+        "rowsha": "YNSI7O8ODGQa9AlgbGNs3Ye9+lgqHvMOxn3gCrZVdcM=",
+        "originContent": "- 支持文本、图片、文件等多种类型",
+        "translatedContent": "- 텍스트, 이미지, 파일 등 다양한 타입 지원"
+      },
+      {
+        "row": 12,
+        "rowsha": "bVisgssHXN0sxs/fEmm0zqRXaZyrhPYpO6gKHGPlaeg=",
+        "originContent": "- 实时搜索和过滤功能（支持搜索图片中的 OCR 文字）",
+        "translatedContent": "- 실시간 검색 및 필터 기능 (이미지 내 OCR 텍스트 검색 지원)"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ku9EAKIkOeX7k6A7IQOk4Qkzpwtqop4V0pdRAUEiNU4=",
+        "originContent": "- 本地 SQLite 数据库存储（所有数据只存本地,隐私安全有保障）",
+        "translatedContent": "- 로컬 SQLite 데이터베이스 저장 (모든 데이터는 로컬에만 저장, 개인정보 보호 보장)"
+      },
+      {
+        "row": 14,
+        "rowsha": "BszQM5zIiM3fBPW45P2fGKZtomRmaEDlbLi8baqIoAo=",
+        "originContent": "- 个性化设置：密码保护、自动清理、快捷键配置",
+        "translatedContent": "- 개인화 설정: 비밀번호 보호, 자동 정리, 단축키 설정"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "aYlVPNPd3maMu2ig9ye2fprzExCT6opCBdoSmyNpILQ=",
+        "originContent": "## 项目截图",
+        "translatedContent": "## 프로젝트 스크린샷"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "d9b5AfeIvIn98iYDQo7W38sZvKml8zwm99dim1UUcHs=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/snsogbl/clip-save/master/screenshots/clipboard-1.png\" alt=\"Capture\" width=\"960\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/snsogbl/clip-save/master/screenshots/clipboard-1.png\" alt=\"Capture\" width=\"960\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "LtaCEvD8FWJfPXsJMaPE5dt0QVZ/++OpGW5pGNG3LYY=",
+        "originContent": "## 技术栈",
+        "translatedContent": "## 기술 스택"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "36dkZptgA6v2bM48E80cRgFssk5NtymrlsaFxfvsiMM=",
+        "originContent": "- **后端**: Go + Wails v2",
+        "translatedContent": "- **백엔드**: Go + Wails v2"
+      },
+      {
+        "row": 24,
+        "rowsha": "5x8hpcMgqcppMV9AGwiDq6GR0c3nTn4RwlU/hxbbeIM=",
+        "originContent": "- **前端**: Vue 3 + TypeScript + Vite",
+        "translatedContent": "- **프론트엔드**: Vue 3 + TypeScript + Vite"
+      },
+      {
+        "row": 25,
+        "rowsha": "GEd9fMj5dqYWAkP0uR9cOxHjWP5dLzKP98zOJpiK0Xg=",
+        "originContent": "- **数据库**: SQLite3",
+        "translatedContent": "- **데이터베이스**: SQLite3"
+      },
+      {
+        "row": 26,
+        "rowsha": "P4cKT8hHwbrYKaSJ8LzO3L+YDEogD6swAn2U1EFAxJU=",
+        "originContent": "- **剪贴板**: golang.design/x/clipboard",
+        "translatedContent": "- **클립보드**: golang.design/x/clipboard"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "fpqTBkPMDG0yLqXIEMGXXBGTB3z/b+25zLMYUp+iYXY=",
+        "originContent": "## 安装依赖",
+        "translatedContent": "## 의존성 설치"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "OOHHqbH+NHGMjbusEGTs5YGmbB1hcaZ6Ms+RshIpn0g=",
+        "originContent": "### 1. 安装 Wails CLI",
+        "translatedContent": "### 1. Wails CLI 설치하기"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngo install github.com/wailsapp/wails/v2/cmd/wails@latest\n```",
+    "ContentSha": "yF6advTgOHUJImlw8Tfc82jCmfFVGVETmH8+dM8srz0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo install github.com/wailsapp/wails/v2/cmd/wails@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gl0w6MIh6visTSg6Z2zf4VnjlJgO+mAU2N5tqkanflA=",
+        "originContent": "go install github.com/wailsapp/wails/v2/cmd/wails@latest",
+        "translatedContent": "go install github.com/wailsapp/wails/v2/cmd/wails@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 2. 安装项目依赖\n",
+    "ContentSha": "X66OSWLzAJhuknlWPTCx3r8n/yWVZhaoKYQuVHYA34g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. 프로젝트 의존성 설치\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9jIpStSEBk6UKS02CjOZ/5BPwMmp6hktpP1bWTihU3U=",
+        "originContent": "### 2. 安装项目依赖",
+        "translatedContent": "### 2. 프로젝트 의존성 설치"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# Go 依赖\ngo mod tidy\n\n# 前端依赖\ncd frontend\nnpm install\n```",
+    "ContentSha": "VcQGEeVjxKVFfxMOBAAv2HU/quMUZobdNSgQBGZujqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Go 依赖\ngo mod tidy\n\n# 前端依赖\ncd frontend\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fcgDb9tdQ8CGa4aYGC9edXEqjZGgd9aTc6NHS885wnk=",
+        "originContent": "# Go 依赖",
+        "translatedContent": "# Go 依赖"
+      },
+      {
+        "row": 3,
+        "rowsha": "WuvfdEbrypnxPKK0VYgNXVUjOi2DSYzwl5ItoCgosC8=",
+        "originContent": "go mod tidy",
+        "translatedContent": "go mod tidy"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yZfCrPWTc8Ky6+QYaLoTp4g4mztNBxUo98zKB6Y919Y=",
+        "originContent": "# 前端依赖",
+        "translatedContent": "# 前端依赖"
+      },
+      {
+        "row": 6,
+        "rowsha": "mBQkeVSRciUI+61SI++H1xbSAp3vL2nFmMMIIwDhQYA=",
+        "originContent": "cd frontend",
+        "translatedContent": "cd frontend"
+      },
+      {
+        "row": 7,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 开发\n\n### 启动开发服务器\n",
+    "ContentSha": "URPWKUJvPAaTBKIY5hWgfo6e6UG0mOCZ8IOTbg/tvNY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 开发\n\n### 启动开发服务器\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aqIG8JWR3ptecYM3xkd53tqSoTdIXWPv2QQEwQwkeYE=",
+        "originContent": "## 开发",
+        "translatedContent": "## 开发"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lQN6YMsYCS59rqUczqSInV0ZHEBuGephVDI/h1Zd1vg=",
+        "originContent": "### 启动开发服务器",
+        "translatedContent": "### 启动开发服务器"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nwails dev\n```",
+    "ContentSha": "oTEn4nI6IpR9p/4O+7wJEVXp/xhLcGjIhthTd9RxLbU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwails dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7QyzmDMDKLTXvBxZJnlFx3U9tSqjYFwzSbGX5fqzeAQ=",
+        "originContent": "wails dev",
+        "translatedContent": "wails dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n这将启动热重载开发服务器：\n- 后端 Go 代码修改会自动重新编译\n- 前端 Vue 代码修改会自动热重载\n\n### 开发时的调试\n\n开发模式下，应用会自动打开开发者工具，可以查看：\n- Console 日志\n- Network 请求\n- 前端组件状态\n\n## 构建\n\n### 构建生产版本\n",
+    "ContentSha": "9LsmKkYCpgSHwel5gJOUzWNdaBj2z8+4+2gWqBDhRn8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이것은 핫 리로드 개발 서버를 시작합니다:  \n- 백엔드 Go 코드 수정 시 자동으로 재컴파일됨  \n- 프론트엔드 Vue 코드 수정 시 자동으로 핫 리로드됨  \n\n### 개발 시 디버깅  \n\n개발 모드에서 애플리케이션은 자동으로 개발자 도구를 엽니다. 확인할 수 있는 내용:  \n- 콘솔 로그  \n- 네트워크 요청  \n- 프론트엔드 컴포넌트 상태  \n\n## 빌드  \n\n### 프로덕션 버전 빌드\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이것은 핫 리로드 개발 서버를 시작합니다:  "
+      },
+      {
+        "row": 2,
+        "rowsha": "WLTTSIUZIkzpnL76jhAQsBjfplCHDVNburHB66u2UeM=",
+        "originContent": "这将启动热重载开发服务器：",
+        "translatedContent": "- 백엔드 Go 코드 수정 시 자동으로 재컴파일됨  "
+      },
+      {
+        "row": 3,
+        "rowsha": "rKii/PERaLGai0CLX/5A2mOYUGw7UW3M8jRwyFa5ZLg=",
+        "originContent": "- 后端 Go 代码修改会自动重新编译",
+        "translatedContent": "- 프론트엔드 Vue 코드 수정 시 자동으로 핫 리로드됨  "
+      },
+      {
+        "row": 4,
+        "rowsha": "TZ4OZ6fc0oUA5041QDqfTGTqDXKOYZI5TVyw6+QNWSg=",
+        "originContent": "- 前端 Vue 代码修改会自动热重载",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 개발 시 디버깅  "
+      },
+      {
+        "row": 6,
+        "rowsha": "+H5aZtuoqk2ldkMoPeRhTfSUU/dRQUOdKkgnwVvxJVc=",
+        "originContent": "### 开发时的调试",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "개발 모드에서 애플리케이션은 자동으로 개발자 도구를 엽니다. 확인할 수 있는 내용:  "
+      },
+      {
+        "row": 8,
+        "rowsha": "x9N2sA4AOVzvcbWdqJ0svJ+FD6LllrVCGphB1UcCGIg=",
+        "originContent": "开发模式下，应用会自动打开开发者工具，可以查看：",
+        "translatedContent": "- 콘솔 로그  "
+      },
+      {
+        "row": 9,
+        "rowsha": "YNLW68EqTagYkty9koT5wco0EyhZg1ucgF5enepQgPA=",
+        "originContent": "- Console 日志",
+        "translatedContent": "- 네트워크 요청  "
+      },
+      {
+        "row": 10,
+        "rowsha": "MNWmMvqmeWmvpNDBy1bxJiMQP+TOCW+MAKl+mDKfxjk=",
+        "originContent": "- Network 请求",
+        "translatedContent": "- 프론트엔드 컴포넌트 상태  "
+      },
+      {
+        "row": 11,
+        "rowsha": "SYcyYTVUYiAJrghmim2V63Is9/H+tBUBbLaAer0Ymoc=",
+        "originContent": "- 前端组件状态",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 빌드  "
+      },
+      {
+        "row": 13,
+        "rowsha": "f3LL9v6LmfHjLGcry+/ScjHZqAZuCPSVu2yDYRd4Yuc=",
+        "originContent": "## 构建",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 프로덕션 버전 빌드"
+      },
+      {
+        "row": 15,
+        "rowsha": "aUz1WDhLI0k75+rqHE4+KUPw3wFYKnho9vZP645vJIs=",
+        "originContent": "### 构建生产版本",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nwails build\n```",
+    "ContentSha": "Jxyp1B0fv07KxbEPdEHvfWidOWMDgpwjJyIQacroVoc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwails build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aZDLa+saqw44hPuskV7gIXmnpUOb7d3HJDGC7ziA7uU=",
+        "originContent": "wails build",
+        "translatedContent": "wails build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n构建完成后，可执行文件将位于 `build/bin/` 目录下。\n\n### 自定义脚本部署到 Cloudflare Pages\n\n项目使用 Cloudflare Pages 托管在线脚本列表，支持用户从\"脚本市场\"直接安装和更新脚本。\n\n#### 1. 安装 Wrangler CLI\n",
+    "ContentSha": "ZV+w38WSvINlPt34zpE2L5sfphkWl3V2lHDmFmlLFG0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "빌드가 완료되면 실행 파일은 `build/bin/` 디렉토리에 위치하게 됩니다.\n\n### 맞춤 스크립트 Cloudflare Pages에 배포하기\n\n프로젝트는 Cloudflare Pages를 사용하여 온라인 스크립트 목록을 호스팅하며, 사용자가 \"스크립트 마켓\"에서 직접 스크립트를 설치하고 업데이트할 수 있도록 지원합니다.\n\n#### 1. Wrangler CLI 설치하기\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "빌드가 완료되면 실행 파일은 `build/bin/` 디렉토리에 위치하게 됩니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "KjA04Xz6wufNFVcS6hZLZWYcoEakrwlQb7Iy+c8fSW8=",
+        "originContent": "构建完成后，可执行文件将位于 `build/bin/` 目录下。",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 맞춤 스크립트 Cloudflare Pages에 배포하기"
+      },
+      {
+        "row": 4,
+        "rowsha": "8aSwUgPqieqUMfeFXRpcxLhqz4wb80VdGiSNv3SlrlM=",
+        "originContent": "### 自定义脚本部署到 Cloudflare Pages",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "프로젝트는 Cloudflare Pages를 사용하여 온라인 스크립트 목록을 호스팅하며, 사용자가 \"스크립트 마켓\"에서 직접 스크립트를 설치하고 업데이트할 수 있도록 지원합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "/MW6rca90RhCijOZaEYqLUybAQdhHmjow8loyclnwrg=",
+        "originContent": "项目使用 Cloudflare Pages 托管在线脚本列表，支持用户从\"脚本市场\"直接安装和更新脚本。",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 1. Wrangler CLI 설치하기"
+      },
+      {
+        "row": 8,
+        "rowsha": "TslT0Aj7/+NkvQAKpsMlWeMEnEKH5htCMWx5tNw1OMc=",
+        "originContent": "#### 1. 安装 Wrangler CLI",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nnpm install -g wrangler\n```",
+    "ContentSha": "2EzbxSIKlkftKhuHh6QwBPfr3nkKMfpucjA9gWSNf0c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install -g wrangler\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "giIpro/o+tO2RzKSt+u/rvgMWqveuafjIm7oZElejCk=",
+        "originContent": "npm install -g wrangler",
+        "translatedContent": "npm install -g wrangler"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n#### 2. 登录 Cloudflare\n",
+    "ContentSha": "f94IiJdAK4SNa3cIIvoeSzUNw9zGSv9IZoqyoFJi56A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 2. Cloudflare 로그인\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qymMgHSrcXaqH+CpKm/HiM0y//yKwG+kZbdIF/xmyYY=",
+        "originContent": "#### 2. 登录 Cloudflare",
+        "translatedContent": "#### 2. Cloudflare 로그인"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nwrangler login\n```",
+    "ContentSha": "bklHpaE5nfnqlcuoBlUakUle9c+icWktFwnI0NHfrDE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwrangler login\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FAcVUkTOmLlq2CpvRKAi1QC30h2rr8VOS8o4mJv5tSk=",
+        "originContent": "wrangler login",
+        "translatedContent": "wrangler login"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n这会打开浏览器，登录你的 Cloudflare 账号。\n\n#### 3. 部署脚本\n",
+    "ContentSha": "Dy/KcjhHPWeDtSQ7kD2NkjevD0YvxBOysAOwoQXZHjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이렇게 하면 브라우저가 열리고 Cloudflare 계정에 로그인합니다.\n\n#### 3. 스크립트 배포\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이렇게 하면 브라우저가 열리고 Cloudflare 계정에 로그인합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "/QUpM7Q34kfob35FGJ6ndyfbnTEsjVUvFxmsnLNvmLM=",
+        "originContent": "这会打开浏览器，登录你的 Cloudflare 账号。",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 3. 스크립트 배포"
+      },
+      {
+        "row": 4,
+        "rowsha": "1mfjNNjLARE7HmWEbEbRVXuaZe48ZeHKl+v1HAb+zm0=",
+        "originContent": "#### 3. 部署脚本",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\nwrangler pages deploy scriptingExample --project-name=clip-save-plugins\n```",
+    "ContentSha": "Mf9I4iLLoTLakJGe1jhtOaRPKlzJY1/sl2lXg+3seXc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwrangler pages deploy scriptingExample --project-name=clip-save-plugins\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SXK0YguWrusdqE9VGPEZYtVKq4mGu3Ff5YfHTmaZJV0=",
+        "originContent": "wrangler pages deploy scriptingExample --project-name=clip-save-plugins",
+        "translatedContent": "wrangler pages deploy scriptingExample --project-name=clip-save-plugins"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n部署完成后，脚本将通过以下 URL 访问：\n- 插件列表：`https://clip-save-plugins.pages.dev/plugins.json`\n- 脚本文件：`https://clip-save-plugins.pages.dev/{脚本文件名}.js`\n\n#### 4. 更新脚本\n\n每次修改 `scriptingExample` 目录中的文件后，重新运行部署命令：\n",
+    "ContentSha": "RJa950q0DxdRlxQrU2gxXn96+elQRhpbPJKO02q/V18=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "배포가 완료된 후, 스크립트는 다음 URL을 통해 접근할 수 있습니다:\n- 플러그인 목록: `https://clip-save-plugins.pages.dev/plugins.json`\n- 스크립트 파일: `https://clip-save-plugins.pages.dev/{스크립트파일명}.js`\n\n#### 4. 스크립트 업데이트\n\n`scriptingExample` 디렉토리 내 파일을 수정할 때마다 배포 명령어를 다시 실행하세요:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "배포가 완료된 후, 스크립트는 다음 URL을 통해 접근할 수 있습니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "GA46s/ghCDuzVYpUaX+4hZiEEmE1gAdnNLKWaIQQIeI=",
+        "originContent": "部署完成后，脚本将通过以下 URL 访问：",
+        "translatedContent": "- 플러그인 목록: `https://clip-save-plugins.pages.dev/plugins.json`"
+      },
+      {
+        "row": 3,
+        "rowsha": "sUIEzJSw5XUuCUcYRNxVSMWOQ9dbk3PCVBjx5FNcv8M=",
+        "originContent": "- 插件列表：`https://clip-save-plugins.pages.dev/plugins.json`",
+        "translatedContent": "- 스크립트 파일: `https://clip-save-plugins.pages.dev/{스크립트파일명}.js`"
+      },
+      {
+        "row": 4,
+        "rowsha": "5dfRIEPtO/rVtBoOla3gdG/aW9RriOx12A108oyR2jo=",
+        "originContent": "- 脚本文件：`https://clip-save-plugins.pages.dev/{脚本文件名}.js`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 4. 스크립트 업데이트"
+      },
+      {
+        "row": 6,
+        "rowsha": "/f4YlRGo6lCVn+i27PFxeqmDXYAoaGFryAji99OkTj8=",
+        "originContent": "#### 4. 更新脚本",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`scriptingExample` 디렉토리 내 파일을 수정할 때마다 배포 명령어를 다시 실행하세요:"
+      },
+      {
+        "row": 8,
+        "rowsha": "2I8r+YJ7/I+49CvtMOfn8P2mrRMMnvv9PONOu/Z48sg=",
+        "originContent": "每次修改 `scriptingExample` 目录中的文件后，重新运行部署命令：",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\nwrangler pages deploy scriptingExample --project-name=clip-save-plugins\n```",
+    "ContentSha": "Mf9I4iLLoTLakJGe1jhtOaRPKlzJY1/sl2lXg+3seXc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwrangler pages deploy scriptingExample --project-name=clip-save-plugins\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SXK0YguWrusdqE9VGPEZYtVKq4mGu3Ff5YfHTmaZJV0=",
+        "originContent": "wrangler pages deploy scriptingExample --project-name=clip-save-plugins",
+        "translatedContent": "wrangler pages deploy scriptingExample --project-name=clip-save-plugins"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n#### 5. 注意事项\n\n- 确保 `plugins.json` 中的 `scriptUrl` 使用 Cloudflare Pages 的 URL\n- 部署后通常几秒内生效（Cloudflare Pages 缓存时间很短）\n- 可以通过 Cloudflare Dashboard 查看部署历史和日志\n\n### macOS 构建选项\n",
+    "ContentSha": "Kf9oIeUe4rcmlcd4GnvO23ojplP2310Ou9gbyoikf68=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 5. 주의사항\n\n- `plugins.json`의 `scriptUrl`이 Cloudflare Pages의 URL을 사용하도록 확인하세요  \n- 배포 후 보통 몇 초 내에 적용됩니다(Cloudflare Pages 캐시 시간이 매우 짧음)  \n- Cloudflare 대시보드에서 배포 이력과 로그를 확인할 수 있습니다  \n\n### macOS 빌드 옵션\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 5. 주의사항"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gs+2EHRvp+6HIJU+YBoVwntw8yGN0aMp50rSSkTiBmU=",
+        "originContent": "#### 5. 注意事项",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `plugins.json`의 `scriptUrl`이 Cloudflare Pages의 URL을 사용하도록 확인하세요  "
+      },
+      {
+        "row": 4,
+        "rowsha": "GsF1KrvxwdiyS0YKElJ6RXNsANs4W+SEpaPPEk5v6vg=",
+        "originContent": "- 确保 `plugins.json` 中的 `scriptUrl` 使用 Cloudflare Pages 的 URL",
+        "translatedContent": "- 배포 후 보통 몇 초 내에 적용됩니다(Cloudflare Pages 캐시 시간이 매우 짧음)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "RQvwOnxmN+lv9yA3tMcavHtY6KyLeRyKZYdx0+95cew=",
+        "originContent": "- 部署后通常几秒内生效（Cloudflare Pages 缓存时间很短）",
+        "translatedContent": "- Cloudflare 대시보드에서 배포 이력과 로그를 확인할 수 있습니다  "
+      },
+      {
+        "row": 6,
+        "rowsha": "+wyU5EoQ+dJc4N58qHoALTGEWGzkh7AoFuDQq9qw0eA=",
+        "originContent": "- 可以通过 Cloudflare Dashboard 查看部署历史和日志",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### macOS 빌드 옵션"
+      },
+      {
+        "row": 8,
+        "rowsha": "oFDXHEQrTvRKuJjJJs/Vj2aIiVkW2O3SlEjucCqamNQ=",
+        "originContent": "### macOS 构建选项",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\n# 构建 Intel 版本\nwails build -platform darwin/amd64\n\n# 构建 Apple Silicon 版本\nwails build -platform darwin/arm64\n\n# 构建通用二进制（推荐）\nwails build -platform darwin/universal\n```",
+    "ContentSha": "PWLCA61EdaDtYaN0dz0Kp7ZWjIEgwwCYXZFGMzz9N9U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 构建 Intel 版本\nwails build -platform darwin/amd64\n\n# 构建 Apple Silicon 版本\nwails build -platform darwin/arm64\n\n# 构建通用二进制（推荐）\nwails build -platform darwin/universal\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Dhij3rEiOuU8OBeKDA+7QZJuYEIm2i+OGgM3WsazVLo=",
+        "originContent": "# 构建 Intel 版本",
+        "translatedContent": "# 构建 Intel 版本"
+      },
+      {
+        "row": 3,
+        "rowsha": "9W4qK+RfSBDlAYR0NWsx3cBL/bZZ0AKEiSR6MHbReAk=",
+        "originContent": "wails build -platform darwin/amd64",
+        "translatedContent": "wails build -platform darwin/amd64"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vDU7Fb/PEih0Vw79BIorOsrkpBW8F1Zh6HjQzdHxFeU=",
+        "originContent": "# 构建 Apple Silicon 版本",
+        "translatedContent": "# 构建 Apple Silicon 版本"
+      },
+      {
+        "row": 6,
+        "rowsha": "BCBMx1Wl4Y2eXdI4oFnPI8LmEguwBGTEh7KqbuGPz74=",
+        "originContent": "wails build -platform darwin/arm64",
+        "translatedContent": "wails build -platform darwin/arm64"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "W/3DcxRLoYSw0nZ9NbVN/fTJvezdYzT2Sr4IxhSqlBs=",
+        "originContent": "# 构建通用二进制（推荐）",
+        "translatedContent": "# 构建通用二进制（推荐）"
+      },
+      {
+        "row": 9,
+        "rowsha": "dRfPVNI1MViKlM5+lHn3actFhD8SCOAuUXvJkjTID6k=",
+        "originContent": "wails build -platform darwin/universal",
+        "translatedContent": "wails build -platform darwin/universal"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Windows 构建\n",
+    "ContentSha": "VbhXygKS0zPeRhnAMxkc+WE5v4s5GG8CEZhjDJNyI1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Windows 빌드\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "M/VBovBmKpbgOYPZMV6DWBw0akK9tPLOL9C8nICs60o=",
+        "originContent": "### Windows 构建",
+        "translatedContent": "### Windows 빌드"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bash\nwails build -platform windows/amd64\n```",
+    "ContentSha": "cTK6SDe0eRhNtY8m3TKFB/k4s/ikTHxeTQiGddaz86s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwails build -platform windows/amd64\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "11vSOz5CUA9fzcHmzAm4sgCobOSVcfAP0g+X52cJtFM=",
+        "originContent": "wails build -platform windows/amd64",
+        "translatedContent": "wails build -platform windows/amd64"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Linux 构建\n",
+    "ContentSha": "jsBqyjCRt8CYoD82cFDL7s1SBDRCb/kvVWemUoxeGzg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Linux 빌드\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lEIsPpLESdex6nrWuKvckKXeEqm9M/tz2W3dRJ2ljZk=",
+        "originContent": "### Linux 构建",
+        "translatedContent": "### Linux 빌드"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\nwails build -platform linux/amd64\n```",
+    "ContentSha": "+9n5yVKtK9q5++WG9w/nzuAtymi8iogTS8qtAGfUbv4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwails build -platform linux/amd64\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y8aE/J7ZymmDtvqkX0vSan4ZrQDlGpY/xraImomLykQ=",
+        "originContent": "wails build -platform linux/amd64",
+        "translatedContent": "wails build -platform linux/amd64"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n## 项目结构\n",
+    "ContentSha": "mXxyXcRG3NVYpKA9o8GFsAN+iv9bnqZqYCsiO36Ts8k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 프로젝트 구조\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KNi74eC3BYSSTY/NJhZRhjl7Vd47p9Ku64CkxGrFIws=",
+        "originContent": "## 项目结构",
+        "translatedContent": "## 프로젝트 구조"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```\n.\n├── main.go                      # 主程序入口\n├── app.go                       # Wails 应用结构和 API\n├── wails.json                   # Wails 配置文件\n├── go.mod                       # Go 依赖管理\n├── common/                      # 共享代码\n│   ├── clipboard.go             # 剪贴板逻辑\n│   ├── clipboard_darwin.go      # macOS 特定代码\n│   └── db.go                    # 数据库操作\n├── frontend/                    # 前端代码\n│   ├── src/\n│   │   ├── App.vue              # 主应用组件\n│   │   ├── components/\n│   │   │   └── ClipboardHistory.vue  # 剪贴板历史组件\n│   │   ├── main.ts              # 前端入口\n│   │   └── style.css            # 全局样式\n│   ├── index.html               # HTML 模板\n│   ├── package.json             # 前端依赖\n│   ├── vite.config.ts           # Vite 配置\n│   └── tsconfig.json            # TypeScript 配置\n└── build/                       # 构建资源和输出\n    ├── bin/                     # 编译后的可执行文件\n    ├── appicon.png              # 应用图标\n    └── darwin/                  # macOS 特定配置\n```",
+    "ContentSha": "yQG3FQDmAuuKg60CVVgghbxHWgzQ/4nQr8fAjADGbwc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n.\n├── main.go                      # 主程序入口\n├── app.go                       # Wails 应用结构和 API\n├── wails.json                   # Wails 配置文件\n├── go.mod                       # Go 依赖管理\n├── common/                      # 共享代码\n│   ├── clipboard.go             # 剪贴板逻辑\n│   ├── clipboard_darwin.go      # macOS 特定代码\n│   └── db.go                    # 数据库操作\n├── frontend/                    # 前端代码\n│   ├── src/\n│   │   ├── App.vue              # 主应用组件\n│   │   ├── components/\n│   │   │   └── ClipboardHistory.vue  # 剪贴板历史组件\n│   │   ├── main.ts              # 前端入口\n│   │   └── style.css            # 全局样式\n│   ├── index.html               # HTML 模板\n│   ├── package.json             # 前端依赖\n│   ├── vite.config.ts           # Vite 配置\n│   └── tsconfig.json            # TypeScript 配置\n└── build/                       # 构建资源和输出\n    ├── bin/                     # 编译后的可执行文件\n    ├── appicon.png              # 应用图标\n    └── darwin/                  # macOS 特定配置\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+        "originContent": ".",
+        "translatedContent": "."
+      },
+      {
+        "row": 3,
+        "rowsha": "aCvulhCghVNmQx1vDI3v5f9EUJ46N3PmULuU7h1SogQ=",
+        "originContent": "├── main.go                      # 主程序入口",
+        "translatedContent": "├── main.go                      # 主程序入口"
+      },
+      {
+        "row": 4,
+        "rowsha": "x7muRXSblMtYdepF9LqrIia067dH5NimxxlbosTVnA0=",
+        "originContent": "├── app.go                       # Wails 应用结构和 API",
+        "translatedContent": "├── app.go                       # Wails 应用结构和 API"
+      },
+      {
+        "row": 5,
+        "rowsha": "Ztba6uKGv9AxoFsiwLuoKZgSyGyiH6MyXbdPjx8GpYc=",
+        "originContent": "├── wails.json                   # Wails 配置文件",
+        "translatedContent": "├── wails.json                   # Wails 配置文件"
+      },
+      {
+        "row": 6,
+        "rowsha": "w8nVqcwYgvnEmnSr/GRIBoKjpRflqDkj14eLSyh7MQs=",
+        "originContent": "├── go.mod                       # Go 依赖管理",
+        "translatedContent": "├── go.mod                       # Go 依赖管理"
+      },
+      {
+        "row": 7,
+        "rowsha": "dsVTLnhc4jzGCfj16oT+mcuj7NRwKVIzTjfCBjTxpBQ=",
+        "originContent": "├── common/                      # 共享代码",
+        "translatedContent": "├── common/                      # 共享代码"
+      },
+      {
+        "row": 8,
+        "rowsha": "d+jPVbUZ+WtApX7acIZRuOk6IllCEBQbOyHRZ8676ig=",
+        "originContent": "│   ├── clipboard.go             # 剪贴板逻辑",
+        "translatedContent": "│   ├── clipboard.go             # 剪贴板逻辑"
+      },
+      {
+        "row": 9,
+        "rowsha": "BKf01vffjOCTmQ36Q/+GVBCaIPJ2wa971i2B+9eevJM=",
+        "originContent": "│   ├── clipboard_darwin.go      # macOS 特定代码",
+        "translatedContent": "│   ├── clipboard_darwin.go      # macOS 特定代码"
+      },
+      {
+        "row": 10,
+        "rowsha": "6KU0vXIUftQkwO5P2mN3BtEeOtLneL2G7CakghQyx0Q=",
+        "originContent": "│   └── db.go                    # 数据库操作",
+        "translatedContent": "│   └── db.go                    # 数据库操作"
+      },
+      {
+        "row": 11,
+        "rowsha": "8ihHRlAYfS4ijoRM2qwkh3wth3Fy5FGRUn/FHdqW0DY=",
+        "originContent": "├── frontend/                    # 前端代码",
+        "translatedContent": "├── frontend/                    # 前端代码"
+      },
+      {
+        "row": 12,
+        "rowsha": "Eu4rh8bevuRyKX0EzPaq8jOw+VmqQnOlXdO9/+gHHvk=",
+        "originContent": "│   ├── src/",
+        "translatedContent": "│   ├── src/"
+      },
+      {
+        "row": 13,
+        "rowsha": "UVkbWMf7PTlOFiENM/QA5dka94CkcygWcYzzFh+JwpI=",
+        "originContent": "│   │   ├── App.vue              # 主应用组件",
+        "translatedContent": "│   │   ├── App.vue              # 主应用组件"
+      },
+      {
+        "row": 14,
+        "rowsha": "VCfr3L4XNb6+ZjOcwsNA3VDVFWKG1dUuADDWdXTGGdE=",
+        "originContent": "│   │   ├── components/",
+        "translatedContent": "│   │   ├── components/"
+      },
+      {
+        "row": 15,
+        "rowsha": "aGYrQFmhX2xk5BYIuiQTjJ5y/USjyHFBdx6BGmwWxag=",
+        "originContent": "│   │   │   └── ClipboardHistory.vue  # 剪贴板历史组件",
+        "translatedContent": "│   │   │   └── ClipboardHistory.vue  # 剪贴板历史组件"
+      },
+      {
+        "row": 16,
+        "rowsha": "90cqju+A9RzB4gLFOjOdD2ADO1BcRXJjzM8vQ9rDnZk=",
+        "originContent": "│   │   ├── main.ts              # 前端入口",
+        "translatedContent": "│   │   ├── main.ts              # 前端入口"
+      },
+      {
+        "row": 17,
+        "rowsha": "YVu0Dl4iNzTAFrtQ1PGozr2cjRfupkNLpBTx+Pi1WVU=",
+        "originContent": "│   │   └── style.css            # 全局样式",
+        "translatedContent": "│   │   └── style.css            # 全局样式"
+      },
+      {
+        "row": 18,
+        "rowsha": "sTpIryGx95M9ufWfx2dCIirIMP6ezVhHOQas85WsdaY=",
+        "originContent": "│   ├── index.html               # HTML 模板",
+        "translatedContent": "│   ├── index.html               # HTML 模板"
+      },
+      {
+        "row": 19,
+        "rowsha": "lwAN5qRzPebSn8/jBwcpX3GzyHAop4CZfbNEHEseSRQ=",
+        "originContent": "│   ├── package.json             # 前端依赖",
+        "translatedContent": "│   ├── package.json             # 前端依赖"
+      },
+      {
+        "row": 20,
+        "rowsha": "6v4/P07qPnJj7VvVzN4ejw5rjoT10oWWUZFXnDEpugI=",
+        "originContent": "│   ├── vite.config.ts           # Vite 配置",
+        "translatedContent": "│   ├── vite.config.ts           # Vite 配置"
+      },
+      {
+        "row": 21,
+        "rowsha": "r2mZp5ypSVPCDf8ZQBeDrXML0a6NInoVplRyPNgdX1A=",
+        "originContent": "│   └── tsconfig.json            # TypeScript 配置",
+        "translatedContent": "│   └── tsconfig.json            # TypeScript 配置"
+      },
+      {
+        "row": 22,
+        "rowsha": "1SxLqdeRHuAwCsjbdU25WBlNO5sjWQ+CA2BKXYKlq1c=",
+        "originContent": "└── build/                       # 构建资源和输出",
+        "translatedContent": "└── build/                       # 构建资源和输出"
+      },
+      {
+        "row": 23,
+        "rowsha": "IW5VT6IIerAZPRh18TBkgpXoR8aU9vJKpwMykCn4XUY=",
+        "originContent": "    ├── bin/                     # 编译后的可执行文件",
+        "translatedContent": "    ├── bin/                     # 编译后的可执行文件"
+      },
+      {
+        "row": 24,
+        "rowsha": "EdAitzhmP/sXQHnNTUc4DsIn/86jx9r6tNzwzn2JLRU=",
+        "originContent": "    ├── appicon.png              # 应用图标",
+        "translatedContent": "    ├── appicon.png              # 应用图标"
+      },
+      {
+        "row": 25,
+        "rowsha": "/odCa1etXTP9la1S9TkNfVYxsjUOKbW4Ry0hcS0XNNg=",
+        "originContent": "    └── darwin/                  # macOS 特定配置",
+        "translatedContent": "    └── darwin/                  # macOS 特定配置"
+      },
+      {
+        "row": 26,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n## API 说明\n\n### 后端 API（Go）\n\n在 `app.go` 中定义的方法会自动暴露给前端：\n\n- `SearchClipboardItems(keyword, filterType, limit)` - 搜索剪贴板项目\n- `GetClipboardItems(limit)` - 获取剪贴板列表\n- `GetClipboardItemByID(id)` - 根据 ID 获取项目\n- `CopyToClipboard(id)` - 复制项目到剪贴板\n- `DeleteClipboardItem(id)` - 删除项目\n- `GetStatistics()` - 获取统计信息\n\n### 前端调用示例\n",
+    "ContentSha": "BEDiSs3L+RhHZEYgtiPR4mCW2qDE4SG9/U5tyLvrSss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## API 설명\n\n### 백엔드 API (Go)\n\n`app.go`에 정의된 메서드는 자동으로 프론트엔드에 노출됩니다:\n\n- `SearchClipboardItems(keyword, filterType, limit)` - 클립보드 항목 검색\n- `GetClipboardItems(limit)` - 클립보드 목록 가져오기\n- `GetClipboardItemByID(id)` - ID로 항목 가져오기\n- `CopyToClipboard(id)` - 항목을 클립보드로 복사\n- `DeleteClipboardItem(id)` - 항목 삭제\n- `GetStatistics()` - 통계 정보 가져오기\n\n### 프론트엔드 호출 예시\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5Tap26nRhYQ7Z6ozRIPjUSRmpWLfRk+poammHyXDs5s=",
+        "originContent": "## API 说明",
+        "translatedContent": "## API 설명"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "3+skoFMTCf5JOqt6g1MG6hS0KLH9QHeVjbb/BNbqAWc=",
+        "originContent": "### 后端 API（Go）",
+        "translatedContent": "### 백엔드 API (Go)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "+pwYanoGl87yxKe75Yi+E7pobzmC6abuMWt9mfT5SB0=",
+        "originContent": "在 `app.go` 中定义的方法会自动暴露给前端：",
+        "translatedContent": "`app.go`에 정의된 메서드는 자동으로 프론트엔드에 노출됩니다:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "0VXVtyBNgIp+NiAWtxS4h2DPL4rxLRdTeiBKQHKRL18=",
+        "originContent": "- `SearchClipboardItems(keyword, filterType, limit)` - 搜索剪贴板项目",
+        "translatedContent": "- `SearchClipboardItems(keyword, filterType, limit)` - 클립보드 항목 검색"
+      },
+      {
+        "row": 9,
+        "rowsha": "ubqWo82A79LowGTKxukdcphYhRbY6X6ps0dW0YTaAxI=",
+        "originContent": "- `GetClipboardItems(limit)` - 获取剪贴板列表",
+        "translatedContent": "- `GetClipboardItems(limit)` - 클립보드 목록 가져오기"
+      },
+      {
+        "row": 10,
+        "rowsha": "nuNGssCutikXOpfetLpTWIhXGMKMJ3ICwfF1ytpNLlU=",
+        "originContent": "- `GetClipboardItemByID(id)` - 根据 ID 获取项目",
+        "translatedContent": "- `GetClipboardItemByID(id)` - ID로 항목 가져오기"
+      },
+      {
+        "row": 11,
+        "rowsha": "e6NoTbbRK4fhCV1+0kybFOmR9uIKsCxH/PWNMiAll04=",
+        "originContent": "- `CopyToClipboard(id)` - 复制项目到剪贴板",
+        "translatedContent": "- `CopyToClipboard(id)` - 항목을 클립보드로 복사"
+      },
+      {
+        "row": 12,
+        "rowsha": "XUGrW4HT2HNnUgSuf91sAPm2E4PTp+aLmazBvmxm1VA=",
+        "originContent": "- `DeleteClipboardItem(id)` - 删除项目",
+        "translatedContent": "- `DeleteClipboardItem(id)` - 항목 삭제"
+      },
+      {
+        "row": 13,
+        "rowsha": "f2xrtfKGkeD223Asgz/K3Q6RqMSWT2La243DE2Hs4OI=",
+        "originContent": "- `GetStatistics()` - 获取统计信息",
+        "translatedContent": "- `GetStatistics()` - 통계 정보 가져오기"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "LuE3MEzmXYqTsNWjcdUS/p0EpXD1S34O8NBhvGvaubA=",
+        "originContent": "### 前端调用示例",
+        "translatedContent": "### 프론트엔드 호출 예시"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```typescript\nimport { SearchClipboardItems } from '../wailsjs/go/main/App'\n\n// 搜索剪贴板项目\nconst items = await SearchClipboardItems('关键词', '所有类型', 100)\n```",
+    "ContentSha": "We+oUGiGgaVX0I3Cgu4a41mzJAfx2NBYpHneKmOnsfc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nimport { SearchClipboardItems } from '../wailsjs/go/main/App'\n\n// 搜索剪贴板项目\nconst items = await SearchClipboardItems('关键词', '所有类型', 100)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "TsNCc83QiOwoWvUzHV1jfBvMBJIQkZwSl7c4VMRkBzQ=",
+        "originContent": "import { SearchClipboardItems } from '../wailsjs/go/main/App'",
+        "translatedContent": "import { SearchClipboardItems } from '../wailsjs/go/main/App'"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "vuv8MBUpzlibKGbf4j0+5MtYG3RM98zgO2V/16nGGGM=",
+        "originContent": "// 搜索剪贴板项目",
+        "translatedContent": "// 搜索剪贴板项目"
+      },
+      {
+        "row": 5,
+        "rowsha": "5xb9G1xSVy0IYZmsbtn1PHj5SE6CzNFxoBfx2lEdEa8=",
+        "originContent": "const items = await SearchClipboardItems('关键词', '所有类型', 100)",
+        "translatedContent": "const items = await SearchClipboardItems('关键词', '所有类型', 100)"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n## 使用说明\n\n1. 启动应用后，它会在后台自动保存系统剪贴板\n2. 每次复制内容时，都会自动保存到历史记录\n3. 使用顶部搜索框可以快速查找历史记录（支持搜索图片中的 OCR 文字）\n4. 使用过滤器可以按类型筛选内容（文本/图片/URL等）\n5. 点击任意历史记录可以查看详情\n6. 对于图片类型，点击\"提取文字\"按钮可以查看 OCR 识别结果\n7. 点击\"复制\"按钮可以将内容复制回剪贴板\n8. 点击\"删除\"按钮可以删除历史记录\n\n### OCR 文字识别功能\n\n- **自动识别**：复制图片后，应用会自动在后台识别图片中的文字（macOS 10.15+）\n- **智能搜索**：识别后的文字会自动加入搜索索引，输入关键词即可找到包含该文字的图片\n- **手动提取**：在图片详情页面，点击\"提取文字\"按钮可以查看完整的 OCR 识别结果\n- **支持语言**：支持中文（简体/繁体）和英文识别\n- **性能优化**：相同图片只识别一次，自动复用识别结果，提升性能\n\n## 数据存储\n\n剪贴板历史保存在：`~/.clipsave/clipboard.db`\n\n数据库会自动创建，包含以下字段：\n- ID - 唯一标识符\n- Content - 内容文本\n- ContentType - 内容类型\n- ImageData - 图片数据（PNG格式）\n- Timestamp - 时间戳\n- Source - 来源\n- CharCount - 字符数\n- WordCount - 单词数\n- OCRText - OCR 识别的文字内容（图片类型专用，用于搜索）\n\n## 系统要求\n\n- **macOS**: 10.15 Catalina 或更高版本（OCR 功能需要）\n- **Windows**: Windows 10/11（1809或更高版本）+ WebView2\n- **Linux**: 支持 WebKit2GTK 的发行版",
+    "ContentSha": "PcSdTndPO+xiSeIQCVOXzSA6ov/W00r66QlLEcrcxF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 사용 설명\n\n1. 앱을 실행하면 백그라운드에서 시스템 클립보드를 자동으로 저장합니다.\n2. 복사할 때마다 내용이 자동으로 기록에 저장됩니다.\n3. 상단 검색창을 사용하여 기록을 빠르게 검색할 수 있습니다(이미지 내 OCR 문자 검색 지원).\n4. 필터를 사용하여 유형별로 내용을 필터링할 수 있습니다(텍스트/이미지/URL 등).\n5. 기록 항목을 클릭하면 세부 정보를 볼 수 있습니다.\n6. 이미지 유형의 경우 \"문자 추출\" 버튼을 클릭하여 OCR 인식 결과를 확인할 수 있습니다.\n7. \"복사\" 버튼을 클릭하면 내용을 클립보드에 다시 복사할 수 있습니다.\n8. \"삭제\" 버튼을 클릭하면 기록을 삭제할 수 있습니다.\n\n### OCR 문자 인식 기능\n\n- **자동 인식**: 이미지를 복사하면 앱이 백그라운드에서 이미지 내 문자를 자동으로 인식합니다(macOS 10.15+).\n- **스마트 검색**: 인식된 문자는 자동으로 검색 인덱스에 추가되어 키워드를 입력하면 해당 문자를 포함한 이미지를 찾을 수 있습니다.\n- **수동 추출**: 이미지 상세 페이지에서 \"문자 추출\" 버튼을 클릭하면 완전한 OCR 인식 결과를 볼 수 있습니다.\n- **지원 언어**: 중국어(간체/번체) 및 영어 인식을 지원합니다.\n- **성능 최적화**: 동일한 이미지는 한 번만 인식하며 인식 결과를 자동 재사용하여 성능을 향상합니다.\n\n## 데이터 저장\n\n클립보드 기록은 `~/.clipsave/clipboard.db`에 저장됩니다.\n\n데이터베이스는 자동 생성되며 다음 필드를 포함합니다:\n- ID - 고유 식별자\n- Content - 내용 텍스트\n- ContentType - 내용 유형\n- ImageData - 이미지 데이터(PNG 형식)\n- Timestamp - 타임스탬프\n- Source - 출처\n- CharCount - 문자 수\n- WordCount - 단어 수\n- OCRText - OCR 인식 문자 내용(이미지 유형 전용, 검색용)\n\n## 시스템 요구 사항\n\n- **macOS**: 10.15 Catalina 이상 버전(OCR 기능 필요)\n- **Windows**: Windows 10/11(1809 이상) + WebView2\n- **Linux**: WebKit2GTK를 지원하는 배포판\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용 설명"
+      },
+      {
+        "row": 2,
+        "rowsha": "R3/EjJjnxYNmdRG6ikBTYFybRBPyQGDIVWMxpdJsE7k=",
+        "originContent": "## 使用说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 앱을 실행하면 백그라운드에서 시스템 클립보드를 자동으로 저장합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "sO74LtsNrETs/Gv8FXaeHGIVdb/Q2v+LvCfzYZmzkVE=",
+        "originContent": "1. 启动应用后，它会在后台自动保存系统剪贴板",
+        "translatedContent": "2. 복사할 때마다 내용이 자동으로 기록에 저장됩니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "pr1zUHuUZwC70uSMu+xAzVhicNIayxrV4ZqfmEvYMM4=",
+        "originContent": "2. 每次复制内容时，都会自动保存到历史记录",
+        "translatedContent": "3. 상단 검색창을 사용하여 기록을 빠르게 검색할 수 있습니다(이미지 내 OCR 문자 검색 지원)."
+      },
+      {
+        "row": 6,
+        "rowsha": "hw4K8vudaHBt/Oeyk6gdUCHRIQcG/GiqZGpkcOAsxhA=",
+        "originContent": "3. 使用顶部搜索框可以快速查找历史记录（支持搜索图片中的 OCR 文字）",
+        "translatedContent": "4. 필터를 사용하여 유형별로 내용을 필터링할 수 있습니다(텍스트/이미지/URL 등)."
+      },
+      {
+        "row": 7,
+        "rowsha": "kqYQGBnPLGhKWSqE/Ga3zIweNR9BcE41T4D/yuj+Kls=",
+        "originContent": "4. 使用过滤器可以按类型筛选内容（文本/图片/URL等）",
+        "translatedContent": "5. 기록 항목을 클릭하면 세부 정보를 볼 수 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "mMPgfkt1z5ePZISn4bjqTGU3RtMFzoPfqPx7HKLbv/8=",
+        "originContent": "5. 点击任意历史记录可以查看详情",
+        "translatedContent": "6. 이미지 유형의 경우 \"문자 추출\" 버튼을 클릭하여 OCR 인식 결과를 확인할 수 있습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "G6mldT27OjgYo0GxKQaSJQidn1azaxZ4kHjyEABDkfw=",
+        "originContent": "6. 对于图片类型，点击\"提取文字\"按钮可以查看 OCR 识别结果",
+        "translatedContent": "7. \"복사\" 버튼을 클릭하면 내용을 클립보드에 다시 복사할 수 있습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "JWe/D0bp5tKQlnJYdol7HBGzfJ1fkxH143bj+VKbXQo=",
+        "originContent": "7. 点击\"复制\"按钮可以将内容复制回剪贴板",
+        "translatedContent": "8. \"삭제\" 버튼을 클릭하면 기록을 삭제할 수 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "e2s+AIrNAwDVpvevwkImKp4fjrg9XsKJPAfdiaQtchY=",
+        "originContent": "8. 点击\"删除\"按钮可以删除历史记录",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### OCR 문자 인식 기능"
+      },
+      {
+        "row": 13,
+        "rowsha": "cD2nNmz0LMISUAUvQuj4uIlP5f0c33iz6A7VNFRtB5Q=",
+        "originContent": "### OCR 文字识别功能",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **자동 인식**: 이미지를 복사하면 앱이 백그라운드에서 이미지 내 문자를 자동으로 인식합니다(macOS 10.15+)."
+      },
+      {
+        "row": 15,
+        "rowsha": "ruv0WjyD6imfpQuNtFtq4EdBDrmqj9dlGlqBmqvCBao=",
+        "originContent": "- **自动识别**：复制图片后，应用会自动在后台识别图片中的文字（macOS 10.15+）",
+        "translatedContent": "- **스마트 검색**: 인식된 문자는 자동으로 검색 인덱스에 추가되어 키워드를 입력하면 해당 문자를 포함한 이미지를 찾을 수 있습니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "OnYs5j8O662O9EvKRT5mohYlXUI28kacjuuM0We07vw=",
+        "originContent": "- **智能搜索**：识别后的文字会自动加入搜索索引，输入关键词即可找到包含该文字的图片",
+        "translatedContent": "- **수동 추출**: 이미지 상세 페이지에서 \"문자 추출\" 버튼을 클릭하면 완전한 OCR 인식 결과를 볼 수 있습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "no01aXFWzEdyjHG/k1YM8NfaMEIqMP1yUGgDRONub4c=",
+        "originContent": "- **手动提取**：在图片详情页面，点击\"提取文字\"按钮可以查看完整的 OCR 识别结果",
+        "translatedContent": "- **지원 언어**: 중국어(간체/번체) 및 영어 인식을 지원합니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "xjjh1m+FfG17ezDjKoKFlGujKC+R8OZ/0KBpQaAhfHk=",
+        "originContent": "- **支持语言**：支持中文（简体/繁体）和英文识别",
+        "translatedContent": "- **성능 최적화**: 동일한 이미지는 한 번만 인식하며 인식 결과를 자동 재사용하여 성능을 향상합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "EsnPVOe1HopC7PQWvXjjet2K7m320he1Xxkl+MSc7HQ=",
+        "originContent": "- **性能优化**：相同图片只识别一次，自动复用识别结果，提升性能",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 데이터 저장"
+      },
+      {
+        "row": 21,
+        "rowsha": "Fvjq8tINa2879WvKMoSGR4hoMSV95FlH2W9UHQ42neU=",
+        "originContent": "## 数据存储",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "클립보드 기록은 `~/.clipsave/clipboard.db`에 저장됩니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "iD10SDqI1fnLNGvqzC+Hf12joIEEXk55q/o29FbjHlM=",
+        "originContent": "剪贴板历史保存在：`~/.clipsave/clipboard.db`",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "데이터베이스는 자동 생성되며 다음 필드를 포함합니다:"
+      },
+      {
+        "row": 25,
+        "rowsha": "0ak1UKTdgbAyc2cF403HV8Pko7xV4fMp/uiwA8CxKxE=",
+        "originContent": "数据库会自动创建，包含以下字段：",
+        "translatedContent": "- ID - 고유 식별자"
+      },
+      {
+        "row": 26,
+        "rowsha": "IyHV3UabaoRzDjKDFk/4SjNKGAzPFhLYo7+y/SCfbNw=",
+        "originContent": "- ID - 唯一标识符",
+        "translatedContent": "- Content - 내용 텍스트"
+      },
+      {
+        "row": 27,
+        "rowsha": "1hZ8ER5grpo7mrpqjpKmELRWC7rM2E2P3HlK/zie4Ug=",
+        "originContent": "- Content - 内容文本",
+        "translatedContent": "- ContentType - 내용 유형"
+      },
+      {
+        "row": 28,
+        "rowsha": "sGz7PfO7CzS7kP6i19ARBpdFwqXA4EEB5y0/NGpOUfM=",
+        "originContent": "- ContentType - 内容类型",
+        "translatedContent": "- ImageData - 이미지 데이터(PNG 형식)"
+      },
+      {
+        "row": 29,
+        "rowsha": "QY+hWlJ300qz4BtBqbtlE9znguUjFNWJPeUnrFJgmgM=",
+        "originContent": "- ImageData - 图片数据（PNG格式）",
+        "translatedContent": "- Timestamp - 타임스탬프"
+      },
+      {
+        "row": 30,
+        "rowsha": "fSlGdhpiDHsIs+N287boXziJPIqCI3EfM9uGHK8yzlo=",
+        "originContent": "- Timestamp - 时间戳",
+        "translatedContent": "- Source - 출처"
+      },
+      {
+        "row": 31,
+        "rowsha": "GGg7KPbOs9yhw6c28BhapiMFbs21KP0e0QzsZNWM+Zg=",
+        "originContent": "- Source - 来源",
+        "translatedContent": "- CharCount - 문자 수"
+      },
+      {
+        "row": 32,
+        "rowsha": "beaOVx23pG/9R4tqfw4hxoF0Od67xYe8U3AxcY9hqaY=",
+        "originContent": "- CharCount - 字符数",
+        "translatedContent": "- WordCount - 단어 수"
+      },
+      {
+        "row": 33,
+        "rowsha": "JOrB1iZbhN1ijw6vxq7V1LjDkRQ9rJT/XTqgjppEnhc=",
+        "originContent": "- WordCount - 单词数",
+        "translatedContent": "- OCRText - OCR 인식 문자 내용(이미지 유형 전용, 검색용)"
+      },
+      {
+        "row": 34,
+        "rowsha": "pynupoo12ym4UjgCkNPVbCujnqr5KRlJsKs+ucu+pDE=",
+        "originContent": "- OCRText - OCR 识别的文字内容（图片类型专用，用于搜索）",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 시스템 요구 사항"
+      },
+      {
+        "row": 36,
+        "rowsha": "Xz4G9/gzvPfk4FvCOgMjmLdyuEJc25j7cRNjKuFJs84=",
+        "originContent": "## 系统要求",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **macOS**: 10.15 Catalina 이상 버전(OCR 기능 필요)"
+      },
+      {
+        "row": 38,
+        "rowsha": "P6nxrxf1QzBfzXmll2cHxEKw40/vQ5SVmM7l04EqyQs=",
+        "originContent": "- **macOS**: 10.15 Catalina 或更高版本（OCR 功能需要）",
+        "translatedContent": "- **Windows**: Windows 10/11(1809 이상) + WebView2"
+      },
+      {
+        "row": 39,
+        "rowsha": "6VfJ1/Qa4ugB9oOM4UIigMQo1v/QFVQo/jnT+ndvlWU=",
+        "originContent": "- **Windows**: Windows 10/11（1809或更高版本）+ WebView2",
+        "translatedContent": "- **Linux**: WebKit2GTK를 지원하는 배포판"
+      },
+      {
+        "row": 40,
+        "rowsha": "drJhloZIKVd8CU52ffqwWqe6C1lcXIL0SKgM6So9IGc=",
+        "originContent": "- **Linux**: 支持 WebKit2GTK 的发行版",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "- **Go**: 1.21 或更高版本\n- **Node.js**: 16 或更高版本\n\n## 开发注意事项\n\n### 更新 Go API 后\n\n每次修改 `app.go` 中的方法后，需要重新生成前端绑定：\n",
+    "ContentSha": "QJD2qHvM6hV0T2R1ldYdKSTxrOS7RvBaIuON7leQXUg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Go**: 1.21 이상 버전\n- **Node.js**: 16 이상 버전\n\n## 개발 주의사항\n\n### Go API 업데이트 후\n\n`app.go`의 메서드를 수정할 때마다 프론트엔드 바인딩을 다시 생성해야 합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4oUFajUVTN0W3hLUThdWCjbVyY+MdUt8Fm9iN0m3jiQ=",
+        "originContent": "- **Go**: 1.21 或更高版本",
+        "translatedContent": "- **Go**: 1.21 이상 버전"
+      },
+      {
+        "row": 2,
+        "rowsha": "OInp+14NzHnx23HlPZ8YFICXeD7qf03myFHtLkCKaN4=",
+        "originContent": "- **Node.js**: 16 或更高版本",
+        "translatedContent": "- **Node.js**: 16 이상 버전"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Dw5jrPvuyC3LkBuso72+0YK0iz3aq5W8Bpnj3IlXPF4=",
+        "originContent": "## 开发注意事项",
+        "translatedContent": "## 개발 주의사항"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "JN5L34v4puIfopO2mVOoDOMpa/C7sbuhYTmtlQlvh00=",
+        "originContent": "### 更新 Go API 后",
+        "translatedContent": "### Go API 업데이트 후"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "a7KA0jdllXsLM4ji/Lvpw4mdFa/kZyt5+ykSb+TTUK4=",
+        "originContent": "每次修改 `app.go` 中的方法后，需要重新生成前端绑定：",
+        "translatedContent": "`app.go`의 메서드를 수정할 때마다 프론트엔드 바인딩을 다시 생성해야 합니다:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 29,
+    "Content": "```bash\nwails generate module\n```",
+    "ContentSha": "C+xB3RcXk1E3dUJg1o210tenz+aeR7rfG4SglKOCBfw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwails generate module\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9FI8Q5vVfnO3mtFBgRmItDah6bFNLAWOJnbnbem7CR0=",
+        "originContent": "wails generate module",
+        "translatedContent": "wails generate module"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 30,
+    "Content": "\n或者使用开发模式，会自动生成：\n",
+    "ContentSha": "1wZrxdCSueDCClwd5cUJBk/4M159PxtVJqiWVsuC7DU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또는 개발 모드를 사용하면 자동으로 생성됩니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또는 개발 모드를 사용하면 자동으로 생성됩니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "4xtAjsgLip19hqau5mPtnu3Rld2NgGAm70onQKJOJQ4=",
+        "originContent": "或者使用开发模式，会自动生成：",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 31,
+    "Content": "```bash\nwails dev\n```",
+    "ContentSha": "oTEn4nI6IpR9p/4O+7wJEVXp/xhLcGjIhthTd9RxLbU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwails dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7QyzmDMDKLTXvBxZJnlFx3U9tSqjYFwzSbGX5fqzeAQ=",
+        "originContent": "wails dev",
+        "translatedContent": "wails dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 32,
+    "Content": "\n### 前端开发\n\n前端使用 Vite + Vue 3 + TypeScript：\n- 支持 TypeScript 类型检查\n- 使用 Composition API\n- 自动导入 Wails 绑定\n- 热模块替换（HMR）\n\n### CGO 依赖\n\n项目使用了 CGO（用于 SQLite 和剪贴板操作），构建时需要：\n- macOS: 需要 Xcode Command Line Tools\n- Windows: 需要 MinGW-w64\n- Linux: 需要 gcc\n\n## 常见问题\n\n### 1. 构建失败\n\n确保安装了所有依赖：",
+    "ContentSha": "Y4n6myhKfZkr94GdEUF+Ds2vcG+6csbr1ji99n4xpFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 프론트엔드 개발\n\n프론트엔드는 Vite + Vue 3 + TypeScript 사용:\n- TypeScript 타입 검사 지원\n- Composition API 사용\n- Wails 바인딩 자동 임포트\n- 핫 모듈 교체(HMR)\n\n### CGO 의존성\n\n프로젝트는 CGO(SQLite 및 클립보드 작업용)를 사용하며, 빌드시 필요:\n- macOS: Xcode Command Line Tools 필요\n- Windows: MinGW-w64 필요\n- Linux: gcc 필요\n\n## 자주 묻는 질문\n\n### 1. 빌드 실패\n\n모든 의존성이 설치되었는지 확인:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 프론트엔드 개발"
+      },
+      {
+        "row": 2,
+        "rowsha": "NH10fFn4GzSTF59Wx7r0J8qliV4HIWmledTX7wOg8pw=",
+        "originContent": "### 前端开发",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "프론트엔드는 Vite + Vue 3 + TypeScript 사용:"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZL1EGSiIsbOCLhjjbvns4hYNvDJYYmbcd0Y/j8VQtoQ=",
+        "originContent": "前端使用 Vite + Vue 3 + TypeScript：",
+        "translatedContent": "- TypeScript 타입 검사 지원"
+      },
+      {
+        "row": 5,
+        "rowsha": "eqOD4ywgBjNCiMODVN34Oys5z7GaRVxLFMxAeI+Kx9k=",
+        "originContent": "- 支持 TypeScript 类型检查",
+        "translatedContent": "- Composition API 사용"
+      },
+      {
+        "row": 6,
+        "rowsha": "JgryprGBUCrZN7xj/lu0brZVYAmdqQxbdPwj2u+8fj0=",
+        "originContent": "- 使用 Composition API",
+        "translatedContent": "- Wails 바인딩 자동 임포트"
+      },
+      {
+        "row": 7,
+        "rowsha": "K9KvKJ0hS9HWHmQyobxvTMW+7nC0nkK87BWZKCd+FqI=",
+        "originContent": "- 自动导入 Wails 绑定",
+        "translatedContent": "- 핫 모듈 교체(HMR)"
+      },
+      {
+        "row": 8,
+        "rowsha": "8Dh6yXNszNfx9hqYHZ1DO/kLNKCGXpVORsQaBCU0QMc=",
+        "originContent": "- 热模块替换（HMR）",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### CGO 의존성"
+      },
+      {
+        "row": 10,
+        "rowsha": "chwbOjW5jN/oeoCLosKe/eTMwYfWN5qlCja1ceavvtQ=",
+        "originContent": "### CGO 依赖",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "프로젝트는 CGO(SQLite 및 클립보드 작업용)를 사용하며, 빌드시 필요:"
+      },
+      {
+        "row": 12,
+        "rowsha": "sdHaunKMZRxYzAX3dEv3BRTqLTKYXo/pV8YzMUi0/nw=",
+        "originContent": "项目使用了 CGO（用于 SQLite 和剪贴板操作），构建时需要：",
+        "translatedContent": "- macOS: Xcode Command Line Tools 필요"
+      },
+      {
+        "row": 13,
+        "rowsha": "TZlPM6+KmMu7+ELup/iil7nGD5+FpBL1lTEQ+okIibY=",
+        "originContent": "- macOS: 需要 Xcode Command Line Tools",
+        "translatedContent": "- Windows: MinGW-w64 필요"
+      },
+      {
+        "row": 14,
+        "rowsha": "AGv0nEwnmNB0ld5+25EIpWYUMsh/lE+9PdbpqaGywiU=",
+        "originContent": "- Windows: 需要 MinGW-w64",
+        "translatedContent": "- Linux: gcc 필요"
+      },
+      {
+        "row": 15,
+        "rowsha": "x2w+9MONJca9cYCCEY4SiDkoxQ/QQZ1zx/k2sjFmWeE=",
+        "originContent": "- Linux: 需要 gcc",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 자주 묻는 질문"
+      },
+      {
+        "row": 17,
+        "rowsha": "OzC2hb5a82TY3LZrn7wJfbf0zxXjHTxSicJpBZQhP/s=",
+        "originContent": "## 常见问题",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. 빌드 실패"
+      },
+      {
+        "row": 19,
+        "rowsha": "nlbWwirlF0wxiIWGiYVkily08bVUcYE1Q+nKQE2uXGk=",
+        "originContent": "### 1. 构建失败",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "모든 의존성이 설치되었는지 확인:"
+      },
+      {
+        "row": 21,
+        "rowsha": "HNHbv+ORaDLdHYZdPGtUZy/i01MlH+4HfKSOnOpPOJc=",
+        "originContent": "确保安装了所有依赖：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 33,
+    "Content": "```bash\n# macOS\nxcode-select --install\n\n# Windows\n# 安装 MSYS2 和 MinGW-w64\n\n# Linux\nsudo apt-get install build-essential libgtk-3-dev libwebkit2gtk-4.0-dev\n```",
+    "ContentSha": "ZO0y13HhBJ0ySKWO7B+/2ZbJ3YEiExCNbu9aQI6pAfM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# macOS\nxcode-select --install\n\n# Windows\n# 安装 MSYS2 和 MinGW-w64\n\n# Linux\nsudo apt-get install build-essential libgtk-3-dev libwebkit2gtk-4.0-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "D5wrC6UXe7biI3JRX8ojLq5QkT551gR3gO5iGuE/pcY=",
+        "originContent": "# macOS",
+        "translatedContent": "# macOS"
+      },
+      {
+        "row": 3,
+        "rowsha": "s9l6G3E1GF2bIc413FiL4cTrRSJ9jTGb1DCuGgVaqTw=",
+        "originContent": "xcode-select --install",
+        "translatedContent": "xcode-select --install"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "6g77R+87Tp06hLhJBe/PKEv463ABlZJ6d0wOUUsUDY4=",
+        "originContent": "# Windows",
+        "translatedContent": "# Windows"
+      },
+      {
+        "row": 6,
+        "rowsha": "HUQvWzF16PWTUpY3DBlXtK6ZbZImGNb8cFZtO0NrvbM=",
+        "originContent": "# 安装 MSYS2 和 MinGW-w64",
+        "translatedContent": "# 安装 MSYS2 和 MinGW-w64"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "pj6eYkEuhAuM5E8ZCLsEiIUaUlEkBhcEFaHAWFlK7WI=",
+        "originContent": "# Linux",
+        "translatedContent": "# Linux"
+      },
+      {
+        "row": 9,
+        "rowsha": "oi/pl/UUryTt8KctpQPZMHjn0g0dl9Zs00DjjRo/Zo4=",
+        "originContent": "sudo apt-get install build-essential libgtk-3-dev libwebkit2gtk-4.0-dev",
+        "translatedContent": "sudo apt-get install build-essential libgtk-3-dev libwebkit2gtk-4.0-dev"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 34,
+    "Content": "\n### 2. 前端无法调用后端 API\n\n确保已经运行了 `wails generate module` 生成前端绑定。\n\n## 许可证\n\nMIT License\n\n## 赞赏支持\n\n💗 **请作者喝杯咖啡**\n\n如果这个软件帮你省下了时间（或者至少没让你抓狂），欢迎请作者喝杯咖啡 ☕ 或者啤酒 🍺！\n\n每一杯咖啡都会神奇地转化为：新功能、更少的 bug（我尽量）、以及作者熬夜写代码时的精神支柱。\n\n你的 Star ⭐ 和捐赠是我修复 bug 和添加新功能的原动力（也是我买咖啡的经费）！\n\n### 微信扫一扫\n\n![赞赏码](https://raw.githubusercontent.com/snsogbl/clip-save/main/frontend/src/assets/static/zs.png)\n\n**\"请我喝杯咖啡吧 ☕\"**\n\n### 给项目点个 Star ⭐\n\n如果这个项目对你有帮助，欢迎给项目点个 Star ⭐，这是对我最大的支持！\n\n## 致谢\n\n- [Wails](https://wails.io) - 构建桌面应用的框架\n- [Vue 3](https://vuejs.org) - 渐进式 JavaScript 框架\n- [golang.design/x/clipboard](https://github.com/golang-design/clipboard) - 跨平台剪贴板库\n- [json-editor-vue](https://github.com/cloydlau/json-editor-vue)\n- [highlight.js](https://github.com/highlightjs/highlight.js)",
+    "ContentSha": "7K/1nGZCqvxuPkQI+h+9E+78GWTLBrxk/pyRDOkE8OY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. 프론트엔드에서 백엔드 API 호출 불가\n\n`wails generate module` 명령어로 프론트엔드 바인딩이 생성되었는지 확인하세요.\n\n## 라이선스\n\nMIT 라이선스\n\n## 후원 지원\n\n💗 **작가에게 커피 한 잔을**\n\n이 소프트웨어가 시간을 절약해주었거나(적어도 스트레스를 덜어주었다면) 작가에게 커피 ☕ 또는 맥주 🍺 한 잔을 후원해 주세요!\n\n모든 커피 한 잔은 신기하게도 새로운 기능, 적은 버그(최대한 노력 중), 그리고 작가가 밤새 코딩할 때 정신적 지주가 됩니다.\n\n당신의 Star ⭐ 와 기부는 제가 버그를 고치고 새 기능을 추가하는 원동력입니다(또한 커피 구매 자금이기도 합니다)!\n\n### 위챗 스캔\n\n![후원 코드](https://raw.githubusercontent.com/snsogbl/clip-save/main/frontend/src/assets/static/zs.png)\n\n**\"저에게 커피 한 잔 사주세요 ☕\"**\n\n### 프로젝트에 Star ⭐ 주세요\n\n이 프로젝트가 도움이 되었다면 프로젝트에 Star ⭐ 를 눌러주세요. 그것이 저에게 가장 큰 응원입니다!\n\n## 감사의 말씀\n\n- [Wails](https://wails.io) - 데스크톱 애플리케이션 프레임워크\n- [Vue 3](https://vuejs.org) - 점진적 JavaScript 프레임워크\n- [golang.design/x/clipboard](https://github.com/golang-design/clipboard) - 크로스 플랫폼 클립보드 라이브러리\n- [json-editor-vue](https://github.com/cloydlau/json-editor-vue)\n- [highlight.js](https://github.com/highlightjs/highlight.js)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. 프론트엔드에서 백엔드 API 호출 불가"
+      },
+      {
+        "row": 2,
+        "rowsha": "3DnIr4mINUltnVK9T3v9Ai9eXRI8M5KgyRs8ZoIML7c=",
+        "originContent": "### 2. 前端无法调用后端 API",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`wails generate module` 명령어로 프론트엔드 바인딩이 생성되었는지 확인하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "EdDHBEw0GUdqLvZDCcfqyN5pev6Wt9LkOffUrbm2V6g=",
+        "originContent": "确保已经运行了 `wails generate module` 生成前端绑定。",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 6,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT 라이선스"
+      },
+      {
+        "row": 8,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 후원 지원"
+      },
+      {
+        "row": 10,
+        "rowsha": "RVANFO64PHtHm4KRkeG9xx2HW4XsvniYavFwFav9Y9g=",
+        "originContent": "## 赞赏支持",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "💗 **작가에게 커피 한 잔을**"
+      },
+      {
+        "row": 12,
+        "rowsha": "BH7kVAFvkZtU7II4VwgHiacsEg7EoiJV+Ze44/x+8Xc=",
+        "originContent": "💗 **请作者喝杯咖啡**",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 소프트웨어가 시간을 절약해주었거나(적어도 스트레스를 덜어주었다면) 작가에게 커피 ☕ 또는 맥주 🍺 한 잔을 후원해 주세요!"
+      },
+      {
+        "row": 14,
+        "rowsha": "1YprU7QX+cjhVaegy4KKheiKiXeARNe6TesMr4GYyL0=",
+        "originContent": "如果这个软件帮你省下了时间（或者至少没让你抓狂），欢迎请作者喝杯咖啡 ☕ 或者啤酒 🍺！",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "모든 커피 한 잔은 신기하게도 새로운 기능, 적은 버그(최대한 노력 중), 그리고 작가가 밤새 코딩할 때 정신적 지주가 됩니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "wNVgJwI28v9DtP2EHwtPGLfgvz6rm7t8vuG8ErKbLZA=",
+        "originContent": "每一杯咖啡都会神奇地转化为：新功能、更少的 bug（我尽量）、以及作者熬夜写代码时的精神支柱。",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "당신의 Star ⭐ 와 기부는 제가 버그를 고치고 새 기능을 추가하는 원동력입니다(또한 커피 구매 자금이기도 합니다)!"
+      },
+      {
+        "row": 18,
+        "rowsha": "dUEhxDMzfSzfn1gB2/to1NULu+aA/DuT7ybCdA6Td3E=",
+        "originContent": "你的 Star ⭐ 和捐赠是我修复 bug 和添加新功能的原动力（也是我买咖啡的经费）！",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 위챗 스캔"
+      },
+      {
+        "row": 20,
+        "rowsha": "F9jPMhTjtXz8aNgQhRirTQzag3M1YEIKgQKguk6GLqM=",
+        "originContent": "### 微信扫一扫",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![후원 코드](https://raw.githubusercontent.com/snsogbl/clip-save/main/frontend/src/assets/static/zs.png)"
+      },
+      {
+        "row": 22,
+        "rowsha": "JvUozG+ys0mOE2+jxJW2HOfhIYYYhW+nZtskkeb6j+Y=",
+        "originContent": "![赞赏码](https://raw.githubusercontent.com/snsogbl/clip-save/main/frontend/src/assets/static/zs.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**\"저에게 커피 한 잔 사주세요 ☕\"**"
+      },
+      {
+        "row": 24,
+        "rowsha": "KV0JmdCBiHs9+I4FSdHziHc5RYucjn42zDQsWOG2y6k=",
+        "originContent": "**\"请我喝杯咖啡吧 ☕\"**",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 프로젝트에 Star ⭐ 주세요"
+      },
+      {
+        "row": 26,
+        "rowsha": "jI6NfIfBJAo1Is55RgR0adckW/G3Wg81oELU+h2Qc3M=",
+        "originContent": "### 给项目点个 Star ⭐",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트가 도움이 되었다면 프로젝트에 Star ⭐ 를 눌러주세요. 그것이 저에게 가장 큰 응원입니다!"
+      },
+      {
+        "row": 28,
+        "rowsha": "XNjeCV8Wuq3yp8g50r5YwONchCbS2I2YIJgU+tyYnII=",
+        "originContent": "如果这个项目对你有帮助，欢迎给项目点个 Star ⭐，这是对我最大的支持！",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 감사의 말씀"
+      },
+      {
+        "row": 30,
+        "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+        "originContent": "## 致谢",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Wails](https://wails.io) - 데스크톱 애플리케이션 프레임워크"
+      },
+      {
+        "row": 32,
+        "rowsha": "Jd7gcKYlgQNZHhLKJfSeklFEmHjThQlsm3Qn1PY4Se8=",
+        "originContent": "- [Wails](https://wails.io) - 构建桌面应用的框架",
+        "translatedContent": "- [Vue 3](https://vuejs.org) - 점진적 JavaScript 프레임워크"
+      },
+      {
+        "row": 33,
+        "rowsha": "tj67kpw1SKlMvMzO4KSVKSj83yeV0+uGaG1L3DFOq7Q=",
+        "originContent": "- [Vue 3](https://vuejs.org) - 渐进式 JavaScript 框架",
+        "translatedContent": "- [golang.design/x/clipboard](https://github.com/golang-design/clipboard) - 크로스 플랫폼 클립보드 라이브러리"
+      },
+      {
+        "row": 34,
+        "rowsha": "nNX5M+o8oh3PSU7LMwAcKhQbgt16mQ+hoWjOGRL6G1o=",
+        "originContent": "- [golang.design/x/clipboard](https://github.com/golang-design/clipboard) - 跨平台剪贴板库",
+        "translatedContent": "- [json-editor-vue](https://github.com/cloydlau/json-editor-vue)"
+      },
+      {
+        "row": 35,
+        "rowsha": "2DqhcCokuU6TFD+6zgPhXwZvZrIu7OCDeLtcH11w+wo=",
+        "originContent": "- [json-editor-vue](https://github.com/cloydlau/json-editor-vue)",
+        "translatedContent": "- [highlight.js](https://github.com/highlightjs/highlight.js)"
+      },
+      {
+        "row": 36,
+        "rowsha": "9GamrRovZrem12iabX77DeCVO5CwWa7SyJ+pwyPrB0g=",
+        "originContent": "- [highlight.js](https://github.com/highlightjs/highlight.js)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

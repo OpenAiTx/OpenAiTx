@@ -1,29 +1,61 @@
-# 💻 Windows en Contenedor Docker  
-Descubre un método innovador y eficiente para desplegar Windows OS (x64) en tu sistema Linux usando el poder de Vagrant VM, libvirt y docker-compose. Juntas, estas tecnologías te ayudan a contenerizar Windows OS, permitiéndote gestionar una instancia de Windows tal como lo harías con cualquier contenedor Docker. Esta integración perfecta en flujos de trabajo existentes mejora significativamente la comodidad y optimiza la asignación de recursos.  
 
-⭐ **¡No olvides darle estrella al proyecto si te fue útil!**  
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-## 📋 Requisitos Previos  
+# 💻 Windows en un Contenedor Docker
+Descubre un método innovador y eficiente para desplegar el sistema operativo Windows (x64) en tu sistema Linux utilizando el poder de Vagrant VM, libvirt y docker-compose. Juntas, estas tecnologías te ayudan a contenerizar Windows OS, permitiéndote gestionar una instancia de Windows igual que cualquier contenedor Docker. Esta integración perfecta en los flujos de trabajo existentes mejora significativamente la comodidad y optimiza la asignación de recursos.
 
-Asegúrate de que tu sistema cumpla con los siguientes requisitos:  
+⭐ **¡No olvides dar una estrella al proyecto si te ayudó!**
 
-- **Docker:** Versión 20 o superior [(Instalar Docker)](https://www.docker.com/)  
+## 📋 Requisitos previos
 
-- **Sistema Operativo anfitrión:** Linux  
+Asegúrate de que tu sistema cumpla con los siguientes requisitos:
 
-- **Virtualización habilitada:**  
-  - Verifica con:  
-    - `lscpu | grep -i Virtualization`  
-  - La salida indica:  
-    - `VT-x` → Virtualización Intel soportada y habilitada.  
-    - `AMD-V` → Virtualización AMD soportada y habilitada.  
-  - Si la virtualización no está habilitada, actívala en la configuración BIOS/UEFI.  
+- **Docker:** Versión 20 o superior [(Instalar Docker)](https://www.docker.com/)
 
-- **`cgroup: host`** en el archivo compose es requerido: libvirt y los demonios que genera necesitan acceso completo a cgroup, de lo contrario el contenedor no podrá iniciarse en hosts con cgroup v2.  
+- **Sistema Operativo Host:** Linux
 
-## 🚀 Guía de Despliegue  
+- **Virtualización Habilitada:**
+  - Comprobar con:
+    - `lscpu | grep -i Virtualization`
+  - El resultado indica:
+    - `VT-x` → La virtualización Intel es compatible y está habilitada.
+    - `AMD-V` → La virtualización AMD es compatible y está habilitada.
+  - Si la virtualización no está habilitada, actívala en los ajustes de BIOS/UEFI.
 
-1. Crea/Actualiza el archivo ambiental `.env`
+- **`cgroup: host`** en el archivo compose es necesario: libvirt y los demonios que genera requieren acceso completo a cgroup, de lo contrario el contenedor no puede iniciarse en hosts con cgroup v2.
+
+## 🚀 Guía de Despliegue
+
+1. Crea/Actualiza el archivo de variables ambientales `.env`
 ```
 # Vagrant image settings
 MEMORY=8000     # MiB (~8 GB)
@@ -130,6 +162,6 @@ Los usuarios predeterminados basados en la imagen Vagrant son:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-16
 
 ---

@@ -1,29 +1,61 @@
-# 💻 Docker 컨테이너 내 Windows  
-Vagrant VM, libvirt, docker-compose의 힘을 이용하여 리눅스 시스템에서 Windows OS(x64)를 배포하는 혁신적이고 효율적인 방법을 발견하세요. 이 기술들은 함께 Windows OS를 컨테이너화하여, Windows 인스턴스를 Docker 컨테이너처럼 관리할 수 있게 합니다. 기존 워크플로우에 원활하게 통합되어 편리함을 크게 향상시키고 자원 할당을 최적화합니다.  
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-⭐ **도움이 되셨다면 프로젝트에 별점을 꼭 남겨주세요!**  
+# 💻 도커 컨테이너에서 윈도우
+Vagrant VM, libvirt, 그리고 docker-compose의 강력한 조합을 사용하여 리눅스 시스템에서 Windows OS(x64)를 배포하는 혁신적이고 효율적인 방법을 알아보세요. 이 기술들은 Windows OS를 컨테이너화하여, 윈도우 인스턴스를 마치 다른 도커 컨테이너처럼 관리할 수 있도록 도와줍니다. 기존 워크플로우에 매끄럽게 통합되어 편의성이 크게 향상되고 자원 할당이 최적화됩니다.
 
-## 📋 전제 조건  
+⭐ **이 프로젝트가 도움이 되었다면 꼭 Star를 눌러주세요!**
 
-시스템이 다음 요구 사항을 충족하는지 확인하세요:  
+## 📋 사전 준비 사항
 
-- **Docker:** 버전 20 이상 [(Docker 설치)](https://www.docker.com/)  
+다음 요구 사항을 시스템이 충족하는지 확인하세요:
 
-- **호스트 OS:** 리눅스  
 
-- **가상화 활성화:**  
-  - 확인 명령:  
-    - `lscpu | grep -i Virtualization`  
-  - 출력 결과:  
-    - `VT-x` → Intel 가상화 지원 및 활성화  
-    - `AMD-V` → AMD 가상화 지원 및 활성화  
-  - 가상화가 활성화되어 있지 않으면 BIOS/UEFI 설정에서 활성화하세요.  
+- **Docker:** 버전 20 이상 [(Docker 설치하기)](https://www.docker.com/)
 
-- **compose 파일에 `cgroup: host` 필요:** libvirt와 관련 데몬들이 완전한 cgroup 접근 권한이 필요하며, 그렇지 않으면 cgroup v2 호스트에서 컨테이너가 시작되지 않습니다.  
+- **호스트 OS:** Linux
 
-## 🚀 배포 가이드  
+- **가상화 활성화됨:**
+  - 다음 명령어로 확인:
+    - `lscpu | grep -i Virtualization`
+  - 출력 결과:
+    - `VT-x` → 인텔 가상화가 지원 및 활성화됨.
+    - `AMD-V` → AMD 가상화가 지원 및 활성화됨.
+  - 가상화가 활성화되어 있지 않다면 BIOS/UEFI 설정에서 활성화하세요.
 
-1. 환경 파일 `.env`를 생성하거나 업데이트하세요.
+- compose 파일에서 **`cgroup: host`** 설정은 필수: libvirt와 해당 데몬들은 전체 cgroup 접근이 필요하며, 그렇지 않으면 cgroup v2 호스트에서 컨테이너가 시작되지 않습니다.
+
+## 🚀 배포 가이드
+
+1. 환경 파일 `.env`를 생성/업데이트하세요.
 ```
 # Vagrant image settings
 MEMORY=8000     # MiB (~8 GB)
@@ -130,6 +162,6 @@ Vagrant 이미지 기반 기본 사용자는 다음과 같습니다:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-16
 
 ---

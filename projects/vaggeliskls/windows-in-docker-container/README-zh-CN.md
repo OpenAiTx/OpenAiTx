@@ -1,29 +1,61 @@
-# 💻 在 Docker 容器中运行 Windows
-探索一种创新且高效的方法，利用 Vagrant 虚拟机、libvirt 和 docker-compose 的力量，在您的 Linux 系统上部署 Windows 操作系统（x64）。这些技术共同帮助您将 Windows 操作系统容器化，使您能够像管理任何 Docker 容器一样管理 Windows 实例。这种无缝集成到现有工作流程中，大大提升了便利性并优化了资源分配。
 
-⭐ **如果本项目对您有帮助，别忘了给项目点星！**
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=vaggeliskls&project=windows-in-docker-container&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-## 📋 先决条件
+# 💻 Docker 容器中的 Windows
+探索一种创新高效的方法，通过 Vagrant VM、libvirt 和 docker-compose 的强大组合，在您的 Linux 系统上部署 Windows 操作系统（x64）。这些技术协同工作，使您能够将 Windows 操作系统容器化，让您像管理其他 Docker 容器一样管理 Windows 实例。这种无缝集成极大地提升了便利性，并优化了资源分配。
 
-确保您的系统满足以下要求：
+⭐ **如果本项目对您有帮助，请记得给个星标！**
 
-- **Docker：** 版本 20 或更高 [(安装 Docker)](https://www.docker.com/)
+## 📋 前置条件
+
+请确保您的系统满足以下要求：
+
+- **Docker：** 版本 20 或更高 [（安装 Docker）](https://www.docker.com/)
 
 - **主机操作系统：** Linux
 
-- **虚拟化已启用：**
-  - 通过以下命令检查：
+- **已启用虚拟化：**
+  - 检查方法：
     - `lscpu | grep -i Virtualization`
-  - 输出表示：
-    - `VT-x` → 支持且启用了 Intel 虚拟化。
-    - `AMD-V` → 支持且启用了 AMD 虚拟化。
+  - 输出结果说明：
+    - `VT-x` → 支持并已启用 Intel 虚拟化。
+    - `AMD-V` → 支持并已启用 AMD 虚拟化。
   - 如果未启用虚拟化，请在 BIOS/UEFI 设置中启用。
 
-- Compose 文件中需使用 **`cgroup: host`**：libvirt 及其启动的守护进程需要完全的 cgroup 访问权限，否则容器在 cgroup v2 主机上无法启动。
+- 在 compose 文件中必须使用 **`cgroup: host`** ：libvirt 及其生成的守护进程需要完整的 cgroup 访问权限，否则在 cgroup v2 主机上容器将无法启动。
 
 ## 🚀 部署指南
 
-1. 创建/更新环境变量文件 `.env`
+1. 创建或更新环境文件 `.env`
 ```
 # Vagrant image settings
 MEMORY=8000     # MiB (~8 GB)
@@ -130,6 +162,6 @@ ssh <user>@<host> -p 2222
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-16
 
 ---

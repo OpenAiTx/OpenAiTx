@@ -1,0 +1,1034 @@
+[
+  {
+    "row": 1,
+    "rowsha": "sorbO35HcwSiy5PWkgGerA1zjQ52bIYVBXaDh5KofqI=",
+    "originContent": "# 呆啵宠物 - 原神版",
+    "translatedContent": "# DyberPet - Versión Genshin Impact"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+    "originContent": "> [!IMPORTANT]",
+    "translatedContent": "> [!IMPORTANT]"
+  },
+  {
+    "row": 4,
+    "rowsha": "CsgaH8JwfdGZ2bMAfRmUynNtlEWaXIdnnmOZGA9ePzQ=",
+    "originContent": "> ## ⚠️ 本仓库已停止维护，请前往新版 DyberPet",
+    "translatedContent": "> ## ⚠️ Este repositorio ha dejado de mantenerse, por favor dirígete a la nueva versión DyberPet"
+  },
+  {
+    "row": 5,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 6,
+    "rowsha": "e73msOMlz8hR3wSRrfdl9NtOiYAwj9z2L6AbeL4iKmw=",
+    "originContent": "> **原神版呆啵宠物已于多年前合并至新版 [呆啵宠物 DyberPet](https://github.com/ChaozhongLiu/DyberPet) 框架。**",
+    "translatedContent": "> **La versión de DyberPet para Genshin Impact fue fusionada hace varios años en el nuevo marco [DyberPet](https://github.com/ChaozhongLiu/DyberPet).**"
+  },
+  {
+    "row": 7,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 8,
+    "rowsha": "/oyHUWcoEppGpQs1+Ptj35d9gCbJUOv5yPLL4c6fKz8=",
+    "originContent": "> 本仓库不再更新，也不推荐继续使用。  ",
+    "translatedContent": "> Este repositorio ya no se actualizará ni se recomienda seguir usándolo.  "
+  },
+  {
+    "row": 9,
+    "rowsha": "snJamoM/fvydMdE2FbzqpOW0x+JJc1X0qfRGPVvP+0U=",
+    "originContent": "> 现在只需携带角色文件夹，即可迁移到新版 DyberPet，并享受更多功能。",
+    "translatedContent": "> Ahora solo necesitas llevar la carpeta de personajes para migrar a la nueva versión de DyberPet y disfrutar de más funcionalidades."
+  },
+  {
+    "row": 10,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 11,
+    "rowsha": "fohQXvJJ4lKGE4gRKVLzKR7yKK2Wh5Aib6TqcdboEPc=",
+    "originContent": "> 👉 **请前往新版仓库： [ChaozhongLiu/DyberPet](https://github.com/ChaozhongLiu/DyberPet)**",
+    "translatedContent": "> 👉 **Por favor visita el nuevo repositorio: [ChaozhongLiu/DyberPet](https://github.com/ChaozhongLiu/DyberPet)**"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "vWS7jvpbPyfmRC8jYAw7UWEn6hfiNyS0HlDaTCKIPt0=",
+    "originContent": "----",
+    "translatedContent": "----"
+  },
+  {
+    "row": 14,
+    "rowsha": "6Sq5LBQqJckd0er6caCKNOVQYxrfNZQoqG5petfV4EI=",
+    "originContent": "[![License](https://img.shields.io/github/license/ChaozhongLiu/DyberPet.svg)](LICENSE)",
+    "translatedContent": "[![License](https://img.shields.io/github/license/ChaozhongLiu/DyberPet.svg)](LICENSE)"
+  },
+  {
+    "row": 15,
+    "rowsha": "Gi+IwyPHNSi9UZfMlk8zefHkwa5wr4q1VdVYnswlHZw=",
+    "originContent": "![DyberPet Version](https://img.shields.io/badge/DyberPet-v0.2.2-green.svg)  ",
+    "translatedContent": "![DyberPet Version](https://img.shields.io/badge/DyberPet-v0.2.2-green.svg)  "
+  },
+  {
+    "row": 16,
+    "rowsha": "V87qoY5yjs5wtzlPa49LqbXP8mKQ0Gd/vjBoBSPkMjw=",
+    "originContent": "呆啵宠物 (DyberPet) 原神版是基于[呆啵宠物](https://github.com/ChaozhongLiu/DyberPet)框架创造的原神桌宠，美术部分由[@栎曦_Nuo](https://space.bilibili.com/14004864)完成。  ",
+    "translatedContent": "DyberPet (DyberPet) versión Genshin Impact es una mascota de escritorio basada en el marco [DyberPet](https://github.com/ChaozhongLiu/DyberPet), con el arte realizado por [@栎曦_Nuo](https://space.bilibili.com/14004864).  "
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "O9yv8tiqd7zG5O+y3f15VLczXyVT2yv7X7SCO5PNRUM=",
+    "originContent": "🆕 **重构UI版本**已经在 [DyberPet 主页](https://github.com/ChaozhongLiu/DyberPet)上线！新版本包括备份存档、添加角色、更友好的UI，欢迎试用并提供反馈！",
+    "translatedContent": "🆕 La **versión con UI reestructurada** ya está disponible en la [página principal de DyberPet](https://github.com/ChaozhongLiu/DyberPet)! La nueva versión incluye respaldo de partidas, adición de personajes, una UI más amigable, ¡te invitamos a probarla y dar tu feedback!"
+  },
+  {
+    "row": 19,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 20,
+    "rowsha": "guS5Jjazd62oRKN9uh+fb2fRdfOpVbVDYQ/2FfM9nB0=",
+    "originContent": "如果你喜欢这个桌宠小程序，请点击右上角的:star:**Star**，这对我们继续开发下去有很大的激励！  ",
+    "translatedContent": "Si te gusta esta mascota de escritorio, por favor haz clic en la esquina superior derecha:star:**Star**; esto nos motiva mucho a continuar desarrollando!  "
+  },
+  {
+    "row": 21,
+    "rowsha": "Gv74uRqwUM2O85SUIpbagQ4L6XQUQa1KH7UsJ5Z+0TU=",
+    "originContent": "同时，更多的角色、物品、功能将陆续加入，请关注[@栎曦_Nuo](https://space.bilibili.com/14004864) 和本仓库以获得最新的更新。  ",
+    "translatedContent": "Además, más personajes, objetos y funciones se irán añadiendo, sigue a [@栎曦_Nuo](https://space.bilibili.com/14004864) y este repositorio para las últimas actualizaciones.  "
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "8L6Q2n50IjzLvmfzmThmervraVpD6L3jvGSYexIXcxo=",
+    "originContent": "如果在使用过程中遇到任何问题，可以私信我[@哦哟喔嚯](https://space.bilibili.com/39307302)或者在[Issues页面](https://github.com/ChaozhongLiu/DyberPet_GenshinImpact/issues)提出。",
+    "translatedContent": "Si encuentras algún problema durante el uso, puedes enviarme un mensaje privado [@哦哟喔嚯](https://space.bilibili.com/39307302) o abrir un issue en la [página de Issues](https://github.com/ChaozhongLiu/DyberPet_GenshinImpact/issues)."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "0O7KteBrNMTou7W10w0kcdIMypswKD/MaeTL65vBXj8=",
+    "originContent": ":warning:  ~~近期本人忙于博士毕业和找工作的各种事情，框架暂时无法及时更新，十分抱歉。预计将于10月中旬恢复修复和稳定更新。~~:beers:  ",
+    "translatedContent": ":warning:  ~~Recientemente he estado ocupado con la graduación de doctorado y búsqueda de empleo, por lo que el marco no puede actualizarse puntualmente, lo siento mucho. Se espera reanudar correcciones y actualizaciones estables a mediados de octubre.~~ :beers:  "
+  },
+  {
+    "row": 26,
+    "rowsha": "YsAo8cR4tB8knUiXEQ7kwKWlShYBtn9ON8iHyNQ32O8=",
+    "originContent": "正在进行一轮新的UI重构，同时在增加便捷的操作功能，过于繁忙可能更新缓慢，见谅！",
+    "translatedContent": "Actualmente se está realizando una nueva reestructuración de la UI y se están añadiendo funciones de operación más cómodas, puede que las actualizaciones sean lentas debido a la carga, ¡gracias por la comprensión!"
+  },
+  {
+    "row": 27,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 28,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 29,
+    "rowsha": "A+SAMK4m/P1gTKa5ZrOQMuRLM2ZEyfI0bAgrGk9S40c=",
+    "originContent": "For **English and more language** version of the App, please see our [Alpha version of DyberPet](https://github.com/ChaozhongLiu/DyberPet/releases/tag/v0.3.0a).  ",
+    "translatedContent": "Para la versión en **inglés y otros idiomas**, por favor consulta nuestra [versión Alpha de DyberPet](https://github.com/ChaozhongLiu/DyberPet/releases/tag/v0.3.0a).  "
+  },
+  {
+    "row": 30,
+    "rowsha": "i2gwXDEizRNGhBHTMEruH7+EPrDQvVhpAMifgAGoKjs=",
+    "originContent": "Please :star:**Star** to get the update later!",
+    "translatedContent": "Por favor :star:**Star** para recibir futuras actualizaciones!"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "wcx/60pY1F3O+Y9QQs9Uhc7DOegfNc8GVTUf/wfSAHo=",
+    "originContent": "## 快速体验",
+    "translatedContent": "## Experiencia rápida"
+  },
+  {
+    "row": 35,
+    "rowsha": "xf5WdphdVaolESuMGTP9YwI1M0L77fL+jSjfhVhxlOk=",
+    "originContent": "### Windows 用户",
+    "translatedContent": "### Usuarios de Windows"
+  },
+  {
+    "row": 36,
+    "rowsha": "uuOIp4U4l7aswDrGdUeDACOtBv6OgK5S1gXc/MsJMYo=",
+    "originContent": "  **初次使用**：将仓库[下载](https://github.com/ChaozhongLiu/DyberPet_GenshinImpact/archive/refs/heads/main.zip)至本地，解压后双击 **``呆啵宠物-原神.exe``** 即可  ",
+    "translatedContent": "  **Primer uso**: Descarga el repositorio [aquí](https://github.com/ChaozhongLiu/DyberPet_GenshinImpact/archive/refs/heads/main.zip) localmente, descomprímelo y haz doble clic en **``DyberPet-Genshin.exe``** para ejecutarlo  "
+  },
+  {
+    "row": 37,
+    "rowsha": "Eee5jcNNkjDFPqVssbcEy30CwcVY6n4GEZFAjlULh8g=",
+    "originContent": "  （.exe程序不能离开文件夹，但可以创建桌面快捷方式）",
+    "translatedContent": "  (el programa .exe no puede moverse fuera de la carpeta, pero puedes crear un acceso directo en el escritorio)"
+  },
+  {
+    "row": 38,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 39,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 40,
+    "rowsha": "u83xzNMAqOkM/wgdjW29uSjY1pZCSB8QUqObAqGqb7Y=",
+    "originContent": "  **版本更新**：如果你已经在使用呆啵桌宠，将[下载](https://github.com/ChaozhongLiu/DyberPet_GenshinImpact/archive/refs/heads/main.zip)的最新文件覆盖已有的旧版  ",
+    "translatedContent": "  **Actualización de versión**: Si ya estás usando DyberPet, descarga la última versión [aquí](https://github.com/ChaozhongLiu/DyberPet_GenshinImpact/archive/refs/heads/main.zip) y sobrescribe los archivos de la versión antigua  "
+  },
+  {
+    "row": 41,
+    "rowsha": "CFCv/nbDpXD2WmaCu5exV48af1tqESjgsrmve5no6jQ=",
+    "originContent": "  (全部覆盖，``data``文件夹会保留，数据不会丢失)",
+    "translatedContent": "  (Overwrite all, the ``data`` folder will be retained, data will not be lost)"
+  },
+  {
+    "row": 42,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 43,
+    "rowsha": "MJeS3Qyk94YUHCxWKK+8irD7IV34JB3MAKhfpkcg2l8=",
+    "originContent": "  **百度网盘**：[链接](https://pan.baidu.com/s/1dLY0ZfFcTRySuU4tXv1-pA?pwd=bs1d) | 提取码：bs1d  ",
+    "translatedContent": "  **Baidu Netdisk**: [link](https://pan.baidu.com/s/1dLY0ZfFcTRySuU4tXv1-pA?pwd=bs1d) | Extraction code: bs1d  "
+  },
+  {
+    "row": 44,
+    "rowsha": "mjFoO3cjuq8RZdrdy9XnXWomAdIjLcl92OZQ9OpbDcI=",
+    "originContent": "  **夸克网盘**：[链接](https://pan.quark.cn/s/a070df462217) | 提取码：7RD4",
+    "translatedContent": "  **Quark Netdisk**: [link](https://pan.quark.cn/s/a070df462217) | Extraction code: 7RD4"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "QmXp8PKf5yRHSU+Xx/5kpAewRdyyfw0B6TWBy0qK2ss=",
+    "originContent": "### Linux / MacOS 用户",
+    "translatedContent": "### Usuarios de Linux / MacOS"
+  },
+  {
+    "row": 47,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 48,
+    "rowsha": "ljNf48x5tFkcOGU1LJDCdyQsTb7DjNtyTLnEHNfbXoY=",
+    "originContent": "  **Mac测试版**",
+    "translatedContent": "  **Versión beta para Mac**  "
+  },
+  {
+    "row": 49,
+    "rowsha": "zb0dCBp8cvc36MMhRMApN03t1wYgeECd1k130C6cFjI=",
+    "originContent": "  **夸克网盘**：[链接](https://pan.quark.cn/s/6386f4b5efc9) | 提取码：D3VR  ",
+    "translatedContent": "  **Quark Netdisk**: [link](https://pan.quark.cn/s/6386f4b5efc9) | Extraction code: D3VR  "
+  },
+  {
+    "row": 50,
+    "rowsha": "9gxkVrvg8DMxYsoqgL7LIicMzhMcd3GmQ8uOMjgG1Hs=",
+    "originContent": "  欢迎加群反馈bug和疑问，获得最新更新！``233305772``  ",
+    "translatedContent": "  Bienvenidos a unirse al grupo para reportar bugs y dudas, ¡y obtener las últimas actualizaciones! ``233305772``  "
+  },
+  {
+    "row": 51,
+    "rowsha": "lUxFZ6PmilzKrekDI0lNsug/cXSMFz6DyrBcEj5FTfA=",
+    "originContent": "  **Q: 程序已损坏，打不开**:   ",
+    "translatedContent": "  **P: El programa está dañado, no se puede abrir**:  "
+  },
+  {
+    "row": 52,
+    "rowsha": "fCsUDFYPz8Vq5/RAL2FWDze7JxqZ/3YnFTwPI76md4o=",
+    "originContent": "  **A:** 这是第三方应用程序权限的问题，并不是真的损坏了。解决办法请参考：https://macoshome.com/course/1699.html",
+    "translatedContent": "  **R:** Este es un problema de permisos de aplicaciones de terceros, no está realmente dañado. Para solucionarlo, consulta: https://macoshome.com/course/1699.html"
+  },
+  {
+    "row": 53,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 54,
+    "rowsha": "vcsX64MA4uoaCmpCcNHMmlFiaUqPSlaVxYFs0Oe7oYE=",
+    "originContent": "  也可以通过[这个评论](https://www.bilibili.com/read/cv21890026)的方法实现 (感谢b站用户 [@洛天依_Linux](https://space.bilibili.com/495653264))",
+    "translatedContent": "  También se puede resolver con el método de [este comentario](https://www.bilibili.com/read/cv21890026) (gracias al usuario de Bilibili [@洛天依_Linux](https://space.bilibili.com/495653264))"
+  },
+  {
+    "row": 55,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "lG6oAP1KCtaWou6yPS6PgF62S5EJ1fmXwBoqnC0rLvY=",
+    "originContent": "## 用户手册",
+    "translatedContent": "## Manual de usuario"
+  },
+  {
+    "row": 58,
+    "rowsha": "PNTMY3qpnz+GUH79Bb2jfr0GWXXyF4a2L96Gv/V7TjY=",
+    "originContent": "请参考这个[简易用户手册](https://raw.githubusercontent.com/ChaozhongLiu/DyberPet_GenshinImpact/main/用户手册.pdf)，或者观看[B站视频](https://www.bilibili.com/video/BV1fd4y1W7ht)，体验现有功能。",
+    "translatedContent": "Por favor, consulta este [manual de usuario sencillo](https://raw.githubusercontent.com/ChaozhongLiu/DyberPet_GenshinImpact/main/用户手册.pdf), o mira el [video en Bilibili](https://www.bilibili.com/video/BV1fd4y1W7ht) para experimentar las funciones actuales."
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "6Sc+2v44lDEbDdVTj3VnsMxy5Ia3loc0PPRSv3sj0to=",
+    "originContent": "## 更新日志",
+    "translatedContent": "## Registro de cambios"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 64,
+    "rowsha": "TSotM/+p61bzbT9UAxhcX7l95lARWFxyxvcDk1OJk2Y=",
+    "originContent": "  <summary>版本更新列表</summary>",
+    "translatedContent": "  <summary>Lista de actualizaciones de versión</summary>"
+  },
+  {
+    "row": 65,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 66,
+    "rowsha": "InSgXQ/5KJTYtKUD2fzNK0QAUbyh/nvPyVdmB0N2nAc=",
+    "originContent": "**  **",
+    "translatedContent": "**  **"
+  },
+  {
+    "row": 67,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 68,
+    "rowsha": "9PK0WWQthhX01lndlXi3kRNOsVrcCESFsnscSGObEJ8=",
+    "originContent": "**v0.2.2 - 03/05/2023**",
+    "translatedContent": "**v0.2.2 - 05/03/2023**"
+  },
+  {
+    "row": 69,
+    "rowsha": "TjkalXgWhhXYlF7AIYdaJwGHY109Eh27uR5LqpTbH1A=",
+    "originContent": "- 常驻动作数据结构修改，bug修复",
+    "translatedContent": "- Modificación en la estructura de datos de acciones permanentes, corrección de errores  "
+  },
+  {
+    "row": 70,
+    "rowsha": "rmqKV/WEMs+w+AmPlBaA/y/GwUd81SQbz+GFK168sfU=",
+    "originContent": "- 同伴添加了常驻动作判定，需要在是主宠物时进行设定",
+    "translatedContent": "- Los compañeros añadieron la determinación de acciones permanentes, que debe configurarse cuando es la mascota principal"
+  },
+  {
+    "row": 71,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 72,
+    "rowsha": "9PK0WWQthhX01lndlXi3kRNOsVrcCESFsnscSGObEJ8=",
+    "originContent": "**v0.2.2 - 03/05/2023**",
+    "translatedContent": "**v0.2.2 - 05/03/2023**"
+  },
+  {
+    "row": 73,
+    "rowsha": "RIwNYX90og1RQV9tjHuNbSn3Ky4JykcVFJU2mp15wo8=",
+    "originContent": "- 新增角色：魈",
+    "translatedContent": "- Nuevo personaje: Xiao  "
+  },
+  {
+    "row": 74,
+    "rowsha": "AwjmOtyPPYfPpZF51DUzxe3NtnZS3jo/PG3Ej80Ay3Q=",
+    "originContent": "- 添加了跟随鼠标的功能",
+    "translatedContent": "- Se añadió la función de seguir el ratón  "
+  },
+  {
+    "row": 75,
+    "rowsha": "l7Ped6yEJUnWa2/ERAESkK5yS8ZR4m0alFfp3AGIR8k=",
+    "originContent": "- 右键菜单中增加了常驻动作选项，可以改变闲置时的默认动作，选中后将不在随机播放其他动作",
+    "translatedContent": "- En el menú de clic derecho se añadió la opción de acción permanente, que puede cambiar la acción predeterminada en reposo; al seleccionar, no se reproducirán otras acciones al azar  "
+  },
+  {
+    "row": 76,
+    "rowsha": "OFAwYz9fvpPIcZiSa25q0oHZE/MLPz1t2ye+HGP1Vss=",
+    "originContent": "- 背包分成了食物和收藏品两栏",
+    "translatedContent": "- La mochila se dividió en dos columnas: comida y coleccionables"
+  },
+  {
+    "row": 77,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 78,
+    "rowsha": "YqFzfcpKo6SLy4utoCuEamHx2pxDgCPc+TcLEjrz/IU=",
+    "originContent": "**v0.2.1 - 02/23/2023**",
+    "translatedContent": "**v0.2.1 - 23/02/2023**"
+  },
+  {
+    "row": 79,
+    "rowsha": "4TJ0WoOvpdNxPclTvbKzbxfakM0atTSN/7vhuZxbU1g=",
+    "originContent": "- 优化了缩放机制",
+    "translatedContent": "- Optimización del mecanismo de escalado  "
+  },
+  {
+    "row": 80,
+    "rowsha": "eCqADNsx0OEINeFOSrWOJtafk0+IxbkNV98x5cbtYIQ=",
+    "originContent": "- 物品数量为1时不显示数字",
+    "translatedContent": "- Cuando la cantidad del objeto es 1, no se muestra el número"
+  },
+  {
+    "row": 81,
+    "rowsha": "kM5jpuvlWXsC8WXG+SpPW9wg8h0gghlk+2FJB5khyo8=",
+    "originContent": "- 优化了主宠物列表判断和默认宠物的保存方式",
+    "translatedContent": "- Se optimizó el método de determinación de la lista principal de mascotas y la forma de guardar la mascota predeterminada"
+  },
+  {
+    "row": 82,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 83,
+    "rowsha": "hEqWn8Du1r1ZIE26B1ODH8uHEFqbFv04N7jmbAdxXWs=",
+    "originContent": "**v0.2.0 - 02/22/2023**",
+    "translatedContent": "**v0.2.0 - 22/02/2023**"
+  },
+  {
+    "row": 84,
+    "rowsha": "R08wBcEBJJWDcKx/KDj6GZfqkEIdvoEazT7s6ORLww0=",
+    "originContent": "- 加入了好感度等级奖励补偿",
+    "translatedContent": "- Se añadió la compensación por recompensa de nivel de afecto"
+  },
+  {
+    "row": 85,
+    "rowsha": "NxLPUYQedO9W3asMWpbgJrF7x716RKwSbhXEDfwXuHA=",
+    "originContent": "- 流浪者和纳西妲分别增加了4组对话，将在好感度2、3、4、5级获得",
+    "translatedContent": "- Se añadieron 4 grupos de diálogos para el Errante y Nahida, que se desbloquearán en los niveles de afecto 2, 3, 4 y 5 respectivamente"
+  },
+  {
+    "row": 86,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 87,
+    "rowsha": "FX5JKNM/+zB6cMyOQ6DqGbbFzx8YwU18aY5nVa9UgzQ=",
+    "originContent": "**v0.2.0 - 02/19/2023**",
+    "translatedContent": "**v0.2.0 - 19/02/2023**"
+  },
+  {
+    "row": 88,
+    "rowsha": "RNiHcqEt9mUxGc5/hFXf6hYGiZZaZ//9lJ/RlgsFOYk=",
+    "originContent": "- 缩小了纳西妲的体型",
+    "translatedContent": "- Se redujo el tamaño de Nahida"
+  },
+  {
+    "row": 89,
+    "rowsha": "1WLeTfJT/RQjG3X5P+pYXxz4AzvRgIzmJs0OiFTeFTo=",
+    "originContent": "- 修复了切换角色时陪伴时间打开关闭的bug",
+    "translatedContent": "- Se corrigió un bug al abrir y cerrar el tiempo de acompañamiento al cambiar de personaje"
+  },
+  {
+    "row": 90,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 91,
+    "rowsha": "k1YVBEbvZtYIvcYl9PXy7cEwM5XHFUCIXcxk7NRRdj0=",
+    "originContent": "**v0.2.0 - 02/18/2023**",
+    "translatedContent": "**v0.2.0 - 18/02/2023**"
+  },
+  {
+    "row": 92,
+    "rowsha": "7NnK8JwSaX3lGNvlfBOx4PLpIJjtPr/p54ujjitPxjI=",
+    "originContent": "- 新增角色 - 流浪者",
+    "translatedContent": "- Nuevo personaje - Errante"
+  },
+  {
+    "row": 93,
+    "rowsha": "fC0U+i+tYvWHFQtH7buwkSELbkLYl8VZgt9kRWnrjIk=",
+    "originContent": "- 好感度等级上限调整为8 （卷起来 doge）",
+    "translatedContent": "- Límite máximo del nivel de afecto ajustado a 8 (¡arriba doge!)"
+  },
+  {
+    "row": 94,
+    "rowsha": "exwGv3MXmtK3NdqKRosoHWHfOse1Bh1Qr+dWonxoCxk=",
+    "originContent": "- 设置中添加了启动默认角色的选择",
+    "translatedContent": "- Se añadió la opción para seleccionar el personaje predeterminado al iniciar en la configuración"
+  },
+  {
+    "row": 95,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 96,
+    "rowsha": "aKrKto2bCBwuh/0RheFGPGCL85cQxMJE/bGssUfQYd4=",
+    "originContent": "**v0.1.19 - 02/16/2023**",
+    "translatedContent": "**v0.1.19 - 16/02/2023**"
+  },
+  {
+    "row": 97,
+    "rowsha": "QH+uk5hxKiNU5Gv8cBn7wUPH7G/uCwifP8wDgLC01fE=",
+    "originContent": "- 设置中可以静音了",
+    "translatedContent": "- Ahora se puede silenciar desde la configuración"
+  },
+  {
+    "row": 98,
+    "rowsha": "KL6/DEyUnJX5jIjmoXqTK2TaSe2+wuVc4fg29XMe8ww=",
+    "originContent": "- 添加了统计陪伴天数及显示铭牌的功能",
+    "translatedContent": "- Se añadió la función de contar los días de acompañamiento y mostrar la placa conmemorativa"
+  },
+  {
+    "row": 99,
+    "rowsha": "piSiYUwJ/M/fUfiMta7tUuVsuEq8My1rE9hZYdgcT8c=",
+    "originContent": "- 对话框自动添加上一步按钮（暂未实装素材）",
+    "translatedContent": "- Se añadió automáticamente un botón de \"paso anterior\" en el cuadro de diálogo (aún no implementado el material)"
+  },
+  {
+    "row": 100,
+    "rowsha": "htq48zT1dOfE81wp2/CaeZeXgQzilzS+G25OiQKjCdM=",
+    "originContent": "- 调整了对特殊中文字符的长度计算",
+    "translatedContent": "- Se ajustó el cálculo de longitud para caracteres chinos especiales"
+  },
+  {
+    "row": 101,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 102,
+    "rowsha": "F1AELIwmoJpod/ignmEZ1R4uhQhzXv7Onh7MceAoQGU=",
+    "originContent": "**v0.1.18 - 02/11/2023**",
+    "translatedContent": "**v0.1.18 - 11/02/2023**"
+  },
+  {
+    "row": 103,
+    "rowsha": "dR614DtPcEuSKRuUF57F6B1rcskSQTwdyb60YYOW1Xg=",
+    "originContent": "- 增加了附属宠物和主宠物的连接",
+    "translatedContent": "- Se añadió la conexión entre mascota principal y mascotas auxiliares"
+  },
+  {
+    "row": 104,
+    "rowsha": "KuyCeYRZWTWSqsrPsF13R2goSKMEyGlSZpHK00ByxE4=",
+    "originContent": "- 保证收藏品在随机掉落中不重复出现",
+    "translatedContent": "- Se garantizó que los objetos coleccionables no aparezcan repetidos en las caídas aleatorias"
+  },
+  {
+    "row": 105,
+    "rowsha": "/S3C2HBK5G/9SMBiLNhGAi0pvGrJIx/tT+j2dfdn/5Y=",
+    "originContent": "- 整理了可变更的系统数值",
+    "translatedContent": "- Se organizaron los valores del sistema que pueden ser modificados"
+  },
+  {
+    "row": 106,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 107,
+    "rowsha": "F1AELIwmoJpod/ignmEZ1R4uhQhzXv7Onh7MceAoQGU=",
+    "originContent": "**v0.1.18 - 02/11/2023**",
+    "translatedContent": "**v0.1.18 - 11/02/2023**"
+  },
+  {
+    "row": 108,
+    "rowsha": "a7IgzjcSOUSwTIiY0PTBrYhuTCPtCCE+e4WXen6CjI0=",
+    "originContent": "- 修复了使用右键菜单收回派蒙时，背包按钮显示的错误",
+    "translatedContent": "- Se corrigió el error en el botón de la mochila que se mostraba al retirar a Paimon usando el menú derecho"
+  },
+  {
+    "row": 109,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 110,
+    "rowsha": "11ZqhaUCRq0hdK4N9GkZX6Aat8w0LGi9Rz4ZFeELALI=",
+    "originContent": "**v0.1.18 - 02/10/2023**",
+    "translatedContent": "**v0.1.18 - 10/02/2023**"
+  },
+  {
+    "row": 111,
+    "rowsha": "PIYNUpsnJQTTfeS64b5Oe4VuqDNcXP9Dwb1nYohgjY8=",
+    "originContent": "- 添加了对话界面和功能（暂未实装素材）",
+    "translatedContent": "- Se añadió la interfaz y funciones de diálogo (material aún no implementado)"
+  },
+  {
+    "row": 112,
+    "rowsha": "9YRicXSoRrsVVcYWta1nwepbh9CNFWvtzSdP/rhRr6E=",
+    "originContent": "- 物品增加属性：``pet_limit`` 将物品设定为只在某个宠物内出现的物品（为即将到来的多个角色做准备）",
+    "translatedContent": "- Se añadió el atributo ``pet_limit`` a los objetos, que los limita para aparecer sólo con ciertas mascotas (preparación para futuros personajes)"
+  },
+  {
+    "row": 113,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 114,
+    "rowsha": "UY9TXMniP7Pq4rsCCxeuddNtC9ulQzcGyksNUumwbaI=",
+    "originContent": "**v0.1.17 - 02/06/2023**",
+    "translatedContent": "**v0.1.17 - 06/02/2023**"
+  },
+  {
+    "row": 115,
+    "rowsha": "8QEgOLwHOaki8KgA2vEIjrwi0+u32d3eBGrGkW7TjDA=",
+    "originContent": "- 收藏品背包格置顶，背景色为淡蓝色",
+    "translatedContent": "- Las ranuras de la mochila para coleccionables se fijaron en la parte superior, con fondo azul claro"
+  },
+  {
+    "row": 116,
+    "rowsha": "zbqjqqcGFz2QthBn/ZY+a+1hQ3vx/9ZaZNNLWavui0M=",
+    "originContent": "- 收藏品的使用可以在背包中收回 （如派蒙因bug走丢，可以在背包界面收回）",
+    "translatedContent": "- Los coleccionables pueden retirarse en la mochila (por ejemplo, si Paimon se pierde por un bug, puede ser retirado desde la interfaz de la mochila)"
+  },
+  {
+    "row": 117,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 118,
+    "rowsha": "EBtZWI6OBmTenXzqTscMiy01O2Y498KLuwAeG5v+Mm4=",
+    "originContent": "**v0.1.17 - 02/05/2023**",
+    "translatedContent": "**v0.1.17 - 05/02/2023**"
+  },
+  {
+    "row": 119,
+    "rowsha": "Df46COP7OQOoGt9cF2sXWMF8YJkrznUkS8Dgo26UT7o=",
+    "originContent": "- 给通知系统语音添加了优先级``sound_priority``属性",
+    "translatedContent": "- Se añadió el atributo ``sound_priority`` para asignar prioridad a las voces del sistema de notificaciones"
+  },
+  {
+    "row": 120,
+    "rowsha": "RpEDobjfDHrfDFe6LiIn1LFUhe/IlzRaseH2DnoqG0s=",
+    "originContent": "- 增加了点击时的随机语音事件",
+    "translatedContent": "- Se añadieron eventos de voz aleatorios al hacer clic"
+  },
+  {
+    "row": 121,
+    "rowsha": "1VpV+jLCeJyiKiyhyOulnV2RYbfNje7xyrs4QRN6T2U=",
+    "originContent": "- 增加了纳西妲的语音库",
+    "translatedContent": "- Se añadió la biblioteca de voz de Naxida"
+  },
+  {
+    "row": 122,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 123,
+    "rowsha": "OkvTIrsA5hMBnincHoERKHbi3kFR9kc2l5LSa24WjDM=",
+    "originContent": "**v0.1.16 - 02/02/2023**",
+    "translatedContent": "**v0.1.16 - 02/02/2023**"
+  },
+  {
+    "row": 124,
+    "rowsha": "tGDZIOSiz7vpwsa20Y7RXMsz2tUm1cDC2ykLtW/icg8=",
+    "originContent": "- 修复了同伴动作的锚点问题",
+    "translatedContent": "- Se corrigió el problema del punto de anclaje en la acción de los compañeros"
+  },
+  {
+    "row": 125,
+    "rowsha": "x2bvtMs9zwkiS8e+pulG0QbYkZ2u1FkZrSeWvXYUFZQ=",
+    "originContent": "- 全面支持多屏（测试中）",
+    "translatedContent": "- Soporte completo para múltiples pantallas (en pruebas)"
+  },
+  {
+    "row": 126,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 127,
+    "rowsha": "ZAow2zC6aEtc+EDVkKdShQPPT59aD8NP2PggN0/CWPs=",
+    "originContent": "**v0.1.15 - 02/01/2023**",
+    "translatedContent": "**v0.1.15 - 02/01/2023**"
+  },
+  {
+    "row": 128,
+    "rowsha": "hK5oUg9faEzd0N5WLWHczKjNjHXUu4BMXUUSVmg1e6A=",
+    "originContent": "- 修复了派蒙在屏幕倍率放大时的大小变化",
+    "translatedContent": "- Se corrigió el cambio de tamaño de Paimon al aumentar la escala de la pantalla"
+  },
+  {
+    "row": 129,
+    "rowsha": "0CedvVQFvrAm0hoXGLPmjovUDSIx5WS+8zU1iXCHdEU=",
+    "originContent": "- 修复了附件的拖拽闪现",
+    "translatedContent": "- Se corrigió el parpadeo al arrastrar accesorios"
+  },
+  {
+    "row": 130,
+    "rowsha": "b/fGWh0PDhfIUwMYsiGpj9NUHfr41mY8dzuRG+E+ZKg=",
+    "originContent": "- 修复了召唤同伴放大时显示不全的问题",
+    "translatedContent": "- Se corrigió el problema de visualización incompleta al ampliar el compañero invocado"
+  },
+  {
+    "row": 131,
+    "rowsha": "B6uSqXj8nVp56HoUqPYzyOXaw5IfhKK94R01q0dnoMM=",
+    "originContent": "- 修复了一定条件下缩放宠物派蒙位置问题",
+    "translatedContent": "- Se corrigió la posición de Paimon mascota al escalar bajo ciertas condiciones"
+  },
+  {
+    "row": 132,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 133,
+    "rowsha": "mtRym590xPpR/IRfHVES50wElH1KS+Nw10OHgWg7t2k=",
+    "originContent": "**v0.1.15 - 01/31/2023**",
+    "translatedContent": "**v0.1.15 - 01/31/2023**"
+  },
+  {
+    "row": 134,
+    "rowsha": "EgCQq8BWzKHz5knBtoNy2O+GmhbWKo5h4NooTlOKMec=",
+    "originContent": "- 规避了专注时间0分0秒相关的闪退bug",
+    "translatedContent": "- Se evitó el bug de cierre relacionado con tiempo de concentración 0 minutos 0 segundos"
+  },
+  {
+    "row": 135,
+    "rowsha": "nriJmyHiiEmiqLzxZ/MSUgCNZdP56ly+QbzhyULBPmI=",
+    "originContent": "- 解决了不能言说的狂爆物品惊天大bug",
+    "translatedContent": "- Se resolvió el gran bug del objeto de estallido frenético inexpresable"
+  },
+  {
+    "row": 136,
+    "rowsha": "5wNtd/0uqoJAJDlN8ELlv0bCK09dtejWMmSwK6FDTWc=",
+    "originContent": "- 停止按钮按下后会立刻失效，避免多次结算",
+    "translatedContent": "- El botón de detener se desactiva inmediatamente tras ser pulsado para evitar múltiples cálculos"
+  },
+  {
+    "row": 137,
+    "rowsha": "Zule0NRXrlMvlIDfkmTF4lQd4KPmPXqeZgFfcqg58es=",
+    "originContent": "- 修复了快速点击鼠标微小位移造成闪现的bug",
+    "translatedContent": "- Se corrigió el bug de parpadeo causado por pequeños movimientos al hacer clic rápido con el ratón"
+  },
+  {
+    "row": 138,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 139,
+    "rowsha": "JDUEDH0RwtskZcjqSIL9aPZK2eBrNHGfItIpivULhUA=",
+    "originContent": "**v0.1.15 - 01/30/2023**",
+    "translatedContent": "**v0.1.15 - 01/30/2023**"
+  },
+  {
+    "row": 140,
+    "rowsha": "VNHmMZqIqzLbXL/S1vL7YLRq/AVJ0mOW2FpUfrQyEmA=",
+    "originContent": "- 数值栏字体固定为Times",
+    "translatedContent": "- La fuente de la barra numérica se fija en Times"
+  },
+  {
+    "row": 141,
+    "rowsha": "+eDmJxRh6u1eQJ4FHOSixokZPYTSMhpPm3SfZdepoCA=",
+    "originContent": "- 设置内添加是否置顶的选项",
+    "translatedContent": "- Se añadió opción para fijar ventana en la configuración"
+  },
+  {
+    "row": 142,
+    "rowsha": "uxJTfBh2IslzkRf9s8ZHgmiwZj3bOmsaSejj05lAOVI=",
+    "originContent": "- 饱食度下降单位时间变为4分钟",
+    "translatedContent": "- La disminución del nivel de hambre cambia a cada 4 minutos"
+  },
+  {
+    "row": 143,
+    "rowsha": "ZymKh26FywMnj4Bxtt4AWgzN5kh0+8cJxXCcjWvtQFw=",
+    "originContent": "- 增加了好感度3级4级的升级奖励",
+    "translatedContent": "- Se añadieron recompensas de nivel 3 y 4 para la afinidad"
+  },
+  {
+    "row": 144,
+    "rowsha": "SKSnTLxzxPOORKure3BG6xN4XP+LI/hBpPmRxSiOWWE=",
+    "originContent": "- 为了简化更新过程，``data``文件夹删除了，首次运行会自动生成。",
+    "translatedContent": "- Para simplificar el proceso de actualización, la carpeta ``data`` fue eliminada y se generará automáticamente en la primera ejecución."
+  },
+  {
+    "row": 145,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 146,
+    "rowsha": "OoUeFD4pfAcZKZvyAYEs5WSOifkDEQtHpUJUUCsdMqc=",
+    "originContent": "**v0.1.14 - 01/29/2023**",
+    "translatedContent": "**v0.1.14 - 01/29/2023**"
+  },
+  {
+    "row": 147,
+    "rowsha": "GWMn83rMXMa/gHM4mQhQqjV30/zfjRCvC9gaFSeprHE=",
+    "originContent": "- 重力加速度最小值变为0.01",
+    "translatedContent": "- El valor mínimo de aceleración por gravedad cambió a 0.01"
+  },
+  {
+    "row": 148,
+    "rowsha": "RcBtyizu0cagfPtZC2sbFrisvFF84ik2goIN8+iUBTc=",
+    "originContent": "- 取消屏幕缩放对宠物大小的影响，用户可以在设置中自行调节",
+    "translatedContent": "- Se canceló el efecto del zoom de pantalla sobre el tamaño de la mascota, el usuario puede ajustar esto en la configuración"
+  },
+  {
+    "row": 149,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 150,
+    "rowsha": "eKensG4XFchPGWrSS6u68dW+X/7OsaFfvTFb81abTGE=",
+    "originContent": "**v0.1.14 - 01/28/2023**",
+    "translatedContent": "**v0.1.14 - 01/28/2023**"
+  },
+  {
+    "row": 151,
+    "rowsha": "cS5f2oGgR4cYIQlSb/rRSsGY1ebPj37pKpxgpP1krhQ=",
+    "originContent": "- 修复了缩放改变时边界判断的bug",
+    "translatedContent": "- Se corrigió el bug en la evaluación de límites al cambiar el zoom"
+  },
+  {
+    "row": 152,
+    "rowsha": "8eXi/9OYD4G7beUdHbmSrgBRA30R9Y+irhUgmLYA5UI=",
+    "originContent": "- 改进了启动语音的选择逻辑",
+    "translatedContent": "- Se mejoró la lógica de selección de la voz de inicio"
+  },
+  {
+    "row": 153,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 154,
+    "rowsha": "qbzKs2zek50BvC4BFtTC1vPq4u6Y1yHwfJ1HMGHIjMI=",
+    "originContent": "**v0.1.14 - 01/27/2023**",
+    "translatedContent": "**v0.1.14 - 01/27/2023**"
+  },
+  {
+    "row": 155,
+    "rowsha": "1bbW2vuVM4c67a5snjWqpoDLOxoo5TBfoSH7GeNtV3s=",
+    "originContent": "- 经过四个月的开发，呆啵宠物-原神版正式上线！",
+    "translatedContent": "- Tras cuatro meses de desarrollo, ¡la mascota Daibo - versión Genshin Impact está oficialmente lanzada!"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "XwqI7l3jE7woyH4LCU8uE3bUMP2/3IOe/KdCLsH4BlU=",
+    "originContent": "## 加入我们  ",
+    "translatedContent": "## Únete a nosotros  "
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si también quieres desarrollar un nuevo conjunto de imágenes, movimientos y objetos para mascotas, puedes consultar el [documento de desarrollo de materiales](https://github.com/ChaozhongLiu/DyberPet/blob/main/docs/art_dev.md) que aún está en proceso, y también eres bienvenido a enviarme un mensaje privado en Bilibili [@哦哟喔嚯](https://space.bilibili.com/39307302) y a [@栎曦_Nuo](https://space.bilibili.com/14004864) para unirte a nosotros y crear juntos."
+  },
+  {
+    "row": 162,
+    "rowsha": "IYM+CpmBT6PIdPXqOyYtAseK1yF1Ae1VGpGd4Lvgr9w=",
+    "originContent": "如果你也想开发一套新的宠物形象、动作、物品，可以参考目前还未完工的[素材开发文档](https://github.com/ChaozhongLiu/DyberPet/blob/main/docs/art_dev.md)，也欢迎B站私信我[@哦哟喔嚯](https://space.bilibili.com/39307302)和[@栎曦_Nuo](https://space.bilibili.com/14004864)，加入我们一起搞事！",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si quieres desarrollar el marco de mascotas Dyber junto con nosotros, no dudes en enviarme un mensaje privado en Bilibili [@哦哟喔嚯](https://space.bilibili.com/39307302), ¡y enfrentemos juntos este gran desafío!"
+  },
+  {
+    "row": 164,
+    "rowsha": "3Hmbp3ucTgpL7y4xdmPsqDzUm9sP+eXzII0RL0Wa204=",
+    "originContent": "如果你想一同开发呆啵宠物框架，欢迎B站私信我[@哦哟喔嚯](https://space.bilibili.com/39307302)，一起勇闯屎山！",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Declaración de derechos de autor"
+  },
+  {
+    "row": 166,
+    "rowsha": "pVZjHYHegBAhodfbQE0D0lapMFd1RsnMSYha48WkCp0=",
+    "originContent": "## 版权声明",
+    "translatedContent": "- Los derechos de autor del material de las mascotas pertenecen a miHoYo, ¡no usar con fines comerciales!"
+  },
+  {
+    "row": 167,
+    "rowsha": "qvD6dm5OonnVDV6iNai/OuoxmLY+UADNzATEzi0zX60=",
+    "originContent": "- 宠物素材版权归米哈游所属，请勿商用！",
+    "translatedContent": "- La división del material y el diseño de movimientos de las mascotas provienen de Bilibili [@栎曦_Nuo](https://space.bilibili.com/14004864). Por favor, indica la fuente al republicar o usar."
+  },
+  {
+    "row": 168,
+    "rowsha": "vVteffaWp73VttfS71Pd8YHNI5Dl2ng9ue84eGrhi1I=",
+    "originContent": "- 宠物素材的拆分和动作设计来自 B站[@栎曦_Nuo](https://space.bilibili.com/14004864)。转载、使用时请注明出处",
+    "translatedContent": "- Dyber Pet sigue la licencia GPL v3.0, al desarrollar o usar, por favor menciona al autor GitHub@ChaozhongLiu"
+  },
+  {
+    "row": 169,
+    "rowsha": "0YQm5jSDwZUiGef9mwgYaTBb2LbkquEb+ztujXV38Uk=",
+    "originContent": "- 呆啵宠物遵循 GPL v3.0 协议，开发、使用时，请注明作者 GitHub@ChaozhongLiu",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
